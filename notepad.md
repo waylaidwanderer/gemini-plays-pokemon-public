@@ -910,21 +910,24 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Scratchpad - Rock Tunnel 1F Southern Exit Route
+# Scratchpad - Rock Tunnel 1F True Exit Route
 
-## Current Position & Direct Exit Route
-- Current Location: Rock Tunnel 1F (x=8, y=8)
-- Goal: Exit Rock Tunnel via South Exit at (37, 17) into Route 10 South / Lavender Town.
+## Definitive Map Topography
+1. Row 14-15 across cols 14-25 is a SOLID ROCK WALL (including protrusions like 17, 15).
+2. South-Central Highway (row 21) is a DEAD-END basin bounded by rock pillar (22..23, 17..23).
+3. The ONLY connection between the western sector and the eastern exit sector is via the NORTH PASSAGE:
+   - Ascend Central Vertical Thoroughfare (cols 8-11) up to row 6.
+   - Cross East along row 6 to col 15 (near North Entrance).
+   - Continue East along the Northern Highway past Ashton (23, 8) to col 24.
+   - Descend South along the Eastern Corridor (col 24) to row 17.
+   - Walk East along row 17 straight out the South Exit at (37, 17)!
 
-## Critical Topology Insight
-- The North Entrance (15, 3), Ashton (23, 8), and Ladder 1 (37, 3) are on the ISOLATED north-eastern plateau.
-- We have already traversed B1F and emerged from Ladder 2 (5, 3) onto the WESTERN / SOUTHERN section of 1F.
-- The South Exit at (37, 17) is reached SOLELY via the Southern Highway (row 21) and Eastern Corridor (col 24, row 17)!
-
-## Exact Step-by-Step Traversal Protocol to Exit (37, 17)
-1. From (8, 8), walk South 13 steps down Central Thoroughfare (col 8) to (8, 21).
-2. Walk East 16 steps along row 21 from (8, 21) to (24, 21).
-3. Walk North 4 steps along col 24 from (24, 21) to (24, 17).
-4. Walk East 13 steps along row 17 from (24, 17) into South Exit at (37, 17) -> Exits to Route 10 South!
+## Step-by-Step Traversal Route
+1. From (17, 16), walk West 9 steps along row 16 to (8, 16).
+2. Walk North 10 steps up Central Thoroughfare to (8, 6).
+3. Walk East 7 steps along row 6 to (15, 6).
+4. Walk East 9 steps along Northern Highway past Ashton to (24, 8).
+5. Walk South 9 steps down col 24 to (24, 17).
+6. Walk East 13 steps along row 17 to (37, 17) (South Exit).
 
 <hr>
