@@ -864,7 +864,7 @@
 ## Verified 1F Bypass & Eastern Corridors (Turn 4301)
 - Rows 14-15 Rock Wall: Continuous solid barrier across cols 18-26.
 - Column 15-16 Boulevard: Wide open vertical passage across rows 11-21 connecting South-Central Highway (row 21) to row 11.
-- Upper East Alcove: Trainer #4 at 1F (23, 11). This is a dead-end pocket, not a ladder.
+- Ladder 3 (Central): Located at (23, 11). Connects down to Rock Tunnel B1F at (23, 11) [Verified Turn 4347].
 - Eastern Thoroughfare (cols 34-37): Open vertical corridor extending south from Ladder 1 at (37, 3).
 
 <hr>
