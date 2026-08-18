@@ -912,16 +912,17 @@
 
 # Scratchpad - Rock Tunnel 1F True Exit Route
 
-## Current Status & Location
-- Current Location: Rock Tunnel 1F (x=23, y=11)
-- Target: South Exit at (37, 17) leading to Route 10 South and Lavender Town.
+## Definitive Map Topology (Verified)
+- Cols 18-19 have a vertical rock wall at rows 6-9.
+- Cols 15-17 form an open 3-tile wide vertical highway from row 14 all the way to row 3 (North Entrance corridor).
+- Row 3 is the open Northern Highway spanning cols 15 to 37 (past Ashton and Ladder 4 to Ladder 1).
+- Col 37 is the Eastern Corridor running from row 3 south to (37, 17) (South Exit).
 
-## Topography & Route
-1. From (23, 11), bypass the central-east rock block (cols 20-23, rows 8-9) by stepping west to col 19.
-2. Ascend north along col 19 to row 6 (North Highway).
-3. Walk east across row 6 over the rock divider (cols 24-25) into the Eastern Corridor (cols 26-28).
-4. Descend south along Eastern Corridor to row 17.
-5. Walk east along row 17 to (37, 17) to exit Rock Tunnel!
+## Exact Step-by-Step Traversal Protocol to Exit (37, 17)
+1. From (19, 10), walk West 2 steps to (17, 10).
+2. Walk North 7 steps up col 17 to (17, 3) (Northern Highway).
+3. Walk East 20 steps along row 3 to (37, 3) (Ladder 1 sector).
+4. Walk South 14 steps down col 37 to (37, 17) -> Exit to Route 10 South!
 
 
 <hr>
