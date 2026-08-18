@@ -31,3 +31,17 @@
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
+## Empirical Collision Bounds & Topology (Verified Turns 5082-5130)
+- Solid Vertical Rock Wall: Columns 24-25 span continuously from row 1 to row 14, dividing the western/central sectors from the eastern sector.
+- Solid Horizontal Rock Walls:
+  - Rows 14-15 across cols 20-28 (separates central pocket from lower highway).
+  - Rows 8-9 across cols 20-23 (separates row 7 from row 10 at col 20-23).
+  - Rows 22-23 across cols 2-7 and cols 12-13.
+- Ladders:
+  - Ladder 1 (North-East): Located at (37, 3). Connects to B1F (33, 25).
+  - Ladder 2 (North-West): Located at (3, 3). Connects to B1F (37, 17) [Verified Turn 4921 & 5082].
+  - Ladder 3 (Central-Pocket): Located at (23, 11). Connects down to B1F central sector.
+  - Ladder 4 (East of Divider): Located at (27, 3). Connects down to B1F (5, 3) [Verified Turn 4364].
+- Connecting Passages:
+  - Western Vertical Passage (cols 16-17, rows 7-13): Connects row 7 upper highway to row 13 central pocket.
+  - Row 13 Horizontal Passage (cols 16-23): Connects western passage to Ladder at (23, 11).
