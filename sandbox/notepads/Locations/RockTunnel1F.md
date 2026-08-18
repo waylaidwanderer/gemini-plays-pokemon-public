@@ -5,6 +5,7 @@
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3).
+- Ladder 3 (Central-East): Located at (23, 11). Connects down to Rock Tunnel B1F.
 - Ladder 4 (North-Central): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 
 ## Verified Corridors & Collision Bounds

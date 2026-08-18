@@ -1,19 +1,15 @@
-# Scratchpad - Rock Tunnel 1F Systematic Exploration & Exit Route
+# Scratchpad - Rock Tunnel True Dungeon Topology & Exit Route
 
-## Current Status & Active Coordinates
-- Current Position: Rock Tunnel 1F (x=17, y=12)
-- Target: Discover and verify the passable corridor connecting Central Chamber (cols 14-23) to Eastern Sector (cols 26-37) and South Exit (37, 17).
+## Definitive Dungeon Architecture (4-Ladder Solution)
+1F and B1F are partitioned into distinct sectors connected by 4 ladders:
+- **Ladder 1**: 1F (37, 3) <-> B1F (33, 25) [Entrance Sector]
+- **Ladder 2**: B1F (27, 3) <-> 1F (5, 3) [Northwest Sector]
+- **Ladder 3**: 1F (23, 11) <-> B1F (??, ??) [Central-East Transition Ladder]
+- **Ladder 4**: B1F (5, 3) <-> 1F (27, 3) [Exit Sector Ladder]
+- **South Exit**: 1F (37, 17) -> Exits to Route 10 South (Lavender Town)
 
-## Empirically Verified Collision Bounds
-- (18..23, 8..9): Rock formation
-- (18..23, 14..15): Rock wall dividing row 13 from southern corridor
-- (22..23, 16..22): Solid vertical rock pillar (Verified Turn 4771)
-- (24..25, 2..7): Vertical rock wall dividing cols 19-23 from cols 26-28
-- (17, 15): Solid rock protrusion
-
-## Systemic Boundary Probing Protocol
-1. From (17, 12), walk East 6 steps along verified open row 12 to (23, 12).
-2. At (23, 12), probe:
-   a) Step East to test if (24, 12)/(24, 13) allows passage into Eastern Sector (cols 26-28).
-   b) Step North to (23, 11) to inspect the ladder/feature at (23, 11).
-   c) If blocked, probe south down col 20-21 into row 24 basin to check connections to col 24-25.
+## Current Progression Step
+- Player is at (23, 12) directly below Ladder 3 at (23, 11).
+- Action: Step UP onto Ladder 3 at (23, 11) to descend to B1F.
+- On B1F: Traverse to Ladder 4 at (5, 3) and ascend to 1F at (27, 3).
+- From 1F (27, 3): Walk down the Eastern Corridor to South Exit at (37, 17).
