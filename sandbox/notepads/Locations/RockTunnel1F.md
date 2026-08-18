@@ -45,3 +45,4 @@
   - Vertical avenue runs along cols 20-23 connecting row 4 down to row 13.
   - Column 37 runs north-south from Ladder 1 at (37, 3) down to row 13.
   - Ladder routing via B1F is mandatory to access the South Exit at (37, 17).
+- PokéManiac #3: Located at (3, 8) in the Western Corridor. Dialogue: "You have a POKéDEX? I want one too!"
