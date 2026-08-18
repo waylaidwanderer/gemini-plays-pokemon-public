@@ -55,7 +55,7 @@
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 4. SPROUT (Bellsprout) - Lv 15
-   - Stats: Max HP 42 (HP: 14/42 PAR), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 42 (HP: 0/42 FNT), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
