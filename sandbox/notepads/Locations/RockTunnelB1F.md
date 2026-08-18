@@ -9,7 +9,7 @@
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F (Exit Sector) <-> North-West B1F | Turn 4364 |
 
 ## Connections & Warps
-- Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3).
+- Ladder 1 (South-East): Located at (33, 25). Connects down from Rock Tunnel 1F at (37, 3). Note: Landing tile (33, 25) tested on Turn 5584; does not trigger an ascending warp directly from (33, 25).
 - Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3).
 - Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 4921 & 5079].
 - Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
