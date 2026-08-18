@@ -14,3 +14,5 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
 - **Remaining Badge:** 1 (Earth Badge - Giovanni at Viridian Gym).
 - **Silph Co. HQ Goal:** Clear Silph Co. to unlock the Viridian City Gym so we can challenge Giovanni for the final badge.
+- **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
+- **Card Key Verification Test (Turn 44613):** Interacting with Saffron Silph Co 5F electronic gate at `(21, 13)` without the Card Key resulted in no access, confirming its absolute absence prior to retrieval.
