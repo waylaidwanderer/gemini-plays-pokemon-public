@@ -16,3 +16,6 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **Silph Co. HQ Goal:** Clear Silph Co. to unlock the Viridian City Gym so we can challenge Giovanni for the final badge.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 - **Card Key Verification Test (Turn 44613):** Interacting with Saffron Silph Co 5F electronic gate at `(21, 13)` without the Card Key resulted in no access, confirming its absolute absence prior to retrieval.
+## Obtained LAPRAS (SELKIE) (Turn 44831)
+- Received LAPRAS (nicknamed **SELKIE**) from Silph Co. 7F employee at `(1, 5)` on Turn 44831.
+- Since our party was full, SELKIE was automatically sent to **PC Box 4**.
