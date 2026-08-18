@@ -917,11 +917,14 @@
 
 # Scratchpad - Rock Tunnel Complete Verified Routing
 
-## Step-by-Step Route to Lavender Town
-1. At 1F (27, 4): Walk Left 4 steps to (23, 4), then Down 7 steps to Ladder 3 at (23, 11).
-2. Take Ladder 3 at (23, 11) DOWN to B1F at (17, 11).
+## Complete Step-by-Step Route to Lavender Town
+1. At 1F (37, 12): Walk 9 steps Up to Ladder 1 at (37, 3).
+2. Take Ladder 1 at (37, 3) DOWN to B1F at (33, 25).
 3. On B1F:
-   - From B1F (17, 11), navigate south to South Highway (row 31) / west to Ladder 2 at (27, 3).
+   - Walk from (33, 25) South 6 steps to row 31: (33, 31).
+   - Walk West along row 31 (South Highway) 18 steps to (15, 31).
+   - Walk North through vertical connector (col 15, rows 28-29) into Upper South Corridor (15, 27).
+   - Follow verified path to Ladder 2 at (27, 3).
 4. Take Ladder 2 at B1F (27, 3) UP to 1F at (5, 3).
 5. On 1F (Western & Southern Sector):
    - From (5, 3), walk South down col 5 to (5, 14).
