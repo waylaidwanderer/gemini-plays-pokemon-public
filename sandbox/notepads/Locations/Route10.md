@@ -1,0 +1,22 @@
+# Route 10 - Points of Interest & Topology
+
+## Connections
+- West: Route 9 at (0, 8..9) / (0..14, 5..9)
+- North: Power Plant waterway (accessed via canal at col 16)
+- South: Rock Tunnel North Entrance at (14..15, 31)
+
+## Layout & Landmarks
+- Upper Courtyard (rows 16-29, cols 9-15):
+  - Route 10 Pokémon Center located at cols 10-13, rows 16-19 with entrance door at (11, 19).
+  - Open courtyard spanning rows 20-29 across cols 10-14.
+  - Cut Bush at (8, 25): Connects eastern Pokémon Center courtyard to western Route 10 thoroughfare. Requires HM01 Cut.
+  - Row 30 Ledge / Cliff: Impassable ledge/cliff across cols 7-12 separating upper courtyard from lower cave path.
+- Western Thoroughfare & Lower Path (cols 0-8, rows 20-33 & rows 31-33, cols 7-15):
+  - North-south path along col 7 past Jr. Trainer Carol at (7, 25).
+  - Lower horizontal road at rows 31-32 connecting west path across cols 7-15 directly into the Rock Tunnel cave entrance at (14..15, 31).
+
+## Buildings & Points of Interest
+- Route 10 Pokémon Center: Located at (11, 19). Healing station and respawn point outside Rock Tunnel.
+
+## Verified Trainers & Encounters
+- Jr. Trainer Female Carol: Located at (7, 25) [Defeated Turn 3088]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
