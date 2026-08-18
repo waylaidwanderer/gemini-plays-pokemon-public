@@ -7,7 +7,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - BITE
 - ICE BEAM
 - SURF (HM03)
-- STRENGTH (HM04)
+- HYDRO PUMP
 ## Badge Status & Gym Clearances (Updated Turn 43982)
 - **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.

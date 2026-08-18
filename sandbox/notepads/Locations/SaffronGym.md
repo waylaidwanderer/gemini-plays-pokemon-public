@@ -68,3 +68,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - BL: `(9, 5)`
   - BR: `(11, 5)`
 - **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
+
+### 8. Center Room (Sabrina's Room, Room 7)
+- **Arrival Position:** Landed on BR pad at `(11, 11)`.
+- **Warp Pads:**
+  - BR: `(11, 11)`
+- **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
