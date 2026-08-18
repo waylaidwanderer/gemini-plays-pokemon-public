@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=34, y=20)
+- Location: Rock Tunnel 1F (x=3, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -826,7 +826,7 @@
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
-- Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3).
+- Ladder 2 (North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turn 4921 & 5082].
 - Ladder 4 (North-Central): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 
 ## Verified Corridors & Collision Bounds
@@ -918,21 +918,16 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Scratchpad - Rock Tunnel Traversal to Exit
+# Scratchpad - Rock Tunnel 1F Direct Route to South Exit
 
-## Current Traversal Plan (From 29, 24)
-1. At (29, 24), move Down x4 to row 28 at (29, 28).
-2. Move Right x5 across open row 28 bypass to (34, 28).
-3. Move North up col 34 past row 20 to row 12 (34, 12).
-4. Move North/West around divider at rows 8-9 to row 3 (27, 3).
-5. Ascend Ladder 2 at (27, 3) to Rock Tunnel 1F (5, 3).
-6. On 1F, follow southern thoroughfare (row 21 -> col 24 -> row 17) to South Exit at (37, 17).
-7. Emerge onto Route 10 South and proceed south to Lavender Town Pok�mon Center.
-
-## Verified B1F Corridor Geometry
-- Row 28 bypass (cols 28-34): Open horizontal bypass around rock wall at (30..31, 20..27).
-- East Corridor (col 34, rows 5-28): Clear continuous vertical thoroughfare.
-- North Highway (rows 2-5, cols 27-35): Open corridor connecting to Ladder 2 at (27, 3).
+## Active Route (Starting at 3, 3 on 1F)
+1. At (3, 3), walk Down x11 along western corridor to row 14 at (3, 14).
+2. Walk Right x7 along Middle Highway to col 10 at (10, 14).
+3. Walk Down x7 down Central Vertical Thoroughfare to row 21 at (10, 21).
+4. Walk Right x14 along South Highway to col 24 at (24, 21).
+5. Walk Up x4 up col 24 to row 17 at (24, 17).
+6. Walk Right x13 along row 17 straight into South Exit at (37, 17)!
+7. Step outside to Route 10 South and walk south into Lavender Town to heal at Pok�mon Center.
 
 
 <hr>
