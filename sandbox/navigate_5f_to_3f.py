@@ -34,10 +34,11 @@ def move_to(target_x, target_y):
         
     return True
 
-# 1. Waypoints to the elevator on 5F (updated with Column 15 vertical path)
+# 1. Waypoints to the elevator on 5F (updated with the southern corridor path via Column 24)
 waypoints_5f = [
-    (15, 14),
-    (15, 5),
+    (15, 16),
+    (24, 16),
+    (24, 5),
     (22, 5),
     (22, 3),
     (20, 3),
