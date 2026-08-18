@@ -1,9 +1,10 @@
 # Rock Tunnel B1F - Points of Interest & Topology
 
 ## Connections & Warps
-- Ladder 1 (North-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3) [Verified Turn 3460].
-- Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 3523].
-- Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3) [Verified Turn 4364].
+- Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3).
+- Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3).
+- Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) / (5, 3) [Verified Turn 4921 & 5079].
+- Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
 
 ## Verified Layout & Corridors
 1. South-East Entry Corridor (rows 25-33, cols 26-35):
