@@ -40,6 +40,37 @@
 
 <h1><code>Locations/ViridianCity</code></h1>
 
+# Viridian City - Overworld Layout & Mapping
+
+## Map Connections & Transitions
+- **North Connection (Route 2):**
+  - Player enters Viridian City at `(18, 0)` (north-center) from Route 2.
+- **South Connection (Route 1):**
+  - Leads south to Route 1.
+- **West Connection (Route 22):**
+  - Leads west to Route 22 (League Front Gate).
+
+## Key Landmarks & Buildings
+- **Viridian Pok�mon Center:** Located at `(23, 25)`.
+- **Viridian Pok� Mart:** Located at `(29, 19)`.
+- **Viridian City Gym:**
+  - Located in the northeast quadrant.
+  - Entrance door is at `(32, 7)`, facing SOUTH.
+  - It is currently UNLOCKED (unlocked once 7 badges are possessed and Silph Co. is cleared).
+
+## Ledges, Barriers, & Gym Pathing (Verified Turn 45564 - 45569)
+- **Ledge Row 9:**
+  - A horizontal ledge facing south stretches across columns 24 to 32 at Row 9.
+  - **Gen 1 Ledge Mechanics:** These tiles are completely impassable horizontally and act as solid walls when approached from the left, right, or south.
+- **Gym Blockage NPC:**
+  - A stationary green-jacketed NPC stands at `(30, 8)` facing UP, completely blocking Row 8.
+- **Ledge Bypass & Gym Access Route (North-East Winding Path):**
+  - Because Row 8 is blocked by the NPC and Row 9 is an impassable ledge horizontally, the Gym door at `(32, 7)` cannot be reached directly from the west on Row 8 or 9.
+  - **Path to Entrance:**
+    1. From `(18, 3)` / `(18, 4)` on the main western road, walk EAST along Row 3 (above the Gym roof) past the tree wall to Column 34.
+    2. Walk DOWN Column 34 to Row 8 (completely open pavement on the east side of the Gym).
+    3. Walk LEFT along Row 8 to `(32, 8)` (directly in front of the Gym door).
+    4. Walk UP 1 step into the door at `(32, 7)` to enter!
 
 
 <hr>
@@ -213,7 +244,6 @@ Do not double-escape the backslashes inside normal python string literals unless
   - Another horizontal one-way ledge facing south across Columns 14-19. Jumped down on Turn 45532.
 - **Row 43 Ledge:**
   - Horizontal one-way ledge facing south on the main southern road of Route 2. Jumped down on Turn 45537.
-- **Current Position (Turn 45541):**
   - Standing on Route 2 main southern road at `(14, 51)`. Directly south at `(13, 54)` is an item Pok�ball on the ground.
 
 
@@ -277,13 +307,15 @@ Do not double-escape the backslashes inside normal python string literals unless
 
 # Route 6 - Overworld Mapping & Navigation
 
-## Map Connections & Transitions
-- **North Connection (Saffron City):** Transitions through Saffron South Gatehouse.
+## Map Connections & Saffron South Gatehouse Transitions
+- **North Connection (Saffron City):** Transitions through the Saffron South Gatehouse.
   - Saffron South Gatehouse Entrance (from Saffron) is at Column 18, Row 39.
-  - Inside Saffron South Gatehouse, the northern mat is at `(3, 0)` and `(4, 0)`. The southern mat is at `(3, 5)` and `(4, 5)`.
-  - Exiting south from the gatehouse doormat at `(3, 5)` drops the player onto Route 6 at `(10, 8)`.
+  - **Inside Saffron South Gatehouse (Map ID 45):**
+    - The northern doormats are at `(3, 0)` and `(4, 0)`. Exiting north warps the player inside Saffron City at `(18, 39)`.
+    - The southern doormats are at `(3, 5)` and `(4, 5)`. Exiting south warps the player to Route 6 at `(10, 8)`.
+  - **Turn 45221 Transition:** Player exited south from the gatehouse doormat at `(3, 5)` and dropped onto Route 6 at `(10, 8)`.
+
 - **South Connection (Vermilion City):** Transitions directly south into Vermilion City.
-  - The walkable path at the bottom of Route 6 is on Column 9.
   - Moving down from `(9, 35)` on Route 6 transitions the player to Vermilion City at `(19, 0)`.
 
 ## Physical Layout & Obstacles
@@ -291,8 +323,7 @@ Do not double-escape the backslashes inside normal python string literals unless
 - **Row 14 Tree Barrier:** Solid tree wall blocks direct vertical passage on Column 10 on Row 14. Bypass this by walking right to Column 14.
 - **Central Pond & Slalom Paths:** A large pond blocks central movement on Rows 24-30 (Columns 10-13). There is tall grass on the right side (Column 14) and paths.
 - **Row 32 Fence Blockage:** Row 32 is completely blocked horizontally by solid grey fence blocks (Columns 12-19) and solid green trees (Columns 20-24). The ONLY walkable gap to bypass this barrier and proceed south is on the left side of the route, on Columns 8 and 9 (which consist of open grey paths).
-- **Saffron-bound Couple Trainers:** Two stationary trainers stand facing each other at `(10, 21)` (Camper) and `(11, 21)` (Picnicker), but they do not challenge players walking down Column 14.
-- **Other Trainers:** A Camper at `(14, 26)` facing UP and a Picnicker at `(19, 26)` facing LEFT block central ground columns, but can be easily bypassed by walking around them (e.g. through columns 15 or 16).
+
 
 <hr>
 
