@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 10 (x=11, y=20)
+- Location: Rock Tunnel B1F (x=20, y=22)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -39,21 +39,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 52/54), Attack 45, Defense 50, Speed 20, Special 19
-   - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Physical Rock/Ground tank (Active Lead)
+1. HYDROS (Blastoise) - Lv 37
+   - Stats (Verified at Lv 37): Max HP 121 (HP: 121/121), Attack 80, Defense 90, Speed 83, Special 86
+   - Type: Water
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
-3. HYDROS (Blastoise) - Lv 37
-   - Stats (Verified at Lv 36): Max HP 121 (HP: 5/121), Attack 80, Defense 90, Speed 83, Special 86 [Verified Turn 3836]
-   - Type: Water
-   - Moves: Tackle (1/35), Tail Whip (28/30), Bite (21/25), Bubblebeam (0/20)
-   - Role: Starter & primary Water special attacker (Reserve)
+3. TERRA (Geodude) - Lv 21
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Type: Rock / Ground
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
+   - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 4. SPROUT (Bellsprout) - Lv 15
    - Stats (Verified at Lv 15): Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
@@ -834,8 +834,10 @@
 - Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3).
 
 ## Verified Corridors & Collision Bounds
-1. North Entrance Corridor (rows 2-5, cols 15-37):
-   - East-west passage connecting entrance (15, 3) to Ladder 1 at (37, 3).
+1. North Entrance Corridor (rows 2-7, cols 15-31):
+   - East-west passage running from entrance (15, 3) east to col 31.
+   - Blocked at cols 32-33 by solid rock pillar (rows 4-7).
+   - Southern bypass: Head south at col 22 past PokéManiac Ashton at (23, 8) to row 10 highway, then east to cols 34-37 and north to Ladder 1 at (37, 3).
 2. Western Upper Corridor (rows 3-15, cols 4-5):
    - Vertical passage running south from Ladder 2 (5, 3) down to (5, 15).
 3. Middle Highway (row 14, cols 2-17):
@@ -855,13 +857,9 @@
 ## Verified Trainers & Encounters
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Pre-battle dialogue: "Hahaha! Can you beat my power?" Defeat quote: "Oops! Out-muscled!" Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21.
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
-- Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: �665.
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
 - Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Trainer #4: Located at (23, 11) in Upper East Alcove.
-
-
-- Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: ��665. Dialogue: 'This tunnel goes a long way, kid!' Defeat quote: 'Doh! You win!'
 
 
 <hr>
