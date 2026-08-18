@@ -1691,7 +1691,7 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
   - Row 16 is fully open and walkable from Column 11 to Column 28, allowing players to walk East from the entrance to Saffron's eastern elevators.
   - Column 28 is fully open vertically from Row 16 up to Row 8.
   - Row 8 is open horizontally from Column 24 to Column 28.
-- **Elevator Doors:** Located at `(18, 10)` and `(19, 10)`. The doors face SOUTH. Walk UP from `(18, 11)` or `(19, 11)` to enter/interact with the elevator.
+- **Elevator Doors:** Located at `(20, 0)`. The doors face SOUTH. Walk UP from `(20, 1)` to enter/interact with the elevator (access path on Row 3 is completely open, but Row 4 is blocked at Column 20 by a terminal desk, so bypass it via Column 21 on Row 3).
 
 ## Saffron Silph Co. Upper Floors (2F - 5F) - PARTIALLY VERIFIED (Turn 43939-44076)
 - **Staircases:** Located at alternating Columns 24 and 26 on Row 0 (e.g. 5F stairs are at `(26, 0)`).
