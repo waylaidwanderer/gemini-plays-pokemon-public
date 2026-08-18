@@ -40,6 +40,13 @@
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
 ## Empirical Collision Bounds & Corridor Mapping
+- Solid Horizontal Rock Walls:
+  - Rows 14-15 across cols 20-37.
+  - Rows 22-23 across cols 6-23.
+- Solid Vertical Rock Walls:
+  - Cols 30-31 across rows 16-27.
+  - Cols 22-23 across rows 16-23.
+  - Cols 6-8 across rows 28-30.
 - Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
 - Solid Western Boundary: Cols 0-1 (rows 26-34).
 - Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin.

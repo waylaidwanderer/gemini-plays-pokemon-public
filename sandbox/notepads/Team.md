@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 56/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
+   - Stats (Verified at Lv 40): Max HP 132 (HP: 52/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
    - Type: Water
-   - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (7/20)
+   - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (4/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 0/26 FNT)
@@ -12,7 +12,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
 3. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 54/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
