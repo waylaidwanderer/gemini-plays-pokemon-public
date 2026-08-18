@@ -21,6 +21,3 @@
 - Bug Catcher Conner: Located at (40, 8) [Defeated Turn 3044]. Team: Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Reward: ¥190. Dialogue: "Go, my super bug POKéMON!"
 - Trainer #4: Located at (45, 15) in the eastern lower corridor facing Left.
 
-- Eastern Ascent at (29, 13): Connects the eastern lower lawn (row 14) directly up to the main highway (row 12) [Discovered and Verified Turn 3037].
-- Northern Highway (rows 6-7): Wide thoroughfare connecting the northern corridor from col 37 all the way east past col 56 directly into Route 10 [Verified Turn 3038].
-- Eastern Route 9 Exit to Route 10: Located at cols 59-60, rows 6-9 [Verified Turn 3054].
