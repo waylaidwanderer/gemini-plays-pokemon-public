@@ -3,7 +3,7 @@
 ## Connections & Warps
 - Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3).
 - Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3).
-- Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) / (5, 3) [Verified Turn 4921 & 5079].
+- Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 4921 & 5079].
 - Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
 
 ## Verified Layout & Corridors
