@@ -913,7 +913,7 @@
 # Scratchpad - Rock Tunnel 1F Southern Exit Route
 
 ## Current Position & Active Route
-- Current Location: Rock Tunnel 1F (x=18, y=18)
+- Current Location: Rock Tunnel 1F (x=13, y=18)
 - Active Plan: Head west along row 18 to Central Thoroughfare (cols 8-11), ascend north to the North Highway (rows 3-7), cross east past Ashton (23, 8) into the Eastern Corridor (col 24), descend to row 17, and exit east to (37, 17).
 
 ## Empirical Collision Matrix (Physically Verified Coordinates)
