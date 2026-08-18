@@ -19,7 +19,7 @@
 4. SPROUT (Bellsprout) - Lv 15
    - Stats: Max HP 42 (HP: 14/42 PAR), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
-   - Moves: Vine Whip, Growth, Wrap, PoisonPowder, Cut
+   - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 5. HYDROS (Blastoise) - Lv 40
    - Stats (Verified at Lv 40): Max HP 132 (HP: 25/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
