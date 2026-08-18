@@ -2008,5 +2008,34 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - BL: `(15, 5)` - **Target Warp Pad** (alternating rule step 3)
   - BR: `(19, 5)`
 - **Trainer:** Psychic at `(17, 2)` (Currently battling on Turn 45692. Has Kadabra Lv31).
+### 5. NW Room (Top-Left, Room 4)
+- **Arrival Position:** Landed on TL pad at `(1, 3)`.
+- **Warp Pads:**
+  - TL: `(1, 3)`
+  - TR: `(5, 3)`
+  - BL: `(1, 5)`
+  - BR: `(5, 5)` - **Target Warp Pad** (alternating rule step 4)
+- **Trainer:** Psychic at `(3, 3)` (Defeated on Turn 45715. Had Kadabra Lv31, Slowpoke Lv31, Mr. Mime Lv31, and Slowbro Lv38).
+- **Transition:** Stepping on BR `(5, 5)` warps the player to `(1, 11)` inside the W Room.
+
+### 6. W Room (Middle-Left, Room 5)
+- **Arrival Position:** Landed on BL pad at `(1, 11)`.
+- **Warp Pads:**
+  - TL: `(1, 9)`
+  - TR: `(5, 9)` - **Target Warp Pad** (alternating rule step 5)
+  - BL: `(1, 11)`
+  - BR: `(5, 11)`
+- **Trainer:** Channeler at `(3, 7)` (Defeated on Turn 45725. Had Haunter Lv38).
+- **Transition:** Stepping on TR `(5, 9)` warps the player to `(9, 5)` inside the N Room.
+
+### 7. N Room (North-Center, Room 6)
+- **Arrival Position:** Landed on BL pad at `(9, 5)`.
+- **Warp Pads:**
+  - TL: `(9, 3)`
+  - TR: `(11, 3)` - **Target Warp Pad** (alternating rule step 6)
+  - BL: `(9, 5)`
+  - BR: `(11, 5)`
+- **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
+
 
 <hr>
