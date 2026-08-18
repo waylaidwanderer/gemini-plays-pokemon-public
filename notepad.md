@@ -40,7 +40,7 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 132/132), Attack 89, Defense 98, Speed 90, Special 94
+   - Stats (Verified at Lv 40): Max HP 132 (HP: 129/132), Attack 89, Defense 98, Speed 90, Special 94
    - Type: Water
    - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Lead)
@@ -60,7 +60,7 @@
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 5. ATLAS (Machop) - Lv 15
-   - Stats: Max HP 49 (HP: 49/49)
+   - Stats: Max HP 49 (HP: 8/49)
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
@@ -833,7 +833,6 @@
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2 (North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turn 4921 & 5082].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
-- Intra-Floor Warp: (17, 11) <-> (23, 11). Two-way tunnel connecting western pocket to central pocket on 1F [Verified Turn 5154].
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
@@ -862,6 +861,15 @@
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: �420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: �735.
 
+## Empirical Collision Bounds & Corridor Mapping (1F)
+- Solid Horizontal Rock Walls:
+  - Rows 14-15 form a continuous impassable solid rock wall across cols 20-37, blocking any direct south traversal from row 13.
+  - Rows 8-9 rock formations at cols 14-19 and cols 24-26.
+- Open Corridors:
+  - Rows 10-13 form a continuous open horizontal highway across cols 20-37.
+  - Vertical avenue runs along cols 20-23 connecting row 4 down to row 13.
+  - Column 37 runs north-south from Ladder 1 at (37, 3) down to row 13.
+  - Ladder routing via B1F is mandatory to access the South Exit at (37, 17).
 
 <hr>
 
@@ -929,15 +937,12 @@
 
 # Rock Tunnel Routing & Traversal Plan
 
-## Active Progression Route (Route 10 -> Rock Tunnel -> Lavender Town)
-1. At (9, 25) on Route 10, use SPROUT's Cut to clear bush at (8, 25).
-2. Walk Left to (7, 25), Down along col 7 to row 31, and East to (15, 31) to enter Rock Tunnel 1F North Entrance.
-3. On 1F: Walk East along top corridor (row 3) to Ladder 1 at (37, 3). Descend to B1F (33, 25).
-4. On B1F: Walk West along lower highway (row 31) to col 3-5, North to Ladder 4 at (5, 3). Ascend to 1F at (27, 3).
-5. On 1F: Walk to Ladder 2 at (3, 3). Descend to B1F at (37, 17).
-6. On B1F: Walk South to Ladder 1 at (33, 25). Ascend to 1F Eastern Sector at (37, 3).
-7. On 1F Eastern Sector: Walk South along col 37 to South Exit at (37, 17).
-8. Exit to Route 10 South and proceed directly into Lavender Town to heal at Pokémon Center!
+## Active Progression Route (Current Position: 1F (27, 13) -> B1F -> Lavender Town)
+1. On 1F (27, 13): Walk North along col 27 to Ladder 4 at (27, 3) [OR East to col 37 and North to Ladder 1 at (37, 3)].
+2. Descend ladder to Rock Tunnel B1F.
+3. On B1F: Follow the verified B1F highway to the ladder connecting to the 1F South Exit sector.
+4. Ascend to 1F and proceed directly to South Exit at (37, 17).
+5. Exit to Route 10 South and proceed into Lavender Town to heal at Pokémon Center!
 
 
 <hr>
