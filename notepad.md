@@ -3,7 +3,7 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Active Objectives & Milestones
-- **Primary Goal:** Clear Silph Co. HQ to unblock Viridian City Gym so we can challenge Giovanni for the final badge.
+- **Primary Goal:** Defeat Gym Leader Giovanni at Viridian City Gym for the final Earth Badge.
 - **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
 - **Saffron City Gates & Gym:** Permanently unlocked and cleared! Sabrina is defeated and Marsh Badge is possessed.
