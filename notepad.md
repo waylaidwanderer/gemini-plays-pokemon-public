@@ -46,10 +46,9 @@
 
 <h1><code>Progression_And_Party_Stats</code></h1>
 
-## TRUFFLE (Paras) Submenu Indices (Verified Turn 41337)
-- **Option 1:** DIG
-- **Option 2:** CUT
-Use these exact indices in all menu-based macro scripts to ensure correct move selection.
+## TRUFFLE (Paras) Submenu Indices (Updated Turn 45332)
+- Option 1: CUT
+The currently active Paras in our party only knows CUT (forgot SCRATCH to learn CUT on Turn 45329). It does NOT know DIG.
 
 ## SHELLBY (Blastoise) Moveset (Verified Turn 42694)
 - BITE
