@@ -861,10 +861,11 @@
 - Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Trainer #4: Located at (23, 11) in Upper East Alcove.
 
-## Verified 1F Bypass & Eastern Highway Corridor (Turn 4301)
+## Verified 1F Bypass & Eastern Corridors (Turn 4301)
 - Rows 14-15 Rock Wall: Continuous solid barrier across cols 18-26.
-- Column 17 Chute: Open north-south passage across rows 11-21 connecting South-Central Highway (row 21) to row 11.
-- Eastern Highway Access: From (17, 11), walk east across row 11 past (23, 11) to col 25, then south down cols 24-26 (rows 12-33) to the south exit.
+- Column 15-16 Boulevard: Wide open vertical passage across rows 11-21 connecting South-Central Highway (row 21) to row 11.
+- Upper East Alcove: Trainer #4 at 1F (23, 11). This is a dead-end pocket, not a ladder.
+- Eastern Thoroughfare (cols 34-37): Open vertical corridor extending south from Ladder 1 at (37, 3).
 
 <hr>
 
