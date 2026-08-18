@@ -108,13 +108,13 @@
 1. HYDROS (Blastoise) - Lv 41
 
 
-   - Stats (Verified at Lv 41): Max HP 135 (HP: 111/135), Attack 91, Defense 101, Speed 93, Special 96
+   - Stats (Verified at Lv 41): Max HP 135 (HP: 108/135), Attack 91, Defense 101, Speed 93, Special 96
 
 
    - Type: Water
 
 
-   - Moves: Tackle (14/35), Tail Whip (30/30), Bite (19/25), Bubblebeam (0/20)
+   - Moves: Tackle (13/35), Tail Whip (30/30), Bite (19/25), Bubblebeam (0/20)
 
 
    - Role: Starter & primary Water special attacker (Lead)
