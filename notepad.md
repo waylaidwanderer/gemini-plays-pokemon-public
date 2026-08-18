@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=22, y=10)
+- Location: Rock Tunnel 1F (x=10, y=18)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -809,7 +809,6 @@
 - Upper Courtyard (rows 16-29, cols 9-15):
   - Route 10 Pokémon Center located at cols 10-13, rows 16-19 with entrance door at (11, 19).
   - Open courtyard spanning rows 20-29 across cols 10-14.
-  - Cut Bush at (8, 25): Connects eastern Pokémon Center courtyard to western Route 10 thoroughfare. Requires HM01 Cut.
   - Row 30 Ledge / Cliff: Impassable ledge/cliff across cols 7-12 separating upper courtyard from lower cave path.
 - Western Thoroughfare & Lower Path (cols 0-8, rows 20-33 & rows 31-33, cols 7-15):
   - North-south path along col 7 past Jr. Trainer Carol at (7, 25).
@@ -832,7 +831,7 @@
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
-- Ladder 2 (North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turn 4921 & 5082].
+- Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3) [Verified Turn 5412].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 
 ## Verified Corridors & Collision Bounds
