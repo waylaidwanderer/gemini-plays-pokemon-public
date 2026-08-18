@@ -22,7 +22,7 @@
   - Defeated NPCs: Scientist at `(24, 8)`, Rocket Grunt at `(20, 7)` (Card Key hint), and Rocket Grunt at `(8, 16)` are defeated.
   - Pokémon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POKéMON evolve only when traded by link-cable."
 
-- **Card Key:** Needed to unlock Saffron Silph Co. electronic gates. (Note: It was verified absent in inventory on Turn 43976).
+- **Card Key:** Verified present in Bag (under TM09) on Turn 44954. No longer missing.
 ## Saffron Silph Co. 3F Layout & Traversal (Verified Turn 44357-44374)
 - **Elevator entrance:** `(20, 0)` (Warp 3)
 - **Teleporter 1 (Warp 5):** `(3, 3)` -> Warps to `SILPH_CO_5F` Warp 6 at `(11, 5)`.
@@ -37,8 +37,10 @@
   - Walk left along Row 16 to Column 3 `(3, 16)`.
   - Walk up Column 3 to `(3, 15)` to warp directly to Saffron Silph Co. 5F Left Compartment, landing directly next to the Card Key!
 
-## Saffron Silph Co. 3F Gate & Teleporter Discoveries (Verified Turn 44760)
-- **Electronic Gate:** Located at `(17, 8)` on 3F. Unlocked with the Card Key on Turn 44760!
+## Saffron Silph Co. 3F Gate & Teleporter Discoveries (Verified Turn 44760-45021)
+- **Electronic Gate 1:** Located at `(17, 8)` on 3F. Unlocked with the Card Key on Turn 44760!
+- **Electronic Gate 2 (Saffron's Right Hallway):** Located at `(19, 4)` on 3F. Unlocked with the Card Key on Turn 45017!
+- **Electronic Gate 3 (Saffron's Left Room Entrance):** Located at `(11, 12)` on 3F. Unlocked with the Card Key on Turn 45021!
 - **Teleporter (Warp 8):** Located at `(11, 11)` behind the `(17, 8)` gate. Warps the player directly to Saffron Silph Co. 7F at `(5, 3)`!
 
 ## Saffron Silph Co. 7F Layout & Traversal (Verified Turn 44766-44846)
