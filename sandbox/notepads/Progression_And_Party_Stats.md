@@ -19,3 +19,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 ## Obtained LAPRAS (SELKIE) (Turn 44831)
 - Received LAPRAS (nicknamed **SELKIE**) from Silph Co. 7F employee at `(1, 5)` on Turn 44831.
 - Since our party was full, SELKIE was automatically sent to **PC Box 4**.
+
+
+## Card Key Inventory Verification (Turn 44954)
+- **Card Key verified present in Bag:** Successfully opened the BAG menu on Turn 44954 and verified that the CARD KEY is present in our inventory (listed under TM09). It was NOT lost or deposited.
