@@ -1,7 +1,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
-- Intra-Floor Warp: (17, 11) <-> (23, 11) [Verified Turn 5420: stepping on (17, 11) warps to (23, 11)].
+- Intra-Floor Warp: (17, 11) <-> (23, 11) [Verified Turn 5¥420: stepping on (17, 11) warps to (23, 11)].
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
@@ -30,10 +30,10 @@
    - South Exit at (37, 17) connects directly out to Route 10 South / Lavender Town.
 
 ## Verified Trainers & Encounters
-- Pok�Maniac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �1150.
-- Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: �700.
-- Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: �420.
-- Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: �735.
+- Pok�Maniac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �¥1150.
+- Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: �¥700.
+- Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: �¥420.
+- Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: �¥735.
 
 ## Empirical Collision Bounds & Corridor Mapping (1F)
 - Solid Horizontal Rock Walls:
