@@ -3,16 +3,21 @@
 - **Option 2:** CUT
 Use these exact indices in all menu-based macro scripts to ensure correct move selection.
 
-## SHELLBY (Blastoise) Moveset (Verified Turn 42694)
-- BITE
+## SHELLBY (Blastoise) Moveset (Updated Turn 46023)
+- HYDRO PUMP
 - ICE BEAM
+- BITE
 - SURF (HM03)
-- STRENGTH (HM04)
-## Badge Status & Gym Clearances (Updated Turn 43982)
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+
+## Badge Status & Gym Clearances (Updated Turn 46090)
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
-- **Remaining Badge:** 1 (Earth Badge - Giovanni at Viridian Gym).
-- **Silph Co. HQ Goal:** Clear Silph Co. to unlock the Viridian City Gym so we can challenge Giovanni for the final badge.
+- **Volcano Badge (Cinnabar Gym):** Not yet acquired (Blaine at Cinnabar Gym is our current target!).
+- **Soul Badge (Fuchsia Gym):** Not yet acquired.
+- **Earth Badge (Viridian Gym):** Not yet acquired.
+- **Cinnabar Island Goal:** Clear Pokémon Mansion to find the Secret Key, unlock the Cinnabar Gym, and defeat Gym Leader Blaine for the Volcano Badge (Badge #6)!
+
+## Key Items & Inventory Log
+- **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 - **Card Key Verification Test (Turn 44613):** Interacting with Saffron Silph Co 5F electronic gate at `(21, 13)` without the Card Key resulted in no access, confirming its absolute absence prior to retrieval.
