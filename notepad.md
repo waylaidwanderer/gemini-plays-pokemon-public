@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=10, y=18)
+- Location: Rock Tunnel B1F (x=20, y=20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -40,9 +40,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 41
-   - Stats (Verified at Lv 41): Max HP 135 (HP: 132/135), Attack 91, Defense 101, Speed 93, Special 96
+   - Stats (Verified at Lv 41): Max HP 135 (HP: 127/135), Attack 91, Defense 101, Speed 93, Special 96
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (13/20)
+   - Moves: Tackle (28/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (0/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats: Max HP 26 (HP: 26/26)
@@ -839,7 +839,7 @@
    - East-west passage running from entrance (15, 3) east to column 23.
    - Solid vertical rock wall at cols 24-25 (rows 1-14) divides western/central sector from eastern sector.
 2. Western Corridor (cols 2-5, rows 2-13):
-   - Continuous vertical passage south from Ladder 2 at (3, 3) down to row 13.
+   - Continuous vertical passage south from Ladder 2 at (5, 3) down to row 13.
 3. Crossway (rows 8-9, cols 5-11):
    - Connects western corridor (col 5) eastward to central vertical thoroughfare (cols 8-11) above the rock pillar at cols 6-7 (rows 10-16).
 4. Central Vertical Thoroughfare (cols 8-11, rows 9-21):
@@ -880,7 +880,7 @@
 ## Connections & Warps
 - Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3).
 - Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3).
-- Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) / (5, 3) [Verified Turn 4921 & 5079].
+- Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 4921 & 5079].
 - Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
 
 ## Verified Layout & Corridors
