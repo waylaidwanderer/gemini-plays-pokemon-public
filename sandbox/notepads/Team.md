@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 129/132), Attack 89, Defense 98, Speed 90, Special 94
+1. HYDROS (Blastoise) - Lv 41
+   - Stats (Verified at Lv 41): Max HP 135 (HP: 132/135), Attack 91, Defense 101, Speed 93, Special 96
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Tackle (30/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (13/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats: Max HP 26 (HP: 26/26)
