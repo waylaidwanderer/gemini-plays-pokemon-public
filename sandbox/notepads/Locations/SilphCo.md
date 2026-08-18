@@ -36,3 +36,13 @@
   - Continue down Column 19 to Row 16 `(19, 16)`.
   - Walk left along Row 16 to Column 3 `(3, 16)`.
   - Walk up Column 3 to `(3, 15)` to warp directly to Saffron Silph Co. 5F Left Compartment, landing directly next to the Card Key!
+
+## Saffron Silph Co. 3F Gate & Teleporter Discoveries (Verified Turn 44760)
+- **Electronic Gate:** Located at `(17, 8)` on 3F. Unlocked with the Card Key on Turn 44760!
+- **Teleporter (Warp 8):** Located at `(11, 11)` behind the `(17, 8)` gate. Warps the player directly to Saffron Silph Co. 7F at `(5, 3)`!
+
+## Saffron Silph Co. 7F Layout & Traversal (Verified Turn 44766)
+- **Landing Position from 3F Warp:** The player emerges at `(5, 3)` facing DOWN.
+- **Warp Tile (landing pad):** Located at `(5, 7)`.
+- **Rival JACK:** Located at `(3, 7)` facing UP, directly blocking western and southern progression.
+- **Rival Battle Initiation:** Walking left along Row 3 from `(5, 3)` towards Column 3 triggers the Rival JACK battle cutscene on Turn 44769!
