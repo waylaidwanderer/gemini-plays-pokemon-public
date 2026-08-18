@@ -86,7 +86,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - BITE
 - ICE BEAM
 - SURF (HM03)
-- STRENGTH (HM04)
+- HYDRO PUMP
 ## Badge Status & Gym Clearances (Updated Turn 43982)
 - **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
@@ -2036,6 +2036,12 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - BL: `(9, 5)`
   - BR: `(11, 5)`
 - **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
+
+### 8. Center Room (Sabrina's Room, Room 7)
+- **Arrival Position:** Landed on BR pad at `(11, 11)`.
+- **Warp Pads:**
+  - BR: `(11, 11)`
+- **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
 
 
 <hr>
