@@ -2,7 +2,7 @@ import mgba
 import time
 
 print("Starting battle escape sequence...")
-# Clear "Wild GRIMER appeared!"
+# Clear "Wild VULPIX appeared!"
 mgba.press_buttons(["B"])
 time.sleep(1.5) # Wait for "Go! SHELLBY!" to print
 
@@ -22,9 +22,9 @@ time.sleep(1.0)
 pos_overworld = mgba.get_coordinates()
 print("Overworld Position:", pos_overworld)
 
-# Walk Down 2 steps, Left 4 steps to (14, 6)
+# Walk Left 3 steps to (14, 6)
 print("Resuming movement to the west...")
-mgba.press_buttons(["Down", "Down", "Left", "Left", "Left", "Left"])
+mgba.press_buttons(["Left", "Left", "Left"])
 time.sleep(1.5) # Wait for movement
 
 pos_final = mgba.get_coordinates()
