@@ -5,23 +5,37 @@ def run_from_battle():
     print("Battle detected! Running away...")
     mgba.press_buttons(["A", "sleep 500", "A", "sleep 1500", "Right", "Down", "A", "sleep 1500", "A", "sleep 1000"])
 
-# 1. Exit Pokemon Center
-print("Exiting Pokemon Center...")
-mgba.press_buttons(["Down", "Down"])
-time.sleep(1.5)
+# 1. Walk on Cinnabar Island from (19, 13) to (5, 13)
+path_outside1 = [
+    ('Left', 18, 13), ('Left', 17, 13), ('Left', 16, 13), ('Left', 15, 13),
+    ('Left', 14, 13), ('Left', 13, 13), ('Left', 12, 13), ('Left', 11, 13),
+    ('Left', 10, 13), ('Left', 9, 13), ('Left', 8, 13), ('Left', 7, 13),
+    ('Left', 6, 13), ('Left', 5, 13)
+]
 
-# 2. Walk to Mansion entrance outside on Cinnabar Island
-# We land outside around (11, 13). Walk Left 5 steps to (6, 13), Up 10 steps to (6, 3).
+print("Walking to column 5 outside...")
+for btn, tx, ty in path_outside1:
+    mgba.press_buttons([btn])
+    time.sleep(0.3)
+
+# 2. Walk Up column 5 to (5, 3), and Right to (6, 3) to enter Mansion
+path_outside2 = [
+    ('Up', 5, 12), ('Up', 5, 11), ('Up', 5, 10), ('Up', 5, 9),
+    ('Up', 5, 8), ('Up', 5, 7), ('Up', 5, 6), ('Up', 5, 5),
+    ('Up', 5, 4), ('Up', 5, 3),
+    ('Right', 6, 3)
+]
+
 print("Walking to Mansion entrance...")
-mgba.press_buttons(["Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up"])
-time.sleep(3.0)
+for btn, tx, ty in path_outside2:
+    mgba.press_buttons([btn])
+    time.sleep(0.3)
 
-# Now we should be inside Mansion 1F at (5, 27). Let's verify coordinates.
-pos = mgba.get_coordinates()
-print("Entered Mansion, current pos:", pos)
+print("Entering Mansion...")
+time.sleep(1.5) # Wait for transition
 
 # 3. Walk from (5, 27) to (21, 24) on Mansion 1F
-path = [
+path_inside = [
     # Right to (21, 27)
     ('Right', 6, 27), ('Right', 7, 27), ('Right', 8, 27), ('Right', 9, 27),
     ('Right', 10, 27), ('Right', 11, 27), ('Right', 12, 27), ('Right', 13, 27),
@@ -31,10 +45,10 @@ path = [
     ('Up', 21, 26), ('Up', 21, 25), ('Up', 21, 24)
 ]
 
-print("Walking to B1F stairs on Mansion 1F...")
+print("Walking to B1F stairs inside Mansion 1F...")
 step_index = 0
-while step_index < len(path):
-    btn, target_x, target_y = path[step_index]
+while step_index < len(path_inside):
+    btn, target_x, target_y = path_inside[step_index]
     pos = mgba.get_coordinates()
     print(f"Current Pos: {pos}, Next Step: {btn} to ({target_x}, {target_y})")
     
