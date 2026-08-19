@@ -8,14 +8,13 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Starting walk from (7, 11) on 2F to 3F stairs at (5, 10)...")
+print("Starting walk from (8, 13) on 2F to 3F stairs at (5, 10)...")
 path = [
-    ('Down', 7, 12),
-    ('Down', 7, 13),
-    ('Left', 6, 13),
-    ('Left', 5, 13),
-    ('Up', 5, 12),
-    ('Up', 5, 11),
+    ('Up', 8, 12),
+    ('Up', 8, 11),
+    ('Left', 7, 11),
+    ('Left', 6, 11),
+    ('Left', 5, 11),
     ('Up', 5, 10)
 ]
 
