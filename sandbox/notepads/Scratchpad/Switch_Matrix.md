@@ -5,7 +5,7 @@
 - Standard state of gates has two modes: **DEFAULT (State A)** and **TOGGLED (State B)**.
 
 ## Switch Locations
-- **1F:** No active switches verified (the statues on 1F appear to be decorative and do not open a dialogue).
+- **1F:** No active switches verified (the statues on 1F appear to be decorative).
 - **2F:** Mewtwo statues located at `(12, 9)` and `(12, 11)` (east-central corridor). 
 - **3F:** Mewtwo statue located near the stairs.
 - **B1F:** Mewtwo statue switch located near the center-left.
@@ -23,20 +23,14 @@
 - **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
 - **B1F Secret Key Room:** **OPEN**.
 
-## Traversal Options in Current State (State B)
-Since the gates did not reset when we used DIG to leave the Mansion, they are currently locked in State B. We must find an accessible switch to flip the mansion back to State A.
-- **2F West Side:** We can walk freely from `(7, 11)` stairs to the northwest diary room and southwest area, but there are no statues here.
-- **2F East Side:** Blocked by Column 11 gates and Column 10 rubble.
-- **3F:** Unreachable because the 2F stairs gate at `(5, 7)` is closed.
-- **B1F:** Unreachable because the 1F stairs gate at `(22, 2)` is closed.
-- **1F West/Center:** Accessible on foot from the entrance. We must explore the southwest of 1F to check if there is an active Mewtwo statue switch there.
-## VERIFIED SPEEDRUN ROUTE (State B Skip) - Verified Turn 46787
-- **Discovery:** The electronic gates in Pok�mon Mansion DO NOT reset when leaving the Mansion (either via DIG or front door). They remain in State B if they were toggled to State B.
-- **State B Traversal:**
-  - In State B, the 2F stairs gate at `(5, 7)` is CLOSED, blocking access to the 3F northwest room.
-  - BUT we do not need to go to 3F at all!
-  - In State B, the 1F B1F stairs gate at `(22, 2)` is OPEN.
-  - This gate separates the 1F fenced-in room from the main 1F lobby.
-  - Since the gate is OPEN, we can walk directly on foot into the fenced-in room on 1F, go down the stairs to B1F, and retrieve the Secret Key immediately!
-  - On B1F, the Secret Key Room is OPEN in State B, so the key is completely unblocked!
-- **Current Position:** We are on 1F at `(5, 10)`. We are walking south down the lobby to find the eastern corridor to reach the B1F stairs at `(22, 2)`.
+## Refuted Hypotheses & State B Skip
+- **"State B Speedrun" Hypothesis (Refuted):** We hypothesized that since the 1F B1F stairs gate at `(22, 2)` is open in State B, we could walk directly on foot from the west entrance/lobby to the B1F stairs on 1F.
+- **Collision Proof (Turns 46797-46799):** We attempted to cross from column 10 to column 12 on foot at 1F rows 18, 22, and 26. We bumped and were completely blocked on all tested rows. Column 11 forms a solid, continuous vertical wall on 1F that divides the west lobby from the east side. Horizontal crossing on foot is physically impossible on 1F.
+- **Mansion Reset Mechanic:** Leaving the building to Cinnabar Island **DOES reset the gates to State A (Default)**.
+- **Standard Routing:**
+  1. Enter Mansion (State A).
+  2. Walk UP column 5 on 1F, step onto (5, 10) stairs to warp to 2F.
+  3. On 2F, walk UP column 5 through the open (5, 7) gate, step onto (5, 10) stairs to warp to 3F.
+  4. On 3F, walk east to (22, 6) pit and fall to 2F.
+  5. On 2F, fall down to 1F fenced-in room.
+  6. Go down B1F stairs, flip switch to State B to open Secret Key Room, and retrieve the Secret Key.
