@@ -47,5 +47,4 @@
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
-- HYDROS (Blastoise Lv 42): Skull Bash (15/15 PP), Bite (13/25 PP).
-- Backup Attackers: ATLAS (Machop Lv 15 - Karate Chop 25/25 PP), TERRA (Geodude Lv 21 - Dig, Rock Throw).
+- Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
