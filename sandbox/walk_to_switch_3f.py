@@ -8,10 +8,15 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Walking to northwest switch on 3F to toggle back to State A...")
+print("Clearing textbox and walking to northwest switch on 3F...")
 
-# Currently at (8, 13) on 3F
+# Clear the "Got away safely!" textbox
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+# Start at (8, 12) on 3F
 path_to_switch = [
+    ('Down', 8, 13),
     ('Left', 7, 13),
     ('Left', 6, 13),
     ('Left', 5, 13),
