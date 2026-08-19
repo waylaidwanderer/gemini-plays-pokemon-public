@@ -6,10 +6,14 @@ def run_from_battle():
     mgba.press_buttons(["A", "sleep 500", "A", "sleep 1500", "Right", "Down", "A", "sleep 1500", "A", "sleep 1000"])
 
 path = [
-    # Left to (10, 7)
-    ('Left', 13, 7), ('Left', 12, 7), ('Left', 11, 7), ('Left', 10, 7),
+    # Right to (19, 7)
+    ('Right', 18, 7), ('Right', 19, 7),
+    # Down to (19, 11)
+    ('Down', 19, 8), ('Down', 19, 9), ('Down', 19, 10), ('Down', 19, 11),
+    # Left to (10, 11)
+    ('Left', 18, 11), ('Left', 17, 11), ('Left', 16, 11), ('Left', 15, 11),
+    ('Left', 14, 11), ('Left', 13, 11), ('Left', 12, 11), ('Left', 11, 11), ('Left', 10, 11),
     # Down to (10, 27)
-    ('Down', 10, 8), ('Down', 10, 9), ('Down', 10, 10), ('Down', 10, 11),
     ('Down', 10, 12), ('Down', 10, 13), ('Down', 10, 14), ('Down', 10, 15),
     ('Down', 10, 16), ('Down', 10, 17), ('Down', 10, 18), ('Down', 10, 19),
     ('Down', 10, 20), ('Down', 10, 21), ('Down', 10, 22), ('Down', 10, 23),
@@ -22,7 +26,7 @@ path = [
     ('Up', 21, 26), ('Up', 21, 25), ('Up', 21, 24)
 ]
 
-print("Walking to B1F stairs on Mansion 1F...")
+print("Walking to B1F stairs on Mansion 1F (Route 4)...")
 step_index = 0
 while step_index < len(path):
     btn, target_x, target_y = path[step_index]
