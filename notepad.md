@@ -2097,16 +2097,16 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Gate Configurations by State
 
 ### DEFAULT STATE (State A)
-- **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
+- **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F).
 - **2F Column 11 gates:** **CLOSED** (Blocks access to the east-central room).
-- **3F gate at `(21, 5)`:** **OPEN** (Allows access to the north side and the (22, 6) pit).
+- **3F gate at `(5, 7)`:** **CLOSED** (Blocks column 5).
 
 ### TOGGLED STATE (State B)
-- **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
+- **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **2F Column 11 gates:** **OPEN** (Allows access to the east-central room).
-- **3F gate at `(21, 5)`:** **CLOSED** (Blocks access to the north side and the (22, 6) pit).
+- **3F gate at `(5, 7)`:** **OPEN** (Allows access to the north side of 3F).
 - **B1F Secret Key Room:** **OPEN**.
 
 ## Refuted Hypotheses & State B Skip
