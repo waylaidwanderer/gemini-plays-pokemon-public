@@ -20,16 +20,19 @@
    - 4-tile wide vertical passage connecting crossway (row 12) down to row 21.
 5. Middle Thoroughfare (rows 14-16, cols 8-16):
    - Wide open horizontal thoroughfare connecting col 8 across to col 16.
-6. South-Central Sector & Collision Boundaries:
-   - Cols 14-17 (rows 18-21) form a dead-end pocket blocked by solid rock wall at rows 22-23.
-   - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
+6. South-Central Sector & Vertical Connector:
+   - Cols 14-17 forms an open vertical thoroughfare connecting rows 16-27 directly down to rows 30-33 [Verified Turns 6427-6430].
 7. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
    - Ladder 1 at (37, 3) connects to B1F (33, 25).
    - Ladder 4 at (27, 3) connects to B1F (5, 3).
-8. South-Eastern Passage to Southern Sector (rows 13-17, cols 32-37):
-   - Rows 14-15 horizontal rock wall ends at col 31.
-   - Open vertical passage at cols 32-37 connects northern/eastern sector directly south into the Southern Sector (rows 16-30) leading to the cave exit!
+8. South-Eastern Passage & Southern Sector Layout (rows 14-35, cols 13-39):
+   - Rows 14-15 horizontal rock wall ends at col 31; open vertical passage at cols 32-37 connects into Southern Sector [Verified Turn 6406].
+   - Rows 30-33 form a massive 4-tile high horizontal highway spanning cols 13-37 [Verified Turns 6409-6447].
+   - Rows 34-35 form a solid rock wall across cols 13-37 [Verified Turns 6430-6444].
+   - Cols 38-39 form the solid eastern boundary across rows 29-35 [Verified Turn 6443].
+   - Southeast corner at (37, 33) is an enclosed dead end [Verified Turn 6443].
+   - Western extension: Row 30-33 highway extends west past col 13 into cols 0-12 leading towards the cave exit to Route 10 South.
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.

@@ -9,13 +9,9 @@
 |---|---|---|---|---|
 
 | Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 4618, 5372 |
-
-| Ladder 2 | 1F (27, 3) | B1F (27, 3) | North-Central 1F <-> North-Central B1F (Ladder 2/4 area) | Turns 4642, 5411, 5447 |
-
-| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082 |
-
-| Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F (Exit Sector) <-> North-West B1F | Turn 4364 |
-| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F <-> Central B1F | Turn 6131 |
+| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082, 5580 |
+| Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F <-> North-West B1F | Turns 4364, 6104, 6401 |
+| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F <-> Central B1F | Turns 6131, 6308 |
 
 
 
