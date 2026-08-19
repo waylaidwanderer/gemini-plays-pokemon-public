@@ -15,6 +15,7 @@
 | Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082 |
 
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F (Exit Sector) <-> North-West B1F | Turn 4364 |
+| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F <-> Central B1F | Turn 6131 |
 
 
 
@@ -27,6 +28,7 @@
 - Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) [Verified Turn 4921, 5082 & 5580].
 
 - Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
+- Ladder 5 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11) [Verified Turn 6131].
 
 
 
