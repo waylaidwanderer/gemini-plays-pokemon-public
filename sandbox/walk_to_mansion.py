@@ -1,26 +1,41 @@
 import mgba
 import time
 
-def run_from_battle():
-    print("Battle detected! Running away...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 2000"])
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    time.sleep(1.0)
+print("Bypassing Lab to reach Pokémon Mansion...")
 
-print("Walking to Pokémon Mansion from (11, 12)...")
-
+# Start at (6, 10) on Cinnabar Island
 path = [
-    ('Left', 10, 12),
-    ('Left', 9, 12),
-    ('Left', 8, 12),
-    ('Left', 7, 12),
-    ('Left', 6, 12),
-    ('Up', 6, 11),
-    ('Up', 6, 10),
-    ('Up', 6, 9),
-    ('Up', 6, 8),
-    ('Up', 6, 7),
+    ('Down', 6, 11),
+    ('Down', 6, 12),
+    ('Right', 7, 12),
+    ('Right', 8, 12),
+    ('Right', 9, 12),
+    ('Right', 10, 12),
+    ('Right', 11, 12),
+    ('Right', 12, 12),
+    ('Right', 13, 12),
+    ('Right', 14, 12),
+    ('Right', 15, 12),
+    ('Right', 16, 12),
+    ('Right', 17, 12),
+    ('Right', 18, 12),
+    ('Up', 18, 11),
+    ('Up', 18, 10),
+    ('Up', 18, 9),
+    ('Up', 18, 8),
+    ('Up', 18, 7),
+    ('Left', 17, 7),
+    ('Left', 16, 7),
+    ('Left', 15, 7),
+    ('Left', 14, 7),
+    ('Left', 13, 7),
+    ('Left', 12, 7),
+    ('Left', 11, 7),
+    ('Left', 10, 7),
+    ('Left', 9, 7),
+    ('Left', 8, 7),
+    ('Left', 7, 7),
+    ('Left', 6, 7),
     ('Up', 6, 6),
     ('Up', 6, 5),
     ('Up', 6, 4),
@@ -38,9 +53,11 @@ for btn, tx, ty in path:
     else:
         # Check if we warped into the Mansion
         if tx == 6 and ty == 3 and new_pos['y'] == 27:
-            print("Warped into Mansion successfully!")
+            time.sleep(1.0) # Wait for warp
+            print("Warped into Mansion successfully! Position:", mgba.get_coordinates())
             break
-        print(f"Failed to reach ({tx}, {ty}). Current coordinate: {new_pos}")
+            
+        print(f"Failed to step to ({tx}, {ty}). Current coordinate: {new_pos}")
         time.sleep(0.5)
         pos_check = mgba.get_coordinates()
         if pos_check == new_pos:
