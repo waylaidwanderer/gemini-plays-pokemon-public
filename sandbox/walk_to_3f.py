@@ -8,14 +8,16 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Starting walk from (8, 13) on 2F to 3F stairs at (5, 10)...")
+print("Starting row 9 bypass walk from (8, 13) on 2F to 3F stairs at (5, 10)...")
 path = [
     ('Up', 8, 12),
     ('Up', 8, 11),
-    ('Left', 7, 11),
-    ('Left', 6, 11),
-    ('Left', 5, 11),
-    ('Up', 5, 10)
+    ('Up', 8, 10),
+    ('Up', 8, 9),
+    ('Left', 7, 9),
+    ('Left', 6, 9),
+    ('Left', 5, 9),
+    ('Down', 5, 10)
 ]
 
 step_index = 0
@@ -27,7 +29,7 @@ while step_index < len(path):
     print(f"2F: At {pos}, Next Step: {btn} to ({target_x}, {target_y})")
     
     # Check if we warped to 3F
-    if target_x == 5 and target_y == 10 and (pos['x'] != 5 or pos['y'] != 10) and step_index > 4:
+    if target_x == 5 and target_y == 10 and (pos['x'] != 5 or pos['y'] != 10) and step_index > 6:
         print("Warp detected! We warped to 3F.")
         break
         
