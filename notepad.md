@@ -1069,8 +1069,7 @@
 | Ladder 5 | (23, 11) | (17, 11) | B1F (17, 11) <-> 1F (23, 11) | 1F Central ladder (west of divider) to B1F Central |
 
 ## Traversal Status
-- Current Location: B1F (2, 9)
-- Plan: Ascend to Ladder 4 at (5, 3) -> 1F (27, 3).
-- On 1F: Follow eastern/southern passage (cols 32-37, rows 16-33) down to the 1F southern highway, then walk west to the cave exit leading to Route 10 South.
+- Current Location: 1F (19, 27)
+- Plan: Systematically survey the southern sector of 1F (rows 30-35 across cols 0-37) to locate the cave exit to Route 10 South.
 
 <hr>
