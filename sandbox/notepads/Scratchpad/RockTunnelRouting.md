@@ -16,6 +16,5 @@ In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in
 | Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
 ## Next Traversal Plan
-1. From 1F (8, 12), walk to (5, 3) and verify warp/ladder destination.
-2. If at 1F (27, 3), descend Ladder 4 to B1F (5, 3).
-3. On B1F, explore corridors systematically to find the ladder leading to 1F South Exit.
+1. From B1F (24, 20), navigate North/East along rows 16-20 to locate the ladder to 1F exit sector.
+2. Ascend to 1F and proceed south towards Route 10 exit.
