@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=21, y=19)
+- Location: Rock Tunnel 1F (x=27, y=16)
 
 
 
@@ -890,7 +890,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
-- Central-Eastern Divider: Solid vertical rock wall spans cols 18-19 across rows 8-15. Access between Central/Western sector and Eastern sector is via the Northern Highway (rows 2-7).
+- Central-Eastern Divider: Solid vertical rock wall spans cols 18-19 across rows 8-15. Western/Central sector and Eastern sector are separate vertical partitions on 1F; travel between them requires B1F ladders.
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2/Warp (North-West): Located at (5, 3). Stepping Up onto (5, 3) warps to (27, 3) in Eastern Exit Sector [Verified Turn 6020].
@@ -1059,23 +1059,23 @@
 
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
-## Current Status & Objective
-- Current Position: 1F (24, 19)
-- Master Strategy: From 1F (24, 19), traverse east along row 19 to cols 28-32, then explore south down the eastern highway corridor past row 28 to locate the true South Exit leading to Route 10 South and Lavender Town.
+## Master Topological Model & Route to Lavender Town
+- 1F is divided into two vertical sectors by rock walls (cols 12-13, 18-19, 24-25):
+  1. Western/Central Sector (cols 2-17): Contains Ladder 3 at (3, 3), Western Corridor (cols 2-5), Central Thoroughfare (cols 8-11). The Central Thoroughfare runs south past (10, 15) down to rows 30-35 where the true SOUTH EXIT to Route 10 South and Lavender Town is located!
+  2. Eastern Sector (cols 20-37): Contains Ladder 1 at (37, 3) and Ladder 4 at (27, 3).
+- B1F connects the two sectors:
+  - Ladder 1 at 1F (37, 3) <-> B1F (33, 25) (Southeast)
+  - Ladder 4 at 1F (27, 3) <-> B1F (5, 3) (Northwest)
+  - Ladder 3 at 1F (3, 3) <-> B1F (37, 17) (East-Central)
 
-## Verified Empirical Ladder & Warp Connectivity Matrix
-| ID | Floor 1 (1F) Coordinate | Target Floor / Location | Verified Details |
-|---|---|---|---|
-| Ladder 1 | 1F (37, 3) | B1F (33, 25) | 1F NE Entrance Sector -> B1F Southeast Landing |
-| Ladder 2 / Warp | 1F (5, 3) | 1F (27, 3) | 1F NW Western Corridor -> 1F Eastern Exit Sector [Verified Turn 6020] |
-| Ladder 3 | 1F (3, 3) | B1F (37, 17) | 1F NW Warp <-> B1F East-Central Warp |
-| Ladder 4 | 1F (27, 3) | B1F (5, 3) | 1F Exit Sector <-> B1F Northwest |
-
-## Traversal Strategy
-1. From 1F (24, 19), walk East along row 19 past central pillar to (29, 19).
-2. Move South down cols 28-32 past row 22-28 open corridor.
-3. Systematically probe south boundary (rows 28-35) to find the true South Exit mat.
-4. Exit to Route 10 South -> enter Lavender Town -> heal at Pok�mon Center.
+## Master Step-by-Step Traversal Route to Lavender Town
+1. From 1F (27, 16): walk east to col 37, ascend north along col 37 to row 3, and walk west to (27, 3).
+2. At (27, 3), step onto Ladder 4 to descend to B1F at (5, 3).
+3. On B1F, traverse east along North Highway (rows 2-5) to Ladder 3 at (37, 17).
+4. Ascend Ladder 3 to 1F at (3, 3) in the Western Corridor.
+5. On 1F (3, 3), walk south down Western Corridor (cols 2-5) to row 12, cross east to Central Thoroughfare (cols 8-11).
+6. Walk SOUTH down Central Thoroughfare (cols 8-11) past (10, 15) all the way down to rows 30-35 to step onto the South Exit mat!
+7. Exit onto Route 10 South -> walk south into Lavender Town -> heal at Pok�mon Center!
 
 
 <hr>
