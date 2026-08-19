@@ -9,6 +9,6 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (12, 31)
+- Current Position: B1F (9, 31)
 - Strategy: Navigate west across B1F Southwest Highway to col 3 (row 31), then survey for north corridors (cols 2-5) and the Route 10 South exit.
-- Immediate Step: Walk Left 9 times from (12, 31) to (3, 31).
+- Immediate Step: Flee wild Zubat battle, then walk Left 6 times from (9, 31) to (3, 31).
