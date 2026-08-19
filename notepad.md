@@ -2049,7 +2049,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Goal:** Navigate the switches, escalators, and collapsed floors to reach B1F and retrieve the **Secret Key** to unlock the Cinnabar Gym!
 
 ## Pokmon Mansion - Empirical Layout & Coordinates (Verified Turns 46039-46125)
-- **1F Entrance Warp:** Warp from Cinnabar Island at `(6, 4)` leads directly to Pokmon Mansion 1F at `(5, 27)`.
+- **1F Entrance Warp:** Warp from Cinnabar Island front door at `(6, 3)` leads directly to Pokémon Mansion 1F at `(5, 27)`.
+- **Cinnabar Lab Entrance:** Warp from Cinnabar Island at `(6, 9)` leads directly to Pokémon Mansion 1F Foyer at `(2, 7)` (an isolated room).
 - **1F-to-2F Stairs:** Located at `(7, 10)` on 1F, leading to 2F at `(7, 11)`.
 - **2F-to-1F Stairs:** Located at `(7, 10)` on 2F, leading DOWN to 1F at `(7, 11)`. (Empirically verified on Turn 46619)
 
@@ -2098,12 +2099,14 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ### DEFAULT STATE (State A)
 - **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
+- **1F column 5 gate at `(5, 10)`:** **CLOSED** (Blocks column 5 on 1F).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F).
 - **2F Column 11 gates:** **CLOSED** (Blocks access to the east-central room).
 - **3F gate at `(5, 7)`:** **CLOSED** (Blocks column 5).
 
 ### TOGGLED STATE (State B)
 - **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
+- **1F column 5 gate at `(5, 10)`:** **OPEN** (Allows access to column 5 / stairs on 1F).
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **2F Column 11 gates:** **OPEN** (Allows access to the east-central room).
 - **3F gate at `(5, 7)`:** **OPEN** (Allows access to the north side of 3F).
