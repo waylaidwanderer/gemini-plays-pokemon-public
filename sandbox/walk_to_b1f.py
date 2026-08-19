@@ -1,11 +1,18 @@
 import mgba
 import time
 
+button_count = 0
+
+def press_and_count(buttons):
+    global button_count
+    mgba.press_buttons(buttons)
+    button_count += len(buttons)
+
 def run_from_battle():
     print("Battle detected! Running away...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 2000"])
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    press_and_count(["B", "sleep 300", "B", "sleep 300"])
+    press_and_count(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 2000"])
+    press_and_count(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
 print("Starting dynamic routing to B1F stairs on 1F (State B)...")
@@ -15,8 +22,12 @@ last_pos = None
 
 while True:
     pos = mgba.get_coordinates()
-    print(f"Current Position: {pos}")
+    print(f"Current Position: {pos}, Total Buttons Pressed: {button_count}")
     
+    if button_count > 45:
+        print("Approaching script button limit. Exiting gracefully to continue next turn.")
+        break
+
     if pos == last_pos:
         stuck_count += 1
         if stuck_count > 15:
@@ -74,7 +85,7 @@ while True:
         break
         
     print(f"Pressing {btn}...")
-    mgba.press_buttons([btn])
+    press_and_count([btn])
     time.sleep(0.3)
     
     new_pos = mgba.get_coordinates()
