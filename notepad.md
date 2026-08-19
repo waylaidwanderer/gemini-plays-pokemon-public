@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=23, y=11)
+- Location: Rock Tunnel 1F (x=23, y=10)
 
 
 
@@ -1077,9 +1077,9 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: 1F (23, 11)
-- Target: North Highway at 1F (23, 3)
-- Strategy: Step Up col 23 to (23, 3) on North Highway, step Right into Eastern Sector at (27, 3), and walk straight south down cols 26-28 / 32-37 to Southern Highway (rows 30-33). Step down into rows 34-35 south doorway to exit Rock Tunnel to Route 10 South and Lavender Town.
-- Immediate Step: Step Up 8 times along col 23 to (23, 3).
+- Current Position: 1F (23, 10)
+- Target: North Highway at 1F (17, 3)
+- Strategy: Step Down to (23, 13), Left along row 13 to (17, 13), and Up col 17 to row 3 North Highway. Move Right along row 3 to (27, 3) into Eastern Sector, and walk straight south down cols 26-28 / 32-37 to Southern Highway (rows 30-33) to exit via rows 34-35 south doorway to Route 10 South and Lavender Town.
+- Immediate Step: Step Down 3 times to (23, 13), then step Left 6 times to (17, 13).
 
 <hr>
