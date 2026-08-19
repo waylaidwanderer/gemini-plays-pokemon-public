@@ -3,22 +3,30 @@ import time
 
 def run_from_battle():
     print("Battle detected! Running away...")
+    # First press B/A to clear any "appeared" or "Go!" text
     mgba.press_buttons(["B", "sleep 500", "B", "sleep 500"])
+    # Press Right, Down, A to flee
     mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 2000"])
+    # Dismiss "Got away safely!" text
     mgba.press_buttons(["B", "sleep 500"])
     time.sleep(1)
 
-# We are at (12, 11) on Mansion 3F.
-# Walk to the pit at (24, 5):
+# We are at (12, 12) on Mansion 3F.
+# 1. Dismiss "Got away safely!" text
+print("Dismissing 'Got away safely!' text...")
+mgba.press_buttons(["B", "sleep 500"])
+time.sleep(1.0)
+
+# Path to pit at (24, 5):
 # Down to (12, 13)
 # Right to (14, 13)
 # Up to (14, 7)
 # Right to (21, 7)
 # Up to (21, 5)
-# Right to (24, 5)
+# Right to (24, 5) (this steps into the pit and drops us)
 
 path = [
-    ('Down', 12, 12), ('Down', 12, 13),
+    ('Down', 12, 13),
     ('Right', 13, 13), ('Right', 14, 13),
     ('Up', 14, 12), ('Up', 14, 11), ('Up', 14, 10), ('Up', 14, 9), ('Up', 14, 8), ('Up', 14, 7),
     ('Right', 15, 7), ('Right', 16, 7), ('Right', 17, 7), ('Right', 18, 7), ('Right', 19, 7), ('Right', 20, 7), ('Right', 21, 7),
