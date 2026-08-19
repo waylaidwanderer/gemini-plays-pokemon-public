@@ -8,16 +8,16 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Navigating to eastern 2F...")
+print("Navigating to eastern 2F via bypass...")
 
 # Start at (7, 11)
 path = [
-    ('Left', 6, 11),
-    ('Up', 6, 10),
-    ('Up', 6, 9),
-    ('Up', 6, 8),
-    ('Up', 6, 7),
-    ('Right', 7, 7),
+    ('Right', 8, 11),
+    ('Up', 8, 10),
+    ('Up', 8, 9),
+    ('Left', 7, 9),
+    ('Up', 7, 8),
+    ('Up', 7, 7),
     ('Right', 8, 7),
     ('Right', 9, 7),
     ('Right', 10, 7),
