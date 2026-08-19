@@ -64,6 +64,12 @@ while True:
     pos = mgba.get_coordinates()
     curr = (pos['x'], pos['y'])
     
+    # Robust coordinate check to handle transition/battle lag
+    if not (2 <= curr[0] <= 28 and 3 <= curr[1] <= 27):
+        print(f"Transient coordinate {curr} detected, waiting...")
+        time.sleep(0.5)
+        continue
+        
     if curr == target:
         print("Arrived at target position!")
         break
@@ -71,7 +77,8 @@ while True:
     path = find_path(curr, target)
     if not path or len(path) < 2:
         print(f"No path found from {curr} to {target}!")
-        break
+        time.sleep(1.0)
+        continue # Try again rather than aborting immediately
         
     nxt = path[1]
     btn = get_button(curr, nxt)
