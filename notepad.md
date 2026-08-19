@@ -1069,8 +1069,8 @@
 | Ladder 5 | (23, 11) | (17, 11) | B1F (17, 11) <-> 1F (23, 11) | 1F Central ladder (west of divider) to B1F Central |
 
 ## Traversal Status
-- Current Location: 1F (27, 11)
-- Actively traversing down 1F Eastern Corridor (cols 32-37, rows 14-29) into Southern Highway (rows 30-33).
-- Systematic Survey Protocol: Once at (33, 31), sweep westward across row 31-33 probing south on every column from col 37 down to col 0 to locate the true cave exit doorway to Route 10 South.
+- Current Location: 1F (31, 12)
+- Moving Left along row 12 to col 27, then Up along col 27 to Ladder 4 at (27, 3) to descend to B1F (5, 3).
+- Next on B1F: Navigate to Ladder 3 at (37, 17) to ascend to 1F (3, 3) and proceed down the western corridor to Route 10 South.
 
 <hr>
