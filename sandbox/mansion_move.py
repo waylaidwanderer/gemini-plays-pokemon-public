@@ -1,10 +1,11 @@
 import mgba
 import time
 
-# We are at (12, 11) on 2F in State B.
-# Let's walk UP to (12, 10), then Right 3 times to (15, 10).
-print("Walking to (15, 10) on 2F...")
-mgba.press_buttons(["Up", "sleep 300", "Right", "sleep 300", "Right", "sleep 300", "Right", "sleep 1000"])
+# We are at (12, 10) on 2F in State B.
+# Let's walk UP column 12 to (12, 6), then RIGHT across column 13 to (15, 6).
+print("Walking to (15, 6) on 2F...")
+mgba.press_buttons(["Up", "sleep 300", "Up", "sleep 300", "Up", "sleep 300", "Up", "sleep 300",
+                    "Right", "sleep 300", "Right", "sleep 300", "Right", "sleep 1000"])
 
 pos = mgba.get_coordinates()
 print(f"Coordinates: {pos}")
