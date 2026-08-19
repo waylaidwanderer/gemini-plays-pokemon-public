@@ -1069,8 +1069,8 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: 1F (37, 3)
-- Strategy: Descend Ladder 1 to B1F (33, 25), step Left to col 32, descend to row 31, and navigate west across B1F Southwest Highway (cols 2-15) to locate Route 10 South exit.
-- Immediate Step: Step Down 1 to (37, 4) and Up 1 to (37, 3) to descend Ladder 1 to B1F.
+- Current Position: B1F (32, 26)
+- Strategy: From (32, 26), descend column 32 to (32, 31) into B1F Southern Highway, then navigate west across row 31 towards cols 2-15 to locate Route 10 South exit.
+- Immediate Step: Flee wild Geodude battle, then step Down 5 times to (32, 31).
 
 <hr>
