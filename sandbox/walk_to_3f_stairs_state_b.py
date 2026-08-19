@@ -8,23 +8,22 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating directly to 3F stairs (18, 2) on 2F in State B via Row 9...")
+print("Navigating directly to 3F stairs (18, 2) on 2F in State B via Row 10 (open crossing!)...")
 buttons_pressed = 0
 
 while True:
     pos = mgba.get_coordinates()
     print(f"Current Position: {pos}")
     
-    # We warped to 3F (3F landing is at (18, 2) or pos['y'] changes)
     if pos['x'] == 18 and pos['y'] == 2:
         print("At stairs! Toggling warp to 3F...")
         mgba.press_buttons(["Up"])
         break
         
     btn = None
-    if pos['x'] == 7 and pos['y'] == 8:
+    if pos['x'] == 9 and pos['y'] == 9:
         btn = 'Down'
-    elif pos['y'] == 9 and pos['x'] < 12:
+    elif pos['y'] == 10 and pos['x'] < 12:
         btn = 'Right'
     elif pos['x'] == 12 and pos['y'] > 5:
         btn = 'Up'
@@ -45,9 +44,9 @@ while True:
                 btn = 'Down'
             else:
                 if pos['x'] < 12:
-                    if pos['y'] > 9:
+                    if pos['y'] > 10:
                         btn = 'Up'
-                    elif pos['y'] < 9:
+                    elif pos['y'] < 10:
                         btn = 'Down'
                     else:
                         btn = 'Right'
