@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=24, y=24)
+- Location: Rock Tunnel 1F (x=24, y=19)
 
 
 
@@ -145,8 +145,7 @@
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
-- HYDROS (Blastoise Lv 42): Skull Bash (15/15 PP), Bite (13/25 PP).
-- Backup Attackers: ATLAS (Machop Lv 15 - Karate Chop 25/25 PP), TERRA (Geodude Lv 21 - Dig, Rock Throw).
+- Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
 
 <hr>
 
@@ -893,7 +892,6 @@
 ## Verified Connections & Warps
 - Central-Eastern Divider: Solid vertical rock wall spans cols 18-19 across rows 8-15. Access between Central/Western sector and Eastern sector is via the Northern Highway (rows 2-7).
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
-- South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2/Warp (North-West): Located at (5, 3). Stepping Up onto (5, 3) warps to (27, 3) in Eastern Exit Sector [Verified Turn 6020].
 - Ladder 3 (Far North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turns 4921, 5082, 5580, 5689].
@@ -902,7 +900,7 @@
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
    - East-west passage running from entrance (15, 3) east to column 23.
-   - Solid vertical rock wall at cols 12-13 and cols 24-25 divides western/central sector from eastern sector.
+   - Solid vertical rock wall at cols 12-13. Central/eastern sector connects across row 19 and rows 2-7.
 2. Western Corridor (cols 2-5, rows 2-13):
    - Continuous vertical passage south from Ladder 3 at (3, 3) down to row 13.
 3. Crossway (rows 10-13, cols 5-11):
@@ -914,13 +912,12 @@
 6. South-Central Sector & Collision Boundaries:
    - Cols 14-17 (rows 18-21) form a dead-end pocket blocked by solid rock wall at rows 22-23.
    - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
-   - Vertical rock wall at cols 12-13 and cols 24-25 prevents direct horizontal passage to eastern sector on 1F.
+   - Central/eastern passage is accessible via row 19 and upper corridor (rows 2-7).
 7. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
    - Rows 14-15 form an impassable solid rock wall across cols 20-37.
    - Ladder 1 at (37, 3) connects to B1F (33, 25).
    - Ladder 4 at (27, 3) connects to B1F (5, 3).
-   - South Exit at (37, 17) connects out to Route 10 South (Lavender Town side).
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
@@ -1063,24 +1060,22 @@
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
 ## Current Status & Objective
-- Current Position: 1F (37, 3)
-- Master Strategy: Traverse through Western Corridor to Ladder 3 at 1F (3, 3) -> descend to B1F (37, 17) -> traverse South-Western Highway (rows 30-33) all the way WEST to cols 2-5 -> ascend Western Highway north along cols 2-5 to Ladder 4 at B1F (5, 3) -> ascend to 1F (27, 3) in Eastern Exit Sector -> walk south to South Exit at (37, 17) -> Lavender Town.
+- Current Position: 1F (24, 19)
+- Master Strategy: From 1F (24, 19), traverse east along row 19 to cols 28-32, then explore south down the eastern highway corridor past row 28 to locate the true South Exit leading to Route 10 South and Lavender Town.
 
-## Verified Empirical Ladder Connectivity Matrix
-| Ladder ID | 1F Floor Position | B1F Floor Position | Verified Direction / Connectivity |
+## Verified Empirical Ladder & Warp Connectivity Matrix
+| ID | Floor 1 (1F) Coordinate | Target Floor / Location | Verified Details |
 |---|---|---|---|
-| Ladder 1 | 1F (37, 3) | B1F (33, 25) | 1F Entrance Sector -> B1F Southeast Landing |
-| Ladder 2 | 1F (5, 3) | 1F (27, 3) | NW 1F -> Eastern Exit Sector Warp [Verified Turn 6020] |
-| Ladder 3 | 1F (3, 3) | B1F (37, 17) | 1F Northwest Warp <-> B1F East-Central Warp |
+| Ladder 1 | 1F (37, 3) | B1F (33, 25) | 1F NE Entrance Sector -> B1F Southeast Landing |
+| Ladder 2 / Warp | 1F (5, 3) | 1F (27, 3) | 1F NW Western Corridor -> 1F Eastern Exit Sector [Verified Turn 6020] |
+| Ladder 3 | 1F (3, 3) | B1F (37, 17) | 1F NW Warp <-> B1F East-Central Warp |
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | 1F Exit Sector <-> B1F Northwest |
 
 ## Traversal Strategy
-1. Return from 1F (17, 11) west to Crossway and north up Western Corridor to Ladder 3 at 1F (3, 3).
-2. Descend Ladder 3 to B1F (37, 17).
-3. On B1F, move south through cols 26-35 to row 30-33 (South Highway).
-4. Follow South Highway west through row 27 bypass (cols 20-29) to southwest chamber (cols 2-15, rows 30-33).
-5. Ascend north through Western Highway (cols 2-5) all the way to B1F (5, 3) (Ladder 4).
-6. Ascend Ladder 4 to 1F Exit Sector (27, 3) -> walk south down Eastern Corridor to South Exit at (37, 17) -> Route 10 South -> Lavender Town.
+1. From 1F (24, 19), walk East along row 19 past central pillar to (29, 19).
+2. Move South down cols 28-32 past row 22-28 open corridor.
+3. Systematically probe south boundary (rows 28-35) to find the true South Exit mat.
+4. Exit to Route 10 South -> enter Lavender Town -> heal at Pok�mon Center.
 
 
 <hr>
