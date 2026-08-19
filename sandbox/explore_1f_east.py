@@ -8,50 +8,65 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Probing 1F row 11 towards the east...")
-path_right = [
-    ('Right', 8, 11),
-    ('Right', 9, 11),
-    ('Right', 10, 11),
-    ('Right', 11, 11),
-    ('Right', 12, 11),
-    ('Right', 13, 11),
-    ('Right', 14, 11),
-    ('Right', 15, 11),
-    ('Right', 16, 11),
-    ('Right', 17, 11),
-    ('Right', 18, 11),
-    ('Right', 19, 11),
-    ('Right', 20, 11)
+print("Walking LEFT to column 5 on 1F/2F...")
+path_left = [
+    ('Left', 8, 11),
+    ('Left', 7, 11),
+    ('Left', 6, 11),
+    ('Left', 5, 11)
 ]
 
-for btn, tx, ty in path_right:
+for btn, tx, ty in path_left:
     pos = mgba.get_coordinates()
-    print(f"1F: At {pos}, Next Step: {btn} to ({tx}, {ty})")
     mgba.press_buttons([btn])
     time.sleep(0.3)
     new_pos = mgba.get_coordinates()
     if new_pos['x'] == tx and new_pos['y'] == ty:
-        print("Step succeeded.")
+        pass
     else:
-        print(f"Blocked at column {pos['x']} when trying to go Right to {tx}.")
+        print(f"Blocked at ({pos['x']}, {pos['y']}) trying to go {btn}")
         time.sleep(0.5)
         pos_check = mgba.get_coordinates()
         if pos_check == new_pos:
             run_from_battle()
-            time.sleep(1)
-            # Re-align
-            new_pos_after = mgba.get_coordinates()
-            found = False
-            for idx, (b, tx_r, ty_r) in enumerate(path_right):
-                if new_pos_after['x'] == tx_r and new_pos_after['y'] == ty_r:
-                    print(f"Re-aligned to index {idx}")
-                    # Skip to next index
-                    break
-            # Since we got blocked, we stop
+            time.sleep(1.0)
             break
-        else:
-            print("Position changed, continuing...")
+
+# Now walk DOWN column 5 to row 27
+print("Walking DOWN column 5 to row 27...")
+pos = mgba.get_coordinates()
+for row in range(pos['y'] + 1, 28):
+    mgba.press_buttons(["Down"])
+    time.sleep(0.3)
+    new_pos = mgba.get_coordinates()
+    if new_pos['y'] == row:
+        pass
+    else:
+        print(f"Blocked at row {new_pos['y']}. Let's check for battle...")
+        time.sleep(0.5)
+        pos_check = mgba.get_coordinates()
+        if pos_check == new_pos:
+            run_from_battle()
+            time.sleep(1.0)
+            break
+
+# Now try to walk RIGHT along row 27 to find the eastern corridor
+print("Walking RIGHT along the south on row 27...")
+pos = mgba.get_coordinates()
+for col in range(pos['x'] + 1, 28):
+    mgba.press_buttons(["Right"])
+    time.sleep(0.3)
+    new_pos = mgba.get_coordinates()
+    if new_pos['x'] == col:
+        pass
+    else:
+        print(f"Blocked at column {new_pos['x']} on row 27! Checking if we are blocked by a gate.")
+        time.sleep(0.5)
+        pos_check = mgba.get_coordinates()
+        if pos_check == new_pos:
+            run_from_battle()
+            time.sleep(1.0)
+            break
 
 print("Final position:", mgba.get_coordinates())
 img = mgba.take_screenshot()
