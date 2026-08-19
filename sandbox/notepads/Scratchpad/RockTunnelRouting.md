@@ -9,8 +9,7 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: 1F (27, 3)
-- Step 1: Walk South down Eastern Sector corridor (cols 26-29) towards row 13.
-- Step 2: Navigate around east-west divider (cols 32-37) into southern highway.
-- Step 3: Systematically survey southern boundaries to locate the South Exit doorway.
-- Step 4: Exit to Route 10 South and proceed to Lavender Town!
+- Current Position: 1F (9, 33)
+- Active Sweep Protocol: Sweep eastward along row 33 from col 3 to col 37.
+- Columns Verified Solid at Row 34: cols 0-8.
+- Immediate Step: Flee wild Zubat battle, continue eastward sweep across cols 9-18.
