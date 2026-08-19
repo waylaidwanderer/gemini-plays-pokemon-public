@@ -8,7 +8,7 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating from 1F (13, 12) to B1F stairs (21, 24) in State B via Row 6 & Column 19...")
+print("Navigating from 1F (18, 12) to B1F stairs (21, 24) in State B via double-zigzag...")
 buttons_pressed = 0
 
 while True:
@@ -21,12 +21,12 @@ while True:
         break
         
     btn = None
-    if pos['y'] == 12 and pos['x'] > 11:
-        btn = 'Left'
-    elif pos['x'] == 11 and pos['y'] > 6:
-        btn = 'Up'
-    elif pos['y'] == 6 and pos['x'] < 19:
+    if pos['y'] == 12 and pos['x'] < 21:
         btn = 'Right'
+    elif pos['x'] == 21 and pos['y'] < 15:
+        btn = 'Down'
+    elif pos['y'] == 15 and pos['x'] > 19:
+        btn = 'Left'
     elif pos['x'] == 19 and pos['y'] < 24:
         btn = 'Down'
     elif pos['y'] == 24 and pos['x'] < 21:
@@ -35,20 +35,20 @@ while True:
         btn = 'Down'
     else:
         # Recovery
-        if pos['x'] < 11:
+        if pos['x'] < 19:
             btn = 'Right'
         elif pos['x'] > 21:
             btn = 'Left'
-        elif pos['y'] < 6:
+        elif pos['y'] < 12:
             btn = 'Down'
         elif pos['y'] > 24:
             btn = 'Up'
         else:
-            # Between col 11 and 21, and row 6 and 24
-            if pos['y'] < 12:
+            # We are between columns 19 and 21 and rows 12 and 24
+            if pos['y'] < 15:
                 btn = 'Right'
             else:
-                btn = 'Up'
+                btn = 'Left'
                 
     if not btn:
         break
