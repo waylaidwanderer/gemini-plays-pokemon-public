@@ -1,55 +1,59 @@
 import mgba
 import time
 
-def run_from_battle():
-    # Overworld has no wild battles on Cinnabar Island grass (unless in tall grass, but there is no tall grass on Cinnabar Island overworld except in Gym, and there's none here).
-    # But just in case:
-    print("Battle detected! Running away...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 2000"])
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    time.sleep(1.0)
+print("Walking to the north-east side of Cinnabar Island...")
 
-# We are at (6, 10). Let's walk Right to column 16, then UP to row 3, then LEFT to column 12.
-# Let's do it step-by-step and check collision.
-# On Cinnabar Island:
-# Row 10 is grass. Let's try to walk Right to column 16.
-print("Walking Right from (6, 10)...")
-for col in range(7, 20):
+# We are at (15, 12).
+# Walk Right 3 steps to (18, 12)
+# Walk Up 9 steps to (18, 3)
+# Then Walk Left to explore the top area!
+path = [
+    ('Right', 16, 12),
+    ('Right', 17, 12),
+    ('Right', 18, 12),
+    ('Up', 18, 11),
+    ('Up', 18, 10),
+    ('Up', 18, 9),
+    ('Up', 18, 8),
+    ('Up', 18, 7),
+    ('Up', 18, 6),
+    ('Up', 18, 5),
+    ('Up', 18, 4),
+    ('Up', 18, 3)
+]
+
+for btn, tx, ty in path:
     pos = mgba.get_coordinates()
-    print(f"Current Pos: {pos}, trying to move Right to {col}")
-    mgba.press_buttons(["Right"])
+    print(f"Overworld: At {pos}, Next Step: {btn} to ({tx}, {ty})")
+    mgba.press_buttons([btn])
     time.sleep(0.3)
     new_pos = mgba.get_coordinates()
-    if new_pos['x'] == pos['x']:
-        print(f"Blocked at column {pos['x']}. Let's try to walk Down to row 12 first.")
-        break
+    if new_pos['x'] == tx and new_pos['y'] == ty:
+        print("Step succeeded.")
+    else:
+        print(f"Failed to step to ({tx}, {ty}). Current coordinate: {new_pos}")
+        time.sleep(0.5)
+        pos_check = mgba.get_coordinates()
+        if pos_check == new_pos:
+            print("Blocked. Stopping.")
+            break
+        else:
+            print("Position changed, continuing...")
 
-# If blocked, try to walk Down 2 steps to row 12 (where there is open grass)
+# Now walk Left from (18, 3) to explore and find the Mansion entrance
 pos = mgba.get_coordinates()
-if pos['y'] < 12:
-    print("Moving Down to row 12...")
-    for row in range(pos['y'] + 1, 13):
-        mgba.press_buttons(["Down"])
+if pos['x'] == 18 and pos['y'] == 3:
+    print("At (18, 3). Walking LEFT...")
+    for col in range(17, 1, -1):
+        curr = mgba.get_coordinates()
+        print(f"At {curr}, trying to walk Left to {col}")
+        mgba.press_buttons(["Left"])
         time.sleep(0.3)
-    print("Position after moving Down:", mgba.get_coordinates())
+        new_pos = mgba.get_coordinates()
+        if new_pos['x'] == curr['x']:
+            print(f"Blocked at column {curr['x']}. Stopping.")
+            break
 
-# Now walk Right as far as possible (up to column 16) on row 12
-pos = mgba.get_coordinates()
-print("Moving Right on row 12...")
-for col in range(pos['x'] + 1, 20):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.3)
-print("Position after moving Right:", mgba.get_coordinates())
-
-# Now walk UP to row 3 (or until blocked)
-pos = mgba.get_coordinates()
-print("Moving UP on Cinnabar Island...")
-for row in range(pos['y'] - 1, 2, -1):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.3)
-print("Position after moving UP:", mgba.get_coordinates())
-
-# Take a screenshot to inspect the northern area of Cinnabar Island
+print("Final position:", mgba.get_coordinates())
 img = mgba.take_screenshot()
-print("Screenshot of northern area:", img)
+print("Screenshot:", img)
