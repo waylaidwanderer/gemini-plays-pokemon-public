@@ -1,13 +1,14 @@
 import mgba
 import time
 
-print("Bypassing Lab via Row 4 to reach Pokémon Mansion...")
+print("Bypassing wandering NPC via Column 11 to reach Pokémon Mansion...")
 
-# Start at (10, 7) on Cinnabar Island
+# Start at (10, 6) on Cinnabar Island
 path = [
-    ('Up', 10, 6),
-    ('Up', 10, 5),
-    ('Up', 10, 4),
+    ('Right', 11, 6),
+    ('Up', 11, 5),
+    ('Up', 11, 4),
+    ('Left', 10, 4),
     ('Left', 9, 4),
     ('Left', 8, 4),
     ('Left', 7, 4),
