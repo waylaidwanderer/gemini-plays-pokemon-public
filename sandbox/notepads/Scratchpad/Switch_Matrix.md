@@ -30,3 +30,13 @@ Since the gates did not reset when we used DIG to leave the Mansion, they are cu
 - **3F:** Unreachable because the 2F stairs gate at `(5, 7)` is closed.
 - **B1F:** Unreachable because the 1F stairs gate at `(22, 2)` is closed.
 - **1F West/Center:** Accessible on foot from the entrance. We must explore the southwest of 1F to check if there is an active Mewtwo statue switch there.
+## VERIFIED SPEEDRUN ROUTE (State B Skip) - Verified Turn 46787
+- **Discovery:** The electronic gates in Pok�mon Mansion DO NOT reset when leaving the Mansion (either via DIG or front door). They remain in State B if they were toggled to State B.
+- **State B Traversal:**
+  - In State B, the 2F stairs gate at `(5, 7)` is CLOSED, blocking access to the 3F northwest room.
+  - BUT we do not need to go to 3F at all!
+  - In State B, the 1F B1F stairs gate at `(22, 2)` is OPEN.
+  - This gate separates the 1F fenced-in room from the main 1F lobby.
+  - Since the gate is OPEN, we can walk directly on foot into the fenced-in room on 1F, go down the stairs to B1F, and retrieve the Secret Key immediately!
+  - On B1F, the Secret Key Room is OPEN in State B, so the key is completely unblocked!
+- **Current Position:** We are on 1F at `(5, 10)`. We are walking south down the lobby to find the eastern corridor to reach the B1F stairs at `(22, 2)`.
