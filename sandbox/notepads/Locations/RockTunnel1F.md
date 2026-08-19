@@ -32,7 +32,7 @@
    - Rows 34-35 form a solid rock wall across cols 13-37 [Verified Turns 6430-6444].
    - Cols 38-39 form the solid eastern boundary across rows 29-35 [Verified Turn 6443].
    - Southeast corner at (37, 33) is an enclosed dead end [Verified Turn 6443].
-   - Western sector (cols 0-13, rows 30-33): Open 4-tile corridor ending at solid rock wall at col 1 (rows 30-33) and solid rock boundary at rows 34-35. No exit warp in cols 0-13. Exit search continues across cols 14-37.
+   - Southern Sector Survey (cols 0-37, rows 28-35): Massive 4-tile high horizontal highway spanning cols 2-37 (rows 30-33). Solid rock walls at rows 34-35 and east boundary (col 38) enclose this basin. No exit warp exists along rows 30-35 on 1F.
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
