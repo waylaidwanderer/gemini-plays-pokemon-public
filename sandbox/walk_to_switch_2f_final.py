@@ -8,7 +8,7 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating from (8, 9) to switch access tile (1, 11) in State A...")
+print("Navigating from 2F (8, 13) to switch access tile (1, 11) via Column 8 (Up) & Row 9 & Column 5...")
 buttons_pressed = 0
 
 while True:
@@ -20,9 +20,9 @@ while True:
         break
         
     btn = None
-    if pos['x'] == 8 and pos['y'] < 11:
-        btn = 'Down'
-    elif pos['y'] == 11 and pos['x'] > 5:
+    if pos['x'] == 8 and pos['y'] > 9:
+        btn = 'Up'
+    elif pos['y'] == 9 and pos['x'] > 5:
         btn = 'Left'
     elif pos['x'] == 5 and pos['y'] < 13:
         btn = 'Down'
@@ -57,6 +57,14 @@ while True:
     
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
+        # We didn't move!
+        # Check if we are blocked by the NPC at (8, 11)
+        if btn == 'Up' and pos['x'] == 8 and pos['y'] == 12:
+            print("Bumped into Cooltrainer NPC at (8, 11). Waiting for her to move...")
+            time.sleep(1.0)
+            continue
+            
+        print("We are blocked or in battle!")
         run_from_battle()
         buttons_pressed += 6
         
