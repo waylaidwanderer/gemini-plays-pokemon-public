@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=32, y=26)
+- Location: Rock Tunnel B1F (x=28, y=31)
 
 
 
@@ -1069,8 +1069,8 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (32, 26)
-- Strategy: From (32, 26), descend column 32 to (32, 31) into B1F Southern Highway, then navigate west across row 31 towards cols 2-15 to locate Route 10 South exit.
-- Immediate Step: Flee wild Geodude battle, then step Down 5 times to (32, 31).
+- Current Position: B1F (28, 31)
+- Strategy: Navigate west along row 31 / row 27 into the B1F Southwest Highway (cols 2-15, rows 30-33) to survey for the Route 10 South exit.
+- Immediate Step: Flee wild Zubat battle, then walk Left along row 31 towards col 15.
 
 <hr>
