@@ -89,19 +89,19 @@ if pos['x'] == 2 and pos['y'] == 12:
 
 # Step 2: Walk from (2, 12) to northeast stairs at (18, 2) on 2F
 # Path:
-# (2, 12) -> Right to (12, 12) -> Up to (12, 5) -> Right to (18, 5) -> Up to (18, 2)
+# (2, 12) -> Right to (3, 12) -> Up to (3, 11) -> Right to (12, 11) -> Up to (12, 5) -> Right to (18, 5) -> Up to (18, 2)
 path_to_stairs = [
     ('Right', 3, 12),
-    ('Right', 4, 12),
-    ('Right', 5, 12),
-    ('Right', 6, 12),
-    ('Right', 7, 12),
-    ('Right', 8, 12),
-    ('Right', 9, 12),
-    ('Right', 10, 12),
-    ('Right', 11, 12),
-    ('Right', 12, 12),
-    ('Up', 12, 11),
+    ('Up', 3, 11),
+    ('Right', 4, 11),
+    ('Right', 5, 11),
+    ('Right', 6, 11),
+    ('Right', 7, 11),
+    ('Right', 8, 11),
+    ('Right', 9, 11),
+    ('Right', 10, 11),
+    ('Right', 11, 11),
+    ('Right', 12, 11),
     ('Up', 12, 10),
     ('Up', 12, 9),
     ('Up', 12, 8),
