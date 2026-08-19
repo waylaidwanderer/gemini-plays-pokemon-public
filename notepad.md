@@ -1069,8 +1069,8 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (33, 25)
-- Strategy: Descend column 33 into B1F southern corridor (rows 30-33) to survey for Route 10 South exit.
-- Immediate Step: Walk Down column 33 to (33, 31).
+- Current Position: B1F (33, 31)
+- Strategy: Navigate through Row 27 Northern Bypass to B1F Southwest Highway (cols 2-15) and survey for the Route 10 South exit.
+- Immediate Step: Walk Left 4 to (29, 31), Up 4 to (29, 27), then Left to (15, 27).
 
 <hr>
