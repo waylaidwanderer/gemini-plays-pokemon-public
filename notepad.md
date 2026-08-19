@@ -78,7 +78,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full!
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125. Verified on Turn 47853 that our Bag has 18 empty slots (only HP UP and ESCAPE ROPE), so we can retrieve it now!
 
 <hr>
 
@@ -2076,8 +2076,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 3. On 2F, walk UP column 5, step onto the stairs at (5, 10) to warp to 3F.
 4. On 3F, walk Left to (2, 12), face UP, and toggle the Mewtwo statue switch at (2, 11) to State B.
 5. On 3F, walk east along row 11/12, go north to column 12 row 7, walk east along row 7 to (21, 7), walk UP through the open gate at (21, 5) to the northeast room, and step into the pit at (24, 5).
-6. The (24, 5) pit drops the player to 2F (which has a pit at 24, 5) and we fall through directly to the east wing of 1F, landing at `(22, 7)` in State B.
-7. From `(22, 7)` on 1F, walk Left to column 19, walk Down through the open shutter gate at `(19, 8)`/`(19, 9)`, walk Down to row 24, walk Right to `(21, 24)`, and go down the stairs to B1F!
+6. The (24, 5) pit drops the player to 2F and we fall through directly to the southeast wing of 1F, landing at `(28, 7)` on Turn 47793 (State B).
+7. From `(28, 7)` on 1F, walk Left to column 24, Up to row 3 (to bypass the row 7 blockages at col 22), Left along row 3 to column 19, Down column 19 to row 24 through the open shutter gate at `(19, 8)`/`(19, 9)`, Right to `(21, 24)`, and go down the stairs to B1F!
 8. Retrieve the Secret Key from B1F.
 
 <hr>
