@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=8, y=16)
+- Location: Rock Tunnel 1F (x=8, y=12)
 
 
 
@@ -1061,28 +1061,25 @@
 
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
-## Current Objective: Systematic Southward Exploration of 1F Western/Central Sector
-1. Navigate from (21, 3) West to (15, 3), South to (15, 14), West to (10, 14) (Central Thoroughfare).
-2. Systematically probe all southward corridors on 1F (cols 2-17, rows 14-35):
-   - Test Central Thoroughfare (cols 8-11) south past (10, 15) and record exact boundaries at rows 20-35.
-   - If blocked at any row, probe lateral branches West (cols 2-7) and East (cols 12-17).
-   - Locate the true South Exit mat leading to Route 10 South and Lavender Town.
+## Rock Tunnel Traversal Model (Retail Pok�mon Blue)
+In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in 4 sequential stages:
+1. 1F North Entrance -> Descend Ladder 1 to B1F
+2. B1F -> Ascend Ladder 2/4 to 1F Intermediate Sector
+3. 1F Intermediate Sector -> Descend Ladder to B1F Final Sector
+4. B1F Final Sector -> Ascend Ladder to 1F South Exit Sector -> Exit to Route 10 South & Lavender Town
 
-## Verified Empirical Ladder Connectivity Matrix
-| Ladder | 1F Coord | B1F Coord | Sector / Connection |
-|---|---|---|---|
-| Ladder 1 | 1F (37, 3) | B1F (33, 25) | NE 1F <-> SE B1F |
-| Ladder 2 | 1F (5, 3) | B1F (27, 3) | NW 1F <-> NC B1F |
-| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far NW 1F <-> EC B1F |
-| Ladder 4 | 1F (27, 3) | B1F (5, 3) | NC 1F <-> NW B1F |
-| Ladder 5 | 1F (23, 11) | B1F (17, 11) | NC 1F <-> Central B1F |
+## Verified Empirical Ladder Transitions
+| Ladder | 1F Coord | B1F Coord | Tested Transition | Verified Turn |
+|---|---|---|---|---|
+| Ladder 1 | (37, 3) | (33, 25) / (17, 11) | 1F (37, 3) -> B1F (33, 25) & B1F (17, 11) -> 1F (23, 11) | Turn 4618, 6131 |
+| Ladder 2 | (5, 3) | (27, 3) | 1F (5, 3) -> 1F (27, 3) / B1F (27, 3) | Turn 4642, 6020 |
+| Ladder 3 | (3, 3) | (37, 17) | B1F (37, 17) -> 1F (3, 3) & 1F (3, 3) -> B1F (37, 17) | Turn 4921, 5580 |
+| Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
-
-## Empirical 1F Boundary Proofs (Verified Turns 6158-6172)
-- 1F Cols 14-17 (rows 14-21) dead-ends at solid rock wall across rows 22-23 (cols 11-20).
-- 1F Cols 2-11 (rows 24-27) dead-ends at solid rock wall across rows 28-29 (cols 2-13).
-- Direct southward overworld traversal on 1F is physically blocked by design.
-- Multi-floor ladder progression is required: 1F (5, 3) warp -> 1F (27, 3) -> B1F (5, 3) -> B1F (37, 17) -> 1F (3, 3) -> Exit.
+## Next Traversal Plan
+1. From 1F (8, 12), walk to (5, 3) and verify warp/ladder destination.
+2. If at 1F (27, 3), descend Ladder 4 to B1F (5, 3).
+3. On B1F, explore corridors systematically to find the ladder leading to 1F South Exit.
 
 
 <hr>
