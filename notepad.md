@@ -921,7 +921,7 @@
    - Rows 34-35 form a solid rock wall across cols 13-37 [Verified Turns 6430-6444].
    - Cols 38-39 form the solid eastern boundary across rows 29-35 [Verified Turn 6443].
    - Southeast corner at (37, 33) is an enclosed dead end [Verified Turn 6443].
-   - Southern Sector Survey (cols 0-38, rows 28-35): Massive 4-tile high horizontal highway spanning cols 2-37 (rows 30-33). Note: Prior survey on Turns 6926-6944 traversed along row 33; Gen 1 cave exit doorways require stepping Down into rows 34-35. A coordinate-by-coordinate south-step audit into rows 34-35 is planned upon returning to 1F Eastern Sector to trigger the south exit to Route 10 South.
+   - Southern Sector Survey (cols 0-38, rows 28-35): Massive 4-tile high horizontal highway spanning cols 2-37 (rows 30-33). Note: Prior survey on Turns 6926-6944 traversed along row 33; Gen 1 cave exit doorways require stepping Down into rows 34-35. Completed coordinate-by-coordinate south-step audit into rows 34-35 across all cols 2-37 (Turns 7434-7440): Row 34 is solid rock wall across all cols 2-37 on 1F. No south doorway exists along rows 34-35 on 1F.
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
@@ -1073,14 +1073,15 @@
 | Ladder 5 Ascent | B1F (23, 11) | 1F (17, 11) | B1F Central -> 1F Central | Turn 6837 |
 | Ladder 5 Descent | 1F (17, 11) | B1F (23, 11) | 1F Central -> B1F Central | Turns 6131, 7054 |
 
-## Empirical Exit Protocol & Sector Reconciliation
-- Retail Progression Route: North Entrance 1F (15, 3) -> Ladder 1 -> B1F (33, 25) -> Ladder 3 -> 1F (3, 3) -> Ladder 5 -> B1F (23, 11) -> Ladder 4 -> 1F Eastern Sector (37, 3 / 27, 3) -> 1F South Exit.
-- Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
+## Empirical Row 33 Survey Results (Turns 7434-7440)
+- All columns x=2 to x=37 along row 33 on 1F were tested for Down movement into row 34.
+- Row 34 is solid rock wall across all columns x=2 to x=37 on 1F.
+- No south doorway exists along rows 34-35 on 1F.
 
 ## Current Navigation Step
-- Current Position: 1F (24, 27)
-- Target: Rock Tunnel South Exit to Route 10 South (rows 34-35).
-- Strategy: Solid rock wall spans rows 28-29 across cols 20-27. Open vertical passage into Southern Highway is at cols 28-29. Move east along row 27 to col 29, descend south down cols 28-29 into the Southern Highway at (29, 33), and step DOWN into rows 34-35 exit doorway into Route 10 South.
-- Immediate Step: Right 5 times to (29, 27), Down 6 times to (29, 33), then step Down into rows 34-35 exit doorway.
+- Current Position: 1F (37, 33)
+- Target: Survey unvisited eastern chamber (cols 28-37, rows 20-29) and western/central connections on 1F to identify true exit/ladder path.
+- Immediate Step: Walk Up from (37, 33) into the eastern chamber (rows 22-29).
+
 
 <hr>
