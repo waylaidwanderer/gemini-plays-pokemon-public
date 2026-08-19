@@ -5,7 +5,6 @@
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 3 (Far North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turns 4921, 5082, 5580, 6190]. Note: Tile (5, 3) is open floor.
-- Ladder 3 (Far North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turns 4921, 5082, 5580, 5689].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 - Ladder 5 / Warp (North-Central / West of Divider): Located at (23, 11). Connects down to Rock Tunnel B1F at (17, 11) [Verified Turn 6131].
 
