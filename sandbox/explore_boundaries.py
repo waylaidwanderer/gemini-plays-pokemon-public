@@ -1,35 +1,41 @@
 import mgba
 import time
 
-print("Current Pos:", mgba.get_coordinates())
+def run_from_battle():
+    print("Battle detected! Running away...")
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 2000"])
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    time.sleep(1.0)
 
-# From (7, 7) we are facing UP.
-# Let's test walking Left to (6, 7), then UP to (6, 6), and then test walking Right to (7, 6) and (8, 6)
-# and UP to (6, 5)
+# We are at (16, 6) on 1F. Let's find all walkable adjacent tiles by trying to step onto them and recording coordinates.
+pos = mgba.get_coordinates()
+print("Starting coordinate:", pos)
 
-# 1. Walk Left to (6, 7)
-print("Pressing Left...")
-mgba.press_buttons(["Left"])
-time.sleep(0.3)
-print("Position:", mgba.get_coordinates())
+walkable_neighbors = []
 
-# 2. Walk UP to (6, 6)
-if mgba.get_coordinates() == {'x': 6, 'y': 7}:
-    print("Pressing Up...")
-    mgba.press_buttons(["Up"])
+for dir_name, dx, dy in [('Up', 0, -1), ('Down', 0, 1), ('Left', -1, 0), ('Right', 1, 0)]:
+    curr = mgba.get_coordinates()
+    # Try to move
+    print(f"Testing direction {dir_name}...")
+    mgba.press_buttons([dir_name])
     time.sleep(0.3)
-    print("Position:", mgba.get_coordinates())
-
-# 3. From (6, 6), test walking Right
-if mgba.get_coordinates() == {'x': 6, 'y': 6}:
-    print("Pressing Right...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.3)
-    print("Position after Right:", mgba.get_coordinates())
+    new_pos = mgba.get_coordinates()
     
-    # If we moved Right to (7, 6), then let's try walking Right again to (8, 6)
-    if mgba.get_coordinates() == {'x': 7, 'y': 6}:
-        print("Pressing Right again...")
-        mgba.press_buttons(["Right"])
+    if new_pos['x'] == curr['x'] + dx and new_pos['y'] == curr['y'] + dy:
+        print(f"Success! Neighbor at ({new_pos['x']}, {new_pos['y']}) is walkable.")
+        walkable_neighbors.append((dir_name, new_pos['x'], new_pos['y']))
+        # Move back
+        opposite_dir = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}[dir_name]
+        mgba.press_buttons([opposite_dir])
         time.sleep(0.3)
-        print("Position after 2nd Right:", mgba.get_coordinates())
+    else:
+        print(f"Failed to move {dir_name}. Coordinates remained at {curr} (or changed unexpectedly to {new_pos}).")
+        # If we got into a battle, we must flee
+        time.sleep(0.5)
+        pos_check = mgba.get_coordinates()
+        if pos_check == new_pos:
+            # Check if we actually changed floors or did something else
+            pass
+            
+print("Probed walkable neighbors from current position:", walkable_neighbors)
