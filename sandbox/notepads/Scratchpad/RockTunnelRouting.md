@@ -17,7 +17,7 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: 1F (11, 15)
+- Current Position: 1F (11, 19)
 - Target: Rock Tunnel South Exit to Route 10 South (rows 34-35)
 - Strategy: Follow column 11 central vertical highway south in short 4-step probed segments to row 33 Southern Highway, then step down into rows 34-35 south doorway to exit Rock Tunnel to Route 10 South and Lavender Town.
-- Immediate Step: Flee Machop battle, then probe south 4 steps down col 11 to (11, 19).
+- Immediate Step: Step Down 4 times along col 11 to (11, 23).
