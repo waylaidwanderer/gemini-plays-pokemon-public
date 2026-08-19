@@ -8,22 +8,18 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Clearing textbox and walking to northwest switch on 3F...")
-
-# Clear the "Got away safely!" textbox
-mgba.press_buttons(["A"])
-time.sleep(1.0)
+print("Walking to northwest switch on 3F via Row 11...")
 
 # Start at (8, 12) on 3F
 path_to_switch = [
-    ('Down', 8, 13),
-    ('Left', 7, 13),
-    ('Left', 6, 13),
-    ('Left', 5, 13),
-    ('Left', 4, 13),
-    ('Left', 3, 13),
-    ('Left', 2, 13),
-    ('Up', 2, 12)
+    ('Up', 8, 11),
+    ('Left', 7, 11),
+    ('Left', 6, 11),
+    ('Left', 5, 11),
+    ('Left', 4, 11),
+    ('Left', 3, 11),
+    ('Down', 3, 12),
+    ('Left', 2, 12)
 ]
 
 for btn, tx, ty in path_to_switch:
