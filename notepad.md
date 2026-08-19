@@ -902,7 +902,7 @@
    - East-west passage running from entrance (15, 3) east to column 23.
    - Solid vertical rock wall at cols 12-13. Central and eastern sectors are separated by solid rock walls.
 2. Western Corridor (cols 2-5, rows 2-13):
-   - Continuous vertical passage south from Ladder 3 at (3, 3) down to row 13.
+   - Passage south from Ladder 3 at (3, 3) requires offsetting to cols 4-5 around row 5 obstruction, then continuing down to row 13.
 3. Crossway (rows 10-13, cols 5-11):
    - Connects western corridor (col 5) eastward to central vertical thoroughfare (cols 8-11) south of the rock pillar at cols 6-7 (rows 4-9).
 4. Central Vertical Thoroughfare (cols 8-11, rows 9-21):
@@ -941,7 +941,7 @@
 
 | Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 4618, 5372 |
 
-| Ladder 2 | 1F (5, 3) | B1F (27, 3) | North-West 1F <-> North-Central B1F | Turns 4642, 5411, 5447 |
+| Ladder 2 | 1F (27, 3) | B1F (27, 3) | North-Central 1F <-> North-Central B1F (Ladder 2/4 area) | Turns 4642, 5411, 5447 |
 
 | Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082 |
 
@@ -1076,8 +1076,9 @@ In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in
 | Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
 ## Next Traversal Plan
-1. From B1F (24, 20), navigate North/East along rows 16-20 to locate the ladder to 1F exit sector.
-2. Ascend to 1F and proceed south towards Route 10 exit.
+1. From 1F (3, 4), move East to col 5 and South down Western Corridor to row 12 crossway.
+2. Cross East to Central Vertical Thoroughfare (cols 8-11).
+3. Test unvisited passages / ladders to locate the path to the South Exit.
 
 
 <hr>
