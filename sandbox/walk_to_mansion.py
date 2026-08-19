@@ -1,44 +1,17 @@
 import mgba
 import time
 
-print("Bypassing Lab to reach Pokémon Mansion...")
+print("Bypassing Lab via Row 4 to reach Pokémon Mansion...")
 
-# Start at (6, 10) on Cinnabar Island
+# Start at (10, 7) on Cinnabar Island
 path = [
-    ('Down', 6, 11),
-    ('Down', 6, 12),
-    ('Right', 7, 12),
-    ('Right', 8, 12),
-    ('Right', 9, 12),
-    ('Right', 10, 12),
-    ('Right', 11, 12),
-    ('Right', 12, 12),
-    ('Right', 13, 12),
-    ('Right', 14, 12),
-    ('Right', 15, 12),
-    ('Right', 16, 12),
-    ('Right', 17, 12),
-    ('Right', 18, 12),
-    ('Up', 18, 11),
-    ('Up', 18, 10),
-    ('Up', 18, 9),
-    ('Up', 18, 8),
-    ('Up', 18, 7),
-    ('Left', 17, 7),
-    ('Left', 16, 7),
-    ('Left', 15, 7),
-    ('Left', 14, 7),
-    ('Left', 13, 7),
-    ('Left', 12, 7),
-    ('Left', 11, 7),
-    ('Left', 10, 7),
-    ('Left', 9, 7),
-    ('Left', 8, 7),
-    ('Left', 7, 7),
-    ('Left', 6, 7),
-    ('Up', 6, 6),
-    ('Up', 6, 5),
-    ('Up', 6, 4),
+    ('Up', 10, 6),
+    ('Up', 10, 5),
+    ('Up', 10, 4),
+    ('Left', 9, 4),
+    ('Left', 8, 4),
+    ('Left', 7, 4),
+    ('Left', 6, 4),
     ('Up', 6, 3)
 ]
 
