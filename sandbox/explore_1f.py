@@ -8,27 +8,15 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Exploring left on 1F from (19, 5)...")
+print("Walking left to the stairs at (7, 10)...")
 pos = mgba.get_coordinates()
 print("Initial position:", pos)
 
-# Let's try to walk left along row 5/6 to column 5
 path = [
-    ('Left', 18, 5),
-    ('Down', 18, 6),
-    ('Left', 17, 6),
-    ('Left', 16, 6),
-    ('Left', 15, 6),
-    ('Left', 14, 6),
-    ('Left', 13, 6),
-    ('Left', 12, 6),
-    ('Left', 11, 6),
-    ('Left', 10, 6),
-    ('Left', 9, 6),
-    ('Left', 8, 6),
-    ('Left', 7, 6),
-    ('Left', 6, 6),
-    ('Left', 5, 6)
+    ('Left', 10, 10),
+    ('Left', 9, 10),
+    ('Left', 8, 10),
+    ('Left', 7, 10)
 ]
 
 for btn, tx, ty in path:
