@@ -1060,25 +1060,22 @@
 
 # Rock Tunnel Master Traversal Plan
 
-## Verified Empirical Ladder Connectivity Matrix
-| Ladder | 1F Coordinate | B1F Coordinate | Direction / Sector | Verified Turn |
-|---|---|---|---|---|
-| Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 4618, 5372, 6717 |
-| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082, 5580, 6192, 6264 |
-| Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F (East of Divider) <-> North-West B1F | Turns 4364, 6104, 6401, 6536, 6634 |
-| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F (West of Divider) <-> Central B1F | Turns 6131, 6308 |
+## Empirical Floor & Ladder Geometry
+1F is split into two halves by a solid vertical rock divider at cols 18-19:
+- Eastern Sector (1F): Contains Ladder 1 (37, 3) and Ladder 4 (27, 3). Bounded on the south by rock wall at rows 20-21.
+- Central/Western Sector (1F): Contains Entrance (15, 3), Ladder 3 (3, 3), and Ladder 5 (23, 11). Connects directly south through Central Thoroughfare (cols 8-17) into the 1F Southern Highway (rows 30-33) and the South Exit to Route 10 South!
 
 ## Complete Forward Progression Sequence
-1. Start at 1F (37, 3) -> Descend Ladder 1 to B1F (33, 25).
-2. On B1F: From (33, 25), navigate via Row 27 Bypass (col 33 -> col 15) and Central-East Corridor (rows 16-17) to Ladder 3 at B1F (37, 17).
-3. Ascend Ladder 3 at B1F (37, 17) -> Arrive at 1F (3, 3).
-4. On 1F: From (3, 3), follow Western Corridor (cols 2-5, rows 3-13), cross east through Crossway (rows 10-13, cols 5-11), and follow row 11 east to Ladder 5 at 1F (23, 11).
-5. Descend Ladder 5 at 1F (23, 11) -> Arrive at B1F (17, 11).
-6. On B1F: From (17, 11), navigate westward to Ladder 4 at B1F (5, 3) OR survey the B1F southern highway for the cave exit to Route 10 South.
-7. If ascending Ladder 4 to 1F (27, 3), step off the ladder immediately to prevent re-triggering the warp, and survey remaining 1F branch paths.
+1. Current Position: 1F (33, 17) -> Return north to Ladder 4 at 1F (27, 3).
+2. Descend Ladder 4 at 1F (27, 3) -> Arrive at B1F (5, 3).
+3. On B1F: From (5, 3), navigate through the western/central corridor to Ladder 5 at B1F (17, 11).
+4. Ascend Ladder 5 at B1F (17, 11) -> Arrive at 1F (23, 11) [West of the Divider].
+5. On 1F (West of Divider): From (23, 11), navigate south through Middle Thoroughfare / cols 14-17 directly into the 1F Southern Highway (rows 30-33).
+6. Follow Southern Highway to the South Exit doorway of Rock Tunnel.
+7. Exit to Route 10 South and proceed directly into Lavender Town!
 
 ## Current Execution Status
-- Current Position: 1F (20, 20)
-- Immediate Step: Navigate down through open cols 20-25 to row 31 southern corridor and search westward for the exit.
+- Current Position: 1F (33, 17)
+- Immediate Step: Walk north to (33, 11), west to (27, 11), and north to descend Ladder 4 at (27, 3).
 
 <hr>
