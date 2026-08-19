@@ -14,7 +14,6 @@
 
 ### DEFAULT STATE (State A)
 - **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
-- **1F column 5 gate at `(5, 10)`:** **CLOSED** (Blocks column 5 on 1F).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F).
 - **2F Column 11 gates:** **CLOSED** (Blocks access to the east-central room).
 - **3F gate at `(5, 7)`:** **CLOSED** (Blocks column 5).
@@ -34,7 +33,7 @@
 - **Standard Routing:**
   1. Enter Mansion (State A).
   2. Walk UP column 5 on 1F, step onto (5, 10) stairs to warp to 2F.
-  3. On 2F, walk UP column 5 through the open (5, 7) gate, step onto (5, 10) stairs to warp to 3F.
-  4. On 3F, walk east to (22, 6) pit and fall to 2F.
-  5. On 2F, fall down to 1F fenced-in room.
+  3. On 2F, walk UP column 5 through the open (5, 7) gate, step onto the stairs at the north end of column 5 to warp to 3F.
+  4. On 3F, toggle the Mewtwo statue at (2, 11) to State B, walk east through the open gate at (21, 5) to the northeast room, and step onto the (23, 6) pit.
+  5. The (23, 6) pit drops the player vertically through 3F and 2F directly to the 1F fenced-in room.
   6. Go down B1F stairs, flip switch to State B to open Secret Key Room, and retrieve the Secret Key.
