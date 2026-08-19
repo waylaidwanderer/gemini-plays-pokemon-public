@@ -7,7 +7,7 @@
 | Ladder 1 Descent | 1F (37, 3) | B1F (33, 25) | 1F Eastern Sector -> B1F SE | Turns 6954, 6978 |
 | Ladder 3 Ascent | B1F (37, 17) | 1F (3, 3) | B1F East-Central -> 1F NW | Turns 4921, 5082, 5580 |
 | Ladder 3 Descent | 1F (3, 3) | B1F (37, 17) | 1F NW -> B1F East-Central | Turns 6190 |
-| Ladder 4 Ascent | B1F (27, 3) | 1F (5, 3) | B1F North -> 1F NW | Turn 7035 |
+| Ladder 4 Ascent | B1F (5, 3) | 1F (27, 3) | B1F NW -> 1F Eastern Sector | Turn 6907 |
 | Ladder 4 Descent | 1F (27, 3) | B1F (5, 3) | 1F Eastern Sector -> B1F NW | Turns 4364, 6104, 6401, 6907 |
 | Ladder 5 Ascent | B1F (23, 11) | 1F (17, 11) | B1F Central -> 1F Central | Turn 6837 |
 | Ladder 5 Descent | 1F (17, 11) | B1F (23, 11) | 1F Central -> B1F Central | Turns 6131, 7054 |
