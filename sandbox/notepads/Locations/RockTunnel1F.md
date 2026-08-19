@@ -1,7 +1,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
-- Central-Eastern Divider: Solid vertical rock wall spans cols 18-19 across rows 8-15. Access between Central/Western sector and Eastern sector is via the Northern Highway (rows 2-7).
+- Central-Eastern Divider: Solid vertical rock wall spans cols 18-19 across rows 8-15. Western/Central sector and Eastern sector are separate vertical partitions on 1F; travel between them requires B1F ladders.
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2/Warp (North-West): Located at (5, 3). Stepping Up onto (5, 3) warps to (27, 3) in Eastern Exit Sector [Verified Turn 6020].
