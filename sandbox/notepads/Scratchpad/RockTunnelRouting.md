@@ -1,8 +1,8 @@
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
 ## Current Status & Objective
-- Current Position: B1F (26, 31)
-- Immediate Goal: Ascend to row 27, bypass col 22-24 rock pillar to the west, and proceed to Ladder 4 at (5, 3).
+- Current Position: B1F (6, 26)
+- Immediate Goal: Flee wild Zubat, exit western enclosed pocket back to east corridor, and navigate to North Highway (rows 2-5) towards Ladder 4 at (5, 3).
 
 ## Verified Empirical Ladder Connectivity Matrix
 | Ladder ID | 1F Floor Position | B1F Floor Position | Verified Direction / Connectivity |
@@ -13,8 +13,8 @@
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | 1F Exit Sector <-> B1F Northwest |
 
 ## Traversal Strategy
-1. From (26, 31), walk Up 4 steps to (26, 27).
-2. Walk Left across row 27 (cols 25..20) to clear the rock pillar at cols 22-24.
-3. Traverse west to cols 14-17 (Vertical Connector) or western highway.
-4. Follow northern corridor up to Ladder 4 at (5, 3).
-5. Ascend Ladder 4 to 1F Exit Sector (27, 3) -> Walk to South Exit at (37, 17) -> Exit to Route 10 South.
+1. The western pocket (rows 24-27, cols 2-9) is an enclosed dead-end blocked by solid rock walls at rows 22-23 and rows 28-30.
+2. From (6, 26), retreat east along row 27 back past col 20 to the central/eastern corridor.
+3. Traverse north through the North-East corridor (cols 26-37, rows 10-13) to access the North Highway (rows 2-5).
+4. Follow the North Highway west past Ladder 2 at (27, 3) to Ladder 4 at (5, 3).
+5. Ascend Ladder 4 to 1F Exit Sector at (27, 3) -> proceed to South Exit at (37, 17) -> exit to Route 10 South and Lavender Town.
