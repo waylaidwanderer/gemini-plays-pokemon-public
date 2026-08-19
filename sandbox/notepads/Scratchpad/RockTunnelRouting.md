@@ -9,6 +9,6 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (28, 22)
-- Strategy: Navigate through B1F eastern passage (cols 34-37) north to row 12, then west into the Central-Western vertical channel (cols 8-10) leading south into the B1F Southwest Highway (cols 2-15, rows 30-33).
-- Immediate Step: Flee wild Zubat battle, then navigate east to col 34 and north to row 12.
+- Current Position: B1F (33, 22)
+- Strategy: Navigate through B1F eastern passage (cols 34-37) north to row 19, then west across row 19 to col 24, and south through the vertical passage (cols 24-25) into the South-West Chamber and South-Western Highway (cols 2-15, rows 30-33).
+- Immediate Step: Flee wild Machop battle, step Right 1 to (34, 22), Up 3 to (34, 19), then Left 10 to (24, 19).
