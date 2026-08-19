@@ -1,8 +1,8 @@
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
 ## Current Status & Objective
-- Current Position: 1F (11, 3)
-- Immediate Goal: Escape battle, then systematically probe 1F/B1F connectivity to reach the South Exit.
+- Current Position: B1F (32, 23)
+- Immediate Goal: Run from wild Zubat, then navigate south to South Highway (row 31) on B1F.
 
 ## Verified Empirical Ladder Connectivity Matrix
 | Ladder ID | 1F Floor Position | B1F Floor Position | Verified Direction / Connectivity |
