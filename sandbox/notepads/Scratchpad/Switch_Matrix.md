@@ -14,12 +14,14 @@
 
 ### DEFAULT STATE (State A)
 - **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
+- **1F column 5 gate at `(5, 10)`:** **CLOSED** (Blocks column 5 on 1F).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F).
 - **2F Column 11 gates:** **CLOSED** (Blocks access to the east-central room).
 - **3F gate at `(5, 7)`:** **CLOSED** (Blocks column 5).
 
 ### TOGGLED STATE (State B)
 - **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
+- **1F column 5 gate at `(5, 10)`:** **OPEN** (Allows access to column 5 / stairs on 1F).
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **2F Column 11 gates:** **OPEN** (Allows access to the east-central room).
 - **3F gate at `(5, 7)`:** **OPEN** (Allows access to the north side of 3F).
