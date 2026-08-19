@@ -1578,7 +1578,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 ## Key Items & Inventory Log
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
-- **Card Key Verification Test (Turn 44613):** Interacting with Saffron Silph Co 5F electronic gate at `(21, 13)` without the Card Key resulted in no access, confirming its absolute absence prior to retrieval.
+
 - **SECRET KEY:** Retrieved from the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125! This unlocks Cinnabar Gym!
 
 <hr>
