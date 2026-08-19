@@ -6,6 +6,9 @@ def is_walkable_2f(x, y):
     if x == 12 and y == 9: return False
     if x == 5 and y == 3: return False
     
+    # NPC at (7, 6)
+    if x == 7 and y == 6: return False
+    
     # Closed shutter gates on row 4 and 5
     if y in [4, 5] and (6 <= x <= 7 or 10 <= x <= 11 or x == 8 or x == 12 or x == 17): return False
     
