@@ -1069,8 +1069,8 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (16, 24)
-- Strategy: Walk east to col 20 (row 24), ascend col 20 to row 18 bypass, navigate west to col 10, south to row 27, west to (3, 27), and survey the unexplored western passage (cols 2-5, rows 17-26) on B1F.
-- Immediate Step: Walk Right 4 to (20, 24), then Up 6 to (20, 18).
+- Current Position: B1F (24, 18)
+- Strategy: From (24, 18), proceed east along row 18 to col 32, ascend north to row 12, and audit the upper northern corridors and western branch on B1F.
+- Immediate Step: Walk Right 8 along row 18 to (32, 18).
 
 <hr>
