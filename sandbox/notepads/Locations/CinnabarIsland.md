@@ -15,7 +15,7 @@
 - **1F Entrance Warp:** Warp from Cinnabar Island at `(6, 4)` leads directly to Pokmon Mansion 1F at `(5, 27)`.
 - **1F-to-2F Stairs:** Located at `(7, 10)` on 1F, leading to 2F at `(7, 11)`.
 - **2F-to-1F Stairs:** Located at `(7, 10)` on 2F, leading DOWN to 1F at `(7, 11)`. (Empirically verified on Turn 46619)
-- **2F-to-3F Stairs:** Located at `(5, 1)` on 2F, leading to 3F at `(5, 2)`.
+
 - **3F-to-2F Pit (Fall):** Bypassing gates by falling through a hole at `(22, 6)` on 3F lands on 2F at `(22, 6)`.
 
 - **1F-to-B1F Stairs:** Located in the fenced-in room at `(22, 2)` on 1F, leading to B1F at `(18, 4)`.
