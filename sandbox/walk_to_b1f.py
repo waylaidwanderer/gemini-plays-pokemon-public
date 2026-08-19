@@ -3,23 +3,25 @@ import time
 
 def run_from_battle():
     print("Battle detected! Running away...")
-    mgba.press_buttons(["A", "sleep 500", "A", "sleep 1500", "Right", "Down", "A", "sleep 1500", "A", "sleep 1000"])
+    # First press B/A to clear any "appeared" or "Go!" text
+    mgba.press_buttons(["B", "sleep 500", "B", "sleep 500"])
+    # Press Right, Down, A to flee
+    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 2000"])
+    # Dismiss "Got away safely!" text
+    mgba.press_buttons(["B", "sleep 500"])
+    time.sleep(1)
 
-# We are at (5, 27) inside Mansion 1F.
-# We want to go to B1F stairs at (21, 24).
-# Path:
-# Right to (21, 27)
-# Up to (21, 24) (warp)
+# 1. Dismiss "Got away safely!" text box if it's currently on screen
+print("Dismissing 'Got away safely!' text...")
+mgba.press_buttons(["B", "sleep 500"])
+time.sleep(1.0)
 
-path = [
-    ('Right', 6, 27), ('Right', 7, 27), ('Right', 8, 27), ('Right', 9, 27),
-    ('Right', 10, 27), ('Right', 11, 27), ('Right', 12, 27), ('Right', 13, 27),
-    ('Right', 14, 27), ('Right', 15, 27), ('Right', 16, 27), ('Right', 17, 27),
-    ('Right', 18, 27), ('Right', 19, 27), ('Right', 20, 27), ('Right', 21, 27),
-    ('Up', 21, 26), ('Up', 21, 25), ('Up', 21, 24)
-]
+# 2. Walk from (5, 24) to (21, 24)
+path = []
+for col in range(6, 22):
+    path.append(('Right', col, 24))
 
-print("Walking to B1F stairs at (21, 24)...")
+print("Walking Right to B1F stairs at (21, 24)...")
 step_index = 0
 while step_index < len(path):
     btn, target_x, target_y = path[step_index]
@@ -39,13 +41,12 @@ while step_index < len(path):
         time.sleep(0.5)
         pos_check = mgba.get_coordinates()
         if pos_check == new_pos:
-            # We are standing still. It might be a battle or menu, or we got blocked.
-            # Let's check if the screen indicates a battle by trying to run.
+            # Coordinates didn't change, we are stuck. Try to flee a battle.
             run_from_battle()
             time.sleep(1)
         else:
             print("Position changed, continuing...")
 
-time.sleep(1.5) # Wait for warp transition
-pos_inside_b1f = mgba.get_coordinates()
-print("Position inside B1F:", pos_inside_b1f)
+# Step onto (21, 24) is the warp to B1F. Once we are at (21, 24), it warps us!
+time.sleep(2.0) # Wait for warp transition
+print("Warped position inside B1F:", mgba.get_coordinates())
