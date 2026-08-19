@@ -13,7 +13,7 @@
    - East-west passage running from entrance (15, 3) east to column 23.
    - Solid vertical rock wall at cols 12-13. Central and eastern sectors are separated by solid rock walls.
 2. Western Corridor (cols 2-5, rows 2-13):
-   - Continuous vertical passage south from Ladder 3 at (3, 3) down to row 13.
+   - Passage south from Ladder 3 at (3, 3) requires offsetting to cols 4-5 around row 5 obstruction, then continuing down to row 13.
 3. Crossway (rows 10-13, cols 5-11):
    - Connects western corridor (col 5) eastward to central vertical thoroughfare (cols 8-11) south of the rock pillar at cols 6-7 (rows 4-9).
 4. Central Vertical Thoroughfare (cols 8-11, rows 9-21):
