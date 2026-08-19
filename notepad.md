@@ -1078,9 +1078,9 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: 1F (6, 25)
-- Target: Return to Ladder 3 at (3, 3) -> B1F (37, 17) -> Ladder 4 at (5, 3) -> 1F Eastern Sector (27, 3) -> South Exit to Route 10 South.
-- Strategy: Verified on Turns 7280-7292 that 1F Western/Central corridor is partitioned by solid rock walls at rows 22-23 (cols 12-20) and rows 28-29 (cols 2-13). Reaching the 1F Southern Highway requires ascending into the Eastern Sector via Ladder 4 at B1F (5, 3) -> 1F (27, 3). From (27, 3), descend through cols 32-37 into rows 30-33, then conduct south-step audit into rows 34-35 exit doorway.
-- Immediate Step: Retrace north: Move up to (10, 12), west to (5, 12), and north along cols 3-5 to Ladder 3 at (3, 3).
+- Current Position: B1F (33, 23)
+- Target: Lower South Highway at (34, 30) -> west along row 30 to (15, 30) -> Vertical Connector (cols 14-17) north to Ladder 4 at (5, 3) -> ascend to 1F (27, 3) -> 1F South Exit.
+- Strategy: On B1F, vertical rock wall at cols 30-31 spans rows 16-27. To bypass it from east pocket (37, 17), route south via col 34 down to row 30 (Lower South Highway), traverse west to col 15, ascend north via Vertical Connector (cols 14-17) to Ladder 4 at (5, 3).
+- Immediate Step: Move Right to (34, 23), then Down 7 times to (34, 30).
 
 <hr>
