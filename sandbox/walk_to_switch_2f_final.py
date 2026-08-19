@@ -8,7 +8,7 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating to 2F switch at (2, 11) via Column 1...")
+print("Navigating from (8, 9) to switch access tile (1, 11) in State A...")
 buttons_pressed = 0
 
 while True:
@@ -20,17 +20,33 @@ while True:
         break
         
     btn = None
-    if pos['x'] > 1 and pos['y'] == 13:
+    if pos['x'] == 8 and pos['y'] < 11:
+        btn = 'Down'
+    elif pos['y'] == 11 and pos['x'] > 5:
+        btn = 'Left'
+    elif pos['x'] == 5 and pos['y'] < 13:
+        btn = 'Down'
+    elif pos['y'] == 13 and pos['x'] > 1:
         btn = 'Left'
     elif pos['x'] == 1 and pos['y'] > 11:
         btn = 'Up'
     else:
         # Recovery
-        if pos['y'] < 13 and pos['x'] > 1:
+        if pos['x'] > 8:
+            btn = 'Left'
+        elif pos['y'] < 9:
             btn = 'Down'
-        elif pos['x'] < 1:
-            btn = 'Right'
-            
+        elif pos['y'] > 13:
+            btn = 'Up'
+        else:
+            if pos['x'] < 5:
+                if pos['y'] < 13:
+                    btn = 'Down'
+                else:
+                    btn = 'Left'
+            else:
+                btn = 'Left'
+                
     if not btn:
         break
         
@@ -48,13 +64,13 @@ while True:
         print("Button budget limit approached.")
         break
 
-# If we reached (1, 11), face Right and toggle the switch!
+# Toggle the switch to State B!
 pos = mgba.get_coordinates()
 if pos['x'] == 1 and pos['y'] == 11:
     print("At (1, 11). Toggling the switch on the statue at (2, 11) by facing Right...")
     mgba.press_buttons(["Right", "sleep 200", "A", "sleep 1000"])
     mgba.press_buttons(["A", "sleep 1000", "B", "sleep 500"])
-    print("Switch toggled successfully!")
+    print("Switch toggled successfully to State B!")
 
 print("Script execution completed. Current Position:", mgba.get_coordinates())
 mgba.take_screenshot()
