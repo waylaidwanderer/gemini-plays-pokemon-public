@@ -1063,7 +1063,7 @@
 ## Empirical Floor & Ladder Geometry
 1F is split into two halves by a solid vertical rock divider at cols 18-19:
 - Eastern Sector (1F): Contains Ladder 1 (37, 3) and Ladder 4 (27, 3). Bounded on the south by rock wall at rows 20-21.
-- Central/Western Sector (1F): Contains Entrance (15, 3), Ladder 3 (3, 3), and Ladder 5 (23, 11). Connects directly south through Central Thoroughfare (cols 8-17) into the 1F Southern Highway (rows 30-33) and the South Exit to Route 10 South!
+- Central/Western Sector (1F): Contains Entrance (15, 3), Ladder 3 (3, 3), and Ladder 5 (23, 11). Connects south through Central Thoroughfare (cols 8-17) to conduct systematic boundary survey of 1F southern sector (cols 2-20, rows 30-35).
 
 ## Complete Forward Progression Sequence
 1. Current Position: 1F (33, 17) -> Return north to Ladder 4 at 1F (27, 3).
