@@ -8,56 +8,55 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-# We are at (12, 12)
-# Walk to column 10, then walk DOWN to row 27 (the exit corridor)
-path = [
-    ('Left', 11, 12), ('Left', 10, 12),
-    ('Down', 10, 13), ('Down', 10, 14), ('Down', 10, 15), ('Down', 10, 16),
-    ('Down', 10, 17), ('Down', 10, 18), ('Down', 10, 19), ('Down', 10, 20),
-    ('Down', 10, 21), ('Down', 10, 22), ('Down', 10, 23), ('Down', 10, 24),
-    ('Down', 10, 25), ('Down', 10, 26), ('Down', 10, 27)
-]
+# We are at (10, 26).
+# Let's walk UP column 10, and at each step, test if we can walk RIGHT to column 12.
+# We will do this up to row 14.
 
-print("Walking south via column 10...")
-step_index = 0
 button_count = 0
 
-while step_index < len(path):
-    btn, target_x, target_y = path[step_index]
+for y in range(25, 13, -1):
+    # Walk to (10, y)
     pos = mgba.get_coordinates()
-    print(f"Current Pos: {pos}, Next Step: {btn} to ({target_x}, {target_y})")
-    
-    mgba.press_buttons([btn])
+    print(f"Targeting (10, {y}) from {pos}...")
+    while pos['y'] > y:
+        mgba.press_buttons(["Up"])
+        button_count += 1
+        time.sleep(0.3)
+        new_pos = mgba.get_coordinates()
+        if new_pos == pos:
+            run_from_battle()
+            pos = mgba.get_coordinates()
+        else:
+            pos = new_pos
+            
+    while pos['y'] < y:
+        mgba.press_buttons(["Down"])
+        button_count += 1
+        time.sleep(0.3)
+        new_pos = mgba.get_coordinates()
+        if new_pos == pos:
+            run_from_battle()
+            pos = mgba.get_coordinates()
+        else:
+            pos = new_pos
+
+    # Now we are at (10, y). Test walking Right twice to reach column 12 (or just once to column 11)
+    print(f"At {pos}, testing walking RIGHT...")
+    mgba.press_buttons(["Right"])
     button_count += 1
     time.sleep(0.3)
+    pos_after_right = mgba.get_coordinates()
     
-    if button_count >= 80:
-        print("Approaching execution limit, stopping.")
+    if pos_after_right['x'] > 10:
+        print(f"SUCCEEDED! Walked Right to {pos_after_right} on row {y}!")
         break
-        
-    new_pos = mgba.get_coordinates()
-    if new_pos['x'] == target_x and new_pos['y'] == target_y:
-        print("Step succeeded.")
-        step_index += 1
     else:
-        print("Failed step. Checking for battle...")
+        print(f"Failed to walk Right on row {y}. Coordinates remained: {pos_after_right}")
+        # In case we entered a battle during the Right test
         time.sleep(0.5)
         pos_check = mgba.get_coordinates()
-        if pos_check == new_pos:
-            run_from_battle()
-            time.sleep(1)
-            # Re-align
-            new_pos_after = mgba.get_coordinates()
-            found = False
-            for idx, (b, tx, ty) in enumerate(path):
-                if new_pos_after['x'] == tx and new_pos_after['y'] == ty:
-                    print(f"Re-aligned to index {idx}")
-                    step_index = idx + 1
-                    found = True
-                    break
-            if not found:
-                print("Could not re-align, retrying current step.")
-        else:
-            print("Position changed, continuing...")
+        if pos_check == pos_after_right:
+            # Check if battle screen is open, if so run away
+            pass # the loop will handle it or we will see in output
 
 print("Final position:", mgba.get_coordinates())
