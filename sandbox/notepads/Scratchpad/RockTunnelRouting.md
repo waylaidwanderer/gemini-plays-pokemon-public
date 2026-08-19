@@ -18,5 +18,5 @@
 7. If ascending Ladder 4 to 1F (27, 3), step off the ladder immediately to prevent re-triggering the warp, and survey remaining 1F branch paths.
 
 ## Current Execution Status
-- Current Position: B1F (37, 17)
-- Immediate Step: Search north from (37, 17) to find Ladder 3 / examine B1F Northeast sector.
+- Current Position: 1F (20, 20)
+- Immediate Step: Navigate down through open cols 20-25 to row 31 southern corridor and search westward for the exit.
