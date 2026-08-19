@@ -4,11 +4,11 @@ import time
 def move_to_mansion():
     print("Navigating to Pokémon Mansion entrance at (6, 3)...")
     
-    # Path: Right to column 17, Up to row 3, Left to column 6.
+    # Path: Right to column 18, Up to row 3, Left to column 6.
     # We are currently at (11, 12).
     
-    # 1. Walk Right to column 17 (6 steps Right)
-    for i in range(6):
+    # 1. Walk Right to column 18 (7 steps Right)
+    for i in range(7):
         pos = mgba.get_coordinates()
         mgba.press_buttons(["Right"])
         time.sleep(0.4)
@@ -20,7 +20,7 @@ def move_to_mansion():
             
     # 2. Walk Up to row 3 (9 steps Up)
     pos = mgba.get_coordinates()
-    if pos['x'] >= 17:
+    if pos['x'] >= 18:
         for i in range(9):
             pos = mgba.get_coordinates()
             mgba.press_buttons(["Up"])
