@@ -78,7 +78,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full!
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125.
 
 <hr>
 
@@ -2056,14 +2056,16 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Gate Configurations by State
 
 ### DEFAULT STATE (State A)
-- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **OPEN** (Allows access to bottom-right stairs on 1F).
+- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **CLOSED** (Blocks access to bottom-right of 1F).
 - **1F 1F/2F stairs gate at `(22, 2)`:** **CLOSED** (Blocks stairs going up to 2F).
+- **1F central gates at `(5, 8)`/`(6, 8)`/etc.:** **CLOSED** (Blocks north to south traversal).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F stairs at 5, 10).
 - **3F gate at `(21, 5)`:** **CLOSED** (Blocks column 21 access to northeast room/pit).
 
 ### TOGGLED STATE (State B)
-- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **CLOSED** (Blocks access to bottom-right of 1F).
+- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **OPEN** (Allows access to bottom-right of 1F).
 - **1F 1F/2F stairs gate at `(22, 2)`:** **OPEN** (Allows access to 2F stairs).
+- **1F central gates at `(5, 8)`/`(6, 8)`/etc.:** **OPEN** (Allows north to south traversal).
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **3F gate at `(21, 5)`:** **OPEN** (Allows access to column 21 and the northeast room/pit).
 - **B1F Secret Key Room:** **OPEN**.
