@@ -1,20 +1,22 @@
-# Rock Tunnel Master Traversal Plan (Systematic Exploration)
+# Rock Tunnel Master Traversal Plan
 
-## Rock Tunnel Floor & Ladder Connectivity (Empirical Data)
-| Ladder | 1F Coord | B1F Coord | Verified Transition | Notes |
+## Verified Empirical Ladder Connectivity Matrix
+| Ladder | 1F Coordinate | B1F Coordinate | Direction / Sector | Verified Turn |
 |---|---|---|---|---|
-| Ladder 1 | (37, 3) | (33, 25) | 1F (37, 3) -> B1F (33, 25) | 1F North-East entrance ladder to B1F South-East |
-| Ladder 3 | (3, 3) | (37, 17) | B1F (37, 17) <-> 1F (3, 3) | 1F Far North-West ladder to B1F East-Central |
-| Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) <-> B1F (5, 3) | 1F North-Central ladder to B1F North-West |
-| Ladder 5 | (23, 11) | (17, 11) | B1F (17, 11) <-> 1F (23, 11) | 1F Central ladder (west of divider) to B1F Central |
+| Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 4618, 5372, 6717 |
+| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082, 5580, 6192, 6264 |
+| Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F (East of Divider) <-> North-West B1F | Turns 4364, 6104, 6401, 6536, 6634 |
+| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F (West of Divider) <-> Central B1F | Turns 6131, 6308 |
 
-## Traversal Status
-- Current Location: 1F (37, 3) [Ladder 1]
-- Plan:
-  1. Descend Ladder 1 at (37, 3) -> B1F (33, 25).
-  2. On B1F: Walk South to row 27, West to col 15, North to row 17, East to Ladder 3 at (37, 17).
-  3. Ascend Ladder 3 -> 1F (3, 3).
-  4. On 1F: Walk South down Western Corridor to Ladder 5 at (23, 11).
-  5. Descend Ladder 5 -> B1F (17, 11).
-  6. On B1F: Walk to Ladder 4 at (5, 3).
-  7. Ascend Ladder 4 -> 1F (27, 3) and proceed to exit.
+## Complete Forward Progression Sequence
+1. Start at 1F (37, 3) -> Descend Ladder 1 to B1F (33, 25).
+2. On B1F: From (33, 25), navigate via Row 27 Bypass (col 33 -> col 15) and Central-East Corridor (rows 16-17) to Ladder 3 at B1F (37, 17).
+3. Ascend Ladder 3 at B1F (37, 17) -> Arrive at 1F (3, 3).
+4. On 1F: From (3, 3), follow Western Corridor (cols 2-5, rows 3-13), cross east through Crossway (rows 10-13, cols 5-11), and follow row 11 east to Ladder 5 at 1F (23, 11).
+5. Descend Ladder 5 at 1F (23, 11) -> Arrive at B1F (17, 11).
+6. On B1F: From (17, 11), navigate westward to Ladder 4 at B1F (5, 3) OR survey the B1F southern highway for the cave exit to Route 10 South.
+7. If ascending Ladder 4 to 1F (27, 3), step off the ladder immediately to prevent re-triggering the warp, and survey remaining 1F branch paths.
+
+## Current Execution Status
+- Current Position: 1F (37, 3) [Ladder 1]
+- Immediate Step: Descend Ladder 1 to B1F (33, 25), then proceed along Step 2 towards Ladder 3 at (37, 17).
