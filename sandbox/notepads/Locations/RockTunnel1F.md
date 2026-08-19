@@ -40,3 +40,4 @@
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "You have a POKéDEX? I want one too!" Defeat quote: "Shoot! I'm so jealous!"
+- Verified Collision Boundaries (Turns 7224-7241): Solid rock wall spans rows 14-15 across cols 18-22; solid rock spans rows 22-23 across cols 12-19; solid rock divider spans rows 28-29 across cols 7-13. The 1F Eastern Sector (cols 26-37) is fully accessible via Ladder 4 at (27, 3) and contains the unimpeded southern descent to the exit doorway at rows 34-35.

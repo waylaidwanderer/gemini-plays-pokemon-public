@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=9, y=9)
+- Location: Rock Tunnel B1F (x=6, y=11)
 
 
 
@@ -929,6 +929,7 @@
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "You have a POKéDEX? I want one too!" Defeat quote: "Shoot! I'm so jealous!"
+- Verified Collision Boundaries (Turns 7224-7241): Solid rock wall spans rows 14-15 across cols 18-22; solid rock spans rows 22-23 across cols 12-19; solid rock divider spans rows 28-29 across cols 7-13. The 1F Eastern Sector (cols 26-37) is fully accessible via Ladder 4 at (27, 3) and contains the unimpeded southern descent to the exit doorway at rows 34-35.
 
 <hr>
 
@@ -1077,9 +1078,9 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: B1F (9, 9)
+- Current Position: B1F (6, 11)
 - Target: Ladder 4 at B1F (5, 3)
-- Strategy: Step Down 2 times to (9, 11), Left 4 times to (5, 11), and Up col 5 to Ladder 4 at (5, 3). Ascend Ladder 4 to 1F Eastern Sector at (27, 3). From 1F (27, 3), walk straight south down cols 26-28 / 32-37 to Southern Highway (rows 30-33) and step down into rows 34-35 south doorway to exit Rock Tunnel to Route 10 South and Lavender Town.
-- Immediate Step: Flee Geodude battle, step Down 2 times to (9, 11), and step Left 4 times to (5, 11).
+- Strategy: Flee battle, step Left 1 time to (5, 11), and step Up 8 times along col 5 to Ladder 4 at (5, 3). Ascend Ladder 4 to 1F Eastern Sector at (27, 3). From 1F (27, 3), walk straight south down cols 26-28 / 32-37 to Southern Highway (rows 30-33) and step down into rows 34-35 south doorway to exit Rock Tunnel to Route 10 South and Lavender Town.
+- Immediate Step: Flee Geodude battle, step Left 1 time to (5, 11), and step Up 8 times to (5, 3).
 
 <hr>
