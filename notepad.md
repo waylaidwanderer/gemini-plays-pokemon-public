@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=10, y=14)
+- Location: Rock Tunnel 1F (x=15, y=21)
 
 
 
@@ -1076,6 +1076,13 @@
 | Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far NW 1F <-> EC B1F |
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | NC 1F <-> NW B1F |
 | Ladder 5 | 1F (23, 11) | B1F (17, 11) | NC 1F <-> Central B1F |
+
+
+## Empirical 1F Boundary Proofs (Verified Turns 6158-6172)
+- 1F Cols 14-17 (rows 14-21) dead-ends at solid rock wall across rows 22-23 (cols 11-20).
+- 1F Cols 2-11 (rows 24-27) dead-ends at solid rock wall across rows 28-29 (cols 2-13).
+- Direct southward overworld traversal on 1F is physically blocked by design.
+- Multi-floor ladder progression is required: 1F (5, 3) warp -> 1F (27, 3) -> B1F (5, 3) -> B1F (37, 17) -> 1F (3, 3) -> Exit.
 
 
 <hr>
