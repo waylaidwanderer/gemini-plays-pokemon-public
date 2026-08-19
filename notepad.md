@@ -2046,7 +2046,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Overview
 - Switches are located on Mewtwo statues. They toggle the states of electronic shutter gates globally across all floors.
 - Standard state of gates has two modes: **DEFAULT (State A)** and **TOGGLED (State B)**.
-- Note: Changing floors (via stairs, ladders, or pits) in Pokémon Red/Blue ALWAYS resets the mansion switches back to **State A (Default)**!
+- Note: Changing floors (via stairs, ladders, or pits) in Pokémon Mansion preserves the global switch state! It does NOT reset!
 
 ## Switch Locations
 - **2F:** Mewtwo statues located at `(12, 9)` and `(12, 11)` (east-central corridor). 
