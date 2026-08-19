@@ -8,7 +8,7 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating to 3F stairs at (18, 2) via Row 7 & Row 5 in State A...")
+print("Navigating to 3F stairs, handling the wandering NPC at (8, 11)...")
 buttons_pressed = 0
 
 while True:
@@ -17,26 +17,37 @@ while True:
     
     # We warped to 3F (3F landing is at (18, 2) or pos['y'] changes)
     if pos['x'] == 18 and pos['y'] == 2:
-        # Step UP onto the stairs to warp
         print("At stairs! Toggling warp...")
+        mgba.press_buttons(["Up"])
+        break
+        
+    btn = None
+    if pos['x'] == 8 and pos['y'] == 12:
+        # We are behind the NPC. Let's try to move Up. If she is there, we will bump and wait.
         btn = 'Up'
-    else:
-        btn = None
-        if pos['y'] == 11 and pos['x'] > 7:
-            btn = 'Left'
-        elif pos['x'] == 7 and pos['y'] > 7:
-            btn = 'Up'
-        elif pos['y'] == 7 and pos['x'] < 12:
-            btn = 'Right'
-        elif pos['x'] == 12 and pos['y'] > 5:
-            btn = 'Up'
-        elif pos['y'] == 5 and pos['x'] < 18:
-            btn = 'Right'
-        elif pos['x'] == 18 and pos['y'] > 2:
-            btn = 'Up'
-            
+    elif pos['x'] == 8 and pos['y'] == 13:
+        btn = 'Up'
+    elif pos['x'] == 8 and pos['y'] == 11:
+        # We successfully passed the NPC! Walk Up to row 9
+        btn = 'Up'
+    elif pos['x'] == 8 and pos['y'] == 10:
+        btn = 'Up'
+    elif pos['x'] == 8 and pos['y'] == 9:
+        btn = 'Left'
+    elif pos['y'] == 9 and pos['x'] > 7:
+        btn = 'Left'
+    elif pos['x'] == 7 and pos['y'] > 7:
+        btn = 'Up'
+    elif pos['y'] == 7 and pos['x'] < 12:
+        btn = 'Right'
+    elif pos['x'] == 12 and pos['y'] > 5:
+        btn = 'Up'
+    elif pos['y'] == 5 and pos['x'] < 18:
+        btn = 'Right'
+    elif pos['x'] == 18 and pos['y'] > 2:
+        btn = 'Up'
+        
     if not btn:
-        print("Warp check or stopped.")
         break
         
     print(f"Pressing {btn}...")
@@ -46,17 +57,17 @@ while True:
     
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
+        # We didn't move!
+        # Check if we just bumped into the NPC (we are at (8, 12) or (8, 13) trying to go Up)
+        if btn == 'Up' and (pos['x'] == 8 and (pos['y'] == 12 or pos['y'] == 13)):
+            print("Bumped into the Cooltrainer NPC. Waiting for her to move...")
+            time.sleep(1.0)
+            continue
+            
         print("We are blocked or in battle!")
         run_from_battle()
         buttons_pressed += 6
         
-        # If we are blocked by a permanent wall (not a battle), we can detect it
-        time.sleep(0.5)
-        new_pos2 = mgba.get_coordinates()
-        if new_pos2 == pos:
-            print(f"CONFIRMED BLOCKED at {pos} trying to move {btn}!")
-            break
-            
     if buttons_pressed >= 85:
         print("Button budget limit approached.")
         break
