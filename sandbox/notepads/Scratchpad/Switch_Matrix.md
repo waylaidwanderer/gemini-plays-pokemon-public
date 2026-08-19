@@ -36,3 +36,13 @@
 6. The (24, 5) pit drops the player to 2F and we fall through directly to the southeast wing of 1F, landing at `(28, 7)` on Turn 47793 (State B).
 7. From `(28, 7)` on 1F, walk Left to column 24, Up to row 3 (to bypass the row 7 blockages at col 22), Left along row 3 to column 19, Down column 19 to row 24 through the open shutter gate at `(19, 8)`/`(19, 9)`, Right to `(21, 24)`, and go down the stairs to B1F!
 8. Retrieve the Secret Key from B1F.
+
+## Crucial 1F-2F Enclosed Warp Loop & 2F Layout Constraints (Discovered Turn 47983-47990)
+- **2F Solid Wall:** Row 8 is completely blocked by solid walls across columns 5 to 17 on 2F. The northern half and southern half of 2F are physically separated on these columns!
+- **Warp Loop:**
+  - Stepping Left from `(15, 6)` on 1F warps the player to `(2, 7)` on 2F.
+  - Stepping Up from `(16, 5)` on 1F (stepping onto `(16, 4)`) warps the player to `(2, 7)` on 2F.
+  - Stepping Up from `(12, 5)` on 1F (stepping onto `(12, 4)`) warps the player to `(2, 7)` on 2F.
+  - Stepping Down from `(3, 7)` on 2F warps the player back to `(16, 5)` on 1F.
+- **Enclosed Loop:** The northern/western room on 2F and the central room on 1F form an ENCLOSED loop with no physical overworld exit. 
+- **Escape Protocol:** To escape this 1F-2F loop, the player must use **DIG** (on TRUFFLE in our party)! This warps the player completely out of the Pokémon Mansion to Cinnabar Island, resetting our position to enter the Mansion normally!
