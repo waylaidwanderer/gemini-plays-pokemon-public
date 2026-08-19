@@ -891,7 +891,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
-- Open Passage: (17..23, 10..13) connects central thoroughfare directly east to the Eastern Sector.
+- Central-Eastern Divider: Solid vertical rock wall spans cols 18-19 across rows 8-15. Access between Central/Western sector and Eastern sector is via the Northern Highway (rows 2-7).
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
