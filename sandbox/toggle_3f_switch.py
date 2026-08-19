@@ -6,16 +6,17 @@ def is_walkable_3f(x, y):
     if x == 2 and y == 11: return False
     if x == 5 and y == 3: return False
     
+    # Avoid the doormat exit warp tiles on 3F
+    if y == 7 and (x == 2 or x == 3): return False
+    
+    # Wall on row 8 separating upper hallway from lower area
+    if y == 8 and 2 <= x <= 4: return False
+    if y == 8 and 6 <= x <= 25: return False
+    
     # Closed shutter gates on row 4
     if y == 4 and (6 <= x <= 7 or 10 <= x <= 11 or x == 8 or x == 12): return False
-    
-    # Wall panels
     if x == 9 and y == 4: return False
     
-    # Solid horizontal wall on row 8 separating upper hallway from lower area
-    if y == 8 and 6 <= x <= 23: return False
-    
-    # Map bounds on 3F
     if not (2 <= x <= 25 and 3 <= y <= 16):
         return False
     return True
@@ -53,7 +54,7 @@ def run_from_battle():
 
 # Target: standing south of the switch at (2, 12)
 target = (2, 12)
-print(f"Starting BFS smart walk to 3F switch target {target}...")
+print(f"Starting BFS smart walk on 3F to switch target {target}...")
 
 button_count = 0
 
@@ -72,7 +73,7 @@ while True:
         
     nxt = path[1]
     btn = get_button(curr, nxt)
-    print(f"At {curr}, BFS Next Step: {btn} to {nxt}")
+    print(f"3F: At {curr}, BFS Next Step: {btn} to {nxt}")
     
     mgba.press_buttons([btn])
     button_count += 1
