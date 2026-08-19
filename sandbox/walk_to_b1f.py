@@ -8,46 +8,17 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Starting definitive B1F pathfinder script...")
+print("Starting definitive B1F pathfinder script with row 11/12 hybrid bypass...")
 print("Current position:", mgba.get_coordinates())
 
-# Step 1: Walk from current position (14, 5) to (2, 12) on 2F
-path_to_switch = [
-    ('Left', 13, 5),
-    ('Left', 12, 5),
-    ('Down', 12, 6),
-    ('Down', 12, 7),
-    ('Down', 12, 8),
-    ('Down', 12, 9),
-    ('Down', 12, 10),
-    ('Down', 12, 11),
+# Path 1: (12, 11) to (2, 12) on 2F
+safe_path_to_switch = [
     ('Down', 12, 12),
     ('Left', 11, 12),
     ('Left', 10, 12),
     ('Left', 9, 12),
     ('Left', 8, 12),
-    ('Left', 7, 12),
-    ('Left', 6, 12), # Wait! Is (6, 12) blocked on 2F?
-    # Actually, let's go via Row 11 to avoid row 12 blockage if any!
-    # Let's check row 11:
-]
-
-# Let's build a safe path to (2, 12) on 2F:
-# From (14, 5):
-# Left to (12, 5), Down column 12 to (12, 11), Left to (3, 11), Down to (3, 12), Left to (2, 12)
-safe_path_to_switch = [
-    ('Left', 13, 5),
-    ('Left', 12, 5),
-    ('Down', 12, 6),
-    ('Down', 12, 7),
-    ('Down', 12, 8),
-    ('Down', 12, 9),
-    ('Down', 12, 10),
-    ('Down', 12, 11),
-    ('Left', 11, 11),
-    ('Left', 10, 11),
-    ('Left', 9, 11),
-    ('Left', 8, 11),
+    ('Up', 8, 11),
     ('Left', 7, 11),
     ('Left', 6, 11),
     ('Left', 5, 11),
@@ -88,8 +59,6 @@ if pos['x'] == 2 and pos['y'] == 12:
     print("Switch set to State B.")
 
 # Step 2: Walk from (2, 12) to northeast stairs at (18, 2) on 2F
-# Path:
-# (2, 12) -> Right to (3, 12) -> Up to (3, 11) -> Right to (12, 11) -> Up to (12, 5) -> Right to (18, 5) -> Up to (18, 2)
 path_to_stairs = [
     ('Right', 3, 12),
     ('Up', 3, 11),
@@ -98,10 +67,12 @@ path_to_stairs = [
     ('Right', 6, 11),
     ('Right', 7, 11),
     ('Right', 8, 11),
-    ('Right', 9, 11),
-    ('Right', 10, 11),
-    ('Right', 11, 11),
-    ('Right', 12, 11),
+    ('Down', 8, 12),
+    ('Right', 9, 12),
+    ('Right', 10, 12),
+    ('Right', 11, 12),
+    ('Right', 12, 12),
+    ('Up', 12, 11),
     ('Up', 12, 10),
     ('Up', 12, 9),
     ('Up', 12, 8),
