@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=23, y=11)
+- Location: Rock Tunnel 1F (x=21, y=3)
 
 
 
@@ -896,6 +896,7 @@
 - Ladder 2/Warp (North-West): Located at (5, 3). Stepping Up onto (5, 3) warps to (27, 3) in Eastern Exit Sector [Verified Turn 6020].
 - Ladder 3 (Far North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turns 4921, 5082, 5580, 5689].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
+- Ladder 5 / Warp (North-Central / West of Divider): Located at (23, 11). Connects down to Rock Tunnel B1F at (17, 11) [Verified Turn 6131].
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
@@ -946,6 +947,7 @@
 | Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082 |
 
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F (Exit Sector) <-> North-West B1F | Turn 4364 |
+| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F <-> Central B1F | Turn 6131 |
 
 
 
@@ -958,6 +960,7 @@
 - Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) [Verified Turn 4921, 5082 & 5580].
 
 - Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
+- Ladder 5 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11) [Verified Turn 6131].
 
 
 
