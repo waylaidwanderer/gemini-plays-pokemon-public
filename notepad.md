@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=23, y=19)
+- Location: Rock Tunnel 1F (x=27, y=16)
 
 
 
@@ -1076,9 +1076,9 @@ In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in
 | Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
 ## Traversal Status
-- Current Location: 1F (25, 22) (Southern Sector)
-- Ascended from B1F (5, 3) to 1F (27, 3), traversed South down cols 26-29, bypassed row 14-15 rock wall via col 32 opening into Southern Sector.
-- Current Route: Heading South along cols 21-25 open highway towards cave exit.
+- Current Location: 1F (27, 16)
+- Surveyed 1F Southern Highway (rows 30-33, cols 2-37): verified enclosed on rows 34-35 across surveyed points.
+- Returning to Ladder 4 at (27, 3) -> B1F (5, 3) to access B1F's South-Western Highway and find the true exit ladder to 1F South Exit Sector.
 
 
 <hr>
