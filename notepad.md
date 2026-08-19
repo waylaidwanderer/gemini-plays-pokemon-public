@@ -2126,3 +2126,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 
 <hr>
+
+<h1><code>Locations/CinnabarIsland.md</code></h1>
+
+
+
+<hr>
