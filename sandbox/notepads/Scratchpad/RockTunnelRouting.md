@@ -15,5 +15,5 @@
 7. Exit to Route 10 South and proceed directly into Lavender Town!
 
 ## Current Execution Status
-- Current Position: 1F (15, 20)
-- Immediate Step: Ascend to (15, 13), cross east to (20, 13), descend col 20 to row 24, cross west to (15, 24), and descend through row 28 into 1F southern highway to find South Exit.
+- Current Position: 1F (15, 17)
+- Immediate Step: Flee battle, navigate to (11, 24), and probe passage east/south into 1F southern highway to find South Exit.
