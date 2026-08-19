@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=11, y=23)
+- Location: Rock Tunnel B1F (x=11, y=17)
 
 
 
@@ -921,7 +921,7 @@
    - Rows 34-35 form a solid rock wall across cols 13-37 [Verified Turns 6430-6444].
    - Cols 38-39 form the solid eastern boundary across rows 29-35 [Verified Turn 6443].
    - Southeast corner at (37, 33) is an enclosed dead end [Verified Turn 6443].
-   - Southern Sector Survey (cols 0-38, rows 28-35): Massive 4-tile high horizontal highway spanning cols 2-37 (rows 30-33). Verified on Turns 6926-6944 via comprehensive column-by-column visual sweep that rows 34-35 (cols 0-38) and east boundary (col 38) are 100% solid rock wall enclosing this basin with zero exit warps on 1F southern perimeter.
+   - Southern Sector Survey (cols 0-38, rows 28-35): Massive 4-tile high horizontal highway spanning cols 2-37 (rows 30-33). Note: Prior survey on Turns 6926-6944 traversed along row 33; Gen 1 cave exit doorways require stepping Down into rows 34-35. A coordinate-by-coordinate south-step audit into rows 34-35 is planned upon returning to 1F Eastern Sector to trigger the south exit to Route 10 South.
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
@@ -1077,9 +1077,9 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: B1F (11, 21)
+- Current Position: B1F (11, 17)
 - Target: Ladder 1 at B1F (33, 25)
-- Strategy: Move straight south down cols 8-11 vertical channel to South Highway at (11, 31), east via Row 27 Northern Bypass / South Highway to col 33, and north to Ladder 1 at (33, 25).
-- Immediate Step: Step Down 10 times from (11, 21) to reach (11, 31).
+- Strategy: Move east across row 17 to (15, 17), south down cols 14-16 to row 21, east across rows 20-21 to cols 24-25 vertical passage, down into rows 24-27 South Chamber, and east to Ladder 1 at (33, 25).
+- Immediate Step: Step Right 4 times to (15, 17) and Down 4 times to (15, 21).
 
 <hr>
