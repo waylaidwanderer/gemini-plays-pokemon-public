@@ -1,10 +1,9 @@
-# Rock Tunnel Master Traversal Plan (Final Route to Lavender Town)
+# Rock Tunnel Master Traversal Plan (Empirical Routing)
 
-## Verified 4-Stage Route from Current Position (B1F 35, 16)
-- Stage 1: B1F (35, 16) -> Walk South 15 steps along col 35 to Lower South Highway at (35, 31).
-- Stage 2: B1F (35, 31) -> Walk West 30 steps along Lower South Highway (row 31) to (5, 31).
-- Stage 3: B1F (5, 31) -> Walk North 28 steps along Western Highway (col 5) to Ladder 4 at (5, 3).
-- Stage 4: Step on Ladder 4 at (5, 3) on B1F -> Ascend to 1F Exit Sector -> Walk to South Exit -> Route 10 South -> Lavender Town!
+## Current Status & Objective
+- Current Position: B1F (20, 24)
+- Immediate Goal: Escape battle, systematically probe collisions around (20, 24) and rows 20-31 to find the true path to Ladder 4 at (5, 3).
+- Progression Route: B1F -> Ladder 4 at (5, 3) -> 1F Exit Sector -> South Exit -> Route 10 South -> Lavender Town.
 
 ## Verified Ladder Topology Matrix
 | Ladder | Floor 1 (1F) | Floor B1 (B1F) | Connectivity & Role |
