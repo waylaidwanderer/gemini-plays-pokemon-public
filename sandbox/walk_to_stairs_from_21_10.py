@@ -3,13 +3,12 @@ import time
 
 def run_from_battle():
     print("Possible battle detected! Attempting escape sequence...")
-    # Clear text boxes and attempt to run
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1500"])
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Starting dynamic self-correcting 1F stairs routing script...")
+print("Starting dynamic self-correcting 1F stairs routing script (via Column 19)...")
 
 target_x, target_y = 25, 14
 buttons_pressed = 0
@@ -24,21 +23,30 @@ while True:
         
     # Decide direction based on coordinates
     btn = None
-    if pos['x'] == 21 and pos['y'] > 3:
+    if pos['y'] == 10 and pos['x'] > 19:
+        btn = 'Left'
+    elif pos['x'] == 19 and pos['y'] > 3:
         btn = 'Up'
     elif pos['y'] == 3 and pos['x'] < 25:
         btn = 'Right'
     elif pos['x'] == 25 and pos['y'] < 14:
         btn = 'Down'
     else:
-        # Off path? Try to recover to column 21 or row 3
-        if pos['x'] != 21 and pos['y'] > 3:
-            if pos['x'] > 21:
+        # Recovery logic: if we are off-path
+        if pos['y'] > 10:
+            btn = 'Up'
+        elif pos['y'] < 3:
+            btn = 'Down'
+        elif pos['x'] < 19:
+            btn = 'Right'
+        elif pos['x'] > 25:
+            btn = 'Left'
+        else:
+            # We are between row 3 and 10, but not on col 19 or col 25
+            if pos['x'] < 22:
                 btn = 'Left'
             else:
                 btn = 'Right'
-        elif pos['y'] < 3:
-            btn = 'Down'
             
     if not btn:
         print("No move decided. Breaking loop.")
