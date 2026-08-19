@@ -23,7 +23,6 @@
 6. South-Central Sector & Collision Boundaries:
    - Cols 14-17 (rows 18-21) form a dead-end pocket blocked by solid rock wall at rows 22-23.
    - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
-   - Central/eastern passage is accessible via row 19 and upper corridor (rows 2-7).
 7. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
    - Rows 14-15 form an impassable solid rock wall across cols 20-37.
