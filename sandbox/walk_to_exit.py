@@ -2,24 +2,27 @@ import mgba
 import time
 
 def is_walkable_east(x, y):
+    # Rubble blocks on column 28
+    if y == 14 and x >= 28: return False
+    if y == 15 and x >= 28: return False
+    if y == 18 and x >= 26: return False
+    if y == 19 and x >= 28: return False
+    
+    # Walls on row 13 at columns 26 to 28
+    if y == 13 and x >= 26: return False
+    # Walls on row 17 at columns 26 to 28
+    if y == 17 and x >= 26: return False
+    
     # Closed shutter gates on row 13 at columns 11 to 14
-    if y == 13 and 11 <= x <= 14:
-        return False
-    # Wall on row 13 at columns 26 to 28
-    if y == 13 and x >= 26:
-        return False
+    if y == 13 and 11 <= x <= 14: return False
     # Wall on column 11 on rows 14 to 26
-    if x == 11 and 14 <= y <= 26:
-        return False
-    # Rubble on row 8 at columns 20 to 22
-    if y == 8 and 20 <= x <= 22:
-        return False
-    # Rubble on row 9 at columns 20 to 22
-    if y == 9 and 20 <= x <= 22:
-        return False
-    # Rubble on row 10 at columns 21 to 22
-    if y == 10 and 21 <= x <= 22:
-        return False
+    if x == 11 and 14 <= y <= 26: return False
+    
+    # Rubble in central area
+    if y == 8 and 20 <= x <= 22: return False
+    if y == 9 and 20 <= x <= 22: return False
+    if y == 10 and 21 <= x <= 22: return False
+    
     # Bound limits on eastern 1F
     if not (11 <= x <= 28 and 3 <= y <= 28):
         return False
