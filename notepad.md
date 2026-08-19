@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=37, y=3)
+- Location: Rock Tunnel 1F (x=21, y=13)
 
 
 
@@ -1073,15 +1073,14 @@
 | Ladder 5 Ascent | B1F (23, 11) | 1F (17, 11) | B1F Central -> 1F Central | Turn 6837 |
 | Ladder 5 Descent | 1F (17, 11) | B1F (23, 11) | 1F Central -> B1F Central | Turns 6131, 7054 |
 
-## Empirical Floor Reconciliation (Turn 7449)
-- Survey of rows 30-33 (cols 2-37) was conducted on B1F. Row 34 on B1F is solid rock across cols 2-37.
-- Ladder 1 at B1F (33, 25) ascended to 1F (37, 3) on Turn 7449.
-- Current active floor is Rock Tunnel 1F at (37, 3).
+## Empirical Floor Verification Protocol
+- Immediately upon stepping onto any ladder coordinate, inspect the destination coordinate and cross-reference with the Verified Ladder Matrix to confirm the active floor (1F vs B1F).
+- Never attribute collision or layout data to a floor without verifying the active floor identity via ladder matrix lookup.
 
 ## Current Navigation Step
-- Current Position: 1F (37, 3)
-- Target: Navigate Rock Tunnel 1F through its verified ladders and corridors to reach the South Exit doorway leading to Route 10 South.
-- Immediate Step: Follow retail sequence: 1F (37, 3) is Ladder 1; traverse 1F to explore unexplored corridors or execute standard progression route.
+- Current Position: 1F (21, 13)
+- Target: Traverse east along row 13 to col 27, then south down cols 26-27 to row 16-19 crossroads, and explore southern passages to locate the 1F south exit.
+- Immediate Step: Move Right 6 steps to (27, 13), then Down past row 15 into row 16-19.
 
 
 <hr>
