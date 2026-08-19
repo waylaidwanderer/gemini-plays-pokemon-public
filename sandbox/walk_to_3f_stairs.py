@@ -8,37 +8,35 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating to 3F stairs at (18, 2) on 2F...")
+print("Navigating to 3F stairs at (18, 2) via Row 7 & Row 5 in State A...")
 buttons_pressed = 0
 
 while True:
     pos = mgba.get_coordinates()
     print(f"Current Position: {pos}")
     
-    # We warped to 3F (3F landing is at (18, 2) or pos['y'] changes to 3F coords)
-    # We will verify this next turn.
-    
-    btn = None
-    if pos['y'] == 11 and pos['x'] < 11:
-        btn = 'Right'
-    elif pos['x'] == 11 and pos['y'] > 7:
-        btn = 'Up'
-    elif pos['y'] == 7 and pos['x'] < 12:
-        btn = 'Right'
-    elif pos['x'] == 12 and pos['y'] > 5:
-        btn = 'Up'
-    elif pos['y'] == 5 and pos['x'] < 18:
-        btn = 'Right'
-    elif pos['x'] == 18 and pos['y'] > 2:
-        btn = 'Up'
-    elif pos['x'] == 18 and pos['y'] == 2:
+    # We warped to 3F (3F landing is at (18, 2) or pos['y'] changes)
+    if pos['x'] == 18 and pos['y'] == 2:
+        # Step UP onto the stairs to warp
         print("At stairs! Toggling warp...")
         btn = 'Up'
     else:
-        print("Warp check...")
-        break
-        
+        btn = None
+        if pos['y'] == 11 and pos['x'] > 7:
+            btn = 'Left'
+        elif pos['x'] == 7 and pos['y'] > 7:
+            btn = 'Up'
+        elif pos['y'] == 7 and pos['x'] < 12:
+            btn = 'Right'
+        elif pos['x'] == 12 and pos['y'] > 5:
+            btn = 'Up'
+        elif pos['y'] == 5 and pos['x'] < 18:
+            btn = 'Right'
+        elif pos['x'] == 18 and pos['y'] > 2:
+            btn = 'Up'
+            
     if not btn:
+        print("Warp check or stopped.")
         break
         
     print(f"Pressing {btn}...")
