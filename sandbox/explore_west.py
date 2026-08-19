@@ -18,6 +18,9 @@ def is_walkable_1f(x, y):
     # Closed shutter gates on row 13 at columns 11 to 14
     if y == 13 and 11 <= x <= 14: return False
     
+    # Closed shutter gates on row 13 at columns 19 to 21
+    if y == 13 and 19 <= x <= 21: return False
+    
     # Wall on row 13 at columns 26 to 28
     if y == 13 and x >= 26: return False
     # Wall on row 17 at columns 26 to 28
@@ -25,6 +28,9 @@ def is_walkable_1f(x, y):
     
     # Closed gate at (19, 8) in State A
     if x == 19 and y == 8: return False
+    
+    # Rubble on row 14 at columns 19 to 21
+    if y == 14 and 19 <= x <= 21: return False
     
     # Rubble in central area (continuous barrier)
     if y == 8 and 20 <= x <= 22: return False
