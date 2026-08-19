@@ -3,31 +3,23 @@ import time
 
 def run_from_battle():
     print("Battle detected! Running away...")
-    # First press B a couple of times to clear moves/items selection
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    # Move to RUN and press A
     mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 2000"])
-    # Dismiss any "Got away safely!" text
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-# Path to B1F stairs starting from (9, 12):
+# Path from (21, 6) to 1F/2F stairs at (5, 10)
 path = [
-    ('Right', 10, 12), ('Right', 11, 12), ('Right', 12, 12),
-    ('Up', 12, 11), ('Up', 12, 10), ('Up', 12, 9), ('Up', 12, 8),
-    ('Up', 12, 7), ('Up', 12, 6), ('Up', 12, 5), ('Up', 12, 4), ('Up', 12, 3),
-    ('Right', 13, 3), ('Right', 14, 3), ('Right', 15, 3), ('Right', 16, 3),
-    ('Right', 17, 3), ('Right', 18, 3), ('Right', 19, 3),
-    ('Down', 19, 4), ('Down', 19, 5), ('Down', 19, 6), ('Down', 19, 7),
-    ('Down', 19, 8), ('Down', 19, 9), ('Down', 19, 10), ('Down', 19, 11),
-    ('Down', 19, 12), ('Down', 19, 13), ('Down', 19, 14), ('Down', 19, 15),
-    ('Down', 19, 16), ('Down', 19, 17), ('Down', 19, 18), ('Down', 19, 19),
-    ('Down', 19, 20), ('Down', 19, 21), ('Down', 19, 22), ('Down', 19, 23),
-    ('Down', 19, 24),
-    ('Right', 20, 24), ('Right', 21, 24)
+    ('Up', 21, 5), ('Up', 21, 4), ('Up', 21, 3),
+    ('Left', 20, 3), ('Left', 19, 3), ('Left', 18, 3), ('Left', 17, 3),
+    ('Left', 16, 3), ('Left', 15, 3), ('Left', 14, 3), ('Left', 13, 3),
+    ('Left', 12, 3), ('Left', 11, 3), ('Left', 10, 3), ('Left', 9, 3),
+    ('Left', 8, 3), ('Left', 7, 3), ('Left', 6, 3), ('Left', 5, 3),
+    ('Down', 5, 4), ('Down', 5, 5), ('Down', 5, 6), ('Down', 5, 7),
+    ('Down', 5, 8), ('Down', 5, 9), ('Down', 5, 10)
 ]
 
-print("Walking to B1F stairs...")
+print("Walking to 1F/2F stairs...")
 step_index = 0
 stuck_counter = 0
 
@@ -46,6 +38,14 @@ while step_index < len(path):
         step_index += 1
         stuck_counter = 0
     else:
+        # Check if we transitioned to 2F (coordinates will jump or stay same but map change)
+        # Note: stepping onto (5, 10) warps us to 2F.
+        if target_x == 5 and target_y == 10:
+            time.sleep(1.0) # wait for warp
+            warp_pos = mgba.get_coordinates()
+            print("Warped! Position:", warp_pos)
+            break
+            
         print("Failed to reach target. Checking for battle or blockage...")
         time.sleep(0.5)
         pos_check = mgba.get_coordinates()
@@ -53,12 +53,20 @@ while step_index < len(path):
             # Coordinates did not change, might be in a battle
             run_from_battle()
             time.sleep(1)
-            # Re-check coordinates after battle
+            # Re-check after battle
             new_pos_after = mgba.get_coordinates()
-            if new_pos_after['x'] == target_x and new_pos_after['y'] == target_y:
-                step_index += 1
-                stuck_counter = 0
+            # If coordinates are still the same but we are on the path, we can try to re-align
+            # We can find the closest path index to new_pos_after
+            found = False
+            for idx, (b, tx, ty) in enumerate(path):
+                if new_pos_after['x'] == tx and new_pos_after['y'] == ty:
+                    print(f"Re-aligned to path index {idx}")
+                    step_index = idx + 1
+                    found = True
+                    break
+            if not found:
+                print("Could not re-align, attempting current step again.")
         else:
             print("Position changed, continuing...")
 
-print("Position after walk:", mgba.get_coordinates())
+print("Final position:", mgba.get_coordinates())
