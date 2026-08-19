@@ -1,12 +1,13 @@
 import mgba
 import time
 
-# We are at (9, 9) on 2F.
-# Let's walk to the stairs at (7, 10) to warp to 1F.
-print("Walking to (7, 10) stairs...")
-# Path from (9, 9): Left to (8, 9), Left to (7, 9), Down to (7, 10).
-mgba.press_buttons(["Left", "sleep 300", "Left", "sleep 300", "Down", "sleep 1000"])
+# We are at (12, 11) on 2F in State B.
+# Let's walk UP to (12, 10), then Right 3 times to (15, 10).
+print("Walking to (15, 10) on 2F...")
+mgba.press_buttons(["Up", "sleep 300", "Right", "sleep 300", "Right", "sleep 300", "Right", "sleep 1000"])
 
-pos1 = mgba.get_coordinates()
-print(f"Coordinates after first warp: {pos1}")
-mgba.take_screenshot()
+pos = mgba.get_coordinates()
+print(f"Coordinates: {pos}")
+
+scr = mgba.take_screenshot()
+print(f"Screenshot saved to: {scr}")
