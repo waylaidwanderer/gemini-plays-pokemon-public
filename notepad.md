@@ -2053,7 +2053,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **1F-to-2F Stairs:** Located at `(7, 10)` on 1F, leading to 2F at `(7, 11)`.
 - **2F-to-1F Stairs:** Located at `(7, 10)` on 2F, leading DOWN to 1F at `(7, 11)`. (Empirically verified on Turn 46619)
 
-- **3F-to-2F Pit (Fall):** Bypassing gates by falling through a hole at `(22, 6)` on 3F lands on 2F at `(22, 6)`.
+- **3F-to-2F Pit (Fall):** Falling through the open pit on columns 16, 17, or 18 on row 12 on 3F lands on 2F.
 
 - **1F-to-B1F Stairs:** Located in the fenced-in room at `(22, 2)` on 1F, leading to B1F at `(18, 4)`.
 - **Secret Key Location (B1F):** Located on the ground at `(1, 4)` on B1F. (NOT YET RETRIEVED - BAG WAS FULL!).
@@ -2063,6 +2063,18 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Empirical Wall/Collision Testing & Mechanics (Verified Turns 46674-46726)
 - **2F Pit West Wall Borders:** Attempted to step Right into the pits at `(23, 7)` on Turn 46674 and `(23, 6)` on Turn 46676 from `(22, 7)` and `(22, 6)`. The player bumped and did not fall, proving that the western edges of the 2F pits act as solid walls. You cannot jump off 2F into these pits; falling to 1F's fenced room must be done by jumping from 3F.
 - **2F-to-3F Staircase Warp:** Stepping onto the stairs at `(5, 10)` on 2F (previously misidentified in some notes as `(5, 1)`) warps the player directly to 3F at `(5, 11)`.
+
+## 3F Empirical Ledge & Collision Log (Verified Turns 46838-46887)
+- **Railing Collisions (Solid Barriers):**
+  - **(23, 6) & (23, 7)** - Bumped on Turn 46838 from `(22, 6)` & `(22, 7)`. Western railing of eastern pit is solid.
+  - **(22, 5)** - Bumped on Turn 46839 from `(22, 6)`. Northern railing of western balcony is solid.
+  - **(22, 8)** - Bumped on Turn 46841 from `(22, 7)`. Southern railing of western balcony is solid.
+  - **(24, 4)** - Bumped on Turn 46859 from `(24, 3)`. Northern railing of central pit is solid.
+  - **(28, 3)** - Bumped on Turn 46868 from `(27, 3)`. Eastern railing of central pit is solid.
+  - **(28, 7)** - Bumped on Turn 46870 from `(28, 6)`. Southern railing is solid.
+  - **(14, 12)** - Bumped on Turn 46887 from `(13, 12)`. Eastern railing of western pit is solid.
+- **Walkable Open Ledge Entrance:**
+  - The open pit entrance is on row 11 at columns 16, 17, and 18. This section has no horizontal railing, enabling the player to walk south from row 11 onto row 12 rubble and safely fall to 2F.
 
 
 <hr>
