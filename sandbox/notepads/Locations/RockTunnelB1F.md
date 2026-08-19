@@ -51,7 +51,7 @@
 ## Empirical Collision Bounds & Corridor Mapping
 - Solid Horizontal Rock Walls:
   - Rows 14-15 across cols 20-37.
-  - Rows 22-23 across cols 6-23.
+  - Rows 22-23 across cols 16-23 (vertical passage connecting south chamber rows 24-27 to rows 20-21 is located at cols 24-25).
 - Solid Vertical Rock Walls:
   - Cols 30-31 across rows 16-27.
   - Cols 22-23 across rows 16-23.
