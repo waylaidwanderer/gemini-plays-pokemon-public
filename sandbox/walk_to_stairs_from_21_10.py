@@ -2,70 +2,62 @@ import mgba
 import time
 
 def run_from_battle():
-    print("Battle detected! Running away...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 2000"])
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    print("Possible battle detected! Attempting escape sequence...")
+    # Clear text boxes and attempt to run
+    mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
+    mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1500"])
+    mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Walking from (21, 10) to stairs at (25, 14)...")
-pos = mgba.get_coordinates()
-print("Current position:", pos)
+print("Starting dynamic self-correcting 1F stairs routing script...")
 
-path = [
-    ('Up', 21, 9),
-    ('Up', 21, 8),
-    ('Up', 21, 7),
-    ('Up', 21, 6),
-    ('Up', 21, 5),
-    ('Up', 21, 4),
-    ('Up', 21, 3),
-    ('Right', 22, 3),
-    ('Right', 23, 3),
-    ('Right', 24, 3),
-    ('Right', 25, 3),
-    ('Down', 25, 4),
-    ('Down', 25, 5),
-    ('Down', 25, 6),
-    ('Down', 25, 7),
-    ('Down', 25, 8),
-    ('Down', 25, 9),
-    ('Down', 25, 10),
-    ('Down', 25, 11),
-    ('Down', 25, 12),
-    ('Down', 25, 13),
-    ('Down', 25, 14)
-]
+target_x, target_y = 25, 14
+buttons_pressed = 0
 
-for btn, tx, ty in path:
-    while True:
-        pos = mgba.get_coordinates()
-        print(f"At {pos}, moving {btn} to ({tx}, {ty})...")
-        mgba.press_buttons([btn])
-        time.sleep(0.4)
-        new_pos = mgba.get_coordinates()
-        if new_pos['x'] == tx and new_pos['y'] == ty:
-            print("Moved successfully.")
-            break
-        else:
-            if new_pos != pos:
-                print("Map transition or warp detected! Position:", new_pos)
-                break
-            print("Blocked or battle! Trying to escape...")
-            run_from_battle()
-            time.sleep(0.5)
-            mgba.press_buttons([btn])
-            time.sleep(0.4)
-            new_pos2 = mgba.get_coordinates()
-            if new_pos2['x'] == tx and new_pos2['y'] == ty:
-                print("Moved successfully after battle.")
-                break
-            elif new_pos2 != pos:
-                print("Map transition/warp detected after battle! Position:", new_pos2)
-                break
+while True:
+    pos = mgba.get_coordinates()
+    print(f"Current Position: {pos}")
+    
+    if pos['x'] == target_x and pos['y'] == target_y:
+        print("Reached target stairs at (25, 14)!")
+        break
+        
+    # Decide direction based on coordinates
+    btn = None
+    if pos['x'] == 21 and pos['y'] > 3:
+        btn = 'Up'
+    elif pos['y'] == 3 and pos['x'] < 25:
+        btn = 'Right'
+    elif pos['x'] == 25 and pos['y'] < 14:
+        btn = 'Down'
+    else:
+        # Off path? Try to recover to column 21 or row 3
+        if pos['x'] != 21 and pos['y'] > 3:
+            if pos['x'] > 21:
+                btn = 'Left'
             else:
-                print("Failed again.")
-                break
+                btn = 'Right'
+        elif pos['y'] < 3:
+            btn = 'Down'
+            
+    if not btn:
+        print("No move decided. Breaking loop.")
+        break
+        
+    print(f"Pressing {btn}...")
+    mgba.press_buttons([btn])
+    buttons_pressed += 1
+    time.sleep(0.4)
+    
+    new_pos = mgba.get_coordinates()
+    if new_pos == pos:
+        # We didn't move! It must be a battle.
+        run_from_battle()
+        buttons_pressed += 6
+        
+    if buttons_pressed >= 85:
+        print("Approaching 100 button limit. Pausing execution.")
+        break
 
-print("Final Position:", mgba.get_coordinates())
+print("Script execution completed. Current Position:", mgba.get_coordinates())
 mgba.take_screenshot()
