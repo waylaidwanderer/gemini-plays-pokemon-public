@@ -2073,6 +2073,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
   - **(28, 3)** - Bumped on Turn 46868 from `(27, 3)`. Eastern railing of central pit is solid.
   - **(28, 7)** - Bumped on Turn 46870 from `(28, 6)`. Southern railing is solid.
   - **(14, 12)** - Bumped on Turn 46887 from `(13, 12)`. Eastern railing of western pit is solid.
+  - **(21, 5)** - Bumped on Turn 46949 from `(21, 6)`. Shutter gate is CLOSED in State B, blocking access to the northern section of 3F.
 - **Walkable Open Ledge Entrance:**
   - The open pit entrance is on row 11 at columns 16, 17, and 18. This section has no horizontal railing, enabling the player to walk south from row 11 onto row 12 rubble and safely fall to 2F.
 
