@@ -9,6 +9,6 @@
 | Ladder 5 | (23, 11) | (17, 11) | B1F (17, 11) <-> 1F (23, 11) | 1F Central ladder (west of divider) to B1F Central |
 
 ## Traversal Status
-- Current Location: 1F (31, 12)
-- Moving Left along row 12 to col 27, then Up along col 27 to Ladder 4 at (27, 3) to descend to B1F (5, 3).
-- Next on B1F: Navigate to Ladder 3 at (37, 17) to ascend to 1F (3, 3) and proceed down the western corridor to Route 10 South.
+- Current Location: B1F (19, 3)
+- Navigating via col 15 south to Row 27 Northern Bypass (rows 26-28, cols 14-29).
+- Next: Move east along row 27 to col 33-37, ascend north to Ladder 3 at (37, 17), and ascend to 1F.
