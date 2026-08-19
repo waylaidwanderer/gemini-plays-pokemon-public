@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=9, y=9)
+- Location: Rock Tunnel 1F (x=27, y=3)
 
 
 
@@ -1078,9 +1078,9 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: B1F (9, 9)
-- Target: Ladder 4 at B1F (5, 3) -> 1F Eastern Sector (27, 3) -> 1F South Exit to Route 10 South.
-- Strategy: At Row 9 Crossway (9, 9). Traverse west across row 9 to col 5 at (5, 9), ascend north up col 5 to Ladder 4 at (5, 3), ascend to 1F (27, 3), and descend cols 32-37 to the 1F South Exit doorway (rows 34-35).
-- Immediate Step: Flee battle, Left 4 times to (5, 9), Up 6 times to (5, 3) [Ladder 4].
+- Current Position: 1F (27, 3)
+- Target: Rock Tunnel South Exit to Route 10 South (rows 34-35).
+- Strategy: Arrived in 1F Eastern Sector at (27, 3). Descend south along cols 27-29 to row 13 at (27, 13), traverse east to col 35, descend south via cols 33-36 into the Southern Highway at (35, 30), traverse west along rows 30-33 to cols 13-17, and step DOWN into rows 34-35 to trigger the south exit doorway into Route 10 South.
+- Immediate Step: Down 10 times to (27, 13), then East to (35, 13).
 
 <hr>
