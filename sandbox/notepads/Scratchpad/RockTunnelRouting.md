@@ -9,7 +9,7 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: 1F (9, 33)
+- Current Position: 1F (17, 33)
 - Active Sweep Protocol: Sweep eastward along row 33 from col 3 to col 37.
-- Columns Verified Solid at Row 34: cols 0-8.
-- Immediate Step: Flee wild Zubat battle, continue eastward sweep across cols 9-18.
+- Columns Verified Solid at Row 34-35: cols 0-22.
+- Immediate Step: Continue eastward sweep across cols 23-30.
