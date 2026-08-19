@@ -8,33 +8,27 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating to 2F switch via Column 5 & Row 13...")
+print("Navigating to 2F switch at (2, 11) via Column 1...")
 buttons_pressed = 0
 
 while True:
     pos = mgba.get_coordinates()
     print(f"Current Position: {pos}")
     
-    if pos['x'] == 2 and pos['y'] == 12:
-        print("Successfully reached Mewtwo statue switch at (2, 12)!")
+    if pos['x'] == 1 and pos['y'] == 11:
+        print("Successfully reached column 1 switch access position (1, 11)!")
         break
         
     btn = None
-    if pos['x'] == 6 and pos['y'] == 10:
+    if pos['x'] > 1 and pos['y'] == 13:
         btn = 'Left'
-    elif pos['x'] == 5 and pos['y'] < 13:
-        btn = 'Down'
-    elif pos['y'] == 13 and pos['x'] > 2:
-        btn = 'Left'
-    elif pos['x'] == 2 and pos['y'] == 13:
+    elif pos['x'] == 1 and pos['y'] > 11:
         btn = 'Up'
     else:
         # Recovery
-        if pos['x'] > 5 and pos['y'] < 13:
-            btn = 'Left'
-        elif pos['x'] == 5 and pos['y'] > 13:
-            btn = 'Up'
-        elif pos['y'] == 13 and pos['x'] < 2:
+        if pos['y'] < 13 and pos['x'] > 1:
+            btn = 'Down'
+        elif pos['x'] < 1:
             btn = 'Right'
             
     if not btn:
@@ -54,11 +48,11 @@ while True:
         print("Button budget limit approached.")
         break
 
-# Toggle the switch
+# If we reached (1, 11), face Right and toggle the switch!
 pos = mgba.get_coordinates()
-if pos['x'] == 2 and pos['y'] == 12:
-    print("At (2, 12). Toggling the switch to State A...")
-    mgba.press_buttons(["Up", "sleep 200", "A", "sleep 1000"])
+if pos['x'] == 1 and pos['y'] == 11:
+    print("At (1, 11). Toggling the switch on the statue at (2, 11) by facing Right...")
+    mgba.press_buttons(["Right", "sleep 200", "A", "sleep 1000"])
     mgba.press_buttons(["A", "sleep 1000", "B", "sleep 500"])
     print("Switch toggled successfully!")
 
