@@ -8,24 +8,55 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-# Target: Exit at the bottom-right of 1F (around x=26, y=27)
-# Let's walk Right to column 12, then Down column 12 as far as possible
-print("Walking to exit...")
-steps = ["Right", "Right", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"]
+# We are at (12, 12)
+# Walk to column 10, then walk DOWN to row 27 (the exit corridor)
+path = [
+    ('Left', 11, 12), ('Left', 10, 12),
+    ('Down', 10, 13), ('Down', 10, 14), ('Down', 10, 15), ('Down', 10, 16),
+    ('Down', 10, 17), ('Down', 10, 18), ('Down', 10, 19), ('Down', 10, 20),
+    ('Down', 10, 21), ('Down', 10, 22), ('Down', 10, 23), ('Down', 10, 24),
+    ('Down', 10, 25), ('Down', 10, 26), ('Down', 10, 27)
+]
 
-for i, s in enumerate(steps):
+print("Walking south via column 10...")
+step_index = 0
+button_count = 0
+
+while step_index < len(path):
+    btn, target_x, target_y = path[step_index]
     pos = mgba.get_coordinates()
-    print(f"Step {i+1}: At {pos}, pressing {s}")
-    mgba.press_buttons([s])
+    print(f"Current Pos: {pos}, Next Step: {btn} to ({target_x}, {target_y})")
+    
+    mgba.press_buttons([btn])
+    button_count += 1
     time.sleep(0.3)
     
+    if button_count >= 80:
+        print("Approaching execution limit, stopping.")
+        break
+        
     new_pos = mgba.get_coordinates()
-    if new_pos == pos:
-        print("Failed to move, checking for battle...")
+    if new_pos['x'] == target_x and new_pos['y'] == target_y:
+        print("Step succeeded.")
+        step_index += 1
+    else:
+        print("Failed step. Checking for battle...")
         time.sleep(0.5)
         pos_check = mgba.get_coordinates()
         if pos_check == new_pos:
             run_from_battle()
+            time.sleep(1)
+            # Re-align
+            new_pos_after = mgba.get_coordinates()
+            found = False
+            for idx, (b, tx, ty) in enumerate(path):
+                if new_pos_after['x'] == tx and new_pos_after['y'] == ty:
+                    print(f"Re-aligned to index {idx}")
+                    step_index = idx + 1
+                    found = True
+                    break
+            if not found:
+                print("Could not re-align, retrying current step.")
         else:
             print("Position changed, continuing...")
 
