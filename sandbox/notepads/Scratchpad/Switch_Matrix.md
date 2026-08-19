@@ -13,14 +13,16 @@
 ## Gate Configurations by State
 
 ### DEFAULT STATE (State A)
-- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **OPEN** (Allows access to bottom-right stairs on 1F).
+- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **CLOSED** (Blocks access to bottom-right of 1F).
 - **1F 1F/2F stairs gate at `(22, 2)`:** **CLOSED** (Blocks stairs going up to 2F).
+- **1F central gates at `(5, 8)`/`(6, 8)`/etc.:** **CLOSED** (Blocks north to south traversal).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F stairs at 5, 10).
 - **3F gate at `(21, 5)`:** **CLOSED** (Blocks column 21 access to northeast room/pit).
 
 ### TOGGLED STATE (State B)
-- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **CLOSED** (Blocks access to bottom-right of 1F).
+- **1F B1F stairs gate at `(18, 8)`/`(19, 8)`:** **OPEN** (Allows access to bottom-right of 1F).
 - **1F 1F/2F stairs gate at `(22, 2)`:** **OPEN** (Allows access to 2F stairs).
+- **1F central gates at `(5, 8)`/`(6, 8)`/etc.:** **OPEN** (Allows north to south traversal).
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **3F gate at `(21, 5)`:** **OPEN** (Allows access to column 21 and the northeast room/pit).
 - **B1F Secret Key Room:** **OPEN**.
