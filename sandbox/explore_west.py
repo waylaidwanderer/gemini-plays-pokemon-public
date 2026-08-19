@@ -26,10 +26,13 @@ def is_walkable_1f(x, y):
     # Closed gate at (19, 8) in State A
     if x == 19 and y == 8: return False
     
-    # Rubble in central area
+    # Rubble in central area (continuous barrier)
     if y == 8 and 20 <= x <= 22: return False
     if y == 9 and 20 <= x <= 22: return False
     if y == 10 and 21 <= x <= 22: return False
+    if y == 11 and 21 <= x <= 22: return False
+    if y == 12 and 22 <= x <= 23: return False
+    if y == 13 and 22 <= x <= 23: return False
     
     # Rubble at bottom-right
     if y == 14 and x >= 28: return False
