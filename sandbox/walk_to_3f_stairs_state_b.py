@@ -8,35 +8,26 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Clearing battle screen and walking to 3F stairs (18, 2) on 2F in State B...")
-# Clear "Got away safely!" text
-mgba.press_buttons(["B"])
-time.sleep(0.5)
-
+print("Navigating to 3F stairs (18, 2) on 2F in State B via Column 6...")
 buttons_pressed = 0
 
 while True:
     pos = mgba.get_coordinates()
     print(f"Current Position: {pos}")
     
-    # Check if we warped to 3F (3F landing is at (18, 2) or pos['y'] changes)
-    # But wait, 2F stairs are at (18, 2) too.
-    # We will verify if we reached 3F next turn.
-    
+    if pos['x'] == 18 and pos['y'] == 2:
+        print("At stairs! Toggling warp to 3F...")
+        mgba.press_buttons(["Up"])
+        break
+        
     btn = None
-    if pos['x'] == 1 and pos['y'] < 13:
-        btn = 'Down'
-    elif pos['y'] == 13 and pos['x'] < 5:
-        btn = 'Right'
-    elif pos['x'] == 5 and pos['y'] > 11:
+    if pos['x'] == 8 and pos['y'] > 9:
         btn = 'Up'
-    elif pos['y'] == 11 and pos['x'] < 12:
-        btn = 'Right'
-    elif pos['x'] == 12 and pos['y'] == 11:
+    elif pos['y'] == 9 and pos['x'] > 6:
         btn = 'Left'
-    elif pos['x'] == 11 and pos['y'] > 6:
+    elif pos['x'] == 6 and pos['y'] > 6:
         btn = 'Up'
-    elif pos['x'] == 11 and pos['y'] == 6:
+    elif pos['y'] == 6 and pos['x'] < 12:
         btn = 'Right'
     elif pos['x'] == 12 and pos['y'] == 6:
         btn = 'Up'
@@ -46,13 +37,27 @@ while True:
         btn = 'Right'
     elif pos['x'] == 18 and pos['y'] > 2:
         btn = 'Up'
-    elif pos['x'] == 18 and pos['y'] == 2:
-        print("At stairs! Toggling warp to 3F...")
-        btn = 'Up'
     else:
-        print("Warp check...")
-        break
-        
+        # Recovery
+        if pos['y'] > 13:
+            btn = 'Up'
+        elif pos['x'] < 1:
+            btn = 'Right'
+        elif pos['x'] > 18:
+            btn = 'Left'
+        else:
+            # General coordinate guidance
+            if pos['y'] < 5:
+                btn = 'Down'
+            else:
+                # We are in the middle, try to reach column 6 or row 9
+                if pos['y'] > 9:
+                    btn = 'Up'
+                elif pos['x'] > 6:
+                    btn = 'Left'
+                else:
+                    btn = 'Right'
+                
     if not btn:
         break
         
