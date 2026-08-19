@@ -1061,23 +1061,21 @@
 
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
-## Master Topological Model & Route to Lavender Town
-- 1F is divided into two vertical sectors by rock walls (cols 12-13, 18-19, 24-25):
-  1. Western/Central Sector (cols 2-17): Contains Ladder 3 at (3, 3), Western Corridor (cols 2-5), Central Thoroughfare (cols 8-11). The Central Thoroughfare runs south past (10, 15) down to rows 30-35 where the true SOUTH EXIT to Route 10 South and Lavender Town is located!
-  2. Eastern Sector (cols 20-37): Contains Ladder 1 at (37, 3) and Ladder 4 at (27, 3).
-- B1F connects the two sectors:
-  - Ladder 1 at 1F (37, 3) <-> B1F (33, 25) (Southeast)
-  - Ladder 4 at 1F (27, 3) <-> B1F (5, 3) (Northwest)
-  - Ladder 3 at 1F (3, 3) <-> B1F (37, 17) (East-Central)
+## Current Objective: Systematic Southward Exploration of 1F Western/Central Sector
+1. Navigate from (21, 3) West to (15, 3), South to (15, 14), West to (10, 14) (Central Thoroughfare).
+2. Systematically probe all southward corridors on 1F (cols 2-17, rows 14-35):
+   - Test Central Thoroughfare (cols 8-11) south past (10, 15) and record exact boundaries at rows 20-35.
+   - If blocked at any row, probe lateral branches West (cols 2-7) and East (cols 12-17).
+   - Locate the true South Exit mat leading to Route 10 South and Lavender Town.
 
-## Master Step-by-Step Traversal Route to Lavender Town
-1. From 1F (27, 16): walk east to col 37, ascend north along col 37 to row 3, and walk west to (27, 3).
-2. At (27, 3), step onto Ladder 4 to descend to B1F at (5, 3).
-3. On B1F, traverse east along North Highway (rows 2-5) to Ladder 3 at (37, 17).
-4. Ascend Ladder 3 to 1F at (3, 3) in the Western Corridor.
-5. On 1F (3, 3), walk south down Western Corridor (cols 2-5) to row 12, cross east to Central Thoroughfare (cols 8-11).
-6. Walk SOUTH down Central Thoroughfare (cols 8-11) past (10, 15) all the way down to rows 30-35 to step onto the South Exit mat!
-7. Exit onto Route 10 South -> walk south into Lavender Town -> heal at Pok�mon Center!
+## Verified Empirical Ladder Connectivity Matrix
+| Ladder | 1F Coord | B1F Coord | Sector / Connection |
+|---|---|---|---|
+| Ladder 1 | 1F (37, 3) | B1F (33, 25) | NE 1F <-> SE B1F |
+| Ladder 2 | 1F (5, 3) | B1F (27, 3) | NW 1F <-> NC B1F |
+| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far NW 1F <-> EC B1F |
+| Ladder 4 | 1F (27, 3) | B1F (5, 3) | NC 1F <-> NW B1F |
+| Ladder 5 | 1F (23, 11) | B1F (17, 11) | NC 1F <-> Central B1F |
 
 
 <hr>
