@@ -42,3 +42,6 @@
 6. Now in State B, the 3F gate at `(21, 5)` is OPEN. Walk to `(21, 5)`, go to the northeast room, and step into the pit at `(24, 5)` to drop to 1F southeast `(28, 7)`.
 7. On 1F, walk Left to column 24, Up to row 3, Left along row 3 to column 19, Down column 19 to row 24, Right to column 21, and down the stairs to B1F at `(21, 24)`.
 8. On B1F, retrieve the Secret Key.
+## Verified 2F Layout Constraints (Logged Turn 48355)
+- **Column 15 Cabinets:** On 2F, column 15 is blocked by solid brown cabinets on rows 8-10, separating the column 15 corridor.
+- **Southeast Stairs Gate:** On 2F, the shutter gate at `(18, 8)` / `(19, 8)` is physically **CLOSED** in State B, blocking access to the stairs from the north (row 7). It is **OPEN** in State A, allowing entry.
