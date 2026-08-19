@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=8, y=21)
+- Location: Rock Tunnel B1F (x=5, y=17)
 
 
 
@@ -980,7 +980,6 @@
 
    - Rock divider at rows 14-15 spans cols 20-31.
 
-   - Vertical opening at cols 32-33 connects row 16 north to rows 12-13.
 
    - Open chamber/passage at rows 12-13 across cols 26-33.
 
@@ -1071,7 +1070,7 @@ In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in
 | Ladder | 1F Coord | B1F Coord | Tested Transition | Verified Turn |
 |---|---|---|---|---|
 | Ladder 1 | (37, 3) | (33, 25) / (17, 11) | 1F (37, 3) -> B1F (33, 25) & B1F (17, 11) -> 1F (23, 11) | Turn 4618, 6131 |
-| Ladder 2 | (5, 3) | (27, 3) | 1F (5, 3) -> 1F (27, 3) / B1F (27, 3) | Turn 4642, 6020 |
+| Ladder 2 | (27, 3) | (27, 3) | 1F (27, 3) <-> B1F (27, 3) (North-Central exit ladder) | Turn 4642, 6020 |
 | Ladder 3 | (3, 3) | (37, 17) | B1F (37, 17) -> 1F (3, 3) & 1F (3, 3) -> B1F (37, 17) | Turn 4921, 5580 |
 | Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
