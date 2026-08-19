@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=14, y=16)
+- Location: Rock Tunnel B1F (x=2, y=9)
 
 
 
@@ -1069,8 +1069,8 @@
 | Ladder 5 | (23, 11) | (17, 11) | B1F (17, 11) <-> 1F (23, 11) | 1F Central ladder (west of divider) to B1F Central |
 
 ## Traversal Status
-- Current Location: B1F (19, 3)
-- Navigating via col 15 south to Row 27 Northern Bypass (rows 26-28, cols 14-29).
-- Next: Move east along row 27 to col 33-37, ascend north to Ladder 3 at (37, 17), and ascend to 1F.
+- Current Location: B1F (2, 9)
+- Plan: Ascend to Ladder 4 at (5, 3) -> 1F (27, 3).
+- On 1F: Follow eastern/southern passage (cols 32-37, rows 16-33) down to the 1F southern highway, then walk west to the cave exit leading to Route 10 South.
 
 <hr>
