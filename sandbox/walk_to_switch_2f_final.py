@@ -22,15 +22,13 @@ while True:
         break
         
     btn = None
-    if pos['x'] == 9 and pos['y'] == 11:
+    if pos['x'] == 6 and pos['y'] == 11:
+        btn = 'Up'
+    elif pos['x'] == 6 and pos['y'] == 10:
         btn = 'Left'
-    elif pos['x'] == 8 and pos['y'] == 11:
+    elif pos['x'] == 5 and pos['y'] == 10:
         btn = 'Left'
-    elif pos['x'] == 7 and pos['y'] == 11:
-        btn = 'Left'
-    elif pos['x'] == 6 and pos['y'] == 11:
-        btn = 'Left'
-    elif pos['x'] == 5 and pos['y'] < 13:
+    elif pos['x'] == 4 and pos['y'] < 13:
         btn = 'Down'
     elif pos['y'] == 13 and pos['x'] > 1:
         btn = 'Left'
@@ -38,13 +36,13 @@ while True:
         btn = 'Up'
     else:
         # Recovery
-        if pos['x'] > 8:
+        if pos['x'] > 6:
             btn = 'Left'
         elif pos['y'] > 13:
             btn = 'Up'
         elif pos['x'] < 1:
             btn = 'Right'
-        elif pos['y'] < 11:
+        elif pos['y'] < 10:
             btn = 'Down'
             
     if not btn:
@@ -57,10 +55,6 @@ while True:
     
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
-        if btn == 'Left' and pos['y'] == 11 and (pos['x'] == 8 or pos['x'] == 9 or pos['x'] == 7):
-            print("Bumped into Cooltrainer NPC on row 11. Waiting for her to move...")
-            time.sleep(1.0)
-            continue
         print("We are blocked or in battle!")
         run_from_battle()
         buttons_pressed += 6
