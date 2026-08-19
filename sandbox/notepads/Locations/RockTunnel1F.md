@@ -11,7 +11,7 @@
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
    - East-west passage running from entrance (15, 3) east to column 23.
-   - Solid vertical rock wall at cols 12-13. Central/eastern sector connects across row 19 and rows 2-7.
+   - Solid vertical rock wall at cols 12-13. Central and eastern sectors are separated by solid rock walls.
 2. Western Corridor (cols 2-5, rows 2-13):
    - Continuous vertical passage south from Ladder 3 at (3, 3) down to row 13.
 3. Crossway (rows 10-13, cols 5-11):
