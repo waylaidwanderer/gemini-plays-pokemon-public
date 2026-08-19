@@ -1,26 +1,23 @@
 import mgba
 import time
 
-# 1. Warp out of the room to Mansion 1F (16, 5)
-print("Warping out of the room...")
-mgba.press_buttons(["Right", "sleep 300", "Down", "sleep 1500"])
-time.sleep(2.0)
+# We are currently at (4, 5)
+# Walk Right to (10, 5)
+# Walk Up to (10, 2)
+# Walk Right to (22, 2)
 
-pos = mgba.get_coordinates()
-print("Current Position inside Mansion:", pos)
+path = [
+    ('Right', 5, 5), ('Right', 6, 5), ('Right', 7, 5), ('Right', 8, 5),
+    ('Right', 9, 5), ('Right', 10, 5),
+    ('Up', 10, 4), ('Up', 10, 3), ('Up', 10, 2),
+    ('Right', 11, 2), ('Right', 12, 2), ('Right', 13, 2), ('Right', 14, 2),
+    ('Right', 15, 2), ('Right', 16, 2), ('Right', 17, 2), ('Right', 18, 2),
+    ('Right', 19, 2), ('Right', 20, 2), ('Right', 21, 2), ('Right', 22, 2)
+]
 
-# 2. Walk to (17, 6) on Mansion 1F
-print("Walking to (17, 6)...")
-mgba.press_buttons(["Right", "sleep 300", "Down", "sleep 300"])
-time.sleep(1.0)
-
-pos = mgba.get_coordinates()
-print("Position before test:", pos)
-
-# 3. Try to walk Right to (18, 6)
-print("Testing Right to (18, 6)...")
-mgba.press_buttons(["Right"])
-time.sleep(0.5)
-
-final_pos = mgba.get_coordinates()
-print("Position after test:", final_pos)
+print("Walking to (22, 2)...")
+for btn, tx, ty in path:
+    mgba.press_buttons([btn])
+    time.sleep(0.3)
+    pos = mgba.get_coordinates()
+    print(f"Moved {btn}, now at: {pos}")
