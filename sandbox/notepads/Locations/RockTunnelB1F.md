@@ -49,7 +49,6 @@
 
    - Rock divider at rows 14-15 spans cols 20-31.
 
-   - Vertical opening at cols 32-33 connects row 16 north to rows 12-13.
 
    - Open chamber/passage at rows 12-13 across cols 26-33.
 
