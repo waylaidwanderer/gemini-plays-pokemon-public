@@ -1069,9 +1069,9 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: 1F (25, 33)
-- Active Sweep Protocol: Sweep eastward along row 33 from col 3 to col 37.
-- Columns Verified Solid at Row 34-35: cols 0-30.
-- Immediate Step: Continue eastward sweep across cols 31-37.
+- Current Position: 1F (37, 33)
+- 1F Southern Basin Audit: 100% verified solid rock wall across cols 0-38 (rows 34-35); no exit warp exists on 1F southern perimeter.
+- Strategy: Ascend north to Ladder 1 at 1F (37, 3) and descend to B1F (33, 25) to survey B1F southern corridors for the Route 10 South exit.
+- Immediate Step: Walk Up column 37 towards Ladder 1 at (37, 3).
 
 <hr>
