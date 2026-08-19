@@ -9,6 +9,6 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (13, 31)
-- Strategy: Navigate through Vertical Connector (16, 31 -> 16, 27) to row 27, walk west to (3, 27), and survey the unexplored northern passage (cols 2-5, rows 17-26) on B1F.
-- Immediate Step: Flee wild Zubat battle, walk Right 3 to (16, 31), then Up 4 to (16, 27).
+- Current Position: B1F (16, 24)
+- Strategy: Walk east to col 20 (row 24), ascend col 20 to row 18 bypass, navigate west to col 10, south to row 27, west to (3, 27), and survey the unexplored western passage (cols 2-5, rows 17-26) on B1F.
+- Immediate Step: Walk Right 4 to (20, 24), then Up 6 to (20, 18).
