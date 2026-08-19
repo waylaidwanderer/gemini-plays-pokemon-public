@@ -17,7 +17,7 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: 1F (27, 3)
+- Current Position: 1F (27, 13)
 - Target: Rock Tunnel South Exit to Route 10 South (rows 34-35).
-- Strategy: Arrived in 1F Eastern Sector at (27, 3). Descend south along cols 27-29 to row 13 at (27, 13), traverse east to col 35, descend south via cols 33-36 into the Southern Highway at (35, 30), traverse west along rows 30-33 to cols 13-17, and step DOWN into rows 34-35 to trigger the south exit doorway into Route 10 South.
-- Immediate Step: Down 10 times to (27, 13), then East to (35, 13).
+- Strategy: At row 13 junction. Traverse east along row 13 past col 31, descend south down cols 33-36 into the Southern Highway at (35, 30), traverse west along rows 30-33 to cols 13-17, and step DOWN into rows 34-35 to trigger the south exit doorway into Route 10 South.
+- Immediate Step: Right 8 times to (35, 13), Down 4 times to (35, 17).
