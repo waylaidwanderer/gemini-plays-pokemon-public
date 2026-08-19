@@ -914,9 +914,11 @@
    - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
 7. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
-   - Rows 14-15 form an impassable solid rock wall across cols 20-37.
    - Ladder 1 at (37, 3) connects to B1F (33, 25).
    - Ladder 4 at (27, 3) connects to B1F (5, 3).
+8. South-Eastern Passage to Southern Sector (rows 13-17, cols 32-37):
+   - Rows 14-15 horizontal rock wall ends at col 31.
+   - Open vertical passage at cols 32-37 connects northern/eastern sector directly south into the Southern Sector (rows 16-30) leading to the cave exit!
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
