@@ -16,6 +16,6 @@ In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in
 | Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
 ## Traversal Status
-- Current Location: B1F (11, 7)
-- Observed Ladder on Screen: (15, 3) on B1F with open vertical corridor at cols 13-16 (rows 3-7).
-- Access path from (11, 7): Walk Left to col 7, Up to row 2, East to col 15, Down to Ladder at (15, 3).
+- Current Location: 1F (25, 22) (Southern Sector)
+- Ascended from B1F (5, 3) to 1F (27, 3), traversed South down cols 26-29, bypassed row 14-15 rock wall via col 32 opening into Southern Sector.
+- Current Route: Heading South along cols 21-25 open highway towards cave exit.
