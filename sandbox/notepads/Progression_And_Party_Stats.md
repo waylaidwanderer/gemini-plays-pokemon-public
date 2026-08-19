@@ -21,4 +21,4 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full!
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125. Verified on Turn 47853 that our Bag has 18 empty slots (only HP UP and ESCAPE ROPE), so we can retrieve it now!
