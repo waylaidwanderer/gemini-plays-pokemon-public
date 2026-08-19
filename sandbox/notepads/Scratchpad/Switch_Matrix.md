@@ -27,15 +27,17 @@
 - **3F gate at `(21, 5)`:** **OPEN** (Allows access to column 21 and the northeast room/pit).
 - **B1F Secret Key Room:** **OPEN**.
 
-## Standard Routing to B1F & Secret Key (Verified Turn 47498-47510)
+## Standard Routing to B1F & Secret Key (Verified Turn 48184)
 1. Enter Mansion (State A).
-2. Walk UP column 5 on 1F, step onto (5, 10) stairs to warp to 2F.
-3. On 2F, walk UP column 5, step onto the stairs at (5, 10) to warp to 3F.
-4. On 3F, walk Left to (2, 12), face UP, and toggle the Mewtwo statue switch at (2, 11) to State B.
-5. On 3F, walk east along row 11/12, go north to column 12 row 7, walk east along row 7 to (21, 7), walk UP through the open gate at (21, 5) to the northeast room, and step into the pit at (24, 5).
-6. The (24, 5) pit drops the player to 2F and we fall through directly to the southeast wing of 1F, landing at `(28, 7)` on Turn 47793 (State B).
-7. From `(28, 7)` on 1F, walk Left to column 24, Up to row 3 (to bypass the row 7 blockages at col 22), Left along row 3 to column 19, Down column 19 to row 24 through the open shutter gate at `(19, 8)`/`(19, 9)`, Right to `(21, 24)`, and go down the stairs to B1F!
-8. Retrieve the Secret Key from B1F.
+2. Walk UP column 5 on 1F, step onto (5, 10) stairs to warp to 2F (lands at (5, 11)).
+3. On 2F, walk Left to (2, 12) along row 12, face UP, and toggle the Mewtwo statue switch at (2, 11) to State B.
+4. With State B now active, walk Right to (5, 11), Up to (5, 10), and warp back to 1F (lands at (5, 11) on 1F).
+5. On 1F, since the central gates are now OPEN in State B, walk Down to row 26, then East along row 26 to column 19, Up column 19, Right to column 21, and down the stairs to B1F at `(21, 24)`!
+6. Retrieve the Secret Key from B1F.
+
+## Verified Stair Warps (State A - Default)
+- **1F (5, 10) <-> 2F (5, 10)**: Stepping onto (5, 10) on 1F warps player to 2F (5, 10), automatically stepping down to (5, 11). Stepping onto (5, 10) on 2F warps player back to 1F (5, 11).
+- **1F (7, 10) <-> 2F (7, 10)**: Stepping onto (7, 10) on 1F warps player to 2F (7, 10), automatically stepping down to (7, 11). Stepping onto (7, 10) on 2F warps player back to 1F (7, 11).
 
 ## Crucial 1F-2F Enclosed Warp Loop & 2F Layout Constraints (Discovered Turn 47983-47990)
 - **2F Solid Wall:** Row 8 is completely blocked by solid walls across columns 5 to 17 on 2F. The northern half and southern half of 2F are physically separated on these columns!
