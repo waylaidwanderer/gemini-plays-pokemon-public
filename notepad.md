@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=27, y=3)
+- Location: Rock Tunnel 1F (x=37, y=3)
 
 
 
@@ -895,7 +895,7 @@
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
-- Note: (5, 3) is open floor in the Western Corridor, not a ladder.
+- Ladder 2/Warp (North-West): Located at (5, 3). Stepping Up onto (5, 3) warps to (27, 3) in Eastern Exit Sector [Verified Turn 6020].
 - Ladder 3 (Far North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turns 4921, 5082, 5580, 5689].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 
@@ -1063,14 +1063,14 @@
 # Rock Tunnel Master Traversal Plan (Systematic Exploration)
 
 ## Current Status & Objective
-- Current Position: 1F (17, 11)
+- Current Position: 1F (37, 3)
 - Master Strategy: Traverse through Western Corridor to Ladder 3 at 1F (3, 3) -> descend to B1F (37, 17) -> traverse South-Western Highway (rows 30-33) all the way WEST to cols 2-5 -> ascend Western Highway north along cols 2-5 to Ladder 4 at B1F (5, 3) -> ascend to 1F (27, 3) in Eastern Exit Sector -> walk south to South Exit at (37, 17) -> Lavender Town.
 
 ## Verified Empirical Ladder Connectivity Matrix
 | Ladder ID | 1F Floor Position | B1F Floor Position | Verified Direction / Connectivity |
 |---|---|---|---|
 | Ladder 1 | 1F (37, 3) | B1F (33, 25) | 1F Entrance Sector -> B1F Southeast Landing |
-| Ladder 2 | 1F (5, 3) [Floor] | B1F (27, 3) | B1F North-Central Landing |
+| Ladder 2 | 1F (5, 3) | 1F (27, 3) | NW 1F -> Eastern Exit Sector Warp [Verified Turn 6020] |
 | Ladder 3 | 1F (3, 3) | B1F (37, 17) | 1F Northwest Warp <-> B1F East-Central Warp |
 | Ladder 4 | 1F (27, 3) | B1F (5, 3) | 1F Exit Sector <-> B1F Northwest |
 
