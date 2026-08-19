@@ -8,7 +8,7 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating to 2F switch at (2, 12) via Row 9...")
+print("Navigating to 2F switch via Column 5 & Row 13...")
 buttons_pressed = 0
 
 while True:
@@ -20,19 +20,21 @@ while True:
         break
         
     btn = None
-    if pos['x'] == 8 and pos['y'] > 9:
-        btn = 'Up'
-    elif pos['y'] == 9 and pos['x'] > 2:
+    if pos['x'] == 6 and pos['y'] == 10:
         btn = 'Left'
-    elif pos['x'] == 2 and pos['y'] < 12:
+    elif pos['x'] == 5 and pos['y'] < 13:
         btn = 'Down'
+    elif pos['y'] == 13 and pos['x'] > 2:
+        btn = 'Left'
+    elif pos['x'] == 2 and pos['y'] == 13:
+        btn = 'Up'
     else:
         # Recovery
-        if pos['x'] > 8:
+        if pos['x'] > 5 and pos['y'] < 13:
             btn = 'Left'
-        elif pos['y'] > 13:
+        elif pos['x'] == 5 and pos['y'] > 13:
             btn = 'Up'
-        elif pos['x'] < 2:
+        elif pos['y'] == 13 and pos['x'] < 2:
             btn = 'Right'
             
     if not btn:
