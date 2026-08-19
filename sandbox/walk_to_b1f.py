@@ -8,123 +8,88 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     time.sleep(1.0)
 
-print("Clearing battle text box and walking to B1F stairs on 1F (State B)...")
+target_x = 21
+target_y = 24
 
-# Clear the text box
-mgba.press_buttons(["A"])
-time.sleep(1.0)
+print("Dynamic routing to B1F stairs at (21, 24)...")
 
-pos = mgba.get_coordinates()
-print("Starting position in overworld:", pos)
+stuck_count = 0
+last_pos = None
 
-# Path down column 9 from (9, 13) to (9, 26)
-path_down = [
-    ('Down', 9, 14),
-    ('Down', 9, 15),
-    ('Down', 9, 16),
-    ('Down', 9, 17),
-    ('Down', 9, 18),
-    ('Down', 9, 19),
-    ('Down', 9, 20),
-    ('Down', 9, 21),
-    ('Down', 9, 22),
-    ('Down', 9, 23),
-    ('Down', 9, 24),
-    ('Down', 9, 25),
-    ('Down', 9, 26)
-]
-
-print("Walking DOWN column 9 to Row 26...")
-for btn, tx, ty in path_down:
+while True:
     pos = mgba.get_coordinates()
-    print(f"1F: At {pos}, moving {btn} to ({tx}, {ty})...")
+    print(f"Current Position: {pos}")
+    
+    # If we reached B1F, our coordinates will change or we will detect a warp
+    if pos == last_pos:
+        stuck_count += 1
+        if stuck_count > 15:
+            print("Stuck at same position for too long. Stopping.")
+            break
+    else:
+        stuck_count = 0
+        last_pos = pos
+
+    # Decide next step dynamically
+    btn = None
+    if pos['y'] < 26:
+        # We need to go down to row 26
+        if pos['x'] < 10:
+            btn = 'Right'
+        elif pos['x'] > 10:
+            btn = 'Left'
+        else:
+            btn = 'Down'
+    elif pos['y'] == 26:
+        # We are on row 26, go right to column 21
+        if pos['x'] < 21:
+            btn = 'Right'
+        elif pos['x'] > 21:
+            btn = 'Left'
+        else:
+            btn = 'Up' # we reached (21, 26), go UP to the stairs
+    elif pos['y'] == 25:
+        if pos['x'] == 21:
+            btn = 'Up' # step onto the stairs at (21, 24)
+        else:
+            btn = 'Down' # get back to row 26
+    elif pos['y'] == 24:
+        if pos['x'] == 21:
+            # We are on the stairs! Warp should trigger
+            print("Standing on the stairs warp. Waiting for warp...")
+            time.sleep(1.0)
+            warp_pos = mgba.get_coordinates()
+            if warp_pos != pos:
+                print("Warped to B1F successfully! New position:", warp_pos)
+                break
+            else:
+                # If still here, try to press Up or Down to trigger warp?
+                # Sometimes stepping onto the tile is enough, but let's try Up
+                btn = 'Up'
+        else:
+             btn = 'Up' # get back to row 26
+    else:
+        # We are below row 26, walk UP to row 26
+        btn = 'Up'
+        
+    if not btn:
+        print("No valid move decided. Stopping.")
+        break
+        
+    print(f"Pressing {btn}...")
     mgba.press_buttons([btn])
     time.sleep(0.3)
+    
     new_pos = mgba.get_coordinates()
-    if new_pos['x'] == tx and new_pos['y'] == ty:
-         print("Moved successfully.")
-    else:
-         print("Blocked or in battle, checking...")
-         run_from_battle()
-         time.sleep(0.5)
-         mgba.press_buttons([btn])
-         time.sleep(0.3)
-         new_pos2 = mgba.get_coordinates()
-         if new_pos2['x'] == tx and new_pos2['y'] == ty:
-              print("Moved successfully after battle.")
-         else:
-              print("Failed again. Position:", new_pos2)
-              break
-
-# Path east along row 26 to (21, 26)
-path_east = [
-    ('Right', 10, 26),
-    ('Right', 11, 26),
-    ('Right', 12, 26),
-    ('Right', 13, 26),
-    ('Right', 14, 26),
-    ('Right', 15, 26),
-    ('Right', 16, 26),
-    ('Right', 17, 26),
-    ('Right', 18, 26),
-    ('Right', 19, 26),
-    ('Right', 20, 26),
-    ('Right', 21, 26)
-]
-
-print("Walking EAST along row 26...")
-for btn, tx, ty in path_east:
-    pos = mgba.get_coordinates()
-    print(f"1F: At {pos}, moving {btn} to ({tx}, {ty})...")
-    mgba.press_buttons([btn])
-    time.sleep(0.3)
-    new_pos = mgba.get_coordinates()
-    if new_pos['x'] == tx and new_pos['y'] == ty:
-         print("Moved successfully.")
-    else:
-         print("Blocked or in battle, checking...")
-         run_from_battle()
-         time.sleep(0.5)
-         mgba.press_buttons([btn])
-         time.sleep(0.3)
-         new_pos2 = mgba.get_coordinates()
-         if new_pos2['x'] == tx and new_pos2['y'] == ty:
-              print("Moved successfully after battle.")
-         else:
-              print("Failed again. Position:", new_pos2)
-              break
-
-# Path UP column 21 to the stairs at (21, 24)
-path_stairs = [
-    ('Up', 21, 25),
-    ('Up', 21, 24) # Warp to B1F!
-]
-
-print("Walking UP to B1F stairs...")
-for btn, tx, ty in path_stairs:
-    pos = mgba.get_coordinates()
-    print(f"1F: At {pos}, moving {btn} to ({tx}, {ty})...")
-    mgba.press_buttons([btn])
-    time.sleep(0.3)
-    new_pos = mgba.get_coordinates()
-    if new_pos['x'] == tx and new_pos['y'] == ty:
-         print("Moved successfully.")
-    else:
-         # Check if we warped to B1F
-         if tx == 21 and ty == 24 and new_pos['y'] != 24:
-              print("Warped to B1F successfully!")
-              break
-         print("Blocked or in battle, checking...")
-         run_from_battle()
-         time.sleep(0.5)
-         mgba.press_buttons([btn])
-         time.sleep(0.3)
-         new_pos2 = mgba.get_coordinates()
-         if new_pos2['x'] == tx and new_pos2['y'] == ty:
-              print("Moved successfully after battle.")
-         else:
-              print("Failed again. Position:", new_pos2)
-              break
+    if new_pos == pos:
+        # Position did not change, check if in battle
+        print("Position did not change. Checking for battle...")
+        time.sleep(0.5)
+        pos_check = mgba.get_coordinates()
+        if pos_check == new_pos:
+            # Still same position, run away
+            run_from_battle()
+            time.sleep(1.0)
 
 print("Final position:", mgba.get_coordinates())
 mgba.take_screenshot()
