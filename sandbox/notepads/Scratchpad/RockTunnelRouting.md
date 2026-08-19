@@ -9,8 +9,8 @@
 6. South Exit Doorway -> Route 10 South -> Lavender Town!
 
 ## Current Navigation Step
-- Current Position: B1F (13, 14)
-- Step 1: Walk Left 3 to (10, 14) into Central-Western vertical channel.
-- Step 2: Walk North up cols 10-11 past row 9 crossway to Ladder 4 at (5, 3).
-- Step 3: Ascend Ladder 4 to 1F (27, 3).
-- Step 4: Systematically map eastern and southern corridors on 1F to find South Exit doorway.
+- Current Position: 1F (27, 3)
+- Step 1: Walk South down Eastern Sector corridor (cols 26-29) towards row 13.
+- Step 2: Navigate around east-west divider (cols 32-37) into southern highway.
+- Step 3: Systematically survey southern boundaries to locate the South Exit doorway.
+- Step 4: Exit to Route 10 South and proceed to Lavender Town!
