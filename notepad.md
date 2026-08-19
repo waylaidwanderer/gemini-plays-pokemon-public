@@ -1075,7 +1075,7 @@
 7. Exit to Route 10 South and proceed directly into Lavender Town!
 
 ## Current Execution Status
-- Current Position: 1F (33, 17)
-- Immediate Step: Walk north to (33, 11), west to (27, 11), and north to descend Ladder 4 at (27, 3).
+- Current Position: 1F (23, 11) [West of Divider]
+- Immediate Step: Walk west along row 11 to col 15, then south through cols 14-17 directly into the 1F Southern Highway (rows 30-33) to find the South Exit.
 
 <hr>
