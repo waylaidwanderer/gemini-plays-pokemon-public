@@ -954,7 +954,7 @@
 
 - Ladder 1 (South-East): Located at (33, 25). Connects down from Rock Tunnel 1F at (37, 3). Note: Landing tile (33, 25) tested on Turn 5584; does not trigger an ascending warp directly from (33, 25).
 
-- Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3).
+- Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F (Exit Sector).
 
 - Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) [Verified Turn 4921, 5082 & 5580].
 
@@ -1076,9 +1076,9 @@ In retail Pok�mon Blue, Rock Tunnel requires alternating between 1F and B1F in
 | Ladder 4 | (27, 3) | (5, 3) | 1F (27, 3) -> B1F (5, 3) | Turn 4364, 6104 |
 
 ## Next Traversal Plan
-1. From 1F (3, 4), move East to col 5 and South down Western Corridor to row 12 crossway.
-2. Cross East to Central Vertical Thoroughfare (cols 8-11).
-3. Test unvisited passages / ladders to locate the path to the South Exit.
+1. From 1F (15, 14), navigate to Ladder 5 at (23, 11) / 1F (27, 3).
+2. Explore unvisited B1F northern sectors to find the true ascending ladder to the 1F Exit Sector.
+3. Ascend to 1F exit sector and walk south out of the cave to Route 10 South.
 
 
 <hr>
