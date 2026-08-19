@@ -44,3 +44,8 @@
 - Consumables:
   - 1x Moon Stone (Evolution item)
   - 1x Rare Candy (Found in Mt. Moon 1F)
+
+## Cave Attrition & PP Strategy
+- Encounter Policy: Always select RUN on turn 1 to preserve move PP.
+- HYDROS (Blastoise Lv 42): Skull Bash (15/15 PP), Bite (13/25 PP).
+- Backup Attackers: ATLAS (Machop Lv 15 - Karate Chop 25/25 PP), TERRA (Geodude Lv 21 - Dig, Rock Throw).
