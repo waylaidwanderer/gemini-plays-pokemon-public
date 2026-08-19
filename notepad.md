@@ -1077,9 +1077,9 @@
 - Resolution of 1F Southern Basin Survey (Turns 6926-6944): The prior survey was conducted by walking horizontally along row 33. In Gen 1 cave topology, south doorway warps require stepping DOWN into the doorway tile on rows 34-35. The player will execute a systematic column-by-column south-step audit along row 33 to trigger the south exit into Route 10 South.
 
 ## Current Navigation Step
-- Current Position: B1F (20, 12)
+- Current Position: B1F (17, 5)
 - Target: Ladder 1 at B1F (33, 25)
-- Strategy: From (20, 12), move south through cols 20-25 to row 18, east to col 32, and south to Ladder 1 at (33, 25).
-- Immediate Step: Step Down 6 times to (20, 18), then Right 12 times to (32, 18).
+- Strategy: Move straight south down the open cols 15-17 vertical thoroughfare to row 13, east to col 20, south along cols 20-24 to row 24, east to col 24, north to row 18, east to col 32, and south to Ladder 1 at (33, 25).
+- Immediate Step: Step Down 8 times from (17, 5) to reach (17, 13).
 
 <hr>
