@@ -5,12 +5,22 @@ def run_from_battle():
     print("Battle detected! Running away...")
     mgba.press_buttons(["A", "sleep 500", "A", "sleep 1500", "Right", "Down", "A", "sleep 1500", "A", "sleep 1000"])
 
-# 1. Step Up to enter Mansion
-print("Entering Pokémon Mansion...")
-mgba.press_buttons(["Up"])
+# 1. Exit Pokemon Center
+print("Exiting Pokemon Center...")
+mgba.press_buttons(["Down", "Down"])
 time.sleep(1.5)
 
-# 2. Walk from (5, 27) to (21, 24) on 1F
+# 2. Walk to Mansion entrance outside on Cinnabar Island
+# We land outside around (11, 13). Walk Left 5 steps to (6, 13), Up 10 steps to (6, 3).
+print("Walking to Mansion entrance...")
+mgba.press_buttons(["Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up"])
+time.sleep(3.0)
+
+# Now we should be inside Mansion 1F at (5, 27). Let's verify coordinates.
+pos = mgba.get_coordinates()
+print("Entered Mansion, current pos:", pos)
+
+# 3. Walk from (5, 27) to (21, 24) on Mansion 1F
 path = [
     # Right to (21, 27)
     ('Right', 6, 27), ('Right', 7, 27), ('Right', 8, 27), ('Right', 9, 27),
@@ -21,7 +31,7 @@ path = [
     ('Up', 21, 26), ('Up', 21, 25), ('Up', 21, 24)
 ]
 
-print("Walking to B1F stairs...")
+print("Walking to B1F stairs on Mansion 1F...")
 step_index = 0
 while step_index < len(path):
     btn, target_x, target_y = path[step_index]
