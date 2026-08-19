@@ -122,4 +122,3 @@
 - Vertical Connector (rows 28-29, cols 14-17): Open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
 
 - Passage Routing: Row 31 South Highway is blocked at cols 22-24 by a rock pillar. Use the Row 27 Northern Bypass (cols 20-29, row 27) to travel between the eastern sector and the western sector.
-- NPC / Trainer Obstacle: Located at (22, 24). Bypass via row 25 (Down to 21, 25, then East).
