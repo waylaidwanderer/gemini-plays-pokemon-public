@@ -3,30 +3,20 @@ import time
 
 def run_from_battle():
     print("Battle detected! Running away...")
-    # First press B/A to clear any "appeared" or "Go!" text
     mgba.press_buttons(["B", "sleep 500", "B", "sleep 500"])
-    # Press Right, Down, A to flee
     mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 2000"])
-    # Dismiss "Got away safely!" text
     mgba.press_buttons(["B", "sleep 500"])
     time.sleep(1)
 
-# 1. Dismiss "Got away safely!" text
+# 1. Dismiss 'Got away safely!' text
 print("Dismissing 'Got away safely!' text...")
 mgba.press_buttons(["B", "sleep 500"])
 time.sleep(1.0)
 
-# We are at (27, 5) inside Mansion 1F.
-# Walk to B1F stairs at (21, 24):
-# Left to (24, 5)
-# Up to (24, 3)
-# Left to (19, 3)
-# Down to (19, 24)
-# Right to (21, 24) (warp)
-
+# Path to B1F stairs starting from (27, 6):
 path = [
-    ('Left', 26, 5), ('Left', 25, 5), ('Left', 24, 5),
-    ('Up', 24, 4), ('Up', 24, 3),
+    ('Left', 26, 6), ('Left', 25, 6), ('Left', 24, 6),
+    ('Up', 24, 5), ('Up', 24, 4), ('Up', 24, 3),
     ('Left', 23, 3), ('Left', 22, 3), ('Left', 21, 3), ('Left', 20, 3), ('Left', 19, 3),
     ('Down', 19, 4), ('Down', 19, 5), ('Down', 19, 6), ('Down', 19, 7), ('Down', 19, 8),
     ('Down', 19, 9), ('Down', 19, 10), ('Down', 19, 11), ('Down', 19, 12), ('Down', 19, 13),
@@ -62,5 +52,5 @@ while step_index < len(path):
             print("Position changed, continuing...")
 
 # Step onto (21, 24) is the stairs to B1F.
-time.sleep(2.0) # Wait for drop transitions
+time.sleep(2.0)
 print("Position after warp:", mgba.get_coordinates())
