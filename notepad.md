@@ -78,7 +78,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Retrieved from the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125! This unlocks Cinnabar Gym!
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full! Currently on our way to toggle the switches and retrieve it.
 
 <hr>
 
@@ -1573,7 +1573,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Retrieved from the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125! This unlocks Cinnabar Gym!
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full! Currently on our way to toggle the switches and retrieve it.
 
 <hr>
 
@@ -2083,10 +2083,10 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **2F Column 11 gates:** **OPEN** (Allows access to the east-central room).
 - **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
 
-### TOGGLED STATE (State B) (Current State)
+### TOGGLED STATE (State B)
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **2F Column 11 gates:** **CLOSED** (Blocks access to east-central statues).
-- **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Wait, is it closed? Yes, we verified it blocked).
+- **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
 - **B1F Secret Key Room:** **OPEN**.
 
 ## Traversal Options in Current State (State B)

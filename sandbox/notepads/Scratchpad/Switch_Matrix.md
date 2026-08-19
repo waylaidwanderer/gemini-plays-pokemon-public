@@ -17,10 +17,10 @@
 - **2F Column 11 gates:** **OPEN** (Allows access to the east-central room).
 - **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Blocks B1F stairs).
 
-### TOGGLED STATE (State B) (Current State)
+### TOGGLED STATE (State B)
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **2F Column 11 gates:** **CLOSED** (Blocks access to east-central statues).
-- **1F B1F stairs gate at `(22, 2)`:** **CLOSED** (Wait, is it closed? Yes, we verified it blocked).
+- **1F B1F stairs gate at `(22, 2)`:** **OPEN** (Allows access to B1F stairs).
 - **B1F Secret Key Room:** **OPEN**.
 
 ## Traversal Options in Current State (State B)
