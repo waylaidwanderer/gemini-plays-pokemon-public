@@ -8,29 +8,30 @@ def run_from_battle():
     mgba.press_buttons(["B", "sleep 400", "B", "sleep 400"])
     time.sleep(1.0)
 
-print("Navigating from 1F stairs (7, 10) to B1F stairs (21, 24) via Column 10 & Row 16...")
+print("Navigating to B1F stairs (21, 24) via correct east-side routing...")
 
-target_x, target_y = 21, 25 # Trigger the B1F transition!
+target_x, target_y = 21, 25 # B1F transition trigger
 buttons_pressed = 0
 
 while True:
     pos = mgba.get_coordinates()
     print(f"Current Position: {pos}")
     
-    # If we warped to B1F (indicated by a change in coordinates to B1F, or we just stepped onto the stairs)
     if pos['y'] > 24 and pos['x'] == 21:
         print("Successfully reached B1F stairs!")
         break
         
     btn = None
-    if pos['y'] == 10:
-        btn = 'Down'
-    elif pos['x'] < 10 and pos['y'] == 11:
+    # West side logic
+    if pos['x'] == 10 and pos['y'] > 10:
+        btn = 'Up'
+    elif pos['y'] == 10 and pos['x'] < 21:
         btn = 'Right'
-    elif pos['x'] == 10 and pos['y'] < 16:
+    # East side logic
+    elif pos['x'] == 21 and pos['y'] < 15:
         btn = 'Down'
-    elif pos['y'] == 16 and pos['x'] < 19:
-        btn = 'Right'
+    elif pos['y'] == 15 and pos['x'] > 19:
+        btn = 'Left'
     elif pos['x'] == 19 and pos['y'] < 24:
         btn = 'Down'
     elif pos['y'] == 24 and pos['x'] < 21:
@@ -38,21 +39,28 @@ while True:
     elif pos['x'] == 21 and pos['y'] == 24:
         btn = 'Down'
     else:
-        # Off-path recovery
+        # Recovery logic
         if pos['y'] < 10:
             btn = 'Down'
+        elif pos['x'] < 10:
+            btn = 'Right'
         elif pos['x'] > 21:
             btn = 'Left'
-        elif pos['y'] > 24:
-            btn = 'Up'
         else:
-            # General coordinate guidance
-            if pos['x'] < 10:
-                btn = 'Right'
-            elif pos['x'] > 19:
-                btn = 'Left'
+            # We are between columns 11 and 21 and rows 11 and 24
+            # Move towards the correct east columns (19 or 21) depending on our row
+            if pos['y'] < 15:
+                # Target column 21
+                if pos['x'] < 21:
+                    btn = 'Right'
+                else:
+                    btn = 'Left'
             else:
-                btn = 'Down'
+                # Target column 19
+                if pos['x'] < 19:
+                    btn = 'Right'
+                else:
+                    btn = 'Left'
                 
     if not btn:
         print("No move decided. Breaking loop.")
