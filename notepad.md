@@ -895,7 +895,7 @@
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
-- Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3) [Verified Turn 5412].
+- Note: (5, 3) is open floor in the Western Corridor, not a ladder.
 - Ladder 3 (Far North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turns 4921, 5082, 5580, 5689].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 
@@ -928,7 +928,6 @@
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "You have a POKéDEX? I want one too!" Defeat quote: "Shoot! I'm so jealous!"
-
 
 <hr>
 
