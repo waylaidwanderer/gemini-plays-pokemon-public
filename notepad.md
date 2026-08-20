@@ -3,7 +3,7 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Saffron City Gates & Gym Status
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
 - **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
 - **Saffron City Gates & Gym:** Permanently unlocked and cleared! Sabrina is defeated and Marsh Badge is possessed.
 
@@ -66,12 +66,12 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - SURF (HM03)
 
 ## Badge Status & Gym Clearances (Updated Turn 50214)
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
-- **Soul Badge (Fuchsia Gym):** Already acquired! Koga is defeated. Fuchsia Gym is fully cleared.
+- **Volcano Badge (Cinnabar Gym):** Not yet acquired (Blaine is undefeated!).
+- **Soul Badge (Fuchsia Gym):** Not yet acquired (Koga is undefeated!).
 - **Earth Badge (Viridian Gym):** Not yet acquired (Giovanni at Viridian Gym is our current target!).
-- **Cinnabar Island Goal:** Clear Pokémon Mansion to find the Secret Key, unlock the Cinnabar Gym, and defeat Gym Leader Blaine for the Volcano Badge (Badge #6)!
+- **Cinnabar Island Goal:** Retrieve the Secret Key from Pokémon Mansion B1F, unlock the Cinnabar Gym, and defeat Gym Leader Blaine for the Volcano Badge (Badge #6)!
 
 ## Key Items & Inventory Log
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
