@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=21, y=21)
+- Location: Rock Tunnel B1F (x=15, y=21)
 
 
 
@@ -936,8 +936,8 @@
    - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37).
    - Both avenues extend south past row 27. [Verified Turn 8475]
 9. South Exit Corridor Analysis:
-   - Row 28 forms a continuous solid rock barrier across cols 2-27.
-   - The only open path extending south past row 28 on 1F is the Eastern Sector Hall (cols 28-37, rows 28-35+). [Verified Turn 8484]
+   - Row 28 forms a continuous solid rock barrier across cols 2-27 on 1F.
+   - Eastern Sector Hall (cols 28-37) is physically bounded at north by the row 20-21 rock barrier and at west by cols 26-27 rock wall. [Verified Turns 8484, 8488, 8498]
 10. Western-Eastern Divider (rows 20-27, cols 26-27):
     - Solid 2-tile wide vertical rock wall across cols 26-27 continuously separates Western Avenue (cols 20-25) from Eastern Hall (cols 28-37) across all rows 20 to 27. [Empirically Verified Turn 8498]
 
