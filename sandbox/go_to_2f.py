@@ -43,37 +43,21 @@ def follow_path(path):
                 return False
     return True
 
-def run_all():
-    print("Backing out of move menu to main battle menu...")
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-    
-    # We should be back on the main battle menu, cursor on FIGHT.
-    # FIGHT is top-left. RUN is bottom-right.
-    # Press Down, Right, A to run from battle!
-    print("Running from Koffing battle...")
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(3.0) # wait for escape
+def run_to_pit_east():
+    print("Walking Left into the pit from (24, 6)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    pos = mgba.get_coordinates()
-    print("Overworld pos after escape:", pos)
-    
-    # We should land at (26, 4). Walk Left to (23, 4), Down to (23, 6), Left into pit at (22, 6)
+    # Path: Left to (23, 6), Left into pit at (22, 6)
     path = [
-        ("Left", 25, 4),
-        ("Left", 24, 4),
-        ("Left", 23, 4),
-        ("Down", 23, 5),
-        ("Down", 23, 6),
-        ("Left", 22, 6), # PIT fall to 2F!
+        ("Left", 23, 6),
+        ("Left", 22, 6) # PIT fall!
     ]
     if not follow_path(path):
         return False
         
     print("Pit reached! Warping...")
-    time.sleep(2.0) # wait for fall animation
+    time.sleep(2.0) # Wait for fall animation
     
     final_pos = mgba.get_coordinates()
     print("Landed on 2F! Coordinates:", final_pos)
@@ -81,4 +65,4 @@ def run_all():
     return True
 
 if __name__ == "__main__":
-    run_all()
+    run_to_pit_east()
