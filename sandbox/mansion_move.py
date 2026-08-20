@@ -18,7 +18,6 @@ def solve_mansion():
     # Phase 1: Go down to 2F from current (9, 11) on 3F State B
     print("Phase 1: Going down to 2F...")
     path_to_stairs = [
-        ("Left", 8, 11),
         ("Left", 7, 11),
     ]
     for d, tx, ty in path_to_stairs:
