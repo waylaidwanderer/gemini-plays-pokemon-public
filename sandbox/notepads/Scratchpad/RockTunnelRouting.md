@@ -12,7 +12,7 @@
 - Eastern Sector (cols 24-37, rows 2-17): Continuous open sector containing Ladder 4 at (37, 17).
 
 ## Strict Sequential Execution Checklist
-- [ ] **Step 1**: From (17, 16), walk 1 step Left to (16, 16).
+- [x] **Step 1**: From (17, 16), walk 1 step Left to (16, 16).
 - [ ] **Step 2**: From (16, 16), walk 2 steps Up along column 16 to row 14 at (16, 14).
 - [ ] **Step 3**: From (16, 14), walk 5 steps Left along row 14 to column 11 at (11, 14).
 - [ ] **Step 4**: From (11, 14), walk 8 steps Up along column 11 to row 6 at (11, 6).
