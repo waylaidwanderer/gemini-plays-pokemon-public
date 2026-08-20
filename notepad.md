@@ -1043,18 +1043,19 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel B1F -> Ladder 4 Execution Plan
+# Rock Tunnel B1F -> Ladder 4 Master Execution Plan
 
 ## Current Status
 - Active Floor: Rock Tunnel B1F
-- Current Position: (12, 16)
+- Current Position: (10, 21)
 - Target: Ladder 4 at (37, 17) -> 1F (3, 3) exit sector
 
-## Verified Active Routing Protocol (Single-Axis Chunks)
-- Step 1: Walk Left 2 steps along row 16 to column 10: (12, 16) -> (10, 16).
-- Step 2: Walk Up 9 steps along column 10 to North Highway at (10, 7).
-- Step 3: Traverse East across North Highway (row 7) to column 37: (10, 7) -> (37, 7).
-- Step 4: Descend South down column 37 to Ladder 4 at (37, 17).
-- Step 5: Ascend Ladder 4 to Rock Tunnel 1F (3, 3) and explore the Western Corridor south to Route 10 South.
+## Verified 5-Segment Direct Traversal Plan (Single-Axis Chunks)
+1. **Segment 1**: Ascend North along column 10 from (10, 21) to (10, 14) (7 steps Up).
+2. **Segment 2**: Traverse East along row 14 corridor from (10, 14) to (17, 14) (7 steps Right).
+3. **Segment 3**: Ascend North through column 17 gap from (17, 14) to row 13 at (17, 13) (1 step Up).
+4. **Segment 4**: Traverse East across North-East Highway (row 13) from (17, 13) to column 37 at (37, 13) (20 steps Right).
+5. **Segment 5**: Descend South down column 37 from (37, 13) to Ladder 4 at (37, 17) (4 steps Down).
+6. **Destination**: Step onto Ladder 4 at (37, 17) to warp to 1F (3, 3) and exit south down Western Corridor to Route 10 South and Lavender Town.
 
 <hr>
