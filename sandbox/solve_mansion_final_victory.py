@@ -49,7 +49,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Walk to the west-side switch at (2, 12) from our current position (4, 10) on 3F
+    # 1. Walk to the west-side switch at (2, 12) from our current position (4, 10) or (1, 13) on 3F
     if pos == {'x': 4, 'y': 10}:
         path_to_switch = [
             ("Down", 4, 11),
@@ -58,6 +58,14 @@ def main():
             ("Left", 3, 13),
             ("Left", 2, 13),
             ("Left", 1, 13),
+            ("Up", 1, 12),
+            ("Right", 2, 12),
+        ]
+        for d, tx, ty in path_to_switch:
+            if not step_to(d, tx, ty):
+                return
+    elif pos == {'x': 1, 'y': 13}:
+        path_to_switch = [
             ("Up", 1, 12),
             ("Right", 2, 12),
         ]
