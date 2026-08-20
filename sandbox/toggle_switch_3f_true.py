@@ -48,22 +48,24 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Starting route from (12, 7) to true 3F switch stand position (2, 12)...")
+    print("Starting route from (10, 7) to true 3F switch stand position (2, 12) via Column 12...")
     
     path = [
-        # 1. Walk Left to (10, 7)
-        ("Left", 11, 7),
-        ("Left", 10, 7),
+        # 1. Walk Right to (12, 7)
+        ("Right", 11, 7),
+        ("Right", 12, 7),
         
-        # 2. Walk Down to (10, 13)
-        ("Down", 10, 8),
-        ("Down", 10, 9),
-        ("Down", 10, 10),
-        ("Down", 10, 11),
-        ("Down", 10, 12),
-        ("Down", 10, 13),
+        # 2. Walk Down Column 12 to (12, 13)
+        ("Down", 12, 8),
+        ("Down", 12, 9),
+        ("Down", 12, 10),
+        ("Down", 12, 11),
+        ("Down", 12, 12),
+        ("Down", 12, 13),
         
-        # 3. Walk Left to (2, 13)
+        # 3. Walk Left along Row 13 to (2, 13)
+        ("Left", 11, 13),
+        ("Left", 10, 13),
         ("Left", 9, 13),
         ("Left", 8, 13),
         ("Left", 7, 13),
