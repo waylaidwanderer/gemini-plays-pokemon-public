@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=15, y=20)
+- Location: Rock Tunnel 1F (x=23, y=11)
 
 
 
@@ -1070,27 +1070,22 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel B1F - Linear Traversal to Exit
+# Rock Tunnel 1F - Direct Route to South Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel B1F at (15, 20)
-- Target: Ladder 4 at (37, 17) -> Exit to 1F (3, 3) -> Lavender Town
+- Current Location: Rock Tunnel 1F at (23, 11) (arrived via Ladder 3)
+- Target: South Exit at cols 14-16, row 35+ -> Route 10 South -> Lavender Town
 
 ## Verified Empirical Collisions & Boundaries
-- B1F (8..23, 22..23): Continuous solid rock barrier preventing direct descent from row 21 to South Chamber.
-- B1F (10..19, 14..17): Wide open Central Room corridor.
-- B1F (20..21, 16..21): East Channel corridor.
-- B1F (20..25, 12..13): Open horizontal highway connecting Central sector to Eastern Sector.
-- B1F (24..37, 16..19): Central-East Corridor containing Ladder 4 at (37, 17).
-- B1F (37, 17): Ladder 4 location (warps to 1F (3, 3) Exit Corridor).
+- 1F (19..28, 14..15): Solid horizontal rock wall east of col 17.
+- 1F (14..17, 10..27): Wide open Central Corridor connecting row 11 to south exit thoroughfares.
+- 1F (14..16, 28..35): South Exit passage to Route 10 South.
 
-## Committed Step-by-Step Traversal Route (B1F to Exit)
-1. **Navigate North to Central Corridor**: Walk Up 4 from (15, 20) to (15, 16).
-2. **Access Upper Crossway**: Walk along cols 14-17 / cols 10-11 to bypass to North-East Highway.
-3. **Traverse East across North-East Highway**: Walk East across cols 20-37 to Eastern Sector.
-4. **Descend to Ladder 4**: Walk South along col 37 to (37, 17) [Ladder 4].
-5. **Exit to 1F**: Step on Ladder 4 at (37, 17) -> Warps to 1F (3, 3) (Western Exit Corridor).
-6. **Exit Rock Tunnel**: On 1F (3, 3), walk South down cols 2-5 to Cave Exit -> Route 10 South -> Lavender Town!
+## Committed Step-by-Step Traversal Route (1F to Lavender Town)
+1. **Move West to Central Corridor**: Walk Left 9 from (23, 11) to (14, 11).
+2. **Descend South down Column 14**: Walk Down south along col 14 past rows 14-27 to row 33+.
+3. **Exit Rock Tunnel**: Step through southern cave opening -> Route 10 South -> Lavender Town!
+4. **Heal Party**: Enter Pok�mon Center in Lavender Town.
 
 
 <hr>
