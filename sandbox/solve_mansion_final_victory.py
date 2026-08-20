@@ -49,27 +49,13 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Walk from (10, 12) or (18, 4) or (14, 4) to Mansion entrance (6, 3) via Column 18 and Row 4
-    if pos['x'] <= 18 and pos['y'] >= 3:
-        path_to_mansion = [
-            ("Right", 11, 12), ("Right", 12, 12), ("Right", 13, 12), ("Right", 14, 12), ("Right", 15, 12), ("Right", 16, 12), ("Right", 17, 12), ("Right", 18, 12),
-            ("Up", 18, 11), ("Up", 18, 10), ("Up", 18, 9), ("Up", 18, 8), ("Up", 18, 7), ("Up", 18, 6), ("Up", 18, 5), ("Up", 18, 4),
-            ("Left", 17, 4), ("Left", 16, 4), ("Left", 15, 4), ("Left", 14, 4), ("Left", 13, 4), ("Left", 12, 4), ("Left", 11, 4), ("Left", 10, 4), ("Left", 9, 4), ("Left", 8, 4), ("Left", 7, 4), ("Left", 6, 4),
-        ]
-        # Skip steps that we already completed or are at
-        actual_path = []
-        for d, tx, ty in path_to_mansion:
-            if tx == pos['x'] and ty == pos['y']:
-                actual_path = [] # reset to start from here
-                continue
-            actual_path.append((d, tx, ty))
-            
-        for d, tx, ty in actual_path:
-            if not step_to(d, tx, ty):
-                return
-                
-    # Step UP to enter Mansion
-    pos = mgba.get_coordinates()
+    # 1. Walk from (6, 4) to enter Mansion
+    if pos == {'x': 6, 'y': 4}:
+        print("Moving Up to (6, 3)...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.6)
+        pos = mgba.get_coordinates()
+        
     if pos == {'x': 6, 'y': 3}:
         print("Entering Mansion...")
         mgba.press_buttons(["Up"])
