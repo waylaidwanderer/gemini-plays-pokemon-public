@@ -50,7 +50,7 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (8, 11)...")
+    print("Starting absolute master route to B1F starting from (8, 11) in State A...")
     
     # Dismiss 'Got away safely!' text if any
     mgba.press_buttons(["B"])
@@ -68,48 +68,9 @@ def main():
         if pos['x'] != 8:
             step_to("Left" if pos['x'] > 8 else "Right", 8, 11)
             
-    # 1. Walk from (8, 11) to switch at (2, 12) on 3F in State B
-    print("--- 3F (State B): Walking to switch at (2, 12) ---")
-    path_to_switch = [
-        ("Left", 7, 11),
-        ("Left", 6, 11),
-        ("Left", 5, 11),
-        ("Left", 4, 11),
-        ("Down", 4, 12),
-        ("Down", 4, 13),
-        ("Left", 3, 13),
-        ("Left", 2, 13),
-        ("Up", 2, 12),
-    ]
-    if not follow_path(path_to_switch):
-        mgba.take_screenshot()
-        return
-        
-    # Toggle switch to State A
-    print("Facing Up to toggle switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Toggling switch to State A...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"]) # YES
-    time.sleep(1.0)
-    mgba.press_buttons(["B"]) # Close dialogue
-    time.sleep(1.0)
-    
-    # 2. Walk to East Balcony drop on 3F (State A)
-    print("--- 3F (State A): Walking to East Balcony drop ---")
+    # 1. Walk the State A path directly to the East Balcony drop
+    print("--- 3F (State A): Walking directly to East Balcony drop ---")
     path_to_drop_a = [
-        ("Down", 2, 13),
-        ("Right", 3, 13),
-        ("Right", 4, 13),
-        ("Up", 4, 12),
-        ("Up", 4, 11),
-        ("Right", 5, 11),
-        ("Right", 6, 11),
-        ("Right", 7, 11),
-        ("Right", 8, 11),
         ("Right", 9, 11),
         ("Right", 10, 11), # Column 10 Row 11 is OPEN in State A!
         ("Right", 11, 11),
