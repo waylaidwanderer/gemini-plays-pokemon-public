@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=19, y=20)
+- Location: Rock Tunnel B1F (x=16, y=20)
 
 
 
@@ -1060,7 +1060,7 @@
 - Upper rows (rows 2-5 at cols 13-16) contain clear floor and a ladder at (15, 3), connecting east into rows 6-7 (cols 14-21) and cols 20-26 (rows 12-13).
 
 ## Strict Sequential Waypoints (Do NOT Reverse Direction)
-- [ ] **Step 1**: From (21, 20), walk 5 steps Left to (16, 20).
+- [x] **Step 1**: From (21, 20), walk 5 steps Left to (16, 20).
 - [ ] **Step 2**: From (16, 20), walk 6 steps Up along column 16 to (16, 14).
 - [ ] **Step 3**: From (16, 14), walk 5 steps Left along row 14 to (11, 14).
 - [ ] **Step 4**: From (11, 14), walk 8 steps Up along column 11 to (11, 6).
