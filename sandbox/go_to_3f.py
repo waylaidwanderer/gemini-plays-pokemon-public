@@ -44,20 +44,15 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Navigating to 2F stairs from (1, 11)...")
+    print("Starting corrected route to 3F stairs from (6, 13)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     path = [
-        ("Down", 1, 12),
-        ("Right", 2, 12),
-        ("Right", 3, 12),
-        ("Right", 4, 12),
-        ("Right", 5, 12),
-        ("Right", 6, 12),
-        ("Right", 7, 12),
-        ("Up", 7, 11),
-        ("Up", 7, 10), # Stairs!
+        ("Up", 6, 12),
+        ("Up", 6, 11),
+        ("Up", 6, 10),
+        ("Right", 7, 10), # Stairs!
     ]
     if not follow_path(path):
         return False
