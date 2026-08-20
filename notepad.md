@@ -1060,26 +1060,23 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel Master Traversal Plan (Empirical Ground Truth)
+# Rock Tunnel Master Traversal Plan (Verified Ground Truth)
 
 ## Verified Map Topology & True Progression Sequence
-- **1F North Entrance**: (15, 3) from Route 10 North.
-- **Ladder B**: 1F (23, 11) <-> B1F (17, 11) [Verified active ladder].
-- **Ladder A**: 1F (27, 3) <-> B1F (5, 3) [Verified active ladder].
-- **Ladder C**: 1F (3, 3) <-> B1F (37, 17) [Verified active ladder to Final Exit Sector].
-- **1F South Exit**: Western Corridor (cols 2-5) south from (3, 3) through rows 4-35 to Route 10 South!
+- **Ladder 1**: 1F (37, 3) <-> B1F (33, 25)
+- **Ladder 2**: 1F (27, 3) <-> B1F (5, 3)
+- **Ladder 3**: 1F (23, 11) <-> B1F (17, 11)
+- **Ladder 4**: 1F (3, 3) <-> B1F (37, 17)
+- **1F South Exit**: Western Corridor (cols 2-5) south from (3, 3) through rows 4-33, turning towards Route 10 South exit!
 
-## Master Execution Stages
-1. **Explore 1F Eastern Corridor**: From 1F (36, 3) -> East 1 to (37, 3) -> Walk South along cols 34-37 through rows 4-33 to locate the descent ladder to B1F Eastern Partition. [CURRENT STAGE]
-2. **Descend to B1F Eastern Partition**: Step onto descent ladder -> Enter B1F Eastern Partition.
-3. **Ascend via Ladder C**: Walk to Ladder C at (37, 17) -> Step onto ladder to warp to 1F Final Exit Sector at (3, 3).
-4. **Descend to South Exit**: From 1F (3, 3) -> Walk South down Western Corridor to South Exit doorway at rows 34-35.
-5. **Lavender Town**: Emerge onto Route 10 South -> Walk south to Lavender Town Pok�mon Center.
+## Current Direct Route from (36, 3)
+1. **Stage 1 (1F)**: Walk Left 13 to (23, 3), Down 8 to (23, 11). Step onto Ladder 3 at (23, 11) -> Warps to B1F (17, 11).
+2. **Stage 2 (B1F)**: From (17, 11), navigate East across rows 11-13 to (37, 11), then South to Ladder 4 at (37, 17). Step onto ladder -> Warps to 1F (3, 3).
+3. **Stage 3 (1F)**: From 1F (3, 3), descend South down Western Corridor (cols 2-5) through rows 16-33 to the South Exit doorway leading to Route 10 South.
+4. **Stage 4 (Lavender Town)**: Emerge onto Route 10 South, proceed south into Lavender Town, heal at Pokémon Center.
 
-## Current Navigation Task
-- Position: 1F (36, 3)
-- Target: Position (37, 16) / descent ladder in 1F Eastern Corridor
-- Immediate Route: Flee battle -> Right 1 to (37, 3), Down along col 37 south through rows 4-33.
-
+## Immediate Action
+- Current position: (36, 3)
+- Path: Walk Left 13 steps along row 3 to (23, 3), then Down 8 steps along col 23 to (23, 11).
 
 <hr>
