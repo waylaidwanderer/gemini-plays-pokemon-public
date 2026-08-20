@@ -49,12 +49,14 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Walk from (10, 12) or other overworld positions to Mansion entrance (6, 3) via Column 18 (Easternmost Road next to ocean)
-    if pos['x'] <= 18 and pos['y'] >= 10:
+    # 1. Walk from (10, 12) or (18, 4) or (18, 5) to Mansion entrance (6, 3) via Column 18 (Easternmost Road next to ocean)
+    if pos['x'] <= 18 and pos['y'] >= 4:
         path_to_mansion = [
             ("Right", 11, 12), ("Right", 12, 12), ("Right", 13, 12), ("Right", 14, 12), ("Right", 15, 12), ("Right", 16, 12), ("Right", 17, 12), ("Right", 18, 12),
-            ("Up", 18, 11), ("Up", 18, 10), ("Up", 18, 9), ("Up", 18, 8), ("Up", 18, 7), ("Up", 18, 6), ("Up", 18, 5), ("Up", 18, 4), ("Up", 18, 3),
-            ("Left", 17, 3), ("Left", 16, 3), ("Left", 15, 3), ("Left", 14, 3), ("Left", 13, 3), ("Left", 12, 3), ("Left", 11, 3), ("Left", 10, 3), ("Left", 9, 3), ("Left", 8, 3), ("Left", 7, 3), ("Left", 6, 3),
+            ("Up", 18, 11), ("Up", 18, 10), ("Up", 18, 9), ("Up", 18, 8), ("Up", 18, 7), ("Up", 18, 6), ("Up", 18, 5),
+            ("Left", 17, 5), ("Left", 16, 5), ("Left", 15, 5), ("Left", 14, 5),
+            ("Up", 14, 4), ("Up", 14, 3),
+            ("Left", 13, 3), ("Left", 12, 3), ("Left", 11, 3), ("Left", 10, 3), ("Left", 9, 3), ("Left", 8, 3), ("Left", 7, 3), ("Left", 6, 3),
         ]
         # Skip steps that we already completed or are at
         actual_path = []
