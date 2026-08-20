@@ -11,16 +11,15 @@ def step_to(direction, tx, ty):
     time.sleep(0.5)
     new_pos = mgba.get_coordinates()
     
-    # If we didn't move, it could be a turn-in-place (Gen 1 turning mechanics).
-    # Try pressing the direction a second time.
+    # If we didn't move, try pressing the direction a second time (handles turning in place).
     if new_pos == pos:
-        print("Did not move. Turning in place? Pressing direction again...")
+        print("Did not move. Turning? Pressing direction again...")
         mgba.press_buttons([direction])
         time.sleep(0.5)
         new_pos = mgba.get_coordinates()
         
-        # If we STILL didn't move, we are blocked by a wall or a battle!
-        # Exit immediately to prevent overworld drift and let the player handle it.
+        # If we STILL didn't move, we are blocked by a wall or battle!
+        # Exit cleanly to let the player handle it and prevent blind drift.
         if new_pos == pos:
             print(f"Blocked! Cannot move {direction} to ({tx}, {ty}) from {pos}. Exiting script to prevent drift.")
             return False
@@ -34,30 +33,27 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (24, 15) in State A...")
+    print("Starting absolute master route to B1F starting from (26, 9) in State A...")
+    
+    # Dismiss 'Got away safely!' text if any
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (24, 16) on 3F
-    if pos != {'x': 24, 'y': 15}:
-        print("Warning: not at (24, 15). Re-aligning...")
-        if pos['y'] != 15:
-            step_to("Down" if pos['y'] < 15 else "Up", pos['x'], 15)
+    # We should be at (26, 9) on 3F
+    if pos != {'x': 26, 'y': 9}:
+        print("Warning: not at (26, 9). Re-aligning...")
+        if pos['y'] != 9:
+            step_to("Down" if pos['y'] < 9 else "Up", pos['x'], 9)
         pos = mgba.get_coordinates()
-        if pos['x'] != 24:
-            step_to("Left" if pos['x'] > 24 else "Right", 24, 15)
+        if pos['x'] != 26:
+            step_to("Left" if pos['x'] > 26 else "Right", 26, 9)
             
-    # 1. Walk from (24, 16) to switch at (2, 12) on 3F in State A
+    # 1. Walk from (26, 9) to switch at (2, 12) on 3F in State A
     print("--- 3F (State A): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Up", 24, 14),
-        ("Up", 24, 13), # Gate at (24, 13) is OPEN in State A!
-        ("Up", 24, 12),
-        ("Up", 24, 11),
-        ("Up", 24, 10),
-        ("Right", 25, 10),
-        ("Right", 26, 10),
-        ("Up", 26, 9),
         ("Up", 26, 8),
         ("Up", 26, 7),
         ("Up", 26, 6),
