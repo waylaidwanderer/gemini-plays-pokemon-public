@@ -2,7 +2,16 @@ import mgba
 import time
 
 def escape_and_check():
-    print("Escaping from battle at (18, 6)...")
+    print("Dismissing 'Wild GRIMER appeared!' text...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    print("Dismissing player sending out Pokemon text...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.5)
+    
+    print("Moving cursor to RUN and executing...")
+    # From FIGHT (default): Down, Right, A
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(3.0) # Wait for escape animation
     
@@ -17,7 +26,7 @@ def escape_and_check():
     if pos['x'] == 18 and pos['y'] == 6:
         print("Walking Down to (18, 7)...")
         mgba.press_buttons(["Down"])
-        time.sleep(0.4)
+        time.sleep(0.5)
         print("Position:", mgba.get_coordinates())
         
         print("Walking Down to (18, 8)...")
