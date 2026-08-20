@@ -1,6 +1,11 @@
 import mgba
 import time
 
+# Dismiss "Got away safely!"
+print("Dismissing 'Got away safely!'...")
+mgba.press_buttons(["A"])
+time.sleep(1.0) # Wait for overworld to load
+
 def walk_step(direction, target_x, target_y):
     pos = mgba.get_coordinates()
     print(f"Standing at {pos}. Pressing {direction}...")
@@ -15,17 +20,8 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def run_test():
-    # 1. We are at (7, 10) on 3F. Step Down to warp to 2F!
-    print("Stepping Down to warp to 2F...")
-    mgba.press_buttons(["Down"])
-    time.sleep(1.2)
-    pos = mgba.get_coordinates()
-    print("Now on floor. Position:", pos)
-    
-    # 2. Walk to northwest switch on 2F (starts at (7, 11))
+    # 2. Walk to northwest switch on 2F (starts at (5, 11))
     path_to_switch = [
-        ("Left", 6, 11),
-        ("Left", 5, 11),
         ("Left", 4, 11),
         ("Left", 3, 11),
         ("Down", 3, 12),
