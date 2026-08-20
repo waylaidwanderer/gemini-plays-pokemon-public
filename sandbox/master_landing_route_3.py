@@ -50,48 +50,27 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (26, 3)...")
+    print("Starting absolute master route to B1F starting from (8, 11)...")
+    
+    # Dismiss 'Got away safely!' text if any
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (26, 3) on 3F
-    if pos != {'x': 26, 'y': 3}:
-        print("Warning: not at (26, 3). Re-aligning...")
-        if pos['y'] != 3:
-            step_to("Down" if pos['y'] < 3 else "Up", pos['x'], 3)
+    # We should be at (8, 11) on 3F
+    if pos != {'x': 8, 'y': 11}:
+        print("Warning: not at (8, 11). Re-aligning...")
+        if pos['y'] != 11:
+            step_to("Down" if pos['y'] < 11 else "Up", pos['x'], 11)
         pos = mgba.get_coordinates()
-        if pos['x'] != 26:
-            step_to("Left" if pos['x'] > 26 else "Right", 26, 3)
+        if pos['x'] != 8:
+            step_to("Left" if pos['x'] > 8 else "Right", 8, 11)
             
-    # 1. Walk from (26, 3) to switch at (2, 12) on 3F in State B
+    # 1. Walk from (8, 11) to switch at (2, 12) on 3F in State B
     print("--- 3F (State B): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Left", 25, 3),
-        ("Left", 24, 3),
-        ("Left", 23, 3),
-        ("Left", 22, 3),
-        ("Left", 21, 3),
-        ("Down", 21, 4),
-        ("Down", 21, 5), # Gate (21, 5) is OPEN in State B!
-        ("Left", 20, 5),
-        ("Left", 19, 5),
-        ("Left", 18, 5),
-        ("Left", 17, 5),
-        ("Left", 16, 5),
-        ("Left", 15, 5),
-        ("Left", 14, 5),
-        ("Left", 13, 5),
-        ("Left", 12, 5), # Bypasses Column 11 Row 8 rubble via Column 12!
-        ("Down", 12, 6),
-        ("Down", 12, 7),
-        ("Down", 12, 8),
-        ("Down", 12, 9),
-        ("Down", 12, 10),
-        ("Left", 11, 10),
-        ("Left", 10, 10), # Column 10 Row 10 is OPEN!
-        ("Left", 9, 10),
-        ("Down", 9, 11),
-        ("Left", 8, 11),
         ("Left", 7, 11),
         ("Left", 6, 11),
         ("Left", 5, 11),
