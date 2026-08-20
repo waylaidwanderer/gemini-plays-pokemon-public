@@ -49,3 +49,5 @@
 9. South Exit Corridor Analysis:
    - Row 28 forms a continuous solid rock barrier across cols 2-27.
    - The only open path extending south past row 28 on 1F is the Eastern Sector Hall (cols 28-37, rows 28-35+). [Verified Turn 8484]
+10. Western-Eastern Divider (rows 20-27, cols 26-27):
+    - Solid 2-tile wide vertical rock wall across cols 26-27 continuously separates Western Avenue (cols 20-25) from Eastern Hall (cols 28-37) across all rows 20 to 27. [Empirically Verified Turn 8498]
