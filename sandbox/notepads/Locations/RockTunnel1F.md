@@ -38,3 +38,7 @@
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000.
 6. Central Rock Barrier (rows 8-9, cols 19-25):
    - Solid horizontal rock barrier across rows 8-9 (cols 19-25) separates North Corridor (rows 2-7) from Central Corridor (rows 10-13) on the east side. Access between north and south on 1F is via the western corridor (cols 14-17). [Verified Turn 8446]
+7. Eastern Sector Hall (rows 10-19, cols 26-37):
+   - Rows 10-13 form an open horizontal highway connecting cols 26-37.
+   - Rock barrier at rows 14-15 spans cols 23-31, with clear eastern bypass across cols 32-37.
+   - Rows 16-19 form a massive 10-tile wide open hall across cols 28-37 extending south. [Verified Turn 8469]
