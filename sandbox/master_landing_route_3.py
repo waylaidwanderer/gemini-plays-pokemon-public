@@ -50,28 +50,34 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (21, 16) in State A...")
+    print("Starting absolute master route to B1F starting from (23, 14) in State A...")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (21, 16) on 3F
-    if pos != {'x': 21, 'y': 16}:
-        print("Warning: not at (21, 16). Re-aligning...")
-        if pos['y'] != 16:
-            step_to("Down" if pos['y'] < 16 else "Up", pos['x'], 16)
+    # We should be at (23, 14) on 3F
+    if pos != {'x': 23, 'y': 14}:
+        print("Warning: not at (23, 14). Re-aligning...")
+        if pos['y'] != 14:
+            step_to("Down" if pos['y'] < 14 else "Up", pos['x'], 14)
         pos = mgba.get_coordinates()
-        if pos['x'] != 21:
-            step_to("Left" if pos['x'] > 21 else "Right", 21, 16)
+        if pos['x'] != 23:
+            step_to("Left" if pos['x'] > 23 else "Right", 23, 14)
             
-    # 1. Walk from (21, 16) to switch at (2, 12) on 3F in State A
+    # 1. Walk from (23, 14) to switch at (2, 12) on 3F in State A
     print("--- 3F (State A): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Up", 21, 15),
-        ("Up", 21, 14),
-        ("Up", 21, 13),
-        ("Up", 21, 12),
-        ("Up", 21, 11),
-        ("Up", 21, 10),
+        ("Right", 24, 14),
+        ("Right", 25, 14),
+        ("Right", 26, 14),
+        ("Up", 26, 13),
+        ("Up", 26, 12),
+        ("Up", 26, 11),
+        ("Up", 26, 10),
+        ("Left", 25, 10),
+        ("Left", 24, 10),
+        ("Left", 23, 10),
+        ("Left", 22, 10),
+        ("Left", 21, 10),
         ("Left", 20, 10),
         ("Left", 19, 10),
         ("Left", 18, 10),
@@ -144,16 +150,30 @@ def main():
         ("Right", 19, 5),
         ("Right", 20, 5),
         ("Right", 21, 5), # Gate (21, 5) is OPEN in State B!
-        ("Down", 21, 6),
-        ("Down", 21, 7),
-        ("Down", 21, 8),
-        ("Down", 21, 9),
-        ("Down", 21, 10),
-        ("Down", 21, 11),
-        ("Down", 21, 12),
-        ("Down", 21, 13),
-        ("Down", 21, 14),
-        ("Down", 21, 15), # Enter balcony doorway
+        ("Up", 21, 4),
+        ("Up", 21, 3),
+        ("Right", 22, 3),
+        ("Right", 23, 3),
+        ("Right", 24, 3),
+        ("Right", 25, 3),
+        ("Right", 26, 3), # Bypasses row 4 wall at cols 22-25
+        ("Down", 26, 4),
+        ("Down", 26, 5),
+        ("Down", 26, 6),
+        ("Down", 26, 7),
+        ("Down", 26, 8),
+        ("Down", 26, 9),
+        ("Down", 26, 10),
+        ("Down", 26, 11),
+        ("Down", 26, 12),
+        ("Down", 26, 13),
+        ("Down", 26, 14), # Down to Row 14
+        ("Left", 25, 14),
+        ("Left", 24, 14),
+        ("Left", 23, 14),
+        ("Left", 22, 14), # Bypasses column 22/23 rubble on rows 11-13
+        ("Down", 22, 15),
+        ("Left", 21, 15), # Enter balcony doorway
         ("Left", 20, 15), # Inside balcony doorway
         ("Down", 20, 16),
         ("Down", 20, 17), # Gate (20, 17) is OPEN in State B!
