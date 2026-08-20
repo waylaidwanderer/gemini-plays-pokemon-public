@@ -59,3 +59,9 @@
    - Step `Left` off the balcony edge to drop to 1F!
 6. On 1F, you will land directly south of the closed gates, in front of the B1F stairs.
 7. Step onto B1F stairs and retrieve the Secret Key!
+
+## Turn 48635 Empirical Discoveries & Corrections
+- **East-Central Statues are Decorative:** The Mewtwo statues located at `(13, 9)` and `(13, 11)` on 3F do NOT function as switches. Interacting with them from any side (including standing at `(13, 12)` facing UP, or `(12, 11)` facing RIGHT) has no effect. They are purely decorative.
+- **East-Central Dead End:** `(13, 12)` is walkable on 3F but is a physical dead end. Column 14 is blocked by rubble starting at `(14, 12)`, and Row 13 is blocked by a railing/wall at `(13, 13)`.
+- **Row 8 Blockages:** Columns 14, 15, 16, and 17 are physically blocked on 3F Row 8 by rubble, preventing direct horizontal or southern traversal across those tiles from the east-central section.
+- **Search for True 3F Switch:** Since the east-central statues are decorative, the actual 3F Mewtwo statue switch must be located elsewhere on 3F (likely in the central-western or northwestern rooms near the stairs/bookshelves).
