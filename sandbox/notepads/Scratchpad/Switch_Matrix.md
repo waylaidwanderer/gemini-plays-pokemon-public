@@ -52,13 +52,17 @@
    - Note: If the switch is already in State A, skip this step.
 4. Walk back to the stairs at `(7, 10)` on 2F (State A) and ascend to 3F:
    - Correct bypass route: `Down` to `(1, 13)` -> `Right` to `(4, 13)` -> `Up` to `(4, 10)` -> `Right` to `(7, 10)` stairs (Warp to 3F).
-5. On 3F (State A), walk to the Mewtwo statue switch at `(12, 11)`:
-   - From `(7, 11)` landing:
-     - `Right` to `(8, 11)` -> `Right` to `(9, 11)` -> `Down` to `(9, 12)` -> `Right` to `(11, 12)` -> `Up` to `(11, 11)`.
-     - Face `Right` (towards the statue at (12, 11)) and press `A` to toggle the switch to **State B**!
-6. On 3F (State B), walk to the balcony drop at `(24, 14)` via Row 5:
-   - Walk `Up` column 11 to `(11, 5)` -> Walk `Right` along row 5 to `(24, 5)` (Gate at (21, 5) is OPEN in State B!) -> Walk `Down` the balcony to `(24, 14)`.
-7. Step `Left` off the balcony edge at `(24, 14)` to drop directly to 1F B1F stairs!
+5. On 3F (State A), walk to the true west-side Mewtwo statue switch at `(2, 11)`:
+   - From `(7, 11)` landing, walk Left to `(2, 12)` and face Up.
+   - Press `A` to toggle the switch to **State B**!
+6. On 3F (State B), walk to the balcony drop on the east side of 3F:
+   - From `(2, 12)`, walk Right to `(7, 12)` -> Down to `(7, 13)` -> Right to `(9, 13)` -> Up to `(9, 10)` (bypassing column 8 even-row pillars) -> Right to `(11, 10)`.
+   - Walk Up column 11 to `(11, 5)` -> Right along row 5 to `(21, 5)` (Gate at (21, 5) is OPEN in State B!).
+   - Walk Up to `(21, 3)` -> Right to `(26, 3)` (bypassing row 4 wall at cols 22-25) -> Down to `(26, 5)` -> Left to `(24, 5)`.
+   - Walk Down column 24 to `(24, 7)`.
+   - Walk Right to `(26, 7)` -> Down column 26 to `(26, 12)` (bypassing row 8 raised platform) -> Left to `(25, 12)` -> Down column 25 to `(25, 14)` -> Left to `(22, 14)` (bypassing row 13 railing at col 26).
+   - Enter balcony doorway at `(21, 15)` and step on the balcony at `(20, 15)`.
+7. Step Left on the balcony to find the true drop edge!
 ## Turn 48635 Empirical Discoveries & Corrections
 - **East-Central Statues are Decorative:** The Mewtwo statues located at `(13, 9)` and `(13, 11)` on 3F do NOT function as switches. Interacting with them from any side (including standing at `(13, 12)` facing UP, or `(12, 11)` facing RIGHT) has no effect. They are purely decorative.
 - **East-Central Dead End:** `(13, 12)` is walkable on 3F but is a physical dead end. Column 14 is blocked by rubble starting at `(14, 12)`, and Row 13 is blocked by a railing/wall at `(13, 13)`.
