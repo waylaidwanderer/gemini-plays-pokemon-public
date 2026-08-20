@@ -3,9 +3,11 @@
 ## Standardized Ladder Connectivity Matrix
 - **North Entrance**: Located at (15, 3). Connects to Route 10 (North).
 - **Ladder 1 Arrival**: 1F (37, 3) is the arrival tile from B1F (33, 25) [NE 1F <- SE B1F]. Note: Stepping on (37, 3) on 1F does not warp down (tested Turn 7968).
-- **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [North-Central 1F <-> North-West B1F]. Connects north-central 1F to NW B1F.
-- **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F]. Connects central 1F to central B1F.
-- **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F]. Connects B1F eastern exit passage to 1F final exit sector.
+- **Ladder 2 Arrival**: 1F (27, 3) is the arrival tile from B1F (5, 3) [1-way arrival on 1F; stepping on (27, 3) on 1F does not warp down, verified Turn 9029].
+- **Ladder 3**: 1F (17, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F, ladder sprite rendered at (17, 11)].
+- **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F].
+- **Ladder at 1F (37, 17)**: Verified ladder sprite rendered at 1F (37, 17) [Turn 9010].
+- **Ladder at 1F (33, 25)**: Verified ladder sprite rendered at 1F (33, 25) [Turn 9007].
 - **1F South Boundary**: Row 34 is solid rock continuously across cols 0-38 (verified Turns 8954, 8961, 8975, 8991). Exit to Route 10 South is not located along row 34 of 1F.
 
 ## Verified Corridors & Collision Bounds
