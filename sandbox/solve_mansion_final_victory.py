@@ -15,17 +15,10 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Starting from (19, 4) on 3F
-    # Walk to the pit via Row 3 and Column 25 (bypassing row 3 column 19 railing)
-    print("Step 1: Walking to the pit via Row 3 and Column 25...")
+    # Current: (25, 3) on 3F (State B)
+    # Walk to the pit via Column 25
+    print("Step 1: Walking to the pit...")
     path_to_pit = [
-        ("Right", 20, 4),
-        ("Up", 20, 3),
-        ("Right", 21, 3),
-        ("Right", 22, 3),
-        ("Right", 23, 3),
-        ("Right", 24, 3),
-        ("Right", 25, 3),
         ("Down", 25, 4),
         ("Down", 25, 5),
     ]
