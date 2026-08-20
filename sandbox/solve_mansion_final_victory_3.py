@@ -48,72 +48,51 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Dismissing 'Got away safely!' text...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
+    print("Starting master victory route via Row 3 from (21, 6)...")
     
-    pos = mgba.get_coordinates()
-    print("Overworld coordinates:", pos)
+    # We are currently at (21, 6) on 3F (State B)
+    path = [
+        # 1. Walk Up Column 21 to Row 3
+        ("Up", 21, 5),
+        ("Up", 21, 4),
+        ("Up", 21, 3),
+        
+        # 2. Walk Right along Row 3 to Column 24
+        ("Right", 22, 3),
+        ("Right", 23, 3),
+        ("Right", 24, 3),
+        
+        # 3. Walk Down Column 24 to the balcony drop at (24, 14)
+        ("Down", 24, 4),
+        ("Down", 24, 5),
+        ("Down", 24, 6),
+        ("Down", 24, 7),
+        ("Down", 24, 8),
+        ("Down", 24, 9),
+        ("Down", 24, 10),
+        ("Down", 24, 11),
+        ("Down", 24, 12),
+        ("Down", 24, 13),
+        ("Down", 24, 14),
+    ]
     
-    if pos == {'x': 12, 'y': 8}:
-        print("Starting master victory route from (12, 8) on 3F (State B)...")
+    success = True
+    for direction, tx, ty in path:
+        if not step_to(direction, tx, ty):
+            print(f"Failed to reach ({tx}, {ty})!")
+            success = False
+            break
+            
+    if success:
+        print("At (24, 14). Dropping off balcony...")
+        # Step Left to drop
+        mgba.press_buttons(["Left"])
+        time.sleep(3.0) # Wait for drop animation/warp
         
-        path = [
-            # 1. Walk Up to (12, 7)
-            ("Up", 12, 7),
-            
-            # 2. Walk Left to Column 11 and Up to Row 5 (bypasses Burglar at (12, 6))
-            ("Left", 11, 7),
-            ("Up", 11, 6),
-            ("Up", 11, 5),
-            
-            # 3. Walk Right along Row 5 to Column 24
-            ("Right", 12, 5),
-            ("Right", 13, 5),
-            ("Right", 14, 5),
-            ("Right", 15, 5),
-            ("Right", 16, 5),
-            ("Right", 17, 5),
-            ("Right", 18, 5),
-            ("Right", 19, 5),
-            ("Right", 20, 5),
-            ("Right", 21, 5), # Gate is OPEN in State B!
-            ("Right", 22, 5),
-            ("Right", 23, 5),
-            ("Right", 24, 5),
-            
-            # 4. Walk Down Column 24 to the balcony drop at (24, 14)
-            ("Down", 24, 6),
-            ("Down", 24, 7),
-            ("Down", 24, 8),
-            ("Down", 24, 9),
-            ("Down", 24, 10),
-            ("Down", 24, 11),
-            ("Down", 24, 12),
-            ("Down", 24, 13),
-            ("Down", 24, 14),
-        ]
-        
-        success = True
-        for direction, tx, ty in path:
-            if not step_to(direction, tx, ty):
-                print(f"Failed to reach ({tx}, {ty})!")
-                success = False
-                break
-                
-        if success:
-            print("At (24, 14). Dropping off balcony...")
-            # Step Left to drop
-            mgba.press_buttons(["Left"])
-            time.sleep(3.0) # Wait for drop animation/warp
-            
-            pos_landing = mgba.get_coordinates()
-            print("Landed on 1F! Current position:", pos_landing)
-            mgba.take_screenshot()
-        else:
-            mgba.take_screenshot()
+        pos_landing = mgba.get_coordinates()
+        print("Landed on 1F! Current position:", pos_landing)
+        mgba.take_screenshot()
     else:
-        print("Unexpected overworld position!")
         mgba.take_screenshot()
 
 if __name__ == "__main__":
