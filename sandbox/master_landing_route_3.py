@@ -54,58 +54,27 @@ def main():
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (8, 11) on 3F
-    if pos != {'x': 8, 'y': 11}:
-        print("Warning: not at (8, 11). Re-aligning...")
-        if pos['y'] != 11:
-            step_to("Down" if pos['y'] < 11 else "Up", pos['x'], 11)
+    # We should be at (4, 13) on 3F
+    if pos != {'x': 4, 'y': 13}:
+        print("Warning: not at (4, 13). Re-aligning...")
+        if pos['y'] != 13:
+            step_to("Down" if pos['y'] < 13 else "Up", pos['x'], 13)
         pos = mgba.get_coordinates()
-        if pos['x'] != 8:
-            step_to("Left" if pos['x'] > 8 else "Right", 8, 11)
+        if pos['x'] != 4:
+            step_to("Left" if pos['x'] > 4 else "Right", 4, 13)
             
-    # 1. Walk Left and Down to bypass the closed gate at (7, 12)
-    print("--- 3F: Walking to switch at (2, 12) ---")
-    path_to_switch = [
-        ("Left", 7, 11),
-        ("Left", 6, 11),
-        ("Left", 5, 11),
-        ("Left", 4, 11),
-        ("Down", 4, 12),
-        ("Down", 4, 13),
-        ("Left", 3, 13),
-        ("Left", 2, 13),
-        ("Up", 2, 12),
-    ]
-    if not follow_path(path_to_switch):
-        mgba.take_screenshot()
-        return
-        
-    # Toggle switch to State B
-    print("Facing Up to toggle switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Toggling switch to State B...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"]) # YES
-    time.sleep(1.0)
-    mgba.press_buttons(["B"]) # Close dialogue
-    time.sleep(1.0)
-    
-    # 2. Walk to East Balcony drop on 3F (State B)
+    # Walk the State B path on 3F to the East Balcony drop
     print("--- 3F (State B): Walking to East Balcony drop ---")
     path_to_drop = [
-        ("Right", 3, 12),
-        ("Right", 4, 12),
-        ("Right", 5, 12),
-        ("Right", 6, 12),
-        ("Right", 7, 12),
-        ("Down", 7, 13),
-        ("Right", 8, 13),
-        ("Right", 9, 13),
-        ("Up", 9, 12),
-        ("Up", 9, 11),
+        ("Up", 4, 12),
+        ("Up", 4, 11),
+        ("Up", 4, 10),
+        ("Right", 5, 10),
+        ("Right", 6, 10),
+        ("Right", 7, 10),
+        ("Down", 7, 11),
+        ("Right", 8, 11),
+        ("Right", 9, 11),
         ("Up", 9, 10),
         ("Right", 10, 10), # Column 10 Row 10 is OPEN in State B!
         ("Right", 11, 10),
