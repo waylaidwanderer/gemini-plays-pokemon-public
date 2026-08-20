@@ -58,13 +58,13 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Clear "Got away safely!" textbox first
+# Clear dialogue or other hanging menus
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk to the switch at (12, 11)
+# 1. Walk to the switch at (12, 11) from current position (19, 9)
 waypoints_to_switch = [
-    (17, 7),
+    (19, 7),
     (12, 7),
     (12, 11)
 ]
