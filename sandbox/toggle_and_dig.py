@@ -1,14 +1,19 @@
 import mgba
 import time
 
-def check_party():
-    print("Backing out of stats screen to party menu...")
+def exit_and_show():
+    print("Exiting stats screen...")
     # Press B to close stats screen
     mgba.press_buttons(["B"])
     time.sleep(1.0)
     
-    # Take screenshot of party menu to see the order of Pokemon!
+    # Press B again just in case we are in another submenu
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
+    pos = mgba.get_coordinates()
+    print("Coordinates:", pos)
     mgba.take_screenshot()
 
 if __name__ == "__main__":
-    check_party()
+    exit_and_show()
