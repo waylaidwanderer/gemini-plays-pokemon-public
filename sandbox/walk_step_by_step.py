@@ -2,7 +2,6 @@ import mgba
 import time
 
 route = [
-    ("Up", 26, 4),
     ("Up", 26, 3),
     ("Left", 25, 3),
     ("Left", 24, 3),
