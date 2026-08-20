@@ -27,7 +27,6 @@ def step_to(direction, tx, ty):
         time.sleep(0.5)
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Try once more
             print("Retrying movement step...")
             mgba.press_buttons([direction])
             time.sleep(0.4)
@@ -46,33 +45,16 @@ def follow_path(path):
                 return False
     return True
 
-def run_route():
-    print("Starting absolute master routing to B1F...")
+def run_main():
+    print("Dismissing 'Not quite yet!' dialogue...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # We start at (7, 10) on 3F.
-    # First, walk back to the western switch at (2, 11)
-    print("--- STEP 1: Walking to western switch at (2, 11) ---")
-    path_to_switch = [
-        ("Down", 7, 11),
-        ("Left", 6, 11),
-        ("Left", 5, 11),
-        ("Left", 4, 11),
-        ("Left", 3, 11),
-        ("Down", 3, 12),
-        ("Left", 2, 12),
-    ]
-    if not follow_path(path_to_switch):
-        return False
-        
-    # Face UP and toggle switch to State A
-    print("Toggling western switch to State A...")
-    mgba.press_buttons(["Up", "sleep 200", "A", "sleep 500", "A", "sleep 500", "B"])
-    time.sleep(0.5)
+    pos = mgba.get_coordinates()
+    print("Start position:", pos)
     
-    # Walk east to the eastern switch at (12, 11) on 3F (State A)
-    print("--- STEP 2: Walking east to (12, 11) switch ---")
+    # 1. Walk east to the eastern switch at (12, 11) on 3F (State A)
+    print("--- STEP 1: Walking east to (11, 11) switch position ---")
     path_to_east_switch = [
         ("Right", 3, 12),
         ("Up", 3, 11),
@@ -94,7 +76,7 @@ def run_route():
     time.sleep(0.5)
     
     # Walk to the balcony drop at (24, 14) via Row 5 (State B)
-    print("--- STEP 3: Walking to balcony drop ---")
+    print("--- STEP 2: Walking to balcony drop ---")
     path_to_drop = [
         ("Up", 11, 10),
         ("Up", 11, 9),
@@ -129,14 +111,14 @@ def run_route():
         return False
         
     # Step Left to drop to B1F stairs!
-    print("--- STEP 4: Dropping to 1F B1F stairs ---")
+    print("--- STEP 3: Dropping to 1F B1F stairs ---")
     mgba.press_buttons(["Left"])
     time.sleep(2.0)
     
     final_pos = mgba.get_coordinates()
-    print("Successfully dropped! Landing position:", final_pos)
+    print("Successfully dropped! Landing position on 1F:", final_pos)
     mgba.take_screenshot()
     return True
 
 if __name__ == "__main__":
-    run_route()
+    run_main()
