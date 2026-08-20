@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=21, y=21)
+- Location: Rock Tunnel B1F (x=21, y=20)
 
 
 
@@ -1043,23 +1043,31 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel B1F Traversal - Master Execution Plan (via PokéManiac #2 Passage)
+# Rock Tunnel B1F Traversal - Systematic Sector Transition Plan
 
 ## Target Destination
 - Ladder 4 at (37, 17) -> 1F (3, 3) Western Exit Corridor -> Route 10 South & Lavender Town
 
-## Verified Collision & Transition Facts
+## Verified Physical Collision Facts
+- Rows 16-23 at cols 22-23 form a solid 2-tile vertical rock wall dividing central chamber (cols 16-21) from eastern avenue (cols 24-26).
 - Rows 22-23 form a solid horizontal wall across cols 1-23.
-- Row 20-21 passage: Connects column 21 to column 24 through row 20 at (22, 20) (defeated PokéManiac #2) into the Eastern Sector!
-- Eastern Sector (cols 24-37): Open horizontal highway spanning rows 10-13, leading straight to Ladder 4 at (37, 17).
+- Column 16 is open at rows 14-21 (via vertical gap at (16, 14..15)).
+- Row 14 is open across cols 11-17.
+- Column 11 is open across rows 6-14.
+- Row 6 is open across cols 7-11.
+- Column 7 is open across rows 2-7.
+- Ladder 2 is at (5, 3).
+- Upper rows (rows 2-5 at cols 13-16) contain clear floor and a ladder at (15, 3), connecting east into rows 6-7 (cols 14-21) and cols 20-26 (rows 12-13).
 
-## Strict Sequential Execution Checklist (Do NOT Reverse Direction)
-- [x] **Step 1 (Row 21 East to Col 21)**: From (5, 21), walk 16 steps Right along row 21 to (21, 21).
-- [ ] **Step 2 (Step Up to Row 20)**: From (21, 21), walk 1 step Up to (21, 20).
-- [ ] **Step 3 (Cross East through Defeated Trainer Passage)**: From (21, 20), walk 3 steps Right across row 20 to column 24 at (24, 20).
-- [ ] **Step 4 (Ascend Col 24 to North-East Highway)**: From (24, 20), walk 7 steps Up along column 24 to row 13 at (24, 13).
-- [ ] **Step 5 (North-East Highway East to Col 37)**: From (24, 13), walk 13 steps Right across row 13 to column 37 at (37, 13).
-- [ ] **Step 6 (Col 37 Descent to Ladder 4)**: From (37, 13), walk 4 steps Down along column 37 to Ladder 4 at (37, 17).
-- [ ] **Step 7 (1F Exit)**: Step on Ladder 4 at (37, 17) -> 1F (3, 3) -> Western Corridor (rows 4-33) to Route 10 South and Lavender Town.
+## Strict Sequential Waypoints (Do NOT Reverse Direction)
+- [ ] **Step 1**: From (21, 20), walk 5 steps Left to (16, 20).
+- [ ] **Step 2**: From (16, 20), walk 6 steps Up along column 16 to (16, 14).
+- [ ] **Step 3**: From (16, 14), walk 5 steps Left along row 14 to (11, 14).
+- [ ] **Step 4**: From (11, 14), walk 8 steps Up along column 11 to (11, 6).
+- [ ] **Step 5**: From (11, 6), walk 4 steps Left to (7, 6).
+- [ ] **Step 6**: From (7, 6), walk 4 steps Up along column 7 to (7, 2).
+- [ ] **Step 7**: Traverse east from (7, 2) across row 1/2 to (13, 2) into the northern/eastern highway.
+- [ ] **Step 8**: Navigate east across North-East Highway (rows 10-13, cols 24-37) to column 37.
+- [ ] **Step 9**: Descend column 37 to Ladder 4 at (37, 17) -> 1F (3, 3) -> Route 10 South.
 
 <hr>
