@@ -1,13 +1,11 @@
 # Rock Tunnel 1F - Direct Route to South Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (27, 7)
-- Target: Traverse to Ladder at (37, 17) / Central Ladder (17, 11) -> locate Route 10 South exit
+- Current Location: Rock Tunnel 1F at (20, 7)
+- Target: Exit via North Entrance at (15, 3) to heal party at Route 10 Pokémon Center, then re-enter to execute verified dungeon progression.
 
-## Verified Traversal Route
-1. Flee wild battle at (27, 7).
-2. Walk Left 4 along row 7 to (23, 7).
-3. Walk Down 4 along col 23 through the rows 8-9 gap to Central Corridor at (23, 11).
-4. Walk Right 11 along row 11 across cols 23-34 to (34, 11).
-5. Walk Down 6 along col 34 down the Eastern Bypass to Southern Hall at (34, 17).
-6. Walk Right 3 along row 17 onto the Ladder at (37, 17) to warp.
+## Verified Route to Route 10 North Exit
+1. Walk Left 5 along row 7 to (15, 7).
+2. Walk Up 4 along col 15 into North Exit at (15, 3).
+3. Emerge onto Route 10 North -> enter Pokémon Center at (11, 19).
+4. Heal party with Nurse Joy -> restore full HP and PP.
