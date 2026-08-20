@@ -48,15 +48,26 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Testing 3F balcony shutter gates at (24, 13)...")
+    print("Starting master victory route: pit drop at (24, 5)...")
     
-    # We are currently at (28, 12)
-    # 1. Walk Left to (24, 12)
+    # We are currently at (24, 12) on 3F
     path = [
-        ("Left", 27, 12),
-        ("Left", 26, 12),
-        ("Left", 25, 12),
-        ("Left", 24, 12),
+        # 1. Walk Right to (26, 12)
+        ("Right", 25, 12),
+        ("Right", 26, 12),
+        
+        # 2. Walk Up Column 26 to Row 5
+        ("Up", 26, 11),
+        ("Up", 26, 10),
+        ("Up", 26, 9),
+        ("Up", 26, 8),
+        ("Up", 26, 7),
+        ("Up", 26, 6),
+        ("Up", 26, 5),
+        
+        # 3. Walk Left to (24, 5) -> Pit Drop!
+        ("Left", 25, 5),
+        ("Left", 24, 5),
     ]
     
     success = True
@@ -67,26 +78,12 @@ def main():
             break
             
     if success:
-        print("At (24, 12). Attempting to move Down to (24, 13)...")
-        mgba.press_buttons(["Down"])
-        time.sleep(0.5)
+        print("At (24, 5). Falling through pit...")
+        time.sleep(3.0) # Wait for drop animation/warp
         
-        pos = mgba.get_coordinates()
-        print("Coordinates after attempting Down:", pos)
-        
-        if pos == {'x': 24, 'y': 13}:
-            print("SHUTTER GATE IS OPEN!!! Moving to balcony drop...")
-            if step_to("Down", 24, 14):
-                print("At (24, 14). Dropping off balcony...")
-                mgba.press_buttons(["Left"])
-                time.sleep(3.0)
-                
-                landing_pos = mgba.get_coordinates()
-                print("Landed on 1F! Current position:", landing_pos)
-                mgba.take_screenshot()
-        else:
-            print("SHUTTER GATE IS CLOSED! We cannot pass here.")
-            mgba.take_screenshot()
+        pos_landing = mgba.get_coordinates()
+        print("Landed on 1F! Current position:", pos_landing)
+        mgba.take_screenshot()
     else:
         mgba.take_screenshot()
 
