@@ -3,14 +3,9 @@ import time
 
 def handle_battle():
     print("Encountered battle or text! Escaping...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(2.0)
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
+    # Safe escape sequence: press B twice to close any menus/text, 
+    # then Down, Right to guarantee we hover RUN, then A to select RUN.
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000", "B"])
 
 def step_to(direction, tx, ty):
     pos = mgba.get_coordinates()
@@ -62,8 +57,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Current position after dismissing text:", pos)
     
-    # We should be at (10, 13) or near it.
-    # Let's walk to the open Row 12 horizontal corridor first.
+    # We should be at (12, 12) or near it.
     if pos['y'] == 13:
         if not step_to("Up", pos['x'], 12):
             print("Failed to walk Up to row 12.")
