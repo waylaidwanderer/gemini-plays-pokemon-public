@@ -51,24 +51,43 @@ def follow_path(path):
 def main():
     print("Currently at:", mgba.get_coordinates())
     
-    # Path to West Wing (3, 11) bypassing Row 10 rubble and Column 10 gate and Column 8 pillar
+    # Path to West Wing (3, 11) crossing Column 22 on Row 3 and Column 10 gate on Row 5
     path = [
-        ("Left", 22, 11),
-        ("Left", 21, 11),
-        ("Left", 20, 11),
-        ("Left", 19, 11),
-        ("Left", 18, 11),
-        ("Left", 17, 11),
-        ("Left", 16, 11),
-        ("Left", 15, 11),
-        ("Left", 14, 11),
-        ("Left", 13, 11),
-        ("Left", 12, 11),
-        ("Left", 11, 11),
-        ("Up", 11, 10),
-        ("Left", 10, 10),
-        ("Left", 9, 10),
-        ("Down", 9, 11),
+        ("Up", 24, 10),
+        ("Right", 25, 10),
+        ("Right", 26, 10),
+        ("Up", 26, 9),
+        ("Up", 26, 8),
+        ("Up", 26, 7),
+        ("Up", 26, 6),
+        ("Up", 26, 5),
+        ("Up", 26, 4),
+        ("Up", 26, 3),
+        ("Left", 25, 3),
+        ("Left", 24, 3),
+        ("Left", 23, 3),
+        ("Left", 22, 3), # Cross Column 22!
+        ("Left", 21, 3),
+        ("Down", 21, 4),
+        ("Down", 21, 5), # Gate (21, 5) is OPEN in State B!
+        ("Left", 20, 5),
+        ("Left", 19, 5),
+        ("Left", 18, 5),
+        ("Left", 17, 5),
+        ("Left", 16, 5),
+        ("Left", 15, 5),
+        ("Left", 14, 5),
+        ("Left", 13, 5),
+        ("Left", 12, 5),
+        ("Left", 11, 5),
+        ("Down", 11, 6),
+        ("Down", 11, 7),
+        ("Down", 11, 8),
+        ("Down", 11, 9),
+        ("Down", 11, 10),
+        ("Down", 11, 11),
+        ("Left", 10, 11),
+        ("Left", 9, 11),
         ("Left", 8, 11),
         ("Left", 7, 11),
         ("Left", 6, 11),
@@ -77,12 +96,12 @@ def main():
         ("Left", 3, 11),
     ]
     
-    print("Walking to west wing...")
+    print("Walking back to west wing...")
     if not follow_path(path):
         return
         
     mgba.take_screenshot()
-    print("Reached west wing at (3, 11)!")
+    print("Successfully reached west wing at (3, 11)!")
 
 if __name__ == "__main__":
     main()
