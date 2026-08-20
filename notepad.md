@@ -931,19 +931,20 @@
 
 |---|---|---|---|---|
 
-| Ladder 3 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082, 5580 |
-| Ladder 4 | 1F (27, 3) | B1F (5, 3) | North-Central 1F <-> North-West B1F | Turns 4364, 6104, 6401 |
-| Ladder 5 | 1F (23, 11) | B1F (17, 11) | North-Central 1F <-> Central B1F | Turns 6131, 6308 |
+| Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 6954, 7556 |
+| Ladder 2 | 1F (27, 3) | B1F (5, 3) | North-Central 1F <-> North-West B1F | Turns 4364, 6104, 6401 |
+| Ladder 3 | 1F (23, 11) | B1F (17, 11) | Central 1F <-> Central B1F | Turns 6131, 6308, 7243 |
+| Ladder 4 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082, 5580 |
 
 
 
 ## Connections & Warps
 
 
-- Ladder 3 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3) [Verified Turn 4921, 5082 & 5580].
-
-- Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
-- Ladder 5 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11) [Verified Turn 6131].
+- Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3).
+- Ladder 2 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
+- Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11).
+- Ladder 4 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3).
 
 
 
