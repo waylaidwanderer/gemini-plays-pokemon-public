@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=5, y=17)
+- Location: Rock Tunnel B1F (x=19, y=16)
 
 
 
@@ -1077,7 +1077,7 @@
 5. **Stage 5 (Lavender Town)**: Emerge onto Route 10 South, walk south to Lavender Town, heal at Pokémon Center.
 
 ## Immediate Action
-- Current position: B1F (5, 17)
-- Path: Down 2 to (5, 19), Right 4 to (9, 19), Up 10 to (9, 9), Left 4 to (5, 9), Up 6 to Ladder 2 at (5, 3).
+- Current position: B1F (17, 10)
+- Path: Left 2 to (15, 10), Down 6 to (15, 16), Right into eastern thoroughfare (cols 20-37) toward Ladder 4 at (37, 17).
 
 <hr>
