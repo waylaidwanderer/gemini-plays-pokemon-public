@@ -3,10 +3,12 @@ import time
 
 def handle_battle():
     print("Encountered battle or text! Escaping...")
+    # Advance any initial text
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     mgba.press_buttons(["A"])
     time.sleep(1.0)
+    # Move to RUN and press A
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(2.0)
     mgba.press_buttons(["B"])
@@ -44,52 +46,98 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Navigating to Column 23, Row 3...")
-    path = [
-        # 1. Walk Right to (24, 16)
-        ("Right", 20, 16),
-        ("Right", 21, 16),
-        ("Right", 22, 16),
-        ("Right", 23, 16),
-        ("Right", 24, 16),
-        # 2. Walk UP column 24 to row 11
-        ("Up", 24, 15),
-        ("Up", 24, 14),
-        ("Up", 24, 13),
-        ("Up", 24, 12),
-        ("Up", 24, 11),
-        # 3. Walk Left to (23, 11)
-        ("Left", 23, 11),
-        # 4. Walk UP column 23 to row 3
-        ("Up", 23, 10),
-        ("Up", 23, 9),
-        ("Up", 23, 8),
-        ("Up", 23, 7),
-        ("Up", 23, 6),
-        ("Up", 23, 5),
-        ("Up", 23, 4),
-        ("Up", 23, 3),
+    print("Starting final mansion victory route from (26, 5)...")
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    
+    pos = mgba.get_coordinates()
+    print("Start position:", pos)
+    
+    # Complete path from (26, 5) to the switch at (11, 11) via Row 3
+    path_to_switch = [
+        # 1. Walk UP column 26 to Row 3
+        ("Up", 26, 4),
+        ("Up", 26, 3),
+        # 2. Walk LEFT along Row 3 to Column 11
+        ("Left", 25, 3),
+        ("Left", 24, 3),
+        ("Left", 23, 3),
+        ("Left", 22, 3),
+        ("Left", 21, 3),
+        ("Left", 20, 3),
+        ("Left", 19, 3),
+        ("Left", 18, 3),
+        ("Left", 17, 3),
+        ("Left", 16, 3),
+        ("Left", 15, 3),
+        ("Left", 14, 3),
+        ("Left", 13, 3),
+        ("Left", 12, 3),
+        ("Left", 11, 3),
+        # 3. Walk DOWN column 11 to Row 11
+        ("Down", 11, 4),
+        ("Down", 11, 5),
+        ("Down", 11, 6),
+        ("Down", 11, 7),
+        ("Down", 11, 8),
+        ("Down", 11, 9),
+        ("Down", 11, 10),
+        ("Down", 11, 11),
     ]
-    if not follow_path(path):
+    
+    if not follow_path(path_to_switch):
         return False
         
-    print("Reached (23, 3). Testing Left horizontal crossing on Row 3...")
-    for i in range(15):
-        pos_before = mgba.get_coordinates()
-        mgba.press_buttons(["Left"])
-        time.sleep(0.4)
-        pos_after = mgba.get_coordinates()
-        print(f"Step {i+1}: position is {pos_after}")
-        if pos_before == pos_after:
-            handle_battle()
-            time.sleep(0.5)
-            pos_after = mgba.get_coordinates()
-            if pos_before == pos_after:
-                print("Row 3 blocked at column:", pos_after['x'])
-                break
-                
-    pos_final = mgba.get_coordinates()
-    print("Final position of Row 3 test:", pos_final)
+    # Toggle switch to State B
+    print("At (11, 11). Toggling switch at (12, 11) to State B...")
+    mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "A", "sleep 500", "B"])
+    time.sleep(1.0)
+    
+    # Path to the balcony drop at (24, 14) via Row 5
+    path_to_drop = [
+        # Walk UP column 11 to Row 5
+        ("Up", 11, 10),
+        ("Up", 11, 9),
+        ("Up", 11, 8),
+        ("Up", 11, 7),
+        ("Up", 11, 6),
+        ("Up", 11, 5),
+        # Walk RIGHT along Row 5 to Column 24
+        ("Right", 12, 5),
+        ("Right", 13, 5),
+        ("Right", 14, 5),
+        ("Right", 15, 5),
+        ("Right", 16, 5),
+        ("Right", 17, 5),
+        ("Right", 18, 5),
+        ("Right", 19, 5),
+        ("Right", 20, 5),
+        ("Right", 21, 5), # OPEN in State B!
+        ("Right", 22, 5),
+        ("Right", 23, 5),
+        ("Right", 24, 5),
+        # Walk DOWN column 24 to Row 14
+        ("Down", 24, 6),
+        ("Down", 24, 7),
+        ("Down", 24, 8),
+        ("Down", 24, 9),
+        ("Down", 24, 10),
+        ("Down", 24, 11),
+        ("Down", 24, 12),
+        ("Down", 24, 13),
+        ("Down", 24, 14),
+    ]
+    
+    if not follow_path(path_to_drop):
+        return False
+        
+    # Step Left to drop to 1F B1F stairs
+    print("At (24, 14). Dropping off balcony...")
+    mgba.press_buttons(["Left"])
+    time.sleep(3.0) # wait for fall transition
+    
+    final_pos = mgba.get_coordinates()
+    print("Landing position on 1F:", final_pos)
     mgba.take_screenshot()
     return True
 
