@@ -3,7 +3,7 @@
 ## Current Status
 - Active Floor: Rock Tunnel 1F
 - Current Position: (3, 33)
-- Survey Result: Rows 30-33 form an open basin spanning cols 2 to 37.
+- Survey Result: Rows 30-33 form an open basin spanning cols 2 to 37. Row 34 is solid wall across cols 2-37 (tested at 3,34).
 - Probing Protocol: Testing candidate southern boundary tiles (row 34) systematically.
 
 ## Immediate Execution Steps
