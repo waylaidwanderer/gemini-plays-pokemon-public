@@ -1,11 +1,6 @@
 import mgba
 import time
 
-# 1. Dismiss "Got away safely!"
-print("Dismissing text box...")
-mgba.press_buttons(["A"])
-time.sleep(1.0) # Wait for overworld to load
-
 def walk_step(direction, target_x, target_y):
     pos = mgba.get_coordinates()
     print(f"Standing at {pos}. Pressing {direction}...")
@@ -20,15 +15,14 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (7, 11) on 2F in State A
+    # Current: (6, 11) on 2F in State A (no battle screen open)
     # 1. Walk to northwest switch at (2, 12) on 2F
     print("Step 1: Walking to northwest switch on 2F...")
     path_to_nw_switch = [
-        ("Left", 6, 11),
         ("Left", 5, 11),
-        ("Left", 4, 11),
-        ("Left", 3, 11),
-        ("Down", 3, 12),
+        ("Down", 5, 12), # Bypasses NPC at (4, 11)
+        ("Left", 4, 12),
+        ("Left", 3, 12),
         ("Down", 3, 13),
         ("Left", 2, 13),
         ("Left", 1, 13),
