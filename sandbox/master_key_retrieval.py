@@ -38,22 +38,27 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (19, 5) on 3F (State B).
+    # We are currently at (22, 7) on 3F (State B).
     pos = mgba.get_coordinates()
     print(f"Starting at: {pos}")
-    if pos['x'] != 19 or pos['y'] != 5:
-        print("Error: Not at (19, 5)!")
+    if pos['x'] != 22 or pos['y'] != 7:
+        print("Error: Not at (22, 7)!")
         return False
         
-    # Walk to the balcony drop on 3F (State B) via the open gate at (21, 5)
+    # Walk around the partition walls and rubble to reach the balcony drop on 3F
     print("--- STEP 1: Walking to balcony drop on 3F (State B) ---")
     path_to_drop_3f = [
-        ("Down", 19, 6),
-        ("Right", 20, 6),
-        ("Right", 21, 6),
-        ("Up", 21, 5), # Gate (21, 5) is OPEN in State B!
-        ("Up", 21, 4),
-        ("Up", 21, 3), # Row 3 is OPEN!
+        ("Left", 21, 7),
+        ("Left", 20, 7),
+        ("Left", 19, 7),
+        ("Left", 18, 7),
+        ("Up", 18, 6),
+        ("Up", 18, 5),
+        ("Up", 18, 4), # Row 4 is open across columns 18-21
+        ("Right", 19, 4),
+        ("Right", 20, 4),
+        ("Right", 21, 4),
+        ("Up", 21, 3), # Row 3 is open across columns 20-25
         ("Right", 22, 3),
         ("Right", 23, 3),
         ("Right", 24, 3),
@@ -62,7 +67,7 @@ def run_master_route():
         ("Down", 25, 5),
         ("Down", 25, 6),
         ("Down", 25, 7),
-        ("Down", 25, 8), # PASSABLE!
+        ("Down", 25, 8), # Passable railing
         ("Down", 25, 9),
         ("Down", 25, 10),
         ("Down", 25, 11),
