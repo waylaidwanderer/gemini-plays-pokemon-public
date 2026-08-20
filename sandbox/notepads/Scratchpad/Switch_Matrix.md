@@ -37,6 +37,7 @@
 
 ## Verified 3F Layout Constraints
 - **Northeast Columns:** On 3F, columns 18 and 19 on row 8 are blocked by solid columns/machines (empirically verified on Turn 48596).
+- **Row 7 Open Corridor:** On 3F, row 7 is completely open horizontally across columns 5 to 22 in both State A and State B, allowing free horizontal traversal across the entire map.
 
 ## Verified 2F Switch Shortcut
 - **Shortcut Discovery:** The Mewtwo statue switch at `(2, 11)` on 2F can be successfully interacted with and toggled from the left tile at `(1, 11)` by facing **Right**! This completely bypasses the rocky rubble at `(2, 12)` and `(3, 12)`.
