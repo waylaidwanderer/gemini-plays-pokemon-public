@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Running 2F switch toggle script. Starting pos:", get_pos())
+print("Running solve_mansion_row3.py. Starting pos:", get_pos())
 
 def handle_battle():
     # Clear screens
@@ -58,21 +58,25 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Path to the switch at (12, 11) on 2F via row 7
-waypoints = [
-    (16, 9), (16, 7),
-    (14, 7), (12, 7),
-    (12, 9), (12, 11)
+# Clear "Got away safely!" textbox first
+mgba.press_buttons(["B"])
+time.sleep(0.3)
+
+# 1. Walk to the switch at (12, 11)
+waypoints_to_switch = [
+    (17, 7),
+    (12, 7),
+    (12, 11)
 ]
 
-success = True
-for (wx, wy) in waypoints:
+success_to = True
+for (wx, wy) in waypoints_to_switch:
     if not step_to_closed_loop(wx, wy):
-        success = False
+        success_to = False
         break
 
-if success:
-    print("Reached (12, 11). Toggling 2F switch to State B...")
+if success_to:
+    print("Successfully reached switch station (12, 11). Toggling switch to State B...")
     mgba.press_buttons([
         "Right", "sleep 500",
         "A", "sleep 1500",
@@ -82,7 +86,28 @@ if success:
         "B"
     ])
     time.sleep(5.0)
-    print("Mansion switch toggled to State B! Current pos:", get_pos())
-    mgba.take_screenshot()
+    print("Mansion switch toggled! Checking pos:", get_pos())
+    
+    # 2. Walk back to the stairs at (16, 11)
+    waypoints_back = [
+        (12, 7),
+        (16, 7),
+        (16, 11)
+    ]
+    
+    success_back = True
+    for (wx, wy) in waypoints_back:
+        if not step_to_closed_loop(wx, wy):
+            success_back = False
+            break
+            
+    if success_back:
+        print("Reached (16, 11). Warping back UP to 3F...")
+        mgba.press_buttons(["Left"]) # Step Left onto the stairs at (15, 11)
+        time.sleep(1.5)
+        print("Landed on 3F! Current pos:", get_pos())
+        mgba.take_screenshot()
+    else:
+        print("Failed to walk back to the stairs.")
 else:
-    print("Failed to reach (12, 11).")
+    print("Failed to reach the switch.")
