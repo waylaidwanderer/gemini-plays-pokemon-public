@@ -1073,16 +1073,16 @@
 - **1F South Exit**: Western Corridor (cols 2-5) south from (3, 3) through rows 4-35 to Route 10 South!
 
 ## Master Execution Stages
-1. **Return to B1F**: From 1F (37, 5) -> Walk to (27, 3) -> Take Ladder A down to B1F (5, 3). [CURRENT STAGE]
-2. **Access South Highway**: From B1F (5, 3) -> Navigate south via cols 8-10 / 14-17 down to South Highway (rows 30-33).
-3. **Traverse South Highway East**: Walk East along South Highway (rows 30-31) to col 35/37.
-4. **Ascend to Ladder C**: Walk North along col 37 to Ladder C at (37, 17) -> Take ladder up to 1F (3, 3).
-5. **Descend to South Exit**: From 1F (3, 3) -> Walk South down Western Corridor to South Exit doorway at rows 34-35.
-6. **Lavender Town**: Emerge onto Route 10 South -> Walk south to Lavender Town Pok�mon Center.
+1. **Navigate to Eastern Sector Corridor**: From B1F (11, 6) -> Down 8 to (11, 14) -> Right 4 to (15, 14) -> Down 2 to (15, 16) -> Right 5 to (20, 16). [CURRENT STAGE]
+2. **Access Eastern Highway & Column 24**: From (20, 16) -> Up 4 to (20, 12) -> Right 4 to (24, 12) -> Down 5 along col 24 to (24, 17).
+3. **Traverse Row 17 to Ladder C**: Walk East 13 steps along row 17 to Ladder C at (37, 17) -> Step onto ladder to warp to 1F (3, 3).
+4. **Descend to South Exit**: From 1F (3, 3) -> Walk South down Western Corridor to South Exit doorway at rows 34-35.
+5. **Lavender Town**: Emerge onto Route 10 South -> Walk south to Lavender Town Pok�mon Center.
 
 ## Current Navigation Task
-- Position: 1F (37, 5) in battle
-- Immediate Action: Flee battle -> Walk to Ladder A at (27, 3) -> Down to B1F (5, 3).
+- Position: B1F (11, 6)
+- Target: Position (15, 16) on Rock Tunnel B1F
+- Immediate Route: Down 8 to (11, 14), Right 4 to (15, 14), Down 2 to (15, 16).
 
 
 <hr>
