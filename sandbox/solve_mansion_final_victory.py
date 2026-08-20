@@ -1,27 +1,47 @@
 import mgba
 import time
 
+def run_away():
+    print("Attempting to run away from battle...")
+    # Go to RUN option and press A
+    mgba.press_buttons(["Right", "Down", "A", "sleep 1000", "B", "sleep 500", "B", "sleep 500"])
+
+def clear_dialog():
+    print("Clearing text boxes...")
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+
 def walk_step(direction, target_x, target_y):
-    pos = mgba.get_coordinates()
-    print(f"Standing at {pos}. Pressing {direction}...")
-    mgba.press_buttons([direction])
-    time.sleep(0.4)
-    new_pos = mgba.get_coordinates()
-    print(f"Now at {new_pos}. Target was ({target_x}, {target_y})")
-    if new_pos['x'] == target_x and new_pos['y'] == target_y:
-        return True
-    else:
-        print("Failed to reach target! Could be a battle or obstacle.")
-        return False
+    for attempt in range(15):
+        pos = mgba.get_coordinates()
+        print(f"Attempt {attempt+1}: Standing at {pos}. Pressing {direction}...")
+        mgba.press_buttons([direction])
+        time.sleep(0.5)
+        new_pos = mgba.get_coordinates()
+        if new_pos['x'] == target_x and new_pos['y'] == target_y:
+            print(f"Success! Reached {new_pos}")
+            return True
+        
+        # If we didn't reach, we might be in battle, blocked by NPC, or text box open
+        print(f"Did not reach target ({target_x}, {target_y}). Checking for battle/text...")
+        clear_dialog()
+        run_away()
+        time.sleep(0.5)
+        
+    print(f"Failed to reach target ({target_x}, {target_y}) after 15 attempts.")
+    return False
 
 def solve_all():
-    # Current: (6, 11) on 2F in State A (no battle screen open)
-    # 1. Walk to northwest switch at (2, 12) on 2F
-    print("Step 1: Walking to northwest switch on 2F...")
+    # Current is at (6, 11) on 2F in State A
+    # We want to go to the switch at (2, 12)
+    # Since NPC is around (4, 11) / (5, 11), let's use a path that bypasses row 11 if needed, or just try to walk.
+    # Actually, let's walk through row 10 if we get blocked on row 11!
+    # Let's see: we can go:
+    # (6, 11) -> (6, 10) -> (5, 10) -> (4, 10) -> (3, 10) -> (3, 11) is wall.
+    # So from (4, 10) we can go: (4, 11) -> (3, 11) is wall. So (4, 12) -> (3, 12) -> (2, 12).
+    # Let's try the standard path first:
     path_to_nw_switch = [
-        ("Left", 6, 11),
         ("Left", 5, 11),
-        ("Down", 5, 12), # Bypasses NPC at (4, 11)
+        ("Down", 5, 12),
         ("Left", 4, 12),
         ("Left", 3, 12),
         ("Down", 3, 13),
@@ -32,11 +52,13 @@ def solve_all():
         ("Down", 1, 12),
         ("Right", 2, 12),
     ]
+    
+    # Let's execute the path to the NW switch
     for d, tx, ty in path_to_nw_switch:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
-            return
-            
+            return False
+
     # 2. Toggle switch to State B
     print("Step 2: Toggling switch to State B...")
     mgba.press_buttons(["Up"])
@@ -76,7 +98,7 @@ def solve_all():
     for d, tx, ty in path_to_stairs_b:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
-            return
+            return False
             
     # 4. Step Down onto (18, 8) stairs to warp to 3F in State B
     print("Step 4: Ascending to 3F in State B...")
@@ -109,7 +131,7 @@ def solve_all():
     for d, tx, ty in path_to_balcony:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
-            return
+            return False
             
     # Drop to 1F!
     print("Step 6: Dropping to 1F...")
@@ -117,5 +139,7 @@ def solve_all():
     time.sleep(1.5)
     print("Landed on 1F! Position:", mgba.get_coordinates())
     mgba.take_screenshot()
+    return True
 
-solve_all()
+if __name__ == "__main__":
+    solve_all()
