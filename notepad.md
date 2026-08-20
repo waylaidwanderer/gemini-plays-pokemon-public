@@ -895,7 +895,7 @@
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [North-Central 1F <-> North-West B1F]. Connects north-central 1F to NW B1F.
 - **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F]. Connects central 1F to central B1F.
 - **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F]. Connects B1F eastern exit passage to 1F final exit sector.
-- **1F South Exit**: Row 34 is solid rock at cols 0-8 (verified Turn 8961). Exit corridor is located to the east along row 33 (near cols 14-15). Connects to Route 10 South and Lavender Town!
+- **1F South Boundary**: Row 34 is solid rock continuously across cols 0-38 (verified Turns 8954, 8961, 8975, 8991). Exit to Route 10 South is not located along row 34 of 1F.
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
@@ -1080,18 +1080,19 @@
 # Rock Tunnel 1F - Direct Route to South Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (20, 33)
-- Target: Find South Exit on Rock Tunnel 1F -> Route 10 South -> Lavender Town
+- Current Location: Rock Tunnel 1F at (25, 33)
+- Target: Survey Eastern Hall (cols 32-37, rows 16-33) to find exit opening -> Route 10 South -> Lavender Town
 
 ## Verified Empirical Collisions & Topology
-- 1F (2..20, 30..33): Continuous open southern floor.
-- 1F (0..21, 34..35): Continuous solid rock wall along southern edge.
-- Next: Traverse east across cols 20-37 on row 33 to find the exit doorway to Route 10 South.
+- 1F (0..38, 34..35): Continuous solid rock wall along southern boundary.
+- 1F (2..37, 33): Open horizontal traverse.
+- 1F (26..27, 20..30): Vertical rock pillar barrier dividing Western Avenue from Eastern Hall.
+- 1F (28..37, 16..33): Eastern Hall sector.
 
-## Traversal Route
-1. Flee wild battle at (20, 33).
-2. Continue east along row 33 across cols 21-37 to locate the exit doorway.
-3. Step through exit -> Route 10 South -> Lavender Town.
-4. Heal party at Lavender Town Pokmon Center.
+## Systematic Exploration Protocol
+1. Traverse east along row 33 to (35, 33).
+2. Ascend north along cols 35-37 from row 33 to row 16, testing eastern boundary tiles (col 37/38) and internal partitions on each row.
+3. Locate exit doorway to Route 10 South.
+4. Step through exit -> Route 10 South -> Lavender Town Pokémon Center.
 
 <hr>

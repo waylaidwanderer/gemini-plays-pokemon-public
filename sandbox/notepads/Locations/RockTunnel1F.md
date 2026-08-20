@@ -6,7 +6,7 @@
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [North-Central 1F <-> North-West B1F]. Connects north-central 1F to NW B1F.
 - **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F]. Connects central 1F to central B1F.
 - **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F]. Connects B1F eastern exit passage to 1F final exit sector.
-- **1F South Exit**: Row 34 is solid rock at cols 0-8 (verified Turn 8961). Exit corridor is located to the east along row 33 (near cols 14-15). Connects to Route 10 South and Lavender Town!
+- **1F South Boundary**: Row 34 is solid rock continuously across cols 0-38 (verified Turns 8954, 8961, 8975, 8991). Exit to Route 10 South is not located along row 34 of 1F.
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):

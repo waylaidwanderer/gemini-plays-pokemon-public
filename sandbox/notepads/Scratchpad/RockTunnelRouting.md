@@ -1,16 +1,17 @@
 # Rock Tunnel 1F - Direct Route to South Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (20, 33)
-- Target: Find South Exit on Rock Tunnel 1F -> Route 10 South -> Lavender Town
+- Current Location: Rock Tunnel 1F at (25, 33)
+- Target: Survey Eastern Hall (cols 32-37, rows 16-33) to find exit opening -> Route 10 South -> Lavender Town
 
 ## Verified Empirical Collisions & Topology
-- 1F (2..20, 30..33): Continuous open southern floor.
-- 1F (0..21, 34..35): Continuous solid rock wall along southern edge.
-- Next: Traverse east across cols 20-37 on row 33 to find the exit doorway to Route 10 South.
+- 1F (0..38, 34..35): Continuous solid rock wall along southern boundary.
+- 1F (2..37, 33): Open horizontal traverse.
+- 1F (26..27, 20..30): Vertical rock pillar barrier dividing Western Avenue from Eastern Hall.
+- 1F (28..37, 16..33): Eastern Hall sector.
 
-## Traversal Route
-1. Flee wild battle at (20, 33).
-2. Continue east along row 33 across cols 21-37 to locate the exit doorway.
-3. Step through exit -> Route 10 South -> Lavender Town.
-4. Heal party at Lavender Town Pokmon Center.
+## Systematic Exploration Protocol
+1. Traverse east along row 33 to (35, 33).
+2. Ascend north along cols 35-37 from row 33 to row 16, testing eastern boundary tiles (col 37/38) and internal partitions on each row.
+3. Locate exit doorway to Route 10 South.
+4. Step through exit -> Route 10 South -> Lavender Town Pokémon Center.
