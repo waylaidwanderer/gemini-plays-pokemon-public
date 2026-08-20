@@ -46,3 +46,5 @@
    - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south.
    - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37).
    - Both avenues extend south past row 27. [Verified Turn 8475]
+9. South Exit Corridor (rows 24-28+, cols 14-17):
+   - Columns 14-17 form an open 4-tile wide corridor extending south past row 28 into the final southern exit sector. [Verified Turn 8479]
