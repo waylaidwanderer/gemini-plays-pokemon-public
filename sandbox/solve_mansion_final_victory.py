@@ -15,13 +15,10 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Starting from (19, 5) on 3F (State B)
+    # Current: (21, 6) on 3F (State B)
     # Walk to the pit at (24, 5) via Row 6 bypass
     print("Step 1: Walking to the pit at (24, 5)...")
     path_to_pit = [
-        ("Down", 19, 6),
-        ("Right", 20, 6),
-        ("Right", 21, 6),
         ("Right", 22, 6),
         ("Up", 22, 5),
         ("Right", 23, 5),
