@@ -9,7 +9,7 @@
 - Eastern Sector (cols 24-37): Open horizontal highway spanning rows 10-13, leading straight to Ladder 4 at (37, 17).
 
 ## Strict Sequential Execution Checklist (Do NOT Reverse Direction)
-- [ ] **Step 1 (Row 21 East to Col 21)**: From (5, 21), walk 16 steps Right along row 21 to (21, 21).
+- [x] **Step 1 (Row 21 East to Col 21)**: From (5, 21), walk 16 steps Right along row 21 to (21, 21).
 - [ ] **Step 2 (Step Up to Row 20)**: From (21, 21), walk 1 step Up to (21, 20).
 - [ ] **Step 3 (Cross East through Defeated Trainer Passage)**: From (21, 20), walk 3 steps Right across row 20 to column 24 at (24, 20).
 - [ ] **Step 4 (Ascend Col 24 to North-East Highway)**: From (24, 20), walk 7 steps Up along column 24 to row 13 at (24, 13).
