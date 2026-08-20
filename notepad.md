@@ -1069,20 +1069,28 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel Navigation & Exit Route
+# Rock Tunnel B1F - Linear Traversal to Exit
 
-## Canonical 4-Ladder Path to Lavender Town
-1. **Ladder 2**: 1F (27, 3) -> B1F (5, 3) [Completed]
-2. **Ladder 3**: B1F (17, 11) -> 1F (23, 11) [Completed - currently on 1F at (10, 18)]
-3. **Ladder 1**: On 1F, walk from (10, 18) -> Up to (10, 11) -> East across row 11 to (37, 11) -> Up to (37, 3) [Ladder 1] -> Warp to B1F (33, 25) [South-East sector]
-4. **Ladder 4**: On B1F (33, 25), walk North along col 37 to B1F (37, 17) -> Warp to 1F (3, 3) [Western Exit sector]
-5. **1F South Exit**: On 1F (3, 3), walk South down Western Corridor (cols 2-5, rows 3-33) to cave exit -> Route 10 South -> Lavender Town!
+## Current Status & Objective
+- Current Location: Rock Tunnel B1F at (17, 13)
+- Target: Ladder 4 at (37, 17) -> Exit to 1F (3, 3) -> Lavender Town
 
-### Active Navigation Plan
-- Current Position: 1F (10, 18).
-- Step 1: Walk Up 7 steps along col 10 to (10, 11).
-- Step 2: Walk East 27 steps along row 11 across cols 10-37 to (37, 11).
-- Step 3: Walk Up 8 steps along col 37 to (37, 3) [Ladder 1].
-- Step 4: Step on Ladder 1 at (37, 3) to warp to B1F (33, 25).
+## Verified Empirical Collisions & Boundaries
+- 1F (24..25, 2..7): Solid rock pillar blocking row 3 eastward traversal on 1F.
+- 1F (18..27, 14..15): Solid horizontal rock barrier blocking southward descent from row 13 at cols 18-27 on 1F (including tile 22, 14).
+- 1F (2..27, 28): Continuous solid rock barrier preventing direct descent to South Exit from Central Basin on 1F.
+- B1F (21, 8): Solid rock blocking row 8 in East Channel.
+- B1F (14..17, 10..21): Wide open Central Room corridor.
+- B1F (13..29, 24..25): Wide open horizontal South Chamber connecting central sector to eastern sector.
+- B1F (28..37, 16..19): Wide open Central-East Corridor containing Ladder 4 at (37, 17).
+
+## Committed Step-by-Step Traversal Route (B1F to Exit)
+1. **From (17, 13)**: Walk Left 3 to (14, 13), Down 8 along col 14 to (14, 21).
+2. **Access South Chamber**: Move south to row 24 at (14, 24).
+3. **Traverse East across South Chamber**: Walk East along row 24 from (14, 24) to (29, 24).
+4. **Ascend to Central-East Corridor**: Walk North along col 29 from (29, 24) to (29, 17).
+5. **Traverse to Ladder 4**: Walk East along row 17 from (29, 17) to (37, 17) [Ladder 4].
+6. **Exit to 1F**: Step on Ladder 4 at (37, 17) -> Warps to 1F (3, 3) (Western Exit Corridor).
+7. **Exit Rock Tunnel**: On 1F (3, 3), walk South down cols 2-5 to Cave Exit -> Route 10 South -> Lavender Town!
 
 <hr>
