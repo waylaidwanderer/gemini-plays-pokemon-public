@@ -55,19 +55,18 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Starting master victory balcony drop route from (4, 11) in State B...")
+    print("Starting master victory balcony drop route from (4, 10) in State B...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
     print("Start position:", pos)
     
-    # Path from (4, 11) to the drop at (24, 14) via Row 11, Column 3, Row 3
+    # Path from (4, 10) to the drop at (24, 14) via Row 10, Column 3, Row 3
     path = [
         # 1. Walk Left to Column 3 (West side of the vertical gates)
-        ("Left", 3, 11),
+        ("Left", 3, 10),
         # 2. Walk UP column 3 to Row 3
-        ("Up", 3, 10),
         ("Up", 3, 9),
         ("Up", 3, 8),
         ("Up", 3, 7),
