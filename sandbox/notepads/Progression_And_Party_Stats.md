@@ -10,11 +10,12 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - SURF (HM03)
 
 ## Badge Status & Gym Clearances (Updated Turn 50214)
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
-- **Soul Badge (Fuchsia Gym):** Already acquired! Koga is defeated. Fuchsia Gym is fully cleared.
-- **Earth Badge (Viridian Gym):** Not yet acquired (Giovanni at Viridian Gym is our current target!).
+- **Volcano Badge (Cinnabar Gym):** NOT acquired yet (Locked behind Secret Key).
+- **Soul Badge (Fuchsia Gym):** NOT acquired yet.
+- **Earth Badge (Viridian Gym):** NOT acquired yet (Giovanni at Viridian Gym is locked until 7 badges are acquired).
+- **Cinnabar Island Goal:** Clear Pokémon Mansion to find the Secret Key, unlock the Cinnabar Gym, and defeat Gym Leader Blaine for the Volcano Badge (Badge #6)!
 
 ## Key Items & Inventory Log
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
