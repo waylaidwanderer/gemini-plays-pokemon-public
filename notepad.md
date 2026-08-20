@@ -1065,16 +1065,15 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - Verified Direct Route to Exit
+# Rock Tunnel - Systematic Crossover Survey Protocol (1F Southern Sector)
 
-## Correct Progression Path
+## High-Level Progression
 1. [x] **1F Entrance**: North Entrance (15, 3) -> Ladder 3 at (23, 11) [Down to B1F (17, 11)].
-2. [x] **B1F Central to NW**: Explored Ladder 2 at (5, 3) -> 1F (27, 3). Confirmed 1F Eastern Sector (cols 26-37) dead-ends south at rows 20-21 and row 28 rock walls.
-3. [ ] **Return to B1F**: Ascend/warp back to B1F (5, 3) via Ladder 2 at 1F (27, 3).
-4. [ ] **B1F Eastbound to Ladder 4**: From B1F (5, 3) / (17, 11), navigate east through the Central-East corridor (cols 20-33, rows 16-19) to Ladder 4 at (37, 17) [Warp up to 1F (3, 3)].
-5. [ ] **1F Western Exit Corridor**: From 1F (3, 3), descend south down the Western Corridor (cols 2-5) all the way to the South Exit (Route 10 South & Lavender Town).
-
-## Current Objective
-- Return north along column 27 to Ladder 2 at (27, 3) to descend back to B1F.
+2. [x] **B1F to 1F Eastern Entry**: Ladder 2 at (5, 3) [Up to 1F (27, 3)].
+3. [ ] **1F Southern Crossover Survey (Active)**:
+   - Position: Moving from (37, 19) -> (25, 19) -> (25, 22).
+   - Survey row-by-row connections between Western Avenue (col 25) and Eastern Hall (col 28) across rows 22, 23, 24, 25, 26, 27.
+   - Once crossed into cols 28-29, advance south past row 28 into rows 29-35+ to discover downstream ladder / south exit.
+4. [ ] **Downstream Traversal**: Exit to Route 10 South and proceed to Lavender Town.
 
 <hr>
