@@ -931,7 +931,7 @@
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "You have a POKéDEX? I want one too!" Defeat quote: "Shoot! I'm so jealous!"
 - Verified Collision Boundaries (Turns 7224-7241): Solid rock wall spans rows 14-15 across cols 18-22; solid rock spans rows 22-23 across cols 12-19; solid rock divider spans rows 28-29 across cols 7-13. The 1F Western Corridor (cols 2-5) contains the unimpeded southern descent through rows 16-35 to the exit doorway.
 ## Additional Verified Topology (Turn 7528)
-- Rows 14-15 horizontal rock wall spans cols 18 to 37 without breaks, except at Column 17 where (17, 14..15) is open floor.
+- Rows 14-15 horizontal rock wall spans cols 17 to 37; the open vertical connector between rows 12-13 and rows 16-20 is at Columns 14-16.
 - The 1F South Exit to Route 10 South is located in the final western partition, reached by taking Ladder 3 from B1F (37, 17) up to 1F (3, 3), and descending south down the Western Corridor (cols 2-5) through rows 16-35.
 
 
@@ -1065,16 +1065,28 @@
 
 # Rock Tunnel Master Traversal Plan
 
-## Complete Verified Dungeon Progression Sequence
-1. **1F North (Entrance)**: Start at (15, 3). Navigate east to Ladder 1 at (37, 3).
-2. **B1F South-East**: Arrive at (33, 25). Navigate west/north to Ladder 4 at (5, 3).
-3. **1F North-Central**: Arrive at (27, 3). Navigate to Ladder 5 at (17, 11) / (23, 11).
-4. **B1F Central**: Arrive at (17, 11) / (23, 11). Navigate east to Ladder 3 at (37, 17).
-5. **1F North-West (Final Sector)**: Arrive at (3, 3). Navigate south down Western Corridor (cols 2-5) past trainers, through central-south vertical passage (cols 8-11 / 14-17) to Southern Highway (rows 30-33), and step down into exit doorway to Route 10 South!
-6. **Route 10 South & Lavender Town**: Arrive at Route 10 South, proceed directly south into Lavender Town.
+## Verified Dungeon Progression & Topology Status
+1. **1F North Entrance**: (15, 3).
+2. **Ladder 1**: 1F (37, 3) <-> B1F (33, 25).
+3. **Ladder 4**: B1F (27, 3) <-> 1F (5, 3).
+4. **Ladder 5**: 1F (17, 11) <-> B1F (23, 11).
+5. **Ladder 3**: B1F (37, 17) <-> 1F (3, 3).
 
-## Current Stage: Stage 5 (1F NW Final Sector -> South Exit)
-- Position: 1F (8, 21)
-- Task: Move west along row 21 to cols 2-4 (Western Corridor), then descend south through rows 22-34 to reach the South Exit doorway to Route 10 South.
+## Current Stage: Stage 5 (1F NW/Central -> Southern Exit)
+- Position: 1F (9, 14)
+- Physical Findings (Turns 7616-7648):
+  - Row 22-23 is solid rock wall across cols 0-23 (Western Corridor dead-ends at row 21).
+  - Col 17 is blocked at rows 14-15 by a rock wall at (17, 14..15); the open vertical passage is at cols 14-16 (rows 12-20).
+  - Open vertical channel through row 22-23 is located at cols 24-25 (rows 17-25+).
+- Immediate Strategy & Plan:
+  - Step 1: From (9, 14), ascend col 9 to (9, 7) (North Highway).
+  - Step 2: Traverse east along row 7 to (24, 7).
+  - Step 3: Descend down the verified open vertical channel at cols 24-25 (rows 8-33) to reach the Southern Highway (rows 30-33).
+  - Step 4: Step down into the south exit doorway to transition to Route 10 South!
+
+## Short-Sequence Probing Protocol
+- Maximum step limit: 1-4 steps per turn.
+- Every tile must be visually confirmed black (open floor) in the current screen before executing.
+
 
 <hr>
