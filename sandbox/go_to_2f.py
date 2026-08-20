@@ -1,73 +1,87 @@
 import mgba
 import time
 
-def run_battle_from_pkmn():
-    print("Moving cursor to RUN from PKMN position and running...")
-    # Cursor is on PKMN (top-right). Down moves to RUN (bottom-right).
-    mgba.press_buttons(["Down", "A"])
-    time.sleep(3.0) # Wait for escape
+def handle_battle():
+    print("Encountered battle or text! Escaping...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(2.0)
     mgba.press_buttons(["B"])
     time.sleep(0.5)
 
-def walk_step(direction, tx, ty):
+def step_to(direction, tx, ty):
     pos = mgba.get_coordinates()
     print(f"At {pos}. Moving {direction} to ({tx}, {ty})...")
     mgba.press_buttons([direction])
     time.sleep(0.4)
     new_pos = mgba.get_coordinates()
     
-    if new_pos['x'] == tx and new_pos['y'] == ty:
-        return True
-        
-    print("Blocked or in battle! Attempting to escape...")
-    # First press A twice to dismiss intro text (in case battle just started)
-    mgba.press_buttons(["A"])
+    if new_pos == pos:
+        print("Did not move. Attempting to escape battle or clear text...")
+        handle_battle()
+        time.sleep(0.5)
+        new_pos = mgba.get_coordinates()
+        if new_pos == pos:
+            print("Retrying movement step...")
+            mgba.press_buttons([direction])
+            time.sleep(0.4)
+            new_pos = mgba.get_coordinates()
+            
+    return new_pos['x'] == tx and new_pos['y'] == ty
+
+def follow_path(path):
+    for d, tx, ty in path:
+        attempts = 0
+        while not step_to(d, tx, ty):
+            attempts += 1
+            if attempts > 5:
+                print(f"Failed to move to ({tx}, {ty}) after 5 attempts.")
+                mgba.take_screenshot()
+                return False
+    return True
+
+def run_all():
+    print("Dismissing 'SHELLBY is already out!'...")
+    mgba.press_buttons(["B"])
     time.sleep(1.0)
-    mgba.press_buttons(["A"])
+    
+    # Press B again to exit the Pokemon party list and return to main fight menu
+    print("Exiting Pokemon menu...")
+    mgba.press_buttons(["B"])
     time.sleep(1.0)
-    # Press B to close submenus, then Down, Right, A to run
-    mgba.press_buttons(["B", "sleep 200", "Down", "Right", "A"])
-    time.sleep(3.0)
+    
+    # We are in the main fight menu, cursor on POKEMON.
+    # From POKEMON (top-right): Down moves to RUN (bottom-right).
+    print("Running from battle...")
+    mgba.press_buttons(["Down", "A"])
+    time.sleep(3.0) # wait for escape
+    
+    # Ensure overworld is clean
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # Check if we successfully got back to the overworld
-    new_pos = mgba.get_coordinates()
-    print("Post-escape position:", new_pos)
-    return False
-
-def run_main():
-    # 1. First, we are in battle with cursor on PKMN. Escape now!
-    run_battle_from_pkmn()
-    
     pos = mgba.get_coordinates()
-    print("Overworld pos after escape:", pos)
+    print("Overworld position after escape:", pos)
     
-    # 2. Walk path to (7, 10) stairs
+    # We should be at (7, 13). Walk Up column 7 to (7, 10) stairs
     path = [
-        ("Up", 5, 11),
-        ("Up", 5, 10),
-        ("Right", 6, 10),
-        ("Right", 7, 10)
+        ("Up", 7, 12),
+        ("Up", 7, 11),
+        ("Up", 7, 10),
     ]
-    
-    idx = 0
-    while idx < len(path):
-        d, tx, ty = path[idx]
-        if walk_step(d, tx, ty):
-            idx += 1
-        else:
-            # We got into a battle. After escape attempt, retry this same step!
-            time.sleep(0.5)
-            
-    # We reached (7, 10). Step UP to warp to 2F!
-    print("Arrived at stairs (7, 10). Stepping UP to warp...")
-    mgba.press_buttons(["Up"])
+    if not follow_path(path):
+        return False
+        
+    print("Successfully stepped onto stairs! Warping...")
     time.sleep(2.0)
     
     final_pos = mgba.get_coordinates()
-    print("Warp complete! Position on 2F:", final_pos)
+    print("Final position on 2F:", final_pos)
     mgba.take_screenshot()
+    return True
 
 if __name__ == "__main__":
-    run_main()
+    run_all()
