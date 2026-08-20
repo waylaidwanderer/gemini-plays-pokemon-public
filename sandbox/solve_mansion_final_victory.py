@@ -19,40 +19,11 @@ def walk_step(direction, target_x, target_y):
         print("Failed to reach target! Could be a battle or obstacle.")
         return False
 
-def solve_mansion():
-    # Current: (5, 11) on 2F in State B
-    # 1. Walk to northwest switch at (2, 12) on 2F
-    print("Step 1: Walking to northwest switch on 2F...")
-    path_to_nw_switch = [
-        ("Left", 4, 11),
-        ("Left", 3, 11),
-        ("Down", 3, 12),
-        ("Down", 3, 13),
-        ("Left", 2, 13),
-        ("Left", 1, 13),
-        ("Up", 1, 12),
-        ("Up", 1, 11),
-        ("Down", 1, 12),
-        ("Right", 2, 12),
-    ]
-    for d, tx, ty in path_to_nw_switch:
-        if not walk_step(d, tx, ty):
-            mgba.take_screenshot()
-            return
-            
-    # 2. Toggle switch to State A
-    print("Step 2: Toggling switch to State A...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.4)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "A", "sleep 600", "A"])
-    time.sleep(1.0)
-    
-    # 3. Walk to east side of column 15 on 2F in State A
-    print("Step 3: Walking to east side of column 15 in State A...")
+def solve_mansion_remaining():
+    # Current: (4, 11) on 2F in State A
+    # 3. Walk to east side of column 15 on 2F in State A (remaining)
+    print("Step 3: Walking to east side of column 15 in State A (remaining)...")
     path_to_east_side = [
-        ("Right", 3, 12),
-        ("Up", 3, 11),
-        ("Right", 4, 11),
         ("Right", 5, 11),
         ("Right", 6, 11),
         ("Right", 7, 11),
@@ -163,4 +134,4 @@ def solve_mansion():
     print("Landed on 1F! Position:", mgba.get_coordinates())
     mgba.take_screenshot()
 
-solve_mansion()
+solve_mansion_remaining()
