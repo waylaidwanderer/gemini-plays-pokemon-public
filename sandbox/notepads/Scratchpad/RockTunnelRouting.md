@@ -12,11 +12,13 @@
 | Ladder 5 Ascent | B1F (23, 11) | 1F (17, 11) | B1F Central -> 1F Central | Turn 6837 |
 | Ladder 5 Descent | 1F (17, 11) | B1F (23, 11) | 1F Central -> B1F Central | Turns 6131, 7054 |
 
-## Empirical Floor Verification Protocol
-- Immediately upon stepping onto any ladder coordinate, inspect the destination coordinate and cross-reference with the Verified Ladder Matrix to confirm the active floor (1F vs B1F).
-- Never attribute collision or layout data to a floor without verifying the active floor identity via ladder matrix lookup.
+## Verified Northern Bypass (Turn 7501)
+- From (14, 2), step Left to (13, 2), Up to (13, 0) / (13, -1).
+- Row -1 / 0 connects west across to cols 10-11.
+- Cols 10-11 descends south through the Central Vertical Thoroughfare directly to row 16-21.
+- Middle Thoroughfare at rows 14-16 connects to the southern thoroughfares to reach the 1F south exit.
 
 ## Current Navigation Step
-- Current Position: 1F (21, 13)
-- Target: Traverse east along row 13 to col 27, then south down cols 26-27 to row 16-19 crossroads, and explore southern passages to locate the 1F south exit.
-- Immediate Step: Move Right 6 steps to (27, 13), then Down past row 15 into row 16-19.
+- Current Position: 1F (14, 2)
+- Target: Navigate through northern bypass (13, 2 -> 13, 0 -> 10, 0) into Central Vertical Thoroughfare (cols 10-11) and descend south to row 16-21.
+- Immediate Step: Move Left 1 to (13, 2), Up 2 to (13, 0), Left 3 to (10, 0), and Down south along cols 10-11.
