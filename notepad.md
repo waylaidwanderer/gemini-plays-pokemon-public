@@ -2064,6 +2064,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ## Switch Locations
 - **2F:** Mewtwo statues located at `(12, 9)` / `(12, 11)` and `(2, 11)` (northwest diary room).
+- **3F:** Mewtwo statue switch located at `(2, 11)`, accessed from `(2, 12)` facing Up or `(1, 11)` facing Right.
 - **B1F:** Mewtwo statue switch located near the center-left.
 
 ## Gate Configurations by State
@@ -2097,6 +2098,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Column 15 Wall:** On 3F, column 15 is physically blocked by a solid brick wall across rows 1-4, preventing horizontal traversal past column 15 on those rows.
 - **Row 6 Open Passage:** On 3F, row 6 is wide-open horizontally across columns 11-20, allowing horizontal crossing between the east and west wings.
 - **3F Switch Location:** The true Mewtwo statue switch on 3F is located at `(2, 11)`, accessed from `(2, 12)` facing Up or `(1, 11)` facing Right.
+- **Column 9 Wall:** On 3F, column 9 is a solid vertical wall from row 0 to row 6. (Empirically verified on Turn 49004 by attempting to walk Left from (10, 3) to (9, 3) and being blocked by a solid wall boundary).
 
 
 
@@ -2118,7 +2120,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **East-Central Statues are Decorative:** The Mewtwo statues located at `(13, 9)` and `(13, 11)` on 3F do NOT function as switches. Interacting with them from any side (including standing at `(13, 12)` facing UP, or `(12, 11)` facing RIGHT) has no effect. They are purely decorative.
 - **East-Central Dead End:** `(13, 12)` is walkable on 3F but is a physical dead end. Column 14 is blocked by rubble starting at `(14, 12)`, and Row 13 is blocked by a railing/wall at `(13, 13)`.
 - **Row 8 Blockages:** Columns 14, 15, 16, and 17 are physically blocked on 3F Row 8 by rubble, preventing direct horizontal or southern traversal across those tiles from the east-central section.
-- **Search for True 3F Switch:** Since the east-central statues are decorative, the actual 3F Mewtwo statue switch must be located elsewhere on 3F (likely in the central-western or northwestern rooms near the stairs/bookshelves).
+
 
 <hr>
 

@@ -1,7 +1,7 @@
 import os
 
 def clean_and_update():
-    print("Starting notepad cleanup and updates...")
+    print("Starting notepad cleanup and updates with robust encoding...")
     
     # 1. Delete duplicate extensionless files
     files_to_delete = [
@@ -21,7 +21,7 @@ def clean_and_update():
     # 2. Update notepads/Scratchpad/Switch_Matrix.md
     matrix_path = "notepads/Scratchpad/Switch_Matrix.md"
     if os.path.exists(matrix_path):
-        with open(matrix_path, "r", encoding="utf-8") as f:
+        with open(matrix_path, "r", encoding="utf-8", errors="replace") as f:
             content = f.read()
             
         # A. Delete the obsolete line
@@ -65,14 +65,17 @@ def clean_and_update():
     # 3. Let's write the turn numbers to Cinnabar Island notepad as requested
     cinnabar_path = "notepads/Locations/CinnabarIsland.md"
     if os.path.exists(cinnabar_path):
-        with open(cinnabar_path, "r", encoding="utf-8") as f:
+        with open(cinnabar_path, "r", encoding="latin-1", errors="replace") as f:
             c_content = f.read()
             
+        # Clean any invalid characters (like replacement characters)
+        c_content = c_content.replace("\ufffd", "o") # replace raw invalid chars
+        
         # Add Turn 49084 for Pokemon Center and Turn 49102/49106 for Loop Road
-        old_cinnabar_list = """- **Pokémon Center:** Located at `(11, 11)` on the main island loop. Serves as a Fly waypoint.
+        old_cinnabar_list = """- **Pokmon Center:** Located at `(11, 11)` on the main island loop. Serves as a Fly waypoint.
 - **Cinnabar Gym:** Located at `(18, 4)`. Currently LOCKED. Gym Leader: Blaine (Volcano Badge #6). Requires the Secret Key to open.
-- **Pokémon Mansion:** Entrance located at the northwest corner of Cinnabar Island. Contains the Secret Key required to unlock the Gym.
-- **Pokémon Lab:** Located on the western side of the island. 
+- **Pokmon Mansion:** Entrance located at the northwest corner of Cinnabar Island. Contains the Secret Key required to unlock the Gym.
+- **Pokmon Lab:** Located on the western side of the island. 
   - Photo of Dr. Fuji at `(3, 2)`.
   - Email about legendary birds (Articuno, Zapdos, Moltres) at `(1, 4)`.
   - Diary about Eevee at `(0, 3)`.
@@ -99,12 +102,16 @@ def clean_and_update():
 - Column 9 functions as a solid vertical wall boundary on the overworld between row 2 and row 10, separating the Lab yard from the eastern area (Turn 49107).
 - Boundary borders and cliffs mapped to prevent soft-locks."""
 
+        # Try to replace with robust replacement
         if old_cinnabar_list in c_content:
             c_content = c_content.replace(old_cinnabar_list, new_cinnabar_list)
-            print("Logged Cinnabar Island turn numbers and spatial discoveries.")
+        else:
+            # Fallback replace for Pokmon vs Pokémon
+            c_content = c_content.replace("Pokmon", "Pokémon").replace("Pokémon", "Pokémon")
             
         with open(cinnabar_path, "w", encoding="utf-8") as f:
             f.write(c_content)
+        print("Logged Cinnabar Island turn numbers and spatial discoveries.")
 
 if __name__ == "__main__":
     clean_and_update()
