@@ -15,12 +15,10 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # 1. We are currently at (25, 5) on 1F in State B.
+    # 1. We are currently at (25, 3) on 1F in State B.
     # Walk to the 1F/2F stairs at (22, 2) and go up to 2F.
     print("Step 1: Walking to 2F stairs on 1F...")
     path_to_stairs_1f = [
-        ("Up", 25, 4),
-        ("Up", 25, 3),
         ("Up", 25, 2),
         ("Left", 24, 2),
         ("Left", 23, 2),
