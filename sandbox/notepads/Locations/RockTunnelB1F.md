@@ -93,10 +93,11 @@
 
 - Solid Horizontal Rock Walls:
   - Rows 14-15 across cols 20-37.
-  - Rows 22-23 across cols 16-23 (vertical passage connecting south chamber rows 24-27 to rows 20-21 is located at cols 24-25).
+  - Rows 22-23 across cols 8-23 (continuous solid barrier blocking southward descent from row 21).
   - Rows 28-29 across cols 2-13.
 
 - Solid Vertical Rock Walls:
+  - Cols 8-11 across rows 2-5 (separates Ladder 2 pocket cols 4-7 from central/eastern sectors).
   - Cols 12-13 across rows 5-13 and rows 18-27.
   - Cols 18-19 across rows 14-23.
   - Cols 30-31 across rows 16-27.
