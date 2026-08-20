@@ -8,6 +8,6 @@
 5. **1F North-West (Final Sector)**: Arrive at (3, 3). Navigate south down Western Corridor (cols 2-5) past trainers, through central-south vertical passage (cols 8-11 / 14-17) to Southern Highway (rows 30-33), and step down into exit doorway to Route 10 South!
 6. **Route 10 South & Lavender Town**: Arrive at Route 10 South, proceed directly south into Lavender Town.
 
-## Current Stage: Stage 2 (B1F SE -> Ladder 4 at 5, 3)
-- Position: B1F (31, 10)
-- Task: Move Left 3 to (28, 10), ascend Up 6 through western branch (cols 27-29) to North Highway at (28, 4), then navigate west to Ladder 4 at (5, 3).
+## Current Stage: Stage 5 (1F NW Final Sector -> South Exit)
+- Position: 1F (8, 21)
+- Task: Move west along row 21 to cols 2-4 (Western Corridor), then descend south through rows 22-34 to reach the South Exit doorway to Route 10 South.
