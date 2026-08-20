@@ -73,3 +73,5 @@
 - **Column 22 Rubble:** Blocked by solid rubble piles on rows 8, 9, 10, 12, 13 (verified on Turn 49185).
 - **Columns 4-7 Red Corridor:** Enclosed corridor on rows 10-18 in State B. Gate at column 3/4 is CLOSED on rows 12-20 in State B (verified on Turn 49212). Gate at column 7/8 is CLOSED on rows 10-20 in State B.
 - **Row 9 West Wall:** Solid horizontal wall across columns 2 to 7 on row 9 (empirically blocked on Turn 49251).
+
+- **3F gate at (24, 13) / (25, 13):** CLOSED in State B (verified on Turn 49350), OPEN in State A.
