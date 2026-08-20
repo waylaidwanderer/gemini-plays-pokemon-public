@@ -5,7 +5,7 @@
 
 ## Strict Sequential Waypoints (Do NOT Reverse Direction)
 - [x] **Waypoint 1 (Col 11 Descent Part 1)**: From (11, 6), walk 4 steps Down to (11, 10).
-- [ ] **Waypoint 2 (Col 11 Descent Part 2)**: From (11, 10), walk 4 steps Down to (11, 14).
+- [x] **Waypoint 2 (Col 11 Descent Part 2)**: From (11, 10), walk 4 steps Down to (11, 14).
 - [ ] **Waypoint 3 (Row 14 Crossway)**: From (11, 14), walk 4 steps Right to (15, 14).
 - [ ] **Waypoint 4 (Col 15 Descent)**: From (15, 14), walk 7 steps Down to (15, 21).
 - [ ] **Waypoint 5 (Vertical Connector to Bypass)**: From (15, 21), traverse south through cols 14-17 / rows 22-26 to row 27 at (15, 27).
