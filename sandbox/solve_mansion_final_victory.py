@@ -49,17 +49,14 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # We are at (5, 13) on 3F inside Mansion in State B.
+    # We are at (7, 11) on 3F inside Mansion in State B.
     # Let's walk to the pit at (25, 6)!
-    if pos == {'x': 5, 'y': 13}:
+    if pos == {'x': 7, 'y': 11}:
         path_to_pit = [
-            ("Up", 5, 12), ("Up", 5, 11),
-            ("Right", 6, 11), ("Right", 7, 11),
-            ("Down", 7, 12), ("Down", 7, 13),
-            ("Right", 8, 13), ("Right", 9, 13),
-            ("Up", 9, 12), ("Up", 9, 11), ("Up", 9, 10),
-            ("Right", 10, 10), ("Right", 11, 10), ("Right", 12, 10),
-            ("Up", 12, 9), ("Up", 12, 8), ("Up", 12, 7), ("Up", 12, 6), ("Up", 12, 5),
+            ("Up", 7, 10),
+            ("Right", 8, 10), ("Right", 9, 10), ("Right", 10, 10),
+            ("Up", 10, 9), ("Up", 10, 8), ("Up", 10, 7), ("Up", 10, 6), ("Up", 10, 5),
+            ("Right", 11, 5), ("Right", 12, 5),
             ("Right", 13, 5), ("Right", 14, 5), ("Right", 15, 5), ("Right", 16, 5), ("Right", 17, 5), ("Right", 18, 5), ("Right", 19, 5), ("Right", 20, 5), ("Right", 21, 5), # Gate (21, 5) is OPEN in State B!
             ("Up", 21, 4), ("Up", 21, 3),
             ("Right", 22, 3), ("Right", 23, 3), ("Right", 24, 3), ("Right", 25, 3), ("Right", 26, 3),
