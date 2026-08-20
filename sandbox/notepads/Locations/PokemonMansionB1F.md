@@ -5,11 +5,11 @@
   - Verification: Empirically verified on Turn 49921 after dropping over the 3F balcony railing at `(19, 18)` in State A.
 
 ## Key Targets
-- **SECRET KEY:** Located in the southwest room of B1F (columns 1-3, rows 20-22) on a table or on the ground.
-  - Verification: Northwest room (rows 1-3) was visually inspected on Turn 50019 and found to be completely empty. The Secret Key is actually in the southwest-most corner of B1F.
+- **SECRET KEY:** Located in the northwest room of B1F at `(1, 4)`.
+  - Verification: Empirically verified on Turn 46121. The item retrieved in the southwest room at `(1, 20)` was actually a Moon Stone, not the Secret Key.
   - Status: Open and accessible in State B!
-  - Retrieval Method: Navigate to columns 1-3 on row 20, find the Secret Key, and press `A` to retrieve it!
-  - Bag status: Has empty space (only 7/20 items).
+  - Retrieval Method: Stand at `(1, 4)` and press `A` to retrieve it.
+  - Bag status: Has empty space.
 
 ## Layout Constraints & Gate Status
 - **Mewtwo Statue Switch:** Located at `(2, 11)` (center-left room).
