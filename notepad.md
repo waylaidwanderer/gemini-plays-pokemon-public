@@ -1052,23 +1052,20 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel 1F - Vector A Traversal Plan (North Crossover to Eastern Sector)
+# Rock Tunnel - Comprehensive 5-Segment Traversal Plan
 
-## Primary Objective
-- Exit Rock Tunnel to Route 10 South and reach Lavender Town
+## High-Level Progression Chain
+1. **Segment 1 (Current)**: 1F North Entrance (15, 3) -> Ladder 3 at (23, 11) [Warp down to B1F (17, 11)].
+2. **Segment 2**: B1F (17, 11) -> Ladder 2 at (5, 3) [Warp up to 1F (27, 3)].
+3. **Segment 3**: 1F (27, 3) -> Eastern corridor south -> Ladder 1 [Warp down to B1F (33, 25)].
+4. **Segment 4**: B1F (33, 25) -> Row 27 bypass / South Highway -> Ladder 4 at (37, 17) [Warp up to 1F (3, 3)].
+5. **Segment 5**: 1F (3, 3) -> Western corridor south (cols 2-5) -> 1F South Exit to Route 10 South & Lavender Town!
 
-## Verified Physical Collision Facts on 1F
-- Rows 10-13 across cols 14-23 form an open horizontal highway.
-- Column 22 is open across rows 10-13, running parallel to Ladder 3 at (23, 11) to bypass ladder warps.
-- Rows 22-23 form a solid horizontal rock wall across cols 12-19.
-- Row 28 forms a solid rock wall across cols 2-13.
-- Eastern Sector (cols 26-37) connects at row 3 to the northern highway and extends south.
+## Physical Topology Discoveries
+- On 1F, cols 24-25 form a solid vertical rock wall across rows 0-7, separating the North-Central sector (cols 14-23) from the Eastern Sector (cols 26-37).
+- Direct horizontal walking from (23, 3) to (27, 3) on 1F is physically blocked by the rock wall. Must traverse via B1F ladders.
 
-## Vector A Execution Protocol
-1. Current position: (20, 13)
-2. Walk Right 2 steps to (22, 13).
-3. Ascend column 22 north 10 steps to row 3 at (22, 3), safely bypassing Ladder 3 at (23, 11).
-4. At (22, 3), walk East along row 3 across cols 23-27 into the Eastern Sector.
-5. In the Eastern Sector (cols 26-37), descend straight south towards the Route 10 South exit.
+## Immediate Routing: Segment 1 Execution
+- From (21, 3): Walk Right 2 steps to (23, 3), then Down 8 steps to (23, 11) to take Ladder 3 down to B1F (17, 11).
 
 <hr>
