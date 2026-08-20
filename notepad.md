@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=5, y=3)
+- Location: Rock Tunnel 1F (x=23, y=11)
 
 
 
@@ -1079,18 +1079,17 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel B1F - Route from Ladder 2 (5, 3) to SW Highway & Exit
+# Rock Tunnel 1F - Direct Route from (23, 11) to South Exit & Lavender Town
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel B1F at (5, 3)
-- Target: Navigate south through Western-Central channels into SW Highway (rows 30-33, cols 2-15) and locate Ladder 4.
+- Current Location: Rock Tunnel 1F at (23, 11)
+- Target: Walk west along row 13 into the Western Corridor (cols 2-5), then south down to row 33 to exit onto Route 10 South and reach Lavender Town.
 
 ## Planned Route
-1. Walk Down 6 along col 5 to (5, 9).
-2. Walk Right 4 along row 9 to (9, 9).
-3. Walk Down 4 along col 9 to (9, 13).
-4. Walk Right 6 to Central Room at (15, 13).
-5. Walk Down through cols 14-17 (Vertical Connector at rows 28-29) into SW Highway at (15, 30).
-6. Follow SW Highway west across cols 15..2 to locate Ladder 4.
+1. Walk Down 2 along col 23 to (23, 13).
+2. Walk Left 20 along row 13 to Western Corridor at (3, 13).
+3. Walk Down 20 along col 3 through rows 14-33 to the South Exit.
+4. Emerge onto Route 10 South -> walk south into Lavender Town.
+5. Heal party at Lavender Town Pokémon Center.
 
 <hr>
