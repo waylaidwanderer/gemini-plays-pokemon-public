@@ -2037,10 +2037,10 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 # Cinnabar Island - Spatial & Narrative Mapping
 
 ## Point of Interest Coordinates
-- **Pok�mon Center:** Located at `(11, 11)` on the main island loop. Serves as a Fly waypoint.
+- **Pokémon Center:** Located at `(11, 11)` on the main island loop. Serves as a Fly waypoint.
 - **Cinnabar Gym:** Located at `(18, 4)`. Currently LOCKED. Gym Leader: Blaine (Volcano Badge #6). Requires the Secret Key to open.
-- **Pok�mon Mansion:** Entrance located at the northwest corner of Cinnabar Island. Contains the Secret Key required to unlock the Gym.
-- **Pok�mon Lab:** Located on the western side of the island. 
+- **Pokémon Mansion:** Entrance located at the northwest corner of Cinnabar Island. Contains the Secret Key required to unlock the Gym.
+- **Pokémon Lab:** Located on the western side of the island. 
   - Photo of Dr. Fuji at `(3, 2)`.
   - Email about legendary birds (Articuno, Zapdos, Moltres) at `(1, 4)`.
   - Diary about Eevee at `(0, 3)`.
@@ -2098,6 +2098,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Column 15 Wall:** On 3F, column 15 is physically blocked by a solid brick wall across rows 1-4, preventing horizontal traversal past column 15 on those rows.
 - **Row 6 Open Passage:** On 3F, row 6 is wide-open horizontally across columns 11-20, allowing horizontal crossing between the east and west wings.
 - **3F Switch Location:** The true Mewtwo statue switch on 3F is located at `(2, 11)`, accessed from `(2, 12)` facing Up or `(1, 11)` facing Right.
+- **Column 9 Wall:** On 3F, column 9 is a solid vertical wall from row 0 to row 6. (Empirically verified on Turn 49004 by attempting to walk Left from (10, 3) to (9, 3) and being blocked by a solid wall boundary).
 - **Column 9 Wall:** On 3F, column 9 is a solid vertical wall from row 0 to row 6. (Empirically verified on Turn 49004 by attempting to walk Left from (10, 3) to (9, 3) and being blocked by a solid wall boundary).
 
 
