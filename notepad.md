@@ -2074,7 +2074,6 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ## Verified 2F Layout Constraints
 - **Column 15 Cabinets:** On 2F, column 15 is blocked by solid brown cabinets on rows 8-10, separating the column 15 corridor.
-- **Southeast Stairs Gate:** On 2F, the shutter gate at `(18, 8)` / `(19, 8)` is physically **CLOSED** in State A, blocking access to the stairs from the north (row 7). It is **OPEN** in State B, allowing entry.
 - **Rubble wall at column 7:** On 2F, column 7 is blocked by solid brick wall at rows 8-9, preventing direct northern traversal from (7, 10). Row 7 is open horizontally across columns 8-12 and can be accessed from column 11 or 12.
 
 ## Verified 3F Layout Constraints
