@@ -72,15 +72,24 @@ def main():
     pos = mgba.get_coordinates()
     print("Outside Lab! Position:", pos)
     
-    # 2. Walk to Mansion entrance (6, 3) via Eastern Road (Column 11)
-    if pos == {'x': 6, 'y': 10}:
+    # 2. Walk to Mansion entrance (6, 3) via Eastern Road (Column 11) using Row 12 for bypass
+    if pos['x'] <= 11 and pos['y'] >= 10:
         path_to_mansion = [
-            ("Down", 6, 11),
-            ("Right", 7, 11), ("Right", 8, 11), ("Right", 9, 11), ("Right", 10, 11), ("Right", 11, 11),
-            ("Up", 11, 10), ("Up", 11, 9), ("Up", 11, 8), ("Up", 11, 7), ("Up", 11, 6), ("Up", 11, 5), ("Up", 11, 4), ("Up", 11, 3),
+            ("Down", pos['x'], 11),
+            ("Down", pos['x'], 12),
+            ("Right", 6, 12), ("Right", 7, 12), ("Right", 8, 12), ("Right", 9, 12), ("Right", 10, 12), ("Right", 11, 12),
+            ("Up", 11, 11), ("Up", 11, 10), ("Up", 11, 9), ("Up", 11, 8), ("Up", 11, 7), ("Up", 11, 6), ("Up", 11, 5), ("Up", 11, 4), ("Up", 11, 3),
             ("Left", 10, 3), ("Left", 9, 3), ("Left", 8, 3), ("Left", 7, 3), ("Left", 6, 3),
         ]
+        # Skip steps that we already completed or are at
+        actual_path = []
         for d, tx, ty in path_to_mansion:
+            if tx == pos['x'] and ty == pos['y']:
+                actual_path = [] # reset to start from here
+                continue
+            actual_path.append((d, tx, ty))
+            
+        for d, tx, ty in actual_path:
             if not step_to(d, tx, ty):
                 return
                 
