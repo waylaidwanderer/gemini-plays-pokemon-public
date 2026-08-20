@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=33, y=17)
+- Location: Rock Tunnel B1F (x=5, y=3)
 
 
 
@@ -1079,16 +1079,18 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel 1F - Direct Route to Western Corridor & Exit
+# Rock Tunnel B1F - Route from Ladder 2 (5, 3) to SW Highway & Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (33, 17)
-- Target: Traverse row 17 west into the Western Corridor (cols 2-5) and follow it south to Route 10 South exit.
+- Current Location: Rock Tunnel B1F at (5, 3)
+- Target: Navigate south through Western-Central channels into SW Highway (rows 30-33, cols 2-15) and locate Ladder 4.
 
 ## Planned Route
-1. Flee wild Zubat at (33, 17).
-2. Continue west along row 17: (33, 17) -> (23, 17) -> (14, 17) -> (10, 17) -> (3, 17).
-3. From (3, 17), follow Western Corridor south along cols 2-5 down to row 33.
-4. Exit onto Route 10 South and proceed to Lavender Town.
+1. Walk Down 6 along col 5 to (5, 9).
+2. Walk Right 4 along row 9 to (9, 9).
+3. Walk Down 4 along col 9 to (9, 13).
+4. Walk Right 6 to Central Room at (15, 13).
+5. Walk Down through cols 14-17 (Vertical Connector at rows 28-29) into SW Highway at (15, 30).
+6. Follow SW Highway west across cols 15..2 to locate Ladder 4.
 
 <hr>
