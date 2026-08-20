@@ -2059,12 +2059,13 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Gate Configurations by State
 
 ### DEFAULT STATE (State A)
+- **3F shutter gates at `(18, 8)` / `(19, 8)`:** **OPEN** (Verified on Turn 50696; allows vertical traversal between row 7 and row 11 to reach the eastern stairs at `(15, 11)`).
 - **1F B1F stairs gate at `(18, 16)`/`(19, 16)`:** **CLOSED** (Blocks access to bottom-right of 1F).
 - **1F 1F/2F stairs gate at `(22, 2)`:** **CLOSED** (Blocks stairs going up to 2F).
 - **1F central gates at `(5, 8)`/`(6, 8)`/etc.:** **CLOSED** (Blocks north to south traversal).
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F stairs/warps).
 - **3F gate at `(10, 11)` / `(10, 12)` (Room Exit):** **OPEN** (Allows walking east to the rest of 3F).
-- **3F gate at `(21, 5)`:** **CLOSED** (Blocks column 21 access to northeast room/pit).
+- **3F gate at `(20, 5)`:** **CLOSED** (Blocks column 21 access to northeast room/pit).
 - **3F gate at `(20, 17)` / `(21, 17)` (Balcony Shutter):** **CLOSED** (Blocks access to balcony Row 18+).
 
 ### TOGGLED STATE (State B)
@@ -2074,7 +2075,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **2F stairs gate at `(5, 7)`:** **CLOSED** (Blocks Column 5).
 - **2F northeast gate at `(15, 5)`:** **OPEN** (Allows horizontal access to column 18).
 - **3F gate at `(10, 11)` / `(10, 12)` (Room Exit):** **CLOSED** (Blocks room at column 10).
-- **3F gate at `(21, 5)`:** **OPEN** (Allows access to column 21 and the northeast room/pit).
+- **3F gate at `(20, 5)`:** **OPEN** (Allows access to column 21 and the northeast room/pit).
 - **3F gate at `(20, 17)` / `(21, 17)` (Balcony Shutter):** **OPEN** (Allows access to balcony Row 18+).
 - **B1F Secret Key Room:** **OPEN**.
 
@@ -2107,7 +2108,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Press `A` to toggle the switch to **State B**!
 6. On 3F (State B), walk to the balcony drop on the east side of 3F:
    - From `(2, 12)`, walk Right to `(7, 12)` -> Down to `(7, 13)` -> Right to `(9, 13)` -> Up to `(9, 10)` (bypassing column 8 even-row pillars) -> Right to `(11, 10)`.
-   - Walk Up column 11 to `(11, 5)` -> Right along row 5 to `(21, 5)` (Gate at (21, 5) is OPEN in State B!).
+   - Walk Up column 11 to `(11, 5)` -> Right along row 5 to `(20, 5)` (Gate at (20, 5) is OPEN in State B!).
    - Walk Up to `(21, 3)` -> Right to `(26, 3)` (bypassing row 4 wall at cols 22-25) -> Down to `(26, 5)` -> Left to `(24, 5)`.
    - Walk Down column 24 to `(24, 7)`.
    - Walk Right to `(26, 7)` -> Down column 26 to `(26, 12)` (bypassing row 8 raised platform) -> Left to `(25, 12)` -> Down column 25 to `(25, 14)` -> Left to `(22, 14)` (bypassing row 13 railing at col 26).
