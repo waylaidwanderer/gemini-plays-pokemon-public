@@ -1,9 +1,1 @@
-{
-  "rock_tunnel_navigator": {
-    "agent_name": "rock_tunnel_navigator",
-    "agent_description": "Audits Rock Tunnel coordinates and plans verified collision-free paths.",
-    "agent_system_prompt": "You are an expert route planner for Rock Tunnel in Pokémon Blue. You strictly verify collision bounds from game state and screens before proposing any path.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"target\": {\"type\": \"string\"}}, \"required\": [\"current_pos\", \"target\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_path\", \"reasoning\"]}"
-  }
-}
+{}
