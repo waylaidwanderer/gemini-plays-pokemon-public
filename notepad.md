@@ -1067,17 +1067,17 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - B1F Traversal to Ladder 4 & Exit
+# Rock Tunnel B1F - Incremental Waypoint Clearance Plan
 
-## High-Level Progression
-1. [x] **1F Entrance**: North Entrance (15, 3) -> Ladder 3 at (23, 11) [Down to B1F (17, 11)].
-2. [x] **1F Eastern Sector Exploration**: Ladder 2 at (5, 3) -> 1F (27, 3). Confirmed 1F Eastern Sector is physically isolated from the south exit by continuous rock barriers at rows 20-21, rows 20-27 (cols 26-27), and row 28.
-3. [x] **Return to B1F**: Re-entered B1F at (5, 3) via Ladder 2.
-4. [ ] **B1F South-East Traversal (Active)**:
-   - Position: B1F (5, 3).
-   - Route south via cols 6-10 to row 14, down to row 27 bypass / Lower South Highway (rows 30-33).
-   - Traverse east across the South Highway to the Eastern Sector (cols 30-37).
-   - Ascend north along cols 34-37 to Ladder 4 at (37, 17) [Warp up to 1F (3, 3)].
-5. [ ] **1F Western Exit Corridor**: From 1F (3, 3), descend south down the Western Corridor (cols 2-5) to the South Exit (Route 10 South & Lavender Town).
+## Current Waypoint: B1F South-Central Corridor
+- Current Position: B1F (15, 21) (resolving battle).
+- Target Waypoint: Row 24 / Row 27 corridor access at (15, 24..27).
+
+## Step-by-Step Waypoint Survey Protocol
+1. [ ] **Waypoint 1**: From (15, 21), descend column 15 south to row 24 / row 27.
+2. [ ] **Waypoint 2**: Test east-west passage across rows 24-27 towards columns 26-30.
+3. [ ] **Waypoint 3**: Connect into Lower South Highway (rows 30-33) / Row 27 Northern Bypass.
+4. [ ] **Waypoint 4**: Ascend north along eastern columns (cols 34-37) to Ladder 4 at (37, 17).
+5. [ ] **Waypoint 5**: Take Ladder 4 up to 1F (3, 3) and proceed south down Western Corridor to South Exit.
 
 <hr>
