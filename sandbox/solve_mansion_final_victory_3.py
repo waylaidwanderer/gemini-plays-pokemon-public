@@ -44,17 +44,15 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Starting final mansion victory route from (7, 11)...")
+    print("Starting final mansion victory route from (9, 11)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
     print("Start position on 3F:", pos)
     
-    # Path from (7, 11) to switch position (11, 11)
+    # Path from (9, 11) to switch position (11, 11)
     path_to_switch = [
-        ("Right", 8, 11),
-        ("Right", 9, 11),
         ("Right", 10, 11), # OPEN in State A!
         ("Right", 11, 11),
     ]
