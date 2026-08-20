@@ -3,39 +3,52 @@ import time
 
 def handle_battle():
     print("Encountered battle or text! Escaping...")
+    # Advance any initial text
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     mgba.press_buttons(["A"])
     time.sleep(1.0)
+    # Move to RUN and press A
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(2.0)
     mgba.press_buttons(["B"])
     time.sleep(0.5)
 
-def step_to(direction, tx, ty):
+def step_to_robust(direction, tx, ty):
     pos = mgba.get_coordinates()
+    if pos['x'] == tx and pos['y'] == ty:
+        return True
+        
     print(f"At {pos}. Moving {direction} to ({tx}, {ty})...")
     mgba.press_buttons([direction])
     time.sleep(0.4)
     new_pos = mgba.get_coordinates()
     
     if new_pos == pos:
-        print("Did not move. Attempting to escape battle or clear text...")
-        handle_battle()
-        time.sleep(0.5)
+        # Turning in place or blocked
+        print("Coordinates did not change. Trying again...")
+        mgba.press_buttons([direction])
+        time.sleep(0.4)
         new_pos = mgba.get_coordinates()
+        
         if new_pos == pos:
-            print("Retrying movement step...")
-            mgba.press_buttons([direction])
-            time.sleep(0.4)
+            # Blocked or in battle
+            print("Still did not move. Checking for battle...")
+            handle_battle()
+            time.sleep(0.5)
             new_pos = mgba.get_coordinates()
-            
+            if new_pos == pos:
+                print("Retrying movement step...")
+                mgba.press_buttons([direction])
+                time.sleep(0.4)
+                new_pos = mgba.get_coordinates()
+                
     return new_pos['x'] == tx and new_pos['y'] == ty
 
 def follow_path(path):
     for d, tx, ty in path:
         attempts = 0
-        while not step_to(d, tx, ty):
+        while not step_to_robust(d, tx, ty):
             attempts += 1
             if attempts > 5:
                 print(f"Failed to move to ({tx}, {ty}) after 5 attempts.")
@@ -44,21 +57,20 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Starting final victory balcony drop route in State B from (9, 11)...")
+    print("Starting robust victory drop route from (9, 10)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
     print("Start position:", pos)
     
-    # Path from (9, 11) to the drop at (24, 14) via Row 3 and Row 5 (since we are already in State B)
+    # Path from current position (9, 10) to the drop at (24, 14) via Column 6, Row 3, Row 5
     path = [
         # 1. Walk Left to Column 6
-        ("Left", 8, 11),
-        ("Left", 7, 11),
-        ("Left", 6, 11),
+        ("Left", 8, 10),
+        ("Left", 7, 10),
+        ("Left", 6, 10),
         # 2. Walk UP column 6 to Row 3
-        ("Up", 6, 10),
         ("Up", 6, 9),
         ("Up", 6, 8),
         ("Up", 6, 7),
@@ -109,6 +121,9 @@ def run_main():
         return False
         
     print("At (24, 14). Dropping off balcony...")
+    # Double Left to turn and step Left to drop
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
     mgba.press_buttons(["Left"])
     time.sleep(3.0) # wait for warp/drop
     
