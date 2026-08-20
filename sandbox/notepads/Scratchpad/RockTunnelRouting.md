@@ -2,13 +2,13 @@
 
 ## Current Status
 - Active Floor: Rock Tunnel B1F
-- Current Position: (10, 21)
+- Current Position: (14, 14)
 - Target: Ladder 4 at (37, 17) -> 1F (3, 3) exit sector
 
-## Verified 5-Segment Direct Traversal Plan (Single-Axis Chunks)
-1. **Segment 1**: Ascend North along column 10 from (10, 21) to (10, 14) (7 steps Up).
-2. **Segment 2**: Traverse East along row 14 corridor from (10, 14) to (17, 14) (7 steps Right).
-3. **Segment 3**: Ascend North through column 17 gap from (17, 14) to row 13 at (17, 13) (1 step Up).
-4. **Segment 4**: Traverse East across North-East Highway (row 13) from (17, 13) to column 37 at (37, 13) (20 steps Right).
-5. **Segment 5**: Descend South down column 37 from (37, 13) to Ladder 4 at (37, 17) (4 steps Down).
+## Verified Traversal Route
+1. **Segment 1**: Descend South from (14, 14) to row 17 at (14, 17) (3 steps Down).
+2. **Segment 2**: Traverse East along row 17 corridor from (14, 17) across cols 15-26 (e.g. 10 steps Right to (24, 17)).
+3. **Segment 3**: Ascend North into the North-East Highway (rows 10-13, cols 26-37) via open passage at cols 26-29.
+4. **Segment 4**: Traverse East across rows 10-13 to column 37.
+5. **Segment 5**: Descend South down column 37 to Ladder 4 at (37, 17).
 6. **Destination**: Step onto Ladder 4 at (37, 17) to warp to 1F (3, 3) and exit south down Western Corridor to Route 10 South and Lavender Town.
