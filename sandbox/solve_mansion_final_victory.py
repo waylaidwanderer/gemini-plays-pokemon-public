@@ -58,16 +58,16 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Clear dialogue or other hanging menus first
+# Clear any hanging textbox first
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk from (17, 9) on 2F to (13, 12) (the front side of Mewtwo statue switch)
+# 1. Walk from current position (18, 8) to (13, 12) on 2F (front of switch)
 waypoints_to_switch = [
-    (17, 7),
-    (12, 7),
-    (12, 12),
-    (13, 12)
+    (18, 7),   # Step UP to open row 7 corridor first!
+    (12, 7),   # Walk Left to column 12
+    (12, 12),  # Walk Down to row 12
+    (13, 12)   # Walk Right to (13, 12) (front of Mewtwo statue switch)
 ]
 
 success_to = True
