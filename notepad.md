@@ -1077,17 +1077,13 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - Canonical Full Solution to Exit & Lavender Town
+# Rock Tunnel - Final Direct Solution to Exit & Lavender Town
 
-## Verified Route Through Rock Tunnel
-1. [DONE] Route 10 North -> 1F North Entrance (15, 3).
-2. [DONE] 1F (15, 3) -> East & South to Ladder 3 at (23, 11) -> B1F (17, 11).
-3. [CURRENT] B1F: From (12, 18) -> West to (9, 18), North up channel to (9, 9), East to (25, 9), South down East Channel (cols 24-26) to Row 27 Bypass -> Vertical Connector (cols 14-17) to Lower South Highway (rows 30-33) -> West to Ladder 4.
-4. Ladder 4 on B1F -> Warps up to 1F NW at (3, 3).
-5. On 1F NW: Walk south down Western Corridor (cols 2-5, rows 3-33) all the way to South Exit onto Route 10 South.
-6. Route 10 South -> Walk south straight into Lavender Town!
-
-## Current Navigation Step
-- From (12, 18): Left 3 to (9, 18), Up 9 to (9, 9) (Upper Crossway).
+## Verified Route to South Exit
+1. [DONE] North Sector 1F (23, 11) -> Ready to bypass to Southern Avenue.
+2. [CURRENT] From (23, 11): Up 8 to (23, 3), Right 11 to (34, 3), Down 14 to Southern Hall at (34, 17).
+3. [NEXT] From (34, 17): Left 14 to Southern Avenue at (20, 17), Down 9 to (20, 26).
+4. [NEXT] From (20, 26): Left 5 to Column 15 Exit Corridor at (15, 26), Down 8 past NPC at (14, 28) straight to South Exit at (15, 34).
+5. [GOAL] Exit Rock Tunnel onto Route 10 South -> Walk south straight into Lavender Town!
 
 <hr>
