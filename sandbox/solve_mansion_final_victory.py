@@ -49,70 +49,13 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Walk from (6, 4) to enter Mansion
-    if pos == {'x': 6, 'y': 4}:
-        print("Moving Up to (6, 3)...")
-        mgba.press_buttons(["Up"])
-        time.sleep(0.6)
-        pos = mgba.get_coordinates()
-        
-    if pos == {'x': 6, 'y': 3}:
-        print("Entering Mansion...")
-        mgba.press_buttons(["Up"])
-        time.sleep(2.5)
-        
-    pos = mgba.get_coordinates()
-    print("Inside Mansion 1F! Position:", pos)
-    
-    # 2. Path on 1F to stairs at (7, 10):
-    if pos['y'] > 20 and pos['x'] == 5:
-        path_1f = [
-            ("Up", 5, 26), ("Up", 5, 25), ("Up", 5, 24), ("Up", 5, 23), ("Up", 5, 22),
-            ("Right", 6, 22), ("Right", 7, 22),
-            ("Up", 7, 21), ("Up", 7, 20), ("Up", 7, 19), ("Up", 7, 18), ("Up", 7, 17),
-            ("Up", 7, 16), ("Up", 7, 15), ("Up", 7, 14), ("Up", 7, 13), ("Up", 7, 12),
-            ("Up", 7, 11), ("Up", 7, 10), # Stairs to 2F
-        ]
-        for d, tx, ty in path_1f:
-            if not step_to(d, tx, ty):
-                return
-                
-    elif pos['x'] == 7 and pos['y'] > 10:
-        path_1f = [
-            ("Up", 7, 14), ("Up", 7, 13), ("Up", 7, 12), ("Up", 7, 11), ("Up", 7, 10), # Stairs to 2F
-        ]
-        # Skip steps that we already completed or are at
-        actual_path = []
-        for d, tx, ty in path_1f:
-            if tx == pos['x'] and ty == pos['y']:
-                actual_path = [] # reset
-                continue
-            actual_path.append((d, tx, ty))
-        for d, tx, ty in actual_path:
-            if not step_to(d, tx, ty):
-                return
-                
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("Inside Mansion 2F! Position:", pos)
-    
-    # 3. Stairs from 2F to 3F are at (7, 10)
-    if pos == {'x': 7, 'y': 11}:
-        if not step_to("Up", 7, 10):
-            return
-    
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("Inside Mansion 3F! Position:", pos)
-    
-    # 4. Walk to the west-side switch at (2, 11) on 3F (State A)
-    if pos == {'x': 7, 'y': 11}:
+    # 1. Walk to the west-side switch at (2, 12) from our current position (5, 10) on 3F
+    if pos == {'x': 5, 'y': 10}:
         path_to_switch = [
-            ("Left", 6, 11),
-            ("Left", 5, 11),
-            ("Left", 4, 11),
-            ("Left", 3, 11),
-            ("Left", 2, 11),
+            ("Left", 4, 10),
+            ("Left", 3, 10),
+            ("Left", 2, 10),
+            ("Down", 2, 11),
             ("Down", 2, 12),
         ]
         for d, tx, ty in path_to_switch:
@@ -122,7 +65,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Reached switch! Position:", pos)
     
-    # 5. Face UP and press A to toggle switch at (2, 11)
+    # 2. Face UP and press A to toggle switch at (2, 11)
     if pos == {'x': 2, 'y': 12}:
         mgba.press_buttons(["Up"])
         time.sleep(0.5)
@@ -136,7 +79,7 @@ def main():
         mgba.press_buttons(["B"]) # Dismiss
         time.sleep(1.0)
         
-    # 6. Walk to Balcony Drop at (20, 18) on 3F (State B)
+    # 3. Walk to Balcony Drop at (20, 18) on 3F (State B)
     pos = mgba.get_coordinates()
     if pos == {'x': 2, 'y': 12}:
         print("Walking to the Balcony Drop...")
