@@ -50,46 +50,154 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (24, 5)...")
+    print("Starting absolute master route to B1F starting from (19, 16)...")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (24, 5) on 3F
-    if pos != {'x': 24, 'y': 5}:
-        print("Warning: not at (24, 5). Re-aligning...")
-        if pos['y'] != 5:
-            step_to("Down" if pos['y'] < 5 else "Up", pos['x'], 5)
+    # We should be at (19, 16) on 3F (State B)
+    if pos != {'x': 19, 'y': 16}:
+        print("Warning: not at (19, 16). Re-aligning...")
+        if pos['y'] != 16:
+            step_to("Down" if pos['y'] < 16 else "Up", pos['x'], 16)
         pos = mgba.get_coordinates()
-        if pos['x'] != 24:
-            step_to("Left" if pos['x'] > 24 else "Right", 24, 5)
+        if pos['x'] != 19:
+            step_to("Left" if pos['x'] > 19 else "Right", 19, 16)
             
-    # Walk the State B path on 3F to the East Balcony drop
-    print("--- 3F (State B): Walking to East Balcony drop ---")
-    path_to_drop = [
-        ("Down", 24, 6),
+    # 1. Walk from (19, 16) to switch at (2, 12) in State B
+    print("--- 3F (State B): Walking to switch at (2, 12) ---")
+    path_to_switch = [
+        ("Right", 20, 16),
+        ("Right", 21, 16),
+        ("Right", 22, 16),
+        ("Right", 23, 16),
+        ("Right", 24, 16),
+        ("Up", 24, 15),
+        ("Up", 24, 14),
+        ("Right", 25, 14),
+        ("Up", 25, 13),
+        ("Up", 25, 12),
+        ("Right", 26, 12),
+        ("Up", 26, 11),
+        ("Up", 26, 10),
+        ("Up", 26, 9),
+        ("Up", 26, 8),
+        ("Left", 25, 8),
+        ("Left", 24, 8),
+        ("Up", 24, 7),
+        ("Up", 24, 6),
+        ("Up", 24, 5),
+        ("Right", 25, 5),
+        ("Right", 26, 5),
+        ("Up", 26, 4),
+        ("Up", 26, 3),
+        ("Left", 25, 3),
+        ("Left", 24, 3),
+        ("Left", 23, 3),
+        ("Left", 22, 3),
+        ("Left", 21, 3),
+        ("Down", 21, 4),
+        ("Down", 21, 5), # Gate (21, 5) is OPEN in State B!
+        ("Left", 20, 5),
+        ("Left", 19, 5),
+        ("Left", 18, 5),
+        ("Left", 17, 5),
+        ("Left", 16, 5),
+        ("Left", 15, 5),
+        ("Left", 14, 5),
+        ("Left", 13, 5),
+        ("Left", 12, 5), # We are back at Column 12 Row 5
+        ("Down", 12, 6),
+        ("Down", 12, 7),
+        ("Down", 12, 8),
+        ("Down", 12, 9),
+        ("Down", 12, 10),
+        ("Left", 11, 10),
+        ("Left", 10, 10), # Column 10 Row 10 is OPEN!
+        ("Left", 9, 10),
+        ("Down", 9, 11),
+        ("Left", 8, 11),
+        ("Left", 7, 11),
+        ("Left", 6, 11),
+        ("Left", 5, 11),
+        ("Left", 4, 11),
+        ("Down", 4, 12),
+        ("Down", 4, 13),
+        ("Left", 3, 13),
+        ("Left", 2, 13),
+        ("Up", 2, 12),
+    ]
+    if not follow_path(path_to_switch):
+        mgba.take_screenshot()
+        return
+        
+    # Toggle switch to State A
+    print("Facing Up to toggle switch...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    print("Toggling switch to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"]) # YES
+    time.sleep(1.0)
+    mgba.press_buttons(["B"]) # Close dialogue
+    time.sleep(1.0)
+    
+    # 2. Walk to East Balcony drop on 3F (State A)
+    print("--- 3F (State A): Walking to East Balcony drop ---")
+    path_to_drop_a = [
+        ("Down", 2, 13),
+        ("Right", 3, 13),
+        ("Right", 4, 13),
+        ("Up", 4, 12),
+        ("Up", 4, 11),
+        ("Right", 5, 11),
+        ("Right", 6, 11),
+        ("Right", 7, 11),
+        ("Right", 8, 11),
+        ("Right", 9, 11),
+        ("Right", 10, 11), # Column 10 Row 11 is OPEN in State A!
+        ("Right", 11, 11),
+        ("Right", 12, 11),
+        ("Up", 12, 10),
+        ("Up", 12, 9),
+        ("Up", 12, 8),
+        ("Up", 12, 7),
+        ("Up", 12, 6),
+        ("Right", 13, 6),
+        ("Right", 14, 6),
+        ("Right", 15, 6),
+        ("Right", 16, 6),
+        ("Right", 17, 6),
+        ("Right", 18, 6),
+        ("Right", 19, 6),
+        ("Right", 20, 6),
+        ("Right", 21, 6),
+        ("Right", 22, 6),
+        ("Right", 23, 6),
+        ("Right", 24, 6),
         ("Down", 24, 7),
-        ("Right", 25, 7),
-        ("Right", 26, 7),
-        ("Down", 26, 8),
-        ("Down", 26, 9),
-        ("Down", 26, 10),
-        ("Down", 26, 11),
-        ("Down", 26, 12),
-        ("Left", 25, 12),
-        ("Down", 25, 13),
-        ("Down", 25, 14),
-        ("Left", 24, 14),
+        ("Down", 24, 8),
+        ("Down", 24, 9),
+        ("Down", 24, 10),
+        ("Down", 24, 11),
+        ("Down", 24, 12),
+        ("Down", 24, 13), # Gate at (24, 13) is OPEN in State A!
+        ("Down", 24, 14),
         ("Left", 23, 14),
         ("Left", 22, 14),
         ("Down", 22, 15),
         ("Left", 21, 15), # Enter balcony doorway
-        ("Left", 20, 15), # Onto balcony
+        ("Left", 20, 15), # Inside balcony doorway
+        ("Down", 20, 16),
+        ("Down", 20, 17), # Gate (20, 17) is OPEN in State A!
+        ("Down", 20, 18), # Onto balcony
     ]
-    if not follow_path(path_to_drop):
+    if not follow_path(path_to_drop_a):
         mgba.take_screenshot()
         return
         
-    print("At (20, 15). Stepping Left to drop...")
+    print("At (20, 18). Stepping Left to drop...")
     mgba.press_buttons(["Left"])
     time.sleep(3.0) # wait for falling warp
     
