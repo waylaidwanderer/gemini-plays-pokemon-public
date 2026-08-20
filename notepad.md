@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=20, y=7)
+- Location: Rock Tunnel 1F (x=15, y=7)
 
 
 
@@ -965,7 +965,7 @@
 
 | Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 6954, 7556 |
 | Ladder 2 | 1F (27, 3) | B1F (5, 3) | North-Central 1F <-> North-West B1F | Turns 4364, 6104, 6401 |
-| Ladder 3 | 1F (23, 11) | B1F (17, 11) | Central 1F <-> Central B1F | Turns 6131, 6308, 7243 |
+| Ladder 3 | 1F (17, 11) | B1F (17, 11) | Central 1F <-> Central B1F | Turns 6131, 6308, 7243 |
 | Ladder 4 | 1F (3, 3) | B1F (37, 17) | Far North-West 1F <-> East-Central B1F | Turns 4921, 5082, 5580 |
 
 
