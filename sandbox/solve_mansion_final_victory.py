@@ -15,20 +15,18 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (13, 12) on 2F in State B
+    # Current: (9, 12) on 2F in State B
     # 1. Walk to northwest switch at (2, 12) on 2F
     print("Step 1: Walking to northwest switch on 2F...")
     path_to_nw_switch = [
-        ("Left", 12, 12),
-        ("Left", 11, 12),
-        ("Left", 10, 12),
-        ("Left", 9, 12),
-        ("Left", 8, 12),
-        ("Left", 7, 12),
-        ("Left", 6, 12),
-        ("Left", 5, 12),
-        ("Left", 4, 12),
-        ("Left", 3, 12),
+        ("Up", 9, 11),
+        ("Left", 8, 11),
+        ("Left", 7, 11),
+        ("Left", 6, 11),
+        ("Left", 5, 11),
+        ("Left", 4, 11),
+        ("Left", 3, 11),
+        ("Down", 3, 12),
         ("Down", 3, 13),
         ("Left", 2, 13),
         ("Left", 1, 13),
