@@ -3,8 +3,8 @@ import time
 
 def handle_battle():
     print("Encountered battle or text! Escaping...")
-    # Highly robust escape sequence: press B twice to clear submenus,
-    # then Down, Right to highlight RUN, then A to select RUN.
+    # Safe escape sequence: press B twice to close any menus/text,
+    # then Down, Right to guarantee we hover RUN, then A to select RUN.
     mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000", "B"])
 
 def step_to(direction, tx, ty):
@@ -50,28 +50,32 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting master landing route to B1F via State B balcony drop...")
+    print("Starting master landing route 4 from (5, 13)...")
     pos = mgba.get_coordinates()
-    print("Current position:", pos)
+    print("Starting position:", pos)
     
-    # 1. Walk Left to (2, 12) on 3F in State A
-    print("--- STEP 1: Walking to switch at (2, 12) ---")
-    path_to_switch = []
-    curr_x = pos['x']
-    while curr_x > 2:
-        curr_x -= 1
-        path_to_switch.append(("Left", curr_x, 12))
-        
+    if pos != {'x': 5, 'y': 13}:
+        print("Warning: Starting position is not (5, 13). Re-aligning...")
+        # If we are near, let's step to (5, 13)
+        if pos['y'] != 13:
+            step_to("Down" if pos['y'] < 13 else "Up", pos['x'], 13)
+        pos = mgba.get_coordinates()
+        if pos['x'] != 5:
+            step_to("Left" if pos['x'] > 5 else "Right", 5, 13)
+            
+    # 1. Walk Left along Row 13 to (2, 13)
+    path_to_switch = [
+        ("Left", 4, 13),
+        ("Left", 3, 13),
+        ("Left", 2, 13),
+        ("Up", 2, 12),
+    ]
     if not follow_path(path_to_switch):
-        print("Failed to reach switch position.")
+        print("Failed to reach switch area.")
         mgba.take_screenshot()
         return
         
     # 2. Toggle switch at (2, 11) to State B
-    print("Facing Up to toggle switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
     print("Toggling switch to State B...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
@@ -80,8 +84,8 @@ def main():
     mgba.press_buttons(["B"]) # Close dialogue
     time.sleep(1.0)
     
-    # 3. Walk to balcony drop at (24, 14) in State B
-    print("--- STEP 3: Walking to balcony drop on 3F (State B) ---")
+    # 3. Walk to balcony drop at (24, 14) on 3F in State B
+    print("Walking to the balcony drop on 3F (State B)...")
     path_to_drop = [
         ("Right", 3, 12),
         ("Up", 3, 11),
