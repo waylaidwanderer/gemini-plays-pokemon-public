@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=12, y=21)
+- Location: Rock Tunnel B1F (x=9, y=21)
 
 
 
@@ -1050,7 +1050,7 @@
 
 ## Strict Sequential Execution Checklist
 - [x] **Step 1 (Descend to Row 21)**: From (16, 18), walk 3 steps Down to (16, 21).
-- [ ] **Step 2 (Row 21 West to Col 9)**: From (16, 21), walk 7 steps Left along row 21 to (9, 21).
+- [x] **Step 2 (Row 21 West to Col 9)**: From (16, 21), walk 7 steps Left along row 21 to (9, 21).
 - [ ] **Step 3 (Col 9 Descent to South Highway)**: From (9, 21), walk 9 steps Down along column 9 to row 30 at (9, 30).
 - [ ] **Step 4 (South Highway East to Vertical Connector)**: From (9, 30), walk 6 steps Right along row 30 to (15, 30).
 - [ ] **Step 5 (Vertical Connector Ascent to Row 27)**: From (15, 30), walk 3 steps Up to row 27 at (15, 27).
