@@ -2105,8 +2105,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Walk Up to `(21, 3)` -> Right to `(26, 3)` (bypassing row 4 wall at cols 22-25) -> Down to `(26, 5)` -> Left to `(24, 5)`.
    - Walk Down column 24 to `(24, 7)`.
    - Walk Right to `(26, 7)` -> Down column 26 to `(26, 12)` (bypassing row 8 raised platform) -> Left to `(25, 12)` -> Down column 25 to `(25, 14)` -> Left to `(22, 14)` (bypassing row 13 railing at col 26).
-   - Enter balcony doorway at `(21, 15)` and step on the balcony at `(20, 15)`.
-7. Step Left on the balcony to find the true drop edge!
+   - Enter balcony doorway at `(21, 15)` and step onto the landing at `(20, 15)`.
+   - Walk Down through the open shutter gate at `(20, 17)` to `(20, 18)`.
+7. Step Left onto `(19, 18)` to drop over the balcony railing to B1F!
 ## Turn 48635 Empirical Discoveries & Corrections
 - **East-Central Statues are Decorative:** The Mewtwo statues located at `(13, 9)` and `(13, 11)` on 3F do NOT function as switches. Interacting with them from any side (including standing at `(13, 12)` facing UP, or `(12, 11)` facing RIGHT) has no effect. They are purely decorative.
 - **East-Central Dead End:** `(13, 12)` is walkable on 3F but is a physical dead end. Column 14 is blocked by rubble starting at `(14, 12)`, and Row 13 is blocked by a railing/wall at `(13, 13)`.
