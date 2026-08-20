@@ -51,3 +51,8 @@
 10. Western-Eastern Divider (rows 20-27, cols 26-27):
     - Solid 2-tile wide vertical rock wall across cols 26-27 continuously separates Western Avenue (cols 20-25) from Eastern Hall (cols 28-37) across all rows 20 to 27. [Empirically Verified Turn 8498]
 - **Western-Central Divider (rows 18-25, cols 12-13)**: Solid vertical rock wall. East-west passage connecting Central Corridor (col 14) to Western Corridor (cols 10-11) is located at row 17.
+
+- **Verified Eastern Sector & Bypass Traversal (Turns 8934-8938)**:
+  - Warped to 1F Eastern Sector at (27, 3) via Ladder 2 from B1F (5, 3).
+  - Traversed south along col 27 to row 11, east along row 11 across cols 28-34, and south down the Eastern Bypass (cols 32-37) past the row 14-15 rock barrier into the Southern Hall (rows 16-19) at (34, 17).
+  - Row 17 connects cols 20-37 continuously west into the Southern Avenue (cols 20-25).
