@@ -48,67 +48,58 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Starting route to (11, 11) to toggle 3F switch...")
+    print("Starting corrected 3F switch toggle sequence...")
     
-    # We are currently at (2, 11) on 3F
-    path = [
-        # 1. Move Down to (2, 13)
-        ("Down", 2, 12),
-        ("Down", 2, 13),
-        
-        # 2. Move Right to (10, 13)
-        ("Right", 3, 13),
-        ("Right", 4, 13),
-        ("Right", 5, 13),
-        ("Right", 6, 13),
-        ("Right", 7, 13),
-        ("Right", 8, 13),
-        ("Right", 9, 13),
-        ("Right", 10, 13),
-        
-        # 3. Move Up to (10, 11)
-        ("Up", 10, 12),
-        ("Up", 10, 11),
-        
-        # 4. Move Right to (11, 11)
-        ("Right", 11, 11),
-    ]
-    
-    success = True
-    for direction, tx, ty in path:
-        if not step_to(direction, tx, ty):
-            print(f"Failed to reach ({tx}, {ty})!")
-            success = False
-            break
-            
-    if success:
-        print("Successfully reached (11, 11)! Toggling switch at (12, 11) facing Right with Gen 1 timing...")
-        # Face Right, wait 250ms, press A, wait 600ms, press A, wait 600ms, press B
-        mgba.press_buttons(["Right", "sleep 250", "A", "sleep 600", "A", "sleep 600", "B"])
-        time.sleep(2.5)
-        
-        # Take screenshot of toggle result
+    # 1. We are currently at (12, 11). Move Left to (11, 11)
+    if not step_to("Left", 11, 11):
+        print("Failed to reach (11, 11)!")
         mgba.take_screenshot()
+        return
         
-        # Now let's test if the gate at (10, 11) is CLOSED (State B)
-        print("Testing if gate is CLOSED by stepping Left to (10, 11)...")
-        mgba.press_buttons(["Left"])
+    print("Successfully reached (11, 11). Turning face Right...")
+    # 2. Press raw "Right" to turn in place
+    mgba.press_buttons(["Right"])
+    time.sleep(0.5) # Wait for turn animation to complete
+    
+    # 3. Toggle the switch at (12, 11)
+    print("Pressing A to interact with the switch at (12, 11)...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    mgba.take_screenshot()
+    
+    # Press A to select YES, press A to dismiss, press B to close
+    print("Pressing A to select YES on switch...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    print("Pressing A to dismiss text...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    print("Pressing B to close dialogue...")
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
+    mgba.take_screenshot()
+    
+    # 4. Now test if the gate at (10, 11) is CLOSED (State B)
+    print("Testing if gate is CLOSED by stepping Left to (10, 11)...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    
+    pos_after = mgba.get_coordinates()
+    print("Coordinates after attempting Left:", pos_after)
+    
+    if pos_after == {'x': 10, 'y': 11}:
+        print("GATE IS OPEN! Switch toggle failed.")
+        # Move back Right to (11, 11)
+        mgba.press_buttons(["Right"])
         time.sleep(0.5)
-        
-        pos_after = mgba.get_coordinates()
-        print("Coordinates after attempting Left:", pos_after)
-        
-        if pos_after == {'x': 10, 'y': 11}:
-            print("GATE IS OPEN! Switch toggle failed.")
-            # Move back Right to (11, 11)
-            mgba.press_buttons(["Right"])
-            time.sleep(0.5)
-        else:
-            print("GATE IS CLOSED! SWITCH TOGGLE SUCCESSFUL!!! Global state is now State B!")
-            
-        mgba.take_screenshot()
     else:
-        mgba.take_screenshot()
+        print("GATE IS CLOSED! SWITCH TOGGLE SUCCESSFUL!!! Global state is now State B!")
+        
+    mgba.take_screenshot()
 
 if __name__ == "__main__":
     main()
