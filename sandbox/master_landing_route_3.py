@@ -50,46 +50,26 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F via East Balcony...")
+    print("Starting absolute master route to B1F from current position...")
+    pos = mgba.get_coordinates()
+    print("Current position:", pos)
     
-    # 1. Enter the Mansion from (6, 4) outside
-    pos = mgba.get_coordinates()
-    if pos == {'x': 6, 'y': 4}:
-        print("Entering Mansion...")
-        mgba.press_buttons(["Up"])
-        time.sleep(2.0) # wait for map transition
-        
-    pos = mgba.get_coordinates()
-    print("Position inside Mansion 1F:", pos)
-    if pos != {'x': 5, 'y': 27}:
-        print("Warning: unexpected entrance position.")
-        # If we didn't enter, try again
-        mgba.press_buttons(["Up"])
-        time.sleep(2.0)
+    # We should be at (10, 11) on 1F
+    if pos != {'x': 10, 'y': 11}:
+        print("Warning: not at (10, 11). Re-aligning...")
+        if pos['y'] != 11:
+            step_to("Down" if pos['y'] < 11 else "Up", pos['x'], 11)
         pos = mgba.get_coordinates()
-        
-    # 2. Walk to 1F stairs at (7, 10)
+        if pos['x'] != 10:
+            step_to("Left" if pos['x'] > 10 else "Right", 10, 11)
+            
+    # 1. Walk Left to (7, 11) and ascend to 2F
     print("--- 1F: Walking to stairs at (7, 10) ---")
     path_to_stairs_1f = [
-        ("Up", 5, 26),
-        ("Up", 5, 25),
-        ("Up", 5, 24),
-        ("Up", 5, 23),
-        ("Up", 5, 22),
-        ("Up", 5, 21),
-        ("Up", 5, 20),
-        ("Up", 5, 19),
-        ("Up", 5, 18),
-        ("Up", 5, 17),
-        ("Up", 5, 16),
-        ("Up", 5, 15),
-        ("Up", 5, 14),
-        ("Up", 5, 13),
-        ("Up", 5, 12),
-        ("Up", 5, 11),
-        ("Up", 5, 10),
-        ("Right", 6, 10),
-        ("Right", 7, 10), # Ascend to 2F
+        ("Left", 9, 11),
+        ("Left", 8, 11),
+        ("Left", 7, 11),
+        ("Up", 7, 10), # Ascend to 2F
     ]
     if not follow_path(path_to_stairs_1f):
         mgba.take_screenshot()
@@ -99,7 +79,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Position on 2F:", pos)
     
-    # 3. Ascend to 3F (stairs are at same location 7, 10)
+    # 2. Ascend to 3F (stairs are at same location 7, 10)
     print("--- 2F: Ascending to 3F ---")
     if pos == {'x': 7, 'y': 11}:
         if not step_to("Up", 7, 10):
@@ -111,7 +91,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Position on 3F:", pos)
     
-    # 4. Walk to switch at (2, 11) on 3F (State A)
+    # 3. Walk to switch at (2, 11) on 3F (State A)
     print("--- 3F: Walking to switch at (2, 12) ---")
     path_to_switch = [
         ("Down", 7, 12),
@@ -138,7 +118,7 @@ def main():
     mgba.press_buttons(["B"]) # Close dialogue
     time.sleep(1.0)
     
-    # 5. Walk to East Balcony drop on 3F (State B)
+    # 4. Walk to East Balcony drop on 3F (State B)
     print("--- 3F (State B): Walking to East Balcony drop ---")
     path_to_drop = [
         ("Right", 3, 12),
