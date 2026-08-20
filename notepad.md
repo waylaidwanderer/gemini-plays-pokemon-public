@@ -907,7 +907,7 @@
    - Vertical and horizontal corridors connecting central ladder (23, 11) and north entrance (15, 3).
 4. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
-   - Ladder 1 located at (37, 3) connects to B1F (33, 25).
+   - Ladder 1 Arrival located at (37, 3) from B1F (33, 25) [1-way arrival on 1F].
    - Ladder 2 located at (27, 3) connects to B1F (5, 3).
 
 ## Verified Trainers & Encounters
