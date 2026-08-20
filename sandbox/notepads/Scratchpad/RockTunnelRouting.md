@@ -12,13 +12,21 @@
 | Ladder 5 Ascent | B1F (23, 11) | 1F (17, 11) | B1F Central -> 1F Central | Turn 6837 |
 | Ladder 5 Descent | 1F (17, 11) | B1F (23, 11) | 1F Central -> B1F Central | Turns 6131, 7054 |
 
-## Verified Northern Bypass (Turn 7501)
-- From (14, 2), step Left to (13, 2), Up to (13, 0) / (13, -1).
-- Row -1 / 0 connects west across to cols 10-11.
-- Cols 10-11 descends south through the Central Vertical Thoroughfare directly to row 16-21.
-- Middle Thoroughfare at rows 14-16 connects to the southern thoroughfares to reach the 1F south exit.
+## Verified Topology & 1F Passage Routes (Turns 7450-7528)
+- Rows 14-15 Rock Wall: Spans continuously across cols 18 to 37. Stepping Down from row 13 into row 14 is blocked at all cols 18-37.
+- Open Vertical Corridors through Rows 14-15 on 1F:
+  1. Column 17: (17, 14..15) is completely open floor connecting (17, 10..13) directly down into (17, 16..17).
+  2. Middle Thoroughfare (rows 14-16, cols 8-16): Connects the Central Vertical Thoroughfare (cols 8-11) directly to (17, 16).
+- South Sector Routing from (17, 16):
+  - Descend south down cols 14-17 (rows 16-27).
+  - Move west along row 25-27 to (14, 26).
+  - Descend south down cols 14-17 to row 30-33 (the 1F Southern Highway).
+  - Step Down into the exit doorway to trigger transition to Route 10 South!
+
+## Verified 1-Turn Flee Protocol
+- Sequence: `["B", "B", "B", "Down", "Right", "A", "B"]` (100% 1-turn success rate).
 
 ## Current Navigation Step
-- Current Position: 1F (14, 2)
-- Target: Navigate through northern bypass (13, 2 -> 13, 0 -> 10, 0) into Central Vertical Thoroughfare (cols 10-11) and descend south to row 16-21.
-- Immediate Step: Move Left 1 to (13, 2), Up 2 to (13, 0), Left 3 to (10, 0), and Down south along cols 10-11.
+- Current Position: 1F (27, 13)
+- Target: Reach Column 17 corridor / Middle Thoroughfare to descend to row 16-19 and the 1F southern sector.
+- Immediate Step: Move Left 6 to (21, 13), Up 6 to (21, 7), Left 7 to (14, 7), and navigate through confirmed open floor to row 16.
