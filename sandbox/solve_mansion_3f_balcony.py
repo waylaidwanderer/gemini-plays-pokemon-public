@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting 3F balcony route from:", get_pos())
+print("Starting corrected 3F balcony route from:", get_pos())
 
 def handle_battle():
     print("Battle or block! Clearing screens...")
@@ -55,17 +55,15 @@ def step_to(tx, ty):
                 return False
     return False
 
-# Route to balcony
+# Corrected path from current position (6, 13) to B1F balcony drop
 path = [
-    # Right to (7, 12)
-    (3, 12), (4, 12), (5, 12), (6, 12), (7, 12),
-    # Down to (7, 13)
-    (7, 13),
-    # Right to (9, 13)
-    (8, 13), (9, 13),
-    # Up to (9, 10)
-    (9, 12), (9, 11), (9, 10),
-    # Right to (11, 10)
+    # Go Up to row 11
+    (6, 12), (6, 11),
+    # Go Right to column 9
+    (7, 11), (8, 11), (9, 11),
+    # Go Up to row 10
+    (9, 10),
+    # Go Right to column 11
     (10, 10), (11, 10),
     # Up to (11, 5)
     (11, 9), (11, 8), (11, 7), (11, 6), (11, 5),
