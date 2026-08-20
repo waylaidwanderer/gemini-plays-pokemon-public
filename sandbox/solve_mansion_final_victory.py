@@ -15,37 +15,18 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # 1. Walk from (9, 9) back to northwest switch at (1, 11) on 2F (State B)
-    print("Step 1: Walking back to northwest switch at (1, 11)...")
-    path_to_nw_switch = [
-        ("Left", 8, 9),
-        ("Left", 7, 9),
-        ("Left", 6, 9),
-        ("Left", 5, 9),
-        ("Down", 5, 10),
-        ("Down", 5, 11),
-        ("Down", 5, 12),
-        ("Down", 5, 13),
-        ("Left", 4, 13),
-        ("Left", 3, 13),
-        ("Left", 2, 13),
-        ("Left", 1, 13),
-        ("Up", 1, 12),
-        ("Up", 1, 11),
-    ]
-    for d, tx, ty in path_to_nw_switch:
-        if not walk_step(d, tx, ty):
-            mgba.take_screenshot()
-            return False
-            
-    # 2. Toggle switch to State A (from (1, 11) facing Right)
-    print("Step 2: Toggling switch to State A...")
+    # Current: (1, 11) on 2F (State B, facing Up/Right?)
+    # 1. Turn Right and toggle the switch to State A
+    print("Step 1: Turning Right to face the switch...")
     mgba.press_buttons(["Right"])
-    time.sleep(0.4)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "A", "sleep 600", "A"])
+    time.sleep(0.5)
+    
+    print("Step 2: Toggling switch to State A...")
+    # Multi-page switch dialogue
+    mgba.press_buttons(["A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "B", "sleep 500"])
     time.sleep(1.0)
     
-    # 3. Walk to east side of column 14 on 2F in State A (row 11 gate is open!)
+    # 2. Walk to the east side of column 14 in State A (via row 11)
     print("Step 3: Walking to east side in State A...")
     path_to_east_side = [
         ("Down", 1, 12),
@@ -71,7 +52,7 @@ def solve_all():
             mgba.take_screenshot()
             return False
             
-    # 4. Walk to central Mewtwo switch at (12, 9) and toggle to State B
+    # 3. Walk to central Mewtwo switch at (12, 9) and toggle to State B
     print("Step 4: Walking to central Mewtwo switch and toggling to State B...")
     path_to_central_switch = [
         ("Up", 14, 10),
@@ -83,14 +64,15 @@ def solve_all():
             mgba.take_screenshot()
             return False
             
-    # Stand at (13, 9) face Left and press A
+    # Stand at (13, 9) face Left and press A to toggle switch
+    print("Step 5: Toggling central switch to State B...")
     mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "A", "sleep 600", "A"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "B", "sleep 500"])
     time.sleep(1.0)
     
-    # 5. Walk to (18, 8) stairs in State B (since we are on the east side!)
-    print("Step 5: Walking to (18, 8) stairs in State B...")
+    # 4. Walk to (18, 8) stairs in State B
+    print("Step 6: Walking to (18, 8) stairs in State B...")
     path_to_stairs = [
         ("Right", 14, 9),
         ("Up", 14, 8),
@@ -108,13 +90,13 @@ def solve_all():
             return False
             
     # Step onto (18, 8) stairs to warp to 3F in State B
-    print("Step 6: Ascending to 3F in State B...")
+    print("Step 7: Ascending to 3F in State B...")
     mgba.press_buttons(["Down"])
     time.sleep(1.2)
     print("Warp complete! Position on 3F:", mgba.get_coordinates())
     
-    # 6. Walk to balcony drop on 3F (State B)
-    print("Step 7: Walking to balcony drop on 3F...")
+    # 5. Walk to balcony drop on 3F (State B)
+    print("Step 8: Walking to balcony drop on 3F...")
     path_to_balcony = [
         ("Up", 18, 7),
         ("Up", 18, 6),
@@ -141,7 +123,7 @@ def solve_all():
             return False
             
     # Drop to 1F!
-    print("Step 8: Dropping to 1F...")
+    print("Step 9: Dropping to 1F...")
     mgba.press_buttons(["Left"])
     time.sleep(1.5)
     print("Landed on 1F! Position:", mgba.get_coordinates())
