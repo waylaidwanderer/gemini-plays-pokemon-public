@@ -36,6 +36,10 @@
 ## Verified 3F Layout Constraints
 - **Northeast Columns:** On 3F, columns 18 and 19 on row 8 are blocked by solid columns/machines (empirically verified on Turn 48596).
 - **Row 7 Blocked on West:** On 3F, row 7 is physically blocked by rubble across columns 5-9 on the west side, but open across columns 10-14 on the east side.
+- **Row 3 Column 18/19 Cabinets:** On 3F, columns 18 and 19 on row 3 are blocked by solid cabinets, separating the west/center from the east.
+- **Column 15 Wall:** On 3F, column 15 is physically blocked by a solid brick wall across rows 1-4, preventing horizontal traversal past column 15 on those rows.
+- **Row 6 Open Passage:** On 3F, row 6 is wide-open horizontally across columns 11-20, allowing horizontal crossing between the east and west wings.
+- **3F Switch Location:** The true Mewtwo statue switch on 3F is located at `(2, 11)`, accessed from `(2, 12)` facing Up or `(1, 11)` facing Right.
 
 
 
