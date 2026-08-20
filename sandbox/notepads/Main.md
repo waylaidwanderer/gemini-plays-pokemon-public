@@ -1,7 +1,7 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Saffron City Gates & Gym Status
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
 - **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
 - **Saffron City Gates & Gym:** Permanently unlocked and cleared! Sabrina is defeated and Marsh Badge is possessed.
 
