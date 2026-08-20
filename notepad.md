@@ -941,6 +941,11 @@
     - Solid 2-tile wide vertical rock wall across cols 26-27 continuously separates Western Avenue (cols 20-25) from Eastern Hall (cols 28-37) across all rows 20 to 27. [Empirically Verified Turn 8498]
 - **Western-Central Divider (rows 18-25, cols 12-13)**: Solid vertical rock wall. East-west passage connecting Central Corridor (col 14) to Western Corridor (cols 10-11) is located at row 17.
 
+- **Verified Eastern Sector & Bypass Traversal (Turns 8934-8938)**:
+  - Warped to 1F Eastern Sector at (27, 3) via Ladder 2 from B1F (5, 3).
+  - Traversed south along col 27 to row 11, east along row 11 across cols 28-34, and south down the Eastern Bypass (cols 32-37) past the row 14-15 rock barrier into the Southern Hall (rows 16-19) at (34, 17).
+  - Row 17 connects cols 20-37 continuously west into the Southern Avenue (cols 20-25).
+
 
 <hr>
 
@@ -1072,30 +1077,24 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel 1F Eastern Sector - Direct Exit to Lavender Town
+# Rock Tunnel 1F - Direct Route to South Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (27, 3) (arrived in Eastern Sector via Ladder 2)
+- Current Location: Rock Tunnel 1F at (29, 17) (traversed through Eastern Bypass to Southern Hall)
 - Target: South Exit at (15, 33) -> Route 10 South -> Lavender Town
 
 ## Verified Empirical Collisions & Topology
-- 1F (27, 3..13): Open vertical passage in Eastern Sector down to row 11/12 highway.
-- 1F (26..37, 10..13): Wide open horizontal highway connecting cols 26-37.
-- 1F (32..37, 14..15): Eastern Bypass around the row 14-15 barrier into the Eastern Sector Hall (rows 16-19).
-- 1F (20..27, 16..17): Open crossway connecting Eastern Hall into Southern Avenue (cols 20-25).
+- 1F (28..37, 16..19): Wide open Southern Hall connecting Eastern Bypass directly west to Southern Avenue.
 - 1F (20..25, 17..27): Wide open Southern Avenue heading south to row 26.
 - 1F (14..25, 26): Open horizontal connector into Exit Corridor (cols 14-15).
 - 1F (14..15, 28..33): Open exit opening to Route 10 South.
 
 ## Committed Step-by-Step Traversal Route (To Lavender Town)
-1. **Descend Eastern Sector to Highway**: Walk Down 8 along col 27 from (27, 3) to (27, 11).
-2. **Traverse Highway to Eastern Bypass**: Walk Right 7 across row 11 from (27, 11) to (34, 11).
-3. **Descend Eastern Bypass**: Walk Down 6 along col 34 from (34, 11) to (34, 17).
-4. **Cross West to Southern Avenue**: Walk Left 12 along row 17 from (34, 17) to (22, 17).
-5. **Descend Southern Avenue**: Walk Down 9 along col 22 from (22, 17) to (22, 26).
-6. **Cross West to Exit Corridor**: Walk Left 7 along row 26 from (22, 26) to (15, 26).
-7. **Exit Rock Tunnel**: Walk Down 8 south along col 15 to Cave Exit -> Route 10 South -> Lavender Town!
-8. **Heal Party**: Enter Pok�mon Center in Lavender Town.
+1. **Cross West to Southern Avenue**: Walk Left 7 along row 17 from (29, 17) to (22, 17).
+2. **Descend Southern Avenue**: Walk Down 9 along col 22 from (22, 17) to (22, 26).
+3. **Cross West to Exit Corridor**: Walk Left 7 along row 26 from (22, 26) to (15, 26).
+4. **Exit Cave**: Walk Down 8 south along col 15 to Cave Exit -> Route 10 South -> Lavender Town!
+5. **Heal Party**: Enter Pok�mon Center in Lavender Town.
 
 
 <hr>
