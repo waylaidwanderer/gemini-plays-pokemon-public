@@ -5,9 +5,10 @@
   - Verification: Empirically verified on Turn 49921 after dropping over the 3F balcony railing at `(19, 18)` in State A.
 
 ## Key Targets
-- **SECRET KEY:** Located on the 2x2 solid table/desk at `(2-3, 2-3)` in the northwest room of B1F.
-  - Status: Blocked by shutter gate in State A. Open and accessible in State B!
-  - Retrieval Method: Stand adjacent to the table (e.g. at `(2, 4)` or `(3, 4)` facing UP, or `(4, 3)` facing LEFT) and press `A` to inspect the table and retrieve the key!
+- **SECRET KEY:** Located in the southwest room of B1F (columns 1-3, rows 20-22) on a table or on the ground.
+  - Verification: Northwest room (rows 1-3) was visually inspected on Turn 50019 and found to be completely empty. The Secret Key is actually in the southwest-most corner of B1F.
+  - Status: Open and accessible in State B!
+  - Retrieval Method: Navigate to columns 1-3 on row 20, find the Secret Key, and press `A` to retrieve it!
   - Bag status: Has empty space (only 7/20 items).
 
 ## Layout Constraints & Gate Status
