@@ -1043,25 +1043,30 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel Master Traversal Plan (Empirical Ground Truth)
+# Rock Tunnel 1F Southern Traversal Plan
 
-## Standardized Ladder Connectivity Matrix
-- **Ladder 1**: 1F (37, 3) <-> B1F (33, 25) [North-East 1F <-> South-East B1F]
-- **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [North-Central 1F <-> North-West B1F]
-- **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F]
-- **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F]
-- **1F South Exit**: Western Corridor (cols 2-5) south from (3, 3) through rows 4-33 to Route 10 South!
+## Current Status
+- Active Floor: Rock Tunnel 1F
+- Current Position: (19, 27)
+- Target: South Highway (rows 30-31) -> Western Corridor (cols 2-5) -> Route 10 South Exit
 
-## Master Progression Route
-1. **Traverse to Northern Highway (Row 6)**: From B1F (17, 21) -> North along col 17/16 to row 10 -> West to (11, 10) -> North to (11, 6) on Row 6 Highway.
-2. **Traverse East on Row 6**: From (11, 6) -> East across row 6 to column 37 -> South along col 37 to Ladder 4 at (37, 17).
-3. **Ascend Ladder 4**: Step onto Ladder 4 at (37, 17) -> Warp to 1F NW at (3, 3).
-4. **1F Western Exit**: From 1F (3, 3) -> Descend South down Western Corridor (cols 2-5) to South Exit doorway leading to Route 10 South.
-5. **Lavender Town**: Emerge onto Route 10 South, walk south to Lavender Town, heal at Pokémon Center.
+## Observed Topology & Geometry (1F Southern Sector)
+- Row 24-27 (cols 14-25): Open 4-tile high chamber.
+- Rows 28-29: Solid rock divider spanning cols 18-25 and cols 10-14.
+- Vertical Connector (cols 15-17): Visually open 3-tile wide gap at (15..17, 28..29) connecting to South Highway.
+- South Highway (rows 30-31, cols 10-25+): Open horizontal highway leading west toward South Exit.
 
-## Immediate Action
-- Current position: 1F (37, 19)
-- Navigation Goal: Row 19 western bypass at (32, 19) on Rock Tunnel 1F
-- Short Probing Step: Walk Left 5 steps along row 19 from (37, 19) to (32, 19) to find bypass around row 20-21 rock divider.
+## Standardized 4-Ladder Matrix (Empirical Reference)
+- Ladder 1: 1F (37, 3) <-> B1F (33, 25) [North-East 1F <-> South-East B1F]
+- Ladder 2: 1F (27, 3) <-> B1F (5, 3) [North-Central 1F <-> North-West B1F]
+- Ladder 3: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F]
+- Ladder 4: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F]
+
+## Immediate Execution Steps
+1. Step Left 3 to (16, 27).
+2. Probe Down 1 into (16, 28) to verify vertical clearance.
+3. Descend through (16, 29) to (16, 31).
+4. Traverse West along row 31 towards cols 2-5 to reach Route 10 South.
+
 
 <hr>
