@@ -49,16 +49,26 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # We are at (21, 6) on 3F inside Mansion in State A.
-    # 1. Walk from (21, 6) to (11, 11) to access the switch at (12, 11)
-    if pos == {'x': 21, 'y': 6}:
+    # We are at (21, 6) or (16, 6) on 3F inside Mansion in State A.
+    # 1. Walk to (11, 11) to access the switch at (12, 11)
+    if pos == {'x': 21, 'y': 6} or pos == {'x': 16, 'y': 6}:
         path_to_switch = [
             ("Left", 20, 6), ("Left", 19, 6), ("Left", 18, 6), ("Left", 17, 6), ("Left", 16, 6), ("Left", 15, 6), ("Left", 14, 6), ("Left", 13, 6), ("Left", 12, 6),
             ("Down", 12, 7), ("Down", 12, 8), ("Down", 12, 9), ("Down", 12, 10),
             ("Left", 11, 10),
             ("Down", 11, 11),
         ]
+        # Skip steps that we already completed or are at
+        actual_path = []
+        skip = (pos == {'x': 16, 'y': 6})
         for d, tx, ty in path_to_switch:
+            if skip:
+                if tx == 16 and ty == 6:
+                    skip = False
+                continue
+            actual_path.append((d, tx, ty))
+            
+        for d, tx, ty in actual_path:
             if not step_to(d, tx, ty):
                 return
                 
