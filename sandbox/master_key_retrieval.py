@@ -3,8 +3,6 @@ import time
 
 def handle_battle():
     print("Encountered battle or text! Attempting to escape/dismiss...")
-    # Standard Gen 1 battle escape/dismiss macro:
-    # Press B to dismiss any dialogue, then try Down+Right+A to run.
     mgba.press_buttons(["B", "sleep 300", "Down", "Right", "A", "sleep 1000", "B"])
 
 def step_to(direction, tx, ty):
@@ -14,7 +12,6 @@ def step_to(direction, tx, ty):
     time.sleep(0.4)
     new_pos = mgba.get_coordinates()
     
-    # Check if we didn't move
     if new_pos == pos:
         print("Did not move. Attempting to clear battle/text...")
         handle_battle()
@@ -41,25 +38,40 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # Start at (11, 12) on Cinnabar Island.
-    # 1. Walk Left to Column 6, then Up to the Mansion entrance at (6, 3)
-    print("--- STEP 1: Walking to Mansion ---")
+    # Start at (6, 10) on Cinnabar Island.
+    # 1. Walk Down to row 12, Right to column 15, Up to row 3, Left to column 6, Up to enter.
+    print("--- STEP 1: Walking to Mansion via East Road ---")
     island_path = [
-        ("Left", 10, 12),
-        ("Left", 9, 12),
-        ("Left", 8, 12),
-        ("Left", 7, 12),
-        ("Left", 6, 12),
-        ("Up", 6, 11),
-        ("Up", 6, 10),
-        ("Up", 6, 9),
-        ("Up", 6, 8),
-        ("Up", 6, 7),
-        ("Up", 6, 6),
-        ("Up", 6, 5),
-        ("Up", 6, 4),
-        ("Up", 6, 3),
-        ("Up", 6, 2), # Enter door (lands at (5, 27) on 1F)
+        ("Down", 6, 11),
+        ("Down", 6, 12),
+        ("Right", 7, 12),
+        ("Right", 8, 12),
+        ("Right", 9, 12),
+        ("Right", 10, 12),
+        ("Right", 11, 12),
+        ("Right", 12, 12),
+        ("Right", 13, 12),
+        ("Right", 14, 12),
+        ("Right", 15, 12),
+        ("Up", 15, 11),
+        ("Up", 15, 10),
+        ("Up", 15, 9),
+        ("Up", 15, 8),
+        ("Up", 15, 7),
+        ("Up", 15, 6),
+        ("Up", 15, 5),
+        ("Up", 15, 4),
+        ("Up", 15, 3),
+        ("Left", 14, 3),
+        ("Left", 13, 3),
+        ("Left", 12, 3),
+        ("Left", 11, 3),
+        ("Left", 10, 3),
+        ("Left", 9, 3),
+        ("Left", 8, 3),
+        ("Left", 7, 3),
+        ("Left", 6, 3),
+        ("Up", 6, 2), # Enter Mansion door (should land at (5, 27) on 1F)
     ]
     if not follow_path(island_path):
         return False
@@ -91,10 +103,8 @@ def run_master_route():
     pos = mgba.get_coordinates()
     print(f"On Mansion 2F. Position: {pos}")
     
-    # 3. On 2F, we land at (7, 10). Step Up to (7, 10) warp?
-    # Wait, if we land at (7, 10), we might need to step off first if it doesn't warp immediately,
-    # or it might land us at (7, 11). Let's see.
-    # Usually you land at (7, 11) or (7, 10). Let's check coordinates.
+    # 3. On 2F, go to 3F via stairs at (7, 10)
+    print("--- STEP 3: Ascending to 3F ---")
     if pos['x'] == 7 and pos['y'] == 11:
         print("Landed at (7, 11) on 2F. Stepping Up to warp to 3F...")
         if not step_to("Up", 7, 10):
@@ -112,7 +122,6 @@ def run_master_route():
     
     # 4. On 3F (State A), walk to Mewtwo switch at (12, 11)
     print("--- STEP 4: Walking to 3F Switch ---")
-    # Landed at (7, 11) on 3F
     path_to_switch_3f = [
         ("Right", 8, 11),
         ("Right", 9, 11),
@@ -129,7 +138,6 @@ def run_master_route():
     mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B"])
     print("Switch toggled!")
     
-    # Verify current coordinates are (11, 11)
     pos = mgba.get_coordinates()
     print(f"Position after switch toggle: {pos}")
     mgba.take_screenshot()
