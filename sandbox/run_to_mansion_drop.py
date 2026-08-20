@@ -45,16 +45,11 @@ def follow_path(path):
 def main():
     print("Starting automated run to Mansion B1F via State B balcony drop...")
     
-    # 1. Path from our current position (19, 4) to Mansion Entrance (6, 3)
+    # 1. Path from our current position (11, 7) to Mansion Entrance (6, 3)
     path_to_mansion = [
-        ("Left", 18, 4),
-        ("Left", 17, 4),
-        ("Left", 16, 4),
-        ("Left", 15, 4),
-        ("Left", 14, 4),
-        ("Left", 13, 4),
-        ("Left", 12, 4),
-        ("Left", 11, 4),
+        ("Up", 11, 6),
+        ("Up", 11, 5),
+        ("Up", 11, 4),
         ("Left", 10, 4),
         ("Left", 9, 4),
         ("Left", 8, 4),
