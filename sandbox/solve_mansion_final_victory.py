@@ -15,15 +15,10 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (5, 12) on 2F (State A)
+    # Current: (4, 10) on 2F (State A)
     # 1. Walk to stairs at (7, 10) on 2F
     print("Step 1: Walking to stairs at (7, 10) on 2F...")
     path_to_stairs = [
-        ("Down", 5, 13),
-        ("Left", 4, 13),
-        ("Up", 4, 12),
-        ("Up", 4, 11),
-        ("Up", 4, 10),
         ("Right", 5, 10),
         ("Right", 6, 10),
     ]
