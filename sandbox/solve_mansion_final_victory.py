@@ -15,28 +15,10 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (11, 10) on 3F (State B)
-    # 1. Walk back to 3F switch at (11, 11)
-    print("Step 1: Walking back to 3F switch from (11, 10)...")
-    back_to_switch = [
-        ("Down", 11, 11),
-    ]
-    for d, tx, ty in back_to_switch:
-        if not walk_step(d, tx, ty):
-            mgba.take_screenshot()
-            return False
-            
-    # 2. Toggle 3F switch to State A
-    print("Step 2: Toggling 3F switch to State A...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "B", "sleep 500"])
-    time.sleep(1.0)
-    
-    # 3. Walk to balcony drop on 3F (State A)
-    print("Step 3: Walking to balcony drop in State A...")
+    # Starting from (12, 10) on 3F (State A)
+    print("Step 1: Walking to balcony drop in State A...")
     path_to_drop = [
-        ("Up", 11, 10),
+        ("Left", 11, 10),
         ("Up", 11, 9),
         ("Up", 11, 8),
         ("Up", 11, 7),
@@ -71,7 +53,7 @@ def solve_all():
             return False
             
     # Drop to 1F!
-    print("Step 4: Dropping to 1F...")
+    print("Step 2: Dropping to 1F...")
     mgba.press_buttons(["Left"])
     time.sleep(1.5)
     print("Landed on 1F! Position:", mgba.get_coordinates())
