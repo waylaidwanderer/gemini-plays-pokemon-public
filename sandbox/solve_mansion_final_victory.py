@@ -77,6 +77,21 @@ def main():
             if not step_to(d, tx, ty):
                 return
                 
+    elif pos['x'] == 7 and pos['y'] > 10:
+        path_1f = [
+            ("Up", 7, 14), ("Up", 7, 13), ("Up", 7, 12), ("Up", 7, 11), ("Up", 7, 10), # Stairs to 2F
+        ]
+        # Skip steps that we already completed or are at
+        actual_path = []
+        for d, tx, ty in path_1f:
+            if tx == pos['x'] and ty == pos['y']:
+                actual_path = [] # reset
+                continue
+            actual_path.append((d, tx, ty))
+        for d, tx, ty in actual_path:
+            if not step_to(d, tx, ty):
+                return
+                
     time.sleep(1.5)
     pos = mgba.get_coordinates()
     print("Inside Mansion 2F! Position:", pos)
