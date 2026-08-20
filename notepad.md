@@ -1056,7 +1056,7 @@
 - Eastern Sector: Column 37 is open from row 25 north to Ladder 4 at (37, 17).
 
 ## Strict Sequential Execution Checklist
-- [ ] **Step 1 (Col 11 Descent)**: From (11, 7), walk 7 steps Down to (11, 14).
+- [x] **Step 1 (Col 11 Descent)**: From (11, 7), walk 7 steps Down to (11, 14).
 - [ ] **Step 2 (Row 14 East to Col 16)**: From (11, 14), walk 5 steps Right to (16, 14).
 - [ ] **Step 3 (Col 16 Descent to Row 24)**: From (16, 14), walk 10 steps Down to (16, 24).
 - [ ] **Step 4 (Row 24 East to Col 37)**: From (16, 24), walk East across rows 24-25 to column 37 at (37, 24).
