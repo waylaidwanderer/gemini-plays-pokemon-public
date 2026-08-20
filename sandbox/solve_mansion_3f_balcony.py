@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting robust balcony route from:", get_pos())
+print("Starting remaining balcony route from:", get_pos())
 
 def handle_battle():
     # Press B a few times to clear text if we are in transition or battle
@@ -64,16 +64,8 @@ def step_to_closed_loop(tx, ty):
     print(f"FAILED to reach waypoint ({tx}, {ty}). Final pos: {c_final}")
     return False
 
+# Path from current position (21, 6) to B1F balcony drop
 waypoints = [
-    (1, 12),
-    (3, 12),
-    (6, 12),
-    (6, 11),
-    (9, 11),
-    (9, 10),
-    (11, 10),
-    (11, 6),
-    (21, 6),
     (21, 5),   # Gate is open in State B
     (21, 3),
     (26, 3),
@@ -91,6 +83,10 @@ waypoints = [
     (20, 18),
     (19, 18)   # Balcony drop!
 ]
+
+# Press B to clear the "Got away safely!" textbox
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
 success = True
 for (wx, wy) in waypoints:
