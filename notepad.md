@@ -2061,6 +2061,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **2F stairs gate at `(5, 7)`:** **OPEN** (Allows direct access to 3F stairs/warps).
 - **3F gate at `(10, 11)` / `(10, 12)` (Room Exit):** **OPEN** (Allows walking east to the rest of 3F).
 - **3F gate at `(21, 5)`:** **CLOSED** (Blocks column 21 access to northeast room/pit).
+- **3F gate at `(20, 17)` / `(21, 17)` (Balcony Shutter):** **CLOSED** (Blocks access to balcony Row 18+).
 
 ### TOGGLED STATE (State B)
 - **1F B1F stairs gate at `(18, 16)`/`(19, 16)`:** **CLOSED** (Blocks column 19 access to row 24).
@@ -2070,6 +2071,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **2F northeast gate at `(15, 5)`:** **OPEN** (Allows horizontal access to column 18).
 - **3F gate at `(10, 11)` / `(10, 12)` (Room Exit):** **CLOSED** (Blocks room at column 10).
 - **3F gate at `(21, 5)`:** **OPEN** (Allows access to column 21 and the northeast room/pit).
+- **3F gate at `(20, 17)` / `(21, 17)` (Balcony Shutter):** **OPEN** (Allows access to balcony Row 18+).
 - **B1F Secret Key Room:** **OPEN**.
 
 ## Verified 2F Layout Constraints

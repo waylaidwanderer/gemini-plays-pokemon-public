@@ -1,12 +1,6 @@
 import mgba
 import time
 
-def handle_battle():
-    print("Encountered battle or text! Escaping...")
-    # Safe escape sequence: press B twice to close any menus/text,
-    # then Down, Right to guarantee we hover RUN, then A to select RUN.
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000", "B"])
-
 def step_to(direction, tx, ty):
     pos = mgba.get_coordinates()
     if pos['x'] == tx and pos['y'] == ty:
@@ -17,35 +11,25 @@ def step_to(direction, tx, ty):
     time.sleep(0.5)
     new_pos = mgba.get_coordinates()
     
-    attempts = 0
-    while new_pos != {'x': tx, 'y': ty} and attempts < 5:
-        if new_pos == pos:
-            print("Did not move. Checking for direction turn, wall, or battle...")
-            mgba.press_buttons([direction])
-            time.sleep(0.5)
-            new_pos = mgba.get_coordinates()
-            
-            if new_pos == pos:
-                print("Still did not move. Checking for battle...")
-                handle_battle()
-                time.sleep(0.5)
-                mgba.press_buttons([direction])
-                time.sleep(0.5)
-                new_pos = mgba.get_coordinates()
-        else:
-            print(f"We are at unexpected position {new_pos}. Retrying {direction}...")
-            pos = new_pos
-            mgba.press_buttons([direction])
-            time.sleep(0.5)
-            new_pos = mgba.get_coordinates()
-        attempts += 1
+    # If we didn't move, it could be a turn-in-place (Gen 1 turning mechanics).
+    # Try pressing the direction a second time.
+    if new_pos == pos:
+        print("Did not move. Turning in place? Pressing direction again...")
+        mgba.press_buttons([direction])
+        time.sleep(0.5)
+        new_pos = mgba.get_coordinates()
         
+        # If we STILL didn't move, we are blocked by a wall or a battle!
+        # Exit immediately to prevent overworld drift and let the player handle it.
+        if new_pos == pos:
+            print(f"Blocked! Cannot move {direction} to ({tx}, {ty}) from {pos}. Exiting script to prevent drift.")
+            return False
+            
     return new_pos == {'x': tx, 'y': ty}
 
 def follow_path(path):
     for direction, tx, ty in path:
         if not step_to(direction, tx, ty):
-            print(f"Failed to reach ({tx}, {ty})!")
             return False
     return True
 
@@ -102,10 +86,10 @@ def main():
         ("Down", 12, 8),
         ("Down", 12, 9),
         ("Down", 12, 10),
-        ("Left", 11, 10),
-        ("Left", 10, 10), # Column 10 Row 10 is OPEN!
-        ("Left", 9, 10),
-        ("Down", 9, 11),
+        ("Down", 12, 11),
+        ("Left", 11, 11),
+        ("Left", 10, 11), # Column 10 Row 11 gate is OPEN in State A!
+        ("Left", 9, 11),
         ("Left", 8, 11),
         ("Left", 7, 11),
         ("Left", 6, 11),
