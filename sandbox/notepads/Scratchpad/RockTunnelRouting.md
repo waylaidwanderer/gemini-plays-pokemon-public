@@ -1,13 +1,20 @@
-# Rock Tunnel B1F Traversal - Sequential Waypoint Checklist
+# Rock Tunnel B1F Traversal - Master Route A (via Column 11 & Row 6 Highway)
 
 ## Target Destination
 - Ladder 4 at (37, 17) -> 1F (3, 3) Western Exit Corridor -> Route 10 South & Lavender Town
 
-## Strict Sequential Waypoints (Do NOT Reverse Direction)
-- [x] **Waypoint 1 (Reach Col 20)**: Arrived at (20, 16).
-- [ ] **Waypoint 2 (Row 16 West to Col 17)**: From (20, 16), walk 3 steps Left to (17, 16).
-- [ ] **Waypoint 3 (Col 17 Ascent to Row 13)**: From (17, 16), walk 3 steps Up through rows 15-14 to (17, 13).
-- [ ] **Waypoint 4 (Ascent to Row 10/11 North-East Highway)**: From (17, 13), navigate to the North-East Highway (rows 10-13, cols 20-37).
-- [ ] **Waypoint 5 (Highway Eastward to Col 37)**: Walk East across rows 10-13 to column 37 at (37, 13).
-- [ ] **Waypoint 6 (Col 37 Descent to Ladder 4)**: From (37, 13), walk 4 steps Down to Ladder 4 at (37, 17).
-- [ ] **Waypoint 7 (1F Exit)**: Step on Ladder 4 at (37, 17) -> 1F (3, 3) -> Western Corridor to Route 10 South.
+## Verified Collision & Boundary Facts
+- Cols 18-25 at rows 14-15: Solid rock wall dividing north & south central sectors.
+- Cols 18-19 at rows 12-13: Solid rock wall.
+- Column 11: Continuous clear vertical highway spanning rows 6 to 14.
+- Row 14: Continuous clear horizontal crossway spanning cols 11 to 17.
+- Row 6 & 7: Continuous clear horizontal highway spanning cols 7-11 and cols 14-37!
+- Eastern Sector (cols 24-37, rows 2-17): Continuous open sector containing Ladder 4 at (37, 17).
+
+## Strict Sequential Execution Checklist
+- [ ] **Step 1**: From (17, 16), walk 2 steps Up to row 14 at (17, 14).
+- [ ] **Step 2**: From (17, 14), walk 6 steps Left along row 14 to column 11 at (11, 14).
+- [ ] **Step 3**: From (11, 14), walk 8 steps Up along column 11 to row 6 at (11, 6).
+- [ ] **Step 4**: From (11, 6), walk East along row 6 past cols 14-21 into eastern sector to column 37 at (37, 6).
+- [ ] **Step 5**: From (37, 6), walk 11 steps Down along column 37 to Ladder 4 at (37, 17).
+- [ ] **Step 6**: Step on Ladder 4 at (37, 17) -> 1F (3, 3) -> Western Corridor to Route 10 South and Lavender Town.
