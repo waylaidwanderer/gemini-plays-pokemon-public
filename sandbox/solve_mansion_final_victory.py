@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting final drop from current pos:", get_pos())
+print("Running final victory script from 2F to B1F. Current pos:", get_pos())
 
 def handle_battle():
     # Clear screens
@@ -58,25 +58,30 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Clear "Got away safely!" textbox first
-mgba.press_buttons(["B"])
-time.sleep(0.3)
-
-# Remaining waypoints from (21, 15) to drop over the balcony
-waypoints = [
-    (20, 15),
-    (20, 18),
-    (19, 18)   # Balcony drop!
-]
-
-success = True
-for (wx, wy) in waypoints:
-    if not step_to_closed_loop(wx, wy):
-        success = False
-        break
-
-if success:
-    print("Mansion 3F Balcony Drop complete! Current pos on B1F:", get_pos())
-    mgba.take_screenshot()
+# 1. Walk from (16, 10) to (16, 11) on 2F
+if step_to_closed_loop(16, 11):
+    print("Reached (16, 11). Warping UP to 3F...")
+    mgba.press_buttons(["Left"]) # Step Left onto the stairs at (15, 11) to warp up
+    time.sleep(1.5)
+    print("Landed on 3F in State A! Current pos:", get_pos())
+    
+    # 2. Walk to the balcony drop on 3F in State A
+    waypoints_to_drop = [
+        (20, 11),
+        (20, 15),
+        (20, 18), # In State A, both row 16 gate and row 17 gate are open!
+        (19, 18)  # Step Left to drop!
+    ]
+    success_drop = True
+    for (wx, wy) in waypoints_to_drop:
+        if not step_to_closed_loop(wx, wy):
+            success_drop = False
+            break
+            
+    if success_drop:
+        print("Mansion 3F Balcony Drop complete! Current pos on B1F:", get_pos())
+        mgba.take_screenshot()
+    else:
+        print("Failed to complete balcony drop on 3F.")
 else:
-    print("Failed to complete balcony drop.")
+    print("Failed to reach stairs on 2F.")
