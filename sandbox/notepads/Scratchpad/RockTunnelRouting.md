@@ -1,7 +1,7 @@
 # Rock Tunnel - Canonical Solution to Exit & Lavender Town
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (23, 24)
+- Current Location: Rock Tunnel 1F at (30, 17)
 - Target: Walk north to row 17, east to col 37, and north to Ladder 1 at (37, 3) to warp to B1F (33, 25).
 
 ## Verified Dungeon Route
