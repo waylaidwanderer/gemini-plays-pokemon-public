@@ -51,11 +51,6 @@ def follow_path(path):
 
 def main():
     print("Starting absolute master route to B1F starting from (23, 11) in State A...")
-    
-    # Dismiss 'Got away safely!' text if any
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-    
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
@@ -71,20 +66,46 @@ def main():
     # 1. Walk from (23, 11) to switch at (2, 12) on 3F in State A
     print("--- 3F (State A): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Up", 23, 10),
-        ("Left", 22, 10),
-        ("Left", 21, 10),
-        ("Left", 20, 10),
-        ("Left", 19, 10),
-        ("Left", 18, 10),
-        ("Left", 17, 10),
-        ("Left", 16, 10),
-        ("Left", 15, 10),
-        ("Left", 14, 10),
-        ("Left", 13, 10),
-        ("Left", 12, 10),
+        ("Down", 23, 12),
+        ("Down", 23, 13),
+        ("Down", 23, 14),
+        ("Right", 24, 14),
+        ("Right", 25, 14),
+        ("Up", 25, 13), # Gate at (25, 13) is OPEN in State A!
+        ("Up", 25, 12),
+        ("Up", 25, 11),
+        ("Up", 25, 10),
+        ("Right", 26, 10),
+        ("Up", 26, 9),
+        ("Up", 26, 8),
+        ("Up", 26, 7),
+        ("Up", 26, 6),
+        ("Up", 26, 5),
+        ("Up", 26, 4),
+        ("Up", 26, 3),
+        ("Left", 25, 3),
+        ("Left", 24, 3),
+        ("Left", 23, 3),
+        ("Left", 22, 3),
+        ("Left", 21, 3),
+        ("Left", 20, 3), # Walk to Column 20 Row 3 (bypasses cabinets at cols 18-19 Row 3)
+        ("Down", 20, 4),
+        ("Down", 20, 5),
+        ("Down", 20, 6), # Walk to Column 20 Row 6 (bypasses Col 22 wall on Row 6)
+        ("Left", 19, 6),
+        ("Left", 18, 6),
+        ("Left", 17, 6),
+        ("Left", 16, 6),
+        ("Left", 15, 6),
+        ("Left", 14, 6),
+        ("Left", 13, 6),
+        ("Left", 12, 6),
+        ("Down", 12, 7),
+        ("Down", 12, 8),
+        ("Down", 12, 9),
+        ("Down", 12, 10),
         ("Left", 11, 10),
-        ("Left", 10, 10), # Column 10 Row 10 is OPEN in State A!
+        ("Left", 10, 10), # Column 10 Row 10 is OPEN!
         ("Left", 9, 10),
         ("Down", 9, 11),
         ("Left", 8, 11),
