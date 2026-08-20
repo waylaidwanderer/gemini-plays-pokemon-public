@@ -65,12 +65,12 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - BITE
 - SURF (HM03)
 
-## Badge Status & Gym Clearances (Updated Turn 46090)
-- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+## Badge Status & Gym Clearances (Updated Turn 50214)
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** Not yet acquired (Blaine at Cinnabar Gym is our current target!).
-- **Soul Badge (Fuchsia Gym):** Not yet acquired.
-- **Earth Badge (Viridian Gym):** Not yet acquired.
+- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
+- **Soul Badge (Fuchsia Gym):** Already acquired! Koga is defeated. Fuchsia Gym is fully cleared.
+- **Earth Badge (Viridian Gym):** Not yet acquired (Giovanni at Viridian Gym is our current target!).
 - **Cinnabar Island Goal:** Clear Pokémon Mansion to find the Secret Key, unlock the Cinnabar Gym, and defeat Gym Leader Blaine for the Volcano Badge (Badge #6)!
 
 ## Key Items & Inventory Log
