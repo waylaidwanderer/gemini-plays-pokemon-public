@@ -48,23 +48,15 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Starting final balcony drop from (26, 6) on 3F...")
+    print("Testing 3F balcony shutter gates at (24, 13)...")
     
-    # Current position is (26, 6)
+    # We are currently at (28, 12)
+    # 1. Walk Left to (24, 12)
     path = [
-        # 1. Walk Down Column 26 to Row 14
-        ("Down", 26, 7),
-        ("Down", 26, 8),
-        ("Down", 26, 9),
-        ("Down", 26, 10),
-        ("Down", 26, 11),
-        ("Down", 26, 12),
-        ("Down", 26, 13),
-        ("Down", 26, 14),
-        
-        # 2. Walk Left to (24, 14)
-        ("Left", 25, 14),
-        ("Left", 24, 14),
+        ("Left", 27, 12),
+        ("Left", 26, 12),
+        ("Left", 25, 12),
+        ("Left", 24, 12),
     ]
     
     success = True
@@ -75,14 +67,26 @@ def main():
             break
             
     if success:
-        print("At (24, 14). Dropping off balcony...")
-        # Step Left to drop
-        mgba.press_buttons(["Left"])
-        time.sleep(3.0) # Wait for warp animation
+        print("At (24, 12). Attempting to move Down to (24, 13)...")
+        mgba.press_buttons(["Down"])
+        time.sleep(0.5)
         
-        pos_landing = mgba.get_coordinates()
-        print("Landed on 1F! Current position:", pos_landing)
-        mgba.take_screenshot()
+        pos = mgba.get_coordinates()
+        print("Coordinates after attempting Down:", pos)
+        
+        if pos == {'x': 24, 'y': 13}:
+            print("SHUTTER GATE IS OPEN!!! Moving to balcony drop...")
+            if step_to("Down", 24, 14):
+                print("At (24, 14). Dropping off balcony...")
+                mgba.press_buttons(["Left"])
+                time.sleep(3.0)
+                
+                landing_pos = mgba.get_coordinates()
+                print("Landed on 1F! Current position:", landing_pos)
+                mgba.take_screenshot()
+        else:
+            print("SHUTTER GATE IS CLOSED! We cannot pass here.")
+            mgba.take_screenshot()
     else:
         mgba.take_screenshot()
 
