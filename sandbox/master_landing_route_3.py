@@ -50,40 +50,22 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F from current position...")
+    print("Starting absolute master route to B1F starting from (12, 5)...")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (4, 13) on 3F
-    if pos != {'x': 4, 'y': 13}:
-        print("Warning: not at (4, 13). Re-aligning...")
-        if pos['y'] != 13:
-            step_to("Down" if pos['y'] < 13 else "Up", pos['x'], 13)
+    # We should be at (12, 5) on 3F
+    if pos != {'x': 12, 'y': 5}:
+        print("Warning: not at (12, 5). Re-aligning...")
+        if pos['y'] != 5:
+            step_to("Down" if pos['y'] < 5 else "Up", pos['x'], 5)
         pos = mgba.get_coordinates()
-        if pos['x'] != 4:
-            step_to("Left" if pos['x'] > 4 else "Right", 4, 13)
+        if pos['x'] != 12:
+            step_to("Left" if pos['x'] > 12 else "Right", 12, 5)
             
     # Walk the State B path on 3F to the East Balcony drop
     print("--- 3F (State B): Walking to East Balcony drop ---")
     path_to_drop = [
-        ("Up", 4, 12),
-        ("Up", 4, 11),
-        ("Up", 4, 10),
-        ("Right", 5, 10),
-        ("Right", 6, 10),
-        ("Right", 7, 10),
-        ("Down", 7, 11),
-        ("Right", 8, 11),
-        ("Right", 9, 11),
-        ("Up", 9, 10),
-        ("Right", 10, 10), # Column 10 Row 10 is OPEN in State B!
-        ("Right", 11, 10),
-        ("Up", 11, 9),
-        ("Up", 11, 8),
-        ("Up", 11, 7),
-        ("Up", 11, 6),
-        ("Up", 11, 5),
-        ("Right", 12, 5),
         ("Right", 13, 5),
         ("Right", 14, 5),
         ("Right", 15, 5),
