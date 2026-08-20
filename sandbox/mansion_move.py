@@ -1,56 +1,42 @@
 import mgba
 import time
 
-def test_bottom_path():
-    print("Navigating back to (12, 11) and testing bottom paths...")
-    # Current position: (15, 7)
+def find_3f_entrance():
+    print("Finding the entrance to the 3F eastern room...")
+    # Currently at (13, 12).
     
-    # 1. Walk Left to (12, 7) (3 steps Left)
-    for i in range(3):
-        mgba.press_buttons(["Left"])
+    # 1. Walk to (12, 7)
+    mgba.press_buttons(["Left", "sleep 300"])
+    for i in range(5):
+        mgba.press_buttons(["Up"])
         time.sleep(0.4)
-        print("At:", mgba.get_coordinates())
-        
-    # 2. Walk Down to (12, 11) (4 steps Down)
-    for i in range(4):
+    print("At:", mgba.get_coordinates())
+    
+    # We will test columns 14, 15, 16, 17 on row 7 to see if we can walk Down.
+    columns_to_test = [14, 15, 16, 17]
+    
+    for col in columns_to_test:
+        pos = mgba.get_coordinates()
+        # Walk to col
+        while pos['x'] < col:
+            mgba.press_buttons(["Right"])
+            time.sleep(0.4)
+            pos = mgba.get_coordinates()
+        while pos['x'] > col:
+            mgba.press_buttons(["Left"])
+            time.sleep(0.4)
+            pos = mgba.get_coordinates()
+            
+        print(f"Testing column {col}...")
         mgba.press_buttons(["Down"])
         time.sleep(0.4)
-        print("At:", mgba.get_coordinates())
-        
-    # Now we are at (12, 11).
-    # 3. Test walking Right to (13, 11)
-    pos = mgba.get_coordinates()
-    if pos['x'] == 12 and pos['y'] == 11:
-        mgba.press_buttons(["Right"])
-        time.sleep(0.4)
-        pos2 = mgba.get_coordinates()
-        print("Tried Right at (12, 11): position is now:", pos2)
-        if pos2['x'] == 13:
-            print("(13, 11) is WALKABLE!")
+        new_pos = mgba.get_coordinates()
+        if new_pos['y'] > 7:
+            print(f"SUCCESS! Column {col} is open to the south!")
             mgba.take_screenshot()
             return
             
-    # 4. If blocked, try going Down to (12, 12) then Right to (13, 12)
-    pos = mgba.get_coordinates()
-    if pos['x'] == 12 and pos['y'] == 11:
-        mgba.press_buttons(["Down"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-        print("At:", pos)
-        
-    if pos['x'] == 12 and pos['y'] == 12:
-        mgba.press_buttons(["Right"])
-        time.sleep(0.4)
-        pos2 = mgba.get_coordinates()
-        print("Tried Right at (12, 12): position is now:", pos2)
-        if pos2['x'] == 13:
-            print("(13, 12) is WALKABLE!")
-            # Try to walk Up to (13, 11)
-            mgba.press_buttons(["Up"])
-            time.sleep(0.4)
-            pos3 = mgba.get_coordinates()
-            print("Tried Up at (13, 12): position is now:", pos3)
-            
+    print("All tested columns are blocked.")
     mgba.take_screenshot()
 
-test_bottom_path()
+find_3f_entrance()
