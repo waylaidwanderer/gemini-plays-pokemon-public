@@ -15,28 +15,11 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (4, 10) on 2F (State A)
-    # 1. Walk to stairs at (7, 10) on 2F
-    print("Step 1: Walking to stairs at (7, 10) on 2F...")
-    path_to_stairs = [
-        ("Right", 5, 10),
-        ("Right", 6, 10),
-    ]
-    for d, tx, ty in path_to_stairs:
-        if not walk_step(d, tx, ty):
-            mgba.take_screenshot()
-            return False
-            
-    # Step Right onto (7, 10) stairs to warp to 3F
-    print("Step 2: Stepping onto stairs to warp to 3F...")
-    mgba.press_buttons(["Right"])
-    time.sleep(1.5)
-    print("Warp complete! Position on 3F:", mgba.get_coordinates())
-    
-    # 2. Walk to 3F switch at (11, 11) in State A
-    print("Step 3: Walking to 3F switch in State A...")
+    # Current: (8, 10) on 3F (State A)
+    # 1. Walk to 3F switch at (11, 11) in State A
+    print("Step 1: Walking to 3F switch in State A...")
     path_to_3f_switch = [
-        ("Right", 8, 11),
+        ("Down", 8, 11),
         ("Right", 9, 11),
         ("Down", 9, 12),
         ("Right", 10, 12),
@@ -48,15 +31,15 @@ def solve_all():
             mgba.take_screenshot()
             return False
             
-    # 3. Toggle 3F switch to State B
-    print("Step 4: Toggling 3F switch to State B...")
+    # 2. Toggle 3F switch to State B
+    print("Step 2: Toggling 3F switch to State B...")
     mgba.press_buttons(["Right"])
     time.sleep(0.5)
     mgba.press_buttons(["A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "A", "sleep 800", "B", "sleep 500"])
     time.sleep(1.0)
     
-    # 4. Walk to balcony drop on 3F (State B)
-    print("Step 5: Walking to balcony drop...")
+    # 3. Walk to balcony drop on 3F (State B)
+    print("Step 3: Walking to balcony drop...")
     path_to_balcony = [
         ("Down", 11, 12),
         ("Right", 12, 12),
@@ -95,7 +78,7 @@ def solve_all():
             return False
             
     # Drop to 1F!
-    print("Step 6: Dropping to 1F...")
+    print("Step 4: Dropping to 1F...")
     mgba.press_buttons(["Left"])
     time.sleep(1.5)
     print("Landed on 1F! Position:", mgba.get_coordinates())
