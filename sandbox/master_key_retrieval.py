@@ -38,36 +38,16 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # Start at (9, 12) on Cinnabar Island.
-    # 1. Walk Right to column 19, then Up to row 3, then Left to column 6, then enter.
-    print("--- STEP 1: Walking to Mansion via East Road Column 19 ---")
-    island_path = [
-        ("Right", 10, 12),
-        ("Right", 11, 12),
-        ("Right", 12, 12),
-        ("Right", 13, 12),
-        ("Right", 14, 12),
-        ("Right", 15, 12),
-        ("Right", 16, 12),
-        ("Right", 17, 12),
-        ("Right", 18, 12),
-        ("Right", 19, 12),
-        # Now walk Up column 19 as far as possible
-        ("Up", 19, 11),
-        ("Up", 19, 10),
-        ("Up", 19, 9),
-        ("Up", 19, 8),
-        ("Up", 19, 7),
-        ("Up", 19, 6),
-        ("Up", 19, 5),
-        ("Up", 19, 4),
-        ("Up", 19, 3),
-        # Walk Left to the Mansion door
-        ("Left", 18, 3),
-        ("Left", 17, 3),
-        ("Left", 16, 3),
-        ("Left", 15, 3),
-        ("Left", 14, 3),
+    # We are currently at (19, 4) on Cinnabar Island.
+    # 1. Walk Left to (14, 4), Up to (14, 3), Left to (6, 3), Up to enter Mansion.
+    print("--- STEP 1: Entering Mansion from Gym Row 4 ---")
+    path_to_mansion = [
+        ("Left", 18, 4),
+        ("Left", 17, 4),
+        ("Left", 16, 4),
+        ("Left", 15, 4),
+        ("Left", 14, 4),
+        ("Up", 14, 3),
         ("Left", 13, 3),
         ("Left", 12, 3),
         ("Left", 11, 3),
@@ -76,9 +56,9 @@ def run_master_route():
         ("Left", 8, 3),
         ("Left", 7, 3),
         ("Left", 6, 3),
-        ("Up", 6, 2), # Enter Mansion door (should land inside at (5, 27) on 1F)
+        ("Up", 6, 2), # Enter Mansion door (lands inside at (5, 27) on 1F)
     ]
-    if not follow_path(island_path):
+    if not follow_path(path_to_mansion):
         return False
         
     time.sleep(1.5) # Wait for transition
