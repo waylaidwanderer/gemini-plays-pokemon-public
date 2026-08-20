@@ -32,7 +32,6 @@ def step_to(direction, tx, ty):
             new_pos = mgba.get_coordinates()
             
             # If still didn't move, we are blocked by a wall or battle. 
-            # If so, do NOT run blind escape macro. Just return False to let us handle it!
             if new_pos == pos:
                 print(f"Blocked! Cannot move {direction} to ({tx}, {ty}) from {pos}.")
                 return False
@@ -50,46 +49,13 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Exit the Lab from (3, 3)
-    # Path: Down to (3, 7) -> Down to warp outside to (6, 10)
-    if pos['y'] < 7 and pos['x'] == 3:
-        path_exit_lab = [
-            ("Down", 3, 4),
-            ("Down", 3, 5),
-            ("Down", 3, 6),
-            ("Down", 3, 7),
-        ]
-        for d, tx, ty in path_exit_lab:
-            if not step_to(d, tx, ty):
-                return
-        
-        # Warp outside by pressing Down at (3, 7)
-        print("Pressing Down at (3, 7) to warp outside...")
-        mgba.press_buttons(["Down"])
-        time.sleep(2.0)
-        
-    time.sleep(1.0)
-    pos = mgba.get_coordinates()
-    print("Outside Lab! Position:", pos)
-    
-    # 2. Walk to Mansion entrance (6, 3) via Eastern Road (Column 11) using Row 12 for bypass
-    if pos['x'] <= 11 and pos['y'] >= 10:
+    # 1. Walk from (11, 12) to Mansion entrance (6, 3)
+    if pos == {'x': 11, 'y': 12}:
         path_to_mansion = [
-            ("Down", pos['x'], 11),
-            ("Down", pos['x'], 12),
-            ("Right", 6, 12), ("Right", 7, 12), ("Right", 8, 12), ("Right", 9, 12), ("Right", 10, 12), ("Right", 11, 12),
             ("Up", 11, 11), ("Up", 11, 10), ("Up", 11, 9), ("Up", 11, 8), ("Up", 11, 7), ("Up", 11, 6), ("Up", 11, 5), ("Up", 11, 4), ("Up", 11, 3),
             ("Left", 10, 3), ("Left", 9, 3), ("Left", 8, 3), ("Left", 7, 3), ("Left", 6, 3),
         ]
-        # Skip steps that we already completed or are at
-        actual_path = []
         for d, tx, ty in path_to_mansion:
-            if tx == pos['x'] and ty == pos['y']:
-                actual_path = [] # reset to start from here
-                continue
-            actual_path.append((d, tx, ty))
-            
-        for d, tx, ty in actual_path:
             if not step_to(d, tx, ty):
                 return
                 
@@ -103,7 +69,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Inside Mansion 1F! Position:", pos)
     
-    # 3. Path on 1F to stairs at (7, 10):
+    # 2. Path on 1F to stairs at (7, 10):
     if pos['y'] > 20 and pos['x'] == 5:
         path_1f = [
             ("Up", 5, 26), ("Up", 5, 25), ("Up", 5, 24), ("Up", 5, 23), ("Up", 5, 22),
@@ -120,7 +86,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Inside Mansion 2F! Position:", pos)
     
-    # 4. Stairs from 2F to 3F are at (7, 10)
+    # 3. Stairs from 2F to 3F are at (7, 10)
     if pos == {'x': 7, 'y': 11}:
         if not step_to("Up", 7, 10):
             return
@@ -129,7 +95,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Inside Mansion 3F! Position:", pos)
     
-    # 5. Walk straight to (11, 11) on 3F
+    # 4. Walk straight to (11, 11) on 3F
     if pos == {'x': 7, 'y': 11}:
         path_3f = [
             ("Right", 8, 11),
@@ -144,7 +110,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Reached switch landing! Position:", pos)
     
-    # 6. Face Right to look at (12, 11)
+    # 5. Face Right to look at (12, 11)
     if pos == {'x': 11, 'y': 11}:
         mgba.press_buttons(["Right"])
         time.sleep(0.5)
@@ -158,7 +124,7 @@ def main():
         mgba.press_buttons(["B"]) # Dismiss
         time.sleep(1.0)
     
-    # 7. Walk to Pit on 3F (State B)
+    # 6. Walk to Pit on 3F (State B)
     pos = mgba.get_coordinates()
     if pos == {'x': 11, 'y': 11}:
         print("Walking to the Pit...")
@@ -184,7 +150,7 @@ def main():
     print("Landed on 1F! Position:", pos)
     mgba.take_screenshot()
     
-    # 8. Walk to B1F stairs on 1F (usually walking UP from landing area)
+    # 7. Walk to B1F stairs on 1F (usually walking UP from landing area)
     if pos['x'] == 25 and pos['y'] == 6:
         print("Walking onto B1F stairs...")
         for _ in range(5):
