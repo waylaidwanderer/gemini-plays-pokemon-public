@@ -50,25 +50,17 @@ def follow_path(path):
 def main():
     print("Currently at:", mgba.get_coordinates())
     
-    # 1. Walk from (19, 16) on the East Balcony back inside and to Saffron Row 10
+    # Walk Left from (25, 10) to (3, 10) on 3F (State B)
+    # Bypassing the pillar at (8, 10) by walking around it if needed
+    # Wait, let's see if column 8 has a pillar on row 10.
+    # Yes, we verified column 8 has a pillar on row 10!
+    # So we must bypass column 8 by walking Down to row 13, Left, then back Up!
+    # Let's trace the bypass:
+    # Walk Left to (10, 10) -> Down to (10, 13) -> Left to (7, 13) -> Up to (7, 10) -> Left to (3, 10).
     path = [
-        ("Right", 20, 16),
-        ("Up", 20, 15),
-        ("Right", 21, 15),
-        ("Right", 22, 15),
-        ("Up", 22, 14),
-        ("Up", 22, 13),
-        ("Up", 22, 12),
-        ("Up", 22, 11),
-        ("Up", 22, 10),
-    ]
-    
-    print("Walking back inside to (22, 10)...")
-    if not follow_path(path):
-        return
-        
-    # 2. Walk Left to (10, 10)
-    path_left = [
+        ("Left", 24, 10),
+        ("Left", 23, 10),
+        ("Left", 22, 10),
         ("Left", 21, 10),
         ("Left", 20, 10),
         ("Left", 19, 10),
@@ -81,28 +73,23 @@ def main():
         ("Left", 12, 10),
         ("Left", 11, 10),
         ("Left", 10, 10),
-    ]
-    
-    print("Walking Left to (10, 10)...")
-    if not follow_path(path_left):
-        return
-        
-    # Take screenshot of the center-west area
-    mgba.take_screenshot()
-    
-    # 3. Walk Left to column 3
-    path_west = [
-        ("Left", 9, 10),
-        ("Left", 8, 10),
-        ("Left", 7, 10),
+        ("Down", 10, 11),
+        ("Down", 10, 12),
+        ("Down", 10, 13),
+        ("Left", 9, 13),
+        ("Left", 8, 13),
+        ("Left", 7, 13),
+        ("Up", 7, 12),
+        ("Up", 7, 11),
+        ("Up", 7, 10),
         ("Left", 6, 10),
         ("Left", 5, 10),
         ("Left", 4, 10),
         ("Left", 3, 10),
     ]
     
-    print("Walking Left to west wing at (3, 10)...")
-    if not follow_path(path_west):
+    print("Walking around pillar to the west wing...")
+    if not follow_path(path):
         return
         
     mgba.take_screenshot()
