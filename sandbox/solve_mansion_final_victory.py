@@ -15,15 +15,16 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Starting from (12, 5) on 3F (State B)
-    print("Step 1: Walking along Row 5 to balcony and drop...")
+    # Current: (14, 5) on 3F (State B)
+    # Walk to balcony drop via Row 6 horizontal bypass corridor
+    print("Step 1: Walking along Row 6 bypass to balcony and drop...")
     path_to_drop = [
-        ("Right", 13, 5),
-        ("Right", 14, 5),
-        ("Right", 15, 5),
-        ("Right", 16, 5),
-        ("Right", 17, 5),
-        ("Right", 18, 5),
+        ("Down", 14, 6),
+        ("Right", 15, 6),
+        ("Right", 16, 6),
+        ("Right", 17, 6),
+        ("Right", 18, 6),
+        ("Up", 18, 5),
         ("Right", 19, 5),
         ("Right", 20, 5),
         ("Right", 21, 5), # Gate (21, 5) is OPEN in State B!
