@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=16, y=14)
+- Location: Rock Tunnel B1F (x=16, y=10)
 
 
 
@@ -1052,11 +1052,12 @@
 - [x] **Waypoint 1 (Col 11 Descent Part 1)**: From (11, 6), walk 4 steps Down to (11, 10).
 - [x] **Waypoint 2 (Col 11 Descent Part 2)**: From (11, 10), walk 4 steps Down to (11, 14).
 - [x] **Waypoint 3 (Row 14 Crossway)**: From (11, 14), walk 4 steps Right to (15, 14).
-- [x] **Waypoint 4 (Col 15/20 South Chamber Entry)**: From (15, 14), walk down & east to (20, 18).
-- [x] **Waypoint 5 (Row 18 West to Col 16)**: From (20, 18), walk 4 steps Left to (16, 18).
-- [ ] **Waypoint 6 (Col 16 Ascent to Upper Highway)**: From (16, 18), walk North up column 16 through rows 17-2 to (16, 2).
-- [ ] **Waypoint 7 (Upper Highway Eastward)**: From (16, 2), walk East across upper highway to column 37 at (37, 2).
-- [ ] **Waypoint 8 (Col 37 Descent to Ladder 4)**: From (37, 2), walk South down column 37 to Ladder 4 at (37, 17).
-- [ ] **Waypoint 9 (1F Exit)**: Step on Ladder 4 at (37, 17) -> 1F (3, 3) -> Western Corridor to Route 10 South.
+- [x] **Waypoint 4 (Reach Col 16)**: Arrived at column 16.
+- [ ] **Waypoint 5 (Col 16 Descent to Row 16 Crossway)**: From (16, 10), walk 6 steps Down to (16, 16).
+- [ ] **Waypoint 6 (Row 16 East to Col 20)**: From (16, 16), walk 4 steps Right to (20, 16).
+- [ ] **Waypoint 7 (Col 20 Ascent to Row 6)**: From (20, 16), walk 10 steps Up to (20, 6).
+- [ ] **Waypoint 8 (Row 6 East to Col 37)**: From (20, 6), walk East across upper corridor to column 37 at (37, 6).
+- [ ] **Waypoint 9 (Col 37 Descent to Ladder 4)**: From (37, 6), walk South down column 37 to Ladder 4 at (37, 17).
+- [ ] **Waypoint 10 (1F Exit)**: Step on Ladder 4 at (37, 17) -> 1F (3, 3) -> Western Corridor to Route 10 South.
 
 <hr>
