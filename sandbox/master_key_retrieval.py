@@ -38,39 +38,15 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (16, 7) on Cinnabar Island.
-    # 1. Walk Left to Column 10 along Row 7, then Up to Row 3, then Left to Column 6, then Up to enter Mansion.
-    print("--- STEP 1: Entering Mansion via Column 10 Gap ---")
-    path_to_mansion = [
-        ("Left", 15, 7),
-        ("Left", 14, 7),
-        ("Left", 13, 7),
-        ("Left", 12, 7),
-        ("Left", 11, 7),
-        ("Left", 10, 7),
-        ("Up", 10, 6),
-        ("Up", 10, 5),
-        ("Up", 10, 4),
-        ("Up", 10, 3),
-        ("Left", 9, 3),
-        ("Left", 8, 3),
-        ("Left", 7, 3),
-        ("Left", 6, 3),
-        ("Up", 6, 2), # Enter Mansion door (lands inside at (5, 27) on 1F)
-    ]
-    if not follow_path(path_to_mansion):
-        return False
-        
-    time.sleep(1.5) # Wait for transition
+    # We are currently at (5, 27) inside Mansion 1F (State A).
     pos = mgba.get_coordinates()
-    print(f"Inside Mansion 1F. Position: {pos}")
+    print(f"Starting at: {pos}")
     if pos['x'] != 5 or pos['y'] != 27:
         print("Error: Not at Mansion 1F entrance!")
-        mgba.take_screenshot()
         return False
-        
-    # 2. On 1F, walk to stairs at (7, 10)
-    print("--- STEP 2: Walking to 2F stairs on 1F ---")
+
+    # 1. On 1F, walk to stairs at (7, 10)
+    print("--- STEP 1: Walking to 2F stairs on 1F ---")
     path_to_stairs_1f = [
         ("Up", 5, 26), ("Up", 5, 25), ("Up", 5, 24), ("Up", 5, 23), ("Up", 5, 22),
         ("Up", 5, 21), ("Up", 5, 20), ("Up", 5, 19), ("Up", 5, 18), ("Up", 5, 17),
@@ -88,8 +64,8 @@ def run_master_route():
     pos = mgba.get_coordinates()
     print(f"On Mansion 2F. Position: {pos}")
     
-    # 3. On 2F, go to 3F via stairs at (7, 10)
-    print("--- STEP 3: Ascending to 3F ---")
+    # 2. On 2F, go to 3F via stairs at (7, 10)
+    print("--- STEP 2: Ascending to 3F ---")
     if pos['x'] == 7 and pos['y'] == 11:
         print("Landed at (7, 11) on 2F. Stepping Up to warp to 3F...")
         if not step_to("Up", 7, 10):
@@ -105,8 +81,8 @@ def run_master_route():
     pos = mgba.get_coordinates()
     print(f"On Mansion 3F. Position: {pos}")
     
-    # 4. On 3F (State A), walk to Mewtwo switch at (12, 11)
-    print("--- STEP 4: Walking to 3F Switch ---")
+    # 3. On 3F (State A), walk to Mewtwo switch at (12, 11)
+    print("--- STEP 3: Walking to 3F Switch ---")
     path_to_switch_3f = [
         ("Right", 8, 11),
         ("Right", 9, 11),
@@ -125,6 +101,55 @@ def run_master_route():
     
     pos = mgba.get_coordinates()
     print(f"Position after switch toggle: {pos}")
+    
+    # 4. On 3F (State B), walk along row 3 and column 25 to balcony drop
+    print("--- STEP 4: Walking to balcony drop on 3F (State B) ---")
+    path_to_drop_3f = [
+        ("Up", 11, 10),
+        ("Up", 11, 9),
+        ("Up", 11, 8),
+        ("Up", 11, 7),
+        ("Up", 11, 6),
+        ("Up", 11, 5),
+        ("Up", 11, 4),
+        ("Up", 11, 3),
+        ("Right", 12, 3),
+        ("Right", 13, 3),
+        ("Right", 14, 3),
+        ("Right", 15, 3),
+        ("Right", 16, 3),
+        ("Right", 17, 3),
+        ("Right", 18, 3),
+        ("Right", 19, 3),
+        ("Right", 20, 3),
+        ("Right", 21, 3),
+        ("Right", 22, 3),
+        ("Right", 23, 3),
+        ("Right", 24, 3),
+        ("Right", 25, 3),
+        ("Down", 25, 4),
+        ("Down", 25, 5),
+        ("Down", 25, 6),
+        ("Down", 25, 7),
+        ("Down", 25, 8),
+        ("Down", 25, 9),
+        ("Down", 25, 10),
+        ("Down", 25, 11),
+        ("Down", 25, 12),
+        ("Down", 25, 13),
+        ("Down", 25, 14),
+        ("Left", 24, 14),
+    ]
+    if not follow_path(path_to_drop_3f):
+        return False
+        
+    # Drop to 1F B1F stairs!
+    print("--- STEP 5: Dropping to 1F B1F stairs ---")
+    mgba.press_buttons(["Left"])
+    time.sleep(1.5)
+    
+    pos = mgba.get_coordinates()
+    print(f"Landed on 1F! Position: {pos}")
     mgba.take_screenshot()
     return True
 
