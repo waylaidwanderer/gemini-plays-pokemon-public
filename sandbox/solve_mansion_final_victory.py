@@ -49,12 +49,12 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Walk from (11, 12) to Mansion entrance (6, 3) via Column 10 (bypasses Pokemon Center door warp)
-    if pos == {'x': 11, 'y': 12}:
+    # 1. Walk from (10, 12) to Mansion entrance (6, 3) via Column 14 (Eastern Road next to ocean)
+    if pos == {'x': 10, 'y': 12}:
         path_to_mansion = [
-            ("Left", 10, 12),
-            ("Up", 10, 11), ("Up", 10, 10), ("Up", 10, 9), ("Up", 10, 8), ("Up", 10, 7), ("Up", 10, 6), ("Up", 10, 5), ("Up", 10, 4), ("Up", 10, 3),
-            ("Left", 9, 3), ("Left", 8, 3), ("Left", 7, 3), ("Left", 6, 3),
+            ("Right", 11, 12), ("Right", 12, 12), ("Right", 13, 12), ("Right", 14, 12),
+            ("Up", 14, 11), ("Up", 14, 10), ("Up", 14, 9), ("Up", 14, 8), ("Up", 14, 7), ("Up", 14, 6), ("Up", 14, 5), ("Up", 14, 4), ("Up", 14, 3),
+            ("Left", 13, 3), ("Left", 12, 3), ("Left", 11, 3), ("Left", 10, 3), ("Left", 9, 3), ("Left", 8, 3), ("Left", 7, 3), ("Left", 6, 3),
         ]
         for d, tx, ty in path_to_mansion:
             if not step_to(d, tx, ty):
