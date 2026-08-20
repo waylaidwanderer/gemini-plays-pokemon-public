@@ -50,26 +50,50 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # 1. Walk from (5, 7) to Mansion entrance (6, 3) avoiding the Lab door
-    path_to_mansion = [
-        ("Up", 5, 6),
-        ("Up", 5, 5),
-        ("Up", 5, 4),
-        ("Up", 5, 3),
-        ("Right", 6, 3), # Mansion entrance
-    ]
-    
-    for d, tx, ty in path_to_mansion:
-        step_to(d, tx, ty)
-        
-    print("Entering Mansion...")
-    mgba.press_buttons(["Up"])
+    # 1. Exit the Lab from (6, 2)
+    # Path: Left to (3, 2), then Down to (3, 7) (Warp)
+    if pos['y'] == 2 and pos['x'] > 3:
+        path_exit_lab = [
+            ("Left", 5, 2),
+            ("Left", 4, 2),
+            ("Left", 3, 2),
+            ("Down", 3, 3),
+            ("Down", 3, 4),
+            ("Down", 3, 5),
+            ("Down", 3, 6),
+            ("Down", 3, 7), # Warp outside to (6, 10)
+        ]
+        for d, tx, ty in path_exit_lab:
+            step_to(d, tx, ty)
+            
     time.sleep(2.0)
+    pos = mgba.get_coordinates()
+    print("Outside Lab! Position:", pos)
     
+    # 2. Walk to Mansion entrance (6, 3) avoiding Lab door at (6, 10)
+    # Path: Down to (6, 11) -> Left to (5, 11) -> Up to (5, 3) -> Right to (6, 3) (Mansion entrance warp)
+    if pos == {'x': 6, 'y': 10}:
+        path_to_mansion = [
+            ("Down", 6, 11),
+            ("Left", 5, 11),
+            ("Up", 5, 10),
+            ("Up", 5, 9),
+            ("Up", 5, 8),
+            ("Up", 5, 7),
+            ("Up", 5, 6),
+            ("Up", 5, 5),
+            ("Up", 5, 4),
+            ("Up", 5, 3),
+            ("Right", 6, 3), # Mansion entrance warp!
+        ]
+        for d, tx, ty in path_to_mansion:
+            step_to(d, tx, ty)
+            
+    time.sleep(2.0)
     pos = mgba.get_coordinates()
     print("Inside Mansion 1F! Position:", pos)
     
-    # 2. Path on 1F to stairs at (7, 10):
+    # 3. Path on 1F to stairs at (7, 10):
     path_1f = [
         ("Up", 5, 26), ("Up", 5, 25), ("Up", 5, 24), ("Up", 5, 23), ("Up", 5, 22),
         ("Right", 6, 22), ("Right", 7, 22),
@@ -84,14 +108,14 @@ def main():
     pos = mgba.get_coordinates()
     print("Inside Mansion 2F! Position:", pos)
     
-    # 3. Stairs from 2F to 3F are at (7, 10)
+    # 4. Stairs from 2F to 3F are at (7, 10)
     step_to("Up", 7, 10)
     
     time.sleep(1.0)
     pos = mgba.get_coordinates()
     print("Inside Mansion 3F! Position:", pos)
     
-    # 4. Walk straight to (11, 11) on 3F
+    # 5. Walk straight to (11, 11) on 3F
     path_3f = [
         ("Right", 8, 11),
         ("Right", 9, 11),
@@ -104,11 +128,11 @@ def main():
     pos = mgba.get_coordinates()
     print("Reached switch landing! Position:", pos)
     
-    # 5. Face Right to look at (12, 11)
+    # 6. Face Right to look at (12, 11)
     mgba.press_buttons(["Right"])
     time.sleep(0.5)
     
-    # 6. Toggle switch to State B
+    # 7. Toggle switch to State B
     print("Toggling switch to State B...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
@@ -117,7 +141,7 @@ def main():
     mgba.press_buttons(["B"]) # Dismiss
     time.sleep(1.0)
     
-    # 7. Walk to Pit on 3F (State B)
+    # 8. Walk to Pit on 3F (State B)
     print("Walking to the Pit...")
     path_to_pit = [
         ("Up", 11, 10),
