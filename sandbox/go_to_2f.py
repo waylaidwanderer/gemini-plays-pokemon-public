@@ -43,22 +43,28 @@ def follow_path(path):
                 return False
     return True
 
-def bypass_and_fall():
-    print("Starting bypass route to fall through the pit...")
+def run_all():
+    print("Backing out of move menu to main battle menu...")
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
+    # We should be back on the main battle menu, cursor on FIGHT.
+    # FIGHT is top-left. RUN is bottom-right.
+    # Press Down, Right, A to run from battle!
+    print("Running from Koffing battle...")
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(3.0) # wait for escape
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # We are at (21, 6).
-    # Path: Left to column 20, Up to row 3, Right to column 23, Down to row 6, Left into pit at (22, 6)
+    pos = mgba.get_coordinates()
+    print("Overworld pos after escape:", pos)
+    
+    # We should land at (26, 4). Walk Left to (23, 4), Down to (23, 6), Left into pit at (22, 6)
     path = [
-        ("Left", 20, 6),
-        ("Up", 20, 5),
-        ("Up", 20, 4),
-        ("Up", 20, 3),
-        ("Right", 21, 3),
-        ("Right", 22, 3),
-        ("Right", 23, 3),
-        ("Down", 23, 4),
+        ("Left", 25, 4),
+        ("Left", 24, 4),
+        ("Left", 23, 4),
         ("Down", 23, 5),
         ("Down", 23, 6),
         ("Left", 22, 6), # PIT fall to 2F!
@@ -75,4 +81,4 @@ def bypass_and_fall():
     return True
 
 if __name__ == "__main__":
-    bypass_and_fall()
+    run_all()
