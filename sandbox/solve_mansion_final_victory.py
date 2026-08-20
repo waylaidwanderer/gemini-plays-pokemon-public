@@ -15,17 +15,19 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (4, 15) on 2F in State A (no battle screen open)
-    # 1. Walk to northwest switch at (1, 11) on 2F
+    # Current: (1, 16) on 2F in State A (no battle screen open)
+    # 1. Walk to northwest switch at (1, 11) on 2F via Column 4 (bypassing rubble walls at col 1-3 rows 14-15)
     print("Step 1: Walking to northwest switch at (1, 11) on 2F...")
     path_to_nw_switch = [
-        ("Down", 4, 16),
-        ("Left", 3, 16),
-        ("Left", 2, 16),
-        ("Left", 1, 16),
-        ("Up", 1, 15),
-        ("Up", 1, 14),
-        ("Up", 1, 13),
+        ("Right", 2, 16),
+        ("Right", 3, 16),
+        ("Right", 4, 16),
+        ("Up", 4, 15),
+        ("Up", 4, 14),
+        ("Up", 4, 13),
+        ("Left", 3, 13),
+        ("Left", 2, 13),
+        ("Left", 1, 13),
         ("Up", 1, 12),
         ("Up", 1, 11),
     ]
@@ -41,21 +43,15 @@ def solve_all():
     mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "A", "sleep 600", "A"])
     time.sleep(1.0)
     
-    # 3. Walk to stairs in State B (via Row 16, Column 5, Row 9, Column 11, Row 5, Column 18)
+    # 3. Walk to stairs in State B (via Row 13 to Col 5, then Row 9 to Col 11)
     print("Step 3: Walking to stairs in State B...")
     path_to_stairs_b = [
         ("Down", 1, 12),
         ("Down", 1, 13),
-        ("Down", 1, 14),
-        ("Down", 1, 15),
-        ("Down", 1, 16),
-        ("Right", 2, 16),
-        ("Right", 3, 16),
-        ("Right", 4, 16),
-        ("Right", 5, 16),
-        ("Up", 5, 15),
-        ("Up", 5, 14),
-        ("Up", 5, 13),
+        ("Right", 2, 13),
+        ("Right", 3, 13),
+        ("Right", 4, 13),
+        ("Right", 5, 13),
         ("Up", 5, 12),
         ("Up", 5, 11),
         ("Up", 5, 10),
