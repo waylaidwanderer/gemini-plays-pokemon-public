@@ -1,17 +1,15 @@
 import mgba
 import time
 
-def enter_mansion():
-    print("Executing final bypass route to Pokemon Mansion...")
+def enter_mansion_direct():
+    print("Executing direct route to Pokemon Mansion...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # We are at (10, 6). Bypassing Cooltrainer by walking Right, Up, Left
+    # We are at (10, 6). Walking Up column 10, then Left along row 4
     path = [
-        ("Right", 11, 6),
-        ("Up", 11, 5),
-        ("Up", 11, 4),
-        ("Left", 10, 4),
+        ("Up", 10, 5),
+        ("Up", 10, 4),
         ("Left", 9, 4),
         ("Left", 8, 4),
         ("Left", 7, 4),
@@ -39,4 +37,4 @@ def enter_mansion():
     return True
 
 if __name__ == "__main__":
-    enter_mansion()
+    enter_mansion_direct()
