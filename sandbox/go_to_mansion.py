@@ -1,49 +1,51 @@
 import mgba
 import time
 
-def go_to_mansion():
-    print("Exiting Pokemon Lab first...")
+def explore_and_find_mansion():
+    print("Walking Right to column 11 from (4, 10)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # Walk Down to exit Lab
-    for row in range(4, 9):
-        print(f"Moving Down to row {row} inside Lab...")
-        mgba.press_buttons(["Down"])
+    # 1. Walk Right to column 11
+    for col in range(5, 12):
+        print(f"Moving Right to column {col}...")
+        mgba.press_buttons(["Right"])
         time.sleep(0.4)
-        
-    time.sleep(2.0) # Wait for warp to Cinnabar Island overworld
-    
-    pos = mgba.get_coordinates()
-    print("Outside Pokemon Lab. Overworld position:", pos)
-    
-    # 2. Walk Down to (6, 11) to clear the door
-    print("Stepping Down to clear the door...")
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-    print("Position:", mgba.get_coordinates())
-    
-    # 3. Walk Left to column 2
-    for col in range(5, 1, -1):
-        print(f"Moving Left to column {col}...")
-        mgba.press_buttons(["Left"])
-        time.sleep(0.4)
-        print("Position:", mgba.get_coordinates())
-        
-    # 4. Walk Up column 2 to the northwest corner
-    print("Walking Up column 2 to find Mansion entrance...")
-    for row in range(10, 2, -1):
+        pos = mgba.get_coordinates()
+        print("Position:", pos)
+        if pos['x'] != col:
+            print("Blocked on Right!")
+            mgba.take_screenshot()
+            break
+            
+    # 2. Walk Up column 11 to the northern road
+    # Let's try walking Up to row 3
+    print("Walking Up column 11...")
+    for row in range(9, 2, -1):
         print(f"Moving Up to row {row}...")
         mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+        print("Position:", pos)
+        if pos['y'] != row:
+            print("Blocked on Up!")
+            mgba.take_screenshot()
+            break
+            
+    # 3. Walk Left to find Mansion entrance
+    # The Mansion is on the northwest. Let's walk Left along row 3 or 4
+    print("Walking Left to find Mansion entrance...")
+    for col in range(10, 1, -1):
+        print(f"Moving Left to column {col}...")
+        mgba.press_buttons(["Left"])
         time.sleep(0.4)
         curr = mgba.get_coordinates()
         print("Position:", curr)
         
         # Check if we warped to Pokemon Mansion 1F.
-        # Mansion 1F coordinates are different from Cinnabar Island overworld (height/width differs, and start pos is around column 8-10, row 27).
-        # We can detect if the position changed to something like row 27.
+        # Inside Mansion 1F, the coordinates are different (e.g. row > 20).
         if curr['y'] > 15:
-            print("Successfully warped inside Pokemon Mansion!")
+            print("Successfully entered Pokemon Mansion!")
             mgba.take_screenshot()
             return True
             
@@ -53,4 +55,4 @@ def go_to_mansion():
     return False
 
 if __name__ == "__main__":
-    go_to_mansion()
+    explore_and_find_mansion()
