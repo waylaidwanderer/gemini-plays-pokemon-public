@@ -38,18 +38,20 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (2, 12) on 3F (State B).
+    # We are currently at (6, 11) on 3F (State B).
+    # Dismiss "Got away safely!" first
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    
     pos = mgba.get_coordinates()
     print(f"Starting at: {pos}")
-    if pos['x'] != 2 or pos['y'] != 12:
-        print("Error: Not at (2, 12)!")
-        return False
-        
+    
     # Walk to the balcony drop on 3F (State B)
     print("--- STEP 4: Walking to balcony drop on 3F (State B) ---")
     path_to_drop_3f = [
-        ("Right", 3, 12),
-        ("Up", 3, 11),
+        ("Left", 5, 11),
+        ("Left", 4, 11),
+        ("Left", 3, 11),
         ("Up", 3, 10),
         ("Up", 3, 9),
         ("Up", 3, 8),
