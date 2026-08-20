@@ -38,81 +38,34 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (9, 14) inside Mansion 1F.
+    # We are currently at (2, 12) on 3F (State B).
     pos = mgba.get_coordinates()
     print(f"Starting at: {pos}")
-    if pos['x'] != 9 or pos['y'] != 14:
-        print("Error: Not at (9, 14)!")
+    if pos['x'] != 2 or pos['y'] != 12:
+        print("Error: Not at (2, 12)!")
         return False
         
-    # 1. On 1F, walk to stairs at (7, 10) by going Up to row 11 first
-    print("--- STEP 1: Walking to 2F stairs on 1F ---")
-    path_to_stairs_1f = [
-        ("Up", 9, 13),
-        ("Up", 9, 12),
-        ("Up", 9, 11),
-        ("Left", 8, 11),
-        ("Left", 7, 11),
-    ]
-    if not follow_path(path_to_stairs_1f):
-        return False
-        
-    # Step Up to (7, 10) to warp to 2F
-    print("Stepping onto 1F stairs...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print(f"On Mansion 2F. Position: {pos}")
-    
-    # 2. On 2F, go to 3F via stairs at (7, 10)
-    print("--- STEP 2: Ascending to 3F ---")
-    if pos['x'] == 7 and pos['y'] == 11:
-        print("Landed at (7, 11) on 2F. Stepping Up to warp to 3F...")
-        if not step_to("Up", 7, 10):
-            return False
-    elif pos['x'] == 7 and pos['y'] == 10:
-        print("Landed at (7, 10) on 2F. Stepping Down and back Up to warp to 3F...")
-        if not step_to("Down", 7, 11):
-            return False
-        if not step_to("Up", 7, 10):
-            return False
-            
-    time.sleep(1.5) # Wait for transition
-    pos = mgba.get_coordinates()
-    print(f"On Mansion 3F. Position: {pos}")
-    
-    # 3. On 3F (State A), walk to Mewtwo switch at (12, 11)
-    print("--- STEP 3: Walking to 3F Switch ---")
-    path_to_switch_3f = [
-        ("Right", 8, 11),
-        ("Right", 9, 11),
-        ("Down", 9, 12),
-        ("Right", 10, 12),
-        ("Right", 11, 12),
-        ("Up", 11, 11),
-    ]
-    if not follow_path(path_to_switch_3f):
-        return False
-        
-    # Face Right and press A to toggle switch to State B
-    print("Toggling 3F switch to State B...")
-    mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B"])
-    print("Switch toggled!")
-    
-    pos = mgba.get_coordinates()
-    print(f"Position after switch toggle: {pos}")
-    
-    # 4. On 3F (State B), walk along row 3 and column 25 to balcony drop
+    # Walk to the balcony drop on 3F (State B)
     print("--- STEP 4: Walking to balcony drop on 3F (State B) ---")
     path_to_drop_3f = [
-        ("Up", 11, 10),
-        ("Up", 11, 9),
-        ("Up", 11, 8),
-        ("Up", 11, 7),
-        ("Up", 11, 6),
-        ("Up", 11, 5),
-        ("Up", 11, 4),
-        ("Up", 11, 3),
+        ("Right", 3, 12),
+        ("Up", 3, 11),
+        ("Up", 3, 10),
+        ("Up", 3, 9),
+        ("Up", 3, 8),
+        ("Up", 3, 7),
+        ("Up", 3, 6),
+        ("Up", 3, 5),
+        ("Up", 3, 4),
+        ("Up", 3, 3),
+        ("Right", 4, 3),
+        ("Right", 5, 3),
+        ("Right", 6, 3),
+        ("Right", 7, 3),
+        ("Right", 8, 3),
+        ("Right", 9, 3),
+        ("Right", 10, 3),
+        ("Right", 11, 3),
         ("Right", 12, 3),
         ("Right", 13, 3),
         ("Right", 14, 3),
