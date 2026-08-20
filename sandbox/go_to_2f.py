@@ -43,24 +43,25 @@ def follow_path(path):
                 return False
     return True
 
-def run_to_pit():
-    print("Walking to the pit from (12, 5)...")
+def bypass_and_fall():
+    print("Starting bypass route to fall through the pit...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # Path: Down to row 6, then Right to column 22
+    # We are at (21, 6).
+    # Path: Left to column 20, Up to row 3, Right to column 23, Down to row 6, Left into pit at (22, 6)
     path = [
-        ("Down", 12, 6),
-        ("Right", 13, 6),
-        ("Right", 14, 6),
-        ("Right", 15, 6),
-        ("Right", 16, 6),
-        ("Right", 17, 6),
-        ("Right", 18, 6),
-        ("Right", 19, 6),
-        ("Right", 20, 6),
-        ("Right", 21, 6),
-        ("Right", 22, 6), # PIT fall to 2F!
+        ("Left", 20, 6),
+        ("Up", 20, 5),
+        ("Up", 20, 4),
+        ("Up", 20, 3),
+        ("Right", 21, 3),
+        ("Right", 22, 3),
+        ("Right", 23, 3),
+        ("Down", 23, 4),
+        ("Down", 23, 5),
+        ("Down", 23, 6),
+        ("Left", 22, 6), # PIT fall to 2F!
     ]
     if not follow_path(path):
         return False
@@ -74,4 +75,4 @@ def run_to_pit():
     return True
 
 if __name__ == "__main__":
-    run_to_pit()
+    bypass_and_fall()
