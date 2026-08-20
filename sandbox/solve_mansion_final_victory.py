@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Running definitive Pokémon Mansion B1F drop script. Current pos:", get_pos())
+print("Running solve_mansion_final_victory.py. Starting pos:", get_pos())
 
 def handle_battle():
     # Clear screens
@@ -62,10 +62,11 @@ def step_to_closed_loop(tx, ty):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk to (13, 12) on 2F (front side of Mewtwo statue switch)
+# 1. Walk from (17, 9) on 2F to (13, 12) (the front side of Mewtwo statue switch)
 waypoints_to_switch = [
-    (16, 9), (16, 7),
-    (12, 7), (12, 12),
+    (17, 7),
+    (12, 7),
+    (12, 12),
     (13, 12)
 ]
 
@@ -76,7 +77,7 @@ for (wx, wy) in waypoints_to_switch:
         break
 
 if success_to:
-    print("Reached (13, 12). Toggling 2F switch from FRONT to State B...")
+    print("Reached (13, 12). Toggling 2F switch from FRONT to State A...")
     mgba.press_buttons([
         "Up", "sleep 500",
         "A", "sleep 1500",
@@ -103,13 +104,13 @@ if success_to:
         print("Reached (16, 11). Warping back UP to 3F...")
         mgba.press_buttons(["Left"]) # Step Left onto the stairs at (15, 11) to warp up
         time.sleep(1.5)
-        print("Landed on 3F in State B! Current pos:", get_pos())
+        print("Landed on 3F in State A! Current pos:", get_pos())
         
-        # 3. Walk to the balcony drop on 3F in State B
+        # 3. Walk to the balcony drop on 3F in State A
         waypoints_to_drop = [
             (20, 11),
             (20, 15),
-            (20, 18), # In State B, the balcony shutter gate on row 16 & 17 is open!
+            (20, 18), # In State A, both row 16 gate and row 17 gate are open!
             (19, 18)  # Step Left to drop!
         ]
         success_drop = True
