@@ -1,63 +1,41 @@
 import mgba
 import time
-import os
-import shutil
 
-def cleanup_workspace():
-    print("Cleaning up obsolete workspace files...")
-    files_to_delete = [
-        "go_to_2f.py",
-        "test_stairs_up.py",
-        "test_walls.py",
-        "run_from_battle.py",
-        "walk_step_by_step.py",
-        "solve_mansion_final_victory.py"
-    ]
-    for f in files_to_delete:
-        if os.path.exists(f):
-            try:
-                os.remove(f)
-                print(f"Deleted {f}")
-            except Exception as e:
-                print(f"Error deleting {f}: {e}")
-                
-    # Clean pycache
-    pycache_dir = "__pycache__"
-    if os.path.exists(pycache_dir):
-        try:
-            shutil.rmtree(pycache_dir)
-            print("Cleaned __pycache__")
-        except Exception as e:
-            print(f"Error cleaning pycache: {e}")
-
-def run_from_battle_and_warp():
-    print("Starting escape and warp sequence...")
-    
-    # 1. We are in battle, cursor on FIGHT. Move Down, Right, and press A to escape
-    print("Fleeing battle...")
+def escape_and_toggle():
+    print("Escaping from battle at (3, 12)...")
+    # Cursor is on FIGHT. Down, Right, A to run.
     mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(2.0)
+    time.sleep(3.0) # Wait for escape animation
     
-    # Press B to make sure text is dismissed after running
+    # Press B to make sure we are back on overworld
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
-    print("Post-battle position:", pos)
+    print("Overworld position after escape:", pos)
     
-    # Verify we are on the map
-    if pos['x'] == 7 and pos['y'] == 11:
-        print("Successfully back on 3F at (7, 11). Walking UP onto stairs at (7, 10)...")
-        mgba.press_buttons(["Up"])
-        time.sleep(2.0) # wait for warp
+    if pos['x'] == 3 and pos['y'] == 12:
+        print("Walking Left to (2, 12)...")
+        mgba.press_buttons(["Left"])
+        time.sleep(0.5)
         
-        new_pos = mgba.get_coordinates()
-        print("Position after warp attempt:", new_pos)
-        mgba.take_screenshot()
-    else:
-        print("Unexpected position. Capturing screenshot.")
-        mgba.take_screenshot()
+        curr = mgba.get_coordinates()
+        print("Position after Left:", curr)
+        
+        if curr['x'] == 2 and curr['y'] == 12:
+            print("Facing Up and toggling switch at (2, 11) to State A...")
+            # We are at (2, 12). Press Up to face Up, then A to toggle
+            mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "A", "sleep 500", "B"])
+            time.sleep(1.0)
+            
+            final_pos = mgba.get_coordinates()
+            print("Final position:", final_pos)
+            mgba.take_screenshot()
+            return True
+            
+    print("Could not complete. Coordinates are:", pos)
+    mgba.take_screenshot()
+    return False
 
 if __name__ == "__main__":
-    cleanup_workspace()
-    run_from_battle_and_warp()
+    escape_and_toggle()
