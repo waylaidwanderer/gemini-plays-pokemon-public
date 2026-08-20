@@ -1,57 +1,56 @@
 import mgba
 import time
 
-def enter_mansion_real():
-    print("Exiting Pokemon Lab lobby...")
+def find_mansion():
+    print("Dismissing gym door message...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # 1. Walk Down to exit Lab
-    mgba.press_buttons(["Down"])
-    time.sleep(1.5) # Wait for warp outside to (15, 12)
-    
-    pos = mgba.get_coordinates()
-    print("Outside Pokemon Lab. Overworld position:", pos)
-    
-    # 2. Walk Right to column 19
-    for col in range(16, 20):
-        print(f"Moving Right to column {col}...")
-        mgba.press_buttons(["Right"])
+    # 1. Walk Down to row 6
+    for row in range(5, 7):
+        mgba.press_buttons(["Down"])
         time.sleep(0.4)
-        print("Position:", mgba.get_coordinates())
+        print("Position after Down:", mgba.get_coordinates())
         
-    # 3. Walk Up column 19 to row 4
-    print("Walking Up column 19 to row 4...")
-    for row in range(11, 3, -1):
-        print(f"Moving Up to row {row}...")
+    # 2. Walk Left to column 11
+    for col in range(17, 10, -1):
+        mgba.press_buttons(["Left"])
+        time.sleep(0.4)
+        print(f"Moved Left to column {col}:", mgba.get_coordinates())
+        
+    # 3. Walk Up column 11 to the top road (row 2 or 3)
+    print("Walking Up column 11...")
+    for row in range(5, 1, -1):
         mgba.press_buttons(["Up"])
         time.sleep(0.4)
-        print("Position:", mgba.get_coordinates())
-        
-    # 4. Walk Left along row 4 to column 2
-    print("Walking Left to northwest corner...")
-    for col in range(18, 1, -1):
-        print(f"Moving Left to column {col}...")
+        pos = mgba.get_coordinates()
+        print(f"Moved Up to row {row}: {pos}")
+        if pos['y'] != row:
+            print("Blocked on Up!")
+            break
+            
+    # 4. Walk Left as far as we can from our current northern row
+    curr_pos = mgba.get_coordinates()
+    print("Current position at top road:", curr_pos)
+    
+    print("Walking Left along northern road...")
+    for col in range(curr_pos['x'] - 1, 0, -1):
         mgba.press_buttons(["Left"])
         time.sleep(0.4)
         curr = mgba.get_coordinates()
-        print("Position:", curr)
+        print(f"Moved Left to column {col}: {curr}")
         
-        # Check if we warped inside Pokemon Mansion 1F
+        # Check if we warped inside Pokemon Mansion 1F.
+        # Mansion 1F y is usually around 27.
         if curr['y'] > 15:
             print("SUCCESS! Warp detected. Entered Pokemon Mansion 1F!")
             mgba.take_screenshot()
             return True
             
-    # Try one final Up step at column 2 row 4/3 just in case of door alignment
-    print("Trying final Up step to enter...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.5)
-    
-    final_pos = mgba.get_coordinates()
-    print("Final position:", final_pos)
+    # Take screenshot at the end of exploration
+    print("Finished exploration. Coordinates:", mgba.get_coordinates())
     mgba.take_screenshot()
-    return final_pos['y'] > 15
+    return False
 
 if __name__ == "__main__":
-    enter_mansion_real()
+    find_mansion()
