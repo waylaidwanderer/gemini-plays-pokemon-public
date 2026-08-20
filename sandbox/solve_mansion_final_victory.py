@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting final balcony drop from:", get_pos())
+print("Starting final drop from current pos:", get_pos())
 
 def handle_battle():
     # Clear screens
@@ -58,12 +58,15 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Path to balcony drop at (19, 18)
+# Clear "Got away safely!" textbox first
+mgba.press_buttons(["B"])
+time.sleep(0.3)
+
+# Remaining waypoints from (21, 15) to drop over the balcony
 waypoints = [
-    (20, 11),  # Walk Right to column 20
-    (20, 15),  # Walk Down column 20 to row 15
-    (20, 18),  # Walk Down column 20 to row 18 (through open gate)
-    (19, 18)   # Step Left to drop over the railing!
+    (20, 15),
+    (20, 18),
+    (19, 18)   # Balcony drop!
 ]
 
 success = True
