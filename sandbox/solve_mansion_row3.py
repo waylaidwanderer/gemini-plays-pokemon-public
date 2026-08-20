@@ -44,24 +44,28 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Navigating from (12, 11) to west switch at (2, 12)...")
+    print("Starting corrected final mansion victory route from (4, 16)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # Path to (2, 12)
+    pos = mgba.get_coordinates()
+    print("Start position:", pos)
+    
+    # Path from (4, 16) to the switch at (2, 11) (standing at 2, 12 facing Up)
     path_to_switch = [
-        ("Left", 11, 11),
-        ("Left", 10, 11), # OPEN in State A!
-        ("Left", 9, 11),
-        ("Left", 8, 11),
-        ("Left", 7, 11),
-        ("Left", 6, 11),
-        ("Left", 5, 11),
-        ("Left", 4, 11),
+        # 1. Walk UP column 4 to row 11
+        ("Up", 4, 15),
+        ("Up", 4, 14),
+        ("Up", 4, 13),
+        ("Up", 4, 12),
+        ("Up", 4, 11),
+        # 2. Walk Left horizontally along Row 11 (bypassing the gates)
         ("Left", 3, 11),
-        ("Down", 3, 12),
-        ("Left", 2, 12),
+        ("Left", 2, 11),
+        # 3. Walk Down to (2, 12)
+        ("Down", 2, 12),
     ]
+    
     if not follow_path(path_to_switch):
         return False
         
