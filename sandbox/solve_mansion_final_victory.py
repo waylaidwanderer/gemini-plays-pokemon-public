@@ -31,18 +31,15 @@ def walk_step(direction, target_x, target_y):
     return False
 
 def solve_all():
-    # Current is at (6, 11) on 2F in State A
-    # We want to go to the switch at (2, 12)
-    # Since NPC is around (4, 11) / (5, 11), let's use a path that bypasses row 11 if needed, or just try to walk.
-    # Actually, let's walk through row 10 if we get blocked on row 11!
-    # Let's see: we can go:
-    # (6, 11) -> (6, 10) -> (5, 10) -> (4, 10) -> (3, 10) -> (3, 11) is wall.
-    # So from (4, 10) we can go: (4, 11) -> (3, 11) is wall. So (4, 12) -> (3, 12) -> (2, 12).
-    # Let's try the standard path first:
+    # Current: (7, 11) on 2F in State A
+    # Path to northwest switch bypassing NPC on row 11
     path_to_nw_switch = [
-        ("Left", 5, 11),
-        ("Down", 5, 12),
-        ("Left", 4, 12),
+        ("Left", 6, 11),
+        ("Up", 6, 10),
+        ("Left", 5, 10),
+        ("Left", 4, 10),
+        ("Down", 4, 11),
+        ("Down", 4, 12),
         ("Left", 3, 12),
         ("Down", 3, 13),
         ("Left", 2, 13),
@@ -53,7 +50,7 @@ def solve_all():
         ("Right", 2, 12),
     ]
     
-    # Let's execute the path to the NW switch
+    # Execute path to NW switch
     for d, tx, ty in path_to_nw_switch:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
