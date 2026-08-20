@@ -77,7 +77,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full!
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125. Currently on B1F at `(9, 16)` on Turn 49921 with plenty of Bag space (7/20 items) to retrieve it!
 
 <hr>
 
@@ -2158,6 +2158,28 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Locations/CinnabarIsland.md</code></h1>
 
+
+
+<hr>
+
+<h1><code>Locations/PokemonMansionB1F</code></h1>
+
+# Pokémon Mansion B1F - Map & Navigation Log
+
+## Verified Landing Coordinates (Burden of Proof)
+- **Balcony Drop Landing:** Landing coordinate is `(9, 16)` on Mansion B1F.
+  - Verification: Empirically verified on Turn 49921 after dropping over the 3F balcony railing at `(19, 18)` in State A.
+
+## Key Targets
+- **SECRET KEY:** Located at `(1, 4)` in the northwest room of B1F.
+  - Status: Not yet retrieved, but Bag has empty space (only 7/20 items!).
+
+## Layout Constraints & Gate Status
+- **Mewtwo Statue Switch:** Located near the center-left. Toggles the global shutter gate state.
+- **Active Gates:** Need to map which gates are open/closed in State A vs State B in B1F.
+- **State A Current Observations (Turn 49921):**
+  - We are currently in State A (Default).
+  - Let's map B1F surroundings to find our path to `(1, 4)`.
 
 
 <hr>
