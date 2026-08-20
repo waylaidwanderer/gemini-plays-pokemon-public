@@ -1,38 +1,35 @@
 import mgba
 import time
 
-def walk_to_mansion():
-    print("Walking to Pokemon Mansion from Pokemon Center at (11, 12)...")
+def enter_mansion():
+    print("Exiting Pokemon Lab...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # 1. Walk Left to column 2
-    # From (11, 12), walk Left to column 2
-    for col in range(10, 1, -1):
-        mgba.press_buttons(["Left"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-        print(f"Moved Left to column {col}. Current pos: {pos}")
-        if pos['x'] != col:
-            print("Blocked or walked into something! Adjusting...")
-            mgba.take_screenshot()
-            break
-            
-    # 2. From column 2, walk Up to row 3
-    print("Walking Up column 2...")
-    for row in range(11, 2, -1):
+    # 1. Walk Down to exit Lab
+    mgba.press_buttons(["Down"])
+    time.sleep(0.5)
+    mgba.press_buttons(["Down"])
+    time.sleep(1.5) # Wait for warp outside
+    
+    pos = mgba.get_coordinates()
+    print("Outside Pokemon Lab. Position:", pos)
+    
+    # 2. Walk North to find Pokemon Mansion entrance
+    # We should be at (3, 8) or adjacent. Walk Up as far as we can!
+    print("Walking North to find Mansion entrance...")
+    for step in range(10):
         mgba.press_buttons(["Up"])
         time.sleep(0.4)
-        pos = mgba.get_coordinates()
-        print(f"Moved Up to row {row}. Current pos: {pos}")
-        if pos['y'] != row:
-            print("Blocked or walked into something! Adjusting...")
-            mgba.take_screenshot()
-            break
-            
-    # Take screenshot at the northwest corner
-    print("Arrived at northwest corner. Checking surroundings...")
+        curr = mgba.get_coordinates()
+        print(f"Step {step+1}: position: {curr}")
+        
+        # If the map changed to Pokémon Mansion 1F, we successfully warped!
+        # The coordinates inside Mansion 1F entrance are usually around (9, 27) or similar.
+        # But we'll definitely detect a map transition or different coords.
+        # Let's check if the coordinates are in the Mansion range or if we are blocked.
+        
     mgba.take_screenshot()
 
 if __name__ == "__main__":
-    walk_to_mansion()
+    enter_mansion()
