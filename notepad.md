@@ -1070,14 +1070,15 @@
 - **1F South Exit**: Western Corridor (cols 2-5) south from (3, 3) through rows 4-33 to Route 10 South!
 
 ## Master Progression Route
-1. **Stage 1 (Ascend Ladder 2)**: From B1F (5, 17) -> Down 2 to (5, 19) -> Right 4 to (9, 19) -> Up 10 to (9, 9) -> Left 4 to (5, 9) -> Up 6 to (5, 3) [Ladder 2] -> Warp to 1F (27, 3).
-2. **Stage 2 (Traverse 1F to Ladder 3)**: From 1F (27, 3) -> Down 2 to (27, 5) -> Left 4 to (23, 5) -> Down 6 to (23, 11) [Ladder 3] -> Warp to B1F (17, 11).
-3. **Stage 3 (Traverse B1F to Ladder 4)**: From B1F (17, 11) -> East along rows 10-13 to (37, 11) -> Down 6 to (37, 17) [Ladder 4] -> Warp to 1F (3, 3).
-4. **Stage 4 (1F Western Exit)**: From 1F (3, 3) -> Descend South down Western Corridor to South Exit doorway leading to Route 10 South.
-5. **Stage 5 (Lavender Town)**: Emerge onto Route 10 South, walk south to Lavender Town, heal at Pokémon Center.
+1. **Traverse to Northern Highway (Row 6)**: From B1F (17, 21) -> North along col 17/16 to row 10 -> West to (11, 10) -> North to (11, 6) on Row 6 Highway.
+2. **Traverse East on Row 6**: From (11, 6) -> East across row 6 to column 37 -> South along col 37 to Ladder 4 at (37, 17).
+3. **Ascend Ladder 4**: Step onto Ladder 4 at (37, 17) -> Warp to 1F NW at (3, 3).
+4. **1F Western Exit**: From 1F (3, 3) -> Descend South down Western Corridor (cols 2-5) to South Exit doorway leading to Route 10 South.
+5. **Lavender Town**: Emerge onto Route 10 South, walk south to Lavender Town, heal at Pokémon Center.
 
 ## Immediate Action
-- Current position: B1F (17, 10)
-- Path: Left 2 to (15, 10), Down 6 to (15, 16), Right into eastern thoroughfare (cols 20-37) toward Ladder 4 at (37, 17).
+- Current position: B1F (17, 21)
+- Navigation Goal: North corridor junction at (17, 17) on Rock Tunnel B1F
+- Short Probing Step: Up 4 steps along col 17 to (17, 17).
 
 <hr>
