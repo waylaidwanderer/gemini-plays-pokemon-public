@@ -14,7 +14,7 @@
 ## Strict Sequential Execution Checklist
 - [x] **Step 1**: From (17, 16), walk 1 step Left to (16, 16).
 - [x] **Step 2**: From (16, 16), walk 2 steps Up along column 16 to row 14 at (16, 14).
-- [ ] **Step 3**: From (16, 14), walk 5 steps Left along row 14 to column 11 at (11, 14).
+- [x] **Step 3**: From (16, 14), walk 5 steps Left along row 14 to column 11 at (11, 14).
 - [ ] **Step 4**: From (11, 14), walk 8 steps Up along column 11 to row 6 at (11, 6).
 - [ ] **Step 5**: From (11, 6), walk East along row 6 past cols 14-21 into eastern sector to column 37 at (37, 6).
 - [ ] **Step 6**: From (37, 6), walk 11 steps Down along column 37 to Ladder 4 at (37, 17).
