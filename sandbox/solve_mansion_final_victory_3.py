@@ -48,32 +48,23 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Starting master victory route via Row 3 from (21, 6)...")
+    print("Starting final balcony drop from (26, 6) on 3F...")
     
-    # We are currently at (21, 6) on 3F (State B)
+    # Current position is (26, 6)
     path = [
-        # 1. Walk Up Column 21 to Row 3
-        ("Up", 21, 5),
-        ("Up", 21, 4),
-        ("Up", 21, 3),
+        # 1. Walk Down Column 26 to Row 14
+        ("Down", 26, 7),
+        ("Down", 26, 8),
+        ("Down", 26, 9),
+        ("Down", 26, 10),
+        ("Down", 26, 11),
+        ("Down", 26, 12),
+        ("Down", 26, 13),
+        ("Down", 26, 14),
         
-        # 2. Walk Right along Row 3 to Column 24
-        ("Right", 22, 3),
-        ("Right", 23, 3),
-        ("Right", 24, 3),
-        
-        # 3. Walk Down Column 24 to the balcony drop at (24, 14)
-        ("Down", 24, 4),
-        ("Down", 24, 5),
-        ("Down", 24, 6),
-        ("Down", 24, 7),
-        ("Down", 24, 8),
-        ("Down", 24, 9),
-        ("Down", 24, 10),
-        ("Down", 24, 11),
-        ("Down", 24, 12),
-        ("Down", 24, 13),
-        ("Down", 24, 14),
+        # 2. Walk Left to (24, 14)
+        ("Left", 25, 14),
+        ("Left", 24, 14),
     ]
     
     success = True
@@ -87,7 +78,7 @@ def main():
         print("At (24, 14). Dropping off balcony...")
         # Step Left to drop
         mgba.press_buttons(["Left"])
-        time.sleep(3.0) # Wait for drop animation/warp
+        time.sleep(3.0) # Wait for warp animation
         
         pos_landing = mgba.get_coordinates()
         print("Landed on 1F! Current position:", pos_landing)
