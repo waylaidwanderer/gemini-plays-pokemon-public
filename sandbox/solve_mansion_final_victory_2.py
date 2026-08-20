@@ -46,18 +46,15 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Starting from (24, 10)...")
+    print("Dismissing 'Got away safely!' text box...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
     print("Start position:", pos)
     
-    # Path to the switch standing position (11, 11)
+    # Path from (23, 8) to the switch standing position (11, 11)
     path_to_switch = [
-        ("Left", 23, 10),
-        ("Up", 23, 9),
-        ("Up", 23, 8),
         ("Up", 23, 7),
         ("Up", 23, 6),
         # Walk Left along Row 6 to Column 11
