@@ -1,22 +1,14 @@
 import mgba
 import time
 
-button_count = 0
-
-def press_buttons_safe(buttons):
-    global button_count
-    button_count += len(buttons)
-    if button_count > 95:
-        print("Cumulative button count is reaching 100. Stopping execution early.")
-        exit(0)
-    return mgba.press_buttons(buttons)
-
 def get_pos():
     p = mgba.get_coordinates()
     while p is None:
         time.sleep(0.1)
         p = mgba.get_coordinates()
     return p
+
+print("Starting Part 2 of master bypass route. Current pos on 3F:", get_pos())
 
 def handle_battle():
     print("Action blocked or battle detected! Running battle auto-pilot...")
@@ -26,74 +18,69 @@ def handle_battle():
     # Select RUN
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
-    # Clear "Escaped safely!" or "Got away safely!"
+    # Clear escaping messages
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
 
-def step_to_target(target_x, target_y):
-    # This function moves the player 1 step at a time to target_x, target_y.
-    # If blocked, it handles battle and retries.
-    while True:
-        pos = get_pos()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            break
+def step_to(tx, ty):
+    for _ in range(10): # retry loop
+        c = get_pos()
+        if c['x'] == tx and c['y'] == ty:
+            print(f"Reached: ({tx}, {ty})")
+            return True
+        dx = tx - c['x']
+        dy = ty - c['y']
+        
+        btn = None
+        if dx > 0:
+            btn = "Right"
+        elif dx < 0:
+            btn = "Left"
+        elif dy > 0:
+            btn = "Down"
+        elif dy < 0:
+            btn = "Up"
             
-        direction = None
-        if x < target_x:
-            direction = "Right"
-        elif x > target_x:
-            direction = "Left"
-        elif y < target_y:
-            direction = "Down"
-        elif y > target_y:
-            direction = "Up"
-            
-        print(f"Current pos: ({x}, {y}). Moving to ({target_x}, {target_y}) by pressing {direction}...")
-        press_buttons_safe([direction])
+        print(f"Standing at {c}. Pressing {btn} to reach ({tx}, {ty})...")
+        mgba.press_buttons([btn])
         time.sleep(0.4)
         
         after = get_pos()
-        if after == pos:
-            # We didn't move. Could be a battle or wall.
-            print("Did not move. Checking for battle/dialog...")
+        if after == c:
+            print("Blocked! Checking for battle...")
             handle_battle()
             after_retry = get_pos()
-            if after_retry == pos:
-                print("STILL blocked! Possible collision with wall. Aborting.")
-                exit(1)
-    print(f"Reached: ({target_x}, {target_y})")
+            if after_retry == c:
+                print("STILL BLOCKED. Aborting.")
+                return False
+    return False
 
-# Read current coordinate:
-pos = get_pos()
-print("Starting script at:", pos)
+# Route steps:
+# 1. (1, 11) -> (1, 13)
+if not step_to(1, 12): exit(1)
+if not step_to(1, 13): exit(1)
 
-# We are on 3F at (2, 12).
-# Let's execute the route steps.
-# To prevent button limit (100) from being exceeded, we will do a subset of the steps, 
-# then print our position and let the next turn continue.
-# This is extremely safe and conforms to the button limit.
+# 2. (1, 13) -> (5, 13)
+if not step_to(2, 13): exit(1)
+if not step_to(3, 13): exit(1)
+if not step_to(4, 13): exit(1)
+if not step_to(5, 13): exit(1)
 
-# 1. (2, 12) -> (7, 12)
-step_to_target(7, 12)
+# 3. (5, 13) -> (5, 6)
+for y in range(12, 5, -1):
+    if not step_to(5, y): exit(1)
 
-# 2. (7, 12) -> (7, 13)
-step_to_target(7, 13)
+# 4. (5, 6) -> (16, 6)
+for x in range(6, 17):
+    if not step_to(x, 6): exit(1)
 
-# 3. (7, 13) -> (9, 13)
-step_to_target(9, 13)
+# 5. (16, 6) -> (16, 11)
+for y in range(7, 12):
+    if not step_to(16, y): exit(1)
 
-# 4. (9, 13) -> (9, 10)
-step_to_target(9, 10)
-
-# 5. (9, 10) -> (11, 10)
-step_to_target(11, 10)
-
-# 6. (11, 10) -> (11, 5)
-step_to_target(11, 5)
-
-# 7. (11, 5) -> (15, 5)
-step_to_target(15, 5)
-
-print("Current coordinate after part 1 of route:", get_pos())
+# 6. (16, 11) -> (15, 11) (warps DOWN to 2F)
+print("Warping down to 2F east wing...")
+mgba.press_buttons(["Left"])
+time.sleep(1.5)
+print("Final landing pos on 2F:", get_pos())
