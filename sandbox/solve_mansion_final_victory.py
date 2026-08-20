@@ -85,19 +85,38 @@ def main():
         
     # 3. Walk to Balcony Drop at (20, 18) on 3F (State B)
     pos = mgba.get_coordinates()
-    if pos == {'x': 1, 'y': 11}:
+    if pos == {'x': 1, 'y': 11} or pos == {'x': 4, 'y': 10}:
         print("Walking to the Balcony Drop...")
         path_to_balcony = [
-            ("Down", 1, 12),
-            ("Down", 1, 13),
-            ("Right", 2, 13), ("Right", 3, 13), ("Right", 4, 13),
-            ("Up", 4, 12), ("Up", 4, 11), ("Up", 4, 10), ("Up", 4, 9), ("Up", 4, 8), ("Up", 4, 7), ("Up", 4, 6), ("Up", 4, 5), ("Up", 4, 4), ("Up", 4, 3),
-            ("Right", 5, 3), ("Right", 6, 3), ("Right", 7, 3), ("Right", 8, 3), ("Right", 9, 3), ("Right", 10, 3), ("Right", 11, 3), ("Right", 12, 3), ("Right", 13, 3), ("Right", 14, 3), ("Right", 15, 3), ("Right", 16, 3), ("Right", 17, 3), ("Right", 18, 3), ("Right", 19, 3), ("Right", 20, 3), ("Right", 21, 3),
+            ("Down", 4, 11), ("Down", 4, 12), ("Down", 4, 13),
+            ("Right", 5, 13),
+            ("Up", 5, 12), ("Up", 5, 11), ("Up", 5, 10), ("Up", 5, 9), ("Up", 5, 8), ("Up", 5, 7), ("Up", 5, 6), ("Up", 5, 5), ("Up", 5, 4), ("Up", 5, 3),
+            ("Right", 6, 3), ("Right", 7, 3), ("Right", 8, 3), ("Right", 9, 3), ("Right", 10, 3), ("Right", 11, 3), ("Right", 12, 3), ("Right", 13, 3), ("Right", 14, 3), ("Right", 15, 3), ("Right", 16, 3), ("Right", 17, 3), ("Right", 18, 3), ("Right", 19, 3), ("Right", 20, 3), ("Right", 21, 3),
             ("Down", 21, 4), ("Down", 21, 5), ("Down", 21, 6), ("Down", 21, 7), ("Down", 21, 8), ("Down", 21, 9), ("Down", 21, 10), ("Down", 21, 11), ("Down", 21, 12), ("Down", 21, 13), ("Down", 21, 14), ("Down", 21, 15),
             ("Left", 20, 15),
             ("Down", 20, 16), ("Down", 20, 17), ("Down", 20, 18),
         ]
+        # If we are starting from (4, 10), we only need the steps after (4, 10)
+        actual_path = []
+        skip = (pos == {'x': 4, 'y': 10})
         for d, tx, ty in path_to_balcony:
+            if skip:
+                if tx == 4 and ty == 10:
+                    skip = False
+                actual_path.append((d, tx, ty))
+            else:
+                actual_path.append((d, tx, ty))
+                
+        # Wait, if we start at (1, 11), we need the full path, but with a different start
+        if pos == {'x': 1, 'y': 11}:
+            full_path = [
+                ("Down", 1, 12),
+                ("Down", 1, 13),
+                ("Right", 2, 13), ("Right", 3, 13), ("Right", 4, 13),
+            ] + path_to_balcony
+            actual_path = full_path
+            
+        for d, tx, ty in actual_path:
             if not step_to(d, tx, ty):
                 return
                 
