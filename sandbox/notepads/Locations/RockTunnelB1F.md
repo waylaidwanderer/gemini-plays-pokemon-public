@@ -92,18 +92,21 @@
 ## Empirical Collision Bounds & Corridor Mapping
 
 - Solid Horizontal Rock Walls:
-
   - Rows 14-15 across cols 20-37.
-
   - Rows 22-23 across cols 16-23 (vertical passage connecting south chamber rows 24-27 to rows 20-21 is located at cols 24-25).
+  - Rows 28-29 across cols 2-13.
 
 - Solid Vertical Rock Walls:
-
+  - Cols 12-13 across rows 5-13 and rows 18-27.
+  - Cols 18-19 across rows 14-23.
   - Cols 30-31 across rows 16-27.
-
   - Cols 22-23 across rows 16-23.
-
   - Cols 6-8 across rows 28-30.
+
+- Verified Inter-Sector Connectors:
+  - Rows 14-17 Bypass (cols 10-17): Connects Western Corridor (cols 8-11) to Central Room (cols 14-17).
+  - Rows 11-13 Crossway (cols 14-23): Connects Central Room (cols 14-17) to East Channel (cols 20-22).
+  - Vertical Connector (cols 14-17, rows 28-29): Connects Row 24-27 Bypass to Lower South Highway (rows 30-33).
 
 - Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
 
