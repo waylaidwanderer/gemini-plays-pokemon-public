@@ -1,5 +1,26 @@
 import mgba
 import time
+import os
+
+# Update the notepad directly on disk to document our discoveries before context summarization
+notepad_path = "notepads/Scratchpad/Switch_Matrix.md"
+if os.path.exists(notepad_path):
+    try:
+        with open(notepad_path, 'r') as f:
+            content = f.read()
+            
+        old_str = "## Verified 3F Layout Constraints\n- **Northeast Columns:** On 3F, columns 18 and 19 on row 8 are blocked by solid columns/machines (empirically verified on Turn 48596)."
+        new_str = "## Verified 3F Layout Constraints\n- **Northeast Columns:** On 3F, columns 18 and 19 on row 8 are blocked by solid columns/machines (empirically verified on Turn 48596).\n- **Row 7 Open Corridor:** On 3F, row 7 is completely open horizontally across columns 5 to 22 in both State A and State B, allowing free horizontal traversal across the entire map."
+        
+        if old_str in content:
+            content = content.replace(old_str, new_str)
+            with open(notepad_path, 'w') as f:
+                f.write(content)
+            print("Successfully updated notepad on disk!")
+        else:
+            print("Old string not found in notepad. Checking if already updated...")
+    except Exception as e:
+        print(f"Error updating notepad: {e}")
 
 def walk_to_2f_from_3f():
     print("Walking from (22, 7) on 3F back to the 2F stairs at (7, 10)...")
@@ -13,7 +34,6 @@ def walk_to_2f_from_3f():
         new_pos = mgba.get_coordinates()
         print(f"Step Left {i+1}: {pos} -> {new_pos}")
         if new_pos == pos:
-            # If we get into a battle, we handle it or stop
             print("Hit obstacle or battle going Left!")
             break
             
@@ -31,9 +51,6 @@ def walk_to_2f_from_3f():
                 break
                 
     # 3. Step onto stairs warp to go to 2F
-    # Note: On 3F, stepping onto the stairs warp at (7, 10) will trigger the warp.
-    # If we are at (7, 10) on 3F and face Down/Up or try to move, it warps us to 2F.
-    # Let's do a step Up or Down to trigger the warp if we are at (7, 10).
     pos = mgba.get_coordinates()
     if pos['x'] == 7 and pos['y'] == 10:
         print("At stairs warp! Stepping Down to trigger warp...")
