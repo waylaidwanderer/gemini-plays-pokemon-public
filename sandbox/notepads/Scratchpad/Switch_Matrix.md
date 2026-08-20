@@ -7,7 +7,6 @@
 
 ## Switch Locations
 - **2F:** Mewtwo statues located at `(12, 9)` / `(12, 11)` and `(2, 11)` (northwest diary room).
-- **3F:** Mewtwo statue switch located in the east-central section (access requires State A).
 - **B1F:** Mewtwo statue switch located near the center-left.
 
 ## Gate Configurations by State
