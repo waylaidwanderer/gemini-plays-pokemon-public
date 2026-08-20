@@ -15,19 +15,10 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (14, 6) on 3F (State B)
+    # Current: (11, 10) on 3F (State B)
     # 1. Walk back to 3F switch at (11, 11)
-    print("Step 1: Walking back to 3F switch from (14, 6)...")
+    print("Step 1: Walking back to 3F switch from (11, 10)...")
     back_to_switch = [
-        ("Up", 14, 5),
-        ("Left", 13, 5),
-        ("Left", 12, 5),
-        ("Left", 11, 5),
-        ("Down", 11, 6),
-        ("Down", 11, 7),
-        ("Down", 11, 8),
-        ("Down", 11, 9),
-        ("Down", 11, 10),
         ("Down", 11, 11),
     ]
     for d, tx, ty in back_to_switch:
