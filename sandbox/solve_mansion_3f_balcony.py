@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting corrected 3F balcony route from:", get_pos())
+print("Resuming balcony route from:", get_pos())
 
 def handle_battle():
     print("Battle or block! Clearing screens...")
@@ -55,22 +55,15 @@ def step_to(tx, ty):
                 return False
     return False
 
-# Corrected path from current position (6, 13) to B1F balcony drop
+# Path from current position (15, 7) to B1F balcony drop
 path = [
-    # Go Up to row 11
-    (6, 12), (6, 11),
-    # Go Right to column 9
-    (7, 11), (8, 11), (9, 11),
-    # Go Up to row 10
-    (9, 10),
-    # Go Right to column 11
-    (10, 10), (11, 10),
-    # Up to (11, 5)
-    (11, 9), (11, 8), (11, 7), (11, 6), (11, 5),
-    # Right to (21, 5)
-    (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5), (18, 5), (19, 5), (20, 5), (21, 5),
+    # Press B to clear the "Got away safely!" text box before stepping
+    # Walk Up to row 6
+    (15, 6),
+    # Walk Right along row 6 to column 21
+    (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6),
     # Up to (21, 3)
-    (21, 4), (21, 3),
+    (21, 5), (21, 4), (21, 3),
     # Right to (26, 3)
     (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
     # Down to (26, 5)
@@ -98,6 +91,10 @@ path = [
     # Step Left onto (19, 18) to drop!
     (19, 18)
 ]
+
+# Press B to clear the textbox first
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
 success = True
 for (tx, ty) in path:
