@@ -19,29 +19,11 @@ def walk_step(direction, target_x, target_y):
         print("Failed to reach target! Could be a battle or obstacle.")
         return False
 
-def solve_remaining():
-    # Current: (1, 11) on 2F
-    # Walk to (2, 12)
-    path_to_switch = [
-        ("Down", 1, 12),
-        ("Right", 2, 12),
-    ]
-    for d, tx, ty in path_to_switch:
-        if not walk_step(d, tx, ty):
-            mgba.take_screenshot()
-            return
-            
-    # Toggle switch to State B
-    print("Toggling switch to State B...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.4)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "A", "sleep 600", "A"])
-    time.sleep(1.0)
-    
+def solve_final():
+    # Current: (3, 12) on 2F in State B
     # Walk to (18, 8) stairs in State B
     print("Walking to stairs in State B...")
     path_to_stairs = [
-        ("Right", 3, 12),
         ("Up", 3, 11),
         ("Right", 4, 11),
         ("Right", 5, 11),
@@ -74,7 +56,41 @@ def solve_remaining():
     print("At (18, 9)! Stepping Up onto stairs warp...")
     mgba.press_buttons(["Up"])
     time.sleep(1.2)
-    print("Warp complete! Position on 3F:", mgba.get_coordinates())
+    pos_3f = mgba.get_coordinates()
+    print("Warp complete! Position on 3F:", pos_3f)
+    
+    # Walk on 3F (State B) to balcony drop
+    print("Walking to balcony drop on 3F...")
+    path_to_balcony = [
+        ("Up", 18, 7),
+        ("Up", 18, 6),
+        ("Up", 18, 5),
+        ("Right", 19, 5),
+        ("Right", 20, 5),
+        ("Right", 21, 5), # Gate (21, 5) is OPEN in State B!
+        ("Right", 22, 5),
+        ("Right", 23, 5),
+        ("Right", 24, 5),
+        ("Down", 24, 6),
+        ("Down", 24, 7),
+        ("Down", 24, 8),
+        ("Down", 24, 9),
+        ("Down", 24, 10),
+        ("Down", 24, 11),
+        ("Down", 24, 12),
+        ("Down", 24, 13),
+        ("Down", 24, 14),
+    ]
+    for d, tx, ty in path_to_balcony:
+        if not walk_step(d, tx, ty):
+            mgba.take_screenshot()
+            return
+            
+    # Drop to 1F!
+    print("At balcony drop! Stepping Left off edge...")
+    mgba.press_buttons(["Left"])
+    time.sleep(1.5)
+    print("Landed on 1F! Position:", mgba.get_coordinates())
     mgba.take_screenshot()
 
-solve_remaining()
+solve_final()
