@@ -2083,30 +2083,25 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 
 
-## Absolute Master Route to B1F & Secret Key
+## Absolute Master Route to B1F & Secret Key (Verified Turn 48801)
 1. Enter Mansion (State A).
 2. Go to 2F via stairs at `(7, 10)` (land at `(7, 11)` on 2F).
-3. On 2F (State A), walk to `(2, 11)` switch:
-   - Walk `Left` to `(2, 11)`. (Shortcut: Stand at `(1, 11)` and face `Right` to toggle the switch to **State B**).
-4. Walk to northeast stairs at `(18, 2)` on 2F (State B):
-   - Walk `Down` to `(1, 13)`.
-
-   - Walk `Up` to `(12, 5)`.
-   - Walk `Right` to `(18, 5)` (gate at `(15, 5)` is **OPEN** in State B).
-   - Walk `Up` to `(18, 2)` stairs -> Warp to 3F!
-5. On 3F (State B):
-   - Walk `Right` to `(24, 2)` (gate at `(21, 5)` is **OPEN** in State B).
-   - Walk all the way `Down` the eastern balcony to `(24, 14)`.
-   - Step `Left` off the balcony edge to drop to 1F!
-6. On 1F, you will land directly south of the closed gates, in front of the B1F stairs.
-7. Step onto B1F stairs and retrieve the Secret Key!
-
+3. On 2F (State A), walk to `(1, 11)` and face `Right` to toggle the switch at `(2, 11)` to **State A** (Default).
+   - Note: If the switch is already in State A, skip this step.
+4. Walk back to the stairs at `(7, 10)` on 2F (State A) and ascend to 3F:
+   - Correct bypass route: `Down` to `(1, 13)` -> `Right` to `(4, 13)` -> `Up` to `(4, 10)` -> `Right` to `(7, 10)` stairs (Warp to 3F).
+5. On 3F (State A), walk to the Mewtwo statue switch at `(12, 11)`:
+   - From `(7, 11)` landing:
+     - `Right` to `(8, 11)` -> `Right` to `(9, 11)` -> `Down` to `(9, 12)` -> `Right` to `(11, 12)` -> `Up` to `(11, 11)`.
+     - Face `Right` (towards the statue at (12, 11)) and press `A` to toggle the switch to **State B**!
+6. On 3F (State B), walk to the balcony drop at `(24, 14)` via Row 5:
+   - Walk `Up` column 11 to `(11, 5)` -> Walk `Right` along row 5 to `(24, 5)` (Gate at (21, 5) is OPEN in State B!) -> Walk `Down` the balcony to `(24, 14)`.
+7. Step `Left` off the balcony edge at `(24, 14)` to drop directly to 1F B1F stairs!
 ## Turn 48635 Empirical Discoveries & Corrections
 - **East-Central Statues are Decorative:** The Mewtwo statues located at `(13, 9)` and `(13, 11)` on 3F do NOT function as switches. Interacting with them from any side (including standing at `(13, 12)` facing UP, or `(12, 11)` facing RIGHT) has no effect. They are purely decorative.
 - **East-Central Dead End:** `(13, 12)` is walkable on 3F but is a physical dead end. Column 14 is blocked by rubble starting at `(14, 12)`, and Row 13 is blocked by a railing/wall at `(13, 13)`.
 - **Row 8 Blockages:** Columns 14, 15, 16, and 17 are physically blocked on 3F Row 8 by rubble, preventing direct horizontal or southern traversal across those tiles from the east-central section.
 - **Search for True 3F Switch:** Since the east-central statues are decorative, the actual 3F Mewtwo statue switch must be located elsewhere on 3F (likely in the central-western or northwestern rooms near the stairs/bookshelves).
-
 
 <hr>
 
