@@ -38,20 +38,20 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (19, 4) on Cinnabar Island.
-    # 1. Walk Left to (14, 4), Up to (14, 3), Left to (6, 3), Up to enter Mansion.
-    print("--- STEP 1: Entering Mansion from Gym Row 4 ---")
+    # We are currently at (16, 7) on Cinnabar Island.
+    # 1. Walk Left to Column 10 along Row 7, then Up to Row 3, then Left to Column 6, then Up to enter Mansion.
+    print("--- STEP 1: Entering Mansion via Column 10 Gap ---")
     path_to_mansion = [
-        ("Left", 18, 4),
-        ("Left", 17, 4),
-        ("Left", 16, 4),
-        ("Left", 15, 4),
-        ("Left", 14, 4),
-        ("Up", 14, 3),
-        ("Left", 13, 3),
-        ("Left", 12, 3),
-        ("Left", 11, 3),
-        ("Left", 10, 3),
+        ("Left", 15, 7),
+        ("Left", 14, 7),
+        ("Left", 13, 7),
+        ("Left", 12, 7),
+        ("Left", 11, 7),
+        ("Left", 10, 7),
+        ("Up", 10, 6),
+        ("Up", 10, 5),
+        ("Up", 10, 4),
+        ("Up", 10, 3),
         ("Left", 9, 3),
         ("Left", 8, 3),
         ("Left", 7, 3),
