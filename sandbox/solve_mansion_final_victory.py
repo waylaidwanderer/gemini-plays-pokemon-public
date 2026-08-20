@@ -19,7 +19,7 @@ def step_to(direction, tx, ty):
         
     print(f"At {pos}. Moving {direction} to ({tx}, {ty})...")
     mgba.press_buttons([direction])
-    time.sleep(0.6) # Safe delay for perfect GBC emulation on bike
+    time.sleep(0.6) # Safe delay for GBC emulation on bike
     new_pos = mgba.get_coordinates()
     
     attempts = 0
@@ -96,71 +96,60 @@ def main():
     pos = mgba.get_coordinates()
     print("Inside Mansion 3F! Position:", pos)
     
-    # 4. Walk straight to (11, 11) on 3F
+    # 4. Walk to the west-side switch at (2, 11) on 3F (State A)
     if pos == {'x': 7, 'y': 11}:
-        path_3f = [
-            ("Right", 8, 11),
-            ("Right", 9, 11),
-            ("Right", 10, 11), # Gate at (10, 11) is OPEN in State A
-            ("Right", 11, 11),
+        path_to_switch = [
+            ("Left", 6, 11),
+            ("Left", 5, 11),
+            ("Left", 4, 11),
+            ("Left", 3, 11),
+            ("Left", 2, 11),
+            ("Down", 2, 12),
         ]
-        for d, tx, ty in path_3f:
+        for d, tx, ty in path_to_switch:
             if not step_to(d, tx, ty):
                 return
                 
     pos = mgba.get_coordinates()
-    print("Reached switch landing! Position:", pos)
+    print("Reached switch! Position:", pos)
     
-    # 5. Face Right to look at (12, 11)
-    if pos == {'x': 11, 'y': 11}:
-        mgba.press_buttons(["Right"])
+    # 5. Face UP and press A to toggle switch at (2, 11)
+    if pos == {'x': 2, 'y': 12}:
+        mgba.press_buttons(["Up"])
         time.sleep(0.5)
         
         # Toggle switch to State B
-        print("Toggling switch to State B...")
+        print("Toggling 3F switch to State B...")
         mgba.press_buttons(["A"])
         time.sleep(1.0)
         mgba.press_buttons(["A"]) # YES
         time.sleep(1.0)
         mgba.press_buttons(["B"]) # Dismiss
         time.sleep(1.0)
-    
-    # 6. Walk to Pit on 3F (State B)
+        
+    # 6. Walk to Balcony Drop at (20, 18) on 3F (State B)
     pos = mgba.get_coordinates()
-    if pos == {'x': 11, 'y': 11}:
-        print("Walking to the Pit...")
-        path_to_pit = [
-            ("Up", 11, 10),
-            ("Right", 12, 10),
-            ("Up", 12, 9), ("Up", 12, 8), ("Up", 12, 7), ("Up", 12, 6), ("Up", 12, 5),
-            ("Right", 13, 5), ("Right", 14, 5), ("Right", 15, 5), ("Right", 16, 5), ("Right", 17, 5),
-            ("Right", 18, 5), ("Right", 19, 5), ("Right", 20, 5), ("Right", 21, 5), # Gate (21, 5) is OPEN in State B!
-            ("Up", 21, 4), ("Up", 21, 3),
-            ("Right", 22, 3), ("Right", 23, 3), ("Right", 24, 3), ("Right", 25, 3), ("Right", 26, 3),
-            ("Down", 26, 4), ("Down", 26, 5), ("Down", 26, 6),
+    if pos == {'x': 2, 'y': 12}:
+        print("Walking to the Balcony Drop...")
+        path_to_balcony = [
+            ("Right", 3, 12),
+            ("Up", 3, 11), ("Up", 3, 10), ("Up", 3, 9), ("Up", 3, 8), ("Up", 3, 7), ("Up", 3, 6), ("Up", 3, 5), ("Up", 3, 4), ("Up", 3, 3),
+            ("Right", 4, 3), ("Right", 5, 3), ("Right", 6, 3), ("Right", 7, 3), ("Right", 8, 3), ("Right", 9, 3), ("Right", 10, 3), ("Right", 11, 3), ("Right", 12, 3), ("Right", 13, 3), ("Right", 14, 3), ("Right", 15, 3), ("Right", 16, 3), ("Right", 17, 3), ("Right", 18, 3), ("Right", 19, 3), ("Right", 20, 3), ("Right", 21, 3),
+            ("Down", 21, 4), ("Down", 21, 5), ("Down", 21, 6), ("Down", 21, 7), ("Down", 21, 8), ("Down", 21, 9), ("Down", 21, 10), ("Down", 21, 11), ("Down", 21, 12), ("Down", 21, 13), ("Down", 21, 14), ("Down", 21, 15),
+            ("Left", 20, 15),
+            ("Down", 20, 16), ("Down", 20, 17), ("Down", 20, 18),
         ]
-        for d, tx, ty in path_to_pit:
+        for d, tx, ty in path_to_balcony:
             if not step_to(d, tx, ty):
                 return
                 
-        print("At (26, 6). Stepping Left onto the pit at (25, 6)...")
+        print("At (20, 18). Dropping from balcony...")
         mgba.press_buttons(["Left"])
         time.sleep(3.0) # Wait for falling animation
         
     pos = mgba.get_coordinates()
-    print("Landed on 1F! Position:", pos)
+    print("Landed on B1F! Current position:", pos)
     mgba.take_screenshot()
-    
-    # 7. Walk to B1F stairs on 1F (usually walking UP from landing area)
-    if pos['x'] == 25 and pos['y'] == 6:
-        print("Walking onto B1F stairs...")
-        for _ in range(5):
-            mgba.press_buttons(["Up"])
-            time.sleep(0.5)
-            
-        pos = mgba.get_coordinates()
-        print("Final position on B1F:", pos)
-        mgba.take_screenshot()
 
 if __name__ == "__main__":
     main()
