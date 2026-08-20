@@ -36,3 +36,5 @@
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000.
+6. Central Rock Barrier (rows 8-9, cols 19-25):
+   - Solid horizontal rock barrier across rows 8-9 (cols 19-25) separates North Corridor (rows 2-7) from Central Corridor (rows 10-13) on the east side. Access between north and south on 1F is via the western corridor (cols 14-17). [Verified Turn 8446]
