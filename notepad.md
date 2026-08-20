@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=10, y=16)
+- Location: Rock Tunnel B1F (x=10, y=21)
 
 
 
@@ -932,9 +932,8 @@
    - Rock barrier at rows 14-15 spans cols 23-31, with clear eastern bypass across cols 32-37.
    - Rows 16-19 form a massive 10-tile wide open hall across cols 28-37 extending south. [Verified Turn 8469]
 8. Southern Avenue & Rock Pillar (rows 19-27, cols 20-29):
-   - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south.
-   - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37).
-   - Both avenues extend south past row 27. [Verified Turn 8475]
+   - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south, terminating at the solid row 28 barrier.
+   - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37). [Verified Turns 8475, 8484, 8498]
 9. South Exit Corridor Analysis:
    - Row 28 forms a continuous solid rock barrier across cols 2-27 on 1F.
    - Eastern Sector Hall (cols 28-37) is physically bounded at north by the row 20-21 rock barrier and at west by cols 26-27 rock wall. [Verified Turns 8484, 8488, 8498]
@@ -1069,15 +1068,13 @@
 
 # Rock Tunnel B1F - Incremental Waypoint Clearance Plan
 
-## Current Waypoint: B1F South-Central Corridor
-- Current Position: B1F (15, 21) (resolving battle).
-- Target Waypoint: Row 24 / Row 27 corridor access at (15, 24..27).
+## Target Waypoint: Lower South Highway (rows 30-33)
+- Target: Descend column 10 southward from row 21 directly into the Lower South Highway at (10, 30).
 
 ## Step-by-Step Waypoint Survey Protocol
-1. [ ] **Waypoint 1**: From (15, 21), descend column 15 south to row 24 / row 27.
-2. [ ] **Waypoint 2**: Test east-west passage across rows 24-27 towards columns 26-30.
-3. [ ] **Waypoint 3**: Connect into Lower South Highway (rows 30-33) / Row 27 Northern Bypass.
-4. [ ] **Waypoint 4**: Ascend north along eastern columns (cols 34-37) to Ladder 4 at (37, 17).
-5. [ ] **Waypoint 5**: Take Ladder 4 up to 1F (3, 3) and proceed south down Western Corridor to South Exit.
+1. [ ] **Waypoint 1**: From (10, 21), descend column 10 straight south through rows 22-30 into the Lower South Highway at (10, 30).
+2. [ ] **Waypoint 2**: From (10, 30), traverse east across the Lower South Highway / Row 27 Bypass to the Eastern Sector (cols 30-37).
+3. [ ] **Waypoint 3**: In Eastern Sector (cols 34-37), ascend north along column 37 to Ladder 4 at (37, 17).
+4. [ ] **Waypoint 4**: Take Ladder 4 up to 1F (3, 3) and proceed south down Western Corridor (cols 2-5) to the South Exit (Route 10 South & Lavender Town).
 
 <hr>

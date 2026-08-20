@@ -43,9 +43,8 @@
    - Rock barrier at rows 14-15 spans cols 23-31, with clear eastern bypass across cols 32-37.
    - Rows 16-19 form a massive 10-tile wide open hall across cols 28-37 extending south. [Verified Turn 8469]
 8. Southern Avenue & Rock Pillar (rows 19-27, cols 20-29):
-   - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south.
-   - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37).
-   - Both avenues extend south past row 27. [Verified Turn 8475]
+   - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south, terminating at the solid row 28 barrier.
+   - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37). [Verified Turns 8475, 8484, 8498]
 9. South Exit Corridor Analysis:
    - Row 28 forms a continuous solid rock barrier across cols 2-27 on 1F.
    - Eastern Sector Hall (cols 28-37) is physically bounded at north by the row 20-21 rock barrier and at west by cols 26-27 rock wall. [Verified Turns 8484, 8488, 8498]
