@@ -33,7 +33,7 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (26, 9) in State A...")
+    print("Starting absolute master route to B1F starting from (24, 3) in State A...")
     
     # Dismiss 'Got away safely!' text if any
     mgba.press_buttons(["B"])
@@ -43,25 +43,17 @@ def main():
     print("Current position:", pos)
     
     # We should be at (26, 9) on 3F
-    if pos != {'x': 26, 'y': 9}:
-        print("Warning: not at (26, 9). Re-aligning...")
-        if pos['y'] != 9:
-            step_to("Down" if pos['y'] < 9 else "Up", pos['x'], 9)
+    if pos != {'x': 24, 'y': 3}:
+        print("Warning: not at (24, 3). Re-aligning...")
+        if pos['y'] != 3:
+            step_to("Down" if pos['y'] < 3 else "Up", pos['x'], 3)
         pos = mgba.get_coordinates()
         if pos['x'] != 26:
-            step_to("Left" if pos['x'] > 26 else "Right", 26, 9)
+            step_to("Left" if pos['x'] > 24 else "Right", 24, 3)
             
     # 1. Walk from (26, 9) to switch at (2, 12) on 3F in State A
     print("--- 3F (State A): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Up", 26, 8),
-        ("Up", 26, 7),
-        ("Up", 26, 6),
-        ("Up", 26, 5),
-        ("Up", 26, 4),
-        ("Up", 26, 3),
-        ("Left", 25, 3),
-        ("Left", 24, 3),
         ("Left", 23, 3),
         ("Left", 22, 3),
         ("Left", 21, 3),
