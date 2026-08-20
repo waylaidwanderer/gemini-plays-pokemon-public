@@ -1,31 +1,37 @@
 import mgba
 import time
 
-def walk_step(direction):
-    pos = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.4)
-    new_pos = mgba.get_coordinates()
-    print(f"Pressed {direction}: {pos} -> {new_pos}")
-    return new_pos
-
-def explore():
-    print("Starting exploration...")
-    # Dismiss any text
+def test_room():
+    print("Starting room exploration to map walkable tiles...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # Try to walk Right
-    walk_step("Right")
-    # Let's walk Up to row 3
-    for _ in range(9):
-        walk_step("Up")
+    start_pos = mgba.get_coordinates()
+    print("Start position:", start_pos)
+    
+    # Let's try to walk to all adjacent tiles from current position (23, 10)
+    # We will step in a direction, log the new position, and if we moved, step back.
+    directions = ["Up", "Right", "Down", "Left"]
+    walkable = []
+    
+    for d in directions:
+        print(f"Testing direction: {d}")
+        mgba.press_buttons([d])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
         
-    # Let's try to walk Right horizontally
-    for _ in range(10):
-        walk_step("Right")
-        
+        if pos != start_pos:
+            print(f"Tile {d} is walkable! Reached: {pos}")
+            walkable.append((d, pos))
+            # Step back
+            opposite = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[d]
+            mgba.press_buttons([opposite])
+            time.sleep(0.4)
+        else:
+            print(f"Tile {d} is blocked!")
+            
+    print("Walkable adjacent tiles from (23, 10):", walkable)
     mgba.take_screenshot()
 
 if __name__ == "__main__":
-    explore()
+    test_room()
