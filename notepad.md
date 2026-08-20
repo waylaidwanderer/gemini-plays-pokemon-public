@@ -931,6 +931,10 @@
    - Rows 10-13 form an open horizontal highway connecting cols 26-37.
    - Rock barrier at rows 14-15 spans cols 23-31, with clear eastern bypass across cols 32-37.
    - Rows 16-19 form a massive 10-tile wide open hall across cols 28-37 extending south. [Verified Turn 8469]
+8. Southern Avenue & Rock Pillar (rows 19-27, cols 20-29):
+   - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south.
+   - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37).
+   - Both avenues extend south past row 27. [Verified Turn 8475]
 
 <hr>
 
