@@ -18,7 +18,7 @@
 - [x] **Step 1**: From (21, 20), walk 5 steps Left to (16, 20).
 - [x] **Step 2**: From (16, 20), walk 6 steps Up along column 16 to (16, 14).
 - [x] **Step 3**: From (16, 14), walk 5 steps Left along row 14 to (11, 14).
-- [ ] **Step 4**: From (11, 14), walk 8 steps Up along column 11 to (11, 6).
+- [x] **Step 4**: From (11, 14), walk 8 steps Up along column 11 to (11, 6).
 - [ ] **Step 5**: From (11, 6), walk 4 steps Left to (7, 6).
 - [ ] **Step 6**: From (7, 6), walk 4 steps Up along column 7 to (7, 2).
 - [ ] **Step 7**: Traverse east from (7, 2) across row 1/2 to (13, 2) into the northern/eastern highway.
