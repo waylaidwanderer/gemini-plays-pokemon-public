@@ -38,33 +38,18 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (13, 12) on 2F (State B).
+    # We are currently at (20, 6) on 2F (State B).
     pos = mgba.get_coordinates()
     print(f"Starting at: {pos}")
-    if pos['x'] != 13 or pos['y'] != 12:
-        print("Error: Not at (13, 12)!")
+    if pos['x'] != 20 or pos['y'] != 6:
+        print("Error: Not at (20, 6)!")
         return False
         
-    # 1. On 2F (State B), walk to (18, 8) stairs via Row 5 (Northeast Gate is OPEN!)
-    print("--- STEP 1: Walking to 3F stairs on 2F (State B) ---")
+    # 1. Walk to the stairs at (18, 8) on 2F
+    print("--- STEP 1: Walking to 3F stairs on 2F ---")
     path_to_stairs_2f = [
-        ("Left", 12, 12),
-        ("Left", 11, 12),
-        ("Up", 11, 11),
-        ("Up", 11, 10),
-        ("Up", 11, 9),
-        ("Up", 11, 8),
-        ("Up", 11, 7),
-        ("Up", 11, 6),
-        ("Up", 11, 5),
-        ("Right", 12, 5),
-        ("Right", 13, 5),
-        ("Right", 14, 5),
-        ("Right", 15, 5), # Northeast Gate OPEN in State B!
-        ("Right", 16, 5),
-        ("Right", 17, 5),
-        ("Right", 18, 5),
-        ("Down", 18, 6),
+        ("Left", 19, 6),
+        ("Left", 18, 6),
         ("Down", 18, 7),
     ]
     if not follow_path(path_to_stairs_2f):
