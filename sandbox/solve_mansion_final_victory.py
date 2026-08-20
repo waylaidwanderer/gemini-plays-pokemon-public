@@ -19,6 +19,7 @@ def solve_all():
     # 1. Walk to northwest switch at (2, 12) on 2F
     print("Step 1: Walking to northwest switch on 2F...")
     path_to_nw_switch = [
+        ("Left", 6, 11),
         ("Left", 5, 11),
         ("Down", 5, 12), # Bypasses NPC at (4, 11)
         ("Left", 4, 12),
