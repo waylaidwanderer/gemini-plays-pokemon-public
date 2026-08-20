@@ -65,3 +65,13 @@
 - **East-Central Statues are Decorative:** The Mewtwo statues located at `(13, 9)` and `(13, 11)` on 3F do NOT function as switches. Interacting with them from any side (including standing at `(13, 12)` facing UP, or `(12, 11)` facing RIGHT) has no effect. They are purely decorative.
 - **East-Central Dead End:** `(13, 12)` is walkable on 3F but is a physical dead end. Column 14 is blocked by rubble starting at `(14, 12)`, and Row 13 is blocked by a railing/wall at `(13, 13)`.
 - **Row 8 Blockages:** Columns 14, 15, 16, and 17 are physically blocked on 3F Row 8 by rubble, preventing direct horizontal or southern traversal across those tiles from the east-central section.
+
+## Empirical Reset Verification (Burden of Proof)
+- **DIG / Exit Reset:** On Turn 49084, DIG was used to exit the mansion. Upon re-entering the mansion on Turn 49111, the gate at `(10, 11)` on 3F was observed OPEN, and the gate at `(2, 12)` was OPEN, empirically proving that exiting and re-entering resets the global switch to **State A**.
+
+## Mapped East Wing & Corridor Constraints (Turns 49145-49271)
+- **Column 10 Gates:** Closed vertical shutter gate on rows 11 to 15 in State B (empirically blocked on Turn 49259; open in State A).
+- **Row 11 Horizontal Passage:** Completely open horizontally across column 22 in both states, allowing horizontal bypass of column 22 rubble.
+- **Column 22 Rubble:** Blocked by solid rubble piles on rows 8, 9, 10, 12, 13 (verified on Turn 49185).
+- **Columns 4-7 Red Corridor:** Enclosed corridor on rows 10-18 in State B. Gate at column 3/4 is CLOSED on rows 12-20 in State B (verified on Turn 49212). Gate at column 7/8 is CLOSED on rows 10-20 in State B.
+- **Row 9 West Wall:** Solid horizontal wall across columns 2 to 7 on row 9 (empirically blocked on Turn 49251).
