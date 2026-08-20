@@ -49,7 +49,7 @@
    - Walk `Left` to `(2, 11)`. (Shortcut: Stand at `(1, 11)` and face `Right` to toggle the switch to **State B**).
 4. Walk to northeast stairs at `(18, 2)` on 2F (State B):
    - Walk `Down` to `(1, 13)`.
-   - Walk `Right` to `(12, 13)` (or `(12, 12)`).
+
    - Walk `Up` to `(12, 5)`.
    - Walk `Right` to `(18, 5)` (gate at `(15, 5)` is **OPEN** in State B).
    - Walk `Up` to `(18, 2)` stairs -> Warp to 3F!
