@@ -33,7 +33,10 @@
 ## Verified 2F Layout Constraints
 - **Column 15 Cabinets:** On 2F, column 15 is blocked by solid brown cabinets on rows 8-10, separating the column 15 corridor.
 - **Southeast Stairs Gate:** On 2F, the shutter gate at `(18, 8)` / `(19, 8)` is physically **CLOSED** in State B, blocking access to the stairs from the north (row 7). It is **OPEN** in State A, allowing entry.
-- **Rubble wall at column 10:** Column 10 has rubble blocking rows 9-11. Row 7 is completely open across columns 7-12.
+- **Rubble wall at column 7:** On 2F, column 7 is blocked by solid brick wall at rows 8-9, preventing direct northern traversal from (7, 10). Row 7 is open horizontally across columns 8-12 and can be accessed from column 11 or 12.
+
+## Verified 3F Layout Constraints
+- **Northeast Columns:** On 3F, columns 18 and 19 on row 8 are blocked by solid columns/machines (empirically verified on Turn 48596).
 
 ## Verified 2F Switch Shortcut
 - **Shortcut Discovery:** The Mewtwo statue switch at `(2, 11)` on 2F can be successfully interacted with and toggled from the left tile at `(1, 11)` by facing **Right**! This completely bypasses the rocky rubble at `(2, 12)` and `(3, 12)`.
