@@ -1047,7 +1047,7 @@
 
 ## Current Status
 - Active Floor: Rock Tunnel 1F
-- Current Position: (5, 33)
+- Current Position: (10, 33)
 - Target: Survey row 33/34 across cols 2-25 to locate the South Exit doorway -> Route 10 South
 
 ## Observed Topology & Geometry (1F Southern Sector)
