@@ -1047,8 +1047,8 @@
 
 ## Current Status
 - Active Floor: Rock Tunnel 1F
-- Current Position: (3, 31)
-- Target: South Highway (row 33) -> Locate South Exit doorway -> Route 10 South
+- Current Position: (5, 33)
+- Target: South Highway (row 33) -> (15, 33) doorway -> Route 10 South
 
 ## Observed Topology & Geometry (1F Southern Sector)
 - Row 24-27 (cols 14-25): Open 4-tile high chamber.
