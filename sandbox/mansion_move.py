@@ -1,35 +1,36 @@
 import mgba
 import time
 
-def move_to_statue_front():
-    print("Navigating to front of Mewtwo statue from (3, 10)...")
-    # Current position: (3, 10)
+def walk_to_3f_state_a():
+    print("Dismissing textbox and walking to 3F stairs at (7, 10)...")
+    # Current position: (2, 12) on 'Who wouldn't?' screen.
     
-    # 1. Walk Down to (3, 11)
-    mgba.press_buttons(["Down"])
+    # 1. Dismiss textbox
+    mgba.press_buttons(["A"])
+    time.sleep(0.6)
+    
+    # 2. Walk Right to (3, 12)
+    mgba.press_buttons(["Right"])
     time.sleep(0.4)
     print("Position:", mgba.get_coordinates())
     
-    # 2. Walk Down to (3, 12)
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-    print("Position:", mgba.get_coordinates())
-    
-    # 3. Walk Left to (2, 12)
-    mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-    print("Position:", mgba.get_coordinates())
-    
-    # 4. Press Up to face Up and bump into statue at (2, 11)
+    # 3. Walk Up to (3, 11)
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
     print("Position:", mgba.get_coordinates())
     
-    # 5. Press A to interact with the switch
-    print("Pressing A to interact with Mewtwo statue switch...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
+    # 4. Walk Right to (7, 11) (4 steps Right)
+    for i in range(4):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.4)
+        print("Position:", mgba.get_coordinates())
+        
+    # 5. Walk Up to step onto stairs at (7, 10) and warp!
+    print("Stepping onto 3F stairs...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.2)
     
+    print("Warp complete! Position on 3F:", mgba.get_coordinates())
     mgba.take_screenshot()
 
-move_to_statue_front()
+walk_to_3f_state_a()
