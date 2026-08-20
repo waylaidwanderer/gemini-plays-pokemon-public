@@ -43,6 +43,7 @@
 - **3F Switch Location:** The true Mewtwo statue switch on 3F is located at `(2, 11)`, accessed from `(2, 12)` facing Up or `(1, 11)` facing Right.
 - **Column 9 Wall:** On 3F, column 9 is a solid vertical wall from row 0 to row 6. (Empirically verified on Turn 49004 by attempting to walk Left from (10, 3) to (9, 3) and being blocked by a solid wall boundary).
 - **Column 8 and 3 Green Cabinets:** On 3F, Columns 8 and 3 are blocked by solid green cabinets/pillars at even rows 10, 12, 14, 16. (Empirically verified on Turn 49559/49566). Odd rows 11, 13, 15 are open and walkable horizontally across Column 8 and 3.
+- **Column 11 Row 8 Rubble:** On 3F, Column 11 Row 8 is physically blocked by a solid pile of rubble/debris (empirically verified on Turn 49590). Column 12 is completely open vertically and must be used to traverse vertically.
 
 
 
