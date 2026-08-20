@@ -1,24 +1,24 @@
-# Rock Tunnel 1F/B1F - Standard Progression Route to Lavender Town
+# Rock Tunnel 1F Eastern Sector - Direct Exit to Lavender Town
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (23, 7)
-- Target: Ladder 3 at (23, 11) -> B1F (17, 11) -> Ladder 2 at (5, 3) -> 1F (27, 3) [Eastern Sector] -> Lavender Town
+- Current Location: Rock Tunnel 1F at (27, 3) (arrived in Eastern Sector via Ladder 2)
+- Target: South Exit at (15, 33) -> Route 10 South -> Lavender Town
 
 ## Verified Empirical Collisions & Topology
-- 1F (18..25, 8..9): Solid horizontal rock barrier blocking direct descent from row 7 to row 10 at cols 18-25.
-- 1F (14..17, 3..11): Continuous open 4-tile vertical highway connecting Entrance Highway (row 3) south to Central Corridor (row 11).
-- 1F (17..23, 10..13): Open horizontal corridor connecting Central Highway directly east to Ladder 3 at (23, 11).
-- 1F (24..25, 2..13): Impassable solid vertical rock wall separating Western/Central 1F from Eastern 1F (cols 26-37).
-- B1F (5, 3): Ladder 2 connecting NW B1F to 1F Eastern Sector at (27, 3).
+- 1F (27, 3..13): Open vertical passage in Eastern Sector down to row 11/12 highway.
+- 1F (26..37, 10..13): Wide open horizontal highway connecting cols 26-37.
+- 1F (32..37, 14..15): Eastern Bypass around the row 14-15 barrier into the Eastern Sector Hall (rows 16-19).
+- 1F (20..27, 16..17): Open crossway connecting Eastern Hall into Southern Avenue (cols 20-25).
+- 1F (20..25, 17..27): Wide open Southern Avenue heading south to row 26.
+- 1F (14..25, 26): Open horizontal connector into Exit Corridor (cols 14-15).
+- 1F (14..15, 28..33): Open exit opening to Route 10 South.
 
 ## Committed Step-by-Step Traversal Route (To Lavender Town)
-1. **Bypass Row 8-9 Barrier**: From (23, 7), walk Up 4 to (23, 3), Left 6 to (17, 3).
-2. **Descend Central Highway**: Walk Down 8 along col 17 from (17, 3) to (17, 11).
-3. **Traverse to Ladder 3**: Walk Right 6 across row 11 from (17, 11) to (23, 11) [Ladder 3].
-4. **Warp to B1F**: Step on Ladder 3 at (23, 11) -> Warps to B1F at (17, 11).
-5. **Traverse B1F to Ladder 2**: From B1F (17, 11), walk to (14, 16) -> (10, 16) -> (10, 6) -> (6, 6) -> (6, 3) -> (5, 3) [Ladder 2].
-6. **Warp to 1F Eastern Sector**: Step on Ladder 2 at B1F (5, 3) -> Warps to 1F at (27, 3).
-7. **Descend 1F Eastern Sector**: From 1F (27, 3), walk South past rows 10-13 through Eastern Bypass (cols 32-37) to row 17.
-8. **Traverse to Exit Corridor**: Walk West to col 22, South to row 26, West to col 15.
-9. **Exit Rock Tunnel**: Walk South down col 15 to Cave Exit -> Route 10 South -> Lavender Town!
-10. **Heal Party**: Enter Pok�mon Center in Lavender Town.
+1. **Descend Eastern Sector to Highway**: Walk Down 8 along col 27 from (27, 3) to (27, 11).
+2. **Traverse Highway to Eastern Bypass**: Walk Right 7 across row 11 from (27, 11) to (34, 11).
+3. **Descend Eastern Bypass**: Walk Down 6 along col 34 from (34, 11) to (34, 17).
+4. **Cross West to Southern Avenue**: Walk Left 12 along row 17 from (34, 17) to (22, 17).
+5. **Descend Southern Avenue**: Walk Down 9 along col 22 from (22, 17) to (22, 26).
+6. **Cross West to Exit Corridor**: Walk Left 7 along row 26 from (22, 26) to (15, 26).
+7. **Exit Rock Tunnel**: Walk Down 8 south along col 15 to Cave Exit -> Route 10 South -> Lavender Town!
+8. **Heal Party**: Enter Pok�mon Center in Lavender Town.
