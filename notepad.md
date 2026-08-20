@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=15, y=33)
+- Location: Rock Tunnel 1F (x=7, y=33)
 
 
 
@@ -895,7 +895,7 @@
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [North-Central 1F <-> North-West B1F]. Connects north-central 1F to NW B1F.
 - **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F]. Connects central 1F to central B1F.
 - **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F]. Connects B1F eastern exit passage to 1F final exit sector.
-- **1F South Exit**: Western / Column 14 Corridor south to Route 10 South and Lavender Town!
+- **1F South Exit**: Located at (3, 34..35) in the south-west corner of 1F. Connects to Route 10 South and Lavender Town!
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
