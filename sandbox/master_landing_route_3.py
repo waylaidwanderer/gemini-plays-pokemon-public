@@ -50,30 +50,28 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (27, 14) in State A...")
+    print("Starting absolute master route to B1F starting from (23, 11) in State A...")
+    
+    # Dismiss 'Got away safely!' text if any
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (27, 14) on 3F
-    if pos != {'x': 27, 'y': 14}:
-        print("Warning: not at (27, 14). Re-aligning...")
-        if pos['y'] != 14:
-            step_to("Down" if pos['y'] < 14 else "Up", pos['x'], 14)
+    # We should be at (23, 11) on 3F
+    if pos != {'x': 23, 'y': 11}:
+        print("Warning: not at (23, 11). Re-aligning...")
+        if pos['y'] != 11:
+            step_to("Down" if pos['y'] < 11 else "Up", pos['x'], 11)
         pos = mgba.get_coordinates()
-        if pos['x'] != 27:
-            step_to("Left" if pos['x'] > 27 else "Right", 27, 14)
+        if pos['x'] != 23:
+            step_to("Left" if pos['x'] > 23 else "Right", 23, 11)
             
-    # 1. Walk to switch at (2, 12) on 3F in State A
+    # 1. Walk from (23, 11) to switch at (2, 12) on 3F in State A
     print("--- 3F (State A): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Left", 26, 14),
-        ("Left", 25, 14),
-        ("Up", 25, 13), # Gate at (25, 13) is OPEN in State A!
-        ("Up", 25, 12),
-        ("Up", 25, 11),
-        ("Up", 25, 10),
-        ("Left", 24, 10),
-        ("Left", 23, 10),
+        ("Up", 23, 10),
         ("Left", 22, 10),
         ("Left", 21, 10),
         ("Left", 20, 10),
@@ -86,7 +84,7 @@ def main():
         ("Left", 13, 10),
         ("Left", 12, 10),
         ("Left", 11, 10),
-        ("Left", 10, 10), # Column 10 Row 10 is OPEN!
+        ("Left", 10, 10), # Column 10 Row 10 is OPEN in State A!
         ("Left", 9, 10),
         ("Down", 9, 11),
         ("Left", 8, 11),
@@ -94,11 +92,9 @@ def main():
         ("Left", 6, 11),
         ("Left", 5, 11),
         ("Left", 4, 11),
-        ("Down", 4, 12),
-        ("Down", 4, 13),
-        ("Left", 3, 13),
-        ("Left", 2, 13),
-        ("Up", 2, 12),
+        ("Left", 3, 11),
+        ("Left", 2, 11),
+        ("Down", 2, 12),
     ]
     if not follow_path(path_to_switch):
         mgba.take_screenshot()
@@ -174,14 +170,7 @@ def main():
     print("Landed on 1F! Position:", pos)
     mgba.take_screenshot()
     
-    # Stairs to B1F on 1F should be at (22, 2) or near us
-    # Let's walk to the stairs to B1F
-    # Inside the fenced area, stairs to B1F are at (22, 2)?
-    # Wait, let's walk UP and RIGHT/LEFT to enter the stairs
     print("Walking onto stairs to B1F...")
-    # Stand on stairs
-    # Note: the landing position on 1F is typically (22, 7) or (25, 5)
-    # The stairs on 1F to B1F are at (22, 2) or we just walk UP to it
     for i in range(5):
         mgba.press_buttons(["Up"])
         time.sleep(0.5)
