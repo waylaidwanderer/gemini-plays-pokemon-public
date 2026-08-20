@@ -21,8 +21,10 @@
    - Rows 14-17 form an 8-tile wide open thoroughfare across cols 8-15 connecting Central Basin to Column 14 Exit Corridor.
    - Rows 24-27 form a 10-tile wide open basin across cols 2-11.
    - Solid rock wall at row 28 across cols 2-13.
-4. Column 14-15 Exit Corridor (cols 14-15, rows 14-33):
-   - Open vertical corridor running south through rows 14-21, 24-28+, bypassing the row 28 barrier at cols 14-15 directly to the Route 10 South exit.
+4. Central-East Corridors (cols 14-19, rows 13-27):
+   - Upper corridor (rows 14-21) and lower corridor (rows 24-27) are separated by a solid rock barrier at rows 22-23 across cols 12-19.
+   - Connected to Central Basin via row 14-17 open thoroughfare.
+   - Lower corridor (rows 24-27) contains open floor at (14..16, 28) extending south.
 5. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
    - Ladder 1 Arrival located at (37, 3) from B1F (33, 25) [1-way arrival on 1F].

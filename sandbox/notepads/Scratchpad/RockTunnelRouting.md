@@ -1,16 +1,18 @@
-# Rock Tunnel 1F - Exit Route Plan to Route 10 South
+# Rock Tunnel 1F - Vector A Traversal Plan (North Crossover to Eastern Sector)
 
 ## Primary Objective
-- Reach Route 10 South exit at row 33 and proceed to Lavender Town
+- Exit Rock Tunnel to Route 10 South and reach Lavender Town
 
 ## Verified Physical Collision Facts on 1F
-- Current position: (10, 18) in Central Thoroughfare.
-- Rows 14-17 across cols 8-15 form an 8-tile wide open crossover into Column 14 Exit Corridor.
-- Column 14-15 is open across rows 14-28+, bypassing the row 28 rock wall that blocks cols 2-13.
+- Rows 10-13 across cols 14-23 form an open horizontal highway.
+- Column 22 is open across rows 10-13, running parallel to Ladder 3 at (23, 11) to bypass ladder warps.
+- Rows 22-23 form a solid horizontal rock wall across cols 12-19.
+- Row 28 forms a solid rock wall across cols 2-13.
+- Eastern Sector (cols 26-37) connects at row 3 to the northern highway and extends south.
 
-## Step-by-Step Exploration Plan
-1. Current position: (10, 18)
-2. Walk Up 2 steps to (10, 16).
-3. Walk Right 4 steps along row 16 to (14, 16) in the Column 14 Exit Corridor.
-4. Walk Down along column 14 through row 28+ to the Route 10 South exit at row 33.
-5. Exit Rock Tunnel into Route 10 South.
+## Vector A Execution Protocol
+1. Current position: (20, 13)
+2. Walk Right 2 steps to (22, 13).
+3. Ascend column 22 north 10 steps to row 3 at (22, 3), safely bypassing Ladder 3 at (23, 11).
+4. At (22, 3), walk East along row 3 across cols 23-27 into the Eastern Sector.
+5. In the Eastern Sector (cols 26-37), descend straight south towards the Route 10 South exit.
