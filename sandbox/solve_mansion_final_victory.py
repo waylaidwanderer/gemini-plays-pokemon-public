@@ -31,12 +31,16 @@ def walk_step(direction, target_x, target_y):
     return False
 
 def solve_all():
-    # Current: (7, 11) on 2F in State A
-    # Path to northwest switch bypassing NPC on row 11
+    # Current: (8, 12) on 2F in State A
+    # Path to northwest switch bypassing the stunned NPC at (6, 11)
     path_to_nw_switch = [
-        ("Left", 6, 11),
-        ("Up", 6, 10),
-        ("Left", 5, 10),
+        ("Up", 8, 11),
+        ("Up", 8, 10),
+        ("Up", 8, 9),
+        ("Left", 7, 9),
+        ("Left", 6, 9),
+        ("Left", 5, 9),
+        ("Down", 5, 10),
         ("Left", 4, 10),
         ("Down", 4, 11),
         ("Down", 4, 12),
