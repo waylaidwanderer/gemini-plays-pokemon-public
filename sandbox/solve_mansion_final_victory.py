@@ -49,9 +49,9 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # We are at (7, 11) on 3F inside Mansion in State B.
+    # We are at (7, 11) or (10, 5) on 3F inside Mansion in State B.
     # Let's walk to the pit at (25, 6)!
-    if pos == {'x': 7, 'y': 11}:
+    if pos == {'x': 7, 'y': 11} or pos == {'x': 10, 'y': 5}:
         path_to_pit = [
             ("Up", 7, 10),
             ("Right", 8, 10), ("Right", 9, 10), ("Right", 10, 10),
@@ -62,7 +62,17 @@ def main():
             ("Right", 22, 3), ("Right", 23, 3), ("Right", 24, 3), ("Right", 25, 3), ("Right", 26, 3),
             ("Down", 26, 4), ("Down", 26, 5), ("Down", 26, 6),
         ]
+        # Skip steps that we already completed or are at
+        actual_path = []
+        skip = (pos == {'x': 10, 'y': 5})
         for d, tx, ty in path_to_pit:
+            if skip:
+                if tx == 10 and ty == 5:
+                    skip = False
+                continue
+            actual_path.append((d, tx, ty))
+            
+        for d, tx, ty in actual_path:
             if not step_to(d, tx, ty):
                 return
                 
