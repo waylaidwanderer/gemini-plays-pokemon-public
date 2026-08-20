@@ -1,83 +1,93 @@
 import mgba
 import time
 
-def handle_battle():
-    print("Encountered battle or text! Attempting to escape/dismiss...")
+def handle_battle_or_text():
+    print("Detected battle or text! Dismissing/escaping...")
+    # Press B to dismiss text, then Down+Right+A to run
     mgba.press_buttons(["B", "sleep 300", "Down", "Right", "A", "sleep 1000", "B"])
+    time.sleep(0.5)
 
-def step_to(direction, tx, ty):
-    pos = mgba.get_coordinates()
-    print(f"Current pos: {pos}. Pressing {direction} to reach ({tx}, {ty})...")
-    mgba.press_buttons([direction])
-    time.sleep(0.4)
-    new_pos = mgba.get_coordinates()
-    
-    if new_pos == pos:
-        print("Did not move. Attempting to clear battle/text...")
-        handle_battle()
-        time.sleep(0.5)
+def dynamic_walk_to(tx, ty, max_steps=40):
+    """
+    Robustly walk to target (tx, ty) using dynamic pathfinding.
+    Handles wild encounters, heals, and drift automatically.
+    """
+    print(f"Moving dynamically to target ({tx}, {ty})...")
+    steps = 0
+    while steps < max_steps:
+        pos = mgba.get_coordinates()
+        cx, cy = pos['x'], pos['y']
+        print(f"At ({cx}, {cy}). Target: ({tx}, {ty})")
+        
+        if cx == tx and cy == ty:
+            print("Successfully reached target!")
+            return True
+            
+        # Determine direction
+        direction = None
+        if cx < tx:
+            direction = "Right"
+        elif cx > tx:
+            direction = "Left"
+        elif cy < ty:
+            direction = "Down"
+        elif cy > ty:
+            direction = "Up"
+            
+        if not direction:
+            break
+            
+        print(f"Pressing {direction}...")
+        mgba.press_buttons([direction])
+        time.sleep(0.4)
+        
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            print("Trying again...")
-            mgba.press_buttons([direction])
-            time.sleep(0.4)
+            # We didn't move. Clear battle/text and try again
+            handle_battle_or_text()
             new_pos = mgba.get_coordinates()
-            
-    print(f"New pos: {new_pos}")
-    return new_pos['x'] == tx and new_pos['y'] == ty
-
-def follow_path(path):
-    for d, tx, ty in path:
-        attempts = 0
-        while not step_to(d, tx, ty):
-            attempts += 1
-            if attempts > 5:
-                print(f"Failed to move to ({tx}, {ty}) after 5 attempts.")
-                mgba.take_screenshot()
+            if new_pos == pos:
+                # If still blocked, we might have hit a wall
+                print(f"Completely blocked at ({cx}, {cy}) going {direction}!")
                 return False
-    return True
+                
+        steps += 1
+        
+    print(f"Failed to reach ({tx}, {ty}) within {max_steps} steps.")
+    return False
 
 def run_master_route():
-    # We are currently at (19, 5) on 3F (State B).
-    # Dismiss "Got away safely!" first
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
+    # We are currently at (22, 7) on 3F (State B).
     pos = mgba.get_coordinates()
     print(f"Starting at: {pos}")
-    if pos['x'] != 19 or pos['y'] != 5:
-        print("Error: Not at (19, 5)!")
+    if pos['x'] != 22 or pos['y'] != 7:
+        print("Error: Not at (22, 7)!")
         return False
         
-    # Walk to the balcony drop on 3F (State B)
-    print("--- STEP 2: Walking to balcony drop on 3F (State B) ---")
-    path_to_drop_3f = [
-        ("Up", 19, 4),
-        ("Up", 19, 3),
-        ("Right", 20, 3),
-        ("Right", 21, 3),
-        ("Right", 22, 3),
-        ("Right", 23, 3),
-        ("Right", 24, 3),
-        ("Right", 25, 3),
-        ("Down", 25, 4),
-        ("Down", 25, 5),
-        ("Down", 25, 6),
-        ("Down", 25, 7),
-        ("Down", 25, 8),
-        ("Down", 25, 9),
-        ("Down", 25, 10),
-        ("Down", 25, 11),
-        ("Down", 25, 12),
-        ("Down", 25, 13),
-        ("Down", 25, 14),
-        ("Left", 24, 14),
-    ]
-    if not follow_path(path_to_drop_3f):
+    # Walk to row 3 column 18
+    print("--- STEP 1: Walking to (18, 3) on 3F ---")
+    if not dynamic_walk_to(18, 7):
+        return False
+    if not dynamic_walk_to(18, 3):
+        return False
+        
+    # Walk along row 3 to column 25
+    print("--- STEP 2: Walking to (25, 3) on 3F ---")
+    if not dynamic_walk_to(25, 3):
+        return False
+        
+    # Walk Down column 25 to row 14
+    print("--- STEP 3: Walking to (25, 14) on 3F ---")
+    if not dynamic_walk_to(25, 14):
+        return False
+        
+    # Walk Left to (24, 14)
+    print("--- STEP 4: Walking to (24, 14) on 3F ---")
+    if not dynamic_walk_to(24, 14):
         return False
         
     # Drop to 1F B1F stairs!
-    print("--- STEP 3: Dropping to 1F B1F stairs ---")
+    print("--- STEP 5: Dropping to 1F B1F stairs ---")
     mgba.press_buttons(["Left"])
     time.sleep(1.5)
     
