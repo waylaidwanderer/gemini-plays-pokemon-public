@@ -15,31 +15,36 @@ def walk_step(direction, target_x, target_y):
         return False
 
 def solve_all():
-    # Current: (14, 5) on 3F (State B)
-    # Walk to balcony drop via Row 6 horizontal bypass corridor
-    print("Step 1: Walking along Row 6 bypass to balcony and drop...")
+    # Starting from (19, 6) on 3F (State B)
+    print("Step 1: Walking from (19, 6) to balcony drop...")
     path_to_drop = [
-        ("Down", 14, 6),
-        ("Right", 15, 6),
-        ("Right", 16, 6),
-        ("Right", 17, 6),
-        ("Right", 18, 6),
-        ("Up", 18, 5),
-        ("Right", 19, 5),
-        ("Right", 20, 5),
-        ("Right", 21, 5), # Gate (21, 5) is OPEN in State B!
-        ("Right", 22, 5),
-        ("Right", 23, 5),
-        ("Right", 24, 5),
-        ("Down", 24, 6),
-        ("Down", 24, 7),
-        ("Down", 24, 8),
-        ("Down", 24, 9),
-        ("Down", 24, 10),
-        ("Down", 24, 11),
-        ("Down", 24, 12),
-        ("Down", 24, 13),
-        ("Down", 24, 14),
+        ("Right", 20, 6),
+        ("Right", 21, 6),
+        ("Right", 22, 6),
+        ("Down", 22, 7),
+        ("Down", 22, 8),
+        ("Down", 22, 9),
+        ("Down", 22, 10),
+        ("Down", 22, 11),
+        ("Down", 22, 12),
+        ("Down", 22, 13),
+        ("Down", 24, 14), # Wait! Can we walk directly from (22, 13) to (24, 14) using walk_step? No, we should walk to (22, 14) first!
+    ]
+    # Let's write the complete coordinate-by-coordinate path
+    path_to_drop = [
+        ("Right", 20, 6),
+        ("Right", 21, 6),
+        ("Right", 22, 6),
+        ("Down", 22, 7),
+        ("Down", 22, 8),
+        ("Down", 22, 9),
+        ("Down", 22, 10),
+        ("Down", 22, 11),
+        ("Down", 22, 12),
+        ("Down", 22, 13),
+        ("Down", 22, 14),
+        ("Right", 23, 14),
+        ("Right", 24, 14),
     ]
     for d, tx, ty in path_to_drop:
         if not walk_step(d, tx, ty):
