@@ -50,48 +50,34 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (19, 16)...")
+    print("Starting absolute master route to B1F starting from (23, 10)...")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (19, 16) on 3F (State B)
-    if pos != {'x': 19, 'y': 16}:
-        print("Warning: not at (19, 16). Re-aligning...")
-        if pos['y'] != 16:
-            step_to("Down" if pos['y'] < 16 else "Up", pos['x'], 16)
+    # We should be at (23, 10) on 3F
+    if pos != {'x': 23, 'y': 10}:
+        print("Warning: not at (23, 10). Re-aligning...")
+        if pos['y'] != 10:
+            step_to("Down" if pos['y'] < 10 else "Up", pos['x'], 10)
         pos = mgba.get_coordinates()
-        if pos['x'] != 19:
-            step_to("Left" if pos['x'] > 19 else "Right", 19, 16)
+        if pos['x'] != 23:
+            step_to("Left" if pos['x'] > 23 else "Right", 23, 10)
             
-    # 1. Walk from (19, 16) to switch at (2, 12) in State B
+    # 1. Walk from (23, 10) to switch at (2, 12) on 3F in State B
     print("--- 3F (State B): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Right", 20, 16),
-        ("Right", 21, 16),
-        ("Right", 22, 16),
-        ("Right", 23, 16),
-        ("Right", 24, 16),
-        ("Up", 24, 15),
-        ("Up", 24, 14),
-        ("Right", 25, 14),
-        ("Up", 25, 13),
-        ("Up", 25, 12),
-        ("Right", 26, 12),
-        ("Up", 26, 11),
-        ("Up", 26, 10),
+        ("Right", 24, 10),
+        ("Right", 25, 10),
+        ("Right", 26, 10),
         ("Up", 26, 9),
         ("Up", 26, 8),
-        ("Left", 25, 8),
-        ("Left", 24, 8),
-        ("Up", 24, 7),
-        ("Up", 24, 6),
-        ("Up", 24, 5),
-        ("Right", 25, 5),
-        ("Right", 26, 5),
-        ("Up", 26, 4),
-        ("Up", 26, 3),
-        ("Left", 25, 3),
-        ("Left", 24, 3),
+        ("Up", 26, 7),
+        ("Up", 26, 6),
+        ("Up", 26, 5),
+        ("Left", 25, 5),
+        ("Left", 24, 5),
+        ("Up", 24, 4),
+        ("Up", 24, 3),
         ("Left", 23, 3),
         ("Left", 22, 3),
         ("Left", 21, 3),
@@ -105,7 +91,7 @@ def main():
         ("Left", 15, 5),
         ("Left", 14, 5),
         ("Left", 13, 5),
-        ("Left", 12, 5), # We are back at Column 12 Row 5
+        ("Left", 12, 5), # Bypasses Column 11 Row 8 rubble via Column 12!
         ("Down", 12, 6),
         ("Down", 12, 7),
         ("Down", 12, 8),
