@@ -26,7 +26,6 @@ def step_to(direction, tx, ty):
     while new_pos != {'x': tx, 'y': ty} and attempts < 5:
         if new_pos == pos:
             print("Did not move. Checking for direction turn, wall, or battle...")
-            # Maybe it was just a turn in place. Try pressing direction again!
             mgba.press_buttons([direction])
             time.sleep(0.5)
             new_pos = mgba.get_coordinates()
@@ -35,12 +34,10 @@ def step_to(direction, tx, ty):
                 print("Still did not move. Checking for battle...")
                 handle_battle()
                 time.sleep(0.5)
-                # Try moving again
                 mgba.press_buttons([direction])
                 time.sleep(0.5)
                 new_pos = mgba.get_coordinates()
         else:
-            # We moved to an unexpected tile. Try to step in the direction of the target.
             print(f"We are at unexpected position {new_pos}. Retrying {direction}...")
             pos = new_pos
             mgba.press_buttons([direction])
@@ -51,56 +48,33 @@ def step_to(direction, tx, ty):
     return new_pos == {'x': tx, 'y': ty}
 
 def main():
-    print("Starting route to true 3F Mewtwo switch at (10, 5)...")
+    print("Starting route from (12, 7) to true 3F switch stand position (2, 12)...")
     
     path = [
-        # 1. Walk Down to (2, 13)
-        ("Down", 2, 11),
-        ("Down", 2, 12),
-        ("Down", 2, 13),
-        # 2. Walk Right to (7, 13) (through Column 8 gap)
-        ("Right", 3, 13),
-        ("Right", 4, 13),
-        ("Right", 5, 13),
-        ("Right", 6, 13),
-        ("Right", 7, 13),
-        # 3. Walk Up to (7, 11)
-        ("Up", 7, 12),
-        ("Up", 7, 11),
-        # 4. Walk Right to (10, 11)
-        ("Right", 8, 11), # Wait, is (8, 11) blocked? Let's check!
-        # Oh, wait! Earlier we found (8, 11) is blocked!
-        # Let's check: can we walk along Row 13 instead?
-        # Yes! Row 13 is open all the way to column 10!
-        # So we should walk Right along Row 13 to (10, 13) instead!
-    ]
-    
-    # Correct path:
-    # 1. Down to (2, 13)
-    # 2. Right to (10, 13)
-    # 3. Up to (10, 6)
-    
-    path = [
-        ("Down", 2, 11),
-        ("Down", 2, 12),
-        ("Down", 2, 13),
+        # 1. Walk Left to (10, 7)
+        ("Left", 11, 7),
+        ("Left", 10, 7),
         
-        ("Right", 3, 13),
-        ("Right", 4, 13),
-        ("Right", 5, 13),
-        ("Right", 6, 13),
-        ("Right", 7, 13),
-        ("Right", 8, 13),
-        ("Right", 9, 13),
-        ("Right", 10, 13),
+        # 2. Walk Down to (10, 13)
+        ("Down", 10, 8),
+        ("Down", 10, 9),
+        ("Down", 10, 10),
+        ("Down", 10, 11),
+        ("Down", 10, 12),
+        ("Down", 10, 13),
         
-        ("Up", 10, 12),
-        ("Up", 10, 11),
-        ("Up", 10, 10),
-        ("Up", 10, 9),
-        ("Up", 10, 8),
-        ("Up", 10, 7),
-        ("Up", 10, 6),
+        # 3. Walk Left to (2, 13)
+        ("Left", 9, 13),
+        ("Left", 8, 13),
+        ("Left", 7, 13),
+        ("Left", 6, 13),
+        ("Left", 5, 13),
+        ("Left", 4, 13),
+        ("Left", 3, 13),
+        ("Left", 2, 13),
+        
+        # 4. Walk Up to (2, 12)
+        ("Up", 2, 12),
     ]
     
     success = True
@@ -111,18 +85,10 @@ def main():
             break
             
     if success:
-        print("Successfully reached (10, 6)! Facing Up towards the switch at (10, 5)...")
-        # Ensure we are facing Up and interact
-        mgba.press_buttons(["Up", "A"])
-        time.sleep(1.0)
-        
-        mgba.take_screenshot()
-        
-        print("Pressing A to select YES and confirm switch activation...")
-        mgba.press_buttons(["A"])
-        time.sleep(1.0)
-        mgba.press_buttons(["A"])
-        time.sleep(1.0)
+        print("Successfully reached (2, 12)! Toggling switch at (2, 11) using Gen 1 timing...")
+        # Face Up, wait, press A, wait, press A to confirm, wait, press B to clear
+        mgba.press_buttons(["Up", "sleep 250", "A", "sleep 600", "A", "sleep 600", "B"])
+        time.sleep(2.0)
         
         mgba.take_screenshot()
         print("Done!")
