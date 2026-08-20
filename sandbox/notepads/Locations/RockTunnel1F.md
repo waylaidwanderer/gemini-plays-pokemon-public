@@ -42,5 +42,5 @@
 - PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "You have a POKéDEX? I want one too!" Defeat quote: "Shoot! I'm so jealous!"
 - Verified Collision Boundaries (Turns 7224-7241): Solid rock wall spans rows 14-15 across cols 18-22; solid rock spans rows 22-23 across cols 12-19; solid rock divider spans rows 28-29 across cols 7-13. The 1F Western Corridor (cols 2-5) contains the unimpeded southern descent through rows 16-35 to the exit doorway.
 ## Additional Verified Topology (Turn 7528)
-- Rows 14-15 horizontal rock wall spans cols 18 to 37 without breaks, except at Column 17 where (17, 14..15) is open floor.
+- Rows 14-15 horizontal rock wall spans cols 17 to 37; the open vertical connector between rows 12-13 and rows 16-20 is at Columns 14-16.
 - The 1F South Exit to Route 10 South is located in the final western partition, reached by taking Ladder 3 from B1F (37, 17) up to 1F (3, 3), and descending south down the Western Corridor (cols 2-5) through rows 16-35.
