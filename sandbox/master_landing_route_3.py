@@ -50,34 +50,24 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (23, 10)...")
+    print("Starting absolute master route to B1F starting from (26, 3)...")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (23, 10) on 3F
-    if pos != {'x': 23, 'y': 10}:
-        print("Warning: not at (23, 10). Re-aligning...")
-        if pos['y'] != 10:
-            step_to("Down" if pos['y'] < 10 else "Up", pos['x'], 10)
+    # We should be at (26, 3) on 3F
+    if pos != {'x': 26, 'y': 3}:
+        print("Warning: not at (26, 3). Re-aligning...")
+        if pos['y'] != 3:
+            step_to("Down" if pos['y'] < 3 else "Up", pos['x'], 3)
         pos = mgba.get_coordinates()
-        if pos['x'] != 23:
-            step_to("Left" if pos['x'] > 23 else "Right", 23, 10)
+        if pos['x'] != 26:
+            step_to("Left" if pos['x'] > 26 else "Right", 26, 3)
             
-    # 1. Walk from (23, 10) to switch at (2, 12) on 3F in State B
+    # 1. Walk from (26, 3) to switch at (2, 12) on 3F in State B
     print("--- 3F (State B): Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Right", 24, 10),
-        ("Right", 25, 10),
-        ("Right", 26, 10),
-        ("Up", 26, 9),
-        ("Up", 26, 8),
-        ("Up", 26, 7),
-        ("Up", 26, 6),
-        ("Up", 26, 5),
-        ("Left", 25, 5),
-        ("Left", 24, 5),
-        ("Up", 24, 4),
-        ("Up", 24, 3),
+        ("Left", 25, 3),
+        ("Left", 24, 3),
         ("Left", 23, 3),
         ("Left", 22, 3),
         ("Left", 21, 3),
