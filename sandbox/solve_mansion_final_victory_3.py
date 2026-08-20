@@ -3,12 +3,10 @@ import time
 
 def handle_battle():
     print("Encountered battle or text! Escaping...")
-    # Advance any initial text
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     mgba.press_buttons(["A"])
     time.sleep(1.0)
-    # Move to RUN and press A
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(2.0)
     mgba.press_buttons(["B"])
@@ -57,20 +55,20 @@ def follow_path(path):
     return True
 
 def run_main():
-    print("Starting robust victory drop route from (9, 10)...")
+    print("Starting robust victory drop route from (8, 11)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
     print("Start position:", pos)
     
-    # Path from current position (9, 10) to the drop at (24, 14) via Column 6, Row 3, Row 5
+    # Path from current position (8, 11) to the drop at (24, 14) via Column 6, Row 3, Row 5
     path = [
         # 1. Walk Left to Column 6
-        ("Left", 8, 10),
-        ("Left", 7, 10),
-        ("Left", 6, 10),
+        ("Left", 7, 11),
+        ("Left", 6, 11),
         # 2. Walk UP column 6 to Row 3
+        ("Up", 6, 10),
         ("Up", 6, 9),
         ("Up", 6, 8),
         ("Up", 6, 7),
