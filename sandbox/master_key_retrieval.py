@@ -38,39 +38,22 @@ def follow_path(path):
     return True
 
 def run_master_route():
-    # We are currently at (20, 6) on 2F (State B).
+    # We are currently at (19, 5) on 3F (State B).
+    # Dismiss "Got away safely!" first
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    
     pos = mgba.get_coordinates()
     print(f"Starting at: {pos}")
-    if pos['x'] != 20 or pos['y'] != 6:
-        print("Error: Not at (20, 6)!")
+    if pos['x'] != 19 or pos['y'] != 5:
+        print("Error: Not at (19, 5)!")
         return False
         
-    # 1. Walk to the stairs at (18, 8) on 2F
-    print("--- STEP 1: Walking to 3F stairs on 2F ---")
-    path_to_stairs_2f = [
-        ("Left", 19, 6),
-        ("Left", 18, 6),
-        ("Down", 18, 7),
-    ]
-    if not follow_path(path_to_stairs_2f):
-        return False
-        
-    # Step Down onto (18, 8) stairs to warp to 3F
-    print("Stepping onto 2F stairs...")
-    mgba.press_buttons(["Down"])
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print(f"On Mansion 3F. Position: {pos}")
-    
-    # 2. On 3F (State B), walk to the balcony drop at (24, 14)
+    # Walk to the balcony drop on 3F (State B)
     print("--- STEP 2: Walking to balcony drop on 3F (State B) ---")
     path_to_drop_3f = [
-        ("Up", 18, 7),
-        ("Up", 18, 6),
-        ("Up", 18, 5),
-        ("Up", 18, 4),
-        ("Up", 18, 3),
-        ("Right", 19, 3),
+        ("Up", 19, 4),
+        ("Up", 19, 3),
         ("Right", 20, 3),
         ("Right", 21, 3),
         ("Right", 22, 3),
