@@ -1071,23 +1071,25 @@
 
 # Rock Tunnel B1F - Active Exploration & Clearance Plan
 
-## Target Objective: Traverse to Ladder 4 at (37, 17) via South Highway
+## Target Objective: Traverse to Ladder 4 at (37, 17) and Exit to 1F
 
-### Empirical Map Facts (Verified)
-- Position: Currently at (17, 20) in Central Chamber.
-- Western Vertical Channel: Column 10 (rows 9-27) is fully open.
-- Vertical Rock Barrier: Columns 12-13 across rows 5-13 and rows 18-27.
-- Horizontal Bypass: Row 16 across cols 10-17 is fully open.
-- Central Chamber: Columns 14-17 across rows 12-21 is open.
-- Eastern Sector Entrance: Lower South Highway (rows 30-33, cols 2-35) and Row 27 Bypass (cols 14-29).
+### Empirical Collision Matrix & Boundaries (Verified)
+- Vertical Rock Barrier (cols 12-13): Spans rows 5-13 and rows 24-27.
+- Horizontal Bypass (rows 14-17, cols 8-17): Wide open 8-tile corridor connecting Western Channel (cols 8-11) to Central Room (cols 14-17).
+- Vertical Rock Barrier (cols 18-19): Spans rows 14-23, separating Central Room (cols 14-17) from East Channel (cols 20-22).
+- Horizontal Rock Barrier (rows 22-23, cols 13-19): Separates Central Room (rows 16-21) from South Chamber (rows 24-27).
+- East Channel (cols 20-22, rows 16-25): Completely open north-south corridor connecting to South Chamber at row 24-25.
+- Central-East Highway (cols 20-37, rows 16-19): Leads directly East to Ladder 4 at (37, 17).
+- South Chamber (cols 14-29, rows 24-27): Open floor connecting west sector to east sector via Row 27 Northern Bypass.
 
-### Linear Action Plan (Committed South Vector - No Oscillation)
-1. **Flee Wild Encounter**: Escape from battle at (17, 20).
-2. **Southward Central Survey**: From (17, 20), step Down to (17, 21) and survey rows 22-27.
-3. **Connect to Lower South Highway**: Access row 27 bypass or row 30 highway via (14..17, 28..29) Vertical Connector.
-4. **Traverse East along South Highway**: Walk East across row 30 all the way to Eastern Sector at (37, 30).
-5. **Ascend to Ladder 4**: Ascend north along column 37 directly to Ladder 4 at (37, 17).
-6. **Ascend to 1F & Exit**: Take Ladder 4 to 1F (3, 3) -> Walk south down 1F Western Corridor to South Exit -> Route 10 South -> Lavender Town!
-
+### Linear Action Plan (Committed Route to Ladder 4)
+1. **From (17, 21)**: Ascend north up col 17 to row 13 crossway: Walk Up 8 to (17, 13).
+2. **Access East Channel / Northeast Highway**: Walk East along row 13 to (21, 13).
+3. **Traverse to Ladder 4 at (37, 17)**:
+   - Walk East across Central-East corridor (rows 16-19) / Northeast Highway (rows 10-13) directly to column 37.
+   - Walk to (37, 17) [Ladder 4].
+4. **Ascend to 1F & Exit**:
+   - Step on Ladder 4 at (37, 17) -> Warps to 1F (3, 3).
+   - Walk south down 1F Western Corridor -> South Exit to Route 10 South -> Lavender Town!
 
 <hr>
