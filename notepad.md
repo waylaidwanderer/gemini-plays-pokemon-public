@@ -1060,8 +1060,8 @@
 5. **Lavender Town**: Emerge onto Route 10 South, walk south to Lavender Town, heal at Pokémon Center.
 
 ## Immediate Action
-- Current position: B1F (17, 21)
-- Navigation Goal: North corridor junction at (17, 17) on Rock Tunnel B1F
-- Short Probing Step: Up 4 steps along col 17 to (17, 17).
+- Current position: B1F (11, 14)
+- Navigation Goal: North corridor at (11, 6) on Rock Tunnel B1F
+- Short Probing Step: Ascend col 11 north from (11, 14) to (11, 6).
 
 <hr>
