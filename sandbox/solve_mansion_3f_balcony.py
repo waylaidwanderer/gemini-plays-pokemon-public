@@ -8,101 +8,98 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Resuming balcony route from:", get_pos())
+print("Starting robust balcony route from:", get_pos())
 
 def handle_battle():
-    print("Battle or block! Clearing screens...")
+    # Press B a few times to clear text if we are in transition or battle
     for _ in range(5):
         mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    # Run from battle
+        time.sleep(0.05)
+    # Check if we are in battle and select RUN
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
+    # Clear "Got away safely!" text
     for _ in range(5):
         mgba.press_buttons(["B"])
-        time.sleep(0.1)
+        time.sleep(0.05)
 
-def step_to(tx, ty):
-    for attempt in range(12):
+def step_to_closed_loop(tx, ty):
+    print(f"Navigating to waypoint ({tx}, {ty})...")
+    for attempt in range(15):
         c = get_pos()
         if c['x'] == tx and c['y'] == ty:
-            print(f"Reached: ({tx}, {ty})")
+            print(f"Reached waypoint: ({tx}, {ty})")
             return True
+            
         dx = tx - c['x']
         dy = ty - c['y']
         
         btn = None
-        if dx > 0:
-            btn = "Right"
-        elif dx < 0:
-            btn = "Left"
-        elif dy > 0:
-            btn = "Down"
-        elif dy < 0:
-            btn = "Up"
-            
-        print(f"Standing at {c}. Pressing {btn} to reach ({tx}, {ty})...")
+        # Manhattan-based routing to waypoint
+        if abs(dx) > abs(dy):
+            if dx > 0:
+                btn = "Right"
+            else:
+                btn = "Left"
+        else:
+            if dy > 0:
+                btn = "Down"
+            else:
+                btn = "Up"
+                
+        print(f"  Attempt {attempt+1}/15. Pos: {c}. Pressing {btn}")
         mgba.press_buttons([btn])
         time.sleep(0.4)
         
         after = get_pos()
         if after == c:
-            print("Blocked! Handling battle or obstacles...")
+            print("  Blocked! Handling potential battle/dialogue...")
             handle_battle()
             after_retry = get_pos()
-            if after_retry == c:
-                print(f"STILL BLOCKED at {c} trying to reach ({tx}, {ty}). Aborting step.")
-                return False
+            print(f"  After handle_battle, pos is: {after_retry}")
+            
+    c_final = get_pos()
+    if c_final['x'] == tx and c_final['y'] == ty:
+        return True
+    print(f"FAILED to reach waypoint ({tx}, {ty}). Final pos: {c_final}")
     return False
 
-# Path from current position (15, 7) to B1F balcony drop
-path = [
-    # Press B to clear the "Got away safely!" text box before stepping
-    # Walk Up to row 6
-    (15, 6),
-    # Walk Right along row 6 to column 21
-    (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6),
-    # Up to (21, 3)
-    (21, 5), (21, 4), (21, 3),
-    # Right to (26, 3)
-    (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-    # Down to (26, 5)
-    (26, 4), (26, 5),
-    # Left to (24, 5)
-    (25, 5), (24, 5),
-    # Down to (24, 7)
-    (24, 6), (24, 7),
-    # Right to (26, 7)
-    (25, 7), (26, 7),
-    # Down to (26, 12)
-    (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
-    # Left to (25, 12)
+waypoints = [
+    (1, 12),
+    (3, 12),
+    (6, 12),
+    (6, 11),
+    (9, 11),
+    (9, 10),
+    (11, 10),
+    (11, 6),
+    (21, 6),
+    (21, 5),   # Gate is open in State B
+    (21, 3),
+    (26, 3),
+    (26, 5),
+    (24, 5),
+    (24, 7),
+    (26, 7),
+    (26, 12),
     (25, 12),
-    # Down to (25, 14)
-    (25, 13), (25, 14),
-    # Left to (22, 14)
-    (24, 14), (23, 14), (22, 14),
-    # Left and Down to doorway at (21, 15)
-    (21, 14), (21, 15),
-    # Step Left to landing (20, 15)
+    (25, 14),
+    (22, 14),
+    (21, 14),
+    (21, 15),
     (20, 15),
-    # Down column 20 to row 18
-    (20, 16), (20, 17), (20, 18),
-    # Step Left onto (19, 18) to drop!
-    (19, 18)
+    (20, 18),
+    (19, 18)   # Balcony drop!
 ]
 
-# Press B to clear the textbox first
-mgba.press_buttons(["B"])
-time.sleep(0.3)
-
 success = True
-for (tx, ty) in path:
-    if not step_to(tx, ty):
-        print(f"Failed at step ({tx}, {ty})")
+for (wx, wy) in waypoints:
+    if not step_to_closed_loop(wx, wy):
         success = False
         break
 
 if success:
-    print("Dropped! Current pos after drop:", get_pos())
+    print("Mansion 3F Balcony Drop complete! Current pos on B1F:", get_pos())
     mgba.take_screenshot()
+else:
+    print("Failed to complete balcony drop route.")
