@@ -21,7 +21,7 @@
 - Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at arrival tile (37, 3).
 - Ladder 2 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
 - Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11).
-- Ladder 4 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3).
+- East-Central Sector: (37, 17) is regular floor, no ladder present (verified Turns 9092-9098).
 
 
 

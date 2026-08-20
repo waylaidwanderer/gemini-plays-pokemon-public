@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=26, y=16)
+- Location: Rock Tunnel 1F (x=33, y=17)
 
 
 
@@ -891,7 +891,7 @@
 
 ## Standardized Ladder Connectivity Matrix
 - **North Entrance**: Located at (15, 3). Connects to Route 10 (North).
-- **Ladder 1 Arrival**: 1F (37, 3) is the arrival tile from B1F (33, 25) [NE 1F <- SE B1F]. Note: Stepping on (37, 3) on 1F does not warp down (tested Turn 7968).
+- **Ladder 1**: 1F (37, 3) <-> B1F (33, 25) [NE 1F <-> SE B1F].
 - **Ladder 2 Arrival**: 1F (27, 3) is the arrival tile from B1F (5, 3) [1-way arrival on 1F; stepping on (27, 3) on 1F does not warp down, verified Turn 9029].
 - **Ladder 3**: 1F (17, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F, ladder sprite rendered at (17, 11)].
 - **Ladder 4**: 1F (3, 3) <-> B1F (37, 17) [North-West 1F <-> East-Central B1F].
@@ -976,7 +976,7 @@
 - Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at arrival tile (37, 3).
 - Ladder 2 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
 - Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11).
-- Ladder 4 (East-Central): Located at (37, 17). Connects up to Rock Tunnel 1F at (3, 3).
+- East-Central Sector: (37, 17) is regular floor, no ladder present (verified Turns 9092-9098).
 
 
 
@@ -1079,16 +1079,16 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel 1F - Direct Route to South Exit
+# Rock Tunnel 1F - Direct Route to Western Corridor & Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (20, 7)
-- Target: Exit via North Entrance at (15, 3) to heal party at Route 10 Pokémon Center, then re-enter to execute verified dungeon progression.
+- Current Location: Rock Tunnel 1F at (33, 17)
+- Target: Traverse row 17 west into the Western Corridor (cols 2-5) and follow it south to Route 10 South exit.
 
-## Verified Route to Route 10 North Exit
-1. Walk Left 5 along row 7 to (15, 7).
-2. Walk Up 4 along col 15 into North Exit at (15, 3).
-3. Emerge onto Route 10 North -> enter Pokémon Center at (11, 19).
-4. Heal party with Nurse Joy -> restore full HP and PP.
+## Planned Route
+1. Flee wild Zubat at (33, 17).
+2. Continue west along row 17: (33, 17) -> (23, 17) -> (14, 17) -> (10, 17) -> (3, 17).
+3. From (3, 17), follow Western Corridor south along cols 2-5 down to row 33.
+4. Exit onto Route 10 South and proceed to Lavender Town.
 
 <hr>

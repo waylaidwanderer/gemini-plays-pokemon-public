@@ -1,11 +1,11 @@
-# Rock Tunnel 1F - Direct Route to South Exit
+# Rock Tunnel 1F - Direct Route to Western Corridor & Exit
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (20, 7)
-- Target: Exit via North Entrance at (15, 3) to heal party at Route 10 Pokémon Center, then re-enter to execute verified dungeon progression.
+- Current Location: Rock Tunnel 1F at (33, 17)
+- Target: Traverse row 17 west into the Western Corridor (cols 2-5) and follow it south to Route 10 South exit.
 
-## Verified Route to Route 10 North Exit
-1. Walk Left 5 along row 7 to (15, 7).
-2. Walk Up 4 along col 15 into North Exit at (15, 3).
-3. Emerge onto Route 10 North -> enter Pokémon Center at (11, 19).
-4. Heal party with Nurse Joy -> restore full HP and PP.
+## Planned Route
+1. Flee wild Zubat at (33, 17).
+2. Continue west along row 17: (33, 17) -> (23, 17) -> (14, 17) -> (10, 17) -> (3, 17).
+3. From (3, 17), follow Western Corridor south along cols 2-5 down to row 33.
+4. Exit onto Route 10 South and proceed to Lavender Town.
