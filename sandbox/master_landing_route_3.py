@@ -50,56 +50,43 @@ def follow_path(path):
     return True
 
 def main():
-    print("Starting absolute master route to B1F starting from (8, 11) in State A...")
-    
-    # Dismiss 'Got away safely!' text if any
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-    
+    print("Starting absolute master route to B1F starting from (21, 6) in State A...")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (8, 11) on 3F
-    if pos != {'x': 8, 'y': 11}:
-        print("Warning: not at (8, 11). Re-aligning...")
-        if pos['y'] != 11:
-            step_to("Down" if pos['y'] < 11 else "Up", pos['x'], 11)
+    # We should be at (21, 6) on 3F
+    if pos != {'x': 21, 'y': 6}:
+        print("Warning: not at (21, 6). Re-aligning...")
+        if pos['y'] != 6:
+            step_to("Down" if pos['y'] < 6 else "Up", pos['x'], 6)
         pos = mgba.get_coordinates()
-        if pos['x'] != 8:
-            step_to("Left" if pos['x'] > 8 else "Right", 8, 11)
+        if pos['x'] != 21:
+            step_to("Left" if pos['x'] > 21 else "Right", 21, 6)
             
-    # 1. Walk the State A path directly to the East Balcony drop
+    # Walk the State A path directly to the East Balcony drop
     print("--- 3F (State A): Walking directly to East Balcony drop ---")
     path_to_drop_a = [
-        ("Right", 9, 11),
-        ("Right", 10, 11), # Column 10 Row 11 is OPEN in State A!
-        ("Right", 11, 11),
-        ("Right", 12, 11),
-        ("Up", 12, 10),
-        ("Up", 12, 9),
-        ("Up", 12, 8),
-        ("Up", 12, 7),
-        ("Up", 12, 6),
-        ("Right", 13, 6),
-        ("Right", 14, 6),
-        ("Right", 15, 6),
-        ("Right", 16, 6),
-        ("Right", 17, 6),
-        ("Right", 18, 6),
-        ("Right", 19, 6),
-        ("Right", 20, 6),
-        ("Right", 21, 6),
-        ("Right", 22, 6),
-        ("Right", 23, 6),
-        ("Right", 24, 6),
-        ("Down", 24, 7),
-        ("Down", 24, 8),
-        ("Down", 24, 9),
-        ("Down", 24, 10),
-        ("Down", 24, 11),
-        ("Down", 24, 12),
-        ("Down", 24, 13), # Gate at (24, 13) is OPEN in State A!
-        ("Down", 24, 14),
+        ("Up", 21, 5),
+        ("Up", 21, 4),
+        ("Up", 21, 3),
+        ("Right", 22, 3),
+        ("Right", 23, 3),
+        ("Right", 24, 3),
+        ("Right", 25, 3),
+        ("Right", 26, 3),
+        ("Down", 26, 4),
+        ("Down", 26, 5),
+        ("Down", 26, 6),
+        ("Down", 26, 7),
+        ("Down", 26, 8),
+        ("Down", 26, 9),
+        ("Down", 26, 10),
+        ("Down", 26, 11),
+        ("Down", 26, 12),
+        ("Left", 25, 12),
+        ("Down", 25, 13), # Gate at (25, 13) is OPEN in State A!
+        ("Down", 25, 14),
+        ("Left", 24, 14),
         ("Left", 23, 14),
         ("Left", 22, 14),
         ("Down", 22, 15),
