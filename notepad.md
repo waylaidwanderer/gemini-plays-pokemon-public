@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=22, y=13)
+- Location: Rock Tunnel B1F (x=17, y=11)
 
 
 
@@ -1079,24 +1079,17 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - Correct Progression to Exit via B1F Southern Sector
+# Rock Tunnel - Canonical Solution to Exit & Lavender Town
 
 ## Current Status & Objective
-- Current Location: Rock Tunnel 1F at (17, 11)
-- Target: Navigate south along col 17 to row 17, east to Eastern Bypass (34, 17), north to Ladder 1 at (37, 3) to descend to B1F (33, 25), traverse B1F Southern Sector west (rows 27-33) to Ladder 4, ascend to 1F South Exit Sector, and exit to Route 10 South / Lavender Town.
+- Current Location: Rock Tunnel 1F at (22, 13)
+- Target: Step into Ladder 3 at (23, 11) to B1F (17, 11), navigate B1F to Ladder 2 at (5, 3) to warp to 1F (27, 3), walk on 1F to Ladder 1 at (37, 3) to warp to B1F (33, 25), and traverse B1F Southern Sector to Ladder 4 and the exit!
 
-## Verified Topology & Logic
-- 1F is divided by a solid rock wall at row 28 across cols 2-27; the 1F South Exit cannot be reached from 1F north/central corridors.
-- 1F South Exit Sector is accessed exclusively from B1F Southern Sector via Ladder 4.
-- Ladder 1 at 1F (37, 3) warps directly into B1F SE at (33, 25) with unobstructed access to B1F Southern Sector (rows 25-33).
-
-## Planned Route
-1. Walk Down 6 along col 17 to (17, 17).
-2. Walk Right 17 along row 17 to Eastern Bypass at (34, 17).
-3. Walk Up 6 along col 34 to (34, 11).
-4. Walk Right 3 along row 11 to (37, 11).
-5. Walk Up 8 along col 37 into Ladder 1 at (37, 3) -> warp to B1F (33, 25).
-6. On B1F, traverse west through Southern Sector (rows 27-33) to find Ladder 4 in west sector (cols 2-15).
-7. Ascend Ladder 4 to 1F South Exit Sector -> walk south to Route 10 South -> Lavender Town.
+## The Canonical Dungeon Route
+1. [In Progress] 1F (22, 13) -> Step into Ladder 3 at (23, 11) -> Warp to B1F (17, 11).
+2. On B1F: (17, 11) -> Down 6 to (17, 17) -> Left 8 to (9, 17) -> Up 8 to (9, 9) -> Left 4 to (5, 9) -> Up 6 into Ladder 2 at (5, 3) -> Warp to 1F (27, 3).
+3. On 1F: (27, 3) -> Down 8 to (27, 11) -> Right 10 to (37, 11) -> Up 8 into Ladder 1 at (37, 3) -> Warp to B1F (33, 25).
+4. On B1F: (33, 25) -> Traverse west through Southern Sector (rows 25-33) to Ladder 4 -> Warp to 1F South Exit Sector.
+5. On 1F South Exit Sector: Walk south to Route 10 South -> Lavender Town.
 
 <hr>
