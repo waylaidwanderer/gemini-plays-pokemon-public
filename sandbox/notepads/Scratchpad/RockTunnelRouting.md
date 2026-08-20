@@ -4,7 +4,7 @@
 - Ladder 4 at (37, 17) -> 1F (3, 3) Western Exit Corridor -> Route 10 South & Lavender Town
 
 ## Strict Sequential Execution Checklist
-- [ ] **Step 1 (Descend to Row 21)**: From (16, 18), walk 3 steps Down to (16, 21).
+- [x] **Step 1 (Descend to Row 21)**: From (16, 18), walk 3 steps Down to (16, 21).
 - [ ] **Step 2 (Row 21 West to Col 9)**: From (16, 21), walk 7 steps Left along row 21 to (9, 21).
 - [ ] **Step 3 (Col 9 Descent to South Highway)**: From (9, 21), walk 9 steps Down along column 9 to row 30 at (9, 30).
 - [ ] **Step 4 (South Highway East to Vertical Connector)**: From (9, 30), walk 6 steps Right along row 30 to (15, 30).
