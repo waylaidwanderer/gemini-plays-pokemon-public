@@ -48,24 +48,13 @@ def step_to(direction, tx, ty):
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting outside Mansion at:", pos)
+    print("Starting at:", pos)
     
-    # 1. Walk from Center (11, 12) to Mansion entrance (6, 3)
+    # 1. Walk from (3, 3) to Mansion entrance (6, 3)
     path_to_mansion = [
-        ("Left", 10, 12),
-        ("Left", 9, 12),
-        ("Left", 8, 12),
-        ("Left", 7, 12),
-        ("Left", 6, 12),
-        ("Up", 6, 11),
-        ("Up", 6, 10),
-        ("Up", 6, 9),
-        ("Up", 6, 8),
-        ("Up", 6, 7),
-        ("Up", 6, 6),
-        ("Up", 6, 5),
-        ("Up", 6, 4),
-        ("Up", 6, 3), # Mansion entrance
+        ("Right", 4, 3),
+        ("Right", 5, 3),
+        ("Right", 6, 3), # Mansion entrance
     ]
     
     for d, tx, ty in path_to_mansion:
