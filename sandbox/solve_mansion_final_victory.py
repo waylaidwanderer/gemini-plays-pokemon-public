@@ -49,31 +49,50 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting at:", pos)
     
-    # We are at (7, 11) or (10, 5) or (14, 5) on 3F inside Mansion in State B.
-    # Let's walk to the pit at (25, 6)!
-    if pos == {'x': 7, 'y': 11} or pos == {'x': 10, 'y': 5} or pos == {'x': 14, 'y': 5}:
+    # We are at (21, 6) on 3F inside Mansion in State A.
+    # 1. Walk from (21, 6) to (11, 11) to access the switch at (12, 11)
+    if pos == {'x': 21, 'y': 6}:
+        path_to_switch = [
+            ("Left", 20, 6), ("Left", 19, 6), ("Left", 18, 6), ("Left", 17, 6), ("Left", 16, 6), ("Left", 15, 6), ("Left", 14, 6), ("Left", 13, 6), ("Left", 12, 6),
+            ("Down", 12, 7), ("Down", 12, 8), ("Down", 12, 9), ("Down", 12, 10),
+            ("Left", 11, 10),
+            ("Down", 11, 11),
+        ]
+        for d, tx, ty in path_to_switch:
+            if not step_to(d, tx, ty):
+                return
+                
+    pos = mgba.get_coordinates()
+    print("At switch landing! Position:", pos)
+    
+    # 2. Face RIGHT and press A to toggle switch at (12, 11)
+    if pos == {'x': 11, 'y': 11}:
+        mgba.press_buttons(["Right"])
+        time.sleep(0.5)
+        
+        # Toggle switch to State B
+        print("Toggling 3F switch to State B...")
+        mgba.press_buttons(["A"])
+        time.sleep(1.0)
+        mgba.press_buttons(["A"]) # YES
+        time.sleep(1.0)
+        mgba.press_buttons(["B"]) # Dismiss
+        time.sleep(1.0)
+        
+    # 3. Walk to the Pit at (25, 6) in State B
+    pos = mgba.get_coordinates()
+    if pos == {'x': 11, 'y': 11}:
+        print("Walking to the Pit...")
         path_to_pit = [
-            ("Up", 7, 10),
-            ("Right", 8, 10), ("Right", 9, 10), ("Right", 10, 10),
-            ("Up", 10, 9), ("Up", 10, 8), ("Up", 10, 7), ("Up", 10, 6), ("Up", 10, 5),
-            ("Right", 11, 5), ("Right", 12, 5), ("Right", 13, 5), ("Right", 14, 5),
-            ("Down", 14, 6),
-            ("Right", 15, 6), ("Right", 16, 6), ("Right", 17, 6), ("Right", 18, 6), ("Right", 19, 6), ("Right", 20, 6), ("Right", 21, 6),
-            ("Up", 21, 5), ("Up", 21, 4), ("Up", 21, 3),
+            ("Up", 11, 10),
+            ("Right", 12, 10),
+            ("Up", 12, 9), ("Up", 12, 8), ("Up", 12, 7), ("Up", 12, 6),
+            ("Right", 13, 6), ("Right", 14, 6), ("Right", 15, 6), ("Right", 16, 6), ("Right", 17, 6), ("Right", 18, 6), ("Right", 19, 6), ("Right", 20, 6), ("Right", 21, 6),
+            ("Up", 21, 5), ("Up", 21, 4), ("Up", 21, 3), # Gate at (21, 5) is OPEN in State B!
             ("Right", 22, 3), ("Right", 23, 3), ("Right", 24, 3), ("Right", 25, 3), ("Right", 26, 3),
             ("Down", 26, 4), ("Down", 26, 5), ("Down", 26, 6),
         ]
-        # Skip steps that we already completed or are at
-        actual_path = []
-        skip = (pos == {'x': 10, 'y': 5} or pos == {'x': 14, 'y': 5})
         for d, tx, ty in path_to_pit:
-            if skip:
-                if tx == pos['x'] and ty == pos['y']:
-                    skip = False
-                continue
-            actual_path.append((d, tx, ty))
-            
-        for d, tx, ty in actual_path:
             if not step_to(d, tx, ty):
                 return
                 
@@ -85,7 +104,7 @@ def main():
     print("Landed on 1F! Position:", pos)
     mgba.take_screenshot()
     
-    # Walk to B1F stairs on 1F (usually walking UP from landing area)
+    # 4. Walk to B1F stairs on 1F
     if pos['y'] > 15:
         print("Walking onto B1F stairs...")
         for _ in range(5):
