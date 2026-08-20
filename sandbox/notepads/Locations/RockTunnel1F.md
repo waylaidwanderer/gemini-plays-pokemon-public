@@ -43,5 +43,4 @@
 - Verified Collision Boundaries (Turns 7224-7241): Solid rock wall spans rows 14-15 across cols 18-22; solid rock spans rows 22-23 across cols 12-19; solid rock divider spans rows 28-29 across cols 7-13. The 1F Eastern Sector (cols 26-37) is fully accessible via Ladder 4 at (27, 3) and contains the unimpeded southern descent to the exit doorway at rows 34-35.
 ## Additional Verified Topology (Turn 7528)
 - Rows 14-15 horizontal rock wall spans cols 18 to 37 without breaks, except at Column 17 where (17, 14..15) is open floor.
-- Column 17 (rows 10-17) and Middle Thoroughfare (rows 14-16, cols 8-16) are the confirmed routes to reach the lower half of 1F (rows 16-35).
-- 1F South Exit to Route 10 South is reached via cols 14-17 descending through rows 16-27 down into rows 30-33.
+- The 1F South Exit to Route 10 South is located in the final western partition, reached by taking Ladder 3 from B1F (37, 17) up to 1F (3, 3), and descending south down the Western Corridor (cols 2-5) through rows 16-35.
