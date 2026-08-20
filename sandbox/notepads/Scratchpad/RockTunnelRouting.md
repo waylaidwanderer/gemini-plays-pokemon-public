@@ -4,7 +4,7 @@
 - Ladder 4 at (37, 17) -> 1F (3, 3) Western Exit Corridor -> Route 10 South & Lavender Town
 
 ## Strict Sequential Waypoints (Do NOT Reverse Direction)
-- [ ] **Waypoint 1 (Col 11 Descent Part 1)**: From (11, 6), walk 4 steps Down to (11, 10).
+- [x] **Waypoint 1 (Col 11 Descent Part 1)**: From (11, 6), walk 4 steps Down to (11, 10).
 - [ ] **Waypoint 2 (Col 11 Descent Part 2)**: From (11, 10), walk 4 steps Down to (11, 14).
 - [ ] **Waypoint 3 (Row 14 Crossway)**: From (11, 14), walk 4 steps Right to (15, 14).
 - [ ] **Waypoint 4 (Col 15 Descent)**: From (15, 14), walk 7 steps Down to (15, 21).
