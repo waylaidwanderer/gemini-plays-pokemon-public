@@ -1074,7 +1074,7 @@
 6. **Route 10 South & Lavender Town**: Arrive at Route 10 South, proceed directly south into Lavender Town.
 
 ## Current Stage: Stage 2 (B1F SE -> Ladder 4 at 5, 3)
-- Position: B1F (33, 25)
-- Task: Navigate west along Row 27 Northern Bypass to col 15, then north via Central-Western channel (cols 8-10) to Ladder 4 at (5, 3).
+- Position: B1F (31, 10)
+- Task: Move Left 3 to (28, 10), ascend Up 6 through western branch (cols 27-29) to North Highway at (28, 4), then navigate west to Ladder 4 at (5, 3).
 
 <hr>
