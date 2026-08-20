@@ -1,87 +1,71 @@
 import mgba
 import time
 
-def run_away():
-    print("Attempting to run away from battle...")
-    # Go to RUN option and press A
-    mgba.press_buttons(["Right", "Down", "A", "sleep 1000", "B", "sleep 500", "B", "sleep 500"])
-
-def clear_dialog():
-    print("Clearing text boxes...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-
 def walk_step(direction, target_x, target_y):
-    for attempt in range(15):
-        pos = mgba.get_coordinates()
-        print(f"Attempt {attempt+1}: Standing at {pos}. Pressing {direction}...")
-        mgba.press_buttons([direction])
-        time.sleep(0.5)
-        new_pos = mgba.get_coordinates()
-        if new_pos['x'] == target_x and new_pos['y'] == target_y:
-            print(f"Success! Reached {new_pos}")
-            return True
-        
-        # If we didn't reach, we might be in battle, blocked by NPC, or text box open
-        print(f"Did not reach target ({target_x}, {target_y}). Checking for battle/text...")
-        clear_dialog()
-        run_away()
-        time.sleep(0.5)
-        
-    print(f"Failed to reach target ({target_x}, {target_y}) after 15 attempts.")
-    return False
+    pos = mgba.get_coordinates()
+    print(f"Standing at {pos}. Pressing {direction}...")
+    mgba.press_buttons([direction])
+    time.sleep(0.5)
+    new_pos = mgba.get_coordinates()
+    print(f"Now at {new_pos}. Target was ({target_x}, {target_y})")
+    if new_pos['x'] == target_x and new_pos['y'] == target_y:
+        return True
+    else:
+        print("Failed to reach target! Could be a battle or obstacle.")
+        return False
 
 def solve_all():
-    # Current: (8, 12) on 2F in State A
-    # Path to northwest switch bypassing the stunned NPC at (6, 11)
+    # Current: (4, 15) on 2F in State A (no battle screen open)
+    # 1. Walk to northwest switch at (1, 11) on 2F
+    print("Step 1: Walking to northwest switch at (1, 11) on 2F...")
     path_to_nw_switch = [
-        ("Up", 8, 11),
-        ("Up", 8, 10),
-        ("Up", 8, 9),
-        ("Left", 7, 9),
-        ("Left", 6, 9),
-        ("Left", 5, 9),
-        ("Down", 5, 10),
-        ("Left", 4, 10),
-        ("Down", 4, 11),
-        ("Down", 4, 12),
-        ("Left", 3, 12),
-        ("Down", 3, 13),
-        ("Left", 2, 13),
-        ("Left", 1, 13),
+        ("Down", 4, 16),
+        ("Left", 3, 16),
+        ("Left", 2, 16),
+        ("Left", 1, 16),
+        ("Up", 1, 15),
+        ("Up", 1, 14),
+        ("Up", 1, 13),
         ("Up", 1, 12),
         ("Up", 1, 11),
-        ("Down", 1, 12),
-        ("Right", 2, 12),
     ]
-    
-    # Execute path to NW switch
     for d, tx, ty in path_to_nw_switch:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
-            return False
-
-    # 2. Toggle switch to State B
+            return
+            
+    # 2. Toggle switch to State B (from (1, 11) facing Right)
     print("Step 2: Toggling switch to State B...")
-    mgba.press_buttons(["Up"])
+    mgba.press_buttons(["Right"])
     time.sleep(0.4)
     mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "A", "sleep 600", "A"])
     time.sleep(1.0)
     
-    # 3. Walk to stairs in State B (via Row 11, Column 11, Row 5, Column 18)
+    # 3. Walk to stairs in State B (via Row 16, Column 5, Row 9, Column 11, Row 5, Column 18)
     print("Step 3: Walking to stairs in State B...")
     path_to_stairs_b = [
-        ("Right", 3, 12),
-        ("Up", 3, 11),
-        ("Right", 4, 11),
-        ("Right", 5, 11),
-        ("Right", 6, 11),
-        ("Right", 7, 11),
-        ("Right", 8, 11),
-        ("Right", 9, 11),
-        ("Right", 10, 11),
-        ("Right", 11, 11),
-        ("Up", 11, 10),
-        ("Up", 11, 9),
+        ("Down", 1, 12),
+        ("Down", 1, 13),
+        ("Down", 1, 14),
+        ("Down", 1, 15),
+        ("Down", 1, 16),
+        ("Right", 2, 16),
+        ("Right", 3, 16),
+        ("Right", 4, 16),
+        ("Right", 5, 16),
+        ("Up", 5, 15),
+        ("Up", 5, 14),
+        ("Up", 5, 13),
+        ("Up", 5, 12),
+        ("Up", 5, 11),
+        ("Up", 5, 10),
+        ("Up", 5, 9),
+        ("Right", 6, 9),
+        ("Right", 7, 9),
+        ("Right", 8, 9),
+        ("Right", 9, 9),
+        ("Right", 10, 9),
+        ("Right", 11, 9),
         ("Up", 11, 8),
         ("Up", 11, 7),
         ("Up", 11, 6),
@@ -99,7 +83,7 @@ def solve_all():
     for d, tx, ty in path_to_stairs_b:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
-            return False
+            return
             
     # 4. Step Down onto (18, 8) stairs to warp to 3F in State B
     print("Step 4: Ascending to 3F in State B...")
@@ -132,7 +116,7 @@ def solve_all():
     for d, tx, ty in path_to_balcony:
         if not walk_step(d, tx, ty):
             mgba.take_screenshot()
-            return False
+            return
             
     # Drop to 1F!
     print("Step 6: Dropping to 1F...")
@@ -140,7 +124,5 @@ def solve_all():
     time.sleep(1.5)
     print("Landed on 1F! Position:", mgba.get_coordinates())
     mgba.take_screenshot()
-    return True
 
-if __name__ == "__main__":
-    solve_all()
+solve_all()
