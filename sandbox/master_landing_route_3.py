@@ -54,52 +54,27 @@ def main():
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # We should be at (10, 11) on 1F
-    if pos != {'x': 10, 'y': 11}:
-        print("Warning: not at (10, 11). Re-aligning...")
+    # We should be at (8, 11) on 3F
+    if pos != {'x': 8, 'y': 11}:
+        print("Warning: not at (8, 11). Re-aligning...")
         if pos['y'] != 11:
             step_to("Down" if pos['y'] < 11 else "Up", pos['x'], 11)
         pos = mgba.get_coordinates()
-        if pos['x'] != 10:
-            step_to("Left" if pos['x'] > 10 else "Right", 10, 11)
+        if pos['x'] != 8:
+            step_to("Left" if pos['x'] > 8 else "Right", 8, 11)
             
-    # 1. Walk Left to (7, 11) and ascend to 2F
-    print("--- 1F: Walking to stairs at (7, 10) ---")
-    path_to_stairs_1f = [
-        ("Left", 9, 11),
-        ("Left", 8, 11),
-        ("Left", 7, 11),
-        ("Up", 7, 10), # Ascend to 2F
-    ]
-    if not follow_path(path_to_stairs_1f):
-        mgba.take_screenshot()
-        return
-        
-    time.sleep(1.5) # wait for transition
-    pos = mgba.get_coordinates()
-    print("Position on 2F:", pos)
-    
-    # 2. Ascend to 3F (stairs are at same location 7, 10)
-    print("--- 2F: Ascending to 3F ---")
-    if pos == {'x': 7, 'y': 11}:
-        if not step_to("Up", 7, 10):
-            print("Failed to ascend to 3F.")
-            mgba.take_screenshot()
-            return
-            
-    time.sleep(1.5) # wait for transition
-    pos = mgba.get_coordinates()
-    print("Position on 3F:", pos)
-    
-    # 3. Walk to switch at (2, 11) on 3F (State A)
+    # 1. Walk Left and Down to bypass the closed gate at (7, 12)
     print("--- 3F: Walking to switch at (2, 12) ---")
     path_to_switch = [
-        ("Down", 7, 12),
-        ("Left", 6, 12),
-        ("Left", 5, 12),
-        ("Left", 4, 12),
-        ("Left", 3, 12),
-        ("Left", 2, 12),
+        ("Left", 7, 11),
+        ("Left", 6, 11),
+        ("Left", 5, 11),
+        ("Left", 4, 11),
+        ("Down", 4, 12),
+        ("Down", 4, 13),
+        ("Left", 3, 13),
+        ("Left", 2, 13),
+        ("Up", 2, 12),
     ]
     if not follow_path(path_to_switch):
         mgba.take_screenshot()
@@ -118,7 +93,7 @@ def main():
     mgba.press_buttons(["B"]) # Close dialogue
     time.sleep(1.0)
     
-    # 4. Walk to East Balcony drop on 3F (State B)
+    # 2. Walk to East Balcony drop on 3F (State B)
     print("--- 3F (State B): Walking to East Balcony drop ---")
     path_to_drop = [
         ("Right", 3, 12),
