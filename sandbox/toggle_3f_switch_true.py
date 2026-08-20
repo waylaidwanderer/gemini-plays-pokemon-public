@@ -1,24 +1,5 @@
 import mgba
 import time
-import os
-
-def cleanup_files():
-    print("Cleaning up obsolete scripts...")
-    files_to_delete = [
-        "explore_east_road.py",
-        "heal_and_clear.py",
-        "heal_at_center.py",
-        "exit_and_heal.py",
-        "toggle_3f_switch.py",
-        "run_to_mansion_drop.py"
-    ]
-    for f in files_to_delete:
-        if os.path.exists(f):
-            try:
-                os.remove(f)
-                print(f"Deleted {f}")
-            except Exception as e:
-                print(f"Failed to delete {f}: {e}")
 
 def handle_battle():
     print("Encountered battle or text! Attempting to escape/dismiss...")
@@ -37,12 +18,19 @@ def step_to(direction, tx, ty):
     attempts = 0
     while new_pos != {'x': tx, 'y': ty} and attempts < 10:
         if new_pos == pos:
-            print("Did not move. Checking for battle or text...")
-            handle_battle()
-            time.sleep(0.5)
+            # We didn't move. In Gen 1, if we just turned, new_pos can equal pos.
+            # So we check if we face the correct direction by pressing it again.
+            print("Did not move. Retrying once to handle turning in place...")
             mgba.press_buttons([direction])
             time.sleep(0.4)
             new_pos = mgba.get_coordinates()
+            if new_pos == pos:
+                print("Still did not move. Checking for battle or text...")
+                handle_battle()
+                time.sleep(0.5)
+                mgba.press_buttons([direction])
+                time.sleep(0.4)
+                new_pos = mgba.get_coordinates()
         else:
             print(f"Unexpected position {new_pos}. Correcting...")
             pos = new_pos
@@ -62,40 +50,47 @@ def follow_path(path):
     return True
 
 def main():
-    cleanup_files()
-    
     print("Currently at:", mgba.get_coordinates())
     
-    # 1. Walk from (8, 13) to (11, 11)
+    # 1. Walk from (12, 11) to (2, 12) on 3F (State A)
     path_to_switch = [
-        ("Right", 9, 13),
-        ("Right", 10, 13),
-        ("Right", 11, 13),
-        ("Up", 11, 12),
-        ("Up", 11, 11),
+        ("Down", 12, 12),
+        ("Left", 11, 12),
+        ("Left", 10, 12),
+        ("Left", 9, 12),
+        ("Left", 8, 12),
+        ("Left", 7, 12),
+        ("Left", 6, 12),
+        ("Left", 5, 12),
+        ("Left", 4, 12),
+        ("Left", 3, 12),
+        ("Left", 2, 12),
     ]
     
-    print("Walking to (11, 11) to face 3F switch...")
+    print("Walking to west-side 3F switch...")
     if not follow_path(path_to_switch):
         return
         
-    # 2. Face Right towards the statue at (12, 11) and toggle
-    print("Standing at (11, 11). Facing Right and pressing A...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-    
-    # Check if we see the switch dialogue by pressing A
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # Select YES to toggle, dismiss dialogue
-    print("Selecting YES to secret switch...")
-    mgba.press_buttons(["A", "sleep 500", "A", "sleep 500", "B"])
+    # 2. Toggle the switch at (2, 11) to State B
+    print("At (2, 12). Facing Up and toggling switch to State B...")
+    mgba.press_buttons(["Up", "sleep 200", "A", "sleep 500", "A", "sleep 500", "B"])
     time.sleep(2.0)
     
-    # 3. Walk to the balcony drop at (24, 14) via Row 5 (State B is active now)
+    # 3. Walk to the balcony drop at (24, 14) via the State B horizontal crossing
     path_to_balcony = [
-        ("Up", 11, 10),
+        ("Right", 3, 12),
+        ("Right", 4, 12),
+        ("Right", 5, 12),
+        ("Right", 6, 12),
+        ("Right", 7, 12),
+        ("Down", 7, 13),
+        ("Right", 8, 13),
+        ("Right", 9, 13),
+        ("Up", 9, 12),
+        ("Up", 9, 11),
+        ("Up", 9, 10),
+        ("Right", 10, 10),
+        ("Right", 11, 10),
         ("Up", 11, 9),
         ("Up", 11, 8),
         ("Up", 11, 7),
@@ -125,7 +120,7 @@ def main():
         ("Down", 24, 14),
     ]
     
-    print("Walking to 3F balcony drop...")
+    print("Walking to balcony drop...")
     if not follow_path(path_to_balcony):
         return
         
