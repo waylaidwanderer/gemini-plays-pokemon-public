@@ -44,12 +44,13 @@ def follow_path(path):
     return True
 
 def run_all():
-    print("Starting bypass walk along column 1...")
+    print("Starting bypass walk along column 1 from (3, 13)...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    # We are at (2, 13). Walk Left to (1, 13), Up to (1, 12), Up to (1, 11)
+    # We are at (3, 13). Walk Left to (2, 13), Left to (1, 13), Up to (1, 12), Up to (1, 11)
     path = [
+        ("Left", 2, 13),
         ("Left", 1, 13),
         ("Up", 1, 12),
         ("Up", 1, 11),
