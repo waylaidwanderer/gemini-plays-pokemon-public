@@ -102,20 +102,14 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: On 2F (State A), walk from current (7, 10) to East Stairs (15, 11) via row 7 and column 12
+# Phase 1: On 2F (State A), walk from current (7, 10) to East Stairs (15, 11) via row 8 and column 12
 path_to_east_stairs = [
-    (6, 10),
-    (5, 10),
-    (5, 9),
-    (5, 8),
-    (5, 7), # Open in State A!
-    (6, 7),
-    (7, 7),
-    (8, 7),
-    (9, 7),
-    (10, 7),
-    (11, 7),
-    (12, 7),
+    (7, 9),
+    (7, 8),
+    (8, 8), # open in State A
+    (9, 8), # open in State A
+    (10, 8), # open in State A
+    (11, 8),
     (12, 8),
     (12, 9),
     (12, 10),
