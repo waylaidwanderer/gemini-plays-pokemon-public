@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel 1F (x=37, y=3)
+- Location: Rock Tunnel 1F (x=34, y=3)
 
 
 
@@ -895,7 +895,7 @@
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [Functional 2-way ladder: warps between 1F (27, 3) and B1F (5, 3), verified Turns 9291, 9380, 9459, 9505, 9603, 9706].
 - **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F, downward ladder on 1F, ladder sprite rendered at 1F (23, 11) and B1F (17, 11)].
 - **Ladder 4**: 1F (3, 3) <-> B1F [NW 1F <-> B1F ladder in western corridor].
-- **1F South Exit Route**: The lower western basin dead-ends at row 28 (cols 2-8 solid rock wall, verified Turn 10503). The true South Exit corridor to Route 10 South is located at cols 14-16 (rows 28-35), accessed by routing through the Eastern Bypass (cols 32-37) into Southern Avenue (cols 20-25), crossing west at row 25 into (15, 25), and descending south past (14, 28).
+- **1F South Boundary & Topology**: Row 34 is solid rock wall across the entire bottom boundary (cols 0-38, verified Turns 10503, 10542, 10550). There is no direct overworld exit on 1F without taking Ladder 4 from SW B1F up to 1F (3, 3) Western Corridor.
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
@@ -1111,10 +1111,10 @@
   - Rock pillar at cols 6-7 spans rows 14-18+.
   - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
 
-## Current Working Plan (1F South Exit)
-- At 1F Southern Avenue (20, 18).
-- Descend south down cols 20-21 to row 25 at (20, 25).
-- Walk west across row 25 to (15, 25) into the South Exit corridor.
-- Descend south down cols 14-16 past (14, 28) out to Route 10 South / Lavender Town.
+## Current Working Plan (B1F SW Exploration)
+- At 1F (34, 3).
+- Route via (34, 11) -> (27, 11) -> (27, 3) to take Ladder 2 to B1F (5, 3).
+- On B1F: Route systematically to the South-Western Highway (rows 30-33, cols 2-15).
+- Fully explore SW B1F (cols 2-5, rows 25-34) to discover Ladder 4 and ascend to 1F Western Corridor exit.
 
 <hr>
