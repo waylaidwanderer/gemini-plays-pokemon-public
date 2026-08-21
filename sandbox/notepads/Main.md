@@ -13,7 +13,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Rock Tunnel B1F (x=5, y=5)
+- Location: Rock Tunnel B1F (x=6, y=9)
 
 
 
