@@ -1104,12 +1104,17 @@
 - **1F Empirical Findings**:
   - Rock pillar at cols 6-7 spans rows 14-18+.
   - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
-  - Current Position: 1F (8, 14). Bypass route to Western Corridor: Up 2 to (8, 12), Left 6 to (2, 12).
 
-## Current Working Plan
-- At 1F (11, 17).
-- Traverse east along row 17 across cols 11-21 to enter Southern Avenue at (21, 17).
-- From (21, 17), descend south down Southern Avenue (cols 20-25) to row 27.
-- At row 27, test westward connection to (14, 27) and explore the South Exit corridor past (14, 28) towards Route 10 South.
+- **B1F Empirical Findings**:
+  - Rows 22-23 form a continuous solid rock barrier across cols 8-23 (verified Turn 10411).
+  - Southward passage to Lower South Highway (rows 30-33) requires routing through the Eastern Sector (cols 26-37, rows 10-25).
+  - Current Position: B1F (20, 20).
+
+## Current Working Plan (B1F Exploration)
+- At B1F (20, 20).
+- Ascend north along col 20 to row 11 at (20, 11) (9 Up).
+- Traverse east along row 11 to (28, 11) or (34, 11) (8-14 Right).
+- Descend south down Eastern Sector past row 23 to row 27-31 at (33, 31).
+- Traverse Lower South Highway (rows 30-33) west from col 33 all the way to SW B1F (cols 2-5) to locate Ladder 4.
 
 <hr>
