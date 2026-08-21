@@ -67,10 +67,8 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk to switch at (12, 12) on 3F in State A
+# 1. Walk from current (5, 12) to switch at (12, 12) on 3F in State A
 path_to_switch = [
-    (1, 13),
-    (5, 13),
     (5, 9),
     (9, 9),
     (9, 12),
