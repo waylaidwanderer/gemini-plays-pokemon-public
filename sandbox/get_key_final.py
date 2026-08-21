@@ -47,48 +47,51 @@ def walk_to(tx, ty):
             return False
     return True
 
-# --- THE DEFINITIVE MASTER SOLUTION SEQUENCE (RESUMED FROM 10, 9) ---
+# --- THE DEFINITIVE MASTER SOLUTION SEQUENCE (STATE B TO STATE A DROP) ---
 pos = mgba.get_coordinates()
 print("Starting definitive master run from:", pos)
 
-# 1. We are at (10, 9) on 3F West (State B)
-if pos['x'] == 10 and pos['y'] == 9:
-    # Walk Right to Column 12 to bypass the blocked Row 8 (columns 8-11 are rubble in State B)
-    if not walk_to(12, 9): exit()
-    if not walk_to(12, 5): exit()
-    if not walk_to(19, 5): exit()
-    if not walk_to(19, 16): exit()
-    
-    print("At (19, 16). Stepping Left to drop from balcony in State B...")
-    mgba.press_buttons(["Left"])
-    time.sleep(3.0)
+if pos['x'] == 19 and pos['y'] == 6:
+    # 1. Walk back to 3F West switch in State B
+    if not walk_to(12, 6): exit()
+    if not walk_to(12, 11): exit()
+    if not walk_to(2, 11): exit()
+    if not walk_to(2, 12): exit()
 
-# 2. Land on B1F East in State B. Head to B1F East switch and toggle to State A
-pos_b1f = mgba.get_coordinates()
-print("Position after drop:", pos_b1f)
-if pos_b1f['x'] == 19 and pos_b1f['y'] == 16:
-    # Walk Down 4 steps, Left 7 steps to (12, 20)
-    if not walk_to(19, 20): exit()
-    if not walk_to(12, 20): exit()
-    
-    print("At (12, 20) on B1F East. Facing Left to toggle switch...")
-    mgba.press_buttons(["Left"])
+# 2. Toggle 3F West switch back to State A
+pos = mgba.get_coordinates()
+if pos['x'] == 2 and pos['y'] == 12:
+    print("At (2, 12) on 3F West. Facing UP to toggle switch to State A...")
+    mgba.press_buttons(["Up"])
     time.sleep(0.5)
     mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
     time.sleep(1.5)
 
-# 3. Head from B1F East to B1F West in State A
-pos_b1f = mgba.get_coordinates()
-if pos_b1f['x'] == 12 and pos_b1f['y'] == 20:
-    if not walk_to(19, 20): exit()
+# 3. Walk to 3F East balcony in State A and drop
+pos = mgba.get_coordinates()
+if pos['x'] == 2 and pos['y'] == 12:
+    if not walk_to(2, 11): exit()
+    if not walk_to(12, 11): exit()
+    if not walk_to(12, 6): exit()
+    if not walk_to(19, 6): exit()
+    # In State A, the Row 7 gate is OPEN!
     if not walk_to(19, 16): exit()
-    # In State A, the Column 18 gate is open
+    
+    print("At (19, 16). Stepping Left to drop from balcony in State A...")
+    mgba.press_buttons(["Left"])
+    time.sleep(3.0)
+
+# 4. Land on B1F East in State A. Walk Left to B1F West
+pos_b1f = mgba.get_coordinates()
+print("Position after drop:", pos_b1f)
+if pos_b1f['x'] == 19 and pos_b1f['y'] == 16:
+    # In State A, the Column 18 gate and Column 10 gate are OPEN
     if not walk_to(10, 16): exit()
     if not walk_to(10, 11): exit()
     if not walk_to(2, 11): exit()
     if not walk_to(2, 12): exit()
 
-# 4. Toggle B1F West switch back to State B
+# 5. Toggle B1F West switch to State B
 pos_b1f = mgba.get_coordinates()
 if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
     print("At (2, 12) on B1F West. Facing UP to toggle switch to State B...")
@@ -97,7 +100,7 @@ if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
     mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
     time.sleep(1.5)
 
-# 5. Walk to the Secret Key room standing at (1, 5)
+# 6. Walk to the Secret Key room standing at (1, 5)
 pos_b1f = mgba.get_coordinates()
 if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
     if not walk_to(2, 11): exit()
@@ -105,7 +108,7 @@ if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
     if not walk_to(10, 5): exit()
     if not walk_to(1, 5): exit()
 
-# 6. Retrieve the Secret Key at (1, 4)
+# 7. Retrieve the Secret Key at (1, 4)
 pos_key = mgba.get_coordinates()
 if pos_key['x'] == 1 and pos_key['y'] == 5:
     print("At (1, 5). Facing UP and retrieving Secret Key...")
