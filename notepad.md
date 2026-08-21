@@ -1498,7 +1498,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 3. **Toggle 3F back to State A to open Balcony Gate:**
    - On 3F East (State B), walk via Row 6 to the Mewtwo statue switch at `(12, 11)` and toggle it back to State A.
    - Now the mansion is in State A, and the balcony gate at `(20, 17)` is OPEN.
-   - Walk to the balcony at Row 18 and drop Left to land on B1F East at `(19, 18)`.
+   - Walk to the balcony: From `(16, 11)` walk Right to `(21, 11)`, DOWN Column 21 to `(21, 15)`, Left to `(20, 15)`, DOWN Column 20 to `(20, 18)`, and step Left to `(19, 18)` to drop over the balcony, landing on B1F East at `(19, 18)`.
 4. **Retrieve Secret Key on B1F:**
    - On B1F East (State A), walk to the B1F East switch at `(12, 20)` and toggle it to State B.
    - Now the mansion is in State B, and the B1F North-Central gate at `(9, 5)` is OPEN.
