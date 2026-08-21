@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Route 10 (x=9, y=19)
+- Location: Route 10 Pokémon Center (x=3, y=7)
 
 
 
