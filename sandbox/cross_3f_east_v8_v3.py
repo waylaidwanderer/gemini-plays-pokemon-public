@@ -51,7 +51,7 @@ if pos['x'] == 2 and pos['y'] == 12:
 
 # Step 2: Walk to Column 6 Row 6 in State B
 print("2. Walking to Column 6 Row 6...")
-targets_to_6 = [(2, 13), (5, 13), (5, 12), (5, 11), (6, 11), (6, 6)]
+targets_to_6 = [(5, 13), (5, 12), (5, 11), (6, 11), (6, 6)]
 for target in targets_to_6:
     while pos['x'] != target[0] or pos['y'] != target[1]:
         dx = target[0] - pos['x']
