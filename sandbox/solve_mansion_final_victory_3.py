@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting State B Balcony Victory Drop. Current pos:", get_pos())
+print("Starting Final 3F State B Balcony Victory Drop. Current pos:", get_pos())
 
 def handle_battle():
     print("  Battle/Dialogue detected! Handling...")
@@ -60,27 +60,23 @@ def step_to_closed_loop(tx, ty):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk from (18, 7) to stairs landing (16, 11) on 2F (State B)
-# Route: (18, 7) -> (18, 11) -> (16, 11)
-waypoints_2f = [
-    (18, 11),
-    (16, 11)
-]
-
-for (wx, wy) in waypoints_2f:
-    step_to_closed_loop(wx, wy)
-
-# 2. Warp UP to 3F (step Left onto (15, 11))
-print("Stepping Left onto stairs at (15, 11) to warp UP to 3F...")
-mgba.press_buttons(["Left"])
-time.sleep(2.0)
-print("Position after warping back to 3F (should be (16, 11)):", get_pos())
-
-# 3. Walk to balcony landing on 3F (State B)
-# Route: (16, 11) -> (20, 11) -> (20, 14) -> (21, 14) -> (21, 15) -> (20, 15)
+# 1. Walk from (7, 11) on 3F (State B) to balcony landing (20, 15)
 waypoints_3f = [
-    (20, 11),
-    (20, 14),
+    (9, 11),
+    (9, 10),
+    (10, 10),
+    (10, 5),
+    (20, 5),
+    (20, 3),
+    (26, 3),
+    (26, 5),
+    (24, 5),
+    (24, 7),
+    (26, 7),
+    (26, 12),
+    (25, 12),
+    (25, 14),
+    (22, 14),
     (21, 14),
     (21, 15),
     (20, 15)
@@ -89,7 +85,7 @@ waypoints_3f = [
 for (wx, wy) in waypoints_3f:
     step_to_closed_loop(wx, wy)
 
-# 4. Drop to B1F!
+# 2. Drop to B1F!
 print("Reached balcony landing (20, 15) in State B! Dropping to B1F...")
 mgba.press_buttons([
     "Down", "sleep 400",
