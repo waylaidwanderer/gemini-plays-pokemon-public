@@ -26,8 +26,7 @@
   - Current Position: B1F (20, 20).
 
 ## Current Working Plan (B1F Exploration)
-- At B1F (20, 20).
-- Ascend north along col 20 to row 11 at (20, 11) (9 Up).
-- Traverse east along row 11 to (28, 11) or (34, 11) (8-14 Right).
-- Descend south down Eastern Sector past row 23 to row 27-31 at (33, 31).
+- At B1F (15, 14).
+- Descend to row 16 at (15, 16) (2 Down) and traverse east across rows 16-18 into the Eastern Sector at cols 21-26 (6-11 Right).
+- Descend south down Eastern Sector past row 23 to Lower South Highway at (33, 31).
 - Traverse Lower South Highway (rows 30-33) west from col 33 all the way to SW B1F (cols 2-5) to locate Ladder 4.
