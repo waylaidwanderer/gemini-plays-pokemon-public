@@ -17,5 +17,6 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At B1F (8, 11).
-- Descend south along column 8 to row 16, east to col 15, and north to Ladder 3 at (17, 11) to access 1F Central/Western sector.
+- At B1F (10, 16).
+- Descend south along the Central-Western channel (cols 8-11) towards row 27 and Lower South Highway (rows 30-33).
+- Systematically survey the western/southern boundary of B1F to locate and verify Ladder 4.
