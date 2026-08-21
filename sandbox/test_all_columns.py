@@ -12,83 +12,92 @@ def walk_step(direction):
     time.sleep(0.35)
     pos_after = mgba.get_coordinates()
     if pos_before == pos_after:
-        # Check if we are in battle
         handle_battle()
         pos_after = mgba.get_coordinates()
     return pos_after
 
-# We are currently at (6, 7) on 1F West.
-# We will test Column 6 to Column 2 (going Left) and Column 6 to Column 12 (going Right)
-# to see where we can step DOWN to Row 8!
+# We are currently at (12, 7) on 1F West in State A.
+# Let's test Column 7, 8, 9, 10, 11 to see which one allows walking DOWN to Row 8!
 
-print("Testing going Down on Column 6...")
+# Test Column 11
+print("Testing Column 11...")
+walk_step("Left") # to (11, 7)
 pos = walk_step("Down")
-print("Position after Down on Col 6:", pos)
+print("Position after Down on Col 11:", pos)
 if pos['y'] == 8:
-    print("Column 6 is open!")
-    walk_step("Up") # go back
-else:
-    print("Column 6 is BLOCKED.")
-
-# Test Column 5
-print("\nTesting Column 5...")
-walk_step("Left") # to (5, 7)
-pos = walk_step("Down")
-print("Position after Down on Col 5:", pos)
-if pos['y'] == 8:
-    print("Column 5 is open!")
+    print("Column 11 is open!")
     walk_step("Up")
 else:
-    print("Column 5 is BLOCKED.")
-walk_step("Right") # back to (6, 7)
+    print("Column 11 is BLOCKED.")
+walk_step("Right") # back to (12, 7)
 
-# Test Column 4
-print("\nTesting Column 4...")
-walk_step("Left") # to (5, 7)
-walk_step("Left") # to (4, 7)
+# Test Column 10
+print("\nTesting Column 10...")
+walk_step("Left") # to (11, 7)
+walk_step("Left") # to (10, 7)
 pos = walk_step("Down")
-print("Position after Down on Col 4:", pos)
+print("Position after Down on Col 10:", pos)
 if pos['y'] == 8:
-    print("Column 4 is open!")
+    print("Column 10 is open!")
     walk_step("Up")
 else:
-    print("Column 4 is BLOCKED.")
+    print("Column 10 is BLOCKED.")
 walk_step("Right")
-walk_step("Right") # back to (6, 7)
+walk_step("Right") # back to (12, 7)
 
-# Test Column 3
-print("\nTesting Column 3...")
-walk_step("Left") # to (5, 7)
-walk_step("Left") # to (4, 7)
-walk_step("Left") # to (3, 7)
+# Test Column 9
+print("\nTesting Column 9...")
+walk_step("Left") # to (11, 7)
+walk_step("Left") # to (10, 7)
+walk_step("Left") # to (9, 7)
 pos = walk_step("Down")
-print("Position after Down on Col 3:", pos)
+print("Position after Down on Col 9:", pos)
 if pos['y'] == 8:
-    print("Column 3 is open!")
+    print("Column 9 is open!")
     walk_step("Up")
 else:
-    print("Column 3 is BLOCKED.")
+    print("Column 9 is BLOCKED.")
 walk_step("Right")
 walk_step("Right")
-walk_step("Right") # back to (6, 7)
+walk_step("Right") # back to (12, 7)
 
-# Test Column 2
-print("\nTesting Column 2...")
-walk_step("Left") # to (5, 7)
-walk_step("Left") # to (4, 7)
-walk_step("Left") # to (3, 7)
-walk_step("Left") # to (2, 7)
+# Test Column 8
+print("\nTesting Column 8...")
+walk_step("Left") # to (11, 7)
+walk_step("Left") # to (10, 7)
+walk_step("Left") # to (9, 7)
+walk_step("Left") # to (8, 7)
 pos = walk_step("Down")
-print("Position after Down on Col 2:", pos)
+print("Position after Down on Col 8:", pos)
 if pos['y'] == 8:
-    print("Column 2 is open!")
+    print("Column 8 is open!")
     walk_step("Up")
 else:
-    print("Column 2 is BLOCKED.")
+    print("Column 8 is BLOCKED.")
 walk_step("Right")
 walk_step("Right")
 walk_step("Right")
-walk_step("Right") # back to (6, 7)
+walk_step("Right") # back to (12, 7)
+
+# Test Column 7
+print("\nTesting Column 7...")
+walk_step("Left") # to (11, 7)
+walk_step("Left") # to (10, 7)
+walk_step("Left") # to (9, 7)
+walk_step("Left") # to (8, 7)
+walk_step("Left") # to (7, 7)
+pos = walk_step("Down")
+print("Position after Down on Col 7:", pos)
+if pos['y'] == 8:
+    print("Column 7 is open!")
+    walk_step("Up")
+else:
+    print("Column 7 is BLOCKED.")
+walk_step("Right")
+walk_step("Right")
+walk_step("Right")
+walk_step("Right")
+walk_step("Right") # back to (12, 7)
 
 print("\nFinal Position:", mgba.get_coordinates())
 mgba.take_screenshot()
