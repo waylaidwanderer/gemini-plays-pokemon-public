@@ -1,110 +1,112 @@
 import mgba
 import time
 
-def handle_battle():
-    print("Coordinates did not change. Battle or obstacle detected! Attempting to flee...")
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.5)
-    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "B"])
-    time.sleep(1.0)
-
-def walk_step(direction, tx, ty):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.35)
-    pos_after = mgba.get_coordinates()
+def walk_to(tx, ty):
+    pos = mgba.get_coordinates()
+    print(f"Walking from {pos} to ({tx}, {ty})...")
     
     attempts = 0
-    while pos_after['x'] != tx or pos_after['y'] != ty:
-        if pos_after == pos_before:
-            print(f"BUMPED at {pos_before} going {direction}. Handling battle...")
-            handle_battle()
-            mgba.press_buttons([direction])
-            time.sleep(0.35)
-            pos_after = mgba.get_coordinates()
+    while pos['x'] != tx or pos['y'] != ty:
+        dx = tx - pos['x']
+        dy = ty - pos['y']
+        
+        # Decide direction
+        if dx < 0:
+            direction = "Left"
+        elif dx > 0:
+            direction = "Right"
+        elif dy < 0:
+            direction = "Up"
+        elif dy > 0:
+            direction = "Down"
         else:
-            print(f"Unexpected move: expected ({tx}, {ty}), got {pos_after}. Readjusting...")
-            return pos_after
-            
-        attempts += 1
-        if attempts > 5:
-            print(f"Failed to step to ({tx}, {ty})")
             break
             
-    return pos_after
+        pos_before = pos
+        mgba.press_buttons([direction])
+        time.sleep(0.55)  # Safe sleep to prevent false bumps
+        pos = mgba.get_coordinates()
+        
+        if pos == pos_before:
+            print(f"BUMPED at {pos} going {direction} towards ({tx}, {ty})")
+            # If we bump, it's either a battle or wall. Let's wait a bit and check
+            time.sleep(0.5)
+            pos = mgba.get_coordinates()
+            if pos == pos_before:
+                print("Coordinates still the same. Likely in battle! Exiting script so player can handle it.")
+                return False
+        attempts += 1
+        if attempts > 40:
+            print("Too many walk attempts. Exiting.")
+            return False
+    return True
 
+# --- STAGE 2: SUPER-ROBUST RETRIEVAL SEQUENCE ---
 pos = mgba.get_coordinates()
-print("Starting pos inside 3F East (State A):", pos)
+print("Current position:", pos)
 
-# Path to balcony drop on Column 19
-path_to_drop = [
-    ('Up', 21, 5), ('Up', 21, 4), ('Up', 21, 3),
-    ('Left', 20, 3), ('Left', 19, 3),
-    ('Down', 19, 4), ('Down', 19, 5), ('Down', 19, 6), ('Down', 19, 7), ('Down', 19, 8), 
-    ('Down', 19, 9), ('Down', 19, 10), ('Down', 19, 11), ('Down', 19, 12), ('Down', 19, 13), 
-    ('Down', 19, 14), ('Down', 19, 15), ('Down', 19, 16)
-]
-
-print("Walking to the 3F balcony drop...")
-for d, tx, ty in path_to_drop:
-    if pos['x'] == tx and pos['y'] == ty:
-        continue
-    pos = walk_step(d, tx, ty)
-
-# Drop off the balcony by stepping Left to (18, 16)
-print("At (19, 16). Stepping Left to drop from balcony...")
-mgba.press_buttons(["Left"])
-time.sleep(3.0)
+if pos['x'] == 21 and pos['y'] == 6:
+    # 1. Walk UP to (21, 3)
+    if not walk_to(21, 3): exit()
+    # 2. Walk Left to (19, 3)
+    if not walk_to(19, 3): exit()
+    # 3. Walk Down to (19, 16)
+    if not walk_to(19, 16): exit()
+    
+    # 4. Drop off balcony by stepping Left to (18, 16)
+    print("At (19, 16). Stepping Left to drop from balcony...")
+    mgba.press_buttons(["Left"])
+    time.sleep(3.0)
 
 pos_b1f = mgba.get_coordinates()
-print("Landed on B1F East! Position:", pos_b1f)
+print("Landed on B1F! Position:", pos_b1f)
 
-# Step 2: Navigate B1F to the B1F West switch stand tile at (2, 12)
-targets_to_switch = [(10, 16), (10, 11), (3, 11), (3, 12), (2, 12)]
-for tx, ty in targets_to_switch:
-    while pos_b1f['x'] != tx or pos_b1f['y'] != ty:
-        dx = tx - pos_b1f['x']
-        dy = ty - pos_b1f['y']
-        if dx < 0:
-            pos_b1f = walk_step("Left", pos_b1f['x'] - 1, pos_b1f['y'])
-        elif dx > 0:
-            pos_b1f = walk_step("Right", pos_b1f['x'] + 1, pos_b1f['y'])
-        elif dy < 0:
-            pos_b1f = walk_step("Up", pos_b1f['x'], pos_b1f['y'] - 1)
-        elif dy > 0:
-            pos_b1f = walk_step("Down", pos_b1f['x'], pos_b1f['y'] + 1)
+# Step 2: Navigate B1F to B1F West switch stand tile at (2, 12)
+if pos_b1f['x'] == 19 and pos_b1f['y'] == 16:
+    # Walk to (10, 16)
+    if not walk_to(10, 16): exit()
+    # Walk UP Column 10 to Row 11 (10, 11)
+    if not walk_to(10, 11): exit()
+    # Walk Left along Row 11 to Column 3 (3, 11)
+    if not walk_to(3, 11): exit()
+    # Walk Down to (3, 12)
+    if not walk_to(3, 12): exit()
+    # Walk Left to Column 2 (2, 12)
+    if not walk_to(2, 12): exit()
 
 # Step 3: Toggle B1F switch to State B
-print("At (2, 12) on B1F West. Facing UP to toggle switch...")
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-
-print("Toggling Mewtwo statue switch to State B...")
-mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
-time.sleep(1.5)
+pos_switch = mgba.get_coordinates()
+if pos_switch['x'] == 2 and pos_switch['y'] == 12:
+    print("At (2, 12) on B1F West. Facing UP to toggle switch...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    print("Toggling Mewtwo statue switch to State B...")
+    mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
+    time.sleep(1.5)
 
 # Step 4: Walk to the Secret Key room standing at (1, 5)
 pos_b1f = mgba.get_coordinates()
-targets_to_key = [(3, 12), (3, 11), (10, 11), (10, 5), (1, 5)]
-for tx, ty in targets_to_key:
-    while pos_b1f['x'] != tx or pos_b1f['y'] != ty:
-        dx = tx - pos_b1f['x']
-        dy = ty - pos_b1f['y']
-        if dx < 0:
-            pos_b1f = walk_step("Left", pos_b1f['x'] - 1, pos_b1f['y'])
-        elif dx > 0:
-            pos_b1f = walk_step("Right", pos_b1f['x'] + 1, pos_b1f['y'])
-        elif dy < 0:
-            pos_b1f = walk_step("Up", pos_b1f['x'], pos_b1f['y'] - 1)
-        elif dy > 0:
-            pos_b1f = walk_step("Down", pos_b1f['x'], pos_b1f['y'] + 1)
+if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
+    # Walk to (3, 12)
+    if not walk_to(3, 12): exit()
+    # Walk to (3, 11)
+    if not walk_to(3, 11): exit()
+    # Walk to (10, 11)
+    if not walk_to(10, 11): exit()
+    # Walk to (10, 5)
+    if not walk_to(10, 5): exit()
+    # Walk to (1, 5)
+    if not walk_to(1, 5): exit()
 
 # Step 5: Retrieve the Secret Key at (1, 4)
-print("At (1, 5). Facing UP and retrieving Secret Key...")
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 200"])
-time.sleep(1.0)
+pos_key = mgba.get_coordinates()
+if pos_key['x'] == 1 and pos_key['y'] == 5:
+    print("At (1, 5). Facing UP and retrieving Secret Key...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 200"])
+    time.sleep(1.0)
 
 print("Final position at end of script:", mgba.get_coordinates())
 mgba.take_screenshot()
