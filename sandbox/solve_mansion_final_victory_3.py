@@ -47,19 +47,21 @@ def handle_battle(expected_pos):
 def step_dir(d):
     before = get_pos()
     print(f"  Stepping {d} from {before}...")
-    mgba.press_buttons([d])
     
-    # Wait up to 0.7 seconds for position to change (polling)
-    after = before
-    for _ in range(7):
-        time.sleep(0.1)
-        after = get_pos()
-        if after['x'] != before['x'] or after['y'] != before['y']:
-            break
-            
-    if before['x'] == after['x'] and before['y'] == after['y']:
-        handle_battle(before)
-        after = get_pos()
+    # Try up to 3 times to step in direction d to prevent dropped inputs from triggering handle_battle
+    for attempt in range(3):
+        mgba.press_buttons([d])
+        # Wait up to 0.5 seconds for position to change (polling)
+        for _ in range(5):
+            time.sleep(0.1)
+            after = get_pos()
+            if after['x'] != before['x'] or after['y'] != before['y']:
+                return True, after
+        print(f"  Attempt {attempt + 1} to step {d} failed. Retrying...")
+        
+    # If we still haven't moved after 3 attempts, handle potential battle/dialogue
+    handle_battle(before)
+    after = get_pos()
     return after['x'] != before['x'] or after['y'] != before['y'], after
 
 def walk_path(path):
@@ -100,13 +102,8 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: Walk from current (6, 10) on 2F (State A) to (1, 11) via column 5 and row 13
+# Phase 1: Walk from current (4, 13) on 2F (State A) to (1, 11) via row 13
 path_to_switch = [
-    (5, 10),
-    (5, 11),
-    (5, 12),
-    (5, 13),
-    (4, 13),
     (3, 13),
     (2, 13),
     (1, 13),
@@ -139,7 +136,7 @@ if walk_path(path_to_switch):
         (5, 10),
         (5, 9),
         (5, 8),
-        (5, 7), # Test if (5, 7) is open in State B!
+        (5, 7), # Test if (5, 7) is open in State B
         (6, 7),
         (7, 7),
         (8, 7),
