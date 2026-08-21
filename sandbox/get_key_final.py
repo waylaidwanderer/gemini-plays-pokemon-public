@@ -51,9 +51,13 @@ def walk_to(tx, ty):
 pos = mgba.get_coordinates()
 print("Starting definitive master run:", pos)
 
-if pos['x'] == 19 and pos['y'] == 6:
-    # 1. Walk back to 3F West switch in State A
-    if not walk_to(12, 6): exit()
+# 1. Clear textbox
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+pos = mgba.get_coordinates()
+
+# Walk to 3F West switch in State A
+if pos['x'] == 12 and pos['y'] == 10:
     if not walk_to(12, 11): exit()
     if not walk_to(3, 11): exit()
     if not walk_to(3, 12): exit()
