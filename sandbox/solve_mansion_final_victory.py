@@ -13,7 +13,6 @@ def handle_battle():
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
-    # Run option: Down, Right, A
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
     for _ in range(5):
@@ -68,37 +67,42 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Path from current (5, 11) to balcony landing (20, 15) on 3F in State B
-path = [
-    (4, 11),
-    (4, 9),
-    (9, 9),
-    (9, 10),
-    (11, 10),
-    (11, 5),
-    (20, 5),
-    (20, 3),
-    (21, 3),
-    (25, 3),
-    (25, 7),
-    (26, 7),
-    (26, 12),
-    (25, 12),
-    (25, 14),
-    (21, 14),
-    (21, 15),
-    (20, 15)
+# 1. Walk to stairs on 2F (State A) from current (12, 10)
+path_2f = [
+    (12, 7),
+    (8, 7),
+    (8, 10),
+    (7, 10)
 ]
 
-print("Walking to balcony landing...")
-if walk_path(path):
-    print("Reached balcony landing successfully! Dropping to B1F...")
+print("Walking to West stairs on 2F...")
+if walk_path(path_2f):
+    print("Reached stairs at (7, 10)! Warping up to 3F...")
+    time.sleep(2.0) # wait for warp
+    print("Arrived on 3F. Position:", get_pos())
     mgba.take_screenshot()
-    # Step Down to (20, 18)
-    mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
-    time.sleep(3.0)
-    print("Dropped! B1F Position:", get_pos())
-    mgba.take_screenshot()
+    
+    # 2. Walk from (7, 11) to balcony landing (20, 15) on 3F in State A
+    path_3f = [
+        (16, 11),
+        (18, 11),
+        (18, 14),
+        (21, 14),
+        (21, 15),
+        (20, 15)
+    ]
+    print("Walking to balcony landing on 3F (State A)...")
+    if walk_path(path_3f):
+        print("Reached balcony landing successfully! Dropping to B1F...")
+        mgba.take_screenshot()
+        # Step Down to (20, 18) and Left to drop
+        mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
+        time.sleep(3.0)
+        print("Dropped! B1F Position:", get_pos())
+        mgba.take_screenshot()
+    else:
+        print("Failed to reach balcony landing on 3F.")
+        mgba.take_screenshot()
 else:
-    print("Failed to reach balcony landing.")
+    print("Failed to reach West stairs on 2F.")
     mgba.take_screenshot()
