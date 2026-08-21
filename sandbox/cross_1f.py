@@ -61,13 +61,15 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# We are at (12, 9) on 1F West in State B.
-# Walk to 1F East stairs:
-# 1. Up to (12, 6)
-# 2. Right to (15, 6)
-# 3. Down to (15, 8)
-print("Crossing 1F West to East...")
-targets = [(12, 6), (15, 6), (15, 8)]
+# We are at (16, 6) on 1F East in State B.
+# Walk back to Column 12:
+# 1. Left to (12, 6)
+# 2. Down to (12, 11)
+# 3. Right to (15, 11) (Test if Column 13 is open on Row 11)
+# 4. Up to (15, 8)
+# 5. Up/Right to stairs at (16, 7) or (17, 7)
+print("Testing Row 11 crossing on 1F...")
+targets = [(12, 6), (12, 11), (15, 11), (15, 8)]
 navigate_to_targets(targets)
 
 time.sleep(1.0)
