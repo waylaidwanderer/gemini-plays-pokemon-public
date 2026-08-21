@@ -67,11 +67,10 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. On 2F (State A), walk from current (12, 10) to East stairs at (15, 11)
+# 1. On 2F (State A), walk from current (12, 7) to East stairs at (15, 11) via row 13
 path_2f = [
-    (12, 7),
-    (16, 7),
-    (16, 11),
+    (12, 13),
+    (15, 13),
     (15, 11)
 ]
 
