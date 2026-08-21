@@ -61,9 +61,9 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# We are currently at (11, 7) on 1F West in State A.
-# Step 1: Walk to 1F West stairs via Column 12
-print("Walking to 1F West stairs via Column 12...")
+# We are at (17, 7) on 1F East in State A.
+# Step 1: Walk to 1F West stairs to warp to 2F West
+print("Walking to 1F West stairs...")
 targets_1f = [(12, 7), (12, 10), (7, 10)]
 navigate_to_targets(targets_1f)
 
