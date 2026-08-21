@@ -1,40 +1,47 @@
 import mgba
 import time
 
-# We are at (18, 4) on 1F East.
-print("Current position:", mgba.get_coordinates())
-
-# Test 1: Press A facing UP
-print("Pressing A facing UP...")
-mgba.press_buttons(["A"])
-time.sleep(0.5)
-pos = mgba.get_coordinates()
-print("Position after A:", pos)
-
-if pos['x'] != 18 or pos['y'] != 4:
-    print("WARPED via A!")
-else:
-    # Test 2: Walk Right to (19, 4) and try Up to (19, 3)
-    print("Walking to (19, 4)...")
-    mgba.press_buttons(["Right"])
+def walk_step(direction):
+    pos_before = mgba.get_coordinates()
+    mgba.press_buttons([direction])
     time.sleep(0.3)
-    pos = mgba.get_coordinates()
-    print("At:", pos)
+    pos_after = mgba.get_coordinates()
     
-    if pos == {'x': 19, 'y': 4}:
-        print("Stepping Up to (19, 3)...")
-        mgba.press_buttons(["Up"])
+    # Check if we moved
+    if pos_before == pos_after:
+        print(f"Blocked trying to move {direction} from {pos_before}. Handling battle/text...")
+        # Press B to dismiss text or try to escape battle
+        mgba.press_buttons(["B", "sleep 200", "Down", "Right", "A", "sleep 1000", "B"])
+        time.sleep(1.0)
+        # Re-try the move
+        mgba.press_buttons([direction])
         time.sleep(0.3)
-        pos = mgba.get_coordinates()
-        print("Position after Up on (19, 3):", pos)
-        if pos['x'] != 19 or pos['y'] != 4:
-            print("WARPED via (19, 3)!")
-            
-    # If still not warped, walk back to (18, 4)
-    pos = mgba.get_coordinates()
-    if pos == {'x': 19, 'y': 4}:
-        mgba.press_buttons(["Left"])
-        time.sleep(0.3)
+        pos_after = mgba.get_coordinates()
+        print(f"After retry, position is {pos_after}")
+    return pos_after
 
-print("Final position:", mgba.get_coordinates())
+# We are at (22, 3) on 1F East.
+# Let's walk back to 1F West and warp down to B1F West:
+# Left 2 to (20, 3)
+# Down 4 to (20, 7)
+# Left 8 to (12, 7)
+# Down 4 to (12, 11)
+# Left 7 to (5, 11)
+# Up 1 to (5, 10) (stairs to B1F)
+
+path = ["Left"]*2 + ["Down"]*4 + ["Left"]*8 + ["Down"]*4 + ["Left"]*7 + ["Up"]
+
+print("Walking from 1F East back to 1F West to warp down to B1F...")
+for idx, direction in enumerate(path):
+    pos_before = mgba.get_coordinates()
+    pos = walk_step(direction)
+    print(f"Step {idx} ({direction}): {pos_before} -> {pos}")
+    # If we warped (large coordinate change)
+    if pos['x'] != pos_before['x'] and abs(pos['x'] - pos_before['x']) > 2:
+        print("WARPED!")
+        break
+
+time.sleep(1.0)
+pos = mgba.get_coordinates()
+print("Final position after script:", pos)
 mgba.take_screenshot()
