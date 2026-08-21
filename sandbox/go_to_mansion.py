@@ -53,19 +53,14 @@ print("Dismissing locked door textbox...")
 mgba.press_buttons(["B"])
 time.sleep(1.0)
 
-# Walk around Cinnabar Island via the West side:
-# 1. Down to (18, 12)
-# 2. Left to (2, 12)
-# 3. Up to (2, 3)
-# 4. Right to (6, 3)
-# 5. Up to (6, 2) (inside Mansion warp!)
-print("Walking to Pokemon Mansion entrance via West road...")
+# Walk around Cinnabar Island via Column 11:
+print("Walking to Pokemon Mansion entrance via Column 11...")
 targets = [
-    (18, 12),
-    (2, 12),
-    (2, 3),
-    (6, 3),
-    (6, 2) # Step UP to warp inside!
+    (18, 12), # Step Down to Row 12
+    (11, 12), # Step Left to Column 11
+    (11, 3),  # Walk Up Column 11 to Row 3
+    (6, 3),   # Walk Left to Column 6
+    (6, 2)    # Step UP onto Mansion entrance warp!
 ]
 navigate_to_targets(targets)
 
