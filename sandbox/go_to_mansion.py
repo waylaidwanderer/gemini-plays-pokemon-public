@@ -1,21 +1,36 @@
 import mgba
 import time
 
-# We are at (14, 12).
-# Let's walk Right to Column 18, then UP to Row 5, then Left to Column 6, then UP to Mansion door.
-path = ["Right"]*4 + ["Up"]*7 + ["Left"]*12 + ["Up"]*2
+print("Walking to Pokemon Mansion entrance...")
+targets = [
+    (6, 12),  # Walk Left to Column 6
+    (6, 3)    # Walk Up to the entrance warp at (6, 3)
+]
 
-for idx, direction in enumerate(path):
-    pos_before = mgba.get_coordinates()
-    print(f"Step {idx}: trying to move {direction} from {pos_before}")
-    mgba.press_buttons([direction])
-    time.sleep(0.3)
-    pos_after = mgba.get_coordinates()
-    if pos_before == pos_after:
-        print(f"Blocked at {pos_before} trying to move {direction}")
-        break
-    else:
-        print(f"Moved to {pos_after}")
+for target in targets:
+    while True:
+        current_pos = mgba.get_coordinates()
+        print(f"Current Position: {current_pos}, Target: {target}")
+        if current_pos['x'] == target[0] and current_pos['y'] == target[1]:
+            break
+            
+        dx = target[0] - current_pos['x']
+        dy = target[1] - current_pos['y']
+        
+        if dx < 0:
+            direction = "Left"
+        elif dx > 0:
+            direction = "Right"
+        elif dy < 0:
+            direction = "Up"
+        elif dy > 0:
+            direction = "Down"
+            
+        print(f"Stepping {direction}...")
+        mgba.press_buttons([direction])
+        time.sleep(0.3)
 
-print("Final position:", mgba.get_coordinates())
+time.sleep(1.0)
+pos = mgba.get_coordinates()
+print("Position after warping into Mansion:", pos)
 mgba.take_screenshot()
