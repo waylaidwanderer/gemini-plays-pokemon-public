@@ -2044,7 +2044,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Scratchpad/Switch_Matrix</code></h1>
 
-# Pokémon Mansion - Verified Switch Matrix & Master Route
+# Pok�mon Mansion - Verified Switch Matrix & Master Route
 
 ## Overview
 - Global Mewtwo statue switches toggle electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
@@ -2107,7 +2107,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Locations/PokemonMansionB1F</code></h1>
 
-# Pokémon Mansion B1F - Map & Navigation Log
+# Pok�mon Mansion B1F - Map & Navigation Log
 
 ## True Landing Coordinates
 - **Balcony Drop Landing:** Landing coordinate is `(19, 16)` in B1F East.
