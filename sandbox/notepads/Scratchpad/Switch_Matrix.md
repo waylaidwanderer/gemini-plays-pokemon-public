@@ -1,58 +1,52 @@
-# Pokémon Mansion - Switch Matrix & Shutter Gate Log
+# Pokémon Mansion - Verified Switch Matrix & Master Route
 
 ## Overview
-- Mewtwo statues act as secret switches toggling global electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
-- Changing floors preserves the active switch state.
+- Global Mewtwo statue switches toggle electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
+- Floor transitions preserve the active state.
+- B1F West SOUTH is permanently separated from B1F West NORTH by a solid brick wall on Row 9.
+- 1F East is blocked from going up to 2F East in State A because the gate at `(15, 8)` is closed.
+
+---
 
 ## Shutter Gate Configurations
 
 ### State A (Default)
-- **3F shutter gates at (18, 8) and (19, 8):** OPEN.
-- **B1F South-East gate at (10, 11):** OPEN (allows crossing between B1F East and West on Row 11).
-- **3F gate at (20, 5) and (21, 5):** CLOSED.
-- **3F East gate at (15, 11) (stairs):** CLOSED.
+- **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
+- **3F East gate at `(15, 11)` (stairs):** CLOSED.
+- **1F East gate at `(15, 8)`:** CLOSED.
+- **B1F North-Central gate at `(9, 5)`:** CLOSED.
 
 ### State B (Toggled)
-- **3F shutter gates at (18, 8) and (19, 8):** CLOSED.
-- **B1F South-East gate at (10, 11):** CLOSED.
-- **3F gate at (20, 5) and (21, 5):** OPEN.
-- **3F East gate at (15, 11) (stairs):** OPEN.
-- **B1F North-Central gate at (9, 5):** OPEN.
-- **B1F West gates on Columns 3 & 4 (North-South):** OPEN (bypasses Row 9 solid brick wall).
-- **Secret Key Room at (1, 4):** OPEN.
+- **B1F South-East gate at `(10, 11)`:** CLOSED.
+- **3F East gate at `(15, 11)` (stairs):** OPEN.
+- **B1F North-Central gate at `(9, 5)`:** OPEN (allows horizontal crossing from B1F East NORTH to B1F West NORTH!).
 
 ---
 
-## The Two Master Victory Routes to B1F & Secret Key
-
-### Route 1: The State A Pit Drop Route (Recommended)
-1. Ensure switch is in **State A** (Default).
-2. Walk to the East side of 3F:
-   - Path: West Stairs landing at `(7, 11)` -> walk Right to `(12, 11)` -> UP Column 12 to `(12, 6)` -> Right Row 6 to `(19, 6)` (bypasses solid wall Column 14!) -> Down Column 19 to `(19, 11)` -> Right Row 11 to `(21, 11)`.
-3. From `(21, 11)`, walk LEFT Row 11 to Column 11:
-   - Path: `(21, 11) -> (11, 11)` (Row 11 is completely open in State A!).
-4. From `(11, 11)`, walk UP Column 11 to Row 3:
-   - Path: `(11, 11) -> (11, 3)` (Column 11 is completely open vertically!).
-5. Walk Right along Row 3 to Column 26:
-   - Path: `(11, 3) -> (26, 3)` (Row 3 is completely open, bypassing all Row 4-7 rubble!).
-6. Walk Down Column 26 to Row 6:
-   - Path: `(26, 3) -> (26, 6)`.
-7. Walk Left 1 step onto the pit at `(25, 6)` to drop through to 1F inside the fenced area!
-8. On 1F, walk UP onto the stairs at `(7, 10)` to warp DOWN to B1F East SOUTH landing at `(7, 10)` or `(7, 11)`.
-9. On B1F East SOUTH, walk Left to B1F West SOUTH via Row 11 (open in State A).
-10. Walk to the B1F West Mewtwo switch at `(2, 11)` (accessed from `(2, 12)`) and toggle to **State B**!
-11. Walk UP Column 4 through the now-open gates to B1F West NORTH, walk Left to `(1, 5)` facing UP, and retrieve the **Secret Key** at `(1, 4)`!
-
-### Route 2: The State B Pit Drop Route (Alternative)
-1. Ensure switch is in **State B** (Toggled).
-2. Walk on 3F from `(2, 12)` to `(11, 10)` -> UP Column 11 to Row 6 -> Right on Row 6 to `(21, 6)`.
-3. Walk UP Column 21 through open gate `(21, 5)` to Row 3:
-   - Path: `(21, 6) -> (21, 3)` (gate is open in State B!).
-4. Walk Right Row 3 to Column 26:
-   - Path: `(21, 3) -> (26, 3)`.
-5. Walk Down Column 26 to Row 6:
-   - Path: `(26, 3) -> (26, 6)`.
-6. Step Left onto pit at `(25, 6)` to drop to 1F inside the fenced area!
-7. On 1F, walk UP onto the stairs at `(7, 10)` to warp DOWN to B1F East SOUTH.
-8. On B1F East SOUTH (State B), walk UP Column 19 to Row 5, and walk Left through the open gate at `(9, 5)` to B1F West NORTH.
-9. Retrieve the **Secret Key** at `(1, 4)`!
+## The Ultimate Verified Master Route to B1F East & Secret Key
+1. **Ensure switch is in State A (Default).** (Current State).
+2. **From 1F East, walk back to 1F West:**
+   - Walk Left along Row 7 to `(12, 7)`.
+   - Walk Down Column 12 to `(12, 11)`.
+   - Walk Left along Row 11 to `(7, 11)`.
+   - Walk Up 1 step onto the stairs at `(7, 10)` to warp to 2F West!
+3. **On 2F West (State A), warp UP to 3F West:**
+   - From `(7, 11)`, walk Up onto the stairs at `(7, 10)` to warp UP to 3F West.
+4. **On 3F West (State A), cross to 3F East:**
+   - Path: West Stairs landing `(7, 11)` -> walk Right to `(12, 11)` -> UP Column 12 to `(12, 6)` -> Right Row 6 to `(19, 6)` -> Down Column 19 to `(19, 11)` -> Left along Row 11 to the East Stairs `(15, 11)`.
+5. **On 3F East (State A), warp DOWN to 2F East:**
+   - Step onto the East Stairs at `(15, 11)` to warp DOWN to 2F East landing at `(16, 11)`.
+6. **On 2F East (State A), toggle switch to State B:**
+   - Walk Left to `(12, 11)`. Face Right (towards the Mewtwo statue switch at `(13, 11)`) and press `A` to toggle the switch to **State B**!
+7. **Warp UP to 3F East (State B):**
+   - Walk to the East Stairs `(15, 11)` on 2F East and warp UP to 3F East landing at `(16, 11)`.
+8. **On 3F East (State B), drop over the balcony:**
+   - Walk to balcony landing `(20, 15)`: Path `(16, 11) -> (21, 11) -> (21, 15) -> (20, 15)`.
+   - Walk Down to `(20, 18)` and step Left to `(19, 18)` to drop to B1F East!
+9. **On B1F East (State B), retrieve the Secret Key:**
+   - Land on B1F East at `(19, 16)` in State B.
+   - Walk to Column 10 Row 5: Path `(19, 16) -> (10, 16) -> (10, 5)`.
+   - Walk Left along Row 5 to Column 1 through the now-open gate at `(9, 5)`: Path `(10, 5) -> (1, 5)`.
+   - Face UP at `(1, 5)` and press `A` to retrieve the **Secret Key** at `(1, 4)`!
+10. **Exit B1F West:**
+    - Walk to B1F West stairs at `(5, 10)` and step UP to warp to 1F West, then leave the mansion!
