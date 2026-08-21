@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting State A Victory Drop. Current pos:", get_pos())
+print("Starting State A Final Victory Run. Current pos:", get_pos())
 
 def handle_battle():
     print("  Battle/Dialogue detected! Handling...")
@@ -60,9 +60,9 @@ def step_to_closed_loop(tx, ty):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk on 2F (State A) from (20, 7) to stairs landing at (16, 11)
+# 1. Walk on 2F (State A) from (15, 7) to stairs landing at (16, 11)
 waypoints_2f = [
-    (20, 11),
+    (16, 7),
     (16, 11)
 ]
 
@@ -76,7 +76,6 @@ time.sleep(2.0)
 print("Position after warping back to 3F (should be (16, 11)):", get_pos())
 
 # 3. Walk to balcony landing on 3F (State A)
-# Route: (16, 11) -> (18, 11) -> (18, 14) -> (20, 14) -> (21, 14) -> (21, 15) -> (20, 15)
 waypoints_3f = [
     (18, 11),
     (18, 14),
