@@ -47,13 +47,12 @@ def walk_to(tx, ty):
             return False
     return True
 
-# --- THE DEFINITIVE MASTER SOLUTION SEQUENCE (CONTINUED FROM 11, 10) ---
+# --- THE DEFINITIVE MASTER SOLUTION SEQUENCE (RESUMED FROM 10, 9) ---
 pos = mgba.get_coordinates()
 print("Starting definitive master run from:", pos)
 
-# 1. We are at (11, 10) on 3F West (State B)
-if pos['x'] == 11 and pos['y'] == 10:
-    if not walk_to(10, 10): exit()
+# 1. We are at (10, 9) on 3F West (State B)
+if pos['x'] == 10 and pos['y'] == 9:
     if not walk_to(10, 5): exit()
     if not walk_to(19, 5): exit()
     if not walk_to(19, 16): exit()
