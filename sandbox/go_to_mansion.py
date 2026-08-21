@@ -1,9 +1,9 @@
 import mgba
 import time
 
-# We are at (9, 10).
-# Let's walk around the buildings to reach the Mansion entrance at (6, 3).
-path = ["Left", "Down", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Up", "Up", "Left", "Left", "Left", "Left", "Up", "Up"]
+# We are at (14, 12).
+# Let's walk Right to Column 18, then UP to Row 5, then Left to Column 6, then UP to Mansion door.
+path = ["Right"]*4 + ["Up"]*7 + ["Left"]*12 + ["Up"]*2
 
 for idx, direction in enumerate(path):
     pos_before = mgba.get_coordinates()
