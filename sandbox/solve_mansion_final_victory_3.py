@@ -94,92 +94,73 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: Walk to Column 1, Row 13 on 2F (State B is active)
-# We are currently at (4, 15)
-path_to_col1 = [
-    (4, 14),
-    (4, 13),
-    (3, 13),
-    (2, 13),
-    (1, 13)
+# Phase 1: Walk from current (1, 10) on 2F (State B) UP Column 1 to Row 8, and Right to East Stairs
+path_to_east_stairs = [
+    (1, 9),
+    (1, 8),
+    (2, 8),
+    (3, 8),
+    (4, 8),
+    (5, 8),
+    (6, 8),
+    (7, 8),
+    (8, 8),
+    (9, 8),
+    (10, 8), # open gate in State B
+    (11, 8),
+    (12, 8),
+    (13, 8),
+    (14, 8),
+    (15, 8),
+    (15, 9),
+    (15, 10),
+    (15, 11) # East Stairs
 ]
 
-print("--- PHASE 1: WALKING TO COLUMN 1 ON 2F ---")
-if walk_path(path_to_col1):
-    print("Reached (1, 13)!")
+print("--- PHASE 1: WALKING TO EAST STAIRS ON 2F ---")
+if walk_path(path_to_east_stairs):
+    print("Reached East Stairs on 2F! Warping to 3F...")
+    time.sleep(2.0) # Wait for warp
+    pos_3f = get_pos()
+    print("Arrived on 3F (East side). Position:", pos_3f)
     mgba.take_screenshot()
     
-    # Phase 2: Walk UP Column 1 to Row 8, and Right along Row 8 to East Stairs at (15, 11)
-    path_to_east_stairs = [
-        (1, 12),
-        (1, 11),
-        (1, 10),
-        (1, 9),
-        (1, 8),
-        (2, 8),
-        (3, 8),
-        (4, 8),
-        (5, 8),
-        (6, 8),
-        (7, 8),
-        (8, 8),
-        (9, 8),
-        (10, 8), # open gate in State B
-        (11, 8),
-        (12, 8),
-        (13, 8),
-        (14, 8),
-        (15, 8),
-        (15, 9),
-        (15, 10),
-        (15, 11) # East Stairs
+    # Phase 2: Walk to Balcony landing (20, 15) on 3F (State B)
+    path_to_balcony = [
+        (17, 11),
+        (18, 11),
+        (19, 11),
+        (20, 11),
+        (21, 11),
+        (21, 12),
+        (21, 13),
+        (21, 14),
+        (21, 15),
+        (20, 15)
     ]
-    print("--- PHASE 2: WALKING TO EAST STAIRS ON 2F ---")
-    if walk_path(path_to_east_stairs):
-        print("Reached East Stairs on 2F! Warping to 3F...")
-        time.sleep(2.0) # Wait for warp
-        pos_3f = get_pos()
-        print("Arrived on 3F (East side). Position:", pos_3f)
+    print("--- PHASE 2: WALKING TO BALCONY ON 3F (STATE B) ---")
+    if walk_path(path_to_balcony):
+        print("Reached Balcony landing (20, 15) on 3F!")
         mgba.take_screenshot()
         
-        # Phase 3: Walk to Balcony landing (20, 15) on 3F (State B)
-        path_to_balcony = [
-            (17, 11),
-            (18, 11),
-            (19, 11),
-            (20, 11),
-            (21, 11),
-            (21, 12),
-            (21, 13),
-            (21, 14),
-            (21, 15),
-            (20, 15)
+        # Phase 3: Step Down through open balcony shutter and drop Left
+        path_to_edge = [
+            (20, 16),
+            (20, 17),
+            (20, 18)
         ]
-        print("--- PHASE 3: WALKING TO BALCONY ON 3F (STATE B) ---")
-        if walk_path(path_to_balcony):
-            print("Reached Balcony landing (20, 15) on 3F!")
+        print("--- PHASE 3: STEPPING TO DROP EDGE AND DROPPING ---")
+        if walk_path(path_to_edge):
+            print("At drop edge (20, 18). Dropping Left to B1F!")
             mgba.take_screenshot()
-            
-            # Phase 4: Step Down through open balcony shutter and drop Left
-            path_to_edge = [
-                (20, 16),
-                (20, 17),
-                (20, 18)
-            ]
-            print("--- PHASE 4: STEPPING TO DROP EDGE AND DROPPING ---")
-            if walk_path(path_to_edge):
-                print("At drop edge (20, 18). Dropping Left to B1F!")
-                mgba.take_screenshot()
-                mgba.press_buttons(["Left"])
-                time.sleep(3.0) # wait for falling warp
-                print("Landed on B1F! Position:", get_pos())
-                mgba.take_screenshot()
-            else:
-                print("Failed to reach drop edge.")
+            mgba.press_buttons(["Left"])
+            time.sleep(3.0) # wait for falling warp
+            print("Landed on B1F! Position:", get_pos())
+            mgba.take_screenshot()
         else:
-            print("Failed to walk to Balcony.")
+            print("Failed to reach drop edge.")
     else:
-        print("Failed to reach East Stairs on 2F.")
+        print("Failed to walk to Balcony.")
 else:
-    print("Failed to reach Column 1.")
+    print("Failed to reach East Stairs on 2F.")
 
