@@ -67,54 +67,30 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. We are currently at (13, 12) on 2F (State A) facing UP towards Mewtwo switch at (13, 11).
-# Toggle switch to State B!
-# Since there is NO YES/NO menu in Gen 1, we just press A twice and B to clear text.
-print("Toggling Mewtwo switch at (13, 11) to State B...")
-mgba.press_buttons([
-    "A", "sleep 1000",
-    "A", "sleep 1000",
-    "B", "sleep 500",
-    "B"
-])
-time.sleep(3.0)
-print("Position after toggling switch:", get_pos())
-mgba.take_screenshot()
-
-# 2. Walk to West stairs at (7, 10) on 2F (State B)
+# 1. On 2F (State A), walk from current (7, 10) to East stairs at (15, 11)
 path_2f = [
-    (12, 12),
     (12, 10),
-    (7, 10)
+    (12, 13),
+    (15, 13),
+    (15, 11)
 ]
 
-print("Walking to West stairs on 2F...")
+print("Walking to East stairs on 2F (State A)...")
 if walk_path(path_2f):
-    print("Reached West stairs! Warping up to 3F...")
+    print("Reached East stairs! Warping up to 3F...")
     time.sleep(2.0) # wait for warp
     print("Arrived on 3F. Position:", get_pos())
     mgba.take_screenshot()
     
-    # 3. On 3F (State B), walk to balcony landing (20, 15)
+    # 2. On 3F (East side, State A), walk to balcony landing (20, 15)
     path_3f = [
-        (9, 11),
-        (9, 10),
-        (11, 10),
-        (11, 5),
-        (20, 5),
-        (20, 3),
-        (21, 3),
-        (25, 3),
-        (25, 7),
-        (26, 7),
-        (26, 12),
-        (25, 12),
-        (25, 14),
+        (18, 11),
+        (18, 14),
         (21, 14),
         (21, 15),
         (20, 15)
     ]
-    print("Walking to balcony landing on 3F (State B)...")
+    print("Walking to balcony landing on 3F (State A)...")
     if walk_path(path_3f):
         print("Reached balcony landing successfully! Dropping to B1F...")
         mgba.take_screenshot()
@@ -127,5 +103,5 @@ if walk_path(path_2f):
         print("Failed to reach balcony landing on 3F.")
         mgba.take_screenshot()
 else:
-    print("Failed to reach West stairs on 2F.")
+    print("Failed to reach East stairs on 2F.")
     mgba.take_screenshot()
