@@ -21,19 +21,15 @@ def walk_step(direction):
     return pos_after
 
 # Current position: (7, 11) on 3F West.
-# Path to (2, 10):
-# Left to (6, 11)
-# Left to (5, 11)
-# Down to (5, 12)
-# Left to (4, 12)
-# Left to (3, 12)
-# Left to (2, 12)
-# Up to (2, 11)
-# Up to (2, 10)
+# Path to (2, 10) via Row 13:
+# Down to (7, 12)
+# Down to (7, 13)
+# Left 5 to (2, 13)
+# Up 3 to (2, 10)
 
-path = ["Left", "Left", "Down", "Left", "Left", "Left", "Up", "Up"]
+path = ["Down", "Down", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up"]
 
-print("Walking to switch on 3F West...")
+print("Walking to switch on 3F West via Row 13...")
 for direction in path:
     pos = walk_step(direction)
     print("At:", pos)
