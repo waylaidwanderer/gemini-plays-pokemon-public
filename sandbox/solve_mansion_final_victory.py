@@ -68,10 +68,9 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Path from current (1, 11) to balcony landing (20, 15)
+# Path from current (5, 11) to balcony landing (20, 15) on 3F in State B
 path = [
-    (1, 13),
-    (4, 13),
+    (4, 11),
     (4, 9),
     (9, 9),
     (9, 10),
@@ -95,6 +94,7 @@ print("Walking to balcony landing...")
 if walk_path(path):
     print("Reached balcony landing successfully! Dropping to B1F...")
     mgba.take_screenshot()
+    # Step Down to (20, 18)
     mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
     time.sleep(3.0)
     print("Dropped! B1F Position:", get_pos())
