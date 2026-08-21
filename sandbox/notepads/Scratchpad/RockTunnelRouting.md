@@ -20,8 +20,8 @@
   - Rock pillar at cols 6-7 spans rows 14-18+.
   - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
 
-## Current Working Plan (1F South Exploration)
-- At 1F (3, 25).
-- Probe south down column 3 to row 27 at (3, 27).
-- Systematically test collision bounds along row 27 and row 28 across cols 2-8 to verify all potential southward passages.
-- Record all empirical test results directly before deciding on routing.
+## Current Working Plan (1F South Exit)
+- At 1F Southern Avenue (20, 18).
+- Descend south down cols 20-21 to row 25 at (20, 25).
+- Walk west across row 25 to (15, 25) into the South Exit corridor.
+- Descend south down cols 14-16 past (14, 28) out to Route 10 South / Lavender Town.
