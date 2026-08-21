@@ -17,7 +17,7 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At 1F (27, 11).
+- At B1F (7, 6).
 - End-to-End Escape Plan:
   1. Ascend col 27 to Ladder 2 at (27, 3) (8 steps Up) -> warps to B1F (5, 3).
   2. Traverse East along B1F North Highway (rows 2-5) from col 5 to col 37.
