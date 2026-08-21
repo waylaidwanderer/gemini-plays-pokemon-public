@@ -61,15 +61,14 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# We are at (16, 6) on 1F East in State B.
-# Walk back to Column 12:
-# 1. Left to (12, 6)
-# 2. Down to (12, 11)
-# 3. Right to (15, 11) (Test if Column 13 is open on Row 11)
-# 4. Up to (15, 8)
-# 5. Up/Right to stairs at (16, 7) or (17, 7)
-print("Testing Row 11 crossing on 1F...")
-targets = [(12, 6), (12, 11), (15, 11), (15, 8)]
+# Dismiss the "Got away safely!" textbox
+print("Dismissing 'Got away safely!'...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+
+# Walk to the 1F East stairs
+print("Crossing 1F and climbing stairs...")
+targets = [(12, 6), (15, 6), (15, 8), (16, 8), (16, 7)]
 navigate_to_targets(targets)
 
 time.sleep(1.0)
