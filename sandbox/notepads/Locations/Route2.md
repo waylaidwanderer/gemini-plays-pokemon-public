@@ -1,3 +1,4 @@
-# Locations/Route2
-
-Placeholder to prevent data loss.
+- **Cuttable Tree (Row 52) - THE CORE EAST-WEST GATEWAY:**
+  - Located at `(12, 52)` on Route 2.
+  - Standing at `(11, 52)` on the western main road and using CUT on the tree at `(12, 52)` clears it, allowing direct horizontal passage to the eastern strip at `(13, 52)`.
+  - This is a critical path since it completely bypasses the Southern Gatehouse ledges when entering the eastern strip from the south!

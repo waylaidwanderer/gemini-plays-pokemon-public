@@ -1,7 +1,5 @@
-# Saffron City - Overworld Layout & Points of Interest
-
 ## Saffron City - Verified Eastern & Southeastern Streets (Verified Turn 44437-44461)
-- **Saffron Pokémon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
+- **Saffron Pokmon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
 - **Saffron's Southern Horizontal Street:** Runs horizontally at Rows 30 and 31. Walkable from Column 3 to Column 37.
 - **Wandering NPC:** Dark-haired NPC wanders along Row 30 between Column 10 and Column 18.
 - **Blocked South-to-Center Passages:**

@@ -44,32 +44,19 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# Step 1: Walk out of Cinnabar Lab
-print("Walking to Lab exit...")
-exit_targets = [(3, 5), (3, 7), (2, 7)]
-navigate_to_targets(exit_targets)
-
-time.sleep(0.5)
-print("Stepping Down onto exit warp...")
-mgba.press_buttons(["Down"])
-time.sleep(1.5) # wait for warp
-
-# We should land on Cinnabar Island at (3, 12)
-pos = mgba.get_coordinates()
-print("Position on Cinnabar Island:", pos)
-
-if pos['x'] == 3 and pos['y'] == 12:
-    # Step 2: Walk to the Pokemon Mansion entrance door at (12, 3)
-    print("Walking to Pokemon Mansion entrance...")
-    targets_mansion = [
-        (15, 12),  # Walk Right along Row 12 to Column 15
-        (15, 5),   # Walk Up Column 15 to Row 5
-        (12, 5),   # Walk Left Row 5 to Column 12
-        (12, 2)    # Walk Up Column 12 to Row 2 (warp inside!)
-    ]
-    navigate_to_targets(targets_mansion)
+# We are at (11, 12) on Cinnabar Island overworld.
+# Walk to Pokemon Mansion entrance via Column 15 and Row 5:
+print("Walking to Pokemon Mansion entrance...")
+targets = [
+    (15, 12), # Walk Right to Column 15
+    (15, 5),  # Walk Up Column 15 to Row 5
+    (6, 5),   # Walk Left Row 5 to Column 6
+    (6, 3),   # Walk Up Column 6 to Row 3
+    (6, 2)    # Step UP onto Mansion entrance warp!
+]
+navigate_to_targets(targets)
 
 time.sleep(1.5)
 final_pos = mgba.get_coordinates()
-print("Final Position inside Mansion:", final_pos)
+print("Final Position:", final_pos)
 mgba.take_screenshot()
