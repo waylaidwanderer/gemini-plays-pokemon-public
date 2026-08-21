@@ -8,25 +8,11 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-def handle_battle():
-    print("  Battle/Dialogue detected! Handling...")
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.05)
-    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
-    time.sleep(1.2)
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.05)
-
 def step_dir(d):
     before = get_pos()
     mgba.press_buttons([d])
     time.sleep(0.4)
     after = get_pos()
-    if before == after:
-        handle_battle()
-        after = get_pos()
     return after != before, after
 
 def walk_path(path):
@@ -50,12 +36,8 @@ def walk_path(path):
                 btn = "Down" if dy > 0 else "Up"
             success, new_pos = step_dir(btn)
             if not success:
-                other_btn = "Down" if btn in ["Left", "Right"] else "Right"
-                print(f"  Blocked! Trying alternative {other_btn}...")
-                success, new_pos = step_dir(other_btn)
-                if not success:
-                    print(f"  Completely blocked at {c}!")
-                    return False
+                print(f"  Blocked at {c} trying to move {btn}! Exiting script to let AI handle it.")
+                return False
         if not reached:
             c = get_pos()
             if c['x'] != tx or c['y'] != ty:
@@ -63,32 +45,63 @@ def walk_path(path):
                 return False
     return True
 
-# Dismiss "Got away safely!" textbox
+# Clear menus
 mgba.press_buttons(["B"])
+time.sleep(0.3)
+
+# 1. We are currently at (13, 12) on 2F (State A) facing LEFT.
+# Let's turn UP to face the Mewtwo switch at (13, 11).
+print("Turning UP...")
+mgba.press_buttons(["Up"])
 time.sleep(0.5)
 
-# 1. Walk from current (13, 12) to East stairs at (15, 11) on 2F (State A)
+# Toggle switch to State B!
+# Since there is NO YES/NO menu in Gen 1, we just press A twice and B to clear text.
+print("Toggling Mewtwo switch at (13, 11) to State B...")
+mgba.press_buttons([
+    "A", "sleep 1000",
+    "A", "sleep 1000",
+    "B", "sleep 500",
+    "B"
+])
+time.sleep(3.0)
+print("Position after toggling switch:", get_pos())
+mgba.take_screenshot()
+
+# 2. Walk to West stairs at (7, 10) on 2F (State B)
 path_2f = [
-    (15, 12),
-    (15, 11)
+    (12, 12),
+    (12, 10),
+    (7, 10)
 ]
 
-print("Walking to East stairs on 2F (State A)...")
+print("Walking to West stairs on 2F...")
 if walk_path(path_2f):
-    print("Reached East stairs on 2F! Warping up to 3F...")
+    print("Reached West stairs! Warping up to 3F...")
     time.sleep(2.0) # wait for warp
     print("Arrived on 3F. Position:", get_pos())
     mgba.take_screenshot()
     
-    # 2. On 3F (East side, State A), walk to balcony landing (20, 15)
+    # 3. On 3F (State B), walk to balcony landing (20, 15)
     path_3f = [
-        (18, 11),
-        (18, 14),
+        (9, 11),
+        (9, 10),
+        (11, 10),
+        (11, 5),
+        (20, 5),
+        (20, 3),
+        (21, 3),
+        (25, 3),
+        (25, 7),
+        (26, 7),
+        (26, 12),
+        (25, 12),
+        (25, 14),
         (21, 14),
         (21, 15),
         (20, 15)
     ]
-    print("Walking to balcony landing on 3F (State A)...")
+    print("Walking to balcony landing on 3F (State B)...")
     if walk_path(path_3f):
         print("Reached balcony landing successfully! Dropping to B1F...")
         mgba.take_screenshot()
@@ -101,5 +114,5 @@ if walk_path(path_2f):
         print("Failed to reach balcony landing on 3F.")
         mgba.take_screenshot()
 else:
-    print("Failed to reach East stairs on 2F.")
+    print("Failed to reach West stairs on 2F.")
     mgba.take_screenshot()
