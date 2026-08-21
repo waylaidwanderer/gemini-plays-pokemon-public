@@ -17,11 +17,12 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At B1F (3, 7).
-- Strict Forward Route (Eastern Corridor to Lower South Highway):
-  1. Flee from wild Zubat at (3, 7).
-  2. Traverse east across row 7 to col 10, south along col 10 to row 16, and east across row 16 to (20, 16).
-  3. Advance east through Central-East Corridor (rows 16-19, cols 20-34) into Eastern Corridor.
-  4. Descend south down cols 34-37 to row 31 (Lower South Highway).
-  5. Traverse west along row 31 across cols 34 -> 30 -> 25 -> 20 -> 15 -> 10 -> 5 -> 2.
-  6. Locate and ascend Ladder 4 in SW B1F to 1F Western Corridor, then exit south to Route 10 South.
+- At B1F (21, 20).
+- Empirically confirmed: cols 22-23 form solid rock pillar across rows 16-23.
+- Access to Eastern Sector (cols 24-37) is via col 16 vertical corridor to row 12 highway.
+- Step-by-Step Forward Route:
+  1. Move left 5 steps to (16, 20) and ascend col 16 to (16, 12).
+  2. Traverse east along row 12 across cols 16-34 into the Eastern Corridor.
+  3. Descend south down cols 34-37 to row 31 (Lower South Highway).
+  4. Traverse west along row 31 across cols 34 -> 30 -> 25 -> 20 -> 15 -> 10 -> 5 -> 2.
+  5. Locate and ascend Ladder 4 in SW B1F to 1F Western Corridor, then exit south to Route 10 South.
