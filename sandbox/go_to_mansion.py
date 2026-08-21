@@ -1,8 +1,8 @@
 import mgba
 import time
 
-# Walk from (6, 10) on Cinnabar Island to Mansion entrance at (6, 3) via the west shoreline on Column 3
-path = ["Left"]*3 + ["Up"]*7 + ["Right"]*3 + ["Up"]*2
+# We are at (4, 10). Let's walk Right to Column 10, then walk UP, then Left to Column 6, then UP to Mansion door.
+path = ["Right"]*6 + ["Up"]*7 + ["Left"]*4 + ["Up"]*2
 
 for idx, direction in enumerate(path):
     pos_before = mgba.get_coordinates()
