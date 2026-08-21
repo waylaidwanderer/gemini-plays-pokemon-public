@@ -112,10 +112,10 @@ Placeholder to prevent data loss.
 
 <h1><code>Locations/Route2</code></h1>
 
-# Locations/Route2
-
-Placeholder to prevent data loss.
-
+- **Cuttable Tree (Row 52) - THE CORE EAST-WEST GATEWAY:**
+  - Located at `(12, 52)` on Route 2.
+  - Standing at `(11, 52)` on the western main road and using CUT on the tree at `(12, 52)` clears it, allowing direct horizontal passage to the eastern strip at `(13, 52)`.
+  - This is a critical path since it completely bypasses the Southern Gatehouse ledges when entering the eastern strip from the south!
 
 <hr>
 
@@ -301,9 +301,6 @@ Placeholder to prevent data loss.
 
 <h1><code>Locations/CeladonCity</code></h1>
 
-# Locations/CeladonCity
-
-Placeholder to prevent data loss.
 
 
 <hr>
@@ -355,10 +352,24 @@ Placeholder to prevent data loss.
 
 <h1><code>Locations/Route15</code></h1>
 
-# Locations/Route15
+# Route 15 Gatehouse - Split-Level Layout & Navigation Guide
 
-Placeholder to prevent data loss.
+## Overview
+The Route 15 Gatehouse physically divides the overworld of Fuchsia City (West) from Route 15 (East) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
 
+## First Floor (1F) - West Room
+- **West Exit/Entrance (Fuchsia City):** Connects to Fuchsia City at `(0, 9)`.
+- **Stairs to 2F:** Located at `(7, 9)`. Walking onto this tile immediately warps the player to the 2F West side at `(0, 5)`.
+
+## First Floor (1F) - East Room
+- **Stairs Landing (From 2F):** The player lands at `(6, 8)` after going down the stairs from the 2F.
+- **Stairs to 2F:** Located at `(7, 8)`. Walking onto this tile immediately warps the player back to the 2F.
+- **Corridor:** Located at Row 9. To reach it from the landing, walk DOWN to `(6, 9)`.
+- **East Exit/Entrance (Route 15 Overworld):** Walk right along Row 9 to transition to Route 15 overworld at `(8, 9)`.
+
+## Second Floor (2F)
+- **Stairs (To 1F East Room):** Located at `(6, 8)`. Walking onto this tile warps the player down to the 1F East Room landing at `(6, 8)`. Note that if you have just warped onto `(6, 8)`, you must walk off the tile (e.g., Left to `(5, 8)`) and then back onto it to trigger the warp again.
+- **Doormat/Exit (Fuchsia City Side):** Red-checkered doormat tiles are at `(7, 4)` and `(7, 5)` which connect back to the West Room of the gatehouse.
 
 <hr>
 
@@ -1113,10 +1124,8 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 
 <h1><code>Locations/SaffronCity</code></h1>
 
-# Saffron City - Overworld Layout & Points of Interest
-
 ## Saffron City - Verified Eastern & Southeastern Streets (Verified Turn 44437-44461)
-- **Saffron Pokémon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
+- **Saffron Pokmon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
 - **Saffron's Southern Horizontal Street:** Runs horizontally at Rows 30 and 31. Walkable from Column 3 to Column 37.
 - **Wandering NPC:** Dark-haired NPC wanders along Row 30 between Column 10 and Column 18.
 - **Blocked South-to-Center Passages:**
@@ -1131,7 +1140,6 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 - **Saffron's Northern Horizontal Street (Row 7/8):**
   - Fully open horizontally at Row 7 and 8, extending from Saffron's east side (Column 37) all the way west to Saffron's center (Column 18).
   - Saffron Silph Co. North Wall blocks direct downward access at Column 18 on Rows 10 and 11. To enter Silph Co., Saffron's outer perimeter must be navigated to approach the south entrance at `(18, 21)`.
-
 
 <hr>
 
@@ -1443,9 +1451,6 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Locations/CinnabarIsland</code></h1>
 
-# Locations/CinnabarIsland
-
-Placeholder to prevent data loss.
 
 
 <hr>
