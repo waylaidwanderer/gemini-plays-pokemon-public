@@ -1,26 +1,25 @@
-# Let's search the system for the ROM file!
-# Since we are on Windows (based on C:\Users\joel\AppData\Roaming\uv\python...), we can search for .gb or .gbc files starting from C:\Users\joel or C:\
 import os
 
-print("Searching for ROM...")
-found = []
-# Let's search C:\Users\joel\desktop
-search_paths = ["C:\\Users\\joel\\desktop", "C:\\Users\\joel\\Desktop", "C:\\Users\\joel"]
-for sp in search_paths:
-    if os.path.exists(sp):
-        print(f"Searching in {sp}...")
-        for root, dirs, files in os.walk(sp):
-            # To avoid scanning everything and timing out, let's limit the depth
-            if root.count(os.sep) - sp.count(os.sep) > 3:
-                continue
-            for f in files:
-                if f.endswith(".gb") or f.endswith(".gbc") or "blue" in f.lower() or "red" in f.lower():
-                    fp = os.path.join(root, f)
-                    print("Found candidate file:", fp)
-                    found.append(fp)
-            if len(found) > 10:
-                break
-    if len(found) > 10:
-        break
+def find_files(suffix, path="."):
+    results = []
+    for root, dirs, files in os.walk(path):
+        for f in files:
+            if f.endswith(suffix):
+                results.append(os.path.join(root, f))
+    return results
 
-print("Search finished!")
+print("Looking for ROM files (.gb, .gbc):")
+roms = find_files(".gb") + find_files(".gbc")
+for r in roms:
+    print("Found ROM:", r)
+
+# Look in parent directories as well
+print("\nLooking in parent directory:")
+roms_parent = find_files(".gb", "..") + find_files(".gbc", "..")
+for r in roms_parent:
+    print("Found ROM in parent:", r)
+
+print("\nListing all files in saveDir/sandbox/notepads/ :")
+for root, dirs, files in os.walk("notepads"):
+    for f in files:
+        print(os.path.join(root, f))
