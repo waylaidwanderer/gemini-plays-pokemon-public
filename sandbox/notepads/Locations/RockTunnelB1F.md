@@ -119,3 +119,5 @@
 
 - Passage Routing: Row 31 South Highway is blocked at cols 22-24 by a rock pillar. Use the Row 27 Northern Bypass (cols 20-29, row 27) to travel between the eastern sector and the western sector.
 - Western Pocket (cols 2-5, rows 10-15): Closed dead end at row 16 across cols 2-5 [Verified Turn 6504-6505]. Path southward branches via the Row 9 Crossway (cols 2-10, row 9) into the Central-Western vertical channel (cols 8-10, rows 10-20+).
+## Discovered South Exit Ladder (Turn 10969)
+- **Ladder at (15, 33)**: Located at the south edge of B1F at (15, 33). Ascends directly to Rock Tunnel 1F South Exit Sector towards Route 10 South and Lavender Town.
