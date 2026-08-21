@@ -1091,15 +1091,15 @@
 # Rock Tunnel B1F - Active Branch Exploration Plan
 
 ## Current Position
-- Rock Tunnel B1F at (26, 32).
+- Rock Tunnel B1F at (29, 4).
 
 ## Active B1F Traversal & Branch Exploration Plan
-1. **Traverse South Highway West to Vertical Connector**:
-   - Walk Left 11 steps from (26, 32) to (15, 32).
-   - Walk Up 5 steps through the Vertical Connector (cols 14-17) to (15, 27).
-2. **Explore Central-Western Corridors**:
-   - From (15, 27), route north/west through the Central Channel (cols 14-17) and investigate the Central-Western vertical channel (cols 8-11, rows 10-20) to locate unprobed branch points leading to the exit ladder.
-3. **Ascend to 1F Exit Sector & Lavender Town**:
-   - Take the exit ladder up to 1F, follow the final corridor to the South Exit onto Route 10 South, and reach Lavender Town.
+1. **Navigate North Highway to Northwest Sector**:
+   - From (29, 4), walk Right 5 steps along row 4 to (34, 4), then Up 1 step to (34, 3) (the North Highway).
+   - Traverse the North Highway west across rows 2-5 toward the northwest ladder area (cols 2-7, rows 2-5).
+2. **Investigate Northwest Sector Ladders & Exit**:
+   - Inspect ladder positions in the northwest: Ladder 2 at (5, 3) and any unprobed branches / Ladder 4 at (3, 3) leading to 1F exit corridor.
+3. **Lavender Town Arrival**:
+   - Ascend to 1F exit sector, follow corridor to Route 10 South, proceed south into Lavender Town, and heal at the Pokémon Center.
 
 <hr>
