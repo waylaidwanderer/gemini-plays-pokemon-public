@@ -17,11 +17,10 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At B1F (11, 15).
-- Systematic Forward Route to Eastern Corridor & Lower South Highway:
-  1. Flee from wild Machop at (11, 15).
-  2. Move down 1 step to (11, 16) and advance east along row 16 to col 20 (9 steps Right).
-  3. Traverse east through rows 16-19 into the Central-East Corridor (cols 20-34).
-  4. Descend south down cols 34-37 to row 31 (Lower South Highway).
-  5. Traverse west along row 31 across cols 34 -> 30 -> 25 -> 20 -> 15 -> 10 -> 5 -> 2.
-  6. Locate and ascend Ladder 4 in SW B1F to 1F Western Corridor, then exit south to Route 10 South.
+- At B1F (20, 16).
+- Forward Route to Eastern Corridor & Lower South Highway:
+  1. Move left 4 steps to (16, 16) and ascend col 16 to (16, 12) (4 steps Up).
+  2. Traverse east along row 12 across cols 16-34 into the Eastern Corridor.
+  3. Descend south down cols 34-37 to row 31 (Lower South Highway).
+  4. Traverse west along row 31 across cols 34 -> 30 -> 25 -> 20 -> 15 -> 10 -> 5 -> 2.
+  5. Locate and ascend Ladder 4 in SW B1F to 1F Western Corridor, then exit south to Route 10 South.
