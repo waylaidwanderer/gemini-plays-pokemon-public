@@ -1083,17 +1083,22 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - Canonical Escape Route to Lavender Town
+# Rock Tunnel - Exploration & Routing Log
 
-## The Complete Canonical Dungeon Solution
-1. **1F Eastern Sector Traversal**: COMPLETED!
-   - From 1F (27, 3) -> (27, 11) -> (34, 11) -> (34, 17) -> (21, 17) -> (21, 27) -> (15, 27).
-2. **South Exit Descent (In Progress)**:
-   - At 1F (15, 27) in the South Exit Corridor.
-   - Descend column 15 straight south through rows 28-35 -> Exit Rock Tunnel into Route 10 South!
-   - Route 10 South -> Walk directly south into Lavender Town!
+## Empirical Dungeon Status
+- **1F North Entrance**: (15, 3) connects to Route 10 North.
+- **1F South Boundary**: Row 34 is solid rock continuously across cols 0-38 (verified Turns 8954-8991, 10004-10015).
+- **1F Ladders**:
+  - Ladder 1 Arrival: (37, 3) (1-way arrival from B1F (33, 25)).
+  - Ladder 2: (27, 3) <-> B1F (5, 3).
+  - Ladder 3: (23, 11) <-> B1F (17, 11).
+  - Ladder 4: (3, 3) <-> B1F (NW Western Corridor).
+- **1F Western Corridor (cols 2-5)**:
+  - Extends from (3, 3) south to (3, 33). Contains PokéManiac #3 at (3, 8).
 
-## Current Step
-- [IN PROGRESS] At 1F (15, 27). Descending column 15 to the Route 10 South exit.
+## Current Working Plan
+- At 1F (12, 33).
+- Walk west along row 33 to (3, 33).
+- Ascend north up column 3 to inspect Ladder 4 at (3, 3) and descend to B1F.
 
 <hr>
