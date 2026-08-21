@@ -110,11 +110,15 @@ if walk_path(path_to_switch):
     time.sleep(0.5)
     mgba.take_screenshot()
     
-    # Phase 2: Walk to East Stairs (15, 11) via Row 11, Column 5, Row 7, and Column 12 (State A is active)
+    # Phase 2: Walk to East Stairs (15, 11) via Row 13, Column 5, Row 7, and Column 12 (State A is active)
     path_to_east_stairs = [
-        (2, 11),
-        (3, 11),
-        (4, 11),
+        (1, 12),
+        (1, 13),
+        (2, 13),
+        (3, 13),
+        (4, 13),
+        (5, 13),
+        (5, 12),
         (5, 11),
         (5, 10),
         (5, 9),
