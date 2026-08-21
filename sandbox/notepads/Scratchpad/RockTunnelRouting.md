@@ -17,10 +17,11 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At B1F (21, 16).
-- Forward Route to Eastern Corridor & Lower South Highway:
-  1. Move left 4 steps to (16, 16) and ascend col 16 to (16, 12) (4 steps Up).
-  2. Traverse east along row 12 across cols 16-34 into the Eastern Corridor.
-  3. Descend south down cols 34-37 to row 31 (Lower South Highway).
-  4. Traverse west along row 31 across cols 34 -> 30 -> 25 -> 20 -> 15 -> 10 -> 5 -> 2.
-  5. Locate and ascend Ladder 4 in SW B1F to 1F Western Corridor, then exit south to Route 10 South.
+- At 1F (27, 11).
+- End-to-End Escape Plan:
+  1. Ascend col 27 to Ladder 2 at (27, 3) (8 steps Up) -> warps to B1F (5, 3).
+  2. Traverse East along B1F North Highway (rows 2-5) from col 5 to col 37.
+  3. Descend South down Eastern Sector (cols 34-37) to Lower South Highway at row 31.
+  4. Traverse West along Lower South Highway (rows 30-33) from col 35 to SW B1F (cols 2-5).
+  5. Locate and ascend Ladder 4 in SW B1F -> warps to 1F (3, 3) in Western Corridor.
+  6. Walk South down 1F Western Corridor (cols 2-5, rows 3-33) to Route 10 South Exit.
