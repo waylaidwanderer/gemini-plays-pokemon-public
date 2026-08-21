@@ -950,7 +950,7 @@
 - Solid Vertical Rock Walls:
   - Cols 18-19 across rows 14-23: Solid vertical rock barrier dividing Southern Avenue (cols 20-25) from Central Sector (cols 14-17).
   - Cols 12-13 across rows 18-25: Solid vertical rock wall dividing Central and Western sectors.
-- **Lower South Basin & Boundaries (Verified Turns 10814-10830)**: Lower basin spans rows 30-33 across cols 2-20. Southern boundary (row 34) is a solid continuous rock wall across cols 0-20 with no exit at (15, 33/34). Vertical passage at cols 14-17 (rows 28-29) connects lower basin up to row 24. Route through Rock Tunnel to the exit requires Ladder 4.
+- **Lower South Basin & Boundaries (Verified Turns 10814-10830)**: Lower basin spans rows 30-33 across cols 2-20. Southern boundary (row 34) is a solid continuous rock wall across cols 0-20 on 1F. Dungeon exit to Route 10 South is via B1F (15, 33) ladder (Verified Turn 10973).
 
 - **Verified Eastern Sector & Bypass Traversal (Turns 8934-8938)**:
   - Warped to 1F Eastern Sector at (27, 3) via Ladder 2 from B1F (5, 3).
