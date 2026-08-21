@@ -34,13 +34,16 @@ def walk_step(direction, tx, ty):
     return pos_after
 
 pos = mgba.get_coordinates()
-print("Starting pos on 3F:", pos)
+print("Starting pos:", pos)
 
-# We are at (12, 8).
-# Step 1: Walk to the balcony on 3F East
+# We are at (12, 12).
+# Step 1: Walk to Column 11 on Row 12
+if pos['x'] == 12 and pos['y'] == 12:
+    pos = walk_step("Left", 11, 12)
+
+# Path to 3F East balcony starting from (11, 12)
 path_to_balcony = [
-    ('Left', 11, 8),
-    ('Up', 11, 7), ('Up', 11, 6), ('Up', 11, 5),
+    ('Up', 11, 11), ('Up', 11, 10), ('Up', 11, 9), ('Up', 11, 8), ('Up', 11, 7), ('Up', 11, 6), ('Up', 11, 5),
     ('Right', 12, 5), ('Right', 13, 5), ('Right', 14, 5), ('Right', 15, 5), ('Right', 16, 5),
     ('Right', 17, 5), ('Right', 18, 5), ('Right', 19, 5), ('Right', 20, 5), ('Right', 21, 5),
     ('Right', 22, 5), ('Right', 23, 5), ('Right', 24, 5),
@@ -63,7 +66,6 @@ pos_b1f = mgba.get_coordinates()
 print("Landed on B1F! Position:", pos_b1f)
 
 # Step 2: Navigate B1F to the Secret Key room
-# We land somewhere on B1F East. Let's walk to (10, 16)
 targets_b1f = [(10, 16), (10, 5), (1, 5)]
 for tx, ty in targets_b1f:
     while pos_b1f['x'] != tx or pos_b1f['y'] != ty:
