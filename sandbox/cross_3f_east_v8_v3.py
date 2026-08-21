@@ -19,69 +19,79 @@ def walk_step(direction):
         print(f"Moved to {pos_after}")
     return pos_after
 
-# Starting from (12, 12) on 3F West (State A)
+# Starting from (6, 10) on 3F West (State B)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Step 1: Walk to the 3F West switch at (2, 12) (avoiding Row 13 walls in Column 12)
-print("1. Walking to 3F West switch...")
-targets_switch = []
-for target in targets_switch:
-    while pos['x'] != target[0] or pos['y'] != target[1]:
-        dx = target[0] - pos['x']
-        dy = target[1] - pos['y']
-        if dx < 0:
-            pos = walk_step("Left")
-        elif dx > 0:
-            pos = walk_step("Right")
-        elif dy < 0:
-            pos = walk_step("Up")
-        elif dy > 0:
-            pos = walk_step("Down")
+# Step 1: Walk Right to Column 10 on Row 10
+print("Walking to (10, 10)...")
+while pos['x'] < 10:
+    pos = walk_step("Right")
 
-# Face UP and toggle the switch to State B
-pos = mgba.get_coordinates()
-if pos['x'] == 2 and pos['y'] == 12:
-    print("Facing Up towards the switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    print("Toggling the switch to State B...")
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B", "sleep 200"])
-    time.sleep(1.0)
-
-# Step 2: Walk to Column 6 Row 6 in State B
-print("2. Walking to Column 6 Row 6...")
-targets_to_6 = [(5, 13), (5, 12), (5, 11), (6, 11), (6, 6)]
-for target in targets_to_6:
-    while pos['x'] != target[0] or pos['y'] != target[1]:
-        dx = target[0] - pos['x']
-        dy = target[1] - pos['y']
-        if dx < 0:
-            pos = walk_step("Left")
-        elif dx > 0:
-            pos = walk_step("Right")
-        elif dy < 0:
-            pos = walk_step("Up")
-        elif dy > 0:
-            pos = walk_step("Down")
+# Step 2: Walk UP Column 10 to Row 6
+print("Walking to (10, 6)...")
+while pos['y'] > 6:
+    pos = walk_step("Up")
 
 # Step 3: Walk Right along Row 6 to Column 19 on 3F East
-print("3. Walking Right to Column 19 on 3F East...")
+print("Walking to (19, 6)...")
 while pos['x'] < 19:
     pos = walk_step("Right")
 
-# Step 4: Walk Down Column 19 to Row 15 (should be open now in State B!)
-print("4. Walking Down Column 19...")
+# Step 4: Walk Down Column 19 to Row 15 (let's check if it's open, if blocked, we'll try other columns!)
+print("Walking Down Column 19...")
+stuck = False
 while pos['y'] < 15:
     pos_before = pos
     pos = walk_step("Down")
     if pos == pos_before:
-        print("CRITICAL: Column 19 is still blocked!")
-        handle_battle()
-        pos = mgba.get_coordinates()
+        print(f"Column 19 is blocked at Row {pos['y'] + 1}!")
+        stuck = True
+        break
+
+# If Column 19 is blocked, systematically test all columns on Row 8 from 19 down to 12!
+if stuck:
+    print("Testing other columns on Row 8 on the East side...")
+    columns_to_test = [19, 18, 17, 16, 15, 14, 13, 12]
+    open_column = None
+
+    for col in columns_to_test:
+        # Walk to Column `col` on Row 6
+        while pos['x'] > col:
+            pos = walk_step("Left")
+        while pos['x'] < col:
+            pos = walk_step("Right")
+            
+        print(f"Testing Column {col} Row 8...")
+        # Try walking DOWN to Row 11
+        stuck_col = False
+        while pos['y'] < 11:
+            pos_before = pos
+            pos = walk_step("Down")
+            if pos == pos_before:
+                print(f"Column {col} is BLOCKED at Row {pos['y'] + 1}")
+                stuck_col = True
+                break
+                
+        if not stuck_col:
+            print(f"SUCCESS: Column {col} is completely open to Row 11 in State B!")
+            open_column = col
+            break
+        else:
+            # Walk back UP to Row 6 to test next column
+            while pos['y'] > 6:
+                pos = walk_step("Up")
+
+    # If we found an open column, continue Down to Row 15
+    if open_column is not None:
+        while pos['y'] < 15:
+            pos = walk_step("Down")
+        # Walk back to Column 19 Row 15
+        while pos['x'] < 19:
+            pos = walk_step("Right")
 
 # Step 5: Walk to the balcony and drop to B1F East
-print("5. Walking to balcony and dropping...")
+print("Walking to balcony and dropping...")
 targets_balcony = [(21, 15), (20, 15), (20, 18), (19, 18)]
 for target in targets_balcony:
     while pos['x'] != target[0] or pos['y'] != target[1]:
@@ -103,7 +113,7 @@ print("Position on B1F East:", pos_b1f)
 
 # Step 6: Walk to B1F West NORTH room via open gate at (9, 5)
 if pos_b1f['x'] == 19 and pos_b1f['y'] == 16:
-    print("6. Walking to B1F West NORTH room...")
+    print("Walking to B1F West NORTH room...")
     targets_b1f = [(10, 16), (10, 5), (1, 5)]
     for target in targets_b1f:
         while pos['x'] != target[0] or pos['y'] != target[1]:
@@ -122,7 +132,7 @@ if pos_b1f['x'] == 19 and pos_b1f['y'] == 16:
 pos_key = mgba.get_coordinates()
 print("Position near Secret Key:", pos_key)
 if pos_key['x'] == 1 and pos_key['y'] == 5:
-    print("7. Facing UP and retrieving Secret Key...")
+    print("Facing UP and retrieving Secret Key...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 200"])
