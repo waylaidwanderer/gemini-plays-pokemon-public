@@ -1,6 +1,10 @@
 import mgba
 import time
 
+def handle_battle():
+    # No wild battles on Cinnabar Island overworld
+    pass
+
 def navigate_to_targets(targets):
     target_idx = 0
     last_pos = None
@@ -44,14 +48,24 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# We are at (17, 12) on Cinnabar Island.
-# Walk to Pokemon Mansion entrance via East road (Column 18):
-print("Walking to Pokemon Mansion entrance via East road (Column 18)...")
+# Dismiss the "The door is locked..." textbox
+print("Dismissing locked door textbox...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+
+# Walk around Cinnabar Island via the West side:
+# 1. Down to (18, 12)
+# 2. Left to (2, 12)
+# 3. Up to (2, 3)
+# 4. Right to (6, 3)
+# 5. Up to (6, 2) (inside Mansion warp!)
+print("Walking to Pokemon Mansion entrance via West road...")
 targets = [
-    (18, 12), # Step Right to Column 18
-    (18, 3),  # Walk Up to Row 3
-    (6, 3),   # Walk Left to Column 6
-    (6, 2)    # Step UP onto Mansion entrance warp!
+    (18, 12),
+    (2, 12),
+    (2, 3),
+    (6, 3),
+    (6, 2) # Step UP to warp inside!
 ]
 navigate_to_targets(targets)
 
