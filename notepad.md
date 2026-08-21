@@ -1102,10 +1102,11 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At 1F (23, 11).
-- Direct Exit Path via 1F Western Corridor:
-  1. Traverse West along row 11 across cols 23 -> 15 -> 8 -> 3 to reach Western Corridor at (3, 11).
-  2. Descend South down Western Corridor (cols 2-5, rows 11-33) to Route 10 South Exit.
-  3. Exit Rock Tunnel into Route 10 South and proceed to Lavender Town.
+- At 1F (15, 11).
+- Direct Exit Path via Row 14 Bypass & Western Corridor:
+  1. Step Down 3 times along col 15 to row 14 at (15, 14).
+  2. Step Left 12 times along row 14 across cols 15 -> 12 -> 8 -> 3 (bypassing the cols 12-13 rock wall) to reach Western Corridor at (3, 14).
+  3. Descend South down Western Corridor (cols 2-5, rows 14-33) to Route 10 South Exit.
+  4. Exit Rock Tunnel into Route 10 South and proceed to Lavender Town.
 
 <hr>
