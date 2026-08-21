@@ -61,3 +61,5 @@
   - Traversed south along col 27 to row 11, east along row 11 across cols 28-34, and south down the Eastern Bypass (cols 32-37) past the row 14-15 rock barrier into the Southern Hall (rows 16-19) at (34, 17).
   - Row 17 connects cols 20-37 continuously west into the Southern Avenue (cols 20-25).
 - **Pillar Collision Bound (cols 26-27)**: Rock pillar extends across rows 20-30; bypass between Western Avenue and Eastern Hall is along row 33 or row 17. [Verified Turn 8998]
+
+- South-East Sector Boundary (cols 30-37, rows 20-21): Continuous solid rock wall across cols 30-37 at rows 20-21 blocks southward descent; Eastern Hall terminates at row 19 (Verified Turn 9695). Ladder 3 at (23, 11) is the sole downward ladder to B1F from this sector.
