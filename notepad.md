@@ -953,6 +953,12 @@
 
 - South-East Sector Boundary (cols 30-37, rows 20-21): Continuous solid rock wall across cols 30-37 at rows 20-21 blocks southward descent; Eastern Hall terminates at row 19 (Verified Turn 9695). Ladder 3 at (23, 11) is the sole downward ladder to B1F from this sector.
 
+- **Empirically Verified Corridors & Bounds (Turns 10482-10503)**:
+  - 1F Passable Floor Traversed: (23, 11), (18, 11), (15, 21), (11, 25), (3, 25), (3, 27).
+  - 1F Central-South Barrier: Rows 22-23 form a continuous solid rock barrier across cols 14-20 (empirically verified Turn 10486).
+  - 1F Column 11 Bypass: Column 11 is completely open from row 17 down to row 25, providing a complete bypass around the cols 14-20 row 22-23 barrier into the lower south basin at rows 24-27 (empirically traversed Turn 10487).
+  - 1F Lower Western Boundary: (3, 28) is solid rock wall (empirically probed Turn 10503); rows 28-29 across cols 2-8 form a continuous solid rock wall bounding the lower western basin.
+
 <hr>
 
 <h1><code>Locations/RockTunnelB1F</code></h1>
