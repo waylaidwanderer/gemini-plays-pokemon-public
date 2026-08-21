@@ -25,7 +25,7 @@ print("Starting position:", pos)
 
 # Step 1: Walk to the 3F West switch at (2, 12) (avoiding Row 13 walls in Column 12)
 print("1. Walking to 3F West switch...")
-targets_switch = [(12, 11), (5, 11), (5, 13), (2, 13), (2, 12)]
+targets_switch = [(5, 13), (2, 13), (2, 12)]
 for target in targets_switch:
     while pos['x'] != target[0] or pos['y'] != target[1]:
         dx = target[0] - pos['x']
