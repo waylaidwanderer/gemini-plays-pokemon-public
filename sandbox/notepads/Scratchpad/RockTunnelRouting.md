@@ -1,16 +1,17 @@
 # Rock Tunnel - Verified Escape Route to Lavender Town
 
-## The Critical Topology Insight
-- 1F Eastern Sector (cols 26-37) is walled off from Central/Western sectors by cols 24-25 vertical rock wall.
-- Ladder 2 (27, 3) leads ONLY into the Eastern Sector on 1F.
-- Ladder 3 (23, 11) on 1F is on the WEST side of the col 24-25 wall!
-- When ascending Ladder 3 from B1F (17, 11) -> 1F (23, 11), you are in the Central Sector!
-- From 1F (23, 11), walking WEST along row 11 leads directly into the Western Corridor (cols 2-5) which goes straight south to the Route 10 South Exit!
+## The Breakthrough 1F Exit Topology
+- Rock Tunnel 1F South Exit corridor is located at cols 14-16 across rows 24-33!
+- Row 28 is completely OPEN at cols 14-16 (verified visually at Turn 9936).
+- Cols 12-13 is a continuous rock wall separating the Central Basin (cols 8-11) from cols 14-16.
+- The entrance to the South Exit corridor (cols 14-16) is via the Southern Avenue (cols 20-25) at row 27:
+  - Southern Avenue runs down cols 20-25 from row 11 to row 27.
+  - At row 27, walking WEST across cols 23 -> 22 -> 21 -> 20 -> 19 -> 18 -> 17 -> 16 -> 15 enters the South Exit corridor.
+  - At col 15, walking SOUTH through rows 28-33 exits directly to Route 10 South and Lavender Town!
 
-## Step-by-Step Escape Plan
-1. [IN PROGRESS] 1F (26, 11) -> Take Ladder 2 at (27, 3) down to B1F (5, 3).
-2. On B1F: Walk from (5, 3) across north/east highway to Ladder 3 at B1F (17, 11).
-3. Ascend Ladder 3 to 1F (23, 11).
-4. On 1F (23, 11): Walk WEST along row 11 to (3, 11) (Western Corridor).
-5. On 1F: Walk SOUTH down Western Corridor (cols 2-5) all the way to row 33 -> Route 10 South Exit!
-6. Exit to Route 10 South -> Walk south into Lavender Town!
+## Execution Steps
+1. [IN PROGRESS] From (11, 17): Walk Up 6 steps to (11, 11).
+2. Walk Right 10 steps to (21, 11) (safely avoiding Ladder 3 at (23, 11)).
+3. Walk Down 16 steps along column 21 to (21, 27).
+4. Walk Left 6 steps to (15, 27).
+5. Walk Down 6-8 steps to row 33 -> EXIT to Route 10 South!
