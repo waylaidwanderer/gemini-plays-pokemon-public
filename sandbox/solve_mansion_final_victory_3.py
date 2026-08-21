@@ -100,99 +100,108 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: Walk to East Stairs (15, 11) via Row 7 and Column 12 (State A is active)
-# We are currently at (5, 8)
-path_to_east_stairs = [
-    (5, 7),
-    (6, 7),
-    (7, 7),
-    (8, 7),
-    (9, 7),
-    (10, 7),
-    (11, 7),
-    (12, 7),
-    (12, 8),
-    (12, 9),
-    (12, 10),
-    (12, 11),
-    (13, 11),
-    (14, 11),
-    (15, 11)
+# Phase 1: Walk from current (6, 9) on 2F (State A) to (1, 11) via row 13 and toggle to State B
+path_to_switch = [
+    (6, 10),
+    (6, 11),
+    (6, 12),
+    (6, 13),
+    (5, 13),
+    (4, 13),
+    (3, 13),
+    (2, 13),
+    (1, 13),
+    (1, 12),
+    (1, 11)
 ]
 
-print("--- PHASE 1: WALKING TO EAST STAIRS ON 2F (STATE A) ---")
-if walk_path(path_to_east_stairs):
-    print("Reached (15, 11). Walking Left to toggle to State B first...")
-    path_to_switch_b = [
-        (14, 11),
+print("--- PHASE 1: WALKING TO WEST SWITCH ON 2F (STATE A) ---")
+if walk_path(path_to_switch):
+    print("Reached (1, 11) on 2F. Turning Right...")
+    mgba.press_buttons(["Right"])
+    time.sleep(0.4)
+    print("Toggling 2F switch to State B...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.5)
+    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "B"])
+    time.sleep(0.5)
+    mgba.take_screenshot()
+    
+    # Phase 2: Walk to East Stairs (15, 11) via row 13, column 5, row 7, and column 12 (State B is active)
+    path_to_east_stairs = [
+        (1, 12),
+        (1, 13),
+        (2, 13),
+        (3, 13),
+        (4, 13),
+        (5, 13),
+        (5, 12),
+        (5, 11),
+        (5, 10),
+        (5, 9),
+        (5, 8),
+        (5, 7), # Test if (5, 7) is open in State B!
+        (6, 7),
+        (7, 7),
+        (8, 7),
+        (9, 7),
+        (10, 7),
+        (11, 7),
+        (12, 7),
+        (12, 8),
+        (12, 9),
+        (12, 10),
+        (12, 11),
         (13, 11),
-        (12, 11)
+        (14, 11),
+        (15, 11) # East Stairs
     ]
-    if walk_path(path_to_switch_b):
-        print("Reached (12, 11) on 2F. Turning Right to face switch at (13, 11)...")
-        mgba.press_buttons(["Right"])
-        time.sleep(0.4)
-        print("Toggling switch to State B...")
-        mgba.press_buttons(["A"])
-        time.sleep(0.5)
-        mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "B"])
-        time.sleep(0.5)
+    print("--- PHASE 2: WALKING TO EAST STAIRS ON 2F (STATE B) ---")
+    if walk_path(path_to_east_stairs):
+        print("Reached East Stairs on 2F in State B! Warping to 3F...")
+        time.sleep(2.0) # Wait for warp
+        pos_3f = get_pos()
+        print("Arrived on 3F (East side). Position:", pos_3f)
         mgba.take_screenshot()
         
-        # Phase 2: Walk to stairs (15, 11) and warp to 3F (State B)
-        path_back_to_stairs = [
-            (13, 11),
-            (14, 11),
-            (15, 11)
+        # Phase 3: Walk to Balcony landing (20, 15) on 3F (State B)
+        path_to_balcony = [
+            (17, 11),
+            (18, 11),
+            (19, 11),
+            (20, 11),
+            (21, 11),
+            (21, 12),
+            (21, 13),
+            (21, 14),
+            (21, 15),
+            (20, 15)
         ]
-        print("--- PHASE 2: WARPING TO 3F (STATE B) ---")
-        if walk_path(path_back_to_stairs):
-            print("Warping to 3F...")
-            time.sleep(2.0) # Wait for warp
-            pos_3f = get_pos()
-            print("Arrived on 3F (East side). Position:", pos_3f)
+        print("--- PHASE 3: WALKING TO BALCONY ON 3F (STATE B) ---")
+        if walk_path(path_to_balcony):
+            print("Reached Balcony landing (20, 15) on 3F!")
             mgba.take_screenshot()
             
-            # Phase 3: Walk to Balcony landing (20, 15) on 3F (State B)
-            path_to_balcony = [
-                (17, 11),
-                (18, 11),
-                (19, 11),
-                (20, 11),
-                (21, 11),
-                (21, 12),
-                (21, 13),
-                (21, 14),
-                (21, 15),
-                (20, 15)
+            # Phase 4: Step Down through open balcony shutter and drop Left
+            path_to_edge = [
+                (20, 16),
+                (20, 17),
+                (20, 18)
             ]
-            print("--- PHASE 3: WALKING TO BALCONY ON 3F (STATE B) ---")
-            if walk_path(path_to_balcony):
-                print("Reached Balcony landing (20, 15) on 3F!")
+            print("--- PHASE 4: STEPPING TO DROP EDGE AND DROPPING ---")
+            if walk_path(path_to_edge):
+                print("At drop edge (20, 18). Dropping Left to B1F!")
                 mgba.take_screenshot()
-                
-                # Phase 4: Step Down through open balcony shutter and drop Left
-                path_to_edge = [
-                    (20, 16),
-                    (20, 17),
-                    (20, 18)
-                ]
-                print("--- PHASE 4: STEPPING TO DROP EDGE AND DROPPING ---")
-                if walk_path(path_to_edge):
-                    print("At drop edge (20, 18). Dropping Left to B1F!")
-                    mgba.take_screenshot()
-                    mgba.press_buttons(["Left"])
-                    time.sleep(3.0) # wait for falling warp
-                    print("Landed on B1F! Position:", get_pos())
-                    mgba.take_screenshot()
-                else:
-                    print("Failed to reach drop edge.")
+                mgba.press_buttons(["Left"])
+                time.sleep(3.0) # wait for falling warp
+                print("Landed on B1F! Position:", get_pos())
+                mgba.take_screenshot()
             else:
-                print("Failed to walk to Balcony.")
+                print("Failed to reach drop edge.")
         else:
-            print("Failed to return to East Stairs.")
+            print("Failed to walk to Balcony.")
     else:
-        print("Failed to reach 2F Switch B.")
+        print("Failed to reach East Stairs on 2F.")
 else:
-    print("Failed to reach East Stairs on 2F.")
+    print("Failed to reach switch landing.")
 
