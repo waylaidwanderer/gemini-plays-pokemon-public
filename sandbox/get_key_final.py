@@ -34,26 +34,35 @@ def walk_step(direction, tx, ty):
     return pos_after
 
 pos = mgba.get_coordinates()
-print("Starting pos inside 3F East:", pos)
+print("Starting pos on 3F East:", pos)
 
-# Path from (21, 6) to balcony drop at (19, 18)
-path_to_drop = [
-    ('Right', 22, 6), ('Right', 23, 6),
-    ('Down', 23, 7), ('Down', 23, 8), ('Down', 23, 9), ('Down', 23, 10), ('Down', 23, 11),
-    ('Left', 22, 11), ('Left', 21, 11),
-    ('Down', 21, 12), ('Down', 21, 13), ('Down', 21, 14), ('Down', 21, 15),
-    ('Left', 20, 15),
-    ('Down', 20, 16), ('Down', 20, 17), ('Down', 20, 18)
-]
+# We are at (18, 1).
+# 1. Walk to (20, 1)
+while pos['x'] < 20:
+    pos = walk_step("Right", pos['x'] + 1, pos['y'])
 
-print("Walking to the 3F balcony drop...")
-for d, tx, ty in path_to_drop:
-    if pos['x'] == tx and pos['y'] == ty:
-        continue
-    pos = walk_step(d, tx, ty)
+# 2. Walk Down to (20, 3)
+while pos['y'] < 3:
+    pos = walk_step("Down", pos['x'], pos['y'] + 1)
 
-# Drop off the balcony by stepping Left to (19, 18)
-print("At (20, 18). Stepping Left to drop from balcony...")
+# 3. Walk Right to (21, 3)
+if pos['x'] == 20 and pos['y'] == 3:
+    pos = walk_step("Right", 21, 3)
+
+# 4. Walk Down to (21, 5)
+while pos['y'] < 5:
+    pos = walk_step("Down", pos['x'], pos['y'] + 1)
+
+# 5. Walk Right along Row 5 to (24, 5)
+while pos['x'] < 24:
+    pos = walk_step("Right", pos['x'] + 1, pos['y'])
+
+# 6. Walk Down Column 24 to Row 14: (24, 14)
+while pos['y'] < 14:
+    pos = walk_step("Down", pos['x'], pos['y'] + 1)
+
+# Drop off the balcony by stepping Left to (23, 14) or (24, 14) Left
+print("At (24, 14). Stepping Left to drop from balcony...")
 mgba.press_buttons(["Left"])
 time.sleep(3.0)
 
