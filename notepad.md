@@ -893,7 +893,7 @@
 - **North Entrance**: Located at (15, 3). Connects to Route 10 (North).
 - **Ladder 1**: 1F (37, 3) <-> B1F (33, 25) [Functional 2-way ladder: warps directly between 1F (37, 3) and B1F (33, 25), verified Turn 10684].
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [Functional 2-way ladder: warps between 1F (27, 3) and B1F (5, 3), verified Turns 9291, 9380, 9459, 9505, 9603, 9706].
-- **Ladder 3**: 1F (17, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F, downward ladder on 1F at (17, 11), ladder sprite rendered at (17, 11)].
+- **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Functional 2-way ladder: warps between 1F (23, 11) and B1F (17, 11), verified Turns 10755, 10781].
 - **Ladder 4**: 1F (3, 3) <-> B1F [NW 1F <-> B1F ladder in western corridor].
 - **1F South Boundary & Topology**: Row 34 is solid rock wall across the entire bottom boundary (cols 0-38, verified Turns 10503, 10542, 10550). There is no direct overworld exit on 1F without taking Ladder 4 from SW B1F up to 1F (3, 3) Western Corridor.
 
