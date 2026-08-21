@@ -55,7 +55,7 @@ fuchsia_city_content = """# Fuchsia City - Overworld Layout & Points of Interest
 - **Row 32 Open Bypass (CORRECTED):** Row 32 is NOT open all the way from Column 25 to Column 19. It is blocked at Column 24/25 (by a solid fence/building and/or Hiker NPC), making it a dead end on the eastern side.
 """
 
-with open("notepads/Locations/FuchsiaCity.md", "w") as f:
+with open("notepads/Locations/FuchsiaCity.md", "w", encoding="utf-8") as f:
     f.write(fuchsia_city_content)
 
 # 2. Locations/SaffronGym.md
@@ -135,7 +135,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
 """
 
-with open("notepads/Locations/SaffronGym.md", "w") as f:
+with open("notepads/Locations/SaffronGym.md", "w", encoding="utf-8") as f:
     f.write(saffron_gym_content)
 
 # 3. Locations/SafariZone.md
@@ -321,7 +321,7 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
 """
 
-with open("notepads/Locations/SafariZone.md", "w") as f:
+with open("notepads/Locations/SafariZone.md", "w", encoding="utf-8") as f:
     f.write(safari_zone_content)
 
 # 4. Locations/SilphCo.md
@@ -391,7 +391,7 @@ silph_co_content = """# Silph Co. HQ - Overworld Layout & Navigation Guide
   - Saffron Silph Co. President is located at `(6, 9)` inside the boardroom.
 """
 
-with open("notepads/Locations/SilphCo.md", "w") as f:
+with open("notepads/Locations/SilphCo.md", "w", encoding="utf-8") as f:
     f.write(silph_co_content)
 
 # 5. Locations/SaffronCity.md
@@ -415,7 +415,7 @@ saffron_city_content = """# Saffron City - Overworld Layout & Points of Interest
   - Saffron Silph Co. North Wall blocks direct downward access at Column 18 on Rows 10 and 11. To enter Silph Co., Saffron's outer perimeter must be navigated to approach the south entrance at `(18, 21)`.
 """
 
-with open("notepads/Locations/SaffronCity.md", "w") as f:
+with open("notepads/Locations/SaffronCity.md", "w", encoding="utf-8") as f:
     f.write(saffron_city_content)
 
 # 6. Locations/Route16.md
@@ -440,7 +440,7 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 - **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."
 """
 
-with open("notepads/Locations/Route16.md", "w") as f:
+with open("notepads/Locations/Route16.md", "w", encoding="utf-8") as f:
     f.write(route_16_content)
 
 print("Restoration of deleted notepads completed on disk!")

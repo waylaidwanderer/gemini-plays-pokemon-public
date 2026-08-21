@@ -17,9 +17,9 @@
 - Column 2 has a solid vertical wall/fence running from Row 24 to Row 31, dividing the western Gym area from the eastern center. Bypassed by walking south to Row 32.
 
 ## Landmarks & Points of Interest
-- **Pok�mon Center:** Located in the southeast quadrant. Verified entrance door is at `(19, 27)`. Inside, entrance mat is at `(3, 7)` and Nurse Joy is at `(3, 2)`.
+- **Pokémon Center:** Located in the southeast quadrant. Verified entrance door is at `(19, 27)`. Inside, entrance mat is at `(3, 7)` and Nurse Joy is at `(3, 2)`.
 - **Fuchsia City Gym:** Located in the southwest quadrant at columns 4-6, rows 26-27. Verified entrance door is at `(5, 27)` facing south. Gym signpost is at `(5, 29)`.
-- **Pok� Mart:** Entrance door is at `(11, 27)` (verified on Turn 20864). Inside, the entrance mat is at `(2, 7)`, and the clerk is behind the counter at `(2, 3)`.
+- **Poké Mart:** Entrance door is at `(11, 27)` (verified on Turn 20864). Inside, the entrance mat is at `(2, 7)`, and the clerk is behind the counter at `(2, 3)`.
 - **Warden's House:** Located in the southeast at `(27, 27)` (verified on Turn 20885). Inside, Warden resides and speaks in gibberish until his Gold Teeth are returned.
 - **Regular House (Slowpoke Fan):** Entrance at `(22, 13)` (verified on Turn 20903). The resident inside says: "We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"
 - **Safari Zone Gatehouse:** Located at columns 18-21, rows 0-3 on Fuchsia City map. The verified entrance door is at `(18, 3)` facing south.
@@ -27,13 +27,13 @@
 
 ## Spatial Layout Clarifications & Routing
 - **Row 31 Walkability:** Row 31 is NOT a solid horizontal ledge on Columns 1-9. It is fully walkable going UP (and Down). It is merely a decorative border tile of the path, not an impassable cliff ledge.
-- **Path Around the Pok�mon Center (Corrected):**
-  - The Pok�mon Center is located at columns 18-21, rows 22-27 with the entrance door at `(19, 27)`.
-  - The hypothesized route via Column 1 and Row 32 is BLOCKED because the Slowpoke pen on Row 32 (Columns 10-14) is impassable.  - **Actual Verified Path to Pok�mon Center from North:**
+- **Path Around the Pokémon Center (Corrected):**
+  - The Pokémon Center is located at columns 18-21, rows 22-27 with the entrance door at `(19, 27)`.
+  - The hypothesized route via Column 1 and Row 32 is BLOCKED because the Slowpoke pen on Row 32 (Columns 10-14) is impassable.  - **Actual Verified Path to Pokémon Center from North:**
     - Walk Left to Column 1, and walk DOWN Column 1 to Row 32 (bypassing the solid Column 2 vertical wall/fence).
     - Walk Right along Row 32 to Column 8.
     - Walk UP Column 8 through the walkable ledge gap at Column 8 Row 31/32 to Row 28.
-    - Walk Right along Row 28 to Column 19, and walk UP to `(19, 27)` to enter the Pok�mon Center.
+    - Walk Right along Row 28 to Column 19, and walk UP to `(19, 27)` to enter the Pokémon Center.
 
 
 ## Consolidated Overworld Barriers & Layout Map
@@ -43,5 +43,5 @@
 - **Column 22/23 North-South Corridor Ledge:** Column 23 Row 22 has a horizontal ledge/fence that cannot be jumped down from the north (Row 21 to Row 22 is blocked on Columns 22-23).
 - **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees blocking vertical crossing. Row 16 is open on Columns 23-26.
 - **Row 7 Horizontal Barrier (Columns 13-35):** Solid horizontal pine tree wall. The ONLY vertical gap in this barrier is at Column 37, allowing vertical movement between Row 8/9 and Row 2.
-- **Checkerboard Fence Posts (Rows 19-21, Columns 14-21):** An interlocking grid of solid fence posts (Row 19: odd columns blocked; Row 20: even columns blocked; Row 21: odd columns blocked). Completely prevents crossing between Row 20 and Row 21 across Columns 14-17. Column 18 Row 21 is open, but Row 22 on Columns 18-21 is blocked by the Pok�mon Center building. Column 13 is open and bypasses the entire checkerboard!
+- **Checkerboard Fence Posts (Rows 19-21, Columns 14-21):** An interlocking grid of solid fence posts (Row 19: odd columns blocked; Row 20: even columns blocked; Row 21: odd columns blocked). Completely prevents crossing between Row 20 and Row 21 across Columns 14-17. Column 18 Row 21 is open, but Row 22 on Columns 18-21 is blocked by the Pokémon Center building. Column 13 is open and bypasses the entire checkerboard!
 - **Row 32 Open Bypass (CORRECTED):** Row 32 is NOT open all the way from Column 25 to Column 19. It is blocked at Column 24/25 (by a solid fence/building and/or Hiker NPC), making it a dead end on the eastern side.
