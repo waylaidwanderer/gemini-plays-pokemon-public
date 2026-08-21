@@ -50,7 +50,11 @@
    - Eastern Sector Hall (cols 28-37) is physically bounded at north by the row 20-21 rock barrier and at west by cols 26-27 rock wall. [Verified Turns 8484, 8488, 8498]
 10. Western-Eastern Divider (rows 20-27, cols 26-27):
     - Solid 2-tile wide vertical rock wall across cols 26-27 continuously separates Western Avenue (cols 20-25) from Eastern Hall (cols 28-37) across all rows 20 to 27. [Empirically Verified Turn 8498]
-- **Western-Central Divider (rows 18-25, cols 12-13)**: Solid vertical rock wall. East-west passage connecting Central Corridor (col 14) to Western Corridor (cols 10-11) is located at row 17.
+- Solid Vertical Rock Walls:
+  - Cols 18-19 across rows 14-23: Solid vertical rock barrier dividing Southern Avenue (cols 20-25) from Central Sector (cols 14-17).
+  - Cols 12-13 across rows 18-25: Solid vertical rock wall dividing Central and Western sectors.
+- Inter-Sector Routing on 1F:
+  - To reach the South Exit corridor (cols 14-16, rows 24-35), route via Row 11 horizontal highway: (34, 11) -> (27, 11) -> (23, 11) -> (15, 11), then descend south down cols 14-15 past (14, 28).
 
 - **Verified Eastern Sector & Bypass Traversal (Turns 8934-8938)**:
   - Warped to 1F Eastern Sector at (27, 3) via Ladder 2 from B1F (5, 3).
