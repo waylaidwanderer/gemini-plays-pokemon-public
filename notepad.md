@@ -891,7 +891,7 @@
 
 ## Standardized Ladder Connectivity Matrix
 - **North Entrance**: Located at (15, 3). Connects to Route 10 (North).
-- **Ladder 1 Arrival**: 1F (37, 3) is the arrival tile from B1F (33, 25) [1-way arrival on 1F; stepping on (37, 3) does not warp down, verified Turns 9229, 9253].
+- **Ladder 1**: 1F (37, 3) <-> B1F (33, 25) [Functional 2-way ladder: warps directly between 1F (37, 3) and B1F (33, 25), verified Turn 10684].
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [Functional 2-way ladder: warps between 1F (27, 3) and B1F (5, 3), verified Turns 9291, 9380, 9459, 9505, 9603, 9706].
 - **Ladder 3**: 1F (17, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F, downward ladder on 1F at (17, 11), ladder sprite rendered at (17, 11)].
 - **Ladder 4**: 1F (3, 3) <-> B1F [NW 1F <-> B1F ladder in western corridor].
