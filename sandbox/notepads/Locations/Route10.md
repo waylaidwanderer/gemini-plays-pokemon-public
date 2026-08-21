@@ -26,3 +26,4 @@
 - Ledge at row 58: Hop-down ledge heading south. Western passage at col 4 bypasses ledge.
 - South Connection: Connects directly south into Lavender Town.
 - Hiker #2 (Route 10 South): Located at (3, 57) [Defeated Turn 10996]. Team: Geodude Lv 21, Onix Lv 21. Reward: ¥735. Dialogue: "Ha-hahah-ah-ha!" Defeat quote: "Ha-hay fever! Haha-ha-choo!"
+- PokéManiac (Route 10 South): Located at (11, 64) [Defeated Turn 11022]. Team: Cubone Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "Hi kid, want to see my POKéMON?"
