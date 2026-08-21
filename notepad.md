@@ -1081,15 +1081,18 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel 1F - Direct Route to Route 10 South Exit
+# Rock Tunnel - Master Route to Ladder 4 & Lavender Town Exit
 
-## Active Route Execution
-1. [CURRENT] At 1F Eastern Bypass (34, 14): Walk Down 3 steps to (34, 17).
-2. Walk West along row 17 to (22, 17) into the Southern Avenue.
-3. Walk South down col 22 to row 26 (22, 26).
-4. Walk West across row 26 to (15, 26) into the Lower Exit Corridor.
-5. Walk South past (14..15, 28) straight to the South Exit onto Route 10 South!
-6. [GOAL]: Route 10 South -> Walk south into Lavender Town!
-7. [HEAL]: Restore party HP/PP at the Lavender Town Pokémon Center.
+## Canonical Full Dungeon Progression
+1. [CURRENT] At 1F (16, 33): Walk Up to (16, 25) -> Right to (22, 25) -> Up col 22 to (22, 11) -> Right onto Ladder 3 at (23, 11).
+2. [B1F Lower South Highway]:
+   - Warp down to B1F (17, 11).
+   - Walk Down along col 17 through rows 12-29 directly into Lower South Highway at (17, 31).
+   - Walk West along rows 30-33 all the way to Ladder 4 at the western end (cols 2-5).
+3. [1F South Exit]:
+   - Take Ladder 4 up to 1F Western/Exit sector.
+   - Walk south to the South Exit onto Route 10 South!
+4. [GOAL]: Route 10 South -> Walk south into Lavender Town!
+5. [HEAL]: Restore party HP/PP at the Lavender Town Pokémon Center.
 
 <hr>
