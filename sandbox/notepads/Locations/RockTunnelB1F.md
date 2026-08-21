@@ -34,7 +34,7 @@
    - Southern passage runs along rows 30-31 from col 35 west to col 15.
 
 2. South-West Chamber & Bypass (rows 26-28, cols 14-29):
-   - Rows 22-23 are solid rock across cols 16-23.
+   - Cols 20-25 form an open 6-tile wide vertical highway across rows 16-24+ heading south.
    - The Row 27 Northern Bypass connects the eastern sector (col 29) to the western sector (cols 14-17).
 3. Central-East Corridor & North Passage (rows 12-19, cols 20-33):
 
