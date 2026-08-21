@@ -1,68 +1,18 @@
 import mgba
 import time
 
-def get_key():
-    print("Starting Secret Key retrieval script with Scientist bypass...")
+def clear_and_get_key():
+    print("Clearing battle text and trying to walk up Column 1 to the Secret Key...")
     
-    # Starting at (1, 11)
-    # 1. Walk Down to (1, 13)
-    for _ in range(2):
-        mgba.press_buttons(["Down"])
-        time.sleep(0.5)
-    print(f"At (1, 13): {mgba.get_coordinates()}")
+    # 1. Clear battle text
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
     
-    # 2. Walk Right to (5, 13)
-    for _ in range(4):
-        mgba.press_buttons(["Right"])
-        time.sleep(0.5)
-    print(f"At (5, 13): {mgba.get_coordinates()}")
-    
-    # 3. Walk Up to (5, 5) step-by-step
     pos = mgba.get_coordinates()
-    y_target = 5
-    while pos['y'] > y_target:
-        # If we are at (5, 12), check if (5, 11) is blocked
-        if pos == {'x': 5, 'y': 12}:
-            mgba.press_buttons(["Up"])
-            time.sleep(0.5)
-            new_pos = mgba.get_coordinates()
-            if new_pos == pos:
-                # Blocked at (5, 12), bypass the Scientist!
-                print("Scientist is blocking (5, 11). Executing bypass...")
-                # Left to (4, 12)
-                mgba.press_buttons(["Left"])
-                time.sleep(0.5)
-                # Up to (4, 11)
-                mgba.press_buttons(["Up"])
-                time.sleep(0.5)
-                # Up to (4, 10)
-                mgba.press_buttons(["Up"])
-                time.sleep(0.5)
-                # Right to (5, 10)
-                mgba.press_buttons(["Right"])
-                time.sleep(0.5)
-                pos = mgba.get_coordinates()
-                print(f"Successfully bypassed Scientist. Now at: {pos}")
-                continue
-            else:
-                pos = new_pos
-                print(f"Stepped Up to (5, 11): {pos}")
-                continue
-        
-        # Normal Up step
-        mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-        new_pos = mgba.get_coordinates()
-        if new_pos == pos:
-            print(f"Unexpectedly blocked at {pos} while walking UP!")
-            break
-        pos = new_pos
-        print(f"Stepped UP to: {pos}")
-        
-    print(f"Reached top of Column 5: {mgba.get_coordinates()}")
+    print(f"Position in overworld: {pos}")
     
-    # 4. Walk Left towards Column 1
-    print("Walking Left towards Column 1...")
+    # We should be at (4, 13)
+    # 2. Walk Left to Column 1
     for step in range(1, 5):
         mgba.press_buttons(["Left"])
         time.sleep(0.5)
@@ -73,33 +23,47 @@ def get_key():
             break
         pos = new_pos
         
-    # Now we should be at (1, 5). Walk Up to (1, 4)
-    print("Walking Up to (1, 4)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    print(f"Final position before pickup: {mgba.get_coordinates()}")
+    # We should be at (1, 13)
+    # 3. Walk Up Column 1 as far as possible
+    print("Walking Up Column 1...")
+    for step in range(1, 11):
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        new_pos = mgba.get_coordinates()
+        print(f"Step {step} UP: {new_pos}")
+        if new_pos == pos:
+            print(f"Blocked at {pos} on step {step} UP!")
+            break
+        pos = new_pos
+        
+    # Check if we are at (1, 4) or (1, 5)
+    current_pos = mgba.get_coordinates()
+    print(f"Current position: {current_pos}")
     
-    # Take a screenshot before picking it up
+    if current_pos == {'x': 1, 'y': 4}:
+        print("At (1, 4)! Pressing A to get the Secret Key...")
+        mgba.press_buttons(["A"])
+        time.sleep(1.0)
+        # Clear dialogue
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        print("Done!")
+    elif current_pos == {'x': 1, 'y': 5}:
+        print("At (1, 5)! Facing UP and pressing A to get the Secret Key...")
+        mgba.press_buttons(["Up", "A"])
+        time.sleep(1.0)
+        # Clear dialogue
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        print("Done!")
+    else:
+        print("Could not reach Secret Key position directly via Column 1.")
+        
     scr = mgba.take_screenshot()
-    print(f"Screenshot before pickup: {scr}")
-    
-    # Interacting to retrieve the Secret Key
-    print("Pressing A to retrieve key...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # Take screenshot of dialogue
-    scr2 = mgba.take_screenshot()
-    print(f"Dialogue screenshot: {scr2}")
-    
-    # Clear dialogue
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
-    print(f"Retrieval complete! Final position: {mgba.get_coordinates()}")
-    scr3 = mgba.take_screenshot()
-    print(f"Final screenshot: {scr3}")
+    print(f"Screenshot at end: {scr}")
 
-get_key()
+clear_and_get_key()
