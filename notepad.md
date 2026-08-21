@@ -882,6 +882,12 @@
 
 ## Verified Trainers & Encounters
 - Jr. Trainer Female Carol: Located at (7, 25) [Defeated Turn 3088]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
+## Route 10 South Sector (Discovered Turn 10973)
+- Rock Tunnel South Exit: Located at (8, 53).
+- Signpost: Located at (9, 55).
+- Hiker / Trainer: Located at (7, 54).
+- Ledge at row 58: Hop-down ledge heading south. Western passage at col 4 bypasses ledge.
+- South Connection: Connects directly south into Lavender Town.
 
 <hr>
 
