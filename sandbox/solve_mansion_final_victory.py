@@ -51,8 +51,12 @@ def walk_path(path):
                 btn = "Down" if dy > 0 else "Up"
             success, new_pos = step_dir(btn)
             if not success:
-                print(f"  Blocked at {c} trying to move {btn}! Exiting script.")
-                return False
+                other_btn = "Down" if btn in ["Left", "Right"] else "Right"
+                print(f"  Blocked! Trying alternative {other_btn}...")
+                success, new_pos = step_dir(other_btn)
+                if not success:
+                    print(f"  Completely blocked at {c}!")
+                    return False
         if not reached:
             c = get_pos()
             if c['x'] != tx or c['y'] != ty:
@@ -64,73 +68,58 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk from current (13, 12) on 2F (State B) to West stairs at (7, 10)
-path_2f = [
-    (12, 12),
-    (12, 10),
+# 1. Walk from current (9, 11) on 3F (State A) to West stairs at (7, 10) on 3F
+path_3f = [
+    (9, 10),
+    (8, 10),
     (7, 10)
 ]
 
-print("Walking to West stairs on 2F (State B)...")
-if walk_path(path_2f):
-    print("Reached West stairs! Warping up to 3F...")
+print("Walking to West stairs on 3F...")
+if walk_path(path_3f):
+    print("Warping down to 2F...")
     time.sleep(2.0) # wait for warp
-    print("Arrived on 3F. Position:", get_pos())
+    print("Arrived on 2F. Position:", get_pos())
     mgba.take_screenshot()
     
-    # 2. On 3F (State B), walk to (9, 10)
-    path_3f = [
-        (9, 11),
-        (9, 10)
+    # 2. On 2F (State A), walk from (7, 11) to East stairs at (15, 11) via row 12
+    path_2f = [
+        (12, 11),
+        (12, 12),
+        (13, 12),
+        (15, 12),
+        (15, 11)
     ]
-    print("Walking to (9, 10) on 3F...")
-    if walk_path(path_3f):
-        print("Reached (9, 10)! Testing if we can walk Right to (10, 10)...")
-        success, pos = step_dir("Right")
-        if success:
-            print("Walked Right to (10, 10)! Pos:", pos)
+    print("Walking to East stairs on 2F (State A)...")
+    if walk_path(path_2f):
+        print("Reached East stairs! Warping to 3F...")
+        time.sleep(2.0) # wait for warp
+        print("Arrived on 3F (East side). Position:", get_pos())
+        mgba.take_screenshot()
+        
+        # 3. On 3F (East side, State A), walk to balcony landing (20, 15)
+        path_3f_east = [
+            (18, 11),
+            (18, 14),
+            (21, 14),
+            (21, 15),
+            (20, 15)
+        ]
+        print("Walking to balcony landing on 3F...")
+        if walk_path(path_3f_east):
+            print("Reached balcony landing successfully! Dropping to B1F...")
             mgba.take_screenshot()
-            
-            # Try walking Right to (11, 10)
-            success2, pos2 = step_dir("Right")
-            if success2:
-                print("Walked Right to (11, 10)! East side reached!")
-                # Walk to balcony landing
-                path_balcony = [
-                    (11, 5),
-                    (20, 5),
-                    (20, 3),
-                    (21, 3),
-                    (25, 3),
-                    (25, 7),
-                    (26, 7),
-                    (26, 12),
-                    (25, 12),
-                    (25, 14),
-                    (21, 14),
-                    (21, 15),
-                    (20, 15)
-                ]
-                print("Walking to balcony landing on 3F...")
-                if walk_path(path_balcony):
-                    print("Reached balcony landing! Dropping to B1F...")
-                    mgba.take_screenshot()
-                    mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
-                    time.sleep(3.0)
-                    print("Dropped! B1F Position:", get_pos())
-                    mgba.take_screenshot()
-                else:
-                    print("Failed to reach balcony landing.")
-                    mgba.take_screenshot()
-            else:
-                print("Blocked trying to move from (10, 10) to (11, 10).")
-                mgba.take_screenshot()
+            # Step Down to (20, 18) and Left to drop
+            mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
+            time.sleep(3.0)
+            print("Dropped! B1F Position:", get_pos())
+            mgba.take_screenshot()
         else:
-            print("Blocked trying to move from (9, 10) to (10, 10).")
+            print("Failed to reach balcony landing on 3F.")
             mgba.take_screenshot()
     else:
-        print("Failed to reach (9, 10) on 3F.")
+        print("Failed to reach East stairs on 2F.")
         mgba.take_screenshot()
 else:
-    print("Failed to reach West stairs on 2F.")
+    print("Failed to reach West stairs on 3F.")
     mgba.take_screenshot()
