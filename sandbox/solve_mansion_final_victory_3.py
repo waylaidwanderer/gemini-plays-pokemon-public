@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting Fall-and-Toggle-and-Drop Script Part 2. Current pos:", get_pos())
+print("Starting Final Balcony Drop Script. Current pos:", get_pos())
 
 def handle_battle():
     print("  Battle/Dialogue detected! Handling...")
@@ -60,54 +60,25 @@ def step_to_closed_loop(tx, ty):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk from (16, 7) on 2F (State B) to switch station (12, 11)
-# Route: (16, 7) -> (16, 6) -> (12, 6) -> (12, 11)
-waypoints_2f_state_b = [
-    (16, 6),
-    (12, 6),
-    (12, 11)
-]
-
-for (wx, wy) in waypoints_2f_state_b:
-    step_to_closed_loop(wx, wy)
-
-# 2. Toggle switch at (13, 11) to State A
-print("Standing at (12, 11) on 2F facing Right towards switch at (13, 11).")
-mgba.press_buttons(["Right"])
-time.sleep(0.4)
-
-print("Toggling switch to State A...")
-mgba.press_buttons([
-    "A", "sleep 1000",
-    "A", "sleep 1000",
-    "Up", "sleep 500",
-    "A", "sleep 1000",
-    "B", "sleep 500",
-    "B"
-])
-time.sleep(3.0)
-print("Switch toggled. Current position on 2F:", get_pos())
-
-# 3. Walk back to the stairs landing at (16, 11) on 2F (State A)
-# Route: (12, 11) -> (12, 7) -> (16, 7) -> (16, 11)
-waypoints_2f_state_a = [
-    (12, 7),
+# 1. Walk from (17, 7) to stairs landing (16, 11) on 2F (State A)
+# Route: (17, 7) -> (16, 7) -> (16, 11)
+waypoints_2f = [
     (16, 7),
     (16, 11)
 ]
 
-for (wx, wy) in waypoints_2f_state_a:
+for (wx, wy) in waypoints_2f:
     step_to_closed_loop(wx, wy)
 
-# 4. Warp back UP to 3F (step Left onto (15, 11))
-print("Stepping Left onto stairs at (15, 11) to warp to 3F...")
+# 2. Warp UP to 3F (step Left onto (15, 11))
+print("Stepping Left onto stairs at (15, 11) to warp UP to 3F...")
 mgba.press_buttons(["Left"])
 time.sleep(2.0)
 print("Position after warping back to 3F (should be (16, 11)):", get_pos())
 
-# 5. Walk to balcony landing on 3F (State A)
+# 3. Walk to balcony landing on 3F (State A)
 # Route: (16, 11) -> (18, 11) -> (18, 14) -> (20, 14) -> (21, 14) -> (21, 15) -> (20, 15)
-waypoints_3f_state_a = [
+waypoints_3f = [
     (18, 11),
     (18, 14),
     (20, 14),
@@ -116,10 +87,10 @@ waypoints_3f_state_a = [
     (20, 15)
 ]
 
-for (wx, wy) in waypoints_3f_state_a:
+for (wx, wy) in waypoints_3f:
     step_to_closed_loop(wx, wy)
 
-# 6. Drop to B1F!
+# 4. Drop to B1F!
 print("Reached balcony landing (20, 15) in State A! Dropping to B1F...")
 mgba.press_buttons([
     "Down", "sleep 400",
