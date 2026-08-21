@@ -1102,11 +1102,12 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At 1F (10, 16).
-- Systematic Exploration & Exit Plan:
-  1. From (10, 16), cross East across row 16 to (15, 16).
-  2. Probe South down col 15 through rows 17-34 to empirically determine whether col 15 opens into a south exit or dead-ends.
-  3. If col 15 terminates without an exit, probe the Western Corridor from (3, 3) south to locate the exact exit tile.
-  4. Exit Rock Tunnel into Route 10 South and proceed to Lavender Town.
+- At 1F (15, 21).
+- 4-Stage Dungeon Progression Plan (Canonical Route):
+  1. Ascend col 15 to row 11 at (15, 11) (10 Up) and traverse east along row 11 to (23, 11) (8 Right).
+  2. Ascend col 23 to North Corridor at (23, 3) (8 Up) and traverse east along row 3 to Ladder 2 area at (27, 3) (4 Right).
+  3. Descend col 27 to row 11 at (27, 11) (8 Down), traverse east to (34, 11) (7 Right), and descend Eastern Bypass to Southern Hall at (34, 17) (6 Down).
+  4. Explore Southern Hall & Southern Avenue (cols 20-37, rows 16-27) on 1F to locate the downward ladder to SE B1F / Lower South Highway.
+  5. On B1F, traverse Lower South Highway (rows 30-33) west from col 35 to SW B1F (col 2), ascend final ladder to 1F, and exit to Route 10 South.
 
 <hr>
