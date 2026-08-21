@@ -20,13 +20,8 @@
   - Rock pillar at cols 6-7 spans rows 14-18+.
   - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
 
-- **B1F Empirical Findings**:
-  - Rows 22-23 form a continuous solid rock barrier across cols 8-23 (verified Turn 10411).
-  - Southward passage to Lower South Highway (rows 30-33) requires routing through the Eastern Sector (cols 26-37, rows 10-25).
-  - Current Position: B1F (20, 20).
-
 ## Current Working Plan (B1F Exploration)
-- At B1F (15, 14).
-- Descend to row 16 at (15, 16) (2 Down) and traverse east across rows 16-18 into the Eastern Sector at cols 21-26 (6-11 Right).
-- Descend south down Eastern Sector past row 23 to Lower South Highway at (33, 31).
-- Traverse Lower South Highway (rows 30-33) west from col 33 all the way to SW B1F (cols 2-5) to locate Ladder 4.
+- At B1F (5, 3).
+- Descend south down cols 4-7 through rows 3-16 to row 16 bypass.
+- Traverse row 16 bypass east to cols 14-17 / cols 20-22.
+- Route through the cavern to the Lower South Highway (rows 30-33) to explore SW B1F (cols 2-5) for the exit ladder (Ladder 4 hypothesis).
