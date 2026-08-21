@@ -1,96 +1,113 @@
 import mgba
 import time
 
-def solve_b1f_mansion():
-    print("Executing ultimate B1F route to retrieve the Secret Key...")
+def move_to(tx, ty):
+    current = mgba.get_coordinates()
+    print(f"Navigating from {current} to ({tx}, {ty})...")
+    
+    attempts_stuck = 0
+    while current != {'x': tx, 'y': ty}:
+        cx, cy = current['x'], current['y']
+        
+        # Determine next button to press
+        if cx < tx:
+            btn = "Right"
+        elif cx > tx:
+            btn = "Left"
+        elif cy < ty:
+            btn = "Down"
+        elif cy > ty:
+            btn = "Up"
+            
+        mgba.press_buttons([btn])
+        time.sleep(0.4)
+        
+        new_pos = mgba.get_coordinates()
+        if new_pos == current:
+            # Position did not change. We might be in a battle or hitting a wall!
+            attempts_stuck += 1
+            print(f"Stuck at {current} (attempt {attempts_stuck}). Trying to clear/flee...")
+            
+            # 1. Try to flee from battle: Down, Right, A
+            mgba.press_buttons(["Down", "Right", "A"])
+            time.sleep(1.0)
+            
+            # 2. Press B to clear "Got away safely!" or any dialogue
+            mgba.press_buttons(["B"])
+            time.sleep(0.5)
+            
+            # 3. Press B again to be sure
+            mgba.press_buttons(["B"])
+            time.sleep(0.5)
+            
+            new_pos = mgba.get_coordinates()
+            if new_pos == current and attempts_stuck > 3:
+                # If we are still stuck after 3 attempts, we might be hitting a wall. Break to avoid infinite loop.
+                print(f"CRITICAL: Physically blocked at {current} while trying to reach ({tx}, {ty})!")
+                break
+        else:
+            attempts_stuck = 0
+            current = new_pos
+            print(f"Moved to: {current}")
+
+def execute_master_route():
+    print("Starting B1F Secret Key Master Routine...")
     
     # We are currently at (10, 1) in State A
-    # 1. Walk Down Column 10 to (10, 11)
-    for step in range(1, 11):
-        mgba.press_buttons(["Down"])
-        time.sleep(0.5)
-    print(f"At Row 11: {mgba.get_coordinates()}")
+    # Step 1: Walk Down Column 10 to Row 11
+    move_to(10, 11)
     
-    # 2. Walk Left to (3, 11)
-    for _ in range(7):
-        mgba.press_buttons(["Left"])
-        time.sleep(0.5)
-    print(f"At (3, 11): {mgba.get_coordinates()}")
+    # Step 2: Walk Left to (3, 11)
+    move_to(3, 11)
     
-    # 3. Walk to (1, 11) via Row 12 to bypass the statue
-    mgba.press_buttons(["Down"])
-    time.sleep(0.5)
-    mgba.press_buttons(["Left", "Left"])
-    time.sleep(1.0)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    print(f"At (1, 11): {mgba.get_coordinates()}")
+    # Step 3: Walk to (1, 11) via Row 12 to bypass the statue
+    move_to(3, 12)
+    move_to(1, 12)
+    move_to(1, 11)
     
-    # 4. Turn Right and toggle switch to State B
+    # Step 4: Turn Right and toggle switch to State B
+    print("At (1, 11). Facing Right to toggle switch...")
     mgba.press_buttons(["Right"])
     time.sleep(0.5)
-    print("Facing Mewtwo statue. Toggling switch to State B...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
-    # Clear dialogue if any
+    # Clear dialogue
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     mgba.press_buttons(["B"])
     time.sleep(0.5)
-    print(f"Switch toggled! Position: {mgba.get_coordinates()}")
+    print(f"Current position after switch toggle: {mgba.get_coordinates()}")
     
-    # Now the switch is in State B!
-    # 5. Walk to (5, 13) via Row 13
-    mgba.press_buttons(["Down", "Down"])
-    time.sleep(1.0)
-    print(f"At (1, 13) in State B: {mgba.get_coordinates()}")
-    for _ in range(4):
-        mgba.press_buttons(["Right"])
-        time.sleep(0.5)
-    print(f"At (5, 13) in State B: {mgba.get_coordinates()}")
+    # Step 5: Walk to (5, 13) via Row 13 in State B
+    move_to(1, 13)
+    move_to(5, 13)
     
-    # 6. Walk UP Column 5 to (5, 8)
-    for step in range(1, 6):
-        mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-    print(f"At Column 5 Row 8: {mgba.get_coordinates()}")
+    # Step 6: Walk UP Column 5 to (5, 8)
+    move_to(5, 8)
     
-    # 7. Walk Left to (4, 8)
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    print(f"At (4, 8): {mgba.get_coordinates()}")
+    # Step 7: Walk Left to (4, 8)
+    move_to(4, 8)
     
-    # 8. Walk UP Column 4 to (4, 5) (through open gates (4,7) and (4,6)!)
-    for _ in range(3):
-        mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-    print(f"At (4, 5) in North section: {mgba.get_coordinates()}")
+    # Step 8: Walk UP Column 4 to (4, 5) (through open gates (4,7) and (4,6)!)
+    move_to(4, 5)
     
-    # 9. Walk Left to (1, 5)
-    for _ in range(3):
-        mgba.press_buttons(["Left"])
-        time.sleep(0.5)
-    print(f"At (1, 5): {mgba.get_coordinates()}")
+    # Step 9: Walk Left to (1, 5)
+    move_to(1, 5)
     
-    # 10. Walk Up to (1, 4) (Secret Key!)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    print(f"At Secret Key tile (1, 4): {mgba.get_coordinates()}")
-    
-    # 11. Face UP and retrieve Secret Key
+    # Step 10: Stand at (1, 5) facing UP and press A to retrieve Secret Key
+    print("At (1, 5). Facing Up to retrieve Secret Key...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     mgba.press_buttons(["A"])
     time.sleep(1.0)
-    
     # Clear dialogue
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
-    print(f"Retrieval complete! Final position: {mgba.get_coordinates()}")
+    print(f"Retrieval attempt finished. Final position: {mgba.get_coordinates()}")
     scr = mgba.take_screenshot()
-    print(f"Final screenshot: {scr}")
+    print(f"Screenshot at end: {scr}")
 
-solve_b1f_mansion()
+execute_master_route()
