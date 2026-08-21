@@ -20,21 +20,24 @@ def walk_step(direction):
         print(f"After retry, position is {pos_after}")
     return pos_after
 
-# We are at (7, 10) on 1F West.
-# Let's walk to 1F East:
-# Down to (7, 11)
-# Right 5 to (12, 11)
-# Up 4 to (12, 7)
-# Right 8 to (20, 7)
+# We are at (20, 7) on 1F East.
+# Path to stairs at (18, 3):
+# Left 2 to (18, 7)
+# Up 4 to (18, 3)
 
-path = ["Down"] + ["Right"]*5 + ["Up"]*4 + ["Right"]*8
+path = ["Left", "Left", "Up", "Up", "Up", "Up"]
 
-print("Walking from 1F West to 1F East...")
+print("Walking to 2F East stairs...")
 for idx, direction in enumerate(path):
+    pos_before = mgba.get_coordinates()
     pos = walk_step(direction)
-    print(f"Step {idx}: arrived at {pos}")
+    print(f"Step {idx} ({direction}): {pos_before} -> {pos}")
+    # If we warped (large coordinate change or new map)
+    if pos['x'] != pos_before['x'] and abs(pos['x'] - pos_before['x']) > 2:
+        print("WARPED!")
+        break
 
 time.sleep(1.0)
 pos = mgba.get_coordinates()
-print("Final position:", pos)
+print("Final position after script:", pos)
 mgba.take_screenshot()
