@@ -8,17 +8,15 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Running solve_mansion_final_victory.py. Starting pos:", get_pos())
+print("Starting Master B1F Drop Script. Current pos:", get_pos())
 
 def handle_battle():
-    # Clear screens
+    print("  Battle/Dialogue detected! Handling...")
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
-    # Run from battle
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
-    # Clear textbox
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
@@ -58,73 +56,86 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Clear any hanging textbox first
+# Clear any lingering menus
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk from current position (18, 8) to (13, 12) on 2F (front of switch)
-waypoints_to_switch = [
-    (18, 7),   # Step UP to open row 7 corridor first!
-    (12, 7),   # Walk Left to column 12
-    (12, 12),  # Walk Down to row 12
-    (13, 12)   # Walk Right to (13, 12) (front of Mewtwo statue switch)
+# 1. We are at (16, 9) on 2F. Walk to (16, 11)
+step_to_closed_loop(16, 11)
+
+# 2. Warp UP to 3F. Step Left onto stairs at (15, 11).
+print("Stepping Left onto stairs at (15, 11) to warp to 3F...")
+mgba.press_buttons(["Left"])
+time.sleep(2.0)
+print("Warp complete. Position on 3F:", get_pos())
+
+# 3. On 3F (State A), walk to the west-side switch at (2, 12).
+# Route: (16, 11) -> (18, 11) -> (18, 7) -> (12, 7) -> (12, 11) -> (2, 11) -> (2, 12)
+waypoints_3f_state_a = [
+    (18, 11),
+    (18, 7),
+    (12, 7),
+    (12, 11),
+    (2, 11),
+    (2, 12)
 ]
 
-success_to = True
-for (wx, wy) in waypoints_to_switch:
-    if not step_to_closed_loop(wx, wy):
-        success_to = False
-        break
+for (wx, wy) in waypoints_3f_state_a:
+    step_to_closed_loop(wx, wy)
 
-if success_to:
-    print("Reached (13, 12). Toggling 2F switch from FRONT to State A...")
-    mgba.press_buttons([
-        "Up", "sleep 500",
-        "A", "sleep 1500",
-        "Up", "sleep 500",
-        "A", "sleep 1500",
-        "B", "sleep 500",
-        "B"
-    ])
-    time.sleep(5.0)
-    print("Switch toggled! Pos:", get_pos())
-    
-    # 2. Walk back to the stairs at (16, 11) on 2F
-    waypoints_back = [
-        (12, 12), (12, 7),
-        (16, 7), (16, 11)
-    ]
-    success_back = True
-    for (wx, wy) in waypoints_back:
-        if not step_to_closed_loop(wx, wy):
-            success_back = False
-            break
-            
-    if success_back:
-        print("Reached (16, 11). Warping back UP to 3F...")
-        mgba.press_buttons(["Left"]) # Step Left onto the stairs at (15, 11) to warp up
-        time.sleep(1.5)
-        print("Landed on 3F in State A! Current pos:", get_pos())
-        
-        # 3. Walk to the balcony drop on 3F in State A
-        waypoints_to_drop = [
-            (20, 11),
-            (20, 15),
-            (20, 18), # In State A, both row 16 gate and row 17 gate are open!
-            (19, 18)  # Step Left to drop!
-        ]
-        success_drop = True
-        for (wx, wy) in waypoints_to_drop:
-            if not step_to_closed_loop(wx, wy):
-                success_drop = False
-                break
-                
-        if success_drop:
-            print("Mansion 3F Balcony Drop complete! Current pos on B1F:", get_pos())
-            mgba.take_screenshot()
-        else:
-            print("Failed to complete balcony drop on 3F.")
-    else:
-        print("Failed to walk back to 2F stairs.")
-else:
-    print("Failed to reach (13, 12) switch on 2F.")
+# 4. Stand at (2, 12) facing Up and toggle 3F switch to State B!
+print("At 3F switch station (2, 12). Facing Up...")
+mgba.press_buttons(["Up"])
+time.sleep(0.4)
+
+print("Toggling 3F switch to State B...")
+mgba.press_buttons([
+    "A", "sleep 1000",
+    "A", "sleep 1000",
+    "Up", "sleep 500",
+    "A", "sleep 1000",
+    "B", "sleep 500",
+    "B"
+])
+time.sleep(3.0)
+
+# 5. On 3F (State B), walk to the balcony drop landing at (20, 15).
+# Route: (2, 12) -> (7, 12) -> (7, 13) -> (9, 13) -> (9, 10) -> (12, 10) -> (12, 5) -> (20, 5) -> (20, 3) -> (26, 3) -> (26, 5) -> (24, 5) -> (24, 7) -> (26, 7) -> (26, 12) -> (25, 12) -> (25, 14) -> (22, 14) -> (21, 14) -> (21, 15) -> (20, 15).
+waypoints_3f_state_b = [
+    (7, 12),
+    (7, 13),
+    (9, 13),
+    (9, 10),
+    (12, 10),
+    (12, 5),
+    (20, 5),
+    (20, 3),
+    (26, 3),
+    (26, 5),
+    (24, 5),
+    (24, 7),
+    (26, 7),
+    (26, 12),
+    (25, 12),
+    (25, 14),
+    (22, 14),
+    (21, 14),
+    (21, 15),
+    (20, 15)
+]
+
+for (wx, wy) in waypoints_3f_state_b:
+    step_to_closed_loop(wx, wy)
+
+# 6. Drop to B1F!
+print("Successfully reached balcony landing (20, 15) on 3F in State B! Dropping...")
+mgba.press_buttons([
+    "Down", "sleep 400",
+    "Down", "sleep 400",
+    "Down", "sleep 400",
+    "Left"
+])
+time.sleep(3.0)
+
+print("Master run complete. Landing position on B1F:", get_pos())
+mgba.take_screenshot()
