@@ -17,9 +17,9 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At 1F (10, 27).
-- Verified Route to Route 10 South Exit:
-  1. Ascend col 10 to row 16 at (10, 16) (11 steps Up).
-  2. Traverse East along row 16 across cols 10-15 to (15, 16) (5 steps Right).
-  3. Descend South down col 15 Exit Corridor through rows 17-34 (18 steps Down) to Route 10 South Exit.
-  4. Exit Rock Tunnel into Route 10 South and proceed to Lavender Town Pok\u00e9mon Center.
+- At 1F (10, 16).
+- Systematic Exploration & Exit Plan:
+  1. From (10, 16), cross East across row 16 to (15, 16).
+  2. Probe South down col 15 through rows 17-34 to empirically determine whether col 15 opens into a south exit or dead-ends.
+  3. If col 15 terminates without an exit, probe the Western Corridor from (3, 3) south to locate the exact exit tile.
+  4. Exit Rock Tunnel into Route 10 South and proceed to Lavender Town.
