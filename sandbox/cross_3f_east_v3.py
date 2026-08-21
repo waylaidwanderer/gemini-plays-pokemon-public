@@ -19,40 +19,57 @@ def walk_step(direction):
         print(f"Moved to {pos_after}")
     return pos_after
 
-# Starting from (8, 11) on 3F West (State A)
+# Starting from (8, 12) on 3F West (State A)
 pos = mgba.get_coordinates()
-print("Starting position on 3F West:", pos)
+print("Starting position:", pos)
 
-# Step 1: Walk Down to Row 12
-if pos['x'] == 8 and pos['y'] == 11:
-    pos = walk_step("Down")
+# Step 1: Walk UP to (8, 11) (handle Hiker NPC)
+print("Walking to (8, 11)...")
+stuck_time = 0
+while pos['y'] > 11:
+    pos_before = pos
+    pos = walk_step("Up")
+    if pos == pos_before:
+        stuck_time += 1
+        if stuck_time > 15:
+            handle_battle()
+            stuck_count = 0
+            pos = mgba.get_coordinates()
+        else:
+            time.sleep(0.5)
 
-# Step 2: Walk Right along Row 12 to Column 12
-while pos['x'] < 12:
-    pos = walk_step("Right")
+# Step 2: Walk Left along Row 11 to Column 5
+print("Walking Left to Column 5...")
+while pos['x'] > 5:
+    pos = walk_step("Left")
 
-# Step 3: Walk Up Column 12 to Row 6
-print("Walking to (19, 6)...")
+# Step 3: Walk Up Column 5 to Row 6
+print("Walking Up to Row 6...")
 while pos['y'] > 6:
     pos = walk_step("Up")
 
 # Step 4: Walk Right along Row 6 to Column 19
+print("Walking Right to Column 19...")
 while pos['x'] < 19:
     pos = walk_step("Right")
 
-# Step 5: Walk Down Column 19 to Row 11
+# Step 5: Walk Down Column 19 to Row 11 (should be open now in State A!)
 print("Walking Down Column 19...")
 while pos['y'] < 11:
+    pos_before = pos
     pos = walk_step("Down")
+    if pos == pos_before:
+         print("CRITICAL: Column 19 is still blocked!")
+         break
 
-# Step 6: Walk Left to (15, 11) (the stairs) and warp
-print("Walking to East stairs...")
-while pos['x'] > 15:
+# Step 6: Walk Left along Row 11 to (15, 11) (the stairs) and warp
+if pos['x'] == 19 and pos['y'] == 11:
+    print("Walking to East stairs...")
+    while pos['x'] > 15:
+        pos = walk_step("Left")
+    
+    print("Stepping onto stairs...")
     pos = walk_step("Left")
-
-# Step 7: Step Left onto the stairs warp
-print("Stepping onto stairs...")
-pos = walk_step("Left")
 
 print("Final position:", mgba.get_coordinates())
 mgba.take_screenshot()
