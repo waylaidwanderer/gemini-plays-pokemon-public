@@ -13,7 +13,6 @@ def handle_battle():
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
-    # Run option: Down, Right, A
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
     for _ in range(5):
@@ -68,18 +67,19 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. On 2F, walk from current (12, 10) to East stairs at (15, 11)
+# 1. On 2F (State B), walk from current (12, 12) to East stairs at (15, 11)
 path_2f = [
-    (12, 13),
-    (15, 13),
+    (12, 7),
+    (16, 7),
+    (16, 11),
     (15, 11)
 ]
 
-print("Walking to East stairs on 2F...")
+print("Walking to East stairs on 2F (State B)...")
 if walk_path(path_2f):
     print("Reached East stairs! Warping to 3F...")
     time.sleep(2.0) # wait for warp animation
-    print("Arrived on 3F. Position:", get_pos())
+    print("Arrived on 3F (East side). Position:", get_pos())
     mgba.take_screenshot()
     
     # 2. On 3F (East side, State B), walk to balcony landing (20, 15)
