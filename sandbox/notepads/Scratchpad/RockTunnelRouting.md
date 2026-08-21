@@ -16,11 +16,12 @@
   - Row 16 bypass (cols 8-17).
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
+- **1F Empirical Findings**:
+  - Rock pillar at cols 6-7 spans rows 14-18+.
+  - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
+  - Current Position: 1F (8, 14). Bypass route to Western Corridor: Up 2 to (8, 12), Left 6 to (2, 12).
+
 ## Current Working Plan
-- At 1F (15, 21).
-- 4-Stage Dungeon Progression Plan (Canonical Route):
-  1. Ascend col 15 to row 11 at (15, 11) (10 Up) and traverse east along row 11 to (23, 11) (8 Right).
-  2. Ascend col 23 to North Corridor at (23, 3) (8 Up) and traverse east along row 3 to Ladder 2 area at (27, 3) (4 Right).
-  3. Descend col 27 to row 11 at (27, 11) (8 Down), traverse east to (34, 11) (7 Right), and descend Eastern Bypass to Southern Hall at (34, 17) (6 Down).
-  4. Explore Southern Hall & Southern Avenue (cols 20-37, rows 16-27) on 1F to locate the downward ladder to SE B1F / Lower South Highway.
-  5. On B1F, traverse Lower South Highway (rows 30-33) west from col 35 to SW B1F (col 2), ascend final ladder to 1F, and exit to Route 10 South.
+- At 1F (8, 14).
+- Bypass rock pillar via row 12: Up 2 to (8, 12), Left 6 to (2, 12).
+- From (2, 12), explore south down Western Corridor (cols 2-5, rows 12-33) to locate the South Exit to Route 10 South / Lavender Town.
