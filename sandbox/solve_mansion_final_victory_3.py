@@ -9,22 +9,28 @@ def get_pos():
     return p
 
 def handle_battle():
-    print("  Battle/Dialogue detected! Handling...")
-    for _ in range(5):
+    print("  Battle/Dialogue/Menu detected! Handling...")
+    # Clear dialogue text boxes or battle transitions
+    for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
+    # Attempt to run: Down, Right, A
+    print("  Attempting to RUN...")
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
-    time.sleep(1.2)
-    for _ in range(5):
+    time.sleep(1.5)
+    # Clear potential "Escaped safely!" text
+    for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
 
 def step_dir(d):
     before = get_pos()
+    print(f"  Stepping {d} from {before}...")
     mgba.press_buttons([d])
     time.sleep(0.4)
     after = get_pos()
     if before == after:
+        # We might be in a battle or blocked
         handle_battle()
         after = get_pos()
     return after != before, after
@@ -35,7 +41,7 @@ def walk_path(path):
         tx, ty = target
         print(f"Targeting: ({tx}, {ty})")
         reached = False
-        for attempt in range(15):
+        for attempt in range(20):
             c = get_pos()
             if c['x'] == tx and c['y'] == ty:
                 reached = True
@@ -50,8 +56,9 @@ def walk_path(path):
                 btn = "Down" if dy > 0 else "Up"
             success, new_pos = step_dir(btn)
             if not success:
+                # Try the alternative direction to slide around simple obstacle
                 other_btn = "Down" if btn in ["Left", "Right"] else "Right"
-                print(f"  Blocked! Trying alternative {other_btn}...")
+                print(f"  Blocked! Trying alternative direction {other_btn}...")
                 success, new_pos = step_dir(other_btn)
                 if not success:
                     print(f"  Completely blocked at {c}!")
@@ -67,63 +74,85 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk from current (5, 12) to switch at (12, 12) on 3F in State A
+# Phase 1: Walk to the 3F West-side Switch at (2, 11) via Row 11 (State A is active)
+# Current position is (13, 12)
 path_to_switch = [
-    (5, 9),
-    (9, 9),
-    (9, 12),
-    (12, 12)
+    (12, 12),
+    (12, 11),
+    (3, 11),
+    (3, 12),
+    (2, 12)
 ]
 
-print("Walking to center-left Mewtwo switch at (12, 12) on 3F...")
+print("--- PHASE 1: WALKING TO SWITCH (2, 11) ---")
 if walk_path(path_to_switch):
-    print("Reached (12, 12). Facing Up and toggling Mewtwo switch to State B...")
+    print("Reached switch location (2, 12)!")
+    mgba.take_screenshot()
+    
+    # Face UP to statue at (2, 11)
+    print("Turning UP to face statue...")
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
     
     # Toggle switch to State B
-    mgba.press_buttons([
-        "A", "sleep 1000",
-        "A", "sleep 1000",
-        "Up", "sleep 1000",
-        "A", "sleep 1000",
-        "B", "sleep 500",
-        "B"
-    ])
-    time.sleep(3.0)
-    print("Switch toggled. Position:", get_pos())
+    print("Interacting with statue switch to set State B...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.5)
+    # Clear text
+    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "B"])
+    time.sleep(0.5)
     mgba.take_screenshot()
     
-    # 2. Walk to balcony landing (20, 15) in State B
-    path_to_balcony = [
-        (11, 12),
+    # Phase 2: Walk the Master Route to Balcony Drop (State B is active)
+    # Starting from (2, 12) on 3F
+    master_route = [
+        (7, 12),
+        (7, 13),
+        (9, 13),
+        (9, 10),
         (11, 10),
         (11, 5),
         (20, 5),
-        (20, 3),
         (21, 3),
-        (25, 3),
-        (25, 7),
+        (26, 3),
+        (26, 5),
+        (24, 5),
+        (24, 7),
         (26, 7),
         (26, 12),
         (25, 12),
         (25, 14),
+        (22, 14),
         (21, 14),
         (21, 15),
         (20, 15)
     ]
-    print("Walking to balcony landing on 3F...")
-    if walk_path(path_to_balcony):
-        print("Reached balcony landing successfully! Dropping to B1F...")
+    
+    print("--- PHASE 2: WALKING MASTER ROUTE TO BALCONY ---")
+    if walk_path(master_route):
+        print("Reached balcony landing (20, 15)!")
         mgba.take_screenshot()
-        # Step Down to (20, 18) and Left to drop
-        mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
-        time.sleep(3.0)
-        print("Dropped! B1F Position:", get_pos())
-        mgba.take_screenshot()
+        
+        # Step Down to (20, 18) through open shutter gate
+        print("Stepping Down to (20, 18)...")
+        walk_to_edge = [
+            (20, 17),
+            (20, 18)
+        ]
+        if walk_path(walk_to_edge):
+            print("At drop edge (20, 18). Dropping Left to B1F!")
+            mgba.take_screenshot()
+            mgba.press_buttons(["Left"])
+            time.sleep(3.0) # wait for fall transition
+            print("Dropped! New Position:", get_pos())
+            mgba.take_screenshot()
+        else:
+            print("Failed to reach drop edge.")
+            mgba.take_screenshot()
     else:
-        print("Failed to reach balcony landing on 3F.")
+        print("Failed to navigate Master Route to Balcony.")
         mgba.take_screenshot()
 else:
-    print("Failed to reach Mewtwo switch on 3F.")
+    print("Failed to reach West-side Switch.")
     mgba.take_screenshot()
+
