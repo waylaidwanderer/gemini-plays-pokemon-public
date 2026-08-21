@@ -1,10 +1,26 @@
-# Let's search the ROM data for Pokemon Mansion 2F.
-# The ROM image is usually named something like "pokemon_blue.gb" or "pokemon_blue.gbc" or similar.
-# Let's see what files are in the parent directory or search for .gb/.gbc files.
+# Let's search the system for the ROM file!
+# Since we are on Windows (based on C:\Users\joel\AppData\Roaming\uv\python...), we can search for .gb or .gbc files starting from C:\Users\joel or C:\
 import os
-import glob
 
-print("Current directory:", os.getcwd())
-print("Files in current dir:", os.listdir("."))
-print("Files in parent dir:", os.listdir(".."))
-print("Files in parent parent dir:", os.listdir("../.."))
+print("Searching for ROM...")
+found = []
+# Let's search C:\Users\joel\desktop
+search_paths = ["C:\\Users\\joel\\desktop", "C:\\Users\\joel\\Desktop", "C:\\Users\\joel"]
+for sp in search_paths:
+    if os.path.exists(sp):
+        print(f"Searching in {sp}...")
+        for root, dirs, files in os.walk(sp):
+            # To avoid scanning everything and timing out, let's limit the depth
+            if root.count(os.sep) - sp.count(os.sep) > 3:
+                continue
+            for f in files:
+                if f.endswith(".gb") or f.endswith(".gbc") or "blue" in f.lower() or "red" in f.lower():
+                    fp = os.path.join(root, f)
+                    print("Found candidate file:", fp)
+                    found.append(fp)
+            if len(found) > 10:
+                break
+    if len(found) > 10:
+        break
+
+print("Search finished!")
