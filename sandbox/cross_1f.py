@@ -1,44 +1,40 @@
 import mgba
 import time
 
-# We are at (7, 10) on 3F West.
-print("Current position:", mgba.get_coordinates())
+def walk_step(direction):
+    pos_before = mgba.get_coordinates()
+    mgba.press_buttons([direction])
+    time.sleep(0.3)
+    pos_after = mgba.get_coordinates()
+    
+    # Check if we moved
+    if pos_before == pos_after:
+        print(f"Blocked trying to move {direction} from {pos_before}. Handling battle/text...")
+        # Press B to dismiss text or try to escape battle
+        mgba.press_buttons(["B", "sleep 200", "Down", "Right", "A", "sleep 1000", "B"])
+        time.sleep(1.0)
+        # Re-try the move
+        mgba.press_buttons([direction])
+        time.sleep(0.3)
+        pos_after = mgba.get_coordinates()
+        print(f"After retry, position is {pos_after}")
+    return pos_after
 
-# 1. Warp to 2F West by stepping Down to (7, 11) and Up to (7, 10)
-print("Stepping Down then Up to warp to 2F West...")
-mgba.press_buttons(["Down", "sleep 200", "Up"])
+# We are at (7, 10) on 1F West.
+# Let's walk to 1F East:
+# Down to (7, 11)
+# Right 5 to (12, 11)
+# Up 4 to (12, 7)
+# Right 8 to (20, 7)
+
+path = ["Down"] + ["Right"]*5 + ["Up"]*4 + ["Right"]*8
+
+print("Walking from 1F West to 1F East...")
+for idx, direction in enumerate(path):
+    pos = walk_step(direction)
+    print(f"Step {idx}: arrived at {pos}")
+
 time.sleep(1.0)
 pos = mgba.get_coordinates()
-print("Position after warp attempt:", pos)
-
-# We should be on 2F West at (7, 11) now.
-# Let's walk to (5, 11)
-print("Walking to (5, 11)...")
-mgba.press_buttons(["Left", "sleep 200", "Left"])
-time.sleep(0.5)
-pos = mgba.get_coordinates()
-print("At:", pos)
-
-# Let's try walking UP to (5, 10)
-print("Stepping Up to (5, 10)...")
-mgba.press_buttons(["Up"])
-time.sleep(0.3)
-pos = mgba.get_coordinates()
-print("At (5, 10)?", pos)
-
-# Check if we warped to 1F (large coordinate change)
-if pos['y'] > 15 or pos['x'] != 5:
-    print("WARPED TO 1F!!!")
-else:
-    # Try different actions on (5, 10)
-    print("Trying extra Up on (5, 10)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.3)
-    pos = mgba.get_coordinates()
-    print("Position after extra Up:", pos)
-    
-    if pos['y'] > 15:
-        print("WARPED TO 1F with extra Up!")
-
-print("Final position:", mgba.get_coordinates())
+print("Final position:", pos)
 mgba.take_screenshot()
