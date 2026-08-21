@@ -1,10 +1,9 @@
 import mgba
 import time
 
-# We are at (16, 9). Let's walk and test the tiles to find the warp.
-# Let's test Column 15 and Column 14.
+# We are at (14, 12). Let's test Column 17 tiles.
 
-test_path = ["Left", "Down", "Down", "Left", "Down"]
+test_path = ["Right", "Right", "Right", "Up", "Up", "Up"]
 
 for idx, direction in enumerate(test_path):
     pos_before = mgba.get_coordinates()
@@ -17,13 +16,10 @@ for idx, direction in enumerate(test_path):
         # Try to see if battle occurred
         mgba.press_buttons(["B", "sleep 200", "Down", "Right", "A", "sleep 1000", "B"])
         time.sleep(1.0)
-        # Check coordinates again
         pos_now = mgba.get_coordinates()
         print(f"Coordinates now: {pos_now}")
         if pos_now != pos_before:
             print("Warped or moved!")
             break
     else:
-        # Check if map transitioned
-        # If we warped, our coordinates might change drastically or we might be on a different floor.
         print(f"Moved to {pos_after}")
