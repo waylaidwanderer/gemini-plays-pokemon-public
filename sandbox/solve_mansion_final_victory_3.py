@@ -69,40 +69,47 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: Walk from current (18, 7) on 3F to column 21, down row 11, and left to (15, 11) stairs
-path_to_stairs = [
-    (19, 7),
+# Phase 1: Walk from current (21, 7) on 3F (State A) to the West Stairs at (7, 10)
+path_to_west_stairs = [
     (20, 7),
-    (21, 7),
-    (21, 8),
-    (21, 9),
-    (21, 10),
-    (21, 11),
-    (20, 11),
-    (19, 11),
-    (18, 11),
-    (17, 11),
-    (16, 11),
-    (15, 11)
+    (19, 7),
+    (18, 7),
+    (17, 7),
+    (16, 7),
+    (15, 7),
+    (14, 7),
+    (13, 7),
+    (12, 7),
+    (12, 8),
+    (12, 9),
+    (12, 10),
+    (12, 11),
+    (11, 11),
+    (10, 11),
+    (9, 11),
+    (8, 11),
+    (7, 11),
+    (7, 10)
 ]
 
-print("--- PHASE 1: WALKING TO 3F EAST STAIRS VIA COLUMN 21 ---")
-if walk_path(path_to_stairs):
-    print("Reached stairs at (15, 11). Warping to 2F...")
+print("--- PHASE 1: WALKING TO 3F WEST STAIRS (STATE A) ---")
+if walk_path(path_to_west_stairs):
+    print("Reached West Stairs at (7, 10) on 3F! Warping to 2F...")
     time.sleep(2.0) # Wait for warp
     pos_2f = get_pos()
     print("Arrived on 2F. Position:", pos_2f)
     mgba.take_screenshot()
     
-    # Phase 2: Walk to (12, 11) on 2F to toggle the switch
-    path_to_switch = [
-        (15, 11),
-        (14, 11),
-        (13, 11),
+    # Phase 2: On 2F (State A), walk from landing (7, 11) to the switch at (12, 11)
+    path_to_2f_switch = [
+        (8, 11),
+        (9, 11),
+        (10, 11),
+        (11, 11),
         (12, 11)
     ]
     print("--- PHASE 2: WALKING TO SWITCH ON 2F ---")
-    if walk_path(path_to_switch):
+    if walk_path(path_to_2f_switch):
         print("Reached (12, 11) on 2F. Turning Right...")
         mgba.press_buttons(["Right"])
         time.sleep(0.4)
@@ -113,13 +120,13 @@ if walk_path(path_to_stairs):
         time.sleep(0.5)
         mgba.take_screenshot()
         
-        # Phase 3: Walk back to (15, 11) on 2F to warp back to 3F
+        # Phase 3: Walk back to the East Stairs on 2F (State B)
         path_back_to_stairs = [
             (13, 11),
             (14, 11),
             (15, 11)
         ]
-        print("--- PHASE 3: RETURNING TO EAST STAIRS ON 2F ---")
+        print("--- PHASE 3: WALKING TO EAST STAIRS ON 2F ---")
         if walk_path(path_back_to_stairs):
             print("Reached stairs on 2F! Warping back to 3F...")
             time.sleep(2.0) # Wait for warp
@@ -127,7 +134,7 @@ if walk_path(path_to_stairs):
             print("Arrived on 3F. Position:", pos_3f)
             mgba.take_screenshot()
             
-            # Phase 4: Walk to the Balcony landing (20, 15) on 3F
+            # Phase 4: On 3F (State B), walk to the Balcony landing (20, 15)
             path_to_balcony = [
                 (17, 11),
                 (18, 11),
@@ -140,7 +147,7 @@ if walk_path(path_to_stairs):
                 (21, 15),
                 (20, 15)
             ]
-            print("--- PHASE 4: WALKING TO BALCONY ON 3F ---")
+            print("--- PHASE 4: WALKING TO BALCONY ON 3F (STATE B) ---")
             if walk_path(path_to_balcony):
                 print("Reached Balcony landing (20, 15) on 3F!")
                 mgba.take_screenshot()
@@ -168,5 +175,5 @@ if walk_path(path_to_stairs):
     else:
         print("Failed to walk to 2F switch.")
 else:
-    print("Failed to reach 3F stairs.")
+    print("Failed to reach West Stairs on 3F.")
 
