@@ -17,6 +17,10 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At B1F (10, 16).
-- Descend south along the Central-Western channel (cols 8-11) towards row 27 and Lower South Highway (rows 30-33).
-- Systematically survey the western/southern boundary of B1F to locate and verify Ladder 4.
+- Confirmed rows 22-23 solid rock across cols 6-23 on B1F (no direct southern passage from central/western sector).
+- Route to Lower South Highway:
+  1. Ascend north from (10, 19) to row 12 East-West Highway.
+  2. Traverse east along row 12/13 across cols 10-34 to Eastern Corridor.
+  3. Descend south along cols 34-37 to row 31 (Lower South Highway).
+  4. Traverse west along row 31 all the way to cols 2-5 to locate Ladder 4.
+  5. Ascend Ladder 4 to 1F Western Corridor and exit south to Route 10 South.
