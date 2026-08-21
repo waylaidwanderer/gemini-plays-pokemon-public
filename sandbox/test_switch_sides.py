@@ -8,7 +8,10 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
+print("Testing switch state. Current pos:", get_pos())
+
 def handle_battle():
+    print("  Battle/Dialogue detected! Handling...")
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
@@ -19,12 +22,16 @@ def handle_battle():
         time.sleep(0.05)
 
 def step_to_closed_loop(tx, ty):
-    for attempt in range(12):
+    print(f"Navigating to ({tx}, {ty})...")
+    for attempt in range(15):
         c = get_pos()
         if c['x'] == tx and c['y'] == ty:
+            print(f"Reached: ({tx}, {ty})")
             return True
+            
         dx = tx - c['x']
         dy = ty - c['y']
+        
         btn = None
         if abs(dx) >= abs(dy):
             if dx > 0: btn = "Right"
@@ -32,60 +39,43 @@ def step_to_closed_loop(tx, ty):
         else:
             if dy > 0: btn = "Down"
             else: btn = "Up"
+            
+        print(f"  Attempt {attempt+1}/15. Pos: {c}. Pressing {btn}")
         mgba.press_buttons([btn])
         time.sleep(0.4)
+        
         after = get_pos()
         if after == c:
+            print("  Blocked! Checking for battle/dialogue...")
             handle_battle()
             after_retry = get_pos()
-            if after_retry == c:
-                return False
-    return get_pos() == {'x': tx, 'y': ty}
+            print(f"  After retry, pos is: {after_retry}")
+            
+    c_final = get_pos()
+    if c_final['x'] == tx and c_final['y'] == ty:
+        return True
+    return False
 
-print("Testing switch interaction sides...")
+# Clear any lingering menus
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
-# 1. Test side (1, 11) facing Right
-print("\n--- Testing (1, 11) facing Right ---")
-if step_to_closed_loop(1, 11):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # Press Down to see if we walk or if we are in a menu
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-    p = get_pos()
-    if p == {'x': 1, 'y': 11}:
-        print("-> SUCCESS! (1, 11) facing Right successfully opened the textbox.")
-        # Clear textbox
-        mgba.press_buttons(["B"])
-        time.sleep(0.4)
-        mgba.press_buttons(["B"])
-        time.sleep(0.4)
-    else:
-        print("-> FAILED. We walked to:", p)
+# Walk to (11, 12). If we reach (11, 12), we are in State A.
+# If we get blocked before reaching column 11 (e.g. at column 10), we are in State B.
+waypoints = [
+    (7, 12),
+    (11, 12)
+]
+
+success = True
+for (wx, wy) in waypoints:
+    if not step_to_closed_loop(wx, wy):
+        success = False
+        print(f"Failed to reach waypoint ({wx}, {wy})")
+        break
+
+if success:
+    print("Reached (11, 12)! The switch is in State A.")
 else:
-    print("Could not reach (1, 11)")
-
-# 2. Test side (2, 12) facing Up
-print("\n--- Testing (2, 12) facing Up ---")
-if step_to_closed_loop(2, 12):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # Press Down to see if we walk or if we are in a menu
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-    p = get_pos()
-    if p == {'x': 2, 'y': 12}:
-        print("-> SUCCESS! (2, 12) facing Up successfully opened the textbox.")
-        # Clear textbox
-        mgba.press_buttons(["B"])
-        time.sleep(0.4)
-        mgba.press_buttons(["B"])
-        time.sleep(0.4)
-    else:
-        print("-> FAILED. We walked to:", p)
-else:
-    print("Could not reach (2, 12)")
+    print("Blocked! The switch is in State B.")
+mgba.take_screenshot()
