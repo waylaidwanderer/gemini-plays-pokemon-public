@@ -20,8 +20,8 @@
   - Rock pillar at cols 6-7 spans rows 14-18+.
   - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
 
-## Current Working Plan (1F South Exit)
-- At 1F Southern Avenue (20, 18).
-- Descend south down cols 20-21 to row 25 at (20, 25).
-- Walk west across row 25 to (15, 25) into the South Exit corridor.
-- Descend south down cols 14-16 past (14, 28) out to Route 10 South / Lavender Town.
+## Current Working Plan (B1F SW Exploration)
+- At 1F (34, 3).
+- Route via (34, 11) -> (27, 11) -> (27, 3) to take Ladder 2 to B1F (5, 3).
+- On B1F: Route systematically to the South-Western Highway (rows 30-33, cols 2-15).
+- Fully explore SW B1F (cols 2-5, rows 25-34) to discover Ladder 4 and ascend to 1F Western Corridor exit.
