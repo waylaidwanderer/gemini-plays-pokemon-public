@@ -1,56 +1,82 @@
 import mgba
 import time
 
-# We are at (22, 3) on 1F East.
-# Let's explore the walkable area of 1F East to find the stairs!
-# We will do a flood-fill or simple systematic grid search using DFS/BFS in Python.
+def handle_battle():
+    print("Coordinates did not change. Battle or obstacle detected! Attempting to flee/clear...")
+    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "Down", "Right", "A", "sleep 1500", "B", "sleep 200", "B"])
+    time.sleep(1.0)
 
-visited = set()
-path_stack = []
+def navigate_to_targets(targets):
+    target_idx = 0
+    stuck_count = 0
+    last_pos = None
+    
+    while target_idx < len(targets):
+        current_pos = mgba.get_coordinates()
+        target = targets[target_idx]
+        print(f"Current Position: {current_pos}, Target: {target}")
+        
+        # Check if we reached the current target
+        if current_pos['x'] == target[0] and current_pos['y'] == target[1]:
+            print(f"Reached target {target}!")
+            target_idx += 1
+            stuck_count = 0
+            if target_idx >= len(targets):
+                break
+            target = targets[target_idx]
+        
+        # Check if we got warped/stairs transitioned
+        if last_pos and (abs(current_pos['x'] - last_pos['x']) > 2 or abs(current_pos['y'] - last_pos['y']) > 2):
+            print(f"Warp detected! New position is {current_pos}")
+            break
+            
+        dx = target[0] - current_pos['x']
+        dy = target[1] - current_pos['y']
+        
+        if dx < 0:
+            direction = "Left"
+        elif dx > 0:
+            direction = "Right"
+        elif dy < 0:
+            direction = "Up"
+        elif dy > 0:
+            direction = "Down"
+        else:
+            target_idx += 1
+            continue
+            
+        print(f"Stepping {direction} towards {target}...")
+        mgba.press_buttons([direction])
+        time.sleep(0.35)
+        
+        new_pos = mgba.get_coordinates()
+        if new_pos == current_pos:
+            stuck_count += 1
+            if stuck_count >= 2:
+                handle_battle()
+                stuck_count = 0
+        else:
+            stuck_count = 0
+            
+        last_pos = current_pos
+        time.sleep(0.1)
 
-def get_neighbors(pos):
-    # Neighbors: Up, Down, Left, Right
-    return [
-        ((pos[0], pos[1]-1), "Up"),
-        ((pos[0], pos[1]+1), "Down"),
-        ((pos[0]-1, pos[1]), "Left"),
-        ((pos[0]+1, pos[1]), "Right")
-    ]
+# Step 1: Walk from (3, 12) on 2F West to (5, 10) to warp DOWN to 1F West
+print("Going down to 1F West...")
+targets_to_1f = [(5, 12), (5, 10)]
+navigate_to_targets(targets_to_1f)
 
-# Start exploration
-start_pos = (22, 3)
-visited.add(start_pos)
+time.sleep(1.0)
+pos = mgba.get_coordinates()
+print("Position after trying to warp to 1F:", pos)
 
-# Let's try to walk to all open tiles near us
-# Since we have up to 100 buttons, let's write a simple path test.
-# We want to check columns 14 to 25, rows 1 to 7.
-# Let's test walking to some coordinates on the East side:
+# Step 2: From 1F West landing (which is at (5, 11)), walk to (16, 7) on 1F East
+# Wait! Let's check our actual position.
+if pos['y'] == 11 and pos['x'] == 5:
+    print("We are on 1F West! Walking to 1F East...")
+    cross_targets = [(12, 11), (12, 7), (16, 7)]
+    navigate_to_targets(cross_targets)
 
-# Let's walk to (24, 3) and test Up
-path_test = [
-    "Right", "Right", # to (24, 3)
-    "Up", "Up",       # to (24, 1)
-    "Down", "Down",   # back to (24, 3)
-    "Left", "Left",   # back to (22, 3)
-    "Left", "Left",   # to (20, 3)
-    "Up", "Up",       # to (20, 1)
-    "Down", "Down",   # back to (20, 3)
-    "Right", "Right"  # back to (22, 3)
-]
-
-print("Starting systematic exploration on 1F East...")
-for idx, direction in enumerate(path_test):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.3)
-    pos_after = mgba.get_coordinates()
-    print(f"Step {idx} ({direction}): {pos_before} -> {pos_after}")
-    if pos_before == pos_after:
-        print(f"Blocked trying to move {direction} from {pos_before}")
-    # If coordinate change is large, we warped!
-    if abs(pos_before['x'] - pos_after['x']) > 2 or abs(pos_before['y'] - pos_after['y']) > 2:
-        print(f"WARPED! New map coordinates: {pos_after}")
-        break
-
-print("Final position:", mgba.get_coordinates())
+time.sleep(1.0)
+print("Final Position:", mgba.get_coordinates())
 mgba.take_screenshot()
