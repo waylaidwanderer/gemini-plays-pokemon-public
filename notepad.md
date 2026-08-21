@@ -2132,6 +2132,17 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 - **3F gate at (24, 13) / (25, 13):** CLOSED in State B (verified on Turn 49350), OPEN in State A.
 - **3F gate at (20, 8) / (21, 8):** **CLOSED in State B** (Empirically verified on Turn 50793; column 20 is blocked at row 8 in State B, requiring the northeast detour through columns 21-26).
+## Critical 2F/3F Cross-Floor Traversals (Verified Turn 51120)
+- **Isolation of 2F East Side:** The east side of 2F (including the East Stairs at `(15, 11)`) is completely physically isolated from the west side of 2F. Row 11 is blocked by Mewtwo statue at `(13, 11)`. Row 12-16 at column 14 are completely solid yellow-brown rubble walls. There is NO WAY to walk from the west side to the east side on 2F!
+- **3F West-East Crossing (State A):** The only way to cross from the west side of the mansion to the east side of the mansion is on **3F** in **State A**.
+  - Path on 3F (State A): From West Stairs landing at `(7, 11)`, walk Right to `(12, 11)` (gate at 10, 11 is OPEN). Walk Up column 12 to `(12, 6)`. Walk Right on row 6 to column 19 (bypassing solid column 14!). Walk Down column 19 to `(19, 11)` (gate at 19, 8 is OPEN). Walk Left along row 11 to `(15, 11)` East Stairs!
+  - Warp down to 2F (East side, State A) landing at `(16, 11)`.
+- **Switch to State B on 2F East Side:**
+  - On 2F (East side, State A), walk Left to `(12, 11)`. Face Right (towards Mewtwo switch at `(13, 11)`) and press `A` to toggle to **State B**!
+- **Balcony Drop (State B):**
+  - On 2F (East side, State B), walk Right to `(15, 11)` East Stairs and warp UP to 3F (State B).
+  - Land on 3F (East side, State B) at `(16, 11)`. Walk Right along row 11 to `(21, 11)` -> Down column 21 to `(21, 15)` -> Left to `(20, 15)` balcony landing.
+  - Walk Down through open balcony shutter gate at `(20, 17)` to `(20, 18)` and step Left to `(19, 18)` to drop to B1F!
 
 <hr>
 
