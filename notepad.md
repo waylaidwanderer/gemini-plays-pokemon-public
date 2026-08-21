@@ -894,8 +894,8 @@
 - **Ladder 1 Arrival**: 1F (37, 3) is the arrival tile from B1F (33, 25) [1-way arrival on 1F; stepping on (37, 3) does not warp down, verified Turns 9229, 9253].
 - **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [Functional 2-way ladder: warps between 1F (27, 3) and B1F (5, 3), verified Turns 9291, 9380, 9459, 9505, 9603, 9706].
 - **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Central 1F <-> Central B1F, downward ladder on 1F, ladder sprite rendered at 1F (23, 11) and B1F (17, 11)].
-- **Ladder 4**: 1F (3, 3) <-> B1F [NW 1F <-> B1F Exit ladder; leads down Western Corridor of 1F to Route 10 South Exit].
-- **1F South Boundary**: Row 34 is solid rock continuously across cols 0-38 (verified Turns 8954, 8961, 8975, 8991). Exit to Route 10 South is reached via Western Corridor from Ladder 4.
+- **Ladder 4**: 1F (3, 3) <-> B1F [NW 1F <-> B1F ladder in western corridor].
+- **1F South Exit Route**: The lower western basin dead-ends at row 28 (cols 2-8 solid rock wall, verified Turn 10503). The true South Exit corridor to Route 10 South is located at cols 14-16 (rows 28-35), accessed by routing through the Eastern Bypass (cols 32-37) into Southern Avenue (cols 20-25), crossing west at row 25 into (15, 25), and descending south past (14, 28).
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
@@ -1111,10 +1111,10 @@
   - Rock pillar at cols 6-7 spans rows 14-18+.
   - Row 10-13 horizontal highway (cols 2-11) provides complete open bypass above the cols 6-7 pillar connecting Central Basin (cols 8-11) directly to Western Corridor (cols 2-5).
 
-## Current Working Plan (1F South Exploration)
-- At 1F (3, 25).
-- Probe south down column 3 to row 27 at (3, 27).
-- Systematically test collision bounds along row 27 and row 28 across cols 2-8 to verify all potential southward passages.
-- Record all empirical test results directly before deciding on routing.
+## Current Working Plan (1F South Exit)
+- At 1F Southern Avenue (20, 18).
+- Descend south down cols 20-21 to row 25 at (20, 25).
+- Walk west across row 25 to (15, 25) into the South Exit corridor.
+- Descend south down cols 14-16 past (14, 28) out to Route 10 South / Lavender Town.
 
 <hr>
