@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting Victory Drop Script. Current pos:", get_pos())
+print("Starting State A Victory Drop Script. Current pos:", get_pos())
 
 def handle_battle():
     print("  Battle/Dialogue detected! Handling...")
@@ -60,15 +60,13 @@ def step_to_closed_loop(tx, ty):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Waypoints to navigate to the balcony drop in State B from current position (13, 12)
+# Path on 3F in State A:
+# (20, 6) -> (18, 6) -> (18, 11) -> (20, 11) -> (20, 14) -> (21, 14) -> (21, 15) -> (20, 15) -> (20, 18) -> (19, 18)
 waypoints = [
-    (12, 12),
-    (12, 6),
-    (26, 6),
-    (26, 12),
-    (25, 12),
-    (25, 14),
-    (22, 14),
+    (18, 6),
+    (18, 11),
+    (20, 11),
+    (20, 14),
     (21, 14),
     (21, 15),
     (20, 15)
@@ -82,7 +80,7 @@ for (wx, wy) in waypoints:
         break
 
 if success:
-    print("Reached balcony landing (20, 15) in State B! Dropping to B1F...")
+    print("Reached balcony landing (20, 15) in State A! Attempting to drop to B1F...")
     mgba.press_buttons([
         "Down", "sleep 400",
         "Down", "sleep 400",
