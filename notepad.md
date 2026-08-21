@@ -1107,8 +1107,9 @@
   - Current Position: 1F (8, 14). Bypass route to Western Corridor: Up 2 to (8, 12), Left 6 to (2, 12).
 
 ## Current Working Plan
-- At 1F (8, 14).
-- Bypass rock pillar via row 12: Up 2 to (8, 12), Left 6 to (2, 12).
-- From (2, 12), explore south down Western Corridor (cols 2-5, rows 12-33) to locate the South Exit to Route 10 South / Lavender Town.
+- At 1F (11, 17).
+- Traverse east along row 17 across cols 11-21 to enter Southern Avenue at (21, 17).
+- From (21, 17), descend south down Southern Avenue (cols 20-25) to row 27.
+- At row 27, test westward connection to (14, 27) and explore the South Exit corridor past (14, 28) towards Route 10 South.
 
 <hr>
