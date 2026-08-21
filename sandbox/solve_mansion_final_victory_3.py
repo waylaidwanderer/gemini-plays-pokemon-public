@@ -100,12 +100,11 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: Walk from current (6, 9) on 2F (State A) to (1, 11) via row 13 and toggle to State B
+# Phase 1: Walk from current (6, 10) on 2F (State A) to (1, 11) via column 5 and row 13
 path_to_switch = [
-    (6, 10),
-    (6, 11),
-    (6, 12),
-    (6, 13),
+    (5, 10),
+    (5, 11),
+    (5, 12),
     (5, 13),
     (4, 13),
     (3, 13),
