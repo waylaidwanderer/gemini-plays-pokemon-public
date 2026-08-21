@@ -1,46 +1,95 @@
 import mgba
 import time
 
-def walk_step(direction):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.3)
-    pos_after = mgba.get_coordinates()
+def handle_battle():
+    print("Coordinates did not change. Battle or obstacle detected! Attempting to flee/clear...")
+    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "Down", "Right", "A", "sleep 1500", "B", "sleep 200", "B"])
+    time.sleep(1.0)
+
+def navigate_to_targets(targets):
+    target_idx = 0
+    stuck_count = 0
+    last_pos = None
     
-    # Check if we moved
-    if pos_before == pos_after:
-        print(f"Blocked trying to move {direction} from {pos_before}. Handling battle/text...")
-        # Press B to dismiss text or try to escape battle
-        mgba.press_buttons(["B", "sleep 200", "Down", "Right", "A", "sleep 1000", "B"])
-        time.sleep(1.0)
-        # Re-try the move
+    while target_idx < len(targets):
+        current_pos = mgba.get_coordinates()
+        target = targets[target_idx]
+        print(f"Current Position: {current_pos}, Target: {target}")
+        
+        # Check if we reached the current target
+        if current_pos['x'] == target[0] and current_pos['y'] == target[1]:
+            print(f"Reached target {target}!")
+            target_idx += 1
+            stuck_count = 0
+            if target_idx >= len(targets):
+                break
+            target = targets[target_idx]
+        
+        # Check if we got warped/stairs transitioned
+        if last_pos and (abs(current_pos['x'] - last_pos['x']) > 2 or abs(current_pos['y'] - last_pos['y']) > 2):
+            print(f"Warp detected! New position is {current_pos}")
+            break
+            
+        dx = target[0] - current_pos['x']
+        dy = target[1] - current_pos['y']
+        
+        if dx < 0:
+            direction = "Left"
+        elif dx > 0:
+            direction = "Right"
+        elif dy < 0:
+            direction = "Up"
+        elif dy > 0:
+            direction = "Down"
+        else:
+            target_idx += 1
+            continue
+            
+        print(f"Stepping {direction} towards {target}...")
         mgba.press_buttons([direction])
-        time.sleep(0.3)
-        pos_after = mgba.get_coordinates()
-        print(f"After retry, position is {pos_after}")
-    return pos_after
+        time.sleep(0.35)
+        
+        new_pos = mgba.get_coordinates()
+        if new_pos == current_pos:
+            stuck_count += 1
+            if stuck_count >= 2:
+                handle_battle()
+                stuck_count = 0
+        else:
+            stuck_count = 0
+            
+        last_pos = current_pos
+        time.sleep(0.1)
 
-# Current position: (7, 10) on 3F West.
-# Path to (2, 10):
-# Down to (7, 11)
-# Left 5 to (2, 11)
-# Up 1 to (2, 10)
-
-path = ["Down", "Left", "Left", "Left", "Left", "Left", "Up"]
-
-print("Walking to switch on 3F West...")
-for direction in path:
-    pos = walk_step(direction)
-    print("At:", pos)
+# Step 1: Walk to 2F West stairs at (7, 10) to warp to 3F West
+print("Walking to 2F-3F stairs...")
+targets_to_3f = [(7, 11), (7, 10)]
+navigate_to_targets(targets_to_3f)
 
 time.sleep(1.0)
 pos = mgba.get_coordinates()
-print("Standing at switch position:", pos)
+print("Position after warping to 3F West:", pos)
 
-# Press A to toggle the switch
-print("Pressing A to toggle switch...")
-mgba.press_buttons(["A", "sleep 500", "A", "sleep 500"])
+# If we successfully warped to 3F West, we are at (7, 11).
+# Step 2: Walk to the 3F West switch at (2, 11) and face Up
+if pos['x'] == 7 and pos['y'] == 11:
+    print("Walking to 3F West switch...")
+    switch_targets = [(2, 11)]
+    navigate_to_targets(switch_targets)
+    
+    time.sleep(1.0)
+    pos2 = mgba.get_coordinates()
+    print("Position at switch:", pos2)
+    
+    if pos2['x'] == 2 and pos2['y'] == 11:
+        print("Facing Up towards the switch...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        print("Interacting with switch...")
+        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B", "sleep 200"])
+        time.sleep(1.0)
+
 time.sleep(1.0)
-
-print("Final position:", mgba.get_coordinates())
+print("Final Position after script:", mgba.get_coordinates())
 mgba.take_screenshot()
