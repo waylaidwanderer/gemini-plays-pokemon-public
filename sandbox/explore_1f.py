@@ -61,22 +61,18 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# Step 1: Walk from (3, 12) on 2F West to (5, 10) to warp DOWN to 1F West
-print("Going down to 1F West...")
-targets_to_1f = [(5, 12), (5, 10)]
-navigate_to_targets(targets_to_1f)
+# We are at (5, 10) on 1F West in State B.
+# Walk to 1F East stairs:
+# 1. Down to (5, 11)
+# 2. Right to (12, 11)
+# 3. Up to (12, 7)
+# 4. Right to (15, 7)
+# 5. Down to (15, 8) (this should be the gate/stairs on 1F East!)
+print("Walking to 1F East stairs...")
+targets = [(5, 11), (12, 11), (12, 7), (15, 7), (15, 8)]
+navigate_to_targets(targets)
 
 time.sleep(1.0)
 pos = mgba.get_coordinates()
-print("Position after trying to warp to 1F:", pos)
-
-# Step 2: From 1F West landing (which is at (5, 11)), walk to (16, 7) on 1F East
-# Wait! Let's check our actual position.
-if pos['y'] == 11 and pos['x'] == 5:
-    print("We are on 1F West! Walking to 1F East...")
-    cross_targets = [(12, 11), (12, 7), (16, 7)]
-    navigate_to_targets(cross_targets)
-
-time.sleep(1.0)
-print("Final Position:", mgba.get_coordinates())
+print("Position after walking to 1F East stairs:", pos)
 mgba.take_screenshot()
