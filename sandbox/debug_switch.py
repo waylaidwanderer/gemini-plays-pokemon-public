@@ -1,21 +1,13 @@
 import mgba
 import time
 
-print("Dismissing 'Not quite yet!'...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
+print("Pressing B multiple times to clear text...")
+for i in range(5):
+    mgba.press_buttons(["B"])
+    time.sleep(0.3)
 
-print("Interacting with switch...")
-mgba.press_buttons(["A"])
-time.sleep(1.2) # wait for text to scroll and Yes/No menu to appear
-
-print("Selecting 'Yes'...")
-mgba.press_buttons(["A"])
-time.sleep(1.2) # wait for "Who wouldn't?" text
-
-print("Dismissing 'Who wouldn't?'...")
-mgba.press_buttons(["B"])
 time.sleep(0.5)
-
-print("Finished!")
+print("Checking position...")
+pos = mgba.get_coordinates()
+print("Position:", pos)
 mgba.take_screenshot()
