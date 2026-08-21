@@ -37,11 +37,14 @@ def walk_step(direction, tx, ty):
 pos = mgba.get_coordinates()
 print("Starting outside:", pos)
 
-# 1. Walk Down to Row 12
-while pos['y'] < 12:
-    pos = walk_step("Down", pos['x'], pos['y'] + 1)
+# 1. Bypass the signpost at (9, 11)
+if pos['x'] == 9 and pos['y'] == 10:
+    pos = walk_step("Left", 8, 10)
+    pos = walk_step("Down", 8, 11)
+    pos = walk_step("Down", 8, 12)
+    pos = walk_step("Right", 9, 12)
 
-# 2. Walk Right to Column 18
+# 2. Walk Right along Row 12 to Column 18
 while pos['x'] < 18:
     pos = walk_step("Right", pos['x'] + 1, pos['y'])
 
