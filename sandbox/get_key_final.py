@@ -53,7 +53,9 @@ print("Starting definitive master run from:", pos)
 
 # 1. We are at (10, 9) on 3F West (State B)
 if pos['x'] == 10 and pos['y'] == 9:
-    if not walk_to(10, 5): exit()
+    # Walk Right to Column 12 to bypass the blocked Row 8 (columns 8-11 are rubble in State B)
+    if not walk_to(12, 9): exit()
+    if not walk_to(12, 5): exit()
     if not walk_to(19, 5): exit()
     if not walk_to(19, 16): exit()
     
