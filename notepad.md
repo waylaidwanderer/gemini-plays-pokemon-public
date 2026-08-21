@@ -1108,9 +1108,10 @@
 
 ## Layout & Landmarks
 - Northern Entrance: Road enters at cols 10-11 across rows 68-73.
+- Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5).
 - Pokémon Tower: Located in the northeast at cols 12-17 (purple multi-story tower).
-- Pokémon Center: Located on the west / northwest side of town.
 - Mr. Fuji's Volunteer Pokémon House: Located in the center of town.
 - Name Rater's House: Located in the south of town.
+- Signpost: Located at (9, 3).
 
 <hr>
