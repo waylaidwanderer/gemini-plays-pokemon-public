@@ -1081,19 +1081,18 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - Complete Verified Master Route to Lavender Town
+# Rock Tunnel 1F - Complete Unified Master Route to Lavender Town
 
-## Verified Full Dungeon Progression to Exit
-1. [CURRENT] At 1F (15, 21): Walk Up to (15, 11) -> East to (23, 11) -> Warp down to B1F (17, 11).
-2. [B1F Traversal]: From B1F (17, 11) -> Down to (17, 15) -> West to (9, 15) -> Up to (9, 3) -> West to Ladder 2 at (5, 3) -> Warp up to 1F NE at (27, 3).
-3. [1F Eastern Sector & South Exit]:
-   - From 1F (27, 3): Walk Down to (27, 11) -> East to (34, 11).
-   - Walk Down through Eastern Bypass to (34, 17) in the Eastern Hall.
-   - Walk West along row 17 to (22, 17) into the Southern Avenue.
-   - Walk Down along col 22 to (22, 26).
-   - Walk West across row 26 to (15, 26) into the Lower Exit Corridor.
-   - Walk Down past (14..15, 28) straight south to the South Exit onto Route 10 South!
-4. [GOAL]: Route 10 South -> Walk south into Lavender Town!
-5. [HEAL]: Restore party HP/PP at the Lavender Town Pokémon Center.
+## Verified 1F Master Progression to Exit (All on 1F)
+1. [CURRENT] At 1F (17, 11): Walk West along row 11 to (3, 11).
+2. Walk North along col 3 to (3, 3) [North Highway].
+3. Walk East along row 3 to (34, 3) [Eastern Bypass].
+4. Walk South down col 34 to (34, 17) [Eastern Hall].
+5. Walk West along row 17 to (22, 17) [Southern Avenue].
+6. Walk South down col 22 to (22, 26).
+7. Walk West along row 26 to (15, 26) [Lower Exit Corridor].
+8. Walk South past (14..15, 28) straight to the South Exit onto Route 10 South!
+9. [GOAL]: Route 10 South -> Walk south into Lavender Town!
+10. [HEAL]: Restore party HP/PP at the Lavender Town Pokémon Center.
 
 <hr>
