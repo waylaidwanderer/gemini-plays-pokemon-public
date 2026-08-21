@@ -2143,6 +2143,26 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
   - On 2F (East side, State B), walk Right to `(15, 11)` East Stairs and warp UP to 3F (State B).
   - Land on 3F (East side, State B) at `(16, 11)`. Walk Right along row 11 to `(21, 11)` -> Down column 21 to `(21, 15)` -> Left to `(20, 15)` balcony landing.
   - Walk Down through open balcony shutter gate at `(20, 17)` to `(20, 18)` and step Left to `(19, 18)` to drop to B1F!
+## Verified 3F State B Layout & Constraints (Turns 51230-51255)
+- **Column 11 Vertical Gate:** CLOSED in State B on rows 11-15. Bypassed by walking horizontally through Row 10 `(11, 10)` which is wide-open and has no gate!
+- **Row 5 Shutter Gate:** CLOSED in State B at `(15, 5)`/`(16, 5)`/`(20, 5)`/`(21, 5)`. OPEN at columns 18 and 19!
+- **Row 3 Column 19 Counter:** Solid 2-tile high wooden counter blocks Column 19 at `(19, 2)`/`(19, 3)`. Reachable only on Row 4 `(19, 4)`!
+- **Column 21 Row 3 Corridor:** Wide-open and pink walkable tile, allowing vertical crossing from Row 4 to Row 3.
+- **Row 5 Rubble Blockage:** Columns 22, 23, and 24 on Row 5 are physically blocked by permanent yellow-brown rubble. Bypassed in State B by walking horizontally on Row 3 to Column 25, then Down Column 25 to `(25, 5)`, and Left horizontally on Row 5 to `(22, 5)` pit (which is open in State B!).
+
+## Verified State B B1F Descent Path
+1. Stand at `(1, 11)` on 3F West.
+2. Walk to `(5, 11)` via Row 13.
+3. Cross Column 11 vertical gate via Row 10: `(5, 11) -> (9, 11) -> (9, 10) -> (11, 10)`.
+4. Walk Up Column 11 to Row 5, then Right to Column 19: `(11, 10) -> (11, 5) -> (19, 5)`.
+5. Walk Up Column 19 to Row 4, then Right on Row 4 to Column 21: `(19, 5) -> (19, 4) -> (21, 4)`.
+6. Walk Up Column 21 to Row 3, then Right to Column 25: `(21, 4) -> (21, 3) -> (25, 3)`.
+7. Walk Down Column 25 to Row 5, then Left to the pit at `(22, 5)`: `(25, 3) -> (25, 5) -> (22, 5)`.
+8. Fall through the pit to 2F East landing at `(22, 6)`.
+9. On 2F East, walk to the East Stairs `(15, 11)`: `(22, 6) -> (22, 11) -> (15, 11)`.
+10. Warp UP to 3F East (lands at `(16, 11)` in State B, South of the closed Row 8 gates!).
+11. Walk directly to the balcony landing `(20, 15)`: `(16, 11) -> (21, 11) -> (21, 15) -> (20, 15)`.
+12. Walk Down to `(20, 18)` and step Left to drop to B1F!
 
 <hr>
 
