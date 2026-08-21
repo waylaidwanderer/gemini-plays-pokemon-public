@@ -4,7 +4,7 @@
 1. HYDROS (Blastoise) - Lv 42
    - Stats (Verified at Lv 42): Max HP 138 (HP: 138/138), Attack 94, Defense 104, Speed 96, Special 99
    - Type: Water
-   - Moves: Skull Bash (15/15), Tail Whip (30/30), Bite (25/25), Bubblebeam (15/20)
+   - Moves: Skull Bash (15/15), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats: Max HP 26 (HP: 26/26)
