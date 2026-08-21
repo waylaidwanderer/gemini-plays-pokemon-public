@@ -69,27 +69,61 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Walk to columns 18 on row 7, then down to row 11, then left to (15, 11)
-path_test = [
-    (16, 7),
-    (17, 7),
-    (18, 7),
-    (18, 8),
-    (18, 9),
-    (18, 10),
-    (18, 11),
-    (17, 11),
-    (16, 11),
-    (15, 11)
+# 1. Walk from current (6, 13) on 3F to the west switch at (2, 12) and toggle to State A
+path_to_switch = [
+    (5, 13),
+    (4, 13),
+    (3, 13),
+    (2, 13),
+    (2, 12)
 ]
 
-print("--- TESTING ROUTE VIA COLUMN 18 ---")
-if walk_path(path_test):
-    print("Successfully reached East Stairs on 3F! Warping to 2F...")
-    time.sleep(2.0)
-    print("Arrived on 2F. Position:", get_pos())
+print("--- PHASE 1: RETURNING TO WEST SWITCH AND SETTING STATE A ---")
+if walk_path(path_to_switch):
+    print("Reached (2, 12). Turning UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    print("Toggling 3F switch to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.5)
+    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "B"])
+    time.sleep(0.5)
     mgba.take_screenshot()
+    
+    # 2. Walk to the east stairs via Column 19 on row 8
+    path_to_stairs = [
+        (3, 12),
+        (3, 11),
+        (12, 11),
+        (12, 10),
+        (12, 9),
+        (12, 8),
+        (12, 7),
+        (13, 7),
+        (14, 7),
+        (15, 7),
+        (16, 7),
+        (17, 7),
+        (18, 7),
+        (19, 7),
+        (19, 8), # Test column 19!
+        (19, 9),
+        (19, 10),
+        (19, 11),
+        (18, 11),
+        (17, 11),
+        (16, 11),
+        (15, 11)
+    ]
+    print("--- PHASE 2: WALKING TO 3F EAST STAIRS VIA COLUMN 19 ---")
+    if walk_path(path_to_stairs):
+        print("Reached East Stairs on 3F! Warping to 2F...")
+        time.sleep(2.0)
+        print("Arrived on 2F. Position:", get_pos())
+        mgba.take_screenshot()
+    else:
+        print("Failed to reach East Stairs via column 19.")
+        mgba.take_screenshot()
 else:
-    print("Route via column 18 is blocked.")
-    mgba.take_screenshot()
+    print("Failed to reach West Switch.")
 
