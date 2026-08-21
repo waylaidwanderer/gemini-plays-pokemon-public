@@ -51,16 +51,9 @@ def walk_to(tx, ty):
 pos = mgba.get_coordinates()
 print("Starting definitive master run:", pos)
 
-# 1. Clear textbox
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-pos = mgba.get_coordinates()
-
-# Walk to 3F West switch in State A
-if pos['x'] == 12 and pos['y'] == 10:
-    if not walk_to(12, 11): exit()
-    if not walk_to(3, 11): exit()
-    if not walk_to(3, 12): exit()
+# Walk to 3F West switch in State A starting from (3, 11)
+if pos['x'] == 3 and pos['y'] == 11:
+    if not walk_to(2, 11): exit()
     if not walk_to(2, 12): exit()
 
 # 2. Toggle 3F West switch to State B
@@ -75,8 +68,7 @@ if pos['x'] == 2 and pos['y'] == 12:
 # 3. Walk to the 3F East balcony in State B and drop
 pos = mgba.get_coordinates()
 if pos['x'] == 2 and pos['y'] == 12:
-    if not walk_to(3, 12): exit()
-    if not walk_to(3, 11): exit()
+    if not walk_to(2, 11): exit()
     # In State B, Column 10 gate is open
     if not walk_to(10, 11): exit()
     if not walk_to(10, 5): exit()
@@ -109,8 +101,7 @@ if pos_b1f['x'] == 12 and pos_b1f['y'] == 20:
     # In State A, the Column 18 gate is open
     if not walk_to(10, 16): exit()
     if not walk_to(10, 11): exit()
-    if not walk_to(3, 11): exit()
-    if not walk_to(3, 12): exit()
+    if not walk_to(2, 11): exit()
     if not walk_to(2, 12): exit()
 
 # 6. Toggle B1F West switch back to State B
@@ -125,8 +116,7 @@ if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
 # 7. Walk to the Secret Key room standing at (1, 5)
 pos_b1f = mgba.get_coordinates()
 if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
-    if not walk_to(3, 12): exit()
-    if not walk_to(3, 11): exit()
+    if not walk_to(2, 11): exit()
     if not walk_to(10, 11): exit()
     if not walk_to(10, 5): exit()
     if not walk_to(1, 5): exit()
