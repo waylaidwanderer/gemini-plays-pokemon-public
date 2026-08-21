@@ -1083,22 +1083,21 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel - Verified Escape Route to Lavender Town
+# Rock Tunnel - Master Route to Lavender Town
 
-## The Breakthrough 1F Exit Topology
-- Rock Tunnel 1F South Exit corridor is located at cols 14-16 across rows 24-33!
-- Row 28 is completely OPEN at cols 14-16 (verified visually at Turn 9936).
-- Cols 12-13 is a continuous rock wall separating the Central Basin (cols 8-11) from cols 14-16.
-- The entrance to the South Exit corridor (cols 14-16) is via the Southern Avenue (cols 20-25) at row 27:
-  - Southern Avenue runs down cols 20-25 from row 11 to row 27.
-  - At row 27, walking WEST across cols 23 -> 22 -> 21 -> 20 -> 19 -> 18 -> 17 -> 16 -> 15 enters the South Exit corridor.
-  - At col 15, walking SOUTH through rows 28-33 exits directly to Route 10 South and Lavender Town!
+## The Complete Dungeon Architecture & Solution
+- **1F North Sector**: Enter at (15, 3). Route via (17, 6) -> (17, 10) -> (23, 10) to Ladder 3 at (23, 11).
+- **Ladder 3 Warp**: 1F (23, 11) -> B1F (17, 11).
+- **B1F Traversal**:
+  1. From (17, 11), descend south along cols 14-17 through Vertical Connector (rows 28-29) to Lower South Highway at (15, 30).
+  2. Walk WEST along Lower South Highway (rows 30-33) from col 15 to col 3.
+  3. Walk NORTH up Western Corridor (cols 2-5) to Ladder 4 at NW B1F.
+- **Ladder 4 Warp**: Ascend to 1F at (3, 3) (NW Western Corridor).
+- **1F Final Exit Run**:
+  1. On 1F (3, 3), walk straight SOUTH down Western Corridor (cols 2-5, rows 3-33) past PokéManiac #3 at (3, 8).
+  2. Step on row 33 -> EXIT to Route 10 South and Lavender Town!
 
-## Execution Steps
-1. [IN PROGRESS] From (11, 17): Walk Up 6 steps to (11, 11).
-2. Walk Right 10 steps to (21, 11) (safely avoiding Ladder 3 at (23, 11)).
-3. Walk Down 16 steps along column 21 to (21, 27).
-4. Walk Left 6 steps to (15, 27).
-5. Walk Down 6-8 steps to row 33 -> EXIT to Route 10 South!
+## Current Step
+- Descending Ladder 3 at (23, 11) to B1F (17, 11).
 
 <hr>
