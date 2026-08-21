@@ -17,7 +17,7 @@
   - Vertical Connector (cols 14-17, rows 28-29) leading into Lower South Highway (rows 30-33).
 
 ## Current Working Plan
-- At B1F (20, 16).
+- At B1F (21, 16).
 - Forward Route to Eastern Corridor & Lower South Highway:
   1. Move left 4 steps to (16, 16) and ascend col 16 to (16, 12) (4 steps Up).
   2. Traverse east along row 12 across cols 16-34 into the Eastern Corridor.
