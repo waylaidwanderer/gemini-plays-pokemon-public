@@ -20,3 +20,4 @@
 - [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
 - [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
 - [x] Exchange Bike Voucher for Bicycle in Cerulean Bike Shop [Turn 2944]
+- [x] Traverse Rock Tunnel and arrive at Route 10 South / Lavender Town [Turn 10973]
