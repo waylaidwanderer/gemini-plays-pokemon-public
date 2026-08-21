@@ -33,24 +33,14 @@ def walk_step(direction, tx, ty):
             
     return pos_after
 
-# 1. Clear "Got away safely!" textbox
-mgba.press_buttons(["B"])
-time.sleep(1.0)
 pos = mgba.get_coordinates()
-print("Starting position:", pos)
+print("Starting pos on 3F:", pos)
 
-# Walk to switch alignment if needed (should be at (2, 12))
-if pos['x'] == 2 and pos['y'] == 11:
-    pos = walk_step("Down", 2, 12)
-
-# Path to 3F East balcony
+# We are at (12, 8).
+# Step 1: Walk to the balcony on 3F East
 path_to_balcony = [
-    ('Right', 3, 12), ('Right', 4, 12), ('Right', 5, 12), ('Right', 6, 12), ('Right', 7, 12),
-    ('Down', 7, 13),
-    ('Right', 8, 13), ('Right', 9, 13),
-    ('Up', 9, 12), ('Up', 9, 11), ('Up', 9, 10),
-    ('Right', 10, 10), ('Right', 11, 10),
-    ('Up', 11, 9), ('Up', 11, 8), ('Up', 11, 7), ('Up', 11, 6), ('Up', 11, 5),
+    ('Left', 11, 8),
+    ('Up', 11, 7), ('Up', 11, 6), ('Up', 11, 5),
     ('Right', 12, 5), ('Right', 13, 5), ('Right', 14, 5), ('Right', 15, 5), ('Right', 16, 5),
     ('Right', 17, 5), ('Right', 18, 5), ('Right', 19, 5), ('Right', 20, 5), ('Right', 21, 5),
     ('Right', 22, 5), ('Right', 23, 5), ('Right', 24, 5),
@@ -60,7 +50,6 @@ path_to_balcony = [
 
 print("Walking to the 3F balcony drop...")
 for d, tx, ty in path_to_balcony:
-    # If we are already at the target coordinate, skip
     if pos['x'] == tx and pos['y'] == ty:
         continue
     pos = walk_step(d, tx, ty)
@@ -71,5 +60,30 @@ mgba.press_buttons(["Left"])
 time.sleep(3.0)
 
 pos_b1f = mgba.get_coordinates()
-print("Landed on B1F East! Position:", pos_b1f)
+print("Landed on B1F! Position:", pos_b1f)
+
+# Step 2: Navigate B1F to the Secret Key room
+# We land somewhere on B1F East. Let's walk to (10, 16)
+targets_b1f = [(10, 16), (10, 5), (1, 5)]
+for tx, ty in targets_b1f:
+    while pos_b1f['x'] != tx or pos_b1f['y'] != ty:
+        dx = tx - pos_b1f['x']
+        dy = ty - pos_b1f['y']
+        if dx < 0:
+            pos_b1f = walk_step("Left", pos_b1f['x'] - 1, pos_b1f['y'])
+        elif dx > 0:
+            pos_b1f = walk_step("Right", pos_b1f['x'] + 1, pos_b1f['y'])
+        elif dy < 0:
+            pos_b1f = walk_step("Up", pos_b1f['x'], pos_b1f['y'] - 1)
+        elif dy > 0:
+            pos_b1f = walk_step("Down", pos_b1f['x'], pos_b1f['y'] + 1)
+
+# Step 3: Retrieve the Secret Key
+print("At (1, 5). Facing UP and retrieving Secret Key...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 200"])
+time.sleep(1.0)
+
+print("Final position at end of script:", mgba.get_coordinates())
 mgba.take_screenshot()
