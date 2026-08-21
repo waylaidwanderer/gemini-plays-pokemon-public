@@ -102,9 +102,8 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Phase 1: Walk from current (5, 13) on 2F (State B) UP Column 5 to Row 8, and Right to East Stairs
+# Phase 1: Walk from current (5, 12) to East Stairs (15, 11) on 2F (State B is active)
 path_to_east_stairs = [
-    (5, 12),
     (5, 11),
     (5, 10),
     (5, 9),
@@ -126,7 +125,7 @@ path_to_east_stairs = [
 
 print("--- PHASE 1: WALKING TO EAST STAIRS ON 2F (STATE B) ---")
 if walk_path(path_to_east_stairs):
-    print("Reached East Stairs on 2F! Warping to 3F...")
+    print("Reached East Stairs on 2F in State B! Warping to 3F...")
     time.sleep(2.0) # Wait for warp
     pos_3f = get_pos()
     print("Arrived on 3F (East side). Position:", pos_3f)
