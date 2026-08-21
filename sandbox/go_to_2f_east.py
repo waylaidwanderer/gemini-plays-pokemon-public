@@ -8,7 +8,7 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting short warp script. Current pos:", get_pos())
+print("Starting warp and switch run. Current pos:", get_pos())
 
 def handle_battle():
     print("  Battle/Dialogue detected! Handling...")
@@ -60,13 +60,46 @@ def step_to_closed_loop(tx, ty):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. Walk to (16, 11) on 3F
-step_to_closed_loop(16, 11)
+# 1. Walk from (20, 15) to (16, 11) on 3F
+waypoints_3f = [
+    (21, 15),
+    (21, 14),
+    (18, 14),
+    (18, 11),
+    (16, 11)
+]
 
-# 2. Step Left onto stairs (15, 11) to warp to 2F
-print("Stepping Left onto stairs at (15, 11)...")
-mgba.press_buttons(["Left"])
-time.sleep(2.0)
+success_3f = True
+for (wx, wy) in waypoints_3f:
+    if not step_to_closed_loop(wx, wy):
+        success_3f = False
+        print(f"Failed to reach 3F waypoint ({wx}, {wy})")
+        break
 
-print("Warp complete! Position on 2F:", get_pos())
-mgba.take_screenshot()
+if success_3f:
+    print("Reached stairs landing (16, 11) on 3F. Stepping Left to warp to 2F...")
+    mgba.press_buttons(["Left"])
+    time.sleep(2.0)
+    print("Warp complete. Current pos (should be on 2F):", get_pos())
+    
+    # 2. Walk on 2F to (12, 11)
+    waypoints_2f = [
+        (16, 7),
+        (12, 7),
+        (12, 11)
+    ]
+    
+    success_2f = True
+    for (wx, wy) in waypoints_2f:
+        if not step_to_closed_loop(wx, wy):
+            success_2f = False
+            print(f"Failed to reach 2F waypoint ({wx}, {wy})")
+            break
+            
+    if success_2f:
+        print("Successfully reached switch station (12, 11) on 2F!")
+        mgba.take_screenshot()
+    else:
+        print("Failed to navigate 2F.")
+else:
+    print("Failed to navigate 3F back to stairs.")
