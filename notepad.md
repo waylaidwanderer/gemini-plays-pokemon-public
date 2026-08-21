@@ -889,6 +889,7 @@
 - Hiker / Trainer: Located at (7, 54).
 - Ledge at row 58: Hop-down ledge heading south. Western passage at col 4 bypasses ledge.
 - South Connection: Connects directly south into Lavender Town.
+- Hiker #2 (Route 10 South): Located at (3, 57) [Defeated Turn 10996]. Team: Geodude Lv 21, Onix Lv 21. Reward: ¥735. Dialogue: "Ha-hahah-ah-ha!" Defeat quote: "Ha-hay fever! Haha-ha-choo!"
 
 <hr>
 
