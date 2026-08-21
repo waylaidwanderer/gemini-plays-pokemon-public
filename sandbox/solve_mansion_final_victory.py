@@ -13,7 +13,6 @@ def handle_battle():
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
-    # Run option: Down, Right, A
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
     for _ in range(5):
@@ -68,54 +67,41 @@ def walk_path(path):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# 1. On 3F (State A), walk from current (9, 11) to West stairs at (7, 10)
-path_3f_to_stairs = [
-    (9, 10),
-    (8, 10),
-    (7, 10)
+# 1. On 2F (State A), walk from current (12, 10) to East stairs at (15, 11)
+path_2f = [
+    (12, 7),
+    (16, 7),
+    (16, 11),
+    (15, 11)
 ]
 
-print("Walking to West stairs on 3F...")
-if walk_path(path_3f_to_stairs):
-    print("Warping down to 2F...")
+print("Walking to East stairs on 2F (State A)...")
+if walk_path(path_2f):
+    print("Reached East stairs on 2F! Warping up to 3F...")
     time.sleep(2.0) # wait for warp
-    print("Arrived on 2F. Position:", get_pos())
+    print("Arrived on 3F. Position:", get_pos())
     mgba.take_screenshot()
     
-    # 2. On 2F (State A), walk along row 11 directly to East stairs at (15, 11)
-    path_2f_to_stairs = [
-        (15, 11)
+    # 2. On 3F (East side, State A), walk to balcony landing (20, 15)
+    path_3f = [
+        (18, 11),
+        (18, 14),
+        (21, 14),
+        (21, 15),
+        (20, 15)
     ]
-    print("Walking along row 11 on 2F (State A) to East stairs at (15, 11)...")
-    if walk_path(path_2f_to_stairs):
-        print("Reached East stairs on 2F! Warping up to 3F...")
-        time.sleep(2.0)
-        print("Arrived on 3F (East side). Position:", get_pos())
+    print("Walking to balcony landing on 3F (State A)...")
+    if walk_path(path_3f):
+        print("Reached balcony landing successfully! Dropping to B1F...")
         mgba.take_screenshot()
-        
-        # 3. On 3F (East side, State A), walk to balcony landing (20, 15)
-        path_3f_to_balcony = [
-            (18, 11),
-            (18, 14),
-            (21, 14),
-            (21, 15),
-            (20, 15)
-        ]
-        print("Walking to balcony landing on 3F (East side, State A)...")
-        if walk_path(path_3f_to_balcony):
-            print("Reached balcony landing! Dropping to B1F...")
-            mgba.take_screenshot()
-            # Step Down to (20, 18) and Left to drop
-            mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
-            time.sleep(3.0)
-            print("Dropped! B1F Position:", get_pos())
-            mgba.take_screenshot()
-        else:
-            print("Failed to reach balcony landing on 3F.")
-            mgba.take_screenshot()
+        # Step Down to (20, 18) and Left to drop
+        mgba.press_buttons(["Down", "sleep 400", "Down", "sleep 400", "Down", "sleep 400", "Left"])
+        time.sleep(3.0)
+        print("Dropped! B1F Position:", get_pos())
+        mgba.take_screenshot()
     else:
-        print("Failed to reach East stairs on 2F.")
+        print("Failed to reach balcony landing on 3F.")
         mgba.take_screenshot()
 else:
-    print("Failed to reach West stairs on 3F.")
+    print("Failed to reach East stairs on 2F.")
     mgba.take_screenshot()
