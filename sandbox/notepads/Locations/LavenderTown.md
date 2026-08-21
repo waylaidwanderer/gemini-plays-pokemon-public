@@ -7,8 +7,10 @@
 
 ## Layout & Landmarks
 - Northern Entrance: Road enters at cols 10-11 across rows 68-73.
-- Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5).
-- Pokémon Tower: Located in the northeast at cols 12-17 (purple multi-story tower).
-- Mr. Fuji's Volunteer Pokémon House: Located in the center of town.
-- Name Rater's House: Located in the south of town.
-- Signpost: Located at (9, 3).
+- Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5). Interior: Nurse Joy at counter (3, 2), entrance mat at (3..4, 7).
+- Signpost: Located at (9, 3) outside Pokémon Center.
+
+## Unexplored Landmarks & Exploration Targets
+- Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
+- Town Buildings to Survey: Central and southern structures (to verify Mr. Fuji's house, Name Rater, Poké Mart).
+- Route 8 Western Gate: Road to Saffron City / Underground Path to Celadon City.
