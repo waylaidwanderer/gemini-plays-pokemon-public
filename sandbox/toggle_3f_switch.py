@@ -20,16 +20,15 @@ def walk_step(direction):
         print(f"After retry, position is {pos_after}")
     return pos_after
 
-# Current position: (7, 11) on 3F West.
-# Path to (2, 10) via Row 13:
-# Down to (7, 12)
-# Down to (7, 13)
-# Left 5 to (2, 13)
-# Up 3 to (2, 10)
+# Current position: (7, 10) on 3F West.
+# Path to (2, 10):
+# Down to (7, 11)
+# Left 5 to (2, 11)
+# Up 1 to (2, 10)
 
-path = ["Down", "Down", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up"]
+path = ["Down", "Left", "Left", "Left", "Left", "Left", "Up"]
 
-print("Walking to switch on 3F West via Row 13...")
+print("Walking to switch on 3F West...")
 for direction in path:
     pos = walk_step(direction)
     print("At:", pos)
