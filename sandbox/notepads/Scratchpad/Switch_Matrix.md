@@ -34,10 +34,11 @@
    - From `(7, 11)`, walk Up onto the stairs at `(7, 10)` to warp UP to 3F West.
 4. **On 3F West (State A), cross to 3F East:**
    - Path: West Stairs landing `(7, 11)` -> walk Right to `(12, 11)` -> UP Column 12 to `(12, 6)` -> Right Row 6 to `(19, 6)` -> Down Column 19 to `(19, 11)` -> Left along Row 11 to the East Stairs `(15, 11)`.
-5. **On 3F East (State A), warp DOWN to 2F East:**
-   - Step onto the East Stairs at `(15, 11)` to warp DOWN to 2F East landing at `(16, 11)`.
-6. **On 2F East (State A), toggle switch to State B:**
-   - Walk Left to `(12, 11)`. Face Right (towards the Mewtwo statue switch at `(13, 11)`) and press `A` to toggle the switch to **State B**!
+5. **On 3F East (State A), the gate at (15, 11) is CLOSED.** 
+   - Note: We cannot warp down to 2F East via these stairs in State A because the shutter gate is closed.
+   - Instead, we must use DIG to exit, re-enter, and toggle the switch to State B from the West side, OR find a different route.
+6. **To toggle the switch on 2F East:**
+   - If we are in State B, we can access 2F East. Toggling the switch at `(13, 11)` to State B can be done by approaching from 2F West if the passage is open, or via other stairs.
 7. **Warp UP to 3F East (State B):**
    - Walk to the East Stairs `(15, 11)` on 2F East and warp UP to 3F East landing at `(16, 11)`.
 8. **On 3F East (State B), drop over the balcony:**

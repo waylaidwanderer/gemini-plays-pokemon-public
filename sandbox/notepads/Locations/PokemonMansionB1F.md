@@ -8,7 +8,7 @@
 - **SECRET KEY:** Located in the northwest room of B1F at `(1, 4)`.
   - Status: Open and accessible only in State B!
   - Retrieval Method: Stand at `(1, 5)` facing UP and press `A` to retrieve it.
-  - Bag status: Verified on Turn 51636 that we do NOT have the Secret Key, and our Bag has plenty of empty space.
+  
 
 ## Switch & Shutter Gate Configuration
 
