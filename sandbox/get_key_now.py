@@ -34,6 +34,7 @@ path = ["Up"] + ["Right"]*10 + ["Up"]*5 + ["Right"]*7 + ["Down"]*5 + ["Left"]*4
 
 print("Crossing 3F from West to East...")
 for idx, direction in enumerate(path):
+    pos_before = mgba.get_coordinates()
     pos = walk_step(direction)
     print(f"Step {idx}: arrived at {pos}")
     # If we warped, let's stop and print coordinates
