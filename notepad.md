@@ -2164,6 +2164,29 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 11. Walk directly to the balcony landing `(20, 15)`: `(16, 11) -> (21, 11) -> (21, 15) -> (20, 15)`.
 12. Walk Down to `(20, 18)` and step Left to drop to B1F!
 
+## Final Verified Mansion Solution (Burden of Proof Met — Turn 51778)
+- **The State A Balcony Drop Route (Recommended/Master Route):**
+  1. Set the global switch on 3F West at `(2, 11)` (accessed from `(2, 12)` facing UP) to **State A** (Default).
+  2. Walk to `(19, 11)` via Row 6 crossing (which is completely open and bypasses Column 14 solid wall at Row 11).
+  3. Walk DOWN Column 19 through the open shutter gate at `(19, 8)` to `(19, 11)` on the South side.
+  4. Walk Right along Row 11 to Column 24: `(19, 11) -> (24, 11)` (crosses Column 22 on Row 11 which is completely open and has NO collision).
+  5. Walk Down Column 24 to the balcony landing: `(24, 11) -> (24, 14)` (Row 12 is blocked at Column 22 by rubble, so we must cross on Row 11!).
+  6. From `(24, 14)`, step Left onto the balcony drop at `(23, 14)` to drop directly onto **B1F East SOUTH** at `(19, 16)`!
+  7. On B1F East SOUTH, walk Left to B1F West SOUTH via Row 11 (the gate at `(10, 11)` is OPEN in State A).
+  8. On B1F West SOUTH, walk to the Mewtwo statue switch and toggle it to **State B**! (This opens B1F West shutters on Columns 3 and 4 and opens the Secret Key room).
+  9. Walk UP Column 4 through the open gates to B1F West NORTH, walk Left to `(1, 5)` facing UP, and retrieve the **Secret Key** at `(1, 4)`!
+
+- **The State B Pit Drop Route (Alternative Route):**
+  1. Set the switch at `(2, 11)` to **State B**.
+  2. Walk on 3F from `(2, 12)` to `(11, 10)` -> UP Column 11 to Row 6 -> Right on Row 6 to `(21, 6)`.
+  3. Walk UP Column 21 through the open shutter gate at `(21, 5)` to Row 3.
+  4. Walk Right on Row 3 to Column 26: `(21, 3) -> (26, 3)` (Row 3 is completely open, bypassing all Row 4-7 rubble!).
+  5. Walk Down Column 26 to Row 6: `(26, 3) -> (26, 6)`.
+  6. Step Left onto the pit at `(25, 6)` to drop through to 1F inside the fenced area!
+  7. On 1F, walk UP onto the stairs at `(7, 10)` to warp DOWN to **B1F East SOUTH**.
+  8. From B1F East SOUTH (State B), walk UP Column 19 to Row 5, and walk Left through the open shutter gate at `(9, 5)` to B1F West NORTH.
+  9. Retrieve the **Secret Key** at `(1, 4)`!
+
 <hr>
 
 <h1><code>Locations/CinnabarIsland.md</code></h1>
