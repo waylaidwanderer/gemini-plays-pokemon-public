@@ -1,12 +1,6 @@
-# Rock Tunnel - Canonical Master Route to Exit & Lavender Town
+# Rock Tunnel - Master Route to Exit & Lavender Town
 
 ## Verified Full Dungeon Progression
-1. [CURRENT] Western Corridor 1F (3, 21) -> North along col 3 to (3, 3) -> East along row 3 to Eastern Bypass (34, 3) -> South through Eastern Bypass to 1F Eastern Hall (34, 17).
-2. [NEXT] In 1F Eastern Hall (cols 28-37, rows 18-33): Explore south to locate Ladder 1 (at SE 1F) -> B1F SE (33, 25).
-3. [NEXT] On B1F: From (33, 25), follow Lower South Highway (rows 30-33) all the way west to Ladder 4.
-4. [NEXT] Take Ladder 4 on B1F -> Warps up to 1F NW at (3, 3).
-5. [NEXT] On 1F NW (3, 3): Walk south down Western Corridor (cols 2-5) straight to South Exit onto Route 10 South.
-6. [GOAL] Route 10 South -> Walk south into Lavender Town!
-
-## Current Navigation Step
-- From 1F (3, 21): Walk Up 18 steps along col 3 to (3, 3) (NW Room / North Highway).
+1. [CURRENT] 1F Central Ladder at (23, 11) -> Walk Left to (15, 11) -> Down to (15, 16) -> Left to (9, 16) -> Down to (9, 25) -> Right to (15, 25) -> Down into South Corridor past (14, 28) to South Exit.
+2. [GOAL] Route 10 South -> Walk south into Lavender Town!
+3. [HEAL] Use Pokémon Center in Lavender Town to restore party HP/PP.
