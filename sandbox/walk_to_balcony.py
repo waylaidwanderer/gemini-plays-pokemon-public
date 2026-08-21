@@ -8,18 +8,15 @@ def get_pos():
         p = mgba.get_coordinates()
     return p
 
-print("Starting walk_to_balcony.py. Starting pos:", get_pos())
+print("Walking to the balcony. Current pos:", get_pos())
 
 def handle_battle():
     print("  Battle/Dialogue detected! Handling...")
-    # Clear screens
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
-    # Run from battle
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.2)
-    # Clear textbox
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.05)
@@ -59,16 +56,14 @@ def step_to_closed_loop(tx, ty):
         return True
     return False
 
-# Clear any lingering dialogue/menus
+# Clear any lingering menus
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
+# Path to balcony landing:
+# (20, 12) -> (20, 14) -> (21, 14) -> (21, 15) -> (20, 15)
 waypoints = [
-    (18, 7),
-    (23, 7),
-    (23, 11),
-    (25, 11),
-    (25, 14),
+    (20, 14),
     (21, 14),
     (21, 15),
     (20, 15)
@@ -82,7 +77,7 @@ for (wx, wy) in waypoints:
         break
 
 if success:
-    print("Reached balcony landing (20, 15) successfully!")
+    print("Successfully reached balcony landing (20, 15)!")
     mgba.take_screenshot()
 else:
     print("Failed to reach balcony landing.")
