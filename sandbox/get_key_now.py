@@ -61,17 +61,18 @@ def navigate_to_targets(targets):
         last_pos = current_pos
         time.sleep(0.1)
 
-# Step 1: Walk to 1F West stairs to warp to 2F West
-print("Walking to 1F West stairs...")
-targets_1f = [(6, 10), (7, 10)]
+# We are currently at (11, 7) on 1F West in State A.
+# Step 1: Walk to 1F West stairs via Column 12
+print("Walking to 1F West stairs via Column 12...")
+targets_1f = [(12, 7), (12, 10), (7, 10)]
 navigate_to_targets(targets_1f)
 
 time.sleep(1.5)
 pos = mgba.get_coordinates()
 print("Position on 2F West:", pos)
 
-# We land at (7, 11) on 2F West.
-# Step 2: Step back onto the stairs at (7, 10) to warp to 3F West
+# We land on 2F West at (7, 11).
+# Step 2: Step back onto the stairs at (7, 10) to warp UP to 3F West
 if pos['x'] == 7 and pos['y'] == 11:
     print("Stepping onto stairs to warp to 3F West...")
     mgba.press_buttons(["Up"])
@@ -80,7 +81,7 @@ if pos['x'] == 7 and pos['y'] == 11:
 pos_3f = mgba.get_coordinates()
 print("Position on 3F West:", pos_3f)
 
-# We land at (7, 11) on 3F West.
+# We land on 3F West at (7, 11).
 # Step 3: Cross 3F West to 3F East stairs at (15, 11)
 if pos_3f['x'] == 7 and pos_3f['y'] == 11:
     print("Crossing 3F West to 3F East...")
