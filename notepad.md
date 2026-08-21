@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Route 10 Pokémon Center (x=3, y=7)
+- Location: Route 10 (x=11, y=20)
 
 
 
@@ -100,9 +100,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 42
-   - Stats (Verified at Lv 42): Max HP 138 (HP: 106/138), Attack 94, Defense 104, Speed 96, Special 99
+   - Stats (Verified at Lv 42): Max HP 138 (HP: 138/138), Attack 94, Defense 104, Speed 96, Special 99
    - Type: Water
-   - Moves: Skull Bash (15/15), Tail Whip (30/30), Bite (13/25), Bubblebeam (0/20)
+   - Moves: Skull Bash (15/15), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats: Max HP 26 (HP: 26/26)
@@ -120,7 +120,7 @@
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 5. ATLAS (Machop) - Lv 15
-   - Stats: Max HP 49 (HP: 8/49)
+   - Stats: Max HP 49 (HP: 49/49)
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
