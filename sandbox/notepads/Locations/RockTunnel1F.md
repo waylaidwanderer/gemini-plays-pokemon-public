@@ -53,8 +53,7 @@
 - Solid Vertical Rock Walls:
   - Cols 18-19 across rows 14-23: Solid vertical rock barrier dividing Southern Avenue (cols 20-25) from Central Sector (cols 14-17).
   - Cols 12-13 across rows 18-25: Solid vertical rock wall dividing Central and Western sectors.
-- Inter-Sector Routing on 1F:
-  - To reach the South Exit corridor (cols 14-16, rows 24-35), route via Row 11 horizontal highway: (34, 11) -> (27, 11) -> (23, 11) -> (15, 11), then descend south down cols 14-15 past (14, 28).
+- **Lower South Basin & Boundaries (Verified Turns 10814-10830)**: Lower basin spans rows 30-33 across cols 2-20. Southern boundary (row 34) is a solid continuous rock wall across cols 0-20 with no exit at (15, 33/34). Vertical passage at cols 14-17 (rows 28-29) connects lower basin up to row 24. Route through Rock Tunnel to the exit requires Ladder 4.
 
 - **Verified Eastern Sector & Bypass Traversal (Turns 8934-8938)**:
   - Warped to 1F Eastern Sector at (27, 3) via Ladder 2 from B1F (5, 3).
