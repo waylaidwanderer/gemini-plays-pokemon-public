@@ -37,35 +37,28 @@ def walk_step(direction, tx, ty):
 pos = mgba.get_coordinates()
 print("Starting outside:", pos)
 
-# 1. Bypass the signpost at (9, 11)
-if pos['x'] == 9 and pos['y'] == 10:
-    pos = walk_step("Left", 8, 10)
-    pos = walk_step("Down", 8, 11)
-    pos = walk_step("Down", 8, 12)
-    pos = walk_step("Right", 9, 12)
+# 1. Walk from (11, 7) to Mansion entrance at (6, 3)
+path_to_mansion = [
+    ('Left', 10, 7),
+    ('Up', 10, 6), ('Up', 10, 5), ('Up', 10, 4),
+    ('Left', 9, 4), ('Left', 8, 4), ('Left', 7, 4), ('Left', 6, 4),
+    ('Up', 6, 3)
+]
 
-# 2. Walk Right along Row 12 to Column 18
-while pos['x'] < 18:
-    pos = walk_step("Right", pos['x'] + 1, pos['y'])
+print("Walking to the Pokemon Mansion entrance...")
+for d, tx, ty in path_to_mansion:
+    if pos['x'] == tx and pos['y'] == ty:
+        continue
+    pos = walk_step(d, tx, ty)
 
-# 3. Walk UP Column 18 to Row 5 (avoiding the blocked/locked door at 18, 4)
-while pos['y'] > 5:
-    pos = walk_step("Up", pos['x'], pos['y'] - 1)
-
-# 4. Walk Left along Row 5 to Column 6
-while pos['x'] > 6:
-    pos = walk_step("Left", pos['x'] - 1, pos['y'])
-
-# 5. Step UP into the Mansion at (6, 3)
+# Step UP into the Mansion
 print("Entering Pokemon Mansion...")
-pos = walk_step("Up", 6, 3)
-time.sleep(0.5)
 pos = walk_step("Up", 5, 26)
 time.sleep(1.5)
 
 print("Coordinates inside Mansion 1F West:", mgba.get_coordinates())
 
-# 6. Walk UP Column 5, Right to (7, 11), and UP to 2F stairs
+# 2. Walk UP Column 5, Right to (7, 11), and UP to 2F stairs
 path_on_1f = [
     ('Up', 5, 25), ('Up', 5, 24), ('Up', 5, 23), ('Up', 5, 22), ('Up', 5, 21),
     ('Up', 5, 20), ('Up', 5, 19), ('Up', 5, 18), ('Up', 5, 17), ('Up', 5, 16),
