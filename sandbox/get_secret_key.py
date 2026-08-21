@@ -80,21 +80,25 @@ def master_retrieve_key():
         return
         
     print("Both gates CLOSED! We must walk to B1F Mewtwo statue and toggle.")
-    # Walk Down to (10, 12) via Row 12 (bypassing statue)
-    # Currently at (10, 4) or similar. Walk to (10, 11)
+    # Walk Down to (10, 11)
     curr_y = mgba.get_coordinates()['y']
     for _ in range(11 - curr_y):
         mgba.press_buttons(["Down"])
         time.sleep(0.05)
-    # Down to row 12
-    mgba.press_buttons(["Down"])
-    time.sleep(0.05)
-    print(f"At (10, 12) for bypass: {mgba.get_coordinates()}")
+    print(f"At (10, 11): {mgba.get_coordinates()}")
     
-    # Walk Left along Row 12 to (2, 12)
-    for _ in range(8):
+    # Walk Left along Row 11 to (3, 11)
+    for _ in range(7):
         mgba.press_buttons(["Left"])
         time.sleep(0.05)
+    print(f"At (3, 11) near statue: {mgba.get_coordinates()}")
+    
+    # Walk Down to (3, 12)
+    mgba.press_buttons(["Down"])
+    time.sleep(0.05)
+    # Walk Left to (2, 12) (directly below statue)
+    mgba.press_buttons(["Left"])
+    time.sleep(0.05)
     print(f"At (2, 12) below switch: {mgba.get_coordinates()}")
     
     # Face UP to interact with switch
@@ -111,16 +115,18 @@ def master_retrieve_key():
     time.sleep(1.0)
     print("Switch toggled!")
     
-    # Walk back to Column 10 along Row 12
-    for _ in range(8):
-        mgba.press_buttons(["Right"])
-        time.sleep(0.05)
-    print(f"Returned to (10, 12): {mgba.get_coordinates()}")
-    
-    # Walk Up to Row 11
+    # Walk back to Row 11 via (3, 12) and (3, 11)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.05)
     mgba.press_buttons(["Up"])
     time.sleep(0.05)
-    print(f"Returned to Row 11: {mgba.get_coordinates()}")
+    print(f"Returned to (3, 11): {mgba.get_coordinates()}")
+    
+    # Walk Right to (10, 11) along Row 11
+    for _ in range(7):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.05)
+    print(f"Returned to bypass Column 10: {mgba.get_coordinates()}")
     
     # Now let's test Row 6 again since state has swapped!
     for _ in range(5):
