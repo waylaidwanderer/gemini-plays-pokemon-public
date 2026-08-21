@@ -1,23 +1,43 @@
 import mgba
 import time
 
-# We are at (12, 11) on 2F.
-# Let's walk Left along Row 11 to see how far we can go.
-# We will walk Left until we hit a wall or reach Column 2.
+# We are at (5, 10) on 2F West.
+# Let's test walking in different directions to find out where the walls and stairs are.
+print("Current position:", mgba.get_coordinates())
 
-path = ["Left"] * 11
-
-for idx, direction in enumerate(path):
+directions = ["Left", "Right", "Down", "Up"]
+for direction in directions:
     pos_before = mgba.get_coordinates()
-    print(f"Step {idx}: trying to move {direction} from {pos_before}")
+    print(f"Testing {direction}...")
     mgba.press_buttons([direction])
     time.sleep(0.3)
     pos_after = mgba.get_coordinates()
-    if pos_before == pos_after:
-        print(f"Blocked at {pos_before} trying to move {direction}")
-        break
-    else:
-        print(f"Moved to {pos_after}")
+    print(f"Moved to {pos_after}")
+    # Move back if we successfully moved
+    if pos_before != pos_after:
+        # Check if we transitioned maps
+        if abs(pos_before['x'] - pos_after['x']) > 2 or abs(pos_before['y'] - pos_after['y']) > 2:
+            print(f"WARPED! New map coordinates: {pos_after}")
+            # Warp back if possible
+            if direction == "Left":
+                mgba.press_buttons(["Right"])
+            elif direction == "Right":
+                mgba.press_buttons(["Left"])
+            elif direction == "Down":
+                mgba.press_buttons(["Up"])
+            elif direction == "Up":
+                mgba.press_buttons(["Down"])
+            time.sleep(0.5)
+        else:
+            # Walk back
+            if direction == "Left":
+                mgba.press_buttons(["Right"])
+            elif direction == "Right":
+                mgba.press_buttons(["Left"])
+            elif direction == "Down":
+                mgba.press_buttons(["Up"])
+            elif direction == "Up":
+                mgba.press_buttons(["Down"])
+            time.sleep(0.3)
 
-print("Final position:", mgba.get_coordinates())
-mgba.take_screenshot()
+print("Finished test!")
