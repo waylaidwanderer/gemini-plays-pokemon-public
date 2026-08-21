@@ -63,21 +63,19 @@ def walk_path(path):
                 return False
     return True
 
-# Clear menus
+# Dismiss "Got away safely!" textbox
 mgba.press_buttons(["B"])
-time.sleep(0.3)
+time.sleep(0.5)
 
-# 1. On 2F (State A), walk from current (7, 10) to East stairs at (15, 11)
+# 1. Walk from current (13, 12) to East stairs at (15, 11) on 2F (State A)
 path_2f = [
-    (12, 10),
-    (12, 13),
-    (15, 13),
+    (15, 12),
     (15, 11)
 ]
 
 print("Walking to East stairs on 2F (State A)...")
 if walk_path(path_2f):
-    print("Reached East stairs! Warping up to 3F...")
+    print("Reached East stairs on 2F! Warping up to 3F...")
     time.sleep(2.0) # wait for warp
     print("Arrived on 3F. Position:", get_pos())
     mgba.take_screenshot()
