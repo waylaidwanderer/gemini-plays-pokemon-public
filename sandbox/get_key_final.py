@@ -33,18 +33,23 @@ def walk_step(direction, tx, ty):
             
     return pos_after
 
-# --- FINAL STAGE: RETRIEVE SECRET KEY ---
 pos = mgba.get_coordinates()
-print("Starting pos on 3F East (State A):", pos)
+print("Starting pos inside 3F East (State A):", pos)
 
-# We are at (21, 6) on 3F East.
-# Walk Left to Column 19
-while pos['x'] > 19:
-    pos = walk_step("Left", pos['x'] - 1, pos['y'])
+# Path to balcony drop on Column 19
+path_to_drop = [
+    ('Up', 21, 5), ('Up', 21, 4), ('Up', 21, 3),
+    ('Left', 20, 3), ('Left', 19, 3),
+    ('Down', 19, 4), ('Down', 19, 5), ('Down', 19, 6), ('Down', 19, 7), ('Down', 19, 8), 
+    ('Down', 19, 9), ('Down', 19, 10), ('Down', 19, 11), ('Down', 19, 12), ('Down', 19, 13), 
+    ('Down', 19, 14), ('Down', 19, 15), ('Down', 19, 16)
+]
 
-# Walk Down Column 19 to Row 16: (19, 16)
-while pos['y'] < 16:
-    pos = walk_step("Down", pos['x'], pos['y'] + 1)
+print("Walking to the 3F balcony drop...")
+for d, tx, ty in path_to_drop:
+    if pos['x'] == tx and pos['y'] == ty:
+        continue
+    pos = walk_step(d, tx, ty)
 
 # Drop off the balcony by stepping Left to (18, 16)
 print("At (19, 16). Stepping Left to drop from balcony...")
@@ -54,7 +59,7 @@ time.sleep(3.0)
 pos_b1f = mgba.get_coordinates()
 print("Landed on B1F East! Position:", pos_b1f)
 
-# Step 2: Walk to B1F West switch stand tile at (2, 12)
+# Step 2: Navigate B1F to the B1F West switch stand tile at (2, 12)
 targets_to_switch = [(10, 16), (10, 11), (3, 11), (3, 12), (2, 12)]
 for tx, ty in targets_to_switch:
     while pos_b1f['x'] != tx or pos_b1f['y'] != ty:
