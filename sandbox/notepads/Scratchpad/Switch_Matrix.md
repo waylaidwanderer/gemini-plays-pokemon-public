@@ -85,3 +85,4 @@
 - **Row 9 West Wall:** Solid horizontal wall across columns 2 to 7 on row 9 (empirically blocked on Turn 49251).
 
 - **3F gate at (24, 13) / (25, 13):** CLOSED in State B (verified on Turn 49350), OPEN in State A.
+- **3F gate at (20, 8) / (21, 8):** **CLOSED in State B** (Empirically verified on Turn 50793; column 20 is blocked at row 8 in State B, requiring the northeast detour through columns 21-26).
