@@ -1470,6 +1470,15 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Shutter Gate Configurations & Structural Barriers
 
 ### Permanent Structural Walls
+### 1F East-Central Column 13 Empirical Blockage (Verified Turn 54451)
+- **Rows 7, 8, 9, 10, 11, 12 on Column 13:** Completely solid and impassable in State A!
+  - Row 7: Solid wall/cabinet.
+  - Row 8: Solid wall.
+  - Row 9: Solid wall.
+  - Row 10: Solid wall.
+  - Row 11: Solid wall (and Scientist NPC at (13, 11) is also solid).
+  - Row 12: Solid wall.
+- **Row 6 on Column 13:** 100% OPEN and walkable horizontally! This is the ONLY horizontal passage connecting 1F West to 1F East below Row 6 in State A!
 - **Column 13 Wall (2F):** A solid permanent wall on Rows 7-12, completely blocking horizontal crossing. (Open on Rows 4-6).
 - **Column 22 Wall (2F):** A solid permanent wall on Rows 4-12, completely dividing 2F East into East-Central and West-Central sections. (Open only on Row 3).
 
