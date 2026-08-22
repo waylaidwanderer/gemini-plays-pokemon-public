@@ -13,7 +13,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Lavender Town (x=0, y=8)
+- Location: Lavender Pokémon Center (x=3, y=7)
 
 
 
