@@ -1451,6 +1451,21 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Locations/CinnabarIsland</code></h1>
 
+# Cinnabar Island & Pokémon Mansion Layout Discoveries
+
+## Overworld Landmarks
+- **Cinnabar Gym:** Locked door located at `(3, 2)` on Cinnabar Island overworld, guarded by Rhydon statues at `(0, 3)` and `(5, 3)`.
+- **Poké Mart:** Located at `(15, 11)`.
+- **Pokémon Center:** Located at `(11, 11)`.
+- **Pokémon Mansion Entrance:** Entrance door is at `(6, 3)` in the northwest corner.
+
+## Pokémon Mansion 2F West Physical Boundaries
+- **Vertical Obstruction at (7, 9):** A solid wall block on Column 7 Row 9. Walking UP Column 7 is completely blocked from `(7, 10)` to `(7, 8)`. Use Row 10 or Row 11 instead!
+- **Mewtwo Switch Stand at (3, 11):** The switch is at `(2, 11)`. Stand at `(3, 11)` facing LEFT to toggle it. (In State B, the shutter gate on Row 11 is closed, blocking Column 3).
+
+## Pokémon Mansion 2F East Physical Boundaries
+- **Column 23 Wall (Permanent):** Solid wall running vertically on Column 23 from Row 4 to Row 12, dividing 2F East. Open ONLY on Row 3.
+- **Row 7 Gates (Columns 14-17):** Dynamic shutter gates. Closed in State A, OPEN in State B!
 
 
 <hr>
@@ -1491,9 +1506,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ---
 
 ## The Definitive Verified Master Route to B1F East & Secret Key
-1. **Prepare Mansion in State B (Verified Turn 53772):**
+1. **Prepare Mansion in State B (Verified Turn 54051):**
    - From 1F West (State A), go UP the stairs at `(7, 10)` to 2F West.
-   - On 2F West, walk Left to `(2, 11)` and standing at `(2, 12)` face UP to toggle the switch to State B.
+   - On 2F West, walk Left to `(3, 11)` and stand at `(3, 11)` facing LEFT to toggle the switch at `(2, 11)` to State B.
 2. **Return to 1F West and cross to 1F East (Verified Turn 53772):**
    - Go back to 2F West stairs at `(7, 10)` and go DOWN to 1F West.
    - On 1F West (State B), walk `(7, 11) -> (12, 11) -> (12, 3) -> (26, 3) -> (26, 11) -> (18, 11) -> (18, 10)` to reach the East stairs at `(18, 10)`. (We bypass Column 22 wall by crossing on Row 3!).
