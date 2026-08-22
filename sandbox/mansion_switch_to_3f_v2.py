@@ -31,39 +31,43 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (28, 21) on 1F East inside the Mansion
+def walk_to_local(tx, ty):
+    # Safe simple walk_to for obstacle-free straight lines
+    pos = mgba.get_coordinates()
+    attempts = 0
+    while (pos['x'] != tx or pos['y'] != ty) and attempts < 30:
+        dx = tx - pos['x']
+        dy = ty - pos['y']
+        if dx < 0: d = "Left"
+        elif dx > 0: d = "Right"
+        elif dy < 0: d = "Up"
+        else: d = "Down"
+        
+        pos_before = pos
+        mgba.press_buttons([d])
+        time.sleep(0.55)
+        pos = mgba.get_coordinates()
+        if pos == pos_before:
+            handle_battle()
+            pos = mgba.get_coordinates()
+        attempts += 1
+    return pos['x'] == tx and pos['y'] == ty
+
+# Currently at (24, 11) on 1F East inside the Mansion
 pos = mgba.get_coordinates()
 print("Starting mansion_switch_to_3f_v2 from:", pos)
 
-if pos['x'] == 28 and pos['y'] == 21:
+if pos['x'] == 24 and pos['y'] == 11:
+    print("--- STEP 1: GO TO 1F EAST STAIRS AT (26, 6) ---")
     path_to_stairs = [
-        # Walk LEFT along Row 21 to Column 25
-        (27, 21, 'Left'),
-        (26, 21, 'Left'),
-        (25, 21, 'Left'),
-        # Walk UP Column 25 to Row 11
-        (25, 20, 'Up'),
-        (25, 19, 'Up'),
-        (25, 18, 'Up'),
-        (25, 17, 'Up'),
-        (25, 16, 'Up'),
-        (25, 15, 'Up'),
-        (25, 14, 'Up'),
-        (25, 13, 'Up'),
-        (25, 12, 'Up'),
-        (25, 11, 'Up'),
-        # Walk LEFT along Row 11 to Column 18
-        (24, 11, 'Left'),
-        (23, 11, 'Left'),
-        (22, 11, 'Left'),
-        (21, 11, 'Left'),
-        (20, 11, 'Left'),
-        (19, 11, 'Left'),
-        (18, 11, 'Left'),
-        # Walk UP to stairs at (18, 10)
-        (18, 10, 'Up'),
+        (25, 11, 'Right'),
+        (26, 11, 'Right'),
+        (26, 10, 'Up'),
+        (26, 9, 'Up'),
+        (26, 8, 'Up'),
+        (26, 7, 'Up'),
+        (26, 6, 'Up'),
     ]
-    print("Walking to 1F East stairs...")
     for target in path_to_stairs:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
@@ -74,5 +78,46 @@ if pos['x'] == 28 and pos['y'] == 21:
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
-print("Final position after climbing stairs:", mgba.get_coordinates())
+pos = mgba.get_coordinates()
+print("Position on 2F East after climbing stairs:", pos)
+
+if pos['x'] == 26 and pos['y'] == 7:
+    print("--- STEP 2: TRYING TO CROSS 2F EAST TO WEST ---")
+    # Walk to (24, 11) on 2F East
+    if not walk_to_local(24, 11):
+        print("Failed to reach (24, 11) on 2F East")
+        exit()
+        
+    # We are at (24, 11) on 2F East.
+    # Let's test Row 15 horizontal crossing
+    print("Testing Row 15 horizontal crossing...")
+    if walk_to_local(24, 15):
+        print("Successfully reached (24, 15). Trying to walk LEFT to Column 15...")
+        if walk_to_local(15, 15):
+            print("Row 15 is OPEN! Successfully reached (15, 15)!")
+            # Walk UP Column 15 to stairs at (15, 11)
+            walk_to_local(15, 11)
+            exit()
+            
+    # If Row 15 failed, we try Row 16
+    print("Row 15 failed. Testing Row 16 horizontal crossing...")
+    if walk_to_local(24, 16):
+        print("Successfully reached (24, 16). Trying to walk LEFT to Column 15...")
+        if walk_to_local(15, 16):
+            print("Row 16 is OPEN! Successfully reached (15, 16)!")
+            # Walk UP Column 15 to stairs at (15, 11)
+            walk_to_local(15, 11)
+            exit()
+            
+    # If Row 16 failed, we try Row 14
+    print("Row 16 failed. Testing Row 14 horizontal crossing...")
+    if walk_to_local(24, 14):
+        print("Successfully reached (24, 14). Trying to walk LEFT to Column 15...")
+        if walk_to_local(15, 14):
+            print("Row 14 is OPEN! Successfully reached (15, 14)!")
+            # Walk UP Column 15 to stairs at (15, 11)
+            walk_to_local(15, 11)
+            exit()
+
+print("All horizontal rows failed to cross to Column 15 on 2F East in State B.")
 mgba.take_screenshot()
