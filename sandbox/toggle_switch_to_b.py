@@ -26,7 +26,7 @@ def walk_step(tx, ty, d):
         new_pos = mgba.get_coordinates()
         
         if new_pos == pos:
-            print(f"Bumped at {pos} going {d} towards ({tx}, {ty}). Handling battle/obstacle...")
+            print(f"Bumped at {pos} going {d} towards ({tx}, {ty}). Handling battle...")
             handle_battle()
             time.sleep(0.5)
             new_pos = mgba.get_coordinates()
@@ -36,44 +36,44 @@ def walk_step(tx, ty, d):
         attempts += 1
     return False
 
-# Starting at (12, 2) on 2F West
+# Starting at (10, 7) on 2F West
 pos = mgba.get_coordinates()
 print("Starting safe Switch B toggle from 2F West:", pos)
 
-if pos['x'] == 12 and pos['y'] == 2:
-    print("--- STEP 1: WALKING DOWN COLUMN 12 TO ROW 6 ---")
-    path_col12 = [
-        (12, 3, 'Down'),
-        (12, 4, 'Down'),
-        (12, 5, 'Down'),
-        (12, 6, 'Down'),
+if pos['x'] == 10 and pos['y'] == 7:
+    print("--- STEP 1: RETURNING TO COLUMN 12 ---")
+    path_to_col12 = [
+        (10, 6, 'Up'),
+        (11, 6, 'Right'),
+        (12, 6, 'Right'),
     ]
-    for target in path_col12:
+    for target in path_to_col12:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
-            print(f"Failed on Column 12 at ({tx}, {ty})")
+            print(f"Failed to reach target at ({tx}, {ty})")
             exit()
 
 pos = mgba.get_coordinates()
 if pos['x'] == 12 and pos['y'] == 6:
-    print("--- STEP 2: WALKING TO SWITCH BYPASSING PIT ---")
+    print("--- STEP 2: WALKING TO SWITCH BYPASSING PIT AND WALLS ---")
     path_2f = [
-        # Walk left along Row 6 to Column 3 (bypassing Pit on Column 2)
-        (11, 6, 'Left'),
-        (10, 6, 'Left'),
-        (9, 6, 'Left'),
-        (8, 6, 'Left'),
-        (7, 6, 'Left'),
-        (6, 6, 'Left'),
-        (5, 6, 'Left'),
-        (4, 6, 'Left'),
-        (3, 6, 'Left'),
-        # Walk DOWN Column 3 to Row 12 (bypassing Pit on Column 2 Row 8)
-        (3, 7, 'Down'),
-        (3, 8, 'Down'),
-        (3, 9, 'Down'),
-        (3, 10, 'Down'),
-        (3, 11, 'Down'),
+        # Walk DOWN Column 12 to Row 11
+        (12, 7, 'Down'),
+        (12, 8, 'Down'),
+        (12, 9, 'Down'),
+        (12, 10, 'Down'),
+        (12, 11, 'Down'),
+        # Walk LEFT along Row 11 to Column 3 (bypassing stairs and pit)
+        (11, 11, 'Left'),
+        (10, 11, 'Left'),
+        (9, 11, 'Left'),
+        (8, 11, 'Left'),
+        (7, 11, 'Left'),
+        (6, 11, 'Left'),
+        (5, 11, 'Left'),
+        (4, 11, 'Left'),
+        (3, 11, 'Left'),
+        # Walk DOWN Column 3 to Row 12
         (3, 12, 'Down'),
         # Walk LEFT to Column 2 on Row 12 (below the pit)
         (2, 12, 'Left'),
