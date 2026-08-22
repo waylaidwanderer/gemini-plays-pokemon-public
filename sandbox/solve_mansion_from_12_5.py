@@ -44,37 +44,68 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Secret Key Retrieval from (12, 5) ===")
+print("=== Starting Perfect Mansion Run Phase 1 from (14, 5) ===")
 pos = mgba.get_coordinates()
 
-if pos['x'] == 12 and pos['y'] == 5:
-    route = [(1, 5)]
-    if walk_exact_route(route):
-        print("SUCCESS! Reached Secret Key stand tile (1, 5)!")
-        
-        # Face UP and retrieve key
-        print("Facing UP and retrieving key...")
+# 1. Walk from Cinnabar overworld to Mansion entrance and enter
+if pos['x'] == 14 and pos['y'] == 5:
+    cinnabar_route = [
+        (6, 5),
+        (6, 3)
+    ]
+    if walk_exact_route(cinnabar_route):
+        print("At Mansion entrance. Stepping UP to enter...")
+        mgba.press_buttons(["Up"])
+        time.sleep(2.5)
+        pos = mgba.get_coordinates()
+        print("Entered Mansion position:", pos)
+
+# 2. Inside Mansion 1F West, go up stairs to 2F West
+pos = mgba.get_coordinates()
+if pos['x'] == 5 and pos['y'] == 27:
+    print("Clear doormat warp by stepping UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    print("Walking to 1F West stairs at (7, 10)...")
+    route_1f = [(7, 10)]
+    if walk_exact_route(route_1f):
+        print("At 1F West stairs. Stepping UP to warp to 2F West...")
+        mgba.press_buttons(["Up"])
+        time.sleep(2.5)
+        pos = mgba.get_coordinates()
+        print("Arrived on 2F West:", pos)
+
+# 3. On 2F West (State A), walk left to switch at (2, 11) and toggle to State B
+pos = mgba.get_coordinates()
+if pos['x'] == 7 and pos['y'] == 10:
+    print("Walking to 2F West switch stand tile at (2, 12)...")
+    route_switch_2f = [
+        (2, 10),
+        (2, 12)
+    ]
+    if walk_exact_route(route_switch_2f):
+        print("At 2F West switch stand tile (2, 12). Facing UP to toggle switch at (2, 11)...")
         mgba.press_buttons(["Up"])
         time.sleep(0.5)
-        # Interacting to retrieve Secret Key
-        mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B"])
+        
+        print("Toggling Mewtwo switch to State B...")
+        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
         time.sleep(1.5)
-        print("SECRET KEY RETRIEVED! Now DIGging out...")
-        mgba.press_buttons(["Start", "sleep 500"])
-        time.sleep(1.0)
-        # Select POKéMON
-        mgba.press_buttons(["Down", "sleep 100", "A", "sleep 500"])
-        time.sleep(1.0)
-        # Select TRUFFLE (Down 5 times)
-        mgba.press_buttons(["Down", "Down", "Down", "Down", "Down", "sleep 100", "A", "sleep 500"])
-        time.sleep(1.0)
-        # Select DIG (Option 1)
-        mgba.press_buttons(["A", "sleep 500"])
-        time.sleep(1.0)
-        mgba.press_buttons(["A"])
-        time.sleep(3.0)
-        print("ESCAPED! Final Cinnabar coordinates:", mgba.get_coordinates())
-        mgba.take_screenshot()
-    else:
-        print("Failed route. Re-run after clearing battle or checking position.")
-        mgba.take_screenshot()
+        print("Switch toggled! Walk back to 2F West stairs at (7, 10)...")
+        
+        route_back_2f = [
+            (2, 10),
+            (7, 10)
+        ]
+        if walk_exact_route(route_back_2f):
+            print("At 2F West stairs. Stepping DOWN to warp down to 1F West...")
+            mgba.press_buttons(["Down"])
+            time.sleep(2.5)
+            
+            # Step DOWN once to clear the stairs
+            mgba.press_buttons(["Down"])
+            time.sleep(0.5)
+            
+            print("PHASE 1 COMPLETE! Final position on 1F West in State B:", mgba.get_coordinates())
+            mgba.take_screenshot()
