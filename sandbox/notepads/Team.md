@@ -2,7 +2,7 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 46
-   - Stats (Verified at Lv 46): Max HP 152 (HP: 125/152), Attack 103, Defense 115, Speed 106, Special 109
+   - Stats (Verified at Lv 46): Max HP 152 (HP: 122/152), Attack 103, Defense 115, Speed 106, Special 109
    - Type: Water
    - Moves: Skull Bash (10/15), Ice Beam (8/10), Bite (24/25), Bubblebeam (19/20)
    - Role: Starter & primary Water special attacker (Lead)

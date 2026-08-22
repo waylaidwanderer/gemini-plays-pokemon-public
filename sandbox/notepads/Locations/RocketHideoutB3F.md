@@ -12,5 +12,6 @@
 ## Exploration Log
 - Arrived on B3F at (21, 25) via stairs at (21, 24) [Turn 12266].
 
-- Rocket Grunt #1: Located at (17, 25) facing East [Engaged Turn 12267].
+- Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12269].
+  - Team: Rattata Lv 19, Raticate Lv 19.
   - Dialogue: "Why did you come here?"
