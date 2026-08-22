@@ -11,7 +11,10 @@
 - Town Signpost / Board: Located at (9, 3) east of Pokémon Center.
 - Central-West House: Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9).
 - Signpost: Located at (11, 9).
-- NPCs: Local resident at (5, 7), resident at (9, 10).
+- NPCs & Dialogue:
+  - Local resident at (5, 7): "GHOSTs appeared in POKéMON TOWER. I think they're the spirits of POKéMON that the ROCKETs killed."
+  - Town center resident at (9, 10): "This town is known as the grave site of POKéMON. Memorial services are held in POKéMON TOWER."
+  - Resident near Pokémon Tower at (15, 9).
 
 ## Buildings & Points of Interest to Survey
 - Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
