@@ -1,8 +1,12 @@
 # Pokémon Tower 2F - Layout & Notes
 
 ## Connections
-- Downstairs (1F): Stairs at south-east (approx col 18, row 9)
-- Upstairs (3F): TBD
+- Downstairs (1F): Stairs at (18, 9)
+- Upstairs (3F): Stairs at (3, 9)
+
+## NPCs & Points of Interest
+- NPC / Mourner: Located at (3, 7)
+- Central Memorial Aisles: Gravestones and aisles across rows 2-13, cols 5-14
 
 ## Encounters & Events
 - Rival RED Encounter: Challenged player upon entering 2F.
