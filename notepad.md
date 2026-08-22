@@ -1460,8 +1460,8 @@
 
 ## Exploration Log
 - Entered B2F at (27, 8) [Turn 12222].
-- Rocket Grunt #1: Located at (20, 12) facing South [Defeated Turn 12230].
-  - Team: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17.
+- Rocket Grunt #1: Located at (20, 12) facing South [Defeated Turn 12233].
+  - Team: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Raticate Lv 17.
   - Dialogue: "BOSS said you can see GHOSTs with the SILPH SCOPE!"
 
 <hr>
