@@ -57,7 +57,7 @@
 3. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Slide
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 4. SPROUT (Bellsprout) - Lv 16
    - Stats: Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
@@ -84,7 +84,7 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS, TM48 Rock Slide on TERRA]
+- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 2x Nugget (sellable for 10000 total - 1x Route 24, 1x Rocket Hideout B2F)
 - Consumables & Field Items:
@@ -1459,31 +1459,24 @@
 
 ## Connections & Warps
 - Stairs Up to B2F: Located at (21, 24), leads up to Rocket Hideout B2F at (21, 22).
-- Stairs Down to B4F: To be located.
-
-## Floor Layout & Mechanics
-- Floor layout contains maze corridors, Grunts, and spin tiles.
-
-## Exploration Log
-- Arrived on B3F at (21, 25) via stairs at (21, 24) [Turn 12266].
-
-- Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12269].
-  - Team: Rattata Lv 19, Raticate Lv 19.
-  - Dialogue: "Why did you come here?" -> Defeat: "This won't do!" -> Post-battle: "OK, I'll talk! Take the elevator to see my BOSS!"
-- Rocket Grunt #2: Located at (18, 17) facing South [Defeated Turn 12280].
-  - Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20.
-  - Dialogue: "Intruder alert!"
+- Elevator Shaft: Located at (24..25, 16..19).
 
 ## Floor Layout & Verified Topology
 - Eastern Wing (cols 18-23, rows 16-27):
   - Stairs up to B2F at (21, 24).
-  - Rocket Grunt #1 at (17, 25) facing East [Defeated Turn 12273].
-  - Rocket Grunt #2 at (18, 18) facing South [Defeated Turn 12280].
   - Central barrier block at (14..17, 19..24).
   - Northern bypass corridor connecting to western wing at rows 17-18 (cols 12-22).
+  - Southern bypass corridor along row 26 (cols 10-22).
+- Northwest Alcove:
+  - Item Ball at (9, 17) [Uncollected due to full bag].
 
-## Items & Item Balls
-- Item Ball at (9, 17): Northwest alcove [Discovered Turn 12283].
+## Verified Trainers
+- Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].
+  - Team: Rattata Lv 19, Raticate Lv 19, Rattata Lv 19.
+  - Dialogue: "Why did you come here?" -> Defeat: "This won't do!" -> Post-battle: "OK, I'll talk! Take the elevator to see my BOSS!"
+- Rocket Grunt #2: Located at (18, 18) facing South [Defeated Turn 12280].
+  - Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20.
+  - Dialogue: "Intruder alert!" -> Defeat: "I can't do it!"
 
 
 <hr>
