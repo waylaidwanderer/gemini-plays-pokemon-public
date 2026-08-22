@@ -13,7 +13,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Route 8-7 Underground Path (x=47, y=2)
+- Location: Route 7 (x=8, y=3)
 
 
 
@@ -90,4 +90,5 @@
 
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
 - `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�mon Tower, Name Rater, Pok�mart
+- `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
