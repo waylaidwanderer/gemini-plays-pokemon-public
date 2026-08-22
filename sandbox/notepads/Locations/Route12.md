@@ -25,7 +25,9 @@
   - NPC Girl: wanders near (3, 2..4) [Gives TM39 Swift]
 
 ## Verified Trainers & Encounters
-- (TBD - Exploration in progress)
+- Fisherman #1: Located at (14, 31) [Defeated Turn 11610]. Team: Goldeen Lv 22, Poliwag Lv 22, Goldeen Lv 22. Reward: ¥770.
+  - Pre-battle: "Yeah! I got a bite, here!"
+  - Defeat quote: "Tch! Just a small fry!"
 
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
