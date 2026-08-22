@@ -65,7 +65,7 @@
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 5. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 51 (HP: 51/51) [Rare Candy applied Turn 12252]
+   - Stats: Max HP 52 (HP: 52/52) [Rare Candy applied Turn 12257]
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
