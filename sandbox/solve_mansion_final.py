@@ -35,10 +35,10 @@ def walk_to_step(tx, ty):
 pos = mgba.get_coordinates()
 print("Starting balcony drop-off run from:", pos)
 
-# We are currently at (12, 11). Walk back to the balcony at (20, 18)
+# We are currently at (14, 3). Row 3 Column 15 is blocked, so go down to Row 6, cross to East side, and then to balcony!
 path = [
-    (12, 3),
-    (26, 3),
+    (14, 6),
+    (26, 6),
     (26, 11),
     (24, 11),
     (24, 14),
