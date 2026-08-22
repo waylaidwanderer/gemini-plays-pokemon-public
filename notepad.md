@@ -193,7 +193,6 @@
 - [x] Exchange Bike Voucher for Bicycle in Cerulean Bike Shop [Turn 2944]
 - [x] Traverse Rock Tunnel and arrive at Route 10 South / Lavender Town [Turn 10973]
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
-- [ ] Return to Lavender Town & heal at Pokémon Center
 - [ ] Defeat Rival RED on Pokémon Tower 2F
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
 - [ ] Obtain Silph Scope to identify ghosts in Pokémon Tower
