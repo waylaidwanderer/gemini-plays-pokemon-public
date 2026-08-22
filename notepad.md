@@ -170,31 +170,72 @@
 
 <h1><code>Quests</code></h1>
 
-# Quest Log & Story Progression
-
-## Main Quests
-- [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
-- [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
-- [x] Obtain Town Map from Daisy in Pallet Town
-- [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
-- [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
-- [x] Navigate Mt. Moon towards Route 4 and Cerulean City [Turn 1152]
-- [x] Defeat Gym Leader Misty in Cerulean City (Cascade Badge & TM11 Bubblebeam) [Turn 1348]
-- [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
-- [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
-- [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
-- [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
-- [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
-- [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
-- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
-- [x] Board the S.S. Anne in Vermilion City [Turn 1921]
-- [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
-- [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
-- [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
+# Quest Log & Story Progression
+
+
+
+
+
+## Main Quests
+
+
+- [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
+
+
+- [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
+
+
+- [x] Obtain Town Map from Daisy in Pallet Town
+
+
+- [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
+
+
+- [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
+
+
+- [x] Navigate Mt. Moon towards Route 4 and Cerulean City [Turn 1152]
+
+
+- [x] Defeat Gym Leader Misty in Cerulean City (Cascade Badge & TM11 Bubblebeam) [Turn 1348]
+
+
+- [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
+
+
+- [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
+
+
+- [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
+
+
+- [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
+
+
+- [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
+
+
+- [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
+
+
+- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
+
+
+- [x] Board the S.S. Anne in Vermilion City [Turn 1921]
+
+
+- [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
+
+
+- [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
+
+
+- [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
+
 - [x] Exchange Bike Voucher for Bicycle in Cerulean Bike Shop [Turn 2944]
 - [x] Traverse Rock Tunnel and arrive at Route 10 South / Lavender Town [Turn 10973]
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
-- [ ] Defeat Rival RED on Pokémon Tower 2F
+- [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
 - [ ] Obtain Silph Scope to identify ghosts in Pokémon Tower
 - [ ] Challenge Gym Leader Erika in Celadon Gym for Rainbow Badge
@@ -1216,14 +1257,17 @@
 - NPCs: Mourners paying respects to departed Pokémon.
 
 ## Verified Trainers & Encounters
-- Rival RED: Located at (14, 5) [Engaged Turn 11334].
+- Rival RED: Located at (14, 5) [Defeated Turn 11354].
   - Pre-battle: "Hey, BLUE! What brings you here? Your POKéMON don't look dead! I can at least make them faint! Let's go, pal!"
-  - Observed Team:
-    1. Pidgeotto Lv 25 [Defeated Turn 11339 - 604 EXP gained]
-    2. Gyarados Lv 23 [Defeated Turn 11344]
-    3. Growlithe Lv 22 [Defeated Turn 11348]
-    4. Kadabra Lv 20 [Defeated Turn 11352 - 621 EXP gained]
-    5. Ivysaur Lv 25 [Pending]
+  - Defeat quote: "What? You stinker! I took it easy on you too!"
+  - Post-battle dialogue: "How's your POKéDEX coming, pal? I just caught a CUBONE! I can't find the bigger MAROWAK anywhere! I wander where they went! I better get going! I've got a lot to accomplish, pal! Smell ya later!"
+  - Reward: ¥1625
+  - Observed Full Team:
+    1. Pidgeotto Lv 25 [Defeated - 604 EXP]
+    2. Gyarados Lv 23 [Defeated - 1054 EXP]
+    3. Growlithe Lv 22 [Defeated - 429 EXP]
+    4. Kadabra Lv 20 [Defeated - 621 EXP]
+    5. Ivysaur Lv 25 [Defeated - 754 EXP]
 
 
 <hr>
