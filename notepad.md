@@ -1107,13 +1107,16 @@
 - South: Route 12 (leads towards Silence Bridge & Route 13)
 
 ## Layout & Landmarks
-- Northern Entrance: Road enters at cols 10-11 across rows 68-73.
+- Northern Entrance: Road enters at cols 10-11 connecting from Route 10 South.
 - Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5). Interior: Nurse Joy at counter (3, 2), entrance mat at (3..4, 7).
-- Signpost: Located at (9, 3) outside Pokémon Center.
+- Town Signpost / Board: Located at (9, 3) east of Pokémon Center.
+- Central-West House: Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9).
+- Signpost: Located at (11, 9).
+- NPCs: Local resident at (5, 7), resident at (9, 10).
 
-## Unexplored Landmarks & Exploration Targets
+## Buildings & Points of Interest to Survey
 - Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
-- Town Buildings to Survey: Central and southern structures (to verify Mr. Fuji's house, Name Rater, Poké Mart).
+- Town Buildings to Survey: Central-west house (7, 9), south buildings (Name Rater, Poké Mart, Mr. Fuji's Volunteer House).
 - Route 8 Western Gate: Road to Saffron City / Underground Path to Celadon City.
 
 <hr>
