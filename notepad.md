@@ -1115,7 +1115,8 @@
   - Residents & Dialogue:
     - Girl at (3, 5): "That's odd, MR.FUJI isn't here. Where'd he go?"
     - Resident at (6, 3)
-    - Pokémon at (1, 3) and (6, 4)
+    - Nidorino at (1, 3): "Gaoo!"
+    - Pokémon at (6, 4)
 - Town Signpost: Located at (11, 9). Text: "LAVENDER TOWN - The Noble Purple Town".
 - NPCs & Dialogue:
   - Local resident at (5, 7): "GHOSTs appeared in POKéMON TOWER. I think they're the spirits of POKéMON that the ROCKETs killed."
