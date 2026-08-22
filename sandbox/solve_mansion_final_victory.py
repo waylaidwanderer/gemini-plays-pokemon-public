@@ -1,7 +1,7 @@
 import mgba
 import time
 
-CURRENT_PHASE = 1  # Reset to Phase 1 since we are outside the Mansion!
+CURRENT_PHASE = 2  # Reset to Phase 1 since we are outside the Mansion!
 
 def handle_battle():
     print("Coordinates did not change. Battle or obstacle detected! Attempting to flee...")
