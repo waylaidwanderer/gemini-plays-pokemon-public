@@ -19,3 +19,5 @@
 
 ## Exploration Log
 - Entered B2F at (27, 8) [Turn 12222].
+- Rocket Grunt #1: Located at (20, 12) facing South [Engaged Turn 12225].
+  - Dialogue: "BOSS said you can see GHOSTs with..."
