@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Lavender Town (x=8, y=17) - Arrived in Lavender Town (traversing to Pok�mon Center)
+- Location: Route 8 (x=59, y=8) - Traveling west towards Underground Path to Celadon City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
