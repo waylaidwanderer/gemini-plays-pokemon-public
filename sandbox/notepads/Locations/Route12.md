@@ -32,7 +32,7 @@
 - Fisherman #2: Located at (5, 39). Team: Tentacool Lv 24, Goldeen Lv 24.
   - Pre-battle: "Be patient! Fishing is a waiting game!"
 
-- Fisherman #3: Located at (9, 52) [Turn 11631].
+- Fisherman #3: Located at (9, 52) [Turn 11631]. Team: Poliwag Lv 21, Shellder Lv 21.
   - Pre-battle: "I'd rather be working!"
 
 ## Key Items & Milestones
