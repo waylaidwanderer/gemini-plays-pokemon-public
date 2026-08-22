@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B3F (x=18, y=25)
+- Location: Team Rocket Hideout B2F (x=14, y=12)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1398,7 +1398,6 @@
 ## Connections & Warps
 - Stairs Up to Game Corner: Located at (21, 2), leads up to Celadon Game Corner at (17, 4) [Verified Turn 12308].
 - Stairs Down to B2F: Located at (23, 2), leads down to Rocket Hideout B2F at (27, 8).
-- Elevator: Located in the south-central sector (requires Lift Key from B4F).
 
 ## Floor Layout & Verified Topology
 - Starting Chamber (cols 18-25, rows 0-4):
