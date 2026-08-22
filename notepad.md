@@ -1550,6 +1550,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
    - Open menu, select POK�MON, select TRUFFLE (Paras), and use **DIG** to escape back to Cinnabar Island!
 
+- **Turn 54689:** Toggled the 2F West switch back to State A standing at `(1, 11)` facing LEFT.
 
 <hr>
 
