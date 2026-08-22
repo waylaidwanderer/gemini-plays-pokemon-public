@@ -1438,8 +1438,6 @@
 
 <h1><code>Locations/RocketHideoutB2F</code></h1>
 
-
-
 ## Verified Conveyor Network Routes
 - Route 6 (Lower Chamber Access): (13, 18) [Left] -> West -> (11, 18) [Down] -> South -> Lands on Stop Tile (11, 20).
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
@@ -1455,6 +1453,14 @@
   - Western thoroughfare along col 1 (rows 15-25).
   - Southern corridor along row 25 (cols 1-6).
 
+## Verified Conveyor Maze Solutions
+- Northern Maze to Southwest Sector:
+  - From (8, 11) Stop Tile -> (10, 11) -> (10, 14) -> Step onto (11, 14) [Down] -> launches through (11, 16) [Right] -> (15, 16) [Down] -> lands at (15, 18).
+  - From (15, 18) -> (13, 18) [Left] -> (11, 18) [Down] -> lands at Stop Tile (11, 20).
+- Southwest Sector to Eastern Corridor (Exit from Spin Maze):
+  - From Stop Tile (11, 20) -> (10, 20) -> (10, 19) [Up] -> launches through (10, 17) [Right] -> (12, 17) [Right] -> (14, 17) [Up] -> lands at Stop Tile (14, 15).
+  - From Stop Tile (14, 15) -> (15, 15) -> (16, 15) -> Step onto (16, 14) [Up] -> lands on Stop Tile (16, 13).
+  - From Stop Tile (16, 13) -> Walk East across cols 17-25 to enter the eastern corridor leading to B1F stairs at (27, 8) and B3F stairs at (21, 22).
 
 <hr>
 
