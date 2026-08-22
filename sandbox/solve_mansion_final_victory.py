@@ -139,7 +139,8 @@ pos = mgba.get_coordinates()
 if pos['x'] == 2 and pos['y'] == 12:
     print("--- PHASE 4: RETURNING TO 1F WEST FROM 2F WEST ---")
     mansion_2f_west_return = [
-        (2, 11),
+        (3, 12),
+        (3, 11),
         (7, 11),
         (7, 10) # 2F West Stairs
     ]
