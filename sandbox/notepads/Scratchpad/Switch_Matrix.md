@@ -46,6 +46,10 @@
 ---
 
 ## Chronological Turn-Stamps & Layout Discoveries
+### Stairs Warp Step-Off Mechanic (Verified Turn 54477)
+- **Problem:** When warping UP from 1F West stairs `(7, 10)` to 2F West stairs `(7, 10)`, the player lands directly on a warp tile. Any subsequent vertical movement (UP or DOWN) on `(7, 10)` will instantly trigger a warp back DOWN to 1F West `(7, 11)`.
+- **Solution:** Immediately upon warping to 2F West, the player must step LEFT to `(6, 10)` (or RIGHT to `(8, 10)`) to safely step off the warp tile without triggering a return warp!
+
 - **Turn 54222:** Mansion reset to State A (Default) via overworld exit.
 - **Turn 54284:** Mansion reset to State A (Default) via DIG escape to Cinnabar Island.
 - **Turn 54332:** Toggled 3F West switch at `(2, 11)` to State B from `(2, 12)` facing UP.
