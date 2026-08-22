@@ -2,7 +2,7 @@ import mgba
 import time
 
 def handle_battle():
-    print("Coordinates did not change. Likely a battle! Mashing B and fleeing...")
+    print("Coordinates did not change. Handling battle safely...")
     # Clear dialogue
     for _ in range(3):
         mgba.press_buttons(["B"])
@@ -10,7 +10,7 @@ def handle_battle():
     # Flee (Down, Right, A)
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.5)
-    # Mash B to clear any post-battle text
+    # Clear dialogue
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.25)
@@ -36,34 +36,23 @@ def walk_step(tx, ty, d):
         attempts += 1
     return False
 
-# Currently at (12, 5) on 1F West
+# Starting at (12, 2) on 2F West
 pos = mgba.get_coordinates()
-print("Starting definitive Mansion 2F toggle run from:", pos)
+print("Starting safe Switch B toggle from 2F West:", pos)
 
-if pos['x'] == 12 and pos['y'] == 5:
-    print("--- STEP 1: CLIMBING STAIRS TO 2F WEST ---")
-    path_1f = [
-        (12, 4, 'Up'),
-        (12, 3, 'Up'),
+if pos['x'] == 12 and pos['y'] == 2:
+    print("--- STEP 1: WALKING DOWN COLUMN 12 TO ROW 6 ---")
+    path_col12 = [
+        (12, 3, 'Down'),
+        (12, 4, 'Down'),
+        (12, 5, 'Down'),
+        (12, 6, 'Down'),
     ]
-    for target in path_1f:
+    for target in path_col12:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
-            print(f"Failed on 1F at ({tx}, {ty})")
+            print(f"Failed on Column 12 at ({tx}, {ty})")
             exit()
-            
-    print("Warping UP to 2F West...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.5)
-
-# Land on 2F West (expected at (12, 3))
-pos = mgba.get_coordinates()
-print("Position on 2F West:", pos)
-
-# In case we land at (12, 3), walk down to Row 6
-if pos['x'] == 12 and pos['y'] < 6:
-    for r in range(pos['y'] + 1, 7):
-        walk_step(12, r, 'Down')
 
 pos = mgba.get_coordinates()
 if pos['x'] == 12 and pos['y'] == 6:
@@ -86,19 +75,19 @@ if pos['x'] == 12 and pos['y'] == 6:
         (3, 10, 'Down'),
         (3, 11, 'Down'),
         (3, 12, 'Down'),
-        # Walk LEFT to Column 2 on Row 12
+        # Walk LEFT to Column 2 on Row 12 (below the pit)
         (2, 12, 'Left'),
     ]
     for target in path_2f:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
-            print(f"Failed on 2F at ({tx}, {ty})")
+            print(f"Failed on 2F West at ({tx}, {ty})")
             exit()
             
     print("At (2, 12) on 2F West. Facing UP and toggling switch to State B...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
-    # Interact with Mewtwo switch
+    # Interact with switch
     mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
     time.sleep(1.5)
 
