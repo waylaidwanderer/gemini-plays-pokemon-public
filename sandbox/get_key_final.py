@@ -2,120 +2,84 @@ import mgba
 import time
 
 def handle_battle():
-    print("Coordinates did not change. Battle or obstacle detected! Attempting to flee...")
-    mgba.press_buttons(["Down", "Right", "A"])
+    print("Checking for battle...")
+    for _ in range(4):
+        mgba.press_buttons(["B"])
+        time.sleep(0.25)
+    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
     time.sleep(1.5)
-    mgba.press_buttons(["B", "sleep 100", "B", "sleep 100", "B"])
-    time.sleep(1.0)
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.25)
 
-def walk_to(tx, ty):
-    pos = mgba.get_coordinates()
-    print(f"Walking from {pos} to ({tx}, {ty})...")
-    
-    attempts = 0
-    while pos['x'] != tx or pos['y'] != ty:
-        dx = tx - pos['x']
-        dy = ty - pos['y']
-        
-        # Decide direction
-        if dx < 0:
-            direction = "Left"
-        elif dx > 0:
-            direction = "Right"
-        elif dy < 0:
-            direction = "Up"
-        elif dy > 0:
-            direction = "Down"
-        else:
-            break
-            
-        pos_before = pos
-        mgba.press_buttons([direction])
-        time.sleep(0.55)  # Safe sleep to prevent false bumps
-        pos = mgba.get_coordinates()
-        
-        if pos == pos_before:
-            print(f"BUMPED at {pos} going {direction} towards ({tx}, {ty})")
-            time.sleep(0.5)
+def walk_exact_route(waypoints):
+    for wp in waypoints:
+        tx, ty = wp
+        print(f"Walking to waypoint ({tx}, {ty})...")
+        attempts = 0
+        while attempts < 35:
             pos = mgba.get_coordinates()
+            cur = (pos['x'], pos['y'])
+            if cur == (tx, ty):
+                break
+                
+            dx = tx - cur[0]
+            dy = ty - cur[1]
+            
+            if dx < 0: direction = "Left"
+            elif dx > 0: direction = "Right"
+            elif dy < 0: direction = "Up"
+            elif dy > 0: direction = "Down"
+            else:
+                break
+                
+            pos_before = pos
+            mgba.press_buttons([direction])
+            time.sleep(0.55)
+            pos = mgba.get_coordinates()
+            
             if pos == pos_before:
-                print("Coordinates still the same. Likely in battle! Exiting script so player can handle it.")
-                return False
-        attempts += 1
-        if attempts > 40:
-            print("Too many walk attempts. Exiting.")
-            return False
+                print(f"BUMPED at {cur} going {direction} towards {wp}!")
+                handle_battle()
+                time.sleep(0.5)
+                pos = mgba.get_coordinates()
+                if pos == pos_before:
+                    print("Physical obstruction. Exiting.")
+                    return False
+            attempts += 1
     return True
 
-# --- THE DEFINITIVE MASTER SOLUTION SEQUENCE (STATE B TO STATE A DROP) ---
-pos = mgba.get_coordinates()
-print("Starting definitive master run from:", pos)
+print("Current coordinates:", mgba.get_coordinates())
 
-if pos['x'] == 19 and pos['y'] == 6:
-    # 1. Walk back to 3F West switch in State B
-    if not walk_to(12, 6): exit()
-    if not walk_to(12, 11): exit()
-    if not walk_to(2, 11): exit()
-    if not walk_to(2, 12): exit()
-
-# 2. Toggle 3F West switch back to State A
-pos = mgba.get_coordinates()
-if pos['x'] == 2 and pos['y'] == 12:
-    print("At (2, 12) on 3F West. Facing UP to toggle switch to State A...")
+# --- MASTER PHASE 2: 2F East (State B) to 3F East via Row 3 and Column 18 ---
+route_2f = [(26, 3), (18, 3), (18, 11), (15, 11)]
+if walk_exact_route(route_2f):
+    print("At 2F East stairs. Stepping UP to warp...")
     mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
-    time.sleep(1.5)
-
-# 3. Walk to 3F East balcony in State A and drop
-pos = mgba.get_coordinates()
-if pos['x'] == 2 and pos['y'] == 12:
-    if not walk_to(2, 11): exit()
-    if not walk_to(12, 11): exit()
-    if not walk_to(12, 6): exit()
-    if not walk_to(19, 6): exit()
-    # In State A, the Row 7 gate is OPEN!
-    if not walk_to(19, 16): exit()
+    time.sleep(2.5)
+    pos_3f = mgba.get_coordinates()
+    print("Arrived on 3F East:", pos_3f)
     
-    print("At (19, 16). Stepping Left to drop from balcony in State A...")
-    mgba.press_buttons(["Left"])
-    time.sleep(3.0)
-
-# 4. Land on B1F East in State A. Walk Left to B1F West
-pos_b1f = mgba.get_coordinates()
-print("Position after drop:", pos_b1f)
-if pos_b1f['x'] == 19 and pos_b1f['y'] == 16:
-    # In State A, the Column 18 gate and Column 10 gate are OPEN
-    if not walk_to(10, 16): exit()
-    if not walk_to(10, 11): exit()
-    if not walk_to(2, 11): exit()
-    if not walk_to(2, 12): exit()
-
-# 5. Toggle B1F West switch to State B
-pos_b1f = mgba.get_coordinates()
-if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
-    print("At (2, 12) on B1F West. Facing UP to toggle switch to State B...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
-    time.sleep(1.5)
-
-# 6. Walk to the Secret Key room standing at (1, 5)
-pos_b1f = mgba.get_coordinates()
-if pos_b1f['x'] == 2 and pos_b1f['y'] == 12:
-    if not walk_to(2, 11): exit()
-    if not walk_to(10, 11): exit()
-    if not walk_to(10, 5): exit()
-    if not walk_to(1, 5): exit()
-
-# 7. Retrieve the Secret Key at (1, 4)
-pos_key = mgba.get_coordinates()
-if pos_key['x'] == 1 and pos_key['y'] == 5:
-    print("At (1, 5). Facing UP and retrieving Secret Key...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 200"])
-    time.sleep(1.0)
-
-print("Final position at end of script:", mgba.get_coordinates())
-mgba.take_screenshot()
+    # --- MASTER PHASE 3: 3F East (State B) to 3F Switch and toggle to State A ---
+    if pos_3f['x'] == 16 and pos_3f['y'] == 11:
+        route_3f = [(23, 11), (23, 3), (11, 3), (11, 11)]
+        if walk_exact_route(route_3f):
+            print("At 3F East switch at (11, 11). Facing RIGHT and toggling to State A...")
+            mgba.press_buttons(["Right"])
+            time.sleep(0.5)
+            mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+            time.sleep(1.5)
+            pos_switch = mgba.get_coordinates()
+            print("State toggled to State A! Current position:", pos_switch)
+            
+            # --- MASTER PHASE 4: 3F East (State A) to balcony drop at (24, 14) and drop ---
+            route_drop = [(11, 12), (24, 12), (24, 14)]
+            if walk_exact_route(route_drop):
+                print("At balcony drop. Stepping LEFT to drop...")
+                mgba.press_buttons(["Left"])
+                time.sleep(3.0)
+                print("LANDED ON B1F! Current position:", mgba.get_coordinates())
+                mgba.take_screenshot()
+else:
+    print("FAILED route on 2F East.")
+    mgba.take_screenshot()
