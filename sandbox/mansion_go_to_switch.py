@@ -37,11 +37,7 @@ print("Starting mansion_go_to_switch from:", pos)
 
 if pos['x'] == 25 and pos['y'] == 18:
     path = [
-        # Walk DOWN Column 25 to Row 14
-        (25, 19, 'Down'),
-        (25, 20, 'Down'),
-        (25, 19, 'Up'),
-        (25, 18, 'Up'),
+        # Walk UP Column 25 to Row 14
         (25, 17, 'Up'),
         (25, 16, 'Up'),
         (25, 15, 'Up'),
