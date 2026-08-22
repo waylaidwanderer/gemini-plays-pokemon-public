@@ -31,3 +31,7 @@
   - Directory at (14, 1): "3F: TV GAME SHOP"
   - Stairs: Down to 2F at (16, 1); Up to 4F at (12, 1).
   - Game Shop Clerk at (16, 5): Gave player TM18 (Counter) across the counter at (16, 3).
+- 4F (Wiseman Gifts):
+  - Directory at (14, 1): "4F: WISEMAN GIFTS - Express yourself with gifts! Evolution Special! Element STONEs on sale now!"
+  - Stairs: Down to 3F at (12, 1); Up to 5F at (16, 1).
+  - Clerk at (5, 7): Poké Doll (¥1000), Fire Stone (¥2100), Thunder Stone (¥2100), Water Stone (¥2100), Leaf Stone (¥2100).
