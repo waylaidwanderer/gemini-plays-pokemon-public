@@ -1,4 +1,4 @@
-# Pokémon Mansion - Verified Switch Matrix & Master Route
+# Pok�mon Mansion - Verified Switch Matrix & Master Route
 
 ## Overview
 - Global Mewtwo statue switches toggle electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
@@ -36,12 +36,13 @@
 
 ---
 
-## Chronological Turn-Stamps of Global Switches
+## Chronological Turn-Stamps & Layout Discoveries
 - **Turn 54222:** Mansion reset to State A (Default) via overworld exit.
 - **Turn 54284:** Mansion reset to State A (Default) via DIG escape to Cinnabar Island.
 - **Turn 54332:** Toggled 3F West switch at `(2, 11)` to State B from `(2, 12)` facing UP.
 - **Turn 54341:** Dismissed State B dialogue. Row 9 gates open, Row 12 gates closed on 3F West.
 - **Turn 54345:** Re-verified Mansion reset to State A (Default). Row 9 gates closed, Row 12 gates open.
+- **Turn 54399:** Visually and empirically verified via DFS that on 3F West in State A, the player's movement is strictly confined to a single isolated vertical corridor `[(8, 9), (8, 10), (8, 11), (8, 12), (8, 13)]`. It is completely blocked to the left and right by permanent rubble and column pillars, making horizontal crossing to 3F East physically impossible in State A.
 
 ---
 
@@ -49,29 +50,24 @@
 1. **Enter Mansion in State A:**
    - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 4) -> (6, 4) -> (6, 3)` and step UP to enter 1F West (landing at `(5, 27)`).
 
-2. **Ascend to 3F West (State A):**
-   - Walk UP Column 5 on 1F West: `(5, 27) -> (5, 10)` (stairs). Step UP to warp to 2F West (landing at `(5, 11)`).
-   - Walk RIGHT to Column 7 on 2F West: `(5, 11) -> (7, 11)`. Step UP to warp to 3F West (landing at `(7, 11)`).
+2. **Walk to 1F East Stairs and Ascend to 2F East (State A):**
+   - On 1F West, walk UP Column 5 to Row 11: `(5, 27) -> (5, 11)`.
+   - Walk RIGHT along Row 11 to Column 12: `(5, 11) -> (12, 11)` (bypassing the Scientist at `(13, 11)` who permanently blocks Column 13).
+   - Walk UP Column 12 to Row 7: `(12, 11) -> (12, 7)`.
+   - Walk RIGHT along Row 7 to Column 18: `(12, 7) -> (18, 7)` (this corridor is completely open).
+   - Walk DOWN Column 18 to Row 10: `(18, 7) -> (18, 10)` (stairs). Step DOWN onto the stairs to warp UP to 2F East (landing at `(18, 11)`).
 
-3. **Cross 3F West to 3F East (State A):**
-   - Walk DOWN to `(7, 12)` (open in State A).
-   - Walk RIGHT along Row 12 to Column 11: `(7, 12) -> (11, 12)`.
-   - Walk UP Column 11 to Row 6: `(11, 12) -> (11, 6)` (bypassing all walls/plants).
-   - Walk RIGHT along Row 6 to Column 19 on 3F East: `(11, 6) -> (19, 6)`.
-   - Walk DOWN Column 19 to Row 11: `(19, 6) -> (19, 11)`.
-   - Walk LEFT along Row 11 to the stairs at `(15, 11)`: `(19, 11) -> (15, 11)`.
-   - Step onto `(15, 11)` to warp DOWN to 2F East (landing at `(16, 11)`).
-
-4. **Toggle 2F East Switch to State B:**
-   - On 2F East, walk LEFT to the switch at `(12, 11)`: `(16, 11) -> (12, 11)`.
+3. **Toggle 2F East Switch to State B:**
+   - On 2F East, walk LEFT along Row 11 to the switch at `(12, 11)`: `(18, 11) -> (12, 11)`.
    - Stand at `(12, 11)` facing RIGHT (towards statue at `(13, 11)`) and press A to toggle the switch to State B!
 
-5. **Climb back to 3F East (State B) and Drop to B1F East:**
-   - Walk back to `(15, 11)` on 2F East and step UP onto the stairs to warp UP to 3F East!
+4. **Climb back to 3F East (State B) and Drop to B1F East:**
+   - Walk RIGHT to the stairs at `(15, 11)` on 2F East: `(12, 11) -> (15, 11)`.
+   - Step UP onto the stairs to warp UP to 3F East!
    - On 3F East (State B), walk to the balcony: `(15, 11) -> (21, 11) -> (21, 15) -> (20, 15) -> (20, 18) -> (19, 18)`.
    - Stand at `(19, 18)` and step DOWN (South) to drop to B1F East (landing at `(19, 16)`).
 
-6. **Retrieve Secret Key on B1F East (State B) and Escape:**
+5. **Retrieve Secret Key on B1F East (State B) and Escape:**
    - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
    - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
-   - Open menu, select POKÉMON, select TRUFFLE (Paras), and use **DIG** to escape back to Cinnabar Island!
+   - Open menu, select POK�MON, select TRUFFLE (Paras), and use **DIG** to escape back to Cinnabar Island!
