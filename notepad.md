@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Route 8 (x=46, y=7)
+- Location: Route 8 (x=50, y=12)
 
 
 
