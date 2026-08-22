@@ -11,7 +11,7 @@ def handle_battle():
 
 def walk_step(tx, ty, direction):
     attempts = 0
-    while attempts < 10:
+    while attempts < 40:
         pos = mgba.get_coordinates()
         if pos['x'] == tx and pos['y'] == ty:
             return True
@@ -31,25 +31,57 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (20, 16) on 1F East inside the Mansion (State A)
+# Starting at (22, 15) on 2F East inside the Mansion (State A)
 pos = mgba.get_coordinates()
 print("Starting mansion_go_to_switch from:", pos)
 
-if pos['x'] == 20 and pos['y'] == 16:
+if pos['x'] == 22 and pos['y'] == 15:
     path = [
-        # Walk UP Column 20 to Row 5
-        (20, 15, 'Up'),
-        (20, 14, 'Up'),
-        (20, 13, 'Up'),
-        (20, 12, 'Up'),
-        (20, 11, 'Up'),
-        (20, 10, 'Up'),
-        (20, 9, 'Up'),
-        (20, 8, 'Up'),
-        (20, 7, 'Up'),
-        (20, 6, 'Up'),
-        (20, 5, 'Up'),
+        # Walk RIGHT along Row 15 to Column 26
+        (23, 15, 'Right'),
+        (24, 15, 'Right'),
+        (25, 15, 'Right'),
+        (26, 15, 'Right'),
+        # Walk UP to Row 14
+        (26, 14, 'Up'),
+        # Bypass Row 13 wall via Column 25 (S-curve)
+        (25, 14, 'Left'),
+        (25, 13, 'Up'),
+        (25, 12, 'Up'),
+        (26, 12, 'Right'),
+        # Walk UP Column 26 to stairs at (26, 6)
+        (26, 11, 'Up'),
+        (26, 10, 'Up'),
+        (26, 9, 'Up'),
+        (26, 8, 'Up'),
+        (26, 7, 'Up'),
+        (26, 6, 'Up'),
+    ]
+    
+    print("Walking path to 2F East stairs...")
+    for target in path:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Failed to reach target at ({tx}, {ty})")
+            exit()
+            
+    print("Stepping UP onto 2F East stairs to go DOWN to 1F East...")
+    mgba.press_buttons(["Up"])
+    time.sleep(2.0)
+
+# We land on 1F East at (26, 7). Walk UP to Row 5, and LEFT across Row 5 to Column 12
+pos = mgba.get_coordinates()
+if pos['x'] == 26 and pos['y'] == 7:
+    path_to_1f_west = [
+        (26, 6, 'Up'),
+        (26, 5, 'Up'),
         # Walk LEFT along Row 5 all the way to Column 12
+        (25, 5, 'Left'),
+        (24, 5, 'Left'),
+        (23, 5, 'Left'),
+        (22, 5, 'Left'),
+        (21, 5, 'Left'),
+        (20, 5, 'Left'),
         (19, 5, 'Left'),
         (18, 5, 'Left'),
         (17, 5, 'Left'),
@@ -58,7 +90,18 @@ if pos['x'] == 20 and pos['y'] == 16:
         (14, 5, 'Left'),
         (13, 5, 'Left'),
         (12, 5, 'Left'),
-        # Walk DOWN Column 12 to Row 10
+    ]
+    print("Walking LEFT across Row 5 on 1F East to 1F West...")
+    for target in path_to_1f_west:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Failed to reach target at ({tx}, {ty})")
+            exit()
+
+# We are on 1F West at (12, 5). Walk DOWN Column 12 to Row 10, and to stairs at (7, 10)
+pos = mgba.get_coordinates()
+if pos['x'] == 12 and pos['y'] == 5:
+    path_to_stairs = [
         (12, 6, 'Down'),
         (12, 7, 'Down'),
         (12, 8, 'Down'),
@@ -71,9 +114,8 @@ if pos['x'] == 20 and pos['y'] == 16:
         (8, 10, 'Left'),
         (7, 10, 'Left'),
     ]
-    
-    print("Walking path to 1F West stairs...")
-    for target in path:
+    print("Walking to 1F West stairs...")
+    for target in path_to_stairs:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
             print(f"Failed to reach target at ({tx}, {ty})")
