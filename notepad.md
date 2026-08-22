@@ -69,14 +69,14 @@
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
-6. TITAN (Onix) - Lv 13
-   - Stats: Max HP 32 (HP: 30/32)
-   - Type: Rock / Ground
-   - Moves: Tackle (35/35), Screech (30/30)
-   - Role: Physical Rock/Ground tank
+
 
 ## Planned Nicknaming Strategy
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
+
+## Boxed Pok�mon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pok�mon Center PC]
+   - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
