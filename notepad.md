@@ -79,7 +79,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
 
-- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, 
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full!
 
 <hr>
 
@@ -1451,19 +1451,6 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Locations/CinnabarIsland</code></h1>
 
-
-
-## CRITICAL OVERWORLD & WARP BOUNDARIES (VERIFIED TURN 52955)
-- **The Pokémon Lab Door is at `(6, 9)` on Cinnabar Island!**
-  - Attempting to walk directly UP Column 6 past Row 9 will immediately warp the player inside the Lab at `(2, 7)`.
-  - To bypass this and reach the Pokémon Mansion entrance at `(6, 3)` safely:
-    - Walk UP Column 10 (or 11 or 12 or 14) which is open pavement, all the way to Row 4.
-    - Walk Left along Row 4 to Column 6: `(10, 4) -> (6, 4)`.
-    - Walk UP to `(6, 3)` and step UP to enter the Mansion!
-- **Inside the Mansion 1F West, the entrance doormat is at `(5, 27)`!**
-  - The exit to Cinnabar Island is directly to the South of the doormat.
-  - **CRITICAL:** Walking DOWN from `(5, 27)` inside will immediately warp the player back outside to Cinnabar Island at `(6, 4)`!
-  - To avoid walking out, once inside the Mansion 1F West, the player **MUST walk UP immediately** (e.g. `(5, 27) -> (5, 26) -> (5, 25) -> (5, 24)`)!
 
 
 <hr>
