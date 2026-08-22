@@ -1469,6 +1469,6 @@
 
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12269].
   - Team: Rattata Lv 19, Raticate Lv 19.
-  - Dialogue: "Why did you come here?"
+  - Dialogue: "Why did you come here?" -> Defeat: "This won't do!" -> Post-battle: "OK, I'll talk! Take the elevator to see my BOSS!"
 
 <hr>
