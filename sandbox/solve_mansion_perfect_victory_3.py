@@ -54,29 +54,26 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Mansion Run from (10, 9) ===")
+print("=== Starting Perfect Mansion Run from (11, 10) ===")
 
-# 1. We are at (10, 9) on 3F West (State A). Walk to the 3F East Switch and toggle to State B
+# 1. Walk to (11, 11) next to switch, face RIGHT, toggle State B
 pos = mgba.get_coordinates()
-if pos['x'] == 10 and pos['y'] == 9:
-    print("=== Phase 1: 3F West to 3F East Switch ===")
-    route_3f_switch = [
-        (10, 3),
-        (26, 3),
-        (26, 12),
-        (12, 12),
-        (12, 11),
-        (11, 11) # Stand next to switch (12, 11)
-    ]
-    if walk_exact_route(route_3f_switch):
-        print("At 3F East switch. Facing RIGHT and toggling to State B...")
-        mgba.press_buttons(["Right"])
-        time.sleep(0.5)
-        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
-        time.sleep(1.5)
-        pos = mgba.get_coordinates()
-        print("State toggled to State B! Current position:", pos)
-        mgba.take_screenshot()
+if pos['x'] == 11 and pos['y'] == 10:
+    print("Walking down to (11, 11)...")
+    mgba.press_buttons(["Down"])
+    time.sleep(0.55)
+    pos = mgba.get_coordinates()
+    print("Position after walking down:", pos)
+
+if pos['x'] == 11 and pos['y'] == 11:
+    print("At 3F East switch. Facing RIGHT and toggling to State B...")
+    mgba.press_buttons(["Right"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+    time.sleep(1.5)
+    pos = mgba.get_coordinates()
+    print("State toggled to State B! Current position:", pos)
+    mgba.take_screenshot()
 
 # 2. 3F East (State B) to pit at (26, 6) and drop
 if pos['x'] == 11 and pos['y'] == 11:
