@@ -35,3 +35,16 @@
   - Directory at (14, 1): "4F: WISEMAN GIFTS - Express yourself with gifts! Evolution Special! Element STONEs on sale now!"
   - Stairs: Down to 3F at (12, 1); Up to 5F at (16, 1).
   - Clerk at (5, 7): Poké Doll (¥1000), Fire Stone (¥2100), Thunder Stone (¥2100), Water Stone (¥2100), Leaf Stone (¥2100).
+- 5F (Drugstore):
+  - Directory at (14, 1): "5F: DRUGSTORE"
+  - Stairs: Down to 4F at (16, 1); Up to Rooftop Square at (12, 1).
+  - Left Clerk: Battle Items (X Attack, X Defend, X Speed, X Special, Guard Spec., Dire Hit, Accuracy).
+  - Right Clerk: Vitamins (HP Up, Protein, Iron, Carbos, Calcium).
+- Roof (Rooftop Square):
+  - Stairs: Down to 5F at (15, 2).
+  - Vending Machines at (11..12, 1..2): Fresh Water (¥200), Soda Pop (¥300), Lemonade (¥350).
+  - Thirsty Girl at (2, 3): Trades drinks for powerful TMs:
+    - Fresh Water -> TM13 (Ice Beam)
+    - Soda Pop -> TM48 (Rock Slide)
+    - Lemonade -> TM49 (Tri Attack)
+  - Older Sister at (10, 4): Comments on her little sister's immaturity.
