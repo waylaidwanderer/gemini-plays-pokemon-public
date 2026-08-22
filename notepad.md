@@ -1304,4 +1304,13 @@
 - Resident at (32, 12): Girl with Poliwrath: "This is my trusted pal, POLIWRATH! It evolved from POLIWHIRL when I used WATER STONE!"
 - Poliwrath at (30, 12): Girl's partner Pokémon.
 
+## Celadon Department Store
+- Multi-story mega-mart located in northwest Celadon City (cols 10-13, rows 7-13).
+- 1F (Service Counter): Receptionist desks, directory board at (14, 1), stairs up to 2F at (12, 1), south exit to Celadon City at (16..17, 7).
+- 2F (Trainer's Market):
+  - Directory at (14, 1): "2F: TRAINER'S MARKET - Top Grade Items for Trainers!"
+  - Stairs: Down to 1F at (12, 1); Up to 3F at (16, 1).
+  - Left Clerk (Items at (5, 3)): Great Ball (¥600), Super Potion (¥700), Revive (¥1500), Super Repel (¥500), Antidote (¥100), Burn Heal (¥250), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200).
+  - Right Clerk (TMs at (6, 3)): TM32 Double Team (¥1000), TM33 Reflect (¥1000), TM02 Razor Wind (¥2000), TM07 Horn Drill (¥2000), TM37 Egg Bomb (¥2000), TM01 Mega Punch (¥3000), TM05 Mega Kick (¥3000), TM09 Take Down (¥3000), TM17 Submission (¥3000).
+
 <hr>
