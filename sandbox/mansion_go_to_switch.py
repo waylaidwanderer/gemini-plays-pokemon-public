@@ -31,39 +31,39 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (23, 10) on 1F East inside the Mansion (State A)
+# Starting at (20, 16) on 1F East inside the Mansion (State A)
 pos = mgba.get_coordinates()
 print("Starting mansion_go_to_switch from:", pos)
 
-if pos['x'] == 23 and pos['y'] == 10:
+if pos['x'] == 20 and pos['y'] == 16:
     path = [
-        # Walk RIGHT to Column 24
-        (24, 10, 'Right'),
-        # Walk DOWN Column 24 to Row 15
-        (24, 11, 'Down'),
-        (24, 12, 'Down'),
-        (24, 13, 'Down'),
-        (24, 14, 'Down'),
-        (24, 15, 'Down'),
-        # Walk LEFT along Row 15 to Column 12
-        (23, 15, 'Left'),
-        (22, 15, 'Left'),
-        (21, 15, 'Left'),
-        (20, 15, 'Left'),
-        (19, 15, 'Left'),
-        (18, 15, 'Left'),
-        (17, 15, 'Left'),
-        (16, 15, 'Left'),
-        (15, 15, 'Left'),
-        (14, 15, 'Left'),
-        (13, 15, 'Left'),
-        (12, 15, 'Left'),
-        # Walk UP Column 12 to Row 10
-        (12, 14, 'Up'),
-        (12, 13, 'Up'),
-        (12, 12, 'Up'),
-        (12, 11, 'Up'),
-        (12, 10, 'Up'),
+        # Walk UP Column 20 to Row 5
+        (20, 15, 'Up'),
+        (20, 14, 'Up'),
+        (20, 13, 'Up'),
+        (20, 12, 'Up'),
+        (20, 11, 'Up'),
+        (20, 10, 'Up'),
+        (20, 9, 'Up'),
+        (20, 8, 'Up'),
+        (20, 7, 'Up'),
+        (20, 6, 'Up'),
+        (20, 5, 'Up'),
+        # Walk LEFT along Row 5 all the way to Column 12
+        (19, 5, 'Left'),
+        (18, 5, 'Left'),
+        (17, 5, 'Left'),
+        (16, 5, 'Left'),
+        (15, 5, 'Left'),
+        (14, 5, 'Left'),
+        (13, 5, 'Left'),
+        (12, 5, 'Left'),
+        # Walk DOWN Column 12 to Row 10
+        (12, 6, 'Down'),
+        (12, 7, 'Down'),
+        (12, 8, 'Down'),
+        (12, 9, 'Down'),
+        (12, 10, 'Down'),
         # Walk LEFT to Column 7
         (11, 10, 'Left'),
         (10, 10, 'Left'),
