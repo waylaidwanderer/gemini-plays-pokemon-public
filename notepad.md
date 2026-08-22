@@ -1217,6 +1217,9 @@
   - Pre-battle: "We must look silly standing here like this!"
 - Gambler #2: Located at (13, 9) [Defeated Turn 11140]. Team: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22. Reward: ¥1540.
   - Pre-battle: "I'm a rambling, gambling dude!"
+- Super Nerd #2: Located at (26, 3) [Defeated Turn 11381]. Team: Koffing Lv 26. Reward: �650.
+  - Defeat quote: "I'll stay with school."
+
 
 <hr>
 
