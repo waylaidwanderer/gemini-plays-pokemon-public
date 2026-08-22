@@ -5,7 +5,7 @@ def handle_battle():
     print("Coordinates did not change. Likely a battle! Attempting to flee...")
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.0)
-    for _ in range(4):
+    for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
@@ -31,52 +31,48 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (24, 11) on 2F East inside the Mansion (State B)
+# Starting at (28, 21) on 1F East inside the Mansion
 pos = mgba.get_coordinates()
 print("Starting mansion_switch_to_3f_v2 from:", pos)
 
-if pos['x'] == 24 and pos['y'] == 11:
-    path = [
-        # Walk DOWN Column 24 to Row 16
-        (24, 12, 'Down'),
-        (24, 13, 'Down'),
-        (24, 14, 'Down'),
-        (24, 15, 'Down'),
-        (24, 16, 'Down'),
-        # Walk LEFT along Row 16 to Column 20
-        (23, 16, 'Left'),
-        (22, 16, 'Left'),
-        (21, 16, 'Left'),
-        (20, 16, 'Left'),
-        # Walk DOWN Column 20 to Row 18
-        (20, 17, 'Down'),
-        (20, 18, 'Down'),
-        # Walk LEFT along Row 18 to Column 15
-        (19, 18, 'Left'),
-        (18, 18, 'Left'),
-        (17, 18, 'Left'),
-        (16, 18, 'Left'),
-        (15, 18, 'Left'),
-        # Walk UP Column 15 to Row 11
-        (15, 17, 'Up'),
-        (15, 16, 'Up'),
-        (15, 15, 'Up'),
-        (15, 14, 'Up'),
-        (15, 13, 'Up'),
-        (15, 12, 'Up'),
-        (15, 11, 'Up'),
+if pos['x'] == 28 and pos['y'] == 21:
+    path_to_stairs = [
+        # Walk LEFT along Row 21 to Column 25
+        (27, 21, 'Left'),
+        (26, 21, 'Left'),
+        (25, 21, 'Left'),
+        # Walk UP Column 25 to Row 11
+        (25, 20, 'Up'),
+        (25, 19, 'Up'),
+        (25, 18, 'Up'),
+        (25, 17, 'Up'),
+        (25, 16, 'Up'),
+        (25, 15, 'Up'),
+        (25, 14, 'Up'),
+        (25, 13, 'Up'),
+        (25, 12, 'Up'),
+        (25, 11, 'Up'),
+        # Walk LEFT along Row 11 to Column 18
+        (24, 11, 'Left'),
+        (23, 11, 'Left'),
+        (22, 11, 'Left'),
+        (21, 11, 'Left'),
+        (20, 11, 'Left'),
+        (19, 11, 'Left'),
+        (18, 11, 'Left'),
+        # Walk UP to stairs at (18, 10)
+        (18, 10, 'Up'),
     ]
-    
-    print("Walking path to 2F East stairs...")
-    for target in path:
+    print("Walking to 1F East stairs...")
+    for target in path_to_stairs:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
             print(f"Failed to reach target at ({tx}, {ty})")
             exit()
             
-    print("Stepping UP to enter 2F East stairs and warp to 3F East...")
+    print("Stepping UP to enter 1F East stairs and go UP to 2F East...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
-print("Final position after 2F East walk:", mgba.get_coordinates())
+print("Final position after climbing stairs:", mgba.get_coordinates())
 mgba.take_screenshot()
