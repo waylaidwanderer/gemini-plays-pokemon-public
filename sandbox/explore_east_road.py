@@ -31,42 +31,26 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-def walk_to_local(tx, ty):
-    pos = mgba.get_coordinates()
-    attempts = 0
-    while (pos['x'] != tx or pos['y'] != ty) and attempts < 40:
-        dx = tx - pos['x']
-        dy = ty - pos['y']
-        if dx < 0: d = "Left"
-        elif dx > 0: d = "Right"
-        elif dy < 0: d = "Up"
-        else: d = "Down"
-        
-        pos_before = pos
-        mgba.press_buttons([d])
-        time.sleep(0.55)
-        pos = mgba.get_coordinates()
-        if pos == pos_before:
-            handle_battle()
-            pos = mgba.get_coordinates()
-        attempts += 1
-    return pos['x'] == tx and pos['y'] == ty
-
-# Start at (10, 7) on 2F West/Central (State B)
+# Currently at (10, 7) on 2F West/Central (State B)
 pos = mgba.get_coordinates()
 print("Starting explore_east_road from:", pos)
 
 if pos['x'] == 10 and pos['y'] == 7:
     print("--- STEP 1: GO TO 1F WEST VIA 2F WEST STAIRS ---")
     path_to_2f_west_stairs = [
-        # Walk LEFT along Row 7 to Column 7
-        (9, 7, 'Left'),
-        (8, 7, 'Left'),
-        (7, 7, 'Left'),
-        # Walk DOWN Column 7 to Row 10
-        (7, 8, 'Down'),
-        (7, 9, 'Down'),
-        (7, 10, 'Down'),
+        # Walk RIGHT along Row 7 to Column 12
+        (11, 7, 'Right'),
+        (12, 7, 'Right'),
+        # Walk DOWN Column 12 to Row 10
+        (12, 8, 'Down'),
+        (12, 9, 'Down'),
+        (12, 10, 'Down'),
+        # Walk LEFT along Row 10 to Column 7
+        (11, 10, 'Left'),
+        (10, 10, 'Left'),
+        (9, 10, 'Left'),
+        (8, 10, 'Left'),
+        (7, 10, 'Left'),
     ]
     for target in path_to_2f_west_stairs:
         tx, ty, d = target
