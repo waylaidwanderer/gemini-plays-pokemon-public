@@ -33,25 +33,25 @@ def walk_step(tx, ty, direction):
 
 # --- THE ABSOLUTE MASTER GET KEY FINAL RUN ---
 
-# 1. Walk from Cinnabar Island (6, 11) to Mansion entrance
+# 1. Walk from Cinnabar Island (19, 4) to Mansion entrance
 path_enter = [
-    (7, 11, 'Right'),
-    (8, 11, 'Right'),
-    (8, 10, 'Up'),
-    (9, 10, 'Right'),
-    (9, 9, 'Up'),
-    (9, 8, 'Up'),
-    (9, 7, 'Up'),
-    (9, 6, 'Up'),
-    (9, 5, 'Up'),
-    (9, 4, 'Up'),
+    (18, 4, 'Left'),
+    (17, 4, 'Left'),
+    (16, 4, 'Left'),
+    (15, 4, 'Left'),
+    (14, 4, 'Left'),
+    (13, 4, 'Left'),
+    (12, 4, 'Left'),
+    (11, 4, 'Left'),
+    (10, 4, 'Left'),
+    (9, 4, 'Left'),
     (8, 4, 'Left'),
     (7, 4, 'Left'),
     (6, 4, 'Left'),
     (6, 3, 'Up'),
 ]
 
-print("Step 1: Walking to and entering Mansion...")
+print("Step 1: Walking from (19, 4) and entering Mansion...")
 for target in path_enter:
     tx, ty, d = target
     if not walk_step(tx, ty, d):
