@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 8 (x=59, y=8) - Traveling west towards Underground Path to Celadon City
+- Location: Underground Path (Route 7-Route 8) (x=47, y=2) - Traveling west towards Route 7 and Celadon City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
