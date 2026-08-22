@@ -31,66 +31,34 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting outside on Cinnabar Island at (10, 7) (State A)
+# Starting inside Mansion 1F West at (5, 27) in State A
 pos = mgba.get_coordinates()
-print("Starting definitive State A Mansion Part 1 from outside (10, 7):", pos)
+print("Starting definitive Mansion Part 2 from:", pos)
 
-if pos['x'] == 10 and pos['y'] == 7:
-    path_enter = [
-        # Walk RIGHT to Column 17 on Row 7
-        (11, 7, 'Right'),
-        (12, 7, 'Right'),
-        (13, 7, 'Right'),
-        (14, 7, 'Right'),
-        (15, 7, 'Right'),
-        (16, 7, 'Right'),
-        (17, 7, 'Right'),
-        # Walk UP Column 17 to Row 4
-        (17, 6, 'Up'),
-        (17, 5, 'Up'),
-        (17, 4, 'Up'),
-        # Walk LEFT along Row 4 to Column 6
-        (16, 4, 'Left'),
-        (15, 4, 'Left'),
-        (14, 4, 'Left'),
-        (13, 4, 'Left'),
-        (12, 4, 'Left'),
-        (11, 4, 'Left'),
-        (10, 4, 'Left'),
-        (9, 4, 'Left'),
-        (8, 4, 'Left'),
-        (7, 4, 'Left'),
-        (6, 4, 'Left'),
-        # Step UP to enter Mansion
-        (6, 3, 'Up'),
-    ]
-    print("Step 1: Entering the Mansion...")
-    for target in path_enter:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to enter Mansion at ({tx}, {ty})")
-            exit()
-            
-    time.sleep(2.0) # Wait for transition
-    pos_inside = mgba.get_coordinates()
-    print("Landed inside Mansion! Position:", pos_inside)
-    
-    # Walk UP immediately to clear exit warp
-    mgba.press_buttons(["Up"])
-    time.sleep(0.55)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.55)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.55)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.55)
-    
-# Inside Mansion 1F West at (5, 23) in State A.
-pos = mgba.get_coordinates()
-if pos['x'] == 5 and pos['y'] == 23:
+if pos['x'] == 5 and pos['y'] == 27:
+    print("--- STEP 1: CLEARING EXIT WARP AND WALKING TO ALTERNATE STAIRS ---")
     path_to_stairs = [
+        # Walk UP Column 5 to clear exit warp
+        (5, 26, 'Up'),
+        (5, 25, 'Up'),
+        (5, 24, 'Up'),
+        (5, 23, 'Up'),
+        # Walk RIGHT to Column 7
+        (6, 23, 'Right'),
         (7, 23, 'Right'),
-        (7, 11, 'Up'), # Corrected to 'Up'!
+        # Walk UP Column 7 to Row 11
+        (7, 22, 'Up'),
+        (7, 21, 'Up'),
+        (7, 20, 'Up'),
+        (7, 19, 'Up'),
+        (7, 18, 'Up'),
+        (7, 17, 'Up'),
+        (7, 16, 'Up'),
+        (7, 15, 'Up'),
+        (7, 14, 'Up'),
+        (7, 13, 'Up'),
+        (7, 12, 'Up'),
+        (7, 11, 'Up'),
         # Since we are in State A, the Row 11 gate is open!
         (8, 11, 'Right'),
         (9, 11, 'Right'),
@@ -106,17 +74,41 @@ if pos['x'] == 5 and pos['y'] == 23:
         # Walk UP to stairs at (18, 10)
         (18, 10, 'Up'),
     ]
-    print("Step 2: Walking to 1F East alternate stairs...")
     for target in path_to_stairs:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
-            print(f"Failed to reach stairs at ({tx}, {ty})")
+            print(f"Failed to reach target at ({tx}, {ty})")
             exit()
             
     print("Stepping UP to enter alternate stairs and go UP to 2F East...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
+# Land on 2F East (State A)
 pos = mgba.get_coordinates()
-print("Final position after climbing stairs (expected 22, 7 on 2F East):", pos)
+print("Position on 2F East after alternate stairs:", pos)
+
+if pos['x'] == 22 and pos['y'] == 7:
+    print("--- STEP 2: WALKING TO 2F EAST STAIRS TO 3F EAST ---")
+    path_to_stairs_3f = [
+        # Walk LEFT along Row 7 to Column 19
+        (21, 7, 'Left'),
+        (20, 7, 'Left'),
+        (19, 7, 'Left'),
+        # Walk DOWN to Row 8 (onto stairs)
+        (19, 8, 'Down'),
+    ]
+    for target in path_to_stairs_3f:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Failed to reach stairs at ({tx}, {ty})")
+            exit()
+            
+    print("Stepping DOWN to enter stairs and go UP to 3F East...")
+    mgba.press_buttons(["Down"])
+    time.sleep(2.0)
+
+# Land on 3F East (State A)
+pos = mgba.get_coordinates()
+print("Final position of Part 2:", pos)
 mgba.take_screenshot()
