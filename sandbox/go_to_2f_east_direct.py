@@ -37,13 +37,20 @@ print("Starting go_to_2f_east_direct from:", pos)
 
 if pos['x'] == 21 and pos['y'] == 6:
     path = [
-        # Walk RIGHT along Row 6 to Column 26
-        (22, 6, 'Right'),
-        (23, 6, 'Right'),
-        (24, 6, 'Right'),
-        (25, 6, 'Right'),
-        (26, 6, 'Right'),
+        # Walk UP Column 21 to Row 3
+        (21, 5, 'Up'),
+        (21, 4, 'Up'),
+        (21, 3, 'Up'),
+        # Walk RIGHT along Row 3 to Column 26
+        (22, 3, 'Right'),
+        (23, 3, 'Right'),
+        (24, 3, 'Right'),
+        (25, 3, 'Right'),
+        (26, 3, 'Right'),
         # Walk DOWN Column 26 to Row 11
+        (26, 4, 'Down'),
+        (26, 5, 'Down'),
+        (26, 6, 'Down'),
         (26, 7, 'Down'),
         (26, 8, 'Down'),
         (26, 9, 'Down'),
