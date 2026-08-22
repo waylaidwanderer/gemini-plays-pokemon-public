@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 7 (x=8, y=5) - Traveling to Celadon City
+- Location: Route 7 (x=11, y=2) - En route to Celadon City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1169,21 +1169,43 @@
 
 <h1><code>Locations/Route7</code></h1>
 
-# Route 7 - Points of Interest & Notes
+# Route 7 - Points of Interest & Verified Collision Matrix
 
 ## Connections
-- East: Saffron City West Gatehouse & Route 8-7 Underground Path Entrance
+- East: Saffron City West Gatehouse at (11, 9) & Route 8-7 Underground Path Entrance Building at (5, 13)
 - West: Celadon City
 
-## Layout & Landmarks
-- Underground Path Exit Building: Located at cols 4-7, rows 10-13 with entrance door at (5, 13).
-- Signpost: Located at (3, 13) - "CELADON CITY - LAVENDER TOWN".
-- Saffron West Gatehouse: Located at cols 11-17, rows 8-11 with west entrance at (11, 9).
-- Tall Grass Sector: Enclosed grass patch spanning cols 8-13, rows 2-5. Contains wild encounters (Vulpix, Growlithe, Abra, Pidgey, Rattata, Jigglypuff, etc.).
-- Ledges:
-  - Row 7 Ledge: Hop-down ledge heading south from upper road (cols 2-7, rows 5-6) to middle road (cols 2-7, rows 8-9).
-  - Row 11 Ledge: Hop-down ledge heading south from middle road / Saffron approach to southern thoroughfare (rows 12-15).
-  - Column 8 passage at row 11 allows northbound traversal between southern and middle roads.
+## Verified Sectors & Collision Matrix
+1. **Southern Thoroughfare (rows 14-15, cols 2-15)**:
+   - Light-grey paved road connecting Underground Path Building (5, 13) to eastern corridor.
+   - West border (cols 0-1, rows 14-19): Solid tree line (impassable to west).
+   - South border (rows 16-19): Solid tree line.
+   - East border: Extends to col 16.
+
+2. **Underground Path Exit Building (cols 4-7, rows 10-13)**:
+   - Door located at (5, 13).
+   - Interior stairs at (4, 4) lead into 48-tile tunnel connecting directly to Route 8.
+   - Signpost at (3, 13): "CELADON CITY - LAVENDER TOWN".
+
+3. **Middle Road (rows 8-9, cols 2-10)**:
+   - Light-grey paved avenue connecting Saffron West Gatehouse at (11, 9) across to col 2.
+   - West border (cols 0-1, rows 8-10): Solid tree line.
+   - South boundary: Separated from southern thoroughfare by row 11 ledge, with northbound passage at col 8 (8, 11).
+
+4. **Tall Grass Sector (rows 2-5, cols 8-15)**:
+   - Enclosed wild encounter grass area (Vulpix, Growlithe, Meowth, Pidgey, Abra).
+   - Cut tree located at (12, 3) guarding item ball.
+   - West fence line (col 7, rows 2-6): Solid brown checkered fence separating tall grass from upper road.
+
+5. **Upper Road / Celadon Highway (rows 2-6, cols 0-6)**:
+   - Paved highway leading west across col 0 directly into Celadon City.
+   - South boundary: Row 7 hop-down ledge (2..7, 7) allowing one-way exit heading south onto middle road.
+   - East boundary: Col 7 fence.
+   - North boundary (rows 0-1): Dense tree border.
+
+6. **Saffron West Gatehouse (cols 11-17, rows 8-11)**:
+   - Entrance at (11, 9).
+   - Interior guard at (3, 1) blocks passage into Saffron City due to thirst (requires drink from Celadon Dept Store).
 
 
 <hr>
