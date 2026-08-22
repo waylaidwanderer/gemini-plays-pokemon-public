@@ -1,7 +1,6 @@
 import mgba
 import time
 
-# Battle handler
 def handle_battle():
     print("Checking for battle...")
     for _ in range(4):
@@ -38,101 +37,87 @@ def walk_exact_route(waypoints):
             mgba.press_buttons([direction])
             time.sleep(0.55)
             pos = mgba.get_coordinates()
+            print(f"Moved to {pos}")
             
             if pos == pos_before:
-                print(f"BUMPED at {cur} going {direction} towards {wp}!")
-                handle_battle()
-                time.sleep(0.5)
-                pos = mgba.get_coordinates()
-                if pos == pos_before:
-                    print("Physical obstruction. Exiting to prevent loop.")
-                    return False
+                print(f"BUMPED or BATTLE at {cur} going {direction} towards {wp}! Exiting to prevent drift.")
+                return False
             attempts += 1
     return True
 
-# Detect current state and position
+print("=== Starting Perfect Mansion Final Victory Route ===")
 pos = mgba.get_coordinates()
-x, y = pos['x'], pos['y']
-print(f"Detected starting position: ({x}, {y})")
 
-# --- PHASE 0: Cinnabar Island to Mansion 3F West stairs ---
-# If we are on Cinnabar Island overworld
-if y >= 11 and x >= 4 and x <= 18:
-    print("=== EXECUTING MASTER PHASE 0: CINNABAR ISLAND TO 3F WEST STAIRS ===")
-    
-    # Walk the safety bypass route to enter the Mansion safely at (6, 3)
-    cinnabar_route = [
-        (4, 12),
-        (4, 4),
-        (6, 4),
-        (6, 3) # Mansion Entrance Door warp
+# Phase 1: On 2F West (State A), go down the stairs to 1F West
+if pos['x'] == 3 and pos['y'] == 11:
+    print("Walking to 2F West stairs at (5, 10)...")
+    route_to_stairs = [
+        (4, 11),
+        (5, 11),
+        (5, 10)
     ]
-    if walk_exact_route(cinnabar_route):
-        print("Stepping UP to enter the Mansion...")
+    if walk_exact_route(route_to_stairs):
+        print("At stairs. Stepping DOWN to warp to 1F West...")
+        mgba.press_buttons(["Down"])
+        time.sleep(2.5)
+        # Step DOWN to clear the stairs
+        mgba.press_buttons(["Down"])
+        time.sleep(0.5)
+        pos = mgba.get_coordinates()
+        print("Arrived on 1F West:", pos)
+
+# Phase 2: On 1F West (State A), walk horizontally to 1F East stairs (18, 10)
+pos = mgba.get_coordinates()
+if pos['x'] == 7 and pos['y'] == 11:
+    print("Walking on 1F West to 1F East stairs...")
+    route_1f = [
+        (12, 11),
+        (12, 12),
+        (18, 12),
+        (18, 10)
+    ]
+    if walk_exact_route(route_1f):
+        print("At 1F East stairs. Stepping UP to warp to 2F East...")
         mgba.press_buttons(["Up"])
         time.sleep(2.5)
-        pos_1f = mgba.get_coordinates()
-        print("Entered Mansion 1F West:", pos_1f)
-        
-        # Walk immediately UP to clear the exit warp
-        mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-        
-        # On 1F West, walk to the stairs at (7, 10) and warp UP to 2F West
-        route_1f = [(7, 10)]
-        if walk_exact_route(route_1f):
-            print("At 1F West stairs. Stepping UP to warp...")
-            mgba.press_buttons(["Up"])
-            time.sleep(2.5)
-            pos_2f = mgba.get_coordinates()
-            print("Arrived on 2F West:", pos_2f)
-            
-            # On 2F West, step UP onto the stairs at (7, 10) to warp UP to 3F West
-            print("At 2F West stairs. Stepping UP to warp to 3F West...")
-            mgba.press_buttons(["Up"])
-            time.sleep(2.5)
-            pos_3f = mgba.get_coordinates()
-            print("Arrived on 3F West:", pos_3f)
-            mgba.take_screenshot()
+        pos = mgba.get_coordinates()
+        print("Arrived on 2F East:", pos)
 
-else:
-    print("Not starting on Cinnabar Island overworld. Running remaining phases...")
-
-# --- MASTER PHASE 1: 3F West (State A) to 3F East Switch and toggle to State B ---
-if x == 7 and (y == 10 or y == 11):
-    print("=== EXECUTING MASTER PHASE 1: 3F WEST TO 3F EAST SWITCH ===")
-    route_3f_switch = [
-        (7, 11),
-        (10, 11),
-        (10, 3),
-        (26, 3),
-        (26, 12),
-        (12, 12),
-        (12, 11),
-        (11, 11) # Stand next to switch (12, 11)
+# Phase 3: On 2F East (State A), walk to 2F East switch at (15, 11), face LEFT, toggle to State B
+pos = mgba.get_coordinates()
+if pos['x'] == 20 and pos['y'] == 16:
+    print("Walking to 2F East switch at (15, 11)...")
+    route_2f_switch = [
+        (15, 16),
+        (15, 12),
+        (16, 12),
+        (16, 11)
     ]
-    if walk_exact_route(route_3f_switch):
-        print("At 3F East switch at (11, 11). Facing RIGHT and toggling to State B...")
-        mgba.press_buttons(["Right"])
+    if walk_exact_route(route_2f_switch):
+        print("At 2F East switch stand. Facing LEFT and toggling switch to State B...")
+        mgba.press_buttons(["Left"])
         time.sleep(0.5)
         mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
         time.sleep(1.5)
-        print("State toggled to State B! Current position:", mgba.get_coordinates())
-        mgba.take_screenshot()
+        
+        print("Warping UP to 3F East...")
+        mgba.press_buttons(["Left"])
+        time.sleep(0.5)
+        mgba.press_buttons(["Up"])
+        time.sleep(2.5)
+        pos = mgba.get_coordinates()
+        print("Arrived on 3F East:", pos)
 
-# --- MASTER PHASE 2: 3F East (State B) to pit at (26, 6) and drop ---
-elif x == 11 and y == 11:
-    print("=== EXECUTING MASTER PHASE 2: 3F EAST SWITCH TO PIT DROP ===")
-    route_pit = [
-        (11, 10),
-        (12, 10),
-        (12, 5),
-        (21, 5),
-        (21, 3),
+# Phase 4: On 3F East (State B), walk to pit at (26, 6) and drop to 1F fenced room
+pos = mgba.get_coordinates()
+if pos['x'] == 16 and pos['y'] == 11:
+    route_pit_3f = [
+        (10, 11),
+        (10, 3),
         (26, 3),
         (26, 6) # Stand next to pit
     ]
-    if walk_exact_route(route_pit):
+    if walk_exact_route(route_pit_3f):
         print("At pit edge. Stepping LEFT to drop...")
         mgba.press_buttons(["Left"])
         time.sleep(3.0)
@@ -144,29 +129,43 @@ elif x == 11 and y == 11:
             mgba.press_buttons(["Up"])
             time.sleep(0.5)
         time.sleep(2.0)
-        print("Landed on B1F East:", mgba.get_coordinates())
-        mgba.take_screenshot()
+        pos = mgba.get_coordinates()
+        print("Landed on B1F East:", pos)
 
-# --- MASTER PHASE 3: Landed on B1F East. Walk to Secret Key, retrieve, and DIG out ---
-elif x == 19 and (y == 5 or y == 6 or y == 16):
-    print("=== EXECUTING MASTER PHASE 3: B1F EAST TO SECRET KEY ===")
-    route_key = [(19, 5), (1, 5)]
+# Phase 5: On B1F East (State B), walk directly LEFT to Secret Key, retrieve, and DIG out
+pos = mgba.get_coordinates()
+if pos['x'] == 25 and pos['y'] == 5:
+    route_key = [
+        (26, 5),
+        (26, 3),
+        (21, 3),
+        (21, 5),
+        (1, 5)
+    ]
     if walk_exact_route(route_key):
-        print("At Secret Key stand tile (1, 5). Facing UP and retrieving key...")
+        print("SUCCESS! Reached Secret Key stand tile (1, 5)!")
+        
+        # Face UP and retrieve key
+        print("Facing UP and retrieving key...")
         mgba.press_buttons(["Up"])
         time.sleep(0.5)
+        # Interacting to retrieve Secret Key
         mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B"])
         time.sleep(1.5)
         print("SECRET KEY RETRIEVED! Now DIGging out...")
         mgba.press_buttons(["Start", "sleep 500"])
         time.sleep(1.0)
+        # Select POKéMON
         mgba.press_buttons(["Down", "sleep 100", "A", "sleep 500"])
         time.sleep(1.0)
+        # Select TRUFFLE (Down 5 times)
         mgba.press_buttons(["Down", "Down", "Down", "Down", "Down", "sleep 100", "A", "sleep 500"])
         time.sleep(1.0)
+        # Select DIG (Option 1)
         mgba.press_buttons(["A", "sleep 500"])
         time.sleep(1.0)
         mgba.press_buttons(["A"])
         time.sleep(3.0)
         print("ESCAPED! Final Cinnabar coordinates:", mgba.get_coordinates())
-        mgba.take_screenshot()
+    else:
+        print("Failed route to key.")
