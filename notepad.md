@@ -1124,9 +1124,12 @@
   - Town center resident at (9, 10): "This town is known as the grave site of POKéMON. Memorial services are held in POKéMON TOWER."
   - Resident near Pokémon Tower at (15, 9).
 
+- South-Central House: Located at cols 6-9, rows 12-13 with door at (7, 13).
+- South-West House (Name Rater): Located at cols 2-5, rows 12-13 with door at (3, 13).
+
 ## Buildings & Points of Interest to Survey
 - Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
-- Town Buildings to Survey: Central-west house (7, 9), south buildings (Name Rater, Poké Mart, Mr. Fuji's Volunteer House).
+- Pokémart: East / South-east sector.
 - Route 8 Western Gate: Road to Saffron City / Underground Path to Celadon City.
 
 <hr>
