@@ -5,13 +5,22 @@
 - Elevator Shaft: Located at (24..25, 16..19).
 
 ## Floor Layout & Verified Topology
-- Eastern Wing (cols 18-23, rows 16-27):
+- Eastern Wing (cols 18-25, rows 16-27):
   - Stairs up to B2F at (21, 24).
-  - Central barrier block at (14..17, 19..24).
-  - Northern bypass corridor connecting to western wing at rows 17-18 (cols 12-22).
-  - Southern bypass corridor along row 26 (cols 10-22).
-- Northwest Alcove:
-  - Item Ball at (9, 17): Collected [Turn 12404 - Rare Candy / TM10].
+  - Elevator shaft at (24..25, 16..19).
+  - Central barrier block at (12..17, 19..24).
+  - Northern corridor connecting to spin maze at row 18 (cols 10-20).
+  - Southern corridor along rows 25-26 (cols 10-22).
+  - Defeated Rocket Grunt #1 at (15, 25) / (17, 25).
+  - Defeated Rocket Grunt #2 at (18, 18).
+- Central Spin Tile Column (col 9):
+  - Up spin tiles at (9, 14), (9, 18), (9, 20), (9, 22), (9, 24).
+  - Stop tiles at (9, 15), (9, 19), (9, 21), (9, 23), (9, 25).
+  - Stepping Left from (10, 18) onto (9, 18) Up-arrow launches north through row 16 wall to Stop tile at (9, 15).
+  - Item Ball at (9, 17).
+- Northern / Western Sector (rows 0-15):
+  - Accessible via (9, 18) Up spin tile landing at (9, 15).
+- Stairs Down to B4F: In northern/western sector (currently exploring).
 
 ## Verified Trainers
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].
@@ -20,5 +29,3 @@
 - Rocket Grunt #2: Located at (18, 18) facing South [Defeated Turn 12280].
   - Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20.
   - Dialogue: "Intruder alert!" -> Defeat: "I can't do it!"
-
-- Stairs Down to B4F: Located at (17, 24).
