@@ -9,7 +9,9 @@
 - Northern Entrance: Road enters at cols 10-11 connecting from Route 10 South.
 - Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5). Interior: Nurse Joy at counter (3, 2), entrance mat at (3..4, 7).
 - Town Signpost / Board: Located at (9, 3) east of Pokémon Center.
-- Central-West House: Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9).
+- Lavender Volunteer Pokémon House (Mr. Fuji's House): Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9).
+  - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4) with magazine at (3, 3).
+  - Residents: Girl at (3, 5), resident at (6, 3), Pokémon at (1, 3) and (6, 4).
 - Town Signpost: Located at (11, 9). Text: "LAVENDER TOWN - The Noble Purple Town".
 - NPCs & Dialogue:
   - Local resident at (5, 7): "GHOSTs appeared in POKéMON TOWER. I think they're the spirits of POKéMON that the ROCKETs killed."
