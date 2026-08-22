@@ -1303,5 +1303,7 @@
 
 ## Verified NPCs & Dialogue
 - Resident at (39..40, 14): Man with black hair and orange shirt walking southern sidewalk.
+- Resident at (32, 12): Girl with Poliwrath: "This is my trusted pal, POLIWRATH! It evolved from POLIWHIRL when I used WATER STONE!"
+- Poliwrath at (30, 12): Girl's partner Pokémon.
 
 <hr>
