@@ -161,8 +161,8 @@ if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11) and CURRENT_PHASE == 5:
     print("--- PHASE 5: CROSSING 1F TO WEST-CENTRAL STAIRS ---")
     mansion_1f_cross_waypoints = [
         (7, 11),
-        (5, 11),
-        (5, 5),
+        (11, 11),
+        (11, 5),
         (15, 5),
         (15, 10),
         (18, 10)   # Stairs at (18, 10) on 1F East
