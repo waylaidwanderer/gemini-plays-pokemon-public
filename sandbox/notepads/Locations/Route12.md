@@ -39,8 +39,9 @@
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
 - TM39 Swift (from NPC girl on Gatehouse 2F)
-- Fisherman #4: Located at (12, 40) [Turn 11650]. Team: Goldeen Lv 27.
+- Fisherman #4: Located at (12, 40) [Defeated Turn 11652]. Team: Goldeen Lv 27. Reward: �945.
   - Pre-battle: "The FISHING FOOL vs. POK�MON KID!"
+  - Defeat quote: "Too much!"
 
 ## Roadblock & Landmarks
 - Sleeping Snorlax: Located at (10, 62) [Discovered Turn 11645]. Dialogue: "A sleeping POK�MON blocks the way!" Blocks the path to the southern sector of Route 12 and Route 13. Requires POK� FLUTE to awaken.
