@@ -11,7 +11,7 @@
   - Northern bypass corridor connecting to western wing at rows 17-18 (cols 12-22).
   - Southern bypass corridor along row 26 (cols 10-22).
 - Northwest Alcove:
-  - Item Ball at (9, 17) [Uncollected due to full bag].
+  - Item Ball at (9, 17): Collected [Turn 12404 - Rare Candy / TM10].
 
 ## Verified Trainers
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].
