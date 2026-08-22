@@ -15,3 +15,6 @@
   - Pre-battle: "I'm a rambling, gambling dude!"
 - Super Nerd #1: Located at (42, 6) [Defeated Turn 11118]. Team: Grimer Lv 22, Muk Lv 22.
   - Pre-battle: "You need strategy to win at this!"
+- Lass #2 (Trainer Line): Located at (26, 5) [Defeated Turn 11126]. Team: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
+  - Pre-battle: "MEOWTH is so cute, meow, meow, meow!"
+  - Defeat quote: "I think PIDGEY and RATTATA are cute too!"
