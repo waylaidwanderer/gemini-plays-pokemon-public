@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=16, y=7)
+- Location: Team Rocket Hideout B2F (x=2, y=9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1440,11 +1440,14 @@
 <h1><code>Locations/RocketHideoutB2F</code></h1>
 
 
+
 ## Verified Conveyor Network Routes
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
 - Route 2: (12, 11) [Up] -> North -> (12, 9) [Left] -> West -> (10, 9) [Left] -> West -> (8, 9) [Left] -> West -> (4, 9) [Left] -> Lands on Stop Tile (2, 9).
 - Route 3: (4, 11) [Right] -> East -> (5, 11) -> (6, 11) -> (7, 11) -> Lands on Stop Tile (8, 11).
 - Route 4: (10, 10) [Up] -> North -> (10, 9) [Left] -> West -> Lands on Stop Tile (2, 9).
+- Route 5 (Southern Passage): From Stop Tile (8, 11) -> East to (9, 11) -> South to (9, 12) -> East to (10, 12) -> South to (10, 15) -> East onto Down Spin Tile (11, 15) -> Launches South into Southern B2F Chamber.
+
 
 
 <hr>
