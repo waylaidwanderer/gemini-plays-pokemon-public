@@ -1160,6 +1160,8 @@
   - Pre-battle: "I'm a rambling, gambling dude!"
 - Super Nerd #2: Located at (26, 3) [Defeated Turn 11381]. Team: Koffing Lv 26. Reward: �650.
   - Defeat quote: "I'll stay with school."
+- Super Nerd #3: Located at (11, 5) [Defeated Turn 11404]. Team: Koffing Lv 20, Voltorb Lv 20, Magnemite Lv 20. Reward: �500.
+  - Defeat quote: "Ow! Meltdown!"
 
 
 <hr>
