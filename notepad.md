@@ -1431,5 +1431,8 @@
   - Item Ball #1 at (11, 14): Collected [Turn 12206].
   - Item Ball #2 at (9, 17): Located in southwest room behind row 16 wall.
 - Rocket Grunt #3: Located at (18, 17) facing North (guarding passage to lower corridors).
+- Sector Partitioning:
+  - Row 16 is a solid barrier separating North/Middle B1F from South B1F.
+  - South B1F (Grunt #3 at (18, 17), Item #2 at (9, 17)) is accessed from lower floors / elevator.
 
 <hr>
