@@ -70,3 +70,7 @@
 - **Optional Purchases**:
   - 1x Poké Doll (¥1000) on 4F for Saffron Copycat (TM31 Mimic) / Marowak ghost bypass.
   - Evolution Stones: Fire/Water/Thunder/Leaf Stones (¥2100 each) when Eevee is acquired from Celadon Mansion Penthouse.
+6. PRISM (Eevee) - Lv 25
+   - Stats: Max HP 67 (HP: 67/67), Type: Normal
+   - Moves: Tackle, Sand-Attack, Quick Attack
+   - Role: Multi-type evolution potential (Fire/Water/Thunder Stone ready at Celadon Dept Store 4F) [Claimed Turn 12086 at Celadon Mansion Roof]
