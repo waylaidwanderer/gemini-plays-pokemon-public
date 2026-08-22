@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Lavender Town (x=4, y=6)
+- Location: Route 8 (x=27, y=6)
 
 
 
@@ -91,6 +91,8 @@
 
 
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
+- `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�mon Tower, Name Rater, Pok�mart
+- `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
 
 <hr>
 
@@ -1138,8 +1140,8 @@
 - Pokémon Tower: Purple multi-story tower located in the northeast (cols 12-18, rows 2-10) with entrance door at (14, 5) and signpost at (17, 7) [Surveyed Turn 11092].
   - Signpost text: "POKéMON TOWER - May the Souls of POKéMON Rest Easy".
 
-## Buildings & Points of Interest to Survey
-- Route 8 Western Gate: Road to Saffron City / Underground Path to Celadon City.
+## Completed Surveys
+- All points of interest surveyed; proceeded to Route 8.
 
 <hr>
 
