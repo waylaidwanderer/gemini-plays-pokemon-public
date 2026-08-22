@@ -7,3 +7,7 @@
 ## Layout & Landmarks
 - Eastern entrance connects via paved road at row 8 (cols 56-59).
 - Mountain barrier to the north (row 7) and fence line to the south (row 9).
+## Verified Trainers & Encounters
+- Lass #1: Located at (51, 12) [Defeated Turn 11109]. Team: Clefairy Lv 22, Clefairy Lv 22. Reward: ¥330.
+  - Pre-battle: "Do you like cute, round and fluffy POKéMON?"
+  - Defeat quote: "Don't be so mean to my CLEFAIRY!"
