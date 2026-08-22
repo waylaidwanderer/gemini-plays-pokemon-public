@@ -1312,5 +1312,9 @@
   - Stairs: Down to 1F at (12, 1); Up to 3F at (16, 1).
   - Left Clerk (Items at (5, 3)): Great Ball (¥600), Super Potion (¥700), Revive (¥1500), Super Repel (¥500), Antidote (¥100), Burn Heal (¥250), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200).
   - Right Clerk (TMs at (6, 3)): TM32 Double Team (¥1000), TM33 Reflect (¥1000), TM02 Razor Wind (¥2000), TM07 Horn Drill (¥2000), TM37 Egg Bomb (¥2000), TM01 Mega Punch (¥3000), TM05 Mega Kick (¥3000), TM09 Take Down (¥3000), TM17 Submission (¥3000).
+- 3F (TV Game Shop):
+  - Directory at (14, 1): "3F: TV GAME SHOP"
+  - Stairs: Down to 2F at (16, 1); Up to 4F at (12, 1).
+  - Game Shop Clerk at (16, 5): Gave player TM18 (Counter) across the counter at (16, 3).
 
 <hr>
