@@ -48,10 +48,6 @@
   - 1x Moon Stone (Evolution item)
   - 1x Rare Candy (Found in Mt. Moon 1F)
 
-## Gift Pok�mon & Party Capacity Protocol
-- Party Size: 6/6 (FULL).
-- In Gen 1 mechanics, gift Pok�mon (Eevee) cannot be received if party is full (6/6). Must deposit 1 reserve party member (e.g. TITAN the Onix) at Celadon Pok�mon Center PC into Box 1 before claiming Eevee.
-
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
 - Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
