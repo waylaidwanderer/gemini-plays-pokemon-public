@@ -1127,7 +1127,8 @@
 - South-Central House (Name Rater): Located at cols 6-9, rows 12-13 with door at (7, 13) [Surveyed Turns 11067-11069].
   - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4).
   - Name Rater NPC at (5, 3): "Hello, hello! I am the official NAME RATER! Want me to rate the nicknames of your POKéMON?"
-- South-West House: Located at cols 2-5, rows 12-13 with door at (3, 13).
+- South-West House: Located at cols 2-5, rows 12-13 with door at (3, 13) [Surveyed Turn 11072].
+  - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4). Residents at (2, 4) and (3, 5).
 
 ## Buildings & Points of Interest to Survey
 - Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
