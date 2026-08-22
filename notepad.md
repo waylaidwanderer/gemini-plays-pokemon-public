@@ -1283,5 +1283,9 @@
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
 - TM39 Swift (from NPC girl on Gatehouse 2F)
+## Roadblock & Landmarks
+- Sleeping Snorlax: Located at (10, 62) [Discovered Turn 11645]. Dialogue: "A sleeping POK�MON blocks the way!" Blocks the path to the southern sector of Route 12 and Route 13. Requires POK� FLUTE to awaken.
+- Signpost: Located at (11, 63) [Read Turn 11645]. Text: "SPORT FISHING AREA".
+
 
 <hr>
