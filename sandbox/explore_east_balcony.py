@@ -51,8 +51,8 @@ def walk_exact_route(waypoints):
 
 print("Current coordinates:", mgba.get_coordinates())
 
-# Let's try walking down Column 18 to Row 11, then left to (15, 11)
-route = [(18, 11), (15, 11)]
+# Direct, wall-bypassing route to stairs at (15, 11) on 2F East
+route = [(12, 6), (18, 6), (18, 11), (15, 11)]
 if walk_exact_route(route):
     print("SUCCESS! Reached stairs at (15, 11). Warping UP to 3F East...")
     mgba.press_buttons(["Up"])
