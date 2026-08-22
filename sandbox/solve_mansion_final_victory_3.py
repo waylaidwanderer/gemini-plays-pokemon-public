@@ -59,14 +59,21 @@ pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
 # Phase 0: Cinnabar overworld to Mansion entrance
-if pos['x'] == 5 and pos['y'] == 11:
+if (pos['x'] == 4 and pos['y'] == 10) or (pos['x'] == 5 and pos['y'] == 11):
     print("=== PHASE 0: Walking to Pokémon Mansion entrance ===")
-    route_cinnabar = [
-        (5, 12),
-        (11, 12),
-        (11, 4),
-        (6, 4)
-    ]
+    if pos['x'] == 4 and pos['y'] == 10:
+        route_cinnabar = [
+            (11, 10),
+            (11, 4),
+            (6, 4)
+        ]
+    else:
+        route_cinnabar = [
+            (5, 12),
+            (11, 12),
+            (11, 4),
+            (6, 4)
+        ]
     if walk_exact_route(route_cinnabar):
         print("At Mansion door. Stepping UP to enter...")
         mgba.press_buttons(["Up"])
