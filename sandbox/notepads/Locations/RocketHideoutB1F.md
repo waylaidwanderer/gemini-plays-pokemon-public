@@ -34,4 +34,6 @@
   - Upper room spans cols 9-18, rows 5-7.
   - Opening to southern corridors located at cols 11-12 on row 8.
 - Item Balls:
-  - Item Ball #1 at (11, 14): Located behind table in western room.
+  - Item Ball #1 at (11, 14): Collected [Turn 12206].
+  - Item Ball #2 at (9, 17): Located in southwest room behind row 16 wall.
+- Rocket Grunt #3: Located at (18, 17) facing North (guarding passage to lower corridors).
