@@ -45,7 +45,7 @@
 - Valuables:
   - 2x Nugget (sellable for 10000 total - 1x Route 24, 1x Rocket Hideout B2F)
 - Consumables & Field Items:
-  - 5x Super Potion
+  - 6x Super Potion
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)

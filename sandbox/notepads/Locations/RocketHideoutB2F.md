@@ -11,6 +11,6 @@
 
 - Southwest Sector (cols 1-7, rows 18-26):
   - Stop Tile at (2, 19) [Reached via (8, 23) Up -> (8, 19) Left].
-  - Item Ball at (3, 21) in central desk enclosure.
+  - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
   - Western thoroughfare along col 1 (rows 15-25).
   - Southern corridor along row 25 (cols 1-6).
