@@ -99,7 +99,7 @@ pos = mgba.get_coordinates()
 if pos['x'] == 5 and pos['y'] == 23:
     path_to_stairs = [
         (7, 23, 'Right'),
-        (7, 11, 'Down'),
+        (7, 11, 'Up'), # Corrected from 'Down' to 'Up'!
         # Since we are in State A, the Row 11 gate is open!
         (8, 11, 'Right'),
         (9, 11, 'Right'),
