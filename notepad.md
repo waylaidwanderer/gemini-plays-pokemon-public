@@ -91,6 +91,7 @@
 
 
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
+- `Locations/PokemonTower1F`: Pokémon Tower 1F layout, mourners, stairs, Rival RED battle
 - `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�mon Tower, Name Rater, Pok�mart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
@@ -103,9 +104,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 43
-   - Stats (Verified at Lv 43): Max HP 142 (HP: 142/142), Attack 96, Defense 107, Speed 98, Special 102
+   - Stats (Verified at Lv 43): Max HP 142 (HP: 137/142), Attack 96, Defense 107, Speed 98, Special 102
    - Type: Water
-   - Moves: Skull Bash (15/15), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (14/15), Tail Whip (29/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats: Max HP 26 (HP: 26/26)
@@ -1213,6 +1214,16 @@
 - Mourner benches located across rows 16-17 and along east/west walls.
 - Reception counter located at rows 12-13.
 - NPCs: Mourners paying respects to departed Pokémon.
+
+## Verified Trainers & Encounters
+- Rival RED: Located at (14, 5) [Engaged Turn 11334].
+  - Pre-battle: "Hey, BLUE! What brings you here? Your POKéMON don't look dead! I can at least make them faint! Let's go, pal!"
+  - Observed Team:
+    1. Pidgeotto Lv 25 [Defeated Turn 11339 - 604 EXP gained]
+    2. Gyarados Lv 23 [In progress]
+    3. Growlithe Lv 22 [Pending]
+    4. Kadabra Lv 20 [Pending]
+    5. Ivysaur Lv 25 [Pending]
 
 
 <hr>
