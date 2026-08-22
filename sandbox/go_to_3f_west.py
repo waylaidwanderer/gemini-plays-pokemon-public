@@ -29,15 +29,14 @@ def walk_exact_route(waypoints):
             
             if pos == pos_before:
                 print(f"BUMPED at {cur} going {direction} towards {wp}!")
-                # On overworld Cinnabar Island, no wild battles, so we shouldn't bump
                 return False
             attempts += 1
     return True
 
 print("Current coordinates:", mgba.get_coordinates())
 
-# Safety bypass route from (7, 13) to enter Mansion at (6, 3)
-route_cinnabar = [(7, 11), (4, 11), (4, 4), (6, 4), (6, 3)]
+# Eastern bypass route on Cinnabar Island to enter Mansion safely at (6, 3)
+route_cinnabar = [(18, 10), (18, 5), (6, 5), (6, 3)]
 if walk_exact_route(route_cinnabar):
     print("At Mansion entrance. Stepping UP to enter...")
     mgba.press_buttons(["Up"])
@@ -45,16 +44,11 @@ if walk_exact_route(route_cinnabar):
     
     pos_1f = mgba.get_coordinates()
     print("Entered Mansion 1F West:", pos_1f)
-    # Clear the warp
+    # Clear the warp doormat
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # Walk to 1F stairs at (7, 10)
-    # Since we land at (5, 27) usually, let's walk directly to (7, 10) on 1F West
-    # Wait, the stairs are at (7, 10). Let's use walk_exact_route
-    print("Walking to 1F stairs at (7, 10)...")
-    # Actually, we can just walk up Column 5 to Row 11, then Right to Column 7, and Up to Row 10
-    # Let's use safe waypoints for 1F West:
+    # On 1F West, walk safely to 1F stairs at (7, 10)
     route_1f = [(5, 11), (7, 11), (7, 10)]
     if walk_exact_route(route_1f):
         print("At 1F stairs. Stepping UP to warp to 2F West...")
