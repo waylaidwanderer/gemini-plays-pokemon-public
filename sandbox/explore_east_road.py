@@ -31,35 +31,23 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Currently at (22, 7) on 2F East (State B)
+# Currently at (20, 7) on 2F East (State B)
 pos = mgba.get_coordinates()
-print("Starting Row 7 path on 2F East from:", pos)
+print("Starting stairs check from:", pos)
 
-if pos['x'] == 22 and pos['y'] == 7:
+if pos['x'] == 20 and pos['y'] == 7:
     path = [
-        # Walk LEFT along Row 7 to Column 15
-        (21, 7, 'Left'),
-        (20, 7, 'Left'),
         (19, 7, 'Left'),
-        (18, 7, 'Left'),
-        (17, 7, 'Left'),
-        (16, 7, 'Left'),
-        (15, 7, 'Left'),
-        # Walk DOWN Column 15 to Row 11
-        (15, 8, 'Down'),
-        (15, 9, 'Down'),
-        (15, 10, 'Down'),
-        (15, 11, 'Down'),
+        (19, 8, 'Down'),
     ]
-    print("Walking to 2F East stairs...")
     for target in path:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
             print(f"Failed to reach target at ({tx}, {ty})")
             exit()
             
-    print("At (15, 11) on 2F East. Stepping UP to go UP to 3F East...")
-    mgba.press_buttons(["Up"])
+    print("At (19, 8) on 2F East stairs. Stepping DOWN to enter stairs...")
+    mgba.press_buttons(["Down"])
     time.sleep(2.0)
 
 print("Final position after climbing stairs:", mgba.get_coordinates())
