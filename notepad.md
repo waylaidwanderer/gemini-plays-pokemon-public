@@ -86,7 +86,7 @@
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam consumed on HYDROS]
 - Valuables:
-  - 1x Nugget (sellable for 5000)
+  - 2x Nugget (sellable for 10000 total - 1x Route 24, 1x Rocket Hideout B2F)
 - Consumables & Field Items:
   - 5x Super Potion
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
