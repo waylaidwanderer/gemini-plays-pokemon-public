@@ -3,6 +3,11 @@ import time
 
 def handle_battle():
     print("Coordinates did not change. Likely a battle! Attempting to flee...")
+    # Clear any dialogue
+    for _ in range(3):
+        mgba.press_buttons(["B"])
+        time.sleep(0.2)
+    # Run from battle
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.0)
     for _ in range(5):
@@ -31,15 +36,15 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at Cinnabar Island (11, 12)
+# Starting at Cinnabar Island (15, 12)
 pos = mgba.get_coordinates()
 print("Starting verification run from Cinnabar:", pos)
 
-if pos['x'] == 11 and pos['y'] == 12:
-    # 1. Walk from Cinnabar Center to Mansion entrance
+if pos['x'] == 15 and pos['y'] == 12:
+    # 1. Walk from Poké Mart to Mansion entrance (6, 3)
     cinnabar_path = [
-        (12, 12, 'Right'),
-        (13, 12, 'Right'),
+        (14, 12, 'Left'),
+        (13, 12, 'Left'),
         # Up Column 13 to Row 4
         (13, 11, 'Up'),
         (13, 10, 'Up'),
@@ -120,5 +125,5 @@ if pos['x'] == 5 and pos['y'] == 27:
     mgba.press_buttons(["Up"])
     time.sleep(2.5)
 
-print("Final position of verification run:", mgba.get_coordinates())
+print("Final position of verification run (should be on 2F East):", mgba.get_coordinates())
 mgba.take_screenshot()
