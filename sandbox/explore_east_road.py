@@ -31,48 +31,57 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (9, 11) on 1F West (State B)
+# Currently at (9, 11) on 1F West (State B)
 pos = mgba.get_coordinates()
-print("Starting definitive alternate stairs route from:", pos)
+print("Starting definitive alternate stairs route via Row 5 from:", pos)
 
 if pos['x'] == 9 and pos['y'] == 11:
-    path_to_stairs = [
-        # Walk UP to Row 10
-        (9, 10, 'Up'),
-        # Walk RIGHT to Column 10
-        (10, 10, 'Right'),
-        # Walk UP Column 10 to Row 8
-        (10, 9, 'Up'),
-        (10, 8, 'Up'),
-        # Walk RIGHT along Row 8 to Column 18
-        (11, 8, 'Right'),
-        (12, 8, 'Right'),
-        (13, 8, 'Right'),
-        (14, 8, 'Right'),
-        (15, 8, 'Right'), # Through the gate at (15, 8) which is open in State B!
-        (16, 8, 'Right'),
-        (17, 8, 'Right'),
-        (18, 8, 'Right'),
+    path = [
+        # Walk LEFT to Column 7 on Row 11
+        (8, 11, 'Left'),
+        (7, 11, 'Left'),
+        # Walk UP Column 7 to Row 5
+        (7, 10, 'Up'),
+        (7, 9, 'Up'),
+        (7, 8, 'Up'),
+        (7, 7, 'Up'),
+        (7, 6, 'Up'),
+        (7, 5, 'Up'),
+        # Walk RIGHT along Row 5 to Column 18
+        (8, 5, 'Right'),
+        (9, 5, 'Right'),
+        (10, 5, 'Right'),
+        (11, 5, 'Right'),
+        (12, 5, 'Right'),
+        (13, 5, 'Right'),
+        (14, 5, 'Right'),
+        (15, 5, 'Right'),
+        (16, 5, 'Right'),
+        (17, 5, 'Right'),
+        (18, 5, 'Right'),
         # Walk DOWN Column 18 to Row 10
+        (18, 6, 'Down'),
+        (18, 7, 'Down'),
+        (18, 8, 'Down'),
         (18, 9, 'Down'),
         (18, 10, 'Down'),
     ]
     print("Step 1: Walking to 1F East alternate stairs...")
-    for target in path_to_stairs:
+    for target in path:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
             print(f"Failed to reach 1F East stairs at ({tx}, {ty})")
             exit()
             
-    print("Stepping UP to enter alternate stairs and go UP to 2F East...")
+    print("At (18, 10) on 1F East. Stepping UP to enter alternate stairs...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
-# We land on next floor (2F East)
+# Land on next floor (2F East)
 pos = mgba.get_coordinates()
 print("Position on next floor after climbing alternate stairs:", pos)
 
-# We should land at (20, 16) or similar on the West-Central side of 2F East
+# We should land on the West-Central side of 2F East
 if pos['x'] != 9: # Check if we successfully warped up
     print("--- STEP 2: WALKING TO 3F EAST STAIRS ---")
     # Walk left along Row 16 to Column 15
