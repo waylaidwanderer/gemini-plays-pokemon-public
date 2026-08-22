@@ -36,6 +36,3 @@
 
 - Pokémon Tower: Purple multi-story tower located in the northeast (cols 12-18, rows 2-10) with entrance door at (14, 5) and signpost at (17, 7) [Surveyed Turn 11092].
   - Signpost text: "POKéMON TOWER - May the Souls of POKéMON Rest Easy".
-
-## Completed Surveys
-- All points of interest surveyed; proceeded to Route 8.
