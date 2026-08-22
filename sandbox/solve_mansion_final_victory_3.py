@@ -55,26 +55,26 @@ pos = mgba.get_coordinates()
 x, y = pos['x'], pos['y']
 print(f"Detected starting position: ({x}, {y})")
 
-# --- PHASE 1: Currently on 2F East. Return to 1F West ---
-if y <= 12 and x >= 12 and not (12 <= x <= 21 and y >= 9):
-    print("=== EXECUTING PHASE 1: RETURNING TO 1F WEST FROM 2F EAST ===")
+# --- PHASE 2b (from 1F East-Central): Return to West side via Row 3 and go to (18, 10) ---
+if x >= 22 and y >= 9:
+    print("=== EXECUTING PHASE 2B: 1F EAST-CENTRAL TO 2F EAST (WEST-CENTRAL) ===")
     
     # Check if we are on the "Got away safely!" screen and clear it
     print("Clearing battle text if any...")
     mgba.press_buttons(["B"])
     time.sleep(1.0)
     
-    route = [(26, 11), (26, 3), (12, 3), (12, 11), (7, 11), (7, 10)]
+    route = [(26, 11), (26, 3), (18, 3), (18, 10)]
     if walk_exact_route(route):
-        print("At 2F West stairs. Stepping UP to warp...")
+        print("At 1F East stairs. Stepping UP to warp...")
         mgba.press_buttons(["Up"])
         time.sleep(2.5)
-        print("Arrived on 1F West:", mgba.get_coordinates())
+        print("Arrived on 2F East (West-Central):", mgba.get_coordinates())
 
-# --- PHASE 2: Currently on 1F West. Walk to 1F East (18, 10) and warp to 2F East ---
+# --- PHASE 2a (from 1F West): Walk directly to (18, 10) ---
 elif x == 7 and (y == 10 or y == 11):
-    print("=== EXECUTING PHASE 2: 1F WEST TO 2F EAST (WEST-CENTRAL) ===")
-    route = [(12, 11), (12, 3), (26, 3), (26, 11), (18, 11), (18, 10)]
+    print("=== EXECUTING PHASE 2A: 1F WEST TO 2F EAST (WEST-CENTRAL) ===")
+    route = [(12, 11), (18, 11), (18, 10)]
     if walk_exact_route(route):
         print("At 1F East stairs. Stepping UP to warp...")
         mgba.press_buttons(["Up"])
