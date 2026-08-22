@@ -32,11 +32,12 @@ def walk_to_step(tx, ty):
         step_count += 1
     return True
 
-# We are at (11, 12). Walk to Mansion entrance at (6, 3) and enter
-if walk_to_step(6, 12):
+# We are currently at (9, 10) on Cinnabar Island.
+# Walk to (6, 10) -> (6, 3) and UP to enter the Mansion!
+if walk_to_step(6, 10):
     if walk_to_step(6, 3):
         print("At Mansion entrance. Entering...")
         mgba.press_buttons(["Up"])
         time.sleep(2.0) # Wait for transition
-        print("Landed inside Mansion! Position:", mgba.get_coordinates())
+        print("Landed inside Mansion 1F! Current position:", mgba.get_coordinates())
         mgba.take_screenshot()
