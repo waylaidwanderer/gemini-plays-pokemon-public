@@ -1474,7 +1474,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **3F East gate at `(15, 11)` (stairs):** CLOSED.
 - **1F East gate at `(15, 8)`:** CLOSED.
 - **B1F North-Central gate at `(9, 5)`:** CLOSED.
-- **3F Balcony Gate at `(20, 17)`:** OPEN.
+- **3F Balcony Gate at `(20, 17)`:** CLOSED.
 
 ### State B (Toggled)
 - **B1F South-East gate at `(10, 11)`:** CLOSED.
