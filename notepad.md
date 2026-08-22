@@ -81,7 +81,7 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM13 (Ice Beam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM13 (Ice Beam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide)
 - Valuables:
   - 1x Nugget (sellable for 5000)
 - Consumables & Drinks:
