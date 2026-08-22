@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Game Corner 1F (x=15, y=17)
+- Location: Team Rocket Hideout B1F (x=21, y=2)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1377,15 +1377,43 @@
   - **Eastern Alcove (cols 44-48, rows 1-7)**: Extends east behind the Pokémon Center to dead-end tree boundary at row 8.
 
 ## Verified Building Entrances & Layout
-- **Rocket Game Corner**: Located at cols 26-29, rows 20-21.
-  - Front Doors: (26, 21) and (28, 21).
-  - Marquee Sign: (27, 21).
-  - Approach: Wide open street along row 22-23 (cols 20-30).
-- **Celadon Restaurant / Adjacent Shop**: Located at cols 27-29, rows 18-19.
-  - Entrance Door: (28, 19) with yellow door frame.
+- **Rocket Game Corner**: Located at cols 26-29, rows 18-21.
+  - Front Entrance Door: (28, 19) with yellow door frame and grey entrance plaza at row 20.
+  - Interior Secrets: Poster at (9, 4) with secret switch guarded by Rocket Grunt at (9, 5). Flipping switch reveals basement staircase to Rocket Hideout B1F at (17, 4).
+  - Approach: Walk east along row 22 street to col 36, north to row 20 plaza, and west to door at (28, 19).
+- **Prize Exchange Building**: Located at cols 30-33, rows 18-21.
+  - Front Door: (33, 19) on row 20 entrance plaza.
 - **Celadon Department Store**: Front door at (10, 13).
 - **Celadon Mansion**: Front door at (24, 9), Rear door at (24, 4).
 - **Celadon Pokémon Center**: Front door at (41, 9).
+
+
+<hr>
+
+<h1><code>Locations/RocketHideoutB1F</code></h1>
+
+# Team Rocket Hideout B1F - Topology & Dungeon Log
+
+## Connections & Warps
+- Stairs Up: Located at (21, 2), leads up to Celadon Game Corner 1F at (17, 4) [Entered Turn 12180].
+- Stairs Down to B2F: Located in the western/southern section of B1F.
+- Elevator: Located in the south-central sector (requires Lift Key from B4F).
+
+## Floor Layout & Verified Topology
+- Starting Chamber (cols 18-25, rows 0-4):
+  - Stairs up to Game Corner 1F at (21, 2).
+  - North wall at rows 0-1, east wall at col 25, west wall at col 18.
+  - Machinery/pipe terminal at (23, 2).
+  - South passage opening at cols 20-23 across row 4 leading into the central chamber.
+- Central & Southern Sectors (rows 5-25):
+  - Pink checkered tile flooring with metal barriers.
+  - Grunts patrolling corridors.
+  - Item balls: Escape Rope, Hyper Potion (to be verified).
+
+## Systematic Exploration Protocol
+- Clear grunts methodically with Blastoise (Bubblebeam/Ice Beam/Bite).
+- Document exact coordinates of all trainers, item balls, directional tiles, and staircases.
+- Secure stairs down to B2F.
 
 
 <hr>
