@@ -31,104 +31,58 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# --- PART 2: WALK FROM 2F WEST (2, 11) TO 3F EAST LANDING (16, 11) ---
+# Path on 3F East (State B) from (26, 2) to (20, 18) via Column 25, Row 15, and Column 16
+path_to_drop = [
+    # Walk DOWN Column 26 to Row 12
+    (26, 3, 'Down'),
+    (26, 4, 'Down'),
+    (26, 5, 'Down'),
+    (26, 6, 'Down'),
+    (26, 7, 'Down'),
+    (26, 8, 'Down'),
+    (26, 9, 'Down'),
+    (26, 10, 'Down'),
+    (26, 11, 'Down'),
+    (26, 12, 'Down'),
+    # Walk LEFT to Column 25
+    (25, 12, 'Left'),
+    # Walk DOWN Column 25 to Row 15
+    (25, 13, 'Down'),
+    (25, 14, 'Down'),
+    (25, 15, 'Down'),
+    # Walk LEFT along Row 15 to Column 16
+    (24, 15, 'Left'),
+    (23, 15, 'Left'),
+    (22, 15, 'Left'),
+    (21, 15, 'Left'),
+    (20, 15, 'Left'),
+    (19, 15, 'Left'),
+    (18, 15, 'Left'),
+    (17, 15, 'Left'),
+    (16, 15, 'Left'),
+    # Walk DOWN Column 16 to Row 18
+    (16, 16, 'Down'),
+    (16, 17, 'Down'),
+    (16, 18, 'Down'),
+    # Walk RIGHT along Row 18 to Column 20
+    (17, 18, 'Right'),
+    (18, 18, 'Right'),
+    (19, 18, 'Right'),
+    (20, 18, 'Right'),
+]
 
-pos = mgba.get_coordinates()
-print("Starting Mansion run Part 2 from 2F West:", pos)
+print("Executing State B balcony drop path via Column 25 and Row 15...")
+success = True
+for target in path_to_drop:
+    tx, ty, d = target
+    if not walk_step(tx, ty, d):
+        print(f"Failed to reach target ({tx}, {ty})")
+        success = False
+        break
 
-if pos['x'] == 2 and pos['y'] == 11:
-    path_to_stairs = [
-        (3, 11, 'Right'),
-        (4, 11, 'Right'),
-        (5, 11, 'Right'),
-        (6, 11, 'Right'),
-        (7, 11, 'Right'),
-        (7, 10, 'Up'),
-    ]
-    print("Step 1: Walking to 2F West stairs...")
-    for target in path_to_stairs:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach 2F West stairs at ({tx}, {ty})")
-            exit()
-            
-    time.sleep(2.0) # Wait for stairs transition
-
-# We are on 1F West at (7, 10) in State B.
-pos = mgba.get_coordinates()
-if pos['x'] == 7 and pos['y'] == 10:
-    path_to_1f_stairs = [
-        (7, 11, 'Down'),
-        (8, 11, 'Right'),
-        (9, 11, 'Right'),
-        (10, 11, 'Right'),
-        (11, 11, 'Right'),
-        (11, 10, 'Up'),
-        (12, 10, 'Right'),
-        (12, 9, 'Up'),
-        (12, 8, 'Up'),
-        (12, 7, 'Up'),
-        (12, 6, 'Up'),
-        (12, 5, 'Up'),
-        (13, 5, 'Right'),
-        (14, 5, 'Right'),
-        (15, 5, 'Right'),
-        (16, 5, 'Right'),
-        (17, 5, 'Right'),
-        (18, 5, 'Right'),
-        (19, 5, 'Right'),
-        (20, 5, 'Right'),
-        (21, 5, 'Right'),
-        (21, 4, 'Up'),
-        (21, 3, 'Up'),
-        (22, 3, 'Right'),
-        (23, 3, 'Right'),
-        (24, 3, 'Right'),
-        (25, 3, 'Right'),
-        (26, 3, 'Right'),
-        (26, 4, 'Down'),
-        (26, 5, 'Down'),
-        (26, 6, 'Down'),
-    ]
-    print("Step 2: Crossing to 1F East stairs...")
-    for target in path_to_1f_stairs:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach 1F East stairs at ({tx}, {ty})")
-            exit()
-            
-    time.sleep(2.0) # Wait for stairs transition
-
-# We are on 2F East at (26, 7) in State B.
-pos = mgba.get_coordinates()
-if pos['x'] == 26 and pos['y'] == 7:
-    path_to_3f_stairs = [
-        (26, 8, 'Down'),
-        (26, 9, 'Down'),
-        (26, 10, 'Down'),
-        (26, 11, 'Down'),
-        (25, 11, 'Left'),
-        (24, 11, 'Left'),
-        (23, 11, 'Left'),
-        (22, 11, 'Left'),
-        (21, 11, 'Left'),
-        (20, 11, 'Left'),
-        (19, 11, 'Left'),
-        (18, 11, 'Left'),
-        (17, 11, 'Left'),
-        (16, 11, 'Left'),
-        (15, 11, 'Left'),
-    ]
-    print("Step 3: Walking to 2F East stairs...")
-    for target in path_to_3f_stairs:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach 2F East stairs at ({tx}, {ty})")
-            exit()
-            
-    print("At (15, 11). Walking UP onto stairs to warp to 3F East...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0) # Wait for stairs transition
-
-print("End of Part 2! Current position:", mgba.get_coordinates())
-mgba.take_screenshot()
+if success:
+    print("At (20, 18)! Stepping LEFT to drop over the balcony...")
+    mgba.press_buttons(["Left"])
+    time.sleep(3.0) # Wait for drop transition
+    print("Landed on B1F! Current position:", mgba.get_coordinates())
+    mgba.take_screenshot()
