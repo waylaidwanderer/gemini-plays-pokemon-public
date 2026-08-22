@@ -1160,5 +1160,7 @@
   - Defeat quote: "Don't be so mean to my CLEFAIRY!"
 - Gambler #1: Located at (46, 13) [Defeated Turn 11112]. Team: Growlithe Lv 24, Vulpix Lv 24.
   - Pre-battle: "I'm a rambling, gambling dude!"
+- Super Nerd #1: Located at (42, 6) [Defeated Turn 11118]. Team: Grimer Lv 22, Muk Lv 22.
+  - Pre-battle: "You need strategy to win at this!"
 
 <hr>
