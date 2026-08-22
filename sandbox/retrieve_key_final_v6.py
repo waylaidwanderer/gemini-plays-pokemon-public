@@ -48,8 +48,8 @@ def walk_exact_route(waypoints):
 print("=== Starting Perfect Mansion Final Victory Route ===")
 pos = mgba.get_coordinates()
 
-# Phase 1: 1F West (State B) to 1F East stairs (18, 10) and warp to 2F East
-if pos['y'] in [10, 11, 6, 3] and pos['x'] >= 2 and pos['x'] <= 14:
+# Phase 1: On 1F West (State A), walk horizontally to 1F East stairs (18, 10)
+if pos['x'] >= 2 and pos['x'] <= 14 and pos['y'] >= 3 and pos['y'] <= 12:
     print("Currently on 1F West. Walking bypass route to 1F East stairs...")
     route_1f = [
         (12, 11),
@@ -68,15 +68,26 @@ if pos['y'] in [10, 11, 6, 3] and pos['x'] >= 2 and pos['x'] <= 14:
         pos = mgba.get_coordinates()
         print("Arrived on 2F East:", pos)
 
-# Phase 2: On 2F East (State B), walk to 3F East stairs at (15, 11) and warp UP
+# Phase 2: On 2F East (State A), walk to 2F East switch at (15, 11), face LEFT, toggle to State B
 pos = mgba.get_coordinates()
 if pos['x'] == 20 and pos['y'] == 16:
-    route_2f_east = [
+    print("Walking to 2F East switch at (15, 11)...")
+    route_2f_switch = [
         (15, 16),
-        (15, 11)
+        (15, 12),
+        (16, 12),
+        (16, 11)
     ]
-    if walk_exact_route(route_2f_east):
-        print("At 2F East stairs. Stepping UP to warp to 3F East...")
+    if walk_exact_route(route_2f_switch):
+        print("At 2F East switch stand. Facing LEFT and toggling switch to State B...")
+        mgba.press_buttons(["Left"])
+        time.sleep(0.5)
+        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+        time.sleep(1.5)
+        
+        print("Warping UP to 3F East...")
+        mgba.press_buttons(["Left"])
+        time.sleep(0.5)
         mgba.press_buttons(["Up"])
         time.sleep(2.5)
         pos = mgba.get_coordinates()
