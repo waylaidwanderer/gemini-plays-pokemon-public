@@ -49,7 +49,7 @@
    - Type: Water
    - Moves: Skull Bash (11/15), Tail Whip (28/30), Bite (21/25), Bubblebeam (16/20)
    - Role: Starter & primary Water special attacker (Lead)
-2. ECHO (Zubat) - Lv 8
+2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
@@ -59,7 +59,7 @@
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
-4. SPROUT (Bellsprout) - Lv 15
+4. SPROUT (Bellsprout) - Lv 16
    - Stats: Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Wrap, Cut
