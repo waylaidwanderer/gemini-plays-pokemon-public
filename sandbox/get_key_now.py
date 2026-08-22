@@ -83,9 +83,10 @@ elif x == 7 and (y == 10 or y == 11):
         print("Mansion state is now State B!", mgba.get_coordinates())
 
 # --- PHASE 3: We are at Switch on 2F West (State B). Return to 1F West. ---
+# Bypass the Burglar standing at (2, 11) by walking around via Column 1:
 elif x == 2 and y == 12:
     print("=== EXECUTING PHASE 3: 2F WEST RETURNING TO 1F WEST ===")
-    route = [(2, 11), (7, 11), (7, 10)]
+    route = [(1, 12), (1, 11), (3, 11), (7, 11), (7, 10)]
     if walk_exact_route(route):
         print("At 2F West stairs. Stepping UP to warp...")
         mgba.press_buttons(["Up"])
@@ -93,8 +94,6 @@ elif x == 2 and y == 12:
         print("Arrived on 1F West:", mgba.get_coordinates())
 
 # --- PHASE 4: We are on 1F West (State B) after returning. Cross to 1F East and go to 2F East. ---
-# Wait, if we just landed on 1F West, we are at (7, 11) or (7, 10).
-# Let's make sure we walk safely to 1F East stairs at (26, 6) via Row 3.
 elif x == 7 and y == 11:
     print("=== EXECUTING PHASE 4: 1F WEST TO 2F EAST ===")
     route = [(12, 11), (12, 3), (26, 3), (26, 6)]
