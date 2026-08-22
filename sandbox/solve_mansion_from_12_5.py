@@ -47,10 +47,11 @@ def walk_exact_route(waypoints):
 print("=== Starting Perfect Mansion Run Phase 1 from (14, 5) ===")
 pos = mgba.get_coordinates()
 
-# 1. Walk from Cinnabar overworld to Mansion entrance and enter
+# 1. Walk from Cinnabar overworld to Mansion entrance and enter (via Row 4 to avoid the NPC)
 if pos['x'] == 14 and pos['y'] == 5:
     cinnabar_route = [
-        (6, 5),
+        (14, 4),
+        (6, 4),
         (6, 3)
     ]
     if walk_exact_route(cinnabar_route):
