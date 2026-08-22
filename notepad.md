@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 12 Gatehouse 1F (x=8, y=6) - Exiting south onto Silence Bridge
+- Location: Route 12 (x=10, y=22) - Silence Bridge South
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
