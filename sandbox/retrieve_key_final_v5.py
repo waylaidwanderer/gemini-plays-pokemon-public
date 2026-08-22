@@ -45,12 +45,11 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Mansion Final Victory Route from (7, 10) on 2F West ===")
+print("=== Starting Perfect Mansion Final Victory Route ===")
 pos = mgba.get_coordinates()
 
-# 1. On 2F West (State B), walk to 2F East and reach 3F East stairs at (15, 11)
-# We bypass the Row 9 wall by walking to Column 10 first!
-if pos['x'] == 7 and pos['y'] == 10:
+# 1. On 2F (State B), walk to 2F East and reach 3F East stairs at (15, 11)
+if pos['y'] in [10, 11, 3, 16] and pos['x'] <= 26 and pos['x'] >= 2:
     print("Crossing 2F West to 2F East via Column 10 and Row 3...")
     route_2f = [
         (10, 10),
