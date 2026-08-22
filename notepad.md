@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 7 (x=16, y=7) - Investigating passage to Celadon City
+- Location: Lavender Town (x=0, y=8) - Heading to Pokémon Center then Route 12
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
