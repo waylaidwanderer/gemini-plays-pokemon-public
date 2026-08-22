@@ -1511,6 +1511,12 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 6. **Escape:**
    - Open the menu, select POKéMON, select TRUFFLE (Paras), and use **DIG** to escape back to Cinnabar Island!
 
+### 1F East & 2F West Physical Obstacles (Verified Turn 54212-54226)
+- **Scientist NPC at (13, 11):** Permanently blocks Column 13 on Row 11 on 1F East.
+- **Rubble Wall at Column 14 (1F East):** Columns 14-17 are permanently blocked by solid brick walls (Rows 8-11) and rubble (Rows 12-16), completely cutting off 1F East-Central from 1F East.
+- **Row 9 Solid Wall (2F West):** Continuous solid horizontal wall across columns 1-8 on Row 9, completely dividing 2F West into North (Rows 0-8) and South (Rows 10-16). Column 2 is blocked at Rows 10-11 by the Mewtwo statue.
+- **Row 9 Solid Wall (1F West):** Continuous solid horizontal wall across columns 1-9 on Row 9, completely dividing 1F West into North and South.
+- **Row 8 Solid Wall (1F East):** Continuous solid horizontal wall across columns 11-26 on Row 8 (except Column 12 and stairs at 18-19), completely dividing 1F East into North and South.
 
 <hr>
 
