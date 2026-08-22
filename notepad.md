@@ -1494,9 +1494,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 1. **Prepare Mansion in State B (Verified Turn 54051):**
    - From 1F West (State A), go UP the stairs at `(7, 10)` to 2F West.
    - On 2F West, walk Left to `(3, 11)` and stand at `(3, 11)` facing LEFT to toggle the switch at `(2, 11)` to State B.
-2. **Return to 1F West and cross to 1F East (Verified Turn 53772):**
-   - Go back to 2F West stairs at `(7, 10)` and go DOWN to 1F West.
-   - On 1F West (State B), walk `(7, 11) -> (12, 11) -> (12, 3) -> (26, 3) -> (26, 11) -> (18, 11) -> (18, 10)` to reach the East stairs at `(18, 10)`. (We bypass Column 22 wall by crossing on Row 3!).
+
 3. **Climb to 2F East and warp UP to 3F East (Verified Turn 53772):**
    - Go UP the stairs at `(18, 10)` on 1F East, warping UP to 2F East West-Central side at `(20, 16)`.
    - On 2F East (State B), walk `(20, 16) -> (15, 16) -> (15, 11)` and go UP the stairs to 3F East (landing at `(16, 11)`). (This avoids the closed Row 7 gate and Column 22 wall entirely!).
