@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 12 (x=4, y=34) - Traversing Silence Bridge south
+- Location: Route 12 (x=12, y=52) - Traversing Silence Bridge south (Fishermen #1-#3 defeated)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -47,7 +47,7 @@
 1. HYDROS (Blastoise) - Lv 45
    - Stats (Verified at Lv 45): Max HP 149 (HP: 132/149), Attack 101, Defense 113, Speed 103, Special 107
    - Type: Water
-   - Moves: Skull Bash (10/15), Tail Whip (28/30), Bite (20/25), Bubblebeam (16/20)
+   - Moves: Skull Bash (9/15), Tail Whip (28/30), Bite (16/25), Bubblebeam (16/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -1276,8 +1276,9 @@
 - Fisherman #2: Located at (5, 39). Team: Tentacool Lv 24, Goldeen Lv 24.
   - Pre-battle: "Be patient! Fishing is a waiting game!"
 
-- Fisherman #3: Located at (9, 52) [Turn 11631]. Team: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21.
+- Fisherman #3: Located at (9, 52) [Defeated Turn 11640]. Team: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21. Reward: �735.
   - Pre-battle: "I'd rather be working!"
+  - Defeat quote: "It's not easy..."
 
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
