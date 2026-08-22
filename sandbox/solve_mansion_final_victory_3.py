@@ -48,16 +48,11 @@ def walk_exact_route(waypoints):
 print("=== Starting Perfect Mansion Final Victory Route ===")
 pos = mgba.get_coordinates()
 
-# Phase 1: On 2F West (State A) standing at (2, 11), face UP, toggle switch to State B, walk to stairs (7, 10)
-if pos['x'] == 2 and pos['y'] == 11:
-    print("Facing UP towards (2, 10) and toggling switch to State B...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
-    time.sleep(1.5)
-    print("Switch toggled back to State B! Walking to 2F West stairs at (7, 10)...")
-    
+# Phase 1: On 2F West (State B) standing at (2, 10), walk to stairs (7, 10) and warp DOWN
+if pos['x'] == 2 and pos['y'] == 10:
+    print("Already at switch stand (2, 10) in State B. Walking to 2F West stairs...")
     route_to_stairs = [
+        (2, 11),
         (7, 11),
         (7, 10)
     ]
