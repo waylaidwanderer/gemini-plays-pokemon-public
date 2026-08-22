@@ -37,20 +37,53 @@ print("Starting go_to_2f_east_stairs from:", pos)
 
 if pos['x'] == 12 and pos['y'] == 12:
     path = [
-        # Walk UP Column 12 to Row 8
+        # Walk UP Column 12 to Row 5
         (12, 11, 'Up'),
         (12, 10, 'Up'),
         (12, 9, 'Up'),
         (12, 8, 'Up'),
-        # Walk RIGHT along Row 8 to cross open gate at (15, 8)
-        (13, 8, 'Right'),
-        (14, 8, 'Right'),
-        (15, 8, 'Right'),
-        (16, 8, 'Right'), # Land south of Row 7 closed gate on 1F East!
-        # Walk DOWN Column 16 to Row 11
-        (16, 9, 'Down'),
-        (16, 10, 'Down'),
-        (16, 11, 'Down'),
+        (12, 7, 'Up'),
+        (12, 6, 'Up'),
+        (12, 5, 'Up'),
+        # Walk RIGHT along Row 5 to Column 21
+        (13, 5, 'Right'),
+        (14, 5, 'Right'),
+        (15, 5, 'Right'),
+        (16, 5, 'Right'),
+        (17, 5, 'Right'),
+        (18, 5, 'Right'),
+        (19, 5, 'Right'),
+        (20, 5, 'Right'),
+        (21, 5, 'Right'),
+        # Walk UP Column 21 to Row 3
+        (21, 4, 'Up'),
+        (21, 3, 'Up'),
+        # Walk RIGHT along Row 3 to Column 26
+        (22, 3, 'Right'),
+        (23, 3, 'Right'),
+        (24, 3, 'Right'),
+        (25, 3, 'Right'),
+        (26, 3, 'Right'),
+        # Walk DOWN Column 26 to Row 11
+        (26, 4, 'Down'),
+        (26, 5, 'Down'),
+        (26, 6, 'Down'),
+        (26, 7, 'Down'),
+        (26, 8, 'Down'),
+        (26, 9, 'Down'),
+        (26, 10, 'Down'),
+        (26, 11, 'Down'),
+        # Walk LEFT along Row 11 to Column 18
+        (25, 11, 'Left'),
+        (24, 11, 'Left'),
+        (23, 11, 'Left'),
+        (22, 11, 'Left'),
+        (21, 11, 'Left'),
+        (20, 11, 'Left'),
+        (19, 11, 'Left'),
+        (18, 11, 'Left'),
+        # Walk UP to stairs at (18, 10)
+        (18, 10, 'Up'),
     ]
     
     print("Walking path to 1F East stairs...")
@@ -60,8 +93,8 @@ if pos['x'] == 12 and pos['y'] == 12:
             print(f"Failed to reach target at ({tx}, {ty})")
             exit()
             
-    print("Stepping DOWN to enter 1F East stairs and go UP to 2F East...")
-    mgba.press_buttons(["Down"])
+    print("Stepping UP to enter 1F East stairs and go UP to 2F East...")
+    mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
 print("Final coordinates after script:", mgba.get_coordinates())
