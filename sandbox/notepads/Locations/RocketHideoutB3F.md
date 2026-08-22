@@ -20,3 +20,5 @@
 - Rocket Grunt #2: Located at (18, 18) facing South [Defeated Turn 12280].
   - Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20.
   - Dialogue: "Intruder alert!" -> Defeat: "I can't do it!"
+
+- Stairs Down to B4F: Located at (17, 24).
