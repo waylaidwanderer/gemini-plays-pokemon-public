@@ -56,4 +56,4 @@
 - **Rooftop & Penthouse**:
   - Outdoor Roof: Tiled patio with potted plants at (0, 7), (7, 7) and penthouse building in center.
   - Rooftop Penthouse Door: Located at (3, 5).
-  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), central table at cols 1-3, rows 4-6, and Pok� Ball containing gift Eevee.
+  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), central table at cols 1-3, rows 4-6 (undergoing systematic perimeter testing for gift Eevee interaction after depositing a party member).

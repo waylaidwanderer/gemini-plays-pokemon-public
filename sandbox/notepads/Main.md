@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City - Celadon Mansion Roof / Penthouse (x=2, y=7)
+- Location: Celadon City - Celadon Mansion Rear Stairwell (x=4, y=1)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
