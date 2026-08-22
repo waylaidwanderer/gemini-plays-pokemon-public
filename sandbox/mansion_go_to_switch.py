@@ -11,7 +11,7 @@ def handle_battle():
 
 def walk_step(tx, ty, direction):
     attempts = 0
-    while attempts < 40:
+    while attempts < 10:
         pos = mgba.get_coordinates()
         if pos['x'] == tx and pos['y'] == ty:
             return True
@@ -31,23 +31,27 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (22, 15) on 2F East inside the Mansion (State A)
+# Starting at (25, 18) on 2F East inside the Mansion (State A)
 pos = mgba.get_coordinates()
 print("Starting mansion_go_to_switch from:", pos)
 
-if pos['x'] == 22 and pos['y'] == 15:
+if pos['x'] == 25 and pos['y'] == 18:
     path = [
-        # Walk RIGHT along Row 15 to Column 26
-        (23, 15, 'Right'),
-        (24, 15, 'Right'),
-        (25, 15, 'Right'),
-        (26, 15, 'Right'),
-        # Walk UP to Row 14
-        (26, 14, 'Up'),
-        # Bypass Row 13 wall via Column 25 (S-curve)
-        (25, 14, 'Left'),
-        (25, 13, 'Up'),
-        (25, 12, 'Up'),
+        # Walk DOWN Column 25 to Row 14
+        (25, 19, 'Down'),
+        (25, 20, 'Down'),
+        (25, 19, 'Up'),
+        (25, 18, 'Up'),
+        (25, 17, 'Up'),
+        (25, 16, 'Up'),
+        (25, 15, 'Up'),
+        (25, 14, 'Up'),
+        # Bypass Row 13 wall via Column 24
+        (24, 14, 'Left'),
+        (24, 13, 'Up'),
+        (24, 12, 'Up'),
+        # Walk RIGHT to Column 26 on Row 12
+        (25, 12, 'Right'),
         (26, 12, 'Right'),
         # Walk UP Column 26 to stairs at (26, 6)
         (26, 11, 'Up'),
