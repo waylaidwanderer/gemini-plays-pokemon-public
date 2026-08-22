@@ -33,7 +33,7 @@ def walk_step(tx, ty, direction):
 
 # Starting outside on Cinnabar Island at (11, 12) (State A)
 pos = mgba.get_coordinates()
-print("Starting definitive State A Mansion run from outside:", pos)
+print("Starting definitive State A Mansion Part 1 from outside:", pos)
 
 if pos['x'] == 11 and pos['y'] == 12:
     path_enter = [
@@ -96,36 +96,6 @@ if pos['x'] == 5 and pos['y'] == 23:
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
-# Land on 2F East (State A)
 pos = mgba.get_coordinates()
-print("Position on 2F East after climbing alternate stairs:", pos)
-
-# We land at (22, 7) on 2F East.
-if pos['x'] == 22 and pos['y'] == 7:
-    path_to_stairs_3f = [
-        # Walk LEFT along Row 7 to Column 19
-        (21, 7, 'Left'),
-        (20, 7, 'Left'),
-        (19, 7, 'Left'),
-        # Walk DOWN to Row 8 (onto stairs)
-        (19, 8, 'Down'),
-    ]
-    print("Step 3: Walking to 2F East stairs to 3F...")
-    for target in path_to_stairs_3f:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach stairs at ({tx}, {ty})")
-            exit()
-            
-    print("Stepping DOWN to enter stairs and go UP to 3F East...")
-    mgba.press_buttons(["Down"])
-    time.sleep(2.0)
-
-# Land on 3F East (State A)
-pos = mgba.get_coordinates()
-print("Position on 3F East:", pos)
-
-if pos['x'] != 22: # Check if we successfully warped up
-    print("SUCCESSFULLY LANDED ON 3F EAST!")
-    
+print("Final position after climbing stairs (expected 22, 7 on 2F East):", pos)
 mgba.take_screenshot()
