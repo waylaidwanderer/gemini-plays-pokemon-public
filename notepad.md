@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Lavender Town (x=3, y=14)
+- Location: Lavender Town (x=13, y=14)
 
 
 
@@ -1132,9 +1132,10 @@
   - Girl at (2, 4): "I hate those horrible ROCKETS! That poor CUBONE's mother... It died trying to escape from TEAM ROCKET!"
   - Cubone at (3, 5): "CUBONE: Kyarugoo!"
 
+- Pokémart: Located at cols 14-17, rows 10-13 with entrance door at (15, 13) and "MART" sign at (16, 13).
+
 ## Buildings & Points of Interest to Survey
 - Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
-- Pokémart: East / South-east sector.
 - Route 8 Western Gate: Road to Saffron City / Underground Path to Celadon City.
 
 <hr>
