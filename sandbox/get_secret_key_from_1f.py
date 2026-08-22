@@ -37,10 +37,23 @@ print("Starting definitive State A Mansion Part 1 from outside:", pos)
 
 if pos['x'] == 11 and pos['y'] == 12:
     path_enter = [
-        (11, 6, 'Up'),
-        (10, 6, 'Left'),
+        # Walk LEFT to Column 10 to bypass Pokemon Center door at (11, 11)
+        (10, 12, 'Left'),
+        # Walk UP Column 10 to Row 4
+        (10, 11, 'Up'),
+        (10, 10, 'Up'),
+        (10, 9, 'Up'),
+        (10, 8, 'Up'),
+        (10, 7, 'Up'),
+        (10, 6, 'Up'),
+        (10, 5, 'Up'),
         (10, 4, 'Up'),
+        # Walk LEFT along Row 4 to Column 6
+        (9, 4, 'Left'),
+        (8, 4, 'Left'),
+        (7, 4, 'Left'),
         (6, 4, 'Left'),
+        # Step UP to enter Mansion
         (6, 3, 'Up'),
     ]
     print("Step 1: Entering the Mansion...")
