@@ -1,17 +1,6 @@
 import mgba
 import time
 
-def handle_battle():
-    print("Checking for battle...")
-    for _ in range(4):
-        mgba.press_buttons(["B"])
-        time.sleep(0.25)
-    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
-    time.sleep(1.5)
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.25)
-
 def walk_exact_route(waypoints):
     for wp in waypoints:
         tx, ty = wp
@@ -39,28 +28,19 @@ def walk_exact_route(waypoints):
             pos = mgba.get_coordinates()
             
             if pos == pos_before:
-                print(f"BUMPED at {cur} going {direction} towards {wp}!")
-                handle_battle()
-                time.sleep(0.5)
-                pos = mgba.get_coordinates()
-                if pos == pos_before:
-                    print("Physical obstruction or text. Retrying direction.")
-                    mgba.press_buttons([direction])
-                    time.sleep(0.55)
-                    pos = mgba.get_coordinates()
-                    if pos == pos_before:
-                        print("Confirmed solid physical obstruction. Exiting.")
-                        return False
+                print(f"BUMPED or BATTLE at {cur} going {direction} towards {wp}! Exiting to prevent drift.")
+                return False
             attempts += 1
     return True
 
-print("=== Starting Perfect Secret Key Retrieval from (23, 7) ===")
+print("=== Starting Perfect Secret Key Retrieval from (24, 6) ===")
 pos = mgba.get_coordinates()
 
-if pos['x'] == 23 and pos['y'] == 7:
-    # Route: Up to Row 3, Left to Column 21, Down to Row 5, Left to Column 1 (Secret Key Stand tile)
+if pos['x'] == 24 and pos['y'] == 6:
+    # Route: Right to Column 26, Up to Row 3, Left to Column 21, Down to Row 5, Left to Column 1 (Secret Key Stand tile)
     route = [
-        (23, 3),
+        (26, 6),
+        (26, 3),
         (21, 3),
         (21, 5),
         (1, 5)
@@ -92,5 +72,5 @@ if pos['x'] == 23 and pos['y'] == 7:
         print("ESCAPED! Final Cinnabar coordinates:", mgba.get_coordinates())
         mgba.take_screenshot()
     else:
-        print("Failed route.")
+        print("Failed route. Re-run after clearing battle or checking position.")
         mgba.take_screenshot()
