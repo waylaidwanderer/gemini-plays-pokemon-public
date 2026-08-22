@@ -48,16 +48,14 @@ def walk_exact_route(waypoints):
 print("=== Starting Perfect Mansion Final Victory Route ===")
 pos = mgba.get_coordinates()
 
-# Phase 0: Stand at (10, 11) on 1F West (State A), walk to 2F West stairs (7, 10) and warp UP
-if pos['x'] == 10 and pos['y'] == 11:
+# Phase 0: Stand at (7, 11) on 1F West (State A), walk to 2F West stairs (7, 10) and warp UP
+if pos['x'] == 7 and pos['y'] == 11:
     print("Walking back to 1F West stairs...")
     route_to_stairs = [
-        (7, 11),
         (7, 10)
     ]
     if walk_exact_route(route_to_stairs):
-        print("At stairs. Stepping UP to warp to 2F West...")
-        mgba.press_buttons(["Up"])
+        print("At stairs. Warp UP happens automatically. Waiting...")
         time.sleep(2.5)
         pos = mgba.get_coordinates()
         print("Arrived on 2F West:", pos)
@@ -83,12 +81,8 @@ if pos['x'] == 7 and pos['y'] == 11:
             (5, 10)
         ]
         if walk_exact_route(route_to_2f_stairs):
-            print("At 2F West stairs. Stepping DOWN to warp to 1F West...")
-            mgba.press_buttons(["Down"])
+            print("At 2F West stairs. Warp DOWN happens automatically. Waiting...")
             time.sleep(2.5)
-            # Step DOWN once to clear stairs
-            mgba.press_buttons(["Down"])
-            time.sleep(0.5)
             pos = mgba.get_coordinates()
             print("Arrived on 1F West in State B:", pos)
 
@@ -103,8 +97,7 @@ if pos['x'] == 5 and pos['y'] == 12:
         (18, 10)
     ]
     if walk_exact_route(route_1f):
-        print("At 1F East stairs. Stepping UP to warp to 2F East...")
-        mgba.press_buttons(["Up"])
+        print("At 1F East stairs. Warp UP happens automatically. Waiting...")
         time.sleep(2.5)
         pos = mgba.get_coordinates()
         print("Arrived on 2F East:", pos)
@@ -117,8 +110,7 @@ if pos['x'] == 20 and pos['y'] == 16:
         (15, 11)
     ]
     if walk_exact_route(route_2f_east):
-        print("At 2F East stairs. Stepping UP to warp to 3F East...")
-        mgba.press_buttons(["Up"])
+        print("At 2F East stairs. Warp UP happens automatically. Waiting...")
         time.sleep(2.5)
         pos = mgba.get_coordinates()
         print("Arrived on 3F East:", pos)
