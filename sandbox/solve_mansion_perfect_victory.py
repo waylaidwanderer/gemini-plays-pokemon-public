@@ -44,14 +44,14 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Mansion Run Phase 1 from (11, 12) ===")
+print("=== Starting Perfect Mansion Run Phase 1 from (17, 12) ===")
 pos = mgba.get_coordinates()
 
 # 1. Walk from Cinnabar overworld to Mansion entrance and enter
-if pos['x'] == 11 and pos['y'] == 12:
+if pos['x'] == 17 and pos['y'] == 12:
     cinnabar_route = [
-        (17, 12),
-        (17, 4),
+        (18, 12),
+        (18, 4),
         (6, 4),
         (6, 3)
     ]
