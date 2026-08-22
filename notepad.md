@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City - Celadon Mansion Roof / Penthouse (x=2, y=7)
+- Location: Celadon City - Celadon Mansion Rear Stairwell (x=4, y=1)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -81,7 +81,7 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM13 (Ice Beam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam consumed on HYDROS]
 - Valuables:
   - 1x Nugget (sellable for 5000)
 - Consumables & Drinks:
@@ -1363,7 +1363,7 @@
 - **Rooftop & Penthouse**:
   - Outdoor Roof: Tiled patio with potted plants at (0, 7), (7, 7) and penthouse building in center.
   - Rooftop Penthouse Door: Located at (3, 5).
-  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), central table at cols 1-3, rows 4-6, and Pok� Ball containing gift Eevee.
+  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), central table at cols 1-3, rows 4-6 (undergoing systematic perimeter testing for gift Eevee interaction after depositing a party member).
 
 
 <hr>
