@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Pokémon Tower 1F (x=12, y=10)
+- Location: Pokémon Tower (x=14, y=6) - Rival RED Battle!
 
 
 
