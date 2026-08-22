@@ -31,39 +31,18 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (1, 18) on 2F West (State B)
+# Currently at (2, 11) on 2F West (State A)
 pos = mgba.get_coordinates()
-print("Starting definitive 2F West switch toggle to State A from:", pos)
+print("Starting Row 15 path to 3F East stairs from:", pos)
 
-if pos['x'] == 1 and pos['y'] == 18:
-    print("--- STEP 1: WALKING TO 2F WEST SWITCH ---")
-    path_to_switch = [
-        # Walk UP Column 1 to Row 12
-        (1, 17, 'Up'),
-        (1, 16, 'Up'),
-        (1, 15, 'Up'),
-        (1, 14, 'Up'),
-        (1, 13, 'Up'),
-        (1, 12, 'Up'),
-        # Walk RIGHT to Column 2
-        (2, 12, 'Right'),
-    ]
-    for target in path_to_switch:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach target at ({tx}, {ty})")
-            exit()
-            
-    print("At (2, 12) on 2F West. Facing UP and toggling switch back to State A...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
-    time.sleep(1.5)
+if pos['x'] == 2 and pos['y'] == 11:
+    print("--- STEP 1: WALKING TO 2F WEST SWITCH ENTRY ---")
+    if not walk_step(2, 12, 'Down'):
+        print("Failed to walk to (2, 12)")
+        exit()
 
-# We are on 2F West at (2, 12) in State A.
+# Standing at (2, 12) on 2F West (State A)
 pos = mgba.get_coordinates()
-print("Position on 2F West after toggling to State A:", pos)
-
 if pos['x'] == 2 and pos['y'] == 12:
     print("--- STEP 2: WALKING TO stairs at (15, 11) on 2F East ---")
     path_to_stairs = [
@@ -103,5 +82,5 @@ if pos['x'] == 2 and pos['y'] == 12:
     time.sleep(2.0)
 
 pos = mgba.get_coordinates()
-print("Position on 3F East after warp:", pos)
+print("Position on next floor after climbing stairs:", pos)
 mgba.take_screenshot()
