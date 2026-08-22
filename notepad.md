@@ -1420,6 +1420,8 @@
   - Team: Drowzee Lv 21, Machop Lv 21. Reward: ¥630.
   - Pre-battle quote: "Who are you? How did you get here?"
   - Defeat quote: "Oww! Beaten!"
-- Rocket Grunt #2: Located at (12, 6) facing East [Engaged Turn 12199].
+- Rocket Grunt #2: Located at (12, 6) facing East [Defeated Turn 12203].
+  - Team: Raticate Lv 21, Raticate Lv 21. Reward: ¥630.
+  - Defeat quote: "Burnt!"
 
 <hr>
