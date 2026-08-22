@@ -39,7 +39,7 @@
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
 - TM39 Swift (from NPC girl on Gatehouse 2F)
-- Fisherman #4: Located at (12, 40) [Turn 11650].
+- Fisherman #4: Located at (12, 40) [Turn 11650]. Team: Goldeen Lv 27.
   - Pre-battle: "The FISHING FOOL vs. POK�MON KID!"
 
 ## Roadblock & Landmarks
