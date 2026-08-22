@@ -1396,19 +1396,18 @@
 
 ## Connections & Warps
 - Stairs Up: Located at (21, 2), leads up to Celadon Game Corner 1F at (17, 4) [Entered Turn 12180].
-- Stairs Down to B2F: Located in the western/southern section of B1F.
+- Stairs Down to B2F: Located at (23, 2), leads down to Rocket Hideout B2F at (27, 8).
 - Elevator: Located in the south-central sector (requires Lift Key from B4F).
 
 ## Floor Layout & Verified Topology
 - Starting Chamber (cols 18-25, rows 0-4):
   - Stairs up to Game Corner 1F at (21, 2).
   - North wall at rows 0-1, east wall at col 25, west wall at col 18.
-  - Machinery/pipe terminal at (23, 2).
+  - Stairs down to B2F at (23, 2).
   - South passage opening at cols 20-23 across row 4 leading into the central chamber.
 - Central & Southern Sectors (rows 5-25):
   - Pink checkered tile flooring with metal barriers.
   - Grunts patrolling corridors.
-  - Item balls: Escape Rope, Hyper Potion (to be verified).
 
 ## Systematic Exploration Protocol
 - Clear grunts methodically with Blastoise (Bubblebeam/Ice Beam/Bite).
@@ -1439,35 +1438,6 @@
 
 <h1><code>Locations/RocketHideoutB2F</code></h1>
 
-# Team Rocket Hideout B2F - Topology & Dungeon Log
 
-## Connections & Warps
-- Stairs Up: Located at (27, 8), leads up to Rocket Hideout B1F at (23, 2).
-- Stairs Down to B3F: To be located.
-- Elevator Shaft: Located in southern sector.
-
-## Floor Layout & Verified Topology
-- Northeast Corridor (cols 25-28, rows 7-15):
-  - Stairs up to B1F at (27, 8).
-  - North wall at row 6, East wall at col 29, South wall at row 16.
-  - West divider at col 24 (rows 8-13) lined with bushes and statue consoles.
-  - Opening to western chambers at rows 14-15 (cols 23-28).
-
-## Floor Mechanics
-- Spin Tile Mazes: Floor contains directional arrow conveyor belts that force movement until hitting a stop tile.
-- Grunts & Trainers: Rocket Grunts patrolling maze corridors.
-- Key Items & TM pickups on this floor / lower floors.
-
-## Exploration Log
-- Entered B2F at (27, 8) [Turn 12222].
-- Rocket Grunt #1: Located at (20, 12) facing South [Defeated Turn 12233].
-  - Team: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Raticate Lv 17.
-  - Dialogue: "BOSS said you can see GHOSTs with the SILPH SCOPE!"
-## Floor Topology & Item Locations
-- Stop Tiles: (14, 12), (2, 9), (8, 11).
-- Item Balls:
-  - Item Ball at (1, 11): Southwest corner alcove.
-  - Item Ball at (6, 12): South-central chamber.
-  - Item Ball at (16, 8): North-central corridor.
 
 <hr>
