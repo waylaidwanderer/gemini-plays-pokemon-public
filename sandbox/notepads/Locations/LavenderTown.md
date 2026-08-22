@@ -11,7 +11,7 @@
 - Town Signpost / Board: Located at (9, 3) east of Pokémon Center.
 - Lavender Volunteer Pokémon House (Mr. Fuji's House): Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9).
   - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4) with magazine at (3, 3).
-  - Magazine text: "POKéMON Monthly Grand Prize Drawing! ... The application phone number is... ...! It's been torn out."
+  - Magazine text: "POKéMON Monthly Grand Prize Drawing! ... The application form is... Gone! It's been clipped out!"
   - Residents & Dialogue:
     - Girl at (3, 5): "That's odd, MR.FUJI isn't here. Where'd he go?"
     - Resident at (6, 3)
