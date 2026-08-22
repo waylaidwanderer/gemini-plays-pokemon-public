@@ -11,7 +11,7 @@ def handle_battle():
 
 def walk_step(tx, ty, direction):
     attempts = 0
-    while attempts < 10:
+    while attempts < 15:
         pos = mgba.get_coordinates()
         if pos['x'] == tx and pos['y'] == ty:
             return True
@@ -52,45 +52,40 @@ def walk_to_local(tx, ty):
         attempts += 1
     return pos['x'] == tx and pos['y'] == ty
 
-# Start at (26, 5) on 2F East (State B)
+# Start at (21, 6) on 2F East (State B)
 pos = mgba.get_coordinates()
-print("Starting exploration of 2F East from:", pos)
+print("Starting Row 14 test from:", pos)
 
-# We want to see how far Left we can walk along different rows!
-# Let's test Row 3, Row 5, Row 6, Row 7, Row 11, Row 14, Row 15, Row 16.
-
-for test_row in [3, 5, 6, 7, 11, 14, 15, 16]:
-    # Reset to (26, 5)
-    print(f"\n--- Testing Row {test_row} ---")
-    if not walk_to_local(26, 5):
-        print("Failed to reset to (26, 5)")
-        break
-        
-    # Walk to Column 26 on the target row
-    if not walk_to_local(26, test_row):
-        print(f"Failed to reach column 26 on Row {test_row}")
-        continue
-        
-    # Try to walk LEFT as far as possible
-    col = 26
-    while col > 1:
-        next_col = col - 1
-        if walk_step(next_col, test_row, 'Left'):
-            col = next_col
-        else:
-            print(f"Blocked on Row {test_row} at Column {col} going LEFT to {next_col}")
-            break
-    print(f"Row {test_row} reached Column {col}")
-    if col <= 15:
-        print(f"SUCCESS! Row {test_row} crossed the barrier to Column {col}!")
-        # Let's see if we can reach (15, 11) from here!
-        if walk_to_local(15, 11):
-            print("Successfully walked to stairs at (15, 11)!")
-            mgba.press_buttons(["Up"])
-            time.sleep(2.0)
-            print("Warped! Final position:", mgba.get_coordinates())
-            mgba.take_screenshot()
+if pos['x'] == 21 and pos['y'] == 6:
+    # Walk left along Row 6 to Column 14
+    path = [
+        (20, 6, 'Left'),
+        (19, 6, 'Left'),
+        (18, 6, 'Left'),
+        (17, 6, 'Left'),
+        (16, 6, 'Left'),
+        (15, 6, 'Left'),
+        (14, 6, 'Left'),
+    ]
+    for target in path:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Failed to reach target at ({tx}, {ty})")
             exit()
-
-print("\nFinished testing all rows.")
-mgba.take_screenshot()
+            
+    print("At (14, 6). Testing walking DOWN Column 14...")
+    col14_path = [
+        (14, 7, 'Down'),
+        (14, 8, 'Down'),
+        (14, 9, 'Down'),
+        (14, 10, 'Down'),
+        (14, 11, 'Down'),
+    ]
+    for target in col14_path:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Blocked on Column 14 at target ({tx}, {ty})")
+            break
+            
+    print("Final position after Column 14 test:", mgba.get_coordinates())
+    mgba.take_screenshot()
