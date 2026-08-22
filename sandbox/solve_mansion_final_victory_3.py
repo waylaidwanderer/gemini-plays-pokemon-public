@@ -68,9 +68,10 @@ if pos['x'] == 3 and pos['y'] == 11:
 
 # Phase 2: On 1F West (State A), walk horizontally to 1F East stairs (18, 10)
 pos = mgba.get_coordinates()
-if pos['x'] == 7 and pos['y'] == 11:
+if (pos['x'] == 5 and pos['y'] == 12) or (pos['x'] == 7 and pos['y'] == 11) or (pos['x'] == 5 and pos['y'] == 11):
     print("Walking on 1F West to 1F East stairs...")
     route_1f = [
+        (5, 11),
         (12, 11),
         (12, 12),
         (18, 12),
