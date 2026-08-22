@@ -54,32 +54,13 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Mansion Run from (11, 10) ===")
-
-# 1. Walk to (11, 11) next to switch, face RIGHT, toggle State B
+print("=== Starting Perfect Mansion Run from (12, 11) ===")
 pos = mgba.get_coordinates()
-if pos['x'] == 11 and pos['y'] == 10:
-    print("Walking down to (11, 11)...")
-    mgba.press_buttons(["Down"])
-    time.sleep(0.55)
-    pos = mgba.get_coordinates()
-    print("Position after walking down:", pos)
 
-if pos['x'] == 11 and pos['y'] == 11:
-    print("At 3F East switch. Facing RIGHT and toggling to State B...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("State toggled to State B! Current position:", pos)
-    mgba.take_screenshot()
-
-# 2. 3F East (State B) to pit at (26, 6) and drop
-if pos['x'] == 11 and pos['y'] == 11:
+# 1. 3F East (State B) to pit at (26, 6) and drop
+if pos['x'] == 12 and pos['y'] == 11:
     print("=== Phase 2: 3F East Switch to Pit Drop ===")
     route_pit = [
-        (11, 10),
         (12, 10),
         (12, 5),
         (21, 5),
@@ -103,7 +84,7 @@ if pos['x'] == 11 and pos['y'] == 11:
         print("Landed on B1F East:", pos)
         mgba.take_screenshot()
 
-# 3. B1F East to Secret Key, retrieve, and DIG out
+# 2. B1F East to Secret Key, retrieve, and DIG out
 if pos['x'] == 19 and (pos['y'] == 5 or pos['y'] == 6 or pos['y'] == 16):
     print("=== Phase 3: B1F East to Secret Key ===")
     route_key = [(19, 5), (1, 5)]
