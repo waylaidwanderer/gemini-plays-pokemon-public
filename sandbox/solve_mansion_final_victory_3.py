@@ -71,6 +71,7 @@ pos = mgba.get_coordinates()
 if (pos['x'] == 7 and pos['y'] == 11) or (pos['x'] == 7 and pos['y'] == 12):
     print("Currently on 1F West (State B). Walking bypass route to 1F East stairs...")
     route_1f = [
+        (7, 11),
         (12, 11),
         (12, 6),
         (18, 6),
