@@ -1516,12 +1516,6 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Instead, walk back to 2F West, go down to 1F West.
    - On 1F West (State B), walk through the open gate at `(15, 8)` to 1F East, and go UP the stairs to 2F East.
    - On 2F East (State B), we land on the south side of the gate, so walk directly to the stairs at `(15, 11)` and warp UP to 3F East (landing at `(16, 11)`).
-3. **Ascend to 3F East via alternate stairs in State A:**
-   - Go UP from 1F East alternate stairs at `(18, 10)` in State A, landing at `(22, 7)` on 2F East.
-   - Walk LEFT along Row 7 to `(19, 7)` and go DOWN to `(19, 8)` to enter the stairs (which are open in State A).
-   - Warp UP to 3F East (landing on the West-Central side of 3F East).
-   - From 3F East, walk to the balcony drop-off at `(19, 16)` and step LEFT to drop.
-   - Land on B1F East South at `(19, 16)` in State A.
 4. **Retrieve Secret Key on B1F:**
    - On B1F East (State A), walk to the B1F East switch at `(12, 20)` and toggle it to State B.
    - Now the mansion is in State B, and the B1F North-Central gate at `(9, 5)` is OPEN.
