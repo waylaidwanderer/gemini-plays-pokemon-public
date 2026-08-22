@@ -44,41 +44,72 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Secret Key Retrieval from (26, 9) ===")
-
-# 1. Clear text box
-print("Clearing 'Got away safely!' text...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
+print("=== Starting Perfect Mansion Final Victory Route from (7, 10) ===")
 pos = mgba.get_coordinates()
-print("Position after clearing text:", pos)
 
-if pos['x'] == 26 and pos['y'] == 9:
-    # 2. Walk LEFT to (18, 9)
-    route_switch = [(18, 9)]
-    if walk_exact_route(route_switch):
-        print("At (18, 9). Facing LEFT to look at the statue at (17, 9)...")
-        mgba.press_buttons(["Left"])
-        time.sleep(0.5)
-        
-        print("Toggling B1F switch to State B...")
-        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
-        time.sleep(1.5)
-        print("State toggled to State B! Re-fetching coordinates...")
+# 1. Walk on 1F West (State B) to 1F East stairs at (18, 10) and warp UP to 2F East
+# (We bypass the scientist NPC at (7, 11) and the gate at (10, 11) by walking Column 2 and Row 3!)
+if pos['x'] == 7 and pos['y'] == 10:
+    route_1f_cross = [
+        (6, 10),
+        (6, 11),
+        (2, 11),
+        (2, 3),
+        (12, 3),
+        (12, 11),
+        (18, 11),
+        (18, 10)
+    ]
+    if walk_exact_route(route_1f_cross):
+        print("At 1F East stairs at (18, 10). Stepping UP to warp to 2F East...")
+        mgba.press_buttons(["Up"])
+        time.sleep(2.5)
         pos = mgba.get_coordinates()
-        print("Position after switch toggle:", pos)
+        print("Arrived on 2F East:", pos)
+
+# 2. On 2F East (State B), walk to 3F East stairs at (15, 11) and warp UP
+pos = mgba.get_coordinates()
+if pos['x'] == 20 and pos['y'] == 16:
+    route_2f_east = [
+        (15, 16),
+        (15, 11)
+    ]
+    if walk_exact_route(route_2f_east):
+        print("At 2F East stairs. Stepping UP to warp to 3F East...")
+        mgba.press_buttons(["Up"])
+        time.sleep(2.5)
+        pos = mgba.get_coordinates()
+        print("Arrived on 3F East:", pos)
+
+# 3. On 3F East (State B), walk to pit at (26, 6) and drop to 1F fenced room
+pos = mgba.get_coordinates()
+if pos['x'] == 16 and pos['y'] == 11:
+    route_pit_3f = [
+        (10, 11),
+        (10, 3),
+        (26, 3),
+        (26, 6) # Stand next to pit
+    ]
+    if walk_exact_route(route_pit_3f):
+        print("At pit edge. Stepping LEFT to drop...")
+        mgba.press_buttons(["Left"])
+        time.sleep(3.0)
+        print("LANDED ON 1F FENCED ROOM! Current position:", mgba.get_coordinates())
+        
+        # Walk UP 5 times onto the stairs to warp to B1F East
+        print("Walking UP to stairs to B1F East...")
+        for _ in range(5):
+            mgba.press_buttons(["Up"])
+            time.sleep(0.5)
+        time.sleep(2.0)
+        pos = mgba.get_coordinates()
+        print("Landed on B1F East:", pos)
         mgba.take_screenshot()
 
-# If we are standing at (18, 9) or (17, 9) after toggle, walk to Secret Key at (1, 5)
+# 4. On B1F East (State B), walk directly LEFT to Secret Key, retrieve, and DIG out
 pos = mgba.get_coordinates()
-if (pos['x'] == 18 or pos['x'] == 17) and pos['y'] == 9:
-    print("=== Phase 2: Walk from Switch to Secret Key ===")
-    route_key = [
-        (18, 9), # ensure we are on Column 18
-        (18, 5), # Up to Row 5
-        (1, 5)   # Left to Northwest Room
-    ]
+if pos['x'] == 25 and pos['y'] == 5:
+    route_key = [(1, 5)]
     if walk_exact_route(route_key):
         print("SUCCESS! Reached Secret Key stand tile (1, 5)!")
         
