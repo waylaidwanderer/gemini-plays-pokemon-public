@@ -120,7 +120,8 @@ if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
     print("--- PHASE 3: TOGGLING 2F WEST SWITCH TO STATE B ---")
     mansion_2f_west_waypoints = [
         (7, 11),
-        (2, 11),
+        (3, 11),
+        (3, 12),
         (2, 12) # Stand here facing UP to toggle
     ]
     if walk_route(mansion_2f_west_waypoints):
