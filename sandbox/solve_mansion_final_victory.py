@@ -70,7 +70,8 @@ pos = mgba.get_coordinates()
 print("Starting solve_mansion_final_victory.py from:", pos)
 
 # 1. If we are on Cinnabar Island
-if pos['x'] >= 0 and pos['x'] <= 20 and pos['y'] >= 0 and pos['y'] <= 20:
+is_on_cinnabar = (pos['x'] == 11 and pos['y'] == 12) or (pos['x'] == 13 and pos['y'] == 13) or (pos['x'] == 10 and pos['y'] == 7) or (pos['x'] == 5 and pos['y'] == 11) or (pos['x'] == 6 and pos['y'] == 11)
+if is_on_cinnabar:
     print("--- PHASE 1: CINNABAR ISLAND TO MANSION ENTRANCE ---")
     if pos['x'] == 10 and pos['y'] == 7:
         cinnabar_waypoints = [
