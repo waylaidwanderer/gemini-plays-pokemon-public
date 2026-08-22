@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Route 8-7 Underground Path (x=47, y=2)
+- Location: Route 7 (x=8, y=3)
 
 
 
@@ -92,6 +92,7 @@
 
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
 - `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�mon Tower, Name Rater, Pok�mart
+- `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
 
 <hr>
@@ -102,9 +103,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 43
-   - Stats (Verified at Lv 43): Max HP 142 (HP: 142/142), Attack 96, Defense 107, Speed 98, Special 102
+   - Stats (Verified at Lv 43): Max HP 142 (HP: 111/142), Attack 96, Defense 107, Speed 98, Special 102
    - Type: Water
-   - Moves: Skull Bash (15/15), Tail Whip (29/30), Bite (19/25), Bubblebeam (16/20)
+   - Moves: Skull Bash (15/15), Tail Whip (29/30), Bite (13/25), Bubblebeam (13/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats: Max HP 26 (HP: 26/26)
@@ -1171,5 +1172,27 @@
   - Pre-battle: "We must look silly standing here like this!"
 - Gambler #2: Located at (13, 9) [Defeated Turn 11140]. Team: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22.
   - Pre-battle: "I'm a rambling, gambling dude!"
+
+<hr>
+
+<h1><code>Locations/Route7</code></h1>
+
+# Route 7 - Points of Interest & Notes
+
+## Connections
+- East: Saffron City West Gatehouse & Route 8-7 Underground Path Entrance
+- West: Celadon City
+
+## Layout & Landmarks
+- Underground Path Exit Building: Located at cols 4-7, rows 10-13 with entrance door at (5, 13).
+- Signpost: Located at (3, 13) - "CELADON CITY - LAVENDER TOWN".
+- Saffron West Gatehouse: Located at cols 11-17, rows 8-11 with west entrance at (11, 9).
+- Tall Grass Sector: Enclosed grass patch spanning cols 8-13, rows 2-5. Contains wild encounters (Vulpix, Growlithe, Abra, Pidgey, Rattata, Jigglypuff, etc.).
+- Items: Pok�ball item sitting on ground at (8, 2).
+- Ledges:
+  - Row 7 Ledge: Hop-down ledge heading south from upper road (cols 2-7, rows 5-6) to middle road (cols 2-7, rows 8-9).
+  - Row 11 Ledge: Hop-down ledge heading south from middle road / Saffron approach to southern thoroughfare (rows 12-15).
+  - Column 8 passage at row 11 allows northbound traversal between southern and middle roads.
+
 
 <hr>
