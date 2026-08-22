@@ -155,7 +155,7 @@ if pos['x'] == 2 and pos['y'] == 12:
 pos = mgba.get_coordinates()
 
 # 5. If we are on 1F West, cross to 1F East and go up the west-central stairs to 2F East
-if pos['x'] == 7 and pos['y'] == 10:
+if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
     print("--- PHASE 5: CROSSING 1F TO WEST-CENTRAL STAIRS ---")
     mansion_1f_cross_waypoints = [
         (7, 11),
