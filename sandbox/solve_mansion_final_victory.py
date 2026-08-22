@@ -71,12 +71,12 @@ pos = mgba.get_coordinates()
 print(f"Starting solve_mansion_final_victory.py from {pos} in CURRENT_PHASE {CURRENT_PHASE}")
 
 # --- PHASE 1: CINNABAR ISLAND TO MANSION ENTRANCE (STATE A) ---
-is_on_cinnabar = (pos['x'] == 11 and pos['y'] == 12) or (pos['x'] == 13 and pos['y'] == 13) or (pos['x'] == 10 and pos['y'] == 7) or (pos['x'] == 5 and pos['y'] == 11) or (pos['x'] == 6 and pos['y'] == 11)
-if is_on_cinnabar and CURRENT_PHASE == 1:
+if CURRENT_PHASE == 1:
     print("--- RUNNING PHASE 1: CINNABAR ISLAND TO MANSION ENTRANCE ---")
     cinnabar_waypoints = [
         (18, 12),
-        (18, 4),
+        (18, 5),
+        (6, 5),
         (6, 4),
         (6, 3) # Mansion Entrance Door warp
     ]
