@@ -1,0 +1,80 @@
+import mgba
+import time
+
+def handle_battle():
+    print("Checking for battle...")
+    for _ in range(4):
+        mgba.press_buttons(["B"])
+        time.sleep(0.25)
+    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
+    time.sleep(1.5)
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.25)
+
+def walk_exact_route(waypoints):
+    for wp in waypoints:
+        tx, ty = wp
+        print(f"Walking to waypoint ({tx}, {ty})...")
+        attempts = 0
+        while attempts < 35:
+            pos = mgba.get_coordinates()
+            cur = (pos['x'], pos['y'])
+            if cur == (tx, ty):
+                break
+                
+            dx = tx - cur[0]
+            dy = ty - cur[1]
+            
+            if dx < 0: direction = "Left"
+            elif dx > 0: direction = "Right"
+            elif dy < 0: direction = "Up"
+            elif dy > 0: direction = "Down"
+            else:
+                break
+                
+            pos_before = pos
+            mgba.press_buttons([direction])
+            time.sleep(0.55)
+            pos = mgba.get_coordinates()
+            
+            if pos == pos_before:
+                print(f"BUMPED or BATTLE at {cur} going {direction} towards {wp}! Exiting to prevent drift.")
+                return False
+            attempts += 1
+    return True
+
+print("=== Starting Perfect Mansion Run Phase 1 from (5, 11) on 2F West ===")
+pos = mgba.get_coordinates()
+
+# 1. Walk from (5, 11) to switch stand tile at (2, 12)
+if pos['x'] == 5 and pos['y'] == 11:
+    route_switch_2f = [
+        (2, 11), # Move left on Column 11 to Column 2 (or 2, 12 directly)
+        (2, 12)
+    ]
+    if walk_exact_route(route_switch_2f):
+        print("At 2F West switch stand tile (2, 12). Facing UP to toggle switch at (2, 11)...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        print("Toggling Mewtwo switch to State B...")
+        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+        time.sleep(1.5)
+        print("Switch toggled! Walk back to 2F West stairs at (7, 10)...")
+        
+        route_back_2f = [
+            (2, 10),
+            (7, 10)
+        ]
+        if walk_exact_route(route_back_2f):
+            print("At 2F West stairs. Stepping DOWN to warp down to 1F West...")
+            mgba.press_buttons(["Down"])
+            time.sleep(2.5)
+            
+            # Step DOWN once to clear the stairs
+            mgba.press_buttons(["Down"])
+            time.sleep(0.5)
+            
+            print("PHASE 1 COMPLETE! Final position on 1F West in State B:", mgba.get_coordinates())
+            mgba.take_screenshot()
