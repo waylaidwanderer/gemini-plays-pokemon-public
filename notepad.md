@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Pokémon Tower 1F (x=12, y=9)
+- Location: Pokémon Tower 1F (x=18, y=9)
 
 
 
@@ -1195,6 +1195,24 @@
   - Row 7 Ledge: Hop-down ledge heading south from upper road (cols 2-7, rows 5-6) to middle road (cols 2-7, rows 8-9).
   - Row 11 Ledge: Hop-down ledge heading south from middle road / Saffron approach to southern thoroughfare (rows 12-15).
   - Column 8 passage at row 11 allows northbound traversal between southern and middle roads.
+
+
+<hr>
+
+<h1><code>Locations/PokemonTower1F</code></h1>
+
+# Pokémon Tower 1F - Points of Interest & Notes
+
+## Connections
+- South Exit: Warp to Lavender Town exterior at (9..10, 18) [Entered at (10, 17)]
+- Stairs to 2F: Located in Pokémon Tower 1F
+
+## Layout & Landmarks
+- Ground floor memorial reception & mourning area.
+- Central aisle runs along columns 9-11 from row 17 to row 9.
+- Mourner benches located across rows 16-17 and along east/west walls.
+- Reception counter located at rows 12-13.
+- NPCs: Mourners paying respects to departed Pokémon.
 
 
 <hr>
