@@ -33,13 +33,11 @@ def walk_to_step(tx, ty):
     return True
 
 pos = mgba.get_coordinates()
-print("Starting balcony return run from:", pos)
+print("Starting balcony drop-off run from:", pos)
 
-# We define the complete remaining path to (20, 18)
-# If we are already along the path, walk_to_step will skip already-reached points!
+# We are currently at (12, 11). Walk back to the balcony at (20, 18)
 path = [
-    (2, 11),
-    (2, 3),
+    (12, 3),
     (26, 3),
     (26, 11),
     (24, 11),
