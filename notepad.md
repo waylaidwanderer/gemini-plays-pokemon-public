@@ -1482,5 +1482,8 @@
   - Central barrier block at (14..17, 19..24).
   - Northern bypass corridor connecting to western wing at rows 17-18 (cols 12-22).
 
+## Items & Item Balls
+- Item Ball at (9, 17): Northwest alcove [Discovered Turn 12283].
+
 
 <hr>
