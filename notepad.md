@@ -1512,19 +1512,24 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ---
 
 ## The Definitive Verified Master Route to B1F East & Secret Key
-1. **Prepare Mansion in State B:**
+1. **Prepare Mansion in State B (Verified Turn 53772):**
    - From 1F West (State A), go UP the stairs at `(7, 10)` to 2F West.
    - On 2F West, walk Left to `(2, 11)` and standing at `(2, 12)` face UP to toggle the switch to State B.
-2. **Return to 1F West and cross to 1F East:**
+2. **Return to 1F West and cross to 1F East (Verified Turn 53772):**
    - Go back to 2F West stairs at `(7, 10)` and go DOWN to 1F West.
    - On 1F West (State B), walk `(7, 11) -> (12, 11) -> (12, 3) -> (26, 3) -> (26, 11) -> (18, 11) -> (18, 10)` to reach the East stairs at `(18, 10)`. (We bypass Column 22 wall by crossing on Row 3!).
-3. **Climb to 2F East and warp UP to 3F East:**
+3. **Climb to 2F East and warp UP to 3F East (Verified Turn 53772):**
    - Go UP the stairs at `(18, 10)` on 1F East, warping UP to 2F East West-Central side at `(20, 16)`.
    - On 2F East (State B), walk `(20, 16) -> (15, 16) -> (15, 11)` and go UP the stairs to 3F East (landing at `(16, 11)`). (This avoids the closed Row 7 gate and Column 22 wall entirely!).
-4. **Balcony Drop to B1F East:**
-   - On 3F East (State B), walk `(16, 11) -> (20, 11) -> (20, 18)` and step LEFT to drop over the balcony railing, landing on B1F East at `(19, 16)`.
-5. **Retrieve Secret Key:**
-   - On B1F East (State B), walk directly from the landing point `(19, 16)` to the northwest room: `(19, 16) -> (19, 5) -> (1, 5)`. (The gate at `(9, 5)` is open in State B!).
+4. **Drop through Pitfall to 1F Fenced Room (Verified Turn 53783):**
+   - On 3F East (State B) (landing at `(16, 11)`), walk to the pitfall at `(26, 6)`: `(16, 11) -> (10, 11) -> (10, 3) -> (26, 3) -> (26, 6)`.
+   - Stand at `(26, 6)` and step LEFT to fall through the pitfall, landing on 1F inside the fenced room at `(25, 6)`.
+5. **Warp to B1F East and Retrieve Secret Key (Verified Turn 53783):**
+   - On 1F, walk UP 5 times onto the stairs to warp down to B1F East, landing at `(25, 5)`.
+   - On B1F East (State B), bypass the Column 22 vertical wall by walking UP to Row 3: `(25, 5) -> (26, 5) -> (26, 3)`.
+   - Walk LEFT along Row 3 to Column 21: `(26, 3) -> (21, 3)`.
+   - Walk DOWN Column 21 to Row 5: `(21, 3) -> (21, 5)`.
+   - Walk LEFT along Row 5 to the northwest room: `(21, 5) -> (1, 5)` (Koga's gate at `(9, 5)` is open in State B!).
    - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
 6. **Escape:**
    - Open the menu, select POKéMON, select TRUFFLE (Paras), and use **DIG** to escape back to Cinnabar Island!
