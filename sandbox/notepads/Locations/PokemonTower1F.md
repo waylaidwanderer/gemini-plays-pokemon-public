@@ -17,6 +17,6 @@
   - Observed Team:
     1. Pidgeotto Lv 25 [Defeated Turn 11339 - 604 EXP gained]
     2. Gyarados Lv 23 [Defeated Turn 11344]
-    3. Growlithe Lv 22 [Pending]
+    3. Growlithe Lv 22 [Defeated Turn 11348]
     4. Kadabra Lv 20 [Pending]
     5. Ivysaur Lv 25 [Pending]
