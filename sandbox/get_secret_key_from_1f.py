@@ -31,45 +31,27 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting outside on Cinnabar Island at (7, 13) (State A)
+# Starting outside on Cinnabar Island at (18, 5) (State A)
 pos = mgba.get_coordinates()
-print("Starting definitive State A Mansion Part 1 from outside (7, 13):", pos)
+print("Starting definitive State A Mansion Part 1 from outside (18, 5):", pos)
 
-if pos['x'] == 7 and pos['y'] == 13:
+if pos['x'] == 18 and pos['y'] == 5:
     path_enter = [
-        # Walk RIGHT to Column 17 (completely safe east side pavement)
-        (8, 13, 'Right'),
-        (9, 13, 'Right'),
-        (10, 13, 'Right'),
-        (11, 13, 'Right'),
-        (12, 13, 'Right'),
-        (13, 13, 'Right'),
-        (14, 13, 'Right'),
-        (15, 13, 'Right'),
-        (16, 13, 'Right'),
-        (17, 13, 'Right'),
-        # Walk UP Column 17 to Row 4
-        (17, 12, 'Up'),
-        (17, 11, 'Up'),
-        (17, 10, 'Up'),
-        (17, 9, 'Up'),
-        (17, 8, 'Up'),
-        (17, 7, 'Up'),
-        (17, 6, 'Up'),
-        (17, 5, 'Up'),
-        (17, 4, 'Up'),
-        # Walk LEFT along Row 4 to Column 6
-        (16, 4, 'Left'),
-        (15, 4, 'Left'),
-        (14, 4, 'Left'),
-        (13, 4, 'Left'),
-        (12, 4, 'Left'),
-        (11, 4, 'Left'),
-        (10, 4, 'Left'),
-        (9, 4, 'Left'),
-        (8, 4, 'Left'),
-        (7, 4, 'Left'),
-        (6, 4, 'Left'),
+        # Walk LEFT along Row 5 all the way to Column 6
+        (17, 5, 'Left'),
+        (16, 5, 'Left'),
+        (15, 5, 'Left'),
+        (14, 5, 'Left'),
+        (13, 5, 'Left'),
+        (12, 5, 'Left'),
+        (11, 5, 'Left'),
+        (10, 5, 'Left'),
+        (9, 5, 'Left'),
+        (8, 5, 'Left'),
+        (7, 5, 'Left'),
+        (6, 5, 'Left'),
+        # Walk UP Column 6 to Row 4
+        (6, 4, 'Up'),
         # Step UP to enter Mansion
         (6, 3, 'Up'),
     ]
@@ -99,7 +81,7 @@ pos = mgba.get_coordinates()
 if pos['x'] == 5 and pos['y'] == 23:
     path_to_stairs = [
         (7, 23, 'Right'),
-        (7, 11, 'Up'), # Corrected from 'Down' to 'Up'!
+        (7, 11, 'Up'), # Corrected to 'Up'!
         # Since we are in State A, the Row 11 gate is open!
         (8, 11, 'Right'),
         (9, 11, 'Right'),
