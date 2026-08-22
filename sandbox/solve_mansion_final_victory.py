@@ -114,8 +114,8 @@ if pos['x'] == 5 and pos['y'] == 27:
 pos = mgba.get_coordinates()
 
 # 3. If we are on Mansion 2F West and switch needs to be toggled to State B
-# 2F West stairs landing is at (7, 10)
-if pos['x'] == 7 and pos['y'] == 10:
+# 2F West stairs landing is at (7, 10) or (7, 11)
+if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
     print("--- PHASE 3: TOGGLING 2F WEST SWITCH TO STATE B ---")
     mansion_2f_west_waypoints = [
         (7, 11),
