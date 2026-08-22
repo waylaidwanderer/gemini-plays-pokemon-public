@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B1F (x=23, y=3)
+- Location: Team Rocket Hideout B2F (x=20, y=14)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -44,10 +44,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 45
-   - Stats (Verified at Lv 45): Max HP 149 (HP: 149/149), Attack 101, Defense 113, Speed 103, Special 107
+1. HYDROS (Blastoise) - Lv 46
+   - Stats (Verified at Lv 46): Max HP 152 (HP: 125/152), Attack 103, Defense 115, Speed 106, Special 109
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (10/15), Ice Beam (8/10), Bite (24/25), Bubblebeam (19/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
