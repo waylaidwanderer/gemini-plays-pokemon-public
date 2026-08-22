@@ -32,9 +32,9 @@
 ---
 
 ## The Definitive Verified Master Route to B1F East & Secret Key
-1. **Prepare Mansion in State B (Verified Turn 53772):**
+1. **Prepare Mansion in State B (Verified Turn 54051):**
    - From 1F West (State A), go UP the stairs at `(7, 10)` to 2F West.
-   - On 2F West, walk Left to `(2, 11)` and standing at `(2, 12)` face UP to toggle the switch to State B.
+   - On 2F West, walk Left to `(3, 11)` and stand at `(3, 11)` facing LEFT to toggle the switch at `(2, 11)` to State B.
 2. **Return to 1F West and cross to 1F East (Verified Turn 53772):**
    - Go back to 2F West stairs at `(7, 10)` and go DOWN to 1F West.
    - On 1F West (State B), walk `(7, 11) -> (12, 11) -> (12, 3) -> (26, 3) -> (26, 11) -> (18, 11) -> (18, 10)` to reach the East stairs at `(18, 10)`. (We bypass Column 22 wall by crossing on Row 3!).
