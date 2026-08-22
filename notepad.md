@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Underground Path (Route 7-Route 8) (x=47, y=2) - Traveling west towards Route 7 and Celadon City
+- Location: Celadon City (x=49, y=11) - Exploring Celadon City (Dept Store, Game Corner, Gym)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
