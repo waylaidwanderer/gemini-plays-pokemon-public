@@ -95,7 +95,9 @@ pos = mgba.get_coordinates()
 if pos['x'] == 5 and pos['y'] == 27 and CURRENT_PHASE == 2:
     print("--- RUNNING PHASE 2: 1F WEST TO 1F EAST (STATE A) ---")
     mansion_1f_west_waypoints = [
-        (5, 5),
+        (5, 11),
+        (12, 11),
+        (12, 5),
         (26, 5),
         (26, 6) # Stairs at (26, 6)
     ]
