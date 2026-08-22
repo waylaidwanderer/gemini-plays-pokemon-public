@@ -1111,7 +1111,7 @@
 - Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5). Interior: Nurse Joy at counter (3, 2), entrance mat at (3..4, 7).
 - Town Signpost / Board: Located at (9, 3) east of Pokémon Center.
 - Central-West House: Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9).
-- Signpost: Located at (11, 9).
+- Town Signpost: Located at (11, 9). Text: "LAVENDER TOWN - The Noble Purple Town".
 - NPCs & Dialogue:
   - Local resident at (5, 7): "GHOSTs appeared in POKéMON TOWER. I think they're the spirits of POKéMON that the ROCKETs killed."
   - Town center resident at (9, 10): "This town is known as the grave site of POKéMON. Memorial services are held in POKéMON TOWER."
