@@ -49,10 +49,16 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("Current coordinates:", mgba.get_coordinates())
+# 1. Clear the "Got away safely!" text
+print("Clearing battle text...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
 
-# The Row 3 detour to cross Column 22 and reach (15, 11)
-route = [(18, 3), (26, 3), (26, 11), (15, 11)]
+pos = mgba.get_coordinates()
+print("Starting overworld coordinates:", pos)
+
+# 2. Walk directly from current position (20, 3) to stairs at (15, 11) via Column 26
+route = [(26, 3), (26, 11), (15, 11)]
 if walk_exact_route(route):
     print("SUCCESS! Reached stairs at (15, 11). Warping UP to 3F East...")
     mgba.press_buttons(["Up"])
