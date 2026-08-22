@@ -1,9 +1,5 @@
 # Quest Log & Story Progression
 
-
-
-
-
 ## Main Quests
 
 
