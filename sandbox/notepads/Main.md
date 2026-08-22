@@ -13,7 +13,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Pokémon Tower 1F (x=6, y=14)
+- Location: Pokémon Tower 1F (x=12, y=10)
 
 
 
