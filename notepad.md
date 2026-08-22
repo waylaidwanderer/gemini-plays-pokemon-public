@@ -1463,5 +1463,11 @@
 - Rocket Grunt #1: Located at (20, 12) facing South [Defeated Turn 12233].
   - Team: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Raticate Lv 17.
   - Dialogue: "BOSS said you can see GHOSTs with the SILPH SCOPE!"
+## Floor Topology & Item Locations
+- Stop Tiles: (14, 12), (2, 9), (8, 11).
+- Item Balls:
+  - Item Ball at (1, 11): Southwest corner alcove.
+  - Item Ball at (6, 12): South-central chamber.
+  - Item Ball at (16, 8): North-central corridor.
 
 <hr>
