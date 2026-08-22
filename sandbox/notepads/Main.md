@@ -89,6 +89,7 @@
 
 
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
+- `Locations/PokemonTower1F`: Pokémon Tower 1F layout, mourners, stairs, Rival RED battle
 - `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�mon Tower, Name Rater, Pok�mart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
