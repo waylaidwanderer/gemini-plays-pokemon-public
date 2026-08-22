@@ -1518,6 +1518,10 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ---
 
+- **Turn 54428:** Mansion reset to State A (Default) via DIG escape to Cinnabar Island.
+- **Turn 54537:** Toggled the 2F East switch at `(12, 11)` to State B.
+- **Turn 54537:** Discovered that `(7, 10)` on 2F West is an active warp tile that instantly warps the player down to 1F West when stepped on from any direction.
+
 ## The Definitive Verified Master Route to B1F East & Secret Key
 1. **Enter Mansion in State A:**
    - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 4) -> (6, 4) -> (6, 3)` and step UP to enter 1F West (landing at `(5, 27)`).
@@ -1530,7 +1534,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Walk DOWN Column 18 to Row 10: `(18, 7) -> (18, 10)` (stairs). Step DOWN onto the stairs to warp UP to 2F East (landing at `(18, 11)`).
 
 3. **Toggle 2F East Switch to State B:**
-   - On 2F East, walk LEFT along Row 11 to the switch at `(12, 11)`: `(18, 11) -> (12, 11)`.
+   - On 2F East, walk UP Column 18 to Row 3: `(18, 11) -> (18, 3)`.
+   - Walk LEFT along Row 3 to Column 12: `(18, 3) -> (12, 3)`.
+   - Walk DOWN Column 12 to Row 11: `(12, 3) -> (12, 11)`.
    - Stand at `(12, 11)` facing RIGHT (towards statue at `(13, 11)`) and press A to toggle the switch to State B!
 
 4. **Climb back to 3F East (State B) and Drop to B1F East:**
