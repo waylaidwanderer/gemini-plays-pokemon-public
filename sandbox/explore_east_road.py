@@ -31,24 +31,22 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Currently at (12, 12) on 2F East (State B)
+# Starting at (1, 18) on 2F West (State B)
 pos = mgba.get_coordinates()
-print("Starting definitive 2F West switch toggle via Row 12 from:", pos)
+print("Starting definitive 2F West switch toggle to State A from:", pos)
 
-if pos['x'] == 12 and pos['y'] == 12:
-    print("--- STEP 1: WALKING LEFT ON ROW 12 TO 2F WEST SWITCH ---")
+if pos['x'] == 1 and pos['y'] == 18:
+    print("--- STEP 1: WALKING TO 2F WEST SWITCH ---")
     path_to_switch = [
-        # Walk LEFT along Row 12 directly to Column 2
-        (11, 12, 'Left'),
-        (10, 12, 'Left'),
-        (9, 12, 'Left'),
-        (8, 12, 'Left'),
-        (7, 12, 'Left'),
-        (6, 12, 'Left'),
-        (5, 12, 'Left'),
-        (4, 12, 'Left'),
-        (3, 12, 'Left'),
-        (2, 12, 'Left'),
+        # Walk UP Column 1 to Row 12
+        (1, 17, 'Up'),
+        (1, 16, 'Up'),
+        (1, 15, 'Up'),
+        (1, 14, 'Up'),
+        (1, 13, 'Up'),
+        (1, 12, 'Up'),
+        # Walk RIGHT to Column 2
+        (2, 12, 'Right'),
     ]
     for target in path_to_switch:
         tx, ty, d = target
