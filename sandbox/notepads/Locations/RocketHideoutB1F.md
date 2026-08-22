@@ -1,7 +1,7 @@
 # Team Rocket Hideout B1F - Topology & Dungeon Log
 
 ## Connections & Warps
-- Stairs Up: Located at (21, 2), leads up to Celadon Game Corner 1F at (17, 4) [Entered Turn 12180].
+- Stairs Up to Game Corner: Located at (21, 2), leads up to Celadon Game Corner at (17, 4) [Verified Turn 12308].
 - Stairs Down to B2F: Located at (23, 2), leads down to Rocket Hideout B2F at (27, 8).
 - Elevator: Located in the south-central sector (requires Lift Key from B4F).
 
