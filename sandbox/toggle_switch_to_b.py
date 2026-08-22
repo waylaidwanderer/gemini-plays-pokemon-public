@@ -1,53 +1,41 @@
 import mgba
 import time
 
-def handle_battle():
-    print("Coordinates did not change. Likely a battle! Attempting to flee...")
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.0)
-    for _ in range(4):
-        mgba.press_buttons(["B"])
-        time.sleep(0.3)
+def walk_step(tx, ty, d):
+    pos = mgba.get_coordinates()
+    if pos['x'] == tx and pos['y'] == ty:
+        return True
+    mgba.press_buttons([d])
+    time.sleep(0.55)
+    new_pos = mgba.get_coordinates()
+    return new_pos['x'] == tx and new_pos['y'] == ty
 
-def walk_step(tx, ty, direction):
-    attempts = 0
-    while attempts < 10:
-        pos = mgba.get_coordinates()
-        if pos['x'] == tx and pos['y'] == ty:
-            return True
+# Start at (2, 5) on 2F West
+pos = mgba.get_coordinates()
+print("Starting switch B toggle from:", pos)
+
+if pos['x'] == 2 and pos['y'] == 5:
+    # Walk DOWN Column 2 to Row 12
+    path = [
+        (2, 6, 'Down'),
+        (2, 7, 'Down'),
+        (2, 8, 'Down'),
+        (2, 9, 'Down'),
+        (2, 10, 'Down'),
+        (2, 11, 'Down'),
+        (2, 12, 'Down'),
+    ]
+    for target in path:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Failed to reach target at ({tx}, {ty})")
+            exit()
             
-        mgba.press_buttons([direction])
-        time.sleep(0.55)
-        new_pos = mgba.get_coordinates()
-        
-        if new_pos == pos:
-            print(f"Bumped at {pos} going {direction}. Attempting battle escape...")
-            handle_battle()
-            time.sleep(0.5)
-            new_pos = mgba.get_coordinates()
-        else:
-            if new_pos['x'] == tx and new_pos['y'] == ty:
-                return True
-        attempts += 1
-    return False
-
-# Starting at (4, 11) on 2F West inside the Mansion
-pos = mgba.get_coordinates()
-print("Starting toggle_switch_to_b from:", pos)
-
-if pos['x'] == 4 and pos['y'] == 11:
-    # Walk left to (2, 11)
-    walk_step(3, 11, 'Left')
-    walk_step(2, 11, 'Left')
-
-# Standing at (2, 11), face UP and press A to toggle switch to State B
-pos = mgba.get_coordinates()
-if pos['x'] == 2 and pos['y'] == 11:
-    print("Facing UP and toggling switch to State B...")
+    print("At (2, 12) on 2F West. Facing UP to toggle switch to State B...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+    mgba.press_buttons(["A", "sleep 300", "A", "sleep 500", "B"])
     time.sleep(1.5)
 
-print("Final coordinates after script:", mgba.get_coordinates())
+print("Final position after toggle:", mgba.get_coordinates())
 mgba.take_screenshot()
