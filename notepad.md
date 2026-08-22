@@ -1427,5 +1427,7 @@
   - Solid western wall at col 8 (rows 4-11).
   - Upper room spans cols 9-18, rows 5-7.
   - Opening to southern corridors located at cols 11-12 on row 8.
+- Item Balls:
+  - Item Ball #1 at (11, 14): Located behind table in western room.
 
 <hr>
