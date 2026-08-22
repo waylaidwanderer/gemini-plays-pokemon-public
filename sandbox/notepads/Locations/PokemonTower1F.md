@@ -12,11 +12,14 @@
 - NPCs: Mourners paying respects to departed Pokémon.
 
 ## Verified Trainers & Encounters
-- Rival RED: Located at (14, 5) [Engaged Turn 11334].
+- Rival RED: Located at (14, 5) [Defeated Turn 11354].
   - Pre-battle: "Hey, BLUE! What brings you here? Your POKéMON don't look dead! I can at least make them faint! Let's go, pal!"
-  - Observed Team:
-    1. Pidgeotto Lv 25 [Defeated Turn 11339 - 604 EXP gained]
-    2. Gyarados Lv 23 [Defeated Turn 11344]
-    3. Growlithe Lv 22 [Defeated Turn 11348]
-    4. Kadabra Lv 20 [Defeated Turn 11352 - 621 EXP gained]
-    5. Ivysaur Lv 25 [Pending]
+  - Defeat quote: "What? You stinker! I took it easy on you too!"
+  - Post-battle dialogue: "How's your POKéDEX coming, pal? I just caught a CUBONE! I can't find the bigger MAROWAK anywhere! I wander where they went! I better get going! I've got a lot to accomplish, pal! Smell ya later!"
+  - Reward: ¥1625
+  - Observed Full Team:
+    1. Pidgeotto Lv 25 [Defeated - 604 EXP]
+    2. Gyarados Lv 23 [Defeated - 1054 EXP]
+    3. Growlithe Lv 22 [Defeated - 429 EXP]
+    4. Kadabra Lv 20 [Defeated - 621 EXP]
+    5. Ivysaur Lv 25 [Defeated - 754 EXP]
