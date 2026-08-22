@@ -11,7 +11,7 @@ def handle_battle():
 
 def walk_step(tx, ty, direction):
     attempts = 0
-    while attempts < 40:
+    while attempts < 10:
         pos = mgba.get_coordinates()
         if pos['x'] == tx and pos['y'] == ty:
             return True
@@ -31,43 +31,22 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (28, 21) on 2F East inside the Mansion (State A)
+# Starting at (27, 15) on 2F East inside the Mansion (State A)
 pos = mgba.get_coordinates()
 print("Starting mansion_go_to_switch from:", pos)
 
-if pos['x'] == 28 and pos['y'] == 21:
-    # 1. Walk LEFT to Column 25
-    walk_step(27, 21, 'Left')
-    walk_step(26, 21, 'Left')
-    walk_step(25, 21, 'Left')
-    
-    # 2. Walk UP Column 25 to Row 16
-    path_up_25 = [
-        (25, 20, 'Up'),
-        (25, 19, 'Up'),
-        (25, 18, 'Up'),
-        (25, 17, 'Up'),
-        (25, 16, 'Up'),
-    ]
-    print("Walking UP Column 25 to Row 16...")
-    for target in path_up_25:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach target at ({tx}, {ty})")
-            exit()
-            
-    # 3. Walk RIGHT to Column 26
-    print("Walking RIGHT to Column 26...")
-    if not walk_step(26, 16, 'Right'):
-        print("Failed to walk RIGHT to (26, 16)")
-        exit()
-        
-    # 4. Walk UP Column 26 to stairs at (26, 6)
-    path_up_26 = [
-        (26, 15, 'Up'),
+if pos['x'] == 27 and pos['y'] == 15:
+    path = [
+        # Walk LEFT to Column 26
+        (26, 15, 'Left'),
+        # Walk UP to Row 14
         (26, 14, 'Up'),
-        (26, 13, 'Up'),
-        (26, 12, 'Up'),
+        # Bypass Row 13 wall via Column 25 (S-curve)
+        (25, 14, 'Left'),
+        (25, 13, 'Up'),
+        (25, 12, 'Up'),
+        (26, 12, 'Right'),
+        # Walk UP Column 26 to stairs at (26, 6)
         (26, 11, 'Up'),
         (26, 10, 'Up'),
         (26, 9, 'Up'),
@@ -75,8 +54,9 @@ if pos['x'] == 28 and pos['y'] == 21:
         (26, 7, 'Up'),
         (26, 6, 'Up'),
     ]
-    print("Walking UP Column 26 to 2F East stairs...")
-    for target in path_up_26:
+    
+    print("Walking path to 2F East stairs...")
+    for target in path:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
             print(f"Failed to reach target at ({tx}, {ty})")
