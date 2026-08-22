@@ -31,39 +31,21 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting outside on Cinnabar Island at (11, 7) (State A)
+# Starting outside on Cinnabar Island at (10, 7) (State A)
 pos = mgba.get_coordinates()
-print("Starting definitive State A Mansion Part 1 from outside (11, 7):", pos)
+print("Starting definitive State A Mansion Part 1 from outside (10, 7):", pos)
 
-if pos['x'] == 11 and pos['y'] == 7:
+if pos['x'] == 10 and pos['y'] == 7:
     path_enter = [
-        # Walk RIGHT along Row 7 to Column 19 (completely safe far-right pavement)
-        (12, 7, 'Right'),
-        (13, 7, 'Right'),
-        (14, 7, 'Right'),
-        (15, 7, 'Right'),
-        (16, 7, 'Right'),
-        (17, 7, 'Right'),
-        (18, 7, 'Right'),
-        (19, 7, 'Right'),
-        # Walk UP Column 19 to Row 4
-        (19, 6, 'Up'),
-        (19, 5, 'Up'),
-        (19, 4, 'Up'),
-        # Walk LEFT along Row 4 to Column 6 (completely safe above buildings and NPC!)
-        (18, 4, 'Left'),
-        (17, 4, 'Left'),
-        (16, 4, 'Left'),
-        (15, 4, 'Left'),
-        (14, 4, 'Left'),
-        (13, 4, 'Left'),
-        (12, 4, 'Left'),
-        (11, 4, 'Left'),
-        (10, 4, 'Left'),
-        (9, 4, 'Left'),
-        (8, 4, 'Left'),
-        (7, 4, 'Left'),
-        (6, 4, 'Left'),
+        # Walk LEFT along Row 7 to Column 6 (completely safe, above Lab/Center doors)
+        (9, 7, 'Left'),
+        (8, 7, 'Left'),
+        (7, 7, 'Left'),
+        (6, 7, 'Left'),
+        # Walk UP Column 6 to Row 4
+        (6, 6, 'Up'),
+        (6, 5, 'Up'),
+        (6, 4, 'Up'),
         # Step UP to enter Mansion
         (6, 3, 'Up'),
     ]
