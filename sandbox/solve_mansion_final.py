@@ -23,18 +23,18 @@ def walk_to_with_flee(tx, ty):
             
         pos_before = pos
         mgba.press_buttons([direction])
-        mgba.press_buttons(["sleep 550"]) # let emulator advance
+        mgba.press_buttons(["B", "sleep 550"]) # let emulator advance
         pos = mgba.get_coordinates()
         
         if pos == pos_before:
             print(f"Coordinates did not change at {pos} going {direction} towards ({tx}, {ty}). Checking for battle...")
-            # Let emulator advance for 3.5 seconds to complete the battle transition
-            mgba.press_buttons(["sleep 3500"])
+            # Wait for battle transition to complete
+            mgba.press_buttons(["B", "sleep 3500"])
             
             # Execute flee sequence
             print("Executing flee sequence...")
             mgba.press_buttons(["B", "sleep 1500", "Down", "sleep 300", "Right", "sleep 300", "A", "sleep 2500", "B", "sleep 1000"])
-            mgba.press_buttons(["sleep 8000"]) # Let escape animation finish
+            mgba.press_buttons(["B", "sleep 8000"]) # Let escape animation finish
             
             # Recheck coordinates
             pos = mgba.get_coordinates()
@@ -53,14 +53,8 @@ mgba.press_buttons(["B", "sleep 1000"])
 pos = mgba.get_coordinates()
 print("Starting 3F West toggle run from:", pos)
 
-# Walk to 3F West Switch at (2, 12)
+# We are currently at (26, 11). Remaining path to (2, 12):
 path = [
-    (20, 15),
-    (22, 15),
-    (22, 14),
-    (24, 14),
-    (24, 11),
-    (26, 11),
     (26, 3),
     (19, 3),
     (2, 3),
