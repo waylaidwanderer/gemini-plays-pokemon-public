@@ -31,47 +31,12 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (27, 15) on 2F East inside the Mansion (State A)
+# Starting at (26, 5) on 1F East inside the Mansion (State A)
 pos = mgba.get_coordinates()
 print("Starting mansion_go_to_switch from:", pos)
 
-if pos['x'] == 27 and pos['y'] == 15:
-    path = [
-        # Walk LEFT to Column 26
-        (26, 15, 'Left'),
-        # Walk UP to Row 14
-        (26, 14, 'Up'),
-        # Bypass Row 13 wall via Column 25 (S-curve)
-        (25, 14, 'Left'),
-        (25, 13, 'Up'),
-        (25, 12, 'Up'),
-        (26, 12, 'Right'),
-        # Walk UP Column 26 to stairs at (26, 6)
-        (26, 11, 'Up'),
-        (26, 10, 'Up'),
-        (26, 9, 'Up'),
-        (26, 8, 'Up'),
-        (26, 7, 'Up'),
-        (26, 6, 'Up'),
-    ]
-    
-    print("Walking path to 2F East stairs...")
-    for target in path:
-        tx, ty, d = target
-        if not walk_step(tx, ty, d):
-            print(f"Failed to reach target at ({tx}, {ty})")
-            exit()
-            
-    print("Stepping UP onto 2F East stairs to go DOWN to 1F East...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-
-# We land on 1F East at (26, 7). Walk UP to Row 5, and LEFT across Row 5 to Column 12
-pos = mgba.get_coordinates()
-if pos['x'] == 26 and pos['y'] == 7:
+if pos['x'] == 26 and pos['y'] == 5:
     path_to_1f_west = [
-        (26, 6, 'Up'),
-        (26, 5, 'Up'),
         # Walk LEFT along Row 5 all the way to Column 12
         (25, 5, 'Left'),
         (24, 5, 'Left'),
