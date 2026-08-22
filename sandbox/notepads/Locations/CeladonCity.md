@@ -67,12 +67,12 @@
   - **Eastern Alcove (cols 44-48, rows 1-7)**: Extends east behind the Pokémon Center to dead-end tree boundary at row 8.
 
 ## Verified Building Entrances & Layout
-- **Rocket Game Corner**: Located at cols 26-29, rows 20-21.
-  - Front Doors: (26, 21) and (28, 21).
-  - Marquee Sign: (27, 21).
-  - Approach: Wide open street along row 22-23 (cols 20-30).
-- **Celadon Restaurant / Adjacent Shop**: Located at cols 27-29, rows 18-19.
-  - Entrance Door: (28, 19) with yellow door frame.
+- **Rocket Game Corner**: Located at cols 26-29, rows 18-21.
+  - Front Entrance Door: (28, 19) with yellow door frame and grey entrance plaza at row 20.
+  - Interior Secrets: Poster at (9, 4) with secret switch guarded by Rocket Grunt at (9, 5). Flipping switch reveals basement staircase to Rocket Hideout B1F at (17, 4).
+  - Approach: Walk east along row 22 street to col 36, north to row 20 plaza, and west to door at (28, 19).
+- **Prize Exchange Building**: Located at cols 30-33, rows 18-21.
+  - Front Door: (33, 19) on row 20 entrance plaza.
 - **Celadon Department Store**: Front door at (10, 13).
 - **Celadon Mansion**: Front door at (24, 9), Rear door at (24, 4).
 - **Celadon Pokémon Center**: Front door at (41, 9).
