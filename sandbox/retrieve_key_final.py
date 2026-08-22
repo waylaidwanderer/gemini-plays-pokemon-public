@@ -44,20 +44,14 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect B1F Switch Toggle and Key Retrieval from (2, 11) ===")
-
-# 1. Clear text box
-print("Clearing 'Got away safely!' text...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
+print("=== Starting Perfect B1F Switch Toggle and Key Retrieval from (12, 11) ===")
 pos = mgba.get_coordinates()
-print("Position after clearing text:", pos)
 
-if pos['x'] == 2 and pos['y'] == 11:
-    # 2. Walk to (18, 9) via (18, 11)
+if pos['x'] == 12 and pos['y'] == 11:
+    # 1. Walk from (12, 11) to (18, 9) via Row 5
     route_switch = [
-        (18, 11),
+        (12, 5),
+        (18, 5),
         (18, 9)
     ]
     if walk_exact_route(route_switch):
