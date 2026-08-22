@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 12 Gatehouse 2F (x=3, y=4) - Speaking with NPC girl for TM39 Swift
+- Location: Route 12 Gatehouse 1F (x=8, y=6) - Exiting south onto Silence Bridge
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
