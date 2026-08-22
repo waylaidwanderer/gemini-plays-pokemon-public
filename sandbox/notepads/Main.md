@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City - Celadon Department Store 4F (x=12, y=2) - Surveying Wiseman Gifts
+- Location: Celadon City - Celadon Department Store 5F (x=16, y=2) - Surveying Drugstore
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
