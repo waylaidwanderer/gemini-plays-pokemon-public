@@ -1,3 +1,5 @@
+CURRENT_PHASE = 5  # Manual Phase Override to prevent coordinate confusion
+
 import mgba
 import time
 
@@ -71,7 +73,7 @@ print("Starting solve_mansion_final_victory.py from:", pos)
 
 # 1. If we are on Cinnabar Island
 is_on_cinnabar = (pos['x'] == 11 and pos['y'] == 12) or (pos['x'] == 13 and pos['y'] == 13) or (pos['x'] == 10 and pos['y'] == 7) or (pos['x'] == 5 and pos['y'] == 11) or (pos['x'] == 6 and pos['y'] == 11)
-if is_on_cinnabar:
+if is_on_cinnabar and CURRENT_PHASE == 1:
     print("--- PHASE 1: CINNABAR ISLAND TO MANSION ENTRANCE ---")
     if pos['x'] == 10 and pos['y'] == 7:
         cinnabar_waypoints = [
@@ -98,7 +100,7 @@ pos = mgba.get_coordinates()
 
 # 2. If we are on Mansion 1F West
 # Mansion 1F West entrance landing is at (5, 27)
-if pos['x'] == 5 and pos['y'] == 27:
+if pos['x'] == 5 and pos['y'] == 27 and CURRENT_PHASE == 2:
     print("--- PHASE 2: MANSION 1F WEST TO 2F WEST ---")
     mansion_1f_west_waypoints = [
         (5, 10),
@@ -116,7 +118,7 @@ pos = mgba.get_coordinates()
 
 # 3. If we are on Mansion 2F West and switch needs to be toggled to State B
 # 2F West stairs landing is at (7, 10) or (7, 11)
-if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
+if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11) and CURRENT_PHASE == 3:
     print("--- PHASE 3: TOGGLING 2F WEST SWITCH TO STATE B ---")
     mansion_2f_west_waypoints = [
         (7, 11),
@@ -136,7 +138,7 @@ if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
 pos = mgba.get_coordinates()
 
 # 4. If we are at the 2F West switch, go back down to 1F West
-if pos['x'] == 2 and pos['y'] == 12:
+if pos['x'] == 2 and pos['y'] == 12 and CURRENT_PHASE == 4:
     print("--- PHASE 4: RETURNING TO 1F WEST FROM 2F WEST ---")
     mansion_2f_west_return = [
         (3, 12),
@@ -155,7 +157,7 @@ if pos['x'] == 2 and pos['y'] == 12:
 pos = mgba.get_coordinates()
 
 # 5. If we are on 1F West, cross to 1F East and go up the west-central stairs to 2F East
-if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
+if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11) and CURRENT_PHASE == 5:
     print("--- PHASE 5: CROSSING 1F TO WEST-CENTRAL STAIRS ---")
     mansion_1f_cross_waypoints = [
         (7, 11),
@@ -170,12 +172,13 @@ if pos['x'] == 7 and (pos['y'] == 10 or pos['y'] == 11):
         time.sleep(2.5)
         pos = mgba.get_coordinates()
         print("Arrived on 2F East! Current position:", pos)
+        CURRENT_PHASE = 6
 
 # Update position
 pos = mgba.get_coordinates()
 
 # 6. If we are on 2F East, walk to stairs to 3F East
-if pos['x'] == 20 and pos['y'] == 16:
+if pos['x'] == 20 and pos['y'] == 16 and CURRENT_PHASE == 6:
     print("--- PHASE 6: WALKING TO 3F EAST STAIRS ---")
     mansion_2f_east_waypoints = [
         (20, 11),
@@ -187,12 +190,13 @@ if pos['x'] == 20 and pos['y'] == 16:
         time.sleep(2.5)
         pos = mgba.get_coordinates()
         print("Arrived on 3F East! Current position:", pos)
+        CURRENT_PHASE = 7
 
 # Update position
 pos = mgba.get_coordinates()
 
 # 7. If we are on 3F East, walk to balcony and drop
-if pos['x'] == 16 and pos['y'] == 11:
+if pos['x'] == 16 and pos['y'] == 11 and CURRENT_PHASE == 7:
     print("--- PHASE 7: BALCONY DROP ---")
     mansion_3f_east_waypoints = [
         (20, 11),
@@ -204,12 +208,13 @@ if pos['x'] == 16 and pos['y'] == 11:
         time.sleep(3.0)
         pos = mgba.get_coordinates()
         print("Landed on B1F East! Current position:", pos)
+        CURRENT_PHASE = 8
 
 # Update position
 pos = mgba.get_coordinates()
 
 # 8. If we are on B1F East, walk directly to Secret Key room
-if pos['x'] == 19 and pos['y'] == 16:
+if pos['x'] == 19 and pos['y'] == 16 and CURRENT_PHASE == 8:
     print("--- PHASE 8: WALKING TO SECRET KEY ---")
     mansion_b1f_waypoints = [
         (19, 5),
