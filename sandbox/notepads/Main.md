@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Lavender Town (x=0, y=8) - Heading to Pokémon Center then Route 12
+- Location: Route 12 (x=8, y=0) - Traversing Silence Bridge south
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
