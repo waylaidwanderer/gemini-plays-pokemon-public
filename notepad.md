@@ -1299,9 +1299,9 @@
 - Paved road branches north-west at col 45 (rows 7-9) and south-west at col 45 (rows 12-13).
 
 ## Major Buildings & Points of Interest
-- (Survey in progress)
+- **Pokémon Center**: Located at cols 40-43, rows 7-9 with front entrance door at (41, 9) and "POKé" sign at (42, 9).
 
 ## Verified NPCs & Dialogue
-- (Survey in progress)
+- Resident at (39..40, 14): Man with black hair and orange shirt walking southern sidewalk.
 
 <hr>
