@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 12 (x=8, y=40) - Retracing Silence Bridge north (Fishermen #1-#4 defeated)
+- Location: Lavender Town (x=8, y=17) - Arrived in Lavender Town (traversing to Pok�mon Center)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
