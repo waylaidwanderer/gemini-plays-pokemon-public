@@ -14,7 +14,7 @@
   - Magazine text: "POKéMON Monthly Grand Prize Drawing! ... The application form is... Gone! It's been clipped out!"
   - Residents & Dialogue:
     - Girl at (3, 5): "That's odd, MR.FUJI isn't here. Where'd he go?"
-    - Resident at (6, 3)
+    - Resident at (6, 3): "This is really MR.FUJI's house. He's really kind! He looks after abandoned and orphaned POKéMON!"
     - Nidorino at (1, 3): "Gaoo!"
     - Pokémon at (6, 4)
 - Town Signpost: Located at (11, 9). Text: "LAVENDER TOWN - The Noble Purple Town".
