@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City - Western Thoroughfare South (x=17, y=19)
+- Location: Celadon City - Game Corner South Plaza (x=24, y=22)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -108,6 +108,13 @@
 - **Team Rocket Hideout Plan**:
   - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
   - ATLAS (Machop) and TERRA (Geodude) available for physical matchups against Raticate, Drowzee, and Koffing.
+
+## Pre-Dungeon Supply & Readiness Checklist (Rocket Hideout B1F-B4F)
+- Party Readiness:
+  - Lead: HYDROS (Blastoise Lv 45) - HP 149/149, Special 107. Moves: Ice Beam (10/10), Bubblebeam (20/20), Bite (25/25), Skull Bash (15/15). Total offensive PP: 70 moves. Overlevels all dungeon encounters (Lv 20-29) by 15-25 levels.
+  - Physical Tanks / Reserves: TERRA (Geodude Lv 21, Dig/Rock Throw), ATLAS (Machop Lv 15, Karate Chop), PRISM (Eevee Lv 25).
+- Tactical Policy: One-shot grunts with Bubblebeam/Bite/Ice Beam. Flee wild encounters if any using 1-turn protocol.
+- Optional Supplies: Celadon Dept Store 2F is available immediately nearby if Super Potions / Escape Ropes are desired after obtaining Silph Scope.
 
 
 <hr>
@@ -1318,7 +1325,6 @@
 - **Celadon Mansion (Front Entrance)**: Located at (24, 9). Multi-story apartment building. 1F: Old Woman at (1, 5) ("MEOWTH even brings money home!"), Nidoran♀ at (0, 5), Meowth at (4, 7), Clefairy at (0, 8). Visible staircases to upper floors at (2, 1) and (7, 1).
 
 ## Verified NPCs & Dialogue
-- Resident at (39..40, 14): Man with black hair and orange shirt walking southern sidewalk.
 - Resident at (32, 12): Girl with Poliwrath: "This is my trusted pal, POLIWRATH! It evolved from POLIWHIRL when I used WATER STONE!"
 - Poliwrath at (30, 12): Girl's partner Pokémon.
 
@@ -1369,6 +1375,17 @@
   - **Central Access (cols 21-25, rows 1-4)**: Connects to Celadon Mansion rear door at (24, 4).
   - **Tree Gap (cols 32-33, rows 2-4)**: Connects the northern corridor to the building alleyways and rear passages behind the central shops.
   - **Eastern Alcove (cols 44-48, rows 1-7)**: Extends east behind the Pokémon Center to dead-end tree boundary at row 8.
+
+## Verified Building Entrances & Layout
+- **Rocket Game Corner**: Located at cols 26-29, rows 20-21.
+  - Front Doors: (26, 21) and (28, 21).
+  - Marquee Sign: (27, 21).
+  - Approach: Wide open street along row 22-23 (cols 20-30).
+- **Celadon Restaurant / Adjacent Shop**: Located at cols 27-29, rows 18-19.
+  - Entrance Door: (28, 19) with yellow door frame.
+- **Celadon Department Store**: Front door at (10, 13).
+- **Celadon Mansion**: Front door at (24, 9), Rear door at (24, 4).
+- **Celadon Pokémon Center**: Front door at (41, 9).
 
 
 <hr>
