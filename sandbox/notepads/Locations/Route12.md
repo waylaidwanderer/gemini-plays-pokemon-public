@@ -8,12 +8,25 @@
 ## Layout & Landmarks
 - Northern Entrance: 2-tile wide wooden bridge at cols 8-9 running south from Lavender Town (row 0).
 - Water bodies border both east (cols 10+) and west (cols 4-7).
-- Silence Bridge extends south with multiple fishing platforms, trainers, and the Fishing Guru's brother's house.
+- Northern bridge walkway splits at row 10 into eastern (cols 10-11) and western (cols 4-5) paths connected by grass island (cols 8-9, rows 10-11).
+- Route 12 Gatehouse located at rows 16-19, cols 8-13 (north entrance at (10..11, 16)).
+
+## Route 12 Gatehouse Interior Layout
+- **1F Layout**:
+  - North entrance mat: (4..5, 0)
+  - South exit mat: (4..5, 7)
+  - Central open hallway: cols 3-6 across rows 0-7
+  - Left counter/guard area: cols 1-2, rows 1-4 (Guard at (1, 3))
+  - Right counter partition: cols 7-8, rows 1-4
+  - Staircase to 2F: located at (8, 6) [south-east corner behind right counter]
+- **2F Layout**:
+  - Staircase landing: (7, 7)
+  - Binoculars: north window at (1..2, 2..3) and (6, 2..3)
+  - NPC Girl: wanders near (3, 2..4) [Gives TM39 Swift]
 
 ## Verified Trainers & Encounters
 - (TBD - Exploration in progress)
 
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
-- TM16 (Pay Day)
-- Iron
+- TM39 Swift (from NPC girl on Gatehouse 2F)
