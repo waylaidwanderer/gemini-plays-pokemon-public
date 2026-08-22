@@ -20,3 +20,8 @@
 - Clear grunts methodically with Blastoise (Bubblebeam/Ice Beam/Bite).
 - Document exact coordinates of all trainers, item balls, directional tiles, and staircases.
 - Secure stairs down to B2F.
+
+## Verified Trainers & Encounters
+- Rocket Grunt #1: Located at (26, 8) facing West [Engaged Turn 12186].
+  - Team: Drowzee Lv 21, Machop Lv 21.
+  - Pre-battle quote: "Who are you? How did you get here?"
