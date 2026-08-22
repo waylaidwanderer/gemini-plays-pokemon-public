@@ -91,10 +91,6 @@
   - 1x Moon Stone (Evolution item)
   - 1x Rare Candy (Found in Mt. Moon 1F)
 
-## Gift Pok�mon & Party Capacity Protocol
-- Party Size: 6/6 (FULL).
-- In Gen 1 mechanics, gift Pok�mon (Eevee) cannot be received if party is full (6/6). Must deposit 1 reserve party member (e.g. TITAN the Onix) at Celadon Pok�mon Center PC into Box 1 before claiming Eevee.
-
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
 - Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
@@ -1360,14 +1356,15 @@
     - Lemonade -> TM49 (Tri Attack)
   - Older Sister at (10, 4): Comments on her little sister's immaturity.
 ## Celadon Mansion & Rooftop Topology
-- **Front Entrance**: Located at (24, 9). Leads to 1F lobby (Old Woman with Tea/Meowth), stairs at (7, 1) leading up to 2F/3F Game Freak offices and outdoor roof at (7, 1).
+- **Front Entrance**: Located at (24, 9). Leads to 1F lobby (Old Woman with Tea/Meowth), stairs at (7, 1) leading up to 2F/3F Game Freak offices.
 - **Rear Entrance & Northern Alleyway**:
-  - Access: From eastern avenue near Pok�mon Center (col 44..45, rows 7..13), follow the alleyway north to row 4, turn west through the tree gap at (32..33, 3), and follow the path to the rear door at (24, 4).
+  - Access: From eastern avenue near Pokémon Center (col 44..45, rows 7..13), follow the alleyway north to row 4, turn west through the tree gap at (32..33, 3), and follow the path to the rear door at (24, 4).
   - Interior Rear Stairwell: 1F rear door at (4, 0) -> (4, 1), stairs at (2, 1) ascending to upper floors.
 - **Rooftop & Penthouse**:
   - Outdoor Roof: Tiled patio with potted plants at (0, 7), (7, 7) and penthouse building in center.
-  - Rooftop Penthouse Door: Located at (3, 5).
-  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), central table at cols 1-3, rows 4-6 (undergoing systematic perimeter testing for gift Eevee interaction after depositing a party member).
+  - Rooftop Table at (3..4, 3..4): Gift Poké Ball containing EEVEE (Lv 25) was located at (4, 3) and claimed [Turn 12086, nicknamed PRISM]!
+  - Rooftop Penthouse Door: Located at (2, 7) / (3, 5).
+  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), stairs down at (2, 1) connecting to 3F rear stairwell.
 
 
 <hr>
