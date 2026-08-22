@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 12 (x=4, y=34) - Traversing Silence Bridge south
+- Location: Route 12 (x=12, y=52) - Traversing Silence Bridge south (Fishermen #1-#3 defeated)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

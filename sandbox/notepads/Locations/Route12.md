@@ -32,8 +32,9 @@
 - Fisherman #2: Located at (5, 39). Team: Tentacool Lv 24, Goldeen Lv 24.
   - Pre-battle: "Be patient! Fishing is a waiting game!"
 
-- Fisherman #3: Located at (9, 52) [Turn 11631]. Team: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21.
+- Fisherman #3: Located at (9, 52) [Defeated Turn 11640]. Team: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21. Reward: �735.
   - Pre-battle: "I'd rather be working!"
+  - Defeat quote: "It's not easy..."
 
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
