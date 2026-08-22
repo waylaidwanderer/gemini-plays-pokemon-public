@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=9, y=24)
+- Location: Team Rocket Hideout B2F (x=2, y=19)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1448,6 +1448,12 @@
 - Route 4: (10, 10) [Up] -> North -> (10, 9) [Left] -> West -> Lands on Stop Tile (2, 9).
 - Route 5 (Southern Passage): From Stop Tile (8, 11) -> East to (9, 11) -> South to (9, 12) -> East to (10, 12) -> South to (10, 15) -> East onto Down Spin Tile (11, 15) -> Launches South into Southern B2F Chamber.
 
+
+- Southwest Sector (cols 1-7, rows 18-26):
+  - Stop Tile at (2, 19) [Reached via (8, 23) Up -> (8, 19) Left].
+  - Item Ball at (3, 21) in central desk enclosure.
+  - Western thoroughfare along col 1 (rows 15-25).
+  - Southern corridor along row 25 (cols 1-6).
 
 
 <hr>
