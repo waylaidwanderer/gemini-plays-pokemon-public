@@ -1135,8 +1135,10 @@
 - Pokémart: Located at cols 14-17, rows 10-13 with entrance door at (15, 13) and "MART" sign at (16, 13) [Cataloged Turn 11083].
   - Catalog: Great Ball (¥600), Super Potion (¥700), Revive (¥1500), Escape Rope (¥550), Super Repel (¥500), Antidote (¥100), Burn Heal (¥250), Ice Heal (¥250), Parlyz Heal (¥200).
 
+- Pokémon Tower: Purple multi-story tower located in the northeast (cols 12-18, rows 2-10) with entrance door at (14, 5) and signpost at (17, 7) [Surveyed Turn 11092].
+  - Signpost text: "POKéMON TOWER - May the Souls of POKéMON Rest Easy".
+
 ## Buildings & Points of Interest to Survey
-- Pokémon Tower: Purple multi-story tower visible in the northeast (cols 12-17, rows 2-10).
 - Route 8 Western Gate: Road to Saffron City / Underground Path to Celadon City.
 
 <hr>
