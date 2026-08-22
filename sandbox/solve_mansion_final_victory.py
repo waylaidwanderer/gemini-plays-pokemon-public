@@ -71,17 +71,20 @@ print("Starting solve_mansion_final_victory.py from:", pos)
 
 # 1. If we are on Cinnabar Island
 if pos['x'] >= 0 and pos['x'] <= 20 and pos['y'] >= 0 and pos['y'] <= 20:
-    # Wait, how to distinguish Cinnabar Island from Mansion floors?
-    # Cinnabar Island has specific landmarks. But we can also check if we are at (11, 12).
-    # Since Cinnabar is the only map we DIG out to, let's check if we are on Cinnabar.
-    # On Cinnabar Island, let's walk to the Mansion entrance.
     print("--- PHASE 1: CINNABAR ISLAND TO MANSION ENTRANCE ---")
-    cinnabar_waypoints = [
-        (18, 13),
-        (18, 4),
-        (6, 4),
-        (6, 3) # Mansion Entrance Door warp
-    ]
+    if pos['x'] == 10 and pos['y'] == 7:
+        cinnabar_waypoints = [
+            (10, 4),
+            (6, 4),
+            (6, 3) # Mansion Entrance Door warp
+        ]
+    else:
+        cinnabar_waypoints = [
+            (18, 13),
+            (18, 4),
+            (6, 4),
+            (6, 3) # Mansion Entrance Door warp
+        ]
     if walk_route(cinnabar_waypoints):
         print("Stepping UP to enter the Mansion...")
         mgba.press_buttons(["Up"])
