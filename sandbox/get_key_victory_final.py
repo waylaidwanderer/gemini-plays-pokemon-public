@@ -33,33 +33,60 @@ def walk_step(tx, ty, direction):
 
 # --- THE ABSOLUTE MASTER GET KEY FINAL RUN ---
 
-# 1. Walk from Cinnabar Island (10, 7) to Mansion entrance
-path_enter = [
-    (10, 6, 'Up'),
-    (10, 5, 'Up'),
-    (10, 4, 'Up'),
-    (9, 4, 'Left'),
-    (8, 4, 'Left'),
-    (7, 4, 'Left'),
-    (6, 4, 'Left'),
-    (6, 3, 'Up'),
-]
+pos = mgba.get_coordinates()
+print("Current position:", pos)
 
-print("Step 1: Walking from (10, 7) and entering Mansion...")
-for target in path_enter:
-    tx, ty, d = target
-    if not walk_step(tx, ty, d):
-        print(f"Failed to enter Mansion at ({tx}, {ty})")
+# We are standing at (6, 4) on Cinnabar Island.
+if pos['x'] == 6 and pos['y'] == 4:
+    print("Step 1: Stepping UP to enter Mansion...")
+    mgba.press_buttons(["Up"])
+    time.sleep(3.0) # Wait for transition
+
+    pos_inside = mgba.get_coordinates()
+    print("Position after transition:", pos_inside)
+    if pos_inside['x'] != 5 or pos_inside['y'] != 27:
+        print("Failed to enter Mansion!")
         exit()
 
-time.sleep(2.0) # Wait for transition
-pos_inside = mgba.get_coordinates()
-print("Landed inside Mansion! Position:", pos_inside)
+    # Walk UP immediately to clear exit warp at (5, 27)
+    print("Clearing exit warp...")
+    for _ in range(4):
+        mgba.press_buttons(["Up"])
+        time.sleep(0.55)
 
-# Walk UP immediately to clear exit warp at (5, 27)
-for _ in range(4):
+# If we are not at (6, 4) but at (10, 7), walk to (6, 4) first
+elif pos['x'] == 10 and pos['y'] == 7:
+    path_enter = [
+        (10, 6, 'Up'),
+        (10, 5, 'Up'),
+        (10, 4, 'Up'),
+        (9, 4, 'Left'),
+        (8, 4, 'Left'),
+        (7, 4, 'Left'),
+        (6, 4, 'Left'),
+    ]
+    print("Step 1: Walking to (6, 4)...")
+    for target in path_enter:
+        tx, ty, d = target
+        if not walk_step(tx, ty, d):
+            print(f"Failed to reach target at ({tx}, {ty})")
+            exit()
+            
+    print("Stepping UP to enter Mansion...")
     mgba.press_buttons(["Up"])
-    time.sleep(0.55)
+    time.sleep(3.0) # Wait for transition
+
+    pos_inside = mgba.get_coordinates()
+    print("Position after transition:", pos_inside)
+    if pos_inside['x'] != 5 or pos_inside['y'] != 27:
+        print("Failed to enter Mansion!")
+        exit()
+
+    # Walk UP immediately to clear exit warp at (5, 27)
+    print("Clearing exit warp...")
+    for _ in range(4):
+        mgba.press_buttons(["Up"])
+        time.sleep(0.55)
 
 # 2. Go UP stairs to 2F West
 pos = mgba.get_coordinates()
