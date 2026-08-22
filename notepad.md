@@ -81,7 +81,7 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest)
 - Valuables:
   - 1x Nugget (sellable for 5000)
 - Consumables:
@@ -91,7 +91,6 @@
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
 - Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
-
 
 <hr>
 
