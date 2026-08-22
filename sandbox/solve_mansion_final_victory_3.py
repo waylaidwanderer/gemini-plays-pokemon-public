@@ -45,7 +45,7 @@ def walk_exact_route(waypoints):
                 time.sleep(0.5)
                 pos = mgba.get_coordinates()
                 if pos == pos_before:
-                    print("Physical obstruction. Exiting.")
+                    print("Physical obstruction. Exiting to prevent loop.")
                     return False
             attempts += 1
     return True
@@ -55,13 +55,8 @@ pos = mgba.get_coordinates()
 x, y = pos['x'], pos['y']
 print(f"Detected starting position: ({x}, {y})")
 
-# Clear the "Got away safely!" text first
-print("Clearing battle text...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
-# --- MASTER PHASE 1: 2F East (State B) to 3F East via Row 3 and Column 18 ---
-route_2f = [(26, 3), (18, 3), (18, 11), (15, 11)]
+# --- MASTER PHASE 1: 2F East (State B) to 3F East via Row 15 bypass ---
+route_2f = [(25, 12), (25, 15), (15, 15), (15, 11)]
 if walk_exact_route(route_2f):
     print("At 2F East stairs. Stepping UP to warp...")
     mgba.press_buttons(["Up"])
@@ -82,7 +77,7 @@ if walk_exact_route(route_2f):
             print("State toggled to State A! Current position:", pos_switch)
             
             # --- MASTER PHASE 3: 3F East (State A) to pit at (26, 6) and drop ---
-            route_pit = [(11, 10), (12, 10), (12, 5), (21, 5), (21, 3), (26, 3), (26, 6)]
+            route_pit = [(11, 12), (12, 12), (12, 5), (21, 5), (21, 3), (26, 3), (26, 6)]
             if walk_exact_route(route_pit):
                 print("At pit edge. Stepping LEFT to drop...")
                 mgba.press_buttons(["Left"])
