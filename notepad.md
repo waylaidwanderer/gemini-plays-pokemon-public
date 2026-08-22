@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 12 (x=12, y=52) - Traversing Silence Bridge south (Fishermen #1-#3 defeated)
+- Location: Route 12 (x=8, y=40) - Retracing Silence Bridge north (Fishermen #1-#4 defeated)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1283,8 +1283,9 @@
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
 - TM39 Swift (from NPC girl on Gatehouse 2F)
-- Fisherman #4: Located at (12, 40) [Turn 11650]. Team: Goldeen Lv 27.
+- Fisherman #4: Located at (12, 40) [Defeated Turn 11652]. Team: Goldeen Lv 27. Reward: �945.
   - Pre-battle: "The FISHING FOOL vs. POK�MON KID!"
+  - Defeat quote: "Too much!"
 
 ## Roadblock & Landmarks
 - Sleeping Snorlax: Located at (10, 62) [Discovered Turn 11645]. Dialogue: "A sleeping POK�MON blocks the way!" Blocks the path to the southern sector of Route 12 and Route 13. Requires POK� FLUTE to awaken.
