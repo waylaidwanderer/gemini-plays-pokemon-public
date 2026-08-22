@@ -48,70 +48,72 @@ def walk_exact_route(waypoints):
 print("=== Starting Perfect Mansion Final Victory Route ===")
 pos = mgba.get_coordinates()
 
-# Phase 1: On 2F West (State B) standing at (2, 10), walk to stairs (7, 10) and warp DOWN
-if pos['x'] == 2 and pos['y'] == 10:
-    print("Already at switch stand (2, 10) in State B. Walking to 2F West stairs...")
+# Phase 1: On 1F East (State B) standing at (22, 14), walk back to 1F West stairs (7, 10) and warp UP
+if pos['x'] == 22 and pos['y'] == 14:
+    print("Walking back to 1F West stairs...")
     route_to_stairs = [
-        (2, 11),
+        (24, 14),
+        (24, 15),
+        (24, 11),
+        (26, 11),
+        (26, 3),
+        (20, 3),
+        (20, 4),
+        (18, 4),
+        (18, 6),
+        (12, 6),
+        (12, 11),
         (7, 11),
         (7, 10)
     ]
     if walk_exact_route(route_to_stairs):
-        print("At 2F West stairs. Stepping DOWN to warp to 1F West...")
-        mgba.press_buttons(["Down"])
-        time.sleep(2.5)
-        # Step DOWN once to clear stairs
-        mgba.press_buttons(["Down"])
-        time.sleep(0.5)
-        pos = mgba.get_coordinates()
-        print("Arrived on 1F West in State B:", pos)
-
-# Phase 2: On 1F West (State B), walk direct bypass route to 1F East stairs (18, 10)
-pos = mgba.get_coordinates()
-if pos['x'] >= 2 and pos['x'] <= 26 and pos['y'] >= 3 and pos['y'] <= 12:
-    print("Currently on 1F West/East (State B). Walking bypass route to 1F East stairs...")
-    if pos['x'] <= 12:
-        route_1f = [
-            (12, 11),
-            (12, 6),
-            (18, 6),
-            (18, 4),
-            (20, 4),
-            (20, 3),
-            (26, 3),
-            (26, 11),
-            (18, 11),
-            (18, 10)
-        ]
-    else:
-        route_1f = [
-            (26, 3),
-            (26, 11),
-            (18, 11),
-            (18, 10)
-        ]
-    if walk_exact_route(route_1f):
-        print("At 1F East stairs. Stepping UP to warp to 2F East...")
+        print("At stairs. Stepping UP to warp to 2F West...")
         mgba.press_buttons(["Up"])
         time.sleep(2.5)
         pos = mgba.get_coordinates()
-        print("Arrived on 2F East:", pos)
+        print("Arrived on 2F West:", pos)
 
-# Phase 3: On 2F East (State B), walk to 3F East stairs at (15, 11) and warp UP
+# Phase 2: On 2F West (State B), walk to switch stand (3, 11), face LEFT, toggle to State A
 pos = mgba.get_coordinates()
-if pos['x'] == 20 and pos['y'] == 16:
-    route_2f_east = [
-        (15, 16),
-        (15, 11)
+if (pos['x'] == 7 and pos['y'] == 11) or (pos['x'] == 7 and pos['y'] == 10):
+    print("Walking to 2F West switch stand (3, 11)...")
+    route_to_switch = [
+        (3, 11)
     ]
-    if walk_exact_route(route_2f_east):
-        print("At 2F East stairs. Stepping UP to warp to 3F East...")
-        mgba.press_buttons(["Up"])
-        time.sleep(2.5)
-        pos = mgba.get_coordinates()
-        print("Arrived on 3F East:", pos)
+    if walk_exact_route(route_to_switch):
+        print("At 2F West switch stand. Facing LEFT and toggling switch to State A...")
+        mgba.press_buttons(["Left"])
+        time.sleep(0.5)
+        mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+        time.sleep(1.5)
+        print("Switch toggled back to State A! Walking across 2F West to 2F East along Row 3...")
+        
+        route_2f_east_state_a = [
+            (7, 11),
+            (7, 3),
+            (26, 3),
+            (26, 16),
+            (15, 16),
+            (15, 12),
+            (16, 12),
+            (16, 11)
+        ]
+        if walk_exact_route(route_2f_east_state_a):
+            print("At 2F East switch stand. Facing LEFT and toggling switch to State B...")
+            mgba.press_buttons(["Left"])
+            time.sleep(0.5)
+            mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+            time.sleep(1.5)
+            
+            print("Warping UP to 3F East...")
+            mgba.press_buttons(["Left"])
+            time.sleep(0.5)
+            mgba.press_buttons(["Up"])
+            time.sleep(2.5)
+            pos = mgba.get_coordinates()
+            print("Arrived on 3F East:", pos)
 
-# Phase 4: On 3F East (State B), walk to pit at (26, 6) and drop to 1F fenced room
+# Phase 3: On 3F East (State B), walk to pit at (26, 6) and drop to 1F fenced room
 pos = mgba.get_coordinates()
 if pos['x'] == 16 and pos['y'] == 11:
     route_pit_3f = [
@@ -135,7 +137,7 @@ if pos['x'] == 16 and pos['y'] == 11:
         pos = mgba.get_coordinates()
         print("Landed on B1F East:", pos)
 
-# Phase 5: On B1F East (State B), walk directly LEFT to Secret Key, retrieve, and DIG out
+# Phase 4: On B1F East (State B), walk directly LEFT to Secret Key, retrieve, and DIG out
 pos = mgba.get_coordinates()
 if pos['x'] == 25 and pos['y'] == 5:
     route_key = [
