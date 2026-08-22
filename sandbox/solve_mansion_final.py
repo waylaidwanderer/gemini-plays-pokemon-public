@@ -46,20 +46,23 @@ def walk_to_with_flee(tx, ty):
         step_count += 1
     return True
 
-# Start by dismissing "Got away safely!" from the previous turn
-print("Dismissing 'Got away safely!'...")
-mgba.press_buttons(["B", "sleep 1000"])
-
 pos = mgba.get_coordinates()
 print("Starting 3F West toggle run from:", pos)
 
-# We are currently at (26, 11). Remaining path to (2, 12):
-path = [
-    (26, 3),
-    (19, 3),
-    (2, 3),
-    (2, 12)
-]
+if pos['x'] == 10 and pos['y'] == 4:
+    # Walk to 3F West Switch at (2, 12)
+    path = [
+        (10, 3),
+        (2, 3),
+        (2, 12)
+    ]
+else:
+    # Dynamic fallback path if already on Row 3
+    path = [
+        (pos['x'], 3),
+        (2, 3),
+        (2, 12)
+    ]
 
 success = True
 for target in path:
