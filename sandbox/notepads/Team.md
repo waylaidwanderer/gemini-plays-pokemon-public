@@ -2,12 +2,12 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 44
-   - Stats (Verified at Lv 44): Max HP 145 (HP: 140/145), Attack 99, Defense 110, Speed 100, Special 104
+   - Stats (Verified at Lv 44): Max HP 145 (HP: 129/145), Attack 99, Defense 110, Speed 100, Special 104
    - Type: Water
-   - Moves: Skull Bash (13/15), Tail Whip (29/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (11/15), Tail Whip (28/30), Bite (21/25), Bubblebeam (16/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
-   - Stats: Max HP 26 (HP: 26/26)
+   - Stats: Max HP 26 (HP: 19/26)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
@@ -27,13 +27,13 @@
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
 6. TITAN (Onix) - Lv 13
-   - Stats: Max HP 32 (HP: 32/32)
+   - Stats: Max HP 32 (HP: 30/32)
    - Type: Rock / Ground
    - Moves: Tackle (35/35), Screech (30/30)
    - Role: Physical Rock/Ground tank
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
