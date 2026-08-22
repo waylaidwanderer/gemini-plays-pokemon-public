@@ -21,7 +21,7 @@
 - **B1F South-East gate at `(10, 11)`:** CLOSED.
 - **3F East gate at `(15, 11)` (stairs):** OPEN.
 - **B1F North-Central gate at `(9, 5)`:** OPEN (allows horizontal crossing from B1F East NORTH to B1F West NORTH!).
-- **3F Balcony Gate at `(20, 17)`:** CLOSED.
+- **3F Balcony Gate at `(20, 17)`:** OPEN.
 
 ---
 
