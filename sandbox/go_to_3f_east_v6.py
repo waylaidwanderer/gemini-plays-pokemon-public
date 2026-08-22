@@ -31,33 +31,35 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (20, 16) on 2F East in State B
+# Starting at (21, 16) on 2F East in State B
 pos = mgba.get_coordinates()
 print("Starting go_to_3f_east_v6 from:", pos)
 
-if pos['x'] == 20 and pos['y'] == 16:
+if pos['x'] == 21 and pos['y'] == 16:
     path = [
-        # Walk RIGHT along Row 16 to Column 24
-        (21, 16, 'Right'),
-        (22, 16, 'Right'),
-        (23, 16, 'Right'),
-        (24, 16, 'Right'),
-        # Walk UP Column 24 to Row 12
-        (24, 15, 'Up'),
-        (24, 14, 'Up'),
-        (24, 13, 'Up'),
-        (24, 12, 'Up'),
-        # Walk LEFT along Row 12 to Column 15
-        (23, 12, 'Left'),
-        (22, 12, 'Left'),
-        (21, 12, 'Left'),
-        (20, 12, 'Left'),
-        (19, 12, 'Left'),
-        (18, 12, 'Left'),
-        (17, 12, 'Left'),
-        (16, 12, 'Left'),
-        (15, 12, 'Left'),
+        # Walk DOWN Column 21 to Row 20
+        (21, 17, 'Down'),
+        (21, 18, 'Down'),
+        (21, 19, 'Down'),
+        (21, 20, 'Down'),
+        # Walk LEFT to Column 20
+        (20, 20, 'Left'),
+        # Walk UP Column 20 to Row 18
+        (20, 19, 'Up'),
+        (20, 18, 'Up'),
+        # Walk LEFT along Row 18 to Column 15
+        (19, 18, 'Left'),
+        (18, 18, 'Left'),
+        (17, 18, 'Left'),
+        (16, 18, 'Left'),
+        (15, 18, 'Left'),
         # Walk UP Column 15 to Row 11
+        (15, 17, 'Up'),
+        (15, 16, 'Up'),
+        (15, 15, 'Up'),
+        (15, 14, 'Up'),
+        (15, 13, 'Up'),
+        (15, 12, 'Up'),
         (15, 11, 'Up'),
     ]
     
