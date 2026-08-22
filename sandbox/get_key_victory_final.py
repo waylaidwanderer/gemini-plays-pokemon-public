@@ -11,7 +11,8 @@ def handle_battle():
 
 def walk_step(tx, ty, direction):
     attempts = 0
-    while attempts < 10:
+    # CORRECTED FROM 10 TO 40 TO ALLOW LONGER WALKS (like Column 7 Row 23 to Row 10)!
+    while attempts < 40:
         pos = mgba.get_coordinates()
         if pos['x'] == tx and pos['y'] == ty:
             return True
@@ -31,12 +32,14 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# --- THE ABSOLUTE MASTER GET KEY FINAL RUN ---
+# --- THE ABSOLUTE MASTER GET KEY FINAL RUN (RESUMABLE & ROBUST) ---
 
 pos = mgba.get_coordinates()
 print("Current position:", pos)
 
-# We are standing at (8, 5) on Cinnabar Island.
+# --- RESUME LOGIC SYSTEM ---
+
+# A. Outside on Cinnabar Island at (8, 5)
 if pos['x'] == 8 and pos['y'] == 5:
     path_enter = [
         (7, 5, 'Left'),
@@ -66,12 +69,21 @@ if pos['x'] == 8 and pos['y'] == 5:
         mgba.press_buttons(["Up"])
         time.sleep(0.55)
 
-# 2. Go UP stairs to 2F West
+# B. Inside on 1F West, on Column 7 on the way to the stairs
+pos = mgba.get_coordinates()
+if pos['x'] == 7 and (pos['y'] >= 10 and pos['y'] <= 23):
+    print("Resuming Step 2: Going UP Column 7 to 2F West stairs...")
+    if not walk_step(7, 10, 'Up'):
+        print("Failed to reach 2F West stairs at (7, 10)")
+        exit()
+    time.sleep(2.0) # Wait for stairs transition
+
+# C. Inside on 1F West, near doormat but cleared warp
 pos = mgba.get_coordinates()
 if pos['x'] == 5 and pos['y'] == 23:
     path_to_stairs = [
         (7, 23, 'Right'),
-        (7, 10, 'Up'),  # CORRECTED FROM 'Down' TO 'Up'!
+        (7, 10, 'Up'),
     ]
     print("Step 2: Going UP the stairs to 2F West...")
     for target in path_to_stairs:
@@ -79,7 +91,6 @@ if pos['x'] == 5 and pos['y'] == 23:
         if not walk_step(tx, ty, d):
             print(f"Failed to reach 2F West stairs at ({tx}, {ty})")
             exit()
-            
     time.sleep(2.0) # Wait for stairs transition
 
 # 3. Walk to 2F West switch and toggle to State B
