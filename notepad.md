@@ -64,8 +64,8 @@
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
-5. ATLAS (Machop) - Lv 15
-   - Stats: Max HP 49 (HP: 49/49)
+5. ATLAS (Machop) - Lv 16
+   - Stats: Max HP 51 (HP: 51/51) [Rare Candy applied Turn 12252]
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
@@ -91,7 +91,6 @@
   - 5x Super Potion
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
-  - 1x Rare Candy (Mt. Moon 1F)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
   - 1x Lemonade
