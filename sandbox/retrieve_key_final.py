@@ -44,15 +44,14 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Secret Key Retrieval from (21, 6) ===")
+print("=== Starting Perfect Secret Key Retrieval from (25, 3) ===")
 pos = mgba.get_coordinates()
 
-if pos['x'] == 21 and pos['y'] == 6:
-    # Route: Up to Row 3, Right to Column 25, Down to Row 9, Left to Column 18 (Switch)
+if pos['x'] == 25 and pos['y'] == 3:
+    # Route: Right to Column 26, Down to Row 9, Left to Column 18 (Switch)
     route_switch = [
-        (21, 3),
-        (25, 3),
-        (25, 9),
+        (26, 3),
+        (26, 9),
         (18, 9)
     ]
     if walk_exact_route(route_switch):
