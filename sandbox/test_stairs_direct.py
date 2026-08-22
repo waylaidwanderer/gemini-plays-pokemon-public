@@ -51,8 +51,8 @@ def walk_exact_route(waypoints):
 
 print("Current coordinates:", mgba.get_coordinates())
 
-# Direct walk to (26, 6) stairs and warp to 2F East (26, 7)
-route_1f = [(26, 6)]
+# Direct walk via Row 3 to (26, 6) stairs and warp to 2F East (26, 7)
+route_1f = [(21, 3), (26, 3), (26, 6)]
 if walk_exact_route(route_1f):
     print("At 1F East stairs (26, 6). Stepping UP to warp...")
     mgba.press_buttons(["Up"])
@@ -60,17 +60,36 @@ if walk_exact_route(route_1f):
     pos_2f = mgba.get_coordinates()
     print("Arrived on 2F East:", pos_2f)
     
-    # Try the direct walk to (15, 11) on 2F East
-    route_2f = [(26, 11), (15, 11)]
-    if walk_exact_route(route_2f):
-        print("At 2F East stairs. Stepping UP to warp...")
-        mgba.press_buttons(["Up"])
-        time.sleep(2.5)
-        print("Arrived on 3F East:", mgba.get_coordinates())
-        mgba.take_screenshot()
-    else:
-        print("FAILED 2F East direct walk.")
-        mgba.take_screenshot()
+    # --- MASTER PHASE 2: 2F East (State B) to 3F East via Row 3 and Column 18 ---
+    if pos_2f['x'] == 26 and pos_2f['y'] == 7:
+        route_2f = [(26, 3), (18, 3), (18, 11), (15, 11)]
+        if walk_exact_route(route_2f):
+            print("At 2F East stairs. Stepping UP to warp...")
+            mgba.press_buttons(["Up"])
+            time.sleep(2.5)
+            pos_3f = mgba.get_coordinates()
+            print("Arrived on 3F East:", pos_3f)
+            
+            # --- MASTER PHASE 3: 3F East (State B) to 3F Switch and toggle to State A ---
+            if pos_3f['x'] == 16 and pos_3f['y'] == 11:
+                route_3f = [(23, 11), (23, 3), (11, 3), (11, 11)]
+                if walk_exact_route(route_3f):
+                    print("At 3F East switch at (11, 11). Facing RIGHT and toggling to State A...")
+                    mgba.press_buttons(["Right"])
+                    time.sleep(0.5)
+                    mgba.press_buttons(["A", "sleep 600", "A", "sleep 600", "B"])
+                    time.sleep(1.5)
+                    pos_switch = mgba.get_coordinates()
+                    print("State toggled to State A! Current position:", pos_switch)
+                    
+                    # --- MASTER PHASE 4: 3F East (State A) to balcony drop at (24, 14) and drop ---
+                    route_drop = [(11, 12), (24, 12), (24, 14)]
+                    if walk_exact_route(route_drop):
+                        print("At balcony drop. Stepping LEFT to drop...")
+                        mgba.press_buttons(["Left"])
+                        time.sleep(3.0)
+                        print("LANDED ON B1F! Current position:", mgba.get_coordinates())
+                        mgba.take_screenshot()
 else:
     print("FAILED 1F East walk.")
     mgba.take_screenshot()
