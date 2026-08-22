@@ -92,7 +92,7 @@ if CURRENT_PHASE == 1:
 pos = mgba.get_coordinates()
 
 # --- PHASE 2: 1F WEST TO 1F EAST (STATE A) ---
-if pos['x'] == 5 and pos['y'] == 27 and CURRENT_PHASE == 2:
+if CURRENT_PHASE == 2:
     print("--- RUNNING PHASE 2: 1F WEST TO 1F EAST (STATE A) ---")
     mansion_1f_west_waypoints = [
         (5, 11),
