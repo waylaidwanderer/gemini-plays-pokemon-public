@@ -31,25 +31,40 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Flee from Grimer battle
-print("Fleeing from wild Grimer battle...")
+# Flee from Ponyta battle
+print("Fleeing from wild Ponyta battle...")
 handle_battle()
 time.sleep(1.5)
 
 pos = mgba.get_coordinates()
 print("Position after fleeing battle:", pos)
 
-# Walk from 1F East (26, 6) to 1F West stairs (7, 10)
-if pos['x'] == 26 and pos['y'] == 6:
+# Walk from 1F East (23, 11) to 1F West stairs (7, 10) via Row 3
+if pos['x'] == 23 and pos['y'] == 11:
     path = [
-        # Walk UP to Row 5 to step off stairs
+        # Walk RIGHT to Column 26
+        (24, 11, 'Right'),
+        (25, 11, 'Right'),
+        (26, 11, 'Right'),
+        # Walk UP Column 26 to Row 3
+        (26, 10, 'Up'),
+        (26, 9, 'Up'),
+        (26, 8, 'Up'),
+        (26, 7, 'Up'),
+        (26, 6, 'Up'),
         (26, 5, 'Up'),
-        # Walk LEFT along Row 5 all the way to Column 12
-        (25, 5, 'Left'),
-        (24, 5, 'Left'),
-        (23, 5, 'Left'),
-        (22, 5, 'Left'),
-        (21, 5, 'Left'),
+        (26, 4, 'Up'),
+        (26, 3, 'Up'),
+        # Walk LEFT along Row 3 to Column 21
+        (25, 3, 'Left'),
+        (24, 3, 'Left'),
+        (23, 3, 'Left'),
+        (22, 3, 'Left'),
+        (21, 3, 'Left'),
+        # Walk DOWN Column 21 to Row 5
+        (21, 4, 'Down'),
+        (21, 5, 'Down'),
+        # Walk LEFT along Row 5 to Column 12
         (20, 5, 'Left'),
         (19, 5, 'Left'),
         (18, 5, 'Left'),
