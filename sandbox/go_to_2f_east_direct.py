@@ -31,16 +31,13 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting at (18, 6) on 1F East inside the Mansion
+# Starting at (21, 6) on 1F East inside the Mansion
 pos = mgba.get_coordinates()
 print("Starting go_to_2f_east_direct from:", pos)
 
-if pos['x'] == 18 and pos['y'] == 6:
+if pos['x'] == 21 and pos['y'] == 6:
     path = [
-        # Walk RIGHT to Column 26 on Row 6
-        (19, 6, 'Right'),
-        (20, 6, 'Right'),
-        (21, 6, 'Right'),
+        # Walk RIGHT along Row 6 to Column 26
         (22, 6, 'Right'),
         (23, 6, 'Right'),
         (24, 6, 'Right'),
@@ -52,7 +49,7 @@ if pos['x'] == 18 and pos['y'] == 6:
         (26, 9, 'Down'),
         (26, 10, 'Down'),
         (26, 11, 'Down'),
-        # Walk LEFT along Row 11 to Column 16
+        # Walk LEFT along Row 11 to Column 18
         (25, 11, 'Left'),
         (24, 11, 'Left'),
         (23, 11, 'Left'),
@@ -61,8 +58,8 @@ if pos['x'] == 18 and pos['y'] == 6:
         (20, 11, 'Left'),
         (19, 11, 'Left'),
         (18, 11, 'Left'),
-        (17, 11, 'Left'),
-        (16, 11, 'Left'),
+        # Walk UP to stairs at (18, 10)
+        (18, 10, 'Up'),
     ]
     
     print("Walking path to 1F East stairs...")
@@ -72,9 +69,9 @@ if pos['x'] == 18 and pos['y'] == 6:
             print(f"Failed to reach target at ({tx}, {ty})")
             exit()
             
-    print("Stepping DOWN onto the stairs to 2F East...")
-    mgba.press_buttons(["Down"])
+    print("Stepping UP to enter 1F East stairs...")
+    mgba.press_buttons(["Up"])
     time.sleep(2.0)
 
-print("Final position after script:", mgba.get_coordinates())
+print("Final position after 1F East stairs warp:", mgba.get_coordinates())
 mgba.take_screenshot()
