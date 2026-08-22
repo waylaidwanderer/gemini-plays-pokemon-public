@@ -36,36 +36,14 @@ def walk_step(tx, ty, direction):
 pos = mgba.get_coordinates()
 print("Current position:", pos)
 
-# We are standing at (6, 4) on Cinnabar Island.
-if pos['x'] == 6 and pos['y'] == 4:
-    print("Step 1: Stepping UP to enter Mansion...")
-    mgba.press_buttons(["Up"])
-    time.sleep(3.0) # Wait for transition
-
-    pos_inside = mgba.get_coordinates()
-    print("Position after transition:", pos_inside)
-    if pos_inside['x'] != 5 or pos_inside['y'] != 27:
-        print("Failed to enter Mansion!")
-        exit()
-
-    # Walk UP immediately to clear exit warp at (5, 27)
-    print("Clearing exit warp...")
-    for _ in range(4):
-        mgba.press_buttons(["Up"])
-        time.sleep(0.55)
-
-# If we are not at (6, 4) but at (10, 7), walk to (6, 4) first
-elif pos['x'] == 10 and pos['y'] == 7:
+# We are standing at (8, 5) on Cinnabar Island.
+if pos['x'] == 8 and pos['y'] == 5:
     path_enter = [
-        (10, 6, 'Up'),
-        (10, 5, 'Up'),
-        (10, 4, 'Up'),
-        (9, 4, 'Left'),
-        (8, 4, 'Left'),
-        (7, 4, 'Left'),
-        (6, 4, 'Left'),
+        (7, 5, 'Left'),
+        (6, 5, 'Left'),
+        (6, 4, 'Up'),
     ]
-    print("Step 1: Walking to (6, 4)...")
+    print("Step 1: Walking to (6, 4) on Cinnabar Island...")
     for target in path_enter:
         tx, ty, d = target
         if not walk_step(tx, ty, d):
@@ -93,7 +71,7 @@ pos = mgba.get_coordinates()
 if pos['x'] == 5 and pos['y'] == 23:
     path_to_stairs = [
         (7, 23, 'Right'),
-        (7, 10, 'Down'),
+        (7, 10, 'Up'),  # CORRECTED FROM 'Down' TO 'Up'!
     ]
     print("Step 2: Going UP the stairs to 2F West...")
     for target in path_to_stairs:
