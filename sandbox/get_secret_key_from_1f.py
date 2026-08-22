@@ -31,32 +31,34 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Starting outside on Cinnabar Island at (11, 12) (State A)
+# Starting outside on Cinnabar Island at (15, 12) (State A)
 pos = mgba.get_coordinates()
-print("Starting definitive State A Mansion Part 1 from outside:", pos)
+print("Starting definitive State A Mansion Part 1 from outside (15, 12):", pos)
 
-if pos['x'] == 11 and pos['y'] == 12:
+if pos['x'] == 15 and pos['y'] == 12:
     path_enter = [
-        # Walk RIGHT to Column 13 to bypass Pokemon Center door (11, 11) and Lab door (10, 11)
-        (12, 12, 'Right'),
-        (13, 12, 'Right'),
-        # Walk UP Column 13 to Row 4
-        (13, 11, 'Up'),
-        (13, 10, 'Up'),
-        (13, 9, 'Up'),
-        (13, 8, 'Up'),
-        (13, 7, 'Up'),
-        (13, 6, 'Up'),
-        (13, 5, 'Up'),
-        (13, 4, 'Up'),
-        # Walk LEFT along Row 4 to Column 6
-        (12, 4, 'Left'),
-        (11, 4, 'Left'),
-        (10, 4, 'Left'),
-        (9, 4, 'Left'),
-        (8, 4, 'Left'),
-        (7, 4, 'Left'),
-        (6, 4, 'Left'),
+        # Walk LEFT along Row 12 to Column 5 (completely safe edge)
+        (14, 12, 'Left'),
+        (13, 12, 'Left'),
+        (12, 12, 'Left'),
+        (11, 12, 'Left'),
+        (10, 12, 'Left'),
+        (9, 12, 'Left'),
+        (8, 12, 'Left'),
+        (7, 12, 'Left'),
+        (6, 12, 'Left'),
+        (5, 12, 'Left'),
+        # Walk UP Column 5 to Row 4
+        (5, 11, 'Up'),
+        (5, 10, 'Up'),
+        (5, 9, 'Up'),
+        (5, 8, 'Up'),
+        (5, 7, 'Up'),
+        (5, 6, 'Up'),
+        (5, 5, 'Up'),
+        (5, 4, 'Up'),
+        # Walk RIGHT along Row 4 to Column 6
+        (6, 4, 'Right'),
         # Step UP to enter Mansion
         (6, 3, 'Up'),
     ]
