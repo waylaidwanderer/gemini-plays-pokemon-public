@@ -24,6 +24,7 @@
   - Resident near Pokémon Tower at (15, 9).
 
 - South-Central House: Located at cols 6-9, rows 12-13 with door at (7, 13).
+  - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4). Resident at (5, 3).
 - South-West House (Name Rater): Located at cols 2-5, rows 12-13 with door at (3, 13).
 
 ## Buildings & Points of Interest to Survey
