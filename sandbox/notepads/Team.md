@@ -14,7 +14,7 @@
 3. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Slide
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 4. SPROUT (Bellsprout) - Lv 16
    - Stats: Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
@@ -41,7 +41,7 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS, TM48 Rock Slide on TERRA]
+- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 2x Nugget (sellable for 10000 total - 1x Route 24, 1x Rocket Hideout B2F)
 - Consumables & Field Items:
