@@ -1461,6 +1461,15 @@
   - From Stop Tile (11, 20) -> (10, 20) -> (10, 19) [Up] -> launches through (10, 17) [Right] -> (12, 17) [Right] -> (14, 17) [Up] -> lands at Stop Tile (14, 15).
   - From Stop Tile (14, 15) -> (15, 15) -> (16, 15) -> Step onto (16, 14) [Up] -> lands on Stop Tile (16, 13).
   - From Stop Tile (16, 13) -> Walk East across cols 17-25 to enter the eastern corridor leading to B1F stairs at (27, 8) and B3F stairs at (21, 22).
+- Complete Path from B1F Stairs to B3F Stairs:
+  1. From (27, 8) / (16, 8) enter upper maze at (17, 10) [Left] -> (14, 12).
+  2. From (14, 12) -> (12, 11) [Up] -> (2, 9).
+  3. From (2, 9) -> (4, 11) [Right] -> (8, 11).
+  4. From (8, 11) -> (10, 11) -> (10, 14) -> (11, 14) [Down] -> (15, 18).
+  5. From (15, 18) -> (13, 18) [Left] -> (11, 20).
+  6. From (11, 20) -> (14, 20) -> (14, 22) -> (13, 22) [Left] -> (9, 24).
+  7. From (9, 24) -> (10, 24) -> (10, 25) [Right] -> (14, 25).
+  8. From (14, 25) -> (16, 25) -> (16, 23) -> (17, 23) -> (17, 21) -> (21, 21) -> (21, 22) [Stairs down to B3F].
 
 <hr>
 
