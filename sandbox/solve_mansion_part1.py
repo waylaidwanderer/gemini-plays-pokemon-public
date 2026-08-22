@@ -1,33 +1,5 @@
 import mgba
 import time
-import os
-
-# Cleanup extensionless notepads
-extensionless_to_delete = [
-    'notepads/Locations/FuchsiaGym',
-    'notepads/Locations/SafariZone'
-]
-for path in extensionless_to_delete:
-    if os.path.exists(path):
-        try:
-            os.remove(path)
-            print(f"Deleted extensionless notepad: {path}")
-        except Exception as e:
-            print(f"Error deleting {path}: {e}")
-
-# Update Progression_And_Party_Stats.md
-stats_path = "notepads/Progression_And_Party_Stats.md"
-if os.path.exists(stats_path):
-    with open(stats_path, 'r') as f:
-        content = f.read()
-    obsolete = "- **SECRET KEY:** Located on B1F West at `(1, 4)`, currently retrieving it."
-    if obsolete in content:
-        content = content.replace(obsolete, "- **SECRET KEY:** Located on B1F West at `(1, 4)`, currently retrieving it.")
-    # Ensure there is no mention of "but not yet retrieved because our Bag was full!"
-    content = content.replace("but not yet retrieved because our Bag was full!", "")
-    with open(stats_path, 'w') as f:
-        f.write(content)
-    print("Updated Progression_And_Party_Stats.md")
 
 def handle_battle():
     print("Coordinates did not change. Likely a battle! Attempting to flee...")
@@ -59,28 +31,19 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# --- PART 1: WALK OUTSIDE VIA COLUMN 17 TO MANSION AND TOGGLE SWITCH ON 2F WEST ---
+# --- PART 1 (CONTINUED): WALK FROM (18, 8) TO 2F WEST SWITCH AND TOGGLE TO STATE B ---
 
 pos = mgba.get_coordinates()
-print("Starting definitive Mansion run Part 1 from Cinnabar outside:", pos)
+print("Starting Mansion run Part 1 from:", pos)
 
-if pos['x'] == 11 and pos['y'] == 12:
+if pos['x'] == 18 and pos['y'] == 8:
     path_enter = [
-        (12, 12, 'Right'), # Move Right to Column 17 to bypass Poké Center
-        (13, 12, 'Right'),
-        (14, 12, 'Right'),
-        (15, 12, 'Right'),
-        (16, 12, 'Right'),
-        (17, 12, 'Right'),
-        (17, 11, 'Up'), # Walk UP Column 17 to Row 4
-        (17, 10, 'Up'),
-        (17, 9, 'Up'),
-        (17, 8, 'Up'),
-        (17, 7, 'Up'),
-        (17, 6, 'Up'),
-        (17, 5, 'Up'),
-        (17, 4, 'Up'),
-        (16, 4, 'Left'), # Walk LEFT Row 4 to Column 6
+        (18, 7, 'Up'), # Walk UP Column 18 to Row 4
+        (18, 6, 'Up'),
+        (18, 5, 'Up'),
+        (18, 4, 'Up'),
+        (17, 4, 'Left'), # Walk LEFT along Row 4 to Column 6
+        (16, 4, 'Left'),
         (15, 4, 'Left'),
         (14, 4, 'Left'),
         (13, 4, 'Left'),
