@@ -77,7 +77,7 @@ if pos['x'] >= 0 and pos['x'] <= 20 and pos['y'] >= 0 and pos['y'] <= 20:
     # On Cinnabar Island, let's walk to the Mansion entrance.
     print("--- PHASE 1: CINNABAR ISLAND TO MANSION ENTRANCE ---")
     cinnabar_waypoints = [
-        (5, 12),
+        (6, 12),
         (12, 12),
         (12, 4),
         (6, 4),
