@@ -20,3 +20,5 @@
   - Defeat quote: "I think PIDGEY and RATTATA are cute too!"
 - Lass #3 (Trainer Line): Located at (26, 6) [Defeated Turn 11135]. Team: Pidgey Lv 19, Rattata Lv 19, Nidoran♂ Lv 19, Meowth Lv 19.
   - Pre-battle: "We must look silly standing here like this!"
+- Gambler #2: Located at (13, 9) [Defeated Turn 11140]. Team: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22.
+  - Pre-battle: "I'm a rambling, gambling dude!"
