@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=6, y=20)
+- Location: Team Rocket Hideout B2F (x=4, y=21)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -88,7 +88,7 @@
 - Valuables:
   - 2x Nugget (sellable for 10000 total - 1x Route 24, 1x Rocket Hideout B2F)
 - Consumables & Field Items:
-  - 5x Super Potion
+  - 6x Super Potion
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
@@ -1451,7 +1451,7 @@
 
 - Southwest Sector (cols 1-7, rows 18-26):
   - Stop Tile at (2, 19) [Reached via (8, 23) Up -> (8, 19) Left].
-  - Item Ball at (3, 21) in central desk enclosure.
+  - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
   - Western thoroughfare along col 1 (rows 15-25).
   - Southern corridor along row 25 (cols 1-6).
 
