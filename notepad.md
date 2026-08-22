@@ -15,7 +15,7 @@
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
 
 
-- Location: Pokémon Tower 1F (x=10, y=12)
+- Location: Lavender Town (x=14, y=6)
 
 
 
