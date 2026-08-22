@@ -18,3 +18,5 @@
 - Lass #2 (Trainer Line): Located at (26, 5) [Defeated Turn 11126]. Team: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
   - Pre-battle: "MEOWTH is so cute, meow, meow, meow!"
   - Defeat quote: "I think PIDGEY and RATTATA are cute too!"
+- Lass #3 (Trainer Line): Located at (26, 6) [Defeated Turn 11135]. Team: Pidgey Lv 19, Rattata Lv 19, Nidoran♂ Lv 19, Meowth Lv 19.
+  - Pre-battle: "We must look silly standing here like this!"
