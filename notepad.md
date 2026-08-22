@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=16, y=25)
+- Location: Team Rocket Hideout B3F (x=21, y=25)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1450,5 +1450,26 @@
 - Route 5 (Southern Passage): From Stop Tile (8, 11) -> East to (9, 11) -> South to (9, 12) -> East to (10, 12) -> South to (10, 15) -> East onto Down Spin Tile (11, 15) -> Launches South into Southern B2F Chamber.
 
 
+
+<hr>
+
+<h1><code>Locations/RocketHideoutB3F</code></h1>
+
+# Team Rocket Hideout B3F - Topology & Dungeon Log
+
+## Connections & Warps
+- Stairs Up to B2F: Located at (21, 24), leads up to Rocket Hideout B2F at (21, 22).
+- Stairs Down to B4F: To be located.
+- Elevator Shaft: Located in southern sector.
+
+## Floor Layout & Mechanics
+- Floor layout contains maze corridors, Grunts, and spin tiles.
+- Key items: Rare Candy / TM / Lift Key on lower floors.
+
+## Exploration Log
+- Arrived on B3F at (21, 25) via stairs at (21, 24) [Turn 12266].
+
+- Rocket Grunt #1: Located at (17, 25) facing East [Engaged Turn 12267].
+  - Dialogue: "Why did you come here?"
 
 <hr>

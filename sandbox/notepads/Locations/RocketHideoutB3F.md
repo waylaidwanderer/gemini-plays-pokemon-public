@@ -11,3 +11,6 @@
 
 ## Exploration Log
 - Arrived on B3F at (21, 25) via stairs at (21, 24) [Turn 12266].
+
+- Rocket Grunt #1: Located at (17, 25) facing East [Engaged Turn 12267].
+  - Dialogue: "Why did you come here?"
