@@ -26,13 +26,16 @@
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
-
+6. PRISM (Eevee) - Lv 25
+   - Stats: Max HP 67 (HP: 67/67), Type: Normal
+   - Moves: Tackle, Sand-Attack, Quick Attack
+   - Role: Multi-type evolution potential (Fire/Water/Thunder Stone ready at Celadon Dept Store 4F) [Claimed Turn 12086 at Celadon Mansion Roof]
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Boxed Pok�mon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pok�mon Center PC]
+## Boxed Pokémon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
 
 ## Inventory & Resources
@@ -52,21 +55,13 @@
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
 - Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
 
-## Celadon Shopping & Gym Strategy Plan
-- **Rooftop Drinks Priority**:
-  - Saffron City Gate: Needs 1 drink (Fresh Water/Soda Pop/Lemonade) to permanently open all 4 Saffron gatehouses.
-  - Rooftop Girl TM Trades:
-    - Fresh Water -> TM13 (Ice Beam) [Crucial super-effective Ice coverage for Blastoise vs Erika's Grass Gym & Lance's Dragons]
-    - Soda Pop -> TM48 (Rock Slide)
-    - Lemonade -> TM49 (Tri Attack)
-  - Target Purchase: 2x Fresh Water, 2x Soda Pop, 2x Lemonade.
-- **Gym Matchup Preparation (Erika - Grass/Poison)**:
-  - Lead: HYDROS (Blastoise Lv 45).
-  - Teach TM13 (Ice Beam) to HYDROS upon receiving it from the Rooftop Girl to counter Erika's Victreebel, Tangela, and Vileplume with super-effective Special power.
-- **Optional Purchases**:
-  - 1x Poké Doll (¥1000) on 4F for Saffron Copycat (TM31 Mimic) / Marowak ghost bypass.
-  - Evolution Stones: Fire/Water/Thunder/Leaf Stones (¥2100 each) when Eevee is acquired from Celadon Mansion Penthouse.
-6. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 67 (HP: 67/67), Type: Normal
-   - Moves: Tackle, Sand-Attack, Quick Attack
-   - Role: Multi-type evolution potential (Fire/Water/Thunder Stone ready at Celadon Dept Store 4F) [Claimed Turn 12086 at Celadon Mansion Roof]
+## Celadon Evolution & Tactical Planning
+- **PRISM (Eevee) Evolution Analysis**:
+  - Jolteon (Thunderstone ¥2100): High Speed (130 base) + High Special (110 base). STAB Thunderbolt access gives team powerful Electric coverage against Water/Flying types (Lorelei, Lance's Gyarados, Rival's Pidgeot/Charizard/Blastoise). Strongly recommended!
+  - Flareon (Fire Stone ¥2100): High Attack (130 base) + Special (110 base). Fire STAB against Grass/Bug/Ice.
+  - Vaporeon (Water Stone ¥2100): Bulky Water special tank (redundant with starter HYDROS).
+- **Gym Matchup (Erika - Grass/Poison)**:
+  - Lead: HYDROS (Blastoise Lv 45) with Ice Beam (10/10 PP) to easily sweep Victreebel, Tangela, and Vileplume.
+- **Team Rocket Hideout Plan**:
+  - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
+  - ATLAS (Machop) and TERRA (Geodude) available for physical matchups against Raticate, Drowzee, and Koffing.

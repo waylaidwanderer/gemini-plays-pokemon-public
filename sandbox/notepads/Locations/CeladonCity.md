@@ -58,3 +58,11 @@
   - Rooftop Table at (3..4, 3..4): Gift Poké Ball containing EEVEE (Lv 25) was located at (4, 3) and claimed [Turn 12086, nicknamed PRISM]!
   - Rooftop Penthouse Door: Located at (2, 7) / (3, 5).
   - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), stairs down at (2, 1) connecting to 3F rear stairwell.
+
+## Northern Alleyway Bypass Topology
+- **East-West Corridor (rows 1-3, cols 6-48)**:
+  - Continuous open light-green grass corridor running across the entire northern edge of Celadon City.
+  - **Western End (cols 6-13, rows 1-3)**: Connects directly to the western thoroughfare above the Celadon Department Store at (10, 2..4).
+  - **Central Access (cols 21-25, rows 1-4)**: Connects to Celadon Mansion rear door at (24, 4).
+  - **Tree Gap (cols 32-33, rows 2-4)**: Connects the northern corridor to the building alleyways and rear passages behind the central shops.
+  - **Eastern Alcove (cols 44-48, rows 1-7)**: Extends east behind the Pokémon Center to dead-end tree boundary at row 8.
