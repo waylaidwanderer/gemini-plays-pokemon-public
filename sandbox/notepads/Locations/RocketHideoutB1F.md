@@ -37,4 +37,4 @@
 - Rocket Grunt #3: Located at (18, 17) facing North (guarding passage to lower corridors).
 - Sector Partitioning:
   - Row 16 is a solid barrier separating North/Middle B1F from South B1F.
-  - South B1F (Grunt #3 at (18, 17), Item #2 at (9, 17)) is accessed from lower floors / elevator.
+  - South B1F (Grunt #3 at (18, 17)) is accessed from lower floors / elevator.
