@@ -48,3 +48,12 @@
     - Soda Pop -> TM48 (Rock Slide)
     - Lemonade -> TM49 (Tri Attack)
   - Older Sister at (10, 4): Comments on her little sister's immaturity.
+## Celadon Mansion & Rooftop Topology
+- **Front Entrance**: Located at (24, 9). Leads to 1F lobby (Old Woman with Tea/Meowth), stairs at (7, 1) leading up to 2F/3F Game Freak offices and outdoor roof at (7, 1).
+- **Rear Entrance & Northern Alleyway**:
+  - Access: From eastern avenue near Pok�mon Center (col 44..45, rows 7..13), follow the alleyway north to row 4, turn west through the tree gap at (32..33, 3), and follow the path to the rear door at (24, 4).
+  - Interior Rear Stairwell: 1F rear door at (4, 0) -> (4, 1), stairs at (2, 1) ascending to upper floors.
+- **Rooftop & Penthouse**:
+  - Outdoor Roof: Tiled patio with potted plants at (0, 7), (7, 7) and penthouse building in center.
+  - Rooftop Penthouse Door: Located at (3, 5).
+  - Penthouse Interior: Contains blackboard at (3, 7) ("I KNOW EVERYTHING!"), PC monitor at (2, 7), central table at cols 1-3, rows 4-6, and Pok� Ball containing gift Eevee.
