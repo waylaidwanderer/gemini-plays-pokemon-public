@@ -51,10 +51,10 @@ def walk_exact_route(waypoints):
 
 print("Current coordinates:", mgba.get_coordinates())
 
-# Direct test route: from (18, 6) to (15, 11) via Row 3 and Column 26
-route = [(15, 6), (15, 3), (26, 3), (26, 7), (26, 11), (15, 11)]
+# Direct test route from (21, 5) to test Row 15 Column 22 crossing on 2F East
+route = [(21, 3), (26, 3), (26, 15), (15, 15), (15, 11)]
 if walk_exact_route(route):
-    print("SUCCESS! Reached stairs at (15, 11) directly from 2F East!")
+    print("SUCCESS! Reached stairs at (15, 11) via Row 15 bypass!")
     mgba.press_buttons(["Up"])
     time.sleep(2.5)
     print("Coordinates on 3F East:", mgba.get_coordinates())
