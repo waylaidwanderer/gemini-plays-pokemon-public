@@ -44,10 +44,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 44
-   - Stats (Verified at Lv 44): Max HP 145 (HP: 129/145), Attack 99, Defense 110, Speed 100, Special 104
+1. HYDROS (Blastoise) - Lv 45
+   - Stats (Verified at Lv 45): Max HP 149 (HP: 132/149), Attack 101, Defense 113, Speed 103, Special 107
    - Type: Water
-   - Moves: Skull Bash (11/15), Tail Whip (28/30), Bite (21/25), Bubblebeam (16/20)
+   - Moves: Skull Bash (10/15), Tail Whip (28/30), Bite (20/25), Bubblebeam (16/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -1272,6 +1272,9 @@
 - Fisherman #1: Located at (14, 31) [Defeated Turn 11610]. Team: Goldeen Lv 22, Poliwag Lv 22, Goldeen Lv 22. Reward: ¥770.
   - Pre-battle: "Yeah! I got a bite, here!"
   - Defeat quote: "Tch! Just a small fry!"
+
+- Fisherman #2: Located at (5, 39). Team: Tentacool Lv 24, Goldeen Lv 24.
+  - Pre-battle: "Be patient! Fishing is a waiting game!"
 
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
