@@ -44,16 +44,19 @@ def walk_exact_route(waypoints):
             attempts += 1
     return True
 
-print("=== Starting Perfect Secret Key Retrieval from (25, 3) ===")
-pos = mgba.get_coordinates()
+print("=== Starting Perfect Secret Key Retrieval from (26, 9) ===")
 
-if pos['x'] == 25 and pos['y'] == 3:
-    # Route: Right to Column 26, Down to Row 9, Left to Column 18 (Switch)
-    route_switch = [
-        (26, 3),
-        (26, 9),
-        (18, 9)
-    ]
+# 1. Clear text box
+print("Clearing 'Got away safely!' text...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+
+pos = mgba.get_coordinates()
+print("Position after clearing text:", pos)
+
+if pos['x'] == 26 and pos['y'] == 9:
+    # 2. Walk LEFT to (18, 9)
+    route_switch = [(18, 9)]
     if walk_exact_route(route_switch):
         print("At (18, 9). Facing LEFT to look at the statue at (17, 9)...")
         mgba.press_buttons(["Left"])
