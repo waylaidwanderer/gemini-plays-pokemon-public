@@ -1220,7 +1220,7 @@
   - Pre-battle: "Hey, BLUE! What brings you here? Your POKéMON don't look dead! I can at least make them faint! Let's go, pal!"
   - Observed Team:
     1. Pidgeotto Lv 25 [Defeated Turn 11339 - 604 EXP gained]
-    2. Gyarados Lv 23 [In progress]
+    2. Gyarados Lv 23 [Defeated Turn 11344]
     3. Growlithe Lv 22 [Pending]
     4. Kadabra Lv 20 [Pending]
     5. Ivysaur Lv 25 [Pending]
