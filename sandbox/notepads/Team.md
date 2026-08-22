@@ -38,10 +38,13 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM13 (Ice Beam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest)
 - Valuables:
   - 1x Nugget (sellable for 5000)
-- Consumables:
+- Consumables & Drinks:
+  - 1x Fresh Water (reserved for Saffron City Gatehouse Guard)
+  - 2x Soda Pop (1 for Rooftop Girl TM48 trade)
+  - 1x Lemonade (for Rooftop Girl TM49 trade)
   - 1x Moon Stone (Evolution item)
   - 1x Rare Candy (Found in Mt. Moon 1F)
 
