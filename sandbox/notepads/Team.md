@@ -65,3 +65,10 @@
 - **Team Rocket Hideout Plan**:
   - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
   - ATLAS (Machop) and TERRA (Geodude) available for physical matchups against Raticate, Drowzee, and Koffing.
+
+## Pre-Dungeon Supply & Readiness Checklist (Rocket Hideout B1F-B4F)
+- Party Readiness:
+  - Lead: HYDROS (Blastoise Lv 45) - HP 149/149, Special 107. Moves: Ice Beam (10/10), Bubblebeam (20/20), Bite (25/25), Skull Bash (15/15). Total offensive PP: 70 moves. Overlevels all dungeon encounters (Lv 20-29) by 15-25 levels.
+  - Physical Tanks / Reserves: TERRA (Geodude Lv 21, Dig/Rock Throw), ATLAS (Machop Lv 15, Karate Chop), PRISM (Eevee Lv 25).
+- Tactical Policy: One-shot grunts with Bubblebeam/Bite/Ice Beam. Flee wild encounters if any using 1-turn protocol.
+- Optional Supplies: Celadon Dept Store 2F is available immediately nearby if Super Potions / Escape Ropes are desired after obtaining Silph Scope.
