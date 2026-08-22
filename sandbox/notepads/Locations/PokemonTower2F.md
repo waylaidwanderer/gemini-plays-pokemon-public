@@ -5,7 +5,7 @@
 - Upstairs (3F): Stairs at (3, 9)
 
 ## NPCs & Points of Interest
-- NPC / Mourner: Located at (3, 7)
+- Mourner / Channeler: Located at (3, 7). Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
 - Central Memorial Aisles: Gravestones and aisles across rows 2-13, cols 5-14
 
 ## Encounters & Events
