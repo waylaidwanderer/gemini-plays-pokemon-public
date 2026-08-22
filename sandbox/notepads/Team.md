@@ -43,10 +43,14 @@
   - 1x Nugget (sellable for 5000)
 - Consumables & Drinks:
   - 1x Fresh Water (reserved for Saffron City Gatehouse Guard)
-  - 2x Soda Pop (1 for Rooftop Girl TM48 trade)
-  - 1x Lemonade (for Rooftop Girl TM49 trade)
+  - 1x Soda Pop
+  - 1x Lemonade
   - 1x Moon Stone (Evolution item)
   - 1x Rare Candy (Found in Mt. Moon 1F)
+
+## Gift Pok�mon & Party Capacity Protocol
+- Party Size: 6/6 (FULL).
+- In Gen 1 mechanics, gift Pok�mon (Eevee) cannot be received if party is full (6/6). Must deposit 1 reserve party member (e.g. TITAN the Onix) at Celadon Pok�mon Center PC into Box 1 before claiming Eevee.
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
