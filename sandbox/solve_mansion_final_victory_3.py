@@ -55,16 +55,10 @@ pos = mgba.get_coordinates()
 x, y = pos['x'], pos['y']
 print(f"Detected starting position: ({x}, {y})")
 
-# --- PHASE 2b (from 1F East-Central / Row 3): Return to West side via Row 3 and go to (18, 10) ---
-if x >= 22 and y <= 11:
-    print("=== EXECUTING PHASE 2B: 1F EAST-CENTRAL TO 2F EAST (WEST-CENTRAL) ===")
-    
-    # Check if we are on the "Got away safely!" screen and clear it
-    print("Clearing battle text if any...")
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-    
-    route = [(18, 3), (18, 10)]
+# --- PHASE 2b (from 1F East-Central / Column 15): Walk to stairs at (18, 10) via Column 12 highway ---
+if x == 15 and y == 6:
+    print("=== EXECUTING PHASE 2B: 1F COLUMN 15 TO 2F EAST (WEST-CENTRAL) ===")
+    route = [(12, 6), (12, 11), (18, 11), (18, 10)]
     if walk_exact_route(route):
         print("At 1F East stairs. Stepping UP to warp...")
         mgba.press_buttons(["Up"])
