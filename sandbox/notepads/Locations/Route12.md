@@ -29,6 +29,9 @@
   - Pre-battle: "Yeah! I got a bite, here!"
   - Defeat quote: "Tch! Just a small fry!"
 
+- Fisherman #2: Located at (5, 39). Team: Tentacool Lv 24, Goldeen Lv 24.
+  - Pre-battle: "Be patient! Fishing is a waiting game!"
+
 ## Key Items & Milestones
 - Super Rod (from Fishing Guru's brother)
 - TM39 Swift (from NPC girl on Gatehouse 2F)
