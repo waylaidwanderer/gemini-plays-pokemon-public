@@ -84,15 +84,17 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam consumed on HYDROS]
+- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam consumed on HYDROS]
 - Valuables:
   - 1x Nugget (sellable for 5000)
-- Consumables & Drinks:
-  - 1x Fresh Water (reserved for Saffron City Gatehouse Guard)
-  - 1x Soda Pop
+- Consumables & Field Items:
+  - 5x Super Potion
+  - 2x Escape Rope (Verified from B1F/B2F Item Balls)
+  - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
+  - 1x Rare Candy (Mt. Moon 1F)
+  - 1x Fresh Water (Reserved for Saffron Gate Guard)
+  - 2x Soda Pop
   - 1x Lemonade
-  - 1x Moon Stone (Evolution item)
-  - 1x Rare Candy (Found in Mt. Moon 1F)
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
@@ -1443,6 +1445,7 @@
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
 - Route 2: (12, 11) [Up] -> North -> (12, 9) [Left] -> West -> (10, 9) [Left] -> West -> (8, 9) [Left] -> West -> (4, 9) [Left] -> Lands on Stop Tile (2, 9).
 - Route 3: (4, 11) [Right] -> East -> (5, 11) -> (6, 11) -> (7, 11) -> Lands on Stop Tile (8, 11).
+- Route 4: (10, 10) [Up] -> North -> (10, 9) [Left] -> West -> Lands on Stop Tile (2, 9).
 
 
 <hr>
