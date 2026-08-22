@@ -31,11 +31,11 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# Currently at (10, 9) on 2F West/Central (State B)
+# Starting at (10, 11) on 2F West/Central (State B)
 pos = mgba.get_coordinates()
 print("Starting explore_east_road from 2F:", pos)
 
-if pos['x'] == 10 and pos['y'] == 9:
+if pos['x'] == 10 and pos['y'] == 11:
     print("--- STEP 1: GO TO 1F WEST VIA 2F WEST STAIRS ---")
     path_to_stairs = [
         (10, 10, 'Down'),
@@ -53,10 +53,11 @@ if pos['x'] == 10 and pos['y'] == 9:
     mgba.press_buttons(["Down"])
     time.sleep(2.0)
 
-# Land on 1F West (State B)
+# We land on 1F West (State B)
 pos = mgba.get_coordinates()
 print("Position on 1F West after stairs:", pos)
 
+# Typically we land at (7, 11) or (7, 10).
 if pos['x'] == 7:
     print("--- STEP 2: WALKING TO 1F EAST ALTERNATE STAIRS AT (18, 10) VIA ROW 5 ---")
     path_to_alternate_stairs = [
