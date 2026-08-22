@@ -1474,5 +1474,13 @@
   - Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20.
   - Dialogue: "Intruder alert!"
 
+## Floor Layout & Verified Topology
+- Eastern Wing (cols 18-23, rows 16-27):
+  - Stairs up to B2F at (21, 24).
+  - Rocket Grunt #1 at (17, 25) facing East [Defeated Turn 12273].
+  - Rocket Grunt #2 at (18, 18) facing South [Defeated Turn 12280].
+  - Central barrier block at (14..17, 19..24).
+  - Northern bypass corridor connecting to western wing at rows 17-18 (cols 12-22).
+
 
 <hr>

@@ -24,3 +24,6 @@
   - Rocket Grunt #2 at (18, 18) facing South [Defeated Turn 12280].
   - Central barrier block at (14..17, 19..24).
   - Northern bypass corridor connecting to western wing at rows 17-18 (cols 12-22).
+
+## Items & Item Balls
+- Item Ball at (9, 17): Northwest alcove [Discovered Turn 12283].
