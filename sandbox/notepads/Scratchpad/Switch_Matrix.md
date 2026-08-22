@@ -36,10 +36,11 @@
    - Instead, walk back to 2F West, go down to 1F West.
    - On 1F West (State B), walk through the open gate at `(15, 8)` to 1F East, and go UP the stairs to 2F East.
    - On 2F East (State B), we land on the south side of the gate, so walk directly to the stairs at `(15, 11)` and warp UP to 3F East (landing at `(16, 11)`).
-3. **Toggle 3F back to State A to open Balcony Gate:**
-   - On 3F East (State B), walk via Row 6 to the Mewtwo statue switch at `(12, 11)` and toggle it back to State A.
-   - Now the mansion is in State A, and the balcony gate at `(20, 17)` is OPEN.
-   - Walk to the balcony: From `(16, 11)` walk Right to `(21, 11)`, DOWN Column 21 to `(21, 15)`, Left to `(20, 15)`, DOWN Column 20 to `(20, 18)`, and step Left to `(19, 18)` to drop over the balcony, landing on B1F East at `(19, 18)`.
+3. **Toggle 3F back to State A and drop:**
+   - On 3F East (State B), walk via Row 3 and Column 12 to the Mewtwo statue switch at `(12, 11)` and toggle it back to State A.
+   - Now the mansion is in State A. The balcony drop at `(24, 14)` is completely open and unblocked.
+   - Walk to the balcony drop at `(24, 14)` in State A via Row 3, Column 26, and Row 14.
+   - Step DOWN from `(24, 14)` to drop over the balcony. We land on B1F East South in State A, which is open and allows us to cross the B1F gate at `(10, 11)` (open in State A) to reach the B1F East switch at `(12, 20)`.
 4. **Retrieve Secret Key on B1F:**
    - On B1F East (State A), walk to the B1F East switch at `(12, 20)` and toggle it to State B.
    - Now the mansion is in State B, and the B1F North-Central gate at `(9, 5)` is OPEN.
