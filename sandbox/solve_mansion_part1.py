@@ -31,24 +31,17 @@ def walk_step(tx, ty, direction):
         attempts += 1
     return False
 
-# --- PART 1 (CONTINUED): WALK FROM (18, 8) TO 2F WEST SWITCH AND TOGGLE TO STATE B ---
+# --- PART 1 (v2): WALK FROM (12, 7) TO 2F WEST SWITCH AND TOGGLE TO STATE B ---
 
 pos = mgba.get_coordinates()
 print("Starting Mansion run Part 1 from:", pos)
 
-if pos['x'] == 18 and pos['y'] == 8:
+if pos['x'] == 12 and pos['y'] == 7:
     path_enter = [
-        (18, 7, 'Up'), # Walk UP Column 18 to Row 4
-        (18, 6, 'Up'),
-        (18, 5, 'Up'),
-        (18, 4, 'Up'),
-        (17, 4, 'Left'), # Walk LEFT along Row 4 to Column 6
-        (16, 4, 'Left'),
-        (15, 4, 'Left'),
-        (14, 4, 'Left'),
-        (13, 4, 'Left'),
-        (12, 4, 'Left'),
-        (11, 4, 'Left'),
+        (12, 6, 'Up'), # Walk UP Column 12 to Row 4
+        (12, 5, 'Up'),
+        (12, 4, 'Up'),
+        (11, 4, 'Left'), # Walk LEFT along Row 4 to Column 6
         (10, 4, 'Left'),
         (9, 4, 'Left'),
         (8, 4, 'Left'),
