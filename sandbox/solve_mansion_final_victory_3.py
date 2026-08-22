@@ -68,15 +68,39 @@ if pos['x'] == 2 and pos['y'] == 10:
 
 # Phase 2: On 1F West (State B), walk direct bypass route to 1F East stairs (18, 10)
 pos = mgba.get_coordinates()
-if (pos['x'] == 7 and pos['y'] == 11) or (pos['x'] == 7 and pos['y'] == 12):
-    print("Currently on 1F West (State B). Walking bypass route to 1F East stairs...")
-    route_1f = [
-        (7, 11),
-        (12, 11),
-        (12, 6),
-        (18, 6),
-        (18, 10)
-    ]
+if pos['x'] >= 2 and pos['x'] <= 26 and pos['y'] >= 3 and pos['y'] <= 12:
+    print("Currently on 1F West/East (State B). Walking bypass route to 1F East stairs...")
+    if pos['x'] <= 12:
+        route_1f = [
+            (12, 11),
+            (12, 6),
+            (18, 6),
+            (18, 4),
+            (20, 4),
+            (20, 3),
+            (23, 3),
+            (23, 11),
+            (18, 11),
+            (18, 10)
+        ]
+    elif pos['x'] <= 18:
+        route_1f = [
+            (18, 4),
+            (20, 4),
+            (20, 3),
+            (23, 3),
+            (23, 11),
+            (18, 11),
+            (18, 10)
+        ]
+    else:
+        route_1f = [
+            (20, 3),
+            (23, 3),
+            (23, 11),
+            (18, 11),
+            (18, 10)
+        ]
     if walk_exact_route(route_1f):
         print("At 1F East stairs. Stepping UP to warp to 2F East...")
         mgba.press_buttons(["Up"])
