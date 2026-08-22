@@ -51,8 +51,8 @@ def walk_exact_route(waypoints):
 
 print("Current coordinates:", mgba.get_coordinates())
 
-# Let's try walking from current (15, 6) to (26, 6), then down to (26, 11), and left to (15, 11)
-route = [(26, 6), (26, 11), (15, 11)]
+# Let's try walking down Column 18 to Row 11, then left to (15, 11)
+route = [(18, 11), (15, 11)]
 if walk_exact_route(route):
     print("SUCCESS! Reached stairs at (15, 11). Warping UP to 3F East...")
     mgba.press_buttons(["Up"])
@@ -60,5 +60,5 @@ if walk_exact_route(route):
     print("Coordinates on 3F East:", mgba.get_coordinates())
     mgba.take_screenshot()
 else:
-    print("FAILED route. Let's find where we got stuck.")
+    print("FAILED route.")
     mgba.take_screenshot()
