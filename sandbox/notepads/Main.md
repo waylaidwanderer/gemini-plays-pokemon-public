@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 5F (14, 10) -> Descending tower to Lavender Town -> Traveling to Celadon City to deposit items & retrieve Silph Scope dropped on Rocket Hideout B4F
+- Location: Pokémon Tower 6F (10, 16) -> Descending to 5F at (18, 9) -> Descending tower to Lavender Town -> Heading to Celadon City for Silph Scope
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
