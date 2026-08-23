@@ -48,7 +48,9 @@ def walk_to(target_x, target_y):
 
 # Starting from (9, 9) on 3F West
 print("Walking to switch at (2, 11)...")
-walk_to(9, 13)
+walk_to(9, 11)
+walk_to(5, 11)
+walk_to(5, 13)
 walk_to(1, 13)
 walk_to(1, 11)
 
