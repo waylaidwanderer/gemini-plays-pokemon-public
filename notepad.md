@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=22, y=18) -> Entering Elevator to ride to B4F Boss Giovanni
+- Location: Team Rocket Hideout B4F (x=22, y=12) -> Boss Wing / Elevator Lobby, defeating guards outside Giovanni's room
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -47,10 +47,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 46
-   - Stats (Verified at Lv 46): Max HP 152 (HP: 117/152), Attack 103, Defense 115, Speed 106, Special 109
+1. HYDROS (Blastoise) - Lv 47
+   - Stats (Verified at Lv 47): Max HP 156 (HP: 121/156), Attack 106, Defense 118, Speed 108, Special 112
    - Type: Water
-   - Moves: Skull Bash (9/15), Ice Beam (6/10), Bite (22/25), Bubblebeam (17/20)
+   - Moves: Skull Bash (9/15), Ice Beam (6/10), Bite (22/25), Bubblebeam (7/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -1509,6 +1509,12 @@
   - East boundary: solid vertical wall at col 23 (rows 21-27) with outer perimeter terminating at col 29.
   - West boundary: solid vertical wall at col 8.
   - Direct open stairwell connection: (20, 25) -> north along col 20 to (20, 18) -> (19, 18) [Stairs up to B3F].
+## Verified Trainers & NPCs
+- Rocket Grunt at (26, 9) [Defeated Turn 12787]: Two Machop Lv 21.
+- Rocket Grunt at (10, 22) / (11, 22) [Defeated Turn 12822]: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20. Quote: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere."
+- Rocket Grunt at (23, 12) [Defeated Turn 13289]: Sandshrew Lv 23, Ekans Lv 23, Sandslash Lv 23. Reward: �690. Pre-battle quote: "I know you! You ruined our plans at MT. MOON!" Post-battle quote: "Do you have something against TEAM ROCKET?"
+- Rocket Grunt at (26, 12) [Elevator Lobby]: Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"
+
 
 <hr>
 
