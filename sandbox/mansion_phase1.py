@@ -1,11 +1,14 @@
 import mgba
 import time
 
+def get_pos():
+    return mgba.get_coordinates()
+
 def run_from_battle():
     print("In battle! Running...")
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 100"])
-    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 500"])
+    mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 500"])
     for _ in range(4):
         mgba.press_buttons(["B", "sleep 100"])
 
@@ -27,6 +30,7 @@ def walk_step(direction):
     return pos_after
 
 def walk_to(target_x, target_y):
+    print(f"Walking to: ({target_x}, {target_y})")
     max_steps = 100
     steps = 0
     while steps < max_steps:
@@ -46,35 +50,41 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting outside on Cinnabar Island at (11, 12) after DIG
-print("Entering the Mansion via the verified path...")
-walk_to(18, 12)
-walk_to(18, 5)
-walk_to(12, 5)
-walk_to(12, 4)
-walk_to(6, 4)
-walk_to(6, 3)
-mgba.press_buttons(["Up", "sleep 400"]) # Enter Mansion
+# Starting outside on Cinnabar Island at (11, 12)
+print("PHASE 1: Entering the Mansion via Row 13 path...")
+walk_step("Down") # (11, 13)
+for _ in range(5):
+    walk_step("Left") # (6, 13)
+for _ in range(10):
+    walk_step("Up") # (6, 3) and enters door at (6, 2)
 time.sleep(1.5)
-print("Inside Mansion 1F West:", mgba.get_coordinates())
+print("Inside Mansion 1F West:", get_pos())
 
 # Navigate 1F West to 2F West (State A)
-print("Warping UP to 2F West...")
+print("PHASE 2: Warp UP to 2F West...")
 walk_to(5, 11)
 walk_to(8, 11)
 walk_to(8, 10)
 walk_to(5, 10)
-mgba.press_buttons(["Left", "sleep 400"]) # Warp UP
+mgba.press_buttons(["Left", "sleep 400"]) # Warp UP to 2F West
 time.sleep(1.5)
-print("Position on 2F West:", mgba.get_coordinates())
+print("Position on 2F West:", get_pos())
 
 # Navigate 2F West to 3F West (State A)
-print("Warping UP to 3F West...")
+print("PHASE 3: Warp UP to 3F West...")
 walk_to(7, 11)
-mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
+mgba.press_buttons(["Up", "sleep 400"]) # Step UP onto (7, 10) to warp UP
 time.sleep(1.5)
-print("Arrived on 3F West! Position:", mgba.get_coordinates())
+print("Position on 3F West:", get_pos())
 
+# Cross to 3F East and walk to switch at (12, 10) in State A
+print("PHASE 4: Crossing to 3F East (12, 10) in State A...")
+walk_to(12, 11)
+walk_to(12, 10)
+
+# Toggle 3F East switch to State B (facing DOWN)
+print("Toggling 3F East switch to State B...")
+mgba.press_buttons(["Down", "sleep 250", "A", "sleep 500", "B", "sleep 250"])
+print("State B toggled successfully! Current position:", get_pos())
 sc = mgba.take_screenshot()
 print("Final Screenshot:", sc)
-
