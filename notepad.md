@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=22, y=12) - Engaging Elevator Grunt
+- Location: Team Rocket Hideout B4F (x=27, y=12) - Elevator Lobby
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1379,8 +1379,6 @@
   - Approach: Walk east along row 22 street to col 36, north to row 20 plaza, and west to door at (28, 19).
 - **Prize Exchange Building**: Located at cols 30-33, rows 18-21.
   - Front Door: (33, 19) on row 20 entrance plaza.
-- **Celadon Department Store**: Front door at (10, 13).
-- **Celadon Mansion**: Front door at (24, 9), Rear door at (24, 4).
 - **Celadon Pokémon Center**: Front door at (41, 9).
 
 
@@ -1538,7 +1536,11 @@
 - Southern Sector (cols 10-20, rows 21-26):
   - Accessible via (11, 18) [RIGHT spinner] -> (15, 18) [DOWN spinner] -> lands at (15, 22).
   - Open corridor along row 22 (cols 11-15) leading directly to Rocket Grunt at (10, 22).
-  - Rocket Grunt at (10, 22) [Engaged Turn 12813 - Suspected Lift Key holder].
+  - Rocket Grunt at (10, 22) [Defeated Turns 12815-12822: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20. Quote: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere."].
+  - Elevator Lobby (cols 23-28, rows 10-18):
+    - Elevator Door: Located at (24, 11).
+    - Elevator Grunt: Located at (26, 12) [Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"].
+    - Item Ball at (26, 17): Located in southeast alcove.
   - Southern opening at (13, 24) connects row 22 to rows 25-26.
 
 <hr>
