@@ -45,15 +45,27 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Starting Walk from 1F West (5, 27) to 2F East...")
-# 1. Walk Up Column 5 to Row 5
-walk_to(5, 5)
-# 2. Walk Right on Row 5 to Column 18 (crossing gate at 13, 5 which is open in State B)
-walk_to(18, 5)
-# 3. Walk Down Column 18 to Row 10
-walk_to(18, 10)
-# 4. Step DOWN to warp to 2F East
-walk_step("Down")
-time.sleep(1.5)
+print("Starting State A Chunk 1 Victory Route...")
+# 1. Enter Mansion
+walk_step("Up")
+time.sleep(1.0)
+print("Entered Mansion 1F West. Position:", mgba.get_coordinates())
 
-print("Arrived on 2F East! Position:", mgba.get_coordinates())
+# 2. Walk UP Column 5 to Row 11, then step UP onto stairs (5, 10) to warp to 2F West
+walk_to(5, 11)
+walk_step("Up")
+time.sleep(1.0)
+print("Arrived on 2F West. Position:", mgba.get_coordinates())
+
+# 3. On 2F West, walk UP Column 5 to Row 3, then RIGHT to Column 21 on 2F East
+walk_to(5, 3)
+walk_to(21, 3)
+print("Arrived on 2F East (Row 3). Position:", mgba.get_coordinates())
+
+# 4. On 2F East, walk LEFT to Column 18, then DOWN Column 18 to Row 10
+walk_to(18, 3)
+walk_to(18, 10)
+# Step DOWN to warp DOWN to 1F East
+walk_step("Down")
+time.sleep(1.0)
+print("Arrived on 1F East! Position:", mgba.get_coordinates())
