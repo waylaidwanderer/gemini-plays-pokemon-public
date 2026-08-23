@@ -120,3 +120,4 @@
 
 ## Escape Items & Field Warp Mechanics
 - **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
+- **Verified Western Alley Ledge Gap**: Located at (8, 11), a walkable flat brown path tile connecting the southern alley (row 12) directly up to row 10 without obstruction!
