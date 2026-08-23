@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=21, y=9) -> Navigating Conveyor Maze to B3F Stairs (21, 22)
+- Location: Team Rocket Hideout B3F (x=21, y=25) -> Approaching Elevator Grunt at (23, 12)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
