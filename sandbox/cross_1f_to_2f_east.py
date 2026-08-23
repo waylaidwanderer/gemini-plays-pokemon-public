@@ -28,15 +28,22 @@ def try_step(direction):
             attempts += 1
     return pos_after
 
-# Starting at (15, 7) on 1F East in State B
-print("PHASE 1: Walking to 1F East stairs...")
-try_step("Right") # To (16, 7)
+# Starting at (18, 6) on 1F East in State B
+print("PHASE 1: Walking to 1F East B1F-stairs block at (15, 11)...")
+try_step("Down") # To (18, 7)
+try_step("Left") # To (17, 7)
+try_step("Left") # To (16, 7)
 try_step("Down") # To (16, 8) - open in State B!
 try_step("Down") # To (16, 9)
 try_step("Down") # To (16, 10)
-try_step("Right") # To (17, 10)
-try_step("Right") # To (18, 10)
-print("Stepping UP to warp UP to 2F East...")
-mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
+try_step("Down") # To (16, 11)
+print("Stepping LEFT onto stairs to warp UP to 2F East...")
+mgba.press_buttons(["Left", "sleep 400"]) # Warp UP
 time.sleep(1.5)
 print("Position on 2F East:", get_pos())
+
+# PHASE 2: Walk LEFT to (15, 7) on 2F East
+print("PHASE 2: Walking Left to (15, 7) on 2F East...")
+try_step("Left") # To (16, 7)
+try_step("Left") # To (15, 7)
+print("SUCCESS! Final Position on 2F East:", get_pos())
