@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Southern Boulevard -> Navigating to Celadon Gym
+- Location: Celadon City Central Courtyard (28, 14) -> Cutting tree to reach Garden & Southern Boulevard / Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
