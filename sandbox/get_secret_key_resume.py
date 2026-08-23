@@ -57,14 +57,14 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (7, 10) on 3F West in State B
-# PHASE 1: Walk to Row 6 and walk to the 3F East pitfall at (26, 6)
+# Currently at (10, 9) on 3F West in State B
+# PHASE 1: Walk to Row 6 via Column 12 and walk to the 3F East pitfall at (26, 6)
 print("PHASE 1: Walking Row 6 to 3F East pitfall...")
 success = True
 if success:
-    success = walk_to_tile(10, 11)
+    success = walk_to_tile(12, 11)
 if success:
-    success = walk_to_tile(10, 6)
+    success = walk_to_tile(12, 6)
 if success:
     success = walk_to_tile(26, 6)
 
@@ -104,9 +104,9 @@ if success:
     print("PHASE 5: Escaping via DIG...")
     mgba.press_buttons(["Start", "sleep 300"])
     mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
-    for _ in range(5):
+    for _ in range(4): # 4 Down presses to select TRUFFLE (the 5th slot)
         mgba.press_buttons(["Down", "sleep 150"])
-    mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE (Slot 6)
+    mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE (Slot 5)
     mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
     time.sleep(3.0)
     print("SUCCESS! Final position on Cinnabar Island:", get_pos())
