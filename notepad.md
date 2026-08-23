@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 5F (14, 10) -> Descending tower to Lavender Town -> Traveling to Celadon City to deposit items & retrieve Silph Scope dropped on Rocket Hideout B4F
+- Location: Pokémon Tower 6F (10, 16) -> Descending to 5F at (18, 9) -> Descending tower to Lavender Town -> Heading to Celadon City for Silph Scope
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1570,6 +1570,32 @@
 ## Verification & Item Acquisition Checklist
 1. Bag capacity check (<20 items) before interacting with item balls.
 2. Confirm '[PLAYER] found [ITEM]!' dialogue on-screen before marking collected.
+
+
+<hr>
+
+<h1><code>Locations/PokemonTower6F</code></h1>
+
+# Pokémon Tower 6F - Layout, Ghost Marowak & Staircases
+
+## Connections
+- Downstairs (5F): Descending stairs at (18, 9) on the eastern wall
+- Upstairs (7F): Ascending stairs at (9, 16) in the south-central sector
+
+## Floor Layout & Key Landmarks
+- East descending stairs to 5F at (18, 9).
+- South-central ascending stairs to 7F at (9, 16).
+- Boss/Event Encounter: Ghost Marowak (Lv 30) triggers at (10, 16) directly in front of the 7F stairs.
+  - Dialogue: "Be gone... Intruders..."
+  - Requires SILPH SCOPE to unmask as the restless soul of Cubone's mother and battle.
+  - Without Silph Scope: "Darn! The GHOST can't be ID'd!" -> blocks passage to 7F.
+
+## Verified Encounters & Trainers
+- Event Ghost: Lv 30 Ghost Marowak at (10, 16).
+- Channelers:
+  - Channeler Angelica (Pending verification)
+  - Channeler Jennifer (Pending verification)
+  - Channeler Emilia (Pending verification)
 
 
 <hr>
