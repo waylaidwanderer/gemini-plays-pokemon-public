@@ -52,19 +52,9 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Master Route in State A
-print("Starting Master Route (State A) to B1F East...")
+# Master Route in State A from 2F West landing
+print("Starting Master Route (State A) from 2F West (4, 11) to B1F East...")
 print("Initial position:", mgba.get_coordinates())
-
-# --- Leg 1: 1F West (5, 27) to 2F West ---
-print("Executing Leg 1: 1F West to 2F West...")
-walk_to(5, 11)
-walk_to(8, 11)
-walk_to(8, 10)
-walk_to(5, 10)
-walk_step("Left") # Step onto stairs at (5, 10)
-time.sleep(0.5)
-print("Position after Leg 1:", mgba.get_coordinates())
 
 # --- Leg 2: 2F West to 3F West ---
 print("Executing Leg 2: 2F West to 3F West...")
