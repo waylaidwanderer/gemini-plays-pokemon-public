@@ -1565,6 +1565,5 @@
 - B3F (10, 12): HP Up [Claimed Turn 12905]
 - B4F (20, 14): Rare Candy [Claimed]
 - B4F (26, 17): TM02 Razor Wind [Claimed]
-- B4F (10, 23): Lift Key [Pending Pickup]
 
 <hr>
