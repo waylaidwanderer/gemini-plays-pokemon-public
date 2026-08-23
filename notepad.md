@@ -1418,6 +1418,8 @@
   - Defeat quote: "Burnt!"
   - Post-battle quote: "You're not going to get away with this, brat!"
 
+- Rocket Grunt #3: Located at (28, 18) in the elevator lobby [Discovered Turn 12659].
+- Elevator Doors: Located at (24..25, 16). Wall divider at (26..28, 16).
 
 <hr>
 
