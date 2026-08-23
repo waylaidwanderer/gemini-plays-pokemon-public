@@ -90,24 +90,18 @@
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
 - Valuables:
-  - 1x Nugget
+  - 1x Nugget (Sell at Mart for ¥5000)
 - Consumables & Field Items:
   - 5x Super Potion
-    - 1x Escape Rope (Verified from B1F/B2F Item Balls)
-  - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
+  - 1x Escape Rope
+  - 2x Moon Stone
+  - 1x Water Stone (Purchased at 4F; ready to sell for ¥1050 or keep)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
-  - 1x Lemonade
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
 - Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
-
-## Celadon Evolution & Tactical Planning
-- **PRISM (Eevee) Evolution Analysis**:
-  - Jolteon (Thunderstone ¥2100): High Speed (130 base) + High Special (110 base). STAB Thunderbolt access gives team powerful Electric coverage against Water/Flying types (Lorelei, Lance's Gyarados, Rival's Pidgeot/Charizard/Blastoise). Strongly recommended!
-  - Flareon (Fire Stone ¥2100): High Attack (130 base) + Special (110 base). Fire STAB against Grass/Bug/Ice.
-  - Vaporeon (Water Stone ¥2100): Bulky Water special tank (redundant with starter HYDROS).
 
 
 <hr>
