@@ -1538,11 +1538,11 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Walk the Row 11 / Row 13 path to the 3F West switch at `(2, 11)` and toggle it to State B.
 
 6. **Navigate Row 6 to 3F East Pitfall and Drop to B1F East:**
-   - From `(1, 11)` on 3F West, walk to Column 12 via `(4, 13)` detour: `(1, 11) -> (1, 13) -> (4, 13) -> (4, 10) -> (6, 10) -> (12, 10) -> (12, 6)`.
+   - From `(1, 11)` on 3F West, walk to Column 12 via Row 9 (open in State B): `(1, 11) -> (1, 9) -> (12, 9) -> (12, 6)` (since the gate at (1, 12) is CLOSED in State B, blocking the (4, 13) detour).
    - Walk RIGHT along Row 6 on 3F (completely open in both states!) all the way to Column 26: `(12, 6) -> (26, 6)`.
    - Step onto `(26, 6)` to drop down the pitfall, landing on 1F East inside the fenced room at `(25, 6)`.
    - Walk to the B1F East stairs at `(22, 2)` and warp DOWN to B1F East.
-   - On B1F East in State B, walk horizontally along Row 5 across the open Column 9 gate `(9, 5)` to the northwest room: `(22, 5) -> (1, 5)`.
+   - On B1F East in State B, walk horizontally along Row 5 across the open Column 9 gate `(9, 5)` to the northwest room: `(22, 3) -> (21, 3) -> (21, 5) -> (1, 5)` (since Column 22 is a solid vertical wall below Row 3, requiring a detour via Column 21).
    - Stand at `(1, 5)` facing UP, press A to pick up the **Secret Key** at `(1, 4)`, and use **DIG** to escape!
 
 
@@ -1560,11 +1560,12 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **3F West Row 7 Hedge Wall (Columns 4-9):** Solid permanent vertical and horizontal hedge barrier, completely blocking all upward vertical traversal from Row 8 to Row 6 (empirically verified on foot on Turn 55368 and Turn 55389). Row 6 is also completely filled with hedges/rubble on Columns 3-9, meaning the southwest room on 3F is completely walled off from the northwest room of 3F West.
 
 ## Crucial Verification & Discoveries (Turn 55701)
-- **Mewtwo Statues on East Side (2F East, 3F East):** The statue at (13, 11) on 3F East does not have a switch and is decorative. (Hypothesis: Toggling on the East side may be impossible, but the southern half of 2F East is not yet fully explored, so a functional switch on 2F East remains an unverified hypothesis).
+- **Mewtwo Statues on East Side (3F East):** There is a functional Mewtwo statue switch at `(12, 10)` on 3F East (verified by toggling on Turn 56183). The statue at `(13, 11)` on 3F East has no switch and is purely decorative.
 - **State A Crossing is possible on 2F:** While the Row 9 gates are closed in State A on 1F West, 2F West, and 3F West, horizontal crossing from 2F West to 2F East is open and walkable on Row 6 (Column 15 Row 6) and Row 5 (Column 9 Row 5) in State A!
 - **The Balcony Drop on 3F East is the ONLY Physical Way to B1F East:** Because the B1F stairs on 1F East (22, 4) are closed in State B, and Row 7 gates on 2F East are closed in State B, we cannot go down the stairs to B1F in State B. Since we can only cross in State B, the Balcony Drop is the only way to B1F East!
 - **Mewtwo Statue at (2, 11) on 2F West has no collision in State B:** It is completely walkable when State B is active.
 ## Verified Realities (Updated Turn 55832)
+- **Mewtwo Statue at (2, 11) on 3F West:** Has no collision and is completely walkable when State B is active (empirically verified on foot on Turn 56166).
 - **3F West Row 9 Wall (Columns 6-7):** Permanent solid vertical wall, blocking vertical traversal on these columns.
 - **3F East Row 8 Shutter Gates (Columns 16-21):** Completely CLOSED in State A. Column 12 Row 8 is OPEN.
 - **3F East Column 13 Crossing:** Row 11 Column 13 is CLOSED (Mewtwo statue). Row 12 Column 13 is OPEN (but Row 12 Column 14 is blocked by permanent rubble).
