@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Central Avenue (x=27, y=6) -> Navigating south to Game Corner plaza (row 19) and Celadon Gym
+- Location: Celadon City Southern Boulevard -> Navigating to Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
