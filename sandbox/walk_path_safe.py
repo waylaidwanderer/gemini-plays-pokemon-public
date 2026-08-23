@@ -6,11 +6,11 @@ def get_pos():
 
 def run_from_battle():
     print("In battle! Running...")
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 100"])
-    mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 500"])
-    for _ in range(4):
-        mgba.press_buttons(["B", "sleep 100"])
+    # Clean running sequence in a single call to prevent overworld movement after battle ends
+    mgba.press_buttons([
+        "B", "sleep 150", "B", "sleep 150", "B", "sleep 150", 
+        "Right", "sleep 150", "Down", "sleep 150", "A", "sleep 2000"
+    ])
 
 def walk_step(direction):
     pos_before = mgba.get_coordinates()
@@ -18,19 +18,24 @@ def walk_step(direction):
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
-        # Check if we are in battle
         mgba.press_buttons([direction, "sleep 150"])
         pos_after = mgba.get_coordinates()
         
-        if pos_before == pos_after:
-            # We hit a wall or we are in battle
+        attempts = 0
+        while pos_before == pos_after and attempts < 3:
             run_from_battle()
             pos_after = mgba.get_coordinates()
-            # If we were in battle and ran, stop execution to prevent exceeding limit
+            attempts += 1
             if pos_before != pos_after:
-                print("Ran from battle, current pos:", pos_after)
-            else:
-                print("Blocked by wall or stuck, stopping at:", pos_before)
+                print("Ran from battle! Returned to:", pos_after)
+                return pos_after
+                
+            # Retry stepping if we are still at the same position
+            mgba.press_buttons([direction, "sleep 150"])
+            pos_after = mgba.get_coordinates()
+            
+        if pos_before == pos_after:
+            print("Blocked or stuck, stopping at:", pos_before)
             return None
     return pos_after
 
@@ -77,9 +82,16 @@ for i in range(start_index, min(start_index + steps_to_take, len(path))):
     print(f"Stepping {direction} to {target}...")
     res = walk_step(direction)
     if res is None:
-        # Battle occurred and we ran, or we hit a wall, stop execution
+        # Hit a wall or got stuck, stop execution
         print("Stopping execution of path.")
         break
+    
+    # If a battle occurred, we ran away and we are at the same position as 'before',
+    # walk_step returns the 'before' position, and we stop execution to keep button presses low.
+    if (res['x'], res['y']) == (cx, cy):
+        print("Battle occurred, stopped to reset next turn.")
+        break
+        
     current_pos = res
 
 print("Script execution finished. Current pos:", get_pos())
