@@ -15,7 +15,7 @@
 - Channelers:
   - Channeler at (16, 5) [Defeated Turn 14418]: Gastly Lv 24.
   - Channeler at (9, 5) [Defeated Turn 14427]: Gastly Lv 24.
-  - Channeler at (12, 10).
+  - Channeler at (13, 10) [Defeated Turn 14457]: Gastly Lv 22, Gastly Lv 22.
 
 ## Verification & Item Acquisition Checklist
 1. Bag capacity check (<20 items) before interacting with item balls.
