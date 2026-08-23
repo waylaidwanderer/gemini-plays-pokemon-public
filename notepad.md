@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Gym (4, 17) -> Navigating flower maze to challenge Leader Erika
+- Location: Celadon Gym (5, 6) -> Upper chamber, approaching Leader Erika at (4, 1)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -50,7 +50,7 @@
 1. HYDROS (Blastoise) - Lv 48
    - Stats (Verified at Lv 48): Max HP 159 (HP: 153/159), Attack 109, Defense 121, Speed 111, Special 115
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (6/10), Bite (24/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (15/15), Ice Beam (5/10), Bite (24/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -1415,16 +1415,13 @@
 - **1F Service Mart**: Exterior door at (15, 13). Interior: 8x8 mart with clerk at (0..1, 4..5) selling Great Balls, Super Potions, Revives, Escape Ropes. Exit at (3..4, 7).
 - **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. Exit from north door warps to (10, 15), but cannot be entered from (10, 15) due to boundary trees.
 - **Celadon Pok�mon Center**: Front door at (41, 9).
-- **Rocket Game Corner**: Front door at (28, 19).
-- **Prize Exchange**: Front door at (33, 19).
-- **Celadon Mansion**: Front entrance at (24, 9), rear entrance at (24, 4).
 
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
 - **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets.
 
 ## Escape Items & Field Warp Mechanics
-- **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
+- **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokémon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
 - **Verified Western Alley Ledge Gap**: Located at (8, 11), a walkable flat brown path tile connecting the southern alley (row 12) directly up to row 10 without obstruction!
 - **Northern Paved Avenue (rows 6-7, cols 10-26)**: 2-tile wide open paved corridor running east above the central buildings directly to Celadon Mansion (col 24) and the main north-south avenue (col 26).
 
@@ -1601,5 +1598,16 @@
 - Trainer 1: Lass at (2, 11) facing Down/Right.
 - Trainer 2: Jr. Trainer at (7, 10) facing Down/Left.
 - Upper Chamber Access: Central aisle at cols 4-5 continues north past row 8 towards Leader Erika's dais.
+## Upper Chamber & Leader Dais (Verified Turn 13801)
+- Breached interior Cut bush at (5, 7) to access upper sanctum.
+- Trainer 3: Cooltrainer♀ at (5, 6) [Defeated Turn 13800: Weepinbell Lv 24, Gloom Lv 24, Ivysaur Lv 24. Reward: ¥840].
+- Leader Erika Dais: Located at (4, 1) directly north of the central dais.
+- Erika Tactical Plan & PP Budget:
+  - Erika Team: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29.
+  - Active Lead: HYDROS (Blastoise Lv 48, HP: 153/159).
+  - PP Budget: 5/10 Ice Beam PP remaining (3 required for sweep, 2 buffer).
+  - Backup Offensive Moves: Skull Bash (15/15), Bite (23/25), Bubblebeam (20/20).
+  - Status Risk: Erika's team uses Sleep Powder / Stun Spore. If HYDROS is afflicted, Awakening / Parlyz Heal are in inventory, or switch to ATLAS / PRISM as backup.
+
 
 <hr>
