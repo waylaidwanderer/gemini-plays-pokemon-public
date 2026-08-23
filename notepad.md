@@ -1403,8 +1403,7 @@
   - Empirical testing on Turns 13528-13535 proved that solid walls, poles, and trees along cols 54-56 block southward bypass to row 20.
   - Route 7 entrance is at (49, 10..11).
 
-- **Verified Ledge Gap Passage**:
-  - Located at cols 8-9 on row 16: An open 2-tile wide grass and pavement path connecting the upper garden directly south onto the southern street (rows 17-22) without hitting any ledges!
+
 
 ## Celadon Hotel
 - Location: cols 8-13, rows 18-21, front door at (10, 21).
@@ -1422,7 +1421,7 @@
 
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
-- **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets. Bypass via Western Ledge Gap at (8..9, 16).
+- **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets.
 
 ## Escape Items & Field Warp Mechanics
 - **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
@@ -1594,5 +1593,13 @@
 - Team: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29.
 - Strategy: Lead HYDROS (Blastoise Lv 47) with Ice Beam (10/10 PP) for OHKO sweeps.
 
+## Interior Layout & Verified Trainers (Turn 13778)
+- Entrance: Carpet at (4..5, 17) with south exit at row 18.
+- Statues: Left statue at (3, 14..15), Right statue at (6, 14..15).
+- Central Aisle: 2-tile wide grey floor corridor at cols 4-5 (rows 8-16).
+- Hedges & Flowerbeds: Flowerbeds at cols 0-1 and 8-9; Cut bushes at (2..3, 13) and (6..7, 13).
+- Trainer 1: Lass at (2, 11) facing Down/Right.
+- Trainer 2: Jr. Trainer at (7, 10) facing Down/Left.
+- Upper Chamber Access: Central aisle at cols 4-5 continues north past row 8 towards Leader Erika's dais.
 
 <hr>
