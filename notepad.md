@@ -1564,7 +1564,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Turn 54609:** Toggled 2F East switch to State B.
 - **Turn 54627:** Toggled 2F East switch back to State A.
 - **Turn 54650:** Toggled 2F East switch back to State B.
-- **Turn 54680:** Toggled 2F West switch back to State A.
+
 
 <hr>
 
