@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=22, y=25) -> Ascending Stairs at (19, 18) to B3F
+- Location: Team Rocket Hideout B3F (x=19, y=10) - Investigating B3F Elevator Lobby & NPC at (23, 12)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -92,7 +92,6 @@
   - 1x Nugget
 - Consumables & Field Items:
   - 6x Super Potion
-  - 1x HP Up (Claimed from Rocket Hideout B3F Turn 12905)
   - 1x Rare Candy (Claimed from Rocket Hideout Turn 12799)
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
@@ -1485,7 +1484,10 @@
   - Stairs down to B4F at (19, 10).
   - Table counter block at (10..11, 10..13).
   - Open hallway along row 14 & 15 connecting (19, 10) west to col 9 and east to elevator lobby at row 14.
-- Elevator Lobby: Structural elevator shaft located at (24..25, 10..16), isolated from both the northern wing by solid wall at col 21 and the southern wing by solid wall at row 16. Accessible only by taking the elevator.
+- Elevator Lobby (cols 22-25, rows 6-14):
+  - Walkable connection: row 14 open corridor at (20..24, 14) connects northern hallway directly into elevator lobby!
+  - Elevator Doors: Located at (24, 11) with yellow/orange door graphic.
+  - NPC / Grunt located at (23, 12) next to elevator doors.
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
   - Item Ball at (10, 12) [Collected Turn 12905 - HP Up].
@@ -1536,7 +1538,12 @@
     - Elevator Door: Located at (24, 11).
     - Elevator Grunt: Located at (26, 12) [Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"].
     - Item Ball at (26, 17): Located in southeast alcove.
+  - Southern Sector & Boundaries (cols 9-28, rows 20-27):
   - Southern opening at (13, 24) connects row 22 to rows 25-26.
+  - Continuous pink floor corridor along rows 25-26 from col 11 to col 22.
+  - East boundary: solid vertical wall at col 23 (rows 21-27) with outer perimeter terminating at col 29.
+  - West boundary: solid vertical wall at col 8.
+  - Direct open stairwell connection: (20, 25) -> north along col 20 to (20, 18) -> (19, 18) [Stairs up to B3F].
 
 <hr>
 
