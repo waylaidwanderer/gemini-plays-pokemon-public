@@ -2,7 +2,7 @@ import mgba
 import time
 
 def run_from_battle():
-    print("In battle! Attempting to run...")
+    print("In battle! Running...")
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 100"])
     mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 500"])
@@ -24,18 +24,25 @@ def walk_step(direction):
             attempts += 1
     return pos_after
 
-# Starting from (17, 1). Let's walk Down Column 17!
-print("Starting walk down Column 17...")
-pos = mgba.get_coordinates()
-print("Initial Position:", pos)
+# Starting at (19, 6)
+print("Starting position:", mgba.get_coordinates())
 
+# Walk Left to Column 17
+print("Walking Left to Column 17...")
+pos = mgba.get_coordinates()
+while pos['x'] > 17:
+    pos = walk_step("Left")
+print("Arrived at:", pos)
+
+# Walk Down Column 17 to see how far we can go
+print("Walking Down Column 17...")
 while pos['y'] < 18:
     pos_before = pos
     pos = walk_step("Down")
     if pos_before['y'] == pos['y']:
-        print(f"BLOCKED walking DOWN at coordinate: ({pos['x']}, {pos['y']})")
+        print(f"BLOCKED walking DOWN at: ({pos['x']}, {pos['y']})")
         break
     print(f"Reached: ({pos['x']}, {pos['y']})")
 
 if pos['y'] >= 18:
-    print("SUCCESS! Reached Row 18 (the Balcony corridor)!")
+    print("SUCCESS: We reached Row 18 on Column 17!")
