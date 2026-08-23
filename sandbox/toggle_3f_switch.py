@@ -57,22 +57,20 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Execute precise path to the 3F West Switch
-# Path: (6, 11) -> (6, 10) -> (4, 10) -> (4, 13) -> (1, 13) -> (1, 11)
+# Starting at (7, 11) on 3F West in State A
+# Path to switch: (7, 11) -> (8, 11) -> (8, 13) -> (1, 13) -> (1, 11)
 success = True
 if success:
-    success = walk_to_tile(6, 10)
+    success = walk_to_tile(8, 11)
 if success:
-    success = walk_to_tile(4, 10)
-if success:
-    success = walk_to_tile(4, 13)
+    success = walk_to_tile(8, 13)
 if success:
     success = walk_to_tile(1, 13)
 if success:
     success = walk_to_tile(1, 11)
 
 if success:
-    print("Arrived at (1, 11)! Toggling switch...")
+    print("Arrived at (1, 11)! Toggling switch to State B...")
     mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
     pos = get_pos()
     print("Finished. Current position:", pos)
