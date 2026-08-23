@@ -1400,6 +1400,10 @@
   - Prize Exchange at (33, 19..20).
   - Leads west directly to the Cut tree and Celadon Gym in southwest Celadon City!
 
+- **Eastern Thoroughfare Connection (cols 56-58, rows 11-22)**:
+  - Verified on Turn 13358: Row 16 ledge terminates at col 55.
+  - Cols 56-58 form a continuous, unbroken, open north-south avenue connecting upper tier directly to southern boulevard (rows 17-22)!
+
 
 <hr>
 
