@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Dept Store 1F (14, 4) -> Exiting via (16, 7) doors to Celadon City -> Celadon Pokémon Center (deposit Zubat) -> Route 16 (catch Flying-type for HM02 Fly) -> Lavender Town Pokémon Tower
+- Location: Route 16 (29, 10) -> Cutting bush at (34, 9) -> Catching Flying-type (Doduo/Spearow/Pidgey) in tall grass -> Teaching HM02 Fly -> Flying to Lavender Town Pokémon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
