@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=27, y=8) -> Moving to stairs at (21, 8) to descend to B4F -> B3F northwest room
+- Location: Team Rocket Hideout B3F (x=9, y=5) -> Lift Key acquired! Moving to elevator to reach Boss Giovanni
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
