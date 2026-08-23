@@ -4,7 +4,7 @@
 1. HYDROS (Blastoise) - Lv 49
    - Stats (Verified at Lv 49): Max HP 162 (HP: 140/162), Attack 111, Defense 123, Speed 113, Special 118
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (8/10), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Active Lead & Pokémon Tower sweeper)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
