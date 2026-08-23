@@ -41,13 +41,13 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
 - Consumables & Field Items:
-  - 6x Super Potion
+  - 5x Super Potion
   - 1x Rare Candy (Claimed from Rocket Hideout Turn 12799)
-  - 2x Escape Rope (Verified from B1F/B2F Item Balls)
+  - 1x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
