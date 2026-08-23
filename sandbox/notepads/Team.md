@@ -46,6 +46,7 @@
   - 1x Nugget
 - Consumables & Field Items:
   - 6x Super Potion
+  - 1x Rare Candy (Claimed from Rocket Hideout Turn 12799)
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
