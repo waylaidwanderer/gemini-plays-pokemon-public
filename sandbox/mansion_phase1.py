@@ -45,9 +45,16 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Starting walk from (14, 5) to Mansion entrance...")
-walk_to(6, 5)
+print("Starting precise bypass walk to Mansion entrance...")
+# Walk Right to Column 15 to bypass the NPCs blocking Left, Up, Down
+walk_to(15, 5)
+# Walk Down to Row 7 (fully open horizontal road)
+walk_to(15, 7)
+# Walk Left along Row 7 to Column 6
+walk_to(6, 7)
+# Walk Up Column 6 to Row 4 (in front of Mansion door)
 walk_to(6, 4)
-walk_step("Up") # Enter Mansion
+# Step Up to enter Mansion
+walk_step("Up")
 time.sleep(1.0)
 print("Position inside Mansion:", mgba.get_coordinates())
