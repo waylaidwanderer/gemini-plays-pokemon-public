@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (29, 10) -> Cutting bush at (34, 9) -> Catching Flying-type (Doduo/Spearow/Pidgey) in tall grass -> Teaching HM02 Fly -> Flying to Lavender Town Pokémon Tower
+- Location: Celadon City (10, 18) -> Walking to Celadon Pokémon Center (41, 9) -> Depositing ECHO (Zubat) at PC to free party Slot 6 -> Catching Route 16 flyer -> Teaching HM02 Fly -> Flying to Lavender Town Pokémon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
