@@ -1,4 +1,4 @@
-# Pokémon Tower 6F - Layout, Ghost Marowak & Staircases
+# Pok�mon Tower 6F - Layout, Ghost Marowak & Staircases
 
 ## Connections
 - Downstairs (5F): Descending stairs at (18, 9) on the eastern wall
@@ -15,6 +15,6 @@
 ## Verified Encounters & Trainers
 - Event Ghost: Lv 30 Ghost Marowak at (10, 16).
 - Channelers:
-  - Channeler Angelica (Pending verification)
-  - Channeler Jennifer (Pending verification)
-  - Channeler Emilia (Pending verification)
+  - Channeler at (9, 5) facing South [Spotted Turn 14522]
+  - Channeler at (12, 10) facing West [Spotted Turn 14522]
+  - Channeler 3 (Location TBD)
