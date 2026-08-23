@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=9, y=16) - Exploring Western Conveyor Maze
+- Location: Team Rocket Hideout B4F (x=22, y=12) - Engaging Elevator Grunt
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

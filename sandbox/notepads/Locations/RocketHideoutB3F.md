@@ -1,6 +1,7 @@
 # Team Rocket Hideout B3F - Topology & Dungeon Log
 
 ## Connections & Warps
+- Stairs Down to B4F: Located at (19, 10), leads down to Rocket Hideout B4F at (19, 18).
 - Stairs Up to B2F: Located at (21, 24), leads up to Rocket Hideout B2F at (21, 22).
 - Elevator Shaft: Located at (24..25, 16..19).
 

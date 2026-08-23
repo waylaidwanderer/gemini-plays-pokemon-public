@@ -1,6 +1,7 @@
 # Team Rocket Hideout B4F - Topology & Floor Log
 
 ## Connections & Warps
+- Stairs Up to B3F: Located at (19, 18), leads up to Rocket Hideout B3F at (19, 10).
 - Stairs Up to B2F: Located at (25, 6), leads up to Rocket Hideout B2F at (21, 8).
 - Elevator Doors / Lobby: Located on the east side (cols 24-28).
 
