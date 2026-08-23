@@ -16,3 +16,13 @@
 - Trainer 1: Lass at (2, 11) facing Down/Right.
 - Trainer 2: Jr. Trainer at (7, 10) facing Down/Left.
 - Upper Chamber Access: Central aisle at cols 4-5 continues north past row 8 towards Leader Erika's dais.
+## Upper Chamber & Leader Dais (Verified Turn 13801)
+- Breached interior Cut bush at (5, 7) to access upper sanctum.
+- Trainer 3: Cooltrainer♀ at (5, 6) [Defeated Turn 13800: Weepinbell Lv 24, Gloom Lv 24, Ivysaur Lv 24. Reward: ¥840].
+- Leader Erika Dais: Located at (4, 1) directly north of the central dais.
+- Erika Tactical Plan & PP Budget:
+  - Erika Team: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29.
+  - Active Lead: HYDROS (Blastoise Lv 48, HP: 153/159).
+  - PP Budget: 5/10 Ice Beam PP remaining (3 required for sweep, 2 buffer).
+  - Backup Offensive Moves: Skull Bash (15/15), Bite (23/25), Bubblebeam (20/20).
+  - Status Risk: Erika's team uses Sleep Powder / Stun Spore. If HYDROS is afflicted, Awakening / Parlyz Heal are in inventory, or switch to ATLAS / PRISM as backup.

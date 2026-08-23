@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Gym (4, 17) -> Navigating flower maze to challenge Leader Erika
+- Location: Celadon Gym (5, 6) -> Upper chamber, approaching Leader Erika at (4, 1)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

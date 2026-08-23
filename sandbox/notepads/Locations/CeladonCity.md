@@ -109,16 +109,13 @@
 - **1F Service Mart**: Exterior door at (15, 13). Interior: 8x8 mart with clerk at (0..1, 4..5) selling Great Balls, Super Potions, Revives, Escape Ropes. Exit at (3..4, 7).
 - **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. Exit from north door warps to (10, 15), but cannot be entered from (10, 15) due to boundary trees.
 - **Celadon Pok�mon Center**: Front door at (41, 9).
-- **Rocket Game Corner**: Front door at (28, 19).
-- **Prize Exchange**: Front door at (33, 19).
-- **Celadon Mansion**: Front entrance at (24, 9), rear entrance at (24, 4).
 
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
 - **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets.
 
 ## Escape Items & Field Warp Mechanics
-- **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
+- **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokémon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
 - **Verified Western Alley Ledge Gap**: Located at (8, 11), a walkable flat brown path tile connecting the southern alley (row 12) directly up to row 10 without obstruction!
 - **Northern Paved Avenue (rows 6-7, cols 10-26)**: 2-tile wide open paved corridor running east above the central buildings directly to Celadon Mansion (col 24) and the main north-south avenue (col 26).
 
