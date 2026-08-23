@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B3F (x=20, y=18)
+- Location: Team Rocket Hideout B2F (x=22, y=10)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -36,6 +36,10 @@
 - `Locations/LavenderTown`: Lavender Town layout, buildings, Pokémon Tower, Name Rater, Pokémart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
+- `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, grunts, elevator
+- `Locations/RocketHideoutB2F`: Rocket Hideout B2F layout, conveyor network solutions
+- `Locations/RocketHideoutB3F`: Rocket Hideout B3F layout, grunts, elevator
+
 
 <hr>
 
@@ -84,9 +88,9 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
-  - 1x Nugget (1x tossed Turn 12402 to free bag slot, 1x remaining)
+  - 1x Nugget
 - Consumables & Field Items:
   - 6x Super Potion
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
@@ -105,17 +109,9 @@
   - Flareon (Fire Stone ¥2100): High Attack (130 base) + Special (110 base). Fire STAB against Grass/Bug/Ice.
   - Vaporeon (Water Stone ¥2100): Bulky Water special tank (redundant with starter HYDROS).
 - **Gym Matchup (Erika - Grass/Poison)**:
-  - Lead: HYDROS (Blastoise Lv 45) with Ice Beam (10/10 PP) to easily sweep Victreebel, Tangela, and Vileplume.
+  - Lead: HYDROS (Blastoise Lv 46) with Ice Beam (6/10 PP) to sweep Erika's team.
 - **Team Rocket Hideout Plan**:
   - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
-  - ATLAS (Machop) and TERRA (Geodude) available for physical matchups against Raticate, Drowzee, and Koffing.
-
-## Pre-Dungeon Supply & Readiness Checklist (Rocket Hideout B1F-B4F)
-- Party Readiness:
-  - Lead: HYDROS (Blastoise Lv 45) - HP 149/149, Special 107. Moves: Ice Beam (10/10), Bubblebeam (20/20), Bite (25/25), Skull Bash (15/15). Total offensive PP: 70 moves. Overlevels all dungeon encounters (Lv 20-29) by 15-25 levels.
-  - Physical Tanks / Reserves: TERRA (Geodude Lv 21, Dig/Rock Throw), ATLAS (Machop Lv 15, Karate Chop), PRISM (Eevee Lv 25).
-- Tactical Policy: One-shot grunts with Bubblebeam/Bite/Ice Beam. Flee wild encounters if any using 1-turn protocol.
-- Optional Supplies: Celadon Dept Store 2F is available immediately nearby if Super Potions / Escape Ropes are desired after obtaining Silph Scope.
 
 
 <hr>
@@ -1438,38 +1434,28 @@
 
 <h1><code>Locations/RocketHideoutB2F</code></h1>
 
+# Team Rocket Hideout B2F - Conveyor Network & Topology
+
 ## Verified Conveyor Network Routes
-- Route 6 (Lower Chamber Access): (13, 18) [Left] -> West -> (11, 18) [Down] -> South -> Lands on Stop Tile (11, 20).
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
 - Route 2: (12, 11) [Up] -> North -> (12, 9) [Left] -> West -> (10, 9) [Left] -> West -> (8, 9) [Left] -> West -> (4, 9) [Left] -> Lands on Stop Tile (2, 9).
-- Route 3: (4, 11) [Right] -> East -> (5, 11) -> (6, 11) -> (7, 11) -> Lands on Stop Tile (8, 11).
-- Route 4: (10, 10) [Up] -> North -> (10, 9) [Left] -> West -> Lands on Stop Tile (2, 9).
-- Route 5 (Southern Passage): From Stop Tile (8, 11) -> East to (9, 11) -> South to (9, 12) -> East to (10, 12) -> South to (10, 15) -> East onto Down Spin Tile (11, 15) -> Launches South into Southern B2F Chamber.
+- Route 3: From (2, 9) -> Right to (3, 9) -> Down to (3, 11) -> Right onto (4, 11) [Right] -> East -> Lands on Stop Tile (8, 11).
+- Route 4 (To Southern Chamber): From Stop Tile (8, 11) -> (10, 11) -> (10, 14) -> Step onto (11, 14) [Down] -> launches through (11, 16) [Right] -> (15, 16) [Down] -> lands at (15, 18).
+- Route 5: From (15, 18) -> (13, 18) [Left] -> (11, 18) [Down] -> lands on Stop Tile (11, 20).
+- Route 6: From Stop Tile (11, 20) -> (14, 20) -> (14, 22) -> (13, 22) [Left] -> lands on Stop Tile (9, 24).
+- Route 7 (Direct Corridor to B3F Stairs):
+  - From Stop Tile (9, 24) -> (10, 24) -> (10, 25) -> Walk East along row 25 to (21, 25) -> Up to (21, 22) [Stairs down to B3F].
+- Route 8 (Exit from Spin Maze to B1F Stairs):
+  - From Stop Tile (11, 20) -> (10, 20) -> (10, 19) [Up] -> (14, 15) Stop Tile -> (16, 14) [Up] -> (16, 13) Stop Tile -> East across row 13 to (27, 8) [B1F Stairs].
 
-
-- Southwest Sector (cols 1-7, rows 18-26):
-  - Stop Tile at (2, 19) [Reached via (8, 23) Up -> (8, 19) Left].
+## Floor Layout & Item Balls
+- Northwest Sector:
+  - Item Ball at (1, 11): Moon Stone [Collected Turn 12239].
+  - Item Ball at (6, 12): TM07 Horn Drill [Collected Turn 12242].
+  - Item Ball at (16, 8): Nugget [Collected Turn 12258].
+- Southwest Sector:
   - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
-  - Western thoroughfare along col 1 (rows 15-25).
-  - Southern corridor along row 25 (cols 1-6).
 
-## Verified Conveyor Maze Solutions
-- Northern Maze to Southwest Sector:
-  - From (8, 11) Stop Tile -> (10, 11) -> (10, 14) -> Step onto (11, 14) [Down] -> launches through (11, 16) [Right] -> (15, 16) [Down] -> lands at (15, 18).
-  - From (15, 18) -> (13, 18) [Left] -> (11, 18) [Down] -> lands at Stop Tile (11, 20).
-- Southwest Sector to Eastern Corridor (Exit from Spin Maze):
-  - From Stop Tile (11, 20) -> (10, 20) -> (10, 19) [Up] -> launches through (10, 17) [Right] -> (12, 17) [Right] -> (14, 17) [Up] -> lands at Stop Tile (14, 15).
-  - From Stop Tile (14, 15) -> (15, 15) -> (16, 15) -> Step onto (16, 14) [Up] -> lands on Stop Tile (16, 13).
-  - From Stop Tile (16, 13) -> Walk East across cols 17-25 to enter the eastern corridor leading to B1F stairs at (27, 8) and B3F stairs at (21, 22).
-- Complete Path from B1F Stairs to B3F Stairs:
-  1. From (27, 8) / (16, 8) enter upper maze at (17, 10) [Left] -> (14, 12).
-  2. From (14, 12) -> (12, 11) [Up] -> (2, 9).
-  3. From (2, 9) -> (4, 11) [Right] -> (8, 11).
-  4. From (8, 11) -> (10, 11) -> (10, 14) -> (11, 14) [Down] -> (15, 18).
-  5. From (15, 18) -> (13, 18) [Left] -> (11, 20).
-  6. From (11, 20) -> (14, 20) -> (14, 22) -> (13, 22) [Left] -> (9, 24).
-  7. From (9, 24) -> (10, 24) -> (10, 25) [Right] -> (14, 25).
-  8. From (14, 25) -> (16, 25) -> (16, 23) -> (17, 23) -> (17, 21) -> (21, 21) -> (21, 22) [Stairs down to B3F].
 
 <hr>
 
@@ -1493,11 +1479,8 @@
 - Central Spin Tile Column (col 9):
   - Up spin tiles at (9, 14), (9, 18), (9, 20), (9, 22), (9, 24).
   - Stop tiles at (9, 15), (9, 19), (9, 21), (9, 23), (9, 25).
-  - Stepping Left from (10, 18) onto (9, 18) Up-arrow launches north through row 16 wall to Stop tile at (9, 15).
-  - Item Ball at (9, 17).
-- Northern / Western Sector (rows 0-15):
-  - Accessible via (9, 18) Up spin tile landing at (9, 15).
-- Stairs Down to B4F: In northern/western sector (currently exploring).
+  - Col 9 is an exit chute from the northern maze into the southern corridor.
+  - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
 
 ## Verified Trainers
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].
