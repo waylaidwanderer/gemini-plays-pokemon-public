@@ -61,5 +61,5 @@
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
-- [ ] Challenge Gym Leader Erika in Celadon Gym for Rainbow Badge
+- [x] Defeat Gym Leader Erika in Celadon Gym (Rainbow Badge & TM21 Mega Drain) [Turn 13822]
 - [x] Obtain Silph Scope from Boss Giovanni in Rocket Hideout [Turn 13305]

@@ -39,9 +39,9 @@
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
 
 ## Inventory & Resources
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Key Items: Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
 - Consumables & Field Items:

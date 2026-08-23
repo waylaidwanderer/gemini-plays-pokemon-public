@@ -2,8 +2,8 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Gym (5, 6) -> Upper chamber, approaching Leader Erika at (4, 1)
+- Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
+- Location: Celadon Gym (4, 4) -> Rainbow Badge & TM21 obtained! Heading to Route 16 for HM02 Fly
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
