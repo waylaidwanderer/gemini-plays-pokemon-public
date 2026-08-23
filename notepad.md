@@ -1401,9 +1401,10 @@
   - South passage opening at cols 20-23 across row 4 leading into the central chamber.
 - Northwest Room (cols 9-18, rows 4-9):
   - North wall at row 4. West wall at col 8.
-  - Defeated Rocket Grunt #2 at (12, 6).
-  - Opening to southern corridor at col 14 (rows 9-15).
+  - Opening to central corridor at col 14 (rows 5-7).
   - Central table at (10..13, 12..13).
+  - Item Ball #1 at (11, 14): Hyper Potion / Escape Rope [Collected Turn 12206].
+  - Desk row at row 8 with walkable gap at (11..12, 8).
 - Central & Southern Sectors (rows 10-25):
   - Item Ball #1 at (11, 14): Hyper Potion / Escape Rope [Collected Turn 12206].
   - Elevator Doors: Located at (24..25, 16). Wall divider at (26..28, 16).
