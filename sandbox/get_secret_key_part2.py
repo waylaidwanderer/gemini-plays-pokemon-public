@@ -14,6 +14,8 @@ def run_from_battle():
     # Clear got away safely message
     for _ in range(4):
         mgba.press_buttons(["B", "sleep 120"])
+    # Wait for the overworld transition to finish completely
+    time.sleep(1.5)
 
 def walk_step(direction):
     pos_before = mgba.get_coordinates()
