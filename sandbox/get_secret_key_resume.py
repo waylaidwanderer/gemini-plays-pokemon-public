@@ -57,26 +57,14 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (5, 10) on 2F West in State B
-# PHASE 1: Warp UP to 3F West
-print("PHASE 1: Warp UP to 3F West...")
+# Currently at (7, 10) on 3F West in State B
+# PHASE 1: Walk to Row 6 and walk to the 3F East pitfall at (26, 6)
+print("PHASE 1: Walking Row 6 to 3F East pitfall...")
 success = True
 if success:
-    success = walk_to_tile(6, 10)
+    success = walk_to_tile(10, 11)
 if success:
-    success = walk_to_tile(6, 11)
-if success:
-    success = walk_to_tile(7, 11)
-if success:
-    print("Stepping UP onto stairs at (7, 10) to warp UP...")
-    mgba.press_buttons(["Up", "sleep 400"])
-    time.sleep(1.5)
-    print("New position on 3F West:", get_pos())
-
-# PHASE 2: Walk to Row 6 and walk to the 3F East pitfall at (26, 6)
-print("PHASE 2: Walking Row 6 to 3F East pitfall...")
-if success:
-    success = walk_to_tile(7, 6)
+    success = walk_to_tile(10, 6)
 if success:
     success = walk_to_tile(26, 6)
 
@@ -85,8 +73,8 @@ if success:
     time.sleep(2.0)
     print("New position on 1F East:", get_pos())
 
-# PHASE 3: Walk to B1F stairs at (22, 2) on 1F East and warp DOWN
-print("PHASE 3: Warp DOWN to B1F East...")
+# PHASE 2: Walk to B1F stairs at (22, 2) on 1F East and warp DOWN
+print("PHASE 2: Warp DOWN to B1F East...")
 if success:
     # We land around (25, 6) on 1F East inside the fenced room.
     success = walk_to_tile(22, 6)
@@ -98,22 +86,22 @@ if success:
     time.sleep(1.5)
     print("New position on B1F East:", get_pos())
 
-# PHASE 4: Walk along B1F Row 5 across Column 9 gate to (1, 5)
-print("PHASE 4: Crossing B1F Row 5 to Secret Key...")
+# PHASE 3: Walk along B1F Row 5 across Column 9 gate to (1, 5)
+print("PHASE 3: Crossing B1F Row 5 to Secret Key...")
 if success:
     success = walk_to_tile(19, 5)
 if success:
     success = walk_to_tile(1, 5)
 
-# PHASE 5: Retrieve Secret Key at (1, 4)
+# PHASE 4: Retrieve Secret Key at (1, 4)
 if success:
-    print("PHASE 5: Picking up the Secret Key at (1, 4)...")
+    print("PHASE 4: Picking up the Secret Key at (1, 4)...")
     mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
     print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 6: DIG out back to Cinnabar Island
+# PHASE 5: DIG out back to Cinnabar Island
 if success:
-    print("PHASE 6: Escaping via DIG...")
+    print("PHASE 5: Escaping via DIG...")
     mgba.press_buttons(["Start", "sleep 300"])
     mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
     for _ in range(5):
