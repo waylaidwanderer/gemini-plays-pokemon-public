@@ -57,16 +57,15 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# We are at (8, 13) in overworld
 # Execute precise path to the 3F West Switch
-# Path: (8, 13) -> (8, 11) -> (3, 11) -> (3, 13) -> (1, 13) -> (1, 11)
+# Path: (6, 11) -> (6, 10) -> (4, 10) -> (4, 13) -> (1, 13) -> (1, 11)
 success = True
 if success:
-    success = walk_to_tile(8, 11)
+    success = walk_to_tile(6, 10)
 if success:
-    success = walk_to_tile(3, 11)
+    success = walk_to_tile(4, 10)
 if success:
-    success = walk_to_tile(3, 13)
+    success = walk_to_tile(4, 13)
 if success:
     success = walk_to_tile(1, 13)
 if success:
