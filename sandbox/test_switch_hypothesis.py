@@ -24,66 +24,63 @@ def walk_step(direction):
             attempts += 1
     return pos_after
 
-# Starting from (15, 12).
-print("Starting switch verification from current position...")
+def walk_to(target_x, target_y):
+    max_steps = 30
+    steps = 0
+    while steps < max_steps:
+        pos = mgba.get_coordinates()
+        x, y = pos['x'], pos['y']
+        if x == target_x and y == target_y:
+            return True
+        if x < target_x:
+            walk_step("Right")
+        elif x > target_x:
+            walk_step("Left")
+        elif y < target_y:
+            walk_step("Down")
+        elif y > target_y:
+            walk_step("Up")
+        steps += 1
+    return False
+
+# Starting from (19, 7) in State A
+print("Starting switch test at (12, 12)...")
 print("Initial position:", mgba.get_coordinates())
 
-# 1. Walk UP Column 15 from Row 12 to Row 6
-print("1. Walking UP Column 15 to Row 6...")
+# 1. Walk LEFT on Row 7 to Column 16
+print("1. Walking LEFT to Column 16...")
 pos = mgba.get_coordinates()
-while pos['y'] > 6:
-    pos = walk_step("Up")
-print("  Arrived at Row 6 Column 15:", pos)
+while pos['x'] > 16:
+    pos = walk_step("Left")
 
-# 2. Walk LEFT along Row 6 to Column 12
-print("2. Walking LEFT along Row 6 to Column 12...")
+# 2. Walk DOWN Column 16 to Row 9
+print("2. Walking DOWN to Row 9...")
+while pos['y'] < 9:
+    pos = walk_step("Down")
+
+# 3. Walk LEFT on Row 9 to Column 12
+print("3. Walking LEFT to Column 12...")
 while pos['x'] > 12:
     pos = walk_step("Left")
-print("  Arrived at Row 6 Column 12:", pos)
 
-# 3. Walk DOWN Column 12 to Row 10
-print("3. Walking DOWN Column 12 to Row 10...")
-while pos['y'] < 10:
+# 4. Walk DOWN Column 12 to Row 11
+print("4. Walking DOWN to Row 11...")
+while pos['y'] < 11:
     pos = walk_step("Down")
-print("  Arrived at Row 10 Column 12:", pos)
 
-# 4. Face DOWN (to (12, 11))
-print("4. Facing DOWN...")
-walk_step("Down")
-pos = mgba.get_coordinates()
-print("  Final standing position:", pos)
+print("Arrived at:", mgba.get_coordinates())
 
-# Take screenshot before pressing A
+# Face DOWN (to look at (12, 12))
+print("Facing DOWN...")
+walk_step("Down") # Should bump and face Down
+print("Final position before pressing A:", mgba.get_coordinates())
+
+# Take screenshot
 mgba.take_screenshot()
 
-# Press A to toggle switch
-print("Pressing A to interact with statue...")
-mgba.press_buttons(["A", "sleep 500", "B", "sleep 150"])
+# Press A
+print("Pressing A to check for secret switch...")
+mgba.press_buttons(["A", "sleep 300", "A", "sleep 300"])
 
-# Let's verify if the state toggled!
-# If it toggled to State A:
-# - The Row 7 gates on 3F East (columns 14-21) should OPEN!
-# Let's test by walking to Column 15 Row 6, then trying to walk Down to Row 8.
-print("Testing if gates opened on Column 15 Row 7...")
-print("Walking to (15, 6)...")
-pos = mgba.get_coordinates()
-# Walk UP to Row 6
-while pos['y'] > 6:
-    pos = walk_step("Up")
-# Walk RIGHT to Column 15
-while pos['x'] < 15:
-    pos = walk_step("Right")
-print("  Arrived at (15, 6):", pos)
-
-# Try to step DOWN on Column 15
-print("Attempting to walk DOWN past Row 7 on Column 15...")
-pos_before = mgba.get_coordinates()
-pos_after = walk_step("Down")
-if pos_before['y'] != pos_after['y']:
-    print("SUCCESS!!! Column 15 Row 7 is OPEN! The switch worked and toggled the mansion back to State A!")
-    # Walk back UP to Row 6
-    walk_step("Up")
-else:
-    print("BLOCKED: Column 15 Row 7 remains CLOSED. The statue is decorative or didn't toggle.")
-
-print("Final position:", mgba.get_coordinates())
+# Take screenshot to capture text box
+mgba.take_screenshot()
