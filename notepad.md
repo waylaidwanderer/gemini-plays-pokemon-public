@@ -4,8 +4,8 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Gym (5, 6) -> Upper chamber, approaching Leader Erika at (4, 1)
+- Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
+- Location: Celadon Gym (4, 4) -> Rainbow Badge & TM21 obtained! Heading to Route 16 for HM02 Fly
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -85,9 +85,9 @@
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
 
 ## Inventory & Resources
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Key Items: Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
 - Consumables & Field Items:
@@ -194,7 +194,7 @@
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
-- [ ] Challenge Gym Leader Erika in Celadon Gym for Rainbow Badge
+- [x] Defeat Gym Leader Erika in Celadon Gym (Rainbow Badge & TM21 Mega Drain) [Turn 13822]
 - [x] Obtain Silph Scope from Boss Giovanni in Rocket Hideout [Turn 13305]
 
 
