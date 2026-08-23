@@ -1,42 +1,45 @@
 import mgba
 import time
 
-print("Dismissing text box...")
-mgba.press_buttons(["B", "sleep 300"])
+def run_from_battle():
+    print("In battle! Running...")
+    for _ in range(5):
+        mgba.press_buttons(["B", "sleep 100"])
+    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 500"])
+    for _ in range(4):
+        mgba.press_buttons(["B", "sleep 100"])
 
-pos = mgba.get_coordinates()
-print("Current position:", pos)
+def walk_step(direction):
+    pos_before = mgba.get_coordinates()
+    mgba.press_buttons([direction, "sleep 150"])
+    pos_after = mgba.get_coordinates()
+    
+    if pos_before == pos_after:
+        mgba.press_buttons([direction, "sleep 150"])
+        pos_after = mgba.get_coordinates()
+        
+        attempts = 0
+        while pos_before == pos_after and attempts < 5:
+            run_from_battle()
+            mgba.press_buttons([direction, "sleep 150"])
+            pos_after = mgba.get_coordinates()
+            attempts += 1
+    return pos_after
 
-def walk_to_overworld(target_x, target_y):
-    max_steps = 50
-    steps = 0
-    while steps < max_steps:
-        pos = mgba.get_coordinates()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            return True
-            
-        if x < target_x:
-            mgba.press_buttons(["Right", "sleep 200"])
-        elif x > target_x:
-            mgba.press_buttons(["Left", "sleep 200"])
-        elif y < target_y:
-            mgba.press_buttons(["Down", "sleep 200"])
-        elif y > target_y:
-            mgba.press_buttons(["Up", "sleep 200"])
-        steps += 1
-    return False
+# Starting at (11, 12)
+print("Initial position:", mgba.get_coordinates())
 
-print("Walking to (6, 5)...")
-walk_to_overworld(6, 5)
+# 1. Walk to (6, 13)
+walk_step("Down")
+for _ in range(5):
+    walk_step("Left")
 
-print("Walking to (6, 3)...")
-walk_to_overworld(6, 3)
+print("Arrived at Column 6:", mgba.get_coordinates())
 
-print("Entering the Mansion...")
-mgba.press_buttons(["Up", "sleep 500"])
-time.sleep(1.5)
+# 2. Walk UP to (6, 3) and enter Mansion
+for _ in range(11):
+    walk_step("Up")
 
-print("Position inside Mansion:", mgba.get_coordinates())
+print("Entered Mansion! Current position:", mgba.get_coordinates())
 sc = mgba.take_screenshot()
-print("Screenshot saved to:", sc)
+print("Screenshot:", sc)
