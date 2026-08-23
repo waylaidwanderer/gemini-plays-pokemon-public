@@ -1510,6 +1510,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **3F West Row 9 Wall (Columns 6-7):** Permanent solid vertical wall separating the southern hallway from northern rooms, blocking vertical traversal on these columns (verified on Turn 55219).
 
 ### State A (Default)
+- **1F West Row 9 Gates:** CLOSED.
+- **2F West Row 9 Gates:** CLOSED.
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as a DOWN warp to 2F East).
 - **1F East gate at `(15, 8)`:** OPEN.
@@ -1519,6 +1521,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **3F West Row 12 Gates:** OPEN.
 
 ### State B (Toggled)
+- **1F West Row 9 Gates:** CLOSED.
+- **2F West Row 9 Gates:** OPEN.
 - **B1F South-East gate at `(10, 11)`:** CLOSED.
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as an UP warp to 3F East).
 - **1F East gate at `(15, 8)`:** CLOSED.
@@ -1538,7 +1542,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Walk RIGHT along Row 11 to Column 8: `(5, 11) -> (8, 11)`.
    - Walk UP Column 8 to Row 10: `(8, 11) -> (8, 10)`.
    - Walk LEFT to Column 5: `(8, 10) -> (5, 10)`.
-   - Step LEFT onto the stairs at `(5, 10)` to warp UP to 2F West (landing at `(5, 11)`).
+   - Step LEFT onto the stairs at `(5, 10)` to warp UP to 2F West (landing at `(4, 11)`).
 
 3. **Navigate 2F West to 3F West (State A):**
    - Walk RIGHT to Column 7: `(5, 11) -> (7, 11)`.
