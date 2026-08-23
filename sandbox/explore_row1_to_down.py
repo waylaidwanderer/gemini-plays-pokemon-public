@@ -2,6 +2,7 @@ import mgba
 import time
 
 def run_from_battle():
+    print("In battle! Running...")
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 100"])
     mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 500"])
@@ -42,32 +43,28 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# We start at (15, 1). Let's systematically test columns from 11 to 21
-# to see if we can walk DOWN to Row 8.
-print("Starting column test from Row 1...")
-for c in range(14, 22):
-    # Walk to (c, 1)
-    if walk_to(c, 1):
-        # Now try to walk down. We will try walking down to Row 8
-        print(f"Testing Column {c}...")
-        steps_down = 0
-        for _ in range(7):
-            pos_before = mgba.get_coordinates()
-            walk_step("Down")
-            pos_after = mgba.get_coordinates()
-            if pos_before['y'] == pos_after['y']:
-                # Blocked
-                break
-            steps_down += 1
-            
-        pos = mgba.get_coordinates()
-        if pos['y'] >= 8:
-            print(f"SUCCESS: Column {c} is OPEN down to Row {pos['y']}!")
-            # Walk back up to Row 1
-            walk_to(c, 1)
-        else:
-            print(f"BLOCKED: Column {c} only went down to Row {pos['y']}.")
-            # Walk back up to Row 1
-            walk_to(c, 1)
+# Start grid search of the room (x: 14 to 21, y: 8 to 12)
+# We are currently at (15, 11).
+print("Starting search of the room for any stairs...")
 
-print("Final position:", mgba.get_coordinates())
+# Walk to each tile in a grid
+for y in range(8, 13):
+    for x in range(14, 22):
+        print(f"Trying to walk to: ({x}, {y})")
+        # Try to walk to (x, y)
+        success = walk_to(x, y)
+        pos = mgba.get_coordinates()
+        print(f"  Reached: ({pos['x']}, {pos['y']})")
+        # If we warped, our coordinates will change or we will see a map transition.
+        # But wait! On 2F, the coordinates of the landing are (15, 11) or similar.
+        # How do we know we warped? If our y coordinate or our map changes.
+        # Let's check if the coordinates are in B1F or 2F.
+        # Usually, a warp transition resets the step/mansion state or coordinate systems, or coordinates become 2F coordinates.
+        # Since 2F and 3F coordinates are very similar, let's take a screenshot or print coordinates.
+        if pos['y'] == 11 and pos['x'] == 15:
+            # Wait, did we warp to 2F (15, 11)?
+            # Let's take a screenshot to check if the surrounding is different!
+            # On 2F, there are different tiles. Let's just check if we can walk to other rows.
+            pass
+
+print("Search completed. Final position:", mgba.get_coordinates())
