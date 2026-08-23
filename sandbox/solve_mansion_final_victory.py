@@ -46,34 +46,55 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting from (1, 11) on 3F West in State B
-print("1. Walking to 3F East (12, 9) in State B...")
-walk_to(1, 12)
-walk_to(6, 12)
-walk_to(6, 9)
-walk_to(12, 9)
-print("Arrived on 3F East! Position:", mgba.get_coordinates())
+# Starting on 3F West at (7, 14) in State B
+print("1. Walking to 3F West stairs at (7, 10)...")
+walk_to(7, 11)
+walk_step("Up") # Step UP to warp to 2F West
+time.sleep(1.0)
+print("Position after warp to 2F West:", mgba.get_coordinates())
 
-# 2. Walk to switch at (12, 10)
-print("2. Walking to switch at (12, 10)...")
-walk_to(12, 10)
+# On 2F West, walk to (5, 11) and step UP onto stairs to warp to 1F West
+print("2. Walking to 2F West stairs at (5, 10)...")
+walk_to(5, 11)
+walk_step("Up") # Step UP to warp to 1F West
+time.sleep(1.0)
+print("Position after warp to 1F West:", mgba.get_coordinates())
 
-# 3. Toggle switch back to State A
-print("3. Toggling 3F East switch back to State A...")
-mgba.press_buttons(["Down", "sleep 200", "A", "sleep 500"])
-print("Position after toggling switch:", mgba.get_coordinates())
+# On 1F West, walk to (5, 5) and cross to 1F East (21, 5)
+print("3. Walking along Row 5 across Column 13 to 1F East...")
+walk_to(5, 5)
+walk_to(21, 5)
 
-# 4. Walk to balcony on Row 18 Column 19 in State A
-print("4. Walking to balcony at (19, 18) in State A...")
-walk_to(12, 6)
-walk_to(19, 6)
-walk_to(19, 18)
-print("Arrived at balcony drop point! Position:", mgba.get_coordinates())
+# Walk to B1F stairs at (22, 2) and warp down to B1F East North
+print("4. Walking to B1F stairs at (22, 2)...")
+walk_to(21, 2)
+walk_to(22, 2)
+walk_step("Up") # Step UP onto stairs to warp to B1F
+time.sleep(1.0)
+print("Position after warp to B1F East North:", mgba.get_coordinates())
 
-# 5. Drop down the balcony to B1F East
-print("5. Dropping down the balcony at (19, 18)...")
-mgba.press_buttons(["Down", "sleep 800"])
-time.sleep(1.5)
+# On B1F East North, walk horizontally along Row 5 to B1F West North (1, 5)
+print("5. Walking along B1F Row 5 across Column 9 gate to (1, 5)...")
+walk_to(19, 5)
+walk_to(1, 5)
 
-print("Arrived on B1F East! Position:", mgba.get_coordinates())
+# Pick up Secret Key at (1, 4)
+print("6. Picking up the Secret Key at (1, 4)...")
+walk_step("Up") # Turn UP to face (1, 4)
+mgba.press_buttons(["A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
+print("Secret Key pick-up executed! Current position:", mgba.get_coordinates())
+
+# Escape via DIG
+print("7. Escaping via DIG...")
+mgba.press_buttons(["Start", "sleep 300"])
+mgba.press_buttons(["Up", "sleep 150", "A", "sleep 600"]) # Select POKéMON
+# Select TRUFFLE in Slot 6 (5 steps DOWN)
+for _ in range(5):
+    mgba.press_buttons(["Down", "sleep 150"])
+mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
+# Select DIG (Option 1)
+mgba.press_buttons(["A", "sleep 1000"])
+time.sleep(2.0)
+
+print("Escaped! Final position on Cinnabar Island:", mgba.get_coordinates())
 
