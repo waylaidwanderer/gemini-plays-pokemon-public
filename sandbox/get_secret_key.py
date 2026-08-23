@@ -24,13 +24,15 @@ def run_to_destination(path_list):
             else:
                 print("Failed to move, still stuck at:", mgba.get_coordinates())
 
-# Currently at (5, 8) on 2F West (State B)
+# Currently at (8, 8) on 2F West (State B)
 # 1. Walk to 2F West stairs at (7, 10) and warp DOWN to 1F West
 # Path:
-# - Right 5 steps to (10, 8)
-# - Down 2 steps to (10, 10)
-# - Left 3 steps to (7, 10) (warp DOWN to 1F West)
-path1 = ["Right"] * 5 + ["Down"] * 2 + ["Left"] * 3
+# - Left 3 steps to (5, 8)
+# - Up 3 steps to (5, 5)
+# - Right 5 steps to (10, 5)
+# - Down 5 steps to (10, 10)
+# - Left 3 steps to (7, 10) (warp DOWN)
+path1 = ["Left"] * 3 + ["Up"] * 3 + ["Right"] * 5 + ["Down"] * 5 + ["Left"] * 3
 
 print("Walking to 2F West stairs and warping DOWN to 1F...")
 run_to_destination(path1)
