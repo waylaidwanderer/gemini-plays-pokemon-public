@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Gym (x=4, y=0) -> Challenging Gym Leader Erika for Rainbow Badge
+- Location: Celadon Gym Entrance (x=10, y=15) -> Entering Gym to challenge Leader Erika
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -87,13 +87,12 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
 - Consumables & Field Items:
   - 5x Super Potion
-  - 1x Rare Candy (Claimed from Rocket Hideout Turn 12799)
-  - 1x Escape Rope (Verified from B1F/B2F Item Balls)
+    - 1x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
@@ -195,8 +194,9 @@
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
-- [ ] Obtain Silph Scope to identify ghosts in Pokémon Tower
 - [ ] Challenge Gym Leader Erika in Celadon Gym for Rainbow Badge
+- [x] Obtain Silph Scope from Boss Giovanni in Rocket Hideout [Turn 13305]
+
 
 <hr>
 
