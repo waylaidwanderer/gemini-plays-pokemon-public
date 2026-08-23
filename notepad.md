@@ -54,7 +54,7 @@
 1. HYDROS (Blastoise) - Lv 49
    - Stats (Verified at Lv 49): Max HP 162 (HP: 140/162), Attack 111, Defense 123, Speed 113, Special 118
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (6/10), Bite (24/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Active Lead & Pokémon Tower sweeper)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -92,7 +92,7 @@
 - Key Items: HM02 (Fly), Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain), TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig), TM24 (Thunderbolt)
 - Valuables: 1x Nugget
-- Consumables: 10x Great Balls, 4x Super Potion, 1x Elixer, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
+- Consumables: 10x Great Balls, 4x Super Potion, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
 - Funds: ¥27,678 (Verified Turn 14330)
 
 ## Flying-Type Party Slot Allocation & Capture Plan
