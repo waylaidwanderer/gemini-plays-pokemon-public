@@ -39,7 +39,7 @@
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
+- Key Items: HM02 (Fly), Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain)
 - Valuables: 1x Nugget
 - Consumables: 10x Great Balls, 4x Super Potion, 1x Elixer, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
