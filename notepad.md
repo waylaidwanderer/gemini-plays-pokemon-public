@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=22, y=12) -> Boss Wing / Elevator Lobby, defeating guards outside Giovanni's room
+- Location: Celadon City (x=3, y=6) outside Pok�mon Center -> Heading inside to heal before Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
