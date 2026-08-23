@@ -57,25 +57,23 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (22, 3) on B1F East
-print("Walking to (21, 3)...")
-success = walk_to_tile(21, 3)
+# Currently at (15, 6) on B1F East in State B
+# Walk to (1, 5)
+success = True
 if success:
-    print("Walking to (21, 5)...")
-    success = walk_to_tile(21, 5)
+    success = walk_to_tile(15, 5)
 if success:
-    print("Walking along Row 5 horizontally to (1, 5)...")
     success = walk_to_tile(1, 5)
 
-# PHASE 3: Retrieve Secret Key at (1, 4)
+# Retrieve Secret Key at (1, 4)
 if success:
-    print("PHASE 3: Picking up the Secret Key at (1, 4)...")
+    print("Picking up the Secret Key at (1, 4)...")
     mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
     print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 4: DIG out back to Cinnabar Island
+# DIG out back to Cinnabar Island
 if success:
-    print("PHASE 4: Escaping via DIG...")
+    print("Escaping via DIG...")
     mgba.press_buttons(["Start", "sleep 300"])
     mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
     for _ in range(4): # 4 Down presses to select TRUFFLE (the 5th slot)
