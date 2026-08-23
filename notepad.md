@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=9, y=16) - Exploring Western Conveyor Maze
+- Location: Team Rocket Hideout B4F (x=22, y=12) - Engaging Elevator Grunt
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1477,6 +1477,7 @@
 # Team Rocket Hideout B3F - Topology & Dungeon Log
 
 ## Connections & Warps
+- Stairs Down to B4F: Located at (19, 10), leads down to Rocket Hideout B4F at (19, 18).
 - Stairs Up to B2F: Located at (21, 24), leads up to Rocket Hideout B2F at (21, 22).
 - Elevator Shaft: Located at (24..25, 16..19).
 
@@ -1511,6 +1512,7 @@
 # Team Rocket Hideout B4F - Topology & Floor Log
 
 ## Connections & Warps
+- Stairs Up to B3F: Located at (19, 18), leads up to Rocket Hideout B3F at (19, 10).
 - Stairs Up to B2F: Located at (25, 6), leads up to Rocket Hideout B2F at (21, 8).
 - Elevator Doors / Lobby: Located on the east side (cols 24-28).
 
