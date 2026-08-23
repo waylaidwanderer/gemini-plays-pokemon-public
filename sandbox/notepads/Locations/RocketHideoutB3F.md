@@ -6,14 +6,19 @@
 
 ## Floor Layout & Verified Topology
 - Eastern Wing (cols 18-25, rows 16-27):
-  - Central barrier block at (12..17, 19..24).
+  - Stairs Up to B2F at (21, 24).
+  - Elevator Shaft at (24..25, 16..19) (needs Lift Key).
+  - Central barrier block at cols 12-17, rows 19-24.
   - Northern corridor connecting to spin maze at row 18 (cols 10-20).
   - Southern corridor along rows 25-26 (cols 10-22).
 - Central Spin Tile Column (col 9):
-  - Alternating pattern from row 18 to row 25: Statues at (9, 19), (9, 21), (9, 23), (9, 25); Green spin tiles at (9, 18), (9, 20), (9, 22), (9, 24).
+  - Alternating pattern from row 18 to row 25: Statues at (9, 19), (9, 21), (9, 23), (9, 25) [Solid obstacles]; Right-facing spin tiles at (9, 18), (9, 20), (9, 22), (9, 24) [Act as exits pushing Right into col 10; blocked from entry on the Right].
   - Open corridor along cols 10-11 connecting row 18 to row 26.
-  - Central barrier block at cols 12-15, rows 19-24.
-  - Open corridor at row 18 leading east to grunt at (18, 18).
+- Northern Wing (rows 10-15):
+  - Separated from southern sector by solid wall at row 16 (cols 8-22).
+  - Spin tiles visible at (9, 14), (16, 14), (21, 14), (23, 14).
+  - Statues visible at (9, 15), (16, 15), (21, 15), (23, 15).
+  - Open elevator lobby at (24..25, 14..15).
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
 
