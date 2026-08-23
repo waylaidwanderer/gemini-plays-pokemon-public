@@ -50,12 +50,11 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (5, 10) on 3F West in State B
-print("Starting ultimate Secret Key script from (5, 10) on 3F West...")
+# Starting at (8, 9) on 3F West in State B
+print("Starting ultimate Secret Key script from (8, 9) on 3F West...")
 
 # PHASE 1: Walk to pitfall at (26, 6)
 print("PHASE 1: Walking to pitfall...")
-walk_to(5, 9)
 walk_to(12, 9)
 walk_to(12, 6)
 walk_to(26, 6)
