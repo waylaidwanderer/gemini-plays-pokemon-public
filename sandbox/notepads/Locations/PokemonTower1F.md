@@ -14,6 +14,3 @@
   - Open corridor along row 9 (cols 16-17) leading directly to the ascending staircase at (18, 9).
 - North Boundary: Solid wall along rows 1-3.
 - East Boundary: Solid pink wall along col 19.
-
-## Progression Objective
-- Ascend via stairs at (18, 9) to Pokémon Tower 2F.

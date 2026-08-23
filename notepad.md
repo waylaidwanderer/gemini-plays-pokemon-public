@@ -1210,9 +1210,6 @@
 - North Boundary: Solid wall along rows 1-3.
 - East Boundary: Solid pink wall along col 19.
 
-## Progression Objective
-- Ascend via stairs at (18, 9) to Pokémon Tower 2F.
-
 <hr>
 
 <h1><code>Locations/PokemonTower2F</code></h1>
