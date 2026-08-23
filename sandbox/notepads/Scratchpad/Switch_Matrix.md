@@ -72,3 +72,9 @@
 - **Turn 54967:** Toggled 3F West Mewtwo statue switch to State B (Mansion was in State A after entry at Turn 54917).
 - **Turn 55006:** Verified we were in State A (discovered Row 12 gate at (11, 12) was OPEN, meaning a previous reset or mis-toggle occurred).
 - **Turn 55011:** Toggled 3F West switch at (2, 11) to State B from (2, 12) facing UP (Mansion is now confirmed in State B).
+
+
+## Discovered Spatial Constraints & Structural Barriers
+- **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 in both States (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
+- **Row 13 on 3F East Column 19:** Shutter gate that is CLOSED in State B (verified by bumping on Turn 54982 and Turn 55109).
+- **Row 16 on 3F East Columns 18-26:** Completely solid wooden railing across all columns (including 20, 21), making Row 16 impassable from Row 15 in both States (unless a gate is specifically open).
