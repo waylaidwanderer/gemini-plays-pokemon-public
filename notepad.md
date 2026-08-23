@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City (x=46, y=12) -> Navigating row 12/13 east to col 57 towards Celadon Gym
+- Location: Celadon City (Southern Street) -> Heading west towards Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1403,6 +1403,9 @@
 - **Eastern Thoroughfare Connection (cols 56-58, rows 11-22)**:
   - Verified on Turn 13358: Row 16 ledge terminates at col 55.
   - Cols 56-58 form a continuous, unbroken, open north-south avenue connecting upper tier directly to southern boulevard (rows 17-22)!
+
+- **Verified Ledge Gap Passage**:
+  - Located at cols 8-9 on row 16: An open 2-tile wide grass and pavement path connecting the upper garden directly south onto the southern street (rows 17-22) without hitting any ledges!
 
 
 <hr>
