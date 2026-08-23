@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Gym (4, 4) -> Rainbow Badge & TM21 obtained! Heading to Route 16 for HM02 Fly
+- Location: Celadon Gym (5, 17) -> At exit mat with Rainbow Badge & TM21! Exiting to Celadon City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -50,7 +50,7 @@
 1. HYDROS (Blastoise) - Lv 48
    - Stats (Verified at Lv 48): Max HP 159 (HP: 134/159), Attack 109, Defense 121, Speed 111, Special 115
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (3/10), Bite (24/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (14/15), Ice Beam (0/10), Bite (24/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -107,10 +107,7 @@
   - Jolteon (Thunderstone ¥2100): High Speed (130 base) + High Special (110 base). STAB Thunderbolt access gives team powerful Electric coverage against Water/Flying types (Lorelei, Lance's Gyarados, Rival's Pidgeot/Charizard/Blastoise). Strongly recommended!
   - Flareon (Fire Stone ¥2100): High Attack (130 base) + Special (110 base). Fire STAB against Grass/Bug/Ice.
   - Vaporeon (Water Stone ¥2100): Bulky Water special tank (redundant with starter HYDROS).
-- **Gym Matchup (Erika - Grass/Poison)**:
-  - Lead: HYDROS (Blastoise Lv 46) with Ice Beam (6/10 PP) to sweep Erika's team.
-- **Team Rocket Hideout Plan**:
-  - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
+
 
 <hr>
 
@@ -1608,6 +1605,13 @@
   - PP Budget: 5/10 Ice Beam PP remaining (3 required for sweep, 2 buffer).
   - Backup Offensive Moves: Skull Bash (15/15), Bite (23/25), Bubblebeam (20/20).
   - Status Risk: Erika's team uses Sleep Powder / Stun Spore. If HYDROS is afflicted, Awakening / Parlyz Heal are in inventory, or switch to ATLAS / PRISM as backup.
+
+## Gym Completion & Rewards (Verified Turn 13822)
+- **Leader Erika Defeated**: Turn 13821
+  - Team swept: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29 (all OHKOed by HYDROS Ice Beam).
+  - Rewards: RAINBOW BADGE (4/8 Badges) + TM21 (Mega Drain).
+  - Badge Effects: Pokémon up to Lv 50 obey; allows HM04 Strength field usage.
+- **Exit Warp**: Carpet at (4..5, 17) -> step Down to row 18 warps directly to Celadon City at (12, 28).
 
 
 <hr>
