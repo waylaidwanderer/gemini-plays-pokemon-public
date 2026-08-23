@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B3F (x=21, y=25) -> Navigating to B3F Western Spin Maze (col 10)
+- Location: Team Rocket Hideout B3F (x=10, y=18) -> Ascending to B2F / B1F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
