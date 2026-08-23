@@ -32,7 +32,10 @@ print("PHASE 1: Warping DOWN from 2F West to 1F West...")
 # Starting at (1, 11) on 2F West
 try_step("Right") # To (2, 11)
 try_step("Right") # To (3, 11)
-try_step("Right") # Step RIGHT onto stairs to warp DOWN to 1F West (landing at 5, 11)
+try_step("Right") # To (4, 11)
+try_step("Right") # To (5, 11)
+print("Stepping UP to warp DOWN...")
+mgba.press_buttons(["Up", "sleep 400"]) # Step UP onto stairs at (5, 10) to warp DOWN
 time.sleep(1.5)
 print("Position on 1F West:", get_pos())
 
