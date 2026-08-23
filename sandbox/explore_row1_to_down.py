@@ -45,7 +45,7 @@ def walk_to(target_x, target_y):
 # We start at (15, 1). Let's systematically test columns from 11 to 21
 # to see if we can walk DOWN to Row 8.
 print("Starting column test from Row 1...")
-for c in range(11, 22):
+for c in range(14, 22):
     # Walk to (c, 1)
     if walk_to(c, 1):
         # Now try to walk down. We will try walking down to Row 8
