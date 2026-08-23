@@ -1491,12 +1491,15 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ### State A (Default)
 - **1F West Row 9 Gates:** CLOSED.
 - **2F West Row 9 Gates:** CLOSED.
+- **2F West Column 10 Row 8:** OPEN (verified on Turn 55967).
+- **2F Column 15 Row 6:** OPEN (verified on Turn 55941).
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as a DOWN warp to 2F East).
 - **1F East gate at `(15, 8)`:** OPEN.
 - **B1F North-Central gate at `(9, 5)`:** CLOSED.
 - **2F East Row 7 Gates:** OPEN (allows vertical crossing on Column 15).
-- **3F West Row 9 Gates:** CLOSED.\n- **3F West Row 11 Column 11:** OPEN (this is the only open passage horizontally across Column 11 in State A!).
+- **3F West Row 9 Gates:** CLOSED.
+- **3F West Row 11 Column 11:** OPEN (this is the only open passage horizontally across Column 11 in State A!).
 - **3F West Row 12 Gates:** OPEN.
 
 ### State B (Toggled)
@@ -1530,8 +1533,12 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 4. **Toggle 3F West Switch to State B:**
    - Walk to the switch via Column 1 detour: Walk Left to Column 3 Row 11, Down to Column 3 Row 13, Left to Column 1 Row 13, Up to Column 1 Row 11, and face Right to toggle the Mewtwo statue switch at `(2, 11)` to State B!
 
-5. **Walk to Balcony on 3F East (State B) and Drop to B1F East:**
-   - Walk to 3F East: from (2, 11), walk DOWN to Row 12, RIGHT to Column 6, UP to Row 9, and RIGHT across Column 11 to (12, 9).
+5. **Walk to Balcony on 3F East (State A) and Drop to B1F East:**
+   - Enter Mansion in State A, warp UP to 2F West, cross to 2F East on Row 3, and walk to (15, 12).
+   - Step UP onto the stairs at (15, 11) to warp to 3F East (State A).
+   - From (15, 11) on 3F East, walk horizontally on Row 11 across Column 13 (open in State A) to (17, 11).
+   - Walk DOWN Column 17 to Row 18, and walk RIGHT to the balcony at (19, 18).
+   - Step DOWN to drop over the balcony onto B1F East!
  
 
 6. **Retrieve Secret Key on B1F East (State B) and Escape:**
@@ -1554,8 +1561,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **3F West Row 7 Hedge Wall (Columns 4-9):** Solid permanent vertical and horizontal hedge barrier, completely blocking all upward vertical traversal from Row 8 to Row 6 (empirically verified on foot on Turn 55368 and Turn 55389). Row 6 is also completely filled with hedges/rubble on Columns 3-9, meaning the southwest room on 3F is completely walled off from the northwest room of 3F West.
 
 ## Crucial Verification & Discoveries (Turn 55701)
-- **Mewtwo Statues on East Side (2F East, 3F East) do NOT have switches:** They are purely decorative. Toggling back to State A once on the East side is physically impossible!
-- **State A Crossing is Impossible:** Because the Row 9 gates are closed in State A on 1F West, 2F West, and 3F West, and Column 13/11 are solid walls below Row 9, the player is physically cut off from crossing from West to East in State A.
+- **Mewtwo Statues on East Side (2F East, 3F East):** The statue at (13, 11) on 3F East does not have a switch and is decorative. (Hypothesis: Toggling on the East side may be impossible, but the southern half of 2F East is not yet fully explored, so a functional switch on 2F East remains an unverified hypothesis).
+- **State A Crossing is possible on 2F:** While the Row 9 gates are closed in State A on 1F West, 2F West, and 3F West, horizontal crossing from 2F West to 2F East is open and walkable on Row 6 (Column 15 Row 6) and Row 5 (Column 9 Row 5) in State A!
 - **The Balcony Drop on 3F East is the ONLY Physical Way to B1F East:** Because the B1F stairs on 1F East (22, 4) are closed in State B, and Row 7 gates on 2F East are closed in State B, we cannot go down the stairs to B1F in State B. Since we can only cross in State B, the Balcony Drop is the only way to B1F East!
 - **Mewtwo Statue at (2, 11) on 2F West has no collision in State B:** It is completely walkable when State B is active.
 ## Verified Realities (Updated Turn 55832)
