@@ -24,42 +24,35 @@ def run_to_destination(path_list):
             else:
                 print("Failed to move, still stuck at:", mgba.get_coordinates())
 
-# Currently at (12, 6) on 2F East (State B)
-# 1. Walk to stairs at (15, 11) on 2F East and warp UP to 3F East
+# Currently at (5, 8) on 2F West (State B)
+# 1. Walk to 2F West stairs at (7, 10) and warp DOWN to 1F West
 # Path:
-# - Right 6 steps to (18, 6)
-# - Down 5 steps to (18, 11)
-# - Left 3 steps to (15, 11) (warp UP to 3F East)
-path1 = ["Right"] * 6 + ["Down"] * 5 + ["Left"] * 3
+# - Right 5 steps to (10, 8)
+# - Down 2 steps to (10, 10)
+# - Left 3 steps to (7, 10) (warp DOWN to 1F West)
+path1 = ["Right"] * 5 + ["Down"] * 2 + ["Left"] * 3
 
-print("Walking to 2F East stairs and warping UP...")
+print("Walking to 2F West stairs and warping DOWN to 1F...")
 run_to_destination(path1)
 
-print("Arrived on 3F East! Current position:", mgba.get_coordinates())
+print("Arrived on 1F West! Current position:", mgba.get_coordinates())
 
-# We landed at (15, 11) on 3F East.
-# 2. Walk to balcony at (19, 18) and drop to B1F East
+# We land at (5, 10) on 1F West.
+# 2. Walk from 1F West to B1F stairs on 1F East
 # Path:
-# - Right 6 steps to (21, 11)
-# - Down 4 steps to (21, 15)
-# - Left 1 step to (20, 15)
-# - Down 3 steps to (20, 18)
-# - Left 1 step to (19, 18)
-# - Down 1 step to (19, 19) (drop DOWN)
-path2 = ["Right"] * 6 + ["Down"] * 4 + ["Left"] + ["Down"] * 3 + ["Left"] + ["Down"]
+# - Up 4 steps to Row 6: (5, 10) -> (5, 6)
+# - Right 20 steps to Column 25: (5, 6) -> (25, 6) (warp DOWN to B1F East)
+path2 = ["Up"] * 4 + ["Right"] * 20
 
-print("Walking to balcony and dropping DOWN...")
+print("Walking to B1F stairs on 1F East...")
 run_to_destination(path2)
 
 print("Arrived on B1F East! Current position:", mgba.get_coordinates())
 
-# We land at (19, 16) on B1F East.
-# 3. Walk LEFT on B1F to northwest room at (1, 5)
-# Path:
-# - Up 11 steps to Row 5: (19, 16) -> (19, 5)
-# - Left 18 steps to Column 1: (19, 5) -> (1, 5)
-path3 = ["Up"] * 11 + ["Left"] * 18
-
+# We land on B1F East (landing at (25, 5)).
+# 3. Walk LEFT along Row 5 on B1F to northwest room at (1, 5)
+# Path: Left 24 steps
+path3 = ["Left"] * 24
 print("Walking to northwest room on B1F...")
 run_to_destination(path3)
 
@@ -68,7 +61,7 @@ print("Arrived near Secret Key! Current position:", mgba.get_coordinates())
 # 4. Stand at (1, 5) facing UP towards (1, 4) and retrieve Secret Key
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 1000"]) # interact and retrieve
-mgba.press_buttons(["A", "sleep 1000"]) # select YES (if it asks)
+mgba.press_buttons(["A", "sleep 1000"]) # select YES
 mgba.press_buttons(["A", "sleep 500"])  # clear text
 
 print("Secret Key retrieved! Current position:", mgba.get_coordinates())
