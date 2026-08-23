@@ -57,10 +57,12 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (21, 6) on 3F East in State B
+# Currently at (10, 5) on 3F East in State B
 # PHASE 1: Walk to Row 3, cross Column 22 wall, and walk down Column 26 to pitfall at (26, 6)
 print("PHASE 1: Walking Row 3 detour to 3F East pitfall...")
 success = True
+if success:
+    success = walk_to_tile(21, 5)
 if success:
     success = walk_to_tile(21, 3)
 if success:
@@ -73,11 +75,14 @@ if success:
     time.sleep(2.0)
     print("New position on 1F East:", get_pos())
 
-# PHASE 2: Walk to B1F stairs at (22, 2) on 1F East and warp DOWN
+# PHASE 2: Walk to B1F stairs on 1F East via Row 3 and warp DOWN
 print("PHASE 2: Warp DOWN to B1F East...")
 if success:
-    # We land around (25, 6) on 1F East inside the fenced room.
-    success = walk_to_tile(22, 6)
+    success = walk_to_tile(26, 3)
+if success:
+    success = walk_to_tile(21, 3)
+if success:
+    success = walk_to_tile(21, 2)
 if success:
     success = walk_to_tile(22, 2)
 if success:
@@ -86,10 +91,13 @@ if success:
     time.sleep(1.5)
     print("New position on B1F East:", get_pos())
 
-# PHASE 3: Walk along B1F Row 5 across Column 9 gate to (1, 5)
+# PHASE 3: Walk along B1F to Secret Key room at (1, 5)
 print("PHASE 3: Crossing B1F Row 5 to Secret Key...")
 if success:
-    success = walk_to_tile(19, 5)
+    # We land at (22, 3) on B1F East. Walk to (21, 3) -> (21, 5) -> (1, 5)
+    success = walk_to_tile(21, 3)
+if success:
+    success = walk_to_tile(21, 5)
 if success:
     success = walk_to_tile(1, 5)
 
