@@ -6,11 +6,12 @@ def get_pos():
 
 def run_from_battle():
     print("In battle! Running...")
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 100"])
-    mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 500"])
+    for _ in range(12):
+        mgba.press_buttons(["B", "sleep 120"])
+    mgba.press_buttons(["Down", "sleep 120", "Right", "sleep 120", "A", "sleep 1500"])
     for _ in range(4):
-        mgba.press_buttons(["B", "sleep 100"])
+        mgba.press_buttons(["B", "sleep 120"])
+    time.sleep(1.5)
 
 def walk_step(direction):
     pos_before = mgba.get_coordinates()
@@ -18,20 +19,17 @@ def walk_step(direction):
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
+        run_from_battle()
         mgba.press_buttons([direction, "sleep 150"])
         pos_after = mgba.get_coordinates()
         
-        attempts = 0
-        while pos_before == pos_after and attempts < 5:
-            run_from_battle()
-            mgba.press_buttons([direction, "sleep 150"])
-            pos_after = mgba.get_coordinates()
-            attempts += 1
+        if pos_before == pos_after:
+            raise Exception(f"Blocked at {pos_before} trying to go {direction}")
     return pos_after
 
 def walk_to(target_x, target_y):
     print(f"Walking to: ({target_x}, {target_y})")
-    max_steps = 100
+    max_steps = 40
     steps = 0
     while steps < max_steps:
         pos = mgba.get_coordinates()
@@ -50,51 +48,26 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (8, 9) on 3F West in State B
-print("Starting ultimate Secret Key script from (8, 9) on 3F West...")
+# Starting at (10, 7) inside Cinnabar Lab
+print("1. Navigating to Cinnabar Lab lobby exit...")
+walk_to(10, 5)
+walk_to(2, 5)
+walk_to(2, 8)
+print("Stepping DOWN to exit Cinnabar Lab...")
+walk_step("Down")
+time.sleep(1.5)
+print("Arrived outside Cinnabar Island. Position:", get_pos())
 
-# PHASE 1: Walk to pitfall at (26, 6)
-print("PHASE 1: Walking to pitfall...")
-walk_to(12, 9)
-walk_to(12, 6)
-walk_to(26, 6)
-print("Should have dropped! Waiting 2 seconds...")
-time.sleep(2.0)
-print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
+# Walk detour around Cinnabar Island to Mansion door at (6, 3)
+print("2. Walking Cinnabar Island detour to Mansion door...")
+walk_to(18, 10)
+walk_to(18, 5)
+walk_to(6, 5)
+walk_to(6, 3)
+print("Stepping UP to enter Mansion...")
+mgba.press_buttons(["Up", "sleep 600"])
+time.sleep(1.5)
+print("Arrived inside Pokemon Mansion 1F West! Final Position:", get_pos())
 
-# PHASE 2: Walk to B1F stairs on 1F East inside fenced room
-print("PHASE 2: Walking to B1F stairs...")
-walk_to(26, 3)
-walk_to(21, 3)
-walk_to(21, 2)
-walk_to(22, 2)
-print("Stepping UP to warp DOWN to B1F...")
-mgba.press_buttons(["Up", "sleep 400"])
-time.sleep(2.0)
-print("Position on B1F East:", get_pos())
-
-# PHASE 3: Walk along B1F to Secret Key room at (1, 5)
-print("PHASE 3: Crossing B1F Row 5 to Secret Key...")
-walk_to(19, 5)
-walk_to(1, 5)
-
-# PHASE 4: Retrieve Secret Key at (1, 4)
-print("PHASE 4: Picking up the Secret Key at (1, 4)...")
-mgba.press_buttons(["Up", "sleep 300"])
-mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
-mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
-print("Secret Key retrieved! Current position:", get_pos())
-
-# PHASE 5: DIG out back to Cinnabar Island
-print("PHASE 5: Escaping via DIG...")
-mgba.press_buttons(["Start", "sleep 300"])
-mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
-for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
-    mgba.press_buttons(["Down", "sleep 150"])
-mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
-mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
-time.sleep(3.0)
-
-print("SUCCESS! Final position Cinnabar Island:", get_pos())
 sc = mgba.take_screenshot()
 print("Final Screenshot:", sc)
