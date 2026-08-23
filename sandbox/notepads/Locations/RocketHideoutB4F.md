@@ -27,4 +27,4 @@
 ## Boss Battle
 - **Boss Giovanni** at (25, 3) [Defeated Turn 13304]:
   - Team: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29.
-  - Dropped Item: SILPH SCOPE at (25, 2) [Collected Turn 13305].
+  - Dropped Item: SILPH SCOPE at (25, 2) [Dropped on floor upon defeat; UNCOLLECTED due to full 20-item bag cap. Target for retrieval!].
