@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (29, 10) -> Cutting bush at (34, 9) -> Catching Flying-type (Doduo/Spearow/Pidgey) in tall grass -> Teaching HM02 Fly -> Flying to Lavender Town Pokémon Tower
+- Location: Celadon City (10, 18) -> Walking to Celadon Pokémon Center (41, 9) -> Depositing ECHO (Zubat) at PC to free party Slot 6 -> Catching Route 16 flyer -> Teaching HM02 Fly -> Flying to Lavender Town Pokémon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1834,14 +1834,21 @@
 - East: Celadon City (connects directly from Celadon City (0, 18) -> Route 16 (39, 10)) [Verified Turn 13886]
 - West: Route 17 / Cycling Road (southern path blocked by Snorlax; northern path bypasses gatehouse to Secret House)
 
-## Layout & Landmarks
+## Topography & Verified Encounter Zones (Turn 14160)
 - **Southern Thoroughfare (rows 10-11, cols 27-39)**:
   - Wide paved road connecting Celadon City to the Route 16 Gatehouse.
   - Signpost at (27, 11).
   - Sleeping Snorlax blocking Cycling Road at (26, 10).
-- **Northern Cut Bypass**:
-  - Cut bush located at `(34, 9)` [Cleared Turn 13894].
-  - Leads to Northern Grass Corridor across rows 6-7.
+- **Northern Cut Bypass & Obstacle**:
+  - Cut bush located at `(34, 9)` [Clearing allows entry to northern corridor].
+  - Note: Cut bush respawns on map reload/transitions.
+- **Northern Paved Path (rows 6-7, cols 24-35)**:
+  - Light green path with grey dash texture (no wild encounters).
+- **Tall Grass Patches (Wild Encounter Zones)**:
+  - **Southern Grass Strip**: Row 8, cols 24-34 (verified tall grass with clover/crosshatch texture).
+  - **Northern Grass Strip**: Rows 2-3, cols 24-27 (tall grass patch north of gatehouse entrance).
+  - **West Grass Corner**: Rows 6-7, cols 24-25.
+  - Wild encounters: Doduo, Spearow, Fearow, Rattata, Raticate.
 - **Route 16 Gatehouse Upper Corridor**:
   - East Entrance Door: Located at `(24, 2)`.
   - Interior Corridor: (0..7, 2) with guard at (4, 3).
@@ -1850,7 +1857,6 @@
   - Path leading from gatehouse west door (17, 4) to Secret House door at `(7, 5)`.
 - **Secret House**:
   - Exterior Door: Located at `(7, 5)`.
-  - Interior Entrance: Carpet at `(2..3, 7)`, exit south at row 8.
   - Secluded Girl NPC: Located at `(2, 3)`. Dialogue: "Oh, you found my secret retreat! Please don't tell anyone I'm here. I'll make it up to you with this!"
   - Reward: **HM02 (FLY)** [Obtained Turn 13928]!
 
