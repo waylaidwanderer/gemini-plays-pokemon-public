@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 8 (46, 4) -> ECHO in Box 1 (Party: 5, ATLAS Lv 16 Lead) -> Walking east to Lavender Town (59, 8) -> Heal at Center -> Ascend Pokémon Tower 1F-7F with Silph Scope -> Rescue Mr. Fuji
+- Location: Pokémon Tower 1F (5, 9) -> Surveying 1F layout to locate ascending staircase -> Ascend Pokémon Tower 1F-7F with Silph Scope -> Rescue Mr. Fuji
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -42,7 +42,6 @@
 - `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Gym access, corridors
 - `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
-
 
 <hr>
 
