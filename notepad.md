@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B1F (x=14, y=7) -> Navigating to (17, 17) to battle Rocket Grunt at (18, 17)
+- Location: Team Rocket Hideout B2F (x=27, y=8) -> Moving to stairs at (21, 8) to descend to B4F -> B3F northwest room
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
