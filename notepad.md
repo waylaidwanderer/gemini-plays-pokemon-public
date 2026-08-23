@@ -1317,7 +1317,8 @@
 
 ## Major Buildings & Points of Interest
 - **Celadon Pokémon Center**: Located at cols 40-43, rows 7-9 with front entrance door at (41, 9) and "POKé" sign at (42, 9).
-- **Celadon Department Store**: Located at cols 10-13, rows 7-13 with front entrance door at (10, 13) and "MART" sign at (12, 13). Multi-story mega mart.
+- **Celadon Department Store**: Multi-story mega mart located at cols 8-15, rows 2-13 with front entrance door at (13, 3).
+- **Celadon Dept Store Elevator**: Interior at (47, 1..2) with control panel at (47, 0). Accessible from 1F at (4, 1) and connects directly to 1F, 2F, 3F, 4F, 5F.
 - **Celadon Mansion (Front Entrance)**: Located at (24, 9). Multi-story apartment building. 1F: Old Woman at (1, 5) ("MEOWTH even brings money home!"), Nidoran♀ at (0, 5), Meowth at (4, 7), Clefairy at (0, 8). Visible staircases to upper floors at (2, 1) and (7, 1).
 
 ## Verified NPCs & Dialogue
@@ -1411,7 +1412,6 @@
 - Path leads south (rows 22-25) to southern thoroughfare at row 26.
 
 ## Verified Building Entrances & Layouts
-- **Celadon Diner**: Exterior arched entrance at (14, 5). Interior: Restaurant seating with patron at (15, 13) granting the Coin Case, and patron at (8, 12). Exit at (10, 17..18).
 - **Bookshelf Residence**: Exterior door at (7, 13). Interior: 8x8 residence with bookshelves at (0..1, 1), desk at (3, 3), and resident at (4, 3). Exit at (2..3, 7).
 - **1F Service Mart**: Exterior door at (15, 13). Interior: 8x8 mart with clerk at (0..1, 4..5) selling Great Balls, Super Potions, Revives, Escape Ropes. Exit at (3..4, 7).
 - **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. North pass-through door at (10, 15). Exit at (4..5, 7) / (4..5, 0).
