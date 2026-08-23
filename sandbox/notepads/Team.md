@@ -19,8 +19,8 @@
 4. SPROUT (Bellsprout) - Lv 16
    - Stats: Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
-   - Moves: PoisonPowder, Growth, Wrap, Cut
-   - Role: Grass/Poison STAB, status utility & Field Cut user
+   - Moves: PoisonPowder, Growth, Rest, Cut
+   - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
 5. ATLAS (Machop) - Lv 17
    - Stats: Max HP 54 (HP: 54/54) [Rare Candy applied Turn 12257]
    - Type: Fighting
@@ -40,8 +40,8 @@
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Key Items: Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS]
+- Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
+- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
 - Consumables & Field Items:
