@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Gym (5, 17) -> At exit mat with Rainbow Badge & TM21! Exiting to Celadon City
+- Location: Celadon City (12, 28) -> Exited Celadon Gym with Rainbow Badge & TM21! Heading to Pokémon Center to restore Ice Beam PP
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
