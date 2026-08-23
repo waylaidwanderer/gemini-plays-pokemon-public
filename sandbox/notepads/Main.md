@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Secret House (Route 16 Northwest) (1, 3) -> HM02 Fly obtained! Next: Celadon Dept Store 4F for Thunder Stone & Jolteon evolution
+- Location: Celadon Dept Store 4F (Wiseman Gifts) (5, 5) -> Evolving PRISM into Jolteon, then heading to Lavender Town for Pokémon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
