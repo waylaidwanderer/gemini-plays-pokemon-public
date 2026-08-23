@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Western Plaza (8, 6) -> Navigating via row 8 to western avenue (col 4) and ascending north to bypass corridor
+- Location: Celadon City Western Plaza (4, 2) -> Navigating via row 8 to row 10 and heading east to Main Avenue (col 26) and Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
