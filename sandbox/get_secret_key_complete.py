@@ -1,11 +1,14 @@
 import mgba
 import time
 
+def get_pos():
+    return mgba.get_coordinates()
+
 def run_from_battle():
     print("In battle! Running...")
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 100"])
-    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 500"])
+    mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 500"])
     for _ in range(4):
         mgba.press_buttons(["B", "sleep 100"])
 
@@ -27,6 +30,7 @@ def walk_step(direction):
     return pos_after
 
 def walk_to(target_x, target_y):
+    print(f"Walking to: ({target_x}, {target_y})")
     max_steps = 100
     steps = 0
     while steps < max_steps:
@@ -47,94 +51,84 @@ def walk_to(target_x, target_y):
     return False
 
 # Starting outside on Cinnabar Island at (11, 12)
-# PHASE 1: Walk to Mansion and enter (starts Cinnabar State A)
 print("PHASE 1: Entering the Mansion...")
-# From (11, 12) to (6, 3)
 walk_to(18, 12)
 walk_to(18, 5)
 walk_to(6, 5)
 walk_to(6, 3)
 mgba.press_buttons(["Up", "sleep 400"]) # Enter Mansion
 time.sleep(1.5)
-print("Inside Mansion 1F:", mgba.get_coordinates())
+print("Inside Mansion 1F West:", get_pos())
 
-# PHASE 2: Navigate 1F West to 2F West (State A)
+# Navigate 1F West to 2F West (State A)
 print("PHASE 2: Warp UP to 2F West...")
 walk_to(5, 11)
 walk_to(8, 11)
 walk_to(8, 10)
 walk_to(5, 10)
-mgba.press_buttons(["Left", "sleep 400"]) # Step LEFT onto (5, 10) to warp
+mgba.press_buttons(["Left", "sleep 400"]) # Warp UP
 time.sleep(1.5)
-print("Position on 2F West:", mgba.get_coordinates())
+print("Position on 2F West:", get_pos())
 
-# PHASE 3: Navigate 2F West to 3F West (State A)
+# Navigate 2F West to 3F West (State A)
 print("PHASE 3: Warp UP to 3F West...")
 walk_to(7, 11)
-mgba.press_buttons(["Up", "sleep 400"]) # Step UP onto stairs at (7, 10) to warp
+mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
 time.sleep(1.5)
-print("Position on 3F West:", mgba.get_coordinates())
+print("Position on 3F West:", get_pos())
 
-# PHASE 4: Toggle Mewtwo Statue Switch at (2, 11) to State B
+# Toggle Mewtwo Statue Switch at (2, 11) to State B
 print("PHASE 4: Toggling switch to State B...")
-# Walk Left to Column 3 Row 11, Down to Column 3 Row 13, Left to Column 1 Row 13, Up to Column 1 Row 11
 walk_to(3, 11)
 walk_to(3, 13)
 walk_to(1, 13)
 walk_to(1, 11)
-# Face Right and press A to toggle switch
 mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
 print("State B activated!")
 
-# PHASE 5: Warp DOWN to 2F West (State B)
-print("PHASE 5: Warp DOWN to 2F West...")
-walk_to(1, 13)
-walk_to(5, 13)
-walk_to(5, 10)
-mgba.press_buttons(["Left", "sleep 400"]) # Warp DOWN
-time.sleep(1.5)
-print("Position on 2F West (State B):", mgba.get_coordinates())
+# Cross 3F West to 3F East via Row 9 and walk to pitfall
+print("PHASE 5: Walking to 3F East pitfall at (26, 6)...")
+walk_to(1, 9)
+walk_to(12, 9)
+walk_to(12, 6)
+walk_to(26, 6)
+print("Should have dropped! Waiting 2 seconds...")
+time.sleep(2.0)
+print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
-# PHASE 6: Warp DOWN to 1F West (State B)
-print("PHASE 6: Warp DOWN to 1F West...")
-walk_to(5, 11)
-mgba.press_buttons(["Up", "sleep 400"]) # Warp DOWN to 1F West
-time.sleep(1.5)
-print("Position on 1F West (State B):", mgba.get_coordinates())
-
-# PHASE 7: Cross horizontally to 1F East (Row 5 Column 13 is open)
-print("PHASE 7: Crossing to 1F East on Row 5...")
-walk_to(5, 5)
-walk_to(21, 5)
-print("Position on 1F East:", mgba.get_coordinates())
-
-# PHASE 8: Warp DOWN to B1F East North (Stairs at 22, 2)
-print("PHASE 8: Warp DOWN to B1F East...")
+# Walk to B1F stairs on 1F East via Row 3 and warp DOWN
+print("PHASE 6: Walking to B1F stairs...")
+walk_to(26, 3)
+walk_to(21, 3)
 walk_to(21, 2)
 walk_to(22, 2)
-mgba.press_buttons(["Up", "sleep 400"]) # Warp DOWN
-time.sleep(1.5)
-print("Position on B1F East:", mgba.get_coordinates())
+print("Stepping UP to warp DOWN to B1F...")
+mgba.press_buttons(["Up", "sleep 400"])
+time.sleep(2.0)
+print("Position on B1F East:", get_pos())
 
-# PHASE 9: Retrieve Secret Key on B1F West North
-print("PHASE 9: Walking along B1F Row 5 to Secret Key...")
+# Walk along B1F to Secret Key room at (1, 5)
+print("PHASE 7: Crossing B1F Row 5 to Secret Key...")
 walk_to(19, 5)
 walk_to(1, 5)
-print("Arrived at Secret Key room! Picking it up...")
-mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
-print("Secret Key retrieved! Current position:", mgba.get_coordinates())
 
-# PHASE 10: DIG out back to Cinnabar Island
-print("PHASE 10: Escaping via DIG...")
+# Retrieve Secret Key at (1, 4)
+print("PHASE 8: Picking up the Secret Key at (1, 4)...")
+mgba.press_buttons(["Up", "sleep 300"])
+mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
+mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
+print("Secret Key retrieved! Current position:", get_pos())
+
+# DIG out back to Cinnabar Island
+print("PHASE 9: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
-for _ in range(5):
+for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
     mgba.press_buttons(["Down", "sleep 150"])
-mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE (Slot 6)
+mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
 mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
 time.sleep(3.0)
 
-print("SUCCESS! Final position on Cinnabar Island:", mgba.get_coordinates())
+print("SUCCESS! Final position Cinnabar Island:", get_pos())
 sc = mgba.take_screenshot()
 print("Final Screenshot:", sc)
-
