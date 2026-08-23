@@ -108,7 +108,7 @@
 ## Verified Building Entrances & Layouts
 - **Bookshelf Residence**: Exterior door at (7, 13). Interior: 8x8 residence with bookshelves at (0..1, 1), desk at (3, 3), and resident at (4, 3). Exit at (2..3, 7).
 - **1F Service Mart**: Exterior door at (15, 13). Interior: 8x8 mart with clerk at (0..1, 4..5) selling Great Balls, Super Potions, Revives, Escape Ropes. Exit at (3..4, 7).
-- **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. North pass-through door at (10, 15). Exit at (4..5, 7) / (4..5, 0).
+- **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. Exit from north door warps to (10, 15), but cannot be entered from (10, 15) due to boundary trees.
 - **Celadon Pok�mon Center**: Front door at (41, 9).
 - **Rocket Game Corner**: Front door at (28, 19).
 - **Prize Exchange**: Front door at (33, 19).
