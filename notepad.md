@@ -1407,6 +1407,10 @@
 - **Verified Ledge Gap Passage**:
   - Located at cols 8-9 on row 16: An open 2-tile wide grass and pavement path connecting the upper garden directly south onto the southern street (rows 17-22) without hitting any ledges!
 
+## Celadon Hotel
+- Location: cols 8-13, rows 18-21, front door at (10, 21).
+- Flanked by water canals at cols 6-9 and cols 12-15.
+- Path leads south (rows 22-25) to southern thoroughfare at row 26.
 
 <hr>
 
