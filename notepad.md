@@ -50,21 +50,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
-   - Type: Fighting
-   - Moves: Karate Chop (25/25), Low Kick
-   - Role: Physical Fighting STAB attacker (Active Lead until overworld swap to HYDROS via A -> SWITCH -> A)
+1. HYDROS (Blastoise) - Lv 49
+   - Stats (Verified at Lv 49): Max HP 162 (HP: 79/162), Attack 111, Defense 123, Speed 113, Special 118
+   - Type: Water
+   - Moves: Skull Bash (14/15), Ice Beam (0/10), Bite (22/25), Bubblebeam (18/20)
+   - Role: Starter & primary Water/Ice special attacker (Active Lead & Pok�mon Tower sweeper)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
-3. HYDROS (Blastoise) - Lv 48
-   - Stats (Verified at Lv 48): Max HP 159 (HP: 159/159), Attack 109, Defense 121, Speed 111, Special 115
-   - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
-   - Role: Starter & primary Water/Ice special attacker (Designated Pok�mon Tower sweeper)
+3. ATLAS (Machop) - Lv 16
+   - Stats: Max HP 54 (HP: 54/54)
+   - Type: Fighting
+   - Moves: Karate Chop (25/25), Low Kick
+   - Role: Physical Fighting STAB attacker (Swapped to Slot 3 Turn 14318)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
@@ -75,36 +75,27 @@
    - Type: Electric
    - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
    - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
-6. [OPEN SLOT 6] - Reserved for Route 8 wild flyer capture (Pidgey / Pidgeotto / Spearow)!
+6. [OPEN SLOT 6] - Reserved for wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
+- Every captured Pok�mon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
 
-## Boxed Pokémon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
+## Boxed Pok�mon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pok�mon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
+2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pok�mon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
-- Valuables:
-  - 1x Nugget (Sell at Mart for 5000 yen)
-- Consumables & Field Items:
-  - 10x Great Balls (Purchased Turn 14008 at Dept Store 2F for 6000 yen)
-  - 5x Super Potion
-  - 1x Escape Rope
-  - 2x Moon Stone
-  - 1x Water Stone
-  - 1x Fresh Water (Reserved for Saffron Gate Guard)
-  - 2x Soda Pop
-- Funds: 26,314 yen (Verified Turn 14008)
+- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain)
+- Valuables: 1x Nugget
+- Consumables: 10x Great Balls, 5x Super Potion, 1x Escape Rope, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
+- Funds: �27,678 (Verified Turn 14330)
 
 ## Flying-Type Party Slot Allocation & Capture Plan
-- Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
+- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after Pok�mon Tower enters Slot 6 immediately -> Teach HM02 Fly in field!
 
 
 <hr>
@@ -1438,41 +1429,6 @@
 
 <h1><code>Locations/CeladonGym</code></h1>
 
-# Celadon Gym - Layout, Trainers & Leader Erika
-
-## Overview & Location
-- Location: Southern sector of Celadon City.
-- Access: Requires HM01 Cut on exterior bush to access the gym garden.
-
-## Leader Erika Tactical Prep
-- Team: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29.
-- Strategy: Lead HYDROS (Blastoise Lv 47) with Ice Beam (10/10 PP) for OHKO sweeps.
-
-## Interior Layout & Verified Trainers (Turn 13778)
-- Entrance: Carpet at (4..5, 17) with south exit at row 18.
-- Statues: Left statue at (3, 14..15), Right statue at (6, 14..15).
-- Central Aisle: 2-tile wide grey floor corridor at cols 4-5 (rows 8-16).
-- Hedges & Flowerbeds: Flowerbeds at cols 0-1 and 8-9; Cut bushes at (2..3, 13) and (6..7, 13).
-- Trainer 1: Lass at (2, 11) facing Down/Right.
-- Trainer 2: Jr. Trainer at (7, 10) facing Down/Left.
-- Upper Chamber Access: Central aisle at cols 4-5 continues north past row 8 towards Leader Erika's dais.
-## Upper Chamber & Leader Dais (Verified Turn 13801)
-- Breached interior Cut bush at (5, 7) to access upper sanctum.
-- Trainer 3: Cooltrainer♀ at (5, 6) [Defeated Turn 13800: Weepinbell Lv 24, Gloom Lv 24, Ivysaur Lv 24. Reward: ¥840].
-- Leader Erika Dais: Located at (4, 1) directly north of the central dais.
-- Erika Tactical Plan & PP Budget:
-  - Erika Team: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29.
-  - Active Lead: HYDROS (Blastoise Lv 48, HP: 153/159).
-  - PP Budget: 5/10 Ice Beam PP remaining (3 required for sweep, 2 buffer).
-  - Backup Offensive Moves: Skull Bash (15/15), Bite (23/25), Bubblebeam (20/20).
-  - Status Risk: Erika's team uses Sleep Powder / Stun Spore. If HYDROS is afflicted, Awakening / Parlyz Heal are in inventory, or switch to ATLAS / PRISM as backup.
-
-## Gym Completion & Rewards (Verified Turn 13822)
-- **Leader Erika Defeated**: Turn 13821
-  - Team swept: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29 (all OHKOed by HYDROS Ice Beam).
-  - Rewards: RAINBOW BADGE (4/8 Badges) + TM21 (Mega Drain).
-  - Badge Effects: Pokémon up to Lv 50 obey; allows HM04 Strength field usage.
-- **Exit Warp**: Carpet at (4..5, 17) -> step Down to row 18 warps directly to Celadon City at (12, 28).
 
 
 <hr>
@@ -1534,5 +1490,30 @@
   - Channeler Patricia at (10, 13) [Verified in battle Turn 14322: Gastly Lv 22]
   - Channeler Carly at (8, 11) [Empirical battle pending]
   - Channeler Hope at (10, 3) [Empirical battle pending]
+
+<hr>
+
+<h1><code>Locations/PokemonTower4F</code></h1>
+
+# Pok�mon Tower 4F - Layout, Items & Encounters
+
+## Connections
+- Downstairs (3F): Stairs at (18, 9) on the eastern wall
+- Upstairs (5F): Stairs at (3, 9) on the western wall
+
+## Floor Layout & Item Balls
+- East descending stairs at (18, 9).
+- Open horizontal traversal aisle along row 8 (cols 3-18).
+- Item Ball 1 at (12, 10): Elixer [Surveyed Turn 14334].
+- Item Ball 2 at (9, 10): Awakening.
+- Item Ball 3 at (12, 16): HP Up.
+- Northwest ascending stairs to 5F at (3, 9).
+
+## Verified Encounters & Trainers
+- Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
+- Channelers:
+  - Channeler Laurel / Paula at (15, 8) [Engaged Turn 14337: Gastly Lv 23, Gastly Lv 23]
+  - Channeler Jody [Empirical battle pending]
+
 
 <hr>
