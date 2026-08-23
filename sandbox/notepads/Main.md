@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 3F (9, 14) -> Wild Ghost battle active (Silph Scope verified) -> Traversing 3F southern corridor to 4F stairs at (18, 9) -> Ascending to 7F to rescue Mr. Fuji
+- Location: Pokémon Tower 4F (16, 8) -> Ascended to 4F -> Traversing 4F west corridor to 5F stairs at (3, 9) -> Ascending to 7F to rescue Mr. Fuji
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
