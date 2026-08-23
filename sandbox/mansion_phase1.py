@@ -45,16 +45,44 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Starting precise bypass walk to Mansion entrance...")
-# Walk Right to Column 15 to bypass the NPCs blocking Left, Up, Down
-walk_to(15, 5)
-# Walk Down to Row 7 (fully open horizontal road)
-walk_to(15, 7)
-# Walk Left along Row 7 to Column 6
-walk_to(6, 7)
-# Walk Up Column 6 to Row 4 (in front of Mansion door)
-walk_to(6, 4)
-# Step Up to enter Mansion
-walk_step("Up")
-time.sleep(1.0)
-print("Position inside Mansion:", mgba.get_coordinates())
+print("Phase 3: DIG escape to Cinnabar Island, re-enter Mansion (State B), and cross to 1F East...")
+
+# 1. Escape via DIG
+print("Opening start menu...")
+mgba.press_buttons(["Start", "sleep 300"])
+# Move cursor to POKéMON (usually UP once since last was ITEM, or we can just press UP to be safe)
+mgba.press_buttons(["Up", "sleep 150", "A", "sleep 600"])
+# Select TRUFFLE in Slot 6 (5 steps DOWN)
+for _ in range(5):
+    mgba.press_buttons(["Down", "sleep 150"])
+mgba.press_buttons(["A", "sleep 500"])
+# Select DIG (Option 1)
+mgba.press_buttons(["A", "sleep 1000"])
+time.sleep(2.0)
+
+pos = mgba.get_coordinates()
+print("Position after DIG:", pos)
+
+if pos['x'] == 11 and pos['y'] == 12:
+    print("Successfully escaped to Cinnabar Island outside Pokémon Center!")
+    # 2. Walk to Mansion and enter
+    print("Walking to Mansion Entrance...")
+    walk_to(18, 12)
+    walk_to(18, 5)
+    walk_to(6, 5)
+    walk_to(6, 4)
+    walk_step("Up") # Step UP to enter
+    time.sleep(1.0)
+    
+    pos_inside = mgba.get_coordinates()
+    print("Entered Mansion 1F. Position:", pos_inside)
+    
+    if pos_inside['x'] == 5 and pos_inside['y'] == 27:
+        # 3. Walk to Row 5 Column 21 on 1F East (cross Column 13 Row 5 gate, which is OPEN in State B!)
+        print("Walking UP Column 5 to Row 5...")
+        walk_to(5, 5)
+        print("Crossing horizontally on Row 5 to 1F East (21, 5)...")
+        walk_to(21, 5)
+        print("Arrived on 1F East! Position:", mgba.get_coordinates())
+else:
+    print("Failed to escape via DIG. Still inside Mansion?")
