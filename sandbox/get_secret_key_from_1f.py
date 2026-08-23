@@ -72,12 +72,29 @@ print("Position on B1F East:", get_pos())
 
 # PHASE 4: Walking to B1F switch at (15, 6)
 print("PHASE 4: Walking to B1F switch...")
-# We land around (22, 3). Walk to (22, 6) -> (15, 7)
-try_step("Down")
-try_step("Down")
-try_step("Down")
-for _ in range(7):
-    try_step("Left")
+# We use walk_to to safely navigate to the switch standing spot at (15, 7)
+def walk_to(target_x, target_y):
+    print(f"Walking to: ({target_x}, {target_y})")
+    max_steps = 100
+    steps = 0
+    while steps < max_steps:
+        pos = mgba.get_coordinates()
+        x, y = pos['x'], pos['y']
+        if x == target_x and y == target_y:
+            return True
+            
+        if x < target_x:
+            try_step("Right")
+        elif x > target_x:
+            try_step("Left")
+        elif y < target_y:
+            try_step("Down")
+        elif y > target_y:
+            try_step("Up")
+        steps += 1
+    return False
+
+walk_to(15, 7)
 print("Position before B1F switch:", get_pos())
 
 # Face UP and toggle B1F switch to State B
