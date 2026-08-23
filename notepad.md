@@ -1455,6 +1455,15 @@
   - Team: Drowzee Lv 17, Machop Lv 17.
   - Post-battle dialogue: "The TEAM ROCKET HQ has 4 basement floors. Can you reach the BOSS?"
 
+## Untested Conveyor Hypothesis Checklist (Southwest & Central Sectors)
+- [ ] Southwest Chamber Entry: From Stop Tile (9, 24), move west into cols 1-7 (rows 18-26).
+- [ ] Southwest Sub-Maze Tile (6, 24) [Up-spin]: Test where it launches and where its stop tile connects.
+- [ ] Southwest Sub-Maze Tile (4, 24) / (2, 24): Test if any west/up spin leads to hidden alcoves.
+- [ ] Southwest Sub-Maze Tile (2, 20) / (3, 20) / (4, 20): Test all launch vectors in row 20.
+- [ ] Southwest Sub-Maze Tile (6, 18) / (4, 18): Test all launch vectors in row 18.
+- [ ] Central Sector Alternative: From Stop Tile (11, 20), test tile (11, 19), (12, 19), (13, 20), (14, 20), (12, 21), (11, 22).
+- [ ] Central Sector Alternative: From Stop Tile (8, 11), test any adjacent unvisited spin tiles.
+
 <hr>
 
 <h1><code>Locations/RocketHideoutB3F</code></h1>
