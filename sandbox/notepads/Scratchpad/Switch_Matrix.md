@@ -80,3 +80,9 @@
 ## Newly-Discovered Structural Barriers (Updated Turn 55401)
 - **2F West Column 13 Wall (Rows 7-11):** Solid vertical permanent wall separating 2F West from 2F East, blocking all horizontal traversal on these rows (empirically verified by bumping at (12, 11) on Turn 55251).
 - **3F West Row 7 Hedge Wall (Columns 4-9):** Solid permanent vertical and horizontal hedge barrier, completely blocking all upward vertical traversal from Row 8 to Row 6 (empirically verified on foot on Turn 55368 and Turn 55389). Row 6 is also completely filled with hedges/rubble on Columns 3-9, meaning the southwest room on 3F is completely walled off from the northwest room of 3F West.
+
+## Crucial Verification & Discoveries (Turn 55701)
+- **Mewtwo Statues on East Side (2F East, 3F East) do NOT have switches:** They are purely decorative. Toggling back to State A once on the East side is physically impossible!
+- **State A Crossing is Impossible:** Because the Row 9 gates are closed in State A on 1F West, 2F West, and 3F West, and Column 13/11 are solid walls below Row 9, the player is physically cut off from crossing from West to East in State A.
+- **The Balcony Drop on 3F East is the ONLY Physical Way to B1F East:** Because the B1F stairs on 1F East (22, 4) are closed in State B, and Row 7 gates on 2F East are closed in State B, we cannot go down the stairs to B1F in State B. Since we can only cross in State B, the Balcony Drop is the only way to B1F East!
+- **Mewtwo Statue at (2, 11) on 2F West has no collision in State B:** It is completely walkable when State B is active.
