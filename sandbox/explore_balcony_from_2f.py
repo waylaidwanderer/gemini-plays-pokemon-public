@@ -46,33 +46,43 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (5, 11) on 2F West in State A
-print("Starting descent to B1F East from 2F West...")
+# Starting at (1, 10) on 2F West in State A
+print("Starting 2F East Exploration in State B...")
 print("Initial position:", mgba.get_coordinates())
 
-# 1. Cross to 2F East on Row 3
-print("1. Crossing to 2F East on Row 3...")
+# 1. Walk to 2F West stairs at (7, 10) and warp UP to 3F West
+print("Walking to stairs to 3F West...")
+walk_to(4, 10)
+walk_to(7, 10)
+mgba.press_buttons(["Up", "sleep 400"]) # warp UP
+time.sleep(1.5)
+print("Position on 3F West:", mgba.get_coordinates())
+
+# 2. Walk to Mewtwo statue on 3F West and toggle to State B
+print("Walking to Mewtwo statue switch at (2, 11)...")
+walk_to(3, 11)
+walk_to(3, 13)
+walk_to(1, 13)
+walk_to(1, 11)
+# Face Right and toggle
+print("Toggling Mewtwo statue switch to State B...")
+mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
+
+# 3. Walk to stairs on 3F West at (5, 10) and warp DOWN to 2F West
+print("Walking to stairs to 2F West...")
+walk_to(1, 13)
+walk_to(5, 13)
+walk_to(5, 10)
+mgba.press_buttons(["Left", "sleep 400"]) # Step LEFT onto (5, 10) to warp
+time.sleep(1.5)
+print("Position on 2F West (State B):", mgba.get_coordinates())
+
+# 4. Cross to 2F East Row 3
+print("Crossing to 2F East on Row 3...")
 walk_to(5, 3)
 walk_to(21, 3)
-print("Position on 2F East:", mgba.get_coordinates())
+print("Arrived on 2F East! Position:", mgba.get_coordinates())
 
-# 2. Walk to (15, 12) and warp UP to 3F East
-print("2. Walking to 2F East stairs entrance at (15, 12)...")
-walk_to(15, 3)
-walk_to(15, 12)
-print("Stepping UP onto stairs to warp...")
-walk_step("Up")
-time.sleep(1.5)
-print("Position on 3F East:", mgba.get_coordinates())
-
-# 3. Walk Column 17 to Balcony (19, 18)
-print("3. Walking to Balcony...")
-walk_to(17, 11)
-walk_to(17, 18)
-walk_to(19, 18)
-print("Arrived at Balcony! Drop over...")
-walk_step("Down")
-time.sleep(2.0)
-print("Landed on B1F East! Position:", mgba.get_coordinates())
+# 5. Save screenshot and look around
 sc = mgba.take_screenshot()
 print("Screenshot saved to:", sc)
