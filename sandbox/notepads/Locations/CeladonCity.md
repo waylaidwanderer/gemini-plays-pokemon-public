@@ -74,3 +74,22 @@
 - **Prize Exchange Building**: Located at cols 30-33, rows 18-21.
   - Front Door: (33, 19) on row 20 entrance plaza.
 - **Celadon Pokémon Center**: Front door at (41, 9).
+
+## Empirically Verified Celadon City Topography & Obstacles
+- **Northern Alleyway (rows 1-3, cols 6-48)**: Continuous light-green grass corridor across top of city.
+  - Connects to Celadon Mansion rear door at (24, 4).
+  - Mansion rear wall blocks col 22 at row 2.
+- **Central Sector (rows 6-15)**:
+  - Pokémon Center: cols 40-43, rows 7-9 (front door at (41, 9) / local (3, 5)).
+  - Col 50 Barrier: Solid vertical grey stone wall along col 50 (rows 4-11).
+  - Celadon Mansion: cols 19-22, rows 2-6 (front entrance at (24, 9)).
+  - Celadon Dept Store: cols 8-13, rows 7-13 (entrance at (8..10, 11..13)).
+  - Statues at (17..21, 11), (40, 11..15), (2..4, 12..15), and (29, 11..15).
+  - Paved north-south road at cols 26-27 (rows 8-15).
+- **Row 16 Boundary / Ledge Line**:
+  - Horizontal ledge / wall along row 16 across central Celadon City separating the upper gardens/pavements from the southern street.
+- **Southern Boulevard (rows 17-24)**:
+  - Wide open east-west thoroughfare running across the entire southern width of Celadon City.
+  - Game Corner entrance plaza at (28, 19..20).
+  - Prize Exchange at (33, 19..20).
+  - Leads west directly to the Cut tree and Celadon Gym in southwest Celadon City!
