@@ -122,3 +122,8 @@
 - **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
 - **Verified Western Alley Ledge Gap**: Located at (8, 11), a walkable flat brown path tile connecting the southern alley (row 12) directly up to row 10 without obstruction!
 - **Northern Paved Avenue (rows 6-7, cols 10-26)**: 2-tile wide open paved corridor running east above the central buildings directly to Celadon Mansion (col 24) and the main north-south avenue (col 26).
+
+## Southern Cut Bush & Celadon Gym Corridor (Empirically Verified Turn 13759)
+- **Southern Cut Bush**: Located at `(35, 32)` in southeast Celadon City (south of restaurant plaza at cols 30-35, row 30-31).
+- **Southern Grass Corridor (rows 33-34, cols 10-35)**: Continuous 2-tile wide open light-green grass boulevard extending across the entire southern edge of Celadon City.
+- **Gym Approach**: Cutting the bush at `(35, 32)` allows entry onto the southern grass corridor at `(35, 33..34)`, which leads straight west to Celadon Gym at cols 10-14, rows 27-31!
