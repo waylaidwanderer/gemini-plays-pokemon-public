@@ -28,15 +28,15 @@ def try_step(direction):
             attempts += 1
     return pos_after
 
-# First, clear the "Got away safely!" text box
-print("Clearing text box...")
-mgba.press_buttons(["A", "sleep 500"])
-
-# Starting at (19, 7) on 1F East in State A
-print("PHASE 1: Walking from (19, 7) to 1F East stairs...")
-try_step("Left") # To (18, 7)
-try_step("Left") # To (17, 7)
-try_step("Left") # To (16, 7)
+# Starting at (22, 3) on 1F East in State A
+print("PHASE 1: Walking to 1F East stairs...")
+try_step("Left") # To (21, 3)
+try_step("Down") # To (21, 4)
+try_step("Down") # To (21, 5)
+try_step("Down") # To (21, 6)
+try_step("Down") # To (21, 7)
+for _ in range(5): # To (16, 7)
+    try_step("Left")
 try_step("Down") # To (16, 8)
 try_step("Down") # To (16, 9)
 try_step("Down") # To (16, 10)
@@ -46,17 +46,3 @@ print("Stepping UP to warp UP to 2F East...")
 mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
 time.sleep(1.5)
 print("Position on 2F East:", get_pos())
-
-# PHASE 2: Walk UP to Row 7 to avoid the warp tile at (15, 11)
-print("PHASE 2: Walking UP to Row 7 on 2F East...")
-try_step("Up") # To (18, 10)
-try_step("Up") # To (18, 9)
-try_step("Up") # To (18, 8)
-try_step("Up") # To (18, 7)
-
-# PHASE 3: Walk Left to (15, 7)
-print("PHASE 3: Walking Left to (15, 7)...")
-try_step("Left") # To (17, 7)
-try_step("Left") # To (16, 7)
-try_step("Left") # To (15, 7)
-print("SUCCESS! Final Position on 2F East:", get_pos())
