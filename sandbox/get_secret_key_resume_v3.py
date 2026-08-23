@@ -50,21 +50,43 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (1, 11) on 3F West in State B
-print("Starting ultimate Secret Key resume script from (1, 11) on 3F West...")
+# Starting at (1, 10) on 3F West in State B
+print("Starting ultimate Secret Key resume script from (1, 10) on 3F West...")
 
-# PHASE 1: Walk to pitfall at (26, 6) via Row 9
-print("PHASE 1: Walking to pitfall...")
+# PHASE 1: Walk to (1, 9) and check
+print("PHASE 1: Walking to (1, 9)...")
 walk_to(1, 9)
+print("Position at Row 9 start:", get_pos())
+
+# PHASE 2: Walk along Row 9 across the gate to 3F East (12, 9)
+print("PHASE 2: Walking across Row 9 to (12, 9)...")
 walk_to(12, 9)
+print("Position after Row 9 crossing (should be 12, 9 if State B is active):", get_pos())
+
+pos = get_pos()
+if pos['x'] < 11:
+    print("FAILED TO CROSS ROW 9 GATE! State B might not be active, or we bumped. Stopping.")
+    sc = mgba.take_screenshot()
+    print("Screenshot:", sc)
+    exit(1)
+
+# PHASE 3: Walk to Row 6 and walk to pitfall at (26, 6)
+print("PHASE 3: Walking to pitfall at (26, 6)...")
 walk_to(12, 6)
 walk_to(26, 6)
 print("Should have dropped! Waiting 2 seconds...")
 time.sleep(2.0)
 print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
-# PHASE 2: Walk to B1F stairs on 1F East inside fenced room
-print("PHASE 2: Walking to B1F stairs...")
+pos = get_pos()
+if pos['y'] != 6 or pos['x'] < 22:
+    print("FAILED TO DROP TO 1F EAST! Stopping.")
+    sc = mgba.take_screenshot()
+    print("Screenshot:", sc)
+    exit(1)
+
+# PHASE 4: Walk to B1F stairs on 1F East inside fenced room
+print("PHASE 4: Walking to B1F stairs...")
 walk_to(26, 3)
 walk_to(21, 3)
 walk_to(21, 2)
@@ -74,20 +96,28 @@ mgba.press_buttons(["Up", "sleep 400"])
 time.sleep(2.0)
 print("Position on B1F East:", get_pos())
 
-# PHASE 3: Walk along B1F to Secret Key room at (1, 5)
-print("PHASE 3: Crossing B1F Row 5 to Secret Key...")
+pos = get_pos()
+# B1F East starts around (22, 2) or (22, 3)
+if pos['y'] > 4:
+    print("FAILED TO WARP TO B1F EAST! Stopping.")
+    sc = mgba.take_screenshot()
+    print("Screenshot:", sc)
+    exit(1)
+
+# PHASE 5: Walk along B1F to Secret Key room at (1, 5)
+print("PHASE 5: Crossing B1F Row 5 to Secret Key...")
 walk_to(19, 5)
 walk_to(1, 5)
 
-# PHASE 4: Retrieve Secret Key at (1, 4)
-print("PHASE 4: Picking up the Secret Key at (1, 4)...")
+# PHASE 6: Retrieve Secret Key at (1, 4)
+print("PHASE 6: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 5: DIG out back to Cinnabar Island
-print("PHASE 5: Escaping via DIG...")
+# PHASE 7: DIG out back to Cinnabar Island
+print("PHASE 7: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
