@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=18, y=15) - Testing Elevator Interaction at (24, 11)
+- Location: Team Rocket Hideout B4F (x=9, y=7) - Investigating Hideout Topology & Lift Key
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
