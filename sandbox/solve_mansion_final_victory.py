@@ -63,7 +63,8 @@ if initial_pos['x'] == 11 and initial_pos['y'] == 12:
     walk_to(18, 12)
     walk_to(18, 5)
     walk_to(6, 5)
-    walk_to(6, 3)
+    walk_to(6, 4)
+    walk_step("Up") # Step UP onto (6, 3) to enter the Mansion
     time.sleep(1.0) # Wait for map transition to 1F West
     print("Entered Mansion 1F. Position:", mgba.get_coordinates())
 
