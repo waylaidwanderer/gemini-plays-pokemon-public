@@ -45,10 +45,15 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Starting walk from (5, 11) to 2F West...")
-walk_to(8, 11)
-walk_to(8, 10)
-walk_to(5, 10)
-walk_step("Left") # Step onto stairs to warp to 2F
-time.sleep(1.0)
-print("Position after warp on 2F:", mgba.get_coordinates())
+print("Starting Walk from 1F West (5, 27) to 2F East...")
+# 1. Walk Up Column 5 to Row 5
+walk_to(5, 5)
+# 2. Walk Right on Row 5 to Column 18 (crossing gate at 13, 5 which is open in State B)
+walk_to(18, 5)
+# 3. Walk Down Column 18 to Row 10
+walk_to(18, 10)
+# 4. Step DOWN to warp to 2F East
+walk_step("Down")
+time.sleep(1.5)
+
+print("Arrived on 2F East! Position:", mgba.get_coordinates())
