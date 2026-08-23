@@ -66,8 +66,6 @@
   - **Tree Gap (cols 32-33, rows 2-4)**: Connects the northern corridor to the building alleyways and rear passages behind the central shops.
   - **Eastern Alcove (cols 44-48, rows 1-7)**: Extends east behind the Pokémon Center to dead-end tree boundary at row 8.
 
-## Verified Building Entrances & Layout
-- **Rocket Game Corner**: Located at cols 26-29, rows 18-21.
   - Front Entrance Door: (28, 19) with yellow door frame and grey entrance plaza at row 20.
   - Interior Secrets: Poster at (9, 4) with secret switch guarded by Rocket Grunt at (9, 5). Flipping switch reveals basement staircase to Rocket Hideout B1F at (17, 4).
   - Approach: Walk east along row 22 street to col 36, north to row 20 plaza, and west to door at (28, 19).
@@ -115,3 +113,7 @@
 - **Rocket Game Corner**: Front door at (28, 19).
 - **Prize Exchange**: Front door at (33, 19).
 - **Celadon Mansion**: Front entrance at (24, 9), rear entrance at (24, 4).
+
+## Verified Shortcuts & Ledge Topology
+- **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
+- **Row 16 Ledge Line**: Continuous ledge spanning cols 0-55. The only unobstructed north-south bypasses are the Eastern Thoroughfare (cols 56-58) and the Western Ledge Gap at (8..9, 16).
