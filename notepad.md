@@ -1469,7 +1469,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Scratchpad/Switch_Matrix</code></h1>
 
-# Pok�mon Mansion - Verified Switch Matrix & Master Route
+# Pok&eacute;mon Mansion - Verified Switch Matrix & Master Route
 
 ## Overview
 - Global Mewtwo statue switches toggle electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
@@ -1480,19 +1480,6 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ---
 
 ## Shutter Gate Configurations & Structural Barriers
-
-### Permanent Structural Walls
-### 1F East-Central Column 13 Empirical Blockage (Verified Turn 54451)
-- **Rows 7, 8, 9, 10, 11, 12 on Column 13:** Completely solid and impassable in State A!
-  - Row 7: Solid wall/cabinet.
-  - Row 8: Solid wall.
-  - Row 9: Solid wall.
-  - Row 10: Solid wall.
-  - Row 11: Solid wall (and Scientist NPC at (13, 11) is also solid).
-  - Row 12: Solid wall.
-- **Row 6 on Column 13:** 100% OPEN and walkable horizontally! This is the ONLY horizontal passage connecting 1F West to 1F East below Row 6 in State A!
-- **Column 13 Wall (2F):** A solid permanent wall on Rows 7-12, completely blocking horizontal crossing. (Open on Rows 4-6).
-- **Column 22 Wall (2F):** A solid permanent wall on Rows 4-12, completely dividing 2F East into East-Central and West-Central sections. (Open only on Row 3).
 
 ### State A (Default)
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
@@ -1516,56 +1503,38 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ---
 
-## Chronological Turn-Stamps & Layout Discoveries
-### Stairs Warp Step-Off Mechanic (Verified Turn 54477)
-- **Problem:** When warping UP from 1F West stairs `(7, 10)` to 2F West stairs `(7, 10)`, the player lands directly on a warp tile. Any subsequent vertical movement (UP or DOWN) on `(7, 10)` will instantly trigger a warp back DOWN to 1F West `(7, 11)`.
-- **Solution:** Immediately upon warping to 2F West, the player must step LEFT to `(6, 10)` (or RIGHT to `(8, 10)`) to safely step off the warp tile without triggering a return warp!
-
-- **Turn 54222:** Mansion reset to State A (Default) via overworld exit.
-- **Turn 54284:** Mansion reset to State A (Default) via DIG escape to Cinnabar Island.
-- **Turn 54332:** Toggled 3F West switch at `(2, 11)` to State B from `(2, 12)` facing UP.
-- **Turn 54341:** Dismissed State B dialogue. Row 9 gates open, Row 12 gates closed on 3F West.
-- **Turn 54345:** Re-verified Mansion reset to State A (Default). Row 9 gates closed, Row 12 gates open.
-- **Turn 54399:** Visually and empirically verified via DFS that on 3F West in State A, the player's movement is strictly confined to a single isolated vertical corridor `[(8, 9), (8, 10), (8, 11), (8, 12), (8, 13)]`. It is completely blocked to the left and right by permanent rubble and column pillars, making horizontal crossing to 3F East physically impossible in State A.
-
----
-
-- **Turn 54428:** Mansion reset to State A (Default) via DIG escape to Cinnabar Island.
-- **Turn 54537:** Toggled the 2F East switch at `(12, 11)` to State B.
-- **Turn 54537:** Discovered that `(7, 10)` on 2F West is an active warp tile that instantly warps the player down to 1F West when stepped on from any direction.
-
 ## The Definitive Verified Master Route to B1F East & Secret Key
 1. **Enter Mansion in State A:**
    - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 5) -> (6, 5) -> (6, 4) -> (6, 3)` (bypassing the girl and signpost on Row 6/7) and step UP to enter 1F West (landing at `(5, 27)`).
 
-2. **Walk to 1F East Stairs and Ascend to 2F East (State A):**
-   - On 1F West, walk UP Column 5 to Row 11: `(5, 27) -> (5, 11)`.
-   - Walk RIGHT along Row 11 to Column 12: `(5, 11) -> (12, 11)`.
-   - Walk UP Column 12 to Row 6: `(12, 11) -> (12, 6)`.
-   - Walk RIGHT along Row 6 to Column 15: `(12, 6) -> (15, 6)` (crossing Column 13 Row 6, which is open!).
-   - Walk DOWN Column 15 to Row 10: `(15, 6) -> (15, 10)` (crossing Column 15 Row 8 shutter gate, which is OPEN in State A!).
-   - Walk RIGHT to Column 18 on Row 10: `(15, 10) -> (18, 10)`.
-   - Step DOWN onto the stairs at `(18, 10)` to warp UP to 2F East South (landing at `(18, 11)`).
+2. **Navigate 1F West to 2F West (State A):**
+   - Walk UP Column 5 to Row 11: `(5, 27) -> (5, 11)`.
+   - Walk RIGHT along Row 11 to Column 8: `(5, 11) -> (8, 11)`.
+   - Walk UP Column 8 to Row 10: `(8, 11) -> (8, 10)`.
+   - Walk LEFT to Column 5: `(8, 10) -> (5, 10)`.
+   - Step LEFT onto the stairs at `(5, 10)` to warp UP to 2F West (landing at `(5, 11)`).
 
-3. **Ascend to 3F East (State A):**
-   - On 2F East South, walk LEFT along Row 11 to the stairs at `(15, 11)`: `(18, 11) -> (15, 11)`.
-   - Step UP onto the stairs to warp UP to 3F East (landing at `(21, 6)`).
+3. **Navigate 2F West to 3F West (State A):**
+   - Walk RIGHT to Column 7: `(5, 11) -> (7, 11)`.
+   - Step UP onto the stairs at `(7, 10)` to warp UP to 3F West (landing at `(7, 11)`).
 
-4. **Walk to 3F West and Toggle Switch to State B:**
-   - On 3F East (State A), walk LEFT along the open northern Row 6 corridor to 3F West: `(21, 6) -> (12, 6) -> (12, 11) -> (2, 11)`.
-   - Stand at `(2, 12)` facing UP and press A to toggle the 3F West switch to State B!
+4. **Toggle 3F West Switch to State B:**
+   - Walk RIGHT along Row 11 to Column 12: `(7, 11) -> (12, 11)`.
+   - Walk LEFT along Row 11 to Column 3: `(12, 11) -> (3, 11)`.
+   - Walk LEFT to Column 3 Row 12: `(3, 11) -> (3, 12)`.
+   - Walk LEFT to Column 2 Row 12: `(3, 12) -> (2, 12)`.
+   - Stand at `(2, 12)` facing UP and press A to toggle the Mewtwo statue switch at `(2, 11)` to State B!
 
 5. **Walk to Balcony on 3F East (State B) and Drop to B1F East:**
-   - Walk back to 3F East along Row 6.
-   - Walk directly SOUTH on 3F East (State B) to the balcony: `(21, 6) -> (21, 15) -> (20, 15) -> (20, 18) -> (19, 18)`.
-   - In State B, the Balcony Gate is OPEN!
-   - Stand at `(19, 18)` and step DOWN (South) to drop to B1F East (landing at `(19, 16)`).
+   - Walk back RIGHT and UP to Row 6: `(2, 12) -> (3, 12) -> (3, 11) -> (12, 11) -> (12, 6)`.
+   - Walk RIGHT along Row 6 to Column 19: `(12, 6) -> (19, 6)`.
+   - Walk directly DOWN Column 19 to the Balcony at `(19, 18)` (in State B, the Row 8 shutter gates are OPEN!).
+   - Step DOWN (South) onto `(19, 18)` to drop to B1F East (landing at `(19, 16)`).
 
 6. **Retrieve Secret Key on B1F East (State B) and Escape:**
    - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
    - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
    - Use **DIG** to escape back to Cinnabar Island!
-
 
 <hr>
 
