@@ -1,0 +1,85 @@
+import mgba
+import time
+
+def get_pos():
+    return mgba.get_coordinates()
+
+def run_from_battle():
+    print("In battle! Running...")
+    for _ in range(18):
+        mgba.press_buttons(["B", "sleep 150"])
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 2000"])
+    for _ in range(5):
+        mgba.press_buttons(["B", "sleep 150"])
+    time.sleep(2.0)
+
+def walk_step(direction):
+    pos_before = mgba.get_coordinates()
+    mgba.press_buttons([direction, "sleep 150"])
+    pos_after = mgba.get_coordinates()
+    
+    if pos_before == pos_after:
+        run_from_battle()
+        mgba.press_buttons([direction, "sleep 150"])
+        pos_after = mgba.get_coordinates()
+        
+        if pos_before == pos_after:
+            raise Exception(f"Blocked at {pos_before} trying to go {direction}")
+    return pos_after
+
+def walk_to(target_x, target_y):
+    print(f"Walking to: ({target_x}, {target_y})")
+    max_steps = 40
+    steps = 0
+    while steps < max_steps:
+        pos = mgba.get_coordinates()
+        x, y = pos['x'], pos['y']
+        if x == target_x and y == target_y:
+            return True
+            
+        if x < target_x:
+            walk_step("Right")
+        elif x > target_x:
+            walk_step("Left")
+        elif y < target_y:
+            walk_step("Down")
+        elif y > target_y:
+            walk_step("Up")
+        steps += 1
+    return False
+
+# Starting at (7, 11) on 3F West
+print("1. Walking around NPC to (4, 13)...")
+walk_to(7, 10)
+walk_to(4, 10)
+walk_to(4, 13)
+
+print("2. Walking to switch at (2, 12)...")
+walk_to(2, 13)
+walk_to(2, 12)
+
+print("3. Toggling switch to State B...")
+mgba.press_buttons(["Up", "sleep 150"]) # Face UP
+mgba.press_buttons(["A", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
+print("State B activated! Position:", get_pos())
+
+# Optimized crossing: directly to (11, 13) and then up
+print("4. Walking to (11, 13)...")
+walk_to(2, 13)
+walk_to(11, 13)
+
+print("5. Walking to 3F East pitfall...")
+walk_to(11, 6)
+walk_to(21, 6)
+walk_to(19, 6)
+walk_to(19, 3)
+walk_to(26, 3)
+
+# Step DOWN to drop
+print("6. Dropping through pitfall...")
+walk_step("Down")
+time.sleep(2.0)
+
+print("Arrived on 1F East inside fenced room! Final Position:", get_pos())
+sc = mgba.take_screenshot()
+print("Final Screenshot:", sc)
