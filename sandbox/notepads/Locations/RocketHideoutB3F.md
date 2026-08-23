@@ -9,6 +9,11 @@
   - Central barrier block at cols 12-17, rows 19-24.
   - Northern corridor connecting to spin maze at row 18 (cols 10-20).
   - Southern corridor along rows 25-26 (cols 10-22).
+- Central Passage to Northern Wing (cols 15-16, rows 15-18):
+  - Gap in row 16 wall at cols 15-16.
+  - (16, 18) [UP spinner] & (16, 16) [UP spinner]: Propels player North through row 16 wall into Northern Wing (rows 10-15).
+  - (15, 16) [DOWN spinner]: Propels player South into Stop Tile at (15, 18).
+  - Approach from South: Enter col 16 at row 20, walk north through (16, 19) to step onto (16, 18) [UP spinner].
 - Central Spin Tile Column (col 9):
   - Alternating pattern from row 18 to row 25: Statues at (9, 19), (9, 21), (9, 23), (9, 25) [Solid obstacles]; Right-facing spin tiles at (9, 18), (9, 20), (9, 22), (9, 24) [Act as exits pushing Right into col 10; blocked from entry on the Right].
   - Open corridor along cols 10-11 connecting row 18 to row 26.
