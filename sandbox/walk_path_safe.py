@@ -39,10 +39,9 @@ def walk_step(direction):
             return None
     return pos_after
 
-# Target path on 3F West/East to get to Row 6:
-# Starting at (1, 11) on 3F West
+# Full path from (1, 12) on 3F West to (12, 6) on 3F East
 path = [
-    (1, 10), (1, 9), (2, 9), (3, 9), (4, 9), (5, 9), 
+    (1, 11), (1, 10), (1, 9), (2, 9), (3, 9), (4, 9), (5, 9), 
     (6, 9), (7, 9), (8, 9), (9, 9), (10, 9), (11, 9), (12, 9),
     (12, 8), (12, 7), (12, 6)
 ]
@@ -51,19 +50,19 @@ current_pos = get_pos()
 current_coord = (current_pos['x'], current_pos['y'])
 print("Current position:", current_coord)
 
-if current_coord not in path and current_coord != (1, 11):
+if current_coord not in path and current_coord != (1, 12):
     print("Player is not on the path, stopping.")
     exit(1)
 
 # Find where we are in the path
 start_index = -1
-if current_coord == (1, 11):
+if current_coord == (1, 12):
     start_index = 0
 else:
     start_index = path.index(current_coord) + 1
 
-# Execute up to 6 steps to keep button presses low
-steps_to_take = 6
+# Execute up to 4 steps to keep button presses low and highly controlled
+steps_to_take = 4
 for i in range(start_index, min(start_index + steps_to_take, len(path))):
     target = path[i]
     cx, cy = current_pos['x'], current_pos['y']
@@ -82,14 +81,12 @@ for i in range(start_index, min(start_index + steps_to_take, len(path))):
     print(f"Stepping {direction} to {target}...")
     res = walk_step(direction)
     if res is None:
-        # Hit a wall or got stuck, stop execution
-        print("Stopping execution of path.")
+        print("Blocked or stuck, stopping loop.")
         break
-    
-    # If a battle occurred, we ran away and we are at the same position as 'before',
-    # walk_step returns the 'before' position, and we stop execution to keep button presses low.
-    if (res['x'], res['y']) == (cx, cy):
-        print("Battle occurred, stopped to reset next turn.")
+        
+    # Strictly verify if we actually reached the target tile!
+    if (res['x'], res['y']) != (tx, ty):
+        print(f"Did not reach target {target}! Actually at: ({res['x']}, {res['y']}). Stopping loop.")
         break
         
     current_pos = res
