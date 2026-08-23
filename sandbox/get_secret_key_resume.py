@@ -50,29 +50,22 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (22, 2) on 1F East facing UP
-print("Starting B1F Secret Key retrieval from (22, 2)...")
+# Starting at (19, 5) on B1F East
+print("Starting B1F Secret Key retrieval from (19, 5)...")
 
-# PHASE 1: Warp DOWN to B1F East
-print("PHASE 1: Stepping UP to warp DOWN to B1F...")
-mgba.press_buttons(["Up", "sleep 400"])
-time.sleep(2.0)
-print("Position on B1F East:", get_pos())
-
-# PHASE 2: Walk along B1F to Secret Key room at (1, 5)
-print("PHASE 2: Crossing B1F Row 5 to Secret Key...")
-walk_to(19, 5)
+# PHASE 1: Walk horizontally along B1F Row 5 to (1, 5)
+print("PHASE 1: Walking along Row 5 to (1, 5)...")
 walk_to(1, 5)
 
-# PHASE 3: Retrieve Secret Key at (1, 4)
-print("PHASE 3: Picking up the Secret Key at (1, 4)...")
+# PHASE 2: Retrieve Secret Key at (1, 4)
+print("PHASE 2: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 4: DIG out back to Cinnabar Island
-print("PHASE 4: Escaping via DIG...")
+# PHASE 3: DIG out back to Cinnabar Island
+print("PHASE 3: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
