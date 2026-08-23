@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Department Store 1F (4, 7) -> Ascending to 4F to purchase Thunder Stone for PRISM
+- Location: Celadon Department Store 1F (4, 4) -> Exiting to Celadon City and heading to Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
