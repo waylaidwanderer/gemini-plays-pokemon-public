@@ -24,42 +24,29 @@ def walk_step(direction):
             attempts += 1
     return pos_after
 
-def walk_to(target_x, target_y):
-    max_steps = 30
-    steps = 0
-    while steps < max_steps:
-        pos = mgba.get_coordinates()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            return True
-        if x < target_x:
-            walk_step("Right")
-        elif x > target_x:
-            walk_step("Left")
-        elif y < target_y:
-            walk_step("Down")
-        elif y > target_y:
-            walk_step("Up")
-        steps += 1
-    return False
+# Starting from (13, 12)
+print("Starting switch test on the Mewtwo statue at (13, 11)...")
 
-# Clear battle text
-print("Clearing battle text...")
-mgba.press_buttons(["B", "sleep 150"])
+# 1. Walk Left to (12, 12)
+print("1. Walking Left to (12, 12)...")
+walk_step("Left")
 
-# We are at (12, 9). Let's test Row 10, 11, 12, 13, 14, 15 Column 13 crossings!
-print("Testing crossings from Row 10 to 15...")
-for r in range(10, 16):
-    print(f"Testing Row {r} crossing...")
-    if walk_to(12, r):
-        # Try to step RIGHT to Column 13
-        pos_before = mgba.get_coordinates()
-        pos_after = walk_step("Right")
-        if pos_after['x'] == 13:
-            print(f"SUCCESS: Row {r} Column 13 is OPEN!")
-            # Walk back LEFT
-            walk_step("Left")
-        else:
-            print(f"BLOCKED: Row {r} Column 13 is CLOSED.")
-            
-print("Test completed. Final position:", mgba.get_coordinates())
+# 2. Walk Up to (12, 11)
+print("2. Walking Up to (12, 11)...")
+walk_step("Up")
+
+# 3. Turn Right to face (13, 11)
+print("3. Facing Right towards (13, 11)...")
+walk_step("Right") # This will bump/face Right
+
+# Take screenshot before pressing A
+mgba.take_screenshot()
+
+# 4. Press A
+print("4. Pressing A to check for switch...")
+mgba.press_buttons(["A", "sleep 500", "B", "sleep 150"])
+
+# Take screenshot
+mgba.take_screenshot()
+
+print("Final position:", mgba.get_coordinates())
