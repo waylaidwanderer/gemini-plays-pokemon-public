@@ -57,19 +57,15 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (22, 2) on B1F East in State B
-# PHASE 1: Walk around Column 22 wall using Column 21 path to B1F Row 5
-print("PHASE 1: Walking B1F East Column 21 path...")
+# 1. Clear the "Got away safely!" text
+print("Clearing battle text...")
+mgba.press_buttons(["B", "sleep 300"])
+
+# Currently at (10, 6) on B1F East
+# Walk UP to (10, 5) then LEFT along Row 5 to (1, 5)
 success = True
 if success:
-    success = walk_to_tile(22, 3)
-if success:
-    success = walk_to_tile(21, 3)
-if success:
-    success = walk_to_tile(21, 5)
-
-# PHASE 2: Walk horizontally along Row 5 across Column 9 gate (open in State B) to (1, 5)
-print("PHASE 2: Walking horizontally to (1, 5)...")
+    success = walk_to_tile(10, 5)
 if success:
     success = walk_to_tile(1, 5)
 
