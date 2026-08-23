@@ -6,14 +6,14 @@ def get_pos():
 
 def run_from_battle():
     print("In battle! Running...")
-    # Clarify battle intro
-    for _ in range(15):
-        mgba.press_buttons(["B", "sleep 150"])
-    # Run
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 2000"])
-    # Clear got away safely
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 150"])
+    # Clear intro messages
+    for _ in range(12):
+        mgba.press_buttons(["B", "sleep 120"])
+    # Press Down, Right, A to select RUN
+    mgba.press_buttons(["Down", "sleep 120", "Right", "sleep 120", "A", "sleep 1500"])
+    # Clear got away safely message
+    for _ in range(4):
+        mgba.press_buttons(["B", "sleep 120"])
 
 def walk_step(direction):
     pos_before = mgba.get_coordinates()
@@ -21,15 +21,14 @@ def walk_step(direction):
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
+        # Try to run from battle once
+        run_from_battle()
         mgba.press_buttons([direction, "sleep 150"])
         pos_after = mgba.get_coordinates()
         
-        attempts = 0
-        while pos_before == pos_after and attempts < 10:
-            run_from_battle()
-            mgba.press_buttons([direction, "sleep 150"])
-            pos_after = mgba.get_coordinates()
-            attempts += 1
+        # If still blocked, raise an exception to exit safely and let the agent handle it
+        if pos_before == pos_after:
+            raise Exception(f"Blocked at {pos_before} trying to go {direction}")
     return pos_after
 
 def walk_to(target_x, target_y):
