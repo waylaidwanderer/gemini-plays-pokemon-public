@@ -43,44 +43,23 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting from (19, 7) in State A
-print("Starting switch test at (12, 12)...")
-print("Initial position:", mgba.get_coordinates())
+# Clear battle text
+print("Clearing battle text...")
+mgba.press_buttons(["B", "sleep 150"])
 
-# 1. Walk LEFT on Row 7 to Column 16
-print("1. Walking LEFT to Column 16...")
-pos = mgba.get_coordinates()
-while pos['x'] > 16:
-    pos = walk_step("Left")
-
-# 2. Walk DOWN Column 16 to Row 9
-print("2. Walking DOWN to Row 9...")
-while pos['y'] < 9:
-    pos = walk_step("Down")
-
-# 3. Walk LEFT on Row 9 to Column 12
-print("3. Walking LEFT to Column 12...")
-while pos['x'] > 12:
-    pos = walk_step("Left")
-
-# 4. Walk DOWN Column 12 to Row 11
-print("4. Walking DOWN to Row 11...")
-while pos['y'] < 11:
-    pos = walk_step("Down")
-
-print("Arrived at:", mgba.get_coordinates())
-
-# Face DOWN (to look at (12, 12))
-print("Facing DOWN...")
-walk_step("Down") # Should bump and face Down
-print("Final position before pressing A:", mgba.get_coordinates())
-
-# Take screenshot
-mgba.take_screenshot()
-
-# Press A
-print("Pressing A to check for secret switch...")
-mgba.press_buttons(["A", "sleep 300", "A", "sleep 300"])
-
-# Take screenshot to capture text box
-mgba.take_screenshot()
+# We are at (12, 9). Let's test Row 10, 11, 12, 13, 14, 15 Column 13 crossings!
+print("Testing crossings from Row 10 to 15...")
+for r in range(10, 16):
+    print(f"Testing Row {r} crossing...")
+    if walk_to(12, r):
+        # Try to step RIGHT to Column 13
+        pos_before = mgba.get_coordinates()
+        pos_after = walk_step("Right")
+        if pos_after['x'] == 13:
+            print(f"SUCCESS: Row {r} Column 13 is OPEN!")
+            # Walk back LEFT
+            walk_step("Left")
+        else:
+            print(f"BLOCKED: Row {r} Column 13 is CLOSED.")
+            
+print("Test completed. Final position:", mgba.get_coordinates())
