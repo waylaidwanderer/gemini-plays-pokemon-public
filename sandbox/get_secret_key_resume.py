@@ -50,43 +50,29 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (21, 6) on 3F East in State B
-print("Starting resume script from (21, 6) on 3F East...")
+# Starting at (22, 2) on 1F East facing UP
+print("Starting B1F Secret Key retrieval from (22, 2)...")
 
-# PHASE 1: Walk detour UP to Row 3, cross Column 22 wall, and walk down to pitfall at (26, 6)
-print("PHASE 1: Detouring around Column 22 wall to pitfall at (26, 6)...")
-walk_to(21, 3)
-walk_to(26, 3)
-walk_to(26, 6)
-print("Should have dropped! Waiting 2 seconds...")
-time.sleep(2.0)
-print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
-
-# PHASE 2: Walk to B1F stairs on 1F East inside fenced room
-print("PHASE 2: Walking to B1F stairs...")
-walk_to(26, 3)
-walk_to(21, 3)
-walk_to(21, 2)
-walk_to(22, 2)
-print("Stepping UP to warp DOWN to B1F...")
+# PHASE 1: Warp DOWN to B1F East
+print("PHASE 1: Stepping UP to warp DOWN to B1F...")
 mgba.press_buttons(["Up", "sleep 400"])
 time.sleep(2.0)
 print("Position on B1F East:", get_pos())
 
-# PHASE 3: Walk along B1F to Secret Key room at (1, 5)
-print("PHASE 3: Crossing B1F Row 5 to Secret Key...")
+# PHASE 2: Walk along B1F to Secret Key room at (1, 5)
+print("PHASE 2: Crossing B1F Row 5 to Secret Key...")
 walk_to(19, 5)
 walk_to(1, 5)
 
-# PHASE 4: Retrieve Secret Key at (1, 4)
-print("PHASE 4: Picking up the Secret Key at (1, 4)...")
+# PHASE 3: Retrieve Secret Key at (1, 4)
+print("PHASE 3: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 5: DIG out back to Cinnabar Island
-print("PHASE 5: Escaping via DIG...")
+# PHASE 4: DIG out back to Cinnabar Island
+print("PHASE 4: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
