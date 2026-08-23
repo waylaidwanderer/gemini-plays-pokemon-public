@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 4F (11, 6) -> Elixer collected at (12, 10) -> Traversing north-west aisle to 5F stairs at (3, 9) -> Ascending to 7F to rescue Mr. Fuji
+- Location: Pokémon Tower 5F (13, 6) -> Traversing Purified Zone to 6F stairs at (18, 9) -> Defeating Marowak ghost on 6F -> Rescuing Mr. Fuji on 7F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
