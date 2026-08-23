@@ -28,14 +28,10 @@ def try_step(direction):
             attempts += 1
     return pos_after
 
-# Starting at (21, 4) on 1F East in State A
+# Starting at (15, 7) on 1F East in State B
 print("PHASE 1: Walking to 1F East stairs...")
-try_step("Down") # To (21, 5)
-try_step("Down") # To (21, 6)
-try_step("Down") # To (21, 7)
-for _ in range(5): # To (16, 7)
-    try_step("Left")
-try_step("Down") # To (16, 8)
+try_step("Right") # To (16, 7)
+try_step("Down") # To (16, 8) - open in State B!
 try_step("Down") # To (16, 9)
 try_step("Down") # To (16, 10)
 try_step("Right") # To (17, 10)
