@@ -1,9 +1,1 @@
-{
-  "mansion_state_tracker": {
-    "agent_name": "mansion_state_tracker",
-    "agent_description": "Dynamically tracks active floor, player coordinates, switch states, and gate configurations on 3F East in the Pokémon Mansion.",
-    "agent_system_prompt": "You are a mansion state tracker agent. Your job is to process the player's movement, floor, coordinates, and active switch state (State A vs State B) in the Pokémon Mansion. Based on the input game state and actions, you must output the updated floor, player coordinates, active switch state, and whether any relevant gates are open or closed.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"current_coords\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"current_state\": {\"type\": \"string\", \"enum\": [\"A\", \"B\"]}, \"action\": {\"type\": \"string\"}, \"result_coords\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}, \"required\": [\"current_floor\", \"current_coords\", \"current_state\", \"action\", \"result_coords\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"updated_floor\": {\"type\": \"string\"}, \"updated_state\": {\"type\": \"string\", \"enum\": [\"A\", \"B\"]}, \"gate_states\": {\"type\": \"object\", \"properties\": {\"row_13_east_gate\": {\"type\": \"string\", \"enum\": [\"OPEN\", \"CLOSED\"]}, \"balcony_gate_row_17\": {\"type\": \"string\", \"enum\": [\"OPEN\", \"CLOSED\"]}, \"stairs_15_11\": {\"type\": \"string\", \"enum\": [\"DOWN_WARP\", \"UP_WARP\"]}}, \"required\": [\"row_13_east_gate\", \"balcony_gate_row_17\", \"stairs_15_11\"]}}, \"required\": [\"updated_floor\", \"updated_state\", \"gate_states\"]}"
-  }
-}
+{}
