@@ -46,12 +46,13 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting on Cinnabar Island at (19, 6)
-print("Resuming from Cinnabar Island (19, 6)...")
+# Starting on Cinnabar Island at (10, 7)
+print("Resuming from Cinnabar Island (10, 7)...")
 
 # 0. Walk to Mansion door at (6, 3) and enter
 print("Walking to Mansion entrance...")
-walk_to(6, 6)
+walk_to(10, 4)
+walk_to(6, 4)
 walk_to(6, 3)
 mgba.press_buttons(["Up", "sleep 400"]) # Step UP to warp into Mansion
 time.sleep(1.5)
