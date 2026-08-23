@@ -26,10 +26,11 @@
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
-6. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 67 (HP: 67/67), Type: Normal
-   - Moves: Swift (20/20), Sand-Attack, Quick Attack
-   - Role: Multi-type evolution potential (Fire/Water/Thunder Stone ready at Celadon Dept Store 4F) [Claimed Turn 12086 at Celadon Mansion Roof; taught TM39 Swift Turn 13277]
+6. PRISM (Jolteon) - Lv 25
+   - Stats (Verified at Lv 25): Max HP 72 (HP: 72/72), Attack 44, Defense 44, Speed 74, Special 64
+   - Type: Electric
+   - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
+   - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
@@ -41,7 +42,7 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
 - Valuables:
   - 1x Nugget
 - Consumables & Field Items:
