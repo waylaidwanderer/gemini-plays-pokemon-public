@@ -1470,6 +1470,10 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Door Warp Collision Quirk:** In Gen 1, walking horizontally onto a warp tile (like `(2, 7)` inside Lab Room 1) does NOT trigger the warp. It must be entered vertically. Since the vertical path to `(2, 7)` is permanently blocked by the Scientist at `(2, 6)`, walking into Lab Room 1 is a physical trap that requires resetting or using another method!
 
 
+## Pok&eacute;mon Mansion Structural Discoveries
+- **3F West Pitfall Trap at (5, 9):** Stepping on this tile immediately warps the player down to 2F West at (5, 10) (discovered on Turn 55204). Avoid walking UP to Row 9 Column 5 on 3F West in both State A and State B!
+
+
 <hr>
 
 <h1><code>Scratchpad/Switch_Matrix</code></h1>
@@ -1488,6 +1492,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ### Permanent Structural Barriers
 - **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
+- **3F West Pitfall Trap at (5, 9):** Permanent structural hazard that warps/drops the player down to 2F West at (5, 10) (verified on Turn 55204). Avoid walking UP to Row 9 Column 5 on 3F West in both State A and State B!
+- **3F West Row 9 Wall (Columns 6-7):** Permanent solid vertical wall separating the southern hallway from northern rooms, blocking vertical traversal on these columns (verified on Turn 55219).
 
 ### State A (Default)
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
