@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 46
-   - Stats (Verified at Lv 46): Max HP 152 (HP: 152/152), Attack 103, Defense 115, Speed 106, Special 109
+   - Stats (Verified at Lv 46): Max HP 152 (HP: 117/152), Attack 103, Defense 115, Speed 106, Special 109
    - Type: Water
-   - Moves: Skull Bash (10/15), Ice Beam (6/10), Bite (24/25), Bubblebeam (17/20)
+   - Moves: Skull Bash (9/15), Ice Beam (6/10), Bite (22/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -40,7 +40,7 @@
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
-- Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
+- Key Items: Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
