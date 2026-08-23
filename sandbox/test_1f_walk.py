@@ -49,8 +49,10 @@ def walk_to(target_x, target_y):
     return False
 
 # Starting at (5, 7) on 1F West
-print("Walking to (10, 7)...")
-walk_to(10, 7)
+print("Walking to (5, 5)...")
+walk_to(5, 5)
+print("Walking to (10, 5)...")
+walk_to(10, 5)
 print("Walking to (10, 11)...")
 walk_to(10, 11)
 print("Walking to (6, 11)...")
