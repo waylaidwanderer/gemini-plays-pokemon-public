@@ -50,14 +50,13 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (1, 10) on 3F West in State B
-print("Starting ultimate Secret Key script from (1, 10) on 3F West...")
+# Starting at (1, 11) on 3F West in State B
+print("Starting ultimate Secret Key script from (1, 11) on 3F West...")
 
 # PHASE 1: Walk to pitfall at (26, 6)
 print("PHASE 1: Walking to pitfall at (26, 6)...")
-walk_to(1, 11)
-walk_to(3, 11) # Bypasses statue at (2, 11) if solid, or walks through if open
-walk_to(5, 11)
+walk_to(1, 13)
+walk_to(5, 13)
 walk_to(5, 9)
 walk_to(12, 9)
 walk_to(12, 6)
