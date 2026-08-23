@@ -57,24 +57,43 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (23, 7) on 1F East in State B
-# Walk to B1F stairs: (23, 7) -> (26, 7) -> (26, 3) -> (21, 3) -> (21, 2) -> (22, 2)
+# Currently at (26, 3) on 1F East in State B
+# PHASE 1: Walk to (22, 3) and warp DOWN to B1F East
+print("PHASE 1: Warp DOWN to B1F East...")
 success = True
 if success:
-    success = walk_to_tile(26, 7)
-if success:
-    success = walk_to_tile(26, 3)
-if success:
-    success = walk_to_tile(21, 3)
-if success:
-    success = walk_to_tile(21, 2)
-if success:
-    success = walk_to_tile(22, 2)
-
+    success = walk_to_tile(22, 3)
 if success:
     print("Stepping UP to warp down to B1F...")
     mgba.press_buttons(["Up", "sleep 400"])
     time.sleep(1.5)
     print("New position on B1F East:", get_pos())
+
+# PHASE 2: Walk along B1F Row 5 across Column 9 gate to (1, 5)
+print("PHASE 2: Crossing B1F Row 5 to Secret Key...")
+if success:
+    success = walk_to_tile(22, 5)
+if success:
+    success = walk_to_tile(19, 5)
+if success:
+    success = walk_to_tile(1, 5)
+
+# PHASE 3: Retrieve Secret Key at (1, 4)
+if success:
+    print("PHASE 3: Picking up the Secret Key at (1, 4)...")
+    mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
+    print("Secret Key retrieved! Current position:", get_pos())
+
+# PHASE 4: DIG out back to Cinnabar Island
+if success:
+    print("PHASE 4: Escaping via DIG...")
+    mgba.press_buttons(["Start", "sleep 300"])
+    mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
+    for _ in range(4): # 4 Down presses to select TRUFFLE (the 5th slot)
+        mgba.press_buttons(["Down", "sleep 150"])
+    mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE (Slot 5)
+    mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
+    time.sleep(3.0)
+    print("SUCCESS! Final position on Cinnabar Island:", get_pos())
 else:
     print("Failed navigation!")
