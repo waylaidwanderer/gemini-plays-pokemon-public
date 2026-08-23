@@ -57,23 +57,40 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (15, 6) on B1F East in State B
-# Walk to (1, 5)
+# Currently at (10, 5) on B1F East in State A
+# PHASE 1: Walk to B1F East switch standing spot (15, 7) via Column 16 bypass
+print("PHASE 1: Walking to B1F East switch at (15, 7)...")
 success = True
 if success:
-    success = walk_to_tile(15, 5)
+    success = walk_to_tile(16, 5)
+if success:
+    success = walk_to_tile(16, 7)
+if success:
+    success = walk_to_tile(15, 7)
+
+# PHASE 2: Face UP and toggle Mewtwo statue switch to State B
+if success:
+    print("Toggling Mewtwo statue switch at (15, 6) to State B...")
+    mgba.press_buttons(["Up", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
+
+# PHASE 3: Walk along Row 5 horizontally to B1F West (1, 5)
+print("PHASE 3: Walking along Row 5 across open Column 9 gate to (1, 5)...")
+if success:
+    success = walk_to_tile(16, 7)
+if success:
+    success = walk_to_tile(16, 5)
 if success:
     success = walk_to_tile(1, 5)
 
-# Retrieve Secret Key at (1, 4)
+# PHASE 4: Retrieve Secret Key at (1, 4)
 if success:
-    print("Picking up the Secret Key at (1, 4)...")
+    print("PHASE 4: Picking up the Secret Key at (1, 4)...")
     mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
     print("Secret Key retrieved! Current position:", get_pos())
 
-# DIG out back to Cinnabar Island
+# PHASE 5: DIG out back to Cinnabar Island
 if success:
-    print("Escaping via DIG...")
+    print("PHASE 5: Escaping via DIG...")
     mgba.press_buttons(["Start", "sleep 300"])
     mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
     for _ in range(4): # 4 Down presses to select TRUFFLE (the 5th slot)
