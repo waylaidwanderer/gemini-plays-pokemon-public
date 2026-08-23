@@ -10,6 +10,9 @@
 
 ## Shutter Gate Configurations & Structural Barriers
 
+### Permanent Structural Barriers
+- **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
+
 ### State A (Default)
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as a DOWN warp to 2F East).
@@ -56,9 +59,12 @@
 
 5. **Walk to Balcony on 3F East (State B) and Drop to B1F East:**
    - Walk back RIGHT and UP to Row 6: `(2, 12) -> (3, 12) -> (3, 11) -> (12, 11) -> (12, 6)`.
-   - Walk RIGHT along Row 6 to Column 19: `(12, 6) -> (19, 6)`.
-   - Walk directly DOWN Column 19 to the Balcony at `(19, 18)` (in State B, the Row 8 shutter gates are OPEN!).
-   - Step DOWN (South) onto `(19, 18)` to drop to B1F East (landing at `(19, 16)`).
+   - Walk RIGHT along Row 6 to Column 21: `(12, 6) -> (21, 6)`.
+   - Walk DOWN Column 21 to Row 15 (Column 21 is blocked at Row 8, so we must walk down Column 19 past the open Row 8 shutter gate to Row 12, then walk RIGHT to Column 21 Row 12, and then walk DOWN Column 21 past the open Row 13 gap to Row 15): `(21, 6) -> (19, 6) -> (19, 12) -> (21, 12) -> (21, 15)`.
+   - Walk LEFT along Row 15 to Column 19: `(21, 15) -> (19, 15)`.
+   - Walk DOWN Column 19 to Row 16: `(19, 15) -> (19, 16)`.
+   - Walk LEFT along Row 16 to the edge at `(18, 16)`: `(19, 16) -> (18, 16)`.
+   - Walk LEFT (West) from `(18, 16)` to drop over the balcony railing to B1F East (landing at `(19, 16)` on B1F East).
 
 6. **Retrieve Secret Key on B1F East (State B) and Escape:**
    - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
