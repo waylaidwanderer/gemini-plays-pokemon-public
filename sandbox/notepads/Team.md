@@ -10,7 +10,7 @@
    - Stats: Max HP 26 (HP: 19/26)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
-   - Role: Fast Flying/Poison utility
+   - Role: Fast Flying/Poison utility (Scheduled for PC Box 1 deposit)
 3. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
@@ -44,25 +44,25 @@
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
 - Valuables:
-  - 1x Nugget (Sell at Mart for �5000)
+  - 1x Nugget (Sell at Mart for 5000 yen)
 - Consumables & Field Items:
-  - 10x Great Balls (Purchased Turn 14008 at Dept Store 2F for �6000)
+  - 10x Great Balls (Purchased Turn 14008 at Dept Store 2F for 6000 yen)
   - 5x Super Potion
   - 1x Escape Rope
   - 2x Moon Stone
-  - 1x Water Stone (Purchased at 4F; ready to sell for �1050 or keep)
+  - 1x Water Stone (Purchased at 4F; ready to sell for 1050 yen or keep)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
-- Funds: �26,314 (Verified Turn 14008)
+- Funds: 26,314 yen (Verified Turn 14008)
 
 ## Bag Slot Management (20-Item Limit)
 - Current slots filled: ~18-19 slots.
-- Cleanup Strategy: Sell Nugget (�5000) and Water Stone (�1050); unneeded TMs can go to PC Item Storage if space is needed.
+- Cleanup Strategy: Sell Nugget (5000 yen) and Water Stone (1050 yen) or store in PC; unneeded TMs can go to PC Item Storage if space is needed.
 
 ## Flying-Type Party Slot Allocation & Capture Plan
 - Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
-- Plan: Deposit ECHO (Zubat Lv 9) at Celadon Pok�mon Center PC -> Party has 5 members -> Catch wild Flying-type (Doduo, Spearow, or Pidgey) on Route 16 -> Enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
+- Plan: Deposit ECHO (Zubat Lv 9) at Celadon Pokémon Center PC -> Party has 5 members -> Catch wild Flying-type (Doduo, Spearow, or Pidgey) on Route 16 -> Enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
-- Verified 1-Turn Battle Flee Protocol: `["B", "B", "B", "Down", "Right", "A", "B"]` (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
+- Verified 1-Turn Battle Flee Protocol: ["B", "B", "B", "Down", "Right", "A", "B"] (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).

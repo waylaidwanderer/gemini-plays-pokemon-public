@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Dept Store 1F (11, 5) -> Celadon Pok�mon Center (deposit Zubat) -> Route 16 (catch Flying-type for HM02 Fly) -> Lavender Town Pok�mon Tower
+- Location: Celadon Dept Store 1F (14, 4) -> Exiting via (16, 7) doors to Celadon City -> Celadon Pokémon Center (deposit Zubat) -> Route 16 (catch Flying-type for HM02 Fly) -> Lavender Town Pokémon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -36,4 +36,7 @@
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
 - `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, grunts, elevator
 - `Locations/RocketHideoutB2F`: Rocket Hideout B2F layout, conveyor network solutions
-- `Locations/RocketHideoutB3F`: Rocket Hideout B3F layout, grunts, elevator
+- `Locations/RocketHideoutB4F`: Rocket Hideout B4F layout, Giovanni battle, Silph Scope
+- `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Gym access, corridors
+- `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
+- `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
