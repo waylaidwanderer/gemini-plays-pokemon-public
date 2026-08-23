@@ -2,7 +2,7 @@
 
 ## Connections
 - Downstairs (4F): Stairs at (3, 9) on the western wall
-- Upstairs (6F): Ascending stairs to 6F located in the tower interior (unmasking required)
+- Upstairs (6F): Ascending stairs (unverified until unmasked/tested)
 
 ## Floor Layout & Landmarks
 - Northwest descending stairs at (3, 9).
