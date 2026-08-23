@@ -1441,8 +1441,8 @@
 - Route 7 (Direct Corridor to B3F Stairs):
   - From Stop Tile (9, 24) -> (10, 24) -> Step onto (10, 25) [Right] -> lands on Stop Tile (14, 25).
   - From Stop Tile (14, 25) -> (16, 25) -> Up to (16, 21) -> East across row 21 (through gap at col 18) to (21, 21) -> Down to (21, 22) [Stairs down to B3F].
-- Route 8 (Exit from Spin Maze to B1F Stairs):
-  - From Stop Tile (11, 20) -> (10, 20) -> (10, 19) [Up] -> (14, 15) Stop Tile -> (16, 14) [Up] -> (16, 13) Stop Tile -> East across row 13 to (27, 8) [B1F Stairs].
+- Route 8 (Exit from Spin Maze to B1F/B4F Stairs):
+  - From Stop Tile (16, 18) -> UP spinner to (16, 13) Stop Tile -> East across row 13 to (21, 8) [B4F Stairs] / (27, 8) [B1F Stairs].
 
 ## Floor Layout & Item Balls
 - Northwest Sector:
@@ -1453,21 +1453,12 @@
   - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
   - Traversed perimeter: col 1 (rows 15-26) and row 25 (cols 1-6).
   - Row 25 blocked at col 7 by tables (7..9, 25).
-  - Interior contains maze tables and spin tiles (e.g. Up spin at (6, 24) -> Stop tile at (6, 20)).
+  - Interior contains maze tables and spin tiles.
 
 ## Verified Trainers
 - Rocket Grunt at (20, 12) [Defeated Turn 12234]:
   - Team: Drowzee Lv 17, Machop Lv 17.
   - Post-battle dialogue: "The TEAM ROCKET HQ has 4 basement floors. Can you reach the BOSS?"
-
-## Untested Conveyor Hypothesis Checklist (Southwest & Central Sectors)
-- [ ] Southwest Chamber Entry: From Stop Tile (9, 24), move west into cols 1-7 (rows 18-26).
-- [ ] Southwest Sub-Maze Tile (6, 24) [Up-spin]: Test where it launches and where its stop tile connects.
-- [ ] Southwest Sub-Maze Tile (4, 24) / (2, 24): Test if any west/up spin leads to hidden alcoves.
-- [ ] Southwest Sub-Maze Tile (2, 20) / (3, 20) / (4, 20): Test all launch vectors in row 20.
-- [ ] Southwest Sub-Maze Tile (6, 18) / (4, 18): Test all launch vectors in row 18.
-- [ ] Central Sector Alternative: From Stop Tile (11, 20), test tile (11, 19), (12, 19), (13, 20), (14, 20), (12, 21), (11, 22).
-- [ ] Central Sector Alternative: From Stop Tile (8, 11), test any adjacent unvisited spin tiles.
 
 <hr>
 
