@@ -48,8 +48,11 @@ def walk_to(target_x, target_y):
 
 # Starting on Cinnabar Island at (11, 12)
 print("0. Entering the Mansion...")
-walk_to(6, 12)
-mgba.press_buttons(["Up", "sleep 400"]) # Walk UP into door at (6, 3)
+walk_to(18, 12)
+walk_to(18, 5)
+walk_to(6, 5)
+walk_to(6, 3)
+mgba.press_buttons(["Up", "sleep 400"]) # Step UP to warp into Mansion
 time.sleep(1.5)
 print("Inside Mansion 1F:", mgba.get_coordinates())
 
