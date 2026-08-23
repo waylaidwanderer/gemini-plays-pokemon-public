@@ -1,7 +1,7 @@
 import mgba
 import time
 
-def flee_and_cross():
+def flee_and_cross_resume():
     # 1. We are in battle. Select RUN (Down, Right, A)
     print("Selecting RUN in battle...")
     mgba.press_buttons(["Down", "Right", "A"])
@@ -12,12 +12,8 @@ def flee_and_cross():
     mgba.press_buttons(["B"])
     time.sleep(1.0) # Wait for fade-out back to overworld
     
-    # 3. Walk remaining 1F path in State B from (6, 10)
+    # 3. Walk remaining 1F path in State B from (12, 11)
     path_1f = [
-        # Step Down
-        (6, 11),
-        # Walk Right along Row 11 to Column 12
-        (7, 11), (8, 11), (9, 11), (10, 11), (11, 11), (12, 11),
         # Walk Up Column 12 to Row 6
         (12, 10), (12, 9), (12, 8), (12, 7), (12, 6),
         # Walk Right along Row 6 to Column 17
@@ -108,4 +104,4 @@ def flee_and_cross():
     mgba.take_screenshot()
     return True
 
-flee_and_cross()
+flee_and_cross_resume()
