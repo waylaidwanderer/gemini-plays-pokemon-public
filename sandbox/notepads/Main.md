@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon City (10, 18) -> Walking to Celadon Pokémon Center (41, 9) -> Depositing ECHO (Zubat) at PC to free party Slot 6 -> Catching Route 16 flyer -> Teaching HM02 Fly -> Flying to Lavender Town Pokémon Tower
+- Location: Route 16 (33, 8) -> ECHO deposited in Box 1 (Party: 5) -> Exploring Route 16 tall grass patches (rows 8, 6-7, 2-3) to catch wild flyer (Doduo/Spearow/Fearow) -> Nickname ZEPHYR -> Teach HM02 Fly -> Fly to Lavender Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
