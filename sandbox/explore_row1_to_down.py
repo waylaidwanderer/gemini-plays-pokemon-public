@@ -43,28 +43,38 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Start grid search of the room (x: 14 to 21, y: 8 to 12)
-# We are currently at (15, 11).
-print("Starting search of the room for any stairs...")
+# Starting from (17, 8).
+# Let's walk to Row 12, and then try walking DOWN Row 13 on Columns 19, 20, 21.
+print("Starting Row 13 vertical test...")
 
-# Walk to each tile in a grid
-for y in range(8, 13):
-    for x in range(14, 22):
-        print(f"Trying to walk to: ({x}, {y})")
-        # Try to walk to (x, y)
-        success = walk_to(x, y)
-        pos = mgba.get_coordinates()
-        print(f"  Reached: ({pos['x']}, {pos['y']})")
-        # If we warped, our coordinates will change or we will see a map transition.
-        # But wait! On 2F, the coordinates of the landing are (15, 11) or similar.
-        # How do we know we warped? If our y coordinate or our map changes.
-        # Let's check if the coordinates are in B1F or 2F.
-        # Usually, a warp transition resets the step/mansion state or coordinate systems, or coordinates become 2F coordinates.
-        # Since 2F and 3F coordinates are very similar, let's take a screenshot or print coordinates.
-        if pos['y'] == 11 and pos['x'] == 15:
-            # Wait, did we warp to 2F (15, 11)?
-            # Let's take a screenshot to check if the surrounding is different!
-            # On 2F, there are different tiles. Let's just check if we can walk to other rows.
-            pass
+for col in [19, 20, 21]:
+    # Walk to (col, 12)
+    print(f"Testing Column {col} Row 13...")
+    if walk_to(col, 12):
+        # Try to step DOWN
+        pos_before = mgba.get_coordinates()
+        pos = walk_step("Down")
+        if pos['y'] == 13:
+            print(f"SUCCESS: Column {col} Row 13 is OPEN! Position:", pos)
+            # Try to step DOWN to Row 14, 15, 16, 17, 18
+            reached_balcony = False
+            for _ in range(5):
+                pos_prev = pos
+                pos = walk_step("Down")
+                if pos['y'] == pos_prev['y']:
+                    print(f"  Blocked walking down at: ({pos['x']}, {pos['y']})")
+                    break
+                print(f"  Reached Row {pos['y']}")
+                if pos['y'] >= 18:
+                    reached_balcony = True
+                    break
+            if reached_balcony:
+                print("REACHED BALCONY!")
+                break
+            else:
+                # Walk back up to Row 12
+                walk_to(col, 12)
+        else:
+            print(f"BLOCKED: Column {col} Row 13 is CLOSED.")
 
-print("Search completed. Final position:", mgba.get_coordinates())
+print("Final position:", mgba.get_coordinates())
