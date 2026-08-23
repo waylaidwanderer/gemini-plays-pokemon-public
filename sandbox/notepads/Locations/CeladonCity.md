@@ -92,9 +92,9 @@
   - Prize Exchange at (33, 19..20).
   - Leads west directly to the Cut tree and Celadon Gym in southwest Celadon City!
 
-- **Eastern Thoroughfare Connection (cols 56-58, rows 11-22)**:
-  - Verified on Turn 13358: Row 16 ledge terminates at col 55.
-  - Cols 56-58 form a continuous, unbroken, open north-south avenue connecting upper tier directly to southern boulevard (rows 17-22)!
+- **Eastern Boundary (cols 50-58, rows 4-15)**:
+  - Empirical testing on Turns 13528-13535 proved that solid walls, poles, and trees along cols 54-56 block southward bypass to row 20.
+  - Route 7 entrance is at (49, 10..11).
 
 - **Verified Ledge Gap Passage**:
   - Located at cols 8-9 on row 16: An open 2-tile wide grass and pavement path connecting the upper garden directly south onto the southern street (rows 17-22) without hitting any ledges!
@@ -116,4 +116,4 @@
 
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
-- **Row 16 Ledge Line**: Continuous ledge spanning cols 0-55. The only unobstructed north-south bypasses are the Eastern Thoroughfare (cols 56-58) and the Western Ledge Gap at (8..9, 16).
+- **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets. Bypass via Western Ledge Gap at (8..9, 16).
