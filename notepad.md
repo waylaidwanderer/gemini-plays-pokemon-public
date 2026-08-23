@@ -1471,9 +1471,10 @@
   - Northern corridor connecting to spin maze at row 18 (cols 10-20).
   - Southern corridor along rows 25-26 (cols 10-22).
 - Central Spin Tile Column (col 9):
-  - (9, 25) and (9, 23) are solid statues/pillars (unwalkable).
-  - (9, 24) and (9, 22) are green spin tiles.
-  - Cols 10-11 form an open vertical corridor from row 22 to row 26.
+  - Alternating pattern from row 18 to row 25: Statues at (9, 19), (9, 21), (9, 23), (9, 25); Green spin tiles at (9, 18), (9, 20), (9, 22), (9, 24).
+  - Open corridor along cols 10-11 connecting row 18 to row 26.
+  - Central barrier block at cols 12-15, rows 19-24.
+  - Open corridor at row 18 leading east to grunt at (18, 18).
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
 
