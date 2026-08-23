@@ -1550,11 +1550,11 @@
 # Pokémon Tower 5F - Layout, Purified Zone & Encounters
 
 ## Connections
-- Downstairs (4F): Stairs at (3, 9) on the western wall
+- Downstairs (4F): Stairs at (9, 16) on the southern wall [Empirically Discovered & Verified Turn 14510]
 - Upstairs (6F): Ascending stairs (unverified until unmasked/tested)
 
 ## Floor Layout & Landmarks
-- Northwest descending stairs at (3, 9).
+- South descending stairs to 4F at (9, 16).
 - Purified Zone (Sacred Ground) at cols 10-11, rows 8-9 with Channeler at (12, 8). Automatically restores party HP/PP/status and protects against wild encounters.
 - Item Ball 1 at (6, 8): Rare Candy [Collected Turn 14503].
 - Item Ball 2 at (14, 14): Uncollected [Discovered Turn 14463; blocked by 20-item bag cap].
