@@ -30,7 +30,6 @@
 
 ---
 
-## Switch Details (Foot-Verified)
-- **B1F East Switch Statue Location:** Located at `(17, 6)`.
-- **Standing Interaction Position:** Stand at `(16, 6)` facing RIGHT, then press `A` (with proper 2500ms sleeps) to toggle the switch.
-- **Walkability:** Coordinates `(15, 6)` and `(16, 6)` are completely walkable pink floor tiles with no collision.
+## Switch Details (Mansion Switch State B is toggled from 3F West)
+- B1F East has Mewtwo statues at `(16, 10)` and `(18, 10)`. B1F West has Mewtwo statues at `(3, 10)`, `(3, 12)`, `(3, 14)`, `(8, 10)`, `(8, 12)`, and `(8, 14)`.
+- However, we do not need to toggle any switch on B1F to retrieve the Secret Key! The entire mansion is solved by toggling the Mewtwo statue switch at `(2, 11)` on 3F West to State B, dropping down the 3F East pitfall at `(26, 6)` to 1F East `(25, 6)`, warping down to B1F East `(22, 3)`, and walking straight across Row 5 through the open Column 9 gate directly to the Secret Key room on B1F West.
