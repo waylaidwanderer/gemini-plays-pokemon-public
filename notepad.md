@@ -1521,27 +1521,26 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ## The Definitive Verified Master Route to B1F East & Secret Key
 1. **Enter Mansion in State A:**
-   - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 5) -> (6, 5) -> (6, 4) -> (6, 3)` (bypassing the girl and signpost on Row 6/7) and step UP to enter 1F West (landing at `(5, 27)`).
+   - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 5) -> (6, 5) -> (6, 4) -> (6, 3)` and step UP to enter 1F West (landing at `(5, 27)`).
 
 2. **Warp UP 1F West -> 2F West -> 3F West (State A):**
-   - Walk from (5, 27) UP to (5, 11) -> (8, 11) -> (8, 10) -> (5, 10) -> Step LEFT to warp UP to 2F West (landing at (4, 11)).
-   - Walk RIGHT to (7, 11) -> Step UP to warp UP to 3F West (landing at (7, 11)).
+   - Walk to `(5, 11)` -> `(8, 11)` -> `(8, 10)` -> `(5, 10)` -> step LEFT to warp to 2F West (landing at `(5, 11)`).
+   - Walk Right 2 steps to `(7, 11)` -> step UP onto stairs at `(7, 10)` to warp UP to 3F West (landing at `(7, 11)`).
 
-3. **Walk DOWN to 1F West & Cross to 1F East (State A):**
-   - Step DOWN onto stairs at (7, 10) to warp DOWN to 2F West (landing at (7, 11)).
-   - Walk to (5, 11) -> Step UP onto stairs at (5, 10) to warp DOWN to 1F West (landing at (5, 11)).
-   - Walk UP Column 5 to Row 5 (5, 5).
-   - Walk RIGHT along Row 5 across Column 13 to 1F East (21, 5) (since Column 13 is permanently open on Row 5!).
+3. **Toggle 3F West Mewtwo Switch to State B:**
+   - On 3F West: walk to `(4, 11)` -> `(4, 13)` -> `(1, 13)` -> `(2, 13)` -> `(2, 12)`.
+   - Stand at `(2, 12)` facing UP towards the Mewtwo statue switch at `(2, 11)` and toggle it to State B! (Select YES).
 
-4. **Warp DOWN to B1F East & Toggle Switch to State B:**
-   - Walk to B1F East stairs at (22, 2): Accessible ONLY in State B, because the gate at (22, 2) on 1F East is CLOSED in State A and OPEN in State B (verified Turn 56693).
-   - Walk to B1F East switch at (15, 6): (22, 2) -> (22, 6) -> (15, 7) -> Face UP to (15, 6) and toggle the switch to State B!
+4. **Cross 3F West to 3F East & Drop to 1F East:**
+   - From `(2, 12)`, walk LEFT to `(1, 12)` -> UP to `(1, 10)` -> DOWN to `(1, 13)` -> RIGHT along Row 13 to Column 11 `(11, 13)` -> UP Column 11 to Row 6 `(11, 6)`.
+   - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)`.
+   - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 3)`.
 
-5. **Retrieve Secret Key & DIG Out:**
-   - Walk horizontally along Row 5 across Column 9 gate (now open in State B!) directly to B1F West: (15, 7) -> (15, 5) -> (1, 5).
-   - Face UP to (1, 4) and retrieve the Secret Key!
+5. **Warp DOWN to B1F East & Retrieve Secret Key:**
+   - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 3)`).
+   - On B1F East, walk horizontally along Row 5 across Column 9 gate (now open in State B) directly to B1F West at `(1, 5)`.
+   - Stand at `(1, 5)` facing UP and retrieve the Secret Key at `(1, 4)`!
    - Escape via DIG back to Cinnabar Island.
-
 
 <hr>
 
