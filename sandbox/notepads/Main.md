@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (33, 8) -> ECHO deposited in Box 1 (Party: 5) -> Exploring Route 16 tall grass patches (rows 8, 6-7, 2-3) to catch wild flyer (Doduo/Spearow/Fearow) -> Nickname ZEPHYR -> Teach HM02 Fly -> Fly to Lavender Town
+- Location: Route 8 (17, 12) -> ECHO in Box 1 (Party: 5) -> Pacing southern tall grass plain (cols 16-22, rows 12-13) to catch wild flyer (Pidgey/Pidgeotto) with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly in field -> Fly to Lavender Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

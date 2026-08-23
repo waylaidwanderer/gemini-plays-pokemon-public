@@ -26,7 +26,7 @@
    - Type: Electric
    - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
    - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
-6. [OPEN SLOT 6] - Reserved for Route 16 wild flyer capture (Doduo / Spearow / Fearow)!
+6. [OPEN SLOT 6] - Reserved for Route 8 wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
@@ -55,4 +55,4 @@
 
 ## Flying-Type Party Slot Allocation & Capture Plan
 - Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 16 enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
+- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!

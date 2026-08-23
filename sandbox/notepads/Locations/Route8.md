@@ -1,28 +1,25 @@
-# Route 8 - Points of Interest & Notes
+# Route 8 - Points of Interest, Topography & Encounter Zones
 
 ## Connections
-- East: Lavender Town at (59, 8..9) [Entered Turn 11103 at (59, 8)]
-- West: Saffron City East Gatehouse & Route 8-7 Underground Path Entrance
+- West: Route 7 / Celadon City via Underground Path (West entrance at Route 7 (5, 13); East entrance at Route 8 (13, 3))
+- East: Lavender Town at (59, 8) [Traversed Turn 11103]
+- Middle: Saffron East Gatehouse at cols 3-9, rows 8-11 (door at (9, 9))
 
-## Layout & Landmarks
-- Eastern entrance connects via paved road at row 8 (cols 56-59).
-- Mountain barrier to the north (row 7) and fence line to the south (row 9).
-## Verified Trainers & Encounters
-- Lass #1: Located at (51, 12) [Defeated Turn 11109]. Team: Clefairy Lv 22, Clefairy Lv 22. Reward: ¥330.
-  - Pre-battle: "Do you like cute, round and fluffy POKéMON?"
-  - Defeat quote: "Don't be so mean to my CLEFAIRY!"
-- Gambler #1: Located at (46, 13) [Defeated Turn 11112]. Team: Growlithe Lv 24, Vulpix Lv 24. Reward: ¥1680.
-  - Pre-battle: "I'm a rambling, gambling dude!"
-- Super Nerd #1: Located at (42, 6) [Defeated Turn 11118]. Team: Grimer Lv 22, Muk Lv 22. Reward: ¥528.
-  - Pre-battle: "You need strategy to win at this!"
-- Lass #2 (Trainer Line): Located at (26, 5) [Defeated Turn 11126]. Team: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24. Reward: ¥360.
-  - Pre-battle: "MEOWTH is so cute, meow, meow, meow!"
-  - Defeat quote: "I think PIDGEY and RATTATA are cute too!"
-- Lass #3 (Trainer Line): Located at (26, 6) [Defeated Turn 11135]. Team: Pidgey Lv 19, Rattata Lv 19, Nidoran♂ Lv 19, Meowth Lv 19, Pikachu Lv 19. Reward: ¥285.
-  - Pre-battle: "We must look silly standing here like this!"
-- Gambler #2: Located at (13, 9) [Defeated Turn 11140]. Team: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22. Reward: ¥1540.
-  - Pre-battle: "I'm a rambling, gambling dude!"
-- Super Nerd #2: Located at (26, 3) [Defeated Turn 11381]. Team: Koffing Lv 26. Reward: �650.
-  - Defeat quote: "I'll stay with school."
-- Super Nerd #3: Located at (11, 5) [Defeated Turn 11404]. Team: Koffing Lv 20, Voltorb Lv 20, Magnemite Lv 20. Reward: �500.
-  - Defeat quote: "Ow! Meltdown!"
+## Topography & Verified Encounter Zones (Turn 14221)
+- **Underground Path East Building**: Located at `(13, 3)`. South exit door at `(3..4, 8)` warps to Route 8 at `(13, 4)`.
+- **Tall Grass Fields (Wild Encounter Zones)**:
+  - **West Vertical Strip**: Column 16, rows 4-11 (pure tall grass flanked by path on west and stone pillars on east).
+  - **Southern Grass Plain**: Rows 12-13, cols 16-22 (continuous 7x2 open tall grass field directly south of stone pillars).
+  - **Eastern Grass Fields**: Cols 40-55, rows 6-14 (open plain near Lavender Town).
+- **Wild Encounter Pool (Pokémon Blue)**:
+  - Pidgey (Lv 18, 20, 22) - ~30% encounter rate [Target Flyer for HM02 Fly]
+  - Pidgeotto (Lv 22) - ~5% encounter rate
+  - Meowth (Lv 17, 19, 20)
+  - Sandshrew (Lv 17, 19)
+  - Vulpix / Growlithe (Lv 18, 20)
+  - Kadabra (Lv 20, 26)
+
+## Verified Trainers Gauntlet (Defeated Turns 11103-11142)
+- Lass at (51, 12), Lass at (26, 5), Lass at (26, 6)
+- Gambler at (46, 13), Gambler at (13, 9)
+- Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
