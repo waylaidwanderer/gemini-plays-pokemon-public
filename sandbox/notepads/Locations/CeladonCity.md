@@ -97,8 +97,7 @@
   - Empirical testing on Turns 13528-13535 proved that solid walls, poles, and trees along cols 54-56 block southward bypass to row 20.
   - Route 7 entrance is at (49, 10..11).
 
-- **Verified Ledge Gap Passage**:
-  - Located at cols 8-9 on row 16: An open 2-tile wide grass and pavement path connecting the upper garden directly south onto the southern street (rows 17-22) without hitting any ledges!
+
 
 ## Celadon Hotel
 - Location: cols 8-13, rows 18-21, front door at (10, 21).
@@ -116,7 +115,7 @@
 
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
-- **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets. Bypass via Western Ledge Gap at (8..9, 16).
+- **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets.
 
 ## Escape Items & Field Warp Mechanics
 - **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
