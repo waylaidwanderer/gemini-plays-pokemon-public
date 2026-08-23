@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City (Southern Street) -> Heading west towards Celadon Gym
+- Location: Celadon Gym (x=4, y=0) -> Challenging Gym Leader Erika for Rainbow Badge
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
