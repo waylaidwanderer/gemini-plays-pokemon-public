@@ -48,22 +48,12 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (6, 11) on 3F West
-print("1. Walking to switch at (2, 12)...")
-walk_to(2, 11)
-walk_to(2, 12)
-
-print("2. Toggling switch to State B...")
-mgba.press_buttons(["Up", "sleep 150"]) # Face UP
-mgba.press_buttons(["A", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
-print("State B activated! Position:", get_pos())
-
-# Optimized crossing: directly to (11, 13) and then up
-print("3. Walking to (11, 13)...")
+# Starting at (2, 12) on 3F West (State B)
+print("1. Walking to (2, 13)...")
 walk_to(2, 13)
+print("2. Walking to (11, 13)...")
 walk_to(11, 13)
-
-print("4. Walking to 3F East pitfall...")
+print("3. Walking to 3F East pitfall...")
 walk_to(11, 6)
 walk_to(21, 6)
 walk_to(19, 6)
@@ -71,7 +61,7 @@ walk_to(19, 3)
 walk_to(26, 3)
 
 # Step DOWN to drop
-print("5. Dropping through pitfall...")
+print("4. Dropping through pitfall...")
 walk_step("Down")
 time.sleep(2.0)
 
