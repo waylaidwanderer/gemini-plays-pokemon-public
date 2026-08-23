@@ -6,17 +6,12 @@ def get_pos():
 
 def run_from_battle():
     print("In battle! Running...")
-    # First, let's make sure we clear any battle intro messages.
-    # We will press B 15 times with 150ms sleep to cover intro and send-out animations completely (total ~2.25s).
-    for _ in range(15):
-        mgba.press_buttons(["B", "sleep 150"])
-    
-    # Now the battle menu should be open. Let's select RUN (Down, Right, A) from FIGHT (default).
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 2000"])
-    
-    # Clear "Got away safely!" message.
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 150"])
+    for _ in range(12):
+        mgba.press_buttons(["B", "sleep 120"])
+    mgba.press_buttons(["Down", "sleep 120", "Right", "sleep 120", "A", "sleep 1500"])
+    for _ in range(4):
+        mgba.press_buttons(["B", "sleep 120"])
+    time.sleep(1.5)
 
 def walk_step(direction):
     pos_before = mgba.get_coordinates()
@@ -24,15 +19,12 @@ def walk_step(direction):
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
+        run_from_battle()
         mgba.press_buttons([direction, "sleep 150"])
         pos_after = mgba.get_coordinates()
         
-        attempts = 0
-        while pos_before == pos_after and attempts < 10:
-            run_from_battle()
-            mgba.press_buttons([direction, "sleep 150"])
-            pos_after = mgba.get_coordinates()
-            attempts += 1
+        if pos_before == pos_after:
+            raise Exception(f"Blocked at {pos_before} trying to go {direction}")
     return pos_after
 
 def walk_to(target_x, target_y):
@@ -56,32 +48,27 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting outside on Cinnabar Island at (11, 12)
-print("PHASE 1: Entering the Mansion...")
-# Step UP to Column 11 Row 3 (bypassing NPCs and buildings)
-walk_to(11, 3)
-walk_to(6, 3)
-walk_step("Up") # Enter Mansion
-time.sleep(1.5)
-print("Inside Mansion 1F West:", get_pos())
-
-# Navigate 1F West to 2F West (State A)
-print("PHASE 2: Warp UP to 2F West...")
-# Use the clean, foot-verified path around stairs
-walk_to(5, 11)
+# Starting at (9, 5) on 1F West
+print("PHASE 1: Walking to (10, 5)...")
+walk_to(10, 5)
+print("Walking to (10, 11)...")
+walk_to(10, 11)
+print("Walking to (6, 11)...")
 walk_to(6, 11)
+print("Walking to (6, 10)...")
 walk_to(6, 10)
-walk_step("Left") # Step LEFT onto stairs at (5, 10) to warp UP
+print("Warping LEFT to 2F West...")
+walk_step("Left")
 time.sleep(1.5)
-print("Position on 2F West:", get_pos())
+print("Arrived on 2F West. Position:", get_pos())
 
-# Navigate 2F West to 3F West (State A)
-print("PHASE 3: Walking to 2F West stairs at (7, 11)...")
+# On 2F West: (5, 11) -> (7, 11) -> (7, 10) warp UP
+print("Walking to (7, 11) on 2F West...")
 walk_to(7, 11)
 print("Warping UP to 3F West...")
-walk_step("Up") # Step UP onto stairs at (7, 10) to warp UP
+walk_step("Up")
 time.sleep(1.5)
 
-print("SUCCESS! Arrived on 3F West. Position:", get_pos())
+print("Arrived on 3F West! Final Position:", get_pos())
 sc = mgba.take_screenshot()
-print("Final Screenshot:", sc)
+print("Screenshot:", sc)
