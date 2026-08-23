@@ -39,30 +39,28 @@ def walk_step(direction):
             return None
     return pos_after
 
-# Full path from (1, 12) on 3F West to (12, 6) on 3F East
+# Complete safe path from (7, 10) on 1F West to (8, 5) on Row 5
 path = [
-    (1, 11), (1, 10), (1, 9), (2, 9), (3, 9), (4, 9), (5, 9), 
-    (6, 9), (7, 9), (8, 9), (9, 9), (10, 9), (11, 9), (12, 9),
-    (12, 8), (12, 7), (12, 6)
+    (7, 11), (8, 11), (9, 11), (9, 10), (9, 9), (9, 8), (8, 8), (8, 7), (8, 6), (8, 5)
 ]
 
 current_pos = get_pos()
 current_coord = (current_pos['x'], current_pos['y'])
 print("Current position:", current_coord)
 
-if current_coord not in path and current_coord != (1, 12):
+if current_coord not in path and current_coord != (7, 10):
     print("Player is not on the path, stopping.")
     exit(1)
 
 # Find where we are in the path
 start_index = -1
-if current_coord == (1, 12):
+if current_coord == (7, 10):
     start_index = 0
 else:
     start_index = path.index(current_coord) + 1
 
-# Execute up to 4 steps to keep button presses low and highly controlled
-steps_to_take = 4
+# Execute up to 5 steps to keep button presses low and highly controlled
+steps_to_take = 5
 for i in range(start_index, min(start_index + steps_to_take, len(path))):
     target = path[i]
     cx, cy = current_pos['x'], current_pos['y']
