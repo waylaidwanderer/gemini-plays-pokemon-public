@@ -59,7 +59,7 @@
    - Walk RIGHT along Row 5 across Column 13 to 1F East (21, 5) (since Column 13 is permanently open on Row 5!).
 
 4. **Warp DOWN to B1F East & Toggle Switch to State B:**
-   - Walk to B1F East stairs at (22, 2): (21, 5) -> (21, 2) -> (22, 2) -> Step UP to warp DOWN (landing at (22, 2) on B1F East).
+   - Walk to B1F East stairs at (22, 2): Accessible ONLY in State B, because the gate at (22, 2) on 1F East is CLOSED in State A and OPEN in State B (verified Turn 56693).
    - Walk to B1F East switch at (15, 6): (22, 2) -> (22, 6) -> (15, 7) -> Face UP to (15, 6) and toggle the switch to State B!
 
 5. **Retrieve Secret Key & DIG Out:**
