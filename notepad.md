@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Western Plaza (4, 2) -> Navigating via row 8 to row 10 and heading east to Main Avenue (col 26) and Celadon Gym
+- Location: Celadon City Northern Thoroughfare (10, 10) -> Walking up to row 6 and east along northern avenue to survey eastern passage and reach Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
