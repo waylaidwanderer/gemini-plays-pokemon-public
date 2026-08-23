@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=22, y=8) -> Ascending to B1F Stairs (27, 8)
+- Location: Team Rocket Hideout B1F (x=23, y=3) - Systematic B1F Reconnaissance
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
