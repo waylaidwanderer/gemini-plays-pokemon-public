@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Western Alleyway (5, 14) -> Walking east along row 14 to (16, 15) to connect to Central Garden and Southern Boulevard
+- Location: Celadon City Northern Thoroughfare (8, 10) -> Walking east along row 8 to main avenue (col 26) and Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1427,6 +1427,7 @@
 ## Escape Items & Field Warp Mechanics
 - **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
 - **Verified Western Alley Ledge Gap**: Located at (8, 11), a walkable flat brown path tile connecting the southern alley (row 12) directly up to row 10 without obstruction!
+- **Northern Paved Avenue (rows 6-7, cols 10-26)**: 2-tile wide open paved corridor running east above the central buildings directly to Celadon Mansion (col 24) and the main north-south avenue (col 26).
 
 <hr>
 
