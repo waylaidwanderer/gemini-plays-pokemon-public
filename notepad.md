@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B1F (x=25, y=15) -> Moving to Central Corridor (18, 6)
+- Location: Team Rocket Hideout B1F (x=23, y=9) -> Navigating to Central Corridor (19, 7)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
