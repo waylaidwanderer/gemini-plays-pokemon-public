@@ -57,14 +57,14 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (10, 9) on 3F West in State B
-# PHASE 1: Walk to Row 6 via Column 12 and walk to the 3F East pitfall at (26, 6)
-print("PHASE 1: Walking Row 6 to 3F East pitfall...")
+# Currently at (21, 6) on 3F East in State B
+# PHASE 1: Walk to Row 3, cross Column 22 wall, and walk down Column 26 to pitfall at (26, 6)
+print("PHASE 1: Walking Row 3 detour to 3F East pitfall...")
 success = True
 if success:
-    success = walk_to_tile(12, 9)
+    success = walk_to_tile(21, 3)
 if success:
-    success = walk_to_tile(12, 6)
+    success = walk_to_tile(26, 3)
 if success:
     success = walk_to_tile(26, 6)
 
