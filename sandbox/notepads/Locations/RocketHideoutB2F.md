@@ -20,6 +20,8 @@
   - Item Ball at (16, 8): Nugget [Collected Turn 12258].
 - Southwest Sector:
   - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
+  - Fully surveyed (cols 1-7, rows 15-27). No staircases present in this sector.
+  - Open horizontal corridor along row 25 connects cols 1-10 to (10, 25) Right spin tile -> (14, 25) Stop tile.
 
 ## Verified Trainers
 - Rocket Grunt at (20, 12) [Defeated Turn 12234]:
