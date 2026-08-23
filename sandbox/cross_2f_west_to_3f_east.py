@@ -45,16 +45,22 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Executing Phase 2 Part 1: Crossing 3F West to 3F East (12, 9)...")
-print("Initial position:", mgba.get_coordinates())
+print("Resuming Phase 2: Walking from (6, 8) to 3F East, dropping to B1F East...")
+# First, walk Left to Column 5 to bypass the NPC at (6, 7)
+walk_to(5, 8)
+# Walk Up Column 5 to Row 6 (completely open horizontal corridor)
+walk_to(5, 6)
+# Walk Right along Row 6 to Column 19
+walk_to(19, 6)
+# Walk to the Balcony dropping point
+walk_to(19, 12)
+walk_to(21, 12)
+walk_to(21, 15)
+walk_to(19, 15)
+walk_to(19, 16)
+walk_to(18, 16)
+# Drop Left over the railing to warp/drop to B1F East!
+walk_step("Left")
+time.sleep(1.5)
 
-# Walk DOWN Row 13 detour
-walk_to(1, 13)
-# Walk RIGHT along Row 13 to Column 5
-walk_to(5, 13)
-# Walk UP Column 5 to Row 9
-walk_to(5, 9)
-# Walk RIGHT along Row 9 across Column 11 to 3F East (12, 9)
-walk_to(12, 9)
-
-print("Arrived at 3F East (12, 9). Position:", mgba.get_coordinates())
+print("Arrived on B1F East! Position:", mgba.get_coordinates())
