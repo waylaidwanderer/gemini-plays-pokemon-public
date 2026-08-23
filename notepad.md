@@ -1567,6 +1567,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Row 13 on 3F East Column 19:** Shutter gate that is CLOSED in State B (verified by bumping on Turn 54982 and Turn 55109).
 - **Row 16 on 3F East Columns 18-26:** Completely solid wooden railing across all columns (including 20, 21), making Row 16 impassable from Row 15 in both States (unless a gate is specifically open).
 
+## Newly-Discovered Structural Barriers (Updated Turn 55401)
+- **2F West Column 13 Wall (Rows 7-11):** Solid vertical permanent wall separating 2F West from 2F East, blocking all horizontal traversal on these rows (empirically verified by bumping at (12, 11) on Turn 55251).
+- **3F West Row 7 Hedge Wall (Columns 4-9):** Solid permanent vertical and horizontal hedge barrier, completely blocking all upward vertical traversal from Row 8 to Row 6 (empirically verified on foot on Turn 55368 and Turn 55389). Row 6 is also completely filled with hedges/rubble on Columns 3-9, meaning the southwest room on 3F is completely walled off from the northwest room of 3F West.
 
 <hr>
 
