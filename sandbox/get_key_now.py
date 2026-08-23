@@ -52,24 +52,44 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Phase 1: From current 2F East position to 1F West in State B
-print("Starting B1F Secret Key Run - Phase 1...")
-print("Initial position:", mgba.get_coordinates())
+# B1F Secret Key Retrieval Script
+print("Starting B1F Secret Key Retrieval (State B)...")
+print("Initial position on 1F West:", mgba.get_coordinates())
 
-# Walk to 2F West switch
-walk_to(15, 6)
-walk_to(12, 6)
-walk_to(12, 11)
-walk_to(2, 11)
+# --- Leg 1: Walk horizontally on Row 10 to 1F East Column 22 ---
+print("Executing Leg 1: Crossing 1F horizontally to Column 22...")
+walk_to(22, 10)
 
-# Toggle switch to State B
-walk_step("Up")
-mgba.press_buttons(["A", "sleep 400", "A", "sleep 400", "B", "sleep 400", "B"])
-print("Switch toggled to State B. Current position:", mgba.get_coordinates())
-
-# Walk to stairs to 1F West
-walk_to(5, 11)
-walk_to(5, 10)
-walk_step("Left") # Step left onto stairs to 1F West
+# --- Leg 2: Walk UP Column 22 and Warp to B1F East ---
+print("Executing Leg 2: Walking to B1F stairs and warping...")
+walk_to(22, 2)
+walk_step("Up") # Step UP onto stairs to warp DOWN to B1F
 time.sleep(1.0)
-print("Phase 1 Complete! Landed on 1F West:", mgba.get_coordinates())
+print("Position after warp (on B1F East):", mgba.get_coordinates())
+
+# --- Leg 3: Walk horizontally along B1F Row 5 to (1, 5) ---
+print("Executing Leg 3: Walking along B1F Row 5 to (1, 5)...")
+walk_to(22, 5)
+walk_to(1, 5)
+
+# --- Leg 4: Pick up Secret Key at (1, 4) ---
+print("Executing Leg 4: Picking up Secret Key...")
+walk_step("Up") # Turn to face UP towards (1, 4)
+mgba.press_buttons(["A", "sleep 500", "B", "sleep 500", "A", "sleep 500", "B", "sleep 500"])
+print("Secret Key retrieved. Current position:", mgba.get_coordinates())
+
+# --- Leg 5: Escape via DIG (TRUFFLE in 6th slot) ---
+print("Executing Leg 5: Escape via DIG...")
+mgba.press_buttons(["Start", "sleep 300"])
+for _ in range(7):
+    mgba.press_buttons(["Up", "sleep 150"])
+mgba.press_buttons(["Down", "sleep 150", "A", "sleep 500"]) # Open POKéMON menu
+
+# Select TRUFFLE in 6th slot (5 steps DOWN)
+for _ in range(5):
+    mgba.press_buttons(["Down", "sleep 150"])
+mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
+
+# Select DIG (Option 1)
+mgba.press_buttons(["A", "sleep 1000"])
+print("Escaped! Final position on Cinnabar Island:", mgba.get_coordinates())
