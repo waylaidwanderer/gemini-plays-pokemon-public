@@ -42,7 +42,7 @@
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain)
 - Valuables: 1x Nugget
-- Consumables: 10x Great Balls, 5x Super Potion, 1x Escape Rope, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
+- Consumables: 10x Great Balls, 4x Super Potion, 1x Elixer, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
 - Funds: �27,678 (Verified Turn 14330)
 
 ## Flying-Type Party Slot Allocation & Capture Plan

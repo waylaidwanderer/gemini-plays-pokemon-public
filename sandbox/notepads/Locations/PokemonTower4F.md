@@ -6,14 +6,14 @@
 
 ## Floor Layout & Item Balls
 - East descending stairs at (18, 9).
-- Open horizontal traversal aisle along row 8 (cols 3-18).
+- Open horizontal traversal aisle along row 5 and row 3/4.
 - Item Ball 1 at (12, 10): Elixer [Collected Turn 14368].
-- Item Ball 2 at (9, 10): Awakening.
-- Item Ball 3 at (12, 16): HP Up.
+- Item Ball 2 at (9, 10): Item Ball visible [Unverified content].
+- Item Ball 3 at (12, 16): Item Ball reported in southern sector [Unverified content].
 - Northwest ascending stairs to 5F at (3, 9).
 
 ## Verified Encounters & Trainers
 - Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
 - Channelers:
-  - Channeler Laurel / Paula at (15, 8) [Engaged Turn 14337: Gastly Lv 23, Gastly Lv 23]
+  - Channeler Laurel / Paula at (15, 8) [Defeated Turn 14347: Gastly Lv 23, Gastly Lv 23; Reward: �690]
   - Channeler Jody [Empirical battle pending]
