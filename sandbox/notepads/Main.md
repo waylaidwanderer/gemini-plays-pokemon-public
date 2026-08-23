@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 5F (13, 6) -> Traversing Purified Zone to 6F stairs at (18, 9) -> Defeating Marowak ghost on 6F -> Rescuing Mr. Fuji on 7F
+- Location: Pokémon Tower 5F (14, 10) -> Descending tower to Lavender Town -> Traveling to Celadon City to deposit items & retrieve Silph Scope dropped on Rocket Hideout B4F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
