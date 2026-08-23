@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 5F (13, 6) -> Traversing Purified Zone to 6F stairs at (18, 9) -> Defeating Marowak ghost on 6F -> Rescuing Mr. Fuji on 7F
+- Location: Pokémon Tower 5F (14, 10) -> Descending tower to Lavender Town -> Traveling to Celadon City to deposit items & retrieve Silph Scope dropped on Rocket Hideout B4F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -43,6 +43,7 @@
 - `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
 
+
 <hr>
 
 <h1><code>Team</code></h1>
@@ -51,10 +52,10 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 49
-   - Stats (Verified at Lv 49): Max HP 162 (HP: 162/162), Attack 111, Defense 123, Speed 113, Special 118
+   - Stats (Verified at Lv 49): Max HP 162 (HP: 140/162), Attack 111, Defense 123, Speed 113, Special 118
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
-   - Role: Starter & primary Water/Ice special attacker (Active Lead & Pok�mon Tower sweeper)
+   - Moves: Skull Bash (15/15), Ice Beam (6/10), Bite (24/25), Bubblebeam (20/20)
+   - Role: Starter & primary Water/Ice special attacker (Active Lead & Pokémon Tower sweeper)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
@@ -78,24 +79,24 @@
 6. [OPEN SLOT 6] - Reserved for wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
+- Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
 
-## Boxed Pok�mon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pok�mon Center PC]
+## Boxed Pokémon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pok�mon Center PC]
+2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Key Items: HM02 (Fly), Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain)
+- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain), TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig), TM24 (Thunderbolt)
 - Valuables: 1x Nugget
 - Consumables: 10x Great Balls, 4x Super Potion, 1x Elixer, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
-- Funds: �27,678 (Verified Turn 14330)
+- Funds: ¥27,678 (Verified Turn 14330)
 
 ## Flying-Type Party Slot Allocation & Capture Plan
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after Pok�mon Tower enters Slot 6 immediately -> Teach HM02 Fly in field!
+- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after retrieving Silph Scope and completing Pokémon Tower.
 
 
 <hr>
@@ -1517,7 +1518,7 @@
 
 <h1><code>Locations/PokemonTower4F</code></h1>
 
-# Pok�mon Tower 4F - Layout, Items & Encounters
+# Pokémon Tower 4F - Layout, Items & Encounters
 
 ## Connections
 - Downstairs (3F): Stairs at (18, 9) on the eastern wall
@@ -1527,15 +1528,19 @@
 - East descending stairs at (18, 9).
 - Open horizontal traversal aisle along row 5 and row 3/4.
 - Item Ball 1 at (12, 10): Elixer [Collected Turn 14368].
-- Item Ball 2 at (9, 10): Item Ball visible [Unverified content].
-- Item Ball 3 at (12, 16): Item Ball reported in southern sector [Unverified content].
+- Item Ball 2 at (9, 10): Uncollected [Pending collection after clearing Bag space at PC].
+- Item Ball 3 at (12, 16): Uncollected [Pending collection after clearing Bag space at PC].
 - Northwest ascending stairs to 5F at (3, 9).
 
 ## Verified Encounters & Trainers
 - Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
 - Channelers:
-  - Channeler Laurel / Paula at (15, 8) [Defeated Turn 14347: Gastly Lv 23, Gastly Lv 23; Reward: �690]
+  - Channeler Laurel / Paula at (15, 8) [Defeated Turn 14347: Gastly Lv 23, Gastly Lv 23; Reward: ¥690]
   - Channeler Jody [Empirical battle pending]
+
+## Verification & Item Acquisition Checklist
+1. Bag capacity check (<20 items) before interacting with item balls.
+2. Confirm '[PLAYER] found [ITEM]!' dialogue on-screen before marking collected.
 
 
 <hr>
