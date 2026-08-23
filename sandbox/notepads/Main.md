@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Western Alleyway (7, 14) -> Entering Bookshelf Residence at (7, 13) to inspect dialogue & layout
+- Location: Celadon Department Store 1F (3, 7) -> Walking to (3, 4) to open Start Menu and use Escape Rope
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
