@@ -1033,6 +1033,13 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 
 - **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full. Verified NOT in Bag on Turn 54139 (fully scrolled through Bag list to CANCEL and confirmed key is missing). We now have 12 items in our Bag and 8 open slots, so we have plenty of room to retrieve it!
 
+## Verified Party Slots (Updated Turn 55351)
+- **Slot 1:** SHELLBY (Blastoise) - Level 62
+- **Slot 2:** GUSTY (Pidgey) - Level 13
+- **Slot 3:** NINA (Nidoran-F) - Level 15
+- **Slot 4:** EPEP (Doduo) - Level 10
+- **Slot 6:** TRUFFLE (Paras) - Level 13 (Useful for DIG in 1st Move submenu option and CUT in 2nd Move submenu option)
+
 <hr>
 
 <h1><code>Locations/Route15.md</code></h1>
