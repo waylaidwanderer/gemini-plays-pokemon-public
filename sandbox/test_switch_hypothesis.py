@@ -24,58 +24,66 @@ def walk_step(direction):
             attempts += 1
     return pos_after
 
-def walk_to(target_x, target_y):
-    max_steps = 30
-    steps = 0
-    while steps < max_steps:
-        pos = mgba.get_coordinates()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            return True
-        if x < target_x:
-            walk_step("Right")
-        elif x > target_x:
-            walk_step("Left")
-        elif y < target_y:
-            walk_step("Down")
-        elif y > target_y:
-            walk_step("Up")
-        steps += 1
-    return False
-
-# Starting from (21, 12)
-print("Starting switch test...")
+# Starting from (15, 12).
+print("Starting switch verification from current position...")
 print("Initial position:", mgba.get_coordinates())
 
-# Walk to (12, 10)
-print("Walking to (12, 10)...")
-if walk_to(12, 10):
-    # Face Down
-    walk_step("Down")
-    pos = mgba.get_coordinates()
-    print("Now standing at:", pos)
-    
-    # Take screenshot before pressing A
-    mgba.take_screenshot()
-    
-    # Press A to toggle switch
-    print("Pressing A to interact with statue...")
-    mgba.press_buttons(["A", "sleep 500", "B", "sleep 150"])
-    
-    # Let's see if the gate at (11, 7) or (11, 8) changes!
-    # Wait, we can test if we can walk DOWN Column 11 past Row 7
-    print("Testing if state toggled by walking to Column 11 Row 7...")
-    walk_to(11, 7)
-    
-    # Try to walk down to Row 8
-    pos_before = mgba.get_coordinates()
-    walk_step("Down")
-    pos_after = mgba.get_coordinates()
-    if pos_before['y'] != pos_after['y']:
-        print("SUCCESS! Row 7/8 is open on Column 11! The switch worked and toggled back to State A!")
-        # Walk back UP to Row 7
-        walk_step("Up")
-    else:
-        print("BLOCKED: The switch did NOT toggle back to State A (or there is no switch).")
+# 1. Walk UP Column 15 from Row 12 to Row 6
+print("1. Walking UP Column 15 to Row 6...")
+pos = mgba.get_coordinates()
+while pos['y'] > 6:
+    pos = walk_step("Up")
+print("  Arrived at Row 6 Column 15:", pos)
+
+# 2. Walk LEFT along Row 6 to Column 12
+print("2. Walking LEFT along Row 6 to Column 12...")
+while pos['x'] > 12:
+    pos = walk_step("Left")
+print("  Arrived at Row 6 Column 12:", pos)
+
+# 3. Walk DOWN Column 12 to Row 10
+print("3. Walking DOWN Column 12 to Row 10...")
+while pos['y'] < 10:
+    pos = walk_step("Down")
+print("  Arrived at Row 10 Column 12:", pos)
+
+# 4. Face DOWN (to (12, 11))
+print("4. Facing DOWN...")
+walk_step("Down")
+pos = mgba.get_coordinates()
+print("  Final standing position:", pos)
+
+# Take screenshot before pressing A
+mgba.take_screenshot()
+
+# Press A to toggle switch
+print("Pressing A to interact with statue...")
+mgba.press_buttons(["A", "sleep 500", "B", "sleep 150"])
+
+# Let's verify if the state toggled!
+# If it toggled to State A:
+# - The Row 7 gates on 3F East (columns 14-21) should OPEN!
+# Let's test by walking to Column 15 Row 6, then trying to walk Down to Row 8.
+print("Testing if gates opened on Column 15 Row 7...")
+print("Walking to (15, 6)...")
+pos = mgba.get_coordinates()
+# Walk UP to Row 6
+while pos['y'] > 6:
+    pos = walk_step("Up")
+# Walk RIGHT to Column 15
+while pos['x'] < 15:
+    pos = walk_step("Right")
+print("  Arrived at (15, 6):", pos)
+
+# Try to step DOWN on Column 15
+print("Attempting to walk DOWN past Row 7 on Column 15...")
+pos_before = mgba.get_coordinates()
+pos_after = walk_step("Down")
+if pos_before['y'] != pos_after['y']:
+    print("SUCCESS!!! Column 15 Row 7 is OPEN! The switch worked and toggled the mansion back to State A!")
+    # Walk back UP to Row 6
+    walk_step("Up")
+else:
+    print("BLOCKED: Column 15 Row 7 remains CLOSED. The statue is decorative or didn't toggle.")
 
 print("Final position:", mgba.get_coordinates())
