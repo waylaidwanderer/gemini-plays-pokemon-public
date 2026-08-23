@@ -50,14 +50,14 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (5, 11) on 3F West in State B
+# Starting at (5, 11) on 3F West in State B with NPC at (8, 11) STUNNED
 print("Starting ultimate Secret Key script from (5, 11) on 3F West...")
 
-# PHASE 1: Walk detour around NPC and walk to pitfall at (26, 6)
+# PHASE 1: Walk detour around stunned NPC and walk to pitfall at (26, 6)
 print("PHASE 1: Walking to pitfall at (26, 6)...")
 walk_to(5, 12)
-walk_to(8, 12)
-walk_to(8, 11)
+walk_to(9, 12)
+walk_to(9, 11)
 walk_to(12, 11)
 walk_to(12, 6)
 walk_to(26, 6)
