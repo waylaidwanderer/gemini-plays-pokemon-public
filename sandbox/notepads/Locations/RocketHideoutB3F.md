@@ -11,7 +11,6 @@
   - Southern corridor along rows 25-26 (cols 10-22).
 - Central Spin Tile Column (col 9):
   - Spin tiles and stop tiles from row 14 to row 25.
-  - Directional behavior under single-step testing.
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
 
