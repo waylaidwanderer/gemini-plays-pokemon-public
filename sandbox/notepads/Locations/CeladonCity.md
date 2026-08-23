@@ -73,6 +73,4 @@
   - Approach: Walk east along row 22 street to col 36, north to row 20 plaza, and west to door at (28, 19).
 - **Prize Exchange Building**: Located at cols 30-33, rows 18-21.
   - Front Door: (33, 19) on row 20 entrance plaza.
-- **Celadon Department Store**: Front door at (10, 13).
-- **Celadon Mansion**: Front door at (24, 9), Rear door at (24, 4).
 - **Celadon Pokémon Center**: Front door at (41, 9).

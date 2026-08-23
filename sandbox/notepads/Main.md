@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B4F (x=22, y=12) - Engaging Elevator Grunt
+- Location: Team Rocket Hideout B4F (x=27, y=12) - Elevator Lobby
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

@@ -27,5 +27,9 @@
 - Southern Sector (cols 10-20, rows 21-26):
   - Accessible via (11, 18) [RIGHT spinner] -> (15, 18) [DOWN spinner] -> lands at (15, 22).
   - Open corridor along row 22 (cols 11-15) leading directly to Rocket Grunt at (10, 22).
-  - Rocket Grunt at (10, 22) [Engaged Turn 12813 - Suspected Lift Key holder].
+  - Rocket Grunt at (10, 22) [Defeated Turns 12815-12822: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20. Quote: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere."].
+  - Elevator Lobby (cols 23-28, rows 10-18):
+    - Elevator Door: Located at (24, 11).
+    - Elevator Grunt: Located at (26, 12) [Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"].
+    - Item Ball at (26, 17): Located in southeast alcove.
   - Southern opening at (13, 24) connects row 22 to rows 25-26.
