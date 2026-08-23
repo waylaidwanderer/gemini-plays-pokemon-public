@@ -48,27 +48,31 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (9, 5) on 1F West
-print("PHASE 1: Walking to (10, 5)...")
-walk_to(10, 5)
-print("Walking to (10, 11)...")
-walk_to(10, 11)
-print("Walking to (6, 11)...")
+# Starting outside at (11, 12)
+print("1. Walking to Mansion door on Cinnabar Island...")
+walk_to(6, 3)
+print("Stepping UP to enter Mansion...")
+mgba.press_buttons(["Up", "sleep 600"])
+time.sleep(1.5)
+print("Position inside Mansion 1F West:", get_pos())
+
+# Walk straight UP from (5, 27) to (5, 11) inside 1F West
+print("2. Walking UP Column 5 inside 1F West...")
+walk_to(5, 11)
 walk_to(6, 11)
-print("Walking to (6, 10)...")
 walk_to(6, 10)
 print("Warping LEFT to 2F West...")
 walk_step("Left")
 time.sleep(1.5)
 print("Arrived on 2F West. Position:", get_pos())
 
-# On 2F West: (5, 11) -> (7, 11) -> (7, 10) warp UP
-print("Walking to (7, 11) on 2F West...")
+# On 2F West: walk to (7, 11) and warp UP to 3F West
+print("3. Walking to 2F West stairs at (7, 11)...")
 walk_to(7, 11)
 print("Warping UP to 3F West...")
 walk_step("Up")
 time.sleep(1.5)
 
-print("Arrived on 3F West! Final Position:", get_pos())
+print("SUCCESS! Arrived on 3F West! Final Position:", get_pos())
 sc = mgba.take_screenshot()
-print("Screenshot:", sc)
+print("Final Screenshot:", sc)
