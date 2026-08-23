@@ -49,11 +49,7 @@
    - Step UP onto the stairs at `(7, 10)` to warp UP to 3F West (landing at `(7, 11)`).
 
 4. **Toggle 3F West Switch to State B:**
-   - Walk RIGHT along Row 11 to Column 12: `(7, 11) -> (12, 11)`.
-   - Walk LEFT along Row 11 to Column 3: `(12, 11) -> (3, 11)`.
-   - Walk LEFT to Column 3 Row 12: `(3, 11) -> (3, 12)`.
-   - Walk LEFT to Column 2 Row 12: `(3, 12) -> (2, 12)`.
-   - Stand at `(2, 12)` facing UP and press A to toggle the Mewtwo statue switch at `(2, 11)` to State B!
+   - Walk to the switch via Column 1 detour: Walk Left to Column 3 Row 11, Down to Column 3 Row 13, Left to Column 1 Row 13, Up to Column 1 Row 11, and face Right to toggle the Mewtwo statue switch at `(2, 11)` to State B!
 
 5. **Walk to Balcony on 3F East (State B) and Drop to B1F East:**
    - Walk back RIGHT and UP to Row 6: `(2, 12) -> (3, 12) -> (3, 11) -> (12, 11) -> (12, 6)`.
