@@ -18,7 +18,6 @@
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as a DOWN warp to 2F East).
 - **1F East gate at `(15, 8)`:** OPEN.
 - **B1F North-Central gate at `(9, 5)`:** CLOSED.
-- **3F Balcony Gate at `(20, 17)`:** CLOSED.
 - **2F East Row 7 Gates:** OPEN (allows vertical crossing on Column 15).
 - **3F West Row 9 Gates:** CLOSED.\n- **3F West Row 11 Column 11:** OPEN (this is the only open passage horizontally across Column 11 in State A!).
 - **3F West Row 12 Gates:** OPEN.
@@ -28,7 +27,6 @@
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as an UP warp to 3F East).
 - **1F East gate at `(15, 8)`:** CLOSED.
 - **B1F North-Central gate at `(9, 5)`:** OPEN (allows horizontal crossing from B1F East NORTH to B1F West NORTH!).
-- **3F Balcony Gate at `(20, 17)`:** OPEN.
 - **2F East Row 7 Gates (Columns 14-17):** CLOSED (blocks vertical crossing on Column 15 on Row 7).
 - **3F West Row 9 Gates:** OPEN.
 - **3F West Row 12 Gates:** CLOSED.
