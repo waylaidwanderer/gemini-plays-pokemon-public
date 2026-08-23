@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Western Plaza (4, 2) -> Surveying western thoroughfare (col 0) and northern bypass to Celadon Gym
+- Location: Celadon Gym (4, 17) -> Navigating flower maze to challenge Leader Erika
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
