@@ -32,4 +32,9 @@
     - Elevator Door: Located at (24, 11).
     - Elevator Grunt: Located at (26, 12) [Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"].
     - Item Ball at (26, 17): Located in southeast alcove.
+  - Southern Sector & Boundaries (cols 9-28, rows 20-27):
   - Southern opening at (13, 24) connects row 22 to rows 25-26.
+  - Continuous pink floor corridor along rows 25-26 from col 11 to col 22.
+  - East boundary: solid vertical wall at col 23 (rows 21-27) with outer perimeter terminating at col 29.
+  - West boundary: solid vertical wall at col 8.
+  - Direct open stairwell connection: (20, 25) -> north along col 20 to (20, 18) -> (19, 18) [Stairs up to B3F].

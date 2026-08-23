@@ -19,7 +19,10 @@
   - Stairs down to B4F at (19, 10).
   - Table counter block at (10..11, 10..13).
   - Open hallway along row 14 & 15 connecting (19, 10) west to col 9 and east to elevator lobby at row 14.
-- Elevator Lobby: Structural elevator shaft located at (24..25, 10..16), isolated from both the northern wing by solid wall at col 21 and the southern wing by solid wall at row 16. Accessible only by taking the elevator.
+- Elevator Lobby (cols 22-25, rows 6-14):
+  - Walkable connection: row 14 open corridor at (20..24, 14) connects northern hallway directly into elevator lobby!
+  - Elevator Doors: Located at (24, 11) with yellow/orange door graphic.
+  - NPC / Grunt located at (23, 12) next to elevator doors.
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
   - Item Ball at (10, 12) [Collected Turn 12905 - HP Up].
