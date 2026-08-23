@@ -49,20 +49,53 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (13, 12) on 1F West in State A
-print("Resuming B1F Secret Key retrieval script from 1F West (13, 12)...")
+# Starting at (18, 7) on 1F East in State A
+print("Starting 1F East to 3F East pitfall drop...")
 
-# PHASE 1: Walk to 1F East Row 5 (21, 5)
-print("PHASE 1: Walking to 1F East Row 5...")
-walk_to(13, 5)
-for _ in range(8): # Walk RIGHT 8 times to (21, 5)
-    try_step("Right")
-print("Position on 1F East Row 5:", get_pos())
+# PHASE 1: Walk to 1F East stairs at (18, 10) and warp UP to 2F East
+print("PHASE 1: Walking to 1F East stairs...")
+try_step("Left") # To (17, 7)
+try_step("Left") # To (16, 7)
+try_step("Down") # To (16, 8)
+try_step("Down") # To (16, 9)
+try_step("Down") # To (16, 10)
+try_step("Right") # To (17, 10)
+try_step("Right") # To (18, 10)
+print("Stepping UP to warp UP to 2F East...")
+mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
+time.sleep(1.5)
+print("Position on 2F East:", get_pos())
 
-# PHASE 2: Walk to B1F East stairs and warp DOWN
-print("PHASE 2: Walking to B1F East stairs...")
-try_step("Up") # To (21, 4)
-try_step("Up") # To (21, 3)
+# PHASE 2: Walk to 2F East stairs at (15, 5) avoiding (15, 11) warp tile and warp UP
+print("PHASE 2: Walking to 2F East stairs...")
+# Walk UP to Row 7 to avoid warp DOWN tile at (15, 11)
+try_step("Up") # To (18, 10)
+try_step("Up") # To (18, 9)
+try_step("Up") # To (18, 8)
+try_step("Up") # To (18, 7)
+# Walk Left to Column 15 Row 7
+try_step("Left") # To (17, 7)
+try_step("Left") # To (16, 7)
+try_step("Left") # To (15, 7)
+# Walk UP on Column 15 to the stairs at (15, 5)
+try_step("Up") # To (15, 6)
+try_step("Up") # To (15, 5)
+print("Stepping UP to warp UP to 3F East...")
+mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
+time.sleep(1.5)
+print("Position on 3F East:", get_pos())
+
+# PHASE 3: Walk to 3F East pitfall at (26, 6) and drop!
+print("PHASE 3: Walking to 3F East pitfall...")
+walk_to(26, 6)
+print("Should have dropped! Waiting 2 seconds...")
+time.sleep(2.0)
+print("Position after drop (1F East fenced room):", get_pos())
+
+# PHASE 4: Walk to B1F East stairs and warp DOWN
+print("PHASE 4: Walking to B1F East stairs...")
+walk_to(26, 3)
+walk_to(21, 3)
 try_step("Right") # To (22, 3)
 try_step("Up") # To (22, 2)
 print("Stepping UP to warp DOWN to B1F...")
@@ -70,8 +103,8 @@ mgba.press_buttons(["Up", "sleep 400"])
 time.sleep(2.0)
 print("Position on B1F East:", get_pos())
 
-# PHASE 3: Walk to B1F East switch at (15, 6) and toggle to State B
-print("PHASE 3: Walking to B1F switch...")
+# PHASE 5: Walk to B1F East switch at (15, 6) and toggle to State B
+print("PHASE 5: Walking to B1F switch...")
 walk_to(15, 7)
 print("Toggling B1F switch to State B...")
 mgba.press_buttons(["Up", "sleep 250"])
@@ -80,22 +113,22 @@ mgba.press_buttons(["A", "sleep 2500"]) # Yes to toggle
 mgba.press_buttons(["B", "sleep 500"]) # Close text
 print("State B active! Position:", get_pos())
 
-# PHASE 4: Walk along B1F Row 5 to B1F West (1, 5)
-print("PHASE 4: Walking to B1F West (1, 5)...")
+# PHASE 6: Walk along B1F Row 5 to B1F West (1, 5)
+print("PHASE 6: Walking to B1F West (1, 5)...")
 walk_to(15, 5)
 for _ in range(14):
     try_step("Left")
 print("Position at Secret Key room:", get_pos())
 
-# PHASE 5: Retrieve Secret Key at (1, 4)
-print("PHASE 5: Picking up the Secret Key at (1, 4)...")
+# PHASE 7: Retrieve Secret Key at (1, 4)
+print("PHASE 7: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 250"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 6: Escape via DIG back to Cinnabar Island
-print("PHASE 6: Escaping via DIG...")
+# PHASE 8: Escape via DIG back to Cinnabar Island
+print("PHASE 8: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
