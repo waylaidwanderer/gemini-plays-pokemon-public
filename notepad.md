@@ -54,24 +54,24 @@
    - Stats: Max HP 54 (HP: 54/54)
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
-   - Role: Physical Fighting STAB attacker (Active Lead to allow wild encounters Lv >= 16)
+   - Role: Physical Fighting STAB attacker (Active Lead until overworld swap to HYDROS via A -> SWITCH -> A)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
 3. HYDROS (Blastoise) - Lv 48
-   - Stats (Verified at Lv 48): Max HP 159 (HP: 134/159), Attack 109, Defense 121, Speed 111, Special 115
+   - Stats (Verified at Lv 48): Max HP 159 (HP: 159/159), Attack 109, Defense 121, Speed 111, Special 115
    - Type: Water
    - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
-   - Role: Starter & primary Water/Ice special attacker
+   - Role: Starter & primary Water/Ice special attacker (Designated Pok�mon Tower sweeper)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 5. PRISM (Jolteon) - Lv 25
-   - Stats (Verified at Lv 25): Max HP 72 (HP: 62/72), Attack 44, Defense 44, Speed 74, Special 64
+   - Stats (Verified at Lv 25): Max HP 72 (HP: 72/72), Attack 44, Defense 44, Speed 74, Special 64
    - Type: Electric
    - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
    - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
