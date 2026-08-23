@@ -1,21 +1,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
-   - Type: Fighting
-   - Moves: Karate Chop (25/25), Low Kick
-   - Role: Physical Fighting STAB attacker (Active Lead until overworld swap to HYDROS via A -> SWITCH -> A)
+1. HYDROS (Blastoise) - Lv 49
+   - Stats (Verified at Lv 49): Max HP 162 (HP: 79/162), Attack 111, Defense 123, Speed 113, Special 118
+   - Type: Water
+   - Moves: Skull Bash (14/15), Ice Beam (0/10), Bite (22/25), Bubblebeam (18/20)
+   - Role: Starter & primary Water/Ice special attacker (Active Lead & Pok�mon Tower sweeper)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
-3. HYDROS (Blastoise) - Lv 48
-   - Stats (Verified at Lv 48): Max HP 159 (HP: 159/159), Attack 109, Defense 121, Speed 111, Special 115
-   - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
-   - Role: Starter & primary Water/Ice special attacker (Designated Pok�mon Tower sweeper)
+3. ATLAS (Machop) - Lv 16
+   - Stats: Max HP 54 (HP: 54/54)
+   - Type: Fighting
+   - Moves: Karate Chop (25/25), Low Kick
+   - Role: Physical Fighting STAB attacker (Swapped to Slot 3 Turn 14318)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
@@ -26,33 +26,24 @@
    - Type: Electric
    - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
    - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
-6. [OPEN SLOT 6] - Reserved for Route 8 wild flyer capture (Pidgey / Pidgeotto / Spearow)!
+6. [OPEN SLOT 6] - Reserved for wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
+- Every captured Pok�mon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
 
-## Boxed Pokémon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
+## Boxed Pok�mon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pok�mon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
+2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pok�mon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
-- Valuables:
-  - 1x Nugget (Sell at Mart for 5000 yen)
-- Consumables & Field Items:
-  - 10x Great Balls (Purchased Turn 14008 at Dept Store 2F for 6000 yen)
-  - 5x Super Potion
-  - 1x Escape Rope
-  - 2x Moon Stone
-  - 1x Water Stone
-  - 1x Fresh Water (Reserved for Saffron Gate Guard)
-  - 2x Soda Pop
-- Funds: 26,314 yen (Verified Turn 14008)
+- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain)
+- Valuables: 1x Nugget
+- Consumables: 10x Great Balls, 5x Super Potion, 1x Escape Rope, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
+- Funds: �27,678 (Verified Turn 14330)
 
 ## Flying-Type Party Slot Allocation & Capture Plan
-- Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
+- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after Pok�mon Tower enters Slot 6 immediately -> Teach HM02 Fly in field!
