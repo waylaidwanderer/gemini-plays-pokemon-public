@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City -> Navigating to Southeastern Celadon Gym
+- Location: Celadon Department Store 1F (x=2, y=4) -> Ascending to 4F to buy Thunder Stone
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

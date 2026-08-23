@@ -20,7 +20,7 @@
 
 ## Celadon Department Store
 - Multi-story mega-mart located in northwest Celadon City (cols 10-13, rows 7-13).
-- 1F (Service Counter): Receptionist desks, directory board at (14, 1), stairs up to 2F at (12, 1), south exit to Celadon City at (16..17, 7).
+- 1F (Service Counter): 8x8 floor grid (cols 0-7, rows 0-7). South exit at (3..4, 7). Reception desks at (0..1, 4..5). Display shelves at (0..1, 3) and (4..7, 3..4). Central aisle at (2..3, 3..4). Open corridor at row 2. Stairs up to 2F at (2..3, 1). Elevator at (4..5, 1).
 - 2F (Trainer's Market):
   - Directory at (14, 1): "2F: TRAINER'S MARKET - Top Grade Items for Trainers!"
   - Stairs: Down to 1F at (12, 1); Up to 3F at (16, 1).
