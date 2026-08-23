@@ -20,3 +20,8 @@
   - Item Ball at (16, 8): Nugget [Collected Turn 12258].
 - Southwest Sector:
   - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
+
+## Verified Trainers
+- Rocket Grunt at (20, 12) [Defeated Turn 12234]:
+  - Team: Drowzee Lv 17, Machop Lv 17.
+  - Post-battle dialogue: "The TEAM ROCKET HQ has 4 basement floors. Can you reach the BOSS?"
