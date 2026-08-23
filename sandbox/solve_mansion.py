@@ -119,9 +119,15 @@ print("Secret Key retrieved. Position:", mgba.get_coordinates())
 
 # --- Leg 7: Escape via DIG ---
 print("Executing Leg 7: Escape via DIG...")
-# Open menu, select PKMN, select TRUFFLE, select DIG
-mgba.press_buttons(["Start", "sleep 200", "Down", "sleep 200", "A", "sleep 400"]) # Open PKMN menu
-mgba.press_buttons(["Down", "sleep 200", "A", "sleep 400"]) # Select TRUFFLE (Paras is 2nd slot)
-# In PKMN submenu: Option 1 is DIG
-mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
+# Open menu, navigate to POKéMON robustly
+mgba.press_buttons(["Start", "sleep 300"])
+for _ in range(7):
+    mgba.press_buttons(["Up", "sleep 150"])
+mgba.press_buttons(["Down", "sleep 150", "A", "sleep 500"]) # Open POKéMON menu
+
+# Select TRUFFLE (2nd slot)
+mgba.press_buttons(["Down", "sleep 150", "A", "sleep 500"])
+
+# Select DIG (Option 1)
+mgba.press_buttons(["A", "sleep 1000"])
 print("Escaped! Final position:", mgba.get_coordinates())
