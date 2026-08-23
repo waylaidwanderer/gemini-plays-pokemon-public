@@ -46,32 +46,51 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Stand at (5, 8)
-print("Walking to (5, 8)...")
-walk_to(5, 8)
+# Starting from (5, 11) on 2F West in State B
+print("1. Walking to 2F East Row 3 Column 15...")
+walk_to(5, 3)
+walk_to(15, 3)
+print("Arrived on 2F East Row 3. Position:", mgba.get_coordinates())
 
-# Try columns 5, 4, 3, 2, 1
-for col in [5, 4, 3, 2, 1]:
-    print(f"Testing Column {col} for vertical passage to Row 6...")
-    walk_to(col, 8)
-    
-    # Try to walk UP to Row 6
-    success = False
-    for step in range(3):
-        pos_before = mgba.get_coordinates()
-        walk_step("Up")
-        pos_after = mgba.get_coordinates()
-        if pos_before == pos_after:
-            print(f"  Blocked at Row {pos_before['y']}")
-            break
-        if pos_after['y'] <= 6:
-            print(f"  SUCCESS! Reached Row {pos_after['y']} on Column {col}!")
-            success = True
-            break
-            
-    if success:
-        print(f"Verified Route: Column {col} is open to Row 6!")
+# 2. Walk to Column 21 Row 3
+print("2. Walking to Column 21 Row 3...")
+walk_to(21, 3)
+
+# 3. Walk DOWN Column 21 to Row 11
+print("3. Attempting to walk DOWN Column 21 to Row 11...")
+success = True
+for target_y in range(4, 12):
+    pos_before = mgba.get_coordinates()
+    walk_step("Down")
+    pos_after = mgba.get_coordinates()
+    if pos_before['y'] == pos_after['y']:
+        print(f"  Blocked at Row {pos_before['y']} on Column 21!")
+        success = False
         break
-        
-    # Reset back to Row 8
-    walk_to(col, 8)
+
+if success:
+    print("SUCCESS! Column 21 is fully open vertically down to Row 11! Position:", mgba.get_coordinates())
+    # Walk left to stairs at (15, 11)
+    print("4. Walking left to stairs at (15, 11)...")
+    walk_to(15, 11)
+    print("Arrived at stairs! Position:", mgba.get_coordinates())
+else:
+    print("Column 21 was blocked. Let's try testing other columns (20, 19, 18) from Row 3 down...")
+    for col in [20, 19, 18]:
+        print(f"Testing Column {col}...")
+        walk_to(col, 3)
+        col_success = True
+        for target_y in range(4, 12):
+            pos_before = mgba.get_coordinates()
+            walk_step("Down")
+            pos_after = mgba.get_coordinates()
+            if pos_before['y'] == pos_after['y']:
+                print(f"  Column {col} blocked at Row {pos_before['y']}!")
+                col_success = False
+                break
+        if col_success:
+            print(f"SUCCESS! Column {col} is fully open! Position:", mgba.get_coordinates())
+            break
+        # Go back to Row 3
+        walk_to(col, 3)
+
