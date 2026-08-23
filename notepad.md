@@ -1459,7 +1459,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Cinnabar Lab Lobby (Middle Door):** Entrance door is at `(12, 4)` on Cinnabar Island. Inside, the exit is at `(2, 7)` or `(3, 7)` which warps the player back outside to `(12, 5)`.
 - **Cinnabar Lab Room 1 (Left Door):** Entrance door is at `(1, 4)` on Cinnabar Island. Inside, the exit is at `(2, 7)` which warps the player back outside to `(1, 5)`.
 - **Cinnabar Lab Room 3 (Right Door):** Entrance door is at `(16, 4)` on Cinnabar Island. Inside, the exit is at `(2, 7)` which warps the player back outside to `(16, 5)`.
-- **Pok&eacute;mon Mansion Entrance:** Stand at `(6, 3)` and step UP into the door at `(6, 2)` (or `(6, 4)`) to enter `Pokemon Mansion 1F West` (landing at `(5, 27)`).
+- **Pok&eacute;mon Mansion Entrance:** Stand at `(6, 4)` and step UP into the door at `(6, 3)` to enter `Pokemon Mansion 1F West` (landing at `(5, 27)`).
 - **Cinnabar Gym:** Entrance door is at `(18, 4)`. Permanently locked until the Secret Key is obtained from the Mansion.
 
 ## Navigation Routes
@@ -1480,6 +1480,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ---
 
 ## Shutter Gate Configurations & Structural Barriers
+
+### Permanent Structural Barriers
+- **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
 
 ### State A (Default)
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
@@ -1527,9 +1530,12 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 5. **Walk to Balcony on 3F East (State B) and Drop to B1F East:**
    - Walk back RIGHT and UP to Row 6: `(2, 12) -> (3, 12) -> (3, 11) -> (12, 11) -> (12, 6)`.
-   - Walk RIGHT along Row 6 to Column 19: `(12, 6) -> (19, 6)`.
-   - Walk directly DOWN Column 19 to the Balcony at `(19, 18)` (in State B, the Row 8 shutter gates are OPEN!).
-   - Step DOWN (South) onto `(19, 18)` to drop to B1F East (landing at `(19, 16)`).
+   - Walk RIGHT along Row 6 to Column 21: `(12, 6) -> (21, 6)`.
+   - Walk DOWN Column 21 to Row 15 (Column 21 is blocked at Row 8, so we must walk down Column 19 past the open Row 8 shutter gate to Row 12, then walk RIGHT to Column 21 Row 12, and then walk DOWN Column 21 past the open Row 13 gap to Row 15): `(21, 6) -> (19, 6) -> (19, 12) -> (21, 12) -> (21, 15)`.
+   - Walk LEFT along Row 15 to Column 19: `(21, 15) -> (19, 15)`.
+   - Walk DOWN Column 19 to Row 16: `(19, 15) -> (19, 16)`.
+   - Walk LEFT along Row 16 to the edge at `(18, 16)`: `(19, 16) -> (18, 16)`.
+   - Walk LEFT (West) from `(18, 16)` to drop over the balcony railing to B1F East (landing at `(19, 16)` on B1F East).
 
 6. **Retrieve Secret Key on B1F East (State B) and Escape:**
    - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
