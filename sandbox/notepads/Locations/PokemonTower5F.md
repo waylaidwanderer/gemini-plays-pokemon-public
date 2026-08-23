@@ -7,7 +7,7 @@
 ## Floor Layout & Landmarks
 - Northwest descending stairs at (3, 9).
 - Purified Zone (Sacred Ground) at cols 10-11, rows 8-9 with Channeler at (12, 8). Automatically restores party HP/PP/status and protects against wild encounters.
-- Item Ball 1 at (6, 8): Uncollected [Discovered Turn 14428; blocked by 20-item bag cap].
+- Item Ball 1 at (6, 8): Rare Candy [Collected Turn 14503].
 - Item Ball 2 at (14, 14): Uncollected [Discovered Turn 14463; blocked by 20-item bag cap].
 - Continuous horizontal traversal corridors along row 3 (cols 10-15), row 6 (cols 4-11), and row 10 (cols 3-10).
 
