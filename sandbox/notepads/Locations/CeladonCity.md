@@ -117,3 +117,6 @@
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
 - **Row 16 Ledge Line**: Continuous ledge separating upper tier from southern buildings/streets. Bypass via Western Ledge Gap at (8..9, 16).
+
+## Escape Items & Field Warp Mechanics
+- **Escape Rope & Dig**: Only function inside designated dungeon maps (e.g. Mt. Moon, Rock Tunnel, Rocket Hideout, Pokmon Tower). Attempting to use Escape Rope inside standard town buildings (like Celadon Department Store) triggers Oak's restriction dialogue ("This isn't the place to use that!").
