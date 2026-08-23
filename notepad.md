@@ -54,7 +54,7 @@
 1. HYDROS (Blastoise) - Lv 49
    - Stats (Verified at Lv 49): Max HP 162 (HP: 140/162), Attack 111, Defense 123, Speed 113, Special 118
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (15/15), Ice Beam (8/10), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Active Lead & Pokémon Tower sweeper)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -1547,25 +1547,27 @@
 
 <h1><code>Locations/PokemonTower5F</code></h1>
 
-# Pokémon Tower 5F - Layout, Purified Zone & Encounters
+# Pok�mon Tower 5F - Layout, Purified Zone & Encounters
 
 ## Connections
-- Downstairs (4F): Stairs at (9, 16) on the southern wall [Empirically Discovered & Verified Turn 14510]
-- Upstairs (6F): Ascending stairs (unverified until unmasked/tested)
+- Downstairs (4F): Stairs at (3, 9) on the western wall
+- Upstairs (6F): Stairs at (18, 9) on the eastern wall
 
 ## Floor Layout & Landmarks
-- South descending stairs to 4F at (9, 16).
+- West descending stairs to 4F at (3, 9).
+- East ascending stairs to 6F at (18, 9).
 - Purified Zone (Sacred Ground) at cols 10-11, rows 8-9 with Channeler at (12, 8). Automatically restores party HP/PP/status and protects against wild encounters.
 - Item Ball 1 at (6, 8): Rare Candy [Collected Turn 14503].
 - Item Ball 2 at (6, 14): Uncollected [Discovered Turn 14463, re-verified Turn 14545; blocked by 20-item bag cap].
-- Continuous horizontal traversal corridors along row 3 (cols 10-15), row 6 (cols 4-11), and row 10 (cols 3-10).
+- Continuous horizontal traversal corridors along row 3 (cols 10-15), row 6 (cols 3-11), and row 12 (cols 7-14).
 
 ## Verified Encounters & Trainers
-- Wild Encounters: GHOST (Gastly / Zubat - Unmasked only with Silph Scope).
+- Wild Encounters: Gastly, Haunter (Lv 22 verified Turn 14540).
 - Channelers:
   - Channeler at (16, 5) [Defeated Turn 14418]: Gastly Lv 24.
   - Channeler at (9, 5) [Defeated Turn 14427]: Gastly Lv 24.
-  - Channeler at (13, 10) [Defeated Turn 14457]: Gastly Lv 22, Gastly Lv 22.
+  - Channeler at (9, 16) [Defeated Turn 14544]: Haunter Lv 22.
+  - Channeler at (6, 10) [Defeated Turn 14548]: Gastly Lv 24.
 
 ## Verification & Item Acquisition Checklist
 1. Bag capacity check (<20 items) before interacting with item balls.
