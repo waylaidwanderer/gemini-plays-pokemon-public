@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon City (12, 28) -> Exited Celadon Gym with Rainbow Badge & TM21! Heading to Pokémon Center to restore Ice Beam PP
+- Location: Celadon City (33, 10) -> Team fully healed at Pokémon Center! Heading to Route 16 for HM02 Fly via northern alleyway
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1370,12 +1370,7 @@
   - **Tree Gap (cols 32-33, rows 2-4)**: Connects the northern corridor to the building alleyways and rear passages behind the central shops.
   - **Eastern Alcove (cols 44-48, rows 1-7)**: Extends east behind the Pokémon Center to dead-end tree boundary at row 8.
 
-  - Front Entrance Door: (28, 19) with yellow door frame and grey entrance plaza at row 20.
-  - Interior Secrets: Poster at (9, 4) with secret switch guarded by Rocket Grunt at (9, 5). Flipping switch reveals basement staircase to Rocket Hideout B1F at (17, 4).
-  - Approach: Walk east along row 22 street to col 36, north to row 20 plaza, and west to door at (28, 19).
-- **Prize Exchange Building**: Located at cols 30-33, rows 18-21.
-  - Front Door: (33, 19) on row 20 entrance plaza.
-- **Celadon Pokémon Center**: Front door at (41, 9).
+
 
 ## Empirically Verified Celadon City Topography & Obstacles
 - **Northern Alleyway (rows 1-3, cols 6-48)**: Continuous light-green grass corridor across top of city.
@@ -1426,6 +1421,21 @@
 - **Southern Cut Bush**: Located at `(35, 32)` in southeast Celadon City (south of restaurant plaza at cols 30-35, row 30-31).
 - **Southern Grass Corridor (rows 33-34, cols 10-35)**: Continuous 2-tile wide open light-green grass boulevard extending across the entire southern edge of Celadon City.
 - **Gym Approach**: Cutting the bush at `(35, 32)` allows entry onto the southern grass corridor at `(35, 33..34)`, which leads straight west to Celadon Gym at cols 10-14, rows 27-31!
+## Verified Building Bounding Boxes & Doors (Turn 13861)
+- **Celadon Mansion**: cols 19-25, rows 2-9 (Front Door: (24, 9), Rear Door: (24, 4)).
+- **Celadon Department Store**: cols 8-15, rows 2-13 (Main Door: (13, 3) on northern row 3; Hotel/Service Door: (10, 13) on southern row 13).
+- **Bookshelf Residence**: cols 6-8, rows 10-13 (Front Door: (8, 13)).
+- **Celadon Pokémon Center**: cols 40-43, rows 7-9 (Front Door: (41, 9)).
+- **Game Corner**: cols 26-29, rows 18-20 (Front Door: (28, 19)).
+- **Prize Exchange**: cols 30-33, rows 18-21 (Front Door: (33, 19)).
+- **Celadon Gym**: cols 10-14, rows 24-28 (Front Door: (12, 27)).
+
+## Continuous East-West Corridors across Celadon City
+1. **Northern Alleyway Corridor (rows 2-3, cols 0-48)**: Continuous open grass/path across top of city connecting Route 16 at (0, 2), Dept Store at (13, 3), Mansion rear at (24, 4), and Eastern Alleyway at (45, 2..3).
+2. **Central Highway (row 10, cols 14-49)**: Wide open brown brick road connecting Pokémon Center (col 41) and Route 7 (col 49) west to Mansion front (col 24) and Dept Store east wall (col 14).
+3. **Southern Boulevard (rows 14-16 & rows 22-23, cols 8-35)**: Southern road connecting Game Corner (col 28) and Western Alleyway (col 8) to the Gym garden approach at (35, 32).
+4. **Southernmost Grass Boulevard (row 34, cols 5-35)**: Continuous open grass corridor across bottom edge connecting Cut bush at (35, 32) directly to Celadon Gym courtyard at (5, 34) / (12, 34).
+
 
 <hr>
 
