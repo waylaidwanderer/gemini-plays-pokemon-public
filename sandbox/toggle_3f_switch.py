@@ -57,13 +57,15 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Starting at (7, 11) on 3F West in State A
-# Path to switch: (7, 11) -> (8, 11) -> (8, 13) -> (1, 13) -> (1, 11)
+# Currently at (8, 13) on 3F West
+# Path to switch: (8, 13) -> (8, 10) -> (4, 10) -> (4, 13) -> (1, 13) -> (1, 11)
 success = True
 if success:
-    success = walk_to_tile(8, 11)
+    success = walk_to_tile(8, 10)
 if success:
-    success = walk_to_tile(8, 13)
+    success = walk_to_tile(4, 10)
+if success:
+    success = walk_to_tile(4, 13)
 if success:
     success = walk_to_tile(1, 13)
 if success:
