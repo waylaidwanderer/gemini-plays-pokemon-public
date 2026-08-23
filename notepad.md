@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Central Corridor -> Moving west along row 6 to Western Avenue & Celadon Gym
+- Location: Celadon Department Store 1F (4, 7) -> Ascending to 4F to purchase Thunder Stone for PRISM
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
