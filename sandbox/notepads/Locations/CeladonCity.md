@@ -97,3 +97,6 @@
 - **Eastern Thoroughfare Connection (cols 56-58, rows 11-22)**:
   - Verified on Turn 13358: Row 16 ledge terminates at col 55.
   - Cols 56-58 form a continuous, unbroken, open north-south avenue connecting upper tier directly to southern boulevard (rows 17-22)!
+
+- **Verified Ledge Gap Passage**:
+  - Located at cols 8-9 on row 16: An open 2-tile wide grass and pavement path connecting the upper garden directly south onto the southern street (rows 17-22) without hitting any ledges!
