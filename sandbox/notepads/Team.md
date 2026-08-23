@@ -44,14 +44,24 @@
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
 - Valuables:
-  - 1x Nugget (Sell at Mart for ¥5000)
+  - 1x Nugget (Sell at Mart for �5000)
 - Consumables & Field Items:
+  - 10x Great Balls (Purchased Turn 14008 at Dept Store 2F for �6000)
   - 5x Super Potion
   - 1x Escape Rope
   - 2x Moon Stone
-  - 1x Water Stone (Purchased at 4F; ready to sell for ¥1050 or keep)
+  - 1x Water Stone (Purchased at 4F; ready to sell for �1050 or keep)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
+- Funds: �26,314 (Verified Turn 14008)
+
+## Bag Slot Management (20-Item Limit)
+- Current slots filled: ~18-19 slots.
+- Cleanup Strategy: Sell Nugget (�5000) and Water Stone (�1050); unneeded TMs can go to PC Item Storage if space is needed.
+
+## Flying-Type Party Slot Allocation & Capture Plan
+- Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
+- Plan: Deposit ECHO (Zubat Lv 9) at Celadon Pok�mon Center PC -> Party has 5 members -> Catch wild Flying-type (Doduo, Spearow, or Pidgey) on Route 16 -> Enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.

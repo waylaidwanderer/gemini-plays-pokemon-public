@@ -133,3 +133,27 @@
 ## Eastern Corridor to Northern Grass Boulevard (Empirically Verified Turn 13863)
 - **Eastern Corridor (cols 47-48, rows 1-10)**: Wide open 2-tile wide vertical grass lawn connecting Eastern Avenue at (47..48, 10) directly north to the Northern Alleyway Boulevard at (47..48, 1..2).
 - **Access Route**: From Eastern Avenue (45, 10), walk east to (47, 10), then straight north along cols 47-48 up to row 2 without encountering any tree barriers. From row 2, the northern corridor runs west uninterrupted across the entire top edge of Celadon City to Route 16 at (0, 2).
+
+## Celadon Department Store Staircase & Elevator Matrix
+- **1F (Service Counter)**:
+  - Stairs UP to 2F at `(12, 1)` (lands at 2F (12, 2))
+  - Elevator at `(1, 1)` (lands at Elevator (1, 3))
+  - South Exit Doors to Celadon City at `(3, 8)` / `(4, 8)` (warps to Celadon City (5, 14))
+- **2F (Trainer's Market)**:
+  - Stairs DOWN to 1F at `(12, 1)` (lands at 1F (12, 2))
+  - Stairs UP to 3F at `(16, 1)` (lands at 3F (16, 2))
+  - Left Clerk at `(5, 3)` (Items / Great Balls �600)
+- **3F (TV Game Shop)**:
+  - Stairs DOWN to 2F at `(16, 1)` (lands at 2F (16, 2))
+  - Stairs UP to 4F at `(12, 1)` (lands at 4F (12, 2))
+  - Game Shop Clerk at `(16, 5)` (TM18 Counter)
+- **4F (Wiseman Gifts)**:
+  - Stairs DOWN to 3F at `(12, 1)` (lands at 3F (12, 2))
+  - Stairs UP to 5F at `(16, 1)` (lands at 5F (16, 2))
+  - Evolution Stone Clerk at `(5, 7)` (Fire/Thunder/Water/Leaf Stones �2100)
+- **5F (Drugstore)**:
+  - Stairs DOWN to 4F at `(16, 1)` (lands at 4F (16, 2))
+  - Stairs UP to Rooftop at `(12, 1)` (lands at Roof (12, 4))
+- **Roof (Rooftop Square)**:
+  - Stairs DOWN to 5F at `(15, 2)` (lands at 5F (12, 2))
+  - Vending Machines at `(11..12, 1..2)` (Fresh Water, Soda Pop, Lemonade)

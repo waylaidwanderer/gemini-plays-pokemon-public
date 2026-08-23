@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Dept Store 2F (Trainer's Market) -> PRISM evolved into Jolteon! Buying Great Balls to catch a Flying-type for HM02 Fly, then heading to Lavender Town for Pokémon Tower
+- Location: Celadon Dept Store 1F (11, 5) -> Celadon Pok�mon Center (deposit Zubat) -> Route 16 (catch Flying-type for HM02 Fly) -> Lavender Town Pok�mon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
