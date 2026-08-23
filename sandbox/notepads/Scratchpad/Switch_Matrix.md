@@ -66,6 +66,7 @@
 
 
 ## Discovered Spatial Constraints & Structural Barriers
+- **1F Column 13 Wall (Rows 6-13):** Solid vertical permanent wall separating 1F West from 1F East. The ONLY open horizontal crossings on Column 13 are on Row 4 and Row 5 (empirically verified on foot on Turn 55304).
 - **3F East Row 7 Barriers (Columns 14-22):** Shutter gates on Columns 14-21 are CLOSED in State B (empirically verified on foot on Turn 55228, 55233, 55234, 55237). Column 22 is a solid vertical wall. This prevents any vertical passage from Row 6 to Row 8 on the East side in State B!
 - **3F East Column 13 Wall (Rows 7-13):** Solid vertical permanent wall, blocking horizontal passage on Rows 7, 8, 9, 10, and 11 (verified on Turn 55240, 55243). Row 13 is a solid horizontal railing, blocking downward vertical passage on Column 12 (verified on Turn 55244).
 - **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 in both States (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
