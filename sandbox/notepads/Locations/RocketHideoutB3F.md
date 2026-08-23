@@ -19,7 +19,7 @@
   - Stairs down to B4F at (19, 10).
   - Table counter block at (10..11, 10..13).
   - Open hallway along row 14 & 15 connecting (19, 10) west to col 9 and east to elevator lobby at row 14.
-  - Elevator lobby: Elevator doors at (24, 11), guarded by undefeated Rocket Grunt at (23, 12).
+- Elevator Lobby: Structural elevator shaft located at (24..25, 10..16), isolated from both the northern wing by solid wall at col 21 and the southern wing by solid wall at row 16. Accessible only by taking the elevator.
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
   - Item Ball at (10, 12) [Collected Turn 12905 - HP Up].
