@@ -1530,8 +1530,8 @@
 
 ## Verified Encounters & Trainers
 - Wild Encounters: Gastly (Lv 19 verified in wild battle Turn 14313; Silph Scope successfully unmasks ghost sprite).
-- Channelers (Rosters unverified until engaged in battle):
-  - Channeler Patricia at (10, 13) [Empirical battle pending]
+- Channelers:
+  - Channeler Patricia at (10, 13) [Verified in battle Turn 14322: Gastly Lv 22]
   - Channeler Carly at (8, 11) [Empirical battle pending]
   - Channeler Hope at (10, 3) [Empirical battle pending]
 
