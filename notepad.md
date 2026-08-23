@@ -1541,9 +1541,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 2. **Walk to 1F East Stairs and Ascend to 2F East (State A):**
    - On 1F West, walk UP Column 5 to Row 11: `(5, 27) -> (5, 11)`.
    - Walk RIGHT along Row 11 to Column 12: `(5, 11) -> (12, 11)` (bypassing the Scientist at `(13, 11)` who permanently blocks Column 13).
-   - Walk UP Column 12 to Row 7: `(12, 11) -> (12, 7)`.
-   - Walk RIGHT along Row 7 to Column 18: `(12, 7) -> (18, 7)` (this corridor is completely open).
-   - Walk DOWN Column 18 to Row 10: `(18, 7) -> (18, 10)` (stairs). Step DOWN onto the stairs to warp UP to 2F East (landing at `(18, 11)`).
+   - Walk UP Column 12 to Row 6: `(12, 11) -> (12, 6)`.
+   - Walk RIGHT along Row 6 to Column 18: `(12, 6) -> (18, 6)` (this corridor is completely open).
+   - Walk DOWN Column 18 to Row 10: `(18, 6) -> (18, 10)` (stairs). Step DOWN onto the stairs to warp UP to 2F East (landing at `(18, 11)`).
 
 3. **Toggle 2F East Switch to State B:**
    - On 2F East, walk UP Column 18 to Row 3: `(18, 11) -> (18, 3)`.
