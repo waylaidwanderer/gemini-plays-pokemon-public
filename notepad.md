@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City -> Navigating to Southeastern Celadon Gym
+- Location: Celadon Department Store 1F (x=2, y=4) -> Ascending to 4F to buy Thunder Stone
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1326,7 +1326,7 @@
 
 ## Celadon Department Store
 - Multi-story mega-mart located in northwest Celadon City (cols 10-13, rows 7-13).
-- 1F (Service Counter): Receptionist desks, directory board at (14, 1), stairs up to 2F at (12, 1), south exit to Celadon City at (16..17, 7).
+- 1F (Service Counter): 8x8 floor grid (cols 0-7, rows 0-7). South exit at (3..4, 7). Reception desks at (0..1, 4..5). Display shelves at (0..1, 3) and (4..7, 3..4). Central aisle at (2..3, 3..4). Open corridor at row 2. Stairs up to 2F at (2..3, 1). Elevator at (4..5, 1).
 - 2F (Trainer's Market):
   - Directory at (14, 1): "2F: TRAINER'S MARKET - Top Grade Items for Trainers!"
   - Stairs: Down to 1F at (12, 1); Up to 3F at (16, 1).
@@ -1582,12 +1582,13 @@
 
 # Celadon Gym - Layout, Trainers & Leader Erika
 
-## Status
-- Gym not yet entered. The previous building entered was the Celadon Hotel in southeastern Celadon City.
-- Celadon Gym is located in southwest Celadon City, accessed via the southern boulevard and a Cut tree.
+## Overview & Location
+- Location: Southern sector of Celadon City.
+- Access: Requires HM01 Cut on exterior bush to access the gym garden.
 
-## Leader Erika Prep
+## Leader Erika Tactical Prep
 - Team: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29.
-- Strategy: Lead HYDROS (Blastoise Lv 47) using Ice Beam (10/10 PP).
+- Strategy: Lead HYDROS (Blastoise Lv 47) with Ice Beam (10/10 PP) for OHKO sweeps.
+
 
 <hr>
