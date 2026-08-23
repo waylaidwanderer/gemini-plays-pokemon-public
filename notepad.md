@@ -91,7 +91,7 @@
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain)
 - Valuables: 1x Nugget
-- Consumables: 10x Great Balls, 5x Super Potion, 1x Escape Rope, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
+- Consumables: 10x Great Balls, 4x Super Potion, 1x Elixer, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
 - Funds: �27,678 (Verified Turn 14330)
 
 ## Flying-Type Party Slot Allocation & Capture Plan
@@ -1525,16 +1525,17 @@
 
 ## Floor Layout & Item Balls
 - East descending stairs at (18, 9).
-- Open horizontal traversal aisle along row 8 (cols 3-18).
+- Open horizontal traversal aisle along row 5 and row 3/4.
 - Item Ball 1 at (12, 10): Elixer [Collected Turn 14368].
-- Item Ball 2 at (9, 10): Awakening.
-- Item Ball 3 at (12, 16): HP Up.
+- Item Ball 2 at (9, 10): Item Ball visible [Unverified content].
+- Item Ball 3 at (12, 16): Item Ball reported in southern sector [Unverified content].
 - Northwest ascending stairs to 5F at (3, 9).
 
 ## Verified Encounters & Trainers
 - Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
 - Channelers:
-  - Channeler Laurel / Paula at (15, 8) [Engaged Turn 14337: Gastly Lv 23, Gastly Lv 23]
+  - Channeler Laurel / Paula at (15, 8) [Defeated Turn 14347: Gastly Lv 23, Gastly Lv 23; Reward: �690]
   - Channeler Jody [Empirical battle pending]
+
 
 <hr>
