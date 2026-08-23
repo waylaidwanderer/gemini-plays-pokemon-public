@@ -1,5 +1,6 @@
 import mgba
 import time
+from collections import deque
 
 def run_from_battle():
     print("In battle! Running...")
@@ -17,64 +18,24 @@ def walk_step(direction):
         mgba.press_buttons([direction, "sleep 150"])
         pos_after = mgba.get_coordinates()
         attempts = 0
-        while pos_before == pos_after and attempts < 5:
+        while pos_before == pos_after and attempts < 3:
             run_from_battle()
             mgba.press_buttons([direction, "sleep 150"])
             pos_after = mgba.get_coordinates()
             attempts += 1
     return pos_after
 
-def walk_to(target_x, target_y):
-    max_steps = 30
-    steps = 0
-    while steps < max_steps:
-        pos = mgba.get_coordinates()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            return True
-        if x < target_x:
-            walk_step("Right")
-        elif x > target_x:
-            walk_step("Left")
-        elif y < target_y:
-            walk_step("Down")
-        elif y > target_y:
-            walk_step("Up")
-        steps += 1
-    return False
+# Let's map out the walkable area on 3F West starting from (7, 11) in State A
+# We will do a safe, non-destructive BFS exploration to see if we can reach y=6
+start = mgba.get_coordinates()
+print("Starting BFS search from:", start)
 
-# Starting from (17, 8).
-# Let's walk to Row 12, and then try walking DOWN Row 13 on Columns 19, 20, 21.
-print("Starting Row 13 vertical test...")
+queue = deque([start])
+visited = { (start['x'], start['y']) }
+path_to_y6 = None
 
-for col in [19, 20, 21]:
-    # Walk to (col, 12)
-    print(f"Testing Column {col} Row 13...")
-    if walk_to(col, 12):
-        # Try to step DOWN
-        pos_before = mgba.get_coordinates()
-        pos = walk_step("Down")
-        if pos['y'] == 13:
-            print(f"SUCCESS: Column {col} Row 13 is OPEN! Position:", pos)
-            # Try to step DOWN to Row 14, 15, 16, 17, 18
-            reached_balcony = False
-            for _ in range(5):
-                pos_prev = pos
-                pos = walk_step("Down")
-                if pos['y'] == pos_prev['y']:
-                    print(f"  Blocked walking down at: ({pos['x']}, {pos['y']})")
-                    break
-                print(f"  Reached Row {pos['y']}")
-                if pos['y'] >= 18:
-                    reached_balcony = True
-                    break
-            if reached_balcony:
-                print("REACHED BALCONY!")
-                break
-            else:
-                # Walk back up to Row 12
-                walk_to(col, 12)
-        else:
-            print(f"BLOCKED: Column {col} Row 13 is CLOSED.")
-
-print("Final position:", mgba.get_coordinates())
+# Let's write a quick simulator based on our visual knowledge
+# Since we are standing at (17, 7) on 1F West, wait!
+# WE ARE AT (17, 7) ON 1F WEST!
+# Oh, we are NOT on 3F West! We are on 1F West!
+print("Wait, we are currently at:", start)
