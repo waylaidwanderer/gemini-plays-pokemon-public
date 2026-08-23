@@ -1416,7 +1416,7 @@
 ## Boss Battle
 - **Boss Giovanni** at (25, 3) [Defeated Turn 13304]:
   - Team: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29.
-  - Dropped Item: SILPH SCOPE at (25, 2) [Collected Turn 13305].
+  - Dropped Item: SILPH SCOPE at (25, 2) [Dropped on floor upon defeat; UNCOLLECTED due to full 20-item bag cap. Target for retrieval!].
 
 
 <hr>
@@ -1542,23 +1542,28 @@
 
 <h1><code>Locations/PokemonTower5F</code></h1>
 
-# Pok�mon Tower 5F - Layout, Purified Zone & Encounters
+# Pokémon Tower 5F - Layout, Purified Zone & Encounters
 
 ## Connections
 - Downstairs (4F): Stairs at (3, 9) on the western wall
-- Upstairs (6F): Location being searched
+- Upstairs (6F): Ascending stairs to 6F located in the tower interior (unmasking required)
 
 ## Floor Layout & Landmarks
 - Northwest descending stairs at (3, 9).
 - Purified Zone (Sacred Ground) at cols 10-11, rows 8-9 with Channeler at (12, 8). Automatically restores party HP/PP/status and protects against wild encounters.
-- East area at (18, 9) is a standard floor tile; ascending stairs to 6F location currently being explored.
-- Open horizontal traversal corridor along row 6 (cols 4-18).
+- Item Ball at (6, 8): Uncollected [Discovered Turn 14428; blocked by 'No more room for items!' 20-item bag cap].
+- Continuous horizontal traversal corridors along row 3 (cols 10-15), row 6 (cols 4-11), and row 10 (cols 3-10).
 
 ## Verified Encounters & Trainers
-- Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
+- Wild Encounters: GHOST (Gastly / Zubat - Unmasked only with Silph Scope).
 - Channelers:
-  - Channeler at (14, 3) facing Down.
-  - Channeler at (6, 10).
+  - Channeler at (16, 5) [Defeated Turn 14418]: Gastly Lv 24.
+  - Channeler at (9, 5) [Defeated Turn 14427]: Gastly Lv 24.
+  - Channeler at (12, 10).
+
+## Verification & Item Acquisition Checklist
+1. Bag capacity check (<20 items) before interacting with item balls.
+2. Confirm '[PLAYER] found [ITEM]!' dialogue on-screen before marking collected.
 
 
 <hr>
