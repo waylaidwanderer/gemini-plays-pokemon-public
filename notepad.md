@@ -86,7 +86,7 @@
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
-- Key Items: Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
+- Key Items: Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
   - 1x Nugget
@@ -1514,6 +1514,12 @@
 - Rocket Grunt at (10, 22) / (11, 22) [Defeated Turn 12822]: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20. Quote: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere."
 - Rocket Grunt at (23, 12) [Defeated Turn 13289]: Sandshrew Lv 23, Ekans Lv 23, Sandslash Lv 23. Reward: �690. Pre-battle quote: "I know you! You ruined our plans at MT. MOON!" Post-battle quote: "Do you have something against TEAM ROCKET?"
 - Rocket Grunt at (26, 12) [Elevator Lobby]: Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"
+
+## Boss Battle
+- **Boss Giovanni** at (25, 3) [Defeated Turn 13304]:
+  - Team: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29.
+  - Reward: �2871.
+  - Dropped Item: SILPH SCOPE at (25, 2) [Collected Turn 13305].
 
 
 <hr>
