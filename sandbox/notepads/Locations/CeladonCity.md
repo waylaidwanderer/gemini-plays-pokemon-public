@@ -105,3 +105,13 @@
 - Location: cols 8-13, rows 18-21, front door at (10, 21).
 - Flanked by water canals at cols 6-9 and cols 12-15.
 - Path leads south (rows 22-25) to southern thoroughfare at row 26.
+
+## Verified Building Entrances & Layouts
+- **Celadon Diner**: Exterior arched entrance at (14, 5). Interior: Restaurant seating with patron at (15, 13) granting the Coin Case, and patron at (8, 12). Exit at (10, 17..18).
+- **Bookshelf Residence**: Exterior door at (7, 13). Interior: 8x8 residence with bookshelves at (0..1, 1), desk at (3, 3), and resident at (4, 3). Exit at (2..3, 7).
+- **1F Service Mart**: Exterior door at (15, 13). Interior: 8x8 mart with clerk at (0..1, 4..5) selling Great Balls, Super Potions, Revives, Escape Ropes. Exit at (3..4, 7).
+- **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. North pass-through door at (10, 15). Exit at (4..5, 7) / (4..5, 0).
+- **Celadon Pok�mon Center**: Front door at (41, 9).
+- **Rocket Game Corner**: Front door at (28, 19).
+- **Prize Exchange**: Front door at (33, 19).
+- **Celadon Mansion**: Front entrance at (24, 9), rear entrance at (24, 4).
