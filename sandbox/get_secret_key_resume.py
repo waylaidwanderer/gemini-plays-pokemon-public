@@ -62,7 +62,7 @@ def walk_to_tile(tx, ty):
 print("PHASE 1: Walking Row 6 to 3F East pitfall...")
 success = True
 if success:
-    success = walk_to_tile(12, 11)
+    success = walk_to_tile(12, 9)
 if success:
     success = walk_to_tile(12, 6)
 if success:

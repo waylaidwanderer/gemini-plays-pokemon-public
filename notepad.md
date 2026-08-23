@@ -1533,18 +1533,17 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 4. **Toggle 3F West Switch to State B:**
    - Walk to the switch via Column 1 detour: Walk Left to Column 3 Row 11, Down to Column 3 Row 13, Left to Column 1 Row 13, Up to Column 1 Row 11, and face Right to toggle the Mewtwo statue switch at `(2, 11)` to State B!
 
-5. **Walk to Balcony on 3F East (State A) and Drop to B1F East:**
-   - Enter Mansion in State A, warp UP to 2F West, cross to 2F East on Row 3, and walk to (15, 12).
-   - Step UP onto the stairs at (15, 11) to warp to 3F East (State A).
-   - From (15, 11) on 3F East, walk horizontally on Row 11 across Column 13 (open in State A) to (17, 11).
-   - Walk DOWN Column 17 to Row 18, and walk RIGHT to the balcony at (19, 18).
-   - Step DOWN to drop over the balcony onto B1F East!
- 
+5. **Warp to 3F West and Toggle Switch to State B:**
+   - From 1F West, warp to 2F West, then warp to 3F West.
+   - Walk the Row 11 / Row 13 path to the 3F West switch at `(2, 11)` and toggle it to State B.
 
-6. **Retrieve Secret Key on B1F East (State B) and Escape:**
-   - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
-   - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
-   - Use **DIG** to escape back to Cinnabar Island!
+6. **Navigate Row 6 to 3F East Pitfall and Drop to B1F East:**
+   - From `(1, 11)` on 3F West, walk to Column 12 via `(4, 13)` detour: `(1, 11) -> (1, 13) -> (4, 13) -> (4, 10) -> (6, 10) -> (12, 10) -> (12, 6)`.
+   - Walk RIGHT along Row 6 on 3F (completely open in both states!) all the way to Column 26: `(12, 6) -> (26, 6)`.
+   - Step onto `(26, 6)` to drop down the pitfall, landing on 1F East inside the fenced room at `(25, 6)`.
+   - Walk to the B1F East stairs at `(22, 2)` and warp DOWN to B1F East.
+   - On B1F East in State B, walk horizontally along Row 5 across the open Column 9 gate `(9, 5)` to the northwest room: `(22, 5) -> (1, 5)`.
+   - Stand at `(1, 5)` facing UP, press A to pick up the **Secret Key** at `(1, 4)`, and use **DIG** to escape!
 
 
 
