@@ -57,25 +57,14 @@ def walk_to_tile(tx, ty):
     print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Currently at (26, 3) on 1F East in State B
-# PHASE 1: Walk to (22, 3) and warp DOWN to B1F East
-print("PHASE 1: Warp DOWN to B1F East...")
-success = True
+# Currently at (22, 3) on B1F East
+print("Walking to (21, 3)...")
+success = walk_to_tile(21, 3)
 if success:
-    success = walk_to_tile(22, 3)
+    print("Walking to (21, 5)...")
+    success = walk_to_tile(21, 5)
 if success:
-    print("Stepping UP to warp down to B1F...")
-    mgba.press_buttons(["Up", "sleep 400"])
-    time.sleep(1.5)
-    print("New position on B1F East:", get_pos())
-
-# PHASE 2: Walk along B1F Row 5 across Column 9 gate to (1, 5)
-print("PHASE 2: Crossing B1F Row 5 to Secret Key...")
-if success:
-    success = walk_to_tile(22, 5)
-if success:
-    success = walk_to_tile(19, 5)
-if success:
+    print("Walking along Row 5 horizontally to (1, 5)...")
     success = walk_to_tile(1, 5)
 
 # PHASE 3: Retrieve Secret Key at (1, 4)
