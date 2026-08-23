@@ -1436,6 +1436,9 @@
 3. **Southern Boulevard (rows 14-16 & rows 22-23, cols 8-35)**: Southern road connecting Game Corner (col 28) and Western Alleyway (col 8) to the Gym garden approach at (35, 32).
 4. **Southernmost Grass Boulevard (row 34, cols 5-35)**: Continuous open grass corridor across bottom edge connecting Cut bush at (35, 32) directly to Celadon Gym courtyard at (5, 34) / (12, 34).
 
+## Eastern Corridor to Northern Grass Boulevard (Empirically Verified Turn 13863)
+- **Eastern Corridor (cols 47-48, rows 1-10)**: Wide open 2-tile wide vertical grass lawn connecting Eastern Avenue at (47..48, 10) directly north to the Northern Alleyway Boulevard at (47..48, 1..2).
+- **Access Route**: From Eastern Avenue (45, 10), walk east to (47, 10), then straight north along cols 47-48 up to row 2 without encountering any tree barriers. From row 2, the northern corridor runs west uninterrupted across the entire top edge of Celadon City to Route 16 at (0, 2).
 
 <hr>
 
