@@ -1,64 +1,72 @@
 import mgba
 import time
 
+def get_pos():
+    return mgba.get_coordinates()
+
 def run_from_battle():
-    print("In battle! Running...")
+    # Attempt to escape battle by mashing B, then selecting RUN
+    print("Potential battle or obstacle! Attempting to run/clear...")
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 100"])
-    mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 500"])
-    for _ in range(4):
+    # Select RUN (Right, Down, A)
+    mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 500"])
+    for _ in range(3):
         mgba.press_buttons(["B", "sleep 100"])
 
-def walk_step(direction):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction, "sleep 150"])
-    pos_after = mgba.get_coordinates()
-    
-    if pos_before == pos_after:
-        mgba.press_buttons([direction, "sleep 150"])
-        pos_after = mgba.get_coordinates()
-        
-        attempts = 0
-        while pos_before == pos_after and attempts < 5:
-            run_from_battle()
-            mgba.press_buttons([direction, "sleep 150"])
-            pos_after = mgba.get_coordinates()
-            attempts += 1
-    return pos_after
-
-def walk_to(target_x, target_y):
-    max_steps = 100
-    steps = 0
-    while steps < max_steps:
-        pos = mgba.get_coordinates()
+def walk_to_tile(tx, ty):
+    # Precise pathfinding step-by-step
+    print(f"Target: ({tx}, {ty})")
+    max_attempts = 40
+    for attempt in range(max_attempts):
+        pos = get_pos()
         x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
+        if x == tx and y == ty:
+            print(f"Arrived at ({tx}, {ty})!")
             return True
             
-        if x < target_x:
-            walk_step("Right")
-        elif x > target_x:
-            walk_step("Left")
-        elif y < target_y:
-            walk_step("Down")
-        elif y > target_y:
-            walk_step("Up")
-        steps += 1
+        # Determine step direction
+        if x < tx:
+            d = "Right"
+        elif x > tx:
+            d = "Left"
+        elif y < ty:
+            d = "Down"
+        elif y > ty:
+            d = "Up"
+        else:
+            return True
+            
+        print(f"Currently at ({x}, {y}). Stepping {d}...")
+        mgba.press_buttons([d, "sleep 150"])
+        
+        pos_after = get_pos()
+        if pos == pos_after:
+            # We didn't move! Could be a battle or an NPC/wall block
+            print("Did not move. Checking for battle...")
+            run_from_battle()
+            # Try again
+            mgba.press_buttons([d, "sleep 150"])
+            
+    print(f"Failed to reach ({tx}, {ty}) after {max_attempts} attempts.")
     return False
 
-# Starting at (9, 11) on 3F West in State A
-print("Walking to the 3F West switch via detour...")
-# First walk Left to (3, 11) (detouring Row 12 if NPC blocks)
-# We can just walk to (3, 13) directly to avoid the NPC completely!
-walk_to(9, 13)
-walk_to(1, 13)
-walk_to(1, 11)
+# Execute precise path to the 3F West Switch
+# Path: (9, 11) -> (8, 11) -> (8, 13) -> (1, 13) -> (1, 11)
+success = True
+if success:
+    success = walk_to_tile(8, 11)
+if success:
+    success = walk_to_tile(8, 13)
+if success:
+    success = walk_to_tile(1, 13)
+if success:
+    success = walk_to_tile(1, 11)
 
-print("Toggling Mewtwo statue to State B...")
-mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
-print("State B activated! Position:", mgba.get_coordinates())
-
-# Take a screenshot to verify State B
-sc = mgba.take_screenshot()
-print("Screenshot:", sc)
-
+if success:
+    print("Arrived at (1, 11)! Toggling switch...")
+    mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
+    pos = get_pos()
+    print("Finished. Current position:", pos)
+else:
+    print("Failed navigation!")
