@@ -50,15 +50,17 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (12, 6) on 3F East in State B
-print("Starting resume script from (12, 6)...")
+# Starting at (21, 6) on 3F East in State B
+print("Starting resume script from (21, 6) on 3F East...")
 
-# PHASE 1: Walk to pitfall at (26, 6)
-print("PHASE 1: Walking to pitfall at (26, 6)...")
+# PHASE 1: Walk detour UP to Row 3, cross Column 22 wall, and walk down to pitfall at (26, 6)
+print("PHASE 1: Detouring around Column 22 wall to pitfall at (26, 6)...")
+walk_to(21, 3)
+walk_to(26, 3)
 walk_to(26, 6)
 print("Should have dropped! Waiting 2 seconds...")
 time.sleep(2.0)
-print("Position after drop (should be 1F East around 25, 6):", get_pos())
+print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
 # PHASE 2: Walk to B1F stairs on 1F East inside fenced room
 print("PHASE 2: Walking to B1F stairs...")
