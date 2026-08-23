@@ -1045,7 +1045,7 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **Slot 2:** GUSTY (Pidgey) - Level 13
 - **Slot 3:** NINA (Nidoran-F) - Level 15
 - **Slot 4:** EPEP (Doduo) - Level 10
-- **Slot 6:** TRUFFLE (Paras) - Level 13 (Useful for DIG in 1st Move submenu option and CUT in 2nd Move submenu option)
+- **Slot 5:** TRUFFLE (Paras) - Level 13 (Useful for DIG in 1st Move submenu option and CUT in 2nd Move submenu option)
 
 <hr>
 
