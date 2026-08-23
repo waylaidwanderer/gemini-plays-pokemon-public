@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City (x=3, y=6) outside Pok�mon Center -> Heading inside to heal before Celadon Gym
+- Location: Celadon City (x=46, y=12) -> Navigating row 12/13 east to col 57 towards Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
