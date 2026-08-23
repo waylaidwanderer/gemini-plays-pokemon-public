@@ -93,3 +93,5 @@
 - **Turn 54609:** Toggled 2F East switch to State B.
 - **Turn 54627:** Toggled 2F East switch back to State A.
 - **Turn 54650:** Toggled 2F East switch back to State B.
+
+- **Turn 54834:** Toggled 2F East switch (standing at `(12, 11)` facing RIGHT to Mewtwo statue at `(13, 11)`) to State B.
