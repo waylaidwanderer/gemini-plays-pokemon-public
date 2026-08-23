@@ -24,28 +24,40 @@ def run_to_destination(path_list):
             else:
                 print("Failed to move, still stuck at:", mgba.get_coordinates())
 
-# Currently at (7, 10) on 1F West (State B)
-# Walk to stairs at (25, 6) on 1F East and warp DOWN to B1F East
+# Currently at (14, 5) on 2F East (State B)
+# 1. Walk to 2F West stairs at (7, 10) and warp DOWN to 1F West
 # Path:
-# - Right 3 steps to (10, 10)
-# - Up 4 steps to (10, 6)
-# - Right 15 steps to (25, 6) (warp DOWN to B1F)
-path1 = ["Right"] * 3 + ["Up"] * 4 + ["Right"] * 15
+# - Left 4 steps to (10, 5)
+# - Down 5 steps to (10, 10)
+# - Left 3 steps to (7, 10) (warp DOWN to 1F West)
+path1 = ["Left"] * 4 + ["Down"] * 5 + ["Left"] * 3
+
+print("Walking to 2F stairs and warping DOWN to 1F...")
+run_to_destination(path1)
+
+print("Arrived on 1F West! Current position:", mgba.get_coordinates())
+
+# 2. Walk from 1F West to B1F stairs on 1F East
+# We land at (5, 10) on 1F West.
+# Path:
+# - Up 4 steps to Row 6: (5, 10) -> (5, 6)
+# - Right 20 steps to Column 25: (5, 6) -> (25, 6) (warp DOWN to B1F East)
+path2 = ["Up"] * 4 + ["Right"] * 20
 
 print("Walking to B1F stairs on 1F East...")
-run_to_destination(path1)
+run_to_destination(path2)
 
 print("Arrived on B1F East! Current position:", mgba.get_coordinates())
 
-# 2. Walk LEFT along Row 5 on B1F to northwest room at (1, 5)
+# 3. Walk LEFT on B1F to northwest room at (1, 5)
 # Path: Left 24 steps
-path2 = ["Left"] * 24
+path3 = ["Left"] * 24
 print("Walking to northwest room on B1F...")
-run_to_destination(path2)
+run_to_destination(path3)
 
 print("Arrived near Secret Key! Current position:", mgba.get_coordinates())
 
-# 3. Stand at (1, 5) facing UP towards (1, 4) and retrieve Secret Key
+# 4. Stand at (1, 5) facing UP towards (1, 4) and retrieve Secret Key
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 1000"]) # interact and retrieve
 mgba.press_buttons(["A", "sleep 1000"]) # select YES
@@ -53,7 +65,7 @@ mgba.press_buttons(["A", "sleep 500"])  # clear text
 
 print("Secret Key retrieved! Current position:", mgba.get_coordinates())
 
-# 4. Use DIG to escape to Cinnabar Island!
+# 5. Use DIG to escape to Cinnabar Island!
 # Open menu, select pokemon, select TRUFFLE, select DIG
 mgba.press_buttons(["Start", "sleep 500"])
 mgba.press_buttons(["Down", "sleep 200", "A", "sleep 500"]) # select POKEMON
