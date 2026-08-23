@@ -92,6 +92,7 @@
   - 1x Nugget
 - Consumables & Field Items:
   - 6x Super Potion
+  - 1x HP Up (Claimed from Rocket Hideout B3F Turn 12905)
   - 1x Rare Candy (Claimed from Rocket Hideout Turn 12799)
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
   - 2x Moon Stone (Verified: 1x Mt. Moon 1F, 1x Rocket Hideout)
@@ -1496,7 +1497,7 @@
   - Elevator lobby: Elevator doors at (24, 11), guarded by undefeated Rocket Grunt at (23, 12).
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
-  - Item Ball at (10, 12) [Discovered Turn 12890].
+  - Item Ball at (10, 12) [Collected Turn 12905 - HP Up].
 
 ## Verified Trainers
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].

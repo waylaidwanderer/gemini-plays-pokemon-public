@@ -22,7 +22,7 @@
   - Elevator lobby: Elevator doors at (24, 11), guarded by undefeated Rocket Grunt at (23, 12).
 - Item Balls:
   - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
-  - Item Ball at (10, 12) [Discovered Turn 12890].
+  - Item Ball at (10, 12) [Collected Turn 12905 - HP Up].
 
 ## Verified Trainers
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].
