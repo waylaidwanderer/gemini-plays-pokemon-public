@@ -9,7 +9,7 @@
 | B3F | (17, 25) | Rattata Lv 19, Raticate Lv 19, Rattata Lv 19 | "OK, I'll talk! Take the elevator to see my BOSS!" | No | Verified Turn 12274 |
 | B3F | (18, 17) | Grimer Lv 20, Koffing Lv 20, Koffing Lv 20 | "I don't know where it is!" | No | Verified Turn 12553 |
 | B4F | (26, 12) | Machop Lv 21, Machop Lv 21 | "Go ahead and go! But, you need the LIFT KEY to run the elevator!" | No | Elevator Guard |
-| B4F | (10, 22) | Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20 | "SILPH SCOPE? The machine the BOSS stole. It's here somewhere." | Target | Stepping onto (10, 23) south of him |
+| B4F | (10, 22) | Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20 | "SILPH SCOPE? The machine the BOSS stole. It's here somewhere." | Checked (10,23), (9,22) | Sweeping (10, 21) north of him |
 
 ## Item Ball Audit
 - B1F (11, 14): Escape Rope [Claimed]
