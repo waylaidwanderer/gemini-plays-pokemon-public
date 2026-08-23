@@ -1529,10 +1529,10 @@
 - East staircase ascending to 4F at (18, 9).
 
 ## Verified Encounters & Trainers
-- Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
-- Channelers:
-  - Channeler Patricia (Gastly Lv 22)
-  - Channeler Carly (Gastly Lv 24)
-  - Channeler Hope (Gastly Lv 23)
+- Wild Encounters: Gastly (Lv 19 verified in wild battle Turn 14313; Silph Scope successfully unmasks ghost sprite).
+- Channelers (Rosters unverified until engaged in battle):
+  - Channeler Patricia at (10, 13) [Empirical battle pending]
+  - Channeler Carly at (8, 11) [Empirical battle pending]
+  - Channeler Hope at (10, 3) [Empirical battle pending]
 
 <hr>
