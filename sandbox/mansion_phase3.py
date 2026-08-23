@@ -49,10 +49,11 @@ def walk_to(target_x, target_y):
     return False
 
 # Starting at (9, 9) on 3F West
-print("1. Walking to Row 6 at (9, 6)...")
-walk_to(9, 6)
-
-print("2. Walking straight RIGHT along Row 6 to pitfall at (26, 6)...")
+print("1. Walking to (6, 9)...")
+walk_to(6, 9)
+print("2. Walking UP Column 6 to (6, 6)...")
+walk_to(6, 6)
+print("3. Walking straight RIGHT along Row 6 to pitfall at (26, 6)...")
 walk_to(26, 6)
 
 print("Should have dropped! Waiting 2 seconds...")
