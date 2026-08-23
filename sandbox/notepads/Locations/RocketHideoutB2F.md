@@ -1,5 +1,10 @@
 # Team Rocket Hideout B2F - Conveyor Network & Topology
 
+## Connections & Warps
+- Stairs Up to B1F: Located at (27, 8).
+- Stairs Down to B3F: Located at (21, 22).
+- Stairs Down to B4F: Located at (21, 8), leads down to Rocket Hideout B4F at (25, 6).
+
 ## Verified Conveyor Network Routes
 - Shortcut Route: (17, 11) [Left] -> slides across row 11 -> (12, 11) [Up] -> (12, 9) [Left] -> lands on Stop Tile (2, 9) [Verified Turn 12745].
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
