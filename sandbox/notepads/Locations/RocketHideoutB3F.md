@@ -16,11 +16,8 @@
 - Central Spin Tile Column (col 9):
   - Up spin tiles at (9, 14), (9, 18), (9, 20), (9, 22), (9, 24).
   - Stop tiles at (9, 15), (9, 19), (9, 21), (9, 23), (9, 25).
-  - Stepping Left from (10, 18) onto (9, 18) Up-arrow launches north through row 16 wall to Stop tile at (9, 15).
-  - Item Ball at (9, 17).
-- Northern / Western Sector (rows 0-15):
-  - Accessible via (9, 18) Up spin tile landing at (9, 15).
-- Stairs Down to B4F: In northern/western sector (currently exploring).
+  - Col 9 is an exit chute from the northern maze into the southern corridor.
+  - Item Ball at (9, 17) [Collected Turn 12404 - TM10 Double-Edge].
 
 ## Verified Trainers
 - Rocket Grunt #1: Located at (17, 25) facing East [Defeated Turn 12273].

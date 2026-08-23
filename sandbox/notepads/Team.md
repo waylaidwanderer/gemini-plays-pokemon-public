@@ -41,9 +41,9 @@
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
+- TMs / HMs: HM01 (Cut), TM07 (Horn Drill), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM24 (Thunderbolt), TM34 (Bide), TM39 (Swift), TM44 (Rest), TM48 (Rock Slide), TM49 (Tri Attack) [Note: TM13 Ice Beam on HYDROS]
 - Valuables:
-  - 1x Nugget (1x tossed Turn 12402 to free bag slot, 1x remaining)
+  - 1x Nugget
 - Consumables & Field Items:
   - 6x Super Potion
   - 2x Escape Rope (Verified from B1F/B2F Item Balls)
@@ -62,14 +62,6 @@
   - Flareon (Fire Stone ¥2100): High Attack (130 base) + Special (110 base). Fire STAB against Grass/Bug/Ice.
   - Vaporeon (Water Stone ¥2100): Bulky Water special tank (redundant with starter HYDROS).
 - **Gym Matchup (Erika - Grass/Poison)**:
-  - Lead: HYDROS (Blastoise Lv 45) with Ice Beam (10/10 PP) to easily sweep Victreebel, Tangela, and Vileplume.
+  - Lead: HYDROS (Blastoise Lv 46) with Ice Beam (6/10 PP) to sweep Erika's team.
 - **Team Rocket Hideout Plan**:
   - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
-  - ATLAS (Machop) and TERRA (Geodude) available for physical matchups against Raticate, Drowzee, and Koffing.
-
-## Pre-Dungeon Supply & Readiness Checklist (Rocket Hideout B1F-B4F)
-- Party Readiness:
-  - Lead: HYDROS (Blastoise Lv 45) - HP 149/149, Special 107. Moves: Ice Beam (10/10), Bubblebeam (20/20), Bite (25/25), Skull Bash (15/15). Total offensive PP: 70 moves. Overlevels all dungeon encounters (Lv 20-29) by 15-25 levels.
-  - Physical Tanks / Reserves: TERRA (Geodude Lv 21, Dig/Rock Throw), ATLAS (Machop Lv 15, Karate Chop), PRISM (Eevee Lv 25).
-- Tactical Policy: One-shot grunts with Bubblebeam/Bite/Ice Beam. Flee wild encounters if any using 1-turn protocol.
-- Optional Supplies: Celadon Dept Store 2F is available immediately nearby if Super Potions / Escape Ropes are desired after obtaining Silph Scope.

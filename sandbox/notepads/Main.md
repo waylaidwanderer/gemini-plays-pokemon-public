@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B3F (x=20, y=18)
+- Location: Team Rocket Hideout B2F (x=22, y=10)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -34,3 +34,6 @@
 - `Locations/LavenderTown`: Lavender Town layout, buildings, Pokémon Tower, Name Rater, Pokémart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
+- `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, grunts, elevator
+- `Locations/RocketHideoutB2F`: Rocket Hideout B2F layout, conveyor network solutions
+- `Locations/RocketHideoutB3F`: Rocket Hideout B3F layout, grunts, elevator
