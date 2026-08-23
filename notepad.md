@@ -1574,3 +1574,9 @@
 - B4F (26, 17): TM02 Razor Wind [Claimed]
 
 <hr>
+
+<h1><code>Locations/RocketHideoutB3F.md</code></h1>
+
+
+
+<hr>
