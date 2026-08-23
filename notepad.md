@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B3F (x=21, y=25)
+- Location: Team Rocket Hideout B3F (x=10, y=18)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -39,7 +39,6 @@
 - `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, grunts, elevator
 - `Locations/RocketHideoutB2F`: Rocket Hideout B2F layout, conveyor network solutions
 - `Locations/RocketHideoutB3F`: Rocket Hideout B3F layout, grunts, elevator
-
 
 <hr>
 
