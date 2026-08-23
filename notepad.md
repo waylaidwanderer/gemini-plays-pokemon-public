@@ -1534,7 +1534,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Walk RIGHT along Row 5 across Column 13 to 1F East (21, 5) (since Column 13 is permanently open on Row 5!).
 
 4. **Warp DOWN to B1F East & Toggle Switch to State B:**
-   - Walk to B1F East stairs at (22, 2): (21, 5) -> (21, 2) -> (22, 2) -> Step UP to warp DOWN (landing at (22, 2) on B1F East).
+   - Walk to B1F East stairs at (22, 2): Accessible ONLY in State B, because the gate at (22, 2) on 1F East is CLOSED in State A and OPEN in State B (verified Turn 56693).
    - Walk to B1F East switch at (15, 6): (22, 2) -> (22, 6) -> (15, 7) -> Face UP to (15, 6) and toggle the switch to State B!
 
 5. **Retrieve Secret Key & DIG Out:**
@@ -1599,5 +1599,9 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **Solid Separation Wall (Column 18):** Column 18 is a solid permanent wall separating 1F West from 1F East, blocking all horizontal traversal between the two halves of the floor.
 - **Warp to 2F West:** The staircase at `(5, 10)` on 1F West warps the player UP to 2F West. This staircase is accessed from the South side (standing at `(6, 10)` and stepping LEFT onto `(5, 10)`).
 - **Horizontal Openness (Row 7):** Row 7 on 1F West is completely open horizontally from Column 5 to Column 17.
+## State-Dependent Spatial Barriers (Verified)
+- **Row 5 Column 21 Shutter Gate (1F East):** CLOSED in State A, OPEN in State B (verified Turns 56673-56699).
+- **B1F East Stairs Gate at (22, 2) (1F East):** CLOSED in State A, OPEN in State B (verified Turn 56693).
+
 
 <hr>
