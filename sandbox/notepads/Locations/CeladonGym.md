@@ -26,3 +26,10 @@
   - PP Budget: 5/10 Ice Beam PP remaining (3 required for sweep, 2 buffer).
   - Backup Offensive Moves: Skull Bash (15/15), Bite (23/25), Bubblebeam (20/20).
   - Status Risk: Erika's team uses Sleep Powder / Stun Spore. If HYDROS is afflicted, Awakening / Parlyz Heal are in inventory, or switch to ATLAS / PRISM as backup.
+
+## Gym Completion & Rewards (Verified Turn 13822)
+- **Leader Erika Defeated**: Turn 13821
+  - Team swept: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29 (all OHKOed by HYDROS Ice Beam).
+  - Rewards: RAINBOW BADGE (4/8 Badges) + TM21 (Mega Drain).
+  - Badge Effects: Pokémon up to Lv 50 obey; allows HM04 Strength field usage.
+- **Exit Warp**: Carpet at (4..5, 17) -> step Down to row 18 warps directly to Celadon City at (12, 28).

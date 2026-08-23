@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Gym (4, 4) -> Rainbow Badge & TM21 obtained! Heading to Route 16 for HM02 Fly
+- Location: Celadon Gym (5, 17) -> At exit mat with Rainbow Badge & TM21! Exiting to Celadon City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

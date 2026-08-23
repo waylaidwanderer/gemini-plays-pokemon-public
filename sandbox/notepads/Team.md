@@ -4,7 +4,7 @@
 1. HYDROS (Blastoise) - Lv 48
    - Stats (Verified at Lv 48): Max HP 159 (HP: 134/159), Attack 109, Defense 121, Speed 111, Special 115
    - Type: Water
-   - Moves: Skull Bash (15/15), Ice Beam (3/10), Bite (24/25), Bubblebeam (20/20)
+   - Moves: Skull Bash (14/15), Ice Beam (0/10), Bite (24/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Lead)
 2. ECHO (Zubat) - Lv 9
    - Stats: Max HP 26 (HP: 19/26)
@@ -61,7 +61,3 @@
   - Jolteon (Thunderstone ¥2100): High Speed (130 base) + High Special (110 base). STAB Thunderbolt access gives team powerful Electric coverage against Water/Flying types (Lorelei, Lance's Gyarados, Rival's Pidgeot/Charizard/Blastoise). Strongly recommended!
   - Flareon (Fire Stone ¥2100): High Attack (130 base) + Special (110 base). Fire STAB against Grass/Bug/Ice.
   - Vaporeon (Water Stone ¥2100): Bulky Water special tank (redundant with starter HYDROS).
-- **Gym Matchup (Erika - Grass/Poison)**:
-  - Lead: HYDROS (Blastoise Lv 46) with Ice Beam (6/10 PP) to sweep Erika's team.
-- **Team Rocket Hideout Plan**:
-  - Lead: HYDROS with Ice Beam / Bite / Bubblebeam.
