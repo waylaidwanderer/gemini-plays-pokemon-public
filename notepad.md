@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Department Store 1F (3, 7) -> Walking to (3, 4) to open Start Menu and use Escape Rope
+- Location: Celadon City Western Alleyway (5, 14) -> Walking east along row 14 to (16, 15) to connect to Central Garden and Southern Boulevard
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
