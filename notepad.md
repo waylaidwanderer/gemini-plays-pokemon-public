@@ -1509,7 +1509,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as an UP warp to 3F East).
 - **1F East gate at `(15, 8)`:** CLOSED.
 - **B1F North-Central gate at `(9, 5)`:** OPEN (allows horizontal crossing from B1F East NORTH to B1F West NORTH!).
-- **2F East Row 7 Gates (Columns 14-17):** CLOSED (blocks vertical crossing on Column 15 on Row 7).
+- **2F East Row 7 Gates (Columns 14-17):** CLOSED (blocks vertical crossing on Column 15 on Row 7). We have empirically verified on foot that Columns 15 and 16 are CLOSED on Row 7 of 2F East in State B (Turns 55256, 55259).
 - **3F West Row 9 Gates:** OPEN.
 - **3F West Row 12 Gates:** CLOSED.
 
@@ -1542,10 +1542,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
    - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
    - Use **DIG** to escape back to Cinnabar Island!
-## Chronological Turn-Stamps & State Transitions
-- **Turn 54967:** Toggled 3F West Mewtwo statue switch to State B (Mansion was in State A after entry at Turn 54917).
-- **Turn 55006:** Verified we were in State A (discovered Row 12 gate at (11, 12) was OPEN, meaning a previous reset or mis-toggle occurred).
-- **Turn 55011:** Toggled 3F West switch at (2, 11) to State B from (2, 12) facing UP (Mansion is now confirmed in State B).
+
 
 
 ## Discovered Spatial Constraints & Structural Barriers
