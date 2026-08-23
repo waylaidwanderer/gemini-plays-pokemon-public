@@ -24,6 +24,7 @@ def walk_step(direction):
             mgba.press_buttons([direction, "sleep 150"])
             pos_after = mgba.get_coordinates()
             attempts += 1
+    return pos_after
 
 def walk_to(target_x, target_y):
     max_steps = 100
@@ -45,20 +46,24 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Phase 2 Part 2: Walking from (10, 3) on 2F East back to 3F West, and crossing to 3F East (12, 9)...")
+print("Starting cross_2f_west_to_3f_east from:", mgba.get_coordinates())
 
-# 1. Walk DOWN Column 10 to Row 11
-walk_to(10, 11)
-# 2. Walk LEFT along Row 11 to Column 7
+# 1. Warp UP to 3F West from (6, 13)
+print("Walking to (7, 11)...")
 walk_to(7, 11)
-# 3. Step UP onto stairs to warp UP to 3F West
+print("Stepping UP to warp...")
 walk_step("Up")
 time.sleep(1.0)
-print("Arrived on 3F West. Position:", mgba.get_coordinates())
+print("Position on 3F West:", mgba.get_coordinates())
 
-# 4. Walk UP Column 7 to Row 9
-walk_to(7, 9)
-# 5. Walk RIGHT along Row 9 to Column 12 on 3F East (OPEN in State B!)
-walk_to(12, 9)
+# 2. Cross horizontally to 3F East (12, 11) -> (14, 11) -> (15, 11)
+print("Crossing horizontally on Row 11...")
+walk_to(12, 11)
+walk_to(14, 11)
+print("Stepping Right to warp down...")
+walk_step("Right")
+time.sleep(1.0)
 
-print("Successfully crossed to 3F East! Position:", mgba.get_coordinates())
+print("Final position on 2F East:", mgba.get_coordinates())
+screenshot_file = mgba.take_screenshot()
+print("Screenshot saved to:", screenshot_file)
