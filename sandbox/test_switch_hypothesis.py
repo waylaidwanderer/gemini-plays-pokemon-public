@@ -46,40 +46,27 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-def test_vertical_path(col):
+def test_column(col):
     print(f"Testing Column {col}...")
-    walk_to(col, 12)
+    walk_to(col, 13) # Walk to Row 13 (which is fully open)
     
-    # Try to walk UP as far as possible
-    max_y = 12
-    for target_y in range(11, 8, -1):
+    # Try to walk UP to Row 9
+    max_y = 13
+    for target_y in range(12, 8, -1):
         pos_before = mgba.get_coordinates()
         walk_step("Up")
         pos_after = mgba.get_coordinates()
         if pos_before['y'] == pos_after['y']:
+            print(f"  Blocked at Row {pos_before['y']}!")
             break
         max_y = pos_after['y']
     
-    print(f"  Reached y={max_y} on Column {col}")
-    # Walk back to Row 12
-    walk_to(col, 12)
+    print(f"  Column {col} reached max_y={max_y}")
+    walk_to(col, 13)
 
-# Starting from (6, 10) in State A
-print("Starting state test...")
-walk_to(2, 12)
+# Starting from (2, 12)
+print("Starting systematic State B vertical path test...")
+for col in [2, 3, 4, 5, 6]:
+    test_column(col)
 
-print("--- TESTING IN STATE A ---")
-for col in [3, 4, 5, 6]:
-    test_vertical_path(col)
-
-print("Toggling switch to State B...")
-walk_to(2, 12)
-mgba.press_buttons(["Up", "sleep 150", "A", "sleep 500"])
-mgba.press_buttons(["A", "sleep 500"])
-mgba.press_buttons(["B", "sleep 200", "B", "sleep 200"])
-
-print("--- TESTING IN STATE B ---")
-for col in [3, 4, 5, 6]:
-    test_vertical_path(col)
-
-print("Final position:", mgba.get_coordinates())
+print("Test complete! Final position:", mgba.get_coordinates())
