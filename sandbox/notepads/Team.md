@@ -28,8 +28,8 @@
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
 6. PRISM (Eevee) - Lv 25
    - Stats: Max HP 67 (HP: 67/67), Type: Normal
-   - Moves: Tackle, Sand-Attack, Quick Attack
-   - Role: Multi-type evolution potential (Fire/Water/Thunder Stone ready at Celadon Dept Store 4F) [Claimed Turn 12086 at Celadon Mansion Roof]
+   - Moves: Swift (20/20), Sand-Attack, Quick Attack
+   - Role: Multi-type evolution potential (Fire/Water/Thunder Stone ready at Celadon Dept Store 4F) [Claimed Turn 12086 at Celadon Mansion Roof; taught TM39 Swift Turn 13277]
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
