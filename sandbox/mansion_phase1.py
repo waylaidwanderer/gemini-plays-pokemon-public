@@ -24,6 +24,7 @@ def walk_step(direction):
             mgba.press_buttons([direction, "sleep 150"])
             pos_after = mgba.get_coordinates()
             attempts += 1
+    return pos_after
 
 def walk_to(target_x, target_y):
     max_steps = 100
@@ -45,44 +46,38 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Phase 3: DIG escape to Cinnabar Island, re-enter Mansion (State B), and cross to 1F East...")
+print("Starting Phase 1 from:", mgba.get_coordinates())
 
-# 1. Escape via DIG
-print("Opening start menu...")
-mgba.press_buttons(["Start", "sleep 300"])
-# Move cursor to POKéMON (usually UP once since last was ITEM, or we can just press UP to be safe)
-mgba.press_buttons(["Up", "sleep 150", "A", "sleep 600"])
-# Select TRUFFLE in Slot 6 (5 steps DOWN)
-for _ in range(5):
-    mgba.press_buttons(["Down", "sleep 150"])
-mgba.press_buttons(["A", "sleep 500"])
-# Select DIG (Option 1)
-mgba.press_buttons(["A", "sleep 1000"])
-time.sleep(2.0)
+# 1. Warp UP to 3F West
+print("Walking to 3F West stairs...")
+walk_to(7, 11)
+walk_step("Up") # Step UP to warp to 3F West
+time.sleep(1.0)
+print("Position on 3F West:", mgba.get_coordinates())
 
-pos = mgba.get_coordinates()
-print("Position after DIG:", pos)
+# 2. Walk to 3F East and warp DOWN to 2F East
+print("Walking horizontally to 3F East...")
+walk_to(12, 11)
+walk_to(14, 11)
+walk_step("Right") # Step onto (15, 11) to warp
+time.sleep(1.0)
+print("Position on 2F East:", mgba.get_coordinates())
 
-if pos['x'] == 11 and pos['y'] == 12:
-    print("Successfully escaped to Cinnabar Island outside Pokémon Center!")
-    # 2. Walk to Mansion and enter
-    print("Walking to Mansion Entrance...")
-    walk_to(18, 12)
-    walk_to(18, 5)
-    walk_to(6, 5)
-    walk_to(6, 4)
-    walk_step("Up") # Step UP to enter
-    time.sleep(1.0)
-    
-    pos_inside = mgba.get_coordinates()
-    print("Entered Mansion 1F. Position:", pos_inside)
-    
-    if pos_inside['x'] == 5 and pos_inside['y'] == 27:
-        # 3. Walk to Row 5 Column 21 on 1F East (cross Column 13 Row 5 gate, which is OPEN in State B!)
-        print("Walking UP Column 5 to Row 5...")
-        walk_to(5, 5)
-        print("Crossing horizontally on Row 5 to 1F East (21, 5)...")
-        walk_to(21, 5)
-        print("Arrived on 1F East! Position:", mgba.get_coordinates())
-else:
-    print("Failed to escape via DIG. Still inside Mansion?")
+# 3. Warp DOWN to 1F East
+print("Warping down to 1F East...")
+walk_to(18, 11)
+walk_step("Up") # Step UP onto (18, 10) to warp
+time.sleep(1.0)
+print("Position on 1F East:", mgba.get_coordinates())
+
+# 4. Warp DOWN to B1F East North
+print("Warping down to B1F East North...")
+walk_to(21, 10)
+walk_to(21, 2)
+walk_to(22, 2)
+walk_step("Up") # Step UP to warp
+time.sleep(1.5)
+
+print("Final position of Phase 1 on B1F East North:", mgba.get_coordinates())
+screenshot_file = mgba.take_screenshot()
+print("Screenshot saved to:", screenshot_file)
