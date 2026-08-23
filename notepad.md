@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Secret House (Route 16 Northwest) (1, 3) -> HM02 Fly obtained! Next: Celadon Dept Store 4F for Thunder Stone & Jolteon evolution
+- Location: Celadon Dept Store 4F (Wiseman Gifts) (5, 5) -> Evolving PRISM into Jolteon, then heading to Lavender Town for Pokémon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1313,7 +1313,6 @@
 - Paved road branches north-west at col 45 (rows 7-9) and south-west at col 45 (rows 12-13).
 
 ## Major Buildings & Points of Interest
-- **Celadon Pokémon Center**: Located at cols 40-43, rows 7-9 with front entrance door at (41, 9) and "POKé" sign at (42, 9).
 - **Celadon Department Store**: Multi-story mega mart located at cols 8-15, rows 2-13 with front entrance door at (13, 3).
 - **Celadon Dept Store Elevator**: Interior at (47, 1..2) with control panel at (47, 0). Accessible from 1F at (4, 1) and connects directly to 1F, 2F, 3F, 4F, 5F.
 - **Celadon Mansion (Front Entrance)**: Located at (24, 9). Multi-story apartment building. 1F: Old Woman at (1, 5) ("MEOWTH even brings money home!"), Nidoran♀ at (0, 5), Meowth at (4, 7), Clefairy at (0, 8). Visible staircases to upper floors at (2, 1) and (7, 1).
@@ -1406,7 +1405,6 @@
 - **Bookshelf Residence**: Exterior door at (7, 13). Interior: 8x8 residence with bookshelves at (0..1, 1), desk at (3, 3), and resident at (4, 3). Exit at (2..3, 7).
 - **1F Service Mart**: Exterior door at (15, 13). Interior: 8x8 mart with clerk at (0..1, 4..5) selling Great Balls, Super Potions, Revives, Escape Ropes. Exit at (3..4, 7).
 - **Celadon Hotel**: Exterior door at (10, 21) in southern canal basin. Exit from north door warps to (10, 15), but cannot be entered from (10, 15) due to boundary trees.
-- **Celadon Pok�mon Center**: Front door at (41, 9).
 
 ## Verified Shortcuts & Ledge Topology
 - **Garden Cut Shortcut**: Located at (41, 10). Clears a path connecting the Pok�mon Center upper lawn directly to the eastern tall grass / garden.
@@ -1425,7 +1423,6 @@
 - **Celadon Mansion**: cols 19-25, rows 2-9 (Front Door: (24, 9), Rear Door: (24, 4)).
 - **Celadon Department Store**: cols 8-15, rows 2-13 (Main Door: (13, 3) on northern row 3; Hotel/Service Door: (10, 13) on southern row 13).
 - **Bookshelf Residence**: cols 6-8, rows 10-13 (Front Door: (8, 13)).
-- **Celadon Pokémon Center**: cols 40-43, rows 7-9 (Front Door: (41, 9)).
 - **Game Corner**: cols 26-29, rows 18-20 (Front Door: (28, 19)).
 - **Prize Exchange**: cols 30-33, rows 18-21 (Front Door: (33, 19)).
 - **Celadon Gym**: cols 10-14, rows 24-28 (Front Door: (12, 27)).
@@ -1439,6 +1436,7 @@
 ## Eastern Corridor to Northern Grass Boulevard (Empirically Verified Turn 13863)
 - **Eastern Corridor (cols 47-48, rows 1-10)**: Wide open 2-tile wide vertical grass lawn connecting Eastern Avenue at (47..48, 10) directly north to the Northern Alleyway Boulevard at (47..48, 1..2).
 - **Access Route**: From Eastern Avenue (45, 10), walk east to (47, 10), then straight north along cols 47-48 up to row 2 without encountering any tree barriers. From row 2, the northern corridor runs west uninterrupted across the entire top edge of Celadon City to Route 16 at (0, 2).
+
 
 <hr>
 
