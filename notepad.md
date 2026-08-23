@@ -1427,6 +1427,7 @@
 # Team Rocket Hideout B2F - Conveyor Network & Topology
 
 ## Verified Conveyor Network Routes
+- Shortcut Route: (17, 11) [Left] -> slides across row 11 -> (12, 11) [Up] -> (12, 9) [Left] -> lands on Stop Tile (2, 9) [Verified Turn 12745].
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
 - Route 2: From (14, 12) -> Up to (14, 11) -> Left to (12, 11) [Up] -> launches to Stop Tile (2, 9).
 - Route 3: From (2, 9) -> Right to (3, 9) -> Down to (3, 11) -> Right onto (4, 11) [Right] -> launches to Stop Tile (8, 11).
