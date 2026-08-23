@@ -16,17 +16,5 @@
   - Central table at (10..13, 12..13).
 - Central & Southern Sectors (rows 10-25):
   - Item Ball #1 at (11, 14): Hyper Potion / Escape Rope [Collected Turn 12206].
-  - Exploring southern corridors and rooms.
-
-## Verified Trainers & Encounters
-- Rocket Grunt #1: Located at (26, 8) facing West [Defeated Turn 12192].
-  - Team: Drowzee Lv 21, Machop Lv 21. Reward: ¥630.
-  - Pre-battle quote: "Who are you? How did you get here?"
-  - Defeat quote: "Oww! Beaten!"
-- Rocket Grunt #2: Located at (12, 6) facing East [Defeated Turn 12203].
-  - Team: Raticate Lv 21, Raticate Lv 21. Reward: ¥630.
-  - Defeat quote: "Burnt!"
-  - Post-battle quote: "You're not going to get away with this, brat!"
-
-- Rocket Grunt #3: Located at (28, 18) in the elevator lobby [Discovered Turn 12659].
-- Elevator Doors: Located at (24..25, 16). Wall divider at (26..28, 16).
+  - Elevator Doors: Located at (24..25, 16). Wall divider at (26..28, 16).
+  - Rocket Grunt #3: Located at (28, 18).
