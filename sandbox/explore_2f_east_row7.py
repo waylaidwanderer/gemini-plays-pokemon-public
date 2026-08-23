@@ -46,41 +46,24 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# We are at (2, 12) on 2F West in State B
-print("Current position:", mgba.get_coordinates())
+# Starting from (6, 10) on 2F West in State B
+print("Starting position:", mgba.get_coordinates())
 
-# Walk to 2F West (5, 11) then up Column 5 to Row 3
-print("Walking to (5, 3)...")
-walk_to(5, 11)
-walk_to(5, 3)
-print("Position on 2F West Row 3:", mgba.get_coordinates())
+# 1. Walk to Row 3
+print("1. Walking to (6, 3)...")
+walk_to(6, 3)
 
-# Cross to 2F East at (15, 3)
-print("Crossing horizontally on Row 3 to 2F East...")
-walk_to(15, 3)
-print("Position on 2F East:", mgba.get_coordinates())
+# 2. Walk Right to Column 18 Row 3
+print("2. Walking to (18, 3)...")
+walk_to(18, 3)
 
-# Now we systematically test Columns 21, 20, 19, 18, 17, 16, 15 from Row 3 down to Row 11
-for col in [21, 20, 19, 18, 17, 16, 15]:
-    print(f"Testing Column {col}...")
-    walk_to(col, 3)
-    col_success = True
-    for row in range(4, 12):
-        pos_before = mgba.get_coordinates()
-        walk_step("Down")
-        pos_after = mgba.get_coordinates()
-        if pos_before['y'] == pos_after['y']:
-            print(f"  Column {col} blocked at Row {pos_before['y']}!")
-            col_success = False
-            break
-    if col_success:
-        print(f"SUCCESS! Column {col} is fully open from Row 3 to Row 11! Current position:", mgba.get_coordinates())
-        # Let's save screenshot
-        screenshot_file = mgba.take_screenshot()
-        print("Screenshot saved to:", screenshot_file)
-        break
-    else:
-        # Move back to Row 3
-        walk_to(col, 3)
+# 3. Walk Down Column 18 to (18, 10) to warp DOWN to 1F East
+print("3. Walking DOWN Column 18 to (18, 10) to warp to 1F East...")
+walk_to(18, 10)
 
-print("Final position:", mgba.get_coordinates())
+time.sleep(1.5) # Wait for warp
+print("Position after warp attempt:", mgba.get_coordinates())
+
+# Save screenshot to verify where we landed
+screenshot_file = mgba.take_screenshot()
+print("Screenshot saved to:", screenshot_file)
