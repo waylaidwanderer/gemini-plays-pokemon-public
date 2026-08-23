@@ -24,6 +24,7 @@ def walk_step(direction):
             mgba.press_buttons([direction, "sleep 150"])
             pos_after = mgba.get_coordinates()
             attempts += 1
+    return pos_after
 
 def walk_to(target_x, target_y):
     max_steps = 100
@@ -45,22 +46,12 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-print("Resuming Phase 2: Walking from (6, 8) to 3F East, dropping to B1F East...")
-# First, walk Left to Column 5 to bypass the NPC at (6, 7)
+print("Phase 2 Part 1: Crossing from (7, 8) to 3F East (12, 6)...")
+# Walk to Column 5 to bypass the NPC at (6, 7) and the Row 7/8 walls
 walk_to(5, 8)
 # Walk Up Column 5 to Row 6 (completely open horizontal corridor)
 walk_to(5, 6)
-# Walk Right along Row 6 to Column 19
-walk_to(19, 6)
-# Walk to the Balcony dropping point
-walk_to(19, 12)
-walk_to(21, 12)
-walk_to(21, 15)
-walk_to(19, 15)
-walk_to(19, 16)
-walk_to(18, 16)
-# Drop Left over the railing to warp/drop to B1F East!
-walk_step("Left")
-time.sleep(1.5)
+# Walk Right along Row 6 to Column 12 (on 3F East)
+walk_to(12, 6)
 
-print("Arrived on B1F East! Position:", mgba.get_coordinates())
+print("Arrived on 3F East! Position:", mgba.get_coordinates())
