@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Dept Store 2F (Trainer's Market) -> PRISM evolved into Jolteon! Buying Great Balls to catch a Flying-type for HM02 Fly, then heading to Lavender Town for Pokémon Tower
+- Location: Celadon Dept Store 1F (11, 5) -> Celadon Pok�mon Center (deposit Zubat) -> Route 16 (catch Flying-type for HM02 Fly) -> Lavender Town Pok�mon Tower
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -90,14 +90,24 @@
 - Key Items: HM02 (Fly), Silph Scope, Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain) [Note: TM13 Ice Beam on HYDROS, TM24 Thunderbolt on PRISM]
 - Valuables:
-  - 1x Nugget (Sell at Mart for ¥5000)
+  - 1x Nugget (Sell at Mart for �5000)
 - Consumables & Field Items:
+  - 10x Great Balls (Purchased Turn 14008 at Dept Store 2F for �6000)
   - 5x Super Potion
   - 1x Escape Rope
   - 2x Moon Stone
-  - 1x Water Stone (Purchased at 4F; ready to sell for ¥1050 or keep)
+  - 1x Water Stone (Purchased at 4F; ready to sell for �1050 or keep)
   - 1x Fresh Water (Reserved for Saffron Gate Guard)
   - 2x Soda Pop
+- Funds: �26,314 (Verified Turn 14008)
+
+## Bag Slot Management (20-Item Limit)
+- Current slots filled: ~18-19 slots.
+- Cleanup Strategy: Sell Nugget (�5000) and Water Stone (�1050); unneeded TMs can go to PC Item Storage if space is needed.
+
+## Flying-Type Party Slot Allocation & Capture Plan
+- Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
+- Plan: Deposit ECHO (Zubat Lv 9) at Celadon Pok�mon Center PC -> Party has 5 members -> Catch wild Flying-type (Doduo, Spearow, or Pidgey) on Route 16 -> Enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
 
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
@@ -1431,6 +1441,30 @@
 ## Eastern Corridor to Northern Grass Boulevard (Empirically Verified Turn 13863)
 - **Eastern Corridor (cols 47-48, rows 1-10)**: Wide open 2-tile wide vertical grass lawn connecting Eastern Avenue at (47..48, 10) directly north to the Northern Alleyway Boulevard at (47..48, 1..2).
 - **Access Route**: From Eastern Avenue (45, 10), walk east to (47, 10), then straight north along cols 47-48 up to row 2 without encountering any tree barriers. From row 2, the northern corridor runs west uninterrupted across the entire top edge of Celadon City to Route 16 at (0, 2).
+
+## Celadon Department Store Staircase & Elevator Matrix
+- **1F (Service Counter)**:
+  - Stairs UP to 2F at `(12, 1)` (lands at 2F (12, 2))
+  - Elevator at `(1, 1)` (lands at Elevator (1, 3))
+  - South Exit Doors to Celadon City at `(3, 8)` / `(4, 8)` (warps to Celadon City (5, 14))
+- **2F (Trainer's Market)**:
+  - Stairs DOWN to 1F at `(12, 1)` (lands at 1F (12, 2))
+  - Stairs UP to 3F at `(16, 1)` (lands at 3F (16, 2))
+  - Left Clerk at `(5, 3)` (Items / Great Balls �600)
+- **3F (TV Game Shop)**:
+  - Stairs DOWN to 2F at `(16, 1)` (lands at 2F (16, 2))
+  - Stairs UP to 4F at `(12, 1)` (lands at 4F (12, 2))
+  - Game Shop Clerk at `(16, 5)` (TM18 Counter)
+- **4F (Wiseman Gifts)**:
+  - Stairs DOWN to 3F at `(12, 1)` (lands at 3F (12, 2))
+  - Stairs UP to 5F at `(16, 1)` (lands at 5F (16, 2))
+  - Evolution Stone Clerk at `(5, 7)` (Fire/Thunder/Water/Leaf Stones �2100)
+- **5F (Drugstore)**:
+  - Stairs DOWN to 4F at `(16, 1)` (lands at 4F (16, 2))
+  - Stairs UP to Rooftop at `(12, 1)` (lands at Roof (12, 4))
+- **Roof (Rooftop Square)**:
+  - Stairs DOWN to 5F at `(15, 2)` (lands at 5F (12, 2))
+  - Vending Machines at `(11..12, 1..2)` (Fresh Water, Soda Pop, Lemonade)
 
 
 <hr>
