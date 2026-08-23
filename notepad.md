@@ -88,8 +88,6 @@
 ## Boxed Pokémon (Box 1)
 1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14080 at Celadon Pokémon Center PC]
-   - Stats: Max HP 26, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
 ## Inventory & Resources
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
@@ -118,7 +116,6 @@
 ## Cave Attrition & PP Strategy
 - Encounter Policy: Always select RUN on turn 1 to preserve move PP.
 - Verified 1-Turn Battle Flee Protocol: ["B", "B", "B", "Down", "Right", "A", "B"] (safely skips intro text, opens battle menu without accidental submenu entry, navigates to RUN, selects it, and returns cleanly to overworld in 1 turn).
-
 
 <hr>
 
