@@ -1467,8 +1467,6 @@
 
 ## Floor Layout & Verified Topology
 - Eastern Wing (cols 18-25, rows 16-27):
-  - Stairs Up to B2F at (21, 24).
-  - Elevator Shaft at (24..25, 16..19) (needs Lift Key).
   - Central barrier block at cols 12-17, rows 19-24.
   - Northern corridor connecting to spin maze at row 18 (cols 10-20).
   - Southern corridor along rows 25-26 (cols 10-22).
