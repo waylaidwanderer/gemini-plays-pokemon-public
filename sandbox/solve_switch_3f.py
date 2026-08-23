@@ -46,15 +46,33 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting from (9, 9) on 3F West
-print("Walking to switch at (2, 11)...")
-walk_to(9, 11)
-walk_to(5, 11)
-walk_to(5, 13)
-walk_to(1, 13)
-walk_to(1, 11)
+print("Current coordinates:", mgba.get_coordinates())
 
-print("Toggling 3F West switch to State B...")
-mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500"])
-print("Switch toggled successfully! Position:", mgba.get_coordinates())
+# 1. Walk to switch at (2, 11) avoiding stairs at (5, 10)
+print("Walking to (6, 12)...")
+walk_to(6, 12)
+print("Walking to (2, 12)...")
+walk_to(2, 12)
 
+# 2. Turn UP to face switch at (2, 11) and toggle to State B
+print("Toggling switch to State B...")
+mgba.press_buttons(["Up", "sleep 150", "A", "sleep 500"]) # Press A on switch
+mgba.press_buttons(["A", "sleep 500"]) # Select YES
+mgba.press_buttons(["B", "sleep 200", "B", "sleep 200"]) # Clear text
+
+# 3. Walk to 2F East Row 3 Column 18
+print("Walking back to Column 6...")
+walk_to(6, 12)
+print("Walking UP Column 6 to Row 3...")
+walk_to(6, 3)
+print("Walking horizontally on Row 3 to Column 18...")
+walk_to(18, 3)
+
+# 4. Walk DOWN Column 18 to stairs at (18, 10) to warp DOWN to 1F East
+print("Walking DOWN Column 18 to warp to 1F East...")
+walk_to(18, 10)
+
+time.sleep(1.5)
+print("Final coordinates after script:", mgba.get_coordinates())
+screenshot_file = mgba.take_screenshot()
+print("Screenshot saved to:", screenshot_file)
