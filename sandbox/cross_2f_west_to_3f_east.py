@@ -3,31 +3,24 @@ import time
 
 def run_from_battle():
     print("Stuck! Attempting to run from battle...")
-    # Press B multiple times to skip any intro text or attack messages
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 150"])
-    # Press Right, Down, A to select RUN and escape
     mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 600"])
-    # Press B multiple times to clear "Got away safely!" or any enemy attack text
     for _ in range(4):
         mgba.press_buttons(["B", "sleep 150"])
 
 def walk_step(direction):
     pos_before = mgba.get_coordinates()
-    # Press the direction button
     mgba.press_buttons([direction, "sleep 150"])
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
-        # We might have turned, try one more time
         mgba.press_buttons([direction, "sleep 150"])
         pos_after = mgba.get_coordinates()
         
-        # If still stuck, we are probably in a battle!
         attempts = 0
         while pos_before == pos_after and attempts < 10:
             run_from_battle()
-            # Try to walk again to see if we escaped
             mgba.press_buttons([direction, "sleep 150"])
             pos_after = mgba.get_coordinates()
             attempts += 1
@@ -52,13 +45,16 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Master Route in State A on 2F
-print("Starting 2F cross to 3F East stairs...")
+print("Executing Phase 2 Part 1: Crossing 3F West to 3F East (12, 9)...")
 print("Initial position:", mgba.get_coordinates())
 
-walk_to(12, 11)
-walk_to(12, 3)
-walk_to(15, 3)
-walk_to(15, 11) # This tile is the warp UP to 3F East
-time.sleep(1.0)
-print("Position after warp (on 3F East):", mgba.get_coordinates())
+# Walk DOWN Row 13 detour
+walk_to(1, 13)
+# Walk RIGHT along Row 13 to Column 5
+walk_to(5, 13)
+# Walk UP Column 5 to Row 9
+walk_to(5, 9)
+# Walk RIGHT along Row 9 across Column 11 to 3F East (12, 9)
+walk_to(12, 9)
+
+print("Arrived at 3F East (12, 9). Position:", mgba.get_coordinates())
