@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (33, 8) -> ECHO deposited in Box 1 (Party: 5) -> Exploring Route 16 tall grass patches (rows 8, 6-7, 2-3) to catch wild flyer (Doduo/Spearow/Fearow) -> Nickname ZEPHYR -> Teach HM02 Fly -> Fly to Lavender Town
+- Location: Route 8 (17, 12) -> ECHO in Box 1 (Party: 5) -> Pacing southern tall grass plain (cols 16-22, rows 12-13) to catch wild flyer (Pidgey/Pidgeotto) with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly in field -> Fly to Lavender Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -76,7 +76,7 @@
    - Type: Electric
    - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
    - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
-6. [OPEN SLOT 6] - Reserved for Route 16 wild flyer capture (Doduo / Spearow / Fearow)!
+6. [OPEN SLOT 6] - Reserved for Route 8 wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
@@ -105,7 +105,7 @@
 
 ## Flying-Type Party Slot Allocation & Capture Plan
 - Rule: Full party of 6 auto-transfers new wild captures straight to PC Box 1.
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 16 enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
+- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 enters Slot 6 immediately -> Teach HM02 Fly in field -> Fly directly to Lavender Town!
 
 
 <hr>
@@ -1147,34 +1147,31 @@
 
 <h1><code>Locations/Route8</code></h1>
 
-# Route 8 - Points of Interest & Notes
+# Route 8 - Points of Interest, Topography & Encounter Zones
 
 ## Connections
-- East: Lavender Town at (59, 8..9) [Entered Turn 11103 at (59, 8)]
-- West: Saffron City East Gatehouse & Route 8-7 Underground Path Entrance
+- West: Route 7 / Celadon City via Underground Path (West entrance at Route 7 (5, 13); East entrance at Route 8 (13, 3))
+- East: Lavender Town at (59, 8) [Traversed Turn 11103]
+- Middle: Saffron East Gatehouse at cols 3-9, rows 8-11 (door at (9, 9))
 
-## Layout & Landmarks
-- Eastern entrance connects via paved road at row 8 (cols 56-59).
-- Mountain barrier to the north (row 7) and fence line to the south (row 9).
-## Verified Trainers & Encounters
-- Lass #1: Located at (51, 12) [Defeated Turn 11109]. Team: Clefairy Lv 22, Clefairy Lv 22. Reward: ¥330.
-  - Pre-battle: "Do you like cute, round and fluffy POKéMON?"
-  - Defeat quote: "Don't be so mean to my CLEFAIRY!"
-- Gambler #1: Located at (46, 13) [Defeated Turn 11112]. Team: Growlithe Lv 24, Vulpix Lv 24. Reward: ¥1680.
-  - Pre-battle: "I'm a rambling, gambling dude!"
-- Super Nerd #1: Located at (42, 6) [Defeated Turn 11118]. Team: Grimer Lv 22, Muk Lv 22. Reward: ¥528.
-  - Pre-battle: "You need strategy to win at this!"
-- Lass #2 (Trainer Line): Located at (26, 5) [Defeated Turn 11126]. Team: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24. Reward: ¥360.
-  - Pre-battle: "MEOWTH is so cute, meow, meow, meow!"
-  - Defeat quote: "I think PIDGEY and RATTATA are cute too!"
-- Lass #3 (Trainer Line): Located at (26, 6) [Defeated Turn 11135]. Team: Pidgey Lv 19, Rattata Lv 19, Nidoran♂ Lv 19, Meowth Lv 19, Pikachu Lv 19. Reward: ¥285.
-  - Pre-battle: "We must look silly standing here like this!"
-- Gambler #2: Located at (13, 9) [Defeated Turn 11140]. Team: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22. Reward: ¥1540.
-  - Pre-battle: "I'm a rambling, gambling dude!"
-- Super Nerd #2: Located at (26, 3) [Defeated Turn 11381]. Team: Koffing Lv 26. Reward: �650.
-  - Defeat quote: "I'll stay with school."
-- Super Nerd #3: Located at (11, 5) [Defeated Turn 11404]. Team: Koffing Lv 20, Voltorb Lv 20, Magnemite Lv 20. Reward: �500.
-  - Defeat quote: "Ow! Meltdown!"
+## Topography & Verified Encounter Zones (Turn 14221)
+- **Underground Path East Building**: Located at `(13, 3)`. South exit door at `(3..4, 8)` warps to Route 8 at `(13, 4)`.
+- **Tall Grass Fields (Wild Encounter Zones)**:
+  - **West Vertical Strip**: Column 16, rows 4-11 (pure tall grass flanked by path on west and stone pillars on east).
+  - **Southern Grass Plain**: Rows 12-13, cols 16-22 (continuous 7x2 open tall grass field directly south of stone pillars).
+  - **Eastern Grass Fields**: Cols 40-55, rows 6-14 (open plain near Lavender Town).
+- **Wild Encounter Pool (Pokémon Blue)**:
+  - Pidgey (Lv 18, 20, 22) - ~30% encounter rate [Target Flyer for HM02 Fly]
+  - Pidgeotto (Lv 22) - ~5% encounter rate
+  - Meowth (Lv 17, 19, 20)
+  - Sandshrew (Lv 17, 19)
+  - Vulpix / Growlithe (Lv 18, 20)
+  - Kadabra (Lv 20, 26)
+
+## Verified Trainers Gauntlet (Defeated Turns 11103-11142)
+- Lass at (51, 12), Lass at (26, 5), Lass at (26, 6)
+- Gambler at (46, 13), Gambler at (13, 9)
+- Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
 
 
 <hr>
@@ -1188,26 +1185,15 @@
 - East: Saffron City West Gatehouse at cols 11-17, rows 8-11 (door at (11, 9))
 - South: Underground Path Entrance Building at (5, 13) connecting via 48-tile tunnel to Route 8
 
+## Tile Semantics & Wild Grass vs Cosmetic Floral Decoration (Verified Turn 14208)
+- **Cosmetic Flowerbeds (rows 6-7, cols 8-9)**: Contains tile `0x20` / `0x52` (large centered red tulip/rose flower). Empirical testing (Turns 14205-14208) proved these are cosmetic town/plaza decorations that generate ZERO wild encounters.
+- **True Wild Grass Enclosure**: Located behind the Cut bush at `(12, 3)` (leafy checkerboard grass blade texture tile `0x08` / `0x3C`).
+
 ## Layout & Verified Sectors
-1. **Western Highway to Celadon City (rows 2-3, cols 0-6)**:
-   - 2-tile wide paved highway running west into Celadon City.
-   - North border (rows 0-1, cols 0-6): Solid tree line.
-   - South border (rows 4-8, cols 0-1): Solid tree line.
+1. **Western Highway to Celadon City (rows 2-3, cols 0-6)**: 2-tile wide paved highway.
+2. **Underground Path Building (5, 13)**: Direct fast-travel connection to Route 8.
+3. **Middle Avenue & Saffron Gatehouse (rows 8-10, cols 2-16)**: Connects to Saffron West Gatehouse at (11, 9).
 
-2. **Central Tall Grass Enclosure (rows 2-7, cols 7-13)**:
-   - Enclosed wild grass area (Pidgey, Bellsprout, Vulpix, Meowth, Abra).
-   - Brown checkered fence on west boundary (col 7, rows 2-7) and south boundary (row 7, cols 5-7).
-   - Cut tree located at (12, 3).
-   - South opening at col 8 (rows 7-8) allows entry/exit between grass patch and southern roads.
-
-3. **Middle Avenue & Saffron Gatehouse (rows 8-10, cols 2-16)**:
-   - Paved plaza across rows 8-10 connecting to Saffron West Gatehouse at (11, 9).
-   - Saffron West Gatehouse Guard at interior (2, 1) blocks entrance to Saffron City until thirst is quenched.
-
-4. **Southern Sector & Underground Path Building (rows 12-15, cols 2-16)**:
-   - Underground Path door at (5, 13) with stairs at interior (4, 4) leading to Route 8.
-   - Signpost at (3, 13): "UNDERGROUND PATH CELADON CITY - LAVENDER TOWN".
-   - Separated from middle avenue by horizontal row 11 hop-down ledge, with northbound passage at col 8 (8, 11).
 
 <hr>
 
@@ -1709,6 +1695,18 @@
 
 <h1><code>Locations/RocketHideoutB3F</code></h1>
 
+# Team Rocket Hideout B3F - Layout & Topology
+
+## Connections
+- Stairs Up to B2F: Located at (21, 22).
+- Stairs Down to B4F: Located at (19, 10).
+- Elevator: Accessible on eastern sector.
+
+## Verified Trainers & Items
+- Rocket Grunt at (17, 25) [Defeated]
+- Rocket Grunt at (18, 17) [Defeated]
+- Rocket Grunt at (11, 2) [Defeated -> Dropped LIFT KEY]
+- Item Ball: TM10 (Double-Edge) / Rare Candy
 
 
 <hr>
