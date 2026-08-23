@@ -50,22 +50,46 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (19, 5) on B1F East
-print("Starting B1F Secret Key retrieval from (19, 5)...")
+# Starting at (5, 11) on 3F West in State B
+print("Starting ultimate Secret Key script from (5, 11) on 3F West...")
 
-# PHASE 1: Walk horizontally along B1F Row 5 to (1, 5)
-print("PHASE 1: Walking along Row 5 to (1, 5)...")
+# PHASE 1: Walk detour around NPC and walk to pitfall at (26, 6)
+print("PHASE 1: Walking to pitfall at (26, 6)...")
+walk_to(5, 12)
+walk_to(8, 12)
+walk_to(8, 11)
+walk_to(12, 11)
+walk_to(12, 6)
+walk_to(26, 6)
+print("Should have dropped! Waiting 2 seconds...")
+time.sleep(2.0)
+print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
+
+# PHASE 2: Walk to B1F stairs on 1F East inside fenced room
+print("PHASE 2: Walking to B1F stairs...")
+walk_to(26, 3)
+walk_to(21, 3)
+walk_to(21, 2)
+walk_to(22, 2)
+print("Stepping UP to warp DOWN to B1F...")
+mgba.press_buttons(["Up", "sleep 400"])
+time.sleep(2.0)
+print("Position on B1F East:", get_pos())
+
+# PHASE 3: Walk along B1F to Secret Key room at (1, 5)
+print("PHASE 3: Crossing B1F Row 5 to Secret Key...")
+walk_to(19, 5)
 walk_to(1, 5)
 
-# PHASE 2: Retrieve Secret Key at (1, 4)
-print("PHASE 2: Picking up the Secret Key at (1, 4)...")
+# PHASE 4: Retrieve Secret Key at (1, 4)
+print("PHASE 4: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
 print("Secret Key retrieved! Current position:", get_pos())
 
-# PHASE 3: DIG out back to Cinnabar Island
-print("PHASE 3: Escaping via DIG...")
+# PHASE 5: DIG out back to Cinnabar Island
+print("PHASE 5: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
