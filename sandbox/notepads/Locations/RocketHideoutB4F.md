@@ -23,3 +23,8 @@
   - (10, 13) [RIGHT spinner] -> (14, 13) Stop Tile.
   - Open bypass path: (14, 13) -> (12, 13) -> (12, 16) -> (9, 16) in western corridor!
   - Western corridor (col 9, rows 13-19) is open floor.
+- Southern Sector (cols 10-20, rows 21-26):
+  - Accessible via (11, 18) [RIGHT spinner] -> (15, 18) [DOWN spinner] -> lands at (15, 22).
+  - Open corridor along row 22 (cols 11-15) leading directly to Rocket Grunt at (10, 22).
+  - Rocket Grunt at (10, 22) [Engaged Turn 12813 - Suspected Lift Key holder].
+  - Southern opening at (13, 24) connects row 22 to rows 25-26.

@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout (x=26, y=8) - In battle with Rocket Grunt
+- Location: Team Rocket Hideout B4F (x=9, y=16) - Exploring Western Conveyor Maze
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -48,7 +48,7 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 46
-   - Stats (Verified at Lv 46): Max HP 152 (HP: 122/152), Attack 103, Defense 115, Speed 106, Special 109
+   - Stats (Verified at Lv 46): Max HP 152 (HP: 152/152), Attack 103, Defense 115, Speed 106, Special 109
    - Type: Water
    - Moves: Skull Bash (10/15), Ice Beam (6/10), Bite (24/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Lead)
@@ -1426,6 +1426,11 @@
 
 # Team Rocket Hideout B2F - Conveyor Network & Topology
 
+## Connections & Warps
+- Stairs Up to B1F: Located at (27, 8).
+- Stairs Down to B3F: Located at (21, 22).
+- Stairs Down to B4F: Located at (21, 8), leads down to Rocket Hideout B4F at (25, 6).
+
 ## Verified Conveyor Network Routes
 - Shortcut Route: (17, 11) [Left] -> slides across row 11 -> (12, 11) [Up] -> (12, 9) [Left] -> lands on Stop Tile (2, 9) [Verified Turn 12745].
 - Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
@@ -1528,5 +1533,10 @@
   - (10, 13) [RIGHT spinner] -> (14, 13) Stop Tile.
   - Open bypass path: (14, 13) -> (12, 13) -> (12, 16) -> (9, 16) in western corridor!
   - Western corridor (col 9, rows 13-19) is open floor.
+- Southern Sector (cols 10-20, rows 21-26):
+  - Accessible via (11, 18) [RIGHT spinner] -> (15, 18) [DOWN spinner] -> lands at (15, 22).
+  - Open corridor along row 22 (cols 11-15) leading directly to Rocket Grunt at (10, 22).
+  - Rocket Grunt at (10, 22) [Engaged Turn 12813 - Suspected Lift Key holder].
+  - Southern opening at (13, 24) connects row 22 to rows 25-26.
 
 <hr>
