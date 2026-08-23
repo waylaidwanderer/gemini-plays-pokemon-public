@@ -29,3 +29,8 @@
 - **Secret Key Room at `(1, 4)`:** **OPEN**.
 
 ---
+
+## Switch Details (Foot-Verified)
+- **B1F East Switch Statue Location:** Located at `(17, 6)`.
+- **Standing Interaction Position:** Stand at `(16, 6)` facing RIGHT, then press `A` (with proper 2500ms sleeps) to toggle the switch.
+- **Walkability:** Coordinates `(15, 6)` and `(16, 6)` are completely walkable pink floor tiles with no collision.
