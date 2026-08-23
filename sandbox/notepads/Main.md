@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon City Northern Thoroughfare (10, 10) -> Walking up to row 6 and east along northern avenue to survey eastern passage and reach Celadon Gym
+- Location: Celadon City Northern Thoroughfare (16, 6) -> Walking west along row 6 to (6, 6) and north to row 3 to enter northern corridor and reach Celadon Gym
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
