@@ -65,33 +65,32 @@
 
 ## The Definitive Verified Master Route to B1F East & Secret Key
 1. **Enter Mansion in State A:**
-   - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 4) -> (6, 4) -> (6, 3)` and step UP to enter 1F West (landing at `(5, 27)`).
+   - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 5) -> (6, 5) -> (6, 4) -> (6, 3)` (bypassing the girl and signpost on Row 6/7) and step UP to enter 1F West (landing at `(5, 27)`).
 
 2. **Walk to 1F East Stairs and Ascend to 2F East (State A):**
    - On 1F West, walk UP Column 5 to Row 11: `(5, 27) -> (5, 11)`.
-   - Walk RIGHT along Row 11 to Column 12: `(5, 11) -> (12, 11)` (bypassing the Scientist at `(13, 11)` who permanently blocks Column 13).
+   - Walk RIGHT along Row 11 to Column 12: `(5, 11) -> (12, 11)`.
    - Walk UP Column 12 to Row 6: `(12, 11) -> (12, 6)`.
-   - Walk RIGHT along Row 6 to Column 18: `(12, 6) -> (18, 6)` (this corridor is completely open).
-   - Walk DOWN Column 18 to Row 10: `(18, 6) -> (18, 10)` (stairs). Step DOWN onto the stairs to warp UP to 2F East (landing at `(18, 11)`).
+   - Walk RIGHT along Row 6 to Column 15: `(12, 6) -> (15, 6)` (crossing Column 13 Row 6, which is open!).
+   - Walk DOWN Column 15 to Row 10: `(15, 6) -> (15, 10)` (crossing Column 15 Row 8 shutter gate, which is OPEN in State A!).
+   - Walk RIGHT to Column 18 on Row 10: `(15, 10) -> (18, 10)`.
+   - Step DOWN onto the stairs at `(18, 10)` to warp UP to 2F East South (landing at `(18, 11)`).
 
-3. **Toggle 2F East Switch to State B:**
-   - On 2F East, walk UP Column 18 to Row 3: `(18, 11) -> (18, 3)`.
-   - Walk LEFT along Row 3 to Column 12: `(18, 3) -> (12, 3)`.
-   - Walk DOWN Column 12 to Row 11: `(12, 3) -> (12, 11)`.
-   - Stand at `(12, 11)` facing RIGHT (towards statue at `(13, 11)`) and press A to toggle the switch to State B!
+3. **Ascend to 3F East (State A):**
+   - On 2F East South, walk LEFT along Row 11 to the stairs at `(15, 11)`: `(18, 11) -> (15, 11)`.
+   - Step UP onto the stairs to warp UP to 3F East (landing at `(21, 6)`).
 
-4. **Climb back to 3F East (State B) and Drop to B1F East:**
-   - Walk RIGHT to the stairs at `(15, 11)` on 2F East: `(12, 11) -> (15, 11)`.
-   - Step UP onto the stairs to warp UP to 3F East!
-   - On 3F East (State B), walk to the balcony: `(15, 11) -> (21, 11) -> (21, 15) -> (20, 15) -> (20, 18) -> (19, 18)`.
+4. **Walk to 3F West and Toggle Switch to State B:**
+   - On 3F East (State A), walk LEFT along the open northern Row 6 corridor to 3F West: `(21, 6) -> (12, 6) -> (12, 11) -> (2, 11)`.
+   - Stand at `(2, 12)` facing UP and press A to toggle the 3F West switch to State B!
+
+5. **Walk to Balcony on 3F East (State B) and Drop to B1F East:**
+   - Walk back to 3F East along Row 6.
+   - Walk directly SOUTH on 3F East (State B) to the balcony: `(21, 6) -> (21, 15) -> (20, 15) -> (20, 18) -> (19, 18)`.
+   - In State B, the Balcony Gate is OPEN!
    - Stand at `(19, 18)` and step DOWN (South) to drop to B1F East (landing at `(19, 16)`).
 
-5. **Retrieve Secret Key on B1F East (State B) and Escape:**
+6. **Retrieve Secret Key on B1F East (State B) and Escape:**
    - Walk UP Column 19/20 to Row 5, and use the open Row 5 gate to walk to northwest room: `(19, 16) -> (21, 16) -> (21, 5) -> (1, 5)`.
    - Stand at `(1, 5)` facing UP and press A to retrieve the **Secret Key** at `(1, 4)`!
-   - Open menu, select POK�MON, select TRUFFLE (Paras), and use **DIG** to escape back to Cinnabar Island!
-- **Turn 54609:** Toggled 2F East switch to State B.
-- **Turn 54627:** Toggled 2F East switch back to State A.
-- **Turn 54650:** Toggled 2F East switch back to State B.
-
-- **Turn 54834:** Toggled 2F East switch (standing at `(12, 11)` facing RIGHT to Mewtwo statue at `(13, 11)`) to State B.
+   - Use **DIG** to escape back to Cinnabar Island!
