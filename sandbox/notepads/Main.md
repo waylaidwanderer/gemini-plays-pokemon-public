@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 4F (16, 8) -> Ascended to 4F -> Traversing 4F west corridor to 5F stairs at (3, 9) -> Ascending to 7F to rescue Mr. Fuji
+- Location: Lavender Town (3, 6) -> Healing at Pokémon Center (restoring Ice Beam & Bubblebeam PP) -> Re-entering Pokémon Tower 1F-7F -> Defeating Marowak ghost on 6F -> Rescuing Mr. Fuji on 7F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
