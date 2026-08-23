@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Celadon Department Store Upper Floor (12, 4) -> Navigating down to 1F to exit to Celadon City & reach Celadon Gym
+- Location: Celadon City Western Alleyway (7, 14) -> Entering Bookshelf Residence at (7, 13) to inspect dialogue & layout
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
