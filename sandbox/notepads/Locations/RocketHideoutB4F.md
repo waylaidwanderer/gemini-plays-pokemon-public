@@ -38,3 +38,8 @@
   - East boundary: solid vertical wall at col 23 (rows 21-27) with outer perimeter terminating at col 29.
   - West boundary: solid vertical wall at col 8.
   - Direct open stairwell connection: (20, 25) -> north along col 20 to (20, 18) -> (19, 18) [Stairs up to B3F].
+## Verified Trainers & NPCs
+- Rocket Grunt at (26, 9) [Defeated Turn 12787]: Two Machop Lv 21.
+- Rocket Grunt at (10, 22) / (11, 22) [Defeated Turn 12822]: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20. Quote: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere."
+- Rocket Grunt at (23, 12) [Defeated Turn 13289]: Sandshrew Lv 23, Ekans Lv 23, Sandslash Lv 23. Reward: �690. Pre-battle quote: "I know you! You ruined our plans at MT. MOON!" Post-battle quote: "Do you have something against TEAM ROCKET?"
+- Rocket Grunt at (26, 12) [Elevator Lobby]: Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"

@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Team Rocket Hideout B2F (x=22, y=18) -> Entering Elevator to ride to B4F Boss Giovanni
+- Location: Team Rocket Hideout B4F (x=22, y=12) -> Boss Wing / Elevator Lobby, defeating guards outside Giovanni's room
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
