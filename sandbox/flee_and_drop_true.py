@@ -34,32 +34,39 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-# 1. Flee from wild Grimer (cursor is at FIGHT)
-print("Fleeing from wild Grimer...")
-mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
-# Dismiss "Got away safely!" text
-mgba.press_buttons(["B", "sleep 600"])
-print("Overworld position after fleeing:", get_pos())
+print("Starting at:", get_pos())
 
-# 2. Walk DOWN to (6, 13)
+# 1. Walk to (1, 11) via Row 13 detour
+if not walk_to_clean(6, 13): sys.exit(1)
+if not walk_to_clean(1, 13): sys.exit(1)
+if not walk_to_clean(1, 11): sys.exit(1)
+
+# 2. Turn RIGHT at (1, 11) towards (2, 11)
+print("Turning RIGHT...")
+mgba.press_buttons(["Right", "sleep 300"])
+print("Position after turning:", get_pos())
+
+# 3. Toggle switch
+print("Toggling 3F West switch at (2, 11) to State B...")
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "A secret switch!"
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Press it?" -> Select YES
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Who wouldn't?" -> Close
+mgba.press_buttons(["B", "sleep 500"])  # Close dialogue
+print("State B toggled!")
+
+# 4. Walk back to (6, 13) via (1, 13)
+if not walk_to_clean(1, 13): sys.exit(1)
 if not walk_to_clean(6, 13): sys.exit(1)
 
-# 3. Walk LEFT along Row 13 to (1, 13)
-if not walk_to_clean(1, 13): sys.exit(1)
+# 5. Walk UP Column 6 to (6, 6)
+if not walk_to_clean(6, 6):
+    print("Blocked walking up Column 6! Switch was NOT toggled successfully.")
+    sys.exit(1)
 
-# 4. Walk UP Column 1 to Row 9 (1, 9)
-if not walk_to_clean(1, 9): sys.exit(1)
-
-# 5. Walk RIGHT along Row 9 to Column 12 (12, 9)
-if not walk_to_clean(12, 9): sys.exit(1)
-
-# 6. Walk UP Column 12 to Row 6 (12, 6)
-if not walk_to_clean(12, 6): sys.exit(1)
-
-# 7. Walk RIGHT along Row 6 to Column 26 (26, 6)
+# 6. Walk RIGHT along Row 6 to (26, 6)
 if not walk_to_clean(26, 6): sys.exit(1)
 
-# 8. Step RIGHT onto pitfall
+# 7. Drop through pitfall
 print("Stepping onto pitfall...")
 mgba.press_buttons(["Right", "sleep 2500"])
 print("Position after drop (should be 1F East fenced room):", get_pos())
