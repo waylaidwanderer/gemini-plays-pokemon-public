@@ -45,11 +45,10 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (19, 7) on B1F East in State B
-print("Starting Mansion Phase 3 Part 2 Final (Retrieval from 19, 7):", get_pos())
+# Starting at (18, 5) on B1F West/East boundary in State B (after running from battle)
+print("Starting Mansion Phase 3 Part 2 Final (Retrieval from 18, 5):", get_pos())
 
-# 1. Walk to Secret Key room at (1, 5) via (19, 5)
-walk_to(19, 5)
+# 1. Walk to Secret Key room at (1, 5)
 walk_to(1, 5)
 
 # 2. Retrieve Secret Key at (1, 4)
