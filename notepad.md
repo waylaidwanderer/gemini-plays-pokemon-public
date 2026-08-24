@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 7 (13, 14) -> Heading west along row 14 to Celadon City -> Celadon Game Corner -> Rocket Hideout B4F (Silph Scope)
+- Location: Celadon City (28, 22) -> Entering Celadon Game Corner (28, 19) -> Secret stairs to Rocket Hideout B1F -> Elevator to B4F (Silph Scope)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
