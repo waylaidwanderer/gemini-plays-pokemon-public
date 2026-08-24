@@ -51,29 +51,38 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Start at (12, 6)
-print("Starting B1F East switch toggle script...")
-print("Position:", get_pos())
+# Start at current position (10, 5)
+print("Testing B1F East statue at (16, 10)...")
+print("Initial Position:", get_pos())
 
-# Step 1: Walk to (12, 9)
-if walk_to(12, 9):
-    # Step 2: Face Right towards statue at (13, 9)
-    print("Facing Right towards (13, 9)...")
-    mgba.press_buttons(["Right", "sleep 200"])
+# Walk to (16, 9)
+if walk_to(16, 6) and walk_to(16, 9):
+    print("Arrived at (16, 9)! Facing Down towards statue at (16, 10)...")
+    mgba.press_buttons(["Down", "sleep 200"])
     
-    # Step 3: Interact with the statue
+    # Interact with statue
     print("Interacting with statue...")
     mgba.press_buttons(["A", "sleep 800"])
     
-    # Take screenshot of the screen to see dialogue/switch options
     screenshot_path = mgba.take_screenshot()
     print("Dialogue screenshot:", screenshot_path)
     
-    # Try to press switch: Select YES (press A), then close dialog
-    mgba.press_buttons(["A", "sleep 800"]) # Yes, press it
-    mgba.press_buttons(["A", "sleep 800"]) # Who wouldn't?
-    mgba.press_buttons(["B", "sleep 400"]) # Close
+    # Select YES, press it, and close
+    mgba.press_buttons(["A", "sleep 800"])
+    mgba.press_buttons(["A", "sleep 800"])
+    mgba.press_buttons(["B", "sleep 400"])
     
-    print("Switch toggle steps done. Checking position:", get_pos())
+    # Now walk back to (10, 5) to test
+    print("Walking back to (10, 5)...")
+    if walk_to(10, 6) and walk_to(10, 5):
+        # Try stepping Left to (9, 5)
+        print("Testing if gate at (9, 5) is open...")
+        pos_before, pos_after = walk_step("Left")
+        if pos_before == pos_after:
+            print("Gate at (9, 5) is STILL CLOSED.")
+        else:
+            print("SUCCESS! Gate at (9, 5) is OPEN! Position:", pos_after)
+            # Step back Right so we are safe
+            walk_step("Right")
 else:
-    print("Failed to reach (12, 9)")
+    print("Failed to reach (16, 9)")
