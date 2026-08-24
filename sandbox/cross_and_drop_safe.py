@@ -26,7 +26,7 @@ def walk_step(direction):
 
 def walk_to(target_x, target_y):
     print(f"Walking to ({target_x}, {target_y})...")
-    max_steps = 100
+    max_steps = 50
     steps = 0
     while steps < max_steps:
         pos = get_pos()
@@ -34,49 +34,26 @@ def walk_to(target_x, target_y):
         if x == target_x and y == target_y:
             print(f"Arrived at ({target_x}, {target_y})!")
             return True
-            
-        if x < target_x:
-            direction = "Right"
-        elif x > target_x:
-            direction = "Left"
-        elif y < target_y:
-            direction = "Down"
-        elif y > target_y:
-            direction = "Up"
-            
+        if x < target_x: direction = "Right"
+        elif x > target_x: direction = "Left"
+        elif y < target_y: direction = "Down"
+        elif y > target_y: direction = "Up"
         pos_before, pos_after = walk_step(direction)
-        
         if pos_before == pos_after:
             mgba.press_buttons(["sleep 150"])
             pos_now = get_pos()
             if pos_now == pos_before:
                 # We are definitely blocked/in battle!
                 run_from_battle()
-        else:
-            print(f"Stepped {direction} to {pos_after}")
-            
         steps += 1
-    print("Failed to reach target.")
     return False
 
-# Starting from current position (1, 11) on 3F West
-print("PHASE 1: Crossing 3F West to 3F East...")
-if not walk_to(1, 9): sys.exit(1)
-if not walk_to(12, 9): sys.exit(1)
-if not walk_to(12, 6): sys.exit(1)
-if not walk_to(26, 6): sys.exit(1)
-
-print("Stepping Right onto pitfall to drop...")
-mgba.press_buttons(["Right", "sleep 2500"])
-print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
-
-print("PHASE 2: Walking to B1F stairs...")
-if not walk_to(26, 3): sys.exit(1)
-if not walk_to(21, 3): sys.exit(1)
-if not walk_to(21, 2): sys.exit(1)
-if not walk_to(22, 2): sys.exit(1)
-
-print("Stepping UP to warp down to B1F East...")
-mgba.press_buttons(["Up", "sleep 2500"])
-print("Position on B1F East (should be around 22, 3):", get_pos())
+# Starting from current position (9, 10) on 3F West
+print("Start position:", get_pos())
+if walk_to(9, 11):
+    if walk_to(6, 11):
+        if walk_to(6, 6):
+            if walk_to(12, 6):
+                print("Successfully reached 3F East Row 6 Column 12!")
+print("Final Position:", get_pos())
 mgba.take_screenshot()
