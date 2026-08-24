@@ -2,7 +2,7 @@
 
 ## Connections
 - South Entrance/Exit: Warp to Lavender Town exterior at (10, 17) [South-center aisle]
-- Stairs to 2F: Located at (18, 9) on the eastern wall
+- Stairs to 2F: Located at (18, 9) on the eastern wall. Warp triggers upon stepping East from (17, 9) into (18, 9).
 
 ## Floor Layout & Verified Topology
 - South Entrance (cols 9-11, rows 16-17): Flanked by mourning benches at (6..8, 16..17) and (12..15, 16..17).
