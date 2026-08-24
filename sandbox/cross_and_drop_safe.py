@@ -6,21 +6,24 @@ def get_pos():
     return mgba.get_coordinates()
 
 def run_from_battle():
-    print("Wild battle detected! Waiting for battle menu to load...")
-    time.sleep(2.0) # Wait 2 seconds for battle intro to finish
-    # Dismiss any text
-    for _ in range(3):
-        mgba.press_buttons(["B", "sleep 150"])
-    print("Sending escape inputs...")
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    print("Wild battle detected! Waiting 4.5 seconds for intro...")
+    time.sleep(4.5)
+    # Dismiss "Wild XXX appeared!" text
+    print("Dismissing text...")
+    mgba.press_buttons(["B", "sleep 350", "B", "sleep 350", "B", "sleep 350"])
+    time.sleep(0.5)
+    # Now we are definitely at the battle menu. Send RUN selection.
+    print("Selecting RUN...")
+    mgba.press_buttons(["Down", "sleep 350", "Right", "sleep 350", "A", "sleep 1800"])
     # Clear "Got away safely!"
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 150"])
+    print("Clearing escape text...")
+    mgba.press_buttons(["B", "sleep 350", "B", "sleep 350", "B", "sleep 350"])
+    time.sleep(1.0)
     print("Escape sequence complete.")
 
 def walk_step(direction):
     pos_before = get_pos()
-    mgba.press_buttons([direction, "sleep 200"])
+    mgba.press_buttons([direction, "sleep 450"])
     pos_after = get_pos()
     return pos_before, pos_after
 
@@ -47,7 +50,7 @@ def walk_to(target_x, target_y):
         pos_before, pos_after = walk_step(direction)
         
         if pos_before == pos_after:
-            time.sleep(0.1)
+            time.sleep(0.3)
             pos_now = get_pos()
             if pos_now == pos_before:
                 # We are definitely blocked/in battle!
@@ -59,15 +62,20 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting at (7, 11) on 3F West
+# Starting at (6, 10) on 3F West
 print("Starting cross_and_drop_safe.py...")
 print("Initial Position:", get_pos())
 
-# Walk to Column 6 Row 6
-if not walk_to(6, 11): sys.exit(1)
-if not walk_to(6, 6): sys.exit(1)
+# Step 1: Walk to (1, 9)
+if not walk_to(1, 9): sys.exit(1)
 
-# Walk to pitfall at (26, 6)
+# Step 2: Walk to (12, 9)
+if not walk_to(12, 9): sys.exit(1)
+
+# Step 3: Walk to (12, 6)
+if not walk_to(12, 6): sys.exit(1)
+
+# Step 4: Walk to pitfall at (26, 6)
 if not walk_to(26, 6): sys.exit(1)
 
 print("Dropped through pitfall! Waiting 2.0 seconds...")
