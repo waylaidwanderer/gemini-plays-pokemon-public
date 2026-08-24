@@ -19,8 +19,8 @@ def walk_step_robust(direction):
     global button_count
     pos_before = mgba.get_coordinates()
     
-    if button_count > 45:
-        print("Button limit reached. Exiting.")
+    if button_count > 60:
+        print("Button count limit reached. Exiting.")
         sys.exit(0)
         
     mgba.press_buttons([direction, "sleep 180"])
@@ -38,7 +38,7 @@ def walk_step_robust(direction):
         while pos_before == pos_after and attempts < 4:
             print(f"Blocked at {pos_before} attempting {direction}. Retrying...")
             time.sleep(0.4)
-            if button_count > 45:
+            if button_count > 60:
                 print("Button limit reached! Exiting.")
                 sys.exit(0)
             mgba.press_buttons([direction, "sleep 180"])
@@ -76,14 +76,15 @@ def walk_to(target_x, target_y):
 start_pos = get_pos()
 print("Starting position:", start_pos)
 
-# Walk: (1, 10) -> (1, 12) -> (5, 12) -> (5, 11) -> (6, 11)
+# 1. Walk to Column 8 Row 11 via Row 12 / Column 5
 walk_to(1, 12)
 walk_to(5, 12)
 walk_to(5, 11)
-walk_to(6, 11)
+walk_to(8, 11)
 
-print("At (6, 11). Testing walk UP to (6, 8)...")
-walk_to(6, 8)
+# 2. Test walk UP Column 8 to Row 6 (8, 6)
+print("At (8, 11). Testing walk UP to (8, 6)...")
+walk_to(8, 6)
 
 print("Final position reached:", get_pos())
 sc = mgba.take_screenshot()
