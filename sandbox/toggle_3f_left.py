@@ -34,34 +34,45 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-print("Starting at overworld position:", get_pos())
+# 1. We are currently in battle on turn 58275! Flee!
+print("Fleeing from wild Grimer...")
+mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
+mgba.press_buttons(["B", "sleep 600"])
+print("Overworld position:", get_pos())
 
-# 1. Walk from (6, 10) to (1, 11) via Row 13 detour
-if not walk_to_clean(6, 13): sys.exit(1)
+# 2. Walk to (1, 11) via (1, 13) and (2, 13)
+# Currently we are at (2, 11) or (2, 10).
+if not walk_to_clean(2, 13): sys.exit(1)
 if not walk_to_clean(1, 13): sys.exit(1)
 if not walk_to_clean(1, 11): sys.exit(1)
 
-# 2. Stand at (1, 11) facing UP. Turn RIGHT towards the solid statue at (2, 11)
-print("Turning RIGHT towards switch...")
-mgba.press_buttons(["Right", "sleep 300"])
-print("Position after turning (should be 1, 11):", get_pos())
+# Now we are standing at (1, 11) facing UP.
+# 3. Face RIGHT and IMMEDIATELY press A to open dialogue before walking!
+print("Tapping RIGHT and immediately pressing A...")
+mgba.press_buttons(["Right", "sleep 30", "A", "sleep 1200"])
 
-# 3. Toggle switch
-print("Toggling Mewtwo switch...")
-mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "A secret switch!"
-mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Press it?" -> Select YES
-mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Who wouldn't?" -> Close
-mgba.press_buttons(["B", "sleep 500"])  # Close dialogue
-print("State B toggled!")
+# Check if dialogue is open by verifying if we are still at (1, 11)
+pos_after_toggle = get_pos()
+print("Position after A press:", pos_after_toggle)
 
-# 4. Walk UP Column 1 to Row 6 (since State B is active, Row 9 gate is open!)
-if not walk_to_clean(1, 6): sys.exit(1)
-
-# 5. Walk RIGHT along Row 6 to Column 26
-if not walk_to_clean(26, 6): sys.exit(1)
-
-# 6. Step onto pitfall
-print("Stepping onto pitfall...")
-mgba.press_buttons(["Right", "sleep 2500"])
-print("SUCCESS! Landing position:", get_pos())
-mgba.take_screenshot()
+if pos_after_toggle == {'x': 1, 'y': 11}:
+    print("SUCCESS! Standing at (1, 11) and dialogue opened! Toggling...")
+    mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Press it?" -> Select YES
+    mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Who wouldn't?" -> Close
+    mgba.press_buttons(["B", "sleep 500"])  # Close dialogue
+    print("State B toggled successfully!")
+    
+    # Walk UP Column 1 to Row 6 (since State B is now active, Row 9 gate is open!)
+    if not walk_to_clean(1, 6): sys.exit(1)
+    
+    # Walk RIGHT along Row 6 to Column 26
+    if not walk_to_clean(26, 6): sys.exit(1)
+    
+    # Step onto pitfall
+    print("Stepping onto pitfall...")
+    mgba.press_buttons(["Right", "sleep 2500"])
+    print("SUCCESS! Landing position:", get_pos())
+    mgba.take_screenshot()
+else:
+    print("FAILED! Player walked onto (2, 11) instead of turning in place!")
+    sys.exit(1)
