@@ -10,20 +10,20 @@ def run_from_battle():
     time.sleep(4.5)
     # Dismiss "Wild XXX appeared!" text
     print("Dismissing text...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    mgba.press_buttons(["B", "sleep 350", "B", "sleep 350", "B", "sleep 350"])
     time.sleep(0.5)
     # Now we are definitely at the battle menu. Send RUN selection.
     print("Selecting RUN...")
-    mgba.press_buttons(["Down", "sleep 300", "Right", "sleep 300", "A", "sleep 1500"])
+    mgba.press_buttons(["Down", "sleep 350", "Right", "sleep 350", "A", "sleep 1800"])
     # Clear "Got away safely!"
     print("Clearing escape text...")
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    mgba.press_buttons(["B", "sleep 350", "B", "sleep 350", "B", "sleep 350"])
     time.sleep(1.0)
     print("Escape sequence complete.")
 
 def walk_step(direction):
     pos_before = get_pos()
-    mgba.press_buttons([direction, "sleep 250"])
+    mgba.press_buttons([direction, "sleep 450"])
     pos_after = get_pos()
     return pos_before, pos_after
 
@@ -50,7 +50,7 @@ def walk_to(target_x, target_y):
         pos_before, pos_after = walk_step(direction)
         
         if pos_before == pos_after:
-            time.sleep(0.2)
+            time.sleep(0.3)
             pos_now = get_pos()
             if pos_now == pos_before:
                 # We are definitely blocked/in battle!
@@ -62,14 +62,17 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting at (6, 10) on 3F West
+# Starting at (7, 11) on 3F West in State B
 print("Starting cross_3f_east_direct.py...")
 print("Initial Position:", get_pos())
 
-# Step 1: Walk to (6, 6)
+# Step 1: Walk to (6, 11)
+if not walk_to(6, 11): sys.exit(1)
+
+# Step 2: Walk to (6, 6)
 if not walk_to(6, 6): sys.exit(1)
 
-# Step 2: Walk to pitfall at (26, 6)
+# Step 3: Walk to pitfall at (26, 6)
 if not walk_to(26, 6): sys.exit(1)
 
 print("Dropped through pitfall! Waiting 2.0 seconds...")
