@@ -51,12 +51,6 @@ def walk_to(target_x, target_y):
             pos_now = get_pos()
             if pos_now == pos_before:
                 # We are definitely blocked/in battle!
-                # Check if we are blocked at (10, 5) going Left
-                if pos_before['x'] == 10 and pos_before['y'] == 5 and direction == "Left":
-                    print("BLOCKED at (10, 5) going Left! Gate at (9, 5) is CLOSED (State A).")
-                    sys.exit(1)
-                
-                # Otherwise, handle wild battle
                 run_from_battle()
         else:
             print(f"Stepped {direction} to {pos_after}")
@@ -68,32 +62,62 @@ def walk_to(target_x, target_y):
 print("Starting get_secret_key_now.py...")
 print("Initial Position:", get_pos())
 
-# Step 1: Walk to (10, 6)
+# Step 1: Walk to (18, 7)
+if not walk_to(18, 7):
+    sys.exit(1)
+
+# Step 2: Walk to (18, 10)
+if not walk_to(18, 10):
+    sys.exit(1)
+
+# Step 3: Walk to (16, 10)
+if not walk_to(16, 10):
+    sys.exit(1)
+
+# Step 4: Face Left and toggle the switch at (15, 10) to State B
+print("Facing Left towards (15, 10)...")
+mgba.press_buttons(["Left", "sleep 200"])
+print("Toggling B1F East switch at (15, 10) to State B...")
+mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "A secret switch!"
+mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
+mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
+mgba.press_buttons(["B", "sleep 300"]) # Safeguard dismiss textbox
+
+# Step 5: Walk to (18, 10)
+if not walk_to(18, 10):
+    sys.exit(1)
+
+# Step 6: Walk to (18, 6)
+if not walk_to(18, 6):
+    sys.exit(1)
+
+# Step 7: Walk to (10, 6)
 if not walk_to(10, 6):
     sys.exit(1)
 
-# Step 2: Walk to (10, 5)
+# Step 8: Walk to (10, 5)
 if not walk_to(10, 5):
     sys.exit(1)
 
-# Step 3: Walk Left to (9, 5)
+# Step 9: Walk Left through the gate at (9, 5) to (8, 5)
+print("Stepping Left through the gate at (9, 5)...")
 pos_before, pos_after = walk_step("Left")
 if pos_before == pos_after:
-    print("BLOCKED at (10, 5) going Left! Gate at (9, 5) is CLOSED.")
+    print("BLOCKED at (10, 5) going Left! Gate at (9, 5) is STILL CLOSED.")
     sys.exit(1)
 else:
     print("SUCCESS! Stepped Left to", pos_after)
 
-# Step 4: Walk to (1, 5)
+# Step 10: Walk to (1, 5)
 if not walk_to(1, 5):
     sys.exit(1)
 
-# Step 5: Face Up to retrieve key
+# Step 11: Face Up to retrieve key
 print("Arrived at (1, 5)! Facing UP to retrieve Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 200"])
 mgba.press_buttons(["A", "sleep 800"])
 screenshot_path = mgba.take_screenshot()
-print("Took screenshot:", screenshot_path)
+print("Took screenshot of key retrieval:", screenshot_path)
 
 # Clear dialogue
 mgba.press_buttons(["A", "sleep 800"])
@@ -101,7 +125,7 @@ mgba.press_buttons(["A", "sleep 800"])
 mgba.press_buttons(["B", "sleep 500"])
 print("Key retrieved. Current Position:", get_pos())
 
-# Step 6: Escape via DIG
+# Step 12: Escape via DIG
 print("Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
