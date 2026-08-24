@@ -1,21 +1,12 @@
 import mgba
 import time
-import os
 
-# Starting at (18, 5) on B1F East in State B
-# Walk Down to Row 6, Left to Column 9, Up to Row 5, and Left to B1F West
+# Starting at (10, 6) on B1F East in State B
+# Walk Up to Row 5 Column 10, then Left through the gate at (9, 5) to B1F West
 steps = [
-    ("Down", {"x": 18, "y": 6}),
-    ("Left", {"x": 17, "y": 6}),
-    ("Left", {"x": 16, "y": 6}),
-    ("Left", {"x": 15, "y": 6}),
-    ("Left", {"x": 14, "y": 6}),
-    ("Left", {"x": 13, "y": 6}),
-    ("Left", {"x": 12, "y": 6}),
-    ("Left", {"x": 11, "y": 6}),
-    ("Left", {"x": 10, "y": 6}),
-    ("Left", {"x": 9, "y": 6}),
-    ("Up", {"x": 9, "y": 5}),  # Open gate in State B!
+    ("Up", {"x": 10, "y": 5}),
+    ("Left", {"x": 9, "y": 5}),  # Cross through open gate at (9, 5)
+    ("Left", {"x": 8, "y": 5}),
 ]
 
 def walk_step(direction, expected_coords, retries=15):
@@ -37,7 +28,7 @@ for direction, coords in steps:
         break
 
 if success:
-    print("Successfully crossed through gate at (9, 5)! Walking Left along Row 5 to the Secret Key...")
+    print("Successfully crossed through B1F gate! Walking Left along Row 5 to the Secret Key...")
     curr = mgba.get_coordinates()
     while curr['x'] > 1:
         if not walk_step("Left", {"x": curr['x'] - 1, "y": 5}):
@@ -59,4 +50,4 @@ if success:
     else:
         print("Failed to reach Secret Key on B1F West.")
 else:
-    print("Failed to navigate B1F East.")
+    print("Failed to navigate B1F.")
