@@ -109,7 +109,6 @@
 - Bag Capacity: 16 / 20 slots used (4 empty slots available)
 - Active Bag Items: Bicycle, Great Ball x10, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Party Slot 6: OPEN (Reserved for wild flyer ZEPHYR)
 - Funds: ¥28,428+
 
 ## Flying-Type Party Slot Allocation & Capture Plan

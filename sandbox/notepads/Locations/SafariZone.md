@@ -27,4 +27,5 @@
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier; northern border along row 0 is solid rock/hedge barrier.
 ## Area 2 (North) Topology & Verified Landmarks
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
+- South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
