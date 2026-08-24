@@ -1,9 +1,17 @@
 import mgba
 import sys
 import time
+from PIL import Image
 
 def get_pos():
     return mgba.get_coordinates()
+
+def is_in_battle():
+    sc_path = mgba.take_screenshot()
+    img = Image.open(sc_path)
+    pixels = [img.getpixel((x, 380)) for x in [60, 120, 240, 360]]
+    white_count = sum(1 for p in pixels if p == (255, 255, 255))
+    return white_count >= 3
 
 def run_from_battle():
     print("Wild battle detected! Waiting 4.5 seconds for intro...")
@@ -51,10 +59,11 @@ def walk_to(target_x, target_y):
         
         if pos_before == pos_after:
             time.sleep(0.3)
-            pos_now = get_pos()
-            if pos_now == pos_before:
-                # We are definitely blocked/in battle!
+            if is_in_battle():
                 run_from_battle()
+            else:
+                print(f"BUMPED/BLOCKED at {pos_before} going {direction}! Exiting to prevent wrong movement.")
+                sys.exit(1)
         else:
             print(f"Stepped {direction} to {pos_after}")
             
@@ -63,7 +72,7 @@ def walk_to(target_x, target_y):
     return False
 
 # Starting at (2, 12) facing UP in State A
-print("Starting toggle_and_cross_final.py...")
+print("Starting toggle_and_cross_final.py with pixel battle detection...")
 print("Initial Position:", get_pos())
 
 # Step 1: Toggle Mewtwo Statue Switch to State B (1.8s sleeps)
