@@ -62,7 +62,7 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting at (1, 10) on 3F West
+# Starting at (1, 11) on 3F West
 print("Starting toggle_and_cross_short.py...")
 print("Initial Position:", get_pos())
 
@@ -79,11 +79,13 @@ mgba.press_buttons(["A", "sleep 1000"]) # Who wouldn't? / YES
 mgba.press_buttons(["B", "sleep 800"])  # Clear dialog
 print("Toggled switch! Position:", get_pos())
 
-# Step 3: Walk to (1, 9)
+# Step 3: Walk to (1, 12)
 if not walk_to(1, 12): sys.exit(1)
+
+# Step 4: Walk to (1, 9)
 if not walk_to(1, 9): sys.exit(1)
 
-# Step 4: Walk to (12, 9)
+# Step 5: Walk to (12, 9)
 if not walk_to(12, 9): sys.exit(1)
 
 print("SUCCESS! Arrived at (12, 9) in State B! Position:", get_pos())
