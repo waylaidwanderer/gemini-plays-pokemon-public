@@ -36,53 +36,42 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-# 1. We are currently in battle on turn 58313! Flee!
-print("Fleeing from wild Grimer...")
-# Advance "Wild GRIMER appeared!" text
-mgba.press_buttons(["A", "sleep 2500"])
-# Move cursor to RUN and escape
-mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
-# Dismiss "Got away safely!" text
+# 1. Dismiss "Got away safely!" text
+print("Dismissing flee text box...")
 mgba.press_buttons(["B", "sleep 600"])
-print("Overworld position after fleeing:", get_pos())
+print("Overworld position:", get_pos())
 
-# 2. Test if we can walk up to (2, 10) -> (6, 10) -> (6, 6) directly (State B bypass)
-print("Attempting to traverse State B bypass to Row 6...")
-b_bypass_success = False
+# 2. Walk DOWN to (2, 13)
+if not walk_to_clean(2, 13): sys.exit(1)
 
-# Starting position is (2, 11).
-if walk_to_clean(2, 10):
-    if walk_to_clean(6, 10):
-        if walk_to_clean(6, 6):
-            b_bypass_success = True
+# 3. Walk UP to (2, 12) (ensures we are standing at (2, 12) facing UP)
+if not walk_to_clean(2, 12): sys.exit(1)
 
-if not b_bypass_success:
-    print("Mansion is currently in State A! Walking to (1, 11) to toggle switch...")
-    # Walk to (1, 11) via Row 13 detour from our current position
-    pos = get_pos()
-    if pos['y'] < 13:
-        if not walk_to_clean(pos['x'], 13): sys.exit(1)
-    if not walk_to_clean(1, 13): sys.exit(1)
-    if not walk_to_clean(1, 11): sys.exit(1)
-    
-    # Toggle switch to State B (using the super-tight timing to prevent walking!)
-    print("Toggling switch from (1, 11) using tight timing...")
-    mgba.press_buttons(["Right", "sleep 50", "A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1000", "B", "sleep 300"])
-    print("State B activated! Walking State B bypass route...")
-    
-    # State B is now active! Walk to (1, 13) -> (2, 13) -> (2, 10) -> (6, 10) -> (6, 6)
-    if not walk_to_clean(1, 13): sys.exit(1)
-    if not walk_to_clean(2, 13): sys.exit(1)
-    if not walk_to_clean(2, 10): sys.exit(1)
-    if not walk_to_clean(6, 10): sys.exit(1)
-    if not walk_to_clean(6, 6): sys.exit(1)
+# 4. Toggle Mewtwo switch using the exact working sequence from mansion_phase3.py
+print("Toggling 3F West switch at (2, 11) to State B...")
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "A secret switch!"
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Press it?" -> Select YES
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Who wouldn't?" -> Close
+mgba.press_buttons(["B", "sleep 500"])  # Close dialogue
+print("State B toggled!")
 
-# Now we are definitely at (6, 6) in State B!
-# Walk RIGHT along Row 6 to (26, 6)
+# 5. Walk to (2, 13)
+if not walk_to_clean(2, 13): sys.exit(1)
+
+# 6. Walk UP Column 2 to Row 10 (2, 10)
+if not walk_to_clean(2, 10): sys.exit(1)
+
+# 7. Walk RIGHT along Row 10 to Column 6 (6, 10)
+if not walk_to_clean(6, 10): sys.exit(1)
+
+# 8. Walk UP Column 6 to (6, 6)
+if not walk_to_clean(6, 6): sys.exit(1)
+
+# 9. Walk RIGHT along Row 6 to Column 26 (26, 6)
 if not walk_to_clean(26, 6): sys.exit(1)
 
-# Step onto pitfall
+# 10. Drop through pitfall
 print("Stepping onto pitfall...")
 mgba.press_buttons(["Right", "sleep 2500"])
-print("SUCCESS! Position after drop:", get_pos())
+print("Position after drop (should be 1F East inside fenced room):", get_pos())
 mgba.take_screenshot()
