@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (39, 31) -> Entered Area 2 [Turn 15614]; navigating west towards Area 3 (West) for HM03 Surf & Gold Teeth.
+- Location: Safari Zone Area 1 (East) at (0, 22) [Turn 15631]; fresh 500-step counter active, executing linear traversal to Area 2 -> Area 3 (West) for HM03 Surf & Gold Teeth.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1767,6 +1767,6 @@
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier.
 ## Area 2 (North) Topology & Verified Landmarks
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
-- Target: Traverse west across Area 2 towards the southwest exit to Area 3 (West).
+- Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
 
 <hr>
