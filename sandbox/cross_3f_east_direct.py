@@ -1,18 +1,8 @@
 import mgba
 import sys
-import os
 
 def get_pos():
     return mgba.get_coordinates()
-
-def run_from_battle():
-    print("Wild battle detected! Fleeing...")
-    mgba.press_buttons(["sleep 2000"])
-    for _ in range(3):
-        mgba.press_buttons(["B", "sleep 150"])
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 2500"])
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 150"])
 
 def walk_step(direction):
     pos_before = get_pos()
@@ -20,7 +10,7 @@ def walk_step(direction):
     pos_after = get_pos()
     return pos_before, pos_after
 
-def walk_to(target_x, target_y):
+def walk_to_clean(target_x, target_y):
     print(f"Walking to ({target_x}, {target_y})...")
     max_steps = 40
     steps = 0
@@ -36,21 +26,33 @@ def walk_to(target_x, target_y):
         elif y > target_y: direction = "Up"
         pos_before, pos_after = walk_step(direction)
         if pos_before == pos_after:
-            mgba.press_buttons(["sleep 150"])
-            pos_now = get_pos()
-            if pos_now == pos_before:
-                run_from_battle()
+            # Try a second time (handles turning in place)
+            pos_before, pos_after = walk_step(direction)
+            if pos_before == pos_after:
+                print(f"BLOCKED at {pos_before} when trying to go {direction}!")
+                return False
         steps += 1
     return False
 
-# Currently at (6, 11) on 3F West in State B
-print("PHASE 1: Walking to 3F East pitfall at (26, 6) via Column 5 Row 6...")
-if not walk_to(6, 8): sys.exit(1)
-if not walk_to(5, 8): sys.exit(1)
-if not walk_to(5, 6): sys.exit(1)
-if not walk_to(26, 6): sys.exit(1)
+print("Starting on 3F West at:", get_pos())
 
-print("Stepping RIGHT onto the pitfall to drop...")
+# Phase 1: Walk LEFT from (5, 11) to (1, 11)
+if not walk_to_clean(1, 11):
+    print("Failed to walk to (1, 11)")
+    sys.exit(1)
+
+# Phase 2: Walk UP Column 1 to Row 6
+if not walk_to_clean(1, 6):
+    print("Failed to walk to (1, 6)")
+    sys.exit(1)
+
+# Phase 3: Walk RIGHT along Row 6 to Column 26
+if not walk_to_clean(26, 6):
+    print("Failed to walk to (26, 6)")
+    sys.exit(1)
+
+# Phase 4: Step RIGHT onto the pitfall to drop to 1F East inside fenced room
+print("Stepping onto pitfall...")
 mgba.press_buttons(["Right", "sleep 2500"])
 print("Position after drop (should be 1F East fenced room):", get_pos())
 mgba.take_screenshot()
