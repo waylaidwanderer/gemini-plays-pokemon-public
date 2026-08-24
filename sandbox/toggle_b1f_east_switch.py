@@ -51,31 +51,32 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Start at current position (10, 5)
-print("Testing B1F East statue at (16, 10)...")
-print("Initial Position:", get_pos())
+# Start at current position (16, 7)
+print("Starting B1F East statue at (15, 10) toggle script...")
+print("Position:", get_pos())
 
-# Walk to (16, 9)
-if walk_to(16, 6) and walk_to(16, 9):
-    print("Arrived at (16, 9)! Facing Down towards statue at (16, 10)...")
-    mgba.press_buttons(["Down", "sleep 200"])
+# Step 1: Walk to (16, 10)
+if walk_to(16, 10):
+    # Step 2: Face Left towards (15, 10)
+    print("Facing Left towards (15, 10)...")
+    mgba.press_buttons(["Left", "sleep 200"])
     
-    # Interact with statue
+    # Step 3: Interact with statue
     print("Interacting with statue...")
     mgba.press_buttons(["A", "sleep 800"])
     
     screenshot_path = mgba.take_screenshot()
     print("Dialogue screenshot:", screenshot_path)
     
-    # Select YES, press it, and close
+    # Toggle switch (Select YES)
     mgba.press_buttons(["A", "sleep 800"])
     mgba.press_buttons(["A", "sleep 800"])
     mgba.press_buttons(["B", "sleep 400"])
     
-    # Now walk back to (10, 5) to test
-    print("Walking back to (10, 5)...")
+    # Walk to (10, 5) to test
+    print("Walking to (10, 5)...")
     if walk_to(10, 6) and walk_to(10, 5):
-        # Try stepping Left to (9, 5)
+        # Step 4: Test if gate at (9, 5) is open
         print("Testing if gate at (9, 5) is open...")
         pos_before, pos_after = walk_step("Left")
         if pos_before == pos_after:
@@ -85,4 +86,4 @@ if walk_to(16, 6) and walk_to(16, 9):
             # Step back Right so we are safe
             walk_step("Right")
 else:
-    print("Failed to reach (16, 9)")
+    print("Failed to reach (16, 10)")
