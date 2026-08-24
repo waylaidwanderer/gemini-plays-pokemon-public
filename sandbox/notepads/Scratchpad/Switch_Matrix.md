@@ -66,3 +66,22 @@
    - On B1F East, walk horizontally along Row 5 across Column 9 gate (now open in State B) directly to B1F West at `(1, 5)`.
    - Stand at `(1, 5)` facing UP and retrieve the Secret Key at `(1, 4)`!
    - Escape via DIG back to Cinnabar Island.
+---
+
+## Verified Switch Mechanics & Spatial Constraints (Turn 58016)
+
+1. **Global Switch Persistence:**
+   - The global Mewtwo statue switch state (State A vs State B) persists across DIG warps, player blackouts, and complete mansion exits/re-entries. Once toggled to State B, the mansion remains in State B until explicitly toggled back to State A at any switch. (Verified Turn 57829-57840).
+
+2. **3F West Staircase Warp Trap at (7, 10):**
+   - The staircase at `(7, 10)` on 2F West warps the player up to `(7, 10)` on 3F West.
+   - However, `(7, 10)` on 3F West also acts as an immediate automatic DOWN warp back to 2F West at `(7, 11)` if entered from the overworld, or if the destination tile on 3F West is blocked.
+   - In State A, the shutter gate on 3F West at Row 10/9 is CLOSED, which blocks the warp landing tile at `(7, 10)` on 3F West. Because of this, warping UP in State A immediately triggers a collision pushback, sending the player back down to 2F West at `(7, 11)`.
+   - In State B, the shutter gate is OPEN, allowing the player to land safely on 3F West at `(7, 10)` and stay on the floor.
+
+3. **3F West Column 8 and Row 7 Layout & Bypass:**
+   - To navigate 3F West without stepping on the `(5, 10)` down-staircase warp, the player MUST walk on Row 11:
+     - From landing at `(7, 10)`, walk DOWN to `(7, 11)`.
+     - Walk LEFT along Row 11 to Column 1 `(1, 11)`.
+     - Walk UP Column 1 to Row 9 `(1, 9)`.
+     - This path is completely open in State B and safely circumvents the `(5, 10)` staircase warp and the `(8, 9)` rock block.
