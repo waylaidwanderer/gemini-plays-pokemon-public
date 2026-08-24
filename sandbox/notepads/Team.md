@@ -37,13 +37,13 @@
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
-## Inventory & Resources
+## Inventory & Resources (Verified Turn 14612)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Key Items: HM02 (Fly), Lift Key, Bicycle, Town Map, Helix Fossil, S.S. Ticket
-- TMs / HMs: HM01 (Cut), HM02 (Fly), TM08 (Body Slam), TM10 (Double-Edge), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM21 (Mega Drain), TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig), TM24 (Thunderbolt)
-- Valuables: 1x Nugget
-- Consumables: 10x Great Balls, 4x Super Potion, 2x Moon Stone, 1x Water Stone, 1x Fresh Water, 2x Soda Pop
-- Funds: ¥27,678 (Verified Turn 14330)
+- Bag Capacity: ~5 / 20 slots used (>14 empty slots available for Silph Scope, Poké Flute, Tower items!)
+- Active Bag Items: Great Ball, Super Potion, TM18 (Counter), Soda Pop, Bicycle, S.S. Ticket
+- Deposited in PC: 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM48, TM49, TM10, TM08, TM24
+- Party Slot 6: OPEN (Reserved for wild flyer)
+- Funds: ¥27,678+
 
 ## Flying-Type Party Slot Allocation & Capture Plan
 - Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after retrieving Silph Scope and completing Pokémon Tower.
