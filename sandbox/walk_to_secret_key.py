@@ -2,7 +2,7 @@ import mgba
 import time
 import os
 
-# Clean up obsolete workspace files
+# Clean up obsolete workspace files as requested by the overwatch system
 obsolete_files = [
     "walk_to_statue_2f.py",
     "test_col9_up.py",
@@ -30,13 +30,9 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (5, 11) on 3F West of Pokemon Mansion in State A
-# 1. Walk the bypass around the NPC to reach the switch at (2, 12)
+# Starting at (3, 13) on 3F West of Pokemon Mansion in State A
+# 1. Walk to the switch at (2, 12)
 steps_to_switch = [
-    ("Down", {"x": 5, "y": 12}),
-    ("Left", {"x": 4, "y": 12}),
-    ("Down", {"x": 4, "y": 13}),
-    ("Left", {"x": 3, "y": 13}),
     ("Left", {"x": 2, "y": 13}),
     ("Up", {"x": 2, "y": 12}),
 ]
