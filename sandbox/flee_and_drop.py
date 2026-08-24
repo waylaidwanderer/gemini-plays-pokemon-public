@@ -34,10 +34,10 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-# 1. Flee from wild Ponyta (cursor is already at RUN)
+# 1. Flee from wild Ponyta (cursor is at FIGHT)
 print("Fleeing from wild Ponyta...")
-mgba.press_buttons(["A", "sleep 3000"])
-# Dismiss fainted text or fled text
+mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
+# Dismiss "Got away safely!" text
 mgba.press_buttons(["B", "sleep 600"])
 print("Overworld position after fleeing:", get_pos())
 
