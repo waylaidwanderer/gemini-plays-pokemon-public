@@ -45,12 +45,12 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (6, 10) on 3F West in State B
+# Starting at (6, 13) on 3F West in State B
 print("Starting Mansion Phase 3 Part 2:", get_pos())
 
-# 1. Walk to pitfall at (26, 6) via Row 13 Column 11
-walk_to(6, 13)
-walk_to(11, 13)
+# 1. Walk to pitfall at (26, 6) via Row 11 Column 11
+walk_to(6, 11)
+walk_to(11, 11)
 walk_to(11, 6)
 walk_to(26, 6)
 print("Fell through pit! Waiting 2 seconds...")
