@@ -53,8 +53,9 @@ print("Starting from:", get_pos())
 
 # Phase 1: Walk to 3F East pitfall and drop
 print("PHASE 1: Walking to pitfall at (26, 4)...")
-if not walk_to(7, 8): sys.exit(1)
-if not walk_to(12, 8): sys.exit(1)
+if not walk_to(7, 11): sys.exit(1)
+if not walk_to(7, 7): sys.exit(1)
+if not walk_to(12, 7): sys.exit(1)
 if not walk_to(12, 6): sys.exit(1)
 if not walk_to(19, 6): sys.exit(1)
 if not walk_to(19, 3): sys.exit(1)
