@@ -5,15 +5,20 @@ import time
 mgba.press_buttons(["B"])
 time.sleep(1.5) # Wait for fade back to overworld
 
-# 2. Walk from (20, 6) to (26, 4) and drop
+# 2. Walk from (21, 6) to (26, 3) and drop
 steps = [
-    ("Right", {"x": 21, "y": 6}),
-    ("Right", {"x": 22, "y": 6}),
-    ("Right", {"x": 23, "y": 6}),
-    ("Right", {"x": 24, "y": 6}),
-    ("Right", {"x": 25, "y": 6}),
-    ("Right", {"x": 26, "y": 6}),
-    ("Up", {"x": 26, "y": 5}),
+    ("Left", {"x": 20, "y": 6}),
+    ("Left", {"x": 19, "y": 6}),
+    ("Up", {"x": 19, "y": 5}),
+    ("Up", {"x": 19, "y": 4}),
+    ("Up", {"x": 19, "y": 3}),
+    ("Right", {"x": 20, "y": 3}),
+    ("Right", {"x": 21, "y": 3}),
+    ("Right", {"x": 22, "y": 3}),
+    ("Right", {"x": 23, "y": 3}),
+    ("Right", {"x": 24, "y": 3}),
+    ("Right", {"x": 25, "y": 3}),
+    ("Right", {"x": 26, "y": 3}),
 ]
 
 def walk_step(direction, expected_coords, retries=15):
@@ -35,8 +40,8 @@ for direction, coords in steps:
         break
 
 if success:
-    print("Reached (26, 5) on 3F East! Stepping UP onto (26, 4) to fall through pitfall...")
-    mgba.press_buttons(["Up"])
+    print("Reached (26, 3) on 3F East! Stepping DOWN onto (26, 4) to fall through pitfall...")
+    mgba.press_buttons(["Down"])
     time.sleep(2.0) # Wait for drop animation
     pos = mgba.get_coordinates()
     print(f"Landed on 1F East inside fenced room! Position: {pos}")
