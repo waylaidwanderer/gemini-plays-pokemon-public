@@ -50,21 +50,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 50
-   - Stats (Verified at Lv 50 Turn 14979): Max HP 166 (HP: 152/166), Attack 114, Defense 126, Speed 116, Special 121
-   - Type: Water
-   - Moves: Skull Bash (14/15), Ice Beam (6/10), Bite (22/25), Bubblebeam (19/20)
-   - Role: Starter & primary Water/Ice special attacker (Active Lead & Pokémon Tower sweeper)
+1. ATLAS (Machop) - Lv 16
+   - Stats: Max HP 54 (HP: 54/54)
+   - Type: Fighting
+   - Moves: Karate Chop (25/25), Low Kick
+   - Role: Active Lead (Swapped to Slot 1 Turn 15055 for capture encounter)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
-3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
-   - Type: Fighting
-   - Moves: Karate Chop (25/25), Low Kick
-   - Role: Physical Fighting STAB attacker (Swapped to Slot 3 Turn 14318)
+3. HYDROS (Blastoise) - Lv 50
+   - Stats (Verified at Lv 50 Turn 14979): Max HP 166 (HP: 152/166), Attack 114, Defense 126, Speed 116, Special 121
+   - Type: Water
+   - Moves: Skull Bash (14/15), Ice Beam (6/10), Bite (22/25), Bubblebeam (19/20)
+   - Role: Starter & primary Water/Ice special attacker (Swapped to Slot 3 Turn 15055)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
@@ -1165,11 +1165,11 @@
 - Gambler at (46, 13), Gambler at (13, 9)
 - Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
 
-## Tall Grass & Wild Encounters (Verified Turn 15023-15032)
-- Eastern Tall Grass Patch: Located at cols 44-53, rows 12-13 (flanked by fence at row 11 and southern path at row 14).
-  - Walkable Grass Rows: Row 12 (cols 44-50, 52-53), Row 13 (cols 44-45, 47-53).
-  - NPCs inside grass perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
-- Wild Species: Pidgey (Lv 18-20), Pidgeotto (Lv 20-22), Meowth (Lv 18-20), Growlithe / Vulpix (Lv 18), Kadabra (Lv 20).
+## Eastern Memorial Garden Topography (Verified Turn 15023-15056)
+- Eastern Memorial Garden: Located at cols 44-53, rows 9-13 (headstones at rows 9-11, lawn at rows 12-13).
+  - Note: Ground is standard lawn turf (player sprite feet not masked by grass); tested 100+ steps with zero encounters. Does NOT generate wild battles.
+  - NPCs inside perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
+  - Traversal Route: Exit north via col 52 to row 2/3 northern corridor to bypass central pillar structure.
 
 
 <hr>
