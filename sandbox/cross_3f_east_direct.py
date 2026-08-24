@@ -1,5 +1,6 @@
 import mgba
 import sys
+import os
 
 def get_pos():
     return mgba.get_coordinates()
@@ -42,14 +43,11 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Currently at (1, 11) on 3F West in State B
-print("Walking to (1, 13)...")
-if not walk_to(1, 13): sys.exit(1)
-print("Walking to (6, 13)...")
-if not walk_to(6, 13): sys.exit(1)
-print("Walking to (6, 6)...")
-if not walk_to(6, 6): sys.exit(1)
-print("Walking to (26, 6)...")
+# Currently at (6, 11) on 3F West in State B
+print("PHASE 1: Walking to 3F East pitfall at (26, 6) via Column 5 Row 6...")
+if not walk_to(6, 8): sys.exit(1)
+if not walk_to(5, 8): sys.exit(1)
+if not walk_to(5, 6): sys.exit(1)
 if not walk_to(26, 6): sys.exit(1)
 
 print("Stepping RIGHT onto the pitfall to drop...")
