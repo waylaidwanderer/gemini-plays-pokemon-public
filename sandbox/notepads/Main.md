@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 8 (51, 8) -> Stepping South into tall grass at (52, 13) to catch Flyer ZEPHYR
+- Location: Route 8 (50, 13) -> Patrolling tall grass to encounter wild Flyer (Pidgey/Pidgeotto)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
