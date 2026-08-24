@@ -2,7 +2,7 @@
 
 ## Active Party
 1. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
+   - Stats: Max HP 54 (HP: 11/54) [Damaged in Lass battle Turn 15219]
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Active Lead (Swapped to Slot 1 Turn 15055 for capture encounter)
@@ -37,7 +37,7 @@
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
-## Inventory & Resources (Updated Turn 15151 - In-Game Verification Pending)
+## Inventory & Resources (Verified Turn 15241)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Bag Capacity: 15 / 20 slots used (5 empty slots available)
 - Active Bag Items: Great Ball x11, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011]
@@ -54,3 +54,9 @@
 ## Party Lead & Safety Protocol (Adopted Turn 15211)
 - **Overworld Traversal / Unsurveyed Corridors**: Maintain HYDROS (Blastoise Lv 50) as Lead in Slot 1 to safely handle unexpected trainer encounters.
 - **Wild Capture Farming in Verified Tall Grass**: Swap capture lead (ATLAS Machop Lv 16) to Slot 1 only after physically entering confirmed tall grass boundaries.
+
+## Turn-1 Capture & Lead Safety Protocol (Adopted Turn 15241)
+- **Lead Pokémon**: HYDROS (Blastoise Lv 50, HP 166/166) positioned in Slot 1.
+- **Encounter Actions**:
+  - Target Flyer (Pidgey Lv 18-20, Pidgeotto Lv 19, Spearow): Select ITEM -> Great Ball on Turn 1 immediately (65%+ base capture rate at full HP with Great Ball; zero risk to team).
+  - Non-Flyer (Meowth, Sandshrew, Vulpix, Kadabra, Growlithe): Select RUN on Turn 1 (100% escape rate due to Blastoise Speed 116).

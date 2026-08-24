@@ -39,3 +39,7 @@
 - **Tall Grass Sectors**:
   - Western Field (cols 23-25, rows 7-13): 100% verified tall grass; safe pacing zone without trainers.
   - West Vertical Strip (col 16, rows 4-11): Open tall grass.
+
+## Empirical Wild Encounter Log (Route 8 Tall Grass)
+| Encounter # | Turn | Species | Level | Outcome / Action |
+|---|---|---|---|---|
