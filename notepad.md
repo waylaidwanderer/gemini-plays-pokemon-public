@@ -86,13 +86,13 @@
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
-## Inventory & Resources (Verified Turn 14612)
+## Inventory & Resources (Verified Turn 14666)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Bag Capacity: ~5 / 20 slots used (>14 empty slots available for Silph Scope, Poké Flute, Tower items!)
-- Active Bag Items: Great Ball, Super Potion, TM18 (Counter), Soda Pop, Bicycle, S.S. Ticket
-- Deposited in PC: 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM48, TM49, TM10, TM08, TM24
+- Bag Capacity: 11 / 20 slots used (9 empty slots available for Silph Scope, Pok� Flute, etc.)
+- Active Bag Items: Great Ball x1, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1
+- Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, Bicycle, S.S. Ticket
 - Party Slot 6: OPEN (Reserved for wild flyer)
-- Funds: ¥27,678+
+- Funds: �27,678+
 
 ## Flying-Type Party Slot Allocation & Capture Plan
 - Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after retrieving Silph Scope and completing Pokémon Tower.
@@ -1172,18 +1172,15 @@
 # Route 7 - Points of Interest & Verified Topology
 
 ## Connections
-- West: Celadon City at (0, 2..3) connecting directly to Celadon City at (49, 10..11) [Entered Turn 11727]
+- West: Celadon City at (0, 2..3) [North Highway] and (0, 14..15) [South Path] connecting directly to Celadon City [Entered Turn 11727]
 - East: Saffron City West Gatehouse at cols 11-17, rows 8-11 (door at (11, 9))
 - South: Underground Path Entrance Building at (5, 13) connecting via 48-tile tunnel to Route 8
 
-## Tile Semantics & Wild Grass vs Cosmetic Floral Decoration (Verified Turn 14208)
-- **Cosmetic Flowerbeds (rows 6-7, cols 8-9)**: Contains tile `0x20` / `0x52` (large centered red tulip/rose flower). Empirical testing (Turns 14205-14208) proved these are cosmetic town/plaza decorations that generate ZERO wild encounters.
-- **True Wild Grass Enclosure**: Located behind the Cut bush at `(12, 3)` (leafy checkerboard grass blade texture tile `0x08` / `0x3C`).
-
 ## Layout & Verified Sectors
 1. **Western Highway to Celadon City (rows 2-3, cols 0-6)**: 2-tile wide paved highway.
-2. **Underground Path Building (5, 13)**: Direct fast-travel connection to Route 8.
-3. **Middle Avenue & Saffron Gatehouse (rows 8-10, cols 2-16)**: Connects to Saffron West Gatehouse at (11, 9).
+2. **Underground Path Building (5, 13)**: Direct fast-travel connection to Route 8. Exits onto row 14 path.
+3. **Southern Traverse Path (rows 14-15, cols 0-16)**: Unobstructed horizontal corridor directly connecting the Underground Path building exit (5, 14) west to Celadon City (0, 14..15) and east to Saffron Gate south apron (13-16, 14..15).
+4. **Middle Avenue & Saffron Gatehouse (rows 8-10, cols 2-16)**: Connects to Saffron West Gatehouse at (11, 9).
 
 
 <hr>
