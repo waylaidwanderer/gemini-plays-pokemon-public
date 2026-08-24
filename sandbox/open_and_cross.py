@@ -66,24 +66,28 @@ def walk_to(target_x, target_y):
 print("Starting open_and_cross.py...")
 print("Initial Position:", get_pos())
 
-# Step 1: Walk to (1, 11)
-if not walk_to(1, 11): sys.exit(1)
+# Step 1: Walk to (2, 12)
+if not walk_to(1, 12): sys.exit(1)
+if not walk_to(2, 12): sys.exit(1)
 
-# Step 2: Toggle Mewtwo Statue Switch
-print("Toggling Mewtwo statue switch at (2, 11) to State B...")
-mgba.press_buttons(["Right", "sleep 300"])
-mgba.press_buttons(["A", "sleep 1000"]) # A secret switch!
-mgba.press_buttons(["A", "sleep 1000"]) # Press it?
-mgba.press_buttons(["A", "sleep 1000"]) # Who wouldn't? / YES
-mgba.press_buttons(["B", "sleep 800"])  # Clear dialog
+# Step 2: Face UP and toggle Mewtwo Statue Switch to State B (generous sleeps)
+print("Facing UP and toggling Mewtwo switch at (2, 11) to State B...")
+mgba.press_buttons(["Up", "sleep 500"])
+mgba.press_buttons(["A", "sleep 1800"]) # A secret switch! Press it?
+mgba.press_buttons(["A", "sleep 1800"]) # select YES -> Who wouldn't?
+mgba.press_buttons(["A", "sleep 1800"]) # dismiss
+mgba.press_buttons(["B", "sleep 1000"]) # clear dialog
 print("Toggled switch! Position:", get_pos())
 
-# Step 3: Walk to (1, 9)
-if not walk_to(1, 9): sys.exit(1)
+# Step 3: Walk to (1, 12)
+if not walk_to(1, 12): sys.exit(1)
 
-# Step 4: Walk to (12, 9)
-if not walk_to(12, 9): sys.exit(1)
+# Step 4: Walk to (1, 8)
+if not walk_to(1, 8): sys.exit(1)
 
-print("SUCCESS! Arrived at (12, 9) in State B! Position:", get_pos())
+# Step 5: Walk to (12, 8)
+if not walk_to(12, 8): sys.exit(1)
+
+print("SUCCESS! Arrived at (12, 8) in State B! Position:", get_pos())
 sc = mgba.take_screenshot()
 print("Screenshot:", sc)
