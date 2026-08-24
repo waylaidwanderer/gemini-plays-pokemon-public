@@ -1762,6 +1762,7 @@
 - Northern Plateau Descent Stairs: (26, 10) leading down onto northern lawn (rows 8-10).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
 - Northwest Exit to Area 2 (North): Accessible via northern lawn heading west across rows 8-9 towards col 0.
+- North Exit to Area 2 (North): Open northern corridor at (20..21, 0) leading directly into Safari Zone Area 2 (North) [Verified Turn 15596].
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier.
 
 <hr>
