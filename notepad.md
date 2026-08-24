@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Town (10, 6) -> Navigating north into Route 10 tall grass to encounter & catch flyer ZEPHYR
+- Location: Route 10 South (6, 68) -> Navigating east/north to enter Route 10 tall grass to encounter & catch flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -124,57 +124,39 @@
 
 ## Main Quests
 
-
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
-
 
 - [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
 
-
 - [x] Obtain Town Map from Daisy in Pallet Town
-
 
 - [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
 
-
 - [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
-
 
 - [x] Navigate Mt. Moon towards Route 4 and Cerulean City [Turn 1152]
 
-
 - [x] Defeat Gym Leader Misty in Cerulean City (Cascade Badge & TM11 Bubblebeam) [Turn 1348]
-
 
 - [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
 
-
 - [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
-
 
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
 
-
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
-
 
 - [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
 
-
 - [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
-
 
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
 
-
 - [x] Board the S.S. Anne in Vermilion City [Turn 1921]
-
 
 - [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
 
-
 - [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
-
 
 - [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
 
@@ -857,26 +839,46 @@
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 - Points of Interest & Topology
-
-## Connections
-- West: Route 9 at (0, 8..9) / (0..14, 5..9)
-- North: Power Plant waterway (accessed via canal at col 16)
-- South/East: Rock Tunnel North Entrance at (8, 17)
-
-## Layout & Landmarks
-- Upper Courtyard (rows 16-29, cols 9-15):
-  - Route 10 Pokémon Center located at cols 10-13, rows 16-19 with entrance door at (11, 19).
-  - Open courtyard spanning rows 20-29 across cols 10-14.
-  - Row 30 Ledge / Cliff: Impassable ledge/cliff across cols 7-12 separating upper courtyard from lower cave path.
-- Western Thoroughfare & Lower Path (cols 0-8, rows 20-33 & rows 31-33, cols 7-15):
-  - North-south path along col 7 past Jr. Trainer Carol at (7, 25).
-  - Lower horizontal road at rows 31-32 connecting west path across cols 7-15 directly into the Rock Tunnel cave entrance at (14..15, 31).
-
-## Buildings & Points of Interest
-- Route 10 Pokémon Center: Located at (11, 19). Healing station and respawn point outside Rock Tunnel.
-
-## Verified Trainers & Encounters
+# Route 10 - Points of Interest & Topology
+
+
+
+## Connections
+
+- West: Route 9 at (0, 8..9) / (0..14, 5..9)
+
+- North: Power Plant waterway (accessed via canal at col 16)
+
+- South/East: Rock Tunnel North Entrance at (8, 17)
+
+
+
+## Layout & Landmarks
+
+- Upper Courtyard (rows 16-29, cols 9-15):
+
+  - Route 10 Pokémon Center located at cols 10-13, rows 16-19 with entrance door at (11, 19).
+
+  - Open courtyard spanning rows 20-29 across cols 10-14.
+
+  - Row 30 Ledge / Cliff: Impassable ledge/cliff across cols 7-12 separating upper courtyard from lower cave path.
+
+- Western Thoroughfare & Lower Path (cols 0-8, rows 20-33 & rows 31-33, cols 7-15):
+
+  - North-south path along col 7 past Jr. Trainer Carol at (7, 25).
+
+  - Lower horizontal road at rows 31-32 connecting west path across cols 7-15 directly into the Rock Tunnel cave entrance at (14..15, 31).
+
+
+
+## Buildings & Points of Interest
+
+- Route 10 Pokémon Center: Located at (11, 19). Healing station and respawn point outside Rock Tunnel.
+
+
+
+## Verified Trainers & Encounters
+
 - Jr. Trainer Female Carol: Located at (7, 25) [Defeated Turn 3088]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
 ## Route 10 South Sector (Discovered Turn 10973)
 - Rock Tunnel South Exit: Located at (8, 53).
@@ -886,6 +888,12 @@
 - South Connection: Connects directly south into Lavender Town.
 - Hiker #2 (Route 10 South): Located at (3, 57) [Defeated Turn 10996]. Team: Geodude Lv 21, Onix Lv 21. Reward: ¥735. Dialogue: "Ha-hahah-ah-ha!" Defeat quote: "Ha-hay fever! Haha-ha-choo!"
 - PokéManiac (Route 10 South): Located at (11, 64) [Defeated Turn 11022]. Team: Cubone Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "Hi kid, want to see my POKéMON?"
+## Route 10 South Topography & Obstacles (Verified Turn 15183)
+- Southern boundary connects to Lavender Town at row 71.
+- Western wall: Continuous solid cliff wall at col 5 (rows 67-72).
+- Row 67 Ledge: Impassable hop-down ledge across cols 6-9 heading south. Blocks upward traversal from row 68.
+- Tall Grass Field: Spans cols 10-15+ across rows 60-66. Accessible via eastern passage at col 11+ around the ledge.
+
 
 <hr>
 
