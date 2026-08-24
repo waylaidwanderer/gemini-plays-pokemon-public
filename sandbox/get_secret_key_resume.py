@@ -43,16 +43,16 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Currently at (7, 11) on 3F West in State A
-print("PHASE 1: Walking directly to (1, 11) on Row 11...")
-if not walk_to(1, 11): sys.exit(1)
-
-# Toggle Mewtwo switch to State B
-print("PHASE 2: Toggling switch to State B...")
+# Currently at (1, 11) on 3F West in State A
+# Face RIGHT
+print("PHASE 1: Facing RIGHT towards switch...")
 mgba.press_buttons(["Right", "sleep 400"])
-mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "B", "sleep 500"])
 
-# Verify switch state
+# Toggle Mewtwo switch to State B (Exactly 3 A's and 1 B)
+print("PHASE 2: Toggling switch to State B...")
+mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "B", "sleep 600"])
+
+# Verify switch state and walk to pitfall
 print("PHASE 3: Walking to 3F East pitfall...")
 if not walk_to(1, 13): sys.exit(1)
 if not walk_to(6, 13): sys.exit(1)
