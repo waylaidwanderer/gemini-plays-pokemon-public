@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 7 Underground Building (4, 4) -> Exiting south to Route 7 (12, 4) -> Riding west to Celadon City -> Rocket Hideout B4F (Silph Scope)
+- Location: Route 7 (13, 14) -> Heading west along row 14 to Celadon City -> Celadon Game Corner -> Rocket Hideout B4F (Silph Scope)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -42,7 +42,6 @@
 - `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Gym access, corridors
 - `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
-
 
 <hr>
 
