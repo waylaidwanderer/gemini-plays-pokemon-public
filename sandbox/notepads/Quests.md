@@ -60,7 +60,5 @@
 - [x] Traverse Rock Tunnel and arrive at Route 10 South / Lavender Town [Turn 10973]
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
-- [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
-- [x] Defeat Gym Leader Erika in Celadon Gym (Rainbow Badge & TM21 Mega Drain) [Turn 13822]
-- [x] Retrieve Silph Scope from Boss Giovanni's office in Rocket Hideout B4F [Turn 14816, Verified in Bag Turn 14824]
-- [ ] Ascend Pok�mon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F)
+- [x] Ascend Pokémon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F & Team Rocket on 7F) [Turn 14998-15001]
+- [ ] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House
