@@ -46,4 +46,7 @@
 - Funds: ¥28,428+
 
 ## Flying-Type Party Slot Allocation & Capture Plan
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after retrieving Silph Scope and completing Pokémon Tower.
+- Party Slot 6: Reserved for wild flyer (Pidgey / Pidgeotto / Spearow)
+- Planned Nickname: ZEPHYR
+- Fly Utility: HM02 Fly in Bag ready to be taught upon capture
+- Capture Equipment: Great Ball x1 (Restock available at Lavender Pokémart for ¥600/ball)
