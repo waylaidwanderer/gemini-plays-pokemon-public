@@ -13,53 +13,56 @@ def run_from_battle():
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 150"])
 
-def walk_step(direction):
+def step(direction):
     pos_before = get_pos()
+    print(f"Stepping {direction} from {pos_before}...")
     mgba.press_buttons([direction, "sleep 450"])
     pos_after = get_pos()
-    return pos_before, pos_after
-
-def walk_to(target_x, target_y):
-    print(f"Walking to ({target_x}, {target_y})...")
-    max_steps = 30
-    steps = 0
-    while steps < max_steps:
-        pos = get_pos()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            print(f"Arrived at ({target_x}, {target_y})!")
-            return True
-        if x < target_x: direction = "Right"
-        elif x > target_x: direction = "Left"
-        elif y < target_y: direction = "Down"
-        elif y > target_y: direction = "Up"
-        pos_before, pos_after = walk_step(direction)
+    if pos_before == pos_after:
+        # Try a second time (handles turning in place)
+        mgba.press_buttons([direction, "sleep 450"])
+        pos_after = get_pos()
         if pos_before == pos_after:
-            mgba.press_buttons(["sleep 150"])
-            pos_now = get_pos()
-            if pos_now == pos_before:
-                run_from_battle()
-        steps += 1
-    return False
+            print("Blocked! Checking for battle...")
+            run_from_battle()
+            # Try once more after fleeing
+            mgba.press_buttons([direction, "sleep 450"])
+            pos_after = get_pos()
+    return pos_after
 
-# Start from current position (1, 10) on 3F West
-print("Walking to (1, 11)...")
-if not walk_to(1, 11): sys.exit(1)
+print("Starting at:", get_pos())
 
-# Face RIGHT
+# Phase 1: Walk to (1, 11) via (4, 11)
+step("Down")
+for _ in range(3):
+    step("Left")
+
+print("Arrived at (1, 11). Current position:", get_pos())
+
+# Phase 2: Toggle Mewtwo switch at (2, 11)
 print("Facing RIGHT towards (2, 11)...")
-mgba.press_buttons(["Right", "sleep 400"])
+mgba.press_buttons(["Right", "sleep 300"])
+print("Toggling switch...")
+mgba.press_buttons(["A", "sleep 1200"]) # A secret switch!
+mgba.press_buttons(["A", "sleep 1200"]) # Would you like to toggle it?
+mgba.press_buttons(["A", "sleep 1200"]) # Selects YES
+mgba.press_buttons(["A", "sleep 1200"]) # Who wouldn't?
+mgba.press_buttons(["B", "sleep 500"])  # Close dialog
 
-# Safe switch toggling sequence
-print("Toggling the switch at (2, 11) facing Right...")
-mgba.press_buttons(["A", "sleep 1500"]) # "A secret switch!"
-mgba.press_buttons(["A", "sleep 1500"]) # "Press it?" (Yes/No appears)
-mgba.press_buttons(["A", "sleep 1500"]) # Select YES -> "(click)"
-mgba.press_buttons(["A", "sleep 1500"]) # Clear "(click)" text
-mgba.press_buttons(["B", "sleep 500"])  # Safety close dialogue box
+print("Switch toggled to State B! Current position:", get_pos())
 
-print("Mansion should be in State B. Testing if gate at (1, 9) is now open...")
-if not walk_to(1, 9): sys.exit(1)
+# Phase 3: Walk UP Column 1 to Row 6 (5 steps)
+for _ in range(5):
+    step("Up")
 
-print("Final Position:", get_pos())
+# Phase 4: Walk RIGHT along Row 6 to Column 26 (25 steps)
+for _ in range(25):
+    step("Right")
+
+# Phase 5: Step RIGHT onto pitfall to drop to 1F East inside fenced room
+print("Stepping onto pitfall...")
+step("Right")
+mgba.press_buttons(["sleep 2500"])
+
+print("SUCCESS! Landing position on 1F East:", get_pos())
 mgba.take_screenshot()
