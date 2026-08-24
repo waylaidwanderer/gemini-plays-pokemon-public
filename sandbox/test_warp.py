@@ -1,26 +1,60 @@
 import mgba
-import time
+import sys
 
 def get_pos():
     return mgba.get_coordinates()
 
-print("Initial Position:", get_pos())
+def run_from_battle():
+    print("Wild battle detected! Fleeing...")
+    # Wait for battle menu
+    mgba.press_buttons(["sleep 2000"])
+    for _ in range(3):
+        mgba.press_buttons(["B", "sleep 150"])
+    # Run away (Down, Right, A)
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 2500"])
+    for _ in range(5):
+        mgba.press_buttons(["B", "sleep 150"])
 
-# Let's try walking around on Row 10 to find the warp!
-# We are currently at (7, 10). Let's step Left to (6, 10) and then (5, 10).
-print("Stepping Left to (6, 10)...")
-mgba.press_buttons(["Left", "sleep 500"])
-print("Position:", get_pos())
+def walk_step(direction):
+    pos_before = get_pos()
+    mgba.press_buttons([direction, "sleep 450"])
+    pos_after = get_pos()
+    return pos_before, pos_after
 
-print("Stepping Left to (5, 10)...")
-mgba.press_buttons(["Left", "sleep 500"])
-print("Position:", get_pos())
+def walk_to(target_x, target_y):
+    print(f"Walking to ({target_x}, {target_y})...")
+    max_steps = 30
+    steps = 0
+    while steps < max_steps:
+        pos = get_pos()
+        x, y = pos['x'], pos['y']
+        if x == target_x and y == target_y:
+            print(f"Arrived at ({target_x}, {target_y})!")
+            return True
+        if x < target_x: direction = "Right"
+        elif x > target_x: direction = "Left"
+        elif y < target_y: direction = "Down"
+        elif y > target_y: direction = "Up"
+        pos_before, pos_after = walk_step(direction)
+        if pos_before == pos_after:
+            mgba.press_buttons(["sleep 150"])
+            pos_now = get_pos()
+            if pos_now == pos_before:
+                # Check for battle
+                run_from_battle()
+        steps += 1
+    return False
 
-# If we are at (5, 10) and it has stairs, let's try going Up or Left to see if it warps us!
-print("Trying Up from (5, 10)...")
-mgba.press_buttons(["Up", "sleep 1200"])
-print("Position after Up:", get_pos())
+# Start from current position (1, 11) on 2F West in State A
+print("PHASE 1: Walking to stairs (7, 11)...")
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(5, 11): sys.exit(1)
+if not walk_to(7, 11): sys.exit(1)
 
-print("Trying Left from (5, 10)...")
-mgba.press_buttons(["Left", "sleep 1200"])
-print("Position after Left:", get_pos())
+print("PHASE 2: Warping UP to 3F West...")
+pos_before = get_pos()
+mgba.press_buttons(["Up", "sleep 2500"])
+pos_after = get_pos()
+print(f"Warp complete. Before: {pos_before}, After: {pos_after}")
+mgba.take_screenshot()
