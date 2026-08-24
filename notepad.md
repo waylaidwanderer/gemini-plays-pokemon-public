@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Town (3, 5) -> Navigating to Lavender Pok�mart at (15, 13) to purchase 20x Great Balls
+- Location: Lavender Pok�mart (2, 5) -> Completing Great Ball purchase at counter
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -86,7 +86,7 @@
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
-## Inventory & Resources (Verified Turn 15011)
+## Inventory & Resources (Updated Turn 15151 - In-Game Verification Pending)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Bag Capacity: 15 / 20 slots used (5 empty slots available)
 - Active Bag Items: Great Ball x11, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011]
