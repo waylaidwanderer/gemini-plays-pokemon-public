@@ -70,11 +70,11 @@
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
-5. PRISM (Jolteon) - Lv 25
-   - Stats (Verified at Lv 25): Max HP 72 (HP: 72/72), Attack 44, Defense 44, Speed 74, Special 64
-   - Type: Electric
-   - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
-   - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
+5. PRISM (Eevee) - Lv 25
+   - Stats (Verified at Lv 25 Turn 14826): Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
+   - Type: Normal
+   - Moves: Tackle (35/35), Sand-Attack (15/15)
+   - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. [OPEN SLOT 6] - Reserved for wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy
@@ -181,7 +181,8 @@
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
 - [x] Defeat Gym Leader Erika in Celadon Gym (Rainbow Badge & TM21 Mega Drain) [Turn 13822]
-- [ ] Retrieve Silph Scope from Boss Giovanni's office in Rocket Hideout B4F (Defeated Giovanni Turn 13304; item ball dropped at (25, 2))
+- [x] Retrieve Silph Scope from Boss Giovanni's office in Rocket Hideout B4F [Turn 14816, Verified in Bag Turn 14824]
+- [ ] Ascend Pok�mon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F)
 
 
 <hr>
