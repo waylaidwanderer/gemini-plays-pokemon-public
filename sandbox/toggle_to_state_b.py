@@ -48,18 +48,21 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (4, 10) on 3F West in State A
-print("1. Walking to (4, 13)...")
-walk_to(4, 13)
-print("2. Walking LEFT along Row 13 to Column 1...")
-walk_to(1, 13)
-print("3. Walking UP Column 1 to Row 11...")
-walk_to(1, 11)
+# Starting at (1, 11) on 3F West in State B
+print("1. Walking UP to (1, 9)...")
+walk_to(1, 9)
+print("2. Walking RIGHT along Row 9 to (12, 9)...")
+walk_to(12, 9)
+print("3. Walking UP Column 12 to (12, 6)...")
+walk_to(12, 6)
+print("4. Walking straight RIGHT along Row 6 to pitfall at (26, 6)...")
+walk_to(26, 6)
 
-# Toggle switch to State B
-print("4. Toggling switch to State B...")
-mgba.press_buttons(["Right", "sleep 250", "A", "sleep 500", "A", "sleep 500", "B", "sleep 250"])
-print("State B activated! Position:", get_pos())
+# Step DOWN to drop
+print("5. Dropping through pitfall...")
+walk_step("Down")
+time.sleep(2.0)
 
+print("Arrived on 1F East inside fenced room! Final Position:", get_pos())
 sc = mgba.take_screenshot()
-print("Screenshot:", sc)
+print("Final Screenshot:", sc)
