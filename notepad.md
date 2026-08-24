@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Pok�mart (2, 5) -> Completing Great Ball purchase at counter
+- Location: Lavender Town (10, 6) -> Navigating north into Route 10 tall grass to encounter & catch flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
