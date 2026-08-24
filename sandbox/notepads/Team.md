@@ -28,8 +28,8 @@
    - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. ZEPHYR (Pidgey) - Lv 19
    - Stats: Max HP ~48, Type: Normal / Flying
-   - Moves: Gust, Sand-Attack, Quick Attack
-   - Role: Party Flyer (Teaching HM02 Fly)
+   - Moves: Gust, Sand-Attack, Quick Attack, Fly
+   - Role: Active Flyer (HM02 Fly learned Turn 15348)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
