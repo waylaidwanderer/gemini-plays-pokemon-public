@@ -4,46 +4,54 @@ import sys
 def get_pos():
     return mgba.get_coordinates()
 
-def run_from_battle():
-    print("Wild battle detected! Fleeing...")
-    mgba.press_buttons(["sleep 2000"])
-    for _ in range(3):
-        mgba.press_buttons(["B", "sleep 150"])
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 2500"])
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 150"])
-
-def step(direction):
+def walk_step(direction):
     pos_before = get_pos()
-    print(f"Stepping {direction} from {pos_before}...")
     mgba.press_buttons([direction, "sleep 450"])
     pos_after = get_pos()
-    if pos_before == pos_after:
-        # Try a second time (handles turning in place)
-        mgba.press_buttons([direction, "sleep 450"])
-        pos_after = get_pos()
+    return pos_before, pos_after
+
+def walk_to_clean(target_x, target_y):
+    print(f"Walking to ({target_x}, {target_y})...")
+    max_steps = 40
+    steps = 0
+    while steps < max_steps:
+        pos = get_pos()
+        x, y = pos['x'], pos['y']
+        if x == target_x and y == target_y:
+            print(f"Arrived at ({target_x}, {target_y})!")
+            return True
+        if x < target_x: direction = "Right"
+        elif x > target_x: direction = "Left"
+        elif y < target_y: direction = "Down"
+        elif y > target_y: direction = "Up"
+        pos_before, pos_after = walk_step(direction)
         if pos_before == pos_after:
-            print("Blocked! Checking for battle...")
-            run_from_battle()
-            # Try once more after fleeing
-            mgba.press_buttons([direction, "sleep 450"])
-            pos_after = get_pos()
-    return pos_after
+            # Try a second time (handles turning in place)
+            pos_before, pos_after = walk_step(direction)
+            if pos_before == pos_after:
+                print(f"BLOCKED at {pos_before} when trying to go {direction}!")
+                return False
+        steps += 1
+    return False
 
-# Starting at (1, 10) on 3F West
-print("PHASE 1: Walking to the 3F East pitfall...")
-# Walk UP from (1, 10) to (1, 6) -> 4 steps
-for _ in range(4):
-    step("Up")
+# 1. We are in battle at (3, 13). Flee!
+print("Fleeing from wild Grimer...")
+mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
+print("Overworld position:", get_pos())
 
-# Walk RIGHT from (1, 6) to (26, 6) -> 25 steps
-for _ in range(25):
-    step("Right")
+# 2. Walk to (6, 13)
+if not walk_to_clean(6, 13): sys.exit(1)
 
-# Step RIGHT onto the pitfall (27, 6) to drop
-print("PHASE 2: Dropping through pitfall...")
-step("Right")
-# Wait for drop transition
-mgba.press_buttons(["sleep 2500"])
-print("Position after drop:", get_pos())
+# 3. Walk UP Column 6 to Row 6 (6, 6)
+if not walk_to_clean(6, 6):
+    print("Blocked walking up Column 6! Switch was NOT toggled successfully.")
+    sys.exit(1)
+
+# 4. Walk RIGHT along Row 6 to Column 26
+if not walk_to_clean(26, 6): sys.exit(1)
+
+# 5. Drop through pitfall
+print("Stepping onto pitfall...")
+mgba.press_buttons(["Right", "sleep 2500"])
+print("Position after drop (should be 1F East fenced room):", get_pos())
 mgba.take_screenshot()
