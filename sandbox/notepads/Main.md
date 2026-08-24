@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 7 (13, 2) -> Caught ZEPHYR (Pidgey Lv 19)! Teaching HM02 Fly -> Awaken Snorlax
+- Location: Celadon Pok�mon Center (13, 4) -> PC terminal, withdrawing Bicycle; preparing to awaken Snorlax
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment

@@ -27,9 +27,10 @@
    - Moves: Tackle (35/35), Sand-Attack (15/15)
    - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. ZEPHYR (Pidgey) - Lv 19
-   - Stats: Max HP ~48, Type: Normal / Flying
-   - Moves: Gust, Sand-Attack, Quick Attack, Fly
-   - Role: Active Flyer (HM02 Fly learned Turn 15348)
+   - Stats: Max HP 46 (HP: 46/46), Attack 23, Defense 21, Speed 27, Special 19
+   - Type: Normal / Flying
+   - Moves: Sand-Attack, Quick Attack, Whirlwind, Fly
+   - Role: Active Flyer (HM02 Fly learned Turn 15350; Gust replaced)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
@@ -49,10 +50,9 @@
 - Funds: ¥28,428+
 
 ## Flying-Type Party Slot Allocation & Capture Plan
-- Party Slot 6: Reserved for wild flyer (Pidgey / Pidgeotto / Spearow)
-- Planned Nickname: ZEPHYR
-- Fly Utility: HM02 Fly in Bag ready to be taught upon capture
-- Capture Equipment: Great Ball x1 (Restock available at Lavender Pokémart for ¥600/ball)
+- Party Slot 6: Filled by ZEPHYR (Pidgey Lv 19, Fly active)
+- Nickname: ZEPHYR
+- Fly Utility: HM02 Fly active for global fast travel
 
 ## Party Lead & Safety Protocol (Adopted Turn 15211)
 - **Overworld Traversal / Unsurveyed Corridors**: Maintain HYDROS (Blastoise Lv 50) as Lead in Slot 1 to safely handle unexpected trainer encounters.

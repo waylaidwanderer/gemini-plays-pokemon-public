@@ -43,4 +43,5 @@
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [x] Ascend Pokémon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F & Team Rocket on 7F) [Turn 14998-15001]
-- [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]
+- [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]- [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
+- [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
