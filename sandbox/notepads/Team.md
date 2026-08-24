@@ -1,21 +1,21 @@
 # Current Party & Team Strategy
 
-## Active Party
-1. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 11/54) [Damaged in Lass battle Turn 15219]
-   - Type: Fighting
-   - Moves: Karate Chop (25/25), Low Kick
-   - Role: Active Lead (Swapped to Slot 1 Turn 15055 for capture encounter)
-2. SPROUT (Bellsprout) - Lv 17
+## Active Party (Verified Turn 15271)
+1. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
-   - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
-3. HYDROS (Blastoise) - Lv 50
+   - Role: Active Lead (Lv 17 bypasses Repel level suppression against Route 8 wild Lv 18-22 pool; full 46 HP ensures safe Turn-1 Great Ball throw)
+2. HYDROS (Blastoise) - Lv 50
    - Stats (Verified at Lv 50 Turn 14979): Max HP 166 (HP: 166/166), Attack 114, Defense 126, Speed 116, Special 121
    - Type: Water
    - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
-   - Role: Starter & primary Water/Ice special attacker (Swapped to Slot 3 Turn 15055)
+   - Role: Primary powerhouse & battle sweeper (Slot 2 backup)
+3. ATLAS (Machop) - Lv 16
+   - Stats: Max HP 54 (HP: 11/54) [Damaged in Lass battle Turn 15219; resting in reserve]
+   - Type: Fighting
+   - Moves: Karate Chop (22/25), Low Kick
+   - Role: Physical Fighting attacker (Reserve)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
