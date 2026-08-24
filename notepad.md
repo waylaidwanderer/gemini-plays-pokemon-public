@@ -1623,6 +1623,7 @@
   - Team: Zubat Lv 25, Zubat Lv 25, Golbat Lv 25. Reward: ¥750.
 - Team Rocket Grunt 2 at (12, 9) [Defeated Turn 14978-14979]:
   - Team: Koffing Lv 26, Drowzee Lv 26.
-- Team Rocket Grunt 3 (Row 7): Rattata Lv 23, Rattata Lv 23, Raticate Lv 23, Zubat Lv 23.
+- Team Rocket Grunt 3 (Row 7) [Defeated Turn 14994]:
+  - Team: Zubat Lv 23, Rattata Lv 23, Raticate Lv 23, Zubat Lv 23.
 
 <hr>
