@@ -29,20 +29,19 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (2, 12) on 3F West of Pokemon Mansion in State B
+# Starting at (6, 10) on 3F West of Pokemon Mansion in State B
 steps_3f = [
-    ("Down", {"x": 2, "y": 13}),
-    ("Right", {"x": 3, "y": 13}),
-    ("Right", {"x": 4, "y": 13}),
-    ("Right", {"x": 5, "y": 13}),
-    ("Right", {"x": 6, "y": 13}),
-    ("Up", {"x": 6, "y": 12}),
-    ("Up", {"x": 6, "y": 11}),
-    ("Up", {"x": 6, "y": 10}),
-    ("Up", {"x": 6, "y": 9}),  # OPEN in State B!
-    ("Up", {"x": 6, "y": 8}),
-    ("Up", {"x": 6, "y": 7}),
-    ("Up", {"x": 6, "y": 6}),
+    ("Down", {"x": 6, "y": 11}),
+    ("Left", {"x": 5, "y": 11}),
+    ("Left", {"x": 4, "y": 11}),
+    ("Up", {"x": 4, "y": 10}),
+    ("Up", {"x": 4, "y": 9}),  # OPEN in State B!
+    ("Up", {"x": 4, "y": 8}),
+    ("Up", {"x": 4, "y": 7}),
+    ("Up", {"x": 4, "y": 6}),
+    # Row 6 horizontal walk to (19, 6)
+    ("Right", {"x": 5, "y": 6}),
+    ("Right", {"x": 6, "y": 6}),
     ("Right", {"x": 7, "y": 6}),
     ("Right", {"x": 8, "y": 6}),
     ("Right", {"x": 9, "y": 6}),
@@ -83,19 +82,13 @@ if success:
     pos = mgba.get_coordinates()
     print(f"Landed on 1F East inside fenced room at: {pos}")
     
-    # 2. Walk to stairs down to B1F East (stairs are at (22, 2))
-    # We should walk from landing to (21, 2) and then step Right to (22, 2)
-    # Let's dynamically route depending on our landing position (usually (25, 6) or (26, 4))
-    # Let's assume landing is (25, 6) or similar. Let's walk to (21, 2).
-    # Since we don't know the exact starting point, we can just walk step-by-step using get_coordinates!
+    # Walk to (21, 2) and then step Right to (22, 2)
     print("Routing to 1F East stairs (22, 2)...")
     curr = mgba.get_coordinates()
-    # Walk Up to Row 2
     while curr['y'] > 2:
         if not walk_step("Up", {"x": curr['x'], "y": curr['y'] - 1}):
             break
         curr = mgba.get_coordinates()
-    # Walk Left to Column 21
     while curr['x'] > 21:
         if not walk_step("Left", {"x": curr['x'] - 1, "y": curr['y']}):
             break
@@ -109,7 +102,6 @@ if success:
     print(f"Warped to B1F East! Current coordinates: {curr}")
     
     # 3. Route on B1F East:
-    # Go from (22, 3) to (21, 3) -> (21, 4) -> (19, 4) -> (19, 5) -> then Left all the way to (1, 5)
     steps_b1f = [
         ("Left", {"x": 21, "y": 3}),
         ("Down", {"x": 21, "y": 4}),
