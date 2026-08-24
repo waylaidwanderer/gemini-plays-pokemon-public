@@ -51,6 +51,10 @@ def walk_to(target_x, target_y):
             pos_now = get_pos()
             if pos_now == pos_before:
                 # We are definitely blocked/in battle!
+                # Check if we are blocked at (6, 10) trying to go Up, which means the gate is closed
+                if pos_before['x'] == 6 and pos_before['y'] == 10 and direction == "Up":
+                    print("BLOCKED at (6, 10) going Up! Shutter gate at (6, 9) is CLOSED (State A).")
+                    sys.exit(1)
                 run_from_battle()
         else:
             print(f"Stepped {direction} to {pos_after}")
@@ -59,24 +63,42 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting inside 3F West at (5, 10) in State B
-print("Starting get_secret_key_resume.py from inside Mansion 3F West at (5, 10)...")
+# Starting inside 3F West at (6, 10) in State A
+print("Starting get_secret_key_resume.py from inside Mansion 3F West at (6, 10)...")
 print("Initial Position:", get_pos())
 
-# Phase 1: Walk to Column 6 Row 6
-print("PHASE 1: Walking to (6, 6)...")
+# Phase 1: Walk to (1, 11) via Column 5 and Row 13
+print("PHASE 1: Walking to (1, 11) safe detour...")
+if not walk_to(5, 10): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
+
+# Phase 2: Toggle Mewtwo Statue Switch at (2, 11) to State B
+print("PHASE 2: Toggling Mewtwo switch at (2, 11) to State B...")
+mgba.press_buttons(["Right", "sleep 250", "A", "sleep 800", "A", "sleep 800", "A", "sleep 500", "B", "sleep 300"])
+print("State B activated! Position:", get_pos())
+
+# Phase 3: Walk to (6, 10) via Row 13 and Column 5 detour around statue/pitfall
+print("PHASE 3: Walking to (6, 10) safe detour...")
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(5, 10): sys.exit(1)
 if not walk_to(6, 10): sys.exit(1)
+
+# Phase 4: Walk UP Column 6 to Row 6
+print("PHASE 4: Walking Up Column 6 to Row 6...")
 if not walk_to(6, 6): sys.exit(1)
 
-# Phase 2: Walk to 3F East pitfall at (26, 6)
-print("PHASE 2: Walking to pitfall at (26, 6)...")
+# Phase 5: Walk to 3F East pitfall at (26, 6)
+print("PHASE 5: Walking to pitfall at (26, 6)...")
 if not walk_to(26, 6): sys.exit(1)
 print("Dropped through pitfall! Waiting 2.0 seconds...")
 time.sleep(2.0)
 print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
-# Walk to B1F stairs on 1F East via Row 3 and warp DOWN
-print("PHASE 3: Walking to B1F stairs...")
+# Phase 6: Walk to B1F stairs on 1F East via Row 3 and warp DOWN
+print("PHASE 6: Walking to B1F stairs...")
 if not walk_to(26, 3): sys.exit(1)
 if not walk_to(21, 3): sys.exit(1)
 if not walk_to(21, 2): sys.exit(1)
@@ -85,23 +107,23 @@ print("Stepping UP to warp DOWN to B1F...")
 mgba.press_buttons(["Up", "sleep 1200"])
 print("Position on B1F East:", get_pos())
 
-# Walk along B1F to Secret Key room at (1, 5) bypassing the Row 5 Column 17/18 wall
-print("PHASE 4: Crossing B1F Row 6/5 to Secret Key...")
+# Phase 7: Walk along B1F to Secret Key room at (1, 5) bypassing the Row 5 Column 17/18 wall
+print("PHASE 7: Crossing B1F Row 6/5 to Secret Key...")
 if not walk_to(18, 6): sys.exit(1)
 if not walk_to(10, 6): sys.exit(1)
 if not walk_to(10, 5): sys.exit(1)
 if not walk_to(1, 5): sys.exit(1)
 
-# Retrieve Secret Key at (1, 4)
-print("PHASE 5: Picking up the Secret Key at (1, 4)...")
+# Phase 8: Retrieve Secret Key at (1, 4)
+print("PHASE 8: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 250"])
 mgba.press_buttons(["A", "sleep 800"]) # Obtained dialogue
 mgba.press_buttons(["A", "sleep 800"]) # Clear dialogue
 mgba.press_buttons(["B", "sleep 400"]) # Safeguard close
 print("Secret Key retrieved! Current position:", get_pos())
 
-# DIG out back to Cinnabar Island
-print("PHASE 6: Escaping via DIG...")
+# Phase 9: Escape via DIG
+print("PHASE 9: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 400"])
 mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
