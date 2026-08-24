@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 3F (13, 14) -> Stepping up to row 13 -> Col 15 up to row 10 -> 4F stairs (18, 9)
+- Location: Pokémon Tower 3F (15, 13) -> In wild Gastly battle -> North through col 15 gap to row 10 -> East to 4F stairs (18, 9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -86,10 +86,10 @@
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
-## Inventory & Resources (Verified Turn 14666)
+## Inventory & Resources (Verified Turn 14824)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Bag Capacity: 11 / 20 slots used (9 empty slots available for Silph Scope, Pok� Flute, etc.)
-- Active Bag Items: Great Ball x1, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1
+- Bag Capacity: 12 / 20 slots used (8 empty slots available for Pok� Flute, etc.)
+- Active Bag Items: Great Ball x1, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope [VERIFIED IN BAG Turn 14824]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, Bicycle, S.S. Ticket
 - Party Slot 6: OPEN (Reserved for wild flyer)
 - Funds: �27,678+
@@ -1506,6 +1506,13 @@
   - Channeler Patricia at (10, 13) [Verified in battle Turn 14322: Gastly Lv 22]
   - Channeler Carly at (8, 11) [Empirical battle pending]
   - Channeler Hope at (10, 3) [Empirical battle pending]
+
+## Combat Readiness & PP Reserves (Turn 14886)
+- Active Lead: HYDROS (Blastoise Lv 49, HP 162/162)
+- Moves & PP Reserves: Skull Bash (15/15), Ice Beam (8/10), Bite (25/25), Bubblebeam (20/20)
+- Trainer Status: Channeler Patricia at (10, 13) [Defeated], Channeler Carly at (8, 11), Channeler Hope at (10, 3)
+- Wild Encounters: Gastly Lv 18-22 (Unmasked by Silph Scope, 100% OHKO via Ice Beam / Bite / Bubblebeam)
+
 
 <hr>
 
