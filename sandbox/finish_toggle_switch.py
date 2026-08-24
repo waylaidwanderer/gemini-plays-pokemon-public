@@ -1,19 +1,19 @@
 import mgba
 import time
 
-# 1. Dismiss the "Got away safely!" screen
-mgba.press_buttons(["B"])
-time.sleep(1.5) # Wait for overworld fade-in
-
-# 2. Walk from (18, 10) to (12, 9)
+# Starting at (16, 10) on 2F East in State A
 steps = [
-    ("Left", {"x": 17, "y": 10}),
-    ("Left", {"x": 16, "y": 10}),
-    ("Left", {"x": 15, "y": 10}),
-    ("Left", {"x": 14, "y": 10}),
-    ("Left", {"x": 13, "y": 10}),
-    ("Left", {"x": 12, "y": 10}),
-    ("Up", {"x": 12, "y": 9}),
+    ("Up", {"x": 16, "y": 9}),
+    ("Up", {"x": 16, "y": 8}),  # Open in State A!
+    ("Up", {"x": 16, "y": 7}),
+    ("Up", {"x": 16, "y": 6}),
+    ("Left", {"x": 15, "y": 6}),
+    ("Left", {"x": 14, "y": 6}),
+    ("Left", {"x": 13, "y": 6}),
+    ("Left", {"x": 12, "y": 6}),
+    ("Down", {"x": 12, "y": 7}),
+    ("Down", {"x": 12, "y": 8}),
+    ("Down", {"x": 12, "y": 9}),
 ]
 
 def walk_step(direction, expected_coords, retries=15):
@@ -36,6 +36,7 @@ for direction, coords in steps:
 
 if success:
     print("Successfully reached (12, 9) on 2F East! Interacting with switch...")
+    # Stand at (12, 9) facing UP towards switch at (12, 8)
     mgba.press_buttons(["Up"])
     time.sleep(0.3)
     mgba.press_buttons(["A"])
