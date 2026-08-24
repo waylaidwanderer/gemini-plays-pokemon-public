@@ -1411,7 +1411,21 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Locations/CinnabarIsland</code></h1>
 
+# Cinnabar Island - Overworld Map & Progression Log
 
+## Global Status
+- **Badge:** Volcano Badge (Gym Leader: Blaine) - Locked.
+- **Gym Access Requirements:** Requires the **SECRET KEY** from Pokémon Mansion B1F.
+
+## Landmarks & Points of Interest
+- **Cinnabar Island Gym:** Located in the northeast at `(18, 4)`. Currently locked.
+- **Pokémon Mansion:** Entrance is located in the northwest at `(6, 3)` (walk up from Column 6 Row 3). Inside is a multi-floor facility containing the Secret Key.
+- **Cinnabar Lab:** Located in the southwest. Contains scientists who perform fossil resurrection and trade Pokémon.
+- **Pokémon Center:** Located in the southeast. High-level waypoint for healing and PC storage.
+- **Poké Mart:** Located in the southeast, east of the Pokémon Center.
+
+## Horizontal Barriers & Ledges
+- **Horizontal Fence Line (Row 8, Columns 10-17):** Separates the northern Gym area from the southern Center/Mart area. To bypass, the player must walk along Column 18 down to Row 12, then left to Column 6.
 
 <hr>
 
