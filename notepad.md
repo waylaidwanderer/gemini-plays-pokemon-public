@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (27, 10) -> Snorlax defeated! Entering Gatehouse (24, 10) to ride Cycling Road to Fuchsia City
+- Location: Fuchsia City (2, 21) -> Arrived via Cycling Road! Heading to Pok�mon Center to heal party before challenging Fuchsia Gym.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -54,6 +54,8 @@
 - `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
 
+- `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
+- `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
 
 <hr>
 
