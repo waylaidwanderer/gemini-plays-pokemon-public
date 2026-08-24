@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 7 (12, 4) -> Northern tall grass (cols 8-15, rows 2-5) catching wild flyer ZEPHYR (Pidgey Lv 19-22)
+- Location: Route 7 (13, 2) -> Caught ZEPHYR (Pidgey Lv 19)! Teaching HM02 Fly -> Awaken Snorlax
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
