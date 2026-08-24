@@ -57,7 +57,7 @@
    - Stand at `(2, 12)` facing UP towards the Mewtwo statue switch at `(2, 11)` and toggle it to State B! (Select YES).
 
 4. **Cross 3F West to 3F East & Drop to 1F East:**
-   - From `(2, 12)`, walk LEFT to `(1, 12)` -> UP to `(1, 9)` -> RIGHT along Row 9 to Column 12 `(12, 9)` -> UP Column 12 to Row 6 `(12, 6)` -> RIGHT along Row 6 to the pitfall at `(26, 6)`.
+
    - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)`.
    - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 3)`.
 
