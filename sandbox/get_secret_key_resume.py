@@ -44,9 +44,7 @@ def walk_to(target_x, target_y):
     return False
 
 # Currently at (7, 11) on 3F West in State A
-print("PHASE 1: Walking to (1, 11)...")
-if not walk_to(7, 13): sys.exit(1)
-if not walk_to(1, 13): sys.exit(1)
+print("PHASE 1: Walking directly to (1, 11) on Row 11...")
 if not walk_to(1, 11): sys.exit(1)
 
 # Toggle Mewtwo switch to State B
