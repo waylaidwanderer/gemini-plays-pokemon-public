@@ -1,11 +1,17 @@
 import mgba
 import time
 
-# 1. Dismiss the battle screen
+# 1. Escape the wild battle
+# We are on the "Wild VULPIX appeared!" screen.
+print("Escaping from wild battle...")
+mgba.press_buttons(["A", "sleep 500", "Down", "Right", "A"])
+time.sleep(5.0) # Wait for "Got away safely!" screen to appear and load
+
+# 2. Dismiss the "Got away safely!" screen
 mgba.press_buttons(["B"])
 time.sleep(1.5) # Wait for fade back to overworld
 
-# 2. Walk from (18, 10) to (12, 9)
+# 3. Walk from (18, 10) to (12, 9)
 steps = [
     ("Left", {"x": 17, "y": 10}),
     ("Left", {"x": 16, "y": 10}),
