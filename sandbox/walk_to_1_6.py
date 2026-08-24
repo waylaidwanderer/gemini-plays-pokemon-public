@@ -7,12 +7,9 @@ def get_pos():
 
 def run_from_battle():
     print("In battle! Running...")
-    # Press B to dismiss any dialogue
     for _ in range(3):
         mgba.press_buttons(["B", "sleep 100"])
-    # Press Right, Down, A to select RUN
     mgba.press_buttons(["Right", "sleep 100", "Down", "sleep 100", "A", "sleep 800"])
-    # Clear "Got away safely!" text
     for _ in range(3):
         mgba.press_buttons(["B", "sleep 100"])
 
@@ -22,8 +19,8 @@ def walk_step_robust(direction):
     global button_count
     pos_before = mgba.get_coordinates()
     
-    if button_count > 40:
-        print("Button count limit reached. Exiting.")
+    if button_count > 30:
+        print("Button limit reached. Exiting.")
         sys.exit(0)
         
     mgba.press_buttons([direction, "sleep 180"])
@@ -41,8 +38,8 @@ def walk_step_robust(direction):
         while pos_before == pos_after and attempts < 4:
             print(f"Blocked at {pos_before} attempting {direction}. Retrying...")
             time.sleep(0.4)
-            if button_count > 40:
-                print("Button count limit reached! Exiting.")
+            if button_count > 30:
+                print("Button limit reached! Exiting.")
                 sys.exit(0)
             mgba.press_buttons([direction, "sleep 180"])
             button_count += 1
@@ -56,7 +53,7 @@ def walk_step_robust(direction):
 
 def walk_to(target_x, target_y):
     print(f"Walking to: ({target_x}, {target_y})")
-    max_steps = 30
+    max_steps = 20
     steps = 0
     while steps < max_steps:
         pos = mgba.get_coordinates()
@@ -79,10 +76,7 @@ def walk_to(target_x, target_y):
 start_pos = get_pos()
 print("Starting position:", start_pos)
 
-# Walk to Column 1 Row 13
-walk_to(1, 13)
-
-# Walk UP Column 1 to Row 6
+# Walk UP Column 1 to Row 6 (1, 6)
 walk_to(1, 6)
 
-print("Reached (1, 6)? Position:", get_pos())
+print("Final position:", get_pos())
