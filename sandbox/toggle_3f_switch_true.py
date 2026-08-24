@@ -36,33 +36,32 @@ def walk_to_clean(target_x, target_y):
 
 print("Starting at:", get_pos())
 
-# 1. Walk to (2, 12) via (2, 13)
-if not walk_to_clean(6, 13): sys.exit(1)
+# 1. Walk down to (2, 13)
 if not walk_to_clean(2, 13): sys.exit(1)
+
+# 2. Walk up to (2, 12) (ensures we are facing UP)
 if not walk_to_clean(2, 12): sys.exit(1)
 
-# Currently at (2, 12) facing UP. Let's try to interact with (2, 11) by pressing A
-print("Trying to interact with (2, 11) from (2, 12) facing UP...")
-mgba.press_buttons(["A", "sleep 1200"])
-sc = mgba.take_screenshot()
-# Let's check if the screen changed or if there's dialogue (we can close it with B just in case)
-mgba.press_buttons(["B", "sleep 400"])
+# 3. Toggle Mewtwo switch using the exact working sequence from mansion_phase3.py
+print("Toggling 3F West switch at (2, 11) to State B...")
+mgba.press_buttons(["Up", "sleep 200"]) # Face Up
+mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "A secret switch!"
+mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
+mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
+print("State B activated!")
 
-# Let's try to walk to (1, 11)
-print("Walking to (1, 11)...")
-if not walk_to_clean(1, 12): sys.exit(1)
-if not walk_to_clean(1, 11): sys.exit(1)
+# 4. Walk to (6, 13) via (2, 13)
+if not walk_to_clean(2, 13): sys.exit(1)
+if not walk_to_clean(6, 13): sys.exit(1)
 
-# Now we are at (1, 11) facing UP. Let's press Right and A to toggle!
-# Wait, to face RIGHT without walking to (2, 11), let's use a short press or face right
-print("Facing RIGHT and toggling...")
-mgba.press_buttons(["Right", "sleep 150"])
-mgba.press_buttons(["A", "sleep 1200"]) # A secret switch!
-mgba.press_buttons(["A", "sleep 1200"]) # Press it?
-mgba.press_buttons(["A", "sleep 1200"]) # YES
-mgba.press_buttons(["A", "sleep 1200"]) # Who wouldn't?
-mgba.press_buttons(["B", "sleep 500"])  # Close
+# 5. Walk UP Column 6 to (6, 6)
+if not walk_to_clean(6, 6): sys.exit(1)
 
-# Check if we moved to (2, 11)
-print("Position after toggle:", get_pos())
+# 6. Walk RIGHT along Row 6 to Column 26
+if not walk_to_clean(26, 6): sys.exit(1)
+
+# 7. Drop through pitfall
+print("Stepping onto pitfall...")
+mgba.press_buttons(["Right", "sleep 2500"])
+print("Position after drop (should be 1F East fenced room):", get_pos())
 mgba.take_screenshot()
