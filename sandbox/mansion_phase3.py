@@ -5,6 +5,15 @@ import time
 def get_pos():
     return mgba.get_coordinates()
 
+def run_from_battle():
+    print("In battle! Running...")
+    # Press B to dismiss any dialogue
+    mgba.press_buttons(["B", "sleep 150", "B", "sleep 150"])
+    # Press Down, Right, A to RUN
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 800"])
+    # Clear "Got away safely!" text
+    mgba.press_buttons(["B", "sleep 150", "B", "sleep 150"])
+
 def walk_step_safe(direction):
     pos_before = mgba.get_coordinates()
     mgba.press_buttons([direction, "sleep 180"])
@@ -36,93 +45,42 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (7, 10) on 3F West
-print("Starting Mansion Phase 3 Floor Check:", get_pos())
+# Starting at (4, 12) on 3F West in State A
+print("Starting Mansion Toggle and Drop:", get_pos())
 
-# 1. Walk DOWN to (7, 11) and LEFT to (6, 11)
-walk_to(7, 11)
-walk_to(6, 11)
+# 1. Walk to switch at (2, 11) via (2, 12)
+walk_to(4, 13)
+walk_to(2, 13)
+walk_to(2, 12)
 
-# 2. Probe the gate at (6, 9) by trying to walk UP
-print("Probing State B gate by walking UP Column 6...")
-pos_before_probe = get_pos()
-mgba.press_buttons(["Up", "sleep 180"])
-pos_after_probe = get_pos()
+# 2. Toggle Mewtwo switch at (2, 11) to State B
+print("Toggling 3F West switch at (2, 11) to State B...")
+mgba.press_buttons(["Up", "sleep 200"]) # Face Up
+mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "A secret switch!"
+mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
+mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
+print("State B successfully activated!")
 
-is_state_b = True
-if pos_before_probe == pos_after_probe:
-    print("Blocked at (6, 10)! State A is active.")
-    is_state_b = False
-else:
-    # We successfully moved to (6, 10)
-    print("Moved to (6, 10). Testing one more step UP to (6, 9)...")
-    mgba.press_buttons(["Up", "sleep 180"])
-    pos_final_probe = get_pos()
-    if pos_final_probe['y'] == 9:
-        print("Reached (6, 9)! State B is 100% active!")
-    else:
-        print("Blocked! State A is active.")
-        is_state_b = False
+# 3. Walk to pitfall at (26, 6) via Column 6
+walk_to(2, 13)
+walk_to(6, 13)
+walk_to(6, 6)
+walk_to(26, 6)
+print("Fell through pit! Waiting 2 seconds...")
+time.sleep(2.0)
+print("Position after drop:", get_pos())
 
-if is_state_b:
-    # State B Path: Walk to pitfall and drop
-    walk_to(6, 6)
-    walk_to(26, 6)
-    print("Fell through pit! Waiting 2 seconds...")
-    time.sleep(2.0)
-    print("Position after drop:", get_pos())
-    
-    # Walk to B1F stairs on 1F East inside fenced room
-    walk_to(26, 3)
-    walk_to(21, 3)
-    walk_to(21, 2)
-    walk_to(22, 2)
-    
-    # Warp DOWN to B1F
-    print("Stepping UP to warp DOWN to B1F...")
-    mgba.press_buttons(["Up", "sleep 600"])
-    time.sleep(2.0)
-    print("Phase 1 Complete! Final position on B1F East (should be 22, 3):", get_pos())
-    sc = mgba.take_screenshot()
-    print("Final Screenshot:", sc)
+# 4. Walk to B1F stairs on 1F East inside fenced room
+walk_to(26, 3)
+walk_to(21, 3)
+walk_to(21, 2)
+walk_to(22, 2)
 
-else:
-    # State A Path: Walk to switch, toggle to State B, walk back to Column 6 and cross
-    # We are currently at (6, 11) or (6, 10). Let's walk to (6, 11) first
-    walk_to(6, 11)
-    # Walk to switch at (2, 11) via (2, 12)
-    walk_to(4, 11)
-    walk_to(4, 13)
-    walk_to(2, 13)
-    walk_to(2, 12)
-    
-    # Toggle switch to State B
-    print("Toggling Mewtwo switch at (2, 11) to State B...")
-    mgba.press_buttons(["Up", "sleep 200"]) # Face Up
-    mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "A secret switch!"
-    mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
-    mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
-    print("State B successfully activated!")
-    
-    # Walk to (6, 13) -> (6, 6) -> (26, 6) pitfall
-    walk_to(2, 13)
-    walk_to(6, 13)
-    walk_to(6, 6)
-    walk_to(26, 6)
-    print("Fell through pit! Waiting 2 seconds...")
-    time.sleep(2.0)
-    print("Position after drop:", get_pos())
-    
-    # Walk to B1F stairs on 1F East inside fenced room
-    walk_to(26, 3)
-    walk_to(21, 3)
-    walk_to(21, 2)
-    walk_to(22, 2)
-    
-    # Warp DOWN to B1F
-    print("Stepping UP to warp DOWN to B1F...")
-    mgba.press_buttons(["Up", "sleep 600"])
-    time.sleep(2.0)
-    print("Phase 1 Complete! Final position on B1F East (should be 22, 3):", get_pos())
-    sc = mgba.take_screenshot()
-    print("Final Screenshot:", sc)
+# 5. Warp DOWN to B1F by stepping UP onto stairs at (22, 2)
+print("Stepping UP to warp DOWN to B1F...")
+mgba.press_buttons(["Up", "sleep 600"])
+time.sleep(2.0)
+
+print("Phase 1 Complete! Final position on B1F East (should be 22, 3):", get_pos())
+sc = mgba.take_screenshot()
+print("Final Screenshot:", sc)
