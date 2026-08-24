@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 5F (3, 9) -> Row 6 corridor -> Purified Zone (11, 8) -> 6F stairs (18, 9)
+- Location: Pokémon Tower 5F (11, 6) -> Purified Zone (11, 9) -> Row 7 corridor -> 6F stairs (18, 9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
