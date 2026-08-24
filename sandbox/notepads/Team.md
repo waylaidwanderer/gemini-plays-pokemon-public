@@ -21,11 +21,11 @@
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
-5. PRISM (Jolteon) - Lv 25
-   - Stats (Verified at Lv 25): Max HP 72 (HP: 72/72), Attack 44, Defense 44, Speed 74, Special 64
-   - Type: Electric
-   - Moves: Thunderbolt (15/15), Swift (20/20), Quick Attack (30/30), Tackle (35/35)
-   - Role: Electric Special Sweeper (Base 110 Special, Base 130 Speed STAB Thunderbolt!) [Evolved with Thunder Stone Turn 13973; taught TM24 Thunderbolt Turn 13976]
+5. PRISM (Eevee) - Lv 25
+   - Stats (Verified at Lv 25 Turn 14826): Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
+   - Type: Normal
+   - Moves: Tackle (35/35), Sand-Attack (15/15)
+   - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. [OPEN SLOT 6] - Reserved for wild flyer capture (Pidgey / Pidgeotto / Spearow)!
 
 ## Planned Nicknaming Strategy

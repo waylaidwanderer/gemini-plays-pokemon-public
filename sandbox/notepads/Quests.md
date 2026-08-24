@@ -62,4 +62,5 @@
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [ ] Ascend Pokémon Tower and investigate ghost sightings & Mr. Fuji's disappearance
 - [x] Defeat Gym Leader Erika in Celadon Gym (Rainbow Badge & TM21 Mega Drain) [Turn 13822]
-- [ ] Retrieve Silph Scope from Boss Giovanni's office in Rocket Hideout B4F (Defeated Giovanni Turn 13304; item ball dropped at (25, 2))
+- [x] Retrieve Silph Scope from Boss Giovanni's office in Rocket Hideout B4F [Turn 14816, Verified in Bag Turn 14824]
+- [ ] Ascend Pok�mon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F)
