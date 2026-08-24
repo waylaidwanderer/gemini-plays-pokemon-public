@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Game Corner (17, 5) -> Descending secret stairs at (17, 4) to Rocket Hideout B1F -> B2F (27, 8) -> Elevator to B4F (Silph Scope)
+- Location: Rocket Hideout B4F (23, 16) -> Entering Giovanni's Office via (24..25, 11) -> Retrieving Silph Scope at (25, 2)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
