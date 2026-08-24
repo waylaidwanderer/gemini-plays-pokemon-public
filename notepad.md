@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Pok�mon Center (13, 4) -> PC terminal, withdrawing Bicycle; preparing to awaken Snorlax
+- Location: Route 16 (27, 10) -> Awakened Sleeping Snorlax with Poké Flute; initiating battle to clear Cycling Road
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -125,6 +125,17 @@
   - Target Flyer (Pidgey Lv 18-20, Pidgeotto Lv 19, Spearow): Select ITEM -> Great Ball on Turn 1 immediately (65%+ base capture rate at full HP with Great Ball; zero risk to team).
   - Non-Flyer (Meowth, Sandshrew, Vulpix, Kadabra, Growlithe): Select RUN on Turn 1 (100% escape rate due to Blastoise Speed 116).
 
+
+## Route 16 Snorlax Battle Protocol (Turn 15391)
+- Encounter: Wild SNORLAX (Lv 30, Normal type, Base HP 160)
+- Moveset: Headbutt, Amnesia, Rest
+- Party State: 6/6 Full Party (HYDROS Lv 50, SPROUT Lv 17, ATLAS Lv 16, TERRA Lv 21, PRISM Lv 25, ZEPHYR Lv 19)
+- Active Lead: HYDROS (Blastoise Lv 50, HP 166/166, Def 126, Spc 121)
+- Combat Strategy:
+  - Select FIGHT -> Bubblebeam (STAB, 20/20 PP) or Bite (25/25 PP).
+  - High Defense (126) reduces Snorlax Headbutt/Body Slam to trivial damage.
+  - Defeat Snorlax in 2-3 turns to secure ~980 EXP for HYDROS and permanently clear the Route 16 roadblock.
+  - After battle: Ride west into Route 16 Gatehouse (24, 10) onto Cycling Road (Route 17).
 
 <hr>
 
