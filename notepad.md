@@ -1722,7 +1722,11 @@
 - **Fuchsia Gym**: Located in southwest corner at (4..9, 22..26) [Verified exterior roof & awning Turn 15434, 15439].
 - **Safari Zone**: Located in northern sector [Objective: Retrieve HM03 Surf & Gold Teeth].
 
-- **Central House**: Located at (20..25, 12..13) with front door at (22, 13) [Discovered Turn 15490].
-- **Zoo Exhibits**: Animal pens and display barriers situated at (20..21, 15) and (24..25, 15).
+- **Central House (Bill's Grandpa's House)**: Located at (20..25, 12..13) with front door at (22, 13) [Surveyed Turn 15491-15500]. Inside: Bill's Grandpa at (4, 1) notes the Safari Zone Warden is nicknamed Slowpoke; camper NPC at (0, 2) mentions Warden collects extinct Pokémon fossils.
+- **Zoo Exhibits & Topography**:
+  - Western Corridor (cols 2-3, rows 16-21): Open paved avenue leading north towards Pokémart and northern Safari Zone avenue.
+  - Tree Barrier (col 4, rows 16-19): Vertical line of trees separating western corridor from Krabby exhibit pond.
+  - Krabby Exhibit Pond (cols 5-9, rows 16-18): Water enclosure with Krabby at (8, 17), bordered by trees at (4-9, 19).
+  - Southern Central Highway (row 21, cols 2-22): Unobstructed east-west thoroughfare linking western avenue, Pokémon Center, and eastern residences.
 
 <hr>
