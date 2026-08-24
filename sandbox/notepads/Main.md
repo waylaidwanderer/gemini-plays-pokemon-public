@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Town (10, 6) -> Navigating north into Route 10 tall grass to encounter & catch flyer ZEPHYR
+- Location: Route 10 South (6, 68) -> Navigating east/north to enter Route 10 tall grass to encounter & catch flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
