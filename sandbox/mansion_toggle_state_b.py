@@ -1,5 +1,6 @@
 import mgba
 import sys
+import time
 
 def get_pos():
     return mgba.get_coordinates()
@@ -44,7 +45,7 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (6, 11) on 3F West
+# Starting at (7, 10) on 3F West
 print("Starting Mansion Switch Toggle:", get_pos())
 
 # 1. Walk to switch at (2, 11) via (2, 12)
@@ -61,13 +62,26 @@ mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
 mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
 print("State B successfully activated!")
 
-# 3. Walk to (7, 11) and then UP to (7, 6)
+# 3. Walk to pitfall at (26, 6) via Row 13 Column 7
 walk_to(2, 13)
-walk_to(4, 13)
-walk_to(4, 11)
-walk_to(7, 11)
+walk_to(7, 13)
 walk_to(7, 6)
+walk_to(26, 6)
+print("Fell through pit! Waiting 2 seconds...")
+time.sleep(2.0)
+print("Position after drop:", get_pos())
 
-print("Arrived at Row 6! Final Position:", get_pos())
+# 4. Walk to B1F stairs on 1F East inside fenced room
+walk_to(26, 3)
+walk_to(21, 3)
+walk_to(21, 2)
+walk_to(22, 2)
+
+# 5. Warp DOWN to B1F by stepping UP onto stairs at (22, 2)
+print("Stepping UP to warp DOWN to B1F...")
+mgba.press_buttons(["Up", "sleep 600"])
+time.sleep(2.0)
+
+print("Phase 1 Complete! Final position on B1F East (should be 22, 3):", get_pos())
 sc = mgba.take_screenshot()
-print("Screenshot:", sc)
+print("Final Screenshot:", sc)
