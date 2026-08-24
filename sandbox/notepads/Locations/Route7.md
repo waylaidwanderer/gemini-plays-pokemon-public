@@ -13,6 +13,7 @@
 5. **Middle Avenue & Saffron Gatehouse (rows 8-10, cols 2-16)**: Connects to Saffron West Gatehouse at (11, 9).
 6. **Northern Tall Grass Sector (rows 0-5, cols 8-13)**: Active wild encounter zone.
 
-## Verified Wild Encounters (Turn 15088)
+## Verified Wild Encounters (Verified Turn 15331)
 - Pidgey (Lv 19) [Verified Turn 15088]
 - Bellsprout (Lv 19..22) [Verified Turn 14684]
+- Meowth (Lv 17) [Verified Turn 15327, Turn 15329 - fled cleanly via HYDROS]

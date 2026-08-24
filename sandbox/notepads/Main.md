@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 8 (13, 10) -> Pacing western tall grass (cols 9-13, rows 12-14) / Route 7 to catch flyer ZEPHYR
+- Location: Route 7 (12, 4) -> Northern tall grass (cols 8-15, rows 2-5) catching wild flyer ZEPHYR (Pidgey Lv 19-22)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
