@@ -51,7 +51,7 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Start at current position (16, 7)
+# Start at current position (17, 7)
 print("Starting B1F East statue at (15, 10) toggle script...")
 print("Position:", get_pos())
 
