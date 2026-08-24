@@ -25,8 +25,8 @@
 - Gambler at (46, 13), Gambler at (13, 9)
 - Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
 
-## Tall Grass & Wild Encounters (Verified Turn 15023-15032)
-- Eastern Tall Grass Patch: Located at cols 44-53, rows 12-13 (flanked by fence at row 11 and southern path at row 14).
-  - Walkable Grass Rows: Row 12 (cols 44-50, 52-53), Row 13 (cols 44-45, 47-53).
-  - NPCs inside grass perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
-- Wild Species: Pidgey (Lv 18-20), Pidgeotto (Lv 20-22), Meowth (Lv 18-20), Growlithe / Vulpix (Lv 18), Kadabra (Lv 20).
+## Eastern Memorial Garden Topography (Verified Turn 15023-15056)
+- Eastern Memorial Garden: Located at cols 44-53, rows 9-13 (headstones at rows 9-11, lawn at rows 12-13).
+  - Note: Ground is standard lawn turf (player sprite feet not masked by grass); tested 100+ steps with zero encounters. Does NOT generate wild battles.
+  - NPCs inside perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
+  - Traversal Route: Exit north via col 52 to row 2/3 northern corridor to bypass central pillar structure.
