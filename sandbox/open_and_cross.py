@@ -62,7 +62,7 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting at (1, 10) on 3F West
+# Starting at (1, 11) on 3F West
 print("Starting open_and_cross.py...")
 print("Initial Position:", get_pos())
 
