@@ -59,6 +59,10 @@
 - Fly Utility: HM02 Fly in Bag ready to be taught upon capture
 - Capture Equipment: Great Ball x1 (Restock available at Lavender Pokémart for ¥600/ball)
 
+## Party Lead & Safety Protocol (Adopted Turn 15211)
+- **Overworld Traversal / Unsurveyed Corridors**: Maintain HYDROS (Blastoise Lv 50) as Lead in Slot 1 to safely handle unexpected trainer encounters.
+- **Wild Capture Farming in Verified Tall Grass**: Swap capture lead (ATLAS Machop Lv 16) to Slot 1 only after physically entering confirmed tall grass boundaries.
+
 
 <hr>
 
@@ -1126,8 +1130,11 @@
 - **Target Flyer Pool**:
   - Pidgey / Pidgeotto on Route 8 / Route 10 (Catch with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly).
 
-## Verified Trainers Gauntlet (All Defeated)
-- Lass at (51, 12), Lass at (26, 5), Lass at (26, 6)
+## Route 8 Trainers & Gauntlet Tracking
+- Lass at (51, 12) [Defeated]
+- Lass at (26, 4) / (26, 3) [Active Battle Turn 15208: Nidoran♀ Lv 23, Pokémon #2]
+- Lass at (26, 5) [Defeated]
+- Lass at (26, 6) [Defeated]
 - Gambler at (46, 13), Gambler at (13, 9)
 - Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
 
@@ -1136,6 +1143,13 @@
   - Note: Ground is standard lawn turf (player sprite feet not masked by grass); tested 100+ steps with zero encounters. Does NOT generate wild battles.
   - NPCs inside perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
   - Traversal Route: Exit north via col 52 to row 2/3 northern corridor to bypass central pillar structure.
+
+## Sectoral Corridor Status (Verified Turn 15211)
+- **Southern Thoroughfare (rows 12-14, cols 0-59)**: Fully surveyed & cleared. Gambler at (46, 13) defeated, Gambler at (13, 9) defeated, Lass at (51, 12) defeated. Open highway connects Lavender Town to Underground Path.
+- **Northern Corridor (rows 2-6, cols 0-59)**: Super Nerds at (42, 6), (26, 3), (11, 5) defeated. Lass at (26, 4) currently in battle.
+- **Tall Grass Sectors**:
+  - Western Field (cols 23-25, rows 7-13): 100% verified tall grass; safe pacing zone without trainers.
+  - West Vertical Strip (col 16, rows 4-11): Open tall grass.
 
 
 <hr>
