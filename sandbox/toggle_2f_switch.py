@@ -13,13 +13,15 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (6, 11) on 2F West
+# From (5, 10) to (2, 12) on 2F West
 steps = [
-    ("Left", {"x": 5, "y": 11}),
-    ("Left", {"x": 4, "y": 11}),
-    ("Left", {"x": 3, "y": 11}),
-    ("Down", {"x": 3, "y": 12}),
-    ("Left", {"x": 2, "y": 12}),
+    ("Down", {"x": 5, "y": 11}),
+    ("Down", {"x": 5, "y": 12}),
+    ("Down", {"x": 5, "y": 13}),
+    ("Left", {"x": 4, "y": 13}),
+    ("Left", {"x": 3, "y": 13}), # The gap in the rubble!
+    ("Left", {"x": 2, "y": 13}),
+    ("Up", {"x": 2, "y": 12}),
 ]
 
 success = True
@@ -29,21 +31,16 @@ for direction, coords in steps:
         break
 
 if success:
-    print("Reached (2, 12) successfully! Toggling switch...")
+    print("Reached (2, 12) on 2F West successfully! Facing UP and interacting with switch...")
     mgba.press_buttons(["Up"])
     time.sleep(0.3)
-    mgba.press_buttons(["A"])   # Opens "A secret switch!"
-    time.sleep(1.0)             # Wait for text scroll
-    mgba.press_buttons(["A"])   # Opens "Press it?"
-    time.sleep(1.0)             # Wait for menu
-    mgba.press_buttons(["A"])   # Selects YES and toggles
-    time.sleep(1.0)             # Wait for toggle
-    mgba.press_buttons(["B"])   # Safely dismisses text box
+    mgba.press_buttons(["A"])   # Opens switch menu
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])   # Selects YES to toggle
+    time.sleep(1.0)
+    mgba.press_buttons(["B"])   # Dismisses textbox
     time.sleep(0.5)
     print("Switch toggled!")
-    
-    # Take a screenshot to inspect the gate state
-    img_path = mgba.take_screenshot()
-    print(f"Gate state inspected: {img_path}")
+    print("Current position:", mgba.get_coordinates())
 else:
-    print("Failed to reach the switch.")
+    print("Failed to reach switch.")
