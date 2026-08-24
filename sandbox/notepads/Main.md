@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Volunteer Pokémon House (3, 2) -> Obtained Poké Flute! Exiting to Route 8 / Route 10 to catch Flyer
+- Location: Lavender Town (7, 10) -> Walking West along row 10 to Route 8 tall grass to catch Flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
