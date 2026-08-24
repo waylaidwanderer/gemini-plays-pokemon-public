@@ -32,4 +32,3 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 
 ## Mewtwo Statue Switch Interactions
 - **3F West Switch at (2, 11):** Must stand at `(2, 12)` facing UP, then press `A` once to open "A secret switch! Press it? YES/NO", and press `A` again on YES to toggle. (Verified Turn 58395, 58411, 58424, 58438).
-- **2F West Switch at (2, 11):** Must stand at `(2, 12)` facing UP.
