@@ -67,24 +67,14 @@ x, y = pos['x'], pos['y']
 print("--- Pokémon Mansion Secret Key Self-Recovering Master Script ---")
 print(f"Current Position: ({x}, {y})")
 
-# Determine floor/map
-# Since Cinnabar Island and Pokémon Mansion share some x,y values, we can look at specific values.
-# On Cinnabar Island, y >= 12 (most of island) or y=3, etc.
-# But inside 1F West, y goes up to 27.
-# We can distinguish by y:
-# Outside: y >= 12 on Cinnabar Island. Wait, Cinnabar Island y=12 is where we start.
-# Inside 1F West: y is up to 27 (lands at (5, 27)).
-# Inside 2F West: y=11, x=7, etc.
-# Inside 3F West: x <= 12, y <= 12.
-
 if y == 12 and x == 11:
     print("PHASE: Outside on Cinnabar Island. Walking to enter the Mansion...")
     # Walk Right to (18, 12)
     if not walk_to(18, 12): sys.exit(1)
-    # Walk Up to (18, 5)
-    if not walk_to(18, 5): sys.exit(1)
-    # Walk Left to (6, 5)
-    if not walk_to(6, 5): sys.exit(1)
+    # Walk Up to (18, 4) (Row 4 is completely open horizontally!)
+    if not walk_to(18, 4): sys.exit(1)
+    # Walk Left to (6, 4)
+    if not walk_to(6, 4): sys.exit(1)
     # Walk Up to (6, 3)
     if not walk_to(6, 3): sys.exit(1)
     # Enters door
@@ -115,10 +105,10 @@ elif y == 11 and x == 5:
     print("Inside 3F West! Position:", pos)
     sys.exit(0)
 
-elif y == 11 and x == 7:
+elif (y == 11 or y == 10) and x == 7:
     print("PHASE: Inside 3F West (landing). Walking to switch at (2, 12)...")
-    if not walk_to(3, 11): sys.exit(1)
-    if not walk_to(3, 12): sys.exit(1)
+    if not walk_to(7, 11): sys.exit(1)
+    if not walk_to(2, 11): sys.exit(1) # Row 11 is completely open from Column 7 to Column 2!
     if not walk_to(2, 12): sys.exit(1)
     print("Face UP towards statue switch...")
     mgba.press_buttons(["Up", "sleep 450"])
@@ -136,10 +126,12 @@ elif y == 12 and x == 2:
     if not walk_to(1, 8): sys.exit(1)
     if not walk_to(12, 8): sys.exit(1)
     if not walk_to(12, 6): sys.exit(1)
-    if not walk_to(26, 6): sys.exit(1)
-    print("Dropped through pitfall! Waiting 2.0 seconds...")
-    time.sleep(2.0)
-    print("Position after drop (1F East fenced room):", get_pos())
+    if not walk_to(19, 6): sys.exit(1)
+    if not walk_to(19, 3): sys.exit(1)
+    if not walk_to(26, 3): sys.exit(1)
+    print("Stepping DOWN onto pitfall...")
+    mgba.press_buttons(["Down", "sleep 2500"]) # Warps to 1F East (26, 4)
+    print("Dropped through pitfall! Position after drop:", get_pos())
     sys.exit(0)
 
 elif y == 4 and x == 26:
@@ -147,13 +139,13 @@ elif y == 4 and x == 26:
     if not walk_to(26, 3): sys.exit(1)
     if not walk_to(22, 3): sys.exit(1)
     print("Stepping onto B1F stairs...")
-    mgba.press_buttons(["Up", "sleep 2000"]) # warps to B1F East (22, 3)
+    mgba.press_buttons(["Up", "sleep 2500"]) # warps to B1F East (22, 3)
     print("Warped down to B1F! Position:", get_pos())
     sys.exit(0)
 
-elif (y == 3 or y == 2) and x == 22:
+elif y == 3 and x == 22:
     print("PHASE: On B1F East. Walking along B1F Row 5 directly to B1F West...")
-    if not walk_to(22, 5): sys.exit(1)
+    if not walk_to(21, 3): sys.exit(1)
     if not walk_to(21, 5): sys.exit(1)
     if not walk_to(1, 5): sys.exit(1)
     print("Facing UP towards Secret Key...")
@@ -174,9 +166,8 @@ elif (y == 3 or y == 2) and x == 22:
     sys.exit(0)
 
 else:
-    print(f"Unknown phase at coordinate: ({x}, {y}). Running generic recovery walk back to Cinnabar Island...")
-    # Just in case we got lost or stuck
-    # Let's use DIG to recover to Cinnabar Island!
+    print(f"Unknown phase at coordinate: ({x}, {y}). Running generic recovery DIG to Cinnabar Island...")
+    # Use DIG to recover to Cinnabar Island!
     mgba.press_buttons(["Start", "sleep 800"])
     mgba.press_buttons(["Down", "sleep 400", "A", "sleep 1200"]) # Select PKMN
     for _ in range(5):
