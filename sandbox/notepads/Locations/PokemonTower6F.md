@@ -18,3 +18,5 @@
   - Channeler at (9, 5) facing South [Spotted Turn 14522]
   - Channeler at (12, 10) facing West [Spotted Turn 14522]
   - Channeler at (16, 5) facing West [Spotted Turn 14525]
+
+- Item Ball at (14, 14): Collected [Turn 14926].
