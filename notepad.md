@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 7F (10, 9) -> Advancing North to Grunt 3 & Mr. Fuji
+- Location: Pokémon Tower 7F (10, 7) -> In battle with Rocket Grunt 3 (1/4 defeated: Zubat fainted, Rattata Lv 23 incoming)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
