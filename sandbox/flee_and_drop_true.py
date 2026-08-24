@@ -34,21 +34,45 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-# 1. Flee from wild Ponyta (cursor is at FIGHT)
-print("Fleeing from wild Ponyta...")
+# 1. Advance battle intro text "Wild GRIMER appeared!"
+print("Advancing battle intro text...")
+mgba.press_buttons(["A", "sleep 2500"])
+
+# 2. Flee from wild Grimer (cursor starts at FIGHT)
+print("Fleeing from wild Grimer...")
 mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
 # Dismiss "Got away safely!" text
 mgba.press_buttons(["B", "sleep 600"])
 print("Overworld position after fleeing:", get_pos())
 
-# 2. Walk UP Column 6 to Row 6 (6, 6)
-if not walk_to_clean(6, 6): sys.exit(1)
+# 3. Walk to (1, 11)
+if not walk_to_clean(1, 11): sys.exit(1)
 
-# 3. Walk RIGHT along Row 6 to Column 26 (26, 6)
+# 4. Walk to (2, 11) (stands at 2, 11 facing RIGHT towards 3, 11 switch)
+if not walk_to_clean(2, 11): sys.exit(1)
+
+# 5. Toggle switch
+print("Toggling Mewtwo switch...")
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "A secret switch!"
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Press it?" -> Select YES
+mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Who wouldn't?" -> Close
+mgba.press_buttons(["B", "sleep 500"])  # Close dialogue
+print("State B toggled!")
+
+# 6. Walk to (1, 9)
+if not walk_to_clean(1, 9): sys.exit(1)
+
+# 7. Walk to (12, 9)
+if not walk_to_clean(12, 9): sys.exit(1)
+
+# 8. Walk to (12, 6)
+if not walk_to_clean(12, 6): sys.exit(1)
+
+# 9. Walk to (26, 6)
 if not walk_to_clean(26, 6): sys.exit(1)
 
-# 4. Drop through pitfall
+# 10. Step onto pitfall
 print("Stepping onto pitfall...")
 mgba.press_buttons(["Right", "sleep 2500"])
-print("Position after drop (should be 1F East fenced room):", get_pos())
+print("SUCCESS! Landing position:", get_pos())
 mgba.take_screenshot()
