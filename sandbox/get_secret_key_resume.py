@@ -1,5 +1,6 @@
 import mgba
 import sys
+import os
 
 def get_pos():
     return mgba.get_coordinates()
@@ -42,20 +43,33 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting from current position (6, 11) on 3F West in State B
-print("PHASE 1: Walking to 3F East pitfall at (26, 6)...")
-if not walk_to(6, 9): sys.exit(1)
-if not walk_to(12, 9): sys.exit(1)
-if not walk_to(12, 6): sys.exit(1)
+# Currently at (7, 11) on 3F West in State A
+print("PHASE 1: Walking to (1, 11)...")
+if not walk_to(7, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
+
+# Toggle Mewtwo switch to State B
+print("PHASE 2: Toggling switch to State B...")
+mgba.press_buttons(["Right", "sleep 400"])
+mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "B", "sleep 500"])
+
+# Verify switch state
+print("PHASE 3: Walking to 3F East pitfall...")
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(6, 13): sys.exit(1)
+if not walk_to(6, 8): sys.exit(1)
+if not walk_to(5, 8): sys.exit(1)
+if not walk_to(5, 6): sys.exit(1)
 if not walk_to(26, 6): sys.exit(1)
 
 # Drop through pitfall to 1F East inside fenced room
-print("PHASE 2: Dropping through 3F pitfall to 1F East...")
+print("PHASE 4: Dropping through 3F pitfall to 1F East...")
 mgba.press_buttons(["Right", "sleep 2500"])
 print("Position after drop (should be 1F East fenced room):", get_pos())
 
 # Navigate to B1F stairs
-print("PHASE 3: Walking to B1F stairs...")
+print("PHASE 5: Walking to B1F stairs...")
 if not walk_to(26, 3): sys.exit(1)
 if not walk_to(22, 3): sys.exit(1)
 if not walk_to(22, 2): sys.exit(1)
@@ -65,13 +79,13 @@ mgba.press_buttons(["Up", "sleep 2500"])
 print("Position on B1F East (should be around 22, 3):", get_pos())
 
 # Cross horizontally to Secret Key on B1F West
-print("PHASE 4: Walking to B1F West Secret Key room...")
+print("PHASE 6: Walking to B1F West Secret Key room...")
 if not walk_to(21, 3): sys.exit(1)
 if not walk_to(21, 5): sys.exit(1)
 if not walk_to(1, 5): sys.exit(1)
 
 # Retrieve Secret Key at (1, 4)
-print("PHASE 5: Retrieving the Secret Key at (1, 4)...")
+print("PHASE 7: Retrieving the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 300"])
 mgba.press_buttons(["A", "sleep 1000"]) # Click item ball
 mgba.press_buttons(["A", "sleep 1000"]) # Confirm "ACE found SECRET KEY!"
@@ -81,7 +95,7 @@ mgba.press_buttons(["B", "sleep 400"])  # Close potential menu
 print("Secret Key retrieved! Current position:", get_pos())
 
 # DIG out back to Cinnabar Island
-print("PHASE 6: Escaping via DIG...")
+print("PHASE 8: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 400"])
 mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKEMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
