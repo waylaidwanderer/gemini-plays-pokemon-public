@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 8 (52, 13) -> Patrolling tall grass (rows 12-13, cols 44-53) to encounter Flyer ZEPHYR
+- Location: Route 8 (53, 13) -> Patrolling tall grass (rows 12-13, cols 44-53) to encounter Flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
