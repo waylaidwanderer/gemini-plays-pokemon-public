@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia City (24, 31) -> South of Pokémart; navigating south/east around obstacles to reach Pokémon Center.
+- Location: Fuchsia City (14, 21) -> Good Rod obtained [Turn 15461]; traversing west along row 21 to western highway leading north to Safari Zone Gate.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -127,17 +127,6 @@
   - Target Flyer (Pidgey Lv 18-20, Pidgeotto Lv 19, Spearow): Select ITEM -> Great Ball on Turn 1 immediately (65%+ base capture rate at full HP with Great Ball; zero risk to team).
   - Non-Flyer (Meowth, Sandshrew, Vulpix, Kadabra, Growlithe): Select RUN on Turn 1 (100% escape rate due to Blastoise Speed 116).
 
-
-## Route 16 Snorlax Battle Protocol (Turn 15391)
-- Encounter: Wild SNORLAX (Lv 30, Normal type, Base HP 160)
-- Moveset: Headbutt, Amnesia, Rest
-- Party State: 6/6 Full Party (HYDROS Lv 50, SPROUT Lv 17, ATLAS Lv 16, TERRA Lv 21, PRISM Lv 25, ZEPHYR Lv 19)
-- Active Lead: HYDROS (Blastoise Lv 50, HP 166/166, Def 126, Spc 121)
-- Combat Strategy:
-  - Select FIGHT -> Bubblebeam (STAB, 20/20 PP) or Bite (25/25 PP).
-  - High Defense (126) reduces Snorlax Headbutt/Body Slam to trivial damage.
-  - Defeat Snorlax in 2-3 turns to secure ~980 EXP for HYDROS and permanently clear the Route 16 roadblock.
-  - After battle: Ride west into Route 16 Gatehouse (24, 10) onto Cycling Road (Route 17).
 
 <hr>
 
@@ -1720,18 +1709,18 @@
 # Fuchsia City - Points of Interest & Topology
 
 ## Connections
-- West: Route 18 at (0, 16..17)
-- East: Route 15 Gatehouse at (39, 14..15)
-- South: Route 19 (Sea Route 19 to Seafoam Islands) at (18..23, 35)
-- North: Safari Zone Gate at (18..20, 3)
+- West: Route 18 at (0, 16..17) [Verified Turn 15433]
+- East: Route 15 Gatehouse at (39, 14..17) [Visible avenue at cols 38-42 rows 16-17 Turn 15476]
+- South: Route 19 (Sea Route 19 to Seafoam Islands) at (18..23, 35) [Visible beach transition Turn 15451]
+- North: Safari Zone Gate [Hypothesis: Located at north-central boundary]
 
-## Major Landmarks & Buildings
-- **Safari Zone Warden's House**: Located at (26..29, 25..27) with door at (27, 27) [Verified Turn 15455: Warden at (2, 3) seeks Gold Teeth for HM04 Strength; boulder inside hides Rare Candy].
-- **Fishing Guru's Brother**: Located at (30..33, 25..27) with door at (31, 27) [Gives Good Rod].
+## Major Landmarks & Buildings (Empirically Verified)
+- **Safari Zone Warden's House**: Located at (26..29, 25..27) with door at (27, 27) [Entered Turn 15454; Warden at (2, 3) seeks Gold Teeth for HM04 Strength; boulder inside].
+- **Fishing Guru's Brother**: Located at (30..33, 25..27) with door at (31, 27) [Entered Turn 15458; received Good Rod Turn 15461].
 - **Fuchsia Pokémart**: Located in northwest sector at (4..7, 12..13) with "MART" sign [Verified Turn 15441].
-- **Fuchsia Pokémon Center**: Located in south-central sector at (18..21, 24..27) with door at (21, 27).
-- **Fuchsia Gym**: Located in southwest corner (Leader Koga; Poison type; invisible walls).
-- **Safari Zone**: Located in northern sector (Entrance fee ¥500; gives 30 Safari Balls; contains HM03 Surf & Gold Teeth).
+- **Fuchsia Pokémon Center**: Located in south-central sector at (18..21, 24..27) with door mat at (21, 27) [Verified exterior Turn 15447].
+- **Fuchsia Gym**: Located in southwest corner at (4..9, 22..26) [Verified exterior roof & awning Turn 15434, 15439].
+- **Safari Zone**: Located in northern sector [Objective: Retrieve HM03 Surf & Gold Teeth].
 
 
 <hr>
