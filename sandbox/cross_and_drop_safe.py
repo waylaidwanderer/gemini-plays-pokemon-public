@@ -1,6 +1,5 @@
 import mgba
 import sys
-import os
 
 def get_pos():
     return mgba.get_coordinates()
@@ -43,58 +42,25 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Currently at (1, 11) on 3F West in State B
-print("PHASE 1: Walking to 3F East pitfall at (26, 6)...")
+# Currently in battle screen with "Got away safely!" at (5, 11)
+print("PHASE 1: Clearing battle screen...")
+mgba.press_buttons(["B", "sleep 2000"]) # Clear battle text, wait for overworld
+
+# Walk to (1, 11) using Column 4 -> Row 13 -> Column 1 to avoid the statue at (2, 11) and gate at (3, 12)
+print("PHASE 2: Walking to (1, 11)...")
+if not walk_to(4, 11): sys.exit(1)
+if not walk_to(4, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
+
+# Walk to (26, 6) in State B via Column 1 -> Row 9
+print("PHASE 3: Walking to 3F East pitfall at (26, 6)...")
 if not walk_to(1, 9): sys.exit(1)
 if not walk_to(12, 9): sys.exit(1)
 if not walk_to(12, 6): sys.exit(1)
 if not walk_to(26, 6): sys.exit(1)
 
-# Drop through pitfall to 1F East inside fenced room
-print("PHASE 2: Dropping through 3F pitfall to 1F East...")
+print("Stepping RIGHT onto the pitfall to drop...")
 mgba.press_buttons(["Right", "sleep 2500"])
 print("Position after drop (should be 1F East fenced room):", get_pos())
-
-# Navigate to B1F stairs
-print("PHASE 3: Walking to B1F stairs...")
-if not walk_to(26, 3): sys.exit(1)
-if not walk_to(22, 3): sys.exit(1)
-if not walk_to(22, 2): sys.exit(1)
-
-print("Stepping UP to warp down to B1F East...")
-mgba.press_buttons(["Up", "sleep 2500"])
-print("Position on B1F East (should be around 22, 3):", get_pos())
-
-# Cross horizontally to Secret Key on B1F West
-print("PHASE 4: Walking to B1F West Secret Key room...")
-if not walk_to(21, 3): sys.exit(1)
-if not walk_to(21, 5): sys.exit(1)
-if not walk_to(1, 5): sys.exit(1)
-
-# Retrieve Secret Key at (1, 4)
-print("PHASE 5: Retrieving the Secret Key at (1, 4)...")
-mgba.press_buttons(["Up", "sleep 300"])
-mgba.press_buttons(["A", "sleep 1000"]) # Click item ball
-mgba.press_buttons(["A", "sleep 1000"]) # Confirm "ACE found SECRET KEY!"
-mgba.press_buttons(["A", "sleep 1000"]) # "ACE put the SECRET KEY in the KEY ITEMS pocket!"
-mgba.press_buttons(["B", "sleep 400"])  # Close potential menu
-
-print("Secret Key retrieved! Current position:", get_pos())
-
-# DIG out back to Cinnabar Island
-print("PHASE 6: Escaping via DIG...")
-mgba.press_buttons(["Start", "sleep 400"])
-mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKEMON
-for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
-    mgba.press_buttons(["Down", "sleep 180"])
-mgba.press_buttons(["A", "sleep 600"]) # Select TRUFFLE
-mgba.press_buttons(["A", "sleep 3000"]) # Select DIG
-print("SUCCESS! Final position Cinnabar Island:", get_pos())
 mgba.take_screenshot()
-
-# Clean up obsolete test scripts
-obsolete_files = ["toggle_3f_switch.py", "test_switch_direction.py", "probe_switch_text.py"]
-for f in obsolete_files:
-    if os.path.exists(f):
-        os.remove(f)
-        print(f"Deleted {f}")
