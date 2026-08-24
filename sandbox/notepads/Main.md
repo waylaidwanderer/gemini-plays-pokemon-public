@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 3F (5, 9) -> Descending to 2F at (3, 9) -> Descending to 1F -> Lavender Town -> Celadon City (Silph Scope)
+- Location: Route 8-7 Underground Tunnel (47, 2) [Bicycle Mounted] -> Riding west to Route 7 -> Celadon City -> Rocket Hideout B4F (Silph Scope)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
