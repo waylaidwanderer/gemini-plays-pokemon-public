@@ -59,25 +59,30 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting from current position (5, 27) inside 1F West
-print("PHASE 2: Warp UP to 2F West...")
-if not walk_to(5, 11): sys.exit(1)
-if not walk_to(8, 11): sys.exit(1)
-if not walk_to(8, 10): sys.exit(1)
+# Starting in battle at (9, 10) inside 1F West
+print("PHASE 2: Escaping from battle...")
+run_from_battle()
+print("Position after battle:", get_pos())
+
+# Walk directly around (8, 10) to stairs at (5, 10)
+print("PHASE 3: Walking around (8, 10) to stairs...")
+if not walk_to(9, 9): sys.exit(1)
+if not walk_to(5, 9): sys.exit(1)
 if not walk_to(5, 10): sys.exit(1)
-print("Stepping Left to warp to 2F West...")
+
+print("Stepping Left to warp UP to 2F West...")
 mgba.press_buttons(["Left", "sleep 2500"])
 print("Position on 2F West:", get_pos())
 
 # Navigate 2F West to 3F West (State A)
-print("PHASE 3: Warp UP to 3F West...")
+print("PHASE 4: Warp UP to 3F West...")
 if not walk_to(7, 11): sys.exit(1)
 print("Stepping UP to warp to 3F West...")
 mgba.press_buttons(["Up", "sleep 2500"])
 print("Position on 3F West:", get_pos())
 
 # Toggle Mewtwo Statue Switch at (2, 11) to State B
-print("PHASE 4: Toggling switch to State B...")
+print("PHASE 5: Toggling switch to State B...")
 if not walk_to(3, 11): sys.exit(1)
 if not walk_to(3, 13): sys.exit(1)
 if not walk_to(1, 13): sys.exit(1)
