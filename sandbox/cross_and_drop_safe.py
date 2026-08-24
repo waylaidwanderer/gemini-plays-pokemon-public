@@ -59,19 +59,19 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Start at (6, 10)
+# Starting at (7, 11) on 3F West
 print("Starting cross_and_drop_safe.py...")
 print("Initial Position:", get_pos())
 
-# Phase 1: Walk to Column 6 Row 6
-if walk_to(6, 6):
-    # Phase 2: Walk to pitfall at (26, 6)
-    if walk_to(26, 6):
-        print("Arrived at pitfall! Dropping...")
-        mgba.press_buttons(["Right", "sleep 800"])
-        time.sleep(2.0)
-        print("Position after drop:", get_pos())
-    else:
-        print("Failed to walk to pitfall.")
-else:
-    print("Failed to walk to (6, 6).")
+# Walk to Column 6 Row 6
+if not walk_to(6, 11): sys.exit(1)
+if not walk_to(6, 6): sys.exit(1)
+
+# Walk to pitfall at (26, 6)
+if not walk_to(26, 6): sys.exit(1)
+
+print("Dropped through pitfall! Waiting 2.0 seconds...")
+time.sleep(2.0)
+print("Final Position:", get_pos())
+sc = mgba.take_screenshot()
+print("Screenshot:", sc)
