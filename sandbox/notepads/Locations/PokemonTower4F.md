@@ -18,6 +18,3 @@
   - Channeler Laurel / Paula at (15, 8) [Defeated Turn 14347: Gastly Lv 23, Gastly Lv 23; Reward: ¥690]
   - Channeler Jody [Empirical battle pending]
 
-## Verification & Item Acquisition Checklist
-1. Bag capacity check (<20 items) before interacting with item balls.
-2. Confirm '[PLAYER] found [ITEM]!' dialogue on-screen before marking collected.

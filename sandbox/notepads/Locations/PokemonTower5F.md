@@ -20,6 +20,3 @@
   - Channeler at (9, 16) [Defeated Turn 14544]: Haunter Lv 22.
   - Channeler at (6, 10) [Defeated Turn 14548]: Gastly Lv 24.
 
-## Verification & Item Acquisition Checklist
-1. Bag capacity check (<20 items) before interacting with item balls.
-2. Confirm '[PLAYER] found [ITEM]!' dialogue on-screen before marking collected.
