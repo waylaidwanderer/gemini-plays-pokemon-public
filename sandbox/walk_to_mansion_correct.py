@@ -59,16 +59,10 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting from current position (6, 10) on Cinnabar Island
-print("Walking to southern street...")
-if not walk_to(6, 12): sys.exit(1)
-print("Walking to Column 18...")
-if not walk_to(18, 12): sys.exit(1)
-print("Walking UP Column 18...")
-if not walk_to(18, 5): sys.exit(1)
-print("Walking LEFT to Mansion column...")
-if not walk_to(6, 5): sys.exit(1)
-print("Walking UP to Mansion entrance...")
+# Starting from current position (11, 7) on Cinnabar Island
+print("Walking directly to Mansion entrance via Row 4...")
+if not walk_to(11, 4): sys.exit(1)
+if not walk_to(6, 4): sys.exit(1)
 if not walk_to(6, 3): sys.exit(1)
 print("Entering Mansion...")
 mgba.press_buttons(["Up", "sleep 2500"])
