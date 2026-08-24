@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia City (4, 20) -> Explored Bill's Grandpa's House [Turn 15500]; navigating north along Western Avenue (cols 2-3) towards Safari Zone Gate.
+- Location: Safari Zone Center (28, 10) -> Entered Safari Zone [Turn 15535]; navigating east into Area 1 on route to HM03 Surf & Gold Teeth.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
