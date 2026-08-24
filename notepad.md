@@ -988,6 +988,10 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **Slot 5:** NIDORAN♀ (Nidoran-F) - Level 25
 - **Slot 6:** TRUFFLE (Paras) - Level 20 (Useful for DIG in 1st Move submenu option and CUT in 2nd Move submenu option)
 
+## Mewtwo Statue Switch Interactions
+- **3F West Switch at (2, 11):** Must stand at `(2, 12)` facing UP, then press `A` once to open "A secret switch! Press it? YES/NO", and press `A` again on YES to toggle. (Verified Turn 58395, 58411, 58424, 58438).
+- **2F West Switch at (2, 11):** Must stand at `(2, 12)` facing UP.
+
 <hr>
 
 <h1><code>Locations/Route15.md</code></h1>
