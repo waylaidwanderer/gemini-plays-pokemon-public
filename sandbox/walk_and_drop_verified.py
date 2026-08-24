@@ -36,13 +36,21 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (2, 11)
-print("Starting at:", get_pos())
+# 1. We are currently in battle on turn 58313! Flee!
+print("Fleeing from wild Grimer...")
+# Advance "Wild GRIMER appeared!" text
+mgba.press_buttons(["A", "sleep 2500"])
+# Move cursor to RUN and escape
+mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 3000"])
+# Dismiss "Got away safely!" text
+mgba.press_buttons(["B", "sleep 600"])
+print("Overworld position after fleeing:", get_pos())
 
-# 1. Test if we can walk up to (2, 10) -> (6, 10) -> (6, 6) directly (State B bypass)
+# 2. Test if we can walk up to (2, 10) -> (6, 10) -> (6, 6) directly (State B bypass)
 print("Attempting to traverse State B bypass to Row 6...")
 b_bypass_success = False
 
+# Starting position is (2, 11).
 if walk_to_clean(2, 10):
     if walk_to_clean(6, 10):
         if walk_to_clean(6, 6):
@@ -51,16 +59,15 @@ if walk_to_clean(2, 10):
 if not b_bypass_success:
     print("Mansion is currently in State A! Walking to (1, 11) to toggle switch...")
     # Walk to (1, 11) via Row 13 detour from our current position
-    # (Since we got blocked, we could be at (6, 10) or elsewhere. We walk to (6, 13) first)
     pos = get_pos()
     if pos['y'] < 13:
         if not walk_to_clean(pos['x'], 13): sys.exit(1)
     if not walk_to_clean(1, 13): sys.exit(1)
     if not walk_to_clean(1, 11): sys.exit(1)
     
-    # Toggle switch to State B
-    print("Toggling switch from (1, 11) facing RIGHT...")
-    mgba.press_buttons(["Right", "sleep 250", "A", "sleep 800", "A", "sleep 800", "A", "sleep 500", "B", "sleep 300"])
+    # Toggle switch to State B (using the super-tight timing to prevent walking!)
+    print("Toggling switch from (1, 11) using tight timing...")
+    mgba.press_buttons(["Right", "sleep 50", "A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1000", "B", "sleep 300"])
     print("State B activated! Walking State B bypass route...")
     
     # State B is now active! Walk to (1, 13) -> (2, 13) -> (2, 10) -> (6, 10) -> (6, 6)
