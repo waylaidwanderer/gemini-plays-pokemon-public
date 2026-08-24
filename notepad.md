@@ -1512,6 +1512,16 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
   - Choose YES to toggle the switch.
   - The switch can ONLY be interacted with from the bottom (standing at `(2, 12)` facing UP). Interaction from the left side (standing at `(1, 11)` facing RIGHT) is completely non-interactive. It will select "NO" by default or ignore A presses, leaving the mansion stuck in State A.
   - This direction-dependence is a hardcoded Gen 1 engine quirk of this specific switch.
+## The Verified State B 2F West to 3F East Bypass Route (Verified Turn 58714)
+To reach 3F East from 2F West when the mansion is in State B (which closes the Column 10 Row 8 gate and the Row 12 gates):
+1. Walk from 2F West southern area to Column 6 Row 11 `(6, 11)`.
+2. Walk UP Column 6 to Row 3 `(6, 3)`. (This column is open past the Row 9 gate in State B!).
+3. Walk RIGHT along Row 3 to Column 18 `(18, 3)` (this crosses horizontally from 2F West to 2F East, completely above the Column 22 wall and other barriers!).
+4. Walk DOWN Column 18 to Row 10 `(18, 10)`.
+5. Walk LEFT along Row 10 directly to Column 15 `(15, 11)` (where the stairs are). This path is on the south side of the Row 7 closed shutter gates, so it is completely open and unblocked!
+6. Step UP onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
+7. On 3F East, walk to the pitfall at `(26, 6)` or `(26, 3)` and drop down to 1F East inside the fenced room.
+8. Warp down to B1F East and walk across Row 5 through open Column 9 gate directly to the Secret Key room on B1F West!
 
 <hr>
 
