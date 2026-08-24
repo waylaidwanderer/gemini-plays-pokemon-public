@@ -49,9 +49,22 @@ if not walk_to(2, 12): sys.exit(1)
 # Face UP
 mgba.press_buttons(["Up", "sleep 500"])
 
-# Press A once to trigger the dialogue
+# Step 1: Press A to trigger dialogue
 mgba.press_buttons(["A", "sleep 1500"])
+mgba.take_screenshot()
 
-# Capture screenshot to see the dialogue text
-print("Capturing screenshot of dialogue...")
+# Step 2: Press A to advance to "Press it?"
+mgba.press_buttons(["A", "sleep 1500"])
+mgba.take_screenshot()
+
+# Step 3: Press A to choose YES
+mgba.press_buttons(["A", "sleep 1500"])
+mgba.take_screenshot()
+
+# Step 4: Press A to clear click text
+mgba.press_buttons(["A", "sleep 1500"])
+mgba.take_screenshot()
+
+# Step 5: Press B to exit
+mgba.press_buttons(["B", "sleep 500"])
 mgba.take_screenshot()
