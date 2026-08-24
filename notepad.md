@@ -95,7 +95,10 @@
 - Funds: ¥28,428+
 
 ## Flying-Type Party Slot Allocation & Capture Plan
-- Status: Party has 5 members (Slot 6 open). Catching wild flyer on Route 8 / Route 10 after retrieving Silph Scope and completing Pokémon Tower.
+- Party Slot 6: Reserved for wild flyer (Pidgey / Pidgeotto / Spearow)
+- Planned Nickname: ZEPHYR
+- Fly Utility: HM02 Fly in Bag ready to be taught upon capture
+- Capture Equipment: Great Ball x1 (Restock available at Lavender Pokémart for ¥600/ball)
 
 
 <hr>
@@ -1161,6 +1164,12 @@
 - Lass at (51, 12), Lass at (26, 5), Lass at (26, 6)
 - Gambler at (46, 13), Gambler at (13, 9)
 - Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
+
+## Tall Grass & Wild Encounters (Verified Turn 15023-15032)
+- Eastern Tall Grass Patch: Located at cols 44-53, rows 12-13 (flanked by fence at row 11 and southern path at row 14).
+  - Walkable Grass Rows: Row 12 (cols 44-50, 52-53), Row 13 (cols 44-45, 47-53).
+  - NPCs inside grass perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
+- Wild Species: Pidgey (Lv 18-20), Pidgeotto (Lv 20-22), Meowth (Lv 18-20), Growlithe / Vulpix (Lv 18), Kadabra (Lv 20).
 
 
 <hr>
