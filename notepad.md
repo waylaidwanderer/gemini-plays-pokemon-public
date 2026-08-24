@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Center (Area 0) at (20, 0) [Turn 15718]; traversing west across Center Area directly into Area 3 (West) for HM03 Surf & Gold Teeth (~385 steps remaining).
+- Location: Safari Zone Gatehouse [Turn 15721]; re-entering with full 500 steps to execute the direct 39-step superhighway (Center 14,0 -> Area 2 14,36 -> Area 3 0,36) to retrieve HM03 Surf and Gold Teeth with ~460 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -75,7 +75,7 @@
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Cut utility & reserve grass attacker (Slot 2)
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 11/54) [Damaged in Lass battle Turn 15219; resting in reserve]
+   - Stats: Max HP 54 (HP: 54/54) [Healed with Super Potion Turn 15708]
    - Type: Fighting
    - Moves: Karate Chop (22/25), Low Kick
    - Role: Physical Fighting attacker (Reserve)
@@ -107,7 +107,7 @@
 ## Inventory & Resources (Verified Turn 15241)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Bag Capacity: 16 / 20 slots used (4 empty slots available)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461]
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥28,428+
 
@@ -1767,5 +1767,11 @@
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
 - South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
+## Verified Direct 39-Step Superhighway to Area 3 (West)
+1. Enter Safari Zone Center (Area 0) at (14, 25).
+2. Walk straight North along col 14 to (14, 0) -> enters Area 2 (North) at (14, 36). (25 steps)
+3. In Area 2 (North), walk straight West along row 36 to (0, 36) -> enters Area 3 (West)! (14 steps)
+Total steps from Entrance to Area 3: ~39 steps (leaving ~461 steps budget for Area 3!).
+
 
 <hr>
