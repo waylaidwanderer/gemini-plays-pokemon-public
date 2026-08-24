@@ -62,17 +62,14 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting at (7, 11) on 3F West in State B
+# Starting at current position on 3F West in State B
 print("Starting cross_3f_east_direct.py...")
 print("Initial Position:", get_pos())
 
-# Step 1: Walk to (6, 11)
-if not walk_to(6, 11): sys.exit(1)
-
-# Step 2: Walk to (6, 6)
+# Step 1: Walk directly to (6, 6)
 if not walk_to(6, 6): sys.exit(1)
 
-# Step 3: Walk to pitfall at (26, 6)
+# Step 2: Walk to pitfall at (26, 6)
 if not walk_to(26, 6): sys.exit(1)
 
 print("Dropped through pitfall! Waiting 2.0 seconds...")
