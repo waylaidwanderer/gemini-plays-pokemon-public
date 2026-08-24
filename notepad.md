@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 6F (8, 14) -> Approaching 7F Stairs & Ghost Marowak at (10, 16)
+- Location: Pokémon Tower 7F (9, 16) -> Ascending central aisle towards Rocket Grunts & Mr. Fuji
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
