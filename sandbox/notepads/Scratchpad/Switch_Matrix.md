@@ -103,3 +103,16 @@ To reach 3F East from 2F West when the mansion is in State B (which closes the C
 6. Step UP onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
 7. On 3F East, walk to the pitfall at `(26, 6)` or `(26, 3)` and drop down to 1F East inside the fenced room.
 8. Warp down to B1F East and walk across Row 5 through open Column 9 gate directly to the Secret Key room on B1F West!
+
+---
+
+## Verified Parity Log (Turn-Stamped)
+- **Turn 58742:** Player at `(2, 12)` facing RIGHT, pressed `A` (Did NOT toggle switch).
+- **Turn 58747:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State B to State A (Row 9 gates CLOSED, Row 12 OPEN).
+- **Turn 58757:** `toggle_and_drop.py` aborted mid-execution (exceeded button limit). State remained State A.
+- **Turn 58759:** Player at `(2, 12)` facing UP, selected NO by pressing B too quickly on YES/NO menu. Did NOT toggle switch.
+- **Turn 58764:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State A to State B (Row 9 gates OPEN, Row 12 CLOSED). Verified open on Turn 58765.
+- **Turn 58766:** `walk_to_pitfall_correct.py` ran. Battle desynchronization at `(2, 12)` caused the script to accidentally press `A` on the overworld after the battle ended, toggling the switch back from State B to State A.
+- **Turn 58776:** Player at `(2, 12)` facing RIGHT, pressed `A` (Did NOT toggle switch).
+- **Turn 58777:** Player at `(2, 12)` facing UP, selected NO by pressing B too quickly on YES/NO menu. Did NOT toggle switch.
+- **Turn 58780:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State A to State B (Row 9 gates OPEN). Verified OPEN on Turn 58782. Current mansion state: **STATE B**.
