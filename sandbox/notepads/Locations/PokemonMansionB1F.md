@@ -33,3 +33,9 @@
 ## Switch Details (Mansion Switch State B is toggled from 3F West)
 - B1F East has Mewtwo statues at `(16, 10)` and `(18, 10)`. B1F West has Mewtwo statues at `(3, 10)`, `(3, 12)`, `(3, 14)`, `(8, 10)`, `(8, 12)`, and `(8, 14)`.
 - However, we do not need to toggle any switch on B1F to retrieve the Secret Key! The entire mansion is solved by toggling the Mewtwo statue switch at `(2, 11)` on 3F West to State B, dropping down the 3F East pitfall at `(26, 6)` to 1F East `(25, 6)`, warping down to B1F East `(22, 3)`, and walking straight across Row 5 through the open Column 9 gate directly to the Secret Key room on B1F West.
+
+## Verified Empirical Discoveries & Proof of Work
+- **Permanent Column 1 Wall (Turn 57865):** Column 1 Row 9 has been physically verified as a solid, impassable permanent structural wall. The player cannot walk Up Column 1 past Row 9 in any state (A or B).
+- **Row 5 Column 20-21 Solid Barrier (Turn 57908):** Row 5 on Columns 20 and 21 contains a solid permanent horizontal wall block. Direct horizontal crossing from East to West on Row 5 is blocked at Columns 20 and 21. Crossing must be done by walking Left on Row 4 to Column 19, then walking Down to Row 5, and then walking Left directly through the open Column 9 gate at `(9, 5)`.
+- **B1F East Mewtwo Statues (Turn 57381):** Statues at `(16, 10)` and `(18, 10)` have been physically interacted with and verified to have no switches. They are purely decorative.
+- **Column 9 Row 5 Gate (Turn 57908):** Gate at `(9, 5)` is OPEN in State B and CLOSED in State A. Allows horizontal crossing between B1F East and B1F West North.
