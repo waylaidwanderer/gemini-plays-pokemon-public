@@ -59,12 +59,30 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting from current position (12, 7) on Cinnabar Island
-print("PHASE 1: Walking to Mansion entrance...")
-if not walk_to(12, 5): sys.exit(1)
-if not walk_to(6, 5): sys.exit(1)
-if not walk_to(6, 3): sys.exit(1)
-print("Stepping UP to enter Mansion...")
+# Starting from current position (5, 27) inside 1F West
+print("PHASE 2: Warp UP to 2F West...")
+if not walk_to(5, 11): sys.exit(1)
+if not walk_to(8, 11): sys.exit(1)
+if not walk_to(8, 10): sys.exit(1)
+if not walk_to(5, 10): sys.exit(1)
+print("Stepping Left to warp to 2F West...")
+mgba.press_buttons(["Left", "sleep 2500"])
+print("Position on 2F West:", get_pos())
+
+# Navigate 2F West to 3F West (State A)
+print("PHASE 3: Warp UP to 3F West...")
+if not walk_to(7, 11): sys.exit(1)
+print("Stepping UP to warp to 3F West...")
 mgba.press_buttons(["Up", "sleep 2500"])
-print("Position after entering (should be 1F West around 5, 27):", get_pos())
+print("Position on 3F West:", get_pos())
+
+# Toggle Mewtwo Statue Switch at (2, 11) to State B
+print("PHASE 4: Toggling switch to State B...")
+if not walk_to(3, 11): sys.exit(1)
+if not walk_to(3, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
+print("Facing Right towards (2, 11) and interacting...")
+mgba.press_buttons(["Right", "sleep 250", "A", "sleep 800", "A", "sleep 800", "A", "sleep 500", "B", "sleep 300"])
+print("State B activated! Current Position:", get_pos())
 mgba.take_screenshot()
