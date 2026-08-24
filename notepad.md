@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 3F (5, 9) -> Descending to 2F at (3, 9) -> Descending to 1F -> Lavender Town -> Celadon City (Silph Scope)
+- Location: Route 8-7 Underground Tunnel (47, 2) [Bicycle Mounted] -> Riding west to Route 7 -> Celadon City -> Rocket Hideout B4F (Silph Scope)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1141,20 +1141,26 @@
 # Route 8 - Points of Interest, Topography & Encounter Zones
 
 ## Connections
-- West: Route 7 / Celadon City via Underground Path (West entrance at Route 7 (5, 13); East entrance at Route 8 (13, 3))
-- East: Lavender Town at (59, 8) [Traversed Turn 11103]
+- West: Route 7 / Celadon City via Underground Path (West entrance at Route 7 (12, 4) / building (5, 13); East entrance at Route 8 (13, 3))
+- East: Lavender Town at (59, 8) [Traversed Turn 11103, 14609]
 - Middle: Saffron East Gatehouse at cols 3-9, rows 8-11 (door at (9, 9))
 
-## Topography & Verified Zones
-- **Underground Path East Building**: Located at `(13, 3)`. South exit door at `(3..4, 8)` warps to Route 8 at `(13, 4)`.
+## Topography & Verified Traversal Corridors
+- **Underground Path East Building**: Located at `(13, 3)`. North-south approach path along column 12/13 from row 12 up to row 3.
+- **Obstacle Topology & Stone Pillar Barriers**:
+  - Columns 48-51 (rows 2-11): Solid stone pillar structure blocks northern/central traversal.
+  - Column 40 (rows 11-15): Stone pillar column and bushes block lower path.
+  - Column 22 (rows 2-9): Stone pillar column blocks northern path.
+- **Verified Clear Horizontal Corridor**:
+  - **Row 12 / Row 13 Corridor**: Wide-open continuous southern road connecting Lavender Town (x=59) past all stone pillars to column 13.
 - **Tall Grass Fields**:
-  - West Vertical Strip: Column 16, rows 4-11 (pure tall grass flanked by path on west and stone pillars on east).
-  - Southern Grass Plain: Rows 12-13, cols 16-25 (continuous open tall grass field).
-  - Eastern Grass Fields: Cols 40-55, rows 6-14 (open plain leading to Lavender Town).
-- **Target Flyer Pool (Route 8 Reference)**:
-  - Target Flyer: Pidgey / Pidgeotto (catch with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly).
+  - West Vertical Strip: Column 16, rows 4-11.
+  - Southern Grass Plain: Rows 12-13, cols 16-25.
+  - Eastern Grass Fields: Cols 40-55, rows 6-14.
+- **Target Flyer Pool**:
+  - Pidgey / Pidgeotto on Route 8 / Route 10 (Catch with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly).
 
-## Verified Trainers Gauntlet (Defeated Turns 11103-11142)
+## Verified Trainers Gauntlet (All Defeated)
 - Lass at (51, 12), Lass at (26, 5), Lass at (26, 6)
 - Gambler at (46, 13), Gambler at (13, 9)
 - Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
@@ -1388,36 +1394,26 @@
 
 <h1><code>Locations/RocketHideoutB4F</code></h1>
 
-# Team Rocket Hideout B4F - Topology & Floor Log
+# Rocket Hideout B4F - Layout, Boss Giovanni & Silph Scope
 
-## Connections & Warps
-- Stairs Up to B3F: Located at (19, 18), leads up to Rocket Hideout B3F at (19, 10).
-- Stairs Up to B2F: Located at (25, 6), leads up to Rocket Hideout B2F at (21, 8).
-- Elevator Doors / Lobby: Located on the east side (cols 24-28).
+## Connections
+- Elevator: Connects B1F, B2F, and B4F (Elevator shaft at (24..25, 13..14); requires LIFT KEY)
+- Stairs from B3F: Ascending staircase at (25, 2) in northwest sector
 
-## Floor Layout & Verified Topology
-- Northern Hallway (rows 5-7, cols 9-28): Connects eastern stairs at (25, 6) all the way west to col 9. Staircase bypass along row 5 or row 7.
-- Eastern Sector (cols 21-28, rows 8-19): Rocket Grunt at (26, 9) [Defeated Turn 12787].
-- Central Sector (cols 16-20, rows 10-19): Rare Candy at (20, 14). Spin maze mechanics verified.
-- Western Conveyor Maze (cols 9-15, rows 9-20): Bypass path through western corridor.
-- Southern Sector & Boundaries (cols 9-28, rows 20-27):
-  - Southern opening at (13, 24) connects row 22 to rows 25-26.
-  - Continuous pink floor corridor along rows 25-26 from col 11 to col 22.
-  - East boundary: solid vertical wall at col 23 (rows 21-27) with outer perimeter terminating at col 29.
-  - West boundary: solid vertical wall at col 8.
-  - Direct open stairwell connection: (20, 25) -> north along col 20 to (20, 18) -> (19, 18) [Stairs up to B3F].
-- Elevator Lobby (cols 23-28, rows 10-18): Elevator door at (24, 11).
+## Floor Layout & Landmarks
+- Elevator Arrival: Tile (24, 13) facing North on B4F.
+- Grunt Guard Post: Grunts at (23, 12) and (26, 12) [Defeated Turn 13292] guarding the automated double doors at (24..25, 11).
+- Giovanni's Office: Large executive office at rows 2-4, cols 22-26.
+- Boss Giovanni: Located at (25, 3) [Defeated Turn 13304: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29; Reward: ¥2871].
 
-## Verified Trainers & NPCs
-- Rocket Grunt at (26, 9) [Defeated Turn 12787]: Two Machop Lv 21.
-- Rocket Grunt at (10, 22) / (11, 22) [Defeated Turn 12822]: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20.
-- Rocket Grunt at (23, 12) [Defeated Turn 13289]: Sandshrew Lv 23, Ekans Lv 23, Sandslash Lv 23.
-- Rocket Grunt at (26, 12) [Elevator Lobby]: Dialogue: "Go ahead and go! But, you need the LIFT KEY to run the elevator!"
-
-## Boss Battle
-- **Boss Giovanni** at (25, 3) [Defeated Turn 13304]:
-  - Team: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29.
-  - Dropped Item: SILPH SCOPE at (25, 2) [Dropped on floor upon defeat; UNCOLLECTED due to full 20-item bag cap. Target for retrieval!].
+## Silph Scope Retrieval Protocol
+1. Enter Celadon Game Corner at (28, 21).
+2. Take secret stairs behind poster at (9, 4) down to Rocket Hideout B1F.
+3. Walk south to the Elevator at (24, 13).
+4. Enter elevator with Lift Key -> Select B4F.
+5. Emerge on B4F at (24, 13).
+6. Walk North through unlocked doors at (24..25, 11) directly into Giovanni's Office.
+7. Collect the **SILPH SCOPE** Item Ball at `(25, 2)` (dropped upon Giovanni's defeat).
 
 
 <hr>
