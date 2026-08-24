@@ -1,58 +1,77 @@
 import mgba
+import sys
 import time
 
 def get_pos():
     return mgba.get_coordinates()
 
+def run_from_battle():
+    print("Wild battle detected! Waiting for battle menu to load...")
+    time.sleep(2.0) # Wait 2 seconds for battle intro to finish
+    # Dismiss any text
+    for _ in range(3):
+        mgba.press_buttons(["B", "sleep 150"])
+    print("Sending escape inputs...")
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    # Clear "Got away safely!"
+    for _ in range(5):
+        mgba.press_buttons(["B", "sleep 150"])
+    print("Escape sequence complete.")
+
 def walk_step(direction):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction, "sleep 150"])
-    pos_after = mgba.get_coordinates()
-    if pos_before == pos_after:
-        raise Exception(f"Collision or battle detected at {pos_before} trying to go {direction}! Terminating script.")
-    return pos_after
+    pos_before = get_pos()
+    mgba.press_buttons([direction, "sleep 200"])
+    pos_after = get_pos()
+    return pos_before, pos_after
 
 def walk_to(target_x, target_y):
-    print(f"Walking to: ({target_x}, {target_y})")
-    max_steps = 30
+    print(f"Walking to ({target_x}, {target_y})...")
+    max_steps = 100
     steps = 0
     while steps < max_steps:
-        pos = mgba.get_coordinates()
+        pos = get_pos()
         x, y = pos['x'], pos['y']
         if x == target_x and y == target_y:
+            print(f"Arrived at ({target_x}, {target_y})!")
             return True
             
         if x < target_x:
-            walk_step("Right")
+            direction = "Right"
         elif x > target_x:
-            walk_step("Left")
+            direction = "Left"
         elif y < target_y:
-            walk_step("Down")
+            direction = "Down"
         elif y > target_y:
-            walk_step("Up")
+            direction = "Up"
+            
+        pos_before, pos_after = walk_step(direction)
+        
+        if pos_before == pos_after:
+            time.sleep(0.1)
+            pos_now = get_pos()
+            if pos_now == pos_before:
+                # We are definitely blocked/in battle!
+                run_from_battle()
+        else:
+            print(f"Stepped {direction} to {pos_after}")
+            
         steps += 1
+    print("Failed to reach target.")
     return False
 
-# Starting at (2, 12) on 3F West inside Mansion in State B
-print("Starting on 3F West:", get_pos())
+# Start at (6, 10)
+print("Starting cross_and_drop_safe.py...")
+print("Initial Position:", get_pos())
 
-# 1. Walk to (1, 9)
-walk_to(1, 9)
-print("Position 1:", get_pos())
-
-# 2. Try walking Right to (12, 9)
-print("Crossing to 3F East at (12, 9)...")
-walk_to(12, 9)
-print("Arrived at 3F East (12, 9):", get_pos())
-
-# 3. Walk to pitfall at (26, 6) from (12, 9)
-walk_to(12, 6)
-print("Arrived at (12, 6):", get_pos())
-
-walk_to(26, 6)
-print("Should have dropped! Waiting 2 seconds...")
-time.sleep(2.0)
-
-print("Position after drop:", get_pos())
-sc = mgba.take_screenshot()
-print("Final Screenshot:", sc)
+# Phase 1: Walk to Column 6 Row 6
+if walk_to(6, 6):
+    # Phase 2: Walk to pitfall at (26, 6)
+    if walk_to(26, 6):
+        print("Arrived at pitfall! Dropping...")
+        mgba.press_buttons(["Right", "sleep 800"])
+        time.sleep(2.0)
+        print("Position after drop:", get_pos())
+    else:
+        print("Failed to walk to pitfall.")
+else:
+    print("Failed to walk to (6, 6).")
