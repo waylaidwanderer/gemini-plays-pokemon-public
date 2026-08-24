@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 8 (16, 12) in tall grass -> Verifying party lead (SPROUT Lv 17) to bypass Repel level suppression & catching flyer ZEPHYR
+- Location: Route 8 (13, 10) -> Pacing western tall grass (cols 9-13, rows 12-14) / Route 7 to catch flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
