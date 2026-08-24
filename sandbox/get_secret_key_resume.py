@@ -59,12 +59,15 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting inside 3F West at (1, 10) in State B
-print("Starting get_secret_key_resume.py from inside Mansion 3F West at (1, 10)...")
+# Starting inside 3F West at (1, 12) in State B
+print("Starting get_secret_key_resume.py from inside Mansion 3F West at (1, 12)...")
 print("Initial Position:", get_pos())
 
-# Phase 1: Walk to Column 6 Row 10, then walk UP Column 6 to Row 6
-print("PHASE 1: Walking to Column 6 and going Up to Row 6...")
+# Phase 1: Walk to Column 6 Row 6 bypassing the (5, 9) trap and Column 6 Row 12 wall
+print("PHASE 1: Walking to (6, 6) safe route...")
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(5, 10): sys.exit(1)
 if not walk_to(6, 10): sys.exit(1)
 if not walk_to(6, 6): sys.exit(1)
 
