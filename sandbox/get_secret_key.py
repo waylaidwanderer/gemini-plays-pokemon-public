@@ -2,27 +2,20 @@ import mgba
 import time
 import os
 
-# Clean up obsolete temporary scripts to maintain workspace hygiene
-obsolete = [
-    "walk_to_pitfall_correct.py",
-    "get_secret_key_clean.py"
-]
-for f in obsolete:
-    if os.path.exists(f):
-        try:
-            os.remove(f)
-            print(f"Deleted obsolete file: {f}")
-        except Exception as e:
-            print(f"Error deleting {f}: {e}")
-
-# 1. Dismiss the "Got away safely!" screen
-mgba.press_buttons(["B"])
-time.sleep(1.5) # Wait for fade back to overworld
-
-# 2. Walk from (20, 4) to (1, 5) on B1F
+# Starting at (18, 5) on B1F East in State B
+# Walk Down to Row 6, Left to Column 9, Up to Row 5, and Left to B1F West
 steps = [
-    ("Left", {"x": 19, "y": 4}),
-    ("Down", {"x": 19, "y": 5}),
+    ("Down", {"x": 18, "y": 6}),
+    ("Left", {"x": 17, "y": 6}),
+    ("Left", {"x": 16, "y": 6}),
+    ("Left", {"x": 15, "y": 6}),
+    ("Left", {"x": 14, "y": 6}),
+    ("Left", {"x": 13, "y": 6}),
+    ("Left", {"x": 12, "y": 6}),
+    ("Left", {"x": 11, "y": 6}),
+    ("Left", {"x": 10, "y": 6}),
+    ("Left", {"x": 9, "y": 6}),
+    ("Up", {"x": 9, "y": 5}),  # Open gate in State B!
 ]
 
 def walk_step(direction, expected_coords, retries=15):
@@ -44,7 +37,7 @@ for direction, coords in steps:
         break
 
 if success:
-    print("Successfully bypassed B1F East wall! Walking Left along Row 5 to the Secret Key...")
+    print("Successfully crossed through gate at (9, 5)! Walking Left along Row 5 to the Secret Key...")
     curr = mgba.get_coordinates()
     while curr['x'] > 1:
         if not walk_step("Left", {"x": curr['x'] - 1, "y": 5}):
