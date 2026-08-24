@@ -7,8 +7,8 @@
 - North: Safari Zone Gate at (18..20, 3)
 
 ## Major Landmarks & Buildings
-- **Fuchsia Pokémon Center**: Located in south-central sector (around (19..23, 27)).
-- **Fuchsia Pokémart**: Located in south-central sector (around (25, 25)).
+- **Fuchsia Pokémon Center**: Located at (20..21, 24..27) with door at (21, 27) / warp (21, 26).
+- **Fuchsia Pokémart**: Located at (26..29, 25..27) with door at (27, 27) / warp (27, 26).
 - **Fuchsia Gym**: Located in southwest corner (Leader Koga; Poison type; invisible walls).
 - **Safari Zone**: Located in northern sector (Entrance fee ¥500; gives 30 Safari Balls; contains HM03 Surf & Gold Teeth).
 - **Safari Zone Warden's House**: Located in southeast sector (trade Gold Teeth for HM04 Strength).
