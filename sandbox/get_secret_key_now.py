@@ -107,8 +107,9 @@ elif y == 11 and x == 5:
 
 elif (y == 11 or y == 10) and x == 7:
     print("PHASE: Inside 3F West (landing). Walking to switch at (2, 12)...")
-    if not walk_to(8, 11): sys.exit(1)
-    if not walk_to(8, 13): sys.exit(1)
+    if not walk_to(7, 11): sys.exit(1)
+    if not walk_to(5, 11): sys.exit(1)
+    if not walk_to(5, 13): sys.exit(1)
     if not walk_to(1, 13): sys.exit(1)
     if not walk_to(2, 13): sys.exit(1)
     if not walk_to(2, 12): sys.exit(1)
