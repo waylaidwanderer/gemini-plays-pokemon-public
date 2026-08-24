@@ -51,6 +51,9 @@ def walk_to(target_x, target_y):
 print("--- B1F SECRET KEY RETRIEVAL ---")
 print("Starting from:", get_pos())
 
+# Dismiss any active text box first (like "Got away safely!")
+mgba.press_buttons(["B", "sleep 500"])
+
 # Phase 3: Walk to B1F West Secret Key room bypassing Row 5 Column 20-21 barrier
 print("Walking to B1F West Secret Key room...")
 if not walk_to(1, 7): sys.exit(1)
