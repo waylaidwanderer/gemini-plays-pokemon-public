@@ -36,41 +36,22 @@ def walk_to_clean(target_x, target_y):
         steps += 1
     return False
 
-# 1. Dismiss "Got away safely!" text
-print("Dismissing flee text box...")
-mgba.press_buttons(["B", "sleep 600"])
-print("Overworld position:", get_pos())
+# Starting at (2, 10) in State B
+print("Starting walk and drop from:", get_pos())
 
-# 2. Walk DOWN to (2, 13)
-if not walk_to_clean(2, 13): sys.exit(1)
+# 1. Walk DOWN to (2, 11)
+if not walk_to_clean(2, 11): sys.exit(1)
 
-# 3. Walk UP to (2, 12) (ensures we are standing at (2, 12) facing UP)
-if not walk_to_clean(2, 12): sys.exit(1)
+# 2. Walk RIGHT along Row 11 to Column 6 (6, 11)
+if not walk_to_clean(6, 11): sys.exit(1)
 
-# 4. Toggle Mewtwo switch using the exact working sequence from mansion_phase3.py
-print("Toggling 3F West switch at (2, 11) to State B...")
-mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "A secret switch!"
-mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Press it?" -> Select YES
-mgba.press_buttons(["A", "sleep 1200"]) # Dialogue: "Who wouldn't?" -> Close
-mgba.press_buttons(["B", "sleep 500"])  # Close dialogue
-print("State B toggled!")
-
-# 5. Walk to (2, 13)
-if not walk_to_clean(2, 13): sys.exit(1)
-
-# 6. Walk UP Column 2 to Row 10 (2, 10)
-if not walk_to_clean(2, 10): sys.exit(1)
-
-# 7. Walk RIGHT along Row 10 to Column 6 (6, 10)
-if not walk_to_clean(6, 10): sys.exit(1)
-
-# 8. Walk UP Column 6 to (6, 6)
+# 3. Walk UP Column 6 to (6, 6) (Row 9 gate is open!)
 if not walk_to_clean(6, 6): sys.exit(1)
 
-# 9. Walk RIGHT along Row 6 to Column 26 (26, 6)
+# 4. Walk RIGHT along Row 6 to Column 26 (26, 6)
 if not walk_to_clean(26, 6): sys.exit(1)
 
-# 10. Drop through pitfall
+# 5. Drop through pitfall
 print("Stepping onto pitfall...")
 mgba.press_buttons(["Right", "sleep 2500"])
 print("Position after drop (should be 1F East inside fenced room):", get_pos())
