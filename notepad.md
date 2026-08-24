@@ -1765,5 +1765,8 @@
 - Upper Ridge Descent Stairs: (17, 7) leading down onto eastern lawn (rows 1-8, cols 20-23).
 - Northern Boundary Opening (Hypothesis): Visual opening at (20..21, 0) accessible via eastern lawn (rows 1-8, cols 20-23).
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier.
+## Area 2 (North) Topology & Verified Landmarks
+- East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
+- Target: Traverse west across Area 2 towards the southwest exit to Area 3 (West).
 
 <hr>
