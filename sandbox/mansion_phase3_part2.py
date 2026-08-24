@@ -45,33 +45,26 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (26, 3) on 3F East in State B (after running from battle)
-print("Starting Mansion Phase 3 Part 2 Resume (At Pitfall):", get_pos())
+# Starting at (21, 2) on 1F East inside fenced room
+print("Starting Mansion Phase 3 Part 2 Final:", get_pos())
 
-# 1. Walk to pitfall at (26, 4) (which drops us!)
-walk_to(26, 4)
-print("Fell through pit! Waiting 2 seconds...")
-time.sleep(2.0)
-print("Position after drop:", get_pos())
-
-# 2. Walk to B1F stairs on 1F East inside fenced room
-walk_to(26, 3)
+# 1. Walk to B1F stairs on 1F East via Column 22 Row 3
 walk_to(21, 3)
-walk_to(21, 2)
+walk_to(22, 3)
 walk_to(22, 2)
 
-# 3. Warp DOWN to B1F by stepping UP onto stairs at (22, 2)
+# 2. Warp DOWN to B1F by stepping UP onto stairs at (22, 2)
 print("Stepping UP to warp DOWN to B1F...")
 mgba.press_buttons(["Up", "sleep 600"])
 time.sleep(2.0)
 print("Position on B1F East:", get_pos())
 
-# 4. Walk to Secret Key room at (1, 5)
+# 3. Walk to Secret Key room at (1, 5)
 walk_to(19, 3)
 walk_to(19, 5)
 walk_to(1, 5)
 
-# 5. Retrieve Secret Key at (1, 4)
+# 4. Retrieve Secret Key at (1, 4)
 print("Retrieving Secret Key...")
 mgba.press_buttons(["Up", "sleep 200"]) # Face Up
 mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Obtained the SECRET KEY!"
@@ -79,7 +72,7 @@ mgba.press_buttons(["A", "sleep 800"]) # Dismiss dialogue
 mgba.press_buttons(["B", "sleep 500"]) # Safeguard dismiss
 print("Secret Key retrieved successfully! Current position:", get_pos())
 
-# 6. DIG out back to Cinnabar Island
+# 5. DIG out back to Cinnabar Island
 print("Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 300"])
 mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
