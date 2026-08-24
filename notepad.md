@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Rocket Hideout B2F (21, 9) -> Navigating conveyor maze to Elevator (24, 19) -> Riding Elevator to B4F executive office (Silph Scope)
+- Location: Rocket Hideout B2F (3, 9) -> Navigating conveyor maze step-by-step to Elevator lobby
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
