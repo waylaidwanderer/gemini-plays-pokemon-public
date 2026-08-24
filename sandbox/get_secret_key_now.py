@@ -6,18 +6,17 @@ def get_pos():
     return mgba.get_coordinates()
 
 def run_from_battle():
-    print("Wild battle detected! Running away...")
-    # Press B a few times to dismiss potential text/intro
-    for _ in range(4):
+    print("Wild battle detected! Waiting for battle menu to load...")
+    time.sleep(2.0) # Wait 2 seconds for battle intro to finish
+    # Dismiss any text
+    for _ in range(3):
         mgba.press_buttons(["B", "sleep 150"])
-    
-    # Try to select RUN
-    # We press Down, Right, A to run
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 800"])
-    
-    # Press B/A to clear "Got away safely" or other texts
-    for _ in range(6):
+    print("Sending escape inputs...")
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    # Clear "Got away safely!"
+    for _ in range(5):
         mgba.press_buttons(["B", "sleep 150"])
+    print("Escape sequence complete.")
 
 def walk_step(direction):
     pos_before = get_pos()
@@ -48,47 +47,70 @@ def walk_to(target_x, target_y):
         pos_before, pos_after = walk_step(direction)
         
         if pos_before == pos_after:
-            # We didn't move!
-            # Check if we are blocked by the gate at (9,5)
-            if pos_before['x'] == 10 and pos_before['y'] == 5 and direction == "Left":
-                print("BLOCKED at (10, 5) going Left! The gate at (9, 5) is CLOSED (State A).")
-                sys.exit(1)
+            time.sleep(0.1)
+            pos_now = get_pos()
+            if pos_now == pos_before:
+                # We are definitely blocked/in battle!
+                # Check if we are blocked at (10, 5) going Left
+                if pos_before['x'] == 10 and pos_before['y'] == 5 and direction == "Left":
+                    print("BLOCKED at (10, 5) going Left! Gate at (9, 5) is CLOSED (State A).")
+                    sys.exit(1)
                 
-            # Otherwise, it must be a wild encounter!
-            run_from_battle()
+                # Otherwise, handle wild battle
+                run_from_battle()
         else:
             print(f"Stepped {direction} to {pos_after}")
             
         steps += 1
-    print("Failed to reach target in max steps.")
+    print("Failed to reach target.")
     return False
 
-# Start of the script
 print("Starting get_secret_key_now.py...")
 print("Initial Position:", get_pos())
 
-# Step 1: Walk to (18, 5)
-if not walk_to(18, 5):
-    print("Failed to walk to (18, 5)")
+# Step 1: Walk to (10, 6)
+if not walk_to(10, 6):
     sys.exit(1)
 
-# Step 2: Walk to (1, 5)
+# Step 2: Walk to (10, 5)
+if not walk_to(10, 5):
+    sys.exit(1)
+
+# Step 3: Walk Left to (9, 5)
+pos_before, pos_after = walk_step("Left")
+if pos_before == pos_after:
+    print("BLOCKED at (10, 5) going Left! Gate at (9, 5) is CLOSED.")
+    sys.exit(1)
+else:
+    print("SUCCESS! Stepped Left to", pos_after)
+
+# Step 4: Walk to (1, 5)
 if not walk_to(1, 5):
-    print("Failed to walk to (1, 5)")
     sys.exit(1)
 
-# Step 3: Retrieve Secret Key at (1, 4)
+# Step 5: Face Up to retrieve key
 print("Arrived at (1, 5)! Facing UP to retrieve Secret Key at (1, 4)...")
-mgba.press_buttons(["Up", "sleep 200"]) # Face Up
-mgba.press_buttons(["A", "sleep 800"]) # Interacter with the key item ball
-# Let's wait and see if we get dialogue
+mgba.press_buttons(["Up", "sleep 200"])
+mgba.press_buttons(["A", "sleep 800"])
 screenshot_path = mgba.take_screenshot()
-print("Took screenshot of key retrieval dialog:", screenshot_path)
+print("Took screenshot:", screenshot_path)
 
-# Clear any text boxes
+# Clear dialogue
 mgba.press_buttons(["A", "sleep 800"])
 mgba.press_buttons(["A", "sleep 800"])
 mgba.press_buttons(["B", "sleep 500"])
+print("Key retrieved. Current Position:", get_pos())
 
-print("Key retrieval steps completed. Let's verify our position.")
-print("Position after key retrieval:", get_pos())
+# Step 6: Escape via DIG
+print("Escaping via DIG...")
+mgba.press_buttons(["Start", "sleep 300"])
+mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
+for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
+    mgba.press_buttons(["Down", "sleep 150"])
+mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
+mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
+time.sleep(3.0)
+
+print("Final position Cinnabar Island:", get_pos())
+sc = mgba.take_screenshot()
+print("Final Screenshot:", sc)
