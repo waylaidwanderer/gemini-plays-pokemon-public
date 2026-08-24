@@ -1,6 +1,7 @@
 import mgba
 import time
 import sys
+import os
 
 def get_pos():
     return mgba.get_coordinates()
@@ -19,7 +20,7 @@ def walk_step_robust(direction):
     global button_count
     pos_before = mgba.get_coordinates()
     
-    if button_count > 45:
+    if button_count > 60:
         print("Button limit reached. Exiting.")
         sys.exit(0)
         
@@ -38,7 +39,7 @@ def walk_step_robust(direction):
         while pos_before == pos_after and attempts < 4:
             print(f"Blocked at {pos_before} attempting {direction}. Retrying...")
             time.sleep(0.4)
-            if button_count > 45:
+            if button_count > 60:
                 print("Button limit reached! Exiting.")
                 sys.exit(0)
             mgba.press_buttons([direction, "sleep 180"])
@@ -53,7 +54,7 @@ def walk_step_robust(direction):
 
 def walk_to(target_x, target_y):
     print(f"Walking to: ({target_x}, {target_y})")
-    max_steps = 20
+    max_steps = 30
     steps = 0
     while steps < max_steps:
         pos = mgba.get_coordinates()
@@ -76,25 +77,18 @@ def walk_to(target_x, target_y):
 start_pos = get_pos()
 print("Starting position:", start_pos)
 
-# 1. Walk from (1, 11) to (1, 12)
-walk_to(1, 12)
-
-# 2. Walk to (2, 12)
+# 1. Walk from (6, 10) to (2, 12) via Row 11/12
+walk_to(6, 11)
+walk_to(5, 11)
+walk_to(5, 12)
 walk_to(2, 12)
 
-# Verify position is (2, 12)
-pos = get_pos()
-if pos['x'] != 2 or pos['y'] != 12:
-    print("Failed to reach (2, 12). Current position:", pos)
-    sys.exit(0)
-
-# 3. Face UP
+# Ensure facing UP
 print("Facing UP...")
-mgba.press_buttons(["Up", "sleep 200"])
-button_count += 1
+walk_step_robust("Up")
 
-# 4. Toggle the switch to State B
-print("4. Toggling Mewtwo switch...")
+# 2. Toggle the switch to State B
+print("Toggling Mewtwo switch...")
 mgba.press_buttons(["A", "sleep 600"])
 mgba.press_buttons(["A", "sleep 600"])
 for _ in range(3):
@@ -102,12 +96,16 @@ for _ in range(3):
 time.sleep(1.0)
 button_count += 5
 
-# 5. Walk back to (1, 12)
+# 3. Walk to (6, 11) via Row 13 / Column 5 to avoid closed Row 12 gates
 walk_to(1, 12)
+walk_to(1, 13)
+walk_to(5, 13)
+walk_to(5, 11)
+walk_to(6, 11)
 
-# 6. Walk UP Column 1 to Row 6 (1, 6)
-walk_to(1, 6)
+# 4. Walk UP Column 6 to (6, 8) (should now be open in State B!)
+walk_to(6, 8)
 
-print("Reached (1, 6)? Position:", get_pos())
+print("Final position reached:", get_pos())
 sc = mgba.take_screenshot()
 print("Screenshot:", sc)
