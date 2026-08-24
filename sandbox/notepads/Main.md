@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (20, 14) -> Navigating plateau stairs to reach northern lawn on route to Area 2 (North).
+- Location: Safari Zone Area 1 (East) at (8, 7) -> Navigating west along northern lawn (row 7) towards Area 2 (North) exit.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
