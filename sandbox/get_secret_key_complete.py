@@ -1,132 +1,144 @@
 import mgba
+import sys
 import time
 
 def get_pos():
     return mgba.get_coordinates()
 
 def run_from_battle():
-    print("In battle! Running...")
+    print("Wild battle detected! Waiting for battle menu to load...")
+    time.sleep(2.0) # Wait 2 seconds for battle intro to finish
+    # Dismiss any text
+    for _ in range(3):
+        mgba.press_buttons(["B", "sleep 150"])
+    print("Sending escape inputs...")
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    # Clear "Got away safely!"
     for _ in range(5):
-        mgba.press_buttons(["B", "sleep 100"])
-    mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A", "sleep 500"])
-    for _ in range(4):
-        mgba.press_buttons(["B", "sleep 100"])
+        mgba.press_buttons(["B", "sleep 150"])
+    print("Escape sequence complete.")
 
 def walk_step(direction):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction, "sleep 150"])
-    pos_after = mgba.get_coordinates()
-    
-    if pos_before == pos_after:
-        mgba.press_buttons([direction, "sleep 150"])
-        pos_after = mgba.get_coordinates()
-        
-        attempts = 0
-        while pos_before == pos_after and attempts < 5:
-            run_from_battle()
-            mgba.press_buttons([direction, "sleep 150"])
-            pos_after = mgba.get_coordinates()
-            attempts += 1
-    return pos_after
+    pos_before = get_pos()
+    mgba.press_buttons([direction, "sleep 200"])
+    pos_after = get_pos()
+    return pos_before, pos_after
 
 def walk_to(target_x, target_y):
-    print(f"Walking to: ({target_x}, {target_y})")
+    print(f"Walking to ({target_x}, {target_y})...")
     max_steps = 100
     steps = 0
     while steps < max_steps:
-        pos = mgba.get_coordinates()
+        pos = get_pos()
         x, y = pos['x'], pos['y']
         if x == target_x and y == target_y:
+            print(f"Arrived at ({target_x}, {target_y})!")
             return True
             
         if x < target_x:
-            walk_step("Right")
+            direction = "Right"
         elif x > target_x:
-            walk_step("Left")
+            direction = "Left"
         elif y < target_y:
-            walk_step("Down")
+            direction = "Down"
         elif y > target_y:
-            walk_step("Up")
+            direction = "Up"
+            
+        pos_before, pos_after = walk_step(direction)
+        
+        if pos_before == pos_after:
+            time.sleep(0.1)
+            pos_now = get_pos()
+            if pos_now == pos_before:
+                # We are definitely blocked/in battle!
+                run_from_battle()
+        else:
+            print(f"Stepped {direction} to {pos_after}")
+            
         steps += 1
+    print("Failed to reach target.")
     return False
 
 # Starting outside on Cinnabar Island at (11, 12)
 print("PHASE 1: Entering the Mansion...")
-walk_to(18, 12)
-walk_to(18, 5)
-walk_to(6, 5)
-walk_to(6, 3)
-mgba.press_buttons(["Up", "sleep 400"]) # Enter Mansion
-time.sleep(1.5)
-print("Inside Mansion 1F West:", get_pos())
+if not walk_to(18, 12): sys.exit(1)
+if not walk_to(18, 5): sys.exit(1)
+if not walk_to(6, 5): sys.exit(1)
+if not walk_to(6, 3): sys.exit(1)
+print("Stepping UP to enter Mansion...")
+mgba.press_buttons(["Up", "sleep 1200"])
+print("Position after entering (should be 1F West around 5, 27):", get_pos())
 
 # Navigate 1F West to 2F West (State A)
 print("PHASE 2: Warp UP to 2F West...")
-walk_to(5, 11)
-walk_to(8, 11)
-walk_to(8, 10)
-walk_to(5, 10)
-mgba.press_buttons(["Left", "sleep 400"]) # Warp UP
-time.sleep(1.5)
+if not walk_to(5, 11): sys.exit(1)
+if not walk_to(8, 11): sys.exit(1)
+if not walk_to(8, 10): sys.exit(1)
+if not walk_to(5, 10): sys.exit(1)
+print("Stepping Left to warp to 2F West...")
+mgba.press_buttons(["Left", "sleep 1200"])
 print("Position on 2F West:", get_pos())
 
 # Navigate 2F West to 3F West (State A)
 print("PHASE 3: Warp UP to 3F West...")
-walk_to(7, 11)
-mgba.press_buttons(["Up", "sleep 400"]) # Warp UP
-time.sleep(1.5)
+if not walk_to(7, 11): sys.exit(1)
+print("Stepping UP to warp to 3F West...")
+mgba.press_buttons(["Up", "sleep 1200"])
 print("Position on 3F West:", get_pos())
 
 # Toggle Mewtwo Statue Switch at (2, 11) to State B
 print("PHASE 4: Toggling switch to State B...")
-walk_to(3, 11)
-walk_to(3, 13)
-walk_to(1, 13)
-walk_to(1, 11)
-mgba.press_buttons(["Right", "sleep 200", "A", "sleep 500", "B", "sleep 200"])
-print("State B activated!")
+if not walk_to(3, 11): sys.exit(1)
+if not walk_to(3, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
+print("Facing Right towards (2, 11) and interacting...")
+mgba.press_buttons(["Right", "sleep 250", "A", "sleep 800", "A", "sleep 800", "A", "sleep 500", "B", "sleep 300"])
+print("State B activated! Current Position:", get_pos())
 
 # Cross 3F West to 3F East via Row 9 and walk to pitfall
 print("PHASE 5: Walking to 3F East pitfall at (26, 6)...")
-walk_to(1, 9)
-walk_to(12, 9)
-walk_to(12, 6)
-walk_to(26, 6)
-print("Should have dropped! Waiting 2 seconds...")
+if not walk_to(1, 9): sys.exit(1)
+if not walk_to(12, 9): sys.exit(1)
+if not walk_to(12, 6): sys.exit(1)
+if not walk_to(26, 6): sys.exit(1)
+print("Dropped! Waiting 2.0 seconds...")
 time.sleep(2.0)
 print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
 # Walk to B1F stairs on 1F East via Row 3 and warp DOWN
 print("PHASE 6: Walking to B1F stairs...")
-walk_to(26, 3)
-walk_to(21, 3)
-walk_to(21, 2)
-walk_to(22, 2)
+if not walk_to(26, 3): sys.exit(1)
+if not walk_to(21, 3): sys.exit(1)
+if not walk_to(21, 2): sys.exit(1)
+if not walk_to(22, 2): sys.exit(1)
 print("Stepping UP to warp DOWN to B1F...")
-mgba.press_buttons(["Up", "sleep 400"])
-time.sleep(2.0)
+mgba.press_buttons(["Up", "sleep 1200"])
 print("Position on B1F East:", get_pos())
 
-# Walk along B1F to Secret Key room at (1, 5)
-print("PHASE 7: Crossing B1F Row 5 to Secret Key...")
-walk_to(19, 5)
-walk_to(1, 5)
+# Walk along B1F to Secret Key room at (1, 5) bypassing the Row 5 Column 17/18 wall
+print("PHASE 7: Crossing B1F Row 6/5 to Secret Key...")
+if not walk_to(18, 6): sys.exit(1)
+if not walk_to(10, 6): sys.exit(1)
+if not walk_to(10, 5): sys.exit(1)
+if not walk_to(1, 5): sys.exit(1)
 
 # Retrieve Secret Key at (1, 4)
 print("PHASE 8: Picking up the Secret Key at (1, 4)...")
-mgba.press_buttons(["Up", "sleep 300"])
-mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
-mgba.press_buttons(["A", "sleep 500", "B", "sleep 500"])
+mgba.press_buttons(["Up", "sleep 250"])
+mgba.press_buttons(["A", "sleep 800"]) # Obtained dialogue
+mgba.press_buttons(["A", "sleep 800"]) # Clear dialogue
+mgba.press_buttons(["B", "sleep 400"]) # Safeguard close
 print("Secret Key retrieved! Current position:", get_pos())
 
 # DIG out back to Cinnabar Island
 print("PHASE 9: Escaping via DIG...")
-mgba.press_buttons(["Start", "sleep 300"])
-mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
+mgba.press_buttons(["Start", "sleep 400"])
+mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
-    mgba.press_buttons(["Down", "sleep 150"])
-mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
-mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
+    mgba.press_buttons(["Down", "sleep 180"])
+mgba.press_buttons(["A", "sleep 600"]) # Select TRUFFLE
+mgba.press_buttons(["A", "sleep 1500"]) # Select DIG
 time.sleep(3.0)
 
 print("SUCCESS! Final position Cinnabar Island:", get_pos())
