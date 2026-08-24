@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Celadon Pok�mon Center (13, 4) -> PC terminal, withdrawing Bicycle; preparing to awaken Snorlax
+- Location: Route 16 (27, 10) -> Awakened Sleeping Snorlax with Poké Flute; initiating battle to clear Cycling Road
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
