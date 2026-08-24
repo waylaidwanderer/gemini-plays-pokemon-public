@@ -22,7 +22,7 @@
 - Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 19-26).
 - Northern Plateau Descent Stairs: (26, 10) leading down onto northern lawn (rows 8-10).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
-- Northwest Exit to Area 2 (North): Accessible via northern lawn heading west across rows 8-9 towards col 0.
+- Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via northern lawn bypass (cols 6-7, row 5) [Verified Turn 15609].
 - Upper Ridge Descent Stairs: (17, 7) leading down onto eastern lawn (rows 1-8, cols 20-23).
 - Northern Boundary Opening (Hypothesis): Visual opening at (20..21, 0) accessible via eastern lawn (rows 1-8, cols 20-23).
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier.
