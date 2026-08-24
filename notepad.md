@@ -1292,7 +1292,7 @@
   - 5F (Drugstore): Left Clerk (Battle Items); Right Clerk (Vitamins: HP Up, Protein, Iron, Carbos, Calcium).
   - Roof (Rooftop Square): Vending Machines (Fresh Water ¥200, Soda Pop ¥300, Lemonade ¥350). Thirsty Girl trades drinks for TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack).
 - **Celadon Mansion**: Front Door at (24, 9); Rear Door at (24, 4) accessed via Northern Alleyway. Rooftop Penthouse gave EEVEE (PRISM) at (4, 3).
-- **Game Corner & Rocket Hideout**: Front Door at (28, 19). Switch behind poster at (9, 4) revealed hidden stairs to Rocket Hideout B1F-B4F (Giovanni defeated, Silph Scope obtained).
+- **Game Corner & Rocket Hideout**: Front Door at (28, 19). Switch behind poster at (9, 4) revealed hidden stairs to Rocket Hideout B1F-B4F (Giovanni defeated; Silph Scope item ball dropped at (25, 2) on B4F).
 - **Celadon Pokémon Center**: Front Door at (41, 9) / local (3, 7). PC terminal at (13, 3..4).
 - **Celadon Gym**: Located at (12, 27) accessed via Cut bush at (35, 32) and southern grass boulevard (row 34). Leader Erika defeated (Rainbow Badge & TM21 Mega Drain).
 - **Celadon Hotel**: Front Door at (10, 21) flanked by canals.
@@ -1301,7 +1301,6 @@
 1. **Northern Alleyway (rows 2-3, cols 0-48)**: Direct open bypass connecting Route 16 at (0, 2), Dept Store (13, 3), Mansion rear (24, 4), and Eastern lawn (45..48, 1..2).
 2. **Central Highway (row 10, cols 14-49)**: Paved road connecting Pokémon Center (col 41) and Route 7 (col 49).
 3. **Southern Boulevard (rows 18 & 22-23, cols 0-41)**: Paved thoroughfare connecting Route 16 (0, 18), Game Corner (28, 19), and Gym approach at (35, 32).
-
 
 <hr>
 
