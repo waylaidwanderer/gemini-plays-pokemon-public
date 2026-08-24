@@ -7,7 +7,7 @@
    - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 46 (HP: 0/46) [Fainted in Cue Ball battle Turn 15410; revive at Fuchsia Center], Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Cut utility & reserve grass attacker (Slot 2)
