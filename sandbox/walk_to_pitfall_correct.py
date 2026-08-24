@@ -23,7 +23,7 @@ def walk_step_robust(direction):
     pos_before = mgba.get_coordinates()
     
     if button_count > 60:
-        print("Button count near limit! Exiting script to prevent abort.")
+        print("Button count limit reached. Exiting script to prevent abort.")
         sys.exit(0)
         
     mgba.press_buttons([direction, "sleep 180"])
@@ -79,32 +79,16 @@ def walk_to(target_x, target_y):
 start_pos = get_pos()
 print("Starting position:", start_pos)
 
-# 1. Walk from (7, 8) to (6, 8)
-print("1. Walking to (6, 8)...")
-walk_to(6, 8)
+# 1. Walk from (2, 12) to (1, 12)
+print("1. Walking to (1, 12)...")
+walk_to(1, 12)
 
-# 2. Walk to (6, 11)
-print("2. Walking to (6, 11)...")
-walk_to(6, 11)
-
-# 3. Walk to (5, 11)
-print("3. Walking to (5, 11)...")
-walk_to(5, 11)
-
-# 4. Walk to (5, 13)
-print("4. Walking to (5, 13)...")
-walk_to(5, 13)
-
-# 5. Walk to (1, 13)
-print("5. Walking to (1, 13)...")
-walk_to(1, 13)
-
-# 6. Walk UP Column 1 to Row 6 (1, 6)
-print("6. Walking UP Column 1 to (1, 6)...")
+# 2. Walk UP Column 1 to Row 6 (1, 6)
+print("2. Walking UP Column 1 to (1, 6)...")
 walk_to(1, 6)
 
-# 7. Walk Right along Row 6 to 3F East pitfall at (26, 6)
-print("7. Walking horizontally along Row 6 to pitfall at (26, 6)...")
+# 3. Walk Right along Row 6 to 3F East pitfall at (26, 6)
+print("3. Walking horizontally along Row 6 to pitfall at (26, 6)...")
 walk_to(26, 6)
 
 # Wait for falling animation to finish
