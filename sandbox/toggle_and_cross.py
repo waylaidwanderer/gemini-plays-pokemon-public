@@ -62,7 +62,7 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting at (1, 11) on 3F West
+# Starting at (1, 10) on 3F West
 print("Starting toggle_and_cross.py...")
 print("Initial Position:", get_pos())
 
@@ -72,7 +72,7 @@ if not walk_to(2, 12): sys.exit(1)
 
 # Step 2: Face UP and toggle Mewtwo Statue Switch to State B
 print("Facing UP and toggling Mewtwo switch at (2, 11) to State B...")
-mgba.press_buttons(["Up", "sleep 300"])
+mgba.press_buttons(["Up", "sleep 450"])
 mgba.press_buttons(["A", "sleep 1000"]) # A secret switch!
 mgba.press_buttons(["A", "sleep 1000"]) # Press it?
 mgba.press_buttons(["A", "sleep 1000"]) # Who wouldn't? / YES
