@@ -13,39 +13,17 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (2, 13) on 2F West in State A
+# Starting at (14, 3) on 2F West in State A
 steps = [
-    ("Right", {"x": 3, "y": 13}),
-    ("Right", {"x": 4, "y": 13}),
-    ("Right", {"x": 5, "y": 13}),
-    ("Up", {"x": 5, "y": 12}),
-    ("Up", {"x": 5, "y": 11}),
-    ("Up", {"x": 5, "y": 10}),
-    ("Right", {"x": 6, "y": 10}),
-    ("Right", {"x": 7, "y": 10}),
-    ("Right", {"x": 8, "y": 10}),
-    ("Right", {"x": 9, "y": 10}),
-    ("Right", {"x": 10, "y": 10}),
-    ("Up", {"x": 10, "y": 9}),
-    ("Up", {"x": 10, "y": 8}),  # Open in State A!
-    ("Up", {"x": 10, "y": 7}),
-    ("Up", {"x": 10, "y": 6}),
-    ("Up", {"x": 10, "y": 5}),
-    ("Up", {"x": 10, "y": 4}),
-    ("Up", {"x": 10, "y": 3}),
-    # Cross Row 3 to 2F East
-    ("Right", {"x": 11, "y": 3}),
-    ("Right", {"x": 12, "y": 3}),
-    ("Right", {"x": 13, "y": 3}),
-    ("Right", {"x": 14, "y": 3}),
-    ("Right", {"x": 15, "y": 3}),
-    ("Right", {"x": 16, "y": 3}),
-    ("Right", {"x": 17, "y": 3}),
-    ("Right", {"x": 18, "y": 3}),
+    ("Down", {"x": 14, "y": 4}),
+    ("Down", {"x": 14, "y": 5}),
+    ("Down", {"x": 14, "y": 6}),
+    # Cross Column 15 on Row 6
+    ("Right", {"x": 15, "y": 6}),
+    ("Right", {"x": 16, "y": 6}),
+    ("Right", {"x": 17, "y": 6}),
+    ("Right", {"x": 18, "y": 6}),
     # Walk DOWN Column 18 to Row 10
-    ("Down", {"x": 18, "y": 4}),
-    ("Down", {"x": 18, "y": 5}),
-    ("Down", {"x": 18, "y": 6}),
     ("Down", {"x": 18, "y": 7}),
     ("Down", {"x": 18, "y": 8}),
     ("Down", {"x": 18, "y": 9}),
