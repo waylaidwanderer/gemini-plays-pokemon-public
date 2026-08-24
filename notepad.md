@@ -1754,6 +1754,5 @@
 - **Area 1 (East)**: Connects Center to Area 2 (North).
 - **Area 2 (North)**: Connects Area 1 / Center to Area 3 (West).
 - **Area 3 (West)**: Contains Gold Teeth and Secret House (HM03 Surf).
-- **Current Run (Turn 15535)**: Entered Safari Zone Center at (15, 24). 30 Safari Balls equipped, 500 steps available. Moving east towards Area 1 (East) boundary.
 
 <hr>
