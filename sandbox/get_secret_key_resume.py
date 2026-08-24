@@ -59,14 +59,13 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-# Starting inside 3F West at (5, 13)
-print("Starting get_secret_key_resume.py from inside Mansion 3F at (5, 13)...")
+# Starting inside 3F West at (2, 13)
+print("Starting get_secret_key_resume.py from inside Mansion 3F at (2, 13)...")
 print("Initial Position:", get_pos())
 
 # Toggle Mewtwo Statue Switch at (2, 11) to State B
 print("PHASE 1: Toggling switch to State B...")
-if not walk_to(3, 13): sys.exit(1)
-if not walk_to(3, 11): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
 if not walk_to(1, 11): sys.exit(1)
 print("Facing Right towards (2, 11) and interacting...")
 mgba.press_buttons(["Right", "sleep 250", "A", "sleep 800", "A", "sleep 800", "A", "sleep 500", "B", "sleep 300"])
