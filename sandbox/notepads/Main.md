@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 8-7 Underground Tunnel (2, 2) [Bicycle Mounted] -> Stairs at (2, 5) -> Route 7 -> Celadon City (Silph Scope)
+- Location: Route 7 Underground Building (4, 4) -> Exiting south to Route 7 (12, 4) -> Riding west to Celadon City -> Rocket Hideout B4F (Silph Scope)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
