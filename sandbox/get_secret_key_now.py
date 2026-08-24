@@ -53,10 +53,8 @@ print("Starting from:", get_pos())
 
 # Phase 3: Walk to B1F West Secret Key room bypassing Row 5 Column 20-21 barrier
 print("Walking to B1F West Secret Key room...")
-if not walk_to(21, 3): sys.exit(1)
-if not walk_to(21, 6): sys.exit(1)
-if not walk_to(18, 6): sys.exit(1)
-if not walk_to(18, 5): sys.exit(1)
+if not walk_to(19, 4): sys.exit(1)
+if not walk_to(19, 5): sys.exit(1)
 if not walk_to(1, 5): sys.exit(1)
 
 print("Facing UP...")
