@@ -1,41 +1,97 @@
 import mgba
+import sys
 import time
-from PIL import Image
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Starting at (5, 10) on 3F West
-print("Starting position:", get_pos())
+def run_from_battle():
+    print("Wild battle detected! Waiting 4.5 seconds for intro...")
+    time.sleep(4.5)
+    # Dismiss "Wild XXX appeared!" text
+    print("Dismissing text...")
+    mgba.press_buttons(["B", "sleep 350", "B", "sleep 350", "B", "sleep 350"])
+    time.sleep(0.5)
+    # Now we are definitely at the battle menu. Send RUN selection.
+    print("Selecting RUN...")
+    mgba.press_buttons(["Down", "sleep 350", "Right", "sleep 350", "A", "sleep 1800"])
+    # Clear "Got away safely!"
+    print("Clearing escape text...")
+    mgba.press_buttons(["B", "sleep 350", "B", "sleep 350", "B", "sleep 350"])
+    time.sleep(1.0)
+    print("Escape sequence complete.")
 
-# 1. Walk Left to (2, 12)
-# (5, 10) -> (5, 11) -> (5, 12) -> (2, 12)
-mgba.press_buttons(["Down", "sleep 150", "Down", "sleep 150"])
-mgba.press_buttons(["Left", "sleep 150", "Left", "sleep 150", "Left", "sleep 150"])
-# Turn UP to face statue
-mgba.press_buttons(["Up", "sleep 200"])
-print("Position 1 (should be 2, 12 facing UP):", get_pos())
+def walk_step(direction):
+    pos_before = get_pos()
+    mgba.press_buttons([direction, "sleep 450"])
+    pos_after = get_pos()
+    return pos_before, pos_after
 
-# Take screenshot BEFORE toggle
-sc_before = mgba.take_screenshot()
-print("Screenshot BEFORE toggle:", sc_before)
+def walk_to(target_x, target_y):
+    print(f"Walking to ({target_x}, {target_y})...")
+    max_steps = 100
+    steps = 0
+    while steps < max_steps:
+        pos = get_pos()
+        x, y = pos['x'], pos['y']
+        if x == target_x and y == target_y:
+            print(f"Arrived at ({target_x}, {target_y})!")
+            return True
+            
+        if x < target_x:
+            direction = "Right"
+        elif x > target_x:
+            direction = "Left"
+        elif y < target_y:
+            direction = "Down"
+        elif y > target_y:
+            direction = "Up"
+            
+        pos_before, pos_after = walk_step(direction)
+        
+        if pos_before == pos_after:
+            time.sleep(0.3)
+            pos_now = get_pos()
+            if pos_now == pos_before:
+                # We are definitely blocked/in battle!
+                run_from_battle()
+        else:
+            print(f"Stepped {direction} to {pos_after}")
+            
+        steps += 1
+    print("Failed to reach target.")
+    return False
 
-# 2. Talk to the statue and select YES
-mgba.press_buttons(["A", "sleep 800"]) # "A secret switch!"
-mgba.press_buttons(["A", "sleep 800"]) # "Press it?" -> YES
-mgba.press_buttons(["A", "sleep 500"]) # "Who wouldn't?" -> close
+# Starting at current position on 3F West
+print("Starting toggle_and_test_3f.py...")
+print("Initial Position:", get_pos())
 
-# Take screenshot AFTER toggle
-sc_after = mgba.take_screenshot()
-print("Screenshot AFTER toggle:", sc_after)
+# Step 1: Walk to (1, 11)
+if not walk_to(5, 10): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
 
-# Let's crop the Row 9 gate area in both screenshots and compare them
-img_b = Image.open(sc_before)
-img_a = Image.open(sc_after)
+# Step 2: Toggle Mewtwo Statue Switch
+print("Toggling Mewtwo statue switch...")
+mgba.press_buttons(["Right", "sleep 300"])
+mgba.press_buttons(["A", "sleep 850"])  # A secret switch!
+mgba.press_buttons(["A", "sleep 850"])  # Press it?
+mgba.press_buttons(["A", "sleep 850"])  # Who wouldn't? / YES
+mgba.press_buttons(["B", "sleep 500"])  # Clear dialog
+print("Toggled switch! Position:", get_pos())
 
-# Crop Row 9 gate area (e.g. columns 1 to 6 on Row 9)
-# Let's save them as 6_7_before.png and 6_7_after.png to Sandboxed screenshots
-img_b.crop((0, 0, 160, 144)).save("screenshots/cropped/6_7_before.png")
-img_a.crop((0, 0, 160, 144)).save("screenshots/cropped/6_7_after.png")
+# Step 3: Walk to (6, 10)
+print("Walking to (6, 10)...")
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(5, 10): sys.exit(1)
+if not walk_to(6, 10): sys.exit(1)
 
-print("Saved before/after crops!")
+# Step 4: Test walk Up to (6, 9)
+print("Testing walk Up to (6, 9)...")
+pos_before, pos_after = walk_step("Up")
+if pos_before != pos_after:
+    print(f"SUCCESS! Walked Up to {pos_after}. Gate at (6, 9) is OPEN!")
+else:
+    print(f"FAILED! Stuck at {pos_before}. Gate at (6, 9) is CLOSED!")
