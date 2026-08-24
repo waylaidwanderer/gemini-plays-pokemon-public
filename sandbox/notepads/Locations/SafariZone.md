@@ -29,3 +29,8 @@
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
 - South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
+## Verified Direct 39-Step Superhighway to Area 3 (West)
+1. Enter Safari Zone Center (Area 0) at (14, 25).
+2. Walk straight North along col 14 to (14, 0) -> enters Area 2 (North) at (14, 36). (25 steps)
+3. In Area 2 (North), walk straight West along row 36 to (0, 36) -> enters Area 3 (West)! (14 steps)
+Total steps from Entrance to Area 3: ~39 steps (leaving ~461 steps budget for Area 3!).

@@ -12,7 +12,7 @@
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Cut utility & reserve grass attacker (Slot 2)
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 11/54) [Damaged in Lass battle Turn 15219; resting in reserve]
+   - Stats: Max HP 54 (HP: 54/54) [Healed with Super Potion Turn 15708]
    - Type: Fighting
    - Moves: Karate Chop (22/25), Low Kick
    - Role: Physical Fighting attacker (Reserve)
@@ -44,7 +44,7 @@
 ## Inventory & Resources (Verified Turn 15241)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Bag Capacity: 16 / 20 slots used (4 empty slots available)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461]
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥28,428+
 

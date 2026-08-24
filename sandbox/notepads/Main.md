@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Center (Area 0) at (20, 0) [Turn 15718]; traversing west across Center Area directly into Area 3 (West) for HM03 Surf & Gold Teeth (~385 steps remaining).
+- Location: Safari Zone Gatehouse [Turn 15721]; re-entering with full 500 steps to execute the direct 39-step superhighway (Center 14,0 -> Area 2 14,36 -> Area 3 0,36) to retrieve HM03 Surf and Gold Teeth with ~460 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
