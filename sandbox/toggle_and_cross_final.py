@@ -66,12 +66,12 @@ def walk_to(target_x, target_y):
 print("Starting toggle_and_cross_final.py...")
 print("Initial Position:", get_pos())
 
-# Step 1: Toggle Mewtwo Statue Switch to State B
+# Step 1: Toggle Mewtwo Statue Switch to State B (1.8s sleeps)
 print("Toggling Mewtwo statue switch at (2, 11) to State B...")
-mgba.press_buttons(["A", "sleep 1000"]) # A secret switch!
-mgba.press_buttons(["A", "sleep 1000"]) # Press it?
-mgba.press_buttons(["A", "sleep 1000"]) # Who wouldn't? / YES
-mgba.press_buttons(["B", "sleep 800"])  # Clear dialog
+mgba.press_buttons(["A", "sleep 1800"]) # A secret switch! Press it?
+mgba.press_buttons(["A", "sleep 1800"]) # select YES -> Who wouldn't?
+mgba.press_buttons(["A", "sleep 1800"]) # dismiss
+mgba.press_buttons(["B", "sleep 1000"]) # clear dialog
 print("Toggled switch! Position:", get_pos())
 
 # Step 2: Walk to (1, 12)
