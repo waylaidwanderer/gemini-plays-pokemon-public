@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 3F (15, 13) -> Ascending 4F stairs at (18, 9)
+- Location: Pokémon Tower 4F (18, 9) -> Walking west across northern corridor to 5F stairs (3, 9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
