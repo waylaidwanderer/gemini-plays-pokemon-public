@@ -8,7 +8,7 @@
 - **Southern Thoroughfare (rows 10-11, cols 27-39)**:
   - Wide paved road connecting Celadon City to the Route 16 Gatehouse.
   - Signpost at (27, 11).
-  - Sleeping Snorlax blocking Cycling Road at (26, 10).
+  - Sleeping Snorlax at (26, 10) [Awakened with Poké Flute & Defeated Turn 15395; Cycling Road open!]
 - **Northern Cut Bypass & Obstacle**:
   - Cut bush located at `(34, 9)` [Clearing allows entry to northern corridor].
   - Note: Cut bush respawns on map reload/transitions.

@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (27, 10) -> Awakened Sleeping Snorlax with Poké Flute; initiating battle to clear Cycling Road
+- Location: Route 16 (27, 10) -> Snorlax defeated! Entering Gatehouse (24, 10) to ride Cycling Road to Fuchsia City
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
