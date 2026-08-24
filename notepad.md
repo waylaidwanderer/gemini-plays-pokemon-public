@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Volunteer Pokémon House (7, 3) -> Walking to Mr. Fuji at (0, 1) for Poké Flute
+- Location: Lavender Volunteer Pokémon House (3, 2) -> Obtained Poké Flute! Exiting to Route 8 / Route 10 to catch Flyer
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -86,12 +86,12 @@
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 
-## Inventory & Resources (Verified Turn 14975)
+## Inventory & Resources (Verified Turn 15011)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Bag Capacity: 14 / 20 slots used (6 empty slots available for Poké Flute, etc.)
-- Active Bag Items: Great Ball x1, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926]
+- Bag Capacity: 15 / 20 slots used (5 empty slots available)
+- Active Bag Items: Great Ball x1, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, Bicycle, S.S. Ticket
-- Party Slot 6: OPEN (Reserved for wild flyer)
+- Party Slot 6: OPEN (Reserved for wild flyer ZEPHYR)
 - Funds: ¥28,428+
 
 ## Flying-Type Party Slot Allocation & Capture Plan
@@ -180,7 +180,7 @@
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [x] Ascend Pokémon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F & Team Rocket on 7F) [Turn 14998-15001]
-- [ ] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House
+- [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]
 
 <hr>
 
