@@ -21,7 +21,7 @@ def walk_step(direction):
 
 def walk_to(target_x, target_y):
     print(f"Walking to ({target_x}, {target_y})...")
-    max_steps = 30
+    max_steps = 40
     steps = 0
     while steps < max_steps:
         pos = get_pos()
@@ -43,7 +43,7 @@ def walk_to(target_x, target_y):
     return False
 
 # Start from current position (1, 10) on 3F West
-print("Walking to (2, 12)...")
+print("Walking to switch at (2, 12)...")
 if not walk_to(1, 12): sys.exit(1)
 if not walk_to(2, 12): sys.exit(1)
 
@@ -52,19 +52,18 @@ print("Facing UP...")
 mgba.press_buttons(["Up", "sleep 500"])
 
 # Safe switch toggling sequence
-print("Toggling the switch with safe delays...")
-mgba.press_buttons(["A", "sleep 2000"]) # "A secret switch!"
-mgba.press_buttons(["A", "sleep 2000"]) # "Press it?" (Yes/No appears)
-mgba.press_buttons(["A", "sleep 2000"]) # Select YES -> "(click)"
-mgba.press_buttons(["A", "sleep 2000"]) # Clear "(click)" text
+print("Toggling the switch at (2, 11) facing UP...")
+mgba.press_buttons(["A", "sleep 1500"]) # "A secret switch!"
+mgba.press_buttons(["A", "sleep 1500"]) # "Press it?" (Yes/No appears)
+mgba.press_buttons(["A", "sleep 1500"]) # Select YES -> "(click)"
+mgba.press_buttons(["A", "sleep 1500"]) # Clear "(click)" text
 mgba.press_buttons(["B", "sleep 500"])  # Safety close dialogue box
 
-print("Mansion should be in State B. Current Position:", get_pos())
+print("Mansion should now be in State B. Testing Column 6 path to Row 6...")
+if not walk_to(2, 13): sys.exit(1)
+if not walk_to(6, 13): sys.exit(1)
+if not walk_to(6, 6): sys.exit(1)
 
-# Test if gate at (1, 9) is open
-print("Testing if gate at (1, 9) is open...")
-if not walk_to(1, 12): sys.exit(1)
-if not walk_to(1, 9): sys.exit(1)
-
+print("SUCCESS! Arrived at 3F West Column 6 Row 6 in State B!")
 print("Final Position:", get_pos())
 mgba.take_screenshot()
