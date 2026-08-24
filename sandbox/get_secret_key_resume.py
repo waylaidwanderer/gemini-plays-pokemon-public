@@ -42,12 +42,21 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# We are currently at (2, 12) with the text "A secret switch!" on screen.
-print("PHASE 1: Completing the switch dialogue box...")
-mgba.press_buttons(["A", "sleep 1500"]) # Advance to "Press it?"
+# Currently in battle screen with "Got away safely!" at (2, 12)
+print("PHASE 1: Clearing battle and toggling switch to State B...")
+mgba.press_buttons(["B", "sleep 2000"]) # Clear battle text, wait for overworld
+
+# Turn Up
+mgba.press_buttons(["Up", "sleep 500"])
+
+# Dialogue execution
+mgba.press_buttons(["A", "sleep 1500"]) # "A secret switch!"
+mgba.press_buttons(["A", "sleep 1500"]) # "Press it?" (Yes/No)
 mgba.press_buttons(["A", "sleep 1500"]) # Select YES
-mgba.press_buttons(["A", "sleep 1500"]) # Clear "(click)" dialogue
+mgba.press_buttons(["A", "sleep 1500"]) # Clear "(click)"
 mgba.press_buttons(["B", "sleep 500"])  # Safety close dialogue box
+
+print("Mansion should now be in State B. Current Position:", get_pos())
 
 # Walk from (2, 12) to the pitfall at (26, 6) in State B
 print("PHASE 2: Walking to 3F East pitfall...")
