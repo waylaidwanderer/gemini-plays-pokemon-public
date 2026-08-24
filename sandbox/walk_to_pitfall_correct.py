@@ -2,6 +2,21 @@ import mgba
 import time
 import os
 
+# Clean up obsolete workspace files
+obsolete_files = [
+    "walk_to_statue_2f.py",
+    "test_col9_up.py",
+    "go_to_2f_east_switch.py",
+    "mansion_2f_traverse.py"
+]
+for f in obsolete_files:
+    if os.path.exists(f):
+        try:
+            os.remove(f)
+            print(f"Deleted obsolete file: {f}")
+        except Exception as e:
+            print(f"Error deleting {f}: {e}")
+
 def walk_step(direction, expected_coords, retries=15):
     for i in range(retries):
         mgba.press_buttons([direction])
@@ -14,15 +29,12 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# 1. Walk from (6, 10) to (2, 12)
+# Starting at (1, 10) on 3F West in State A
 steps_to_switch = [
-    ("Down", {"x": 6, "y": 11}),
-    ("Down", {"x": 6, "y": 12}),
-    ("Down", {"x": 6, "y": 13}),
-    ("Left", {"x": 5, "y": 13}),
-    ("Left", {"x": 4, "y": 13}),
-    ("Left", {"x": 3, "y": 13}),
-    ("Left", {"x": 2, "y": 13}),
+    ("Down", {"x": 1, "y": 11}),
+    ("Down", {"x": 1, "y": 12}),
+    ("Down", {"x": 1, "y": 13}),
+    ("Right", {"x": 2, "y": 13}),
     ("Up", {"x": 2, "y": 12}),
 ]
 
@@ -37,13 +49,11 @@ if success:
     # Stand at (2, 12) facing UP towards statue at (2, 11) and toggle
     mgba.press_buttons(["Up"])
     time.sleep(0.3)
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A"])
+    mgba.press_buttons(["A"])   # Opens "A secret switch! Press it?"
+    time.sleep(1.0)             # Wait for text scroll
+    mgba.press_buttons(["A"])   # Selects YES and toggles
+    time.sleep(1.0)             # Wait for toggle transition
+    mgba.press_buttons(["B"])   # Safely dismisses the text box
     time.sleep(0.5)
     print("Switch toggled!")
 
@@ -54,7 +64,7 @@ if success:
         ("Up", {"x": 1, "y": 12}),
         ("Up", {"x": 1, "y": 11}),
         ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}),
+        ("Up", {"x": 1, "y": 9}),  # Now OPEN in State B!
         ("Up", {"x": 1, "y": 8}),
         ("Up", {"x": 1, "y": 7}),
         ("Up", {"x": 1, "y": 6}),
