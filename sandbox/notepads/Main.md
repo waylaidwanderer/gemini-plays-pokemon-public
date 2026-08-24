@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (16, 2) -> Navigating west along row 2 towards Area 2 (North) exit at (0, 4-5).
+- Location: Safari Zone Area 1 (East) at (8, 2) -> Exiting west through (0, 5) into Safari Zone Area 2 (North).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
