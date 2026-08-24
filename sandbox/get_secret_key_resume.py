@@ -13,93 +13,37 @@ def run_from_battle():
     for _ in range(5):
         mgba.press_buttons(["B", "sleep 150"])
 
-def walk_step(direction):
+def step(direction):
     pos_before = get_pos()
+    print(f"Stepping {direction} from {pos_before}...")
     mgba.press_buttons([direction, "sleep 450"])
     pos_after = get_pos()
-    return pos_before, pos_after
-
-def walk_to(target_x, target_y):
-    print(f"Walking to ({target_x}, {target_y})...")
-    max_steps = 40
-    steps = 0
-    while steps < max_steps:
-        pos = get_pos()
-        x, y = pos['x'], pos['y']
-        if x == target_x and y == target_y:
-            print(f"Arrived at ({target_x}, {target_y})!")
-            return True
-        if x < target_x: direction = "Right"
-        elif x > target_x: direction = "Left"
-        elif y < target_y: direction = "Down"
-        elif y > target_y: direction = "Up"
-        pos_before, pos_after = walk_step(direction)
+    if pos_before == pos_after:
+        # Try a second time (handles turning in place)
+        mgba.press_buttons([direction, "sleep 450"])
+        pos_after = get_pos()
         if pos_before == pos_after:
-            mgba.press_buttons(["sleep 150"])
-            pos_now = get_pos()
-            if pos_now == pos_before:
-                run_from_battle()
-        steps += 1
-    return False
+            print("Blocked! Checking for battle...")
+            run_from_battle()
+            # Try once more after fleeing
+            mgba.press_buttons([direction, "sleep 450"])
+            pos_after = get_pos()
+    return pos_after
 
-# Currently at (5, 11) on 2F West in State B
-print("PHASE 1: Walking to stairs (7, 11) on 2F West...")
-if not walk_to(7, 11): sys.exit(1)
+# Starting at (1, 10) on 3F West
+print("PHASE 1: Walking to the 3F East pitfall...")
+# Walk UP from (1, 10) to (1, 6) -> 4 steps
+for _ in range(4):
+    step("Up")
 
-print("PHASE 2: Warping UP to 3F West in State B...")
-mgba.press_buttons(["Up", "sleep 2500"])
-print("Position after warp:", get_pos())
+# Walk RIGHT from (1, 6) to (26, 6) -> 25 steps
+for _ in range(25):
+    step("Right")
 
-# Navigate 3F West via Column 1 to avoid warp traps on Columns 5 and 6
-print("PHASE 3: Walking to Column 1 Row 11 on 3F West...")
-if not walk_to(7, 11): sys.exit(1)
-if not walk_to(1, 11): sys.exit(1)
-
-# Cross horizontally on Row 9 to 3F East pitfall
-print("PHASE 4: Walking to 3F East pitfall at (26, 6)...")
-if not walk_to(1, 9): sys.exit(1)
-if not walk_to(12, 9): sys.exit(1)
-if not walk_to(12, 6): sys.exit(1)
-if not walk_to(26, 6): sys.exit(1)
-
-# Drop through pitfall to 1F East inside fenced room
-print("PHASE 5: Dropping through 3F pitfall to 1F East...")
-mgba.press_buttons(["Right", "sleep 2500"])
-print("Position after drop (should be 1F East fenced room):", get_pos())
-
-# Navigate to B1F stairs
-print("PHASE 6: Walking to B1F stairs...")
-if not walk_to(26, 3): sys.exit(1)
-if not walk_to(22, 3): sys.exit(1)
-if not walk_to(22, 2): sys.exit(1)
-
-print("Stepping UP to warp down to B1F East...")
-mgba.press_buttons(["Up", "sleep 2500"])
-print("Position on B1F East (should be around 22, 3):", get_pos())
-
-# Cross horizontally to Secret Key on B1F West
-print("PHASE 7: Walking to B1F West Secret Key room...")
-if not walk_to(21, 3): sys.exit(1)
-if not walk_to(21, 5): sys.exit(1)
-if not walk_to(1, 5): sys.exit(1)
-
-# Retrieve Secret Key at (1, 4)
-print("PHASE 8: Retrieving the Secret Key at (1, 4)...")
-mgba.press_buttons(["Up", "sleep 300"])
-mgba.press_buttons(["A", "sleep 1000"]) # Click item ball
-mgba.press_buttons(["A", "sleep 1000"]) # Confirm "ACE found SECRET KEY!"
-mgba.press_buttons(["A", "sleep 1000"]) # "ACE put the SECRET KEY in the KEY ITEMS pocket!"
-mgba.press_buttons(["B", "sleep 400"])  # Close potential menu
-
-print("Secret Key retrieved! Current position:", get_pos())
-
-# DIG out back to Cinnabar Island
-print("PHASE 9: Escaping via DIG...")
-mgba.press_buttons(["Start", "sleep 400"])
-mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKEMON
-for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
-    mgba.press_buttons(["Down", "sleep 180"])
-mgba.press_buttons(["A", "sleep 600"]) # Select TRUFFLE
-mgba.press_buttons(["A", "sleep 3000"]) # Select DIG
-print("SUCCESS! Final position Cinnabar Island:", get_pos())
+# Step RIGHT onto the pitfall (27, 6) to drop
+print("PHASE 2: Dropping through pitfall...")
+step("Right")
+# Wait for drop transition
+mgba.press_buttons(["sleep 2500"])
+print("Position after drop:", get_pos())
 mgba.take_screenshot()
