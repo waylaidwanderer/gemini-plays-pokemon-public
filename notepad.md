@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 4F (11, 8) -> Collecting item ball at (9, 10) -> West to 5F stairs (3, 9)
+- Location: Pokémon Tower 4F (10, 10) -> Walking west along row 11/12 to 5F stairs (3, 9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -1528,7 +1528,7 @@
 - East descending stairs at (18, 9).
 - Open horizontal traversal aisle along row 5 and row 3/4.
 - Item Ball 1 at (12, 10): Elixer [Collected Turn 14368].
-- Item Ball 2 at (9, 10): Uncollected [Pending collection after clearing Bag space at PC].
+- Item Ball 2 at (9, 10): Awakening [Collected Turn 14897].
 - Item Ball 3 at (12, 16): Uncollected [Pending collection after clearing Bag space at PC].
 - Northwest ascending stairs to 5F at (3, 9).
 
@@ -1541,7 +1541,6 @@
 ## Verification & Item Acquisition Checklist
 1. Bag capacity check (<20 items) before interacting with item balls.
 2. Confirm '[PLAYER] found [ITEM]!' dialogue on-screen before marking collected.
-
 
 <hr>
 

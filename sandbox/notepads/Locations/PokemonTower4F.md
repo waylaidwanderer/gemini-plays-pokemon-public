@@ -8,7 +8,7 @@
 - East descending stairs at (18, 9).
 - Open horizontal traversal aisle along row 5 and row 3/4.
 - Item Ball 1 at (12, 10): Elixer [Collected Turn 14368].
-- Item Ball 2 at (9, 10): Uncollected [Pending collection after clearing Bag space at PC].
+- Item Ball 2 at (9, 10): Awakening [Collected Turn 14897].
 - Item Ball 3 at (12, 16): Uncollected [Pending collection after clearing Bag space at PC].
 - Northwest ascending stairs to 5F at (3, 9).
 
