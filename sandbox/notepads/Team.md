@@ -50,3 +50,7 @@
 - Planned Nickname: ZEPHYR
 - Fly Utility: HM02 Fly in Bag ready to be taught upon capture
 - Capture Equipment: Great Ball x1 (Restock available at Lavender Pokémart for ¥600/ball)
+
+## Party Lead & Safety Protocol (Adopted Turn 15211)
+- **Overworld Traversal / Unsurveyed Corridors**: Maintain HYDROS (Blastoise Lv 50) as Lead in Slot 1 to safely handle unexpected trainer encounters.
+- **Wild Capture Farming in Verified Tall Grass**: Swap capture lead (ATLAS Machop Lv 16) to Slot 1 only after physically entering confirmed tall grass boundaries.
