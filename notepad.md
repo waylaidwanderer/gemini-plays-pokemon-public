@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 7F (10, 7) -> In battle with Rocket Grunt 3 (2/4 defeated: Zubat & Rattata fainted, Raticate Lv 23 incoming)
+- Location: Pokémon Tower 7F (10, 7) -> In battle with Rocket Grunt 3 (3/4 defeated: Zubat, Rattata, Raticate fainted; final Rattata Lv 23 incoming)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
