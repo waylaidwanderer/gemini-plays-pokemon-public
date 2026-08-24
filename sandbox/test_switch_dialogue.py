@@ -43,28 +43,22 @@ def walk_to(target_x, target_y):
     return False
 
 # Start from current position (1, 10) on 3F West
+print("Walking to (2, 12)...")
 if not walk_to(1, 12): sys.exit(1)
 if not walk_to(2, 12): sys.exit(1)
 
 # Face UP
+print("Facing UP...")
 mgba.press_buttons(["Up", "sleep 500"])
 
-# Step 1: Press A to trigger dialogue
-mgba.press_buttons(["A", "sleep 1500"])
+# Take screenshot before pressing A
+print("Taking screenshot before A...")
 mgba.take_screenshot()
 
-# Step 2: Press A to advance to "Press it?"
+# Press A once
+print("Pressing A...")
 mgba.press_buttons(["A", "sleep 1500"])
-mgba.take_screenshot()
 
-# Step 3: Press A to choose YES
-mgba.press_buttons(["A", "sleep 1500"])
-mgba.take_screenshot()
-
-# Step 4: Press A to clear click text
-mgba.press_buttons(["A", "sleep 1500"])
-mgba.take_screenshot()
-
-# Step 5: Press B to exit
-mgba.press_buttons(["B", "sleep 500"])
+# Take screenshot after A
+print("Taking screenshot after A...")
 mgba.take_screenshot()
