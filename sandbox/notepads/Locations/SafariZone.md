@@ -24,8 +24,7 @@
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
 - Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via northern lawn bypass (cols 6-7, row 5) [Verified Turn 15609].
 - Upper Ridge Descent Stairs: (17, 7) leading down onto eastern lawn (rows 1-8, cols 20-23).
-- Northern Boundary Opening (Hypothesis): Visual opening at (20..21, 0) accessible via eastern lawn (rows 1-8, cols 20-23).
-- Solid Boundaries: Column 29 is a vertical rock/hedge barrier.
+- Solid Boundaries: Column 29 is a vertical rock/hedge barrier; northern border along row 0 is solid rock/hedge barrier.
 ## Area 2 (North) Topology & Verified Landmarks
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
