@@ -29,19 +29,19 @@ def walk_step(direction):
             attempts += 1
     return pos_after
 
-# Starting at (5, 10) on 2F West
+# Starting at (8, 13) on 2F West
 print("Starting on 2F West:", get_pos())
 
-# 1. Walk Down to (5, 11)
-walk_step("Down")
-print("Position 1:", get_pos())
+# 1. Walk Left to Column 7
+walk_step("Left")
+print("Position after Left:", get_pos())
 
-# 2. Walk Right to (7, 11)
+# 2. Walk Up to Row 11
 for _ in range(2):
-    walk_step("Right")
-print("Position 2:", get_pos())
+    walk_step("Up")
+print("Position after Up to Row 11:", get_pos())
 
-# 3. Step UP onto the stairs at (7, 10) to warp UP to 3F West
+# 3. Step UP onto stairs at (7, 10) to warp UP to 3F West
 print("Stepping UP onto stairs at (7, 10)...")
 mgba.press_buttons(["Up", "sleep 600"])
 time.sleep(1.5)
