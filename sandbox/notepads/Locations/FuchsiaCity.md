@@ -13,3 +13,6 @@
 - **Fuchsia Pokémon Center**: Located in south-central sector at (18..21, 24..27) with door mat at (21, 27) [Verified exterior Turn 15447].
 - **Fuchsia Gym**: Located in southwest corner at (4..9, 22..26) [Verified exterior roof & awning Turn 15434, 15439].
 - **Safari Zone**: Located in northern sector [Objective: Retrieve HM03 Surf & Gold Teeth].
+
+- **Central House**: Located at (20..25, 12..13) with front door at (22, 13) [Discovered Turn 15490].
+- **Zoo Exhibits**: Animal pens and display barriers situated at (20..21, 15) and (24..25, 15).
