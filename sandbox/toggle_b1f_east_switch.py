@@ -45,17 +45,16 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (13, 12) on B1F East in State A
+# Starting at (16, 7) on B1F East in State A
 print("Starting B1F Switch Toggle and Retrieval:", get_pos())
 
-# 1. Walk to switch at (16, 11) via Row 6
-walk_to(12, 12)
-walk_to(12, 6)
+# 1. Walk to switch at (18, 11) via Column 18
 walk_to(16, 6)
-walk_to(16, 11)
+walk_to(18, 6)
+walk_to(18, 11)
 
-# 2. Toggle Mewtwo switch at (16, 11) to State B
-print("Toggling B1F East switch at (16, 11) to State B...")
+# 2. Toggle Mewtwo switch at (18, 11) to State B
+print("Toggling B1F East switch at (18, 11) to State B...")
 mgba.press_buttons(["Up", "sleep 200"]) # Face Up
 mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "A secret switch!"
 mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
@@ -63,8 +62,9 @@ mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
 print("State B successfully activated!")
 mgba.press_buttons(["B", "sleep 300"]) # Safeguard dismiss textbox
 
-# 3. Walk to Secret Key room at (1, 5) via Column 16 and Row 5
-walk_to(16, 5)
+# 3. Walk to Secret Key room at (1, 5) via Column 19 and Row 5
+walk_to(19, 11)
+walk_to(19, 5)
 walk_to(1, 5)
 
 # 4. Retrieve Secret Key at (1, 4)
