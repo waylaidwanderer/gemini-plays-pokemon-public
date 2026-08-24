@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Rocket Hideout Elevator (1, 2) -> Selecting B4F -> Giovanni's Office (Silph Scope)
+- Location: Rocket Hideout B4F (25, 15) -> Walking North up col 25 to collect Silph Scope at (25, 2)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
