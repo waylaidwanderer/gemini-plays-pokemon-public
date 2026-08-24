@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Town (0, 8) -> Entering Lavender Pok�mart at (3, 5) to purchase 20x Great Balls
+- Location: Lavender Town (3, 5) -> Navigating to Lavender Pok�mart at (15, 13) to purchase 20x Great Balls
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
