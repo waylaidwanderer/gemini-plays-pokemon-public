@@ -50,15 +50,15 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (2, 12) on 3F West
-print("Starting on 3F West at (2, 12):", get_pos())
+# Starting at (1, 10) on 3F West
+print("Starting on 3F West at (1, 10):", get_pos())
 
 # 1. Walk to (1, 9)
 walk_to(1, 9)
 print("Arrived at (1, 9):", get_pos())
 
 # 2. Try walking Right to (12, 9)
-print("Bypassing gate to 3F East at (12, 9)...")
+print("Crossing to 3F East at (12, 9)...")
 walk_to(12, 9)
 print("Arrived at (12, 9):", get_pos())
 
