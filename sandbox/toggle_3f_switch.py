@@ -21,7 +21,7 @@ def walk_step(direction):
 
 def walk_to(target_x, target_y):
     print(f"Walking to ({target_x}, {target_y})...")
-    max_steps = 40
+    max_steps = 30
     steps = 0
     while steps < max_steps:
         pos = get_pos()
@@ -42,28 +42,15 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Start from current position (1, 10) on 3F West
-print("Walking to switch at (2, 12)...")
-if not walk_to(1, 12): sys.exit(1)
-if not walk_to(2, 12): sys.exit(1)
+# We are currently at (2, 12) facing UP in State A
+print("PHASE 1: Toggling the 3F West Mewtwo switch...")
+# Exact verified sequence from get_secret_key_complete.py
+mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "B", "sleep 600"])
 
-# Face UP
-print("Facing UP...")
-mgba.press_buttons(["Up", "sleep 500"])
-
-# Safe switch toggling sequence
-print("Toggling the switch at (2, 11) facing UP...")
-mgba.press_buttons(["A", "sleep 1500"]) # "A secret switch!"
-mgba.press_buttons(["A", "sleep 1500"]) # "Press it?" (Yes/No appears)
-mgba.press_buttons(["A", "sleep 1500"]) # Select YES -> "(click)"
-mgba.press_buttons(["A", "sleep 1500"]) # Clear "(click)" text
-mgba.press_buttons(["B", "sleep 500"])  # Safety close dialogue box
-
-print("Mansion should now be in State B. Testing Column 6 path to Row 6...")
+print("Mansion should be in State B. Testing Column 6 path...")
 if not walk_to(2, 13): sys.exit(1)
 if not walk_to(6, 13): sys.exit(1)
-if not walk_to(6, 6): sys.exit(1)
+if not walk_to(6, 8): sys.exit(1)
 
-print("SUCCESS! Arrived at 3F West Column 6 Row 6 in State B!")
-print("Final Position:", get_pos())
+print("SUCCESS! Gate at (6, 9) is open! Position on 3F East:", get_pos())
 mgba.take_screenshot()
