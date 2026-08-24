@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 7F (9, 16) -> Ascending central aisle towards Rocket Grunts & Mr. Fuji
+- Location: Pokémon Tower 7F (10, 9) -> In battle with Rocket Grunt 2 (Koffing Lv 26, Drowzee Lv 26)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
