@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia City (2, 21) -> Arrived via Cycling Road! Heading to Pok�mon Center to heal party before challenging Fuchsia Gym.
+- Location: Fuchsia City (24, 31) -> South of Pokémart; navigating south/east around obstacles to reach Pokémon Center.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -63,7 +63,7 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 15331)
+## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 51
    - Stats (Verified at Lv 51 Turn 15423): Max HP 169 (HP: 169/169), Attack 116, Defense 128, Speed 118, Special 123
    - Type: Water
@@ -1721,12 +1721,12 @@
 ## Connections
 - West: Route 18 at (0, 16..17)
 - East: Route 15 Gatehouse at (39, 14..15)
-- South: Route 19 (Sea Route 19 to Seafoam Islands) at (18..19, 35)
+- South: Route 19 (Sea Route 19 to Seafoam Islands) at (18..23, 35)
 - North: Safari Zone Gate at (18..20, 3)
 
 ## Major Landmarks & Buildings
-- **Fuchsia Pokémon Center**: Located at (20..21, 24..27) with door at (21, 27) / warp (21, 26).
-- **Fuchsia Pokémart**: Located at (26..29, 25..27) with door at (27, 27) / warp (27, 26).
+- **Fuchsia Pokémon Center**: Located in south-central sector at (20..21, 24..27) with door mat at (21, 27).
+- **Fuchsia Pokémart**: Located at (26..29, 25..27) with door at (27, 27).
 - **Fuchsia Gym**: Located in southwest corner (Leader Koga; Poison type; invisible walls).
 - **Safari Zone**: Located in northern sector (Entrance fee ¥500; gives 30 Safari Balls; contains HM03 Surf & Gold Teeth).
 - **Safari Zone Warden's House**: Located in southeast sector (trade Gold Teeth for HM04 Strength).
