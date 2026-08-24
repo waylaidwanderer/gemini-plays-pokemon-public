@@ -19,8 +19,8 @@ def walk_step_robust(direction):
     global button_count
     pos_before = mgba.get_coordinates()
     
-    if button_count > 60:
-        print("Button count limit reached. Exiting script to prevent abort.")
+    if button_count > 45:
+        print("Button limit reached. Exiting.")
         sys.exit(0)
         
     mgba.press_buttons([direction, "sleep 180"])
@@ -38,8 +38,8 @@ def walk_step_robust(direction):
         while pos_before == pos_after and attempts < 4:
             print(f"Blocked at {pos_before} attempting {direction}. Retrying...")
             time.sleep(0.4)
-            if button_count > 60:
-                print("Button count limit reached! Exiting.")
+            if button_count > 45:
+                print("Button limit reached! Exiting.")
                 sys.exit(0)
             mgba.press_buttons([direction, "sleep 180"])
             button_count += 1
@@ -53,7 +53,7 @@ def walk_step_robust(direction):
 
 def walk_to(target_x, target_y):
     print(f"Walking to: ({target_x}, {target_y})")
-    max_steps = 40
+    max_steps = 20
     steps = 0
     while steps < max_steps:
         pos = mgba.get_coordinates()
@@ -76,41 +76,38 @@ def walk_to(target_x, target_y):
 start_pos = get_pos()
 print("Starting position:", start_pos)
 
-# 1. Walk from (1, 11) to (2, 12)
-print("1. Walking to (1, 12)...")
+# 1. Walk from (1, 11) to (1, 12)
 walk_to(1, 12)
-print("2. Walking to (2, 12)...")
+
+# 2. Walk to (2, 12)
 walk_to(2, 12)
 
-# Ensure facing UP
-print("3. Facing UP...")
-walk_step_robust("Up")
+# Verify position is (2, 12)
+pos = get_pos()
+if pos['x'] != 2 or pos['y'] != 12:
+    print("Failed to reach (2, 12). Current position:", pos)
+    sys.exit(0)
+
+# 3. Face UP
+print("Facing UP...")
+mgba.press_buttons(["Up", "sleep 200"])
+button_count += 1
 
 # 4. Toggle the switch to State B
 print("4. Toggling Mewtwo switch...")
-# Press A to interact with the switch
 mgba.press_buttons(["A", "sleep 600"])
-# Press A to select YES
 mgba.press_buttons(["A", "sleep 600"])
-# Clear residual text with B
 for _ in range(3):
     mgba.press_buttons(["B", "sleep 150"])
 time.sleep(1.0)
+button_count += 5
 
 # 5. Walk back to (1, 12)
-print("5. Walking to (1, 12)...")
 walk_to(1, 12)
 
 # 6. Walk UP Column 1 to Row 6 (1, 6)
-print("6. Walking UP Column 1 to (1, 6)...")
 walk_to(1, 6)
 
-# 7. Walk Right along Row 6 to 3F East pitfall at (26, 6)
-print("7. Walking horizontally along Row 6 to pitfall at (26, 6)...")
-walk_to(26, 6)
-
-# Wait for falling animation to finish
-print("Fell through pit! Waiting 3.5 seconds...")
-time.sleep(3.5)
-landing_pos = get_pos()
-print("Landed on 1F East inside fenced room:", landing_pos)
+print("Reached (1, 6)? Position:", get_pos())
+sc = mgba.take_screenshot()
+print("Screenshot:", sc)
