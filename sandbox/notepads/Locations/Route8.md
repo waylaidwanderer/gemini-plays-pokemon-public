@@ -21,7 +21,7 @@
 
 ## Route 8 Trainers & Gauntlet Tracking
 - Lass at (51, 12) [Defeated]
-- Lass at (26, 4) / (26, 3) [Active Battle Turn 15208: Nidoran♀ Lv 23, Pokémon #2]
+- Lass at (26, 4) [Defeated Turn 15227: Nidoran♀ Lv 23, Nidorina Lv 23; Reward: ¥345]
 - Lass at (26, 5) [Defeated]
 - Lass at (26, 6) [Defeated]
 - Gambler at (46, 13), Gambler at (13, 9)
