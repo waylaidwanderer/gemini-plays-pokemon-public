@@ -1,23 +1,22 @@
 import mgba
 import time
 
-def walk_step(direction, expected_coords):
-    mgba.press_buttons([direction])
-    time.sleep(0.3)
-    pos = mgba.get_coordinates()
-    print(f"Moved {direction}, current position: {pos}")
-    if pos != expected_coords:
-        print(f"Desync! Expected {expected_coords}, got {pos}")
-        return False
-    return True
+def walk_step(direction, expected_coords, retries=15):
+    for i in range(retries):
+        mgba.press_buttons([direction])
+        time.sleep(0.3)
+        pos = mgba.get_coordinates()
+        if pos == expected_coords:
+            print(f"Moved {direction}, current position: {pos}")
+            return True
+        # If we didn't reach the target, the NPC might be blocking us. Wait and retry.
+        print(f"Blocked! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
+        time.sleep(0.2)
+    return False
 
+# We are currently at (5, 11)
 steps = [
-    # Walk from (2, 13) to (10, 13)
-    ("Right", {"x": 3, "y": 13}),
-    ("Right", {"x": 4, "y": 13}),
-    ("Right", {"x": 5, "y": 13}),
-    ("Up", {"x": 5, "y": 12}),
-    ("Up", {"x": 5, "y": 11}),
+    # Walk from (5, 11) to (10, 13)
     ("Right", {"x": 6, "y": 11}),
     ("Right", {"x": 7, "y": 11}),
     ("Right", {"x": 8, "y": 11}),
