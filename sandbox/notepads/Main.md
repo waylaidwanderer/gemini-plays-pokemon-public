@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Volunteer Pokémon House (3, 7) -> Approaching Mr. Fuji at (6, 3) for Poké Flute
+- Location: Lavender Volunteer Pokémon House (7, 3) -> Walking to Mr. Fuji at (0, 1) for Poké Flute
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
