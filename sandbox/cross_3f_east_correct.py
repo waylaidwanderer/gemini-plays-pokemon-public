@@ -51,11 +51,14 @@ def walk_to(target_x, target_y):
 print("--- CORRECT 3F EAST CROSSING SCRIPT ---")
 print("Starting from:", get_pos())
 
-# Phase 1: Walk to 3F East pitfall and drop
+# Phase 1: Walk to 3F East pitfall and drop via Column 11 vertical corridor
 print("PHASE 1: Walking to pitfall at (26, 4)...")
-if not walk_to(7, 7): sys.exit(1)
-if not walk_to(12, 7): sys.exit(1)
-if not walk_to(12, 6): sys.exit(1)
+if not walk_to(6, 8): sys.exit(1)
+if not walk_to(6, 11): sys.exit(1)
+if not walk_to(5, 11): sys.exit(1)
+if not walk_to(5, 13): sys.exit(1)
+if not walk_to(11, 13): sys.exit(1)
+if not walk_to(11, 6): sys.exit(1)
 if not walk_to(19, 6): sys.exit(1)
 if not walk_to(19, 3): sys.exit(1)
 if not walk_to(26, 3): sys.exit(1)
