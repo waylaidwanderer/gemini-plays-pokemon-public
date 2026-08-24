@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 16 (27, 10) -> Awakened Sleeping Snorlax with Poké Flute; initiating battle to clear Cycling Road
+- Location: Route 16 (27, 10) -> Snorlax defeated! Entering Gatehouse (24, 10) to ride Cycling Road to Fuchsia City
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -203,6 +203,7 @@
 - [x] Ascend Pokémon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F & Team Rocket on 7F) [Turn 14998-15001]
 - [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]- [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
 - [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
+- [x] Awaken and defeat Route 16 Sleeping Snorlax with Poké Flute; clear Cycling Road roadblock [Turn 15395]
 
 
 <hr>
@@ -1532,7 +1533,7 @@
 - **Southern Thoroughfare (rows 10-11, cols 27-39)**:
   - Wide paved road connecting Celadon City to the Route 16 Gatehouse.
   - Signpost at (27, 11).
-  - Sleeping Snorlax blocking Cycling Road at (26, 10).
+  - Sleeping Snorlax at (26, 10) [Awakened with Poké Flute & Defeated Turn 15395; Cycling Road open!]
 - **Northern Cut Bypass & Obstacle**:
   - Cut bush located at `(34, 9)` [Clearing allows entry to northern corridor].
   - Note: Cut bush respawns on map reload/transitions.
