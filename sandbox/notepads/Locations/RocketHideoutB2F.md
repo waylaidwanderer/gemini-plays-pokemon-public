@@ -5,19 +5,16 @@
 - Stairs Down to B3F: Located at (21, 22).
 - Stairs Down to B4F: Located at (21, 8), leads down to Rocket Hideout B4F at (25, 6).
 
-## Verified Conveyor Network Routes
-- Shortcut Route: (17, 11) [Left] -> slides across row 11 -> (12, 11) [Up] -> (12, 9) [Left] -> lands on Stop Tile (2, 9) [Verified Turn 12745].
-- Route 1: (17, 10) [Left] -> West -> (13, 10) [Down] -> South -> (13, 12) [Right] -> East -> Lands on Stop Tile (14, 12).
-- Route 2: From (14, 12) -> Up to (14, 11) -> Left to (12, 11) [Up] -> launches to Stop Tile (2, 9).
-- Route 3: From (2, 9) -> Right to (3, 9) -> Down to (3, 11) -> Right onto (4, 11) [Right] -> launches to Stop Tile (8, 11).
-- Route 4 (To Southern Chamber): From Stop Tile (8, 11) -> (10, 11) -> (10, 14) -> Step onto (11, 14) [Down] -> launches through (11, 16) [Right] -> (15, 16) [Down] -> lands at (15, 18).
-- Route 5: From (15, 18) -> (13, 18) [Left] -> (11, 18) [Down] -> lands on Stop Tile (11, 20).
-- Route 6: From Stop Tile (11, 20) -> (14, 20) -> (14, 22) -> (13, 22) [Left] -> lands on Stop Tile (9, 24).
-- Route 7 (Direct Corridor to B3F Stairs):
-  - From Stop Tile (9, 24) -> (10, 24) -> Step onto (10, 25) [Right] -> lands on Stop Tile (14, 25).
-  - From Stop Tile (14, 25) -> (16, 25) -> Up to (16, 21) -> East across row 21 (through gap at col 18) to (21, 21) -> Down to (21, 22) [Stairs down to B3F].
-- Route 8 (Exit from Spin Maze to B1F/B4F Stairs):
-  - From Stop Tile (16, 18) -> UP spinner to (16, 13) Stop Tile -> East across row 13 to (21, 8) [B4F Stairs] / (27, 8) [B1F Stairs].
+## Verified Conveyor Network Routes (100% Tested & Verified Turn 14794-14799)
+- Shortcut Route: From (18, 11), step Left onto (17, 11) [Left] -> slides across row 11 -> (12, 11) [Up] -> (12, 9) [Left] -> lands on Stop Tile (2, 9).
+- Route 3: From Stop Tile (2, 9) -> Down 2 to (3, 11) -> Right onto (4, 11) [Right] -> slides across row 11 -> lands on Stop Tile (8, 11).
+- Route 4: From Stop Tile (8, 11) -> Right 2 to (10, 11) -> Down 3 to (10, 14) -> Right onto (11, 14) [Down] -> slides through (11, 16) [Right] -> (15, 16) [Down] -> lands on Stop Tile (15, 18).
+- Route 5: From Stop Tile (15, 18) -> Left 2 onto (13, 18) [Left] -> slides through (11, 18) [Down] -> lands on Stop Tile (11, 20).
+- Route 6: From Stop Tile (11, 20) -> Right 3 to (14, 20) -> Down 2 to (14, 22) -> Left onto (13, 22) [Left] -> slides through (9, 22) [Down] -> lands on Stop Tile (9, 24).
+- Route 7 (Elevator Lobby & B3F Stairs Access):
+  - From Stop Tile (9, 24) -> Right 1 to (10, 24) -> Down onto (10, 25) [Right] -> slides across row 25 -> lands on Stop Tile (14, 25).
+  - From Stop Tile (14, 25) -> Right 2 to (16, 25) -> Up 4 to (16, 21) -> East across row 21 (passing wall gap at (18, 21)) -> (22, 21).
+  - From (22, 21): Stairs to B3F are at (21, 22); Elevator entrance is at (24, 19) / (25, 19) via (22, 18) -> (24, 18) -> (24, 19).
 
 ## Floor Layout & Item Balls
 - Northwest Sector:
