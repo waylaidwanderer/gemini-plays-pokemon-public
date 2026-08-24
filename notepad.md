@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 7 Tall Grass (11, 5) -> In battle with wild Pidgey; retreating to Celadon Dept Store 2F to purchase Great Balls
+- Location: Lavender Town (0, 8) -> Entering Lavender Pok�mart at (3, 5) to purchase 20x Great Balls
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -89,7 +89,7 @@
 ## Inventory & Resources (Verified Turn 15011)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Bag Capacity: 15 / 20 slots used (5 empty slots available)
-- Active Bag Items: Great Ball x1, Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011]
+- Active Bag Items: (Great Ball x0 - restocking at Lavender Mart), Super Potion x3, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, Awakening x1 [Turn 14897], X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, Bicycle, S.S. Ticket
 - Party Slot 6: OPEN (Reserved for wild flyer ZEPHYR)
 - Funds: ¥28,428+
@@ -1156,7 +1156,6 @@
 - **Tall Grass Fields**:
   - West Vertical Strip: Column 16, rows 4-11.
   - Southern Grass Plain: Rows 12-13, cols 16-25.
-  - Eastern Grass Fields: Cols 40-55, rows 6-14.
 - **Target Flyer Pool**:
   - Pidgey / Pidgeotto on Route 8 / Route 10 (Catch with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly).
 
