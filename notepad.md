@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Lavender Town (0, 8) -> Entering Lavender Pok�mart at (3, 5) to purchase 20x Great Balls
+- Location: Lavender Town (3, 5) -> Navigating to Lavender Pok�mart at (15, 13) to purchase 20x Great Balls
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -61,9 +61,9 @@
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user [Taught TM44 Rest over Wrap Turn 13919]
 3. HYDROS (Blastoise) - Lv 50
-   - Stats (Verified at Lv 50 Turn 14979): Max HP 166 (HP: 152/166), Attack 114, Defense 126, Speed 116, Special 121
+   - Stats (Verified at Lv 50 Turn 14979): Max HP 166 (HP: 166/166), Attack 114, Defense 126, Speed 116, Special 121
    - Type: Water
-   - Moves: Skull Bash (14/15), Ice Beam (6/10), Bite (22/25), Bubblebeam (19/20)
+   - Moves: Skull Bash (15/15), Ice Beam (10/10), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water/Ice special attacker (Swapped to Slot 3 Turn 15055)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
