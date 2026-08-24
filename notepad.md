@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Rocket Hideout B4F (25, 15) -> Walking North up col 25 to collect Silph Scope at (25, 2)
+- Location: Rocket Hideout B4F (25, 3) -> Facing (25, 2) to pick up Silph Scope
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
