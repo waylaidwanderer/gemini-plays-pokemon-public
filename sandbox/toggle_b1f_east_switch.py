@@ -45,11 +45,12 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (11, 10) on B1F East in State A (after running from battle)
+# Starting at (12, 10) on B1F East in State A
 print("Starting B1F Switch Toggle and Retrieval:", get_pos())
 
-# 1. Walk to switch at (16, 11) via (16, 10)
-walk_to(16, 10)
+# 1. Walk to switch at (16, 11) via Row 12
+walk_to(12, 12)
+walk_to(16, 12)
 walk_to(16, 11)
 
 # 2. Toggle Mewtwo switch at (16, 11) to State B
