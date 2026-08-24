@@ -63,22 +63,20 @@ def walk_to(target_x, target_y):
 print("Starting get_secret_key_resume.py from inside Mansion 3F West at (1, 10)...")
 print("Initial Position:", get_pos())
 
-# Phase 1: Walk to 3F East pitfall bypassing the (5, 9) trap
-print("PHASE 1: Detouring around (5, 9) pitfall...")
-if not walk_to(1, 9): sys.exit(1)
-if not walk_to(4, 9): sys.exit(1)
-if not walk_to(4, 8): sys.exit(1)
-if not walk_to(6, 8): sys.exit(1)
-if not walk_to(6, 9): sys.exit(1)
-if not walk_to(12, 9): sys.exit(1)
-if not walk_to(12, 6): sys.exit(1)
+# Phase 1: Walk to Column 6 Row 10, then walk UP Column 6 to Row 6
+print("PHASE 1: Walking to Column 6 and going Up to Row 6...")
+if not walk_to(6, 10): sys.exit(1)
+if not walk_to(6, 6): sys.exit(1)
+
+# Phase 2: Walk to 3F East pitfall at (26, 6)
+print("PHASE 2: Walking to pitfall at (26, 6)...")
 if not walk_to(26, 6): sys.exit(1)
 print("Dropped through pitfall! Waiting 2.0 seconds...")
 time.sleep(2.0)
 print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
 # Walk to B1F stairs on 1F East via Row 3 and warp DOWN
-print("PHASE 2: Walking to B1F stairs...")
+print("PHASE 3: Walking to B1F stairs...")
 if not walk_to(26, 3): sys.exit(1)
 if not walk_to(21, 3): sys.exit(1)
 if not walk_to(21, 2): sys.exit(1)
@@ -88,14 +86,14 @@ mgba.press_buttons(["Up", "sleep 1200"])
 print("Position on B1F East:", get_pos())
 
 # Walk along B1F to Secret Key room at (1, 5) bypassing the Row 5 Column 17/18 wall
-print("PHASE 3: Crossing B1F Row 6/5 to Secret Key...")
+print("PHASE 4: Crossing B1F Row 6/5 to Secret Key...")
 if not walk_to(18, 6): sys.exit(1)
 if not walk_to(10, 6): sys.exit(1)
 if not walk_to(10, 5): sys.exit(1)
 if not walk_to(1, 5): sys.exit(1)
 
 # Retrieve Secret Key at (1, 4)
-print("PHASE 4: Picking up the Secret Key at (1, 4)...")
+print("PHASE 5: Picking up the Secret Key at (1, 4)...")
 mgba.press_buttons(["Up", "sleep 250"])
 mgba.press_buttons(["A", "sleep 800"]) # Obtained dialogue
 mgba.press_buttons(["A", "sleep 800"]) # Clear dialogue
@@ -103,7 +101,7 @@ mgba.press_buttons(["B", "sleep 400"]) # Safeguard close
 print("Secret Key retrieved! Current position:", get_pos())
 
 # DIG out back to Cinnabar Island
-print("PHASE 5: Escaping via DIG...")
+print("PHASE 6: Escaping via DIG...")
 mgba.press_buttons(["Start", "sleep 400"])
 mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
