@@ -48,15 +48,17 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# Starting at (9, 9) on 3F West
-print("1. Walking to (6, 9)...")
-walk_to(6, 9)
-print("2. Walking UP Column 6 to (6, 6)...")
-walk_to(6, 6)
+# Starting at (6, 8) on 3F West (State B)
+print("1. Walking along Row 8 to (11, 8)...")
+walk_to(11, 8)
+print("2. Walking UP to (11, 6)...")
+walk_to(11, 6)
 print("3. Walking straight RIGHT along Row 6 to pitfall at (26, 6)...")
 walk_to(26, 6)
 
-print("Should have dropped! Waiting 2 seconds...")
+# Step DOWN to drop
+print("4. Dropping through pitfall...")
+walk_step("Down")
 time.sleep(2.0)
 
 print("Arrived on 1F East inside fenced room! Final Position:", get_pos())
