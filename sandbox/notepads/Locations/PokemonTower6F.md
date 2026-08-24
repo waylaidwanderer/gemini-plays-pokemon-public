@@ -13,7 +13,11 @@
   - Without Silph Scope: "Darn! The GHOST can't be ID'd!" -> blocks passage to 7F.
 
 ## Verified Encounters & Trainers
-- Event Ghost: Lv 30 Ghost Marowak at (10, 16).
+- Event Ghost: Lv 30 Ghost Marowak at (10, 16) [Defeated Turn 14946-14947].
+  - Unmasked by Silph Scope: "The GHOST was the restless soul of CUBONE's mother!"
+  - Defeated by HYDROS with Ice Beam (1HKO, 531 EXP).
+  - Event Resolution: "The mother's soul was calmed. It departed to the afterlife..."
+  - Stairs at (9, 16) to 7F are now accessible.
 - Channelers:
   - Channeler at (9, 5) facing South [Spotted Turn 14522]
   - Channeler at (12, 10) facing West [Spotted Turn 14522]
