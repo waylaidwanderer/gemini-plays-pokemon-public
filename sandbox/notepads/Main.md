@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Pokémon Tower 3F (15, 4) -> Walking west to col 6 gap -> East along row 6 to 4F stairs (18, 9)
+- Location: Pokémon Tower 3F (11, 4) -> Defeating wild Gastly -> West to col 6 gap -> East along row 6 to 4F stairs (18, 9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
