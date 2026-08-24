@@ -42,15 +42,24 @@ def walk_to(target_x, target_y):
         steps += 1
     return False
 
-# We are currently at (2, 12) facing UP in State A
-print("PHASE 1: Toggling the 3F West Mewtwo switch...")
-# Exact verified sequence from get_secret_key_complete.py
-mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "B", "sleep 600"])
+# Currently at (6, 10) on 3F West in State A
+print("Walking to (1, 11) on Row 11...")
+if not walk_to(6, 11): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
 
-print("Mansion should be in State B. Testing Column 6 path...")
-if not walk_to(2, 13): sys.exit(1)
-if not walk_to(6, 13): sys.exit(1)
-if not walk_to(6, 8): sys.exit(1)
+# Face RIGHT
+print("Facing RIGHT towards (2, 11)...")
+mgba.press_buttons(["Right", "sleep 500"])
 
-print("SUCCESS! Gate at (6, 9) is open! Position on 3F East:", get_pos())
+# Safe switch toggling sequence (100% verified 1500ms sleeps)
+print("Toggling the switch at (2, 11) facing Right...")
+mgba.press_buttons(["A", "sleep 1500"]) # "A secret switch!"
+mgba.press_buttons(["A", "sleep 1500"]) # "Press it?" (Yes/No appears)
+mgba.press_buttons(["A", "sleep 1500"]) # Select YES -> "(click)"
+mgba.press_buttons(["B", "sleep 500"])  # Close dialogue box
+
+print("Mansion should be in State B. Verifying...")
+if not walk_to(1, 12): sys.exit(1)
+if not walk_to(2, 12): sys.exit(1)
+
 mgba.take_screenshot()
