@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Route 10 South (6, 68) -> Navigating east/north to enter Route 10 tall grass to encounter & catch flyer ZEPHYR
+- Location: Route 10 South (11, 68) -> Heading south to Lavender Town and west to Route 8 tall grass to catch flyer ZEPHYR
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -892,7 +892,7 @@
 - Southern boundary connects to Lavender Town at row 71.
 - Western wall: Continuous solid cliff wall at col 5 (rows 67-72).
 - Row 67 Ledge: Impassable hop-down ledge across cols 6-9 heading south. Blocks upward traversal from row 68.
-- Tall Grass Field: Spans cols 10-15+ across rows 60-66. Accessible via eastern passage at col 11+ around the ledge.
+- Topography Confirmation (Turn 15185): Route 10 South is a one-way south hop-down ledge (spanning cols 6-11 at row 67, enclosed by cliff wall at col 5 and fence at col 12). Impassable from south to north. Route 8 is the intended accessible grass route from Lavender Town.
 
 
 <hr>
