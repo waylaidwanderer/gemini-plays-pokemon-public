@@ -16,3 +16,9 @@
   - Channeler Patricia at (10, 13) [Verified in battle Turn 14322: Gastly Lv 22]
   - Channeler Carly at (8, 11) [Empirical battle pending]
   - Channeler Hope at (10, 3) [Empirical battle pending]
+
+## Combat Readiness & PP Reserves (Turn 14886)
+- Active Lead: HYDROS (Blastoise Lv 49, HP 162/162)
+- Moves & PP Reserves: Skull Bash (15/15), Ice Beam (8/10), Bite (25/25), Bubblebeam (20/20)
+- Trainer Status: Channeler Patricia at (10, 13) [Defeated], Channeler Carly at (8, 11), Channeler Hope at (10, 3)
+- Wild Encounters: Gastly Lv 18-22 (Unmasked by Silph Scope, 100% OHKO via Ice Beam / Bite / Bubblebeam)
