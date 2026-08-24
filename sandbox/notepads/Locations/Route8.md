@@ -16,7 +16,6 @@
 - **Tall Grass Fields**:
   - West Vertical Strip: Column 16, rows 4-11.
   - Southern Grass Plain: Rows 12-13, cols 16-25.
-  - Eastern Grass Fields: Cols 40-55, rows 6-14.
 - **Target Flyer Pool**:
   - Pidgey / Pidgeotto on Route 8 / Route 10 (Catch with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly).
 
