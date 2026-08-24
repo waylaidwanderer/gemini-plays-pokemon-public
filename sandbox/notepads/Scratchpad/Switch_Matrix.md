@@ -85,3 +85,9 @@
      - Walk LEFT along Row 11 to Column 1 `(1, 11)`.
      - Walk UP Column 1 to Row 9 `(1, 9)`.
      - This path is completely open in State B and safely circumvents the `(5, 10)` staircase warp and the `(8, 9)` rock block.
+
+## 🔍 CRITICAL MECHANICAL DISCOVERY (Turn 58139)
+- **3F West Switch Direction-Dependence:**
+  - The Mewtwo statue switch at `(2, 11)` on 3F West can ONLY be successfully activated and toggled from the LEFT side (standing at `(1, 11)` facing RIGHT).
+  - Attempting to activate it from the BOTTOM (standing at `(2, 12)` facing UP) will open the textbox "A secret switch!" but pressing A/B will NOT toggle the switch state. It will select "NO" by default or ignore A presses, leaving the mansion stuck in State A.
+  - This direction-dependence is a hardcoded Gen 1 engine quirk of this specific switch.
