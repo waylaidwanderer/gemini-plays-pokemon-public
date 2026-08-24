@@ -59,62 +59,82 @@ def walk_to(target_x, target_y):
     print("Failed to reach target.")
     return False
 
-print("Starting get_secret_key_resume.py...")
+# Starting inside 1F West at (5, 27)
+print("Starting get_secret_key_resume.py from inside Mansion 1F...")
 print("Initial Position:", get_pos())
 
-# Step 1: Walk to (12, 9)
-if not walk_to(12, 9):
-    sys.exit(1)
+# Navigate 1F West to 2F West (State A)
+print("PHASE 1: Warp UP to 2F West...")
+if not walk_to(5, 11): sys.exit(1)
+if not walk_to(8, 11): sys.exit(1)
+if not walk_to(8, 10): sys.exit(1)
+if not walk_to(5, 10): sys.exit(1)
+print("Stepping Left to warp to 2F West...")
+mgba.press_buttons(["Left", "sleep 1200"])
+print("Position on 2F West:", get_pos())
 
-# Step 2: Toggle Mewtwo switch at (13, 9) to State B
-print("Facing Right towards (13, 9)...")
-mgba.press_buttons(["Right", "sleep 200"])
-print("Toggling B1F East switch at (13, 9) to State B...")
-mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "A secret switch!"
-mgba.press_buttons(["A", "sleep 800"]) # Dialogue: "Press it?" -> Select YES
-mgba.press_buttons(["A", "sleep 500"]) # Dialogue: "Who wouldn't?" -> Close
-mgba.press_buttons(["B", "sleep 300"]) # Safeguard dismiss textbox
+# Navigate 2F West to 3F West (State A)
+print("PHASE 2: Warp UP to 3F West...")
+if not walk_to(7, 11): sys.exit(1)
+print("Stepping UP to warp to 3F West...")
+mgba.press_buttons(["Up", "sleep 1200"])
+print("Position on 3F West:", get_pos())
 
-# Step 3: Walk back to (10, 5)
-if not walk_to(10, 5):
-    sys.exit(1)
+# Toggle Mewtwo Statue Switch at (2, 11) to State B
+print("PHASE 3: Toggling switch to State B...")
+if not walk_to(3, 11): sys.exit(1)
+if not walk_to(3, 13): sys.exit(1)
+if not walk_to(1, 13): sys.exit(1)
+if not walk_to(1, 11): sys.exit(1)
+print("Facing Right towards (2, 11) and interacting...")
+mgba.press_buttons(["Right", "sleep 250", "A", "sleep 800", "A", "sleep 800", "A", "sleep 500", "B", "sleep 300"])
+print("State B activated! Current Position:", get_pos())
 
-# Step 4: Walk Left to (9, 5)
-print("Stepping Left through the gate at (9, 5)...")
-pos_before, pos_after = walk_step("Left")
-if pos_before == pos_after:
-    print("BLOCKED at (10, 5) going Left! Gate at (9, 5) is STILL CLOSED.")
-    sys.exit(1)
-else:
-    print("SUCCESS! Stepped Left to", pos_after)
+# Cross 3F West to 3F East via Row 9 and walk to pitfall
+print("PHASE 4: Walking to 3F East pitfall at (26, 6)...")
+if not walk_to(1, 9): sys.exit(1)
+if not walk_to(12, 9): sys.exit(1)
+if not walk_to(12, 6): sys.exit(1)
+if not walk_to(26, 6): sys.exit(1)
+print("Dropped! Waiting 2.0 seconds...")
+time.sleep(2.0)
+print("Position after drop (should be 1F East inside fenced room around 25, 6):", get_pos())
 
-# Step 5: Walk to (1, 5)
-if not walk_to(1, 5):
-    sys.exit(1)
+# Walk to B1F stairs on 1F East via Row 3 and warp DOWN
+print("PHASE 5: Walking to B1F stairs...")
+if not walk_to(26, 3): sys.exit(1)
+if not walk_to(21, 3): sys.exit(1)
+if not walk_to(21, 2): sys.exit(1)
+if not walk_to(22, 2): sys.exit(1)
+print("Stepping UP to warp DOWN to B1F...")
+mgba.press_buttons(["Up", "sleep 1200"])
+print("Position on B1F East:", get_pos())
 
-# Step 6: Face Up to retrieve key
-print("Arrived at (1, 5)! Facing UP to retrieve Secret Key at (1, 4)...")
-mgba.press_buttons(["Up", "sleep 200"])
-mgba.press_buttons(["A", "sleep 800"])
-screenshot_path = mgba.take_screenshot()
-print("Took screenshot of key retrieval:", screenshot_path)
+# Walk along B1F to Secret Key room at (1, 5) bypassing the Row 5 Column 17/18 wall
+print("PHASE 6: Crossing B1F Row 6/5 to Secret Key...")
+if not walk_to(18, 6): sys.exit(1)
+if not walk_to(10, 6): sys.exit(1)
+if not walk_to(10, 5): sys.exit(1)
+if not walk_to(1, 5): sys.exit(1)
 
-# Clear dialogue
-mgba.press_buttons(["A", "sleep 800"])
-mgba.press_buttons(["A", "sleep 800"])
-mgba.press_buttons(["B", "sleep 500"])
-print("Key retrieved. Current Position:", get_pos())
+# Retrieve Secret Key at (1, 4)
+print("PHASE 7: Picking up the Secret Key at (1, 4)...")
+mgba.press_buttons(["Up", "sleep 250"])
+mgba.press_buttons(["A", "sleep 800"]) # Obtained dialogue
+mgba.press_buttons(["A", "sleep 800"]) # Clear dialogue
+mgba.press_buttons(["B", "sleep 400"]) # Safeguard close
+print("Secret Key retrieved! Current position:", get_pos())
 
-# Step 7: Escape via DIG
-print("Escaping via DIG...")
-mgba.press_buttons(["Start", "sleep 300"])
-mgba.press_buttons(["Down", "sleep 150", "A", "sleep 600"]) # Select POKéMON
+# DIG out back to Cinnabar Island
+print("PHASE 8: Escaping via DIG...")
+mgba.press_buttons(["Start", "sleep 400"])
+mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"]) # Select POKéMON
 for _ in range(5): # 5 Down presses to select TRUFFLE (Slot 6)
-    mgba.press_buttons(["Down", "sleep 150"])
-mgba.press_buttons(["A", "sleep 500"]) # Select TRUFFLE
-mgba.press_buttons(["A", "sleep 1000"]) # Select DIG
+    mgba.press_buttons(["Down", "sleep 180"])
+mgba.press_buttons(["A", "sleep 600"]) # Select TRUFFLE
+mgba.press_buttons(["A", "sleep 1500"]) # Select DIG
 time.sleep(3.0)
 
-print("Final position Cinnabar Island:", get_pos())
+print("SUCCESS! Final position Cinnabar Island:", get_pos())
 sc = mgba.take_screenshot()
 print("Final Screenshot:", sc)
