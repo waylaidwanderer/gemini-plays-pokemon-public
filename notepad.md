@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (14, 35) [Turn 15677]; traversing west along row 28 towards Area 3 (West) for HM03 Surf & Gold Teeth (~380 steps remaining).
+- Location: Safari Zone Area 2 (North) at (12, 28) [Turn 15691]; bypassing pond south along row 30, exiting west into Area 3 (West) for HM03 Surf & Gold Teeth (~340 steps remaining).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1743,9 +1743,9 @@
 - Catch Mechanics: Rock (increases catch rate, increases flee chance), Bait (decreases flee chance, decreases catch rate), Safari Ball, Run.
 - Step Budget Management: Walk with direct, deliberate routing to minimize wasted steps.
 
-## Critical Objectives
-1. **Gold Teeth**: Located on the ground in Safari Zone Area 3 (West) at south-central clearing. Must be delivered to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
-2. **Secret House**: Located in Safari Zone Area 3 (West) at far northwest. Talk to the attendant inside to receive **HM03 (Surf)**.
+## Critical Objectives (Area 3 Hypotheses / Verification Targets)
+1. **Gold Teeth**: Reported on the ground in Safari Zone Area 3 (West) (survey south-central clearings). Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
+2. **Secret House**: Reported in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
 
 ## Map Topology & Connectivity
 - **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0).
