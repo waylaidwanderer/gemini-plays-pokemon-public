@@ -1,6 +1,6 @@
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 15331)
+## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 51
    - Stats (Verified at Lv 51 Turn 15423): Max HP 169 (HP: 169/169), Attack 116, Defense 128, Speed 118, Special 123
    - Type: Water

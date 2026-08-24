@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia City (2, 21) -> Arrived via Cycling Road! Heading to Pok�mon Center to heal party before challenging Fuchsia Gym.
+- Location: Fuchsia City (24, 31) -> South of Pokémart; navigating south/east around obstacles to reach Pokémon Center.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
