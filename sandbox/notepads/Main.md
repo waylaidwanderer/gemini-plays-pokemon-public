@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia City (24, 31) -> South of Pokémart; navigating south/east around obstacles to reach Pokémon Center.
+- Location: Fuchsia City (14, 21) -> Good Rod obtained [Turn 15461]; traversing west along row 21 to western highway leading north to Safari Zone Gate.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
