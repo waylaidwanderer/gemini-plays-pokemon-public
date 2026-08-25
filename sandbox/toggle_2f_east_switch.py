@@ -64,28 +64,14 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Current is (14, 7) on 2F East
-print("Walking to 2F West switch standing position (2, 12)...")
+# Current is (3, 11) on 2F West
+print("Starting corrected Saffron/Cinnabar 2F West switch walk...")
 success = True
 
+# We walk DOWN to (3, 12), then LEFT to (2, 12)
 steps_to_switch = [
-    ("Left", {"x": 13, "y": 7}),
-    ("Left", {"x": 12, "y": 7}),
-    ("Down", {"x": 12, "y": 8}),
-    ("Down", {"x": 12, "y": 9}),
-    ("Down", {"x": 12, "y": 10}),
-    ("Down", {"x": 12, "y": 11}),
-    ("Left", {"x": 11, "y": 11}),
-    ("Left", {"x": 10, "y": 11}),
-    ("Left", {"x": 9, "y": 11}),
-    ("Left", {"x": 8, "y": 11}),
-    ("Left", {"x": 7, "y": 11}),
-    ("Left", {"x": 6, "y": 11}),
-    ("Left", {"x": 5, "y": 11}),
-    ("Left", {"x": 4, "y": 11}),
-    ("Left", {"x": 3, "y": 11}),
-    ("Left", {"x": 2, "y": 11}),
-    ("Down", {"x": 2, "y": 12}),
+    ("Down", {"x": 3, "y": 12}),
+    ("Left", {"x": 2, "y": 12}),
 ]
 
 for d, c in steps_to_switch:
