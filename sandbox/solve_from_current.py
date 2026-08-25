@@ -69,69 +69,48 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
+# Start at current position inside 1F West (should be at 7, 27)
+pos = mgba.get_coordinates()
+print(f"Starting from current position inside 1F West: {pos}")
+
 success = True
 
-# 1. Walk from current position (13, 5) on Cinnabar Island to Mansion entrance
-print("Starting from (13, 5) on Cinnabar Island overworld...")
-steps_cinnabar = [
-    ("Up", {"x": 13, "y": 4}),
+# Walk LEFT to Column 5 Row 27
+steps_to_col5 = [
+    ("Left", {"x": 6, "y": 27}),
+    ("Left", {"x": 5, "y": 27}),
 ]
-# Walk LEFT along Row 4 to Column 6
-for x in range(12, 5, -1):
-    steps_cinnabar.append(("Left", {"x": x, "y": 4}))
-
-print("Walking to Mansion entrance...")
-for d, c in steps_cinnabar:
+for d, c in steps_to_col5:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    print("At Mansion entrance at (6, 4) on Cinnabar Island! Stepping UP to enter...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print(f"Entered Mansion! Landing position: {pos}")
-    
-    # 2. Walk to 2F West stairs
-    # Land at (2, 7) inside 1F West. Walk to Column 12 Row 11, then Column 5 Row 11
-    steps_1f_west = [
-        ("Right", {"x": 3, "y": 7}),
-        ("Right", {"x": 4, "y": 7}),
-        ("Right", {"x": 5, "y": 7}),
-        ("Right", {"x": 6, "y": 7}),
-        ("Right", {"x": 7, "y": 7}),
-        ("Right", {"x": 8, "y": 7}),
-        ("Right", {"x": 9, "y": 7}),
-        ("Right", {"x": 10, "y": 7}),
-        ("Right", {"x": 11, "y": 7}),
-        ("Right", {"x": 12, "y": 7}),
-        ("Down", {"x": 12, "y": 8}),
-        ("Down", {"x": 12, "y": 9}),
-        ("Down", {"x": 12, "y": 10}),
-        ("Down", {"x": 12, "y": 11}),
-        ("Left", {"x": 11, "y": 11}),
-        ("Left", {"x": 10, "y": 11}),
-        ("Left", {"x": 9, "y": 11}),
-        ("Left", {"x": 8, "y": 11}),
-        ("Left", {"x": 7, "y": 11}),
-        ("Left", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-    ]
-    print("Navigating 1F West to stairs...")
-    for d, c in steps_1f_west:
-        if not walk_step(d, c):
+    # Walk UP Column 5 to Row 11
+    print("Walking UP Column 5 to Row 11...")
+    for y in range(26, 10, -1):
+        if not walk_step("Up", {"x": 5, "y": y}):
             success = False
             break
             
     if success:
-        print("At (5, 11) on 1F West! Stepping UP onto stairs to warp UP to 2F West...")
+        print("At (5, 11) on 1F West! Attempting UP into stairs to warp...")
         mgba.press_buttons(["Up"])
         time.sleep(1.5)
         pos = mgba.get_coordinates()
-        print(f"Warped UP to 2F West! Landing position: {pos}")
         
-        # 3. 2F West to 2F East
+        if pos == {"x": 5, "y": 11}: # We didn't warp, probably blocked!
+            print("Direct UP warp blocked. Trying alternative path (Right, Up, Left)...")
+            if walk_step("Right", {"x": 6, "y": 11}):
+                if walk_step("Up", {"x": 6, "y": 10}):
+                    print("At (6, 10). Stepping LEFT onto stairs to warp...")
+                    mgba.press_buttons(["Left"])
+                    time.sleep(1.5)
+                    pos = mgba.get_coordinates()
+                    
+        print(f"Warped UP to 2F West! Current position: {pos}")
+        
+        # Now we should be on 2F West at (5, 11). Run the rest of the Master Route!
         steps_2f = [
             ("Up", {"x": 5, "y": 10}),
             ("Up", {"x": 5, "y": 9}),
@@ -178,7 +157,7 @@ if success:
             pos = mgba.get_coordinates()
             print(f"Warped UP to 3F East! Landing position: {pos}")
             
-            # 4. 3F East to Pitfall
+            # 3F East to Pitfall
             steps_3f_east = [
                 ("Right", {"x": 17, "y": 11}),
                 ("Right", {"x": 18, "y": 11}),
@@ -212,7 +191,7 @@ if success:
                 pos = mgba.get_coordinates()
                 print(f"Landed on 1F East inside fenced room! Position: {pos}")
                 
-                # 5. Dynamic 1F East navigation
+                # Dynamic 1F East navigation
                 while pos['y'] > 3:
                     if not walk_step("Up", {"x": pos['x'], "y": pos['y'] - 1}):
                         break
@@ -229,7 +208,7 @@ if success:
                     pos = mgba.get_coordinates()
                     print(f"Warped to B1F East! Position: {pos}")
                     
-                    # 6. B1F East to B1F West
+                    # B1F East to B1F West
                     steps_b1f = [
                         ("Left", {"x": 21, "y": 3}),
                         ("Down", {"x": 21, "y": 4}),
@@ -260,7 +239,7 @@ if success:
                             time.sleep(1.0)
                             print("Secret Key retrieved successfully! Current position:", mgba.get_coordinates())
                             
-                            # 7. DIG escape
+                            # DIG escape
                             print("Executing DIG escape...")
                             mgba.press_buttons(["Start", "sleep 400", "Down", "sleep 200", "A", "sleep 500"])
                             for _ in range(5):
@@ -277,7 +256,7 @@ if success:
                 print("Failed to reach pitfall on 3F East.")
         else:
             print("Failed to navigate 2F East.")
-        
+            
         # Make copy of solve_mansion_step_by_step.py just in case
         try:
             with open("solve_mansion_step_by_step.py", "w") as f:
@@ -287,4 +266,4 @@ if success:
     else:
         print("Failed to reach 1F West stairs.")
 else:
-    print("Failed to navigate Cinnabar Island.")
+    print("Failed to reach Column 5.")
