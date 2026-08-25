@@ -74,9 +74,26 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting solve from current position:", pos)
     
-    # We are at (12, 11) on 2F East in State A.
-    # 1. Walk UP Column 12 to Row 1
+    # 1. Dismiss "Got away safely!" text
+    print("Dismissing 'Got away safely!' text...")
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    
+    pos = mgba.get_coordinates()
+    print("Position on overworld:", pos)
+    
+    # 2. Walk horizontally along Row 11 to Column 12 (highly robust!)
+    if 5 <= pos['x'] <= 12 and pos['y'] == 11:
+        print("Walking horizontally along Row 11 to Column 12...")
+        curr_x = pos['x']
+        while curr_x < 12:
+            if not walk_step("Right", {"x": curr_x + 1, "y": 11}):
+                return
+            curr_x = mgba.get_coordinates()['x']
+            
+    pos = mgba.get_coordinates()
     if pos == {"x": 12, "y": 11}:
+        # 3. Walk UP Column 12 to Row 1
         print("Walking UP Column 12 to Row 1...")
         for y in range(10, 0, -1):
             if not walk_step("Up", {"x": 12, "y": y}):
@@ -85,7 +102,7 @@ def main():
     pos = mgba.get_coordinates()
     # Now we are at (12, 1) on 2F East
     if pos == {"x": 12, "y": 1}:
-        # 2. Walk DOWN Column 12 to Row 7
+        # 4. Walk DOWN Column 12 to Row 7
         if not run_steps([
             ("Down", {"x": 12, "y": 2}),
             ("Down", {"x": 12, "y": 3}),
@@ -99,7 +116,7 @@ def main():
             
     pos = mgba.get_coordinates()
     if pos == {"x": 12, "y": 7}:
-        # 3. Walk RIGHT along Row 7 to Column 15
+        # 5. Walk RIGHT along Row 7 to Column 15
         if not run_steps([
             ("Right", {"x": 13, "y": 7}),
             ("Right", {"x": 14, "y": 7}),
@@ -110,7 +127,7 @@ def main():
 
     pos = mgba.get_coordinates()
     if pos == {"x": 15, "y": 7}:
-        # 4. Walk DOWN Column 15 directly to stairs at (15, 11) (open in State A!)
+        # 6. Walk DOWN Column 15 directly to stairs at (15, 11) (open in State A!)
         print("Walking DOWN Column 15 to stairs...")
         steps_down_col15 = [
             ("Down", {"x": 15, "y": 8}),
