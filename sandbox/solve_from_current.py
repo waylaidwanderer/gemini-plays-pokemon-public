@@ -107,23 +107,17 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from current 1F East fenced room position:", pos)
     
-    # We must be at (22, 6) on 1F East inside the fenced room
-    if pos != {"x": 22, "y": 6}:
-        print("Error: Player is not at (22, 6)!")
+    # We must be at (18, 4) on 1F East inside the fenced room
+    if pos != {"x": 18, "y": 4}:
+        print("Error: Player is not at (18, 4)!")
         return
 
-    # --- STAGE 1: Walk to the staircase on 1F East by going around the partition ---
-    print("Walking left to Column 18, up to Row 3, and right to Column 22...")
+    # --- STAGE 1: Walk to the staircase at (22, 2) on 1F East ---
+    print("Walking right to Column 20, up to Row 3, and right to Column 22...")
     if not run_steps([
-        ("Left", {"x": 21, "y": 6}),
-        ("Left", {"x": 20, "y": 6}),
-        ("Left", {"x": 19, "y": 6}),
-        ("Left", {"x": 18, "y": 6}),
-        ("Up", {"x": 18, "y": 5}),
-        ("Up", {"x": 18, "y": 4}),
-        ("Up", {"x": 18, "y": 3}),
-        ("Right", {"x": 19, "y": 3}),
-        ("Right", {"x": 20, "y": 3}),
+        ("Right", {"x": 19, "y": 4}),
+        ("Right", {"x": 20, "y": 4}),
+        ("Up", {"x": 20, "y": 3}),
         ("Right", {"x": 21, "y": 3}),
         ("Right", {"x": 22, "y": 3}),
         ("Up", {"x": 22, "y": 2}), # Warp down to B1F East landing at (22, 3)
