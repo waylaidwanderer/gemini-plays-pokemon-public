@@ -72,43 +72,44 @@ def run_steps(steps):
     return True
 
 def use_dig():
-    print("Executing atomic DIG sequence with 350ms delays...")
-    dig_sequence = [
-        "B", "sleep 300",
-        "B", "sleep 300",
-        "B", "sleep 300",
-        "Start", "sleep 800",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Up", "sleep 350",
-        "Down", "sleep 350",
-        "A", "sleep 1200",
-        "Down", "sleep 350",
-        "Down", "sleep 350",
-        "Down", "sleep 350",
-        "Down", "sleep 350",
-        "Down", "sleep 350",
-        "A", "sleep 800",
-        "A", "sleep 3500"
-    ]
-    mgba.press_buttons(dig_sequence)
+    print("Executing guaranteed DIG sequence...")
+    # First press B multiple times to close any active menu/battle/text
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    time.sleep(0.5)
+    
+    # Open Start menu
+    mgba.press_buttons(["Start"])
     time.sleep(1.0)
+    
+    # Press Up 10 times to guarantee cursor is on POKéDEX
+    up_sequence = ["Up", "sleep 150"] * 10
+    mgba.press_buttons(up_sequence)
+    time.sleep(0.5)
+    
+    # Move to POKéMON and enter
+    mgba.press_buttons(["Down", "sleep 250", "A"])
+    time.sleep(1.0)
+    
+    # Move to Slot 6 (TRUFFLE)
+    down_sequence = ["Down", "sleep 250"] * 5
+    mgba.press_buttons(down_sequence)
+    time.sleep(0.5)
+    
+    # Select TRUFFLE and DIG
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(3.5)
+    
     pos = mgba.get_coordinates()
-    print("DIG finished. Current position:", pos)
+    print("Guaranteed DIG finished. Current position:", pos)
     return pos
 
 def main():
     pos = mgba.get_coordinates()
     print("Starting master solver step 1, current coords:", pos)
     
-    valid_positions = [{"x": 10, "y": 5}, {"x": 11, "y": 12}]
+    valid_positions = [{"x": 10, "y": 5}, {"x": 10, "y": 7}, {"x": 11, "y": 12}]
     if pos not in valid_positions:
         print("Error: Player is not at a valid starting position!")
         return
@@ -120,10 +121,36 @@ def main():
             print("DIG did not land at (11, 12). Current position:", pos)
             return
 
-    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Row 4 Bypass Route) ---
+    # If we landed at (11, 12), walk Left to (10, 12), then Up to (10, 7)
     if pos == {"x": 11, "y": 12}:
+        if not run_steps([
+            ("Left", {"x": 10, "y": 12}),
+        ]):
+            return
+        pos = mgba.get_coordinates()
+
+    # From (10, 12) we walk UP to (10, 7)
+    if pos == {"x": 10, "y": 12}:
+        if not run_steps([
+            ("Up", {"x": 10, "y": 11}),
+            ("Up", {"x": 10, "y": 10}),
+            ("Up", {"x": 10, "y": 9}),
+            ("Up", {"x": 10, "y": 8}),
+            ("Up", {"x": 10, "y": 7}),
+        ]):
+            return
+        pos = mgba.get_coordinates()
+
+    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass) ---
+    if pos == {"x": 10, "y": 7}:
         print("Walking to Pokemon Mansion Entrance...")
         if not run_steps([
+            ("Down", {"x": 10, "y": 8}),
+            ("Down", {"x": 10, "y": 9}),
+            ("Down", {"x": 10, "y": 10}),
+            ("Down", {"x": 10, "y": 11}),
+            ("Down", {"x": 10, "y": 12}),
+            ("Right", {"x": 11, "y": 12}),
             ("Right", {"x": 12, "y": 12}),
             ("Right", {"x": 13, "y": 12}),
             ("Right", {"x": 14, "y": 12}),
