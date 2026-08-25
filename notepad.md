@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse [Turn 16104]; Run 4 expired; starting Run 5 to take direct West route from Center Area (15, 24 -> 0, 24) into Area 3 (West) for Gold Teeth & HM03 Surf.
+- Location: Safari Zone Center (Area 0) at (5, 21) [Turn 16111]; Run 5 active with 486 steps; traversing verified ring route: Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West) for Gold Teeth & HM03 Surf.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1776,18 +1776,22 @@
 
 # Safari Zone Master Routing & Strategy (Run 5)
 
-## Direct Route to Area 3 (West)
+## Ring Route to Area 3 (West)
 1. **Safari Zone Center (Area 0)**:
-   - Enter at (15, 24) with 500 steps budget.
-   - Walk straight **WEST** along row 24/20 to col 0 (~15-20 steps).
-   - Enter **Safari Zone Area 3 (West)** at col 0.
-2. **Safari Zone Area 3 (West)** (~480 steps budget remaining):
+   - Current: (5, 21) with 486 steps remaining.
+   - Walk East across southern boulevard (row 21/24) to (29, 10) exit into Area 1 (~30 steps).
+2. **Safari Zone Area 1 (East)** (~455 steps remaining):
+   - Take northern lawn bypass (row 21 -> col 24 plateau at row 15 -> col 6-7 at row 5) to northwest exit at (0, 5) (~60 steps).
+3. **Safari Zone Area 2 (North)** (~395 steps remaining):
+   - Enter at (39, 31). Walk west to (28, 31), north up col 28 to row 2 (Northern Thoroughfare).
+   - Sprint west along row 2 to col 1, then south down col 1 corridor to (0, 35) to step into Area 3 (West) (~100 steps).
+4. **Safari Zone Area 3 (West)** (~295 steps remaining):
    - Locate and retrieve **Gold Teeth** on ground.
    - Locate **Secret House** in northwest and receive **HM03 (Surf)**.
 
 ## Objectives & Bag Space
 - Bag capacity: 18 / 20 used (2 empty slots ready for Gold Teeth & HM03 Surf).
-- Funds: �27,000+ (plenty of entry fees).
+- Funds: �27,000+
 
 
 <hr>
