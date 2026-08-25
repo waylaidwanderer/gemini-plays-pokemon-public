@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (31, 31) [Turn 15887]; moving west along row 29 towards western Area 2 and Area 3 (West) connection with ~268 steps budget.
+- Location: Safari Zone Area 2 (North) at (23, 29) [Turn 15890]; moving south to row 32 open avenue and west towards western Area 2 and Area 3 (West) with ~258 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1780,17 +1780,15 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 232 steps (Turn 15887)
-- Steps Remaining at (31, 31) in Area 2: ~268 steps
+- Steps Expended so far: 242 steps (Turn 15890)
+- Steps Remaining at (23, 29) in Area 2: ~258 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
 ## Area 2 (North) Topography & Plan
 - Entered at (39, 31) from Area 1 (East).
-- Reached (31, 31) on row 31 avenue.
-- Visual Landmarks:
-  - Stairs at (28, 27) leading onto northern plateau (row 27).
-  - Open lawn corridors along rows 28-30 extending west past col 27.
-- Navigation: Moving west along row 29 across central Area 2 towards western Area 3 connection.
+- Reached (23, 29) in central tall grass.
+- Open green avenue identified along row 32 (cols 19-22).
+- Plan: Step down to row 32 and sprint west along row 32 thoroughfare into western Area 2 towards Area 3 (West) boundary.
 
 
 <hr>
