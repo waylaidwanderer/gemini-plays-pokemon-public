@@ -74,20 +74,15 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting solve from current position:", pos)
     
-    # We are in battle with Grimer at (16, 7). First run away!
-    print("Fleeing from battle...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-    time.sleep(2.0)
-    # Clear "Got away safely!" text
+    # 1. Dismiss "Got away safely!" text
+    print("Dismissing 'Got away safely!' text...")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     
     pos = mgba.get_coordinates()
-    print("Position after escaping battle:", pos)
+    print("Position on overworld:", pos)
     
-    # 1. Walk LEFT to Column 12
+    # 2. Walk LEFT along Row 7 to Column 12
     if pos == {"x": 16, "y": 7}:
         if not run_steps([
             ("Left", {"x": 15, "y": 7}),
@@ -100,7 +95,7 @@ def main():
             
     pos = mgba.get_coordinates()
     if pos == {"x": 12, "y": 7}:
-        # 2. Walk DOWN Column 12 to Row 11
+        # 3. Walk DOWN Column 12 to Row 11
         if not run_steps([
             ("Down", {"x": 12, "y": 8}),
             ("Down", {"x": 12, "y": 9}),
@@ -112,7 +107,7 @@ def main():
 
     pos = mgba.get_coordinates()
     if pos == {"x": 12, "y": 11}:
-        # 3. Walk RIGHT to Column 15 stairs to warp UP to 3F East
+        # 4. Walk RIGHT to Column 15 stairs to warp UP to 3F East
         if not run_steps([
             ("Right", {"x": 13, "y": 11}),
             ("Right", {"x": 14, "y": 11}),
