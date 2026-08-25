@@ -100,7 +100,7 @@ def main():
             mgba.press_buttons(["Right"])
             time.sleep(1.5)
             
-    # --- STAGE 5: Mansion 2F West (landing at (7, 11), State A) ---
+    # --- STAGE 5: Mansion 2F West (landing at (7, 11) or (7, 10), State A) ---
     pos = mgba.get_coordinates()
     if success and (pos == {"x": 7, "y": 11} or pos == {"x": 7, "y": 10}):
         print("STAGE 5: Walking from 2F West to 2F East stairs...")
@@ -110,33 +110,33 @@ def main():
         if success:
             if not run_steps([
                 ("Left", {"x": 6, "y": 11}),
-            ("Up", {"x": 6, "y": 10}),
-            ("Up", {"x": 6, "y": 9}),
-            ("Up", {"x": 6, "y": 8}),
-            ("Up", {"x": 6, "y": 7}),
-            ("Up", {"x": 6, "y": 6}),
-            ("Up", {"x": 6, "y": 5}),
-            ("Up", {"x": 6, "y": 4}),
-            ("Right", {"x": 7, "y": 4}),
-            ("Right", {"x": 8, "y": 4}),
-            ("Right", {"x": 9, "y": 4}),
-            ("Right", {"x": 10, "y": 4}),
-            ("Right", {"x": 11, "y": 4}),
-            ("Right", {"x": 12, "y": 4}),
-            ("Down", {"x": 12, "y": 5}),
-            ("Down", {"x": 12, "y": 6}),
-            ("Down", {"x": 12, "y": 7}),
-            ("Right", {"x": 13, "y": 7}),
-            ("Right", {"x": 14, "y": 7}),
-            ("Right", {"x": 15, "y": 7}),
-            ("Right", {"x": 16, "y": 7}),
-            ("Down", {"x": 16, "y": 8}),
-            ("Down", {"x": 16, "y": 9}),
-            ("Down", {"x": 16, "y": 10}),
-            ("Down", {"x": 16, "y": 11}),
-            ("Left", {"x": 15, "y": 11}),
-        ]):
-            success = False
+                ("Up", {"x": 6, "y": 10}),
+                ("Up", {"x": 6, "y": 9}),
+                ("Up", {"x": 6, "y": 8}),
+                ("Up", {"x": 6, "y": 7}),
+                ("Up", {"x": 6, "y": 6}),
+                ("Up", {"x": 6, "y": 5}),
+                ("Up", {"x": 6, "y": 4}),
+                ("Right", {"x": 7, "y": 4}),
+                ("Right", {"x": 8, "y": 4}),
+                ("Right", {"x": 9, "y": 4}),
+                ("Right", {"x": 10, "y": 4}),
+                ("Right", {"x": 11, "y": 4}),
+                ("Right", {"x": 12, "y": 4}),
+                ("Down", {"x": 12, "y": 5}),
+                ("Down", {"x": 12, "y": 6}),
+                ("Down", {"x": 12, "y": 7}),
+                ("Right", {"x": 13, "y": 7}),
+                ("Right", {"x": 14, "y": 7}),
+                ("Right", {"x": 15, "y": 7}),
+                ("Right", {"x": 16, "y": 7}),
+                ("Down", {"x": 16, "y": 8}),
+                ("Down", {"x": 16, "y": 9}),
+                ("Down", {"x": 16, "y": 10}),
+                ("Down", {"x": 16, "y": 11}),
+                ("Left", {"x": 15, "y": 11}),
+            ]):
+                success = False
             
         if success:
             print("At (15, 11) on 2F East! Stepping LEFT onto stairs to warp UP to 3F East...")
