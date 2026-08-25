@@ -74,18 +74,20 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver step 1 from Cinnabar Island:", pos)
     
-    if pos != {"x": 4, "y": 11}:
-        print("Error: Player is not at (4, 11)!")
+    if pos != {"x": 8, "y": 11}:
+        print("Error: Player is not at (8, 11)!")
         return
 
-    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass Route on Row 11) ---
+    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass Route) ---
     print("Walking to Pokemon Mansion Entrance...")
-    steps = []
-    # Walk Right along Row 11 to Column 18
-    for x in range(5, 19):
-        steps.append(("Right", {"x": x, "y": 11}))
+    steps = [
+        ("Down", {"x": 8, "y": 12}),
+    ]
+    # Walk Right along Row 12 to Column 18
+    for x in range(9, 19):
+        steps.append(("Right", {"x": x, "y": 12}))
     # Walk Up Column 18 to Row 3
-    for y in range(10, 2, -1):
+    for y in range(11, 2, -1):
         steps.append(("Up", {"x": 18, "y": y}))
     # Walk Left along Row 3 to Column 6 (warps inside)
     for x in range(17, 5, -1):
