@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse [Turn 15721]; re-entering with full 500 steps to execute the direct 39-step superhighway (Center 14,0 -> Area 2 14,36 -> Area 3 0,36) to retrieve HM03 Surf and Gold Teeth with ~460 steps budget.
+- Location: Safari Zone Center at (9, 2) [Turn 15784]; navigating east along row 2 to (20, 0) to return to Area 2 (North).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1767,19 +1767,10 @@
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
 - South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
-## Verified Direct 39-Step Superhighway to Area 3 (West)
-1. Enter Safari Zone Center (Area 0) at (14, 25).
-2. Walk straight North along col 14 to (14, 0) -> enters Area 2 (North) at (14, 36). (25 steps)
-3. In Area 2 (North), walk straight West along row 36 to (0, 36) -> enters Area 3 (West)! (14 steps)
-Total steps from Entrance to Area 3: ~39 steps (leaving ~461 steps budget for Area 3!).
-
-## Area 2 (North) Complete Proven Route to Area 3 (West)
-- Enter Area 2 at (39, 31) from Area 1 (East).
-- Walk West along row 28 to (25, 28), then step North to (25, 24).
-- Walk Left to (22, 24), then Up over stairs at (22, 23) onto the central plateau at (22, 22).
-- Walk West along plateau at row 22 to (16, 22), then South to stairs at (16, 27).
-- Step Down off stairs to ground at (16, 28).
-- Step Down to row 30 (bypassing pond at cols 8-11, rows 24-29) and walk West along row 30 all the way to col 0 to enter Safari Zone Area 3 (West)!
-- Total step cost: ~35 steps from Safari Zone entrance!
+## Area 2 (North) Verified Landmarks & Traversal Notes
+- East Entrance: (39, 31) from Area 1 (East).
+- South Boundary (row 36): Steps south into Safari Zone Center at (20, 0).
+- Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
+- Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
 
 <hr>
