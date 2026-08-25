@@ -39,6 +39,7 @@ def handle_any_menu_or_battle():
         
         if percentage2 > 0.90:
             print("Still in battle. Running...")
+            # RUN: DOWN, then RIGHT, then A
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
             # Dismiss run text
@@ -71,21 +72,43 @@ def run_steps(steps):
     return True
 
 def main():
-    pos = mgba.get_coordinates()
-    print("Starting master solver from 3F West position:", pos)
-    
-    # Dismiss any text
+    # Dismiss battle end text
+    print("Dismissing battle text...")
     mgba.press_buttons(["B"])
-    time.sleep(0.3)
+    time.sleep(0.5)
+    
+    pos = mgba.get_coordinates()
+    print("Position after dismissing battle text:", pos)
     
     success = True
     
-    # We are at (3, 11) on 3F West
-    if pos == {"x": 3, "y": 11}:
-        print("STAGE 6: Walking around statue to Column 1...")
+    # We are at (1, 10) on 3F West
+    if pos == {"x": 1, "y": 10}:
+        print("STAGE 6b: Walking DOWN to (1, 12)...")
         if not run_steps([
-            ("Down", {"x": 3, "y": 12}),
-            ("Left", {"x": 2, "y": 12}),
+            ("Down", {"x": 1, "y": 11}),
+            ("Down", {"x": 1, "y": 12}),
+            ("Right", {"x": 2, "y": 12}),
+        ]):
+            success = False
+            
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 2, "y": 12}:
+        # Toggle switch to State B
+        print("At (2, 12) on 3F West! Facing UP towards switch at (2, 11)...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+        mgba.press_buttons(["A"]) # "A secret switch!"
+        time.sleep(0.8)
+        mgba.press_buttons(["A"]) # select YES
+        time.sleep(0.8)
+        mgba.press_buttons(["A"]) # "Pressed it!"
+        time.sleep(0.8)
+        print("Successfully toggled switch to State B!")
+        
+        # Walk back to Column 1 Row 9 on 3F West
+        print("Walking back to Column 1 Row 9...")
+        if not run_steps([
             ("Left", {"x": 1, "y": 12}),
             ("Up", {"x": 1, "y": 11}),
             ("Up", {"x": 1, "y": 10}),
