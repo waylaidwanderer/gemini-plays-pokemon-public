@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (9, 13) [Turn 16141]; Run 5 active with ~370 steps; navigating north along col 10 corridor to row 5 and west to (0, 5) into Area 2 (North) -> Area 3 (West).
+- Location: Safari Zone Center at (4, 17) [Turn 16204]; Run 6 active with ~480 steps; testing southwest boundary (cols 0-1, rows 22-25) vs Route B fallback into Area 3 (West).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
