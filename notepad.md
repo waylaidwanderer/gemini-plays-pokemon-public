@@ -1773,5 +1773,13 @@
 3. In Area 2 (North), walk straight West along row 36 to (0, 36) -> enters Area 3 (West)! (14 steps)
 Total steps from Entrance to Area 3: ~39 steps (leaving ~461 steps budget for Area 3!).
 
+## Area 2 (North) Complete Proven Route to Area 3 (West)
+- Enter Area 2 at (39, 31) from Area 1 (East).
+- Walk West along row 28 to (25, 28), then step North to (25, 24).
+- Walk Left to (22, 24), then Up over stairs at (22, 23) onto the central plateau at (22, 22).
+- Walk West along plateau at row 22 to (16, 22), then South to stairs at (16, 27).
+- Step Down off stairs to ground at (16, 28).
+- Step Down to row 30 (bypassing pond at cols 8-11, rows 24-29) and walk West along row 30 all the way to col 0 to enter Safari Zone Area 3 (West)!
+- Total step cost: ~35 steps from Safari Zone entrance!
 
 <hr>
