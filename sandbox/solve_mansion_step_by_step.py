@@ -70,8 +70,7 @@ def run_steps(steps):
             return False
     return True
 
-def if __name__ == "__main__":
-    main():
+def main():
     pos = mgba.get_coordinates()
     print("Starting step-by-step master solver from current position:", pos)
     
@@ -375,4 +374,5 @@ def if __name__ == "__main__":
         time.sleep(3.0)
         print("Warped out successfully! Final position:", mgba.get_coordinates())
 
-main()
+if __name__ == "__main__":
+    main()
