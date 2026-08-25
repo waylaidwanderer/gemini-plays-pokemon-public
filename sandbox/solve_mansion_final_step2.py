@@ -105,78 +105,82 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting master solver step 1 from B1F East:", pos)
+    print("Starting master solver step 1, current coords:", pos)
     
-    if pos != {"x": 10, "y": 5}:
-        print("Error: Player is not at (10, 5)!")
+    valid_positions = [{"x": 10, "y": 5}, {"x": 11, "y": 12}]
+    if pos not in valid_positions:
+        print("Error: Player is not at a valid starting position!")
         return
 
-    # --- STAGE 0: DIG out from B1F East ---
-    pos = use_dig()
-    if pos != {"x": 11, "y": 12}:
-        print("DIG did not land at (11, 12). Current position:", pos)
-        return
+    # --- STAGE 0: DIG out from B1F East if we are there ---
+    if pos == {"x": 10, "y": 5}:
+        pos = use_dig()
+        if pos != {"x": 11, "y": 12}:
+            print("DIG did not land at (11, 12). Current position:", pos)
+            return
 
     # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Row 4 Bypass) ---
-    print("Walking to Pokemon Mansion Entrance...")
-    if not run_steps([
-        ("Right", {"x": 12, "y": 12}),
-        ("Right", {"x": 13, "y": 12}),
-        ("Right", {"x": 14, "y": 12}),
-        ("Right", {"x": 15, "y": 12}),
-        ("Right", {"x": 16, "y": 12}),
-        ("Right", {"x": 17, "y": 12}),
-        ("Right", {"x": 18, "y": 12}),
-        ("Up", {"x": 18, "y": 11}),
-        ("Up", {"x": 18, "y": 10}),
-        ("Up", {"x": 18, "y": 9}),
-        ("Up", {"x": 18, "y": 8}),
-        ("Up", {"x": 18, "y": 7}),
-        ("Up", {"x": 18, "y": 6}),
-        ("Up", {"x": 18, "y": 5}),
-        ("Up", {"x": 18, "y": 4}),
-        ("Left", {"x": 17, "y": 4}),
-        ("Left", {"x": 16, "y": 4}),
-        ("Left", {"x": 15, "y": 4}),
-        ("Left", {"x": 14, "y": 4}),
-        ("Left", {"x": 13, "y": 4}),
-        ("Left", {"x": 12, "y": 4}),
-        ("Left", {"x": 11, "y": 4}),
-        ("Left", {"x": 10, "y": 4}),
-        ("Left", {"x": 9, "y": 4}),
-        ("Left", {"x": 8, "y": 4}),
-        ("Left", {"x": 7, "y": 4}),
-        ("Left", {"x": 6, "y": 4}),
-        ("Up", {"x": 6, "y": 3}),
-        ("Up", {"x": 5, "y": 27}), # Entered 1F West!
-    ]):
-        print("Failed to enter Mansion.")
-        return
-    pos = mgba.get_coordinates()
+    if pos == {"x": 11, "y": 12}:
+        print("Walking to Pokemon Mansion Entrance...")
+        if not run_steps([
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+            ("Up", {"x": 18, "y": 11}),
+            ("Up", {"x": 18, "y": 10}),
+            ("Up", {"x": 18, "y": 9}),
+            ("Up", {"x": 18, "y": 8}),
+            ("Up", {"x": 18, "y": 7}),
+            ("Up", {"x": 18, "y": 6}),
+            ("Up", {"x": 18, "y": 5}),
+            ("Up", {"x": 18, "y": 4}),
+            ("Left", {"x": 17, "y": 4}),
+            ("Left", {"x": 16, "y": 4}),
+            ("Left", {"x": 15, "y": 4}),
+            ("Left", {"x": 14, "y": 4}),
+            ("Left", {"x": 13, "y": 4}),
+            ("Left", {"x": 12, "y": 4}),
+            ("Left", {"x": 11, "y": 4}),
+            ("Left", {"x": 10, "y": 4}),
+            ("Left", {"x": 9, "y": 4}),
+            ("Left", {"x": 8, "y": 4}),
+            ("Left", {"x": 7, "y": 4}),
+            ("Left", {"x": 6, "y": 4}),
+            ("Up", {"x": 6, "y": 3}),
+            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
+        ]):
+            print("Failed to enter Mansion.")
+            return
+        pos = mgba.get_coordinates()
 
     # --- STAGE 2: Walk UP Column 5 on 1F West to stairs ---
-    print("Walking UP Column 5 on 1F West...")
-    if not run_steps([
-        ("Up", {"x": 5, "y": 26}),
-        ("Up", {"x": 5, "y": 25}),
-        ("Up", {"x": 5, "y": 24}),
-        ("Up", {"x": 5, "y": 23}),
-        ("Up", {"x": 5, "y": 22}),
-        ("Up", {"x": 5, "y": 21}),
-        ("Up", {"x": 5, "y": 20}),
-        ("Up", {"x": 5, "y": 19}),
-        ("Up", {"x": 5, "y": 18}),
-        ("Up", {"x": 5, "y": 17}),
-        ("Up", {"x": 5, "y": 16}),
-        ("Up", {"x": 5, "y": 15}),
-        ("Up", {"x": 5, "y": 14}),
-        ("Up", {"x": 5, "y": 13}),
-        ("Up", {"x": 5, "y": 12}),
-        ("Up", {"x": 5, "y": 11}),
-        ("Up", {"x": 5, "y": 10}),
-    ]):
-        return
-    pos = mgba.get_coordinates()
+    if pos == {"x": 5, "y": 27}:
+        print("Walking UP Column 5 on 1F West...")
+        if not run_steps([
+            ("Up", {"x": 5, "y": 26}),
+            ("Up", {"x": 5, "y": 25}),
+            ("Up", {"x": 5, "y": 24}),
+            ("Up", {"x": 5, "y": 23}),
+            ("Up", {"x": 5, "y": 22}),
+            ("Up", {"x": 5, "y": 21}),
+            ("Up", {"x": 5, "y": 20}),
+            ("Up", {"x": 5, "y": 19}),
+            ("Up", {"x": 5, "y": 18}),
+            ("Up", {"x": 5, "y": 17}),
+            ("Up", {"x": 5, "y": 16}),
+            ("Up", {"x": 5, "y": 15}),
+            ("Up", {"x": 5, "y": 14}),
+            ("Up", {"x": 5, "y": 13}),
+            ("Up", {"x": 5, "y": 12}),
+            ("Up", {"x": 5, "y": 11}),
+            ("Up", {"x": 5, "y": 10}),
+        ]):
+            return
+        pos = mgba.get_coordinates()
 
     # --- STAGE 3: Warp 1F -> 2F West ---
     if pos == {"x": 5, "y": 10}:
