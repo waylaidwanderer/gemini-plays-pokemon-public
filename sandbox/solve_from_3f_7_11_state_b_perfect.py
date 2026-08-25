@@ -70,26 +70,17 @@ def walk_step(direction, expected_coords, retries=15):
 # Starting at (7, 11) on 3F West (State B)
 success = True
 
-# 1. Walk RIGHT to Column 9 Row 11
-print("Walking RIGHT to Column 9...")
-steps_right = [
-    ("Right", {"x": 8, "y": 11}),
-    ("Right", {"x": 9, "y": 11}),
-]
-for d, c in steps_right:
-    if not walk_step(d, c):
-        success = False
-        break
-
-if success:
-    # 2. Walk DOWN Column 9 to Row 14
-    print("Walking DOWN Column 9 to Row 14...")
-    steps_down_col9 = [
-        ("Down", {"x": 9, "y": 12}),
-        ("Down", {"x": 9, "y": 13}),
-        ("Down", {"x": 9, "y": 14}),
+# 1. Walk RIGHT to Column 8 Row 11
+print("Walking RIGHT to Column 8...")
+if walk_step("Right", {"x": 8, "y": 11}):
+    # 2. Walk DOWN Column 8 to Row 14
+    print("Walking DOWN Column 8 to Row 14...")
+    steps_down_col8 = [
+        ("Down", {"x": 8, "y": 12}),
+        ("Down", {"x": 8, "y": 13}),
+        ("Down", {"x": 8, "y": 14}),
     ]
-    for d, c in steps_down_col9:
+    for d, c in steps_down_col8:
         if not walk_step(d, c):
             success = False
             break
@@ -98,7 +89,7 @@ if success:
         # 3. Walk LEFT along Row 14 to Column 1 (1, 14)
         print("Walking LEFT along Row 14 to Column 1...")
         steps_left_row14 = []
-        for x in range(8, 0, -1):
+        for x in range(7, 0, -1):
             steps_left_row14.append(("Left", {"x": x, "y": 14}))
         for d, c in steps_left_row14:
             if not walk_step(d, c):
