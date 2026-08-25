@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (18, 32) [Turn 16051]; Run 4 active with ~285 steps budget; taking central plateau bridge (22, 24 -> 16, 27) across col 17 bush barrier into western corridor (col 0) for Area 3 (West).
+- Location: Safari Zone Area 2 (North) at (13, 2) [Turn 16081]; Run 4 active with ~250 steps budget; sprinting west along Northern Thoroughfare (row 2) to col 0 for Area 3 (West) entrance.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1765,7 +1765,6 @@
 ## Area 2 (North) Topology & Verified Landmarks
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
 - South Boundary: Stepping south across row 36 (verified at cols 2 and 20) warps back to Safari Zone Center at (20, 0) [Turns 15718, 15776].
-## Area 2 (North) Traversal Notes
 - Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
 - Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
 
@@ -1791,9 +1790,9 @@
    - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
 
 ## Step Budget Tracker (Run 4)
-- Current: Turn 16042 at (0, 5) entering Area 2 (North) with ~315 steps remaining.
-- Estimated steps to reach Area 3: ~80 steps.
-- Estimated arrival in Area 3: ~345 steps remaining (huge surplus).
+- Current: Turn 16081 at (13, 2) on Northern Thoroughfare with ~250 steps remaining.
+- Distance to Area 3 (West) boundary (col 0): 13 steps.
+- Estimated arrival in Area 3: ~235 steps remaining (huge surplus for Gold Teeth & Secret House).
 
 ## Bag Space
 - 2 empty slots available (Rare Candy and TM10 consumed; Double-Edge taught to HYDROS Lv 52).
