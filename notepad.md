@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Center (Area 0) at (10, 21) [Turn 15991]; Run 4 active with 492 steps budget; fleeing wild Nidoran♀ to continue west towards Area 3 (West).
+- Location: Safari Zone Area 2 (North) at (18, 32) [Turn 16051]; Run 4 active with ~285 steps budget; taking central plateau bridge (22, 24 -> 16, 27) across col 17 bush barrier into western corridor (col 0) for Area 3 (West).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
