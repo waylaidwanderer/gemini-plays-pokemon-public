@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse at (4, 3) [Turn 16508]; Starting Run 10 (fresh 500-step budget); executing verified 198-step Master Route (Center -> Area 1 -> Area 2 Central Ridge -> Col 12 Corridor -> Row 2 Highway -> Col 2 Corridor -> Area 3 West) to retrieve Gold Teeth & HM03 Surf.
+- Location: Safari Zone Area 2 (North) at (15, 11) [Turn 16528]; Run 10 active (~340 steps remaining); advancing 52 steps (Up 9 to row 2 -> Left 13 to col 2 -> Down 28 to row 30 -> Left 2) into Area 3 (West) for Gold Teeth & HM03 Surf.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
