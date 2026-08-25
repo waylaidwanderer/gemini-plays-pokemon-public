@@ -67,46 +67,41 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Starting at (5, 11) on 3F West (State B)
+# Starting at (1, 10) on 3F West (State B)
 success = True
 
-# 1. Walk DOWN Column 5 to Row 13, and LEFT Row 13 to Column 1 (bypassing solid rubble on Column 3 Row 11/12!)
-print("Walking DOWN Column 5 to Row 13 and LEFT to Column 1 to bypass NPC and rubble...")
-steps_bypass_npc = [
-    ("Down", {"x": 5, "y": 12}),
-    ("Down", {"x": 5, "y": 13}),
-    ("Left", {"x": 4, "y": 13}),
-    ("Left", {"x": 3, "y": 13}),
-    ("Left", {"x": 2, "y": 13}),
-    ("Left", {"x": 1, "y": 13}),
-    ("Up", {"x": 1, "y": 12}),
-    ("Up", {"x": 1, "y": 11}),
+# 1. Walk RIGHT along Row 10 to Column 5
+print("Walking RIGHT along Row 10 to Column 5...")
+steps_right_row10 = [
+    ("Right", {"x": 2, "y": 10}),
+    ("Right", {"x": 3, "y": 10}),
+    ("Right", {"x": 4, "y": 10}),
+    ("Right", {"x": 5, "y": 10}),
 ]
-for d, c in steps_bypass_npc:
+for d, c in steps_right_row10:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    # 2. Walk UP Column 1 to Row 6 (Row 9 gate is open in State B!)
-    print("Reached (1, 11) on 3F West! Walking UP Column 1 to Row 6...")
-    steps_up_col1 = [
-        ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}),  # Open gate in State B!
-        ("Up", {"x": 1, "y": 8}),
-        ("Up", {"x": 1, "y": 7}),
-        ("Up", {"x": 1, "y": 6}),
+    # 2. Walk UP Column 5 to Row 6 (Row 9 Column 5 is open!)
+    print("Reached (5, 10)! Walking UP Column 5 to Row 6...")
+    steps_up_col5 = [
+        ("Up", {"x": 5, "y": 9}), # Open!
+        ("Up", {"x": 5, "y": 8}), # Open!
+        ("Up", {"x": 5, "y": 7}),
+        ("Up", {"x": 5, "y": 6}),
     ]
-    for d, c in steps_up_col1:
+    for d, c in steps_up_col5:
         if not walk_step(d, c):
             success = False
             break
 
 if success:
-    # 3. Walk RIGHT along Row 6 across Column 10 to Column 20 on 3F East (Row 6 crossing is permanently open!)
-    print("Reached (1, 6)! Walking RIGHT to Column 20...")
+    # 3. Walk RIGHT along Row 6 to Column 20 on 3F East (permanently open crossing)
+    print("Reached (5, 6)! Walking RIGHT to Column 20...")
     steps_right_row6 = []
-    for x in range(2, 21):
+    for x in range(6, 21):
         steps_right_row6.append(("Right", {"x": x, "y": 6}))
     for d, c in steps_right_row6:
         if not walk_step(d, c):
@@ -115,7 +110,7 @@ if success:
 
 if success:
     # 4. Walk UP Column 20 to Row 3 (bypassing pitfalls on Rows 5/6)
-    print("Reached (20, 6) on 3F East! Walking UP Column 20 to Row 3...")
+    print("Reached (20, 6)! Walking UP Column 20 to Row 3...")
     steps_up_col20 = [
         ("Up", {"x": 20, "y": 5}),
         ("Up", {"x": 20, "y": 4}),
