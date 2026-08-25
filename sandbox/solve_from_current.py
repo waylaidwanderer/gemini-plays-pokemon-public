@@ -107,13 +107,33 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from current position:", pos)
     
-    # We must be at (3, 11) or (2, 12) or (1, 12) on 3F West
-    valid_positions = [{"x": 3, "y": 11}, {"x": 2, "y": 12}, {"x": 1, "y": 12}]
+    # We must be at a valid 3F West starting position
+    valid_positions = [{"x": 3, "y": 11}, {"x": 2, "y": 12}, {"x": 1, "y": 12}, {"x": 12, "y": 9}]
     if pos not in valid_positions:
         print("Error: Player is not at a valid starting position!")
         return
 
-    # --- STAGE 0c: If we start at (1, 12) on 3F West (already in State B) ---
+    # --- STAGE 0: If we start at (12, 9) on 3F West (current position) ---
+    if pos == {"x": 12, "y": 9}:
+        print("At (12, 9). Walking down to Row 12 to bypass Column 13...")
+        if not run_steps([
+            ("Down", {"x": 12, "y": 10}),
+            ("Down", {"x": 12, "y": 11}),
+            ("Down", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+            ("Right", {"x": 19, "y": 12}),
+            ("Right", {"x": 20, "y": 12}),
+        ]):
+            print("Failed to bypass Column 13 from (12, 9).")
+            return
+        pos = mgba.get_coordinates()
+
+    # --- STAGE 0c: If we start at (1, 12) on 3F West ---
     if pos == {"x": 1, "y": 12}:
         print("At (1, 12) in State B. Navigating to Column 10 Row 9...")
         if not run_steps([
@@ -188,29 +208,35 @@ def main():
             return
         pos = mgba.get_coordinates()
 
-    # --- STAGE 4: Cross to 3F East and Walk to Column 20 ---
+    # --- STAGE 4: Cross horizontally on Row 12 to bypass Column 13 ---
     if pos == {"x": 10, "y": 9}:
-        print("Crossing horizontally on Row 9 to Column 20 on 3F East...")
+        print("At (10, 9). Walking down to Row 12 and crossing to Column 20 on 3F East...")
         if not run_steps([
-            ("Right", {"x": 11, "y": 9}),
-            ("Right", {"x": 12, "y": 9}),
-            ("Right", {"x": 13, "y": 9}),
-            ("Right", {"x": 14, "y": 9}),
-            ("Right", {"x": 15, "y": 9}),
-            ("Right", {"x": 16, "y": 9}),
-            ("Right", {"x": 17, "y": 9}),
-            ("Right", {"x": 18, "y": 9}),
-            ("Right", {"x": 19, "y": 9}),
-            ("Right", {"x": 20, "y": 9}),
+            ("Down", {"x": 10, "y": 10}),
+            ("Down", {"x": 10, "y": 11}),
+            ("Down", {"x": 10, "y": 12}),
+            ("Right", {"x": 11, "y": 12}),
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+            ("Right", {"x": 19, "y": 12}),
+            ("Right", {"x": 20, "y": 12}),
         ]):
-            print("Failed to reach Column 20 on Row 9.")
+            print("Failed to reach Column 20 on Row 12.")
             return
         pos = mgba.get_coordinates()
 
     # --- STAGE 5: Walk UP Column 20 and RIGHT Row 3 to Pitfall ---
-    if pos == {"x": 20, "y": 9}:
+    if pos == {"x": 20, "y": 12}:
         print("Walking UP Column 20 and RIGHT along Row 3 to pitfall...")
         if not run_steps([
+            ("Up", {"x": 20, "y": 11}),
+            ("Up", {"x": 20, "y": 10}),
+            ("Up", {"x": 20, "y": 9}),
             ("Up", {"x": 20, "y": 8}),
             ("Up", {"x": 20, "y": 7}),
             ("Up", {"x": 20, "y": 6}),
