@@ -116,3 +116,5 @@ To reach 3F East from 2F West when the mansion is in State B (which closes the C
 - **Turn 58776:** Player at `(2, 12)` facing RIGHT, pressed `A` (Did NOT toggle switch).
 - **Turn 58777:** Player at `(2, 12)` facing UP, selected NO by pressing B too quickly on YES/NO menu. Did NOT toggle switch.
 - **Turn 58780:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State A to State B (Row 9 gates OPEN). Verified OPEN on Turn 58782. Current mansion state: **STATE B**.
+## Decorative Mewtwo Statues (No Switches)
+- **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
