@@ -13,14 +13,18 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (5, 11) on 3F West (State B)
-# Walk Up to Row 10 to bypass the NPC at (4, 11), then walk Left and UP Column 1
+# Starting at (4, 10) on 3F West (State B)
+# Walk Down to Row 13, Left on Row 13 to Column 1, and UP Column 1
 steps = [
-    ("Up", {"x": 5, "y": 10}),
-    ("Left", {"x": 4, "y": 10}),
-    ("Left", {"x": 3, "y": 10}),
-    ("Left", {"x": 2, "y": 10}),
-    ("Left", {"x": 1, "y": 10}),
+    ("Down", {"x": 4, "y": 11}),
+    ("Down", {"x": 4, "y": 12}),
+    ("Down", {"x": 4, "y": 13}),
+    ("Left", {"x": 3, "y": 13}),
+    ("Left", {"x": 2, "y": 13}),
+    ("Left", {"x": 1, "y": 13}),
+    ("Up", {"x": 1, "y": 12}),
+    ("Up", {"x": 1, "y": 11}),
+    ("Up", {"x": 1, "y": 10}),
     ("Up", {"x": 1, "y": 9}),   # Open gate in State B!
     ("Up", {"x": 1, "y": 8}),
     ("Up", {"x": 1, "y": 7}),
