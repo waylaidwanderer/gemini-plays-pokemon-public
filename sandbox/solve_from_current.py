@@ -71,32 +71,31 @@ def run_steps(steps):
     return True
 
 def use_dig():
-    print("Executing atomic DIG sequence...")
-    # Dismiss any menus/text, open Start menu, navigate to Pokemon, Slot 6, select DIG
+    print("Executing atomic DIG sequence with 350ms delays...")
     dig_sequence = [
-        "B", "sleep 250",
-        "B", "sleep 250",
-        "B", "sleep 250",
-        "Start", "sleep 500",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Up", "sleep 150",
-        "Down", "sleep 250",
-        "A", "sleep 1000",
-        "Down", "sleep 200",
-        "Down", "sleep 200",
-        "Down", "sleep 200",
-        "Down", "sleep 200",
-        "Down", "sleep 200",
+        "B", "sleep 300",
+        "B", "sleep 300",
+        "B", "sleep 300",
+        "Start", "sleep 800",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Down", "sleep 350",
+        "A", "sleep 1200",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
         "A", "sleep 800",
-        "A", "sleep 3000"
+        "A", "sleep 3500"
     ]
     mgba.press_buttons(dig_sequence)
     time.sleep(1.0)
