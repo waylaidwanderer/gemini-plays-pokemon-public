@@ -80,21 +80,13 @@ def main():
     
     success = True
     
-    # 1. We are at (5, 13) on 3F West in State A. Walk back to (7, 11) and warp DOWN.
+    # 1. We are at (5, 13) on 3F West in State A. Walk to (7, 11) and warp DOWN.
     if pos == {"x": 5, "y": 13}:
-        print("Walking UP Column 5 to Row 11...")
+        print("Walking to (7, 11) to warp DOWN...")
         if not run_steps([
             ("Up", {"x": 5, "y": 12}),
-            ("Up", {"x": 5, "y": 11}),
-        ]):
-            success = False
-            
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 5, "y": 11}:
-        # Walk RIGHT along Row 11 to Column 7
-        print("Walking RIGHT along Row 11 to Column 7...")
-        if not run_steps([
-            ("Right", {"x": 6, "y": 11}),
+            ("Right", {"x": 6, "y": 12}),
+            ("Up", {"x": 6, "y": 11}),
             ("Right", {"x": 7, "y": 11}),
         ]):
             success = False
