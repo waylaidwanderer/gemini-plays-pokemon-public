@@ -1,20 +1,5 @@
 import mgba
 import time
-import os
-
-# Clean up temporary scripts
-obsolete = [
-    "toggle_and_cross_3f.py",
-    "walk_3f_west_chunk.py",
-    "test_switch_3f.py"
-]
-for f in obsolete:
-    if os.path.exists(f):
-        try:
-            os.remove(f)
-            print(f"Deleted obsolete file: {f}")
-        except Exception as e:
-            print(f"Error deleting {f}: {e}")
 
 def walk_step(direction, expected_coords, retries=15):
     for i in range(retries):
@@ -28,21 +13,13 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (2, 13) on 3F West (State B)
-# 1. Walk from (2, 13) to (5, 6) via Column 5 and cross to 3F East (11, 6)
+# Starting at (5, 8) on 3F West (State B)
+# 1. Walk from (5, 8) to (11, 6) via Column 7 Row 6 bypass
 steps_3f_west = [
-    ("Right", {"x": 3, "y": 13}),
-    ("Right", {"x": 4, "y": 13}),
-    ("Right", {"x": 5, "y": 13}),
-    ("Up", {"x": 5, "y": 12}),
-    ("Up", {"x": 5, "y": 11}),
-    ("Up", {"x": 5, "y": 10}),
-    ("Up", {"x": 5, "y": 9}),   # Open gate in State B!
-    ("Up", {"x": 5, "y": 8}),
-    ("Up", {"x": 5, "y": 7}),
-    ("Up", {"x": 5, "y": 6}),
-    ("Right", {"x": 6, "y": 6}),
-    ("Right", {"x": 7, "y": 6}),
+    ("Right", {"x": 6, "y": 8}),
+    ("Right", {"x": 7, "y": 8}),
+    ("Up", {"x": 7, "y": 7}),
+    ("Up", {"x": 7, "y": 6}),
     ("Right", {"x": 8, "y": 6}),
     ("Right", {"x": 9, "y": 6}),
     ("Right", {"x": 10, "y": 6}),
