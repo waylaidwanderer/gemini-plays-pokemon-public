@@ -39,7 +39,6 @@ def handle_any_menu_or_battle():
         
         if percentage2 > 0.90:
             print("Still in battle. Running...")
-            # RUN: DOWN, then RIGHT, then A
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
             # Dismiss run text
@@ -72,19 +71,18 @@ def run_steps(steps):
     return True
 
 def main():
-    # Dismiss battle end text
-    print("Dismissing battle text...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
     pos = mgba.get_coordinates()
-    print("Position after dismissing battle text:", pos)
+    print("Starting master solver from position:", pos)
+    
+    # Dismiss any text
+    mgba.press_buttons(["B"])
+    time.sleep(0.3)
     
     success = True
     
     # We are at (1, 10) on 3F West
     if pos == {"x": 1, "y": 10}:
-        print("STAGE 6b: Walking DOWN to (1, 12)...")
+        print("STAGE 6c: Walking DOWN to (1, 12) and (2, 12)...")
         if not run_steps([
             ("Down", {"x": 1, "y": 11}),
             ("Down", {"x": 1, "y": 12}),
@@ -104,6 +102,9 @@ def main():
         time.sleep(0.8)
         mgba.press_buttons(["A"]) # "Pressed it!"
         time.sleep(0.8)
+        # Dismiss any remaining text
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
         print("Successfully toggled switch to State B!")
         
         # Walk back to Column 1 Row 9 on 3F West
