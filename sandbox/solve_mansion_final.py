@@ -105,32 +105,25 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting final solver from 1F East position:", pos)
+    print("Starting final B1F solver from position:", pos)
     
-    # We must be at (22, 3) on 1F East
-    if pos != {"x": 22, "y": 3}:
-        print("Error: Player is not at (22, 3)!")
+    # We must be at (21, 4) on B1F East
+    if pos != {"x": 21, "y": 4}:
+        print("Error: Player is not at (21, 4)!")
         return
 
-    # --- STAGE 1: Warp down to B1F East ---
-    print("Stepping UP to warp down to B1F East...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.5) # Wait for warp animation
-    pos = mgba.get_coordinates()
-    print("Warped down! Current position:", pos)
-
-    # --- STAGE 2: Walk B1F East to B1F West & Retrieve Secret Key ---
-    print("Walking B1F East to B1F West...")
-    # Walk left to (21, 3), down to (21, 5)
+    # --- STAGE 1: Walk to B1F West Row 5 corridor ---
+    print("Walking left to Column 19 and down to Row 5...")
     if not run_steps([
-        ("Left", {"x": 21, "y": 3}),
-        ("Down", {"x": 21, "y": 4}),
-        ("Down", {"x": 21, "y": 5}),
+        ("Left", {"x": 20, "y": 4}),
+        ("Left", {"x": 19, "y": 4}),
+        ("Down", {"x": 19, "y": 5}),
     ]):
-        print("Failed to reach B1F West corridor.")
+        print("Failed to reach Row 5 Column 19.")
         return
     pos = mgba.get_coordinates()
 
+    # --- STAGE 2: Walk LEFT along Row 5 to Column 1 ---
     print("Walking Left across Row 5 through open gate...")
     while pos["x"] > 1:
         if handle_any_menu_or_battle():
