@@ -64,15 +64,9 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-def run_steps(steps):
-    for d, c in steps:
-        if not walk_step(d, c):
-            return False
-    return True
-
 def main():
     pos = mgba.get_coordinates()
-    print("Starting B1F West solver from current position:", pos)
+    print("Starting final B1F solver from position:", pos)
     
     # Dismiss any text
     mgba.press_buttons(["B"])
@@ -80,29 +74,26 @@ def main():
     
     success = True
     
-    # We are at (18, 5) on B1F East
-    if pos == {"x": 18, "y": 5}:
-        # 1. Walk DOWN Column 18 to Row 8
-        print("Walking DOWN Column 18 to Row 8...")
-        for y in range(6, 9):
-            if not walk_step("Down", {"x": 18, "y": y}):
-                success = False
-                break
-                
+    # 1. Walk UP 1 step from (18, 8) to (18, 7)
+    if pos == {"x": 18, "y": 8}:
+        print("Walking UP to Row 7...")
+        if not walk_step("Up", {"x": 18, "y": 7}):
+            success = False
+            
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 8}:
-        # 2. Walk LEFT along Row 8 to Column 10 (OPEN in State B!)
-        print("Walking LEFT along Row 8 to Column 10...")
+    if success and pos == {"x": 18, "y": 7}:
+        # 2. Walk LEFT along Row 7 to Column 10
+        print("Walking LEFT along Row 7 to Column 10...")
         for x in range(17, 9, -1):
-            if not walk_step("Left", {"x": x, "y": 8}):
+            if not walk_step("Left", {"x": x, "y": 7}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 10, "y": 8}:
+    if success and pos == {"x": 10, "y": 7}:
         # 3. Walk UP Column 10 to Row 5
         print("Walking UP Column 10 to Row 5...")
-        for y in range(7, 4, -1):
+        for y in range(6, 4, -1):
             if not walk_step("Up", {"x": 10, "y": y}):
                 success = False
                 break
