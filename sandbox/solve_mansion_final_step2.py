@@ -105,20 +105,19 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting master solver step 2 from 3F East:", pos)
+    print("Starting solve_mansion_final_step2.py, current coords:", pos)
     
-    if pos != {"x": 11, "y": 11}:
-        print("Error: Player is not at (11, 11) on 3F East!")
+    if pos != {"x": 11, "y": 9}:
+        print("Error: Player is not at (11, 9) on 3F East!")
         return
 
-    # --- STAGE 1: Walk UP Column 11 to Row 6 ---
-    print("Walking UP Column 11 to Row 6...")
+    # --- STAGE 1: Walk RIGHT to Column 12 and UP to Row 6 ---
+    print("Navigating on 3F East to Row 6...")
     if not run_steps([
-        ("Up", {"x": 11, "y": 10}),
-        ("Up", {"x": 11, "y": 9}),
-        ("Up", {"x": 11, "y": 8}),
-        ("Up", {"x": 11, "y": 7}),
-        ("Up", {"x": 11, "y": 6}),
+        ("Right", {"x": 12, "y": 9}),
+        ("Up", {"x": 12, "y": 8}),
+        ("Up", {"x": 12, "y": 7}),
+        ("Up", {"x": 12, "y": 6}),
     ]):
         return
     pos = mgba.get_coordinates()
@@ -126,7 +125,6 @@ def main():
     # --- STAGE 2: Walk RIGHT along Row 6 to Column 20 ---
     print("Walking RIGHT along Row 6 to Column 20...")
     if not run_steps([
-        ("Right", {"x": 12, "y": 6}),
         ("Right", {"x": 13, "y": 6}),
         ("Right", {"x": 14, "y": 6}),
         ("Right", {"x": 15, "y": 6}),
