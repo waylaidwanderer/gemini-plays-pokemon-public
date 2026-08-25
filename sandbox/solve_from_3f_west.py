@@ -74,19 +74,16 @@ def toggle_switch_robust(target_statue_coords):
         time.sleep(1.0)
     return False
 
-# Starting at (5, 8) on 3F West (State B)
+# Starting at (4, 12) on 3F West (State B)
 success = True
 
-# 1. Walk DOWN to Row 12, then LEFT to (2, 12)
-print("Walking DOWN to Row 12 and LEFT to Column 2...")
+# 1. Walk DOWN Column 4 to Row 13, and LEFT to Column 2 on Row 13
+print("Walking DOWN Column 4 to Row 13 and LEFT to Column 2...")
 steps_to_switch = [
-    ("Down", {"x": 5, "y": 9}),
-    ("Down", {"x": 5, "y": 10}),
-    ("Down", {"x": 5, "y": 11}),
-    ("Down", {"x": 5, "y": 12}),
-    ("Left", {"x": 4, "y": 12}),
-    ("Left", {"x": 3, "y": 12}),
-    ("Left", {"x": 2, "y": 12}),
+    ("Down", {"x": 4, "y": 13}),
+    ("Left", {"x": 3, "y": 13}),
+    ("Left", {"x": 2, "y": 13}),
+    ("Up", {"x": 2, "y": 12}),
 ]
 for d, c in steps_to_switch:
     if not walk_step(d, c):
@@ -94,19 +91,24 @@ for d, c in steps_to_switch:
         break
 
 if success:
-    # 2. Toggle switch at (2, 11) to State A
-    print("Reached (2, 12)! Facing UP towards switch...")
+    # 2. Toggle the switch at (2, 11) to State A
+    print("Reached (2, 12) on 2F West! Facing UP towards the switch...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
+    
+    # Toggle switch using robust B/W feedback loop
     success = toggle_switch_robust((2, 11))
 
 if success:
     # 3. Walk to the stairs at (5, 10) to warp DOWN to 2F West
-    print("Walking RIGHT to (5, 12) and UP onto stairs at (5, 10)...")
+    # Path: Down to (2, 13), RIGHT along Row 13 to (5, 13), UP Column 5 to (5, 11)
+    print("Walking to (5, 11) on 3F West...")
     steps_to_stairs = [
-        ("Right", {"x": 3, "y": 12}),
-        ("Right", {"x": 4, "y": 12}),
-        ("Right", {"x": 5, "y": 12}),
+        ("Down", {"x": 2, "y": 13}),
+        ("Right", {"x": 3, "y": 13}),
+        ("Right", {"x": 4, "y": 13}),
+        ("Right", {"x": 5, "y": 13}),
+        ("Up", {"x": 5, "y": 12}),
         ("Up", {"x": 5, "y": 11}),
     ]
     for d, c in steps_to_stairs:
@@ -115,7 +117,7 @@ if success:
             break
             
     if success:
-        print("Stepping UP onto stairs at (5, 10)...")
+        print("Stepping UP onto stairs at (5, 10) to warp DOWN...")
         mgba.press_buttons(["Up"])
         time.sleep(1.5)
         pos = mgba.get_coordinates()
