@@ -74,31 +74,28 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Starting at (11, 11) on 2F East (State A)
+# Starting at (12, 1) on 2F East (State A)
 success = True
 
-# First, handle the active Grimer battle!
-print("Handling current battle...")
-handle_any_menu_or_battle()
-
-# 1. Walk UP Column 11 to Row 7
-print("Walking UP Column 11 to Row 7...")
-steps_to_row7 = [
-    ("Up", {"x": 11, "y": 10}),
-    ("Up", {"x": 11, "y": 9}),
-    ("Up", {"x": 11, "y": 8}),
-    ("Up", {"x": 11, "y": 7}),
+# 1. Walk DOWN Column 12 to Row 7
+print("Walking DOWN Column 12 to Row 7...")
+steps_down_col12 = [
+    ("Down", {"x": 12, "y": 2}),
+    ("Down", {"x": 12, "y": 3}),
+    ("Down", {"x": 12, "y": 4}),
+    ("Down", {"x": 12, "y": 5}),
+    ("Down", {"x": 12, "y": 6}),
+    ("Down", {"x": 12, "y": 7}),
 ]
-for d, c in steps_to_row7:
+for d, c in steps_down_col12:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
     # 2. Walk RIGHT along Row 7 to Column 15
-    print("Reached (11, 7)! Walking RIGHT along Row 7 to Column 15...")
+    print("Reached (12, 7)! Walking RIGHT along Row 7 to Column 15...")
     steps_right_row7 = [
-        ("Right", {"x": 12, "y": 7}),
         ("Right", {"x": 13, "y": 7}),
         ("Right", {"x": 14, "y": 7}),
         ("Right", {"x": 15, "y": 7}),
