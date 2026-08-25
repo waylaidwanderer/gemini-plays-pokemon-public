@@ -110,7 +110,7 @@ if success:
         ("Right", {"x": 5, "y": 11}),
         ("Right", {"x": 6, "y": 11}),
     ]
-    for d, c in steps_to_col5:
+    for d, c in steps_to_col6: # Fixed steps_to_col5 bug to steps_to_col6!
         if not walk_step(d, c):
             success = False
             break
