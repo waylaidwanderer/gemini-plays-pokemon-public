@@ -40,6 +40,8 @@
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
 2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
+3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2; sent to Box 1]
+   - Type: Normal
 
 ## Inventory & Resources (Verified Turn 15241)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
