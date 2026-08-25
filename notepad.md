@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (26, 12) [Turn 15821]; descending northern plateau to exit west at (0, 5) into Area 2 (North) with ~415 steps budget.
+- Location: Safari Zone Area 1 (East) at (27, 21) [Turn 15841]; ascending plateau at (24, 15) to systematically map upper ridge connection to (17, 7) and northern lawn with ~385 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1768,7 +1768,6 @@
 - South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
 ## Area 2 (North) Verified Landmarks & Traversal Notes
-- East Entrance: (39, 31) from Area 1 (East).
 - South Boundary (row 36): Steps south into Safari Zone Center at (20, 0).
 - Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
 - Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
@@ -1781,21 +1780,23 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: ~90 steps
-- Steps Remaining at (19, 12): ~410 steps
-- Estimated Arrival in Area 2 (North) at (39, 31): ~360 steps remaining
+- Steps Expended so far: ~115 steps (Turn 15841)
+- Steps Remaining at (27, 21): ~385 steps
+- Target: Reach Area 2 (North) at (39, 31) with >=320 steps remaining
 
-## Proven Navigational Waypoints
-1. Center Area (15, 24) -> Walk to (22, 10) -> (29, 10) -> Enter Area 1 (East) at (0, 22). (Cost: 51 steps)
-2. Area 1 (East) Proven Path to Area 2:
-   - Walk East across lower grass to (14, 24) -> (24, 24) -> (27, 24)
-   - Walk North along eastern corridor (col 27) past plateau (rows 24-10) to Rest House lawn at (27, 10)
-   - Walk West on row 10 to (22, 10), North to (22, 5), then West along northern lawn to (0, 5)
-   - Enters Area 2 (North) at (39, 31)!
-   - (Note: Do NOT take stairs at (24, 15) onto northern plateau; it is a dead end overlooking water)
-3. Area 2 (North) to Area 3 (West):
-   - Arrive at (39, 31) with ~360 steps.
-   - Systematically explore Area 2 central ridges / corridors to locate Area 3 (West) connection.
+## Empirically Verified Topography & Obstacles in Area 1
+1. Entrance from Center: (0, 22) -> southern lawn -> lower ridge ascent stairs at (12, 21).
+2. Lower Ridge: Spans rows 20-21, cols 12-23 -> descent stairs at (23, 21) into eastern clearing.
+3. Eastern Clearing: Cols 24-28, rows 16-24. Bounded on east (col 29) by solid trees/bushes/fences; bounded on south (row 25) by fences.
+4. Northern Plateau: Accessed via ascent stairs at (24, 15) from clearing (24, 16) to plateau (24, 14).
+   - Rows 12-15, cols 19-26.
+   - Cliff along row 12 north edge prevents walking directly into row 11.
+   - Western boundary connects towards upper ridge / NPC at (15, 12).
+
+## Active Navigation Hypothesis & Systematic Plan
+- Return north: (27, 21) -> (27, 16) -> (24, 16) -> ascend stairs at (24, 15) to (24, 14).
+- Systematically survey western edge of plateau (cols 19-22, rows 13-15) for bridge/pathway connecting to Upper Ridge (cols 13-17) and descent stairs at (17, 7).
+- Descend at (17, 7) onto northern lawn (rows 1-8) and walk straight west to (0, 5) into Area 2 (North).
 
 
 <hr>
