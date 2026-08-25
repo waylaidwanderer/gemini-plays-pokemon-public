@@ -107,65 +107,55 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting final solver from 1F East position:", pos)
     
-    # We must be at (22, 6) on 1F East inside the fenced room
-    if pos != {"x": 22, "y": 6}:
-        print("Error: Player is not at (22, 6)!")
+    # We must be at (22, 3) on 1F East
+    if pos != {"x": 22, "y": 3}:
+        print("Error: Player is not at (22, 3)!")
         return
 
-    # --- STAGE 1: Walk to the staircase at (22, 2) on 1F East ---
-    print("Walking UP to B1F staircase...")
+    # --- STAGE 1: Warp down to B1F East ---
+    print("Stepping UP to warp down to B1F East...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.5) # Wait for warp animation
+    pos = mgba.get_coordinates()
+    print("Warped down! Current position:", pos)
+
+    # --- STAGE 2: Walk B1F East to B1F West & Retrieve Secret Key ---
+    print("Walking B1F East to B1F West...")
+    # Walk left to (21, 3), down to (21, 5)
     if not run_steps([
-        ("Up", {"x": 22, "y": 5}),
-        ("Up", {"x": 22, "y": 4}),
-        ("Up", {"x": 22, "y": 3}),
-        ("Up", {"x": 22, "y": 2}), # Warp down to B1F East landing at (22, 3)
+        ("Left", {"x": 21, "y": 3}),
+        ("Down", {"x": 21, "y": 4}),
+        ("Down", {"x": 21, "y": 5}),
     ]):
-        print("Failed to warp down to B1F East.")
+        print("Failed to reach B1F West corridor.")
         return
     pos = mgba.get_coordinates()
 
-    # --- STAGE 2: Walk B1F East to B1F West & Retrieve Secret Key ---
-    if pos == {"x": 22, "y": 3} or pos == {"x": 22, "y": 2}:
-        if pos == {"x": 22, "y": 3}:
-            mgba.press_buttons(["Up"])
-            time.sleep(1.5)
+    print("Walking Left across Row 5 through open gate...")
+    while pos["x"] > 1:
+        if handle_any_menu_or_battle():
             pos = mgba.get_coordinates()
-        print("Walking B1F East to B1F West...")
-        # Walk left to (21, 3), down to (21, 5)
-        if not run_steps([
-            ("Left", {"x": 21, "y": 3}),
-            ("Down", {"x": 21, "y": 4}),
-            ("Down", {"x": 21, "y": 5}),
-        ]):
-            print("Failed to reach B1F West corridor.")
-            return
-        pos = mgba.get_coordinates()
-
-        print("Walking Left across Row 5 through open gate...")
-        while pos["x"] > 1:
-            if handle_any_menu_or_battle():
-                pos = mgba.get_coordinates()
-            mgba.press_buttons(["Left"])
-            time.sleep(0.4)
-            pos = mgba.get_coordinates()
-            print(f"Current: {pos}")
-            
-        print("At Secret Key spot:", pos)
-        
-        # Turn UP and press A to retrieve Secret Key
-        mgba.press_buttons(["Up"])
+        mgba.press_buttons(["Left"])
         time.sleep(0.4)
-        mgba.press_buttons(["A"])
-        time.sleep(1.8) # Wait for text
-        mgba.press_buttons(["A"]) # Dismiss key retrieved text
-        time.sleep(1.0)
-        mgba.press_buttons(["B"]) # Leftover text safety
-        time.sleep(0.5)
-        print("Secret Key retrieved successfully!")
+        pos = mgba.get_coordinates()
+        print(f"Current: {pos}")
         
-        # Escape with DIG
-        use_dig()
-        print("All stages complete!")
+    print("At Secret Key spot:", pos)
+    
+    # Turn UP and press A to retrieve Secret Key
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(1.8) # Wait for text
+    mgba.press_buttons(["A"]) # Dismiss key retrieved text
+    time.sleep(1.0)
+    mgba.press_buttons(["B"]) # Leftover text safety
+    time.sleep(0.5)
+    print("Secret Key retrieved successfully!")
+    
+    # Escape with DIG
+    use_dig()
+    print("All stages complete!")
 
 if __name__ == "__main__":
     main()
