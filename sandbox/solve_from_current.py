@@ -80,45 +80,25 @@ def main():
     
     success = True
     
-    # 1. We are at (11, 12) on Cinnabar Island overworld
-    if pos == {"x": 11, "y": 12}:
-        print("STAGE 1: Walking to Mansion entrance via Column 18...")
-        # Walk Left to Column 6 first
-        if not run_steps([
-            ("Left", {"x": 10, "y": 12}),
-            ("Left", {"x": 9, "y": 12}),
-            ("Left", {"x": 8, "y": 12}),
-            ("Left", {"x": 7, "y": 12}),
-            ("Left", {"x": 6, "y": 12}),
-        ]):
+    # We are at (11, 5) on Cinnabar Island overworld
+    if pos == {"x": 11, "y": 5}:
+        print("STAGE 1: Walking UP to Row 4 and LEFT to Column 6...")
+        if not walk_step("Up", {"x": 11, "y": 4}):
             success = False
             
-        if success:
-            # Walk RIGHT along Row 12 to Column 18 to bypass fences and buildings
-            for x in range(7, 19):
-                if not walk_step("Right", {"x": x, "y": 12}):
-                    success = False
-                    break
-                    
-        if success:
-            # Walk UP Column 18 to Row 4
-            for y in range(11, 3, -1):
-                if not walk_step("Up", {"x": 18, "y": y}):
-                    success = False
-                    break
-                    
-        if success:
-            # Walk LEFT along Row 4 to Column 6
-            for x in range(17, 5, -1):
-                if not walk_step("Left", {"x": x, "y": 4}):
-                    success = False
-                    break
-                    
-        if success:
-            print("Entering Mansion...")
-            mgba.press_buttons(["Up"])
-            time.sleep(2.0) # Wait for map transition
-            
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 11, "y": 4}:
+        for x in range(10, 5, -1):
+            if not walk_step("Left", {"x": x, "y": 4}):
+                success = False
+                break
+                
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 6, "y": 4}:
+        print("Entering Mansion...")
+        mgba.press_buttons(["Up"])
+        time.sleep(2.0) # Wait for map transition
+        
     pos = mgba.get_coordinates()
     # 2. Inside Mansion 1F West (landing at (5, 27))
     if success and pos == {"x": 5, "y": 27}:
