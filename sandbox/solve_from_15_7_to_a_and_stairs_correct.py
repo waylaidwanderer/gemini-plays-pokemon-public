@@ -70,12 +70,11 @@ def walk_step(direction, expected_coords, retries=15):
 def toggle_switch_to_a():
     print("Toggling switch to State A (pressing A without UP to select YES)...")
     mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # The cursor starts on YES. Just press A to select YES!
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
+    time.sleep(1.2)
+    mgba.press_buttons(["A"]) # YES
+    time.sleep(1.2)
     mgba.press_buttons(["A"]) # Press A on "Pressed it!"
-    time.sleep(1.0)
+    time.sleep(1.2)
     
     # Dismiss any leftover text boxes
     for _ in range(4):
@@ -89,11 +88,11 @@ def toggle_switch_to_a():
 def toggle_switch_to_b():
     print("Toggling switch to State B (pressing A without UP to select YES)...")
     mgba.press_buttons(["A"])
-    time.sleep(1.0)
+    time.sleep(1.2)
     mgba.press_buttons(["A"]) # YES
-    time.sleep(1.0)
-    mgba.press_buttons(["A"]) # Pressed it!
-    time.sleep(1.0)
+    time.sleep(1.2)
+    mgba.press_buttons(["A"]) # Press A on "Pressed it!"
+    time.sleep(1.2)
     
     # Dismiss any leftover text boxes
     for _ in range(4):
@@ -104,72 +103,76 @@ def toggle_switch_to_b():
     print(f"Toggle to State B complete! Position: {pos}")
     return True
 
-# Starting at (16, 7) on 2F East (State B)
+# Starting at (15, 7) on 2F East (State B)
 success = True
 
-# 1. Walk back LEFT along Row 7 to Column 12
-print("Walking LEFT to (12, 7)...")
-steps_left_row7 = [
-    ("Left", {"x": 15, "y": 7}),
+# 1. Walk LEFT along Row 7 to Column 11 on 2F West
+print("Walking LEFT to (11, 7) on 2F West...")
+steps_left_to_11 = [
     ("Left", {"x": 14, "y": 7}),
     ("Left", {"x": 13, "y": 7}),
     ("Left", {"x": 12, "y": 7}),
+    ("Left", {"x": 11, "y": 7}),
 ]
-for d, c in steps_left_row7:
+for d, c in steps_left_to_11:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    # 2. Walk DOWN Column 12 to (12, 9)
-    print("Walking DOWN to (12, 9)...")
-    steps_down_col12 = [
-        ("Down", {"x": 12, "y": 8}),
-        ("Down", {"x": 12, "y": 9}),
+    # 2. Walk DOWN Column 11 to Row 9
+    print("Walking DOWN Column 11 to Row 9...")
+    steps_down_col11 = [
+        ("Down", {"x": 11, "y": 8}),
+        ("Down", {"x": 11, "y": 9}),
     ]
-    for d, c in steps_down_col12:
+    for d, c in steps_down_col11:
         if not walk_step(d, c):
             success = False
             break
             
     if success:
-        # 3. Stand at (12, 9) facing UP towards statue at (12, 8) and toggle to State A!
-        print("Reached (12, 9)! Facing UP to toggle switch to State A...")
-        mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-        toggle_switch_to_a()
+        # 3. Walk RIGHT to (12, 9)
+        print("Walking RIGHT to (12, 9)...")
+        success = walk_step("Right", {"x": 12, "y": 9})
         
-        # 4. Walk UP Column 12 to Row 7
-        print("Walking UP Column 12 to Row 7...")
-        steps_up_col12 = [
-            ("Up", {"x": 12, "y": 8}),
-            ("Up", {"x": 12, "y": 7}),
-        ]
-        for d, c in steps_up_col12:
-            if not walk_step(d, c):
-                success = False
-                break
-                
         if success:
-            # 5. Walk RIGHT Row 7 to Column 15
-            print("Reached (12, 7)! Walking RIGHT along Row 7 to Column 15...")
-            steps_right_row7 = [
-                ("Right", {"x": 13, "y": 7}),
-                ("Right", {"x": 14, "y": 7}),
-                ("Right", {"x": 15, "y": 7}),
+            # 4. Face UP and toggle switch at (12, 8) on 2F West to State A
+            print("Reached (12, 9)! Facing UP to toggle switch to State A...")
+            mgba.press_buttons(["Up"])
+            time.sleep(0.5)
+            toggle_switch_to_a()
+            
+            # 5. Walk back LEFT to (11, 9) and UP to (11, 7)
+            print("Walking back to (11, 7)...")
+            steps_back_to_11_7 = [
+                ("Left", {"x": 11, "y": 9}),
+                ("Up", {"x": 11, "y": 8}),
+                ("Up", {"x": 11, "y": 7}),
             ]
-            for d, c in steps_right_row7:
+            for d, c in steps_back_to_11_7:
                 if not walk_step(d, c):
                     success = False
                     break
                     
             if success:
-                # 6. Walk RIGHT to Column 16, then DOWN Column 16 to Row 10 (OPEN in State A!)
-                print("Reached (15, 7)! Walking RIGHT to Column 16...")
-                success = walk_step("Right", {"x": 16, "y": 7})
-                
+                # 6. Walk RIGHT along Row 7 to Column 16 on 2F East
+                print("Walking RIGHT to (16, 7) on 2F East...")
+                steps_right_row7 = [
+                    ("Right", {"x": 12, "y": 7}),
+                    ("Right", {"x": 13, "y": 7}),
+                    ("Right", {"x": 14, "y": 7}),
+                    ("Right", {"x": 15, "y": 7}),
+                    ("Right", {"x": 16, "y": 7}),
+                ]
+                for d, c in steps_right_row7:
+                    if not walk_step(d, c):
+                        success = False
+                        break
+                        
                 if success:
-                    print("Walking DOWN Column 16 to Row 10...")
+                    # 7. Walk DOWN Column 16 to Row 10 (OPEN in State A!)
+                    print("Reached (16, 7)! Walking DOWN Column 16 to Row 10...")
                     steps_down_col16 = [
                         ("Down", {"x": 16, "y": 8}),
                         ("Down", {"x": 16, "y": 9}),
@@ -181,7 +184,7 @@ if success:
                             break
                             
                     if success:
-                        # 7. Walk LEFT to Column 15 Row 10, then step DOWN onto stairs at (15, 11) to warp UP to 3F East!
+                        # 8. Walk LEFT to (15, 10), step DOWN onto stairs at (15, 11) to warp UP to 3F East
                         print("Reached (16, 10)! Walking LEFT to (15, 10)...")
                         success = walk_step("Left", {"x": 15, "y": 10})
                         
@@ -192,7 +195,7 @@ if success:
                             pos = mgba.get_coordinates()
                             print(f"Warped UP to 3F East! Landing position: {pos}")
                             
-                            # 8. On 3F East, walk LEFT to (12, 11)
+                            # 9. On 3F East, walk LEFT along Row 11 to (12, 11)
                             print("Walking LEFT to (12, 11) on 3F East...")
                             steps_left_3f = [
                                 ("Left", {"x": 14, "y": 11}),
@@ -205,7 +208,7 @@ if success:
                                     break
                                     
                             if success:
-                                # 9. Walk DOWN to (12, 12), face UP and toggle switch to State B
+                                # 10. Walk DOWN to (12, 12), face UP and toggle switch to State B
                                 print("Walking DOWN to (12, 12)...")
                                 success = walk_step("Down", {"x": 12, "y": 12})
                                 if success:
@@ -213,7 +216,7 @@ if success:
                                     time.sleep(0.5)
                                     toggle_switch_to_b()
                                     
-                                    # 10. Walk to Column 20 on 3F East (State B)
+                                    # 11. Walk along Row 12 to Column 20 on 3F East (State B)
                                     print("Walking RIGHT along Row 12 to Column 20...")
                                     steps_to_col20 = [
                                         ("Right", {"x": 13, "y": 12}),
@@ -232,7 +235,7 @@ if success:
                                             break
                                             
                                     if success:
-                                        # 11. Walk UP Column 20 to Row 3, RIGHT to (26, 3), and step DOWN to drop through pitfall!
+                                        # 12. Walk UP Column 20 to Row 3, RIGHT to (26, 3), step DOWN to drop!
                                         print("Reached (20, 11)! Walking UP Column 20 to Row 3...")
                                         steps_up_col20 = []
                                         for y in range(10, 2, -1):
@@ -253,14 +256,14 @@ if success:
                                                     break
                                                     
                                             if success:
-                                                # 12. Step DOWN to trigger pitfall
+                                                # 13. Step DOWN to trigger pitfall
                                                 print("Reached (26, 3)! Stepping DOWN to trigger pitfall...")
                                                 mgba.press_buttons(["Down"])
                                                 time.sleep(2.0)
                                                 pos = mgba.get_coordinates()
                                                 print(f"Landed on 1F East inside fenced room! Position: {pos}")
                                                 
-                                                # 13. Walk to B1F East stairs
+                                                # 14. Walk to B1F East stairs
                                                 steps_1f_east = [
                                                     ("Up", {"x": 26, "y": 3}),
                                                     ("Left", {"x": 25, "y": 3}),
@@ -280,7 +283,7 @@ if success:
                                                     pos = mgba.get_coordinates()
                                                     print(f"Warped DOWN to B1F East! Landing position: {pos}")
                                                     
-                                                    # 17. On B1F East
+                                                    # 15. On B1F East
                                                     if pos == {"x": 22, "y": 3}:
                                                         steps_b1f = [
                                                             ("Left", {"x": 21, "y": 3}),
@@ -314,7 +317,7 @@ if success:
                                                                 pos = mgba.get_coordinates()
                                                                 print(f"Secret Key retrieved successfully! Current position: {pos}")
                                                                 
-                                                                # 18. Use DIG to escape to Cinnabar Island!
+                                                                # 16. Use DIG to escape to Cinnabar Island!
                                                                 print("Using DIG to escape...")
                                                                 mgba.press_buttons(["Start", "sleep 300", "Down", "A", "sleep 300"])
                                                                 for _ in range(5):
