@@ -80,74 +80,39 @@ def main():
     
     success = True
     
-    # We are at (11, 5) on Cinnabar Island overworld
-    if pos == {"x": 11, "y": 5}:
-        print("STAGE 1: Walking UP to Row 4 and LEFT to Column 6...")
-        if not walk_step("Up", {"x": 11, "y": 4}):
+    # We are at (15, 7) on 2F East in State A
+    if pos == {"x": 15, "y": 7}:
+        print("STAGE 3b (State A): Walking around the closed (15, 8) gate via Column 18...")
+        if not run_steps([
+            ("Right", {"x": 16, "y": 7}),
+            ("Right", {"x": 17, "y": 7}),
+            ("Right", {"x": 18, "y": 7}),
+        ]):
             success = False
             
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 11, "y": 4}:
-        for x in range(10, 5, -1):
-            if not walk_step("Left", {"x": x, "y": 4}):
+    if success and pos == {"x": 18, "y": 7}:
+        print("Walking DOWN Column 18 to Row 11...")
+        for y in range(8, 12):
+            if not walk_step("Down", {"x": 18, "y": y}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 6, "y": 4}:
-        print("Entering Mansion...")
-        mgba.press_buttons(["Up"])
-        time.sleep(2.0) # Wait for map transition
+    if success and pos == {"x": 18, "y": 11}:
+        print("Walking LEFT along Row 11 to Column 16...")
+        if not run_steps([
+            ("Left", {"x": 17, "y": 11}),
+            ("Left", {"x": 16, "y": 11}),
+        ]):
+            success = False
+            
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 16, "y": 11}:
+        print("Stepping LEFT onto stairs at (15, 11) to warp UP to 3F East...")
+        mgba.press_buttons(["Left"])
+        time.sleep(1.5) # Wait for warp transition
         
-    pos = mgba.get_coordinates()
-    # 2. Inside Mansion 1F West (landing at (5, 27))
-    if success and pos == {"x": 5, "y": 27}:
-        print("STAGE 2: Inside Mansion 1F West! Walking UP Column 5 to stairs at (5, 10)...")
-        for y in range(26, 9, -1):
-            if not walk_step("Up", {"x": 5, "y": y}):
-                success = False
-                break
-                
-        if success:
-            print("Warping UP to 2F West...")
-            time.sleep(1.5) # Wait for warp transition
-            
-    pos = mgba.get_coordinates()
-    # 3. Inside Mansion 2F West (landing at (5, 11))
-    if success and pos == {"x": 5, "y": 11}:
-        print("STAGE 3: Inside 2F West! Walking to stairs at (15, 11) on 2F East via Row 11...")
-        # Walk RIGHT along Row 11 to Column 10 (OPEN in State A!)
-        for x in range(6, 11):
-            if not walk_step("Right", {"x": x, "y": 11}):
-                success = False
-                break
-                
-        # Walk UP Column 10 to Row 7
-        if success:
-            for y in range(10, 6, -1):
-                if not walk_step("Up", {"x": 10, "y": y}):
-                    success = False
-                    break
-                    
-        # Walk RIGHT along Row 7 to Column 15 (OPEN in State A!)
-        if success:
-            for x in range(11, 16):
-                if not walk_step("Right", {"x": x, "y": 7}):
-                    success = False
-                    break
-                    
-        # Walk DOWN Column 15 to stairs at (15, 11) (OPEN in State A!)
-        if success:
-            for y in range(8, 11):
-                if not walk_step("Down", {"x": 15, "y": y}):
-                    success = False
-                    break
-                    
-        if success:
-            print("At (15, 10)! Stepping DOWN onto stairs to warp UP to 3F East...")
-            mgba.press_buttons(["Down"])
-            time.sleep(1.5) # Wait for warp transition
-            
     pos = mgba.get_coordinates()
     # 4. Landed on 3F East (landing at (16, 11) or (15, 11))
     if success and pos['y'] == 11 and pos['x'] in [15, 16]:
