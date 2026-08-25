@@ -1419,7 +1419,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ## Landmarks & Points of Interest
 - **Cinnabar Island Gym:** Located in the northeast at `(18, 4)`. Currently locked.
-- **Pokémon Mansion:** Entrance door is located in the northwest at `(6, 9)`. Walking UP onto `(6, 9)` warps the player inside the Mansion 1F West (landing at `(2, 7)`). Inside is a multi-floor facility containing the Secret Key.
+- **Pokémon Mansion:** Entrance door is located in the northwest at `(6, 3)`. Walking UP onto `(6, 9)` warps the player inside the Mansion 1F West (landing at `(5, 27)`). Inside is a multi-floor facility containing the Secret Key.
 - **Cinnabar Lab:** Located in the southwest. Contains scientists who perform fossil resurrection and trade Pokémon.
 - **Pokémon Center:** Located in the southeast. High-level waypoint for healing and PC storage.
 - **Poké Mart:** Located in the southeast, east of the Pokémon Center.
