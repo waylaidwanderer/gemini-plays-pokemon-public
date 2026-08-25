@@ -1512,18 +1512,16 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
   - Choose YES to toggle the switch.
   - The switch can ONLY be interacted with from the bottom (standing at `(2, 12)` facing UP). Interaction from the left side (standing at `(1, 11)` facing RIGHT) is completely non-interactive. It will select "NO" by default or ignore A presses, leaving the mansion stuck in State A.
   - This direction-dependence is a hardcoded Gen 1 engine quirk of this specific switch.
-## The Verified State B 2F West to 3F East Bypass Route (Verified Turn 58714)
-To reach 3F East from 2F West when the mansion is in State B (which closes the Column 10 Row 8 gate and the Row 12 gates):
-1. Walk from 2F West southern area to Column 6 Row 11 `(6, 11)`.
-2. Walk UP Column 6 to Row 3 `(6, 3)`. (This column is open past the Row 9 gate in State B!).
-3. Walk RIGHT along Row 3 to Column 18 `(18, 3)` (this crosses horizontally from 2F West to 2F East, completely above the Column 22 wall and other barriers!).
-4. Walk DOWN Column 18 to Row 10 `(18, 10)`.
-5. Walk LEFT along Row 10 directly to Column 15 `(15, 11)` (where the stairs are). This path is on the south side of the Row 7 closed shutter gates, so it is completely open and unblocked!
-6. Step UP onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
-7. On 3F East, walk to the pitfall at `(26, 6)` or `(26, 4)` and drop down to 1F East inside the fenced room at `(26, 4)`.
-8. Warp down to B1F East and walk across Row 5 through open Column 9 gate directly to the Secret Key room on B1F West!
-
----
+## The Verified State B 2F West to 3F East Bypass Route (Verified Turn 59714)
+The gate at `(6, 7)` on 2F West is CLOSED in State B, so we cannot walk UP Column 6 past Row 8.
+However, Column 5 on 2F West is completely OPEN vertically in State B (since there are no cabinets or shutter gates blocking Column 5 on Rows 3-11).
+Thus, the correct State B bypass route on 2F is:
+1. Walk from 2F West landing `(5, 11)` UP Column 5 directly to Row 3 `(5, 3)`.
+2. Walk RIGHT along Row 3 to Column 18 `(18, 3)` (this crosses horizontally from 2F West to 2F East, completely above all barriers).
+3. Walk DOWN Column 18 to Row 10 `(18, 10)`.
+4. Walk LEFT along Row 10 to `(15, 10)`.
+5. Step DOWN onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
+6. On 3F East, land at `(16, 11)`. Since we are in State B, the Row 11 gate at `(14, 11)` is OPEN, allowing us to walk RIGHT along Row 11 to Column 20, then UP Column 20 to Row 3, RIGHT Row 3 to `(26, 3)` and drop through the pitfall to 1F East inside the fenced room!
 
 ## Verified Parity Log (Turn-Stamped)
 - **Turn 58742:** Player at `(2, 12)` facing RIGHT, pressed `A` (Did NOT toggle switch).
