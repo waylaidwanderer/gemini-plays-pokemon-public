@@ -80,22 +80,16 @@ def main():
     
     success = True
     
-    # 1. Walk from (2, 12) to Row 11 Column 12
-    if pos == {"x": 2, "y": 12}:
-        if not run_steps([
-            ("Right", {"x": 3, "y": 12}),
-            ("Up", {"x": 3, "y": 11}),
-        ]):
-            success = False
-            
-        if success:
+    # 1. Walk from (4, 11) to Row 11 Column 12
+    if pos == {"x": 4, "y": 11}:
+        print("Walking RIGHT along Row 11 to Column 12...")
+        curr_x = pos['x']
+        while curr_x < 12:
+            if not walk_step("Right", {"x": curr_x + 1, "y": 11}):
+                success = False
+                break
             curr_x = mgba.get_coordinates()['x']
-            while curr_x < 12:
-                if not walk_step("Right", {"x": curr_x + 1, "y": 11}):
-                    success = False
-                    break
-                curr_x = mgba.get_coordinates()['x']
-                
+            
     pos = mgba.get_coordinates()
     if success and pos == {"x": 12, "y": 11}:
         # 2. Walk UP Column 12 to Row 7
