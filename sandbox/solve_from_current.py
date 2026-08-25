@@ -3,6 +3,9 @@ import time
 from PIL import Image
 
 def handle_any_menu_or_battle():
+    # Add a small delay to avoid map transition / lag black screens
+    time.sleep(0.15)
+    
     # Take a screenshot
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
@@ -20,7 +23,8 @@ def handle_any_menu_or_battle():
                 black_or_white += 1
                 
     percentage = black_or_white / total_pixels
-    if percentage > 0.90:
+    # Ignore exactly 100% black or white (fade transitions)
+    if 0.90 < percentage < 0.999:
         print(f"Menu/Battle detected! (B/W percentage: {percentage*100:.2f}%)")
         mgba.press_buttons(["B"])
         time.sleep(0.4)
@@ -38,7 +42,7 @@ def handle_any_menu_or_battle():
                     black_or_white2 += 1
         percentage2 = black_or_white2 / total_pixels
         
-        if percentage2 > 0.90:
+        if 0.90 < percentage2 < 0.999:
             print("Still in battle/menu. Attempting RUN...")
             mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A"])
             time.sleep(1.5)
@@ -67,21 +71,13 @@ def walk_step(direction, expected_coords, retries=15):
 
 success = True
 
-# 1. Walk from current position (9, 10) on Cinnabar Island to Mansion entrance
-print("Starting from (9, 10) on Cinnabar Island overworld...")
+# 1. Walk from current position (13, 5) on Cinnabar Island to Mansion entrance
+print("Starting from (13, 5) on Cinnabar Island overworld...")
 steps_cinnabar = [
-    ("Left", {"x": 8, "y": 10}),
-    ("Down", {"x": 8, "y": 11}),
-    ("Down", {"x": 8, "y": 12}),
+    ("Up", {"x": 13, "y": 4}),
 ]
-# Walk RIGHT along Row 12 to Column 18
-for x in range(9, 19):
-    steps_cinnabar.append(("Right", {"x": x, "y": 12}))
-# Walk UP Column 18 to Row 4
-for y in range(11, 3, -1):
-    steps_cinnabar.append(("Up", {"x": 18, "y": y}))
 # Walk LEFT along Row 4 to Column 6
-for x in range(17, 5, -1):
+for x in range(12, 5, -1):
     steps_cinnabar.append(("Left", {"x": x, "y": 4}))
 
 print("Walking to Mansion entrance...")
@@ -281,6 +277,7 @@ if success:
                 print("Failed to reach pitfall on 3F East.")
         else:
             print("Failed to navigate 2F East.")
+        
         # Make copy of solve_mansion_step_by_step.py just in case
         try:
             with open("solve_mansion_step_by_step.py", "w") as f:
