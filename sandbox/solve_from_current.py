@@ -298,7 +298,19 @@ def main():
         mgba.press_buttons(["Left"])
         time.sleep(0.4)
         pos = mgba.get_coordinates()
-    print("At column 22:", pos)
+    while pos["x"] < 22:
+        mgba.press_buttons(["Right"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    while pos["y"] > 4:
+        mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    while pos["y"] < 4:
+        mgba.press_buttons(["Down"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    print("Successfully aligned to (22, 4):", pos)
     
     if not run_steps([
         ("Up", {"x": 22, "y": 3}),
