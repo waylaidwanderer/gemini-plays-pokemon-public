@@ -107,9 +107,9 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting master solver step 1, current coords:", pos)
+    print("Starting master solver step 1 from Cinnabar Island:", pos)
     
-    valid_positions = [{"x": 10, "y": 5}, {"x": 10, "y": 7}, {"x": 11, "y": 12}]
+    valid_positions = [{"x": 10, "y": 5}, {"x": 10, "y": 7}, {"x": 11, "y": 12}, {"x": 12, "y": 12}]
     if pos not in valid_positions:
         print("Error: Player is not at a valid starting position!")
         return
@@ -143,7 +143,7 @@ def main():
 
     # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass) ---
     if pos == {"x": 10, "y": 7}:
-        print("Walking to Pokemon Mansion Entrance...")
+        print("Walking to Pokemon Mansion Entrance from (10, 7)...")
         if not run_steps([
             ("Right", {"x": 11, "y": 7}),
             ("Right", {"x": 12, "y": 7}),
@@ -152,12 +152,22 @@ def main():
             ("Down", {"x": 12, "y": 10}),
             ("Down", {"x": 12, "y": 11}),
             ("Down", {"x": 12, "y": 12}),
-            ("Right", {"x": 13, "y": 12}),
-            ("Right", {"x": 14, "y": 12}),
-            ("Right", {"x": 15, "y": 12}),
-            ("Right", {"x": 16, "y": 12}),
-            ("Right", {"x": 17, "y": 12}),
-            ("Right", {"x": 18, "y": 12}),
+        ]):
+            return
+        pos = mgba.get_coordinates()
+
+    # From (12, 12) we walk Row 13 bypass to the Mansion
+    if pos == {"x": 12, "y": 12}:
+        print("Walking to Pokemon Mansion Entrance from (12, 12) via Row 13 bypass...")
+        if not run_steps([
+            ("Down", {"x": 12, "y": 13}),
+            ("Right", {"x": 13, "y": 13}),
+            ("Right", {"x": 14, "y": 13}),
+            ("Right", {"x": 15, "y": 13}),
+            ("Right", {"x": 16, "y": 13}),
+            ("Right", {"x": 17, "y": 13}),
+            ("Right", {"x": 18, "y": 13}),
+            ("Up", {"x": 18, "y": 12}),
             ("Up", {"x": 18, "y": 11}),
             ("Up", {"x": 18, "y": 10}),
             ("Up", {"x": 18, "y": 9}),
