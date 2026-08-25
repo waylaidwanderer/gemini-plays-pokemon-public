@@ -27,8 +27,7 @@
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier; northern border along row 0 is solid rock/hedge barrier.
 ## Area 2 (North) Topology & Verified Landmarks
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
-- South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
-- Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
+- South Boundary: Stepping south across row 36 (verified at cols 2 and 20) warps back to Safari Zone Center at (20, 0) [Turns 15718, 15776].
 ## Area 2 (North) Verified Landmarks & Traversal Notes
 - South Boundary (row 36): Steps south into Safari Zone Center at (20, 0).
 - Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).

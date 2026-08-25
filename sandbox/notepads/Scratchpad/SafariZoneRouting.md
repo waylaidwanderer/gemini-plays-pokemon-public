@@ -2,12 +2,17 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 250 steps (Turn 15896)
-- Steps Remaining at (18, 32) in Area 2: ~250 steps
+- Steps Expended so far: 254 steps (Turn 15901)
+- Steps Remaining at (18, 28) in Area 2: ~246 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
-## Area 2 (North) Topography & Plan
+## Area 2 (North) Verified Features & Routing
 - Entered at (39, 31) from Area 1 (East).
-- Reached (18, 32) on row 32 avenue.
-- Obstacle: Col 17 has a vertical bush line (rows 28-33) separating central lawn from western lawn (cols 14-16).
-- Plan: Move north along col 18 to row 27 to bypass the bush barrier, cross west into cols 14-16, and sprint west towards Area 3 (West).
+- Eastern ascent stairs at (28, 27) lead onto the central plateau (rows 22-26).
+- Descent stairs at (16, 27) lead south to (16, 28). (Note: Ground sector west of col 16 has pond at (11, 28) and obstacles at cols 5-11).
+- Northern Thoroughfare (rows 1-3): Open east-west avenue running along the northern border (Protein collected at (25, 1) Turn 15713).
+
+## Current Exploration Plan
+- Dismiss battle text with B to return to overworld at (18, 28).
+- Walk east to (28, 28) and ascend stairs at (28, 27) onto the central plateau.
+- Survey plateau and northern thoroughfare connections to systematically find the west exit into Area 3 (West).
