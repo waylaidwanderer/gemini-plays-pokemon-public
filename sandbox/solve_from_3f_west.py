@@ -70,14 +70,16 @@ def walk_step(direction, expected_coords, retries=15):
 # Starting at (5, 11) on 3F West (State B)
 success = True
 
-# 1. Walk DOWN to Row 12, then LEFT to Column 1 (bypassing the Scientist NPC at 4, 11!)
-print("Walking DOWN to Row 12 and LEFT to Column 1 to bypass NPC...")
+# 1. Walk DOWN Column 5 to Row 13, and LEFT Row 13 to Column 1 (bypassing solid rubble on Column 3 Row 11/12!)
+print("Walking DOWN Column 5 to Row 13 and LEFT to Column 1 to bypass NPC and rubble...")
 steps_bypass_npc = [
     ("Down", {"x": 5, "y": 12}),
-    ("Left", {"x": 4, "y": 12}),
-    ("Left", {"x": 3, "y": 12}),
-    ("Left", {"x": 2, "y": 12}),
-    ("Left", {"x": 1, "y": 12}),
+    ("Down", {"x": 5, "y": 13}),
+    ("Left", {"x": 4, "y": 13}),
+    ("Left", {"x": 3, "y": 13}),
+    ("Left", {"x": 2, "y": 13}),
+    ("Left", {"x": 1, "y": 13}),
+    ("Up", {"x": 1, "y": 12}),
     ("Up", {"x": 1, "y": 11}),
 ]
 for d, c in steps_bypass_npc:
@@ -102,7 +104,7 @@ if success:
 
 if success:
     # 3. Walk RIGHT along Row 6 across Column 10 to Column 20 on 3F East (Row 6 crossing is permanently open!)
-    print("Reached (1, 6)! Walking RIGHT along Row 6 to Column 20...")
+    print("Reached (1, 6)! Walking RIGHT to Column 20...")
     steps_right_row6 = []
     for x in range(2, 21):
         steps_right_row6.append(("Right", {"x": x, "y": 6}))
