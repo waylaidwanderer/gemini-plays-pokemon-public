@@ -105,239 +105,78 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting master solver from position:", pos)
+    print("Starting fast mansion solver from current position:", pos)
     
-    # --- STAGE 0: Exit Cinnabar Lab if inside ---
-    if pos == {"x": 2, "y": 3}:
-        print("Inside Cinnabar Lab. Exiting first...")
-        if not run_steps([
-            ("Down", {"x": 2, "y": 4}),
-            ("Down", {"x": 2, "y": 5}),
-            ("Down", {"x": 2, "y": 6}),
-            ("Down", {"x": 2, "y": 7}),
-            ("Down", {"x": 6, "y": 11}), # Exited Cinnabar Lab!
-        ]):
-            print("Failed to exit Cinnabar Lab.")
-            return
-        pos = mgba.get_coordinates()
-
-    # --- STAGE 0b: Transition from Route 21 back to Cinnabar Island ---
-    if pos == {"x": 11, "y": 88}:
-        print("At (11, 88) on Route 21. Walking down to Cinnabar Island...")
-        if not run_steps([
-            ("Down", {"x": 11, "y": 89}),
-            ("Down", {"x": 11, "y": 0}), # Transition back!
-        ]):
-            print("Failed to transition back to Cinnabar Island.")
-            return
-        pos = mgba.get_coordinates()
-
-    # --- STAGE 1: DIG out to Cinnabar Island (if we are in the Mansion) ---
-    overworld_positions = [
-        {"x": 11, "y": 12}, 
-        {"x": 6, "y": 11}, 
-        {"x": 11, "y": 5}, 
-        {"x": 11, "y": 0}
-    ]
-    if pos not in overworld_positions:
-        pos = use_dig()
-        if pos != {"x": 11, "y": 12}:
-            print("DIG did not land at (11, 12). Current position:", pos)
-            return
-            
-    # --- STAGE 2: Walk to Pokemon Mansion Entrance ---
-    print("Walking to Pokemon Mansion Entrance...")
-    
-    # If we are at (11, 0) on Cinnabar Island:
-    if pos == {"x": 11, "y": 0}:
-        print("At (11, 0), walking to Mansion via Row 4...")
-        if not run_steps([
-            ("Down", {"x": 11, "y": 1}),
-            ("Down", {"x": 11, "y": 2}),
-            ("Down", {"x": 11, "y": 3}),
-            ("Down", {"x": 11, "y": 4}),
-            ("Left", {"x": 10, "y": 4}),
-            ("Left", {"x": 9, "y": 4}),
-            ("Left", {"x": 8, "y": 4}),
-            ("Left", {"x": 7, "y": 4}),
-            ("Left", {"x": 6, "y": 4}),
-            ("Up", {"x": 6, "y": 3}),
-            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
-        ]):
-            print("Failed to enter Mansion from (11, 0).")
-            return
-        pos = mgba.get_coordinates()
-        
-    # If we started at (11, 5) (bypassing Beauty NPC):
-    if pos == {"x": 11, "y": 5}:
-        print("At (11, 5), bypassing Row 5 NPC via Row 4...")
-        if not run_steps([
-            ("Up", {"x": 11, "y": 4}),
-            ("Left", {"x": 10, "y": 4}),
-            ("Left", {"x": 9, "y": 4}),
-            ("Left", {"x": 8, "y": 4}),
-            ("Left", {"x": 7, "y": 4}),
-            ("Left", {"x": 6, "y": 4}),
-            ("Up", {"x": 6, "y": 3}),
-            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
-        ]):
-            print("Failed to enter Mansion from (11, 5).")
-            return
-        pos = mgba.get_coordinates()
-        
-    # If we started outside Pokemon Center at (11, 12):
-    if pos == {"x": 11, "y": 12}:
-        if not run_steps([
-            ("Right", {"x": 12, "y": 12}),
-            ("Right", {"x": 13, "y": 12}),
-            ("Right", {"x": 14, "y": 12}),
-            ("Right", {"x": 15, "y": 12}),
-            ("Right", {"x": 16, "y": 12}),
-            ("Right", {"x": 17, "y": 12}),
-            ("Right", {"x": 18, "y": 12}),
-            ("Up", {"x": 18, "y": 11}),
-            ("Up", {"x": 18, "y": 10}),
-            ("Up", {"x": 18, "y": 9}),
-            ("Up", {"x": 18, "y": 8}),
-            ("Up", {"x": 18, "y": 7}),
-            ("Up", {"x": 18, "y": 6}),
-            ("Up", {"x": 18, "y": 5}),
-            ("Up", {"x": 18, "y": 4}),
-            ("Left", {"x": 17, "y": 4}),
-            ("Left", {"x": 16, "y": 4}),
-            ("Left", {"x": 15, "y": 4}),
-            ("Left", {"x": 14, "y": 4}),
-            ("Left", {"x": 13, "y": 4}),
-            ("Left", {"x": 12, "y": 4}),
-            ("Left", {"x": 11, "y": 4}),
-            ("Left", {"x": 10, "y": 4}),
-            ("Left", {"x": 9, "y": 4}),
-            ("Left", {"x": 8, "y": 4}),
-            ("Left", {"x": 7, "y": 4}),
-            ("Left", {"x": 6, "y": 4}),
-            ("Up", {"x": 6, "y": 3}),
-            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
-        ]):
-            print("Failed to enter Mansion from Center.")
-            return
-        pos = mgba.get_coordinates()
-        
-    # If we started outside Cinnabar Lab at (6, 11):
-    if pos == {"x": 6, "y": 11}:
-        if not run_steps([
-            ("Down", {"x": 6, "y": 12}),
-            ("Right", {"x": 7, "y": 12}),
-            ("Right", {"x": 8, "y": 12}),
-            ("Right", {"x": 9, "y": 12}),
-            ("Right", {"x": 10, "y": 12}),
-            ("Right", {"x": 11, "y": 12}),
-            ("Right", {"x": 12, "y": 12}),
-            ("Right", {"x": 13, "y": 12}),
-            ("Right", {"x": 14, "y": 12}),
-            ("Right", {"x": 15, "y": 12}),
-            ("Right", {"x": 16, "y": 12}),
-            ("Right", {"x": 17, "y": 12}),
-            ("Right", {"x": 18, "y": 12}),
-            ("Up", {"x": 18, "y": 11}),
-            ("Up", {"x": 18, "y": 10}),
-            ("Up", {"x": 18, "y": 9}),
-            ("Up", {"x": 18, "y": 8}),
-            ("Up", {"x": 18, "y": 7}),
-            ("Up", {"x": 18, "y": 6}),
-            ("Up", {"x": 18, "y": 5}),
-            ("Up", {"x": 18, "y": 4}),
-            ("Left", {"x": 17, "y": 4}),
-            ("Left", {"x": 16, "y": 4}),
-            ("Left", {"x": 15, "y": 4}),
-            ("Left", {"x": 14, "y": 4}),
-            ("Left", {"x": 13, "y": 4}),
-            ("Left", {"x": 12, "y": 4}),
-            ("Left", {"x": 11, "y": 4}),
-            ("Left", {"x": 10, "y": 4}),
-            ("Left", {"x": 9, "y": 4}),
-            ("Left", {"x": 8, "y": 4}),
-            ("Left", {"x": 7, "y": 4}),
-            ("Left", {"x": 6, "y": 4}),
-            ("Up", {"x": 6, "y": 3}),
-            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
-        ]):
-            print("Failed to enter Mansion from Lab.")
-            return
-        pos = mgba.get_coordinates()
-
-    # --- STAGE 3: Walk to 2F West ---
-    print("Walking to 2F West staircase...")
-    if not run_steps([
-        ("Up", {"x": 5, "y": 26}),
-        ("Up", {"x": 5, "y": 25}),
-        ("Up", {"x": 5, "y": 24}),
-        ("Up", {"x": 5, "y": 23}),
-        ("Up", {"x": 5, "y": 22}),
-        ("Up", {"x": 5, "y": 21}),
-        ("Up", {"x": 5, "y": 20}),
-        ("Up", {"x": 5, "y": 19}),
-        ("Up", {"x": 5, "y": 18}),
-        ("Up", {"x": 5, "y": 17}),
-        ("Up", {"x": 5, "y": 16}),
-        ("Up", {"x": 5, "y": 15}),
-        ("Up", {"x": 5, "y": 14}),
-        ("Up", {"x": 5, "y": 13}),
-        ("Up", {"x": 5, "y": 12}),
-        ("Up", {"x": 5, "y": 11}),
-        ("Up", {"x": 5, "y": 10}),
-        ("Left", {"x": 5, "y": 11}), # Warp up to 2F West!
-    ]):
-        print("Failed to reach 2F West.")
+    # We must be at (3, 11) on 3F West
+    if pos != {"x": 3, "y": 11}:
+        print("Error: Player is not at (3, 11)!")
         return
 
-    # --- STAGE 4: Walk the Bypass Route to 3F East ---
-    print("Executing State B Bypass Route on 2F...")
+    # --- STAGE 1: Walk to the Switch standing position at (2, 12) ---
+    print("Walking to switch standing position...")
     if not run_steps([
-        ("Up", {"x": 5, "y": 10}),
-        ("Up", {"x": 5, "y": 9}),
-        ("Up", {"x": 5, "y": 8}),
-        ("Up", {"x": 5, "y": 7}),
-        ("Up", {"x": 5, "y": 6}),
-        ("Up", {"x": 5, "y": 5}),
-        ("Up", {"x": 5, "y": 4}),
-        ("Up", {"x": 5, "y": 3}),
-        ("Right", {"x": 6, "y": 3}),
-        ("Right", {"x": 7, "y": 3}),
-        ("Right", {"x": 8, "y": 3}),
-        ("Right", {"x": 9, "y": 3}),
-        ("Right", {"x": 10, "y": 3}),
-        ("Right", {"x": 11, "y": 3}),
-        ("Right", {"x": 12, "y": 3}),
-        ("Right", {"x": 13, "y": 3}),
-        ("Right", {"x": 14, "y": 3}),
-        ("Right", {"x": 15, "y": 3}),
-        ("Right", {"x": 16, "y": 3}),
-        ("Right", {"x": 17, "y": 3}),
-        ("Right", {"x": 18, "y": 3}),
-        ("Down", {"x": 18, "y": 4}),
-        ("Down", {"x": 18, "y": 5}),
-        ("Down", {"x": 18, "y": 6}),
-        ("Down", {"x": 18, "y": 7}),
-        ("Down", {"x": 18, "y": 8}),
-        ("Down", {"x": 18, "y": 9}),
-        ("Down", {"x": 18, "y": 10}),
-        ("Left", {"x": 17, "y": 10}),
-        ("Left", {"x": 16, "y": 10}),
-        ("Left", {"x": 15, "y": 10}),
-        ("Down", {"x": 16, "y": 11}), # Warp up to 3F East!
+        ("Down", {"x": 3, "y": 12}),
+        ("Left", {"x": 2, "y": 12}),
     ]):
-        print("Failed to reach 3F East.")
+        print("Failed to reach (2, 12).")
         return
 
-    # --- STAGE 5: Walk 3F East to Pitfall ---
-    print("Walking to pitfall on 3F East...")
+    # --- STAGE 2: Toggle Switch to State B ---
+    print("Toggling Mewtwo statue switch to State B...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"]) # Interact with statue
+    time.sleep(1.8) # Wait for dialogue
+    mgba.press_buttons(["A"]) # Press Yes
+    time.sleep(1.8) # Wait for pressed dialogue
+    mgba.press_buttons(["A"]) # Dismiss dialogue
+    time.sleep(1.0)
+    mgba.press_buttons(["B"]) # Leftover text safety
+    time.sleep(0.5)
+    print("Successfully toggled switch to State B!")
+
+    # --- STAGE 3: Walk to Column 1 ---
+    print("Navigating around to Column 1...")
     if not run_steps([
-        ("Right", {"x": 17, "y": 11}),
-        ("Right", {"x": 18, "y": 11}),
-        ("Right", {"x": 19, "y": 11}),
-        ("Right", {"x": 20, "y": 11}),
-        ("Up", {"x": 20, "y": 10}),
-        ("Up", {"x": 20, "y": 9}),
+        ("Down", {"x": 2, "y": 13}),
+        ("Left", {"x": 1, "y": 13}),
+        ("Up", {"x": 1, "y": 12}),
+        ("Up", {"x": 1, "y": 11}),
+        ("Up", {"x": 1, "y": 10}),
+        ("Up", {"x": 1, "y": 9}),
+    ]):
+        print("Failed to reach Column 1 Row 9.")
+        return
+
+    # --- STAGE 4: Cross to 3F East and Walk to Column 20 ---
+    print("Crossing horizontally on Row 9 to Column 20 on 3F East...")
+    if not run_steps([
+        ("Right", {"x": 2, "y": 9}),
+        ("Right", {"x": 3, "y": 9}),
+        ("Right", {"x": 4, "y": 9}),
+        ("Right", {"x": 5, "y": 9}),
+        ("Right", {"x": 6, "y": 9}),
+        ("Right", {"x": 7, "y": 9}),
+        ("Right", {"x": 8, "y": 9}),
+        ("Right", {"x": 9, "y": 9}),
+        ("Right", {"x": 10, "y": 9}),
+        ("Right", {"x": 11, "y": 9}),
+        ("Right", {"x": 12, "y": 9}),
+        ("Right", {"x": 13, "y": 9}),
+        ("Right", {"x": 14, "y": 9}),
+        ("Right", {"x": 15, "y": 9}),
+        ("Right", {"x": 16, "y": 9}),
+        ("Right", {"x": 17, "y": 9}),
+        ("Right", {"x": 18, "y": 9}),
+        ("Right", {"x": 19, "y": 9}),
+        ("Right", {"x": 20, "y": 9}),
+    ]):
+        print("Failed to reach Column 20 on Row 9.")
+        return
+
+    # --- STAGE 5: Walk UP Column 20 and RIGHT Row 3 to Pitfall ---
+    print("Walking UP Column 20 and RIGHT along Row 3 to pitfall...")
+    if not run_steps([
         ("Up", {"x": 20, "y": 8}),
         ("Up", {"x": 20, "y": 7}),
         ("Up", {"x": 20, "y": 6}),
@@ -350,16 +189,16 @@ def main():
         ("Right", {"x": 24, "y": 3}),
         ("Right", {"x": 25, "y": 3}),
     ]):
-        print("Failed to reach pitfall.")
+        print("Failed to reach (25, 3).")
         return
 
-    # Step onto the actual pitfall tile
+    # Step onto the actual pitfall tile to drop
     mgba.press_buttons(["Right"])
     time.sleep(1.0)
     pos = mgba.get_coordinates()
     print("Landed on 1F East inside fenced room. Current position:", pos)
     
-    # --- STAGE 6: Walk 1F East to B1F East ---
+    # --- STAGE 6: Align to (22, 4) on 1F East ---
     print("Walking to B1F staircase on 1F East...")
     # Navigate to (22, 4)
     while pos["x"] > 22:
