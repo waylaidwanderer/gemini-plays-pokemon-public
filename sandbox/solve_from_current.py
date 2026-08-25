@@ -123,7 +123,7 @@ def main():
 
     # --- STAGE 1: DIG out to Cinnabar Island (if we are in the Mansion) ---
     # (Since we are on Cinnabar Island overworld now, we skip this)
-    if pos != {"x": 11, "y": 12} and pos != {"x": 6, "y": 11}:
+    if pos != {"x": 11, "y": 12} and pos != {"x": 6, "y": 11} and pos != {"x": 11, "y": 5}:
         pos = use_dig()
         if pos != {"x": 11, "y": 12}:
             print("DIG did not land at (11, 12). Current position:", pos)
