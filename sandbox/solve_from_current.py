@@ -74,46 +74,22 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from position:", pos)
     
-    # Dismiss any text
+    # Dismiss "The door is locked..."
     mgba.press_buttons(["B"])
-    time.sleep(0.3)
+    time.sleep(0.4)
     
     success = True
     
-    # We are at (5, 11) on Cinnabar Island overworld
-    if pos == {"x": 5, "y": 11}:
-        print("STAGE 1: Walking to Column 18 Row 12...")
-        # Step Right to Column 6 first to bypass water shoreline at (5, 12)
-        if not run_steps([
-            ("Right", {"x": 6, "y": 11}),
-            ("Down", {"x": 6, "y": 12}),
-        ]):
-            success = False
-            
-        if success:
-            for x in range(7, 19):
-                if not walk_step("Right", {"x": x, "y": 12}):
-                    success = False
-                    break
-                    
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 12}:
-        print("Walking UP Column 18 to Row 3...")
-        for y in range(11, 2, -1):
-            if not walk_step("Up", {"x": 18, "y": y}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 3}:
-        print("Walking LEFT to Mansion entrance...")
+    # We are at (18, 4) on Cinnabar Island overworld
+    if pos == {"x": 18, "y": 4}:
+        print("STAGE 1: Walking LEFT along Row 4 to Column 6...")
         for x in range(17, 5, -1):
-            if not walk_step("Left", {"x": x, "y": 3}):
+            if not walk_step("Left", {"x": x, "y": 4}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 6, "y": 3}:
+    if success and pos == {"x": 6, "y": 4}:
         print("Entering Mansion...")
         mgba.press_buttons(["Up"])
         time.sleep(2.0) # Wait for map transition
