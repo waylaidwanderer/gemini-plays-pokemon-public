@@ -1,20 +1,42 @@
 import mgba
 import time
 
-def walk_step(direction, expected_coords, retries=15):
+def run_from_battle():
+    print("In battle! Attempting to escape...")
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+    mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A"])
+    time.sleep(1.5)
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+    pos = mgba.get_coordinates()
+    print("Current position after escape attempt:", pos)
+    return pos
+
+def walk_step(direction, expected_coords, retries=30):
     for i in range(retries):
         mgba.press_buttons([direction])
-        time.sleep(0.3)
+        time.sleep(0.4)
         pos = mgba.get_coordinates()
         if pos == expected_coords:
             print(f"Moved {direction}, current position: {pos}")
             return True
+        if pos == {"x": 0, "y": 0}:
+            run_from_battle()
+            pos = mgba.get_coordinates()
+            if pos == expected_coords:
+                return True
         print(f"Blocked! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
-        time.sleep(0.2)
+        time.sleep(0.3)
     return False
 
 # Starting at (12, 11) on 2F East (State A)
+success = True
+
 # 1. Walk LEFT to Column 11, then UP to Row 7
+print("Walking LEFT to Column 11, then UP to Row 7...")
 steps_to_row7 = [
     ("Left", {"x": 11, "y": 11}),
     ("Up", {"x": 11, "y": 10}),
@@ -22,8 +44,6 @@ steps_to_row7 = [
     ("Up", {"x": 11, "y": 8}),
     ("Up", {"x": 11, "y": 7}),
 ]
-
-success = True
 for d, c in steps_to_row7:
     if not walk_step(d, c):
         success = False
@@ -146,7 +166,6 @@ if success:
                         print(f"Warped DOWN to B1F East! Landing position: {pos}")
                         
                         # 7. On B1F East (State B)
-                        # Landing coordinate should be (22, 3). Walk Left to (21, 3), Down to (21, 4), Left to (19, 4), Down to (19, 5), Left to (1, 5)
                         if pos == {"x": 22, "y": 3}:
                             steps_b1f = [
                                 ("Left", {"x": 21, "y": 3}),
