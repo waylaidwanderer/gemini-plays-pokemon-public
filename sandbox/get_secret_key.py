@@ -1,10 +1,20 @@
 import mgba
 import time
+import os
 
-# Starting at (7, 11) on 3F West on "Got away safely!" screen
-# 1. Dismiss the "Got away safely!" screen
-mgba.press_buttons(["B"])
-time.sleep(1.5) # Wait for overworld load
+# Clean up temporary scripts
+obsolete = [
+    "toggle_and_cross_3f.py",
+    "walk_3f_west_chunk.py",
+    "test_switch_3f.py"
+]
+for f in obsolete:
+    if os.path.exists(f):
+        try:
+            os.remove(f)
+            print(f"Deleted obsolete file: {f}")
+        except Exception as e:
+            print(f"Error deleting {f}: {e}")
 
 def walk_step(direction, expected_coords, retries=15):
     for i in range(retries):
@@ -18,23 +28,19 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# 2. Walk from (7, 11) to (1, 11), up to (1, 6), right to (11, 6)
+# Starting at (2, 13) on 3F West (State B)
+# 1. Walk from (2, 13) to (5, 6) via Column 5 and cross to 3F East (11, 6)
 steps_3f_west = [
-    ("Left", {"x": 6, "y": 11}),
-    ("Left", {"x": 5, "y": 11}),
-    ("Left", {"x": 4, "y": 11}),
-    ("Left", {"x": 3, "y": 11}),
-    ("Left", {"x": 2, "y": 11}),
-    ("Left", {"x": 1, "y": 11}),
-    ("Up", {"x": 1, "y": 10}),
-    ("Up", {"x": 1, "y": 9}),   # Open gate in State B!
-    ("Up", {"x": 1, "y": 8}),
-    ("Up", {"x": 1, "y": 7}),
-    ("Up", {"x": 1, "y": 6}),
-    ("Right", {"x": 2, "y": 6}),
-    ("Right", {"x": 3, "y": 6}),
-    ("Right", {"x": 4, "y": 6}),
-    ("Right", {"x": 5, "y": 6}),
+    ("Right", {"x": 3, "y": 13}),
+    ("Right", {"x": 4, "y": 13}),
+    ("Right", {"x": 5, "y": 13}),
+    ("Up", {"x": 5, "y": 12}),
+    ("Up", {"x": 5, "y": 11}),
+    ("Up", {"x": 5, "y": 10}),
+    ("Up", {"x": 5, "y": 9}),   # Open gate in State B!
+    ("Up", {"x": 5, "y": 8}),
+    ("Up", {"x": 5, "y": 7}),
+    ("Up", {"x": 5, "y": 6}),
     ("Right", {"x": 6, "y": 6}),
     ("Right", {"x": 7, "y": 6}),
     ("Right", {"x": 8, "y": 6}),
@@ -44,13 +50,13 @@ steps_3f_west = [
 ]
 
 success = True
-for d, c in steps_3f_west:
-    if not walk_step(d, c):
+for direction, coords in steps_3f_west:
+    if not walk_step(direction, coords):
         success = False
         break
-        
+
 if success:
-    # 3. On 3F East (State B)
+    # 2. On 3F East (State B)
     # Walk Right from (11, 6) to Column 20, Up to Row 3, Right to (26, 3) and step Down to drop
     steps_3f_east = [
         ("Right", {"x": 12, "y": 6}),
@@ -84,7 +90,7 @@ if success:
         pos = mgba.get_coordinates()
         print(f"Landed on 1F East inside fenced room! Position: {pos}")
         
-        # 4. On 1F East fenced room
+        # 3. On 1F East fenced room
         # Landing coordinate should be (26, 4). Walk UP to (26, 3), Left to (22, 3), Up onto stairs at (22, 2)
         steps_1f_east = [
             ("Up", {"x": 26, "y": 3}),
@@ -105,7 +111,7 @@ if success:
             pos = mgba.get_coordinates()
             print(f"Warped DOWN to B1F East! Landing position: {pos}")
             
-            # 5. On B1F East (State B)
+            # 4. On B1F East (State B)
             # Landing coordinate should be (22, 3). Walk Left to (21, 3), Down to (21, 4), Left to (19, 4), Down to (19, 5), Left to (1, 5)
             if pos == {"x": 22, "y": 3}:
                 steps_b1f = [
