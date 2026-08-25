@@ -72,7 +72,7 @@ def run_steps(steps):
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting State B mansion solver from current position:", pos)
+    print("Continuing State B mansion solver from current position:", pos)
     
     # Dismiss any text
     mgba.press_buttons(["B"])
@@ -80,131 +80,41 @@ def main():
     
     success = True
     
-    # 1. Walk from (15, 7) on 2F East back to 2F West switch stand position (2, 12)
-    if pos == {"x": 15, "y": 7}:
-        print("Walking back to 2F West switch from (15, 7) via Row 4 Column 10...")
-        if not run_steps([
-            ("Left", {"x": 14, "y": 7}),
-            ("Left", {"x": 13, "y": 7}),
-            ("Left", {"x": 12, "y": 7}),
-            ("Up", {"x": 12, "y": 6}),
-            ("Up", {"x": 12, "y": 5}),
-            ("Up", {"x": 12, "y": 4}),
-        ]):
-            success = False
-            
-        if success:
-            # Walk LEFT along Row 4 to Column 10
-            for x in range(11, 9, -1):
-                if not walk_step("Left", {"x": x, "y": 4}):
-                    success = False
-                    break
-                    
-        if success:
-            # Walk DOWN Column 10 to Row 11
-            for y in range(5, 12):
-                if not walk_step("Down", {"x": 10, "y": y}):
-                    success = False
-                    break
-                    
-        if success:
-            # Walk LEFT on Row 11 to Column 3
-            for x in range(9, 2, -1):
-                if not walk_step("Left", {"x": x, "y": 11}):
-                    success = False
-                    break
-                    
-        if success:
-            # Walk to (2, 12) standing position
-            if not run_steps([
-                ("Down", {"x": 3, "y": 12}),
-                ("Left", {"x": 2, "y": 12}),
-            ]):
-                success = False
-
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 2, "y": 12}:
-        # 2. Toggle switch to State B
-        print("At (2, 12) on 2F West! Facing UP and toggling switch to State B...")
-        mgba.press_buttons(["Up"])
-        time.sleep(0.4)
-        mgba.press_buttons(["A"]) # "A secret switch!"
-        time.sleep(0.8)
-        mgba.press_buttons(["A"]) # select YES
-        time.sleep(0.8)
-        mgba.press_buttons(["A"]) # "Pressed it!"
-        time.sleep(0.8)
-        print("Switch toggled to State B!")
-        
-        # 3. Walk to Row 11 Column 10
-        if not run_steps([
-            ("Right", {"x": 3, "y": 12}),
-            ("Up", {"x": 3, "y": 11}),
-        ]):
-            success = False
-            
-        if success:
-            curr_x = mgba.get_coordinates()['x']
-            while curr_x < 10:
-                if not walk_step("Right", {"x": curr_x + 1, "y": 11}):
-                    success = False
-                    break
-                curr_x = mgba.get_coordinates()['x']
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 10, "y": 11}:
-        # 4. Walk UP Column 10 to Row 4
-        print("Walking UP Column 10 to Row 4...")
-        for y in range(10, 3, -1):
-            if not walk_step("Up", {"x": 10, "y": y}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 10, "y": 4}:
-        # 5. Walk LEFT along Row 4 to Column 5
-        print("Walking LEFT along Row 4 to Column 5...")
-        for x in range(9, 4, -1):
-            if not walk_step("Left", {"x": x, "y": 4}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 5, "y": 4}:
-        # 6. Walk UP Column 5 to Row 3
-        if not walk_step("Up", {"x": 5, "y": 3}):
+    # 1. DOWN to (8, 4)
+    if pos == {"x": 8, "y": 3}:
+        if not walk_step("Down", {"x": 8, "y": 4}):
             success = False
             
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 5, "y": 3}:
-        # 7. Walk RIGHT along Row 3 to Column 18
-        print("Walking RIGHT along Row 3 to Column 18...")
-        for x in range(6, 19):
-            if not walk_step("Right", {"x": x, "y": 3}):
+    if success and pos == {"x": 8, "y": 4}:
+        # 2. Walk RIGHT to (12, 4)
+        print("Walking RIGHT along Row 4 to Column 12...")
+        for x in range(9, 13):
+            if not walk_step("Right", {"x": x, "y": 4}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 3}:
-        # 8. Walk DOWN Column 18 to Row 7
-        print("Walking DOWN Column 18 to Row 7...")
-        for y in range(4, 8):
-            if not walk_step("Down", {"x": 18, "y": y}):
+    if success and pos == {"x": 12, "y": 4}:
+        # 3. Walk DOWN Column 12 to Row 7
+        print("Walking DOWN Column 12 to Row 7...")
+        for y in range(5, 8):
+            if not walk_step("Down", {"x": 12, "y": y}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 7}:
-        # 9. Walk LEFT along Row 7 to Column 15
-        print("Walking LEFT along Row 7 to Column 15...")
-        for x in range(17, 14, -1):
-            if not walk_step("Left", {"x": x, "y": 7}):
+    if success and pos == {"x": 12, "y": 7}:
+        # 4. Walk RIGHT along Row 7 to Column 15
+        print("Walking RIGHT along Row 7 to Column 15...")
+        for x in range(13, 16):
+            if not walk_step("Right", {"x": x, "y": 7}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
     if success and pos == {"x": 15, "y": 7}:
-        # 10. Walk DOWN Column 15 directly to stairs at (15, 11) (OPEN in State B!)
+        # 5. Walk DOWN Column 15 directly to stairs at (15, 11) (OPEN in State B!)
         print("Walking DOWN Column 15 to stairs...")
         steps_down_col15 = [
             ("Down", {"x": 15, "y": 8}),
@@ -223,7 +133,7 @@ def main():
             
     pos = mgba.get_coordinates()
     if success and (pos == {"x": 16, "y": 11} or pos == {"x": 15, "y": 11}):
-        # 11. On 3F East (landing at (16, 11) or (15, 11)):
+        # 6. On 3F East (landing at (16, 11) or (15, 11)):
         # Since we are already in State B, we don't need to toggle any switch on 3F East!
         # We just walk directly from (16, 11) to the pitfall at (26, 3)!
         print("Landed on 3F East! Walking directly to pitfall at (26, 3)...")
@@ -278,7 +188,7 @@ def main():
             
     pos = mgba.get_coordinates()
     if success and pos == {"x": 22, "y": 3}:
-        # 12. Cross B1F East to B1F West
+        # 7. Cross B1F East to B1F West
         if not run_steps([
             ("Left", {"x": 21, "y": 3}),
             ("Down", {"x": 21, "y": 4}),
@@ -322,7 +232,7 @@ def main():
         time.sleep(1.0)
         print("Obtained Secret Key! Current position:", mgba.get_coordinates())
         
-        # 13. DIG escape!
+        # 8. DIG escape!
         print("Using DIG to escape...")
         mgba.press_buttons(["Start", "sleep 300", "Down", "A", "sleep 300"])
         for _ in range(5):
@@ -330,5 +240,8 @@ def main():
         mgba.press_buttons(["A", "sleep 300", "A"])
         time.sleep(3.0)
         print("Warped out successfully! Final position:", mgba.get_coordinates())
+
+if not success:
+    print("Mansion complete solve aborted.")
 
 main()
