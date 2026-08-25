@@ -81,50 +81,32 @@ def main():
     
     success = True
     
-    # We are at (2, 3) inside Cinnabar Lab
-    if pos == {"x": 2, "y": 3}:
-        print("STAGE 0: Exiting Cinnabar Lab...")
-        for y in range(4, 8):
-            if not walk_step("Down", {"x": 2, "y": y}):
-                success = False
-                break
-        if success:
-            print("Stepping DOWN to exit Cinnabar Lab...")
-            mgba.press_buttons(["Down"])
-            time.sleep(1.5) # Wait for map transition
+    # We are at (6, 10) on Cinnabar Island overworld
+    if pos == {"x": 6, "y": 10}:
+        print("STAGE 1: Walking to Column 5 to bypass Lab entrance...")
+        if not walk_step("Left", {"x": 5, "y": 10}):
+            success = False
             
     pos = mgba.get_coordinates()
-    # Now we are outside the Cinnabar Lab, landing at (6, 12) or (6, 11) on Cinnabar Island
-    if success and pos['x'] == 6 and pos['y'] in [11, 12]:
-        print("Outside Cinnabar Lab! Current position:", pos)
-        # Align to (6, 12) if at (6, 11)
-        if pos['y'] == 11:
-            if not walk_step("Down", {"x": 6, "y": 12}):
+    if success and pos == {"x": 5, "y": 10}:
+        print("Walking UP Column 5 to Row 4...")
+        for y in range(9, 3, -1):
+            if not walk_step("Up", {"x": 5, "y": y}):
                 success = False
+                break
                 
-        # Walk left to Column 5 to bypass Lab entrance
-        if success:
-            if not walk_step("Left", {"x": 5, "y": 12}):
-                success = False
-                
-        # Walk UP Column 5 to Row 4
-        if success:
-            for y in range(11, 3, -1):
-                if not walk_step("Up", {"x": 5, "y": y}):
-                    success = False
-                    break
-                    
-        # Walk RIGHT to Column 6 Row 4
-        if success:
-            if not walk_step("Right", {"x": 6, "y": 4}):
-                success = False
-                
-        # Step UP to enter Mansion
-        if success:
-            print("Entering Mansion...")
-            mgba.press_buttons(["Up"])
-            time.sleep(2.0) # Wait for map transition
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 5, "y": 4}:
+        print("Walking RIGHT to Column 6 Row 4...")
+        if not walk_step("Right", {"x": 6, "y": 4}):
+            success = False
             
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 6, "y": 4}:
+        print("Entering Mansion...")
+        mgba.press_buttons(["Up"])
+        time.sleep(2.0) # Wait for map transition
+        
     pos = mgba.get_coordinates()
     # 2. Inside Mansion 1F West (landing at (5, 27))
     if success and pos == {"x": 5, "y": 27}:
@@ -194,7 +176,7 @@ def main():
         time.sleep(0.5)
         print("Successfully toggled switch to State B!")
         
-        # Walk back to Column 1 Row 9 on 3F West
+        # Walk back to Column 10 Row 11 on 3F West
         print("Walking to Column 10 Row 11...")
         if not run_steps([
             ("Left", {"x": 1, "y": 12}),
