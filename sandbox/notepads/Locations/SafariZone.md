@@ -10,22 +10,17 @@
 2. **Secret House**: Reported in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
 
 ## Map Topology & Connectivity
-- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0).
-- **Center Area (Area 0)**: Entrances/exits to Area 1 (East) and Area 2 (North).
-- **Area 1 (East)**: Connects Center to Area 2 (North).
-- **Area 2 (North)**: Connects Area 1 / Center to Area 3 (West).
-- **Area 3 (West)**: Contains Gold Teeth and Secret House (HM03 Surf).
+- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay �500 to enter Safari Zone Center (Area 0).
+- **Center Area (Area 0)**: Exits to Area 1 (East) at (29, 10) and Area 2 (North) at (14, 0) / (20, 0). (West boundary cols 0-1 rows 13-25 empirically verified solid trees/bushes; NO direct west exit).
+- **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
+- **Area 2 (North)**: Connects Area 1 (39, 31) to Area 3 (West) at west boundary (cols 0-1). South edge (row 36) exits to Center Area (20, 0).
+- **Area 3 (West)**: Accessed via Area 2 (North) west boundary; contains Gold Teeth and Secret House (HM03 Surf).
+
 ## Area 1 (East) Topology & Verified Landmarks
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
 - Lower Ridge Ascent Stairs: (12, 21) leading onto ridge spanning rows 20-21, cols 12-20.
 - Lower Ridge Descent Stairs: (20, 21) leading down to eastern clearing (cols 20-28, rows 22-25).
-- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 19-26).
+- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 19-26). (Elevated overlook bounded by water/cliffs to north/west/east; dead-end).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
-- Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via northern lawn bypass (cols 6-7, row 5) [Verified Turn 15609].
-- Upper Ridge Descent Stairs: (17, 7) leading down onto eastern lawn (rows 1-8, cols 20-23).
-- Solid Boundaries: Column 29 is a vertical rock/hedge barrier; northern border along row 0 is solid rock/hedge barrier.
-## Area 2 (North) Topology & Verified Landmarks
-- East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
-- South Boundary: Stepping south across row 36 (verified at cols 2 and 20) warps back to Safari Zone Center at (20, 0) [Turns 15718, 15776].
-- Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
-- Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
+- Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via western col 9 corridor and row 5 northern avenue [Verified Turn 15609, 16154].
+- Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
