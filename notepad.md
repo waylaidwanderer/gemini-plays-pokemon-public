@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse at (4, 2) [Turn 16351]; Initiating Run 8 with 500 fresh steps; executing strict Waypoint Route to Area 2 Southwest sector & Area 3 (West) for Gold Teeth & HM03 Surf.
+- Location: Safari Zone Area 1 (East) at (17, 24) [Turn 16382]; Run 8 active with ~420 steps; executing lower ridge crossing (20, 21 -> 12, 21) to access col 9 avenue into Area 2 (North) for Area 3 (West) Gold Teeth & HM03 Surf.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
