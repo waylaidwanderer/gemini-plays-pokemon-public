@@ -74,26 +74,50 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver step 1 from Cinnabar Island:", pos)
     
-    if pos != {"x": 6, "y": 12}:
-        print("Error: Player is not at (6, 12)!")
+    if pos != {"x": 4, "y": 10}:
+        print("Error: Player is not at (4, 10)!")
         return
 
-    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Column 4 Bypass Route) ---
+    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass Route) ---
     print("Walking to Pokemon Mansion Entrance...")
     if not run_steps([
-        ("Up", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-        ("Left", {"x": 4, "y": 11}),
-        ("Up", {"x": 4, "y": 10}),
-        ("Up", {"x": 4, "y": 9}),
-        ("Up", {"x": 4, "y": 8}),
-        ("Up", {"x": 4, "y": 7}),
-        ("Up", {"x": 4, "y": 6}),
-        ("Up", {"x": 4, "y": 5}),
-        ("Up", {"x": 4, "y": 4}),
-        ("Up", {"x": 4, "y": 3}),
-        ("Right", {"x": 5, "y": 3}),
-        ("Right", {"x": 6, "y": 3}),
+        ("Down", {"x": 4, "y": 11}),
+        ("Down", {"x": 4, "y": 12}),
+        ("Right", {"x": 5, "y": 12}),
+        ("Right", {"x": 6, "y": 12}),
+        ("Right", {"x": 7, "y": 12}),
+        ("Right", {"x": 8, "y": 12}),
+        ("Right", {"x": 9, "y": 12}),
+        ("Right", {"x": 10, "y": 12}),
+        ("Right", {"x": 11, "y": 12}),
+        ("Right", {"x": 12, "y": 12}),
+        ("Right", {"x": 13, "y": 12}),
+        ("Right", {"x": 14, "y": 12}),
+        ("Right", {"x": 15, "y": 12}),
+        ("Right", {"x": 16, "y": 12}),
+        ("Right", {"x": 17, "y": 12}),
+        ("Right", {"x": 18, "y": 12}),
+        ("Up", {"x": 18, "y": 11}),
+        ("Up", {"x": 18, "y": 10}),
+        ("Up", {"x": 18, "y": 9}),
+        ("Up", {"x": 18, "y": 8}),
+        ("Up", {"x": 18, "y": 7}),
+        ("Up", {"x": 18, "y": 6}),
+        ("Up", {"x": 18, "y": 5}),
+        ("Up", {"x": 18, "y": 4}),
+        ("Up", {"x": 18, "y": 3}), # At Row 3! Completely behind the Cooltrainer at Row 5!
+        ("Left", {"x": 17, "y": 3}),
+        ("Left", {"x": 16, "y": 3}),
+        ("Left", {"x": 15, "y": 3}),
+        ("Left", {"x": 14, "y": 3}),
+        ("Left", {"x": 13, "y": 3}),
+        ("Left", {"x": 12, "y": 3}),
+        ("Left", {"x": 11, "y": 3}),
+        ("Left", {"x": 10, "y": 3}),
+        ("Left", {"x": 9, "y": 3}),
+        ("Left", {"x": 8, "y": 3}),
+        ("Left", {"x": 7, "y": 3}),
+        ("Left", {"x": 6, "y": 3}),
     ]):
         print("Failed to reach Mansion doorway.")
         return
