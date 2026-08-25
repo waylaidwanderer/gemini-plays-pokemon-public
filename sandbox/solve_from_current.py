@@ -80,17 +80,34 @@ def main():
     
     success = True
     
-    # 1. On 3F East, walk UP Column 21 to Row 3, then RIGHT to pitfall at (26, 3)
-    if pos == {"x": 21, "y": 11}:
-        print("Walking UP Column 21 to Row 3...")
-        for y in range(10, 2, -1):
-            if not walk_step("Up", {"x": 21, "y": y}):
+    # 1. On 3F East, walk LEFT to Column 19, then UP Column 19 to Row 4
+    if pos == {"x": 21, "y": 9}:
+        print("Walking LEFT to Column 19 Row 9...")
+        if not run_steps([
+            ("Left", {"x": 20, "y": 9}),
+            ("Left", {"x": 19, "y": 9}),
+        ]):
+            success = False
+            
+        if success:
+            print("Walking UP Column 19 to Row 4...")
+            for y in range(8, 3, -1):
+                if not walk_step("Up", {"x": 19, "y": y}):
+                    success = False
+                    break
+                    
+        if success:
+            # Bypass Row 3 Column 19 wall
+            print("Bypassing Row 3 Column 19 wall...")
+            if not run_steps([
+                ("Right", {"x": 20, "y": 4}),
+                ("Up", {"x": 20, "y": 3}),
+            ]):
                 success = False
-                break
                 
         if success:
             print("Walking RIGHT along Row 3 to Column 26...")
-            for x in range(22, 27):
+            for x in range(21, 27):
                 if not walk_step("Right", {"x": x, "y": 3}):
                     success = False
                     break
