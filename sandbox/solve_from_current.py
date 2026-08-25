@@ -102,10 +102,14 @@ def main():
             
     # --- STAGE 5: Mansion 2F West (landing at (7, 11), State A) ---
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 7, "y": 11}:
+    if success and (pos == {"x": 7, "y": 11} or pos == {"x": 7, "y": 10}):
         print("STAGE 5: Walking from 2F West to 2F East stairs...")
-        if not run_steps([
-            ("Left", {"x": 6, "y": 11}),
+        if pos == {"x": 7, "y": 10}:
+            if not walk_step("Down", {"x": 7, "y": 11}):
+                success = False
+        if success:
+            if not run_steps([
+                ("Left", {"x": 6, "y": 11}),
             ("Up", {"x": 6, "y": 10}),
             ("Up", {"x": 6, "y": 9}),
             ("Up", {"x": 6, "y": 8}),
