@@ -1791,12 +1791,11 @@
    - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
 
 ## Step Budget Tracker (Run 4)
-- Current: Turn 16021 at (24, 15) with ~425 steps remaining.
+- Current: Turn 16042 at (0, 5) entering Area 2 (North) with ~315 steps remaining.
 - Estimated steps to reach Area 3: ~80 steps.
 - Estimated arrival in Area 3: ~345 steps remaining (huge surplus).
 
 ## Bag Space
 - 2 empty slots available (Rare Candy and TM10 consumed; Double-Edge taught to HYDROS Lv 52).
-
 
 <hr>
