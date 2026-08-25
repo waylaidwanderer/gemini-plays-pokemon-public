@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (8, 16) [Turn 15934]; taking col 12 corridor north past upper pond (rows 12-13) to row 10 and sprinting west into Area 3 (West) with ~194 steps budget.
+- Location: Safari Zone Area 2 (North) at (12, 14) [Turn 15937]; moving north along col 12 past upper pond to row 9/10 and sprinting west into Area 3 (West) with ~188 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1778,17 +1778,14 @@
 
 ## Step Budget & Current State
 - Initial Budget: 500 steps
-- Expended so far: 306 steps (Turn 15934)
-- Current Position: Safari Zone Area 2 (North) at (8, 16)
-- Steps Remaining: ~194 steps
+- Expended so far: 312 steps (Turn 15937)
+- Current Position: Safari Zone Area 2 (North) at (12, 14)
+- Steps Remaining: ~188 steps
 - Target: Reach Area 3 (West) connection, retrieve Gold Teeth, and enter Secret House for HM03 (Surf).
 
-## Area 2 (North) Topology & Active Route
-- Lower pond at (4..7, 14..19).
-- Upper pond at (8..11, 12..13).
-- Bypass corridor: Col 12 connects rows 14 -> 10 past the upper pond.
-- Northern thoroughfare (rows 1-11): Completely open green lawn spanning across the entire top of Area 2 towards western border (col 0) into Area 3 (West).
-- Plan: Move Up 2 to (8, 14), Right 4 to (12, 14), Up 4 along col 12 to (12, 10), and Left 12 along row 10 into Area 3 (West) with ~170 steps remaining!
+## Area 2 (North) Active Traversal
+- Reached (12, 14) on the eastern bypass corridor.
+- Plan: Walk North along col 12 to row 9 (5 steps), then sprint West along row 9 (12 steps) into Area 3 (West) at (0, 9) with ~171 steps remaining!
 
 
 <hr>
