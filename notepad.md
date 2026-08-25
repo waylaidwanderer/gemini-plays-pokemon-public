@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Center at (3, 31) [Turn 16321]; Surveying Safari Zone Center west boundary to find direct access to Area 3 (West).
+- Location: Safari Zone Gatehouse at (4, 2) [Turn 16351]; Initiating Run 8 with 500 fresh steps; executing strict Waypoint Route to Area 2 Southwest sector & Area 3 (West) for Gold Teeth & HM03 Surf.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
