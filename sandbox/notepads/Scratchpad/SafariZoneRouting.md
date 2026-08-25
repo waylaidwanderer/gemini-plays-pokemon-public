@@ -2,12 +2,13 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 290 steps (Turn 15920)
-- Steps Remaining at (6, 30) in Area 2: ~210 steps
+- Steps Expended so far: 296 steps (Turn 15926)
+- Steps Remaining at (6, 24) in Area 2: ~204 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
-## Area 2 (North) Topology & Plan
-- Reached (6, 30) in southwestern sector.
-- Col 5 has a vertical bush line (rows 26-33).
-- Western open lawn (cols 0-4, rows 25-33) is clearly visible to the west!
-- Plan: Walk north along col 6 past row 26, turn west above the bush line (row 24/25) into cols 0-4, and step west into Area 3 (West)!
+## Area 2 (North) Final Traversal Leg
+- Current position: (6, 24).
+- Rest House located at (4..5, 24..25).
+- Bush column at col 5 spans rows 20-23.
+- Row 19 is open green grass spanning above the bush column all the way west (cols 0-11).
+- Plan: Move Up 5 to (6, 19), Move Left 6 along row 19 to (0, 19) -> triggers map warp into Area 3 (West) with ~193 steps remaining!

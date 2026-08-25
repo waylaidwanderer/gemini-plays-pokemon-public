@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (6, 30) [Turn 15920]; moving north along col 6 to row 24 to bypass col 5 bush barrier and sprint west into Area 3 (West) with ~210 steps budget.
+- Location: Safari Zone Area 2 (North) at (6, 24) [Turn 15926]; moving north to row 19 to clear col 5 bush column and sprinting west into Area 3 (West) with ~204 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
