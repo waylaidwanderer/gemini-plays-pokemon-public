@@ -145,13 +145,13 @@ def main():
     if pos == {"x": 10, "y": 7}:
         print("Walking to Pokemon Mansion Entrance...")
         if not run_steps([
-            ("Down", {"x": 10, "y": 8}),
-            ("Down", {"x": 10, "y": 9}),
-            ("Down", {"x": 10, "y": 10}),
-            ("Down", {"x": 10, "y": 11}),
-            ("Down", {"x": 10, "y": 12}),
-            ("Right", {"x": 11, "y": 12}),
-            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 11, "y": 7}),
+            ("Right", {"x": 12, "y": 7}),
+            ("Down", {"x": 12, "y": 8}),
+            ("Down", {"x": 12, "y": 9}),
+            ("Down", {"x": 12, "y": 10}),
+            ("Down", {"x": 12, "y": 11}),
+            ("Down", {"x": 12, "y": 12}),
             ("Right", {"x": 13, "y": 12}),
             ("Right", {"x": 14, "y": 12}),
             ("Right", {"x": 15, "y": 12}),
