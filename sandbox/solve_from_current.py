@@ -80,17 +80,18 @@ def main():
     
     success = True
     
-    # We are at (5, 10) on Cinnabar Island overworld
-    if pos == {"x": 5, "y": 10}:
+    # We are at (5, 11) on Cinnabar Island overworld
+    if pos == {"x": 5, "y": 11}:
         print("STAGE 1: Walking to Column 18 Row 12...")
+        # Step Right to Column 6 first to bypass water shoreline at (5, 12)
         if not run_steps([
-            ("Down", {"x": 5, "y": 11}),
-            ("Down", {"x": 5, "y": 12}),
+            ("Right", {"x": 6, "y": 11}),
+            ("Down", {"x": 6, "y": 12}),
         ]):
             success = False
             
         if success:
-            for x in range(6, 19):
+            for x in range(7, 19):
                 if not walk_step("Right", {"x": x, "y": 12}):
                     success = False
                     break
