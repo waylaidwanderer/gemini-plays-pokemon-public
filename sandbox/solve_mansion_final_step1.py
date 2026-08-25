@@ -74,57 +74,27 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver step 1 from Cinnabar Island:", pos)
     
-    if pos != {"x": 4, "y": 10}:
-        print("Error: Player is not at (4, 10)!")
+    if pos != {"x": 4, "y": 11}:
+        print("Error: Player is not at (4, 11)!")
         return
 
-    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass Route) ---
+    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass Route on Row 11) ---
     print("Walking to Pokemon Mansion Entrance...")
-    if not run_steps([
-        ("Down", {"x": 4, "y": 11}),
-        ("Down", {"x": 4, "y": 12}),
-        ("Right", {"x": 5, "y": 12}),
-        ("Right", {"x": 6, "y": 12}),
-        ("Right", {"x": 7, "y": 12}),
-        ("Right", {"x": 8, "y": 12}),
-        ("Right", {"x": 9, "y": 12}),
-        ("Right", {"x": 10, "y": 12}),
-        ("Right", {"x": 11, "y": 12}),
-        ("Right", {"x": 12, "y": 12}),
-        ("Right", {"x": 13, "y": 12}),
-        ("Right", {"x": 14, "y": 12}),
-        ("Right", {"x": 15, "y": 12}),
-        ("Right", {"x": 16, "y": 12}),
-        ("Right", {"x": 17, "y": 12}),
-        ("Right", {"x": 18, "y": 12}),
-        ("Up", {"x": 18, "y": 11}),
-        ("Up", {"x": 18, "y": 10}),
-        ("Up", {"x": 18, "y": 9}),
-        ("Up", {"x": 18, "y": 8}),
-        ("Up", {"x": 18, "y": 7}),
-        ("Up", {"x": 18, "y": 6}),
-        ("Up", {"x": 18, "y": 5}),
-        ("Up", {"x": 18, "y": 4}),
-        ("Up", {"x": 18, "y": 3}), # At Row 3! Completely behind the Cooltrainer at Row 5!
-        ("Left", {"x": 17, "y": 3}),
-        ("Left", {"x": 16, "y": 3}),
-        ("Left", {"x": 15, "y": 3}),
-        ("Left", {"x": 14, "y": 3}),
-        ("Left", {"x": 13, "y": 3}),
-        ("Left", {"x": 12, "y": 3}),
-        ("Left", {"x": 11, "y": 3}),
-        ("Left", {"x": 10, "y": 3}),
-        ("Left", {"x": 9, "y": 3}),
-        ("Left", {"x": 8, "y": 3}),
-        ("Left", {"x": 7, "y": 3}),
-        ("Left", {"x": 6, "y": 3}),
-    ]):
+    steps = []
+    # Walk Right along Row 11 to Column 18
+    for x in range(5, 19):
+        steps.append(("Right", {"x": x, "y": 11}))
+    # Walk Up Column 18 to Row 3
+    for y in range(10, 2, -1):
+        steps.append(("Up", {"x": 18, "y": y}))
+    # Walk Left along Row 3 to Column 6 (warps inside)
+    for x in range(17, 5, -1):
+        steps.append(("Left", {"x": x, "y": 3}))
+        
+    if not run_steps(steps):
         print("Failed to reach Mansion doorway.")
         return
         
-    # Extra step up to land inside at (5, 27)
-    mgba.press_buttons(["Up"])
-    time.sleep(1.5)
     pos = mgba.get_coordinates()
     print("Entered Mansion 1F West:", pos)
 
