@@ -69,23 +69,28 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Start at current position on 3F West (should be 2, 11)
+# Start at current position on 3F West (should be 1, 10)
 pos = mgba.get_coordinates()
 print(f"Starting from 3F West position: {pos}")
 
 success = True
 
-# 1. Walk from (2, 11) to 3F East (12, 6) via Column 1
+# 1. Walk from (1, 10) to 3F East (12, 6) via Column 6
 steps_to_3f_east = [
-    ("Left", {"x": 1, "y": 11}),
-    ("Up", {"x": 1, "y": 10}),
-    ("Up", {"x": 1, "y": 9}),
-    ("Up", {"x": 1, "y": 8}),
-    ("Up", {"x": 1, "y": 7}),
-    ("Up", {"x": 1, "y": 6}),
+    ("Down", {"x": 1, "y": 11}),
+    ("Right", {"x": 2, "y": 11}),
+    ("Right", {"x": 3, "y": 11}),
+    ("Right", {"x": 4, "y": 11}),
+    ("Right", {"x": 5, "y": 11}),
+    ("Right", {"x": 6, "y": 11}),
+    ("Up", {"x": 6, "y": 10}),
+    ("Up", {"x": 6, "y": 9}),  # Open gate in State B!
+    ("Up", {"x": 6, "y": 8}),
+    ("Up", {"x": 6, "y": 7}),
+    ("Up", {"x": 6, "y": 6}),
 ]
 # Walk RIGHT along Row 6 to Column 12
-for x in range(2, 13):
+for x in range(7, 13):
     steps_to_3f_east.append(("Right", {"x": x, "y": 6}))
 
 print("Walking to 3F East...")
