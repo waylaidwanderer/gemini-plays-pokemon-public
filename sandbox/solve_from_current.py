@@ -74,11 +74,18 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting solve from current position:", pos)
     
-    # We are at (12, 11) on 2F East in State B.
-    # 1. Walk UP Column 12 to Row 7
-    if pos == {"x": 12, "y": 11}:
+    # We are at (13, 12) on 2F East in State B.
+    # 1. Walk LEFT to (12, 12)
+    if pos == {"x": 13, "y": 12}:
+        if not walk_step("Left", {"x": 12, "y": 12}):
+            return
+            
+    pos = mgba.get_coordinates()
+    if pos == {"x": 12, "y": 12}:
+        # 2. Walk UP Column 12 to Row 7
         print("Walking UP Column 12 to Row 7...")
         steps_up_col12 = [
+            ("Up", {"x": 12, "y": 11}),
             ("Up", {"x": 12, "y": 10}),
             ("Up", {"x": 12, "y": 9}),
             ("Up", {"x": 12, "y": 8}),
@@ -90,7 +97,7 @@ def main():
 
     pos = mgba.get_coordinates()
     if pos == {"x": 12, "y": 7}:
-        # 2. Walk RIGHT along Row 7 to Column 18 (open in State B!)
+        # 3. Walk RIGHT along Row 7 to Column 18 (open in State B!)
         print("Walking RIGHT along Row 7 to Column 18...")
         steps_right_row7 = [
             ("Right", {"x": 13, "y": 7}),
@@ -106,7 +113,7 @@ def main():
 
     pos = mgba.get_coordinates()
     if pos == {"x": 18, "y": 7}:
-        # 3. Walk DOWN Column 18 to Row 11
+        # 4. Walk DOWN Column 18 to Row 11 (open in State B!)
         print("Walking DOWN Column 18 to Row 11...")
         steps_down_col18 = [
             ("Down", {"x": 18, "y": 8}),
@@ -120,7 +127,7 @@ def main():
                 
     pos = mgba.get_coordinates()
     if pos == {"x": 18, "y": 11}:
-        # 4. Walk LEFT along Row 11 to Column 15 stairs
+        # 5. Walk LEFT along Row 11 to Column 15 stairs
         print("Walking LEFT to stairs at (15, 11)...")
         steps_to_stairs = [
             ("Left", {"x": 17, "y": 11}),
