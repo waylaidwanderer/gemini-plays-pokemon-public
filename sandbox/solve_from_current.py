@@ -107,9 +107,9 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from current position:", pos)
     
-    # We must be at (3, 11) on 3F West
-    if pos != {"x": 3, "y": 11}:
-        print("Error: Player is not at (3, 11)!")
+    # We must be at (3, 11) or (2, 12) on 3F West
+    if pos != {"x": 3, "y": 11} and pos != {"x": 2, "y": 12}:
+        print("Error: Player is not at (3, 11) or (2, 12)!")
         return
 
     # --- STAGE 1: Walk to the Switch standing position at (2, 13) ---
