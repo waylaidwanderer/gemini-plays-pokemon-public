@@ -70,11 +70,12 @@ success = True
 # 1. Walk from current position (9, 10) on Cinnabar Island to Mansion entrance
 print("Starting from (9, 10) on Cinnabar Island overworld...")
 steps_cinnabar = [
-    ("Down", {"x": 9, "y": 11}),
-    ("Down", {"x": 9, "y": 12}),
+    ("Left", {"x": 8, "y": 10}),
+    ("Down", {"x": 8, "y": 11}),
+    ("Down", {"x": 8, "y": 12}),
 ]
 # Walk RIGHT along Row 12 to Column 18
-for x in range(10, 19):
+for x in range(9, 19):
     steps_cinnabar.append(("Right", {"x": x, "y": 12}))
 # Walk UP Column 18 to Row 4
 for y in range(11, 3, -1):
@@ -280,6 +281,12 @@ if success:
                 print("Failed to reach pitfall on 3F East.")
         else:
             print("Failed to navigate 2F East.")
+        # Make copy of solve_mansion_step_by_step.py just in case
+        try:
+            with open("solve_mansion_step_by_step.py", "w") as f:
+                f.write(open("solve_from_current.py").read())
+        except Exception:
+            pass
     else:
         print("Failed to reach 1F West stairs.")
 else:
