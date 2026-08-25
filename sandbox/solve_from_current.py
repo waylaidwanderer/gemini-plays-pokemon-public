@@ -121,6 +121,191 @@ def main():
             return
         pos = mgba.get_coordinates()
 
+    # --- STAGE 0b: Transition from Route 21 back to Cinnabar Island ---
+    if pos == {"x": 11, "y": 88}:
+        print("At (11, 88) on Route 21. Walking down to Cinnabar Island...")
+        if not run_steps([
+            ("Down", {"x": 11, "y": 89}),
+            ("Down", {"x": 11, "y": 0}), # Transition back!
+        ]):
+            print("Failed to transition back to Cinnabar Island.")
+            return
+        pos = mgba.get_coordinates()
+
+    # --- STAGE 1: DIG out to Cinnabar Island (if we are in the Mansion) ---
+    # (Skip DIG if we are already outside at any valid overworld starting tile)
+    overworld_positions = [
+        {"x": 11, "y": 12}, 
+        {"x": 6, "y": 11}, 
+        {"x": 11, "y": 5}, 
+        {"x": 11, "y": 0}
+    ]
+    if pos not in overworld_positions:
+        pos = use_dig()
+        if pos != {"x": 11, "y": 12}:
+            print("DIG did not land at (11, 12). Current position:", pos)
+            return
+            
+    # --- STAGE 2: Walk to Pokemon Mansion Entrance ---
+    print("Walking to Pokemon Mansion Entrance...")
+    
+    # If we are at (11, 0) on Cinnabar Island:
+    if pos == {"x": 11, "y": 0}:
+        print("At (11, 0), walking to Mansion via Row 4...")
+        if not run_steps([
+            ("Down", {"x": 11, "y": 1}),
+            ("Down", {"x": 11, "y": 2}),
+            ("Down", {"x": 11, "y": 3}),
+            ("Down", {"x": 11, "y": 4}),
+            ("Left", {"x": 10, "y": 4}),
+            ("Left", {"x": 9, "y": 4}),
+            ("Left", {"x": 8, "y": 4}),
+            ("Left", {"x": 7, "y": 4}),
+            ("Left", {"x": 6, "y": 4}),
+            ("Up", {"x": 6, "y": 3}),
+            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
+        ]):
+            print("Failed to enter Mansion from (11, 0).")
+            return
+        pos = mgba.get_coordinates()
+        
+    # If we started at (11, 5) (bypassing Beauty NPC):
+    if pos == {"x": 11, "y": 5}:
+        print("At (11, 5), bypassing Row 5 NPC via Row 4...")
+        if not run_steps([
+            ("Up", {"x": 11, "y": 4}),
+            ("Left", {"x": 10, "y": 4}),
+            ("Left", {"x": 9, "y": 4}),
+            ("Left", {"x": 8, "y": 4}),
+            ("Left", {"x": 7, "y": 4}),
+            ("Left", {"x": 6, "y": 4}),
+            ("Up", {"x": 6, "y": 3}),
+            ("Up", {"x": 5, "y": 27}), # Entered 1F West!
+        ]):
+            print("Failed to enter Mansion from (11, 5).")
+            return
+        pos = mgba.get_coordinates()
+        
+    # If we started outside Pok�mon Center at (11, 12):
+    if pos == {"x": 11, "y": 12}:dle_any_menu_or_battle():
+    time.sleep(0.1)
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file)
+    img_std = img.resize((160, 144), Image.Resampling.NEAREST)
+    
+    black_or_white = 0
+    total_pixels = 0
+    for y in range(115, 140):
+        for x in range(10, 150):
+            r, g, b = img_std.getpixel((x, y))
+            total_pixels += 1
+            is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+            if is_bw:
+                black_or_white += 1
+                
+    percentage = black_or_white / total_pixels
+    if percentage > 0.90:
+        print(f"Menu/Dialogue detected! (B/W: {percentage*100:.2f}%)")
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
+        
+        # Check if still in battle
+        scr_file2 = mgba.take_screenshot()
+        img2 = Image.open(scr_file2)
+        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
+        black_or_white2 = 0
+        for y in range(115, 140):
+            for x in range(10, 150):
+                r, g, b = img_std2.getpixel((x, y))
+                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+                if is_bw:
+                    black_or_white2 += 1
+        percentage2 = black_or_white2 / total_pixels
+        
+        if percentage2 > 0.90:
+            print("Still in battle. Running...")
+            mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
+            time.sleep(1.5)
+            # Dismiss run text
+            for _ in range(4):
+                mgba.press_buttons(["B"])
+                time.sleep(0.3)
+        return True
+    return False
+
+def walk_step(direction, expected_coords, retries=15):
+    for i in range(retries):
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+            if pos == expected_coords:
+                return True
+        mgba.press_buttons([direction])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+        if pos == expected_coords:
+            print(f"Moved {direction}, current position: {pos}")
+            return True
+        print(f"Blocked or battle! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
+        time.sleep(0.3)
+    return False
+
+def run_steps(steps):
+    for d, c in steps:
+        if not walk_step(d, c):
+            return False
+    return True
+
+def use_dig():
+    print("Executing atomic DIG sequence with 350ms delays...")
+    dig_sequence = [
+        "B", "sleep 300",
+        "B", "sleep 300",
+        "B", "sleep 300",
+        "Start", "sleep 800",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Up", "sleep 350",
+        "Down", "sleep 350",
+        "A", "sleep 1200",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "Down", "sleep 350",
+        "A", "sleep 800",
+        "A", "sleep 3500"
+    ]
+    mgba.press_buttons(dig_sequence)
+    time.sleep(1.0)
+    pos = mgba.get_coordinates()
+    print("DIG finished. Current position:", pos)
+    return pos
+
+def main():
+    pos = mgba.get_coordinates()
+    print("Starting master solver from position:", pos)
+    
+    # --- STAGE 0: Exit Cinnabar Lab if inside ---
+    if pos == {"x": 2, "y": 3}:
+        print("Inside Cinnabar Lab. Exiting first...")
+        if not run_steps([
+            ("Down", {"x": 2, "y": 4}),
+            ("Down", {"x": 2, "y": 5}),
+            ("Down", {"x": 2, "y": 6}),
+            ("Down", {"x": 2, "y": 7}),
+            ("Down", {"x": 6, "y": 11}), # Exited Cinnabar Lab!
+        ]):
+            print("Failed to exit Cinnabar Lab.")
+            return
+        pos = mgba.get_coordinates()
+
     # --- STAGE 1: DIG out to Cinnabar Island (if we are in the Mansion) ---
     # (Since we are on Cinnabar Island overworld now, we skip this)
     if pos != {"x": 11, "y": 12} and pos != {"x": 6, "y": 11} and pos != {"x": 11, "y": 5}:
