@@ -39,7 +39,6 @@ def handle_any_menu_or_battle():
         
         if percentage2 > 0.90:
             print("Still in battle. Running...")
-            # RUN: DOWN, then RIGHT, then A
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
             # Dismiss run text
@@ -73,7 +72,7 @@ def run_steps(steps):
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting master solver from 3F position:", pos)
+    print("Starting master solver from position:", pos)
     
     # Dismiss any text
     mgba.press_buttons(["B"])
@@ -81,38 +80,19 @@ def main():
     
     success = True
     
-    # We are at (9, 11) on 3F West
-    if pos == {"x": 9, "y": 11}:
-        print("STAGE 6e: Walking RIGHT to Column 10 and UP to Row 7...")
+    # We are at (19, 4) on 3F East
+    if pos == {"x": 19, "y": 4}:
+        print("STAGE 6f: Bypassing Column 19 Row 3 wall to (20, 3)...")
         if not run_steps([
-            ("Right", {"x": 10, "y": 11}),
-            ("Up", {"x": 10, "y": 10}),
-            ("Up", {"x": 10, "y": 9}),
-            ("Up", {"x": 10, "y": 8}),
-            ("Up", {"x": 10, "y": 7}),
+            ("Right", {"x": 20, "y": 4}),
+            ("Up", {"x": 20, "y": 3}),
         ]):
             success = False
             
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 10, "y": 7}:
-        print("Walking RIGHT along Row 7 to Column 19 on 3F East...")
-        for x in range(11, 20):
-            if not walk_step("Right", {"x": x, "y": 7}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 19, "y": 7}:
-        print("Walking UP Column 19 to Row 3...")
-        for y in range(6, 2, -1):
-            if not walk_step("Up", {"x": 19, "y": y}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 19, "y": 3}:
+    if success and pos == {"x": 20, "y": 3}:
         print("Walking RIGHT along Row 3 to Column 26...")
-        for x in range(20, 27):
+        for x in range(21, 27):
             if not walk_step("Right", {"x": x, "y": 3}):
                 success = False
                 break
