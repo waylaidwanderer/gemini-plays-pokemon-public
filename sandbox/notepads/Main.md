@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (28, 6) [Turn 15952]; fleeing Rhyhorn, continuing north along col 28 to row 1 Northern Thoroughfare, and sprinting west to Area 3 (West) with 164 steps budget.
+- Location: Safari Zone Center (Area 0) at (10, 21) [Turn 15991]; Run 4 active with 492 steps budget; fleeing wild Nidoran♀ to continue west towards Area 3 (West).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment

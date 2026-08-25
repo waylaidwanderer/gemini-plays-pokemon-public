@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (28, 6) [Turn 15952]; fleeing Rhyhorn, continuing north along col 28 to row 1 Northern Thoroughfare, and sprinting west to Area 3 (West) with 164 steps budget.
+- Location: Safari Zone Center (Area 0) at (10, 21) [Turn 15991]; Run 4 active with 492 steps budget; fleeing wild Nidoran♀ to continue west towards Area 3 (West).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -191,11 +191,11 @@
 - [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
 - [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
 - [x] Ascend Pokémon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F & Team Rocket on 7F) [Turn 14998-15001]
-- [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]- [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
+- [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]
+- [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
 - [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
 - [x] Awaken and defeat Route 16 Sleeping Snorlax with Poké Flute; clear Cycling Road roadblock [Turn 15395]
 - [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]
-
 
 <hr>
 
