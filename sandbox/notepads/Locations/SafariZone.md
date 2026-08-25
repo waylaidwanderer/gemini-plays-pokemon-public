@@ -5,20 +5,24 @@
 - Catch Mechanics: Rock (increases catch rate, increases flee chance), Bait (decreases flee chance, decreases catch rate), Safari Ball, Run.
 - Step Budget Management: Walk with direct, deliberate routing to minimize wasted steps.
 
-## Critical Objectives (Area 3 Hypotheses / Verification Targets)
+## Critical Objectives (Area 3 Targets)
 1. **Gold Teeth**: Located on the ground in Safari Zone Area 3 (West). Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
 2. **Secret House**: Located in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
 
-## Map Topology & Connectivity
-- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0).
+## Map Topology & Verified Connectivity
+- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0) at (15, 24).
 - **Center Area (Area 0)**:
-  - East exit at (29, 10) -> Area 1 (East) at (0, 22).
-  - North exits at (14, 0) and (20, 0) -> Area 2 (North).
+  - East exit: (29, 10) -> Area 1 (East) at (0, 22). [Verified single overworld exit]
+  - North border: Row 0 is solid wall of trees [Verified Turns 16341-16342; no north exit].
+  - West border: Col 0 is solid trees along rows 2-33 [Verified Turns 16333-16337; no west exit].
   - Signpost at (4, 25): "TRAINER TIPS: The SECRET HOUSE is still ahead!".
-  - Western boundary exploration: Surveying west edge (rows 0-21) to locate direct connection to Area 3 (West).
 - **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
-- **Area 2 (North)**: Connects Area 1 (39, 31) to Center Area at (20, 36) -> Center (14, 0) and (2, 36) -> Center (20, 0). (West boundary cols 0-1 rows 2-33 empirically verified solid trees; no western exit along rows 2-33).
-- **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf). Direct access via Center Area west corridor.
+- **Area 2 (North)**:
+  - East exit: (39, 31) -> Area 1 (East) at (0, 5).
+  - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
+  - West border (rows 2-27): Solid tree barrier along column 0 [Verified Turns 16299-16300].
+  - Southwest sector (rows 28-35, cols 0-6): Passage leading into Area 3 (West).
+- **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf).
 
 ## Area 1 (East) Topology & Verified Landmarks
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
