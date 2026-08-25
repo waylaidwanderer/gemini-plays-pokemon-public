@@ -22,6 +22,10 @@
   - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
   - West border (rows 2-27): Solid tree barrier along column 0 [Verified Turns 16299-16300].
   - Southwest sector (rows 28-35, cols 0-6): Passage leading into Area 3 (West).
+  - Verified Internal Thoroughfares:
+    - Central Ridge: Ascent stairs at (22, 23), Descent stairs at (16, 27) [Verified Turns 16454-16456, 16524-16526].
+    - Vertical Corridor: Column 12/13 grass corridor connects row 28 to row 5/6 [Verified Turns 16495-16499, 16527, 16534].
+    - Northern Highway: Row 2 links col 38 to col 2 [Verified Turns 15713, 16182, 16291, 16534]. Bypass trees at (11..15, 4) via column 10 (rows 2-6).
 - **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf).
 
 ## Area 1 (East) Topology & Verified Landmarks
