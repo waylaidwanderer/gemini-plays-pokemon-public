@@ -222,8 +222,5 @@ def main():
         time.sleep(3.0)
         print("Warped out successfully! Final position:", mgba.get_coordinates())
 
-if not success:
-    print("Mansion complete solve aborted.")
-
 if __name__ == "__main__":
     main()
