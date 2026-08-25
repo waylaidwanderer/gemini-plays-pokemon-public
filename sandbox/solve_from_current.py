@@ -39,6 +39,7 @@ def handle_any_menu_or_battle():
         
         if percentage2 > 0.90:
             print("Still in battle. Running...")
+            # RUN: DOWN, then RIGHT, then A
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
             # Dismiss run text
@@ -71,54 +72,25 @@ def run_steps(steps):
     return True
 
 def main():
-    pos = mgba.get_coordinates()
-    print("Starting State B solver from current position:", pos)
+    # We start in battle at (10, 11)
+    print("Starting master solver from (10, 11) in battle...")
     
-    # Dismiss any text
-    mgba.press_buttons(["B"])
-    time.sleep(0.3)
+    # Handle the initial battle
+    handle_any_menu_or_battle()
+    time.sleep(0.5)
+    
+    pos = mgba.get_coordinates()
+    print("Overworld coordinates after battle check:", pos)
     
     success = True
     
-    # We are at (16, 11) on 2F East in State B
-    if pos == {"x": 16, "y": 11}:
-        print("STAGE 5a (State B): Walking from (16, 11) to (18, 11) on 2F East...")
+    # We are at (10, 11) on 2F East/West Row 11
+    if pos == {"x": 10, "y": 11}:
+        print("STAGE 5b: Walking LEFT from (10, 11) to (7, 11) on 2F West...")
         if not run_steps([
-            ("Right", {"x": 17, "y": 11}),
-            ("Right", {"x": 18, "y": 11}),
-        ]):
-            success = False
-            
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 11}:
-        print("Walking UP Column 18 to Row 3...")
-        for y in range(10, 2, -1):
-            if not walk_step("Up", {"x": 18, "y": y}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 18, "y": 3}:
-        print("Walking LEFT along Row 3 to Column 5 on 2F West...")
-        for x in range(17, 4, -1):
-            if not walk_step("Left", {"x": x, "y": 3}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 5, "y": 3}:
-        print("Walking DOWN Column 5 to Row 11...")
-        for y in range(4, 12):
-            if not walk_step("Down", {"x": 5, "y": y}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 5, "y": 11}:
-        print("Walking RIGHT to Column 7 Row 11...")
-        if not run_steps([
-            ("Right", {"x": 6, "y": 11}),
-            ("Right", {"x": 7, "y": 11}),
+            ("Left", {"x": 9, "y": 11}),
+            ("Left", {"x": 8, "y": 11}),
+            ("Left", {"x": 7, "y": 11}),
         ]):
             success = False
             
