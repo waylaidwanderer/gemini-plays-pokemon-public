@@ -1,5 +1,6 @@
 import mgba
 import time
+import sys
 from PIL import Image
 
 def handle_any_menu_or_battle():
@@ -107,7 +108,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver step 1, current coords:", pos)
     
-    valid_positions = [{"x": 10, "y": 5}, {"x": 10, "y": 7}, {"x": 11, "y": 12}]
+    valid_positions = [{"x": 10, "y": 5}, {"x": 11, "y": 12}]
     if pos not in valid_positions:
         print("Error: Player is not at a valid starting position!")
         return
@@ -115,61 +116,44 @@ def main():
     # --- STAGE 0: DIG out from B1F East if we are there ---
     if pos == {"x": 10, "y": 5}:
         pos = use_dig()
-        if pos != {"x": 10, "y": 7} and pos != {"x": 11, "y": 12}:
-            print("DIG did not land at Cinnabar Island. Current position:", pos)
+        if pos != {"x": 11, "y": 12}:
+            print("DIG did not land at (11, 12). Current position:", pos)
             return
 
-    # If we landed at (11, 12), walk Left to (10, 12), then Up to (10, 7)
+    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Row 4 Bypass Route) ---
     if pos == {"x": 11, "y": 12}:
-        if not run_steps([
-            ("Left", {"x": 10, "y": 12}),
-        ]):
-            return
-        pos = mgba.get_coordinates()
-
-    # From (10, 12) we walk UP to (10, 7)
-    if pos == {"x": 10, "y": 12}:
-        if not run_steps([
-            ("Up", {"x": 10, "y": 11}),
-            ("Up", {"x": 10, "y": 10}),
-            ("Up", {"x": 10, "y": 9}),
-            ("Up", {"x": 10, "y": 8}),
-            ("Up", {"x": 10, "y": 7}),
-        ]):
-            return
-        pos = mgba.get_coordinates()
-
-    # --- STAGE 1: Walk to Mansion entrance via Column 12 Right-Side Bypass ---
-    if pos == {"x": 10, "y": 7}:
         print("Walking to Pokemon Mansion Entrance...")
         if not run_steps([
-            ("Right", {"x": 11, "y": 7}),
-            ("Right", {"x": 12, "y": 7}),
-            ("Down", {"x": 12, "y": 8}),
-            ("Down", {"x": 12, "y": 9}),
-            ("Down", {"x": 12, "y": 10}),
-            ("Down", {"x": 12, "y": 11}),
-            ("Down", {"x": 12, "y": 12}),
-            ("Left", {"x": 11, "y": 12}),
-            ("Left", {"x": 10, "y": 12}),
-            ("Left", {"x": 9, "y": 12}),
-            ("Left", {"x": 8, "y": 12}),
-            ("Left", {"x": 7, "y": 12}),
-            ("Left", {"x": 6, "y": 12}),
-            ("Up", {"x": 6, "y": 11}),
-            ("Left", {"x": 5, "y": 11}),
-            ("Left", {"x": 4, "y": 11}),
-            ("Up", {"x": 4, "y": 10}),
-            ("Up", {"x": 4, "y": 9}),
-            ("Up", {"x": 4, "y": 8}),
-            ("Up", {"x": 4, "y": 7}),
-            ("Up", {"x": 4, "y": 6}),
-            ("Up", {"x": 4, "y": 5}),
-            ("Up", {"x": 4, "y": 4}),
-            ("Up", {"x": 4, "y": 3}),
-            ("Right", {"x": 5, "y": 3}),
-            ("Right", {"x": 6, "y": 3}),
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+            ("Up", {"x": 18, "y": 11}),
+            ("Up", {"x": 18, "y": 10}),
+            ("Up", {"x": 18, "y": 9}),
+            ("Up", {"x": 18, "y": 8}),
+            ("Up", {"x": 18, "y": 7}),
+            ("Up", {"x": 18, "y": 6}),
+            ("Up", {"x": 18, "y": 5}),
+            ("Up", {"x": 18, "y": 4}),
+            ("Left", {"x": 17, "y": 4}), # Directly walk left along Row 4!
+            ("Left", {"x": 16, "y": 4}),
+            ("Left", {"x": 15, "y": 4}),
+            ("Left", {"x": 14, "y": 4}),
+            ("Left", {"x": 13, "y": 4}),
+            ("Left", {"x": 12, "y": 4}),
+            ("Left", {"x": 11, "y": 4}),
+            ("Left", {"x": 10, "y": 4}),
+            ("Left", {"x": 9, "y": 4}),
+            ("Left", {"x": 8, "y": 4}),
+            ("Left", {"x": 7, "y": 4}),
+            ("Left", {"x": 6, "y": 4}),
+            ("Up", {"x": 6, "y": 3}),
         ]):
+            print("Failed to reach Mansion doorway.")
             return
             
         # Extra step up to land inside at (5, 27)
