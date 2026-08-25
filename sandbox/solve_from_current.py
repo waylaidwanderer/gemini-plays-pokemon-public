@@ -105,41 +105,26 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting fast mansion solver from current position:", pos)
+    print("Starting master solver from current position:", pos)
     
-    # --- OPTION A: If we are stuck at (1, 10) on 3F West ---
-    if pos == {"x": 1, "y": 10}:
-        print("At (1, 10). Navigating to Column 6 Row 9...")
+    # --- STAGE 1: Walk to the Switch standing position at (2, 13) ---
+    if pos == {"x": 6, "y": 10}:
+        print("At (6, 10). Walking to switch standing position at (2, 13)...")
         if not run_steps([
-            ("Down", {"x": 1, "y": 11}),
-            ("Down", {"x": 1, "y": 12}),
-            ("Down", {"x": 1, "y": 13}),
-            ("Right", {"x": 2, "y": 13}),
-            ("Right", {"x": 3, "y": 13}),
-            ("Right", {"x": 4, "y": 13}),
-            ("Right", {"x": 5, "y": 13}),
-            ("Right", {"x": 6, "y": 13}),
-            ("Up", {"x": 6, "y": 12}),
-            ("Up", {"x": 6, "y": 11}),
-            ("Up", {"x": 6, "y": 10}),
-            ("Up", {"x": 6, "y": 9}),
+            ("Down", {"x": 6, "y": 11}),
+            ("Down", {"x": 6, "y": 12}),
+            ("Down", {"x": 6, "y": 13}),
+            ("Left", {"x": 5, "y": 13}),
+            ("Left", {"x": 4, "y": 13}),
+            ("Left", {"x": 3, "y": 13}),
+            ("Left", {"x": 2, "y": 13}),
         ]):
-            print("Failed to reach Column 6 Row 9 from (1, 10).")
+            print("Failed to reach (2, 13).")
             return
         pos = mgba.get_coordinates()
 
-    # --- OPTION B: If we start at (3, 11) on 3F West ---
-    if pos == {"x": 3, "y": 11}:
-        # --- STAGE 1: Walk to the Switch standing position at (2, 12) ---
-        print("Walking to switch standing position...")
-        if not run_steps([
-            ("Down", {"x": 3, "y": 12}),
-            ("Left", {"x": 2, "y": 12}),
-        ]):
-            print("Failed to reach (2, 12).")
-            return
-
-        # --- STAGE 2: Toggle Switch to State B ---
+    # --- STAGE 2: Toggle Switch to State B ---
+    if pos == {"x": 2, "y": 13}:
         print("Toggling Mewtwo statue switch to State B...")
         mgba.press_buttons(["Up"])
         time.sleep(0.4)
