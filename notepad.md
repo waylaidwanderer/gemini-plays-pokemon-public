@@ -5,8 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Center at (4, 17) [Turn 16204]; Run 6 active with ~480 steps; testing southwest boundary (cols 0-1, rows 22-25) vs Route B fallback into Area 3 (West).
-
+- Location: Safari Zone Area 1 (East) at (24, 20) [Turn 16231]; Run 6 active with ~300 steps; traversing lower ridge to col 9 western corridor -> row 5 -> Area 2 (North) -> Area 3 (West) for Gold Teeth & HM03 Surf.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1750,54 +1749,46 @@
 2. **Secret House**: Reported in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
 
 ## Map Topology & Connectivity
-- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0).
-- **Center Area (Area 0)**: Entrances/exits to Area 1 (East) and Area 2 (North).
-- **Area 1 (East)**: Connects Center to Area 2 (North).
-- **Area 2 (North)**: Connects Area 1 / Center to Area 3 (West).
-- **Area 3 (West)**: Contains Gold Teeth and Secret House (HM03 Surf).
+- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay �500 to enter Safari Zone Center (Area 0).
+- **Center Area (Area 0)**: Exits to Area 1 (East) at (29, 10) and Area 2 (North) at (14, 0) / (20, 0). (West boundary cols 0-1 rows 13-25 empirically verified solid trees/bushes; NO direct west exit).
+- **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
+- **Area 2 (North)**: Connects Area 1 (39, 31) to Area 3 (West) at west boundary (cols 0-1). South edge (row 36) exits to Center Area (20, 0).
+- **Area 3 (West)**: Accessed via Area 2 (North) west boundary; contains Gold Teeth and Secret House (HM03 Surf).
+
 ## Area 1 (East) Topology & Verified Landmarks
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
 - Lower Ridge Ascent Stairs: (12, 21) leading onto ridge spanning rows 20-21, cols 12-20.
 - Lower Ridge Descent Stairs: (20, 21) leading down to eastern clearing (cols 20-28, rows 22-25).
-- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 19-26).
+- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 19-26). (Elevated overlook bounded by water/cliffs to north/west/east; dead-end).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
-- Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via northern lawn bypass (cols 6-7, row 5) [Verified Turn 15609].
-- Upper Ridge Descent Stairs: (17, 7) leading down onto eastern lawn (rows 1-8, cols 20-23).
-- Solid Boundaries: Column 29 is a vertical rock/hedge barrier; northern border along row 0 is solid rock/hedge barrier.
-## Area 2 (North) Topology & Verified Landmarks
-- East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
-- South Boundary: Stepping south across row 36 (verified at cols 2 and 20) warps back to Safari Zone Center at (20, 0) [Turns 15718, 15776].
-- Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
-- Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
+- Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via western col 9 corridor and row 5 northern avenue [Verified Turn 15609, 16154].
+- Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
 
 <hr>
 
 <h1><code>Scratchpad/SafariZoneRouting</code></h1>
 
-# Safari Zone Master Routing & Strategy (Run 6)
+# Safari Zone Master Routing & Strategy (Run 6 - Verified Ring Route)
 
-## Route A: Direct West Hypothesis (To Test First)
-1. **Safari Zone Center (Area 0)**:
-   - From entrance (15, 24), step west tile-by-tile along row 24.
-   - Inspect whether row 24 is open across cols 15 -> 0.
-   - If open: step into (0, 24) to enter Safari Zone Area 3 (West) on step 16 (~484 steps left)!
-   - If blocked by pond/bushes: immediately pivot to Route B fallback.
-
-## Route B: Verified Ring Route (Proven Fallback)
-1. **Safari Zone Center (Area 0)** (~20 steps):
-   - From (15, 24), walk up to (15, 21), east to (25, 21), north up col 25 to (29, 10) into Area 1 (East).
-2. **Safari Zone Area 1 (East)** (~35 steps):
-   - From (0, 22), bypass south along row 24 to lower ridge at (20, 21), descend at (12, 21), north along col 10 to (10, 5), west to (0, 5) into Area 2 (North).
-3. **Safari Zone Area 2 (North)** (~45 steps):
-   - From (39, 31), walk to (28, 31), north up col 28 to row 2 Northern Thoroughfare at (28, 2), sprint west to (1, 2), south down col 1 to Area 3.
-4. **Total Fallback Distance**: ~100 steps (enters Area 3 with ~400 steps remaining!).
-
-## Objectives in Area 3 (West)
-- Retrieve **Gold Teeth** on southern clearing.
-- Enter **Secret House** in northwest to receive **HM03 (Surf)**.
+## Verified Ring Route to Area 3 (West)
+1. **Safari Zone Center (Area 0)** [Completed]:
+   - Gatehouse (15, 24) -> (29, 10) east exit into Area 1 (East). (Direct west cols 0-1 empirically verified solid wall).
+2. **Safari Zone Area 1 (East)** (Current Position: (24, 20) with ~300 steps remaining):
+   - From eastern clearing (24, 20): walk south to (20, 21) lower ridge stairs.
+   - Cross lower ridge: (20, 20) -> (12, 20) -> descend stairs at (12, 21) to (12, 22).
+   - Walk west to col 9 at (9, 22).
+   - Walk north along col 9 western corridor: (9, 22) -> (9, 13) -> (9, 5).
+   - Walk west along row 5 northern avenue: (9, 5) -> (0, 5) into Area 2 (North) at (39, 31) (~45 steps).
+3. **Safari Zone Area 2 (North)** (~255 steps remaining):
+   - From (39, 31), walk west to (28, 31), north up col 28 to row 2 Northern Thoroughfare at (28, 2).
+   - Sprint west along row 2 to (1, 2), south down col 1 to Area 3 (West) at (0, 30..35) (~60 steps).
+4. **Safari Zone Area 3 (West)** (~195 steps remaining):
+   - Retrieve **Gold Teeth** on southern clearing.
+   - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
 
 ## Objectives & Bag Space
 - Bag capacity: 18 / 20 used (2 empty slots ready for Gold Teeth & HM03 Surf).
-- Funds: ¥31,494
+- Funds: �31,494
+
 
 <hr>
