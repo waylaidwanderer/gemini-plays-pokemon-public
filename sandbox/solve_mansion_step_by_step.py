@@ -209,8 +209,46 @@ def main():
         if not run_steps([
             ("Left", {"x": 4, "y": 11}),
             ("Left", {"x": 3, "y": 11}),
-            ("Left", {"x": 2, "y": 11}),
-            ("Down", {"x": 2, "y": 12}),
+            ("Down", {"x": 3, "y": 12}),
+            ("Left", {"x": 2, "y": 12}),
+        ]):
+            success = False
+            
+        if success:
+            print("At (2, 12)! Toggling switch to State B...")
+            mgba.press_buttons(["Up"])
+            time.sleep(0.4)
+            mgba.press_buttons(["A"]) # "A secret switch!"
+            time.sleep(0.8)
+            mgba.press_buttons(["A"]) # select YES
+            time.sleep(0.8)
+            mgba.press_buttons(["A"]) # "Pressed it!"
+            time.sleep(0.8)
+            
+            print("Switch toggled to State B! Walking back to stairs...")
+            if not run_steps([
+                ("Right", {"x": 3, "y": 12}),
+                ("Up", {"x": 3, "y": 11}),
+                ("Right", {"x": 4, "y": 11}),
+                ("Right", {"x": 5, "y": 11}),
+                ("Right", {"x": 6, "y": 11}),
+                ("Right", {"x": 7, "y": 11}),
+            ]):
+                success = False
+                
+        if success:
+            print("Warping UP to 3F West...")
+            mgba.press_buttons(["Up"])
+            time.sleep(1.5)
+            print("New position:", mgba.get_coordinates())
+            
+    # --- STAGE 3 RESUMPTION: Starting from (3, 11) ---
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 3, "y": 11}:
+        print("STAGE 3 RESUMPTION: Walking to 2F West switch from (3, 11)...")
+        if not run_steps([
+            ("Down", {"x": 3, "y": 12}),
+            ("Left", {"x": 2, "y": 12}),
         ]):
             success = False
             
