@@ -107,35 +107,93 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from position:", pos)
     
-    # --- STAGE 1: DIG out to Cinnabar Island ---
-    if pos != {"x": 11, "y": 12}:
+    # --- STAGE 0: Exit Cinnabar Lab if inside ---
+    if pos == {"x": 2, "y": 3}:
+        print("Inside Cinnabar Lab. Exiting first...")
+        if not run_steps([
+            ("Down", {"x": 2, "y": 4}),
+            ("Down", {"x": 2, "y": 5}),
+            ("Down", {"x": 2, "y": 6}),
+            ("Down", {"x": 2, "y": 7}),
+            ("Down", {"x": 6, "y": 11}), # Exited Cinnabar Lab!
+        ]):
+            print("Failed to exit Cinnabar Lab.")
+            return
+        pos = mgba.get_coordinates()
+
+    # --- STAGE 1: DIG out to Cinnabar Island (if we are in the Mansion) ---
+    # (Since we are on Cinnabar Island overworld now, we skip this)
+    if pos != {"x": 11, "y": 12} and pos != {"x": 6, "y": 11}:
         pos = use_dig()
         if pos != {"x": 11, "y": 12}:
             print("DIG did not land at (11, 12). Current position:", pos)
             return
-    else:
-        print("Already outside at (11, 12). Skipping DIG stage.")
-        
-    # --- STAGE 2: Walk to Pokemon Mansion Entrance ---
+            
+    # --- STAGE 2: Walk to Pokemon Mansion Entrance (Safe Eastern Route) ---
     print("Walking to Pokemon Mansion Entrance...")
+    
+    # If we started outside Pokémon Center at (11, 12):
+    if pos == {"x": 11, "y": 12}:
+        if not run_steps([
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+        ]):
+            print("Failed to walk to column 18.")
+            return
+        pos = mgba.get_coordinates()
+        
+    # If we started outside Cinnabar Lab at (6, 11):
+    if pos == {"x": 6, "y": 11}:
+        if not run_steps([
+            ("Down", {"x": 6, "y": 12}),
+            ("Right", {"x": 7, "y": 12}),
+            ("Right", {"x": 8, "y": 12}),
+            ("Right", {"x": 9, "y": 12}),
+            ("Right", {"x": 10, "y": 12}),
+            ("Right", {"x": 11, "y": 12}),
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+        ]):
+            print("Failed to walk to column 18 from Lab.")
+            return
+        pos = mgba.get_coordinates()
+
+    # Now we walk up Column 18, left on Row 5, and enter the Mansion
     if not run_steps([
-        ("Left", {"x": 10, "y": 12}),
-        ("Left", {"x": 9, "y": 12}),
-        ("Left", {"x": 8, "y": 12}),
-        ("Left", {"x": 7, "y": 12}),
-        ("Left", {"x": 6, "y": 12}),
-        ("Up", {"x": 6, "y": 11}),
-        ("Up", {"x": 6, "y": 10}),
-        ("Up", {"x": 6, "y": 9}),
-        ("Up", {"x": 6, "y": 8}),
-        ("Up", {"x": 6, "y": 7}),
-        ("Up", {"x": 6, "y": 6}),
-        ("Up", {"x": 6, "y": 5}),
+        ("Up", {"x": 18, "y": 11}),
+        ("Up", {"x": 18, "y": 10}),
+        ("Up", {"x": 18, "y": 9}),
+        ("Up", {"x": 18, "y": 8}),
+        ("Up", {"x": 18, "y": 7}),
+        ("Up", {"x": 18, "y": 6}),
+        ("Up", {"x": 18, "y": 5}),
+        ("Left", {"x": 17, "y": 5}),
+        ("Left", {"x": 16, "y": 5}),
+        ("Left", {"x": 15, "y": 5}),
+        ("Left", {"x": 14, "y": 5}),
+        ("Left", {"x": 13, "y": 5}),
+        ("Left", {"x": 12, "y": 5}),
+        ("Left", {"x": 11, "y": 5}),
+        ("Left", {"x": 10, "y": 5}),
+        ("Left", {"x": 9, "y": 5}),
+        ("Left", {"x": 8, "y": 5}),
+        ("Left", {"x": 7, "y": 5}),
+        ("Left", {"x": 6, "y": 5}),
         ("Up", {"x": 6, "y": 4}),
         ("Up", {"x": 6, "y": 3}),
         ("Up", {"x": 5, "y": 27}), # Entered 1F West!
     ]):
-        print("Failed to reach Mansion 1F West.")
+        print("Failed to enter Mansion.")
         return
 
     # --- STAGE 3: Walk to 2F West ---
