@@ -213,5 +213,4 @@ if success:
                                                 mgba.press_buttons(["A", "sleep 300", "A"])
                                                 time.sleep(3.0)
                                                 print("Mansion completely solved! Final position:", mgba.get_coordinates())
-""")
-print("solve_from_5_8_perfect.py written successfully!")
+
