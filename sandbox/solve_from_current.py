@@ -74,16 +74,21 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from position:", pos)
     
-    # Dismiss "The door is locked..."
+    # Dismiss any text
     mgba.press_buttons(["B"])
-    time.sleep(0.4)
+    time.sleep(0.3)
     
     success = True
     
-    # We are at (18, 4) on Cinnabar Island overworld
-    if pos == {"x": 18, "y": 4}:
-        print("STAGE 1: Walking LEFT along Row 4 to Column 6...")
-        for x in range(17, 5, -1):
+    # We are at (14, 5) on Cinnabar Island overworld
+    if pos == {"x": 14, "y": 5}:
+        print("STAGE 1: Walking UP to Row 4 and LEFT to Column 6...")
+        if not walk_step("Up", {"x": 14, "y": 4}):
+            success = False
+            
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 14, "y": 4}:
+        for x in range(13, 5, -1):
             if not walk_step("Left", {"x": x, "y": 4}):
                 success = False
                 break
