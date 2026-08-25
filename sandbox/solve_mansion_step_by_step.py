@@ -163,27 +163,27 @@ def main():
                 
     pos = mgba.get_coordinates()
     if success and pos == {"x": 12, "y": 11}:
-        # 9. Walk UP Column 12 to Row 4
-        print("Walking UP Column 12 to Row 4...")
-        for y in range(10, 3, -1):
+        # 9. Walk UP Column 12 to Row 7
+        print("Walking UP Column 12 to Row 7...")
+        for y in range(10, 6, -1):
             if not walk_step("Up", {"x": 12, "y": y}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 12, "y": 4}:
-        # 10. Walk RIGHT along Row 4 to Column 16
-        print("Walking RIGHT along Row 4 to Column 16...")
+    if success and pos == {"x": 12, "y": 7}:
+        # 10. Walk RIGHT along Row 7 to Column 16
+        print("Walking RIGHT along Row 7 to Column 16...")
         for x in range(13, 17):
-            if not walk_step("Right", {"x": x, "y": 4}):
+            if not walk_step("Right", {"x": x, "y": 7}):
                 success = False
                 break
                 
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 16, "y": 4}:
+    if success and pos == {"x": 16, "y": 7}:
         # 11. Walk DOWN Column 16 directly to stairs at (16, 11) (OPEN in State A!)
         print("Walking DOWN Column 16 to (16, 11)...")
-        for y in range(5, 12):
+        for y in range(8, 12):
             if not walk_step("Down", {"x": 16, "y": y}):
                 success = False
                 break
