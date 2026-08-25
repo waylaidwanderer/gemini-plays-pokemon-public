@@ -78,16 +78,26 @@ def main():
         print("Error: Player is not at (10, 7)!")
         return
 
-    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Paved Road) ---
+    # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Left Bypass Route) ---
     print("Walking to Pokemon Mansion Entrance...")
     if not run_steps([
-        ("Left", {"x": 9, "y": 7}),
-        ("Up", {"x": 9, "y": 6}),
-        ("Up", {"x": 9, "y": 5}),
-        ("Up", {"x": 9, "y": 4}),
-        ("Left", {"x": 8, "y": 4}),
-        ("Left", {"x": 7, "y": 4}),
-        ("Left", {"x": 6, "y": 4}),
+        ("Down", {"x": 10, "y": 8}),
+        ("Down", {"x": 10, "y": 9}),
+        ("Down", {"x": 10, "y": 10}),
+        ("Down", {"x": 10, "y": 11}),
+        ("Down", {"x": 10, "y": 12}),
+        ("Left", {"x": 9, "y": 12}),
+        ("Left", {"x": 8, "y": 12}),
+        ("Left", {"x": 7, "y": 12}),
+        ("Left", {"x": 6, "y": 12}),
+        ("Up", {"x": 6, "y": 11}),
+        ("Up", {"x": 6, "y": 10}),
+        ("Up", {"x": 6, "y": 9}),
+        ("Up", {"x": 6, "y": 8}),
+        ("Up", {"x": 6, "y": 7}),
+        ("Up", {"x": 6, "y": 6}),
+        ("Up", {"x": 6, "y": 5}),
+        ("Up", {"x": 6, "y": 4}),
         ("Up", {"x": 6, "y": 3}),
     ]):
         print("Failed to reach Mansion doorway.")
