@@ -1491,8 +1491,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 4. **Cross 3F West to 3F East & Drop to 1F East:**
 
-   - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)`.
-   - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 3)`.
+   - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)` (walk UP Row 3 to get to Row 4).
+   - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 4)`.
 
 5. **Warp DOWN to B1F East & Retrieve Secret Key:**
    - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 3)`).
@@ -1534,7 +1534,7 @@ To reach 3F East from 2F West when the mansion is in State B (which closes the C
 4. Walk DOWN Column 18 to Row 10 `(18, 10)`.
 5. Walk LEFT along Row 10 directly to Column 15 `(15, 11)` (where the stairs are). This path is on the south side of the Row 7 closed shutter gates, so it is completely open and unblocked!
 6. Step UP onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
-7. On 3F East, walk to the pitfall at `(26, 6)` or `(26, 3)` and drop down to 1F East inside the fenced room.
+7. On 3F East, walk to the pitfall at `(26, 6)` or `(26, 4)` and drop down to 1F East inside the fenced room at `(26, 4)`.
 8. Warp down to B1F East and walk across Row 5 through open Column 9 gate directly to the Secret Key room on B1F West!
 
 ---
