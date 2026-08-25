@@ -213,7 +213,6 @@ def main():
         ("Right", {"x": 23, "y": 3}),
         ("Right", {"x": 24, "y": 3}),
         ("Right", {"x": 25, "y": 3}),
-        ("Right", {"x": 25, "y": 4}), # Drop down to 1F East inside fenced room landing at (26, 4) (Wait, actual step right onto (26, 3) or (26, 4) drops us)
     ]):
         print("Failed to reach pitfall.")
         return
