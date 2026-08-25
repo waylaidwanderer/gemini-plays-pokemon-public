@@ -13,27 +13,14 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (18, 7) on 2F East
-# 1. Walk to (12, 9)
-steps_to_switch = [
-    ("Left", {"x": 17, "y": 7}),
-    ("Left", {"x": 16, "y": 7}),
-    ("Left", {"x": 15, "y": 7}),
-    ("Left", {"x": 14, "y": 7}),
-    ("Left", {"x": 13, "y": 7}),
-    ("Left", {"x": 12, "y": 7}),
-    ("Down", {"x": 12, "y": 8}),
-    ("Down", {"x": 12, "y": 9}),
-]
-
-success = True
-for d, c in steps_to_switch:
-    if not walk_step(d, c):
-        success = False
-        break
+# Starting at (12, 9) on 2F West
+# Walk to (12, 11)
+success = walk_step("Down", {"x": 12, "y": 10})
+if success:
+    success = walk_step("Down", {"x": 12, "y": 11})
 
 if success:
-    print("Reached (12, 9)! Turning to face RIGHT...")
+    print("Reached (12, 11)! Turning to face RIGHT...")
     mgba.press_buttons(["Right"])
     time.sleep(0.3)
     print("Pressing A to check for a switch...")
@@ -43,5 +30,5 @@ if success:
     print(f"Screenshot taken at {screenshot_file}")
     print("Current position:", mgba.get_coordinates())
 else:
-    print("Failed to reach (12, 9).")
+    print("Failed to reach (12, 11).")
 
