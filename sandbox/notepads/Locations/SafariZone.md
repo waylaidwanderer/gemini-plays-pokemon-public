@@ -28,7 +28,7 @@
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
 - Lower Ridge Ascent Stairs: (12, 21) leading onto ridge spanning rows 20-21, cols 12-20.
 - Lower Ridge Descent Stairs: (20, 21) leading down to eastern clearing (cols 20-28, rows 22-25).
-- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 19-26). (Elevated overlook bounded by water/cliffs to north/west/east; dead-end).
+- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 20-27). Descent stairs at (26, 10) connect directly down to the Northern Lawn at (26, 9).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
 - Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via western col 9 corridor and row 5 northern avenue [Verified Turn 15609, 16154].
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
