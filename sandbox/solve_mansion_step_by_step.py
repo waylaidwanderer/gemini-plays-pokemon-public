@@ -117,6 +117,14 @@ def main():
                 break
                 
     pos = mgba.get_coordinates()
+    if pos == {"x": 10, "y": 5}:
+        # Walk DOWN Column 10 to Row 11
+        for y in range(6, 12):
+            if not walk_step("Down", {"x": 10, "y": y}):
+                success = False
+                break
+                
+    pos = mgba.get_coordinates()
     if success and pos == {"x": 10, "y": 11}:
         # 5. Walk LEFT along Row 11 to Column 3
         for x in range(9, 2, -1):
