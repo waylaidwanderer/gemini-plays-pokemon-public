@@ -1,6 +1,18 @@
 import mgba
 import time
 
+def run_from_battle():
+    print("In battle! Attempting to escape...")
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+    mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A"])
+    time.sleep(1.5)
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+    return mgba.get_coordinates()
+
 def walk_step(direction, expected_coords, retries=15):
     for i in range(retries):
         mgba.press_buttons([direction])
@@ -9,33 +21,32 @@ def walk_step(direction, expected_coords, retries=15):
         if pos == expected_coords:
             print(f"Moved {direction}, current position: {pos}")
             return True
+        if pos == {"x": 0, "y": 0}:
+            run_from_battle()
+            pos = mgba.get_coordinates()
+            if pos == expected_coords:
+                return True
         print(f"Blocked! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
         time.sleep(0.2)
     return False
 
-# Starting at (6, 12) on 2F West
-# Walk to (12, 10)
-steps = [
-    ("Up", {"x": 6, "y": 11}),
-    ("Right", {"x": 7, "y": 11}),
-    ("Right", {"x": 8, "y": 11}),
-    ("Right", {"x": 9, "y": 11}),
-    ("Right", {"x": 10, "y": 11}),
-    ("Right", {"x": 11, "y": 11}),
-    ("Right", {"x": 12, "y": 11}),
-    ("Up", {"x": 12, "y": 10}),
+# Starting at (15, 7) on 2F East
+# 1. Walk LEFT along Row 7 to Column 12
+steps_left = [
+    ("Left", {"x": 14, "y": 7}),
+    ("Left", {"x": 13, "y": 7}),
+    ("Left", {"x": 12, "y": 7}),
 ]
-
 success = True
-for d, c in steps:
+for d, c in steps_left:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    print("Reached (12, 10)! Testing if Row 9 gate at (12, 9) is open (State B) or closed (State A)...")
-    if walk_step("Up", {"x": 12, "y": 9}):
-        print("Mansion is in STATE B! Row 9 gate is OPEN.")
+    # 2. Test if we can walk DOWN to (12, 8)
+    print("Testing if (12, 8) is open...")
+    if walk_step("Down", {"x": 12, "y": 8}):
+        print("Mansion is in STATE B! Gate at (12, 8) is OPEN.")
     else:
-        print("Mansion is in STATE A! Row 9 gate is CLOSED.")
-
+        print("Mansion is in STATE A! Gate at (12, 8) is CLOSED.")
