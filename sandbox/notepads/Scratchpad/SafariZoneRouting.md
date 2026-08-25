@@ -2,16 +2,12 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 270 steps (Turn 15914)
-- Steps Remaining at (16, 20) in Area 2: ~230 steps
+- Steps Expended so far: 281 steps (Turn 15917)
+- Steps Remaining at (13, 28) in Area 2: ~219 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
-## Area 2 (North) Complete Verified Route
-- Central plateau north edge (row 20) is solid cliff.
-- True traversal route:
-  1. Descend stairs at (16, 27) to (16, 28) (8 steps Down).
-  2. Walk Left to col 13: (15, 28) -> (14, 28) -> (13, 28) (3 steps Left).
-  3. Walk North along col 13 to row 18 (10 steps Up).
-  4. Walk West across open lawn (rows 16-19) towards western border (col 0) into Area 3 (West)!
-- Total estimated cost to enter Area 3: ~34 steps.
-- Estimated arrival in Area 3: ~195 steps remaining!
+## Area 2 (North) Topography & Plan
+- Descended plateau to (13, 28).
+- Water pond at cols 9-11 spans rows 24-29.
+- Row 30 is completely open green grass spanning west under the pond across cols 9-16 and continuing west!
+- Plan: Step down to row 30 and sprint west towards western boundary into Area 3 (West).
