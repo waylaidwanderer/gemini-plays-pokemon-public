@@ -84,6 +84,7 @@ def main():
     if pos == {"x": 11, "y": 12}:
         print("STAGE 1: Re-entering Pokémon Mansion from Pokemon Center...")
         if not run_steps([
+            ("Down", {"x": 11, "y": 12}), # ensure aligned
             ("Down", {"x": 11, "y": 13}),
             ("Left", {"x": 10, "y": 13}),
             ("Left", {"x": 9, "y": 13}),
@@ -91,28 +92,28 @@ def main():
             ("Left", {"x": 7, "y": 13}),
             ("Left", {"x": 6, "y": 13}),
             ("Up", {"x": 6, "y": 12}),
-            ("Up", {"x": 6, "y": 11}),
-            ("Up", {"x": 6, "y": 10}),
         ]):
             success = False
         pos = mgba.get_coordinates()
         
-    if pos == {"x": 6, "y": 10}:
+    if pos == {"x": 6, "y": 10} or pos == {"x": 6, "y": 12}:
         print("STAGE 1: Re-entering Pokémon Mansion from Cinnabar Lab...")
         if not run_steps([
-            ("Down", {"x": 6, "y": 11}), # Walk down to Row 11 first to bypass any walls on Row 10!
-            ("Right", {"x": 7, "y": 11}),
-            ("Right", {"x": 8, "y": 11}),
-            ("Right", {"x": 9, "y": 11}),
-            ("Right", {"x": 10, "y": 11}),
-            ("Right", {"x": 11, "y": 11}),
-            ("Right", {"x": 12, "y": 11}),
-            ("Right", {"x": 13, "y": 11}),
-            ("Right", {"x": 14, "y": 11}),
-            ("Right", {"x": 15, "y": 11}),
-            ("Right", {"x": 16, "y": 11}),
-            ("Right", {"x": 17, "y": 11}),
-            ("Right", {"x": 18, "y": 11}),
+            ("Down", {"x": 6, "y": 11}),
+            ("Down", {"x": 6, "y": 12}),
+            ("Right", {"x": 7, "y": 12}),
+            ("Right", {"x": 8, "y": 12}),
+            ("Right", {"x": 9, "y": 12}),
+            ("Right", {"x": 10, "y": 12}),
+            ("Right", {"x": 11, "y": 12}),
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+            ("Up", {"x": 18, "y": 11}),
             ("Up", {"x": 18, "y": 10}),
             ("Up", {"x": 18, "y": 9}),
             ("Up", {"x": 18, "y": 8}),
@@ -141,6 +142,44 @@ def main():
             mgba.press_buttons(["Up"])
             time.sleep(2.0)
             print("New position:", mgba.get_coordinates())
+            
+    if pos == {"x": 8, "y": 11}:
+        print("STAGE 1 RESUMPTION: Re-entering Pokémon Mansion from (8, 11)...")
+        if not run_steps([
+            ("Down", {"x": 8, "y": 12}),
+            ("Right", {"x": 9, "y": 12}),
+            ("Right", {"x": 10, "y": 12}),
+            ("Right", {"x": 11, "y": 12}),
+            ("Right", {"x": 12, "y": 12}),
+            ("Right", {"x": 13, "y": 12}),
+            ("Right", {"x": 14, "y": 12}),
+            ("Right", {"x": 15, "y": 12}),
+            ("Right", {"x": 16, "y": 12}),
+            ("Right", {"x": 17, "y": 12}),
+            ("Right", {"x": 18, "y": 12}),
+            ("Up", {"x": 18, "y": 11}),
+            ("Up", {"x": 18, "y": 10}),
+            ("Up", {"x": 18, "y": 9}),
+            ("Up", {"x": 18, "y": 8}),
+            ("Up", {"x": 18, "y": 7}),
+            ("Up", {"x": 18, "y": 6}),
+            ("Up", {"x": 18, "y": 5}),
+            ("Left", {"x": 17, "y": 5}),
+            ("Left", {"x": 16, "y": 5}),
+            ("Left", {"x": 15, "y": 5}),
+            ("Left", {"x": 14, "y": 5}),
+            ("Left", {"x": 13, "y": 5}),
+            ("Left", {"x": 12, "y": 5}),
+            ("Left", {"x": 11, "y": 5}),
+            ("Left", {"x": 10, "y": 5}),
+            ("Left", {"x": 9, "y": 5}),
+            ("Left", {"x": 8, "y": 5}),
+            ("Left", {"x": 7, "y": 5}),
+            ("Left", {"x": 6, "y": 5}),
+            ("Up", {"x": 6, "y": 4}),
+            ("Up", {"x": 6, "y": 3}),
+        ]):
+            success = False
             
         if success:
             print("Entering the Mansion door...")
