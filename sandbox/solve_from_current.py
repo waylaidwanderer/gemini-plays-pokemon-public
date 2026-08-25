@@ -39,7 +39,6 @@ def handle_any_menu_or_battle():
         
         if percentage2 > 0.90:
             print("Still in battle. Running...")
-            # RUN: DOWN, then RIGHT, then A
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
             # Dismiss run text
@@ -72,49 +71,23 @@ def run_steps(steps):
     return True
 
 def main():
-    # Start at (7, 8) in battle
-    print("Starting State B master solver from (7, 8) in battle...")
-    
-    # Handle battle
-    handle_any_menu_or_battle()
-    time.sleep(0.5)
-    
     pos = mgba.get_coordinates()
-    print("Position after escaping battle:", pos)
+    print("Starting master solver from 3F West position:", pos)
+    
+    # Dismiss any text
+    mgba.press_buttons(["B"])
+    time.sleep(0.3)
     
     success = True
     
-    if pos == {"x": 7, "y": 8}:
-        print("Walking DOWN to (7, 9)...")
-        if not walk_step("Down", {"x": 7, "y": 9}):
-            success = False
-            
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 7, "y": 9}:
-        print("Stepping DOWN onto stairs at (7, 10) to warp UP to 3F West...")
-        mgba.press_buttons(["Down"])
-        time.sleep(1.5)
-        
-    pos = mgba.get_coordinates()
-    # Land on 3F West at (7, 10) or (7, 11)
-    if success and pos['y'] in [10, 11] and pos['x'] == 7:
-        print("Landed on 3F West! Current position:", pos)
-        if pos['y'] == 10:
-            if not walk_step("Down", {"x": 7, "y": 11}):
-                success = False
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 7, "y": 11}:
-        print("Walking LEFT along Row 11 to Column 1...")
-        for x in range(6, 0, -1):
-            if not walk_step("Left", {"x": x, "y": 11}):
-                success = False
-                break
-                
-    pos = mgba.get_coordinates()
-    if success and pos == {"x": 1, "y": 11}:
-        print("Walking UP Column 1 to Row 9...")
+    # We are at (3, 11) on 3F West
+    if pos == {"x": 3, "y": 11}:
+        print("STAGE 6: Walking around statue to Column 1...")
         if not run_steps([
+            ("Down", {"x": 3, "y": 12}),
+            ("Left", {"x": 2, "y": 12}),
+            ("Left", {"x": 1, "y": 12}),
+            ("Up", {"x": 1, "y": 11}),
             ("Up", {"x": 1, "y": 10}),
             ("Up", {"x": 1, "y": 9}),
         ]):
