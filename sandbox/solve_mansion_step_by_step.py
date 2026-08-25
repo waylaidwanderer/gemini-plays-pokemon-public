@@ -125,15 +125,14 @@ if success:
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # Toggle switch to State A with exact timing and verification
+    # Toggle switch to State A with exact timing and verification (without walk_step interference!)
     print("Toggling the switch at (2, 11) to State A...")
     mgba.press_buttons(["A"])
-    time.sleep(1.2)
-    # Press Up/Down to ensure YES is selected (in some cases cursor might need reset, but default is YES)
+    time.sleep(1.5)
     mgba.press_buttons(["A"]) # select YES
-    time.sleep(1.2)
+    time.sleep(1.5)
     mgba.press_buttons(["A"]) # dismiss Pressed it!
-    time.sleep(1.2)
+    time.sleep(1.5)
     
     # 5. Walk RIGHT to (3, 12), UP to (3, 11)
     print("Walking RIGHT to (3, 12) then UP to (3, 11)...")
@@ -219,7 +218,7 @@ if success:
                                 break
                                 
                         if success:
-                            print("Reached (12, 11) on 3F East! Walking DOWN to (12, 12) to check if we need to toggle switch to State B...")
+                            print("Reached (12, 11) on 3F East! Walking DOWN to (12, 12) to face UP towards the switch...")
                             if walk_step("Down", {"x": 12, "y": 12}, retries=2):
                                 mgba.press_buttons(["Up"]) # Face UP towards switch at (12, 11)
                                 time.sleep(0.3)
