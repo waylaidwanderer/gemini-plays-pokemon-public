@@ -80,20 +80,24 @@ def main():
     
     success = True
     
-    # 1. We are at (5, 13) on 3F West in State A. Walk to (7, 11) and warp DOWN.
+    # 1. We are at (5, 13) on 3F West in State A. Walk to (7, 10) stairs directly.
     if pos == {"x": 5, "y": 13}:
-        print("Walking to (7, 11) to warp DOWN...")
+        print("Walking UP Column 5 to Row 10...")
         if not run_steps([
             ("Up", {"x": 5, "y": 12}),
-            ("Right", {"x": 6, "y": 12}),
-            ("Up", {"x": 6, "y": 11}),
-            ("Right", {"x": 7, "y": 11}),
+            ("Up", {"x": 5, "y": 11}),
+            ("Up", {"x": 5, "y": 10}),
         ]):
             success = False
             
         if success:
-            print("At (7, 11)! Stepping UP onto stairs to warp DOWN to 2F West...")
-            mgba.press_buttons(["Up"])
+            print("Walking RIGHT to Column 6 Row 10...")
+            if not walk_step("Right", {"x": 6, "y": 10}):
+                success = False
+                
+        if success:
+            print("At (6, 10)! Stepping RIGHT onto stairs to warp DOWN to 2F West...")
+            mgba.press_buttons(["Right"])
             time.sleep(1.5)
             
     # --- STAGE 5: Mansion 2F West (landing at (7, 11), State A) ---
