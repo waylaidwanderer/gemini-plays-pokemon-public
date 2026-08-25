@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (18, 28) [Turn 15901]; fleeing battle and ascending central plateau at (28, 27) to explore northern/western routes to Area 3 with ~246 steps budget.
+- Location: Safari Zone Area 2 (North) at (22, 24) [Turn 15906]; fleeing Venomoth and ascending central plateau at (22, 23) to navigate west towards Area 3 with ~240 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1779,20 +1779,15 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 254 steps (Turn 15901)
-- Steps Remaining at (18, 28) in Area 2: ~246 steps
+- Steps Expended so far: 260 steps (Turn 15906)
+- Steps Remaining at (22, 24) in Area 2: ~240 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
-## Area 2 (North) Verified Features & Routing
-- Entered at (39, 31) from Area 1 (East).
-- Eastern ascent stairs at (28, 27) lead onto the central plateau (rows 22-26).
-- Descent stairs at (16, 27) lead south to (16, 28). (Note: Ground sector west of col 16 has pond at (11, 28) and obstacles at cols 5-11).
-- Northern Thoroughfare (rows 1-3): Open east-west avenue running along the northern border (Protein collected at (25, 1) Turn 15713).
-
-## Current Exploration Plan
-- Dismiss battle text with B to return to overworld at (18, 28).
-- Walk east to (28, 28) and ascend stairs at (28, 27) onto the central plateau.
-- Survey plateau and northern thoroughfare connections to systematically find the west exit into Area 3 (West).
+## Area 2 (North) Topography & Plan
+- Reached (22, 24) directly below central plateau stairs at (22, 23).
+- Flee wild Venomoth encounter.
+- Step Up to (22, 23) (stairs) and (22, 22) (plateau).
+- Systematically survey and navigate the wide plateau (rows 21-23, cols 18-24 and west) towards the Area 3 (West) connection.
 
 
 <hr>
