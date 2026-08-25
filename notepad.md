@@ -1780,23 +1780,20 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: ~115 steps (Turn 15841)
-- Steps Remaining at (27, 21): ~385 steps
-- Target: Reach Area 2 (North) at (39, 31) with >=320 steps remaining
+- Steps Expended so far: ~135 steps (Turn 15853)
+- Steps Remaining at (11, 18): ~365 steps
+- Target: Reach Area 2 (North) at (39, 31) with >=325 steps remaining
 
-## Empirically Verified Topography & Obstacles in Area 1
-1. Entrance from Center: (0, 22) -> southern lawn -> lower ridge ascent stairs at (12, 21).
-2. Lower Ridge: Spans rows 20-21, cols 12-23 -> descent stairs at (23, 21) into eastern clearing.
-3. Eastern Clearing: Cols 24-28, rows 16-24. Bounded on east (col 29) by solid trees/bushes/fences; bounded on south (row 25) by fences.
-4. Northern Plateau: Accessed via ascent stairs at (24, 15) from clearing (24, 16) to plateau (24, 14).
-   - Rows 12-15, cols 19-26.
-   - Cliff along row 12 north edge prevents walking directly into row 11.
-   - Western boundary connects towards upper ridge / NPC at (15, 12).
+## Definitive Empirically Verified Topography in Area 1
+1. Western Ground Avenue (cols 7-10, rows 5-22): Completely open, unobstructed green lawn connecting southern entrance lawn (row 22) straight north to row 5.
+2. Northern Lawn Connection: At row 5, walk west from col 8 to (0, 5) -> triggers map transition into Area 2 (North) at (39, 31).
+3. Ridges and Plateaus: Optional elevated scenic areas; the optimal speedrun traversal completely bypasses all ridges by following the western ground lawn (cols 7-10) directly north!
 
-## Active Navigation Hypothesis & Systematic Plan
-- Return north: (27, 21) -> (27, 16) -> (24, 16) -> ascend stairs at (24, 15) to (24, 14).
-- Systematically survey western edge of plateau (cols 19-22, rows 13-15) for bridge/pathway connecting to Upper Ridge (cols 13-17) and descent stairs at (17, 7).
-- Descend at (17, 7) onto northern lawn (rows 1-8) and walk straight west to (0, 5) into Area 2 (North).
+## Current Navigation Plan
+- Descend ridge stairs at (12, 21) to (12, 22).
+- Walk west to col 8: (11, 22) -> (8, 22).
+- Walk north along col 8 to row 5: (8, 22) -> (8, 5).
+- Walk west along row 5: (8, 5) -> (0, 5) into Area 2 (North) at (39, 31).
 
 
 <hr>
