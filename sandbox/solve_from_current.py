@@ -80,21 +80,20 @@ def main():
     
     success = True
     
-    # We are at (5, 11) on 3F West
-    if pos == {"x": 5, "y": 11}:
-        print("STAGE 4b (State A): Walking around Scientist to (2, 12)...")
+    # We are at (4, 12) on 3F West in State A
+    if pos == {"x": 4, "y": 12}:
+        print("STAGE 4b (State A): Walking around Scientist on Row 13 to (2, 13)...")
         if not run_steps([
-            ("Down", {"x": 5, "y": 12}),
-            ("Left", {"x": 4, "y": 12}),
-            ("Left", {"x": 3, "y": 12}),
-            ("Left", {"x": 2, "y": 12}),
+            ("Down", {"x": 4, "y": 13}),
+            ("Left", {"x": 3, "y": 13}),
+            ("Left", {"x": 2, "y": 13}),
         ]):
             success = False
             
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 2, "y": 12}:
+    if success and pos == {"x": 2, "y": 13}:
         # Toggle switch carefully to State B
-        print("At (2, 12) on 3F West! Facing UP to toggle switch...")
+        print("At (2, 13) on 3F West! Facing UP to toggle switch at (2, 12)...")
         mgba.press_buttons(["Up"])
         time.sleep(0.4)
         mgba.press_buttons(["A"]) # "A secret switch!"
@@ -107,19 +106,18 @@ def main():
         time.sleep(0.5)
         print("Successfully toggled switch to State B!")
         
-        # Walk back to Column 10 Row 11 on 3F West
-        print("Walking to Column 10 Row 11...")
+        # Walk back to Column 10 Row 11 on 3F West bypassing Column 4
+        print("Walking to Bypassing Column 4 on Row 12...")
         if not run_steps([
-            ("Left", {"x": 1, "y": 12}),
-            ("Up", {"x": 1, "y": 11}),
-            ("Down", {"x": 1, "y": 12}),
+            ("Left", {"x": 1, "y": 13}),
+            ("Up", {"x": 1, "y": 12}),
             ("Right", {"x": 2, "y": 12}),
             ("Right", {"x": 3, "y": 12}),
             ("Right", {"x": 4, "y": 12}),
             ("Right", {"x": 5, "y": 12}),
-            ("Right", {"x": 6, "y": 12}),
-            ("Right", {"x": 7, "y": 12}),
-            ("Up", {"x": 7, "y": 11}),
+            ("Up", {"x": 5, "y": 11}),
+            ("Right", {"x": 6, "y": 11}),
+            ("Right", {"x": 7, "y": 11}),
             ("Right", {"x": 8, "y": 11}),
             ("Right", {"x": 9, "y": 11}),
             ("Right", {"x": 10, "y": 11}),
