@@ -70,7 +70,8 @@ def run_steps(steps):
             return False
     return True
 
-def main():
+def if __name__ == "__main__":
+    main():
     pos = mgba.get_coordinates()
     print("Starting step-by-step master solver from current position:", pos)
     
