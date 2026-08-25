@@ -71,28 +71,35 @@ def run_steps(steps):
     return True
 
 def use_dig():
-    print("Executing DIG...")
-    # Dismiss any menus/text first
-    mgba.press_buttons(["B", "sleep 200", "B", "sleep 200"])
-    
-    # Open Start menu
-    mgba.press_buttons(["Start", "sleep 500"])
-    
-    # Ensure we are at the top (POKeDEX)
-    for _ in range(8):
-        mgba.press_buttons(["Up", "sleep 100"])
-        
-    # Go down to POKéMON and select
-    mgba.press_buttons(["Down", "sleep 200", "A", "sleep 800"])
-    
-    # Go down to Slot 6 (TRUFFLE)
-    for _ in range(5):
-        mgba.press_buttons(["Down", "sleep 150"])
-    mgba.press_buttons(["A", "sleep 500"])
-    
-    # Select DIG (first option)
-    mgba.press_buttons(["A", "sleep 3000"])
-    
+    print("Executing atomic DIG sequence...")
+    # Dismiss any menus/text, open Start menu, navigate to Pokemon, Slot 6, select DIG
+    dig_sequence = [
+        "B", "sleep 250",
+        "B", "sleep 250",
+        "B", "sleep 250",
+        "Start", "sleep 500",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Up", "sleep 150",
+        "Down", "sleep 250",
+        "A", "sleep 1000",
+        "Down", "sleep 200",
+        "Down", "sleep 200",
+        "Down", "sleep 200",
+        "Down", "sleep 200",
+        "Down", "sleep 200",
+        "A", "sleep 800",
+        "A", "sleep 3000"
+    ]
+    mgba.press_buttons(dig_sequence)
+    time.sleep(1.0)
     pos = mgba.get_coordinates()
     print("DIG finished. Current position:", pos)
     return pos
@@ -217,7 +224,7 @@ def main():
         print("Failed to reach pitfall.")
         return
 
-    # Step onto the actual pitfall tile (which is (26, 3) or (26, 4) depending on exact column)
+    # Step onto the actual pitfall tile
     mgba.press_buttons(["Right"])
     time.sleep(1.0)
     pos = mgba.get_coordinates()
