@@ -108,10 +108,13 @@ def main():
     print("Starting master solver from position:", pos)
     
     # --- STAGE 1: DIG out to Cinnabar Island ---
-    pos = use_dig()
     if pos != {"x": 11, "y": 12}:
-        print("DIG did not land at (11, 12). Current position:", pos)
-        return
+        pos = use_dig()
+        if pos != {"x": 11, "y": 12}:
+            print("DIG did not land at (11, 12). Current position:", pos)
+            return
+    else:
+        print("Already outside at (11, 12). Skipping DIG stage.")
         
     # --- STAGE 2: Walk to Pokemon Mansion Entrance ---
     print("Walking to Pokemon Mansion Entrance...")
