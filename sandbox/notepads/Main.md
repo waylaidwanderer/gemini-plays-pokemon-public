@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (17, 5) [Turn 15871]; descending upper ridge stairs at (17, 7) to northern lawn, then taking northern avenue (rows 1-3) west to (0, 5) into Area 2 (North) with ~310 steps budget.
+- Location: Safari Zone Area 1 (East) at (0, 5) [Turn 15881]; stepping west to enter Area 2 (North) at (39, 31) with ~277 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
