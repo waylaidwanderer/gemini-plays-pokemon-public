@@ -107,31 +107,74 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from current position:", pos)
     
-    # --- STAGE 1: Bypass Column 13 using Row 12 ---
-    if pos == {"x": 12, "y": 9}:
-        print("At (12, 9). Walking down and crossing Column 13 via Row 12...")
+    # --- STAGE 1: Warp down from 3F West (13, 12) to 2F West ---
+    if pos == {"x": 13, "y": 12}:
+        print("At (13, 12) on 3F West. Walking back to stairs at (7, 10)...")
         if not run_steps([
-            ("Down", {"x": 12, "y": 10}),
-            ("Down", {"x": 12, "y": 11}),
-            ("Down", {"x": 12, "y": 12}),
-            ("Right", {"x": 13, "y": 12}),
-            ("Right", {"x": 14, "y": 12}),
-            ("Right", {"x": 15, "y": 12}),
-            ("Right", {"x": 16, "y": 12}),
-            ("Right", {"x": 17, "y": 12}),
-            ("Right", {"x": 18, "y": 12}),
-            ("Right", {"x": 19, "y": 12}),
-            ("Right", {"x": 20, "y": 12}),
+            ("Left", {"x": 12, "y": 12}),
+            ("Left", {"x": 11, "y": 12}),
+            ("Left", {"x": 10, "y": 12}),
+            ("Up", {"x": 10, "y": 11}),
+            ("Left", {"x": 9, "y": 11}),
+            ("Left", {"x": 8, "y": 11}),
+            ("Left", {"x": 7, "y": 11}),
+            ("Up", {"x": 7, "y": 11}), # Warp down to 2F West, landing at (7, 11)
         ]):
-            print("Failed to bypass Column 13.")
+            print("Failed to warp down to 2F West.")
             return
         pos = mgba.get_coordinates()
 
-    # --- STAGE 2: Walk UP Column 20 and RIGHT Row 3 to Pitfall ---
-    if pos == {"x": 20, "y": 12}:
-        print("Walking UP Column 20 and RIGHT along Row 3 to pitfall...")
+    # --- STAGE 2: Walk the 2F State B Bypass Route to 3F East ---
+    if pos == {"x": 7, "y": 11}:
+        print("At (7, 11) on 2F West. Executing State B Bypass Route...")
         if not run_steps([
-            ("Up", {"x": 20, "y": 11}),
+            ("Left", {"x": 6, "y": 11}),
+            ("Left", {"x": 5, "y": 11}),
+            ("Up", {"x": 5, "y": 10}),
+            ("Up", {"x": 5, "y": 9}),
+            ("Up", {"x": 5, "y": 8}),
+            ("Up", {"x": 5, "y": 7}),
+            ("Up", {"x": 5, "y": 6}),
+            ("Up", {"x": 5, "y": 5}),
+            ("Up", {"x": 5, "y": 4}),
+            ("Up", {"x": 5, "y": 3}),
+            ("Right", {"x": 6, "y": 3}),
+            ("Right", {"x": 7, "y": 3}),
+            ("Right", {"x": 8, "y": 3}),
+            ("Right", {"x": 9, "y": 3}),
+            ("Right", {"x": 10, "y": 3}),
+            ("Right", {"x": 11, "y": 3}),
+            ("Right", {"x": 12, "y": 3}),
+            ("Right", {"x": 13, "y": 3}),
+            ("Right", {"x": 14, "y": 3}),
+            ("Right", {"x": 15, "y": 3}),
+            ("Right", {"x": 16, "y": 3}),
+            ("Right", {"x": 17, "y": 3}),
+            ("Right", {"x": 18, "y": 3}),
+            ("Down", {"x": 18, "y": 4}),
+            ("Down", {"x": 18, "y": 5}),
+            ("Down", {"x": 18, "y": 6}),
+            ("Down", {"x": 18, "y": 7}),
+            ("Down", {"x": 18, "y": 8}),
+            ("Down", {"x": 18, "y": 9}),
+            ("Down", {"x": 18, "y": 10}),
+            ("Left", {"x": 17, "y": 10}),
+            ("Left", {"x": 16, "y": 10}),
+            ("Left", {"x": 15, "y": 10}),
+            ("Down", {"x": 16, "y": 11}), # Warp up to 3F East!
+        ]):
+            print("Failed to reach 3F East landing.")
+            return
+        pos = mgba.get_coordinates()
+
+    # --- STAGE 3: Walk 3F East to Pitfall ---
+    if pos == {"x": 16, "y": 11}:
+        print("Walking to pitfall on 3F East...")
+        if not run_steps([
+            ("Right", {"x": 17, "y": 11}),
+            ("Right", {"x": 18, "y": 11}),
+            ("Right", {"x": 19, "y": 11}),
+            ("Right", {"x": 20, "y": 11}),
             ("Up", {"x": 20, "y": 10}),
             ("Up", {"x": 20, "y": 9}),
             ("Up", {"x": 20, "y": 8}),
@@ -155,10 +198,9 @@ def main():
         pos = mgba.get_coordinates()
         print("Landed on 1F East inside fenced room. Current position:", pos)
     
-    # --- STAGE 3: Align to (22, 4) on 1F East ---
+    # --- STAGE 4: Align to (22, 4) on 1F East ---
     if pos != {"x": 22, "y": 3} and pos != {"x": 22, "y": 2} and pos["y"] < 10:
         print("Walking to B1F staircase on 1F East...")
-        # Navigate to (22, 4)
         while pos["x"] > 22:
             mgba.press_buttons(["Left"])
             time.sleep(0.4)
@@ -185,7 +227,7 @@ def main():
             return
         pos = mgba.get_coordinates()
 
-    # --- STAGE 4: Walk B1F East to B1F West & Retrieve Secret Key ---
+    # --- STAGE 5: Walk B1F East to B1F West & Retrieve Secret Key ---
     if pos == {"x": 22, "y": 3}:
         print("Walking B1F East to B1F West...")
         if not run_steps([
@@ -217,7 +259,7 @@ def main():
         mgba.press_buttons(["B"]) # Leftover text
         time.sleep(0.5)
         
-        # --- STAGE 5: Escape with DIG ---
+        # --- STAGE 6: Escape with DIG ---
         use_dig()
         print("All stages complete!")
 
