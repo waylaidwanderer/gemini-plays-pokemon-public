@@ -80,9 +80,10 @@ def main():
     
     success = True
     
-    # 1. Walk from (15, 7) back to (12, 7)
-    if pos == {"x": 15, "y": 7}:
+    # 1. Walk from (16, 7) back to (12, 7)
+    if pos == {"x": 16, "y": 7}:
         if not run_steps([
+            ("Left", {"x": 15, "y": 7}),
             ("Left", {"x": 14, "y": 7}),
             ("Left", {"x": 13, "y": 7}),
             ("Left", {"x": 12, "y": 7}),
