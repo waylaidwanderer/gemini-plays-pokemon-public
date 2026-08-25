@@ -2,17 +2,16 @@
 
 ## Step Budget & Current State
 - Initial Budget: 500 steps
-- Expended so far: 318 steps (Turn 15943)
-- Current Position: Safari Zone Area 2 (North) at (12, 8)
-- Steps Remaining: ~182 steps
+- Expended so far: 326 steps (Turn 15946)
+- Current Position: Safari Zone Area 2 (North) at (20, 8)
+- Steps Remaining: 174 steps
 - Target: Reach Area 3 (West) connection, retrieve Gold Teeth, and enter Secret House for HM03 (Surf).
 
-## Area 2 (North) Active Northern Thoroughfare Route
-- Position: (12, 8) on open green lawn.
-- Northern Thoroughfare (rows 1-3) is the wide, uninterrupted highway running across the entire northern border (cols 0-35).
+## Active Route to Area 3 (West)
+- Position: (20, 8) on open green lawn.
 - Plan:
-  1. Walk East along row 8 to col 25: (13, 8) -> (25, 8) (13 steps Right).
-  2. Walk North along col 25 to row 1 (Protein landmark at (25, 1)) (7 steps Up).
-  3. Sprint West along row 1 highway (cols 25 -> 0) into Area 3 (West) at (0, 1) (25 steps Left).
-- Total estimated cost to enter Area 3: ~45 steps.
-- Estimated arrival in Area 3: ~137 steps remaining!
+  1. Walk East along row 8 to (28, 8) (8 steps Right).
+  2. Walk North along col 28 to row 1 (7 steps Up).
+  3. Sprint West along row 1 Northern Thoroughfare (cols 28 -> 0) into Area 3 (West) at (0, 1) (28 steps Left).
+- Total estimated cost to enter Area 3: ~43 steps.
+- Estimated arrival in Area 3: ~131 steps remaining!
