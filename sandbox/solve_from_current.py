@@ -69,39 +69,41 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Start at current position on 2F West (should be 2, 10)
+# Start at current position on 2F West (should be 2, 13)
 pos = mgba.get_coordinates()
 print(f"Starting from 2F West position: {pos}")
 
 success = True
 
-# 1. Walk from current position (2, 10) on 2F West to Column 5 Row 11
-steps_to_col5 = [
-    ("Down", {"x": 2, "y": 11}),
+# 1. Walk from (2, 13) to Column 6 Row 11
+steps_to_col6 = [
+    ("Up", {"x": 2, "y": 12}),
+    ("Up", {"x": 2, "y": 11}),
     ("Right", {"x": 3, "y": 11}),
     ("Right", {"x": 4, "y": 11}),
     ("Right", {"x": 5, "y": 11}),
+    ("Right", {"x": 6, "y": 11}),
 ]
-print("Walking to Column 5 Row 11...")
-for d, c in steps_to_col5:
+print("Walking to Column 6 Row 11...")
+for d, c in steps_to_col6:
     if not walk_step(d, c):
         success = False
         break
         
 if success:
-    # 2. Walk UP Column 5 past Row 9 (now open in State B!) to Row 3
-    steps_up_col5 = [
-        ("Up", {"x": 5, "y": 10}),
-        ("Up", {"x": 5, "y": 9}),  # Open gate in State B!
-        ("Up", {"x": 5, "y": 8}),
-        ("Up", {"x": 5, "y": 7}),
-        ("Up", {"x": 5, "y": 6}),
-        ("Up", {"x": 5, "y": 5}),
-        ("Up", {"x": 5, "y": 4}),
-        ("Up", {"x": 5, "y": 3}),
+    # 2. Walk UP Column 6 past Row 9 (now open in State B!) to Row 3
+    steps_up_col6 = [
+        ("Up", {"x": 6, "y": 10}),
+        ("Up", {"x": 6, "y": 9}),  # Open gate in State B!
+        ("Up", {"x": 6, "y": 8}),
+        ("Up", {"x": 6, "y": 7}),
+        ("Up", {"x": 6, "y": 6}),
+        ("Up", {"x": 6, "y": 5}),
+        ("Up", {"x": 6, "y": 4}),
+        ("Up", {"x": 6, "y": 3}),
     ]
-    print("Walking UP Column 5 to Row 3...")
-    for d, c in steps_up_col5:
+    print("Walking UP Column 6 to Row 3...")
+    for d, c in steps_up_col6:
         if not walk_step(d, c):
             success = False
             break
@@ -109,7 +111,6 @@ if success:
     if success:
         # 3. Walk RIGHT along Row 3 to Column 18, DOWN Column 18 to Row 10, LEFT to Column 15 Row 10
         steps_2f_east = [
-            ("Right", {"x": 6, "y": 3}),
             ("Right", {"x": 7, "y": 3}),
             ("Right", {"x": 8, "y": 3}),
             ("Right", {"x": 9, "y": 3}),
@@ -246,6 +247,6 @@ if success:
         else:
             print("Failed to navigate 2F East.")
     else:
-        print("Failed to navigate Column 5 UP to Row 3.")
+        print("Failed to navigate Column 6 UP to Row 3.")
 else:
-    print("Failed to navigate to Column 5.")
+    print("Failed to navigate to Column 6.")
