@@ -1,16 +1,8 @@
 import mgba
 import time
-import os
 
-# Starting at (7, 11) on 3F West in battle with Grimer
-# 1. Escape the wild battle
-print("Escaping from wild Grimer...")
-mgba.press_buttons(["A"])
-time.sleep(3.0) # Wait for "Go! SHELLBY!" animation and menu to load
-mgba.press_buttons(["Down", "Right", "A"])
-time.sleep(5.0) # Wait for "Got away safely!" screen to appear and load
-
-# 2. Dismiss the "Got away safely!" screen
+# Starting at (7, 11) on 3F West on "Got away safely!" screen
+# 1. Dismiss the "Got away safely!" screen
 mgba.press_buttons(["B"])
 time.sleep(1.5) # Wait for overworld load
 
@@ -26,7 +18,7 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# 3. Walk from (7, 11) to (1, 11), up to (1, 6), right to (11, 6)
+# 2. Walk from (7, 11) to (1, 11), up to (1, 6), right to (11, 6)
 steps_3f_west = [
     ("Left", {"x": 6, "y": 11}),
     ("Left", {"x": 5, "y": 11}),
@@ -58,7 +50,7 @@ for d, c in steps_3f_west:
         break
         
 if success:
-    # 4. On 3F East (State B)
+    # 3. On 3F East (State B)
     # Walk Right from (11, 6) to Column 20, Up to Row 3, Right to (26, 3) and step Down to drop
     steps_3f_east = [
         ("Right", {"x": 12, "y": 6}),
@@ -92,7 +84,7 @@ if success:
         pos = mgba.get_coordinates()
         print(f"Landed on 1F East inside fenced room! Position: {pos}")
         
-        # 5. On 1F East fenced room
+        # 4. On 1F East fenced room
         # Landing coordinate should be (26, 4). Walk UP to (26, 3), Left to (22, 3), Up onto stairs at (22, 2)
         steps_1f_east = [
             ("Up", {"x": 26, "y": 3}),
@@ -113,7 +105,7 @@ if success:
             pos = mgba.get_coordinates()
             print(f"Warped DOWN to B1F East! Landing position: {pos}")
             
-            # 6. On B1F East (State B)
+            # 5. On B1F East (State B)
             # Landing coordinate should be (22, 3). Walk Left to (21, 3), Down to (21, 4), Left to (19, 4), Down to (19, 5), Left to (1, 5)
             if pos == {"x": 22, "y": 3}:
                 steps_b1f = [
