@@ -1531,6 +1531,13 @@ Thus, the correct State B bypass route on 2F is:
 - **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
 
 
+## Verified 3F West Switch Statue Interaction Coordinates (Turn 60244)
+- **Switch Statue Coordinate:** `(2, 12)` on 3F West.
+- **Player Standing Position:** `(2, 13)` facing UP.
+- **Interaction:** Press A from `(2, 13)` facing UP to toggle.
+- **Rubble block at (2, 12):** The statue pedestal at `(2, 12)` behaves as a solid block/rubble obstacle from all other sides.
+
+
 <hr>
 
 <h1><code>Locations/CinnabarIsland.md</code></h1>
