@@ -1,44 +1,89 @@
 import mgba
 import time
+from PIL import Image
 
-def run_from_battle():
-    print("In battle! Attempting to escape...")
-    for _ in range(5):
+def handle_any_menu_or_battle():
+    # 1. Take a screenshot
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file)
+    img_std = img.resize((160, 144), Image.Resampling.NEAREST)
+    
+    # 2. Check if a text box is active (bottom 115 to 140 y, 10 to 150 x is mostly black and white)
+    black_or_white = 0
+    total_pixels = 0
+    for y in range(115, 140):
+        for x in range(10, 150):
+            r, g, b = img_std.getpixel((x, y))
+            total_pixels += 1
+            is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+            if is_bw:
+                black_or_white += 1
+                
+    percentage = black_or_white / total_pixels
+    if percentage > 0.90:
+        print(f"Menu/Battle detected! (B/W percentage: {percentage*100:.2f}%)")
+        # Press B to dismiss dialogue/menus
         mgba.press_buttons(["B"])
-        time.sleep(0.3)
-    mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A"])
-    time.sleep(1.5)
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.3)
-    pos = mgba.get_coordinates()
-    print("Current position after escape attempt:", pos)
-    return pos
+        time.sleep(0.4)
+        
+        # Re-check if we are still in a menu/battle
+        scr_file2 = mgba.take_screenshot()
+        img2 = Image.open(scr_file2)
+        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
+        
+        black_or_white2 = 0
+        for y in range(115, 140):
+            for x in range(10, 150):
+                r, g, b = img_std2.getpixel((x, y))
+                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+                if is_bw:
+                    black_or_white2 += 1
+        percentage2 = black_or_white2 / total_pixels
+        
+        if percentage2 > 0.90:
+            # We are still in a battle (pressing B didn't close it, it's probably the fight/run menu)
+            print("Still in battle/menu. Attempting RUN...")
+            mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A"])
+            time.sleep(1.5)
+            # Dismiss run text
+            for _ in range(4):
+                mgba.press_buttons(["B"])
+                time.sleep(0.3)
+        else:
+            print("Successfully dismissed dialogue!")
+        return True
+    return False
 
-def walk_step(direction, expected_coords, retries=30):
+def walk_step(direction, expected_coords, retries=15):
     for i in range(retries):
+        # First check and handle any battle or dialogue
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+            if pos == expected_coords:
+                print(f"Reached expected {expected_coords} after battle.")
+                return True
+                
         mgba.press_buttons([direction])
         time.sleep(0.4)
         pos = mgba.get_coordinates()
         if pos == expected_coords:
             print(f"Moved {direction}, current position: {pos}")
             return True
-        if pos == {"x": 0, "y": 0}:
-            run_from_battle()
-            pos = mgba.get_coordinates()
-            if pos == expected_coords:
-                return True
-        print(f"Blocked! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
+            
+        print(f"Blocked or battle! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
         time.sleep(0.3)
     return False
 
-# Starting at (12, 11) on 2F East (State A)
+# Starting at (11, 11) on 2F East (State A)
 success = True
 
-# 1. Walk LEFT to Column 11, then UP to Row 7
-print("Walking LEFT to Column 11, then UP to Row 7...")
+# First, handle the active Grimer battle!
+print("Handling current battle...")
+handle_any_menu_or_battle()
+
+# 1. Walk UP Column 11 to Row 7
+print("Walking UP Column 11 to Row 7...")
 steps_to_row7 = [
-    ("Left", {"x": 11, "y": 11}),
     ("Up", {"x": 11, "y": 10}),
     ("Up", {"x": 11, "y": 9}),
     ("Up", {"x": 11, "y": 8}),
