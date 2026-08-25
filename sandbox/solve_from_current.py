@@ -168,7 +168,7 @@ def main():
             return
         pos = mgba.get_coordinates()
 
-    # Now we walk up Column 18, left on Row 5, and enter the Mansion
+    # Now we walk up Column 18, left on Row 4, and enter the Mansion (safely bypassing Row 5 NPCs!)
     if not run_steps([
         ("Up", {"x": 18, "y": 11}),
         ("Up", {"x": 18, "y": 10}),
@@ -177,19 +177,19 @@ def main():
         ("Up", {"x": 18, "y": 7}),
         ("Up", {"x": 18, "y": 6}),
         ("Up", {"x": 18, "y": 5}),
-        ("Left", {"x": 17, "y": 5}),
-        ("Left", {"x": 16, "y": 5}),
-        ("Left", {"x": 15, "y": 5}),
-        ("Left", {"x": 14, "y": 5}),
-        ("Left", {"x": 13, "y": 5}),
-        ("Left", {"x": 12, "y": 5}),
-        ("Left", {"x": 11, "y": 5}),
-        ("Left", {"x": 10, "y": 5}),
-        ("Left", {"x": 9, "y": 5}),
-        ("Left", {"x": 8, "y": 5}),
-        ("Left", {"x": 7, "y": 5}),
-        ("Left", {"x": 6, "y": 5}),
-        ("Up", {"x": 6, "y": 4}),
+        ("Up", {"x": 18, "y": 4}),
+        ("Left", {"x": 17, "y": 4}),
+        ("Left", {"x": 16, "y": 4}),
+        ("Left", {"x": 15, "y": 4}),
+        ("Left", {"x": 14, "y": 4}),
+        ("Left", {"x": 13, "y": 4}),
+        ("Left", {"x": 12, "y": 4}),
+        ("Left", {"x": 11, "y": 4}),
+        ("Left", {"x": 10, "y": 4}),
+        ("Left", {"x": 9, "y": 4}),
+        ("Left", {"x": 8, "y": 4}),
+        ("Left", {"x": 7, "y": 4}),
+        ("Left", {"x": 6, "y": 4}),
         ("Up", {"x": 6, "y": 3}),
         ("Up", {"x": 5, "y": 27}), # Entered 1F West!
     ]):
