@@ -30,7 +30,6 @@
 - South Exit to Center Area (Area 0): (14, 35..36) connects directly to Center Area at (14, 0).
 - Southwest Exit to Area 3 (West): Western corridor leading into Area 3.
 ## Area 2 (North) Verified Landmarks & Traversal Notes
-- East Entrance: (39, 31) from Area 1 (East).
 - South Boundary (row 36): Steps south into Safari Zone Center at (20, 0).
 - Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
 - Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
