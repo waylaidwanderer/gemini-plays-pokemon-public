@@ -2,12 +2,14 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 224 steps (Turn 15884)
-- Steps Remaining at (39, 31) in Area 2: ~276 steps
+- Steps Expended so far: 232 steps (Turn 15887)
+- Steps Remaining at (31, 31) in Area 2: ~268 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
 ## Area 2 (North) Topography & Plan
 - Entered at (39, 31) from Area 1 (East).
-- Goal: Locate the western corridor leading into Area 3 (West).
-- Critical Warning: Do NOT step south across row 36 (leads back to Center Area!).
-- Navigation: Move west from (39, 31) along rows 28-31 towards central/western Area 2.
+- Reached (31, 31) on row 31 avenue.
+- Visual Landmarks:
+  - Stairs at (28, 27) leading onto northern plateau (row 27).
+  - Open lawn corridors along rows 28-30 extending west past col 27.
+- Navigation: Moving west along row 29 across central Area 2 towards western Area 3 connection.
