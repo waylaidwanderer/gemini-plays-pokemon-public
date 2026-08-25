@@ -20,13 +20,19 @@
 - **Area 2 (North)**:
   - East exit: (39, 31) -> Area 1 (East) at (0, 5).
   - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
-  - West border (rows 2-27): Solid tree barrier along column 0 [Verified Turns 16299-16300].
-  - Southwest sector (rows 28-35, cols 0-6): Passage leading into Area 3 (West).
+  - West border (rows 0-34): Solid tree barrier along column 0; open grass transition at (0, 35).
+  - Southwest sector topology & obstacle grid:
+    - Rest House: cols 4-5, rows 24-25 (door at (5, 25), wall at (4, 25), roof at (4..5, 24..25)).
+    - Vertical Tree Barrier: col 5, rows 20-23 and rows 26-27.
+    - Southeast Pond: cols 8-11, rows 24-29 (blue water with brown shore).
+    - Northwest Pond: cols 4-7, rows 18-19 (blue water with brown shore).
+    - Western Lawn: cols 2-4, rows 20-33 (fully open grass).
+    - Eastern Corridor: cols 6-11, rows 20-22 (open grass connecting to col 12 north).
   - Verified Internal Thoroughfares:
     - Central Ridge: Ascent stairs at (22, 23), Descent stairs at (16, 27) [Verified Turns 16454-16456, 16524-16526].
     - Vertical Corridor: Column 12/13 grass corridor connects row 28 to row 5/6 [Verified Turns 16495-16499, 16527, 16534].
     - Northern Highway: Row 2 links col 38 to col 2 [Verified Turns 15713, 16182, 16291, 16534]. Bypass trees at (11..15, 4) via column 10 (rows 2-6).
-- **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf).
+- **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf). Entrance located at (0, 35) in southwest of Area 2 (North).
 
 ## Area 1 (East) Topology & Verified Landmarks
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
