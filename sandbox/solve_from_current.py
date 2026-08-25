@@ -141,10 +141,11 @@ def main():
         print("Successfully toggled switch to State B!")
         pos = mgba.get_coordinates()
 
-    # --- STAGE 3: Walk from (2, 13) to Column 10 Row 9 ---
-    if pos == {"x": 2, "y": 13}:
-        print("Navigating from switch (2, 13) to Column 10 Row 9...")
+    # --- STAGE 3: Walk from (2, 12) to Column 10 Row 9 ---
+    if pos == {"x": 2, "y": 12}:
+        print("Navigating from switch (2, 12) to Column 10 Row 9...")
         if not run_steps([
+            ("Down", {"x": 2, "y": 13}),
             ("Right", {"x": 3, "y": 13}),
             ("Right", {"x": 4, "y": 13}),
             ("Right", {"x": 5, "y": 13}),
