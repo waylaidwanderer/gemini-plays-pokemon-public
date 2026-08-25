@@ -67,60 +67,63 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Starting at (17, 7) on 2F East (State B)
+# Starting at (6, 5) on 2F West (State B)
 success = True
 
-# 1. Walk UP Column 17 to Row 5
-print("Walking UP to (17, 5)...")
-steps_up_col17 = [
-    ("Up", {"x": 17, "y": 6}),
-    ("Up", {"x": 17, "y": 5}),
-]
-for d, c in steps_up_col17:
+# 1. Walk DOWN Column 6 to Row 11
+print("Walking DOWN Column 6 to Row 11...")
+steps_down_col6 = []
+for y in range(6, 12):
+    steps_down_col6.append(("Down", {"x": 6, "y": y}))
+for d, c in steps_down_col6:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    # 2. Walk LEFT along Row 5 to Column 6 on 2F West (completely open horizontal crossing!)
-    print("Reached (17, 5)! Walking LEFT along Row 5 to Column 6...")
-    steps_left_row5 = []
-    for x in range(16, 5, -1):
-        steps_left_row5.append(("Left", {"x": x, "y": 5}))
-    for d, c in steps_left_row5:
+    # 2. Walk RIGHT along Row 11 to Column 12
+    print("Walking RIGHT along Row 11 to Column 12...")
+    steps_right_row11 = []
+    for x in range(7, 13):
+        steps_right_row11.append(("Right", {"x": x, "y": 11}))
+    for d, c in steps_right_row11:
         if not walk_step(d, c):
             success = False
             break
             
     if success:
-        # 3. Walk UP Column 6 to Row 3
-        print("Reached (6, 5)! Walking UP Column 6 to Row 3...")
-        steps_up_col6 = [
-            ("Up", {"x": 6, "y": 4}),
-            ("Up", {"x": 6, "y": 3}),
+        # 3. Walk UP Column 12 to Row 7
+        print("Walking UP Column 12 to Row 7...")
+        steps_up_col12 = [
+            ("Up", {"x": 12, "y": 10}),
+            ("Up", {"x": 12, "y": 9}),
+            ("Up", {"x": 12, "y": 8}),
+            ("Up", {"x": 12, "y": 7}),
         ]
-        for d, c in steps_up_col6:
+        for d, c in steps_up_col12:
             if not walk_step(d, c):
                 success = False
                 break
                 
         if success:
-            # 4. Walk RIGHT along Row 3 to Column 18 on 2F East
-            print("Reached (6, 3)! Walking RIGHT along Row 3 to Column 18...")
-            steps_right_row3 = []
-            for x in range(7, 19):
-                steps_right_row3.append(("Right", {"x": x, "y": 3}))
-            for d, c in steps_right_row3:
+            # 4. Walk RIGHT Row 7 to Column 18 on 2F East (crosses Column 13 Row 7!)
+            print("Walking RIGHT along Row 7 to Column 18...")
+            steps_right_row7 = []
+            for x in range(13, 19):
+                steps_right_row7.append(("Right", {"x": x, "y": 7}))
+            for d, c in steps_right_row7:
                 if not walk_step(d, c):
                     success = False
                     break
                     
             if success:
-                # 5. Walk DOWN Column 18 to Row 10 (OPEN in State B!)
-                print("Reached (18, 3)! Walking DOWN Column 18 to Row 10...")
-                steps_down_col18 = []
-                for y in range(4, 11):
-                    steps_down_col18.append(("Down", {"x": 18, "y": y}))
+                # 5. Try walking DOWN Column 18 to Row 10
+                print("Reached (18, 7)! Trying to walk DOWN Column 18 to Row 10...")
+                steps_down_col18 = [
+                    ("Down", {"x": 18, "y": 8}),
+                    ("Down", {"x": 18, "y": 9}),
+                    ("Down", {"x": 18, "y": 10}),
+                ]
                 for d, c in steps_down_col18:
                     if not walk_step(d, c):
                         success = False
@@ -128,7 +131,7 @@ if success:
                         
                 if success:
                     # 6. Walk LEFT along Row 10 to Column 15 Row 10
-                    print("Reached (18, 10)! Walking LEFT along Row 10 to Column 15...")
+                    print("Reached (18, 10)! Walking LEFT to Column 15...")
                     steps_left_row10 = [
                         ("Left", {"x": 17, "y": 10}),
                         ("Left", {"x": 16, "y": 10}),
@@ -147,8 +150,8 @@ if success:
                         pos = mgba.get_coordinates()
                         print(f"Warped UP to 3F East! Landing position: {pos}")
                         
-                        # 8. On 3F East (landing at 16, 11), walk RIGHT along Row 11 to Column 20 (OPEN in State B!)
-                        print("Walking RIGHT along Row 11 to Column 20...")
+                        # 8. On 3F East (landing at 16, 11), walk RIGHT to Column 20
+                        print("Walking RIGHT to Column 20...")
                         steps_to_col20_3f = []
                         for x in range(17, 21):
                             steps_to_col20_3f.append(("Right", {"x": x, "y": 11}))
