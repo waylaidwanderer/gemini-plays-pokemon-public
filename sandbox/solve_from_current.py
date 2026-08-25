@@ -64,38 +64,26 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Starting at (17, 6) in battle with Ponyta
-print("Starting final sequence to retrieve Secret Key...")
-
-# 1. Dismiss battle start text and run away from Ponyta
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-time.sleep(2.0)
-# Clear "Got away safely!" text
-mgba.press_buttons(["B"])
-time.sleep(0.5)
-
-pos = mgba.get_coordinates()
-print("Position after escaping battle:", pos)
-
-# 2. Walk LEFT along Row 6 to Column 1
+# Starting at (10, 6) on B1F East (State B)
+print("Starting Mansion final stage from (10, 6)...")
 success = True
-for x in range(16, 0, -1):
-    if not walk_step("Left", {"x": x, "y": 6}):
-        success = False
-        break
 
-if success:
-    # 3. Walk UP to (1, 5)
-    print("Reached Column 1! Walking UP to (1, 5)...")
-    if walk_step("Up", {"x": 1, "y": 5}):
-        # 4. Face UP towards Secret Key at (1, 4)
+# 1. Walk UP to (10, 5)
+if walk_step("Up", {"x": 10, "y": 5}):
+    # 2. Walk LEFT along Row 5 across Column 9 gate directly to Column 1
+    print("On Row 5! Walking LEFT to Column 1...")
+    for x in range(9, 0, -1):
+        if not walk_step("Left", {"x": x, "y": 5}):
+            success = False
+            break
+            
+    if success:
+        # 3. Face UP towards Secret Key at (1, 4)
         print("Facing UP towards Secret Key...")
         mgba.press_buttons(["Up"])
         time.sleep(0.3)
         
-        # 5. Press A to retrieve Secret Key
+        # 4. Press A to retrieve Secret Key
         print("Retrieving Secret Key...")
         mgba.press_buttons(["A"])
         time.sleep(1.5)
@@ -104,7 +92,7 @@ if success:
         time.sleep(1.0)
         print("Obtained Secret Key! Current position:", mgba.get_coordinates())
         
-        # 6. Use DIG to escape to Cinnabar Island!
+        # 5. Use DIG to escape to Cinnabar Island!
         print("Using DIG to escape...")
         mgba.press_buttons(["Start", "sleep 300", "Down", "A", "sleep 300"])
         for _ in range(5):
@@ -113,4 +101,4 @@ if success:
         time.sleep(3.0)
         print("Warped out successfully! Final position:", mgba.get_coordinates())
 else:
-    print("Failed to navigate to B1F West.")
+    print("Failed to navigate to (10, 5).")
