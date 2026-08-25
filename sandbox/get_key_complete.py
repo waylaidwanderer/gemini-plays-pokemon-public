@@ -13,24 +13,27 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (12, 10) on 2F West (State A)
-# 1. Walk UP Column 12 to Row 7
-steps_up_col12 = [
-    ("Up", {"x": 12, "y": 9}),
-    ("Up", {"x": 12, "y": 8}),
-    ("Up", {"x": 12, "y": 7}),
+# Starting at (12, 11) on 2F East (State A)
+# 1. Walk LEFT to Column 11, then UP to Row 7
+steps_to_row7 = [
+    ("Left", {"x": 11, "y": 11}),
+    ("Up", {"x": 11, "y": 10}),
+    ("Up", {"x": 11, "y": 9}),
+    ("Up", {"x": 11, "y": 8}),
+    ("Up", {"x": 11, "y": 7}),
 ]
 
 success = True
-for d, c in steps_up_col12:
+for d, c in steps_to_row7:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
     # 2. Walk RIGHT along Row 7 to Column 15
-    print("Reached (12, 7)! Walking RIGHT along Row 7 to Column 15...")
+    print("Reached (11, 7)! Walking RIGHT along Row 7 to Column 15...")
     steps_right_row7 = [
+        ("Right", {"x": 12, "y": 7}),
         ("Right", {"x": 13, "y": 7}),
         ("Right", {"x": 14, "y": 7}),
         ("Right", {"x": 15, "y": 7}),
@@ -194,9 +197,8 @@ if success:
                     else:
                         print("Failed to navigate 1F East fenced room.")
                 else:
-                    print("Failed to reach (12, 12) on 3F East.")
+                    print("Failed to reach (26, 3) on 3F East.")
             else:
                 print("Failed to navigate 3F East.")
 else:
     print("Master bypass route failed or got blocked.")
-
