@@ -64,21 +64,74 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# We are at (11, 5) on Route 6. Let's walk south directly along Column 11
-# Route 6 runs from Row 5 down to Row 35
-print("Walking south along Route 6 to Vermilion City...")
-curr = mgba.get_coordinates()
+# Current position is (9, 12) on Cinnabar Island. First press B to clear the active signpost dialogue.
+print("Dismissing POKEMON LAB dialogue...")
+mgba.press_buttons(["B"])
+time.sleep(0.5)
+
+# Step 1: Walk to (18, 12)
+print("Walking to (18, 12)...")
 success = True
-for y in range(6, 36):
-    if not walk_step("Down", {"x": 11, "y": y}):
+for x in range(10, 19):
+    if not walk_step("Right", {"x": x, "y": 12}):
         success = False
         break
 
 if success:
-    print("Reached the Vermilion City map transition at (11, 35) on Route 6!")
-    # One more step down to trigger map transition into Vermilion City
-    mgba.press_buttons(["Down"])
-    time.sleep(1.5)
-    print("New map position:", mgba.get_coordinates())
+    # Step 2: Walk UP to (18, 5)
+    print("Walking UP to (18, 5)...")
+    for y in range(11, 4, -1):
+        if not walk_step("Up", {"x": 18, "y": y}):
+            success = False
+            break
+
+if success:
+    # Step 3: Walk LEFT to (6, 5)
+    print("Walking LEFT to (6, 5)...")
+    for x in range(17, 5, -1):
+        if not walk_step("Left", {"x": x, "y": 5}):
+            success = False
+            break
+
+if success:
+    # Step 4: Walk UP to (6, 3) and enter Mansion
+    print("Walking to entrance...")
+    if walk_step("Up", {"x": 6, "y": 4}):
+        if walk_step("Up", {"x": 6, "y": 3}):
+            print("At entrance. Entering Mansion 1F West...")
+            mgba.press_buttons(["Up"])
+            time.sleep(1.5)
+            pos = mgba.get_coordinates()
+            print("Entered Mansion! Position:", pos)
+            
+            # Step 5: Walk UP Column 5 inside Mansion from (5, 27) to (5, 11)
+            if pos == {"x": 5, "y": 27}:
+                print("Walking UP Column 5 to Row 11...")
+                for y in range(26, 10, -1):
+                    if not walk_step("Up", {"x": 5, "y": y}):
+                        success = False
+                        break
+                        
+                if success:
+                    # Step 6: Walk to (5, 10) stairs
+                    steps_1f_stairs = [
+                        ("Right", {"x": 6, "y": 11}),
+                        ("Right", {"x": 7, "y": 11}),
+                        ("Right", {"x": 8, "y": 11}),
+                        ("Up", {"x": 8, "y": 10}),
+                        ("Left", {"x": 7, "y": 10}),
+                        ("Left", {"x": 6, "y": 10}),
+                        ("Left", {"x": 5, "y": 10}),
+                    ]
+                    for d, c in steps_1f_stairs:
+                        if not walk_step(d, c):
+                            success = False
+                            break
+                            
+                    if success:
+                        print("At stairs (5, 10). Stepping LEFT to warp to 2F West...")
+                        mgba.press_buttons(["Left"])
+                        time.sleep(1.5)
+                        print("Landed on 2F West! Position:", mgba.get_coordinates())
 else:
-    print("Failed to reach Vermilion City transition.")
+    print("Route failed.")
