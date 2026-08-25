@@ -80,29 +80,21 @@ def main():
     
     success = True
     
-    # We are standing at (2, 13) on 3F West facing UP towards switch at (2, 12)
-    if pos == {"x": 2, "y": 13}:
-        # 1. Toggle switch to State A
-        print("At (2, 13) on 3F West! Facing UP and toggling switch to State A...")
-        mgba.press_buttons(["Up"])
-        time.sleep(0.4)
-        mgba.press_buttons(["A"]) # "A secret switch!"
-        time.sleep(0.8)
-        mgba.press_buttons(["A"]) # select YES
-        time.sleep(0.8)
-        mgba.press_buttons(["A"]) # "Pressed it!"
-        time.sleep(0.8)
-        print("Successfully toggled switch to State A!")
-        
-        # 2. Walk back to Column 7 on Row 11
-        print("Walking back to stairs at (7, 10)...")
+    # 1. We are at (5, 13) on 3F West in State A. Walk back to (7, 11) and warp DOWN.
+    if pos == {"x": 5, "y": 13}:
+        print("Walking UP Column 5 to Row 11...")
         if not run_steps([
-            ("Right", {"x": 3, "y": 13}),
-            ("Right", {"x": 4, "y": 13}),
-            ("Right", {"x": 5, "y": 13}),
-            ("Right", {"x": 6, "y": 13}),
-            ("Up", {"x": 6, "y": 12}),
-            ("Up", {"x": 6, "y": 11}),
+            ("Up", {"x": 5, "y": 12}),
+            ("Up", {"x": 5, "y": 11}),
+        ]):
+            success = False
+            
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 5, "y": 11}:
+        # Walk RIGHT along Row 11 to Column 7
+        print("Walking RIGHT along Row 11 to Column 7...")
+        if not run_steps([
+            ("Right", {"x": 6, "y": 11}),
             ("Right", {"x": 7, "y": 11}),
         ]):
             success = False
