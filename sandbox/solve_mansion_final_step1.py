@@ -156,39 +156,24 @@ def main():
             return
         pos = mgba.get_coordinates()
 
-    # From (12, 12) we jump DOWN the ledge to (12, 14) and walk Row 14 bypass to the Mansion
+    # From (12, 12) we walk Row 9 bypass to the Mansion
     if pos == {"x": 12, "y": 12}:
-        print("Walking to Pokemon Mansion Entrance from (12, 12) via Row 14 ledge bypass...")
+        print("Walking to Pokemon Mansion Entrance from (12, 12) via Row 9 bypass...")
         if not run_steps([
-            ("Down", {"x": 12, "y": 14}), # Ledge jump! Lands directly on Row 14.
-            ("Right", {"x": 13, "y": 14}),
-            ("Right", {"x": 14, "y": 14}),
-            ("Right", {"x": 15, "y": 14}),
-            ("Right", {"x": 16, "y": 14}),
-            ("Right", {"x": 17, "y": 14}),
-            ("Right", {"x": 18, "y": 14}),
-            ("Up", {"x": 18, "y": 13}),
-            ("Up", {"x": 18, "y": 12}),
-            ("Up", {"x": 18, "y": 11}),
-            ("Up", {"x": 18, "y": 10}),
-            ("Up", {"x": 18, "y": 9}),
-            ("Up", {"x": 18, "y": 8}),
-            ("Up", {"x": 18, "y": 7}),
-            ("Up", {"x": 18, "y": 6}),
-            ("Up", {"x": 18, "y": 5}),
-            ("Up", {"x": 18, "y": 4}),
-            ("Left", {"x": 17, "y": 4}), # Directly walk left along Row 4!
-            ("Left", {"x": 16, "y": 4}),
-            ("Left", {"x": 15, "y": 4}),
-            ("Left", {"x": 14, "y": 4}),
-            ("Left", {"x": 13, "y": 4}),
-            ("Left", {"x": 12, "y": 4}),
-            ("Left", {"x": 11, "y": 4}),
-            ("Left", {"x": 10, "y": 4}),
-            ("Left", {"x": 9, "y": 4}),
-            ("Left", {"x": 8, "y": 4}),
-            ("Left", {"x": 7, "y": 4}),
-            ("Left", {"x": 6, "y": 4}),
+            ("Up", {"x": 12, "y": 11}),
+            ("Up", {"x": 12, "y": 10}),
+            ("Up", {"x": 12, "y": 9}),
+            ("Left", {"x": 11, "y": 9}),
+            ("Left", {"x": 10, "y": 9}),
+            ("Left", {"x": 9, "y": 9}),
+            ("Left", {"x": 8, "y": 9}),
+            ("Left", {"x": 7, "y": 9}),
+            ("Left", {"x": 6, "y": 9}),
+            ("Up", {"x": 6, "y": 8}),
+            ("Up", {"x": 6, "y": 7}),
+            ("Up", {"x": 6, "y": 6}),
+            ("Up", {"x": 6, "y": 5}),
+            ("Up", {"x": 6, "y": 4}),
             ("Up", {"x": 6, "y": 3}),
         ]):
             print("Failed to reach Mansion doorway.")
