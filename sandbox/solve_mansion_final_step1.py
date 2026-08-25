@@ -81,11 +81,15 @@ def main():
     # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Left Bypass Route) ---
     print("Walking to Pokemon Mansion Entrance...")
     if not run_steps([
-        ("Down", {"x": 10, "y": 8}),
-        ("Down", {"x": 10, "y": 9}),
-        ("Down", {"x": 10, "y": 10}),
-        ("Down", {"x": 10, "y": 11}),
-        ("Down", {"x": 10, "y": 12}),
+        ("Right", {"x": 11, "y": 7}),
+        ("Right", {"x": 12, "y": 7}),
+        ("Down", {"x": 12, "y": 8}),
+        ("Down", {"x": 12, "y": 9}),
+        ("Down", {"x": 12, "y": 10}),
+        ("Down", {"x": 12, "y": 11}),
+        ("Down", {"x": 12, "y": 12}),
+        ("Left", {"x": 11, "y": 12}),
+        ("Left", {"x": 10, "y": 12}),
         ("Left", {"x": 9, "y": 12}),
         ("Left", {"x": 8, "y": 12}),
         ("Left", {"x": 7, "y": 12}),
