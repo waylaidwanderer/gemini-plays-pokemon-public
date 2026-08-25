@@ -80,30 +80,39 @@ def main():
     
     success = True
     
-    # We are at (2, 13) on 3F West in State B
-    if pos == {"x": 2, "y": 13}:
-        print("STAGE 6e: Walking to Column 10 Row 11 bypassing NPC via Row 14...")
+    # We are at (7, 14) on 3F West
+    if pos == {"x": 7, "y": 14}:
+        print("STAGE 6f: Walking LEFT along Row 14 and UP Column 5...")
         if not run_steps([
-            ("Right", {"x": 3, "y": 13}),
-            ("Right", {"x": 4, "y": 13}),
-            ("Right", {"x": 5, "y": 13}),
-            ("Down", {"x": 5, "y": 14}),
-            ("Right", {"x": 6, "y": 14}),
-            ("Right", {"x": 7, "y": 14}),
-            ("Right", {"x": 8, "y": 14}),
-            ("Right", {"x": 9, "y": 14}),
-            ("Right", {"x": 10, "y": 14}),
+            ("Left", {"x": 6, "y": 14}),
+            ("Left", {"x": 5, "y": 14}),
+            ("Up", {"x": 5, "y": 13}),
+            ("Up", {"x": 5, "y": 12}),
+            ("Up", {"x": 5, "y": 11}),
         ]):
             success = False
             
     pos = mgba.get_coordinates()
-    if success and pos == {"x": 10, "y": 14}:
-        print("Walking UP Column 10 to Row 7...")
-        for y in range(13, 6, -1):
-            if not walk_step("Up", {"x": 10, "y": y}):
+    if success and pos == {"x": 5, "y": 11}:
+        print("Walking RIGHT along Row 11 to Column 10...")
+        for x in range(6, 11):
+            if not walk_step("Right", {"x": x, "y": 11}):
                 success = False
                 break
                 
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 10, "y": 11}:
+        print("Walking UP Column 10 to Row 7...")
+        for y in range(13, 6, -1): # Wait, we are at (10, 11). Walk UP to Row 7 is 10, 9, 8, 7!
+            pass # Wait, let's just do direct steps
+        if not run_steps([
+            ("Up", {"x": 10, "y": 10}),
+            ("Up", {"x": 10, "y": 9}),
+            ("Up", {"x": 10, "y": 8}),
+            ("Up", {"x": 10, "y": 7}),
+        ]):
+            success = False
+            
     pos = mgba.get_coordinates()
     if success and pos == {"x": 10, "y": 7}:
         print("Walking RIGHT along Row 7 to Column 19 on 3F East...")
