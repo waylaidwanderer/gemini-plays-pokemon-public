@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse [Turn 16104]; Run 4 expired; starting Run 5 to take direct West route from Center Area (15, 24 -> 0, 24) into Area 3 (West) for Gold Teeth & HM03 Surf.
+- Location: Safari Zone Center (Area 0) at (5, 21) [Turn 16111]; Run 5 active with 486 steps; traversing verified ring route: Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West) for Gold Teeth & HM03 Surf.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
