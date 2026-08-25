@@ -13,48 +13,38 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# We are starting at (12, 11) on 2F East (State B)
-# 1. Walk UP Column 12 to Row 3
-steps_up_col12 = [
-    ("Up", {"x": 12, "y": 10}),
-    ("Up", {"x": 12, "y": 9}),
-    ("Up", {"x": 12, "y": 8}),
-    ("Up", {"x": 12, "y": 7}),
-    ("Up", {"x": 12, "y": 6}),
-    ("Up", {"x": 12, "y": 5}),
-    ("Up", {"x": 12, "y": 4}),
-    ("Up", {"x": 12, "y": 3}),
+# Starting at our current position (14, 3) on 2F (State B)
+# 1. Walk DOWN Column 14 to Row 6
+steps_down_col14 = [
+    ("Down", {"x": 14, "y": 4}),
+    ("Down", {"x": 14, "y": 5}),
+    ("Down", {"x": 14, "y": 6}),
 ]
 
 success = True
-for d, c in steps_up_col12:
+for d, c in steps_down_col14:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    # 2. Walk RIGHT along Row 3 to Column 18
-    print("Reached (12, 3)! Walking RIGHT along Row 3 to Column 18...")
-    steps_right_row3 = [
-        ("Right", {"x": 13, "y": 3}),
-        ("Right", {"x": 14, "y": 3}),
-        ("Right", {"x": 15, "y": 3}),
-        ("Right", {"x": 16, "y": 3}),
-        ("Right", {"x": 17, "y": 3}),
-        ("Right", {"x": 18, "y": 3}),
+    # 2. Walk RIGHT along Row 6 to Column 18
+    print("Reached (14, 6)! Walking RIGHT along Row 6 to Column 18...")
+    steps_right_row6 = [
+        ("Right", {"x": 15, "y": 6}),
+        ("Right", {"x": 16, "y": 6}),
+        ("Right", {"x": 17, "y": 6}),
+        ("Right", {"x": 18, "y": 6}),
     ]
-    for d, c in steps_right_row3:
+    for d, c in steps_right_row6:
         if not walk_step(d, c):
             success = False
             break
 
 if success:
     # 3. Walk DOWN Column 18 to Row 11
-    print("Reached (18, 3)! Walking DOWN Column 18 to Row 11...")
+    print("Reached (18, 6)! Walking DOWN Column 18 to Row 11...")
     steps_down_col18 = [
-        ("Down", {"x": 18, "y": 4}),
-        ("Down", {"x": 18, "y": 5}),
-        ("Down", {"x": 18, "y": 6}),
         ("Down", {"x": 18, "y": 7}),
         ("Down", {"x": 18, "y": 8}),
         ("Down", {"x": 18, "y": 9}),
