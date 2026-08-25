@@ -43,8 +43,8 @@
 
 ## Inventory & Resources (Verified Turn 15241)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Bag Capacity: 16 / 20 slots used (4 empty slots available)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, TM10 (Double-Edge) x1, Lift Key, HM02 (Fly), Rare Candy x1, Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
+- Bag Capacity: 18 / 20 slots used (2 empty slots available for Gold Teeth & HM03 Surf)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥28,428+
 

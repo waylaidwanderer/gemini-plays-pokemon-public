@@ -1,24 +1,24 @@
-# Safari Zone Routing & Objectives (Master Strategy)
+# Safari Zone Master Routing & Strategy (Run 4)
 
-## Topology & Direct Route to Area 3 (West)
-- **Gatehouse**: Fuchsia City (18, 3) -> pay ¥500 -> enter Center Area at (15, 25).
-- **Direct West Boulevard to Area 3**: From (15, 25) in Safari Zone Center, walking straight WEST across rows 23-25 directly reaches the western gate (col 0) into Safari Zone West (Area 3) in only ~20-25 steps!
-- **Budget**: Enters Area 3 with 475+ steps remaining!
+## Verified Route to Area 3 (West)
+1. **Center Area (Area 0)**: Exit East at (29, 10) into Area 1 (East). (Center col 0 has no west exit due to solid bush wall).
+2. **Area 1 (East)**:
+   - Enter at (0, 22).
+   - Walk east along row 22 to (12, 22) and ascend Lower Ridge stairs at (12, 21).
+   - Follow ridge north across rows 20 -> 7.
+   - Descend Upper Ridge stairs at (17, 7) onto northern lawn (rows 1-8).
+   - Walk west across northern lawn (row 5) to northwest exit at (0, 5) into Area 2 (North).
+3. **Area 2 (North)**:
+   - Enter at (39, 31).
+   - Walk west across southern corridor / northern thoroughfare to western exit into Area 3 (West).
+4. **Area 3 (West)**:
+   - Retrieve **Gold Teeth** on south clearing.
+   - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
 
-## Bag Space Prerequisite
-- Bag is currently full (20/20).
-- Open START -> ITEM:
-  1. Use Protein on HYDROS (Blastoise) -> frees 1 slot.
-  2. Use Rare Candy on HYDROS (Blastoise Lv 51 -> Lv 52) -> frees 1 slot.
-  3. (Optional) Toss X Accuracy -> frees 1 slot.
+## Step Budget Tracker (Run 4)
+- Current: Turn 16021 at (24, 15) with ~425 steps remaining.
+- Estimated steps to reach Area 3: ~80 steps.
+- Estimated arrival in Area 3: ~345 steps remaining (huge surplus).
 
-## Area 3 (West) Action Checklist
-1. Retrieve **Gold Teeth** on the south clearing.
-2. Enter **Secret House** in northwest of Area 3 and speak to attendant to receive **HM03 (Surf)**.
-
-## Post-Safari Progression
-1. Fly/walk to Warden's House at (27, 27) in Fuchsia City.
-2. Trade Gold Teeth for **HM04 (Strength)**.
-3. Push boulder inside Warden's house for Rare Candy.
-4. Teach Surf to HYDROS.
-5. Defeat Gym Leader Koga in Fuchsia Gym for Soul Badge.
+## Bag Space
+- 2 empty slots available (Rare Candy and TM10 consumed; Double-Edge taught to HYDROS Lv 52).

@@ -27,7 +27,6 @@
 ## Area 2 (North) Topology & Verified Landmarks
 - East Entrance: (39, 31) from Area 1 (East) [Entered Turn 15614].
 - South Boundary: Stepping south across row 36 (verified at cols 2 and 20) warps back to Safari Zone Center at (20, 0) [Turns 15718, 15776].
-## Area 2 (North) Verified Landmarks & Traversal Notes
-- South Boundary (row 36): Steps south into Safari Zone Center at (20, 0).
+## Area 2 (North) Traversal Notes
 - Plateau stairs: (22, 23) ascents onto central plateau (row 22); (16, 27) descents south to ground at (16, 28).
 - Northern Thoroughfare (rows 1-3): Spans east-west across northern border of Area 2 (accessed at col 28/35).
