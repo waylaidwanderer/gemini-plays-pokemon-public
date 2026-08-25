@@ -64,82 +64,35 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Starting at (11, 5) in Saffron City
-print("Starting walk out of Saffron City...")
+# Starting at (8, 11) in Saffron City
+print("Starting Saffron South-Gate Bypass Walk...")
 success = True
 
-# 1. Walk RIGHT to Column 37 (the eastern vertical street)
-print("Walking RIGHT along Row 5 to Column 37...")
-for x in range(12, 38):
-    if not walk_step("Right", {"x": x, "y": 5}):
+# 1. Walk DOWN Column 8 to Row 30
+print("Walking DOWN Column 8 to Row 30...")
+for y in range(12, 31):
+    if not walk_step("Down", {"x": 8, "y": y}):
         success = False
         break
 
 if success:
-    # 2. Walk DOWN Column 37 to Row 11 (just before the first decorative post at (37, 12))
-    print("Walking DOWN Column 37 to Row 11...")
-    for y in range(6, 12):
-        if not walk_step("Down", {"x": 37, "y": y}):
+    # 2. Walk RIGHT along Row 30 to Column 18
+    print("Reached (8, 30)! Walking RIGHT to Column 18...")
+    for x in range(9, 19):
+        if not walk_step("Right", {"x": x, "y": 30}):
             success = False
             break
 
 if success:
-    # 3. Bypass post at (37, 12)
-    # Bypass: Walk right to (38, 11), down 2 steps to (38, 13), left to (37, 13)
-    print("Bypassing first decorative post...")
-    bypass_1 = [
-        ("Right", {"x": 38, "y": 11}),
-        ("Down", {"x": 38, "y": 12}),
-        ("Down", {"x": 38, "y": 13}),
-        ("Left", {"x": 37, "y": 13}),
-    ]
-    for d, c in bypass_1:
-        if not walk_step(d, c):
-            success = False
-            break
-
-if success:
-    # 4. Walk DOWN Column 37 to Row 18 (just before the second decorative post at (37, 19))
-    print("Walking DOWN Column 37 to Row 18...")
-    for y in range(14, 19):
-        if not walk_step("Down", {"x": 37, "y": y}):
-            success = False
-            break
-
-if success:
-    # 5. Bypass post at (37, 19)
-    # Bypass: Walk left to (36, 18), down 2 steps to (36, 20), right to (37, 20)
-    print("Bypassing second decorative post...")
-    bypass_2 = [
-        ("Left", {"x": 36, "y": 18}),
-        ("Down", {"x": 36, "y": 19}),
-        ("Down", {"x": 36, "y": 20}),
-        ("Right", {"x": 37, "y": 20}),
-    ]
-    for d, c in bypass_2:
-        if not walk_step(d, c):
-            success = False
-            break
-
-if success:
-    # 6. Walk DOWN Column 37 to Row 30
-    print("Walking DOWN Column 37 to Row 30...")
-    for y in range(21, 31):
-        if not walk_step("Down", {"x": 37, "y": y}):
-            success = False
-            break
-
-if success:
-    # 7. Walk LEFT along Row 30 to Column 18
-    print("Walking LEFT along Row 30 to Column 18...")
-    for x in range(36, 17, -1):
-        if not walk_step("Left", {"x": x, "y": 30}):
-            success = False
-            break
-
-if success:
-    print("Successfully navigated to (18, 30) near Saffron South Gatehouse!")
-    # Saffron South Gatehouse is located at (18, 31). Let's step DOWN to enter!
+    print("Reached (18, 30) Saffron South Gatehouse! Stepping DOWN to enter...")
     mgba.press_buttons(["Down"])
     time.sleep(1.5)
-    print("New position inside Gatehouse:", mgba.get_coordinates())
+    print("Warped into Gatehouse! Current position:", mgba.get_coordinates())
+    
+    # 3. Step DOWN through Gatehouse to exit Saffron City to Route 6
+    print("Stepping DOWN to exit Saffron City to Route 6...")
+    mgba.press_buttons(["Down"])
+    time.sleep(1.5)
+    print("Warped out onto Route 6! Position:", mgba.get_coordinates())
+else:
+    print("Failed during Saffron South Gate bypass.")
