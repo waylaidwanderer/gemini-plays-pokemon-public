@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (22, 24) [Turn 15906]; fleeing Venomoth and ascending central plateau at (22, 23) to navigate west towards Area 3 with ~240 steps budget.
+- Location: Safari Zone Area 2 (North) at (16, 22) [Turn 15911]; surveying western/northern plateau connections towards Area 3 (West) with ~232 steps budget.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -1779,15 +1779,16 @@
 
 ## Step Budget
 - Initial Budget: 500 steps
-- Steps Expended so far: 260 steps (Turn 15906)
-- Steps Remaining at (22, 24) in Area 2: ~240 steps
+- Steps Expended so far: 268 steps (Turn 15911)
+- Steps Remaining at (16, 22) in Area 2: ~232 steps
 - Target: Reach Area 3 (West) connection and locate Gold Teeth & Secret House (HM03 Surf).
 
 ## Area 2 (North) Topography & Plan
-- Reached (22, 24) directly below central plateau stairs at (22, 23).
-- Flee wild Venomoth encounter.
-- Step Up to (22, 23) (stairs) and (22, 22) (plateau).
-- Systematically survey and navigate the wide plateau (rows 21-23, cols 18-24 and west) towards the Area 3 (West) connection.
+- Ascended central plateau at (22, 23) and reached (16, 22).
+- Plateau spans rows 20-26, cols 15-24.
+- Open green lawn visible at rows 18-21 (cols 12-14) to the northwest.
+- Descent stairs at (16, 27) lead south to (16, 28).
+- Plan: Probing northern/northwestern edge of plateau at (16, 20) to identify the optimal path into western Area 2 and Area 3 (West).
 
 
 <hr>
