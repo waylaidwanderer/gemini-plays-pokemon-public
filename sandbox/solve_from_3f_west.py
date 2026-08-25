@@ -70,25 +70,41 @@ def walk_step(direction, expected_coords, retries=15):
 # Starting at (1, 10) on 3F West (State B)
 success = True
 
-# 1. Walk RIGHT along Row 10 to Column 5
-print("Walking RIGHT along Row 10 to Column 5...")
-steps_right_row10 = [
-    ("Right", {"x": 2, "y": 10}),
-    ("Right", {"x": 3, "y": 10}),
-    ("Right", {"x": 4, "y": 10}),
-    ("Right", {"x": 5, "y": 10}),
+# 1. Walk DOWN Column 1 to Row 13
+print("Walking DOWN Column 1 to Row 13...")
+steps_down_col1 = [
+    ("Down", {"x": 1, "y": 11}),
+    ("Down", {"x": 1, "y": 12}),
+    ("Down", {"x": 1, "y": 13}),
 ]
-for d, c in steps_right_row10:
+for d, c in steps_down_col1:
     if not walk_step(d, c):
         success = False
         break
 
 if success:
-    # 2. Walk UP Column 5 to Row 6 (Row 9 Column 5 is open!)
-    print("Reached (5, 10)! Walking UP Column 5 to Row 6...")
+    # 2. Walk RIGHT Row 13 to Column 5
+    print("Reached (1, 13)! Walking RIGHT along Row 13 to Column 5...")
+    steps_right_row13 = [
+        ("Right", {"x": 2, "y": 13}),
+        ("Right", {"x": 3, "y": 13}),
+        ("Right", {"x": 4, "y": 13}),
+        ("Right", {"x": 5, "y": 13}),
+    ]
+    for d, c in steps_right_row13:
+        if not walk_step(d, c):
+            success = False
+            break
+
+if success:
+    # 3. Walk UP Column 5 to Row 6 (Row 9 Column 5 gate is open in State B!)
+    print("Reached (5, 13)! Walking UP Column 5 to Row 6...")
     steps_up_col5 = [
-        ("Up", {"x": 5, "y": 9}), # Open!
-        ("Up", {"x": 5, "y": 8}), # Open!
+        ("Up", {"x": 5, "y": 12}),
+        ("Up", {"x": 5, "y": 11}),
+        ("Up", {"x": 5, "y": 10}),
+        ("Up", {"x": 5, "y": 9}),  # Open gate in State B!
+        ("Up", {"x": 5, "y": 8}),
         ("Up", {"x": 5, "y": 7}),
         ("Up", {"x": 5, "y": 6}),
     ]
@@ -98,7 +114,7 @@ if success:
             break
 
 if success:
-    # 3. Walk RIGHT along Row 6 to Column 20 on 3F East (permanently open crossing)
+    # 4. Walk RIGHT along Row 6 across Column 10 to Column 20 on 3F East (permanently open crossing)
     print("Reached (5, 6)! Walking RIGHT to Column 20...")
     steps_right_row6 = []
     for x in range(6, 21):
@@ -109,7 +125,7 @@ if success:
             break
 
 if success:
-    # 4. Walk UP Column 20 to Row 3 (bypassing pitfalls on Rows 5/6)
+    # 5. Walk UP Column 20 to Row 3 (bypassing pitfalls on Rows 5/6)
     print("Reached (20, 6)! Walking UP Column 20 to Row 3...")
     steps_up_col20 = [
         ("Up", {"x": 20, "y": 5}),
@@ -122,7 +138,7 @@ if success:
             break
 
 if success:
-    # 5. Walk RIGHT along Row 3 to Column 26
+    # 6. Walk RIGHT along Row 3 to Column 26
     print("Reached (20, 3)! Walking RIGHT along Row 3 to Column 26...")
     steps_right_row3_3f = [
         ("Right", {"x": 21, "y": 3}),
@@ -138,14 +154,14 @@ if success:
             break
             
     if success:
-        # 6. Step DOWN onto Column 26 to fall through pit
+        # 7. Step DOWN onto Column 26 to fall through pit
         print("Reached (26, 3)! Stepping DOWN to trigger pitfall...")
         mgba.press_buttons(["Down"])
         time.sleep(2.0) # wait for drop animation
         pos = mgba.get_coordinates()
         print(f"Landed on 1F East inside fenced room! Position: {pos}")
         
-        # 7. On 1F East fenced room, walk UP to (26, 3), LEFT to (22, 3), UP onto stairs at (22, 2)
+        # 8. On 1F East fenced room, walk UP to (26, 3), LEFT to (22, 3), UP onto stairs at (22, 2)
         steps_1f_east = [
             ("Up", {"x": 26, "y": 3}),
             ("Left", {"x": 25, "y": 3}),
@@ -165,7 +181,7 @@ if success:
             pos = mgba.get_coordinates()
             print(f"Warped DOWN to B1F East! Landing position: {pos}")
             
-            # 8. On B1F East (State B)
+            # 9. On B1F East (State B)
             if pos == {"x": 22, "y": 3}:
                 steps_b1f = [
                     ("Left", {"x": 21, "y": 3}),
@@ -199,7 +215,7 @@ if success:
                         pos = mgba.get_coordinates()
                         print(f"Secret Key retrieved successfully! Current position: {pos}")
                         
-                        # 9. Use DIG to escape to Cinnabar Island!
+                        # 10. Use DIG to escape to Cinnabar Island!
                         print("Using DIG to escape...")
                         mgba.press_buttons(["Start", "sleep 300", "Down", "A", "sleep 300"]) # opens PKMN menu
                         for _ in range(5):
