@@ -80,16 +80,23 @@ def main():
     
     success = True
     
-    # We are at (15, 7) on 2F East in State A
-    if pos == {"x": 15, "y": 7}:
-        print("STAGE 3b (State A): Walking around the closed (15, 8) gate via Column 18...")
+    # We are at (12, 9) on 2F East/Center in State A
+    if pos == {"x": 12, "y": 9}:
+        print("STAGE 3b (State A): Walking UP Column 12 to Row 7...")
         if not run_steps([
-            ("Right", {"x": 16, "y": 7}),
-            ("Right", {"x": 17, "y": 7}),
-            ("Right", {"x": 18, "y": 7}),
+            ("Up", {"x": 12, "y": 8}),
+            ("Up", {"x": 12, "y": 7}),
         ]):
             success = False
             
+    pos = mgba.get_coordinates()
+    if success and pos == {"x": 12, "y": 7}:
+        print("Walking RIGHT along Row 7 to Column 18...")
+        for x in range(13, 19):
+            if not walk_step("Right", {"x": x, "y": 7}):
+                success = False
+                break
+                
     pos = mgba.get_coordinates()
     if success and pos == {"x": 18, "y": 7}:
         print("Walking DOWN Column 18 to Row 11...")
