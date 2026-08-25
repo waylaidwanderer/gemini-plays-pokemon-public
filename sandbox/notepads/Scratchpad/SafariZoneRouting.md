@@ -1,20 +1,17 @@
-# Safari Zone Master Routing & Strategy (Run 6 - Verified Ring Route)
+# Safari Zone Master Routing & Strategy (Run 7 - Master Execution Blueprint)
 
-## Verified Ring Route to Area 3 (West)
-1. **Safari Zone Center (Area 0)** [Completed]:
-   - Gatehouse (15, 24) -> (29, 10) east exit into Area 1 (East). (Direct west cols 0-1 empirically verified solid wall).
-2. **Safari Zone Area 1 (East)** (Current Position: (24, 20) with ~300 steps remaining):
-   - From eastern clearing (24, 20): walk south to (20, 21) lower ridge stairs.
-   - Cross lower ridge: (20, 20) -> (12, 20) -> descend stairs at (12, 21) to (12, 22).
-   - Walk west to col 9 at (9, 22).
-   - Walk north along col 9 western corridor: (9, 22) -> (9, 13) -> (9, 5).
-   - Walk west along row 5 northern avenue: (9, 5) -> (0, 5) into Area 2 (North) at (39, 31) (~45 steps).
-3. **Safari Zone Area 2 (North)** (~255 steps remaining):
-   - From (39, 31), walk west to (28, 31), north up col 28 to row 2 Northern Thoroughfare at (28, 2).
-   - Sprint west along row 2 to (1, 2), south down col 1 to Area 3 (West) at (0, 30..35) (~60 steps).
-4. **Safari Zone Area 3 (West)** (~195 steps remaining):
-   - Retrieve **Gold Teeth** on southern clearing.
-   - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
+## Master Verified Route to Area 3 (West) - ~293 Steps Remaining for Objectives!
+1. **Safari Zone Center (Area 0)** (28 steps):
+   - From (15, 24): Up 3 to (15, 21) -> Right 10 to (25, 21) -> Up 11 to (25, 10) -> Right 4 to (29, 10) into Area 1 (East).
+2. **Safari Zone Area 1 (East)** (54 steps):
+   - From (0, 22): Right 12 to (12, 22) -> Up 2 to (12, 20) -> Right 5 to (17, 20) -> Down 2 to (17, 8) -> Right 3 to (20, 8) -> Up 6 to (20, 2) -> Left 13 to (7, 2) -> Down 3 to (7, 5) -> Left 8 to (0, 5) into Area 2 (North).
+3. **Safari Zone Area 2 (North)** (125 steps):
+   - From (39, 31): Left 11 to (28, 31) -> Down 2 to (28, 29) -> Left 6 to (22, 29) -> Up 6 to (22, 23) -> Up 1, Left 4, Down 5, Left 2, Down 1 to (16, 28) -> Left 4 to (12, 28) -> Down 2 to (12, 30) -> Left 6 to (6, 30) -> Up 10 to (6, 20) -> Right 4 to (10, 20) -> Up 6 to (10, 14) -> Right 2 to (12, 14) -> Up 8 to (12, 6) -> Right 16 to (28, 6) -> Up 4 to (28, 2) -> Left 27 to (1, 2) -> Down to Area 3 (West).
+4. **Safari Zone Area 3 (West)** (~293 steps remaining):
+   - Retrieve **Gold Teeth** on ground.
+   - Enter **Secret House** in northwest and receive **HM03 (Surf)**.
+5. **Fuchsia City Delivery**:
+   - Exit Safari Zone, visit Warden's House at (27, 27) in Fuchsia City to trade Gold Teeth for **HM04 (Strength)**.
 
 ## Objectives & Bag Space
 - Bag capacity: 18 / 20 used (2 empty slots ready for Gold Teeth & HM03 Surf).
