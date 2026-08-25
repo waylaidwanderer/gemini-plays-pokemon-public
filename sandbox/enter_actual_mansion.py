@@ -13,45 +13,15 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.2)
     return False
 
-# Starting at (7, 10) on Cinnabar Island
-# Walk DOWN to Row 12, then RIGHT to Column 18, then UP to Row 5, and LEFT to Column 6
+# Starting at (11, 5) on Cinnabar Island
+# Walk UP to Row 4, Left to Column 6 on Row 4, and UP to (6, 3) to enter actual Mansion
 steps = [
-    ("Down", {"x": 7, "y": 11}),
-    ("Down", {"x": 7, "y": 12}),
-    ("Right", {"x": 8, "y": 12}),
-    ("Right", {"x": 9, "y": 12}),
-    ("Right", {"x": 10, "y": 12}),
-    ("Right", {"x": 11, "y": 12}),
-    ("Right", {"x": 12, "y": 12}),
-    ("Right", {"x": 13, "y": 12}),
-    ("Right", {"x": 14, "y": 12}),
-    ("Right", {"x": 15, "y": 12}),
-    ("Right", {"x": 16, "y": 12}),
-    ("Right", {"x": 17, "y": 12}),
-    ("Right", {"x": 18, "y": 12}),
-    # Walk UP Column 18 past the fence
-    ("Up", {"x": 18, "y": 11}),
-    ("Up", {"x": 18, "y": 10}),
-    ("Up", {"x": 18, "y": 9}),
-    ("Up", {"x": 18, "y": 8}),
-    ("Up", {"x": 18, "y": 7}),
-    ("Up", {"x": 18, "y": 6}),
-    ("Up", {"x": 18, "y": 5}),
-    # Walk LEFT along Row 5 to Column 6
-    ("Left", {"x": 17, "y": 5}),
-    ("Left", {"x": 16, "y": 5}),
-    ("Left", {"x": 15, "y": 5}),
-    ("Left", {"x": 14, "y": 5}),
-    ("Left", {"x": 13, "y": 5}),
-    ("Left", {"x": 12, "y": 5}),
-    ("Left", {"x": 11, "y": 5}),
-    ("Left", {"x": 10, "y": 5}),
-    ("Left", {"x": 9, "y": 5}),
-    ("Left", {"x": 8, "y": 5}),
-    ("Left", {"x": 7, "y": 5}),
-    ("Left", {"x": 6, "y": 5}),
-    # Walk UP Column 6 to door at (6, 3)
-    ("Up", {"x": 6, "y": 4}),
+    ("Up", {"x": 11, "y": 4}),
+    ("Left", {"x": 10, "y": 4}),
+    ("Left", {"x": 9, "y": 4}),
+    ("Left", {"x": 8, "y": 4}),
+    ("Left", {"x": 7, "y": 4}),
+    ("Left", {"x": 6, "y": 4}),
     ("Up", {"x": 6, "y": 3}),
 ]
 
