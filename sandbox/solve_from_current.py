@@ -107,23 +107,48 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver from current position:", pos)
     
-    # We must be at (3, 11) or (2, 12) on 3F West
-    if pos != {"x": 3, "y": 11} and pos != {"x": 2, "y": 12}:
-        print("Error: Player is not at (3, 11) or (2, 12)!")
+    # We must be at (3, 11) or (2, 12) or (1, 12) on 3F West
+    valid_positions = [{"x": 3, "y": 11}, {"x": 2, "y": 12}, {"x": 1, "y": 12}]
+    if pos not in valid_positions:
+        print("Error: Player is not at a valid starting position!")
         return
 
+    # --- STAGE 0c: If we start at (1, 12) on 3F West (already in State B) ---
+    if pos == {"x": 1, "y": 12}:
+        print("At (1, 12) in State B. Navigating to Column 10 Row 9...")
+        if not run_steps([
+            ("Down", {"x": 1, "y": 13}),
+            ("Right", {"x": 2, "y": 13}),
+            ("Right", {"x": 3, "y": 13}),
+            ("Right", {"x": 4, "y": 13}),
+            ("Right", {"x": 5, "y": 13}),
+            ("Right", {"x": 6, "y": 13}),
+            ("Up", {"x": 6, "y": 12}),
+            ("Up", {"x": 6, "y": 11}),
+            ("Right", {"x": 7, "y": 11}),
+            ("Right", {"x": 8, "y": 11}),
+            ("Right", {"x": 9, "y": 11}),
+            ("Right", {"x": 10, "y": 11}),
+            ("Up", {"x": 10, "y": 10}),
+            ("Up", {"x": 10, "y": 9}),
+        ]):
+            print("Failed to reach Column 10 Row 9.")
+            return
+        pos = mgba.get_coordinates()
+
     # --- STAGE 1: Walk to the Switch standing position at (2, 13) ---
-    print("At (3, 11). Walking around to switch standing position at (2, 13)...")
-    if not run_steps([
-        ("Left", {"x": 2, "y": 11}),
-        ("Left", {"x": 1, "y": 11}),
-        ("Down", {"x": 1, "y": 12}),
-        ("Down", {"x": 1, "y": 13}),
-        ("Right", {"x": 2, "y": 13}),
-    ]):
-        print("Failed to reach (2, 13).")
-        return
-    pos = mgba.get_coordinates()
+    if pos == {"x": 3, "y": 11}:
+        print("At (3, 11). Walking around to switch standing position at (2, 13)...")
+        if not run_steps([
+            ("Left", {"x": 2, "y": 11}),
+            ("Left", {"x": 1, "y": 11}),
+            ("Down", {"x": 1, "y": 12}),
+            ("Down", {"x": 1, "y": 13}),
+            ("Right", {"x": 2, "y": 13}),
+        ]):
+            print("Failed to reach (2, 13).")
+            return
+        pos = mgba.get_coordinates()
 
     # --- STAGE 2: Toggle Switch to State B ---
     if pos == {"x": 2, "y": 13}:
@@ -141,7 +166,7 @@ def main():
         print("Successfully toggled switch to State B!")
         pos = mgba.get_coordinates()
 
-    # --- STAGE 3: Walk from (2, 12) to Column 10 Row 9 ---
+    # --- STAGE 3: Walk from switch to Column 10 Row 9 ---
     if pos == {"x": 2, "y": 12}:
         print("Navigating from switch (2, 12) to Column 10 Row 9...")
         if not run_steps([
