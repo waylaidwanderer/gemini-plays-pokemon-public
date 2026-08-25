@@ -69,25 +69,22 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-# Start at current position on 3F West (should be 2, 12)
+# Start at current position on 3F West
 pos = mgba.get_coordinates()
 print(f"Starting from 3F West position: {pos}")
 
 success = True
 
-# 1. Walk to Column 6 Row 13
-steps_to_col6 = [
-    ("Down", {"x": 2, "y": 13}),
-    ("Right", {"x": 3, "y": 13}),
-    ("Right", {"x": 4, "y": 13}),
-    ("Right", {"x": 5, "y": 13}),
-    ("Right", {"x": 6, "y": 13}),
-]
-for d, c in steps_to_col6:
-    if not walk_step(d, c):
-        success = False
-        break
-        
+# Dynamically walk to (6, 13) along Row 13
+if pos['y'] == 13 and pos['x'] < 6:
+    print(f"Aligning horizontally on Row 13 from {pos} to (6, 13)...")
+    curr_x = pos['x']
+    while curr_x < 6:
+        if not walk_step("Right", {"x": curr_x + 1, "y": 13}):
+            success = False
+            break
+        curr_x = mgba.get_coordinates()['x']
+
 if success:
     # 2. Walk UP Column 6 past Row 9 (now open in State B!) to Row 6
     steps_up_col6 = [
