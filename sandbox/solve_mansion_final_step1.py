@@ -107,7 +107,7 @@ def use_dig():
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting master solver step 1 from Cinnabar Island:", pos)
+    print("Starting master solver step 1, current coords:", pos)
     
     valid_positions = [{"x": 10, "y": 5}, {"x": 10, "y": 7}, {"x": 11, "y": 12}, {"x": 12, "y": 12}]
     if pos not in valid_positions:
@@ -156,17 +156,18 @@ def main():
             return
         pos = mgba.get_coordinates()
 
-    # From (12, 12) we walk Row 13 bypass to the Mansion
+    # From (12, 12) we jump DOWN the ledge to (12, 14) and walk Row 14 bypass to the Mansion
     if pos == {"x": 12, "y": 12}:
-        print("Walking to Pokemon Mansion Entrance from (12, 12) via Row 13 bypass...")
+        print("Walking to Pokemon Mansion Entrance from (12, 12) via Row 14 ledge bypass...")
         if not run_steps([
-            ("Down", {"x": 12, "y": 13}),
-            ("Right", {"x": 13, "y": 13}),
-            ("Right", {"x": 14, "y": 13}),
-            ("Right", {"x": 15, "y": 13}),
-            ("Right", {"x": 16, "y": 13}),
-            ("Right", {"x": 17, "y": 13}),
-            ("Right", {"x": 18, "y": 13}),
+            ("Down", {"x": 12, "y": 14}), # Ledge jump! Lands directly on Row 14.
+            ("Right", {"x": 13, "y": 14}),
+            ("Right", {"x": 14, "y": 14}),
+            ("Right", {"x": 15, "y": 14}),
+            ("Right", {"x": 16, "y": 14}),
+            ("Right", {"x": 17, "y": 14}),
+            ("Right", {"x": 18, "y": 14}),
+            ("Up", {"x": 18, "y": 13}),
             ("Up", {"x": 18, "y": 12}),
             ("Up", {"x": 18, "y": 11}),
             ("Up", {"x": 18, "y": 10}),
