@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 7F at (20, 1) [Turn 17644]; party 100% fully healed; infiltrating 7F for Lapras gift and Rival RED battle.
+- Location: Silph Co. 7F at (21, 3) [Turn 17652]; party 100% fully healed; unlocking Card Key gate at (21, 4) to enter 7F office suite.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
