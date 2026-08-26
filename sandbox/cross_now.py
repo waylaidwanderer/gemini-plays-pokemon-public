@@ -70,26 +70,58 @@ def run_steps(steps):
             return False
     return True
 
+def toggle_switch():
+    print("Toggling Mewtwo statue switch (EXACTLY 3 A presses)...")
+    mgba.press_buttons(["Up", "sleep 450"])
+    mgba.press_buttons(["A", "sleep 1200"]) # 1. Interact
+    mgba.press_buttons(["A", "sleep 1200"]) # 2. Select YES
+    mgba.press_buttons(["A", "sleep 1200"]) # 3. Dismiss
+    time.sleep(1.0)
+
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 2, "y": 12}:
-    # Walk to Column 1 Row 13 via the Row 12/13 bypass to be completely safe
-    print("Walking to (1, 13)...")
-    if run_steps([
-        ("Down", {"x": 2, "y": 13}),
-        ("Left", {"x": 1, "y": 13}),
-    ]):
+# We are at (1, 10). Let's test if we can walk UP to (1, 9) first (maybe it's open now?)
+print("Testing if Column 1 gate is open...")
+gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+pos = mgba.get_coordinates()
+
+if not gate_open:
+    print("Gate is CLOSED. Walking back to (2, 12) to toggle the switch...")
+    if pos == {"x": 1, "y": 10}:
+        if run_steps([
+            ("Down", {"x": 1, "y": 11}),
+            ("Down", {"x": 1, "y": 12}),
+            ("Down", {"x": 1, "y": 13}),
+            ("Right", {"x": 2, "y": 13}),
+            ("Up", {"x": 2, "y": 12}),
+        ]):
+            pos = mgba.get_coordinates()
+            
+    if pos == {"x": 2, "y": 12}:
+        toggle_switch()
+        pos = mgba.get_coordinates()
+        
+    # Now walk back to Column 1 Row 10 and test again!
+    if pos == {"x": 2, "y": 12}:
+        print("Walking to (1, 10) to test gate in the new state...")
+        if run_steps([
+            ("Down", {"x": 2, "y": 13}),
+            ("Left", {"x": 1, "y": 13}),
+            ("Up", {"x": 1, "y": 12}),
+            ("Up", {"x": 1, "y": 11}),
+            ("Up", {"x": 1, "y": 10}),
+        ]):
+            pos = mgba.get_coordinates()
+            
+    if pos == {"x": 1, "y": 10}:
+        print("Testing if Column 1 gate is open in the new state...")
+        gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
         pos = mgba.get_coordinates()
 
-if pos == {"x": 1, "y": 13}:
-    # Walk up Column 1 to Row 6 (open in State B!)
-    print("Walking up Column 1 to Row 6...")
+if gate_open and pos == {"x": 1, "y": 9}:
+    print("Gate is OPEN! Walking up to Row 6...")
     if run_steps([
-        ("Up", {"x": 1, "y": 12}),
-        ("Up", {"x": 1, "y": 11}),
-        ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}), # OPEN gate!
         ("Up", {"x": 1, "y": 8}),
         ("Up", {"x": 1, "y": 7}),
         ("Up", {"x": 1, "y": 6}),
