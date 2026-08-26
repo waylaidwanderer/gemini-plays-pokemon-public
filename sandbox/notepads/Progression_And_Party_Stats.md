@@ -23,4 +23,4 @@
 - **Slot 3:** NIBBLES (Rattata) - Level 7
 - **Slot 4:** TESLA (Pikachu) - Level 20
 - **Slot 5:** NIDORAN♀ (Nidoran-F) - Level 25
-- **Slot 6:** TRUFFLE (Paras) - Level 20 (No field escape utility)
+- **Slot 6:** TRUFFLE (Paras) - Level 20
