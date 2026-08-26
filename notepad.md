@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (22, 1) [Turn 17475]; traversing northern highway west towards (2, 1) to access western and southern corridors for Card Key.
+- Location: Silph Co. 5F at (8, 1) [Turn 17476]; spotted warp pad at (11, 5) and gate at (7, 4..5); walking south down column 10 to row 16 for Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1981,7 +1981,7 @@
 - **2F**: Unsurveyed.
 - **3F**: Unsurveyed.
 - **4F**: Unsurveyed.
-- **5F**: Active floor [Turn 17466]. Elevator (20, 0), Stairs (24, 0), Warp Pad at (27, 3). Searching southern sector for Card Key.
+- **5F**: Active floor [Turn 17466]. Elevator (20, 0), Stairs (24, 0), Warp Pads at (27, 3) and (11, 5). Searching southern sector for Card Key.
 - **6F**: Unsurveyed.
 - **7F**: Target floor for Lapras gift & Rival RED encounter (hypothesized).
 - **8F**: Unsurveyed.
@@ -2010,6 +2010,12 @@
 - Electronic Card Key Gate: (15, 10..11) [Locked - requires Card Key]
 - Column 15 Divider: (15, 8..9) and (15, 12..15) are solid walls.
 - Southern Corridor: Row 16 connects western sector to eastern sector with Item Ball at (21, 16).
+
+- Wall Divider: (7, 1..3) solid wall separating northwest room from north hall [Verified Turn 17476]
+- Electronic Card Key Gate 2: (7, 4..5) [Locked - requires Card Key]
+- Central Warp Pad: (11, 5) [Verified Turn 17476]
+- NPC at (8, 3): Facing south [Turn 17476]
+- Plants & Statues: (11..12, 2..3)
 
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.

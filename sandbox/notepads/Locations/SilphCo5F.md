@@ -18,7 +18,7 @@
 - Wall Divider: (7, 1..3) solid wall separating northwest room from north hall [Verified Turn 17476]
 - Electronic Card Key Gate 2: (7, 4..5) [Locked - requires Card Key]
 - Central Warp Pad: (11, 5) [Verified Turn 17476]
-- NPC at (8, 3): Facing south [Turn 17476]
+- Silph Researcher NPC at (9, 3): Friendly employee studying Poké Ball technology [Turn 17477]
 - Plants & Statues: (11..12, 2..3)
 
 ## 5F Trainers (Empirical Tracking)
