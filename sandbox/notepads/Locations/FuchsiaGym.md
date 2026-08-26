@@ -18,8 +18,12 @@
 3. Tamer 1 at (8, 2): [DEFEATED Turn 17386] Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33; �1320 prize.
 4. Tamer 2 at (3, 5): [DEFEATED Turn 17399] Sandslash Lv 34, Arbok Lv 34; �1360 prize.
 5. Juggler 3 at (2, 7): [DEFEATED Turn 17407] Drowzee Lv 34, Hypno Lv 34; �1190 prize.
+6. Trainer at (1, 12): Engaging from (1, 13) [Turn 17410].
 
 ## Maze Topology & Traversal Protocol
+- **Empirically Verified Invisible Wall Collisions**:
+  - (2, 6) confirmed solid invisible wall [Turn 17403]
+  - (1, 11) confirmed solid invisible wall [Turn 17410]
 - **Empirically Verified Walkable Corridors**:
   - Entrance Area: (4..5, 14..17)
   - Eastern Perimeter: (9, 1..14) and (8, 9..14)
