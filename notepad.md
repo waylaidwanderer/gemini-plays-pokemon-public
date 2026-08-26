@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse [Turn 17127]; Initializing Run 16 (500 steps budget).
+- Location: Safari Zone Area 1 (East) at (7, 20) [Turn 17161]; Run 16 active (~420 steps remaining).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1755,8 +1755,7 @@
   - North border: Row 0 is solid wall of trees [Verified Turns 16341-16342; no north exit].
   - West border: Col 0 is solid trees along rows 2-33 [Verified Turns 16333-16337; no west exit].
   - Signpost at (4, 25): "TRAINER TIPS: The SECRET HOUSE is still ahead!".
-  - Verified Physical Collisions (Center Area West): (0, 14..23) solid bushes/trees (2x2 tree at 0..1, 16..17; collision at (0, 23) Turn 17013); (1, 24..25) solid bush cluster; (2, 24..25) fence post.
-- **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
+  - **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
 - **Area 2 (North)**:
   - East exit: (39, 31) -> Area 1 (East) at (0, 5).
   - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
@@ -1844,8 +1843,13 @@
    - Target 2: Enter **Secret House** in northwest and speak to attendant for **HM03 (Surf)**.
 
 ## Run 16 Status
-- Status: Initializing Run 16 at Safari Zone Gatehouse.
-- Budget: 500 fresh steps.
+- Status: Active in Area 1 (East) at (7, 20) [Turn 17161].
+- Step Budget: ~420 steps remaining.
+- Active Immediate Plan:
+  1. From (7, 20), walk Up 12 to (7, 8), Right 5 to (12, 8), Up 1 into (12, 7) Upper Ridge Stairs.
+  2. Walk East across upper ridge to (17, 7) descent stairs -> (17, 8).
+  3. Walk East 3 to (20, 8), Up 7 to (20, 1), Left 13 to (7, 1), Down 4 to (7, 5), Left 8 to Area 2 (North) at (0, 5).
+  4. Area 2 -> Area 3 Master Route (82 steps).
 
 
 <hr>
