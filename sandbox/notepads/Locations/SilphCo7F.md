@@ -14,4 +14,4 @@
 - Southern secluded room behind gate (21, 12):
   - Silph employee NPC at (19, 14).
   - Warp pad at (21, 15).
-- Team Rocket Grunt at (19, 14): Sandshrew Lv 29 + 1 other Pokémon.
+- Team Rocket Grunt at (19, 14): Sandshrew Lv 29, Sandslash Lv 29 (Defeated).
