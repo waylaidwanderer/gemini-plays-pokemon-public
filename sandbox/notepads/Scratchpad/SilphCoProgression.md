@@ -13,7 +13,7 @@
 - **6F**: Unsurveyed.
 - **7F**: Target floor for Lapras gift & Rival RED encounter (hypothesized).
 - **8F**: Unsurveyed.
-- **9F**: Unsurveyed.
+- **9F**: Surveyed [Turn 17555-17580]. Elevator at (18, 0), Stairs at (14, 0), Rest Beds at (18..20, 6..7), Rocket Brother defeated at (13, 15), Scientist Ed defeated at (10, 2), warp pads at (11, 5), (11, 9), (23, 7), (23, 11), (3, 15).
 - **10F**: Unsurveyed.
 - **11F**: Target floor for Giovanni confrontation & Master Ball (hypothesized).
 
