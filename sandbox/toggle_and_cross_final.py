@@ -70,17 +70,36 @@ def run_steps(steps):
             return False
     return True
 
-# --- STAGE 1: Dismiss current YES/NO menu by choosing NO (press B) ---
-print("Selecting NO on current 'Press it?' prompt...")
-mgba.press_buttons(["B", "sleep 500", "B", "sleep 500"])
-time.sleep(1.0)
-
 pos = mgba.get_coordinates()
-print("Current position after dismissing:", pos)
+print("Starting position:", pos)
 
-# --- STAGE 2: Walk to (6, 10) on 3F West ---
+if pos == {"x": 6, "y": 10}:
+    # Walk to (2, 12) on 3F West
+    print("Walking to switch standing tile (2, 12)...")
+    if run_steps([
+        ("Down", {"x": 6, "y": 11}),
+        ("Left", {"x": 5, "y": 11}),
+        ("Left", {"x": 4, "y": 11}),
+        ("Left", {"x": 3, "y": 11}),
+        ("Down", {"x": 3, "y": 12}),
+        ("Left", {"x": 2, "y": 12}),
+    ]):
+        pos = mgba.get_coordinates()
+
 if pos == {"x": 2, "y": 12}:
-    print("Walking to (6, 10) to test gate...")
+    # Toggle switch with EXACTLY 3 A presses to avoid double-toggle!
+    print("Toggling Mewtwo statue switch (EXACTLY 3 A presses)...")
+    mgba.press_buttons(["Up", "sleep 450"])
+    mgba.press_buttons(["A", "sleep 1200"]) # 1. Opens "A secret switch! Press it?" (YES/NO menu)
+    mgba.press_buttons(["A", "sleep 1200"]) # 2. Selects YES, prints "Who wouldn't?" (or opened/closed)
+    mgba.press_buttons(["A", "sleep 1200"]) # 3. Dismisses the line, returns to overworld!
+    print("Toggle sequence complete.")
+    time.sleep(1.0)
+    pos = mgba.get_coordinates()
+
+# Now walk to Row 6 and cross to 3F East
+if pos == {"x": 2, "y": 12}:
+    print("Walking up Column 6 to Row 6...")
     if run_steps([
         ("Right", {"x": 3, "y": 12}),
         ("Up", {"x": 3, "y": 11}),
@@ -88,71 +107,13 @@ if pos == {"x": 2, "y": 12}:
         ("Right", {"x": 5, "y": 11}),
         ("Right", {"x": 6, "y": 11}),
         ("Up", {"x": 6, "y": 10}),
-    ]):
-        pos = mgba.get_coordinates()
-
-# --- STAGE 3: Test if gate at (6, 9) is open ---
-gate_open = False
-if pos == {"x": 6, "y": 10}:
-    print("Testing if Row 9 gate is open...")
-    gate_open = walk_step("Up", {"x": 6, "y": 9}, retries=2)
-    pos = mgba.get_coordinates()
-
-# --- STAGE 4: If gate is CLOSED (State A), walk back to switch and toggle ---
-if not gate_open and (pos == {"x": 6, "y": 10} or pos == {"x": 5, "y": 10}):
-    print("Gate is CLOSED! Walking back to (2, 12) to toggle to State B...")
-    # Make sure we are at (6, 10)
-    if pos == {"x": 5, "y": 10}:
-        walk_step("Right", {"x": 6, "y": 10})
-    pos = mgba.get_coordinates()
-    
-    if pos == {"x": 6, "y": 10}:
-        if run_steps([
-            ("Down", {"x": 6, "y": 11}),
-            ("Left", {"x": 5, "y": 11}),
-            ("Left", {"x": 4, "y": 11}),
-            ("Left", {"x": 3, "y": 11}),
-            ("Down", {"x": 3, "y": 12}),
-            ("Left", {"x": 2, "y": 12}),
-        ]):
-            pos = mgba.get_coordinates()
-            
-    if pos == {"x": 2, "y": 12}:
-        print("Toggling Mewtwo statue switch to State B...")
-        mgba.press_buttons(["Up", "sleep 400"])
-        mgba.press_buttons(["A", "sleep 1200"]) # 1. Interact "A secret switch!"
-        mgba.press_buttons(["A", "sleep 1200"]) # 2. YES/NO menu
-        mgba.press_buttons(["A", "sleep 1200"]) # 3. Choose YES "Who wouldn't?"
-        mgba.press_buttons(["A", "sleep 1200"]) # 4. "The electronic shutters opened!"
-        mgba.press_buttons(["A", "sleep 1200"]) # 5. Dismiss dialogue
-        mgba.press_buttons(["B", "sleep 400"])
-        print("Successfully toggled switch to State B!")
-        pos = mgba.get_coordinates()
-        
-    if pos == {"x": 2, "y": 12}:
-        print("Walking back up to gate...")
-        if run_steps([
-            ("Right", {"x": 3, "y": 12}),
-            ("Up", {"x": 3, "y": 11}),
-            ("Right", {"x": 4, "y": 11}),
-            ("Right", {"x": 5, "y": 11}),
-            ("Right", {"x": 6, "y": 11}),
-            ("Up", {"x": 6, "y": 10}),
-            ("Up", {"x": 6, "y": 9}),
-        ]):
-            pos = mgba.get_coordinates()
-            gate_open = True
-
-# --- STAGE 5: Walk to 3F East and drop to 1F East ---
-if gate_open and pos == {"x": 6, "y": 9}:
-    print("Row 9 gate is OPEN! Walking up to Row 6...")
-    if run_steps([
+        ("Up", {"x": 6, "y": 9}), # This gate should now be OPEN!
         ("Up", {"x": 6, "y": 8}),
         ("Up", {"x": 6, "y": 7}),
         ("Up", {"x": 6, "y": 6}),
     ]):
         pos = mgba.get_coordinates()
-        
+
 if pos == {"x": 6, "y": 6}:
     print("Crossing horizontally on Row 6 to 3F East...")
     if run_steps([
