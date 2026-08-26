@@ -3,61 +3,65 @@ import time
 import os
 from PIL import Image
 
-def take_and_save_screenshot(label):
-    scr_file = mgba.take_screenshot()
-    img = Image.open(scr_file)
-    # Save to sandbox
-    img.save(f"{label}.png")
-    print(f"Saved screenshot: {label}.png")
-
-# 1. Dismiss any active textboxes
+# Ensure any active menus/dialogues are closed
 mgba.press_buttons(["B"])
 time.sleep(0.5)
 
-# 2. Get current coordinates
 pos = mgba.get_coordinates()
-print(f"Current position: {pos}")
+print(f"Starting toggle test from: {pos}")
 
-# If we are not at (2, 12), walk to it
-if pos == {"x": 1, "y": 10}:
+# 1. Walk back to (2, 12)
+if pos == {"x": 3, "y": 10}:
     print("Walking back to (2, 12)...")
-    mgba.press_buttons(["Down", "sleep 500", "Down", "sleep 500", "Right", "sleep 500", "Up"])
+    mgba.press_buttons(["Down", "sleep 500", "Down", "sleep 500", "Left", "sleep 500", "Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
-    print(f"Position: {pos}")
 
-# Ensure we are facing UP at (2, 12)
 if pos == {"x": 2, "y": 12}:
-    print("Facing UP at (2, 12)...")
+    print("We are at (2, 12). Turning UP...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # Let's interact with the switch step-by-step and take screenshots!
-    print("Step 1: Pressing A to open dialogue...")
+    # Toggle the switch step-by-step with screenshots
+    print("Pressing A (1)...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.8)
+    
+    print("Pressing A (2)...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.8)
+    
+    print("Pressing A (3)...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.8)
+    
+    print("Pressing A (4)...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
-    take_and_save_screenshot("mansion_switch_dialogue_open")
     
-    print("Step 2: Pressing A to advance to YES/NO...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    take_and_save_screenshot("mansion_switch_dialogue_step2")
+    # Walk to (3, 10) and try walking UP to (3, 9)
+    print("Walking to (3, 10) to test Column 3 Row 9...")
+    mgba.press_buttons([
+        "Down", "sleep 500",
+        "Right", "sleep 500",
+        "Up", "sleep 500",
+        "Up", "sleep 500"
+    ])
+    time.sleep(2.5)
+    pos = mgba.get_coordinates()
+    print(f"Position at (3, 10): {pos}")
     
-    print("Step 3: Pressing A to select YES...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    take_and_save_screenshot("mansion_switch_dialogue_step3")
-    
-    print("Step 4: Pressing A to dismiss...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    take_and_save_screenshot("mansion_switch_dialogue_final")
-    
-    # Now check if Column 1 Row 9 is open
-    print("Testing Column 1 Row 9...")
-    mgba.press_buttons(["Left", "sleep 500", "Up", "sleep 500", "Up", "sleep 500", "Up"])
-    time.sleep(2.0)
-    pos2 = mgba.get_coordinates()
-    print(f"Position after trying to cross Row 9: {pos2}")
+    if pos == {"x": 3, "y": 10}:
+        print("Attempting to walk UP to (3, 9)...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        pos2 = mgba.get_coordinates()
+        print(f"Final position after trying to cross Row 9: {pos2}")
+        
+        # Save a screenshot to verify
+        scr_file = mgba.take_screenshot()
+        img = Image.open(scr_file)
+        img.save("mansion_switch_dialogue_final.png")
+        print("Saved final screenshot.")
 else:
-    print("Not at (2, 12). Cannot proceed.")
+    print("Failed to reach (2, 12)")
