@@ -75,21 +75,21 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting solve_mansion_final_step1_from_current.py, current coords:", pos)
     
-    if pos != {"x": 11, "y": 5}:
-        print("Error: Player is not at (11, 5)!")
+    if pos != {"x": 10, "y": 6}:
+        print("Error: Player is not at (10, 6)!")
         return
 
-    # --- STAGE 0: Walk from (11, 5) to Mansion Doorway (via Row 6 bypass) ---
-    print("Bypassing Row 5 NPC via Row 6...")
+    # --- STAGE 0: Walk from (10, 6) to Mansion Doorway (via Row 4 bypass) ---
+    print("Bypassing fences via Row 4...")
     if not run_steps([
-        ("Down", {"x": 11, "y": 6}),
-        ("Left", {"x": 10, "y": 6}),
-        ("Left", {"x": 9, "y": 6}),
-        ("Left", {"x": 8, "y": 6}),
-        ("Left", {"x": 7, "y": 6}),
-        ("Left", {"x": 6, "y": 6}),
-        ("Up", {"x": 6, "y": 5}),
-        ("Up", {"x": 6, "y": 4}),
+        ("Right", {"x": 11, "y": 6}),
+        ("Up", {"x": 11, "y": 5}),
+        ("Up", {"x": 11, "y": 4}),
+        ("Left", {"x": 10, "y": 4}),
+        ("Left", {"x": 9, "y": 4}),
+        ("Left", {"x": 8, "y": 4}),
+        ("Left", {"x": 7, "y": 4}),
+        ("Left", {"x": 6, "y": 4}),
         ("Up", {"x": 6, "y": 3}),
     ]):
         return
