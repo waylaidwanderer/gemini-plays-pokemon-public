@@ -1755,6 +1755,7 @@
   - North border: Row 0 is solid wall of trees [Verified Turns 16341-16342; no north exit].
   - West border: Col 0 is solid trees along rows 2-33 [Verified Turns 16333-16337; no west exit].
   - Signpost at (4, 25): "TRAINER TIPS: The SECRET HOUSE is still ahead!".
+  - Verified Physical Collisions (Center Area West): (0, 14..23) solid bushes/trees (2x2 tree at 0..1, 16..17; collision at (0, 23) Turn 17013); (1, 24..25) solid bush cluster; (2, 24..25) fence post.
 - **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
 - **Area 2 (North)**:
   - East exit: (39, 31) -> Area 1 (East) at (0, 5).
@@ -1834,9 +1835,9 @@
    - Walk Left 6 to (16, 22).
    - Walk Down 6 along column 16 through descent stairs at (16, 27) to ground at (16, 28).
    - Walk Left 4 to (12, 28).
-   - Walk Up 26 along column 12 corridor to Northern Highway at (12, 2).
-   - Walk Left 10 to (2, 2).
-   - Walk South into Area 3 (West) entrance!
+   - Walk Up 22 along column 12 corridor to row 6 at (12, 6).
+   - Walk Left 2 to (10, 6), then Up 4 along column 10 bypass to Northern Highway at (10, 2).
+   - Walk Left 8 to (2, 2), then follow western path south to Area 3 (West) transition!
 
 4. **Area 3 (West) [317 Steps Budget Remaining]**:
    - Target 1: Retrieve **Gold Teeth** on ground.
