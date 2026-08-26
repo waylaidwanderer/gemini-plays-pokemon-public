@@ -24,3 +24,11 @@
 - Aisle at column 15 connects rows 11-15 down to row 16 hallway.
 - Rocket Grunt stationed at (13, 16) facing south.
 - Row 16 corridor extends west beyond column 13 towards southwest room.
+
+## Card Key Retrieval Blueprint (5F)
+- TM09 (Take Down) recovered at (21, 16) in south-east corridor [Turn 17507].
+- Juggler Dalton defeated at (18, 7) [Turn 17470].
+- Scientist Beau defeated at (9, 3) [Turn 17479].
+- Rocket Grunt defeated at (8, 16) [Turn 17485].
+- Western corridor (cols 0-3) accessed via row 2/3 northern bypass from (8, 2) -> (2, 2) -> (2, 16).
+- Card Key located in southwest corridor at (2..3, 16).

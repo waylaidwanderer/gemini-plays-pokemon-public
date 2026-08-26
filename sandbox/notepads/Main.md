@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (20, 16) [Turn 17492]; collected item ball at (21, 16); continuing search for Card Key.
+- Location: Silph Co. 5F at (9, 15) [Turn 17517]; TM09 collected; navigating via row 2 northern corridor to southwest sector for Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

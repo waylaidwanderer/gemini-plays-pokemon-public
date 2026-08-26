@@ -1992,6 +1992,11 @@
 ## Empirical Warp Tile Matrix
 - `[5F (9, 15)] <-> [Unknown Floor (17, 15)]` [Verified Turn 17489-17491]
 
+## Floor Survey: South Hall Corridor (row 16)
+- Aisle at column 15 connects rows 11-15 down to row 16 hallway.
+- Rocket Grunt stationed at (13, 16) facing south.
+- Row 16 corridor extends west beyond column 13 towards southwest room.
+
 
 <hr>
 
@@ -2034,5 +2039,6 @@
 3. Scientist at (13, 9): Spotted in western room [Turn 17471].
 
 3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
+4. Rocket Grunt at (13, 16): Guarding row 16 western approach [Turn 17516].
 
 <hr>
