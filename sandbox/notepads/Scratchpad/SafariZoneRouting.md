@@ -36,7 +36,7 @@
    - Target 2: Enter **Secret House** in northwest and speak to attendant for **HM03 (Surf)**.
 
 ## Run 16 Status
-- Status: Active in Area 2 (North) at (2, 2) [Turn 17191].
+- Status: Active in Safari Zone Center at (7, 2) [Turn 17221]; Gold Teeth collected at (19, 7).
 - Step Budget: ~250 steps remaining.
 - Active Immediate Plan:
   1. From (2, 2), walk south along column 1/2 surveying column 0 west perimeter across rows 2-34 to identify the exact warp tile into Area 3 (West).
