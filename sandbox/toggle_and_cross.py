@@ -2,32 +2,6 @@ import mgba
 import time
 from PIL import Image
 
-def is_dialogue_open():
-    time.sleep(0.15)
-    scr_file = mgba.take_screenshot()
-    img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
-    cropped = img.crop((0, 104, 160, 144))
-    
-    # Check for GBC dark grey color (57, 57, 57) of the text box border
-    target_color = (57, 57, 57)
-    found_target = 0
-    for y in range(cropped.height):
-        for x in range(cropped.width):
-            r, g, b = cropped.getpixel((x, y))
-            if abs(r - 57) < 10 and abs(g - 57) < 10 and abs(b - 57) < 10:
-                found_target += 1
-                
-    # Also check for the white/cream background
-    found_bg = 0
-    for y in range(cropped.height):
-        for x in range(cropped.width):
-            r, g, b = cropped.getpixel((x, y))
-            if abs(r - 247) < 15 and abs(g - 231) < 15 and abs(b - 214) < 15:
-                found_bg += 1
-                
-    print(f"Check: found_border={found_target}, found_bg={found_bg}")
-    return found_target > 80 and found_bg > 500
-
 def handle_any_menu_or_battle():
     time.sleep(0.15)
     scr_file = mgba.take_screenshot()
@@ -96,83 +70,52 @@ def run_steps(steps):
             return False
     return True
 
-# 1. Walk from (1, 10) to (2, 12)
+# Ensure any active menus are dismissed
+mgba.press_buttons(["B"])
+time.sleep(0.4)
+
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
+# Step 1: Walk from (1, 10) down and right to (5, 13) via Row 13
 if pos == {"x": 1, "y": 10}:
-    print("Walking to (2, 12)...")
+    print("Walking down and right to (5, 13)...")
     if not run_steps([
         ("Down", {"x": 1, "y": 11}),
         ("Down", {"x": 1, "y": 12}),
-        ("Right", {"x": 2, "y": 12}),
+        ("Down", {"x": 1, "y": 13}),
+        ("Right", {"x": 2, "y": 13}),
+        ("Right", {"x": 3, "y": 13}),
+        ("Right", {"x": 4, "y": 13}),
+        ("Right", {"x": 5, "y": 13}),
     ]):
-        print("Failed to reach (2, 12)")
+        print("Failed to reach (5, 13)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 2. Toggle the switch at (2, 12) facing UP
-if pos == {"x": 2, "y": 12}:
-    print("Facing UP towards (2, 11) switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Interacting with switch...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    if is_dialogue_open():
-        print("Mewtwo switch dialogue is open! Toggling to State B...")
-        mgba.press_buttons(["A"]) # Advance "A secret switch!"
-        time.sleep(1.2)
-        mgba.press_buttons(["A"]) # Select YES
-        time.sleep(1.2)
-        mgba.press_buttons(["A"]) # Dismiss "Pressed it!"
-        time.sleep(1.2)
-        print("Switch toggled successfully!")
-    else:
-        print("Failed to open switch dialogue at (2, 12) facing UP!")
-        exit(1)
-        
-    pos = mgba.get_coordinates()
-
-# 3. Walk to Column 1 Row 9
-if pos == {"x": 2, "y": 12}:
-    print("Walking to (1, 9)...")
-    if not run_steps([
-        ("Left", {"x": 1, "y": 12}),
-        ("Up", {"x": 1, "y": 11}),
-        ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}),
-    ]):
-        print("Failed to reach (1, 9) - gate might still be closed!")
+# Step 2: Walk UP Column 5 to Row 6 (5, 6) (gate at 5,9 is open!)
+if pos == {"x": 5, "y": 13}:
+    print("Walking UP Column 5 to Row 6...")
+    steps_up = []
+    for y in range(12, 5, -1):
+        steps_up.append(("Up", {"x": 5, "y": y}))
+    if not run_steps(steps_up):
+        print("Failed to reach (5, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 4. Walk UP Column 1 to Row 6
-if pos == {"x": 1, "y": 9}:
-    print("Walking UP Column 1 to Row 6...")
-    if not run_steps([
-        ("Up", {"x": 1, "y": 8}),
-        ("Up", {"x": 1, "y": 7}),
-        ("Up", {"x": 1, "y": 6}),
-    ]):
-        print("Failed to reach Row 6 on Column 1")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 5. Walk RIGHT along Row 6 to Column 20
-if pos == {"x": 1, "y": 6}:
+# Step 3: Walk RIGHT along Row 6 to Column 20 (crossing horizontally to 3F East)
+if pos == {"x": 5, "y": 6}:
     print("Walking RIGHT along Row 6 to Column 20...")
     steps = []
-    for x in range(2, 21):
+    for x in range(6, 21):
         steps.append(("Right", {"x": x, "y": 6}))
     if not run_steps(steps):
         print("Failed to reach Column 20 on Row 6")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 6. Walk UP Column 20 to Row 3
+# Step 4: Walk UP Column 20 to Row 3
 if pos == {"x": 20, "y": 6}:
     print("Walking UP Column 20 to Row 3...")
     steps = []
@@ -183,7 +126,7 @@ if pos == {"x": 20, "y": 6}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 7. Walk RIGHT along Row 3 to Column 26
+# Step 5: Walk RIGHT along Row 3 to Column 26
 if pos == {"x": 20, "y": 3}:
     print("Walking RIGHT along Row 3 to Column 26...")
     steps = []
@@ -194,7 +137,7 @@ if pos == {"x": 20, "y": 3}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 8. Step DOWN onto Column 26 to drop through the pitfall
+# Step 6: Step DOWN onto Column 26 to drop through the pitfall
 if pos == {"x": 26, "y": 3}:
     print("Stepping DOWN onto Column 26 to drop through the pitfall...")
     mgba.press_buttons(["Down"])
@@ -202,7 +145,7 @@ if pos == {"x": 26, "y": 3}:
     pos = mgba.get_coordinates()
     print("Position after dropping to 1F East:", pos)
 
-# 9. Walk to B1F East stairs
+# Step 7: Walk to B1F East stairs
 if pos == {"x": 26, "y": 4}:
     print("Walking to B1F East stairs...")
     if not run_steps([
@@ -221,7 +164,7 @@ if pos == {"x": 26, "y": 4}:
     pos = mgba.get_coordinates()
     print("Position after warping down to B1F East:", pos)
 
-# 10. Cross B1F East to B1F West NORTH and retrieve Secret Key!
+# Step 8: Cross B1F East to B1F West NORTH and retrieve Secret Key!
 if pos == {"x": 22, "y": 3}:
     print("Crossing to B1F West NORTH...")
     if not run_steps([
@@ -242,7 +185,7 @@ if pos == {"x": 22, "y": 3}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 11. Standing at (1, 5) facing UP, pick up the Secret Key!
+# Step 9: Standing at (1, 5) facing UP, pick up the Secret Key!
 if pos == {"x": 1, "y": 5}:
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
