@@ -2091,29 +2091,18 @@
 
 <h1><code>Locations/SilphCo7F</code></h1>
 
-# Silph Co. 7F - Layout & Key Events
+# Silph Co. 7F - Points of Interest & Layout
 
 ## Overview
-- Seventh floor of Silph Co. headquarters.
-- Key Objectives: Obtain LAPRAS gift from Silph employee, defeat Rival RED, access executive warp pad to 11F (Giovanni).
+- Elevator at (23, 3) / Stairs at (22, 1).
+- Northern corridor runs along row 1 from col 23 west to col 20.
+- Rocket Grunt defeated at (20, 2).
+- Card Key gate at (21, 4) unlocked.
 
-## Layout & Landmarks
-- Elevator Doors: (20, 0)
-- Stairs: (24, 0)
-- Floor Directory Sign: (26, 0)
-- Card Key Security Gates: (20, 4) and (21, 4) [Gate 1 - Unlocked Turn 17645].
-- Warp Pads: To be mapped.
-
-## 7F Key Encounters
-- Gift Lapras: Silph employee in locked office.
-- Rival RED Battle: Hallway confrontation.
-
-## 7F NPCs & Dialogue
-- Silph Employee at (20, 2): In elevator lobby.
-
-## 7F Trainers
-1. Rocket Grunt at (20, 2): [DEFEATED Turn 17647] Cubone Lv 29, Sandslash Lv 29; prize money won.
-
+## Rooms & Features
+- Office Suite entered via gate at (21, 4) -> (21, 5).
+- Warp pads at (18, 7) and (18, 9).
+- Desks at cols 22-23, rows 7-9.
 
 <hr>
 
