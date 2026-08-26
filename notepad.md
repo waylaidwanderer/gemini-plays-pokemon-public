@@ -1734,16 +1734,12 @@
 - **Southwest Obstacle Grid**:
   - Horizontal Tree Line (cols 0-6, row 15): Blocks direct northern passage from Route 18/Gym approach to Pokémart.
   - Col 3 Vertical Path: Open between rows 16 and 21, connecting Route 18 entrance to southern central highway (row 21).
-## Verified Obstacle Grid & Topology (Turns 17241-17251)
-- **Northern Avenue**: Row 6 (cols 2-37) connects western corridor, Safari Gatehouse (18, 3), and Eastern Highway.
-- **Row 7 Barrier**: Trees at (18..21, 7), Cut bush at (22, 7), tree at (23, 7), fences at (24..26, 7). Bypass via col 16 or col 35-37.
-- **Row 10 Tree Line**: Horizontal line of trees at (27..34, 10). Bypass via Eastern Highway (cols 35-37).
-- **Row 11 Barrier**: Trees at (12..15, 11), Cut bush at (16, 11).
-- **Row 15 Barrier**: Horizontal tree line at (0..7, 15) separating Pok�mart north from western corridor south.
-- **Row 19 Barrier**: Stone fence along (9..17, 19), Cut bush at (18, 19), tree at (19, 19).
-- **Bill's Grandpa's House**: Located at cols 20-25, rows 10-13 with front door at (22, 13).
-- **Eastern North-South Highway (cols 35-37, rows 6-21)**: 100% wide-open continuous 3-tile-wide avenue connecting Northern Avenue (row 6) directly to Southern Central Highway (row 21).
-- **Southern Central Highway (row 21, cols 2-37)**: Unobstructed paved thoroughfare linking western avenue, Pok�mon Center, and eastern residences (Warden's House at col 27).
+## Verified Fuchsia City Topology & Corridors
+- **Northern Avenue (row 6, cols 2-37)**: Completely open east-west avenue connecting Western Corridor (col 3), Safari Gatehouse (18, 3), and eastern sectors.
+- **Western Corridor (cols 2-3, rows 6-28)**: Main unobstructed north-south thoroughfare connecting Northern Avenue (row 6), Pok�mart (cols 4-7, rows 12-13), Gym entrance (col 4), and South Street (row 28).
+- **Southern Central Highway (row 21, cols 2-37)**: Paved thoroughfare north of southern buildings.
+- **South Street (row 28, cols 2-37)**: Continuous paved walkway running in front of Fuchsia Gym (col 5), Pok�mon Center (col 21), Safari Warden's House (col 27), and Fishing Guru's House (col 31).
+- **Internal Zoo Obstacles**: Row 16 has continuous tree/fence/pond barriers across cols 10-35; traversal between north and south halves of the city must use the Western Corridor (cols 2-3).
 
 
 <hr>
