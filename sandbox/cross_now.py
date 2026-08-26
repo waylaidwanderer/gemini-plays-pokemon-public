@@ -74,19 +74,23 @@ pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
 # Step 1: Walk to switch standing tile (2, 12) on 2F West
-if pos == {"x": 5, "y": 10}:
+if pos == {"x": 6, "y": 10}:
     print("Walking to switch standing tile (2, 12)...")
     if not run_steps([
-        ("Down", {"x": 5, "y": 11}),
+        ("Down", {"x": 6, "y": 11}),
+        ("Left", {"x": 5, "y": 11}),
         ("Down", {"x": 5, "y": 12}),
-        ("Left", {"x": 4, "y": 12}),
-        ("Left", {"x": 3, "y": 12}),
-        ("Left", {"x": 2, "y": 12}),
+        ("Down", {"x": 5, "y": 13}),
+        ("Left", {"x": 4, "y": 13}),
+        ("Left", {"x": 3, "y": 13}),
+        ("Left", {"x": 2, "y": 13}),
+        ("Up", {"x": 2, "y": 12}),
     ]):
+        print("Failed to reach (2, 12)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 2: Toggle the Mewtwo statue switch ONCE to activate State B (using 5 A-presses and 1 UP)
+# Step 2: Toggle the Mewtwo statue switch ONCE to activate State B (dialogue box currently CLOSED)
 if pos == {"x": 2, "y": 12}:
     print("Aligning UP...")
     mgba.press_buttons(["Up"])
@@ -104,7 +108,7 @@ if pos == {"x": 2, "y": 12}:
     time.sleep(7.5)
     pos = mgba.get_coordinates()
 
-# Step 3: Walk back to Column 5. Since Column 3 Row 12 is now CLOSED in State B, we must bypass via Row 13!
+# Step 3: Walk back to Column 5. Column 5 Row 9 is now OPEN in State B!
 if pos == {"x": 2, "y": 12}:
     print("Walking back to Column 5 via Row 13 bypass...")
     if not run_steps([
@@ -112,42 +116,40 @@ if pos == {"x": 2, "y": 12}:
         ("Right", {"x": 3, "y": 13}),
         ("Right", {"x": 4, "y": 13}),
         ("Right", {"x": 5, "y": 13}),
-        ("Up", {"x": 5, "y": 12}),
-        ("Up", {"x": 5, "y": 11}),
-    ]):
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 4: Walk UP Column 5 directly to Row 3 (5, 3) (which is now OPEN in State B!)
-if pos == {"x": 5, "y": 11}:
-    print("Walking UP Column 5 to Row 3...")
-    if not run_steps([
-        ("Up", {"x": 5, "y": 10}),
-        ("Up", {"x": 5, "y": 9}),
+        ("Right", {"x": 6, "y": 13}),
+        ("Up", {"x": 6, "y": 12}),
+        ("Up", {"x": 6, "y": 11}),
+        ("Up", {"x": 6, "y": 10}),
+        ("Up", {"x": 6, "y": 9}),      # Row 9 gate is open in State B!
+        ("Left", {"x": 5, "y": 9}),    # Bypass down staircase by going Left
         ("Up", {"x": 5, "y": 8}),
         ("Up", {"x": 5, "y": 7}),
         ("Up", {"x": 5, "y": 6}),
         ("Up", {"x": 5, "y": 5}),
         ("Up", {"x": 5, "y": 4}),
-        ("Up", {"x": 5, "y": 3}),
+        ("Up", {"x": 5, "y": 3}),      # Row 3 (above the barriers)
     ]):
+        print("Failed to reach Row 3 on Column 5")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 5: Cross horizontally on Row 3 from (5, 3) to (18, 3) on 2F East
+# Step 4: Walk RIGHT along Row 3 to (18, 3) on 2F East
 if pos == {"x": 5, "y": 3}:
-    print("Crossing horizontally on Row 3 to (18, 3)...")
+    print("Walking RIGHT along Row 3 to (18, 3)...")
     if not run_steps([("Right", {"x": 5 + i + 1, "y": 3}) for i in range(13)]):
+        print("Failed to reach (18, 3)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 6: On 2F East, walk DOWN Column 18 to Row 10 (18, 10)
+# Step 5: On 2F East, walk DOWN Column 18 to Row 10 (18, 10)
 if pos == {"x": 18, "y": 3}:
-    print("Walking DOWN Column 18 to Row 10...")
+    print("Walking DOWN to (18, 10)...")
     if not run_steps([("Down", {"x": 18, "y": 3 + i + 1}) for i in range(7)]):
+        print("Failed to reach (18, 10)")
         exit(1)
     pos = mgba.get_coordinates()
 
+# Step 6: Walk LEFT to (15, 10)
 if pos == {"x": 18, "y": 10}:
     print("Walking LEFT to (15, 10)...")
     if not run_steps([
@@ -155,45 +157,48 @@ if pos == {"x": 18, "y": 10}:
         ("Left", {"x": 16, "y": 10}),
         ("Left", {"x": 15, "y": 10}),
     ]):
+        print("Failed to reach (15, 10)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 7: Step DOWN onto the stairs at (15, 11) on 2F East to warp UP to 3F East, landing at (16, 11)
+# Step 7: Step DOWN onto stairs to warp UP to 3F East (landing at 16, 11)
 if pos == {"x": 15, "y": 10}:
-    print("Taking stairs up to 3F East...")
-    if not run_steps([
-        ("Down", {"x": 16, "y": 11}) # The warp takes us to (16, 11) on 3F East
-    ]):
+    print("Stepping DOWN onto stairs to warp UP to 3F East (landing at 16, 11)...")
+    if not walk_step("Down", {"x": 16, "y": 11}):
+        print("Failed to warp to 3F East")
         exit(1)
     pos = mgba.get_coordinates()
 
-# On 3F East (landing at 16, 11), walk to Column 20, UP Column 20 to Row 3, RIGHT Row 3 to Column 26, drop!
+# Step 8: On 3F East, walk to Column 20, UP Column 20 to Row 3, RIGHT Row 3 to Column 26, drop!
 if pos == {"x": 16, "y": 11}:
-    print("Walking to (20, 11) on 3F East...")
+    print("Successfully on 3F East! Walking to (20, 11)...")
     if not run_steps([
         ("Right", {"x": 17, "y": 11}),
         ("Right", {"x": 18, "y": 11}),
         ("Right", {"x": 19, "y": 11}),
         ("Right", {"x": 20, "y": 11}),
     ]):
+        print("Failed to reach (20, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
 if pos == {"x": 20, "y": 11}:
     print("Walking UP Column 20 to Row 3...")
     if not run_steps([("Up", {"x": 20, "y": 11 - i - 1}) for i in range(8)]):
+        print("Failed to reach Row 3 on Column 20")
         exit(1)
     pos = mgba.get_coordinates()
 
 if pos == {"x": 20, "y": 3}:
-    print("Walking RIGHT along Row 3 to Column 26...")
+    print("Walking RIGHT along Row 3 to (26, 3)...")
     if not run_steps([("Right", {"x": 20 + i + 1, "y": 3}) for i in range(6)]):
+        print("Failed to reach (26, 3)")
         exit(1)
     pos = mgba.get_coordinates()
 
 if pos == {"x": 26, "y": 3}:
-    print("SUCCESS! Stepping DOWN into the pitfall to fall to 1F East!")
+    print("Dropping through the pitfall to 1F East!")
     mgba.press_buttons(["Down"])
     time.sleep(1.5)
     pos = mgba.get_coordinates()
-    print("Final position after drop:", pos)
+    print("Final position after dropping:", pos)
