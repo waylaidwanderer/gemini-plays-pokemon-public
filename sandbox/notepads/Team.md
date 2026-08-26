@@ -2,9 +2,9 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 55
-   - Stats (Verified at Lv 55 Turn 17578): Max HP 183 (HP: 18/183), Attack 126, Defense 139, Speed 128, Special 134
+   - Stats (Verified at Lv 55 Turn 17578): Max HP 183 (HP: 2/183), Attack 126, Defense 139, Speed 128, Special 134
    - Type: Water
-   - Moves: Double-Edge (3/15), Ice Beam (5/10), Bite (25/25), Surf (9/15)
+   - Moves: Double-Edge (2/15), Ice Beam (5/10), Bite (25/25), Surf (9/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
