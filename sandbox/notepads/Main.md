@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (9, 15) [Turn 17517]; TM09 collected; navigating via row 2 northern corridor to southwest sector for Card Key.
+- Location: Silph Co. Elevator at (3, 1) [Turn 17551]; operating elevator panel to access upper floors for healing and infiltration.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
