@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 9F at (9, 5) [Turn 17581]; exploring 9F rooms and mapping warp pad network.
+- Location: Silph Co. 9F at (21, 14) [Turn 17611]; in battle with Scientist at (21, 13).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
