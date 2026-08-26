@@ -77,24 +77,22 @@ time.sleep(0.4)
 pos = mgba.get_coordinates()
 print("Starting walk from position:", pos)
 
-# We are at (11, 5)
-if pos == {"x": 11, "y": 5}:
-    print("Walking around the NPC at (10, 5)...")
+# We are currently at (9, 4)
+if pos == {"x": 9, "y": 4}:
+    print("Walking around the signpost at (9, 5)...")
     if not run_steps([
-        ("Up", {"x": 11, "y": 4}),
-        ("Left", {"x": 10, "y": 4}),
-        ("Left", {"x": 9, "y": 4}),
-        ("Down", {"x": 9, "y": 5}),
+        ("Left", {"x": 8, "y": 4}),
+        ("Down", {"x": 8, "y": 5}),
     ]):
-        print("Failed to bypass NPC")
+        print("Failed to bypass signpost")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Now walk LEFT from (9, 5) to Column 1 (1, 5)
-if pos == {"x": 9, "y": 5}:
+# Now walk LEFT from (8, 5) to Column 1 (1, 5)
+if pos == {"x": 8, "y": 5}:
     print("Walking Left to Column 1...")
     steps_left = []
-    for x in range(8, 0, -1):
+    for x in range(7, 0, -1):
         steps_left.append(("Left", {"x": x, "y": 5}))
     if not run_steps(steps_left):
         print("Failed to reach Column 1")
