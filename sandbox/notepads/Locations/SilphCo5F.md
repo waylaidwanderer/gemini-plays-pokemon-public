@@ -21,6 +21,9 @@
 - Silph Researcher NPC at (9, 3): Friendly employee studying Poké Ball technology [Turn 17477]
 - Plants & Statues: (11..12, 2..3)
 
+- Central Room Walls: (10..13, 6..9) solid wall/desk complex [Verified Turn 17483]
+- Western North-South Corridor: Columns 8-9 (rows 4-16) open corridor connecting north hall to south hall [Verified Turn 17483]
+
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
 2. Scientist Beau at (9, 3): [DEFEATED Turn 17479] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26; ¥1300 prize.
