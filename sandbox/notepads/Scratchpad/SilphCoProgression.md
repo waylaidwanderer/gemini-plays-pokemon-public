@@ -32,3 +32,5 @@
 - Rocket Grunt defeated at (8, 16) [Turn 17485].
 - Western corridor (cols 0-3) accessed via row 2/3 northern bypass from (8, 2) -> (2, 2) -> (2, 16).
 - Card Key located in southwest corridor at (2..3, 16).
+
+- 7F (21, 15) <-> 5F (27, 3) [Verified bidirectional Turn 17668-17670]
