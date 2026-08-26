@@ -16,3 +16,6 @@
 - **9F**: Unsurveyed.
 - **10F**: Unsurveyed.
 - **11F**: Target floor for Giovanni confrontation & Master Ball (hypothesized).
+
+## Empirical Warp Tile Matrix
+- `[5F (9, 15)] <-> [Unknown Floor (17, 15)]` [Verified Turn 17489-17491]
