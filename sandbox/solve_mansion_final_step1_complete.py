@@ -73,34 +73,24 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position on 3F West:", pos)
 
-# We are currently at (2, 11). Walk down to (2, 13) and left to (1, 13)
-if pos == {"x": 2, "y": 11}:
-    print("Walking to (1, 13)...")
-    if not run_steps([
-        ("Down", {"x": 2, "y": 12}),
-        ("Down", {"x": 2, "y": 13}),
-        ("Left", {"x": 1, "y": 13}),
-    ]):
-        print("Failed to reach (1, 13)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Now walk UP Column 1 to Row 6 (gate at (1, 9) is open in State B!)
+# We are at (1, 13). Walk RIGHT to (2, 13) and UP Column 2 to Row 6 (2, 6)
 if pos == {"x": 1, "y": 13}:
-    print("Walking UP Column 1 to Row 6...")
-    steps = []
+    print("Walking UP Column 2 to Row 6...")
+    steps = [
+        ("Right", {"x": 2, "y": 13}),
+    ]
     for y in range(12, 5, -1):
-        steps.append(("Up", {"x": 1, "y": y}))
+        steps.append(("Up", {"x": 2, "y": y}))
     if not run_steps(steps):
-        print("Failed to walk up Column 1")
+        print("Failed to reach (2, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Walk RIGHT along Row 6 to Column 20, UP Column 20 to Row 3, RIGHT to Column 26
-if pos == {"x": 1, "y": 6}:
+# Walk RIGHT along Row 6 to Column 20 on 3F East, UP Column 20 to Row 3, RIGHT to Column 26 (balcony drop)
+if pos == {"x": 2, "y": 6}:
     print("Walking to 3F East balcony drop...")
     steps = []
-    for x in range(2, 21):
+    for x in range(3, 21):
         steps.append(("Right", {"x": x, "y": 6}))
     for y in range(5, 2, -1):
         steps.append(("Up", {"x": 20, "y": y}))
