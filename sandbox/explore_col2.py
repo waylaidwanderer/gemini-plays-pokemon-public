@@ -3,7 +3,7 @@ import time
 from PIL import Image
 
 def handle_any_menu_or_battle():
-    time.sleep(0.1)
+    time.sleep(0.15)
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
@@ -55,7 +55,7 @@ def walk_step(direction, expected_coords, retries=15):
             if pos == expected_coords:
                 return True
         mgba.press_buttons([direction])
-        time.sleep(0.4)
+        time.sleep(0.45)
         pos = mgba.get_coordinates()
         if pos == expected_coords:
             print(f"Moved {direction}, current position: {pos}")
@@ -70,81 +70,74 @@ def run_steps(steps):
             return False
     return True
 
-pos = mgba.get_coordinates()
-print("Starting position:", pos)
+# Ensure any active menus are dismissed
+mgba.press_buttons(["B"])
+time.sleep(0.4)
 
-# Step 1: Walk to (1, 13)
-if pos == {"x": 7, "y": 10}:
-    print("Walking to (1, 13)...")
-    if not run_steps([
-        ("Down", {"x": 7, "y": 11}),
-        ("Down", {"x": 7, "y": 12}),
-        ("Down", {"x": 7, "y": 13}),
-        ("Left", {"x": 6, "y": 13}),
-        ("Left", {"x": 5, "y": 13}),
+pos = mgba.get_coordinates()
+print("Starting exploration from position:", pos)
+
+# Walk back to (1, 13)
+if pos == {"x": 5, "y": 8}:
+    print("Walking back to (1, 13)...")
+    run_steps([
+        ("Down", {"x": 5, "y": 9}),
+        ("Down", {"x": 5, "y": 10}),
+        ("Down", {"x": 5, "y": 11}),
+        ("Down", {"x": 5, "y": 12}),
+        ("Down", {"x": 5, "y": 13}),
         ("Left", {"x": 4, "y": 13}),
         ("Left", {"x": 3, "y": 13}),
         ("Left", {"x": 2, "y": 13}),
         ("Left", {"x": 1, "y": 13}),
-    ]):
-        print("Failed to reach (1, 13)")
-        exit(1)
+    ])
     pos = mgba.get_coordinates()
 
-# Step 2: Walk UP Column 1 through Row 9 gate to Row 6 (gate at (1, 9) is open in State B!)
+# Let's try to walk UP Column 1 in State B first (checking if Row 9 gate was indeed open or closed)
 if pos == {"x": 1, "y": 13}:
-    print("Walking UP Column 1 to Row 6...")
-    if not run_steps([
+    print("Trying to walk UP Column 1 in State B...")
+    run_steps([
         ("Up", {"x": 1, "y": 12}),
         ("Up", {"x": 1, "y": 11}),
-        ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}),
-        ("Up", {"x": 1, "y": 8}),
-        ("Up", {"x": 1, "y": 7}),
-        ("Up", {"x": 1, "y": 6}),
-    ]):
-        print("Failed to reach Row 6 on Column 1")
-        exit(1)
+    ])
+    success = walk_step("Up", {"x": 1, "y": 10}, retries=2)
+    if success:
+        success = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+        if success:
+            print("!!! Column 1 is OPEN in State B! We made it to (1, 9)")
+            exit(0)
+        else:
+            print("Blocked at (1, 10) in State B")
+            walk_step("Down", {"x": 1, "y": 11})
+            walk_step("Down", {"x": 1, "y": 12})
+            walk_step("Down", {"x": 1, "y": 13})
     pos = mgba.get_coordinates()
 
-# Step 3: Walk RIGHT along Row 6 to Column 20 (crossing horizontally to 3F East)
-if pos == {"x": 1, "y": 6}:
-    print("Walking RIGHT along Row 6 to Column 20...")
-    steps = []
-    for x in range(2, 21):
-        steps.append(("Right", {"x": x, "y": 6}))
-    if not run_steps(steps):
-        print("Failed to reach Column 20 on Row 6")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 4: Walk UP Column 20 to Row 3
-if pos == {"x": 20, "y": 6}:
-    print("Walking UP Column 20 to Row 3...")
-    steps = []
-    for y in range(5, 2, -1):
-        steps.append(("Up", {"x": 20, "y": y}))
-    if not run_steps(steps):
-        print("Failed to reach Row 3 on Column 20")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 5: Walk RIGHT along Row 3 to Column 26
-if pos == {"x": 20, "y": 3}:
-    print("Walking RIGHT along Row 3 to Column 26...")
-    steps = []
-    for x in range(21, 27):
-        steps.append(("Right", {"x": x, "y": 3}))
-    if not run_steps(steps):
-        print("Failed to reach Column 26 on Row 3")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 6: Step DOWN onto Column 26 to drop through the pitfall
-if pos == {"x": 26, "y": 3}:
-    print("Stepping DOWN onto Column 26 to drop through the pitfall...")
-    mgba.press_buttons(["Down"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position after dropping to 1F East:", pos)
+# Toggle back to State A
+if pos == {"x": 1, "y": 13}:
+    print("Toggling switch back to State A...")
+    walk_step("Up", {"x": 1, "y": 12})
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    print("Toggled back to State A.")
+    
+    # Try to walk UP Column 1 in State A
+    print("Trying to walk UP Column 1 in State A...")
+    walk_step("Up", {"x": 1, "y": 11})
+    success = walk_step("Up", {"x": 1, "y": 10}, retries=2)
+    if success:
+        success = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+        if success:
+            print("!!! Column 1 is OPEN in State A!")
+            exit(0)
+        else:
+            print("Blocked at (1, 10) in State A")
 
