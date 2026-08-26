@@ -2110,5 +2110,8 @@
   - Team Rocket Grunt at (19, 14): Sandshrew Lv 29, Sandslash Lv 29 [Defeated].
   - Warp pad at (21, 15): Connects to 5F (27, 3) [Verified bidirectional].
 - Rocket Grunt at (13, 1): Raticate Lv 26, Arbok Lv 26, Koffing Lv 26, Golbat Lv 26 [Defeated].
+- Card Key gate at (10..11, 6) leading south into large room at rows 7+.
+- Open corridor at rows 4-5 (cols 9-13).
+- Plant at (14, 4) and terminal at (14, 5).
 
 <hr>
