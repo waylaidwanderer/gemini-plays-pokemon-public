@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. Elevator at (3, 1) [Turn 17551]; operating elevator panel to access upper floors for healing and infiltration.
+- Location: Silph Co. 9F at (9, 5) [Turn 17581]; exploring 9F rooms and mapping warp pad network.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -64,7 +64,7 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 55
-   - Stats (Verified at Lv 55 Turn 17578): Attack 126, Defense 139, Speed 128, Special 134
+   - Stats (Verified at Lv 55 Turn 17578): Max HP 182 (HP: 101/182), Attack 126, Defense 139, Speed 128, Special 134
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (9/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
@@ -1985,7 +1985,7 @@
 - **6F**: Unsurveyed.
 - **7F**: Target floor for Lapras gift & Rival RED encounter (hypothesized).
 - **8F**: Unsurveyed.
-- **9F**: Unsurveyed.
+- **9F**: Surveyed [Turn 17555-17580]. Elevator at (18, 0), Stairs at (14, 0), Rest Beds at (18..20, 6..7), Rocket Brother defeated at (13, 15), Scientist Ed defeated at (10, 2), warp pads at (11, 5), (11, 9), (23, 7), (23, 11), (3, 15).
 - **10F**: Unsurveyed.
 - **11F**: Target floor for Giovanni confrontation & Master Ball (hypothesized).
 
@@ -2058,7 +2058,7 @@
 
 ## Overview
 - Ninth floor of Silph Co. headquarters.
-- Key Landmark: Rest Beds / Silph Employee Healing Station.
+- Key Landmark: Rest Beds / Healing Station in east room; central elevator & stairs lobby.
 
 ## Layout & Landmarks (Empirically Verified)
 - Elevator Doors: (18, 0)
@@ -2067,16 +2067,23 @@
 - North Lobby Corridor: Rows 1-3 (cols 14-23) open pink floor.
 - Card Key Gate 1 (North): (18, 4), (19, 4) [Yellow locked gate].
 - Central Corridor: Columns 14-15 (rows 1-13) open vertical hall.
-- South Hallway: Rows 14-16 (cols 10-19) open corridor.
-- Rest Beds: (18, 6..7) green beds located in east room.
-- West Room: Desks and warp pads at (11, 5) and (11, 9).
+- South Hallway: Rows 14-16 (cols 1-24) open corridor connecting east, central, and west rooms.
+- Rest Beds: (18, 6..7) and (20, 6..7) green beds located in east room.
+- West Office: Desks and researcher NPC at (4, 2).
+- Central-West Lab: Dividers at (10..12, 7) and column 7 Card Key Gate at (7, 8..9).
+
+## Warp Connections
+- `[9F (11, 9)] <-> [Unknown Floor (3, 11)]` [Verified Turn 17570]
+- `[9F (23, 7)]`: East room warp pad (north).
+- `[9F (23, 11)]`: East room warp pad (south).
+- `[9F (11, 5)]`: Central-west lab warp pad (north).
+- `[9F (3, 15)]`: Southwest hallway warp pad.
 
 ## 9F Trainers (Empirical Tracking)
 1. Rocket Brother at (13, 15): [DEFEATED Turn 17563] Golbat Lv 28, Koffing Lv 28, Drowzee Lv 28; �840 prize.
 2. Rocket Grunt at (19, 2): Spotted near north elevator corridor.
+3. Scientist Ed at (10, 2): [DEFEATED Turn 17577] Grimer Lv 29, Electrode Lv 29; �1392 prize.
+4. Silph Researcher at (4, 2): Friendly NPC ("I wonder if SILPH is finished...").
 
-3. Silph Researcher at (4, 2): Wondering if Silph is finished.
-- Warp Pairing: [9F (11, 9)] <-> [9F (3, 11)] (verified turn 17570).
-4. Scientist Ed at (10, 2): [DEFEATED Turn 17577] Grimer Lv 29, Electrode Lv 29; prize money won.
 
 <hr>
