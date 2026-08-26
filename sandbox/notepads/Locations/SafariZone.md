@@ -7,7 +7,7 @@
 
 ## Critical Objectives (Area 3 Targets)
 1. **Gold Teeth**: [OBTAINED Turn 17210] Located at (19, 7) in Safari Zone Center. Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
-2. **Secret House**: Located in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
+2. **Secret House**: [OBTAINED Turn 17226] Located in secluded western courtyard of Safari Zone Center at (3, 3). Attendant gives HM03 (Surf).
 
 ## Map Topology & Verified Connectivity
 - **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0) at (15, 24).
