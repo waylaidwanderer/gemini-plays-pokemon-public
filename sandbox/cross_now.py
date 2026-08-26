@@ -70,31 +70,74 @@ def run_steps(steps):
             return False
     return True
 
-# --- STAGE 1: Dismiss the "Who wouldn't?" text box ---
-print("Dismissing 'Who wouldn't?' text box...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 2, "y": 12}:
-    # Walk to Column 1 Row 13 via the Row 12/13 bypass to be completely safe
-    print("Walking to (1, 13)...")
-    if run_steps([
-        ("Down", {"x": 2, "y": 13}),
-        ("Left", {"x": 1, "y": 13}),
-    ]):
-        pos = mgba.get_coordinates()
-
+# If we are at (1, 13), walk to (1, 10)
 if pos == {"x": 1, "y": 13}:
-    # Walk up Column 1 to Row 6 (open in State B!)
-    print("Walking up Column 1 to Row 6...")
+    print("Walking up Column 1 to (1, 10)...")
     if run_steps([
         ("Up", {"x": 1, "y": 12}),
         ("Up", {"x": 1, "y": 11}),
         ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}), # OPEN gate!
+    ]):
+        pos = mgba.get_coordinates()
+
+# Now test if the gate is open
+gate_open = False
+if pos == {"x": 1, "y": 10}:
+    print("Testing if gate is open...")
+    gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+    pos = mgba.get_coordinates()
+
+if not gate_open:
+    print("Gate is CLOSED. Walking to switch to toggle...")
+    # Walk to (2, 12)
+    if pos == {"x": 1, "y": 10} or pos == {"x": 1, "y": 9}:
+        if run_steps([
+            ("Down", {"x": 1, "y": 11}),
+            ("Down", {"x": 1, "y": 12}),
+            ("Down", {"x": 1, "y": 13}),
+            ("Right", {"x": 2, "y": 13}),
+            ("Up", {"x": 2, "y": 12}),
+        ]):
+            pos = mgba.get_coordinates()
+            
+    if pos == {"x": 2, "y": 12}:
+        print("Aligning UP...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        print("Toggling Mewtwo statue switch to State B...")
+        mgba.press_buttons([
+            "A", "sleep 1200",
+            "A", "sleep 1200",
+            "Up", "sleep 500",
+            "A", "sleep 1200",
+            "A", "sleep 1200"
+        ])
+        time.sleep(2.0)
+        pos = mgba.get_coordinates()
+        
+    if pos == {"x": 2, "y": 12}:
+        print("Walking back to (1, 10)...")
+        if run_steps([
+            ("Down", {"x": 2, "y": 13}),
+            ("Left", {"x": 1, "y": 13}),
+            ("Up", {"x": 1, "y": 12}),
+            ("Up", {"x": 1, "y": 11}),
+            ("Up", {"x": 1, "y": 10}),
+        ]):
+            pos = mgba.get_coordinates()
+            
+    if pos == {"x": 1, "y": 10}:
+        print("Testing if gate is open after toggle...")
+        gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+        pos = mgba.get_coordinates()
+
+if gate_open and pos == {"x": 1, "y": 9}:
+    print("Gate is OPEN! Walking up Column 1 to Row 6...")
+    if run_steps([
         ("Up", {"x": 1, "y": 8}),
         ("Up", {"x": 1, "y": 7}),
         ("Up", {"x": 1, "y": 6}),
