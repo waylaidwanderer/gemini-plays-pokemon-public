@@ -11,7 +11,7 @@
 - Central Hallways: Rows 1-3 (cols 16-25), Row 5 (cols 16-23), Cols 16-19 (rows 5-9)
 - Computer Lab: Green desks at (20..23, 6..7)
 - Electronic Card Key Gate: (15, 10..11) [Verified Turn 17471]
-- Doorway to Western Sector: (15, 12) [Verified Turn 17471]
+- Doorway to Western Sector: (15, 12) [Verified open Turn 17473; (15, 13..14) are solid walls]
 - Item Ball spotted at (21, 16) [Verified Turn 17471]
 - NPC spotted at (13, 9) [Verified Turn 17471]
 ## 5F Trainers (Empirical Tracking)
