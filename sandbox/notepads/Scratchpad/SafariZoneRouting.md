@@ -34,5 +34,10 @@
    - Target 2: Enter **Secret House** in northwest and speak to attendant for **HM03 (Surf)**.
 
 ## Run 16 Status
-- Status: Initializing Run 16 at Safari Zone Gatehouse.
-- Budget: 500 fresh steps.
+- Status: Active in Area 1 (East) at (7, 20) [Turn 17161].
+- Step Budget: ~420 steps remaining.
+- Active Immediate Plan:
+  1. From (7, 20), walk Up 12 to (7, 8), Right 5 to (12, 8), Up 1 into (12, 7) Upper Ridge Stairs.
+  2. Walk East across upper ridge to (17, 7) descent stairs -> (17, 8).
+  3. Walk East 3 to (20, 8), Up 7 to (20, 1), Left 13 to (7, 1), Down 4 to (7, 5), Left 8 to Area 2 (North) at (0, 5).
+  4. Area 2 -> Area 3 Master Route (82 steps).
