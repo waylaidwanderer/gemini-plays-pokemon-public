@@ -2008,7 +2008,7 @@
 - Computer Lab: Green desks at (20..23, 6..7)
 
 ## 5F Trainers (Empirical Tracking)
-1. Trainer at (18, 10..7): [ENGAGED Turn 17467] Spotted player walking down col 18 corridor.
+1. Juggler at (18, 10..7): [DEFEATED Turn 17468] Kadabra Lv 29, Mr. Mime Lv 29.
 
 
 <hr>
