@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (2, 2) [Turn 17191]; Run 16 active (~250 steps remaining).
+- Location: Safari Zone Center at (7, 2) [Turn 17221]; Gold Teeth in Bag; Run 16 active.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -196,7 +196,8 @@
 - [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
 - [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
 - [x] Awaken and defeat Route 16 Sleeping Snorlax with Poké Flute; clear Cycling Road roadblock [Turn 15395]
-- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]
+- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]- [x] Retrieve Safari Warden's lost Gold Teeth in Safari Zone Center [Turn 17210]
+
 
 <hr>
 
@@ -1846,7 +1847,7 @@
    - Target 2: Enter **Secret House** in northwest and speak to attendant for **HM03 (Surf)**.
 
 ## Run 16 Status
-- Status: Active in Area 2 (North) at (2, 2) [Turn 17191].
+- Status: Active in Safari Zone Center at (7, 2) [Turn 17221]; Gold Teeth collected at (19, 7).
 - Step Budget: ~250 steps remaining.
 - Active Immediate Plan:
   1. From (2, 2), walk south along column 1/2 surveying column 0 west perimeter across rows 2-34 to identify the exact warp tile into Area 3 (West).
