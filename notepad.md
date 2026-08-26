@@ -1881,7 +1881,7 @@
 
 ## Gym Trainers (Empirically Verified)
 1. Juggler 1 at (8, 13): [DEFEATED Turn 17363] Hypno Lv 38; �1330 prize.
-2. Juggler 2 at (7, 8) / (8, 8): [IN BATTLE Turn 17368] Drowzee Lv 31, ...
+2. Juggler 2 at (7, 8) / (8, 8): [DEFEATED Turn 17378] Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31; �1085 prize.
 
 ## Verified Collision & Traversal Matrix (Turn 17371)
 - **Open Passable Tiles**:
