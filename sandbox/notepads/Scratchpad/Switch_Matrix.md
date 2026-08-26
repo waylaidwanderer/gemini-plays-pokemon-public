@@ -19,7 +19,7 @@
 
 ### State A (Default)
 - **1F West Row 9 Gates:** CLOSED.
-- **2F West Row 9 Gates:** CLOSED.
+- **2F West Row 9 Wall (Columns 2-9):** Permanent solid horizontal wall separating southern hallway from northern rooms.
 - **2F West Column 10 Row 8:** OPEN (verified on Turn 55967).
 - **2F Column 15 Row 6:** OPEN (verified on Turn 55941).
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).

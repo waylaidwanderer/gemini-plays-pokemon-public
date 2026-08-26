@@ -1422,7 +1422,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 ### State A (Default)
 - **1F West Row 9 Gates:** CLOSED.
-- **2F West Row 9 Gates:** CLOSED.
+- **2F West Row 9 Wall (Columns 2-9):** Permanent solid horizontal wall separating southern hallway from northern rooms.
 - **2F West Column 10 Row 8:** OPEN (verified on Turn 55967).
 - **2F Column 15 Row 6:** OPEN (verified on Turn 55941).
 - **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
@@ -1534,7 +1534,6 @@ Thus, the correct State B bypass route on 2F is:
 - Interaction: Press A to open dialogue, select YES, and press A again to dismiss (EXACTLY 3 A presses total to toggle the switch once and safely return to the overworld).
 - Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
 - Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 1 through the Row 9 gate which is OPEN in State B.
-
 
 <hr>
 
