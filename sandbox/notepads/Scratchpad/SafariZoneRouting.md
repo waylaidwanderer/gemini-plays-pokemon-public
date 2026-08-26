@@ -13,9 +13,13 @@
    - From (15, 24): Up 3 to (15, 21) -> Right 10 to (25, 21) -> Up 11 to (25, 10) -> Right 4 to (29, 10) into Area 1 (East) at (0, 22).
 2. **Waypoint 2: Safari Zone Area 1 (East)** [VERIFIED - 67 steps]:
    - From (0, 22): Down 2 to (0, 24) -> Right 20 along row 24/26 to (20, 24) -> Up 3 across Lower Ridge stairs at (20, 21) to (20, 20) -> Left 8 across Lower Ridge to (12, 20) -> Down 2 across stairs at (12, 21) to (12, 22) -> Left 3 to (9, 22) -> Up 14 along col 9 to (9, 8) -> Right 3 to (12, 8) -> Up 3 across Upper Ridge stairs (12, 7) to (12, 5) -> Right 5 to (17, 5) -> Down 3 across stairs (17, 7) to (17, 8) -> Right 3 to (20, 8) -> Up 6 along col 20 to (20, 2) -> Left 13 along row 2 to (7, 2) -> Down 3 to (7, 5) -> Left 8 to (0, 5) into Area 2 (North) at (39, 31).
-3. **Waypoint 3: Safari Zone Area 2 (North) to Area 3 (West)** [~345 steps remaining]:
-   - From entrance at (39, 31): Through Central Ridge (ascent stairs at (22, 23), descent stairs at (16, 27)) to (16, 28).
-   - From (16, 28): Traverse around Southeast Pond south through (6, 30) -> Left to (2, 30) into Western Lawn (cols 2-4, rows 20-33).
+3. **Waypoint 3: Safari Zone Area 2 (North) Traversal & Survey** [~404 steps remaining]:
+   - From entrance at (39, 31):
+     - **Option A (East-Central Survey)**: Explore cols 23-38, rows 6-25 between Central Ridge and Eastern Avenue.
+     - **Option B (Western Thoroughfare via Northern Highway)**:
+       - Walk north along col 38 to (38, 2) Northern Highway -> Walk Left across row 2 to (2, 2) Western Avenue -> Walk south along col 2/3 to survey western lawn (cols 1-4, rows 20-28) and test col 0 for Area 3 (West) transition.
+     - *Verified Barrier Rule*: Col 5 is solid bushes/trees along rows 20-33. The ONLY passable East-West thoroughfare across Area 2 is the Northern Highway (row 2, cols 2-38) and the row 6/col 10 bypass. Do NOT attempt to cross west at row 30.
+     - *No Premature Exit*: Do NOT walk south off row 35 at (2, 35) into Center Area.
 4. **Waypoint 4: Area 3 (West) Objectives** [TARGET - ~300+ steps available]:
    - Retrieve **Gold Teeth** on ground.
    - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
