@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia Gym at (3, 3) [Turn 17401]; 4 gym trainers defeated; navigating west maze corridor to engage remaining trainers before Koga.
+- Location: Fuchsia Gym at (1, 7) [Turn 17408]; 5 gym trainers defeated; navigating southwest corridor to engage final trainer and challenge Koga.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

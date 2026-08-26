@@ -1884,7 +1884,7 @@
 2. Juggler 2 at (7, 8) / (8, 8): [DEFEATED Turn 17378] Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31; �1085 prize.
 3. Tamer 1 at (8, 2): [DEFEATED Turn 17386] Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33; �1320 prize.
 4. Tamer 2 at (3, 5): [DEFEATED Turn 17399] Sandslash Lv 34, Arbok Lv 34; �1360 prize.
-5. Trainer at (2, 7): Approaching from (2, 6) [Turn 17401].
+5. Juggler 3 at (2, 7): [DEFEATED Turn 17407] Drowzee Lv 34, Hypno Lv 34; �1190 prize.
 
 ## Maze Topology & Traversal Protocol
 - **Empirically Verified Walkable Corridors**:
