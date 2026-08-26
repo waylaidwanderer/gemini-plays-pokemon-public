@@ -46,3 +46,9 @@
 - **East-Central Rest House (Area 2 North)**:
   - Exterior: Located at cols 34-37, rows 2-3 with entrance door at (35, 3) and signpost at (36, 4).
   - Interior: Entrance mat at (2..3, 7). NPCs at (1, 4), (3, 4), (7, 3). PC terminal at (0, 4). Safari steps do not decrement while inside.
+## East-Central Plateau (Area 2 North) Topology (Verified Turn 16930)
+- **South Ascent Stairs**: (28, 27) leading up from (28, 28) onto plateau at (28, 26).
+- **Southern Plateau**: cols 27-38, rows 24-26 (sandy elevated floor).
+- **Connecting Bridge Walkway**: cols 37-38, rows 16-23 (elevated 2-tile wide path flanked by cliffs).
+- **Northern Plateau**: cols 33-38, rows 12-14 (sandy elevated floor).
+- **North Descent Stairs**: (34, 15) leading down to (34, 16) into the central clearing.
