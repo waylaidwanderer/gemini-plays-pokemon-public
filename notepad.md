@@ -108,7 +108,7 @@
 ## Inventory & Resources (Verified Turn 15241)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
 - Bag Capacity: 18 / 20 slots used (2 empty slots available for Gold Teeth & HM03 Surf)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥28,428+
 
@@ -197,6 +197,7 @@
 - [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
 - [x] Awaken and defeat Route 16 Sleeping Snorlax with Poké Flute; clear Cycling Road roadblock [Turn 15395]
 - [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]- [x] Retrieve Safari Warden's lost Gold Teeth in Safari Zone Center [Turn 17210]
+- [x] Obtain HM03 Surf from Secret House attendant in Safari Zone [Turn 17226]
 
 
 <hr>
@@ -1747,7 +1748,7 @@
 
 ## Critical Objectives (Area 3 Targets)
 1. **Gold Teeth**: [OBTAINED Turn 17210] Located at (19, 7) in Safari Zone Center. Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
-2. **Secret House**: Located in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
+2. **Secret House**: [OBTAINED Turn 17226] Located in secluded western courtyard of Safari Zone Center at (3, 3). Attendant gives HM03 (Surf).
 
 ## Map Topology & Verified Connectivity
 - **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0) at (15, 24).
