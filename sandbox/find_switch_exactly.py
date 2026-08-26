@@ -7,29 +7,60 @@ def is_dialogue_open():
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
     
-    # Check if a horizontal black border line of at least 110 pixels is present at y=112
-    black_pixels = 0
-    for x in range(10, 150):
-        r, g, b = img.getpixel((x, 112))
-        if r < 80 and g < 80 and b < 80:
-            black_pixels += 1
-            
-    # Also check if the dialogue box area contains a solid white/cream background
-    bg_pixels = 0
-    for y in range(116, 140):
-        for x in range(20, 140):
-            r, g, b = img.getpixel((x, y))
-            if abs(r - 247) < 10 and abs(g - 231) < 10 and abs(b - 214) < 10:
-                bg_pixels += 1
-                
-    print(f"DEBUG Check: black_pixels={black_pixels}, bg_pixels={bg_pixels}")
-    return black_pixels > 120 and bg_pixels > 1500
+    # Dialogue box border at y=112 (Check if solid black)
+    r_border, g_border, b_border = img.getpixel((80, 112))
+    is_border_black = r_border < 80 and g_border < 80 and b_border < 80
+    
+    # Dialogue box background at y=122 (Check if solid cream)
+    r_bg, g_bg, b_bg = img.getpixel((80, 122))
+    is_bg_cream = abs(r_bg - 247) < 10 and abs(g_bg - 231) < 10 and abs(b_bg - 214) < 10
+    
+    print(f"is_dialogue_open check: border=({r_border},{g_border},{b_border}) black={is_border_black}, bg=({r_bg},{g_bg},{b_bg}) cream={is_bg_cream}")
+    return is_border_black and is_bg_cream
 
 def handle_any_menu_or_battle():
-    time.sleep(0.1)
-    if is_dialogue_open():
+    time.sleep(0.15)
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file)
+    img_std = img.resize((160, 144), Image.Resampling.NEAREST)
+    
+    black_or_white = 0
+    total_pixels = 0
+    for y in range(115, 140):
+        for x in range(10, 150):
+            r, g, b = img_std.getpixel((x, y))
+            total_pixels += 1
+            is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+            if is_bw:
+                black_or_white += 1
+                
+    percentage = black_or_white / total_pixels
+    if percentage > 0.90:
+        print(f"Menu/Dialogue detected! (B/W: {percentage*100:.2f}%)")
         mgba.press_buttons(["B"])
         time.sleep(0.4)
+        
+        # Check if still in battle
+        scr_file2 = mgba.take_screenshot()
+        img2 = Image.open(scr_file2)
+        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
+        black_or_white2 = 0
+        for y in range(115, 140):
+            for x in range(10, 150):
+                r, g, b = img_std2.getpixel((x, y))
+                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+                if is_bw:
+                    black_or_white2 += 1
+        percentage2 = black_or_white2 / total_pixels
+        
+        if percentage2 > 0.90:
+            print("Still in battle. Running...")
+            mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
+            time.sleep(1.5)
+            # Dismiss run text
+            for _ in range(4):
+                mgba.press_buttons(["B"])
+                time.sleep(0.3)
         return True
     return False
 
@@ -71,11 +102,11 @@ time.sleep(0.4)
 pos = mgba.get_coordinates()
 print("Starting search at position:", pos)
 
-# We are at (1, 10). Let's list all walkable/open floor tiles on the west side
+# We are at (1, 10). Let's list the open floor tiles
 open_tiles = [
     (1, 10), (1, 11), (1, 12), (1, 13),
     (2, 13), (3, 13), (4, 13), (5, 13),
-    (5, 12), (5, 11), (5, 10), (5, 9), (5, 8),
+    (5, 12), (5, 11), (5, 10), (5, 8),
     (4, 10), (4, 11), (4, 12),
 ]
 
