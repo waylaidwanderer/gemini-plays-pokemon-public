@@ -1463,7 +1463,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 4)`.
 
 5. **Warp DOWN to B1F East & Retrieve Secret Key:**
-   - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 3)`).
+   - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 2)`).
    - On B1F East, walk horizontally along Row 5 across Column 9 gate (now open in State B) directly to B1F West at `(1, 5)`.
    - Stand at `(1, 5)` facing UP and retrieve the Secret Key at `(1, 4)`!
    - Escape via DIG back to Cinnabar Island.
@@ -1536,6 +1536,14 @@ Thus, the correct State B bypass route on 2F is:
   - **Bypass Route (Column 2 Row 13):** From `(1, 13)`, walk RIGHT to `(2, 13)`, and walk UP Column 2 directly to Row 6 `(2, 6)` (this bypasses the solid statue at `(1, 12)` completely on Column 2, which is open floor!).
 - Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
 - Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 2 through the Row 9 gate which is OPEN in State B.
+## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
+- Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
+  - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
+  - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
+  - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
+  - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
+- **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
+
 
 <hr>
 
@@ -1592,6 +1600,14 @@ Thus, the correct State B bypass route on 2F is:
 ## Switch Coordinates & Verified B1F Info (Turn 61084)
 - The entire mansion is solved by toggling the Mewtwo switch at `(2, 10)` or `(1, 12)` on 3F West to State B!
 - Once in State B, the B1F East NORTH gate at `(9, 5)` is OPEN, allowing us to walk directly across Row 5 from B1F East `(22, 3)` to the Secret Key room at `(1, 4)`.
+
+## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
+- Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
+  - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
+  - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
+  - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
+  - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
+- **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
 
 
 <hr>
