@@ -73,40 +73,7 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Step 1: Walk to switch standing tile (2, 12) on 2F West
-if pos == {"x": 6, "y": 10}:
-    print("Walking to switch standing tile (2, 12)...")
-    if not run_steps([
-        ("Down", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-        ("Down", {"x": 5, "y": 12}),
-        ("Down", {"x": 5, "y": 13}),
-        ("Left", {"x": 4, "y": 13}),
-        ("Left", {"x": 3, "y": 13}),
-        ("Left", {"x": 2, "y": 13}),
-        ("Up", {"x": 2, "y": 12}),
-    ]):
-        print("Failed to reach (2, 12)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 2: Toggle the Mewtwo statue switch ONCE to activate State B (using exactly 4 A-presses)
-if pos == {"x": 2, "y": 12}:
-    print("Aligning UP...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Toggling Mewtwo statue switch to State B...")
-    mgba.press_buttons([
-        "A", "sleep 1200",   # 1. Opens "A secret switch!"
-        "A", "sleep 1200",   # 2. Opens YES/NO menu
-        "A", "sleep 1200",   # 3. Selects YES (selected by default) -> prints "Who wouldn't!"
-        "A", "sleep 1200"    # 4. Closes the dialogue box and returns to overworld!
-    ])
-    time.sleep(5.5)
-    pos = mgba.get_coordinates()
-
-# Step 3: Walk back to Column 5. Column 5 Row 9 is now OPEN in State B!
+# Walk back to Column 5. Column 5 Row 9 is now OPEN in State B!
 if pos == {"x": 2, "y": 12}:
     print("Walking back to Column 5 via Row 13 bypass...")
     if not run_steps([
