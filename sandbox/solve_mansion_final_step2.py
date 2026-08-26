@@ -72,68 +72,30 @@ def run_steps(steps):
     return True
 
 def main():
-    pos = mgba.get_coordinates()
-    print("Starting solve_mansion_final_step2.py, current coords:", pos)
+    print("Starting solve_mansion_final_step2_part2.py...")
     
-    if pos != {"x": 2, "y": 12}:
-        print("Error: Player is not at (2, 12) on 3F West!")
-        return
-
-    # --- STAGE 1: Walk from switch (2, 12) to Column 10 Row 9 ---
-    print("Navigating to 3F West-to-East crossing...")
-    if not run_steps([
-        ("Down", {"x": 2, "y": 13}),
-        ("Right", {"x": 3, "y": 13}),
-        ("Right", {"x": 4, "y": 13}),
-        ("Right", {"x": 5, "y": 13}),
-        ("Right", {"x": 6, "y": 13}),
-        ("Up", {"x": 6, "y": 12}),
-        ("Up", {"x": 6, "y": 11}),
-        ("Right", {"x": 7, "y": 11}),
-        ("Right", {"x": 8, "y": 11}),
-        ("Right", {"x": 9, "y": 11}),
-        ("Right", {"x": 10, "y": 11}),
-        ("Up", {"x": 10, "y": 10}),
-        ("Up", {"x": 10, "y": 9}),
-    ]):
-        return
+    # --- STAGE 0: Escape Battle ---
+    # We are in battle. The cursor is on FIGHT. Select RUN (Down, Right, A)
+    print("Escaping from battle first...")
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1500"])
+    
+    # Dismiss any "Got away safely!" text
+    for _ in range(4):
+        mgba.press_buttons(["B", "sleep 200"])
+    time.sleep(0.5)
+    
     pos = mgba.get_coordinates()
+    print("Current position after escape:", pos)
+    
+    if pos["x"] < 17 or pos["y"] != 6:
+        print("Error: Player is not at the expected Row 6 position!")
+        return
 
-    # --- STAGE 2: Cross 3F West to 3F East ---
-    if pos == {"x": 10, "y": 9}:
-        print("Crossing horizontally to 3F East...")
-        mgba.press_buttons(["Right"])
-        time.sleep(1.5)
-        pos = mgba.get_coordinates()
-        print("Landed on 3F East at:", pos)
-        
-    # --- STAGE 3: Walk to (12, 6) ---
-    if pos["x"] in [11, 12] and pos["y"] == 9:
-        print("Navigating on 3F East to Row 6...")
-        if pos["x"] == 11:
-            if not walk_step("Right", {"x": 12, "y": 9}):
-                return
-        if not run_steps([
-            ("Up", {"x": 12, "y": 8}),
-            ("Up", {"x": 12, "y": 7}),
-            ("Up", {"x": 12, "y": 6}),
-        ]):
-            return
-        pos = mgba.get_coordinates()
-
-    # --- STAGE 4: Walk RIGHT along Row 6 to Column 20 ---
-    if pos == {"x": 12, "y": 6}:
-        print("Walking RIGHT along Row 6 to Column 20...")
-        if not run_steps([
-            ("Right", {"x": 13, "y": 6}),
-            ("Right", {"x": 14, "y": 6}),
-            ("Right", {"x": 15, "y": 6}),
-            ("Right", {"x": 16, "y": 6}),
-            ("Right", {"x": 17, "y": 6}),
-            ("Right", {"x": 18, "y": 6}),
-            ("Right", {"x": 19, "y": 6}),
-            ("Right", {"x": 20, "y": 6}),
-        ]):
+    # --- STAGE 4: Continue walking RIGHT along Row 6 to Column 20 ---
+    print("Walking RIGHT along Row 6 to Column 20...")
+    while pos["x"] < 20:
+        next_x = pos["x"] + 1
+        if not walk_step("Right", {"x": next_x, "y": 6}):
             return
         pos = mgba.get_coordinates()
 
