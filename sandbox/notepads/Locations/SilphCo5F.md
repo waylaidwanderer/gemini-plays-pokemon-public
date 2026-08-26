@@ -23,5 +23,5 @@
 
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
-2. Scientist Beau at (9, 3): [ENGAGED Turn 17478] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26.
+2. Scientist Beau at (9, 3): [DEFEATED Turn 17479] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26; ¥1300 prize.
 3. Scientist at (13, 9): Spotted in western room [Turn 17471].
