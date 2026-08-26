@@ -76,8 +76,8 @@
 3. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54) [Healed with Super Potion Turn 15708]
    - Type: Fighting
-   - Moves: Karate Chop (22/25), Low Kick
-   - Role: Physical Fighting attacker (Reserve)
+   - Moves: Karate Chop (22/25), Low Kick, Strength (HM04 learned Turn 17295)
+   - Role: Physical Fighting attacker & Strength utility (Reserve)
 4. TERRA (Geodude) - Lv 21
    - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
