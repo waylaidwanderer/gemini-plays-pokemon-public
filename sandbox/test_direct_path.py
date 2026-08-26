@@ -73,24 +73,17 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 6, "y": 10}:
-    print("Moving back to (5, 11)...")
-    if not run_steps([
-        ("Down", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-    ]):
-        print("Failed to reach (5, 11)")
-        exit(1)
+if pos == {"x": 7, "y": 10}:
+    print("Walking UP Column 7 to Row 3...")
+    steps = []
+    for y in range(9, 2, -1):
+        steps.append(("Up", {"x": 7, "y": y}))
+    if not run_steps(steps):
+         print("Failed to walk UP Column 7")
+         exit(1)
     pos = mgba.get_coordinates()
-
-if pos == {"x": 5, "y": 11}:
-    print("Testing walking UP to (5, 10)...")
-    # Let's see if we warp or not.
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
-    pos = mgba.get_coordinates()
-    print("Position after walking UP onto (5, 10):", pos)
     
-    # Let's take a screenshot to visually verify what floor/room we are on
+    # Take a screenshot at Row 3
     scr = mgba.take_screenshot()
-    print("Verification screenshot:", scr)
+    print("Row 3 screenshot:", scr)
+
