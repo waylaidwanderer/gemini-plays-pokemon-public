@@ -47,7 +47,8 @@
 - [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
 - [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
 - [x] Awaken and defeat Route 16 Sleeping Snorlax with Poké Flute; clear Cycling Road roadblock [Turn 15395]
-- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]- [x] Retrieve Safari Warden's lost Gold Teeth in Safari Zone Center [Turn 17210]
+- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]
+- [x] Retrieve Safari Warden's lost Gold Teeth in Safari Zone Center [Turn 17210]
 - [x] Obtain HM03 Surf from Secret House attendant in Safari Zone [Turn 17226]
 
 - [x] Deliver Gold Teeth to Safari Warden & receive HM04 Strength [Turn 17278]
