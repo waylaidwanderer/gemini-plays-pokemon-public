@@ -71,19 +71,19 @@ def run_steps(steps):
     return True
 
 pos = mgba.get_coordinates()
-print("Starting position:", pos)
+print("Starting position on 2F West:", pos)
 
-# Stage 1: Walk left to the stairs at (5, 10) on 3F West and go DOWN to 2F West (landing at 5, 11)
-if pos == {"x": 7, "y": 10}:
-    print("Walking left to stairs at (5, 10)...")
+# Step 1: Walk to (5, 11) on 2F West
+if pos == {"x": 3, "y": 11}:
+    print("Walking to (5, 11) on 2F West...")
     if not run_steps([
-        ("Left", {"x": 6, "y": 10}),
-        ("Left", {"x": 5, "y": 11}) # Step LEFT onto (5, 10) warps DOWN to 2F West at (5, 11)
+        ("Right", {"x": 4, "y": 11}),
+        ("Right", {"x": 5, "y": 11}),
     ]):
         exit(1)
     pos = mgba.get_coordinates()
 
-# Stage 2: On 2F West (landing at 5, 11), walk UP Column 5 directly to Row 3 (5, 3)
+# Step 2: Walk UP Column 5 directly to Row 3 (5, 3)
 if pos == {"x": 5, "y": 11}:
     print("Walking UP Column 5 to Row 3...")
     if not run_steps([
@@ -99,14 +99,14 @@ if pos == {"x": 5, "y": 11}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# Stage 3: Cross horizontally on Row 3 from (5, 3) to (18, 3)
+# Step 3: Cross horizontally on Row 3 from (5, 3) to (18, 3) on 2F East
 if pos == {"x": 5, "y": 3}:
     print("Crossing horizontally on Row 3 to (18, 3)...")
     if not run_steps([("Right", {"x": 5 + i + 1, "y": 3}) for i in range(13)]):
         exit(1)
     pos = mgba.get_coordinates()
 
-# Stage 4: On 2F East, walk DOWN Column 18 to Row 10 (18, 10), then left to (15, 10), then DOWN to (15, 11) (warps to 3F East)
+# Step 4: On 2F East, walk DOWN Column 18 to Row 10 (18, 10)
 if pos == {"x": 18, "y": 3}:
     print("Walking DOWN Column 18 to Row 10...")
     if not run_steps([("Down", {"x": 18, "y": 3 + i + 1}) for i in range(7)]):
@@ -123,6 +123,7 @@ if pos == {"x": 18, "y": 10}:
         exit(1)
     pos = mgba.get_coordinates()
 
+# Step 5: Step DOWN onto the stairs at (15, 11) on 2F East to warp UP to 3F East, landing at (16, 11)
 if pos == {"x": 15, "y": 10}:
     print("Taking stairs up to 3F East...")
     if not run_steps([
@@ -131,7 +132,7 @@ if pos == {"x": 15, "y": 10}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# Stage 5: On 3F East (landing at 16, 11), walk to Column 20, UP Column 20 to Row 3, RIGHT Row 3 to Column 26, drop!
+# Step 6: On 3F East (landing at 16, 11), walk to Column 20, UP Column 20 to Row 3, RIGHT Row 3 to Column 26, drop!
 if pos == {"x": 16, "y": 11}:
     print("Walking to (20, 11) on 3F East...")
     if not run_steps([
