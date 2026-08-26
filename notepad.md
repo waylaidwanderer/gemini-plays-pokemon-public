@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (10, 5) [Turn 17483]; navigating south down column 8 corridor to reach row 16 and retrieve the Card Key.
+- Location: Silph Co. at (17, 15) [Turn 17491]; returning via warp pad to 5F (9, 15) to access row 16 and retrieve the item ball at (21, 16).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -66,7 +66,7 @@
 1. HYDROS (Blastoise) - Lv 54
    - Stats (Verified at Lv 53 Turn 17397): Max HP 179 (HP: 163/179), Attack 121, Defense 134, Speed 123, Special 128
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (9/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -1988,6 +1988,9 @@
 - **9F**: Unsurveyed.
 - **10F**: Unsurveyed.
 - **11F**: Target floor for Giovanni confrontation & Master Ball (hypothesized).
+
+## Empirical Warp Tile Matrix
+- `[5F (9, 15)] <-> [Unknown Floor (17, 15)]` [Verified Turn 17489-17491]
 
 
 <hr>

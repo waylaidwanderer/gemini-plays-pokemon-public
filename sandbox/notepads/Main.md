@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. at (17, 15) [Turn 17491]; returning via warp pad to 5F (9, 15) to access row 16 and retrieve the item ball at (21, 16).
+- Location: Silph Co. 5F at (20, 16) [Turn 17492]; collected item ball at (21, 16); continuing search for Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
