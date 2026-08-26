@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 7F at (21, 3) [Turn 17652]; party 100% fully healed; unlocking Card Key gate at (21, 4) to enter 7F office suite.
+- Location: Silph Co. 7F at (21, 15) [Turn 17671]; party 100% full health; unlocked gates at (21, 4) and (21, 12); defeated Rocket Grunt at (19, 14); confirmed warp 7F (21, 15) <-> 5F (27, 3); testing warp pad at (18, 11).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2090,28 +2090,6 @@
 <hr>
 
 <h1><code>Locations/SilphCo7F</code></h1>
-
-# Silph Co. 7F - Points of Interest & Layout
-
-## Overview
-- Elevator at (23, 3) / Stairs at (22, 1).
-- Northern corridor runs along row 1 from col 23 west to col 20.
-- Rocket Grunt defeated at (20, 2).
-- Card Key gate at (21, 4) unlocked.
-
-## Rooms & Features
-- Northern Office Suite entered via gate at (21, 4) -> (21, 5..11).
-- Warp pads at (18, 7), (18, 9), and (18, 11).
-- Desks at cols 22-23, rows 7-9.
-- Second Card Key gate at (20..21, 12).
-- Southern secluded room behind gate (21, 12):
-  - Silph employee NPC at (19, 14).
-  - Warp pad at (21, 15): Connects to 5F (27, 3).
-- Team Rocket Grunt at (19, 14): Sandshrew Lv 29, Sandslash Lv 29 (Defeated).
-
-<hr>
-
-<h1><code>Locations/SilphCo7F.md</code></h1>
 
 # Silph Co. 7F - Points of Interest & Layout
 

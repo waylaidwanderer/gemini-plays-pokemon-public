@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 7F at (21, 3) [Turn 17652]; party 100% fully healed; unlocking Card Key gate at (21, 4) to enter 7F office suite.
+- Location: Silph Co. 7F at (21, 15) [Turn 17671]; party 100% full health; unlocked gates at (21, 4) and (21, 12); defeated Rocket Grunt at (19, 14); confirmed warp 7F (21, 15) <-> 5F (27, 3); testing warp pad at (18, 11).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
