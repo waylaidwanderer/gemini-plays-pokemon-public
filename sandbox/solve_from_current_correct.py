@@ -75,24 +75,25 @@ mgba.press_buttons(["B"])
 time.sleep(0.5)
 
 pos = mgba.get_coordinates()
-print("Starting real Column 12 solver from position:", pos)
+print("Starting real Column 12 bypass solver from position:", pos)
 
-# 1. Walk from (10, 13) to Column 12 Row 13
+# 1. Walk from (10, 13) to Column 12 Row 12 (bypassing Row 13 wall)
 if pos == {"x": 10, "y": 13}:
-    print("Walking to Column 12 Row 13...")
+    print("Walking to Column 12 Row 12...")
     if not run_steps([
-        ("Right", {"x": 11, "y": 13}),
-        ("Right", {"x": 12, "y": 13}),
+        ("Up", {"x": 10, "y": 12}),
+        ("Right", {"x": 11, "y": 12}),
+        ("Right", {"x": 12, "y": 12}),
     ]):
-        print("Failed to reach (12, 13)")
+        print("Failed to reach (12, 12)")
         exit(1)
     pos = mgba.get_coordinates()
 
 # 2. Walk UP Column 12 to Row 6
-if pos == {"x": 12, "y": 13}:
+if pos == {"x": 12, "y": 12}:
     print("Walking UP Column 12 to Row 6...")
     steps = []
-    for y in range(12, 5, -1):
+    for y in range(11, 5, -1):
         steps.append(("Up", {"x": 12, "y": y}))
     if not run_steps(steps):
         print("Failed to reach Row 6 on Column 12")
