@@ -1526,12 +1526,16 @@ Thus, the correct State B bypass route on 2F is:
 - **Rubble block at (2, 12):** The statue pedestal at `(2, 12)` behaves as a solid block/rubble obstacle from all other sides.
 
 
-## Verified 3F West Switch Statue Interaction Coordinates (Turn 60621-60661)
-- Mewtwo Switch Statue: Coordinates at `(2, 11)` on 3F West.
-- Standing Position: Stand at `(2, 12)` facing UP towards `(2, 11)`.
-- Interaction: Press A to open dialogue, select YES, and press A again to dismiss (EXACTLY 3 A presses total to toggle the switch once and safely return to the overworld).
+## Verified 3F West Switch Statue Interaction Coordinates (Updated Turn 61084)
+- **Primary Switch Statue:** Coordinates at `(2, 10)` on 3F West.
+  - Standing Position: Stand at `(2, 11)` facing UP towards `(2, 10)`.
+  - Interaction: Press A to open dialogue, select YES, and press A again to dismiss.
+- **Secondary Switch Statue:** Coordinates at `(1, 12)` on 3F West (verified on Turn 61072).
+  - Standing Position: Stand at `(1, 13)` facing UP towards `(1, 12)`.
+  - Collision Obstacle: Since the statue at `(1, 12)` is solid, Column 1 is blocked at Row 12 in both State A and State B!
+  - **Bypass Route (Column 2 Row 13):** From `(1, 13)`, walk RIGHT to `(2, 13)`, and walk UP Column 2 directly to Row 6 `(2, 6)` (this bypasses the solid statue at `(1, 12)` completely on Column 2, which is open floor!).
 - Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
-- Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 1 through the Row 9 gate which is OPEN in State B.
+- Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 2 through the Row 9 gate which is OPEN in State B.
 
 <hr>
 
@@ -1584,6 +1588,11 @@ Thus, the correct State B bypass route on 2F is:
 - **Row 5 Column 20-21 Solid Barrier (Turn 57908):** Row 5 on Columns 20 and 21 contains a solid permanent horizontal wall block. Direct horizontal crossing from East to West on Row 5 is blocked at Columns 20 and 21. Crossing must be done by walking Left on Row 4 to Column 19, then walking Down to Row 5, and then walking Left directly through the open Column 9 gate at `(9, 5)`.
 - **B1F East Mewtwo Statues (Turn 57381):** Statues at `(16, 10)` and `(18, 10)` have been physically interacted with and verified to have no switches. They are purely decorative.
 - **Column 9 Row 5 Gate (Turn 57908):** Gate at `(9, 5)` is OPEN in State B and CLOSED in State A. Allows horizontal crossing between B1F East and B1F West North.
+
+## Switch Coordinates & Verified B1F Info (Turn 61084)
+- The entire mansion is solved by toggling the Mewtwo switch at `(2, 10)` or `(1, 12)` on 3F West to State B!
+- Once in State B, the B1F East NORTH gate at `(9, 5)` is OPEN, allowing us to walk directly across Row 5 from B1F East `(22, 3)` to the Secret Key room at `(1, 4)`.
+
 
 <hr>
 
