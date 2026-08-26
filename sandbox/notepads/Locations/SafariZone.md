@@ -16,6 +16,7 @@
   - North border: Row 0 is solid wall of trees [Verified Turns 16341-16342; no north exit].
   - West border: Col 0 is solid trees along rows 2-33 [Verified Turns 16333-16337; no west exit].
   - Signpost at (4, 25): "TRAINER TIPS: The SECRET HOUSE is still ahead!".
+  - Verified Physical Collisions (Center Area West): (0, 14..23) solid bushes/trees (2x2 tree at 0..1, 16..17; collision at (0, 23) Turn 17013); (1, 24..25) solid bush cluster; (2, 24..25) fence post.
 - **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
 - **Area 2 (North)**:
   - East exit: (39, 31) -> Area 1 (East) at (0, 5).

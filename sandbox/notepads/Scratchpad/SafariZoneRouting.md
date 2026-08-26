@@ -25,9 +25,9 @@
    - Walk Left 6 to (16, 22).
    - Walk Down 6 along column 16 through descent stairs at (16, 27) to ground at (16, 28).
    - Walk Left 4 to (12, 28).
-   - Walk Up 26 along column 12 corridor to Northern Highway at (12, 2).
-   - Walk Left 10 to (2, 2).
-   - Walk South into Area 3 (West) entrance!
+   - Walk Up 22 along column 12 corridor to row 6 at (12, 6).
+   - Walk Left 2 to (10, 6), then Up 4 along column 10 bypass to Northern Highway at (10, 2).
+   - Walk Left 8 to (2, 2), then follow western path south to Area 3 (West) transition!
 
 4. **Area 3 (West) [317 Steps Budget Remaining]**:
    - Target 1: Retrieve **Gold Teeth** on ground.
