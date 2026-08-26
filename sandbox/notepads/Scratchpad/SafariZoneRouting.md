@@ -1,11 +1,10 @@
 # Safari Zone Master Routing & Strategy (Run 13 -> Run 14)
 
-## Step Budget Tracking (Run 13 - Wrapping Up)
-- Start: 500 steps (Turn 16791 at Gatehouse/Center (15, 24))
-- Waypoint 1 (Center to Area 1 East): 28 steps (Turn 16796 at (0, 22)) -> 472 remaining
-- Waypoint 2 (Area 1 East to Area 2 North): 67 steps (Turn 16814 at (39, 31)) -> 405 remaining
-- Current Position: (7, 3) in Center Area at Turn 16891 with ~170 steps remaining.
-- Action: Returning to Gatehouse at (15, 24) to start Run 14 with fresh 500 steps.
+## Step Budget Tracking (Run 14 - Active Turn 16908)
+- Start: 500 steps (Turn 16908 at Gatehouse/Center (15, 24))
+- Waypoint 1 (Center to Area 1 East): 28 steps (Turn 16909-16913 at (0, 22)) -> 472 remaining
+- Waypoint 2 (Area 1 East to Area 2 North): 70 steps taken to (20, 8) -> 402 remaining; 30 steps to (0, 5) into Area 2 North at (39, 31).
+- Current Position: (20, 8) in Area 1 (East) at Turn 16921 with ~402 steps remaining.
 
 ## Empirical Topology & Disproven Hypotheses
 - **Center Area (Area 0)**:
@@ -37,3 +36,10 @@
 4. **Target Objectives (Area 3)**:
    - Retrieve **Gold Teeth**.
    - Enter **Secret House** in northwest to receive **HM03 (Surf)**.
+
+## East-Central Plateau Survey Protocol (Area 2 North)
+- **Target Coordinates**: Ascent stairs at (34, 15) leading onto plateau spanning cols 33-38, rows 12-25.
+- **Survey Steps**:
+  1. Record plateau entrance tile and orientation upon stepping onto (34, 15).
+  2. Map all walkable tiles on the elevated surface, logging perimeter cliff edges to the North, South, East, and West.
+  3. Identify and test any descent stairs, ledges, or warps leading off the plateau to adjacent sectors or Safari Zone West (Area 3).
