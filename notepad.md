@@ -2113,5 +2113,9 @@
 - Card Key gate at (10..11, 6) leading south into large room at rows 7+.
 - Open corridor at rows 4-5 (cols 9-13).
 - Plant at (14, 4) and terminal at (14, 5).
+- NPC at (7, 10): Civilian worker ("It would be bad if TEAM ROCKET took over SILPH...").
+- Western room (cols 3-5) spotted across western wall:
+  - NPC at (3, 5).
+  - Warp pads at (5, 3) and (5, 7).
 
 <hr>
