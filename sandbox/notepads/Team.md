@@ -2,7 +2,7 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 53
-   - Stats (Verified at Lv 53 Turn 17397): Max HP 176 (HP: 76/176), Attack 121, Defense 134, Speed 123, Special 128
+   - Stats (Verified at Lv 53 Turn 17397): Max HP 176 (HP: 0/176) [Fainted from Weezing Selfdestruct Turn 17418; revive at Center], Attack 121, Defense 134, Speed 123, Special 128
    - Type: Water
    - Moves: Double-Edge (13/15), Ice Beam (6/10), Bite (23/25), Surf (14/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
@@ -44,8 +44,8 @@
    - Type: Normal
 
 ## Inventory & Resources (Verified Turn 17311)
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Bag Capacity: 17 / 20 slots used
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
+- Bag Capacity: 18 / 20 slots used
 - Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, Carbos x1, Max Potion x1, TM40 x1, TM32 x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: �28,428+

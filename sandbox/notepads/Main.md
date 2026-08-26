@@ -2,8 +2,8 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia Gym at (1, 7) [Turn 17408]; 5 gym trainers defeated; navigating southwest corridor to engage final trainer and challenge Koga.
+- Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
+- Location: Fuchsia Gym at (3, 10) [Turn 17419]; Gym Leader Koga defeated; Soul Badge & TM06 Toxic obtained; exiting to heal at Pok�mon Center.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

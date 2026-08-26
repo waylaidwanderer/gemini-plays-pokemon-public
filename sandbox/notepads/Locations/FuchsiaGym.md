@@ -37,3 +37,9 @@
   - Row 5: (4, 5), (7, 5)
   - Row 6: (0, 6), (3, 6), (6, 6)
   - Row 7: (0, 7), (6, 7), (8, 7)
+
+## Gym Leader Koga Battle (Empirically Verified Turn 17419)
+- Leader: Koga (Poison specialist)
+- Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43
+- Result: Defeated! Soul Badge & TM06 (Toxic) obtained; �4257 prize money.
+- Unlocked Field HM: HM03 Surf usable outside of battle.
