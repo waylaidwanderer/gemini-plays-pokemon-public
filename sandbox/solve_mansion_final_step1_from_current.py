@@ -198,13 +198,15 @@ def main():
                     return
                 pos = mgba.get_coordinates()
                 
-                # Toggle switch to State B
+                # Toggle switch to State B (EXACTLY 5 A presses + 1 B press)
                 if pos == {"x": 2, "y": 13}:
                     print("Toggling Mewtwo statue switch to State B...")
                     mgba.press_buttons(["Up", "sleep 400"])
-                    mgba.press_buttons(["A", "sleep 1800"]) # Interact
-                    mgba.press_buttons(["A", "sleep 1800"]) # YES
-                    mgba.press_buttons(["A", "sleep 1000"]) # Dismiss
+                    mgba.press_buttons(["A", "sleep 1200"]) # 1. Interact "A secret switch!"
+                    mgba.press_buttons(["A", "sleep 1200"]) # 2. YES/NO menu
+                    mgba.press_buttons(["A", "sleep 1200"]) # 3. Choose YES "Who wouldn't?"
+                    mgba.press_buttons(["A", "sleep 1200"]) # 4. "The electronic shutters opened!"
+                    mgba.press_buttons(["A", "sleep 1200"]) # 5. Dismiss dialogue
                     mgba.press_buttons(["B", "sleep 400"])
                     print("Successfully toggled switch to State B!")
                     pos = mgba.get_coordinates()
