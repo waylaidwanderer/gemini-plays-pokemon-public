@@ -105,12 +105,18 @@
 3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2; sent to Box 1]
    - Type: Normal
 
-## Inventory & Resources (Verified Turn 15241)
+## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge
-- Bag Capacity: 18 / 20 slots used (2 empty slots available for Gold Teeth & HM03 Surf)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), Moon Stone x1, Silph Scope, X Accuracy x1 [Turn 14926], Poké Flute [Turn 15011], Good Rod [Turn 15461], Protein x1 [Turn 15712]
+- Bag Capacity: 17 / 20 slots used
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Protein x1, Carbos x1, Max Potion x1, TM40 x1, TM32 x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Funds: ¥28,428+
+- Funds: �28,428+
+
+## Field HM Mechanics (Empirically Verified)
+- HM01 Cut: Party menu -> CUT removes adjacent cut bush.
+- HM02 Fly: Party menu -> FLY opens fast-travel town map.
+- HM03 Surf: Usable outside battle with Soul Badge on water tiles.
+- HM04 Strength: Party menu -> STRENGTH activates boulder-moving capability for active map. Walking into a boulder displaces it 1 tile in the walking direction.
 
 ## Flying-Type Party Slot Allocation & Capture Plan
 - Party Slot 6: Filled by ZEPHYR (Pidgey Lv 19, Fly active)
@@ -1733,16 +1739,12 @@
   - Tree Barrier (col 4, rows 16-19): Vertical line of trees separating western corridor from Krabby exhibit pond.
   - Krabby Exhibit Pond (cols 5-9, rows 16-18): Water enclosure with Krabby at (8, 17), bordered by trees at (4-9, 19).
   - Southern Central Highway (row 21, cols 2-22): Unobstructed east-west thoroughfare linking western avenue, Pokémon Center, and eastern residences.
-- **Southwest Obstacle Grid**:
-  - Horizontal Tree Line (cols 0-6, row 15): Blocks direct northern passage from Route 18/Gym approach to Pokémart.
-  - Col 3 Vertical Path: Open between rows 16 and 21, connecting Route 18 entrance to southern central highway (row 21).
 ## Verified Fuchsia City Topology & Corridors
 - **Northern Avenue (row 6, cols 2-37)**: Completely open east-west avenue connecting Western Corridor (col 3), Safari Gatehouse (18, 3), and eastern sectors.
 - **Western Corridor (cols 2-3, rows 6-28)**: Main unobstructed north-south thoroughfare connecting Northern Avenue (row 6), Pok�mart (cols 4-7, rows 12-13), Gym entrance (col 4), and South Street (row 28).
 - **Southern Central Highway (row 21, cols 2-37)**: Paved thoroughfare north of southern buildings.
 - **South Street (row 28, cols 2-37)**: Continuous paved walkway running in front of Fuchsia Gym (col 5), Pok�mon Center (col 21), Safari Warden's House (col 27), and Fishing Guru's House (col 31).
 - **Internal Zoo Obstacles**: Row 16 has continuous tree/fence/pond barriers across cols 10-35; traversal between north and south halves of the city must use the Western Corridor (cols 2-3).
-
 
 <hr>
 
