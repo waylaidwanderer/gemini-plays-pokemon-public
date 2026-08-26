@@ -17,3 +17,6 @@
 
 ## 7F NPCs & Dialogue
 - Silph Employee at (20, 2): In elevator lobby.
+
+## 7F Trainers
+1. Rocket Grunt at (20, 2): [DEFEATED Turn 17647] Cubone Lv 29, Sandslash Lv 29; prize money won.
