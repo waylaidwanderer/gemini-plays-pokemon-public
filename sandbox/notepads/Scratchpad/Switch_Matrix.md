@@ -125,9 +125,13 @@ Thus, the correct State B bypass route on 2F is:
 - **Rubble block at (2, 12):** The statue pedestal at `(2, 12)` behaves as a solid block/rubble obstacle from all other sides.
 
 
-## Verified 3F West Switch Statue Interaction Coordinates (Turn 60621-60661)
-- Mewtwo Switch Statue: Coordinates at `(2, 11)` on 3F West.
-- Standing Position: Stand at `(2, 12)` facing UP towards `(2, 11)`.
-- Interaction: Press A to open dialogue, select YES, and press A again to dismiss (EXACTLY 3 A presses total to toggle the switch once and safely return to the overworld).
+## Verified 3F West Switch Statue Interaction Coordinates (Updated Turn 61084)
+- **Primary Switch Statue:** Coordinates at `(2, 10)` on 3F West.
+  - Standing Position: Stand at `(2, 11)` facing UP towards `(2, 10)`.
+  - Interaction: Press A to open dialogue, select YES, and press A again to dismiss.
+- **Secondary Switch Statue:** Coordinates at `(1, 12)` on 3F West (verified on Turn 61072).
+  - Standing Position: Stand at `(1, 13)` facing UP towards `(1, 12)`.
+  - Collision Obstacle: Since the statue at `(1, 12)` is solid, Column 1 is blocked at Row 12 in both State A and State B!
+  - **Bypass Route (Column 2 Row 13):** From `(1, 13)`, walk RIGHT to `(2, 13)`, and walk UP Column 2 directly to Row 6 `(2, 6)` (this bypasses the solid statue at `(1, 12)` completely on Column 2, which is open floor!).
 - Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
-- Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 1 through the Row 9 gate which is OPEN in State B.
+- Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 2 through the Row 9 gate which is OPEN in State B.
