@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (7, 20) [Turn 17161]; Run 16 active (~420 steps remaining).
+- Location: Safari Zone Area 2 (North) at (2, 2) [Turn 17191]; Run 16 active (~250 steps remaining).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1826,30 +1826,30 @@
    - Walk Down 4 along column 7 to row 5 at (7, 5) (bypassing row 3 rock stumps).
    - Walk Left 7 to (0, 5) and transition into Area 2 (North) at (39, 31).
 
-3. **Area 2 (North) [82 Steps]**:
+3. **Area 2 (North) [92 Steps Master Blueprint]**:
    - Enter at (39, 31).
    - Walk Left 17 along row 31 to column 22 at (22, 31).
    - Walk Up 8 along column 22 to ascent stairs at (22, 23).
-   - Walk Up 1 onto Central Ridge at (22, 22).
-   - Walk Left 6 to (16, 22).
+   - Walk Up 1 onto Central Ridge floor at (22, 22).
+   - Walk Left 6 along row 22 to (16, 22).
    - Walk Down 6 along column 16 through descent stairs at (16, 27) to ground at (16, 28).
    - Walk Left 4 to (12, 28).
-   - Walk Up along column 12 corridor to row 5 at (12, 5).
-   - Walk Right 4 to (16, 5), then Up 3 along column 16 to Northern Highway at (16, 2).
-   - Walk Left 14 along row 2 to (2, 2), then follow western path south to Area 3 (West) transition!
+   - Walk Up along column 12 corridor to row 6 at (12, 6).
+   - Walk Right 16 along row 6 to column 28 opening at (28, 6).
+   - Walk Up 4 along column 28 to Northern Highway at (28, 2).
+   - Walk Left 26 along row 2 to (2, 2).
+   - Survey column 0 west boundary along rows 2-34 to locate exact Area 3 (West) warp tile.
 
 4. **Area 3 (West) [317 Steps Budget Remaining]**:
    - Target 1: Retrieve **Gold Teeth** on ground.
    - Target 2: Enter **Secret House** in northwest and speak to attendant for **HM03 (Surf)**.
 
 ## Run 16 Status
-- Status: Active in Area 1 (East) at (7, 20) [Turn 17161].
-- Step Budget: ~420 steps remaining.
+- Status: Active in Area 2 (North) at (2, 2) [Turn 17191].
+- Step Budget: ~250 steps remaining.
 - Active Immediate Plan:
-  1. From (7, 20), walk Up 12 to (7, 8), Right 5 to (12, 8), Up 1 into (12, 7) Upper Ridge Stairs.
-  2. Walk East across upper ridge to (17, 7) descent stairs -> (17, 8).
-  3. Walk East 3 to (20, 8), Up 7 to (20, 1), Left 13 to (7, 1), Down 4 to (7, 5), Left 8 to Area 2 (North) at (0, 5).
-  4. Area 2 -> Area 3 Master Route (82 steps).
+  1. From (2, 2), walk south along column 1/2 surveying column 0 west perimeter across rows 2-34 to identify the exact warp tile into Area 3 (West).
+  2. Upon entering Area 3, locate Gold Teeth on ground and enter Secret House for HM03 Surf.
 
 
 <hr>
