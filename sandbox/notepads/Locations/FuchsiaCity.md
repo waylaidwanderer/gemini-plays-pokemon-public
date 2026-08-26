@@ -10,7 +10,7 @@
 - **Safari Zone Warden's House**: Located at (26..29, 25..27) with door at (27, 27) [Entered Turn 15454; Warden at (2, 3) seeks Gold Teeth for HM04 Strength; boulder inside].
 - **Fishing Guru's Brother**: Located at (30..33, 25..27) with door at (31, 27) [Entered Turn 15458; received Good Rod Turn 15461].
 - **Fuchsia Pokémart**: Located in northwest sector at (4..7, 12..13) with "MART" sign [Verified Turn 15441].
-- **Fuchsia Pokémon Center**: Located in south-central sector at (18..21, 24..27) with door mat at (21, 27) [Verified exterior Turn 15447].
+- **Fuchsia Pokémon Center**: Located in south-central sector at (18..21, 24..27) with door entrance at (19, 27) and 'POKE' sign at (20, 27) [Verified Turn 17432].
 - **Fuchsia Gym**: Located in southwest corner at (4..9, 22..26) [Verified exterior roof & awning Turn 15434, 15439].
 - **Safari Zone Gatehouse**: Located in northern sector at (18..21, 0..3) with entrance door at (18, 3) accessed from south path at (18..21, 4) [Reached Turn 15528].
 - **Safari Zone**: Located through Safari Zone Gatehouse [Objective: Retrieve HM03 Surf & Gold Teeth].

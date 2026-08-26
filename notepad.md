@@ -86,7 +86,7 @@
 5. PRISM (Eevee) - Lv 25
    - Stats (Verified at Lv 25 Turn 14826): Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
-   - Moves: Tackle (35/35), Sand-Attack (15/15)
+   - Moves: Tackle (35/35), Sand-Attack (15/15) [Carbos used Turn 17426; Speed boosted]
    - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. ZEPHYR (Pidgey) - Lv 19
    - Stats: Max HP 46 (HP: 46/46), Attack 23, Defense 21, Speed 27, Special 19
@@ -108,9 +108,9 @@
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
 - Bag Capacity: 18 / 20 slots used
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, Carbos x1, Max Potion x1, TM40 x1, TM32 x1
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Funds: �28,428+
+- Funds: �¥28,428+
 
 ## Field HM Mechanics (Empirically Verified)
 - HM01 Cut: Party menu -> CUT removes adjacent cut bush.
@@ -1881,12 +1881,12 @@
 - Center Platform: Koga positioned at (4..5, 10..11)
 
 ## Gym Trainers
-1. Juggler 1 at (8, 13): [DEFEATED Turn 17363] Hypno Lv 38; �1330 prize.
-2. Juggler 2 at (7, 8) / (8, 8): [DEFEATED Turn 17378] Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31; �1085 prize.
+1. Juggler 1 at (8, 13): [DEFEATED Turn 17363] Hypno Lv 38; �¥1330 prize.
+2. Juggler 2 at (7, 8) / (8, 8): [DEFEATED Turn 17378] Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31; �¥1085 prize.
 3. Tamer 1 at (8, 2): [DEFEATED Turn 17386] Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33; �1320 prize.
 4. Tamer 2 at (3, 5): [DEFEATED Turn 17399] Sandslash Lv 34, Arbok Lv 34; �1360 prize.
 5. Juggler 3 at (2, 7): [DEFEATED Turn 17407] Drowzee Lv 34, Hypno Lv 34; �1190 prize.
-6. Trainer at (1, 12): Engaging from (1, 13) [Turn 17410].
+6. Trainer at (1, 12): [BYPASSED Turn 17411] Bypassed to challenge Gym Leader Koga.
 
 ## Maze Topology & Traversal Protocol
 - **Empirically Verified Invisible Wall Collisions**:

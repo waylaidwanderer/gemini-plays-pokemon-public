@@ -2,12 +2,12 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 53
-   - Stats (Verified at Lv 53 Turn 17397): Max HP 176 (HP: 0/176) [Fainted from Weezing Selfdestruct Turn 17418; revive at Center], Attack 121, Defense 134, Speed 123, Special 128
+   - Stats (Verified at Lv 53 Turn 17397): Max HP 176 (HP: 176/176), Attack 121, Defense 134, Speed 123, Special 128
    - Type: Water
-   - Moves: Double-Edge (13/15), Ice Beam (6/10), Bite (23/25), Surf (14/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46) [Fainted in Cue Ball battle Turn 15410; revive at Fuchsia Center], Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Cut utility & reserve grass attacker (Slot 2)
