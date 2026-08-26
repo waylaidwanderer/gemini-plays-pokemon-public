@@ -58,3 +58,4 @@
 - Accessed solely via North Descent Stairs at (34, 15) -> (34, 16).
 - Southern sector is divided by column 17 vertical tree barrier (rows 28-33); crossing east-to-west requires ascending Central Ridge at (22, 23) and descending at (16, 27).
 - Verified Physical Collisions (Center Area West): (0, 19..23) solid bushes (collision at (0, 23) Turn 17013); (1, 24..25) solid bush cluster; (2, 24..25) fence post.
+- Verified Physical Collisions (Center Area West): (0, 14..18) solid bushes/trees (2x2 tree at 0..1, 16..17).
