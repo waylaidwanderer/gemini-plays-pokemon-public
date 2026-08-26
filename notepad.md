@@ -2103,7 +2103,7 @@
 
 ## Rooms & Features
 - Northern Office Suite entered via gate at (21, 4) -> (21, 5..11).
-- Warp pads at (18, 7), (18, 9), and (18, 11).
+- Computer terminals at (18, 7), (18, 9), (18, 11) with plants at (18, 6), (18, 8), (18, 10).
 - Desks at cols 22-23, rows 7-9.
 - Second Card Key gate at (20..21, 12) unlocked.
 - Southern secluded room behind gate (21, 12):
