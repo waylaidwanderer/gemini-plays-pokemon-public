@@ -1877,7 +1877,7 @@
 - Left Statue: (3, 14..15)
 - Right Statue: (6, 14..15)
 - Gym Guide: (7, 15)
-- Juggler / Trainer 1: (8, 13)
+- Juggler 1 at (8, 13): [DEFEATED Turn 17363] Hypno Lv 38; �1330 prize.
 - Gym Leader Koga: Located in the center room/podium
 
 ## Koga's Lineup & Battle Strategy
