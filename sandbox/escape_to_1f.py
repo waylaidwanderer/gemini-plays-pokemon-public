@@ -71,47 +71,27 @@ def run_steps(steps):
     return True
 
 pos = mgba.get_coordinates()
-print("Starting position on B1F West:", pos)
+print("Starting position on 1F West:", pos)
 
-# Step 1: Walk to the stairs at (7, 10) on B1F West and warp up to 1F West (landing at (7, 11) or (7, 10))
-if pos == {"x": 3, "y": 11}:
-    print("Walking to B1F West stairs...")
+if pos == {"x": 5, "y": 15}:
+    print("Bypassing Row 16-17 rubble on Column 5...")
     if not run_steps([
-        ("Right", {"x": 4, "y": 11}),
-        ("Right", {"x": 5, "y": 11}),
-        ("Right", {"x": 6, "y": 11}),
-        ("Right", {"x": 7, "y": 11}),
+        ("Left", {"x": 4, "y": 15}),
+        ("Down", {"x": 4, "y": 16}),
+        ("Left", {"x": 3, "y": 16}),
+        ("Down", {"x": 3, "y": 17}),
+        ("Down", {"x": 3, "y": 18}),
+        ("Right", {"x": 4, "y": 18}),
+        ("Right", {"x": 5, "y": 18}),
     ]):
-        print("Failed to reach (7, 11)")
-        exit(1)
-    
-    print("Stepping UP onto stairs to warp UP to 1F West...")
-    # Stepping UP on (7, 11) onto (7, 10) warps us up to 1F West, which lands us at (7, 11) on 1F West
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position after warping UP to 1F West:", pos)
-
-# Step 2: From 1F West landing (7, 11), walk to exit at (5, 27) (or step down to leave)
-# The exit mat is at Column 5, Row 27. Walking Down from (5, 26) onto (5, 27) exits the mansion.
-# First, let's walk from (7, 11) to Column 5:
-# - Walk Left to Column 5: (7, 11) -> (6, 11) -> (5, 11)
-# - Walk Down Column 5 to Row 27: (5, 11) -> ... -> (5, 27)
-# Let's do this in the script!
-if pos == {"x": 7, "y": 11}:
-    print("Walking to 1F West exit Column 5...")
-    if not run_steps([
-        ("Left", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-    ]):
-        print("Failed to reach 1F West Column 5")
+        print("Failed to bypass rubble")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 5, "y": 11}:
+if pos == {"x": 5, "y": 18}:
     print("Walking Down Column 5 to Row 27 to exit...")
-    if not run_steps([("Down", {"x": 5, "y": 11 + i + 1}) for i in range(16)]):
-        print("Failed to exit the mansion")
+    if not run_steps([("Down", {"x": 5, "y": 18 + i + 1}) for i in range(9)]):
+        print("Failed to reach exit mat")
         exit(1)
     pos = mgba.get_coordinates()
-    print("Final position after exit:", pos)
+    print("Final position after exiting mansion:", pos)
