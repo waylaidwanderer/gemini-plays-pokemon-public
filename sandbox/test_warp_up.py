@@ -73,14 +73,44 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 5, "y": 10}:
-    print("Walking to 2F West stairs at (7, 10)...")
+if pos == {"x": 18, "y": 6}:
+    print("Walking UP Column 18 to Row 3...")
     if not run_steps([
-        ("Down", {"x": 5, "y": 11}),
-        ("Right", {"x": 6, "y": 11}),
-        ("Right", {"x": 7, "y": 11}),
+        ("Up", {"x": 18, "y": 5}),
+        ("Up", {"x": 18, "y": 4}),
+        ("Up", {"x": 18, "y": 3}),
     ]):
-        print("Failed to reach (7, 11)")
+        print("Failed to reach Row 3")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 18, "y": 3}:
+    print("Walking LEFT along Row 3 to Column 12...")
+    steps = []
+    for x in range(17, 11, -1):
+        steps.append(("Left", {"x": x, "y": 3}))
+    if not run_steps(steps):
+        print("Failed to reach Column 12")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 12, "y": 3}:
+    print("Walking DOWN Column 12 to Row 11...")
+    steps = []
+    for y in range(4, 12):
+        steps.append(("Down", {"x": 12, "y": y}))
+    if not run_steps(steps):
+        print("Failed to reach Row 11")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 12, "y": 11}:
+    print("Walking LEFT along Row 11 to Column 7...")
+    steps = []
+    for x in range(11, 6, -1):
+        steps.append(("Left", {"x": x, "y": 11}))
+    if not run_steps(steps):
+        print("Failed to reach Column 7")
         exit(1)
     pos = mgba.get_coordinates()
 
