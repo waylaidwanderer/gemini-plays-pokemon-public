@@ -24,7 +24,14 @@
 - Central Room Walls: (10..13, 6..9) solid wall/desk complex [Verified Turn 17483]
 - Western North-South Corridor: Columns 8-9 (rows 4-16) open corridor connecting north hall to south hall [Verified Turn 17483]
 
+- South Warp Pad: (9, 15) [Verified Turn 17484]
+- Electronic Card Key Gate 3: (7, 12..13) [Locked - requires Card Key]
+- Southwest Computer Room: Desks at (4..5, 12..15)
+- Rocket Grunt: Stationed at (8, 16) guarding row 16 corridor [Turn 17484]
+
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
 2. Scientist Beau at (9, 3): [DEFEATED Turn 17479] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26; ¥1300 prize.
 3. Scientist at (13, 9): Spotted in western room [Turn 17471].
+
+3. Rocket Grunt at (8, 16): [ENGAGED Turn 17484] Guarding south corridor on row 16.
