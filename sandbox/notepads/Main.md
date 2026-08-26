@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (17, 12) [Turn 17471]; defeated Juggler Dalton; exploring southern corridor towards item ball at (21, 16) and Card Key.
+- Location: Silph Co. 5F at (22, 1) [Turn 17475]; traversing northern highway west towards (2, 1) to access western and southern corridors for Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
