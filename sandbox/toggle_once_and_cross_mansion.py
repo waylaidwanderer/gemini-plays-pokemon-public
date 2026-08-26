@@ -89,19 +89,20 @@ if pos == {"x": 2, "y": 12}:
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # EXACTLY ONE TOGGLE SEQUENCE (4 A-presses and 1 UP):
-    print("Toggling Mewtwo statue switch ONCE...")
+    # 4 A-presses and 1 UP sequence to toggle once and completely close the dialogue (2000ms delay to be absolutely sure):
+    print("Sending unified 1-toggle command with long sleeps...")
     mgba.press_buttons([
-        "A", "sleep 1200",   # 1. Opens "A secret switch!"
-        "A", "sleep 1200",   # 2. Opens YES/NO menu
-        "Up", "sleep 600",   # 3. Highlights YES
-        "A", "sleep 1200",   # 4. Selects YES -> prints "Who wouldn't!"
-        "A", "sleep 1200"    # 5. Closes the dialogue box and returns to overworld!
+        "A", "sleep 2000",   # 1. Opens "A secret switch!"
+        "A", "sleep 2000",   # 2. Opens YES/NO menu
+        "Up", "sleep 1000",  # 3. Highlights YES
+        "A", "sleep 2000",   # 4. Selects YES -> prints "Who wouldn't!"
+        "A", "sleep 2000"    # 5. Closes the dialogue box and returns to overworld!
     ])
-    time.sleep(6.5) # Wait for sleeps
+    time.sleep(10.0) # Wait for sleeps
     pos = mgba.get_coordinates()
     print("Position after toggling:", pos)
     
+    # Let's check our position and walk back to (1, 10)
     print("Walking back to (1, 10)...")
     if run_steps([
         ("Down", {"x": 2, "y": 13}),
