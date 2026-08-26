@@ -2107,7 +2107,7 @@
 - Southern secluded room behind gate (21, 12):
   - Silph employee NPC at (19, 14).
   - Warp pad at (21, 15).
-- NPC at (19, 14): Silph employee who offers Lapras (Lv 15 gift). Requires party space < 6.
+- Team Rocket Grunt at (19, 14): Sandshrew Lv 29 + 1 other Pokémon.
 
 <hr>
 
