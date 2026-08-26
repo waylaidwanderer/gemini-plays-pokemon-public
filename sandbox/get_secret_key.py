@@ -73,35 +73,55 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Walk back to Column 18, Row 6, then walk Left all the way on Row 6
-if pos == {"x": 16, "y": 4}:
-    print("Navigating to Row 6 Column 18...")
+# Step 1: Walk to the Mewtwo switch at (8, 11) on B1F West
+if pos == {"x": 9, "y": 11}:
+    print("Walking to switch standing tile (8, 11)...")
+    if not walk_step("Left", {"x": 8, "y": 11}):
+        print("Failed to reach (8, 11)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Step 2: Toggle the Mewtwo statue switch ONCE to activate State B (using exactly 4 A-presses with safe 2.5s sleeps)
+if pos == {"x": 8, "y": 11}:
+    print("Aligning UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    print("Toggling Mewtwo statue switch to State B...")
+    mgba.press_buttons([
+        "A", "sleep 2500",   # 1. Opens "A secret switch!"
+        "A", "sleep 2500",   # 2. Opens YES/NO menu
+        "A", "sleep 2500",   # 3. Selects YES (selected by default) -> prints "Who wouldn't!"
+        "A", "sleep 2500"    # 4. Closes the dialogue box and returns to overworld!
+    ])
+    time.sleep(10.5)
+    pos = mgba.get_coordinates()
+
+# Step 3: Walk to the Secret Key room at (1, 5) on B1F West (passing through open Column 9 gate at Row 9)
+if pos == {"x": 8, "y": 11}:
+    print("Navigating to B1F West North room (1, 5)...")
     if not run_steps([
-        ("Right", {"x": 17, "y": 4}),
-        ("Right", {"x": 18, "y": 4}),
-        ("Down", {"x": 18, "y": 5}),
-        ("Down", {"x": 18, "y": 6}),
+        ("Right", {"x": 9, "y": 11}),
+        ("Up", {"x": 9, "y": 10}),
+        ("Up", {"x": 9, "y": 9}),      # Row 9 gate is now OPEN in State B!
+        ("Up", {"x": 9, "y": 8}),
+        ("Up", {"x": 9, "y": 7}),
+        ("Up", {"x": 9, "y": 6}),
+        ("Up", {"x": 9, "y": 5}),      # Row 5 gate is now OPEN in State B!
+        ("Left", {"x": 8, "y": 5}),
+        ("Left", {"x": 7, "y": 5}),
+        ("Left", {"x": 6, "y": 5}),
+        ("Left", {"x": 5, "y": 5}),
+        ("Left", {"x": 4, "y": 5}),
+        ("Left", {"x": 3, "y": 5}),
+        ("Left", {"x": 2, "y": 5}),
+        ("Left", {"x": 1, "y": 5}),
     ]):
-        print("Failed to reach (18, 6)")
+        print("Failed to reach B1F West North room at (1, 5)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Walk LEFT along Row 6 directly to B1F West at (1, 6) (open in State B!)
-if pos == {"x": 18, "y": 6}:
-    print("Walking LEFT along B1F Row 6 directly to (1, 6)...")
-    if not run_steps([("Left", {"x": 18 - i - 1, "y": 6}) for i in range(17)]):
-        print("Failed to reach B1F West at (1, 6)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Walk UP to (1, 5) and stand facing UP towards the Secret Key at (1, 4)
-if pos == {"x": 1, "y": 6}:
-    if not walk_step("Up", {"x": 1, "y": 5}):
-        print("Failed to reach (1, 5)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Stand at (1, 5) facing UP and retrieve the Secret Key at (1, 4)!
+# Step 4: Stand at (1, 5) facing UP and retrieve the Secret Key at (1, 4)!
 if pos == {"x": 1, "y": 5}:
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
@@ -109,10 +129,10 @@ if pos == {"x": 1, "y": 5}:
     
     print("Picking up the Secret Key...")
     mgba.press_buttons([
-        "A", "sleep 1200", # 1. Opens "ACE found SECRET KEY!"
-        "A", "sleep 1200", # 2. Completes text
-        "A", "sleep 1200"  # 3. Dismisses final text box and returns to overworld!
+        "A", "sleep 2500", # 1. Opens "ACE found SECRET KEY!"
+        "A", "sleep 2500", # 2. Completes text
+        "A", "sleep 2500"  # 3. Dismisses final text box and returns to overworld!
     ])
-    time.sleep(4.5)
+    time.sleep(8.5)
     pos = mgba.get_coordinates()
     print("Final position after retrieving Secret Key:", pos)
