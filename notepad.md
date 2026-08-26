@@ -975,7 +975,7 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Slot 3:** NIBBLES (Rattata) - Level 7
 - **Slot 4:** TESLA (Pikachu) - Level 20
 - **Slot 5:** NIDORAN♀ (Nidoran-F) - Level 25
-- **Slot 6:** TRUFFLE (Paras) - Level 20 (Useful for DIG in 1st Move submenu option and CUT in 2nd Move submenu option)
+- **Slot 6:** TRUFFLE (Paras) - Level 20
 
 <hr>
 
