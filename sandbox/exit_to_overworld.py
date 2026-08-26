@@ -73,25 +73,23 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Step 1: Walk UP to (5, 10) on 1F West and warp up to 2F West
-if pos == {"x": 3, "y": 17}:
-    print("Walking to 1F West stairs...")
+# Step 1: Walk UP to (5, 10) on 1F West (avoiding closed gate at (3, 15) by going through Column 4)
+if pos == {"x": 3, "y": 16}:
+    print("Bypassing Row 15 gate via Column 4...")
     if not run_steps([
-        ("Up", {"x": 3, "y": 16}),
-        ("Up", {"x": 3, "y": 15}),
-        ("Up", {"x": 3, "y": 14}),
-        ("Up", {"x": 3, "y": 13}),
-        ("Up", {"x": 3, "y": 12}),
-        ("Up", {"x": 3, "y": 11}),
-        ("Up", {"x": 3, "y": 10}),
-        ("Right", {"x": 4, "y": 10}),
+        ("Right", {"x": 4, "y": 16}),
+        ("Up", {"x": 4, "y": 15}),
+        ("Up", {"x": 4, "y": 14}),
+        ("Up", {"x": 4, "y": 13}),
+        ("Up", {"x": 4, "y": 12}),
+        ("Up", {"x": 4, "y": 11}),
+        ("Up", {"x": 4, "y": 10}),
         ("Right", {"x": 5, "y": 10}),
     ]):
         print("Failed to reach stairs at (5, 10)")
         exit(1)
     
     print("Stepping UP to warp up to 2F West...")
-    # Stepping UP on (5, 10) warps UP to 2F West, landing at (5, 11) on 2F West
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
@@ -143,7 +141,6 @@ if pos == {"x": 2, "y": 12}:
         exit(1)
     
     print("Stepping UP to warp down to 1F West...")
-    # Stepping UP on (5, 11) onto (5, 10) warps DOWN to 1F West, landing at (5, 11) on 1F West
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
