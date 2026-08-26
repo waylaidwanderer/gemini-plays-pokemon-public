@@ -2101,12 +2101,15 @@
 - Elevator Doors: (20, 0)
 - Stairs: (24, 0)
 - Floor Directory Sign: (26, 0)
-- Card Key Security Gates: To be surveyed.
+- Card Key Security Gates: (20, 4) and (21, 4) [Gate 1 - Unlocked Turn 17645].
 - Warp Pads: To be mapped.
 
 ## 7F Key Encounters
 - Gift Lapras: Silph employee in locked office.
 - Rival RED Battle: Hallway confrontation.
+
+## 7F NPCs & Dialogue
+- Silph Employee at (20, 2): In elevator lobby.
 
 
 <hr>
