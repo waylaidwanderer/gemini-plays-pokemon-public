@@ -20,7 +20,8 @@
 - **Area 2 (North)**:
   - East exit: (39, 31) -> Area 1 (East) at (0, 5).
   - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
-  - West border (rows 0-34): Solid tree barrier along column 0; row 35 has impassable tree stump at (1, 35).
+  - West border (rows 0-35): 100% Empirically verified solid trees and bushes along column 0 (rows 0-35 surveyed Turns 17192-17195). There is NO west exit in Area 2 (North).
+  - Area 3 (West) is accessed via Safari Zone Center (Area 0) western/southwest perimeter near signpost at (4, 25).
   - Southwest sector topology & obstacle grid:
     - Southwest Gazebo Structure: cols 4-5, rows 24-25 (solid decorative stone shelter, impassable obstacle).
     - Vertical Tree Barrier: col 5, rows 20-23 and rows 26-27.
