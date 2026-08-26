@@ -1791,8 +1791,8 @@
 ## Empirical Topology & Disproven Hypotheses
 - **Center Area (Area 0) Boundaries**:
   - Southern Boundary: Rows 24-25 are the map boundary wall. Gatehouse threshold at (14..15, 24..25) triggers exit dialogue (Turn 16614). No walkable southern boulevard exists behind the gatehouse.
-  - Western Boundary: Continuous solid tree/water barrier along column 0 (rows 0-25).
-  - Valid Exits: East exit at (29, 10) is the ONLY exterior exit from Center Area.
+  - Western Boundary: Continuous solid tree/water/table barrier along column 0 and rows 4-17 (Tested Turns 16565-16574, 16609-16614, 16706-16708, 16769-16771). Impassable. DO NOT ATTEMPT TO EXIT WEST FROM CENTER AREA.
+  - Valid Exits: East exit at (29, 10) is the ONLY exterior exit from Center Area to progress.
 - **Master Route Sequence**:
   - Center (Area 0) -> East (Area 1) -> North (Area 2) -> West (Area 3).
 
