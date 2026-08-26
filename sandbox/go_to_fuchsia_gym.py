@@ -70,37 +70,38 @@ def run_steps(steps):
             return False
     return True
 
-# Ensure start menu or other overlay is closed
+# Ensure any active menus are dismissed
 mgba.press_buttons(["B"])
 time.sleep(0.4)
 
 pos = mgba.get_coordinates()
 print("Starting walk to Fuchsia Gym from position:", pos)
 
-if pos == {"x": 11, "y": 13}:
-    # Step 1: Walk Left 10 steps to Column 1
+# We are currently at (15, 5)
+if pos == {"x": 15, "y": 5}:
+    # Step 1: Walk Left to Column 1 on Row 5
     print("Walking Left to Column 1...")
     steps_left = []
-    for x in range(10, 0, -1):
-        steps_left.append(("Left", {"x": x, "y": 13}))
+    for x in range(14, 0, -1):
+        steps_left.append(("Left", {"x": x, "y": 5}))
     if not run_steps(steps_left):
         print("Failed to reach Column 1")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 1, "y": 13}:
-    # Step 2: Walk Down 14 steps to Row 27
-    print("Walking Down to Row 27...")
+# Step 2: Walk Down Column 1 to Row 27
+if pos == {"x": 1, "y": 5}:
+    print("Walking Down Column 1 to Row 27...")
     steps_down = []
-    for y in range(14, 28):
+    for y in range(6, 28):
         steps_down.append(("Down", {"x": 1, "y": y}))
     if not run_steps(steps_down):
         print("Failed to reach Row 27")
         exit(1)
     pos = mgba.get_coordinates()
 
+# Step 3: Walk Right Row 27 to Column 5
 if pos == {"x": 1, "y": 27}:
-    # Step 3: Walk Right 4 steps to Column 5
     print("Walking Right to Column 5...")
     steps_right = []
     for x in range(2, 6):
@@ -110,8 +111,8 @@ if pos == {"x": 1, "y": 27}:
         exit(1)
     pos = mgba.get_coordinates()
 
+# Step 4: Step UP to enter the Gym!
 if pos == {"x": 5, "y": 27}:
-    # Step 4: Step UP to enter the Gym!
     print("Entering the Fuchsia Gym...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
