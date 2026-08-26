@@ -73,35 +73,30 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 16, "y": 11}:
-    print("Walking to (20, 11) on 3F East...")
+if pos == {"x": 20, "y": 9}:
+    print("Walking up Column 19 to Row 3...")
     if not run_steps([
-        ("Right", {"x": 17, "y": 11}),
-        ("Right", {"x": 18, "y": 11}),
-        ("Right", {"x": 19, "y": 11}),
-        ("Right", {"x": 20, "y": 11}),
+        ("Left", {"x": 19, "y": 9}),
+        ("Up", {"x": 19, "y": 8}),
+        ("Up", {"x": 19, "y": 7}),
+        ("Up", {"x": 19, "y": 6}),
+        ("Up", {"x": 19, "y": 5}),
+        ("Up", {"x": 19, "y": 4}),
+        ("Up", {"x": 19, "y": 3}),
     ]):
-        print("Failed to reach (20, 11)")
+        print("Failed to reach Row 3 on Column 19")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 20, "y": 11}:
-    print("Walking UP Column 20 to Row 3...")
-    if not run_steps([("Up", {"x": 20, "y": 11 - i - 1}) for i in range(8)]):
-        print("Failed to reach Row 3 on Column 20")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 20, "y": 3}:
+if pos == {"x": 19, "y": 3}:
     print("Walking RIGHT along Row 3 to (26, 3)...")
-    if not run_steps([("Right", {"x": 20 + i + 1, "y": 3}) for i in range(6)]):
+    if not run_steps([("Right", {"x": 19 + i + 1, "y": 3}) for i in range(7)]):
         print("Failed to reach (26, 3)")
         exit(1)
     pos = mgba.get_coordinates()
 
 if pos == {"x": 26, "y": 3}:
     print("Dropping through the pitfall to 1F East!")
-    # Stepping DOWN on (26, 3) falls through the pitfall (26, 4)
     mgba.press_buttons(["Down"])
     time.sleep(1.5)
     pos = mgba.get_coordinates()
