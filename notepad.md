@@ -1745,7 +1745,7 @@
 - Step Budget Management: Walk with direct, deliberate routing to minimize wasted steps.
 
 ## Critical Objectives (Area 3 Targets)
-1. **Gold Teeth**: Located on the ground in Safari Zone Area 3 (West). Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
+1. **Gold Teeth**: [OBTAINED Turn 17210] Located at (19, 7) in Safari Zone Center. Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
 2. **Secret House**: Located in Safari Zone Area 3 (West) (survey far northwest). Speak with attendant inside to receive **HM03 (Surf)**.
 
 ## Map Topology & Verified Connectivity
