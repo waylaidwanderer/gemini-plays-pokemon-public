@@ -73,9 +73,9 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Step 1: Walk to (2, 13)
+# Step 1: Walk to (1, 13)
 if pos == {"x": 7, "y": 10}:
-    print("Walking to (2, 13)...")
+    print("Walking to (1, 13)...")
     if not run_steps([
         ("Down", {"x": 7, "y": 11}),
         ("Down", {"x": 7, "y": 12}),
@@ -85,72 +85,66 @@ if pos == {"x": 7, "y": 10}:
         ("Left", {"x": 4, "y": 13}),
         ("Left", {"x": 3, "y": 13}),
         ("Left", {"x": 2, "y": 13}),
+        ("Left", {"x": 1, "y": 13}),
     ]):
-        print("Failed to reach (2, 13)")
+        print("Failed to reach (1, 13)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 2: Try interacting from (2, 13) facing UP (if statue is at (2, 12))
-if pos == {"x": 2, "y": 13}:
-    print("Facing UP at (2, 13)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    pos_after_up = mgba.get_coordinates()
-    print("Position after pressing Up at (2, 13):", pos_after_up)
-    
-    if pos_after_up == {"x": 2, "y": 13}:
-        print("Blocked from walking UP to (2, 12)! This means (2, 12) has a solid object (statue!).")
-        print("Interacting with statue at (2, 12) from (2, 13) facing UP...")
-        mgba.press_buttons([
-            "A", "sleep 2500",   # 1. Opens "A secret switch!"
-            "A", "sleep 2500",   # 2. Opens YES/NO menu
-            "A", "sleep 2500",   # 3. Selects YES -> prints "Who wouldn't!"
-            "A", "sleep 2500"    # 4. Closes dialogue and returns to overworld
-        ])
-        time.sleep(10.5)
-        
-    elif pos_after_up == {"x": 2, "y": 12}:
-        print("Successfully walked UP to (2, 12). This means (2, 12) is passable.")
-        print("We are now standing at (2, 12) facing UP. Statue must be at (2, 11).")
-        print("Interacting with statue at (2, 11) from (2, 12) facing UP...")
-        mgba.press_buttons([
-            "A", "sleep 2500",   # 1. Opens "A secret switch!"
-            "A", "sleep 2500",   # 2. Opens YES/NO menu
-            "A", "sleep 2500",   # 3. Selects YES -> prints "Who wouldn't!"
-            "A", "sleep 2500"    # 4. Closes dialogue and returns to overworld
-        ])
-        time.sleep(10.5)
-
-# Verify if we are currently on 3F West
-pos = mgba.get_coordinates()
-print("Current position after interaction:", pos)
-
-# Now, walk to (7, 10) to verify if the gate at (7, 9) is open!
-if pos in [{"x": 2, "y": 12}, {"x": 2, "y": 13}]:
-    print("Walking to (7, 10) to verify gate status...")
-    if pos == {"x": 2, "y": 12}:
-        run_steps([("Down", {"x": 2, "y": 13})])
-        
-    run_steps([
-        ("Right", {"x": 3, "y": 13}),
-        ("Right", {"x": 4, "y": 13}),
-        ("Right", {"x": 5, "y": 13}),
-        ("Right", {"x": 6, "y": 13}),
-        ("Right", {"x": 7, "y": 13}),
-        ("Up", {"x": 7, "y": 12}),
-        ("Up", {"x": 7, "y": 11}),
-        ("Up", {"x": 7, "y": 10}),
-    ])
+# Step 2: Walk UP Column 1 through Row 9 gate to Row 6 (gate at (1, 9) is open in State B!)
+if pos == {"x": 1, "y": 13}:
+    print("Walking UP Column 1 to Row 6...")
+    if not run_steps([
+        ("Up", {"x": 1, "y": 12}),
+        ("Up", {"x": 1, "y": 11}),
+        ("Up", {"x": 1, "y": 10}),
+        ("Up", {"x": 1, "y": 9}),
+        ("Up", {"x": 1, "y": 8}),
+        ("Up", {"x": 1, "y": 7}),
+        ("Up", {"x": 1, "y": 6}),
+    ]):
+        print("Failed to reach Row 6 on Column 1")
+        exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 7, "y": 10}:
-    print("Trying to walk UP onto (7, 9)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
+# Step 3: Walk RIGHT along Row 6 to Column 20 (crossing horizontally to 3F East)
+if pos == {"x": 1, "y": 6}:
+    print("Walking RIGHT along Row 6 to Column 20...")
+    steps = []
+    for x in range(2, 21):
+        steps.append(("Right", {"x": x, "y": 6}))
+    if not run_steps(steps):
+        print("Failed to reach Column 20 on Row 6")
+        exit(1)
     pos = mgba.get_coordinates()
-    print("Position after walking UP:", pos)
-    
-    # Take screenshot of gate area
-    scr = mgba.take_screenshot()
-    print("Gate verification screenshot:", scr)
+
+# Step 4: Walk UP Column 20 to Row 3
+if pos == {"x": 20, "y": 6}:
+    print("Walking UP Column 20 to Row 3...")
+    steps = []
+    for y in range(5, 2, -1):
+        steps.append(("Up", {"x": 20, "y": y}))
+    if not run_steps(steps):
+        print("Failed to reach Row 3 on Column 20")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Step 5: Walk RIGHT along Row 3 to Column 26
+if pos == {"x": 20, "y": 3}:
+    print("Walking RIGHT along Row 3 to Column 26...")
+    steps = []
+    for x in range(21, 27):
+        steps.append(("Right", {"x": x, "y": 3}))
+    if not run_steps(steps):
+        print("Failed to reach Column 26 on Row 3")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Step 6: Step DOWN onto Column 26 to drop through the pitfall
+if pos == {"x": 26, "y": 3}:
+    print("Stepping DOWN onto Column 26 to drop through the pitfall...")
+    mgba.press_buttons(["Down"])
+    time.sleep(2.0)
+    pos = mgba.get_coordinates()
+    print("Position after dropping to 1F East:", pos)
 
