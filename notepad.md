@@ -1791,6 +1791,11 @@
 - **Connecting Bridge Walkway**: cols 37-38, rows 16-23 (elevated 2-tile wide path flanked by cliffs).
 - **Northern Plateau**: cols 33-38, rows 12-14 (sandy elevated floor).
 - **North Descent Stairs**: (34, 15) leading down to (34, 16) into the central clearing.
+## Central Clearing (Area 2 North) (Verified Turn 16954)
+- Bounded on the west by solid vertical tree wall along column 16 (rows 13-19).
+- Bounded on the south by cliff along row 20 (cols 15-22).
+- Accessed solely via North Descent Stairs at (34, 15) -> (34, 16).
+- Southern corridor at row 29 connects east (col 28) directly to western vertical corridor (col 12/13).
 
 <hr>
 
