@@ -73,14 +73,11 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Walk down and left to the 2F West switch standing tile (2, 12)
-if pos == {"x": 5, "y": 10}:
+# Walk to switch standing tile (2, 12)
+if pos == {"x": 3, "y": 11}:
     print("Walking to switch standing tile (2, 12)...")
     if not run_steps([
-        ("Down", {"x": 5, "y": 11}),
-        ("Down", {"x": 5, "y": 12}),
-        ("Left", {"x": 4, "y": 12}),
-        ("Left", {"x": 3, "y": 12}),
+        ("Down", {"x": 3, "y": 12}),
         ("Left", {"x": 2, "y": 12}),
     ]):
         exit(1)
