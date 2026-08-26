@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (3, 1) [Turn 17464]; arrived on 5F via elevator; searching for Card Key.
+- Location: Silph Co. 5F at (17, 12) [Turn 17471]; defeated Juggler Dalton; exploring southern corridor towards item ball at (21, 16) and Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2006,7 +2006,10 @@
 - Northeast Warp Pad: (27, 3) [Verified Turn 17465]
 - Central Hallways: Rows 1-3 (cols 16-25), Row 5 (cols 16-23), Cols 16-19 (rows 5-9)
 - Computer Lab: Green desks at (20..23, 6..7)
-
+- Electronic Card Key Gate: (15, 10..11) [Verified Turn 17471]
+- Doorway to Western Sector: (15, 12) [Verified Turn 17471]
+- Item Ball spotted at (21, 16) [Verified Turn 17471]
+- NPC spotted at (13, 9) [Verified Turn 17471]
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
 
