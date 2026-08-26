@@ -89,25 +89,22 @@ if pos == {"x": 2, "y": 12}:
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    print("Step 1/5: Pressing A to open dialogue...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    print("Step 2/5: Pressing A to open YES/NO menu...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    print("Step 3/5: Pressing UP to select YES...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Step 4/5: Pressing A to select YES...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    print("Step 5/5: Pressing A to close the dialogue...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.5)
+    # EXACTLY ONE TOGGLE SEQUENCE:
+    # 1. Press A to open dialogue "A secret switch!"
+    # 2. Press A to open YES/NO menu
+    # 3. Press UP to highlight YES
+    # 4. Press A to select YES -> prints "Who wouldn't!"
+    # 5. Press A to close the dialogue and return to overworld.
+    print("Sending unified 1-toggle command...")
+    mgba.press_buttons([
+        "A", "sleep 1200",
+        "A", "sleep 1200",
+        "Up", "sleep 500",
+        "A", "sleep 1200",
+        "A", "sleep 1200"
+    ])
+    time.sleep(2.0)
+    pos = mgba.get_coordinates()
     
     # Let's check our position and walk back to (1, 10)
     print("Walking back to (1, 10)...")
