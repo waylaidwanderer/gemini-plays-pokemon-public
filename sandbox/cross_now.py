@@ -100,12 +100,11 @@ if pos == {"x": 2, "y": 12}:
     mgba.press_buttons([
         "A", "sleep 1200",   # 1. Opens "A secret switch!"
         "A", "sleep 1200",   # 2. Opens YES/NO menu
-        "Up", "sleep 600",   # 3. Highlights YES
-        "A", "sleep 1200",   # 4. Selects YES -> prints "Who wouldn't!"
-        "A", "sleep 1200",   # 5. Completes scroll of "Who wouldn't!"
-        "A", "sleep 1200"    # 6. Closes the dialogue box and returns to overworld!
+        "A", "sleep 1200",   # 3. Selects YES (selected by default) -> prints "Who wouldn't!"
+        "A", "sleep 1200",   # 4. Completes scroll of "Who wouldn't!"
+        "A", "sleep 1200"    # 5. Closes the dialogue box and returns to overworld!
     ])
-    time.sleep(7.5)
+    time.sleep(6.5)
     pos = mgba.get_coordinates()
 
 # Step 3: Walk back to Column 5. Column 5 Row 9 is now OPEN in State B!
