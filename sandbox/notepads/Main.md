@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse at (4, 0) [Turn 17240]; HM03 (Surf) & Gold Teeth in Bag; heading to Warden House.
+- Location: Fuchsia City at (36, 9) [Turn 17251]; HM03 (Surf) & Gold Teeth in Bag; heading to Warden House.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

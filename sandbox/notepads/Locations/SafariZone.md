@@ -33,7 +33,7 @@
     - Central Ridge: Ascent stairs at (22, 23), Descent stairs at (16, 27) [Verified Turns 16454-16456, 16524-16526].
     - Vertical Corridor: Column 12/13 grass corridor connects row 28 to row 5/6 [Verified Turns 16495-16499, 16527, 16534].
     - Northern Highway: Row 2 links col 38 to col 2 [Verified Turns 15713, 16182, 16291, 16534]. Bypass trees at (11..15, 4) via column 10 (rows 2-6).
-- **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf). Connecting from Safari Zone Area 2 (North).
+- **Area 3 (West) / Secluded Center Courtyard**: Gold Teeth recovered at (19, 7) in Safari Zone Center [Turn 17210]; Secret House accessed at (3, 3) in Safari Zone Center [Turn 17226].
 
 ## Area 1 (East) Topology & Verified Landmarks
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
