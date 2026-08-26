@@ -3,24 +3,26 @@
 ## Area Connectivity Matrix
 1. **Center Area (Area 0)**:
    - South: Gatehouse (15, 24)
-   - East: Area 1 (East) at (29, 10)
-   - North: Warp to Area 2 (North) at (20, 0)
-   - West: Surveying western perimeter (cols 0-4, rows 10-24) for direct transition to Area 3 (West)
+   - East: Area 1 (East) at (29, 10) -> Area 1 (0, 22)
+   - Northern/Western perimeters: Verified solid trees/cliffs at all surveyed rows
 2. **Area 1 (East)**:
    - West: Center Area at (0, 22)
-   - Northwest: Area 2 (North) at (0, 5) -> (39, 31)
+   - South bypass: Row 24 spans cols 4-24 to the eastern clearing (cols 20-28, rows 22-25)
+   - East vertical corridor: Columns 23-25 link row 24 north to row 5
+   - Northwest: Area 2 (North) at (0, 5) -> Area 2 (39, 31)
 3. **Area 2 (North)**:
    - East: Area 1 (East) at (39, 31)
-   - South: Center Area at (2, 36) / (20, 36)
-   - Western boundary: Column 0 has bush barrier along rows 6-24; southwest lawn at cols 1-4 (rows 20-34)
    - Northern Highway: Row 2 links col 38 to col 2
+   - West: Area 3 (West) entrance along western/southwest sector
 4. **Area 3 (West)**:
    - Target objectives: **Gold Teeth** on ground, **Secret House** (HM03 Surf) in northwest
 
 ## Active Run 15 Progress
-- Starting Step Budget: 500 steps
-- Current Location: Center Area (Area 0) at (7, 23) [Turn 17011]
-- Immediate Plan:
-  1. Walk west from (7, 23) across row 23/24 to column 0.
-  2. Test physical coordinates along column 0 (rows 10-24) to locate transition into Area 3 (West).
-  3. If transition found, enter Area 3 and retrieve Gold Teeth + HM03 Surf.
+- Current Location: Area 1 (East) at (9, 24) [Turn 17041]
+- Step Budget: ~440 steps remaining
+- Active Traversal Plan:
+  1. Walk East along row 24 from (9, 24) to the eastern clearing at (24, 24).
+  2. Walk North along column 24 to row 5 at (24, 5).
+  3. Walk West along row 5 to (0, 5) and transition into Area 2 (North) at (39, 31).
+  4. Follow column 38 north to row 2 Northern Highway, traverse west to (2, 2), and explore western boundary to enter Area 3 (West).
+  5. Retrieve Gold Teeth and HM03 Surf.
