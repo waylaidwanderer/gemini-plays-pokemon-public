@@ -24,7 +24,7 @@
 5. PRISM (Eevee) - Lv 25
    - Stats (Verified at Lv 25 Turn 14826): Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
-   - Moves: Tackle (35/35), Sand-Attack (15/15)
+   - Moves: Tackle (35/35), Sand-Attack (15/15) [Carbos used Turn 17426; Speed boosted]
    - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. ZEPHYR (Pidgey) - Lv 19
    - Stats: Max HP 46 (HP: 46/46), Attack 23, Defense 21, Speed 27, Special 19
@@ -46,9 +46,9 @@
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
 - Bag Capacity: 18 / 20 slots used
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, Carbos x1, Max Potion x1, TM40 x1, TM32 x1
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, Soda Pop x2, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Funds: �28,428+
+- Funds: �¥28,428+
 
 ## Field HM Mechanics (Empirically Verified)
 - HM01 Cut: Party menu -> CUT removes adjacent cut bush.
