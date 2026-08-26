@@ -63,8 +63,8 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 15451)
-1. HYDROS (Blastoise) - Lv 53
-   - Stats (Verified at Lv 53 Turn 17397): Max HP 176 (HP: 176/176), Attack 121, Defense 134, Speed 123, Special 128
+1. HYDROS (Blastoise) - Lv 54
+   - Stats (Verified at Lv 53 Turn 17397): Max HP 179 (HP: 163/179), Attack 121, Defense 134, Speed 123, Special 128
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
@@ -2019,7 +2019,7 @@
 
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
-2. Scientist Beau at (9, 3): [ENGAGED Turn 17478] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26.
+2. Scientist Beau at (9, 3): [DEFEATED Turn 17479] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26; ¥1300 prize.
 3. Scientist at (13, 9): Spotted in western room [Turn 17471].
 
 
