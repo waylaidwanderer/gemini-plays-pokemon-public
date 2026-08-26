@@ -1,26 +1,26 @@
-# Safari Zone Master Routing & Strategy (Run 14 - Active)
+# Safari Zone Master Routing & Strategy (Run 15 - Active)
 
 ## Area Connectivity Matrix
 1. **Center Area (Area 0)**:
    - South: Gatehouse (15, 24)
    - East: Area 1 (East) at (29, 10)
-   - North: Warp to Area 2 (North) at (2, 35) / (20, 0)
-   - West: Solid tree barrier along column 0
+   - North: Warp to Area 2 (North) at (20, 0)
+   - West: Surveying western perimeter (cols 0-4, rows 10-24) for direct transition to Area 3 (West)
 2. **Area 1 (East)**:
    - West: Center Area at (0, 22)
    - Northwest: Area 2 (North) at (0, 5) -> (39, 31)
 3. **Area 2 (North)**:
    - East: Area 1 (East) at (39, 31)
    - South: Center Area at (2, 36) / (20, 36)
-   - West: Safari Zone West (Area 3) along western boundary (cols 0-2)
-   - Thoroughfares: Northern Highway (row 2) connects east (col 38) to west (col 2). Central Ridge (22, 23 -> 16, 27) crosses column 17 tree barrier.
+   - Western boundary: Column 0 has bush barrier along rows 6-24; southwest lawn at cols 1-4 (rows 20-34)
+   - Northern Highway: Row 2 links col 38 to col 2
 4. **Area 3 (West)**:
-   - Contains **Gold Teeth** on ground and **Secret House** (HM03 Surf) in northwest.
+   - Target objectives: **Gold Teeth** on ground, **Secret House** (HM03 Surf) in northwest
 
-## Active Run 14 Progress
-- Current Location: Area 2 (North) at (29, 2) on Northern Highway (row 2)
-- Step Budget: ~220 steps remaining
-- Direct Route to Area 3:
-  1. Continue west along row 2 from (29, 2) to (2, 2).
-  2. Explore northwest/western boundary (cols 0-2) to transition into Safari Zone West (Area 3).
-  3. Locate Gold Teeth and enter Secret House for HM03 Surf.
+## Active Run 15 Progress
+- Starting Step Budget: 500 steps
+- Current Location: Center Area (Area 0) at (7, 23) [Turn 17011]
+- Immediate Plan:
+  1. Walk west from (7, 23) across row 23/24 to column 0.
+  2. Test physical coordinates along column 0 (rows 10-24) to locate transition into Area 3 (West).
+  3. If transition found, enter Area 3 and retrieve Gold Teeth + HM03 Surf.
