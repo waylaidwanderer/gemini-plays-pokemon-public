@@ -75,16 +75,12 @@ mgba.press_buttons(["B"])
 time.sleep(0.5)
 
 pos = mgba.get_coordinates()
-print("Starting Column 12 solver from position:", pos)
+print("Starting real Column 12 solver from position:", pos)
 
-# 1. Walk from (10, 9) down to (10, 13) and then right to Column 12 Row 13
-if pos == {"x": 10, "y": 9}:
+# 1. Walk from (10, 13) to Column 12 Row 13
+if pos == {"x": 10, "y": 13}:
     print("Walking to Column 12 Row 13...")
     if not run_steps([
-        ("Down", {"x": 10, "y": 10}),
-        ("Down", {"x": 10, "y": 11}),
-        ("Down", {"x": 10, "y": 12}),
-        ("Down", {"x": 10, "y": 13}),
         ("Right", {"x": 11, "y": 13}),
         ("Right", {"x": 12, "y": 13}),
     ]):
