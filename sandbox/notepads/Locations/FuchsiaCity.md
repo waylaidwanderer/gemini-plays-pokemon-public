@@ -21,9 +21,6 @@
   - Tree Barrier (col 4, rows 16-19): Vertical line of trees separating western corridor from Krabby exhibit pond.
   - Krabby Exhibit Pond (cols 5-9, rows 16-18): Water enclosure with Krabby at (8, 17), bordered by trees at (4-9, 19).
   - Southern Central Highway (row 21, cols 2-22): Unobstructed east-west thoroughfare linking western avenue, Pokémon Center, and eastern residences.
-- **Southwest Obstacle Grid**:
-  - Horizontal Tree Line (cols 0-6, row 15): Blocks direct northern passage from Route 18/Gym approach to Pokémart.
-  - Col 3 Vertical Path: Open between rows 16 and 21, connecting Route 18 entrance to southern central highway (row 21).
 ## Verified Fuchsia City Topology & Corridors
 - **Northern Avenue (row 6, cols 2-37)**: Completely open east-west avenue connecting Western Corridor (col 3), Safari Gatehouse (18, 3), and eastern sectors.
 - **Western Corridor (cols 2-3, rows 6-28)**: Main unobstructed north-south thoroughfare connecting Northern Avenue (row 6), Pok�mart (cols 4-7, rows 12-13), Gym entrance (col 4), and South Street (row 28).
