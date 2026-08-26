@@ -73,121 +73,106 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-gate_open = False
-if pos == {"x": 1, "y": 10}:
-    print("Testing if gate is open...")
-    gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+# Stage 1: Walk to the stairs at (7, 10) on 3F West and go DOWN to 2F West (landing at 7, 11)
+if pos["y"] == 12 and pos["x"] in [4, 5, 6, 7]:
+    # Walk right to Column 7
+    dx = 7 - pos["x"]
+    if dx > 0:
+        if not run_steps([("Right", {"x": pos["x"] + i + 1, "y": 12}) for i in range(dx)]):
+            exit(1)
+            
+    # Walk UP Column 7 to Row 10 (warps down to 2F West, landing at 7, 11)
+    print("Taking stairs down to 2F West...")
+    if not run_steps([
+        ("Up", {"x": 7, "y": 11}),
+        ("Up", {"x": 7, "y": 11}) # The warp takes us to (7, 11) on 2F West
+    ]):
+        exit(1)
     pos = mgba.get_coordinates()
 
-if not gate_open:
-    print("Gate is CLOSED (State A). Walking to switch to toggle...")
-    # Walk to (2, 12) to face UP towards the switch at (2, 11)
-    if pos == {"x": 1, "y": 10} or pos == {"x": 1, "y": 9}:
-        if run_steps([
-            ("Down", {"x": 1, "y": 11}),
-            ("Down", {"x": 1, "y": 12}),
-            ("Down", {"x": 1, "y": 13}),
-            ("Right", {"x": 2, "y": 13}),
-            ("Up", {"x": 2, "y": 12}),
-        ]):
-            pos = mgba.get_coordinates()
-            
-    if pos == {"x": 2, "y": 12}:
-        print("Toggling Mewtwo statue switch to State B...")
-        mgba.press_buttons([
-            "Up", "sleep 450",
-            "A", "sleep 1200",
-            "A", "sleep 1200",
-            "A", "sleep 1200",
-            "A", "sleep 1200"
-        ])
-        time.sleep(2.0)
-        pos = mgba.get_coordinates()
-        
-    if pos == {"x": 2, "y": 12}:
-        print("Walking back to (1, 10)...")
-        if run_steps([
-            ("Down", {"x": 2, "y": 13}),
-            ("Left", {"x": 1, "y": 13}),
-            ("Up", {"x": 1, "y": 12}),
-            ("Up", {"x": 1, "y": 11}),
-            ("Up", {"x": 1, "y": 10}),
-        ]):
-            pos = mgba.get_coordinates()
-            
-    if pos == {"x": 1, "y": 10}:
-        print("Testing if gate is open after toggle...")
-        gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
-        pos = mgba.get_coordinates()
-
-if gate_open and pos == {"x": 1, "y": 9}:
-    print("Gate is OPEN! Walking up Column 1 to Row 6...")
-    if run_steps([
-        ("Up", {"x": 1, "y": 8}),
-        ("Up", {"x": 1, "y": 7}),
-        ("Up", {"x": 1, "y": 6}),
+# Stage 2: On 2F West (landing at 7, 11), walk to (5, 11) and UP to Row 3 (5, 3)
+if pos == {"x": 7, "y": 11}:
+    print("Walking to (5, 11) on 2F West...")
+    if not run_steps([
+        ("Left", {"x": 6, "y": 11}),
+        ("Left", {"x": 5, "y": 11}),
     ]):
-        pos = mgba.get_coordinates()
+        exit(1)
+    pos = mgba.get_coordinates()
 
-if pos == {"x": 1, "y": 6}:
-    # Walk RIGHT along Row 6 across Column 10 to 3F East (12, 6)
-    print("Crossing horizontally on Row 6 to 3F East...")
-    if run_steps([
-        ("Right", {"x": 2, "y": 6}),
-        ("Right", {"x": 3, "y": 6}),
-        ("Right", {"x": 4, "y": 6}),
-        ("Right", {"x": 5, "y": 6}),
-        ("Right", {"x": 6, "y": 6}),
-        ("Right", {"x": 7, "y": 6}),
-        ("Right", {"x": 8, "y": 6}),
-        ("Right", {"x": 9, "y": 6}),
-        ("Right", {"x": 10, "y": 6}),
-        ("Right", {"x": 11, "y": 6}),
-        ("Right", {"x": 12, "y": 6}),
+if pos == {"x": 5, "y": 11}:
+    print("Walking UP Column 5 to Row 3...")
+    if not run_steps([
+        ("Up", {"x": 5, "y": 10}),
+        ("Up", {"x": 5, "y": 9}),
+        ("Up", {"x": 5, "y": 8}),
+        ("Up", {"x": 5, "y": 7}),
+        ("Up", {"x": 5, "y": 6}),
+        ("Up", {"x": 5, "y": 5}),
+        ("Up", {"x": 5, "y": 4}),
+        ("Up", {"x": 5, "y": 3}),
     ]):
-        pos = mgba.get_coordinates()
+        exit(1)
+    pos = mgba.get_coordinates()
 
-if pos == {"x": 12, "y": 6}:
-    # Walk horizontally along Row 6 to Column 19
-    print("Walking on 3F East to Column 19...")
-    if run_steps([
-        ("Right", {"x": 13, "y": 6}),
-        ("Right", {"x": 14, "y": 6}),
-        ("Right", {"x": 15, "y": 6}),
-        ("Right", {"x": 16, "y": 6}),
-        ("Right", {"x": 17, "y": 6}),
-        ("Right", {"x": 18, "y": 6}),
-        ("Right", {"x": 19, "y": 6}),
+# Stage 3: Cross horizontally on Row 3 from (5, 3) to (18, 3)
+if pos == {"x": 5, "y": 3}:
+    print("Crossing horizontally on Row 3 to (18, 3)...")
+    if not run_steps([("Right", {"x": 5 + i + 1, "y": 3}) for i in range(13)]):
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Stage 4: On 2F East, walk DOWN Column 18 to Row 10 (18, 10), then left to (15, 10), then DOWN to (15, 11) (warps to 3F East)
+if pos == {"x": 18, "y": 3}:
+    print("Walking DOWN Column 18 to Row 10...")
+    if not run_steps([("Down", {"x": 18, "y": 3 + i + 1}) for i in range(7)]):
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 18, "y": 10}:
+    print("Walking LEFT to (15, 10)...")
+    if not run_steps([
+        ("Left", {"x": 17, "y": 10}),
+        ("Left", {"x": 16, "y": 10}),
+        ("Left", {"x": 15, "y": 10}),
     ]):
-        pos = mgba.get_coordinates()
+        exit(1)
+    pos = mgba.get_coordinates()
 
-if pos == {"x": 19, "y": 6}:
-    # Walk UP Column 19 to Row 3
-    print("Walking UP Column 19 to Row 3...")
-    if run_steps([
-        ("Up", {"x": 19, "y": 5}),
-        ("Up", {"x": 19, "y": 4}),
-        ("Up", {"x": 19, "y": 3}),
+if pos == {"x": 15, "y": 10}:
+    print("Taking stairs up to 3F East...")
+    if not run_steps([
+        ("Down", {"x": 16, "y": 11}) # The warp takes us to (16, 11) on 3F East
     ]):
-        pos = mgba.get_coordinates()
+        exit(1)
+    pos = mgba.get_coordinates()
 
-if pos == {"x": 19, "y": 3}:
-    # Walk RIGHT along Row 3 to Column 26
+# Stage 5: On 3F East (landing at 16, 11), walk to Column 20, UP Column 20 to Row 3, RIGHT Row 3 to Column 26, drop!
+if pos == {"x": 16, "y": 11}:
+    print("Walking to (20, 11) on 3F East...")
+    if not run_steps([
+        ("Right", {"x": 17, "y": 11}),
+        ("Right", {"x": 18, "y": 11}),
+        ("Right", {"x": 19, "y": 11}),
+        ("Right", {"x": 20, "y": 11}),
+    ]):
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 20, "y": 11}:
+    print("Walking UP Column 20 to Row 3...")
+    if not run_steps([("Up", {"x": 20, "y": 11 - i - 1}) for i in range(8)]):
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 20, "y": 3}:
     print("Walking RIGHT along Row 3 to Column 26...")
-    if run_steps([
-        ("Right", {"x": 20, "y": 3}),
-        ("Right", {"x": 21, "y": 3}),
-        ("Right", {"x": 22, "y": 3}),
-        ("Right", {"x": 23, "y": 3}),
-        ("Right", {"x": 24, "y": 3}),
-        ("Right", {"x": 25, "y": 3}),
-        ("Right", {"x": 26, "y": 3}),
-    ]):
-        pos = mgba.get_coordinates()
+    if not run_steps([("Right", {"x": 20 + i + 1, "y": 3}) for i in range(6)]):
+        exit(1)
+    pos = mgba.get_coordinates()
 
 if pos == {"x": 26, "y": 3}:
-    # Step DOWN into the pitfall to fall to 1F East
-    print("Stepping DOWN into the pitfall...")
+    print("SUCCESS! Stepping DOWN into the pitfall to fall to 1F East!")
     mgba.press_buttons(["Down"])
     time.sleep(1.5)
     pos = mgba.get_coordinates()
