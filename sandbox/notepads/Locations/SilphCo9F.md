@@ -21,3 +21,4 @@
 
 3. Silph Researcher at (4, 2): Wondering if Silph is finished.
 - Warp Pairing: [9F (11, 9)] <-> [9F (3, 11)] (verified turn 17570).
+4. Scientist Ed at (10, 2): [DEFEATED Turn 17577] Grimer Lv 29, Electrode Lv 29; prize money won.
