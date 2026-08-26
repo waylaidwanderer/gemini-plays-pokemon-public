@@ -9,7 +9,7 @@
 - **2F**: Unsurveyed.
 - **3F**: Unsurveyed.
 - **4F**: Unsurveyed.
-- **5F**: Active floor [Turn 17466]. Elevator (20, 0), Stairs (24, 0), Warp Pad at (27, 3). Searching southern sector for Card Key.
+- **5F**: Active floor [Turn 17466]. Elevator (20, 0), Stairs (24, 0), Warp Pads at (27, 3) and (11, 5). Searching southern sector for Card Key.
 - **6F**: Unsurveyed.
 - **7F**: Target floor for Lapras gift & Rival RED encounter (hypothesized).
 - **8F**: Unsurveyed.

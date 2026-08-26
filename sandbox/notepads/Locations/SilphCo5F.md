@@ -15,6 +15,12 @@
 - Column 15 Divider: (15, 8..9) and (15, 12..15) are solid walls.
 - Southern Corridor: Row 16 connects western sector to eastern sector with Item Ball at (21, 16).
 
+- Wall Divider: (7, 1..3) solid wall separating northwest room from north hall [Verified Turn 17476]
+- Electronic Card Key Gate 2: (7, 4..5) [Locked - requires Card Key]
+- Central Warp Pad: (11, 5) [Verified Turn 17476]
+- NPC at (8, 3): Facing south [Turn 17476]
+- Plants & Statues: (11..12, 2..3)
+
 ## 5F Trainers (Empirical Tracking)
 1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
 2. Scientist at (13, 9): Spotted in western room [Turn 17471].
