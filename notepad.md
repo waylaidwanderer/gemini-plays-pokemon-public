@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse at (4, 0) [Turn 17240]; HM03 (Surf) & Gold Teeth in Bag; heading to Warden House.
+- Location: Fuchsia City at (36, 9) [Turn 17251]; HM03 (Surf) & Gold Teeth in Bag; heading to Warden House.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1734,6 +1734,17 @@
 - **Southwest Obstacle Grid**:
   - Horizontal Tree Line (cols 0-6, row 15): Blocks direct northern passage from Route 18/Gym approach to Pokémart.
   - Col 3 Vertical Path: Open between rows 16 and 21, connecting Route 18 entrance to southern central highway (row 21).
+## Verified Obstacle Grid & Topology (Turns 17241-17251)
+- **Northern Avenue**: Row 6 (cols 2-37) connects western corridor, Safari Gatehouse (18, 3), and Eastern Highway.
+- **Row 7 Barrier**: Trees at (18..21, 7), Cut bush at (22, 7), tree at (23, 7), fences at (24..26, 7). Bypass via col 16 or col 35-37.
+- **Row 10 Tree Line**: Horizontal line of trees at (27..34, 10). Bypass via Eastern Highway (cols 35-37).
+- **Row 11 Barrier**: Trees at (12..15, 11), Cut bush at (16, 11).
+- **Row 15 Barrier**: Horizontal tree line at (0..7, 15) separating Pok�mart north from western corridor south.
+- **Row 19 Barrier**: Stone fence along (9..17, 19), Cut bush at (18, 19), tree at (19, 19).
+- **Bill's Grandpa's House**: Located at cols 20-25, rows 10-13 with front door at (22, 13).
+- **Eastern North-South Highway (cols 35-37, rows 6-21)**: 100% wide-open continuous 3-tile-wide avenue connecting Northern Avenue (row 6) directly to Southern Central Highway (row 21).
+- **Southern Central Highway (row 21, cols 2-37)**: Unobstructed paved thoroughfare linking western avenue, Pok�mon Center, and eastern residences (Warden's House at col 27).
+
 
 <hr>
 
@@ -1774,7 +1785,7 @@
     - Central Ridge: Ascent stairs at (22, 23), Descent stairs at (16, 27) [Verified Turns 16454-16456, 16524-16526].
     - Vertical Corridor: Column 12/13 grass corridor connects row 28 to row 5/6 [Verified Turns 16495-16499, 16527, 16534].
     - Northern Highway: Row 2 links col 38 to col 2 [Verified Turns 15713, 16182, 16291, 16534]. Bypass trees at (11..15, 4) via column 10 (rows 2-6).
-- **Area 3 (West)**: Target zone containing Gold Teeth and Secret House (HM03 Surf). Connecting from Safari Zone Area 2 (North).
+- **Area 3 (West) / Secluded Center Courtyard**: Gold Teeth recovered at (19, 7) in Safari Zone Center [Turn 17210]; Secret House accessed at (3, 3) in Safari Zone Center [Turn 17226].
 
 ## Area 1 (East) Topology & Verified Landmarks
 - West Entrance: (0, 22) from Safari Zone Center (Area 0).
