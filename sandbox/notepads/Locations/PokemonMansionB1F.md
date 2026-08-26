@@ -43,3 +43,11 @@
 ## Switch Coordinates & Verified B1F Info (Turn 61084)
 - The entire mansion is solved by toggling the Mewtwo switch at `(2, 10)` or `(1, 12)` on 3F West to State B!
 - Once in State B, the B1F East NORTH gate at `(9, 5)` is OPEN, allowing us to walk directly across Row 5 from B1F East `(22, 3)` to the Secret Key room at `(1, 4)`.
+
+## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
+- Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
+  - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
+  - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
+  - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
+  - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
+- **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
