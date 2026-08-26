@@ -2030,6 +2030,6 @@
 2. Scientist Beau at (9, 3): [DEFEATED Turn 17479] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26; ¥1300 prize.
 3. Scientist at (13, 9): Spotted in western room [Turn 17471].
 
-3. Rocket Grunt at (8, 16): [ENGAGED Turn 17484] Guarding south corridor on row 16.
+3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
 
 <hr>
