@@ -108,14 +108,37 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver get_secret_key.py from Cinnabar Island:", pos)
     
-    if pos != {"x": 12, "y": 12}:
-        print("Error: Player is not at starting position (12, 12)!")
-        return
+    # --- STAGE 0: Dynamically walk to (12, 12) ---
+    print("Aligning to starting position (12, 12)...")
+    while pos["x"] > 12:
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+        mgba.press_buttons(["Left"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    while pos["x"] < 12:
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+        mgba.press_buttons(["Right"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    while pos["y"] > 12:
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+        mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    while pos["y"] < 12:
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+        mgba.press_buttons(["Down"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    print("Aligned at:", pos)
 
     # --- STAGE 1: Walk to Pokemon Mansion Entrance (Safe Right-Side Bypass) ---
     print("Walking to Pokemon Mansion Entrance...")
     if not run_steps([
-        ("Right", {"x": 12, "y": 12}), # Safety step
         ("Up", {"x": 12, "y": 11}),
         ("Up", {"x": 12, "y": 10}),
         ("Up", {"x": 12, "y": 9}),
