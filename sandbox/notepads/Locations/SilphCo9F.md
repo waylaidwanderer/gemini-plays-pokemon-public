@@ -28,3 +28,5 @@
 2. Rocket Grunt at (19, 2): Spotted near north elevator corridor.
 3. Scientist Ed at (10, 2): [DEFEATED Turn 17577] Grimer Lv 29, Electrode Lv 29; �1392 prize.
 4. Silph Researcher at (4, 2): Friendly NPC ("I wonder if SILPH is finished...").
+
+5. Scientist at (21, 13): [DEFEATED Turn 17615] Voltorb Lv 28, Koffing Lv 28, Magneton Lv 28; prize money won.
