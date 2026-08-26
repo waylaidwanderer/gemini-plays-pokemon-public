@@ -74,7 +74,7 @@ pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
 if pos == {"x": 3, "y": 10}:
-    print("Aligning LEFT towards the Mewtwo statue...")
+    print("Turning LEFT towards the Mewtwo statue...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
     
