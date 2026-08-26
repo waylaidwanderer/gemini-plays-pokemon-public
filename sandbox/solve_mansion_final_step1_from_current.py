@@ -73,92 +73,28 @@ def run_steps(steps):
 
 def main():
     pos = mgba.get_coordinates()
-    print("Starting solve_mansion_final_step1.py, current coords:", pos)
+    print("Starting solve_mansion_final_step1_from_current.py, current coords:", pos)
     
-    # --- STAGE 0: Smartly align to Cinnabar Island overworld Row 12 ---
-    print("Aligning to starting position Row 12 via Column 8 bypass...")
-    if pos["y"] < 12:
-        # Walk left/right to Column 8 (which has an open vertical corridor)
-        while pos["x"] > 8:
-            if handle_any_menu_or_battle():
-                pos = mgba.get_coordinates()
-            mgba.press_buttons(["Left"])
-            time.sleep(0.4)
-            pos = mgba.get_coordinates()
-        while pos["x"] < 8:
-            if handle_any_menu_or_battle():
-                pos = mgba.get_coordinates()
-            mgba.press_buttons(["Right"])
-            time.sleep(0.4)
-            pos = mgba.get_coordinates()
-            
-        # Walk Down to Row 12 on Column 8
-        while pos["y"] < 12:
-            if handle_any_menu_or_battle():
-                pos = mgba.get_coordinates()
-            mgba.press_buttons(["Down"])
-            time.sleep(0.4)
-            pos = mgba.get_coordinates()
+    if pos != {"x": 11, "y": 5}:
+        print("Error: Player is not at (11, 5)!")
+        return
 
-    # Generic alignment for any other cases
-    while pos["y"] > 12:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Up"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-    while pos["y"] < 12:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Down"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-    print("Aligned at:", pos)
-
-    # --- STAGE 1: Walk RIGHT to Column 18 ---
-    print("Walking to Column 18...")
-    while pos["x"] < 18:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Right"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-    while pos["x"] > 18:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Left"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
+    # --- STAGE 0: Walk from (11, 5) to Mansion Doorway (via Row 6 bypass) ---
+    print("Bypassing Row 5 NPC via Row 6...")
+    if not run_steps([
+        ("Down", {"x": 11, "y": 6}),
+        ("Left", {"x": 10, "y": 6}),
+        ("Left", {"x": 9, "y": 6}),
+        ("Left", {"x": 8, "y": 6}),
+        ("Left", {"x": 7, "y": 6}),
+        ("Left", {"x": 6, "y": 6}),
+        ("Up", {"x": 6, "y": 5}),
+        ("Up", {"x": 6, "y": 4}),
+        ("Up", {"x": 6, "y": 3}),
+    ]):
+        return
         
-    # --- STAGE 2: Walk UP to Row 5 ---
-    print("Walking UP Column 18 to Row 5...")
-    while pos["y"] > 5:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Up"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-        
-    # --- STAGE 3: Walk LEFT to Column 6 ---
-    print("Walking LEFT to Column 6...")
-    while pos["x"] > 6:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Left"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-        
-    # --- STAGE 4: Walk UP Column 6 to Row 3 ---
-    print("Walking UP Column 6 to Row 3...")
-    while pos["y"] > 3:
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-        mgba.press_buttons(["Up"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
-        
-    # --- STAGE 5: Enter Mansion ---
-    print("Entering Mansion...")
+    # Extra step up to land inside at (5, 27)
     mgba.press_buttons(["Up"])
     time.sleep(1.5)
     pos = mgba.get_coordinates()
