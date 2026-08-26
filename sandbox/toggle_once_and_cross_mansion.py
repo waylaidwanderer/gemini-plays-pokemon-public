@@ -70,11 +70,16 @@ def run_steps(steps):
             return False
     return True
 
-def toggle_switch_once():
-    # Stands at (2, 12) facing UP, toggles switch once
-    print("Toggling Mewtwo statue switch once...")
+pos = mgba.get_coordinates()
+print("Starting position:", pos)
+
+if pos == {"x": 2, "y": 12}:
+    print("Aligning UP...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
+    
+    # EXACTLY ONE TOGGLE SEQUENCE (4 A-presses and 1 UP):
+    print("Sending unified 1-toggle command with internal sleeps...")
     mgba.press_buttons([
         "A", "sleep 1200",   # 1. Opens "A secret switch!"
         "A", "sleep 1200",   # 2. Opens YES/NO menu
@@ -82,28 +87,12 @@ def toggle_switch_once():
         "A", "sleep 1200",   # 4. Selects YES -> prints "Who wouldn't!"
         "A", "sleep 1200"    # 5. Closes the dialogue box and returns to overworld!
     ])
-    time.sleep(6.5)
-
-pos = mgba.get_coordinates()
-print("Starting position:", pos)
-
-if pos == {"x": 1, "y": 10}:
-    print("Walking down to (2, 12)...")
-    if run_steps([
-        ("Down", {"x": 1, "y": 11}),
-        ("Down", {"x": 1, "y": 12}),
-        ("Down", {"x": 1, "y": 13}),
-        ("Right", {"x": 2, "y": 13}),
-        ("Up", {"x": 2, "y": 12}),
-    ]):
-        pos = mgba.get_coordinates()
-
-# Trial 1: Toggle once and check
-if pos == {"x": 2, "y": 12}:
-    toggle_switch_once()
+    time.sleep(6.5) # Wait for all sleeps in the command to finish in real-time
     pos = mgba.get_coordinates()
+    print("Position after toggling:", pos)
     
-    print("Walking back to (1, 10) to test gate (Trial 1)...")
+    # Let's check our position and walk back to (1, 10)
+    print("Walking back to (1, 10)...")
     if run_steps([
         ("Down", {"x": 2, "y": 13}),
         ("Left", {"x": 1, "y": 13}),
@@ -113,51 +102,24 @@ if pos == {"x": 2, "y": 12}:
     ]):
         pos = mgba.get_coordinates()
 
-gate_open = False
 if pos == {"x": 1, "y": 10}:
-    print("Testing if Column 1 Row 9 gate is open (Trial 1)...")
+    print("Testing if Column 1 Row 9 gate is open...")
     gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
     pos = mgba.get_coordinates()
 
-# Trial 2: If closed, walk back and toggle again
-if not gate_open:
-    print("Gate is STILL closed. Walking back to switch for Trial 2...")
-    if pos == {"x": 1, "y": 10} or pos == {"x": 1, "y": 9}:
-        if run_steps([
-            ("Down", {"x": 1, "y": 11}),
-            ("Down", {"x": 1, "y": 12}),
-            ("Down", {"x": 1, "y": 13}),
-            ("Right", {"x": 2, "y": 13}),
-            ("Up", {"x": 2, "y": 12}),
-        ]):
-            pos = mgba.get_coordinates()
-            
-    if pos == {"x": 2, "y": 12}:
-        toggle_switch_once()
-        pos = mgba.get_coordinates()
-        
-    print("Walking back to (1, 10) to test gate (Trial 2)...")
-    if run_steps([
-        ("Down", {"x": 2, "y": 13}),
-        ("Left", {"x": 1, "y": 13}),
-        ("Up", {"x": 1, "y": 12}),
-        ("Up", {"x": 1, "y": 11}),
-        ("Up", {"x": 1, "y": 10}),
-    ]):
-        pos = mgba.get_coordinates()
-        
-    if pos == {"x": 1, "y": 10}:
-        print("Testing if Column 1 Row 9 gate is open (Trial 2)...")
-        gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
-        pos = mgba.get_coordinates()
-
-# Now proceed to cross if open!
 if gate_open and pos == {"x": 1, "y": 9}:
-    print("THE GATE IS OPEN!!! Proceeding to cross to 3F East...")
+    print("Gate is OPEN! Walking up Column 1 to Row 6...")
     if run_steps([
         ("Up", {"x": 1, "y": 8}),
         ("Up", {"x": 1, "y": 7}),
         ("Up", {"x": 1, "y": 6}),
+    ]):
+        pos = mgba.get_coordinates()
+
+if pos == {"x": 1, "y": 6}:
+    # Walk RIGHT along Row 6 across Column 10 to 3F East (12, 6)
+    print("Crossing horizontally on Row 6 to 3F East...")
+    if run_steps([
         ("Right", {"x": 2, "y": 6}),
         ("Right", {"x": 3, "y": 6}),
         ("Right", {"x": 4, "y": 6}),
@@ -169,29 +131,6 @@ if gate_open and pos == {"x": 1, "y": 9}:
         ("Right", {"x": 10, "y": 6}),
         ("Right", {"x": 11, "y": 6}),
         ("Right", {"x": 12, "y": 6}),
-        ("Right", {"x": 13, "y": 6}),
-        ("Right", {"x": 14, "y": 6}),
-        ("Right", {"x": 15, "y": 6}),
-        ("Right", {"x": 16, "y": 6}),
-        ("Right", {"x": 17, "y": 6}),
-        ("Right", {"x": 18, "y": 6}),
-        ("Right", {"x": 19, "y": 6}),
-        ("Up", {"x": 19, "y": 5}),
-        ("Up", {"x": 19, "y": 4}),
-        ("Up", {"x": 19, "y": 3}),
-        ("Right", {"x": 20, "y": 3}),
-        ("Right", {"x": 21, "y": 3}),
-        ("Right", {"x": 22, "y": 3}),
-        ("Right", {"x": 23, "y": 3}),
-        ("Right", {"x": 24, "y": 3}),
-        ("Right", {"x": 25, "y": 3}),
-        ("Right", {"x": 26, "y": 3}),
     ]):
         pos = mgba.get_coordinates()
-        
-if pos == {"x": 26, "y": 3}:
-    print("Stepping DOWN into the pitfall...")
-    mgba.press_buttons(["Down"])
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("Final position after drop:", pos)
+        print("SUCCESSFULLY ARRIVED AT (12, 6)!!! Position:", pos)
