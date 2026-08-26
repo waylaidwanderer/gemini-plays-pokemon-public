@@ -108,21 +108,46 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting master solver get_secret_key.py from Cinnabar Island:", pos)
     
-    # --- STAGE 0: Align to Cinnabar Island overworld Row 12 ---
-    print("Walking down to Row 12...")
-    while pos["y"] < 12:
-        if handle_any_menu_or_battle():
+    # --- STAGE 0: Smartly align to Cinnabar Island overworld Row 12 ---
+    print("Aligning to starting position Row 12 via Column 8 bypass...")
+    if pos["y"] < 12:
+        # Walk left/right to Column 8 (which has an open vertical corridor)
+        while pos["x"] > 8:
+            if handle_any_menu_or_battle():
+                pos = mgba.get_coordinates()
+            mgba.press_buttons(["Left"])
+            time.sleep(0.4)
             pos = mgba.get_coordinates()
-        mgba.press_buttons(["Down"])
-        time.sleep(0.4)
-        pos = mgba.get_coordinates()
+        while pos["x"] < 8:
+            if handle_any_menu_or_battle():
+                pos = mgba.get_coordinates()
+            mgba.press_buttons(["Right"])
+            time.sleep(0.4)
+            pos = mgba.get_coordinates()
+            
+        # Walk Down to Row 12 on Column 8
+        while pos["y"] < 12:
+            if handle_any_menu_or_battle():
+                pos = mgba.get_coordinates()
+            mgba.press_buttons(["Down"])
+            time.sleep(0.4)
+            pos = mgba.get_coordinates()
+
+    # Generic alignment for any other cases
     while pos["y"] > 12:
         if handle_any_menu_or_battle():
             pos = mgba.get_coordinates()
         mgba.press_buttons(["Up"])
         time.sleep(0.4)
         pos = mgba.get_coordinates()
-        
+    while pos["y"] < 12:
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+        mgba.press_buttons(["Down"])
+        time.sleep(0.4)
+        pos = mgba.get_coordinates()
+    print("Aligned at:", pos)
+
     # --- STAGE 1: Walk RIGHT to Column 18 ---
     print("Walking to Column 18...")
     while pos["x"] < 18:
