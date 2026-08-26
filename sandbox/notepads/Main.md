@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Fuchsia Gym at (3, 10) [Turn 17419]; Gym Leader Koga defeated; Soul Badge & TM06 Toxic obtained; exiting to heal at Pok�mon Center.
+- Location: Route 7 at (0, 3) [Turn 17442]; Soul Badge & TM06 Toxic obtained; heading east to Saffron West Gatehouse with Soda Pop.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
