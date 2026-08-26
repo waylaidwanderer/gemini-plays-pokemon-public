@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 1F [Turn 17454]; beginning 11-floor infiltration to recover Card Key, defeat Rival RED, and defeat Giovanni.
+- Location: Silph Co. 1F at (10, 17) [Turn 17456]; entered 11-floor headquarters; surveying lobby to ascend towards 5F Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1942,6 +1942,28 @@
 ## Verified Topology & Corridors
 - Western Avenue (row 9, cols 18-26): Unobstructed walkway leading east from West Gatehouse into central Saffron thoroughfare.
 - Silph Co. Entrance Corridor: Row 20 (cols 14-18) leading to main entrance at (18, 21).
+
+
+<hr>
+
+<h1><code>Locations/SilphCo1F</code></h1>
+
+# Silph Co. 1F - Lobby & Topology
+
+## Overview
+- Ground floor lobby of the Silph Co. 11-story headquarters in Saffron City.
+- Currently occupied by Team Rocket.
+
+## Layout & Landmarks (Empirically Verified)
+- South Entrance / Exit Mat: (10..11, 17) [South exit to Saffron City]
+- Fountain / Monument: (6..7, 15)
+- Plant: (6..7, 14)
+
+## Silph Co. Mission Blueprint
+1. Infiltrate to **5F** to retrieve the **Card Key** (unlocks all electronic security doors across 1F-11F).
+2. Ascend to **7F** to receive **Lapras** gift and defeat **Rival RED**.
+3. Teleport to **11F** via 7F warp pad to confront and defeat **Team Rocket Boss Giovanni**.
+4. Rescue Silph President on 11F to receive the **Master Ball**.
 
 
 <hr>
