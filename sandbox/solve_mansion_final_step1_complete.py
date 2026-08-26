@@ -73,7 +73,7 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position on 3F West:", pos)
 
-# We are at (2, 11). Walk down to (2, 13) and left to (1, 13)
+# We are currently at (2, 11). Walk down to (2, 13) and left to (1, 13)
 if pos == {"x": 2, "y": 11}:
     print("Walking to (1, 13)...")
     if not run_steps([
