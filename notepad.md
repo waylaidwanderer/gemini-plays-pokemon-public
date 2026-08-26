@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (1, 24) [Turn 16681]; Run 11 active (~115 steps remaining); probing col 1 (rows 23-3) to locate the west exit into Area 3 (West) for Gold Teeth & HM03 Surf.
+- Location: Safari Zone Center (Area 0) at (15, 16) [Turn 16711]; Run 12 active (~475 steps remaining).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
