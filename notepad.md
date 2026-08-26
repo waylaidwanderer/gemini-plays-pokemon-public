@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 1F at (10, 9) [Turn 17641]; party 100% fully healed; navigating to elevator at (20, 0) for 7F.
+- Location: Silph Co. 7F at (20, 1) [Turn 17644]; party 100% fully healed; infiltrating 7F for Lapras gift and Rival RED battle.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2086,5 +2086,27 @@
 4. Silph Researcher at (4, 2): Friendly NPC ("I wonder if SILPH is finished...").
 
 5. Scientist at (21, 13): [DEFEATED Turn 17615] Voltorb Lv 28, Koffing Lv 28, Magneton Lv 28; prize money won.
+
+<hr>
+
+<h1><code>Locations/SilphCo7F</code></h1>
+
+# Silph Co. 7F - Layout & Key Events
+
+## Overview
+- Seventh floor of Silph Co. headquarters.
+- Key Objectives: Obtain LAPRAS gift from Silph employee, defeat Rival RED, access executive warp pad to 11F (Giovanni).
+
+## Layout & Landmarks
+- Elevator Doors: (20, 0)
+- Stairs: (24, 0)
+- Floor Directory Sign: (26, 0)
+- Card Key Security Gates: To be surveyed.
+- Warp Pads: To be mapped.
+
+## 7F Key Encounters
+- Gift Lapras: Silph employee in locked office.
+- Rival RED Battle: Hallway confrontation.
+
 
 <hr>
