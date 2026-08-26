@@ -70,31 +70,28 @@ def run_steps(steps):
             return False
     return True
 
-# --- STAGE 1: Dismiss the "Who wouldn't?" text box ---
-print("Dismissing dialogue to return to overworld...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
 pos = mgba.get_coordinates()
-print("Position after dismissing:", pos)
+print("Starting position:", pos)
 
 if pos == {"x": 2, "y": 12}:
-    # Walk to Column 1 Row 13 via the Row 12/13 bypass to be completely safe
-    print("Walking to (1, 13)...")
+    print("Walking back to (1, 10)...")
     if run_steps([
         ("Down", {"x": 2, "y": 13}),
         ("Left", {"x": 1, "y": 13}),
-    ]):
-        pos = mgba.get_coordinates()
-
-if pos == {"x": 1, "y": 13}:
-    # Walk up Column 1 to Row 6 (open in State B!)
-    print("Walking up Column 1 to Row 6...")
-    if run_steps([
         ("Up", {"x": 1, "y": 12}),
         ("Up", {"x": 1, "y": 11}),
         ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}), # OPEN gate!
+    ]):
+        pos = mgba.get_coordinates()
+
+if pos == {"x": 1, "y": 10}:
+    print("Testing if Column 1 Row 9 gate is open...")
+    gate_open = walk_step("Up", {"x": 1, "y": 9}, retries=2)
+    pos = mgba.get_coordinates()
+
+if gate_open and pos == {"x": 1, "y": 9}:
+    print("Gate is OPEN! Walking up Column 1 to Row 6...")
+    if run_steps([
         ("Up", {"x": 1, "y": 8}),
         ("Up", {"x": 1, "y": 7}),
         ("Up", {"x": 1, "y": 6}),
