@@ -12,15 +12,16 @@ time.sleep(0.3)
 
 p = check_pos()
 
-if p == {"x": 5, "y": 8}:
-    # Walk to (7, 11)
-    print("Walking to (7, 11)...")
+if p == {"x": 6, "y": 10}:
+    # Walk to (2, 12) on 3F West
+    print("Walking to (2, 12) on 3F West...")
     steps = [
-        ("Down", {"x": 5, "y": 9}),
-        ("Down", {"x": 5, "y": 10}),
-        ("Down", {"x": 5, "y": 11}),
-        ("Right", {"x": 6, "y": 11}),
-        ("Right", {"x": 7, "y": 11}),
+        ("Down", {"x": 6, "y": 11}),
+        ("Left", {"x": 5, "y": 11}),
+        ("Left", {"x": 4, "y": 11}),
+        ("Left", {"x": 3, "y": 11}),
+        ("Left", {"x": 2, "y": 11}),
+        ("Down", {"x": 2, "y": 12}),
     ]
     for d, expected in steps:
         mgba.press_buttons([d])
@@ -38,7 +39,7 @@ if p == {"x": 5, "y": 8}:
                 if (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200):
                     black_or_white += 1
         if black_or_white / total_pixels > 0.90:
-            print("Battle detected during walking! Stopping script.")
+            print("Battle detected during walking! Stopping script to let player run.")
             exit(1)
             
         p = check_pos()
@@ -46,12 +47,28 @@ if p == {"x": 5, "y": 8}:
             print(f"Failed to reach {expected}, actual: {p}")
             exit(1)
             
-    # Try walking UP onto stairs at (7, 10)
-    print("At (7, 11). Walking UP onto stairs...")
+    # Face UP
+    print("Facing UP towards 3F West switch...")
     mgba.press_buttons(["Up"])
-    time.sleep(2.0) # Allow warp animation
+    time.sleep(0.5)
+    
+    # Press A to open switch dialogue
+    print("Pressing A on switch...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # Toggle switch to State B
+    print("Selecting YES...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.5)
+    
+    # Dismiss dialogue
+    print("Dismissing dialogue...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
     p = check_pos()
-    print("Position after warp attempt:", p)
+    print("Position after toggling switch:", p)
     
 else:
-    print("Not starting at (5, 8)")
+    print("Not starting at (6, 10)")
