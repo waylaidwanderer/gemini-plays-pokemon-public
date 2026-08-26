@@ -2075,5 +2075,7 @@
 1. Rocket Brother at (13, 15): [DEFEATED Turn 17563] Golbat Lv 28, Koffing Lv 28, Drowzee Lv 28; �840 prize.
 2. Rocket Grunt at (19, 2): Spotted near north elevator corridor.
 
+3. Silph Researcher at (4, 2): Wondering if Silph is finished.
+- Warp Pairing: [9F (11, 9)] <-> [9F (3, 11)] (verified turn 17570).
 
 <hr>
