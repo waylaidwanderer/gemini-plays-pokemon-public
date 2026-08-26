@@ -2109,6 +2109,6 @@
 - Southern secluded room behind gate (21, 12):
   - Team Rocket Grunt at (19, 14): Sandshrew Lv 29, Sandslash Lv 29 [Defeated].
   - Warp pad at (21, 15): Connects to 5F (27, 3) [Verified bidirectional].
-- Rocket Grunt at (13, 1): Raticate Lv 26 + 3 other Pokémon.
+- Rocket Grunt at (13, 1): Raticate Lv 26, Arbok Lv 26, Koffing Lv 26, Golbat Lv 26 [Defeated].
 
 <hr>
