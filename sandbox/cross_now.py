@@ -74,26 +74,37 @@ pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
 if pos == {"x": 2, "y": 12}:
-    # Walk up Column 6 to Row 6
-    print("Walking up Column 6 to Row 6...")
+    # Walk to Column 1 Row 13 via the Row 12/13 bypass to be completely safe
+    print("Walking to (1, 13)...")
     if run_steps([
-        ("Right", {"x": 3, "y": 12}),
-        ("Up", {"x": 3, "y": 11}),
-        ("Right", {"x": 4, "y": 11}),
-        ("Right", {"x": 5, "y": 11}),
-        ("Right", {"x": 6, "y": 11}),
-        ("Up", {"x": 6, "y": 10}),
-        ("Up", {"x": 6, "y": 9}), # OPEN gate!
-        ("Up", {"x": 6, "y": 8}),
-        ("Up", {"x": 6, "y": 7}),
-        ("Up", {"x": 6, "y": 6}),
+        ("Down", {"x": 2, "y": 13}),
+        ("Left", {"x": 1, "y": 13}),
     ]):
         pos = mgba.get_coordinates()
 
-if pos == {"x": 6, "y": 6}:
+if pos == {"x": 1, "y": 13}:
+    # Walk up Column 1 to Row 6 (open in State B!)
+    print("Walking up Column 1 to Row 6...")
+    if run_steps([
+        ("Up", {"x": 1, "y": 12}),
+        ("Up", {"x": 1, "y": 11}),
+        ("Up", {"x": 1, "y": 10}),
+        ("Up", {"x": 1, "y": 9}), # OPEN gate!
+        ("Up", {"x": 1, "y": 8}),
+        ("Up", {"x": 1, "y": 7}),
+        ("Up", {"x": 1, "y": 6}),
+    ]):
+        pos = mgba.get_coordinates()
+
+if pos == {"x": 1, "y": 6}:
     # Walk RIGHT along Row 6 across Column 10 to 3F East (12, 6)
     print("Crossing horizontally on Row 6 to 3F East...")
     if run_steps([
+        ("Right", {"x": 2, "y": 6}),
+        ("Right", {"x": 3, "y": 6}),
+        ("Right", {"x": 4, "y": 6}),
+        ("Right", {"x": 5, "y": 6}),
+        ("Right", {"x": 6, "y": 6}),
         ("Right", {"x": 7, "y": 6}),
         ("Right", {"x": 8, "y": 6}),
         ("Right", {"x": 9, "y": 6}),
