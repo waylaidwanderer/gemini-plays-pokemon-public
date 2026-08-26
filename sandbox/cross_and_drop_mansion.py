@@ -73,33 +73,17 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Stage 1: Walk to the stairs at (7, 10) on 3F West and go DOWN to 2F West (landing at 7, 11)
-if pos["y"] == 12 and pos["x"] in [4, 5, 6, 7]:
-    # Walk right to Column 7
-    dx = 7 - pos["x"]
-    if dx > 0:
-        if not run_steps([("Right", {"x": pos["x"] + i + 1, "y": 12}) for i in range(dx)]):
-            exit(1)
-            
-    # Walk UP Column 7 to Row 10 (warps down to 2F West, landing at 7, 11)
-    print("Taking stairs down to 2F West...")
+# Stage 1: Walk left to the stairs at (5, 10) on 3F West and go DOWN to 2F West (landing at 5, 11)
+if pos == {"x": 7, "y": 10}:
+    print("Walking left to stairs at (5, 10)...")
     if not run_steps([
-        ("Up", {"x": 7, "y": 11}),
-        ("Up", {"x": 7, "y": 11}) # The warp takes us to (7, 11) on 2F West
+        ("Left", {"x": 6, "y": 10}),
+        ("Left", {"x": 5, "y": 11}) # Step LEFT onto (5, 10) warps DOWN to 2F West at (5, 11)
     ]):
         exit(1)
     pos = mgba.get_coordinates()
 
-# Stage 2: On 2F West (landing at 7, 11), walk to (5, 11) and UP to Row 3 (5, 3)
-if pos == {"x": 7, "y": 11}:
-    print("Walking to (5, 11) on 2F West...")
-    if not run_steps([
-        ("Left", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-    ]):
-        exit(1)
-    pos = mgba.get_coordinates()
-
+# Stage 2: On 2F West (landing at 5, 11), walk UP Column 5 directly to Row 3 (5, 3)
 if pos == {"x": 5, "y": 11}:
     print("Walking UP Column 5 to Row 3...")
     if not run_steps([
