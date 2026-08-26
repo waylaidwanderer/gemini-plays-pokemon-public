@@ -1781,6 +1781,10 @@
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
 - Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via western col 9 corridor and row 5 northern avenue [Verified Turn 15609, 16154].
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
+## Interior Locations
+- **East-Central Rest House (Area 2 North)**:
+  - Exterior: Located at cols 34-37, rows 2-3 with entrance door at (35, 3) and signpost at (36, 4).
+  - Interior: Entrance mat at (2..3, 7). NPCs at (1, 4), (3, 4), (7, 3). PC terminal at (0, 4). Safari steps do not decrement while inside.
 
 <hr>
 
