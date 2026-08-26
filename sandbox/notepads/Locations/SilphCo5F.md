@@ -35,3 +35,4 @@
 3. Scientist at (13, 9): Spotted in western room [Turn 17471].
 
 3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
+4. Rocket Grunt at (13, 16): Guarding row 16 western approach [Turn 17516].

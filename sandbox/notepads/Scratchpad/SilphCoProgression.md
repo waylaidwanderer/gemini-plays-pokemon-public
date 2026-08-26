@@ -19,3 +19,8 @@
 
 ## Empirical Warp Tile Matrix
 - `[5F (9, 15)] <-> [Unknown Floor (17, 15)]` [Verified Turn 17489-17491]
+
+## Floor Survey: South Hall Corridor (row 16)
+- Aisle at column 15 connects rows 11-15 down to row 16 hallway.
+- Rocket Grunt stationed at (13, 16) facing south.
+- Row 16 corridor extends west beyond column 13 towards southwest room.
