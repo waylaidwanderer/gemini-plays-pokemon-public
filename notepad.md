@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (29, 2) [Turn 16982]; Run 14 active (~220 steps remaining).
+- Location: Safari Zone Center (Area 0) at (15, 24) [Turn 17005]; Run 15 active (500 steps remaining).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
