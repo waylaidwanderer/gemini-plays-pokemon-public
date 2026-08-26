@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 2 (North) at (39, 31) [Turn 16814]; Run 13 active (~404 steps remaining).
+- Location: Safari Zone Area 2 (North) at (35, 11) [Turn 16861]; Run 13 active (~288 steps remaining).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1761,7 +1761,7 @@
   - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
   - West border (rows 0-34): Solid tree barrier along column 0; row 35 has impassable tree stump at (1, 35).
   - Southwest sector topology & obstacle grid:
-    - Rest House: cols 4-5, rows 24-25 (door at (5, 25), wall at (4, 25), roof at (4..5, 24..25)).
+    - Southwest Gazebo Structure: cols 4-5, rows 24-25 (solid decorative stone shelter, impassable obstacle).
     - Vertical Tree Barrier: col 5, rows 20-23 and rows 26-27.
     - Southeast Pond: cols 8-11, rows 24-29 (blue water with brown shore).
     - Northwest Pond: cols 4-7, rows 18-19 (blue water with brown shore).
@@ -1796,7 +1796,7 @@
 - Start: 500 steps (Turn 16791 at Gatehouse/Center (15, 24))
 - Waypoint 1 (Center to Area 1 East): 28 steps (Turn 16796 at (0, 22)) -> 472 remaining
 - Waypoint 2 (Area 1 East to Area 2 North): 67 steps (Turn 16814 at (39, 31)) -> 405 remaining
-- Current Position: (13, 26) at Turn 16832 with ~350 steps remaining.
+- Current Position: (35, 11) at Turn 16861 with ~288 steps remaining.
 
 ## Empirical Topology & Obstacle Map
 - **Center Area (Area 0)**:
@@ -1810,10 +1810,11 @@
   - Central Ridge: Ascent stairs at (22, 23), Descent stairs at (16, 27) [Bypasses Col 17 hedge]
   - Vertical Corridor: Column 12/13 connects rows 5-28
   - Northern Highway: Row 2 links cols 2-38 (bypass trees at cols 11-15 via col 10)
-  - Rest House: Located at (5, 25) with door at (5, 25)
+  - Southwest Gazebo: Located at (5, 25) (impassable obstacle)
+  - East-Central Rest House: Located at (35, 3) (enterable, NPCs inside)
   - Unsurveyed Sectors:
     1. East-Central Sector (cols 23-38, rows 6-25): Unexplored region east of Central Ridge.
-    2. Rest House Interior: Door at (5, 25).
+    2. East-Central Plateau: Rows 12-25 south of row 11.
     3. Northwest Sector: West of column 5, rows 2-19.
 
 ## Target Objectives (Area 3 Targets)
