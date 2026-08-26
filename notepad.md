@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Area 1 (East) at (9, 24) [Turn 17041]; Run 15 active (~440 steps remaining).
+- Location: Safari Zone Area 1 (East) at (3, 8) [Turn 17071]; Run 15 active (~330 steps remaining).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1779,7 +1779,11 @@
 - Lower Ridge Descent Stairs: (20, 21) leading down to eastern clearing (cols 20-28, rows 22-25).
 - Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 20-27). (Elevated overlook bounded by water/cliffs to north/west/east; dead-end overlook with no exit north).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
-- Northwest Exit to Area 2 (North): Open western corridor at (0, 4..5) accessed via western col 9 corridor and row 5 northern avenue [Verified Turn 15609, 16154].
+- **Upper Ridge & Bridge Path**:
+  - Ascent stairs at (12, 7) accessed from ground at (12, 8).
+  - Plateau floor spans cols 10-14, rows 4-6.
+  - Bridge at (6, 4) crosses over the row 6 bush barrier onto northern avenue (rows 4-5, cols 0-6).
+  - Northwest exit at (0, 5) transitions directly into Safari Zone Area 2 (North) at (39, 31).
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
 ## Interior Locations
 - **East-Central Rest House (Area 2 North)**:
@@ -1822,8 +1826,8 @@
    - Target objectives: **Gold Teeth** on ground, **Secret House** (HM03 Surf) in northwest
 
 ## Active Run 15 Progress
-- Current Location: Area 1 (East) at (9, 24) [Turn 17041]
-- Step Budget: ~440 steps remaining
+- Current Location: Area 1 (East) at (3, 8) [Turn 17071]
+- Step Budget: ~330 steps remaining
 - Active Traversal Plan:
   1. Walk East along row 24 from (9, 24) to the eastern clearing at (24, 24).
   2. Walk North along column 24 to row 5 at (24, 5).
