@@ -33,7 +33,7 @@
 
 ### State B (Toggled)
 - **1F West Row 9 Gates:** CLOSED.
-- **2F West Row 9 Gates:** OPEN.
+- **2F West Column 10 Row 8 Gate:** OPEN (verified on Turn 55967).
 - **B1F South-East gate at `(10, 11)`:** CLOSED.
 - **3F East gate at `(15, 11)` (stairs):** OPEN (as an UP warp to 3F East).
 - **1F East gate at `(15, 8)`:** CLOSED.
