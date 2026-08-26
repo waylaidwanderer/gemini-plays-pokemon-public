@@ -12,29 +12,24 @@
 - Gym Guide: (7, 15)
 - Center Platform: Koga positioned at (4..5, 10..11)
 
-## Gym Trainers (Empirically Verified)
+## Gym Trainers
 1. Juggler 1 at (8, 13): [DEFEATED Turn 17363] Hypno Lv 38; �1330 prize.
 2. Juggler 2 at (7, 8) / (8, 8): [DEFEATED Turn 17378] Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31; �1085 prize.
-3. Tamer 1 at (8, 2): [DEFEATED Turn 17386] Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33.
-4. Tamer 2 at (3, 5): [DEFEATED Turn 17399] Sandslash Lv 34, Arbok Lv 34; ¥1360 prize.
+3. Tamer 1 at (8, 2): [DEFEATED Turn 17386] Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33; �1320 prize.
+4. Tamer 2 at (3, 5): [DEFEATED Turn 17399] Sandslash Lv 34, Arbok Lv 34; �1360 prize.
+5. Trainer at (2, 7): Approaching from (2, 6) [Turn 17401].
 
-## Verified Collision & Traversal Matrix (Turn 17371)
-- **Open Passable Tiles**:
-  - Entrance Corridor: (4..5, 14..17)
-  - Eastern Outer Corridor: (9, 2..14) and (8, 9..14)
-  - Northern Highway: (5..9, 1) and (9, 2..3)
-  - Central Corridors: (4..7, 13)
-- **Verified Invisible Wall Collisions**:
-  - Row 12 Horizontal Barrier: (3..7, 12) solid invisible wall
-  - Row 11: (7, 11) solid invisible wall
-  - Row 10: (7, 10) solid invisible wall
-  - Row 9: (6, 9) solid invisible wall
-  - Row 8: (5..6, 8) solid invisible wall
-  - Row 7: (6..7, 7) solid invisible wall
-  - Row 6: (6, 6) solid invisible wall
-  - Row 5: (7, 5) solid invisible wall
-  - Ledge / Wall on Row 31 (exterior): (2..6, 31)
-
-## Koga Battle Preparation (Hypothesis to be Verified in Battle)
-- Expected Type: Poison-type specialists (Koffing/Muk/Weezing lines).
-- Active Counter: Blastoise (Surf / Ice Beam / Double-Edge).
+## Maze Topology & Traversal Protocol
+- **Empirically Verified Walkable Corridors**:
+  - Entrance Area: (4..5, 14..17)
+  - Eastern Perimeter: (9, 1..14) and (8, 9..14)
+  - Northern Perimeter: (1..9, 1)
+  - Northwest Approach: (1, 1..3) -> (2..3, 3) -> (3, 4)
+  - West Corridor: (2, 3..6)
+- **Visually Identified Dashed Invisible Wall Tiles (To be confirmed by path avoidance)**:
+  - Row 2: (2, 2), (3, 2), (7, 2)
+  - Row 3: (4, 3), (5, 3), (7, 3)
+  - Row 4: (0, 4), (1, 4), (4, 4), (7, 4)
+  - Row 5: (4, 5), (7, 5)
+  - Row 6: (0, 6), (3, 6), (6, 6)
+  - Row 7: (0, 7), (6, 7), (8, 7)
