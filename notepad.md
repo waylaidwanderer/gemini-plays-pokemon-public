@@ -64,7 +64,7 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 54
-   - Stats (Verified at Lv 54 Turn 17539): Max HP 179 (HP: 105/179), Attack 121, Defense 134, Speed 123, Special 128
+   - Stats (Verified at Lv 54 Turn 17539): Max HP 179 (HP: 101/179), Attack 121, Defense 134, Speed 123, Special 128
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (9/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
@@ -2077,5 +2077,6 @@
 
 3. Silph Researcher at (4, 2): Wondering if Silph is finished.
 - Warp Pairing: [9F (11, 9)] <-> [9F (3, 11)] (verified turn 17570).
+4. Scientist Ed at (10, 2): [DEFEATED Turn 17577] Grimer Lv 29, Electrode Lv 29; prize money won.
 
 <hr>
