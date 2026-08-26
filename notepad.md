@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 1F at (10, 17) [Turn 17456]; entered 11-floor headquarters; surveying lobby to ascend towards 5F Card Key.
+- Location: Silph Co. 1F at (16, 2) [Turn 17461]; located Elevator at (20, 0); riding Elevator to 5F to search for Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -206,7 +206,8 @@
 - [x] Retrieve Safari Warden's lost Gold Teeth in Safari Zone Center [Turn 17210]
 - [x] Obtain HM03 Surf from Secret House attendant in Safari Zone [Turn 17226]
 
-- [x] Deliver Gold Teeth to Safari Warden & receive HM04 Strength [Turn 17278]- [x] Defeat Gym Leader Koga in Fuchsia Gym (Soul Badge & TM06 Toxic) [Turn 17419]
+- [x] Deliver Gold Teeth to Safari Warden & receive HM04 Strength [Turn 17278]
+- [x] Defeat Gym Leader Koga in Fuchsia Gym (Soul Badge & TM06 Toxic) [Turn 17419]
 - [x] Give Soda Pop to Gate Guard & permanently unlock Saffron City gates [Turn 17445]
 
 
@@ -1955,15 +1956,38 @@
 - Currently occupied by Team Rocket.
 
 ## Layout & Landmarks (Empirically Verified)
-- South Entrance / Exit Mat: (10..11, 17) [South exit to Saffron City]
+- South Entrance / Exit Mat: (10..11, 17) [South exit to Saffron City at (18, 21)]
 - Fountain / Monument: (6..7, 15)
 - Plant: (6..7, 14)
+- Northern Corridor: Rows 1-2 (cols 4-21) open walkway along northern wall.
+- Reception Desks: (10, 8), (12..13, 10), (14..15, 8), (18..19, 3), (20..21, 5).
+- Center Mosaic Area: Blue/white tiles at (10..13, 6..9) bordered by counters.
+- **Elevator Doors**: Located at (20, 0) along northern wall [Verified Turn 17461].
+- Northwest Structure: Brown partition at (4..6, 2..3) with arch at (6, 0).
 
-## Silph Co. Mission Blueprint
-1. Infiltrate to **5F** to retrieve the **Card Key** (unlocks all electronic security doors across 1F-11F).
-2. Ascend to **7F** to receive **Lapras** gift and defeat **Rival RED**.
-3. Teleport to **11F** via 7F warp pad to confront and defeat **Team Rocket Boss Giovanni**.
-4. Rescue Silph President on 11F to receive the **Master Ball**.
+
+<hr>
+
+<h1><code>Scratchpad/SilphCoProgression</code></h1>
+
+# Scratchpad: Silph Co. Warp & Floor Matrix (Working Hypotheses & Verification Log)
+
+## Systematic Infiltration Protocol
+- Document each floor layout, trainer positions, key items, and warp pads empirically as visited.
+- Format for Warp Tile verification: `[Floor A (x, y)] <-> [Floor B (x, y)]`
+
+## Floor Progression Tracking
+- **1F**: Lobby surveyed [Turns 17456-17461]. Elevator doors identified at (20, 0).
+- **2F**: Unsurveyed.
+- **3F**: Unsurveyed.
+- **4F**: Unsurveyed.
+- **5F**: Target floor for Card Key recovery (hypothesized south corridor).
+- **6F**: Unsurveyed.
+- **7F**: Target floor for Lapras gift & Rival RED encounter (hypothesized).
+- **8F**: Unsurveyed.
+- **9F**: Unsurveyed.
+- **10F**: Unsurveyed.
+- **11F**: Target floor for Giovanni confrontation & Master Ball (hypothesized).
 
 
 <hr>
