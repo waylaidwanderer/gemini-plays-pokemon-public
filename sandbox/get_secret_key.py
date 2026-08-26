@@ -73,40 +73,43 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# On B1F East, navigate horizontally and vertically to B1F West
-if pos == {"x": 22, "y": 3}:
-    print("Navigating B1F East to Row 5 Column 19...")
+if pos == {"x": 18, "y": 5}:
+    print("Bypassing Row 5 gate via Row 4...")
     if not run_steps([
-        ("Left", {"x": 21, "y": 3}),
-        ("Left", {"x": 20, "y": 3}),
-        ("Left", {"x": 19, "y": 3}),
-        ("Down", {"x": 19, "y": 4}),
-        ("Down", {"x": 19, "y": 5}),
+        ("Up", {"x": 18, "y": 4}),
+        ("Left", {"x": 17, "y": 4}),
+        ("Left", {"x": 16, "y": 4}),
+        ("Left", {"x": 15, "y": 4}),
+        ("Left", {"x": 14, "y": 4}),
+        ("Left", {"x": 13, "y": 4}),
+        ("Left", {"x": 12, "y": 4}),
+        ("Left", {"x": 11, "y": 4}),
+        ("Left", {"x": 10, "y": 4}),
+        ("Down", {"x": 10, "y": 5}),
     ]):
-        print("Failed to reach B1F Row 5 Column 19")
+        print("Failed to reach Row 5 Column 10")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 4: Walk LEFT along Row 5 directly to B1F West at (1, 5) (open in State B!)
-if pos == {"x": 19, "y": 5}:
+# Step 2: Walk LEFT along Row 5 directly to B1F West at (1, 5) (open in State B!)
+if pos == {"x": 10, "y": 5}:
     print("Walking LEFT along B1F Row 5 directly to (1, 5)...")
-    if not run_steps([("Left", {"x": 19 - i - 1, "y": 5}) for i in range(18)]):
+    if not run_steps([("Left", {"x": 10 - i - 1, "y": 5}) for i in range(9)]):
         print("Failed to reach B1F West at (1, 5)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 5: Stand at (1, 5) facing UP and retrieve the Secret Key at (1, 4)!
+# Step 3: Stand at (1, 5) facing UP and retrieve the Secret Key at (1, 4)!
 if pos == {"x": 1, "y": 5}:
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
     print("Picking up the Secret Key...")
-    # Trigger interaction and dismiss text boxes (typically 2-3 A presses)
     mgba.press_buttons([
-        "A", "sleep 1200", # 1. Opens "ACE found SECRET KEY!" (or similar text)
+        "A", "sleep 1200", # 1. Opens "ACE found SECRET KEY!"
         "A", "sleep 1200", # 2. Completes text
-        "A", "sleep 1200", # 3. Places in Key Items pocket / dismissed
+        "A", "sleep 1200"  # 3. Dismisses final text box and returns to overworld!
     ])
     time.sleep(4.5)
     pos = mgba.get_coordinates()
