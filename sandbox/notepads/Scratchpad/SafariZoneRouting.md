@@ -18,8 +18,8 @@
    - Target objectives: **Gold Teeth** on ground, **Secret House** (HM03 Surf) in northwest
 
 ## Active Run 15 Progress
-- Current Location: Area 1 (East) at (9, 24) [Turn 17041]
-- Step Budget: ~440 steps remaining
+- Current Location: Area 1 (East) at (3, 8) [Turn 17071]
+- Step Budget: ~330 steps remaining
 - Active Traversal Plan:
   1. Walk East along row 24 from (9, 24) to the eastern clearing at (24, 24).
   2. Walk North along column 24 to row 5 at (24, 5).
