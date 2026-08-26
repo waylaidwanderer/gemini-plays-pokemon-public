@@ -1981,13 +1981,31 @@
 - **2F**: Unsurveyed.
 - **3F**: Unsurveyed.
 - **4F**: Unsurveyed.
-- **5F**: Target floor for Card Key recovery (hypothesized south corridor).
+- **5F**: Active floor [Turn 17466]. Elevator (20, 0), Stairs (24, 0), Warp Pad at (27, 3). Searching southern sector for Card Key.
 - **6F**: Unsurveyed.
 - **7F**: Target floor for Lapras gift & Rival RED encounter (hypothesized).
 - **8F**: Unsurveyed.
 - **9F**: Unsurveyed.
 - **10F**: Unsurveyed.
 - **11F**: Target floor for Giovanni confrontation & Master Ball (hypothesized).
+
+
+<hr>
+
+<h1><code>Locations/SilphCo5F</code></h1>
+
+# Silph Co. 5F - Layout & Card Key Search
+
+## Overview
+- Fifth floor of Silph Co. headquarters.
+- Key Objective: Locate and retrieve the Card Key.
+
+## Layout & Landmarks (Empirically Verified)
+- Elevator Doors: (20, 0) [Verified Turn 17465]
+- Stairs: (24, 0) [Verified Turn 17465]
+- Northeast Warp Pad: (27, 3) [Verified Turn 17465]
+- Central Hallways: Rows 1-3 (cols 16-25), Row 5 (cols 16-23), Cols 16-19 (rows 5-9)
+- Computer Lab: Green desks at (20..23, 6..7)
 
 
 <hr>
