@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Fuchsia City at (36, 33) [Turn 17341]; HM03 (Surf) & HM04 (Strength) learned; Gold Teeth delivered; Rare Candy collected.
+- Location: Fuchsia Gym at (4, 17) [Turn 17354]; HM03 (Surf) & HM04 (Strength) learned; challenging Gym Leader Koga for the Soul Badge.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
