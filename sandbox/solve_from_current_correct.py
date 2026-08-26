@@ -75,39 +75,39 @@ mgba.press_buttons(["B"])
 time.sleep(0.5)
 
 pos = mgba.get_coordinates()
-print("Starting Column 10 solver from position:", pos)
+print("Starting Column 12 solver from position:", pos)
 
-# 1. Walk from (7, 10) down to (7, 13) and then right to Column 10 Row 13
-if pos == {"x": 7, "y": 10}:
-    print("Walking to Column 10 Row 13...")
+# 1. Walk from (10, 9) down to (10, 13) and then right to Column 12 Row 13
+if pos == {"x": 10, "y": 9}:
+    print("Walking to Column 12 Row 13...")
     if not run_steps([
-        ("Down", {"x": 7, "y": 11}),
-        ("Down", {"x": 7, "y": 12}),
-        ("Down", {"x": 7, "y": 13}),
-        ("Right", {"x": 8, "y": 13}),
-        ("Right", {"x": 9, "y": 13}),
-        ("Right", {"x": 10, "y": 13}),
+        ("Down", {"x": 10, "y": 10}),
+        ("Down", {"x": 10, "y": 11}),
+        ("Down", {"x": 10, "y": 12}),
+        ("Down", {"x": 10, "y": 13}),
+        ("Right", {"x": 11, "y": 13}),
+        ("Right", {"x": 12, "y": 13}),
     ]):
-        print("Failed to reach (10, 13)")
+        print("Failed to reach (12, 13)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 2. Walk UP Column 10 to Row 6
-if pos == {"x": 10, "y": 13}:
-    print("Walking UP Column 10 to Row 6...")
+# 2. Walk UP Column 12 to Row 6
+if pos == {"x": 12, "y": 13}:
+    print("Walking UP Column 12 to Row 6...")
     steps = []
     for y in range(12, 5, -1):
-        steps.append(("Up", {"x": 10, "y": y}))
+        steps.append(("Up", {"x": 12, "y": y}))
     if not run_steps(steps):
-        print("Failed to reach Row 6 on Column 10")
+        print("Failed to reach Row 6 on Column 12")
         exit(1)
     pos = mgba.get_coordinates()
 
 # 3. Walk RIGHT along Row 6 to Column 20 on 3F East, UP Column 20 to Row 3, RIGHT to Column 26 (balcony drop)
-if pos == {"x": 10, "y": 6}:
+if pos == {"x": 12, "y": 6}:
     print("Walking to 3F East balcony drop...")
     steps = []
-    for x in range(11, 21):
+    for x in range(13, 21):
         steps.append(("Right", {"x": x, "y": 6}))
     for y in range(5, 2, -1):
         steps.append(("Up", {"x": 20, "y": y}))
