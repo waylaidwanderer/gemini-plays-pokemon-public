@@ -12,4 +12,4 @@
 - Computer Lab: Green desks at (20..23, 6..7)
 
 ## 5F Trainers (Empirical Tracking)
-1. Juggler Dalton at (18, 10..7): [DEFEATED Turn 17469] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
+1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
