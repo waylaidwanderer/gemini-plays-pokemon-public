@@ -73,33 +73,35 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 18, "y": 5}:
-    print("Bypassing Row 5 gate via Row 4...")
+# Walk back to Column 18, Row 6, then walk Left all the way on Row 6
+if pos == {"x": 16, "y": 4}:
+    print("Navigating to Row 6 Column 18...")
     if not run_steps([
-        ("Up", {"x": 18, "y": 4}),
-        ("Left", {"x": 17, "y": 4}),
-        ("Left", {"x": 16, "y": 4}),
-        ("Left", {"x": 15, "y": 4}),
-        ("Left", {"x": 14, "y": 4}),
-        ("Left", {"x": 13, "y": 4}),
-        ("Left", {"x": 12, "y": 4}),
-        ("Left", {"x": 11, "y": 4}),
-        ("Left", {"x": 10, "y": 4}),
-        ("Down", {"x": 10, "y": 5}),
+        ("Right", {"x": 17, "y": 4}),
+        ("Right", {"x": 18, "y": 4}),
+        ("Down", {"x": 18, "y": 5}),
+        ("Down", {"x": 18, "y": 6}),
     ]):
-        print("Failed to reach Row 5 Column 10")
+        print("Failed to reach (18, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 2: Walk LEFT along Row 5 directly to B1F West at (1, 5) (open in State B!)
-if pos == {"x": 10, "y": 5}:
-    print("Walking LEFT along B1F Row 5 directly to (1, 5)...")
-    if not run_steps([("Left", {"x": 10 - i - 1, "y": 5}) for i in range(9)]):
-        print("Failed to reach B1F West at (1, 5)")
+# Walk LEFT along Row 6 directly to B1F West at (1, 6) (open in State B!)
+if pos == {"x": 18, "y": 6}:
+    print("Walking LEFT along B1F Row 6 directly to (1, 6)...")
+    if not run_steps([("Left", {"x": 18 - i - 1, "y": 6}) for i in range(17)]):
+        print("Failed to reach B1F West at (1, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Step 3: Stand at (1, 5) facing UP and retrieve the Secret Key at (1, 4)!
+# Walk UP to (1, 5) and stand facing UP towards the Secret Key at (1, 4)
+if pos == {"x": 1, "y": 6}:
+    if not walk_step("Up", {"x": 1, "y": 5}):
+        print("Failed to reach (1, 5)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Stand at (1, 5) facing UP and retrieve the Secret Key at (1, 4)!
 if pos == {"x": 1, "y": 5}:
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
