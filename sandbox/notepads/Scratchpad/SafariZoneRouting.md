@@ -18,11 +18,10 @@
    - Target objectives: **Gold Teeth** on ground, **Secret House** (HM03 Surf) in northwest
 
 ## Active Run 15 Progress
-- Current Location: Area 1 (East) at (3, 8) [Turn 17071]
-- Step Budget: ~330 steps remaining
+- Current Location: Area 2 (North) at (34, 16) [Turn 17102]
+- Step Budget: ~230 steps remaining
 - Active Traversal Plan:
-  1. Walk East along row 24 from (9, 24) to the eastern clearing at (24, 24).
-  2. Walk North along column 24 to row 5 at (24, 5).
-  3. Walk West along row 5 to (0, 5) and transition into Area 2 (North) at (39, 31).
-  4. Follow column 38 north to row 2 Northern Highway, traverse west to (2, 2), and explore western boundary to enter Area 3 (West).
-  5. Retrieve Gold Teeth and HM03 Surf.
+  1. Ascended (28, 27) and crossed elevated walkway to North Descent Stairs at (34, 15) -> (34, 16).
+  2. Traverse northwest via column 30-31 corridor (rows 16-2) to the Northern Highway (row 2).
+  3. Follow row 2 west to (2, 2), then descend south into Area 3 (West) entrance.
+  4. Retrieve Gold Teeth on ground and enter Secret House for HM03 Surf.
