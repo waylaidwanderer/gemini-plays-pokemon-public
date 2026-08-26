@@ -52,3 +52,4 @@
 - [x] Obtain HM03 Surf from Secret House attendant in Safari Zone [Turn 17226]
 
 - [x] Deliver Gold Teeth to Safari Warden & receive HM04 Strength [Turn 17278]- [x] Defeat Gym Leader Koga in Fuchsia Gym (Soul Badge & TM06 Toxic) [Turn 17419]
+- [x] Give Soda Pop to Gate Guard & permanently unlock Saffron City gates [Turn 17445]
