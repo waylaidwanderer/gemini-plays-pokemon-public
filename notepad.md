@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (9, 15) [Turn 17517]; TM09 collected; navigating via row 2 northern corridor to southwest sector for Card Key.
+- Location: Silph Co. Elevator at (3, 1) [Turn 17551]; operating elevator panel to access upper floors for healing and infiltration.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -64,7 +64,7 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 54
-   - Stats (Verified at Lv 53 Turn 17397): Max HP 179 (HP: 179/179), Attack 121, Defense 134, Speed 123, Special 128
+   - Stats (Verified at Lv 54 Turn 17539): Max HP 179 (HP: 105/179), Attack 121, Defense 134, Speed 123, Special 128
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (9/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
