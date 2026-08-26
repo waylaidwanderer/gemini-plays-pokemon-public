@@ -75,14 +75,26 @@ mgba.press_buttons(["B"])
 time.sleep(0.4)
 
 pos = mgba.get_coordinates()
-print("Starting walk to Fuchsia Gym from position:", pos)
+print("Starting walk from position:", pos)
 
-# We are currently at (15, 5)
-if pos == {"x": 15, "y": 5}:
-    # Step 1: Walk Left to Column 1 on Row 5
+# We are at (11, 5)
+if pos == {"x": 11, "y": 5}:
+    print("Walking around the NPC at (10, 5)...")
+    if not run_steps([
+        ("Up", {"x": 11, "y": 4}),
+        ("Left", {"x": 10, "y": 4}),
+        ("Left", {"x": 9, "y": 4}),
+        ("Down", {"x": 9, "y": 5}),
+    ]):
+        print("Failed to bypass NPC")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Now walk LEFT from (9, 5) to Column 1 (1, 5)
+if pos == {"x": 9, "y": 5}:
     print("Walking Left to Column 1...")
     steps_left = []
-    for x in range(14, 0, -1):
+    for x in range(8, 0, -1):
         steps_left.append(("Left", {"x": x, "y": 5}))
     if not run_steps(steps_left):
         print("Failed to reach Column 1")
