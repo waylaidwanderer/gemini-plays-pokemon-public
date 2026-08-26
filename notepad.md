@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 5F at (20, 16) [Turn 17492]; collected item ball at (21, 16); continuing search for Card Key.
+- Location: Silph Co. 5F at (9, 15) [Turn 17517]; TM09 collected; navigating via row 2 northern corridor to southwest sector for Card Key.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1997,6 +1997,14 @@
 - Rocket Grunt stationed at (13, 16) facing south.
 - Row 16 corridor extends west beyond column 13 towards southwest room.
 
+## Card Key Retrieval Blueprint (5F)
+- TM09 (Take Down) recovered at (21, 16) in south-east corridor [Turn 17507].
+- Juggler Dalton defeated at (18, 7) [Turn 17470].
+- Scientist Beau defeated at (9, 3) [Turn 17479].
+- Rocket Grunt defeated at (8, 16) [Turn 17485].
+- Western corridor (cols 0-3) accessed via row 2/3 northern bypass from (8, 2) -> (2, 2) -> (2, 16).
+- Card Key located in southwest corridor at (2..3, 16).
+
 
 <hr>
 
@@ -2040,5 +2048,6 @@
 
 3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
 4. Rocket Grunt at (13, 16): Guarding row 16 western approach [Turn 17516].
+- Items: TM09 (Take Down) collected at (21, 16) [Turn 17507].
 
 <hr>
