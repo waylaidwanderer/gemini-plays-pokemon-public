@@ -70,31 +70,61 @@ def run_steps(steps):
             return False
     return True
 
-# 1. Dismiss "Got away safely!" first
-print("Dismissing 'Got away safely!' text...")
+# Ensure game active
 mgba.press_buttons(["B"])
-time.sleep(1.0)
+time.sleep(0.5)
 
 pos = mgba.get_coordinates()
-print(f"Starting position in overworld: {pos}")
+print("Starting position in overworld:", pos)
 
-# 2. Walk UP to (1, 10), RIGHT to (2, 10), UP Column 2 to Row 6 (2, 6)
-if pos == {"x": 1, "y": 11}:
-    print("Walking UP to Row 6...")
+# 1. We are at (2, 10). Walk DOWN Column 2 to (2, 13) and LEFT to (1, 13)
+if pos == {"x": 2, "y": 10}:
+    print("Walking to switch standing tile (1, 13)...")
+    if not run_steps([
+        ("Down", {"x": 2, "y": 11}),
+        ("Down", {"x": 2, "y": 12}),
+        ("Down", {"x": 2, "y": 13}),
+        ("Left", {"x": 1, "y": 13}),
+    ]):
+        print("Failed to reach (1, 13)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# 2. Stand at (1, 13) facing UP towards Mewtwo switch at (1, 12) and toggle to State B
+if pos == {"x": 1, "y": 13}:
+    print("Aligning UP towards the switch at (1, 12)...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    print("Interacting with Mewtwo statue switch...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    
+    # We use explicit delays inside press_buttons to safely advance the dialogue!
+    print("Toggling Mewtwo statue switch to State B...")
+    mgba.press_buttons([
+        "A", "sleep 2000",   # 1. Opens "A secret switch!" -> advances to YES/NO
+        "A", "sleep 2000",   # 2. Selects YES (default) -> prints "Who wouldn't!" / "Pressed it!"
+        "A", "sleep 2000",   # 3. Dismisses "Pressed it!" -> returns to overworld!
+    ])
+    time.sleep(7.0)
+    pos = mgba.get_coordinates()
+    print("Position after toggling switch:", pos)
+
+# 3. From (1, 13), walk RIGHT to (2, 13) and UP Column 2 to Row 6 (2, 6)
+if pos == {"x": 1, "y": 13}:
+    print("Walking UP Column 2 to Row 6...")
     steps = [
-        ("Up", {"x": 1, "y": 10}),
-        ("Right", {"x": 2, "y": 10}),
-        ("Up", {"x": 2, "y": 9}),  # This is the Row 9 gate which is OPEN in State B!
-        ("Up", {"x": 2, "y": 8}),
-        ("Up", {"x": 2, "y": 7}),
-        ("Up", {"x": 2, "y": 6}),
+        ("Right", {"x": 2, "y": 13}),
     ]
+    for y in range(12, 5, -1):
+        steps.append(("Up", {"x": 2, "y": y}))
     if not run_steps(steps):
         print("Failed to reach (2, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 3. Walk RIGHT along Row 6 to Column 20 on 3F East, UP Column 20 to Row 3, RIGHT to Column 26 (balcony drop)
+# 4. Walk RIGHT along Row 6 to Column 20 on 3F East, UP Column 20 to Row 3, RIGHT to Column 26 (balcony drop)
 if pos == {"x": 2, "y": 6}:
     print("Walking to 3F East balcony drop...")
     steps = []
@@ -110,7 +140,7 @@ if pos == {"x": 2, "y": 6}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 4. Step DOWN to drop through pitfall to 1F East
+# 5. Step DOWN to drop through pitfall to 1F East
 if pos == {"x": 26, "y": 3}:
     print("Stepping DOWN to drop through pitfall to 1F East...")
     mgba.press_buttons(["Down"])
@@ -118,7 +148,7 @@ if pos == {"x": 26, "y": 3}:
     pos = mgba.get_coordinates()
     print("Position after dropping to 1F East:", pos)
 
-# 5. Walk to B1F East stairs
+# 6. Walk to B1F East stairs
 if pos == {"x": 26, "y": 4}:
     print("Walking to B1F East stairs...")
     if not run_steps([
@@ -137,7 +167,7 @@ if pos == {"x": 26, "y": 4}:
     pos = mgba.get_coordinates()
     print("Position after warping down to B1F East:", pos)
 
-# 6. Cross B1F East to B1F West NORTH and retrieve Secret Key!
+# 7. Cross B1F East to B1F West NORTH and retrieve Secret Key!
 if pos == {"x": 22, "y": 3}:
     print("Crossing to B1F West NORTH...")
     if not run_steps([
@@ -158,7 +188,7 @@ if pos == {"x": 22, "y": 3}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 7. Standing at (1, 5) facing UP, pick up the Secret Key!
+# 8. Standing at (1, 5) facing UP, pick up the Secret Key!
 if pos == {"x": 1, "y": 5}:
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
