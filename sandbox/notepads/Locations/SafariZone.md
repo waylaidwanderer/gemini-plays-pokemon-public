@@ -56,4 +56,4 @@
 - Bounded on the west by solid vertical tree wall along column 16 (rows 13-19).
 - Bounded on the south by cliff along row 20 (cols 15-22).
 - Accessed solely via North Descent Stairs at (34, 15) -> (34, 16).
-- Southern corridor at row 29 connects east (col 28) directly to western vertical corridor (col 12/13).
+- Southern sector is divided by column 17 vertical tree barrier (rows 28-33); crossing east-to-west requires ascending Central Ridge at (22, 23) and descending at (16, 27).
