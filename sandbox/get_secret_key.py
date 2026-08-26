@@ -73,29 +73,7 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# Step 1: Walk to the B1F stairs at (22, 2) on 1F East
-if pos == {"x": 26, "y": 4}:
-    print("Navigating inside fenced 1F East room to stairs at (22, 2)...")
-    if not run_steps([
-        ("Left", {"x": 25, "y": 4}),
-        ("Up", {"x": 25, "y": 3}),
-        ("Left", {"x": 24, "y": 3}),
-        ("Left", {"x": 23, "y": 3}),
-        ("Up", {"x": 23, "y": 2}),
-    ]):
-        print("Failed to reach (23, 2)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 2: Step LEFT onto the stairs at (22, 2) to warp down to B1F East, landing at (22, 3)
-if pos == {"x": 23, "y": 2}:
-    print("Warping DOWN to B1F East (landing at 22, 3)...")
-    if not walk_step("Left", {"x": 22, "y": 3}):
-        print("Failed to warp to B1F East")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step 3: On B1F East, navigate horizontally and vertically to B1F West
+# On B1F East, navigate horizontally and vertically to B1F West
 if pos == {"x": 22, "y": 3}:
     print("Navigating B1F East to Row 5 Column 19...")
     if not run_steps([
@@ -126,9 +104,9 @@ if pos == {"x": 1, "y": 5}:
     print("Picking up the Secret Key...")
     # Trigger interaction and dismiss text boxes (typically 2-3 A presses)
     mgba.press_buttons([
-        "A", "sleep 1200", # 1. Opens "ACE found SECRET KEY!"
-        "A", "sleep 1200", # 2. Completes/dismisses text box
-        "A", "sleep 1200"  # 3. Dismisses final text box if there is one
+        "A", "sleep 1200", # 1. Opens "ACE found SECRET KEY!" (or similar text)
+        "A", "sleep 1200", # 2. Completes text
+        "A", "sleep 1200", # 3. Places in Key Items pocket / dismissed
     ])
     time.sleep(4.5)
     pos = mgba.get_coordinates()
