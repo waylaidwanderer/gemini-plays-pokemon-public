@@ -16,11 +16,6 @@
 - **Safari Zone**: Located through Safari Zone Gatehouse [Objective: Retrieve HM03 Surf & Gold Teeth].
 
 - **Central House (Bill's Grandpa's House)**: Located at (20..25, 12..13) with front door at (22, 13) [Surveyed Turn 15491-15500]. Inside: Bill's Grandpa at (4, 1) notes the Safari Zone Warden is nicknamed Slowpoke; camper NPC at (0, 2) mentions Warden collects extinct Pokémon fossils.
-- **Zoo Exhibits & Topography**:
-  - Western Corridor (cols 2-3, rows 16-21): Open paved avenue leading north towards Pokémart and northern Safari Zone avenue.
-  - Tree Barrier (col 4, rows 16-19): Vertical line of trees separating western corridor from Krabby exhibit pond.
-  - Krabby Exhibit Pond (cols 5-9, rows 16-18): Water enclosure with Krabby at (8, 17), bordered by trees at (4-9, 19).
-  - Southern Central Highway (row 21, cols 2-22): Unobstructed east-west thoroughfare linking western avenue, Pokémon Center, and eastern residences.
 ## Verified Fuchsia City Topology & Corridors
 - **Northern Avenue (row 6, cols 2-37)**: Completely open east-west avenue connecting Western Corridor (col 3), Safari Gatehouse (18, 3), and eastern sectors.
 - **Western Corridor (cols 2-3, rows 6-28)**: Main unobstructed north-south thoroughfare connecting Northern Avenue (row 6), Pok�mart (cols 4-7, rows 12-13), Gym entrance (col 4), and South Street (row 28).
