@@ -1,5 +1,4 @@
 from PIL import Image
-import numpy as np
 
 def analyze_screenshot(filename):
     img = Image.open(filename).convert('RGB')
@@ -10,7 +9,6 @@ def analyze_screenshot(filename):
     is_border_black = all(img_std.getpixel((x, 112))[0] < 80 for x in range(10, 150))
     
     # Dialogue box background at y=122 (Check if solid cream)
-    # Standard cream is roughly (247, 231, 214) or (248, 232, 216)
     bg_colors = [img_std.getpixel((x, 122)) for x in range(20, 140)]
     avg_r = sum(c[0] for c in bg_colors) / len(bg_colors)
     avg_g = sum(c[1] for c in bg_colors) / len(bg_colors)
