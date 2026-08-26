@@ -7,6 +7,10 @@
 - Card Key gate at (21, 4) unlocked.
 
 ## Rooms & Features
-- Office Suite entered via gate at (21, 4) -> (21, 5).
-- Warp pads at (18, 7) and (18, 9).
+- Northern Office Suite entered via gate at (21, 4) -> (21, 5..11).
+- Warp pads at (18, 7), (18, 9), and (18, 11).
 - Desks at cols 22-23, rows 7-9.
+- Second Card Key gate at (20..21, 12).
+- Southern secluded room behind gate (21, 12):
+  - Silph employee NPC at (19, 14).
+  - Warp pad at (21, 15).
