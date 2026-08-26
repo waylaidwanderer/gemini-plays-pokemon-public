@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 4/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge)
-- Location: Safari Zone Gatehouse at (4, 0) [Turn 16784]; initiating Run 13 (500 steps budget).
+- Location: Safari Zone Center (Area 0) at (15, 24) [Turn 16791]; Run 13 active (500 steps budget).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
