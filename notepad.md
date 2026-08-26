@@ -1506,15 +1506,7 @@ Thus, the correct State B bypass route on 2F is:
 6. On 3F East, land at `(16, 11)`. Since we are in State B, the Row 11 gate at `(14, 11)` is OPEN, allowing us to walk RIGHT along Row 11 to Column 20, then UP Column 20 to Row 3, RIGHT Row 3 to `(26, 3)` and drop through the pitfall to 1F East inside the fenced room!
 
 ## Verified Parity Log (Turn-Stamped)
-- **Turn 58742:** Player at `(2, 12)` facing RIGHT, pressed `A` (Did NOT toggle switch).
 - **Turn 58747:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State B to State A (Row 9 gates CLOSED, Row 12 OPEN).
-- **Turn 58757:** `toggle_and_drop.py` aborted mid-execution (exceeded button limit). State remained State A.
-- **Turn 58759:** Player at `(2, 12)` facing UP, selected NO by pressing B too quickly on YES/NO menu. Did NOT toggle switch.
-- **Turn 58764:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State A to State B (Row 9 gates OPEN, Row 12 CLOSED). Verified open on Turn 58765.
-- **Turn 58766:** `walk_to_pitfall_correct.py` ran. Battle desynchronization at `(2, 12)` caused the script to accidentally press `A` on the overworld after the battle ended, toggling the switch back from State B to State A.
-- **Turn 58776:** Player at `(2, 12)` facing RIGHT, pressed `A` (Did NOT toggle switch).
-- **Turn 58777:** Player at `(2, 12)` facing UP, selected NO by pressing B too quickly on YES/NO menu. Did NOT toggle switch.
-- **Turn 58780:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State A to State B (Row 9 gates OPEN). Verified OPEN on Turn 58782. Current mansion state: **STATE B**.
 ## Decorative Mewtwo Statues (No Switches)
 - **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
 
