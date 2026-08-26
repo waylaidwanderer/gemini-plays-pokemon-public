@@ -22,7 +22,7 @@
   - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
   - West border (rows 0-34): Solid tree barrier along column 0; row 35 has impassable tree stump at (1, 35).
   - Southwest sector topology & obstacle grid:
-    - Rest House: cols 4-5, rows 24-25 (door at (5, 25), wall at (4, 25), roof at (4..5, 24..25)).
+    - Southwest Gazebo Structure: cols 4-5, rows 24-25 (solid decorative stone shelter, impassable obstacle).
     - Vertical Tree Barrier: col 5, rows 20-23 and rows 26-27.
     - Southeast Pond: cols 8-11, rows 24-29 (blue water with brown shore).
     - Northwest Pond: cols 4-7, rows 18-19 (blue water with brown shore).
