@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron City at (18, 10) [Turn 17450]; Saffron gates permanently unlocked; beginning Silph Co. liberation and Saffron Gym preparation.
+- Location: Silph Co. 1F [Turn 17454]; beginning 11-floor infiltration to recover Card Key, defeat Rival RED, and defeat Giovanni.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
