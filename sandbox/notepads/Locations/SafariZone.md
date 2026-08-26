@@ -40,10 +40,11 @@
 - Lower Ridge Descent Stairs: (20, 21) leading down to eastern clearing (cols 20-28, rows 22-25).
 - Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 20-27). (Elevated overlook bounded by water/cliffs to north/west/east; dead-end overlook with no exit north).
 - Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
-- **Upper Ridge & Bridge Path**:
-  - Ascent stairs at (12, 7) accessed from ground at (12, 8).
-  - Plateau floor spans cols 10-14, rows 4-6.
-  - Bridge at (6, 4) crosses over the row 6 bush barrier onto northern avenue (rows 4-5, cols 0-6).
+- **Upper Ridge & Eastern Route**:
+  - Ascent stairs at (12, 7) accessed from ground at (12, 8) leading to plateau (cols 10-19, rows 4-6).
+  - Note: (10, 4) is an impassable northwest cliff corner (cannot walk west directly off plateau).
+  - Descent stairs at (17, 7) leading down to eastern ground at (17, 8).
+  - Route around eastern cliff: From (17, 8), walk east to col 20, north along col 20 to row 1, then west along row 1 across northern grass to (0, 1) and south to (0, 5).
   - Northwest exit at (0, 5) transitions directly into Safari Zone Area 2 (North) at (39, 31).
 - Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
 ## Interior Locations
