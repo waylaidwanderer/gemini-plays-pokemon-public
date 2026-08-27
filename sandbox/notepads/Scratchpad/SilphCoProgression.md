@@ -39,3 +39,4 @@
 - 3F (3, 3) warp pad discovered; stepping onto it to test destination [Turn 17726].
 - 3F (3, 3) <-> 5F (11, 5) [Verified bidirectional Turn 17726-17728]
 - 5F (9, 15) <-> 9F (17, 15) [Verified bidirectional Turn 17749]
+- 9F (9, 3) -> (3, 11) [Arrived at (3, 11); testing adjacent warp at (3, 15)]
