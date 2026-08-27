@@ -59,3 +59,5 @@
 - [x] Receive gift Lapras from Silph Co. 7F employee (sent to Box 1) [Turn 17815]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co. 11F [Defeated Turn 17858]
 - [x] Receive Master Ball from Silph President [Turn 17873]
+
+- [x] Defeat Gym Leader Sabrina in Saffron Gym (Marsh Badge & TM46 Psywave) [Defeated Turn 18379]

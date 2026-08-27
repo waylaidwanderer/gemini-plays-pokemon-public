@@ -2,8 +2,8 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym Southeast Room (15, 17) [Turn 18367]; executing 4-warp diagonal route to Sabrina.
+- Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
+- Location: Saffron Gym Center Room (9, 9) [Turn 18379]; defeated Gym Leader Sabrina, obtained Marsh Badge & TM46 (Psywave).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 18338 - Fully Healed)
-1. HYDROS (Blastoise) - Lv 60
-   - Stats: Max HP 200 (HP: 200/200), Attack 136, Defense 150, Speed 138, Special 144
+1. HYDROS (Blastoise) - Lv 61
+   - Stats: Max HP 203 (HP: 144/203), Attack 141, Defense 156, Speed 144, Special 150
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper
@@ -49,7 +49,7 @@
    - Moves: Jump Kick, Meditate, Rolling Kick
 
 ## Inventory & Resources (Verified Turn 17963)
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge (5/8)
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
 - Bag Capacity: 9 / 20 slots used (11 free slots available)
 - Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1
 - Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket

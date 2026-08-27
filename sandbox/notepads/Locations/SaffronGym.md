@@ -68,7 +68,7 @@
 
 ### Center Room (Sabrina's Chamber / Room 5)
 - Boundaries: cols 7-12, rows 7-11
-- Gym Leader Sabrina: (9, 8) [Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38, Alakazam Lv 43]
+- Gym Leader Sabrina: (9, 8) [Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38, Alakazam Lv 43] [Defeated Turn 18379; Marsh Badge & TM46 Psywave obtained]
 - Warp Pad: (11, 11) [Arrival from Northwest (1, 5)]
 
 ## Saffron Gym Complete Warp Permutation Matrix
