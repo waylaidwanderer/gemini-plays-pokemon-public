@@ -77,20 +77,27 @@ for _ in range(3):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 10, "y": 3}:
-    print("Walking DOWN Column 10 to Row 10...")
-    steps = []
-    for y in range(4, 11):
-        steps.append(("Down", {"x": 10, "y": y}))
+# We are at (10, 7) because we walked down Column 10 to Row 7.
+if pos == {"x": 10, "y": 7}:
+    print("Walking to Column 12 to bypass the Row 8 Column 10 rubble...")
+    steps = [
+        ("Right", {"x": 11, "y": 7}),
+        ("Right", {"x": 12, "y": 7}),
+        ("Down", {"x": 12, "y": 8}),
+        ("Down", {"x": 12, "y": 9}),
+        ("Down", {"x": 12, "y": 10}),
+    ]
     if not run_steps(steps):
-        print("Failed to walk down Column 10")
+        print("Failed to navigate to (12, 10)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Now at (10, 10). Walk LEFT to (5, 10) to warp to 2F West
-if pos == {"x": 10, "y": 10}:
+# Walk LEFT along Row 10 to (5, 10) to warp to 2F West
+if pos == {"x": 12, "y": 10}:
     print("Walking LEFT along Row 10 to the stairs at (5, 10)...")
     steps = [
+        ("Left", {"x": 11, "y": 10}),
+        ("Left", {"x": 10, "y": 10}),
         ("Left", {"x": 9, "y": 10}),
         ("Left", {"x": 8, "y": 10}),
         ("Left", {"x": 7, "y": 10}),
