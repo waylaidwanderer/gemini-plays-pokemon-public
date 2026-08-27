@@ -8,14 +8,6 @@ def handle_any_menu_or_battle():
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
     
-    # We first press B to exit any move sub-menu we might be in
-    mgba.press_buttons(["B"])
-    time.sleep(0.3)
-    
-    scr_file = mgba.take_screenshot()
-    img = Image.open(scr_file)
-    img_std = img.resize((160, 144), Image.Resampling.NEAREST)
-    
     black_or_white = 0
     total_pixels = 0
     for y in range(115, 140):
@@ -78,55 +70,81 @@ def run_steps(steps):
             return False
     return True
 
-print("Running test_toggle_and_walk.py...")
+# Close any open menu
+mgba.press_buttons(["B"])
+time.sleep(0.3)
+
 pos = mgba.get_coordinates()
-print("Starting from:", pos)
+print("Starting position:", pos)
 
-# Walk down Column 2 to Row 16, then Left to (1, 16)
-if pos == {"x": 2, "y": 10}:
-    if not run_steps([
-        ("Down", {"x": 2, "y": 11}),
-        ("Down", {"x": 2, "y": 12}),
-        ("Down", {"x": 2, "y": 13}),
-        ("Down", {"x": 2, "y": 14}),
-        ("Down", {"x": 2, "y": 15}),
-        ("Down", {"x": 2, "y": 16}),
-        ("Left", {"x": 1, "y": 16}),
-    ]):
-        print("Failed to reach (1, 16)")
+# We are at (14, 3) on 2F West. Walk DOWN Column 14 to Row 11, then LEFT to (2, 12)
+if pos == {"x": 14, "y": 3}:
+    print("Walking down Column 14 to Row 11...")
+    steps = []
+    for y in range(4, 12):
+        steps.append(("Down", {"x": 14, "y": y}))
+    if not run_steps(steps):
+        print("Failed to walk down Column 14")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Now at (1, 16), face UP and toggle switch
-if pos == {"x": 1, "y": 16}:
-    print("At (1, 16). Facing UP...")
+# Now on (14, 11). Walk LEFT along Row 11 to Column 2 (2, 11) then DOWN to (2, 12)
+if pos == {"x": 14, "y": 11}:
+    print("Walking left along Row 11 to Column 2...")
+    steps = []
+    for x in range(13, 1, -1):
+        steps.append(("Left", {"x": x, "y": 11}))
+    steps.append(("Down", {"x": 2, "y": 12}))
+    if not run_steps(steps):
+        print("Failed to reach (2, 12)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Stand at (2, 12) facing UP to toggle the Mewtwo switch at (2, 11)
+if pos == {"x": 2, "y": 12}:
+    print("Aligning UP towards the Mewtwo switch at (2, 11)...")
     mgba.press_buttons(["Up"])
-    time.sleep(0.4)
+    time.sleep(0.5)
     
-    print("Toggling switch...")
-    mgba.press_buttons(["A"]) # Step 1: secret switch
-    time.sleep(0.8)
-    mgba.press_buttons(["A"]) # Step 2: press it?
-    time.sleep(0.8)
-    mgba.press_buttons(["A"]) # Step 3: YES
-    time.sleep(0.8)
-    mgba.press_buttons(["A"]) # Step 4: dismiss
-    time.sleep(1.0)
+    print("Interacting with Mewtwo switch...")
+    # Toggling switch requires 4 A-presses:
+    # 1. "A secret switch!"
+    # 2. "Press it?" -> Yes/No prompt
+    # 3. YES selected -> "Who wouldn't?"
+    # 4. Dismiss dialogue box.
+    mgba.press_buttons([
+        "A", "sleep 1000",
+        "A", "sleep 1000",
+        "A", "sleep 1000",
+        "A", "sleep 1000"
+    ])
+    time.sleep(5.0)
     
     pos = mgba.get_coordinates()
+    print("Position after switch interaction:", pos)
 
-# Now walk back to Column 2 and try walking UP to Row 6
-if pos == {"x": 1, "y": 15}:
-    print("Walking to Column 2 Row 6...")
-    steps_up = [
-        ("Right", {"x": 2, "y": 15}),
-    ]
-    for y in range(14, 5, -1):
-        steps_up.append(("Up", {"x": 2, "y": y}))
-        
-    if run_steps(steps_up):
-        print("SUCCESS! Gate is open and we reached Row 6!")
-        exit(0)
-    else:
-        print("Failed to reach Row 6. Gate might still be closed.")
+# Walk back to Column 14 Row 11, then UP to Row 3 (14, 3)
+if pos == {"x": 2, "y": 12}:
+    print("Walking back to (14, 11)...")
+    steps = [("Up", {"x": 2, "y": 11})]
+    for x in range(3, 15):
+        steps.append(("Right", {"x": x, "y": 11}))
+    if not run_steps(steps):
+        print("Failed to return to (14, 11)")
         exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 14, "y": 11}:
+    print("Walking up Column 14 to Row 3...")
+    steps = []
+    for y in range(10, 2, -1):
+        steps.append(("Up", {"x": 14, "y": y}))
+    if not run_steps(steps):
+        print("Failed to reach (14, 3)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Take a screenshot to inspect if the Column 15 gate is now open!
+mgba.take_screenshot()
+print("Screenshot taken of final overworld state after toggling!")
+
