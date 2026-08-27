@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym Saffron Pok�mon Center [Turn 18271]; fully healed party, preparing to return to Saffron Gym North-Center Room.
+- Location: Saffron Pokémon Center at (3, 5) [Turn 18333]; healing party with Nurse Joy before challenging Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2256,7 +2256,16 @@
   - Bottom-Left Warp: (1, 17) [Arrival from North-Center (11, 5)]
   - Bottom-Right Warp: (5, 17)
 | Southwest (SW) | (5, 15) | North-Center (N) | (9, 3) |
-| North-Center (N) | (11, 3) | Center (Sabrina) | (11, 11) |
+| North-Center (N) | (11, 3) | Northwest (NW) | (5, 3) |
+| Northwest (NW) | (1, 5) | Center (Sabrina) | (11, 11) |
+
+## Center Room (Sabrina's Chamber / Room 5)
+- Boundaries: cols 7-12, rows 7-11
+- Gym Leader Sabrina: (9, 8)
+- Warp Pad: (11, 11) [Arrival from Northwest (1, 5)]
+
+## Full Verified Sabrina Route
+Entrance (11, 15) -> SE (15, 15) -> NE (15, 5) -> NW (5, 5) -> W (5, 9) -> N (11, 5) -> SW (5, 15) -> N (11, 3) -> NW (1, 5) -> Center Room (11, 11) -> Sabrina at (9, 8).
 
 ## Center Room (Sabrina's Chamber / Room 5)
 - Boundaries: cols 7-12, rows 7-11
