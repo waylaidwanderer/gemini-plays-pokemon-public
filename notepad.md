@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 11F at (6, 13) [Turn 17858]; holding Card Key; defeated Boss Giovanni in President's Office; Silph Co. liberated; preparing to receive Master Ball from President.
+- Location: Silph Co. 11F at (6, 5) [Turn 17873]; holding Card Key & Master Ball; Giovanni defeated & President rescued; exiting Silph Co. to challenge Saffron Gym Leader Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -109,8 +109,8 @@
 
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
-- Bag Capacity: 19 / 20 slots used (1 free slot)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
+- Bag Capacity: 20 / 20 slots used (FULL)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1, Master Ball x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: �¥28,428+
 
@@ -215,6 +215,7 @@
 - [x] Defeat Rival RED on Silph Co. 7F [Defeated Turn 17805]
 - [x] Receive gift Lapras from Silph Co. 7F employee (sent to Box 1) [Turn 17815]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co. 11F [Defeated Turn 17858]
+- [x] Receive Master Ball from Silph President [Turn 17873]
 
 
 <hr>
@@ -2144,7 +2145,7 @@
 ## President's Office (rows 8-13, cols 4-9)
 - Entered via Card Key gate at (6, 13).
 - Team Rocket Boss Giovanni at (6, 9): [DEFEATED Turn 17858] Nidorino Lv 37, Kangaskhan Lv 35, Rhyhorn Lv 37, Nidoqueen Lv 41; �4059 prize.
-- Silph President held hostage at (7, 8).
+- Silph President at (7, 5): Rescued; gave prototype Master Ball to player [Turn 17873].
 
 
 <hr>
