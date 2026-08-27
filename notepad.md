@@ -1554,6 +1554,28 @@ Thus, the correct State B bypass route on 2F is:
   - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
 - **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
 
+## 🔍 CRITICAL DISCOVERY: Mewtwo Switch Dialogue Termination (Turn 62492)
+- **The Dialogue Termination Flaw:** Toggling a Mewtwo switch in Pokémon Red/Blue requires exactly **4 A-presses** (or 3 A-presses plus a final A/B to dismiss) to fully complete the dialogue and update the gate state:
+  1. 1st A: Interact with the statue at `(2, 11)` -> opens "A secret switch!"
+  2. 2nd A: Advance dialogue -> opens "Press it? Yes/No" prompt.
+  3. 3rd A: Select YES -> triggers switch and opens "Who wouldn't?" (or "Toggled!" or similar).
+  4. 4th A: Dismiss the final text box -> **The gates will only physically open/close after this final box is dismissed and the player is back in the overworld!**
+- If you only press A 3 times, the dialogue box remains on screen showing "Who wouldn't?", blocking all movement and keeping the gates closed!
+
+## 🗺️ Verified 3F West Switch & Path Coordinates (Turn 62492)
+- **Switch Location:** `(2, 11)` on 3F West (the statue).
+- **Standing Position:** `(2, 12)` facing UP.
+- **Path from stairs (7, 10) to Switch (2, 12):**
+  - From `(7, 10)`, walk DOWN to `(7, 11)`.
+  - Walk LEFT along Row 11 to Column 3 `(3, 11)` (bypassing the solid statue at `(2, 11)`).
+  - Walk DOWN Column 3 to `(3, 12)`.
+  - Walk LEFT to `(2, 12)`.
+  - Walk UP to face the statue at `(2, 11)`.
+
+## 🎒 Inventory & Escape Status Verification (Turn 62492)
+- We verified by manually opening the in-game Bag on Turn 62483 and saving screenshots (`real_bag_p1.png`, `real_bag_p2.png`) that we currently have **7 items** and **NO Secret Key** in our Bag.
+- Therefore, we must toggle the 3F West switch to State B, walk through the open gate, drop through the 3F East pitfall, go to B1F West NORTH, and retrieve the Secret Key.
+- Once retrieved, we can walk out on foot via the open Row 5 gates on 1F (West to East) to exit the Mansion completely without needing DIG.
 
 <hr>
 
