@@ -23,7 +23,7 @@
 
 ## Northeast Room (NE / Room 3)
 - Boundaries: cols 14-19, rows 1-5
-- Trainer: Medium / Psychic at (17, 1)
+- Trainer: Psychic at (17, 1): Kadabra Lv 31, Slowpoke Lv 31, Mr. Mime Lv 31 [Defeated Turn 18157]
 - Warp Pads:
   - Top-Left Warp: (15, 3)
   - Top-Right Warp: (19, 3) [Arrival from Southeast (15, 15)]
