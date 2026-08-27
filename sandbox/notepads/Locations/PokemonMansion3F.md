@@ -10,7 +10,7 @@
 - Stairs down to 2F: (7, 10)
 - Research Journal: (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.")
 - Trainer: Burglar at (5, 11) [Ninetales Lv 38; Defeated Turn 18447; ¥3420]
-- Item Ball: (1, 16) [Collected Turn 18455]
+- Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455]
 - Hallway Row 16: (1..5, 16) open floor leading to southwest item
 - South Wall: Row 17
 

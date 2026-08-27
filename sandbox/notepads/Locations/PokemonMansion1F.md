@@ -15,7 +15,7 @@
 ### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
 - Balcony Landing Tile: (16, 14) [Arrived Turn 18495]
 - Scientist NPC: (17, 17) facing Down
-- Item Ball: (18, 21) [Collected Turn 18509]
+- Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
 - Corridors: Row 14 (cols 12-17), Row 20-21 (cols 12-23), Row 24-26 (cols 12-23), Column 12 (rows 14-26), Column 20 (rows 20-26)
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 - Southern Wall: Row 27
