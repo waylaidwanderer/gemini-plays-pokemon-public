@@ -62,37 +62,37 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 15451)
+## Active Party (Verified Turn 18216)
 1. HYDROS (Blastoise) - Lv 60
-   - Stats (Verified at Lv 59 Turn 18078): Max HP 200 (HP: 49/200), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats: Max HP 200 (HP: 0/200 - FNT), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (10/10), Bite (25/25), Surf (13/15)
-   - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
+   - Moves: Double-Edge (8/15), Ice Beam (10/10), Bite (25/25), Surf (13/15)
+   - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 200 (HP: 49/200), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
-   - Role: Cut utility & reserve grass attacker (Slot 2)
+   - Role: Active combatant & Cut utility
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 200 (HP: 49/200) [Healed with Super Potion Turn 15708]
+   - Stats: Max HP 54 (HP: 0/54 - FNT)
    - Type: Fighting
-   - Moves: Karate Chop (22/25), Low Kick, Strength (HM04 learned Turn 17295)
-   - Role: Physical Fighting attacker & Strength utility (Reserve)
+   - Moves: Karate Chop, Low Kick, Strength
+   - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 200 (HP: 49/200), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 0/54 - FNT), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
+   - Role: Physical Rock/Ground tank
 5. PRISM (Eevee) - Lv 25
-   - Stats (Verified at Lv 25 Turn 14826): Max HP 200 (HP: 49/200), Attack 37, Defense 36, Speed 32, Special 41
+   - Stats: Max HP 62 (HP: 51/62), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
-   - Moves: Tackle (35/35), Sand-Attack (15/15) [Carbos used Turn 17426; Speed boosted]
-   - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
+   - Moves: Tackle (21/35), Sand-Attack (14/15), Double Team (13/15)
+   - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 19
-   - Stats: Max HP 200 (HP: 49/200), Attack 23, Defense 21, Speed 27, Special 19
+   - Stats: Max HP 46 (HP: 0/46 - FNT), Attack 23, Defense 21, Speed 27, Special 19
    - Type: Normal / Flying
-   - Moves: Sand-Attack, Quick Attack, Whirlwind, Fly
-   - Role: Active Flyer (HM02 Fly learned Turn 15350; Gust replaced)
+   - Moves: Fly, Sand-Attack, Quick Attack, Whirlwind
+   - Role: Flyer utility
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
@@ -2228,6 +2228,7 @@
 | Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
 | Northeast (NE) | (15, 5) | Northwest (NW) | (1, 3) |
 | Northwest (NW) | (5, 5) | West (W) | (1, 11) |
+| West (W) | (5, 9) | North-Center (N) | (9, 5) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
@@ -2244,7 +2245,5 @@
   - Bottom-Left Warp: (9, 5) [Arrival from West (5, 9)]
   - Bottom-Right Warp: (11, 5)
 
-## Additional Warp Network Permutations
-| West (W) | (5, 9) | North-Center (N) | (9, 5) |
 
 <hr>
