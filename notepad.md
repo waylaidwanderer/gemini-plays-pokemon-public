@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Fighting Dojo at (4, 5) [Turn 18033]; party healthy (HYDROS HP 151/197); defeating Dojo karate students before challenging Master Koichi.
+- Location: Saffron Fighting Dojo at (4, 4) [Turn 18038]; party healthy (HYDROS HP 151/197); battling Black Belt 4 before challenging Master Koichi.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2158,7 +2158,7 @@
 1. Black Belt 1 at (5, 7): Machop Lv 31, Mankey Lv 31, Primeape Lv 31 [Defeated; ¥775]
 2. Black Belt 2 at (3, 6): Machop Lv 31, Machoke Lv 32 [Defeated; ¥800]
 3. Black Belt 3 at (5, 5): Primeape Lv 36 [Defeated]
-4. Black Belt 4 at (3, 4): [Spotted; engaging next at (4, 4)]
+4. Black Belt 4 at (3, 4): [In Battle]
 5. Karate Master Koichi at (5, 3): [Unchallenged]
 
 
