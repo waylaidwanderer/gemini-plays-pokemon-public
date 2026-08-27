@@ -41,7 +41,7 @@
 
 ## West Room (W / Room 4)
 - Boundaries: cols 0-5, rows 7-11
-- Trainer: Channeler / Psychic at (3, 7)
+- Trainer: Channeler at (3, 7): Haunter Lv 38 [Defeated Turn 18174]
 - Warp Pads:
   - Top-Left Warp: (1, 9)
   - Top-Right Warp: (5, 9)
