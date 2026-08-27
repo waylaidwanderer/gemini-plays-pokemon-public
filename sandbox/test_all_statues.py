@@ -2,29 +2,66 @@ import mgba
 import time
 from PIL import Image
 
-def is_dialogue_open():
-    time.sleep(0.15)
-    scr_file = mgba.take_screenshot()
-    img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
-    cropped = img.crop((0, 104, 160, 144))
-    
-    white_cream_pixels = 0
-    for y in range(cropped.height):
-        for x in range(cropped.width):
-            r, g, b = cropped.getpixel((x, y))[:3]
-            if r > 200 and g > 200 and b > 200:
-                white_cream_pixels += 1
-    return white_cream_pixels > 3000
-
 def handle_any_menu_or_battle():
     time.sleep(0.15)
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file)
+    img_std = img.resize((160, 144), Image.Resampling.NEAREST)
+    
+    # We first press B to exit any move sub-menu we might be in
     mgba.press_buttons(["B"])
     time.sleep(0.3)
+    
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file)
+    img_std = img.resize((160, 144), Image.Resampling.NEAREST)
+    
+    black_or_white = 0
+    total_pixels = 0
+    for y in range(115, 140):
+        for x in range(10, 150):
+            r, g, b = img_std.getpixel((x, y))[:3]
+            total_pixels += 1
+            is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+            if is_bw:
+                black_or_white += 1
+                
+    percentage = black_or_white / total_pixels
+    if percentage > 0.90:
+        print(f"Menu/Dialogue detected! (B/W: {percentage*100:.2f}%)")
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
+        
+        # Check if still in battle
+        scr_file2 = mgba.take_screenshot()
+        img2 = Image.open(scr_file2)
+        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
+        black_or_white2 = 0
+        for y in range(115, 140):
+            for x in range(10, 150):
+                r, g, b = img_std2.getpixel((x, y))[:3]
+                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+                if is_bw:
+                    black_or_white2 += 1
+        percentage2 = black_or_white2 / total_pixels
+        
+        if percentage2 > 0.90:
+            print("Still in battle. Running...")
+            mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
+            time.sleep(1.5)
+            # Dismiss run text
+            for _ in range(4):
+                mgba.press_buttons(["B"])
+                time.sleep(0.3)
+        return True
     return False
 
 def walk_step(direction, expected_coords, retries=15):
     for i in range(retries):
-        handle_any_menu_or_battle()
+        if handle_any_menu_or_battle():
+            pos = mgba.get_coordinates()
+            if pos == expected_coords:
+                return True
         mgba.press_buttons([direction])
         time.sleep(0.45)
         pos = mgba.get_coordinates()
@@ -42,119 +79,36 @@ def run_steps(steps):
     return True
 
 print("Running test_all_statues.py...")
+# We are currently at (2, 10). Let's face RIGHT and test (3, 10)
 pos = mgba.get_coordinates()
-print("Starting from:", pos)
-
-# We are at (1, 15).
-# Walk to (2, 16)
-if pos == {"x": 1, "y": 15}:
-    if not run_steps([
-        ("Down", {"x": 1, "y": 16}),
-        ("Right", {"x": 2, "y": 16}),
-    ]):
-        print("Failed to reach (2, 16)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Test (2, 16) facing RIGHT towards (3, 16)
-if pos == {"x": 2, "y": 16}:
-    print("Testing (2, 16) facing RIGHT...")
+if pos == {"x": 2, "y": 10}:
+    print("Testing (3, 10) from (2, 10) facing RIGHT...")
     mgba.press_buttons(["Right"])
-    time.sleep(0.4)
-    # Check if we moved
-    pos_test = mgba.get_coordinates()
-    if pos_test != {"x": 2, "y": 16}:
-        print("We walked onto (3, 16)! Walking back...")
-        walk_step("Left", {"x": 2, "y": 16})
+    time.sleep(0.55)
+    
+    # Check if we walked onto (3, 10) (which would mean it is not a statue!)
+    pos = mgba.get_coordinates()
+    if pos == {"x": 3, "y": 10}:
+        print("  Oops! We walked onto (3, 10), so it is not a statue.")
+        # Walk back to (2, 10)
+        walk_step("Left", {"x": 2, "y": 10})
     else:
-        # We are facing RIGHT
+        # We are at (2, 10) facing RIGHT!
+        print("  Pressing A on (3, 10)...")
         mgba.press_buttons(["A"])
         time.sleep(0.8)
-        if is_dialogue_open():
-            print("SUCCESS! Switch dialogue opened at (2, 16) facing RIGHT!")
-            # Toggle it to State B
-            mgba.press_buttons(["A"]) # YES
-            time.sleep(1.0)
-            mgba.press_buttons(["A"]) # Result
-            time.sleep(1.0)
-            mgba.press_buttons(["A"]) # Dismiss
-            time.sleep(1.0)
-            exit(0)
-        else:
-            mgba.press_buttons(["B"])
-            time.sleep(0.3)
+        # Check if text box is open
+        # We can look at cropped screenshot
+        scr_file = mgba.take_screenshot()
+        img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
+        cropped = img.crop((0, 104, 160, 144))
+        cropped.save("cropped_test/switch_dialogue_final_full.png")
+        
+        # In overworld, if dialogue box opens, it has high contrast.
+        # Let's see if we see any text or we can just print success.
+        print("  Check cropped_test/switch_dialogue_final_full.png to see if dialogue opened!")
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
 
-# Walk to (2, 14)
-if pos == {"x": 2, "y": 16}:
-    if not run_steps([
-        ("Up", {"x": 2, "y": 15}),
-        ("Up", {"x": 2, "y": 14}),
-    ]):
-        print("Failed to reach (2, 14)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Test (2, 14) facing RIGHT towards (3, 14)
-if pos == {"x": 2, "y": 14}:
-    print("Testing (2, 14) facing RIGHT...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.4)
-    pos_test = mgba.get_coordinates()
-    if pos_test != {"x": 2, "y": 14}:
-        print("We walked onto (3, 14)! Walking back...")
-        walk_step("Left", {"x": 2, "y": 14})
-    else:
-        mgba.press_buttons(["A"])
-        time.sleep(0.8)
-        if is_dialogue_open():
-            print("SUCCESS! Switch dialogue opened at (2, 14) facing RIGHT!")
-            # Toggle it to State B
-            mgba.press_buttons(["A"]) # YES
-            time.sleep(1.0)
-            mgba.press_buttons(["A"]) # Result
-            time.sleep(1.0)
-            mgba.press_buttons(["A"]) # Dismiss
-            time.sleep(1.0)
-            exit(0)
-        else:
-            mgba.press_buttons(["B"])
-            time.sleep(0.3)
-
-# Walk to (2, 12)
-if pos == {"x": 2, "y": 14}:
-    if not run_steps([
-        ("Up", {"x": 2, "y": 13}),
-        ("Up", {"x": 2, "y": 12}),
-    ]):
-        print("Failed to reach (2, 12)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Test (2, 12) facing RIGHT towards (3, 12)
-if pos == {"x": 2, "y": 12}:
-    print("Testing (2, 12) facing RIGHT...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.4)
-    pos_test = mgba.get_coordinates()
-    if pos_test != {"x": 2, "y": 12}:
-        print("We walked onto (3, 12)! Walking back...")
-        walk_step("Left", {"x": 2, "y": 12})
-    else:
-        mgba.press_buttons(["A"])
-        time.sleep(0.8)
-        if is_dialogue_open():
-            print("SUCCESS! Switch dialogue opened at (2, 12) facing RIGHT!")
-            # Toggle it to State B
-            mgba.press_buttons(["A"]) # YES
-            time.sleep(1.0)
-            mgba.press_buttons(["A"]) # Result
-            time.sleep(1.0)
-            mgba.press_buttons(["A"]) # Dismiss
-            time.sleep(1.0)
-            exit(0)
-        else:
-            mgba.press_buttons(["B"])
-            time.sleep(0.3)
-
-print("All tested statues failed.")
-exit(1)
+# Let's walk to other positions and test!
+print("Done with initial test.")
