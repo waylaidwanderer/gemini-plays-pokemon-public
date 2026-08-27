@@ -42,6 +42,8 @@
    - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
 3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2; sent to Box 1]
    - Type: Normal
+4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F; sent to Box 1]
+   - Type: Water / Ice
 
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
