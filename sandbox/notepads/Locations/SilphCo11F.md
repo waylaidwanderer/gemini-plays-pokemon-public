@@ -16,3 +16,4 @@
 - West Corridor: cols 1-3, rows 1-10+ open beige diamond floor.
 - NPC at (6, 9) in eastern office area.
 - Desks and counters spanning cols 6-8, rows 6-9.
+- Rocket Grunt at (3, 16) guarding southern west corridor.
