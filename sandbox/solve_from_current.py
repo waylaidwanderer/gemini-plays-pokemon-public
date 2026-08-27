@@ -71,46 +71,36 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 5, "y": 8}:
-    print("Walking UP Column 5 to Row 5...")
+if pos == {"x": 14, "y": 5}:
+    print("Walking DOWN to Row 6 to bypass the CLOSED Row 5 gates...")
     steps = [
-        ("Up", {"x": 5, "y": 7}),
-        ("Up", {"x": 5, "y": 6}),
-        ("Up", {"x": 5, "y": 5}),
+        ("Down", {"x": 14, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (5, 5) on 1F West")
+        print("Failed to reach (14, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 5, "y": 5}:
-    print("Walking RIGHT along Row 5 across Column 13 open gate to 1F East...")
+if pos == {"x": 14, "y": 6}:
+    print("Walking RIGHT along Row 6 to Column 21 on 1F East...")
     steps = [
-        ("Right", {"x": 6, "y": 5}),
-        ("Right", {"x": 7, "y": 5}),
-        ("Right", {"x": 8, "y": 5}),
-        ("Right", {"x": 9, "y": 5}),
-        ("Right", {"x": 10, "y": 5}),
-        ("Right", {"x": 11, "y": 5}),
-        ("Right", {"x": 12, "y": 5}),
-        ("Right", {"x": 13, "y": 5}),  # Open gate in State B on 1F
-        ("Right", {"x": 14, "y": 5}),
-        ("Right", {"x": 15, "y": 5}),
-        ("Right", {"x": 16, "y": 5}),
-        ("Right", {"x": 17, "y": 5}),
-        ("Right", {"x": 18, "y": 5}),
-        ("Right", {"x": 19, "y": 5}),
-        ("Right", {"x": 20, "y": 5}),
-        ("Right", {"x": 21, "y": 5}),
+        ("Right", {"x": 15, "y": 6}),
+        ("Right", {"x": 16, "y": 6}),
+        ("Right", {"x": 17, "y": 6}),
+        ("Right", {"x": 18, "y": 6}),
+        ("Right", {"x": 19, "y": 6}),
+        ("Right", {"x": 20, "y": 6}),
+        ("Right", {"x": 21, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (21, 5) on 1F East")
+        print("Failed to reach (21, 6) on 1F East")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 21, "y": 5}:
+if pos == {"x": 21, "y": 6}:
     print("Walking UP Column 21 to Row 2...")
     steps = [
+        ("Up", {"x": 21, "y": 5}),
         ("Up", {"x": 21, "y": 4}),
         ("Up", {"x": 21, "y": 3}),
         ("Up", {"x": 21, "y": 2}),
