@@ -2239,10 +2239,10 @@
 
 <h1><code>Locations/PokemonMansion1F</code></h1>
 
-# Pokémon Mansion 1F - Layout & Exploration
+# Pok�mon Mansion 1F - Layout & Exploration
 
 ## Overview
-- First floor of the ruined Pokémon Mansion in northwest Cinnabar Island.
+- First floor of the ruined Pok�mon Mansion in northwest Cinnabar Island.
 - Features red carpet grand entrance, marble floors, Mewtwo statue switches, ruined walls, and an enclosed eastern wing accessible only by dropping from 3F.
 
 ## Layout & Landmarks
@@ -2254,17 +2254,20 @@
 - Stairs up to 2F: (5, 10) [at north end of central hallway]
 
 ### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
-- Balcony Landing Tile: (16, 14) [Arrived Turn 18495]
+- Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at rows 6-7, cols 6-9]
 - Scientist NPC: (17, 17) [Scientist Ted: Electrode Lv 29, Weezing Lv 29; Defeated Turn 18533]
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
 - Corridors: Row 14 (cols 12-17), Row 20-21 (cols 12-23), Row 24-26 (cols 12-23), Column 12 (rows 14-26), Column 20 (rows 20-26)
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 - Southern Wall: Row 27
 - Western Divider Wall: Column 11 (separates main entrance from enclosed wing)
-- Shutter Gate (Northeast): (24..25, 13) [Observed CLOSED on Turn 18520 in State B; blocks access to northern chamber at rows 10-12]
+- Shutter Gate (Northeast): (24..25, 13)
+  - State A (Default): **OPEN** -> leads directly to northern chamber (rows 10-12) containing B1F stairs!
+  - State B (Toggled): CLOSED (blocks access to B1F stairs)
 
 ## Progression & Discoveries
 - Enclosed sector fully mapped (rows 14-27, cols 12-28).
+
 
 <hr>
 
@@ -2302,10 +2305,10 @@
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
 
-# Pokémon Mansion 3F - Layout & Exploration
+# Pok�mon Mansion 3F - Layout & Exploration
 
 ## Overview
-- Third floor of the ruined Pokémon Mansion.
+- Third floor of the ruined Pok�mon Mansion.
 - Contains journal entries about Mew/Mewtwo, trainers, statue switch, and drop-off balcony holes to lower floors.
 
 ## Layout & Landmarks
@@ -2313,7 +2316,7 @@
 ### Southwest Wing
 - Stairs down to 2F: (7, 10)
 - Research Journal: (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.")
-- Trainer: Burglar at (5, 11) [Ninetales Lv 38; Defeated Turn 18447; ¥3420]
+- Trainer: Burglar at (5, 11) [Ninetales Lv 38; Defeated Turn 18447; �3420]
 - Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455]
 - Hallway Row 16: (1..5, 16) open floor leading to southwest item
 - South Wall: Row 17
@@ -2321,12 +2324,16 @@
 ### Northeast Wing (Accessible via 2F Northeast Stairs at (6, 1))
 - Stairs down to 2F: (6, 1) [Arrival at (6, 2)]
 - Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
-- Balcony Drop-off Hole (Wide Pit): Rows 6-7, cols 6-9 [Jumping off eastern edge drops player to 1F enclosed area at (16, 14)]
+- Balcony Drop-off Hole (Departure): Rows 6-7, cols 6-9
+  - Departure Tile: 3F (6..9, 6..7) [Jumping off the balcony ledge into the hole]
+  - Arrival Tile: 1F (16, 14) [Lands directly on 1F enclosed east wing floor]
 - East Corridor & Rooms: Cols 10-16, rows 1-8
 
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
-- 3F Switch at (10, 5): Toggled ON Turn 18484 ('Who wouldn\'t!'). Sets Mansion to State B (inverted).
+- Entering Mansion from exterior resets all switches to default State A.
+- To reach B1F stairs from 1F enclosed area, Mansion switches MUST remain in State A (Default) so the 1F shutter at (24..25, 13) remains OPEN!
+
 
 <hr>
 
@@ -2348,13 +2355,18 @@
 | 2F | Shutter at (26..27, 27) [Southeast Corner] | **CLOSED** (Verified Turn 18598) | OPEN |
 | 3F | Shutter at (10, 3) | **CLOSED** | OPEN (Verified Turn 18484) |
 
-## Optimal Secret Key Route
-1. Enter 1F in State A (Default).
+## Balcony Pit Drop Matrix
+- Departure: 3F (6..9, 6..7) [Balcony drop-off hole]
+- Arrival: 1F (16, 14) [Enclosed east wing floor]
+
+## Optimal Secret Key Route (Verified Step-by-Step)
+1. Enter Mansion 1F in State A (Default).
 2. Ascend to 2F via (5, 10).
-3. Walk to (6, 1) on 2F in State A (doorways open) and ascend to 3F (6, 2).
-4. DO NOT toggle switch on 3F!
-5. Drop down balcony pit (rows 6-7, cols 6-9) to 1F (16, 14).
+3. Walk north to (6, 1) on 2F in State A and ascend to 3F (6, 2).
+4. DO NOT toggle switch on 3F! Keep switches in State A.
+5. Drop down balcony pit at 3F (6..9, 6..7) to arrive on 1F (16, 14).
 6. Pass through OPEN shutter at (24..25, 13) into northern chamber to B1F stairs.
+7. Recover Secret Key from B1F.
 
 
 <hr>
