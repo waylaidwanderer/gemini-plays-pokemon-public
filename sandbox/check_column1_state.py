@@ -1,41 +1,43 @@
 import mgba
 import time
 
-def check_pos():
-    pos = mgba.get_coordinates()
-    print("CURRENT POSITION:", pos)
-    return pos
-
-# Ensure menu is closed
+# Ensure we start fresh
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-p = check_pos()
+pos = mgba.get_coordinates()
+print(f"Initial position: {pos}")
 
-if p == {"x": 2, "y": 10}:
-    # Walk Left to (1, 10)
-    print("Walking Left to (1, 10)...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.55)
-    p = check_pos()
-    
-    if p == {"x": 1, "y": 10}:
-        # Try walking UP to (1, 9) and (1, 8)
-        print("At (1, 10). Trying to walk UP to (1, 9)...")
-        mgba.press_buttons(["Up"])
-        time.sleep(0.55)
-        p = check_pos()
+# We are at (1, 12). Let's try to walk UP to (1, 11)
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+pos = mgba.get_coordinates()
+print(f"After Up: {pos}")
+
+# Let's try to walk UP to (1, 10)
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+pos = mgba.get_coordinates()
+print(f"After Up Up: {pos}")
+
+# Let's try to walk UP to (1, 9)
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+pos = mgba.get_coordinates()
+print(f"After Up Up Up: {pos}")
+
+# Let's try to walk UP to (1, 8)
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+pos = mgba.get_coordinates()
+print(f"After Up Up Up Up: {pos}")
+
+# Let's walk back down to (1, 11) or (1, 12) to be safe
+pos = mgba.get_coordinates()
+if pos["y"] < 11:
+    print("Walking back down to Row 11...")
+    for y in range(pos["y"], 11):
+        mgba.press_buttons(["Down"])
+        time.sleep(0.5)
         
-        if p == {"x": 1, "y": 9}:
-            print("At (1, 9). Trying UP to (1, 8)...")
-            mgba.press_buttons(["Up"])
-            time.sleep(0.55)
-            p = check_pos()
-            if p == {"x": 1, "y": 8}:
-                print("SUCCESS! Column 1 Row 9 is OPEN! We are in State B!")
-            else:
-                print("BLOCKED at (1, 9) trying to go to (1, 8)")
-        else:
-            print("BLOCKED at (1, 10) trying to go to (1, 9). We are in State A!")
-else:
-    print("Not starting at (2, 10)")
+print("Final position:", mgba.get_coordinates())
