@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Route 21 (7, 0) [Turn 18403]; surfing south toward Cinnabar Island.
+- Location: Pokémon Mansion 3F (5, 15) [Turn 18451]; exploring 3F corridors and items.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2303,7 +2303,6 @@
 - Decorative Displays / Pillars: (3, 24) and (8, 24)
 
 ## Progression & Discoveries
-- Entered Turn 18433.
 - Stairs to 2F: (5, 10) [at north end of entrance hallway]
 
 <hr>
@@ -2323,7 +2322,7 @@
 - Corridors/Doorways North: (4, 7), (6, 7)
 
 ## Progression & Discoveries
-- Entered Turn 18440.
+- Stairs up to 3F: (7, 10) accessible from (5, 11)
 
 <hr>
 
@@ -2337,13 +2336,14 @@
 
 ## Layout & Landmarks
 - Stairs down to 2F: (7, 10)
-- Research Journal: (6, 12) on table
-- Trainer: (5, 11)
-- Northeast Hallway: (10..12, 7)
-- Statues: (12, 9), (12, 11)
-- Rubble / Pit drops: (3..9, 7), (10, 9..11), (9..10, 12..15)
+- Research Journal: (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.")
+- Trainer: Burglar at (5, 11) [Ninetales Lv 38; Defeated Turn 18447; ¥3420]
+- Item Ball: (1, 16)
+- Hallway Row 16: (1..5, 16) open floor leading to southwest item
+- South Wall: Row 17
 
-## Progression & Discoveries
-- Entered Turn 18442.
+## Discovered Areas & Pit Droppoints
+- Corridor leading northeast from central area: Row 7 (visible at (10, 7))
+- Center/West pit: Rubble boundaries observed around rows 7, 14-16
 
 <hr>

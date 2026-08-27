@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Route 21 (7, 0) [Turn 18403]; surfing south toward Cinnabar Island.
+- Location: Pokémon Mansion 3F (5, 15) [Turn 18451]; exploring 3F corridors and items.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

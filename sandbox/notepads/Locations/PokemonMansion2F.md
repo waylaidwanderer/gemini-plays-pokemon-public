@@ -11,4 +11,4 @@
 - Corridors/Doorways North: (4, 7), (6, 7)
 
 ## Progression & Discoveries
-- Entered Turn 18440.
+- Stairs up to 3F: (7, 10) accessible from (5, 11)
