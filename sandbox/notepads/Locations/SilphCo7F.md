@@ -27,5 +27,5 @@
 - Western Suite (cols 1-5, rows 1-7):
   - Warp pad at (5, 3): Entrance from 9F (11, 11).
   - Silph employee at (1, 5): Gives Lapras (requires party slot).
-  - Rival RED at (3, 7): Infiltration battle encounter.
+  - Rival RED at (3, 7): [DEFEATED Turn 17805] Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40; ¥2600 prize.
   - Warp pad at (5, 7): Exit warp leading to 11F executive suites / Giovanni.
