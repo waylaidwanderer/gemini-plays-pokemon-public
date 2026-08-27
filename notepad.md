@@ -2256,7 +2256,11 @@
   - Bottom-Left Warp: (1, 17) [Arrival from North-Center (11, 5)]
   - Bottom-Right Warp: (5, 17)
 | Southwest (SW) | (5, 15) | North-Center (N) | (9, 3) |
-| North-Center (N) | (11, 3) | Northwest (NW) | (5, 3) |
+| North-Center (N) | (11, 3) | Center (Sabrina) | (11, 11) |
 
+## Center Room (Sabrina's Chamber / Room 5)
+- Boundaries: cols 7-12, rows 7-11
+- Gym Leader Sabrina: (9, 8)
+- Warp Pad: (11, 11) [Arrival from North-Center (11, 3)]
 
 <hr>
