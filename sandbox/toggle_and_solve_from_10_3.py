@@ -77,47 +77,46 @@ for _ in range(3):
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# We are at (10, 7) because we walked down Column 10 to Row 7.
 if pos == {"x": 10, "y": 7}:
-    print("Walking to Column 12 to bypass the Row 8 Column 10 rubble...")
+    print("Walking to Column 12 and DOWN to Row 11...")
     steps = [
         ("Right", {"x": 11, "y": 7}),
         ("Right", {"x": 12, "y": 7}),
         ("Down", {"x": 12, "y": 8}),
         ("Down", {"x": 12, "y": 9}),
         ("Down", {"x": 12, "y": 10}),
+        ("Down", {"x": 12, "y": 11}),
     ]
     if not run_steps(steps):
-        print("Failed to navigate to (12, 10)")
+        print("Failed to reach (12, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Walk LEFT along Row 10 to (5, 10) to warp to 2F West
-if pos == {"x": 12, "y": 10}:
-    print("Walking LEFT along Row 10 to the stairs at (5, 10)...")
+# Now at (12, 11). Walk LEFT along Row 11 to the stairs at (7, 11) to warp to 2F West
+if pos == {"x": 12, "y": 11}:
+    print("Walking LEFT along Row 11 to the stairs at (7, 11)...")
     steps = [
-        ("Left", {"x": 11, "y": 10}),
-        ("Left", {"x": 10, "y": 10}),
-        ("Left", {"x": 9, "y": 10}),
-        ("Left", {"x": 8, "y": 10}),
-        ("Left", {"x": 7, "y": 10}),
-        ("Left", {"x": 6, "y": 10}),
+        ("Left", {"x": 11, "y": 11}),
+        ("Left", {"x": 10, "y": 11}),
+        ("Left", {"x": 9, "y": 11}),
+        ("Left", {"x": 8, "y": 11}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (6, 10)")
+        print("Failed to reach (8, 11)")
         exit(1)
         
-    print("Stepping LEFT onto (5, 10) to warp to 2F West...")
+    print("Stepping LEFT onto (7, 11) to warp to 2F West...")
     mgba.press_buttons(["Left"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
     print("Position after warping UP to 2F West:", pos)
 
-# Now on 2F West (landing at 5, 11). Walk UP Column 5 to Row 3 (5, 3)
-if pos == {"x": 5, "y": 11}:
+# Now on 2F West (landing at 5, 11 or 5, 10? Wait, the stairs warp lands at 5, 11). Walk UP Column 5 to Row 3 (5, 3)
+if pos == {"x": 5, "y": 11} or pos == {"x": 5, "y": 10}:
+    pos_y = pos["y"]
     print("Walking UP Column 5 directly to Row 3...")
     steps = []
-    for y in range(10, 2, -1):
+    for y in range(pos_y - 1, 2, -1):
         steps.append(("Up", {"x": 5, "y": y}))
     if not run_steps(steps):
         print("Failed to reach (5, 3) on 2F West. We might be in State A!")
