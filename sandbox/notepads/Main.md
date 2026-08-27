@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Pok�mon Center at (3, 3) [Turn 18111]; party 100% healed; exiting to Saffron City to challenge Saffron Gym (Sabrina).
+- Location: Saffron City at (29, 30) [Turn 18122]; party 100% healed at Pok�mon Center; navigating to Saffron Gym at (34, 3) to challenge Gym Leader Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
