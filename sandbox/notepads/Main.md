@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym at (8, 17) [Turn 18131]; party 100% healed (HYDROS Lv 59 HP 197/197); speaking with Gym Guide before navigating warp tile network.
+- Location: Saffron Gym Northeast Room at (19, 3) [Turn 18151]; defeated SE Psychic, warped to NE room; engaging NE trainer at (17, 1).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

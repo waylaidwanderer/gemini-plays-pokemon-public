@@ -21,10 +21,20 @@
   - Bottom-Left Warp: (15, 17)
   - Bottom-Right Warp: (19, 17) [Arrival from Entrance Room (11, 15)]
 
+## Northeast Room (NE / Room 3)
+- Boundaries: cols 14-19, rows 1-5
+- Trainer: Medium / Psychic at (17, 1)
+- Warp Pads:
+  - Top-Left Warp: (15, 3)
+  - Top-Right Warp: (19, 3) [Arrival from Southeast (15, 15)]
+  - Bottom-Left Warp: (15, 5)
+  - Bottom-Right Warp: (19, 5)
+
 ## Saffron Gym Warp Network Permutation Matrix
 | Source Room | Warp Coordinate | Destination Room | Destination Coord |
 |---|---|---|---|
 | Entrance (S) | (11, 15) | Southeast (SE) | (19, 17) |
+| Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
