@@ -77,6 +77,13 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
+if pos == {"x": 7, "y": 10}:
+    print("Stepping DOWN to (7, 11)...")
+    if not run_steps([("Down", {"x": 7, "y": 11})]):
+        print("Failed to move DOWN to (7, 11)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
 # We are at (7, 11) on 2F West.
 # Let's walk to 2F East stairs at (15, 11).
 # We must walk: (7, 11) -> (5, 11) -> (5, 8) -> (10, 8) -> (15, 8) -> (15, 11).
