@@ -2304,5 +2304,6 @@
 
 ## Progression & Discoveries
 - Entered Turn 18433.
+- Stairs to 2F: (5, 10) [at north end of entrance hallway]
 
 <hr>
