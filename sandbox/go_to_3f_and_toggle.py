@@ -2,6 +2,22 @@ import mgba
 import time
 from PIL import Image
 
+def is_dialogue_open():
+    time.sleep(0.15)
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
+    cropped = img.crop((0, 104, 160, 144))
+    
+    # Check for GBC dialogue background (high white/cream pixel count)
+    white_cream_pixels = 0
+    for y in range(cropped.height):
+        for x in range(cropped.width):
+            r, g, b = cropped.getpixel((x, y))[:3]
+            if r > 200 and g > 200 and b > 200:
+                white_cream_pixels += 1
+    print(f"  Check dialogue box: white_cream_pixels={white_cream_pixels}")
+    return white_cream_pixels > 3000
+
 def handle_any_menu_or_battle():
     time.sleep(0.15)
     scr_file = mgba.take_screenshot()
@@ -57,36 +73,130 @@ mgba.press_buttons(["B"])
 time.sleep(0.3)
 
 pos = mgba.get_coordinates()
-print("Starting position on 2F West:", pos)
+print("Starting position on 3F West:", pos)
 
-# 1. Walk from (5, 10) to (7, 11) on 2F West
-if pos == {"x": 5, "y": 10}:
-    if not walk_step("Down", {"x": 5, "y": 11}):
-        print("Failed to move Down to (5, 11)")
+# 1. Walk from (7, 10) to (2, 11) on 3F West
+if pos == {"x": 7, "y": 10}:
+    if not walk_step("Down", {"x": 7, "y": 11}):
+        print("Failed to move Down to (7, 11)")
         exit(0)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 5, "y": 11}:
-    steps_to_stairs = [
-        ("Right", {"x": 6, "y": 11}),
-        ("Right", {"x": 7, "y": 11})
-    ]
-    if not run_steps(steps_to_stairs):
-        print("Failed to walk to (7, 11)")
-        exit(0)
-    pos = mgba.get_coordinates()
-
-# 2. Warp UP to 3F West
 if pos == {"x": 7, "y": 11}:
-    print("Stepping UP to warp to 3F West...")
+    print("Walking LEFT to (2, 11)...")
+    steps_to_switch = []
+    for x in range(6, 1, -1):
+        steps_to_switch.append(("Left", {"x": x, "y": 11}))
+    if not run_steps(steps_to_switch):
+        print("Failed to reach (2, 11)")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 2. Face UP towards (2, 10) and toggle switch to State B
+if pos == {"x": 2, "y": 11}:
+    print("Facing UP towards Mewtwo Switch at (2, 10)...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    
+    print("Pressing A to open dialogue...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    if is_dialogue_open():
+        print("Dialogue open! Toggling switch...")
+        # Toggle YES and dismiss
+        mgba.press_buttons(["A", "sleep 1500", "A", "sleep 1200", "A"])
+        time.sleep(4.5)
+        print("Switch successfully toggled to State B!")
+    else:
+        print("Failed to open dialogue. Trying again...")
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 3. Walk back RIGHT to (7, 11) on 3F West
+if pos == {"x": 2, "y": 11}:
+    print("Walking RIGHT back to (7, 11)...")
+    steps_back = []
+    for x in range(3, 8):
+        steps_back.append(("Right", {"x": x, "y": 11}))
+    if not run_steps(steps_back):
+        print("Failed to walk back to (7, 11)")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 4. Step UP onto stairs at (7, 10) to warp DOWN to 2F West!
+if pos == {"x": 7, "y": 11}:
+    print("Stepping UP onto stairs at (7, 10)...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
-    print("Position on 3F West after warp:", pos)
+    print("New position on 2F West after warp DOWN:", pos)
 
-# In State A, the shutter gate on 3F West at Row 10/9 is CLOSED.
-# This means warping UP in State A triggers a pushback, so we land on 3F West but must walk safely!
-# Wait, let's verify where we are after warp.
-# Often we land at (7, 11) or (7, 10) on 3F West.
-# Let's take a screenshot to verify what's happening.
+# 5. Walk to (5, 11) on 2F West
+# We land at (7, 11) on 2F West.
+if pos == {"x": 7, "y": 11}:
+    print("Walking LEFT to (5, 11) on 2F West...")
+    steps_to_col5 = [
+        ("Left", {"x": 6, "y": 11}),
+        ("Left", {"x": 5, "y": 11})
+    ]
+    if not run_steps(steps_to_col5):
+        print("Failed to walk to (5, 11)")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 6. Walk UP Column 5 directly to Row 3 (5, 3) (OPEN in State B!)
+if pos == {"x": 5, "y": 11}:
+    print("Walking UP Column 5 to Row 3...")
+    steps_up_col5 = []
+    for y in range(10, 2, -1):
+        steps_up_col5.append(("Up", {"x": 5, "y": y}))
+    if not run_steps(steps_up_col5):
+        print("Failed to climb Column 5")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 7. Walk RIGHT along Row 3 to Column 18 (18, 3) on 2F East
+if pos == {"x": 5, "y": 3}:
+    print("Walking RIGHT along Row 3 to Column 18...")
+    steps_right_row3 = []
+    for x in range(6, 19):
+        steps_right_row3.append(("Right", {"x": x, "y": 3}))
+    if not run_steps(steps_right_row3):
+        print("Failed to walk RIGHT along Row 3")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 8. Walk DOWN Column 18 to Row 10 (18, 10)
+if pos == {"x": 18, "y": 3}:
+    print("Walking DOWN Column 18 to Row 10...")
+    steps_down_col18 = []
+    for y in range(4, 11):
+        steps_down_col18.append(("Down", {"x": 18, "y": y}))
+    if not run_steps(steps_down_col18):
+        print("Failed to walk DOWN Column 18")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 9. Walk LEFT along Row 10 to (15, 10)
+if pos == {"x": 18, "y": 10}:
+    print("Walking LEFT along Row 10 to (15, 10)...")
+    steps_left_row10 = []
+    for x in range(17, 14, -1):
+        steps_left_row10.append(("Left", {"x": x, "y": 10}))
+    if not run_steps(steps_left_row10):
+        print("Failed to walk LEFT along Row 10")
+        exit(0)
+    pos = mgba.get_coordinates()
+
+# 10. Step DOWN onto the stairs at (15, 11) to warp UP to 3F East!
+if pos == {"x": 15, "y": 10}:
+    print("Stepping DOWN onto stairs at (15, 11)...")
+    mgba.press_buttons(["Down"])
+    time.sleep(2.0)
+    pos = mgba.get_coordinates()
+    print("New position after warp UP to 3F East:", pos)
+
 mgba.take_screenshot()
