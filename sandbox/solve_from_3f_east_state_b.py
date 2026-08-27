@@ -77,41 +77,45 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position on 3F East:", pos)
 
-# 1. From (15, 11) on 3F East, walk DOWN to (15, 12)
-if pos == {"x": 15, "y": 11}:
-    print("Walking DOWN to (15, 12)...")
-    if not walk_step("Down", {"x": 15, "y": 12}):
-        print("Failed to reach (15, 12)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 2. Walk RIGHT along Row 12 to Column 20 (20, 12)
-if pos == {"x": 15, "y": 12}:
-    print("Walking RIGHT along Row 12 to (20, 12)...")
-    steps_right = []
-    for x in range(16, 21):
-        steps_right.append(("Right", {"x": x, "y": 12}))
-    if not run_steps(steps_right):
+# 1. From (20, 10), walk DOWN to (20, 12)
+if pos == {"x": 20, "y": 10}:
+    print("Walking DOWN to (20, 12)...")
+    if not run_steps([
+        ("Down", {"x": 20, "y": 11}),
+        ("Down", {"x": 20, "y": 12}),
+    ]):
         print("Failed to reach (20, 12)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 3. Walk UP Column 20 to Row 3 (20, 3)
+# 2. Walk RIGHT along Row 12 to Column 23 (23, 12)
 if pos == {"x": 20, "y": 12}:
-    print("Walking UP Column 20 to Row 3...")
+    print("Walking RIGHT along Row 12 to (23, 12)...")
+    if not run_steps([
+        ("Right", {"x": 21, "y": 12}),
+        ("Right", {"x": 22, "y": 12}),
+        ("Right", {"x": 23, "y": 12}),
+    ]):
+        print("Failed to reach (23, 12)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# 3. Walk UP Column 23 to Row 3 (23, 3)
+if pos == {"x": 23, "y": 12}:
+    print("Walking UP Column 23 to Row 3...")
     steps_up_3f = []
     for y in range(11, 2, -1):
-        steps_up_3f.append(("Up", {"x": 20, "y": y}))
+        steps_up_3f.append(("Up", {"x": 23, "y": y}))
     if not run_steps(steps_up_3f):
-        print("Failed to reach Row 3 on Column 20 of 3F East")
+        print("Failed to reach Row 3 on Column 23 of 3F East")
         exit(1)
     pos = mgba.get_coordinates()
 
 # 4. Walk RIGHT along Row 3 to Column 26 (26, 3)
-if pos == {"x": 20, "y": 3}:
+if pos == {"x": 23, "y": 3}:
     print("Walking RIGHT along Row 3 to Column 26...")
     steps_to_pit = []
-    for x in range(21, 27):
+    for x in range(24, 27):
         steps_to_pit.append(("Right", {"x": x, "y": 3}))
     if not run_steps(steps_to_pit):
         print("Failed to reach Column 26 on Row 3 of 3F East")
