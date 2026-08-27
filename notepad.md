@@ -1970,6 +1970,8 @@
 - 9F (9, 3) -> (3, 11) [Arrived at (3, 11); testing adjacent warp at (3, 15)]
 - `[9F (11, 11)] <-> [7F (5, 3)]` [Verified Turn 17790; directly accesses 7F western suite!]
 - 7F Western Suite: Silph employee at (1, 5), Rival RED at (3, 7), Warp pad at (5, 7).
+- `[7F (5, 7)] <-> [11F (3, 2)]` [Verified Turn 17825; reaches 11F executive floor!]
+- 11F: Warp pad at (3, 2), Rocket Grunt at (7, 5), executive suite corridor with pink carpet.
 
 <hr>
 
