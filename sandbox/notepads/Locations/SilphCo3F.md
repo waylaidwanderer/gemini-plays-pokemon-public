@@ -11,3 +11,6 @@
 - Card Key gate located at (17, 8..9) leading west into room at column 16.
 - Card Key gate at (17, 8..9) unlocked.
 - Office room (cols 12-16, rows 5-12) fully surveyed: desks at (12..13, 8..9), terminals at (14..15, 5); no warp pad inside.
+- Scientist at (24, 8) facing West.
+- Warp Pad located at (23, 11) in southeast office area.
+- Desks and terminals at (24, 10..11) and (26, 10..11).
