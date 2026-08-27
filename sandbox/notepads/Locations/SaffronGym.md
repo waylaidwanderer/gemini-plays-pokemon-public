@@ -61,3 +61,15 @@
 - Psychic in NE Room (17, 1): Kadabra Lv 31, Slowpoke Lv 31, Mr. Mime Lv 31 [Defeated]
 - Psychic in NW Room (3, 1): Slowbro Lv 38 [Defeated]
 - Gym Leader Sabrina: Alakazam Lv 43, Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38
+
+## North-Center Room (N / Room 2)
+- Boundaries: cols 7-12, rows 1-5
+- Trainer at (10, 1)
+- Warp Pads:
+  - Top-Left Warp: (9, 3)
+  - Top-Right Warp: (11, 3)
+  - Bottom-Left Warp: (9, 5) [Arrival from West (5, 9)]
+  - Bottom-Right Warp: (11, 5)
+
+## Additional Warp Network Permutations
+| West (W) | (5, 9) | North-Center (N) | (9, 5) |
