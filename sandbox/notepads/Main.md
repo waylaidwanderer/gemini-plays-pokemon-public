@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 11F at (6, 5) [Turn 17873]; holding Card Key & Master Ball; Giovanni defeated & President rescued; exiting Silph Co. to challenge Saffron Gym Leader Sabrina.
+- Location: Silph Co. 11F at (6, 14) [Turn 17881]; holding Card Key & Master Ball; Giovanni defeated & President rescued; navigating to 11F west warp pad at (3, 2) to exit Silph Co. and challenge Saffron Gym Leader Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
