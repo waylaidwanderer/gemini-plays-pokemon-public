@@ -82,3 +82,4 @@
   - Top-Right Warp: (5, 15)
   - Bottom-Left Warp: (1, 17) [Arrival from North-Center (11, 5)]
   - Bottom-Right Warp: (5, 17)
+| Southwest (SW) | (5, 15) | North-Center (N) | (9, 3) |

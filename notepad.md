@@ -2230,6 +2230,7 @@
 | Northwest (NW) | (5, 5) | West (W) | (1, 11) |
 | West (W) | (5, 9) | North-Center (N) | (9, 5) |
 | North-Center (N) | (11, 5) | Southwest (SW) | (1, 17) |
+| Southwest (SW) | (5, 17) | West (W) | (5, 11) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
