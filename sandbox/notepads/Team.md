@@ -7,7 +7,7 @@
    - Moves: Double-Edge (8/15), Ice Beam (10/10), Bite (25/25), Surf (13/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 46 (HP: 0/46 - FNT), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Active combatant & Cut utility
