@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 3F [Turn 17712]; arrived via elevator from 7F; surveying 3F corridors to locate Card Key gate and warp pad to 7F western suite.
+- Location: Silph Co. 3F at (3, 3) [Turn 17731]; verified warps 7F (21, 15) <-> 5F (27, 3), 3F (23, 11) <-> (27, 15), 3F (3, 3) <-> 5F (11, 5); collecting item at (8, 5) and surveying southwest 3F sector.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2089,7 +2089,6 @@
 - Objective: Survey corridors, locate Card Key gates, trainers, and warp pad connecting to 7F western suite.
 - NPC at (20, 7) facing West.
 - NPC at (24, 8) facing West.
-- Card Key gate located at (17, 8..9) leading west into room at column 16.
 - Card Key gate at (17, 8..9) unlocked.
 - Office room (cols 12-16, rows 5-12) fully surveyed: desks at (12..13, 8..9), terminals at (14..15, 5); no warp pad inside.
 - Scientist at (24, 8) facing West.
