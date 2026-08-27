@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Fighting Dojo at (4, 2) [Turn 18061]; Fighting Dojo 100% completed, Hitmonlee (BRUCE) claimed; heading to Saffron Pok�mon Center at (9, 29) to restore HP/PP before Saffron Gym.
+- Location: Lavender Town at (1, 8) [Turn 18091]; party 100% healed at Lavender Pok�mon Center; heading west onto Route 8 to enter Saffron City and challenge Saffron Gym (Sabrina).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -64,9 +64,9 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 59
-   - Stats (Verified at Lv 59 Turn 18044): Max HP 197 (HP: 96/197), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats (Verified at Lv 59 Turn 18078): Max HP 197 (HP: 197/197), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (5/15), Ice Beam (1/10), Bite (23/25), Surf (3/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
