@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 1F (19, 21) [Turn 18511]; enclosed eastern wing, inspecting inventory and searching for B1F stairs.
+- Location: Pokémon Mansion 1F (17, 16) [Turn 18533]; defeated Scientist Ted, inspecting landing area for B1F stairs.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
