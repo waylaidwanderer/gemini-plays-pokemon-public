@@ -36,3 +36,4 @@
 - 7F (21, 15) <-> 5F (27, 3) [Verified bidirectional Turn 17668-17670]
 - 3F (23, 11) warp pad discovered; preparing to test destination [Turn 17721].
 - 3F (23, 11) <-> 3F (27, 15) [Verified intra-floor warp on 3F]
+- 3F (3, 3) warp pad discovered; stepping onto it to test destination [Turn 17726].
