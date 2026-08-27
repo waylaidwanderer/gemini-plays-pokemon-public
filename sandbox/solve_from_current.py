@@ -70,110 +70,33 @@ def run_steps(steps):
             return False
     return True
 
-# Ensure menu is closed
-mgba.press_buttons(["B"])
-time.sleep(0.3)
+# Ensure battle is escaped
+for _ in range(3):
+    handle_any_menu_or_battle()
 
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# We are at (5, 8) on 1F West. Let's walk UP to (5, 5), then RIGHT to (10, 5), then DOWN to (10, 10), then LEFT to the stairs at (7, 10)
-if pos == {"x": 5, "y": 8}:
-    print("Walking UP to (5, 5)...")
+# If we are at (13, 6) on 2F West, let's walk the short bypass route to B1F East and get the Secret Key!
+if pos == {"x": 13, "y": 6}:
+    print("Walking RIGHT along Row 6 to Column 18...")
     steps = [
-        ("Up", {"x": 5, "y": 7}),
-        ("Up", {"x": 5, "y": 6}),
-        ("Up", {"x": 5, "y": 5}),
+        ("Right", {"x": 14, "y": 6}),
+        ("Right", {"x": 15, "y": 6}),
+        ("Right", {"x": 16, "y": 6}),
+        ("Right", {"x": 17, "y": 6}),
+        ("Right", {"x": 18, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (5, 5)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Walk RIGHT to (10, 5)
-if pos == {"x": 5, "y": 5}:
-    print("Walking RIGHT to (10, 5)...")
-    steps = []
-    for x in range(6, 11):
-        steps.append(("Right", {"x": x, "y": 5}))
-    if not run_steps(steps):
-        print("Failed to reach (10, 5)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Walk DOWN Column 10 to Row 10 (10, 10)
-if pos == {"x": 10, "y": 5}:
-    print("Walking DOWN to (10, 10)...")
-    steps = []
-    for y in range(6, 11):
-        steps.append(("Down", {"x": 10, "y": y}))
-    if not run_steps(steps):
-        print("Failed to reach (10, 10)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Walk LEFT to the stairs at (7, 10)
-if pos == {"x": 10, "y": 10}:
-    print("Walking LEFT to stairs at (7, 10)...")
-    steps = [
-        ("Left", {"x": 9, "y": 10}),
-        ("Left", {"x": 8, "y": 10}),
-        ("Left", {"x": 7, "y": 10}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (7, 10)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step UP onto the stairs to warp UP to 2F West (landing at 7, 11 or 7, 10)
-if pos == {"x": 7, "y": 10}:
-    print("Stepping UP to warp to 2F West...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position after warping UP to 2F West:", pos)
-
-# Now on 2F West (landing at 7, 11 or 7, 10). Walk LEFT to Column 5
-if pos["x"] == 7 and (pos["y"] == 11 or pos["y"] == 10):
-    pos_y = pos["y"]
-    print("Walking LEFT to Column 5...")
-    steps = [
-        ("Left", {"x": 6, "y": pos_y}),
-        ("Left", {"x": 5, "y": pos_y}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach Column 5 on 2F West")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Now on Column 5. Walk UP Column 5 directly to Row 3 (5, 3)
-if pos["x"] == 5 and pos["y"] >= 3 and pos["y"] <= 11:
-    pos_y = pos["y"]
-    print("Walking UP Column 5 directly to Row 3...")
-    steps = []
-    for y in range(pos_y - 1, 2, -1):
-        steps.append(("Up", {"x": 5, "y": y}))
-    if not run_steps(steps):
-        print("Failed to reach (5, 3) on 2F West")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Walk RIGHT along Row 3 to Column 18 (crosses horizontally to 2F East)
-if pos == {"x": 5, "y": 3}:
-    print("Crossing horizontally to 2F East along Row 3...")
-    steps = []
-    for x in range(6, 19):
-        steps.append(("Right", {"x": x, "y": 3}))
-    if not run_steps(steps):
-        print("Failed to reach (18, 3) on 2F East")
+        print("Failed to reach (18, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
 # Walk DOWN Column 18 to Row 10 (18, 10)
-if pos == {"x": 18, "y": 3}:
+if pos == {"x": 18, "y": 6}:
     print("Walking DOWN Column 18 to Row 10...")
     steps = []
-    for y in range(4, 11):
+    for y in range(7, 11):
         steps.append(("Down", {"x": 18, "y": y}))
     if not run_steps(steps):
         print("Failed to reach (18, 10) on 2F East")
