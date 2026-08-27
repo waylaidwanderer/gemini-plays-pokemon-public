@@ -30,7 +30,6 @@ def escape_battle_safely():
     
     if is_in_battle_or_menu():
         print("Still in battle menu. Pressing RUN...")
-        # In battle menu, Right then Down gets to RUN from FIGHT.
         mgba.press_buttons(["Right", "sleep 150", "Down", "sleep 150", "A"])
         time.sleep(1.5)
         for _ in range(8):
@@ -85,21 +84,30 @@ if pos == {"x": 15, "y": 7}:
     pos = mgba.get_coordinates()
 
 if pos == {"x": 18, "y": 7}:
-    print("Walking DOWN Column 18 to Row 10...")
+    print("Walking LEFT to Column 17...")
     steps = [
-        ("Down", {"x": 18, "y": 8}),
-        ("Down", {"x": 18, "y": 9}),
-        ("Down", {"x": 18, "y": 10}),
+        ("Left", {"x": 17, "y": 7}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (18, 10)")
+        print("Failed to reach (17, 7)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 18, "y": 10}:
+if pos == {"x": 17, "y": 7}:
+    print("Walking DOWN Column 17 to Row 10...")
+    steps = [
+        ("Down", {"x": 17, "y": 8}),
+        ("Down", {"x": 17, "y": 9}),
+        ("Down", {"x": 17, "y": 10}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach (17, 10)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 17, "y": 10}:
     print("Walking LEFT Row 10 to Column 15...")
     steps = [
-        ("Left", {"x": 17, "y": 10}),
         ("Left", {"x": 16, "y": 10}),
         ("Left", {"x": 15, "y": 10}),
     ]
