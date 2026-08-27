@@ -2353,20 +2353,17 @@
 | 2F | Doorways at (4, 7) and (6, 7) | **OPEN** (Verified Turn 18581) | CLOSED |
 | 2F | Shutter at (21, 17) [West-East Divider] | **CLOSED** (Verified Turn 18601) | OPEN |
 | 2F | Shutter at (26..27, 27) [Southeast Corner] | **CLOSED** (Verified Turn 18598) | OPEN |
-| 3F | Shutter at (10, 3) | **CLOSED** | OPEN (Verified Turn 18484) |
+| 3F | Shutter at (15, 10..11) | **CLOSED** | OPEN (Verified Turn 18658) |
 
-## Balcony Pit Drop Matrix
-- Departure: 3F (6..9, 6..7) [Balcony drop-off hole]
-- Arrival: 1F (16, 14) [Enclosed east wing floor]
+## Drop-Off Pit Zones
+- 3F Western Pit Gap: cols 6-9, rows 6-7
+- 3F Eastern Balcony Drop: cols 16-18, rows 14-15 (requires 3F State B to access via (15, 11) shutter)
+  - Testing landing zones: Left drop (16, 14) vs Right drop (17..18, 14) vs landing room mechanics.
 
-## Optimal Secret Key Route (Verified Step-by-Step)
-1. Enter Mansion 1F in State A (Default).
-2. Ascend to 2F via (5, 10).
-3. Walk north to (6, 1) on 2F in State A and ascend to 3F (6, 2).
-4. DO NOT toggle switch on 3F! Keep switches in State A.
-5. Drop down balcony pit at 3F (6..9, 6..7) to arrive on 1F (16, 14).
-6. Pass through OPEN shutter at (24..25, 13) into northern chamber to B1F stairs.
-7. Recover Secret Key from B1F.
+## Exploration Plan
+1. Drop down eastern balcony drop from 3F.
+2. Document exact landing coordinates and test shutter connectivity on the destination floor.
+3. Access B1F and retrieve Secret Key.
 
 
 <hr>
