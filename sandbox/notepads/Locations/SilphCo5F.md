@@ -16,8 +16,8 @@
 - Southern Corridor: Row 16 connects western sector to eastern sector with Item Ball at (21, 16).
 
 - Wall Divider: (7, 1..3) solid wall separating northwest room from north hall [Verified Turn 17476]
-- Electronic Card Key Gate 2: (7, 4..5) [Locked - requires Card Key]
-- Central Warp Pad: (11, 5) [Verified Turn 17476]
+- Electronic Card Key Gate 2: (7, 4..5) [Unlocked Turn 17734]
+- Northwest Computer Room (cols 0-7, rows 0-9): Item Ball located at (4, 6)
 - Silph Researcher NPC at (9, 3): Friendly employee studying Poké Ball technology [Turn 17477]
 - Plants & Statues: (11..12, 2..3)
 
