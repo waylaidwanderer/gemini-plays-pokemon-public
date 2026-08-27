@@ -210,6 +210,7 @@
 - [x] Defeat Gym Leader Koga in Fuchsia Gym (Soul Badge & TM06 Toxic) [Turn 17419]
 - [x] Give Soda Pop to Gate Guard & permanently unlock Saffron City gates [Turn 17445]
 
+- [x] Defeat Rival RED on Silph Co. 7F [Defeated Turn 17805]
 
 <hr>
 
