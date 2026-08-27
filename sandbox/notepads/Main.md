@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. Elevator at (2, 1) [Turn 17701]; cleared 7F rooms; defeated Rocket Grunts at (20, 2), (19, 14), (13, 1); unlocked Card Key gates at (21, 4), (21, 12), (10, 6); confirmed warp 7F (21, 15) <-> 5F (27, 3); operating elevator to 3F.
+- Location: Silph Co. 3F [Turn 17712]; arrived via elevator from 7F; surveying 3F corridors to locate Card Key gate and warp pad to 7F western suite.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
