@@ -2,7 +2,9 @@ import mgba
 import time
 from PIL import Image
 
-def is_in_battle_or_menu():
+def handle_battle_turn():
+    # Detect if we are in a battle or dialogue by checking the screen
+    time.sleep(0.15)
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
@@ -18,113 +20,48 @@ def is_in_battle_or_menu():
                 black_or_white += 1
                 
     percentage = black_or_white / total_pixels
-    return percentage > 0.85
+    if percentage > 0.90:
+        # Dialogue or battle is active!
+        # Let's inspect the screen to see if we have the battle menu (FIGHT / RUN)
+        # Saffron Gym / Mansion battle menu has specific characteristics, but simply pressing "A"
+        # will select FIGHT, and then pressing "A" again will select the first move (HYDRO PUMP).
+        # To be safe, we can just press "A" repeatedly to attack, and "B" to advance text!
+        print("Menu/Dialogue/Battle detected! Pressing A to advance...")
+        mgba.press_buttons(["A"])
+        time.sleep(0.4)
+        return True
+    return False
 
-def escape_battle_safely():
-    # Advance "appeared!" text
-    mgba.press_buttons(["B"])
-    time.sleep(0.4)
-    
-    if not is_in_battle_or_menu():
-        print("No battle or menu detected.")
-        return False
-        
-    print("Battle or menu detected! Attempting escape...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.4)
-    
-    if is_in_battle_or_menu():
-        print("Still in battle menu. Pressing RUN...")
-        mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-        time.sleep(1.5)
-        for _ in range(5):
-            mgba.press_buttons(["B"])
-            time.sleep(0.2)
-    return True
-
-# 1. Escape from the current battle
-print("Escaping from current wild battle...")
-escape_battle_safely()
-time.sleep(1.0)
+# Ensure menu is closed
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
 pos = mgba.get_coordinates()
-print("Starting from:", pos)
+print("Starting position:", pos)
 
-# Try testing Column 9 from Row 3 to Row 7
-success = False
-for row in [3, 4, 5, 6, 7]:
-    # Check if we got into a battle on previous steps and escape
-    if escape_battle_safely():
-        time.sleep(0.5)
-        
-    current_pos = mgba.get_coordinates()
-    print(f"Current pos: {current_pos}. Navigating to (10, {row})...")
-    
-    # Walk vertically to Row
-    while current_pos["y"] != row:
-        if current_pos["y"] < row:
-            mgba.press_buttons(["Down"])
-        else:
-            mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-        
-        # Check for battles during vertical movement
-        if escape_battle_safely():
-            time.sleep(0.5)
-            
-        current_pos = mgba.get_coordinates()
-        
-    print(f"At (10, {row}). Testing walk LEFT to (9, {row})...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    
-    # Check if we entered battle on the Left step
-    if escape_battle_safely():
-        time.sleep(0.5)
-        
-    new_pos = mgba.get_coordinates()
-    if new_pos["x"] == 9:
-        print(f"SUCCESS! Crossed into B1F West NORTH at {new_pos} on Row {row}!")
-        success = True
-        break
-    else:
-        print(f"Row {row} is BLOCKED. (Pos: {new_pos})")
-        # If we got displaced or turned, make sure we are at Column 10
-        if new_pos["x"] != 10:
-            print("Not at Column 10! Walking back...")
-            mgba.press_buttons(["Right"])
-            time.sleep(0.5)
+# We are at (6, 8) facing UP toward the trainer at (6, 7).
+# Let's step UP to talk to him!
+if pos == {"x": 6, "y": 8}:
+    print("Stepping UP to talk to the trainer...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
 
-if success:
-    pos = mgba.get_coordinates()
-    if pos["x"] == 9:
-        print("Walking to the Secret Key room at (1, 5)...")
-        # Walk Left on Row pos["y"] to Column 1, then align to Row 5 if needed
-        target_row = pos["y"]
-        while pos["x"] > 1:
-            mgba.press_buttons(["Left"])
-            time.sleep(0.5)
-            escape_battle_safely()
-            pos = mgba.get_coordinates()
-            
-        while pos["y"] != 5:
-            if pos["y"] < 5:
-                mgba.press_buttons(["Down"])
-            else:
-                mgba.press_buttons(["Up"])
-            time.sleep(0.5)
-            escape_battle_safely()
-            pos = mgba.get_coordinates()
-            
-        print("Reached Secret Key standing tile at:", pos)
-        mgba.press_buttons(["Up"]) # Face UP
-        time.sleep(0.5)
-        mgba.press_buttons(["A"]) # Interact with Key
-        time.sleep(1.0)
-        for _ in range(5):
-            mgba.press_buttons(["A"]) # Dismiss dialogs
-            time.sleep(0.5)
+# Now spam A/B to clear the dialogue and fight the battle!
+print("Spamming A/B to complete the battle...")
+for i in range(120): # 120 turns max
+    if i % 10 == 0:
         pos = mgba.get_coordinates()
-        print("Secret Key retrieved! Current position:", pos)
+        print(f"Cycle {i}, current position: {pos}")
+        if pos != {"x": 6, "y": 8}:
+            # If our position changed, we might have won or moved!
+            # But during battle, get_coordinates() might return None or the original position.
+            pass
+    
+    # Press A to attack/advance, and B to clear text
+    mgba.press_buttons(["A", "sleep 300", "B", "sleep 300"])
+    time.sleep(0.8)
 
-print("Finished script! Current position:", mgba.get_coordinates())
+# Check our final position after the spamming is done
+pos = mgba.get_coordinates()
+print("Final position after battle:", pos)
+mgba.take_screenshot()
