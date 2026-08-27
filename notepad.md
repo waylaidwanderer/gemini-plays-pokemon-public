@@ -2155,7 +2155,7 @@
 - Karate Master Koichi: (5, 3)
 
 ## Trainers
-1. Black Belt 1 at (5, 7): Machop Lv 31, Mankey Lv 31, Primeape Lv 31
+1. Black Belt 1 at (5, 7): Machop Lv 31, Mankey Lv 31, Primeape Lv 31 [Defeated]
 2. Black Belt 2 at (3, 6): [Spotted]
 3. Black Belt 3 at (5, 5): [Spotted]
 4. Black Belt 4 at (3, 4): [Spotted]
