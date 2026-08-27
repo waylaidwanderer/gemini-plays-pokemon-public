@@ -77,35 +77,41 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# We are at (3, 11) on 2F West. Let's walk RIGHT to Column 5
-if pos == {"x": 3, "y": 11}:
-    print("Walking to (5, 11)...")
+if pos == {"x": 5, "y": 10}:
+    print("Walking to Row 11 Column 14...")
     steps = [
-        ("Right", {"x": 4, "y": 11}),
-        ("Right", {"x": 5, "y": 11}),
+        ("Down", {"x": 5, "y": 11}),
+        ("Right", {"x": 6, "y": 11}),
+        ("Right", {"x": 7, "y": 11}),
+        ("Right", {"x": 8, "y": 11}),
+        ("Right", {"x": 9, "y": 11}),
+        ("Right", {"x": 10, "y": 11}),
+        ("Right", {"x": 11, "y": 11}),
+        ("Right", {"x": 12, "y": 11}),
+        ("Right", {"x": 13, "y": 11}),
+        ("Right", {"x": 14, "y": 11}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (5, 11)")
+        print("Failed to reach (14, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Now on Column 5. Walk UP Column 5 directly to Row 3 (5, 3)
-if pos["x"] == 5 and pos["y"] >= 3 and pos["y"] <= 11:
-    pos_y = pos["y"]
-    print("Walking UP Column 5 directly to Row 3...")
+# Now on (14, 11). Walk UP Column 14 to Row 3 (14, 3)
+if pos == {"x": 14, "y": 11}:
+    print("Walking UP Column 14 directly to Row 3...")
     steps = []
-    for y in range(pos_y - 1, 2, -1):
-        steps.append(("Up", {"x": 5, "y": y}))
+    for y in range(10, 2, -1):
+        steps.append(("Up", {"x": 14, "y": y}))
     if not run_steps(steps):
-        print("Failed to reach (5, 3) on 2F West")
+        print("Failed to reach (14, 3) on 2F West")
         exit(1)
     pos = mgba.get_coordinates()
 
 # Walk RIGHT along Row 3 to Column 18 (crosses horizontally to 2F East)
-if pos == {"x": 5, "y": 3}:
+if pos == {"x": 14, "y": 3}:
     print("Crossing horizontally to 2F East along Row 3...")
     steps = []
-    for x in range(6, 19):
+    for x in range(15, 19):
         steps.append(("Right", {"x": x, "y": 3}))
     if not run_steps(steps):
         print("Failed to reach (18, 3) on 2F East")
