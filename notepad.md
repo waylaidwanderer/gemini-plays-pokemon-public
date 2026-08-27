@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Saffron Gym Entrance Room (11, 15) [Turn 18388]; exiting Gym to Fly to Pallet Town for Cinnabar Island.
+- Location: Saffron City outside Saffron Gym (34, 4) [Turn 18391]; preparing to Fly to Pallet Town for Cinnabar Island.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -66,7 +66,7 @@
 1. HYDROS (Blastoise) - Lv 61
    - Stats: Max HP 203 (HP: 144/203), Attack 141, Defense 156, Speed 144, Special 150
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (12/15), Ice Beam (5/10), Bite (25/25), Surf (13/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
@@ -112,8 +112,8 @@
 
 ## Inventory & Resources (Verified Turn 17963)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
-- Bag Capacity: 9 / 20 slots used (11 free slots available)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1
+- Bag Capacity: 10 / 20 slots used (10 free slots available)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1, TM46 (Psywave)
 - Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥30,000+
 
