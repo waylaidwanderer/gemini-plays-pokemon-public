@@ -77,65 +77,24 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# We are at (6, 8) on 2F West. Let's walk LEFT to Column 5, DOWN to Row 12, LEFT to Column 2
-if pos == {"x": 6, "y": 8}:
-    print("Walking to switch position (2, 12)...")
+# We are at (3, 11) on 2F West. Let's walk RIGHT to Column 5
+if pos == {"x": 3, "y": 11}:
+    print("Walking to (5, 11)...")
     steps = [
-        ("Left", {"x": 5, "y": 8}),
-        ("Down", {"x": 5, "y": 9}),
-        ("Down", {"x": 5, "y": 10}),
-        ("Down", {"x": 5, "y": 11}),
-        ("Down", {"x": 5, "y": 12}),
-        ("Left", {"x": 4, "y": 12}),
-        ("Left", {"x": 3, "y": 12}),
-        ("Left", {"x": 2, "y": 12}),
+        ("Right", {"x": 4, "y": 11}),
+        ("Right", {"x": 5, "y": 11}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (2, 12) on 2F West")
+        print("Failed to reach (5, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Stand at (2, 12) facing UP and toggle the Mewtwo switch at (2, 11)
-if pos == {"x": 2, "y": 12}:
-    print("Aligning UP towards (2, 11)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.4)
-    
-    print("Pressing A to toggle switch...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # Check if dialogue is open and choose YES
-    print("Selecting YES to toggle switch...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.2)
-    
-    # Dismiss result
-    mgba.press_buttons(["A"])
-    time.sleep(1.2)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    print("Mansion gates toggled to State B!")
-    pos = mgba.get_coordinates()
-
-# Now walk to 2F East and warp UP to 3F East
-if pos == {"x": 2, "y": 12}:
-    print("Walking to (5, 12)...")
-    steps = [
-        ("Right", {"x": 3, "y": 12}),
-        ("Right", {"x": 4, "y": 12}),
-        ("Right", {"x": 5, "y": 12}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (5, 12)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 5, "y": 12}:
+# Now on Column 5. Walk UP Column 5 directly to Row 3 (5, 3)
+if pos["x"] == 5 and pos["y"] >= 3 and pos["y"] <= 11:
+    pos_y = pos["y"]
     print("Walking UP Column 5 directly to Row 3...")
     steps = []
-    for y in range(11, 2, -1):
+    for y in range(pos_y - 1, 2, -1):
         steps.append(("Up", {"x": 5, "y": y}))
     if not run_steps(steps):
         print("Failed to reach (5, 3) on 2F West")
