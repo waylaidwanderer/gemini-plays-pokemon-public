@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 9F at (4, 5) [Turn 17761]; holding Card Key (bag 20/20); unlocked gate at (11, 13); surveying Card Key gate at (3, 8) and central warp pad at (9, 3).
+- Location: Silph Co. 7F at (2, 5) [Turn 17821]; holding Card Key; defeated Rival RED at (3, 7); received gift Lapras Lv 15 (sent to Box 1); preparing to test warp pad at (5, 7).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

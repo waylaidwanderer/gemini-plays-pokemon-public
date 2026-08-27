@@ -20,12 +20,8 @@
 - Open corridor at rows 4-5 (cols 9-13).
 - Plant at (14, 4) and terminal at (14, 5).
 - NPC at (7, 10): Civilian worker ("It would be bad if TEAM ROCKET took over SILPH...").
-- Western room (cols 3-5) spotted across western wall:
-  - Sighted NPC at (3, 5).
-  - Sighted warp pads at (5, 3) and (5, 7).
-  - Continuous vertical wall along column 6 blocks physical overworld entry from central/eastern sector.
 - Western Suite (cols 1-5, rows 1-7):
-  - Warp pad at (5, 3): Entrance from 9F (11, 11).
-  - Silph employee at (1, 5): Gives Lapras (requires party slot).
-  - Rival RED at (3, 7): [DEFEATED Turn 17805] Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40; ¥2600 prize.
-  - Warp pad at (5, 7): Exit warp leading to 11F executive suites / Giovanni.
+  - Warp pad at (5, 3): Entrance from 9F (11, 11) [Verified bidirectional].
+  - Silph employee at (1, 5): Gives Lapras (Lv 15; sent to Box 1 via Bill's PC).
+  - Rival RED at (3, 7): [DEFEATED Turn 17805] Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40; �2600 prize.
+  - Warp pad at (5, 7): Exit warp tile (destination to be empirically verified upon entry).

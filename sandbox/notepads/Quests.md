@@ -56,3 +56,4 @@
 - [x] Give Soda Pop to Gate Guard & permanently unlock Saffron City gates [Turn 17445]
 
 - [x] Defeat Rival RED on Silph Co. 7F [Defeated Turn 17805]
+- [x] Receive gift Lapras from Silph Co. 7F employee (sent to Box 1) [Turn 17815]
