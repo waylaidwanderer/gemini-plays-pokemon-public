@@ -71,37 +71,47 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 21, "y": 6}:
-    print("Walking LEFT to Column 20 to bypass the closed Column 21 gate...")
-    steps = [
-        ("Left", {"x": 20, "y": 6}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (20, 6)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
 if pos == {"x": 20, "y": 6}:
-    print("Walking UP Column 20 to Row 2...")
+    print("Walking LEFT to Column 19...")
     steps = [
-        ("Up", {"x": 20, "y": 5}),
-        ("Up", {"x": 20, "y": 4}),
-        ("Up", {"x": 20, "y": 3}),
-        ("Up", {"x": 20, "y": 2}),
+        ("Left", {"x": 19, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (20, 2) on 1F East")
+        print("Failed to reach (19, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 20, "y": 2}:
-    print("Walking RIGHT along Row 2 to stairs at (22, 2)...")
+if pos == {"x": 19, "y": 6}:
+    print("Walking UP Column 19 to Row 3...")
     steps = [
-        ("Right", {"x": 21, "y": 2}),
-        ("Right", {"x": 22, "y": 2}),
+        ("Up", {"x": 19, "y": 5}),
+        ("Up", {"x": 19, "y": 4}),
+        ("Up", {"x": 19, "y": 3}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (22, 2) on 1F East")
+        print("Failed to reach (19, 3)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 19, "y": 3}:
+    print("Walking RIGHT along Row 3 to Column 22...")
+    steps = [
+        ("Right", {"x": 20, "y": 3}),
+        ("Right", {"x": 21, "y": 3}),
+        ("Right", {"x": 22, "y": 3}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach (22, 3)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 22, "y": 3}:
+    print("Walking UP to stairs warp at (22, 2)...")
+    steps = [
+        ("Up", {"x": 22, "y": 2}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach (22, 2)")
         exit(1)
     pos = mgba.get_coordinates()
 
