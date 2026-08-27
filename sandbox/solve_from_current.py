@@ -71,29 +71,36 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 12, "y": 11}:
-    print("Walking UP Column 12 to Row 7...")
+if pos == {"x": 10, "y": 7}:
+    print("Walking UP Column 10 to Row 5...")
     steps = [
-        ("Up", {"x": 12, "y": 10}),
-        ("Up", {"x": 12, "y": 9}),
-        ("Up", {"x": 12, "y": 8}),
-        ("Up", {"x": 12, "y": 7}),
+        ("Up", {"x": 10, "y": 6}),
+        ("Up", {"x": 10, "y": 5}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (12, 7)")
+        print("Failed to reach (10, 5)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 12, "y": 7}:
-    print("Walking LEFT along Row 7 to Column 5 (on 2F West)...")
+if pos == {"x": 10, "y": 5}:
+    print("Walking LEFT along Row 5 across Column 9 to Column 5 (on 2F West)...")
     steps = [
-        ("Left", {"x": 11, "y": 7}),
-        ("Left", {"x": 10, "y": 7}),
-        ("Left", {"x": 9, "y": 7}),
-        ("Left", {"x": 8, "y": 7}),
-        ("Left", {"x": 7, "y": 7}),
-        ("Left", {"x": 6, "y": 7}),
-        ("Left", {"x": 5, "y": 7}),
+        ("Left", {"x": 9, "y": 5}),  # Open Column 9 in State B
+        ("Left", {"x": 8, "y": 5}),
+        ("Left", {"x": 7, "y": 5}),
+        ("Left", {"x": 6, "y": 5}),
+        ("Left", {"x": 5, "y": 5}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach (5, 5) on 2F West")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 5, "y": 5}:
+    print("Walking DOWN Column 5 to Row 7 stairs...")
+    steps = [
+        ("Down", {"x": 5, "y": 6}),
+        ("Down", {"x": 5, "y": 7}),
     ]
     if not run_steps(steps):
         print("Failed to reach (5, 7) on 2F West")
