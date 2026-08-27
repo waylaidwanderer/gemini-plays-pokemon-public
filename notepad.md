@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym North-Center Room at (10, 4) [Turn 18212]; battling Channeler (Gastly Lv 34). Defeated SE, NE, NW Psychics, and W Channeler.
+- Location: Saffron Gym North-Center Room at (10, 4) [Turn 18241]; battling Channeler (Gastly Lv 34). Defeated SE, NE, NW Psychics, and W Channeler.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -86,7 +86,7 @@
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 62 (HP: 51/62), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
-   - Moves: Tackle (21/35), Sand-Attack (14/15), Double Team (13/15)
+   - Moves: Tackle (20/35), Sand-Attack (10/15), Double Team (10/15)
    - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 19
    - Stats: Max HP 46 (HP: 0/46 - FNT), Attack 23, Defense 21, Speed 27, Special 19
