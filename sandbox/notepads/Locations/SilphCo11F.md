@@ -17,3 +17,8 @@
 - NPC at (6, 9) in eastern office area.
 - Desks and counters spanning cols 6-8, rows 6-9.
 - Rocket Grunt at (3, 16)/(3, 13): [DEFEATED Turn 17841] Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32; �960 prize.
+
+## President's Office (rows 8-13, cols 4-9)
+- Entered via Card Key gate at (6, 13).
+- Team Rocket Boss Giovanni at (6, 9): Confronted player upon entry.
+- Silph President held hostage at (7, 8).
