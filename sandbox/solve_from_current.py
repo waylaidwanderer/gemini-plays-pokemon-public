@@ -71,55 +71,9 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 10, "y": 7}:
-    print("Walking UP Column 10 to Row 5...")
-    steps = [
-        ("Up", {"x": 10, "y": 6}),
-        ("Up", {"x": 10, "y": 5}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (10, 5)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 10, "y": 5}:
-    print("Walking LEFT along Row 5 across Column 9 to Column 5 (on 2F West)...")
-    steps = [
-        ("Left", {"x": 9, "y": 5}),  # Open Column 9 in State B
-        ("Left", {"x": 8, "y": 5}),
-        ("Left", {"x": 7, "y": 5}),
-        ("Left", {"x": 6, "y": 5}),
-        ("Left", {"x": 5, "y": 5}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (5, 5) on 2F West")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 5, "y": 5}:
-    print("Walking DOWN Column 5 to Row 7 stairs...")
-    steps = [
-        ("Down", {"x": 5, "y": 6}),
-        ("Down", {"x": 5, "y": 7}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (5, 7) on 2F West")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 5, "y": 7}:
-    print("Stepping DOWN to warp to 1F West...")
-    mgba.press_buttons(["Down"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position after warp down to 1F West:", pos)
-
-if pos == {"x": 5, "y": 11}:
+if pos == {"x": 5, "y": 8}:
     print("Walking UP Column 5 to Row 5...")
     steps = [
-        ("Up", {"x": 5, "y": 10}),
-        ("Up", {"x": 5, "y": 9}),
-        ("Up", {"x": 5, "y": 8}),
         ("Up", {"x": 5, "y": 7}),
         ("Up", {"x": 5, "y": 6}),
         ("Up", {"x": 5, "y": 5}),
@@ -139,7 +93,7 @@ if pos == {"x": 5, "y": 5}:
         ("Right", {"x": 10, "y": 5}),
         ("Right", {"x": 11, "y": 5}),
         ("Right", {"x": 12, "y": 5}),
-        ("Right", {"x": 13, "y": 5}),  # Open gate in State B
+        ("Right", {"x": 13, "y": 5}),  # Open gate in State B on 1F
         ("Right", {"x": 14, "y": 5}),
         ("Right", {"x": 15, "y": 5}),
         ("Right", {"x": 16, "y": 5}),
