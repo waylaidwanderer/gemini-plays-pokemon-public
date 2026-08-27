@@ -35,3 +35,4 @@
 
 - 7F (21, 15) <-> 5F (27, 3) [Verified bidirectional Turn 17668-17670]
 - 3F (23, 11) warp pad discovered; preparing to test destination [Turn 17721].
+- 3F (23, 11) -> (27, 15) [Floor under investigation; surveying southern corridor]
