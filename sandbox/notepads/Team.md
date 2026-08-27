@@ -24,7 +24,7 @@
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 62 (HP: 51/62), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
-   - Moves: Tackle (21/35), Sand-Attack (14/15), Double Team (13/15)
+   - Moves: Tackle (20/35), Sand-Attack (10/15), Double Team (10/15)
    - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 19
    - Stats: Max HP 46 (HP: 0/46 - FNT), Attack 23, Defense 21, Speed 27, Special 19
