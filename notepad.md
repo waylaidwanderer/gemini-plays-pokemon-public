@@ -1963,6 +1963,8 @@
 - 3F (3, 3) <-> 5F (11, 5) [Verified bidirectional Turn 17726-17728]
 - 5F (9, 15) <-> 9F (17, 15) [Verified bidirectional Turn 17749]
 - 9F (9, 3) -> (3, 11) [Arrived at (3, 11); testing adjacent warp at (3, 15)]
+- `[9F (11, 11)] <-> [7F (5, 3)]` [Verified Turn 17790; directly accesses 7F western suite!]
+- 7F Western Suite: Silph employee at (1, 5), Rival RED at (3, 7), Warp pad at (5, 7).
 
 <hr>
 
