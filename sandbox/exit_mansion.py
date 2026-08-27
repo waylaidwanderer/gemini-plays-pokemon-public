@@ -64,43 +64,35 @@ def walk_step(direction, expected_coords, retries=15):
         time.sleep(0.3)
     return False
 
-def run_steps(steps):
-    for d, c in steps:
-        if not walk_step(d, c):
-            return False
-    return True
-
-# Ensure menu is closed
+# Ensure any battle or menu is dismissed
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
 pos = mgba.get_coordinates()
-print("Starting position:", pos)
+print("Starting exit walk from position:", pos)
 
-if pos == {"x": 4, "y": 15}:
-    print("Walking to Column 5...")
-    if not walk_step("Right", {"x": 5, "y": 15}):
-        print("Failed to reach (5, 15)")
-        exit(1)
+steps = []
+# Walk down Column 5 from current y to 27
+target_x = 5
+for y in range(pos["y"] + 1, 28):
+    steps.append(("Down", {"x": target_x, "y": y}))
+
+print(f"Executing exit steps: {steps}")
+success = True
+for d, c in steps:
+    if not walk_step(d, c):
+        print(f"Failed to walk to {c}!")
+        success = False
+        break
+
+if success:
     pos = mgba.get_coordinates()
-
-# Now walk down Column 5 to the exit at (5, 27)
-if pos["x"] == 5 and pos["y"] < 27:
-    print("Walking down Column 5 to the exit at (5, 27)...")
-    steps = []
-    for y in range(pos["y"] + 1, 28):
-        steps.append(("Down", {"x": 5, "y": y}))
-    if not run_steps(steps):
-        print("Failed to walk down Column 5")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# At (5, 27), step DOWN to exit
-if pos == {"x": 5, "y": 27}:
-    print("Stepping DOWN to exit the mansion...")
-    mgba.press_buttons(["Down"])
-    time.sleep(2.5)
-    pos = mgba.get_coordinates()
-    print("Position after exiting:", pos)
-
-print("Exited successfully!")
+    if pos == {"x": 5, "y": 27}:
+        print("At exit tile (5, 27)! Exiting mansion...")
+        mgba.press_buttons(["Down"])
+        time.sleep(2.5)
+        print("Final position after exiting:", mgba.get_coordinates())
+    else:
+        print(f"Successfully finished steps but position is {pos} instead of (5, 27)!")
+else:
+    print("Failed to complete exit path.")
