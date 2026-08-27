@@ -105,7 +105,7 @@ Thus, the correct State B bypass route on 2F is:
 6. On 3F East, land at `(16, 11)`. Since we are in State B, the Row 11 gate at `(14, 11)` is OPEN, allowing us to walk RIGHT along Row 11 to Column 20, then UP Column 20 to Row 3, RIGHT Row 3 to `(26, 3)` and drop through the pitfall to 1F East inside the fenced room!
 
 ## Verified Parity Log (Turn-Stamped)
-- **Turn 58747:** Player at `(2, 12)` facing UP, selected YES to toggle. Toggled from State B to State A (Row 9 gates CLOSED, Row 12 OPEN).
+
 ## Decorative Mewtwo Statues (No Switches)
 - **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
 
@@ -117,12 +117,14 @@ Thus, the correct State B bypass route on 2F is:
 - **Rubble block at (2, 12):** The statue pedestal at `(2, 12)` behaves as a solid block/rubble obstacle from all other sides.
 
 
-## Verified 3F West Switch Statue Interaction Coordinates (Updated Turn 61084)
-- **Primary Switch Statue:** Coordinates at `(2, 10)` on 3F West.
-  - Standing Position: Stand at `(2, 11)` facing UP towards `(2, 10)`.
-  - Interaction: Press A to open dialogue, select YES, and press A again to dismiss.
-- **Secondary Switch Statue:** Coordinates at `(1, 12)` on 3F West (verified on Turn 61072).
+## Verified 3F West Switch Statue Interaction Coordinates
+- **Switch Statue Coordinate:** Coordinates at `(1, 12)` on 3F West (verified on Turn 61072).
   - Standing Position: Stand at `(1, 13)` facing UP towards `(1, 12)`.
+  - Interaction: Press A to open dialogue, select YES, and press A again to dismiss.
+- **Walkable Pathways & Gates:**
+  - Shutter Gate at `(6, 9)` and `(1, 9)` on 3F West: OPEN in State B, CLOSED in State A.
+  - Column 1 has a permanent wall at `(1, 9)`. Thus, Column 1 is blocked at Row 9.
+  - Column 2 is completely open vertically on Rows 6-13, allowing players to bypass the solid statue at `(1, 12)` by walking along Column 2.
   - Collision Obstacle: Since the statue at `(1, 12)` is solid, Column 1 is blocked at Row 12 in both State A and State B!
   - **Bypass Route (Column 2 Row 13):** From `(1, 13)`, walk RIGHT to `(2, 13)`, and walk UP Column 2 directly to Row 6 `(2, 6)` (this bypasses the solid statue at `(1, 12)` completely on Column 2, which is open floor!).
 - Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
