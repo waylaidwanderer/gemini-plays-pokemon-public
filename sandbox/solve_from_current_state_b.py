@@ -77,21 +77,19 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# 1. Walk from (2, 12) on 3F West to the stairs at (7, 10) to warp down to 2F West
-if pos == {"x": 2, "y": 12}:
-    print("Walking to 3F West stairs at (7, 10)...")
+# 1. Walk from current position (6, 12) on 3F West to the stairs at (7, 10) to warp down to 2F West
+if pos == {"x": 6, "y": 12}:
+    print("Walking up Column 6 to bypass the solid wall at (7, 12)...")
     steps_to_stairs = [
-        ("Right", {"x": 3, "y": 12}),
-        ("Right", {"x": 4, "y": 12}),
-        ("Right", {"x": 5, "y": 12}),
-        ("Right", {"x": 6, "y": 12}),
-        ("Right", {"x": 7, "y": 12}),
-        ("Up", {"x": 7, "y": 11}),
+        ("Up", {"x": 6, "y": 11}),
+        ("Right", {"x": 7, "y": 11}),
     ]
     if not run_steps(steps_to_stairs):
         print("Failed to reach stairs threshold (7, 11)")
         exit(1)
-        
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 7, "y": 11}:
     print("Stepping UP onto stairs to warp down to 2F West...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
