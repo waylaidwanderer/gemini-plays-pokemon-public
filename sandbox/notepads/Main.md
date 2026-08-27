@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Saffron City outside Saffron Gym (34, 4) [Turn 18391]; preparing to Fly to Pallet Town for Cinnabar Island.
+- Location: Pallet Town (5, 6) [Turn 18394]; arrived via Fly, walking south to Route 21 to Surf to Cinnabar Island.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
