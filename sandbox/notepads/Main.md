@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron City at (9, 30) [Turn 17966]; party fully healed, inventory cleared (9/20); heading to Northeast Sector to challenge Fighting Dojo & Saffron Gym (Leader Sabrina).
+- Location: Saffron City at (20, 31) [Turn 17972]; party fully healed, inventory cleared (9/20); heading to Northeast Sector to challenge Fighting Dojo & Saffron Gym (Leader Sabrina).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
