@@ -4,8 +4,8 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym Southeast Room (15, 17) [Turn 18367]; executing 4-warp diagonal route to Sabrina.
+- Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
+- Location: Saffron Gym Center Room (9, 9) [Turn 18379]; defeated Gym Leader Sabrina, obtained Marsh Badge & TM46 (Psywave).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -63,8 +63,8 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 18338 - Fully Healed)
-1. HYDROS (Blastoise) - Lv 60
-   - Stats: Max HP 200 (HP: 200/200), Attack 136, Defense 150, Speed 138, Special 144
+1. HYDROS (Blastoise) - Lv 61
+   - Stats: Max HP 203 (HP: 144/203), Attack 141, Defense 156, Speed 144, Special 150
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper
@@ -111,7 +111,7 @@
    - Moves: Jump Kick, Meditate, Rolling Kick
 
 ## Inventory & Resources (Verified Turn 17963)
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge (5/8)
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
 - Bag Capacity: 9 / 20 slots used (11 free slots available)
 - Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1
 - Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
@@ -204,6 +204,8 @@
 - [x] Receive gift Lapras from Silph Co. 7F employee (sent to Box 1) [Turn 17815]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co. 11F [Defeated Turn 17858]
 - [x] Receive Master Ball from Silph President [Turn 17873]
+
+- [x] Defeat Gym Leader Sabrina in Saffron Gym (Marsh Badge & TM46 Psywave) [Defeated Turn 18379]
 
 
 <hr>
@@ -2241,7 +2243,7 @@
 
 ### Center Room (Sabrina's Chamber / Room 5)
 - Boundaries: cols 7-12, rows 7-11
-- Gym Leader Sabrina: (9, 8) [Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38, Alakazam Lv 43]
+- Gym Leader Sabrina: (9, 8) [Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38, Alakazam Lv 43] [Defeated Turn 18379; Marsh Badge & TM46 Psywave obtained]
 - Warp Pad: (11, 11) [Arrival from Northwest (1, 5)]
 
 ## Saffron Gym Complete Warp Permutation Matrix
