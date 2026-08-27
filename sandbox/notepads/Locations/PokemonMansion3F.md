@@ -22,3 +22,4 @@
 
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
+- 3F Switch at (10, 5): Toggled ON Turn 18484 ('Who wouldn\'t!'). Sets Mansion to State B (inverted).

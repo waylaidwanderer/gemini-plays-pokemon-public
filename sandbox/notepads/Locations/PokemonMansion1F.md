@@ -20,6 +20,7 @@
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 - Southern Wall: Row 27
 - Western Divider Wall: Column 11 (separates main entrance from enclosed wing)
+- Shutter Gate (Northeast): (24..25, 13) [Observed CLOSED on Turn 18520 in State B; blocks access to northern chamber at rows 10-12]
 
 ## Progression & Discoveries
-- Dropped into enclosed sector Turn 18495; mapping corridors and searching for B1F stairs.
+- Enclosed sector fully mapped (rows 14-27, cols 12-28).
