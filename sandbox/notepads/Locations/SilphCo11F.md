@@ -19,5 +19,5 @@
 
 ## President's Office (rows 8-13, cols 4-9)
 - Entered via Card Key gate at (6, 13).
-- Team Rocket Boss Giovanni at (6, 9): Confronted player upon entry.
+- Team Rocket Boss Giovanni at (6, 9): [DEFEATED Turn 17858] Nidorino Lv 37, Kangaskhan Lv 35, Rhyhorn Lv 37, Nidoqueen Lv 41; �4059 prize.
 - Silph President held hostage at (7, 8).
