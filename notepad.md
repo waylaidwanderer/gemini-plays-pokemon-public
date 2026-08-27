@@ -2084,6 +2084,11 @@
   - Sighted NPC at (3, 5).
   - Sighted warp pads at (5, 3) and (5, 7).
   - Continuous vertical wall along column 6 blocks physical overworld entry from central/eastern sector.
+- Western Suite (cols 1-5, rows 1-7):
+  - Warp pad at (5, 3): Entrance from 9F (11, 11).
+  - Silph employee at (1, 5): Gives Lapras (requires party slot).
+  - Rival RED at (3, 7): Infiltration battle encounter.
+  - Warp pad at (5, 7): Exit warp leading to 11F executive suites / Giovanni.
 
 <hr>
 
