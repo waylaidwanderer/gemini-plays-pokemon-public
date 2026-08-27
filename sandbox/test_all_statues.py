@@ -1,74 +1,61 @@
 import mgba
 import time
 
+def check_pos():
+    pos = mgba.get_coordinates()
+    print("Current position:", pos)
+    return pos
+
 # Ensure menu is closed
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-pos = mgba.get_coordinates()
-print("Starting position for exploration:", pos)
+pos = check_pos()
 
-# We are at (12, 11). Let's test walking UP Column 12.
-def walk_to_y(target_y):
-    current = mgba.get_coordinates()
-    while current["y"] > target_y:
-        mgba.press_buttons(["Up"])
-        time.sleep(0.4)
-        next_pos = mgba.get_coordinates()
-        if next_pos == current:
-            print(f"Blocked going UP at {current}")
-            return False
-        current = next_pos
-    while current["y"] < target_y:
-        mgba.press_buttons(["Down"])
-        time.sleep(0.4)
-        next_pos = mgba.get_coordinates()
-        if next_pos == current:
-            print(f"Blocked going DOWN at {current}")
-            return False
-        current = next_pos
-    return True
+# We are at (3, 11).
+# 1. Test (5, 10) by walking onto it from (5, 11)
+print("Testing (5, 10) by walking UP from (5, 11)...")
+mgba.press_buttons(["Right", "sleep 450", "Right", "sleep 450", "Up"])
+time.sleep(2.0)
+pos = check_pos()
 
-def test_direction(direction, expected_pos):
-    current = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.4)
-    pos = mgba.get_coordinates()
-    if pos == expected_pos:
-        print(f"  {direction} to {expected_pos}: SUCCESS")
-        # Walk back
-        opposite = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[direction]
-        mgba.press_buttons([opposite])
-        time.sleep(0.4)
-        return True
-    else:
-        print(f"  {direction} to {expected_pos}: BLOCKED (ended at {pos})")
-        return False
+# If we didn't warp, we are at (5, 10). Walk DOWN back to (5, 11)
+if pos == {"x": 5, "y": 10}:
+    mgba.press_buttons(["Down"])
+    time.sleep(0.5)
+    pos = check_pos()
 
-# 1. Walk up to y=8
-if walk_to_y(8):
-    print("At y=8, testing horizontal:")
-    test_direction("Right", {"x": 13, "y": 8})
-    test_direction("Left", {"x": 11, "y": 8})
+# 2. Test (6, 10) by walking UP from (6, 11)
+if pos == {"x": 5, "y": 11}:
+    print("Testing (6, 10) by walking UP from (6, 11)...")
+    mgba.press_buttons(["Right", "sleep 450", "Up"])
+    time.sleep(2.0)
+    pos = check_pos()
 
-# 2. Walk up to y=7
-if walk_to_y(7):
-    print("At y=7, testing horizontal:")
-    test_direction("Right", {"x": 13, "y": 7})
-    test_direction("Left", {"x": 11, "y": 7})
+# If we didn't warp, we are at (6, 10). Walk DOWN back to (6, 11)
+if pos == {"x": 6, "y": 10}:
+    mgba.press_buttons(["Down"])
+    time.sleep(0.5)
+    pos = check_pos()
 
-# 3. Walk up to y=6
-if walk_to_y(6):
-    print("At y=6, testing horizontal:")
-    test_direction("Right", {"x": 13, "y": 6})
-    test_direction("Left", {"x": 11, "y": 6})
+# 3. Test (7, 10) by walking UP from (7, 11)
+if pos == {"x": 6, "y": 11}:
+    print("Testing (7, 10) by walking UP from (7, 11)...")
+    mgba.press_buttons(["Right", "sleep 450", "Up"])
+    time.sleep(2.0)
+    pos = check_pos()
 
-# 4. Walk up to y=5
-if walk_to_y(5):
-    print("At y=5, testing horizontal:")
-    test_direction("Right", {"x": 13, "y": 5})
-    test_direction("Left", {"x": 11, "y": 5})
+# If we didn't warp, we are at (7, 10). Walk DOWN back to (7, 11)
+if pos == {"x": 7, "y": 10}:
+    mgba.press_buttons(["Down"])
+    time.sleep(0.5)
+    pos = check_pos()
 
-# Restore position back to y=11
-walk_to_y(11)
-print("Finished exploration script.")
+# 4. Test (8, 10) by walking UP from (8, 11)
+if pos == {"x": 7, "y": 11}:
+    print("Testing (8, 10) by walking UP from (8, 11)...")
+    mgba.press_buttons(["Right", "sleep 450", "Up"])
+    time.sleep(2.0)
+    pos = check_pos()
+
+mgba.take_screenshot()
