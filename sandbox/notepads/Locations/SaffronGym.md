@@ -59,7 +59,7 @@
 
 ### Southwest Room (SW / Room 7)
 - Boundaries: cols 0-5, rows 13-17
-- Trainer: Channeler at (3, 13..15): Gastly Lv 34, Haunter Lv 34 [Engaged Turn 18361]
+- Trainer: Channeler at (3, 13..15): Gastly Lv 33, Gastly Lv 33, Haunter Lv 33 [Defeated Turn 18366]
 - Warp Pads:
   - Top-Left: (1, 15)
   - Top-Right: (5, 15) -> North-Center Room (9, 3)

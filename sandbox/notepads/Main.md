@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym Southwest Room (3, 16) [Turn 18361]; battling Channeler on route to Gym Leader Sabrina.
+- Location: Saffron Gym Southwest Room (3, 16) [Turn 18366]; defeated Channeler, warping to North-Center Room on route to Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
