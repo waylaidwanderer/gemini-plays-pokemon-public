@@ -10,9 +10,7 @@
 - Statues / Plaques: (9, 15)
 - Gym Guide: (10, 15)
 - Warp Pads in Entrance Room:
-  - Top-Left Warp: (5, 15)
-  - Bottom-Left Warp: (5, 17)
-  - Top-Right Warp: (11, 15)
+  - Top-Right Warp: (11, 15) [Only warp in Entrance Room; connects to room matrix]
 
 ## Saffron Gym Warp Network Permutation Matrix
 | Source Room | Warp Coordinate | Destination Room | Destination Coord |
