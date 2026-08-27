@@ -1641,6 +1641,16 @@ Thus, the correct State B bypass route on 2F is:
   - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
 - **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
 
+## 🗺️ State A Escape Route from B1F East to 1F West (No DIG/Escape Rope Needed!)
+- If the mansion is in State A (default), the B1F East North-Central gate at `(9, 5)` is closed, meaning we cannot cross directly to the Secret Key room.
+- However, we can cross to B1F West SOUTH on Row 11 since the gate at `(10, 11)` is OPEN in State A!
+- **Escape Route to 1F West:**
+  1. From `(10, 7)` on B1F East, walk Right 2 steps to Column 12 `(12, 7)`.
+  2. Walk Down Column 12 to Row 11 `(12, 11)` (this safely bypasses the permanent Row 8 rubble block at Column 10/11).
+  3. Walk Left along Row 11 directly to Column 5 `(5, 11)` (crosses through the open Row 11 gate at `(10, 11)`).
+  4. Walk Up Column 5 to `(5, 10)`.
+  5. Step UP onto the staircase at `(5, 10)` to warp UP to 1F West at `(5, 10)`!
+  6. From `(5, 10)` on 1F West, walk up to 2F West, then 3F West to toggle the switch back to State B!
 
 <hr>
 
