@@ -2261,9 +2261,10 @@
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 - Southern Wall: Row 27
 - Western Divider Wall: Column 11 (separates main entrance from enclosed wing)
+- Shutter Gate (Northeast): (24..25, 13) [Observed CLOSED on Turn 18520 in State B; blocks access to northern chamber at rows 10-12]
 
 ## Progression & Discoveries
-- Dropped into enclosed sector Turn 18495; mapping corridors and searching for B1F stairs.
+- Enclosed sector fully mapped (rows 14-27, cols 12-28).
 
 <hr>
 
@@ -2313,5 +2314,30 @@
 
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
+- 3F Switch at (10, 5): Toggled ON Turn 18484 ('Who wouldn\'t!'). Sets Mansion to State B (inverted).
+
+<hr>
+
+<h1><code>Scratchpad/MansionSwitchPermutations</code></h1>
+
+# Pok�mon Mansion Switch & Barrier Permutations
+
+## Global Switch Permutations
+- **State A (Default / Untoggled)**:
+  - Initial configuration upon entering the dungeon.
+  - Reset to State A whenever exiting the dungeon (via door, Dig, or Teleport).
+  - Hypothesis: 1F Shutter at (24..25, 13) is OPEN in State A, allowing direct access from 3F Balcony Drop (16, 14) -> (24, 13) into the northern chamber containing B1F stairs.
+- **State B (Toggled)**:
+  - Activated by pressing any Mewtwo statue switch (e.g. 3F (10, 5) on Turn 18484).
+  - 1F Shutter at (24..25, 13) is confirmed CLOSED (Turn 18520).
+
+## Empirical Testing Protocol
+1. Use Dig to exit Mansion -> resets to State A.
+2. Re-enter 1F -> ascend 2F -> ascend 3F (6, 1).
+3. Do NOT press 3F switch at (10, 5).
+4. Jump off balcony at (16, 13..14) to land at 1F (16, 14).
+5. Walk directly to (24, 13) to verify before/after whether the shutter is OPEN.
+6. If OPEN, proceed through to northern chamber and B1F stairs.
+
 
 <hr>
