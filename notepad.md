@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym at (8, 17) [Turn 18131]; party 100% healed (HYDROS Lv 59 HP 197/197); speaking with Gym Guide before navigating warp tile network.
+- Location: Saffron Gym Northeast Room at (19, 3) [Turn 18151]; defeated SE Psychic, warped to NE room; engaging NE trainer at (17, 1).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -64,9 +64,9 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 59
-   - Stats (Verified at Lv 59 Turn 18078): Max HP 197 (HP: 197/197), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats (Verified at Lv 59 Turn 18078): Max HP 197 (HP: 145/197), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (12/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -2194,10 +2194,20 @@
   - Bottom-Left Warp: (15, 17)
   - Bottom-Right Warp: (19, 17) [Arrival from Entrance Room (11, 15)]
 
+## Northeast Room (NE / Room 3)
+- Boundaries: cols 14-19, rows 1-5
+- Trainer: Medium / Psychic at (17, 1)
+- Warp Pads:
+  - Top-Left Warp: (15, 3)
+  - Top-Right Warp: (19, 3) [Arrival from Southeast (15, 15)]
+  - Bottom-Left Warp: (15, 5)
+  - Bottom-Right Warp: (19, 5)
+
 ## Saffron Gym Warp Network Permutation Matrix
 | Source Room | Warp Coordinate | Destination Room | Destination Coord |
 |---|---|---|---|
 | Entrance (S) | (11, 15) | Southeast (SE) | (19, 17) |
+| Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
