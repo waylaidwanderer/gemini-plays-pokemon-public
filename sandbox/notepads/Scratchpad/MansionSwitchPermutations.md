@@ -1,18 +1,23 @@
-# Pok�mon Mansion Switch & Barrier Permutations
+# Pok�mon Mansion - Multi-Floor Switch & Barrier Permutations
 
-## Global Switch Permutations
-- **State A (Default / Untoggled)**:
-  - Initial configuration upon entering the dungeon.
-  - Reset to State A whenever exiting the dungeon (via door, Dig, or Teleport).
-  - Hypothesis: 1F Shutter at (24..25, 13) is OPEN in State A, allowing direct access from 3F Balcony Drop (16, 14) -> (24, 13) into the northern chamber containing B1F stairs.
-- **State B (Toggled)**:
-  - Activated by pressing any Mewtwo statue switch (e.g. 3F (10, 5) on Turn 18484).
-  - 1F Shutter at (24..25, 13) is confirmed CLOSED (Turn 18520).
+## Overview
+- Switches on Mewtwo statues toggle global shutter states across all floors (1F, 2F, 3F, B1F).
+- Entering Mansion from exterior resets all switches to State A (Default).
 
-## Empirical Testing Protocol
-1. Use Dig to exit Mansion -> resets to State A.
-2. Re-enter 1F -> ascend 2F -> ascend 3F (6, 1).
-3. Do NOT press 3F switch at (10, 5).
-4. Jump off balcony at (16, 13..14) to land at 1F (16, 14).
-5. Walk directly to (24, 13) to verify before/after whether the shutter is OPEN.
-6. If OPEN, proceed through to northern chamber and B1F stairs.
+## Empirical Barrier State Matrix
+
+| Floor | Barrier Location | State A (Default) | State B (Toggled) |
+|---|---|---|---|
+| 1F | Shutter at (24..25, 13) [Enclosed Wing to B1F Stairs] | **OPEN** | CLOSED (Verified Turn 18520) |
+| 2F | Doorways at (4, 7) and (6, 7) | **OPEN** (Verified Turn 18581) | CLOSED |
+| 2F | Shutter at (21, 17) [West-East Divider] | **CLOSED** (Verified Turn 18601) | OPEN |
+| 2F | Shutter at (26..27, 27) [Southeast Corner] | **CLOSED** (Verified Turn 18598) | OPEN |
+| 3F | Shutter at (10, 3) | **CLOSED** | OPEN (Verified Turn 18484) |
+
+## Optimal Secret Key Route
+1. Enter 1F in State A (Default).
+2. Ascend to 2F via (5, 10).
+3. Walk to (6, 1) on 2F in State A (doorways open) and ascend to 3F (6, 2).
+4. DO NOT toggle switch on 3F!
+5. Drop down balcony pit (rows 6-7, cols 6-9) to 1F (16, 14).
+6. Pass through OPEN shutter at (24..25, 13) into northern chamber to B1F stairs.
