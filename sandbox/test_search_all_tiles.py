@@ -1,59 +1,29 @@
 import mgba
 import time
 
-def escape_battle():
-    print("Attempting to escape battle...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.3)
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-    time.sleep(1.5)
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.2)
+# We are at (15, 7).
+# Walk left to (12, 7) and step down to (12, 8).
 
-def try_step(direction, expected_coords):
-    pos = mgba.get_coordinates()
-    if pos == expected_coords:
-        return True
-    mgba.press_buttons([direction])
-    time.sleep(0.5)
-    pos = mgba.get_coordinates()
-    if pos == expected_coords:
-        return True
-    return False
+def get_current_pos():
+    return mgba.get_coordinates()
 
-# Starting from (10, 5)
-print("Starting systematic Row search on Column 9...")
+pos = get_current_pos()
+print("Starting pos:", pos)
 
-# We will test Rows 3, 4, 5, 6, 7
-for row in [3, 4, 5, 6, 7]:
-    # 1. Move to (10, row)
-    print(f"Moving to (10, {row})...")
-    current_pos = mgba.get_coordinates()
+# Walk left 3 steps to (12, 7)
+steps = [
+    "Left", "Left", "Left"
+]
+for d in steps:
+    mgba.press_buttons([d])
+    time.sleep(0.4)
     
-    # Walk vertically to the target row
-    while current_pos["y"] != row:
-        if current_pos["y"] < row:
-            mgba.press_buttons(["Down"])
-        else:
-            mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-        current_pos = mgba.get_coordinates()
-        
-    print(f"At (10, {row}). Testing walk LEFT to (9, {row})...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    
-    new_pos = mgba.get_coordinates()
-    if new_pos["x"] == 9:
-        print(f"SUCCESS! Walked LEFT on Row {row} to {new_pos}!")
-        break
-    else:
-        print(f"Row {row} is BLOCKED.")
-        # Ensure we face LEFT for next attempts or are back at column 10
-        if new_pos["x"] != 10:
-            mgba.press_buttons(["Right"])
-            time.sleep(0.5)
+pos = get_current_pos()
+print("Pos after moving left:", pos)
 
-pos = mgba.get_coordinates()
-print("Search finished. Current position:", pos)
+if pos == {"x": 12, "y": 7}:
+    print("At (12, 7). Trying to walk DOWN to (12, 8)...")
+    mgba.press_buttons(["Down"])
+    time.sleep(0.4)
+    pos = get_current_pos()
+    print("Pos after walking down:", pos)
