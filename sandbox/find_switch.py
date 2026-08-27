@@ -8,7 +8,6 @@ def is_dialogue_open():
     img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
     cropped = img.crop((0, 104, 160, 144))
     
-    # Check for GBC dialogue background (high white/cream pixel count)
     white_cream_pixels = 0
     for y in range(cropped.height):
         for x in range(cropped.width):
@@ -38,28 +37,6 @@ def handle_any_menu_or_battle():
         print(f"Menu/Dialogue detected! (B/W: {percentage*100:.2f}%)")
         mgba.press_buttons(["B"])
         time.sleep(0.4)
-        
-        # Check if still in battle
-        scr_file2 = mgba.take_screenshot()
-        img2 = Image.open(scr_file2)
-        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
-        black_or_white2 = 0
-        for y in range(115, 140):
-            for x in range(10, 150):
-                r, g, b = img_std2.getpixel((x, y))[:3]
-                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
-                if is_bw:
-                    black_or_white2 += 1
-        percentage2 = black_or_white2 / total_pixels
-        
-        if percentage2 > 0.90:
-            print("Still in battle. Running...")
-            mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-            time.sleep(1.5)
-            # Dismiss run text
-            for _ in range(4):
-                mgba.press_buttons(["B"])
-                time.sleep(0.3)
         return True
     return False
 
@@ -89,87 +66,99 @@ def run_steps(steps):
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# We will test interactions from various positions around (2, 12).
-# Let's list the candidate positions and the directions to face.
-candidates = [
-    # (x, y), direction_to_face, step_to_reach_from_current
-    # Current is (2, 11).
-    ({"x": 2, "y": 12}, "Up", [("Down", {"x": 2, "y": 12})]),
-    ({"x": 2, "y": 12}, "Left", [("Down", {"x": 2, "y": 12})]),
-    ({"x": 1, "y": 12}, "Up", [("Down", {"x": 2, "y": 12}), ("Left", {"x": 1, "y": 12})]),
-    ({"x": 1, "y": 12}, "Right", [("Down", {"x": 2, "y": 12}), ("Left", {"x": 1, "y": 12})]),
-    ({"x": 1, "y": 11}, "Right", [("Left", {"x": 1, "y": 11})]),
-    ({"x": 1, "y": 11}, "Down", [("Left", {"x": 1, "y": 11})]),
-    ({"x": 1, "y": 13}, "Up", [("Down", {"x": 2, "y": 12}), ("Left", {"x": 1, "y": 12}), ("Down", {"x": 1, "y": 13})]),
-    ({"x": 1, "y": 13}, "Right", [("Down", {"x": 2, "y": 12}), ("Left", {"x": 1, "y": 12}), ("Down", {"x": 1, "y": 13})]),
-    ({"x": 2, "y": 13}, "Up", [("Down", {"x": 2, "y": 12}), ("Down", {"x": 2, "y": 13})]),
-    ({"x": 2, "y": 13}, "Left", [("Down", {"x": 2, "y": 12}), ("Down", {"x": 2, "y": 13})]),
+pos = mgba.get_coordinates()
+print("Starting exhaustive switch search from:", pos)
+
+# We want to test the following positions:
+# 1. (1, 13) facing UP (facing 1, 12)
+# 2. (2, 13) facing UP (facing 2, 12)
+# 3. (2, 12) facing UP (facing 2, 11)
+# 4. (1, 12) facing UP (facing 1, 11)
+# 5. (1, 11) facing UP (facing 1, 10)
+# 6. (2, 11) facing UP (facing 2, 10)
+# Let's also test facing RIGHT from (1, 11) towards (2, 11) and (1, 12) towards (2, 12)
+
+# Make sure we are at (1, 13)
+if pos != {"x": 1, "y": 13}:
+    # Walk to (1, 13) via Column 2 to avoid blocking
+    # Current pos can be (2, 12)
+    if pos["y"] == 11:
+        walk_step("Down", {"x": pos["x"], "y": 12})
+        pos = mgba.get_coordinates()
+    if pos["y"] == 12:
+        walk_step("Down", {"x": pos["x"], "y": 13})
+        pos = mgba.get_coordinates()
+    if pos["x"] == 2 and pos["y"] == 13:
+        walk_step("Left", {"x": 1, "y": 13})
+        pos = mgba.get_coordinates()
+
+# Now we are at (1, 13)
+tests = [
+    # (x, y, facing_dir, target_desc)
+    (1, 13, "Up", "UP towards (1, 12)"),
+    (2, 13, "Up", "UP towards (2, 12)"),
+    (2, 12, "Up", "UP towards (2, 11)"),
+    (1, 12, "Up", "UP towards (1, 11)"),
+    (1, 11, "Up", "UP towards (1, 10)"),
+    (2, 11, "Up", "UP towards (2, 10)"),
+    (1, 11, "Right", "RIGHT towards (2, 11)"),
+    (1, 12, "Right", "RIGHT towards (2, 12)"),
+    (1, 13, "Right", "RIGHT towards (2, 13)"),
+    (2, 11, "Left", "LEFT towards (1, 11)"),
+    (2, 12, "Left", "LEFT towards (1, 12)"),
+    (2, 13, "Left", "LEFT towards (1, 13)"),
 ]
 
-found = False
-for coord, direction, path in candidates:
-    # Walk back to current starting position (2, 11) to reset pathing
-    current_pos = mgba.get_coordinates()
-    if current_pos != {"x": 2, "y": 11}:
-        print(f"Returning to (2, 11) from {current_pos}...")
-        # Since we are nearby, we can find a simple path back to (2, 11)
-        if current_pos == {"x": 2, "y": 12}:
-            walk_step("Up", {"x": 2, "y": 11})
-        elif current_pos == {"x": 1, "y": 12}:
-            run_steps([("Right", {"x": 2, "y": 12}), ("Up", {"x": 2, "y": 11})])
-        elif current_pos == {"x": 1, "y": 11}:
-            walk_step("Right", {"x": 2, "y": 11})
-        elif current_pos == {"x": 1, "y": 13}:
-            run_steps([("Up", {"x": 1, "y": 12}), ("Right", {"x": 2, "y": 12}), ("Up", {"x": 2, "y": 11})])
-        elif current_pos == {"x": 2, "y": 13}:
-            run_steps([("Up", {"x": 2, "y": 12}), ("Up", {"x": 2, "y": 11})])
-        else:
-            print("Unknown position, using general return path")
-            # Walk up/right to find (2, 11)
-            mgba.press_buttons(["Up", "sleep 100", "Right"])
-            time.sleep(0.5)
-            
-    # Now path to the target coordinate
-    print(f"\n--- Testing position {coord} facing {direction} ---")
-    if not run_steps(path):
-        print(f"Failed to path to {coord}")
-        continue
-        
-    # Face the specified direction
-    # We turn by pressing the direction button. BUT wait, if we press the direction, we might walk!
-    # To prevent walking, we can check if the destination in that direction is solid.
-    # If the destination is solid, pressing that direction will just turn us without walking.
-    # Let's try pressing the direction.
-    mgba.press_buttons([direction])
-    time.sleep(0.45)
-    
-    # Check if we moved. If we moved, then it wasn't solid!
-    test_pos = mgba.get_coordinates()
-    if test_pos != coord:
-        print(f"  We moved to {test_pos}! That means {direction} was not solid. Skipping...")
-        continue
-        
-    # Press A to check dialogue
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    if is_dialogue_open():
-        print(f"  SUCCESS!!! Switch dialogue is OPEN from {coord} facing {direction}!")
-        # Let's toggle it!
-        mgba.press_buttons(["A"]) # Press YES
-        time.sleep(1.2)
-        mgba.press_buttons(["A"]) # Result text
-        time.sleep(1.2)
-        mgba.press_buttons(["A"]) # Dismiss
-        time.sleep(1.0)
-        found = True
-        break
-    else:
-        print(f"  No dialogue from {coord} facing {direction}.")
-        mgba.press_buttons(["B"])
-        time.sleep(0.3)
+# Simple path to visit:
+# Start at (1, 13) -> (2, 13) -> (2, 12) -> (1, 12) -> (1, 11) -> (2, 11)
+visit_coords = [
+    {"x": 1, "y": 13},
+    {"x": 2, "y": 13},
+    {"x": 2, "y": 12},
+    {"x": 1, "y": 12},
+    {"x": 1, "y": 11},
+    {"x": 2, "y": 11},
+]
 
-if found:
-    print("Switch successfully found and toggled!")
-else:
-    print("Could not find any switch statue in the tested positions.")
+for target_coord in visit_coords:
+    # Walk to target_coord
+    cur_pos = mgba.get_coordinates()
+    if cur_pos != target_coord:
+        # We can do simple orthogonal movements
+        dx = target_coord["x"] - cur_pos["x"]
+        dy = target_coord["y"] - cur_pos["y"]
+        if dx > 0:
+            walk_step("Right", {"x": cur_pos["x"] + 1, "y": cur_pos["y"]})
+        elif dx < 0:
+            walk_step("Left", {"x": cur_pos["x"] - 1, "y": cur_pos["y"]})
+        elif dy > 0:
+            walk_step("Down", {"x": cur_pos["x"], "y": cur_pos["y"] + 1})
+        elif dy < 0:
+            walk_step("Up", {"x": cur_pos["x"], "y": cur_pos["y"] - 1})
+            
+    cur_pos = mgba.get_coordinates()
+    if cur_pos == target_coord:
+        # Run all tests for this coordinate
+        for tx, ty, tdir, desc in tests:
+            if tx == cur_pos["x"] and ty == cur_pos["y"]:
+                print(f"Testing {desc} from {cur_pos}...")
+                mgba.press_buttons([tdir])
+                time.sleep(0.4)
+                mgba.press_buttons(["A"])
+                time.sleep(1.0)
+                if is_dialogue_open():
+                    print(f"SUCCESS! Dialogue opened from {cur_pos} facing {tdir}!")
+                    mgba.press_buttons(["A"]) # YES
+                    time.sleep(1.2)
+                    mgba.press_buttons(["A"]) # Result
+                    time.sleep(1.2)
+                    mgba.press_buttons(["A"]) # Dismiss
+                    time.sleep(1.0)
+                    print("Switch successfully toggled!")
+                    exit(0)
+                else:
+                    # Cancel any potential menu desync
+                    mgba.press_buttons(["B"])
+                    time.sleep(0.3)
+
+print("Exhaustive search finished. No switch was found.")
