@@ -2187,7 +2187,7 @@
 
 ## Southeast Room (SE / Room 9)
 - Boundaries: cols 14-19, rows 13-17
-- Trainer: Channeler / Psychic at (17, 13)
+- Trainer: Psychic at (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated Turn 18146]
 - Warp Pads:
   - Top-Left Warp: (15, 15)
   - Top-Right Warp: (19, 15)
@@ -2200,6 +2200,7 @@
 | Entrance (S) | (11, 15) | Southeast (SE) | (19, 17) |
 
 ## Saffron Gym Trainers
+- Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
 - Gym Leader Sabrina: Alakazam Lv 43, Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38
 
 <hr>
