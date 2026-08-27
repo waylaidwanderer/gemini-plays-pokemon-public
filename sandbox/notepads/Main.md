@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Fighting Dojo at (4, 2) [Turn 18061]; Fighting Dojo 100% completed, Hitmonlee (BRUCE) claimed; heading to Saffron Pok�mon Center at (9, 29) to restore HP/PP before Saffron Gym.
+- Location: Lavender Town at (1, 8) [Turn 18091]; party 100% healed at Lavender Pok�mon Center; heading west onto Route 8 to enter Saffron City and challenge Saffron Gym (Sabrina).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
