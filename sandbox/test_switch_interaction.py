@@ -6,7 +6,10 @@ from PIL import Image
 mgba.press_buttons(["B"])
 time.sleep(0.3)
 
-# Walk to (2, 12) and face UP
+# Starting at (1, 10)
+# Walk DOWN twice to Row 12, then RIGHT to Column 2, then UP to face the statue!
+mgba.press_buttons(["Down"])
+time.sleep(0.5)
 mgba.press_buttons(["Down"])
 time.sleep(0.5)
 mgba.press_buttons(["Right"])
@@ -36,9 +39,19 @@ for y in range(115, 140):
 print("White pixel count in dialogue area:", white_count)
 if white_count > 1000:
     print("Dialogue opened successfully!")
+    
+    print("Toggling switch using step-by-step sequence...")
+    mgba.press_buttons(["A"]) # advance to Yes/No prompt
+    time.sleep(1.2)
+    mgba.press_buttons(["A"]) # select YES
+    time.sleep(1.2)
+    mgba.press_buttons(["A"]) # dismiss final text box
+    time.sleep(1.0)
+    print("Dialogue closed, switch toggled!")
 else:
     print("No dialogue opened. We are NOT interacting with the switch.")
 
 # Press B to dismiss any dialogue
 mgba.press_buttons(["B"])
 time.sleep(0.5)
+print("Current position:", mgba.get_coordinates())
