@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Saffron Gym Center Room (9, 9) [Turn 18379]; defeated Gym Leader Sabrina, obtained Marsh Badge & TM46 (Psywave).
+- Location: Saffron Gym Entrance Room (11, 15) [Turn 18388]; exiting Gym to Fly to Pallet Town for Cinnabar Island.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
