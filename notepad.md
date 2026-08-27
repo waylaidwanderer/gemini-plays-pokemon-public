@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 9F [Turn 17743]; arrived via elevator; testing unexplored warp pads at (23, 7), (23, 11), (11, 5), and (3, 15) to find direct route to 7F western suite.
+- Location: Silph Co. 9F at (4, 5) [Turn 17761]; holding Card Key (bag 20/20); unlocked gate at (11, 13); surveying Card Key gate at (3, 8) and central warp pad at (9, 3).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -107,8 +107,8 @@
 
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
-- Bag Capacity: 17 / 20 slots used
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
+- Bag Capacity: 20 / 20 slots used (FULL)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: �¥28,428+
 
@@ -1986,7 +1986,7 @@
 
 - Wall Divider: (7, 1..3) solid wall separating northwest room from north hall [Verified Turn 17476]
 - Electronic Card Key Gate 2: (7, 4..5) [Unlocked Turn 17734]
-- Northwest Computer Room (cols 0-7, rows 0-9): Item Ball located at (4, 6)
+- Northwest Computer Room (cols 0-7, rows 0-9): Item Ball located at (4, 6) [Uncollected - bag full 20/20]
 - Silph Researcher NPC at (9, 3): Friendly employee studying Poké Ball technology [Turn 17477]
 - Plants & Statues: (11..12, 2..3)
 
