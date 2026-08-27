@@ -64,9 +64,9 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 59
-   - Stats (Verified at Lv 59 Turn 17947): Max HP 197 (HP: 197/197), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats (Verified at Lv 59 Turn 17997): Max HP 197 (HP: 30/197), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (7/15), Ice Beam (2/10), Bite (25/25), Surf (4/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -2143,18 +2143,23 @@
 
 ## Overview
 - Karate dojo in northeast Saffron City at (26, 3) / local (4..5, 11).
-- Master Koichi and 4 Black Belt karate students.
-- Reward: Choice of Hitmonlee (Lv 30) or Hitmonchan (Lv 30) after defeating Master Koichi.
+- Karate Master Koichi and 4 Black Belt students.
+- Reward: Choice of 1 gift Fighting-type Pokémon after defeating Master Koichi.
 
 ## Layout & Landmarks
 - Entrance Mat: (4..5, 11)
 - Dragon Statues: (3, 8..9) and (6, 8..9)
 - Open Center Hall: Columns 4-5 (rows 1-11)
 - Left and Right Tatami Mats: Columns 1-2 and 7-8
-- Poké Ball Podiums (Back of Dojo): (4, 3) and (6, 3) (Hitmonlee left / Hitmonchan right)
+- Poké Ball Podiums (Back of Dojo): (4, 3) and (6, 3) [Contents to be verified upon inspection]
 - Karate Master Koichi: (5, 3)
 
 ## Trainers
-1. Black Belt 1 at (5, 7): [Engaging]
+1. Black Belt 1 at (5, 7): Machop Lv 31, Mankey Lv 31, Primeape Lv 31
+2. Black Belt 2 at (3, 6): [Spotted]
+3. Black Belt 3 at (5, 5): [Spotted]
+4. Black Belt 4 at (3, 4): [Spotted]
+5. Karate Master Koichi at (5, 3): [Unchallenged]
+
 
 <hr>
