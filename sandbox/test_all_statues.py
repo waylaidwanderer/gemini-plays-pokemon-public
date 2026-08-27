@@ -1,55 +1,74 @@
 import mgba
 import time
 
-# We are currently at (17, 7) in State B.
-# We want to test which column (15, 16, 17, 20, 21) allows us to walk DOWN to Row 8.
+# Ensure menu is closed
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
-def get_current_pos():
-    return mgba.get_coordinates()
+pos = mgba.get_coordinates()
+print("Starting position for exploration:", pos)
 
-def try_down_at_col(target_x):
-    # Walk horizontally to target_x on Row 7
-    current_pos = get_current_pos()
-    print(f"Current position: {current_pos}. Moving to Column {target_x}...")
-    
-    # Move left or right to target_x
-    dx = target_x - current_pos['x']
-    if dx > 0:
-        for _ in range(dx):
-            mgba.press_buttons(["Right"])
-            time.sleep(0.4)
-    elif dx < 0:
-        for _ in range(-dx):
-            mgba.press_buttons(["Left"])
-            time.sleep(0.4)
-            
-    # Verify horizontal movement
-    pos = get_current_pos()
-    if pos['x'] != target_x or pos['y'] != 7:
-        print(f"Failed to reach Column {target_x} on Row 7. Current pos: {pos}")
-        return False
-        
-    # Attempt to step DOWN to Row 8
-    print(f"At ({target_x}, 7). Attempting to step DOWN...")
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-    
-    # Check if position changed to Row 8
-    pos_after = get_current_pos()
-    if pos_after['y'] == 8 and pos_after['x'] == target_x:
-        print(f"SUCCESS! Walked DOWN to {pos_after}")
-        # Walk back up to Row 7 to continue testing
+# We are at (12, 11). Let's test walking UP Column 12.
+def walk_to_y(target_y):
+    current = mgba.get_coordinates()
+    while current["y"] > target_y:
         mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+        next_pos = mgba.get_coordinates()
+        if next_pos == current:
+            print(f"Blocked going UP at {current}")
+            return False
+        current = next_pos
+    while current["y"] < target_y:
+        mgba.press_buttons(["Down"])
+        time.sleep(0.4)
+        next_pos = mgba.get_coordinates()
+        if next_pos == current:
+            print(f"Blocked going DOWN at {current}")
+            return False
+        current = next_pos
+    return True
+
+def test_direction(direction, expected_pos):
+    current = mgba.get_coordinates()
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    pos = mgba.get_coordinates()
+    if pos == expected_pos:
+        print(f"  {direction} to {expected_pos}: SUCCESS")
+        # Walk back
+        opposite = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[direction]
+        mgba.press_buttons([opposite])
         time.sleep(0.4)
         return True
     else:
-        print(f"Blocked at ({target_x}, 8). Still at {pos_after}")
+        print(f"  {direction} to {expected_pos}: BLOCKED (ended at {pos})")
         return False
 
-# Test columns 15, 16, 17, 20, 21
-results = {}
-for col in [17, 16, 15, 20, 21]:
-    results[col] = try_down_at_col(col)
+# 1. Walk up to y=8
+if walk_to_y(8):
+    print("At y=8, testing horizontal:")
+    test_direction("Right", {"x": 13, "y": 8})
+    test_direction("Left", {"x": 11, "y": 8})
 
-print("Test results (Column -> Walkable DOWN to Row 8):")
-print(results)
+# 2. Walk up to y=7
+if walk_to_y(7):
+    print("At y=7, testing horizontal:")
+    test_direction("Right", {"x": 13, "y": 7})
+    test_direction("Left", {"x": 11, "y": 7})
+
+# 3. Walk up to y=6
+if walk_to_y(6):
+    print("At y=6, testing horizontal:")
+    test_direction("Right", {"x": 13, "y": 6})
+    test_direction("Left", {"x": 11, "y": 6})
+
+# 4. Walk up to y=5
+if walk_to_y(5):
+    print("At y=5, testing horizontal:")
+    test_direction("Right", {"x": 13, "y": 5})
+    test_direction("Left", {"x": 11, "y": 5})
+
+# Restore position back to y=11
+walk_to_y(11)
+print("Finished exploration script.")
