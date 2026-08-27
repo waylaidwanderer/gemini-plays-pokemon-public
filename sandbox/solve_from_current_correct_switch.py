@@ -93,21 +93,22 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# 1. Walk DOWN Column 1 to Row 13 (to stand at 1,13)
-if pos == {"x": 1, "y": 11}:
-    print("Walking DOWN to Row 13...")
+# 1. Walk to (1, 11) from current (2, 13)
+if pos == {"x": 2, "y": 13}:
+    print("Walking to (1, 11)...")
     if not run_steps([
-        ("Down", {"x": 1, "y": 12}),
-        ("Down", {"x": 1, "y": 13}),
+        ("Left", {"x": 1, "y": 13}),
+        ("Up", {"x": 1, "y": 12}),
+        ("Up", {"x": 1, "y": 11}),
     ]):
-        print("Failed to reach (1, 13)")
+        print("Failed to reach (1, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 2. Stand at (1, 13) facing LEFT and toggle the switch at (0, 13)
-if pos == {"x": 1, "y": 13}:
-    print("Facing LEFT...")
-    mgba.press_buttons(["Left"])
+# 2. Stand at (1, 11) facing RIGHT and toggle the Mewtwo switch at (2, 11)
+if pos == {"x": 1, "y": 11}:
+    print("Facing RIGHT towards (2, 11)...")
+    mgba.press_buttons(["Right"])
     time.sleep(0.4)
     
     print("Pressing A to open switch dialogue...")
@@ -126,7 +127,7 @@ if pos == {"x": 1, "y": 13}:
         time.sleep(1.0)
         print("Switch successfully toggled to State B!")
     else:
-        print("Failed to open switch dialogue at (1, 13) facing LEFT!")
+        print("Failed to open switch dialogue at (1, 11) facing RIGHT!")
         mgba.press_buttons(["B"])
         time.sleep(0.3)
         exit(1)
@@ -134,11 +135,9 @@ if pos == {"x": 1, "y": 13}:
     pos = mgba.get_coordinates()
 
 # 3. Walk UP Column 1 to Row 6 (gate at 1,9 is now open in State B!)
-if pos == {"x": 1, "y": 13}:
+if pos == {"x": 1, "y": 11}:
     print("Walking UP Column 1 to Row 6...")
     steps_col1 = [
-        ("Up", {"x": 1, "y": 12}),
-        ("Up", {"x": 1, "y": 11}),
         ("Up", {"x": 1, "y": 10}),
         ("Up", {"x": 1, "y": 9}),  # OPEN GATE!
         ("Up", {"x": 1, "y": 8}),
