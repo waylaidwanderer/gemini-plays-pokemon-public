@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 7F at (2, 5) [Turn 17821]; holding Card Key; defeated Rival RED at (3, 7); received gift Lapras Lv 15 (sent to Box 1); preparing to test warp pad at (5, 7).
+- Location: Silph Co. 11F at (6, 13) [Turn 17851]; holding Card Key; defeated Rival RED; received gift Lapras (Box 1); currently battling Team Rocket Boss Giovanni in President's Office.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
