@@ -71,52 +71,31 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 15, "y": 7}:
-    print("Navigating from (15, 7) to (18, 7) on 2F East...")
+if pos == {"x": 12, "y": 8}:
+    print("Walking DOWN Column 12 to Row 11...")
     steps = [
-        ("Right", {"x": 16, "y": 7}),
-        ("Right", {"x": 17, "y": 7}),
-        ("Right", {"x": 18, "y": 7}),
+        ("Down", {"x": 12, "y": 9}),
+        ("Down", {"x": 12, "y": 10}),
+        ("Down", {"x": 12, "y": 11}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (18, 7)")
+        print("Failed to reach (12, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 18, "y": 7}:
-    print("Walking LEFT to Column 17...")
+if pos == {"x": 12, "y": 11}:
+    print("Walking RIGHT along Row 11 to Column 15...")
     steps = [
-        ("Left", {"x": 17, "y": 7}),
+        ("Right", {"x": 13, "y": 11}),
+        ("Right", {"x": 14, "y": 11}),
+        ("Right", {"x": 15, "y": 11}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (17, 7)")
+        print("Failed to reach (15, 11)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 17, "y": 7}:
-    print("Walking DOWN Column 17 to Row 10...")
-    steps = [
-        ("Down", {"x": 17, "y": 8}),
-        ("Down", {"x": 17, "y": 9}),
-        ("Down", {"x": 17, "y": 10}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (17, 10)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 17, "y": 10}:
-    print("Walking LEFT Row 10 to Column 15...")
-    steps = [
-        ("Left", {"x": 16, "y": 10}),
-        ("Left", {"x": 15, "y": 10}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (15, 10)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 15, "y": 10}:
+if pos == {"x": 15, "y": 11}:
     print("Stepping DOWN to warp up to 3F East...")
     mgba.press_buttons(["Down"])
     time.sleep(2.0)
