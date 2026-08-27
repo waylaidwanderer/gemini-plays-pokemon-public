@@ -30,3 +30,4 @@
 4. Silph Researcher at (4, 2): Friendly NPC ("I wonder if SILPH is finished...").
 
 5. Scientist at (21, 13): [DEFEATED Turn 17615] Voltorb Lv 28, Koffing Lv 28, Magneton Lv 28; prize money won.
+- Central Lab Warp Pad located at (9, 3) (corrected coordinate).
