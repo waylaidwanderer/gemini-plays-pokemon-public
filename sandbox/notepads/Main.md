@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pallet Town (5, 6) [Turn 18394]; arrived via Fly, walking south to Route 21 to Surf to Cinnabar Island.
+- Location: Route 21 (7, 0) [Turn 18403]; surfing south toward Cinnabar Island.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
