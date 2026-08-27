@@ -77,51 +77,27 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-if pos == {"x": 22, "y": 1}:
-    print("Walking down column 22...")
+if pos == {"x": 22, "y": 3}:
+    print("Walking Left and then Down around stairs...")
     steps = [
-        ("Down", {"x": 22, "y": 2}),
-        ("Down", {"x": 22, "y": 3}),
-        ("Down", {"x": 22, "y": 4}),
-        ("Down", {"x": 22, "y": 5}),
+        ("Left", {"x": 21, "y": 3}),
+        ("Down", {"x": 21, "y": 4}),
+        ("Down", {"x": 21, "y": 5}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (22, 5)")
+        print("Failed to reach (21, 5)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# Now at (22, 5). Walk left to (1, 5)
-if pos == {"x": 22, "y": 5}:
+# Now at (21, 5). Walk left to (1, 5)
+if pos == {"x": 21, "y": 5}:
     print("Walking left along Row 5...")
     steps = []
-    for x in range(21, 0, -1):
+    for x in range(20, 0, -1):
         steps.append(("Left", {"x": x, "y": 5}))
     if not run_steps(steps):
-        print("Failed to reach (1, 5), trying to go via Row 4...")
-        pos = mgba.get_coordinates()
-        # If we got blocked (e.g. at 21, 5 or 20, 5), try to go up to Row 4, left, and down
-        # This is a backup path in case of Row 5 obstacles
-        if pos["x"] >= 20:
-            # try to go to Row 4
-            if walk_step("Up", {"x": pos["x"], "y": 4}):
-                # go left to 19, 4
-                back_steps = []
-                for x in range(pos["x"] - 1, 18, -1):
-                    back_steps.append(("Left", {"x": x, "y": 4}))
-                back_steps.append(("Down", {"x": 19, "y": 5}))
-                for x in range(18, 0, -1):
-                    back_steps.append(("Left", {"x": x, "y": 5}))
-                if run_steps(back_steps):
-                    print("Reached (1, 5) via Row 4 backup route!")
-                else:
-                    print("Failed Row 4 backup route as well")
-                    exit(1)
-            else:
-                print("Could not go Up to Row 4")
-                exit(1)
-        else:
-            print("Blocked at a coordinate < 20, cannot use simple backup")
-            exit(1)
+        print("Failed to reach (1, 5)")
+        exit(1)
     pos = mgba.get_coordinates()
 
 # Standing at (1, 5) facing UP, pick up the Secret Key!
