@@ -77,32 +77,81 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# We are on 1F West. Let's walk to stairs at (5, 10) and warp UP to 2F West (landing at 5, 11)
-if pos["x"] >= 5 and pos["x"] <= 11 and (pos["y"] == 5 or pos["y"] == 6):
-    print("Walking left to Column 5...")
-    steps = []
-    for x in range(pos["x"] - 1, 4, -1):
-        steps.append(("Left", {"x": x, "y": pos["y"]}))
-    
-    # Walk DOWN Column 5 to Row 10
-    for y in range(pos["y"] + 1, 11):
-        steps.append(("Down", {"x": 5, "y": y}))
-        
+# We are at (5, 8) on 1F West. Let's walk UP to (5, 5), then RIGHT to (10, 5), then DOWN to (10, 10), then LEFT to the stairs at (7, 10)
+if pos == {"x": 5, "y": 8}:
+    print("Walking UP to (5, 5)...")
+    steps = [
+        ("Up", {"x": 5, "y": 7}),
+        ("Up", {"x": 5, "y": 6}),
+        ("Up", {"x": 5, "y": 5}),
+    ]
     if not run_steps(steps):
-        print("Failed to reach (5, 10) on 1F West")
+        print("Failed to reach (5, 5)")
         exit(1)
-        
+    pos = mgba.get_coordinates()
+
+# Walk RIGHT to (10, 5)
+if pos == {"x": 5, "y": 5}:
+    print("Walking RIGHT to (10, 5)...")
+    steps = []
+    for x in range(6, 11):
+        steps.append(("Right", {"x": x, "y": 5}))
+    if not run_steps(steps):
+        print("Failed to reach (10, 5)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Walk DOWN Column 10 to Row 10 (10, 10)
+if pos == {"x": 10, "y": 5}:
+    print("Walking DOWN to (10, 10)...")
+    steps = []
+    for y in range(6, 11):
+        steps.append(("Down", {"x": 10, "y": y}))
+    if not run_steps(steps):
+        print("Failed to reach (10, 10)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Walk LEFT to the stairs at (7, 10)
+if pos == {"x": 10, "y": 10}:
+    print("Walking LEFT to stairs at (7, 10)...")
+    steps = [
+        ("Left", {"x": 9, "y": 10}),
+        ("Left", {"x": 8, "y": 10}),
+        ("Left", {"x": 7, "y": 10}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach (7, 10)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Step UP onto the stairs to warp UP to 2F West (landing at 7, 11 or 7, 10)
+if pos == {"x": 7, "y": 10}:
     print("Stepping UP to warp to 2F West...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
-    print("Position after warping to 2F West:", pos)
+    print("Position after warping UP to 2F West:", pos)
 
-# Now on 2F West. Landed at (5, 11). Walk UP Column 5 directly to Row 3 (5, 3)
-if pos == {"x": 5, "y": 11}:
+# Now on 2F West (landing at 7, 11 or 7, 10). Walk LEFT to Column 5
+if pos["x"] == 7 and (pos["y"] == 11 or pos["y"] == 10):
+    pos_y = pos["y"]
+    print("Walking LEFT to Column 5...")
+    steps = [
+        ("Left", {"x": 6, "y": pos_y}),
+        ("Left", {"x": 5, "y": pos_y}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach Column 5 on 2F West")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# Now on Column 5. Walk UP Column 5 directly to Row 3 (5, 3)
+if pos["x"] == 5 and pos["y"] >= 3 and pos["y"] <= 11:
+    pos_y = pos["y"]
     print("Walking UP Column 5 directly to Row 3...")
     steps = []
-    for y in range(10, 2, -1):
+    for y in range(pos_y - 1, 2, -1):
         steps.append(("Up", {"x": 5, "y": y}))
     if not run_steps(steps):
         print("Failed to reach (5, 3) on 2F West")
