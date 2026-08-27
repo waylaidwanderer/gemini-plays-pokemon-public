@@ -45,12 +45,12 @@
 4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F; sent to Box 1]
    - Type: Water / Ice
 
-## Inventory & Resources (Verified Turn 17311)
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
-- Bag Capacity: 20 / 20 slots used (FULL)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1, Master Ball x1
-- Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Funds: �¥28,428+
+## Inventory & Resources (Verified Turn 17963)
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge (5/8)
+- Bag Capacity: 9 / 20 slots used (11 free slots available)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1
+- Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
+- Funds: ¥30,000+
 
 ## Field HM Mechanics (Empirically Verified)
 - HM01 Cut: Party menu -> CUT removes adjacent cut bush.
