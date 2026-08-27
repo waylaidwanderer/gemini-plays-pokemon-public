@@ -2048,7 +2048,9 @@
 - Central Lab Warp Pad located at (9, 3) (corrected coordinate).
 - NPC at (2, 4): Friendly NPC ("Your POKéMON seem to adore you, kid!").
 - Rocket Grunt at (2, 4): Drowzee Lv 28, Grimer Lv 28, Machop Lv 28 [Defeated].
-- Scientist at (7, 11): Electrode Lv 29, Weezing Lv 29 + 1 other Pokémon.
+- Scientist at (7, 11): [DEFEATED Turn 17785] Electrode Lv 29, Weezing Lv 29, Magneton Lv 29; ¥1450 prize.
+- Card Key Gate at (9, 8..9): Connecting west lab (cols 3-8) to central lab (cols 10-12).
+- Warp Pad at (11, 11): Located in central lab room.
 
 <hr>
 
