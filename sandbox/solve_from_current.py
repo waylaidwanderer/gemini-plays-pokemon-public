@@ -36,33 +36,16 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 9, "y": 10}:
-    print("Walking to Column 3 Row 6...")
+if pos == {"x": 12, "y": 9}:
+    print("Walking to Column 20 Row 6...")
     steps = [
-        ("Up", {"x": 9, "y": 9}),
-        ("Left", {"x": 8, "y": 9}),
-        ("Left", {"x": 7, "y": 9}),
-        ("Left", {"x": 6, "y": 9}),
-        ("Left", {"x": 5, "y": 9}),
-        ("Left", {"x": 4, "y": 9}),
-        ("Left", {"x": 3, "y": 9}),
-        ("Up", {"x": 3, "y": 8}),
-        ("Up", {"x": 3, "y": 7}),
-        ("Up", {"x": 3, "y": 6}),
+        ("Up", {"x": 12, "y": 8}),
+        ("Up", {"x": 12, "y": 7}),
+        ("Up", {"x": 12, "y": 6}),
     ]
+    for x in range(13, 21):
+        steps.append(("Right", {"x": x, "y": 6}))
     if run_steps(steps):
-        print("Reached Row 6!")
-    else:
-        print("Failed to reach Row 6")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 3, "y": 6}:
-    print("Walking RIGHT along Row 6 to Column 20...")
-    steps_east = []
-    for x in range(4, 21):
-        steps_east.append(("Right", {"x": x, "y": 6}))
-    if run_steps(steps_east):
         print("Reached Column 20 on Row 6!")
     else:
         print("Failed to reach Column 20")
@@ -101,5 +84,24 @@ if pos == {"x": 26, "y": 3}:
     time.sleep(2.5)
     pos = mgba.get_coordinates()
     print("Position after dropping to 1F East:", pos)
+
+if pos == {"x": 26, "y": 4}:
+    print("Walking to B1F East stairs...")
+    steps_to_stairs = [
+        ("Left", {"x": 25, "y": 4}),
+        ("Left", {"x": 24, "y": 4}),
+        ("Left", {"x": 23, "y": 4}),
+        ("Left", {"x": 22, "y": 4}),
+        ("Up", {"x": 22, "y": 3}),
+    ]
+    if not run_steps(steps_to_stairs):
+        print("Failed to reach 1F East stairs")
+        exit(1)
+        
+    print("Stepping UP to warp down to B1F East...")
+    mgba.press_buttons(["Up"])
+    time.sleep(2.0)
+    pos = mgba.get_coordinates()
+    print("Position after warping down to B1F East:", pos)
 
 print("Finished current chunk! Current position:", pos)
