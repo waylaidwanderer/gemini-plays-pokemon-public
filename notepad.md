@@ -89,7 +89,7 @@
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 19
-   - Stats: Max HP 46 (HP: 46/46), Attack 23, Defense 21, Speed 27, Special 19
+   - Stats: Max HP 46 (HP: 12/46), Attack 23, Defense 21, Speed 27, Special 19
    - Type: Normal / Flying
    - Moves: Fly, Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility
