@@ -55,6 +55,7 @@
 | Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
 | Northeast (NE) | (15, 5) | Northwest (NW) | (1, 3) |
 | Northwest (NW) | (5, 5) | West (W) | (1, 11) |
+| West (W) | (5, 9) | North-Center (N) | (9, 5) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
@@ -70,6 +71,3 @@
   - Top-Right Warp: (11, 3)
   - Bottom-Left Warp: (9, 5) [Arrival from West (5, 9)]
   - Bottom-Right Warp: (11, 5)
-
-## Additional Warp Network Permutations
-| West (W) | (5, 9) | North-Center (N) | (9, 5) |
