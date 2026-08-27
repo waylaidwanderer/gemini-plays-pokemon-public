@@ -77,11 +77,10 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# 1. Walk from (1, 10) to (2, 12) facing UP
-if pos == {"x": 1, "y": 10}:
+# 1. Walk from (1, 11) to (2, 12) facing UP
+if pos == {"x": 1, "y": 11}:
     print("Walking to (2, 12) to toggle switch...")
     steps_to_switch = [
-        ("Down", {"x": 1, "y": 11}),
         ("Down", {"x": 1, "y": 12}),
         ("Right", {"x": 2, "y": 12}),
     ]
@@ -91,14 +90,20 @@ if pos == {"x": 1, "y": 10}:
         
     print("Aligning UP towards the switch statue at (2, 11)...")
     mgba.press_buttons(["Up"])
-    time.sleep(0.4)
+    time.sleep(0.5)
     pos = mgba.get_coordinates()
 
 # 2. Toggle the switch to State B (Exactly ONCE)
 if pos == {"x": 2, "y": 12}:
-    print("Toggling switch using robust atomic sequence...")
-    mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A"])
-    time.sleep(5.0)
+    print("Toggling switch using robust step-by-step sequence...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
     pos = mgba.get_coordinates()
     print("Position after toggling switch:", pos)
 
