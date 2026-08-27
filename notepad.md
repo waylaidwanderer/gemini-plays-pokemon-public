@@ -64,7 +64,7 @@
 
 ## Active Party (Verified Turn 18271)
 1. HYDROS (Blastoise) - Lv 60
-   - Stats: Max HP 200 (HP: 200/200), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats: Max HP 200 (HP: 0/200 - FNT), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper
@@ -79,7 +79,7 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 0/54 - FNT), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
@@ -2229,6 +2229,7 @@
 | Northeast (NE) | (15, 5) | Northwest (NW) | (1, 3) |
 | Northwest (NW) | (5, 5) | West (W) | (1, 11) |
 | West (W) | (5, 9) | North-Center (N) | (9, 5) |
+| North-Center (N) | (11, 5) | Southwest (SW) | (1, 17) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
@@ -2244,6 +2245,15 @@
   - Top-Right Warp: (11, 3)
   - Bottom-Left Warp: (9, 5) [Arrival from West (5, 9)]
   - Bottom-Right Warp: (11, 5)
+
+## Southwest Room (SW / Room 7)
+- Boundaries: cols 0-5, rows 13-17
+- Trainer: Psychic at (3, 13)
+- Warp Pads:
+  - Top-Left Warp: (1, 15)
+  - Top-Right Warp: (5, 15)
+  - Bottom-Left Warp: (1, 17) [Arrival from North-Center (11, 5)]
+  - Bottom-Right Warp: (5, 17)
 
 
 <hr>
