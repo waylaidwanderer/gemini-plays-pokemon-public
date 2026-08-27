@@ -12,3 +12,4 @@
 
 ## Progression & Discoveries
 - Stairs up to 3F: (7, 10) accessible from (5, 11)
+- Stairs up to 3F (Northeast wing): (6, 1)
