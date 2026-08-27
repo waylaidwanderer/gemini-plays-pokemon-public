@@ -21,6 +21,10 @@ def is_in_battle_or_menu():
     return percentage > 0.85
 
 def escape_battle_safely():
+    # Advance "appeared!" text
+    mgba.press_buttons(["B"])
+    time.sleep(0.4)
+    
     if not is_in_battle_or_menu():
         print("No battle or menu detected.")
         return False
@@ -38,84 +42,89 @@ def escape_battle_safely():
             time.sleep(0.2)
     return True
 
-def walk_step(direction, expected_coords, retries=15):
-    for i in range(retries):
-        pos = mgba.get_coordinates()
-        if pos == expected_coords:
-            return True
-            
-        # Check if we are stuck in a battle first
-        if escape_battle_safely():
-            time.sleep(0.5)
-            pos = mgba.get_coordinates()
-            if pos == expected_coords:
-                return True
-                
-        mgba.press_buttons([direction])
-        time.sleep(0.5)
-        
-        pos = mgba.get_coordinates()
-        if pos == expected_coords:
-            print(f"Moved {direction} to {pos}")
-            return True
-            
-        print(f"Move {direction} failed. Current: {pos}, Expected: {expected_coords}. Retrying...")
-        time.sleep(0.3)
-    return False
-
-def run_steps(steps):
-    for d, c in steps:
-        if not walk_step(d, c):
-            return False
-    return True
+# 1. Escape from the current battle
+print("Escaping from current wild battle...")
+escape_battle_safely()
+time.sleep(1.0)
 
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 22, "y": 3}:
-    print("Walking to B1F West NORTH at (1, 5)...")
-    steps = [
-        ("Left", {"x": 21, "y": 3}),
-        ("Down", {"x": 21, "y": 4}),
-        ("Down", {"x": 21, "y": 5}),
-        ("Left", {"x": 20, "y": 5}),
-        ("Left", {"x": 19, "y": 5}),
-        ("Left", {"x": 18, "y": 5}),
-        ("Left", {"x": 17, "y": 5}),
-        ("Left", {"x": 16, "y": 5}),
-        ("Left", {"x": 15, "y": 5}),
-        ("Left", {"x": 14, "y": 5}),
-        ("Left", {"x": 13, "y": 5}),
-        ("Left", {"x": 12, "y": 5}),
-        ("Left", {"x": 11, "y": 5}),
-        ("Left", {"x": 10, "y": 5}),
-        ("Left", {"x": 9, "y": 5}), # cross open gate at (9, 5)
-        ("Left", {"x": 8, "y": 5}),
-        ("Left", {"x": 7, "y": 5}),
-        ("Left", {"x": 6, "y": 5}),
-        ("Left", {"x": 5, "y": 5}),
-        ("Left", {"x": 4, "y": 5}),
-        ("Left", {"x": 3, "y": 5}),
-        ("Left", {"x": 2, "y": 5}),
-        ("Left", {"x": 1, "y": 5}),
-    ]
-    if run_steps(steps):
-        print("Reached Secret Key standing tile at (1, 5)!")
-    else:
-        print("Failed to reach Secret Key")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 1, "y": 5}:
-    print("Facing UP and interacting to retrieve the Secret Key...")
-    mgba.press_buttons(["Up"]) # Face UP
-    time.sleep(0.5)
-    mgba.press_buttons(["A"]) # Interact with Key
-    time.sleep(1.0)
-    for _ in range(5):
-        mgba.press_buttons(["A"]) # Advance through key acquisition text
+# Try testing Column 9 from Row 3 to Row 7
+success = False
+for row in [3, 4, 5, 6, 7]:
+    # Check if we got into a battle on previous steps and escape
+    if escape_battle_safely():
         time.sleep(0.5)
-    pos = mgba.get_coordinates()
-    print("Position after retrieving Secret Key:", pos)
+        
+    current_pos = mgba.get_coordinates()
+    print(f"Current pos: {current_pos}. Navigating to (10, {row})...")
+    
+    # Walk vertically to Row
+    while current_pos["y"] != row:
+        if current_pos["y"] < row:
+            mgba.press_buttons(["Down"])
+        else:
+            mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        # Check for battles during vertical movement
+        if escape_battle_safely():
+            time.sleep(0.5)
+            
+        current_pos = mgba.get_coordinates()
+        
+    print(f"At (10, {row}). Testing walk LEFT to (9, {row})...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    
+    # Check if we entered battle on the Left step
+    if escape_battle_safely():
+        time.sleep(0.5)
+        
+    new_pos = mgba.get_coordinates()
+    if new_pos["x"] == 9:
+        print(f"SUCCESS! Crossed into B1F West NORTH at {new_pos} on Row {row}!")
+        success = True
+        break
+    else:
+        print(f"Row {row} is BLOCKED. (Pos: {new_pos})")
+        # If we got displaced or turned, make sure we are at Column 10
+        if new_pos["x"] != 10:
+            print("Not at Column 10! Walking back...")
+            mgba.press_buttons(["Right"])
+            time.sleep(0.5)
 
-print("Finished script! Current position:", pos)
+if success:
+    pos = mgba.get_coordinates()
+    if pos["x"] == 9:
+        print("Walking to the Secret Key room at (1, 5)...")
+        # Walk Left on Row pos["y"] to Column 1, then align to Row 5 if needed
+        target_row = pos["y"]
+        while pos["x"] > 1:
+            mgba.press_buttons(["Left"])
+            time.sleep(0.5)
+            escape_battle_safely()
+            pos = mgba.get_coordinates()
+            
+        while pos["y"] != 5:
+            if pos["y"] < 5:
+                mgba.press_buttons(["Down"])
+            else:
+                mgba.press_buttons(["Up"])
+            time.sleep(0.5)
+            escape_battle_safely()
+            pos = mgba.get_coordinates()
+            
+        print("Reached Secret Key standing tile at:", pos)
+        mgba.press_buttons(["Up"]) # Face UP
+        time.sleep(0.5)
+        mgba.press_buttons(["A"]) # Interact with Key
+        time.sleep(1.0)
+        for _ in range(5):
+            mgba.press_buttons(["A"]) # Dismiss dialogs
+            time.sleep(0.5)
+        pos = mgba.get_coordinates()
+        print("Secret Key retrieved! Current position:", pos)
+
+print("Finished script! Current position:", mgba.get_coordinates())
