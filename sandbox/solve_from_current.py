@@ -71,48 +71,33 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 14, "y": 5}:
-    print("Walking DOWN to Row 6 to bypass the CLOSED Row 5 gates...")
-    steps = [
-        ("Down", {"x": 14, "y": 6}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (14, 6)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 14, "y": 6}:
-    print("Walking RIGHT along Row 6 to Column 21 on 1F East...")
-    steps = [
-        ("Right", {"x": 15, "y": 6}),
-        ("Right", {"x": 16, "y": 6}),
-        ("Right", {"x": 17, "y": 6}),
-        ("Right", {"x": 18, "y": 6}),
-        ("Right", {"x": 19, "y": 6}),
-        ("Right", {"x": 20, "y": 6}),
-        ("Right", {"x": 21, "y": 6}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (21, 6) on 1F East")
-        exit(1)
-    pos = mgba.get_coordinates()
-
 if pos == {"x": 21, "y": 6}:
-    print("Walking UP Column 21 to Row 2...")
+    print("Walking LEFT to Column 20 to bypass the closed Column 21 gate...")
     steps = [
-        ("Up", {"x": 21, "y": 5}),
-        ("Up", {"x": 21, "y": 4}),
-        ("Up", {"x": 21, "y": 3}),
-        ("Up", {"x": 21, "y": 2}),
+        ("Left", {"x": 20, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (21, 2) on 1F East")
+        print("Failed to reach (20, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 21, "y": 2}:
-    print("Stepping RIGHT to B1F East stairs warp...")
+if pos == {"x": 20, "y": 6}:
+    print("Walking UP Column 20 to Row 2...")
     steps = [
+        ("Up", {"x": 20, "y": 5}),
+        ("Up", {"x": 20, "y": 4}),
+        ("Up", {"x": 20, "y": 3}),
+        ("Up", {"x": 20, "y": 2}),
+    ]
+    if not run_steps(steps):
+        print("Failed to reach (20, 2) on 1F East")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+if pos == {"x": 20, "y": 2}:
+    print("Walking RIGHT along Row 2 to stairs at (22, 2)...")
+    steps = [
+        ("Right", {"x": 21, "y": 2}),
         ("Right", {"x": 22, "y": 2}),
     ]
     if not run_steps(steps):
