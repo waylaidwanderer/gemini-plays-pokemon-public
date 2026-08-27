@@ -84,5 +84,9 @@
 | North-Center (N) | (11, 3) | Northwest (NW) | (5, 3) |
 | Northwest (NW) | (1, 5) | Center (Sabrina) | (11, 11) |
 
-## Full Verified Sabrina Optimal Path (9 Warps)
-Entrance (11, 15) -> SE (15, 15) -> NE (15, 5) -> NW (5, 5) -> W (5, 9) -> N (11, 5) -> SW (5, 15) -> N (11, 3) -> NW (1, 5) -> Center Room (11, 11) -> Sabrina at (9, 8).
+## Sabrina True Optimal Route (4 Warps)
+1. Entrance Room: Step on (11, 15) -> Warps to Southeast Room at (19, 17).
+2. Southeast Room: Step on (15, 15) (Top-Left) -> Warps to Northeast Room at (19, 3).
+3. Northeast Room: Step on (15, 5) (Bottom-Left) -> Warps to Northwest Room at (1, 3).
+4. Northwest Room: Step on (1, 5) (Bottom-Left) -> Warps to Center Room (Sabrina) at (11, 11).
+5. Center Room: Walk Left to (9, 11), Up to (9, 9), face Up and challenge Sabrina at (9, 8)!
