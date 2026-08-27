@@ -75,6 +75,14 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
+# Special Case: standing on the statue at (2, 11)
+if pos == {"x": 2, "y": 11}:
+    print("We are standing on the statue at (2, 11). Stepping DOWN to (2, 12)...")
+    if not walk_step("Down", {"x": 2, "y": 12}):
+        print("Failed to step DOWN to (2, 12)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
 # 1. Walk from (4, 12) to (2, 12) via Row 13 to avoid blocked tile at (3, 12)
 if pos == {"x": 4, "y": 12}:
     print("Walking to (2, 12) via Row 13...")
