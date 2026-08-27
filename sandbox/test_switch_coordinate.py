@@ -1,56 +1,82 @@
 import mgba
 import time
+from PIL import Image
 
-# Let's walk to (2, 16), then Left to (1, 16), then press UP and check the coordinates!
-pos = mgba.get_coordinates()
-print("Current position:", pos)
+def is_dialogue_open():
+    time.sleep(0.15)
+    scr_file = mgba.take_screenshot()
+    img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
+    cropped = img.crop((0, 104, 160, 144))
+    
+    white_cream_pixels = 0
+    for y in range(cropped.height):
+        for x in range(cropped.width):
+            r, g, b = cropped.getpixel((x, y))[:3]
+            if r > 200 and g > 200 and b > 200:
+                white_cream_pixels += 1
+    return white_cream_pixels > 3000
 
-# We are at (1, 12). Let's walk down to (1, 16)
-steps = []
-for y in range(13, 17):
-    steps.append(("Down", {"x": 1, "y": y}))
-
-for d, c in steps:
-    mgba.press_buttons([d])
-    time.sleep(0.45)
-    print(f"Moved {d}, current position: {mgba.get_coordinates()}")
-
-# At (1, 16), press UP
-print("At (1, 16), pressing UP...")
-mgba.press_buttons(["Up"])
+# We are at (2, 12).
+# Let's walk to (3, 13): Down to (2, 13), Right to (3, 13)
+mgba.press_buttons(["Down"])
 time.sleep(0.45)
-print("Position after UP:", mgba.get_coordinates())
+print("Position after Down:", mgba.get_coordinates())
+
+mgba.press_buttons(["Right"])
+time.sleep(0.45)
+print("Position after Right:", mgba.get_coordinates())
+
+# Face UP
+mgba.press_buttons(["Up"])
+time.sleep(0.4)
 
 # Press A
 print("Pressing A...")
 mgba.press_buttons(["A"])
 time.sleep(0.8)
 
-# Check if dialogue is open
-import time
-from PIL import Image
-scr_file = mgba.take_screenshot()
-img = Image.open(scr_file).resize((160, 144), Image.Resampling.NEAREST)
-cropped = img.crop((0, 104, 160, 144))
-
-white_cream_pixels = 0
-for y in range(cropped.height):
-    for x in range(cropped.width):
-        r, g, b = cropped.getpixel((x, y))[:3]
-        if r > 200 and g > 200 and b > 200:
-            white_cream_pixels += 1
-
-print("Dialogue cream pixels:", white_cream_pixels)
-if white_cream_pixels > 3000:
-    print("SUCCESS! Switch dialogue opened!")
-    # Dismiss dialogue
-    mgba.press_buttons(["A"])
+if is_dialogue_open():
+    print("SUCCESS! Dialogue opened from (3, 13) facing UP!")
+    # Toggle it to State B
+    mgba.press_buttons(["A"]) # YES
     time.sleep(1.0)
-    mgba.press_buttons(["A"])
+    mgba.press_buttons(["A"]) # Result
     time.sleep(1.0)
-    mgba.press_buttons(["A"])
+    mgba.press_buttons(["A"]) # Dismiss
     time.sleep(1.0)
+    print("Switch toggled!")
 else:
-    print("Dialogue did not open.")
+    print("Dialogue did not open. Trying to face UP from (3, 11) towards (3, 10)...")
     mgba.press_buttons(["B"])
     time.sleep(0.3)
+    
+    # Let's go to (3, 11): Up to (3, 12) -> wait, (3, 12) is solid!
+    # So we walk Left to (2, 13), Up to (2, 11), Right to (3, 11), Face UP
+    mgba.press_buttons(["Left"])
+    time.sleep(0.45)
+    mgba.press_buttons(["Up"])
+    time.sleep(0.45)
+    mgba.press_buttons(["Up"])
+    time.sleep(0.45)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.45)
+    print("Position at second target:", mgba.get_coordinates())
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    
+    print("Pressing A...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.8)
+    
+    if is_dialogue_open():
+        print("SUCCESS! Dialogue opened from (3, 11) facing UP!")
+        mgba.press_buttons(["A"]) # YES
+        time.sleep(1.0)
+        mgba.press_buttons(["A"]) # Result
+        time.sleep(1.0)
+        mgba.press_buttons(["A"]) # Dismiss
+        time.sleep(1.0)
+    else:
+        print("Dialogue did not open at (3, 11) either.")
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
