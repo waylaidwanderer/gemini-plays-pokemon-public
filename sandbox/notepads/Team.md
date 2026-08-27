@@ -1,33 +1,33 @@
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 18216)
+## Active Party (Verified Turn 18271)
 1. HYDROS (Blastoise) - Lv 60
-   - Stats: Max HP 200 (HP: 0/200 - FNT), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats: Max HP 200 (HP: 200/200), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (8/15), Ice Beam (10/10), Bite (25/25), Surf (13/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46 - FNT), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
-   - Moves: PoisonPowder, Growth, Rest, Cut
+   - Moves: PoisonPowder, Rest, Wrap, Cut
    - Role: Active combatant & Cut utility
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 0/54 - FNT)
+   - Stats: Max HP 54 (HP: 54/54)
    - Type: Fighting
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 0/54 - FNT), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 17/62), Attack 37, Defense 36, Speed 32, Special 41
+   - Stats: Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
-   - Moves: Tackle (5/35), Sand-Attack (8/15), Double Team (8/15)
+   - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 19
-   - Stats: Max HP 46 (HP: 0/46 - FNT), Attack 23, Defense 21, Speed 27, Special 19
+   - Stats: Max HP 46 (HP: 46/46), Attack 23, Defense 21, Speed 27, Special 19
    - Type: Normal / Flying
    - Moves: Fly, Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility

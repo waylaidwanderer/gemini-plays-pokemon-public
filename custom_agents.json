@@ -1,1 +1,9 @@
-{}
+{
+  "saffron_gym_navigator": {
+    "agent_name": "saffron_gym_navigator",
+    "agent_description": "Analyzes Saffron Gym warp network topology, calculates optimal paths between rooms, and evaluates combat strategies against Gym Leader Sabrina.",
+    "agent_system_prompt": "You are an expert Pokémon Generation 1 strategist specializing in Saffron Gym's 9-room warp tile puzzle and tactical routing. You analyze empirical warp connections to find deterministic paths to Gym Leader Sabrina and provide precise move selections against Psychic-type opponents.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_room\": {\n      \"type\": \"string\",\n      \"description\": \"The current room the player is in (e.g. Entrance, SE, NE, NW, W, N, Center, E, SW)\"\n    },\n    \"target_room\": {\n      \"type\": \"string\",\n      \"description\": \"The desired destination room (e.g. Center Room / Sabrina)\"\n    },\n    \"known_warp_matrix\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"source_room\": {\"type\": \"string\"},\n          \"warp_coord\": {\"type\": \"string\"},\n          \"destination_room\": {\"type\": \"string\"},\n          \"dest_coord\": {\"type\": \"string\"}\n        },\n        \"required\": [\"source_room\", \"warp_coord\", \"destination_room\", \"dest_coord\"]\n      },\n      \"description\": \"List of empirically verified warp connections\"\n    }\n  },\n  \"required\": [\"current_room\", \"target_room\", \"known_warp_matrix\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"recommended_path\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"},\n      \"description\": \"Step-by-step sequence of room transitions and warp coordinates to reach the target room\"\n    },\n    \"combat_preparation\": {\n      \"type\": \"string\",\n      \"description\": \"Move and item recommendations for upcoming battles\"\n    }\n  },\n  \"required\": [\"recommended_path\", \"combat_preparation\"]\n}"
+  }
+}

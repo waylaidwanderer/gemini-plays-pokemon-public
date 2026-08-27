@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym North-Center Room at (10, 4) [Turn 18241]; battling Channeler (Gastly Lv 34). Defeated SE, NE, NW Psychics, and W Channeler.
+- Location: Saffron Gym Saffron Pok�mon Center [Turn 18271]; fully healed party, preparing to return to Saffron Gym North-Center Room.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
