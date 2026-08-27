@@ -71,50 +71,34 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 6, "y": 11}:
-    print("Navigating to Row 3 Column 10 via Column 10 bypass...")
+if pos == {"x": 14, "y": 3}:
+    print("Navigating from (14, 3) to Row 6 on 2F West...")
     steps = [
-        ("Right", {"x": 7, "y": 11}),
-        ("Right", {"x": 8, "y": 11}),
-        ("Right", {"x": 9, "y": 11}),
-        ("Right", {"x": 10, "y": 11}),
-        ("Up", {"x": 10, "y": 10}),
-        ("Up", {"x": 10, "y": 9}),
-        ("Up", {"x": 10, "y": 8}),
-        ("Up", {"x": 10, "y": 7}),
-        ("Up", {"x": 10, "y": 6}),
-        ("Up", {"x": 10, "y": 5}),
-        ("Up", {"x": 10, "y": 4}),
-        ("Up", {"x": 10, "y": 3}),
+        ("Down", {"x": 14, "y": 4}),
+        ("Down", {"x": 14, "y": 5}),
+        ("Down", {"x": 14, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (10, 3)")
+        print("Failed to reach (14, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 10, "y": 3}:
-    print("Crossing horizontally on Row 3 to Column 18...")
+if pos == {"x": 14, "y": 6}:
+    print("Crossing horizontally on Row 6 to Column 18...")
     steps = [
-        ("Right", {"x": 11, "y": 3}),
-        ("Right", {"x": 12, "y": 3}),
-        ("Right", {"x": 13, "y": 3}),
-        ("Right", {"x": 14, "y": 3}),
-        ("Right", {"x": 15, "y": 3}),
-        ("Right", {"x": 16, "y": 3}),
-        ("Right", {"x": 17, "y": 3}),
-        ("Right", {"x": 18, "y": 3}),
+        ("Right", {"x": 15, "y": 6}),
+        ("Right", {"x": 16, "y": 6}),
+        ("Right", {"x": 17, "y": 6}),
+        ("Right", {"x": 18, "y": 6}),
     ]
     if not run_steps(steps):
-        print("Failed to reach (18, 3)")
+        print("Failed to reach (18, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 18, "y": 3}:
+if pos == {"x": 18, "y": 6}:
     print("Walking down to Row 10 on 2F East...")
     steps = [
-        ("Down", {"x": 18, "y": 4}),
-        ("Down", {"x": 18, "y": 5}),
-        ("Down", {"x": 18, "y": 6}),
         ("Down", {"x": 18, "y": 7}),
         ("Down", {"x": 18, "y": 8}),
         ("Down", {"x": 18, "y": 9}),
