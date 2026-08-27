@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 7F at (2, 5) [Turn 17821]; holding Card Key; defeated Rival RED at (3, 7); received gift Lapras Lv 15 (sent to Box 1); preparing to test warp pad at (5, 7).
+- Location: Silph Co. 11F at (6, 13) [Turn 17851]; holding Card Key; defeated Rival RED; received gift Lapras (Box 1); currently battling Team Rocket Boss Giovanni in President's Office.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -63,10 +63,10 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 15451)
-1. HYDROS (Blastoise) - Lv 56
-   - Stats (Verified at Lv 56 Turn 17683): Max HP 186 (HP: 168/186), Attack 128, Defense 141, Speed 130, Special 136
+1. HYDROS (Blastoise) - Lv 57
+   - Stats (Verified at Lv 57 Turn 17851): Max HP 190 (HP: 58/190), Attack 130+, Defense 143+, Speed 132+, Special 138+
    - Type: Water
-   - Moves: Double-Edge (14/15), Ice Beam (8/10), Bite (25/25), Surf (11/15)
+   - Moves: Double-Edge (9/15), Ice Beam (4/10), Bite (25/25), Surf (5/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -2137,7 +2137,6 @@
 - Desks / Furniture at (7..8, 6).
 - Vertical Wall Divider: column 4 extends rows 1-10+.
 - West Corridor: cols 1-3, rows 1-10+ open beige diamond floor.
-- NPC at (6, 9) in eastern office area.
 - Desks and counters spanning cols 6-8, rows 6-9.
 - Rocket Grunt at (3, 16)/(3, 13): [DEFEATED Turn 17841] Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32; �960 prize.
 
