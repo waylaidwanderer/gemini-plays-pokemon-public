@@ -1960,6 +1960,7 @@
 - 3F (23, 11) warp pad discovered; preparing to test destination [Turn 17721].
 - 3F (23, 11) <-> 3F (27, 15) [Verified intra-floor warp on 3F]
 - 3F (3, 3) warp pad discovered; stepping onto it to test destination [Turn 17726].
+- 3F (3, 3) <-> 5F (11, 5) [Verified bidirectional Turn 17726-17728]
 
 <hr>
 
@@ -2004,6 +2005,7 @@
 3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
 4. Rocket Grunt at (13, 16): Guarding row 16 western approach [Turn 17516].
 - Items: TM09 (Take Down) collected at (21, 16) [Turn 17507].
+- Central Warp Pad at (11, 5) connects to 3F (3, 3) [Verified bidirectional].
 
 <hr>
 
@@ -2095,5 +2097,6 @@
 - Desks and terminals at (24, 10..11) and (26, 10..11).
 - Northwest Corridor Warp Pad located at (3, 3).
 - Item Ball located at (8, 5).
+- Northwest Warp Pad at (3, 3) connects to 5F (11, 5) [Verified bidirectional].
 
 <hr>

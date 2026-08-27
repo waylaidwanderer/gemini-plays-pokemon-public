@@ -37,3 +37,4 @@
 3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
 4. Rocket Grunt at (13, 16): Guarding row 16 western approach [Turn 17516].
 - Items: TM09 (Take Down) collected at (21, 16) [Turn 17507].
+- Central Warp Pad at (11, 5) connects to 3F (3, 3) [Verified bidirectional].

@@ -16,3 +16,4 @@
 - Desks and terminals at (24, 10..11) and (26, 10..11).
 - Northwest Corridor Warp Pad located at (3, 3).
 - Item Ball located at (8, 5).
+- Northwest Warp Pad at (3, 3) connects to 5F (11, 5) [Verified bidirectional].
