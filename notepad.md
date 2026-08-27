@@ -2085,5 +2085,7 @@
 - NPC at (20, 7) facing West.
 - NPC at (24, 8) facing West.
 - Card Key gate located at (17, 8..9) leading west into room at column 16.
+- Card Key gate at (17, 8..9) unlocked.
+- Office room (cols 12-16, rows 5-12) fully surveyed: desks at (12..13, 8..9), terminals at (14..15, 5); no warp pad inside.
 
 <hr>
