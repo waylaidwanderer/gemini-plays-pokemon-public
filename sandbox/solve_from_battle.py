@@ -21,10 +21,6 @@ def is_in_battle_or_menu():
     return percentage > 0.85
 
 def escape_battle_safely():
-    # If "appeared!" is on screen, press B to advance
-    mgba.press_buttons(["B"])
-    time.sleep(0.4)
-    
     if not is_in_battle_or_menu():
         print("No battle or menu detected.")
         return False
@@ -73,22 +69,17 @@ def run_steps(steps):
             return False
     return True
 
-# Escape from initial wild Ponyta battle
-print("Escaping from wild Ponyta...")
-escape_battle_safely()
-time.sleep(1.0)
-
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
 if pos == {"x": 22, "y": 3}:
     print("Walking to B1F West NORTH at (1, 5)...")
     steps = [
-        ("Down", {"x": 22, "y": 4}),
-        ("Left", {"x": 21, "y": 4}),
-        ("Left", {"x": 20, "y": 4}),
-        ("Left", {"x": 19, "y": 4}),
-        ("Down", {"x": 19, "y": 5}),
+        ("Left", {"x": 21, "y": 3}),
+        ("Down", {"x": 21, "y": 4}),
+        ("Down", {"x": 21, "y": 5}),
+        ("Left", {"x": 20, "y": 5}),
+        ("Left", {"x": 19, "y": 5}),
         ("Left", {"x": 18, "y": 5}),
         ("Left", {"x": 17, "y": 5}),
         ("Left", {"x": 16, "y": 5}),
