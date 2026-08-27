@@ -77,7 +77,7 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# 1. Walk to (2, 12)
+# 1. Walk to (2, 12) and face UP
 if pos == {"x": 3, "y": 10}:
     print("Walking to (2, 12) to toggle switch...")
     steps_to_switch = [
@@ -102,28 +102,28 @@ if pos == {"x": 2, "y": 12}:
     pos = mgba.get_coordinates()
     print("Position after toggling switch:", pos)
 
-# 3. Walk UP Column 3 (now open on Row 9 in State B) to Row 6
+# 3. Walk UP Column 1 (now open on Row 9 in State B) to Row 6
 if pos == {"x": 2, "y": 12}:
-    print("Bypassing the statue to Row 6...")
+    print("Bypassing the statue via Column 1 to Row 6...")
     steps_bypass = [
-        ("Right", {"x": 3, "y": 12}),
-        ("Up", {"x": 3, "y": 11}),
-        ("Up", {"x": 3, "y": 10}),
-        ("Up", {"x": 3, "y": 9}),  # Through the open Row 9 gate!
-        ("Up", {"x": 3, "y": 8}),
-        ("Up", {"x": 3, "y": 7}),
-        ("Up", {"x": 3, "y": 6}),
+        ("Left", {"x": 1, "y": 12}),
+        ("Up", {"x": 1, "y": 11}),
+        ("Up", {"x": 1, "y": 10}),
+        ("Up", {"x": 1, "y": 9}),  # Through the open Row 9 gate on Column 1!
+        ("Up", {"x": 1, "y": 8}),
+        ("Up", {"x": 1, "y": 7}),
+        ("Up", {"x": 1, "y": 6}),
     ]
     if not run_steps(steps_bypass):
-        print("Failed to reach (3, 6)")
+        print("Failed to reach (1, 6)")
         exit(1)
     pos = mgba.get_coordinates()
 
 # 4. Walk RIGHT along Row 6 to Column 20 on 3F East (crossing horizontally)
-if pos == {"x": 3, "y": 6}:
+if pos == {"x": 1, "y": 6}:
     print("Walking RIGHT along Row 6 to Column 20...")
     steps_east = []
-    for x in range(4, 21):
+    for x in range(2, 21):
         steps_east.append(("Right", {"x": x, "y": 6}))
     if not run_steps(steps_east):
         print("Failed to reach Column 20 on Row 6")
