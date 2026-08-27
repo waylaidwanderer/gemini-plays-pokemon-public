@@ -12,3 +12,7 @@
 - East Corridor / Executive Hall: cols 5-8, pink carpet runner on row 4.
 - Rocket Grunt stationed at (7, 5).
 - Desks / Furniture at (7..8, 6).
+- Vertical Wall Divider: column 4 extends rows 1-10+.
+- West Corridor: cols 1-3, rows 1-10+ open beige diamond floor.
+- NPC at (6, 9) in eastern office area.
+- Desks and counters spanning cols 6-8, rows 6-9.
