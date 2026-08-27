@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Gym Northeast Room at (19, 3) [Turn 18151]; defeated SE Psychic, warped to NE room; engaging NE trainer at (17, 1).
+- Location: Saffron Gym Northwest Room at (1, 3) [Turn 18161]; defeated NE Psychic, warped to NW room; engaging NW trainer at (3, 1).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2203,11 +2203,21 @@
   - Bottom-Left Warp: (15, 5)
   - Bottom-Right Warp: (19, 5)
 
+## Northwest Room (NW / Room 1)
+- Boundaries: cols 0-5, rows 1-5
+- Trainer: Channeler / Psychic at (3, 1)
+- Warp Pads:
+  - Top-Left Warp: (1, 3) [Arrival from Northeast (15, 5)]
+  - Top-Right Warp: (5, 3)
+  - Bottom-Left Warp: (1, 5)
+  - Bottom-Right Warp: (5, 5)
+
 ## Saffron Gym Warp Network Permutation Matrix
 | Source Room | Warp Coordinate | Destination Room | Destination Coord |
 |---|---|---|---|
 | Entrance (S) | (11, 15) | Southeast (SE) | (19, 17) |
 | Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
+| Northeast (NE) | (15, 5) | Northwest (NW) | (1, 3) |
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
