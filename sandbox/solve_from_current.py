@@ -36,12 +36,13 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 26, "y": 7}:
+if pos == {"x": 23, "y": 11}:
     print("Walking to B1F East stairs...")
     steps = [
-        ("Left", {"x": 25, "y": 7}),
-        ("Left", {"x": 24, "y": 7}),
-        ("Left", {"x": 23, "y": 7}),
+        ("Up", {"x": 23, "y": 10}),
+        ("Up", {"x": 23, "y": 9}),
+        ("Up", {"x": 23, "y": 8}),
+        ("Up", {"x": 23, "y": 7}),
         ("Left", {"x": 22, "y": 7}),
         ("Up", {"x": 22, "y": 6}),
         ("Up", {"x": 22, "y": 5}),
