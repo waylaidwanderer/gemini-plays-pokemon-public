@@ -75,31 +75,39 @@ mgba.press_buttons(["B"])
 time.sleep(0.3)
 
 pos = mgba.get_coordinates()
-print("Starting position:", pos)
+print("Starting position on 3F East:", pos)
 
-# 1. From (15, 11) on 3F East, walk RIGHT along Row 11 to Column 20 (20, 11)
+# 1. From (15, 11) on 3F East, walk DOWN to (15, 12)
 if pos == {"x": 15, "y": 11}:
-    print("Walking RIGHT along Row 11 to (20, 11)...")
-    steps = []
-    for x in range(16, 21):
-        steps.append(("Right", {"x": x, "y": 11}))
-    if not run_steps(steps):
-        print("Failed to reach (20, 11)")
+    print("Walking DOWN to (15, 12)...")
+    if not walk_step("Down", {"x": 15, "y": 12}):
+        print("Failed to reach (15, 12)")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 2. Walk UP Column 20 to Row 3 (20, 3)
-if pos == {"x": 20, "y": 11}:
+# 2. Walk RIGHT along Row 12 to Column 20 (20, 12)
+if pos == {"x": 15, "y": 12}:
+    print("Walking RIGHT along Row 12 to (20, 12)...")
+    steps_right = []
+    for x in range(16, 21):
+        steps_right.append(("Right", {"x": x, "y": 12}))
+    if not run_steps(steps_right):
+        print("Failed to reach (20, 12)")
+        exit(1)
+    pos = mgba.get_coordinates()
+
+# 3. Walk UP Column 20 to Row 3 (20, 3)
+if pos == {"x": 20, "y": 12}:
     print("Walking UP Column 20 to Row 3...")
     steps_up_3f = []
-    for y in range(10, 2, -1):
+    for y in range(11, 2, -1):
         steps_up_3f.append(("Up", {"x": 20, "y": y}))
     if not run_steps(steps_up_3f):
         print("Failed to reach Row 3 on Column 20 of 3F East")
         exit(1)
     pos = mgba.get_coordinates()
 
-# 3. Walk RIGHT along Row 3 to Column 26 (26, 3)
+# 4. Walk RIGHT along Row 3 to Column 26 (26, 3)
 if pos == {"x": 20, "y": 3}:
     print("Walking RIGHT along Row 3 to Column 26...")
     steps_to_pit = []
@@ -110,7 +118,7 @@ if pos == {"x": 20, "y": 3}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 4. Step DOWN onto Column 26 to drop through the pitfall to 1F East
+# 5. Step DOWN onto Column 26 to drop through the pitfall to 1F East
 if pos == {"x": 26, "y": 3}:
     print("Stepping DOWN to drop through the pitfall to 1F East...")
     mgba.press_buttons(["Down"])
@@ -118,7 +126,7 @@ if pos == {"x": 26, "y": 3}:
     pos = mgba.get_coordinates()
     print("Position after dropping to 1F East:", pos)
 
-# 5. Walk to B1F East stairs at (22, 2)
+# 6. Walk to B1F East stairs at (22, 2)
 if pos == {"x": 26, "y": 4}:
     print("Walking to B1F East stairs...")
     steps_to_stairs = [
@@ -138,7 +146,7 @@ if pos == {"x": 26, "y": 4}:
     pos = mgba.get_coordinates()
     print("Position after warping down to B1F East:", pos)
 
-# 6. Cross B1F East to B1F West NORTH and retrieve Secret Key!
+# 7. Cross B1F East to B1F West NORTH and retrieve Secret Key!
 if pos == {"x": 22, "y": 2} or pos == {"x": 22, "y": 3}:
     print("Crossing to B1F West NORTH...")
     if pos["y"] == 2:
@@ -164,7 +172,7 @@ if pos == {"x": 22, "y": 2} or pos == {"x": 22, "y": 3}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 7. Standing at (1, 5) facing UP, pick up the Secret Key!
+# 8. Standing at (1, 5) facing UP, pick up the Secret Key!
 if pos == {"x": 1, "y": 5}:
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
