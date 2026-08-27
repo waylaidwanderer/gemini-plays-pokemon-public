@@ -63,10 +63,10 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 15451)
-1. HYDROS (Blastoise) - Lv 58
-   - Stats (Verified at Lv 58 Turn 17853): Max HP 193 (HP: 35/193), Attack 133, Defense 148, Speed 136, Special 142
+1. HYDROS (Blastoise) - Lv 59
+   - Stats (Verified at Lv 59 Turn 17866): Max HP 197 (HP: 30/197), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (8/15), Ice Beam (4/10), Bite (25/25), Surf (5/15)
+   - Moves: Double-Edge (8/15), Ice Beam (4/10), Bite (25/25), Surf (4/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -109,8 +109,8 @@
 
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
-- Bag Capacity: 20 / 20 slots used (FULL)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, Rare Candy x1, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
+- Bag Capacity: 19 / 20 slots used (1 free slot)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: �¥28,428+
 
