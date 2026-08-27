@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Fighting Dojo at (4, 4) [Turn 18038]; party healthy (HYDROS HP 151/197); battling Black Belt 4 before challenging Master Koichi.
+- Location: Saffron Fighting Dojo at (4, 4) [Turn 18042]; party healthy (HYDROS HP 134/197); battling Black Belt 4 before challenging Master Koichi.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -64,9 +64,9 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 59
-   - Stats (Verified at Lv 59 Turn 18033): Max HP 197 (HP: 151/197), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats (Verified at Lv 59 Turn 18042): Max HP 197 (HP: 134/197), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (6/15), Ice Beam (1/10), Bite (23/25), Surf (3/15)
+   - Moves: Double-Edge (5/15), Ice Beam (1/10), Bite (23/25), Surf (3/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -2158,7 +2158,7 @@
 1. Black Belt 1 at (5, 7): Machop Lv 31, Mankey Lv 31, Primeape Lv 31 [Defeated; ¥775]
 2. Black Belt 2 at (3, 6): Machop Lv 31, Machoke Lv 32 [Defeated; ¥800]
 3. Black Belt 3 at (5, 5): Primeape Lv 36 [Defeated]
-4. Black Belt 4 at (3, 4): [In Battle]
+4. Black Belt 4 at (3, 4): Mankey Lv 31, Mankey Lv 31, Primeape Lv 31 [In Battle]
 5. Karate Master Koichi at (5, 3): [Unchallenged]
 
 
