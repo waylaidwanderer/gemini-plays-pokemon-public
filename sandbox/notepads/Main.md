@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 3F (10, 6) [Turn 18482]; toggling statue switch and mapping balcony drop.
+- Location: Pokémon Mansion 1F (16, 14) [Turn 18496]; dropped from 3F balcony, exploring enclosed sector for B1F stairs.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
