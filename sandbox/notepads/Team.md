@@ -47,8 +47,8 @@
 
 ## Inventory & Resources (Verified Turn 17311)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge
-- Bag Capacity: 19 / 20 slots used (1 free slot)
-- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1
+- Bag Capacity: 20 / 20 slots used (FULL)
+- Active Bag Items: Bicycle, Great Ball x10, Super Potion x2, TM18 (Counter) x1, TM48 (Rock Slide) x1, TM49 (Tri Attack) x1, Lift Key, Card Key, HM02 (Fly), HM03 (Surf), HM04 (Strength), Moon Stone x1, Silph Scope, Pok� Flute, Good Rod, TM06 (Toxic) x1, Max Potion x1, TM40 x1, TM32 x1, Master Ball x1
 - Deposited in PC: 1x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: �¥28,428+
 
