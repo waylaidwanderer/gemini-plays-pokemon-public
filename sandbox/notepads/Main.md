@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Pokémon Center at (3, 5) [Turn 18333]; healing party with Nurse Joy before challenging Sabrina.
+- Location: Saffron Gym Southwest Room (3, 16) [Turn 18361]; battling Channeler on route to Gym Leader Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
