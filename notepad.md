@@ -2205,7 +2205,7 @@
 
 ## Northwest Room (NW / Room 1)
 - Boundaries: cols 0-5, rows 1-5
-- Trainer: Channeler / Psychic at (3, 1)
+- Trainer: Psychic at (3, 1): Slowbro Lv 38 [Defeated Turn 18166]
 - Warp Pads:
   - Top-Left Warp: (1, 3) [Arrival from Northeast (15, 5)]
   - Top-Right Warp: (5, 3)
@@ -2221,6 +2221,9 @@
 
 ## Saffron Gym Trainers
 - Psychic in SE Room (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
+- Psychic in NE Room (17, 1): Kadabra Lv 31, Slowpoke Lv 31, Mr. Mime Lv 31 [Defeated]
+- Psychic in NW Room (3, 1): Slowbro Lv 38 [Defeated]
 - Gym Leader Sabrina: Alakazam Lv 43, Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38
+
 
 <hr>
