@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Fighting Dojo at (4, 4) [Turn 18042]; party healthy (HYDROS HP 134/197); battling Black Belt 4 before challenging Master Koichi.
+- Location: Saffron Fighting Dojo at (4, 2) [Turn 18061]; Fighting Dojo 100% completed, Hitmonlee (BRUCE) claimed; heading to Saffron Pok�mon Center at (9, 29) to restore HP/PP before Saffron Gym.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones

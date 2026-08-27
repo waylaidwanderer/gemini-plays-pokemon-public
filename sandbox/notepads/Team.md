@@ -44,6 +44,9 @@
    - Type: Normal
 4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F; sent to Box 1]
    - Type: Water / Ice
+5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo; sent to Box 1]
+   - Type: Fighting
+   - Moves: Jump Kick, Meditate, Rolling Kick
 
 ## Inventory & Resources (Verified Turn 17963)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge (5/8)
