@@ -2,7 +2,7 @@
 
 ## Active Party (Verified Turn 18271)
 1. HYDROS (Blastoise) - Lv 60
-   - Stats: Max HP 200 (HP: 200/200), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats: Max HP 200 (HP: 0/200 - FNT), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper
@@ -17,7 +17,7 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 0/54 - FNT), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
