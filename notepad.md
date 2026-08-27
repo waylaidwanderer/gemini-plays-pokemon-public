@@ -969,7 +969,11 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 ## Key Items & Inventory Log (Verified Turn 61761)
 - **TM28 (DIG):** Verified NOT in Bag on Turn 61761. Our entire inventory consists of: POKé FLUTE, SUPER ROD, MAX POTION x2, MAX REVIVE x2, HM03, TOWN MAP, GOOD ROD.
 - **No Pokémon knows DIG:** Systematically verified all party members on Turn 61755; none of them know DIG.
-- **Mansion Exit is fully on foot:** In State B, the B1F East stairs gate at `(22, 2)` on 1F East is OPEN, and the B1F gate at `(9, 5)` is OPEN. We can retrieve the Secret Key and escape on foot without requiring the move DIG.
+- **MUI (Mansion Ultimate Index) & Foot Escape Route:**
+  - B1F West is connected to B1F East via the northern gate at `(9, 5)` which is OPEN in State B.
+  - 1F West is connected to 1F East via Column 13 on Row 5 which is OPEN in State B.
+  - 1F East stairs gate at `(22, 2)` leading to B1F East is OPEN in State B.
+  - Therefore, we can retrieve the Secret Key and escape the entire Mansion on foot without requiring the move DIG! Our escape route is fully walkable in State B.
 
 - **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
