@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Saffron Fighting Dojo at (4, 5) [Turn 18033]; party healthy (HYDROS HP 151/197); defeating Dojo karate students before challenging Master Koichi.
+- Location: Saffron Fighting Dojo at (4, 4) [Turn 18038]; party healthy (HYDROS HP 151/197); battling Black Belt 4 before challenging Master Koichi.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
