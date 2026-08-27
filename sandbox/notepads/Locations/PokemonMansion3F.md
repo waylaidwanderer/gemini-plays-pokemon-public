@@ -5,13 +5,20 @@
 - Contains journal entries about Mew/Mewtwo, trainers, statue switch, and drop-off balcony holes to lower floors.
 
 ## Layout & Landmarks
+
+### Southwest Wing
 - Stairs down to 2F: (7, 10)
 - Research Journal: (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.")
 - Trainer: Burglar at (5, 11) [Ninetales Lv 38; Defeated Turn 18447; ¥3420]
-- Item Ball: (1, 16)
+- Item Ball: (1, 16) [Collected Turn 18455]
 - Hallway Row 16: (1..5, 16) open floor leading to southwest item
 - South Wall: Row 17
 
-## Discovered Areas & Pit Droppoints
-- Corridor leading northeast from central area: Row 7 (visible at (10, 7))
-- Center/West pit: Rubble boundaries observed around rows 7, 14-16
+### Northeast Wing (Accessible via 2F Northeast Stairs at (6, 1))
+- Stairs down to 2F: (6, 1) [Arrival at (6, 2)]
+- Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
+- Balcony Drop-off Hole (Wide Pit): Rows 6-7, cols 6-9 [Jumping off eastern edge drops player to 1F enclosed area with B1F stairs]
+- East Corridor & Rooms: Cols 10-16, rows 1-8
+
+## Switch Permutations & Mechanics
+- Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
