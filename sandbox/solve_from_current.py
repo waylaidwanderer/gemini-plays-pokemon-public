@@ -36,11 +36,16 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 3, "y": 11}:
-    print("Walking UP Column 3 to Row 6...")
+if pos == {"x": 9, "y": 10}:
+    print("Walking to Column 3 Row 6...")
     steps = [
-        ("Up", {"x": 3, "y": 10}),
-        ("Up", {"x": 3, "y": 9}),
+        ("Up", {"x": 9, "y": 9}),
+        ("Left", {"x": 8, "y": 9}),
+        ("Left", {"x": 7, "y": 9}),
+        ("Left", {"x": 6, "y": 9}),
+        ("Left", {"x": 5, "y": 9}),
+        ("Left", {"x": 4, "y": 9}),
+        ("Left", {"x": 3, "y": 9}),
         ("Up", {"x": 3, "y": 8}),
         ("Up", {"x": 3, "y": 7}),
         ("Up", {"x": 3, "y": 6}),
