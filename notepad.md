@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 11F at (6, 14) [Turn 17881]; holding Card Key & Master Ball; Giovanni defeated & President rescued; navigating to 11F west warp pad at (3, 2) to exit Silph Co. and challenge Saffron Gym Leader Sabrina.
+- Location: Silph Co. 1F at (10, 16) [Turn 17911]; holding Card Key & Master Ball; Giovanni defeated & President rescued; navigating 1F lobby to exit into Saffron City and challenge Gym Leader Sabrina.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -1911,7 +1911,7 @@
 
 ## Overview
 - Ground floor lobby of the Silph Co. 11-story headquarters in Saffron City.
-- Currently occupied by Team Rocket.
+- Liberated from Team Rocket on Turn 17858.
 
 ## Layout & Landmarks (Empirically Verified)
 - South Entrance / Exit Mat: (10..11, 17) [South exit to Saffron City at (18, 21)]
@@ -1974,6 +1974,7 @@
 - 7F Western Suite: Silph employee at (1, 5), Rival RED at (3, 7), Warp pad at (5, 7).
 - `[7F (5, 7)] <-> [11F (3, 2)]` [Verified Turn 17825; reaches 11F executive floor!]
 - 11F: Warp pad at (3, 2), Rocket Grunt at (7, 5), executive suite corridor with pink carpet.
+## Status: Silph Co. 100% Liberated (Turns 17858-17873). Exiting 1F to Saffron City.
 
 <hr>
 
