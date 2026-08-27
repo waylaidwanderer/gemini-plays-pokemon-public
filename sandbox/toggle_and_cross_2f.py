@@ -75,15 +75,14 @@ time.sleep(0.3)
 pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
-# 1. Walk from (5, 10) to (2, 12)
-if pos == {"x": 5, "y": 10}:
-    print("Walking to (2, 12)...")
+# 1. Walk from (4, 12) to (2, 12) via Row 13 to avoid blocked tile at (3, 12)
+if pos == {"x": 4, "y": 12}:
+    print("Walking to (2, 12) via Row 13...")
     steps_to_statue = [
-        ("Down", {"x": 5, "y": 11}),
-        ("Down", {"x": 5, "y": 12}),
-        ("Left", {"x": 4, "y": 12}),
-        ("Left", {"x": 3, "y": 12}),
-        ("Left", {"x": 2, "y": 12})
+        ("Down", {"x": 4, "y": 13}),
+        ("Left", {"x": 3, "y": 13}),
+        ("Left", {"x": 2, "y": 13}),
+        ("Up", {"x": 2, "y": 12})
     ]
     if not run_steps(steps_to_statue):
         print("Failed to reach (2, 12)")
@@ -113,13 +112,15 @@ if pos == {"x": 2, "y": 12}:
         exit(1)
     pos = mgba.get_coordinates()
 
-# 3. Walk to (5, 12)
+# 3. Walk to (5, 12) via Row 13 to avoid blocked (3, 12)
 if pos == {"x": 2, "y": 12}:
-    print("Walking to (5, 12)...")
+    print("Walking to (5, 12) via Row 13...")
     steps_to_col5 = [
-        ("Right", {"x": 3, "y": 12}),
-        ("Right", {"x": 4, "y": 12}),
-        ("Right", {"x": 5, "y": 12})
+        ("Down", {"x": 2, "y": 13}),
+        ("Right", {"x": 3, "y": 13}),
+        ("Right", {"x": 4, "y": 13}),
+        ("Right", {"x": 5, "y": 13}),
+        ("Up", {"x": 5, "y": 12})
     ]
     if not run_steps(steps_to_col5):
         print("Failed to reach (5, 12)")
