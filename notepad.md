@@ -63,33 +63,33 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 15451)
-1. HYDROS (Blastoise) - Lv 59
-   - Stats (Verified at Lv 59 Turn 18078): Max HP 197 (HP: 145/197), Attack 136, Defense 150, Speed 138, Special 144
+1. HYDROS (Blastoise) - Lv 60
+   - Stats (Verified at Lv 59 Turn 18078): Max HP 200 (HP: 79/200), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (12/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (9/15), Ice Beam (10/10), Bite (25/25), Surf (14/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats: Max HP 200 (HP: 79/200), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: PoisonPowder, Growth, Rest, Cut
    - Role: Cut utility & reserve grass attacker (Slot 2)
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54) [Healed with Super Potion Turn 15708]
+   - Stats: Max HP 200 (HP: 79/200) [Healed with Super Potion Turn 15708]
    - Type: Fighting
    - Moves: Karate Chop (22/25), Low Kick, Strength (HM04 learned Turn 17295)
    - Role: Physical Fighting attacker & Strength utility (Reserve)
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 200 (HP: 79/200), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 5. PRISM (Eevee) - Lv 25
-   - Stats (Verified at Lv 25 Turn 14826): Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
+   - Stats (Verified at Lv 25 Turn 14826): Max HP 200 (HP: 79/200), Attack 37, Defense 36, Speed 32, Special 41
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15) [Carbos used Turn 17426; Speed boosted]
    - Role: Future Special Sweeper (Eevee from Celadon Mansion; evolve to Jolteon with Thunder Stone)
 6. ZEPHYR (Pidgey) - Lv 19
-   - Stats: Max HP 46 (HP: 46/46), Attack 23, Defense 21, Speed 27, Special 19
+   - Stats: Max HP 200 (HP: 79/200), Attack 23, Defense 21, Speed 27, Special 19
    - Type: Normal / Flying
    - Moves: Sand-Attack, Quick Attack, Whirlwind, Fly
    - Role: Active Flyer (HM02 Fly learned Turn 15350; Gust replaced)
@@ -2196,7 +2196,7 @@
 
 ## Northeast Room (NE / Room 3)
 - Boundaries: cols 14-19, rows 1-5
-- Trainer: Medium / Psychic at (17, 1)
+- Trainer: Psychic at (17, 1): Kadabra Lv 31, Slowpoke Lv 31, Mr. Mime Lv 31 [Defeated Turn 18157]
 - Warp Pads:
   - Top-Left Warp: (15, 3)
   - Top-Right Warp: (19, 3) [Arrival from Southeast (15, 15)]
