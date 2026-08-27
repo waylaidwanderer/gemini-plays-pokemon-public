@@ -44,3 +44,4 @@
 - 7F Western Suite: Silph employee at (1, 5), Rival RED at (3, 7), Warp pad at (5, 7).
 - `[7F (5, 7)] <-> [11F (3, 2)]` [Verified Turn 17825; reaches 11F executive floor!]
 - 11F: Warp pad at (3, 2), Rocket Grunt at (7, 5), executive suite corridor with pink carpet.
+## Status: Silph Co. 100% Liberated (Turns 17858-17873). Exiting 1F to Saffron City.

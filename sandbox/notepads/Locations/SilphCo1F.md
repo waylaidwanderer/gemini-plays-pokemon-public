@@ -2,7 +2,7 @@
 
 ## Overview
 - Ground floor lobby of the Silph Co. 11-story headquarters in Saffron City.
-- Currently occupied by Team Rocket.
+- Liberated from Team Rocket on Turn 17858.
 
 ## Layout & Landmarks (Empirically Verified)
 - South Entrance / Exit Mat: (10..11, 17) [South exit to Saffron City at (18, 21)]
