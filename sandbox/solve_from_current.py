@@ -48,238 +48,115 @@ def handle_any_menu_or_battle():
         return True
     return False
 
-def walk_step(direction, expected_coords, retries=15):
-    for i in range(retries):
-        if handle_any_menu_or_battle():
-            pos = mgba.get_coordinates()
-            if pos == expected_coords:
-                return True
-        mgba.press_buttons([direction])
-        time.sleep(0.45)
-        pos = mgba.get_coordinates()
-        if pos == expected_coords:
-            print(f"Moved {direction}, current position: {pos}")
-            return True
-        print(f"Blocked or battle! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
-        time.sleep(0.3)
-    return False
+# Ensure battle screen is dismissed
+for _ in range(3):
+    mgba.press_buttons(["B"])
+    time.sleep(0.3)
 
-def run_steps(steps):
-    for d, c in steps:
-        if not walk_step(d, c):
-            return False
-    return True
+start = mgba.get_coordinates()
+print("BFS Start position:", start)
 
-# Ensure menu is closed
-mgba.press_buttons(["B"])
-time.sleep(0.3)
+queue = [start]
+visited = { (start["x"], start["y"]) }
+parent = {} # maps child_coord (tuple) -> (direction_to_child, parent_coord_tuple)
 
-pos = mgba.get_coordinates()
-print("Starting position on 2F West:", pos)
+dirs = {
+    "Up": (0, -1),
+    "Down": (0, 1),
+    "Left": (-1, 0),
+    "Right": (1, 0)
+}
+rev_dirs = {
+    "Up": "Down",
+    "Down": "Up",
+    "Left": "Right",
+    "Right": "Left"
+}
 
-# 1. Walk DOWN from (5, 8) to (5, 9)
-if pos == {"x": 5, "y": 8}:
-    print("Walking DOWN to (5, 9)...")
-    if not walk_step("Down", {"x": 5, "y": 9}):
-        print("Failed to reach (5, 9)")
-        exit(1)
-    pos = mgba.get_coordinates()
+def get_path_to(target_tuple):
+    path = []
+    curr = target_tuple
+    while curr in parent:
+        d, p = parent[curr]
+        path.append(d)
+        curr = p
+    path.reverse()
+    return path
 
-# 2. Walk RIGHT along Row 9 to Column 12: (12, 9)
-if pos == {"x": 5, "y": 9}:
-    print("Walking RIGHT along Row 9 to Column 12...")
-    steps = []
-    for x in range(6, 13):
-        steps.append(("Right", {"x": x, "y": 9}))
-    if not run_steps(steps):
-        print("Failed to reach (12, 9)")
-        exit(1)
-    pos = mgba.get_coordinates()
+def navigate_to(target_tuple, current_tuple):
+    path_start_to_curr = get_path_to(current_tuple)
+    for d in reversed(path_start_to_curr):
+        rev_d = rev_dirs[d]
+        mgba.press_buttons([rev_d])
+        time.sleep(0.4)
+        handle_any_menu_or_battle()
+        
+    path_start_to_target = get_path_to(target_tuple)
+    for d in path_start_to_target:
+        mgba.press_buttons([d])
+        time.sleep(0.4)
+        handle_any_menu_or_battle()
 
-# 3. Walk UP Column 12 to Row 6: (12, 6)
-if pos == {"x": 12, "y": 9}:
-    print("Walking UP Column 12 to Row 6...")
-    steps = [
-        ("Up", {"x": 12, "y": 8}),
-        ("Up", {"x": 12, "y": 7}),
-        ("Up", {"x": 12, "y": 6}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (12, 6)")
-        exit(1)
-    pos = mgba.get_coordinates()
+current_pos = (start["x"], start["y"])
+target_found = None
 
-# 4. Walk RIGHT along Row 6 to Column 18: (18, 6) (crossing horizontally to 2F East!)
-if pos == {"x": 12, "y": 6}:
-    print("Crossing horizontally on Row 6 to 2F East at (18, 6)...")
-    steps = []
-    for x in range(13, 19):
-        steps.append(("Right", {"x": x, "y": 6}))
-    if not run_steps(steps):
-        print("Failed to reach (18, 6)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 5. Walk DOWN Column 18 to Row 10: (18, 10)
-if pos == {"x": 18, "y": 6}:
-    print("Walking DOWN Column 18 to Row 10...")
-    steps = []
-    for y in range(7, 11):
-        steps.append(("Down", {"x": 18, "y": y}))
-    if not run_steps(steps):
-        print("Failed to reach (18, 10)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 6. Walk LEFT along Row 10 to Column 15: (15, 10)
-if pos == {"x": 18, "y": 10}:
-    print("Walking LEFT along Row 10 to (15, 10)...")
-    steps = [
-        ("Left", {"x": 17, "y": 10}),
-        ("Left", {"x": 16, "y": 10}),
-        ("Left", {"x": 15, "y": 10}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (15, 10)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 7. Step DOWN onto stairs at (15, 11) to warp UP to 3F East!
-if pos == {"x": 15, "y": 10}:
-    print("Stepping DOWN onto stairs to warp UP to 3F East...")
-    mgba.press_buttons(["Down"])
-    time.sleep(2.5)
-    pos = mgba.get_coordinates()
-    print("Position after warping UP to 3F East:", pos)
-
-# On 3F East (landing at 16, 11 or 15, 11). Let's synchronize and walk to Column 20: (20, 11)
-if pos["y"] == 11 and (pos["x"] == 15 or pos["x"] == 16):
-    print("Walking RIGHT along Row 11 to (20, 11)...")
-    start_x = pos["x"]
-    steps = []
-    for x in range(start_x + 1, 21):
-        steps.append(("Right", {"x": x, "y": 11}))
-    if not run_steps(steps):
-        print("Failed to reach (20, 11)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 8. Walk UP Column 20 to Row 3: (20, 3)
-if pos == {"x": 20, "y": 11}:
-    print("Walking UP Column 20 to Row 3...")
-    steps = []
-    for y in range(10, 2, -1):
-        steps.append(("Up", {"x": 20, "y": y}))
-    if not run_steps(steps):
-        print("Failed to reach (20, 3)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 9. Walk RIGHT along Row 3 to Column 26: (26, 3)
-if pos == {"x": 20, "y": 3}:
-    print("Walking RIGHT along Row 3 to Column 26...")
-    steps = []
-    for x in range(21, 27):
-        steps.append(("Right", {"x": x, "y": 3}))
-    if not run_steps(steps):
-        print("Failed to reach (26, 3)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# 10. Step DOWN to drop through the pitfall to 1F East inside the fenced room (landing at 26, 4)
-if pos == {"x": 26, "y": 3}:
-    print("Stepping DOWN to drop through the pitfall to 1F East...")
-    mgba.press_buttons(["Down"])
-    time.sleep(2.5)
-    pos = mgba.get_coordinates()
-    print("Position after dropping to 1F East:", pos)
-
-# 11. Walk LEFT inside the fenced room along Row 4 to Column 22 (22, 4)
-if pos == {"x": 26, "y": 4} or pos == {"x": 25, "y": 4}:
-    pos_x = pos["x"]
-    print("Walking LEFT along Row 4 to Column 22...")
-    steps = []
-    for x in range(pos_x - 1, 21, -1):
-        steps.append(("Left", {"x": x, "y": 4}))
-    if not run_steps(steps):
-        print("Failed to reach (22, 4) on 1F East")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Walk UP to (22, 3)
-if pos == {"x": 22, "y": 4}:
-    print("Walking UP to (22, 3)...")
-    if not walk_step("Up", {"x": 22, "y": 3}):
-        print("Failed to reach (22, 3)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Step UP to warp down to B1F East (landing at 22, 2)
-if pos == {"x": 22, "y": 3}:
-    print("Stepping UP onto stairs to warp down to B1F East...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.5)
-    pos = mgba.get_coordinates()
-    print("Position after warping down to B1F East:", pos)
-
-# On B1F East (landing at 22, 2). Walk to Row 5 (22, 5)
-if pos["x"] == 22 and (pos["y"] == 2 or pos["y"] == 3):
-    print("Walking DOWN to Row 5...")
-    steps = []
-    for y in range(pos["y"] + 1, 6):
-        steps.append(("Down", {"x": 22, "y": y}))
-    if not run_steps(steps):
-        print("Failed to reach (22, 5)")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Cross B1F East to B1F West NORTH along Row 5 across Column 9 gate
-if pos == {"x": 22, "y": 5}:
-    print("Walking LEFT along Row 5 to Column 19...")
-    steps = [
-        ("Left", {"x": 21, "y": 5}),
-        ("Left", {"x": 20, "y": 5}),
-        ("Left", {"x": 19, "y": 5}),
-    ]
-    if not run_steps(steps):
-        print("Failed to reach (19, 5) on B1F East")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-if pos == {"x": 19, "y": 5}:
-    print("Walking LEFT along Row 5 to B1F West NORTH (Secret Key Room)...")
-    steps = []
-    for x in range(18, 0, -1):
-        steps.append(("Left", {"x": x, "y": 5}))
-    if not run_steps(steps):
-        print("Failed to reach (1, 5) on B1F West NORTH")
-        exit(1)
-    pos = mgba.get_coordinates()
-
-# Standing at (1, 5) facing UP, pick up the Secret Key!
-if pos == {"x": 1, "y": 5}:
-    print("Aligning UP towards the Secret Key...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Retrieving the Secret Key...")
-    mgba.press_buttons([
-        "A", "sleep 2500",
-        "A", "sleep 2500",
-        "A", "sleep 2500"
-    ])
-    time.sleep(8.5)
-    pos = mgba.get_coordinates()
-    print("Final position after picking up Secret Key:", pos)
-
-    # Let's open the menu to verify the Secret Key is in our bag!
-    print("Opening bag to verify Secret Key...")
-    mgba.press_buttons(["Start", "sleep 500", "Down", "sleep 300", "A", "sleep 800"])
-    time.sleep(2.0)
-    mgba.take_screenshot()
-    
-    print("Closing bag menu...")
-    mgba.press_buttons(["B", "sleep 500", "B", "sleep 500"])
-    time.sleep(1.5)
-
-print("Key search complete!")
+try:
+    while queue:
+        curr_coord = queue.pop(0)
+        curr_tuple = (curr_coord["x"], curr_coord["y"])
+        
+        if curr_tuple == (5, 27):
+            print("Found exit tile at (5, 27)!")
+            target_found = curr_tuple
+            break
+            
+        if curr_tuple != current_pos:
+            navigate_to(curr_tuple, current_pos)
+            current_pos = curr_tuple
+            
+        actual = mgba.get_coordinates()
+        actual_tuple = (actual["x"], actual["y"])
+        if actual_tuple != curr_tuple:
+            print(f"Desync! Expected {curr_tuple}, got {actual_tuple}")
+            break
+            
+        for d, (dx, dy) in dirs.items():
+            neighbor_tuple = (curr_tuple[0] + dx, curr_tuple[1] + dy)
+            if neighbor_tuple in visited:
+                continue
+                
+            mgba.press_buttons([d])
+            time.sleep(0.4)
+            handle_any_menu_or_battle()
+            pos_after = mgba.get_coordinates()
+            pos_after_tuple = (pos_after["x"], pos_after["y"])
+            
+            if pos_after_tuple == neighbor_tuple:
+                visited.add(neighbor_tuple)
+                parent[neighbor_tuple] = (d, curr_tuple)
+                queue.append(pos_after)
+                
+                rev_d = rev_dirs[d]
+                mgba.press_buttons([rev_d])
+                time.sleep(0.4)
+                handle_any_menu_or_battle()
+            else:
+                pass
+finally:
+    actual = mgba.get_coordinates()
+    actual_tuple = (actual["x"], actual["y"])
+    print(f"Ending scan. Visited {len(visited)} tiles.")
+    if target_found:
+        print(f"Path to exit: {get_path_to(target_found)}")
+        if actual_tuple != target_found:
+            print("Navigating to exit...")
+            navigate_to(target_found, actual_tuple)
+        print("At exit, stepping Down...")
+        mgba.press_buttons(["Down"])
+        time.sleep(2.0)
+        print("Final position after exiting:", mgba.get_coordinates())
+    else:
+        if actual_tuple != (start["x"], start["y"]):
+            print("Returning to start...")
+            navigate_to((start["x"], start["y"]), actual_tuple)
+            print("Returned to start:", mgba.get_coordinates())
