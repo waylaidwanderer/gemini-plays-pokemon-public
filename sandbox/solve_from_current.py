@@ -22,7 +22,6 @@ def is_in_battle_or_menu():
 
 def escape_battle_safely():
     if not is_in_battle_or_menu():
-        print("No battle or menu detected.")
         return False
         
     print("Battle or menu detected! Attempting escape...")
@@ -44,7 +43,6 @@ def walk_step(direction, expected_coords, retries=15):
         if pos == expected_coords:
             return True
             
-        # Check if we are stuck in a battle first
         if escape_battle_safely():
             time.sleep(0.5)
             pos = mgba.get_coordinates()
@@ -72,31 +70,36 @@ def run_steps(steps):
 pos = mgba.get_coordinates()
 print("Starting from:", pos)
 
-if pos == {"x": 23, "y": 5}:
-    print("Walking around closed Row 4 gates via Column 26...")
+if pos == {"x": 10, "y": 7}:
+    print("Navigating from B1F East to B1F West SOUTH via Row 11...")
     steps = [
-        ("Right", {"x": 24, "y": 5}),
-        ("Right", {"x": 25, "y": 5}),
-        ("Right", {"x": 26, "y": 5}),
-        ("Up", {"x": 26, "y": 4}),
-        ("Up", {"x": 26, "y": 3}),
-        ("Left", {"x": 25, "y": 3}),
-        ("Left", {"x": 24, "y": 3}),
-        ("Left", {"x": 23, "y": 3}),
-        ("Left", {"x": 22, "y": 3}),
+        ("Right", {"x": 11, "y": 7}),
+        ("Right", {"x": 12, "y": 7}),
+        ("Down", {"x": 12, "y": 8}),
+        ("Down", {"x": 12, "y": 9}),
+        ("Down", {"x": 12, "y": 10}),
+        ("Down", {"x": 12, "y": 11}),
+        ("Left", {"x": 11, "y": 11}),
+        ("Left", {"x": 10, "y": 11}), # Row 11 gate
+        ("Left", {"x": 9, "y": 11}),
+        ("Left", {"x": 8, "y": 11}),
+        ("Left", {"x": 7, "y": 11}),
+        ("Left", {"x": 6, "y": 11}),
+        ("Left", {"x": 5, "y": 11}),
+        ("Up", {"x": 5, "y": 10}), # B1F West stairs pre-warp
     ]
     if run_steps(steps):
-        print("Reached B1F East stairs pre-warp!")
+        print("Reached B1F West stairs pre-warp!")
     else:
-        print("Failed to reach stairs")
+        print("Failed to reach B1F West stairs")
         exit(1)
     pos = mgba.get_coordinates()
 
-if pos == {"x": 22, "y": 3}:
-    print("Stepping UP to warp down to B1F East...")
+if pos == {"x": 5, "y": 10}:
+    print("Stepping UP to warp to 1F West...")
     mgba.press_buttons(["Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
-    print("Position after warping down to B1F East:", pos)
+    print("Position after warping to 1F West:", pos)
 
-print("Finished stairs warp! Current position:", pos)
+print("Finished script! Current position:", pos)
