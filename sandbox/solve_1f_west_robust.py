@@ -3,7 +3,7 @@ import time
 from PIL import Image
 
 def handle_any_menu_or_battle():
-    time.sleep(0.1)
+    time.sleep(0.15)
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
@@ -42,26 +42,26 @@ def handle_any_menu_or_battle():
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
             # Dismiss run text
-            for _ in range(5):
+            for _ in range(4):
                 mgba.press_buttons(["B"])
                 time.sleep(0.3)
         return True
     return False
 
-# Ensure battle screen is dismissed
-for _ in range(3):
-    mgba.press_buttons(["B"])
-    time.sleep(0.2)
+# Ensure any battle or menu is dismissed
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
 start = mgba.get_coordinates()
 start_tuple = (start["x"], start["y"])
-print("BFS Robust Start position:", start_tuple)
+print("Starting BFS explorer from current position:", start_tuple)
 
-# Bidirectional graph
-# maps coord_tuple -> set of neighbor_tuples
-graph = {}
-blocked_tiles = set()
+# Target exit
+exit_tile = (5, 27)
+
+queue = [start_tuple]
 visited = { start_tuple }
+parent = {} # child_tuple -> (direction, parent_tuple)
 
 dirs = {
     "Up": (0, -1),
@@ -69,163 +69,128 @@ dirs = {
     "Left": (-1, 0),
     "Right": (1, 0)
 }
+rev_dirs = {
+    "Up": "Down",
+    "Down": "Up",
+    "Left": "Right",
+    "Right": "Left"
+}
 
-def add_edge(u, v):
-    if u not in graph:
-        graph[u] = set()
-    if v not in graph:
-        graph[v] = set()
-    graph[u].add(v)
-    graph[v].add(u)
+button_press_count = 0
+max_buttons = 80 # Safe limit to avoid the 100-button abort
 
-def find_shortest_path(src, dst):
-    if src == dst:
-        return []
-    queue = [src]
-    paths = {src: []}
-    visited_nodes = {src}
-    
-    while queue:
-        curr = queue.pop(0)
-        if curr == dst:
-            return paths[curr]
-        for neighbor in graph.get(curr, []):
-            if neighbor not in visited_nodes and neighbor not in blocked_tiles:
-                visited_nodes.add(neighbor)
-                # find direction
-                dx = neighbor[0] - curr[0]
-                dy = neighbor[1] - curr[1]
-                direction = None
-                for d, (v_dx, v_dy) in dirs.items():
-                    if v_dx == dx and v_dy == dy:
-                        direction = d
-                        break
-                paths[neighbor] = paths[curr] + [direction]
-                queue.append(neighbor)
-    return None
+def get_path_to(target_tuple):
+    path = []
+    curr = target_tuple
+    while curr in parent:
+        d, p = parent[curr]
+        path.append(d)
+        curr = p
+    path.reverse()
+    return path
 
-def navigate_to(target):
-    # Dynamically find current position and walk to target
-    pos = mgba.get_coordinates()
-    curr = (pos["x"], pos["y"])
-    if curr == target:
-        return True
-        
-    path = find_shortest_path(curr, target)
-    if path is None:
-        print(f"No path in graph from {curr} to {target}!")
-        return False
-        
-    print(f"Navigating from {curr} to {target} via path: {path}")
-    for d in path:
-        mgba.press_buttons([d])
+def navigate_to(target_tuple, current_tuple):
+    global button_press_count
+    # Walk back to start
+    path_start_to_curr = get_path_to(current_tuple)
+    for d in reversed(path_start_to_curr):
+        if button_press_count >= max_buttons:
+            return False
+        rev_d = rev_dirs[d]
+        mgba.press_buttons([rev_d])
+        button_press_count += 1
         time.sleep(0.4)
         handle_any_menu_or_battle()
         
-    # Verify arrival
-    pos = mgba.get_coordinates()
-    curr = (pos["x"], pos["y"])
-    if curr == target:
-        return True
-    print(f"Arrived at {curr} instead of {target}!")
-    return False
+    # Walk from start to target
+    path_start_to_target = get_path_to(target_tuple)
+    for d in path_start_to_target:
+        if button_press_count >= max_buttons:
+            return False
+        mgba.press_buttons([d])
+        button_press_count += 1
+        time.sleep(0.4)
+        handle_any_menu_or_battle()
+    return True
 
-# Target exit
-exit_tile = (5, 27)
+current_pos = start_tuple
+target_found = None
 
-# We will maintain a frontier of unexplored but discovered walkable nodes
-frontier = [start_tuple]
-
-steps = 0
-max_steps = 300
-
-while frontier and steps < max_steps:
-    # Find the closest frontier node from our actual current position
-    pos = mgba.get_coordinates()
-    curr_tuple = (pos["x"], pos["y"])
-    
-    if curr_tuple == exit_tile:
-        print("REACHED THE EXIT TILE!")
-        break
+try:
+    while queue and button_press_count < max_buttons:
+        curr_tuple = queue.pop(0)
         
-    # Find closest frontier
-    best_f = None
-    best_path = None
-    for f in frontier:
-        path = find_shortest_path(curr_tuple, f)
-        if path is not None:
-            if best_path is None or len(path) < len(best_path):
-                best_f = f
-                best_path = path
+        if curr_tuple == exit_tile:
+            print("FOUND PATH TO EXIT TILE!")
+            target_found = curr_tuple
+            break
+            
+        if curr_tuple != current_pos:
+            if not navigate_to(curr_tuple, current_pos):
+                break
+            current_pos = curr_tuple
+            
+        # Verify arrival
+        actual = mgba.get_coordinates()
+        actual_tuple = (actual["x"], actual["y"])
+        if actual_tuple != curr_tuple:
+            print(f"Desync! Expected {curr_tuple}, got {actual_tuple}")
+            break
+            
+        # Try all 4 directions from current node
+        for d, (dx, dy) in dirs.items():
+            neighbor_tuple = (curr_tuple[0] + dx, curr_tuple[1] + dy)
+            if neighbor_tuple in visited:
+                continue
                 
-    if best_f is None:
-        # No reachable frontier, let's explore neighbors of current tile
-        best_f = curr_tuple
-        if best_f not in frontier:
-            frontier.append(best_f)
-            
-    # Navigate to best_f
-    if curr_tuple != best_f:
-        if not navigate_to(best_f):
-            # Failed to navigate, let's handle desync
-            pos = mgba.get_coordinates()
-            curr_tuple = (pos["x"], pos["y"])
-            print(f"Navigation failed. Resynced to current position: {curr_tuple}")
-            # If we ended up somewhere, let's add it to visited
-            visited.add(curr_tuple)
-            if curr_tuple not in graph:
-                graph[curr_tuple] = set()
-            continue
-            
-    # We are now at best_f
-    curr_tuple = best_f
-    if best_f in frontier:
-        frontier.remove(best_f)
-        
-    print(f"Exploring from {curr_tuple}...")
-    
-    # Try all 4 directions
-    for d, (dx, dy) in dirs.items():
-        neighbor = (curr_tuple[0] + dx, curr_tuple[1] + dy)
-        if neighbor in visited or neighbor in blocked_tiles:
-            continue
-            
-        print(f"  Testing {d} to {neighbor}...")
-        mgba.press_buttons([d])
-        time.sleep(0.4)
-        
-        handle_any_menu_or_battle()
-        pos_after = mgba.get_coordinates()
-        pos_after_tuple = (pos_after["x"], pos_after["y"])
-        
-        if pos_after_tuple == neighbor:
-            # Walkable!
-            print(f"  Walkable discovered: {neighbor}")
-            visited.add(neighbor)
-            add_edge(curr_tuple, neighbor)
-            frontier.append(neighbor)
-            
-            # Step back
-            rev_d = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[d]
-            mgba.press_buttons([rev_d])
+            if button_press_count >= max_buttons:
+                break
+                
+            print(f"Testing step {d} to {neighbor_tuple}...")
+            mgba.press_buttons([d])
+            button_press_count += 1
             time.sleep(0.4)
             handle_any_menu_or_battle()
-        else:
-            # Blocked!
-            print(f"  Blocked/solid: {neighbor}")
-            blocked_tiles.add(neighbor)
             
-    steps += 1
-
-print(f"Finished BFS. Visited {len(visited)} tiles. Exit found? {exit_tile in visited}")
-if exit_tile in visited:
-    print("Navigating to exit at (5, 27)...")
-    if navigate_to(exit_tile):
-        print("At exit! Stepping DOWN to exit the mansion...")
+            pos_after = mgba.get_coordinates()
+            pos_after_tuple = (pos_after["x"], pos_after["y"])
+            
+            if pos_after_tuple == neighbor_tuple:
+                visited.add(neighbor_tuple)
+                parent[neighbor_tuple] = (d, curr_tuple)
+                queue.append(neighbor_tuple)
+                
+                # Step back
+                if button_press_count >= max_buttons:
+                    break
+                rev_d = rev_dirs[d]
+                mgba.press_buttons([rev_d])
+                button_press_count += 1
+                time.sleep(0.4)
+                handle_any_menu_or_battle()
+            else:
+                # Solid
+                pass
+finally:
+    actual = mgba.get_coordinates()
+    actual_tuple = (actual["x"], actual["y"])
+    print(f"BFS iteration ended. Button presses: {button_press_count}/{max_buttons}")
+    print(f"Visited {len(visited)} tiles: {sorted(list(visited))}")
+    
+    if target_found:
+        print("At exit or found path! Current position:", actual_tuple)
+        path = get_path_to(target_found)
+        print("Path from start to exit:", path)
+        if actual_tuple != target_found:
+            print("Navigating to target exit...")
+            navigate_to(target_found, actual_tuple)
+        print("At exit! Stepping DOWN to exit...")
         mgba.press_buttons(["Down"])
         time.sleep(2.5)
-        print("Final position after exit:", mgba.get_coordinates())
+        print("Final position after exiting:", mgba.get_coordinates())
     else:
-        print("Failed to navigate to exit tile!")
-else:
-    print("Exit tile (5, 27) not found reachable!")
+        # Return to start to be safe
+        if actual_tuple != start_tuple:
+            print("Returning to start position to preserve location state...")
+            navigate_to(start_tuple, actual_tuple)
+            print("Returned to start:", mgba.get_coordinates())
