@@ -78,14 +78,14 @@ pos = mgba.get_coordinates()
 print("Starting position:", pos)
 
 # We are on 1F West. Let's walk to stairs at (5, 10) and warp UP to 2F West (landing at 5, 11)
-if pos["y"] == 6 and pos["x"] >= 5 and pos["x"] <= 11:
+if pos["x"] >= 5 and pos["x"] <= 11 and (pos["y"] == 5 or pos["y"] == 6):
     print("Walking left to Column 5...")
     steps = []
     for x in range(pos["x"] - 1, 4, -1):
-        steps.append(("Left", {"x": x, "y": 6}))
+        steps.append(("Left", {"x": x, "y": pos["y"]}))
     
     # Walk DOWN Column 5 to Row 10
-    for y in range(7, 11):
+    for y in range(pos["y"] + 1, 11):
         steps.append(("Down", {"x": 5, "y": y}))
         
     if not run_steps(steps):
