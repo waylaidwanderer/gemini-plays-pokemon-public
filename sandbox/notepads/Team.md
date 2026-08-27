@@ -2,9 +2,9 @@
 
 ## Active Party (Verified Turn 15451)
 1. HYDROS (Blastoise) - Lv 59
-   - Stats (Verified at Lv 59 Turn 17866): Max HP 197 (HP: 30/197), Attack 136, Defense 150, Speed 138, Special 144
+   - Stats (Verified at Lv 59 Turn 17947): Max HP 197 (HP: 197/197), Attack 136, Defense 150, Speed 138, Special 144
    - Type: Water
-   - Moves: Double-Edge (8/15), Ice Beam (4/10), Bite (25/25), Surf (4/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse, battle sweeper & 100% escape lead (Slot 1)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46), Attack 27, Defense 15, Speed 16, Special 28
@@ -57,18 +57,3 @@
 - HM02 Fly: Party menu -> FLY opens fast-travel town map.
 - HM03 Surf: Usable outside battle with Soul Badge on water tiles.
 - HM04 Strength: Party menu -> STRENGTH activates boulder-moving capability for active map. Walking into a boulder displaces it 1 tile in the walking direction.
-
-## Flying-Type Party Slot Allocation & Capture Plan
-- Party Slot 6: Filled by ZEPHYR (Pidgey Lv 19, Fly active)
-- Nickname: ZEPHYR
-- Fly Utility: HM02 Fly active for global fast travel
-
-## Party Lead & Safety Protocol (Adopted Turn 15211)
-- **Overworld Traversal / Unsurveyed Corridors**: Maintain HYDROS (Blastoise Lv 50) as Lead in Slot 1 to safely handle unexpected trainer encounters.
-- **Wild Capture Farming in Verified Tall Grass**: Swap capture lead (ATLAS Machop Lv 16) to Slot 1 only after physically entering confirmed tall grass boundaries.
-
-## Turn-1 Capture & Lead Safety Protocol (Adopted Turn 15241)
-- **Lead Pokémon**: HYDROS (Blastoise Lv 50, HP 166/166) positioned in Slot 1.
-- **Encounter Actions**:
-  - Target Flyer (Pidgey Lv 18-20, Pidgeotto Lv 19, Spearow): Select ITEM -> Great Ball on Turn 1 immediately (65%+ base capture rate at full HP with Great Ball; zero risk to team).
-  - Non-Flyer (Meowth, Sandshrew, Vulpix, Kadabra, Growlithe): Select RUN on Turn 1 (100% escape rate due to Blastoise Speed 116).
