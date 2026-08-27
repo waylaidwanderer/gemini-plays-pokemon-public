@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 1F (16, 14) [Turn 18496]; dropped from 3F balcony, exploring enclosed sector for B1F stairs.
+- Location: Pokémon Mansion 1F (19, 21) [Turn 18511]; enclosed eastern wing, inspecting inventory and searching for B1F stairs.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2243,15 +2243,27 @@
 
 ## Overview
 - First floor of the ruined Pokémon Mansion in northwest Cinnabar Island.
-- Features red carpet grand entrance, marble floors, Mewtwo statue switches, and ruined walls.
+- Features red carpet grand entrance, marble floors, Mewtwo statue switches, ruined walls, and an enclosed eastern wing accessible only by dropping from 3F.
 
 ## Layout & Landmarks
+
+### Main Sector (West & Central)
 - Entrance Mat: (4..7, 26..27) [Door to Cinnabar Island at (4..5, 27)]
-- Central Hallway: Columns 4-7, rows 14-27
+- Central Grand Hallway: Columns 4-7, rows 14-27
 - Decorative Displays / Pillars: (3, 24) and (8, 24)
+- Stairs up to 2F: (5, 10) [at north end of central hallway]
+
+### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
+- Balcony Landing Tile: (16, 14) [Arrived Turn 18495]
+- Scientist NPC: (17, 17) facing Down
+- Item Ball: (18, 21) [Collected Turn 18509]
+- Corridors: Row 14 (cols 12-17), Row 20-21 (cols 12-23), Row 24-26 (cols 12-23), Column 12 (rows 14-26), Column 20 (rows 20-26)
+- Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
+- Southern Wall: Row 27
+- Western Divider Wall: Column 11 (separates main entrance from enclosed wing)
 
 ## Progression & Discoveries
-- Stairs to 2F: (5, 10) [at north end of entrance hallway]
+- Dropped into enclosed sector Turn 18495; mapping corridors and searching for B1F stairs.
 
 <hr>
 
@@ -2296,7 +2308,7 @@
 ### Northeast Wing (Accessible via 2F Northeast Stairs at (6, 1))
 - Stairs down to 2F: (6, 1) [Arrival at (6, 2)]
 - Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
-- Balcony Drop-off Hole (Wide Pit): Rows 6-7, cols 6-9 [Jumping off eastern edge drops player to 1F enclosed area with B1F stairs]
+- Balcony Drop-off Hole (Wide Pit): Rows 6-7, cols 6-9 [Jumping off eastern edge drops player to 1F enclosed area at (16, 14)]
 - East Corridor & Rooms: Cols 10-16, rows 1-8
 
 ## Switch Permutations & Mechanics

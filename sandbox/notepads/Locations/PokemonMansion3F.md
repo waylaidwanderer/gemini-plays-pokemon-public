@@ -17,7 +17,7 @@
 ### Northeast Wing (Accessible via 2F Northeast Stairs at (6, 1))
 - Stairs down to 2F: (6, 1) [Arrival at (6, 2)]
 - Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
-- Balcony Drop-off Hole (Wide Pit): Rows 6-7, cols 6-9 [Jumping off eastern edge drops player to 1F enclosed area with B1F stairs]
+- Balcony Drop-off Hole (Wide Pit): Rows 6-7, cols 6-9 [Jumping off eastern edge drops player to 1F enclosed area at (16, 14)]
 - East Corridor & Rooms: Cols 10-16, rows 1-8
 
 ## Switch Permutations & Mechanics
