@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 5/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge)
-- Location: Silph Co. 3F at (3, 3) [Turn 17731]; verified warps 7F (21, 15) <-> 5F (27, 3), 3F (23, 11) <-> (27, 15), 3F (3, 3) <-> 5F (11, 5); collecting item at (8, 5) and surveying southwest 3F sector.
+- Location: Silph Co. 9F [Turn 17743]; arrived via elevator; testing unexplored warp pads at (23, 7), (23, 11), (11, 5), and (3, 15) to find direct route to 7F western suite.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
