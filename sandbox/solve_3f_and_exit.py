@@ -74,62 +74,67 @@ def run_safe_steps(steps):
 pos = get_pos()
 print("Start position:", pos)
 
-# 1. Walk from (3, 10) to (2, 10) then UP Column 2 to Row 6
-steps_to_row_6 = []
+# 1. Walk from current position (3, 10) to (1, 12)
+steps_to_col_1 = []
 if pos == (3, 10):
-    steps_to_row_6 = [
-        ("Left", (2, 10)),
-        ("Up", (2, 9)),  # Shutter gate at (2, 9) - OPEN in State B!
-        ("Up", (2, 8)),
-        ("Up", (2, 7)),
-        ("Up", (2, 6)),
+    steps_to_col_1 = [
+        ("Down", (3, 11)),
+        ("Down", (3, 12)),
+        ("Left", (2, 12)),
+        ("Left", (1, 12)),
     ]
 elif pos == (2, 12):
-    steps_to_row_6 = [
+    steps_to_col_1 = [
         ("Left", (1, 12)),
-        ("Up", (1, 11)),
-        ("Up", (1, 10)),
-        ("Right", (2, 10)),
-        ("Up", (2, 9)),
-        ("Up", (2, 8)),
-        ("Up", (2, 7)),
-        ("Up", (2, 6)),
+    ]
+elif pos == (3, 12):
+    steps_to_col_1 = [
+        ("Left", (2, 12)),
+        ("Left", (1, 12)),
     ]
 else:
-    print(f"Position {pos} is not handled. Adjusting pathing...")
-    # Safe fallback to (2, 10)
-    if pos[0] != 2:
-        if pos[0] < 2:
-            steps_to_row_6.append(("Right", (2, pos[1])))
+    print("Not at starting area, attempting fallback to (1, 12)")
+    # Fallback to (1, 12)
+    if pos[1] != 12:
+        if pos[1] < 12:
+            for y in range(pos[1]+1, 13):
+                steps_to_col_1.append(("Down", (pos[0], y)))
         else:
-            steps_to_row_6.append(("Left", (2, pos[1])))
-    if pos[1] != 10:
-        if pos[1] < 10:
-            steps_to_row_6.append(("Down", (2, 10)))
-        else:
-            steps_to_row_6.append(("Up", (2, 10)))
-    steps_to_row_6.extend([
-        ("Up", (2, 9)),
-        ("Up", (2, 8)),
-        ("Up", (2, 7)),
-        ("Up", (2, 6)),
-    ])
+            for y in range(pos[1]-1, 11, -1):
+                steps_to_col_1.append(("Up", (pos[0], y)))
+    if pos[0] > 1:
+        for x in range(pos[0]-1, 0, -1):
+            steps_to_col_1.append(("Left", (x, 12)))
 
-print("Walking to Row 6 Column 2...")
-if not run_safe_steps(steps_to_row_6):
-    print("Failed to navigate to Row 6")
+print("Walking to Row 12 Column 1...")
+if not run_safe_steps(steps_to_col_1):
+    print("Failed to navigate to (1, 12)")
     exit(1)
 
-# 2. Walk RIGHT along Row 6 to Column 20
+# 2. Walk UP Column 1 to Row 6 (gate at (1, 9) is open in State B!)
+steps_up_col_1 = [
+    ("Up", (1, 11)),
+    ("Up", (1, 10)),
+    ("Up", (1, 9)),  # Row 9 gate - OPEN in State B!
+    ("Up", (1, 8)),
+    ("Up", (1, 7)),
+    ("Up", (1, 6)),
+]
+print("Walking UP Column 1 to Row 6...")
+if not run_safe_steps(steps_up_col_1):
+    print("Failed to navigate up Column 1")
+    exit(1)
+
+# 3. Walk RIGHT along Row 6 to Column 20
 steps_row_6 = []
-for x in range(3, 21):
+for x in range(2, 21):
     steps_row_6.append(("Right", (x, 6)))
 print("Walking RIGHT along Row 6 to Column 20...")
 if not run_safe_steps(steps_row_6):
     print("Failed walking along Row 6")
     exit(1)
 
-# 3. Walk UP Column 20 to Row 3 (bypassing pitfalls)
+# 4. Walk UP Column 20 to Row 3 (bypassing pitfalls)
 steps_to_row_3 = [
     ("Up", (20, 5)),
     ("Up", (20, 4)),
@@ -140,7 +145,7 @@ if not run_safe_steps(steps_to_row_3):
     print("Failed walking UP Column 20")
     exit(1)
 
-# 4. Walk RIGHT along Row 3 to Column 26
+# 5. Walk RIGHT along Row 3 to Column 26
 steps_row_3 = []
 for x in range(21, 27):
     steps_row_3.append(("Right", (x, 3)))
@@ -149,7 +154,7 @@ if not run_safe_steps(steps_row_3):
     print("Failed walking along Row 3")
     exit(1)
 
-# 5. Step DOWN onto the pitfall trap at (26, 4) to drop to 1F East inside fenced room
+# 6. Step DOWN onto the pitfall trap at (26, 4) to drop to 1F East inside fenced room
 print("Dropping through the pitfall to 1F East...")
 if not safe_step("Down", (26, 4)):
     print("Failed to drop through the pitfall")
@@ -157,7 +162,7 @@ if not safe_step("Down", (26, 4)):
 time.sleep(2.0)
 print("Landed on 1F East. Position:", get_pos())
 
-# 6. Walk LEFT to stairs and warp DOWN to B1F East
+# 7. Walk LEFT to stairs and warp DOWN to B1F East
 pos = get_pos()
 steps_to_stairs = []
 for x in range(pos[0]-1, 21, -1):
@@ -174,7 +179,7 @@ mgba.press_buttons(["Up"])
 time.sleep(2.0)
 print("Arrived on B1F East. Position:", get_pos())
 
-# 7. Cross B1F East to B1F West NORTH and retrieve Secret Key
+# 8. Cross B1F East to B1F West NORTH and retrieve Secret Key
 pos = get_pos()
 if pos[1] == 2:
     safe_step("Down")
