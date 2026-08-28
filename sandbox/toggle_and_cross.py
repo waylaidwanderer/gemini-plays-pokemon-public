@@ -54,25 +54,35 @@ def handle_any_menu_or_battle():
         return True
     return False
 
-def walk_step(direction, expected_coords, retries=15):
-    for i in range(retries):
-        if handle_any_menu_or_battle():
-            pos = get_pos()
-            if pos == expected_coords:
-                return True
+def safe_step(direction, expected_coords=None):
+    old_pos = get_pos()
+    mgba.press_buttons([direction])
+    time.sleep(0.45)
+    new_pos = get_pos()
+    
+    if new_pos != old_pos:
+        if expected_coords and new_pos != expected_coords:
+            print(f"Moved {direction} but landed at unexpected position: {new_pos} (expected {expected_coords})")
+        else:
+            print(f"Successfully stepped {direction} to {new_pos}")
+        return True
+        
+    # If we didn't move, check for battle or dialogue
+    if handle_any_menu_or_battle():
+        print(f"Handled battle/dialogue. Retrying step {direction}...")
         mgba.press_buttons([direction])
         time.sleep(0.45)
-        pos = get_pos()
-        if pos == expected_coords:
-            print(f"Moved {direction}, current position: {pos}")
+        new_pos = get_pos()
+        if new_pos != old_pos:
+            print(f"Successfully stepped {direction} to {new_pos} after retry")
             return True
-        print(f"Blocked or battle! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
-        time.sleep(0.3)
+            
+    print(f"BLOCKED: Could not step {direction} from {old_pos}")
     return False
 
-def run_steps(steps):
+def run_safe_steps(steps):
     for d, c in steps:
-        if not walk_step(d, c):
+        if not safe_step(d, c):
             return False
     return True
 
@@ -85,7 +95,7 @@ steps_to_switch = [
     ("Right", (2, 12)),
 ]
 print("Walking to switch at (2, 12)...")
-if not run_steps(steps_to_switch):
+if not run_safe_steps(steps_to_switch):
     print("Failed to reach (2, 12)")
     exit(1)
 
@@ -102,7 +112,7 @@ for i in range(5):
 print("Switch toggle complete!")
 
 # 4. Walk to (1, 12)
-if not walk_step("Left", (1, 12)):
+if not safe_step("Left", (1, 12)):
     print("Failed to step Left to (1, 12)")
     exit(1)
 
@@ -116,7 +126,7 @@ steps_up_col_1 = [
     ("Up", (1, 6)),
 ]
 print("Walking UP Column 1...")
-if not run_steps(steps_up_col_1):
+if not run_safe_steps(steps_up_col_1):
     print("Failed to walk UP Column 1")
     exit(1)
 
@@ -125,7 +135,7 @@ steps_row_6 = []
 for x in range(2, 21):
     steps_row_6.append(("Right", (x, 6)))
 print("Walking RIGHT along Row 6 to Column 20...")
-if not run_steps(steps_row_6):
+if not run_safe_steps(steps_row_6):
     print("Failed walking RIGHT along Row 6")
     exit(1)
 
@@ -136,7 +146,7 @@ steps_col_20 = [
     ("Up", (20, 3)),
 ]
 print("Walking UP Column 20 to Row 3...")
-if not run_steps(steps_col_20):
+if not run_safe_steps(steps_col_20):
     print("Failed walking UP Column 20")
     exit(1)
 
@@ -145,7 +155,7 @@ steps_row_3 = []
 for x in range(21, 27):
     steps_row_3.append(("Right", (x, 3)))
 print("Walking RIGHT along Row 3 to Column 26...")
-if not run_steps(steps_row_3):
+if not run_safe_steps(steps_row_3):
     print("Failed walking RIGHT along Row 3")
     exit(1)
 
