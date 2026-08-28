@@ -36,7 +36,7 @@
 2. North Landing Sector connects via row 10 (9, 10) gap directly to 1F/2F stairs at (5, 10).
 3. Toggled 2F Mewtwo statue switch at (2, 11) to State A.
 4. In State A, 1F shutter gate at (24..25, 13) is OPEN.
-5. On 1F (State A), traverse via (12, 6) -> (17, 6) -> (17, 14) into South Wing, walk to (24, 16) -> (24, 13), pass through open shutter into Northeast Chamber, and descend to B1F!
+5. In State A, traverse south along column 10 to row 22, walk east across the open row 22 hallway to column 25, and ascend north up column 25 to descend the staircase at (25, 14) into B1F!
 
 ## Verified 1F Thoroughfares & Route to B1F
 - North Thoroughfare (Row 3): cols 12-27 open horizontal hallway.
