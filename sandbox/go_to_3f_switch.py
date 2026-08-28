@@ -64,19 +64,19 @@ def safe_step(direction, expected_coords=None, max_attempts=15):
     print(f"ERROR: Could not step {direction} from {old_pos}")
     return False
 
-# Starting at (4, 10) on 3F West
-print("Navigating to switch via Column 4. Current position:", get_pos())
+# Starting at (4, 12) on 3F West
+print("Navigating to switch via Row 13. Current position:", get_pos())
 
-# Route that goes down Column 4:
-# 1. Down to (4, 11)
-# 2. Down to (4, 12)
-# 3. Left to (3, 12)
-# 4. Left to (2, 12)
+# Route that goes on Row 13:
+# 1. Down to (4, 13)
+# 2. Left to (3, 13)
+# 3. Left to (2, 13)
+# 4. Up to (2, 12)
 steps = [
-    ("Down", (4, 11)),
-    ("Down", (4, 12)),
-    ("Left", (3, 12)),
-    ("Left", (2, 12)),
+    ("Down", (4, 13)),
+    ("Left", (3, 13)),
+    ("Left", (2, 13)),
+    ("Up", (2, 12)),
 ]
 
 success = True
