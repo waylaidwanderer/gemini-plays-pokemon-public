@@ -1,0 +1,37 @@
+# Pokémon Mansion 2F - Layout & Exploration
+
+## Overview
+- Second floor of the ruined Pokémon Mansion.
+- Features marble floors, Mewtwo statue switch, eastern computer wing, and stairs connecting 1F and 3F.
+
+## Layout & Landmarks
+
+### West / Central Sector
+- Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)]
+- Mewtwo Statue Switch: (2, 10..11) [Front interactable from (2, 12)]
+- Wall Divider at Row 9: Solid horizontal wall across (3..7, 9) dividing south hallway from northwest room.
+- Main South Corridor: (4..7, 10..27) red carpet hallway.
+- Connecting East-West Corridor: Row 11 (cols 4-12) connects main hall to column 12 thoroughfare.
+
+### Northwest Room
+- Boundaries: cols 1-8, rows 1-7
+- Interior: Rubble, table at rows 4-5, statue at (2, 4..5).
+- Note: Thoroughfare along row 1 (cols 4-12).
+
+### Stairs to 3F
+- Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)).
+- Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10).
+- Arrival on 3F: Southwest Wing at (7, 10) / (7, 11).
+
+### East Wing (Explored Turns 18593-18750)
+- Thoroughfare Column 12: Unobstructed north-south corridor connecting row 11 to row 1, bypassing all rubble at rows 8-9.
+- Computer terminals along row 2: (13, 2), (15, 2), (17, 2), (19, 2)
+- Item Ball: (14, 3) [Collected Turn 18593]
+- Shutter Barrier (North-Central): (21, 17) [CLOSED in State A, OPEN in State B]
+- Shutter Barrier (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B]
+- Doorway connections: (26..27, 4), (24..25, 13)
+- Corridors: Row 1 (cols 4-27), Row 3 (cols 10-27), Row 16 (cols 21-28), Col 26 (rows 4-12, 14-26)
+
+## State & Switch Mechanics
+- State A (Default): Doorway (26..27, 4) and (4, 7) OPEN; Shutters at (21, 17) and (26..27, 27) CLOSED.
+- State B (Toggled): Shutters at (21, 17) and (26..27, 27) OPEN; 1F gate at (24..25, 13) CLOSED.

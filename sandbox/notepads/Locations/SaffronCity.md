@@ -1,16 +1,24 @@
-## Saffron City - Verified Eastern & Southeastern Streets (Verified Turn 44437-44461)
-- **Saffron Pokmon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
-- **Saffron's Southern Horizontal Street:** Runs horizontally at Rows 30 and 31. Walkable from Column 3 to Column 37.
-- **Wandering NPC:** Dark-haired NPC wanders along Row 30 between Column 10 and Column 18.
-- **Blocked South-to-Center Passages:**
-  - Column 13: Blocked by solid yellow building wall at `(13, 29)`.
-  - Column 18: Blocked by solid yellow building wall at `(18, 29)`.
-  - Column 20: Blocked by a stationary Rocket Grunt standing at `(20, 29)` facing DOWN.
-  - Columns 24-27: Blocked by grey barrels and signposts at Row 29.
-- **Eastern Vertical Corridor (Column 37):**
-  - Completely open pavement running vertically on Column 37 from Saffron's south-east quadrant to Saffron's north-east quadrant (Row 7).
-  - Decorative Post at `(37, 19)` blocks Column 37. Bypass: Walk left to `(36, 20)`, go up 2 steps to `(36, 18)`, then go right to `(37, 18)`.
-  - Decorative Post at `(37, 12)` blocks Column 37. Bypass: Walk right to `(38, 13)` in the green grass, go up 2 steps to `(38, 11)`, then go left to `(37, 11)`.
-- **Saffron's Northern Horizontal Street (Row 7/8):**
-  - Fully open horizontally at Row 7 and 8, extending from Saffron's east side (Column 37) all the way west to Saffron's center (Column 18).
-  - Saffron Silph Co. North Wall blocks direct downward access at Column 18 on Rows 10 and 11. To enter Silph Co., Saffron's outer perimeter must be navigated to approach the south entrance at `(18, 21)`.
+# Saffron City - Points of Interest & Topology
+
+## Overview
+- Saffron City is the central metropolitan hub of Kanto, connecting four major routes (Route 5 North, Route 6 South, Route 7 West, Route 8 East).
+- Gates: Permanently unlocked via Soda Pop given to West Gate guard [Turn 17445].
+
+## Gatehouse Connections
+- West Gatehouse: (14..17, 8..11) with entrance at (17, 10) connecting to Route 7 / Celadon City [Entered Turn 17450]
+- East Gatehouse: Connecting to Route 8 / Lavender Town
+- North Gatehouse: Connecting to Route 5 / Cerulean City
+- South Gatehouse: Connecting to Route 6 / Vermilion City
+
+## Major Landmarks & Objectives
+1. **Silph Co. Headquarters**: Center of city at cols 16-27, rows 12-24 with front entrance door at (18, 21) [Entered Turn 17454]. Liberated on Turn 17858 after defeating Team Rocket Boss Giovanni on 11F. Received Master Ball from Silph President [Turn 17873].
+2. **Saffron Gym**: Northeast sector at (34, 3). Leader Sabrina (Psychic specialist; Marsh Badge & TM46 Psywave). Unlocked after liberating Silph Co.
+3. **Fighting Dojo**: Northeast sector at (30, 3) (adjacent to Saffron Gym). Karate Master challenge for choice of Hitmonlee or Hitmonchan.
+4. **Mr. Psychic's House**: Southeast sector. NPC gives TM29 (Psychic).
+5. **Copycat's House**: Northwest sector.
+6. **Saffron Pokémon Center**: South-central sector at (9, 29) / local (3, 7).
+7. **Saffron Pokémart**: East-central sector.
+
+## Verified Topology & Corridors
+- Western Avenue (row 9, cols 18-26): Unobstructed walkway leading east from West Gatehouse into central Saffron thoroughfare.
+- Silph Co. Entrance Corridor: Row 20 (cols 14-18) leading to main entrance at (18, 21).

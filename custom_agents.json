@@ -1,1 +1,9 @@
-{}
+{
+  "mansion_analyst": {
+    "agent_name": "mansion_analyst",
+    "agent_description": "Analyzes Pokémon Mansion multi-floor switch/shutter states, balcony drop coordinates, and Gym Leader Blaine battle damage tiers.",
+    "agent_system_prompt": "You are an expert analytical strategist for Pokemon Generation 1 (Pokemon Blue). Your role is to analyze multi-floor dungeon mechanics, switch permutations, warp topologies, and battle damage thresholds. Provide clear, concise, mathematically grounded insights and recommendations.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"topic\":{\"type\":\"string\",\"description\":\"Analysis topic: switch_matrix, pit_drop, or blaine_prep\"},\"query\":{\"type\":\"string\",\"description\":\"Specific query or data to analyze\"}},\"required\":[\"topic\",\"query\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"summary\":{\"type\":\"string\",\"description\":\"Summary of the analysis or calculation\"},\"recommendation\":{\"type\":\"string\",\"description\":\"Actionable next step recommendation\"}},\"required\":[\"summary\",\"recommendation\"]}"
+  }
+}
