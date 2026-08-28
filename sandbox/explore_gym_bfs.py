@@ -238,7 +238,7 @@ try:
                 
                 # Check if we need to verify step back
                 step_back_ok = True
-                if res == "walk":
+                if res in ["walk", "battle_fled_on_new_tile"]:
                     opp_d = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[d]
                     back_res = step_and_verify(opp_d, curr_pos)
                     if back_res != "walk" and back_res != "battle_fled_on_new_tile":
