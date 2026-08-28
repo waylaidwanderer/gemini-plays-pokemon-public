@@ -12,54 +12,59 @@ def step(direction):
     time.sleep(0.55)
     return get_pos()
 
-print("Moving to (2, 12)...")
-pos = get_pos()
-if pos == (1, 10):
-    step("Down")
-    step("Down")
-    step("Right")
-elif pos == (2, 12):
-    pass
-else:
-    print("Warning: unexpected starting position", pos)
+print("Current position:", get_pos())
+
+# 1. Walk to switch standing position (2, 12)
+# Currently at (3, 10)
+print("Walking to switch standing position...")
+step("Down") # to (3, 11)
+step("Down") # to (3, 12)
+step("Left") # to (2, 12)
 
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(1.0)
 
-# Press A once
+# 2. Press A once
 print("Pressing A (1)...")
 mgba.press_buttons(["A"])
-time.sleep(1.2)
+time.sleep(1.5)
 scr1 = mgba.take_screenshot()
 print("Saved screenshot 1:", scr1)
 
 # Press A twice
 print("Pressing A (2)...")
 mgba.press_buttons(["A"])
-time.sleep(1.2)
+time.sleep(1.5)
 scr2 = mgba.take_screenshot()
 print("Saved screenshot 2:", scr2)
 
 # Press A three times
 print("Pressing A (3)...")
 mgba.press_buttons(["A"])
-time.sleep(1.2)
+time.sleep(1.5)
 scr3 = mgba.take_screenshot()
 print("Saved screenshot 3:", scr3)
 
 # Press A four times
 print("Pressing A (4)...")
 mgba.press_buttons(["A"])
-time.sleep(1.2)
+time.sleep(1.5)
 scr4 = mgba.take_screenshot()
 print("Saved screenshot 4:", scr4)
 
-# Press A five times
-print("Pressing A (5)...")
-mgba.press_buttons(["A"])
-time.sleep(1.2)
-scr5 = mgba.take_screenshot()
-print("Saved screenshot 5:", scr5)
+# Walk back to Column 3 Row 10
+print("Walking to (3, 10)...")
+step("Down") # to (2, 13)
+step("Right") # to (3, 13)
+step("Right") # to (4, 13)
+step("Up") # to (4, 12)
+step("Up") # to (4, 11)
+step("Left") # to (3, 11)
+step("Up") # to (3, 10)
 
-print("Final position:", get_pos())
+print("Testing Column 3 Row 9...")
+mgba.press_buttons(["Up"])
+time.sleep(0.55)
+print("Final Position:", get_pos())
+mgba.take_screenshot()
