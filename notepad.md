@@ -2349,7 +2349,7 @@
 - Hallway Row 16: (1..5, 16) open floor leading to southwest item
 - Note: Southwest Wing (cols 0-9, rows 8-17) is isolated by walls/rubble and has no passage to the Northeast Wing.
 
-### Northeast & Eastern Sector (Accessible via 2F East Stairs at (25, 10))
+### Northeast & Eastern Sector (Accessible via 2F Northeast Stairs at (6, 1))
 - Stairs down to 2F: (6, 1) [Arrival on 3F at (6, 2)]
 - Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
 - Balcony Drop-off Pits (Row 14):
