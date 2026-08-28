@@ -64,67 +64,39 @@ def safe_step(direction, expected_coords=None, max_attempts=15):
     print(f"ERROR: Could not step {direction} from {old_pos}")
     return False
 
-# Starting at (1, 10) on 3F West (State A)
-print("Starting definitive Mansion solve from (1, 10) on 3F West...")
+# Starting at (2, 11) on 3F West (State B)
+print("Starting definitive Mansion solve from current (2, 11) on 3F West...")
 
-# 1. Walk from (1, 10) to the switch standing position (2, 12)
-steps_to_switch = [
-    ("Down", (1, 11)),
-    ("Down", (1, 12)),
-    ("Right", (2, 12)),
-]
-print("Walking to switch standing position on 3F West...")
-for d, c in steps_to_switch:
-    if not safe_step(d, c):
-        print("Failed to reach switch")
-        exit(1)
-        
-# 2. Face UP and toggle the Mewtwo switch to State B
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(1.0)
-
-print("Toggling switch to State B with exactly 4 slow A-presses...")
-mgba.press_buttons([
-    "A", "sleep 1500",
-    "A", "sleep 1500",
-    "A", "sleep 1500",
-    "A", "sleep 1500"
-])
-time.sleep(7.0)
-print("Switch toggle complete! Player pushed to:", get_pos())
-
-# 3. Walk Left on Row 13 to Column 1
-# Note: Since the gate at (2, 12) is now closed in State B, we are at (2, 13) or (3, 13).
-# We walk: Left to (1, 13)
-pos = get_pos()
-while pos[0] > 1:
-    if not safe_step("Left"):
-        print("Failed to walk Left on Row 13")
-        exit(1)
-    pos = get_pos()
+# 1. Step Left to Column 1 Row 11
+if not safe_step("Left", (1, 11)):
+    print("Failed to step Left to Column 1")
+    exit(1)
     
-# 4. Walk Up Column 1 to Row 6 (crossing open gate at (1, 9) in State B)
-for y in range(12, 5, -1):
+# 2. Walk Up Column 1 to Row 6 (crossing open gate at (1, 9) in State B)
+for y in range(10, 5, -1):
     if not safe_step("Up", (1, y)):
+        print("Failed to go Up Column 1")
         exit(1)
         
-# 5. Walk Right along Row 6 to Column 20
+# 3. Walk Right along Row 6 to Column 20
 for x in range(2, 21):
     if not safe_step("Right", (x, 6)):
+        print("Failed to go Right on Row 6")
         exit(1)
         
-# 6. Walk Up Column 20 to Row 3
+# 4. Walk Up Column 20 to Row 3
 for y in range(5, 2, -1):
     if not safe_step("Up", (20, y)):
+        print("Failed to go Up Column 20")
         exit(1)
         
-# 7. Walk Right along Row 3 to Column 26
+# 5. Walk Right along Row 3 to Column 26
 for x in range(21, 27):
     if not safe_step("Right", (x, 3)):
+        print("Failed to go Right on Row 3")
         exit(1)
         
-# 8. Drop through pitfall to 1F East
+# 6. Drop through pitfall to 1F East
 print("Stepping Down to drop through the pitfall...")
 if not safe_step("Down"):
     print("Failed to drop through pitfall")
@@ -133,13 +105,13 @@ time.sleep(2.5)
 pos = get_pos()
 print("Landed on 1F East inside fenced room:", pos)
 
-# 9. Step Down to (26, 5) or similar if needed to exit landing tile
+# 7. Step Down to (26, 5) or similar if needed to exit landing tile
 if pos[1] == 4:
     if not safe_step("Down"):
         print("Failed to step Down from landing tile")
         exit(1)
         
-# 10. Walk to Column 22 Row 2 and warp DOWN to B1F East
+# 8. Walk to Column 22 Row 2 and warp DOWN to B1F East
 pos = get_pos()
 while pos[0] > 22:
     if not safe_step("Left"):
@@ -156,7 +128,7 @@ time.sleep(2.0)
 pos = get_pos()
 print("Position on B1F East after warping:", pos)
 
-# 11. Walk to Column 19 Row 5 via Row 4 to bypass Row 5 Column 20-21 closed gates
+# 9. Walk to Column 19 Row 5 via Row 4 to bypass Row 5 Column 20-21 closed gates
 if pos[1] == 2:
     if not safe_step("Down"):
         exit(1)
@@ -172,12 +144,12 @@ for x in range(20, 18, -1):
 if not safe_step("Down", (19, 5)):
     exit(1)
     
-# 12. Walk straight Left on Row 5 to Column 1 (Secret Key room)
+# 10. Walk straight Left on Row 5 to Column 1 (Secret Key room)
 for x in range(18, 0, -1):
     if not safe_step("Left", (x, 5)):
         exit(1)
         
-# 13. Retrieve the Secret Key!
+# 11. Retrieve the Secret Key!
 pos = get_pos()
 if pos == (1, 5):
     print("Aligning UP towards the Secret Key...")
