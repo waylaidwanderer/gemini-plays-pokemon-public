@@ -1,26 +1,12 @@
-# Pok�mon Mansion 1F - Layout & Exploration
+# Pokémon Mansion 1F - Map & Navigation Log
 
-## Overview
-- First floor of the ruined Pok�mon Mansion in northwest Cinnabar Island.
-- Features red carpet grand entrance, marble floors, Mewtwo statue switches, ruined walls, and an enclosed eastern wing accessible only by dropping from 3F.
-
-## Layout & Landmarks
-
-### Main Sector (West & Central)
-- Entrance Mat: (4..7, 26..27) [Door to Cinnabar Island at (4..5, 27)]
-- Central Grand Hallway: Columns 4-7, rows 14-27
-- Decorative Displays / Pillars: (3, 24) and (8, 24)
-- Stairs up to 2F: (5, 10) [at north end of central hallway]
-- Stairs down to B1F: (7, 10)
-
-### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
-- Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
-- Scientist NPC: (17, 17) [Scientist Ted: Electrode Lv 29, Weezing Lv 29; Defeated Turn 18533]
-- Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
-- Corridors: Row 14 (cols 12-17), Row 16 (cols 19-28), Row 20-21 (cols 12-23), Row 24-26 (cols 12-23), Column 12 (rows 14-26), Column 20 (rows 16-24), Column 25 (rows 10-23)
-- Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
-- Northern Chamber: Rows 10-14, cols 22-26 (contains B1F descending staircase at col 24/25)
-- Shutter Gate (Northeast): (24..25, 13)
-
-## Progression & Discoveries
-- Enclosed sector fully mapped (rows 10-27, cols 12-28).
+## Layout & Spatial Boundaries (Verified State A)
+- **Entrance Warp:** Entering from Cinnabar Island at `(6, 3)` warps the player to `(5, 27)` inside 1F West. Stepping DOWN on `(5, 27)` inside 1F West exits the Mansion back to Cinnabar Island at `(6, 3)`.
+- **North-South Shutter Gates (Row 8/9):** Completely CLOSED across Columns 5, 6, 7 in State A on 1F West, preventing vertical traversal from Row 7 to Row 8 on the West side.
+- **Solid Horizontal Wall (Row 9, Columns 3-9):** A solid permanent horizontal wall separates the southern hallway (Row 10-14) from the northern hallway (Row 5-8) on 1F West. This blocks vertical traversal on Columns 3, 4, 5, 6, 7, 8, and 9, meaning vertical crossing can only occur on Columns 10, 11, 12, or 13, which are completely open floor.
+- **Solid Separation Wall (Column 18):** Column 18 is a solid permanent wall separating 1F West from 1F East, blocking all horizontal traversal between the two halves of the floor.
+- **Warp to 2F West:** The staircase at `(5, 10)` on 1F West warps the player UP to 2F West. This staircase is accessed from the South side (standing at `(6, 10)` and stepping LEFT onto `(5, 10)`).
+- **Horizontal Openness (Row 7):** Row 7 on 1F West is completely open horizontally from Column 5 to Column 17.
+## State-Dependent Spatial Barriers (Verified)
+- **Row 5 Column 21 Shutter Gate (1F East):** CLOSED in State A, OPEN in State B (verified Turns 56673-56699).
+- **B1F East Stairs Gate at (22, 2) (1F East):** CLOSED in State A, OPEN in State B (verified Turn 56693).

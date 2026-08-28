@@ -1,55 +1,33 @@
-# Main Progression & Knowledge Index
+# Pokémon Blue - Adventure High-Level Index & Status
 
-## Current Status
-- Player: BLUE
-- Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 2F (12, 11) [Turn 18797]; In battle against wild Koffing; proceeding north along col 12 to 3F stairs (6, 1).
-## Notepads Index
-- `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
-- `Quests`: Story progression checklist and completed badge milestones
-- `Locations/PalletTown`: Points of interest, NPC dialogues, items
-- `Locations/Route1`: Route 1 layout, points of interest, wild encounters
-- `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/ViridianForest`: Viridian Forest layout, Bug Catchers, item locations
-- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
-- `Locations/Route3`: Route 3 layout, trainers, wild encounters
-- `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
-- `Locations/MtMoonB1F`: Mt. Moon B1F tunnels, ladder transitions
-- `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
-- `Locations/Route4`: Route 4 layout, ledges, wild encounters
-- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
-- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
-- `Locations/Route25`: Route 25 layout, trainers, Bill interactions
-- `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
-- `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
-- `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
-- `Locations/VermilionCity`: Vermilion City layout, S.S. Anne port, Fan Club, Gym
-- `Locations/SSAnne1F`: S.S. Anne 1F layout, cabins, Gentleman trainers
-- `Locations/SSAnne2F`: S.S. Anne 2F layout, Rival RED battle, Captain's Quarters
-- `Locations/SSAnneB1F`: S.S. Anne B1F layout, Sailors, Fishermen, items
-- `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
-- `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pokémon Center, Jr. Trainer Carol battle
-- `Locations/RockTunnel1F`: Rock Tunnel 1F layout, standardized ladder matrix, trainers
-- `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladder connectivity matrix, exit ladder
-- `Locations/LavenderTown`: Lavender Town layout, buildings, Pokémon Tower, Name Rater, Pokémart
-- `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
-- `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
-- `Locations/PokemonTower1F`: Pokémon Tower 1F layout, mourning NPCs, ascending stairs
-- `Locations/PokemonTower2F`: Pokémon Tower 2F layout, Rival RED battle, Channeler dialogue
-- `Locations/PokemonTower3F`: Pokémon Tower 3F layout, Channelers, ascending stairs
-- `Locations/PokemonTower4F`: Pokémon Tower 4F layout, items, Channelers
-- `Locations/PokemonTower5F`: Pokémon Tower 5F layout, Purified Zone healing tile, Channelers
-- `Locations/PokemonTower6F`: Pokémon Tower 6F layout, Ghost Marowak battle, stairs
-- `Locations/PokemonTower7F`: Pokémon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
-- `Locations/Route12`: Route 12 layout, Gatehouse, Sleeping Snorlax roadblock
-- `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Mansion, Game Corner
-- `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, Grunts, hidden stairs
-- `Locations/RocketHideoutB2F`: Rocket Hideout B2F conveyor maze solutions, items, elevator
-- `Locations/RocketHideoutB3F`: Rocket Hideout B3F layout, Grunts, Lift Key recovery
-- `Locations/RocketHideoutB4F`: Rocket Hideout B4F layout, Giovanni boss battle, Silph Scope
-- `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
-- `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
+## Global Badges & Progression Status
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+- **Outstanding Gyms:**
+  - Cinnabar Gym (Blaine) - Volcano Badge (target #6) - Locked.
+  - Fuchsia Gym (Koga) - Soul Badge (target #7) - Accessible.
+  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Locked.
 
-- `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
-- `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
+## Saffron City Gates & Gym Status
+- **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
+- **Saffron City Gates & Gym:** Permanently unlocked and cleared! Sabrina is defeated and Marsh Badge is possessed.
+
+## Notepads Directory
+### Locations & Overworld Mapping
+- `Locations/PalletTown_And_Route1` - Pallet Town, Professor Oak's Lab, Daisy's House.
+- `Locations/ViridianCity` - Viridian City, Pokémon Center, Poké Mart.
+- `Locations/PewterCity` - Pewter City, Gym Leader Brock.
+- `Locations/CeruleanCity` - Cerulean City, Gym Leader Misty, Burgled House.
+- `Locations/VermilionCity` - Vermilion City, Gym Leader Lt. Surge, S.S. Anne.
+- `Locations/LavenderTown` - Lavender Town, Mr. Fuji's House.
+- `Locations/CeladonCity` - Celadon City, Rocket Hideout, Gym Leader Erika.
+- `Locations/FuchsiaCity` - Fuchsia City, Gym, Safari Zone, Warden's House.
+- `Locations/FuchsiaGym` - Fuchsia Gym Invisible Wall Maze, remaining trainers.
+- Routes: `Route2`, `Route3`, `Route4`, `Route5`, `Route6`, `Route7`, `Route8`, `Route9`, `Route10`, `Route12`, `Route13`, `Route14`, `Route15`.
+
+### Progression, Battle, & Mechanics
+- `Progression_And_Party_Stats` - Current Party (SHELLBY Lv 62), Badges, Key Items, Inventory.
+- `Mechanics/UI_And_Border_Rendering` - Tile graphics, coordinate overlays.
+- `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
+
+## Current Party Status (Blastoise Solo Runner)
+- **SHELLBY** (Blastoise) - Level 62, healthy. Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.

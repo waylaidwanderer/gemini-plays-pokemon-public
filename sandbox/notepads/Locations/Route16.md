@@ -1,31 +1,19 @@
-# Route 16 - Points of Interest & Topology
+# Route 16 Gatehouse - Verified Layout & Coordinates
 
-## Connections
-- East: Celadon City (connects directly from Celadon City (0, 18) -> Route 16 (39, 10)) [Verified Turn 13886]
-- West: Route 17 / Cycling Road (southern path blocked by Snorlax; northern path bypasses gatehouse to Secret House)
+## Overview
+Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling Road (West) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
 
-## Topography & Verified Encounter Zones (Turn 14160)
-- **Southern Thoroughfare (rows 10-11, cols 27-39)**:
-  - Wide paved road connecting Celadon City to the Route 16 Gatehouse.
-  - Signpost at (27, 11).
-  - Sleeping Snorlax at (26, 10) [Awakened with Poké Flute & Defeated Turn 15395; Cycling Road open!]
-- **Northern Cut Bypass & Obstacle**:
-  - Cut bush located at `(34, 9)` [Clearing allows entry to northern corridor].
-  - Note: Cut bush respawns on map reload/transitions.
-- **Northern Paved Path (rows 6-7, cols 24-35)**:
-  - Light green path with grey dash texture (no wild encounters).
-- **Tall Grass Patches (Wild Encounter Zones)**:
-  - **Southern Grass Strip**: Row 8, cols 24-34 (verified tall grass with clover/crosshatch texture).
-  - **Northern Grass Strip**: Rows 2-3, cols 24-27 (tall grass patch north of gatehouse entrance).
-  - **West Grass Corner**: Rows 6-7, cols 24-25.
-  - Wild encounters: Doduo, Spearow, Fearow, Rattata, Raticate.
-- **Route 16 Gatehouse Upper Corridor**:
-  - East Entrance Door: Located at `(24, 2)`.
-  - Interior Corridor: (0..7, 2) with guard at (4, 3).
-  - West Exit Door: Located at `(0, 2)` -> warps to Route 16 West exterior at `(17, 4)`.
-- **Route 16 West Secluded Sector (rows 4-6, cols 0-17)**:
-  - Path leading from gatehouse west door (17, 4) to Secret House door at `(7, 5)`.
-- **Secret House**:
-  - Exterior Door: Located at `(7, 5)`.
-  - Secluded Girl NPC: Located at `(2, 3)`. Dialogue: "Oh, you found my secret retreat! Please don't tell anyone I'm here. I'll make it up to you with this!"
-  - Reward: **HM02 (FLY)** [Obtained Turn 13928]!
+## First Floor (1F) - West Room
+- **West Doorway:** Located at Column 0. Connects to Route 16 overworld/Cycling Road. Requires a Bicycle to exit (the warp is disabled/solid if you do not possess a Bicycle in your bag).
+- **Stairs to 2F:** Located at `(12, 1)`. Walking UP onto this tile warps the player to the 2F room at `(12, 1)` (automatic step down to `(12, 2)`).
+- **Walkable Corridor:** Row 5 is completely open horizontally from Column 0 to Column 19. Rows 2-3 are blocked by solid walls at columns 1-9.
+
+## First Floor (1F) - East Room
+- **East Doorway:** Located on Row 7 at columns `(16, 7)` and `(17, 7)` (red carpet/doormat tiles). Walking DOWN (south) on these tiles warps the player directly onto the Celadon City overworld at `(10, 13)` (stepping down to `(10, 14)`).
+- **Stairs to 2F:** Located at `(12, 1)`.
+- **Walkable Corridor:** Row 5 is completely open horizontally. Rows 2-3 are blocked by solid counters.
+
+## Second Floor (2F)
+- **Stairs (To 1F West Room):** Located at `(1, 1)`. Walking UP onto this tile warps the player down to the 1F West Room at `(1, 1)`.
+- **Stairs (To 1F East Room):** Located at `(12, 1)`. Walking UP onto this tile warps the player down to the 1F East Room.
+- **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."

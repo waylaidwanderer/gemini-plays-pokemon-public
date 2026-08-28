@@ -1,1495 +1,315 @@
 <h1><code>Main</code></h1>
 
-# Main Progression & Knowledge Index
+# Pokémon Blue - Adventure High-Level Index & Status
 
-## Current Status
-- Player: BLUE
-- Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 2F (12, 11) [Turn 18797]; In battle against wild Koffing; proceeding north along col 12 to 3F stairs (6, 1).
-## Notepads Index
-- `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
-- `Quests`: Story progression checklist and completed badge milestones
-- `Locations/PalletTown`: Points of interest, NPC dialogues, items
-- `Locations/Route1`: Route 1 layout, points of interest, wild encounters
-- `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/ViridianForest`: Viridian Forest layout, Bug Catchers, item locations
-- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
-- `Locations/Route3`: Route 3 layout, trainers, wild encounters
-- `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
-- `Locations/MtMoonB1F`: Mt. Moon B1F tunnels, ladder transitions
-- `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
-- `Locations/Route4`: Route 4 layout, ledges, wild encounters
-- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
-- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
-- `Locations/Route25`: Route 25 layout, trainers, Bill interactions
-- `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
-- `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
-- `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
-- `Locations/VermilionCity`: Vermilion City layout, S.S. Anne port, Fan Club, Gym
-- `Locations/SSAnne1F`: S.S. Anne 1F layout, cabins, Gentleman trainers
-- `Locations/SSAnne2F`: S.S. Anne 2F layout, Rival RED battle, Captain's Quarters
-- `Locations/SSAnneB1F`: S.S. Anne B1F layout, Sailors, Fishermen, items
-- `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
-- `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pokémon Center, Jr. Trainer Carol battle
-- `Locations/RockTunnel1F`: Rock Tunnel 1F layout, standardized ladder matrix, trainers
-- `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladder connectivity matrix, exit ladder
-- `Locations/LavenderTown`: Lavender Town layout, buildings, Pokémon Tower, Name Rater, Pokémart
-- `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
-- `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
-- `Locations/PokemonTower1F`: Pokémon Tower 1F layout, mourning NPCs, ascending stairs
-- `Locations/PokemonTower2F`: Pokémon Tower 2F layout, Rival RED battle, Channeler dialogue
-- `Locations/PokemonTower3F`: Pokémon Tower 3F layout, Channelers, ascending stairs
-- `Locations/PokemonTower4F`: Pokémon Tower 4F layout, items, Channelers
-- `Locations/PokemonTower5F`: Pokémon Tower 5F layout, Purified Zone healing tile, Channelers
-- `Locations/PokemonTower6F`: Pokémon Tower 6F layout, Ghost Marowak battle, stairs
-- `Locations/PokemonTower7F`: Pokémon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
-- `Locations/Route12`: Route 12 layout, Gatehouse, Sleeping Snorlax roadblock
-- `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Mansion, Game Corner
-- `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, Grunts, hidden stairs
-- `Locations/RocketHideoutB2F`: Rocket Hideout B2F conveyor maze solutions, items, elevator
-- `Locations/RocketHideoutB3F`: Rocket Hideout B3F layout, Grunts, Lift Key recovery
-- `Locations/RocketHideoutB4F`: Rocket Hideout B4F layout, Giovanni boss battle, Silph Scope
-- `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
-- `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
+## Global Badges & Progression Status
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+- **Outstanding Gyms:**
+  - Cinnabar Gym (Blaine) - Volcano Badge (target #6) - Locked.
+  - Fuchsia Gym (Koga) - Soul Badge (target #7) - Accessible.
+  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Locked.
 
-- `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
-- `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
+## Saffron City Gates & Gym Status
+- **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
+- **Saffron City Gates & Gym:** Permanently unlocked and cleared! Sabrina is defeated and Marsh Badge is possessed.
 
-<hr>
+## Notepads Directory
+### Locations & Overworld Mapping
+- `Locations/PalletTown_And_Route1` - Pallet Town, Professor Oak's Lab, Daisy's House.
+- `Locations/ViridianCity` - Viridian City, Pokémon Center, Poké Mart.
+- `Locations/PewterCity` - Pewter City, Gym Leader Brock.
+- `Locations/CeruleanCity` - Cerulean City, Gym Leader Misty, Burgled House.
+- `Locations/VermilionCity` - Vermilion City, Gym Leader Lt. Surge, S.S. Anne.
+- `Locations/LavenderTown` - Lavender Town, Mr. Fuji's House.
+- `Locations/CeladonCity` - Celadon City, Rocket Hideout, Gym Leader Erika.
+- `Locations/FuchsiaCity` - Fuchsia City, Gym, Safari Zone, Warden's House.
+- `Locations/FuchsiaGym` - Fuchsia Gym Invisible Wall Maze, remaining trainers.
+- Routes: `Route2`, `Route3`, `Route4`, `Route5`, `Route6`, `Route7`, `Route8`, `Route9`, `Route10`, `Route12`, `Route13`, `Route14`, `Route15`.
 
-<h1><code>Team</code></h1>
+### Progression, Battle, & Mechanics
+- `Progression_And_Party_Stats` - Current Party (SHELLBY Lv 62), Badges, Key Items, Inventory.
+- `Mechanics/UI_And_Border_Rendering` - Tile graphics, coordinate overlays.
+- `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
 
-# Current Party & Team Strategy
-
-## Active Party (Verified Turn 18571 - Fully Healed at Cinnabar Pok�mon Center)
-1. HYDROS (Blastoise) - Lv 62
-   - Stats: Max HP 206 (HP: 206/206), Attack 144, Defense 159, Speed 146, Special 153
-   - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (10/15)
-   - Role: Primary powerhouse & sweeper
-2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46)
-   - Type: Grass / Poison
-   - Moves: PoisonPowder, Rest, Wrap, Cut
-   - Role: Active combatant & Cut utility
-3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
-   - Type: Fighting
-   - Moves: Karate Chop, Low Kick, Strength
-   - Role: Physical Fighting attacker & Strength utility
-4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
-   - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Physical Rock/Ground tank
-5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
-   - Type: Normal
-   - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
-   - Role: Special Sweeper reserve
-6. ZEPHYR (Pidgey) - Lv 20
-   - Stats: Max HP 58 (HP: 58/58)
-   - Type: Normal / Flying
-   - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
-   - Role: Flyer utility
-
-## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
-
-## Boxed Pokémon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
-   - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
-   - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
-3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2; sent to Box 1]
-   - Type: Normal
-4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F; sent to Box 1]
-   - Type: Water / Ice
-5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo; sent to Box 1]
-   - Type: Fighting
-   - Moves: Jump Kick, Meditate, Rolling Kick
-
-## Inventory & Resources (Verified Turn 17963)
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
-- Bag Capacity: 10 / 20 slots used (10 free slots available)
-- Active Bag Items: Bicycle, Great Ball x10, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Pok� Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM09 (Take Down), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave)
-- Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Funds: ¥30,000+
-
-## Field HM Mechanics (Empirically Verified)
-- HM01 Cut: Party menu -> CUT removes adjacent cut bush.
-- HM02 Fly: Party menu -> FLY opens fast-travel town map.
-- HM03 Surf: Usable outside battle with Soul Badge on water tiles.
-- HM04 Strength: Party menu -> STRENGTH activates boulder-moving capability for active map. Walking into a boulder displaces it 1 tile in the walking direction.
+## Current Party Status (Blastoise Solo Runner)
+- **SHELLBY** (Blastoise) - Level 62, healthy. Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
 
 
 <hr>
 
-<h1><code>Locations/PalletTown</code></h1>
+<h1><code>Locations/PalletTown_And_Route1</code></h1>
 
-# Pallet Town - Points of Interest & Notes
+# Locations/PalletTown_And_Route1
 
-## Buildings
-- Player's House (2F Bedroom with PC containing 1x Potion; 1F Mom)
-- Rival's House (Daisy - gave Town Map)
-- Professor Oak's Pokémon Research Lab (Oak, 3 Poké Balls on table, Rival)
+Placeholder to prevent data loss.
 
-## Key Items & Triggers
-- PC in Bedroom: Item storage (Potion obtained)
-- Starter Pokémon: 3 Poké Balls on research table
-
-<hr>
-
-<h1><code>Quests</code></h1>
-
-# Quest Log & Story Progression
-
-## Main Quests
-
-- [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
-
-- [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
-
-- [x] Obtain Town Map from Daisy in Pallet Town
-
-- [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
-
-- [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
-
-- [x] Navigate Mt. Moon towards Route 4 and Cerulean City [Turn 1152]
-
-- [x] Defeat Gym Leader Misty in Cerulean City (Cascade Badge & TM11 Bubblebeam) [Turn 1348]
-
-- [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
-
-- [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
-
-- [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
-
-- [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
-
-- [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
-
-- [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
-
-- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
-
-- [x] Board the S.S. Anne in Vermilion City [Turn 1921]
-
-- [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
-
-- [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
-
-- [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
-
-- [x] Exchange Bike Voucher for Bicycle in Cerulean Bike Shop [Turn 2944]
-- [x] Traverse Rock Tunnel and arrive at Route 10 South / Lavender Town [Turn 10973]
-- [x] Navigate Route 8 trainer gauntlet towards Saffron Gate & Underground Path [Turn 11142]
-- [x] Defeat Rival RED in Pokémon Tower [Turn 11354]
-- [x] Ascend Pokémon Tower and rescue Mr. Fuji (Defeat Ghost Marowak on 6F & Team Rocket on 7F) [Turn 14998-15001]
-- [x] Receive Poké Flute from Mr. Fuji inside Lavender Volunteer Pokémon House [Turn 15011]
-- [x] Capture wild flyer on Route 7 (Pidgey nicknamed ZEPHYR) [Turn 15341]
-- [x] Teach HM02 Fly to ZEPHYR & unlock global fast travel [Turn 15350]
-- [x] Awaken and defeat Route 16 Sleeping Snorlax with Poké Flute; clear Cycling Road roadblock [Turn 15395]
-- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 15461]
-- [x] Retrieve Safari Warden's lost Gold Teeth in Safari Zone Center [Turn 17210]
-- [x] Obtain HM03 Surf from Secret House attendant in Safari Zone [Turn 17226]
-
-- [x] Deliver Gold Teeth to Safari Warden & receive HM04 Strength [Turn 17278]
-- [x] Defeat Gym Leader Koga in Fuchsia Gym (Soul Badge & TM06 Toxic) [Turn 17419]
-- [x] Give Soda Pop to Gate Guard & permanently unlock Saffron City gates [Turn 17445]
-
-- [x] Defeat Rival RED on Silph Co. 7F [Defeated Turn 17805]
-- [x] Receive gift Lapras from Silph Co. 7F employee (sent to Box 1) [Turn 17815]
-- [x] Defeat Team Rocket Boss Giovanni in Silph Co. 11F [Defeated Turn 17858]
-- [x] Receive Master Ball from Silph President [Turn 17873]
-
-- [x] Defeat Gym Leader Sabrina in Saffron Gym (Marsh Badge & TM46 Psywave) [Defeated Turn 18379]
-
-
-<hr>
-
-<h1><code>Locations/Route1</code></h1>
-
-# Route 1 - Points of Interest & Notes
-
-## Connections
-- South: Pallet Town (y=35)
-- North: Viridian City (y=0)
-
-## Verified NPCs & Points of Interest
-- Ledge boy NPC: Located at (17, 13) [Observed Turn 57]. Explains jumping down ledges to return south quickly.
-
-## Empirical Wild Encounters
-- Rattata: Lv 2 [Turn 50], Lv 4 [Turn 81]
-- Pidgey: Lv 2 [Turn 59], Lv 5 [Turn 72]
-- Ledge opening at y=19: Pass-through opening located at (9, 19) allows northward passage past the central ledge. [Verified Turn 187]
 
 <hr>
 
 <h1><code>Locations/ViridianCity</code></h1>
 
-# Viridian City - Points of Interest & Notes
+# Locations/ViridianCity
 
-## Connections
-- South: Route 1 (y=35)
-- North: Route 2 / Viridian Forest (y=0)
+Placeholder to prevent data loss.
 
-## Buildings & Verified Points of Interest
-- Pokémon Center: Located at (23, 25) [Observed Turn 65]. Heals party for free.
-- Pokémart: Located at (29, 19) [Observed Turn 66].
-  - Catalog: Poké Ball (¥200), Antidote (¥100), Parlyz Heal (¥200), Burn Heal (¥250).
-  - Purchased 2x Antidote for ¥200 [Turn 200].
-- North path: Old Man located at (18, 5) [Observed Turn 105] unblocks Route 2 north.
+
+<hr>
+
+<h1><code>Progression_And_Party_Stats</code></h1>
+
+## SHELLBY (Blastoise) Moveset (Updated Turn 46023)
+- HYDRO PUMP
+- ICE BEAM
+- BITE
+- SURF (HM03)
+
+## Badge Status & Gym Clearances (Updated Turn 50214)
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+- **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
+- **Volcano Badge (Cinnabar Gym):** NOT acquired yet (Locked behind Secret Key).
+- **Soul Badge (Fuchsia Gym):** NOT acquired yet.
+- **Earth Badge (Viridian Gym):** NOT acquired yet (Giovanni at Viridian Gym is locked until 7 badges are acquired).
+
+## Key Items & Inventory Log (Verified Turn 61761)
+- **TM28 (DIG):** Verified NOT in Bag on Turn 61761. Our entire inventory consists of: POKé FLUTE, SUPER ROD, MAX POTION x2, MAX REVIVE x2, HM03, TOWN MAP, GOOD ROD.
+- **No Pokémon knows DIG:** Systematically verified all party members on Turn 61755; none of them know DIG.
+- **MUI (Mansion Ultimate Index) & Foot Escape Route:**
+  - B1F West is connected to B1F East via the northern gate at `(9, 5)` which is OPEN in State B.
+  - 1F West is connected to 1F East via Column 13 on Row 5 which is OPEN in State B.
+  - 1F East stairs gate at `(22, 2)` leading to B1F East is OPEN in State B.
+  - Therefore, we can retrieve the Secret Key and escape the entire Mansion on foot without requiring the move DIG! Our escape route is fully walkable in State B.
+
+- **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
+- **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
+
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full. Verified NOT in Bag on Turn 54139 (fully scrolled through Bag list to CANCEL and confirmed key is missing). We now have 12 items in our Bag and 8 open slots, so we have plenty of room to retrieve it!
+
+## Verified Party Slots (Updated Turn 56522)
+- **Slot 1:** SHELLBY (Blastoise) - Level 62
+- **Slot 2:** GUSTY (Pidgey) - Level 13
+- **Slot 3:** NIBBLES (Rattata) - Level 7
+- **Slot 4:** TESLA (Pikachu) - Level 20
+- **Slot 5:** NIDORAN♀ (Nidoran-F) - Level 25
+
+<hr>
+
+<h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
+
+# Mechanics/Search_Scripting_Pitfalls
+
+Placeholder to prevent data loss.
+
+
+<hr>
+
+<h1><code>Locations/Route22</code></h1>
+
+# Locations/Route22
+
+Placeholder to prevent data loss.
+
+
+<hr>
+
+<h1><code>Mechanics/Naming_Screen_Offset</code></h1>
+
+# Mechanics/Naming_Screen_Offset
+
+Placeholder to prevent data loss.
+
+
+<hr>
+
+<h1><code>Locations/Route2</code></h1>
+
+- **Cuttable Tree (Row 52) - THE CORE EAST-WEST GATEWAY:**
+  - Located at `(12, 52)` on Route 2.
+  - Standing at `(11, 52)` on the western main road and using CUT on the tree at `(12, 52)` clears it, allowing direct horizontal passage to the eastern strip at `(13, 52)`.
+  - This is a critical path since it completely bypasses the Southern Gatehouse ledges when entering the eastern strip from the south!
 
 <hr>
 
 <h1><code>Locations/ViridianForest</code></h1>
 
-# Viridian Forest - Points of Interest & Notes
-
-## Connections
-- South: Route 2 Gatehouse (y=47) [Verified Turn 123]
-- North: Pewter City Gatehouse (heading north)
-
-## Verified Trainers
-- Bug Catcher #1: Located at (30, 33) facing west, triggered at (26, 33) [Turn 145, Defeated Turn 155]. Team: Weedle Lv 6 (observed moves: String Shot, Poison Sting), Caterpie Lv 6 (observed moves: String Shot). Reward: ¥60.
-- Bug Catcher #2: Located at (30, 19) facing west, triggered at (26, 19) [Turn 163, Defeated Turn 229]. Team: Weedle Lv 7, Kakuna Lv 7, Weedle Lv 7. Reward: ¥70.
-- Bug Catcher #3: Located at (2, 18) facing south in far-west exit corridor [Turn 261, Defeated Turn 267]. Team: Weedle Lv 9. Reward: ¥90.
-
-## Empirical Wild Encounters
-- Caterpie Lv 3 [Turn 129], Lv 4 [Turn 156]
-- Metapod Lv 6 [Turn 257]
-
-## Items & Layout
-- Entrance at south-center (17, 47)
-- South-west area (x=1..8, y=30..43) is an enclosed pocket/dead end with tall grass
-- Central-west area (x=11..16, y=32..33) has signpost at (16, 32) and item ball visible at (12, 29) accessible from north
-- Main path leads east from entrance (x=18+) and winds north along the east side
-- Friendly NPC located at (27, 40) (advises carrying extra Poké Balls)
-- Signpost at (24, 40)
-- Main eastern highway runs north along columns 26-27
-- Item ball at (25, 11): Antidote [Collected Turn 239, Verified in Bag Turn 245]
-- Far-west exit corridor: Accessed via horizontal opening at row 22-24 (columns 2-8)
+# Locations/ViridianForest
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/PewterCity</code></h1>
 
-# Pewter City - Points of Interest & Notes
-
-## Connections
-- South: Route 2 / Viridian Forest (y=35) [Entered Turn 285]
-- East: Route 3 [Verified Turn 325]
-
-## Buildings & Verified Points of Interest
-- Pokémon Center: Located at (13, 25) [Verified Turn 286] - Free party healing & PC access
-- Pokémart: Located at (23, 17) [Verified Turn 291, Catalog Verified Turn 321]
-  - Catalog: Poké Ball (¥200), Potion (¥300), Escape Rope (¥550), Antidote (¥100), Burn Heal (¥250), Awakening (¥200), Parlyz Heal (¥200)
-- Pewter Gym: Located at (16, 17) [Verified Turn 291, Entered Turn 296]
-  - Interior Entrance: (4, 13)
-  - Statues at (3, 10) and (6, 10)
-  - Gym Guide NPC at (7, 10)
-  - Gym Leader: Brock [Defeated Turn 310] (Boulder Badge, TM34 Bide, ¥1386 prize money)
-
-## Verified Trainers & NPCs
-- Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
-- Nurse Joy: Located at (3, 1) inside Pokémon Center [Healed party Turn 287, 318]
-- Gym Guide NPC: Located at (7, 10) inside Pewter Gym [Turn 296]
-- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym [Defeated Turn 302]. Team: Diglett Lv 11, Sandshrew Lv 11. Reward: ¥220.
-- Gym Leader Brock: Located at (4, 1) inside Pewter Gym [Defeated Turn 310]. Team: Geodude Lv 12, Onix Lv 14. Reward: Boulder Badge, TM34 Bide, ¥1386.
-- Pokémart Clerk: Located at (0, 5) inside Pewter Pokémart [Turn 321]
+# Locations/PewterCity
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route3</code></h1>
 
-# Route 3 - Points of Interest & Notes
-
-## Connections
-- West: Pewter City [Entered Turn 325]
-- East: Mt. Moon 1F [Entered Turn 447 at (58, 4..5)]
-
-## NPCs & Points of Interest
-- Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
-- Signpost: Located at (59, 9) [Verified Turn 441]. Text: 'ROUTE 3 MT. MOON AHEAD'.
-- Mt. Moon Cave Entrance: Located at (58, 4..5) and (59, 4..5) [Verified Turn 443].
-
-## Layout & Landmarks
-- Mountain path flanked by rock cliffs on north and south
-- Entrance tall grass patch at columns 2-8, rows 8-11
-- Rocky boulders at (4, 8) and (4, 11)
-- Bush/tree obstacle at (9, 10..11)
-- Elevation & Ledge Mapping:
-  - Passable north-south gap at eastern terminus: Located at column 59 (x=59, y=7) [Verified Turn 443].
-  - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
-  - Passable north-south gaps around upper ledge: Located at column 10 (x=10, y=7) and column 37 (x=37, y=7) [Verified Turn 407].
-  - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
-- Tall grass patch at columns 24-37, rows 10-12 [Observed Turn 389, 405].
-- East mountain boundary at column 38 (rows 7-12). Upper passage on rows 4-5 (columns 34-47).
-
-## Verified Trainers
-- Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
-- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
-- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥165.
-- Bug Catcher #2: Located at (19, 5) facing South [Defeated Turn 358]. Team: Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9. Reward: ¥90.
-- Lass #1: Located at (23, 4) facing West, triggered at (19, 4) [Defeated Turn 371]. Team: Rattata Lv 10, Nidoran (Male) Lv 10. Reward: ¥150.
-- Bug Catcher #3: Located at (24, 6) facing West, engaged at (24, 5) [Defeated Turn 387]. Team: Caterpie Lv 11, Metapod Lv 11. Reward: ¥110.
-- Lass #2: Located at (33, 10) in tall grass, triggered at (33, 8) [Defeated Turn 404]. Team: Jigglypuff Lv 14. Reward: ¥210.
-- Youngster #4: Located at (22, 9) facing North/Left [Observed Turn 361]
-- Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
-
-## Empirical Wild Encounters
-- (Documenting upon encounter in tall grass)
+# Locations/Route3
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/MtMoon1F</code></h1>
+<h1><code>Mechanics/UI_And_Border_Rendering</code></h1>
 
-# Mt. Moon 1F - Points of Interest & Notes
-
-## Connections
-- South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
-- Ladders:
-  - Ladder at (17, 11) [Explored Turns 520-553] - Central ladder to B1F (leads to isolated B2F treasure ledge)
-  - Ladder at (25, 15) [Observed Turn 656] - Eastern chamber ladder to B1F
-  - Ladder at (5, 5) [Explored Turn 909] - Northwest ladder to B1F (connects via B1F 21,17 to B2F 21,17 central segment)
-
-## Layout & Landmarks
-- Entrance threshold at (14, 35) / (15, 35)
-- Main southern corridor runs north along columns 14-15 (rows 31-35)
-- Trainer #1 area around row 23 (col 16)
-- Horizontal rock wall along rows 8-9 (cols 18-29) dividing central and northern halls
-- North-south passage connecting central and northern halls at columns 30-31 (rows 6-10)
-- Eastern chamber floor extends across rows 10-14 (cols 20-33+)
-- Rock obstacle at (32..33, 12..14)
-- Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11). Note: in central corridor, cols 14-16 provide clear continuous north-south passage (rows 4-19); col 17 terminates at ladder (17, 11).
-- Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
-- Western corridor runs along columns 10-11 heading north to northwest sector
-- Northwest chamber: cols 2-10, rows 2-10. Ladder to B1F at (5, 5). Item Ball at (2, 2) [Moon Stone collected Turn 592], Hiker #4 at (5, 6) [Defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1.
-- Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
-- Rock wall spans cols 18-19 (rows 10-21). Wide open passage at rows 22-25 connects Eastern area (cols 20-25) to Central/Main corridor (cols 14-17).
-- Friendly NPC at (30, 27): "Go through this cave to get to CERULEAN CITY!"
-- South-central rock formation spans cols 20-23 (rows 26-27); bypass corridor is at cols 24-25.
-- Friendly NPC: Located at (7, 22) in southwest pocket. Dialogue: "Suspicious men are in the cave."
-- Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
-- Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
-
-## Items & Discoveries
-- Item Ball: Located at (2, 2) in northwest chamber - Moon Stone [Collected Turn 592]
-- Item Ball: Located at (2, 20) in southwest chamber - Potion [Collected Turn 834]
-- Item Ball: Located at (35, 31) in southeast sector - Rare Candy [Collected Turn 725]
-- Item Ball: Located at (20, 33) in south-central sector - Potion [Collected Turn 733]
-
-## Verified Trainers
-- Friendly NPC: Located at (16, 23) facing South. Dialogue: "What? I'm waiting for my friends to find me here." [Turn 784]
-- Trainer #2 (Lass): Located at (30, 4) facing South [Defeated Turn 649]. Dialogue: "Wow! It's way bigger in here than I thought!" Team: 2 Pokémon (Oddish Lv 11, Bellsprout Lv 11).
-- Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
-- Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
-- Trainer #5 (Bug Catcher): Located at (30, 27) [Defeated Turn 721]. Team: Caterpie Lv 10, Metapod Lv 10, Caterpie Lv 10. Reward: ¥100. Dialogue: "ZUBAT is tough! But, it can be useful if you catch one."
-- Trainer #6 (Super Nerd): Located at (24, 31) facing North [Defeated Turn 753]. Team: Magnemite Lv 11, Voltorb Lv 11 (2 Pokémon total). Reward: ¥275. Pre-battle dialogue: "What! Don't sneak up on me!"
-- Trainer #7 (Lass): Located near south corridor at (16, 24) [Defeated Turn 841]. Team: Clefairy Lv 14 (1 Pokémon).
-- Trainer #8 (Bug Catcher): Located in southwest sector at (7, 24) [Defeated Turn 833]. Team: Weedle Lv 11, Kakuna Lv 11.
-
-## Empirical Wild Encounters
-- Zubat (Lv 6-11) [Common throughout all sectors, captured ECHO at (22, 10)]
-- Geodude (Lv 8) [Common across rock corridors, captured TERRA at (35, 7)]
-- Paras (Lv 8) [Uncommon, western and eastern chambers]
-- Clefairy (Lv 8) [Rare, central corridor at (14, 16)]
-- Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
+# Mechanics/UI_And_Border_Rendering
 
-<hr>
-
-<h1><code>Locations/MtMoonB1F</code></h1>
-
-# Mt. Moon B1F - Points of Interest & Notes
-
-## Connections
-- Ladder at (5, 5): Connects to Mt. Moon 1F at (5, 5) [Discovered Turn 909]
-- Ladder at (25, 9): Connects to Mt. Moon 1F at (17, 11) [Discovered Turn 520]
-- Ladder at (17, 11): Connects to B2F lower tunnel [Discovered Turn 521]
-- Ladder at (25, 15): Connects to Mt. Moon 1F at (25, 15) [Discovered Turn 845]
-- Ladder at (13, 27): Connects to B2F southern tunnel at (15, 27) [Discovered Turn 852]
-- Ladder at (23, 3): Connects to B2F northern exit at (5, 7) [Discovered Turn 1151]
-- Ladder at (27, 3): Connects to Mt. Moon 1F exit chamber [Discovered Turn 1151]
-
-## Layout & Landmarks
-- Central platform corridor extending from col 25 down to col 17 across rows 8-11.
-- Eastern platform corridor: cols 24-27 (rows 14-27). Connects at south (rows 26-27) to southern cross corridor (cols 13-27) leading west to ladder at (13, 27).
-- Northwest corridor runs from (5, 5) south along col 4-7 to row 17, then east along rows 16-17 to ladder at (21, 17).
-
-## Items & Discoveries
-- (None discovered yet)
-
-## Empirical Wild Encounters
-- Zubat Lv 9 [Encountered & Defeated Turn 523 at (17, 9)]
-- Zubat [Encountered Turn 847 at (25, 17)]
-- Clefairy [Encountered Turn 886 at (25, 25)]
-- Zubat [Encountered Turn 913 at (5, 17)]
-- Zubat [Encountered Turn 987 at (5, 6)]
-- Zubat [Encountered Turn 989 at (5, 17)]
-- Geodude [Encountered Turn 1116 at (15, 17)]
-
-
-<hr>
-
-<h1><code>Locations/MtMoonB2F</code></h1>
-
-# Mt. Moon B2F - Points of Interest & Notes
-
-## Connections
-- Ladder at (21, 17): Connects to Mt. Moon B1F at (21, 17) [Discovered Turn 919]
-- Ladder at (25, 9): Connects to Mt. Moon B1F at (17, 11) [Discovered Turn 525]
-- Ladder at (15, 27): Connects to Mt. Moon B1F southern tunnel [Discovered Turn 852]
-- Ladder at (5, 7): Northern exit ladder connecting to B1F exit path towards Route 4 [Discovered Turn 1150]
-
-## Layout & Landmarks
-- Vertical blue wall at cols 18-19 (rows 8-16) separates west fossil section from east section. Connection between west and east is the southern corridor at rows 31-32.
-- Western passage along cols 8-11 connects rows 20-32. Cols 12-13 form north bypass corridor through rows 8-17 leading into upper fossil chamber.
-- Isolated B2F treasure chamber (accessed via central ladder at 25, 9)
-- Lower floor: cols 24-35, rows 8-11
-- Dividing wall at col 23 running rows 5-11
-- Rock wall at (30-31, 5..7) dividing lower area from central ledge
-- Central item platform: rows 5-6 (cols 27-30)
-- One-way ledge at (28, 7) and (29, 7) leading south back to lower floor
-- Main B2F Cavern: Open cavern accessed from (15, 27), cols 11-33+ (rows 18-28+)
-- Rock divider at rows 20-21 (cols 14-19) separates southern entrance room from northern cavern. Cols 12-13 are elevated ledge/platform (blocked from col 14).
-- Southern room bypass corridor to eastern corridor at cols 24-33 (rows 24-27)
-- Eastern corridor at cols 32-35 dead-ends north at row 6.
-- Lower floor at rows 16-18 (cols 26-32) connects to NW corridor via wooden ledge at (26..27, 15) and connects to eastern corridor via stairs at (32, 15).
-- NW ladder at (21, 17) connects to open corridor (cols 20-22, rows 7-18) that dead-ends north at row 7; cross-passage at rows 12-14 connects east across cols 21-26+.
-- One-way ledge at row 11 (cols 24-28) allows jumping south into row 12, blocking northward return to ladder (25, 9).
-
-## Items & Discoveries
-- Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
-- Item Ball: Located at (25, 21) on ledge platform above south room [Discovered Turn 862]
-- Helix Fossil: Located at (13, 6) in north chamber [Obtained Turn 1084]
-
-## Verified Trainers
-- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave grown-ups alone!" Team: Raticate Lv 16. Reward: ¥480.
-- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Reward: ¥360.
-- Rocket Grunt #2: Located at (15, 22) facing South [Defeated Turn 858]. Dialogue: "We, TEAM ROCKET, are POKMON gangsters!" Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11 (3 Pokmon).
-- Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: ¥390.
-- Super Nerd Miguel: Located at (12, 8) facing South [Defeated Turn 1081]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Defeat quote: "OK! I'll share!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12. Reward: ¥300 + Choice of Fossil (Helix Fossil claimed).
-
-## Empirical Wild Encounters
-- Zubat (Lv 8-11, very common across all cavern sectors)
-- Geodude (Lv 8-10, common along rock walls and passages)
-- Paras (Lv 8-11, uncommon in lower cavern corridors)
-- Clefairy (Lv 9-11, rare encounter across B2F)
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route4</code></h1>
 
-# Route 4 - Points of Interest & Notes
-
-## Connections
-- West: Mt. Moon exit cave at (24, 5)
-- East: Cerulean City border transition at (89, 11) [Connected to Cerulean City (0, 19)]
-
-## Layout & Landmarks
-- Cave exit at (24, 5).
-- Signpost at (27, 7): "ROUTE 4 MT. MOON - CERULEAN CITY".
-- Upper corridor runs eastward along rows 6-8 across cols 24-45.
-- One-way ledge hopping east at (45, 6) into middle enclosure (cols 46-49, rows 2-10).
-- Row 10 connects eastward from col 49 past col 61.
-- Open gap at (61, 9) allows ascending north from row 10 to row 8 (cols 61-64).
-- Lower basin features tall grass across cols 64-74 (rows 10-15).
-- Tree column spans col 62 (rows 9-15) and col 75 (rows 9-13).
-- Verified pass-through step up to city lawn: Tile (77, 13) is an open elevation step connecting row 14 lawn to rows 10-12 avenue, leading to the eastern map transition at (89, 11).
-
-## Empirical Wild Encounters
-- Spearow [Encountered Turn 1161 at (64, 11), Turn 1174 at (66, 15), Turn 1189 at (65, 10)]
-- Rattata [Encountered Turn 1167 at (73, 14)]
+# Locations/Route4
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/CeruleanCity</code></h1>
 
-# Cerulean City - Points of Interest & Notes
-
-## Connections
-- West: Route 4 entrance at (0, 18..19) [Entered Turn 1199]
-- North: Route 24 (Nugget Bridge)
-
-## Layout & Landmarks
-- West entrance connects via wide paved thoroughfare across rows 18-19.
-- Canal/waterway with stone barrier located north across rows 15-17 (cols 0-7) and stone barrier at cols 3-4 (rows 20-24).
-- Southern thoroughfare runs across rows 26-27 (cols 6-34) connecting Bike Shop, Pokémart, and residential areas.
-- Central crossroads located at (22, 19) connecting north, south, and east avenues.
-- East courtyard located at cols 30-34 across rows 20-27.
-- Northern Highway: Wide open road across rows 12-13 connecting west passage (col 8) to Route 24 thoroughfare (cols 20-22).
-
-## Buildings & Points of Interest
-- Trade House: Located at (13, 15). Home of the Pokémon Trader and his wife.
-- Pokémon Center: Located at (19, 17) with "POKe" sign at (20, 17).
-- Cerulean Gym: Located at cols 24-31, rows 16-19 with entrance door at (30, 19) and "GYM" sign at (26..29, 18).
-- Pokémart: Located at cols 24-27, rows 22-25 with south entrance door at (25, 25) and "MART" sign at (26, 25).
-  - Catalog: Poké Ball (¥200), Potion (¥300), Repel (¥350), Antidote (¥100), Burn Heal (¥250), Awakening (¥200), Paralyze Heal (¥200).
-- Bike Shop: Located at cols 12-15, rows 22-25 with south entrance door at (13, 25) and sign at (11, 25).
-  - Catalog: Bicycle (¥1,000,000 - requires Bike Voucher).
-- Slowbro House: Located at cols 28-33, rows 24-25. Backyard at cols 28-32 (rows 26-27).
-- Badge Master House: Located at cols 8-13, rows 10-11 with entrance door at (9, 11).
-
-## Verified NPCs & Dialogue
-- Western Plaza NPC (SPRITE_cdfc): Wanders near (8, 21) and (15, 18..21).
-- Gym Courtyard NPC: Located at (31, 20) near Cerulean Gym. Dialogue: "You're a trainer too? Collecting, fighting, it's a tough life."
-- Trader's Wife: Located at (5, 4) in Trade House (13, 15). Dialogue: "My husband likes trading POKEMON. If you are a collector, would you please trade with him?"
-- Trader (Husband): Located at (1, 2) in Trade House (13, 15). Offers in-game trade: POLIWHIRL for JYNX (LOLA). Dialogue: "Hello there! Do you want to trade your POLIWHIRL for JYNX?"
-- Bike Shop Customer #1: Located at (1, 3) in Bike Shop. Dialogue: "These BIKES are cool, but they're way expensive!"
-- Bike Shop Clerk: Located at (6, 2) behind counter in Bike Shop. Dialogue: "Welcome to our BIKE SHOP... BICYCLE ¥1000000".
-- Slowbro & Trainer: Located in south courtyard at (28, 26) and (29, 26). Slowbro dialogue: "SLOWBRO ignored orders...", Trainer dialogue: "SLOWBRO punch! No! You blew it".
-- Blue-Haired Boy (SPRITE_e4ed): Located at (24, 27) in southern avenue. Dialogue: "I want a bright red BICYCLE! I'll keep it at home, so it won't get dirty!"
-- Western Plaza Bearded NPC: Located at (15, 21). Dialogue: "That bush in front of the shop is in the way. There might be a way around."
-- Northern Plaza NPC: Located at (4, 12) facing East.
-
-## Cerulean Gym Trainers
-- Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: ¥80.
-- Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: ¥380.
-- Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
-- Burglarized House: Located at cols 26-31, rows 8-12. Front entrance door at (27, 11). Formerly guarded by a police officer who moves aside to (28, 12) after player helps Bill at Sea Cottage. Interior features a broken hole in the rear north wall at (3, 0) that exits into the Backyard Courtyard at (27, 9).
-- Backyard Courtyard: Located behind the Burglarized House across rows 7-9 (cols 26-32). Team Rocket Grunt is positioned at (30, 8). Southern exit leads down past the canal toward Route 5.
-
-### Team Rocket Encounter (Backyard Courtyard)
-- Team Rocket Grunt: Located at (30, 8) in the backyard [Defeated Turn 1820].
-  - Team: Machop Lv 17, Drowzee Lv 17.
-  - Reward: TM28 (Dig).
-  - Pre-battle dialogue: "It's not your yard! Huh? Me? I'm an innocent bystander! Don't you believe me?"
-  - Defeat quote: "Stop! I give up! I'll leave quietly!"
-
-## Southern Bypass & Route 5 Topology (Verified Turns 2928-2937)
-- Route 5 Entrance connects to southern enclosed corridor at (27, 35).
-- Southern enclosed street runs across row 30 (cols 6-37).
-- East connection runs up columns 36-37 from (37, 30) up to (37, 20) / (36, 15).
-- From (36, 15), walking west to col 33 and north across rows 11-7 enters the Backyard Courtyard behind the Burglarized House at (26..32, 7..9).
-- Broken rear wall at (27, 9) allows entry into the Burglarized House (interior 3, 0), which exits via front door (interior 3, 7) onto Cerulean central avenue at (27, 11).
+# Locations/CeruleanCity
+
+Placeholder to prevent data loss.
+
 
 <hr>
 
 <h1><code>Locations/Route24</code></h1>
 
-# Route 24 - Points of Interest & Notes
-
-## Connections
-- South: Cerulean City at (20, 6) / (21, 6)
-- North: Nugget Bridge leading towards Route 25
-
-## Layout & Landmarks
-- Entry point at south border (cols 20-21, rows 5-6).
-- Nugget Bridge extends northward along columns 20-21 across the water.
-- Waterway flanks the bridge on the left (cols 14-19) and right (cols 22-25).
-- Grass patches located along the western bank.
-
-## Verified Encounters & Battles
-- Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499, Defeated Turn 1528]. Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
-- Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: ¥140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Trainer #2 (Lass): Located at (10, 28) facing Down [Defeated Turn 1553]. Team: Pidgey Lv 12, Oddish Lv 12. Reward: ¥180. Dialogue: "I'm No. 2! Now it's serious!" Defeat quote: "How could I lose?"
-- Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1563]. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Reward: ¥140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
-- Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Team Rocket Recruiter: Located at (11, 15) [Defeated Turn 1591]. Team: Ekans Lv 15, Zubat Lv 15. Reward: Nugget prize + ¥450. Dialogue: "Congratulations! You beat the 5 of us! You've earned a fabulous prize!" / "By the way, would you like to join TEAM ROCKET?" Defeat quote: "Arrgh! You are good!"
+# Locations/Route24
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route25</code></h1>
 
-# Route 25 - Points of Interest & Notes
-
-## Connections
-- West: Route 24 entrance at (0, 8..9) [Entered Turn 1604]
-- East: Bill's Sea Cottage
-
-## Layout & Landmarks
-- Main western entry thoroughfare runs eastward across rows 8-9 (cols 0-10).
-- Tree divider at column 10 (rows 8-9) and column 16 (rows 7-9).
-- Open northern lawn paths run across rows 5-7 (cols 8-15) and row 6 past col 16.
-- Stone fence barrier at row 10 dividing upper highway from lower lawns.
-
-## Verified Trainers & Encounters
-- Trainer #1 (Hiker): Located at (8, 4) facing East [Defeated Turn 1679]. Team: Machop Lv 15, Geodude Lv 15. Reward: ¥525. Dialogue: "I just got down from MT.MOON, but I'm ready!" Defeat quote: "You worked hard!"
-- Trainer #2 (Youngster Joey): Located at (14, 2) / (13, 7) [Defeated Turn 1605]. Team: Rattata Lv 15, Spearow Lv 15. Reward: 225. Dialogue: "Local trainers come here to practice!" Defeat quote: "You're decent."
-- Trainer #4 (Hiker Franklin): Located at (14, 7) facing West [Defeated Turn 1608]. Team: Onix Lv 17, Geodude Lv 17. Reward: ¥595. Dialogue: "You're going to see BILL? First, we fight!" Defeat quote: "You gave me your best!"
-- Trainer #5 (Youngster Dan): Located at (18, 4) facing West [Defeated Turn 1614]. Team: Slowpoke Lv 17. Reward: ¥255. Defeat quote: "I'm not mad!"
-- Trainer #6 (Lass): Located at (19, 8) facing East [Defeated Turn 1623]. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Reward: ¥225. Dialogue: "Hi! My boy friend is cool!" Defeat quote: "I was in bad condition!"
-- Trainer #7 (Hiker): Located at (23, 9) facing Down [Defeated Turn 1690]. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Reward: ¥455. Dialogue: "I'm off to see a POKéMON collector at the cape!" Defeat quote: "You got me."
-- Trainer #8 (Jr. Trainer ♂): Located at (24, 4..5) [Defeated Turn 1709]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I'm a cool guy. I've got a girl friend!" Defeat quote: "Aww, darn..."
-- Trainer #9 (Youngster): Located at (32, 3) [Defeated Turn 1719]. Team: Ekans Lv 14, Sandshrew Lv 14. Dialogue: "I knew I had to fight you!" Defeat quote: "I knew I'd lose too!"
-- Trainer #10 (Lass): Located at (37, 4) outside Bill's Sea Cottage [Defeated Turn 1732]. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Reward: ¥195. Dialogue: "cute POKéMON. I'm so jealous!" Defeat quote: "I'm not so jealous!"
+# Locations/Route25
 
-
-<hr>
-
-<h1><code>Locations/BillsHouse</code></h1>
-
-# Bill's Sea Cottage (Route 25) - Points of Interest & Notes
-
-## Connections
-- South: Exit door at (2..3, 8) leading back to Route 25 exterior at (45, 3)
-
-## Layout & Objects
-- Interior dimensions: 8x8 room
-- Left Teleporter capsule: Located at (2, 4)
-- PC terminal / control console: Located at (1, 4..5)
-- Right Teleporter capsule: Located at (6, 4)
-- Bill's PC Monitor: Displays evolutionary data for Eevee, Flareon, Jolteon, and Vaporeon.
-
-## Verified NPCs & Dialogue
-- Bill (Pokémon Form): Encountered at (6, 5). Dialogue: "Hiya! I'm a POKéMON... No I'm not! Call me BILL! I'm a real POKéMANIAC! ... I screwed up an experiment and got combined with a POKéMON! So, how about it? Help me out?"
-- Bill (Human Form): Appears at (4, 4) after running Cell Separation from PC at (1, 4). Dialogue: "BILL: Yeehah! Thanks, bud! I owe you one! ... Oh here, maybe this'll do." Rewarded player with S.S. Ticket for cruise in Vermilion City.
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route5</code></h1>
 
-# Route 5 - Points of Interest & Notes
-
-## Connections
-- North: Cerulean City at (10, 0) [Entered Turn 1842]
-- South: Saffron City North Gate / Route 5-6 Underground Path Entrance
-
-## Layout & Landmarks
-- Northern entry point at (10, 0).
-- Ledge 1: Row 3 (cols 6-13) leading into grass patch at rows 4-5.
-- Middle lane: Row 6 (cols 6-12).
-- Ledge 2: Row 7 (cols 6-12) leading into grass patch at rows 8-9.
-- Ledge 3: Row 15 (cols 6-12) hopping down to row 16.
-- Row 10+: Southern section containing Daycare & Underground Path.
-
-## Buildings & Points of Interest
-- Pokémon Daycare: Located at cols 8-11, rows 18-21 with entrance door at (10, 21). Daycare man raises 1 Pokémon for ¥100 + ¥100 per level (1 EXP per step).
-- Underground Path (Route 5-6) Entrance Building: Located at cols 16-18, rows 24-27 with entrance door at (17, 27).
-  - Interior: Stairs to underground tunnel at (4, 4).
-  - Trade NPC (Little Girl at 2, 3): Offers in-game trade NIDORAN♂ for NIDORAN♀ (SPOT). Dialogue: "I'm looking for the POKéMON NIDORAN♂! Wanna trade one for my NIDORAN♀?"
-
-## Wild Pokémon Encounters
-- Meowth (Normal type) [Encountered Turn 1844]
+# Locations/Route5
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route6</code></h1>
 
-# Route 6 - Points of Interest & Notes
-
-## Connections
-- North: Route 5-6 Underground Path Entrance Building at (17, 14)
-- South: Vermilion City at (19, 0) / (9, 35)
-
-## Layout & Landmarks
-- North-south path connecting Underground Path exit to Vermilion City.
-- Pond / canal on western side (cols 0-7).
-- Southern entrance road (cols 8-10, rows 32-35).
-- Eastern tall grass patch (cols 12-19, rows 26-31).
-
-## Wild Pokémon Encounters
-- Meowth (Normal) [Encountered Turn 1868]
-- Bellsprout (Grass/Poison) Lv 13 [Encountered & Caught Turn 2148-2153, Nicknamed SPROUT]
-
-## Verified Trainers
-- Bug Catcher at (18, 26): Butterfree Lv 20. Reward: ¥200.
-- Jr. Trainer Female at (11, 30): Pidgey Lv 16 x3. Reward: ¥320.
-- Jr. Trainer Male at (10, 31): Spearow Lv 16, Raticate Lv 16. Reward: ¥400.
+# Locations/Route6
+
+Placeholder to prevent data loss.
+
 
 <hr>
 
 <h1><code>Locations/VermilionCity</code></h1>
 
-# Vermilion City - Points of Interest & Notes
-
-## Connections
-- North: Route 6 at (18..20, 0)
-- East: Route 11 / Diglett's Cave at (34..35, 13)
-- South: Vermilion Harbor / S.S. Anne Port Pier at (30, 15..26)
-
-## Layout & Landmarks
-- Northern thoroughfare across rows 0-4 (cols 10-38).
-- Central Plaza Avenue: Open 4-tile wide vertical thoroughfare at cols 18-21 across rows 4-14 (between Trade House and Pokémart).
-- Southern thoroughfare across rows 14-15 (cols 6-30).
-- City Signpost at (27, 3): "VERMILION CITY - The Port of Exquisite Sunsets".
-
-## Buildings & Points of Interest
-- Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3).
-- Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13).
-  - Catalog: Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200), Repel (¥350).
-- Pokémon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13).
-  - Chairman rewarded player with BIKE VOUCHER [Obtained Turn 1902].
-- Trade House: Located at cols 14-17, rows 10-13 with entrance door at (15, 13). Trader NPC at (3, 5) offers in-game trade: SPEAROW for FARFETCH'D (DUXX).
-- Vermilion Gym: Located at cols 8-13, rows 16-19 with Cut bush at (15, 18).
-- Diglett's Cave: Located at cols 34-35, rows 12-13.
-
-## Vermilion Port & S.S. Anne
-- Pier: Runs south from (30, 15..26), turns west along rows 26-27 to ticket gate at (19, 30) and dock at (18, 32).
-- S.S. Anne completed: Rival RED defeated, HM01 Cut obtained from Captain!
+# Locations/VermilionCity
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/SSAnne1F</code></h1>
+<h1><code>Locations/SSAnne</code></h1>
 
-# S.S. Anne 1F - Points of Interest & Notes
-
-## Connections
-- North: Vermilion Port exit at (26, 0) / (27, 0)
-- West / East: Main deck corridors and cabin entrances
-- Stairs to 2F: Located at (2, 6)
-- Stairs to B1F: Located at (37, 15) at the southern end of the eastern corridor (cols 36-37)
-- Kitchen: Entrance passage located at cols 2-3 (south from 2, 8)
-
-## Layout & Landmarks
-- Entrance vestibule at cols 26-27, rows 0-5.
-- Main horizontal corridor across rows 6-7.
-- Cabins line the north and south sides of the corridor.
-
-## Verified NPCs & Dialogue
-- Steward: Located at (27, 5). Dialogue: "You might be challenged by the more restless passengers!"
-## Cabin 1 (Eastmost Cabin - Entrance at 31, 8)
-- Trainer: Gentleman at (1, 3). Dialogue: "I travel alone on my journeys! My POKéMON are my only friends!" Team: 2 Pokémon.
-- Items: None.
-## Cabin 2 (South Corridor - Entrance at 23, 8)
-- Trainer: Gentleman at (11, 4). Team: Nidoran♂ Lv 19, Nidoran♀ Lv 19.
-- Items: Checked table/trash.
-## Cabin 3 (South Corridor - Entrance at 15, 8)
-- Girl NPC at (2, 11) with Pokémon at (3, 11).
-- Boy NPC at (0, 14). Dialogue: "A cruise is so elegant yet cozy!"
-- Table at (0, 15)/(1, 15), Bed at (3, 14)/(3, 15). Items: None.
-## Cabin 4 (South Corridor - Entrance at 7, 8)
-- Coordinates: cols 20-23, rows 10-15.
-- Doorway exit at (20, 10).
-- NPC at (21, 13) / (20, 13).
-- Table at (20, 15)/(21, 15), Bed at (23, 14)/(23, 15).
-## Kitchen (Entrance at 3, 16 from SW hallway)
-- Layout: cols 0-14, rows 0-15. Door exit at (6, 0).
-- Trash cans at (2, 5), (6, 5), (10, 5), (13, 5), (13, 7), (13, 9).
-- Item: Great Ball found in bottom-right trash can at (13, 9) [Found Turn 1953].
-- Chefs preparing gourmet meals for passengers.
+# Locations/SSAnne
 
+Placeholder to prevent data loss.
 
-<hr>
-
-<h1><code>Locations/SSAnne2F</code></h1>
-
-# S.S. Anne 2F / Upper Deck - Points of Interest & Notes
-
-## Connections
-- West Stairwell: (2, 4) stairs down to 1F, (2, 12) stairs to B1F
-- Upper Corridor: Extends east along rows 12-13 with cabins along row 11 (doors at 9, 11; 13, 11; 17, 11; 21, 11; etc.)
-- East: Northern passage at cols 36-37 leading to Captain's Quarters & Rival RED encounter
-
-## Layout & Landmarks
-- Main horizontal corridor across rows 12-13 (cols 2-37).
-- Cabins line the north wall along row 11.
-- Eastern ascent (cols 36-37, rows 4-12) leads up to Captain's Quarters entrance at (36, 4).
-
-## Verified Rooms & Cabins (Lower 2F Corridor)
-- Cabin 1 (Entrance at 7, 8): Gentleman NPC.
-- Cabin 2 (Entrance at 15, 8): Girl NPC + Pokmon.
-- Cabin 3 (Entrance at 23, 8): Passenger NPC.
-- Cabin 4 (Entrance at 31, 8): Passenger NPC.
-
-### Rival RED Encounter (Upper Deck East Hallway at 36, 7)
-- Defeated Turn 2095. Team: Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20.
-- Post-battle dialogue: RED mentions the seasick Captain has CUT and departs with "Smell ya!".
-
-<hr>
-
-<h1><code>Locations/SSAnneB1F</code></h1>
-
-# S.S. Anne B1F - Points of Interest & Notes
-
-## Connections
-- Stairs to 1F: Located at (27, 5) ascending to 1F at (37, 15)
-
-## Layout & Landmarks
-- Main corridor across rows 2-5 (cols 0-27).
-- Cabins line the north wall along row 3.
-
-## Verified Cabins & Trainers
-- North Cabin 1 (Entrance at 23, 3): Boy NPC at (10, 13) with Machoke at (11, 12).
-- North Cabin 2 (Entrance at 19, 3): Trainer Sailor at (2, 13) [Defeated]. Team: Tentacool Lv 17. Reward: ¥510.
-- North Cabin 3 (Entrance at 15, 3): Trainer Sailor at (22, 3) [Defeated]. Team: Horsea Lv 17, Horsea Lv 17. Item: TM08 (Body Slam) collected at (20, 3).
-- North Cabin 4 (Entrance at 11, 3): Trainer Sailor at (12, 3) [Defeated Turn 2043]. Team: Tentacool Lv 18, Staryu Lv 18. Reward: 540. Item: TM44 (Rest) collected at (10, 2) [Turn 2045, Verified Turn 2075].
-
-- North Cabin 5 (Entrance at 7, 3):
-  - Trainer Fisherman at (0, 4) [Defeated Turn 2057]. Team: Tentacool Lv 17, Staryu Lv 17, Shellder Lv 17. Reward: 595. Dialogue: "All my POKMON are from the sea!" Defeat: "Darn! I let that one get away!"
-  - Trainer Sailor at (0, 2) [Defeated Turn 2061]. Team: Machop Lv 20. Reward: 600 (approx). Dialogue: "Matey, you're walking the plank if you lose!" Defeat: "Argh! Beaten by a kid!"
-
-
-<hr>
-
-<h1><code>Locations/VermilionGym</code></h1>
-
-# Vermilion Gym - Points of Interest & Notes
-
-## Gym Overview
-- Gym Leader: Lt. Surge ("The Lightning American")
-- Badge: Thunder Badge
-- TM: TM24 (Thunderbolt)
-- Specialty: Electric-type Pokmon
-
-## Puzzle Mechanism
-- 15 Trash Cans in a 5x3 grid across rows 7, 9, 11 (columns 1, 3, 5, 7, 9).
-- Two sequential switches hidden under trash cans.
-- Switch 1 opens 1st lock; Switch 2 is in an adjacent can in the grid. If wrong can is checked, switches reset.
-
-## Gym Trainers Defeated
-1. Sailor at (2, 10) - Defeated Turn 2199 (Pikachu Lv 21, Pikachu Lv 21, 630)
-2. Rocker at (3, 8) - Defeated Turn 2213 (Voltorb Lv 20, Magnemite Lv 20, Voltorb Lv 20, 500)
-3. Gentleman at (9, 6) - Defeated Turn 2217 (Pikachu Lv 23, 1610)
-
-## Inner Sanctum
-- Doorway at (4..5, 5) leading to Lt. Surge at (4..5, 2..3).
-
-- Verified Switch Solution (Turn 2877): Switch 1 found at can (3, 7), Switch 2 found at adjacent can (3, 9). Motorized doors unlocked!
 
 <hr>
 
 <h1><code>Locations/Route9</code></h1>
 
-# Route 9 - Points of Interest & Notes
+# Locations/Route9
 
-## Connections
-- West: Cerulean City at (0, 8..9) / (0, 16..17)
-- East: Route 10 & Rock Tunnel (via Northern Highway at cols 52-59, rows 7-10)
+Placeholder to prevent data loss.
 
-## Layout & Landmarks
-- Route 9 consists of an UPPER HIGHWAY (rows 4-12) leading directly from Cerulean City to Route 10, and a LOWER LAWN (rows 14-15) containing wild grass and trainers.
-- Western Entrance Cut Bush: Located at (5, 8). Requires HM01 Cut to access Route 9 [Cleared Turn 2969].
-- Western Upper Ledge at (12, 11): One-way hop-down ledge from row 10 grass to row 12 highway.
-- Central Ascent at (19, 13): Connects lower lawn at (19, 14) up to row 12 highway [Verified Turn 3020].
-- Middle Upper Bypass: Row 11 plateau at (23..27, 11) bypasses cliff at (24..27, 12).
-- Eastern Hop-Down Ledge at (41, 13): One-way hop-down ledge from row 12 to row 14-15 eastern lawn.
-- Eastern Dead-End Ledge at (52..53, 13): One-way hop-down ledge from upper plateau (rows 10-12) to lower lawn (row 14).
-- Northern Highway Passage to Route 10: At (41, 12), going Up to (41, 10) enters the northern upper highway (rows 7-10) which extends east past col 54 directly into Route 10.
-
-## Verified Encounters & Trainers
-- Tall grass patches at rows 8-9, rows 11-12, rows 14-15, and cols 52-53.
-- Jr. Trainer Female (Alicia): Located at (13, 10) facing Up [Defeated Turn 2988]. Team: Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Reward: ¥360. Dialogue: "You have POKéMON with you! You're mine!" Defeat quote: "You deceived me!"
-- Hiker Jeremy: Located at (16, 15) in the southwestern grass area below the ledge [Defeated Turn 3006]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Great! I was bored, eh!" Defeat quote: "You sure had guts standing up to me there, eh?"
-- Bug Catcher Conner: Located at (40, 8) [Defeated Turn 3044]. Team: Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Reward: ¥190. Dialogue: "Go, my super bug POKéMON!"
 
 <hr>
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 - Points of Interest & Topology
+# Locations/Route10
 
-
-
-## Connections
-
-- West: Route 9 at (0, 8..9) / (0..14, 5..9)
-
-- North: Power Plant waterway (accessed via canal at col 16)
-
-- South/East: Rock Tunnel North Entrance at (8, 17)
-
-
-
-## Layout & Landmarks
-
-- Upper Courtyard (rows 16-29, cols 9-15):
-
-  - Route 10 Pokémon Center located at cols 10-13, rows 16-19 with entrance door at (11, 19).
-
-  - Open courtyard spanning rows 20-29 across cols 10-14.
-
-  - Row 30 Ledge / Cliff: Impassable ledge/cliff across cols 7-12 separating upper courtyard from lower cave path.
-
-- Western Thoroughfare & Lower Path (cols 0-8, rows 20-33 & rows 31-33, cols 7-15):
-
-  - North-south path along col 7 past Jr. Trainer Carol at (7, 25).
-
-  - Lower horizontal road at rows 31-32 connecting west path across cols 7-15 directly into the Rock Tunnel cave entrance at (14..15, 31).
-
-
-
-## Buildings & Points of Interest
-
-- Route 10 Pokémon Center: Located at (11, 19). Healing station and respawn point outside Rock Tunnel.
-
-
-
-## Verified Trainers & Encounters
-
-- Jr. Trainer Female Carol: Located at (7, 25) [Defeated Turn 3088]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
-## Route 10 South Sector (Discovered Turn 10973)
-- Rock Tunnel South Exit: Located at (8, 53).
-- Signpost: Located at (9, 55).
-- Hiker / Trainer: Located at (7, 54).
-- Ledge at row 58: Hop-down ledge heading south. Western passage at col 4 bypasses ledge.
-- South Connection: Connects directly south into Lavender Town.
-- Hiker #2 (Route 10 South): Located at (3, 57) [Defeated Turn 10996]. Team: Geodude Lv 21, Onix Lv 21. Reward: ¥735. Dialogue: "Ha-hahah-ah-ha!" Defeat quote: "Ha-hay fever! Haha-ha-choo!"
-- PokéManiac (Route 10 South): Located at (11, 64) [Defeated Turn 11022]. Team: Cubone Lv 20, Slowpoke Lv 20. Reward: ¥1000. Dialogue: "Hi kid, want to see my POKéMON?"
-## Route 10 South Topography & Obstacles (Verified Turn 15183)
-- Southern boundary connects to Lavender Town at row 71.
-- Western wall: Continuous solid cliff wall at col 5 (rows 67-72).
-- Row 67 Ledge: Impassable hop-down ledge across cols 6-9 heading south. Blocks upward traversal from row 68.
-- Topography Confirmation (Turn 15185): Route 10 South is a one-way south hop-down ledge (spanning cols 6-11 at row 67, enclosed by cliff wall at col 5 and fence at col 12). Impassable from south to north. Route 8 is the intended accessible grass route from Lavender Town.
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/RockTunnel1F</code></h1>
 
-# Rock Tunnel 1F - Points of Interest & Topology
+# Locations/RockTunnel1F
 
-## Standardized Ladder Connectivity Matrix
-- **North Entrance**: Located at (15, 3). Connects to Route 10 (North).
-- **Ladder 1**: 1F (37, 3) <-> B1F (33, 25) [Functional 2-way ladder: warps directly between 1F (37, 3) and B1F (33, 25), verified Turn 10684].
-- **Ladder 2**: 1F (27, 3) <-> B1F (5, 3) [Functional 2-way ladder: warps between 1F (27, 3) and B1F (5, 3), verified Turns 9291, 9380, 9459, 9505, 9603, 9706].
-- **Ladder 3**: 1F (23, 11) <-> B1F (17, 11) [Functional 2-way ladder: warps between 1F (23, 11) and B1F (17, 11), verified Turns 10755, 10781].
-- **Ladder 4**: 1F (3, 3) <-> B1F [NW 1F <-> B1F ladder in western corridor].
-- **1F South Boundary & Topology**: Rock Tunnel's external exit to Route 10 South is accessed via the southern exit ladder at B1F (15, 33), which warps directly out to Route 10 South at (8, 53) (Verified Turn 10973).
+Placeholder to prevent data loss.
 
-## Verified Corridors & Collision Bounds
-1. North Entrance Corridor (rows 2-7, cols 15-23):
-   - East-west passage running from entrance (15, 3) east to column 23.
-   - Solid vertical rock wall at cols 12-13 divides central and western sectors.
-2. Western Corridor (cols 2-5, rows 2-33):
-   - Passage south from Ladder 4 at (3, 3) through rows 2-21.
-   - Western pocket at (2..5, 17..21) is bounded to the west by cols 0-1 and south by rows 22-23 rock wall.
-   - Rows 10-13 form a wide open 4-tile high passage connecting Western Corridor (cols 2-5) to Central Basin (cols 8-11).
-3. Central Thoroughfares & Basin (cols 8-17, rows 9-28):
-   - Vertical and horizontal corridors connecting central ladder (23, 11) and north entrance (15, 3).
-   - Rows 14-17 form an 8-tile wide open thoroughfare across cols 8-15 connecting Central Basin to Column 14 Exit Corridor.
-   - Rows 24-27 form a 10-tile wide open basin across cols 2-11.
-   - Solid rock wall at row 28 across cols 2-13.
-4. Central-East Corridors (cols 14-19, rows 13-27):
-   - Upper corridor (rows 14-21) and lower corridor (rows 24-27) are separated by a solid rock barrier at rows 22-23 across cols 12-19.
-   - Connected to Central Basin via row 14-17 open thoroughfare.
-   - Lower corridor (rows 24-27) contains open floor at (14..16, 28) extending south.
-5. Eastern Sector (cols 26-37, rows 1-13):
-   - Separated from western/central sector by impassable rock walls at cols 12-13 and cols 24-25.
-   - Ladder 1 Arrival located at (37, 3) from B1F (33, 25) [1-way arrival on 1F].
-   - Ladder 2 located at (27, 3) connects to B1F (5, 3).
-
-## Verified Trainers & Encounters
-- PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
-- Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
-- Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
-- Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
-- PokéManiac #3: Located at (3, 8) in the Western Corridor [Defeated Turn 5682]. Team: Slowpoke Lv 20, Slowpoke Lv 20, Slowpoke Lv 20. Reward: ¥1000.
-6. Central Rock Barrier (rows 8-9, cols 19-25):
-   - Solid horizontal rock barrier across rows 8-9 (cols 19-25) separates North Corridor (rows 2-7) from Central Corridor (rows 10-13) on the east side. Access between north and south on 1F is via the western corridor (cols 14-17). [Verified Turn 8446]
-7. Eastern Sector Hall (rows 10-19, cols 26-37):
-   - Rows 10-13 form an open horizontal highway connecting cols 26-37.
-   - Rock barrier at rows 14-15 spans cols 23-31, with clear eastern bypass across cols 32-37.
-   - Rows 16-19 form a massive 10-tile wide open hall across cols 28-37 extending south. [Verified Turn 8469]
-8. Southern Avenue & Rock Pillar (rows 19-27, cols 20-29):
-   - Columns 20-25 form a wide open 6-tile highway across rows 19-27 heading south, terminating at the solid row 28 barrier.
-   - Columns 26-27 form a vertical rock pillar across rows 20-27 dividing the western avenue (cols 20-25) from the eastern hall (cols 28-37). [Verified Turns 8475, 8484, 8498]
-9. South Exit Corridor Analysis:
-   - Row 28 forms a continuous solid rock barrier across cols 2-27 on 1F.
-   - Eastern Sector Hall (cols 28-37) is physically bounded at north by the row 20-21 rock barrier and at west by cols 26-27 rock wall. [Verified Turns 8484, 8488, 8498]
-10. Western-Eastern Divider (rows 20-27, cols 26-27):
-    - Solid 2-tile wide vertical rock wall across cols 26-27 continuously separates Western Avenue (cols 20-25) from Eastern Hall (cols 28-37) across all rows 20 to 27. [Empirically Verified Turn 8498]
-- Solid Vertical Rock Walls:
-  - Cols 18-19 across rows 14-23: Solid vertical rock barrier dividing Southern Avenue (cols 20-25) from Central Sector (cols 14-17).
-  - Cols 12-13 across rows 18-25: Solid vertical rock wall dividing Central and Western sectors.
-- **Lower South Basin & Boundaries (Verified Turns 10814-10830)**: Lower basin spans rows 30-33 across cols 2-20. Southern boundary (row 34) is a solid continuous rock wall across cols 0-20 on 1F. Dungeon exit to Route 10 South is via B1F (15, 33) ladder (Verified Turn 10973).
-
-- **Verified Eastern Sector & Bypass Traversal (Turns 8934-8938)**:
-  - Warped to 1F Eastern Sector at (27, 3) via Ladder 2 from B1F (5, 3).
-  - Traversed south along col 27 to row 11, east along row 11 across cols 28-34, and south down the Eastern Bypass (cols 32-37) past the row 14-15 rock barrier into the Southern Hall (rows 16-19) at (34, 17).
-  - Row 17 connects cols 20-37 continuously west into the Southern Avenue (cols 20-25).
-- **Pillar Collision Bound (cols 26-27)**: Rock pillar extends across rows 20-30; bypass between Western Avenue and Eastern Hall is along row 33 or row 17. [Verified Turn 8998]
-
-- South-East Sector Boundary (cols 30-37, rows 20-21): Continuous solid rock wall across cols 30-37 at rows 20-21 blocks southward descent; Eastern Hall terminates at row 19 (Verified Turn 9695). Ladder 3 at (23, 11) is the sole downward ladder to B1F from this sector.
-
-- **Empirically Verified Corridors & Bounds (Turns 10482-10503)**:
-  - 1F Passable Floor Traversed: (23, 11), (18, 11), (15, 21), (11, 25), (3, 25), (3, 27).
-  - 1F Central-South Barrier: Rows 22-23 form a continuous solid rock barrier across cols 14-20 (empirically verified Turn 10486).
-  - 1F Column 11 Bypass: Column 11 is completely open from row 17 down to row 25, providing a complete bypass around the cols 14-20 row 22-23 barrier into the lower south basin at rows 24-27 (empirically traversed Turn 10487).
-  - 1F Lower Western Boundary: (3, 28) is solid rock wall (empirically probed Turn 10503); rows 28-29 across cols 2-8 form a continuous solid rock wall bounding the lower western basin.
 
 <hr>
 
 <h1><code>Locations/RockTunnelB1F</code></h1>
 
-# Rock Tunnel B1F - Points of Interest & Topology
+# Locations/RockTunnelB1F
 
+Placeholder to prevent data loss.
 
-
-## Verified Empirical Ladder Connectivity Matrix
-
-| Ladder | Floor 1 (1F) Coordinate | Floor B1 (B1F) Coordinate | Direction / Sector | Verified Turn |
-
-|---|---|---|---|---|
-
-| Ladder 1 | 1F (37, 3) | B1F (33, 25) | North-East 1F <-> South-East B1F | Turns 6954, 7556 |
-| Ladder 2 | 1F (27, 3) | B1F (5, 3) | North-Central 1F <-> North-West B1F | Turns 4364, 6104, 6401 |
-| Ladder 3 | 1F (17, 11) | B1F (17, 11) | Central 1F <-> Central B1F | Turns 6131, 6308, 7243 |
-| Ladder 4 | 1F (3, 3) | B1F (37, 17) | NW 1F -> East-Central B1F (Verified Turn 10938) |
-
-
-
-## Connections & Warps
-
-
-- Ladder 1 (South-East): Located at (33, 25). Connects up to Rock Tunnel 1F at arrival tile (37, 3).
-- Ladder 2 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3).
-- Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11).
-- East-Central Sector: (37, 17) is regular floor, no ladder present (verified Turns 9092-9098).
-
-
-
-## Verified Layout & Corridors
-
-1. South-East Entry Corridor (rows 25-33, cols 26-35):
-
-   - Ladder from 1F enters at (33, 25).
-
-   - Southern passage runs along rows 30-31 from col 35 west to col 15.
-
-2. South-West Chamber & Bypass (rows 26-28, cols 14-29):
-   - Cols 20-25 form an open 6-tile wide vertical highway across rows 16-24+ heading south.
-   - The Row 27 Northern Bypass connects the eastern sector (col 29) to the western sector (cols 14-17).
-3. Central-East Corridor & North Passage (rows 12-19, cols 20-33):
-
-   - East-west corridor spans rows 16-19 across cols 20-33.
-
-   - Rock divider at rows 14-15 spans cols 20-31.
-
-
-   - Open chamber/passage at rows 12-13 across cols 26-33.
-
-4. North-East Sector & Central Divider (rows 8-13, cols 26-37):
-
-   - Rows 10-13 form a wide open 4-tile high horizontal highway spanning cols 26-37.
-
-   - Rock formation located at cols 30-33 across rows 8-9.
-
-   - Northern passages branch on both sides of the rock formation: Western branch (cols 28-29) and Eastern branch (cols 34-37).
-
-5. North Highway (rows 2-5, cols 31-37):
-
-   - Wide open 4-tile high horizontal highway across rows 2-5 above the central divider (rows 6-9, cols 30-33).
-
-   - Solid northern boundary wall is at row 1 (rows 0-1).
-
-   - Solid eastern collision boundary wall is at column 38 (rows 2-16).
-
-
-
-6. South-Western Highway (rows 30-33, cols 2-15):
-
-   - Massive 4-tile high open highway spans continuously west from col 15 all the way to col 2.
-
-   - Solid southern boundary wall at rows 34-35 across cols 2-15.
-
-   - Rock divider at rows 28-29 spans cols 2-13, separating southern highway (rows 30-33) from upper south corridor (rows 26-27). The only north-south passage between them is the Vertical Connector at cols 14-17 (rows 28-29).
-
-
-
-## Verified Trainers & Encounters
-
-- Wild Pokémon: Zubat (Lv 15-18), Geodude (Lv 16-17), Machop (Lv 15-17), Onix (Lv 13).
-
-- PokéManiac #1: Located at (26, 31) [Defeated Turn 3474]. Team: Slowpoke Lv 20. Reward: ¥1000.
-
-- Jr. Trainer Female #1: Located at (15, 28) [Defeated Turn 3493]. Team: Oddish Lv 22, Bulbasaur Lv 22. Reward: ¥440.
-
-- PokéManiac #2: Located at (22, 20) facing Down [Defeated Turn 3500]. Team: Charmander Lv 22, Cubone Lv 22. Reward: ¥1100. Dialogue: "Do you know about costume players?" Defeat quote: "Well, that's that."
-
-- Hiker #1: Located near (31..34, 5) facing East [Defeated Turn 3516]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Hit me with your best shot!" Defeat quote: "Fired away!"
-
-- Hiker #2: Located at (30, 10) [Defeated Turn 3595] (Static NPC blocking tile (30, 10); bypass via row 11 below or use Eastern Branch at cols 34-36). Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
-
-
-
-## Empirical Collision Bounds & Corridor Mapping
-
-- Solid Horizontal Rock Walls:
-  - Rows 14-15 across cols 20-37.
-  - Rows 22-23 across cols 8-23 (continuous solid barrier blocking southward descent from row 21).
-  - Rows 28-29 across cols 2-13.
-
-- Solid Vertical Rock Walls:
-  - Cols 8-11 across rows 2-5 (separates Ladder 2 pocket cols 4-7 from central/eastern sectors).
-  - Cols 12-13 across rows 5-13 and rows 18-27.
-  - Cols 18-19 across rows 14-23.
-  - Cols 30-31 across rows 16-27.
-  - Cols 22-23 across rows 16-23.
-  - Cols 6-8 across rows 28-30.
-
-- Verified Inter-Sector Connectors:
-  - Rows 14-17 Bypass (cols 10-17): Connects Western Corridor (cols 8-11) to Central Room (cols 14-17).
-  - Rows 11-13 Crossway (cols 14-23): Connects Central Room (cols 14-17) to East Channel (cols 20-22).
-  - Vertical Connector (cols 14-17, rows 28-29): Connects Row 24-27 Bypass to Lower South Highway (rows 30-33).
-
-- Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
-
-- Solid Western Boundary: Cols 0-1 (rows 26-34).
-
-- Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin.
-
-- Vertical Connector (rows 28-29, cols 14-17): Open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
-
-- Passage Routing: Row 31 South Highway is blocked at cols 22-24 by a rock pillar. Use the Row 27 Northern Bypass (cols 20-29, row 27) to travel between the eastern sector and the western sector.
-- Western Pocket (cols 2-5, rows 10-15): Closed dead end at row 16 across cols 2-5 [Verified Turn 6504-6505]. Path southward branches via the Row 9 Crossway (cols 2-10, row 9) into the Central-Western vertical channel (cols 8-10, rows 10-20+).
-## Discovered South Exit Ladder (Turn 10969)
-- **Ladder at (15, 33)**: Located at the south edge of B1F at (15, 33). Ascends directly to Rock Tunnel 1F South Exit Sector towards Route 10 South and Lavender Town.
 
 <hr>
 
 <h1><code>Locations/LavenderTown</code></h1>
 
-# Lavender Town - Points of Interest & Notes
+# Locations/LavenderTown
 
-## Connections
-- North: Route 10 South (x=10, y=68) [Entered Turn 11027]
-- West: Route 8 (leads towards Saffron Gatehouse & Underground Path to Celadon City)
-- South: Route 12 (leads towards Silence Bridge & Route 13)
-
-## Layout & Landmarks
-- Northern Entrance: Road enters at cols 10-11 connecting from Route 10 South.
-- Pokémon Center: Located at cols 2-5, rows 2-5 with south entrance door at (3, 5) and "POKé" sign at (4, 5). Interior: Nurse Joy at counter (3, 2), entrance mat at (3..4, 7).
-- Town Signpost / Board: Located at (9, 3) east of Pokémon Center.
-- Lavender Volunteer Pokémon House (Mr. Fuji's House): Located at cols 6-9, rows 8-9 with door at (7, 9) and signpost at (5, 9) [Surveyed Turns 11056-11064].
-  - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4) with magazine at (3, 3).
-  - Magazine text: "POKéMON Monthly Grand Prize Drawing! ... The application form is... Gone! It's been clipped out!"
-  - Residents & Dialogue:
-    - Girl at (3, 5): "That's odd, MR.FUJI isn't here. Where'd he go?"
-    - Resident at (6, 3): "This is really MR.FUJI's house. He's really kind! He looks after abandoned and orphaned POKéMON!"
-    - Nidorino at (1, 3): "Gaoo!"
-    - Psyduck at (6, 4): "Gwappa!"
-- Town Signpost: Located at (11, 9). Text: "LAVENDER TOWN - The Noble Purple Town" [Read Turn 11055].
-- NPCs & Dialogue:
-  - Local resident at (5, 7): "GHOSTs appeared in POKéMON TOWER. I think they're the spirits of POKéMON that the ROCKETs killed." [Turn 11051]
-  - Town center resident at (9, 10): "This town is known as the grave site of POKéMON. Memorial services are held in POKéMON TOWER." [Turn 11053]
-  - Resident near Pokémon Tower at (15, 9).
-
-- South-Central House (Name Rater): Located at cols 6-9, rows 12-13 with door at (7, 13) [Surveyed Turns 11067-11069].
-  - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4).
-  - Name Rater NPC at (5, 3): "Hello, hello! I am the official NAME RATER! Want me to rate the nicknames of your POKéMON?"
-- South-West House: Located at cols 2-5, rows 12-13 with door at (3, 13) [Surveyed Turns 11072-11075].
-  - Interior: Entrance rug at (2..3, 7). Central table at (3..4, 3..4).
-  - Girl at (2, 4): "I hate those horrible ROCKETS! That poor CUBONE's mother... It died trying to escape from TEAM ROCKET!"
-  - Cubone at (3, 5): "CUBONE: Kyarugoo!"
-
-- Pokémart: Located at cols 14-17, rows 10-13 with entrance door at (15, 13) and "MART" sign at (16, 13) [Cataloged Turn 11083].
-  - Catalog: Great Ball (¥600), Super Potion (¥700), Revive (¥1500), Escape Rope (¥550), Super Repel (¥500), Antidote (¥100), Burn Heal (¥250), Ice Heal (¥250), Parlyz Heal (¥200).
-
-- Pokémon Tower: Purple multi-story tower located in the northeast (cols 12-18, rows 2-10) with entrance door at (14, 5) and signpost at (17, 7) [Surveyed Turn 11092].
-  - Signpost text: "POKéMON TOWER - May the Souls of POKéMON Rest Easy".
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route8</code></h1>
 
-# Route 8 - Points of Interest, Topography & Encounter Zones
+# Locations/Route8
 
-## Connections
-- West: Route 7 / Celadon City via Underground Path (West entrance at Route 7 (12, 4) / building (5, 13); East entrance at Route 8 (13, 3))
-- East: Lavender Town at (59, 8) [Traversed Turn 11103, 14609]
-- Middle: Saffron East Gatehouse at cols 3-9, rows 8-11 (door at (9, 9))
+Placeholder to prevent data loss.
 
-## Topography & Verified Traversal Corridors
-- **Underground Path East Building**: Located at `(13, 3)`. North-south approach path along column 12/13 from row 12 up to row 3.
-- **Obstacle Topology & Stone Pillar Barriers**:
-  - Columns 48-51 (rows 2-11): Solid stone pillar structure blocks northern/central traversal.
-  - Column 40 (rows 11-15): Stone pillar column and bushes block lower path.
-  - Column 22 (rows 2-9): Stone pillar column blocks northern path.
-- **Verified Clear Horizontal Corridor**:
-  - **Row 12 / Row 13 Corridor**: Wide-open continuous southern road connecting Lavender Town (x=59) past all stone pillars to column 13.
-- **Tall Grass Fields**:
-  - West Vertical Strip: Column 16, rows 4-11.
-  - Southern Grass Plain: Rows 12-13, cols 16-25.
-- **Target Flyer Pool**:
-  - Pidgey / Pidgeotto on Route 8 / Route 10 (Catch with Great Ball -> Nickname ZEPHYR -> Teach HM02 Fly).
 
-## Route 8 Trainers & Gauntlet Tracking
-- Lass at (51, 12) [Defeated]
-- Lass at (26, 4) [Defeated Turn 15227: Nidoran♀ Lv 23, Nidorina Lv 23; Reward: ¥345]
-- Lass at (26, 5) [Defeated]
-- Lass at (26, 6) [Defeated]
-- Gambler at (46, 13), Gambler at (13, 9)
-- Super Nerd at (42, 6), Super Nerd at (26, 3), Super Nerd at (11, 5)
+<hr>
 
-## Eastern Memorial Garden Topography (Verified Turn 15023-15056)
-- Eastern Memorial Garden: Located at cols 44-53, rows 9-13 (headstones at rows 9-11, lawn at rows 12-13).
-  - Note: Ground is standard lawn turf (player sprite feet not masked by grass); tested 100+ steps with zero encounters. Does NOT generate wild battles.
-  - NPCs inside perimeter: Gambler at (46, 13) [Defeated], Lass at (51, 12) [Defeated].
-  - Traversal Route: Exit north via col 52 to row 2/3 northern corridor to bypass central pillar structure.
+<h1><code>Locations/UndergroundPath_Route7_Route8</code></h1>
 
-## Sectoral Corridor Status (Verified Turn 15211)
-- **Southern Thoroughfare (rows 12-14, cols 0-59)**: Fully surveyed & cleared. Gambler at (46, 13) defeated, Gambler at (13, 9) defeated, Lass at (51, 12) defeated. Open highway connects Lavender Town to Underground Path.
-- **Northern Corridor (rows 2-6, cols 0-59)**: Super Nerds at (42, 6), (26, 3), (11, 5) defeated. Lass at (26, 4) currently in battle.
-- **Tall Grass Sectors**:
-  - Western Field (cols 23-25, rows 7-13): 100% verified tall grass; safe pacing zone without trainers.
-  - West Vertical Strip (col 16, rows 4-11): Open tall grass.
+# Locations/UndergroundPath_Route7_Route8
 
-## Empirical Wild Encounter Log (Route 8 Tall Grass)
-| Encounter # | Turn | Species | Level | Outcome / Action |
-|---|---|---|---|---|
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/Route7</code></h1>
 
-# Route 7 - Points of Interest & Verified Topology
+# Locations/Route7
 
-## Connections
-- West: Celadon City at (0, 2..3) [North Highway] and (0, 14..15) [South Path] connecting directly to Celadon City
-- East: Saffron City West Gatehouse at cols 11-17, rows 8-11 (door at (11, 9))
-- South: Underground Path Entrance Building at (5, 13) connecting via 48-tile tunnel to Route 8
-
-## Layout & Verified Sectors
-1. **Western Highway to Celadon City (rows 2-3, cols 0-6)**: 2-tile wide paved highway.
-2. **Underground Path Building (5, 13)**: Direct fast-travel connection to Route 8. Exits onto row 14 path.
-3. **Southern Traverse Path (rows 14-15, cols 0-16)**: Unobstructed horizontal corridor directly connecting the Underground Path building exit (5, 14) west to Celadon City (0, 14..15) and east to Saffron Gate south apron.
-4. **Southern Forest Boundary (rows 16-19, cols 1-10)**: Solid tree border (cannot be traversed).
-5. **Middle Avenue & Saffron Gatehouse (rows 8-10, cols 2-16)**: Connects to Saffron West Gatehouse at (11, 9).
-6. **Northern Tall Grass Sector (rows 0-5, cols 8-13)**: Active wild encounter zone.
-
-## Verified Wild Encounters (Verified Turn 15331)
-- Pidgey (Lv 19) [Verified Turn 15088]
-- Bellsprout (Lv 19..22) [Verified Turn 14684]
-- Meowth (Lv 17) [Verified Turn 15327, Turn 15329 - fled cleanly via HYDROS]
-
-<hr>
-
-<h1><code>Locations/PokemonTower1F</code></h1>
-
-# Pokémon Tower 1F - Layout, Topology & Staircase
-
-## Connections
-- South Entrance/Exit: Warp to Lavender Town exterior at (10, 17) [South-center aisle]
-- Stairs to 2F: Located at (18, 9) on the eastern wall. Warp triggers upon stepping East from (17, 9) into (18, 9).
-
-## Floor Layout & Verified Topology
-- South Entrance (cols 9-11, rows 16-17): Flanked by mourning benches at (6..8, 16..17) and (12..15, 16..17).
-- Central Aisle: Runs along cols 9-11 from row 17 up to row 4.
-- West Sector: White lattice floor across cols 3-8, rows 5-13; NPCs at (6, 8) and (8, 12).
-- East Sector:
-  - Reception counter & desks at cols 13-17, rows 12-13.
-  - NPC Mourner at (17, 7) and Channeler at (15, 13).
-  - Open corridor along row 9 (cols 16-17) leading directly to the ascending staircase at (18, 9).
-- North Boundary: Solid wall along rows 1-3.
-- East Boundary: Solid pink wall along col 19.
-
-<hr>
-
-<h1><code>Locations/PokemonTower2F</code></h1>
-
-# Pokémon Tower 2F - Layout & Notes
-
-## Connections
-- Downstairs (1F): Stairs at (18, 9)
-- Upstairs (3F): Stairs at (3, 9)
-
-## NPCs & Points of Interest
-- Mourner / Channeler: Located at (3, 7). Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
-- Central Memorial Aisles: Gravestones and aisles across rows 2-13, cols 5-14
-
-## Encounters & Events
-- Rival RED Encounter: Challenged player upon entering 2F.
-  - Team: Pidgeotto Lv 25, Gyarados Lv 23, Growlithe Lv 22, Kadabra Lv 20, Ivysaur Lv 25 [Defeated Turn 11354, Reward: ¥1625]
-  - Post-battle dialogue: Mentioned catching a Cubone, searching for Marowak, and departed.
-
-<hr>
-
-<h1><code>Locations/Route12</code></h1>
-
-# Route 12 (Silence Bridge) - Points of Interest & Notes
-
-## Connections
-- North: Lavender Town at (8..9, 0) [Entered Turn 11564]
-- South: Route 13 (blocked by sleeping Snorlax)
-- West: Route 11 Gatehouse connection (further south)
-
-## Layout & Landmarks
-- Northern Entrance: 2-tile wide wooden bridge at cols 8-9 running south from Lavender Town (row 0).
-- Water bodies border both east (cols 10+) and west (cols 4-7).
-- Northern bridge walkway splits at row 10 into eastern (cols 10-11) and western (cols 4-5) paths connected by grass island (cols 8-9, rows 10-11).
-- Route 12 Gatehouse located at rows 16-19, cols 8-13 (north entrance at (10..11, 16)).
-
-## Route 12 Gatehouse Interior Layout
-- **1F Layout**:
-  - North entrance mat: (4..5, 0)
-  - South exit mat: (4..5, 7)
-  - Central open hallway: cols 3-6 across rows 0-7
-  - Left counter/guard area: cols 1-2, rows 1-4 (Guard at (1, 3))
-  - Right counter partition: cols 7-8, rows 1-4
-  - Staircase to 2F: located at (8, 6) [south-east corner behind right counter]
-- **2F Layout**:
-  - Staircase landing: (7, 7)
-  - Binoculars: north window at (1..2, 2..3) and (6, 2..3)
-  - NPC Girl: wanders near (3, 2..4) [Gives TM39 Swift]
-
-## Verified Trainers & Encounters
-- Fisherman #1: Located at (14, 31) [Defeated Turn 11610]. Team: Goldeen Lv 22, Poliwag Lv 22, Goldeen Lv 22. Reward: ¥770.
-  - Pre-battle: "Yeah! I got a bite, here!"
-  - Defeat quote: "Tch! Just a small fry!"
-
-- Fisherman #2: Located at (5, 39). Team: Tentacool Lv 24, Goldeen Lv 24.
-  - Pre-battle: "Be patient! Fishing is a waiting game!"
-
-- Fisherman #3: Located at (9, 52) [Defeated Turn 11640]. Team: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21. Reward: �735.
-  - Pre-battle: "I'd rather be working!"
-  - Defeat quote: "It's not easy..."
-
-## Key Items & Milestones
-- TM39 Swift (from NPC girl on Gatehouse 2F)
-
-## Roadblock & Landmarks
-- Sleeping Snorlax: Located at (10, 62) [Discovered Turn 11645]. Dialogue: "A sleeping POK�MON blocks the way!" Blocks the path to the southern sector of Route 12 and Route 13. Requires POK� FLUTE to awaken.
-- Signpost: Located at (11, 63) [Read Turn 11645]. Text: "SPORT FISHING AREA".
+Placeholder to prevent data loss.
 
 
 <hr>
 
 <h1><code>Locations/CeladonCity</code></h1>
-
-# Celadon City - Points of Interest & Topology
-
-## Connections
-- East: Route 7 at (49, 10..11) [Entered Turn 11727]
-- West: Route 16 at (0, 18) [Verified Turn 13886]
-
-## Major Buildings & Points of Interest
-- **Celadon Department Store**: Multi-story mega mart located at cols 8-15, rows 2-13 (North Main Door at (13, 3); South Service Door at (10, 13) / (10, 14)).
-  - 1F: Service Directory & Reception. Elevator at (1, 1), Stairs to 2F at (12, 1), South Exits at (16, 7..8).
-  - 2F (Trainer's Market): Left Clerk (Great Balls ¥600, Super Potions ¥700, Revives ¥1500, Super Repels ¥500); Right Clerk (TM32, TM33, TM02, TM07, TM37, TM01, TM05, TM09, TM17).
-  - 3F (TV Game Shop): Clerk gives TM18 (Counter).
-  - 4F (Wiseman Gifts): Clerk sells Evolution Stones (Fire, Thunder, Water, Leaf Stones ¥2100), Poké Doll (¥1000).
-  - 5F (Drugstore): Left Clerk (Battle Items); Right Clerk (Vitamins: HP Up, Protein, Iron, Carbos, Calcium).
-  - Roof (Rooftop Square): Vending Machines (Fresh Water ¥200, Soda Pop ¥300, Lemonade ¥350). Thirsty Girl trades drinks for TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack).
-- **Celadon Mansion**: Front Door at (24, 9); Rear Door at (24, 4) accessed via Northern Alleyway. Rooftop Penthouse gave EEVEE (PRISM) at (4, 3).
-- **Game Corner & Rocket Hideout**: Front Door at (28, 19). Switch behind poster at (9, 4) revealed hidden stairs to Rocket Hideout B1F-B4F (Giovanni defeated; Silph Scope retrieved from B4F).
-- **Celadon Pokémon Center**: Front Door at (41, 9) / local (3, 7). PC terminal at (13, 3..4).
-- **Celadon Gym**: Located at (12, 27) accessed via Cut bush at (35, 32) and southern grass boulevard (row 34). Leader Erika defeated (Rainbow Badge & TM21 Mega Drain).
-- **Celadon Hotel**: Front Door at (10, 21) flanked by canals.
-
-## Continuous Corridors across Celadon City
-1. **Northern Alleyway (rows 2-3, cols 0-48)**: Direct open bypass connecting Route 16 at (0, 2), Dept Store (13, 3), Mansion rear (24, 4), and Eastern lawn (45..48, 1..2).
-2. **Central Highway (row 10, cols 14-49)**: Paved road connecting Pokémon Center (col 41) and Route 7 (col 49).
-3. **Southern Boulevard (rows 18 & 22-23, cols 0-41)**: Paved thoroughfare connecting Route 16 (0, 18), Game Corner (28, 19), and Gym approach at (35, 32).
-
-<hr>
-
-<h1><code>Locations/RocketHideoutB1F</code></h1>
-
-# Team Rocket Hideout B1F - Topology & Dungeon Log
-
-## Connections & Warps
-- Stairs Up to Game Corner: Located at (21, 2), leads up to Celadon Game Corner at (17, 4) [Verified Turn 12308].
-- Stairs Down to B2F: Located at (23, 2), leads down to Rocket Hideout B2F at (27, 8).
-
-## Floor Layout & Verified Topology
-- Starting Chamber (cols 18-25, rows 0-4):
-  - South passage opening at cols 20-23 across row 4 leading into the central chamber.
-- Northwest Room (cols 9-18, rows 4-15):
-  - North wall at row 4. West wall at col 8.
-  - Opening to central corridor at col 14 (rows 5-7).
-  - Central table at (10..13, 12..13).
-  - Item Ball #1 at (11, 14): Escape Rope [Collected Turn 12206].
-  - Desk row at row 8 with walkable gap at (11..12, 8).
-  - Sealed horizontal wall along row 16 (cols 10-19) dividing upper half from elevator room.
-- Central & Southern Sectors (rows 10-25):
-  - Central corridor along cols 17-20 running south to dead-end wall at row 16.
-  - Elevator Doors: Located at (24..25, 16) with entry mat in southern lobby (cols 24-28, rows 17-19).
-  - Southern sector is sealed by walls and only accessible via the elevator.
-
-## Verified Trainers & Encounters
-- Rocket Grunt #1: Located at (26, 8) facing West [Defeated Turn 12192].
-  - Team: Drowzee Lv 21, Machop Lv 21. Reward: ¥630.
-  - Pre-battle quote: "Who are you? How did you get here?"
-  - Defeat quote: "Oww! Beaten!"
-- Rocket Grunt #2: Located at (12, 6) facing East [Defeated Turn 12203].
-  - Team: Raticate Lv 21, Raticate Lv 21. Reward: ¥630.
-  - Defeat quote: "Burnt!"
-  - Post-battle quote: "You're not going to get away with this, brat!"
-- Rocket Grunt #3: Located at (28, 18) in the elevator lobby [Discovered Turn 12659].
-
-<hr>
-
-<h1><code>Locations/RocketHideoutB2F</code></h1>
-
-# Team Rocket Hideout B2F - Conveyor Network & Topology
-
-## Connections & Warps
-- Stairs Up to B1F: Located at (27, 8).
-- Stairs Down to B3F: Located at (21, 22).
-- Stairs Down to B4F: Located at (21, 8), leads down to Rocket Hideout B4F at (25, 6).
-
-## Verified Conveyor Network Routes (100% Tested & Verified Turn 14794-14799)
-- Shortcut Route: From (18, 11), step Left onto (17, 11) [Left] -> slides across row 11 -> (12, 11) [Up] -> (12, 9) [Left] -> lands on Stop Tile (2, 9).
-- Route 3: From Stop Tile (2, 9) -> Down 2 to (3, 11) -> Right onto (4, 11) [Right] -> slides across row 11 -> lands on Stop Tile (8, 11).
-- Route 4: From Stop Tile (8, 11) -> Right 2 to (10, 11) -> Down 3 to (10, 14) -> Right onto (11, 14) [Down] -> slides through (11, 16) [Right] -> (15, 16) [Down] -> lands on Stop Tile (15, 18).
-- Route 5: From Stop Tile (15, 18) -> Left 2 onto (13, 18) [Left] -> slides through (11, 18) [Down] -> lands on Stop Tile (11, 20).
-- Route 6: From Stop Tile (11, 20) -> Right 3 to (14, 20) -> Down 2 to (14, 22) -> Left onto (13, 22) [Left] -> slides through (9, 22) [Down] -> lands on Stop Tile (9, 24).
-- Route 7 (Elevator Lobby & B3F Stairs Access):
-  - From Stop Tile (9, 24) -> Right 1 to (10, 24) -> Down onto (10, 25) [Right] -> slides across row 25 -> lands on Stop Tile (14, 25).
-  - From Stop Tile (14, 25) -> Right 2 to (16, 25) -> Up 4 to (16, 21) -> East across row 21 (passing wall gap at (18, 21)) -> (22, 21).
-  - From (22, 21): Stairs to B3F are at (21, 22); Elevator entrance is at (24, 19) / (25, 19) via (22, 18) -> (24, 18) -> (24, 19).
-
-## Floor Layout & Item Balls
-- Northwest Sector:
-  - Item Ball at (1, 11): Moon Stone [Collected Turn 12239].
-  - Item Ball at (6, 12): TM07 Horn Drill [Collected Turn 12242].
-  - Item Ball at (16, 8): Nugget [Collected Turn 12258].
-- Southwest Sector:
-  - Item Ball at (3, 21): Super Potion [Collected Turn 12346].
-  - Traversed perimeter: col 1 (rows 15-26) and row 25 (cols 1-6).
-  - Row 25 blocked at col 7 by tables (7..9, 25).
-  - Interior contains maze tables and spin tiles.
-
-## Verified Trainers
-- Rocket Grunt at (20, 12) [Defeated Turn 12234]:
-  - Team: Drowzee Lv 17, Machop Lv 17.
-  - Post-battle dialogue: "The TEAM ROCKET HQ has 4 basement floors. Can you reach the BOSS?"
-
-<hr>
-
-<h1><code>Locations/RocketHideoutB3F</code></h1>
-
-
-
-<hr>
-
-<h1><code>Locations/RocketHideoutB4F</code></h1>
-
-# Rocket Hideout B4F - Layout, Boss Giovanni & Silph Scope
-
-## Connections
-- Elevator: Connects B1F, B2F, and B4F (Elevator shaft at (24..25, 13..14); requires LIFT KEY).
-- Stairs to B2F: Ascending staircase at (25, 6) connects directly to B2F at (21, 8).
-
-## Floor Layout & Partitioned Sectors
-- **Northern Staircase Sector (cols 9-25, rows 5-8)**:
-  - Stairs up to B2F at (25, 6).
-  - Divided from Giovanni's Office by solid horizontal wall along row 4 (cols 9-25).
-  - Connected to southern corridor via opening at cols 26-28 across rows 9-11.
-- **Southern Sector & Elevator Lobby (cols 22-28, rows 12-19)**:
-  - Elevator doors at (24..25, 13).
-  - Defeated Rocket Grunt post at (26, 12).
-  - Unlocked doorway leading north into Giovanni's Office at (24..25, 11).
-- **Giovanni's Executive Office (cols 22-26, rows 2-11)**:
-  - Accessible ONLY from the south via (24..25, 11).
-  - Boss Giovanni defeated at (25, 3).
-  - **SILPH SCOPE** Item Ball located at `(25, 2)`.
-
-## Silph Scope Retrieval Protocol
-1. From southern room/elevator (23, 16), walk north through doorway (23, 13) to (25, 12).
-2. Walk north through open doors at (24..25, 11) directly into Giovanni's Office.
-3. Collect the **SILPH SCOPE** Item Ball at `(25, 2)`.
-
-
-<hr>
-
-<h1><code>Locations/RocketHideoutB3F.md</code></h1>
 
 
 
@@ -1497,884 +317,1417 @@
 
 <h1><code>Locations/CeladonGym</code></h1>
 
-# Celadon Gym - Layout, Trainers & Leader Erika
+# Locations/CeladonGym
 
-## Overview & Location
-- Location: Southern sector of Celadon City.
-- Access: Requires HM01 Cut on exterior bush at (35, 32) and interior bush at (5, 7).
-
-## Interior Layout & Verified Trainers
-- Entrance: Carpet at (4..5, 17) with south exit at row 18.
-- Statues: Left statue at (3, 14..15), Right statue at (6, 14..15).
-- Central Aisle: 2-tile wide grey floor corridor at cols 4-5 (rows 8-16).
-- Trainers Defeated:
-  - Lass at (2, 11) [Defeated Turn 13788]
-  - CooltrainerF at (5, 5) [Defeated Turn 13800]
-  - Beauty at (3, 4) [Defeated Turn 13806]
-  - Lass at (6, 4) [Defeated Turn 13813]
-
-## Leader Erika Victory & Rewards
-- **Leader Erika Defeated**: Turn 13821
-  - Team swept: Victreebel Lv 29, Tangela Lv 24, Vileplume Lv 29 (all OHKOed by HYDROS Ice Beam).
-  - Rewards: RAINBOW BADGE (4/8 Badges) + TM21 (Mega Drain).
-  - Badge Effects: Pokémon up to Lv 50 obey; allows HM04 Strength field usage.
-- **Exit Warp**: Carpet at (4..5, 17) -> step Down to row 18 warps directly to Celadon City at (12, 28).
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/Route16</code></h1>
+<h1><code>Locations/PokemonTower</code></h1>
 
-# Route 16 - Points of Interest & Topology
+# Locations/PokemonTower
 
-## Connections
-- East: Celadon City (connects directly from Celadon City (0, 18) -> Route 16 (39, 10)) [Verified Turn 13886]
-- West: Route 17 / Cycling Road (southern path blocked by Snorlax; northern path bypasses gatehouse to Secret House)
-
-## Topography & Verified Encounter Zones (Turn 14160)
-- **Southern Thoroughfare (rows 10-11, cols 27-39)**:
-  - Wide paved road connecting Celadon City to the Route 16 Gatehouse.
-  - Signpost at (27, 11).
-  - Sleeping Snorlax at (26, 10) [Awakened with Poké Flute & Defeated Turn 15395; Cycling Road open!]
-- **Northern Cut Bypass & Obstacle**:
-  - Cut bush located at `(34, 9)` [Clearing allows entry to northern corridor].
-  - Note: Cut bush respawns on map reload/transitions.
-- **Northern Paved Path (rows 6-7, cols 24-35)**:
-  - Light green path with grey dash texture (no wild encounters).
-- **Tall Grass Patches (Wild Encounter Zones)**:
-  - **Southern Grass Strip**: Row 8, cols 24-34 (verified tall grass with clover/crosshatch texture).
-  - **Northern Grass Strip**: Rows 2-3, cols 24-27 (tall grass patch north of gatehouse entrance).
-  - **West Grass Corner**: Rows 6-7, cols 24-25.
-  - Wild encounters: Doduo, Spearow, Fearow, Rattata, Raticate.
-- **Route 16 Gatehouse Upper Corridor**:
-  - East Entrance Door: Located at `(24, 2)`.
-  - Interior Corridor: (0..7, 2) with guard at (4, 3).
-  - West Exit Door: Located at `(0, 2)` -> warps to Route 16 West exterior at `(17, 4)`.
-- **Route 16 West Secluded Sector (rows 4-6, cols 0-17)**:
-  - Path leading from gatehouse west door (17, 4) to Secret House door at `(7, 5)`.
-- **Secret House**:
-  - Exterior Door: Located at `(7, 5)`.
-  - Secluded Girl NPC: Located at `(2, 3)`. Dialogue: "Oh, you found my secret retreat! Please don't tell anyone I'm here. I'll make it up to you with this!"
-  - Reward: **HM02 (FLY)** [Obtained Turn 13928]!
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/PokemonTower3F</code></h1>
+<h1><code>Locations/Route12</code></h1>
 
-# Pokémon Tower 3F - Layout, Encounters & Staircases
+# Locations/Route12
 
-## Connections
-- Downstairs (2F): Stairs at (3, 9)
-- Upstairs (4F): Stairs at (18, 9) on the eastern wall
-
-## Floor Layout & Items
-- Northwest stairs down to 2F at (3, 9).
-- Central gravestones across cols 7-14.
-- Item Ball: Escape Rope at (12, 1..2).
-- East staircase ascending to 4F at (18, 9).
-
-## Verified Encounters & Trainers
-- Wild Encounters: Gastly (Lv 19 verified in wild battle Turn 14313; Silph Scope successfully unmasks ghost sprite).
-- Channelers:
-  - Channeler Patricia at (10, 13) [Verified in battle Turn 14322: Gastly Lv 22]
-  - Channeler Carly at (8, 11) [Empirical battle pending]
-  - Channeler Hope at (10, 3) [Empirical battle pending]
-
-## Combat Readiness & PP Reserves (Turn 14886)
-- Active Lead: HYDROS (Blastoise Lv 49, HP 162/162)
-- Moves & PP Reserves: Skull Bash (15/15), Ice Beam (8/10), Bite (25/25), Bubblebeam (20/20)
-- Trainer Status: Channeler Patricia at (10, 13) [Defeated], Channeler Carly at (8, 11), Channeler Hope at (10, 3)
-- Wild Encounters: Gastly Lv 18-22 (Unmasked by Silph Scope, 100% OHKO via Ice Beam / Bite / Bubblebeam)
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/PokemonTower4F</code></h1>
+<h1><code>Locations/Route13</code></h1>
 
-# Pokémon Tower 4F - Layout, Items & Encounters
+# Locations/Route13
 
-## Connections
-- Downstairs (3F): Stairs at (18, 9) on the eastern wall
-- Upstairs (5F): Stairs at (3, 9) on the western wall
-
-## Floor Layout & Item Balls
-- East descending stairs at (18, 9).
-- Open horizontal traversal aisle along row 5 and row 3/4.
-- Item Ball 1 at (12, 10): Elixer [Collected Turn 14368].
-- Item Ball 2 at (9, 10): Awakening [Collected Turn 14897].
-- Item Ball 3 at (12, 16): Uncollected [Pending collection after clearing Bag space at PC].
-- Northwest ascending stairs to 5F at (3, 9).
-
-## Verified Encounters & Trainers
-- Wild Encounters: Gastly, Zubat (Unmasked by Silph Scope).
-- Channelers:
-  - Channeler Laurel / Paula at (15, 8) [Defeated Turn 14347: Gastly Lv 23, Gastly Lv 23; Reward: ¥690]
-  - Channeler Jody [Empirical battle pending]
-
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/PokemonTower5F</code></h1>
+<h1><code>Locations/Route14</code></h1>
 
-# Pok�mon Tower 5F - Layout, Purified Zone & Encounters
+# Locations/Route14
 
-## Connections
-- Downstairs (4F): Stairs at (3, 9) on the western wall
-- Upstairs (6F): Stairs at (18, 9) on the eastern wall
-
-## Floor Layout & Landmarks
-- West descending stairs to 4F at (3, 9).
-- East ascending stairs to 6F at (18, 9).
-- Purified Zone (Sacred Ground) at cols 10-11, rows 8-9 with Channeler at (12, 8). Automatically restores party HP/PP/status and protects against wild encounters.
-- Item Ball 1 at (6, 8): Rare Candy [Collected Turn 14503].
-- Item Ball 2 at (6, 14): Uncollected [Discovered Turn 14463, re-verified Turn 14545; blocked by 20-item bag cap].
-- Continuous horizontal traversal corridors along row 3 (cols 10-15), row 6 (cols 3-11), and row 12 (cols 7-14).
-
-## Verified Encounters & Trainers
-- Wild Encounters: Gastly, Haunter (Lv 22 verified Turn 14540).
-- Channelers:
-  - Channeler at (16, 5) [Defeated Turn 14418]: Gastly Lv 24.
-  - Channeler at (9, 5) [Defeated Turn 14427]: Gastly Lv 24.
-  - Channeler at (9, 16) [Defeated Turn 14544]: Haunter Lv 22.
-  - Channeler at (6, 10) [Defeated Turn 14548]: Gastly Lv 24.
-
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/PokemonTower6F</code></h1>
+<h1><code>Locations/Route15</code></h1>
 
-# Pok�mon Tower 6F - Layout, Ghost Marowak & Staircases
+# Route 15 Gatehouse - Split-Level Layout & Navigation Guide
 
-## Connections
-- Downstairs (5F): Descending stairs at (18, 9) on the eastern wall
-- Upstairs (7F): Ascending stairs at (9, 16) in the south-central sector
+## Overview
+The Route 15 Gatehouse physically divides the overworld of Fuchsia City (West) from Route 15 (East) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
 
-## Floor Layout & Key Landmarks
-- East descending stairs to 5F at (18, 9).
-- South-central ascending stairs to 7F at (9, 16).
-- Boss/Event Encounter: Ghost Marowak (Lv 30) triggers at (10, 16) directly in front of the 7F stairs.
-  - Dialogue: "Be gone... Intruders..."
-  - Requires SILPH SCOPE to unmask as the restless soul of Cubone's mother and battle.
-  - Without Silph Scope: "Darn! The GHOST can't be ID'd!" -> blocks passage to 7F.
+## First Floor (1F) - West Room
+- **West Exit/Entrance (Fuchsia City):** Connects to Fuchsia City at `(0, 9)`.
+- **Stairs to 2F:** Located at `(7, 9)`. Walking onto this tile immediately warps the player to the 2F West side at `(0, 5)`.
 
-## Verified Encounters & Trainers
-- Event Ghost: Lv 30 Ghost Marowak at (10, 16) [Defeated Turn 14946-14947].
-  - Unmasked by Silph Scope: "The GHOST was the restless soul of CUBONE's mother!"
-  - Defeated by HYDROS with Ice Beam (1HKO, 531 EXP).
-  - Event Resolution: "The mother's soul was calmed. It departed to the afterlife..."
-  - Stairs at (9, 16) to 7F are now accessible.
-- Channelers:
-  - Channeler at (9, 5) facing South [Spotted Turn 14522]
-  - Channeler at (12, 10) facing West [Spotted Turn 14522]
-  - Channeler at (16, 5) facing West [Spotted Turn 14525]
+## First Floor (1F) - East Room
+- **Stairs Landing (From 2F):** The player lands at `(6, 8)` after going down the stairs from the 2F.
+- **Stairs to 2F:** Located at `(7, 8)`. Walking onto this tile immediately warps the player back to the 2F.
+- **Corridor:** Located at Row 9. To reach it from the landing, walk DOWN to `(6, 9)`.
+- **East Exit/Entrance (Route 15 Overworld):** Walk right along Row 9 to transition to Route 15 overworld at `(8, 9)`.
 
-- Item Ball at (14, 14): Collected [Turn 14926].
-
-<hr>
-
-<h1><code>Locations/PokemonTower7F</code></h1>
-
-# Pokémon Tower 7F - Layout, Team Rocket Gauntlet & Mr. Fuji
-
-## Connections
-- Downstairs (6F): Descending stairs at (9, 16)
-
-## Floor Layout & Landmarks
-- Central aisle along cols 9-11 from row 16 up to row 3.
-- Mr. Fuji located at (10, 3) / (10, 2) at the top.
-- Interacting with Mr. Fuji warps player to Volunteer Pokémon House in Lavender Town.
-
-## Verified Trainers & Grunts
-- Team Rocket Grunt 1 at (9, 11) [Defeated Turn 14965-14966]:
-  - Team: Zubat Lv 25, Zubat Lv 25, Golbat Lv 25. Reward: ¥750.
-- Team Rocket Grunt 2 at (12, 9) [Defeated Turn 14978-14979]:
-  - Team: Koffing Lv 26, Drowzee Lv 26.
-- Team Rocket Grunt 3 (Row 7) [Defeated Turn 14994]:
-  - Team: Zubat Lv 23, Rattata Lv 23, Raticate Lv 23, Zubat Lv 23.
-
-<hr>
-
-<h1><code>Locations/Route18</code></h1>
-
-# Route 18 - Points of Interest & Gatehouse
-
-## Connections
-- North: Route 17 (Cycling Road slope) at (6..9, 0)
-- East: Route 18 Gatehouse at (34..35, 8..9) connecting to Fuchsia City
-- South: Water / barrier along row 10
-
-## Layout & Features
-- Western road connects from Cycling Road at (6, 0) down to (6, 9), then turns east across rows 8-9.
-- Gatehouse located at cols 34-36, rows 6-10.
-- East exit of Gatehouse connects to Fuchsia City entrance.
-
+## Second Floor (2F)
+- **Stairs (To 1F East Room):** Located at `(6, 8)`. Walking onto this tile warps the player down to the 1F East Room landing at `(6, 8)`. Note that if you have just warped onto `(6, 8)`, you must walk off the tile (e.g., Left to `(5, 8)`) and then back onto it to trigger the warp again.
+- **Doormat/Exit (Fuchsia City Side):** Red-checkered doormat tiles are at `(7, 4)` and `(7, 5)` which connect back to the West Room of the gatehouse.
 
 <hr>
 
 <h1><code>Locations/FuchsiaCity</code></h1>
 
-# Fuchsia City - Points of Interest & Topology
+# Fuchsia City - Overworld Layout & Points of Interest
 
-## Connections
-- West: Route 18 at (0, 16..17) [Verified Turn 15433]
-- East: Route 15 Gatehouse at (39, 14..17) [Visible avenue at cols 38-42 rows 16-17 Turn 15476]
-- South: Route 19 (Sea Route 19 to Seafoam Islands) at (18..23, 35) [Visible beach transition Turn 15451]
-- North: Safari Zone Gate [Hypothesis: Located at north-central boundary]
+## Map Transitions & Connections
+- **East Connection (Route 15):** Transition at Fuchsia City `(39, 17)` connects directly to Route 15 `(0, 9)` on the western corridor (Player entered Fuchsia City on Turn 20389).
+- **East Gatehouse (Route 15 Gate):** Located at rows 8-9, columns 8-12 on Route 15, with west exit at `(7, 9)`. Inside, the mat is at `(7, 5)` (east) and `(0, 5)` (west).
+- **South Exit (Route 19 Connection):** Transition at Fuchsia City `(23, 35)` connects directly to Route 19 at `(13, 0)` (verified on Turn 20873).
 
-## Major Landmarks & Buildings (Empirically Verified)
-- **Safari Zone Warden's House**: Located at (26..29, 25..27) with door at (27, 27) [Entered Turn 15454; Warden at (2, 3) seeks Gold Teeth for HM04 Strength; boulder inside].
-- **Fishing Guru's Brother**: Located at (30..33, 25..27) with door at (31, 27) [Entered Turn 15458; received Good Rod Turn 15461].
-- **Fuchsia Pokémart**: Located in northwest sector at (4..7, 12..13) with "MART" sign [Verified Turn 15441].
-- **Fuchsia Pokémon Center**: Located in south-central sector at (18..21, 24..27) with door entrance at (19, 27) and 'POKE' sign at (20, 27) [Verified Turn 17432].
-- **Fuchsia Gym**: Located in southwest corner at (4..9, 22..26) [Verified exterior roof & awning Turn 15434, 15439].
-- **Safari Zone Gatehouse**: Located in northern sector at (18..21, 0..3) with entrance door at (18, 3) accessed from south path at (18..21, 4) [Reached Turn 15528].
-- **Safari Zone**: Located through Safari Zone Gatehouse [Objective: Retrieve HM03 Surf & Gold Teeth].
+## Physical Layout & Exploration
+- **Regrowing Cut-able Bush (26, 13):** Crucial mechanic! This bush regrows immediately upon reloading the map or entering/exiting the Safari Zone. Always ensure TRUFFLE (Paras) is in the party to CUT it when navigating Column 26 down to row 14.
+- **Continuous House Roof Obstruction (Rows 22-23, Columns 12-23):** This massive horizontal roof completely blocks north-south traversal in the center-west of Fuchsia City. To go from north-middle to south-middle, you can walk Left to Column 1, walk Right to Column 24, or use the walkable ledge gaps at Column 8 Row 31/32 and Column 16 Row 31/32.
+- The eastern part of Fuchsia City has a Zoo/Safari Zone area with walled pens (bordered by grey Rhydon statues).
+- Columns 18-22 on Rows 22-23 form the roof of a house.
+- Column 23 has a walkable paved corridor running from Row 17 to Row 31 connecting the east and west sides.
+- Row 33 has a horizontal row of grey Rhydon statues (columns 24-35).
+- Row 34 has trees blocking southern movement at columns 30-35.
+- Column 2 has a solid vertical wall/fence running from Row 24 to Row 31, dividing the western Gym area from the eastern center. Bypassed by walking south to Row 32.
 
-- **Central House (Bill's Grandpa's House)**: Located at (20..25, 12..13) with front door at (22, 13) [Surveyed Turn 15491-15500]. Inside: Bill's Grandpa at (4, 1) notes the Safari Zone Warden is nicknamed Slowpoke; camper NPC at (0, 2) mentions Warden collects extinct Pokémon fossils.
-## Verified Fuchsia City Topology & Corridors
-- **Northern Avenue (row 6, cols 2-37)**: Completely open east-west avenue connecting Western Corridor (col 3), Safari Gatehouse (18, 3), and eastern sectors.
-- **Western Corridor (cols 2-3, rows 6-28)**: Main unobstructed north-south thoroughfare connecting Northern Avenue (row 6), Pok�mart (cols 4-7, rows 12-13), Gym entrance (col 4), and South Street (row 28).
-- **Southern Central Highway (row 21, cols 2-37)**: Paved thoroughfare north of southern buildings.
-- **South Street (row 28, cols 2-37)**: Continuous paved walkway running in front of Fuchsia Gym (col 5), Pok�mon Center (col 21), Safari Warden's House (col 27), and Fishing Guru's House (col 31).
-- **Internal Zoo Obstacles**: Row 16 has continuous tree/fence/pond barriers across cols 10-35; traversal between north and south halves of the city must use the Western Corridor (cols 2-3).
+## Landmarks & Points of Interest
+- **Pokémon Center:** Located in the southeast quadrant. Verified entrance door is at `(19, 27)`. Inside, entrance mat is at `(3, 7)` and Nurse Joy is at `(3, 2)`.
+- **Fuchsia City Gym:** Located in the southwest quadrant at columns 4-6, rows 26-27. Verified entrance door is at `(5, 27)` facing south. Gym signpost is at `(5, 29)`.
+- **Poké Mart:** Entrance door is at `(11, 27)` (verified on Turn 20864). Inside, the entrance mat is at `(2, 7)`, and the clerk is behind the counter at `(2, 3)`.
+- **Warden's House:** Located in the southeast at `(27, 27)` (verified on Turn 20885). Inside, Warden resides and speaks in gibberish until his Gold Teeth are returned.
+- **Regular House (Slowpoke Fan):** Entrance at `(22, 13)` (verified on Turn 20903). The resident inside says: "We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"
+- **Safari Zone Gatehouse:** Located at columns 18-21, rows 0-3 on Fuchsia City map. The verified entrance door is at `(18, 3)` facing south.
+- **Verified Northern Route to Safari Gatehouse (CUT-free Eastern Bypass):** Walk Left to Column 13 (bypassing the checkerboard fence posts), walk Up Column 13/14 to Row 14, walk Right along Row 14 (bypassing Row 15 trees) to Column 35, walk Right to Column 37, walk Up Column 37 to Row 2, walk Left along Row 2 to Column 22, walk Down to Row 4, and Left to enter the Gatehouse at (18, 3). This route is completely CUT-free and does not require any badges!
+
+## Spatial Layout Clarifications & Routing
+- **Row 31 Walkability:** Row 31 is NOT a solid horizontal ledge on Columns 1-9. It is fully walkable going UP (and Down). It is merely a decorative border tile of the path, not an impassable cliff ledge.
+- **Path Around the Pokémon Center (Corrected):**
+  - The Pokémon Center is located at columns 18-21, rows 22-27 with the entrance door at `(19, 27)`.
+  - The hypothesized route via Column 1 and Row 32 is BLOCKED because the Slowpoke pen on Row 32 (Columns 10-14) is impassable.  - **Actual Verified Path to Pokémon Center from North:**
+    - Walk Left to Column 1, and walk DOWN Column 1 to Row 32 (bypassing the solid Column 2 vertical wall/fence).
+    - Walk Right along Row 32 to Column 8.
+    - Walk UP Column 8 through the walkable ledge gap at Column 8 Row 31/32 to Row 28.
+    - Walk Right along Row 28 to Column 19, and walk UP to `(19, 27)` to enter the Pokémon Center.
+
+
+## Consolidated Overworld Barriers & Layout Map
+- **Column 23 Solid Vertical Brick Wall (Rows 26-31):** Completely blocks all horizontal crossing on these rows.
+- **Column 25 Solid Fence Posts (Rows 23-26, and 28-29):** Completely blocks horizontal crossing. The ONLY open gaps in this fence are at Row 27 `(25, 27)` and Row 30 `(25, 30)`.
+- **Column 24 Vertical Corridor:** Completely open vertically from Row 20 down to Row 28. But blocked at Row 29 by a solid fence, and completely open and walkable vertically without any ledge or obstacle (verified on Turn 41246).
+- **Column 22/23 North-South Corridor Ledge:** Column 23 Row 22 has a horizontal ledge/fence that cannot be jumped down from the north (Row 21 to Row 22 is blocked on Columns 22-23).
+- **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees blocking vertical crossing. Row 16 is open on Columns 23-26.
+- **Row 7 Horizontal Barrier (Columns 13-35):** Solid horizontal pine tree wall. The ONLY vertical gap in this barrier is at Column 37, allowing vertical movement between Row 8/9 and Row 2.
+- **Checkerboard Fence Posts (Rows 19-21, Columns 14-21):** An interlocking grid of solid fence posts (Row 19: odd columns blocked; Row 20: even columns blocked; Row 21: odd columns blocked). Completely prevents crossing between Row 20 and Row 21 across Columns 14-17. Column 18 Row 21 is open, but Row 22 on Columns 18-21 is blocked by the Pokémon Center building. Column 13 is open and bypasses the entire checkerboard!
+- **Row 32 Open Bypass (CORRECTED):** Row 32 is NOT open all the way from Column 25 to Column 19. It is blocked at Column 24/25 (by a solid fence/building and/or Hiker NPC), making it a dead end on the eastern side.
+
 
 <hr>
 
-<h1><code>Locations/SafariZone</code></h1>
+<h1><code>notepads/Locations/FuchsiaGym.md</code></h1>
 
-# Safari Zone - Navigation, Mechanics & Progression
 
-## Mechanics & Rules
-- Entry Fee: ¥500 for 30 Safari Balls and 500 step count budget.
-- Catch Mechanics: Rock (increases catch rate, increases flee chance), Bait (decreases flee chance, decreases catch rate), Safari Ball, Run.
-- Step Budget Management: Walk with direct, deliberate routing to minimize wasted steps.
 
-## Critical Objectives (Area 3 Targets)
-1. **Gold Teeth**: [OBTAINED Turn 17210] Located at (19, 7) in Safari Zone Center. Deliver to Warden Slowpoke at (27, 27) in Fuchsia City for HM04 Strength.
-2. **Secret House**: [OBTAINED Turn 17226] Located in secluded western courtyard of Safari Zone Center at (3, 3). Attendant gives HM03 (Surf).
+<hr>
 
-## Map Topology & Verified Connectivity
-- **Gatehouse**: Entrance at Fuchsia City (18, 3). Pay ¥500 to enter Safari Zone Center (Area 0) at (15, 24).
-- **Center Area (Area 0)**:
-  - East exit: (29, 10) -> Area 1 (East) at (0, 22). [Verified single overworld exit]
-  - North border: Row 0 is solid wall of trees [Verified Turns 16341-16342; no north exit].
-  - West border: Col 0 is solid trees along rows 2-33 [Verified Turns 16333-16337; no west exit].
-  - Signpost at (4, 25): "TRAINER TIPS: The SECRET HOUSE is still ahead!".
-  - **Area 1 (East)**: Connects Center (0, 22) to Area 2 (North) at (0, 5) -> (39, 31).
-- **Area 2 (North)**:
-  - East exit: (39, 31) -> Area 1 (East) at (0, 5).
-  - South border: Row 36 drops south into Center Area at (20, 0) and (14, 0).
-  - West border (rows 0-35): 100% Empirically verified solid trees and bushes along column 0 (rows 0-35 surveyed Turns 17192-17195). There is NO west exit in Area 2 (North).
-  - Area 3 (West) is accessed via Safari Zone Center (Area 0) western/southwest perimeter near signpost at (4, 25).
-  - Southwest sector topology & obstacle grid:
-    - Southwest Gazebo Structure: cols 4-5, rows 24-25 (solid decorative stone shelter, impassable obstacle).
-    - Vertical Tree Barrier: col 5, rows 20-23 and rows 26-27.
-    - Southeast Pond: cols 8-11, rows 24-29 (blue water with brown shore).
-    - Northwest Pond: cols 4-7, rows 18-19 (blue water with brown shore).
-    - Western Lawn: cols 2-4, rows 20-33 (fully open grass).
-    - Eastern Corridor: cols 6-11, rows 20-22 (open grass connecting to col 12 north).
-  - Verified Internal Thoroughfares:
-    - Central Ridge: Ascent stairs at (22, 23), Descent stairs at (16, 27) [Verified Turns 16454-16456, 16524-16526].
-    - Vertical Corridor: Column 12/13 grass corridor connects row 28 to row 5/6 [Verified Turns 16495-16499, 16527, 16534].
-    - Northern Highway: Row 2 links col 38 to col 2 [Verified Turns 15713, 16182, 16291, 16534]. Bypass trees at (11..15, 4) via column 10 (rows 2-6).
-- **Area 3 (West) / Secluded Center Courtyard**: Gold Teeth recovered at (19, 7) in Safari Zone Center [Turn 17210]; Secret House accessed at (3, 3) in Safari Zone Center [Turn 17226].
+<h1><code>notepads/Locations/FuchsiaGym</code></h1>
 
-## Area 1 (East) Topology & Verified Landmarks
-- West Entrance: (0, 22) from Safari Zone Center (Area 0).
-- Lower Ridge Ascent Stairs: (12, 21) leading onto ridge spanning rows 20-21, cols 12-20.
-- Lower Ridge Descent Stairs: (20, 21) leading down to eastern clearing (cols 20-28, rows 22-25).
-- Northern Plateau Ascent Stairs: (24, 15) leading up from (24, 16) to (24, 14) onto plateau (rows 12-14, cols 20-27). (Elevated overlook bounded by water/cliffs to north/west/east; dead-end overlook with no exit north).
-- Item Ball: (21, 10) located on the lower northern lawn north of the water pond.
-- **Upper Ridge & Eastern Route**:
-  - Ascent stairs at (12, 7) accessed from ground at (12, 8) leading to plateau (cols 10-19, rows 4-6).
-  - Note: (10, 4) is an impassable northwest cliff corner (cannot walk west directly off plateau).
-  - Descent stairs at (17, 7) leading down to eastern ground at (17, 8).
-  - Route around eastern cliff: From (17, 8), walk east to col 20, north along col 20 to row 1, then west along row 1 across northern grass to (0, 1) and south to (0, 5).
-  - Northwest exit at (0, 5) transitions directly into Safari Zone Area 2 (North) at (39, 31).
-- Solid Boundaries: Column 29 is a vertical rock/hedge barrier (eastern map boundary); northern border along row 0 is solid rock/hedge barrier.
-## Interior Locations
-- **East-Central Rest House (Area 2 North)**:
-  - Exterior: Located at cols 34-37, rows 2-3 with entrance door at (35, 3) and signpost at (36, 4).
-  - Interior: Entrance mat at (2..3, 7). NPCs at (1, 4), (3, 4), (7, 3). PC terminal at (0, 4). Safari steps do not decrement while inside.
-## East-Central Plateau (Area 2 North) Topology (Verified Turn 16930)
-- **South Ascent Stairs**: (28, 27) leading up from (28, 28) onto plateau at (28, 26).
-- **Southern Plateau**: cols 27-38, rows 24-26 (sandy elevated floor).
-- **Connecting Bridge Walkway**: cols 37-38, rows 16-23 (elevated 2-tile wide path flanked by cliffs).
-- **Northern Plateau**: cols 33-38, rows 12-14 (sandy elevated floor).
-- **North Descent Stairs**: (34, 15) leading down to (34, 16) into the central clearing.
-## Central Clearing (Area 2 North) (Verified Turn 16954)
-- Bounded on the west by solid vertical tree wall along column 16 (rows 13-19).
-- Bounded on the south by cliff along row 20 (cols 15-22).
-- Accessed solely via North Descent Stairs at (34, 15) -> (34, 16).
-- Southern sector is divided by column 17 vertical tree barrier (rows 28-33); crossing east-to-west requires ascending Central Ridge at (22, 23) and descending at (16, 27).
-- Verified Physical Collisions (Center Area West): (0, 14..23) solid bushes/trees (2x2 tree at 0..1, 16..17; collision at (0, 23) Turn 17013); (1, 24..25) solid bush cluster; (2, 24..25) fence post.
+
+
+<hr>
+
+<h1><code>Locations/SafariZone.md</code></h1>
+
+# Safari Zone - Overworld Layout & Navigation Guide
+
+## Area 1 (East) Map & Transitions
+- **Exit to Area 2 (North):** Located at `(0, 5)`.
+  - **CRITICAL WARNING:** You must transition at Row 5 (`(0, 5)`), which warps you to Column 39, Row 31 of Area 2 (North) (leading to the walkable southern corridor).
+  - Transitioning at Row 3 (`(0, 3)`) is a trap: it warps you to Column 39, Row 2 of Area 2 (North), which is an isolated ground-level dead end!
+
+## Area 2 (North) Map & Collision Structures
+
+### Key Landmarks & Buildings
+- **Rest House 2:** Located at columns 21-25, rows 12-13. The entrance door is at `(22, 13)`.
+- **Plateau Land Bridge:** A raised cliff system that provides the ONLY path connecting the northern/eastern sections of the map to the southern/western ground level (which leads to Area 3).
+  - Central Plateau Area: Columns 22-23, rows 14-16.
+  - **East Stairs (Plateau Entrance):** Located at `(32, 13)` and `(33, 13)` facing east on row 13.
+  - **West Stairs:** Located at `(20, 15)` facing west on column 20.
+
+### Major Boundaries & Blockages
+- **Row 10 Tree Line:** A solid barrier of pine trees across columns 27-31, blocking direct southern traversal on columns 28-29.
+- **Row 23 Ground-Level Barrier:** Completely blocks vertical ground-level traversal between Column 6 and Column 15, separating the north/west ground section (which is a physical dead end) from the south/east ground corridor. Horizontal crossing is only possible via the Plateau Land Bridge.
+- **Row 15-19 Isolation Barrier:**
+  - Columns 2-11 on Row 15 have a solid tree wall.
+  - Columns 12-18 on Row 15 are open grass, but they lead to the middle pond on rows 17-18 (columns 9-11) and a fenced animal pen bordered by grey Rhydon statues on row 19 (columns 10-17).
+  - Because of this, the northwest area (Rest House 2, columns 1-14) is a physical dead end on the ground level. You cannot walk directly south or southwest to Area 3 from column 2.
+- **Column 19 Tree Barrier:** A continuous vertical line of trees on rows 14-18, column 19, blocking direct horizontal passage on row 14. But row 12 and row 13 are open on column 19.
+- **Column 16 Bush Barrier (Rows 12-19):** Solid vertical line of dark checkerboard bush/hedge tiles on column 16, rows 12-19. Completely blocks ground-level horizontal crossing on those rows.
+
+---
+
+## Macro-Level Layout Connection in Area 1 (East)
+To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)`, the player must navigate the map in a spiral/zig-zag topology:
+1. **Southern Ground Level:** Walk east from `(0, 22)` on the ground to `(20, 21)`.
+2. **Southern Plateau Crossing:** Climb stairs at `(20, 21)` to `(20, 20)`. Walk west on the plateau to `(12, 20)`. Descend stairs at `(12, 21)` to ground level at `(12, 22)`.
+3. **Western/Middle Ground Level:** Walk north on columns 8-9 to row 8, then east to `(12, 8)`.
+4. **Northern Plateau Crossing (East-Bound):** Climb stairs at `(12, 7)` to `(12, 6)` on the northern plateau. Walk east on the plateau to `(17, 6)`. Descend stairs at `(17, 7)` to the northeastern ground level at `(17, 8)`.
+5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
+6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+
+## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
+- **Eastern Land Bridge (Cols 37-38, Rows 14-26):** Empirically verified as a completely continuous, flat brown plateau land bridge on columns 37-38, rows 14-26. It connects the Eastern Southern Plateau (stairs at 28, 27) directly to the Northern Plateau on the north side.
+- **Plateau Separation (Column 26):** The Eastern Southern Plateau and Western Southern Plateau do **NOT** connect horizontally on rows 24-26. They are separated by column 26 cliff wall and columns 22-25 ground-level tall grass.
+
+## Area 3 (West) Layout & Discoveries
+
+### Map Transitions & Connections
+- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(8, 35)` or `(4, 35)` leads directly into Area 3 (West) at `(26, 2)` or `(26, 0)` (verified on Turn 42064).
+- **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)` (Turn 27658).
+
+### Overworld Obstacles & Paths
+- **Vertical Hedge Wall (Column 24):** A solid vertical line of green hedge/bush tiles running from row 0 down to row 13 on column 24. This completely blocks horizontal ground-level passage in the north.
+- **Hedge Wall Gap (Rows 14-15):** The vertical hedge wall ends at row 13. There is a wide, walkable open grass gap on rows 14-15, column 24, allowing ground-level horizontal crossing.
+- **The Plateau (Rows 14-18, Columns 9-22):** A large, continuous raised plateau structure.
+  - **East Stairs (Plateau Access):** Located at `(21, 17)`. These stairs face SOUTH. The player MUST approach them from the south at ground level `(21, 18)` and climb by walking UP (North) onto `(21, 17)` and then `(21, 16)` to reach the plateau. Direct horizontal access from the east at `(22, 17)` is completely blocked by the solid cliff wall.
+  - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
+  - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
+- **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
+- **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
+  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
+  - Row 25 on Columns 10-21 is solid cliff wall.
+  - Row 24 on Columns 22-29 is solid cliff wall.
+
+### Western Ground Level & Items
+- **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
+- **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
+- **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
+
+### 🔍 Verified Area 3 (West) Landmarks & Paths
+- **Gold Teeth:** Located at `(19, 25)` on the southern ground level. The overworld item ball is physically present and solid, and can be retrieved by standing at `(19, 26)` facing UP and pressing A.
+- **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
+- **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
+- **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
+- **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
+- **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
+
+## Area 1 (East) Detailed Overworld Layout & Barriers
+
+### Vertical & Horizontal Barriers
+- **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
+- **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
+- **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
+- **Middle Pond Separator:** A large water pond at columns 11-17, rows 10-14, which completely divides the west ground level from the east ground level.
+- **Northeastern/Northern Barriers:**
+  - Row 4 is blocked by trees at columns 20-27.
+  - Row 3 is blocked by a tree at `(28, 3)`.
+
+### Key Bridges & Plateaus
+- **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
+  - **West Climbing Stairs:** Located at `(12, 7)` facing UP on column 12.
+  - **East Climbing Stairs:** Located at `(17, 7)` facing UP on column 17.
+
+### Map Transitions & Exits
+- **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor.
+- **Column 20 Hedge Passage (Rows 4-6):** Empirically verified on Turn 29054. Hedges on Column 20 at Rows 4 and 6 have 0% collision, enabling players to walk directly UP to Row 3.
+- **Row 3 Obstruction (Col 5):** A solid pine tree at `(5, 3)` blocks direct horizontal passage on Row 3.
+- **Northern Corridor Bypass Route:** From Column 20 Row 3, walk left to `(7, 3)`, walk Down to `(7, 5)` (bypassing the `(6, 4)` building door and the `(5, 3)` pine tree), and then walk Left along Row 5 to `(0, 5)` to transition to Area 2 (North) safely. Avoid transitioning at `(0, 3)`, which is a trap!
+
+## Safari Zone Center - Detailed Layout & Obstacles
+
+### Key Discoveries & Pathways
+- **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
+- **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
+- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
+
+## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
+1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
+2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
+3. **Area 2 Southern Corridor to Area 3 (West):** Walk LEFT along Row 31 to Column 22, walk UP to Row 23, climb Western Southern Plateau stairs at `(22, 23)` onto plateau, walk West to `(16, 23)`, walk DOWN to `(16, 27)` to descend stairs to `(16, 28)`. Walk Left to `(12, 33)`, bypass the Rhydon statues via Column 8-9 gap, and walk LEFT/DOWN to transition directly into **Area 3 (West)** at `(26, 0)`.
+## Area 2 (North) - Completed Spatial Map & Route to East Stairs
+- Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
+- Rows 12-15 is the Northern Plateau (East side, columns 32-38).
+- Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
+- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
+- On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
+- Column 31 is completely open on rows 12-13.
+- To reach Column 31 from the Southern Corridor (Row 30/31):
+  1. Walk to Column 25 (ground level separation between Eastern and Western Southern Plateaus).
+  2. Walk UP Column 25 past the plateaus to Row 17 (ground level).
+  3. Walk East along Row 17 to Column 31 (ground level).
+  4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
+
+## 🧪 Empirical Proof of Safari Zone Center Compartmentalization (Turn 30402)
+We have systematically probed the horizontal and vertical boundaries of Safari Zone Center and proven that the map is divided into two completely unconnected ground-level compartments: the **South/East Entrance Compartment** and the **Northwest Area 3 Transition Compartment**. There is **NO DIRECT SHORTCUT** between them.
+
+### Refutation of Hypothesized Shortcuts:
+1. **The Row 11 Shortcut (Refuted Turn 30392):** Walking Left along Row 11 is completely blocked by the central water pond on Columns 18-21 (visually confirmed blue water tiles on screen).
+2. **The Row 16/17 Shortcut (Refuted Turn 30402):** Row 16 on Columns 2-5 is blocked by a continuous horizontal hedge wall (visually confirmed in `player_around_6_16.png` and at coordinate `(2, 17)`). Columns 0-1 on Row 16 and 17 are blocked by solid overworld pine trees.
+3. **The Rest House / Pond Block:** Rest House 1 blocks Columns 10-15 on Rows 14-15. The pond blocks Columns 9-17 on Rows 10-14. This creates an unbroken barrier of water and buildings across the middle.
+
+### Conclusion:
+To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
+**Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
+Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
+### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
+- **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`. The Gold Teeth item ball is physically present at `(19, 25)`, acting as a solid, impassable obstacle.
+- **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
+- **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
+- **Verified Collisions (Turns 32923 - 32936):**
+  - Attempted Left from `(18, 24)` to `(17, 24)` (solid shrub, bumped on Turn 32923).
+  - Attempted Down from `(18, 24)` to `(18, 25)` (solid shrub, bumped on Turn 32923).
+  - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
+  - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
+  - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
+## Safari Zone Center - Completed Spatial Map & Route (Turn 34275)
+### Verified Barriers & Topography
+1. **North-South Ground Division (Row 25):** Row 25 is completely blocked from Column 0 to Column 29 by solid Rhydon statues and wooden fences. The ONLY opening is at `(15, 25)` which contains the exit warp back to the Gatehouse.
+2. **The Ledge (Row 23):** A horizontal south-facing ledge runs across Row 23, blocking all direct UP (North) movement from Row 24 to Row 23, except at Column 15 (the entrance corridor).
+3. **The Plateau North Edge Cliff (Row 11/12):** The northern edge of the plateau (Columns 20-27, Row 12) is completely blocked by a solid cliff face. Walking UP from Row 12 to Row 11 is 100% blocked on Column 21 and Column 22.
+4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
+5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
+
+### The Ground-Level Eastern Passage Status
+We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12-15 (verified on Turn 35165). This allows a highly optimized ground-level bypass route that completely circumvents the Central Plateau detour, saving 22 steps!
+
+### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
+- **Signposts (Solid):** Located at `(13, 24)`, `(16, 24)`, `(22, 24)`, and `(27, 24)`. These are 2-tile high solid structures that block all horizontal and vertical passage.
+- **The Ledge (Row 23):** South-facing ledge running from Column 0 to 29. Solid horizontally and UP from Row 24, except for the opening at `(15, 23)`.
+- **Rhydon Statues & Fences (Row 25):** Completely solid from Column 0 to 29, separating the entrance from Row 26.
+- **Column 29 Shrub Wall:** Solid green hedges running vertically on Column 29 from Row 12 to Row 25. Horizontal crossing is only possible on Row 26 (South) and Rows 10-11 (North).
+- **Western Bypass Block (Column 8):** Ground-level Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`.
+### 🧪 Verified Physical Boundaries & Collision Coordinates (Area 3 & Center)
+- **Column 24 Hedge Wall (Area 3 West):** Solid vertical line of green hedges on Column 24 from Row 0 to Row 13. Rows 14-17 on Column 24 are open grass.
+- **Row 19 Cliff Wall (Area 3 West):** Solid horizontal cliff face running across Rows 19-20 on Columns 9-22. Prevents any vertical ground-level traversal from south to north across Row 19.
+- **Column 18 Vertical Barrier (Area 3 West):** Solid vertical tree barrier on Column 18 across Rows 20-23, blocking horizontal ground-level passage.
+- **Row 24 Hedge Wall (Area 3 West):** Solid green hedges running horizontally on Row 24 across Columns 22-29, blocking all downward ground-level vertical passage.
+- **Column 0-1 Tree Barrier (Area 3 West):** Solid tree trunks on Columns 0 and 1, Rows 24 and 25, blocking downward ground-level vertical passage.
+- **Hedge-Maze Compartmentalization in Center:**
+  - Row 15 has solid green hedges on Columns 6, 7, 8, 9.
+  - Row 16 has solid green hedges on Columns 1, 2, 3, 4, 5.
+  - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
+- **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
+- **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Warden's Gatehouse warp), we must enter directly from the Gatehouse entrance at (15, 25).
+- **Row 25 Solid Fence in Center:** Completely solid and impassable across all Columns 0 to 29 (except the Gatehouse entrance doormat warp at (15, 25)), physically separating the northern ground area from the southern corridor (Row 26-28) in Safari Zone Center.
+
+## ⚡ Super-Optimized Ground-Level Transition Route (Bypass Route)
+- **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
+- **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
+- This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
+
+<hr>
+
+<h1><code>Locations/SafariZone_Area1_East_Boundaries</code></h1>
+
+
+
+<hr>
+
+<h1><code>Locations/SafariZone_Area1_East_Boundaries.md</code></h1>
+
+
 
 <hr>
 
 <h1><code>Locations/FuchsiaGym</code></h1>
 
-# Fuchsia Gym - Layout, Invisible Wall Maze & Battle Strategy
+
+
+<hr>
+
+<h1><code>Scratchpad/SafariZone_Route.md</code></h1>
+
+# Safari Zone - Complete Golden Route to Gold Teeth
+
+## Gold Teeth Location
+- **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
+- **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 26)` (directly below the teeth), face **UP** (north), and press **A**!
+
+## Step-by-Step Walkable Golden Route (Start to Teeth)
+
+### Phase 1: Safari Zone Center to Area 1 (East)
+1. Start at Gatehouse entrance `(15, 25)`.
+2. Walk UP 3 steps to `(15, 22)`.
+3. Walk RIGHT 13 steps along Row 22 to `(28, 22)`.
+4. Walk UP 12 steps along Column 28 to `(28, 10)`.
+5. Walk RIGHT 2 steps to transition to Area 1 (East) at `(30, 10)`.
+
+### Phase 2: Area 1 (East) to Area 2 (North)
+1. Emerge in Area 1 (East) at `(0, 22)`.
+2. Walk DOWN 1 step to `(0, 23)` then `(0, 24)`.
+3. Walk RIGHT 20 steps to `(20, 24)`.
+4. Walk UP 2 steps to `(20, 22)`.
+5. Walk UP 2 steps to climb plateau stairs to `(20, 20)`.
+6. Walk LEFT 8 steps on the plateau to `(12, 20)`.
+7. Walk DOWN 2 steps to descend stairs to `(12, 22)`.
+8. Walk LEFT 4 steps to Column 8 at `(8, 22)`.
+9. Walk UP 14 steps along Column 8 to `(8, 8)`.
+10. Walk RIGHT 4 steps to climb northern plateau stairs at `(12, 8)` to `(12, 6)`.
+11. Walk RIGHT 5 steps on plateau to `(17, 6)`.
+12. Walk DOWN 2 steps to descend plateau stairs to `(17, 8)`.
+13. Walk RIGHT 3 steps to Column 20 at `(20, 8)`.
+14. Walk UP 5 steps along Column 20 to Row 3 at `(20, 3)`.
+15. Walk LEFT 13 steps along Row 3 to `(7, 3)`.
+16. Walk DOWN 2 steps to `(7, 5)`.
+17. Walk LEFT 7 steps to transition to Area 2 (North) at `(0, 5)`.
+
+### Phase 3: Area 2 (North) to Area 3 (West)
+1. Emerge in Area 2 (North) at `(39, 31)`.
+2. Walk LEFT 17 steps along Row 31 to Column 22 at `(22, 31)`.
+3. Walk UP 9 steps along Column 22 (climbing Western Southern Plateau stairs at `(22, 23)`) to `(22, 22)`.
+4. Walk LEFT 6 steps on the plateau to `(16, 22)`.
+5. Walk DOWN 6 steps (descending stairs at `(16, 27)`) to grass at `(16, 28)`.
+6. Walk LEFT 4 steps to `(12, 28)`.
+7. Walk DOWN 2 steps to `(12, 30)` (to bypass the pond!).
+8. Walk LEFT 4 steps to `(8, 30)`.
+9. Walk DOWN 5 steps through the statue gap at `(8, 34)` to `(8, 35)`.
+10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
+
+### Phase 4: Area 3 (West) to Gold Teeth & Back
+1. Emerge in Area 3 (West) at `(26, 0)`.
+2. Walk DOWN 2 steps to `(26, 2)`.
+3. Walk LEFT 1 step to `(25, 2)`.
+4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
+5. Walk LEFT 4 steps to `(21, 18)`.
+6. Walk DOWN 8 steps along Column 21 to `(21, 26)` (Row 26, the southern corridor).
+7. Walk LEFT 2 steps to Column 19 at `(19, 26)`.
+8. Stand at `(19, 26)` facing **UP** (north).
+9. Press **A** to pick up the Gold Teeth!
+
+<hr>
+
+<h1><code>notepads/Scratchpad/SafariZone_Route.md</code></h1>
+
+# Safari Zone - Center Map & Route to Area 1 (East)
+
+## Verified Obstacles in Safari Zone Center
+- **The Pond:** Blocks Columns 9-17 on Rows 10-14.
+- **Rest House 1:** Blocks Columns 10-15 on Rows 14-15.
+- **The Central Plateau:** Columns 20-27, Rows 12-14. Access stairs face south at `(24, 15)`. No other exits exist (north edge is blocked by cliff wall).
+- **Column 15 Row 23 Block:** A wooden sign/fence post at `(15, 23)` blocks Column 15.
+- **Column 29 Shrub Wall:** A continuous line of dark green shrubs on Columns 29, Rows 12-25, blocking direct ground-horizontal crossing.
+- **Southern Rhydon Statues:** Row 25 has grey Rhydon statues at `(24, 25)`, `(25, 25)`, `(28, 25)`, `(29, 25)`, blocking direct southward traversal on those columns.
+
+## Verified Ground-Level Walkable Route (Center to Area 1 East)
+From Safari Zone Center entrance at `(15, 25)`:
+1. Walk UP to `(15, 24)`.
+2. Walk RIGHT to `(16, 24)` (bypassing the `(15, 23)` signpost).
+3. Walk RIGHT along Row 24 to `(27, 24)`.
+4. Walk DOWN through the tall grass at `(27, 25)` to `(27, 26)` (bypassing the Row 25 Rhydon statues).
+5. Walk RIGHT along Row 26 to Column 30: `(30, 26)`.
+6. Walk UP Column 30 to Row 11: `(30, 11)`.
+7. Walk LEFT to `(29, 11)`.
+8. Walk RIGHT 1 step to transition into Area 1 (East) at `(0, 23)`.
+
+<hr>
+
+<h1><code>notepads/Scratchpad/SafariZone_Route</code></h1>
+
+# Safari Zone - Center Map & Route to Area 1 (East)
+
+## Verified Obstacles in Safari Zone Center
+- **The Pond:** Blocks Columns 9-17 on Rows 10-14.
+- **Rest House 1:** Blocks Columns 10-15 on Rows 14-15.
+- **The Central Plateau:** Columns 20-27, Rows 12-14. Access stairs face south at `(24, 15)`. No other exits exist (north edge is blocked by cliff wall).
+- **Column 15 Row 23 Block:** A wooden sign/fence post at `(15, 23)` blocks Column 15.
+- **Column 29 Shrub Wall:** A continuous line of dark green shrubs on Columns 29, Rows 12-25, blocking direct ground-horizontal crossing.
+- **Southern Rhydon Statues:** Row 25 has grey Rhydon statues at `(24, 25)`, `(25, 25)`, `(28, 25)`, `(29, 25)`, blocking direct southward traversal on those columns.
+
+## Verified Ground-Level Walkable Route (Center to Area 1 East)
+From Safari Zone Center entrance at `(15, 25)`:
+1. Walk UP to `(15, 24)`.
+2. Walk RIGHT to `(16, 24)` (bypassing the `(15, 23)` signpost).
+3. Walk RIGHT along Row 24 to `(27, 24)`.
+4. Walk DOWN through the tall grass at `(27, 25)` to `(27, 26)` (bypassing the Row 25 Rhydon statues).
+5. Walk RIGHT along Row 26 to Column 30: `(30, 26)`.
+6. Walk UP Column 30 to Row 11: `(30, 11)`.
+7. Walk LEFT to `(29, 11)`.
+8. Walk RIGHT 1 step to transition into Area 1 (East) at `(0, 23)`.
+
+<hr>
+
+<h1><code>notepads/Locations/SafariZone.md</code></h1>
+
+13. **Column 0-1 Row 23/24 Tree Wall:** Physically verified that Column 0, Row 23 is a solid tree trunk (blocking horizontal movement to Column 0) and Column 1, Row 24 is a solid tree trunk (blocking southward movement on Column 1), completely blocking southward ground-level passage at the far-western edge (Turn 32045).
+
+<hr>
+
+<h1><code>Locations/SafariZone</code></h1>
+
+# Safari Zone - Overworld Layout & Navigation Guide
+
+## Area 1 (East) Map & Transitions
+- **Exit to Area 2 (North):** Located at `(0, 5)`.
+  - **CRITICAL WARNING:** You must transition at Row 5 (`(0, 5)`), which warps you to Column 39, Row 31 of Area 2 (North) (leading to the walkable southern corridor).
+  - Transitioning at Row 3 (`(0, 3)`) is a trap: it warps you to Column 39, Row 2 of Area 2 (North), which is an isolated ground-level dead end!
+
+## Area 2 (North) Map & Collision Structures
+
+### Key Landmarks & Buildings
+- **Rest House 2:** Located at columns 21-25, rows 12-13. The entrance door is at `(22, 13)`.
+- **Plateau Land Bridge:** A raised cliff system that provides the ONLY path connecting the northern/eastern sections of the map to the southern/western ground level (which leads to Area 3).
+  - Central Plateau Area: Columns 22-23, rows 14-16.
+  - **East Stairs (Plateau Entrance):** Located at `(32, 13)` and `(33, 13)` facing east on row 13.
+  - **West Stairs:** Located at `(20, 15)` facing west on column 20.
+
+### Major Boundaries & Blockages
+- **Row 10 Tree Line:** A solid barrier of pine trees across columns 27-31, blocking direct southern traversal on columns 28-29.
+- **Row 23 Ground-Level Barrier:** Completely blocks vertical ground-level traversal between Column 6 and Column 15, separating the north/west ground section (which is a physical dead end) from the south/east ground corridor. Horizontal crossing is only possible via the Plateau Land Bridge.
+- **Row 15-19 Isolation Barrier:**
+  - Columns 2-11 on Row 15 have a solid tree wall.
+  - Columns 12-18 on Row 15 are open grass, but they lead to the middle pond on rows 17-18 (columns 9-11) and a fenced animal pen bordered by grey Rhydon statues on row 19 (columns 10-17).
+  - Because of this, the northwest area (Rest House 2, columns 1-14) is a physical dead end on the ground level. You cannot walk directly south or southwest to Area 3 from column 2.
+- **Column 19 Tree Barrier:** A continuous vertical line of trees on rows 14-18, column 19, blocking direct horizontal passage on row 14. But row 12 and row 13 are open on column 19.
+- **Column 16 Bush Barrier (Rows 12-19):** Solid vertical line of dark checkerboard bush/hedge tiles on column 16, rows 12-19. Completely blocks ground-level horizontal crossing on those rows.
+
+---
+
+## Macro-Level Layout Connection in Area 1 (East)
+To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)`, the player must navigate the map in a spiral/zig-zag topology:
+1. **Southern Ground Level:** Walk east from `(0, 22)` on the ground to `(20, 21)`.
+2. **Southern Plateau Crossing:** Climb stairs at `(20, 21)` to `(20, 20)`. Walk west on the plateau to `(12, 20)`. Descend stairs at `(12, 21)` to ground level at `(12, 22)`.
+3. **Western/Middle Ground Level:** Walk north on columns 8-9 to row 8, then east to `(12, 8)`.
+4. **Northern Plateau Crossing (East-Bound):** Climb stairs at `(12, 7)` to `(12, 6)` on the northern plateau. Walk east on the plateau to `(17, 6)`. Descend stairs at `(17, 7)` to the northeastern ground level at `(17, 8)`.
+5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
+6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+
+## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
+- **Eastern Land Bridge (Cols 37-38, Rows 14-26):** Empirically verified as a completely continuous, flat brown plateau land bridge on columns 37-38, rows 14-26. It connects the Eastern Southern Plateau (stairs at 28, 27) directly to the Northern Plateau on the north side.
+- **Plateau Separation (Column 26):** The Eastern Southern Plateau and Western Southern Plateau do **NOT** connect horizontally on rows 24-26. They are separated by column 26 cliff wall and columns 22-25 ground-level tall grass.
+
+## Area 3 (West) Layout & Discoveries
+
+### Map Transitions & Connections
+- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(8, 35)` or `(4, 35)` leads directly into Area 3 (West) at `(26, 2)` or `(26, 0)` (verified on Turn 42064).
+- **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)` (Turn 27658).
+
+### Overworld Obstacles & Paths
+- **Vertical Hedge Wall (Column 24):** A solid vertical line of green hedge/bush tiles running from row 0 down to row 13 on column 24. This completely blocks horizontal ground-level passage in the north.
+- **Hedge Wall Gap (Rows 14-15):** The vertical hedge wall ends at row 13. There is a wide, walkable open grass gap on rows 14-15, column 24, allowing ground-level horizontal crossing.
+- **The Plateau (Rows 14-18, Columns 9-22):** A large, continuous raised plateau structure.
+  - **East Stairs (Plateau Access):** Located at `(21, 17)`. These stairs face SOUTH. The player MUST approach them from the south at ground level `(21, 18)` and climb by walking UP (North) onto `(21, 17)` and then `(21, 16)` to reach the plateau. Direct horizontal access from the east at `(22, 17)` is completely blocked by the solid cliff wall.
+  - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
+  - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
+- **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
+- **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
+  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
+  - Row 25 on Columns 10-21 is solid cliff wall.
+  - Row 24 on Columns 22-29 is solid cliff wall.
+
+### Western Ground Level & Items
+- **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
+- **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
+- **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
+
+### 🔍 Verified Area 3 (West) Landmarks & Paths
+- **Gold Teeth:** Located at `(19, 25)` on the southern ground level. The overworld item ball is physically present and solid, and can be retrieved by standing at `(19, 26)` facing UP and pressing A.
+- **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
+- **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
+- **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
+- **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
+- **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
+
+## Area 1 (East) Detailed Overworld Layout & Barriers
+
+### Vertical & Horizontal Barriers
+- **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
+- **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
+- **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
+- **Middle Pond Separator:** A large water pond at columns 11-17, rows 10-14, which completely divides the west ground level from the east ground level.
+- **Northeastern/Northern Barriers:**
+  - Row 4 is blocked by trees at columns 20-27.
+  - Row 3 is blocked by a tree at `(28, 3)`.
+
+### Key Bridges & Plateaus
+- **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
+  - **West Climbing Stairs:** Located at `(12, 7)` facing UP on column 12.
+  - **East Climbing Stairs:** Located at `(17, 7)` facing UP on column 17.
+
+### Map Transitions & Exits
+- **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor.
+- **Column 20 Hedge Passage (Rows 4-6):** Empirically verified on Turn 29054. Hedges on Column 20 at Rows 4 and 6 have 0% collision, enabling players to walk directly UP to Row 3.
+- **Row 3 Obstruction (Col 5):** A solid pine tree at `(5, 3)` blocks direct horizontal passage on Row 3.
+- **Northern Corridor Bypass Route:** From Column 20 Row 3, walk left to `(7, 3)`, walk Down to `(7, 5)` (bypassing the `(6, 4)` building door and the `(5, 3)` pine tree), and then walk Left along Row 5 to `(0, 5)` to transition to Area 2 (North) safely. Avoid transitioning at `(0, 3)`, which is a trap!
+
+## Safari Zone Center - Detailed Layout & Obstacles
+
+### Key Discoveries & Pathways
+- **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
+- **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
+- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
+
+## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
+1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
+2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
+3. **Area 2 Southern Corridor to Area 3 (West):** Walk LEFT along Row 31 to Column 22, walk UP to Row 23, climb Western Southern Plateau stairs at `(22, 23)` onto plateau, walk West to `(16, 23)`, walk DOWN to `(16, 27)` to descend stairs to `(16, 28)`. Walk Left to `(12, 33)`, bypass the Rhydon statues via Column 8-9 gap, and walk LEFT/DOWN to transition directly into **Area 3 (West)** at `(26, 0)`.
+
+## Area 2 (North) - Completed Spatial Map & Route to East Stairs
+- Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
+- Rows 12-15 is the Northern Plateau (East side, columns 32-38).
+- Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
+- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
+- On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
+- Column 31 is completely open on rows 12-13.
+- To reach Column 31 from the Southern Corridor (Row 30/31):
+  1. Walk to Column 25 (ground level separation between Eastern and Western Southern Plateaus).
+  2. Walk UP Column 25 past the plateaus to Row 17 (ground level).
+  3. Walk East along Row 17 to Column 31 (ground level).
+  4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
+
+## 🧪 Empirical Proof of Safari Zone Center Compartmentalization (Turn 30402)
+We have systematically probed the horizontal and vertical boundaries of Safari Zone Center and proven that the map is divided into two completely unconnected ground-level compartments: the **South/East Entrance Compartment** and the **Northwest Area 3 Transition Compartment**. There is **NO DIRECT SHORTCUT** between them.
+
+### Refutation of Hypothesized Shortcuts:
+1. **The Row 11 Shortcut (Refuted Turn 30392):** Walking Left along Row 11 is completely blocked by the central water pond on Columns 18-21 (visually confirmed blue water tiles on screen).
+2. **The Row 16/17 Shortcut (Refuted Turn 30402):** Row 16 on Columns 2-5 is blocked by a continuous horizontal hedge wall (visually confirmed in `player_around_6_16.png` and at coordinate `(2, 17)`). Columns 0-1 on Row 16 and 17 are blocked by solid overworld pine trees.
+3. **The Rest House / Pond Block:** Rest House 1 blocks Columns 10-15 on Rows 14-15. The pond blocks Columns 9-17 on Rows 10-14. This creates an unbroken barrier of water and buildings across the middle.
+
+### Conclusion:
+To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
+**Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
+Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
+
+### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
+- **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`. The Gold Teeth item ball is physically present at `(19, 25)`, acting as a solid, impassable obstacle.
+- **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
+- **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
+- **Verified Collisions (Turns 32923 - 32936):**
+  - Attempted Left from `(18, 24)` to `(17, 24)` (solid shrub, bumped on Turn 32923).
+  - Attempted Down from `(18, 24)` to `(18, 25)` (solid shrub, bumped on Turn 32923).
+  - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
+  - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
+  - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
+
+## Safari Zone Center - Completed Spatial Map & Route (Turn 34275)
+### Verified Barriers & Topography
+1. **North-South Ground Division (Row 25):** Row 25 is completely blocked from Column 0 to Column 29 by solid Rhydon statues and wooden fences. The ONLY opening is at `(15, 25)` which contains the exit warp back to the Gatehouse.
+2. **The Ledge (Row 23):** A horizontal south-facing ledge runs across Row 23, blocking all direct UP (North) movement from Row 24 to Row 23, except at Column 15 (the entrance corridor).
+3. **The Plateau North Edge Cliff (Row 11/12):** The northern edge of the plateau (Columns 20-27, Row 12) is completely blocked by a solid cliff face. Walking UP from Row 12 to Row 11 is 100% blocked on Column 21 and Column 22.
+4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
+5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
+
+### The Ground-Level Eastern Passage Status
+We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12-15 (verified on Turn 35165). This allows a highly optimized ground-level bypass route that completely circumvents the Central Plateau detour, saving 22 steps!
+
+### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
+- **Signposts (Solid):** Located at `(13, 24)`, `(16, 24)`, `(22, 24)`, and `(27, 24)`. These are 2-tile high solid structures that block all horizontal and vertical passage.
+- **The Ledge (Row 23):** South-facing ledge running from Column 0 to 29. Solid horizontally and UP from Row 24, except for the opening at `(15, 23)`.
+- **Rhydon Statues & Fences (Row 25):** Completely solid from Column 0 to 29, separating the entrance from Row 26.
+- **Column 29 Shrub Wall:** Solid green hedges running vertically on Column 29 from Row 12 to Row 25. Horizontal crossing is only possible on Row 26 (South) and Rows 10-11 (North).
+- **Western Bypass Block (Column 8):** Ground-level Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`.
+
+### 🧪 Verified Physical Boundaries & Collision Coordinates (Area 3 & Center)
+- **Column 24 Hedge Wall (Area 3 West):** Solid vertical line of green hedges on Column 24 from Row 0 to Row 13. Rows 14-17 on Column 24 are open grass.
+- **Row 19 Cliff Wall (Area 3 West):** Solid horizontal cliff face running across Rows 19-20 on Columns 9-22. Prevents any vertical ground-level traversal from south to north across Row 19.
+- **Column 18 Vertical Barrier (Area 3 West):** Solid vertical tree barrier on Column 18 across Rows 20-23, blocking horizontal ground-level passage.
+- **Row 24 Hedge Wall (Area 3 West):** Solid green hedges running horizontally on Row 24 across Columns 22-29, blocking all downward ground-level vertical passage.
+- **Column 0-1 Tree Barrier (Area 3 West):** Solid tree trunks on Columns 0 and 1, Rows 24 and 25, blocking downward ground-level vertical passage.
+- **Hedge-Maze Compartmentalization in Center:**
+  - Row 15 has solid green hedges on Columns 6, 7, 8, 9.
+  - Row 16 has solid green hedges on Columns 1, 2, 3, 4, 5.
+  - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
+- **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
+- **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Warden's Gatehouse warp), we must enter directly from the Gatehouse entrance at (15, 25).
+- **Row 25 Solid Fence in Center:** Completely solid and impassable across all Columns 0 to 29 (except the Gatehouse entrance doormat warp at (15, 25)), physically separating the northern ground area from the southern corridor (Row 26-28) in Safari Zone Center.
+
+## ⚡ Super-Optimized Ground-Level Transition Route (Bypass Route)
+- **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
+- **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
+- This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
+
+
+<hr>
+
+<h1><code>notepads/Locations/SafariZone</code></h1>
+
+13. **Column 0-1 Row 23/24 Tree Wall:** Physically verified that Column 0, Row 23 is a solid tree trunk (blocking horizontal movement to Column 0) and Column 1, Row 24 is a solid tree trunk (blocking southward movement on Column 1), completely blocking southward ground-level passage at the far-western edge (Turn 32045).
+
+<hr>
+
+<h1><code>Progression_And_Party_Stats.md</code></h1>
+
+## SHELLBY (Blastoise) Moveset (Updated Turn 46023)
+- HYDRO PUMP
+- ICE BEAM
+- BITE
+- SURF (HM03)
+
+## Badge Status & Gym Clearances (Updated Turn 50214)
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+- **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
+- **Volcano Badge (Cinnabar Gym):** NOT acquired yet (Locked behind Secret Key).
+- **Soul Badge (Fuchsia Gym):** NOT acquired yet.
+- **Earth Badge (Viridian Gym):** NOT acquired yet (Giovanni at Viridian Gym is locked until 7 badges are acquired).
+
+## Key Items & Inventory Log (Verified Turn 61761)
+- **TM28 (DIG):** Verified NOT in Bag on Turn 61761. Our entire inventory consists of: POKé FLUTE, SUPER ROD, MAX POTION x2, MAX REVIVE x2, HM03, TOWN MAP, GOOD ROD.
+- **No Pokémon knows DIG:** Systematically verified all party members on Turn 61755; none of them know DIG.
+- **MUI (Mansion Ultimate Index) & Foot Escape Route:**
+  - B1F West is connected to B1F East via the northern gate at `(9, 5)` which is OPEN in State B.
+  - 1F West is connected to 1F East via Column 13 on Row 5 which is OPEN in State B.
+  - 1F East stairs gate at `(22, 2)` leading to B1F East is OPEN in State B.
+  - Therefore, we can retrieve the Secret Key and escape the entire Mansion on foot without requiring the move DIG! Our escape route is fully walkable in State B.
+
+- **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
+- **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
+
+- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full. Verified NOT in Bag on Turn 54139 (fully scrolled through Bag list to CANCEL and confirmed key is missing). We now have 12 items in our Bag and 8 open slots, so we have plenty of room to retrieve it!
+
+## Verified Party Slots (Updated Turn 56522)
+- **Slot 1:** SHELLBY (Blastoise) - Level 62
+- **Slot 2:** GUSTY (Pidgey) - Level 13
+- **Slot 3:** NIBBLES (Rattata) - Level 7
+- **Slot 4:** TESLA (Pikachu) - Level 20
+- **Slot 5:** NIDORAN♀ (Nidoran-F) - Level 25
+
+<hr>
+
+<h1><code>Locations/Route15.md</code></h1>
+
+# Route 15 Gatehouse - Split-Level Layout & Navigation Guide
 
 ## Overview
-- Gym Leader: **Koga** (Poison specialist)
-- Reward: **Soul Badge** (Badge 5/8, allows field use of HM03 Surf, boosts Defense) + **TM06 (Toxic)**
-- Mechanics: Invisible walls dividing the arena into a maze; Jugglers and Tamers positioned along the paths.
+The Route 15 Gatehouse physically divides the overworld of Fuchsia City (West) from Route 15 (East) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
 
-## Layout & Landmarks (Empirically Verified)
-- Entrance / Exit Mat: (4..5, 17) [South exit to Fuchsia City]
-- Left Statue: (3, 14..15)
-- Right Statue: (6, 14..15)
-- Gym Guide: (7, 15)
-- Center Platform: Koga positioned at (4..5, 10..11)
+## First Floor (1F) - West Room
+- **West Exit/Entrance (Fuchsia City):** Connects to Fuchsia City at `(0, 9)`.
+- **Stairs to 2F:** Located at `(7, 9)`. Walking onto this tile immediately warps the player to the 2F West side at `(0, 5)`.
 
-## Gym Trainers
-1. Juggler 1 at (8, 13): [DEFEATED Turn 17363] Hypno Lv 38; �¥1330 prize.
-2. Juggler 2 at (7, 8) / (8, 8): [DEFEATED Turn 17378] Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31; �¥1085 prize.
-3. Tamer 1 at (8, 2): [DEFEATED Turn 17386] Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33; �1320 prize.
-4. Tamer 2 at (3, 5): [DEFEATED Turn 17399] Sandslash Lv 34, Arbok Lv 34; �1360 prize.
-5. Juggler 3 at (2, 7): [DEFEATED Turn 17407] Drowzee Lv 34, Hypno Lv 34; �1190 prize.
-6. Trainer at (1, 12): [BYPASSED Turn 17411] Bypassed to challenge Gym Leader Koga.
+## First Floor (1F) - East Room
+- **Stairs Landing (From 2F):** The player lands at `(6, 8)` after going down the stairs from the 2F.
+- **Stairs to 2F:** Located at `(7, 8)`. Walking onto this tile immediately warps the player back to the 2F.
+- **Corridor:** Located at Row 9. To reach it from the landing, walk DOWN to `(6, 9)`.
+- **East Exit/Entrance (Route 15 Overworld):** Walk right along Row 9 to transition to Route 15 overworld at `(8, 9)`.
 
-## Maze Topology & Traversal Protocol
-- **Empirically Verified Invisible Wall Collisions**:
-  - (2, 6) confirmed solid invisible wall [Turn 17403]
-  - (1, 11) confirmed solid invisible wall [Turn 17410]
-- **Empirically Verified Walkable Corridors**:
-  - Entrance Area: (4..5, 14..17)
-  - Eastern Perimeter: (9, 1..14) and (8, 9..14)
-  - Northern Perimeter: (1..9, 1)
-  - Northwest Approach: (1, 1..3) -> (2..3, 3) -> (3, 4)
-  - West Corridor: (2, 3..6)
-- **Visually Identified Dashed Invisible Wall Tiles (To be confirmed by path avoidance)**:
-  - Row 2: (2, 2), (3, 2), (7, 2)
-  - Row 3: (4, 3), (5, 3), (7, 3)
-  - Row 4: (0, 4), (1, 4), (4, 4), (7, 4)
-  - Row 5: (4, 5), (7, 5)
-  - Row 6: (0, 6), (3, 6), (6, 6)
-  - Row 7: (0, 7), (6, 7), (8, 7)
+## Second Floor (2F)
+- **Stairs (To 1F East Room):** Located at `(6, 8)`. Walking onto this tile warps the player down to the 1F East Room landing at `(6, 8)`. Note that if you have just warped onto `(6, 8)`, you must walk off the tile (e.g., Left to `(5, 8)`) and then back onto it to trigger the warp again.
+- **Doormat/Exit (Fuchsia City Side):** Red-checkered doormat tiles are at `(7, 4)` and `(7, 5)` which connect back to the West Room of the gatehouse.
 
-## Gym Leader Koga Battle (Empirically Verified Turn 17419)
-- Leader: Koga (Poison specialist)
-- Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43
-- Result: Defeated! Soul Badge & TM06 (Toxic) obtained; �4257 prize money.
-- Unlocked Field HM: HM03 Surf usable outside of battle.
+<hr>
+
+<h1><code>Locations/Route18</code></h1>
+
+# Locations/Route18
+
+Placeholder to prevent data loss.
+
+
+<hr>
+
+<h1><code>Locations/Route16.md</code></h1>
+
+# Route 16 Gatehouse - Verified Layout & Coordinates
+
+## Overview
+Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling Road (West) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
+
+## First Floor (1F) - West Room
+- **West Doorway:** Located at Column 0. Connects to Route 16 overworld/Cycling Road. Requires a Bicycle to exit (the warp is disabled/solid if you do not possess a Bicycle in your bag).
+- **Stairs to 2F:** Located at `(12, 1)`. Walking UP onto this tile warps the player to the 2F room at `(12, 1)` (automatic step down to `(12, 2)`).
+- **Walkable Corridor:** Row 5 is completely open horizontally from Column 0 to Column 19. Rows 2-3 are blocked by solid walls at columns 1-9.
+
+## First Floor (1F) - East Room
+- **East Doorway:** Located on Row 7 at columns `(16, 7)` and `(17, 7)` (red carpet/doormat tiles). Walking DOWN (south) on these tiles warps the player directly onto the Celadon City overworld at `(10, 13)` (stepping down to `(10, 14)`).
+- **Stairs to 2F:** Located at `(12, 1)`.
+- **Walkable Corridor:** Row 5 is completely open horizontally. Rows 2-3 are blocked by solid counters.
+
+## Second Floor (2F)
+- **Stairs (To 1F West Room):** Located at `(1, 1)`. Walking UP onto this tile warps the player down to the 1F West Room at `(1, 1)`.
+- **Stairs (To 1F East Room):** Located at `(12, 1)`. Walking UP onto this tile warps the player down to the 1F East Room.
+- **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."
+
+<hr>
+
+<h1><code>Locations/Route16</code></h1>
+
+# Route 16 Gatehouse - Verified Layout & Coordinates
+
+## Overview
+Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling Road (West) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
+
+## First Floor (1F) - West Room
+- **West Doorway:** Located at Column 0. Connects to Route 16 overworld/Cycling Road. Requires a Bicycle to exit (the warp is disabled/solid if you do not possess a Bicycle in your bag).
+- **Stairs to 2F:** Located at `(12, 1)`. Walking UP onto this tile warps the player to the 2F room at `(12, 1)` (automatic step down to `(12, 2)`).
+- **Walkable Corridor:** Row 5 is completely open horizontally from Column 0 to Column 19. Rows 2-3 are blocked by solid walls at columns 1-9.
+
+## First Floor (1F) - East Room
+- **East Doorway:** Located on Row 7 at columns `(16, 7)` and `(17, 7)` (red carpet/doormat tiles). Walking DOWN (south) on these tiles warps the player directly onto the Celadon City overworld at `(10, 13)` (stepping down to `(10, 14)`).
+- **Stairs to 2F:** Located at `(12, 1)`.
+- **Walkable Corridor:** Row 5 is completely open horizontally. Rows 2-3 are blocked by solid counters.
+
+## Second Floor (2F)
+- **Stairs (To 1F West Room):** Located at `(1, 1)`. Walking UP onto this tile warps the player down to the 1F West Room at `(1, 1)`.
+- **Stairs (To 1F East Room):** Located at `(12, 1)`. Walking UP onto this tile warps the player down to the 1F East Room.
+- **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."
+
+
+<hr>
+
+<h1><code>Locations/CeladonCity.md</code></h1>
+
 
 
 <hr>
 
 <h1><code>Locations/SaffronCity</code></h1>
 
-# Saffron City - Points of Interest & Topology
+## Saffron City - Verified Eastern & Southeastern Streets (Verified Turn 44437-44461)
+- **Saffron Pokmon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
+- **Saffron's Southern Horizontal Street:** Runs horizontally at Rows 30 and 31. Walkable from Column 3 to Column 37.
+- **Wandering NPC:** Dark-haired NPC wanders along Row 30 between Column 10 and Column 18.
+- **Blocked South-to-Center Passages:**
+  - Column 13: Blocked by solid yellow building wall at `(13, 29)`.
+  - Column 18: Blocked by solid yellow building wall at `(18, 29)`.
+  - Column 20: Blocked by a stationary Rocket Grunt standing at `(20, 29)` facing DOWN.
+  - Columns 24-27: Blocked by grey barrels and signposts at Row 29.
+- **Eastern Vertical Corridor (Column 37):**
+  - Completely open pavement running vertically on Column 37 from Saffron's south-east quadrant to Saffron's north-east quadrant (Row 7).
+  - Decorative Post at `(37, 19)` blocks Column 37. Bypass: Walk left to `(36, 20)`, go up 2 steps to `(36, 18)`, then go right to `(37, 18)`.
+  - Decorative Post at `(37, 12)` blocks Column 37. Bypass: Walk right to `(38, 13)` in the green grass, go up 2 steps to `(38, 11)`, then go left to `(37, 11)`.
+- **Saffron's Northern Horizontal Street (Row 7/8):**
+  - Fully open horizontally at Row 7 and 8, extending from Saffron's east side (Column 37) all the way west to Saffron's center (Column 18).
+  - Saffron Silph Co. North Wall blocks direct downward access at Column 18 on Rows 10 and 11. To enter Silph Co., Saffron's outer perimeter must be navigated to approach the south entrance at `(18, 21)`.
 
-## Overview
-- Saffron City is the central metropolitan hub of Kanto, connecting four major routes (Route 5 North, Route 6 South, Route 7 West, Route 8 East).
-- Gates: Permanently unlocked via Soda Pop given to West Gate guard [Turn 17445].
+<hr>
 
-## Gatehouse Connections
-- West Gatehouse: (14..17, 8..11) with entrance at (17, 10) connecting to Route 7 / Celadon City [Entered Turn 17450]
-- East Gatehouse: Connecting to Route 8 / Lavender Town
-- North Gatehouse: Connecting to Route 5 / Cerulean City
-- South Gatehouse: Connecting to Route 6 / Vermilion City
+<h1><code>Locations/SilphCo.md</code></h1>
 
-## Major Landmarks & Objectives
-1. **Silph Co. Headquarters**: Center of city at cols 16-27, rows 12-24 with front entrance door at (18, 21) [Entered Turn 17454]. Liberated on Turn 17858 after defeating Team Rocket Boss Giovanni on 11F. Received Master Ball from Silph President [Turn 17873].
-2. **Saffron Gym**: Northeast sector at (34, 3). Leader Sabrina (Psychic specialist; Marsh Badge & TM46 Psywave). Unlocked after liberating Silph Co.
-3. **Fighting Dojo**: Northeast sector at (30, 3) (adjacent to Saffron Gym). Karate Master challenge for choice of Hitmonlee or Hitmonchan.
-4. **Mr. Psychic's House**: Southeast sector. NPC gives TM29 (Psychic).
-5. **Copycat's House**: Northwest sector.
-6. **Saffron Pokémon Center**: South-central sector at (9, 29) / local (3, 7).
-7. **Saffron Pokémart**: East-central sector.
+# Silph Co. HQ - Overworld Layout & Navigation Guide
 
-## Verified Topology & Corridors
-- Western Avenue (row 9, cols 18-26): Unobstructed walkway leading east from West Gatehouse into central Saffron thoroughfare.
-- Silph Co. Entrance Corridor: Row 20 (cols 14-18) leading to main entrance at (18, 21).
+## Saffron Silph Co. 1F (Lobby) - VERIFIED (Turn 43909-43921)
+- **Entrance Doormat:** Located at `(10, 17)`. Warping south from `(10, 17)` exits to Saffron City overworld at `(18, 21)`.
+- **Receptionist Counter:** Solid grey counter running horizontally along Row 17 from Column 12 to column 25. Walks on Row 17 are blocked.
+- **Walkable Lobby Corridors:**
+  - Row 16 is fully open and walkable from Column 11 to Column 28, allowing players to walk East from the entrance to Saffron's eastern elevators.
+  - Column 28 is fully open vertically from Row 16 up to Row 8.
+  - Row 8 is open horizontally from Column 24 to Column 28.
+- **Elevator Doors:** Located at `(20, 0)`. The doors face SOUTH. Walk UP from `(20, 1)` to enter/interact with the elevator (access path on Row 3 is completely open, but Row 4 is blocked at Column 20 by a terminal desk, so bypass it via Column 21 on Row 3).
+
+## Saffron Silph Co. Upper Floors (2F - 5F) - PARTIALLY VERIFIED (Turn 43939-44076)
+- **Staircases:** Located at alternating Columns 24 and 26 on Row 0 (e.g. 5F stairs are at `(26, 0)`).
+- **Saffron Silph Co. 5F Layout:**
+  - Stairs: `(26, 0)`.
+  - Elevator: `(20, 0)`.
+  - Teleporter 1 (Center Room): `(23, 11)`, warps directly to Teleporter 2 (South-East Corridor) at `(27, 15)`.
+  - Teleporter 2 (South-East Corridor): `(27, 15)`, warps back to Teleporter 1 at `(23, 11)`.
+  - Central Room (Rows 6-12, Columns 21-28): Bounded on the north by Row 4/5 wall, on the left by Column 21 wall. Contains teleporter at `(23, 11)`.
+  - Left Compartment (Rows 11-16, Columns 1-6): Contains teleporter pad at `(3, 11)`, which warps to 3F teleporter `(3, 3)`.
+  - Card Key: Acquired on Turn 44655! Lying on the ground at `(21, 16)` in the southern corridor.
+  - Defeated NPCs: Scientist at `(24, 8)`, Rocket Grunt at `(20, 7)` (Card Key hint), and Rocket Grunt at `(8, 16)` are defeated.
+  - Pokémon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POKéMON evolve only when traded by link-cable."
+
+- **Card Key:** Needed to unlock Saffron Silph Co. electronic gates. (Note: It was verified absent in inventory on Turn 43976).
+## Saffron Silph Co. 3F Layout & Traversal (Verified Turn 44357-44374)
+- **Elevator entrance:** `(20, 0)` (Warp 3)
+- **Teleporter 1 (Warp 5):** `(3, 3)` -> Warps to `SILPH_CO_5F` Warp 6 at `(11, 5)`.
+- **Teleporter 2 (Warp 6):** `(3, 15)` -> Warps to `SILPH_CO_5F` Warp 7 at `(3, 15)` (Left Compartment - Card Key floor!).
+- **Teleporter 3 (Warp 7):** `(27, 3)` -> Warps to `SILPH_CO_2F` Warp 4 at `(3, 3)`.
+- **Rocket Grunt:** Standing at `(18, 7)` facing RIGHT. Directly blocks Column 19 on Row 7. Must be defeated to clear the direct corridor to Row 16.
+- **On-Foot Traversal to Left Teleporter (Warp 6 at 3,15):**
+  - Walk out of the elevator on 3F at `(20, 1)`.
+  - Go left to Column 19 on Row 6.
+  - Go down Column 19 past the Rocket Grunt at `(18, 7)`.
+  - Continue down Column 19 to Row 16 `(19, 16)`.
+  - Walk left along Row 16 to Column 3 `(3, 16)`.
+  - Walk up Column 3 to `(3, 15)` to warp directly to Saffron Silph Co. 5F Left Compartment, landing directly next to the Card Key!
+
+<hr>
+
+<h1><code>Locations/SilphCo</code></h1>
+
+# Silph Co. HQ - Overworld Layout & Navigation Guide
+
+## Saffron Silph Co. 1F (Lobby) - VERIFIED (Turn 43909-43921)
+- **Entrance Doormat:** Located at `(10, 17)`. Warping south from `(10, 17)` exits to Saffron City overworld at `(18, 21)`.
+- **Receptionist Counter:** Solid grey counter running horizontally along Row 17 from Column 12 to column 25. Walks on Row 17 are blocked.
+- **Walkable Lobby Corridors:**
+  - Row 16 is fully open and walkable from Column 11 to Column 28, allowing players to walk East from the entrance to Saffron's eastern elevators.
+  - Column 28 is fully open vertically from Row 16 up to Row 8.
+  - Row 8 is open horizontally from Column 24 to Column 28.
+- **Elevator Doors:** Located at `(20, 0)`. The doors face SOUTH. Walk UP from `(20, 1)` to enter/interact with the elevator (access path on Row 3 is completely open, but Row 4 is blocked at Column 20 by a terminal desk, so bypass it via Column 21 on Row 3).
+
+## Saffron Silph Co. Upper Floors (2F - 5F) - PARTIALLY VERIFIED (Turn 43939-44076)
+- **Staircases:** Located at alternating Columns 24 and 26 on Row 0 (e.g. 5F stairs are at `(26, 0)`).
+- **Saffron Silph Co. 5F Layout:**
+  - Stairs: `(26, 0)`.
+  - Elevator: `(20, 0)`.
+  - Teleporter 1 (Center Room): `(23, 11)`, warps directly to Teleporter 2 (South-East Corridor) at `(27, 15)`.
+  - Teleporter 2 (South-East Corridor): `(27, 15)`, warps back to Teleporter 1 at `(23, 11)`.
+  - Central Room (Rows 6-12, Columns 21-28): Bounded on the north by Row 4/5 wall, on the left by Column 21 wall. Contains teleporter at `(23, 11)`.
+  - Left Compartment (Rows 11-16, Columns 1-6): Contains teleporter pad at `(3, 11)`, which warps to 3F teleporter `(3, 3)`.
+  - Card Key: Acquired on Turn 44655! Lying on the ground at `(21, 16)` in the southern corridor.
+  - Defeated NPCs: Scientist at `(24, 8)`, Rocket Grunt at `(20, 7)` (Card Key hint), and Rocket Grunt at `(8, 16)` are defeated.
+  - Pokémon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POKéMON evolve only when traded by link-cable."
+
+- **Card Key:** Verified present in Bag (under TM09) on Turn 44954. No longer missing.
+
+## Saffron Silph Co. 3F Layout & Traversal (Verified Turn 44357-44374)
+- **Elevator entrance:** `(20, 0)` (Warp 3)
+- **Teleporter 1 (Warp 5):** `(3, 3)` -> Warps to `SILPH_CO_5F` Warp 6 at `(11, 5)`.
+- **Teleporter 2 (Warp 6):** `(3, 15)` -> Warps to `SILPH_CO_5F` Warp 7 at `(3, 15)` (Left Compartment - Card Key floor!).
+- **Teleporter 3 (Warp 7):** `(27, 3)` -> Warps to `SILPH_CO_2F` Warp 4 at `(3, 3)`.
+- **Rocket Grunt:** Standing at `(18, 7)` facing RIGHT. Directly blocks Column 19 on Row 7. Must be defeated to clear the direct corridor to Row 16.
+- **On-Foot Traversal to Left Teleporter (Warp 6 at 3,15):**
+  - Walk out of the elevator on 3F at `(20, 1)`.
+  - Go left to Column 19 on Row 6.
+  - Go down Column 19 past the Rocket Grunt at `(18, 7)`.
+  - Continue down Column 19 to Row 16 `(19, 16)`.
+  - Walk left along Row 16 to Column 3 `(3, 16)`.
+  - Walk up Column 3 to `(3, 15)` to warp directly to Saffron Silph Co. 5F Left Compartment, landing directly next to the Card Key!
+
+## Saffron Silph Co. 3F Gate & Teleporter Discoveries (Verified Turn 44760-45021)
+- **Electronic Gate 1:** Located at `(17, 8)` on 3F. Unlocked with the Card Key on Turn 44760!
+- **Electronic Gate 2 (Saffron's Right Hallway):** Located at `(19, 4)` on 3F. Unlocked with the Card Key on Turn 45017!
+- **Electronic Gate 3 (Saffron's Left Room Entrance):** Located at `(11, 12)` on 3F. Unlocked with the Card Key on Turn 45021!
+- **Teleporter (Warp 8):** Located at `(11, 11)` behind the `(17, 8)` gate. Warps the player directly to Saffron Silph Co. 7F at `(5, 3)`!
+
+## Saffron Silph Co. 7F Layout & Traversal (Verified Turn 44766-44846)
+- **Warp Landing from 3F (11, 11):** Lands at `(5, 3)` on 7F inside the locked left compartment.
+- **NPCs:**
+  - Silph Co. employee at `(1, 5)` (facing right) gives LAPRAS (SELKIE) on Turn 44831.
+  - SARA is in the room.
+- **Warp to 11F:** Located at `(5, 7)` in the bottom-right corner of the left compartment. Can be walked to on foot by walking down Column 3 to `(3, 7)` (row 7) and then walking right to `(5, 7)`. Row 7 is completely open underneath the tables!
+- **Rival JACK:** Met and defeated at `(3, 4)` on Turn 44810.
+
+## Saffron Silph Co. 11F Layout & Traversal (Verified Turn 44847)
+- **Electronic Gate 4 (President's Office Inner Gate):** Located at `(6, 13)` on 11F. Unlocked with the Card Key on Turn 45117!
+- **Giovanni:** Located further up in the boardroom (beyond Row 10).
+- **President:** Located at `(6, 9)` (beyond Row 10).
+- **Warp Landing from 7F (5, 7):** Lands at `(3, 2)` inside a fenced vertical corridor on the left.
+- **Layout & Obstacles:**
+  - Column 4 is a vertical solid grey wall, except at Row 14, which is completely open and serves as the entrance to the President's Office (discovered Turn 45115).
+  - Column 3 is a vertical open fenced corridor leading down from the landing warp at `(3, 2)` to Row 9.
+  - Giovanni is located at `(7, 5)` inside the boardroom on the right.
+  - Saffron Silph Co. President is located at `(6, 9)` inside the boardroom.
 
 
 <hr>
 
-<h1><code>Locations/SilphCo1F</code></h1>
+<h1><code>Locations/SaffronCity.md</code></h1>
 
-# Silph Co. 1F - Lobby & Topology
+## Saffron City - Verified Eastern & Southeastern Streets (Verified Turn 44437-44461)
+- **Saffron Pokmon Center:** Located at `(9, 29)`. Door is at `(9, 29)`, facing south onto Saffron's southern horizontal street at Row 30.
+- **Saffron's Southern Horizontal Street:** Runs horizontally at Rows 30 and 31. Walkable from Column 3 to Column 37.
+- **Wandering NPC:** Dark-haired NPC wanders along Row 30 between Column 10 and Column 18.
+- **Blocked South-to-Center Passages:**
+  - Column 13: Blocked by solid yellow building wall at `(13, 29)`.
+  - Column 18: Blocked by solid yellow building wall at `(18, 29)`.
+  - Column 20: Blocked by a stationary Rocket Grunt standing at `(20, 29)` facing DOWN.
+  - Columns 24-27: Blocked by grey barrels and signposts at Row 29.
+- **Eastern Vertical Corridor (Column 37):**
+  - Completely open pavement running vertically on Column 37 from Saffron's south-east quadrant to Saffron's north-east quadrant (Row 7).
+  - Decorative Post at `(37, 19)` blocks Column 37. Bypass: Walk left to `(36, 20)`, go up 2 steps to `(36, 18)`, then go right to `(37, 18)`.
+  - Decorative Post at `(37, 12)` blocks Column 37. Bypass: Walk right to `(38, 13)` in the green grass, go up 2 steps to `(38, 11)`, then go left to `(37, 11)`.
+- **Saffron's Northern Horizontal Street (Row 7/8):**
+  - Fully open horizontally at Row 7 and 8, extending from Saffron's east side (Column 37) all the way west to Saffron's center (Column 18).
+  - Saffron Silph Co. North Wall blocks direct downward access at Column 18 on Rows 10 and 11. To enter Silph Co., Saffron's outer perimeter must be navigated to approach the south entrance at `(18, 21)`.
 
-## Overview
-- Ground floor lobby of the Silph Co. 11-story headquarters in Saffron City.
-- Liberated from Team Rocket on Turn 17858.
+<hr>
 
-## Layout & Landmarks (Empirically Verified)
-- South Entrance / Exit Mat: (10..11, 17) [South exit to Saffron City at (18, 21)]
-- Fountain / Monument: (6..7, 15)
-- Plant: (6..7, 14)
-- Northern Corridor: Rows 1-2 (cols 4-21) open walkway along northern wall.
-- Reception Desks: (10, 8), (12..13, 10), (14..15, 8), (18..19, 3), (20..21, 5).
-- Center Mosaic Area: Blue/white tiles at (10..13, 6..9) bordered by counters.
-- **Elevator Doors**: Located at (20, 0) along northern wall [Verified Turn 17461].
-- Northwest Structure: Brown partition at (4..6, 2..3) with arch at (6, 0).
+<h1><code>Locations/DiglettsCave.md</code></h1>
+
+# Diglett's Cave - Tunnel Mapping & Traversal
+
+## Map Connections & Warps
+- **South Entrance Room:**
+  - South Cave Hole on Route 11 is at `(4, 5)`. Walking into `(4, 5)` warps the player inside the cave at `(2, 7)`.
+  - The doormat at `(2, 7)` and `(3, 7)` inside the cave exits south back to Route 11 at `(4, 6)`.
+  - The ladder at `(4, 4)` in the entrance room warps the player down to the main tunnel map at `(37, 31)`.
+- **Main Tunnel Map (Map ID 59):**
+  - South Ladder is at `(37, 31)`. Standing on `(37, 31)` warps the player back up to the entrance room at `(4, 4)`.
+  - North Ladder is at `(4, 4)`. Standing on `(4, 4)` warps the player back up to the Route 2 entrance room.
+
+## Walkable Corridors & Rock Walls
+- **Chamber 1 (South-East, Rows 30-33, Columns 33-37):**
+  - A small 5x4 chamber containing the south ladder at `(37, 31)`.
+  - It is completely enclosed on the top (Row 29), bottom (Row 34), right (Column 38), and left (Column 33) EXCEPT for a single horizontal corridor on Row 31!
+- **Corridor 1 (Horizontal, Row 31):**
+  - Runs horizontally from the ladder `(37, 31)` all the way left to Column 20 (and beyond).
+  - Bounded on the top by Row 30 rock wall (except at Columns 20-25) and on the bottom by Row 32 rock wall (except at Columns 20-25).
+- **Corridor 2 (Vertical, Columns 20-25):**
+  - A wide vertical corridor running north-south on Columns 20-25.
+  - Connects to Corridor 1 at `(23, 31)`.
+  - Open to the north (Row 27 and above).
+
+<hr>
+
+<h1><code>Locations/DiglettsCave</code></h1>
+
+# Locations/DiglettsCave
+
+Placeholder to prevent data loss.
 
 
 <hr>
 
-<h1><code>Locations/SilphCo5F</code></h1>
+<h1><code>Locations/Route2.md</code></h1>
 
-# Silph Co. 5F - Layout & Card Key Search
-
-## Overview
-- Fifth floor of Silph Co. headquarters.
-- Key Objective: Locate and retrieve the Card Key.
-
-## Layout & Landmarks (Empirically Verified)
-- Elevator Doors: (20, 0) [Verified Turn 17465]
-- Stairs: (24, 0) [Verified Turn 17465]
-- Northeast Warp Pad: (27, 3) [Verified Turn 17465]
-- Northern Highway: Rows 1-3 (cols 2-27) unobstructed horizontal corridor.
-- Central East Hallway: Row 5 (cols 16-23), Cols 16-19 (rows 5-14)
-- Computer Lab: Green desks at (20..23, 6..7)
-- Electronic Card Key Gate: (15, 10..11) [Locked - requires Card Key]
-- Column 15 Divider: (15, 8..9) and (15, 12..15) are solid walls.
-- Southern Corridor: Row 16 connects western sector to eastern sector with Item Ball at (21, 16).
-
-- Wall Divider: (7, 1..3) solid wall separating northwest room from north hall [Verified Turn 17476]
-- Electronic Card Key Gate 2: (7, 4..5) [Unlocked Turn 17734]
-- Northwest Computer Room (cols 0-7, rows 0-9): Item Ball located at (4, 6) [Uncollected - bag full 20/20]
-- Silph Researcher NPC at (9, 3): Friendly employee studying Poké Ball technology [Turn 17477]
-- Plants & Statues: (11..12, 2..3)
-
-- Central Room Walls: (10..13, 6..9) solid wall/desk complex [Verified Turn 17483]
-- Western North-South Corridor: Columns 8-9 (rows 4-16) open corridor connecting north hall to south hall [Verified Turn 17483]
-
-- South Warp Pad: (9, 15) [Verified Turn 17484]
-- Electronic Card Key Gate 3: (7, 12..13) [Locked - requires Card Key]
-- Southwest Computer Room: Desks at (4..5, 12..15)
-- Rocket Grunt: Stationed at (8, 16) guarding row 16 corridor [Turn 17484]
-
-## 5F Trainers (Empirical Tracking)
-1. Juggler Dalton at (18, 7): [DEFEATED Turn 17470] Kadabra Lv 29, Mr. Mime Lv 29; ¥870 prize.
-2. Scientist Beau at (9, 3): [DEFEATED Turn 17479] Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26; ¥1300 prize.
-3. Scientist at (13, 9): Spotted in western room [Turn 17471].
-
-3. Rocket Grunt at (8, 16): [DEFEATED Turn 17485] Arbok Lv 33; ¥990 prize.
-4. Rocket Grunt at (13, 16): Guarding row 16 western approach [Turn 17516].
-- Items: TM09 (Take Down) collected at (21, 16) [Turn 17507].
-- Central Warp Pad at (11, 5) connects to 3F (3, 3) [Verified bidirectional].
+- **Cuttable Tree (Row 52) - THE CORE EAST-WEST GATEWAY:**
+  - Located at `(12, 52)` on Route 2.
+  - Standing at `(11, 52)` on the western main road and using CUT on the tree at `(12, 52)` clears it, allowing direct horizontal passage to the eastern strip at `(13, 52)`.
+  - This is a critical path since it completely bypasses the Southern Gatehouse ledges when entering the eastern strip from the south!
 
 <hr>
 
-<h1><code>Locations/SilphCo9F</code></h1>
+<h1><code>Locations/SaffronGym.md</code></h1>
 
-# Silph Co. 9F - Layout & Points of Interest
-
-## Overview
-- Ninth floor of Silph Co. headquarters.
-- Key Landmark: Rest Beds / Healing Station in east room; central elevator & stairs lobby.
-
-## Layout & Landmarks (Empirically Verified)
-- Elevator Doors: (18, 0)
-- Stairs: (14, 0)
-- Floor Directory Sign: (16, 0)
-- North Lobby Corridor: Rows 1-3 (cols 14-23) open pink floor.
-- Card Key Gate 1 (North): (18, 4), (19, 4) [Yellow locked gate].
-- Central Corridor: Columns 14-15 (rows 1-13) open vertical hall.
-- South Hallway: Rows 14-16 (cols 1-24) open corridor connecting east, central, and west rooms.
-- Rest Beds: (18, 6..7) and (20, 6..7) green beds located in east room.
-- West Office: Desks and researcher NPC at (4, 2).
-- Central-West Lab: Dividers at (10..12, 7) and column 7 Card Key Gate at (7, 8..9).
-
-## Warp Connections
-- `[9F (11, 9)] <-> [Unknown Floor (3, 11)]` [Verified Turn 17570]
-- `[9F (23, 7)]`: East room warp pad (north).
-- `[9F (23, 11)]`: East room warp pad (south).
-- `[9F (11, 5)]`: Central-west lab warp pad (north).
-- `[9F (3, 15)]`: Southwest hallway warp pad.
-
-## 9F Trainers (Empirical Tracking)
-1. Rocket Brother at (13, 15): [DEFEATED Turn 17563] Golbat Lv 28, Koffing Lv 28, Drowzee Lv 28; �840 prize.
-2. Rocket Grunt at (19, 2): Spotted near north elevator corridor.
-3. Scientist Ed at (10, 2): [DEFEATED Turn 17577] Grimer Lv 29, Electrode Lv 29; �1392 prize.
-4. Silph Researcher at (4, 2): Friendly NPC ("I wonder if SILPH is finished...").
-
-5. Scientist at (21, 13): [DEFEATED Turn 17615] Voltorb Lv 28, Koffing Lv 28, Magneton Lv 28; prize money won.
-- Central Lab Warp Pad located at (9, 3) (corrected coordinate).
-- NPC at (2, 4): Friendly NPC ("Your POKéMON seem to adore you, kid!").
-- Rocket Grunt at (2, 4): Drowzee Lv 28, Grimer Lv 28, Machop Lv 28 [Defeated].
-- Scientist at (7, 11): [DEFEATED Turn 17785] Electrode Lv 29, Weezing Lv 29, Magneton Lv 29; ¥1450 prize.
-- Card Key Gate at (9, 8..9): Connecting west lab (cols 3-8) to central lab (cols 10-12).
-- Warp Pad at (11, 11): Located in central lab room.
-
-<hr>
-
-<h1><code>Locations/SilphCo7F</code></h1>
-
-# Silph Co. 7F - Points of Interest & Layout
+# Saffron City Gym - 3x3 Warp Room Matrix & Navigation Guide
 
 ## Overview
-- Elevator doors at (18, 0) entrance from (18, 1).
-- Stairs located at (16, 0) and (22, 0).
-- Northern corridor runs along row 1.
-- Rocket Grunt at (20, 2) [Defeated].
-- Card Key gate at (21, 4) unlocked.
+Saffron City Gym features a 3x3 grid of rooms separated by solid walls, connected via teleporter warp pads in the corners.
+To reach Sabrina from the entrance room, the golden rule is the **TR / BL alternating opposite rule**:
+- If you land on a **Top-Right (TR)** pad, take the **Bottom-Left (BL)** pad in that room.
+- If you land on a **Bottom-Left (BL)** pad, take the **Top-Right (TR)** pad in that room.
+- Alternating this sequence (TR -> BL -> TR -> BL) avoids loops and leads directly to Sabrina in the center room.
 
-## Rooms & Features
-- Northern Office Suite entered via gate at (21, 4) -> (21, 5..11).
-- Computer terminals at (18, 7), (18, 9), and (18, 11) with plants at (18, 6), (18, 8), (18, 10).
-- Desks at cols 22-23, rows 7-9.
-- Second Card Key gate at (20..21, 12) unlocked.
-- Southern secluded room behind gate (21, 12):
-  - Team Rocket Grunt at (19, 14): Sandshrew Lv 29, Sandslash Lv 29 [Defeated].
-  - Warp pad at (21, 15): Connects to 5F (27, 3) [Verified bidirectional].
-- Rocket Grunt at (13, 1): Raticate Lv 26, Arbok Lv 26, Koffing Lv 26, Golbat Lv 26 [Defeated].
-- Card Key gate at (10..11, 6) leading south into large room at rows 7+.
-- Open corridor at rows 4-5 (cols 9-13).
-- Plant at (14, 4) and terminal at (14, 5).
-- NPC at (7, 10): Civilian worker ("It would be bad if TEAM ROCKET took over SILPH...").
-- Western Suite (cols 1-5, rows 1-7):
-  - Warp pad at (5, 3): Entrance from 9F (11, 11) [Verified bidirectional].
-  - Silph employee at (1, 5): Gives Lapras (Lv 15; sent to Box 1 via Bill's PC).
-  - Rival RED at (3, 7): [DEFEATED Turn 17805] Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40; �2600 prize.
-  - Warp pad at (5, 7): Exit warp tile (destination to be empirically verified upon entry).
+## Map Layout & Verified Room Warp Matrix
 
+### 1. Entrance Room (S Room, Bottom-Center)
+- **Starting Coordinates:** `(8, 17)`
+- **Gym Guide:** Located in this room near the statues.
+- **Accessible Warp Pad:** `(11, 15)` (BL)
+- **Transition:** Stepping on `(11, 15)` warps the player to `(11, 15)` inside the SE Room.
 
-<hr>
+### 2. SE Room (Bottom-Right, Room 1)
+- **Warp Pads:**
+  - TL: `(15, 11)`
+  - TR: `(19, 11)` - **Target Warp Pad** (alternating rule step 1)
+  - BL: `(15, 15)`
+  - BR: `(19, 15)`
+- **Trainer:** Psychic at `(17, 14)` (Defeated on Turn 45684. Had Slowpoke Lv33 and Slowbro Lv33).
+- **Transition:** Stepping on TR `(19, 11)` warps the player to `(19, 13)` inside the E Room.
 
-<h1><code>Locations/SilphCo3F</code></h1>
+### 3. E Room (Middle-Right, Room 2)
+- **Warp Pads:**
+  - TL: `(15, 11)`
+  - TR: `(19, 11)`
+  - BL: `(15, 15)` - **Target Warp Pad** (alternating rule step 2)
+  - BR: `(19, 15)`
+- **Transition:** Stepping on BL `(15, 15)` warps the player to `(19, 3)` inside the NE Room.
 
-# Silph Co. 3F - Points of Interest & Layout
-
-## Overview
-- Elevator doors located at (20, 0) entrance from (20, 1).
-- Stairs located at (24, 0).
-- Northern open hall across rows 1-3 (cols 16-25+).
-- Central corridor at cols 18-20 runs south past row 5 (bounded by wall dividers at col 17 and col 21).
-- Objective: Survey corridors, locate Card Key gates, trainers, and warp pad connecting to 7F western suite.
-- NPC at (20, 7) facing West.
-- NPC at (24, 8) facing West.
-- Card Key gate at (17, 8..9) unlocked.
-- Office room (cols 12-16, rows 5-12) fully surveyed: desks at (12..13, 8..9), terminals at (14..15, 5); no warp pad inside.
-- Scientist at (24, 8) facing West.
-- Warp Pad located at (23, 11) in southeast office area.
-- Desks and terminals at (24, 10..11) and (26, 10..11).
-- Northwest Corridor Warp Pad located at (3, 3).
-- Item Ball located at (8, 5).
-- Northwest Warp Pad at (3, 3) connects to 5F (11, 5) [Verified bidirectional].
-
-<hr>
-
-<h1><code>Locations/SilphCo11F</code></h1>
-
-# Silph Co. 11F - Points of Interest & Layout
-
-## Overview
-- Eleventh floor of Silph Co. headquarters (Executive Suite).
-- Infiltrated via warp pad from 7F (5, 7) arriving at (3, 2).
-- Liberated on Turn 17858 after defeating Team Rocket Boss Giovanni.
-
-## Layout & Landmarks (Empirically Verified)
-- Warp Pad: (3, 2) [Connects to 7F (5, 7)].
-- North Wall (row 0): Skylight windows with city view.
-- West Corridor: cols 1-3, rows 1-14 (beige diamond tile floor).
-- Vertical Wall Divider: column 4 extends rows 1-12.
-- South Hallway: row 14 connects west corridor (cols 1-3) to east hallway (cols 5-7).
-- Card Key Gate: (6, 13) [Unlocked] leading into President's Office.
-
-## Key Encounters & Trainers
-- Rocket Grunt at (3, 16)/(3, 13): [DEFEATED Turn 17841] Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32; �960 prize.
-- Rocket Grunt at (7, 5): Guarding executive approach.
-
-## President's Office (rows 5-13, cols 5-10)
-- Entered via Card Key gate at (6, 13).
-- Team Rocket Boss Giovanni at (6, 9): [DEFEATED Turn 17858] Nidorino Lv 37, Kangaskhan Lv 35, Rhyhorn Lv 37, Nidoqueen Lv 41; �4059 prize.
-- Silph President at (7, 5): Rescued; rewarded prototype Master Ball to player [Turn 17873].
-- President's Secretary at (10, 5).
-
-
-<hr>
-
-<h1><code>Locations/FightingDojo</code></h1>
-
-# Fighting Dojo - Layout & Progression
-
-## Overview
-- Karate dojo in northeast Saffron City at (26, 3) / local (4..5, 11).
-- Karate Master Koichi and 4 Black Belt students.
-- Reward: Choice of 1 gift Fighting-type Pokémon after defeating Master Koichi.
-
-## Layout & Landmarks
-- Entrance Mat: (4..5, 11)
-- Dragon Statues: (3, 8..9) and (6, 8..9)
-- Open Center Hall: Columns 4-5 (rows 1-11)
-- Left and Right Tatami Mats: Columns 1-2 and 7-8
-- Poké Ball Podiums (Back of Dojo): (4, 1) [Hitmonlee - claimed Turn 18055] and (5, 1) [Hitmonchan - remaining]
-- Karate Master Koichi: (5, 3)
-
-## Trainers
-1. Black Belt 1 at (5, 7): Machop Lv 31, Mankey Lv 31, Primeape Lv 31 [Defeated; ¥775]
-2. Black Belt 2 at (3, 6): Machop Lv 31, Machoke Lv 32 [Defeated; ¥800]
-3. Black Belt 3 at (5, 5): Primeape Lv 36 [Defeated]
-4. Black Belt 4 at (3, 4): Mankey Lv 31, Mankey Lv 31, Primeape Lv 31 [Defeated; ¥775]
-5. Karate Master Koichi at (5, 3): Hitmonlee Lv 37, Hitmonchan Lv 37 [Defeated Turn 18050; ¥925]
-
-## Status: 100% Cleared. Claimed Hitmonlee (nicknamed BRUCE; Lv 30, sent to Box 1).
-
+### 4. NE Room (Top-Right, Room 3)
+- **Arrival Position:** Landed on TR pad at `(19, 3)`.
+- **Warp Pads:**
+  - TL: `(15, 3)`
+  - TR: `(19, 3)`
+  - BL: `(15, 5)` - **Target Warp Pad** (alternating rule step 3)
+  - BR: `(19, 5)`
+- **Trainer:** Psychic at `(17, 2)` (Currently battling on Turn 45692. Has Kadabra Lv31).
 
 <hr>
 
 <h1><code>Locations/SaffronGym</code></h1>
 
-# Saffron Gym - Layout, Warp Network & Progression
+# Saffron City Gym - 3x3 Warp Room Matrix & Navigation Guide
 
 ## Overview
-- Saffron Gym (Psychic specialty).
-- Gym Leader: Sabrina (Reward: Marsh Badge & TM46 Psywave).
-- Mechanics: 9 square rooms connected by red warp pads.
+Saffron City Gym features a 3x3 grid of rooms separated by solid walls, connected via teleporter warp pads in the corners.
+To reach Sabrina from the entrance room, follow the exact room-to-room warp transitions listed below. The simplified "alternating TR/BL" rule is a flawed generalization and does not apply to all rooms in Saffron Gym (as verified on Turns 45684-45741, specific BL/BR transitions are required).
 
-## Room Layouts & Warp Permutations
+## Map Layout & Verified Room Warp Matrix
 
-### Entrance Room (South-Central / Room 1)
-- Boundaries: cols 7-12, rows 13-17 [Entrance at (8..9, 17)]
-- Gym Guide: (10, 15), Statues: (9, 14..15)
-- Warp Pad: (11, 15) -> Southeast Room (19, 17)
+### 1. Entrance Room (S Room, Bottom-Center)
+- **Starting Coordinates:** `(8, 17)`
+- **Gym Guide:** Located in this room near the statues.
+- **Accessible Warp Pad:** `(11, 15)` (BL)
+- **Transition:** Stepping on `(11, 15)` warps the player to `(11, 15)` inside the SE Room.
 
-### Southeast Room (SE / Room 9)
-- Boundaries: cols 14-19, rows 13-17
-- Trainer: Psychic at (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
-- Warp Pads:
-  - Top-Left: (15, 15) -> Northeast Room (19, 3)
-  - Top-Right: (19, 15)
-  - Bottom-Left: (15, 17)
-  - Bottom-Right: (19, 17) [Arrival from Entrance (11, 15)]
+### 2. SE Room (Bottom-Right, Room 1)
+- **Warp Pads:**
+  - TL: `(15, 11)`
+  - TR: `(19, 11)` - **Target Warp Pad**
+  - BL: `(15, 15)`
+  - BR: `(19, 15)`
+- **Trainer:** Psychic at `(17, 14)` (Defeated on Turn 45684. Had Slowpoke Lv33 and Slowbro Lv33).
+- **Transition:** Stepping on TR `(19, 11)` warps the player to `(19, 13)` inside the E Room.
 
-### Northeast Room (NE / Room 3)
-- Boundaries: cols 14-19, rows 1-5
-- Trainer: Psychic at (17, 1): Kadabra Lv 31, Slowpoke Lv 31, Mr. Mime Lv 31 [Defeated]
-- Warp Pads:
-  - Top-Left: (15, 3)
-  - Top-Right: (19, 3) [Arrival from Southeast (15, 15)]
-  - Bottom-Left: (15, 5) -> Northwest Room (1, 3)
-  - Bottom-Right: (19, 5)
+### 3. E Room (Middle-Right, Room 2)
+- **Warp Pads:**
+  - TL: `(15, 11)`
+  - TR: `(19, 11)`
+  - BL: `(15, 15)` - **Target Warp Pad**
+  - BR: `(19, 15)`
+- **Transition:** Stepping on BL `(15, 15)` warps the player to `(19, 3)` inside the NE Room.
 
-### Northwest Room (NW / Room 1)
-- Boundaries: cols 0-5, rows 1-5
-- Trainer: Psychic at (3, 1): Slowbro Lv 38 [Defeated]
-- Warp Pads:
-  - Top-Left: (1, 3) [Arrival from Northeast (15, 5)]
-  - Top-Right: (5, 3) [Arrival from North-Center (11, 3)]
-  - Bottom-Left: (1, 5) -> Center Room (11, 11)
-  - Bottom-Right: (5, 5) -> West Room (1, 11)
+### 4. NE Room (Top-Right, Room 3)
+- **Arrival Position:** Landed on TR pad at `(19, 3)`.
+- **Warp Pads:**
+  - TL: `(15, 3)`
+  - TR: `(19, 3)`
+  - BL: `(15, 5)` - **Target Warp Pad**
+  - BR: `(19, 5)`
+- **Trainer:** Psychic at `(17, 2)` (Currently battling on Turn 45692. Has Kadabra Lv31).
 
-### West Room (W / Room 4)
-- Boundaries: cols 0-5, rows 7-11
-- Trainer: Channeler at (3, 7): Haunter Lv 38 [Defeated]
-- Warp Pads:
-  - Top-Left: (1, 9)
-  - Top-Right: (5, 9) -> North-Center Room (9, 5)
-  - Bottom-Left: (1, 11) [Arrival from Northwest (5, 5)]
-  - Bottom-Right: (5, 11)
+### 5. NW Room (Top-Left, Room 4)
+- **Arrival Position:** Landed on TL pad at `(1, 3)`.
+- **Warp Pads:**
+  - TL: `(1, 3)`
+  - TR: `(5, 3)`
+  - BL: `(1, 5)`
+  - BR: `(5, 5)` - **Target Warp Pad**
+- **Trainer:** Psychic at `(3, 3)` (Defeated on Turn 45715. Had Kadabra Lv31, Slowpoke Lv31, Mr. Mime Lv31, and Slowbro Lv38).
+- **Transition:** Stepping on BR `(5, 5)` warps the player to `(1, 11)` inside the W Room.
 
-### North-Center Room (N / Room 2)
-- Boundaries: cols 7-12, rows 1-5
-- Trainer: Channeler at (10, 1) [Defeated]
-- Warp Pads:
-  - Top-Left: (9, 3) [Arrival from Southwest (5, 15)]
-  - Top-Right: (11, 3) -> Northwest Room (5, 3)
-  - Bottom-Left: (9, 5) [Arrival from West (5, 9)]
-  - Bottom-Right: (11, 5) -> Southwest Room (1, 17)
+### 6. W Room (Middle-Left, Room 5)
+- **Arrival Position:** Landed on BL pad at `(1, 11)`.
+- **Warp Pads:**
+  - TL: `(1, 9)`
+  - TR: `(5, 9)` - **Target Warp Pad**
+  - BL: `(1, 11)`
+  - BR: `(5, 11)`
+- **Trainer:** Channeler at `(3, 7)` (Defeated on Turn 45725. Had Haunter Lv38).
+- **Transition:** Stepping on TR `(5, 9)` warps the player to `(9, 5)` inside the N Room.
 
-### Southwest Room (SW / Room 7)
-- Boundaries: cols 0-5, rows 13-17
-- Trainer: Channeler at (3, 13..15): Gastly Lv 33, Gastly Lv 33, Haunter Lv 33 [Defeated Turn 18366]
-- Warp Pads:
-  - Top-Left: (1, 15)
-  - Top-Right: (5, 15) -> North-Center Room (9, 3)
-  - Bottom-Left: (1, 17) [Arrival from North-Center (11, 5)]
-  - Bottom-Right: (5, 17)
+### 7. N Room (North-Center, Room 6)
+- **Arrival Position:** Landed on BL pad at `(9, 5)`.
+- **Warp Pads:**
+  - TL: `(9, 3)`
+  - TR: `(11, 3)` - **Target Warp Pad**
+  - BL: `(9, 5)`
+  - BR: `(11, 5)`
+- **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
 
-### Center Room (Sabrina's Chamber / Room 5)
-- Boundaries: cols 7-12, rows 7-11
-- Gym Leader Sabrina: (9, 8) [Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38, Alakazam Lv 43] [Defeated Turn 18379; Marsh Badge & TM46 Psywave obtained]
-- Warp Pad: (11, 11) [Arrival from Northwest (1, 5)]
-
-## Saffron Gym Complete Warp Permutation Matrix
-| Source Room | Warp Coordinate | Destination Room | Destination Coord |
-|---|---|---|---|
-| Entrance (S) | (11, 15) | Southeast (SE) | (19, 17) |
-| Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
-| Northeast (NE) | (15, 5) | Northwest (NW) | (1, 3) |
-| Northwest (NW) | (5, 5) | West (W) | (1, 11) |
-| West (W) | (5, 9) | North-Center (N) | (9, 5) |
-| North-Center (N) | (11, 5) | Southwest (SW) | (1, 17) |
-| Southwest (SW) | (5, 15) | North-Center (N) | (9, 3) |
-| North-Center (N) | (11, 3) | Northwest (NW) | (5, 3) |
-| Northwest (NW) | (1, 5) | Center (Sabrina) | (11, 11) |
-
-## Sabrina True Optimal Route (4 Warps)
-1. Entrance Room: Step on (11, 15) -> Warps to Southeast Room at (19, 17).
-2. Southeast Room: Step on (15, 15) (Top-Left) -> Warps to Northeast Room at (19, 3).
-3. Northeast Room: Step on (15, 5) (Bottom-Left) -> Warps to Northwest Room at (1, 3).
-4. Northwest Room: Step on (1, 5) (Bottom-Left) -> Warps to Center Room (Sabrina) at (11, 11).
-5. Center Room: Walk Left to (9, 11), Up to (9, 9), face Up and challenge Sabrina at (9, 8)!
+### 8. Center Room (Sabrina's Room, Room 7)
+- **Arrival Position:** Landed on BR pad at `(11, 11)`.
+- **Warp Pads:**
+  - BR: `(11, 11)`
+- **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
 
 
 <hr>
 
 <h1><code>Locations/CinnabarIsland</code></h1>
 
-# Cinnabar Island - Points of Interest & Topology
+
+
+<hr>
+
+<h1><code>Scratchpad/Switch_Matrix</code></h1>
+
+# Pokémon Mansion - Verified Switch Matrix & Master Route
 
 ## Overview
-- Cinnabar Island is an isolated volcanic island in southwestern Kanto, accessible by surfing south along Route 21 from Pallet Town, or west along Route 20 from Seafoam Islands / Fuchsia City.
+- Global Mewtwo statue switches toggle electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
+- Floor transitions preserve the active state.
+- B1F West SOUTH is permanently separated from B1F West NORTH by a solid brick wall on Row 9.
+- 1F East is blocked from going up to 2F East in State B because the gate at `(15, 8)` is closed, and Column 14 is permanently blocked by rubble on Rows 12-16.
+- 3F West is permanently separated from 3F East by a solid column of rubble at Column 10 on Rows 9-16. This blocks all horizontal crossing on 3F in State A (except Row 6, which is in the northern rooms).
 
-## Major Landmarks
-1. **Pokémon Mansion**: Northwest sector (entrance at col 6, row 3). Multi-floor ruined mansion containing burglar and scientist trainers, Mew/Mewtwo research journals, statue switch puzzles, and the **Secret Key** needed to unlock Cinnabar Gym.
-2. **Cinnabar Gym**: Northeast sector (entrance at col 18, row 3). Gym Leader Blaine (Fire specialist; Volcano Badge & TM38 Fire Blast). Locked; requires Secret Key from Pokémon Mansion.
-3. **Cinnabar Pokémon Center**: Central-south sector.
-4. **Cinnabar Pokémart**: Central sector.
-5. **Pokémon Lab**: Southwest sector. Scientists perform fossil resurrection (Helix Fossil -> Omanyte, Dome Fossil -> Kabuto, Old Amber -> Aerodactyl) and trade Pokémon.
+---
 
-## Route Connections
-- North: Route 21 (water route connecting directly north to Pallet Town).
-- East: Route 20 (water route connecting east towards Seafoam Islands and Route 19 to Fuchsia City).
+## Shutter Gate Configurations & Structural Barriers
+
+### Permanent Structural Barriers
+- **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
+- **3F West Pitfall Trap at (5, 9):** Permanent structural hazard that warps/drops the player down to 2F West at (5, 10) (verified on Turn 55204). Avoid walking UP to Row 9 Column 5 on 3F West in both State A and State B!
+- **3F West Row 9 Wall (Columns 6-7):** Permanent solid vertical wall separating the southern hallway from northern rooms, blocking vertical traversal on these columns (verified on Turn 55219).
+- **1F West Row 9 Columns 3-9 Wall:** Permanent solid horizontal wall separating southern hallway (Row 10-14) from northern rooms (Row 5-8).
+
+### State A (Default)
+- **1F West Row 9 Gates:** CLOSED.
+- **2F West Row 9 Wall (Columns 2-9):** Permanent solid horizontal wall separating southern hallway from northern rooms.
+- **2F West Column 10 Row 8:** OPEN (verified on Turn 55967).
+- **2F Column 15 Row 6:** OPEN (verified on Turn 55941).
+- **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
+- **3F East gate at `(15, 11)` (stairs):** OPEN (as a DOWN warp to 2F East).
+- **1F East gate at `(15, 8)`:** OPEN.
+- **B1F North-Central gate at `(9, 5)`:** CLOSED.
+- **2F East Row 7 Gates:** OPEN (allows vertical crossing on Column 15).
+- **3F West Row 9 Gates:** CLOSED.
+- **3F West Row 11 Column 11:** OPEN.
+- **3F West Row 12 Gates:** OPEN.
+
+### State B (Toggled)
+- **1F West Row 9 Gates:** CLOSED.
+- **2F West Column 10 Row 8 Gate:** OPEN (verified on Turn 55967).
+- **B1F South-East gate at `(10, 11)`:** CLOSED.
+- **3F East gate at `(15, 11)` (stairs):** OPEN (as an UP warp to 3F East).
+- **1F East gate at `(15, 8)`:** CLOSED.
+- **B1F North-Central gate at `(9, 5)`:** OPEN (allows horizontal crossing from B1F East NORTH to B1F West NORTH!).
+- **2F East Row 7 Gates (Columns 14-17):** CLOSED (blocks vertical crossing on Column 15 on Row 7). We have empirically verified on foot that Columns 15 and 16 are CLOSED on Row 7 of 2F East in State B (Turns 55256, 55259).
+- **3F West Row 9 Gates:** OPEN.
+- **3F West Row 12 Gates:** CLOSED.
+
+---
+
+## The Definitive Verified Master Route to B1F East & Secret Key
+1. **Enter Mansion in State A:**
+   - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 5) -> (6, 5) -> (6, 4) -> (6, 3)` and step UP to enter 1F West (landing at `(5, 27)`).
+
+2. **Warp UP 1F West -> 2F West -> 3F West (State A):**
+   - Walk to `(5, 11)` -> `(8, 11)` -> `(8, 10)` -> `(5, 10)` -> step LEFT to warp to 2F West (landing at `(5, 11)`).
+   - Walk Right 2 steps to `(7, 11)` -> step UP onto stairs at `(7, 10)` to warp UP to 3F West (landing at `(7, 11)`).
+
+3. **Toggle 3F West Mewtwo Switch to State B:**
+   - On 3F West: walk to `(4, 11)` -> `(4, 13)` -> `(1, 13)` -> `(2, 13)` -> `(2, 12)`.
+   - Stand at `(2, 12)` facing UP towards the Mewtwo statue switch at `(2, 11)` and toggle it to State B! (Select YES).
+
+4. **Cross 3F West to 3F East & Drop to 1F East:**
+
+   - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)` (walk UP Row 3 to get to Row 4).
+   - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 4)`.
+
+5. **Warp DOWN to B1F East & Retrieve Secret Key:**
+   - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 2)`).
+   - On B1F East, walk horizontally along Row 5 across Column 9 gate (now open in State B) directly to B1F West at `(1, 5)`.
+   - Stand at `(1, 5)` facing UP and retrieve the Secret Key at `(1, 4)`!
+   - Escape via DIG back to Cinnabar Island.
+---
+
+## Verified Switch Mechanics & Spatial Constraints (Turn 58016)
+
+1. **Global Switch Persistence:**
+   - The global Mewtwo statue switch state (State A vs State B) persists across DIG warps, player blackouts, and complete mansion exits/re-entries. Once toggled to State B, the mansion remains in State B until explicitly toggled back to State A at any switch. (Verified Turn 57829-57840).
+
+2. **3F West Staircase Warp Trap at (7, 10):**
+   - The staircase at `(7, 10)` on 2F West warps the player up to `(7, 10)` on 3F West.
+   - However, `(7, 10)` on 3F West also acts as an immediate automatic DOWN warp back to 2F West at `(7, 11)` if entered from the overworld, or if the destination tile on 3F West is blocked.
+   - In State A, the shutter gate on 3F West at Row 10/9 is CLOSED, which blocks the warp landing tile at `(7, 10)` on 3F West. Because of this, warping UP in State A immediately triggers a collision pushback, sending the player back down to 2F West at `(7, 11)`.
+   - In State B, the shutter gate is OPEN, allowing the player to land safely on 3F West at `(7, 10)` and stay on the floor.
+
+3. **3F West Column 8 and Row 7 Layout & Bypass:**
+   - To navigate 3F West without stepping on the `(5, 10)` down-staircase warp, the player MUST walk on Row 11:
+     - From landing at `(7, 10)`, walk DOWN to `(7, 11)`.
+     - Walk LEFT along Row 11 to Column 1 `(1, 11)`.
+     - Walk UP Column 1 to Row 9 `(1, 9)`.
+     - This path is completely open in State B and safely circumvents the `(5, 10)` staircase warp and the `(8, 9)` rock block.
+
+## 🔍 Switch Interaction Mechanics (Corrected Turn 58507)
+- **3F West Switch Interaction Coordinates:**
+  - Stand at `(2, 12)` facing UP towards the statue at `(2, 11)`.
+  - Press `A` to interact.
+  - Choose YES to toggle the switch.
+  - The switch can ONLY be interacted with from the bottom (standing at `(2, 12)` facing UP). Interaction from the left side (standing at `(1, 11)` facing RIGHT) is completely non-interactive. It will select "NO" by default or ignore A presses, leaving the mansion stuck in State A.
+  - This direction-dependence is a hardcoded Gen 1 engine quirk of this specific switch.
+## The Verified State B 2F West to 3F East Bypass Route (Verified Turn 59714)
+The gate at `(6, 7)` on 2F West is CLOSED in State B, so we cannot walk UP Column 6 past Row 8.
+However, Column 5 on 2F West is completely OPEN vertically in State B (since there are no cabinets or shutter gates blocking Column 5 on Rows 3-11).
+Thus, the correct State B bypass route on 2F is:
+1. Walk from 2F West landing `(5, 11)` UP Column 5 directly to Row 3 `(5, 3)`.
+2. Walk RIGHT along Row 3 to Column 18 `(18, 3)` (this crosses horizontally from 2F West to 2F East, completely above all barriers).
+3. Walk DOWN Column 18 to Row 10 `(18, 10)`.
+4. Walk LEFT along Row 10 to `(15, 10)`.
+5. Step DOWN onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
+6. On 3F East, land at `(16, 11)`. Since we are in State B, the Row 11 gate at `(14, 11)` is OPEN, allowing us to walk RIGHT along Row 11 to Column 20, then UP Column 20 to Row 3, RIGHT Row 3 to `(26, 3)` and drop through the pitfall to 1F East inside the fenced room!
+
+## Verified Parity Log (Turn-Stamped)
+
+## Decorative Mewtwo Statues (No Switches)
+- **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
+
+
+## Verified 3F West Switch Statue Interaction Coordinates (Turn 60244)
+- **Switch Statue Coordinate:** `(2, 12)` on 3F West.
+- **Player Standing Position:** `(2, 13)` facing UP.
+- **Interaction:** Press A from `(2, 13)` facing UP to toggle.
+- **Rubble block at (2, 12):** The statue pedestal at `(2, 12)` behaves as a solid block/rubble obstacle from all other sides.
+
+
+## Verified 3F West Switch Statue Interaction Coordinates
+- **Switch Statue Coordinate:** Coordinates at `(1, 12)` on 3F West (verified on Turn 61072).
+  - Standing Position: Stand at `(1, 13)` facing UP towards `(1, 12)`.
+  - Interaction: Press A to open dialogue, select YES, and press A again to dismiss.
+- **Walkable Pathways & Gates:**
+  - Shutter Gate at `(6, 9)` and `(1, 9)` on 3F West: OPEN in State B, CLOSED in State A.
+  - Column 1 has a permanent wall at `(1, 9)`. Thus, Column 1 is blocked at Row 9.
+  - Column 2 is completely open vertically on Rows 6-13, allowing players to bypass the solid statue at `(1, 12)` by walking along Column 2.
+  - Collision Obstacle: Since the statue at `(1, 12)` is solid, Column 1 is blocked at Row 12 in both State A and State B!
+  - **Bypass Route (Column 2 Row 13):** From `(1, 13)`, walk RIGHT to `(2, 13)`, and walk UP Column 2 directly to Row 6 `(2, 6)` (this bypasses the solid statue at `(1, 12)` completely on Column 2, which is open floor!).
+- Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
+- Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 2 through the Row 9 gate which is OPEN in State B.
+## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
+- Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
+  - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
+  - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
+  - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
+  - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
+- **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
+
+## 🔍 CRITICAL DISCOVERY: Mewtwo Switch Dialogue Termination (Turn 62492)
+- **The Dialogue Termination Flaw:** Toggling a Mewtwo switch in Pokémon Red/Blue requires exactly **4 A-presses** (or 3 A-presses plus a final A/B to dismiss) to fully complete the dialogue and update the gate state:
+  1. 1st A: Interact with the statue at `(2, 11)` -> opens "A secret switch!"
+  2. 2nd A: Advance dialogue -> opens "Press it? Yes/No" prompt.
+  3. 3rd A: Select YES -> triggers switch and opens "Who wouldn't?" (or "Toggled!" or similar).
+  4. 4th A: Dismiss the final text box -> **The gates will only physically open/close after this final box is dismissed and the player is back in the overworld!**
+- If you only press A 3 times, the dialogue box remains on screen showing "Who wouldn't?", blocking all movement and keeping the gates closed!
+
+## 🗺️ Verified 3F West Switch & Path Coordinates (Turn 62492)
+- **Switch Location:** `(2, 11)` on 3F West (the statue).
+- **Standing Position:** `(2, 12)` facing UP.
+- **Path from stairs (7, 10) to Switch (2, 12):**
+  - From `(7, 10)`, walk DOWN to `(7, 11)`.
+  - Walk LEFT along Row 11 to Column 3 `(3, 11)` (bypassing the solid statue at `(2, 11)`).
+  - Walk DOWN Column 3 to `(3, 12)`.
+  - Walk LEFT to `(2, 12)`.
+  - Walk UP to face the statue at `(2, 11)`.
+
+## 🎒 Inventory & Escape Status Verification (Turn 62492)
+- We verified by manually opening the in-game Bag on Turn 62483 and saving screenshots (`real_bag_p1.png`, `real_bag_p2.png`) that we currently have **7 items** and **NO Secret Key** in our Bag.
+- Therefore, we must toggle the 3F West switch to State B, walk through the open gate, drop through the 3F East pitfall, go to B1F West NORTH, and retrieve the Secret Key.
+- Once retrieved, we can walk out on foot via the open Row 5 gates on 1F (West to East) to exit the Mansion completely without needing DIG.
+
+<hr>
+
+<h1><code>Locations/CinnabarIsland.md</code></h1>
+
+
+
+<hr>
+
+<h1><code>Locations/PokemonMansionB1F</code></h1>
+
+# Pok�mon Mansion B1F - Map & Navigation Log
+
+## True Landing Coordinates
+- **Balcony Drop Landing:** Landing coordinate is `(19, 16)` in B1F East.
+  - Verification: Dropping over the 3F balcony at `(19, 18)` or `(20, 18)` lands us in B1F East. (Note: previous notes containing `(9, 16)` were a typo).
+
+## Key Targets
+- **SECRET KEY:** Located in the northwest room of B1F at `(1, 4)`.
+  - Status: Open and accessible only in State B!
+  - Retrieval Method: Stand at `(1, 5)` facing UP and press `A` to retrieve it.
+  
+
+## Switch & Shutter Gate Configuration
+
+### B1F West vs B1F East Separation
+- B1F is divided into B1F West and B1F East by a solid vertical wall on Column 9 (except at Row 11 in State A, and Row 5/6 in State B).
+- B1F South is divided from B1F North on the West side by a solid permanent brick wall on Row 9 (Columns 1-8 are blocked).
+
+### DEFAULT STATE (State A)
+- **Row 11 Gate at `(10, 11)`:** **OPEN** (Allows horizontal crossing from B1F West to B1F East!).
+- **Column 10 Vertical Path:** **OPEN** (Allows vertical traversal between Row 11 and Row 5 on the East side).
+- **Row 5 Shutter Gate at `(9, 5)`:** **CLOSED** (Blocks horizontal crossing on the North side).
+- **Secret Key Room:** **CLOSED**.
+
+### TOGGLED STATE (State B)
+- **Row 11 Gate at `(10, 11)`:** **CLOSED** (B1F East is cut off from B1F West on the South side).
+- **Column 10 Vertical Path:** **CLOSED** (Blocked at Row 8).
+- **Row 5 Shutter Gate at `(9, 5)`:** **OPEN** (Allows horizontal crossing on the North side from B1F East to B1F West!).
+- **Secret Key Room at `(1, 4)`:** **OPEN**.
+
+---
+
+## Switch Details (Mansion Switch State B is toggled from 3F West)
+- B1F West SOUTH statues at `(3, 10)`, `(3, 12)`, `(3, 14)`, `(8, 10)`, `(8, 12)`, and `(8, 14)` are empirically proven on Turn 61288 to be purely decorative. B1F has NO Mewtwo switches at all!
+- However, we do not need to toggle any switch on B1F to retrieve the Secret Key! The entire mansion is solved by toggling the Mewtwo statue switch at `(2, 11)` on 3F West to State B, dropping down the 3F East pitfall at `(26, 6)` to 1F East `(25, 6)`, warping down to B1F East `(22, 2)`, and walking straight across Row 5 through the open Column 9 gate directly to the Secret Key room on B1F West.
+
+## Verified Empirical Discoveries & Proof of Work
+- **Permanent Column 1 Wall (Turn 57865):** Column 1 Row 9 has been physically verified as a solid, impassable permanent structural wall. The player cannot walk Up Column 1 past Row 9 in any state (A or B).
+- **Row 5 Column 20-21 Solid Barrier (Turn 57908):** Row 5 on Columns 20 and 21 contains a solid permanent horizontal wall block. Direct horizontal crossing from East to West on Row 5 is blocked at Columns 20 and 21. Crossing must be done by walking Left on Row 4 to Column 19, then walking Down to Row 5, and then walking Left directly through the open Column 9 gate at `(9, 5)`.
+- **B1F East Mewtwo Statues (Turn 57381):** Statues at `(16, 10)` and `(18, 10)` have been physically interacted with and verified to have no switches. They are purely decorative.
+- **Column 9 Row 5 Gate (Turn 57908):** Gate at `(9, 5)` is OPEN in State B and CLOSED in State A. Allows horizontal crossing between B1F East and B1F West North.
+
+## Switch Coordinates & Verified B1F Info (Turn 61084)
+- The entire mansion is solved by toggling the Mewtwo switch at `(2, 10)` or `(1, 12)` on 3F West to State B!
+- Once in State B, the B1F East NORTH gate at `(9, 5)` is OPEN, allowing us to walk directly across Row 5 from B1F East `(22, 2)` to the Secret Key room at `(1, 4)`.
+
+## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
+- Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
+  - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
+  - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
+  - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
+  - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
+- **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
+
+## 🗺️ State A Escape Route from B1F East to 1F West (No DIG/Escape Rope Needed!)
+- If the mansion is in State A (default), the B1F East North-Central gate at `(9, 5)` is closed, meaning we cannot cross directly to the Secret Key room.
+- However, we can cross to B1F West SOUTH on Row 11 since the gate at `(10, 11)` is OPEN in State A!
+- **Escape Route to 1F West:**
+  1. From `(10, 7)` on B1F East, walk Right 2 steps to Column 12 `(12, 7)`.
+  2. Walk Down Column 12 to Row 11 `(12, 11)` (this safely bypasses the permanent Row 8 rubble block at Column 10/11).
+  3. Walk Left along Row 11 directly to Column 5 `(5, 11)` (crosses through the open Row 11 gate at `(10, 11)`).
+  4. Walk Up Column 5 to `(5, 10)`.
+  5. Step UP onto the staircase at `(5, 10)` to warp UP to 1F West at `(5, 10)`!
+  6. From `(5, 10)` on 1F West, walk up to 2F West, then 3F West to toggle the switch back to State B!
 
 <hr>
 
 <h1><code>Locations/PokemonMansion1F</code></h1>
 
-# Pok�mon Mansion 1F - Layout & Exploration
+# Pokémon Mansion 1F - Map & Navigation Log
 
-## Overview
-- First floor of the ruined Pok�mon Mansion in northwest Cinnabar Island.
-- Features red carpet grand entrance, marble floors, Mewtwo statue switches, ruined walls, and an enclosed eastern wing accessible only by dropping from 3F.
-
-## Layout & Landmarks
-
-### Main Sector (West & Central)
-- Entrance Mat: (4..7, 26..27) [Door to Cinnabar Island at (4..5, 27)]
-- Central Grand Hallway: Columns 4-7, rows 14-27
-- Decorative Displays / Pillars: (3, 24) and (8, 24)
-- Stairs up to 2F: (5, 10) [at north end of central hallway]
-- Stairs down to B1F: (7, 10)
-
-### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
-- Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
-- Scientist NPC: (17, 17) [Scientist Ted: Electrode Lv 29, Weezing Lv 29; Defeated Turn 18533]
-- Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
-- Corridors: Row 14 (cols 12-17), Row 16 (cols 19-28), Row 20-21 (cols 12-23), Row 24-26 (cols 12-23), Column 12 (rows 14-26), Column 20 (rows 16-24), Column 25 (rows 10-23)
-- Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
-- Northern Chamber: Rows 10-14, cols 22-26 (contains B1F descending staircase at col 24/25)
-- Shutter Gate (Northeast): (24..25, 13)
-
-## Progression & Discoveries
-- Enclosed sector fully mapped (rows 10-27, cols 12-28).
-
+## Layout & Spatial Boundaries (Verified State A)
+- **Entrance Warp:** Entering from Cinnabar Island at `(6, 3)` warps the player to `(5, 27)` inside 1F West. Stepping DOWN on `(5, 27)` inside 1F West exits the Mansion back to Cinnabar Island at `(6, 3)`.
+- **North-South Shutter Gates (Row 8/9):** Completely CLOSED across Columns 5, 6, 7 in State A on 1F West, preventing vertical traversal from Row 7 to Row 8 on the West side.
+- **Solid Horizontal Wall (Row 9, Columns 3-9):** A solid permanent horizontal wall separates the southern hallway (Row 10-14) from the northern hallway (Row 5-8) on 1F West. This blocks vertical traversal on Columns 3, 4, 5, 6, 7, 8, and 9, meaning vertical crossing can only occur on Columns 10, 11, 12, or 13, which are completely open floor.
+- **Solid Separation Wall (Column 18):** Column 18 is a solid permanent wall separating 1F West from 1F East, blocking all horizontal traversal between the two halves of the floor.
+- **Warp to 2F West:** The staircase at `(5, 10)` on 1F West warps the player UP to 2F West. This staircase is accessed from the South side (standing at `(6, 10)` and stepping LEFT onto `(5, 10)`).
+- **Horizontal Openness (Row 7):** Row 7 on 1F West is completely open horizontally from Column 5 to Column 17.
+## State-Dependent Spatial Barriers (Verified)
+- **Row 5 Column 21 Shutter Gate (1F East):** CLOSED in State A, OPEN in State B (verified Turns 56673-56699).
+- **B1F East Stairs Gate at (22, 2) (1F East):** CLOSED in State A, OPEN in State B (verified Turn 56693).
 
 <hr>
 
-<h1><code>Locations/PokemonMansion2F</code></h1>
+<h1><code>Scratchpad/SafariZone_Route</code></h1>
 
-# Pokémon Mansion 2F - Layout & Exploration
+# Safari Zone - Complete Golden Route to Gold Teeth
 
-## Overview
-- Second floor of the ruined Pokémon Mansion.
-- Features marble floors, Mewtwo statue switch, eastern computer wing, and stairs connecting 1F and 3F.
+## Gold Teeth Location
+- **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
+- **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 26)` (directly below the teeth), face **UP** (north), and press **A**!
 
-## Layout & Landmarks
+## Step-by-Step Walkable Golden Route (Start to Teeth)
 
-### West / Central Sector
-- Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)]
-- Mewtwo Statue Switch: (2, 10..11) [Front interactable from (2, 12)]
-- Wall Divider at Row 9: Solid horizontal wall across (3..7, 9) dividing south hallway from northwest room.
-- Main South Corridor: (4..7, 10..27) red carpet hallway.
-- Connecting East-West Corridor: Row 11 (cols 4-12) connects main hall to column 12 thoroughfare.
+### Phase 1: Safari Zone Center to Area 1 (East)
+1. Start at Gatehouse entrance `(15, 25)`.
+2. Walk UP 3 steps to `(15, 22)`.
+3. Walk RIGHT 13 steps along Row 22 to `(28, 22)`.
+4. Walk UP 12 steps along Column 28 to `(28, 10)`.
+5. Walk RIGHT 2 steps to transition to Area 1 (East) at `(30, 10)`.
 
-### Northwest Room
-- Boundaries: cols 1-8, rows 1-7
-- Interior: Rubble, table at rows 4-5, statue at (2, 4..5).
-- Note: Thoroughfare along row 1 (cols 4-12).
+### Phase 2: Area 1 (East) to Area 2 (North)
+1. Emerge in Area 1 (East) at `(0, 22)`.
+2. Walk DOWN 1 step to `(0, 23)` then `(0, 24)`.
+3. Walk RIGHT 20 steps to `(20, 24)`.
+4. Walk UP 2 steps to `(20, 22)`.
+5. Walk UP 2 steps to climb plateau stairs to `(20, 20)`.
+6. Walk LEFT 8 steps on the plateau to `(12, 20)`.
+7. Walk DOWN 2 steps to descend stairs to `(12, 22)`.
+8. Walk LEFT 4 steps to Column 8 at `(8, 22)`.
+9. Walk UP 14 steps along Column 8 to `(8, 8)`.
+10. Walk RIGHT 4 steps to climb northern plateau stairs at `(12, 8)` to `(12, 6)`.
+11. Walk RIGHT 5 steps on plateau to `(17, 6)`.
+12. Walk DOWN 2 steps to descend plateau stairs to `(17, 8)`.
+13. Walk RIGHT 3 steps to Column 20 at `(20, 8)`.
+14. Walk UP 5 steps along Column 20 to Row 3 at `(20, 3)`.
+15. Walk LEFT 13 steps along Row 3 to `(7, 3)`.
+16. Walk DOWN 2 steps to `(7, 5)`.
+17. Walk LEFT 7 steps to transition to Area 2 (North) at `(0, 5)`.
 
-### Stairs to 3F
-- Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)).
-- Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10).
-- Arrival on 3F: Southwest Wing at (7, 10) / (7, 11).
+### Phase 3: Area 2 (North) to Area 3 (West)
+1. Emerge in Area 2 (North) at `(39, 31)`.
+2. Walk LEFT 17 steps along Row 31 to Column 22 at `(22, 31)`.
+3. Walk UP 9 steps along Column 22 (climbing Western Southern Plateau stairs at `(22, 23)`) to `(22, 22)`.
+4. Walk LEFT 6 steps on the plateau to `(16, 22)`.
+5. Walk DOWN 6 steps (descending stairs at `(16, 27)`) to grass at `(16, 28)`.
+6. Walk LEFT 4 steps to `(12, 28)`.
+7. Walk DOWN 2 steps to `(12, 30)` (to bypass the pond!).
+8. Walk LEFT 4 steps to `(8, 30)`.
+9. Walk DOWN 5 steps through the statue gap at `(8, 34)` to `(8, 35)`.
+10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
 
-### East Wing (Explored Turns 18593-18750)
-- Thoroughfare Column 12: Unobstructed north-south corridor connecting row 11 to row 1, bypassing all rubble at rows 8-9.
-- Computer terminals along row 2: (13, 2), (15, 2), (17, 2), (19, 2)
-- Item Ball: (14, 3) [Collected Turn 18593]
-- Shutter Barrier (North-Central): (21, 17) [CLOSED in State A, OPEN in State B]
-- Shutter Barrier (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B]
-- Doorway connections: (26..27, 4), (24..25, 13)
-- Corridors: Row 1 (cols 4-27), Row 3 (cols 10-27), Row 16 (cols 21-28), Col 26 (rows 4-12, 14-26)
-
-## State & Switch Mechanics
-- State A (Default): Doorway (26..27, 4) and (4, 7) OPEN; Shutters at (21, 17) and (26..27, 27) CLOSED.
-- State B (Toggled): Shutters at (21, 17) and (26..27, 27) OPEN; 1F gate at (24..25, 13) CLOSED.
-
-<hr>
-
-<h1><code>Locations/PokemonMansion3F</code></h1>
-
-# Pok�mon Mansion 3F - Layout & Exploration
-
-## Overview
-- Third floor of the ruined Pok�mon Mansion.
-- Contains journal entries about Mew/Mewtwo, trainers, statue switch, and drop-off balcony holes to lower floors.
-
-## Layout & Landmarks
-
-### Southwest Wing
-- Stairs down to 2F: (7, 10)
-- Research Journal: (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.")
-- Trainer: Burglar at (5, 11) [Ninetales Lv 38; Defeated Turn 18447; �3420]
-- Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455]
-- Hallway Row 16: (1..5, 16) open floor leading to southwest item
-- South Wall: Row 17
-
-### Northeast Wing (Accessible via 2F Northeast Stairs at (6, 1))
-- Stairs down to 2F: (6, 1) [Arrival at (6, 2)]
-- Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
-- Balcony Drop-off Hole (Departure): Rows 6-7, cols 6-9
-  - Departure Tile: 3F (6..9, 6..7) [Jumping off the balcony ledge into the hole]
-  - Arrival Tile: 1F (16, 14) [Lands directly on 1F enclosed east wing floor]
-- East Corridor & Rooms: Cols 10-16, rows 1-8
-
-## Switch Permutations & Mechanics
-- Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
-- Entering Mansion from exterior resets all switches to default State A.
-- To reach B1F stairs from 1F enclosed area, Mansion switches MUST remain in State A (Default) so the 1F shutter at (24..25, 13) remains OPEN!
-
-
-<hr>
-
-<h1><code>Scratchpad/MansionSwitchPermutations</code></h1>
-
-# Pokémon Mansion - Multi-Floor Switch & Barrier Permutations
-
-## Overview
-- Switches on Mewtwo statues toggle global shutter states across all floors (1F, 2F, 3F, B1F).
-- Entering Mansion from exterior resets all switches to State A (Default).
-
-## Empirical Barrier State Matrix
-
-| Floor | Barrier Location | State A (Default) | State B (Toggled) |
-|---|---|---|---|
-| 1F | Shutter at (24..25, 13) [Enclosed Wing to B1F Stairs] | **OPEN** | CLOSED (Verified Turn 18520, 18673) |
-| 2F | Doorways at (4, 7) and (6, 7) | **OPEN** (Verified Turn 18581) | CLOSED |
-| 2F | Shutter at (21, 17) [West-East Divider] | **CLOSED** (Verified Turn 18601) | OPEN |
-| 2F | Shutter at (26..27, 27) [Southeast Corner] | **CLOSED** (Verified Turn 18598) | OPEN |
-| 3F | Shutter at (15, 10..11) | **CLOSED** | OPEN (Verified Turn 18658) |
-
-## Balcony Pit Drop Empirical Matrix (3F -> Destination)
-| Departure Tile (Floor 3F) | Landing Tile (Floor, X, Y) | Resulting Area / Access | Status |
-|---|---|---|---|
-| 3F (16, 14) [Leftmost Pit Drop] | 1F (16, 14) | 1F South Wing (TM03, Scientist Ted) | Confirmed (Turns 18495, 18661) |
-| 3F (17, 14) [Center Pit Drop] | TBD | Testing for 1F Northern Wing / B1F access | Pending |
-| 3F (18, 14) / (19, 14) [Right Pit Drop] | TBD | Testing for 1F Northern Wing / B1F access | Pending |
-
-## Execution Protocol
-1. Ascend to 3F (6, 2) via 2F (6, 1).
-2. Toggle switch at (10, 5) to State B (opens (15, 11) shutter).
-3. Walk through (15, 11) into balcony room.
-4. Position at (18, 13) or (17, 13) and jump down into pit from right side.
-5. Record landing coordinates and proceed to B1F staircase.
+### Phase 4: Area 3 (West) to Gold Teeth & Back
+1. Emerge in Area 3 (West) at `(26, 0)`.
+2. Walk DOWN 2 steps to `(26, 2)`.
+3. Walk LEFT 1 step to `(25, 2)`.
+4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
+5. Walk LEFT 4 steps to `(21, 18)`.
+6. Walk DOWN 8 steps along Column 21 to `(21, 26)` (Row 26, the southern corridor).
+7. Walk LEFT 2 steps to Column 19 at `(19, 26)`.
+8. Stand at `(19, 26)` facing **UP** (north).
+9. Press **A** to pick up the Gold Teeth!
 
 <hr>

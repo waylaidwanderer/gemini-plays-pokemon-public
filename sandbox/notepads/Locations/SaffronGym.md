@@ -1,92 +1,74 @@
-# Saffron Gym - Layout, Warp Network & Progression
+# Saffron City Gym - 3x3 Warp Room Matrix & Navigation Guide
 
 ## Overview
-- Saffron Gym (Psychic specialty).
-- Gym Leader: Sabrina (Reward: Marsh Badge & TM46 Psywave).
-- Mechanics: 9 square rooms connected by red warp pads.
+Saffron City Gym features a 3x3 grid of rooms separated by solid walls, connected via teleporter warp pads in the corners.
+To reach Sabrina from the entrance room, follow the exact room-to-room warp transitions listed below. The simplified "alternating TR/BL" rule is a flawed generalization and does not apply to all rooms in Saffron Gym (as verified on Turns 45684-45741, specific BL/BR transitions are required).
 
-## Room Layouts & Warp Permutations
+## Map Layout & Verified Room Warp Matrix
 
-### Entrance Room (South-Central / Room 1)
-- Boundaries: cols 7-12, rows 13-17 [Entrance at (8..9, 17)]
-- Gym Guide: (10, 15), Statues: (9, 14..15)
-- Warp Pad: (11, 15) -> Southeast Room (19, 17)
+### 1. Entrance Room (S Room, Bottom-Center)
+- **Starting Coordinates:** `(8, 17)`
+- **Gym Guide:** Located in this room near the statues.
+- **Accessible Warp Pad:** `(11, 15)` (BL)
+- **Transition:** Stepping on `(11, 15)` warps the player to `(11, 15)` inside the SE Room.
 
-### Southeast Room (SE / Room 9)
-- Boundaries: cols 14-19, rows 13-17
-- Trainer: Psychic at (17, 15): Slowpoke Lv 33, Slowbro Lv 33 [Defeated]
-- Warp Pads:
-  - Top-Left: (15, 15) -> Northeast Room (19, 3)
-  - Top-Right: (19, 15)
-  - Bottom-Left: (15, 17)
-  - Bottom-Right: (19, 17) [Arrival from Entrance (11, 15)]
+### 2. SE Room (Bottom-Right, Room 1)
+- **Warp Pads:**
+  - TL: `(15, 11)`
+  - TR: `(19, 11)` - **Target Warp Pad**
+  - BL: `(15, 15)`
+  - BR: `(19, 15)`
+- **Trainer:** Psychic at `(17, 14)` (Defeated on Turn 45684. Had Slowpoke Lv33 and Slowbro Lv33).
+- **Transition:** Stepping on TR `(19, 11)` warps the player to `(19, 13)` inside the E Room.
 
-### Northeast Room (NE / Room 3)
-- Boundaries: cols 14-19, rows 1-5
-- Trainer: Psychic at (17, 1): Kadabra Lv 31, Slowpoke Lv 31, Mr. Mime Lv 31 [Defeated]
-- Warp Pads:
-  - Top-Left: (15, 3)
-  - Top-Right: (19, 3) [Arrival from Southeast (15, 15)]
-  - Bottom-Left: (15, 5) -> Northwest Room (1, 3)
-  - Bottom-Right: (19, 5)
+### 3. E Room (Middle-Right, Room 2)
+- **Warp Pads:**
+  - TL: `(15, 11)`
+  - TR: `(19, 11)`
+  - BL: `(15, 15)` - **Target Warp Pad**
+  - BR: `(19, 15)`
+- **Transition:** Stepping on BL `(15, 15)` warps the player to `(19, 3)` inside the NE Room.
 
-### Northwest Room (NW / Room 1)
-- Boundaries: cols 0-5, rows 1-5
-- Trainer: Psychic at (3, 1): Slowbro Lv 38 [Defeated]
-- Warp Pads:
-  - Top-Left: (1, 3) [Arrival from Northeast (15, 5)]
-  - Top-Right: (5, 3) [Arrival from North-Center (11, 3)]
-  - Bottom-Left: (1, 5) -> Center Room (11, 11)
-  - Bottom-Right: (5, 5) -> West Room (1, 11)
+### 4. NE Room (Top-Right, Room 3)
+- **Arrival Position:** Landed on TR pad at `(19, 3)`.
+- **Warp Pads:**
+  - TL: `(15, 3)`
+  - TR: `(19, 3)`
+  - BL: `(15, 5)` - **Target Warp Pad**
+  - BR: `(19, 5)`
+- **Trainer:** Psychic at `(17, 2)` (Currently battling on Turn 45692. Has Kadabra Lv31).
 
-### West Room (W / Room 4)
-- Boundaries: cols 0-5, rows 7-11
-- Trainer: Channeler at (3, 7): Haunter Lv 38 [Defeated]
-- Warp Pads:
-  - Top-Left: (1, 9)
-  - Top-Right: (5, 9) -> North-Center Room (9, 5)
-  - Bottom-Left: (1, 11) [Arrival from Northwest (5, 5)]
-  - Bottom-Right: (5, 11)
+### 5. NW Room (Top-Left, Room 4)
+- **Arrival Position:** Landed on TL pad at `(1, 3)`.
+- **Warp Pads:**
+  - TL: `(1, 3)`
+  - TR: `(5, 3)`
+  - BL: `(1, 5)`
+  - BR: `(5, 5)` - **Target Warp Pad**
+- **Trainer:** Psychic at `(3, 3)` (Defeated on Turn 45715. Had Kadabra Lv31, Slowpoke Lv31, Mr. Mime Lv31, and Slowbro Lv38).
+- **Transition:** Stepping on BR `(5, 5)` warps the player to `(1, 11)` inside the W Room.
 
-### North-Center Room (N / Room 2)
-- Boundaries: cols 7-12, rows 1-5
-- Trainer: Channeler at (10, 1) [Defeated]
-- Warp Pads:
-  - Top-Left: (9, 3) [Arrival from Southwest (5, 15)]
-  - Top-Right: (11, 3) -> Northwest Room (5, 3)
-  - Bottom-Left: (9, 5) [Arrival from West (5, 9)]
-  - Bottom-Right: (11, 5) -> Southwest Room (1, 17)
+### 6. W Room (Middle-Left, Room 5)
+- **Arrival Position:** Landed on BL pad at `(1, 11)`.
+- **Warp Pads:**
+  - TL: `(1, 9)`
+  - TR: `(5, 9)` - **Target Warp Pad**
+  - BL: `(1, 11)`
+  - BR: `(5, 11)`
+- **Trainer:** Channeler at `(3, 7)` (Defeated on Turn 45725. Had Haunter Lv38).
+- **Transition:** Stepping on TR `(5, 9)` warps the player to `(9, 5)` inside the N Room.
 
-### Southwest Room (SW / Room 7)
-- Boundaries: cols 0-5, rows 13-17
-- Trainer: Channeler at (3, 13..15): Gastly Lv 33, Gastly Lv 33, Haunter Lv 33 [Defeated Turn 18366]
-- Warp Pads:
-  - Top-Left: (1, 15)
-  - Top-Right: (5, 15) -> North-Center Room (9, 3)
-  - Bottom-Left: (1, 17) [Arrival from North-Center (11, 5)]
-  - Bottom-Right: (5, 17)
+### 7. N Room (North-Center, Room 6)
+- **Arrival Position:** Landed on BL pad at `(9, 5)`.
+- **Warp Pads:**
+  - TL: `(9, 3)`
+  - TR: `(11, 3)` - **Target Warp Pad**
+  - BL: `(9, 5)`
+  - BR: `(11, 5)`
+- **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
 
-### Center Room (Sabrina's Chamber / Room 5)
-- Boundaries: cols 7-12, rows 7-11
-- Gym Leader Sabrina: (9, 8) [Kadabra Lv 38, Mr. Mime Lv 37, Venomoth Lv 38, Alakazam Lv 43] [Defeated Turn 18379; Marsh Badge & TM46 Psywave obtained]
-- Warp Pad: (11, 11) [Arrival from Northwest (1, 5)]
-
-## Saffron Gym Complete Warp Permutation Matrix
-| Source Room | Warp Coordinate | Destination Room | Destination Coord |
-|---|---|---|---|
-| Entrance (S) | (11, 15) | Southeast (SE) | (19, 17) |
-| Southeast (SE) | (15, 15) | Northeast (NE) | (19, 3) |
-| Northeast (NE) | (15, 5) | Northwest (NW) | (1, 3) |
-| Northwest (NW) | (5, 5) | West (W) | (1, 11) |
-| West (W) | (5, 9) | North-Center (N) | (9, 5) |
-| North-Center (N) | (11, 5) | Southwest (SW) | (1, 17) |
-| Southwest (SW) | (5, 15) | North-Center (N) | (9, 3) |
-| North-Center (N) | (11, 3) | Northwest (NW) | (5, 3) |
-| Northwest (NW) | (1, 5) | Center (Sabrina) | (11, 11) |
-
-## Sabrina True Optimal Route (4 Warps)
-1. Entrance Room: Step on (11, 15) -> Warps to Southeast Room at (19, 17).
-2. Southeast Room: Step on (15, 15) (Top-Left) -> Warps to Northeast Room at (19, 3).
-3. Northeast Room: Step on (15, 5) (Bottom-Left) -> Warps to Northwest Room at (1, 3).
-4. Northwest Room: Step on (1, 5) (Bottom-Left) -> Warps to Center Room (Sabrina) at (11, 11).
-5. Center Room: Walk Left to (9, 11), Up to (9, 9), face Up and challenge Sabrina at (9, 8)!
+### 8. Center Room (Sabrina's Room, Room 7)
+- **Arrival Position:** Landed on BR pad at `(11, 11)`.
+- **Warp Pads:**
+  - BR: `(11, 11)`
+- **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
