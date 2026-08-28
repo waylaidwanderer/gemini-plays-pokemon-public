@@ -19,9 +19,8 @@
 - Note: Thoroughfare along row 1 (cols 4-12).
 
 ### Stairs to 3F
-- Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)).
-- Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10).
-- Arrival on 3F: Southwest Wing at (7, 10) / (7, 11).
+- **Southwest Wing Stairs**: Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)). Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10). Arrival on 3F: Southwest Wing at (7, 11) [Dead-end sector with TM09 Take Down and research journal].
+- **Northeast Wing Stairs**: Located at (6, 1) in the Northwest sector (cols 1-8, rows 1-5). Accessed from col 12 thoroughfare -> row 4 (9, 4) -> (6, 4) -> (6, 1). Arrival on 3F: Northeast Wing at (6, 2) [Leads to Mewtwo statue switch at (10, 5) and Balcony Drop pits]. (Verified Turn 19240).
 
 ### East Wing (Explored Turns 18593-18750)
 - Thoroughfare Column 12: Unobstructed north-south corridor connecting row 11 to row 1, bypassing all rubble at rows 8-9.
