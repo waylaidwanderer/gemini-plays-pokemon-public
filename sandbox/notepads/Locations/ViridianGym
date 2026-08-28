@@ -1,0 +1,24 @@
+# Viridian Gym Navigation & Mapping Log
+
+## Gym Status
+- Unlocked! Entered Gym on Turn 64190.
+- Goal: Defeat Giovanni for the Earth Badge (8th Badge).
+
+## Badge Status
+- Verified possessing 7 badges! (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- Giovanni's Gym is unlocked, and we are ready to challenge him.
+
+## Gym Layout & Mapping Log (B1F Tileset Collision Glitch)
+- **Visual Appearance:** The Gym uses the same tileset as Pokémon Mansion, so the floor appears as pink-white checkerboard tiles, and walls appear as stone blocks/tables.
+- **Glitch Warning:** Walking on the pink-white checkerboard floor tiles inside the Gym triggers wild encounters from the last loaded map's encounter table (which was the Pokémon Mansion B1F!). This is a standard retail Gen 1 tileset collision glitch and is NOT a ROM hack. Simply run from wild encounters (Ponyta, Vulpix, Muk, etc.).
+
+## Gym Obstacles & Walkable Grid
+- **(7, 10) Pedestal Block:** The gold/brown block at `(7, 10)` is the Gym Guide's pedestal block (solid obstacle).
+- **Columns 4, 5, 6, 7 on Rows 10-13:** Walkable floor tiles.
+- **Column 6, Row 12 (6, 12):** LEFT spinner arrow tile (spinning player Left to Column 5/7).
+- **Column 6, Row 13 (6, 13):** DOWN spinner arrow tile.
+- **Column 4, Row 11 (4, 11):** Stand coordinate of a Gym Trainer facing UP.
+
+## High-Level Plan
+- Bypass the Gym's spinner maze to reach Giovanni in the upper-right room.
+- Be careful to count steps and map out walkable paths to avoid getting spun or trapped.
