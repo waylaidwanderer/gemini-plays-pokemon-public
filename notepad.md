@@ -2282,17 +2282,11 @@
 - Scientist NPC: (17, 17) [Scientist Ted: Electrode Lv 29, Weezing Lv 29; Defeated Turn 18533]
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
 - Corridors: Row 14 (cols 12-17), Row 16 (cols 19-28), Row 20-21 (cols 12-23), Row 22 (cols 6-25 open east-west thoroughfare), Row 24-26 (cols 12-23), Column 10 (rows 3-16 bypass), Column 20 (rows 16-24), Column 25 (rows 14-23)
-### Verified True Route to B1F Staircase at (25, 14) (Empirically Verified Turn 19386)
-1. Toggled Mewtwo Statue switch at 1F (15, 11) to State A (Default).
-2. From 1F (18, 14) / row 7: Walk to North Thoroughfare along Row 3 at cols 12-26.
-3. At (26, 3), enter doorway at (26, 4) into Northeast Chamber.
-4. Walk south down Column 26 past row 8 wall to Row 10 at (26, 10).
-5. Walk West 1 step to (25, 10).
-6. Walk South 4 steps down Column 25 directly onto the descending staircase at (25, 14) to enter B1F!
+### B1F Staircase & Shutter Gate Connections
+- Staircase to B1F: Located at (25, 14) inside the eastern wing.
+- Shutter Gate (Northeast): (24..25, 13) [OPEN in State A, CLOSED in State B]. Connects rows 10-12 with row 14.
+- Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B].
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
-- Shutter Gate (Northeast): (24..25, 13) [OPEN in State A, CLOSED in State B]
-- Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B]
-
 
 <hr>
 
