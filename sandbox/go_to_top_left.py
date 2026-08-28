@@ -44,7 +44,8 @@ def step_with_battle_handling_and_retry(direction, expected_pos):
         start_wait = time.time()
         is_battle = False
         
-        while (time.time() - start_wait) < 5.0:
+        # INCREASED TIMEOUT TO 10.0 SECONDS
+        while (time.time() - start_wait) < 10.0:
             if check_battle_or_text():
                 is_battle = True
                 break
@@ -86,16 +87,7 @@ def step_with_battle_handling_and_retry(direction, expected_pos):
     print("Max retries exceeded!")
     return False
 
-# Safe path from (20, 1) to (2, 1)
-# First we go Down to (20, 5) which is safe and known
-path_to_20_5 = [
-    ("Down", (20, 2)),
-    ("Down", (20, 3)),
-    ("Down", (20, 4)),
-    ("Down", (20, 5))
-]
-
-# From (20, 5) to (2, 1)
+# Safe path from (20, 5) to (2, 1)
 main_path = [
     ("Left", (19, 5)),
     ("Left", (18, 5)),
@@ -123,10 +115,8 @@ main_path = [
     ("Left", (2, 1))
 ]
 
-full_path = path_to_20_5 + main_path
-
 print("Starting direct safe path to top-left of Gym...")
-for d, target in full_path:
+for d, target in main_path:
     curr = get_pos()
     if curr == target:
         continue
