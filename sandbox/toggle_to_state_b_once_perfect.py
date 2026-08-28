@@ -15,40 +15,25 @@ def step(direction):
 
 print("Start position:", get_pos())
 
-# 1. Walk from current position (1, 10) to (2, 12)
-pos = get_pos()
-if pos == (1, 10):
-    step("Down")
-    step("Down")
-    step("Right")
-elif pos == (2, 12):
-    print("Already at switch position!")
-
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(0.8)
-
-# 2. Perfect Switch Toggle Sequence: A (inspect), A (select YES), B (dismiss text)
-print("Sending perfect toggle sequence (A -> sleep -> A -> sleep -> B)...")
+# We are at (2, 12) facing UP.
+print("Toggling switch to State B with exactly 4 A-presses...")
 mgba.press_buttons([
-    "A", "sleep 1500",
-    "A", "sleep 1500",
-    "B", "sleep 1000"
+    "A", "sleep 1200",
+    "A", "sleep 1200",
+    "A", "sleep 1200",
+    "A", "sleep 1200"
 ])
-time.sleep(4.5)
-print("Sequence completed.")
+time.sleep(6.5)
+print("Switch toggle complete!")
 
-# 3. Walk to (1, 12)
+# Walk to Column 1 and walk UP Column 1 past the open gate to Row 6!
 step("Left")
-
-# 4. Walk UP Column 1 to Row 6 (should be OPEN in State B!)
-print("Testing walking UP Column 1...")
-step("Up") # to (1, 11)
-step("Up") # to (1, 10)
-step("Up") # to (1, 9) - The gate!
-step("Up") # to (1, 8)
-step("Up") # to (1, 7)
-step("Up") # to (1, 6)
+step("Up")
+step("Up")
+step("Up") # (1, 9) - Should be OPEN in State B!
+step("Up")
+step("Up")
+step("Up")
 
 print("Final Position:", get_pos())
 mgba.take_screenshot()
