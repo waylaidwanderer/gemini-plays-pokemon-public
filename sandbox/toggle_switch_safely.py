@@ -1,58 +1,20 @@
 import mgba
 import time
+from PIL import Image
 
 def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-def step(direction):
-    old_pos = get_pos()
-    print(f"Current: {old_pos}. Stepping {direction}...")
-    mgba.press_buttons([direction])
-    time.sleep(0.45)
-    new_pos = get_pos()
-    print(f"New position: {new_pos}")
-    return new_pos
+def toggle_switch_once():
+    print("Toggling Mewtwo Switch at (8, 9) from current (8, 10) facing UP...")
+    mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200"])
+    time.sleep(6.0)
+    print("Toggle complete! Position after toggle:", get_pos())
 
-print("Start position:", get_pos())
+# We are at (8, 10) facing UP.
+toggle_switch_once()
 
-# 1. Walk from (4, 10) to (2, 12)
-step("Left")
-step("Down")
-step("Down")
-step("Left")
-
-# 2. Turn UP to face the statue at (2, 11)
-print("Turning UP...")
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-
-# Verify position and orientation
-print("Position before interaction:", get_pos())
-mgba.take_screenshot()
-
-# 3. Press A to interact
-print("Pressing A...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.take_screenshot()
-
-# 4. Press A to see Yes/No prompt
-print("Pressing A (dialogue 2)...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.take_screenshot()
-
-# 5. Press A to select YES
-print("Pressing A (dialogue 3)...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.take_screenshot()
-
-# 6. Press A to clear "Click!"
-print("Pressing A (dialogue 4)...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.take_screenshot()
-
-print("Interactions complete! Final position:", get_pos())
+# Take a screenshot to verify if dialogue is closed and we are in overworld
+scr = mgba.take_screenshot()
+print("Screenshot after toggle taken:", scr)
