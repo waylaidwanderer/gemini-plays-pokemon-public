@@ -95,16 +95,12 @@ if pos == {"x": 3, "y": 10}:
     pos = mgba.get_coordinates()
 
 # 2. Walk up Column 1 to Row 6
-if pos == {"x": 1, "y": 12}:
+if pos == {"x": 1, "y": 12} or pos == {"x": 1, "y": 11} or pos == {"x": 1, "y": 10}:
     print("Walking up Column 1 through the open Row 9 gate to Row 6...")
-    path_up_col1 = [
-        ("Up", {"x": 1, "y": 11}),
-        ("Up", {"x": 1, "y": 10}),
-        ("Up", {"x": 1, "y": 9}),
-        ("Up", {"x": 1, "y": 8}),
-        ("Up", {"x": 1, "y": 7}),
-        ("Up", {"x": 1, "y": 6}),
-    ]
+    path_up_col1 = []
+    current_y = pos["y"]
+    for y in range(current_y - 1, 5, -1):
+        path_up_col1.append(("Up", {"x": 1, "y": y}))
     if not run_steps(path_up_col1):
         print("Failed to reach (1, 6)")
         exit(1)
