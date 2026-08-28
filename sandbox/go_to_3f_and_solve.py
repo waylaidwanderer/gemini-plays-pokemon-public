@@ -64,59 +64,25 @@ def safe_step(direction, expected_coords=None, max_attempts=15):
     print(f"ERROR: Could not step {direction} from {old_pos}")
     return False
 
-# Starting at (5, 13) on 2F West (State A)
-print("Starting definitive Mansion solution from current position (5, 13) on 2F West...")
+# Starting at (6, 10) on 3F West (State A)
+print("Resuming Mansion solution from (6, 10) on 3F West...")
 
-# 1. Walk Up Column 5 and Right Row 11 to the stairs at (7, 11)
-steps_to_stairs = [
-    ("Up", (5, 12)),
-    ("Up", (5, 11)),
-    ("Right", (6, 11)),
-    ("Right", (7, 11)),
-]
-for d, c in steps_to_stairs:
-    if not safe_step(d, c):
-        print("Failed to reach stairs")
-        exit(1)
-        
-# 2. Step UP onto stairs at (7, 10) to warp UP to 3F West
-print("Stepping UP to warp to 3F West...")
-if not safe_step("Up"):
-    print("Failed to warp UP to 3F West")
-    exit(1)
-time.sleep(1.5)
-pos = get_pos()
-print("Landed on 3F West at:", pos)
-
-# 3. On 3F West, navigate to switch standing position (2, 12)
-# Land coordinate on 3F West should be (7, 11).
-# Walk to (2, 12) via Row 10 to avoid staircase warp:
-# - Left to (6, 11)
-# - Up to (6, 10)
-# - Left to (5, 10)
-# - Left to (4, 10)
-# - Down to (4, 11) -> (4, 12) -> (4, 13)
-# - Left to (3, 13) -> (2, 13)
-# - Up to (2, 12)
-steps_on_3f = [
-    ("Left", (6, 11)),
-    ("Up", (6, 10)),
+# 1. Walk from (6, 10) to the switch standing position (2, 12)
+steps_to_switch = [
     ("Left", (5, 10)),
     ("Left", (4, 10)),
     ("Down", (4, 11)),
     ("Down", (4, 12)),
-    ("Down", (4, 13)),
-    ("Left", (3, 13)),
-    ("Left", (2, 13)),
-    ("Up", (2, 12)),
+    ("Left", (3, 12)),
+    ("Left", (2, 12)),
 ]
 print("Walking to switch standing position on 3F West...")
-for d, c in steps_on_3f:
+for d, c in steps_to_switch:
     if not safe_step(d, c):
-        print("Failed navigating 3F West")
+        print("Failed to reach switch")
         exit(1)
         
-# 4. Face UP and toggle the Mewtwo switch to State B
+# 2. Face UP and toggle the Mewtwo switch to State B
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(1.0)
@@ -131,31 +97,34 @@ mgba.press_buttons([
 time.sleep(7.0)
 print("Switch toggle complete! Player pushed to:", get_pos())
 
-# 5. Walk Left on Row 13 to Column 1
+# 3. Walk Left on Row 13 to Column 1
+# Note: Since the gate at (2, 12) is now closed in State B, we are at (2, 13).
+# We walk: Left to (1, 13)
 if not safe_step("Left", (1, 13)):
+    print("Failed to walk Left on Row 13")
     exit(1)
     
-# 6. Walk Up Column 1 to Row 6 (crossing open gate at (1, 9))
+# 4. Walk Up Column 1 to Row 6 (crossing open gate at (1, 9) in State B)
 for y in range(12, 5, -1):
     if not safe_step("Up", (1, y)):
         exit(1)
         
-# 7. Walk Right along Row 6 to Column 20
+# 5. Walk Right along Row 6 to Column 20
 for x in range(2, 21):
     if not safe_step("Right", (x, 6)):
         exit(1)
         
-# 8. Walk Up Column 20 to Row 3
+# 6. Walk Up Column 20 to Row 3
 for y in range(5, 2, -1):
     if not safe_step("Up", (20, y)):
         exit(1)
         
-# 9. Walk Right along Row 3 to Column 26
+# 7. Walk Right along Row 3 to Column 26
 for x in range(21, 27):
     if not safe_step("Right", (x, 3)):
         exit(1)
         
-# 10. Drop through pitfall to 1F East
+# 8. Drop through pitfall to 1F East
 print("Stepping Down to drop through the pitfall...")
 if not safe_step("Down"):
     print("Failed to drop through pitfall")
@@ -164,13 +133,13 @@ time.sleep(2.5)
 pos = get_pos()
 print("Landed on 1F East inside fenced room:", pos)
 
-# 11. Step Down to (26, 5) or similar if needed to exit landing tile
+# 9. Step Down to (26, 5) or similar if needed to exit landing tile
 if pos[1] == 4:
     if not safe_step("Down"):
         print("Failed to step Down from landing tile")
         exit(1)
         
-# 12. Walk to Column 22 Row 2 and warp DOWN to B1F East
+# 10. Walk to Column 22 Row 2 and warp DOWN to B1F East
 pos = get_pos()
 while pos[0] > 22:
     if not safe_step("Left"):
@@ -187,7 +156,7 @@ time.sleep(2.0)
 pos = get_pos()
 print("Position on B1F East after warping:", pos)
 
-# 13. Walk to Column 19 Row 5 via Row 4 to bypass Row 5 Column 20-21 closed gates
+# 11. Walk to Column 19 Row 5 via Row 4 to bypass Row 5 Column 20-21 closed gates
 if pos[1] == 2:
     if not safe_step("Down"):
         exit(1)
@@ -203,12 +172,12 @@ for x in range(20, 18, -1):
 if not safe_step("Down", (19, 5)):
     exit(1)
     
-# 14. Walk straight Left on Row 5 to Column 1 (Secret Key room)
+# 12. Walk straight Left on Row 5 to Column 1 (Secret Key room)
 for x in range(18, 0, -1):
     if not safe_step("Left", (x, 5)):
         exit(1)
         
-# 15. Retrieve the Secret Key!
+# 13. Retrieve the Secret Key!
 pos = get_pos()
 if pos == (1, 5):
     print("Aligning UP towards the Secret Key...")
