@@ -5,7 +5,6 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 1F (Position: (24, 17))
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -55,7 +54,6 @@
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
 - `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
 - `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
-
 
 <hr>
 
