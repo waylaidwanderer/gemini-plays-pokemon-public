@@ -7,22 +7,22 @@ def get_pos():
     return (pos['x'], pos['y'])
 
 def check_dialogue_or_battle():
+    # Robust white-only check to completely eliminate dark tile false positives on B1F
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
     
-    black_or_white = 0
+    white_pixels = 0
     total_pixels = 0
     for y in range(112, 144):
         for x in range(8, 152):
             r, g, b = img_std.getpixel((x, y))[:3]
             total_pixels += 1
-            is_bw = (r < 55 and g < 55 and b < 55) or (r > 200 and g > 200 and b > 200)
-            if is_bw:
-                black_or_white += 1
+            if r > 220 and g > 220 and b > 220:
+                white_pixels += 1
                 
-    ratio = black_or_white / total_pixels
-    return ratio > 0.88
+    ratio = white_pixels / total_pixels
+    return ratio > 0.80
 
 def run_from_battle():
     print("Dismissing battle intro text...")
@@ -71,7 +71,7 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Starting solve_from_battle.py...")
+print("Starting solve_from_battle.py with robust white-only battle detection...")
 
 # 1. RUN from the wild Vulpix
 run_from_battle()
