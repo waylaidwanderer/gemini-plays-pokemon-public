@@ -64,15 +64,15 @@
 
 ## Active Party (Verified Turn 19257)
 1. HYDROS (Blastoise) - Lv 63
-   - Stats: Max HP 211 (HP: 0/211 - Fainted)
+   - Stats: Max HP 211 (HP: 211/211 - Fully Healed)
    - Type: Water
-   - Moves: Double-Edge (6/15), Ice Beam (9/10), Bite (25/25), Surf (12/15)
-   - Role: Primary powerhouse (Fainted)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46 - Fainted in wild combat)
+   - Stats: Max HP 46 (HP: 46/46 - Fully Healed)
    - Type: Grass / Poison
-   - Moves: PoisonPowder, Rest, Wrap, Cut
-   - Role: Active combatant & Cut utility (Fainted)
+   - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
+   - Role: Active combatant & Cut utility
 3. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
    - Type: Fighting
@@ -87,7 +87,7 @@
    - Stats: Max HP 62 (HP: 62/62)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
-   - Role: Special Sweeper reserve & Active combatant
+   - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 20
    - Stats: Max HP 58 (HP: 58/58)
    - Type: Normal / Flying
