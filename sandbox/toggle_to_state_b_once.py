@@ -27,18 +27,19 @@ elif pos == (3, 11):
 elif pos == (3, 12):
     step("Left")
 
-print("At switch position. Starting synchronized 4 A-press switch toggle...")
+print("At switch position. Starting synchronized 5 A-press switch toggle...")
 
-# 2. Toggle the switch using EXACTLY 4 slow A-presses in a single synchronized call
+# 2. Toggle the switch using EXACTLY 5 slow A-presses in a single synchronized call
 mgba.press_buttons([
-    "Up", "sleep 600",
+    "Up", "sleep 1000",
+    "A", "sleep 1500",
     "A", "sleep 1500",
     "A", "sleep 1500",
     "A", "sleep 1500",
     "A", "sleep 1500"
 ])
 # Wait for the emulator to finish the entire sequence
-time.sleep(7.0)
+time.sleep(9.0)
 print("Synchronized switch toggle completed.")
 
 # 3. Walk back to Column 3
