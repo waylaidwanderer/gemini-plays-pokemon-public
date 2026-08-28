@@ -78,21 +78,22 @@ def run_steps(steps):
 
 print("Initial position:", get_pos())
 
-# Part 1: Walk UP Column 3 to Row 6 from (3, 10)
-steps_up_col_3 = [
-    ("Up", (3, 9)),
-    ("Up", (3, 8)),
-    ("Up", (3, 7)),
-    ("Up", (3, 6)),
+# Part 1: Walk UP Column 4 via (4, 10) and open gate at (4, 9)
+steps_up_col_4 = [
+    ("Right", (4, 10)),
+    ("Up", (4, 9)),
+    ("Up", (4, 8)),
+    ("Up", (4, 7)),
+    ("Up", (4, 6)),
 ]
-print("Walking UP Column 3 to Row 6...")
-if not run_steps(steps_up_col_3):
-    print("Failed walking UP Column 3")
+print("Walking UP Column 4 to Row 6...")
+if not run_steps(steps_up_col_3 if 'steps_up_col_3' in globals() else steps_up_col_4):
+    print("Failed walking UP Column 4")
     exit(1)
 
 # Part 2: Walk RIGHT along Row 6 to Column 20
 steps_row_6 = []
-for x in range(4, 21):
+for x in range(5, 21):
     steps_row_6.append(("Right", (x, 6)))
 print("Walking RIGHT along Row 6 to Column 20...")
 if not run_steps(steps_row_6):
