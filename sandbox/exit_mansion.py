@@ -73,50 +73,59 @@ def run_safe_steps(steps):
 
 print("Start position:", get_pos())
 
-# 1. Walk from (10, 5) back to B1F East stairs (22, 2)
-# Path: Right to (19, 5) -> Up to (19, 4) -> Up to (19, 3) -> Right to (22, 3) -> Up to (22, 2)
-steps_to_stairs = []
-for x in range(11, 20):
-    steps_to_stairs.append(("Right", (x, 5)))
-steps_to_stairs.extend([
-    ("Up", (19, 4)),
-    ("Up", (19, 3)),
-    ("Right", (20, 3)),
-    ("Right", (21, 3)),
-    ("Right", (22, 3)),
-    ("Up", (22, 2)),
-])
+# Escape route from B1F East to B1F West SOUTH and then warp UP to 1F West
+steps = [
+    ("Down", (10, 6)),
+    ("Down", (10, 7)),
+    ("Right", (11, 7)),
+    ("Right", (12, 7)),
+    ("Down", (12, 8)),
+    ("Down", (12, 9)),
+    ("Down", (12, 10)),
+    ("Down", (12, 11)),
+    ("Left", (11, 11)),
+    ("Left", (10, 11)), # Crosses through open Row 11 gate
+    ("Left", (9, 11)),
+    ("Left", (8, 11)),
+    ("Left", (7, 11)),
+    ("Left", (6, 11)),
+    ("Left", (5, 11)),
+    ("Up", (5, 10)),
+]
 
-print("Walking to B1F East stairs...")
-if not run_safe_steps(steps_to_stairs):
+print("Walking State A escape route to B1F West stairs...")
+if not run_safe_steps(steps):
     print("Failed to reach stairs")
     exit(1)
 
-# 2. Warp UP to 1F East
-print("Warping UP to 1F East...")
+print("Stepping UP onto stairs to warp UP to 1F West...")
 mgba.press_buttons(["Up"])
 time.sleep(2.0)
 pos = get_pos()
-print("Position on 1F East:", pos)
+print("Position on 1F West:", pos)
 
-# 3. Walk out of fenced room on 1F East and exit Mansion
-if pos == (22, 3) or pos == (22, 2):
-    print("Walking to 1F West exit...")
-    # Walk Down Column 22 to Row 5, Left to Column 11
+# Walk from 1F West stairs landing to exit Mansion
+if pos == (5, 11) or pos == (5, 10):
     steps_to_exit = [
-        ("Down", (22, 4)),
-        ("Down", (22, 5)),
+        ("Down", (5, 11)),
+        ("Down", (5, 12)),
+        ("Down", (5, 13)),
+        ("Down", (5, 14)),
+        ("Down", (5, 15)),
+        ("Down", (5, 16)),
+        ("Down", (5, 17)),
+        ("Down", (5, 18)),
+        ("Down", (5, 19)),
+        ("Down", (5, 20)),
+        ("Down", (5, 21)),
+        ("Down", (5, 22)),
+        ("Down", (5, 23)),
+        ("Down", (5, 24)),
+        ("Down", (5, 25)),
+        ("Down", (5, 26)),
+        ("Down", (5, 27)),
     ]
-    for x in range(21, 10, -1):
-        steps_to_exit.append(("Left", (x, 5)))
-    # Down Column 11 to exit at (5, 27)
-    for y in range(6, 14):
-        steps_to_exit.append(("Down", (11, y)))
-    for x in range(10, 4, -1):
-        steps_to_exit.append(("Left", (x, 13)))
-    for y in range(14, 28):
-        steps_to_exit.append(("Down", (5, y)))
-        
+    print("Walking down Column 5 to exit...")
     if not run_safe_steps(steps_to_exit):
         print("Failed to reach exit")
         exit(1)
