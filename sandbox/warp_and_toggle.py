@@ -54,44 +54,63 @@ def handle_any_menu_or_battle():
         return True
     return False
 
-def walk_step(direction, expected_coords, retries=15):
-    for i in range(retries):
-        if handle_any_menu_or_battle():
-            pos = get_pos()
-            if pos == expected_coords:
-                return True
+def safe_step(direction, expected_coords=None):
+    old_pos = get_pos()
+    mgba.press_buttons([direction])
+    time.sleep(0.45)
+    new_pos = get_pos()
+    
+    if new_pos != old_pos:
+        if expected_coords and new_pos != expected_coords:
+            print(f"Moved {direction} but landed at unexpected position: {new_pos} (expected {expected_coords})")
+        else:
+            print(f"Successfully stepped {direction} to {new_pos}")
+        return True
+        
+    # If we didn't move, check for battle or dialogue
+    if handle_any_menu_or_battle():
+        print(f"Handled battle/dialogue. Retrying step {direction}...")
         mgba.press_buttons([direction])
         time.sleep(0.45)
-        pos = get_pos()
-        if pos == expected_coords:
-            print(f"Moved {direction}, current position: {pos}")
+        new_pos = get_pos()
+        if new_pos != old_pos:
+            print(f"Successfully stepped {direction} to {new_pos} after retry")
             return True
-        print(f"Blocked or battle! Retrying {direction} to {expected_coords} (attempt {i+1}/{retries}), current: {pos}")
-        time.sleep(0.3)
+            
+    print(f"BLOCKED: Could not step {direction} from {old_pos}")
     return False
 
-def run_steps(steps):
+def run_safe_steps(steps):
     for d, c in steps:
-        if not walk_step(d, c):
+        if not safe_step(d, c):
             return False
     return True
 
-print("Initial position:", get_pos())
+print("Start position:", get_pos())
 
-# Step UP onto the stairs at (7, 10) on 2F West to warp UP to 3F West
-print("Stepping UP to warp...")
+# 1. Walk from (4, 11) to (7, 11) on 2F West
+steps_to_stairs_2f = [
+    ("Right", (5, 11)),
+    ("Right", (6, 11)),
+    ("Right", (7, 11)),
+]
+print("Walking to 2F West stairs...")
+if not run_safe_steps(steps_to_stairs_2f):
+    print("Failed to reach 2F West stairs")
+    exit(1)
+
+# 2. Step UP to warp UP to 3F West (landing at 7, 11)
+print("Stepping UP to warp UP to 3F West...")
 mgba.press_buttons(["Up"])
 time.sleep(2.0)
-
 pos = get_pos()
-print("Position on 3F West:", pos)
+print("Position on 3F West after warping UP:", pos)
 
+# 3. On 3F West, walk to (2, 12)
 if pos == (7, 11) or pos == (7, 10):
-    if pos == (7, 10):
-        walk_step("Down", (7, 11))
-        
-    print("Attempting direct path to switch along Row 11...")
-    path_row_11 = [
+    if pos[1] == 10:
+        safe_step("Down")
+    steps_to_switch_3f = [
         ("Left", (6, 11)),
         ("Left", (5, 11)),
         ("Left", (4, 11)),
@@ -99,46 +118,65 @@ if pos == (7, 11) or pos == (7, 10):
         ("Down", (3, 12)),
         ("Left", (2, 12)),
     ]
-    if run_steps(path_row_11):
-        print("Successfully reached switch at (2, 12) via Row 11!")
-    else:
-        print("Blocked on Row 11. Trying alternative bypass via Row 13...")
-        # Since we got blocked, let's find current position
-        pos = get_pos()
-        print("Blocked at position:", pos)
-        if pos == (5, 11):
-            steps_bypass = [
-                ("Down", (5, 12)),
-                ("Down", (5, 13)),
-                ("Left", (4, 13)),
-                ("Left", (3, 13)),
-                ("Left", (2, 13)),
-                ("Up", (2, 12)),
-            ]
-            if not run_steps(steps_bypass):
-                print("Bypass path failed!")
-                exit(1)
-        else:
-            print("Unknown blocked position. Aborting.")
-            exit(1)
+    print("Walking to switch on 3F West...")
+    if not run_safe_steps(steps_to_switch_3f):
+        print("Failed to reach 3F West switch")
+        exit(1)
 
-# Now toggle switch at (2, 12)
+# 4. Turn UP and press A exactly 5 times (testing 5 A-presses!)
+print("Turning UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+print("Toggling Mewtwo switch with 5 A-presses...")
+for i in range(5):
+    print(f"Pressing A {i+1}/5...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+print("Switch toggle complete!")
+
+# 5. Walk to (7, 11) on 3F West Row 11
+steps_to_stairs_3f = [
+    ("Right", (3, 12)),
+    ("Up", (3, 11)),
+    ("Right", (4, 11)),
+    ("Right", (5, 11)),
+    ("Right", (6, 11)),
+    ("Right", (7, 11)),
+]
+print("Walking to 3F West stairs to warp DOWN...")
+if not run_safe_steps(steps_to_stairs_3f):
+    print("Failed to reach 3F West stairs")
+    exit(1)
+
+# 6. Step UP to warp DOWN to 2F West (landing at 7, 11)
+print("Stepping UP to warp DOWN to 2F West...")
+mgba.press_buttons(["Up"])
+time.sleep(2.0)
 pos = get_pos()
-if pos == (2, 12):
-    print("Toggling Mewtwo switch at (2, 11)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    # Toggle dialogue (4 A presses)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    print("Switch toggled to State B!")
-    mgba.take_screenshot()
+print("Position after warping DOWN to 2F West:", pos)
 
-print("Warp and toggle script finished!")
+# 7. On 2F West, walk to Column 5 Row 11
+if pos == (7, 11) or pos == (7, 10):
+    if pos[1] == 10:
+        safe_step("Down")
+    if not run_safe_steps([
+        ("Left", (6, 11)),
+        ("Left", (5, 11)),
+    ]):
+        print("Failed to reach Column 5")
+        exit(1)
+
+# 8. Try to walk UP Column 5
+print("Testing walking UP Column 5 on 2F West after 5 A-presses...")
+p1 = safe_step("Up", (5, 10))
+p2 = safe_step("Up", (5, 9))
+p3 = safe_step("Up", (5, 8))
+p4 = safe_step("Up", (5, 7))
+
+if p4:
+    print("SUCCESS: Crossed Row 7 gate! 5 A-presses is indeed the correct switch toggle sequence!")
+else:
+    print("FAILED: Blocked at Row 7 gate! 5 A-presses did not open it.")
+
+mgba.take_screenshot()
