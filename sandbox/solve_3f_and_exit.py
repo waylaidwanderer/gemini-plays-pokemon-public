@@ -46,11 +46,10 @@ def handle_menu_dialogue_battle():
             
     return True
 
-def safe_step(direction, expected_coords=None, max_attempts=15, skip_battle_check=False):
+def safe_step(direction, expected_coords=None, max_attempts=15):
     for attempt in range(max_attempts):
-        if not skip_battle_check:
-            while handle_menu_dialogue_battle():
-                time.sleep(0.2)
+        while handle_menu_dialogue_battle():
+            time.sleep(0.2)
             
         old_pos = get_pos()
         mgba.press_buttons([direction])
@@ -70,59 +69,22 @@ def safe_step(direction, expected_coords=None, max_attempts=15, skip_battle_chec
     print(f"ERROR: Could not step {direction} from {old_pos}")
     return False
 
-def run_safe_steps(steps, skip_battle_check=False):
+def run_safe_steps(steps):
     for d, c in steps:
-        if not safe_step(d, c, skip_battle_check=skip_battle_check):
+        if not safe_step(d, c):
             return False
     return True
 
 pos = get_pos()
 print("Start position:", pos)
 
-# 1. Walk from current position to (2, 12)
-steps_to_switch = []
-if pos == (3, 10):
-    steps_to_switch = [("Down", (3, 11)), ("Down", (3, 12)), ("Left", (2, 12))]
-elif pos == (3, 11):
-    steps_to_switch = [("Down", (3, 12)), ("Left", (2, 12))]
-elif pos == (3, 12):
-    steps_to_switch = [("Left", (2, 12))]
-elif pos == (2, 12):
-    print("Already at switch statue location!")
-else:
-    print(f"Unknown start position {pos}. Walking to (3, 12) first...")
-    # Safe fallback
-    if pos[0] > 3:
-        for x in range(pos[0]-1, 2, -1):
-            steps_to_switch.append(("Left", (x, pos[1])))
-    steps_to_switch.append(("Left", (2, 12)))
-
-if steps_to_switch:
-    print("Walking to switch statue...")
-    if not run_safe_steps(steps_to_switch):
-        print("Failed to reach switch location")
-        exit(1)
-
-# 2. Toggle Mewtwo Switch to State B!
-# Stand at (2, 12), face UP, and send the exact switch interaction sequence
-print("Toggling Mewtwo switch at (2, 11)...")
-mgba.press_buttons([
-    "Up", "sleep 500",
-    "A", "sleep 1000",
-    "A", "sleep 1000",
-    "A", "sleep 1000",
-    "A", "sleep 1000",
-    "A", "sleep 1000"
-])
-time.sleep(6.5)
-print("Switch toggling sequence completed.")
-
-# 3. Walk to (3, 12) then UP Column 3 to Row 6 (State B opens Row 9)
+# We are at (2, 12).
+# 1. Walk to (3, 12) then UP Column 3 to Row 6
 steps_to_row_6 = [
     ("Right", (3, 12)),
     ("Up", (3, 11)),
     ("Up", (3, 10)),
-    ("Up", (3, 9)),  # Shutter gate, must be open now!
+    ("Up", (3, 9)),  # Shutter gate, must be open in State B!
     ("Up", (3, 8)),
     ("Up", (3, 7)),
     ("Up", (3, 6)),
@@ -132,7 +94,7 @@ if not run_safe_steps(steps_to_row_6):
     print("Failed to navigate to Row 6")
     exit(1)
 
-# 4. Walk RIGHT along Row 6 to Column 20
+# 2. Walk RIGHT along Row 6 to Column 20
 steps_row_6 = []
 for x in range(4, 21):
     steps_row_6.append(("Right", (x, 6)))
@@ -141,7 +103,7 @@ if not run_safe_steps(steps_row_6):
     print("Failed walking along Row 6")
     exit(1)
 
-# 5. Walk UP Column 20 to Row 3 (bypassing pitfalls)
+# 3. Walk UP Column 20 to Row 3 (bypassing pitfalls)
 steps_to_row_3 = [
     ("Up", (20, 5)),
     ("Up", (20, 4)),
@@ -152,7 +114,7 @@ if not run_safe_steps(steps_to_row_3):
     print("Failed walking UP Column 20")
     exit(1)
 
-# 6. Walk RIGHT along Row 3 to Column 26
+# 4. Walk RIGHT along Row 3 to Column 26
 steps_row_3 = []
 for x in range(21, 27):
     steps_row_3.append(("Right", (x, 3)))
@@ -161,7 +123,7 @@ if not run_safe_steps(steps_row_3):
     print("Failed walking along Row 3")
     exit(1)
 
-# 7. Step DOWN onto the pitfall trap at (26, 4) to drop to 1F East inside fenced room
+# 5. Step DOWN onto the pitfall trap at (26, 4) to drop to 1F East inside fenced room
 print("Dropping through the pitfall to 1F East...")
 if not safe_step("Down", (26, 4)):
     print("Failed to drop through the pitfall")
@@ -169,7 +131,7 @@ if not safe_step("Down", (26, 4)):
 time.sleep(2.0)
 print("Landed on 1F East. Position:", get_pos())
 
-# 8. Walk LEFT to stairs and warp DOWN to B1F East
+# 6. Walk LEFT to stairs and warp DOWN to B1F East
 pos = get_pos()
 steps_to_stairs = []
 for x in range(pos[0]-1, 21, -1):
@@ -186,7 +148,7 @@ mgba.press_buttons(["Up"])
 time.sleep(2.0)
 print("Arrived on B1F East. Position:", get_pos())
 
-# 9. Cross B1F East to B1F West NORTH and retrieve Secret Key
+# 7. Cross B1F East to B1F West NORTH and retrieve Secret Key
 pos = get_pos()
 if pos[1] == 2:
     safe_step("Down")
