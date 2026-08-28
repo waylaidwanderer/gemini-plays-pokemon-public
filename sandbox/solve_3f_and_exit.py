@@ -14,13 +14,14 @@ def step(direction):
     print(f"Stepped {direction}: {old_pos} -> {new_pos}")
     return new_pos
 
-print("Start position:", get_pos())
+print("Current position:", get_pos())
 
-# 1. Walk from (3, 11) to switch position (2, 12)
-step("Down") # to (3, 12)
-step("Left") # to (2, 12)
+# 1. Walk from (1, 10) to switch standing position (2, 12)
+print("Walking to switch standing position...")
+step("Down") # to (1, 11)
+step("Down") # to (1, 12)
+step("Right") # to (2, 12)
 
-# Face UP
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(1.0)
@@ -36,98 +37,58 @@ mgba.press_buttons([
 time.sleep(7.0)
 print("Switch toggle complete!")
 
-# 3. Test Column 3 first
-print("Testing Column 3 path to Row 6...")
-step("Right") # to (3, 12)
-step("Up")    # to (3, 11)
-pos_before_gate = get_pos()
-step("Up")    # try to step to (3, 10) or (3, 9)
+# 3. Walk to Column 3 Row 10
+# Path: Down to (2, 13) -> Right to (3, 13) -> Right to (4, 13) -> Up to (4, 12) -> Up to (4, 11) -> Left to (3, 11) -> Up to (3, 10)
+print("Walking to Column 3 Row 10...")
+steps_to_col_3 = [
+    ("Down", (2, 13)),
+    ("Right", (3, 13)),
+    ("Right", (4, 13)),
+    ("Up", (4, 12)),
+    ("Up", (4, 11)),
+    ("Left", (3, 11)),
+    ("Up", (3, 10)),
+]
+for d, expected in steps_to_col_3:
+    pos = step(d)
+    if pos != expected:
+        print(f"BLOCKED/DESYNC at {pos} (expected {expected})")
+        exit(1)
 
-pos_after = get_pos()
-column_3_open = False
-if pos_after != pos_before_gate:
-    # Try one more Up to see if we can cross Row 9
-    pos_gate_test = step("Up")
-    if pos_gate_test[1] <= 9:
-        print("Column 3 Row 9 gate is OPEN!")
-        column_3_open = True
-        # Walk up to Row 6
-        while get_pos()[1] > 6:
-            step("Up")
+# 4. Walk UP Column 3 through open gate to Row 6 (gate at (3, 9) is OPEN in State B!)
+print("Walking UP through Column 3 gate to Row 6...")
+steps_up_gate = [
+    ("Up", (3, 9)),
+    ("Up", (3, 8)),
+    ("Up", (3, 7)),
+    ("Up", (3, 6)),
+]
+for d, expected in steps_up_gate:
+    pos = step(d)
+    if pos != expected:
+        print(f"BLOCKED/DESYNC at {pos} (expected {expected})")
+        exit(1)
 
-if not column_3_open:
-    print("Column 3 path failed or blocked. Trying Column 1 path...")
-    # Walk back to Row 12
-    pos = get_pos()
-    while pos[1] < 12:
-        pos = step("Down")
-    # Walk Left to Column 1 Row 12
-    while pos[0] > 1:
-        pos = step("Left")
-    # Walk Up Column 1 to Row 6
-    while get_pos()[1] > 6:
-        step("Up")
-
-# 4. Now we are on Row 6 (either on Column 3 or Column 1). Walk Right to Column 20
+# 5. Walk RIGHT along Row 6 to Column 20
+print("Walking RIGHT along Row 6 to Column 20...")
 pos = get_pos()
-print("Arrived on Row 6 at:", pos)
 while pos[0] < 20:
     pos = step("Right")
 
-# 5. Walk UP Column 20 to Row 3
+# 6. Walk UP Column 20 to Row 3
+print("Walking UP Column 20 to Row 3...")
 while get_pos()[1] > 3:
     step("Up")
 
-# 6. Walk RIGHT along Row 3 to Column 26
+# 7. Walk RIGHT along Row 3 to Column 26
+print("Walking RIGHT along Row 3 to Column 26...")
 while get_pos()[0] < 26:
     step("Right")
 
-# 7. Drop through the pitfall to 1F East
-print("Dropping through pitfall to 1F East...")
+# 8. Step DOWN to drop through the pitfall to 1F East inside the fenced room
+print("Dropping through the pitfall to 1F East...")
 step("Down")
 time.sleep(2.5)
-pos = get_pos()
-print("Landed on 1F East:", pos)
 
-# 8. Walk to B1F East stairs and warp down
-if pos[1] == 4:
-    step("Down")
-pos = get_pos()
-while pos[0] > 22:
-    pos = step("Left")
-while pos[1] > 3:
-    pos = step("Up")
-
-print("Stepping UP to warp down to B1F East...")
-mgba.press_buttons(["Up"])
-time.sleep(2.0)
-pos = get_pos()
-print("Position on B1F East:", pos)
-
-# 9. Cross B1F East to B1F West NORTH
-if pos[1] == 2:
-    step("Down")
-# Walk to Column 21
-step("Left")
-# Down to Row 5
-step("Down")
-step("Down")
-# Left to Column 1
-pos = get_pos()
-while pos[0] > 1:
-    pos = step("Left")
-
-# 10. Retrieve Secret Key!
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(1.0)
-
-print("Retrieving Secret Key...")
-mgba.press_buttons(["A"])
-time.sleep(2.0)
-for _ in range(5):
-    mgba.press_buttons(["B"])
-    time.sleep(0.4)
-
-print("Mansion fully solved! Current Position:", get_pos())
+print("Part 1 complete! Landed on 1F East inside the fenced room. Position:", get_pos())
 mgba.take_screenshot()
