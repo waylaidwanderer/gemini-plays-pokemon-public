@@ -74,29 +74,35 @@ def run_steps(steps):
 
 print("Initial position:", mgba.get_coordinates())
 
-# Dismiss "Got away safely!" if still on screen
-for _ in range(3):
-    mgba.press_buttons(["B"])
-    time.sleep(0.3)
-
-# Part 1: Walk to the 3F East stairs at (15, 11)
+# Part 1: Walk to the 3F East stairs via Row 12 bypass
 pos = mgba.get_coordinates()
-if pos == {"x": 10, "y": 10}:
-    print("Walking to (15, 11)...")
-    steps_to_stairs = [
-        ("Right", {"x": 11, "y": 10}),
-        ("Right", {"x": 12, "y": 10}),
-        ("Right", {"x": 13, "y": 10}),
-        ("Right", {"x": 14, "y": 10}),
-        ("Right", {"x": 15, "y": 10}),
-        ("Down", {"x": 15, "y": 11}),
+if pos == {"x": 12, "y": 10}:
+    print("Walking Down to Row 12...")
+    steps_down_to_12 = [
+        ("Down", {"x": 12, "y": 11}),
+        ("Down", {"x": 12, "y": 12}),
     ]
-    if not run_steps(steps_to_stairs):
-        print("Failed to reach stairs at (15, 11)")
+    if not run_steps(steps_down_to_12):
+        print("Failed to reach Row 12")
+        exit(1)
+        
+    print("Walking Right along Row 12...")
+    steps_right_row_12 = [
+        ("Right", {"x": 13, "y": 12}),
+        ("Right", {"x": 14, "y": 12}),
+        ("Right", {"x": 15, "y": 12}),
+    ]
+    if not run_steps(steps_right_row_12):
+        print("Failed to reach (15, 12)")
+        exit(1)
+        
+    print("Stepping UP to warp down to 2F East...")
+    if not walk_step("Up", {"x": 15, "y": 11}):
+        print("Failed to step UP onto stairs")
         exit(1)
         
     print("Warping down to 2F East...")
-    mgba.press_buttons(["Down"])
+    mgba.press_buttons(["Up"])
     time.sleep(2.0)
     pos = mgba.get_coordinates()
     print("Position after warping down to 2F East:", pos)
