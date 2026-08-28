@@ -74,43 +74,76 @@ def run_safe_steps(steps):
 print("Starting solve_and_exit.py with robust white-only battle detection...")
 print("Start position:", get_pos())
 
-# 1. Walk from (3, 10) through Column 2 Row 9 gate to Row 6 on 3F East
-steps_3f_east = [
-    ("Left", (2, 10)),  # Step onto statue head (walkable!)
-    ("Up", (2, 9)),    # Through the open Row 9 gate!
-    ("Up", (2, 8)),
-    ("Up", (2, 7)),
-    ("Up", (2, 6)),
+# 1. Walk from (3, 10) to switch standing position (2, 12)
+steps_to_switch = [
+    ("Down", (3, 11)),
+    ("Down", (3, 12)),
+    ("Left", (2, 12)),
 ]
-print("Walking through Column 2 gate to 3F Row 6...")
-if not run_safe_steps(steps_3f_east):
-    print("Failed to reach Row 6")
+print("Walking to switch standing position...")
+if not run_safe_steps(steps_to_switch):
+    print("Failed to reach switch")
     exit(1)
 
-# 2. Walk RIGHT along Row 6 to Column 20
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(1.0)
+
+# 2. Toggle Mewtwo Switch to State B with exactly 4 slow A-presses
+print("Toggling switch to State B with exactly 4 slow A-presses...")
+mgba.press_buttons([
+    "A", "sleep 1500",
+    "A", "sleep 1500",
+    "A", "sleep 1500",
+    "A", "sleep 1500"
+])
+time.sleep(7.0)
+print("Switch toggle complete!")
+
+# 3. Walk to Column 1 Row 12
+print("Walking to Column 1 Row 12...")
+if not safe_step("Left", (1, 12)):
+    print("Failed to reach (1, 12)")
+    exit(1)
+
+# 4. Walk UP Column 1 to Row 6 (gate at (1, 9) is open in State B!)
+steps_up_col_1 = [
+    ("Up", (1, 11)),
+    ("Up", (1, 10)),
+    ("Up", (1, 9)),  # open in State B!
+    ("Up", (1, 8)),
+    ("Up", (1, 7)),
+    ("Up", (1, 6)),
+]
+print("Walking UP Column 1 to Row 6...")
+if not run_safe_steps(steps_up_col_1):
+    print("Failed walking UP Column 1")
+    exit(1)
+
+# 5. Walk RIGHT along Row 6 to Column 20
 print("Walking RIGHT along Row 6 to Column 20...")
 pos = get_pos()
 while pos[0] < 20:
     pos = step("Right")
     
-# 3. Walk UP Column 20 to Row 3
+# 6. Walk UP Column 20 to Row 3
 print("Walking UP Column 20 to Row 3...")
 while get_pos()[1] > 3:
     step("Up")
     
-# 4. Walk RIGHT along Row 3 to Column 26
+# 7. Walk RIGHT along Row 3 to Column 26
 print("Walking RIGHT along Row 3 to Column 26...")
 while get_pos()[0] < 26:
     step("Right")
     
-# 5. Drop through the pitfall to 1F East inside the fenced room
+# 8. Drop through the pitfall to 1F East inside the fenced room
 print("Dropping through the pitfall to 1F East...")
 step("Down")
 time.sleep(2.5)
 pos = get_pos()
 print("Landed on 1F East inside fenced room:", pos)
 
-# 6. Walk to B1F East stairs and warp down
+# 9. Walk to B1F East stairs and warp down
 if pos[1] == 4:
     step("Down")
 pos = get_pos()
@@ -125,7 +158,7 @@ time.sleep(2.0)
 pos = get_pos()
 print("Position on B1F East:", pos)
 
-# 7. Cross B1F East to B1F West NORTH
+# 10. Cross B1F East to B1F West NORTH
 if pos[1] == 2:
     step("Down")
 # Walk to Column 21
@@ -138,7 +171,7 @@ pos = get_pos()
 while pos[0] > 1:
     pos = step("Left")
     
-# 8. Retrieve Secret Key!
+# 11. Retrieve Secret Key!
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(1.0)
