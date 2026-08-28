@@ -61,14 +61,14 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 18571 - Fully Healed at Cinnabar Pok�mon Center)
+## Active Party (Verified Turn 19174 - In-Game Pokemon Menu)
 1. HYDROS (Blastoise) - Lv 63
    - Stats: Max HP 211 (HP: 0/211 - FNT)
    - Type: Water
    - Moves: Double-Edge (8/15), Ice Beam (0/10), Bite (14/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46)
+   - Stats: Max HP 46 (HP: 0/46 - FNT)
    - Type: Grass / Poison
    - Moves: PoisonPowder, Rest, Wrap, Cut
    - Role: Active combatant & Cut utility
@@ -78,7 +78,7 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54)
+   - Stats: Max HP 54 (HP: 0/54 - FNT)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
@@ -94,7 +94,8 @@
    - Role: Flyer utility
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname. 
+- Every captured Pokémon will receive a thoughtful, unique nickname.
+
 ## Boxed Pokémon (Box 1)
 1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
@@ -107,11 +108,14 @@
 5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo; sent to Box 1]
    - Type: Fighting
    - Moves: Jump Kick, Meditate, Rolling Kick
+6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pokémon Mansion 2F; sent to Box 1]
+   - Type: Poison
+   - Moves: Pound, Disable, Poison Gas
 
 ## Inventory & Resources (Verified Turn 17963)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
 - Bag Capacity: 10 / 20 slots used (10 free slots available)
-- Active Bag Items: Bicycle, Great Ball x10, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Pok� Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM09 (Take Down), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave)
+- Active Bag Items: Bicycle, Great Ball x9, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM09 (Take Down), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave)
 - Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥30,000+
 
@@ -120,8 +124,6 @@
 - HM02 Fly: Party menu -> FLY opens fast-travel town map.
 - HM03 Surf: Usable outside battle with Soul Badge on water tiles.
 - HM04 Strength: Party menu -> STRENGTH activates boulder-moving capability for active map. Walking into a boulder displaces it 1 tile in the walking direction.
-
-6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pokmon Mansion 2F; sent to Box 1]
 
 <hr>
 
