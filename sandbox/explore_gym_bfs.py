@@ -122,35 +122,32 @@ def step_and_verify(direction, expected_pos):
     start_pos = get_pos()
     mgba.press_buttons([direction])
     
-    # Wait up to 1.5s for step
-    start_time = time.time()
-    pos = get_pos()
-    while pos != expected_pos and (time.time() - start_time) < 1.5:
-        time.sleep(0.1)
-        pos = get_pos()
-        
-    if pos == expected_pos:
+    start_wait = time.time()
+    is_battle = False
+    while (time.time() - start_wait) < 5.0:
         if check_battle_or_text():
-            if handle_battle_or_text():
-                return "battle_fled_on_new_tile"
+            is_battle = True
+            break
+        pos = get_pos()
+        if pos != start_pos:
+            time.sleep(0.5)
+            if check_battle_or_text():
+                is_battle = True
+                break
+            final_pos = get_pos()
+            if final_pos == expected_pos:
+                return "walk"
             else:
-                return "abort"
-        return "walk"
+                return f"spin_to_{final_pos}"
+        time.sleep(0.1)
         
-    # Wait 2.5s more for battle transition
-    time.sleep(2.5)
-    if check_battle_or_text():
+    if is_battle:
         if handle_battle_or_text():
-            # If a battle was fled, the tile is walkable!
             return "battle_fled_on_new_tile"
         else:
             return "abort"
             
-    final_pos = get_pos()
-    if final_pos == start_pos:
-        return "blocked"
-    else:
-        return f"spin_to_{final_pos}"
+    return "blocked"
 
 def walk_path(path):
     for node in path:
