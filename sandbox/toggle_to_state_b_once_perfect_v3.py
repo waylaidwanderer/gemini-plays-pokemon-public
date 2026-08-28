@@ -71,100 +71,66 @@ def run_safe_steps(steps):
             return False
     return True
 
-def go_to_switch():
-    pos = get_pos()
-    steps_to_switch = []
-    if pos == (1, 10):
-        steps_to_switch = [
-            ("Down", (1, 11)),
-            ("Down", (1, 12)),
-            ("Right", (2, 12)),
-        ]
-    elif pos == (1, 12):
-        steps_to_switch = [
-            ("Right", (2, 12)),
-        ]
-    elif pos == (2, 12):
-        pass
-    else:
-        # Fallback to walk to (2, 12) from elsewhere
-        print("Warning: unexpected starting position", pos)
-        
-    if steps_to_switch:
-        print("Walking to switch...")
-        if not run_safe_steps(steps_to_switch):
-            return False
-            
-    print("Facing UP...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
-    return True
+print("Start position:", get_pos())
 
-def toggle_switch_once():
-    print("Toggling switch with exactly 4 slow A-presses...")
-    mgba.press_buttons([
-        "A", "sleep 1500",
-        "A", "sleep 1500",
-        "A", "sleep 1500",
-        "A", "sleep 1500"
-    ])
-    time.sleep(7.0)
-    print("Switch toggle complete!")
-
-def test_gate_open():
-    print("Walking to gate to test...")
-    # Walk Left to (1, 12)
-    if not safe_step("Left", (1, 12)):
-        return False
-    # Walk Up to (1, 11)
-    if not safe_step("Up", (1, 11)):
-        return False
-    # Walk Up to (1, 10)
-    if not safe_step("Up", (1, 10)):
-        return False
-    # Walk Up to (1, 9) (the gate)
-    # If the gate is open, this will succeed and we will be at (1, 9)
-    old_pos = get_pos()
-    mgba.press_buttons(["Up"])
-    time.sleep(0.55)
-    new_pos = get_pos()
-    if new_pos == (1, 9):
-        print("Gate is OPEN! Walking up to (1, 8)...")
-        safe_step("Up", (1, 8))
-        return True
-    else:
-        print("Gate is CLOSED!")
-        return False
-
-# Master loop:
-# We are currently at some position. Go to switch, toggle, and test.
-# If closed, toggle again and test.
-
-print("Starting Master Verification Protocol...")
-
-# State 1: Try current state or toggle once
-if not go_to_switch():
-    print("Failed to reach switch")
+# 1. Walk from (4, 12) to (2, 12) via Row 13 to bypass Column 3 cabinet
+steps_to_switch = [
+    ("Down", (4, 13)),
+    ("Left", (3, 13)),
+    ("Left", (2, 13)),
+    ("Up", (2, 12)),
+]
+print("Walking to switch at (2, 12)...")
+if not run_safe_steps(steps_to_switch):
+    print("Failed to reach (2, 12)")
     exit(1)
 
-toggle_switch_once()
+# Face UP
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(1.0)
 
-if test_gate_open():
-    print("SUCCESS! Mansion is in the correct state and we passed the gate!")
-    exit(0)
+# 2. Toggle Mewtwo Switch with exactly 4 slow A-presses
+print("Toggling switch to State B with exactly 4 slow A-presses...")
+mgba.press_buttons([
+    "A", "sleep 1500",
+    "A", "sleep 1500",
+    "A", "sleep 1500",
+    "A", "sleep 1500"
+])
+time.sleep(7.0)
+print("Switch toggle complete!")
 
-# If we are here, the gate was CLOSED, meaning the previous state was B and we toggled to A,
-# OR we need to toggle again. Let's walk back to switch and toggle again!
-print("Gate was closed. Walking back to switch to toggle again...")
-if not go_to_switch():
-    print("Failed to reach switch on retry")
+# 3. Walk to Column 3 Row 10 to test Column 3 Row 9 gate!
+# Path: (2, 12) -> Down to (2, 13) -> Right to (3, 13) -> Right to (4, 13) -> Up to (4, 12) -> Up to (4, 11) -> Left to (3, 11) -> Up to (3, 10)
+steps_to_col_3 = [
+    ("Down", (2, 13)),
+    ("Right", (3, 13)),
+    ("Right", (4, 13)),
+    ("Up", (4, 12)),
+    ("Up", (4, 11)),
+    ("Left", (3, 11)),
+    ("Up", (3, 10)),
+]
+print("Walking to Column 3 Row 10...")
+if not run_safe_steps(steps_to_col_3):
+    print("Failed to reach Column 3 Row 10")
     exit(1)
 
-toggle_switch_once()
+# 4. Test Column 3 Row 9 gate
+print("Testing if Column 3 Row 9 is OPEN...")
+old_pos = get_pos()
+mgba.press_buttons(["Up"])
+time.sleep(0.55)
+new_pos = get_pos()
 
-if test_gate_open():
-    print("SUCCESS on retry! Mansion is in the correct state and we passed the gate!")
-    exit(0)
+if new_pos[1] == 9:
+    print("SUCCESS: Column 3 Row 9 gate is OPEN in State B!!!")
+    safe_step("Up", (3, 8))
+    safe_step("Up", (3, 7))
+    safe_step("Up", (3, 6))
 else:
-    print("ERROR: Gate is still closed in BOTH switch states! Something is fundamentally wrong.")
-    exit(1)
+    print("Gate is CLOSED.")
+    
+print("Final Position:", get_pos())
+mgba.take_screenshot()
