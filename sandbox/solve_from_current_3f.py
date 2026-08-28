@@ -74,121 +74,18 @@ def run_steps(steps):
 
 print("Initial position:", mgba.get_coordinates())
 
-# Part 1: Walk to the 3F East stairs via Row 12 bypass
+# Part 1: Walk Left along Row 12 to Column 2
+steps_row_12 = []
+for x in range(12, 1, -1):
+    steps_row_12.append(("Left", {"x": x, "y": 12}))
+
+print("Executing walk along Row 12...")
+if not run_steps(steps_row_12):
+    print("Failed walking along Row 12")
+    exit(1)
+
+# Part 2: Toggle the switch at (2, 11) to State B!
 pos = mgba.get_coordinates()
-if pos == {"x": 12, "y": 10}:
-    print("Walking Down to Row 12...")
-    steps_down_to_12 = [
-        ("Down", {"x": 12, "y": 11}),
-        ("Down", {"x": 12, "y": 12}),
-    ]
-    if not run_steps(steps_down_to_12):
-        print("Failed to reach Row 12")
-        exit(1)
-        
-    print("Walking Right along Row 12...")
-    steps_right_row_12 = [
-        ("Right", {"x": 13, "y": 12}),
-        ("Right", {"x": 14, "y": 12}),
-        ("Right", {"x": 15, "y": 12}),
-    ]
-    if not run_steps(steps_right_row_12):
-        print("Failed to reach (15, 12)")
-        exit(1)
-        
-    print("Stepping UP to warp down to 2F East...")
-    if not walk_step("Up", {"x": 15, "y": 11}):
-        print("Failed to step UP onto stairs")
-        exit(1)
-        
-    print("Warping down to 2F East...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position after warping down to 2F East:", pos)
-
-# Part 2: On 2F East, walk UP to Row 3, then Left to 2F West (5, 3)
-pos = mgba.get_coordinates()
-if pos == {"x": 15, "y": 11} or pos == {"x": 16, "y": 11}:
-    print("Walking up to Row 3 on 2F East...")
-    current_x = pos["x"]
-    if current_x == 16:
-        walk_step("Left", {"x": 15, "y": 11})
-        
-    steps_up_2f = [
-        ("Up", {"x": 15, "y": 10}),
-        ("Up", {"x": 15, "y": 9}),
-        ("Up", {"x": 15, "y": 8}),
-        ("Up", {"x": 15, "y": 7}),
-        ("Up", {"x": 15, "y": 6}),
-        ("Up", {"x": 15, "y": 5}),
-        ("Up", {"x": 15, "y": 4}),
-        ("Up", {"x": 15, "y": 3}),
-    ]
-    if not run_steps(steps_up_2f):
-        print("Failed to walk UP to Row 3 on 2F")
-        exit(1)
-        
-    print("Walking Left across 2F to (5, 3)...")
-    steps_left_2f = []
-    for x in range(14, 4, -1):
-        steps_left_2f.append(("Left", {"x": x, "y": 3}))
-    if not run_steps(steps_left_2f):
-        print("Failed to walk Left across Row 3")
-        exit(1)
-        
-    pos = mgba.get_coordinates()
-
-# Part 3: From (5, 3) on 2F West, walk down to (5, 11)
-if pos == {"x": 5, "y": 3}:
-    print("Walking Down Column 5 on 2F West...")
-    steps_down_2f = []
-    for y in range(4, 12):
-        steps_down_2f.append(("Down", {"x": 5, "y": y}))
-    if not run_steps(steps_down_2f):
-        print("Failed to walk Down Column 5 on 2F West")
-        exit(1)
-        
-    pos = mgba.get_coordinates()
-
-# Part 4: From (5, 11) on 2F West, walk to the stairs at (7, 10) and warp UP to 3F West
-if pos == {"x": 5, "y": 11}:
-    print("Walking to 3F West stairs...")
-    if not run_steps([
-        ("Right", {"x": 6, "y": 11}),
-        ("Right", {"x": 7, "y": 11}),
-        ("Up", {"x": 7, "y": 10}),
-    ]):
-        print("Failed to step UP onto stairs")
-        exit(1)
-        
-    print("Warping UP to 3F West...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position on 3F West after warping UP:", pos)
-
-# Part 5: On 3F West, walk to the Mewtwo switch at (2, 11)
-if pos == {"x": 7, "y": 11} or pos == {"x": 7, "y": 10}:
-    if pos["y"] == 10:
-        walk_step("Down", {"x": 7, "y": 11})
-        
-    print("Walking to the Mewtwo switch...")
-    steps_to_switch = [
-        ("Left", {"x": 6, "y": 11}),
-        ("Left", {"x": 5, "y": 11}),
-        ("Left", {"x": 4, "y": 11}),
-        ("Left", {"x": 3, "y": 11}),
-        ("Down", {"x": 3, "y": 12}),
-        ("Left", {"x": 2, "y": 12}),
-    ]
-    if not run_steps(steps_to_switch):
-        print("Failed to reach (2, 12)")
-        exit(1)
-        
-    pos = mgba.get_coordinates()
-
-# Part 6: Toggle the switch to State B!
 if pos == {"x": 2, "y": 12}:
     print("Toggling Mewtwo switch at (2, 11)...")
     # Face UP towards (2, 11) from (2, 12)
@@ -207,4 +104,4 @@ if pos == {"x": 2, "y": 12}:
     print("Switch toggled to State B!")
     mgba.take_screenshot()
 
-print("Script execution completed!")
+print("Script execution completed successfully!")
