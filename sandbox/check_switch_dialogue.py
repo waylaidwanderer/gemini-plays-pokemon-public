@@ -1,34 +1,31 @@
-import mgba
-import time
+from PIL import Image
+import os
 
-def get_pos():
-    pos = mgba.get_coordinates()
-    return (pos['x'], pos['y'])
+def crop_text(src_path, dest_path):
+    img = Image.open(src_path)
+    img_res = img.resize((160, 144), Image.Resampling.NEAREST)
+    cropped = img_res.crop((0, 100, 160, 144))
+    cropped.save(dest_path)
 
-def step(direction):
-    old_pos = get_pos()
-    mgba.press_buttons([direction])
-    time.sleep(0.55)
-    new_pos = get_pos()
-    print(f"Stepped {direction}: {old_pos} -> {new_pos}")
-    return new_pos
+screenshots = [
+    "screenshots/screenshot_1787948115403.png",
+    "screenshots/screenshot_1787948117286.png",
+    "screenshots/screenshot_1787948119145.png",
+    "screenshots/screenshot_1787948120996.png"
+]
 
-print("Current position:", get_pos())
-
-# Walk to (2, 12)
-step("Down")
-step("Down")
-step("Right")
-
-# Face UP
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(1.0)
-
-# Press A once to open dialogue
-print("Pressing A once...")
-mgba.press_buttons(["A"])
-time.sleep(1.2)
-
-print("Final Position:", get_pos())
-mgba.take_screenshot()
+for i, src in enumerate(screenshots):
+    dest = f"screenshots/cropped_text_screenshot_{i}.png"
+    crop_text(src, dest)
+    
+    img_crop = Image.open(dest)
+    white_pixels = 0
+    total = 0
+    for y in range(8, 40):
+        for x in range(8, 152):
+            r, g, b = img_crop.getpixel((x, y))[:3]
+            total += 1
+            if r > 240 and g > 240 and b > 240:
+                white_pixels += 1
+    pct = white_pixels / total
+    print(f"Crop {i}: White pixel pct = {pct:.2f}% (Bytes: {os.path.getsize(dest)})")
