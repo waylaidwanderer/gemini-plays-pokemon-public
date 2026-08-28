@@ -71,62 +71,36 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Starting solve_from_current.py with Column 12 Bypass Route...")
+print("Starting solve_from_current.py (Bypass Column 20 Closed Gate)...")
 print("Start position:", get_pos())
 
-# 1. Walk from (6, 13) to Column 12 Row 11 via Row 11
-steps_to_col_12 = [
-    ("Up", (6, 12)),
-    ("Up", (6, 11)),
-    ("Right", (7, 11)),
-    ("Right", (8, 11)),
-    ("Right", (9, 11)),
-    ("Right", (10, 11)),
-    ("Right", (11, 11)),
-    ("Right", (12, 11)),
-]
-print("Walking to Column 12 Row 11...")
-if not run_safe_steps(steps_to_col_12):
-    print("Failed to reach Column 12 Row 11")
+# 1. Walk Left to Column 19 (to bypass Column 20 Row 5 shutter gate)
+print("Stepping Left to Column 19...")
+if not safe_step("Left", (19, 6)):
+    print("Failed to reach Column 19")
     exit(1)
 
-# 2. Walk UP Column 12 to Row 6 (completely open in both states!)
-steps_up_col_12 = [
-    ("Up", (12, 10)),
-    ("Up", (12, 9)),
-    ("Up", (12, 8)),
-    ("Up", (12, 7)),
-    ("Up", (12, 6)),
+# 2. Walk UP Column 19 to Row 3 (completely open!)
+steps_up_col_19 = [
+    ("Up", (19, 5)),
+    ("Up", (19, 4)),
+    ("Up", (19, 3)),
 ]
-print("Walking UP Column 12 to Row 6...")
-if not run_safe_steps(steps_up_col_12):
-    print("Failed walking UP Column 12")
+print("Walking UP Column 19 to Row 3...")
+if not run_safe_steps(steps_up_col_19):
+    print("Failed walking UP Column 19")
     exit(1)
 
-# 3. Walk RIGHT along Row 6 to Column 20
-print("Walking RIGHT along Row 6 to Column 20...")
-pos = get_pos()
-while pos[0] < 20:
-    if not safe_step("Right"):
-        print("Failed stepping Right")
-        exit(1)
-    pos = get_pos()
-    
-# 4. Walk UP Column 20 to Row 3
-print("Walking UP Column 20 to Row 3...")
-while get_pos()[1] > 3:
-    if not safe_step("Up"):
-        print("Failed stepping Up")
-        exit(1)
-    
-# 5. Walk RIGHT along Row 3 to Column 26
+# 3. Walk RIGHT along Row 3 to Column 26
+steps_row_3 = []
+for x in range(20, 27):
+    steps_row_3.append(("Right", (x, 3)))
 print("Walking RIGHT along Row 3 to Column 26...")
-while get_pos()[0] < 26:
-    if not safe_step("Right"):
-        print("Failed stepping Right")
-        exit(1)
-    
-# 6. Drop through the pitfall to 1F East inside the fenced room
+if not run_safe_steps(steps_row_3):
+    print("Failed walking along Row 3")
+    exit(1)
+
+# 4. Drop through the pitfall to 1F East inside the fenced room
 print("Dropping through the pitfall to 1F East...")
 if not safe_step("Down"):
     print("Failed to drop through pitfall")
@@ -135,7 +109,7 @@ time.sleep(2.5)
 pos = get_pos()
 print("Landed on 1F East inside fenced room:", pos)
 
-# 7. Walk to B1F East stairs and warp down
+# 5. Walk to B1F East stairs and warp down
 if pos[1] == 4:
     if not safe_step("Down"):
         exit(1)
@@ -155,7 +129,7 @@ time.sleep(2.0)
 pos = get_pos()
 print("Position on B1F East:", pos)
 
-# 8. Cross B1F East to B1F West NORTH
+# 6. Cross B1F East to B1F West NORTH
 if pos[1] == 2:
     if not safe_step("Down"):
         exit(1)
@@ -172,7 +146,7 @@ while pos[0] > 1:
         exit(1)
     pos = get_pos()
     
-# 9. Retrieve Secret Key!
+# 7. Retrieve Secret Key!
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(1.0)
