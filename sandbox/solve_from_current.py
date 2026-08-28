@@ -7,7 +7,6 @@ def get_pos():
     return (pos['x'], pos['y'])
 
 def check_dialogue_or_battle():
-    # Robust white-only check to completely eliminate dark tile false positives on B1F
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
@@ -71,36 +70,29 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Starting solve_from_current.py (Bypass Column 20 Closed Gate)...")
+print("Starting solve_from_current.py from Row 4 bypass...")
 print("Start position:", get_pos())
 
-# 1. Walk Left to Column 19 (to bypass Column 20 Row 5 shutter gate)
-print("Stepping Left to Column 19...")
-if not safe_step("Left", (19, 6)):
-    print("Failed to reach Column 19")
-    exit(1)
-
-# 2. Walk UP Column 19 to Row 3 (completely open!)
-steps_up_col_19 = [
-    ("Up", (19, 5)),
-    ("Up", (19, 4)),
-    ("Up", (19, 3)),
+# 1. Walk from (19, 4) to (20, 4) then Up to (20, 3) (bypassing the Row 5 Column 20 shutter gate!)
+steps_to_row_3 = [
+    ("Right", (20, 4)),
+    ("Up", (20, 3)),
 ]
-print("Walking UP Column 19 to Row 3...")
-if not run_safe_steps(steps_up_col_19):
-    print("Failed walking UP Column 19")
+print("Walking horizontally above the gate to Column 20...")
+if not run_safe_steps(steps_to_row_3):
+    print("Failed to reach Row 3 Column 20")
     exit(1)
 
-# 3. Walk RIGHT along Row 3 to Column 26
-steps_row_3 = []
-for x in range(20, 27):
-    steps_row_3.append(("Right", (x, 3)))
+# 2. Walk RIGHT along Row 3 to Column 26
 print("Walking RIGHT along Row 3 to Column 26...")
-if not run_safe_steps(steps_row_3):
-    print("Failed walking along Row 3")
-    exit(1)
+pos = get_pos()
+while pos[0] < 26:
+    if not safe_step("Right"):
+        print("Failed stepping Right")
+        exit(1)
+    pos = get_pos()
 
-# 4. Drop through the pitfall to 1F East inside the fenced room
+# 3. Drop through the pitfall to 1F East inside the fenced room
 print("Dropping through the pitfall to 1F East...")
 if not safe_step("Down"):
     print("Failed to drop through pitfall")
@@ -109,7 +101,7 @@ time.sleep(2.5)
 pos = get_pos()
 print("Landed on 1F East inside fenced room:", pos)
 
-# 5. Walk to B1F East stairs and warp down
+# 4. Walk to B1F East stairs and warp down
 if pos[1] == 4:
     if not safe_step("Down"):
         exit(1)
@@ -129,7 +121,7 @@ time.sleep(2.0)
 pos = get_pos()
 print("Position on B1F East:", pos)
 
-# 6. Cross B1F East to B1F West NORTH
+# 5. Cross B1F East to B1F West NORTH
 if pos[1] == 2:
     if not safe_step("Down"):
         exit(1)
@@ -146,7 +138,7 @@ while pos[0] > 1:
         exit(1)
     pos = get_pos()
     
-# 7. Retrieve Secret Key!
+# 6. Retrieve Secret Key!
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(1.0)
