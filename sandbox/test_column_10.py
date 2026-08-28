@@ -88,11 +88,9 @@ def run_safe_steps(steps):
 
 print("Start position:", get_pos())
 
-# 1. Walk from (5, 8) to (10, 11)
+# 1. Walk from (4, 11) to (10, 11)
 steps_to_col_10 = [
-    ("Down", (5, 9)),
-    ("Down", (5, 10)),
-    ("Down", (5, 11)),
+    ("Right", (5, 11)),
     ("Right", (6, 11)),
     ("Right", (7, 11)),
     ("Right", (8, 11)),
