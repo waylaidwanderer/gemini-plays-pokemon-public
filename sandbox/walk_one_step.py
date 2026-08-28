@@ -38,4 +38,4 @@ def safe_step(direction):
         return True
 
 # Change this direction as needed!
-safe_step("Up")
+safe_step("Down")
