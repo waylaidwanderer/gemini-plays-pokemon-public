@@ -72,26 +72,21 @@ def run_safe_steps(steps):
     return True
 
 print("Start position:", get_pos())
-pos = get_pos()
 
-# Step 1: Walk to Row 5 Column 19
-# Current pos on B1F is (22, 2)
+# Step 1: Walk to Row 5 Column 21 (bypassing shutter gate at (22, 4))
 steps_to_row_5 = [
-    ("Down", (22, 3)),
-    ("Down", (22, 4)),
-    ("Left", (21, 4)),
-    ("Left", (20, 4)),
-    ("Left", (19, 4)),
-    ("Down", (19, 5)),
+    ("Left", (21, 3)),
+    ("Down", (21, 4)),
+    ("Down", (21, 5)),
 ]
-print("Walking to B1F Row 5...")
+print("Walking to B1F Row 5 via Column 21...")
 if not run_safe_steps(steps_to_row_5):
     print("Failed to reach Row 5")
     exit(1)
 
 # Step 2: Walk straight LEFT along Row 5 across Column 9 gate (now open in State B) directly to B1F West
 steps_left = []
-for x in range(18, 0, -1):
+for x in range(20, 0, -1):
     steps_left.append(("Left", (x, 5)))
 print("Walking LEFT to Secret Key room...")
 if not run_safe_steps(steps_left):
