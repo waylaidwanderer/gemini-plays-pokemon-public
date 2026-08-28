@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 1F (Position: (12, 2))
+- Location: Pokémon Mansion 1F (Position: (24, 17))
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -67,7 +67,7 @@
 1. HYDROS (Blastoise) - Lv 63
    - Stats: Max HP 211 (HP: 10/211 - PAR)
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (4/10), Bite (16/25), Surf (0/15)
+   - Moves: Double-Edge (8/15), Ice Beam (2/10), Bite (16/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
