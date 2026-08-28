@@ -5,20 +5,26 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting local probe from (10, 9)...")
+print("Starting right-upper channel probe from current position:", get_pos())
 
 # Steps:
-# 1. Right to (11, 9)
-# 2. Right to (12, 9)
-# 3. Right to (13, 9)
-# 4. Right to (14, 9)
-# 5. Right to (15, 9)
+# 1. Up to (12, 8)
+# 2. Up to (12, 7)
+# 3. Up to (12, 6)
+# 4. Right to (13, 6)
+# 5. Right to (14, 6)
+# 6. Right to (15, 6)
+# 7. Right to (16, 6)
+# 8. Right to (17, 6)
 steps = [
-    ("Right", (11, 9)),
-    ("Right", (12, 9)),
-    ("Right", (13, 9)),
-    ("Right", (14, 9)),
-    ("Right", (15, 9))
+    ("Up", (12, 8)),
+    ("Up", (12, 7)),
+    ("Up", (12, 6)),
+    ("Right", (13, 6)),
+    ("Right", (14, 6)),
+    ("Right", (15, 6)),
+    ("Right", (16, 6)),
+    ("Right", (17, 6))
 ]
 
 for d, c in steps:
