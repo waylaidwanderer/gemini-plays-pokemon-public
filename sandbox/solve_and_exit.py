@@ -74,11 +74,11 @@ def run_safe_steps(steps):
 print("Starting solve_and_exit.py with robust white-only battle detection...")
 print("Start position:", get_pos())
 
-# 1. Walk from (3, 10) to switch standing position (2, 12)
+# 1. Walk from (1, 10) to switch standing position (2, 12)
 steps_to_switch = [
-    ("Down", (3, 11)),
-    ("Down", (3, 12)),
-    ("Left", (2, 12)),
+    ("Down", (1, 11)),
+    ("Down", (1, 12)),
+    ("Right", (2, 12)),
 ]
 print("Walking to switch standing position...")
 if not run_safe_steps(steps_to_switch):
@@ -100,24 +100,27 @@ mgba.press_buttons([
 time.sleep(7.0)
 print("Switch toggle complete!")
 
-# 3. Walk to Column 1 Row 12
-print("Walking to Column 1 Row 12...")
-if not safe_step("Left", (1, 12)):
-    print("Failed to reach (1, 12)")
+# 3. Walk to Column 3 Row 10
+steps_to_col_3 = [
+    ("Right", (3, 12)),
+    ("Up", (3, 11)),
+    ("Up", (3, 10)),
+]
+print("Walking to Column 3 Row 10...")
+if not run_safe_steps(steps_to_col_3):
+    print("Failed to reach Column 3 Row 10")
     exit(1)
 
-# 4. Walk UP Column 1 to Row 6 (gate at (1, 9) is open in State B!)
-steps_up_col_1 = [
-    ("Up", (1, 11)),
-    ("Up", (1, 10)),
-    ("Up", (1, 9)),  # open in State B!
-    ("Up", (1, 8)),
-    ("Up", (1, 7)),
-    ("Up", (1, 6)),
+# 4. Walk UP Column 3 through open gate to Row 6 (gate at (3, 9) is open in State B!)
+steps_up_gate = [
+    ("Up", (3, 9)),  # open in State B!
+    ("Up", (3, 8)),
+    ("Up", (3, 7)),
+    ("Up", (3, 6)),
 ]
-print("Walking UP Column 1 to Row 6...")
-if not run_safe_steps(steps_up_col_1):
-    print("Failed walking UP Column 1")
+print("Walking UP Column 3 gate to Row 6...")
+if not run_safe_steps(steps_up_gate):
+    print("Failed walking UP Column 3")
     exit(1)
 
 # 5. Walk RIGHT along Row 6 to Column 20
