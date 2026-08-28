@@ -3,7 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 1F (Northeast Wing, Position: (21, 3))
+- Location: Pokémon Mansion 1F (Position: (12, 2))
+
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -50,6 +51,5 @@
 - `Locations/RocketHideoutB4F`: Rocket Hideout B4F layout, Giovanni boss battle, Silph Scope
 - `Locations/CeladonGym`: Celadon Gym layout, trainers, Leader Erika battle
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
-
 - `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
 - `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House

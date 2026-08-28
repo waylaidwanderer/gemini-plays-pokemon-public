@@ -5,7 +5,7 @@
 - Contains the Secret Key required to unlock the Cinnabar Gym, Mewtwo statue switches, research notes, and items (TM14 Blizzard, TM22 SolarBeam, Rare Candy).
 
 ## Layout & Landmarks
-- Stairs up to 1F: (24..25, 8..9)
+- Unexplored (entry pending empirical verification of 1F staircase).
 
 ## Switch Permutations & Barriers
 - TBD upon exploration.
