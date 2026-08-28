@@ -20,11 +20,11 @@ def handle_any_menu_or_battle():
                 
     percentage = black_or_white / total_pixels
     if percentage > 0.90:
-        print(f"Menu/Dialogue detected! (B/W: {percentage*100:.2f}%)")
+        print(f"Menu/Dialogue/Battle detected! (B/W: {percentage*100:.2f}%)")
         mgba.press_buttons(["B"])
         time.sleep(0.4)
         
-        # Check if still in battle
+        # Check if still in battle/dialogue
         scr_file2 = mgba.take_screenshot()
         img2 = Image.open(scr_file2)
         img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
@@ -38,11 +38,10 @@ def handle_any_menu_or_battle():
         percentage2 = black_or_white2 / total_pixels
         
         if percentage2 > 0.90:
-            print("Still in battle. Running...")
+            print("Still in battle/dialogue. Attempting to RUN...")
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
-            # Dismiss run text
-            for _ in range(4):
+            for _ in range(5):
                 mgba.press_buttons(["B"])
                 time.sleep(0.3)
         return True
@@ -70,67 +69,56 @@ def run_steps(steps):
             return False
     return True
 
-# Ensure menu is closed
-mgba.press_buttons(["B"])
-time.sleep(0.3)
+# Close any active menu/battle first
+for _ in range(5):
+    handle_any_menu_or_battle()
+    time.sleep(0.2)
 
 pos = mgba.get_coordinates()
-print("Starting position:", pos)
+print("Starting solve from position:", pos)
 
-# We are at (3, 10). Let's try to walk UP to (3, 9)
-print("Testing if UP path is open...")
-blocked = False
-if not walk_step("Up", {"x": 3, "y": 9}, retries=3):
-    print("UP is blocked! Toggling switch at (2, 11)...")
-    blocked = True
-    # Walk to (2, 12)
-    if not run_steps([
-        ("Down", {"x": 3, "y": 11}),
-        ("Down", {"x": 3, "y": 12}),
-        ("Left", {"x": 2, "y": 12}),
-    ]):
-        print("Failed to reach (2, 12) to toggle switch")
-        exit(1)
-        
-    print("Facing UP towards Mewtwo switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Toggling switch...")
-    mgba.press_buttons([
-        "A", "sleep 500",
-        "A", "sleep 500",
-        "A", "sleep 500",
-        "A"
-    ])
-    time.sleep(1.5)
-    
-    # Check if switch toggled by moving to (3, 9)
-    print("Walking back to Column 3 and going UP...")
-    if not run_steps([
-        ("Right", {"x": 3, "y": 12}),
-        ("Up", {"x": 3, "y": 11}),
-        ("Up", {"x": 3, "y": 10}),
-        ("Up", {"x": 3, "y": 9}),
-    ]):
-        print("Failed to pass Row 9 after toggling switch!")
-        exit(1)
+# We are at (6, 10). Let's go down to (6, 11), left to (3, 11), down to (3, 12), left to (2, 12)
+if not run_steps([
+    ("Down", {"x": 6, "y": 11}),
+    ("Left", {"x": 5, "y": 11}),
+    ("Left", {"x": 4, "y": 11}),
+    ("Left", {"x": 3, "y": 11}),
+    ("Down", {"x": 3, "y": 12}),
+    ("Left", {"x": 2, "y": 12}),
+]):
+    print("Failed to reach switch standing position (2, 12)")
+    exit(1)
 
-# Now we are at (3, 9). Complete walk to (3, 6)
-pos = mgba.get_coordinates()
-print("Current position before completing row 6 walk:", pos)
-if pos == {"x": 3, "y": 9}:
-    steps_to_row6 = [
-        ("Up", {"x": 3, "y": 8}),
-        ("Up", {"x": 3, "y": 7}),
-        ("Up", {"x": 3, "y": 6}),
-    ]
-    if not run_steps(steps_to_row6):
-        print("Failed to reach (3, 6)")
-        exit(1)
-    pos = mgba.get_coordinates()
+# Face UP towards switch at (2, 11)
+print("Facing UP towards Mewtwo switch...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+# Toggle switch to State B (requires exactly 4 A-presses)
+print("Toggling switch...")
+mgba.press_buttons([
+    "A", "sleep 500",
+    "A", "sleep 500",
+    "A", "sleep 500",
+    "A"
+])
+time.sleep(1.5)
+
+# Walk back to Column 3 and go UP to Row 6
+if not run_steps([
+    ("Right", {"x": 3, "y": 12}),
+    ("Up", {"x": 3, "y": 11}),
+    ("Up", {"x": 3, "y": 10}),
+    ("Up", {"x": 3, "y": 9}),
+    ("Up", {"x": 3, "y": 8}),
+    ("Up", {"x": 3, "y": 7}),
+    ("Up", {"x": 3, "y": 6}),
+]):
+    print("Failed to pass Row 9 after toggling switch!")
+    exit(1)
 
 # Step 2: Walk RIGHT along Row 6 to Column 20 on 3F East (crossing horizontally)
+pos = mgba.get_coordinates()
 if pos == {"x": 3, "y": 6}:
     print("Walking RIGHT along Row 6 to Column 20...")
     steps_east = []
@@ -174,7 +162,6 @@ if pos == {"x": 26, "y": 3}:
     print("Position after dropping to 1F East:", pos)
 
 # Step 6: Walk to B1F East stairs
-# (landing can be (26, 4) or similar)
 if pos == {"x": 26, "y": 4} or pos == {"x": 25, "y": 4}:
     print("Walking to B1F East stairs...")
     steps_to_stairs = []
