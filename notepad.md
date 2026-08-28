@@ -63,10 +63,10 @@
 
 ## Active Party (Verified Turn 19257)
 1. HYDROS (Blastoise) - Lv 63
-   - Stats: Max HP 211 (HP: 49/211)
+   - Stats: Max HP 211 (HP: 0/211 - Fainted from poison in Pokémon Mansion)
    - Type: Water
    - Moves: Double-Edge (8/15), Ice Beam (9/10), Bite (25/25), Surf (15/15)
-   - Role: Primary powerhouse & sweeper (Slot 1 Lead)
+   - Role: Primary powerhouse (Fainted)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
    - Type: Grass / Poison
@@ -81,7 +81,7 @@
    - Stats: Max HP 54 (HP: 54/54)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Physical Rock/Ground tank
+   - Role: Physical Rock/Ground tank & Dig utility
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 62 (HP: 62/62)
    - Type: Normal
