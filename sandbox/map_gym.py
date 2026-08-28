@@ -1,15 +1,17 @@
 import mgba
 import time
 
-def move_and_report(path):
-    for btn in path:
-        print(f"Pressing {btn}...")
-        mgba.press_buttons([btn])
-        time.sleep(0.5)
-        pos = mgba.get_coordinates()
-        print(f"Current Position: {pos}")
-        screenshot = mgba.take_screenshot()
-        print(f"Screenshot saved.")
+def explore_corridor(direction, max_steps):
+    print(f"Starting exploration {direction} from {mgba.get_coordinates()}")
+    for i in range(max_steps):
+        old_pos = mgba.get_coordinates()
+        mgba.press_buttons([direction])
+        time.sleep(0.3)
+        new_pos = mgba.get_coordinates()
+        if old_pos == new_pos:
+            print(f"Blocked at {old_pos} when trying to move {direction}")
+            break
+        print(f"Step {i+1}: moved to {new_pos}")
+        mgba.take_screenshot()
 
-# We are at (5, 16). Let's walk UP up to 5 steps to explore the vertical corridor.
-move_and_report(["Up", "Up", "Up", "Up", "Up"])
+explore_corridor("Up", 10)
