@@ -1474,7 +1474,6 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - Stand at `(2, 12)` facing UP towards the Mewtwo statue switch at `(2, 11)` and toggle it to State B! (Select YES).
 
 4. **Cross 3F West to 3F East & Drop to 1F East:**
-
    - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)` (walk UP Row 3 to get to Row 4).
    - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 4)`.
 
@@ -1482,7 +1481,8 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
    - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 2)`).
    - On B1F East, walk horizontally along Row 5 across Column 9 gate (now open in State B) directly to B1F West at `(1, 5)`.
    - Stand at `(1, 5)` facing UP and retrieve the Secret Key at `(1, 4)`!
-   - Escape via DIG back to Cinnabar Island.
+   - Escape via walkout or foot exit (walking horizontally on B1F East, then warping UP to 1F East inside the gated room, walking UP Column 13 Row 5 which is open in State B, and exiting the mansion).
+
 ---
 
 ## Verified Switch Mechanics & Spatial Constraints (Turn 58016)
@@ -1510,6 +1510,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
   - Choose YES to toggle the switch.
   - The switch can ONLY be interacted with from the bottom (standing at `(2, 12)` facing UP). Interaction from the left side (standing at `(1, 11)` facing RIGHT) is completely non-interactive. It will select "NO" by default or ignore A presses, leaving the mansion stuck in State A.
   - This direction-dependence is a hardcoded Gen 1 engine quirk of this specific switch.
+
 ## The Verified State B 2F West to 3F East Bypass Route (Verified Turn 59714)
 The gate at `(6, 7)` on 2F West is CLOSED in State B, so we cannot walk UP Column 6 past Row 8.
 However, Column 5 on 2F West is completely OPEN vertically in State B (since there are no cabinets or shutter gates blocking Column 5 on Rows 3-11).
@@ -1526,26 +1527,12 @@ Thus, the correct State B bypass route on 2F is:
 ## Decorative Mewtwo Statues (No Switches)
 - **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
 
-
 ## Verified 3F West Switch Statue Interaction Coordinates (Turn 60244)
-- **Switch Statue Coordinate:** `(2, 12)` on 3F West.
-- **Player Standing Position:** `(2, 13)` facing UP.
-- **Interaction:** Press A from `(2, 13)` facing UP to toggle.
-- **Rubble block at (2, 12):** The statue pedestal at `(2, 12)` behaves as a solid block/rubble obstacle from all other sides.
+- **Switch Statue Coordinate:** `(2, 11)` on 3F West.
+- **Player Standing Position:** `(2, 12)` facing UP.
+- **Interaction:** Press A from `(2, 12)` facing UP to toggle.
+- **Rubble block at (2, 11):** The statue pedestal at `(2, 11)` behaves as a solid block/rubble obstacle from all other sides.
 
-
-## Verified 3F West Switch Statue Interaction Coordinates
-- **Switch Statue Coordinate:** Coordinates at `(1, 12)` on 3F West (verified on Turn 61072).
-  - Standing Position: Stand at `(1, 13)` facing UP towards `(1, 12)`.
-  - Interaction: Press A to open dialogue, select YES, and press A again to dismiss.
-- **Walkable Pathways & Gates:**
-  - Shutter Gate at `(6, 9)` and `(1, 9)` on 3F West: OPEN in State B, CLOSED in State A.
-  - Column 1 has a permanent wall at `(1, 9)`. Thus, Column 1 is blocked at Row 9.
-  - Column 2 is completely open vertically on Rows 6-13, allowing players to bypass the solid statue at `(1, 12)` by walking along Column 2.
-  - Collision Obstacle: Since the statue at `(1, 12)` is solid, Column 1 is blocked at Row 12 in both State A and State B!
-  - **Bypass Route (Column 2 Row 13):** From `(1, 13)`, walk RIGHT to `(2, 13)`, and walk UP Column 2 directly to Row 6 `(2, 6)` (this bypasses the solid statue at `(1, 12)` completely on Column 2, which is open floor!).
-- Shutter Gate at (6, 9) and (1, 9): OPEN in State B, CLOSED in State A.
-- Column 6/7 Row 9 is blocked by a permanent solid structural wall on 3F West. To cross from the southern hallway to the northern rooms of 3F West, you MUST walk along Column 2 through the Row 9 gate which is OPEN in State B.
 ## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
 - Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
   - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
@@ -1561,16 +1548,6 @@ Thus, the correct State B bypass route on 2F is:
   3. 3rd A: Select YES -> triggers switch and opens "Who wouldn't?" (or "Toggled!" or similar).
   4. 4th A: Dismiss the final text box -> **The gates will only physically open/close after this final box is dismissed and the player is back in the overworld!**
 - If you only press A 3 times, the dialogue box remains on screen showing "Who wouldn't?", blocking all movement and keeping the gates closed!
-
-## 🗺️ Verified 3F West Switch & Path Coordinates (Turn 62492)
-- **Switch Location:** `(2, 11)` on 3F West (the statue).
-- **Standing Position:** `(2, 12)` facing UP.
-- **Path from stairs (7, 10) to Switch (2, 12):**
-  - From `(7, 10)`, walk DOWN to `(7, 11)`.
-  - Walk LEFT along Row 11 to Column 3 `(3, 11)` (bypassing the solid statue at `(2, 11)`).
-  - Walk DOWN Column 3 to `(3, 12)`.
-  - Walk LEFT to `(2, 12)`.
-  - Walk UP to face the statue at `(2, 11)`.
 
 ## 🎒 Inventory & Escape Status Verification (Turn 62492)
 - We verified by manually opening the in-game Bag on Turn 62483 and saving screenshots (`real_bag_p1.png`, `real_bag_p2.png`) that we currently have **7 items** and **NO Secret Key** in our Bag.
