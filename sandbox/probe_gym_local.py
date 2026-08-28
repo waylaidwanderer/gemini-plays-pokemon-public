@@ -5,18 +5,17 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting central-upper channel probe from current position:", get_pos())
+print("Starting Row 1 Leftward search from:", get_pos())
 
-# Steps:
-# 1. Up to (16, 2)
-# 2. Up to (16, 1)
-steps = [
-    ("Up", (16, 2)),
-    ("Up", (16, 1))
-]
-
+# Steps from (16, 1):
+# 1. Left to (15, 1)
+# ...
+# 10. Left to (6, 1)
+steps = []
+for x in range(15, 5, -1):
+    steps.append(("Left", (x, 1)))
+    
 for d, c in steps:
-    # Ensure no battle/dialogue
     mgba.press_buttons(["B"])
     time.sleep(0.1)
     
@@ -27,5 +26,5 @@ for d, c in steps:
     print(f"Tried {d} from {old_pos}. Landed at: {new_pos}")
     
     if new_pos != c:
-        print(f"Offset detected! Expected {c}, got {new_pos}. Aborting.")
+        print(f"Offset/block detected! Expected {c}, got {new_pos}. Aborting.")
         break
