@@ -6,7 +6,8 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-def check_bw_percentage():
+def handle_any_menu_or_battle():
+    time.sleep(0.15)
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
@@ -21,31 +22,36 @@ def check_bw_percentage():
             if is_bw:
                 black_or_white += 1
                 
-    return black_or_white / total_pixels
-
-def handle_any_menu_or_battle():
-    # Loop and check up to 5 times with delays to handle slow battle transitions!
-    for attempt in range(5):
-        percentage = check_bw_percentage()
-        if percentage > 0.90:
-            print(f"Menu/Dialogue/Battle detected! (B/W: {percentage*100:.2f}%, attempt {attempt+1})")
-            # Try pressing B first to dismiss text
-            mgba.press_buttons(["B"])
-            time.sleep(0.4)
-            
-            # Check if still in battle/dialogue
-            percentage2 = check_bw_percentage()
-            if percentage2 > 0.90:
-                print("Still in battle/dialogue. Attempting to RUN...")
-                # Select RUN
-                mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-                time.sleep(1.5)
-                # Dismiss "Escaped" or "Can't escape" text
-                for _ in range(5):
-                    mgba.press_buttons(["B"])
-                    time.sleep(0.3)
-            return True
-        time.sleep(0.2)
+    percentage = black_or_white / total_pixels
+    if percentage > 0.90:
+        print(f"Menu/Dialogue/Battle detected! (B/W: {percentage*100:.2f}%)")
+        # Try pressing B first to dismiss text
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
+        
+        # Check if still in battle/dialogue
+        scr_file2 = mgba.take_screenshot()
+        img2 = Image.open(scr_file2)
+        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
+        black_or_white2 = 0
+        for y in range(115, 140):
+            for x in range(10, 150):
+                r, g, b = img_std2.getpixel((x, y))[:3]
+                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
+                if is_bw:
+                    black_or_white2 += 1
+        percentage2 = black_or_white2 / total_pixels
+        
+        if percentage2 > 0.90:
+            print("Still in battle/dialogue. Attempting to RUN...")
+            # Try pressing Down, Right, A to select RUN
+            mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
+            time.sleep(1.5)
+            # Dismiss any "Escaped" or "Can't escape" text
+            for _ in range(5):
+                mgba.press_buttons(["B"])
+                time.sleep(0.3)
+        return True
     return False
 
 def safe_step(direction, expected_coords=None):
@@ -82,13 +88,14 @@ def run_safe_steps(steps):
 
 print("Start position:", get_pos())
 
-# PART 1: Toggle Mewtwo switch to State B (Exactly 4 A-presses)
-print("Toggling Mewtwo switch...")
-for i in range(4):
-    print(f"Pressing A {i+1}/4...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-print("Switch toggle complete!")
+# PART 1: Dismiss "A secret switch!" and "Not quite yet!" to close dialogue
+print("Dismissing first dialogue...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+
+print("Dismissing second dialogue...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
 
 # PART 2: Walk to (1, 12)
 if not safe_step("Left", (1, 12)):
