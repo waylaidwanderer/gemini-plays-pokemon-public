@@ -78,24 +78,35 @@ def run_safe_steps(steps, skip_battle_check=False):
 
 print("Start position:", get_pos())
 
-# 1. Walk from current position (3, 12) to (2, 12)
-if get_pos() == (3, 12):
-    print("Stepping Left to (2, 12)...")
-    if not safe_step("Left", (2, 12)):
+# 1. Walk from current position (3, 10) to (2, 12)
+pos = get_pos()
+steps_to_switch = []
+if pos == (3, 10):
+    steps_to_switch = [("Down", (3, 11)), ("Down", (3, 12)), ("Left", (2, 12))]
+elif pos == (3, 11):
+    steps_to_switch = [("Down", (3, 12)), ("Left", (2, 12))]
+elif pos == (3, 12):
+    steps_to_switch = [("Left", (2, 12))]
+
+if steps_to_switch:
+    print("Walking to switch statue...")
+    if not run_safe_steps(steps_to_switch):
         print("Failed to reach (2, 12)")
         exit(1)
 
-# 2. Toggle Mewtwo Switch to State B (skip battle checking during toggle)
-print("Turning UP towards the statue at (2, 11)...")
-mgba.press_buttons(["Up"])
-time.sleep(0.6)
-
-print("Toggling Mewtwo switch slowly...")
-for i in range(6):
-    print(f"Pressing A {i+1}/6...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.5)
-print("Switch toggle completed.")
+# 2. Toggle Mewtwo Switch to State B in a single synchronized call (skip battle checking during toggle)
+print("Toggling Mewtwo switch in a single synchronized call...")
+mgba.press_buttons([
+    "Up", "sleep 600",
+    "A", "sleep 1200",
+    "A", "sleep 1200",
+    "A", "sleep 1200",
+    "A", "sleep 1200",
+    "A", "sleep 1200",
+    "A", "sleep 1200"
+])
+time.sleep(8.5)
+print("Synchronized switch toggle sequence completed.")
 
 # 3. Walk to (3, 12) and UP Column 3 to Row 6 (State B opens Row 9)
 steps_to_row_6 = [
