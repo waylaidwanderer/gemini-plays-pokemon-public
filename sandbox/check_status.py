@@ -1,49 +1,42 @@
 import mgba
 import time
 
-def check():
-    # Dismiss any menus or dialogues first
-    mgba.press_buttons(["B", "sleep 200"])
-    
-    # 1. Open start menu
-    print("Opening start menu...")
-    mgba.press_buttons(["Start", "sleep 500"])
-    mgba.take_screenshot()
-    
-    # 2. Let's go down to Trainer Card
-    # On start menu, default is POKEDEX.
-    # Menu layout:
-    # 1. POKEDEX
-    # 2. POKEMON
-    # 3. ITEM
-    # 4. ACE (Trainer name)
-    # 5. SAVE
-    # 6. OPTION
-    # 7. EXIT
-    # To get to Trainer name: Down, Down, Down.
-    print("Going to Trainer Card...")
-    mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "A", "sleep 500"])
-    screenshot_path = mgba.take_screenshot()
-    print("Trainer Card screenshot:", screenshot_path)
-    
-    # Exit Trainer Card
-    mgba.press_buttons(["B", "sleep 500"])
-    
-    # 3. Go to ITEM (it was position 3, so from Trainer Card (position 4) we press Up once)
-    print("Going to ITEM menu...")
-    mgba.press_buttons(["Up", "sleep 200", "A", "sleep 500"])
-    mgba.take_screenshot()
-    
-    # Scroll down to see all items (max 20 items, 7 displayed at once)
-    for i in range(3):
-        print(f"Scrolling down items page {i+1}...")
-        mgba.press_buttons(["Down", "Down", "Down", "Down", "Down", "Down", "Down", "sleep 300"])
-        mgba.take_screenshot()
-        
-    # Exit item menu
-    mgba.press_buttons(["B", "sleep 500"])
-    # Exit start menu
-    mgba.press_buttons(["Start", "sleep 500"])
-    print("Check complete!")
+print("Opening Trainer Card...")
+# Press Start
+mgba.press_buttons(["Start"])
+time.sleep(0.6)
 
-check()
+# Press A on player name (first option)
+mgba.press_buttons(["A"])
+time.sleep(1.2)
+
+# Take screenshot of Trainer Card
+img1 = mgba.take_screenshot()
+print("Trainer Card screenshot taken:", img1)
+
+# Press B to close Trainer Card
+mgba.press_buttons(["B"])
+time.sleep(0.6)
+
+# Press Down, Down to BAG, then A
+mgba.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A"])
+time.sleep(1.2)
+
+# Take screenshot of Bag
+img2 = mgba.take_screenshot()
+print("Bag screenshot 1 taken:", img2)
+
+# Scroll down to see the rest of the Bag
+for _ in range(5):
+    mgba.press_buttons(["Down"])
+    time.sleep(0.2)
+    
+# Take screenshot of Bag bottom
+img3 = mgba.take_screenshot()
+print("Bag screenshot 2 taken:", img3)
+
+# Close Bag and Menu
+mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+time.sleep(0.6)
+
+print("Status check complete.")
