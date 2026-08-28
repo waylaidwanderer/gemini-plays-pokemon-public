@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 2F (11, 2) [Turn 18782]; In battle against wild Muk; executing Surf then proceeding to 3F to execute balcony drop.
+- Location: Pokémon Mansion 2F (11, 6) [Turn 18789]; Ascending to 3F via (7, 10) stairs to reach 3F switch & balcony.
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
