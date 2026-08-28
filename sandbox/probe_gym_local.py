@@ -5,24 +5,16 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting Giovanni search from:", get_pos())
+print("Starting Giovanni search to the right from current position:", get_pos())
 
-# Steps:
-# 1. Down to (18, 2)
-# 2. Down to (18, 3)
-# 3. Left to (17, 3)
-# 4. Left to (16, 3)
-# 5. Left to (15, 3)
-# 6. Left to (14, 3)
-steps = [
-    ("Down", (18, 2)),
-    ("Down", (18, 3)),
-    ("Left", (17, 3)),
-    ("Left", (16, 3)),
-    ("Left", (15, 3)),
-    ("Left", (14, 3))
-]
-
+# Steps from (14, 3):
+# 1. Right to (15, 3)
+# ...
+# 7. Right to (21, 3)
+steps = []
+for x in range(15, 22):
+    steps.append(("Right", (x, 3)))
+    
 for d, c in steps:
     mgba.press_buttons(["B"])
     time.sleep(0.1)
