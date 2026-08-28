@@ -72,53 +72,20 @@ def run_safe_steps(steps):
     return True
 
 print("Start position:", get_pos())
-
-# 1. Walk from (10, 6) to Column 20 Row 6 on 3F East
-steps_row_6 = []
-for x in range(11, 21):
-    steps_row_6.append(("Right", (x, 6)))
-print("Walking RIGHT to Column 20...")
-if not run_safe_steps(steps_row_6):
-    print("Failed walking RIGHT to Column 20")
-    exit(1)
-
-# 2. Walk UP Column 20 to Row 3
-steps_to_row_3 = [
-    ("Up", (20, 5)),
-    ("Up", (20, 4)),
-    ("Up", (20, 3)),
-]
-print("Walking UP Column 20 to Row 3...")
-if not run_safe_steps(steps_to_row_3):
-    print("Failed walking UP Column 20")
-    exit(1)
-
-# 3. Walk RIGHT along Row 3 to Column 26
-steps_row_3 = []
-for x in range(21, 27):
-    steps_row_3.append(("Right", (x, 3)))
-print("Walking RIGHT along Row 3 to Column 26...")
-if not run_safe_steps(steps_row_3):
-    print("Failed walking along Row 3")
-    exit(1)
-
-# 4. Step DOWN to drop through the pitfall to 1F East inside the fenced room
-print("Dropping through the pitfall to 1F East...")
-if not safe_step("Down", (26, 4)):
-    print("Failed to drop through the pitfall")
-    exit(1)
-time.sleep(2.5)
 pos = get_pos()
-print("Landed on 1F East. Position:", pos)
 
-# 5. Walk LEFT to stairs and warp DOWN to B1F East
+# 7. Walk LEFT to stairs and warp DOWN to B1F East (from current position 26, 4)
 if pos == (26, 4) or pos == (25, 4):
     print("Walking to B1F East stairs...")
-    steps_to_stairs = []
-    current_x = pos[0]
-    for x in range(current_x - 1, 21, -1):
-        steps_to_stairs.append(("Left", (x, 4)))
-    steps_to_stairs.append(("Up", (22, 3)))
+    steps_to_stairs = [
+        ("Down", (26, 5)),
+        ("Left", (25, 5)),
+        ("Left", (24, 5)),
+        ("Left", (23, 5)),
+        ("Left", (22, 5)),
+        ("Up", (22, 4)),
+        ("Up", (22, 3)),
+    ]
     if not run_safe_steps(steps_to_stairs):
         print("Failed to reach stairs")
         exit(1)
@@ -129,7 +96,7 @@ if pos == (26, 4) or pos == (25, 4):
     pos = get_pos()
     print("Position after warping down to B1F East:", pos)
 
-# 6. Cross B1F East to B1F West NORTH and retrieve Secret Key
+# 8. Cross B1F East to B1F West NORTH and retrieve Secret Key
 if pos == (22, 3) or pos == (22, 2):
     print("Crossing B1F East to B1F West NORTH...")
     if pos[1] == 2:
@@ -156,7 +123,7 @@ if pos == (22, 3) or pos == (22, 2):
         exit(1)
     pos = get_pos()
 
-# 7. Pick up the Secret Key!
+# 9. Pick up the Secret Key!
 if pos == (1, 5):
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
