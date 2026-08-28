@@ -136,3 +136,21 @@ Thus, the correct State B bypass route on 2F is:
 - We verified by manually opening the in-game Bag on Turn 62483 and saving screenshots (`real_bag_p1.png`, `real_bag_p2.png`) that we currently have **7 items** and **NO Secret Key** in our Bag.
 - Therefore, we must toggle the 3F West switch to State B, walk through the open gate, drop through the 3F East pitfall, go to B1F West NORTH, and retrieve the Secret Key.
 - Once retrieved, we can walk out on foot via the open Row 5 gates on 1F (West to East) to exit the Mansion completely without needing DIG.
+
+## 🔍 Verified 3F West Switch Dialogue & Gate Openness Mechanics (Turn 64785)
+- **Dialogue Sequence to Toggle Switch exactly ONCE to State B:**
+  - Stand at `(2, 12)` facing UP towards the statue at `(2, 11)`.
+  - Press exactly **4 A-presses** with normal delays:
+    1. 1st A: Opens dialogue box showing `A secret switch!`.
+    2. 2nd A: Advances to `Who would press it?` YES/NO (YES is selected by default).
+    3. 3rd A: Selects YES (Mansion toggles to State B!). Advances to `Who wouldn't?`.
+    4. 4th A: Closes the dialogue box completely, returning player to the overworld in State B!
+  - **WARNING:** Do NOT press A a 5th time, as that immediately re-interacts with the statue, re-opening the dialogue box and leaving it active.
+  - **WARNING:** If a script starts while a dialogue box is active, the battle handler may mistake the YES/NO prompt for a battle menu, press "Down, Right, A" (to select RUN), which instead selects "NO" and toggles the Mansion back to State A! Always ensure the overworld is completely active and clean before executing movement scripts.
+
+- **Gate Column 1 Row 9 is the OPEN gate in State B:**
+  - In State B, the Row 9 gate on **Column 1** `(1, 9)` is completely open and walkable!
+  - Column 2 is blocked by the solid Mewtwo statue head graphic at `(2, 10)` and base at `(2, 11)`.
+  - Column 3 is closed in State B (the gate on Column 3 Row 9 does not open in State B).
+  - Therefore, the correct path to cross 3F West to Row 6 in State B is:
+    `From (2, 12), walk Left to (1, 12), then Up Column 1 all the way to (1, 6) (passing through the open gate at (1, 9)!)`.
