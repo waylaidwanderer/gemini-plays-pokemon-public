@@ -2,15 +2,15 @@
 
 ## Active Party (Verified Turn 19257)
 1. HYDROS (Blastoise) - Lv 63
-   - Stats: Max HP 211 (HP: 0/211 - Fainted from poison in Pokémon Mansion)
+   - Stats: Max HP 211 (HP: 0/211 - Fainted)
    - Type: Water
-   - Moves: Double-Edge (8/15), Ice Beam (9/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (6/15), Ice Beam (9/10), Bite (25/25), Surf (12/15)
    - Role: Primary powerhouse (Fainted)
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46)
+   - Stats: Max HP 46 (HP: 0/46 - Fainted in wild combat)
    - Type: Grass / Poison
    - Moves: PoisonPowder, Rest, Wrap, Cut
-   - Role: Active combatant & Cut utility
+   - Role: Active combatant & Cut utility (Fainted)
 3. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
    - Type: Fighting
@@ -25,7 +25,7 @@
    - Stats: Max HP 62 (HP: 62/62)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
-   - Role: Special Sweeper reserve
+   - Role: Special Sweeper reserve & Active combatant
 6. ZEPHYR (Pidgey) - Lv 20
    - Stats: Max HP 58 (HP: 58/58)
    - Type: Normal / Flying
