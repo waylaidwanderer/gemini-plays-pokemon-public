@@ -1719,14 +1719,15 @@ Thus, the correct State B bypass route on 2F is:
 - Use Python scripts to probe walkability of adjacent tiles.
 - Trace safe paths to avoid getting spun out of bounds or into unwanted trainer fights before we are ready.
 - Locate Giovanni (usually at the top center/right).
-## Walkability Discoveries inside Viridian Gym (Updated Turn 64255)
-- **Start Position:** Entrance at `(5, 15)` or `(6, 15)`. We started at `(6, 15)`.
-- **(6, 14) Defeated Trainer:** Defeated the level 35 Grimer trainer at `(6, 14)` (which was triggered/fought at `(7, 15)` on Turn 64231). This trainer remains as a solid block at `(6, 14)` facing DOWN.
-- **Walkable Tiles (Column 5):**
-  - Going LEFT from `(6, 15)` to `(5, 15)` is completely walkable.
-  - From `(5, 15)`, we can walk vertically UP Column 5 all the way to `(5, 8)` without blockage or spin.
-  - The tile `(5, 8)` is BLOCKED going UP.
-- **Gym Guide:** SPRITE_cdfc (Gym Guide) is currently wandering around Row 11: `(6, 11) -> (4, 11) -> (5, 11) -> (6, 11) -> (7, 11) -> (8, 11) -> (9, 11)`.
+## Gym Inhabitants & Defeated Trainers
+- **(6, 14) Defeated Trainer:** Defeated the level 35 Grimer trainer at `(6, 14)` (fought at `(7, 15)` on Turn 64231). This trainer remains as a solid block at `(6, 14)` facing DOWN.
+- **Gym Guide:** SPRITE_cdfc (Gym Guide) wanders around Row 11: `(6, 11) -> (4, 11) -> (5, 11) -> (6, 11) -> (7, 11) -> (8, 11) -> (9, 11)`.
+
+## One-Way Spinner Transitions (Discovered Ground Truth)
+- **(11, 4) going Right:** Spins and pushes the player to `(12, 5)`.
+- **(15, 6) going Right:** Spins and pushes the player to `(17, 6)`.
+- **(16, 3) going Right:** Spins and pushes the player to `(17, 4)`.
+- **(15, 5) going Right:** Spins and pushes the player to `(17, 6)`.
 
 ## Discovered Walkable Paths summary (Turn 65163)
 - **Identified Safe Paths on the Platform:**
