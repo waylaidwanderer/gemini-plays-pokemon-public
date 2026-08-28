@@ -1747,8 +1747,6 @@ Thus, the correct State B bypass route on 2F is:
 
 ## Gym Layout Notes
 - The Gym contains one-way spinner (arrow) tiles.
-- (6, 12) is a LEFT spinner tile.
-- Row 13, Columns 6 and 7 are occupied by gold wall blocks.
 - Columns 2 and 3 are occupied by walls/obstacles.
 
 ## Exploration Plan
