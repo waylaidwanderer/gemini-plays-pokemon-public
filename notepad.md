@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 2F (West Corridor, Position: (5, 11))
+- Location: Pokémon Mansion 1F (North Corridor, Position: (12, 8))
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -2390,7 +2390,7 @@
 2. North Landing Sector connects via row 10 (9, 10) gap directly to 1F/2F stairs at (5, 10).
 3. Toggled 2F Mewtwo statue switch at (2, 11) to State A.
 4. In State A, 1F shutter gate at (24..25, 13) is OPEN.
-5. Descending 1F stairs to enter South Wing, traverse to (24, 13), pass through open shutter into Northeast Chamber, and descend staircase to B1F!
+5. On 1F (State A), traverse via (12, 6) -> (17, 6) -> (17, 14) into South Wing, walk to (24, 16) -> (24, 13), pass through open shutter into Northeast Chamber, and descend to B1F!
 
 
 <hr>
