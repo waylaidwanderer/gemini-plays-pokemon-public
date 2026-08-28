@@ -73,42 +73,103 @@ def run_safe_steps(steps):
 
 print("Starting solve_from_battle.py...")
 
-# 1. RUN from the wild Vulpix
+# 1. RUN from the wild Ponyta
 run_from_battle()
 time.sleep(1.0)
 
 pos = get_pos()
 print("Position after escaping battle:", pos)
 
-# 2. Walk to Column 26 Row 3
-steps_to_row_3 = [
-    ("Right", (25, 5)),
-    ("Right", (26, 5)),
-    ("Up", (26, 4)),
-    ("Up", (26, 3)), # Testing if we can walk Up through the landing tile!
-]
+# 2. Walk to Column 3 Row 10
+# Current position should be (2, 13)
+if pos == (2, 13):
+    steps_to_col_3 = [
+        ("Right", (3, 13)),
+        ("Right", (4, 13)),
+        ("Up", (4, 12)),
+        ("Up", (4, 11)),
+        ("Left", (3, 11)),
+        ("Up", (3, 10)),
+    ]
+    print("Walking to Column 3 Row 10...")
+    if not run_safe_steps(steps_to_col_3):
+        print("Failed to reach Column 3 Row 10")
+        exit(1)
 
-if not run_safe_steps(steps_to_row_3):
-    print("Failed to reach Row 3 Column 26")
+# 3. Walk UP Column 3 through open gate to Row 6 (gate at (3, 9) is OPEN in State B!)
+print("Walking UP through Column 3 gate to Row 6...")
+steps_up_gate = [
+    ("Up", (3, 9)),
+    ("Up", (3, 8)),
+    ("Up", (3, 7)),
+    ("Up", (3, 6)),
+]
+if not run_safe_steps(steps_up_gate):
+    print("Failed walking UP Column 3")
     exit(1)
 
-# 3. Walk Left to B1F stairs
-steps_to_stairs = [
-    ("Left", (25, 3)),
-    ("Left", (24, 3)),
-    ("Left", (23, 3)),
-    ("Left", (22, 3)),
-]
-print("Walking to B1F East stairs...")
-if not run_safe_steps(steps_to_stairs):
-    print("Failed to reach B1F stairs")
-    exit(1)
+# 4. Walk RIGHT along Row 6 to Column 20
+print("Walking RIGHT along Row 6 to Column 20...")
+pos = get_pos()
+while pos[0] < 20:
+    pos = step("Right")
 
-# 4. Step UP to warp down
-print("Stepping UP onto stairs to warp DOWN...")
+# 5. Walk UP Column 20 to Row 3
+print("Walking UP Column 20 to Row 3...")
+while get_pos()[1] > 3:
+    step("Up")
+
+# 6. Walk RIGHT along Row 3 to Column 26
+print("Walking RIGHT along Row 3 to Column 26...")
+while get_pos()[0] < 26:
+    step("Right")
+
+# 7. Drop through the pitfall to 1F East inside the fenced room
+print("Dropping through the pitfall to 1F East...")
+step("Down")
+time.sleep(2.5)
+pos = get_pos()
+print("Landed on 1F East:", pos)
+
+# 8. Walk to B1F East stairs and warp down
+if pos[1] == 4:
+    step("Down")
+pos = get_pos()
+while pos[0] > 22:
+    pos = step("Left")
+while pos[1] > 3:
+    pos = step("Up")
+
+print("Stepping UP to warp down to B1F East...")
 mgba.press_buttons(["Up"])
 time.sleep(2.0)
-
 pos = get_pos()
 print("Position on B1F East:", pos)
+
+# 9. Cross B1F East to B1F West NORTH
+if pos[1] == 2:
+    step("Down")
+# Walk to Column 21
+step("Left")
+# Down to Row 5
+step("Down")
+step("Down")
+# Left to Column 1
+pos = get_pos()
+while pos[0] > 1:
+    pos = step("Left")
+
+# 10. Retrieve Secret Key!
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(1.0)
+
+print("Retrieving Secret Key...")
+mgba.press_buttons(["A"])
+time.sleep(2.0)
+for _ in range(5):
+    mgba.press_buttons(["B"])
+    time.sleep(0.4)
+
+print("Mansion fully solved! Current Position:", get_pos())
 mgba.take_screenshot()
