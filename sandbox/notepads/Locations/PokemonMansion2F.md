@@ -13,10 +13,15 @@
 - Main South Corridor: (4..7, 10..27) red carpet hallway.
 - Connecting East-West Corridor: Row 11 (cols 4-12) connects main hall to column 12 thoroughfare.
 
-### Northwest Room (Stairs to 3F)
+### Northwest Room
 - Boundaries: cols 1-8, rows 1-7
-- Stairs up to 3F: Located at (6, 1). Accessible by walking west along row 1 from column 12.
-- Arrival on 3F: Warps to 3F at (6, 2). (NOTE: Do NOT press Down upon arrival on 3F, as Down re-triggers the descending staircase back to 2F. Walk East towards col 10).
+- Interior: Rubble, table at rows 4-5, statue at (2, 4..5).
+- Note: Thoroughfare along row 1 (cols 4-12).
+
+### Stairs to 3F
+- Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)).
+- Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10).
+- Arrival on 3F: Southwest Wing at (7, 10) / (7, 11).
 
 ### East Wing (Explored Turns 18593-18750)
 - Thoroughfare Column 12: Unobstructed north-south corridor connecting row 11 to row 1, bypassing all rubble at rows 8-9.
