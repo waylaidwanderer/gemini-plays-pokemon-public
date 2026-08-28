@@ -5,47 +5,64 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting local probe from (4, 13)...")
+print("Starting local probe from (9, 11)...")
 
-# 1. Walk to (5, 12) via (5, 13)
+# 1. Step Right to (10, 11)
 mgba.press_buttons(["Right"])
 time.sleep(0.55)
 pos = get_pos()
-if pos == (5, 13):
+print("Tried Right from (9, 11). Landed at:", pos)
+
+if pos == (10, 11):
+    # 2. Test Right to (11, 11)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.55)
+    pos2 = get_pos()
+    print("Tried Right from (10, 11). Landed at:", pos2)
+    if pos2 == (11, 11):
+        mgba.press_buttons(["Left"])
+        time.sleep(0.55)
+    elif pos2 != (10, 11):
+        print(f"SPUN from (10, 11) Right to {pos2}")
+        exit(0)
+        
+    # 3. Test Up to (10, 10)
     mgba.press_buttons(["Up"])
     time.sleep(0.55)
-    pos = get_pos()
-    if pos == (5, 12):
-        print("At (5, 12), testing Right to (6, 12) (possible LEFT spinner)...")
-        mgba.press_buttons(["Right"])
-        time.sleep(0.55)
-        pos2 = get_pos()
-        print("Tried Right from (5, 12). Landed at:", pos2)
-        
-        # If we didn't spin, step back Left to (5, 12)
-        if pos2 == (6, 12):
-            mgba.press_buttons(["Left"])
-            time.sleep(0.55)
-        elif pos2 != (5, 12):
-            # We got spun! The player was pushed by the spinner!
-            print(f"SPINNER ENCOUNTERED at (6, 12)! We got spun to {pos2}!")
-            exit(0)
-            
-        # Test UP to (5, 11)
-        print("At (5, 12), testing Up to (5, 11)...")
+    pos3 = get_pos()
+    print("Tried Up from (10, 11). Landed at:", pos3)
+    if pos3 == (10, 10):
+        # 4. Test Up to (10, 9)
         mgba.press_buttons(["Up"])
         time.sleep(0.55)
-        pos3 = get_pos()
-        print("Tried Up from (5, 12). Landed at:", pos3)
-        if pos3 == (5, 11):
+        pos4 = get_pos()
+        print("Tried Up from (10, 10). Landed at:", pos4)
+        if pos4 == (10, 9):
             mgba.press_buttons(["Down"])
             time.sleep(0.55)
+        elif pos4 != (10, 10):
+            print(f"SPUN from (10, 10) Up to {pos4}")
+            exit(0)
             
-        # Walk back Down to (5, 13)
+        # 5. Test Right to (11, 10)
+        pos_current = get_pos()
+        if pos_current == (10, 10):
+            mgba.press_buttons(["Right"])
+            time.sleep(0.55)
+            pos5 = get_pos()
+            print("Tried Right from (10, 10). Landed at:", pos5)
+            if pos5 == (11, 10):
+                mgba.press_buttons(["Left"])
+                time.sleep(0.55)
+            elif pos5 != (10, 10):
+                print(f"SPUN from (10, 10) Right to {pos5}")
+                exit(0)
+                
+        # Walk back Down to (10, 11)
         mgba.press_buttons(["Down"])
         time.sleep(0.55)
         
-    # Walk back Left to (4, 13)
+    # Walk back Left to (9, 11)
     mgba.press_buttons(["Left"])
     time.sleep(0.55)
 
