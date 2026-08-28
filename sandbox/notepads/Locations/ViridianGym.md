@@ -4,10 +4,6 @@
 - Unlocked! Entered Gym on Turn 64190.
 - Goal: Defeat Giovanni for the Earth Badge (8th Badge).
 
-## Current Position
-- Player is at `(5, 12)` inside the Viridian Gym.
-- Gym Guide is currently wandering near `(6, 11)`.
-
 ## Gym Layout Notes
 - The Gym contains one-way spinner (arrow) tiles.
 - Columns 2 and 3 are occupied by walls/obstacles.
