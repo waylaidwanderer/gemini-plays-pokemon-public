@@ -6,216 +6,164 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-def handle_any_menu_or_battle():
-    time.sleep(0.15)
+def check_dialogue_or_battle():
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
     
-    black_or_white = 0
+    white_pixels = 0
     total_pixels = 0
-    for y in range(115, 140):
-        for x in range(10, 150):
+    for y in range(112, 144):
+        for x in range(8, 152):
             r, g, b = img_std.getpixel((x, y))[:3]
             total_pixels += 1
-            is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
-            if is_bw:
-                black_or_white += 1
+            if r > 220 and g > 220 and b > 220:
+                white_pixels += 1
                 
-    percentage = black_or_white / total_pixels
-    if percentage > 0.90:
-        print(f"Menu/Dialogue/Battle detected! (B/W: {percentage*100:.2f}%)")
-        # Try pressing B first to dismiss text
-        mgba.press_buttons(["B"])
-        time.sleep(0.4)
-        
-        # Check if still in battle/dialogue
-        scr_file2 = mgba.take_screenshot()
-        img2 = Image.open(scr_file2)
-        img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
-        black_or_white2 = 0
-        for y in range(115, 140):
-            for x in range(10, 150):
-                r, g, b = img_std2.getpixel((x, y))[:3]
-                is_bw = (r < 50 and g < 50 and b < 50) or (r > 200 and g > 200 and b > 200)
-                if is_bw:
-                    black_or_white2 += 1
-        percentage2 = black_or_white2 / total_pixels
-        
-        if percentage2 > 0.90:
-            print("Still in battle/dialogue. Attempting to RUN...")
-            # Try pressing Down, Right, A to select RUN
-            mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-            time.sleep(1.5)
-            # Dismiss any "Escaped" or "Can't escape" text
-            for _ in range(5):
-                mgba.press_buttons(["B"])
-                time.sleep(0.3)
-        return True
-    return False
+    ratio = white_pixels / total_pixels
+    return ratio > 0.80
 
-def safe_step(direction, expected_coords=None):
-    old_pos = get_pos()
-    mgba.press_buttons([direction])
-    time.sleep(0.45)
-    new_pos = get_pos()
-    
-    if new_pos != old_pos:
-        if expected_coords and new_pos != expected_coords:
-            print(f"Moved {direction} but landed at unexpected position: {new_pos} (expected {expected_coords})")
-        else:
-            print(f"Successfully stepped {direction} to {new_pos}")
-        return True
+def run_from_battle():
+    print("Dismissing battle intro text...")
+    for i in range(12):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
         
-    # If we didn't move, check for battle or dialogue
-    if handle_any_menu_or_battle():
-        print(f"Handled battle/dialogue. Retrying step {direction}...")
+    print("Attempting to select RUN...")
+    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
+    time.sleep(2.0)
+    
+    print("Dismissing escape dialogue...")
+    for _ in range(8):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+
+def safe_step(direction, expected_coords=None, max_attempts=15):
+    for attempt in range(max_attempts):
+        if check_dialogue_or_battle():
+            print("Dialogue/Battle detected. Handling...")
+            run_from_battle()
+            time.sleep(0.5)
+            continue
+            
+        old_pos = get_pos()
         mgba.press_buttons([direction])
-        time.sleep(0.45)
+        time.sleep(0.55)
         new_pos = get_pos()
+        
         if new_pos != old_pos:
-            print(f"Successfully stepped {direction} to {new_pos} after retry")
+            if expected_coords and new_pos != expected_coords:
+                print(f"Moved {direction} to {new_pos} (expected {expected_coords}). Checking...")
+            else:
+                print(f"Successfully stepped {direction} to {new_pos}")
             return True
             
-    print(f"BLOCKED: Could not step {direction} from {old_pos}")
+        print(f"Collision/delay at {old_pos} trying {direction} (attempt {attempt+1}/{max_attempts})")
+        time.sleep(0.25)
+        
+    print(f"ERROR: Could not step {direction} from {old_pos}")
     return False
 
-def run_safe_steps(steps):
-    for d, c in steps:
-        if not safe_step(d, c):
-            return False
-    return True
+# Starting at (2, 13) on 3F West (State B)
+print("Starting definitive Mansion solution from current position:", get_pos())
 
-print("Start position:", get_pos())
-
-# PART 1: Dismiss "A secret switch!" and "Not quite yet!" to close dialogue
-print("Dismissing first dialogue...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
-print("Dismissing second dialogue...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
-# PART 2: Walk to (1, 12)
-if not safe_step("Left", (1, 12)):
-    print("Failed to step Left to (1, 12)")
-    exit(1)
-
-# PART 3: Walk UP Column 1 to Row 6 (which is now open in State B!)
-steps_up_col_1 = [
-    ("Up", (1, 11)),
-    ("Up", (1, 10)),
-    ("Up", (1, 9)),
-    ("Up", (1, 8)),
-    ("Up", (1, 7)),
-    ("Up", (1, 6)),
-]
-print("Walking UP Column 1 to Row 6...")
-if not run_safe_steps(steps_up_col_1):
-    print("Failed walking UP Column 1")
-    exit(1)
-
-# PART 4: Walk RIGHT along Row 6 to Column 20
-steps_row_6 = []
-for x in range(2, 21):
-    steps_row_6.append(("Right", (x, 6)))
-print("Walking RIGHT along Row 6 to Column 20...")
-if not run_safe_steps(steps_row_6):
-    print("Failed walking RIGHT along Row 6")
-    exit(1)
-
-# PART 5: Walk UP Column 20 to Row 3
-steps_col_20 = [
-    ("Up", (20, 5)),
-    ("Up", (20, 4)),
-    ("Up", (20, 3)),
-]
-print("Walking UP Column 20 to Row 3...")
-if not run_safe_steps(steps_col_20):
-    print("Failed walking UP Column 20")
-    exit(1)
-
-# PART 6: Walk RIGHT along Row 3 to Column 26
-steps_row_3 = []
+# 1. Walk Right to (5, 13)
+for x in range(3, 6):
+    if not safe_step("Right", (x, 13)):
+        print("Failed to go Right on Row 13")
+        exit(1)
+        
+# 2. Walk Up Column 5 to Row 6
+for y in range(12, 5, -1):
+    if not safe_step("Up", (5, y)):
+        print("Failed to go Up Column 5")
+        exit(1)
+        
+# 3. Walk Right along Row 6 to Column 20
+for x in range(6, 21):
+    if not safe_step("Right", (x, 6)):
+        print("Failed to go Right on Row 6")
+        exit(1)
+        
+# 4. Walk Up Column 20 to Row 3
+for y in range(5, 2, -1):
+    if not safe_step("Up", (20, y)):
+        print("Failed to go Up Column 20")
+        exit(1)
+        
+# 5. Walk Right along Row 3 to Column 26
 for x in range(21, 27):
-    steps_row_3.append(("Right", (x, 3)))
-print("Walking RIGHT along Row 3 to Column 26...")
-if not run_safe_steps(steps_row_3):
-    print("Failed walking RIGHT along Row 3")
+    if not safe_step("Right", (x, 3)):
+        print("Failed to go Right on Row 3")
+        exit(1)
+        
+# 6. Drop through pitfall to 1F East
+print("Stepping Down to drop through the pitfall...")
+if not safe_step("Down"):
+    print("Failed to drop through pitfall")
     exit(1)
-
-# PART 7: Step DOWN to drop through the pitfall to 1F East inside the fenced room
-print("Stepping DOWN to drop through the pitfall to 1F East...")
-mgba.press_buttons(["Down"])
 time.sleep(2.5)
 pos = get_pos()
-print("Position after dropping to 1F East:", pos)
+print("Landed on 1F East inside fenced room:", pos)
 
-# PART 8: On 1F East inside fenced room, walk to stairs and warp DOWN to B1F East
-if pos == (26, 4) or pos == (25, 4):
-    print("Walking to B1F East stairs...")
-    steps_to_stairs = []
-    current_x = pos[0]
-    for x in range(current_x - 1, 21, -1):
-        steps_to_stairs.append(("Left", (x, 4)))
-    steps_to_stairs.append(("Up", (22, 3)))
-    if not run_safe_steps(steps_to_stairs):
-        print("Failed to reach stairs at (22, 3)")
+# 7. Step Down to (26, 5) or similar if needed to exit landing tile
+if pos[1] == 4:
+    if not safe_step("Down"):
+        print("Failed to step Down from landing tile")
         exit(1)
         
-    print("Stepping UP to warp down to B1F East...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-    pos = get_pos()
-    print("Position after warping down to B1F East:", pos)
-
-# PART 9: Cross B1F East to B1F West NORTH and retrieve Secret Key
-if pos == (22, 3) or pos == (22, 2):
-    print("Crossing B1F East to B1F West NORTH...")
-    if pos[1] == 2:
-        safe_step("Down")
-        pos = get_pos()
-        
-    if not run_safe_steps([
-        ("Down", (22, 4)),
-        ("Left", (21, 4)),
-        ("Left", (20, 4)),
-        ("Left", (19, 4)),
-        ("Down", (19, 5)),
-    ]):
-        print("Failed to reach B1F Row 5")
-        exit(1)
-        
-    steps_left = []
-    for x in range(18, 0, -1):
-        steps_left.append(("Left", (x, 5)))
-    if not run_safe_steps(steps_left):
-        print("Failed to reach Secret Key room")
+# 8. Walk Left to Column 22 Row 2 and warp DOWN to B1F East
+pos = get_pos()
+while pos[0] > 22:
+    if not safe_step("Left"):
         exit(1)
     pos = get_pos()
+while pos[1] > 3:
+    if not safe_step("Up"):
+        exit(1)
+    pos = get_pos()
+    
+print("Stepping UP to warp down to B1F East...")
+mgba.press_buttons(["Up"])
+time.sleep(2.0)
+pos = get_pos()
+print("Position on B1F East after warping:", pos)
 
-# PART 10: Pick up the Secret Key!
+# 9. Walk to Column 19 Row 5 via Row 4 to bypass Row 5 Column 20-21 closed gates
+if pos[1] == 2:
+    if not safe_step("Down"):
+        exit(1)
+if not safe_step("Left", (21, 3)):
+    exit(1)
+if not safe_step("Down", (21, 4)):
+    exit(1)
+# Walk Left on Row 4 to Column 19
+for x in range(20, 18, -1):
+    if not safe_step("Left", (x, 4)):
+        exit(1)
+# Down to Row 5
+if not safe_step("Down", (19, 5)):
+    exit(1)
+    
+# 10. Walk straight Left on Row 5 to Column 1 (Secret Key room)
+for x in range(18, 0, -1):
+    if not safe_step("Left", (x, 5)):
+        exit(1)
+        
+# 11. Retrieve the Secret Key!
+pos = get_pos()
 if pos == (1, 5):
     print("Aligning UP towards the Secret Key...")
     mgba.press_buttons(["Up"])
-    time.sleep(0.5)
+    time.sleep(1.0)
     
-    print("Retrieving the Secret Key...")
-    mgba.press_buttons([
-        "A", "sleep 2500",
-        "A", "sleep 2500",
-        "A", "sleep 2500"
-    ])
-    time.sleep(8.5)
-    
-    # Dismiss any leftover text
+    print("Retrieving Secret Key...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.0)
+    # Dismiss dialogue
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.4)
         
-    pos = get_pos()
-    print("Position after picking up Secret Key:", pos)
-
-print("Mansion master route completely solved!")
-mgba.take_screenshot()
+    print("Mansion fully solved! Secret Key retrieved successfully! Current Position:", get_pos())
+    mgba.take_screenshot()
