@@ -29,17 +29,13 @@ def handle_menu_dialogue_battle():
         return False
         
     print("Dialogue/Battle detected! Attempting to handle/dismiss...")
-    # First, try pressing B to dismiss standard text
     mgba.press_buttons(["B"])
     time.sleep(0.4)
     
-    # If still in dialogue/battle, try to RUN
     if check_dialogue_or_battle():
         print("Still in dialogue/battle, trying to select RUN...")
         mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
         time.sleep(1.2)
-        
-        # Dismiss any leftover text
         for _ in range(4):
             mgba.press_buttons(["B"])
             time.sleep(0.3)
@@ -78,25 +74,55 @@ def run_safe_steps(steps):
 pos = get_pos()
 print("Start position:", pos)
 
-# We are at (2, 12).
-# 1. Walk to (3, 12) then UP Column 3 to Row 6
-steps_to_row_6 = [
-    ("Right", (3, 12)),
-    ("Up", (3, 11)),
-    ("Up", (3, 10)),
-    ("Up", (3, 9)),  # Shutter gate, must be open in State B!
-    ("Up", (3, 8)),
-    ("Up", (3, 7)),
-    ("Up", (3, 6)),
-]
-print("Walking UP Column 3 to Row 6...")
+# 1. Walk from (3, 10) to (2, 10) then UP Column 2 to Row 6
+steps_to_row_6 = []
+if pos == (3, 10):
+    steps_to_row_6 = [
+        ("Left", (2, 10)),
+        ("Up", (2, 9)),  # Shutter gate at (2, 9) - OPEN in State B!
+        ("Up", (2, 8)),
+        ("Up", (2, 7)),
+        ("Up", (2, 6)),
+    ]
+elif pos == (2, 12):
+    steps_to_row_6 = [
+        ("Left", (1, 12)),
+        ("Up", (1, 11)),
+        ("Up", (1, 10)),
+        ("Right", (2, 10)),
+        ("Up", (2, 9)),
+        ("Up", (2, 8)),
+        ("Up", (2, 7)),
+        ("Up", (2, 6)),
+    ]
+else:
+    print(f"Position {pos} is not handled. Adjusting pathing...")
+    # Safe fallback to (2, 10)
+    if pos[0] != 2:
+        if pos[0] < 2:
+            steps_to_row_6.append(("Right", (2, pos[1])))
+        else:
+            steps_to_row_6.append(("Left", (2, pos[1])))
+    if pos[1] != 10:
+        if pos[1] < 10:
+            steps_to_row_6.append(("Down", (2, 10)))
+        else:
+            steps_to_row_6.append(("Up", (2, 10)))
+    steps_to_row_6.extend([
+        ("Up", (2, 9)),
+        ("Up", (2, 8)),
+        ("Up", (2, 7)),
+        ("Up", (2, 6)),
+    ])
+
+print("Walking to Row 6 Column 2...")
 if not run_safe_steps(steps_to_row_6):
     print("Failed to navigate to Row 6")
     exit(1)
 
 # 2. Walk RIGHT along Row 6 to Column 20
 steps_row_6 = []
-for x in range(4, 21):
+for x in range(3, 21):
     steps_row_6.append(("Right", (x, 6)))
 print("Walking RIGHT along Row 6 to Column 20...")
 if not run_safe_steps(steps_row_6):
