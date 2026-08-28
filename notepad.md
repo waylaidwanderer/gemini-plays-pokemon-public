@@ -2385,5 +2385,12 @@
 6. Land on 1F behind the closed shutter gate in the northern chamber (rows 10-12).
 7. Descend staircase to B1F and retrieve Secret Key.
 
+## Verified Solution Sequence (Turn 19046)
+1. 3F right balcony drop at (19, 14) landed at 1F (18, 14) [North Landing Sector].
+2. North Landing Sector connects via row 10 (9, 10) gap directly to 1F/2F stairs at (5, 10).
+3. Toggled 2F Mewtwo statue switch at (2, 11) to State A.
+4. In State A, 1F shutter gate at (24..25, 13) is OPEN.
+5. Descending 1F stairs to enter South Wing, traverse to (24, 13), pass through open shutter into Northeast Chamber, and descend staircase to B1F!
+
 
 <hr>
