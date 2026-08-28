@@ -57,35 +57,20 @@ Placeholder to prevent data loss.
 
 <h1><code>Progression_And_Party_Stats</code></h1>
 
-## SHELLBY (Blastoise) Moveset (Updated Turn 46023)
-- HYDRO PUMP
-- ICE BEAM
-- BITE
-- SURF (HM03)
+## current Party Status (Solo Blastoise Runner)
+- **SHELLBY** (Blastoise) - Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
 
-## Badge Status & Gym Clearances (Updated Turn 64321)
-- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
-- **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** NOT acquired yet. Cinnabar Gym is locked because we do not have the Secret Key.
-- **Soul Badge (Fuchsia Gym):** Already acquired! Koga is defeated.
-- **Earth Badge (Viridian Gym):** NOT acquired yet.
+## Badge Status & Gym Clearances (Verified Ground Truth - Turn 65044)
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
+- **Earth Badge (Viridian Gym):** NOT acquired yet. This is our final target Gym to qualify for the Indigo Plateau!
 
-## Key Items & Inventory Log (Verified Turn 61761)
-- **TM28 (DIG):** Verified NOT in Bag on Turn 61761. Our entire inventory consists of: POKé FLUTE, SUPER ROD, MAX POTION x2, MAX REVIVE x2, HM03, TOWN MAP, GOOD ROD.
-- **No Pokémon knows DIG:** Systematically verified all party members on Turn 61755; none of them know DIG.
-- **MUI (Mansion Ultimate Index) & Foot Escape Route:**
-  - B1F West is connected to B1F East via the northern gate at `(9, 5)` which is OPEN in State B.
-  - 1F West is connected to 1F East via Column 13 on Row 5 which is OPEN in State B.
-  - 1F East stairs gate at `(22, 2)` leading to B1F East is OPEN in State B.
-  - Therefore, we can retrieve the Secret Key and escape the entire Mansion on foot without requiring the move DIG! Our escape route is fully walkable in State B.
+## Key Items & Inventory Log (Verified Turn 65044)
+- Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
+- We do NOT have the Secret Key in our bag (no longer needed since Blaine is already defeated and Cinnabar Gym is cleared!).
 
-- **CALCIUM:** Retrieved from the ground at `(2, 16)` on Pokémon Mansion 2F on Turn 46079.
-- **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
-
-- **SECRET KEY:** Spotted on the ground at `(1, 4)` on Pokémon Mansion B1F on Turn 46125, but not yet retrieved because our Bag was full. Verified NOT in Bag on Turn 54139 (fully scrolled through Bag list to CANCEL and confirmed key is missing). We now have 12 items in our Bag and 8 open slots, so we have plenty of room to retrieve it!
-
-## Verified Party Slots (Updated Turn 56522)
-- **Slot 1:** SHELLBY (Blastoise) - Level 62
+## Verified Party Slots (Turn 65044)
+- **Slot 1:** SHELLBY (Blastoise) - Level 62+
 - **Slot 2:** GUSTY (Pidgey) - Level 13
 - **Slot 3:** NIBBLES (Rattata) - Level 7
 - **Slot 4:** TESLA (Pikachu) - Level 20
