@@ -239,23 +239,30 @@ try:
                 print(f"    Normal step. Result: {res}")
                 new_pos = get_pos()
                 
-                if curr_pos not in walkable_adj: walkable_adj[curr_pos] = []
-                if new_pos not in walkable_adj: walkable_adj[new_pos] = []
-                if new_pos not in walkable_adj[curr_pos]: walkable_adj[curr_pos].append(new_pos)
-                if curr_pos not in walkable_adj[new_pos]: walkable_adj[new_pos].append(curr_pos)
-                
-                if new_pos not in visited_nodes:
-                    visited_nodes.add(new_pos)
-                    to_explore.append(new_pos)
-                
-                save_progress()
-                
+                # Check if we need to verify step back
+                step_back_ok = True
                 if res == "walk":
                     opp_d = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[d]
                     back_res = step_and_verify(opp_d, curr_pos)
                     if back_res != "walk" and back_res != "battle_fled_on_new_tile":
                         print(f"    WARNING: failed to step back. Result: {back_res}")
-                        break
+                        step_back_ok = False
+                
+                if step_back_ok:
+                    # Successfully verified bidirectionality! Add to graph.
+                    if curr_pos not in walkable_adj: walkable_adj[curr_pos] = []
+                    if new_pos not in walkable_adj: walkable_adj[new_pos] = []
+                    if new_pos not in walkable_adj[curr_pos]: walkable_adj[curr_pos].append(new_pos)
+                    if curr_pos not in walkable_adj[new_pos]: walkable_adj[new_pos].append(curr_pos)
+                    
+                    if new_pos not in visited_nodes:
+                        visited_nodes.add(new_pos)
+                        to_explore.append(new_pos)
+                    
+                    save_progress()
+                else:
+                    # Did not verify step back! Do NOT add to graph, and break to let user evaluate.
+                    break
             elif res.startswith("spin_to_"):
                 new_pos = get_pos()
                 print(f"    SPIN/WARP DETECTED! {curr_pos} + {d} -> {new_pos}")
