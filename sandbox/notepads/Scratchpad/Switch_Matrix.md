@@ -122,7 +122,7 @@ Thus, the correct State B bypass route on 2F is:
   - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
   - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
   - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
-- **Conclusion:** B1F has NO Mewtwo switches at all! The entire mansion puzzle must be toggled from 3F West.
+- **Conclusion:** B1F West SOUTH contains a switch at (8, 10).
 
 ## 🔍 CRITICAL DISCOVERY: Mewtwo Switch Dialogue Termination (Turn 62492)
 - **The Dialogue Termination Flaw:** Toggling a Mewtwo switch in Pokémon Red/Blue requires exactly **4 A-presses** (or 3 A-presses plus a final A/B to dismiss) to fully complete the dialogue and update the gate state:
