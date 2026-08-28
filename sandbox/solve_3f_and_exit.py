@@ -76,18 +76,32 @@ def run_safe_steps(steps, skip_battle_check=False):
             return False
     return True
 
-print("Start position:", get_pos())
+pos = get_pos()
+print("Start position:", pos)
 
-# 1. Walk from (3, 10) to (2, 12)
-steps_to_switch = [
-    ("Down", (3, 11)),
-    ("Down", (3, 12)),
-    ("Left", (2, 12)),
-]
-print("Walking to switch statue at (2, 11)...")
-if not run_safe_steps(steps_to_switch):
-    print("Failed to reach switch location")
-    exit(1)
+# 1. Walk from current position to (2, 12)
+steps_to_switch = []
+if pos == (3, 10):
+    steps_to_switch = [("Down", (3, 11)), ("Down", (3, 12)), ("Left", (2, 12))]
+elif pos == (3, 11):
+    steps_to_switch = [("Down", (3, 12)), ("Left", (2, 12))]
+elif pos == (3, 12):
+    steps_to_switch = [("Left", (2, 12))]
+elif pos == (2, 12):
+    print("Already at switch statue location!")
+else:
+    print(f"Unknown start position {pos}. Walking to (3, 12) first...")
+    # Safe fallback
+    if pos[0] > 3:
+        for x in range(pos[0]-1, 2, -1):
+            steps_to_switch.append(("Left", (x, pos[1])))
+    steps_to_switch.append(("Left", (2, 12)))
+
+if steps_to_switch:
+    print("Walking to switch statue...")
+    if not run_safe_steps(steps_to_switch):
+        print("Failed to reach switch location")
+        exit(1)
 
 # 2. Toggle Mewtwo Switch to State B!
 # Stand at (2, 12), face UP, and send the exact switch interaction sequence
