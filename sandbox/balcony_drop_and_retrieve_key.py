@@ -87,7 +87,7 @@ steps_up_col_4 = [
     ("Up", (4, 6)),
 ]
 print("Walking UP Column 4 to Row 6...")
-if not run_steps(steps_up_col_3 if 'steps_up_col_3' in globals() else steps_up_col_4):
+if not run_steps(steps_up_col_4):
     print("Failed walking UP Column 4")
     exit(1)
 
