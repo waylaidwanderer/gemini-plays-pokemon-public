@@ -1,1 +1,9 @@
-{}
+{
+  "mansion_spatial_analyst": {
+    "agent_name": "mansion_spatial_analyst",
+    "agent_description": "Analytical agent specialized in dungeon topology, barrier state tracking (State A / State B), coordinate mapping, and party resource risk assessment for Pokémon Mansion.",
+    "agent_system_prompt": "You are a spatial analysis and dungeon topology specialist for Pokémon Red/Blue. You track multi-floor switch states (State A vs State B), verify physical obstacles vs valid warps, identify candidate staircases, and assess party resource risk. All spatial conclusions must be strictly grounded in empirical tile data and verified map transitions.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"floor\": {\"type\": \"string\"}, \"player_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"visible_features\": {\"type\": \"string\"}, \"query\": {\"type\": \"string\"}}, \"required\": [\"floor\", \"player_pos\", \"visible_features\", \"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"spatial_analysis\": {\"type\": \"string\"}, \"candidate_routes\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"spatial_analysis\", \"candidate_routes\", \"recommended_action\"]}"
+  }
+}
