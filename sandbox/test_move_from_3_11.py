@@ -1,19 +1,35 @@
 import mgba
 import time
 
-print("Starting position:", mgba.get_coordinates())
-# Ensure menu is closed
-mgba.press_buttons(["B"])
-time.sleep(0.3)
+def walk_step(direction, expected_coords):
+    mgba.press_buttons([direction])
+    time.sleep(0.5)
+    pos = mgba.get_coordinates()
+    print(f"Pressed {direction}, expected {expected_coords}, actual {pos}")
+    return pos == expected_coords
 
-# Move down, left
-mgba.press_buttons(["Down"])
-time.sleep(0.5)
-print("Position after Down:", mgba.get_coordinates())
+print("Initial position:", mgba.get_coordinates())
 
-mgba.press_buttons(["Left"])
-time.sleep(0.5)
-print("Position after Left:", mgba.get_coordinates())
+# Move Down to (3, 12)
+walk_step("Down", {"x": 3, "y": 12})
 
-screenshot_file = mgba.take_screenshot()
-print("Screenshot saved to:", screenshot_file)
+# Move Left to (2, 12)
+walk_step("Left", {"x": 2, "y": 12})
+
+# Move Left to (1, 12)
+walk_step("Left", {"x": 1, "y": 12})
+
+# Move Up to (1, 11)
+walk_step("Up", {"x": 1, "y": 11})
+
+# Move Up to (1, 10)
+walk_step("Up", {"x": 1, "y": 10})
+
+# Move Up to (1, 9)
+walk_step("Up", {"x": 1, "y": 9})
+
+# Move Up to (1, 8)
+walk_step("Up", {"x": 1, "y": 8})
+
+print("Final position:", mgba.get_coordinates())
+mgba.take_screenshot()
