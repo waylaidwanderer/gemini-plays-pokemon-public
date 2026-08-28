@@ -1628,6 +1628,19 @@ Thus, the correct State B bypass route on 2F is:
   4. Walk Up Column 5 to `(5, 10)`.
   5. Step UP onto the staircase at `(5, 10)` to warp UP to 1F West at `(5, 10)`!
   6. From `(5, 10)` on 1F West, walk up to 2F West, then 3F West to toggle the switch back to State B!
+## B1F West SOUTH Switch Discovery (Verified Turn 64327)
+- **Mewtwo Statue Switch at (8, 10):** Standing at `(8, 11)` facing UP and pressing `A` toggles the global Mansion state! B1F West SOUTH does indeed contain a functional switch at `(8, 10)`. (Previous notes claiming B1F has no switches were false!).
+- **State A Gate Behavior inside B1F West SOUTH:**
+  - Shutter gates blocking Column 4, 5, 6, 7 on Rows 10-13 are CLOSED in State A.
+  - The staircase at `(5, 10)` on B1F West SOUTH is blocked by the Row 10 closed shutter gate in State A.
+- **State B Gate Behavior inside B1F West SOUTH:**
+  - Shutter gates blocking Column 4, 5, 6, 7 on Rows 10-13 are OPEN in State B!
+  - However, the staircase at `(5, 10)` cannot warp the player to 1F West (it is blocked at Row 9 Column 5 by a closed shutter gate in State B).
+- **Master B1F SOUTH Crossing Route (State A):**
+  - Walk horizontally on Row 11 from West to East: `(8, 11) -> (9, 11) -> (10, 11) -> (11, 11) -> (12, 11)`. The gate at `(10, 11)` is OPEN in State A!
+  - Once on B1F East, walk UP Column 12 to Row 7 `(12, 7)`.
+  - Walk horizontally on Row 4: `(18, 4) -> (19, 4) -> (20, 4) -> (21, 4)`. (This safely bypasses the walls on Column 18/19 Row 7, and the shutter gates on Row 5 Column 20/21!).
+  - Step UP onto the B1F East stairs at `(22, 2)` from `(21, 2)` to warp UP to 1F East!
 
 <hr>
 
