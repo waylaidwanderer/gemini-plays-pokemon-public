@@ -2367,7 +2367,7 @@
 |---|---|---|---|
 | 3F (16, 14) [Left Pit Drop] | 1F (16, 14) | 1F South Wing (TM03, Scientist Ted) | Confirmed (Turns 18495, 18661) |
 | 3F (17, 14) [Left/Center Pit Drop] | 1F (16, 14) | 1F South Wing (TM03, Scientist Ted) | Confirmed (Turn 18902) |
-| 3F (18..21, 14) [Right Pit Drop] | 1F (24..26, 10..12) | 1F Northern Wing / B1F Staircase access | ACTIVE TARGET |
+| 3F (19, 14) [Right Pit Drop] | 1F (18, 14) | 1F Enclosed Northern Room -> B1F Stairs at (15, 10) | VERIFIED (Turn 19000) |
 
 ## Step-by-Step Execution Protocol
 1. Ascend to 3F (6, 2) via 2F (6, 1).
