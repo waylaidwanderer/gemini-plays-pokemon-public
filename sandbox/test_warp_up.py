@@ -1,25 +1,23 @@
 import mgba
 import time
 
-pos = mgba.get_coordinates()
-print("Starting position for warp test:", pos)
-
-# Walk right from (2, 11) to (7, 11)
-steps = []
-for x in range(3, 8):
-    steps.append(("Right", {"x": x, "y": 11}))
-
-for d, c in steps:
-    mgba.press_buttons([d])
-    time.sleep(0.45)
-
-pos = mgba.get_coordinates()
-print("Position before stairs:", pos)
-
-if pos == {"x": 7, "y": 11}:
-    print("Stepping UP onto stairs at (7, 10)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(2.0)
-    
+def check_pos():
     pos = mgba.get_coordinates()
-    print("Position after warping UP:", pos)
+    print("Current position:", pos)
+    return pos
+
+# Ensure menu is closed
+mgba.press_buttons(["B"])
+time.sleep(0.3)
+
+print("Attempting to step UP onto the stairs at (7, 10)...")
+mgba.press_buttons(["Up"])
+time.sleep(2.0)
+
+pos = check_pos()
+if pos != {"x": 7, "y": 11}:
+    print("Successfully stayed on 3F West! New position:", pos)
+else:
+    print("Warped up and immediately warped back down (State A block) or blocked!")
+
+mgba.take_screenshot()
