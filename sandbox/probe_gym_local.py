@@ -5,22 +5,22 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting top-most area probe from current position:", get_pos())
+print("Starting Giovanni search from:", get_pos())
 
-# Steps from (17, 6):
-# 1. Up to (17, 5)
-# 2. Up to (17, 4)
-# 3. Up to (17, 3)
-# 4. Right to (18, 3)
-# 5. Up to (18, 2)
-# 6. Up to (18, 1)
+# Steps:
+# 1. Down to (18, 2)
+# 2. Down to (18, 3)
+# 3. Left to (17, 3)
+# 4. Left to (16, 3)
+# 5. Left to (15, 3)
+# 6. Left to (14, 3)
 steps = [
-    ("Up", (17, 5)),
-    ("Up", (17, 4)),
-    ("Up", (17, 3)),
-    ("Right", (18, 3)),
-    ("Up", (18, 2)),
-    ("Up", (18, 1))
+    ("Down", (18, 2)),
+    ("Down", (18, 3)),
+    ("Left", (17, 3)),
+    ("Left", (16, 3)),
+    ("Left", (15, 3)),
+    ("Left", (14, 3))
 ]
 
 for d, c in steps:
