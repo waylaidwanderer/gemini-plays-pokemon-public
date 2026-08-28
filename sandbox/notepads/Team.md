@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 18571 - Fully Healed at Cinnabar Pok�mon Center)
-1. HYDROS (Blastoise) - Lv 62
-   - Stats: Max HP 207 (HP: 106/207 - PAR), Attack 144, Defense 159, Speed 146, Special 153
+1. HYDROS (Blastoise) - Lv 63
+   - Stats: Max HP 207 (HP: 106/207 - PAR), Attack 147, Defense 162, Speed 149, Special 156
    - Type: Water
-   - Moves: Double-Edge (12/15), Ice Beam (6/10), Bite (25/25), Surf (0/15)
+   - Moves: Double-Edge (12/15), Ice Beam (6/10), Bite (23/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
@@ -17,12 +17,12 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 54/54), Attack 147, Defense 162, Speed 149, Special 156
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62), Attack 37, Defense 36, Speed 32, Special 41
+   - Stats: Max HP 62 (HP: 62/62), Attack 147, Defense 162, Speed 149, Special 156
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Special Sweeper reserve
@@ -33,8 +33,7 @@
    - Role: Flyer utility
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname. Caught flyer will be nicknamed ZEPHYR.
-
+- Every captured Pokémon will receive a thoughtful, unique nickname. 
 ## Boxed Pokémon (Box 1)
 1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
    - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech

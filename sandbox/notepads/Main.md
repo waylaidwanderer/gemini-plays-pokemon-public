@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 2F (North Corridor, Position: (12, 1))
+- Location: Pokémon Mansion 3F (Balcony Room, Position: (18, 11))
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
