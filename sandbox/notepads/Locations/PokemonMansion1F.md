@@ -42,3 +42,4 @@
 - Corridors: Row 14 (cols 12-17), Row 16 (cols 19-28), Row 20-21 (cols 12-23), Row 24-26 (cols 12-23), Column 12 (rows 14-26), Column 20 (rows 16-24), Column 25 (rows 10-23)
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 - Shutter Gate (Northeast): (24..25, 13) [OPEN in State A, CLOSED in State B]
+- Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B]
