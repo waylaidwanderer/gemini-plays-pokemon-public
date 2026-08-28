@@ -71,15 +71,13 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Starting solve_b1f_and_pickup.py (Row 3 Column 19 Bypass)...")
+print("Starting solve_b1f_and_pickup.py from current (20, 3)...")
 print("Start position:", get_pos())
 
-# 1. Walk from (21, 4) to Column 19 Row 5 via Row 3
+# 1. Walk from (20, 3) to Column 19 Row 5 via Row 4
 steps_to_row_5 = [
-    ("Up", (21, 3)),
-    ("Left", (20, 3)),
-    ("Left", (19, 3)),
-    ("Down", (19, 4)),
+    ("Down", (20, 4)),
+    ("Left", (19, 4)),
     ("Down", (19, 5)),
 ]
 print("Walking to B1F Row 5 via Column 19...")
