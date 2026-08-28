@@ -1597,7 +1597,7 @@ Thus, the correct State B bypass route on 2F is:
 ---
 
 ## Switch Details (Mansion Switch State B is toggled from 3F West)
-- B1F West SOUTH statues at `(3, 10)`, `(3, 12)`, `(3, 14)`, `(8, 10)`, `(8, 12)`, and `(8, 14)` are empirically proven on Turn 61288 to be purely decorative. B1F has NO Mewtwo switches at all!
+- Mewtwo Statue Switch at (8, 10): Standing at (8, 11) facing UP and pressing A toggles the global Mansion state! B1F West SOUTH does indeed contain a functional switch at (8, 10). (Previous notes claiming B1F has no switches were false!).
 - However, we do not need to toggle any switch on B1F to retrieve the Secret Key! The entire mansion is solved by toggling the Mewtwo statue switch at `(2, 11)` on 3F West to State B, dropping down the 3F East pitfall at `(26, 6)` to 1F East `(25, 6)`, warping down to B1F East `(22, 2)`, and walking straight across Row 5 through the open Column 9 gate directly to the Secret Key room on B1F West.
 
 ## Verified Empirical Discoveries & Proof of Work
