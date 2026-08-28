@@ -7,22 +7,22 @@ def get_pos():
     return (pos['x'], pos['y'])
 
 def check_dialogue_or_battle():
+    # Robust white-only check to completely eliminate dark tile false positives on B1F
     scr_file = mgba.take_screenshot()
     img = Image.open(scr_file)
     img_std = img.resize((160, 144), Image.Resampling.NEAREST)
     
-    black_or_white = 0
+    white_pixels = 0
     total_pixels = 0
     for y in range(112, 144):
         for x in range(8, 152):
             r, g, b = img_std.getpixel((x, y))[:3]
             total_pixels += 1
-            is_bw = (r < 55 and g < 55 and b < 55) or (r > 200 and g > 200 and b > 200)
-            if is_bw:
-                black_or_white += 1
+            if r > 220 and g > 220 and b > 220:
+                white_pixels += 1
                 
-    ratio = black_or_white / total_pixels
-    return ratio > 0.88
+    ratio = white_pixels / total_pixels
+    return ratio > 0.80
 
 def run_from_battle():
     print("Dismissing battle intro text...")
@@ -71,66 +71,255 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Start position:", get_pos())
+def go_to_switch():
+    pos = get_pos()
+    steps_to_switch = []
+    if pos == (3, 10):
+        steps_to_switch = [
+            ("Down", (3, 11)),
+            ("Down", (3, 12)),
+            ("Left", (2, 12)),
+        ]
+    elif pos == (1, 10):
+        steps_to_switch = [
+            ("Down", (1, 11)),
+            ("Down", (1, 12)),
+            ("Right", (2, 12)),
+        ]
+    elif pos == (2, 12):
+        pass
+    else:
+        print("Warning: unexpected start position", pos)
+        # fallback to walk to Row 12, then Column 2, then Up
+        while pos[1] < 12:
+            pos = step("Down")
+        while pos[0] < 2:
+            pos = step("Right")
+        while pos[0] > 2:
+            pos = step("Left")
+        while pos[1] > 12:
+            pos = step("Up")
+            
+    if steps_to_switch:
+        print("Walking to switch standing position...")
+        if not run_safe_steps(steps_to_switch):
+            return False
+            
+    print("Facing UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    return True
 
-# 1. Walk from (4, 12) to (2, 12) via Row 13 to bypass Column 3 cabinet
-steps_to_switch = [
-    ("Down", (4, 13)),
-    ("Left", (3, 13)),
-    ("Left", (2, 13)),
-    ("Up", (2, 12)),
-]
-print("Walking to switch at (2, 12)...")
-if not run_safe_steps(steps_to_switch):
-    print("Failed to reach (2, 12)")
-    exit(1)
+def step(direction):
+    old_pos = get_pos()
+    mgba.press_buttons([direction])
+    time.sleep(0.55)
+    return get_pos()
 
-# Face UP
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(1.0)
+def toggle_switch_once():
+    print("Toggling Mewtwo Switch with exactly 4 slow A-presses...")
+    mgba.press_buttons([
+        "A", "sleep 1500",
+        "A", "sleep 1500",
+        "A", "sleep 1500",
+        "A", "sleep 1500"
+    ])
+    time.sleep(7.0)
+    print("Switch toggle complete!")
 
-# 2. Toggle Mewtwo Switch with exactly 4 slow A-presses
-print("Toggling switch to State B with exactly 4 slow A-presses...")
-mgba.press_buttons([
-    "A", "sleep 1500",
-    "A", "sleep 1500",
-    "A", "sleep 1500",
-    "A", "sleep 1500"
-])
-time.sleep(7.0)
-print("Switch toggle complete!")
-
-# 3. Walk to Column 3 Row 10 to test Column 3 Row 9 gate!
-# Path: (2, 12) -> Down to (2, 13) -> Right to (3, 13) -> Right to (4, 13) -> Up to (4, 12) -> Up to (4, 11) -> Left to (3, 11) -> Up to (3, 10)
-steps_to_col_3 = [
-    ("Down", (2, 13)),
-    ("Right", (3, 13)),
-    ("Right", (4, 13)),
-    ("Up", (4, 12)),
-    ("Up", (4, 11)),
-    ("Left", (3, 11)),
-    ("Up", (3, 10)),
-]
-print("Walking to Column 3 Row 10...")
-if not run_safe_steps(steps_to_col_3):
-    print("Failed to reach Column 3 Row 10")
-    exit(1)
-
-# 4. Test Column 3 Row 9 gate
-print("Testing if Column 3 Row 9 is OPEN...")
-old_pos = get_pos()
-mgba.press_buttons(["Up"])
-time.sleep(0.55)
-new_pos = get_pos()
-
-if new_pos[1] == 9:
-    print("SUCCESS: Column 3 Row 9 gate is OPEN in State B!!!")
-    safe_step("Up", (3, 8))
-    safe_step("Up", (3, 7))
-    safe_step("Up", (3, 6))
-else:
-    print("Gate is CLOSED.")
+def test_gate_open():
+    print("Walking to Column 1 Row 10 to test...")
+    # Walk to (1, 12)
+    if not safe_step("Left", (1, 12)):
+        return False
+    # Walk Up Column 1
+    if not safe_step("Up", (1, 11)):
+        return False
+    if not safe_step("Up", (1, 10)):
+        return False
+        
+    # Try to step UP to (1, 9)
+    old_pos = get_pos()
+    mgba.press_buttons(["Up"])
+    time.sleep(0.55)
+    new_pos = get_pos()
     
-print("Final Position:", get_pos())
-mgba.take_screenshot()
+    if new_pos == (1, 9):
+        print("Column 1 Row 9 gate is OPEN!")
+        # Continue the rest of the 3F West path
+        steps_up = [
+            ("Up", (1, 8)),
+            ("Up", (1, 7)),
+            ("Up", (1, 6)),
+        ]
+        if not run_safe_steps(steps_up):
+            return False
+        return True
+    else:
+        print("Column 1 Row 9 gate is CLOSED.")
+        return False
+
+# Master loop:
+# We are currently at some position. Go to switch, toggle, and test.
+# If closed, toggle again and test.
+
+print("Starting Master Verification Protocol...")
+
+# State 1: Try current state or toggle once
+if not go_to_switch():
+    print("Failed to reach switch")
+    exit(1)
+
+toggle_switch_once()
+
+if test_gate_open():
+    print("SUCCESS! Column 1 Row 9 gate is OPEN. Continuing the route...")
+    
+    # 5. Walk RIGHT along Row 6 to Column 20
+    print("Walking RIGHT along Row 6 to Column 20...")
+    pos = get_pos()
+    while pos[0] < 20:
+        pos = step("Right")
+        
+    # 6. Walk UP Column 20 to Row 3
+    print("Walking UP Column 20 to Row 3...")
+    while get_pos()[1] > 3:
+        step("Up")
+        
+    # 7. Walk RIGHT along Row 3 to Column 26
+    print("Walking RIGHT along Row 3 to Column 26...")
+    while get_pos()[0] < 26:
+        step("Right")
+        
+    # 8. Drop through the pitfall to 1F East inside the fenced room
+    print("Dropping through the pitfall to 1F East...")
+    step("Down")
+    time.sleep(2.5)
+    pos = get_pos()
+    print("Landed on 1F East inside fenced room:", pos)
+    
+    # 9. Walk to B1F East stairs and warp down
+    if pos[1] == 4:
+        step("Down")
+    pos = get_pos()
+    while pos[0] > 22:
+        pos = step("Left")
+    while pos[1] > 3:
+        pos = step("Up")
+        
+    print("Stepping UP to warp down to B1F East...")
+    mgba.press_buttons(["Up"])
+    time.sleep(2.0)
+    pos = get_pos()
+    print("Position on B1F East:", pos)
+    
+    # 10. Cross B1F East to B1F West NORTH
+    if pos[1] == 2:
+        step("Down")
+    # Walk to Column 21
+    step("Left")
+    # Down to Row 5
+    step("Down")
+    step("Down")
+    # Left to Column 1
+    pos = get_pos()
+    while pos[0] > 1:
+        pos = step("Left")
+        
+    # 11. Retrieve Secret Key!
+    print("Facing UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    
+    print("Retrieving Secret Key...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.0)
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
+        
+    print("Mansion fully solved! Secret Key retrieved successfully! Current Position:", get_pos())
+    mgba.take_screenshot()
+    exit(0)
+
+# If we are here, the gate was CLOSED, meaning we toggled to the WRONG state.
+# Let's walk back to switch and toggle again!
+print("Gate was closed. Walking back to switch to toggle again...")
+if not go_to_switch():
+    print("Failed to reach switch on retry")
+    exit(1)
+
+toggle_switch_once()
+
+if test_gate_open():
+    print("SUCCESS on retry! Column 1 Row 9 gate is OPEN. Continuing the route...")
+    
+    # 5. Walk RIGHT along Row 6 to Column 20
+    print("Walking RIGHT along Row 6 to Column 20...")
+    pos = get_pos()
+    while pos[0] < 20:
+        pos = step("Right")
+        
+    # 6. Walk UP Column 20 to Row 3
+    print("Walking UP Column 20 to Row 3...")
+    while get_pos()[1] > 3:
+        step("Up")
+        
+    # 7. Walk RIGHT along Row 3 to Column 26
+    print("Walking RIGHT along Row 3 to Column 26...")
+    while get_pos()[0] < 26:
+        step("Right")
+        
+    # 8. Drop through the pitfall to 1F East inside the fenced room
+    print("Dropping through the pitfall to 1F East...")
+    step("Down")
+    time.sleep(2.5)
+    pos = get_pos()
+    print("Landed on 1F East inside fenced room:", pos)
+    
+    # 9. Walk to B1F East stairs and warp down
+    if pos[1] == 4:
+        step("Down")
+    pos = get_pos()
+    while pos[0] > 22:
+        pos = step("Left")
+    while pos[1] > 3:
+        pos = step("Up")
+        
+    print("Stepping UP to warp down to B1F East...")
+    mgba.press_buttons(["Up"])
+    time.sleep(2.0)
+    pos = get_pos()
+    print("Position on B1F East:", pos)
+    
+    # 10. Cross B1F East to B1F West NORTH
+    if pos[1] == 2:
+        step("Down")
+    # Walk to Column 21
+    step("Left")
+    # Down to Row 5
+    step("Down")
+    step("Down")
+    # Left to Column 1
+    pos = get_pos()
+    while pos[0] > 1:
+        pos = step("Left")
+        
+    # 11. Retrieve Secret Key!
+    print("Facing UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    
+    print("Retrieving Secret Key...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.0)
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
+        
+    print("Mansion fully solved! Secret Key retrieved successfully! Current Position:", get_pos())
+    mgba.take_screenshot()
+    exit(0)
+else:
+    print("ERROR: Gate is still closed in BOTH switch states! Something is fundamentally wrong.")
+    exit(1)
