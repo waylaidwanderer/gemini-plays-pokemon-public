@@ -1,6 +1,5 @@
 import mgba
 import time
-from PIL import Image
 
 def get_pos():
     pos = mgba.get_coordinates()
@@ -8,43 +7,42 @@ def get_pos():
 
 def step(direction):
     old_pos = get_pos()
-    print(f"Current: {old_pos}. Stepping {direction}...")
     mgba.press_buttons([direction])
-    time.sleep(0.45)
+    time.sleep(0.5)
     new_pos = get_pos()
-    print(f"New position: {new_pos}")
+    print(f"Stepped {direction}: {old_pos} -> {new_pos}")
     return new_pos
 
 print("Start position:", get_pos())
 
-# 1. We are already at (2, 12) facing UP. Let's make sure we face UP.
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-
-# 2. Toggle the switch to State B (exactly 4 A presses!)
-print("Toggling Mewtwo switch...")
-for i in range(4):
-    print(f"Pressing A {i+1}/4...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-print("Switch toggled!")
-
-# 3. Step Left to (1, 12)
+# 1. Walk from (3, 10) to (2, 12)
+step("Down")
+step("Down")
 step("Left")
 
-# 4. Walk UP Column 1 to verify gate is open
-print("Walking UP Column 1 to verify...")
-step("Up") # to (1, 11)
-step("Up") # to (1, 10)
-final_p = step("Up") # to (1, 9)
+# 2. Turn UP
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.6)
 
-if final_p == (1, 9):
-    print("SUCCESS: Gate is open! State B is active!")
-    # Walk the rest of the way UP to Row 6 to complete the crossing!
-    step("Up") # to (1, 8)
-    step("Up") # to (1, 7)
-    step("Up") # to (1, 6)
-else:
-    print("FAILED: Gate is still closed! State A is still active.")
+# 3. Toggle switch with 6 slow A-presses
+print("Toggling Mewtwo switch...")
+for i in range(6):
+    print(f"Pressing A {i+1}/6...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.5)
 
+# 4. Walk to (3, 12)
+step("Right")
+
+# 5. Try to walk UP Column 3 to Row 6 (which should be OPEN in State B!)
+print("Testing walking UP past Row 9 gate...")
+p1 = step("Up") # to (3, 11)
+p2 = step("Up") # to (3, 10)
+p3 = step("Up") # to (3, 9) - This is the gate!
+p4 = step("Up") # to (3, 8)
+p5 = step("Up") # to (3, 7)
+p6 = step("Up") # to (3, 6)
+
+print("Final Position:", get_pos())
 mgba.take_screenshot()
