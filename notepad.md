@@ -963,12 +963,12 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - BITE
 - SURF (HM03)
 
-## Badge Status & Gym Clearances (Updated Turn 50214)
-- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+## Badge Status & Gym Clearances (Updated Turn 64177)
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** NOT acquired yet (Locked behind Secret Key).
-- **Soul Badge (Fuchsia Gym):** NOT acquired yet.
-- **Earth Badge (Viridian Gym):** NOT acquired yet (Giovanni at Viridian Gym is locked until 7 badges are acquired).
+- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated (Turn 64111).
+- **Soul Badge (Fuchsia Gym):** Already acquired! Koga is defeated.
+- **Earth Badge (Viridian Gym):** NOT acquired yet (Giovanni at Viridian Gym is now unlocked because we have 7 badges).
 
 ## Key Items & Inventory Log (Verified Turn 61761)
 - **TM28 (DIG):** Verified NOT in Bag on Turn 61761. Our entire inventory consists of: POKé FLUTE, SUPER ROD, MAX POTION x2, MAX REVIVE x2, HM03, TOWN MAP, GOOD ROD.
