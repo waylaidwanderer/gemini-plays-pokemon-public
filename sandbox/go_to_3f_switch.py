@@ -65,16 +65,20 @@ def safe_step(direction, expected_coords=None, max_attempts=15):
     return False
 
 # Starting at (4, 10) on 3F West
-print("Navigating from current:", get_pos())
+print("Navigating to switch around Burglar NPC. Current position:", get_pos())
 
-# Correct open path:
-# 1. Down to (4, 11)
-# 2. Down to (4, 12)
-# 3. Left to (3, 12)
-# 4. Left to (2, 12)
+# Route that goes around Column 5:
+# 1. Right to (5, 10)
+# 2. Down to (5, 11)
+# 3. Down to (5, 12)
+# 4. Left to (4, 12)
+# 5. Left to (3, 12)
+# 6. Left to (2, 12)
 steps = [
-    ("Down", (4, 11)),
-    ("Down", (4, 12)),
+    ("Right", (5, 10)),
+    ("Down", (5, 11)),
+    ("Down", (5, 12)),
+    ("Left", (4, 12)),
     ("Left", (3, 12)),
     ("Left", (2, 12)),
 ]
