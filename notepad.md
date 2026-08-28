@@ -67,7 +67,7 @@
 1. HYDROS (Blastoise) - Lv 63
    - Stats: Max HP 211 (HP: 10/211 - PAR)
    - Type: Water
-   - Moves: Double-Edge (8/15), Ice Beam (2/10), Bite (15/25), Surf (0/15)
+   - Moves: Double-Edge (8/15), Ice Beam (1/10), Bite (15/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
