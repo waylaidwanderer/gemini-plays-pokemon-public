@@ -14,16 +14,18 @@ def step(direction):
     print(f"New position: {new_pos}")
     return new_pos
 
-print(f"Starting warp attempt via (7, 10) from: {get_pos()}")
+print("Start position:", get_pos())
 
-# Walk Right to (7, 11)
-step("Right")
-step("Right")
+# Step Down to (10, 10)
+for _ in range(4):
+    step("Down")
 
-# Step UP onto stairs at (7, 10)
-print("Stepping UP onto the stairs at (7, 10)...")
-mgba.press_buttons(["Up"])
-time.sleep(2.5)
+# Step Left to (7, 10)
+step("Left")
+step("Left")
+print("About to step Left onto stairs at (7, 10)...")
+step("Left")
 
-print(f"Warp check complete! Current position: {get_pos()}")
+time.sleep(1.5)
+print("Position after warping DOWN:", get_pos())
 mgba.take_screenshot()
