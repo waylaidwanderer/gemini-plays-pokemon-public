@@ -15,44 +15,38 @@ def step(direction):
 
 print("Start position:", get_pos())
 
-# 1. Walk from current position to (2, 12)
-pos = get_pos()
-if pos == (3, 10):
-    step("Down")
-    step("Down")
-    step("Left")
-elif pos == (3, 11):
-    step("Down")
-    step("Left")
-elif pos == (3, 12):
-    step("Left")
+# 1. Walk from current position (1, 10) to (2, 12)
+step("Down")
+step("Down")
+step("Right")
 
-print("At switch position. Starting synchronized 5 A-press switch toggle...")
+# 2. Stand at (2, 12) and toggle the switch
+print("At (2, 12). Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.8)
 
-# 2. Toggle the switch using EXACTLY 5 slow A-presses in a single synchronized call
+print("Toggling switch with exactly 5 slow A-presses...")
 mgba.press_buttons([
-    "Up", "sleep 1000",
     "A", "sleep 1500",
     "A", "sleep 1500",
     "A", "sleep 1500",
     "A", "sleep 1500",
     "A", "sleep 1500"
 ])
-# Wait for the emulator to finish the entire sequence
 time.sleep(9.0)
 print("Synchronized switch toggle completed.")
 
-# 3. Walk back to Column 3
-step("Right")
+# 3. Walk to (1, 12)
+step("Left")
 
-# 4. Walk UP Column 3 past the Row 9 gate to Row 6!
-print("Attempting to walk UP Column 3 to Row 6...")
-step("Up") # to (3, 11)
-step("Up") # to (3, 10)
-step("Up") # to (3, 9) - Row 9 gate
-step("Up") # to (3, 8)
-step("Up") # to (3, 7)
-step("Up") # to (3, 6)
+# 4. Walk UP Column 1 to Row 6 (which should be OPEN in State B!)
+print("Testing walking UP past Row 9 Column 1 gate...")
+step("Up") # to (1, 11)
+step("Up") # to (1, 10)
+step("Up") # to (1, 9) - This is the gate!
+step("Up") # to (1, 8)
+step("Up") # to (1, 7)
+step("Up") # to (1, 6)
 
 print("Final Position:", get_pos())
 mgba.take_screenshot()
