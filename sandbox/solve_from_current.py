@@ -102,6 +102,10 @@ for _ in range(5):
 pos = mgba.get_coordinates()
 print("Starting solve from position:", pos)
 
+if pos == {"x": 1, "y": 12}:
+    walk_step("Right", {"x": 2, "y": 12})
+    pos = mgba.get_coordinates()
+
 # We must be at (2, 12) on 3F West
 if pos == {"x": 2, "y": 12}:
     # Let's test if the gate at (2, 9) is already open by walking to (2, 9)
