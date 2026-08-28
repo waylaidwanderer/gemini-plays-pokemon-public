@@ -7,27 +7,35 @@ def get_pos():
 
 def step(direction):
     old_pos = get_pos()
-    print(f"Current: {old_pos}. Stepping {direction}...")
     mgba.press_buttons([direction])
-    time.sleep(0.45)
+    time.sleep(0.55)
     new_pos = get_pos()
-    print(f"New position: {new_pos}")
+    print(f"Stepped {direction}: {old_pos} -> {new_pos}")
     return new_pos
 
-# Test walking Right from (21, 2) onto (22, 2)
-print("Testing step Right onto (22, 2) from (21, 2)...")
-new_pos = step("Right")
-mgba.take_screenshot()
+print("Start position:", get_pos())
 
-# If we didn't warp and successfully moved to (22, 2):
-if new_pos == (22, 2):
-    print("SUCCESS: Walked onto (22, 2)! Let's try to step Right to (23, 2)...")
-    new_pos2 = step("Right")
-    mgba.take_screenshot()
-    if new_pos2 == (23, 2):
-         print("SUCCESS: Walked onto (23, 2)!")
-    else:
-         print("BLOCKED going Right to (23, 2)")
-         step("Left") # Go back to (21, 2)
-else:
-    print("Blocked or warped!")
+# We are at (7, 10). Let's test the east bypass route to Row 8!
+steps = [
+    ("Down", (7, 11)),
+    ("Right", (8, 11)),
+    ("Right", (9, 11)),
+    ("Up", (9, 10)),
+    ("Up", (9, 9)),
+    ("Up", (9, 8)),
+    ("Left", (8, 8)),
+    ("Left", (7, 8)),
+    ("Left", (6, 8)),
+    ("Left", (5, 8)),
+    ("Left", (4, 8)),
+    ("Left", (3, 8)),
+]
+
+for d, expected in steps:
+    pos = step(d)
+    if pos != expected:
+        print(f"BOCKED/DESYNC at {pos} (expected {expected})")
+        break
+
+print("Final Position:", get_pos())
+mgba.take_screenshot()
