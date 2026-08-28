@@ -35,73 +35,67 @@ def safe_step(direction):
             return old_pos
     return new_pos
 
-# --- 1. Navigate 3F West to 3F East Pitfall ---
-# Start from (4, 10)
-print("Navigating to Row 9...")
+# --- Step 1: Walk to Column 19 Row 6 ---
+print("Walking to (19, 6)...")
 safe_step("Right")
-safe_step("Up")
+safe_step("Right")
+safe_step("Right")
 
-# Walk Right along Row 9 to Column 11
-print("Walking Right to Column 11...")
-for _ in range(6):
-    safe_step("Right")
-
-# Walk Up Column 11 to Row 6
-print("Walking Up to Row 6...")
-safe_step("Up")
+# --- Step 2: Walk Up to Row 4 ---
+print("Walking UP to Row 4...")
 safe_step("Up")
 safe_step("Up")
 
-# Walk Right along Row 6 to Column 21
+# --- Step 3: Walk Right to Column 21 ---
 print("Walking Right to Column 21...")
-for _ in range(10):
-    safe_step("Right")
+safe_step("Right")
+safe_step("Right")
 
-# Walk Left to Column 19
-print("Walking Left to Column 19...")
-safe_step("Left")
-safe_step("Left")
-
-# Walk Up Column 19 to Row 3
-print("Walking Up to Row 3...")
-safe_step("Up")
+# --- Step 4: Walk Up to Row 2 ---
+print("Walking UP to Row 2...")
 safe_step("Up")
 safe_step("Up")
 
-# Walk Right along Row 3 to Column 25
+# --- Step 5: Walk Right to Column 25 ---
 print("Walking Right to Column 25...")
-for _ in range(6):
-    safe_step("Right")
+safe_step("Right")
+safe_step("Right")
+safe_step("Right")
+safe_step("Right")
 
-# Step Right onto the pitfall at (26, 3) to fall to 1F East (landing at 26, 4)
-print("Stepping Right onto the pitfall...")
+# --- Step 6: Walk Down to Row 3 ---
+print("Walking Down to Row 3...")
+safe_step("Down")
+
+# --- Step 7: Step Right onto Pitfall at (26, 3) to Fall ---
+print("Stepping Right onto Pitfall at (26, 3)...")
 mgba.press_buttons(["Right"])
 time.sleep(2.5) # Wait for drop transition
-print("Current position after pitfall drop:", get_pos())
+print("Current position after drop:", get_pos())
 mgba.take_screenshot()
 
-# --- 2. Warp Down to B1F East ---
-# We should land at (26, 4) on 1F East.
-# Let's walk to (21, 2) on 1F East:
-# Left to Column 21, Up to Row 2
-print("Walking to B1F East stairs...")
-for _ in range(5):
-    safe_step("Left")
+# --- Step 8: Walk to B1F East Stairs ---
+# We land on 1F East inside the fenced room at (26, 4).
+# Walk to the B1F East stairs warp landing at (21, 2):
+print("Walking to B1F East stairs landing...")
+safe_step("Left")
+safe_step("Left")
+safe_step("Left")
+safe_step("Left")
+safe_step("Left")
 safe_step("Up")
 safe_step("Up")
 
 # Step Right onto the stairs at (22, 2) to warp down to B1F East
-print("Stepping Right onto B1F East stairs...")
+print("Warping DOWN to B1F East...")
 mgba.press_buttons(["Right"])
 time.sleep(2.5) # Wait for warp
 print("Current position on B1F East:", get_pos())
 mgba.take_screenshot()
 
-# --- 3. Walk to B1F West and Retrieve Secret Key ---
-# We should land at (22, 2) on B1F East.
-# Let's walk to B1F West at (1, 5):
-# B1F East is open along Row 5 in State B.
-# Walk Down to Row 5, then Left all the way to Column 1
+# --- Step 9: Walk to B1F West and Retrieve Secret Key ---
+# We land at (22, 2) on B1F East.
+# Walk Down to Row 5, and Left to Column 1
 print("Walking to B1F West along Row 5...")
 safe_step("Down")
 safe_step("Down")
@@ -113,10 +107,10 @@ for _ in range(21):
 print("Facing Up toward the Secret Key...")
 mgba.press_buttons(["Up", "sleep 300"])
 
-# Interact and press A to retrieve the Secret Key
-print("Retrieving Secret Key...")
+# Retrieve the Secret Key
+print("Retrieving the Secret Key...")
 mgba.press_buttons(["A", "sleep 500"])
 mgba.press_buttons(["A", "sleep 500"])
 mgba.take_screenshot()
 
-print("Mansion key retrieval completed!")
+print("Mansion Key retrieval sequence complete!")
