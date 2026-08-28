@@ -71,25 +71,22 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Starting solve_b1f_and_pickup.py...")
+print("Starting solve_b1f_and_pickup.py (Correct Stairs Approach)...")
 print("Start position:", get_pos())
 
-# 1. Walk from (25, 5) to (22, 2) on 1F East (warp stairs)
+# 1. Walk from (23, 2) to (22, 3)
 steps_to_stairs = [
-    ("Up", (25, 4)),
-    ("Up", (25, 3)),
-    ("Up", (25, 2)),
-    ("Left", (24, 2)),
-    ("Left", (23, 2)),
+    ("Down", (23, 3)),
+    ("Left", (22, 3)),
 ]
-print("Walking to B1F East stairs corridor...")
+print("Walking to B1F East stairs entrance...")
 if not run_safe_steps(steps_to_stairs):
-    print("Failed to reach (23, 2)")
+    print("Failed to reach (22, 3)")
     exit(1)
 
-print("Stepping Left onto stairs at (22, 2) to warp down...")
-mgba.press_buttons(["Left"])
-time.sleep(2.5)
+print("Stepping UP onto stairs to warp down...")
+mgba.press_buttons(["Up"])
+time.sleep(2.0)
 
 pos = get_pos()
 print("Position after warp:", pos)
