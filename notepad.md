@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 1F (Northern Sector, Position: (16, 9))
+- Location: Pokémon Mansion 1F (North Corridor, Position: (12, 7))
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
@@ -64,7 +64,7 @@
 
 ## Active Party (Verified Turn 18571 - Fully Healed at Cinnabar Pok�mon Center)
 1. HYDROS (Blastoise) - Lv 63
-   - Stats: Max HP 211 (HP: 82/211 - PAR), Attack 147, Defense 162, Speed 149, Special 156
+   - Stats: Max HP 211 (HP: 82/211 - PAR)
    - Type: Water
    - Moves: Double-Edge (10/15), Ice Beam (4/10), Bite (23/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
@@ -79,12 +79,12 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 147, Defense 162, Speed 149, Special 156
+   - Stats: Max HP 54 (HP: 54/54)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62), Attack 147, Defense 162, Speed 149, Special 156
+   - Stats: Max HP 62 (HP: 62/62)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Special Sweeper reserve
@@ -2251,7 +2251,6 @@
 - Central Grand Hallway: Columns 4-7, rows 14-27
 - Decorative Displays / Pillars: (3, 24) and (8, 24)
 - Stairs up to 2F: (5, 10) [at north end of central hallway]
-- Stairs down to B1F: (7, 10)
 
 ### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
 - Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
@@ -2264,6 +2263,14 @@
 
 ## Progression & Discoveries
 - Enclosed sector fully mapped (rows 10-27, cols 12-28).
+
+### Northern Landing Sector (Accessible via 3F Right Balcony Drop at (19, 14))
+- Balcony Landing Tile (Arrival): 1F (18, 14) [Departed 3F at (19, 14), Verified Turn 19000]
+- Mewtwo Statue Switch: (15, 11) [Pedestal with switch facing south]
+- Research Journal: (18, 2) on table in northeast office
+- Shutter Gate (West-Central Divider): (9, 4..5) [CLOSED in State B, OPEN in State A]
+- Corridor Passage to West/Central: (9, 10) open walkway connecting col 12 to western rooms (cols 0-8)
+- Corridors: Row 2-7 (cols 10-14, 16-21), Row 10 (cols 8-12), Col 12 (rows 2-11), Col 18-20 (rows 10-15)
 
 
 <hr>
@@ -2367,7 +2374,7 @@
 |---|---|---|---|
 | 3F (16, 14) [Left Pit Drop] | 1F (16, 14) | 1F South Wing (TM03, Scientist Ted) | Confirmed (Turns 18495, 18661) |
 | 3F (17, 14) [Left/Center Pit Drop] | 1F (16, 14) | 1F South Wing (TM03, Scientist Ted) | Confirmed (Turn 18902) |
-| 3F (19, 14) [Right Pit Drop] | 1F (18, 14) | 1F Enclosed Northern Room -> B1F Stairs at (15, 10) | VERIFIED (Turn 19000) |
+| 3F (19, 14) [Right Pit Drop] | 1F (18, 14) | 1F Northern Landing Sector (Journal at (18, 2), Switch at (15, 11)) | VERIFIED (Turn 19000) |
 
 ## Step-by-Step Execution Protocol
 1. Ascend to 3F (6, 2) via 2F (6, 1).
