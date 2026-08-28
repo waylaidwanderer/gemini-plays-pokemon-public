@@ -2408,13 +2408,19 @@
 4. In State A, 1F shutter gate at (24..25, 13) is OPEN.
 5. In State A, traverse south along column 10 to row 22, walk east across the open row 22 hallway to column 25, and ascend north up column 25 to descend the staircase at (25, 14) into B1F!
 
-## Verified 1F Thoroughfares & Route to B1F
-- North Thoroughfare (Row 3): cols 12-27 open horizontal hallway.
-- Northeast Room Doorway: (26, 4) leads south into Northeast Chamber (cols 24-28, rows 4-10).
-- Row 8 Divider: Wall barrier at (20..21, 8) and (24..28, 8). Passable north-south gap at (18..19, 8).
-- Column 12: Wall barrier at (12, 12..13); not a continuous north-south thoroughfare to South Wing.
-- Switch at (15, 11): State A (Default) opens shutter at (24..25, 13).
-- B1F Staircase: Located at 1F (25, 14).
+## Empirically Verified 1F Collision & Barrier Matrix
+| Feature / Coordinate | Type | Details / Open Passages |
+|---|---|---|
+| Col 15 (rows 0-5) | Vertical Wall | Blocks east-west traversal at row 3 between west/east sectors. Passable at row 6-7 (15, 6..7). |
+| Col 14 (rows 16-25) | Vertical Wall | Blocks east traversal from Central Hall at row 22 into Enclosed East Wing. |
+| Row 8 Divider | Horizontal Barrier | Walls/counters at (14..17, 8), (20..21, 8), and (24..28, 8). Passable open gap at (18..19, 8). |
+| Row 16 Divider | Horizontal Wall | Solid wall/fence across cols 18-25 dividing upper and lower east wing. |
+| Rubble Fields | Blocked Tiles | (22..24, 4..5), (23..27, 6..7), (22, 8..15), (26..28, 9). |
+| North Thoroughfare (Row 3) | Open Corridor | Cols 16-27 open east-west corridor above rubble field. |
+| East Alcove (cols 27-28, rows 4-7) | Dead-end Alcove | Open at rows 4-7, blocked at south end by (28, 8) solid wall. |
+| Shutter at (24..25, 13) | Toggle Gate | OPEN in State A (Default), CLOSED in State B (Toggled). Connects rows 10-12 to row 14. |
+| Shutter at (26..27, 27) | Toggle Gate | CLOSED in State A (Default), OPEN in State B (Toggled). Connects Row 27 entrance hall to East Wing. |
+| B1F Staircase | Dungeon Transition | Located at 1F (25, 14) inside the Eastern Sector. |
 
 <hr>
 
