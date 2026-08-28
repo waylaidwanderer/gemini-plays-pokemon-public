@@ -11,7 +11,6 @@
 - Central Grand Hallway: Columns 4-7, rows 14-27
 - Decorative Displays / Pillars: (3, 24) and (8, 24)
 - Stairs up to 2F: (5, 10) [at north end of central hallway]
-- Stairs down to B1F: (7, 10)
 
 ### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
 - Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
@@ -24,3 +23,11 @@
 
 ## Progression & Discoveries
 - Enclosed sector fully mapped (rows 10-27, cols 12-28).
+
+### Northern Landing Sector (Accessible via 3F Right Balcony Drop at (19, 14))
+- Balcony Landing Tile (Arrival): 1F (18, 14) [Departed 3F at (19, 14), Verified Turn 19000]
+- Mewtwo Statue Switch: (15, 11) [Pedestal with switch facing south]
+- Research Journal: (18, 2) on table in northeast office
+- Shutter Gate (West-Central Divider): (9, 4..5) [CLOSED in State B, OPEN in State A]
+- Corridor Passage to West/Central: (9, 10) open walkway connecting col 12 to western rooms (cols 0-8)
+- Corridors: Row 2-7 (cols 10-14, 16-21), Row 10 (cols 8-12), Col 12 (rows 2-11), Col 18-20 (rows 10-15)

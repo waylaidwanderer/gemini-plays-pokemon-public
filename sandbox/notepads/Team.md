@@ -2,7 +2,7 @@
 
 ## Active Party (Verified Turn 18571 - Fully Healed at Cinnabar Pok�mon Center)
 1. HYDROS (Blastoise) - Lv 63
-   - Stats: Max HP 211 (HP: 82/211 - PAR), Attack 147, Defense 162, Speed 149, Special 156
+   - Stats: Max HP 211 (HP: 82/211 - PAR)
    - Type: Water
    - Moves: Double-Edge (10/15), Ice Beam (4/10), Bite (23/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
@@ -17,12 +17,12 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54), Attack 147, Defense 162, Speed 149, Special 156
+   - Stats: Max HP 54 (HP: 54/54)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62), Attack 147, Defense 162, Speed 149, Special 156
+   - Stats: Max HP 62 (HP: 62/62)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Special Sweeper reserve
