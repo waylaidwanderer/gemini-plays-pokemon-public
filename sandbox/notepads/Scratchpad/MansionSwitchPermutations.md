@@ -37,3 +37,15 @@
 3. Toggled 2F Mewtwo statue switch at (2, 11) to State A.
 4. In State A, 1F shutter gate at (24..25, 13) is OPEN.
 5. On 1F (State A), traverse via (12, 6) -> (17, 6) -> (17, 14) into South Wing, walk to (24, 16) -> (24, 13), pass through open shutter into Northeast Chamber, and descend to B1F!
+
+## Verified Post-Landing Route (1F Landing Site (18, 14) -> B1F Staircase (25, 14))
+1. Landing Arrival: Drop through 3F Right Balcony Pit at (19, 14) -> Lands on 1F at (18, 14).
+2. Switch Verification:
+   - Walk west to (15, 14), north to (15, 12) facing statue at (15, 11).
+   - Verify switch is in State A (Default). If in State B, press 'A' to toggle to State A (opens shutter at (24..25, 13)).
+3. Route to B1F Staircase:
+   - From (15, 12), walk south to (15, 14), west to (12, 14).
+   - Walk south down column 12 to (12, 21).
+   - Walk east along row 21 to (25, 21).
+   - Walk north up column 25 to (25, 14).
+4. Descent: Step onto staircase at (25, 14) -> Map Transition to PokemonMansionB1F!
