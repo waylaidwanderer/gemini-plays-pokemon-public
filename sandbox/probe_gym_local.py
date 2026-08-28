@@ -5,65 +5,33 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting local probe from (9, 11)...")
+print("Starting local probe from (10, 9)...")
 
-# 1. Step Right to (10, 11)
-mgba.press_buttons(["Right"])
-time.sleep(0.55)
-pos = get_pos()
-print("Tried Right from (9, 11). Landed at:", pos)
+# Steps:
+# 1. Right to (11, 9)
+# 2. Right to (12, 9)
+# 3. Right to (13, 9)
+# 4. Right to (14, 9)
+# 5. Right to (15, 9)
+steps = [
+    ("Right", (11, 9)),
+    ("Right", (12, 9)),
+    ("Right", (13, 9)),
+    ("Right", (14, 9)),
+    ("Right", (15, 9))
+]
 
-if pos == (10, 11):
-    # 2. Test Right to (11, 11)
-    mgba.press_buttons(["Right"])
+for d, c in steps:
+    # Ensure no battle/dialogue
+    mgba.press_buttons(["B"])
+    time.sleep(0.1)
+    
+    old_pos = get_pos()
+    mgba.press_buttons([d])
     time.sleep(0.55)
-    pos2 = get_pos()
-    print("Tried Right from (10, 11). Landed at:", pos2)
-    if pos2 == (11, 11):
-        mgba.press_buttons(["Left"])
-        time.sleep(0.55)
-    elif pos2 != (10, 11):
-        print(f"SPUN from (10, 11) Right to {pos2}")
-        exit(0)
-        
-    # 3. Test Up to (10, 10)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.55)
-    pos3 = get_pos()
-    print("Tried Up from (10, 11). Landed at:", pos3)
-    if pos3 == (10, 10):
-        # 4. Test Up to (10, 9)
-        mgba.press_buttons(["Up"])
-        time.sleep(0.55)
-        pos4 = get_pos()
-        print("Tried Up from (10, 10). Landed at:", pos4)
-        if pos4 == (10, 9):
-            mgba.press_buttons(["Down"])
-            time.sleep(0.55)
-        elif pos4 != (10, 10):
-            print(f"SPUN from (10, 10) Up to {pos4}")
-            exit(0)
-            
-        # 5. Test Right to (11, 10)
-        pos_current = get_pos()
-        if pos_current == (10, 10):
-            mgba.press_buttons(["Right"])
-            time.sleep(0.55)
-            pos5 = get_pos()
-            print("Tried Right from (10, 10). Landed at:", pos5)
-            if pos5 == (11, 10):
-                mgba.press_buttons(["Left"])
-                time.sleep(0.55)
-            elif pos5 != (10, 10):
-                print(f"SPUN from (10, 10) Right to {pos5}")
-                exit(0)
-                
-        # Walk back Down to (10, 11)
-        mgba.press_buttons(["Down"])
-        time.sleep(0.55)
-        
-    # Walk back Left to (9, 11)
-    mgba.press_buttons(["Left"])
-    time.sleep(0.55)
-
-print("Final position:", get_pos())
+    new_pos = get_pos()
+    print(f"Tried {d} from {old_pos}. Landed at: {new_pos}")
+    
+    if new_pos != c:
+        print(f"Offset detected! Expected {c}, got {new_pos}. Aborting.")
+        break
