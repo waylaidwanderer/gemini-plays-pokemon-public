@@ -16,18 +16,18 @@ def step(direction):
 
 print(f"Walking from current B1F position {get_pos()} to B1F East stairs at (22, 2)...")
 
-# 1. Walk Up Column 18 to Row 5
+# 1. Walk Up Column 18 from Row 7 to Row 4
+step("Up")
 step("Up")
 step("Up")
 
-# 2. Walk Right along Row 5 to Column 22
+# 2. Walk Right along Row 4 to Column 22
 step("Right")
 step("Right")
 step("Right")
 step("Right")
 
 # 3. Walk Up Column 22 to the stairs at (22, 2)
-step("Up")
 step("Up")
 step("Up")
 
