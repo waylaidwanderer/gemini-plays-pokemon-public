@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 6/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge)
-- Location: Pokémon Mansion 2F (6, 3) [Turn 18721]; Ascending to 3F to toggle switch and test right balcony drop for B1F Secret Key access.
+- Location: Pokémon Mansion 2F (26, 19) [Turn 18751]; Navigating north along col 26 to row 1, then west to 3F stairs at (6, 1).
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
