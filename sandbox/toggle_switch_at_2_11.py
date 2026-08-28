@@ -20,11 +20,11 @@ def handle_any_menu_or_battle():
                 
     percentage = black_or_white / total_pixels
     if percentage > 0.90:
-        print(f"Menu/Dialogue/Battle detected! (B/W: {percentage*100:.2f}%)")
+        print(f"Menu/Dialogue detected! (B/W: {percentage*100:.2f}%)")
         mgba.press_buttons(["B"])
         time.sleep(0.4)
         
-        # Check if still in battle/dialogue
+        # Check if still in battle
         scr_file2 = mgba.take_screenshot()
         img2 = Image.open(scr_file2)
         img_std2 = img2.resize((160, 144), Image.Resampling.NEAREST)
@@ -38,10 +38,11 @@ def handle_any_menu_or_battle():
         percentage2 = black_or_white2 / total_pixels
         
         if percentage2 > 0.90:
-            print("Still in battle/dialogue. Attempting to RUN...")
+            print("Still in battle. Running...")
             mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
             time.sleep(1.5)
-            for _ in range(5):
+            # Dismiss run text
+            for _ in range(4):
                 mgba.press_buttons(["B"])
                 time.sleep(0.3)
         return True
@@ -69,48 +70,52 @@ def run_steps(steps):
             return False
     return True
 
-# Ensure menus are closed
-for _ in range(3):
-    handle_any_menu_or_battle()
-    time.sleep(0.1)
+# Ensure menu is closed
+mgba.press_buttons(["B"])
+time.sleep(0.3)
 
 pos = mgba.get_coordinates()
-print(f"Starting toggle sequence from position: {pos}")
+print("Starting position:", pos)
 
-# 1. Walk from (3, 10) to (2, 12)
-steps_to_switch = [
-    ("Down", {"x": 3, "y": 11}),
-    ("Down", {"x": 3, "y": 12}),
-    ("Left", {"x": 2, "y": 12}),
-]
-if not run_steps(steps_to_switch):
-    print("Failed to reach (2, 12)")
-    exit(1)
+# Walk from (3, 10) to (2, 12)
+if pos == {"x": 3, "y": 10}:
+    if not run_steps([
+        ("Down", {"x": 3, "y": 11}),
+        ("Down", {"x": 3, "y": 12}),
+        ("Left", {"x": 2, "y": 12})
+    ]):
+        print("Failed to reach (2, 12)")
+        exit(1)
+    pos = mgba.get_coordinates()
 
-# 2. Face UP towards statue at (2, 11)
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(0.4)
-
-# 3. Toggle switch with exactly 4 A-presses
-print("Toggling Mewtwo Switch to State B...")
-mgba.press_buttons([
-    "A", "sleep 400",
-    "A", "sleep 400",
-    "A", "sleep 400",
-    "A"
-])
-time.sleep(1.5)
-
-# 4. Verify gate is open by walking to (3, 9)
-print("Walking to verify State B gate...")
-steps_verify = [
-    ("Right", {"x": 3, "y": 12}),
-    ("Up", {"x": 3, "y": 11}),
-    ("Up", {"x": 3, "y": 10}),
-    ("Up", {"x": 3, "y": 9}),
-]
-if run_steps(steps_verify):
-    print("SUCCESS: Gate is open! Mansion is in State B!")
+if pos == {"x": 2, "y": 12}:
+    print("Facing UP toward Mewtwo switch at (2, 11)...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    # Toggle switch to State B (requires exactly 4 A-presses)
+    print("Toggling switch...")
+    mgba.press_buttons([
+        "A", "sleep 500",
+        "A", "sleep 500",
+        "A", "sleep 500",
+        "A"
+    ])
+    time.sleep(1.5)
+    
+    # Walk back to Column 3 and UP to Row 6 to confirm State B
+    if not run_steps([
+        ("Right", {"x": 3, "y": 12}),
+        ("Up", {"x": 3, "y": 11}),
+        ("Up", {"x": 3, "y": 10}),
+        ("Up", {"x": 3, "y": 9}),
+        ("Up", {"x": 3, "y": 8}),
+        ("Up", {"x": 3, "y": 7}),
+        ("Up", {"x": 3, "y": 6}),
+    ]):
+        print("Failed to navigate to Row 6 after toggling switch!")
+        exit(1)
+    print("Successfully toggled switch and navigated past Row 9!")
 else:
-    print("FAILURE: Gate is still blocked! Switch did not toggle.")
+    print("Unexpected position:", pos)
+    exit(1)
