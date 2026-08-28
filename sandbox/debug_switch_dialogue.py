@@ -1,40 +1,65 @@
 import mgba
 import time
+from PIL import Image
 
 def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
 def step(direction):
+    old_pos = get_pos()
     mgba.press_buttons([direction])
     time.sleep(0.55)
     return get_pos()
 
-print("Start position:", get_pos())
-
-# 1. Walk to (2, 12)
+print("Moving to (2, 12)...")
 pos = get_pos()
 if pos == (1, 10):
     step("Down")
     step("Down")
     step("Right")
 elif pos == (2, 12):
-    print("Already at switch position!")
+    pass
 else:
-    print("Error: Unknown starting position:", pos)
-    exit(1)
+    print("Warning: unexpected starting position", pos)
 
-# 2. Turn UP towards statue
 print("Facing UP...")
 mgba.press_buttons(["Up"])
-time.sleep(0.6)
+time.sleep(1.0)
 
-# 3. Press A 10 times, taking a screenshot after each press, and sleep 1.2s in between
-print("Starting switch dialogue test...")
-for i in range(1, 11):
-    mgba.press_buttons(["A"])
-    time.sleep(1.2)
-    scr = mgba.take_screenshot()
-    print(f"A-press {i}/10 complete. Screenshot saved: {scr}")
+# Press A once
+print("Pressing A (1)...")
+mgba.press_buttons(["A"])
+time.sleep(1.2)
+scr1 = mgba.take_screenshot()
+print("Saved screenshot 1:", scr1)
 
-print("Test complete!")
+# Press A twice
+print("Pressing A (2)...")
+mgba.press_buttons(["A"])
+time.sleep(1.2)
+scr2 = mgba.take_screenshot()
+print("Saved screenshot 2:", scr2)
+
+# Press A three times
+print("Pressing A (3)...")
+mgba.press_buttons(["A"])
+time.sleep(1.2)
+scr3 = mgba.take_screenshot()
+print("Saved screenshot 3:", scr3)
+
+# Press A four times
+print("Pressing A (4)...")
+mgba.press_buttons(["A"])
+time.sleep(1.2)
+scr4 = mgba.take_screenshot()
+print("Saved screenshot 4:", scr4)
+
+# Press A five times
+print("Pressing A (5)...")
+mgba.press_buttons(["A"])
+time.sleep(1.2)
+scr5 = mgba.take_screenshot()
+print("Saved screenshot 5:", scr5)
+
+print("Final position:", get_pos())
