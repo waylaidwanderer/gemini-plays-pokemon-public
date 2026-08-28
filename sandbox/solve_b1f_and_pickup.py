@@ -71,50 +71,32 @@ def run_safe_steps(steps):
             return False
     return True
 
-print("Starting solve_b1f_and_pickup.py (Correct Stairs Approach)...")
+print("Starting solve_b1f_and_pickup.py (Row 3 Column 19 Bypass)...")
 print("Start position:", get_pos())
 
-# 1. Walk from (23, 2) to (22, 3)
-steps_to_stairs = [
-    ("Down", (23, 3)),
-    ("Left", (22, 3)),
+# 1. Walk from (21, 4) to Column 19 Row 5 via Row 3
+steps_to_row_5 = [
+    ("Up", (21, 3)),
+    ("Left", (20, 3)),
+    ("Left", (19, 3)),
+    ("Down", (19, 4)),
+    ("Down", (19, 5)),
 ]
-print("Walking to B1F East stairs entrance...")
-if not run_safe_steps(steps_to_stairs):
-    print("Failed to reach (22, 3)")
+print("Walking to B1F Row 5 via Column 19...")
+if not run_safe_steps(steps_to_row_5):
+    print("Failed to reach B1F Row 5")
     exit(1)
 
-print("Stepping UP onto stairs to warp down...")
-mgba.press_buttons(["Up"])
-time.sleep(2.0)
+# 2. Walk straight Left on Row 5 to Column 1 (Secret Key room)
+steps_left = []
+for x in range(18, 0, -1):
+    steps_left.append(("Left", (x, 5)))
+print("Walking LEFT to Secret Key room...")
+if not run_safe_steps(steps_left):
+    print("Failed to reach B1F West")
+    exit(1)
 
 pos = get_pos()
-print("Position after warp:", pos)
-
-# 2. Cross B1F East to B1F West NORTH
-if pos == (22, 2) or pos == (22, 3):
-    print("Crossing B1F East to B1F West NORTH...")
-    if pos[1] == 2:
-        safe_step("Down")
-    
-    # Walk: Left to (21, 3) -> Down to (21, 5)
-    if not run_safe_steps([
-        ("Left", (21, 3)),
-        ("Down", (21, 4)),
-        ("Down", (21, 5)),
-    ]):
-        print("Failed to reach Column 21 Row 5")
-        exit(1)
-        
-    # Walk straight Left on Row 5 to Column 1 (Secret Key room)
-    steps_left = []
-    for x in range(20, 0, -1):
-        steps_left.append(("Left", (x, 5)))
-    if not run_safe_steps(steps_left):
-        print("Failed to reach B1F West")
-        exit(1)
-        
-    pos = get_pos()
 
 # 3. Pick up the Secret Key!
 if pos == (1, 5):
