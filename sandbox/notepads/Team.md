@@ -2,7 +2,7 @@
 
 ## Active Party (Verified Turn 18571 - Fully Healed at Cinnabar Pok�mon Center)
 1. HYDROS (Blastoise) - Lv 62
-   - Stats: Max HP 207 (HP: 129/207), Attack 144, Defense 159, Speed 146, Special 153
+   - Stats: Max HP 207 (HP: 106/207 - PAR), Attack 144, Defense 159, Speed 146, Special 153
    - Type: Water
    - Moves: Double-Edge (12/15), Ice Beam (6/10), Bite (25/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
