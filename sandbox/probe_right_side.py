@@ -14,41 +14,74 @@ def step(direction):
     print(f"New position: {new_pos}")
     return new_pos
 
-# First walk back to (8, 11) from (5, 9)
-# Known walkable path: (5, 9) -> (6, 9) -> (6, 10) -> (6, 11) -> (7, 11) -> (8, 11)
-print("Walking back to (8, 11)...")
-step("Right")
-step("Down")
-step("Down")
-step("Right")
-step("Right")
+def run_away_or_battle():
+    print("Dialogue/Battle detected! Clearing...")
+    for _ in range(5):
+        mgba.press_buttons(["B", "sleep 300"])
+    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 600"])
+    mgba.press_buttons(["B", "sleep 300"])
 
-# From (8, 11), walk down to (8, 14)
-# Known path: (8, 11) -> (8, 12) -> (8, 13) -> (8, 14)
-# Wait, is (8, 12) a spin tile? Yes, (8, 12) is a spin tile that sends us to (9, 11)!
-# Ah! So we cannot walk down Column 8 because (8, 12) is a spin tile!
-# But we can walk down Column 9!
-# Known path to B1F East/Gym East:
-# (8, 11) -> (9, 11) -> (9, 12)? Wait, let's see if we can walk (9, 11) -> (9, 12) -> (9, 13) -> (9, 14).
-# Let's test walking down Column 9.
-print("Walking down Column 9 to Row 14...")
-step("Right") # to (9, 11)
-step("Down")  # to (9, 12)? Let's see if this is walkable
-step("Down")  # to (9, 13)?
-step("Down")  # to (9, 14)?
+def safe_step(direction):
+    old_pos = get_pos()
+    new_pos = step(direction)
+    if new_pos == old_pos:
+        time.sleep(0.5)
+        if get_pos() != old_pos:
+            run_away_or_battle()
+            time.sleep(1.0)
+            return step(direction)
+        else:
+            print("BLOCKED physically")
+            return old_pos
+    return new_pos
 
-# Try to walk Right on Row 14
-print("Probing Right on Row 14...")
-for x in range(10, 16):
-    pos = get_pos()
-    mgba.press_buttons(["Right"])
-    time.sleep(0.45)
-    new_pos = get_pos()
-    if pos == new_pos:
-        print(f"Blocked going Right at {pos}")
-        break
-    else:
-        print(f"Moved Right to {new_pos}")
+# Walk from (16, 3) to Row 6:
+# Down, Down, Down
+print("Walking to Row 6 Column 16...")
+safe_step("Down")
+safe_step("Down")
+safe_step("Down")
 
-print("Probing complete!")
+# Walk to Column 21 on Row 6
+print("Walking to Column 21 on Row 6...")
+for _ in range(5):
+    safe_step("Right")
+
+# Try to step Right to Column 22 on Row 6
+print("Probing step Right from (21, 6) to (22, 6)...")
+p_6 = safe_step("Right")
+if p_6 != (21, 6):
+    print("SUCCESS: Row 6 Column 22 is Walkable!")
+    safe_step("Left") # Step back
+else:
+    print("Row 6 Column 22 is BLOCKED")
+
+# Walk to Row 7 Column 21
+print("Moving to Row 7 Column 21...")
+safe_step("Down")
+
+# Try to step Right to Column 22 on Row 7
+print("Probing step Right from (21, 7) to (22, 7)...")
+p_7 = safe_step("Right")
+if p_7 != (21, 7):
+    print("SUCCESS: Row 7 Column 22 is Walkable!")
+    safe_step("Left")
+else:
+    print("Row 7 Column 22 is BLOCKED")
+
+# Walk to Row 4 Column 21
+print("Moving to Row 4 Column 21...")
+safe_step("Up")
+safe_step("Up")
+safe_step("Up")
+
+# Try to step Right to Column 22 on Row 4
+print("Probing step Right from (21, 4) to (22, 4)...")
+p_4 = safe_step("Right")
+if p_4 != (21, 4):
+    print("SUCCESS: Row 4 Column 22 is Walkable!")
+    safe_step("Left")
+else:
+    print("Row 4 Column 22 is BLOCKED")
+
 mgba.take_screenshot()
