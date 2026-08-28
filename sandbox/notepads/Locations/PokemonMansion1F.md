@@ -1,7 +1,7 @@
-# Pok�mon Mansion 1F - Layout & Exploration
+# Pokémon Mansion 1F - Layout & Exploration
 
 ## Overview
-- First floor of the ruined Pok�mon Mansion in northwest Cinnabar Island.
+- First floor of the ruined Pokémon Mansion in northwest Cinnabar Island.
 - Features red carpet grand entrance, marble floors, Mewtwo statue switches, ruined walls, and an enclosed eastern wing accessible only by dropping from 3F.
 
 ## Layout & Landmarks
@@ -33,6 +33,7 @@
 - Corridors: Row 2-7 (cols 10-14, 16-21), Row 10 (cols 8-12), Col 12 (rows 2-11), Col 18-20 (rows 10-15)
 
 ### B1F Staircase Chamber (Northeast Wing)
-- B1F Descending Staircase: Located at (24..25, 8).
+- B1F Descending Staircase: Located at (24..25, 8..9), entered from north at (24..25, 7) facing Down into (24, 8) / (25, 8).
 - Entrance Doorway: Located at (26, 4) accessed from northern hallway row 3 (cols 12-26).
-- Traversal Corridor: Column 26 (rows 4-8) connects row 3 to B1F staircase at (25, 8).
+- Traversal Corridor: Column 26 (rows 4-10) and Column 23 (rows 7-10) connect around staircase.
+- Shutter Gate (South Wall): (24..25, 13) connects directly south to Enclosed South Wing. OPEN in State A, CLOSED in State B.
