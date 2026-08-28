@@ -123,6 +123,7 @@
 - HM03 Surf: Usable outside battle with Soul Badge on water tiles.
 - HM04 Strength: Party menu -> STRENGTH activates boulder-moving capability for active map. Walking into a boulder displaces it 1 tile in the walking direction.
 
+6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pokmon Mansion 2F; sent to Box 1]
 
 <hr>
 
