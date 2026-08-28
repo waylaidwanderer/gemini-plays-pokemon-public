@@ -66,7 +66,7 @@
 1. HYDROS (Blastoise) - Lv 63
    - Stats: Max HP 211 (HP: 56/211 - PAR)
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (4/10), Bite (17/25), Surf (0/15)
+   - Moves: Double-Edge (9/15), Ice Beam (4/10), Bite (16/25), Surf (0/15)
    - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46)
@@ -2271,6 +2271,11 @@
 - Shutter Gate (West-Central Divider): (9, 4..5) [CLOSED in State B, OPEN in State A]
 - Corridor Passage to West/Central: (9, 10) open walkway connecting col 12 to western rooms (cols 0-8)
 - Corridors: Row 2-7 (cols 10-14, 16-21), Row 10 (cols 8-12), Col 12 (rows 2-11), Col 18-20 (rows 10-15)
+
+### B1F Staircase Chamber (Northeast Wing)
+- B1F Descending Staircase: Located at (24..25, 8).
+- Entrance Doorway: Located at (26, 4) accessed from northern hallway row 3 (cols 12-26).
+- Traversal Corridor: Column 26 (rows 4-8) connects row 3 to B1F staircase at (25, 8).
 
 
 <hr>
