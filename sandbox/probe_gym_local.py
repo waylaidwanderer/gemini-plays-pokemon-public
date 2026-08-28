@@ -5,16 +5,18 @@ def get_pos():
     pos = mgba.get_coordinates()
     return (pos['x'], pos['y'])
 
-print("Starting Row 1 Leftward search from:", get_pos())
+print("Starting platform probe from current position:", get_pos())
 
-# Steps from (16, 1):
-# 1. Left to (15, 1)
-# ...
-# 10. Left to (6, 1)
-steps = []
-for x in range(15, 5, -1):
-    steps.append(("Left", (x, 1)))
-    
+# Steps from (6, 1):
+# 1. Down to (6, 2)
+# 2. Down to (6, 3)
+# 3. Down to (6, 4) (platform!)
+steps = [
+    ("Down", (6, 2)),
+    ("Down", (6, 3)),
+    ("Down", (6, 4))
+]
+
 for d, c in steps:
     mgba.press_buttons(["B"])
     time.sleep(0.1)
