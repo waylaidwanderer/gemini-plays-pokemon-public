@@ -64,26 +64,27 @@ def safe_step(direction, expected_coords=None, max_attempts=15):
     print(f"ERROR: Could not step {direction} from {old_pos}")
     return False
 
-# Starting at (7, 11) on 3F West
-print("Navigating to 3F West switch from current:", get_pos())
+# We are at (7, 11) on 3F West
+print("Navigating from current:", get_pos())
 
-# Path to (2, 12):
-# 1. Down to (7, 12), then Down to (7, 13)
-# 2. Left to (6, 13), Left to (5, 13)
-# 3. Up to (5, 12), Up to (5, 11)
-# 4. Left to (4, 11), Left to (3, 11), Left to (2, 11)
-# 5. Down to (2, 12)
+# Steps to bypass the staircase and the Burglar:
+# 1. Left to (6, 11)
+# 2. Up to (6, 10)
+# 3. Left to (5, 10)
+# 4. Left to (4, 10)
+# 5. Left to (3, 10)
+# 6. Down to (3, 11)
+# 7. Down to (3, 12)
+# 8. Left to (2, 12)
 steps = [
-    ("Down", (7, 12)),
-    ("Down", (7, 13)),
-    ("Left", (6, 13)),
-    ("Left", (5, 13)),
-    ("Up", (5, 12)),
-    ("Up", (5, 11)),
-    ("Left", (4, 11)),
-    ("Left", (3, 11)),
-    ("Left", (2, 11)),
-    ("Down", (2, 12)),
+    ("Left", (6, 11)),
+    ("Up", (6, 10)),
+    ("Left", (5, 10)),
+    ("Left", (4, 10)),
+    ("Left", (3, 10)),
+    ("Down", (3, 11)),
+    ("Down", (3, 12)),
+    ("Left", (2, 12)),
 ]
 
 success = True
