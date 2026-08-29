@@ -1,11 +1,9 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Global Badges & Progression Status
-- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Marsh).
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Outstanding Gyms:**
-  - Cinnabar Gym (Blaine) - Volcano Badge (target #6) - Locked.
-  - Fuchsia Gym (Koga) - Soul Badge (target #7) - Accessible.
-  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Locked.
+  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Unlocked and Accessible.
 
 ## Saffron City Gates & Gym Status
 - **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
