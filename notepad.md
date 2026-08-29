@@ -1795,4 +1795,15 @@ Whenever a `SYSTEM NOTE: Map Transition Detected` is received, or when entering 
 - **Solid Wall at Column 4 Row 8:** Column 4 Row 8 has been physically verified to be a solid permanent vertical wall separating Columns 1-3 from Column 5 (Turn 66401).
 - **Gate at (2, 12) is CLOSED in State B:** Standing at `(2, 13)` and trying to walk UP to `(2, 12)` fails in State B (Turn 66415).
 
+## Southwest Pocket of 3F West - Physical Boundaries (Verified Turn 66512)
+- **Column 1 Row 9 Shutter Gate:** Closed in State A (visible as red-and-black gate), Open in State B (walkable, displays background rubble graphic).
+- **Column 2 Row 12 Shutter Gate:** Open in State A (walkable, displays background rubble graphic), Closed in State B (blocked, displays rubble graphic).
+- **(6, 7) Rubble Block:** Solid rubble graphic at `(6, 7)` is completely impassable on Row 7.
+- **(7, 12) Boundary:** Blocked on DOWN (impassable wall/rubble).
+- **(8, 12) Boundary:** Blocked on RIGHT (impassable wall/rubble).
+- **(10, 10) Boundary:** Blocked on RIGHT (solid column 11 wall).
+- **(10, 9) through (10, 13) Rubble Column:** Column 10 is completely blocked by solid, impassable rubble on Rows 9 to 13, preventing direct vertical transit on Column 10 and horizontal transit between Column 9 and 10 on these rows.
+- **(1, 12) Walkability:** Blocked on LEFT (wall), Blocked on RIGHT (closed gate/rubble at (2, 12) in State B). Open on UP (to (1, 11)) and Open on DOWN (to (1, 13)).
+- **(1, 13) through (5, 13) Row 13 Corridor:** Completely open and walkable in both states, providing an essential bypass route to reach the southwesternmost corner of the floor.
+
 <hr>
