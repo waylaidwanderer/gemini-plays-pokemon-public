@@ -1,102 +1,110 @@
+from PIL import Image, ImageChops
 import mgba
 import time
 
-def move_test(step, target_x, target_y):
+def is_in_battle():
+    img1_path = mgba.take_screenshot()
+    img1 = Image.open(img1_path)
+    mgba.press_buttons(["Start"])
+    time.sleep(0.2)
+    img2_path = mgba.take_screenshot()
+    img2 = Image.open(img2_path)
+    diff = ImageChops.difference(img1, img2)
+    bbox = diff.getbbox()
+    if bbox is None:
+        print("is_in_battle: TRUE")
+        return True
+    else:
+        print("is_in_battle: FALSE. Closing menu...")
+        mgba.press_buttons(["Start"])
+        time.sleep(0.2)
+        return False
+
+def handle_battle_escape():
+    print("handle_battle_escape: ESCAPING BATTLE...")
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.5)
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+
+def move_safe_battle(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
-    print(f"probe: Pressing '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
+    print(f"move_safe_battle: Moving '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
     mgba.press_buttons([step])
     time.sleep(0.4)
     pos_after = mgba.get_coordinates()
-    if pos_before == pos_after:
-        print("probe: BUMPED.")
-        return None
-    return pos_after
+    
+    attempts = 0
+    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 6:
+        # Check if we fell (landing at (25, 6) on 1F East)
+        if target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6:
+            print("move_safe_battle: Successfully fell through the pit!")
+            break
+        # General fall check: if we are at (25, 6) or any other 1F location
+        # On 1F, coordinates of the fenced room are (25, 6), (26, 4) etc.
+        # But wait, is our map actually changed? Yes.
+            
+        if pos_before == pos_after:
+            print("move_safe_battle: Position did not change. Checking battle...")
+            if is_in_battle():
+                handle_battle_escape()
+            else:
+                print("move_safe_battle: Turn-in-place or wall. Bailing...")
+                return False
+        else:
+            print(f"move_safe_battle: Moved but to {pos_after} instead of target ({target_x}, {target_y}). Checking battle...")
+            if is_in_battle():
+                handle_battle_escape()
+            else:
+                print("move_safe_battle: Unexpected overworld movement.")
+                
+        print(f"move_safe_battle: Retrying step '{step}'...")
+        mgba.press_buttons([step])
+        time.sleep(0.4)
+        pos_before = pos_after
+        pos_after = mgba.get_coordinates()
+        attempts += 1
+        
+    return True
 
 def main():
-    # We are at (26, 5).
-    # Let's test stepping Down, Left, Right to find any pitfalls.
-    # Note: If we fall, the script will output coordinates of our new position (which will be 1F East).
-    print("probe_3f_east: Starting...")
+    print("probe_3f_east: Starting from (26, 5)...")
     
-    # Let's walk to (25, 5)
-    pos = move_test("Left", 25, 5)
-    if not pos: return
-    
-    # Test Left to (24, 5)
-    print("Testing (24, 5)...")
-    pos = move_test("Left", 24, 5)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Right", 25, 5)
+    # Let's test going Left to (25, 5) then Down to (25, 6)
+    print("Testing (25, 6) via (25, 5)...")
+    if move_safe_battle("Left", 25, 5):
+        # Now try to step Down to (25, 6)
+        print("Stepping Down to (25, 6)...")
+        mgba.press_buttons(["Down"])
+        time.sleep(1.0)
+        pos = mgba.get_coordinates()
+        print(f"Position after stepping Down: {pos}")
+        if pos['x'] != 25 or pos['y'] != 6:
+            print("We must have fell or moved elsewhere!")
+            return
+        # Walk back Up if we didn't fall
+        move_safe_battle("Up", 25, 5)
+        move_safe_battle("Right", 26, 5)
         
-    # Test Down to (25, 6)
-    print("Testing (25, 6)...")
-    pos = move_test("Down", 25, 6)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Up", 25, 5)
+    # Let's test going Right to (27, 5) then Down to (27, 6)
+    print("Testing (27, 6) via (27, 5)...")
+    if move_safe_battle("Right", 27, 5):
+        # Now try to step Down to (27, 6)
+        print("Stepping Down to (27, 6)...")
+        mgba.press_buttons(["Down"])
+        time.sleep(1.0)
+        pos = mgba.get_coordinates()
+        print(f"Position after stepping Down: {pos}")
+        if pos['x'] != 27 or pos['y'] != 6:
+            print("We must have fell or moved elsewhere!")
+            return
+        # Walk back Up if we didn't fall
+        move_safe_battle("Up", 27, 5)
+        move_safe_battle("Left", 26, 5)
         
-    # Walk to (26, 5)
-    move_test("Right", 26, 5)
-    
-    # Walk to (27, 5)
-    pos = move_test("Right", 27, 5)
-    if not pos: return
-    
-    # Test Right to (28, 5)
-    print("Testing (28, 5)...")
-    pos = move_test("Right", 28, 5)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Left", 27, 5)
-        
-    # Test Down to (27, 6)
-    print("Testing (27, 6)...")
-    pos = move_test("Down", 27, 6)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Up", 27, 5)
-        
-    # Walk to (26, 5)
-    move_test("Left", 26, 5)
-    
-    # Walk Up to (26, 4)
-    pos = move_test("Up", 26, 4)
-    if not pos: return
-    
-    # Test Left to (25, 4)
-    print("Testing (25, 4)...")
-    pos = move_test("Left", 25, 4)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Right", 26, 4)
-        
-    # Test Right to (27, 4)
-    print("Testing (27, 4)...")
-    pos = move_test("Right", 27, 4)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Left", 26, 4)
-        
-    # Walk Up to (26, 3)
-    pos = move_test("Up", 26, 3)
-    if not pos: return
-    
-    # Test Right to (27, 3)
-    print("Testing (27, 3)...")
-    pos = move_test("Right", 27, 3)
-    if pos:
-        print(f"Succeeded! New pos: {pos}")
-        # Walk back
-        move_test("Left", 26, 3)
-        
-    print("Completed probing. Let's see the results!")
+    print("Probing completed. No pitfall found on (25, 6) or (27, 6).")
 
 if __name__ == "__main__":
     main()
