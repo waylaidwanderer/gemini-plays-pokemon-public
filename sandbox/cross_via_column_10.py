@@ -70,57 +70,79 @@ def move_safe_battle(step, target_x, target_y):
     return pos_after['x'] == target_x and pos_after['y'] == target_y
 
 def main():
-    print("cross_via_column_10: Starting from (9, 10)...")
+    print("cross_via_column_10: Starting from current position (6, 11)...")
     pos = mgba.get_coordinates()
     print(f"Start: {pos}")
     
-    # 1. Walk Up to (9, 9)
-    if pos['x'] == 9 and pos['y'] == 10:
-        if not move_safe_battle("Up", 9, 9): return
+    # 1. Walk Right to (7, 11)
+    if pos['x'] == 6 and pos['y'] == 11:
+        if not move_safe_battle("Right", 7, 11): return
         
     pos = mgba.get_coordinates()
-    # 2. Walk Left to (6, 9)
+    # 2. Walk Down to (7, 12)
+    if pos['x'] == 7 and pos['y'] == 11:
+        if not move_safe_battle("Down", 7, 12): return
+        
+    pos = mgba.get_coordinates()
+    # 3. Walk Right to (10, 12)
+    if pos['y'] == 12 and pos['x'] < 10:
+        for x in range(pos['x'] + 1, 11):
+            if not move_safe_battle("Right", x, 12): return
+            
+    pos = mgba.get_coordinates()
+    # 4. Walk Up Column 10 to Row 9 (10, 9)
+    if pos['x'] == 10 and pos['y'] > 9:
+        for y in range(pos['y'] - 1, 8, -1):
+            if not move_safe_battle("Up", 10, y): return
+            
+    pos = mgba.get_coordinates()
+    # 5. Walk Left to (9, 9)
+    if pos['x'] == 10 and pos['y'] == 9:
+        if not move_safe_battle("Left", 9, 9): return
+        
+    pos = mgba.get_coordinates()
+    # 6. Walk Left to (6, 9)
     if pos['y'] == 9 and pos['x'] > 6:
         for x in range(pos['x'] - 1, 5, -1):
             if not move_safe_battle("Left", x, 9): return
             
     pos = mgba.get_coordinates()
-    # 3. Walk Up to (6, 7)
+    # 7. Walk Up Column 6 to Row 7 (6, 7)
     if pos['x'] == 6 and pos['y'] > 7:
         for y in range(pos['y'] - 1, 6, -1):
             if not move_safe_battle("Up", 6, y): return
             
     pos = mgba.get_coordinates()
-    # 4. Walk Right to (10, 7)
+    # 8. Walk Right Row 7 to Column 10 (10, 7)
     if pos['y'] == 7 and pos['x'] < 10:
         for x in range(pos['x'] + 1, 11):
             if not move_safe_battle("Right", x, 7): return
             
     pos = mgba.get_coordinates()
-    # 5. Walk Up to (10, 6)
+    # 9. Walk Up to (10, 6)
     if pos['x'] == 10 and pos['y'] == 7:
         if not move_safe_battle("Up", 10, 6): return
         
     pos = mgba.get_coordinates()
-    # 6. Walk Right Row 6 to Column 19 (19, 6)
+    # 10. Walk Right Row 6 to Column 19 (19, 6)
     if pos['y'] == 6 and pos['x'] < 19:
         for x in range(pos['x'] + 1, 20):
             if not move_safe_battle("Right", x, 6): return
             
     pos = mgba.get_coordinates()
-    # 7. Walk Up Column 19 to Row 4 (19, 4)
+    # 11. Walk Up Column 19 to Row 4 (19, 4)
     if pos['x'] == 19 and pos['y'] > 4:
         for y in range(pos['y'] - 1, 3, -1):
             if not move_safe_battle("Up", 19, y): return
             
     pos = mgba.get_coordinates()
-    # 8. Walk Right to (20, 4) then UP to (20, 3)
+    # 12. Walk Right to (20, 4) then UP to (20, 3)
     if pos['x'] == 19 and pos['y'] == 4:
         if not move_safe_battle("Right", 20, 4): return
         if not move_safe_battle("Up", 20, 3): return
         
     pos = mgba.get_coordinates()
-    # 9. Walk Right Row 3 to Column 26 (26, 3)
+    # 13. Walk Right Row 3 to Column 26 (26, 3)
     if pos['y'] == 3 and pos['x'] < 26:
         for x in range(pos['x'] + 1, 27):
             if not move_safe_battle("Right", x, 3):
@@ -131,7 +153,7 @@ def main():
                     return
                     
     pos = mgba.get_coordinates()
-    # 10. Walk Down Column 26 to Row 6 (26, 6) to trigger pitfall if we didn't fall yet
+    # 14. Walk Down Column 26 to Row 6 (26, 6) to trigger pitfall if we didn't fall yet
     if pos['x'] == 26 and pos['y'] == 3:
         for y in range(4, 7):
             if not move_safe_battle("Down", 26, y):
