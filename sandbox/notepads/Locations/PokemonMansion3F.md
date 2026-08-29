@@ -38,8 +38,8 @@
 - **The Balcony is Inaccessible in State B:** Because of the above barriers, the central balcony area cannot be reached from either 3F East or 3F West while in State B.
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
-1. **Toggle Switch to State A:** From 3F East, walk via Column 26 Row 3 to 3F West Column 2 Row 12, face UP and toggle the Mewtwo switch at (2, 11) to State A.
-2. **Fall through Pitfall:** Walk to (26, 3) on 3F East. In State A, the pitfall is OPEN, and walking onto it drops you to 1F East inside the fenced room.
+1. **Toggle Switch to State A:** From 3F East, walk via Column 26 Row 1 and Row 1 horizontally to 3F West Column 2 Row 6, face UP and toggle the Mewtwo switch at (2, 5) to State A.
+2. **Fall through Pitfall:** Walk to (26, 6) or (26, 3) on 3F East. In State A, the pitfall is OPEN, and walking onto it drops you to 1F East inside the fenced room.
 3. **Ascend via 2F East:**
    - From 1F East fenced room, take the stairs down to B1F East.
    - Walk through 1F West to the stairs up to 2F West.
