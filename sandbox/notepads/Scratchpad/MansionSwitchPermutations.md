@@ -31,12 +31,9 @@
 6. Land on 1F behind the closed shutter gate in the northern chamber (rows 10-12).
 7. Descend staircase to B1F and retrieve Secret Key.
 
-## Verified Solution Sequence (Turn 19046)
-1. 3F right balcony drop at (19, 14) landed at 1F (18, 14) [North Landing Sector].
-2. North Landing Sector connects via row 10 (9, 10) gap directly to 1F/2F stairs at (5, 10).
-3. Toggled 2F Mewtwo statue switch at (2, 11) to State A.
-4. In State A, 1F shutter gate at (24..25, 13) is OPEN.
-5. In State A, traverse south along column 10 to row 22, walk east across the open row 22 hallway to column 25, and ascend north up column 25 to descend the staircase at (25, 14) into B1F!
+## Disproven Hypotheses & Pruned Sequences
+- Row 22 Eastward Traversal: Disproven on Turn 19384. Column 14 (rows 16-25) is an impassable vertical wall; row 22 does not connect the west and east wings.
+- 1F Direct Descent in State A: Disproven on Turn 19433. Row 8 solid wall at (24..28, 8) and rubble field at (22..23, 8..15) block northern descent into the B1F stairwell chamber.
 
 ## Empirically Verified 1F Collision & Barrier Matrix
 | Feature / Coordinate | Type | Details / Open Passages |
