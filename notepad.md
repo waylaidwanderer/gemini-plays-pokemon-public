@@ -1408,6 +1408,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
   - To bypass this fence from North to South on the right side: Walk along Column 18 down to Row 12, then Left.
   - To bypass this fence from South to North on the left side: Walk Left along Row 12 to Column 6, then walk UP to the Mansion door at `(6, 3)`.
 
+- **Pokémon Lab Building:** Entrance door at `(6, 9)`. We mistakenly entered it thinking it was the Mansion entrance.
 
 <hr>
 
