@@ -70,13 +70,11 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # We are at (10, 3) currently.
-    # 1. Walk Up to (10, 2), then Left along Row 2 to Column 2 on 3F West
+    # We are at (4, 2) currently.
+    # 1. Walk Down Column 4 to Row 5, then Left to (3, 5)
     path_to_switch = [
-        (10, 2),
-        (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
-        # 2. Walk Down Column 2 to (2, 12)
-        (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12)
+        (4, 3), (4, 4), (4, 5),
+        (3, 5)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
@@ -86,12 +84,12 @@ def main():
         print(f"Sliced path to start from index {idx+1}: {path_to_switch}")
         
     if not walk_path(path_to_switch):
-        print("Failed to reach (2, 12)")
+        print("Failed to reach (3, 5)")
         return
         
-    # We are at (2, 12) on 3F West. Face UP and toggle switch to State A
-    print("At (2, 12). Toggling switch to State A...")
-    mgba.press_buttons(["Up"])
+    # We are at (3, 5) on 3F West. Face LEFT and toggle switch to State A
+    print("At (3, 5). Toggling switch to State A...")
+    mgba.press_buttons(["Left"])
     time.sleep(0.4)
     # Toggle the switch (requires 4 A-presses)
     for _ in range(4):
@@ -101,8 +99,8 @@ def main():
     print("Switch toggled to State A! Walking to 3F East pitfall...")
     # Walk to (26, 3) to drop through pitfall!
     path_to_pitfall = [
-        (2, 11), (2, 10), (2, 9), (2, 8), (2, 7), (2, 6), (2, 5), (2, 4), (2, 3), (2, 2),
-        (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2),
+        (4, 5), (4, 4), (4, 3), (4, 2),
+        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2),
         (26, 3)
     ]
     pos_now = mgba.get_coordinates()
