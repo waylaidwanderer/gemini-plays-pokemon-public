@@ -58,35 +58,33 @@ def move_safe_battle(step, target_x, target_y):
     print(f"move_safe_battle: Arrived: {arrived}. Final position: {pos_after}")
     return arrived
 
-def cross():
-    # We are at (10, 6)
+def test_row_3():
+    # We are at (19, 4)
     pos = mgba.get_coordinates()
-    print(f"cross: Starting at {pos}")
+    print(f"test_row_3: Starting at {pos}")
     
-    # Walk RIGHT on Row 6 to Column 21
-    # Note: Column 19 Row 6 might be open directly, but let's go to Column 21 and back to 19 to be 100% safe
-    # from the previous known-good route.
-    for x in range(11, 22):
-        if not move_safe_battle("Right", x, 6):
-            print(f"cross: Failed to walk Right on Row 6 to Column {x}")
-            return
-            
-    # Walk LEFT to Column 19
-    for x in [20, 19]:
-        if not move_safe_battle("Left", x, 6):
-            return
-            
-    # Walk UP Column 19 to Row 3
-    for y in [5, 4, 3]:
-        if not move_safe_battle("Up", 19, y):
-            return
-            
-    # Walk RIGHT on Row 3 to Column 26
-    for x in range(20, 27):
-        if not move_safe_battle("Right", x, 3):
-            return
-            
-    print(f"cross: Successfully reached (26, 3). Current pos: {mgba.get_coordinates()}")
+    # 1. Walk right to (20, 4) and try to walk UP to (20, 3)
+    move_safe_battle("Right", 20, 4)
+    print("test_row_3: Testing Column 20 Row 3 (20, 3)...")
+    success20 = move_safe_battle("Up", 20, 3)
+    if success20:
+        print("test_row_3: Column 20 Row 3 is OPEN!")
+        return 20
+    else:
+        print("test_row_3: Column 20 Row 3 is CLOSED.")
+        
+    # 2. Walk right to (21, 4) and try to walk UP to (21, 3)
+    # Note: we are currently back at (20, 4) if UP failed
+    move_safe_battle("Right", 21, 4)
+    print("test_row_3: Testing Column 21 Row 3 (21, 3)...")
+    success21 = move_safe_battle("Up", 21, 3)
+    if success21:
+        print("test_row_3: Column 21 Row 3 is OPEN!")
+        return 21
+    else:
+        print("test_row_3: Column 21 Row 3 is CLOSED.")
+        
+    return None
 
 if __name__ == "__main__":
-    cross()
+    test_row_3()
