@@ -47,3 +47,6 @@
 - Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B] (Empirically verified Turn 19115).
 - Column 11 Barrier: Continuous solid vertical wall from row 11 to row 27 blocking eastward passage from Central Hall. Open bypass at row 10 (cols 8-12).
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
+### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-19950)
+- Staircase South Railing at (24..25, 13): Stepping Up from (24, 14) or (25, 14) collides with solid stair barrier. Stairs must be entered from row 12 stepping Down.
+- Southeast Corner at (26..27, 27): Dead-end alcove; no doorway or external transition.

@@ -2289,6 +2289,9 @@
 - Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B] (Empirically verified Turn 19115).
 - Column 11 Barrier: Continuous solid vertical wall from row 11 to row 27 blocking eastward passage from Central Hall. Open bypass at row 10 (cols 8-12).
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
+### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-19950)
+- Staircase South Railing at (24..25, 13): Stepping Up from (24, 14) or (25, 14) collides with solid stair barrier. Stairs must be entered from row 12 stepping Down.
+- Southeast Corner at (26..27, 27): Dead-end alcove; no doorway or external transition.
 
 <hr>
 
@@ -2368,8 +2371,9 @@
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
 - Entering Mansion from exterior resets all switches to default State A.
-- To reach B1F stairs: Flip 3F switch (10, 5) to State B, walk through opened shutter at (15, 10..11), drop down Left Balcony (16, 14) onto 1F South Wing at (16, 14), then navigate (16, 14) -> (12, 20) -> (20, 20) -> (20, 16) -> (25, 16) -> (25, 14) to descend into B1F!
-
+- B1F Staircase Entrance: Located at (24..25, 13). Must be entered from the NORTH at row 12 (24..25, 12) stepping DOWN. The south side of the stairs at (24..25, 14) is a solid barrier/railing (empirically verified Turns 19921, 19949).
+- Southeast Alcove (26..27, 27): Solid dead-end corner; no door or passage (empirically verified Turn 19927).
+- To reach B1F stairs: Drop down 3F Right Balcony Pit at (19, 14) to land on 1F North Wing at (18, 14), then walk along row 12 to (24..25, 12) and descend into (24..25, 13).
 
 <hr>
 
