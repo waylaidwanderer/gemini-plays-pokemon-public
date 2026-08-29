@@ -9,7 +9,7 @@ def is_in_battle():
     
     # Press Start
     mgba.press_buttons(["Start"])
-    time.sleep(0.15)
+    time.sleep(0.2)
     
     # Take second screenshot
     img2_path = mgba.take_screenshot()
@@ -26,14 +26,14 @@ def is_in_battle():
         # Different: menu opened. Close it!
         print("is_in_battle: FALSE (Screen changed on Start). Closing menu...")
         mgba.press_buttons(["Start"])
-        time.sleep(0.15)
+        time.sleep(0.2)
         return False
 
 def handle_battle_escape():
     print("handle_battle_escape: Initiating battle run...")
     # Press B first to clear any initial text like "Wild Ponyta appeared!"
     mgba.press_buttons(["B"])
-    time.sleep(0.3)
+    time.sleep(0.5)
     
     # Press Down, Right, A to select RUN
     mgba.press_buttons(["Down", "Right", "A"])
@@ -41,7 +41,7 @@ def handle_battle_escape():
     
     # Press B to dismiss "Got away safely!" or any other battle end screen
     mgba.press_buttons(["B"])
-    time.sleep(0.5)
+    time.sleep(1.0)
 
 def move_safe_battle(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
@@ -53,7 +53,8 @@ def move_safe_battle(step, target_x, target_y):
     attempts = 0
     while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 5:
         if pos_before == pos_after:
-            print("move_safe_battle: Position did not change. Checking for battle...")
+            print("move_safe_battle: Position did not change. Waiting 1.0s for transitions...")
+            time.sleep(1.0) # Wait for wild battle transition animation to complete
             if is_in_battle():
                 handle_battle_escape()
             else:
@@ -61,7 +62,8 @@ def move_safe_battle(step, target_x, target_y):
                 print(f"move_safe_battle: Hit a solid wall at ({pos_after['x']}, {pos_after['y']}) trying to move '{step}'!")
                 return False
         else:
-            print(f"move_safe_battle: Unexpected position {pos_after}. Checking for battle...")
+            print(f"move_safe_battle: Unexpected position {pos_after}. Waiting 1.0s for transitions...")
+            time.sleep(1.0)
             if is_in_battle():
                 handle_battle_escape()
             else:
@@ -98,20 +100,41 @@ def toggle_switch_to_state_b():
     print("toggle_switch_to_state_b: Switch toggled to State B!")
 
 def solve():
-    # We are currently at (6, 13)
+    # Dismiss any active "Got away safely!" text first
+    print("solve: Dismissing initial overworld text...")
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
     pos = mgba.get_coordinates()
     print(f"solve: Starting at {pos}")
     
-    # 1. Walk to (1, 10)
-    # Walk left along Row 13 to Column 1
-    for x in [5, 4, 3, 2, 1]:
-        if not move_safe_battle("Left", x, 13):
-            return
+    # If we are not at (1, 10), navigate there
+    if pos['x'] != 1 or pos['y'] != 10:
+        print(f"solve: Not at (1, 10). Navigating from {pos} to (1, 10)...")
+        # Walk left along Row 13 if we are on Row 13
+        if pos['y'] == 13:
+            for x in range(pos['x'] - 1, 0, -1):
+                if not move_safe_battle("Left", x, 13):
+                    return
+            pos = mgba.get_coordinates()
             
-    # Walk up Column 1 to Row 10
-    for y in [12, 11, 10]:
-        if not move_safe_battle("Up", 1, y):
-            return
+        # Walk to Column 1 if we are at some other column
+        while pos['x'] > 1:
+            if not move_safe_battle("Left", pos['x'] - 1, pos['y']):
+                return
+            pos = mgba.get_coordinates()
+            
+        # Walk vertically to Row 10 on Column 1
+        while pos['y'] < 10:
+            if not move_safe_battle("Down", 1, pos['y'] + 1):
+                return
+            pos = mgba.get_coordinates()
+        while pos['y'] > 10:
+            if not move_safe_battle("Up", 1, pos['y'] - 1):
+                return
+            pos = mgba.get_coordinates()
+            
+    print("solve: Successfully reached (1, 10). Starting gate test...")
             
     # 2. Test the gate at (1, 9)
     print("solve: Testing if gate at (1, 9) is open (State B)...")
