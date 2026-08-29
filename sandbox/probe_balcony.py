@@ -71,38 +71,47 @@ def walk_path(coords):
     return True
 
 def main():
-    print("probe_balcony_v3: Starting...")
+    print("probe_balcony_v4: Starting...")
     pos = mgba.get_coordinates()
     print(f"Start pos: {pos}")
     
-    # We are at (19, 16)
-    # Walk Left to Column 16, then Down to the balcony
-    path = [
-        # Walk Left to (16, 16)
-        (18, 16), (17, 16), (16, 16),
-        # Walk Down to (16, 18)
-        (16, 17), (16, 18),
-        # Walk Right to (19, 18)
-        (17, 18), (18, 18), (19, 18)
+    # We are at (19, 16).
+    # 1. Walk back to (24, 13) on 3F East
+    path_back = [
+        # Right to Column 24
+        (20, 16), (21, 16), (22, 16), (23, 16), (24, 16),
+        # Up Column 24 to Row 13
+        (24, 15), (24, 14), (24, 13),
+        # Up to Row 11
+        (24, 12), (24, 11),
+        # Left along Row 11 to Column 16
+        (23, 11), (22, 11), (21, 11), (20, 11), (19, 11), (18, 11), (17, 11), (16, 11)
     ]
     
-    res = walk_path(path)
-    if res == "WARPED":
-        print("Warped from path!")
-        return
-    elif not res:
-        print("Failed on path.")
+    pos_tuple = (pos['x'], pos['y'])
+    if pos_tuple in path_back:
+        start_idx = path_back.index(pos_tuple)
+        path_back = path_back[start_idx+1:]
+        
+    print(f"Walking path back and to (16, 11): {path_back}")
+    if not walk_path(path_back):
+        print("Failed to walk to (16, 11).")
         return
         
-    # We are at (19, 18). Let's go DOWN to trigger the balcony fall!
-    print("Trying to go Down from (19, 18) to trigger balcony fall...")
-    res = step_one("Down", 19, 19)
-    if res == "WARPED" or mgba.get_coordinates()['y'] != 18:
-        print("SUCCESSFULLY FELL FROM BALCONY TO B1F!!!")
-        time.sleep(1.0)
-        print(f"Landed at: {mgba.get_coordinates()}")
-    else:
-        print(f"Failed to drop. Current pos: {mgba.get_coordinates()}")
+    # 2. Try to walk Down Column 16 to (16, 17) to drop!
+    print("Trying to walk Down Column 16 to (16, 17)...")
+    for y in range(12, 18):
+        res = step_one("Down", 16, y)
+        if res == "WARPED" or mgba.get_coordinates()['y'] > 17:
+            print("SUCCESSFULLY FELL OR TRANSITIONED ON COLUMN 16!!!")
+            time.sleep(1.0)
+            print(f"Landed at: {mgba.get_coordinates()}")
+            return
+        elif not res:
+            print(f"Blocked moving Down Column 16 at Row {y}.")
+            break
+            
+    print(f"Ending position: {mgba.get_coordinates()}")
 
 if __name__ == "__main__":
     main()
