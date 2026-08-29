@@ -48,49 +48,62 @@ def step_one(direction, target_x, target_y):
     return pos_after['x'] == target_x and pos_after['y'] == target_y
 
 def main():
-    print("go_to_2f_and_cross: Starting from current position...")
+    print("go_to_2f_and_cross: Starting from (9, 9)...")
     pos = mgba.get_coordinates()
     print(f"Start coordinates: {pos}")
     
-    # 1. Get to Column 5 Row 11 (5, 11) from (9, 9)
-    if pos['x'] == 9 and pos['y'] == 9:
-        if not step_one("Down", 9, 10): return
-        if not step_one("Down", 9, 11): return
-        pos = mgba.get_coordinates()
-        
-    if pos['y'] == 11 and pos['x'] > 5:
-        print("Walking left to Column 5...")
+    # 1. Walk LEFT on Row 9 to Column 5 (5, 9)
+    if pos['y'] == 9 and pos['x'] > 5:
+        print("Walking left on Row 9 to Column 5...")
         for x in range(pos['x'] - 1, 4, -1):
-            if not step_one("Left", x, 11): return
+            if not step_one("Left", x, 9): return
         pos = mgba.get_coordinates()
         
-    # 2. Walk UP Column 5 directly to Row 3 (5, 3)
-    if pos['x'] == 5 and pos['y'] == 11:
-        print("Walking up Column 5 to Row 3...")
-        for y in range(10, 2, -1):
-            if not step_one("Up", 5, y): return
+    # Walk DOWN to (5, 10)
+    if pos['x'] == 5 and pos['y'] == 9:
+        if not step_one("Down", 5, 10): return
         pos = mgba.get_coordinates()
         
-    # 3. Walk RIGHT along Row 3 to Column 14 (14, 3)
+    # Bypassing the NPC: Right to (6, 10), then Down to (6, 11)
+    if pos['x'] == 5 and pos['y'] == 10:
+        if not step_one("Right", 6, 10): return
+        if not step_one("Down", 6, 11): return
+        pos = mgba.get_coordinates()
+        
+    # 2. Walk RIGHT along Row 11 to Column 12 (12, 11)
+    if pos['y'] == 11 and pos['x'] < 12:
+        print("Walking right on Row 11 to Column 12...")
+        for x in range(pos['x'] + 1, 13):
+            if not step_one("Right", x, 11): return
+        pos = mgba.get_coordinates()
+        
+    # 3. Walk UP Column 12 directly to Row 3 (12, 3)
+    if pos['x'] == 12 and pos['y'] > 3:
+        print("Walking up Column 12 to Row 3...")
+        for y in range(pos['y'] - 1, 2, -1):
+            if not step_one("Up", 12, y): return
+        pos = mgba.get_coordinates()
+        
+    # 4. Walk RIGHT along Row 3 to Column 14 (14, 3)
     if pos['y'] == 3 and pos['x'] < 14:
         print("Crossing horizontally on Row 3 to Column 14...")
         for x in range(pos['x'] + 1, 15):
             if not step_one("Right", x, 3): return
         pos = mgba.get_coordinates()
         
-    # 4. Walk DOWN Column 14 directly to Row 10 (14, 10)
+    # 5. Walk DOWN Column 14 directly to Row 10 (14, 10)
     if pos['x'] == 14 and pos['y'] < 10:
         print("Walking down Column 14 to Row 10...")
         for y in range(pos['y'] + 1, 11):
             if not step_one("Down", 14, y): return
         pos = mgba.get_coordinates()
         
-    # 5. Walk RIGHT Row 10 to Column 15 (15, 10)
+    # 6. Walk RIGHT Row 10 to Column 15 (15, 10)
     if pos['x'] == 14 and pos['y'] == 10:
         if not step_one("Right", 15, 10): return
         pos = mgba.get_coordinates()
         
-    # 6. Step DOWN onto stairs at (15, 11) to warp UP to 3F East
+    # 7. Step DOWN onto stairs at (15, 11) to warp UP to 3F East
     if pos['x'] == 15 and pos['y'] == 10:
         print("Stepping onto stairs to warp to 3F East...")
         mgba.press_buttons(["Down"])
@@ -100,7 +113,7 @@ def main():
     print(f"Landed on 3F East? Position: {pos}")
     # Landing coordinates on 3F East is typically (16, 11) or (15, 11)
     
-    # 7. Walk to Column 20 Row 3 (20, 3)
+    # 8. Walk to Column 20 Row 3 (20, 3)
     if pos['y'] == 11 and 14 <= pos['x'] <= 17:
         # Walk RIGHT to Column 20
         for x in range(pos['x'] + 1, 21):
@@ -110,7 +123,7 @@ def main():
             if not step_one("Up", 20, y): return
         pos = mgba.get_coordinates()
             
-    # 8. Walk RIGHT Row 3 to Column 26 (26, 3) and drop down pitfall
+    # 9. Walk RIGHT Row 3 to Column 26 (26, 3) and drop down pitfall
     if pos['y'] == 3 and 15 <= pos['x'] < 26:
         print("Walking right to Column 26 Row 3...")
         for x in range(pos['x'] + 1, 27):
@@ -122,7 +135,7 @@ def main():
                     return
         pos = mgba.get_coordinates()
                     
-    # 9. Walk DOWN Column 26 to Row 6 (26, 6) to trigger pitfall if we didn't fall yet
+    # 10. Walk DOWN Column 26 to Row 6 (26, 6) to trigger pitfall if we didn't fall yet
     if pos['x'] == 26 and pos['y'] == 3:
         print("Walking down Column 26 to trigger pitfall...")
         for y in range(4, 7):
