@@ -1,6 +1,6 @@
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 19257)
+## Active Party (Verified Turn 19871)
 1. HYDROS (Blastoise) - Lv 64
    - Stats: Max HP 215 (HP: 42/215), Attack 150, Defense 165, Speed 152, Special 159
    - Type: Water
@@ -17,7 +17,7 @@
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 0/54 - Fainted Turn 19734)
+   - Stats: Max HP 54 (HP: 0/54 - Fainted)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank & Dig utility
