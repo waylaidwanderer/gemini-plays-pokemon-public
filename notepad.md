@@ -1731,9 +1731,7 @@ Thus, the correct State B bypass route on 2F is:
 ## Gym Layout & Topography (Verified Ground Truth)
 - Unverified: Prior documentation of the gym layout was actually hallucinated while the player was on Route 1. The topography of the Gym is yet to be explored.
 
-## Navigation Route to Giovanni (Top-Right/Top-Left)
-- Giovanni is located at the top-left of the Gym around `(2, 2)`.
-- We need to navigate past the arrow spinner tiles on Row 23 and the horizontal ledges on Row 19 to reach him.
-- Safe paths and spinner alignments must be tested step-by-step.
+## Navigation Route to Giovanni (Top-Right/Left)
+- To be determined once we enter the Gym.
 
 <hr>
