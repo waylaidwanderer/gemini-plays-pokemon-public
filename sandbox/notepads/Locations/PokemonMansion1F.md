@@ -63,7 +63,6 @@
 - Descending Staircase to B1F: Located at (26..27, 17).
 - South Railing: Row 18 (26..27, 18) is a solid railing/barrier (cannot enter from south).
 - North Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH at row 16 stepping DOWN into (26..27, 17).
-- Access Route: Pit drop from 3F Right Balcony at (19, 14) lands at 1F (18, 14), but (18, 14) is blocked from (26..27, 17) stairs by horizontal wall at row 8 (cols 8-25) and vertical wall at col 25 (rows 11-16). Direct access to B1F stairs requires reaching rows 1-7 or discovering alternative 3F drop coordinates.
 - Item Ball at (1, 22): Full Restore [Collected Turn 20065]
 ### Isolated B1F Staircase Enclosure & Access Rule (Verified Turns 20090-20104)
 - **Isolated Enclosure**: The chamber at (26..28, rows 8..16) containing the Scientist at (27, 11) and the B1F Staircase North Landing at (26, 16) is COMPLETELY ENCLOSED by walls on 1F:
