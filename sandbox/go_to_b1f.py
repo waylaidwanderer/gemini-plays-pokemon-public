@@ -87,9 +87,9 @@ def main():
     pos = mgba.get_coordinates()
     # Path on 3F East to the pitfall at (26, 6)
     # The stairs are at (22, 2) or (22, 1)
-    # Walk to (22, 3) -> (26, 3) -> (26, 6)
+    # Walk to (22, 2) -> (22, 3) -> (26, 3) -> (26, 6)
     path_3f = [
-        (22, 3),
+        (22, 2), (22, 3),
         (23, 3), (24, 3), (25, 3), (26, 3),
         (26, 4), (26, 5), (26, 6)
     ]
