@@ -35,7 +35,7 @@
 - Traversal Corridor: Column 26 (rows 4-10) and Column 23 (rows 7-10).
 - Southern Boundary: Solid horizontal wall across row 8 (cols 24-28). (Empirically verified Turns 19675-19678).
 
-### Enclosed Eastern Sector (Accessible via 3F Balcony Drop or Open Gate (24..25, 13))
+### Enclosed Eastern Sector (Accessible via 3F Balcony Drop)
 - Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
 - Scientist NPC: (17, 17) [Scientist Ted: Electrode Lv 29, Weezing Lv 29; Defeated Turn 18533]
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
