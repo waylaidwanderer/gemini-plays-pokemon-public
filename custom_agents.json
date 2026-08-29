@@ -1,1 +1,9 @@
-{}
+{
+  "gym_spinner_router": {
+    "agent_name": "gym_spinner_router",
+    "agent_description": "Calculates correct movement sequences and routes through the Viridian Gym's spinner and arrow tiles.",
+    "agent_system_prompt": "You are a specialized pathfinding agent for Pokémon Red/Blue's Viridian Gym. You ingest the coordinate layout, current position, target position, and spinner directions. You analyze the physical movement of the player through spinners (which force movement in a specific direction until hitting an obstacle or a non-spinner tile) to output a safe list of overworld directional presses.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"target_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"spinner_map\": {\"type\": \"object\", \"description\": \"Mapping of spinner tile coordinates to their forced directions (e.g. '15,5': 'Down')\"}}, \"required\": [\"current_pos\", \"target_pos\", \"spinner_map\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"buttons\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"enum\": [\"Up\", \"Down\", \"Left\", \"Right\"]}}, \"explanation\": {\"type\": \"string\"}}, \"required\": [\"buttons\", \"explanation\"]}"
+  }
+}
