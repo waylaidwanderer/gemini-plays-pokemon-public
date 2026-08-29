@@ -53,4 +53,5 @@
 ### Southeast Enclosed Room & Switch (Verified Turns 19959-19969)
 - Mewtwo Statue Switch: Located at (18, 25). Interactable from (18, 26) facing Up or (17, 25) facing Right. Toggles global mansion shutters between State A and State B.
 - Item Ball: Located at (19, 25) (immediately east of statue switch).
-- Corridor to Switch: Row 15 (cols 12-24) -> Column 12 (rows 15-26) -> Row 26 (cols 12-19) -> (19, 25..26).
+- Southeast Room Entrance: Open doorway at (13, 22..23) connecting column 12 to (14, 22..23). Column 13 is a solid wall at rows 24-27 (row 26 cannot be entered directly from column 12).
+- Route to Switch/Item: From column 12 -> (13, 22..23) doorway -> (14, 23) -> South to row 26 (14, 26) -> East along row 26 to (18..19, 26) -> (18, 25) switch / (19, 25) item ball.
