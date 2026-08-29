@@ -91,6 +91,10 @@ Placeholder to prevent data loss.
 - **Slot 4:** TESLA (Pikachu) - Level 20
 - **Slot 5:** NIDORAN♀ (Nidoran-F) - Level 25
 
+## Global Mansion State Update
+- **Turn 66776:** Toggled switch on 2F East to **State A**. All 3F East pitfalls are now OPEN.
+
+
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
