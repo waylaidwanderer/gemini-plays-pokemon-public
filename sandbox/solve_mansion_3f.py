@@ -70,16 +70,13 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # We are at (25, 10).
-    # 1. Walk to (26, 10), then Up Column 26 to Row 3
+    # We are at (10, 3) currently.
+    # 1. Walk Up to (10, 2), then Left along Row 2 to Column 2 on 3F West
     path_to_switch = [
-        (26, 10),
-        (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
-        # 2. Walk Left along Row 3 to Column 2 on 3F West
-        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
-        (9, 3), (8, 3), (7, 3), (6, 3), (5, 3), (4, 3), (3, 3), (2, 3),
-        # 3. Walk Down Column 2 to (2, 12)
-        (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12)
+        (10, 2),
+        (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
+        # 2. Walk Down Column 2 to (2, 12)
+        (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
@@ -94,7 +91,6 @@ def main():
         
     # We are at (2, 12) on 3F West. Face UP and toggle switch to State A
     print("At (2, 12). Toggling switch to State A...")
-    # Stand at (2, 12) and press UP to face the switch at (2, 11)
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
     # Toggle the switch (requires 4 A-presses)
@@ -105,8 +101,9 @@ def main():
     print("Switch toggled to State A! Walking to 3F East pitfall...")
     # Walk to (26, 3) to drop through pitfall!
     path_to_pitfall = [
-        (2, 11), (2, 10), (2, 9), (2, 8), (2, 7), (2, 6), (2, 5), (2, 4), (2, 3),
-        (3, 3), (4, 3), (5, 3), (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3)
+        (2, 11), (2, 10), (2, 9), (2, 8), (2, 7), (2, 6), (2, 5), (2, 4), (2, 3), (2, 2),
+        (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2),
+        (26, 3)
     ]
     pos_now = mgba.get_coordinates()
     pos_now_tuple = (pos_now['x'], pos_now['y'])
