@@ -33,6 +33,8 @@
 
 - Shutter Barrier (North-Central Row 7): (16..17, 7) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19581).
 
+- Shutter Barrier (Row 8): (18..19, 8) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19604).
+
 ## State & Switch Mechanics
 - State A (Default): Doorway (26..27, 4) and (4, 7) OPEN; Shutters at (21, 17) and (26..27, 27) CLOSED.
 - State B (Toggled): Shutter at (21, 17) OPEN; Shutter at (26..27, 27) CLOSED/Solid; 1F gate at (24..25, 13) CLOSED.
