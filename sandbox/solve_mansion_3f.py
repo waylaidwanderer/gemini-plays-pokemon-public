@@ -1,197 +1,126 @@
-from PIL import Image, ImageChops
 import mgba
 import time
 
-def is_in_battle():
-    # Take first screenshot
-    img1_path = mgba.take_screenshot()
-    img1 = Image.open(img1_path)
-    
-    # Press Start
-    mgba.press_buttons(["Start"])
-    time.sleep(0.2)
-    
-    # Take second screenshot
-    img2_path = mgba.take_screenshot()
-    img2 = Image.open(img2_path)
-    
-    # Compare images
-    diff = ImageChops.difference(img1, img2)
-    bbox = diff.getbbox()
-    if bbox is None:
-        # Identical: must be a battle or dialogue text
-        print("is_in_battle: TRUE (No screen change on Start)")
-        return True
-    else:
-        # Different: menu opened. Close it!
-        print("is_in_battle: FALSE (Screen changed on Start). Closing menu...")
-        mgba.press_buttons(["Start"])
-        time.sleep(0.2)
-        return False
-
-def handle_battle_escape():
-    print("handle_battle_escape: Initiating battle run...")
-    # Press B first to clear any initial text like "Wild Ponyta appeared!"
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
-    # Press Down, Right, A to select RUN
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.5)
-    
-    # Press B to dismiss "Got away safely!" or any other battle end screen
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-
-def move_safe_battle(step, target_x, target_y):
+def move_test(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
-    print(f"move_safe_battle: Moving '{step}' towards ({target_x}, {target_y}). Current: {pos_before}")
+    print(f"probe: Pressing '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
     mgba.press_buttons([step])
     time.sleep(0.4)
     pos_after = mgba.get_coordinates()
     
     attempts = 0
-    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 5:
+    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 4:
         if pos_before == pos_after:
-            print("move_safe_battle: Position did not change. Waiting 1.0s for transitions...")
-            time.sleep(1.0) # Wait for wild battle transition animation to complete
-            if is_in_battle():
-                handle_battle_escape()
-            else:
-                # We hit a wall!
-                print(f"move_safe_battle: Hit a solid wall at ({pos_after['x']}, {pos_after['y']}) trying to move '{step}'!")
-                return False
-        else:
-            print(f"move_safe_battle: Unexpected position {pos_after}. Waiting 1.0s for transitions...")
-            time.sleep(1.0)
-            if is_in_battle():
-                handle_battle_escape()
-            else:
-                print("move_safe_battle: In overworld but coordinate mismatch.")
-        
-        print(f"move_safe_battle: Retrying move '{step}' to target ({target_x}, {target_y})...")
+            print("probe: BUMPED. Retrying...")
+            # Dismiss potential battle screen
+            mgba.press_buttons(["B"])
+            time.sleep(0.5)
         mgba.press_buttons([step])
         time.sleep(0.4)
+        pos_before = pos_after
         pos_after = mgba.get_coordinates()
         attempts += 1
         
-    if pos_after['x'] == target_x and pos_after['y'] == target_y:
-        print(f"move_safe_battle: Arrived at target: {pos_after}")
-        return True
+    return pos_after
+
+def main():
+    # We are at (25, 3) on 3F East
+    print("toggle_to_state_a_and_test: Starting...")
+    
+    # 1. Walk back to (20, 3)
+    for x in range(24, 19, -1):
+        move_test("Left", x, 3)
+        
+    # 2. Walk DOWN to (20, 4) and LEFT to (19, 4)
+    move_test("Down", 20, 4)
+    move_test("Left", 19, 4)
+    
+    # 3. Walk DOWN Column 19 to (19, 6)
+    move_test("Down", 19, 5)
+    move_test("Down", 19, 6)
+    
+    # 4. Walk LEFT on Row 6 to (10, 6)
+    for x in range(18, 9, -1):
+        move_test("Left", x, 6)
+        
+    # 5. Walk DOWN Column 10 to (10, 10)
+    for y in [7, 8, 9, 10]:
+        move_test("Down", 10, y)
+        
+    # 6. Walk LEFT Row 10 to (1, 10)
+    for x in range(9, 0, -1):
+        move_test("Left", x, 10)
+        
+    # 7. Walk down to (1, 12) and right to (2, 12)
+    move_test("Down", 1, 11)
+    move_test("Down", 1, 12)
+    move_test("Right", 2, 12)
+    
+    # 8. Toggle switch to State A
+    print("At switch. Toggling to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # 9. Walk back to (1, 10)
+    move_safe = move_test("Left", 1, 12)
+    move_safe = move_test("Up", 1, 11)
+    move_safe = move_test("Up", 1, 10)
+    
+    # 10. Walk back to Column 10 Row 10
+    for x in range(2, 11):
+        move_test("Right", x, 10)
+        
+    # 11. Walk back UP to Row 6
+    for y in [9, 8, 7, 6]:
+        move_test("Up", 10, y)
+        
+    # 12. Walk RIGHT Row 6 to (19, 6)
+    for x in range(11, 20):
+        move_test("Right", x, 6)
+        
+    # 13. Walk UP Column 19 to Row 4
+    for y in [5, 4]:
+        move_test("Up", 19, y)
+        
+    # 14. Walk RIGHT to (20, 4) and UP to (20, 3)
+    move_test("Right", 20, 4)
+    move_test("Up", 20, 3)
+    
+    # 15. Walk RIGHT to (26, 3)
+    for x in range(21, 27):
+        move_test("Right", x, 3)
+        
+    # 16. Walk DOWN to (26, 5)
+    move_test("Down", 26, 4)
+    move_test("Down", 26, 5)
+    
+    # 17. Test DOWN to (26, 6) in State A!
+    print("Testing (26, 6) in State A...")
+    pos_down = move_test("Down", 26, 6)
+    if pos_down:
+        print(f"Succeeded stepping into (26, 6)! Pos: {pos_down}")
     else:
-        print(f"move_safe_battle: Failed to reach target ({target_x}, {target_y}). Final: {pos_after}")
-        return False
-
-def toggle_switch_to_state_b():
-    print("toggle_switch_to_state_b: Standing at (2, 12) facing UP. Toggling...")
-    # Step-by-step switch sequence
-    # 1. Interact with statue
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # 2. Advance to Yes/No prompt
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # 3. Select YES
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # 4. Dismiss "Who wouldn't?" and back to overworld
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    print("toggle_switch_to_state_b: Switch toggled to State B!")
-
-def solve():
-    # Dismiss any active "Got away safely!" text first
-    print("solve: Dismissing initial overworld text...")
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-    
+        print("(26, 6) is still solid in State A.")
+        
+    # 18. Walk UP to (26, 3) -> LEFT to (22, 3) and test stairs (22, 2) in State A!
     pos = mgba.get_coordinates()
-    print(f"solve: Starting at {pos}")
-    
-    # If we are not at (1, 10), navigate there
-    if pos['x'] != 1 or pos['y'] != 10:
-        print(f"solve: Not at (1, 10). Navigating from {pos} to (1, 10)...")
-        # Walk left along Row 13 if we are on Row 13
-        if pos['y'] == 13:
-            for x in range(pos['x'] - 1, 0, -1):
-                if not move_safe_battle("Left", x, 13):
-                    return
-            pos = mgba.get_coordinates()
-            
-        # Walk to Column 1 if we are at some other column
-        while pos['x'] > 1:
-            if not move_safe_battle("Left", pos['x'] - 1, pos['y']):
-                return
-            pos = mgba.get_coordinates()
-            
-        # Walk vertically to Row 10 on Column 1
-        while pos['y'] < 10:
-            if not move_safe_battle("Down", 1, pos['y'] + 1):
-                return
-            pos = mgba.get_coordinates()
-        while pos['y'] > 10:
-            if not move_safe_battle("Up", 1, pos['y'] - 1):
-                return
-            pos = mgba.get_coordinates()
-            
-    print("solve: Successfully reached (1, 10). Starting gate test...")
-            
-    # 2. Test the gate at (1, 9)
-    print("solve: Testing if gate at (1, 9) is open (State B)...")
-    success = move_safe_battle("Up", 1, 9)
-    if not success:
-        print("solve: Gate is CLOSED. We are in State A. Going to toggle switch...")
-        # Walk to (2, 12)
-        for y in [11, 12]:
-            move_safe_battle("Down", 1, y)
-        move_safe_battle("Right", 2, 12)
-        
-        # Toggle switch to State B
-        toggle_switch_to_state_b()
-        
-        # Walk back to (1, 10)
-        move_safe_battle("Left", 1, 12)
-        for y in [11, 10]:
-            move_safe_battle("Up", 1, y)
-            
-        # Try walking through the gate again
-        print("solve: Re-testing gate at (1, 9)...")
-        if not move_safe_battle("Up", 1, 9):
-            print("solve: CRITICAL ERROR - Gate is still closed after toggle!")
-            return
-            
-    # 3. Walk UP Column 1 to Row 6
-    for y in [8, 7, 6]:
-        if not move_safe_battle("Up", 1, y):
-            return
-            
-    # 4. Walk RIGHT on Row 6 to Column 21
-    for x in range(2, 22):
-        if not move_safe_battle("Right", x, 6):
-            return
-            
-    # 5. Walk LEFT to Column 19
-    for x in [20, 19]:
-        if not move_safe_battle("Left", x, 6):
-            return
-            
-    # 6. Walk UP Column 19 to Row 3
-    for y in [5, 4, 3]:
-        if not move_safe_battle("Up", 19, y):
-            return
-            
-    # 7. Walk RIGHT on Row 3 to Column 26
-    for x in range(20, 27):
-        if not move_safe_battle("Right", x, 3):
-            return
-            
-    # 8. Drop through the pitfall!
-    print("solve: Arrived at pitfall entrance (26, 3). Stepping into pitfall...")
-    mgba.press_buttons(["Right"])
-    time.sleep(1.0)
-    mgba.press_buttons(["Down"])
-    time.sleep(1.0)
-    print(f"solve: Final position after drop: {mgba.get_coordinates()}")
+    if pos['y'] == 5:
+        move_test("Up", 26, 4)
+        move_test("Up", 26, 3)
+        for x in range(25, 21, -1):
+            move_test("Left", x, 3)
+        print("Testing stairs at (22, 2) in State A...")
+        pos_up = move_test("Up", 22, 2)
+        if pos_up:
+            print(f"Succeeded stepping onto stairs (22, 2)! Pos: {pos_up}")
+        else:
+            print("Stairs (22, 2) are still solid/blocked in State A.")
 
 if __name__ == "__main__":
-    solve()
+    main()
