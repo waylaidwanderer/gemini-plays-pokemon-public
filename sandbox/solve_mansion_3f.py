@@ -67,45 +67,25 @@ def move_safe_battle(step, target_x, target_y):
     return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6)
 
 def main():
-    print("solve_mansion_3f: Starting from (18, 6) on 2F East...")
+    print("solve_mansion_3f: Starting from (5, 11) on 3F West...")
     
-    # 4. Walk Left Row 6 to Column 10 (10, 6)
-    for x in range(17, 9, -1):
-        if not move_safe_battle("Left", x, 6): return
-        
-    # 5. Walk Down Column 10 to Row 11 (10, 11)
-    for y in range(7, 12):
-        if not move_safe_battle("Down", 10, y): return
-        
-    # 6. Walk Left Row 11 to Column 7 (7, 11) on 2F West
-    for x in range(9, 6, -1):
-        if not move_safe_battle("Left", x, 11): return
-        
-    # 7. Step UP onto stairs at (7, 10) to warp UP to 3F West!
-    print("Stepping onto stairs to warp UP to 3F West...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
-    pos = mgba.get_coordinates()
-    print(f"Coordinates after warp: {pos}")
-    # On 3F West, we land at (7, 11) (or (7, 10))
-    if pos['y'] == 10:
-        mgba.press_buttons(["Down"])
-        time.sleep(0.5)
-        pos = mgba.get_coordinates()
-        
-    # 8. Walk Left Row 11 to Column 3 (3, 11)
-    for x in range(pos['x'] - 1, 2, -1):
-        if not move_safe_battle("Left", x, 11): return
-        
-    # 9. Walk Down to (3, 12) -> Left to (2, 12)
-    if not move_safe_battle("Down", 3, 12): return
-    if not move_safe_battle("Left", 2, 12): return
+    # 1. Walk Down to (5, 13)
+    if not move_safe_battle("Down", 5, 12): return
+    if not move_safe_battle("Down", 5, 13): return
     
-    # 10. Face UP and toggle switch to State B
-    print("Facing UP towards Mewtwo switch...")
+    # 2. Walk Left to (2, 13)
+    for x in range(4, 1, -1):
+        if not move_safe_battle("Left", x, 13): return
+        
+    # 3. Walk Up to (2, 12)
+    if not move_safe_battle("Up", 2, 12): return
+    
+    # 4. Face UP towards switch
+    print("Facing UP...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
+    # 5. Toggle switch to State B
     print("Toggling switch to State B...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
@@ -116,33 +96,34 @@ def main():
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     
-    # 11. Walk back to Column 10 Row 11 on 3F West
-    if not move_safe_battle("Right", 3, 12): return
-    if not move_safe_battle("Up", 3, 11): return
-    for x in range(4, 11):
-        if not move_safe_battle("Right", x, 11): return
+    # 6. Walk Down to (2, 13)
+    if not move_safe_battle("Down", 2, 13): return
+    
+    # 7. Walk Right along Row 13 to Column 10 (10, 13)
+    for x in range(3, 11):
+        if not move_safe_battle("Right", x, 13): return
         
-    # 12. Walk Up Column 10 to Row 6 (10, 6)
-    for y in range(10, 5, -1):
+    # 8. Walk Up Column 10 to Row 6 (10, 6)
+    for y in range(12, 5, -1):
         if not move_safe_battle("Up", 10, y): return
         
-    # 13. Walk Right Row 6 to Column 19 (19, 6)
+    # 9. Walk Right Row 6 to Column 19 (19, 6)
     for x in range(11, 20):
         if not move_safe_battle("Right", x, 6): return
         
-    # 14. Walk Up Column 19 to Row 4 (19, 4)
+    # 10. Walk Up Column 19 to Row 4 (19, 4)
     for y in [5, 4]:
         if not move_safe_battle("Up", 19, y): return
         
-    # 15. Walk Right to (20, 4) then UP to (20, 3)
+    # 11. Walk Right to (20, 4) then UP to (20, 3)
     if not move_safe_battle("Right", 20, 4): return
     if not move_safe_battle("Up", 20, 3): return
     
-    # 16. Walk Right Row 3 to Column 26 (26, 3)
+    # 12. Walk Right Row 3 to Column 26 (26, 3)
     for x in range(21, 27):
         if not move_safe_battle("Right", x, 3): return
         
-    # 17. Walk Down Column 26 to Row 6 (26, 6) to drop down to 1F East!
+    # 13. Walk Down Column 26 to Row 6 (26, 6) (which is the pitfall!)
     if not move_safe_battle("Down", 26, 4): return
     if not move_safe_battle("Down", 26, 5): return
     
