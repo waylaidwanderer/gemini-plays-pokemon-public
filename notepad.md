@@ -43,7 +43,7 @@
 - **Northbound Highway (Left Side - Columns 0, 1, 2):**
   - Completely open and free of all horizontal ledges and tree line barriers!
   - Serves as the high-speed transit lane going North directly to Viridian City.
-  - Can only be entered from the bottom of Route 1 (via Pallet Town on Column 2) or by jumping over the vertical ledges.
+  - Note: This lane is northbound-only for the upper part, but at the very bottom, there is a fence blocking UP entry from Pallet Town.
 - **Southbound Lane (Right/Middle Side - Columns 4-18):**
   - Contains several horizontal ledges that only permit downward jumping.
   - Includes:
@@ -57,7 +57,6 @@
 - **Blue's House:** Columns 11-18, Rows 3-8 (roof at Row 3).
 - **Professor Oak's Lab:** Columns 10-19, Rows 9-15 (top wall/roof at Row 8).
 - **Exit to Route 1:** Only accessible via Columns 10 and 11 on Row 0 (due to horizontal boundary fence on Columns 0-9).
-- **Bypass Route to left-side grass strip (Columns 0-1):** Walk Left below Red's house on Row 9 or 10, then walk UP Column 2 past the Row 3 house area directly to Route 1.
 
 <hr>
 
