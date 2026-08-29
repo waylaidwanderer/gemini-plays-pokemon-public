@@ -70,12 +70,12 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # We are at (4, 5) currently.
-    # Walk Up Column 4 to Row 2, then Right along Row 2 to Column 26, then Down to (26, 3)
+    # We are at (12, 2) currently.
+    # Walk Up to Row 1, then Right along Row 1 to Column 26, then Down to Column 26 Row 3 (pitfall)
     path = [
-        (4, 4), (4, 3), (4, 2),
-        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2),
-        (26, 3)
+        (12, 1),
+        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
+        (26, 2), (26, 3)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
