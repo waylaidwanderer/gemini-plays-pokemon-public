@@ -2332,6 +2332,7 @@
 ## State & Switch Mechanics
 - State A (Default): Doorway (26..27, 4) and (4, 7) OPEN; Shutters at (21, 17) and (26..27, 27) CLOSED.
 - State B (Toggled): Shutter at (21, 17) OPEN; Shutter at (26..27, 27) CLOSED/Solid; 1F gate at (24..25, 13) CLOSED.
+- Column 9 Divider: Vertical wall at rows 0-3 and rows 6-8. Open hallway gap connecting West and East wings is at rows 4-5 (cols 6-12).
 
 <hr>
 
