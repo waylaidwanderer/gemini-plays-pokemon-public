@@ -15,7 +15,7 @@
 - Note: Southwest Wing (cols 0-9, rows 8-17) is isolated by walls/rubble and has no passage to the Northeast Wing.
 
 ### Northeast & Eastern Sector (Accessible via 2F Northeast Stairs at (6, 1))
-- Stairs down to 2F: (6, 1) [Arrival on 3F at (6, 2)]
+- Access: Accessible from lower floor warp/path.
 - Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
 - Balcony Drop-off Pits (Row 14):
   - Left Drop-off Pit at (16..17, 14) -> Lands on 1F South Wing at (16, 14)
