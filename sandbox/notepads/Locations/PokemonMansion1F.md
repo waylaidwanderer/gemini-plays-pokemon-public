@@ -45,8 +45,9 @@
 - Shutter Gate (North Row 13): (12..17, 13) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19705). Connects column 12 corridor directly south into Enclosed East Wing.
 - Column 9 Barrier: Continuous solid vertical wall from row 8 to row 16 blocking westward passage. West-East wing bypass on 1F is located at Row 22 (cols 6-13).
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
-### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-20070)
-- Row 8 Horizontal Wall: Solid impassable wall across (8..25, 8) completely dividing northern rooms (rows 1-7) from southern corridors (rows 9-16). Column 12 is blocked at (12, 8).
+### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-20403)
+- Row 8 Horizontal Wall & Gate: Wall across (8..25, 8) with shutter gate at (18..19, 8) [OPEN in State B, CLOSED in State A]. In State B, provides open north-south passage between Landing Sector (row 10) and Northern Hallway (rows 1-7). Column 12 is blocked at (12, 8).
+- Northeast Chamber Obstacles: Rubble at (23..26, 6..7), (22..24, 4..5), (22..23, 8..10), (26, 9); wall barriers at (20..21, 5) and (22, 2). Row 3 (cols 20-26) is a clear east-west corridor.
 - Row 17 Horizontal Table Barrier: Solid barrier across (1..9, 17). The ONLY north-south opening through row 17 is at (10..12, 17).
 - Column 25 Vertical Wall: Solid divider across (25, 9..16) separating East Wing landing (cols 18-24) from B1F Staircase corridor (cols 26-28).
 - Column 9 Vertical Wall: Solid divider across (9, 9..16) separating Central Hallway (cols 1-8) from East corridor (cols 10-12).
@@ -59,7 +60,6 @@
 - Route to Switch/Item: From column 12 -> (13, 22..23) doorway -> (14, 23) -> South to row 26 (14, 26) -> East along row 26 to (18..19, 26) -> (18, 25) switch / (19, 25) item ball.
 ### B1F Staircase Location (Observed Turn 19991)
 - Descending Staircase to B1F: Located at (26..27, 17).
-- South Railing: Row 18 (26..27, 18) is a solid railing/barrier (cannot enter from south).
 - North Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH at row 16 stepping DOWN into (26..27, 17).
 - Item Ball at (1, 22): Full Restore [Collected Turn 20065]
 ### Isolated B1F Staircase Enclosure & Access Rule (Verified Turns 20090-20104)
@@ -70,3 +70,11 @@
   - East: Solid exterior wall at column 29.
 - **Entry Method**: This enclosure CANNOT be entered from 1F ground level. It must be entered by dropping from the far-right section of the 3F balcony pits!
 - **Decorative Object at (23, 22)**: (23, 22) is a decorative pedestal/display, NOT a floor warp or staircase.
+### Verified Multi-Floor Switch State Table
+| Gate / Shutter Location | Floor | State A (Default) | State B (Toggled) |
+|---|---|---|---|
+| (18..19, 8) Shutter Gate | 1F | CLOSED | OPEN |
+| (12..17, 13) Shutter Gate | 1F | OPEN | CLOSED |
+| (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
+| (21, 17) Shutter Gate | 2F | CLOSED | OPEN |
+| (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
