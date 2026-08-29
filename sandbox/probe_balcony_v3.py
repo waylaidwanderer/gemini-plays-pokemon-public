@@ -70,19 +70,26 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # 1. Walk from (12, 12) up Column 12 to Row 3
+    # Setup path along Column 12
     setup_path = [
-        (12, 11), (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3)
+        (12, 12), (12, 11), (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3)
     ]
-    if not walk_path(setup_path):
-        print("Failed to reach (12, 3)")
-        return
+    
+    pos_tuple = (pos['x'], pos['y'])
+    if pos_tuple in setup_path:
+        idx = setup_path.index(pos_tuple)
+        setup_path = setup_path[idx+1:]
+        print(f"Sliced setup_path to start from index {idx+1}: {setup_path}")
+    
+    if setup_path:
+        if not walk_path(setup_path):
+            print("Failed to reach (12, 3)")
+            return
         
     print("Reached (12, 3). Probing central columns...")
     
     # We will try columns from 13 to 22
     for x in range(13, 23):
-        # Walk to Column x on Row 3
         curr_pos = mgba.get_coordinates()
         curr_x = curr_pos['x']
         print(f"Testing Column {x} from Column {curr_x}...")
@@ -98,10 +105,8 @@ def main():
         if col_path:
             if not walk_path(col_path):
                 print(f"Blocked walking horizontally to Column {x} on Row 3.")
-                # If we are blocked on Row 3, we cannot test further right columns easily, so break
                 break
                 
-        # Try to step Down Column x through Rows 4-16
         print(f"Column {x}: Attempting to walk Down...")
         blocked = False
         reached_y = 3
@@ -115,8 +120,6 @@ def main():
                 
         if reached_y == 16:
             print(f"SUCCESS: Column {x} is completely open to Row 16!!!")
-            # Let's walk to the balcony!
-            # Balcony door is at (16, 17) or (16, 18)
             balcony_path = []
             if x < 16:
                 for tx in range(x + 1, 17):
@@ -139,7 +142,6 @@ def main():
                 print("Failed to walk to balcony from bottom.")
                 return
                 
-        # If we got blocked, walk back UP to Row 3 to test the next column
         if blocked and reached_y > 3:
             print(f"Column {x}: Retreating back Up to Row 3...")
             for y in range(reached_y - 1, 2, -1):
