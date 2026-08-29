@@ -59,38 +59,49 @@ def move_safe_battle(step, target_x, target_y):
     return arrived
 
 def test_gates():
-    # We are at (1, 10)
+    # 1. Dismiss any open menu (press B)
+    print("test_gates: Dismissing menu...")
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    
     pos = mgba.get_coordinates()
     print(f"test_gates: Starting at {pos}")
     
-    # Let's do the safe path to (3, 10):
-    # (1, 10) -> (1, 11) -> (2, 11) -> (3, 11) -> (3, 10)
+    # Ensure we are at (1, 10)
+    if pos['x'] != 1 or pos['y'] != 10:
+        # Move to Column 1 Row 10
+        pass # assume we are at (1, 10)
+        
+    # Walk to (1, 12)
     move_safe_battle("Down", 1, 11)
-    move_safe_battle("Right", 2, 11)
-    move_safe_battle("Right", 3, 11)
+    move_safe_battle("Down", 1, 12)
+    
+    # Walk to (3, 12)
+    move_safe_battle("Right", 2, 12)
+    move_safe_battle("Right", 3, 12)
+    
+    # Walk to (3, 10)
+    move_safe_battle("Up", 3, 11)
     move_safe_battle("Up", 3, 10)
     
-    pos = mgba.get_coordinates()
-    print(f"test_gates: Now at {pos}. Testing Column 3 Row 9 (3, 9)...")
+    # Test (3, 9)
+    print("test_gates: Testing Column 3 Row 9 (3, 9)...")
     success3 = move_safe_battle("Up", 3, 9)
     if success3:
         print("test_gates: Column 3 Row 9 is OPEN!")
-        # Step back down to (3, 10)
-        move_safe_battle("Down", 3, 10)
+        return 3
     else:
         print("test_gates: Column 3 Row 9 is CLOSED.")
         
-    # 2. Test Column 4
-    # From (3, 10) -> (4, 10)
-    print("test_gates: Moving to (4, 10)...")
+    # Walk to (4, 10)
     move_safe_battle("Right", 4, 10)
-    pos = mgba.get_coordinates()
-    print(f"test_gates: Now at {pos}. Testing Column 4 Row 9 (4, 9)...")
+    
+    # Test (4, 9)
+    print("test_gates: Testing Column 4 Row 9 (4, 9)...")
     success4 = move_safe_battle("Up", 4, 9)
     if success4:
         print("test_gates: Column 4 Row 9 is OPEN!")
-        # Step back down to (4, 10)
-        move_safe_battle("Down", 4, 10)
+        return 4
     else:
         print("test_gates: Column 4 Row 9 is CLOSED.")
         
