@@ -76,12 +76,12 @@ def walk_path(coords):
     return "SUCCESS"
 
 def main():
-    print("solve_mansion_3f_v2: Walking directly to pitfall from current...")
+    print("solve_mansion_3f_v2: Walking directly to pitfall from current (2, 6)...")
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
     path = [
-        (3, 7), (3, 6), (3, 5), (4, 5),
+        (3, 6), (3, 5), (4, 5),
         (4, 4), (4, 3), (4, 2), (4, 1),
         (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
         (26, 2), (26, 3), (26, 4), (26, 5), (26, 6)
