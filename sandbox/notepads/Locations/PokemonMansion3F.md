@@ -26,3 +26,23 @@
   4. Walk Right along Row 16 to Column 16.
   5. Walk Down Column 16 to (16, 17) (open balcony door) and (16, 18) (balcony grass).
   6. Walk Right to (19, 18) (balcony grass) and walk Down to jump the railing and fall to B1F!
+
+## State B Proven Isolation & Blockages (Verified Turn 66911)
+- **Western, Central, and Eastern Sections are Isolated:** In State B, 3F is divided into completely isolated vertical strips below Row 3:
+  - **Column 11 Partition Wall:** Solid vertical wall on Rows 13-20, blocking horizontal travel.
+  - **Column 13 Partition Wall:** Solid vertical wall on Rows 8-12, blocking horizontal travel.
+  - **Column 21-23 Rubble:** Blocks Rows 7-13, preventing horizontal travel.
+  - **Row 13 Cabinet Barrier:** Solid counters/cabinets block Row 13 vertically on Columns 11-28.
+  - **Row 7 Cabinet/Machine Barrier:** Solid counters/consoles block Row 7 vertically on Columns 13-21.
+  - **Column 18 Wall:** Solid vertical wall on Row 16.
+- **The Balcony is Inaccessible in State B:** Because of the above barriers, the central balcony area cannot be reached from either 3F East or 3F West while in State B.
+
+## The Intended Mansion 3F Puzzle Solution (State A Route)
+1. **Toggle Switch to State A:** From 3F East, walk via Column 26 Row 3 to 3F West Column 2 Row 12, face UP and toggle the Mewtwo switch at (2, 11) to State A.
+2. **Fall through Pitfall:** Walk to (26, 3) on 3F East. In State A, the pitfall is OPEN, and walking onto it drops you to 1F East inside the fenced room.
+3. **Ascend via 2F East:**
+   - From 1F East fenced room, take the stairs down to B1F East.
+   - Walk through 1F West to the stairs up to 2F West.
+   - On 2F, since State A gates on Row 11 are OPEN, walk freely to 2F East.
+   - Take the northeast stairs at (22, 1) UP to 3F East.
+4. **Access Balcony:** Land on 3F East at (22, 1). Walk down Column 25 (which is completely open to Row 16). Since the balcony shutter gates at (20, 17) and (21, 17) are OPEN in State A, walk through them to the balcony at (19, 18) and drop to B1F West to retrieve the Secret Key!
