@@ -59,30 +59,24 @@ def move_safe_battle(step, target_x, target_y):
     return arrived
 
 def main():
-    # We start at (11, 9) on 3F West
+    # We are at (3, 11) on 3F West with Start menu open
     print("go_to_b1f_via_balcony: Starting...")
     
-    # 1. Walk down Column 11 to Row 11
+    # 1. Dismiss Start menu (press B)
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
+    # 2. Walk DOWN to (3, 12)
     pos = mgba.get_coordinates()
-    while pos['y'] < 11:
-        success = move_safe_battle("Down", 11, pos['y'] + 1)
-        if not success: return
-        pos = mgba.get_coordinates()
-        
-    # 2. Walk LEFT Row 11 to Column 1 (bypassing warp at (7, 10))
-    while pos['x'] > 1:
-        success = move_safe_battle("Left", pos['x'] - 1, 11)
-        if not success: return
-        pos = mgba.get_coordinates()
-        
-    # 3. Walk to switch at (2, 12)
-    success = move_safe_battle("Down", 1, 12)
-    if not success: return
-    success = move_safe_battle("Right", 2, 12)
+    success = move_safe_battle("Down", 3, 12)
     if not success: return
     
-    # 4. Toggle switch to State A
-    print("At switch. Toggling to State A...")
+    # 3. Walk LEFT to (2, 12)
+    success = move_safe_battle("Left", 2, 12)
+    if not success: return
+    
+    # 4. Toggle switch to State A (standing at 2, 12 facing UP)
+    print("At switch (2, 12). Toggling to State A...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     mgba.press_buttons(["A"])
@@ -92,25 +86,19 @@ def main():
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     
-    # 5. Walk back to (1, 11)
-    pos = mgba.get_coordinates()
+    # 5. Walk LEFT to (1, 12)
     success = move_safe_battle("Left", 1, 12)
     if not success: return
-    success = move_safe_battle("Up", 1, 11)
-    if not success: return
-    pos = mgba.get_coordinates()
     
-    # 6. Walk RIGHT Row 11 to Column 19 (which is open in State A!)
-    while pos['x'] < 19:
-        success = move_safe_battle("Right", pos['x'] + 1, 11)
+    # 6. Walk RIGHT along Row 12 to Column 19 (open in State A!)
+    for x in range(2, 20):
+        success = move_safe_battle("Right", x, 12)
         if not success: return
-        pos = mgba.get_coordinates()
         
     # 7. Walk DOWN Column 19 to Row 18
-    while pos['y'] < 18:
-        success = move_safe_battle("Down", 19, pos['y'] + 1)
+    for y in range(13, 19):
+        success = move_safe_battle("Down", 19, y)
         if not success: return
-        pos = mgba.get_coordinates()
         
     # 8. Step DOWN to jump over the balcony!
     print("At balcony (19, 18). Jumping down...")
