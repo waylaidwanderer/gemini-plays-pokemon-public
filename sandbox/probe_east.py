@@ -15,6 +15,11 @@ def move_test(step, target_x, target_y):
             # Dismiss potential battle screen
             mgba.press_buttons(["B"])
             time.sleep(0.5)
+            # Select RUN if in battle (let's do simple run select)
+            mgba.press_buttons(["Down", "Right", "A"])
+            time.sleep(1.0)
+            mgba.press_buttons(["B"])
+            time.sleep(0.5)
         mgba.press_buttons([step])
         time.sleep(0.4)
         pos_before = pos_after
@@ -24,30 +29,35 @@ def move_test(step, target_x, target_y):
     return pos_after
 
 def main():
-    # We are at (14, 1) on 3F
+    # We are at (10, 4) in the battle-end overworld screen
     print("probe_east: Starting at", mgba.get_coordinates())
     
-    # Let's test Column 15 on Rows 1 to 7
-    # We are currently at Row 1.
-    for y in range(1, 8):
-        # 1. Walk vertically to Row y on Column 14
-        pos = mgba.get_coordinates()
-        while pos['y'] < y:
-            pos = move_test("Down", 14, pos['y'] + 1)
-            if not pos: return
-        while pos['y'] > y:
-            pos = move_test("Up", 14, pos['y'] - 1)
-            if not pos: return
+    # Dismiss "Got away safely!"
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    
+    pos = mgba.get_coordinates()
+    print("probe_east: Post-dismiss position:", pos)
+    
+    # Walk RIGHT Row 4 to Column 19
+    for x in range(11, 20):
+        pos = move_test("Right", x, 4)
+        if not pos:
+            print(f"probe_east: Blocked at Column {x} Row 4.")
+            return
             
-        # 2. Try to step RIGHT into Column 15 Row y
-        print(f"probe_east: Testing Column 15 Row {y} (15, {y})...")
-        pos_right = move_test("Right", 15, y)
-        if pos_right:
-            print(f"probe_east: Column 15 Row {y} is OPEN! Walked onto: {pos_right}")
-            # Step back left to Column 14 Row y
-            move_test("Left", 14, y)
-        else:
-            print(f"probe_east: Column 15 Row {y} is CLOSED.")
+    # Walk right to (20, 4) then up to (20, 3)
+    pos = move_test("Right", 20, 4)
+    if not pos: return
+    pos = move_test("Up", 20, 3)
+    if not pos: return
+    
+    # Walk RIGHT to (25, 3)
+    for x in range(21, 26):
+        pos = move_test("Right", x, 3)
+        if not pos: return
+        
+    print(f"probe_east: Successfully reached 3F East at {mgba.get_coordinates()}")
 
 if __name__ == "__main__":
     main()
