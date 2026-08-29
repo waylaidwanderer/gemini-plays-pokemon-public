@@ -2368,7 +2368,7 @@
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
 - Entering Mansion from exterior resets all switches to default State A.
-- To reach B1F stairs from 1F enclosed area, Mansion switches MUST remain in State A (Default) so the 1F shutter at (24..25, 13) remains OPEN!
+- To reach B1F stairs: Flip 3F switch (10, 5) to State B, walk through opened shutter at (15, 10..11), drop down Left Balcony (16, 14) onto 1F South Wing at (16, 14), then navigate (16, 14) -> (12, 20) -> (20, 20) -> (20, 16) -> (25, 16) -> (25, 14) to descend into B1F!
 
 
 <hr>
