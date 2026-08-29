@@ -63,9 +63,9 @@
 
 ## Active Party (Verified Turn 19871)
 1. HYDROS (Blastoise) - Lv 64
-   - Stats: Max HP 215 (HP: 42/215), Attack 150, Defense 165, Speed 152, Special 159
+   - Stats: Max HP 215 (HP: 215/215 - Fully Healed), Attack 150, Defense 165, Speed 152, Special 159
    - Type: Water
-   - Moves: Double-Edge (7/15), Ice Beam (10/10), Bite (25/25), Surf (14/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46 - Fully Healed)
@@ -73,22 +73,22 @@
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Active combatant & Cut utility
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
+   - Stats: Max HP 54 (HP: 54/54 - Fully Healed)
    - Type: Fighting
    - Moves: Karate Chop, Low Kick, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 0/54 - Fainted)
+   - Stats: Max HP 54 (HP: 54/54 - Fully Healed / Revived)
    - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
+   - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
    - Role: Physical Rock/Ground tank & Dig utility
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62)
+   - Stats: Max HP 62 (HP: 62/62 - Fully Healed)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Special Sweeper reserve
 6. ZEPHYR (Pidgey) - Lv 20
-   - Stats: Max HP 58 (HP: 58/58)
+   - Stats: Max HP 58 (HP: 58/58 - Fully Healed)
    - Type: Normal / Flying
    - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility
