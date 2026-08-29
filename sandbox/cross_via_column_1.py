@@ -74,11 +74,34 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Start coordinates: {pos}")
     
-    # 1. If we are on Row 11 and need to cross to Column 1, go via Row 13
-    if pos['y'] == 11:
-        # Walk Down to (pos['x'], 13)
-        if not move_safe_battle("Down", pos['x'], 12): return
-        if not move_safe_battle("Down", pos['x'], 13): return
+    # 1. Path routing to (5, 13) from Southern 3F West room
+    if pos['x'] >= 5 and pos['y'] in [8, 9, 10, 11]:
+        if pos['y'] == 8:
+            if not move_safe_battle("Down", pos['x'], 9): return
+            pos = mgba.get_coordinates()
+        if pos['y'] == 9:
+            if pos['x'] > 6:
+                for x in range(pos['x'] - 1, 5, -1):
+                    if not move_safe_battle("Left", x, 9): return
+            elif pos['x'] < 6:
+                for x in range(pos['x'] + 1, 7):
+                    if not move_safe_battle("Right", x, 9): return
+            pos = mgba.get_coordinates()
+        if pos['y'] == 9 and pos['x'] == 6:
+            if not move_safe_battle("Down", 6, 10): return
+            pos = mgba.get_coordinates()
+        if pos['y'] == 10 and pos['x'] == 6:
+            if not move_safe_battle("Left", 5, 10): return
+            pos = mgba.get_coordinates()
+        if pos['y'] == 10 and pos['x'] == 5:
+            if not move_safe_battle("Down", 5, 11): return
+            pos = mgba.get_coordinates()
+        if pos['y'] == 11 and pos['x'] == 5:
+            if not move_safe_battle("Down", 5, 12): return
+            pos = mgba.get_coordinates()
+        if pos['y'] == 12 and pos['x'] == 5:
+            if not move_safe_battle("Down", 5, 13): return
+            pos = mgba.get_coordinates()
         
     pos = mgba.get_coordinates()
     # 2. Walk Left to (2, 13)
