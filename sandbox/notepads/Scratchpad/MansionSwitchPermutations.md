@@ -22,14 +22,15 @@
 | 3F (17, 14) [Left/Center Pit Drop] | 1F (16, 14) | 1F South Wing (TM03, Scientist Ted) | Confirmed (Turn 18902) |
 | 3F (19, 14) [Right Pit Drop] | 1F (18, 14) | 1F Northern Landing Sector (Journal at (18, 2), Switch at (15, 11)) | VERIFIED (Turn 19000) |
 
-## Step-by-Step Execution Protocol (Canonical True Route to B1F - Active)
-1. On 2F: Navigate east along row 1 corridor to (25, 3) stairs ascending to 3F Northeast sector.
-2. On 3F: Ensure switch at (10, 5) is toggled to State B (opens 3F shutter barrier at (15, 10..11)).
-3. Walk through open barrier to Right Balcony Pit at 3F (19, 14) and drop down.
-4. Land on 1F Northern Landing Sector at (18, 14).
-5. Walk to Mewtwo statue switch at 1F (15, 11) and toggle back to State A (opens shutter gate at (24..25, 13)).
-6. Walk north along col 18 to row 3 -> walk east along row 3 to col 26 -> enter doorway at (26, 4).
-7. Walk south along col 26 -> pass through open shutter at (24..25, 13) -> step on (25, 14) to enter B1F!
+## Step-by-Step Execution Protocol (Canonical True Route to B1F - Verified Steps)
+1. On 1F: Ascend to 3F via central stairs at (7, 10).
+2. On 3F: Navigate through row 15 southern corridor to reach the northeastern balcony section.
+3. On 3F: Ensure switch at (10, 5) is toggled to State B (opens 3F shutter barrier at (15, 10..11)).
+4. Walk through open barrier to Right Balcony Pit at 3F (19, 14) and drop down.
+5. Land on 1F Northern Landing Sector at (18, 14).
+6. Walk to Mewtwo statue switch at 1F (15, 11) and toggle back to State A (opens shutter gate at (24..25, 13)).
+7. Walk north along col 18 to row 3 -> walk east along row 3 to col 26 -> enter doorway at (26, 4).
+8. Walk south along col 26 -> pass through open shutter at (24..25, 13) -> step on (25, 14) to enter B1F!
 
 ## Disproven Hypotheses & Pruned Sequences
 - Row 22 Eastward Traversal: Disproven on Turn 19384. Column 14 (rows 16-25) is an impassable vertical wall; row 22 does not connect the west and east wings.
