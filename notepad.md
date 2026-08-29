@@ -2292,6 +2292,10 @@
 ### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-19950)
 - Staircase South Railing at (24..25, 13): Stepping Up from (24, 14) or (25, 14) collides with solid stair barrier. Stairs must be entered from row 12 stepping Down.
 - Southeast Corner at (26..27, 27): Dead-end alcove; no doorway or external transition.
+### Southeast Enclosed Room & Switch (Verified Turns 19959-19969)
+- Mewtwo Statue Switch: Located at (18, 25). Interactable from (18, 26) facing Up or (17, 25) facing Right. Toggles global mansion shutters between State A and State B.
+- Item Ball: Located at (19, 25) (immediately east of statue switch).
+- Corridor to Switch: Row 15 (cols 12-24) -> Column 12 (rows 15-26) -> Row 26 (cols 12-19) -> (19, 25..26).
 
 <hr>
 
