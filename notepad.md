@@ -82,7 +82,7 @@ Placeholder to prevent data loss.
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
-- We do NOT have the Secret Key in our bag or our PC (empirically verified on Turn 65817). It must be retrieved from the Pokémon Mansion B1F.
+- We do NOT have the Secret Key in our bag (verified Turn 65791, checked PC on Turn 65817). It must be retrieved from Pokémon Mansion B1F.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
