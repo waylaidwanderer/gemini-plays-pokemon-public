@@ -32,3 +32,12 @@
    - On 2F, since State A gates on Row 11 are OPEN, walk freely to 2F East.
    - Take the northeast stairs at (22, 1) UP to 3F East.
 4. **Access Balcony:** Land on 3F East at (22, 1). Walk down Column 25 (which is completely open to Row 16). Since the balcony shutter gates at (20, 17) and (21, 17) are OPEN in State A, walk through them to the balcony at (19, 18) and drop to B1F West to retrieve the Secret Key!
+
+## Shutter Gate at (3, 6) Local Verification Logic (Verified Turn 67240)
+- **Mewtwo Switch Gate at (3, 6) on 3F West:**
+  - **State A:** CLOSED. Vertical and horizontal passage between `(2, 6)` and `(3, 6)` is completely BLOCKED by the closed shutter gate.
+  - **State B:** OPEN. Completely walkable and passable.
+  - **The Switch Gate Verification Protocol:**
+    - To 100% verify that State A is active locally after toggling, try to step Right from `(2, 6)` to `(3, 6)`.
+    - If you are BLOCKED (position remains at `(2, 6)`), then State A is active!
+    - If you successfully step to `(3, 6)`, then State B is active!
