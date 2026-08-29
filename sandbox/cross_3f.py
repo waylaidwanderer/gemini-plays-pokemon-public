@@ -66,19 +66,23 @@ def move_safe_battle(step, target_x, target_y):
     return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6)
 
 def main():
-    print("cross_3f_via_col_10: Starting...")
+    print("cross_3f_via_row_12: Starting...")
     pos = mgba.get_coordinates()
     print(f"Initial coordinates: {pos}")
     
-    # 1. Walk Down to (1, 11)
-    if not move_safe_battle("Down", 1, 11): return
-    
-    # 2. Walk Right on Row 11 to Column 10 (10, 11)
+    # 1. Walk Down to (1, 12)
+    if pos['y'] == 10:
+        if not move_safe_battle("Down", 1, 11): return
+    pos = mgba.get_coordinates()
+    if pos['y'] == 11:
+        if not move_safe_battle("Down", 1, 12): return
+        
+    # 2. Walk Right on Row 12 to Column 10 (10, 12)
     for x in range(2, 11):
-        if not move_safe_battle("Right", x, 11): return
+        if not move_safe_battle("Right", x, 12): return
         
     # 3. Walk Up Column 10 to Row 6 (10, 6)
-    for y in range(10, 5, -1):
+    for y in range(11, 5, -1):
         if not move_safe_battle("Up", 10, y): return
         
     # 4. Walk Right Row 6 to Column 19 (19, 6)
