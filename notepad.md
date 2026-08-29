@@ -2439,10 +2439,10 @@
 - Room 2 (R&D / Trading Room): Door at (12, 4).
 - Room 3 (Testing / Fossil Resurrection Lab): Door at (16, 4).
 
-## Room 3 - Fossil Resurrection Lab
+## Room 3 - Fossil Resurrection Lab & Trade Room
 - Entrance Mat: (2, 7) / (3, 7).
-- Fossil Scientist: Located at (7, 6).
-- Function: Resurrects prehistoric Pokémon from fossils (Helix Fossil -> Omanyte, Dome Fossil -> Kabuto, Old Amber -> Aerodactyl).
-- Status: Helix Fossil delivered for resurrection into Omanyte.
+- In-Game Trader NPC: Located at (7, 6) [Wants to trade for SEEL].
+- Fossil Scientist NPC: Located in northern area at (4..6, 2) [Resurrects prehistoric Pokémon from fossils: Helix Fossil -> Omanyte, Dome Fossil -> Kabuto, Old Amber -> Aerodactyl].
+- Status: Helix Fossil is in PC storage. Available for resurrection into Omanyte.
 
 <hr>
