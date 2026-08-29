@@ -66,30 +66,21 @@ def walk_path(coords):
     return True
 
 def main():
-    print("probe_balcony_v3: Starting...")
+    print("probe_balcony_v4: Starting...")
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # Setup path along Column 12
+    # Currently we are at (14, 6). Let's walk Up Column 14 to Row 3
     setup_path = [
-        (12, 12), (12, 11), (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3)
+        (14, 5), (14, 4), (14, 3)
     ]
-    
-    pos_tuple = (pos['x'], pos['y'])
-    if pos_tuple in setup_path:
-        idx = setup_path.index(pos_tuple)
-        setup_path = setup_path[idx+1:]
-        print(f"Sliced setup_path to start from index {idx+1}: {setup_path}")
-    
-    if setup_path:
-        if not walk_path(setup_path):
-            print("Failed to reach (12, 3)")
-            return
+    if not walk_path(setup_path):
+        print("Failed to reach (14, 3)")
+        return
         
-    print("Reached (12, 3). Probing central columns...")
+    print("Reached (14, 3). Probing columns 14 to 22...")
     
-    # We will try columns from 13 to 22
-    for x in range(13, 23):
+    for x in range(14, 23):
         curr_pos = mgba.get_coordinates()
         curr_x = curr_pos['x']
         print(f"Testing Column {x} from Column {curr_x}...")
@@ -120,6 +111,7 @@ def main():
                 
         if reached_y == 16:
             print(f"SUCCESS: Column {x} is completely open to Row 16!!!")
+            # Walk to balcony!
             balcony_path = []
             if x < 16:
                 for tx in range(x + 1, 17):
