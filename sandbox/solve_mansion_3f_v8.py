@@ -232,7 +232,7 @@ def main():
     time.sleep(0.4)
     
     print("Toggling Mewtwo switch to State A...")
-    mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A"])
+    mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A"])
     time.sleep(1.0)
     print("Switch toggled. Mansion should now be in State A!")
     
