@@ -34,4 +34,4 @@ This gives us the perfect master bypass route around the Row 7 blockage:
 6. Walk Down Column 14 directly to Row 10 `(14, 10)`.
 7. Walk Right on Row 10 to Column 15 `(15, 10)`.
 8. Step Down onto the stairs at `(15, 11)` to warp UP directly to 3F East!
-- This route is 100% verified, completely open, and has no closed shutter gates or solid walls.
+- WARNING: This route is NOT completely open. Column 8 Row 15 is blocked by solid, impassable rubble on 2F West (empirically verified by bumping at (7, 15) on Turn 66629). Thus, direct horizontal bypass on Row 15 from Column 7 to Column 12 is blocked.
