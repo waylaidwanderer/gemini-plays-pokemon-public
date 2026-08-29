@@ -48,8 +48,7 @@ def move_safe_battle(step, target_x, target_y):
             if is_in_battle():
                 handle_battle_escape()
             else:
-                print("move_safe_battle: Turn-in-place or wall. Bailing...")
-                return False
+                print("move_safe_battle: Turn-in-place or wall. Retrying...")
         else:
             print(f"move_safe_battle: Moved but to {pos_after} instead of target ({target_x}, {target_y}). Checking battle...")
             if is_in_battle():
@@ -67,34 +66,38 @@ def move_safe_battle(step, target_x, target_y):
     return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6)
 
 def main():
-    print("cross_3f: Starting from (2, 12)...")
+    print("cross_3f_via_col_10: Starting...")
+    pos = mgba.get_coordinates()
+    print(f"Initial coordinates: {pos}")
     
-    # 1. Walk to (1, 12)
-    if not move_safe_battle("Left", 1, 12): return
+    # 1. Walk Down to (1, 11)
+    if not move_safe_battle("Down", 1, 11): return
     
-    # 2. Walk Up Column 1 to Row 6 (gate at (1, 9) should be open!)
-    for y in range(11, 5, -1):
-        if not move_safe_battle("Up", 1, y):
-            print(f"CRITICAL: Failed to walk Up to Row {y}. Gate might be closed!")
-            return
-            
-    # 3. Walk Right Row 6 to Column 19
-    for x in range(2, 20):
+    # 2. Walk Right on Row 11 to Column 10 (10, 11)
+    for x in range(2, 11):
+        if not move_safe_battle("Right", x, 11): return
+        
+    # 3. Walk Up Column 10 to Row 6 (10, 6)
+    for y in range(10, 5, -1):
+        if not move_safe_battle("Up", 10, y): return
+        
+    # 4. Walk Right Row 6 to Column 19 (19, 6)
+    for x in range(11, 20):
         if not move_safe_battle("Right", x, 6): return
         
-    # 4. Walk Up Column 19 to Row 4
+    # 5. Walk Up Column 19 to Row 4 (19, 4)
     for y in [5, 4]:
         if not move_safe_battle("Up", 19, y): return
         
-    # 5. Walk Right to (20, 4) then UP to (20, 3)
+    # 6. Walk Right to (20, 4) then UP to (20, 3)
     if not move_safe_battle("Right", 20, 4): return
     if not move_safe_battle("Up", 20, 3): return
     
-    # 6. Walk Right Row 3 to Column 26
+    # 7. Walk Right Row 3 to Column 26 (26, 3)
     for x in range(21, 27):
         if not move_safe_battle("Right", x, 3): return
         
-    # 7. Walk Down Column 26 to Row 6 (pitfall at (26, 6) drops us to 1F East at (25, 6))
+    # 8. Walk Down Column 26 to Row 6 (pitfall at (26, 6) drops us to 1F East at (25, 6))
     if not move_safe_battle("Down", 26, 4): return
     if not move_safe_battle("Down", 26, 5): return
     
