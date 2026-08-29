@@ -48,15 +48,15 @@ def step_one(direction, target_x, target_y):
     return pos_after['x'] == target_x and pos_after['y'] == target_y
 
 def main():
-    print("go_to_2f_and_cross: Starting from (1, 10)...")
+    print("go_to_2f_and_cross: Starting...")
     pos = mgba.get_coordinates()
     print(f"Start coordinates: {pos}")
     
-    # 1. Walk from (1, 10) on 3F West to the stairs at (7, 10)
-    if pos['x'] == 1 and pos['y'] == 10:
-        if not step_one("Down", 1, 11): return
-        if not step_one("Down", 1, 12): return
-        if not step_one("Down", 1, 13): return
+    # 1. Walk from Column 1 on 3F West to Row 13
+    if pos['x'] == 1 and 10 <= pos['y'] < 13:
+        print(f"Walking down Column 1 to Row 13 from {pos}...")
+        for y in range(pos['y'] + 1, 14):
+            if not step_one("Down", 1, y): return
         pos = mgba.get_coordinates()
         
     if pos['y'] == 13 and pos['x'] < 7:
