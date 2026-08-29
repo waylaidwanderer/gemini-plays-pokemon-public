@@ -14,12 +14,12 @@ def walk_path(steps):
         print(f"Moved to: {new_pos}")
     return True
 
-# Current position is (1, 16)
+# Current position is (4, 13)
 # We want to walk:
-# Right 3 to (4, 16)
-# Up 5 to (4, 11)
-# Right 8 to (12, 11)
+# Right 1 to (5, 13)
+# Up 2 to (5, 11)
+# Right 7 to (12, 11)
 # Up 2 to (12, 9)
 
-path = ["Right"]*3 + ["Up"]*5 + ["Right"]*8 + ["Up"]*2
+path = ["Right"] + ["Up"]*2 + ["Right"]*7 + ["Up"]*2
 walk_path(path)
