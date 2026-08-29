@@ -1,33 +1,64 @@
 import mgba
 import time
-import test_gate
-import importlib
+
+def is_in_battle():
+    # We can check battle or just return False since we have time.sleep
+    return False
+
+def move_test(step, target_x, target_y):
+    pos_before = mgba.get_coordinates()
+    print(f"probe: Pressing '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
+    mgba.press_buttons([step])
+    time.sleep(0.4)
+    pos_after = mgba.get_coordinates()
+    
+    attempts = 0
+    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 4:
+        if pos_before == pos_after:
+            print("probe: BUMPED. Retrying...")
+            # Dismiss potential battle screen
+            mgba.press_buttons(["B"])
+            time.sleep(0.5)
+        mgba.press_buttons([step])
+        time.sleep(0.4)
+        pos_before = pos_after
+        pos_after = mgba.get_coordinates()
+        attempts += 1
+        
+    return pos_after
 
 def main():
-    # 1. Escape battle
-    print("go_to_3f_finish: Escaping Grimer...")
-    importlib.reload(test_gate)
-    test_gate.handle_battle_escape()
+    # We start at (7, 10) on 3F West
+    print("go_to_3f_east: Starting...")
     
-    pos = mgba.get_coordinates()
-    print(f"go_to_3f_finish: Overworld position: {pos}")
+    # 1. Walk down to (7, 11)
+    pos = move_test("Down", 7, 11)
     
-    # 2. Walk Right to (7, 11)
-    # We are at (5, 11) or close. Let's make sure we walk to (7, 11)
-    while pos['x'] < 7:
-        pos_after = test_gate.move_safe_battle("Right", pos['x'] + 1, 11)
-        if not pos_after:
-            print("Failed to move Right.")
-            return
-        pos = mgba.get_coordinates()
+    # 2. Walk right on Row 11 to Column 10
+    for x in range(8, 11):
+        pos = move_test("Right", x, 11)
         
-    # 3. Walk UP onto the stairs at (7, 10) to warp UP to 3F West!
-    print("go_to_3f_finish: Stepping onto stairs at (7, 10) to warp UP...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
+    # 3. Walk up Column 10 to Row 6
+    for y in range(10, 5, -1):
+        pos = move_test("Up", 10, y)
+        
+    # 4. Walk right on Row 6 to Column 19
+    for x in range(11, 20):
+        pos = move_test("Right", x, 6)
+        
+    # 5. Walk UP Column 19 to Row 4
+    for y in [5, 4]:
+        pos = move_test("Up", 19, y)
+        
+    # 6. Walk RIGHT to (20, 4) and UP to (20, 3)
+    pos = move_test("Right", 20, 4)
+    pos = move_test("Up", 20, 3)
     
-    pos = mgba.get_coordinates()
-    print(f"go_to_3f_finish: Arrived on 3F! Position: {pos}")
+    # 7. Walk RIGHT along Row 3 to Column 25
+    for x in range(21, 26):
+        pos = move_test("Right", x, 3)
+        
+    print(f"go_to_3f_east: Successfully reached 3F East at {mgba.get_coordinates()}")
 
 if __name__ == "__main__":
     main()
