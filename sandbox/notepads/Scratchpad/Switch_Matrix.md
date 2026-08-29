@@ -5,7 +5,7 @@
 - Floor transitions preserve the active state.
 - B1F West SOUTH is permanently separated from B1F West NORTH by a solid brick wall on Row 9.
 - 1F East is blocked from going up to 2F East in State B because the gate at `(15, 8)` is closed, and Column 14 is permanently blocked by rubble on Rows 12-16.
-- 3F West is permanently separated from 3F East by a solid column of rubble at Column 10 on Rows 9-16. This blocks all horizontal crossing on 3F in State A (except Row 6, which is in the northern rooms).
+- 3F West is separated from 3F East by a solid column of rubble at Column 14 on Rows 9-16. Column 10 is completely open on Rows 9-16, providing vertical transit.
 
 ---
 
