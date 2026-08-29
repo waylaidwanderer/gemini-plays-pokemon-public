@@ -48,22 +48,30 @@ def step_one(direction, target_x, target_y):
     return pos_after['x'] == target_x and pos_after['y'] == target_y
 
 def main():
-    print("go_to_2f_and_cross: Starting from (7, 11)...")
+    print("go_to_2f_and_cross: Starting...")
     pos = mgba.get_coordinates()
     print(f"Start coordinates: {pos}")
     
-    # 1. Walk from (7, 11) to Column 5 Row 11 by bypassing the NPC on Row 10
-    if pos['x'] == 7 and pos['y'] == 11:
-        if not step_one("Up", 7, 10): return
-        if not step_one("Left", 6, 10): return
+    # We land on 2F West at (7, 11) or (7, 10)
+    if pos['y'] == 10:
+        if not step_one("Down", pos['x'], 11): return
+        pos = mgba.get_coordinates()
+        
+    # Bypassing the NPC at (5, 11)
+    if pos['y'] == 11 and pos['x'] == 7:
+        if not step_one("Left", 6, 11): return
+        pos = mgba.get_coordinates()
+    if pos['x'] == 6 and pos['y'] == 11:
+        if not step_one("Up", 6, 10): return
+        pos = mgba.get_coordinates()
+    if pos['x'] == 6 and pos['y'] == 10:
         if not step_one("Left", 5, 10): return
-        if not step_one("Down", 5, 11): return
         pos = mgba.get_coordinates()
         
     # 2. Walk UP Column 5 directly to Row 3 (5, 3)
-    if pos['x'] == 5 and pos['y'] == 11:
+    if pos['x'] == 5 and pos['y'] == 10:
         print("Walking up Column 5 to Row 3...")
-        for y in range(10, 2, -1):
+        for y in range(9, 2, -1):
             if not step_one("Up", 5, y): return
         pos = mgba.get_coordinates()
         
