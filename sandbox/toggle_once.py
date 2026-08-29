@@ -1,80 +1,110 @@
 import mgba
 import time
 
-def handle_battle_if_present():
-    print("Checking/handling battle...")
-    # Stand still and press A to advance any appeared text
-    for _ in range(3):
-        mgba.press_buttons(["A"])
-        time.sleep(0.8)
+def is_in_battle():
+    img1_path = mgba.take_screenshot()
+    img1 = Image.open(img1_path)
+    mgba.press_buttons(["Start"])
+    time.sleep(0.2)
+    img2_path = mgba.take_screenshot()
+    img2 = Image.open(img2_path)
+    diff = ImageChops.difference(img1, img2)
+    bbox = diff.getbbox()
+    if bbox is None:
+        return True
+    else:
+        mgba.press_buttons(["Start"])
+        time.sleep(0.2)
+        return False
+
+def handle_battle_escape():
+    print("handle_battle_escape: ESCAPING BATTLE!")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
-    # Select RUN (Down, Right, A)
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.5)
-    # Dismiss "Got away safely!"
     mgba.press_buttons(["B"])
-    time.sleep(0.5)
+    time.sleep(1.0)
 
-def move_safe(step, target_x, target_y):
+def move_safe_battle(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
-    print(f"Moving {step} from {pos_before} towards ({target_x}, {target_y})...")
+    print(f"move_safe_battle: Attempting to move '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
     mgba.press_buttons([step])
-    time.sleep(0.5)
+    time.sleep(0.4)
     pos_after = mgba.get_coordinates()
     
     attempts = 0
-    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 3:
+    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 6:
         if pos_before == pos_after:
-            print("Did not move. Attempting battle escape...")
-            handle_battle_if_present()
+            print("move_safe_battle: Position did not change. Checking for battle...")
+            # Simple check or sleep
+            time.sleep(0.5)
+            mgba.press_buttons(["B"]) # clear potential battle screen
+            time.sleep(0.5)
         else:
-            print(f"Moved but not to target. Current: {pos_after}. Retrying...")
-            handle_battle_if_present()
-            
+            print(f"move_safe_battle: Moved to {pos_after} instead of target ({target_x}, {target_y}).")
+                
+        print(f"move_safe_battle: Retrying step '{step}'...")
         mgba.press_buttons([step])
-        time.sleep(0.5)
+        time.sleep(0.4)
+        pos_before = pos_after
         pos_after = mgba.get_coordinates()
         attempts += 1
         
-    print(f"Finished step. Current position: {pos_after}")
-    return pos_after
+    arrived = (pos_after['x'] == target_x and pos_after['y'] == target_y)
+    print(f"move_safe_battle: Arrived: {arrived}. Final position: {pos_after}")
+    return arrived
 
-def execute_toggle_and_cross():
-    # We are currently at (1, 10).
-    # 1. Walk to (2, 12) facing Up via (2, 13) detour
-    move_safe("Down", 1, 11)
-    move_safe("Down", 1, 12)
-    move_safe("Down", 1, 13)
-    move_safe("Right", 2, 13)
-    move_safe("Up", 2, 12)
-    
-    # 2. Verify position
+def main():
+    # We start at (19, 7)
     pos = mgba.get_coordinates()
-    if pos['x'] != 2 or pos['y'] != 12:
-        print(f"Error: Failed to reach (2, 12) facing Up. Current pos: {pos}")
-        return
-        
-    # 3. Toggle switch ONCE
-    print("At (2, 12) facing Up. Toggling switch once...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    print("Switch toggled to State B.")
+    print(f"Starting toggle_once from {pos}")
     
-    # 4. Walk to Row 6 Column 1
-    # Move to (1, 12)
-    move_safe("Left", 1, 12)
+    # 1. Walk UP Column 19 to (19, 6)
+    move_safe_battle("Up", 19, 6)
     
-    # Walk UP Column 1 to Row 6 (through open gate at (1, 9)!)
-    for y in [11, 10, 9, 8, 7, 6]:
-        move_safe("Up", 1, y)
+    # 2. Walk LEFT Row 6 to (10, 6)
+    for x in range(18, 9, -1):
+        move_safe_battle("Left", x, 6)
         
-    print("Successfully reached (1, 6) in State B!")
+    # 3. Walk DOWN Column 10 to (10, 10)
+    for y in [7, 8, 9, 10]:
+        move_safe_battle("Down", 10, y)
+        
+    # 4. Walk LEFT to (1, 10)
+    for x in range(9, 0, -1):
+        move_safe_battle("Left", x, 10)
+        
+    # 5. Walk to (2, 12)
+    move_safe_battle("Down", 1, 11)
+    move_safe_battle("Down", 1, 12)
+    move_safe_battle("Right", 2, 12)
+    
+    # 6. Toggle Switch (this will toggle to State A!)
+    print("At switch. Toggling to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # 7. Walk back to (1, 10)
+    move_safe_battle("Left", 1, 12)
+    move_safe_battle("Up", 1, 11)
+    move_safe_battle("Up", 1, 10)
+    
+    # 8. Walk back to Column 10 Row 10
+    for x in range(2, 11):
+        move_safe_battle("Right", x, 10)
+        
+    # 9. Walk back UP to Row 6
+    for y in [9, 8, 7, 6]:
+        move_safe_battle("Up", 10, y)
+        
+    print(f"Finished toggle_once. Current position: {mgba.get_coordinates()}")
 
-execute_toggle_and_cross()
+if __name__ == "__main__":
+    main()
