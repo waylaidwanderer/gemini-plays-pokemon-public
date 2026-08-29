@@ -27,7 +27,7 @@
 - Pillar / Pedestal: (15, 8..11) [Decorative structure; no switch dialogue, verified Turns 19669-19672]
 - Research Journal: (18, 2) on table in northeast office
 - Corridor Passage to West/Central: (9, 10) open walkway connecting col 12 to western rooms (cols 0-8)
-- Corridors: Row 2-7 (cols 10-14, 16-21), Row 10 (cols 8-12), Col 12 (rows 2-11), Col 18-20 (rows 10-15)
+- Corridors: Row 2-7 (cols 10-27 north of row 8 wall), Row 10 (cols 10-24), Col 12 (rows 9-16, blocked at row 8), Col 18-24 (rows 9-16)
 
 ### Northeast Wing Chamber
 - Large Table/Desk Structure: (24..25, 8..9) [Solid 2x2 display, verified Turn 19076]
@@ -47,8 +47,12 @@
 - Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B] (Empirically verified Turn 19115).
 - Column 11 Barrier: Continuous solid vertical wall from row 11 to row 27 blocking eastward passage from Central Hall. Open bypass at row 10 (cols 8-12).
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
-### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-19950)
-- Staircase South Railing at (24..25, 13): Stepping Up from (24, 14) or (25, 14) collides with solid stair barrier. Stairs must be entered from row 12 stepping Down.
+### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-20070)
+- Row 8 Horizontal Wall: Solid impassable wall across (8..25, 8) completely dividing northern rooms (rows 1-7) from southern corridors (rows 9-16). Column 12 is blocked at (12, 8).
+- Row 17 Horizontal Table Barrier: Solid barrier across (1..9, 17). The ONLY north-south opening through row 17 is at (10..12, 17).
+- Column 25 Vertical Wall: Solid divider across (25, 9..16) separating East Wing landing (cols 18-24) from B1F Staircase corridor (cols 26-28).
+- Column 9 Vertical Wall: Solid divider across (9, 9..16) separating Central Hallway (cols 1-8) from East corridor (cols 10-12).
+- Staircase South Railing at (26..27, 18): Solid railing/barrier blocking entry from south. Stairs must be entered from row 16 stepping Down into (26..27, 17).
 - Southeast Corner at (26..27, 27): Dead-end alcove; no doorway or external transition.
 ### Southeast Enclosed Room & Switch (Verified Turns 19959-19969)
 - Mewtwo Statue Switch: Located at (18, 25). Interactable from (18, 26) facing Up or (17, 25) facing Right. Toggles global mansion shutters between State A and State B.
@@ -59,5 +63,5 @@
 - Descending Staircase to B1F: Located at (26..27, 17).
 - South Railing: Row 18 (26..27, 18) is a solid railing/barrier (cannot enter from south).
 - North Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH at row 16 stepping DOWN into (26..27, 17).
-- Access Route: Reached via 3F Right Balcony pit drop to 1F North Landing (routing under physical verification).
+- Access Route: Pit drop from 3F Right Balcony at (19, 14) lands at 1F (18, 14), but (18, 14) is blocked from (26..27, 17) stairs by horizontal wall at row 8 (cols 8-25) and vertical wall at col 25 (rows 11-16). Direct access to B1F stairs requires reaching rows 1-7 or discovering alternative 3F drop coordinates.
 - Item Ball at (1, 22): Full Restore [Collected Turn 20065]
