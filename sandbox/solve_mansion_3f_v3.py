@@ -29,38 +29,55 @@ def handle_battle_escape():
     mgba.press_buttons(["A"])
     time.sleep(0.5)
 
-def step_one(direction, target_x, target_y):
-    pos_before = mgba.get_coordinates()
-    print(f"Moving {direction} to ({target_x}, {target_y}). Current: {pos_before}")
-    mgba.press_buttons([direction])
-    time.sleep(0.4)
-    pos_after = mgba.get_coordinates()
-    
-    if pos_before == pos_after:
-        if is_in_battle():
-            handle_battle_escape()
-            mgba.press_buttons([direction])
-            time.sleep(0.4)
-            pos_after = mgba.get_coordinates()
-        else:
-            time.sleep(0.2)
-            mgba.press_buttons([direction])
-            time.sleep(0.4)
-            pos_after = mgba.get_coordinates()
-            
-    if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2):
-        print(f"WARPED/FELL! Landed at: {pos_after} from {pos_before}")
-        return "WARPED"
+def step_one_robust(direction, target_x, target_y):
+    attempts = 0
+    while attempts < 4:
+        pos_before = mgba.get_coordinates()
+        print(f"Attempt {attempts+1}: Moving {direction} to ({target_x}, {target_y}). Current: {pos_before}")
+        mgba.press_buttons([direction])
+        time.sleep(0.4)
+        pos_after = mgba.get_coordinates()
         
-    if pos_after['x'] == target_x and pos_after['y'] == target_y:
-        return "SUCCESS"
+        if pos_after['x'] == target_x and pos_after['y'] == target_y:
+            return "SUCCESS"
+            
+        # Warp/Fall check
+        if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2):
+            print(f"WARPED/FELL! Landed at: {pos_after} from {pos_before}")
+            return "WARPED"
+            
+        if pos_before == pos_after:
+            if is_in_battle():
+                handle_battle_escape()
+            else:
+                # Bumper retry
+                time.sleep(0.2)
+                mgba.press_buttons([direction])
+                time.sleep(0.4)
+                pos_after = mgba.get_coordinates()
+                if pos_after['x'] == target_x and pos_after['y'] == target_y:
+                    return "SUCCESS"
+        else:
+            # We moved but to an incorrect position (e.g. drifted due to battle escape keys)
+            print(f"Drift detected! Moved to {pos_after} instead of ({target_x}, {target_y}). Re-aligning...")
+            # Try to walk back to target
+            dx = target_x - pos_after['x']
+            dy = target_y - pos_after['y']
+            redir = "Right" if dx > 0 else "Left" if dx < 0 else "Down" if dy > 0 else "Up"
+            mgba.press_buttons([redir])
+            time.sleep(0.4)
+            pos_after = mgba.get_coordinates()
+            if pos_after['x'] == target_x and pos_after['y'] == target_y:
+                return "SUCCESS"
+                
+        attempts += 1
     return "BLOCKED"
 
-def walk_path(coords):
+def walk_path_robust(coords):
     for target_x, target_y in coords:
-        pos_before = mgba.get_coordinates()
-        dx = target_x - pos_before['x']
-        dy = target_y - pos_before['y']
+        pos = mgba.get_coordinates()
+        dx = target_x - pos['x']
+        dy = target_y - pos['y']
         
         direction = ""
         if dx > 0: direction = "Right"
@@ -68,7 +85,7 @@ def walk_path(coords):
         elif dy > 0: direction = "Down"
         elif dy < 0: direction = "Up"
         
-        res = step_one(direction, target_x, target_y)
+        res = step_one_robust(direction, target_x, target_y)
         if res == "WARPED":
             return "WARPED"
         elif res == "BLOCKED":
@@ -76,11 +93,11 @@ def walk_path(coords):
     return "SUCCESS"
 
 def main():
-    print("solve_mansion_3f_v3: Starting from current pos...")
+    print("solve_mansion_3f_v3: Starting robust execution...")
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # 1. Walk from (26, 6) to (2, 6) on 3F West
+    # 1. Walk from current position (26, 6) to (2, 6) on 3F West
     path_to_switch = [
         (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
         (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
@@ -94,7 +111,7 @@ def main():
         path_to_switch = path_to_switch[idx+1:]
         print(f"Sliced path to start from index {idx+1}: {path_to_switch}")
         
-    res = walk_path(path_to_switch)
+    res = walk_path_robust(path_to_switch)
     if res == "WARPED":
         print("Warped unexpectedly while walking to switch!")
         return
@@ -113,9 +130,21 @@ def main():
     time.sleep(1.0)
     print("Switch toggled. Mansion should now be in State A!")
     
+    # 2. Let's verify State A by walking down to (2, 12)
+    path_to_gate_check = [
+        (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12)
+    ]
+    print("Verifying State A by walking to (2, 12)...")
+    res = walk_path_robust(path_to_gate_check)
+    if res == "SUCCESS":
+        print("PHYSICALLY CONFIRMED STATE A: REACHED (2, 12)!!!")
+    else:
+        print("STATE VERIFICATION FAILED: Gate at (2, 12) is CLOSED or blocked. Still in State B!")
+        return
+        
     # Walk back to pitfall on 3F East in confirmed State A:
-    # (2, 6) to (26, 6)
     path_to_pitfall = [
+        (2, 11), (2, 10), (2, 9), (2, 8), (2, 7), (2, 6),
         (3, 6), (3, 5), (4, 5),
         (4, 4), (4, 3), (4, 2), (4, 1),
         (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
@@ -123,7 +152,7 @@ def main():
     ]
     
     print("Walking to the pitfall on 3F East in State A...")
-    res = walk_path(path_to_pitfall)
+    res = walk_path_robust(path_to_pitfall)
     if res == "WARPED":
         print("SUCCESSFULLY FELL THROUGH PITFALL TO 1F EAST!!!")
     elif res == "BLOCKED":
