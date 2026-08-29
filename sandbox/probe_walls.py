@@ -1,35 +1,58 @@
 import mgba
 import time
 
-def test_wall(y):
-    current_pos = mgba.get_coordinates()
-    print(f"Moving to (1, {y}) facing Left...")
+def probe_row_9_gates():
+    print(f"Starting probe from: {mgba.get_coordinates()}")
     
-    # Walk to (1, y)
-    if y > current_pos['y']:
-        for _ in range(y - current_pos['y']):
-            mgba.press_buttons(["Down"])
-            time.sleep(0.2)
-    elif y < current_pos['y']:
-        for _ in range(current_pos['y'] - y):
-            mgba.press_buttons(["Up"])
-            time.sleep(0.2)
+    # We will test columns 1, 3, 4, 6, 7
+    columns_to_test = [1, 3, 4, 6, 7]
+    results = {}
+    
+    for col in columns_to_test:
+        # Move to (col, 11)
+        # First go down to Row 11
+        pos = mgba.get_coordinates()
+        if pos['y'] != 11:
+            # Move to Row 11
+            dy = 11 - pos['y']
+            step = "Down" if dy > 0 else "Up"
+            for _ in range(abs(dy)):
+                mgba.press_buttons([step])
+                time.sleep(0.3)
+                
+        # Now move horizontally to col
+        pos = mgba.get_coordinates()
+        dx = col - pos['x']
+        step = "Right" if dx > 0 else "Left"
+        for _ in range(abs(dx)):
+            mgba.press_buttons([step])
+            time.sleep(0.3)
             
-    # Face Left
-    mgba.press_buttons(["Left"])
-    time.sleep(0.2)
-    
-    # Press A
-    print(f"Pressing A at {mgba.get_coordinates()} facing Left...")
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-    
-    # Dismiss any text box
-    mgba.press_buttons(["B"])
-    time.sleep(0.2)
+        # Now move UP to Row 10
+        mgba.press_buttons(["Up"])
+        time.sleep(0.3)
+        
+        # Verify we are at (col, 10)
+        pos = mgba.get_coordinates()
+        if pos['x'] != col or pos['y'] != 10:
+            print(f"Error: Could not reach ({col}, 10), current pos: {pos}")
+            continue
+            
+        # Attempt to step UP to Row 9
+        mgba.press_buttons(["Up"])
+        time.sleep(0.3)
+        
+        pos_after = mgba.get_coordinates()
+        if pos_after['y'] == 9:
+            results[col] = "OPEN"
+            # Step back down to Row 10
+            mgba.press_buttons(["Down"])
+            time.sleep(0.3)
+        else:
+            results[col] = "CLOSED"
+            
+    print("PROBE RESULTS:")
+    for col, status in results.items():
+        print(f"Column {col} Row 9: {status}")
 
-# Test left wall interactions on Rows 10, 11, 12, 13
-test_wall(10)
-test_wall(11)
-test_wall(12)
-test_wall(13)
+probe_row_9_gates()
