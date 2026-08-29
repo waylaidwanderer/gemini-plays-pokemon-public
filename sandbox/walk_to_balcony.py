@@ -36,8 +36,15 @@ def step_one(direction, target_x, target_y):
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
+        # Check if we are in battle or if we just need to try again/clear battle
         if is_in_battle():
             handle_battle_escape()
+            mgba.press_buttons([direction])
+            time.sleep(0.4)
+            pos_after = mgba.get_coordinates()
+        else:
+            # Maybe a small lag or dialog, wait and try once more
+            time.sleep(0.2)
             mgba.press_buttons([direction])
             time.sleep(0.4)
             pos_after = mgba.get_coordinates()
@@ -72,6 +79,7 @@ def main():
     print(f"Current pos: {pos}")
     
     path = [
+        (24, 10),
         (25, 10), (26, 10),
         (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
         (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
@@ -80,6 +88,14 @@ def main():
         (16, 17), (16, 18),
         (17, 18), (18, 18), (19, 18)
     ]
+    
+    pos_tuple = (pos['x'], pos['y'])
+    if pos_tuple in path:
+        idx = path.index(pos_tuple)
+        path = path[idx+1:]
+        print(f"Sliced path to start from index {idx+1}: {path}")
+    else:
+        print(f"Warning: Current pos {pos_tuple} is not in path! Starting path from beginning.")
     
     res = walk_path(path)
     if res == "WARPED":
