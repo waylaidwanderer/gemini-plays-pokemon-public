@@ -38,31 +38,44 @@ def walk_path(coords):
     return True
 
 def main():
-    print("probe_stairs: Walking to 2F East stairs...")
+    print("probe_stairs_via_col12: Starting...")
     pos = mgba.get_coordinates()
-    # Path from current (9, 11) to (22, 1) on 2F East
-    # We can go UP to Row 1, then RIGHT to (22, 1)
-    path = []
-    for y in range(10, 0, -1):
-        path.append((9, y))
-    for x in range(10, 23):
-        path.append((x, 1))
+    print(f"Current position: {pos}")
+    
+    # Path from (10, 10) to Column 12, then Row 1, then (22, 1)
+    path = [
+        # Right to Column 12
+        (11, 10), (12, 10),
+        # Up Column 12 to Row 1
+        (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
+        # Right along Row 1 to Column 22
+        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1)
+    ]
+    
+    pos_tuple = (pos['x'], pos['y'])
+    if pos_tuple in path:
+        start_idx = path.index(pos_tuple)
+        path = path[start_idx+1:]
         
+    print(f"Walking path: {path}")
     if not walk_path(path):
         print("Walking to stairs failed.")
         return
         
-    # We are at (22, 1). Let's test stepping off and back onto (22, 1) to see if we can warp!
-    # Stand at (21, 1), step Right to (22, 1)
-    print("Testing warp at (22, 1) from the Left side...")
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons(["Left"]) # Step to (21, 1)
-    time.sleep(0.4)
-    print(f"Position at (21, 1): {mgba.get_coordinates()}")
+    # We are at (22, 1) on 2F East.
+    print("Arrived at stairs (22, 1). Testing warp...")
     
-    mgba.press_buttons(["Right"]) # Step onto (22, 1)
+    # Step Left to (21, 1)
+    print("Stepping Left to (21, 1)...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
+    print(f"Position: {mgba.get_coordinates()}")
+    
+    # Step Right onto (22, 1) to trigger warp
+    print("Stepping Right to (22, 1) to test warp...")
+    mgba.press_buttons(["Right"])
     time.sleep(1.0)
-    print(f"Position after stepping Right onto (22, 1): {mgba.get_coordinates()}")
+    print(f"Position after warp attempt: {mgba.get_coordinates()}")
 
 if __name__ == "__main__":
     main()
