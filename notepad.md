@@ -2273,7 +2273,6 @@
 
 ### Northeast Wing Chamber
 - Large Table/Desk Structure: (24..25, 8..9) [Solid 2x2 display, verified Turn 19076]
-- Entrance Doorway: Located at (26, 4) accessed from northern hallway row 3 (cols 12-26).
 - Traversal Corridor: Column 26 (rows 4-10) and Column 23 (rows 7-10).
 - Southern Boundary: Solid horizontal wall across row 8 (cols 24-28). (Empirically verified Turns 19675-19678).
 
