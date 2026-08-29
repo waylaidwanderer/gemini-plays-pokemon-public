@@ -67,24 +67,10 @@ def move_safe_battle(step, target_x, target_y):
     return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6)
 
 def main():
-    print("solve_mansion_3f: Starting from (28, 4) on 2F East...")
-    
-    # 1. Walk Left to (27, 4) then Up to (27, 3)
-    if not move_safe_battle("Left", 27, 4): return
-    if not move_safe_battle("Up", 27, 3): return
-    
-    # 2. Walk Left Row 3 to Column 20 (20, 3)
-    for x in range(26, 19, -1):
-        if not move_safe_battle("Left", x, 3): return
-        
-    # 3. Walk Down to (20, 4) -> Left to (19, 4) -> Down to (19, 5) -> Down to (19, 6)
-    if not move_safe_battle("Down", 20, 4): return
-    if not move_safe_battle("Left", 19, 4): return
-    if not move_safe_battle("Down", 19, 5): return
-    if not move_safe_battle("Down", 19, 6): return
+    print("solve_mansion_3f: Starting from (18, 6) on 2F East...")
     
     # 4. Walk Left Row 6 to Column 10 (10, 6)
-    for x in range(18, 9, -1):
+    for x in range(17, 9, -1):
         if not move_safe_battle("Left", x, 6): return
         
     # 5. Walk Down Column 10 to Row 11 (10, 11)
