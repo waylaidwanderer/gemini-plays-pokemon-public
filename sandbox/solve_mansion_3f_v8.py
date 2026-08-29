@@ -137,6 +137,10 @@ def walk_to_switch_dynamic():
         elif curr_x == 3 and curr_y == 5:
             target_waypoint = (3, 6)
         elif curr_x == 3 and curr_y == 6:
+            target_waypoint = (3, 7)
+        elif curr_x == 3 and curr_y == 7:
+            target_waypoint = (2, 7)
+        elif curr_x == 2 and curr_y == 7:
             target_waypoint = (2, 6)
         elif curr_x == 3 and curr_y > 6:
             target_waypoint = (3, 6)
