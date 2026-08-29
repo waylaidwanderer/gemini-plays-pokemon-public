@@ -1,44 +1,33 @@
 import mgba
 import time
-
-def move_test(step, target_x, target_y):
-    pos_before = mgba.get_coordinates()
-    print(f"probe: Pressing '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
-    mgba.press_buttons([step])
-    time.sleep(0.4)
-    pos_after = mgba.get_coordinates()
-    
-    attempts = 0
-    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 4:
-        if pos_before == pos_after:
-            print("probe: BUMPED. Retrying...")
-        mgba.press_buttons([step])
-        time.sleep(0.4)
-        pos_before = pos_after
-        pos_after = mgba.get_coordinates()
-        attempts += 1
-        
-    return pos_after
+import test_gate
+import importlib
 
 def main():
-    # We are at (5, 16) on 2F West
-    print("go_to_3f: Starting at", mgba.get_coordinates())
+    # 1. Escape battle
+    print("go_to_3f_finish: Escaping Grimer...")
+    importlib.reload(test_gate)
+    test_gate.handle_battle_escape()
     
-    # 1. Walk UP Column 5 to Row 11
-    for y in range(15, 10, -1):
-        move_test("Up", 5, y)
+    pos = mgba.get_coordinates()
+    print(f"go_to_3f_finish: Overworld position: {pos}")
+    
+    # 2. Walk Right to (7, 11)
+    # We are at (5, 11) or close. Let's make sure we walk to (7, 11)
+    while pos['x'] < 7:
+        pos_after = test_gate.move_safe_battle("Right", pos['x'] + 1, 11)
+        if not pos_after:
+            print("Failed to move Right.")
+            return
+        pos = mgba.get_coordinates()
         
-    # 2. Walk RIGHT to (7, 11)
-    move_test("Right", 6, 11)
-    move_test("Right", 7, 11)
-    
     # 3. Walk UP onto the stairs at (7, 10) to warp UP to 3F West!
-    print("go_to_3f: Stepping onto stairs to warp UP...")
+    print("go_to_3f_finish: Stepping onto stairs at (7, 10) to warp UP...")
     mgba.press_buttons(["Up"])
     time.sleep(1.0)
     
     pos = mgba.get_coordinates()
-    print(f"go_to_3f: Arrived on 3F! Position: {pos}")
+    print(f"go_to_3f_finish: Arrived on 3F! Position: {pos}")
 
 if __name__ == "__main__":
     main()
