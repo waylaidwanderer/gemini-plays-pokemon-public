@@ -48,29 +48,29 @@ def step_one(direction, target_x, target_y):
     return pos_after['x'] == target_x and pos_after['y'] == target_y
 
 def main():
-    print("test_row_6: Navigating to Row 6...")
-    # Currently at (2, 13)
+    print("test_row_6: Navigating from (5, 13) to Row 6...")
+    # Currently at (5, 13)
     
-    # 1. Walk Right to (6, 13)
-    for x in range(3, 7):
-        if not step_one("Right", x, 13): return
-        
-    # 2. Walk Up to (6, 8)
-    # Note: avoid trainer if blocking, but let's see. Trainer is currently at (7, 11) or nearby.
-    for y in range(12, 7, -1):
-        if not step_one("Up", 6, y):
-            print(f"Failed to move UP to row {y}. Checking if trainer is blocking...")
-            pos = mgba.get_coordinates()
-            print(f"Current position: {pos}")
+    # 1. Path to bypass the cabinet, diary, trainer, pitfall, and rubble:
+    path = [
+        ("Up", 5, 12),
+        ("Left", 4, 12),
+        ("Up", 4, 11),
+        ("Up", 4, 10),
+        ("Right", 5, 10),
+        ("Right", 6, 10),
+        ("Up", 6, 9),
+        ("Up", 6, 8),
+        ("Left", 5, 8),
+        ("Up", 5, 7),
+        ("Up", 5, 6),
+    ]
+    
+    for direction, tx, ty in path:
+        if not step_one(direction, tx, ty):
+            print(f"Failed at step '{direction}' to ({tx}, {ty})")
             return
             
-    # 3. Walk Left to (5, 8)
-    if not step_one("Left", 5, 8): return
-    
-    # 4. Walk Up to (5, 6)
-    if not step_one("Up", 5, 7): return
-    if not step_one("Up", 5, 6): return
-    
     print("Succeeded in reaching (5, 6) without falling! We are above the pitfall.")
     
     # 5. Test walkability of (6, 6)
@@ -86,12 +86,18 @@ def main():
         pos = mgba.get_coordinates()
         print(f"At (7, 6)? {'YES' if success2 else 'NO'}. Current: {pos}")
         
-        # Walk back to (5, 6) if successful
+        # Test (8, 6)
         if success2:
+            print("Testing RIGHT to (8, 6) (rubble)...")
+            success3 = step_one("Right", 8, 6)
+            pos = mgba.get_coordinates()
+            print(f"At (8, 6)? {'YES' if success3 else 'NO'}. Current: {pos}")
+            
+            # Backtrack
+            if success3:
+                step_one("Left", 7, 6)
             step_one("Left", 6, 6)
-            step_one("Left", 5, 6)
-        else:
-            step_one("Left", 5, 6)
+        step_one("Left", 5, 6)
 
 if __name__ == "__main__":
     main()
