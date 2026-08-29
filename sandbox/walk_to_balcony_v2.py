@@ -70,14 +70,16 @@ def walk_path(coords):
     return True
 
 def main():
-    print("walk_to_balcony_v2: Starting...")
+    print("walk_to_balcony_v3: Starting...")
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
+    # We are at (12, 12).
+    # Corrected path to go Left to Column 10, then Down to Row 16, then Right to Column 16, then Down, then Right to (19, 18)
     path = [
-        (11, 7), (12, 7),
-        (12, 8), (12, 9), (12, 10), (12, 11), (12, 12), (12, 13), (12, 14), (12, 15), (12, 16),
-        (13, 16), (14, 16), (15, 16), (16, 16),
+        (11, 12), (10, 12),
+        (10, 13), (10, 14), (10, 15), (10, 16),
+        (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16),
         (16, 17), (16, 18),
         (17, 18), (18, 18), (19, 18)
     ]
