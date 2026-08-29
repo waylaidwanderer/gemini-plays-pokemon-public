@@ -115,7 +115,9 @@ def walk_to_switch_dynamic():
             return
             
         # Select target waypoint based on exact coordinates
-        if curr_x > 18:
+        if curr_x == 26 and curr_y > 3:
+            target_waypoint = (26, 3)
+        elif curr_x > 18:
             target_waypoint = (18, 3)
         elif curr_x == 18 and curr_y > 3:
             target_waypoint = (18, 3)
