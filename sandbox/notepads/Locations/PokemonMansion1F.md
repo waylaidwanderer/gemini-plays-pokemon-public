@@ -55,3 +55,8 @@
 - Item Ball: Located at (19, 25) (immediately east of statue switch).
 - Southeast Room Entrance: Open doorway at (13, 22..23) connecting column 12 to (14, 22..23). Column 13 is a solid wall at rows 24-27 (row 26 cannot be entered directly from column 12).
 - Route to Switch/Item: From column 12 -> (13, 22..23) doorway -> (14, 23) -> South to row 26 (14, 26) -> East along row 26 to (18..19, 26) -> (18, 25) switch / (19, 25) item ball.
+### B1F True Staircase Route (Verified Turn 19998)
+- Descending Staircase to B1F: Located at (26..27, 17).
+- South Railing: Row 18 (26..27, 18) is a solid railing/barrier (cannot enter from south).
+- Entrance Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH stepping DOWN into (26..27, 17).
+- Route to Landing: From Column 12 corridor -> North along col 12 to Row 3 -> East along row 3 to (26, 3) -> South through doorway at (26, 4) down Column 26 to (26, 16) -> Step Down into (26, 17) [B1F STAIRS].
