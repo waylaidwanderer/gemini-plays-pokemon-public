@@ -58,54 +58,43 @@ def move_safe_battle(step, target_x, target_y):
     print(f"move_safe_battle: Arrived: {arrived}. Final position: {pos_after}")
     return arrived
 
-def test_gates():
-    # 1. Dismiss any open menu (press B)
-    print("test_gates: Dismissing menu...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
+def test_column_8():
+    # We are at (4, 10)
     pos = mgba.get_coordinates()
-    print(f"test_gates: Starting at {pos}")
+    print(f"test_column_8: Starting at {pos}")
     
-    # Ensure we are at (1, 10)
-    if pos['x'] != 1 or pos['y'] != 10:
-        # Move to Column 1 Row 10
-        pass # assume we are at (1, 10)
-        
-    # Walk to (1, 12)
-    move_safe_battle("Down", 1, 11)
-    move_safe_battle("Down", 1, 12)
+    # 1. Walk down to (4, 12)
+    move_safe_battle("Down", 4, 11)
+    move_safe_battle("Down", 4, 12)
     
-    # Walk to (3, 12)
-    move_safe_battle("Right", 2, 12)
-    move_safe_battle("Right", 3, 12)
+    # 2. Walk right to (8, 12) -> wait, (8, 12) is the planter!
+    # So we walk right to Column 6 Row 12, then Column 6 Row 13, then Column 8 Row 13, then Column 8 Row 10
+    move_safe_battle("Right", 5, 12)
+    move_safe_battle("Right", 6, 12)
+    move_safe_battle("Down", 6, 13)
+    move_safe_battle("Right", 7, 13)
+    move_safe_battle("Right", 8, 13)
+    move_safe_battle("Up", 8, 12) # wait, is (8, 12) planter? Let's check (8, 11) instead
+    move_safe_battle("Up", 8, 11)
+    move_safe_battle("Up", 8, 10)
     
-    # Walk to (3, 10)
-    move_safe_battle("Up", 3, 11)
-    move_safe_battle("Up", 3, 10)
-    
-    # Test (3, 9)
-    print("test_gates: Testing Column 3 Row 9 (3, 9)...")
-    success3 = move_safe_battle("Up", 3, 9)
-    if success3:
-        print("test_gates: Column 3 Row 9 is OPEN!")
-        return 3
+    # Test (8, 9)
+    pos = mgba.get_coordinates()
+    print(f"test_column_8: Testing Column 8 Row 9 (8, 9) from {pos}...")
+    success = move_safe_battle("Up", 8, 9)
+    if success:
+        print("test_column_8: Column 8 Row 9 is OPEN!")
     else:
-        print("test_gates: Column 3 Row 9 is CLOSED.")
+        print("test_column_8: Column 8 Row 9 is CLOSED.")
         
-    # Walk to (4, 10)
-    move_safe_battle("Right", 4, 10)
-    
-    # Test (4, 9)
-    print("test_gates: Testing Column 4 Row 9 (4, 9)...")
-    success4 = move_safe_battle("Up", 4, 9)
-    if success4:
-        print("test_gates: Column 4 Row 9 is OPEN!")
-        return 4
+    # Test (9, 9) if we can walk right to (9, 10)
+    move_safe_battle("Right", 9, 10)
+    print("test_column_8: Testing Column 9 Row 9 (9, 9)...")
+    success9 = move_safe_battle("Up", 9, 9)
+    if success9:
+        print("test_column_8: Column 9 Row 9 is OPEN!")
     else:
-        print("test_gates: Column 4 Row 9 is CLOSED.")
-        
-    return None
+        print("test_column_8: Column 9 Row 9 is CLOSED.")
 
 if __name__ == "__main__":
-    test_gates()
+    test_column_8()
