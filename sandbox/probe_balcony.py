@@ -56,7 +56,6 @@ def walk_path(coords):
         elif dy > 0: direction = "Down"
         elif dy < 0: direction = "Up"
         
-        # Fall check
         pos_before = mgba.get_coordinates()
         if not step_one(direction, target_x, target_y):
             pos_after = mgba.get_coordinates()
@@ -72,46 +71,43 @@ def walk_path(coords):
     return True
 
 def main():
-    print("probe_balcony: Starting...")
+    print("probe_balcony_v2: Starting...")
     pos = mgba.get_coordinates()
     print(f"Start pos: {pos}")
     
-    # Path to (26, 11) on 3F East
-    # We are at (20, 5)
+    # We are at (24, 12).
+    # Walk path down and left to the balcony area
     path = [
-        # Up to Row 3
-        (20, 4), (20, 3),
-        # Right to Column 26
-        (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-        # Down to Row 11
-        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11)
+        # Down Column 24 to Row 16
+        (24, 13), (24, 14), (24, 15), (24, 16),
+        # Left along Row 16 to Column 20
+        (23, 16), (22, 16), (21, 16), (20, 16),
+        # Try Left to Column 19
+        (19, 16)
     ]
     
-    if not walk_path(path):
-        print("Failed to reach (26, 11).")
+    res = walk_path(path)
+    if res == "WARPED":
+        print("Warped from path!")
+        return
+    elif not res:
+        print("Failed on path.")
         return
         
-    # We are at (26, 11). Let's see how far south we can go on Column 26!
-    print("Trying to go Down Column 26 as far as possible...")
-    for y in range(12, 20):
-        if not step_one("Down", 26, y):
+    # We are at (19, 16). Let's see if we can walk DOWN to (19, 17) or (19, 18) to drop!
+    print("Trying to go Down Column 19 to the balcony drop...")
+    for y in range(17, 20):
+        res = step_one("Down", 19, y)
+        if res == "WARPED":
+            print("SUCCESSFULLY DROPPED FROM BALCONY TO B1F!!!")
+            time.sleep(1.0)
+            print(f"Landed at: {mgba.get_coordinates()}")
+            return
+        elif not res:
             print(f"Blocked moving Down at Row {y}.")
             break
             
-    pos_now = mgba.get_coordinates()
-    print(f"Current position: {pos_now}")
-    
-    # Try to go Left as far as possible
-    print("Trying to go Left...")
-    for x in range(pos_now['x'] - 1, 15, -1):
-        res = step_one("Left", x, pos_now['y'])
-        if res == "WARPED":
-            return
-        elif not res:
-            print(f"Blocked moving Left at Column {x}.")
-            break
-            
-    print(f"Final probing position: {mgba.get_coordinates()}")
+    print(f"Ending position: {mgba.get_coordinates()}")
 
 if __name__ == "__main__":
     main()
