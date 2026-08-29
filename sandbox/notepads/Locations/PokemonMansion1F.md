@@ -7,10 +7,10 @@
 ## Layout & Landmarks
 
 ### Main Sector (West & Central)
-- Central Grand Hallway: Columns 4-7, rows 14-27
+- Central Grand Hallway: Columns 4-7, rows 14-27 (separated from northern central area by row 17 table barrier)
 - Entrance Area: Row 26-27 (cols 1-7)
 - Decorative Displays / Pillars: (3, 24) and (8, 24)
-- Stairs up to 2F: (5, 10) [at north end of central hallway]
+- Stairs up to 2F: Located at (5, 10) in the central sector. Accessible from northern wing corridors (rows 1-7). Ground-level passage from entrance is blocked by row 17 table barrier.
 
 ### Northwest Sector (Fully Mapped Turn 19090)
 - Boundaries: cols 0-8, rows 0-9.
