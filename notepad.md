@@ -1549,7 +1549,7 @@ Thus, the correct State B bypass route on 2F is:
 - If you only press A 3 times, the dialogue box remains on screen showing "Who wouldn't?", blocking all movement and keeping the gates closed!
 
 ## 🎒 Inventory & Escape Status Verification (Turn 62492)
-- We verified by manually opening the in-game Bag on Turn 62483 and saving screenshots (`real_bag_p1.png`, `real_bag_p2.png`) that we currently have **7 items** and **NO Secret Key** in our Bag.
+- Verified fact: On Turn 65791, our Bag contains exactly 7 items and NO Secret Key. The PC item storage was also checked on Turn 65817 and contains no Secret Key. It must be retrieved from Pokémon Mansion B1F.
 - Therefore, we must toggle the 3F West switch to State B, walk through the open gate, drop through the 3F East pitfall, go to B1F West NORTH, and retrieve the Secret Key.
 - Once retrieved, we can walk out on foot via the open Row 5 gates on 1F (West to East) to exit the Mansion completely without needing DIG.
 
