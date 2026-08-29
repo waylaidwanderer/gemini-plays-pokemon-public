@@ -22,15 +22,23 @@ def walk_path(coords):
     return True
 
 def main():
-    print("debug_switch: Walking to switch to take dialogue screenshot...")
-    # Sliced path from (26, 6) to (2, 6) via Row 1
+    print("debug_switch: Starting...")
+    pos = mgba.get_coordinates()
+    print(f"Current pos: {pos}")
+    
+    # Sliced path from (26, 1) to (2, 6) via Row 1
     path = [
-        (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
         (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
         (4, 2), (4, 3), (4, 4), (4, 5),
         (3, 5), (3, 6), (2, 6)
     ]
     
+    pos_tuple = (pos['x'], pos['y'])
+    if pos_tuple in path:
+        idx = path.index(pos_tuple)
+        path = path[idx+1:]
+        print(f"Sliced path to start from index {idx+1}: {path}")
+        
     if not walk_path(path):
         print("Failed to reach (2, 6)")
         return
@@ -39,18 +47,42 @@ def main():
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
     
-    # Interacting and taking a screenshot of the prompt!
+    # Step-by-step switch interaction with screenshots!
+    print("Interacting with switch step 1...")
     mgba.press_buttons(["A"])
-    time.sleep(1.0)
+    time.sleep(1.2)
+    s0 = mgba.take_screenshot()
+    print(f"Saved step 1 screenshot to: {s0}")
     
+    print("Interacting with switch step 2...")
     mgba.press_buttons(["A"])
-    time.sleep(1.0)
+    time.sleep(1.2)
+    s1 = mgba.take_screenshot()
+    print(f"Saved step 2 screenshot to: {s1}")
     
-    # Take screenshot of the YES/NO prompt!
-    screenshot = mgba.take_screenshot()
-    print(f"Captured prompt screenshot: {screenshot}")
+    print("Interacting with switch step 3 (UP)...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    s2 = mgba.take_screenshot()
+    print(f"Saved step 3 (UP) screenshot to: {s2}")
     
-    # Keep it there so we can see it on the next overworld frame!
+    print("Interacting with switch step 4...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    s3 = mgba.take_screenshot()
+    print(f"Saved step 4 screenshot to: {s3}")
     
+    print("Interacting with switch step 5...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    s4 = mgba.take_screenshot()
+    print(f"Saved step 5 screenshot to: {s4}")
+    
+    print("Interacting with switch step 6...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    s5 = mgba.take_screenshot()
+    print(f"Saved step 6 screenshot to: {s5}")
+
 if __name__ == "__main__":
     main()
