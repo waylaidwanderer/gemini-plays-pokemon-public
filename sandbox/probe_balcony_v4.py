@@ -70,76 +70,93 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # We are at (20, 3) currently.
-    # Let's probe Columns 21, 22, 23, 24, 25, 26 on Row 3
-    for x in range(21, 27):
-        curr_pos = mgba.get_coordinates()
-        curr_x = curr_pos['x']
-        print(f"Testing Column {x} from Column {curr_x}...")
+    # We are at (21, 6) currently.
+    # Walk Up to Row 3, then Right to Column 26
+    setup_path = [
+        (21, 5), (21, 4), (21, 3),
+        (22, 3), (23, 3), (24, 3), (25, 3), (26, 3)
+    ]
+    if not walk_path(setup_path):
+        print("Failed to reach (26, 3)")
+        return
         
-        col_path = []
-        if curr_x < x:
-            for tx in range(curr_x + 1, x + 1):
-                col_path.append((tx, 3))
-        elif curr_x > x:
-            for tx in range(curr_x - 1, x - 1, -1):
-                col_path.append((tx, 3))
-                
-        if col_path:
-            if not walk_path(col_path):
-                print(f"Blocked walking horizontally to Column {x} on Row 3.")
-                break
-                
-        print(f"Column {x}: Attempting to walk Down...")
-        blocked = False
-        reached_y = 3
-        for y in range(4, 17):
-            if step_one("Down", x, y):
-                reached_y = y
+    print("Reached (26, 3). Testing Column 26 Down...")
+    blocked_down = False
+    reached_y = 3
+    for y in range(4, 17):
+        if step_one("Down", 26, y):
+            reached_y = y
+        else:
+            blocked_down = True
+            print(f"Blocked moving Down Column 26 at Row {y}")
+            break
+            
+    if reached_y == 16:
+        print("SUCCESS: Column 26 is completely open to Row 16!!!")
+        print("Probing horizontal path to Column 16 on Row 16...")
+        reached_left_x = 26
+        for lx in range(25, 15, -1):
+            if step_one("Left", lx, 16):
+                reached_left_x = lx
             else:
-                blocked = True
-                print(f"Column {x}: Blocked at Row {y}")
+                print(f"Row 16: Blocked moving Left at Column {lx}")
                 break
                 
-        if reached_y == 16:
-            print(f"SUCCESS: Column {x} is completely open to Row 16!!!")
-            # Let's see if we can walk Left along Row 16 or bypass Row 16 walls
-            # Let's try to walk Left on Row 16 as far as possible
-            print(f"Column {x}: Probing horizontal path to Column 16 on Row 16...")
-            pos_before_left = mgba.get_coordinates()
-            reached_left_x = x
-            for lx in range(x - 1, 15, -1):
-                if step_one("Left", lx, 16):
-                    reached_left_x = lx
+        if reached_left_x == 16:
+            print("SUCCESS: Row 16 is fully open to Column 16!")
+            # Walk down to balcony!
+            if walk_path([(16, 17), (16, 18), (17, 18), (18, 18), (19, 18)]):
+                print("At (19, 18). Stepping Down to drop...")
+                mgba.press_buttons(["Down"])
+                time.sleep(1.0)
+                pos_end = mgba.get_coordinates()
+                if pos_end['y'] != 18 or pos_end['x'] != 19:
+                    print("SUCCESSFULLY FELL TO B1F!!!")
+                    return
                 else:
-                    print(f"Row 16: Blocked moving Left at Column {lx}")
-                    break
+                    print("Failed to drop.")
+                    return
+        else:
+            # Try to walk horizontally on alternative rows (e.g., Row 15, Row 14, Row 12)
+            # We are at (reached_left_x, 16). Let's walk back to Column 26 on Row 16
+            walk_path([(tx, 16) for tx in range(reached_left_x + 1, 27)])
+            
+            # Let's test alternative rows to bypass Column 18!
+            for test_y in [15, 14, 12]:
+                print(f"Testing Row {test_y} bypass...")
+                # Go Up Column 26 to test_y
+                if walk_path([(26, ty) for ty in range(15, test_y - 1, -1)]):
+                    # Try to walk Left as far as possible
+                    reached_lx = 26
+                    for lx in range(25, 15, -1):
+                        if step_one("Left", lx, test_y):
+                            reached_lx = lx
+                        else:
+                            print(f"Row {test_y}: Blocked at Column {lx}")
+                            break
+                    if reached_lx <= 16:
+                        print(f"SUCCESS: Row {test_y} is open past Column 18!")
+                        # Walk Left to Column 16, then Down to Row 16, then balcony!
+                        path_to_balcony = []
+                        for lx in range(reached_lx - 1, 15, -1):
+                            path_to_balcony.append((lx, test_y))
+                        for ty in range(test_y + 1, 17):
+                            path_to_balcony.append((16, ty))
+                        path_to_balcony.extend([(16, 17), (16, 18), (17, 18), (18, 18), (19, 18)])
+                        if walk_path(path_to_balcony):
+                            print("At (19, 18). Stepping Down to drop...")
+                            mgba.press_buttons(["Down"])
+                            time.sleep(1.0)
+                            pos_end = mgba.get_coordinates()
+                            if pos_end['y'] != 18 or pos_end['x'] != 19:
+                                print("SUCCESSFULLY FELL TO B1F!!!")
+                                return
+                    # Walk back to Column 26 on test_y
+                    walk_path([(tx, test_y) for tx in range(reached_lx + 1, 27)])
+                    # Return Down Column 26 to Row 16
+                    walk_path([(26, ty) for ty in range(test_y + 1, 17)])
                     
-            if reached_left_x == 16:
-                print("SUCCESS: Row 16 is fully open to Column 16!")
-                # Walk down to balcony!
-                if walk_path([(16, 17), (16, 18), (17, 18), (18, 18), (19, 18)]):
-                    print("At (19, 18). Stepping Down to drop...")
-                    mgba.press_buttons(["Down"])
-                    time.sleep(1.0)
-                    pos_end = mgba.get_coordinates()
-                    if pos_end['y'] != 18 or pos_end['x'] != 19:
-                        print("SUCCESSFULLY FELL TO B1F!!!")
-                        return
-                    else:
-                        print("Failed to drop.")
-                        return
-            else:
-                # We got blocked on Row 16. Let's see if we can go around on Row 15, 14, 12 etc.
-                # First go back to Column x on Row 16
-                walk_path([(tx, 16) for tx in range(reached_left_x + 1, x + 1)])
-                
-        if blocked and reached_y > 3:
-            print(f"Column {x}: Retreating back Up to Row 3...")
-            for y in range(reached_y - 1, 2, -1):
-                step_one("Up", x, y)
-                
-    print("Probing finished.")
+    print("Probing of Column 26 finished.")
 
 if __name__ == "__main__":
     main()
