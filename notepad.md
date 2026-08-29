@@ -2385,7 +2385,7 @@
 - Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
 - Balcony Drop-off Pits (Row 14):
   - Left Drop-off Pit at (16..17, 14) -> Lands on 1F South Wing at (16, 14)
-  - Right Drop-off Pit at (19, 14) -> Lands on 1F Northern Landing Sector at (18, 14) [Leads to B1F Stairs!]
+  - Right Drop-off Pit at (19, 14) -> Lands on 1F Northern Landing Sector at (18, 14) [Enclosed landing sector]
 - Shutter Barrier at (15, 10..11): CLOSED in State A, OPEN in State B.
 - East Corridor & Rooms: Cols 10-27, rows 1-15
 
