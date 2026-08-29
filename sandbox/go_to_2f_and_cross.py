@@ -59,15 +59,21 @@ def main():
             if not step_one("Down", 1, y): return
         pos = mgba.get_coordinates()
         
-    if pos['y'] == 13 and pos['x'] < 7:
-        print("Walking right to Column 7...")
-        for x in range(pos['x'] + 1, 8):
+    # We are at (6, 13) or somewhere on Row 13 Columns 1-5
+    if pos['y'] == 13 and pos['x'] < 6:
+        print("Walking right on Row 13 to Column 6...")
+        for x in range(pos['x'] + 1, 7):
             if not step_one("Right", x, 13): return
         pos = mgba.get_coordinates()
         
-    if pos['x'] == 7 and pos['y'] == 13:
-        if not step_one("Up", 7, 12): return
-        if not step_one("Up", 7, 11): return
+    # We are at (6, 13). Go UP to Row 11, then Right to Column 7, and Up onto stairs at (7, 10)
+    if pos['x'] == 6 and pos['y'] == 13:
+        if not step_one("Up", 6, 12): return
+        if not step_one("Up", 6, 11): return
+        pos = mgba.get_coordinates()
+        
+    if pos['x'] == 6 and pos['y'] == 11:
+        if not step_one("Right", 7, 11): return
         pos = mgba.get_coordinates()
         
     if pos['x'] == 7 and pos['y'] == 11:
