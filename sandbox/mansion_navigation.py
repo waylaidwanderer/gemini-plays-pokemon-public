@@ -1,31 +1,55 @@
 import mgba
 import time
 
-def walk_to_1f():
+def move_with_verification(action, expected_x, expected_y):
     current_pos = mgba.get_coordinates()
-    print(f"Starting at: {current_pos}")
+    mgba.press_buttons([action])
+    time.sleep(0.3)
+    new_pos = mgba.get_coordinates()
     
-    # 1. Walk from (9, 9) to (7, 10) on 3F West to warp to 2F West
-    # Path: Left 2 to (7, 9), Down to (7, 10)
-    steps_3f = ["Left", "Left", "Down"]
-    for s in steps_3f:
-        mgba.press_buttons([s])
-        time.sleep(0.3)
+    # If we warped, new_pos might change map/coordinates entirely
+    if expected_x is None or expected_y is None:
+        print(f"Action {action} executed (warp expected). New position: {new_pos}")
+        return True
         
-    pos_2f = mgba.get_coordinates()
-    print(f"Arrived on 2F West: {pos_2f}")
-    
-    # 2. Walk on 2F West from landing (usually (7, 11)) to (5, 10) to warp to 1F West
-    # Path from (7, 11): Left 2 to (5, 11), Up to (5, 10)
-    # Wait, let's step-by-step walk left and up
-    mgba.press_buttons(["Left"])
-    time.sleep(0.3)
-    mgba.press_buttons(["Left"])
-    time.sleep(0.3)
-    mgba.press_buttons(["Up"])
-    time.sleep(0.3)
-    
-    pos_1f = mgba.get_coordinates()
-    print(f"Arrived on 1F West: {pos_1f}")
+    if new_pos['x'] == expected_x and new_pos['y'] == expected_y:
+        print(f"Successfully moved to ({expected_x}, {expected_y})")
+        return True
+    else:
+        print(f"FAILED to move to ({expected_x}, {expected_y}). Actual position: {new_pos}")
+        return False
 
-walk_to_1f()
+# Current position is (2, 12) on 2F West.
+# We want to walk:
+# 1. Left to (1, 12)
+# 2. Up to (1, 11)
+# 3. Up to (1, 10)
+# 4. Up to (1, 9) (the open gate!)
+# 5. Right to (2, 9)
+# 6. Right to (3, 9)
+# 7. Right to (4, 9)
+# 8. Right to (5, 9)
+# 9. Right to (6, 9)
+# 10. Right to (7, 9)
+# 11. Down to (7, 10) (warp to 3F West!)
+
+def run_route():
+    steps = [
+        ("Left", 1, 12),
+        ("Up", 1, 11),
+        ("Up", 1, 10),
+        ("Up", 1, 9),
+        ("Right", 2, 9),
+        ("Right", 3, 9),
+        ("Right", 4, 9),
+        ("Right", 5, 9),
+        ("Right", 6, 9),
+        ("Right", 7, 9),
+        ("Down", None, None) # Warps to 3F West!
+    ]
+    
+    for action, ex, ey in steps:
+        if not move_with_verification(action, ex, ey):
+            break
+
+run_route()
