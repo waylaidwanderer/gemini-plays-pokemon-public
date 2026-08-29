@@ -1,5 +1,30 @@
 import mgba
 import time
+from PIL import Image, ImageChops
+
+def is_in_battle():
+    img1_path = mgba.take_screenshot()
+    img1 = Image.open(img1_path)
+    mgba.press_buttons(["Start"])
+    time.sleep(0.25)
+    img2_path = mgba.take_screenshot()
+    img2 = Image.open(img2_path)
+    diff = ImageChops.difference(img1, img2)
+    bbox = diff.getbbox()
+    if bbox is None:
+        return True
+    else:
+        mgba.press_buttons(["Start"])
+        time.sleep(0.25)
+        return False
+
+def handle_battle_escape():
+    print("ESCAPING BATTLE...")
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.2)
+    mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1000", "B"])
+    time.sleep(1.5)
 
 def step_one(direction, target_x, target_y):
     pos_before = mgba.get_coordinates()
@@ -9,14 +34,13 @@ def step_one(direction, target_x, target_y):
     pos_after = mgba.get_coordinates()
     
     if pos_before == pos_after:
-        print("Blocked or in battle. Attempting run...")
-        mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1000", "B"])
-        time.sleep(2.0)
-        # Try moving again
-        mgba.press_buttons([direction])
-        time.sleep(0.4)
-        pos_after = mgba.get_coordinates()
-        
+        if is_in_battle():
+            handle_battle_escape()
+            # Try moving again
+            mgba.press_buttons([direction])
+            time.sleep(0.4)
+            pos_after = mgba.get_coordinates()
+            
     if pos_after['x'] == target_x and pos_after['y'] == target_y:
         return True
     return False
@@ -41,39 +65,103 @@ def walk_path(coords):
             return False
     return True
 
-def main():
-    print("go_to_switch_state_a: Starting...")
-    pos = mgba.get_coordinates()
-    print(f"Current position: {pos}")
+def has_dialogue_opened():
+    img1_path = mgba.take_screenshot()
+    img1 = Image.open(img1_path)
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    img2_path = mgba.take_screenshot()
+    img2 = Image.open(img2_path)
     
-    # Path from (22, 1) to (12, 9)
-    path = [
-        # Left along Row 1
-        (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
-        # Down Column 12
-        (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9)
+    w, h = img1.size
+    y_start = int(112 / 144 * h)
+    crop1 = img1.crop((0, y_start, w, h))
+    crop2 = img2.crop((0, y_start, w, h))
+    
+    diff = ImageChops.difference(crop1, crop2)
+    if diff.getbbox() is not None:
+        print("Dialogue box opened!")
+        return True
+    return False
+
+def test_and_toggle(y):
+    print(f"Testing switch on Column 13 Row {y}...")
+    # Walk to (12, y)
+    pos = mgba.get_coordinates()
+    while pos['y'] != y:
+        dy = y - pos['y']
+        dir_step = "Down" if dy > 0 else "Up"
+        if not step_one(dir_step, 12, pos['y'] + (1 if dy > 0 else -1)):
+            return False
+        pos = mgba.get_coordinates()
+        
+    # Face Right
+    mgba.press_buttons(["Right"])
+    time.sleep(0.4)
+    
+    # Check for dialogue
+    if has_dialogue_opened():
+        print(f"SUCCESS: Found Mewtwo statue switch at (13, {y})!")
+        # Press A/B to toggle and dismiss
+        # Let's press A three times with sleeps to fully dismiss the toggle text
+        for _ in range(3):
+            mgba.press_buttons(["A"])
+            time.sleep(1.0)
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        print("Toggled switch!")
+        return True
+    return False
+
+def main():
+    print("find_and_toggle_2f_switch: Starting...")
+    pos = mgba.get_coordinates()
+    
+    # 1. Walk from (26, 6) to stairs at (22, 2) on 3F East
+    path_to_stairs = [
+        (26, 5), (26, 4), (26, 3),
+        (25, 3), (24, 3), (23, 3), (22, 3),
+        (22, 2)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
-    if pos_tuple in path:
-        start_idx = path.index(pos_tuple)
-        remaining_path = path[start_idx+1:]
-    else:
-        remaining_path = path
+    if pos_tuple in path_to_stairs:
+        start_idx = path_to_stairs.index(pos_tuple)
+        path_to_stairs = path_to_stairs[start_idx+1:]
         
-    print(f"Walking path: {remaining_path}")
-    if not walk_path(remaining_path):
-        print("Walking to switch failed.")
+    print(f"Walking to 3F East stairs: {path_to_stairs}")
+    if not walk_path(path_to_stairs):
+        print("Walking to stairs failed.")
         return
         
-    # Face Right and press A to toggle switch to State A
-    print("Standing at (12, 9). Facing Right and pressing A...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.4)
-    for _ in range(4):
-        mgba.press_buttons(["A"])
-        time.sleep(1.0)
-    print("Toggle completed!")
+    # Take stairs to 2F East
+    print("Stepping UP to warp to 2F East...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    pos = mgba.get_coordinates()
+    print(f"Arrived on 2F East! Position: {pos}")
+    
+    # 2. Walk to Column 12 on 2F East
+    # Path from (22, 1) to (12, 1)
+    path_to_col12 = []
+    for x in range(21, 11, -1):
+        path_to_col12.append((x, 1))
+        
+    print(f"Walking to Column 12: {path_to_col12}")
+    if not walk_path(path_to_col12):
+        print("Walking to Column 12 failed.")
+        return
+        
+    # 3. Test the switches at (13, 9) and (13, 11)
+    if test_and_toggle(9):
+        print("Mansion should now be in State A!")
+        return
+        
+    if test_and_toggle(11):
+        print("Mansion should now be in State A!")
+        return
+        
+    print("Failed to find any active switches on 2F East.")
 
 if __name__ == "__main__":
     main()
