@@ -94,17 +94,13 @@ def walk_path_robust(coords):
 
 def main():
     print("solve_mansion_3f_v3: Starting direct pitfall walk from (19, 1)...")
-    
-    # 1. Dismiss "Got away safely!" text box
-    mgba.press_buttons(["A"])
-    time.sleep(0.6)
-    
     pos = mgba.get_coordinates()
-    print(f"Current pos after dismissing text: {pos}")
+    print(f"Current pos: {pos}")
     
-    # Path to pitfall: walk down Column 19 to Row 3, Left horizontally on Row 3 to Column 26, Down to (26, 6)
+    # Path from (19, 1) to (26, 6) avoiding the desk at (19, 2)
     path = [
-        (19, 2), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        (18, 1), (18, 2), (18, 3), 
+        (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
         (26, 4), (26, 5), (26, 6)
     ]
     
