@@ -64,9 +64,10 @@ def main():
         (22, 2)
     ]
     
+    pos_tuple = (pos['x'], pos['y'])
     # Filter the path to start from where we currently are
-    if pos in path_to_stairs:
-        start_idx = path_to_stairs.index(pos)
+    if pos_tuple in path_to_stairs:
+        start_idx = path_to_stairs.index(pos_tuple)
         remaining_path = path_to_stairs[start_idx+1:]
     else:
         # If we are at (7, 10), start from the beginning
