@@ -52,11 +52,17 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Start coordinates: {pos}")
     
-    # 1. Walk DOWN Column 5 to Row 11 (5, 11)
-    if pos['x'] == 5 and pos['y'] < 11:
-        print("Walking down Column 5 to Row 11...")
-        for y in range(pos['y'] + 1, 12):
+    # 1. Walk DOWN Column 5 to Row 10 (5, 10)
+    if pos['x'] == 5 and pos['y'] < 10:
+        print("Walking down Column 5 to Row 10...")
+        for y in range(pos['y'] + 1, 11):
             if not step_one("Down", 5, y): return
+        pos = mgba.get_coordinates()
+        
+    # Walk to (6, 11) to bypass the trainer on Row 11
+    if pos['x'] == 5 and pos['y'] == 10:
+        if not step_one("Right", 6, 10): return
+        if not step_one("Down", 6, 11): return
         pos = mgba.get_coordinates()
         
     # 2. Walk RIGHT along Row 11 to Column 12 (12, 11)
