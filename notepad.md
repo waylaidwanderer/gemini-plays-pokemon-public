@@ -1315,7 +1315,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 10 Vertical Corridor:** Column 10 is completely open and walkable on Rows 9-16 on 3F West (unlike 2F West where it is blocked by rubble), providing the primary vertical passage between the northern and southern halves of 3F West.
 - **Row 8 Debris:** Blocked by solid rubble on Columns 8-11, making Row 8 impassable horizontally on these columns.
 - **Column 12 Vertical Passage:** Completely open vertically on Rows 6-12, providing an alternate vertical passage on 3F West.
-- **Row 1 Horizontal Corridor:** Completely open horizontally across 3F East and 3F West, providing the primary connection between West and East sections of 3F.
+- **Row 1 Horizontal Corridor:** Completely open horizontally across 3F East and 3F West, but Column 22 on Row 1 is blocked horizontally by the recessed staircase structure at (22, 1). To cross between 3F East and 3F West, you must use Row 3.
 
 ## 3F East - Mapping & Boundaries
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
