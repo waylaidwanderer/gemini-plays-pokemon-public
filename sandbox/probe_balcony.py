@@ -71,47 +71,77 @@ def walk_path(coords):
     return True
 
 def main():
-    print("probe_balcony_v4: Starting...")
+    print("probe_balcony_v5: Starting...")
     pos = mgba.get_coordinates()
     print(f"Start pos: {pos}")
     
-    # We are at (19, 16).
-    # 1. Walk back to (24, 13) on 3F East
-    path_back = [
-        # Right to Column 24
-        (20, 16), (21, 16), (22, 16), (23, 16), (24, 16),
-        # Up Column 24 to Row 13
-        (24, 15), (24, 14), (24, 13),
-        # Up to Row 11
-        (24, 12), (24, 11),
-        # Left along Row 11 to Column 16
-        (23, 11), (22, 11), (21, 11), (20, 11), (19, 11), (18, 11), (17, 11), (16, 11)
+    # We are at (23, 11).
+    path = [
+        # Walk Right to (24, 11)
+        (24, 11),
+        # Walk Down Column 24 to Row 16
+        (24, 12), (24, 13), (24, 14), (24, 15), (24, 16),
+        # Walk Left along Row 16 to Column 19
+        (23, 16), (22, 16), (21, 16), (20, 16), (19, 16)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
-    if pos_tuple in path_back:
-        start_idx = path_back.index(pos_tuple)
-        path_back = path_back[start_idx+1:]
+    if pos_tuple in path:
+        start_idx = path.index(pos_tuple)
+        path = path[start_idx+1:]
         
-    print(f"Walking path back and to (16, 11): {path_back}")
-    if not walk_path(path_back):
-        print("Failed to walk to (16, 11).")
+    print(f"Walking to (19, 16): {path}")
+    if not walk_path(path):
+        print("Failed to reach (19, 16).")
         return
         
-    # 2. Try to walk Down Column 16 to (16, 17) to drop!
-    print("Trying to walk Down Column 16 to (16, 17)...")
-    for y in range(12, 18):
-        res = step_one("Down", 16, y)
-        if res == "WARPED" or mgba.get_coordinates()['y'] > 17:
-            print("SUCCESSFULLY FELL OR TRANSITIONED ON COLUMN 16!!!")
-            time.sleep(1.0)
-            print(f"Landed at: {mgba.get_coordinates()}")
-            return
-        elif not res:
-            print(f"Blocked moving Down Column 16 at Row {y}.")
+    # We are at (19, 16). Try to walk UP Column 19 to Row 12
+    print("Trying to walk UP Column 19...")
+    for y in range(15, 11, -1):
+        if not step_one("Up", 19, y):
+            print(f"Blocked moving Up Column 19 at Row {y}.")
             break
             
-    print(f"Ending position: {mgba.get_coordinates()}")
+    pos_now = mgba.get_coordinates()
+    print(f"Current position: {pos_now}")
+    
+    # If we made it past Row 13 (so pos_now['y'] <= 12), let's walk left to Column 16, then down to balcony!
+    if pos_now['y'] <= 12:
+        print("Row 12 is accessible! Walking Left to Column 16...")
+        path_to_door = []
+        for x in range(pos_now['x'] - 1, 15, -1):
+            path_to_door.append((x, pos_now['y']))
+        # Walk Down to (16, 17) and (16, 18)
+        path_to_door.append((16, 13))
+        path_to_door.append((16, 14))
+        path_to_door.append((16, 15))
+        path_to_door.append((16, 16))
+        path_to_door.append((16, 17))
+        path_to_door.append((16, 18))
+        
+        # Walk Right to (19, 18)
+        path_to_door.append((17, 18))
+        path_to_door.append((18, 18))
+        path_to_door.append((19, 18))
+        
+        print(f"Walking remaining path to balcony drop: {path_to_door}")
+        res = walk_path(path_to_door)
+        if res == "WARPED":
+            print("Warped on path to balcony!")
+            return
+        elif not res:
+            print("Failed on path to balcony.")
+            return
+            
+        # Try to go DOWN from (19, 18) to trigger fall!
+        print("Trying to go Down from (19, 18) to trigger balcony fall...")
+        res = step_one("Down", 19, 19)
+        if res == "WARPED" or mgba.get_coordinates()['y'] != 18:
+            print("SUCCESSFULLY DROPPED FROM BALCONY TO B1F!!!")
+            time.sleep(1.0)
+            print(f"Landed at: {mgba.get_coordinates()}")
+        else:
+            print(f"Failed to drop. Current pos: {mgba.get_coordinates()}")
 
 if __name__ == "__main__":
     main()
