@@ -20,7 +20,6 @@
 
 ### Stairs to 3F
 - **Southwest Wing Stairs**: Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)). Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10). Arrival on 3F: Southwest Wing at (7, 11) [Dead-end sector with TM09 Take Down and research journal].
-- **Northeast Wing Access**: Pending discovery of true passage/warp from lower floors.
 
 ### East Wing (Explored Turns 18593-18750)
 - Thoroughfare Column 12: Unobstructed north-south corridor connecting row 11 to row 1, bypassing all rubble at rows 8-9.
