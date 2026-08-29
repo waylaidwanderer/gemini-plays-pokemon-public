@@ -110,14 +110,9 @@ def main():
             if not move_safe_battle("Left", x, 13): return
             
     pos = mgba.get_coordinates()
-    # 3. Walk Up to (2, 12)
+    # 3. Walk Left to (1, 13)
     if pos['x'] == 2 and pos['y'] == 13:
-        if not move_safe_battle("Up", 2, 12): return
-        
-    pos = mgba.get_coordinates()
-    # 4. Walk Left to (1, 12)
-    if pos['x'] == 2 and pos['y'] == 12:
-        if not move_safe_battle("Left", 1, 12): return
+        if not move_safe_battle("Left", 1, 13): return
         
     pos = mgba.get_coordinates()
     # 5. Walk Up Column 1 to (1, 6)
