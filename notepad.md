@@ -1785,5 +1785,12 @@ Whenever a `SYSTEM NOTE: Map Transition Detected` is received, or when entering 
 - **Pitfall Trap at (26, 6):** The pitfall trap on 3F East is located at `(26, 6)`. Walking onto `(26, 6)` drops the player down to 1F East at `(25, 6)`.
 - **Row 3 horizontal crossing:** Row 3 is open horizontally from Column 20 to Column 26.
 
+## Turn 66391 - Empirical Boundary Verification
+- Standing at `(9, 11)` on 3F West in State B:
+  - `(9, 10)` (UP) is OPEN.
+  - `(9, 12)` (DOWN) is BLOCKED (solid wall/rubble).
+  - `(8, 11)` (LEFT) is OPEN.
+  - `(10, 11)` (RIGHT) is BLOCKED (the Row 11/12 shutter gate is closed in State B!).
+- Therefore, direct horizontal crossing to 3F East on Row 11 is blocked in State B. We must find another way to cross Column 10/11.
 
 <hr>
