@@ -58,43 +58,28 @@ def move_safe_battle(step, target_x, target_y):
     print(f"move_safe_battle: Arrived: {arrived}. Final position: {pos_after}")
     return arrived
 
-def test_column_8():
+def test_column_9():
     # We are at (4, 10)
     pos = mgba.get_coordinates()
-    print(f"test_column_8: Starting at {pos}")
+    print(f"test_column_9: Starting at {pos}")
     
-    # 1. Walk down to (4, 12)
+    # Path to (9, 10) via Row 11:
+    # (4, 10) -> (4, 11) -> (5, 11) -> (6, 11) -> (7, 11) -> (8, 11) -> (9, 11) -> (9, 10)
     move_safe_battle("Down", 4, 11)
-    move_safe_battle("Down", 4, 12)
+    move_safe_battle("Right", 5, 11)
+    move_safe_battle("Right", 6, 11)
+    move_safe_battle("Right", 7, 11)
+    move_safe_battle("Right", 8, 11)
+    move_safe_battle("Right", 9, 11)
+    move_safe_battle("Up", 9, 10)
     
-    # 2. Walk right to (8, 12) -> wait, (8, 12) is the planter!
-    # So we walk right to Column 6 Row 12, then Column 6 Row 13, then Column 8 Row 13, then Column 8 Row 10
-    move_safe_battle("Right", 5, 12)
-    move_safe_battle("Right", 6, 12)
-    move_safe_battle("Down", 6, 13)
-    move_safe_battle("Right", 7, 13)
-    move_safe_battle("Right", 8, 13)
-    move_safe_battle("Up", 8, 12) # wait, is (8, 12) planter? Let's check (8, 11) instead
-    move_safe_battle("Up", 8, 11)
-    move_safe_battle("Up", 8, 10)
-    
-    # Test (8, 9)
-    pos = mgba.get_coordinates()
-    print(f"test_column_8: Testing Column 8 Row 9 (8, 9) from {pos}...")
-    success = move_safe_battle("Up", 8, 9)
+    # Test (9, 9)
+    print("test_column_9: Testing Column 9 Row 9 (9, 9)...")
+    success = move_safe_battle("Up", 9, 9)
     if success:
-        print("test_column_8: Column 8 Row 9 is OPEN!")
+        print("test_column_9: Column 9 Row 9 is OPEN!")
     else:
-        print("test_column_8: Column 8 Row 9 is CLOSED.")
-        
-    # Test (9, 9) if we can walk right to (9, 10)
-    move_safe_battle("Right", 9, 10)
-    print("test_column_8: Testing Column 9 Row 9 (9, 9)...")
-    success9 = move_safe_battle("Up", 9, 9)
-    if success9:
-        print("test_column_8: Column 9 Row 9 is OPEN!")
-    else:
-        print("test_column_8: Column 9 Row 9 is CLOSED.")
+        print("test_column_9: Column 9 Row 9 is CLOSED.")
 
 if __name__ == "__main__":
-    test_column_8()
+    test_column_9()
