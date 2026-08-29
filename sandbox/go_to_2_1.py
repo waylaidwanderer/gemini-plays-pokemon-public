@@ -86,16 +86,30 @@ def step_with_battle_handling_and_retry(direction, expected_pos):
     print("Max retries exceeded!")
     return False
 
-# Step Left from (14, 1) to (2, 1)
-curr_x, curr_y = get_pos()
-target_x = 2
-while curr_x > target_x:
-    next_x = curr_x - 1
-    success = step_with_battle_handling_and_retry("Left", (next_x, 1))
+# Path from (11, 3) to (2, 1)
+path = [
+    ("Left", (10, 3)),
+    ("Up", (10, 2)),
+    ("Left", (9, 2)),
+    ("Left", (8, 2)),
+    ("Left", (7, 2)),
+    ("Left", (6, 2)),
+    ("Left", (5, 2)),
+    ("Left", (4, 2)),
+    ("Up", (4, 1)),
+    ("Left", (3, 1)),
+    ("Left", (2, 1))
+]
+
+print("Starting direct path from (11, 3) to top-left of Gym...")
+for d, target in path:
+    curr = get_pos()
+    if curr == target:
+        continue
+    success = step_with_battle_handling_and_retry(d, target)
     if not success:
-        print("Walk stopped due to failure.")
+        print("Path execution stopped due to failure or desync.")
         break
-    curr_x, curr_y = get_pos()
 
 # Turn Down to face row 2
 print("Facing Down...")
