@@ -40,7 +40,6 @@
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
 - Corridors: Row 14 (cols 12-17), Row 16 (cols 18-25 solid wall divider), Row 20-21 (cols 12-23), Row 22 (cols 6-13 passage west of col 14 wall), Row 24-26 (cols 12-23), Column 20 (rows 10-15), Column 25 (rows 14-23)
 ### B1F Staircase & Shutter Gate Connections
-- Descending Staircase to B1F: Physical warp transition pending verification upon arrival.
 - Access to Northern Landing Sector: Dropping from 3F Right Balcony Pit at (19, 14) lands on 1F Northern Landing Sector at (18, 14).
 - Shutter Gate (North Row 13): (12..17, 13) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19705). Connects column 12 corridor directly south into Enclosed East Wing.
 - Column 9 Barrier: Continuous solid vertical wall from row 8 to row 16 blocking westward passage. West-East wing bypass on 1F is located at Row 22 (cols 6-13).
