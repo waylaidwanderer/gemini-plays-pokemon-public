@@ -1781,6 +1781,12 @@ Whenever a `SYSTEM NOTE: Map Transition Detected` is received, or when entering 
 - **Row 13 Barrier:** Row 13 is a solid permanent horizontal wall separating Row 14/15 from Row 12 and above on 2F East.
 - **Row 15 horizontal crossing:** Row 15 is completely open and walkable horizontally from Column 10 to Column 23, providing a critical bypass route around the Row 7 and Column 13/22 barriers!
 
+## 2F West - State B Column 10 Rubble Blockage (Verified Turns 66597-66599)
+- **(10, 11) Block:** B1F South-East gate is CLOSED in State B, making Column 10 impassable horizontally on Row 11 from (9, 11) (Turn 66597).
+- **(10, 10) Block:** Blocked horizontally by solid rubble/debris on Column 10 from (9, 10) (Turn 66598).
+- **(10, 9) Block:** Blocked horizontally by solid rubble/debris on Column 10 from (9, 9) (Turn 66599).
+- **Conclusion:** Horizontal crossing from Column 9 to Column 10 on 2F West is completely blocked on Rows 9, 10, and 11 in State B!
+
 <hr>
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
