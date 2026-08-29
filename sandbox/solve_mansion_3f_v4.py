@@ -91,49 +91,84 @@ def walk_path_robust(coords):
             return "BLOCKED"
     return "SUCCESS"
 
+def generate_straight_line_path(x1, y1, x2, y2):
+    path = []
+    if x1 == x2:
+        step = 1 if y2 > y1 else -1
+        for y in range(y1 + step, y2 + step, step):
+            path.append((x1, y))
+    elif y1 == y2:
+        step = 1 if x2 > x1 else -1
+        for x in range(x1 + step, x2 + step, step):
+            path.append((x, y1))
+    return path
+
 def main():
-    print("solve_mansion_3f_v4: Starting from current position...")
+    print("solve_mansion_3f_v4: Starting dynamic pathing to pitfall...")
     
-    pos = mgba.get_coordinates()
-    print(f"Current pos: {pos}")
+    # Dismiss any leftover screen dialogs if any (shouldn't be, but safe)
+    mgba.press_buttons(["B"])
+    time.sleep(0.3)
     
-    # 1. Path to switch (2, 6) from current (3, 7)
-    path_to_switch = [(2, 7), (2, 6)]
-    
-    res = walk_path_robust(path_to_switch)
-    if res == "WARPED":
-        print("Warped unexpectedly while walking to switch!")
-        return
-    elif res == "BLOCKED":
-        print("Path to switch blocked!")
-        return
+    while True:
+        pos = mgba.get_coordinates()
+        curr_x, curr_y = pos['x'], pos['y']
+        print(f"Current position: ({curr_x}, {curr_y})")
         
-    print("Reached (2, 6). Facing UP to switch at (2, 5)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.4)
-    
-    # Toggle switch to State A (5 A-presses)
-    print("Toggling Mewtwo switch to State A...")
-    mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A"])
-    time.sleep(1.0)
-    print("Switch toggled. Mansion should now be in State A!")
-    
-    # 2. Path to pitfall (26, 3) in State A
-    path_to_pitfall = [
-        (3, 6), (3, 5), (3, 4), (4, 4), (4, 3), (4, 2), (4, 1),
-        (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
-        (18, 2), (18, 3), 
-        (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3)
-    ]
-    
-    print("Walking to pitfall on 3F East in State A...")
-    res = walk_path_robust(path_to_pitfall)
-    if res == "WARPED":
-        print("SUCCESSFULLY FELL THROUGH PITFALL TO 1F EAST!!!")
-    elif res == "BLOCKED":
-        print("Path to pitfall blocked!")
-    else:
-        print(f"Reached end of path without warping. Current pos: {mgba.get_coordinates()}")
+        if curr_x == 26 and curr_y == 3:
+            print("Reached target (26, 3)!")
+            return
+            
+        # Select target waypoint based on exact coordinates
+        if curr_x < 3:
+            target_waypoint = (3, 6)
+        elif curr_x == 3 and curr_y > 6:
+            target_waypoint = (3, 6)
+        elif curr_x == 3 and curr_y == 6:
+            target_waypoint = (3, 4)
+        elif curr_x == 3 and curr_y == 5:
+            target_waypoint = (3, 4)
+        elif curr_x == 3 and curr_y == 4:
+            target_waypoint = (4, 4)
+        elif curr_x == 4 and curr_y == 4:
+            target_waypoint = (4, 1)
+        elif curr_x == 4 and 1 < curr_y < 4:
+            target_waypoint = (4, 1)
+        elif curr_x == 4 and curr_y == 1:
+            target_waypoint = (18, 1)
+        elif 4 < curr_x < 18 and curr_y == 1:
+            target_waypoint = (18, 1)
+        elif 4 < curr_x < 18 and curr_y != 1:
+            target_waypoint = (curr_x, 1)
+        elif curr_x == 18 and curr_y == 1:
+            target_waypoint = (18, 3)
+        elif curr_x == 18 and curr_y == 2:
+            target_waypoint = (18, 3)
+        elif curr_x == 18 and curr_y == 3:
+            target_waypoint = (26, 3)
+        elif 18 < curr_x < 26 and curr_y == 3:
+            target_waypoint = (26, 3)
+        elif 18 < curr_x < 26 and curr_y != 3:
+            target_waypoint = (curr_x, 3)
+        else:
+            target_waypoint = (26, 3)
+            
+        print(f"Next target waypoint: {target_waypoint}")
+        
+        path = generate_straight_line_path(curr_x, curr_y, target_waypoint[0], target_waypoint[1])
+        print(f"Generated path: {path}")
+        
+        if not path:
+            # We are already there, just loop to get next waypoint
+            continue
+            
+        res = walk_path_robust(path)
+        if res == "WARPED":
+            print("SUCCESSFULLY FELL THROUGH PITFALL TO 1F EAST!!!")
+            return
+        elif res == "BLOCKED":
+            print("Path execution blocked, retrying loop...")
+            time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
