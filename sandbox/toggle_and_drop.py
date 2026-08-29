@@ -29,7 +29,7 @@ def handle_battle_escape():
     mgba.press_buttons(["B"])
     time.sleep(1.0)
 
-def move_safe_battle(step, target_x, target_y, target_state=None):
+def move_safe_battle(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
     print(f"move_safe_battle: Moving '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
     mgba.press_buttons([step])
@@ -66,82 +66,39 @@ def move_safe_battle(step, target_x, target_y, target_state=None):
     return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 3 and pos_after['x'] == 26 and pos_after['y'] == 4)
 
 def main():
-    print("toggle_and_drop: Starting...")
-    pos = mgba.get_coordinates()
-    print(f"Initial coordinates: {pos}")
+    print("toggle_and_drop: Starting from (2, 13)...")
     
-    # 1. Walk from (25, 5) to (25, 3)
-    if pos['y'] == 5:
-        if not move_safe_battle("Up", 25, 4): return
-    pos = mgba.get_coordinates()
-    if pos['y'] == 4:
-        if not move_safe_battle("Up", 25, 3): return
-        
-    # 2. Walk Left along Row 3 to (20, 3)
-    for x in range(24, 19, -1):
-        if not move_safe_battle("Left", x, 3): return
-        
-    # 3. Walk Down to (20, 4) -> Left to (19, 4) -> Down to (19, 6)
-    if not move_safe_battle("Down", 20, 4): return
-    if not move_safe_battle("Left", 19, 4): return
-    if not move_safe_battle("Down", 19, 5): return
-    if not move_safe_battle("Down", 19, 6): return
+    # 1. Walk Up to (2, 12)
+    if not move_safe_battle("Up", 2, 12): return
     
-    # 4. Walk Left Row 6 to Column 10 (10, 6)
-    for x in range(18, 9, -1):
-        if not move_safe_battle("Left", x, 6): return
-        
-    # 5. Walk Down Column 10 to Row 11 (10, 11)
-    for y in range(7, 12):
-        if not move_safe_battle("Down", 10, y): return
-        
-    # 6. Walk Left Row 11 to Column 3 (3, 11)
-    for x in range(9, 2, -1):
-        if not move_safe_battle("Left", x, 11): return
-        
-    # 7. Walk Down to (3, 12) -> Left to (2, 12)
-    if not move_safe_battle("Down", 3, 12): return
-    if not move_safe_battle("Left", 2, 12): return
-    
-    # 8. Face UP and toggle switch to State B
-    print("Facing UP to look at switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Toggling switch to State B...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # 9. Walk back to Column 10 Row 11
-    if not move_safe_battle("Down", 2, 12): return
+    # 2. Walk Right to (3, 12)
     if not move_safe_battle("Right", 3, 12): return
+    
+    # 3. Walk Up to (3, 11)
     if not move_safe_battle("Up", 3, 11): return
+    
+    # 4. Walk Right Row 11 to Column 10 (10, 11)
     for x in range(4, 11):
         if not move_safe_battle("Right", x, 11): return
         
-    # 10. Walk Up Column 10 to Row 6
+    # 5. Walk Up Column 10 to Row 6 (10, 6)
     for y in range(10, 5, -1):
         if not move_safe_battle("Up", 10, y): return
         
-    # 11. Walk Right Row 6 to Column 19
+    # 6. Walk Right Row 6 to Column 19 (19, 6)
     for x in range(11, 20):
         if not move_safe_battle("Right", x, 6): return
         
-    # 12. Walk Up Column 19 to Row 4
+    # 7. Walk Up Column 19 to Row 4 (19, 4)
     for y in [5, 4]:
         if not move_safe_battle("Up", 19, y): return
         
-    # 13. Walk Right to (20, 4) then UP to (20, 3)
+    # 8. Walk Right to (20, 4) then UP to (20, 3)
     if not move_safe_battle("Right", 20, 4): return
     if not move_safe_battle("Up", 20, 3): return
     
-    # 14. Walk Right Row 3 to Column 26 (will fall through (26, 3) in State B!)
+    # 9. Walk Right Row 3 to Column 26 (will fall through (26, 3) in State B!)
+    print("Walking Right to the pitfall at (26, 3)...")
     for x in range(21, 27):
         if not move_safe_battle("Right", x, 3): return
         
