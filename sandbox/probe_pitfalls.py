@@ -14,65 +14,36 @@ def move_test(step):
         print("probe: Did not move.")
         return None
 
-def probe():
+def probe_up():
     # We are at (26, 5)
     print(f"probe starting at: {mgba.get_coordinates()}")
     
-    # Let's test Column 25 Row 6:
-    # Walk Left to (25, 5)
-    pos = move_test("Left")
-    if pos:
-        # Try to step Down into (25, 6)
-        pos_down = move_test("Down")
-        if pos_down:
-            print(f"probe: Column 25 Row 6 is WALKABLE to {pos_down}")
-            # step back up
-            move_test("Up")
-        else:
-            print("probe: Column 25 Row 6 is BLOCKED/SOLID.")
-        # Walk back to (26, 5)
-        move_test("Right")
+    # Walk Up to (26, 4)
+    pos = move_test("Up")
+    if not pos:
+        return
         
-    # Let's test Column 27 Row 6:
-    # Walk Right to (27, 5)
-    pos = move_test("Right")
-    if pos:
-        # Try to step Down into (27, 6)
-        pos_down = move_test("Down")
-        if pos_down:
-            print(f"probe: Column 27 Row 6 is WALKABLE to {pos_down}")
-            # step back up
-            move_test("Up")
+    # Walk Up to (26, 3)
+    pos = move_test("Up")
+    if not pos:
+        return
+        
+    # Try to step Up into (26, 2) (golden rubble on Row 2)
+    pos_up = move_test("Up")
+    if pos_up:
+        print(f"probe: Column 26 Row 2 is WALKABLE to {pos_up}")
+    else:
+        print("probe: Column 26 Row 2 is BLOCKED/SOLID.")
+        
+    # If we are still on 3F at (26, 3), let's walk Right to (27, 3) and try Up into (27, 2)
+    pos = mgba.get_coordinates()
+    if pos['y'] == 3:
+        move_test("Right")
+        pos_up2 = move_test("Up")
+        if pos_up2:
+            print(f"probe: Column 27 Row 2 is WALKABLE to {pos_up2}")
         else:
-            print("probe: Column 27 Row 6 is BLOCKED/SOLID.")
-        # Walk back to (26, 5)
-        move_test("Left")
-
-    # Let's test Column 28 Row 6:
-    # Walk Right 2 steps to (28, 5)
-    pos = move_test("Right")
-    if pos:
-        pos2 = move_test("Right")
-        if pos2:
-            # Try to step Down into (28, 6)
-            pos_down = move_test("Down")
-            if pos_down:
-                print(f"probe: Column 28 Row 6 is WALKABLE to {pos_down}")
-                # Try to step Down into (28, 7)
-                pos_down2 = move_test("Down")
-                if pos_down2:
-                    print(f"probe: Column 28 Row 7 is WALKABLE to {pos_down2}")
-                    # step back up
-                    move_test("Up")
-                else:
-                    print("probe: Column 28 Row 7 is BLOCKED/SOLID.")
-                # step back up
-                move_test("Up")
-            else:
-                print("probe: Column 28 Row 6 is BLOCKED/SOLID.")
-            # Walk back to (26, 5)
-            move_test("Left")
-        move_test("Left")
+            print("probe: Column 27 Row 2 is BLOCKED/SOLID.")
 
 if __name__ == "__main__":
-    probe()
+    probe_up()
