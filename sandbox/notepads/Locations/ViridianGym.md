@@ -1,7 +1,7 @@
 # Viridian Gym Navigation & Mapping Log
 
 ## Gym Status
-- Unlocked and Accessible! We have 7 Badges and are currently inside the Viridian Gym at `(4, 22)`.
+- Locked! We only have 6 Badges, so the Gym is closed. We must defeat Blaine first.
 - Goal: Defeat Gym Leader Giovanni for the Earth Badge (8th Badge).
 
 ## Gym Layout & Topography (Verified Ground Truth)
