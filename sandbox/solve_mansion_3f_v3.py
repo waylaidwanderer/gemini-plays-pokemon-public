@@ -93,20 +93,22 @@ def walk_path_robust(coords):
     return "SUCCESS"
 
 def main():
-    print("solve_mansion_3f_v3: Trying Row 1 crossing to pitfall...")
+    print("solve_mansion_3f_v3: Slicing path from current (15, 1)...")
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
+    # Path from (15, 1) to (26, 6) on 3F East
     path = [
-        (22, 2), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
-        (26, 2), (26, 3), (26, 4), (26, 5), (26, 6)
+        (16, 1), (16, 2), (16, 3),
+        (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        (26, 4), (26, 5), (26, 6)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
     if pos_tuple in path:
         idx = path.index(pos_tuple)
         path = path[idx+1:]
-        print(f"Sliced path: {path}")
+        print(f"Sliced path to start from index {idx+1}: {path}")
         
     res = walk_path_robust(path)
     if res == "WARPED":
