@@ -1792,5 +1792,7 @@ Whenever a `SYSTEM NOTE: Map Transition Detected` is received, or when entering 
   - `(8, 11)` (LEFT) is OPEN.
   - `(10, 11)` (RIGHT) is BLOCKED (the Row 11/12 shutter gate is closed in State B!).
 - Therefore, direct horizontal crossing to 3F East on Row 11 is blocked in State B. We must find another way to cross Column 10/11.
+- **Solid Wall at Column 4 Row 8:** Column 4 Row 8 has been physically verified to be a solid permanent vertical wall separating Columns 1-3 from Column 5 (Turn 66401).
+- **Gate at (2, 12) is CLOSED in State B:** Standing at `(2, 13)` and trying to walk UP to `(2, 12)` fails in State B (Turn 66415).
 
 <hr>
