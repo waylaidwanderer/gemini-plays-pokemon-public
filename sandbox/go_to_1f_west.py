@@ -38,13 +38,17 @@ def move_safe_battle(step, target_x, target_y):
     
     attempts = 0
     while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 6:
+        # Check if we warped to 2F West (landing at (5, 11) or (5, 10))
+        if target_x == 5 and target_y == 10 and pos_after['x'] == 5 and pos_after['y'] == 11:
+            print("move_safe_battle: Successfully warped to 2F West!")
+            break
+            
         if pos_before == pos_after:
             print("move_safe_battle: Position did not change. Checking battle...")
             if is_in_battle():
                 handle_battle_escape()
             else:
-                print("move_safe_battle: Turn-in-place or wall. Bailing...")
-                return False
+                print("move_safe_battle: Turn-in-place or wall. Retrying...")
         else:
             print(f"move_safe_battle: Moved but to {pos_after} instead of target ({target_x}, {target_y}). Checking battle...")
             if is_in_battle():
@@ -59,29 +63,27 @@ def move_safe_battle(step, target_x, target_y):
         pos_after = mgba.get_coordinates()
         attempts += 1
         
-    return pos_after['x'] == target_x and pos_after['y'] == target_y
+    return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 5 and target_y == 10 and pos_after['x'] == 5 and pos_after['y'] == 11)
 
 def main():
-    print("go_to_1f_west: Starting from (20, 3)...")
+    print("go_to_1f_west: Starting from (17, 6)...")
+    pos = mgba.get_coordinates()
+    print(f"Initial coordinates: {pos}")
     
-    # 1. Walk Down to (20, 4)
-    if not move_safe_battle("Down", 20, 4): return
-    
-    # 2. Walk Left to (19, 4)
-    if not move_safe_battle("Left", 19, 4): return
-    
-    # 3. Walk Down to (19, 5) then (19, 6)
-    if not move_safe_battle("Down", 19, 5): return
-    if not move_safe_battle("Down", 19, 6): return
-    
-    # 4. Attempt to walk LEFT on Row 6 as far as possible to see if Column 18 is open!
-    print("Attempting to walk LEFT along Row 6 to Column 5...")
-    for x in range(18, 4, -1):
-        if not move_safe_battle("Left", x, 6):
-            print(f"Blocked at Column {x}!")
-            return
-            
-    print(f"Successfully reached 1F West at {mgba.get_coordinates()}!")
+    # 1. Walk Left Row 6 to Column 6
+    for x in range(pos['x'] - 1, 5, -1):
+        if not move_safe_battle("Left", x, 6): return
+        
+    # 2. Walk Down Column 6 to Row 10 (6, 10)
+    for y in range(7, 11):
+        if not move_safe_battle("Down", 6, y): return
+        
+    # 3. Step Left to (5, 10) and warp UP to 2F West
+    print("Stepping onto stairs to warp UP to 2F West...")
+    if move_safe_battle("Left", 5, 10):
+        print(f"Coordinates after warp: {mgba.get_coordinates()}")
+    else:
+        print("Warp failed.")
 
 if __name__ == "__main__":
     main()
