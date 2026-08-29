@@ -15,6 +15,11 @@ def move_test(step, target_x, target_y):
             # Dismiss potential battle screen
             mgba.press_buttons(["B"])
             time.sleep(0.5)
+            # Simple battle run select if in battle
+            mgba.press_buttons(["Down", "Right", "A"])
+            time.sleep(1.0)
+            mgba.press_buttons(["B"])
+            time.sleep(0.5)
         mgba.press_buttons([step])
         time.sleep(0.4)
         pos_before = pos_after
@@ -24,53 +29,38 @@ def move_test(step, target_x, target_y):
     return pos_after
 
 def main():
-    # We are at (1, 16) on 2F West
+    # We are at (7, 10) on 3F West
     print("go_to_3f_finish: Starting...")
     
-    # 1. Walk Right along Row 16 to Column 5
-    for x in range(2, 6):
-        move_test("Right", x, 16)
-        
-    # 2. Walk UP Column 5 to Row 11
-    for y in range(15, 10, -1):
-        move_test("Up", 5, y)
-        
-    # 3. Walk RIGHT to (7, 11)
-    move_test("Right", 6, 11)
-    move_test("Right", 7, 11)
-    
-    # 4. Step UP onto stairs at (7, 10) to warp UP to 3F West!
-    print("go_to_3f_finish: Stepping onto stairs at (7, 10)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
-    
     pos = mgba.get_coordinates()
-    print(f"go_to_3f_finish: Arrived on 3F! Position: {pos}")
-    
-    # 5. Walk right to Column 10
+    if pos['x'] == 7 and pos['y'] == 10:
+        # 1. Walk down to (7, 11)
+        pos = move_test("Down", 7, 11)
+        
+    # 2. Walk right to Column 10
     # From (7, 11) to (10, 11)
-    for x in range(8, 11):
-        move_test("Right", x, 11)
+    while pos['x'] < 10:
+        pos = move_test("Right", pos['x'] + 1, 11)
         
-    # 6. Walk UP Column 10 to Row 6
-    for y in range(10, 5, -1):
-        move_test("Up", 10, y)
+    # 3. Walk UP Column 10 to Row 6
+    while pos['y'] > 6:
+        pos = move_test("Up", 10, pos['y'] - 1)
         
-    # 7. Walk right to (19, 6)
-    for x in range(11, 20):
-        move_test("Right", x, 6)
+    # 4. Walk right to (19, 6)
+    while pos['x'] < 19:
+        pos = move_test("Right", pos['x'] + 1, 6)
         
-    # 8. Walk UP to (19, 4)
-    move_test("Up", 19, 5)
-    move_test("Up", 19, 4)
+    # 5. Walk UP Column 19 to Row 4
+    while pos['y'] > 4:
+        pos = move_test("Up", 19, pos['y'] - 1)
+        
+    # 6. Walk to (20, 4) then UP to (20, 3)
+    pos = move_test("Right", 20, 4)
+    pos = move_test("Up", 20, 3)
     
-    # 9. Walk to (20, 4) then UP to (20, 3)
-    move_test("Right", 20, 4)
-    move_test("Up", 20, 3)
-    
-    # 10. Walk RIGHT to (25, 3)
-    for x in range(21, 26):
-        move_test("Right", x, 3)
+    # 7. Walk RIGHT to (25, 3)
+    while pos['x'] < 25:
+        pos = move_test("Right", pos['x'] + 1, 3)
         
     print(f"go_to_3f_finish: Finished. Current position on 3F East: {mgba.get_coordinates()}")
 
