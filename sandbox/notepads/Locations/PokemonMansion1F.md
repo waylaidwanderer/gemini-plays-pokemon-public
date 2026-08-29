@@ -7,8 +7,8 @@
 ## Layout & Landmarks
 
 ### Main Sector (West & Central)
-- Entrance Mat: (4..7, 26..27) [Door to Cinnabar Island at (4..5, 27)]
 - Central Grand Hallway: Columns 4-7, rows 14-27
+- Entrance Area: Row 26-27 (cols 1-7)
 - Decorative Displays / Pillars: (3, 24) and (8, 24)
 - Stairs up to 2F: (5, 10) [at north end of central hallway]
 
