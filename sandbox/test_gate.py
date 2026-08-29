@@ -19,6 +19,7 @@ def is_in_battle():
         return False
 
 def handle_battle_escape():
+    print("handle_battle_escape: ESCAPING BATTLE!")
     mgba.press_buttons(["B"])
     time.sleep(0.5)
     mgba.press_buttons(["Down", "Right", "A"])
@@ -28,42 +29,42 @@ def handle_battle_escape():
 
 def move_safe_battle(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
+    print(f"move_safe_battle: Attempting to move '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
     mgba.press_buttons([step])
     time.sleep(0.4)
     pos_after = mgba.get_coordinates()
+    
     attempts = 0
-    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 3:
+    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 6:
         if pos_before == pos_after:
-            time.sleep(1.0)
+            print("move_safe_battle: Position did not change. Checking for battle...")
             if is_in_battle():
                 handle_battle_escape()
             else:
-                return False
+                print("move_safe_battle: Overworld turn-in-place or obstruction. Retrying...")
         else:
-            time.sleep(1.0)
+            print(f"move_safe_battle: Moved to {pos_after} instead of target ({target_x}, {target_y}). Checking battle...")
             if is_in_battle():
                 handle_battle_escape()
+                
+        print(f"move_safe_battle: Retrying step '{step}'...")
         mgba.press_buttons([step])
         time.sleep(0.4)
+        pos_before = pos_after
         pos_after = mgba.get_coordinates()
         attempts += 1
-    return pos_after['x'] == target_x and pos_after['y'] == target_y
+        
+    arrived = (pos_after['x'] == target_x and pos_after['y'] == target_y)
+    print(f"move_safe_battle: Arrived: {arrived}. Final position: {pos_after}")
+    return arrived
 
 def test_gates():
     # We are at (1, 10)
     pos = mgba.get_coordinates()
     print(f"test_gates: Starting at {pos}")
     
-    # 1. Test Column 3
-    print("test_gates: Moving to (3, 10)...")
-    if move_safe_battle("Right", 2, 10):
-        # Wait, is (2, 10) open? (2, 10) has the Mewtwo statue head!
-        # Ah! Is (2, 10) blocked by the statue head?
-        # Let's see if we can move to (2, 10). If (2, 10) is blocked, we walk Down to (1, 11) -> Right to (3, 11) -> Up to (3, 10)
-        pass
-    
     # Let's do the safe path to (3, 10):
-    # (1, 10) -> (1, 11) -> (3, 11) -> (3, 10)
+    # (1, 10) -> (1, 11) -> (2, 11) -> (3, 11) -> (3, 10)
     move_safe_battle("Down", 1, 11)
     move_safe_battle("Right", 2, 11)
     move_safe_battle("Right", 3, 11)
@@ -74,7 +75,8 @@ def test_gates():
     success3 = move_safe_battle("Up", 3, 9)
     if success3:
         print("test_gates: Column 3 Row 9 is OPEN!")
-        return 3
+        # Step back down to (3, 10)
+        move_safe_battle("Down", 3, 10)
     else:
         print("test_gates: Column 3 Row 9 is CLOSED.")
         
@@ -87,7 +89,8 @@ def test_gates():
     success4 = move_safe_battle("Up", 4, 9)
     if success4:
         print("test_gates: Column 4 Row 9 is OPEN!")
-        return 4
+        # Step back down to (4, 10)
+        move_safe_battle("Down", 4, 10)
     else:
         print("test_gates: Column 4 Row 9 is CLOSED.")
         
