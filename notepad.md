@@ -2297,11 +2297,11 @@
 - Item Ball: Located at (19, 25) (immediately east of statue switch).
 - Southeast Room Entrance: Open doorway at (13, 22..23) connecting column 12 to (14, 22..23). Column 13 is a solid wall at rows 24-27 (row 26 cannot be entered directly from column 12).
 - Route to Switch/Item: From column 12 -> (13, 22..23) doorway -> (14, 23) -> South to row 26 (14, 26) -> East along row 26 to (18..19, 26) -> (18, 25) switch / (19, 25) item ball.
-### B1F True Staircase Route (Verified Turn 19998)
+### B1F Staircase Location (Observed Turn 19991)
 - Descending Staircase to B1F: Located at (26..27, 17).
 - South Railing: Row 18 (26..27, 18) is a solid railing/barrier (cannot enter from south).
-- Entrance Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH stepping DOWN into (26..27, 17).
-- Route to Landing: From Column 12 corridor -> North along col 12 to Row 3 -> East along row 3 to (26, 3) -> South through doorway at (26, 4) down Column 26 to (26, 16) -> Step Down into (26, 17) [B1F STAIRS].
+- North Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH at row 16 stepping DOWN into (26..27, 17).
+- Access Route: Reached via 3F Right Balcony pit drop to 1F North Landing (routing under physical verification).
 
 <hr>
 
@@ -2381,9 +2381,9 @@
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
 - Entering Mansion from exterior resets all switches to default State A.
-- B1F Staircase Entrance: Located at (24..25, 13). Must be entered from the NORTH at row 12 (24..25, 12) stepping DOWN. The south side of the stairs at (24..25, 14) is a solid barrier/railing (empirically verified Turns 19921, 19949).
+- B1F Staircase Entrance: Located at (26..27, 17). Must be entered from the NORTH at row 16 (26..27, 16) stepping DOWN into (26..27, 17). The south side of the stairs at (26..27, 18) is a solid barrier/railing (empirically verified Turns 19921, 19949, 19998).
 - Southeast Alcove (26..27, 27): Solid dead-end corner; no door or passage (empirically verified Turn 19927).
-- To reach B1F stairs: Drop down 3F Right Balcony Pit at (19, 14) to land on 1F North Wing at (18, 14), then walk along row 12 to (24..25, 12) and descend into (24..25, 13).
+- To reach B1F stairs: Drop down 3F Right Balcony Pit at (19, 14) to land on 1F North Landing at (18, 14), then navigate to row 16 landing at (26..27, 16) and descend into (26..27, 17).
 
 <hr>
 

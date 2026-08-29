@@ -26,6 +26,6 @@
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
 - Entering Mansion from exterior resets all switches to default State A.
-- B1F Staircase Entrance: Located at (24..25, 13). Must be entered from the NORTH at row 12 (24..25, 12) stepping DOWN. The south side of the stairs at (24..25, 14) is a solid barrier/railing (empirically verified Turns 19921, 19949).
+- B1F Staircase Entrance: Located at (26..27, 17). Must be entered from the NORTH at row 16 (26..27, 16) stepping DOWN into (26..27, 17). The south side of the stairs at (26..27, 18) is a solid barrier/railing (empirically verified Turns 19921, 19949, 19998).
 - Southeast Alcove (26..27, 27): Solid dead-end corner; no door or passage (empirically verified Turn 19927).
-- To reach B1F stairs: Drop down 3F Right Balcony Pit at (19, 14) to land on 1F North Wing at (18, 14), then walk along row 12 to (24..25, 12) and descend into (24..25, 13).
+- To reach B1F stairs: Drop down 3F Right Balcony Pit at (19, 14) to land on 1F North Landing at (18, 14), then navigate to row 16 landing at (26..27, 16) and descend into (26..27, 17).
