@@ -2275,7 +2275,7 @@
 - Large Table/Desk Structure: (24..25, 8..9) [Solid 2x2 display, verified Turn 19076]
 - Entrance Doorway: Located at (26, 4) accessed from northern hallway row 3 (cols 12-26).
 - Traversal Corridor: Column 26 (rows 4-10) and Column 23 (rows 7-10).
-- Shutter Gate (South Wall): (24..25, 13) connects directly south to Enclosed South Wing. OPEN in State A, CLOSED in State B.
+- Southern Boundary: Solid horizontal wall across row 8 (cols 24-28). (Empirically verified Turns 19675-19678).
 
 ### Enclosed Eastern Sector (Accessible via 3F Balcony Drop or Open Gate (24..25, 13))
 - Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
