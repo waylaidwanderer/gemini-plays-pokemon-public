@@ -21,6 +21,7 @@
 - **(15, 6) going Right:** Spins and pushes the player to `(17, 6)`.
 - **(16, 3) going Right:** Spins and pushes the player to `(17, 4)`.
 - **(15, 5) going Right:** Spins and pushes the player to `(17, 6)`.
+- **(19, 3) going Down:** Spins and pushes the player to `(20, 5)`.
 
 ## Discovered Walkable Paths summary (Turn 65163)
 - **Identified Safe Paths on the Platform:**
