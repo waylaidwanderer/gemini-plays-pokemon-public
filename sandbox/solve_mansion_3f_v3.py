@@ -93,12 +93,11 @@ def walk_path_robust(coords):
     return "SUCCESS"
 
 def main():
-    print("solve_mansion_3f_v3: Starting robust execution from stairs...")
+    print("solve_mansion_3f_v3: Starting robust execution...")
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # Path from (22, 1) to (2, 6) on 3F West
-    # We must walk DOWN to exit the staircase recessed tile first!
+    # Path to (2, 6) on 3F West
     path_to_switch = [
         (22, 2), (22, 3), (21, 3), (20, 3), (20, 2), (20, 1),
         (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
@@ -111,6 +110,10 @@ def main():
         idx = path_to_switch.index(pos_tuple)
         path_to_switch = path_to_switch[idx+1:]
         print(f"Sliced path to start from index {idx+1}: {path_to_switch}")
+    elif pos_tuple == (4, 4):
+        # Alternate path directly avoiding (4, 5)
+        path_to_switch = [(3, 4), (3, 5), (3, 6), (2, 6)]
+        print(f"Custom path from (4, 4) avoiding (4, 5): {path_to_switch}")
         
     res = walk_path_robust(path_to_switch)
     if res == "WARPED":
@@ -131,9 +134,21 @@ def main():
     time.sleep(1.0)
     print("Switch toggled. Mansion should now be in State A!")
     
+    # Walk back to gate check to physically verify State A
+    path_to_gate_check = [
+        (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12)
+    ]
+    print("Verifying State A by walking to (2, 12)...")
+    res = walk_path_robust(path_to_gate_check)
+    if res == "SUCCESS":
+        print("PHYSICALLY CONFIRMED STATE A: REACHED (2, 12)!!!")
+    else:
+        print("STATE VERIFICATION FAILED: Gate at (2, 12) is CLOSED or blocked. Still in State B!")
+        return
+        
     # Walk back to pitfall on 3F East in confirmed State A:
-    # Walk directly to (26, 6) via Row 1:
     path_to_pitfall = [
+        (2, 11), (2, 10), (2, 9), (2, 8), (2, 7), (2, 6),
         (3, 6), (3, 5), (4, 5),
         (4, 4), (4, 3), (4, 2), (4, 1),
         (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
