@@ -2266,7 +2266,7 @@
 
 ### Northern Landing Sector (Accessible via 3F Right Balcony Drop at (19, 14))
 - Balcony Landing Tile (Arrival): 1F (18, 14) [Departed 3F at (19, 14), Verified Turn 19000]
-- Mewtwo Statue Switch: (15, 11) [Pedestal with switch facing south]
+- Pillar / Pedestal: (15, 8..11) [Decorative structure; no switch dialogue, verified Turns 19669-19672]
 - Research Journal: (18, 2) on table in northeast office
 - Corridor Passage to West/Central: (9, 10) open walkway connecting col 12 to western rooms (cols 0-8)
 - Corridors: Row 2-7 (cols 10-14, 16-21), Row 10 (cols 8-12), Col 12 (rows 2-11), Col 18-20 (rows 10-15)
