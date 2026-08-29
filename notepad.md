@@ -2268,7 +2268,7 @@
 - Balcony Landing Tile (Arrival): 1F (18, 14) [Departed 3F at (19, 14), Verified Turn 19000]
 - Pillar / Pedestal: (15, 8..11) [Decorative structure; no switch dialogue, verified Turns 19669-19672]
 - Research Journal: (18, 2) on table in northeast office
-- Corridor Passage to West/Central: (9, 10) open walkway connecting col 12 to western rooms (cols 0-8)
+- Corridor Passage to West/Central: Column 9 is a continuous solid wall from row 8 to row 16. West-east bypass is only at row 22.
 - Corridors: Row 2-7 (cols 10-27 north of row 8 wall), Row 10 (cols 10-24), Col 12 (rows 9-16, blocked at row 8), Col 18-24 (rows 9-16)
 
 ### Northeast Wing Chamber
