@@ -70,11 +70,10 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos: {pos}")
     
-    # We are at (12, 2) currently.
-    # Walk Up to Row 1, then Right along Row 1 to Column 26, then Down to Column 26 Row 3 (pitfall)
+    # We are starting from Row 1 Column 8.
     path = [
-        (12, 1),
-        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
+        (8, 1),
+        (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
         (26, 2), (26, 3)
     ]
     
