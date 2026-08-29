@@ -2302,6 +2302,7 @@
 - South Railing: Row 18 (26..27, 18) is a solid railing/barrier (cannot enter from south).
 - North Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH at row 16 stepping DOWN into (26..27, 17).
 - Access Route: Reached via 3F Right Balcony pit drop to 1F North Landing (routing under physical verification).
+- Item Ball at (1, 22): Full Restore [Collected Turn 20065]
 
 <hr>
 
