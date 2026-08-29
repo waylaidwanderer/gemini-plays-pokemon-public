@@ -2302,14 +2302,14 @@
 
 ### West / Central Sector
 - Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)]
-- Mewtwo Statue Switch: (2, 10..11) [Front interactable from (2, 12)]
 - Wall Divider at Row 9: Solid horizontal wall across (3..7, 9) dividing south hallway from northwest room.
 - Main South Corridor: (4..7, 10..27) red carpet hallway.
 - Connecting East-West Corridor: Row 11 (cols 4-12) connects main hall to column 12 thoroughfare.
 
 ### Northwest Room
 - Boundaries: cols 1-8, rows 1-7
-- Interior: Rubble, table at rows 4-5, statue at (2, 4..5).
+- Interior: Rubble at (1..3, 2..3), wooden table at (6..7, 4..5), doorway at (4, 6..7).
+- Mewtwo Statue Switch: Located at (2, 4..5) (base/switch at (2, 5), head at (2, 4)). Interactable from (2, 6) facing Up or (3, 5) facing Left. Verified Turn 19501.
 - Note: Thoroughfare along row 1 (cols 4-12).
 
 ### Stairs to 3F
