@@ -62,16 +62,19 @@ def move_safe_battle(step, target_x, target_y):
     return pos_after['x'] == target_x and pos_after['y'] == target_y
 
 def main():
-    print("go_to_1f_west: Starting...")
+    print("go_to_1f_west: Starting from (20, 3)...")
     
-    # We are at (20, 2)
-    if not move_safe_battle("Down", 20, 3): return
+    # 1. Walk Down to (20, 4)
     if not move_safe_battle("Down", 20, 4): return
+    
+    # 2. Walk Left to (19, 4)
     if not move_safe_battle("Left", 19, 4): return
+    
+    # 3. Walk Down to (19, 5) then (19, 6)
     if not move_safe_battle("Down", 19, 5): return
     if not move_safe_battle("Down", 19, 6): return
     
-    # Try to walk LEFT on Row 6 as far as possible to see if Column 18 is open!
+    # 4. Attempt to walk LEFT on Row 6 as far as possible to see if Column 18 is open!
     print("Attempting to walk LEFT along Row 6 to Column 5...")
     for x in range(18, 4, -1):
         if not move_safe_battle("Left", x, 6):
