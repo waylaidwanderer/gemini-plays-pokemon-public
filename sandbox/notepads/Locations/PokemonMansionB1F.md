@@ -67,3 +67,14 @@
   - Once on B1F East, walk UP Column 12 to Row 7 `(12, 7)`.
   - Walk horizontally on Row 4: `(18, 4) -> (19, 4) -> (20, 4) -> (21, 4)`. (This safely bypasses the walls on Column 18/19 Row 7, and the shutter gates on Row 5 Column 20/21!).
   - Step UP onto the B1F East stairs at `(22, 2)` from `(21, 2)` to warp UP to 1F East!
+
+
+## B1F East Layout & State A Verification (Verified Turn 65350-65404)
+- **B1F East Walled Room:** Columns 22–25 on Rows 1–3 form a small walled room. The only exit from this room is to the right (Columns 26 and 27 are open).
+- **Staircase Well:** Column 22, Rows 4–6 contains the staircase well.
+- **State A Warp Block:** In State A, standing on `(22, 2)` on B1F East and attempting to warp UP fails (nothing happens). This is because the destination shutter gate at `(22, 2)` on 1F East is CLOSED in State A.
+- **Horizontal Barriers:** 
+  - Row 7 on Columns 19, 20, 21 is a solid horizontal wall.
+  - Row 9 on Columns 1–7 is a solid horizontal wall.
+- **Mansion Switch Verification:**
+  - The green boxes at `(8, 10)`, `(8, 12)`, and `(8, 14)` on B1F West are purely decorative PLANTER boxes and have NO functional switches (no dialogue opens).
