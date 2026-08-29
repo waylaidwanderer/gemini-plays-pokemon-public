@@ -2283,7 +2283,7 @@
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
 - Corridors: Row 14 (cols 12-17), Row 16 (cols 18-25 solid wall divider), Row 20-21 (cols 12-23), Row 22 (cols 6-13 passage west of col 14 wall), Row 24-26 (cols 12-23), Column 10 (rows 3-22 bypass), Column 20 (rows 10-15), Column 25 (rows 14-23)
 ### B1F Staircase & Shutter Gate Connections
-- Descending Staircase to B1F: Located at (24..25, 13). Must be entered from the NORTH by walking DOWN from row 12 (at (24, 12) or (25, 12)). (Empirically verified Turn 19828).
+- Descending Staircase to B1F: Located at (24..25, 13). Must be entered from the NORTH by walking DOWN from row 12 (at (24, 12) or (25, 12)).
 - Access to Row 12 / B1F Stairs: Dropping from 3F Right Balcony Pit at (19, 14) lands on 1F Northern Landing Sector at (18, 14), providing direct northward access to row 12 and the B1F staircase!
 - Shutter Gate (North Row 13): (12..17, 13) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19705). Connects column 12 corridor directly south into Enclosed East Wing.
 - Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B] (Empirically verified Turn 19115).
