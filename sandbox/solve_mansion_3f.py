@@ -36,13 +36,14 @@ def move_safe_battle(step, target_x, target_y):
     time.sleep(0.4)
     pos_after = mgba.get_coordinates()
     
+    # Check if we fell through the pitfall (landing on 1F East inside the fenced room)
+    # Landing at 1F East (25, 6)
+    if target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6:
+        print("move_safe_battle: Successfully fell through the pitfall to 1F East (25, 6)!")
+        return True
+        
     attempts = 0
     while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 6:
-        # Check if we fell (which we don't expect until we reach the drop point!)
-        if target_x == 26 and target_y == 3 and pos_after['y'] == 4:
-            print("move_safe_battle: Fell through pitfall at (26, 3)!")
-            break
-            
         if pos_before == pos_after:
             print("move_safe_battle: Position did not change. Checking battle...")
             if is_in_battle():
@@ -63,18 +64,17 @@ def move_safe_battle(step, target_x, target_y):
         pos_after = mgba.get_coordinates()
         attempts += 1
         
-    return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 3 and pos_after['y'] == 4)
+    return (pos_after['x'] == target_x and pos_after['y'] == target_y) or (target_x == 26 and target_y == 6 and pos_after['x'] == 25 and pos_after['y'] == 6)
 
 def main():
-    print("solve_mansion_3f: Starting from (26, 5)...")
-    pos = mgba.get_coordinates()
+    print("solve_mansion_3f: Starting from (28, 5) on 2F East...")
     
-    # 1. Walk Up to (26, 3)
-    if not move_safe_battle("Up", 26, 4): return
-    if not move_safe_battle("Up", 26, 3): return
+    # 1. Walk UP to (28, 3)
+    if not move_safe_battle("Up", 28, 4): return
+    if not move_safe_battle("Up", 28, 3): return
     
-    # 2. Walk Left to (20, 3)
-    for x in range(25, 19, -1):
+    # 2. Walk Left Row 3 to Column 20 (20, 3)
+    for x in range(27, 19, -1):
         if not move_safe_battle("Left", x, 3): return
         
     # 3. Walk Down to (20, 4) -> Left to (19, 4) -> Down to (19, 6)
@@ -83,24 +83,40 @@ def main():
     if not move_safe_battle("Down", 19, 5): return
     if not move_safe_battle("Down", 19, 6): return
     
-    # 4. Walk Left Row 6 to (10, 6)
+    # 4. Walk Left Row 6 to Column 10 (10, 6)
     for x in range(18, 9, -1):
         if not move_safe_battle("Left", x, 6): return
         
-    # 5. Walk Down to (10, 11)
+    # 5. Walk Down Column 10 to Row 11 (10, 11)
     for y in range(7, 12):
         if not move_safe_battle("Down", 10, y): return
         
-    # 6. Walk Left Row 11 to Column 3 (3, 11)
-    for x in range(9, 2, -1):
+    # 6. Walk Left Row 11 to Column 7 (7, 11) on 2F West
+    for x in range(9, 6, -1):
         if not move_safe_battle("Left", x, 11): return
         
-    # 7. Walk Down to (3, 12) -> Left to (2, 12)
+    # 7. Step UP onto stairs at (7, 10) to warp UP to 3F West!
+    print("Stepping onto stairs to warp UP to 3F West...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    pos = mgba.get_coordinates()
+    print(f"Coordinates after warp: {pos}")
+    # On 3F West, we land at (7, 11) (or (7, 10))
+    if pos['y'] == 10:
+        mgba.press_buttons(["Down"])
+        time.sleep(0.5)
+        pos = mgba.get_coordinates()
+        
+    # 8. Walk Left Row 11 to Column 3 (3, 11)
+    for x in range(pos['x'] - 1, 2, -1):
+        if not move_safe_battle("Left", x, 11): return
+        
+    # 9. Walk Down to (3, 12) -> Left to (2, 12)
     if not move_safe_battle("Down", 3, 12): return
     if not move_safe_battle("Left", 2, 12): return
     
-    # 8. Face UP and toggle switch to State B
-    print("Facing UP...")
+    # 10. Face UP and toggle switch to State B
+    print("Facing UP towards Mewtwo switch...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
@@ -114,33 +130,41 @@ def main():
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     
-    # 9. Walk back to Column 10 Row 11
+    # 11. Walk back to Column 10 Row 11 on 3F West
     if not move_safe_battle("Right", 3, 12): return
     if not move_safe_battle("Up", 3, 11): return
     for x in range(4, 11):
         if not move_safe_battle("Right", x, 11): return
         
-    # 10. Walk Up Column 10 to Row 6 (10, 6)
+    # 12. Walk Up Column 10 to Row 6 (10, 6)
     for y in range(10, 5, -1):
         if not move_safe_battle("Up", 10, y): return
         
-    # 11. Walk Right Row 6 to Column 19 (19, 6)
+    # 13. Walk Right Row 6 to Column 19 (19, 6)
     for x in range(11, 20):
         if not move_safe_battle("Right", x, 6): return
         
-    # 12. Walk Up Column 19 to Row 4 (19, 4)
+    # 14. Walk Up Column 19 to Row 4 (19, 4)
     for y in [5, 4]:
         if not move_safe_battle("Up", 19, y): return
         
-    # 13. Walk Right to (20, 4) then UP to (20, 3)
+    # 15. Walk Right to (20, 4) then UP to (20, 3)
     if not move_safe_battle("Right", 20, 4): return
     if not move_safe_battle("Up", 20, 3): return
     
-    # 14. Walk Right Row 3 to Column 25 (25, 3)
-    for x in range(21, 26):
+    # 16. Walk Right Row 3 to Column 26 (26, 3)
+    for x in range(21, 27):
         if not move_safe_battle("Right", x, 3): return
         
-    print(f"Successfully reached (25, 3) in State B! Coordinates: {mgba.get_coordinates()}")
+    # 17. Walk Down Column 26 to Row 6 (26, 6) to drop down to 1F East!
+    if not move_safe_battle("Down", 26, 4): return
+    if not move_safe_battle("Down", 26, 5): return
+    
+    print("Stepping onto pitfall at (26, 6)...")
+    if move_safe_battle("Down", 26, 6):
+        print(f"Successfully dropped! Current pos: {mgba.get_coordinates()}")
+    else:
+        print("Failed to drop.")
 
 if __name__ == "__main__":
     main()
