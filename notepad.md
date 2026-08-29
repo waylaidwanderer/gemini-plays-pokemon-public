@@ -1036,25 +1036,6 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 
 <h1><code>Locations/Route16</code></h1>
 
-# Route 16 Gatehouse - Verified Layout & Coordinates
-
-## Overview
-Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling Road (West) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
-
-## First Floor (1F) - West Room
-- **West Doorway:** Located at Column 0. Connects to Route 16 overworld/Cycling Road. Requires a Bicycle to exit (the warp is disabled/solid if you do not possess a Bicycle in your bag).
-- **Stairs to 2F:** Located at `(12, 1)`. Walking UP onto this tile warps the player to the 2F room at `(12, 1)` (automatic step down to `(12, 2)`).
-- **Walkable Corridor:** Row 5 is completely open horizontally from Column 0 to Column 19. Rows 2-3 are blocked by solid walls at columns 1-9.
-
-## First Floor (1F) - East Room
-- **East Doorway:** Located on Row 7 at columns `(16, 7)` and `(17, 7)` (red carpet/doormat tiles). Walking DOWN (south) on these tiles warps the player directly onto the Celadon City overworld at `(10, 13)` (stepping down to `(10, 14)`).
-- **Stairs to 2F:** Located at `(12, 1)`.
-- **Walkable Corridor:** Row 5 is completely open horizontally. Rows 2-3 are blocked by solid counters.
-
-## Second Floor (2F)
-- **Stairs (To 1F West Room):** Located at `(1, 1)`. Walking UP onto this tile warps the player down to the 1F West Room at `(1, 1)`.
-- **Stairs (To 1F East Room):** Located at `(12, 1)`. Walking UP onto this tile warps the player down to the 1F East Room.
-- **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."
 
 
 <hr>
@@ -1131,70 +1112,6 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 
 <h1><code>Locations/SilphCo</code></h1>
 
-# Silph Co. HQ - Overworld Layout & Navigation Guide
-
-## Saffron Silph Co. 1F (Lobby) - VERIFIED (Turn 43909-43921)
-- **Entrance Doormat:** Located at `(10, 17)`. Warping south from `(10, 17)` exits to Saffron City overworld at `(18, 21)`.
-- **Receptionist Counter:** Solid grey counter running horizontally along Row 17 from Column 12 to column 25. Walks on Row 17 are blocked.
-- **Walkable Lobby Corridors:**
-  - Row 16 is fully open and walkable from Column 11 to Column 28, allowing players to walk East from the entrance to Saffron's eastern elevators.
-  - Column 28 is fully open vertically from Row 16 up to Row 8.
-  - Row 8 is open horizontally from Column 24 to Column 28.
-- **Elevator Doors:** Located at `(20, 0)`. The doors face SOUTH. Walk UP from `(20, 1)` to enter/interact with the elevator (access path on Row 3 is completely open, but Row 4 is blocked at Column 20 by a terminal desk, so bypass it via Column 21 on Row 3).
-
-## Saffron Silph Co. Upper Floors (2F - 5F) - PARTIALLY VERIFIED (Turn 43939-44076)
-- **Staircases:** Located at alternating Columns 24 and 26 on Row 0 (e.g. 5F stairs are at `(26, 0)`).
-- **Saffron Silph Co. 5F Layout:**
-  - Stairs: `(26, 0)`.
-  - Elevator: `(20, 0)`.
-  - Teleporter 1 (Center Room): `(23, 11)`, warps directly to Teleporter 2 (South-East Corridor) at `(27, 15)`.
-  - Teleporter 2 (South-East Corridor): `(27, 15)`, warps back to Teleporter 1 at `(23, 11)`.
-  - Central Room (Rows 6-12, Columns 21-28): Bounded on the north by Row 4/5 wall, on the left by Column 21 wall. Contains teleporter at `(23, 11)`.
-  - Left Compartment (Rows 11-16, Columns 1-6): Contains teleporter pad at `(3, 11)`, which warps to 3F teleporter `(3, 3)`.
-  - Card Key: Acquired on Turn 44655! Lying on the ground at `(21, 16)` in the southern corridor.
-  - Defeated NPCs: Scientist at `(24, 8)`, Rocket Grunt at `(20, 7)` (Card Key hint), and Rocket Grunt at `(8, 16)` are defeated.
-  - Pokémon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POKéMON evolve only when traded by link-cable."
-
-- **Card Key:** Verified present in Bag (under TM09) on Turn 44954. No longer missing.
-
-## Saffron Silph Co. 3F Layout & Traversal (Verified Turn 44357-44374)
-- **Elevator entrance:** `(20, 0)` (Warp 3)
-- **Teleporter 1 (Warp 5):** `(3, 3)` -> Warps to `SILPH_CO_5F` Warp 6 at `(11, 5)`.
-- **Teleporter 2 (Warp 6):** `(3, 15)` -> Warps to `SILPH_CO_5F` Warp 7 at `(3, 15)` (Left Compartment - Card Key floor!).
-- **Teleporter 3 (Warp 7):** `(27, 3)` -> Warps to `SILPH_CO_2F` Warp 4 at `(3, 3)`.
-- **Rocket Grunt:** Standing at `(18, 7)` facing RIGHT. Directly blocks Column 19 on Row 7. Must be defeated to clear the direct corridor to Row 16.
-- **On-Foot Traversal to Left Teleporter (Warp 6 at 3,15):**
-  - Walk out of the elevator on 3F at `(20, 1)`.
-  - Go left to Column 19 on Row 6.
-  - Go down Column 19 past the Rocket Grunt at `(18, 7)`.
-  - Continue down Column 19 to Row 16 `(19, 16)`.
-  - Walk left along Row 16 to Column 3 `(3, 16)`.
-  - Walk up Column 3 to `(3, 15)` to warp directly to Saffron Silph Co. 5F Left Compartment, landing directly next to the Card Key!
-
-## Saffron Silph Co. 3F Gate & Teleporter Discoveries (Verified Turn 44760-45021)
-- **Electronic Gate 1:** Located at `(17, 8)` on 3F. Unlocked with the Card Key on Turn 44760!
-- **Electronic Gate 2 (Saffron's Right Hallway):** Located at `(19, 4)` on 3F. Unlocked with the Card Key on Turn 45017!
-- **Electronic Gate 3 (Saffron's Left Room Entrance):** Located at `(11, 12)` on 3F. Unlocked with the Card Key on Turn 45021!
-- **Teleporter (Warp 8):** Located at `(11, 11)` behind the `(17, 8)` gate. Warps the player directly to Saffron Silph Co. 7F at `(5, 3)`!
-
-## Saffron Silph Co. 7F Layout & Traversal (Verified Turn 44766-44846)
-- **Warp Landing from 3F (11, 11):** Lands at `(5, 3)` on 7F inside the locked left compartment.
-- **NPCs:**
-  - Silph Co. employee at `(1, 5)` (facing right) gives LAPRAS (SELKIE) on Turn 44831.
-  - SARA is in the room.
-- **Warp to 11F:** Located at `(5, 7)` in the bottom-right corner of the left compartment. Can be walked to on foot by walking down Column 3 to `(3, 7)` (row 7) and then walking right to `(5, 7)`. Row 7 is completely open underneath the tables!
-- **Rival JACK:** Met and defeated at `(3, 4)` on Turn 44810.
-
-## Saffron Silph Co. 11F Layout & Traversal (Verified Turn 44847)
-- **Electronic Gate 4 (President's Office Inner Gate):** Located at `(6, 13)` on 11F. Unlocked with the Card Key on Turn 45117!
-- **Giovanni:** Located further up in the boardroom (beyond Row 10).
-- **President:** Located at `(6, 9)` (beyond Row 10).
-- **Warp Landing from 7F (5, 7):** Lands at `(3, 2)` inside a fenced vertical corridor on the left.
-- **Layout & Obstacles:**
-  - Column 4 is a vertical solid grey wall, except at Row 14, which is completely open and serves as the entrance to the President's Office (discovered Turn 45115).
-  - Column 3 is a vertical open fenced corridor leading down from the landing warp at `(3, 2)` to Row 9.
-  - Giovanni is located at `(7, 5)` inside the boardroom on the right.
-  - Saffron Silph Co. President is located at `(6, 9)` inside the boardroom.
 
 
 <hr>
@@ -1249,9 +1166,6 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 
 <h1><code>Locations/DiglettsCave</code></h1>
 
-# Locations/DiglettsCave
-
-Placeholder to prevent data loss.
 
 
 <hr>
@@ -1314,80 +1228,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Locations/SaffronGym</code></h1>
 
-# Saffron City Gym - 3x3 Warp Room Matrix & Navigation Guide
-
-## Overview
-Saffron City Gym features a 3x3 grid of rooms separated by solid walls, connected via teleporter warp pads in the corners.
-To reach Sabrina from the entrance room, follow the exact room-to-room warp transitions listed below. The simplified "alternating TR/BL" rule is a flawed generalization and does not apply to all rooms in Saffron Gym (as verified on Turns 45684-45741, specific BL/BR transitions are required).
-
-## Map Layout & Verified Room Warp Matrix
-
-### 1. Entrance Room (S Room, Bottom-Center)
-- **Starting Coordinates:** `(8, 17)`
-- **Gym Guide:** Located in this room near the statues.
-- **Accessible Warp Pad:** `(11, 15)` (BL)
-- **Transition:** Stepping on `(11, 15)` warps the player to `(11, 15)` inside the SE Room.
-
-### 2. SE Room (Bottom-Right, Room 1)
-- **Warp Pads:**
-  - TL: `(15, 11)`
-  - TR: `(19, 11)` - **Target Warp Pad**
-  - BL: `(15, 15)`
-  - BR: `(19, 15)`
-- **Trainer:** Psychic at `(17, 14)` (Defeated on Turn 45684. Had Slowpoke Lv33 and Slowbro Lv33).
-- **Transition:** Stepping on TR `(19, 11)` warps the player to `(19, 13)` inside the E Room.
-
-### 3. E Room (Middle-Right, Room 2)
-- **Warp Pads:**
-  - TL: `(15, 11)`
-  - TR: `(19, 11)`
-  - BL: `(15, 15)` - **Target Warp Pad**
-  - BR: `(19, 15)`
-- **Transition:** Stepping on BL `(15, 15)` warps the player to `(19, 3)` inside the NE Room.
-
-### 4. NE Room (Top-Right, Room 3)
-- **Arrival Position:** Landed on TR pad at `(19, 3)`.
-- **Warp Pads:**
-  - TL: `(15, 3)`
-  - TR: `(19, 3)`
-  - BL: `(15, 5)` - **Target Warp Pad**
-  - BR: `(19, 5)`
-- **Trainer:** Psychic at `(17, 2)` (Currently battling on Turn 45692. Has Kadabra Lv31).
-
-### 5. NW Room (Top-Left, Room 4)
-- **Arrival Position:** Landed on TL pad at `(1, 3)`.
-- **Warp Pads:**
-  - TL: `(1, 3)`
-  - TR: `(5, 3)`
-  - BL: `(1, 5)`
-  - BR: `(5, 5)` - **Target Warp Pad**
-- **Trainer:** Psychic at `(3, 3)` (Defeated on Turn 45715. Had Kadabra Lv31, Slowpoke Lv31, Mr. Mime Lv31, and Slowbro Lv38).
-- **Transition:** Stepping on BR `(5, 5)` warps the player to `(1, 11)` inside the W Room.
-
-### 6. W Room (Middle-Left, Room 5)
-- **Arrival Position:** Landed on BL pad at `(1, 11)`.
-- **Warp Pads:**
-  - TL: `(1, 9)`
-  - TR: `(5, 9)` - **Target Warp Pad**
-  - BL: `(1, 11)`
-  - BR: `(5, 11)`
-- **Trainer:** Channeler at `(3, 7)` (Defeated on Turn 45725. Had Haunter Lv38).
-- **Transition:** Stepping on TR `(5, 9)` warps the player to `(9, 5)` inside the N Room.
-
-### 7. N Room (North-Center, Room 6)
-- **Arrival Position:** Landed on BL pad at `(9, 5)`.
-- **Warp Pads:**
-  - TL: `(9, 3)`
-  - TR: `(11, 3)` - **Target Warp Pad**
-  - BL: `(9, 5)`
-  - BR: `(11, 5)`
-- **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
-
-### 8. Center Room (Sabrina's Room, Room 7)
-- **Arrival Position:** Landed on BR pad at `(11, 11)`.
-- **Warp Pads:**
-  - BR: `(11, 11)`
-- **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
 
 
 <hr>
@@ -1400,157 +1240,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 
 <h1><code>Scratchpad/Switch_Matrix</code></h1>
 
-# Pokémon Mansion - Verified Switch Matrix & Master Route
 
-## Overview
-- Global Mewtwo statue switches toggle electronic shutter gates between DEFAULT (State A) and TOGGLED (State B).
-- Floor transitions preserve the active state.
-- B1F West SOUTH is permanently separated from B1F West NORTH by a solid brick wall on Row 9.
-- 1F East is blocked from going up to 2F East in State B because the gate at `(15, 8)` is closed, and Column 14 is permanently blocked by rubble on Rows 12-16.
-- 3F West is separated from 3F East by a solid column of rubble at Column 14 on Rows 9-16. Column 10 is completely open on Rows 9-16, providing vertical transit.
-
----
-
-## Shutter Gate Configurations & Structural Barriers
-
-### Permanent Structural Barriers
-- **Column 22 on 2F East:** Solid permanent wall blocking horizontal passage below Row 3 (verified by bumping at (22, 11) on Turn 54878 and (22, 10) on Turn 54882).
-- **3F West Pitfall Trap at (5, 9):** Permanent structural hazard that warps/drops the player down to 2F West at (5, 10) (verified on Turn 55204). Avoid walking UP to Row 9 Column 5 on 3F West in both State A and State B!
-- **3F West Row 9 Wall (Columns 6-7):** Permanent solid vertical wall separating the southern hallway from northern rooms, blocking vertical traversal on these columns (verified on Turn 55219).
-- **1F West Row 9 Columns 3-9 Wall:** Permanent solid horizontal wall separating southern hallway (Row 10-14) from northern rooms (Row 5-8).
-
-### State A (Default)
-- **1F West Row 9 Gates:** CLOSED.
-- **2F West Row 9 Wall (Columns 2-9):** Permanent solid horizontal wall separating southern hallway from northern rooms.
-- **2F West Column 10 Row 8:** OPEN (verified on Turn 55967).
-- **2F Column 15 Row 6:** OPEN (verified on Turn 55941).
-- **B1F South-East gate at `(10, 11)`:** OPEN (allows crossing between West and East B1F SOUTH on Row 11).
-- **3F East gate at `(15, 11)` (stairs):** OPEN (as a DOWN warp to 2F East).
-- **1F East gate at `(15, 8)`:** OPEN.
-- **B1F North-Central gate at `(9, 5)`:** CLOSED.
-- **2F East Row 7 Gates:** OPEN (allows vertical crossing on Column 15).
-- **3F West Row 9 Gates:** CLOSED.
-- **3F West Row 11 Column 11:** OPEN.
-- **3F West Row 12 Gates:** OPEN.
-
-### State B (Toggled)
-- **1F West Row 9 Gates:** CLOSED.
-- **2F West Column 10 Row 8 Gate:** OPEN (verified on Turn 55967).
-- **B1F South-East gate at `(10, 11)`:** CLOSED.
-- **3F East gate at `(15, 11)` (stairs):** OPEN (as an UP warp to 3F East).
-- **1F East gate at `(15, 8)`:** CLOSED.
-- **B1F North-Central gate at `(9, 5)`:** OPEN (allows horizontal crossing from B1F East NORTH to B1F West NORTH!).
-- **2F East Row 7 Gates (Columns 14-17):** CLOSED (blocks vertical crossing on Column 15 on Row 7). We have empirically verified on foot that Columns 15 and 16 are CLOSED on Row 7 of 2F East in State B (Turns 55256, 55259).
-- **3F West Row 9 Gates:** OPEN.
-- **3F West Row 12 Gates:** CLOSED.
-
----
-
-## The Definitive Verified Master Route to B1F East & Secret Key
-1. **Enter Mansion in State A:**
-   - Walk from Cinnabar Island `(11, 12) -> (18, 12) -> (18, 5) -> (6, 5) -> (6, 4) -> (6, 3)` and step UP to enter 1F West (landing at `(5, 27)`).
-
-2. **Warp UP 1F West -> 2F West -> 3F West (State A):**
-   - Walk to `(5, 11)` -> `(8, 11)` -> `(8, 10)` -> `(5, 10)` -> step LEFT to warp to 2F West (landing at `(5, 11)`).
-   - Walk Right 2 steps to `(7, 11)` -> step UP onto stairs at `(7, 10)` to warp UP to 3F West (landing at `(7, 11)`).
-
-3. **Toggle 3F West Mewtwo Switch to State B:**
-   - On 3F West: walk to `(4, 11)` -> `(4, 13)` -> `(1, 13)` -> `(2, 13)` -> `(2, 12)`.
-   - Stand at `(2, 12)` facing UP towards the Mewtwo statue switch at `(2, 11)` and toggle it to State B! (Select YES).
-
-4. **Cross 3F West to 3F East & Drop to 1F East:**
-   - From `(11, 6)`, walk RIGHT to Column 21 `(21, 6)` -> LEFT 2 steps to `(19, 6)` -> UP to Row 3 `(19, 3)` (bypassing the Row 5/6 pitfalls) -> RIGHT along Row 3 to `(26, 3)` (walk UP Row 3 to get to Row 4).
-   - Step DOWN/RIGHT onto Column 26 to fall through the pit, landing on 1F East inside the fenced room at `(26, 4)`.
-
-5. **Warp DOWN to B1F East & Retrieve Secret Key:**
-   - On 1F East inside the fenced room, walk to `(21, 2)` -> step RIGHT onto stairs at `(22, 2)` and walk UP to warp down to B1F East (landing at `(22, 2)`).
-   - On B1F East, walk horizontally along Row 5 across Column 9 gate (now open in State B) directly to B1F West at `(1, 5)`.
-   - Stand at `(1, 5)` facing UP and retrieve the Secret Key at `(1, 4)`!
-   - Escape via walkout or foot exit (walking horizontally on B1F East, then warping UP to 1F East inside the gated room, walking UP Column 13 Row 5 which is open in State B, and exiting the mansion).
-
----
-
-## Verified Switch Mechanics & Spatial Constraints (Turn 58016)
-
-1. **Global Switch Persistence:**
-   - The global Mewtwo statue switch state (State A vs State B) persists across DIG warps, player blackouts, and complete mansion exits/re-entries. Once toggled to State B, the mansion remains in State B until explicitly toggled back to State A at any switch. (Verified Turn 57829-57840).
-
-2. **3F West Staircase Warp Trap at (7, 10):**
-   - The staircase at `(7, 10)` on 2F West warps the player up to `(7, 10)` on 3F West.
-   - However, `(7, 10)` on 3F West also acts as an immediate automatic DOWN warp back to 2F West at `(7, 11)` if entered from the overworld, or if the destination tile on 3F West is blocked.
-   - In State A, the shutter gate on 3F West at Row 10/9 is CLOSED, which blocks the warp landing tile at `(7, 10)` on 3F West. Because of this, warping UP in State A immediately triggers a collision pushback, sending the player back down to 2F West at `(7, 11)`.
-   - In State B, the shutter gate is OPEN, allowing the player to land safely on 3F West at `(7, 10)` and stay on the floor.
-
-3. **3F West Column 8 and Row 7 Layout & Bypass:**
-   - To navigate 3F West without stepping on the `(5, 10)` down-staircase warp, the player MUST walk on Row 11:
-     - From landing at `(7, 10)`, walk DOWN to `(7, 11)`.
-     - Walk LEFT along Row 11 to Column 1 `(1, 11)`.
-     - Walk UP Column 1 to Row 9 `(1, 9)`.
-     - This path is completely open in State B and safely circumvents the `(5, 10)` staircase warp and the `(8, 9)` rock block.
-
-## 🔍 Switch Interaction Mechanics (Corrected Turn 58507)
-- **3F West Switch Interaction Coordinates:**
-  - Stand at `(2, 12)` facing UP towards the statue at `(2, 11)`.
-  - Press `A` to interact.
-  - Choose YES to toggle the switch.
-  - The switch can ONLY be interacted with from the bottom (standing at `(2, 12)` facing UP). Interaction from the left side (standing at `(1, 11)` facing RIGHT) is completely non-interactive. It will select "NO" by default or ignore A presses, leaving the mansion stuck in State A.
-  - This direction-dependence is a hardcoded Gen 1 engine quirk of this specific switch.
-
-## The Verified State B 2F West to 3F East Bypass Route (Verified Turn 59714)
-The gate at `(6, 7)` on 2F West is CLOSED in State B, so we cannot walk UP Column 6 past Row 8.
-However, Column 5 on 2F West is completely OPEN vertically in State B (since there are no cabinets or shutter gates blocking Column 5 on Rows 3-11).
-Thus, the correct State B bypass route on 2F is:
-1. Walk from 2F West landing `(5, 11)` UP Column 5 directly to Row 3 `(5, 3)`.
-2. Walk RIGHT along Row 3 to Column 18 `(18, 3)` (this crosses horizontally from 2F West to 2F East, completely above all barriers).
-3. Walk DOWN Column 18 to Row 10 `(18, 10)`.
-4. Walk LEFT along Row 10 to `(15, 10)`.
-5. Step DOWN onto the stairs at `(15, 11)` on 2F East to warp UP to 3F East!
-6. On 3F East, land at `(16, 11)`. Since we are in State B, the Row 11 gate at `(14, 11)` is OPEN, allowing us to walk RIGHT along Row 11 to Column 20, then UP Column 20 to Row 3, RIGHT Row 3 to `(26, 3)` and drop through the pitfall to 1F East inside the fenced room!
-
-## Verified Parity Log (Turn-Stamped)
-
-## Decorative Mewtwo Statues (No Switches)
-- **2F East / 3F East Statues:** The Mewtwo statues at `(13, 9)` and `(13, 11)` on 2F East and 3F East have been empirically tested and are completely decorative. Pressing A on them does not open any switch dialogue and will not toggle the shutter gates. Do not waste turns attempting to interact with them.
-
-## Verified 3F West Switch Statue Interaction Coordinates (Turn 60244)
-- **Switch Statue Coordinate:** `(2, 11)` on 3F West.
-- **Player Standing Position:** `(2, 12)` facing UP.
-- **Interaction:** Press A from `(2, 12)` facing UP to toggle.
-- **Rubble block at (2, 11):** The statue pedestal at `(2, 11)` behaves as a solid block/rubble obstacle from all other sides.
-
-## 🧪 B1F West SOUTH Empirical Verification (Turn 61288)
-- Systematic testing of the Mewtwo statues on B1F West SOUTH has proven that they are **purely decorative and do NOT contain switches**:
-  - Statue at `(8, 10)`: Tested and verified decorative (Turn 61259).
-  - Statue at `(3, 10)`: Tested and verified decorative (Turn 61262).
-  - Statue at `(3, 12)`: Tested and verified decorative (Turn 61279, false positive on Turn 61264 cleared as wild battle desync).
-  - Statues at `(3, 14)`, `(8, 12)`, `(8, 14)`: Tested and verified decorative (Turn 61280, false positive on `(3, 14)` cleared as battle desync).
-- **Conclusion:** B1F West SOUTH contains a switch at (8, 10).
-
-## 🔍 CRITICAL DISCOVERY: Mewtwo Switch Dialogue Termination (Turn 62492)
-- **The Dialogue Termination Flaw:** Toggling a Mewtwo switch in Pokémon Red/Blue requires exactly **4 A-presses** (or 3 A-presses plus a final A/B to dismiss) to fully complete the dialogue and update the gate state:
-  1. 1st A: Interact with the statue at `(2, 11)` -> opens "A secret switch!"
-  2. 2nd A: Advance dialogue -> opens "Press it? Yes/No" prompt.
-  3. 3rd A: Select YES -> triggers switch and opens "Who wouldn't?" (or "Toggled!" or similar).
-  4. 4th A: Dismiss the final text box -> **The gates will only physically open/close after this final box is dismissed and the player is back in the overworld!**
-- If you only press A 3 times, the dialogue box remains on screen showing "Who wouldn't?", blocking all movement and keeping the gates closed!
-
-## 🔍 Verified 3F West Switch Dialogue & Gate Openness Mechanics (Turn 64785)
-- **Dialogue Sequence to Toggle Switch exactly ONCE to State B:**
-  - Stand at `(2, 12)` facing UP towards the statue at `(2, 11)`.
-  - Press exactly **4 A-presses** with normal delays:
-    1. 1st A: Opens dialogue box showing `A secret switch!`.
-    2. 2nd A: Advances to `Who would press it?` YES/NO (YES is selected by default).
-    3. 3rd A: Selects YES (Mansion toggles to State B!). Advances to `Who wouldn't?`.
-    4. 4th A: Closes the dialogue box completely, returning player to the overworld in State B!
-  - **WARNING:** Do NOT press A a 5th time, as that immediately re-interacts with the statue, re-opening the dialogue box and leaving it active.
-  - **WARNING:** If a script starts while a dialogue box is active, the battle handler may mistake the YES/NO prompt for a battle menu, press "Down, Right, A" (to select RUN), which instead selects "NO" and toggles the Mansion back to State A! Always ensure the overworld is completely active and clean before executing movement scripts.
-
-- **Gate Column 1 Row 9 is the OPEN gate in State B:**
-  - In State B, the Row 9 gate on **Column 1** `(1, 9)` is completely open and walkable!
-  - Column 2 is blocked by the solid Mewtwo statue head graphic at `(2, 10)` and base at `(2, 11)`.
-  - Column 3 is closed in State B (the gate on Column 3 Row 9 does not open in State B).
-  - Therefore, the correct path to cross 3F West to Row 6 in State B is:
-    `From (2, 12), walk Left to (1, 12), then Up Column 1 all the way to (1, 6) (passing through the open gate at (1, 9)!)`.
 
 <hr>
 
@@ -1562,278 +1252,42 @@ Thus, the correct State B bypass route on 2F is:
 
 <h1><code>Locations/PokemonMansionB1F</code></h1>
 
-# Pok�mon Mansion B1F - Map & Navigation Log
-
-## True Landing Coordinates
-- **Balcony Drop Landing:** Landing coordinate is `(19, 16)` in B1F East.
-  - Verification: Dropping over the 3F balcony at `(19, 18)` or `(20, 18)` lands us in B1F East. (Note: previous notes containing `(9, 16)` were a typo).
-
-## Key Targets
-- **SECRET KEY:** Located in the northwest room of B1F at `(1, 4)`.
-  - Status: Open and accessible only in State B!
-  - Retrieval Method: Stand at `(1, 5)` facing UP and press `A` to retrieve it.
-  
-
-## Switch & Shutter Gate Configuration
-
-### B1F West vs B1F East Separation
-- B1F is divided into B1F West and B1F East by a solid vertical wall on Column 9 (except at Row 11 in State A, and Row 5/6 in State B).
-- B1F South is divided from B1F North on the West side by a solid permanent brick wall on Row 9 (Columns 1-8 are blocked).
-
-### DEFAULT STATE (State A)
-- **Row 11 Gate at `(10, 11)`:** **OPEN** (Allows horizontal crossing from B1F West to B1F East!).
-- **Column 10 Vertical Path:** **OPEN** (Allows vertical traversal between Row 11 and Row 5 on the East side).
-- **Row 5 Shutter Gate at `(9, 5)`:** **CLOSED** (Blocks horizontal crossing on the North side).
-- **Secret Key Room:** **CLOSED**.
-
-### TOGGLED STATE (State B)
-- **Row 11 Gate at `(10, 11)`:** **CLOSED** (B1F East is cut off from B1F West on the South side).
-- **Column 10 Vertical Path:** **CLOSED** (Blocked at Row 8).
-- **Row 5 Shutter Gate at `(9, 5)`:** **OPEN** (Allows horizontal crossing on the North side from B1F East to B1F West!).
-- **Secret Key Room at `(1, 4)`:** **OPEN**.
-
----
-
-## Switch Details (Mansion Switch State B is toggled from 3F West)
-- Mewtwo Statue Switch at (8, 10): Standing at (8, 11) facing UP and pressing A toggles the global Mansion state! B1F West SOUTH does indeed contain a functional switch at (8, 10). (Previous notes claiming B1F has no switches were false!).
-- However, we do not need to toggle any switch on B1F to retrieve the Secret Key! The entire mansion is solved by toggling the Mewtwo statue switch at `(2, 11)` on 3F West to State B, dropping down the 3F East pitfall at `(26, 6)` to 1F East `(25, 6)`, warping down to B1F East `(22, 2)`, and walking straight across Row 5 through the open Column 9 gate directly to the Secret Key room on B1F West.
-
-## Verified Empirical Discoveries & Proof of Work
-- **Permanent Column 1 Wall (Turn 57865):** Column 1 Row 9 has been physically verified as a solid, impassable permanent structural wall. The player cannot walk Up Column 1 past Row 9 in any state (A or B).
-- **Row 5 Column 20-21 Solid Barrier (Turn 57908):** Row 5 on Columns 20 and 21 contains a solid permanent horizontal wall block. Direct horizontal crossing from East to West on Row 5 is blocked at Columns 20 and 21. Crossing must be done by walking Left on Row 4 to Column 19, then walking Down to Row 5, and then walking Left directly through the open Column 9 gate at `(9, 5)`.
-- **B1F East Mewtwo Statues (Turn 57381):** Statues at `(16, 10)` and `(18, 10)` have been physically interacted with and verified to have no switches. They are purely decorative.
-- **Column 9 Row 5 Gate (Turn 57908):** Gate at `(9, 5)` is OPEN in State B and CLOSED in State A. Allows horizontal crossing between B1F East and B1F West North.
-
-## Switch Coordinates & Verified B1F Info (Turn 61084)
-- The entire mansion is solved by toggling the Mewtwo switch at `(2, 10)` or `(1, 12)` on 3F West to State B!
-- Once in State B, the B1F East NORTH gate at `(9, 5)` is OPEN, allowing us to walk directly across Row 5 from B1F East `(22, 2)` to the Secret Key room at `(1, 4)`.
-
-
-## B1F West SOUTH Switch Discovery (Verified Turn 64327)
-- **Mewtwo Statue Switch at (8, 10):** Standing at `(8, 11)` facing UP and pressing `A` toggles the global Mansion state! B1F West SOUTH does indeed contain a functional switch at `(8, 10)`. (Previous notes claiming B1F has no switches were false!).
-- **State A Gate Behavior inside B1F West SOUTH:**
-  - Shutter gates blocking Column 4, 5, 6, 7 on Rows 10-13 are CLOSED in State A.
-  - The staircase at `(5, 10)` on B1F West SOUTH is blocked by the Row 10 closed shutter gate in State A.
-- **State B Gate Behavior inside B1F West SOUTH:**
-  - Shutter gates blocking Column 4, 5, 6, 7 on Rows 10-13 are OPEN in State B!
-  - However, the staircase at `(5, 10)` cannot warp the player to 1F West (it is blocked at Row 9 Column 5 by a closed shutter gate in State B).
-- **Master B1F SOUTH Crossing Route (State A):**
-  - Walk horizontally on Row 11 from West to East: `(8, 11) -> (9, 11) -> (10, 11) -> (11, 11) -> (12, 11)`. The gate at `(10, 11)` is OPEN in State A!
-  - Once on B1F East, walk UP Column 12 to Row 7 `(12, 7)`.
-  - Walk horizontally on Row 4: `(18, 4) -> (19, 4) -> (20, 4) -> (21, 4)`. (This safely bypasses the walls on Column 18/19 Row 7, and the shutter gates on Row 5 Column 20/21!).
-  - Step UP onto the B1F East stairs at `(22, 2)` from `(21, 2)` to warp UP to 1F East!
-
-
-## B1F East Layout & State A Verification (Verified Turn 65350-65404)
-- **B1F East Walled Room:** Columns 22–25 on Rows 1–3 form a small walled room. The only exit from this room is to the right (Columns 26 and 27 are open).
-- **Staircase Well:** Column 22, Rows 4–6 contains the staircase well.
-- **State A Warp Block:** In State A, standing on `(22, 2)` on B1F East and attempting to warp UP fails (nothing happens). This is because the destination shutter gate at `(22, 2)` on 1F East is CLOSED in State A.
-- **Horizontal Barriers:** 
-  - Row 7 on Columns 19, 20, 21 is a solid horizontal wall.
-  - Row 9 on Columns 1–7 is a solid horizontal wall.
-- **Mansion Switch Verification:**
-  - The green boxes at `(8, 10)`, `(8, 12)`, and `(8, 14)` on B1F West are purely decorative PLANTER boxes and have NO functional switches (no dialogue opens).
 
 
 <hr>
 
 <h1><code>Locations/PokemonMansion1F</code></h1>
 
-# Pokémon Mansion 1F - Map & Navigation Log
 
-## Layout & Spatial Boundaries (Verified State A)
-- **Entrance Warp:** Entering from Cinnabar Island at `(6, 3)` warps the player to `(5, 27)` inside 1F West. Stepping DOWN on `(5, 27)` inside 1F West exits the Mansion back to Cinnabar Island at `(6, 3)`.
-- **North-South Shutter Gates (Row 8/9):** Completely CLOSED across Columns 5, 6, 7 in State A on 1F West, preventing vertical traversal from Row 7 to Row 8 on the West side.
-- **Solid Horizontal Wall (Row 9, Columns 3-9):** A solid permanent horizontal wall separates the southern hallway (Row 10-14) from the northern hallway (Row 5-8) on 1F West. This blocks vertical traversal on Columns 3, 4, 5, 6, 7, 8, and 9, meaning vertical crossing can only occur on Columns 10, 11, 12, or 13, which are completely open floor.
-- **Solid Separation Wall (Column 18):** Column 18 is a solid permanent wall separating 1F West from 1F East, blocking all horizontal traversal between the two halves of the floor.
-- **Warp to 2F West:** The staircase at `(5, 10)` on 1F West warps the player UP to 2F West. This staircase is accessed from the South side (standing at `(6, 10)` and stepping LEFT onto `(5, 10)`).
-- **Horizontal Openness (Row 7):** Row 7 on 1F West is completely open horizontally from Column 5 to Column 17.
-## State-Dependent Spatial Barriers (Verified)
-- **Row 5 Column 21 Shutter Gate (1F East):** CLOSED in State A, OPEN in State B (verified Turns 56673-56699).
-- **B1F East Stairs Gate at (22, 2) (1F East):** CLOSED in State A, OPEN in State B (verified Turn 56693).
 
 <hr>
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
 
-# Safari Zone - Complete Golden Route to Gold Teeth
 
-## Gold Teeth Location
-- **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
-- **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 26)` (directly below the teeth), face **UP** (north), and press **A**!
-
-## Step-by-Step Walkable Golden Route (Start to Teeth)
-
-### Phase 1: Safari Zone Center to Area 1 (East)
-1. Start at Gatehouse entrance `(15, 25)`.
-2. Walk UP 3 steps to `(15, 22)`.
-3. Walk RIGHT 13 steps along Row 22 to `(28, 22)`.
-4. Walk UP 12 steps along Column 28 to `(28, 10)`.
-5. Walk RIGHT 2 steps to transition to Area 1 (East) at `(30, 10)`.
-
-### Phase 2: Area 1 (East) to Area 2 (North)
-1. Emerge in Area 1 (East) at `(0, 22)`.
-2. Walk DOWN 1 step to `(0, 23)` then `(0, 24)`.
-3. Walk RIGHT 20 steps to `(20, 24)`.
-4. Walk UP 2 steps to `(20, 22)`.
-5. Walk UP 2 steps to climb plateau stairs to `(20, 20)`.
-6. Walk LEFT 8 steps on the plateau to `(12, 20)`.
-7. Walk DOWN 2 steps to descend stairs to `(12, 22)`.
-8. Walk LEFT 4 steps to Column 8 at `(8, 22)`.
-9. Walk UP 14 steps along Column 8 to `(8, 8)`.
-10. Walk RIGHT 4 steps to climb northern plateau stairs at `(12, 8)` to `(12, 6)`.
-11. Walk RIGHT 5 steps on plateau to `(17, 6)`.
-12. Walk DOWN 2 steps to descend plateau stairs to `(17, 8)`.
-13. Walk RIGHT 3 steps to Column 20 at `(20, 8)`.
-14. Walk UP 5 steps along Column 20 to Row 3 at `(20, 3)`.
-15. Walk LEFT 13 steps along Row 3 to `(7, 3)`.
-16. Walk DOWN 2 steps to `(7, 5)`.
-17. Walk LEFT 7 steps to transition to Area 2 (North) at `(0, 5)`.
-
-### Phase 3: Area 2 (North) to Area 3 (West)
-1. Emerge in Area 2 (North) at `(39, 31)`.
-2. Walk LEFT 17 steps along Row 31 to Column 22 at `(22, 31)`.
-3. Walk UP 9 steps along Column 22 (climbing Western Southern Plateau stairs at `(22, 23)`) to `(22, 22)`.
-4. Walk LEFT 6 steps on the plateau to `(16, 22)`.
-5. Walk DOWN 6 steps (descending stairs at `(16, 27)`) to grass at `(16, 28)`.
-6. Walk LEFT 4 steps to `(12, 28)`.
-7. Walk DOWN 2 steps to `(12, 30)` (to bypass the pond!).
-8. Walk LEFT 4 steps to `(8, 30)`.
-9. Walk DOWN 5 steps through the statue gap at `(8, 34)` to `(8, 35)`.
-10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
-
-### Phase 4: Area 3 (West) to Gold Teeth & Back
-1. Emerge in Area 3 (West) at `(26, 0)`.
-2. Walk DOWN 2 steps to `(26, 2)`.
-3. Walk LEFT 1 step to `(25, 2)`.
-4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
-5. Walk LEFT 4 steps to `(21, 18)`.
-6. Walk DOWN 8 steps along Column 21 to `(21, 26)` (Row 26, the southern corridor).
-7. Walk LEFT 2 steps to Column 19 at `(19, 26)`.
-8. Stand at `(19, 26)` facing **UP** (north).
-9. Press **A** to pick up the Gold Teeth!
 
 <hr>
 
 <h1><code>Locations/ViridianGym</code></h1>
 
-# Viridian Gym Navigation & Mapping Log
 
-## Gym Status
-- Locked! We only have 6 Badges, so the Gym is closed. We must defeat Blaine first.
-- Goal: Defeat Gym Leader Giovanni for the Earth Badge (8th Badge).
-
-## Gym Layout & Topography (Verified Ground Truth)
-- Unverified: Prior documentation of the gym layout was actually hallucinated while the player was on Route 1. The topography of the Gym is yet to be explored.
-
-## Navigation Route to Giovanni (Top-Right/Left)
-- To be determined once we enter the Gym.
 
 <hr>
 
 <h1><code>Scratchpad/Map_Verification_Protocol</code></h1>
 
-# Map Verification Protocol (MVP)
 
-## Protocol Objectives
-To prevent cognitive loops, spatial hallucinations, and multi-thousand-turn coordinate desyncs across map transitions.
-
-## Strict Procedures on Map Transition
-Whenever a `SYSTEM NOTE: Map Transition Detected` is received, or when entering a new area, the player MUST execute the following verification steps:
-
-1. **Town Map Verification:**
-   - Immediately open the in-game Town Map via the Start Menu (Bag/Items).
-   - Visually confirm the blinking player icon on the global map and note the verbatim location name displayed at the top-left (e.g., "VIRIDIAN CITY", "ROUTE 1").
-
-2. **Visual Asset Audit:**
-   - Do not rely on speculative memory. Inspect the surrounding overworld tiles to find distinctive, unique assets:
-     - Check if wild overworld battles can occur (Gyms vs. Grass).
-     - Locate distinctive building styles (Pokémon Center, Poké Mart, specific roofs/doors).
-     - Locate unique, stationary NPCs (such as the Gym Guide or gym statues) and read signposts.
-
-3. **Coordinate & Boundary Checks:**
-   - Move 1–2 steps and verify that coordinates change exactly as expected.
-   - Cross-reference coordinates with the official layout to confirm that no coordinate shifts or offsets exist.
-   - If a movement fails (bumps), treat the target tile as a solid wall/obstacle and update map data.
-
-4. **Hypothesis-First Mindset:**
-   - Every prior note, layout summary, or route plan is an unverified hypothesis until proven by in-game empirical evidence on the current turn.
 
 <hr>
 
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
-# Pokémon Mansion 2F - Map & Navigation Log
 
-## Layout & Spatial Boundaries (Verified)
-- **Column 5 vertical corridor:** Column 5 on 2F West is completely open and walkable vertically on Rows 3-11 in State B, allowing vertical passage above the barriers.
-- **Staircase UP to 3F East:** The stairs at `(15, 11)` warp the player UP to 3F East (landing at `(16, 11)`).
-- **Staircase DOWN to 1F West:** The staircase at `(5, 10)` warps the player DOWN to 1F West.
-
-## 2F East - State B Spatial Boundaries & Obstacles (Verified Turns 66540-66553)
-- **Column 13 Row 11 Block:** Blocked by a solid permanent Mewtwo statue (Turn 66540).
-- **Column 13 Row 10 Block:** Blocked by a solid vertical partition wall.
-- **Column 13 Row 7-12 Wall:** Column 13 acts as a continuous solid vertical wall/divider separating 2F West from 2F East on these rows.
-- **Row 7 Barrier (State B):** Completely blocked from Column 14 to Column 21 in State B:
-  - Columns 14-17: Closed electronic shutter gates.
-  - Columns 18-21: Solid permanent gold walls/barriers.
-  - Therefore, horizontal/vertical crossing of Row 7 on 2F East is impossible in State B.
-- **Row 13 Barrier:** Row 13 is a solid permanent horizontal wall separating Row 14/15 from Row 12 and above on 2F East.
-- **Row 15 horizontal crossing:** Row 15 is completely open and walkable horizontally from Column 10 to Column 23, providing a critical bypass route around the Row 7 and Column 13/22 barriers!
-
-## 2F West - State B Column 10 Rubble Blockage (Verified Turns 66597-66599)
-- **(10, 11) Block:** B1F South-East gate is CLOSED in State B, making Column 10 impassable horizontally on Row 11 from (9, 11) (Turn 66597).
-- **(10, 10) Block:** Blocked horizontally by solid rubble/debris on Column 10 from (9, 10) (Turn 66598).
-- **(10, 9) Block:** Blocked horizontally by solid rubble/debris on Column 10 from (9, 9) (Turn 66599).
-- **Conclusion:** Horizontal crossing from Column 9 to Column 10 on 2F West is completely blocked on Rows 9, 10, and 11 in State B!
-
-## The Ultimate State B 2F West to 3F East Bypass Route (Verified Turn 66609)
-Because Row 7 is completely blocked by gates/walls across all Columns 14-21 in State B, we cannot walk down Column 18 past Row 7.
-However, Column 14 is completely open and walkable vertically from Row 3 to Row 10 on 2F East!
-This gives us the perfect master bypass route around the Row 7 blockage:
-1. From `(9, 11)` on 2F West, walk Left to Column 5 Row 11 `(5, 11)`.
-2. Walk Down Column 5 directly to Row 15 `(5, 15)` (bypassing the Row 12-13 rubble on Columns 6-10).
-3. Walk Right on Row 15 directly to Column 12 `(12, 15)`.
-4. Walk Up Column 12 directly to Row 3 `(12, 3)`.
-5. Walk Right on Row 3 directly to Column 14 `(14, 3)`.
-6. Walk Down Column 14 directly to Row 10 `(14, 10)`.
-7. Walk Right on Row 10 to Column 15 `(15, 10)`.
-8. Step Down onto the stairs at `(15, 11)` to warp UP directly to 3F East!
-- WARNING: This route is NOT completely open. Column 8 Row 15 is blocked by solid, impassable rubble on 2F West (empirically verified by bumping at (7, 15) on Turn 66629). Thus, direct horizontal bypass on Row 15 from Column 7 to Column 12 is blocked.
 
 <hr>
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
 
-# Pokémon Mansion 3F - Map & Navigation Log
 
-## Layout & Spatial Boundaries (Verified)
-- **Column 10 Vertical Corridor:** Column 10 is completely open and walkable on Rows 9-16 in both State A and State B, allowing vertical passage between the northern and southern halves of 3F West.
-- **Rubble block at (2, 11):** The Mewtwo statue pedestal at `(2, 11)` behaves as a solid block.
-- **Rubble block at (23, 7):** Column 23 Row 7 contains solid rubble and is completely impassable.
-- **Blocked tiles at (28, 4):** On 3F East, `(28, 4)` is blocked on Down and Left.
-- **Pitfall Trap at (26, 6):** The pitfall trap on 3F East is located at `(26, 6)`. Walking onto `(26, 6)` drops the player down to 1F East at `(25, 6)`.
-- **Row 3 horizontal crossing:** Row 3 is open horizontally from Column 20 to Column 26.
-
-## Turn 66391 - Empirical Boundary Verification
-- Standing at `(9, 11)` on 3F West in State B:
-  - `(9, 10)` (UP) is OPEN.
-  - `(9, 12)` (DOWN) is BLOCKED (solid wall/rubble).
-  - `(8, 11)` (LEFT) is OPEN.
-  - `(10, 11)` (RIGHT) is BLOCKED (the Row 11/12 shutter gate is closed in State B!).
-- Therefore, direct horizontal crossing to 3F East on Row 11 is blocked in State B. We must find another way to cross Column 10/11.
-- **Solid Wall at Column 4 Row 8:** Column 4 Row 8 has been physically verified to be a solid permanent vertical wall separating Columns 1-3 from Column 5 (Turn 66401).
-- **Gate at (2, 12) is CLOSED in State B:** Standing at `(2, 13)` and trying to walk UP to `(2, 12)` fails in State B (Turn 66415).
-
-## Southwest Pocket of 3F West - Physical Boundaries (Verified Turn 66512)
-- **Column 1 Row 9 Shutter Gate:** Closed in State A (visible as red-and-black gate), Open in State B (walkable, displays background rubble graphic).
-- **Column 2 Row 12 Shutter Gate:** Open in State A (walkable, displays background rubble graphic), Closed in State B (blocked, displays rubble graphic).
-- **(6, 7) Rubble Block:** Solid rubble graphic at `(6, 7)` is completely impassable on Row 7.
-- **(7, 12) Boundary:** Blocked on DOWN (impassable wall/rubble).
-- **(8, 12) Boundary:** Blocked on RIGHT (impassable wall/rubble).
-- **(10, 10) Boundary:** Blocked on RIGHT (solid column 11 wall).
-- **(10, 9) through (10, 13) Rubble Column:** Column 10 is completely blocked by solid, impassable rubble on Rows 9 to 13, preventing direct vertical transit on Column 10 and horizontal transit between Column 9 and 10 on these rows.
-- **(1, 12) Walkability:** Blocked on LEFT (wall), Blocked on RIGHT (closed gate/rubble at (2, 12) in State B). Open on UP (to (1, 11)) and Open on DOWN (to (1, 13)).
-- **(1, 13) through (5, 13) Row 13 Corridor:** Completely open and walkable in both states, providing an essential bypass route to reach the southwesternmost corner of the floor.
 
 <hr>
