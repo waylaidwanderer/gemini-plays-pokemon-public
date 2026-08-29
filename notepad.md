@@ -2283,9 +2283,9 @@
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
 - Corridors: Row 14 (cols 12-17), Row 16 (cols 18-25 solid wall divider), Row 20-21 (cols 12-23), Row 22 (cols 6-13 passage west of col 14 wall), Row 24-26 (cols 12-23), Column 10 (rows 3-22 bypass), Column 20 (rows 10-15), Column 25 (rows 14-23)
 ### B1F Staircase & Shutter Gate Connections
-- Staircase to B1F: Located at (25, 14) inside the eastern wing.
-- Shutter Gate (Northeast): (24..25, 13) [OPEN in State A, CLOSED in State B]. Connects rows 10-12 with row 14.
-- Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B].
+- Shutter Gate (North Row 13): (12..17, 13) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19705). Connects column 12 corridor directly south into Enclosed East Wing.
+- Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B] (Empirically verified Turn 19115).
+- Column 11 Barrier: Continuous solid vertical wall from row 11 to row 27 blocking eastward passage from Central Hall. Open bypass at row 10 (cols 8-12).
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 
 <hr>
