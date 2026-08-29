@@ -2325,6 +2325,8 @@
 - Doorway connections: (26..27, 4), (24..25, 13)
 - Corridors: Row 1 (cols 4-27), Row 3 (cols 10-27), Row 16 (cols 21-28), Col 26 (rows 4-12, 14-26)
 
+- Shutter Barrier (North-Central Row 7): (16..17, 7) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19581).
+
 ## State & Switch Mechanics
 - State A (Default): Doorway (26..27, 4) and (4, 7) OPEN; Shutters at (21, 17) and (26..27, 27) CLOSED.
 - State B (Toggled): Shutter at (21, 17) OPEN; Shutter at (26..27, 27) CLOSED/Solid; 1F gate at (24..25, 13) CLOSED.
