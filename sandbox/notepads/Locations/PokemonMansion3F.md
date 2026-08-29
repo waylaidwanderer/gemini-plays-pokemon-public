@@ -11,3 +11,18 @@
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
 - **Row 3 Horizontal Opening:** Row 3 is completely open across Column 22, allowing horizontal passage between 3F West/Middle and the northeastern Scientist room.
 - **The Pitfall Trap location:** To be systematically mapped.
+
+## 3F East to West State B Loop Bypass (Verified Turn 66843)
+- In State B, 3F East is divided into two separate sections:
+  - Eastern part (Columns 24-28, stairs to 2F East)
+  - Western/Central part (Columns 15-21, balcony at 19, 18, and balcony door at 16, 17).
+  - They are separated by rubble/walls on Column 21/22/23 from Row 7 to Row 13.
+  - Row 16 is open horizontally from Column 24 to Column 19, but Column 18 has a vertical wall on Row 16.
+  - Column 19 is blocked vertically at Row 15 by rubble.
+- To bypass this separation and reach the balcony door at (16, 17) from 3F East stairs at (22, 2):
+  1. Walk to Row 3 (which is completely open horizontally).
+  2. Walk Left along Row 3 to Column 10 on 3F West.
+  3. Walk Down Column 10 (completely open on Rows 9-16) to Row 16.
+  4. Walk Right along Row 16 to Column 16.
+  5. Walk Down Column 16 to (16, 17) (open balcony door) and (16, 18) (balcony grass).
+  6. Walk Right to (19, 18) (balcony grass) and walk Down to jump the railing and fall to B1F!
