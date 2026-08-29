@@ -93,28 +93,60 @@ def walk_path_robust(coords):
     return "SUCCESS"
 
 def main():
-    print("solve_mansion_3f_v3: Slicing path from current (15, 1)...")
-    pos = mgba.get_coordinates()
-    print(f"Current pos: {pos}")
+    print("solve_mansion_3f_v3: Starting direct toggle and drop sequence from current...")
     
-    # Path from (15, 1) to (26, 6) on 3F East
-    path = [
-        (16, 1), (16, 2), (16, 3),
-        (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-        (26, 4), (26, 5), (26, 6)
+    # Dismiss "Got away safely!" battle screen text box
+    mgba.press_buttons(["A"])
+    time.sleep(0.6)
+    
+    pos = mgba.get_coordinates()
+    print(f"Current pos after dismissing text: {pos}")
+    
+    # 1. Path to switch (2, 6) from (16, 3)
+    path_to_switch = [
+        (16, 3), (17, 3), (18, 3), (18, 2), (18, 1),
+        (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
+        (4, 2), (4, 3), (4, 4), (3, 4), (3, 5), (3, 6), (2, 6)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
-    if pos_tuple in path:
-        idx = path.index(pos_tuple)
-        path = path[idx+1:]
-        print(f"Sliced path to start from index {idx+1}: {path}")
+    if pos_tuple in path_to_switch:
+        idx = path_to_switch.index(pos_tuple)
+        path_to_switch = path_to_switch[idx+1:]
+        print(f"Sliced path to start from index {idx+1}: {path_to_switch}")
         
-    res = walk_path_robust(path)
+    res = walk_path_robust(path_to_switch)
+    if res == "WARPED":
+        print("Warped unexpectedly while walking to switch!")
+        return
+    elif res == "BLOCKED":
+        print("Path to switch blocked!")
+        return
+        
+    print("Reached (2, 6). Facing UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    
+    # Toggle switch to State A (5 A-presses)
+    print("Toggling Mewtwo switch to State A...")
+    mgba.press_buttons(["A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A", "sleep 1200", "A"])
+    time.sleep(1.0)
+    print("Switch toggled. Mansion should now be in State A!")
+    
+    # 2. Path to pitfall (26, 6) in State A
+    path_to_pitfall = [
+        (3, 6), (3, 5), (3, 4), (4, 4), (4, 3), (4, 2), (4, 1),
+        (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
+        (18, 2), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        (26, 4), (26, 5), (26, 6)
+    ]
+    
+    print("Walking to pitfall on 3F East in State A...")
+    res = walk_path_robust(path_to_pitfall)
     if res == "WARPED":
         print("SUCCESSFULLY FELL THROUGH PITFALL TO 1F EAST!!!")
     elif res == "BLOCKED":
-        print("Path blocked!")
+        print("Path to pitfall blocked!")
     else:
         print(f"Reached end of path without warping. Current pos: {mgba.get_coordinates()}")
 
