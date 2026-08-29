@@ -102,7 +102,7 @@ def main():
     pos = mgba.get_coordinates()
     print(f"Current pos after dismissing text: {pos}")
     
-    # 1. Path to switch (2, 6) from (16, 3)
+    # 1. Path to switch (2, 6) from anywhere on 3F East/West
     path_to_switch = [
         (16, 3), (17, 3), (18, 3), (18, 2), (18, 1),
         (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
@@ -133,7 +133,7 @@ def main():
     time.sleep(1.0)
     print("Switch toggled. Mansion should now be in State A!")
     
-    # 2. Path to pitfall (26, 6) in State A
+    # 2. Path to pitfall (26, 6) in confirmed State A (avoiding recessed stairs and desks)
     path_to_pitfall = [
         (3, 6), (3, 5), (3, 4), (4, 4), (4, 3), (4, 2), (4, 1),
         (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
