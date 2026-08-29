@@ -43,7 +43,6 @@
 - Descending Staircase to B1F: Physical warp transition pending verification upon arrival.
 - Access to Northern Landing Sector: Dropping from 3F Right Balcony Pit at (19, 14) lands on 1F Northern Landing Sector at (18, 14).
 - Shutter Gate (North Row 13): (12..17, 13) [OPEN in State A, CLOSED in State B] (Empirically verified Turn 19705). Connects column 12 corridor directly south into Enclosed East Wing.
-- Shutter Gate (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B] (Empirically verified Turn 19115).
 - Column 9 Barrier: Continuous solid vertical wall from row 8 to row 16 blocking westward passage. West-East wing bypass on 1F is located at Row 22 (cols 6-13).
 - Interior Displays: Hedges at rows 18 & 22 (cols 14-19); Statues at rows 19 & 23 (cols 14-19); Tables/Bookshelves at row 17 (cols 18-19, 22-23)
 ### Negative Collision Constraints & Blocked Paths (Verified Turns 19921-20070)
