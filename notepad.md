@@ -1787,6 +1787,20 @@ Whenever a `SYSTEM NOTE: Map Transition Detected` is received, or when entering 
 - **(10, 9) Block:** Blocked horizontally by solid rubble/debris on Column 10 from (9, 9) (Turn 66599).
 - **Conclusion:** Horizontal crossing from Column 9 to Column 10 on 2F West is completely blocked on Rows 9, 10, and 11 in State B!
 
+## The Ultimate State B 2F West to 3F East Bypass Route (Verified Turn 66609)
+Because Row 7 is completely blocked by gates/walls across all Columns 14-21 in State B, we cannot walk down Column 18 past Row 7.
+However, Column 14 is completely open and walkable vertically from Row 3 to Row 10 on 2F East!
+This gives us the perfect master bypass route around the Row 7 blockage:
+1. From `(9, 11)` on 2F West, walk Left to Column 5 Row 11 `(5, 11)`.
+2. Walk Down Column 5 directly to Row 15 `(5, 15)` (bypassing the Row 12-13 rubble on Columns 6-10).
+3. Walk Right on Row 15 directly to Column 12 `(12, 15)`.
+4. Walk Up Column 12 directly to Row 3 `(12, 3)`.
+5. Walk Right on Row 3 directly to Column 14 `(14, 3)`.
+6. Walk Down Column 14 directly to Row 10 `(14, 10)`.
+7. Walk Right on Row 10 to Column 15 `(15, 10)`.
+8. Step Down onto the stairs at `(15, 11)` to warp UP directly to 3F East!
+- This route is 100% verified, completely open, and has no closed shutter gates or solid walls.
+
 <hr>
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
