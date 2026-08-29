@@ -2441,3 +2441,9 @@
 - Unexplored.
 
 <hr>
+
+<h1><code>Scratchpad/MansionSwitchPermutations.md</code></h1>
+
+
+
+<hr>
