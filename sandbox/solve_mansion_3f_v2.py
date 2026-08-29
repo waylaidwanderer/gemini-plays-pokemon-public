@@ -26,6 +26,9 @@ def handle_battle_escape():
         time.sleep(0.2)
     mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1000", "B"])
     time.sleep(1.5)
+    # Dismiss the "Got away safely!" text box completely
+    mgba.press_buttons(["A"])
+    time.sleep(0.5)
 
 def step_one(direction, target_x, target_y):
     pos_before = mgba.get_coordinates()
@@ -74,28 +77,12 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-def cleanup_files():
-    print("Cleaning up obsolete sandboxed files...")
-    files_to_delete = [
-        'go_to_switch_correct.py', 'walk_to_pitfall_final.py', 'toggle_once.py',
-        'toggle_and_drop.py', 'walk_to_pitfall_and_drop.py', 'walk_to_pitfall_6.py'
-    ]
-    for file in files_to_delete:
-        if os.path.exists(file):
-            try:
-                os.remove(file)
-                print(f"Deleted obsolete file: {file}")
-            except Exception as e:
-                print(f"Failed to delete {file}: {e}")
-
 def main():
-    print("solve_mansion_3f: Starting...")
-    cleanup_files()
-    
+    print("solve_mansion_3f_v2: Starting...")
     pos = mgba.get_coordinates()
     print(f"Starting position: {pos}")
     
-    # Path to (2, 6)
+    # Path to (2, 6) from anywhere on 3F
     path_to_switch = [
         (26, 4), (26, 3), (26, 2), (26, 1),
         (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
@@ -108,6 +95,11 @@ def main():
         idx = path_to_switch.index(pos_tuple)
         path_to_switch = path_to_switch[idx+1:]
         print(f"Sliced path to start from index {idx+1}: {path_to_switch}")
+    else:
+        # If we are at (3, 8), we can walk to (3, 6) -> (2, 6)
+        if pos_tuple == (3, 8):
+            path_to_switch = [(3, 7), (3, 6), (2, 6)]
+            print(f"Custom path from (3, 8): {path_to_switch}")
         
     res = walk_path(path_to_switch)
     if res == "WARPED":
@@ -130,9 +122,6 @@ def main():
     
     # Let's verify State A by walking down to (2, 12).
     # Note: Gate at (2, 12) is walkable in State A, blocked in State B.
-    # To test, we try to walk Down from (2, 6) to (2, 12).
-    # Since there are walls and obstacles, let's step-by-step walk:
-    # (2, 6) -> (2, 7) -> (2, 8) -> (2, 9) -> (2, 10) -> (2, 11) -> (2, 12)
     path_to_gate_check = [
         (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12)
     ]
