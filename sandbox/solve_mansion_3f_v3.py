@@ -93,15 +93,19 @@ def walk_path_robust(coords):
     return "SUCCESS"
 
 def main():
-    print("solve_mansion_3f_v3: Starting from current pos (3, 5)...")
-    pos = mgba.get_coordinates()
-    print(f"Current pos: {pos}")
+    print("solve_mansion_3f_v3: Starting direct pitfall walk from (19, 1)...")
     
-    # Path from (3, 5) to (26, 6) avoiding (4, 5)
+    # 1. Dismiss "Got away safely!" text box
+    mgba.press_buttons(["A"])
+    time.sleep(0.6)
+    
+    pos = mgba.get_coordinates()
+    print(f"Current pos after dismissing text: {pos}")
+    
+    # Path to pitfall: walk down Column 19 to Row 3, Left horizontally on Row 3 to Column 26, Down to (26, 6)
     path = [
-        (3, 4), (4, 4), (4, 3), (4, 2), (4, 1),
-        (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
-        (26, 2), (26, 3), (26, 4), (26, 5), (26, 6)
+        (19, 2), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        (26, 4), (26, 5), (26, 6)
     ]
     
     pos_tuple = (pos['x'], pos['y'])
