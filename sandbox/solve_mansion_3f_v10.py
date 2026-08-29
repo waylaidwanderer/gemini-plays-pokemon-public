@@ -109,7 +109,6 @@ def walk_to_switch_dynamic():
             print("Reached switch (2, 6)!")
             return
             
-        # Select target waypoint based on exact coordinates (State B)
         if curr_x == 26 and curr_y > 3:
             target_waypoint = (26, 3)
         elif curr_x > 18:
@@ -137,7 +136,7 @@ def walk_to_switch_dynamic():
         elif curr_x == 3 and curr_y == 5:
             target_waypoint = (3, 6)
         elif curr_x == 3 and curr_y == 6:
-            target_waypoint = (2, 6)  # Direct path is open in State B
+            target_waypoint = (2, 6)
         elif curr_x == 3 and curr_y > 6:
             target_waypoint = (3, 6)
         elif curr_x < 3:
@@ -172,15 +171,31 @@ def walk_to_pitfall_dynamic_state_a():
             return
             
         # Select target waypoint based on exact coordinates in State A
-        if curr_x == 2 and curr_y == 6:
-            target_waypoint = (1, 6)
-        elif curr_x == 1 and curr_y == 6:
-            target_waypoint = (1, 1)
-        elif curr_x == 1 and 1 < curr_y < 6:
-            target_waypoint = (1, 1)
-        elif curr_x == 1 and curr_y == 1:
+        if curr_x == 1 and curr_y == 6:
+            target_waypoint = (1, 7)
+        elif curr_x == 1 and curr_y == 7:
+            target_waypoint = (3, 7)
+        elif curr_x == 2 and curr_y == 7:
+            target_waypoint = (3, 7)
+        elif curr_x == 3 and curr_y == 7:
+            target_waypoint = (3, 8)
+        elif curr_x == 3 and curr_y == 8:
+            target_waypoint = (5, 8)
+        elif 3 < curr_x < 5 and curr_y == 8:
+            target_waypoint = (5, 8)
+        elif curr_x == 7 and curr_y == 8:
+            target_waypoint = (5, 8)
+        elif 5 < curr_x < 7 and curr_y == 8:
+            target_waypoint = (5, 8)
+        elif curr_x == 5 and curr_y == 8:
+            target_waypoint = (5, 4)
+        elif curr_x == 5 and 4 < curr_y < 8:
+            target_waypoint = (5, 4)
+        elif curr_x == 5 and curr_y == 4:
+            target_waypoint = (4, 4)
+        elif curr_x == 4 and curr_y == 4:
             target_waypoint = (4, 1)
-        elif 1 < curr_x < 4 and curr_y == 1:
+        elif curr_x == 4 and 1 < curr_y < 4:
             target_waypoint = (4, 1)
         elif curr_x == 4 and curr_y == 1:
             target_waypoint = (18, 1)
@@ -218,11 +233,8 @@ def walk_to_pitfall_dynamic_state_a():
 
 def main():
     print("solve_mansion_3f_v10: Starting dual-phase dynamic execution with State A exit path...")
-    
-    # 1. Walk back to the switch (using State B path)
     walk_to_switch_dynamic()
     
-    # 2. Toggle switch to State A (exactly 4 A-presses)
     print("Reached (2, 6). Facing UP to switch at (2, 5)...")
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
@@ -232,7 +244,6 @@ def main():
     time.sleep(1.0)
     print("Switch toggled. Mansion should now be in State A!")
     
-    # 3. Walk to the pitfall (using State A exit path)
     walk_to_pitfall_dynamic_state_a()
 
 if __name__ == "__main__":
