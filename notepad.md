@@ -2280,7 +2280,7 @@
 - Balcony Landing Tile (Arrival): 1F (16, 14) [Departed 3F at (16, 14)]
 - Scientist NPC: (17, 17) [Scientist Ted: Electrode Lv 29, Weezing Lv 29; Defeated Turn 18533]
 - Item Ball: (18, 21) [TM03 Swords Dance - Collected Turn 18509]
-- Corridors: Row 14 (cols 12-17), Row 16 (cols 18-25 solid wall divider), Row 20-21 (cols 12-23), Row 22 (cols 6-13 passage west of col 14 wall), Row 24-26 (cols 12-23), Column 10 (rows 3-22 bypass), Column 20 (rows 10-15), Column 25 (rows 14-23)
+- Corridors: Row 14 (cols 12-17), Row 16 (cols 18-25 solid wall divider), Row 20-21 (cols 12-23), Row 22 (cols 6-13 passage west of col 14 wall), Row 24-26 (cols 12-23), Column 20 (rows 10-15), Column 25 (rows 14-23)
 ### B1F Staircase & Shutter Gate Connections
 - Descending Staircase to B1F: Physical warp transition pending verification upon arrival.
 - Access to Northern Landing Sector: Dropping from 3F Right Balcony Pit at (19, 14) lands on 1F Northern Landing Sector at (18, 14).
