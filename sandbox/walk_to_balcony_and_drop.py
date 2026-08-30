@@ -40,20 +40,18 @@ def move_safe(step, target_x, target_y):
     print(f"Finished step. Current position: {pos_after}")
     return pos_after
 
-# Starting position: (28, 7) on 3F East
-print("Starting direct walk from (28, 7) to balcony drop on 3F East...")
+# Starting position: (26, 25) on 3F East
+print("Starting direct walk from (26, 25) to balcony drop on 3F East...")
 print("Current position:", mgba.get_coordinates())
 
 path = [
-    # 1. Walk Left to Column 25 on Row 7
-    ("Left", 27, 7), ("Left", 26, 7), ("Left", 25, 7),
-    # 2. Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
-    ("Down", 25, 8), ("Down", 25, 9), ("Down", 25, 10), ("Down", 25, 11), ("Down", 25, 12), ("Down", 25, 13), ("Down", 25, 14), ("Down", 25, 15), ("Down", 25, 16),
-    # 3. Walk Left along Row 16 to Column 21
-    ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
-    # 4. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
+    # 1. Walk UP Column 26 to Row 16
+    ("Up", 26, 24), ("Up", 26, 23), ("Up", 26, 22), ("Up", 26, 21), ("Up", 26, 20), ("Up", 26, 19), ("Up", 26, 18), ("Up", 26, 17), ("Up", 26, 16),
+    # 2. Walk Left along Row 16 to Column 21
+    ("Left", 25, 16), ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
+    # 3. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17), ("Down", 21, 18),
-    # 5. Walk Left to balcony drop warp at (19, 18)
+    # 4. Walk Left to balcony drop warp at (19, 18)
     ("Left", 20, 18), ("Left", 19, 18)
 ]
 
