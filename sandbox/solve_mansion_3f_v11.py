@@ -62,13 +62,13 @@ def walk_path(coords):
     return "SUCCESS"
 
 pos = mgba.get_coordinates()
-print(f"Starting 3F pathing to pitfall from {pos}")
+print(f"Starting 3F pathing from {pos} with NPC bypass...")
 
-# Path from (1, 6) to (22, 2) via Column 3 and Row 2
+# Path to (22, 2) bypassing the NPC at (3, 3) using Column 4 and Row 2
 path_to_verify = [
-    (2, 6), (3, 6),
-    (3, 5), (3, 4), (3, 3), (3, 2),
-    (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
+    (4, 4),
+    (4, 3), (4, 2),
+    (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
 ]
 
 res = walk_path(path_to_verify)
