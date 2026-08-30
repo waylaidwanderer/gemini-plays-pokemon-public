@@ -2313,6 +2313,7 @@
 - Note: Thoroughfare along row 1 (cols 4-12).
 
 ### Stairs to 3F
+- **East Wing Stairs**: Located at (21, 23) behind the (21, 17) shutter gate (OPEN in State B). Leads up to 3F Northeast Sector.
 - **Southwest Wing Stairs**: Located at (7, 10) in the central sector (immediately adjacent to 1F descending stairs at (5, 10)). Accessible from main hallway (cols 4-7, rows 10-11) or via col 12 thoroughfare -> row 11 -> (7, 11) -> (7, 10). Arrival on 3F: Southwest Wing at (7, 11) [Dead-end sector with TM09 Take Down and research journal].
 
 ### East Wing (Explored Turns 18593-18750)
