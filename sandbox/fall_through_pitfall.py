@@ -13,38 +13,34 @@ def flee_battle():
         time.sleep(0.4)
 
 def walk_to_2f_pitfall():
-    # Currently at (24, 7) on 2F East
+    # Currently at (17, 6) on 2F East
     path = [
-        # 1. Right to Column 26
-        (25, 7),
-        (26, 7),
-        # 2. UP Column 26 to Row 3
-        (26, 6),
-        (26, 5),
-        (26, 4),
-        (26, 3),
-        # 3. Left along Row 3 to Column 16
-        (25, 3),
-        (24, 3),
-        (23, 3),
-        (22, 3),
-        (21, 3),
-        (20, 3),
-        (19, 3),
-        (18, 3),
+        # 1. UP Column 17 to Row 3
+        (17, 5),
+        (17, 4),
         (17, 3),
+        # 2. Left along Row 3 to Column 12
         (16, 3),
-        # 4. DOWN Column 16 to Row 14 (Expected 2F East pitfall!)
-        (16, 4),
-        (16, 5),
-        (16, 6),
-        (16, 7),
-        (16, 8),
-        (16, 9),
-        (16, 10),
-        (16, 11),
-        (16, 12),
-        (16, 13),
+        (15, 3),
+        (14, 3),
+        (13, 3),
+        (12, 3),
+        # 3. DOWN Column 12 to Row 14
+        (12, 4),
+        (12, 5),
+        (12, 6),
+        (12, 7),
+        (12, 8),
+        (12, 9),
+        (12, 10),
+        (12, 11),
+        (12, 12),
+        (12, 13),
+        (12, 14),
+        # 4. Right along Row 14 to Column 16 (the pitfall!)
+        (13, 14),
+        (14, 14),
+        (15, 14),
         (16, 14)
     ]
     
