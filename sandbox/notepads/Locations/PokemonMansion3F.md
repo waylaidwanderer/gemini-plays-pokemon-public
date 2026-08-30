@@ -12,7 +12,7 @@
 ## 3F East - Mapping & Boundaries
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
 - **Row 3 Horizontal Opening:** Row 3 is completely open across Column 22, allowing horizontal passage between 3F West/Middle and the northeastern Scientist room.
-- **The Pitfall Trap location:** Located on Column 26. Walking down Column 26 in State A (stepping on (26, 4) or (26, 6)) drops the player to 1F East inside the fenced room. Note: Stepping on (26, 3) does NOT trigger the warp, but stepping DOWN from (26, 3) to (26, 4) triggers it (verified Turn 68273).
+- **The Pitfall Trap is at (18, 16):** Located on Column 26. Walking down Column 26 in State A (stepping on (26, 4) or (26, 6)) drops the player to 1F East inside the fenced room. Note: Stepping on (26, 3) does NOT trigger the warp, but stepping DOWN from (26, 3) to (26, 4) triggers it (verified Turn 68273).
 
 ## State B Proven Isolation & Blockages (Verified Turn 66911)
 - **Western, Central, and Eastern Sections are Isolated:** In State B, 3F is divided into completely isolated vertical strips below Row 3:
@@ -72,12 +72,3 @@
 - **Bypassing Closed Shutter Gate at (4, 6) in State A:**
   - Walk from `(2, 6)` UP through Column 3 and Column 4 (`(3, 6)` -> `(3, 5)` -> `(4, 5)` -> `(4, 4)` -> `(4, 3)`) to Row 3, completely bypassing the closed gate.
 
-## Major Discovery & Breakthrough (Turn 68439)
-- **The 3F Balcony is Unnecessary:** The Secret Key is on B1F West. However, B1F East and B1F West are connected on B1F! We do NOT need to reach the 3F balcony to drop to B1F West.
-- **The Correct Solution Path:**
-  1. Trigger State A (verified active currently).
-  2. Fall through the 3F East pitfall on Column 26 by walking UP to `(26, 3)` and then walking DOWN onto the pitfall warp at `(26, 4)`.
-  3. This lands the player inside the 1F East fenced room.
-  4. Take the stairs down to B1F East.
-  5. Navigate B1F to find the Mewtwo switch, toggle it, and retrieve the Secret Key!
-- **State A Shutter Gate Truth:** Row 13 on 3F East is completely impassable in State A because the gate at `(25, 13)` is indeed closed, and Columns 26-28 on Row 13 are solid partition walls. This proves the 3F balcony is physically inaccessible from 3F East in State A, reinforcing that the pitfall drop is the only intended route from 3F East!
