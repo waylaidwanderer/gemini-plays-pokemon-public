@@ -13,24 +13,27 @@ def flee_battle():
         time.sleep(0.4)
 
 def walk_down_col12():
-    # From current position (26, 14)
+    # Currently at (27, 15)
     path = [
-        # 1. UP Column 26 to Row 1
-        (26, 13),
-        (26, 12),
-        (26, 11),
-        (26, 10),
-        (26, 9),
-        (26, 8),
-        (26, 7),
-        (26, 6),
-        (26, 5),
-        (26, 4),
-        (26, 3),
-        (26, 2),
-        (26, 1),
-        # 2. Left to Column 12
+        # 1. Walk Left to Column 25
+        (26, 15),
+        (25, 15),
+        # 2. Walk UP Column 25 to Row 1
+        (25, 14),
+        (25, 13), # Open gate!
+        (25, 12),
+        (25, 11),
+        (25, 10),
+        (25, 9),
+        (25, 8),
+        (25, 7),
+        (25, 6),
+        (25, 5),
+        (25, 4),
+        (25, 3),
+        (25, 2),
         (25, 1),
+        # 3. Walk Left to Column 12
         (24, 1),
         (23, 1),
         (22, 1),
@@ -44,7 +47,7 @@ def walk_down_col12():
         (14, 1),
         (13, 1),
         (12, 1),
-        # 3. DOWN Column 12 to Row 18
+        # 4. Walk DOWN Column 12 as far as possible
         (12, 2),
         (12, 3),
         (12, 4),
