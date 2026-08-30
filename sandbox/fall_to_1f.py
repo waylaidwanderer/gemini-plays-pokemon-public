@@ -62,34 +62,12 @@ def walk_path(coords):
     return "SUCCESS"
 
 pos = mgba.get_coordinates()
-print(f"Starting fall_to_1f script from {pos}")
+print(f"Starting direct pitfall fall from {pos}")
 
-# Walk from (3, 5) to (22, 2) on 3F East using Column 4 and Row 2 (State A open path!)
-to_verify_path = [
-    (4, 5),
-    (4, 4), (4, 3), (4, 2),
-    (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
+# Walk to Column 26 Row 3 and Down Column 26 to trigger pitfall!
+pitfall_path = [
+    (23, 3), (24, 3), (25, 3), (26, 3),
+    (26, 4), (26, 5), (26, 6)
 ]
-
-res = walk_path(to_verify_path)
-print(f"Walk to verify result: {res}. Pos: {mgba.get_coordinates()}")
-
-if mgba.get_coordinates() == {'x': 22, 'y': 2}:
-    # Verify gate by trying to step Left to (21, 2)
-    print("Verifying if gate at (21, 2) is open...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    pos_gate = mgba.get_coordinates()
-    print(f"Position after trying gate: {pos_gate}")
-    
-    if pos_gate == {'x': 21, 'y': 2}:
-        print("GATE IS OPEN! WE ARE IN STATE A.")
-        # Step back to (22, 2), then to Column 26 and Down to trigger pitfall!
-        pitfall_path = [
-            (22, 2), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-            (26, 4), (26, 5), (26, 6)
-        ]
-        res_pit = walk_path(pitfall_path)
-        print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
-    else:
-        print("GATE IS CLOSED! Toggle failed.")
+res_pit = walk_path(pitfall_path)
+print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
