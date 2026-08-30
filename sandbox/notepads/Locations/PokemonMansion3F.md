@@ -51,3 +51,11 @@
 - **Generous Delays (Minimum 1.5–2.5 seconds) are Mandatory:** You must sleep for at least 1.5 to 2.5 seconds between EACH A-press to allow text scrolling, menu animations, and redraws to complete. Pressing A too quickly will cause inputs to be swallowed, leaving the dialogue open and swallowing subsequent directional inputs.
 - **Local Verification via (21, 2) Shutter Gate:** On 3F East, the local gate at (21, 2) is closed in State B and open in State A. Attempting to step Left from (22, 2) to (21, 2) is blocked in State B and successful in State A. This allows immediate local state verification without walking back to 3F West!
 - **State A Traversal to Balcony (No Pitfall Needed):** If the gate at (21, 2) is open (State A), you can walk horizontally along Row 2 directly to Column 10 on 3F West, walk down Column 10 to Row 16, and walk Right directly to the balcony at (19, 18) to drop to B1F West. Falling through the Column 26 pitfall is completely unnecessary if we are already on 3F East in State A!
+## Global Mewtwo Switch Operational Mechanics (Verified Turn 67428)
+- **Single Global State:** All Mewtwo statues across all floors of the Pokémon Mansion are globally linked. Interacting with ANY statue toggles the entire mansion between State A and State B.
+- **Accidental Reversals:** Toggling a switch twice (or toggling different switches sequentially) will revert the mansion back to its original state. Always perform a single toggle and then verify locally at the (21, 2) gate.
+
+## 3F West State B Separation Wall (Verified Turn 67428)
+- **Column 9 Partition Wall:** Column 9 is a solid vertical brick wall on Rows 3-7, and is blocked by rubble on Row 8.
+- **Crossing Constraints in State B:** Because of the Column 9 wall, the only way to cross horizontally between 3F East (Columns 10-28) and 3F West (Columns 1-8) in State B is via **Row 1 or Row 2**. Crossing below Row 3 is completely blocked.
+- **NPC at (3, 3):** There is an NPC (trainer) standing at (3, 3) on 3F West. Column 3 is therefore blocked, but the parallel Column 4 is completely open on Rows 2-5, allowing clean vertical bypass.
