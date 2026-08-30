@@ -14,28 +14,20 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# 1. Walk from (21, 16) to (2, 6) facing UP
+# Starting at current (25, 10) on 3F East
 path_to_switch = [
-    # Walk Right to Column 25 on Row 16
-    ("Right", 22, 16),
-    ("Right", 23, 16),
-    ("Right", 24, 16),
-    ("Right", 25, 16),
-    # Walk UP Column 25 to Row 3
-    ("Up", 25, 15),
-    ("Up", 25, 14),
-    ("Up", 25, 13),
-    ("Up", 25, 12),
-    ("Up", 25, 11),
-    ("Up", 25, 10),
-    ("Up", 25, 9),
-    ("Up", 25, 8),
-    ("Up", 25, 7),
-    ("Up", 25, 6),
-    ("Up", 25, 5),
-    ("Up", 25, 4),
-    ("Up", 25, 3),
+    # Walk Right to Column 26 on Row 10
+    ("Right", 26, 10),
+    # Walk UP Column 26 to Row 3 (bypasses cabinet at 25,9)
+    ("Up", 26, 9),
+    ("Up", 26, 8),
+    ("Up", 26, 7),
+    ("Up", 26, 6),
+    ("Up", 26, 5),
+    ("Up", 26, 4),
+    ("Up", 26, 3),
     # Walk Left along Row 3 to Column 4 (bypasses NPC at 3,3)
+    ("Left", 25, 3),
     ("Left", 24, 3),
     ("Left", 23, 3),
     ("Left", 22, 3),
