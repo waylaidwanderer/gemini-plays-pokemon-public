@@ -14,41 +14,41 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (21, 3) on 3F East
+# Starting at current (25, 3) on 3F East
 path = [
-    # 1. Continue Right along Row 3 to Column 25
-    ("Right", 22, 3),
-    ("Right", 23, 3),
-    ("Right", 24, 3),
-    ("Right", 25, 3),
-    # 2. Walk DOWN Column 25 to Row 16
-    ("Down", 25, 4),
-    ("Down", 25, 5),
-    ("Down", 25, 6),
-    ("Down", 25, 7),
-    ("Down", 25, 8),
-    ("Down", 25, 9),
-    ("Down", 25, 10),
-    ("Down", 25, 11),
-    ("Down", 25, 12),
-    ("Down", 25, 13), # Gate is open in State A
+    # 1. Walk Right to Column 26
+    ("Right", 26, 3),
+    # 2. Walk DOWN Column 26 to Row 12 (bypasses horizontal wall at 25,4)
+    ("Down", 26, 4),
+    ("Down", 26, 5),
+    ("Down", 26, 6),
+    ("Down", 26, 7),
+    ("Down", 26, 8),
+    ("Down", 26, 9),
+    ("Down", 26, 10),
+    ("Down", 26, 11),
+    ("Down", 26, 12),
+    # 3. Walk Left to Column 25
+    ("Left", 25, 12),
+    # 4. Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
+    ("Down", 25, 13),
     ("Down", 25, 14),
     ("Down", 25, 15),
     ("Down", 25, 16),
-    # 3. Walk Left along Row 16 to Column 21
+    # 5. Walk Left along Row 16 to Column 21
     ("Left", 24, 16),
     ("Left", 23, 16),
     ("Left", 22, 16),
     ("Left", 21, 16),
-    # 4. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
+    # 6. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17),
     ("Down", 21, 18),
-    # 5. Walk Left to balcony drop warp at (19, 18)
+    # 7. Walk Left to balcony drop warp at (19, 18)
     ("Left", 20, 18),
     ("Left", 19, 18)
 ]
 
-print("Executing precise walk to balcony drop in State A...")
+print("Executing precise detour walk to balcony drop in State A...")
 for direction, tx, ty in path:
     if not move_strict(direction, tx, ty):
         break
