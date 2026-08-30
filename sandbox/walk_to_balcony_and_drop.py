@@ -40,20 +40,18 @@ def move_safe(step, target_x, target_y):
     print(f"Finished step. Current position: {pos_after}")
     return pos_after
 
-# Starting position: (28, 20) on 3F East
-print("Starting direct walk from (28, 20) to balcony drop on 3F East...")
+# Starting position: (24, 18) on 3F East
+print("Starting final walk from (24, 18) to balcony drop on 3F East...")
 print("Current position:", mgba.get_coordinates())
 
 path = [
-    # 1. Walk Left along Row 20 to Column 25
-    ("Left", 27, 20), ("Left", 26, 20), ("Left", 25, 20),
-    # 2. Walk UP Column 25 to Row 16 (gate at 25,13 is open in State A)
-    ("Up", 25, 19), ("Up", 25, 18), ("Up", 25, 17), ("Up", 25, 16),
-    # 3. Walk Left along Row 16 to Column 21
-    ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
-    # 4. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
+    # 1. Walk UP Column 24 to Row 16
+    ("Up", 24, 17), ("Up", 24, 16),
+    # 2. Walk Left along Row 16 to Column 21
+    ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
+    # 3. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17), ("Down", 21, 18),
-    # 5. Walk Left to balcony drop warp at (19, 18)
+    # 4. Walk Left to balcony drop warp at (19, 18)
     ("Left", 20, 18), ("Left", 19, 18)
 ]
 
