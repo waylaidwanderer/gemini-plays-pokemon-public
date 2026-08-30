@@ -64,10 +64,9 @@ def walk_path(coords):
 pos = mgba.get_coordinates()
 print(f"Starting ascend_to_3f_east_bypass script from {pos}")
 
-# Walk from (22, 6) to (22, 1) bypassing debris on Rows 4 and 5 via Column 19 and Row 3
+# Walk from (19, 4) to (22, 1) on 2F East
 path = [
-    (21, 6), (20, 6), (19, 6),
-    (19, 5), (19, 4), (19, 3),
+    (20, 4),
     (20, 3), (21, 3), (22, 3),
     (22, 2), (22, 1)
 ]
