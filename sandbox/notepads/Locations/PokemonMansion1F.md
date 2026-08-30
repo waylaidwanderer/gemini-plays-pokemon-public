@@ -45,3 +45,12 @@
 | (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
 | (24..25, 17) Passage | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
+### Central & Garden Sector (Empirically Mapped Turns 21160-21163)
+- Stairs: 2F descending stairs at (5, 10); 3F ascending stairs at (7, 10).
+- Vertical Corridors: Cols 9-10 (rows 9-15) and Col 12 (rows 7-12) are open pink floor.
+- Row 7 Thoroughfare: Open pink floor spanning cols 10-15, connecting col 12 into the Eastern Wing.
+- Garden Obstacles (Cols 13-15):
+  - (13, 8), (13, 10): green hedges
+  - (13, 9), (13, 11): decorative statues (scenery)
+  - (14..15, 8..11): solid grey wall structure
+  - (12..15, 14..15): rubble blocks
