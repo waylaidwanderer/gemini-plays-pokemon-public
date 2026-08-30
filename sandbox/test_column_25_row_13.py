@@ -35,23 +35,18 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Dismiss "Got away safely!" textbox
-print("Dismissing battle screen...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-pos = mgba.get_coordinates()
-print(f"Position in overworld: {pos}")
-
-# Walk from current (12, 3) to Column 25 Row 12 via Row 3
+# We are at (25, 3) on 3F East in State A.
+# Walk path to test (25, 13) by walking down Column 26 to Row 12, then Left, then Down.
 test_path = [
-    # 1. RIGHT along Row 3 to Column 25
-    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-    # 2. DOWN Column 25 to Row 12
-    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12)
+    # 1. RIGHT to Column 26
+    (26, 3),
+    # 2. DOWN Column 26 to Row 12 (bypassing the Row 4 closed gate at (25,4))
+    (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
+    # 3. LEFT to Column 25 Row 12
+    (25, 12)
 ]
 
-print("Walking to (25, 12) along Row 3...")
+print("Walking to (25, 12) via Column 26...")
 res = walk_path(test_path)
 print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
 
