@@ -50,7 +50,7 @@
 - Row 17 Horizontal Table Barrier: Solid barrier across (1..9, 17). The ONLY north-south opening through row 17 is at (10..12, 17).
 - Column 25 Vertical Wall: Solid divider across (25, 9..16) separating East Wing landing (cols 18-24) from B1F Staircase corridor (cols 26-28).
 - Column 9 Vertical Wall: Solid divider across (9, 9..16) separating Central Hallway (cols 1-8) from East corridor (cols 10-12).
-- Staircase South Railing at (26..27, 18): Solid railing/barrier blocking entry from south. Stairs must be entered from row 16 stepping Down into (26..27, 17).
+- Table/Railing Barrier at (26..27, 17): Table barrier dividing east corridor.
 - Southeast Corner at (26..27, 27): Dead-end alcove; no doorway or external transition.
 ### Southeast Enclosed Room & Switch (Verified Turns 19959-19969)
 - Mewtwo Statue Switch: Located at (18, 25). Interactable from (18, 26) facing Up or (17, 25) facing Right. Toggles global mansion shutters between State A and State B.
@@ -58,8 +58,8 @@
 - Southeast Room Entrance: Open doorway at (13, 22..23) connecting column 12 to (14, 22..23). Column 13 is a solid wall at rows 24-27 (row 26 cannot be entered directly from column 12).
 - Route to Switch/Item: From column 12 -> (13, 22..23) doorway -> (14, 23) -> South to row 26 (14, 26) -> East along row 26 to (18..19, 26) -> (18, 25) switch / (19, 25) item ball.
 ### B1F Staircase Location (Observed Turn 19991)
-- Descending Staircase to B1F: Located at (26..27, 17).
-- North Landing: Located at row 16 (26..27, 16). Stairs must be entered from the NORTH at row 16 stepping DOWN into (26..27, 17).
+- Descending Staircase to B1F: Located at (26..27, 27).
+- North Landing: Located at row 26 (26..27, 26). Stairs must be entered from the NORTH at row 26 stepping DOWN into (26..27, 27).
 - Item Ball at (1, 22): Full Restore [Collected Turn 20065]
 ### Isolated B1F Staircase Enclosure & Access Rule (Verified Turns 20090-20104)
 - **Isolated Enclosure**: The chamber at (26..28, rows 8..16) containing the Scientist at (27, 11) and the B1F Staircase North Landing at (26, 16) is COMPLETELY ENCLOSED by walls on 1F:
