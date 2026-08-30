@@ -2,13 +2,16 @@ import mgba
 import time
 
 def step_strict(direction, target_x, target_y):
+    # Allow 2 attempts per step to handle turning-in-place/lag
     for attempt in range(2):
         pos_before = mgba.get_coordinates()
         mgba.press_buttons([direction])
         time.sleep(0.4)
         pos_after = mgba.get_coordinates()
         
+        # Check if coordinates changed significantly, indicating a warp
         if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
+            print(f"WARPED! From {pos_before} to {pos_after}")
             return "WARPED"
         if pos_after['x'] == target_x and pos_after['y'] == target_y:
             return "SUCCESS"
@@ -37,54 +40,24 @@ def walk_path_safe(path):
         if res == "SUCCESS":
             idx += 1
         elif res == "BLOCKED":
-            return "BLOCKED"
+            print(f"BLOCKED! Position did not change while trying to go to {(target_x, target_y)}. Stopping script.")
+            return "BLOCKED_STATE"
         elif res == "WARPED":
             return "WARPED"
         time.sleep(0.1)
     return "SUCCESS"
 
-def flee_battle():
-    print("Clearing encounter text...")
-    mgba.press_buttons(["A"])
-    time.sleep(2.0)
-
-    print("Clearing player summon text...")
-    mgba.press_buttons(["A"])
-    time.sleep(2.5)
-
-    print("Navigating menu to RUN...")
-    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A"])
-    time.sleep(2.0)
-
-    print("Clearing escape text...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    print("Fled battle.")
-
-# 1. Flee from the Vulpix battle
-flee_battle()
-
-# 2. Walk remaining path from (5, 2)
-path = [
-    (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2),
-    (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10),
-    (11, 10), (11, 11), (11, 12), (12, 12), (12, 11)
+# 1. Walk from (12, 10) to stairs at (22, 1) on 3F East in State B
+path_to_stairs = [
+    # Walk Up Column 12 to Row 3
+    (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
+    # Walk Right along Row 3 to Column 22
+    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3),
+    # Walk Up Column 22 to stairs at (22, 1)
+    (22, 2), (22, 1)
 ]
 
-print("Walking to (12, 11)...")
-res = walk_path_safe(path)
-print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
-
-if mgba.get_coordinates() == {'x': 12, 'y': 11}:
-    print("Facing UP...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
-    
-    print("Pressing A once to trigger dialogue...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.5)
-    
-    # Take screenshot of the dialogue
-    screenshot_path = mgba.take_screenshot()
-    print(f"Dialogue screenshot taken at {screenshot_path}")
+print("Walking to 3F East stairs at (22, 1)...")
+res = walk_path_safe(path_to_stairs)
+print(f"Path to stairs result: {res}. Position: {mgba.get_coordinates()}")
 
