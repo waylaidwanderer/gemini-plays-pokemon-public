@@ -56,9 +56,11 @@
 - Item Ball: Located at (19, 25) (immediately east of statue switch).
 - Southeast Room Entrance: Open doorway at (13, 22..23) connecting column 12 to (14, 22..23). Column 13 is a solid wall at rows 24-27 (row 26 cannot be entered directly from column 12).
 - Route to Switch/Item: From column 12 -> (13, 22..23) doorway -> (14, 23) -> South to row 26 (14, 26) -> East along row 26 to (18..19, 26) -> (18, 25) switch / (19, 25) item ball.
-### B1F Staircase Location & South Boundary (Verified Turn 20524)
-- Southeast Corner at (26..27, 27): Solid exterior wall / dead-end (not a staircase or doorway).
-- Descending Staircase to B1F: Located in the Enclosed East Wing at (26, 17) with Scientist NPC at (27, 11). Accessible via 3F Left Balcony Drop to 1F South Wing.
+### Tested Immobile Tiles & False Warps (Empirically Verified)
+- (26..28, 17): Solid horizontal table/railing barrier with no coordinate warp (tested Turns 20516, 20722).
+- (26..27, 27): Solid exterior wall / dead-end (tested Turn 20524, 20725).
+- (23, 22): Decorative pedestal/display, not a floor warp.
+- (16..19, 19) & (16..19, 23): Decorative garden statues, non-interactive (tested Turn 20729).
 - Item Ball at (1, 22): Full Restore [Collected Turn 20065]
 ### East Wing Layout & B1F Access (Verified Turns 20508-20518)
 - East Wing corridor runs along cols 26-28 from row 12 south to row 27.
