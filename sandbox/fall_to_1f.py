@@ -64,11 +64,11 @@ def walk_path(coords):
 pos = mgba.get_coordinates()
 print(f"Starting fall_to_1f script from {pos}")
 
-# Walk from (2, 6) to (22, 2) on 3F East using Column 1 and Row 2 (State A open path!)
+# Walk from (3, 5) to (22, 2) on 3F East using Column 4 and Row 2 (State A open path!)
 to_verify_path = [
-    (1, 6),
-    (1, 5), (1, 4), (1, 3), (1, 2),
-    (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
+    (4, 5),
+    (4, 4), (4, 3), (4, 2),
+    (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
 ]
 
 res = walk_path(to_verify_path)
