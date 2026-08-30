@@ -7,7 +7,7 @@
 - **Row 8 Debris:** Blocked by solid rubble on Columns 8-11, making Row 8 impassable horizontally on these columns.
 - **Column 12 Vertical Passage:** Completely open vertically on Rows 6-12, providing an alternate vertical passage on 3F West.
 - **Column 19 Row 17 Solid Wall (Verified Turn 67854):** Column 19 Row 17 is a permanent, solid wall/cabinet structure in both State A and State B, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
-- **Balcony Access Route (Verified Turn 67854):** To access the balcony drop at (19, 18) in State A, you must walk down Column 20 or Column 21 through the open shutter gates at (20, 17) or (21, 17) to Row 18, and then walk Left to (19, 18).
+- **Balcony Access Route (Verified Turn 67854):** To access the balcony drop at (19, 18), we must find a valid way through. However, the exact configuration of balcony gates in State A vs State B is still under investigation.
 
 ## 3F East - Mapping & Boundaries
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
