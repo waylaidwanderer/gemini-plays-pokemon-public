@@ -1327,7 +1327,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## 3F East - Mapping & Boundaries
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
 - **Row 3 Horizontal Opening:** Row 3 is completely open across Column 22, allowing horizontal passage between 3F West/Middle and the northeastern Scientist room.
-- **The Pitfall Trap is at (18, 16):** Located on Column 18, Row 16. Walking onto (18, 16) in State A drops the player to 1F East inside the fenced room. (Verified Turn 68591 visually and verified column connections).
+
 
 ## State B Proven Isolation & Blockages (Verified Turn 66911)
 - **Western, Central, and Eastern Sections are Isolated:** In State B, 3F is divided into completely isolated vertical strips below Row 3:
