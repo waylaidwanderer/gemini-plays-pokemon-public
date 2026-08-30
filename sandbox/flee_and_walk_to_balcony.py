@@ -66,12 +66,10 @@ def flee_battle():
 # 1. Flee from the Ponyta battle
 flee_battle()
 
-# 2. Path from current (12, 5) after fleeing to the balcony drop
+# 2. Path from current (19, 3) after fleeing to the balcony drop
 path = [
-    # Walk up Column 12 to Row 3
-    (12, 4), (12, 3),
     # Walk right along Row 3 to Column 25
-    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
+    (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
     # Walk down Column 25 to Row 16 (gate at 25,13 open in State A)
     (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
     # Walk left along Row 16 to Column 21
