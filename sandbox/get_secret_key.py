@@ -64,32 +64,19 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# We are on 3F at (11, 10) in State A.
-# Path to the balcony drop at (19, 18).
+# We are at (26, 5) on 3F East in State A.
+# Walk path to the balcony drop at (19, 18) via Column 27 (to avoid Column 26 pitfall!).
 balcony_path = [
-    # 1. Walk RIGHT to Column 12
-    (12, 10),
-    # 2. Walk UP Column 12 to Row 6 (bypassing the Column 10 rubble on Row 8)
-    (12, 9), (12, 8), (12, 7), (12, 6),
-    # 3. Walk LEFT to Column 10 on Row 6
-    (11, 6), (10, 6),
-    # 4. Walk UP Column 10 to Row 3
-    (10, 5), (10, 4), (10, 3),
-    # 5. Walk RIGHT along Row 3 to Column 25
-    (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-    # 6. Walk DOWN Column 25 to Row 17
-    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
-    # 7. Walk LEFT along Row 17 to Column 19 (through open State A gates)
-    (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
-    # 8. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
+    # 1. Walk RIGHT to Column 27
+    (27, 5),
+    # 2. Walk DOWN Column 27 to Row 17
+    (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16), (27, 17),
+    # 3. Walk LEFT along Row 17 to Column 19 (through open State A balcony gates)
+    (26, 17), (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+    # 4. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
     (19, 18)
 ]
 
-# 1. Dismiss "Got away safely!" textbox
-print("Dismissing battle screen...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-print("Walking to the balcony at (19, 18) from (11, 10) via Column 12 & Row 3 bypass...")
+print("Walking to the balcony at (19, 18) from (26, 5) via Column 27...")
 res = walk_path(balcony_path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
