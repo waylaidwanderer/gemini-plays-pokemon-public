@@ -45,14 +45,11 @@ def walk_route(path):
                     print(f"[{i}] Arrived at ({tx}, {ty})")
                     break
                 else:
-                    # If coordinates changed but don't match, maybe we got displaced.
-                    # We will let the loop try to recover of its own accord by moving to target.
                     print(f"Displaced to {new_pos}. Retrying target ({tx}, {ty}).")
                     time.sleep(0.3)
 
-# Generate path from current position (17, 4)
+# Generate path from current position (17, 3)
 path = [
-    (17, 3),
     (17, 2),
     (17, 1),
 ]
