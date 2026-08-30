@@ -45,35 +45,21 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-def flee_battle():
-    print("Clearing encounter text...")
-    mgba.press_buttons(["A"])
-    time.sleep(2.0)
-
-    print("Clearing player summon text...")
-    mgba.press_buttons(["A"])
-    time.sleep(2.5)
-
-    print("Navigating menu to RUN...")
-    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A"])
-    time.sleep(2.0)
-
-    print("Clearing escape text...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    print("Fled battle.")
-
-# 1. Flee from the wild battle
-flee_battle()
-
-# 2. Walk to the stairs at (22, 4) from (22, 3)
+# Walk from current (21, 4) to stairs entrance at (22, 5) via Column 26
 path = [
+    # 1. UP to Row 3
     (21, 3),
-    (21, 4),
-    (22, 4)
+    # 2. Right to Column 26 (pitfall closed/walkable in State B)
+    (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+    # 3. DOWN Column 26 to Row 5
+    (26, 4), (26, 5),
+    # 4. Left to Column 23
+    (25, 5), (24, 5), (23, 5),
+    # 5. Left into staircase at (22, 5) -> triggers warp!
+    (22, 5)
 ]
 
-print("Walking to stairs...")
+print("Walking to stairs entrance at (22, 5)...")
 res = walk_path_safe(path)
 print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
 
