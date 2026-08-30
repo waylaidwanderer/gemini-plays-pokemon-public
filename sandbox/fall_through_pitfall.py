@@ -13,12 +13,14 @@ def flee_battle():
         time.sleep(0.4)
 
 def walk_to_2f_pitfall():
-    # Currently at (27, 12) on 2F East
+    # Currently at (28, 12) on 2F East
     path = [
-        # 1. UP Column 27 to Row 11
-        (27, 11),
-        # 2. Left along Row 11 to Column 16
+        # 1. Left to Column 26
+        (27, 12),
+        (26, 12),
+        # 2. UP Column 26 to Row 11
         (26, 11),
+        # 3. Left along Row 11 to Column 16
         (25, 11),
         (24, 11),
         (23, 11),
@@ -29,7 +31,7 @@ def walk_to_2f_pitfall():
         (18, 11),
         (17, 11),
         (16, 11),
-        # 3. DOWN Column 16 to Row 14 (Expected 2F East pitfall!)
+        # 4. DOWN Column 16 to Row 14 (Expected 2F East pitfall!)
         (16, 12),
         (16, 13),
         (16, 14)
@@ -77,7 +79,7 @@ def walk_to_2f_pitfall():
                     print(f"[{i}] Arrived at ({tx}, {ty})")
                     break
 
-    # If we reached (16, 14) but didn't fall, try stepping Left to (15, 14) or DOWN to (16, 15)
+    # If we reached (16, 14) but didn't fall, try stepping Down to (16, 15)
     pos = mgba.get_coordinates()
     if pos['x'] == 16 and pos['y'] == 14:
         print("At (16, 14). Trying to step Down to (16, 15) to trigger pitfall...")
