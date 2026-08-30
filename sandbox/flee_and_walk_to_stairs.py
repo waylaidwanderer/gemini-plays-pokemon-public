@@ -2,12 +2,14 @@ import mgba
 import time
 
 def step_strict(direction, target_x, target_y):
+    # Allow 2 attempts per step to handle turning-in-place/lag
     for attempt in range(2):
         pos_before = mgba.get_coordinates()
         mgba.press_buttons([direction])
         time.sleep(0.4)
         pos_after = mgba.get_coordinates()
         
+        # Check if coordinates changed significantly, indicating a warp
         if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
             print(f"WARPED! From {pos_before} to {pos_after}")
             return "WARPED"
@@ -45,14 +47,44 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Walk from current (21, 4) to staircase at (17, 7)
+def flee_battle():
+    print("Clearing encounter text...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.0)
+
+    print("Clearing player summon text...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+
+    print("Navigating menu to RUN...")
+    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A"])
+    time.sleep(2.0)
+
+    print("Clearing escape text...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    print("Fled battle.")
+
+# 1. Flee from the Koffing battle
+flee_battle()
+
+# 2. Walk remaining path to the northeast stairs area
 path = [
-    (20, 4), (19, 4), (18, 4), (17, 4),
-    (17, 5), (17, 6),
-    (17, 7)
+    # UP Column 5 to Row 1
+    (5, 7), (5, 6), (5, 5), (5, 4), (5, 3), (5, 2), (5, 1),
+    # Right along Row 1 to Column 22
+    (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1),
+    # DOWN to (22, 2)
+    (22, 2)
 ]
 
-print("Walking to potential staircase at (17, 7)...")
+print("Walking to northeast area at (22, 2)...")
 res = walk_path_safe(path)
-print(f"Walk result: {res}. End position: {mgba.get_coordinates()}")
+print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+
+if mgba.get_coordinates() == {'x': 22, 'y': 2}:
+    # Test warp: step UP to (22, 1)
+    print("Testing UP from (22, 2)...")
+    res_warp = step_strict("Up", 22, 1)
+    print(f"Warp result: {res_warp}. Position: {mgba.get_coordinates()}")
 
