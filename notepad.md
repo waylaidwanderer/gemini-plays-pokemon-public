@@ -2446,8 +2446,8 @@
 5. On 2F: Walk to (6, 1) stairs -> ascend to 3F.
 6. On 3F (State B): Walk through open (15, 4..5) shutter gate to (19, 14) (Right Balcony Pit).
 7. Step Down into the **Right Balcony Pit at (19, 14)** -> lands on 1F at (18, 14).
-8. On 1F (State B): Walk North through open (18..19, 8) shutter gate to row 10-12, then East to column 26/27.
-9. Descend staircase to **Pokémon Mansion B1F**.
+8. On 1F (State B): Walk North through open (18..19, 8) shutter gate to northern hallway (row 3), then East to column 26.
+9. Walk South along column 26 towards staircase at (25, 14) to enter B1F.
 10. Explore B1F and retrieve the **Secret Key**!
 
 <hr>
