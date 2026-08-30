@@ -1341,7 +1341,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
 1. **Toggle Switch to State A:** From 3F East, walk via Column 26 Row 1 and Row 1 horizontally to 3F West Column 2 Row 6, face UP and toggle the Mewtwo switch at (2, 5) to State A (using exactly 5 A-presses since the default is YES).
-2. **Fall through Pitfall:** Walk to Column 26 on 3F East and walk Down to trigger the pitfall. In State A, the pitfall is OPEN, and walking onto it drops you to 1F East inside the fenced room.
+2. **Fall through Pitfall (Under Investigation):** The exact location and state required for the 3F East pitfall is currently under investigation.
 3. **Ascend via 2F East:**
    - From 1F East fenced room, take the stairs down to B1F East.
    - Walk through 1F West to the stairs up to 2F West.
