@@ -38,3 +38,8 @@
 - State A (Default): Doorway (26..27, 4) and (4, 7) OPEN; Shutter at (9, 4..5) OPEN; Shutters at (21, 17) and (26..27, 27) CLOSED.
 - State B (Toggled): Shutter at (21, 17) OPEN; Shutter at (26..27, 27) CLOSED/Solid; Shutter at (9, 4..5) CLOSED (verified Turn 19762).
 - Column 9 Divider: Vertical wall at rows 0-3 and rows 6-8. Open hallway gap connecting West and East wings is at rows 4-5 (cols 6-12) with shutter gate at (9, 4..5).
+
+## Verified 2F Statue Switch Location (Turn 20697)
+- Mewtwo statue switch on 2F is located at (10, 4..5) (head at (10, 4), base/switch at (10, 5)).
+- Interactable from (10, 6) facing Up or from (11, 5) facing Left.
+- Toggling this switch changes the global mansion state to State B, opening shutter gates on 3F.
