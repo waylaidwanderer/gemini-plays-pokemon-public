@@ -1,37 +1,26 @@
 import mgba
 import time
 
-# Global button counter
 button_count = 0
 
 def press_buttons_safe(buttons):
     global button_count
-    # Check if this sequence would exceed 85 buttons
     if button_count + len(buttons) > 85:
         print(f"Approaching button limit ({button_count} pressed). Safe abort to prevent emulator limit.")
         return False
-    
     mgba.press_buttons(buttons)
     button_count += len(buttons)
     return True
 
 def flee_battle():
     print("Fleeing battle...")
-    # Press B a few times
     for _ in range(5):
-        if not press_buttons_safe(["B"]):
-            return False
+        if not press_buttons_safe(["B"]): return False
         time.sleep(0.4)
-    
-    # RUN is Down, Right, A
-    if not press_buttons_safe(["Down", "Right", "A"]):
-        return False
+    if not press_buttons_safe(["Down", "Right", "A"]): return False
     time.sleep(2.0)
-    
-    # Clear final message
     for _ in range(3):
-        if not press_buttons_safe(["B"]):
-            return False
+        if not press_buttons_safe(["B"]): return False
         time.sleep(0.4)
     return True
 
@@ -76,39 +65,52 @@ def walk_route(path):
                     time.sleep(0.3)
     return True
 
-# Generate path from current position (18, 4)
-path = []
-
-# Step 1: UP Column 18 to Row 1
-for y in range(3, 0, -1):
-    path.append((18, y))
-
-# Step 2: Walk Left along Row 1 to Column 4
-for x in range(17, 3, -1):
-    path.append((x, 1))
-
-# Step 3: Down Column 4 to Row 5
-path.append((4, 2))
-path.append((4, 3))
-path.append((4, 4))
-path.append((4, 5))
-
-# Step 4: Bypass (4, 6) closed gate using Column 3
-path.append((3, 5))
-for y in range(6, 15):
-    path.append((3, y))
-
-# Step 5: Walk Right to Column 10 on Row 14
-for x in range(4, 11):
-    path.append((x, 14))
-
-# Step 6: Down Column 10 to Row 16
-path.append((10, 15))
-path.append((10, 16))
-
-# Step 7: Right along Row 16 to the pitfall at (18, 16)
-for x in range(11, 19):
-    path.append((x, 16))
+# Path from (3, 8)
+path = [
+    # 1. UP Column 3 to Row 3
+    (3, 7),
+    (3, 6),
+    (3, 5),
+    (3, 4),
+    (3, 3),
+    # 2. Right along Row 3 to Column 12
+    (4, 3),
+    (5, 3),
+    (6, 3),
+    (7, 3),
+    (8, 3),
+    (9, 3),
+    (10, 3),
+    (11, 3),
+    (12, 3),
+    # 3. DOWN Column 12 to Row 12
+    (12, 4),
+    (12, 5),
+    (12, 6),
+    (12, 7),
+    (12, 8),
+    (12, 9),
+    (12, 10),
+    (12, 11),
+    (12, 12),
+    # 4. Left to Column 10 on Row 12
+    (11, 12),
+    (10, 12),
+    # 5. DOWN Column 10 to Row 16
+    (10, 13),
+    (10, 14),
+    (10, 15),
+    (10, 16),
+    # 6. Right to Column 18 on Row 16
+    (11, 16),
+    (12, 16),
+    (13, 16),
+    (14, 16),
+    (15, 16),
+    (16, 16),
+    (17, 16),
+    (18, 16),
+]
 
 print(f"Path to pitfall (18, 16): {len(path)} steps")
 success = walk_route(path)
