@@ -64,16 +64,16 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (13, 4)
+# Start at current (10, 6)
 path = [
-    # 1. Walk UP to Row 3
-    (13, 3),
-    # 2. Walk LEFT along Row 3 to Column 5 on 3F West (completely open horizontally!)
-    (12, 3), (11, 3), (10, 3), (9, 3), (8, 3), (7, 3), (6, 3), (5, 3),
+    # 1. Walk UP Column 10 to Row 2
+    (10, 5), (10, 4), (10, 3), (10, 2),
+    # 2. Walk LEFT along Row 2 to Column 5 (completely open across Column 9 wall!)
+    (9, 2), (8, 2), (7, 2), (6, 2), (5, 2),
     # 3. Walk DOWN Column 5 to Row 10 (stairs warp!)
-    (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10)
+    (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10)
 ]
 
-print("Walking from (13, 4) to 3F West stairs along Row 3...")
+print("Walking from (10, 6) to 3F West stairs via Row 2...")
 res = walk_path(path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
