@@ -2292,7 +2292,6 @@
 - Row 17 Horizontal Table Barrier: Solid barrier across (1..9, 17). The ONLY north-south opening through row 17 is at (10..12, 17).
 - Column 25 Vertical Wall: Solid divider across (25, 9..16) separating East Wing landing (cols 18-24) from B1F Staircase corridor (cols 26-28).
 - Column 9 Vertical Wall: Solid divider across (9, 9..16) separating Central Hallway (cols 1-8) from East corridor (cols 10-12).
-- Table/Railing Barrier at (26..27, 17): Table barrier dividing east corridor.
 - Southeast Corner at (26..27, 27): Dead-end alcove; no doorway or external transition.
 ### Southeast Enclosed Room & Switch (Verified Turns 19959-19969)
 - Mewtwo Statue Switch: Located at (18, 25). Interactable from (18, 26) facing Up or (17, 25) facing Right. Toggles global mansion shutters between State A and State B.
