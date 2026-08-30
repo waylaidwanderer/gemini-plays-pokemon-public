@@ -2320,7 +2320,7 @@
 ## 1F East Corridor Exploration (Verified Turns 20508-20530)
 - 1F NW Mewtwo statue switch at (2, 5) toggles global shutter doors.
 - In State A, shutter gate at (24..25, 13) is open, allowing exploration of eastern corridor (cols 24-28, rows 12-27).
-- South end at (26..27, 27) is a dead end (solid exterior wall). B1F access requires 3F balcony drop.
+- South end at (26..27, 27) is a dead end (solid exterior wall).
 
 <hr>
 
