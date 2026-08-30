@@ -14,40 +14,15 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (21, 3) on 3F East (Mansion is in State B)
+# Starting at current (4, 5) on 3F West
 path_to_switch = [
-    # Continue Left on Row 3
-    ("Left", 20, 3),
-    ("Left", 19, 3),
-    ("Left", 18, 3),
-    ("Left", 17, 3),
-    ("Left", 16, 3),
-    ("Left", 15, 3),
-    ("Left", 14, 3),
-    ("Left", 13, 3),
-    ("Left", 12, 3),
-    ("Left", 11, 3),
-    ("Left", 10, 3),
-    # Bypasses Column 9 partition wall using Row 2 detour
-    ("Up", 10, 2),
-    ("Left", 9, 2),
-    ("Left", 8, 2),
-    ("Down", 8, 3),
-    # Continue Left on Row 3
-    ("Left", 7, 3),
-    ("Left", 6, 3),
-    ("Left", 5, 3),
-    ("Left", 4, 3),
-    # Walk DOWN Column 4 to Row 6
-    ("Down", 4, 4),
-    ("Down", 4, 5),
-    ("Down", 4, 6),
-    # Walk Left to Column 2 Row 6
-    ("Left", 3, 6),
+    # 1. Walk to (2, 6) via (3, 5) -> (3, 6) -> (2, 6)
+    ("Left", 3, 5),
+    ("Down", 3, 6),
     ("Left", 2, 6)
 ]
 
-print("Executing precise path to Mewtwo Switch at (2, 5)...")
+print("Executing path from (4, 5) to Mewtwo Switch...")
 arrived = True
 for direction, tx, ty in path_to_switch:
     if not move_strict(direction, tx, ty):
