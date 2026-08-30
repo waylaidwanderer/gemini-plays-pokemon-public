@@ -14,12 +14,9 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (25, 3) on 3F East
+# Starting at current (26, 4) on 3F East
 path = [
-    # 1. Walk Right to Column 26
-    ("Right", 26, 3),
-    # 2. Walk DOWN Column 26 to Row 12 (bypasses horizontal wall at 25,4)
-    ("Down", 26, 4),
+    # 1. Walk DOWN Column 26 to Row 12 (bypasses horizontal wall at 25,4)
     ("Down", 26, 5),
     ("Down", 26, 6),
     ("Down", 26, 7),
@@ -28,22 +25,22 @@ path = [
     ("Down", 26, 10),
     ("Down", 26, 11),
     ("Down", 26, 12),
-    # 3. Walk Left to Column 25
+    # 2. Walk Left to Column 25
     ("Left", 25, 12),
-    # 4. Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
+    # 3. Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
     ("Down", 25, 13),
     ("Down", 25, 14),
     ("Down", 25, 15),
     ("Down", 25, 16),
-    # 5. Walk Left along Row 16 to Column 21
+    # 4. Walk Left along Row 16 to Column 21
     ("Left", 24, 16),
     ("Left", 23, 16),
     ("Left", 22, 16),
     ("Left", 21, 16),
-    # 6. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
+    # 5. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17),
     ("Down", 21, 18),
-    # 7. Walk Left to balcony drop warp at (19, 18)
+    # 6. Walk Left to balcony drop warp at (19, 18)
     ("Left", 20, 18),
     ("Left", 19, 18)
 ]
