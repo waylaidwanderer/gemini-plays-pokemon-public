@@ -64,13 +64,11 @@ def walk_path(coords):
 pos = mgba.get_coordinates()
 print(f"Starting descent to 2F from {pos}")
 
-# Walk from (4, 8) to (5, 10) stairs using Column 5, Row 2, Column 10, Row 10
+# Walk from (11, 7) to (5, 10) stairs using Column 12 and Row 10
 path = [
-    (5, 8),
-    (5, 7), (5, 6), (5, 5), (5, 4), (5, 3), (5, 2),
-    (6, 2), (7, 2), (8, 2), (9, 2), (10, 2),
-    (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10),
-    (9, 10), (8, 10), (7, 10), (6, 10), (5, 10)
+    (12, 7),
+    (12, 8), (12, 9), (12, 10),
+    (11, 10), (10, 10), (9, 10), (8, 10), (7, 10), (6, 10), (5, 10)
 ]
 
 res = walk_path(path)
