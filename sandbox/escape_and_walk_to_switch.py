@@ -46,33 +46,31 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Exit moves menu and escape battle
-print("Closing moves menu and escaping...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
-# Main battle menu should be open now. Let's select RUN.
-print("Selecting RUN...")
-mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
-time.sleep(2.0) # Wait for escape animation and text
-
-# Dismiss "Got away safely!" text
-print("Dismissing escape text...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-print("Coordinates after escape:", mgba.get_coordinates())
-
-# 2. Walk from (6, 1) to (2, 6) via Row 3
+# Start at current (4, 3)
 path = [
-    # 1. Down Column 6 to Row 3
-    (6, 2), (6, 3),
-    # 2. Left Row 3 to Column 2
-    (5, 3), (4, 3), (3, 3), (2, 3),
-    # 3. Down Column 2 to (2, 6)
-    (2, 4), (2, 5), (2, 6)
+    (4, 4),
+    (3, 4),
+    (3, 5)
 ]
 
-print("Walking to (2, 6) on 3F West via Row 3...")
+print("Walking from (4, 3) to (3, 5) next to Mewtwo Switch...")
 res = walk_path_strict(path)
-print(f"Result: {res}. Final position: {mgba.get_coordinates()}")
+print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+
+if mgba.get_coordinates() == {'x': 3, 'y': 5}:
+    # Face Left towards (2, 5)
+    print("Facing Left...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    
+    # Toggle switch with 4 A-presses and 2.5-second delays
+    print("Toggling the Mewtwo switch...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    print("Mewtwo switch toggled to State A successfully!")
