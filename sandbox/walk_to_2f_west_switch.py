@@ -49,30 +49,27 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# We are at (23, 11) on 3F East in State A.
-# 1. Walk to 3F East stairs at (22, 1) via Column 26/27 bypass and go down to 2F East
-stairs_path_3f = [
-    # Walk RIGHT to Column 26
-    (24, 11), (25, 11), (26, 11),
-    # Walk UP Column 26 to Row 7 (safe from Row 6 pitfall)
-    (26, 10), (26, 9), (26, 8), (26, 7),
-    # Walk RIGHT to Column 27
-    (27, 7),
-    # Walk UP Column 27 to Row 3 (bypassing Row 10/11 rubble on Column 27)
-    (27, 6), (27, 5), (27, 4), (27, 3),
-    # Walk LEFT along Row 3 to Column 22 (safe from Column 26 Row 3 pitfall)
-    (26, 3), (25, 3), (24, 3), (23, 3), (22, 3),
-    # Walk UP Column 22 to (22, 1) (staircase warp)
+# 1. Dismiss "Got away safely!" textbox
+print("Dismissing battle screen...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+pos = mgba.get_coordinates()
+print(f"Position in overworld: {pos}")
+
+# Walk from current (26, 3) to the northeast stairs warp (22, 1) on 3F East
+path_3f = [
+    (25, 3), (24, 3), (23, 3), (22, 3),
     (22, 2),
-    (22, 1)
+    (22, 1) # Staircase warp
 ]
 
-print("Walking to 3F East stairs...")
-res = walk_path(stairs_path_3f)
-print(f"Stairs result: {res}. Position: {mgba.get_coordinates()}")
+print("Walking to the 3F East stairs...")
+res = walk_path(path_3f)
+print(f"3F path result: {res}. Position: {mgba.get_coordinates()}")
 
-# 2. On 2F East (landing at (22, 1) on 2F East):
-# Walk down Column 22 to Row 11, then Left across Row 11 to 2F West (2, 12)
+# On 2F East (landing at 22, 1 on 2F East):
+# Walk to 2F West (2, 12) via Row 11
 if mgba.get_coordinates() == {'x': 22, 'y': 1}:
     to_2f_west_path = [
         (22, 2), (22, 3), (22, 4), (22, 5), (22, 6), (22, 7), (22, 8), (22, 9), (22, 10), (22, 11),
@@ -82,3 +79,19 @@ if mgba.get_coordinates() == {'x': 22, 'y': 1}:
     print("Walking on 2F East to 2F West switch...")
     res_2f = walk_path(to_2f_west_path)
     print(f"2F walk result: {res_2f}. Position: {mgba.get_coordinates()}")
+    
+    if mgba.get_coordinates() == {'x': 2, 'y': 12}:
+        # Face UP
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        # Toggle Mewtwo switch to State B with 4 A-presses
+        print("Toggling Mewtwo switch to State B...")
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
