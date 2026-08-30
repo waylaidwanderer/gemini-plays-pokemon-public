@@ -15,10 +15,8 @@ def take_step(direction, target_x, target_y):
         print(f"FAILED to reach ({target_x}, {target_y}). Actual position: {pos_after}")
         return False
 
-# Starting from current (5, 3) in State B
+# Starting from current (4, 2) in State B
 steps = [
-    ("Left", 4, 3),
-    ("Up", 4, 2),
     ("Left", 3, 2), # bypass NPC at (3, 3)
     ("Left", 2, 2),
     ("Down", 2, 3),
@@ -27,7 +25,7 @@ steps = [
     ("Down", 2, 6)  # Stand below the switch
 ]
 
-print("Executing steps to reach the Mewtwo Switch from (5, 3)...")
+print("Executing steps to reach the Mewtwo Switch from (4, 2)...")
 for direction, tx, ty in steps:
     success = take_step(direction, tx, ty)
     if not success:
