@@ -2285,7 +2285,7 @@
 | (9, 4..5) Shutter Gate | 1F | OPEN | CLOSED |
 | (24..25, 13) Shutter Gate | 1F | OPEN | CLOSED |
 | (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
-| (21, 17) Shutter Gate | 2F | CLOSED | OPEN |
+| (24..25, 17) Passage | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
 
 <hr>
@@ -2335,9 +2335,10 @@
 - Column 9 Divider: Vertical wall at rows 0-3 and rows 6-8. Open hallway gap connecting West and East wings is at rows 4-5 (cols 6-12) with shutter gate at (9, 4..5).
 
 
-## Verified Collision Boundaries & Topography
-- Empirical Test (Turn 21017): Shutter at (21, 17) is CLOSED in State A; stepping Down into (21, 17) resulted in a 0-tile collision.
- (Turns 20980-21000)
+## Verified Collision Boundaries & Topography (Turns 20980-21067)
+- Shutter Barriers (Row 17): Gate at (20..21, 17) is CLOSED; passage at (24..25, 17) is CLOSED in State A, OPEN in State B; col 17 has Burglar trainer at (17, 17).
+- Southeast Sector (cols 24-28, rows 19-27): Divided from staircase area by col 24 wall (rows 19-23) and cols 24-25 rubble (rows 24-27). Shutter at (26..27, 27) is CLOSED in State B.
+- Route to 3F Stairs at (21, 23): From row 16, walk south down col 17 past Burglar at (17, 17) to (17, 20), east along row 20 to (21, 20), and south to (21, 23).
 - Central Hallway (cols 4-7, rows 10-27): Southern end dead-ends at solid wall at (4..7, 27). No stairs at south end of central carpet.
 - Column 12 Thoroughfare: Open from row 1 to row 12; BLOCKED at row 13 by solid horizontal wall at (11..17, 13).
 - Row 13 Bypass: Open passage between upper (rows 9-12) and lower (rows 14-27) corridors is at cols 8-10 (8..10, 13).
