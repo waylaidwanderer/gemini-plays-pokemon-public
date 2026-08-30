@@ -64,29 +64,17 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Path from (7, 10) on 2F West to northeast stairs at (22, 1) in State A
-stairs_path = [
-    # 1. DOWN to Row 11
-    (7, 11),
-    # 2. RIGHT along Row 11 to Column 10 (bypassing the Row 9 solid partition wall)
-    (8, 11), (9, 11), (10, 11),
-    # 3. UP Column 10 to Row 6 (bypassing the Column 10 rubble on Row 8-9)
-    (10, 10), (10, 9), (10, 8), (10, 7), (10, 6),
-    # 4. RIGHT along Row 6 to Column 19
-    (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
-    # 5. UP Column 19 to Row 4
-    (19, 5), (19, 4),
-    # 6. RIGHT to Column 21
-    (20, 4), (21, 4),
-    # 7. UP Column 21 to Row 3
-    (21, 3),
-    # 8. RIGHT to Column 22
-    (22, 3),
-    # 9. UP Column 22 to stairs warp at (22, 1) (OPEN in State A!)
-    (22, 2),
-    (22, 1)
+# We are at (12, 8) on 2F East in State A
+path_to_stairs = [
+    # 1. UP Column 12 to Row 6
+    (12, 7),
+    (12, 6),
+    # 2. RIGHT along Row 6 to Column 22
+    (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6), (22, 6),
+    # 3. UP Column 22 to Row 1 (staircase warp)
+    (22, 5), (22, 4), (22, 3), (22, 2), (22, 1)
 ]
 
-print("Walking to the northeast stairs on 2F East...")
-res = walk_path(stairs_path)
+print("Walking from (12, 8) to northeast stairs at (22, 1) in State A...")
+res = walk_path(path_to_stairs)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
