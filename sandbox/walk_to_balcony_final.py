@@ -14,12 +14,24 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (26, 12) on 3F East
+# Starting at current (21, 3) on 3F East
 path = [
-    # 1. Walk Left to Column 25
-    ("Left", 25, 12),
-    # 2. Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
-    ("Down", 25, 13),
+    # 1. Continue Right along Row 3 to Column 25
+    ("Right", 22, 3),
+    ("Right", 23, 3),
+    ("Right", 24, 3),
+    ("Right", 25, 3),
+    # 2. Walk DOWN Column 25 to Row 16
+    ("Down", 25, 4),
+    ("Down", 25, 5),
+    ("Down", 25, 6),
+    ("Down", 25, 7),
+    ("Down", 25, 8),
+    ("Down", 25, 9),
+    ("Down", 25, 10),
+    ("Down", 25, 11),
+    ("Down", 25, 12),
+    ("Down", 25, 13), # Gate is open in State A
     ("Down", 25, 14),
     ("Down", 25, 15),
     ("Down", 25, 16),
@@ -36,7 +48,7 @@ path = [
     ("Left", 19, 18)
 ]
 
-print("Executing precise detour walk to balcony drop in State A...")
+print("Executing precise walk to balcony drop in State A...")
 for direction, tx, ty in path:
     if not move_strict(direction, tx, ty):
         break
