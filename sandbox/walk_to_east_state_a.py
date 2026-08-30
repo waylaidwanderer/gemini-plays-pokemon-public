@@ -6,7 +6,7 @@ button_count = 0
 def press_buttons_safe(buttons):
     global button_count
     if button_count + len(buttons) > 85:
-        print(f"Approaching button limit ({button_count} pressed). Safe abort to prevent emulator limit.")
+        print(f"Approaching button limit ({button_count} pressed). Safe abort.")
         return False
     mgba.press_buttons(buttons)
     button_count += len(buttons)
@@ -65,55 +65,71 @@ def walk_route(path):
                     time.sleep(0.3)
     return True
 
-# Path from current position (25, 12) to switch at (3, 5)
+# Path from current position (2, 6) to (18, 16) in State A
 path = [
-    # 1. Right to Column 26
-    (26, 12),
-    # 2. UP Column 26 to Row 1
-    (26, 11),
-    (26, 10),
-    (26, 9),
-    (26, 8),
-    (26, 7),
-    (26, 6),
-    (26, 5),
-    (26, 4),
-    (26, 3),
-    (26, 2),
-    (26, 1),
-    # 3. Left along Row 1 to Column 4
-    (25, 1),
-    (24, 1),
-    (23, 1),
-    (22, 1),
-    (21, 1),
-    (20, 1),
-    (19, 1),
-    (18, 1),
-    (17, 1),
-    (16, 1),
-    (15, 1),
-    (14, 1),
-    (13, 1),
-    (12, 1),
-    (11, 1),
-    (10, 1),
-    (9, 1),
-    (8, 1),
-    (7, 1),
-    (6, 1),
-    (5, 1),
-    (4, 1),
-    # 4. DOWN Column 4 to Row 5
-    (4, 2),
-    (4, 3),
-    (4, 4),
-    (4, 5),
-    # 5. Left to (3, 5)
+    # 0. Walk from (2, 6) to (3, 5)
+    (3, 6),
     (3, 5),
+    # 1. Right to Column 4
+    (4, 5),
+    # 2. UP Column 4 to Row 1
+    (4, 4),
+    (4, 3),
+    (4, 2),
+    (4, 1),
+    # 3. Right along Row 1 to Column 26
+    (5, 1),
+    (6, 1),
+    (7, 1),
+    (8, 1),
+    (9, 1),
+    (10, 1),
+    (11, 1),
+    (12, 1),
+    (13, 1),
+    (14, 1),
+    (15, 1),
+    (16, 1),
+    (17, 1),
+    (18, 1),
+    (19, 1),
+    (20, 1),
+    (21, 1),
+    (22, 1),
+    (23, 1),
+    (24, 1),
+    (25, 1),
+    (26, 1),
+    # 4. DOWN Column 26 to Row 12
+    (26, 2),
+    (26, 3),
+    (26, 4),
+    (26, 5),
+    (26, 6),
+    (26, 7),
+    (26, 8),
+    (26, 9),
+    (26, 10),
+    (26, 11),
+    (26, 12),
+    # 5. Left to Column 25
+    (25, 12),
+    # 6. Walk DOWN Column 25 past Row 13 to Row 16
+    (25, 13),
+    (25, 14),
+    (25, 15),
+    (25, 16),
+    # 7. Walk Left to (18, 16) (the pitfall!)
+    (24, 16),
+    (23, 16),
+    (22, 16),
+    (21, 16),
+    (20, 16),
+    (19, 16),
+    (18, 16),
 ]
 
-print(f"Path to switch (3, 5): {len(path)} steps")
+print(f"Path to pitfall (18, 16) in State A: {len(path)} steps")
 success = walk_route(path)
 mgba.take_screenshot()
 print(f"Execution finished. Success: {success}. Final Position: {mgba.get_coordinates()}")
