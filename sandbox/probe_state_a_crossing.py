@@ -64,12 +64,12 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (7, 8)
+# Start at current (8, 6)
 path_to_balcony = [
-    # 1. Walk UP Column 7 to Row 2
-    (7, 7), (7, 6), (7, 5), (7, 4), (7, 3), (7, 2),
+    # 1. Walk UP Column 8 to Row 2
+    (8, 5), (8, 4), (8, 3), (8, 2),
     # 2. Walk RIGHT along Row 2 to Column 10
-    (8, 2), (9, 2), (10, 2),
+    (9, 2), (10, 2),
     # 3. Walk DOWN Column 10 to Row 3
     (10, 3),
     # 4. Walk RIGHT along Row 3 to Column 25 (completely open horizontally!)
@@ -80,6 +80,6 @@ path_to_balcony = [
     (25, 13), (25, 14), (25, 15)
 ]
 
-print("Probing path to balcony in State A...")
+print("Probing path to balcony in State A (via Column 8)...")
 res = walk_path(path_to_balcony)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
