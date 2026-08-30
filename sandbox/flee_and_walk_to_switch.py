@@ -47,6 +47,24 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
+def flee_battle():
+    print("Clearing encounter text...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.0)
+
+    print("Clearing player summon text...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+
+    print("Navigating menu to RUN...")
+    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A"])
+    time.sleep(2.0)
+
+    print("Clearing escape text...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    print("Fled battle.")
+
 def toggle_switch():
     print("Toggling Mewtwo Switch at (2, 11) from (2, 12)...")
     mgba.press_buttons(["Up"])
@@ -69,19 +87,22 @@ def toggle_switch():
     time.sleep(2.5)
     print("Switch toggle complete.")
 
-# 1. Walk from current (6, 11) on 2F West to (2, 12)
+# 1. Flee from the Ponyta battle
+flee_battle()
+
+# 2. Path from current (4, 11) on 2F West to (2, 12)
 path_to_switch = [
-    (5, 11), (4, 11), (3, 11), (3, 12), (2, 12)
+    (3, 11), (3, 12), (2, 12)
 ]
 
-print("Walking to 2F West switch from (6, 11)...")
+print("Walking to switch...")
 res = walk_path_safe(path_to_switch)
 print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 2, 'y': 12}:
     toggle_switch()
     
-    # 2. Walk back to (5, 11)
+    # 3. Path back to stairs at (5, 11)
     path_to_stairs = [
         (3, 12), (3, 11), (4, 11), (5, 11)
     ]
