@@ -47,17 +47,45 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# 1. Walk from (12, 10) to stairs at (22, 1) on 3F East in State B
-path_to_stairs = [
-    # Walk Up Column 12 to Row 3
-    (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
-    # Walk Right along Row 3 to Column 22
-    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3),
-    # Walk Up Column 22 to stairs at (22, 1)
-    (22, 2), (22, 1)
+def toggle_switch():
+    print("Toggling Mewtwo Switch at (2, 11) from (2, 12)...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    
+    print("Pressing A (1/4)...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    
+    print("Pressing A (2/4)...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    
+    print("Pressing A (3/4)...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    
+    print("Pressing A (4/4)...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    print("Switch toggle complete.")
+
+# 1. Path from current (5, 11) to (2, 12)
+path_to_switch = [
+    (4, 11), (3, 11), (3, 12), (2, 12)
 ]
 
-print("Walking to 3F East stairs at (22, 1)...")
-res = walk_path_safe(path_to_stairs)
-print(f"Path to stairs result: {res}. Position: {mgba.get_coordinates()}")
+print("Walking to switch...")
+res = walk_path_safe(path_to_switch)
+print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+
+if mgba.get_coordinates() == {'x': 2, 'y': 12}:
+    toggle_switch()
+    
+    # 2. Path back to stairs at (5, 11)
+    path_to_stairs = [
+        (3, 12), (3, 11), (4, 11), (5, 11)
+    ]
+    print("Walking back to 2F West stairs...")
+    res_back = walk_path_safe(path_to_stairs)
+    print(f"Walk back result: {res_back}. Position: {mgba.get_coordinates()}")
 
