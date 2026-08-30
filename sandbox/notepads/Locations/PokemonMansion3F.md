@@ -34,15 +34,6 @@
    - Take the northeast stairs at (22, 1) UP to 3F East.
 4. **Access Balcony:** Land on 3F East at (22, 1). In State A, walk DOWN Column 27 (since Column 27 is completely open vertically to Row 9, avoiding pitfalls) to Row 9, walk Left to Column 26 at (26, 9), then walk DOWN Column 26 (completely open vertically below Row 9 to Row 16) to Row 16, walk Left along Row 16 to Column 21, walk DOWN Column 21 through the open balcony gates at (21, 17) to Row 18, and walk Left to (19, 18) to trigger the balcony drop warp and drop to B1F West to retrieve the Secret Key! (Note: The shutter gate at (25, 13) is closed in State A, so Column 25 is blocked at Row 13).
 
-## Shutter Gate at (3, 6) Local Verification Logic (Verified Turn 67240)
-- **Mewtwo Switch Gate at (3, 6) on 3F West:**
-  - **State A:** CLOSED. Vertical and horizontal passage between `(2, 6)` and `(3, 6)` is completely BLOCKED by the closed shutter gate.
-  - **State B:** OPEN. Completely walkable and passable.
-  - **The Switch Gate Verification Protocol:**
-    - To 100% verify that State A is active locally after toggling, try to step Right from `(2, 6)` to `(3, 6)`.
-    - If you are BLOCKED (position remains at `(2, 6)`), then State A is active!
-    - If you successfully step to `(3, 6)`, then State B is active!
-
 ## Critical Switch Mechanics & Verification Constraints (Verified Turn 67356)
 - **4 A-Press Sequence Required:** To fully toggle any Mewtwo Switch statue (e.g. at (2, 5)) and cleanly restore the overworld without leaving dialogue boxes open, a strict 4 A-press sequence is REQUIRED:
   1. **A-Press 1:** Interacts with the statue. "A secret switch!" text scrolls onto screen.
