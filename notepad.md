@@ -2260,7 +2260,7 @@
 - Mewtwo Statue Switch: (2, 4..5) (base/switch at (2, 5)).
 - Large Wooden Table: (6..7, 4..5).
 - Green Display Table: (4, 6..7).
-- Top Hallway (Row 1-2): cols 1-12 open corridor connecting to column 12 thoroughfare over the top of the column 9 divider.
+- Column 9 Divider: Solid vertical wall from Row 0 to Row 8 with shutter gate at (9, 4..5) (OPEN in State A, CLOSED in State B).
 - South Divider (Row 9): Solid wall across cols 1-7.
 - Shutter Divider (Column 9): Closed metal shutter at (9, 4..7) in State B; OPEN in State A.
 
@@ -2286,7 +2286,6 @@
 | (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
 | (21, 17) Shutter Gate | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
-
 
 <hr>
 
