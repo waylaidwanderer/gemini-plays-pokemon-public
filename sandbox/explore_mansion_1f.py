@@ -3,7 +3,6 @@ import time
 
 def handle_battle_if_present():
     print("Checking/handling wild battle...")
-    # Escape Move-PP-Menu if accidentally entered
     for _ in range(2):
         mgba.press_buttons(["B"])
         time.sleep(0.5)
@@ -44,37 +43,20 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (28, 21) on 1F East
-# 1. Walk Left to Column 25 Row 21
-# 2. Walk UP Column 25 to Row 12 (bypassing Column 26 Row 18 rubble)
-# 3. Walk Right to Column 26 Row 12
-# 4. Walk UP Column 26 to Row 6 (bypassing Column 25 Row 8/9 counters)
-# 5. Walk Left along Row 6 to Column 5 on 1F West
-# 6. Walk DOWN Column 5 to Row 10 (stairs tile)
+# Starting from current (24, 11) on 1F East
+# Corrected route to 2F West stairs (5, 10) via Row 12 / Column 26 / Row 6
 path = [
-    ("Left", 27, 21),
-    ("Left", 26, 21),
-    ("Left", 25, 21),
-    # Walk UP Column 25 to Row 12
-    ("Up", 25, 20),
-    ("Up", 25, 19),
-    ("Up", 25, 18),
-    ("Up", 25, 17),
-    ("Up", 25, 16),
-    ("Up", 25, 15),
-    ("Up", 25, 14),
-    ("Up", 25, 13), # Open gate in State A
-    ("Up", 25, 12),
-    # Walk Right to Column 26
+    ("Right", 25, 11),
+    ("Down", 25, 12),
     ("Right", 26, 12),
-    # Walk UP Column 26 to Row 6
+    # Walk UP Column 26 to Row 6 (bypassing Column 25 Row 8/9 counters)
     ("Up", 26, 11),
     ("Up", 26, 10),
     ("Up", 26, 9),
     ("Up", 26, 8),
     ("Up", 26, 7),
     ("Up", 26, 6),
-    # Walk Left along Row 6 to Column 5
+    # Walk Left along Row 6 to Column 5 on 1F West (bypassing Column 18 Row 16 wall)
     ("Left", 25, 6),
     ("Left", 24, 6),
     ("Left", 23, 6),
@@ -103,11 +85,11 @@ path = [
     ("Down", 5, 10) # Stairs UP to 2F West!
 ]
 
-print("Executing 1F East to 2F West stairs route...")
+print("Executing 1F East to 2F West stairs route from (24, 11)...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
-    # Check if we warped to 2F West
-    if pos['y'] > 25 or abs(pos['x'] - 28) > 24:
+    # Check if we warped to 2F West (Coordinates on 2F West start at 5,10/5,11)
+    if pos['y'] > 25 or abs(pos['x'] - 24) > 22:
         print("Map transition detected! Stopping script.")
         break
     move_safe(step, x, y)
