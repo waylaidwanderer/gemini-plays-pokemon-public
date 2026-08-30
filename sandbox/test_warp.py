@@ -12,17 +12,56 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.4)
 
-def walk_to_pitfall():
-    # Currently at (20, 16)
+def walk_down_col12():
+    # From current position (26, 14)
     path = [
-        (21, 16),
-        (22, 16),
-        (23, 16),
-        (24, 16),
-        (25, 16),
-        (25, 15),
-        (25, 14),
-        (26, 14) # Expected pitfall!
+        # 1. UP Column 26 to Row 1
+        (26, 13),
+        (26, 12),
+        (26, 11),
+        (26, 10),
+        (26, 9),
+        (26, 8),
+        (26, 7),
+        (26, 6),
+        (26, 5),
+        (26, 4),
+        (26, 3),
+        (26, 2),
+        (26, 1),
+        # 2. Left to Column 12
+        (25, 1),
+        (24, 1),
+        (23, 1),
+        (22, 1),
+        (21, 1),
+        (20, 1),
+        (19, 1),
+        (18, 1),
+        (17, 1),
+        (16, 1),
+        (15, 1),
+        (14, 1),
+        (13, 1),
+        (12, 1),
+        # 3. DOWN Column 12 to Row 18
+        (12, 2),
+        (12, 3),
+        (12, 4),
+        (12, 5),
+        (12, 6),
+        (12, 7),
+        (12, 8),
+        (12, 9),
+        (12, 10),
+        (12, 11),
+        (12, 12),
+        (12, 13),
+        (12, 14),
+        (12, 15),
+        (12, 16),
+        (12, 17),
+        (12, 18),
     ]
     
     for i, target in enumerate(path):
@@ -49,29 +88,23 @@ def walk_to_pitfall():
             new_pos = mgba.get_coordinates()
             if new_pos == pos:
                 attempts += 1
-                print("Coordinates did not change. Checking for battle...")
+                print("Coordinates did not change. Checking for battle/barrier...")
                 flee_battle()
-                # Check if we fell through pitfall
                 chk_pos = mgba.get_coordinates()
                 if chk_pos['x'] != pos['x'] or chk_pos['y'] != pos['y']:
                     print(f"Warp detected after flee: {chk_pos}")
                     return True
             else:
                 attempts = 0
-                if tx == 26 and ty == 14:
-                    # If we try to step onto the pitfall and warp, our new position won't be (26, 14) on 3F
-                    # Let's check if the coordinates changed but don't match the target
-                    if new_pos['x'] != tx or new_pos['y'] != ty:
-                        print(f"WARP/FALL DETECTED! Landed at: {new_pos}")
-                        mgba.take_screenshot()
-                        return True
-                
                 if new_pos['x'] == tx and new_pos['y'] == ty:
                     print(f"[{i}] Arrived at ({tx}, {ty})")
                     break
-
+                else:
+                    print(f"Displaced to {new_pos}. Retrying target ({tx}, {ty}).")
+                    time.sleep(0.3)
+                    
     mgba.take_screenshot()
     print(f"Final Position: {mgba.get_coordinates()}")
     return False
 
-walk_to_pitfall()
+walk_down_col12()
