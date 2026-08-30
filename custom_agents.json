@@ -1,9 +1,1 @@
-{
-  "mansion_state_tracker": {
-    "agent_name": "mansion_state_tracker",
-    "agent_description": "Tracks state variables, gate states, switch settings, and pathing routes for Pokémon Mansion",
-    "agent_system_prompt": "You are a specialized agent designed to track switch settings (State A vs State B), gate states, and pathfinding routes for the Pokémon Mansion in Pokémon Blue. Your job is to parse the current state information and provide correct, verified gate settings and walking directions to the target coordinates without hallucination.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"current_state\": {\"type\": \"string\"}}, \"required\": [\"current_position\", \"current_state\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"next_move\": {\"type\": \"string\"}, \"target_gate_states\": {\"type\": \"string\"}}, \"required\": [\"next_move\", \"target_gate_states\"]}"
-  }
-}
+{}
