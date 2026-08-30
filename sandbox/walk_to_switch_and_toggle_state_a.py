@@ -15,29 +15,21 @@ def take_step(direction, target_x, target_y):
         print(f"FAILED to reach ({target_x}, {target_y}). Actual position: {pos_after}")
         return False
 
-# Starting from current (21, 16) in State B
-# Walk to 3F West switch at (2, 5) Stand at (2, 6)
+# Starting from current (25, 10) in State B
+# Walk UP Column 26 to Row 3, Left along Row 3 to Column 10, UP to Row 2, Left to Column 2, DOWN to Row 6.
 steps = [
-    # 1. Walk Right along Row 16 to Column 25
-    ("Right", 22, 16),
-    ("Right", 23, 16),
-    ("Right", 24, 16),
-    ("Right", 25, 16),
-    # 2. Walk UP Column 25 to Row 3
-    ("Up", 25, 15),
-    ("Up", 25, 14),
-    ("Up", 25, 13), # Open in State B
-    ("Up", 25, 12),
-    ("Up", 25, 11),
-    ("Up", 25, 10),
-    ("Up", 25, 9),
-    ("Up", 25, 8),
-    ("Up", 25, 7),
-    ("Up", 25, 6),
-    ("Up", 25, 5),
-    ("Up", 25, 4),
-    ("Up", 25, 3),
+    # 1. Walk to Column 26
+    ("Right", 26, 10),
+    # 2. Walk UP Column 26 to Row 3
+    ("Up", 26, 9),
+    ("Up", 26, 8),
+    ("Up", 26, 7),
+    ("Up", 26, 6),
+    ("Up", 26, 5),
+    ("Up", 26, 4), # Pitfall is covered in State B
+    ("Up", 26, 3),
     # 3. Walk Left along Row 3 to Column 10
+    ("Left", 25, 3),
     ("Left", 24, 3),
     ("Left", 23, 3),
     ("Left", 22, 3),
@@ -71,7 +63,7 @@ steps = [
     ("Down", 2, 6)
 ]
 
-print("Executing steps to reach the Mewtwo Switch...")
+print("Executing steps to reach the Mewtwo Switch via Column 26...")
 for direction, tx, ty in steps:
     success = take_step(direction, tx, ty)
     if not success:
