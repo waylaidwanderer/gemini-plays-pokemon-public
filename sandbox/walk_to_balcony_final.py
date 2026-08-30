@@ -14,18 +14,9 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (10, 3) on 3F East
+# Starting at current (19, 3) on 3F East
 path = [
     # 1. Continue Right along Row 3 to Column 25
-    ("Right", 11, 3),
-    ("Right", 12, 3),
-    ("Right", 13, 3),
-    ("Right", 14, 3),
-    ("Right", 15, 3),
-    ("Right", 16, 3),
-    ("Right", 17, 3),
-    ("Right", 18, 3),
-    ("Right", 19, 3),
     ("Right", 20, 3),
     ("Right", 21, 3),
     ("Right", 22, 3),
