@@ -43,49 +43,57 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (24, 11) on 1F East
-# Corrected route to 2F West stairs (5, 10) via Row 12 / Column 26 / Row 6
+# Starting from current (24, 10) on 1F East
+# 1. Walk Right to Column 26
+# 2. Walk UP Column 26 to Row 2
+# 3. Walk Left along Row 2 to Column 5 on 1F West (completely bypasses Column 22 wall and Column 9 wall!)
+# 4. Walk DOWN Column 5 to Row 10 (stairs tile)
 path = [
-    ("Right", 25, 11),
-    ("Down", 25, 12),
-    ("Right", 26, 12),
-    # Walk UP Column 26 to Row 6 (bypassing Column 25 Row 8/9 counters)
-    ("Up", 26, 11),
-    ("Up", 26, 10),
+    ("Right", 25, 10),
+    ("Right", 26, 10),
+    # Walk UP Column 26 to Row 2
     ("Up", 26, 9),
     ("Up", 26, 8),
     ("Up", 26, 7),
     ("Up", 26, 6),
-    # Walk Left along Row 6 to Column 5 on 1F West (bypassing Column 18 Row 16 wall)
-    ("Left", 25, 6),
-    ("Left", 24, 6),
-    ("Left", 23, 6),
-    ("Left", 22, 6),
-    ("Left", 21, 6),
-    ("Left", 20, 6),
-    ("Left", 19, 6),
-    ("Left", 18, 6),
-    ("Left", 17, 6),
-    ("Left", 16, 6),
-    ("Left", 15, 6),
-    ("Left", 14, 6),
-    ("Left", 13, 6),
-    ("Left", 12, 6),
-    ("Left", 11, 6),
-    ("Left", 10, 6),
-    ("Left", 9, 6),
-    ("Left", 8, 6),
-    ("Left", 7, 6),
-    ("Left", 6, 6),
-    ("Left", 5, 6),
+    ("Up", 26, 5),
+    ("Up", 26, 4),
+    ("Up", 26, 3),
+    ("Up", 26, 2),
+    # Walk Left along Row 2 to Column 5
+    ("Left", 25, 2),
+    ("Left", 24, 2),
+    ("Left", 23, 2),
+    ("Left", 22, 2),
+    ("Left", 21, 2),
+    ("Left", 20, 2),
+    ("Left", 19, 2),
+    ("Left", 18, 2),
+    ("Left", 17, 2),
+    ("Left", 16, 2),
+    ("Left", 15, 2),
+    ("Left", 14, 2),
+    ("Left", 13, 2),
+    ("Left", 12, 2),
+    ("Left", 11, 2),
+    ("Left", 10, 2),
+    ("Left", 9, 2),
+    ("Left", 8, 2),
+    ("Left", 7, 2),
+    ("Left", 6, 2),
+    ("Left", 5, 2),
     # Walk DOWN Column 5 to Row 10 (stairs tile)
+    ("Down", 5, 3),
+    ("Down", 5, 4),
+    ("Down", 5, 5),
+    ("Down", 5, 6),
     ("Down", 5, 7),
     ("Down", 5, 8),
     ("Down", 5, 9),
     ("Down", 5, 10) # Stairs UP to 2F West!
 ]
 
-print("Executing 1F East to 2F West stairs route from (24, 11)...")
+print("Executing 1F East to 2F West stairs route via Row 2 connection...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
     # Check if we warped to 2F West (Coordinates on 2F West start at 5,10/5,11)
