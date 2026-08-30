@@ -63,17 +63,13 @@ def flee_battle():
     time.sleep(1.0)
     print("Fled battle.")
 
-# 1. Flee from the Grimer battle
+# 1. Flee from the Ponyta battle
 flee_battle()
 
-# 2. Path from current (10, 12) after fleeing to the balcony drop
+# 2. Path from current (12, 5) after fleeing to the balcony drop
 path = [
-    # Walk up Column 10 to Row 9
-    (10, 11), (10, 10), (10, 9),
-    # Walk right to Column 12
-    (11, 9), (12, 9),
     # Walk up Column 12 to Row 3
-    (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
+    (12, 4), (12, 3),
     # Walk right along Row 3 to Column 25
     (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
     # Walk down Column 25 to Row 16 (gate at 25,13 open in State A)
