@@ -111,9 +111,22 @@ path = [
     (26, 12),
     # 5. Left to Column 25
     (25, 12),
+    # 6. Walk DOWN Column 25 past Row 13 to Row 16
+    (25, 13),
+    (25, 14),
+    (25, 15),
+    (25, 16),
+    # 7. Walk Left to (18, 16) (the pitfall!)
+    (24, 16),
+    (23, 16),
+    (22, 16),
+    (21, 16),
+    (20, 16),
+    (19, 16),
+    (18, 16),
 ]
 
-print(f"Path to 3F East (25, 12): {len(path)} steps")
+print(f"Path to pitfall (18, 16): {len(path)} steps")
 success = walk_route(path)
 mgba.take_screenshot()
 print(f"Execution finished. Success: {success}. Final Position: {mgba.get_coordinates()}")
