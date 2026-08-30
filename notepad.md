@@ -2335,15 +2335,16 @@
 - Column 9 Divider: Vertical wall at rows 0-3 and rows 6-8. Open hallway gap connecting West and East wings is at rows 4-5 (cols 6-12) with shutter gate at (9, 4..5).
 
 
-## Verified Collision Boundaries & Topography (Turns 20980-21067)
-- Shutter Barriers (Row 17): Gate at (20..21, 17) is CLOSED; passage at (24..25, 17) is CLOSED in State A, OPEN in State B; col 17 has Burglar trainer at (17, 17).
-- Southeast Sector (cols 24-28, rows 19-27): Divided from staircase area by col 24 wall (rows 19-23) and cols 24-25 rubble (rows 24-27). Shutter at (26..27, 27) is CLOSED in State B.
-- Route to 3F Stairs at (21, 23): From row 16, walk south down col 17 past Burglar at (17, 17) to (17, 20), east along row 20 to (21, 20), and south to (21, 23).
-- Central Hallway (cols 4-7, rows 10-27): Southern end dead-ends at solid wall at (4..7, 27). No stairs at south end of central carpet.
-- Column 12 Thoroughfare: Open from row 1 to row 12; BLOCKED at row 13 by solid horizontal wall at (11..17, 13).
-- Row 13 Bypass: Open passage between upper (rows 9-12) and lower (rows 14-27) corridors is at cols 8-10 (8..10, 13).
-- Column 11 Wall Divider: Solid vertical wall from row 14 down to row 24, dividing col 10 from cols 12-15.
-- Northwest Room: Green display table at (4, 6..7); large wooden table at (6..7, 4..5); rubble at (1..3, 2..3); Mewtwo statue switch at (2, 5) / (2, 4).
+## Verified Collision Boundaries & Topography (Empirical Verification)
+- Column 11 Wall: Continuous solid divider wall from row 14 down to the south boundary wall at row 27. Columns 8-10 are a dead end at the southern boundary.
+- State A Direct Path to 3F Stairs:
+  1. From 2F arrival at (5, 11), walk north to (5, 5).
+  2. Walk east through the open shutter gate at (9, 4..5) to (16, 5).
+  3. Walk south through the open shutter gate at (16..17, 7) into cols 12-17.
+  4. Walk south down to row 20 at (16, 20).
+  5. Walk east along row 20 to (21, 20).
+  6. Walk south down col 21 to (21, 23) and ascend stairs to 3F!
+- State B Features: Opens passage at (24..25, 17) into southeast wing; closes (9, 4..5), (16..17, 7), and (18..19, 8).
 
 <hr>
 
