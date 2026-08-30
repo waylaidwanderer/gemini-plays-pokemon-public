@@ -46,31 +46,22 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Escape from wild Ponyta battle
-print("Escaping from wild Ponyta battle at (6, 3)...")
-mgba.press_buttons(["A"])
-time.sleep(3.5) # Generous sleep to wait for slide-in animation and menu to fully load!
-
-# Select RUN and press A (Down moves to ITEM, Right moves to RUN)
-mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
-time.sleep(2.0) # Wait for escape text to appear
-
-# Dismiss escape text
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-print("Coordinates after escape:", mgba.get_coordinates())
-
-# 2. Walk remaining path to (2, 6) from (6, 3)
-path_to_switch = [
-    # 1. Walk LEFT Row 3 to Column 2 on 3F West
-    (5, 3), (4, 3), (3, 3), (2, 3),
-    # 2. Walk DOWN Column 2 to (2, 6)
-    (2, 4), (2, 5), (2, 6)
+# Start at current (4, 3)
+path_to_switch_front = [
+    # 1. Down to (4, 4)
+    (4, 4),
+    # 2. Left to (3, 4)
+    (3, 4),
+    # 3. Down to (3, 5)
+    (3, 5),
+    # 4. Down to (3, 6)
+    (3, 6),
+    # 5. Left to (2, 6)
+    (2, 6)
 ]
 
 print("Walking to (2, 6) on 3F West...")
-res = walk_path_strict(path_to_switch)
+res = walk_path_strict(path_to_switch_front)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 2, 'y': 6}:
