@@ -64,23 +64,21 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# We are on 3F West/Middle at (11, 7).
+# We are on 3F at (10, 17) in State A.
 # Walk path to the balcony drop at (19, 18).
 balcony_path = [
-    # 1. Step RIGHT to Column 12
-    (12, 7),
-    # 2. Walk DOWN Column 12 to Row 12 (bypassing Row 8 rubble)
-    (12, 8), (12, 9), (12, 10), (12, 11), (12, 12),
-    # 3. Walk LEFT to Column 10 on Row 12
-    (11, 12), (10, 12),
-    # 4. Walk DOWN Column 10 to Row 16
-    (10, 13), (10, 14), (10, 15), (10, 16),
-    # 5. Walk RIGHT along Row 16 to Column 19
-    (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16),
-    # 6. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
-    (19, 17), (19, 18)
+    # 1. Walk UP Column 10 to Row 3
+    (10, 16), (10, 15), (10, 14), (10, 13), (10, 12), (10, 11), (10, 10), (10, 9), (10, 8), (10, 7), (10, 6), (10, 5), (10, 4), (10, 3),
+    # 2. Walk RIGHT along Row 3 to Column 25
+    (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
+    # 3. Walk DOWN Column 25 to Row 17
+    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
+    # 4. Walk LEFT along Row 17 to Column 19 (through open State A gates at (21,17) and (20,17))
+    (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+    # 5. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
+    (19, 18)
 ]
 
-print("Walking to the balcony at (19, 18) from (11, 7)...")
+print("Walking to the balcony at (19, 18) from (10, 17) via Row 3 bypass...")
 res = walk_path(balcony_path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
