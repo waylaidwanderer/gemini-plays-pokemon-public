@@ -1,15 +1,6 @@
 import mgba
 import time
 
-def escape_battle_proactive_from_pkmn():
-    print("ESCAPING BATTLE from PKMN cursor...")
-    # Cursor is on PKMN, press Down to go to RUN, then A to select RUN
-    mgba.press_buttons(["Down", "sleep 250", "A", "sleep 1200", "B"])
-    time.sleep(1.5)
-    # Dismiss "Got away safely!"
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-
 def escape_battle_proactive():
     print("PROACTIVE ESCAPE SEQUENCE...")
     for _ in range(5):
@@ -70,17 +61,35 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Escape the wild Koffing
-escape_battle_proactive_from_pkmn()
+# 1. Escape the wild Ponyta at (6, 2)
+escape_battle_proactive()
 
 pos = mgba.get_coordinates()
 print(f"Overworld active. Current position: {pos}")
 
-# 2. Walk to Column 26 on Row 3 and Down Column 26 to trigger pitfall!
-pitfall_path = [
-    (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-    (26, 4), (26, 5), (26, 6)
+# 2. Walk along Row 2 to (22, 2)
+verify_path = [
+    (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
 ]
+res_verify = walk_path(verify_path)
+print(f"Walk to verify result: {res_verify}. Pos: {mgba.get_coordinates()}")
 
-res = walk_path(pitfall_path)
-print(f"Pitfall walk result: {res}. Position: {mgba.get_coordinates()}")
+if mgba.get_coordinates() == {'x': 22, 'y': 2}:
+    # Verify gate by trying to step Left to (21, 2)
+    print("Verifying if gate at (21, 2) is open...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    pos_gate = mgba.get_coordinates()
+    print(f"Position after trying gate: {pos_gate}")
+    
+    if pos_gate == {'x': 21, 'y': 2}:
+        print("GATE IS OPEN! WE ARE IN STATE A.")
+        # Step back to (22, 2), then to Column 26 and Down to trigger pitfall!
+        pitfall_path = [
+            (22, 2), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+            (26, 4), (26, 5), (26, 6)
+        ]
+        res_pit = walk_path(pitfall_path)
+        print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
+    else:
+        print("GATE IS CLOSED! Toggle failed.")
