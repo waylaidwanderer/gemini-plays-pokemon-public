@@ -22,7 +22,7 @@ def move_safe(step, target_x, target_y):
         time.sleep(0.5)
         pos_after = mgba.get_coordinates()
         
-        # True warp check: only if coordinates change radically in a single step
+        # True warp check
         if abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2:
             print(f"WARPED! From {pos_before} to {pos_after}")
             return pos_after
@@ -38,10 +38,8 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (21, 6) on 3F East in State A
+# Starting from current (21, 4) on 3F East in State A
 path = [
-    ("Up", 21, 5),
-    ("Up", 21, 4),
     ("Up", 21, 3),
     ("Up", 21, 2), # Open gate in State A
     ("Up", 21, 1),
@@ -56,7 +54,7 @@ path = [
     ("Down", 26, 3) # Open pitfall tile in State A!
 ]
 
-print("Executing path from (21, 6) to trigger pitfall...")
+print("Executing path from (21, 4) to trigger pitfall...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
     # Check if we fell through the pitfall
