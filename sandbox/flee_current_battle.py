@@ -1,20 +1,19 @@
 import mgba
 import time
 
-print("Clearing 'Wild PONYTA appeared!' text...")
-mgba.press_buttons(["A"])
-time.sleep(1.5)
+print("Fleeing battle...")
+# 1. Clear "Wild PONYTA appeared!" text
+mgba.press_buttons(["B"])
+time.sleep(1.0)
 
-print("Clearing summon text...")
-mgba.press_buttons(["A"])
+# 2. Press Down, Right, A to RUN
+mgba.press_buttons(["Down", "Right", "A"])
 time.sleep(2.0)
 
-print("Selecting RUN...")
-mgba.press_buttons(["Down", "Right", "A"])
-time.sleep(1.5)
-
-print("Dismissing escape message...")
+# 3. Clear "Got away safely!" text
 mgba.press_buttons(["B"])
-time.sleep(0.8)
+time.sleep(1.0)
 
-print("Current overworld position:", mgba.get_coordinates())
+pos = mgba.get_coordinates()
+print("Current Position after fleeing:", pos)
+mgba.take_screenshot()
