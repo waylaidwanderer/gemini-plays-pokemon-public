@@ -80,3 +80,13 @@
   - Walk Right to Column 26. Walk DOWN Column 26 (completely open vertically) to Row 12. Walk Left to Column 25 on Row 12 to resume vertical traversal down Column 25.
 - **Bypassing Closed Shutter Gate at (4, 6) in State A:**
   - Walk from `(2, 6)` UP through Column 3 and Column 4 (`(3, 6)` -> `(3, 5)` -> `(4, 5)` -> `(4, 4)` -> `(4, 3)`) to Row 3, completely bypassing the closed gate.
+
+## Major Discovery & Breakthrough (Turn 68439)
+- **The 3F Balcony is Unnecessary:** The Secret Key is on B1F West. However, B1F East and B1F West are connected on B1F! We do NOT need to reach the 3F balcony to drop to B1F West.
+- **The Correct Solution Path:**
+  1. Trigger State A (verified active currently).
+  2. Fall through the 3F East pitfall on Column 26 by walking UP to `(26, 3)` and then walking DOWN onto the pitfall warp at `(26, 4)`.
+  3. This lands the player inside the 1F East fenced room.
+  4. Take the stairs down to B1F East.
+  5. Navigate B1F to find the Mewtwo switch, toggle it, and retrieve the Secret Key!
+- **State A Shutter Gate Truth:** Row 13 on 3F East is completely impassable in State A because the gate at `(25, 13)` is indeed closed, and Columns 26-28 on Row 13 are solid partition walls. This proves the 3F balcony is physically inaccessible from 3F East in State A, reinforcing that the pitfall drop is the only intended route from 3F East!
