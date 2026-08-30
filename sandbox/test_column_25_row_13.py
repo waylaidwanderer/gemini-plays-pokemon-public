@@ -43,21 +43,15 @@ time.sleep(1.0)
 pos = mgba.get_coordinates()
 print(f"Position in overworld: {pos}")
 
-# Walk from current (12, 10) to Column 25 Row 12 via Row 2 bypass
+# Walk from current (12, 3) to Column 25 Row 12 via Row 3
 test_path = [
-    # 1. UP Column 12 to Row 6
-    (12, 9), (12, 8), (12, 7), (12, 6),
-    # 2. LEFT to Column 10 Row 6
-    (11, 6), (10, 6),
-    # 3. UP Column 10 to Row 2
-    (10, 5), (10, 4), (10, 3), (10, 2),
-    # 4. RIGHT along Row 2 to Column 25 (Row 2 bypass)
-    (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2),
-    # 5. DOWN Column 25 to Row 12
-    (25, 3), (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12)
+    # 1. RIGHT along Row 3 to Column 25
+    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
+    # 2. DOWN Column 25 to Row 12
+    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12)
 ]
 
-print("Walking to (25, 12) via Row 2 bypass...")
+print("Walking to (25, 12) along Row 3...")
 res = walk_path(test_path)
 print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
 
