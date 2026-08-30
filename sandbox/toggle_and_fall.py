@@ -13,10 +13,16 @@ def flee_battle():
         time.sleep(0.4)
 
 def walk_route(path, detect_warp=False):
+    button_count = 0
     for i, target in enumerate(path):
         tx, ty = target
         attempts = 0
         while attempts < 15:
+            # Check button limit
+            if button_count > 80:
+                print(f"Approaching button limit ({button_count}). Pausing execution to let player run next turn.")
+                return False
+                
             pos = mgba.get_coordinates()
             if pos['x'] == tx and pos['y'] == ty:
                 print(f"[{i}] Already at ({tx}, {ty})")
@@ -32,6 +38,7 @@ def walk_route(path, detect_warp=False):
             
             print(f"Moving {direction} from {pos} to ({tx}, {ty}). Attempt {attempts+1}")
             mgba.press_buttons([direction])
+            button_count += 1
             time.sleep(0.6)
             
             new_pos = mgba.get_coordinates()
@@ -39,6 +46,7 @@ def walk_route(path, detect_warp=False):
                 attempts += 1
                 print("Coordinates did not change. Checking for battle...")
                 flee_battle()
+                button_count += 3
                 chk_pos = mgba.get_coordinates()
                 if detect_warp and (chk_pos['x'] != pos['x'] or chk_pos['y'] != pos['y']):
                     print(f"Warp detected after battle: {chk_pos}")
@@ -67,46 +75,72 @@ def toggle_switch():
         time.sleep(2.0)
 
 def main():
-    path_to_switch = [
-        # 1. Up Column 26 to Row 3
-        (26, 14), (26, 13), (26, 12), (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
-        # 2. Left along Row 3 to Column 19
-        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3),
-        # 3. Up Column 19 to Row 1
-        (19, 2), (19, 1),
-        # 4. Left along Row 1 to Column 4
-        (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
-        # 5. Down Column 4 to Row 5
-        (4, 2), (4, 3), (4, 4), (4, 5),
-        # 6. Left to (3, 5)
-        (3, 5)
-    ]
-
-    path_to_pitfall = [
-        # 1. Right to Column 4
-        (4, 5),
-        # 2. Up Column 4 to Row 1
-        (4, 4), (4, 3), (4, 2), (4, 1),
-        # 3. Right along Row 1 to Column 26
-        (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
-        # 4. Down Column 26 to (26, 3) (the pitfall!)
-        (26, 2), (26, 3)
-    ]
-
-    print("Phase 1: Walking to the switch on 3F West...")
-    if not walk_route(path_to_switch):
-        print("Failed to reach the switch!")
-        return
-
-    print("Phase 2: Toggling switch to State B...")
-    toggle_switch()
-    mgba.take_screenshot()
-
-    print("Phase 3: Walking back to 3F East to drop through pitfall...")
-    walk_route(path_to_pitfall, detect_warp=True)
+    pos = mgba.get_coordinates()
+    print("Stateful Controller - Start Position:", pos)
     
-    print("Execution complete. Current position:", mgba.get_coordinates())
+    # Segment 1: 3F East Corridor to (19, 3)
+    if pos['x'] >= 19 and pos['y'] > 3:
+        print("--- Segment 1: Walking to (19, 3) ---")
+        path = []
+        # First walk Up Column 26 to Row 3
+        if pos['x'] != 26 and pos['y'] > 3:
+            path.append((26, pos['y']))
+        for y in range(pos['y'] - 1, 2, -1):
+            path.append((26, y))
+        # Then walk Left along Row 3 to Column 19
+        for x in range(25, 18, -1):
+            path.append((x, 3))
+            
+        print("Path:", path)
+        walk_route(path)
+        
+    # Segment 2: From (19, 3) to (4, 1)
+    elif pos['y'] == 3 and pos['x'] >= 4:
+        print("--- Segment 2: Walking to (4, 1) ---")
+        path = [
+            (19, 2), (19, 1)
+        ]
+        for x in range(18, 3, -1):
+            path.append((x, 1))
+        print("Path:", path)
+        walk_route(path)
+        
+    # Segment 3: From (4, 1) or Row 1 to (3, 5)
+    elif pos['y'] == 1 and pos['x'] == 4:
+        print("--- Segment 3: Walking to (3, 5) ---")
+        path = [
+            (4, 2), (4, 3), (4, 4), (4, 5), (3, 5)
+        ]
+        print("Path:", path)
+        walk_route(path)
+        
+    # Segment 4: At the switch (3, 5) - TOGGLE
+    elif pos['x'] == 3 and pos['y'] == 5:
+        print("--- Segment 4: Toggling switch ---")
+        toggle_switch()
+        mgba.take_screenshot()
+        # Immediately take a step Right to (4, 5) to save state and prepare walk back
+        mgba.press_buttons(["Right"])
+        time.sleep(0.5)
+        
+    # Segment 5: From (4, 5) or Row 5 back to (26, 3) (Mansion is in State B)
+    elif pos['y'] == 5 and pos['x'] == 4:
+        print("--- Segment 5: Walking to (26, 3) in State B ---")
+        path = [
+            (4, 4), (4, 3), (4, 2), (4, 1)
+        ]
+        for x in range(5, 27):
+            path.append((x, 1))
+        path.append((26, 2))
+        path.append((26, 3)) # Pitfall!
+        print("Path:", path)
+        walk_route(path, detect_warp=True)
+        
+    else:
+        print("Unrecognized position. Please align player manually or refine path.")
+        
     mgba.take_screenshot()
+    print("Stateful Controller - End Position:", mgba.get_coordinates())
 
 if __name__ == "__main__":
     main()
