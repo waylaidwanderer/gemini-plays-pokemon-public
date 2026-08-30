@@ -40,14 +40,11 @@ def move_safe(step, target_x, target_y):
     print(f"Finished step. Current position: {pos_after}")
     return pos_after
 
-# 1. Escape the current wild Ponyta battle
-print("Fleeing current wild Ponyta battle...")
-# Press A to advance "appeared!" text
+# 1. Escape the current wild Grimer battle
+print("Fleeing current wild Grimer battle...")
+# Press A to advance "It didn't affect SHELLBY!" text
 mgba.press_buttons(["A"])
 time.sleep(1.5)
-# Press A to advance "Go! SHELLBY!" text
-mgba.press_buttons(["A"])
-time.sleep(2.5)
 # Select RUN (Down, Right, A)
 mgba.press_buttons(["Down", "Right", "A"])
 time.sleep(1.5)
@@ -58,10 +55,14 @@ time.sleep(0.8)
 # 2. Verify we are in the overworld and continue path to balcony
 print("Overworld reached. Current position:", mgba.get_coordinates())
 
-# From current (27, 16) to (19, 18) balcony drop
+# From current (28, 25) to (19, 18) balcony drop
 path = [
+    # Walk Left to Column 26 on Row 25
+    ("Left", 27, 25), ("Left", 26, 25),
+    # Walk UP Column 26 to Row 16
+    ("Up", 26, 24), ("Up", 26, 23), ("Up", 26, 22), ("Up", 26, 21), ("Up", 26, 20), ("Up", 26, 19), ("Up", 26, 18), ("Up", 26, 17), ("Up", 26, 16),
     # Walk Left along Row 16 to Column 21
-    ("Left", 26, 16), ("Left", 25, 16), ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
+    ("Left", 25, 16), ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
     # Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17), ("Down", 21, 18),
     # Walk Left to balcony drop warp at (19, 18)
