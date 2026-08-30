@@ -75,7 +75,7 @@
 | (21, 17) Shutter Gate | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
 
-## Verified B1F Access Solution (Turn 20508)
-- 1F NW Mewtwo statue switch at (2, 5) MUST be interacted with from (2, 6) facing UP (interacting from (3, 5) does not work).
-- Toggling switch to State A opens the shutter gate at (24..25, 13).
-- Direct path to B1F stairs: From NW room / (5, 1) -> East along row 1 to (26, 1) -> South down col 26 to (26, 12) -> West 2 steps to (24, 12) -> South 4 steps through open gate at (24, 13) to (24, 16) -> South along cols 24-26 to (26, 26) -> South 1 step into (26, 27) descending stairs to B1F.
+## 1F East Corridor Exploration (Verified Turns 20508-20530)
+- 1F NW Mewtwo statue switch at (2, 5) toggles global shutter doors.
+- In State A, shutter gate at (24..25, 13) is open, allowing exploration of eastern corridor (cols 24-28, rows 12-27).
+- South end at (26..27, 27) is a dead end (solid exterior wall). B1F access requires 3F balcony drop.
