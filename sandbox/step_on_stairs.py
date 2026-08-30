@@ -39,19 +39,21 @@ def move_safe(step, target_x, target_y):
             return pos_after
 
 # Starting from current (26, 11) on 1F East inside fenced room
-# Let's try Column 24 stairs!
+# Enter stairs by walking Left to Column 23, UP to Row 9, then Right onto (24, 9)
 path = [
     ("Left", 25, 11),
     ("Left", 24, 11),
-    ("Up", 24, 10),
-    ("Up", 24, 9) # Staircase tile at (24,9)!
+    ("Left", 23, 11),
+    ("Up", 23, 10),
+    ("Up", 23, 9),
+    ("Right", 24, 9) # Staircase tile!
 ]
 
-print("Executing steps to enter Column 24 stairs...")
+print("Executing steps to enter B1F East stairs from the Left...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
     # Check if we already warped to B1F
-    if pos['x'] != 26 and pos['x'] != 25 and pos['x'] != 24:
+    if pos['x'] != 26 and pos['x'] != 25 and pos['x'] != 24 and pos['x'] != 23:
         print("Map transition detected! Stopping script.")
         break
     move_safe(step, x, y)
