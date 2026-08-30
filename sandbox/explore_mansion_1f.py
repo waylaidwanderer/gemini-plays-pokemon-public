@@ -38,57 +38,58 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (21, 16) on 1F East
-# Walk to 1F West via Row 20 bypass, then up to the stairs at (5, 10)
+# Starting from current (26, 20) on 1F East
+# Walk UP Column 26 to Row 6, Left along Row 6 to Column 5, Down Column 5 to stairs at (5, 10)
 path = [
-    # 1. Walk Right to Column 24
-    ("Right", 22, 16),
-    ("Right", 23, 16),
-    ("Right", 24, 16),
-    # 2. Walk DOWN Column 24 to Row 20
-    ("Down", 24, 17),
-    ("Down", 24, 18),
-    ("Down", 24, 19),
-    ("Down", 24, 20),
-    # 3. Walk Left along Row 20 to Column 5 on 1F West
-    ("Left", 23, 20),
-    ("Left", 22, 20),
-    ("Left", 21, 20),
-    ("Left", 20, 20),
-    ("Left", 19, 20),
-    ("Left", 18, 20),
-    ("Left", 17, 20),
-    ("Left", 16, 20),
-    ("Left", 15, 20),
-    ("Left", 14, 20),
-    ("Left", 13, 20),
-    ("Left", 12, 20),
-    ("Left", 11, 20),
-    ("Left", 10, 20),
-    ("Left", 9, 20),
-    ("Left", 8, 20),
-    ("Left", 7, 20),
-    ("Left", 6, 20),
-    ("Left", 5, 20),
-    # 4. Walk UP Column 5 to Row 10
-    ("Up", 5, 19),
-    ("Up", 5, 18),
-    ("Up", 5, 17),
-    ("Up", 5, 16),
-    ("Up", 5, 15),
-    ("Up", 5, 14),
-    ("Up", 5, 13),
-    ("Up", 5, 12),
-    ("Up", 5, 11),
-    ("Up", 5, 10) # Stairs tile!
+    # 1. Walk UP Column 26 to Row 6
+    ("Up", 26, 19),
+    ("Up", 26, 18),
+    ("Up", 26, 17),
+    ("Up", 26, 16),
+    ("Up", 26, 15),
+    ("Up", 26, 14),
+    ("Up", 26, 13),
+    ("Up", 26, 12),
+    ("Up", 26, 11),
+    ("Up", 26, 10),
+    ("Up", 26, 9),
+    ("Up", 26, 8),
+    ("Up", 26, 7),
+    ("Up", 26, 6),
+    # 2. Walk Left along Row 6 to Column 5
+    ("Left", 25, 6),
+    ("Left", 24, 6),
+    ("Left", 23, 6),
+    ("Left", 22, 6),
+    ("Left", 21, 6),
+    ("Left", 20, 6),
+    ("Left", 19, 6),
+    ("Left", 18, 6),
+    ("Left", 17, 6),
+    ("Left", 16, 6),
+    ("Left", 15, 6),
+    ("Left", 14, 6),
+    ("Left", 13, 6),
+    ("Left", 12, 6),
+    ("Left", 11, 6),
+    ("Left", 10, 6),
+    ("Left", 9, 6),
+    ("Left", 8, 6),
+    ("Left", 7, 6),
+    ("Left", 6, 6),
+    ("Left", 5, 6),
+    # 3. Walk DOWN Column 5 to Row 10 (stairs tile)
+    ("Down", 5, 7),
+    ("Down", 5, 8),
+    ("Down", 5, 9),
+    ("Down", 5, 10) # Stairs UP to 2F West!
 ]
 
-print("Executing 1F East to 2F West stairs bypass...")
+print("Executing 1F East to 2F West stairs route via Row 6 connection...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
     # Check if we warped to 2F West (where coordinates on 2F West start at 5,10 or 5,11)
-    # 2F West map change will be detected by map transition or coordinate changes
-    if pos['y'] > 25 or abs(pos['x'] - 5) > 20:
+    if pos['y'] > 25 or abs(pos['x'] - 26) > 22:
         print("Map transition detected! Stopping script.")
         break
     move_safe(step, x, y)
