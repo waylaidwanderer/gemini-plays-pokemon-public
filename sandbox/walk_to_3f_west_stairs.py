@@ -26,7 +26,6 @@ def step_safe(direction, target_x, target_y):
         return "SUCCESS"
         
     if pos_before == pos_after:
-        # Check if in battle or blocked
         escape_battle_proactive()
         mgba.press_buttons([direction])
         time.sleep(0.4)
@@ -67,16 +66,20 @@ def walk_path(coords):
 
 # Start at current (23, 8)
 path = [
-    # 1. Walk to Column 27 on Row 9
-    (23, 9), (24, 9), (25, 9), (26, 9), (27, 9),
-    # 2. Walk UP Column 27 to Row 2
+    # 1. Walk down to Row 10 to bypass counters
+    (23, 9), (23, 10),
+    # 2. Walk right along Row 10 to Column 26
+    (24, 10), (25, 10), (26, 10),
+    # 3. Walk up Column 26 and right to Column 27 on Row 9
+    (26, 9), (27, 9),
+    # 4. Walk UP Column 27 to Row 2
     (27, 8), (27, 7), (27, 6), (27, 5), (27, 4), (27, 3), (27, 2),
-    # 3. Walk LEFT along Row 2 to Column 5 on 3F West
+    # 5. Walk LEFT along Row 2 to Column 5 on 3F West
     (26, 2), (25, 2), (24, 2), (23, 2), (22, 2), (21, 2), (20, 2), (19, 2), (18, 2), (17, 2), (16, 2), (15, 2), (14, 2), (13, 2), (12, 2), (11, 2), (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2),
-    # 4. Walk DOWN Column 5 to Row 10 (stairs warp!)
+    # 6. Walk DOWN Column 5 to Row 10 (stairs warp!)
     (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10)
 ]
 
-print("Walking from 3F East to 3F West stairs...")
+print("Walking from 3F East to 3F West stairs (avoiding pitfalls/counters)...")
 res = walk_path(path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
