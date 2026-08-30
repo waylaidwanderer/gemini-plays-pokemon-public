@@ -3,16 +3,13 @@ import time
 
 def handle_battle_if_present():
     print("Checking/handling wild battle...")
-    # Stand still and press A to advance any appeared text
     for _ in range(3):
         mgba.press_buttons(["A"])
         time.sleep(0.8)
     mgba.press_buttons(["B"])
     time.sleep(0.5)
-    # Select RUN (Down, Right, A)
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.5)
-    # Dismiss "Got away safely!"
     mgba.press_buttons(["B"])
     time.sleep(0.8)
 
@@ -23,9 +20,9 @@ def move_safe(step, target_x, target_y):
     time.sleep(0.5)
     pos_after = mgba.get_coordinates()
     
-    # Check for warp
+    # Check if we warped radically (warp detection)
     if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
-        print(f"WARPED! New position: {pos_after}")
+        print(f"WARPED! From {pos_before} to {pos_after}")
         return pos_after
         
     attempts = 0
@@ -43,7 +40,7 @@ def move_safe(step, target_x, target_y):
         
         # Check for warp in retry loop
         if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
-            print(f"WARPED! New position: {pos_after}")
+            print(f"WARPED! From {pos_before} to {pos_after}")
             return pos_after
             
         attempts += 1
@@ -52,14 +49,14 @@ def move_safe(step, target_x, target_y):
     return pos_after
 
 # Path starting from current (28, 12) on 3F East (Mansion in State A)
-# Detour via Column 27 to Row 16
+# Column 26 is completely open and safe to go down from Row 12 to Row 16
 path = [
     ("Left", 27, 12),
-    ("Down", 27, 13),
-    ("Down", 27, 14),
-    ("Down", 27, 15),
-    ("Down", 27, 16),
-    ("Left", 26, 16),
+    ("Left", 26, 12),
+    ("Down", 26, 13),
+    ("Down", 26, 14),
+    ("Down", 26, 15),
+    ("Down", 26, 16),
     ("Left", 25, 16),
     ("Left", 24, 16),
     ("Left", 23, 16),
@@ -68,20 +65,19 @@ path = [
     ("Down", 21, 17),
     ("Down", 21, 18),
     ("Left", 20, 18),
-    ("Left", 19, 18)
+    ("Left", 19, 18) # Warp tile to B1F West
 ]
 
-print("Executing precise detour walk to balcony drop in State A from (28, 12)...")
+print("Executing precise Column 26 detour to balcony from (28, 12)...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
-    # If we warped (coordinates changed radically, indicating we dropped to B1F West), stop
-    if pos['y'] > 20 or abs(pos['x'] - 28) > 15:
-        print("We appear to have warped out of 3F East! Stopping path execution.")
+    # Check if we warped to B1F West (which is at (9, 16) or similar)
+    if pos['y'] > 20 or (pos['x'] == 9 and pos['y'] == 16):
+        print("We successfully warped to B1F! Stopping path execution.")
         break
     move_safe(step, x, y)
 
 pos_final = mgba.get_coordinates()
 print("Final position:", pos_final)
-if pos_final != {'x': 28, 'y': 12}:
-    print("Taking final screenshot...")
-    mgba.take_screenshot()
+print("Taking final screenshot...")
+mgba.take_screenshot()
