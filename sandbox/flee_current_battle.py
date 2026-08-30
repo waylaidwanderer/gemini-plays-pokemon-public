@@ -1,19 +1,19 @@
 import mgba
 import time
 
-print("Fleeing battle...")
-# 1. Clear "Wild PONYTA appeared!" text
-mgba.press_buttons(["B"])
-time.sleep(1.0)
+print("Fleeing battle with proper sleep delays between buttons...")
 
-# 2. Press Down, Right, A to RUN
-mgba.press_buttons(["Down", "Right", "A"])
+# 1. Clear any text or make sure menu is ready
+mgba.press_buttons(["B"])
+time.sleep(0.8)
+
+# 2. Press Down, sleep, Right, sleep, A to RUN
+mgba.press_buttons(["Down", "sleep 300", "Right", "sleep 300", "A"])
 time.sleep(2.0)
 
-# 3. Clear "Got away safely!" text
+# 3. Dismiss "Got away safely!" text
 mgba.press_buttons(["B"])
 time.sleep(1.0)
 
-pos = mgba.get_coordinates()
-print("Current Position after fleeing:", pos)
+print("Coordinates:", mgba.get_coordinates())
 mgba.take_screenshot()
