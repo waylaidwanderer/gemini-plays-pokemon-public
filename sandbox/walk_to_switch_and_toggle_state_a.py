@@ -3,11 +3,18 @@ import time
 
 def handle_battle_if_present():
     print("Checking/handling wild battle...")
+    # Escape Move-PP-Menu if accidentally entered
+    # Press B to dismiss any "No PP Left" and return to Fight, then B again to main menu
+    for _ in range(2):
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        
     for _ in range(3):
         mgba.press_buttons(["A"])
         time.sleep(0.8)
     mgba.press_buttons(["B"])
     time.sleep(0.5)
+    # Select RUN (Down, Right, A)
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.5)
     mgba.press_buttons(["B"])
@@ -22,7 +29,7 @@ def move_safe(step, target_x, target_y):
         time.sleep(0.5)
         pos_after = mgba.get_coordinates()
         
-        # True warp check
+        # True warp check: only if coordinates change radically in a single step
         if abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2:
             print(f"WARPED! From {pos_before} to {pos_after}")
             return pos_after
@@ -38,19 +45,9 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (24, 18) in State B
-# 1. Walk UP Column 25 to (25, 12) (gate at (25, 13) is open in State B)
-path = [
-    ("Right", 25, 18),
-    ("Up", 25, 17),
-    ("Up", 25, 16),
-    ("Up", 25, 15),
-    ("Up", 25, 14),
-    ("Up", 25, 13), # Open gate in State B
-    ("Up", 25, 12),
-    # 2. Walk Right to Column 26
-    ("Right", 26, 12),
-    # 3. Walk UP Column 26 to Row 2 (pitfalls are closed in State B)
+# Starting from current (26, 12) on 3F East in State B
+# 1. Walk UP Column 26 to Row 2
+path_to_switch = [
     ("Up", 26, 11),
     ("Up", 26, 10),
     ("Up", 26, 9),
@@ -61,7 +58,7 @@ path = [
     ("Up", 26, 4),
     ("Up", 26, 3),
     ("Up", 26, 2),
-    # 4. Walk Left along Row 2 to Column 4
+    # 2. Walk Left along Row 2 to Column 4
     ("Left", 25, 2),
     ("Left", 24, 2),
     ("Left", 23, 2),
@@ -84,18 +81,23 @@ path = [
     ("Left", 6, 2),
     ("Left", 5, 2),
     ("Left", 4, 2),
-    # 5. Walk DOWN Column 4 to Row 5
+    # 3. Walk DOWN Column 4 to Row 5
     ("Down", 4, 3),
     ("Down", 4, 4),
     ("Down", 4, 5),
-    # 6. Walk Left to (2, 6) via (3, 5) -> (3, 6) -> (2, 6)
+    # 4. Walk Left to Column 2 Row 6
     ("Left", 3, 5),
     ("Down", 3, 6),
     ("Left", 2, 6)
 ]
 
-print("Walking to switch at (2, 5)...")
-for step, x, y in path:
+print("Executing path to switch from (26, 12)...")
+for step, x, y in path_to_switch:
+    pos = mgba.get_coordinates()
+    # Check if we warped out of 3F East (which shouldn't happen unless we fall, but pitfalls are closed in State B)
+    if pos['y'] > 20:
+        print("We warped! Stopping.")
+        break
     move_safe(step, x, y)
 
 pos_switch = mgba.get_coordinates()
@@ -110,25 +112,51 @@ if pos_switch == {'x': 2, 'y': 6}:
         mgba.press_buttons(["A"])
         time.sleep(2.5) # Generous delay to prevent swallowed inputs
         
-    print("Local verification check...")
-    # Step Right 3 times to test if (4, 6) gate is closed
-    print("Stepping Right (step 1)...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.6)
-    print("Stepping Right (step 2)...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.6)
-    print("Stepping Right (step 3)...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.6)
+    print("Mansion is now in State A! Walking back to trigger pitfall at (26, 3)...")
+    path_to_pitfall = [
+        # Walk to Column 4 Row 2 bypassing closed gate at (4,6)
+        ("Right", 3, 6),
+        ("Up", 3, 5),
+        ("Right", 4, 5),
+        ("Up", 4, 4),
+        ("Up", 4, 3),
+        ("Up", 4, 2),
+        # Walk Right along Row 2 to Column 26
+        ("Right", 5, 2),
+        ("Right", 6, 2),
+        ("Right", 7, 2),
+        ("Right", 8, 2),
+        ("Right", 9, 2),
+        ("Right", 10, 2),
+        ("Right", 11, 2),
+        ("Right", 12, 2),
+        ("Right", 13, 2),
+        ("Right", 14, 2),
+        ("Right", 15, 2),
+        ("Right", 16, 2),
+        ("Right", 17, 2),
+        ("Right", 18, 2),
+        ("Right", 19, 2),
+        ("Right", 20, 2),
+        ("Right", 21, 2),
+        ("Right", 22, 2),
+        ("Right", 23, 2),
+        ("Right", 24, 2),
+        ("Right", 25, 2),
+        ("Right", 26, 2),
+        # Step DOWN onto the pitfall tile at (26, 3)!
+        ("Down", 26, 3)
+    ]
     
-    pos_after_verif = mgba.get_coordinates()
-    print("Position after local verification:", pos_after_verif)
-    if pos_after_verif['x'] <= 3:
-         print("VERDICT: BLOCKED at (4, 6)! Mansion is successfully in STATE A!")
-    else:
-         print("VERDICT: PASSED (4, 6)! Mansion is still in STATE B!")
+    for step, x, y in path_to_pitfall:
+        pos = mgba.get_coordinates()
+        if pos['y'] > 20 or (pos['x'] == 26 and pos['y'] == 4): # If we fall, y coordinate on 1F is small, but let's detect any warp
+            print("WARP DETECTED! We fell through the pitfall!")
+            break
+        move_safe(step, x, y)
 else:
     print("Failed to reach switch.")
 
+pos_final = mgba.get_coordinates()
+print("Final position:", pos_final)
 mgba.take_screenshot()
