@@ -8,6 +8,7 @@ def step_strict(direction, target_x, target_y):
     pos_after = mgba.get_coordinates()
     
     if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
+        print(f"WARPED! From {pos_before} to {pos_after}")
         return "WARPED"
     if pos_after['x'] == target_x and pos_after['y'] == target_y:
         return "SUCCESS"
@@ -47,8 +48,8 @@ def walk_path_strict(coords):
 
 # 1. Escape from battle
 print("Escaping battle...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.5)
 mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
 time.sleep(1.5)
 mgba.press_buttons(["A"])
@@ -56,12 +57,16 @@ time.sleep(1.0)
 
 print("Coordinates after escape:", mgba.get_coordinates())
 
-# 2. Walk along Row 1 to (2, 6) on 3F West
+# 2. Walk from (6, 1) to (2, 6) via Row 3
 path = [
-    (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1), (3, 1), (2, 1),
-    (2, 2), (2, 3), (2, 4), (2, 5), (2, 6)
+    # 1. Down Column 6 to Row 3
+    (6, 2), (6, 3),
+    # 2. Left Row 3 to Column 2
+    (5, 3), (4, 3), (3, 3), (2, 3),
+    # 3. Down Column 2 to (2, 6)
+    (2, 4), (2, 5), (2, 6)
 ]
 
-print("Walking to (2, 6) on 3F West via Row 1...")
+print("Walking to (2, 6) on 3F West via Row 3...")
 res = walk_path_strict(path)
 print(f"Result: {res}. Final position: {mgba.get_coordinates()}")
