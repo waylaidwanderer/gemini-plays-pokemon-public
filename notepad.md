@@ -1351,4 +1351,14 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
     - If you are BLOCKED (position remains at `(2, 6)`), then State A is active!
     - If you successfully step to `(3, 6)`, then State B is active!
 
+## Critical Switch Mechanics & Verification Constraints (Verified Turn 67356)
+- **4 A-Press Sequence Required:** To fully toggle any Mewtwo Switch statue (e.g. at (2, 5) or (12, 11)) and cleanly restore the overworld without leaving dialogue boxes open, a strict 4 A-press sequence is REQUIRED:
+  1. **A-Press 1:** Interacts with the statue. "A secret switch!" text scrolls onto screen.
+  2. **A-Press 2:** Advances text. YES/NO menu appears.
+  3. **A-Press 3:** Selects YES (default). "Who wouldn't?" text scrolls onto screen.
+  4. **A-Press 4:** Dismisses the textbox and restores the overworld.
+- **Generous Delays (Minimum 1.5–2.5 seconds) are Mandatory:** You must sleep for at least 1.5 to 2.5 seconds between EACH A-press to allow text scrolling, menu animations, and redraws to complete. Pressing A too quickly will cause inputs to be swallowed, leaving the dialogue open and swallowing subsequent directional inputs.
+- **Local Verification via (21, 2) Shutter Gate:** On 3F East, the local gate at (21, 2) is closed in State B and open in State A. Attempting to step Left from (22, 2) to (21, 2) is blocked in State B and successful in State A. This allows immediate local state verification without walking back to 3F West!
+- **State A Traversal to Balcony (No Pitfall Needed):** If the gate at (21, 2) is open (State A), you can walk horizontally along Row 2 directly to Column 10 on 3F West, walk down Column 10 to Row 16, and walk Right directly to the balcony at (19, 18) to drop to B1F West. Falling through the Column 26 pitfall is completely unnecessary if we are already on 3F East in State A!
+
 <hr>
