@@ -61,20 +61,26 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-pos = mgba.get_coordinates()
-print(f"Starting fall_through_pitfall script from {pos}")
+# 1. Escape the wild Ponyta at (3, 6)
+escape_battle_proactive()
 
-# Walk from current pos to (22, 2)
+pos = mgba.get_coordinates()
+print(f"Overworld active. Current position: {pos}")
+
+# 2. Path to (22, 2) bypassing the NPC at (3, 3) using Column 4 and Row 2
 path_to_verify = [
-    (22, 2)
+    (3, 5), (3, 4),
+    (4, 4),
+    (4, 3), (4, 2),
+    (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
 ]
 
 res = walk_path(path_to_verify)
-print(f"Walk to (22, 2) result: {res}. Pos: {mgba.get_coordinates()}")
+print(f"Walk to verify result: {res}. Pos: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 22, 'y': 2}:
-    # Try to step Left to (21, 2) to verify open gate
-    print("Trying to step Left into gate at (21, 2)...")
+    # Verify gate by trying to step Left to (21, 2)
+    print("Verifying if gate at (21, 2) is open...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
     pos_gate = mgba.get_coordinates()
@@ -82,7 +88,7 @@ if mgba.get_coordinates() == {'x': 22, 'y': 2}:
     
     if pos_gate == {'x': 21, 'y': 2}:
         print("GATE IS OPEN! WE ARE IN STATE A.")
-        # Step back to (22, 2), then walk to Column 26 Row 3 and Down to fall!
+        # Step back to (22, 2), then to Column 26 and Down to trigger pitfall!
         pitfall_path = [
             (22, 2), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
             (26, 4), (26, 5), (26, 6)
