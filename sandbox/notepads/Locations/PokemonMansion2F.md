@@ -40,11 +40,10 @@
 - State B (Toggled): Shutter at (21, 17) OPEN; Shutter at (26..27, 27) CLOSED/Solid; Shutter at (9, 4..5) CLOSED (verified Turn 19762).
 - Column 9 Divider: Vertical wall at rows 0-3 and rows 6-8. Open hallway gap connecting West and East wings is at rows 4-5 (cols 6-12) with shutter gate at (9, 4..5).
 
-## Verified 2F Statue Switch Location (Turn 20697)
-- Mewtwo statue switch on 2F is located at (10, 4..5) (head at (10, 4), base/switch at (10, 5)).
-- Interactable from (10, 6) facing Up or from (11, 5) facing Left.
-- Toggling this switch changes the global mansion state to State B, opening shutter gates on 3F.
-## Verified Collision Boundaries & Topography (Turns 20980-21000)
+
+## Verified Collision Boundaries & Topography
+- Empirical Test (Turn 21017): Shutter at (21, 17) is CLOSED in State A; stepping Down into (21, 17) resulted in a 0-tile collision.
+ (Turns 20980-21000)
 - Central Hallway (cols 4-7, rows 10-27): Southern end dead-ends at solid wall at (4..7, 27). No stairs at south end of central carpet.
 - Column 12 Thoroughfare: Open from row 1 to row 12; BLOCKED at row 13 by solid horizontal wall at (11..17, 13).
 - Row 13 Bypass: Open passage between upper (rows 9-12) and lower (rows 14-27) corridors is at cols 8-10 (8..10, 13).
