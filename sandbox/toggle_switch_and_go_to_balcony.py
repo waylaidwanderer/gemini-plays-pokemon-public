@@ -54,85 +54,62 @@ def walk_to_target(tx, ty):
                 return "FALLEN"
     return "FAILED"
 
-def toggle_switch():
-    print("Facing Left...")
-    mgba.press_buttons(["Left"])
+def toggle_switch_from_front():
+    print("Facing Up...")
+    mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
     # 4 A-Press sequence with generous delays
     for step in range(1, 5):
         print(f"Pressing A ({step}/4)...")
         mgba.press_buttons(["A"])
-        time.sleep(2.0)
+        time.sleep(2.5)
 
 def main():
-    print("--- Fleeing current battle first ---")
-    flee_battle_fully()
-    time.sleep(1.0)
-    
     pos = mgba.get_coordinates()
-    print("After flee, position is:", pos)
+    print("Starting from:", pos)
     
-    # Path 1: From current position to (3, 5) switch
-    path_to_switch = [
-        (19, 4), (19, 3), (19, 2), (19, 1),
-        (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
-        (4, 2), (4, 3), (4, 4), (4, 5),
-        (3, 5)
+    # Walk to (2, 6) which is the front of the switch statue at (2, 5)
+    path_to_front = [
+        (3, 6), (2, 6)
     ]
     
-    # Trim path_to_switch if we are already along it
-    start_idx = 0
-    for idx, pt in enumerate(path_to_switch):
-        if pos['x'] == pt[0] and pos['y'] == pt[1]:
-            start_idx = idx + 1
-            break
-    active_to_switch = path_to_switch[start_idx:]
-    
-    print("Walking to switch along path:", active_to_switch)
-    success = True
-    for target in active_to_switch:
+    for target in path_to_front:
         res = walk_to_target(target[0], target[1])
-        if res == "FALLEN":
-            print("Fell through a pitfall!")
+        if res != "ARRIVED":
+            print(f"Failed to reach front of switch at {target}")
             return
-        elif res == "DISPLACED":
-            # Just retry walking to the target
-            print("Displaced, trying to recover...")
-            pos = mgba.get_coordinates()
-            # Find closest index
-            continue
-        elif res == "FAILED":
-            print(f"Failed to reach {target}")
-            success = False
-            break
             
-    if not success:
-        print("Could not reach switch. Exiting.")
-        return
-        
-    print("Toggling Mewtwo switch to State B...")
-    toggle_switch()
+    # Stand at (2, 6) facing Up and toggle
+    toggle_switch_from_front()
     mgba.take_screenshot()
     
-    # Step Right to (4, 5) to clear switch and face right
-    print("Stepping Right to (4, 5)...")
+    # Step Right to clear the switch
+    print("Stepping Right to (3, 6)...")
     mgba.press_buttons(["Right"])
     time.sleep(0.6)
     
-    # Path 2: From (4, 5) to (19, 18) balcony drop
+    # Complete path to the balcony in State B
     path_to_balcony = [
-        (4, 4), (4, 3), (4, 2), (4, 1),
+        (4, 6), # Through open gate!
+        (4, 5), (4, 4), (4, 3), (4, 2), (4, 1),
+        # Right along Row 1
         (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
+        # Down Column 26
         (26, 2), (26, 3), (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
+        # Left to Column 24
         (25, 12), (24, 12),
+        # Down Column 24
         (24, 13), (24, 14), (24, 15), (24, 16),
+        # Left along Row 16
         (23, 16), (22, 16), (21, 16),
+        # Down Column 21 through open balcony gates
         (21, 17), (21, 18),
+        # Left to drop at (19, 18)
         (20, 18), (19, 18)
     ]
     
-    print("Walking to balcony drop...")
+    print("Executing path to balcony...")
     for target in path_to_balcony:
         res = walk_to_target(target[0], target[1])
         if res == "FALLEN":
