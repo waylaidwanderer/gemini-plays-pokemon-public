@@ -76,41 +76,79 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-if __name__ == "__main__":
-    # We are currently at (2, 6) facing UP, with the YES/NO prompt open on screen!
-    print("Selecting YES on the Mewtwo switch prompt...")
-    # Press A to select YES
-    mgba.press_buttons(["A"])
-    time.sleep(2.0)
-    
-    # Press A to close the "Who wouldn't?" text box
-    print("Closing the 'Who wouldn't?' text box...")
-    mgba.press_buttons(["A"])
-    time.sleep(2.0)
-    
-    # Let's perform strict local verification!
-    print("Testing local verification (stepping Right)...")
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-    
-    pos = mgba.get_coordinates()
-    print(f"Verification position: {pos}")
-    if pos == {'x': 2, 'y': 6}:
-        print("STATE A STRICTLY VERIFIED SUCCESSFUL!!!")
-        print("Walking to the pitfall...")
+def toggle_to_state_a():
+    attempts = 0
+    while attempts < 3:
+        print(f"Toggle attempt {attempts+1}...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
         
-        pitfall_path = [
-            (2, 7), (2, 8),
-            (3, 8), (4, 8), (5, 8),
-            (5, 7), (5, 6), (5, 5), (5, 4),
-            (4, 4),
-            (4, 3), (4, 2), (4, 1),
-            (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
-            (18, 2), (18, 3),
-            (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-            (26, 4), (26, 5), (26, 6)
-        ]
-        res_pit = walk_path(pitfall_path)
-        print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
-    else:
-        print("STILL IN STATE B. SOMETHING WENT WRONG.")
+        # 1st A: Interact
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # 2nd A: Advance to YES/NO prompt
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # 3rd A: Select YES
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # 4th A: Close the dialogue completely
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # Local verification
+        print("Testing local verification (stepping Right)...")
+        mgba.press_buttons(["Right"])
+        time.sleep(0.5)
+        
+        pos = mgba.get_coordinates()
+        if pos == {'x': 2, 'y': 6}:
+            print("STATE A STRICTLY VERIFIED SUCCESSFUL!!!")
+            return True
+        else:
+            print("STILL IN STATE B! Re-positioning to (2, 6) to retry...")
+            if pos == {'x': 3, 'y': 6}:
+                mgba.press_buttons(["Left"])
+                time.sleep(0.5)
+            attempts += 1
+    return False
+
+if __name__ == "__main__":
+    pos = mgba.get_coordinates()
+    print(f"Starting solve_switch.py from {pos}...")
+    
+    # Path from current (22, 2) to (2, 6) on 3F East (State B)
+    path = [
+        (23, 2), (24, 2), (25, 2), (26, 2),
+        (26, 3),
+        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3),
+        (18, 2), (18, 1),
+        (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1),
+        (4, 2), (4, 3), (4, 4),
+        (3, 4),
+        (3, 5), (3, 6),
+        (2, 6)
+    ]
+    
+    res = walk_path(path)
+    print(f"Path result to switch: {res}. Position: {mgba.get_coordinates()}")
+    
+    if mgba.get_coordinates() == {'x': 2, 'y': 6}:
+        if toggle_to_state_a():
+            print("Successfully toggled and verified State A! Now walking to the pitfall...")
+            pitfall_path = [
+                (2, 7), (2, 8),
+                (3, 8), (4, 8), (5, 8),
+                (5, 7), (5, 6), (5, 5), (5, 4),
+                (4, 4),
+                (4, 3), (4, 2), (4, 1),
+                (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
+                (18, 2), (18, 3),
+                (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+                (26, 4), (26, 5), (26, 6)
+            ]
+            res_pit = walk_path(pitfall_path)
+            print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
