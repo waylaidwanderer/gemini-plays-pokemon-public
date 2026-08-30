@@ -20,7 +20,7 @@
 - Green Display Table: (4, 6..7).
 - Column 9 Divider: Solid vertical wall from Row 0 to Row 8 with shutter gate at (9, 4..5) (OPEN in State A, CLOSED in State B).
 - South Divider (Row 9): Solid wall across cols 1-7.
-- Shutter Divider (Column 9): Closed metal shutter at (9, 4..7) in State B; OPEN in State A.
+- Decorative Garden Statues: Statues at (13, 9) and (13, 11) are decorative scenery (Negative Test Turn 20908: Pressing A facing Right at (12, 9) yielded no dialogue or switch trigger).
 
 ### Northern Landing Sector (Accessible via 3F Right Balcony Drop at (19, 14))
 - Balcony Landing Tile (Arrival): 1F (18, 14) [Departed 3F at (19, 14), Verified Turn 19000 & 20893]
