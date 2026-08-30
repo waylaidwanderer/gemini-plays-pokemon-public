@@ -38,7 +38,6 @@ def walk_route(path):
                 attempts += 1
                 print("Coordinates did not change. Checking for battle/barrier...")
                 flee_battle()
-                # Check if we fell through pitfall
                 chk_pos = mgba.get_coordinates()
                 if chk_pos['y'] < 0 or chk_pos['y'] > 22: # Out of normal 3F map bounds if warped
                     print(f"Warp detected after flee: {chk_pos}")
@@ -57,16 +56,18 @@ def walk_route(path):
 # Generate path from current position (18, 12)
 path = []
 
-# Step 1: Walk UP Column 18 to Row 1
+# Step 0: Walk Left to Column 17
+path.append((17, 12))
+
+# Step 1: Walk UP Column 17 to Row 1
 for y in range(11, 0, -1):
-    path.append((18, y))
+    path.append((17, y))
 
 # Step 2: Walk Left along Row 1 to Column 4
-for x in range(17, 3, -1):
+for x in range(16, 3, -1):
     path.append((x, 1))
 
 # Step 3: Walk DOWN Column 4 to Row 14
-# Column 4 is wide open on 3F West
 for y in range(2, 15):
     path.append((4, y))
 
