@@ -45,16 +45,14 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (25, 12)
+# Start at current (23, 5)
 path = [
-    # 1. UP to Row 11
-    (25, 11),
-    # 2. LEFT to Column 23
-    (24, 11), (23, 11),
-    # 3. UP Column 23 to Row 2
-    (23, 10), (23, 9), (23, 8), (23, 7), (23, 6), (23, 5), (23, 4), (23, 3), (23, 2),
-    # 4. LEFT along Row 2 to (22, 2)
-    (22, 2)
+    # 1. Walk Right along Row 5 to Column 27
+    (24, 5), (25, 5), (26, 5), (27, 5),
+    # 2. Walk UP Column 27 to Row 2
+    (27, 4), (27, 3), (27, 2),
+    # 3. Walk LEFT along Row 2 to (22, 2)
+    (26, 2), (25, 2), (24, 2), (23, 2), (22, 2)
 ]
 
 print("Walking to (22, 2)...")
