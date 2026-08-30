@@ -62,34 +62,66 @@ def walk_path(coords):
     return "SUCCESS"
 
 pos = mgba.get_coordinates()
-print(f"Starting 3F pathing from {pos} with NPC bypass...")
+print(f"Starting 3F switch toggle and pitfall fall from {pos}")
 
-# Path to (22, 2) bypassing the NPC at (3, 3) using Column 4 and Row 2
-path_to_verify = [
-    (4, 4),
-    (4, 3), (4, 2),
-    (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
+# Walk from (22, 2) to (2, 6) using the verified bypass path
+to_switch_path = [
+    (22, 3),
+    (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
+    (10, 2),
+    (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2),
+    (4, 3), (4, 4),
+    (3, 4),
+    (3, 5), (3, 6),
+    (2, 6)
 ]
 
-res = walk_path(path_to_verify)
-print(f"Walk to verify result: {res}. Pos: {mgba.get_coordinates()}")
+res = walk_path(to_switch_path)
+print(f"Walk to switch at (2, 5) result: {res}. Pos: {mgba.get_coordinates()}")
 
-if mgba.get_coordinates() == {'x': 22, 'y': 2}:
-    # Verify gate by trying to step Left to (21, 2)
-    print("Verifying if gate at (21, 2) is open...")
-    mgba.press_buttons(["Left"])
+if mgba.get_coordinates() == {'x': 2, 'y': 6}:
+    # Face UP explicitly
+    mgba.press_buttons(["Up"])
     time.sleep(0.5)
-    pos_gate = mgba.get_coordinates()
-    print(f"Position after trying gate: {pos_gate}")
     
-    if pos_gate == {'x': 21, 'y': 2}:
-        print("GATE IS OPEN! WE ARE IN STATE A.")
-        # Step back to (22, 2), then to Column 26 and Down to trigger pitfall!
-        pitfall_path = [
-            (22, 2), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-            (26, 4), (26, 5), (26, 6)
-        ]
-        res_pit = walk_path(pitfall_path)
-        print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
-    else:
-        print("GATE IS CLOSED! Toggle failed.")
+    # Toggle switch at (2, 5) exactly ONCE to State A
+    print("Toggling Mewtwo switch at (2, 5) to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    
+    # Walk back to (22, 2) using same bypass path
+    verify_path = [
+        (3, 6), (3, 5), (3, 4),
+        (4, 4), (4, 3), (4, 2),
+        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2),
+        (10, 3), (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3),
+        (22, 2)
+    ]
+    res_verify = walk_path(verify_path)
+    print(f"Walk to verify result: {res_verify}. Pos: {mgba.get_coordinates()}")
+    
+    if mgba.get_coordinates() == {'x': 22, 'y': 2}:
+        # Verify gate by trying to step Left to (21, 2)
+        print("Verifying if gate at (21, 2) is open...")
+        mgba.press_buttons(["Left"])
+        time.sleep(0.5)
+        pos_gate = mgba.get_coordinates()
+        print(f"Position after trying gate: {pos_gate}")
+        
+        if pos_gate == {'x': 21, 'y': 2}:
+            print("GATE IS OPEN! WE ARE IN STATE A.")
+            # Step back to (22, 2), then to Column 26 and Down to trigger pitfall!
+            pitfall_path = [
+                (22, 2), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+                (26, 4), (26, 5), (26, 6)
+            ]
+            res_pit = walk_path(pitfall_path)
+            print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
+        else:
+            print("GATE IS CLOSED! Toggle failed.")
