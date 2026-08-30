@@ -1,54 +1,111 @@
 import mgba
 import time
+from PIL import Image, ImageChops
 
-def walk_and_test_3f():
-    current_pos = mgba.get_coordinates()
-    print(f"Starting at: {current_pos}")
-    
-    # 1. Walk to (12, 12)
-    # From (7, 11) -> Right to (12, 11), then Down to (12, 12)
-    steps = ["Right"]*5 + ["Down"]
-    for s in steps:
-        mgba.press_buttons([s])
-        time.sleep(0.3)
-    print(f"Arrived at: {mgba.get_coordinates()}")
-    
-    # Face Up
-    mgba.press_buttons(["Up"])
-    time.sleep(0.2)
-    
-    # Press A
-    print(f"Pressing A at {mgba.get_coordinates()} facing Up towards (12, 11)...")
+def is_in_battle():
+    img1_path = mgba.take_screenshot()
+    img1 = Image.open(img1_path)
+    mgba.press_buttons(["Start"])
+    time.sleep(0.25)
+    img2_path = mgba.take_screenshot()
+    img2 = Image.open(img2_path)
+    diff = ImageChops.difference(img1, img2)
+    bbox = diff.getbbox()
+    if bbox is None:
+        return True
+    else:
+        mgba.press_buttons(["Start"])
+        time.sleep(0.25)
+        return False
+
+def handle_battle_escape():
+    print("ESCAPING BATTLE...")
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.2)
+    mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1000", "B"])
+    time.sleep(1.5)
     mgba.press_buttons(["A"])
     time.sleep(0.5)
-    
-    # Take screenshot
-    img1 = mgba.take_screenshot()
-    
-    # Dismiss dialogue just in case
-    mgba.press_buttons(["B"])
-    time.sleep(0.2)
-    
-    # 2. Walk to (12, 10)
-    # From (12, 12) -> Up to (12, 10) (2 steps)
-    mgba.press_buttons(["Up", "Up"])
-    time.sleep(0.5)
-    print(f"Arrived at: {mgba.get_coordinates()}")
-    
-    # Face Up
-    mgba.press_buttons(["Up"])
-    time.sleep(0.2)
-    
-    # Press A
-    print(f"Pressing A at {mgba.get_coordinates()} facing Up towards (12, 9)...")
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-    
-    # Take screenshot
-    img2 = mgba.take_screenshot()
-    
-    # Dismiss dialogue
-    mgba.press_buttons(["B"])
-    time.sleep(0.2)
 
-walk_and_test_3f()
+def step_safe(direction, target_x, target_y):
+    pos_before = mgba.get_coordinates()
+    print(f"Moving {direction} to ({target_x}, {target_y}). Current: {pos_before}")
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    pos_after = mgba.get_coordinates()
+    
+    if pos_after['x'] == target_x and pos_after['y'] == target_y:
+        return "SUCCESS"
+        
+    if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2):
+        print(f"Warped/Fell! From {pos_before} to {pos_after}")
+        return "WARPED"
+        
+    if pos_before == pos_after:
+        if is_in_battle():
+            handle_battle_escape()
+            return "BATTLE"
+        else:
+            return "BLOCKED"
+            
+    return "SUCCESS"
+
+def walk_path(coords):
+    for target_x, target_y in coords:
+        pos = mgba.get_coordinates()
+        dx = target_x - pos['x']
+        dy = target_y - pos['y']
+        
+        direction = ""
+        if dx > 0: direction = "Right"
+        elif dx < 0: direction = "Left"
+        elif dy > 0: direction = "Down"
+        elif dy < 0: direction = "Up"
+        
+        attempts = 0
+        while attempts < 3:
+            res = step_safe(direction, target_x, target_y)
+            if res == "SUCCESS":
+                break
+            elif res == "WARPED":
+                return "WARPED"
+            attempts += 1
+            time.sleep(0.2)
+        if attempts == 3:
+            return "BLOCKED"
+    return "SUCCESS"
+
+if __name__ == "__main__":
+    pos = mgba.get_coordinates()
+    print(f"Starting probe from {pos} to (12, 12)...")
+    
+    # Path from (3, 6) in State B to (12, 12)
+    path = [
+        (3, 7), (3, 8), (3, 9), (3, 10), (3, 11),
+        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (11, 11), (12, 11),
+        (12, 12)
+    ]
+    
+    res = walk_path(path)
+    print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+    
+    if mgba.get_coordinates() == {'x': 12, 'y': 12}:
+        # Face UP
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        # Interact
+        print("Interacting with (12, 11) facing UP...")
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # Take screenshot
+        img_path = mgba.take_screenshot()
+        img = Image.open(img_path)
+        img.save("screenshots/switch_12_11_check.png")
+        print("Saved screenshot to screenshots/switch_12_11_check.png")
+        
+        # Dismiss text
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
