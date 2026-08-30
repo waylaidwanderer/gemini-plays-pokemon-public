@@ -64,10 +64,10 @@ def walk_path(coords):
 pos = mgba.get_coordinates()
 print(f"Walking to (2, 6) from {pos} and stopping...")
 
-# Bypass path to (2, 6)
+# Bypass path to (2, 6) from (26, 6) in State B
 to_switch_path = [
-    (22, 3),
-    (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
+    (26, 5), (26, 4), (26, 3),
+    (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
     (10, 2),
     (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2),
     (4, 3), (4, 4),
@@ -80,7 +80,6 @@ res = walk_path(to_switch_path)
 print(f"Arrived at (2, 6) result: {res}. Pos: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 2, 'y': 6}:
-    # Explicitly face UP towards switch
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     print("Now standing at (2, 6) facing UP towards the switch!")
