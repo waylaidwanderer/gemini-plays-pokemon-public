@@ -47,27 +47,26 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# 1. Warp DOWN to 2F West from 3F West (5, 10)
-print("Stepping DOWN into stairs to warp to 2F West...")
-warp_res = step_strict("Down", 5, 10)
-print(f"Warp result: {warp_res}. Position: {mgba.get_coordinates()}")
+# Walk from current (5, 10) on 2F West to (2, 12)
+path = [
+    (5, 11),
+    (4, 11), (3, 11), (3, 12), (2, 12)
+]
 
-if warp_res == "WARPED" or mgba.get_coordinates() == {'x': 5, 'y': 11}:
-    print("Arrived on 2F West! Walking to (2, 12)...")
-    path_to_switch = [
-        (4, 11), (3, 11), (3, 12), (2, 12)
-    ]
-    res = walk_path_safe(path_to_switch)
-    print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+print("Walking from (5, 10) to (2, 12)...")
+res = walk_path_safe(path)
+print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+
+if mgba.get_coordinates() == {'x': 2, 'y': 12}:
+    print("Facing UP...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
     
-    if mgba.get_coordinates() == {'x': 2, 'y': 12}:
-        print("Facing UP...")
-        mgba.press_buttons(["Up"])
-        time.sleep(1.0)
-        
-        # Take a screenshot to inspect if there is a Mewtwo statue at (2, 11)
-        screenshot_path = mgba.take_screenshot()
-        print(f"Screenshot taken at {screenshot_path}")
-else:
-    print("Failed to warp DOWN to 2F.")
+    print("Pressing A once to trigger dialogue...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.5)
+    
+    # Take screenshot of the dialogue
+    screenshot_path = mgba.take_screenshot()
+    print(f"Dialogue screenshot taken at {screenshot_path}")
 
