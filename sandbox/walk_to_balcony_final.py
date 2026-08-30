@@ -1,35 +1,27 @@
 import mgba
 import time
 
-button_count = 0
-
 def press_buttons_safe(buttons):
-    global button_count
-    if button_count + len(buttons) > 35:
-        print(f"Approaching button limit ({button_count} pressed). Safe abort to prevent emulator limit.")
-        return False
     mgba.press_buttons(buttons)
-    button_count += len(buttons)
     return True
 
-def flee_battle():
+def flee_battle_fully():
     print("Fleeing battle...")
     for _ in range(5):
-        if not press_buttons_safe(["B"]): return False
+        press_buttons_safe(["B"])
         time.sleep(0.4)
-    if not press_buttons_safe(["Down", "Right", "A"]): return False
+    press_buttons_safe(["Down", "Right", "A"])
     time.sleep(2.0)
     for _ in range(3):
-        if not press_buttons_safe(["B"]): return False
+        press_buttons_safe(["B"])
         time.sleep(0.4)
-    return True
 
 def walk_to_target(tx, ty):
     attempts = 0
     while attempts < 15:
         pos = mgba.get_coordinates()
         if pos['x'] == tx and pos['y'] == ty:
-            return True
+            return "ARRIVED"
         
         dx = tx - pos['x']
         dy = ty - pos['y']
@@ -40,63 +32,75 @@ def walk_to_target(tx, ty):
         else: break
         
         print(f"Walking {direction} to ({tx}, {ty}) from {pos}...")
-        if not press_buttons_safe([direction]):
-            return False
+        press_buttons_safe([direction])
         time.sleep(0.6)
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
             attempts += 1
             print("No movement. Fleeing battle...")
-            if not flee_battle():
-                return False
+            flee_battle_fully()
+            chk_pos = mgba.get_coordinates()
+            if chk_pos['x'] != pos['x'] or chk_pos['y'] != pos['y']:
+                print(f"Displaced to {chk_pos}")
+                return "DISPLACED"
         else:
             attempts = 0
             if new_pos['x'] == tx and new_pos['y'] == ty:
-                return True
-    return False
+                return "ARRIVED"
+            # If coordinates changed but not to the target, we fell/warped!
+            if abs(new_pos['x'] - pos['x']) > 1 or abs(new_pos['y'] - pos['y']) > 1:
+                print(f"WARP/FALL DETECTED! Landed at: {new_pos}")
+                return "FALLEN"
+    return "FAILED"
 
 def main():
-    print("--- Stateful Balcony Route (State B) ---")
     pos = mgba.get_coordinates()
-    print("Current position:", pos)
+    print("Starting from:", pos)
     
-    # Path from (25, 11) to (19, 18) balcony drop
-    path = [
-        # 1. Left to Column 24
-        (24, 11),
-        # 2. Down Column 24 to Row 16
-        (24, 12), (24, 13), (24, 14), (24, 15), (24, 16),
-        # 3. Left along Row 16 to Column 21
+    # Path from (12, 1) to (19, 18) balcony drop
+    path_to_balcony = [
+        # Right along Row 1
+        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1),
+        # Down Column 26
+        (26, 2), (26, 3), (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
+        # Left to Column 24
+        (25, 12), (24, 12),
+        # Down Column 24
+        (24, 13), (24, 14), (24, 15), (24, 16),
+        # Left along Row 16
         (23, 16), (22, 16), (21, 16),
-        # 4. Down Column 21 through open balcony gates to Row 18
+        # Down Column 21 through open balcony gates
         (21, 17), (21, 18),
-        # 5. Left to (19, 18) (balcony drop!)
+        # Left to drop at (19, 18)
         (20, 18), (19, 18)
     ]
     
-    # Trim the path if we are already partially along it
+    # Trim path if we are already along it
     start_idx = 0
-    for idx, pt in enumerate(path):
+    for idx, pt in enumerate(path_to_balcony):
         if pos['x'] == pt[0] and pos['y'] == pt[1]:
             start_idx = idx + 1
             break
-            
-    active_path = path[start_idx:]
-    print("Active path:", active_path)
+    active_path = path_to_balcony[start_idx:]
     
-    # Execute path
-    for i, target in enumerate(active_path):
-        tx, ty = target
-        if not walk_to_target(tx, ty):
-            print(f"Failed to reach target ({tx}, {ty}). Ending run.")
+    print("Executing path to balcony...")
+    for target in active_path:
+        res = walk_to_target(target[0], target[1])
+        if res == "FALLEN":
+            print("Warped/Fell successfully! Landed at:", mgba.get_coordinates())
+            mgba.take_screenshot()
             return
+        elif res == "DISPLACED":
+            print("Displaced on way to balcony.")
+            continue
+        elif res == "FAILED":
+            print(f"Failed to reach {target}")
+            break
             
-    # Check if we warped after stepping onto the last tile
-    new_pos = mgba.get_coordinates()
-    if new_pos['x'] != 19 or new_pos['y'] != 18:
-        print("Warp/Fall triggered successfully! Landed at:", new_pos)
-        mgba.take_screenshot()
+    final_pos = mgba.get_coordinates()
+    print("Final position:", final_pos)
+    mgba.take_screenshot()
 
 if __name__ == "__main__":
     main()
