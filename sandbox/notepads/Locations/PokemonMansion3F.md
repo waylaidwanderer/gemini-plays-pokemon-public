@@ -12,7 +12,7 @@
 ## 3F East - Mapping & Boundaries
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
 - **Row 3 Horizontal Opening:** Row 3 is completely open across Column 22, allowing horizontal passage between 3F West/Middle and the northeastern Scientist room.
-- **The Pitfall Trap location:** Located on Column 26. Walking down Column 26 in State A (stepping on (26, 3) or (26, 6)) drops the player to 1F East inside the fenced room.
+- **The Pitfall Trap location:** Located on Column 26. Walking down Column 26 in State A (stepping on (26, 4) or (26, 6)) drops the player to 1F East inside the fenced room. Note: Stepping on (26, 3) does NOT trigger the warp, but stepping DOWN from (26, 3) to (26, 4) triggers it (verified Turn 68273).
 
 ## State B Proven Isolation & Blockages (Verified Turn 66911)
 - **Western, Central, and Eastern Sections are Isolated:** In State B, 3F is divided into completely isolated vertical strips below Row 3:
