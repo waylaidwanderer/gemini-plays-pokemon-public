@@ -8,7 +8,6 @@ def step_strict(direction, target_x, target_y):
     pos_after = mgba.get_coordinates()
     
     if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
-        print(f"WARPED! From {pos_before} to {pos_after}")
         return "WARPED"
     if pos_after['x'] == target_x and pos_after['y'] == target_y:
         return "SUCCESS"
@@ -46,31 +45,38 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (4, 3)
+# 1. Escape from battle
+print("Escaping battle...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+# Cursor is on PKMN. Down goes to RUN.
+mgba.press_buttons(["Down", "sleep 250", "A"])
+time.sleep(2.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Coordinates after escape:", mgba.get_coordinates())
+
+# 2. Walk remaining path to (22, 2)
 path = [
-    (4, 4),
-    (3, 4),
-    (3, 5)
+    # 1. UP Column 27 to Row 2
+    (27, 3), (27, 2),
+    # 2. LEFT along Row 2 to (22, 2)
+    (26, 2), (25, 2), (24, 2), (23, 2), (22, 2)
 ]
 
-print("Walking from (4, 3) to (3, 5) next to Mewtwo Switch...")
+print("Continuing walk to (22, 2)...")
 res = walk_path_strict(path)
-print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
 
-if mgba.get_coordinates() == {'x': 3, 'y': 5}:
-    # Face Left towards (2, 5)
-    print("Facing Left...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    
-    # Toggle switch with 4 A-presses and 2.5-second delays
-    print("Toggling the Mewtwo switch...")
-    mgba.press_buttons(["A"])
-    time.sleep(2.5)
-    mgba.press_buttons(["A"])
-    time.sleep(2.5)
-    mgba.press_buttons(["A"])
-    time.sleep(2.5)
-    mgba.press_buttons(["A"])
-    time.sleep(2.5)
-    print("Mewtwo switch toggled to State A successfully!")
+if mgba.get_coordinates() == {'x': 22, 'y': 2}:
+    # Test step Left to (21, 2)
+    print("Testing step Left to (21, 2)...")
+    test_res = step_strict("Left", 21, 2)
+    print(f"Test result: {test_res}. Position: {mgba.get_coordinates()}")
+    if test_res == "BLOCKED":
+         print("RESULT: Mansion is in STATE B (Gate at (21,2) is closed).")
+    elif test_res == "SUCCESS":
+         print("RESULT: Mansion is in STATE A (Gate at (21,2) is open).")
