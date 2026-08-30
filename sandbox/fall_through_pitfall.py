@@ -2,23 +2,47 @@ import mgba
 import time
 
 def flee_battle():
-    print("Attempting to flee battle...")
-    for _ in range(4):
+    print("Fleeing battle...")
+    for _ in range(5):
         mgba.press_buttons(["B"])
-        time.sleep(0.3)
+        time.sleep(0.4)
     mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.5)
-    mgba.press_buttons(["B", "B"])
-    time.sleep(0.5)
+    time.sleep(2.0)
+    for _ in range(3):
+        mgba.press_buttons(["B"])
+        time.sleep(0.4)
 
-def walk_route(path):
+def walk_to_pitfall_2f():
+    # Currently at (22, 2) on 2F East
+    path = [
+        # 1. Right to Column 26
+        (23, 2),
+        (24, 2),
+        (25, 2),
+        (26, 2),
+        # 2. DOWN Column 26 to Row 15
+        (26, 3),
+        (26, 4),
+        (26, 5),
+        (26, 6),
+        (26, 7),
+        (26, 8),
+        (26, 9),
+        (26, 10),
+        (26, 11),
+        (26, 12),
+        (26, 13),
+        (26, 14),
+        (26, 15) # Expected 2F East pitfall!
+    ]
+    
     for i, target in enumerate(path):
         tx, ty = target
         attempts = 0
         while attempts < 15:
             pos = mgba.get_coordinates()
             if pos['x'] == tx and pos['y'] == ty:
-                print(f"[{i}] Arrived at ({tx}, {ty})")
+                print(f"[{i}] Already at ({tx}, {ty})")
                 break
             
             dx = tx - pos['x']
@@ -39,11 +63,12 @@ def walk_route(path):
                 print("Coordinates did not change. Checking for battle/barrier...")
                 flee_battle()
                 chk_pos = mgba.get_coordinates()
-                if chk_pos['y'] < 0 or chk_pos['y'] > 22: # Out of normal 3F map bounds if warped
+                if chk_pos['x'] != pos['x'] or chk_pos['y'] != pos['y']:
                     print(f"Warp detected after flee: {chk_pos}")
                     return True
             else:
                 attempts = 0
+                # If we warp/fall, the coordinates will change and not match the target
                 if new_pos['x'] != tx or new_pos['y'] != ty:
                     print(f"WARP/FALL DETECTED! Landed at: {new_pos}")
                     mgba.take_screenshot()
@@ -53,41 +78,20 @@ def walk_route(path):
                     print(f"[{i}] Arrived at ({tx}, {ty})")
                     break
 
-# Generate path from current position (17, 4)
-path = [
-    (17, 3),
-    (17, 2),
-    (17, 1),
-]
+    # If we reached (26, 15) but didn't fall, let's try stepping Right to (27, 15)
+    pos = mgba.get_coordinates()
+    if pos['x'] == 26 and pos['y'] == 15:
+        print("At (26, 15). Trying to step Right to (27, 15) to trigger pitfall...")
+        mgba.press_buttons(["Right"])
+        time.sleep(0.6)
+        new_pos = mgba.get_coordinates()
+        if new_pos['x'] != 27 or new_pos['y'] != 15:
+            print(f"WARP/FALL DETECTED after stepping Right! Landed at: {new_pos}")
+            mgba.take_screenshot()
+            return True
 
-# Walk Left along Row 1 to Column 4
-for x in range(16, 3, -1):
-    path.append((x, 1))
+    mgba.take_screenshot()
+    print(f"Final Position: {mgba.get_coordinates()}")
+    return False
 
-# Down Column 4 to Row 5
-path.append((4, 2))
-path.append((4, 3))
-path.append((4, 4))
-path.append((4, 5))
-
-# Bypass (4, 6) closed gate using Column 3
-path.append((3, 5))
-for y in range(6, 15):
-    path.append((3, y))
-
-# Walk Right to Column 10 on Row 14
-for x in range(4, 11):
-    path.append((x, 14))
-
-# Down Column 10 to Row 16
-path.append((10, 15))
-path.append((10, 16))
-
-# Right along Row 16 to the pitfall at (18, 16)
-for x in range(11, 19):
-    path.append((x, 16))
-
-print(f"Path to pitfall (18, 16): {len(path)} steps")
-walk_route(path)
-mgba.take_screenshot()
-print("Execution finished!")
+walk_to_pitfall_2f()
