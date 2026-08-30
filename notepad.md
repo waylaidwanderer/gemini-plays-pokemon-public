@@ -1400,6 +1400,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   2. Find and fall through the active pitfall on 3F East (under investigation).
   3. Take the stairs down to B1F East.
   4. Navigate B1F to see if we can cross from East to West, find the Mewtwo switch, toggle it, and retrieve the Secret Key!
-- **State A Shutter Gate Observations:** Row 13 on 3F East is completely impassable in State A because the gate at `(25, 13)` is indeed closed, and Columns 26-28 on Row 13 are solid partition walls. This suggests the 3F balcony is physically inaccessible from 3F East in State A. If this is true, then the pitfall drop is the only intended route from 3F East!
+- **State A Shutter Gate Observations (Verified Turn 68991):** The shutter gate at `(25, 13)` is OPEN in State A.
 
 <hr>
