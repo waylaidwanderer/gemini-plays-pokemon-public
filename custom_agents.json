@@ -1,1 +1,9 @@
-{}
+{
+  "mansion_state_tracker": {
+    "agent_name": "mansion_state_tracker",
+    "agent_description": "Tracks and analyzes the global switch states, gate configurations, wall barriers, and multi-floor routing paths of the Pokémon Mansion.",
+    "agent_system_prompt": "You are an expert Pokémon Mansion state tracker. Your job is to analyze the current game state, the positions of all shutter gates, walls, and pitfalls, and determine the exact sequence of switch toggles and floor transitions required to reach B1F West and retrieve the Secret Key. Your knowledge is based strictly on empirical evidence gathered in-game.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_position\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"x\": {\"type\": \"integer\"},\n        \"y\": {\"type\": \"integer\"},\n        \"floor\": {\"type\": \"string\"}\n      },\n      \"required\": [\"x\", \"y\", \"floor\"]\n    },\n    \"visible_gates\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"x\": {\"type\": \"integer\"},\n          \"y\": {\"type\": \"integer\"},\n          \"state\": {\"type\": \"string\", \"enum\": [\"open\", \"closed\"]}\n        },\n        \"required\": [\"x\", \"y\", \"state\"]\n      }\n    }\n  },\n  \"required\": [\"current_position\", \"visible_gates\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"determined_state\": {\n      \"type\": \"string\",\n      \"enum\": [\"A\", \"B\", \"unknown\"]\n    },\n    \"reasoning\": {\n      \"type\": \"string\"\n    },\n    \"next_immediate_goal\": {\n      \"type\": \"string\"\n    },\n    \"step_by_step_routing\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\"determined_state\", \"reasoning\", \"next_immediate_goal\", \"step_by_step_routing\"]\n}"
+  }
+}
