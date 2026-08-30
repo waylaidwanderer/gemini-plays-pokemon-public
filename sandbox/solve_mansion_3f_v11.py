@@ -27,7 +27,7 @@ def step_strict(direction, target_x, target_y):
         return "SUCCESS"
     if pos_before == pos_after:
         return "BLOCKED"
-    return "SUCCESS"
+    return "BLOCKED" # We moved, but not to the target tile, so we treat it as blocked/interrupted!
 
 def walk_path_robust(path):
     idx = 0
@@ -51,43 +51,47 @@ def walk_path_robust(path):
         if res == "SUCCESS":
             idx += 1
         elif res == "BLOCKED":
-            # Check if we are in battle or actually blocked by wall
             time.sleep(0.5)
             pos_after = mgba.get_coordinates()
             if pos_after['x'] == target_x and pos_after['y'] == target_y:
                 idx += 1
                 continue
-                
-            # If still on same tile, let's try running from battle
             run_from_battle()
             pos_current = mgba.get_coordinates()
             print(f"Current position after run attempt: {pos_current}")
-            # If position didn't change and we are still not at target, we will retry the same step
             if pos_current == pos:
                 print("Retrying step...")
             else:
-                # We moved, so let's re-evaluate
                 print("Position changed after escape, re-aligning path...")
         elif res == "WARPED":
             return "WARPED"
         time.sleep(0.1)
     return "SUCCESS"
 
-# 1. Walk to Switch at (12, 11) from current (22, 2)
-# Path goes: Down to Row 3, Left to Column 12, Down Column 12 to Row 12
+# 1. Walk from current (20, 16) to switch at (12, 11) in State B
+# Path:
+# - Right to Column 24
+# - UP Column 24 to Row 10
+# - Right to Column 26
+# - UP Column 26 to Row 3 (pitfall closed in State B)
+# - Left along Row 3 to Column 12 (bypasses gate at 21, 2)
+# - DOWN Column 12 to Row 12 (12, 12)
 to_switch_path = [
-    (22, 3),
-    (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
+    (21, 16), (22, 16), (23, 16), (24, 16),
+    (24, 15), (24, 14), (24, 13), (24, 12), (24, 11), (24, 10),
+    (25, 10), (26, 10),
+    (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
+    (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
     (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12)
 ]
 
-print("Walking to switch at (12, 12)...")
+print("Walking to switch from (20, 16)...")
 res = walk_path_robust(to_switch_path)
-print(f"Arrival at switch: {res}. Position: {mgba.get_coordinates()}")
+print(f"Switch arrival: {res}. Position: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 12, 'y': 12}:
     # Face UP
-    print("Facing UP to the switch...")
+    print("Facing UP to switch...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
@@ -103,14 +107,24 @@ if mgba.get_coordinates() == {'x': 12, 'y': 12}:
     time.sleep(2.5)
     print("Mewtwo switch toggled to State A successfully!")
     
-    # Walk to balcony and drop
-    # Walk Left to Column 11, Up Column 11 to Row 3, Right to Column 25, Down Column 25 to Row 17, Left to Column 19, Down to (19, 18)
+    # 2. Walk to balcony and drop in State A
+    # Path:
+    # - Walk Left to Column 11 at (11, 12)
+    # - Walk UP Column 11 to Row 9 at (11, 9)
+    # - Walk Right to Column 12 at (12, 9)
+    # - Walk UP Column 12 to Row 2 at (12, 2)
+    # - Walk Right along Row 2 to Column 27 at (27, 2)
+    # - Walk DOWN Column 27 to Row 17 at (27, 17)
+    # - Walk Left along Row 17 to Column 19 at (19, 17) (open gates!)
+    # - Walk DOWN Column 19 to Row 18 at (19, 18) (balcony drop!)
     to_balcony_path = [
         (11, 12),
-        (11, 11), (11, 10), (11, 9), (11, 8), (11, 7), (11, 6), (11, 5), (11, 4), (11, 3),
-        (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-        (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
-        (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+        (11, 11), (11, 10), (11, 9),
+        (12, 9),
+        (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2),
+        (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2), (27, 2),
+        (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16), (27, 17),
+        (26, 17), (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
         (19, 18)
     ]
     print("Walking to balcony and dropping...")
