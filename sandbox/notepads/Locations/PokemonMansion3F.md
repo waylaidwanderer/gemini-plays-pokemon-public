@@ -59,5 +59,3 @@
 - **Column 9 Partition Wall:** Column 9 is a solid vertical brick wall on Rows 3-7, and is blocked by rubble on Row 8.
 - **Crossing Constraints in State B:** Because of the Column 9 wall, the only way to cross horizontally between 3F East (Columns 10-28) and 3F West (Columns 1-8) in State B is via **Row 1 or Row 2**. Crossing below Row 3 is completely blocked.
 - **NPC at (3, 3):** There is an NPC (trainer) standing at (3, 3) on 3F West. Column 3 is therefore blocked, but the parallel Column 4 is completely open on Rows 2-5, allowing clean vertical bypass.
-## State A Additional Discoveries (Verified Turn 67634)
-- **Column 25 Row 13 Gate:** Blocked by a closed shutter gate in State A. This prevents direct vertical passage down Column 25 past Row 12 in State A.
