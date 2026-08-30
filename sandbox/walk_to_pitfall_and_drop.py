@@ -2,16 +2,29 @@ import mgba
 import time
 
 def main():
-    print("Starting probe down Column 26...")
-    for step in range(12):
+    print("Walking to (25, 8) to test if it's the pitfall...")
+    path = [
+        (26, 10),
+        (26, 9),
+        (26, 8),
+        (25, 8)
+    ]
+    
+    for i, target in enumerate(path):
         pos = mgba.get_coordinates()
-        print(f"Step {step}: Current Position: {pos}")
+        print(f"Current Position: {pos}")
+        tx, ty = target
+        dx = tx - pos['x']
+        dy = ty - pos['y']
         
-        # Check if we dropped (x, y should change drastically or map transition)
-        # On 1F East, our Y would be different or map transition detected.
-        # But even if coordinates are identical, we might see it in screenshot.
+        if dx > 0: direction = "Right"
+        elif dx < 0: direction = "Left"
+        elif dy > 0: direction = "Down"
+        elif dy < 0: direction = "Up"
+        else: continue
         
-        mgba.press_buttons(["Down"])
+        print(f"Moving {direction} to {target}...")
+        mgba.press_buttons([direction])
         time.sleep(0.5)
         
     pos = mgba.get_coordinates()
