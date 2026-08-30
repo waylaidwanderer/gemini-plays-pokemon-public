@@ -48,9 +48,8 @@ def walk_path_safe(path):
     return "SUCCESS"
 
 def toggle_switch():
-    print("Facing UP towards Mewtwo Switch at (12, 11)...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.0)
+    print("Toggling Mewtwo Switch at (12, 10) from (12, 11)...")
+    # We are already facing UP
     
     print("Pressing A (1/4)...")
     mgba.press_buttons(["A"])
@@ -69,35 +68,32 @@ def toggle_switch():
     time.sleep(2.5)
     print("Switch toggle complete.")
 
-# 1. Path from current (22, 2) to below switch at (12, 12)
-path1 = [
-    (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
-    (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10),
-    (11, 10),
-    (11, 11), (11, 12),
-    (12, 12)
-]
-
-# 2. Path from (12, 12) to balcony drop at (19, 18)
-path2 = [
-    (11, 12), (10, 12),
-    (10, 13), (10, 14), (10, 15), (10, 16),
-    (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16), (20, 16), (21, 16),
+# Path from current (12, 11) after toggle to balcony drop at (19, 18)
+path = [
+    # 1. Walk down and around to Column 10
+    (12, 12), (11, 12), (10, 12),
+    # 2. Walk up Column 10 to Row 9
+    (10, 11), (10, 10), (10, 9),
+    # 3. Walk right to Column 12
+    (11, 9), (12, 9),
+    # 4. Walk up Column 12 to Row 3 (bypasses rubble at 10,8-11,8)
+    (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
+    # 5. Walk right along Row 3 to Column 25
+    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
+    # 6. Walk down Column 25 to Row 16 (gate at 25,13 open in State A)
+    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
+    # 7. Walk left along Row 16 to Column 21
+    (24, 16), (23, 16), (22, 16), (21, 16),
+    # 8. Walk down Column 21 to Row 18 (gate at 21,17 open in State A)
     (21, 17), (21, 18),
+    # 9. Walk left to balcony drop at (19, 18)
     (20, 18), (19, 18)
 ]
 
-print("Executing Step 1: Walk to switch at (12, 11)...")
-res1 = walk_path_safe(path1)
-print(f"Path 1 result: {res1}. Position: {mgba.get_coordinates()}")
+print("Starting toggle...")
+toggle_switch()
 
-if res1 == "SUCCESS" and mgba.get_coordinates() == {'x': 12, 'y': 12}:
-    print("Executing Step 2: Toggle Mewtwo Switch...")
-    toggle_switch()
-    
-    print("Executing Step 3: Walk to balcony drop...")
-    res2 = walk_path_safe(path2)
-    print(f"Path 2 result: {res2}. End position: {mgba.get_coordinates()}")
-else:
-    print("Failed to reach the switch or was interrupted.")
+print("Executing walk to balcony drop...")
+res = walk_path_safe(path)
+print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
 
