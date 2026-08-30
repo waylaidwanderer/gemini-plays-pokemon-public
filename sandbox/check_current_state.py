@@ -45,19 +45,21 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Walk to (2, 6) on 3F West
+# Walk to (2, 6) on 3F West from current (24, 12)
 path = [
-    # 1. Left to Column 23
-    (25, 12), (24, 12), (23, 12),
-    # 2. UP Column 23 to Row 3
-    (23, 11), (23, 10), (23, 9), (23, 8), (23, 7), (23, 6), (23, 5), (23, 4), (23, 3),
-    # 3. LEFT along Row 3 to Column 2 on 3F West (completely open corridor!)
+    # 1. UP to Row 11
+    (24, 11),
+    # 2. LEFT to Column 23
+    (23, 11),
+    # 3. UP Column 23 to Row 3
+    (23, 10), (23, 9), (23, 8), (23, 7), (23, 6), (23, 5), (23, 4), (23, 3),
+    # 4. LEFT along Row 3 to Column 2 on 3F West
     (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3), (9, 3), (8, 3), (7, 3), (6, 3), (5, 3), (4, 3), (3, 3), (2, 3),
-    # 4. DOWN to (2, 6)
+    # 5. DOWN to (2, 6)
     (2, 4), (2, 5), (2, 6)
 ]
 
-print("Walking to (2, 6) on 3F West...")
+print("Walking to (2, 6) on 3F West from (24, 12)...")
 res = walk_path_strict(path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
 
