@@ -68,23 +68,14 @@ def walk_path_robust(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# 1. Escape from current battle (move menu is open, so first press B, then select RUN)
-print("Escaping current wild battle...")
-mgba.press_buttons(["B"])
-time.sleep(0.5)
-mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A"])
-time.sleep(2.0)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-print("Escape completed. Current position:", mgba.get_coordinates())
-
-# 2. Walk path from current (27, 9) to (19, 18)
+# Walk path from current (27, 9) to (19, 18) via Column 26
 path = [
-    (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16), (27, 17),
-    (26, 17), (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+    (26, 9),
+    (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16), (26, 17),
+    (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
     (19, 18)
 ]
 
-print("Walking to balcony drop...")
+print("Walking to balcony drop via Column 26...")
 res = walk_path_robust(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
