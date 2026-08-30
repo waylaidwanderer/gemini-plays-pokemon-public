@@ -61,14 +61,16 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-pos = mgba.get_coordinates()
-print(f"Starting ascend_to_3f_east script from {pos}")
+# 1. Escape the wild Muk
+escape_battle_proactive()
 
-# Walk from (12, 6) to (22, 1) on 2F East
+pos = mgba.get_coordinates()
+print(f"Overworld active. Current position: {pos}")
+
+# Walk from current pos to (22, 1) to trigger the warp
 path = [
-    (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6), (22, 6),
-    (22, 5), (22, 4), (22, 3), (22, 2), (22, 1)
+    (22, 6), (22, 5), (22, 4), (22, 3), (22, 2), (22, 1)
 ]
 
 res = walk_path(path)
-print(f"Ascend result: {res}. Pos: {mgba.get_coordinates()}")
+print(f"Ascend result: {res}. Final position: {mgba.get_coordinates()}")
