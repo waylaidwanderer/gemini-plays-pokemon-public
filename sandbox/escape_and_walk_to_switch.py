@@ -1,0 +1,67 @@
+import mgba
+import time
+
+def step_strict(direction, target_x, target_y):
+    pos_before = mgba.get_coordinates()
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    pos_after = mgba.get_coordinates()
+    
+    if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
+        return "WARPED"
+    if pos_after['x'] == target_x and pos_after['y'] == target_y:
+        return "SUCCESS"
+    if pos_before == pos_after:
+        return "BLOCKED"
+    return "SUCCESS"
+
+def walk_path_strict(coords):
+    for target_x, target_y in coords:
+        pos = mgba.get_coordinates()
+        dx = target_x - pos['x']
+        dy = target_y - pos['y']
+        
+        direction = ""
+        if dx > 0: direction = "Right"
+        elif dx < 0: direction = "Left"
+        elif dy > 0: direction = "Down"
+        elif dy < 0: direction = "Up"
+        
+        if direction == "":
+            continue
+            
+        attempts = 0
+        while attempts < 2:
+            res = step_strict(direction, target_x, target_y)
+            if res == "SUCCESS":
+                break
+            elif res == "WARPED":
+                return "WARPED"
+            elif res == "BLOCKED":
+                return "BLOCKED"
+            attempts += 1
+            time.sleep(0.2)
+        if attempts == 2:
+            return "BLOCKED"
+    return "SUCCESS"
+
+# 1. Escape from battle
+print("Escaping battle...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
+time.sleep(1.5)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Coordinates after escape:", mgba.get_coordinates())
+
+# 2. Walk along Row 1 to (2, 6) on 3F West
+path = [
+    (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1), (3, 1), (2, 1),
+    (2, 2), (2, 3), (2, 4), (2, 5), (2, 6)
+]
+
+print("Walking to (2, 6) on 3F West via Row 1...")
+res = walk_path_strict(path)
+print(f"Result: {res}. Final position: {mgba.get_coordinates()}")
