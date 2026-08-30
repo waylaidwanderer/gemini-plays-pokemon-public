@@ -61,18 +61,18 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Escape the wild Ponyta at (6, 2)
-escape_battle_proactive()
-
 pos = mgba.get_coordinates()
-print(f"Overworld active. Current position: {pos}")
+print(f"Starting fall_to_1f script from {pos}")
 
-# 2. Walk along Row 2 to (22, 2)
-verify_path = [
-    (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
+# Walk from (2, 6) to (22, 2) on 3F East using Column 1 and Row 2 (State A open path!)
+to_verify_path = [
+    (1, 6),
+    (1, 5), (1, 4), (1, 3), (1, 2),
+    (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
 ]
-res_verify = walk_path(verify_path)
-print(f"Walk to verify result: {res_verify}. Pos: {mgba.get_coordinates()}")
+
+res = walk_path(to_verify_path)
+print(f"Walk to verify result: {res}. Pos: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 22, 'y': 2}:
     # Verify gate by trying to step Left to (21, 2)
