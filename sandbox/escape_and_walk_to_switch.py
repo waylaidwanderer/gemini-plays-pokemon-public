@@ -14,15 +14,57 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (4, 5) on 3F West
+# Starting at current (25, 12) on 3F East (Mansion is in State B)
 path_to_switch = [
-    # 1. Walk to (2, 6) via (3, 5) -> (3, 6) -> (2, 6)
-    ("Left", 3, 5),
-    ("Down", 3, 6),
+    # Walk Right to Column 26 on Row 12
+    ("Right", 26, 12),
+    # Walk UP Column 26 to Row 3 (bypasses horizontal wall at 25,4)
+    ("Up", 26, 11),
+    ("Up", 26, 10),
+    ("Up", 26, 9),
+    ("Up", 26, 8),
+    ("Up", 26, 7),
+    ("Up", 26, 6),
+    ("Up", 26, 5),
+    ("Up", 26, 4),
+    ("Up", 26, 3),
+    # Walk Left along Row 3 to Column 4 (bypasses NPC at 3,3)
+    ("Left", 25, 3),
+    ("Left", 24, 3),
+    ("Left", 23, 3),
+    ("Left", 22, 3),
+    ("Left", 21, 3),
+    ("Left", 20, 3),
+    ("Left", 19, 3),
+    ("Left", 18, 3),
+    ("Left", 17, 3),
+    ("Left", 16, 3),
+    ("Left", 15, 3),
+    ("Left", 14, 3),
+    ("Left", 13, 3),
+    ("Left", 12, 3),
+    ("Left", 11, 3),
+    ("Left", 10, 3),
+    # Bypasses Column 9 partition wall using Row 2 detour
+    ("Up", 10, 2),
+    ("Left", 9, 2),
+    ("Left", 8, 2),
+    ("Down", 8, 3),
+    # Continue Left on Row 3
+    ("Left", 7, 3),
+    ("Left", 6, 3),
+    ("Left", 5, 3),
+    ("Left", 4, 3),
+    # Walk DOWN Column 4 to Row 6
+    ("Down", 4, 4),
+    ("Down", 4, 5),
+    ("Down", 4, 6),
+    # Walk Left to Column 2 Row 6
+    ("Left", 3, 6),
     ("Left", 2, 6)
 ]
 
-print("Executing path from (4, 5) to Mewtwo Switch...")
+print("Executing precise path to Mewtwo Switch at (2, 5)...")
 arrived = True
 for direction, tx, ty in path_to_switch:
     if not move_strict(direction, tx, ty):
@@ -44,15 +86,17 @@ if arrived:
     print("Switch toggled to State A! Walking back to balcony drop...")
     
     path_back = [
-        # Walk Right through the opened gate at (4, 6) to Column 5
+        # Walk Right to Column 3 Row 6
         ("Right", 3, 6),
-        ("Right", 4, 6),
-        ("Right", 5, 6),
-        # Walk UP Column 5 to Row 3
-        ("Up", 5, 5),
-        ("Up", 5, 4),
-        ("Up", 5, 3),
+        # Walk UP Column 3 to Row 5 (detours around closed gate at 4,6 in State A)
+        ("Up", 3, 5),
+        # Walk Right to Column 4
+        ("Right", 4, 5),
+        # Walk UP Column 4 to Row 3
+        ("Up", 4, 4),
+        ("Up", 4, 3),
         # Walk Right along Row 3 to Column 8 (using Row 2 detour to cross Column 9 wall)
+        ("Right", 5, 3),
         ("Right", 6, 3),
         ("Right", 7, 3),
         ("Right", 8, 3),
@@ -63,7 +107,7 @@ if arrived:
         ("Right", 10, 2),
         # Walk DOWN to Row 3
         ("Down", 10, 3),
-        # Continue Right along Row 3 to Column 25
+        # Continue Right to Column 25
         ("Right", 11, 3),
         ("Right", 12, 3),
         ("Right", 13, 3),
