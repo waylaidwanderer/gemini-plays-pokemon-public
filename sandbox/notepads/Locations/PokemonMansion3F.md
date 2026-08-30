@@ -60,3 +60,23 @@
 - **Column 9 Partition Wall:** Column 9 is a solid vertical brick wall on Rows 3-7, and is blocked by rubble on Row 8.
 - **Crossing Constraints in State B:** Because of the Column 9 wall, the only way to cross horizontally between 3F East (Columns 10-28) and 3F West (Columns 1-8) in State B is via **Row 1 or Row 2**. Crossing below Row 3 is completely blocked.
 - **NPC at (3, 3):** There is an NPC (trainer) standing at (3, 3) on 3F West. Column 3 is therefore blocked, but the parallel Column 4 is completely open on Rows 2-5, allowing clean vertical bypass.
+## State A vs State B Gate Configurations & Detours (Verified Turn 68170)
+- **Mansion Switch States:**
+  - **State B (Default):**
+    - Balcony gates at `(20, 17)` and `(21, 17)` are CLOSED (blocked by yellow/black horizontal stripes).
+    - Shutter gate at `(25, 13)` on Column 25 is OPEN.
+    - Shutter gate at `(4, 6)` on 3F West is OPEN.
+    - Shutter gates at `(19, 2)` and `(21, 2)` on 3F East are CLOSED.
+  - **State A:**
+    - Balcony gates at `(20, 17)` and `(21, 17)` are OPEN (completely passable door frames!).
+    - Shutter gate at `(25, 13)` on Column 25 is OPEN.
+    - Shutter gate at `(4, 6)` on 3F West is CLOSED (blocked by green frame).
+    - Shutter gates at `(19, 2)` and `(21, 2)` on 3F East are OPEN.
+
+## Verified Detour Routes on 3F East
+- **Bypassing Column 9 Partition Wall (Rows 3-7):**
+  - Walk UP to Row 1 or Row 2 which are completely open across Column 9.
+- **Bypassing Row 4 Horizontal Wall (Columns 22-25):**
+  - Walk Right to Column 26. Walk DOWN Column 26 (completely open vertically) to Row 12. Walk Left to Column 25 on Row 12 to resume vertical traversal down Column 25.
+- **Bypassing Closed Shutter Gate at (4, 6) in State A:**
+  - Walk from `(2, 6)` UP through Column 3 and Column 4 (`(3, 6)` -> `(3, 5)` -> `(4, 5)` -> `(4, 4)` -> `(4, 3)`) to Row 3, completely bypassing the closed gate.
