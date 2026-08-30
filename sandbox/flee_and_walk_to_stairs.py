@@ -45,21 +45,14 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Walk from current (21, 4) to stairs entrance at (22, 5) via Column 26
+# Walk from current (21, 4) to staircase at (17, 7)
 path = [
-    # 1. UP to Row 3
-    (21, 3),
-    # 2. Right to Column 26 (pitfall closed/walkable in State B)
-    (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-    # 3. DOWN Column 26 to Row 5
-    (26, 4), (26, 5),
-    # 4. Left to Column 23
-    (25, 5), (24, 5), (23, 5),
-    # 5. Left into staircase at (22, 5) -> triggers warp!
-    (22, 5)
+    (20, 4), (19, 4), (18, 4), (17, 4),
+    (17, 5), (17, 6),
+    (17, 7)
 ]
 
-print("Walking to stairs entrance at (22, 5)...")
+print("Walking to potential staircase at (17, 7)...")
 res = walk_path_safe(path)
-print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+print(f"Walk result: {res}. End position: {mgba.get_coordinates()}")
 
