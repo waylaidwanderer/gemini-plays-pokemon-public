@@ -65,17 +65,13 @@ def flee_battle():
     time.sleep(1.0)
     print("Fled battle.")
 
-# 1. Flee from the Grimer battle
+# 1. Flee from the wild Muk battle
 flee_battle()
 
-# 2. Walk from (12, 10) to stairs at (5, 10) in State B
+# 2. Walk remaining path from (8, 11) to stairs at (5, 10) in State B
 path = [
-    # Walk Left from (12, 10) to (10, 10) on Row 10 (bypasses Row 8 rubble and Row 11 Column 12 closed gate)
-    (11, 10), (10, 10),
-    # DOWN to Row 11
-    (10, 11),
-    # Left along Row 11 to Column 5 (bypasses closed gate at 8,10)
-    (9, 11), (8, 11), (7, 11), (6, 11), (5, 11),
+    # Walk Left along Row 11 to Column 5 (bypasses closed gate at 8,10)
+    (7, 11), (6, 11), (5, 11),
     # Walk UP Column 5 into stairs at (5, 10) -> triggers warp DOWN to 2F West!
     (5, 10)
 ]
