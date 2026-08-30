@@ -1302,7 +1302,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - The stairs at (7, 10) on 2F East warp the player to (7, 11) on 2F West.
 
 ## Mewtwo Statue Switches
-- **2F West Switch:** Located at (2, 11) on 2F West.
 - **2F East Switches:** No switches exist on 2F East (verified on Turn 66789 by standing at 12, 9 and 12, 11).
 
 ## Verified Switch Locations & Visual Ground Truth
