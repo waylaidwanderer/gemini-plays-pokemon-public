@@ -78,34 +78,67 @@ def walk_path(coords):
 
 if __name__ == "__main__":
     pos = mgba.get_coordinates()
-    print(f"Starting probe from {pos} to (12, 12)...")
+    print(f"Starting solve_switch_at_12_11.py from {pos}...")
     
-    # Path from (3, 6) in State B to (12, 12)
+    # Direct path to switch at (12, 11) via Row 1 and Column 12
     path = [
-        (3, 7), (3, 8), (3, 9), (3, 10), (3, 11),
-        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (11, 11), (12, 11),
+        # Walk Up Column 3
+        (3, 7), (3, 6), (3, 5), (3, 4),
+        # Walk Right on Row 4
+        (4, 4), (5, 4),
+        # Walk Up Column 5
+        (5, 3), (5, 2), (5, 1),
+        # Walk Right on Row 1 to Column 12
+        (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1),
+        # Walk Down Column 12 to Row 12 (directly below switch at 12, 11)
+        (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
+        # Wait, if we are at (12, 11), we are standing on the switch itself?
+        # Let's check: the switch statue is at (12, 11). So we should stand at (12, 12) facing UP!
         (12, 12)
     ]
     
     res = walk_path(path)
-    print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
+    print(f"Path result to (12, 12): {res}. Position: {mgba.get_coordinates()}")
     
     if mgba.get_coordinates() == {'x': 12, 'y': 12}:
-        # Face UP
+        # Face UP towards switch at (12, 11)
         mgba.press_buttons(["Up"])
         time.sleep(0.5)
         
-        # Interact
-        print("Interacting with (12, 11) facing UP...")
+        # Clean 4 A-press toggle to State A
+        print("Toggling Mewtwo switch at (12, 11)...")
+        # 1st A: Interact
         mgba.press_buttons(["A"])
         time.sleep(2.5)
         
-        # Take screenshot
-        img_path = mgba.take_screenshot()
-        img = Image.open(img_path)
-        img.save("screenshots/switch_12_11_check.png")
-        print("Saved screenshot to screenshots/switch_12_11_check.png")
+        # 2nd A: Advance to YES/NO prompt
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
         
-        # Dismiss text
-        mgba.press_buttons(["B"])
-        time.sleep(0.5)
+        # 3rd A: Select YES
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # 4th A: Close the dialogue completely
+        mgba.press_buttons(["A"])
+        time.sleep(2.5)
+        
+        # Strict local verification: step Right. Since State A is active, is (13, 12) blocked or open?
+        # Wait, let's verify if (13, 12) is blocked.
+        # Actually, if State A is active, let's walk UP Column 12 to Row 1, and walk to pitfall!
+        # Path from (12, 12) to pitfall at Column 26:
+        print("Walking to the pitfall on Column 26...")
+        pitfall_path = [
+            # Walk Up Column 12 to Row 1
+            (12, 11), (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
+            # Walk Right on Row 1 to Column 18
+            (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
+            # Walk Down Column 18 to Row 3
+            (18, 2), (18, 3),
+            # Walk Right on Row 3 to Column 26
+            (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+            # Walk Down Column 26 to trigger the pitfall!
+            (26, 4), (26, 5), (26, 6)
+        ]
+        res_pit = walk_path(pitfall_path)
+        print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
