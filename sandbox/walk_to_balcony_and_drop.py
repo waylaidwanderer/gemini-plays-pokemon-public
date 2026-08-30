@@ -68,21 +68,20 @@ def walk_path_robust(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Start at current (12, 9)
-# Path:
-# 1. UP Column 12 to Row 3
-# 2. RIGHT along Row 3 to Column 25
-# 3. DOWN Column 25 to Row 17 (shutter gate at 25, 13 is open in State A!)
-# 4. LEFT along Row 17 to Column 19 (balcony gates open in State A!)
-# 5. DOWN Column 19 to Row 18 (balcony drop warp!)
+# Start at current (25, 3)
 path = [
-    (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
-    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
-    (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+    # 1. UP to Row 2
+    (25, 2),
+    # 2. RIGHT to Column 27 (bypasses pitfall at 26, 3!)
+    (26, 2), (27, 2),
+    # 3. DOWN Column 27 to Row 17 (completely open, bypasses all walls!)
+    (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16), (27, 17),
+    # 4. LEFT along Row 17 to Column 19 (gates open in State A!)
+    (26, 17), (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+    # 5. DOWN to Column 19 Row 18 (balcony drop!)
     (19, 18)
 ]
 
-print("Walking to balcony drop from current position (12, 9)...")
+print("Executing final balcony drop via Column 27...")
 res = walk_path_robust(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
