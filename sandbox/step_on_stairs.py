@@ -22,7 +22,7 @@ def move_safe(step, target_x, target_y):
         time.sleep(0.5)
         pos_after = mgba.get_coordinates()
         
-        # True warp check: only if coordinates change radically in a single step (indicating stairs warp)
+        # True warp check
         if abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2:
             print(f"WARPED! From {pos_before} to {pos_after}")
             return pos_after
@@ -38,17 +38,18 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (26, 8) on 1F East inside fenced room
+# Starting from current (26, 11) on 1F East inside fenced room
+# Enter stairs at (25, 9) by walking UP from Row 10
 path = [
-    ("Down", 26, 9),
-    ("Left", 25, 9) # Staircase tile!
+    ("Left", 25, 11),
+    ("Up", 25, 10),
+    ("Up", 25, 9) # Staircase tile!
 ]
 
-print("Executing steps to enter B1F East stairs...")
+print("Executing steps to enter B1F East stairs from below...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
     # Check if we already warped to B1F
-    # On B1F East, our position should change radically (B1F is a separate map)
     if pos['x'] != 26 and pos['x'] != 25:
         print("Map transition detected! Stopping script.")
         break
