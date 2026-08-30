@@ -47,17 +47,17 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Walk from current (16, 6) to 3F West stairs at (5, 10) in State B
+# Walk from current (10, 3) to 3F West stairs at (5, 10) in State B via Row 2
 path = [
-    # 1. UP Column 16 to Row 3
-    (16, 5), (16, 4), (16, 3),
-    # 2. Left along Row 3 to Column 5 on 3F West
-    (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3), (9, 3), (8, 3), (7, 3), (6, 3), (5, 3),
+    # 1. UP to Row 2
+    (10, 2),
+    # 2. Left along Row 2 to Column 5 on 3F West (bypasses solid wall at Column 9 Row 3-7)
+    (9, 2), (8, 2), (7, 2), (6, 2), (5, 2),
     # 3. DOWN Column 5 to stairs at (5, 10) -> triggers warp DOWN to 2F West!
-    (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10)
+    (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10)
 ]
 
-print("Walking to 3F West stairs at (5, 10)...")
+print("Walking to 3F West stairs at (5, 10) via Row 2...")
 res = walk_path_safe(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
 
