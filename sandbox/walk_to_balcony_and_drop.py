@@ -47,30 +47,27 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# 1. Warp UP to 3F West from 2F West (5, 11)
-print("Stepping UP into stairs to warp to 3F West...")
-warp_res = step_strict("Up", 5, 10)
-print(f"Warp result: {warp_res}. Position: {mgba.get_coordinates()}")
+# Walk from current (5, 10) on 3F West to balcony drop at (19, 18) in State A via Row 11, Column 12, Row 3 and Column 25
+path = [
+    # 1. DOWN to Row 11
+    (5, 11),
+    # 2. Right along Row 11 to Column 12 (gate at 12,11 is open in State A)
+    (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (11, 11), (12, 11),
+    # 3. UP Column 12 to Row 3 (bypasses Row 8 rubble and Column 5 Row 9 permanent wall)
+    (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
+    # 4. Right along Row 3 to Column 25
+    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
+    # 5. DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
+    (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
+    # 6. Left along Row 16 to Column 21
+    (24, 16), (23, 16), (22, 16), (21, 16),
+    # 7. DOWN Column 21 to Row 18 (balcony gates at 21,17 are open in State A)
+    (21, 17), (21, 18),
+    # 8. Left to balcony drop warp at (19, 18)
+    (20, 18), (19, 18)
+]
 
-if warp_res == "WARPED" or mgba.get_coordinates() == {'x': 5, 'y': 11}:
-    print("Arrived on 3F West! Executing State A path to balcony...")
-    # Path from (5, 11) on 3F West to balcony drop at (19, 18)
-    path = [
-        # UP Column 5 on 3F West to Row 3 (gate on Column 5 Row 9 is open in State A)
-        (5, 10), (5, 9), (5, 8), (5, 7), (5, 6), (5, 5), (5, 4), (5, 3),
-        # Right along Row 3 to Column 25 on 3F East (gate at 21,2 is open in State A, but we use Row 3 to bypass NPC at 3,3)
-        (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-        # DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
-        (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
-        # Left along Row 16 to Column 21
-        (24, 16), (23, 16), (22, 16), (21, 16),
-        # DOWN Column 21 to Row 18 (balcony gates at 21,17 are open in State A)
-        (21, 17), (21, 18),
-        # Left to balcony drop warp at (19, 18)
-        (20, 18), (19, 18)
-    ]
-    res = walk_path_safe(path)
-    print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
-else:
-    print("Failed to warp UP to 3F.")
+print("Executing master State A walk to balcony drop...")
+res = walk_path_safe(path)
+print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
 
