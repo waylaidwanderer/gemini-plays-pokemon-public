@@ -10,18 +10,17 @@ def handle_battle_if_present():
     mgba.press_buttons(["B"])
     time.sleep(1.0)
 
-# We are at (26, 12) on 3F East in State A.
-# Walk UP Column 26 to (26, 6) to trigger the pitfall drop!
+# We are at (26, 4) on 3F East in State A.
+# Walk DOWN Column 26 to test the pitfall drop at (26, 6) or (26, 8)!
 steps = [
-    ("Up", 26, 11),
-    ("Up", 26, 10),
-    ("Up", 26, 9),
-    ("Up", 26, 8),
-    ("Up", 26, 7),
-    ("Up", 26, 6) # Pitfall warp!
+    ("Down", 26, 5),
+    ("Down", 26, 6),
+    ("Down", 26, 7),
+    ("Down", 26, 8),
+    ("Down", 26, 9)
 ]
 
-print("Executing steps to trigger the 3F East pitfall drop...")
+print("Executing steps to test pitfall drop along Column 26...")
 for direction, tx, ty in steps:
     pos_before = mgba.get_coordinates()
     print(f"Current: {pos_before}. Moving {direction} to ({tx}, {ty})...")
