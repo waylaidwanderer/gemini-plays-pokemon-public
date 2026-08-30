@@ -43,3 +43,9 @@
 - Mewtwo statue switch on 2F is located at (10, 4..5) (head at (10, 4), base/switch at (10, 5)).
 - Interactable from (10, 6) facing Up or from (11, 5) facing Left.
 - Toggling this switch changes the global mansion state to State B, opening shutter gates on 3F.
+## Verified Collision Boundaries & Topography (Turns 20980-21000)
+- Central Hallway (cols 4-7, rows 10-27): Southern end dead-ends at solid wall at (4..7, 27). No stairs at south end of central carpet.
+- Column 12 Thoroughfare: Open from row 1 to row 12; BLOCKED at row 13 by solid horizontal wall at (11..17, 13).
+- Row 13 Bypass: Open passage between upper (rows 9-12) and lower (rows 14-27) corridors is at cols 8-10 (8..10, 13).
+- Column 11 Wall Divider: Solid vertical wall from row 14 down to row 24, dividing col 10 from cols 12-15.
+- Northwest Room: Green display table at (4, 6..7); large wooden table at (6..7, 4..5); rubble at (1..3, 2..3); Mewtwo statue switch at (2, 5) / (2, 4).
