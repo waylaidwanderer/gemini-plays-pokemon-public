@@ -46,16 +46,12 @@ def move_safe(step, target_x, target_y):
     print(f"Finished step. Current position: {pos_after}")
     return pos_after
 
-# Starting from current (26, 6)
+# Starting from current (25, 3)
 path_to_switch = [
-    # 1. Walk UP Column 26 to Row 1
-    ("Up", 26, 5),
-    ("Up", 26, 4),
-    ("Up", 26, 3),
-    ("Up", 26, 2),
-    ("Up", 26, 1),
+    # 1. Walk UP to Row 1
+    ("Up", 25, 2),
+    ("Up", 25, 1),
     # 2. Walk Left along Row 1 to Column 4
-    ("Left", 25, 1),
     ("Left", 24, 1),
     ("Left", 23, 1),
     ("Left", 22, 1),
@@ -88,7 +84,7 @@ path_to_switch = [
     ("Left", 2, 6)
 ]
 
-print("Executing path to switch...")
+print("Executing path to switch from (25, 3)...")
 for step, x, y in path_to_switch:
     move_safe(step, x, y)
 
