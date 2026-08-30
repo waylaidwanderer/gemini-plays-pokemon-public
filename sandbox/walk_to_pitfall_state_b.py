@@ -62,15 +62,14 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Walk path from current (3, 5) on 3F West to the pitfall at (18, 16) in State B!
+# Walk path from current (16, 3) on 3F Central to the pitfall at (18, 16) in State B!
 path = [
-    # 1. Row 2 access
-    (4, 5), (4, 4), (4, 3), (4, 2),
-    # 2. Row 2 horizontal to Column 25
-    (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2),
-    # 3. Column 25 vertical to Row 16 (gate at (25, 13) is OPEN in State B!)
+    (16, 2),
+    # Row 2 horizontal to Column 25
+    (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2),
+    # Column 25 vertical to Row 16 (gate at (25, 13) is OPEN in State B!)
     (25, 3), (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
-    # 4. Row 16 horizontal to the pitfall at (18, 16)
+    # Row 16 horizontal to the pitfall at (18, 16)
     (24, 16), (23, 16), (22, 16), (21, 16), (20, 16), (19, 16), (18, 16)
 ]
 
