@@ -78,16 +78,33 @@ def main():
     pos = mgba.get_coordinates()
     print("Stateful Controller - Start Position:", pos)
     
-    # Segment 1: 3F East Corridor to (19, 3)
+    # Segment 1: 3F East Corridor to (19, 3) (via Column 25 detour in State A)
     if pos['x'] >= 19 and pos['y'] > 3:
         print("--- Segment 1: Walking to (19, 3) ---")
         path = []
-        # First walk Up Column 26 to Row 3
-        if pos['x'] != 26 and pos['y'] > 3:
-            path.append((26, pos['y']))
-        for y in range(pos['y'] - 1, 2, -1):
-            path.append((26, y))
-        # Then walk Left along Row 3 to Column 19
+        if pos['y'] >= 13 and pos['x'] == 26:
+            # We must detour through Column 25 because (26, 13) is a solid wall!
+            # If we are at (26, 15), we walk Left to (25, 15)
+            # If we are at (26, 14), we walk Left to (25, 14)
+            path.append((25, pos['y']))
+            path.append((25, 13)) # Up through open gate
+            path.append((25, 12)) # Up to Row 12
+            path.append((26, 12)) # Right to Column 26
+            # Now walk Up Column 26 from Row 11 to Row 3
+            for y in range(11, 2, -1):
+                path.append((26, y))
+        else:
+            # If we are already above Row 13, just walk Up Column 26 to Row 3
+            if pos['x'] == 26:
+                for y in range(pos['y'] - 1, 2, -1):
+                    path.append((26, y))
+            elif pos['x'] == 25:
+                # If we are in Column 25 (e.g. at (25, 12)), walk Right to Column 26, then Up
+                path.append((26, pos['y']))
+                for y in range(pos['y'] - 1, 2, -1):
+                    path.append((26, y))
+                    
+        # Left along Row 3 to Column 19
         for x in range(25, 18, -1):
             path.append((x, 3))
             
