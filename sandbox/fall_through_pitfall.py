@@ -38,12 +38,32 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (21, 4) on 3F East in State A
+# Starting from current (3, 6) in State A
 path = [
-    ("Up", 21, 3),
-    ("Up", 21, 2), # Open gate in State A
-    ("Up", 21, 1),
+    ("Up", 3, 5),
+    ("Right", 4, 5),
+    ("Up", 4, 4),
+    ("Up", 4, 3),
+    ("Up", 4, 2),
+    ("Up", 4, 1),
     # Walk Right along Row 1 to Column 26
+    ("Right", 5, 1),
+    ("Right", 6, 1),
+    ("Right", 7, 1),
+    ("Right", 8, 1),
+    ("Right", 9, 1),
+    ("Right", 10, 1),
+    ("Right", 11, 1),
+    ("Right", 12, 1),
+    ("Right", 13, 1),
+    ("Right", 14, 1),
+    ("Right", 15, 1),
+    ("Right", 16, 1),
+    ("Right", 17, 1),
+    ("Right", 18, 1),
+    ("Right", 19, 1),
+    ("Right", 20, 1),
+    ("Right", 21, 1),
     ("Right", 22, 1),
     ("Right", 23, 1),
     ("Right", 24, 1),
@@ -51,10 +71,10 @@ path = [
     ("Right", 26, 1),
     # Step DOWN onto Column 26 Row 3 (pitfall tile!)
     ("Down", 26, 2),
-    ("Down", 26, 3) # Open pitfall tile in State A!
+    ("Down", 26, 3) # Pitfall tile!
 ]
 
-print("Executing path from (21, 4) to trigger pitfall...")
+print("Executing path from (3, 6) to trigger pitfall...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
     # Check if we fell through the pitfall
