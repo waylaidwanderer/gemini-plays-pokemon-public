@@ -1,7 +1,7 @@
-# Pokémon Mansion 1F - Layout & Exploration
+# Pokï¿½mon Mansion 1F - Layout & Exploration
 
 ## Overview
-- First floor of the ruined Pokémon Mansion in northwest Cinnabar Island.
+- First floor of the ruined Pokï¿½mon Mansion in northwest Cinnabar Island.
 - Features red carpet grand entrance, marble floors, Mewtwo statue switches, ruined walls, and an enclosed eastern wing accessible only by dropping from 3F.
 
 ## Layout & Landmarks
