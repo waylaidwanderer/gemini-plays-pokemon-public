@@ -25,3 +25,8 @@
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
 - Entering Mansion from exterior resets all switches to default State A.
+## Verified 3F Statue Switch & Shutter (Turn 20777)
+- Mewtwo statue switch on 3F is located at (10, 4..5) (head at (10, 4), base/switch at (10, 5)).
+- Interactable from (10, 6) facing Up. Triggers "A secret switch! -> Press it? -> Who wouldn't?".
+- Toggles global mansion state from State A to State B.
+- Opens shutter gate at (15, 10..11) on 3F, allowing eastward access to the balcony drop pits at (16..17, 14) and (19, 14).
