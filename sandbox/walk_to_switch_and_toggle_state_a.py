@@ -17,12 +17,12 @@ def take_step(direction, target_x, target_y):
 
 # Starting from current (4, 2) in State B
 steps = [
-    ("Left", 3, 2), # bypass NPC at (3, 3)
-    ("Left", 2, 2),
-    ("Down", 2, 3),
-    ("Down", 2, 4),
-    ("Down", 2, 5),
-    ("Down", 2, 6)  # Stand below the switch
+    ("Down", 4, 3),
+    ("Down", 4, 4),
+    ("Down", 4, 5),
+    ("Down", 4, 6), # open gate in State B
+    ("Left", 3, 6),
+    ("Left", 2, 6)  # Stand below the switch
 ]
 
 print("Executing steps to reach the Mewtwo Switch from (4, 2)...")
@@ -35,7 +35,7 @@ for direction, tx, ty in steps:
 
 curr = mgba.get_coordinates()
 if curr['x'] == 2 and curr['y'] == 6:
-    print("At (2, 6). Standing facing UP (we just walked Down Column 2).")
+    print("At (2, 6). Standing facing UP (we just walked Left from Column 3).")
     print("Toggling Mewtwo switch at (2, 5) to State A...")
     # Stand at (2, 6) facing UP and press A 4 times with generous delays
     for i in range(1, 5):
