@@ -1,54 +1,86 @@
 import mgba
 import time
 
-def move_strict(direction, target_x, target_y):
+def handle_battle_if_present():
+    print("Checking/handling wild battle...")
+    # Stand still and press A to advance any appeared text
+    for _ in range(3):
+        mgba.press_buttons(["A"])
+        time.sleep(0.8)
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    # Select RUN (Down, Right, A)
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.5)
+    # Dismiss "Got away safely!"
+    mgba.press_buttons(["B"])
+    time.sleep(0.8)
+
+def move_safe(step, target_x, target_y):
     pos_before = mgba.get_coordinates()
-    print(f"Stepping {direction} from {pos_before} to ({target_x}, {target_y})...")
-    mgba.press_buttons([direction])
+    print(f"Moving {step} from {pos_before} towards ({target_x}, {target_y})...")
+    mgba.press_buttons([step])
     time.sleep(0.5)
     pos_after = mgba.get_coordinates()
-    if pos_after['x'] == target_x and pos_after['y'] == target_y:
-        print(f"Arrived at ({target_x}, {target_y})")
-        return True
-    else:
-        print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
-        return False
+    
+    # Check for warp
+    if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
+        print(f"WARPED! New position: {pos_after}")
+        return pos_after
+        
+    attempts = 0
+    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 4:
+        if pos_before == pos_after:
+            print("Did not move. Attempting battle escape...")
+            handle_battle_if_present()
+        else:
+            print(f"Moved but not to target. Current: {pos_after}. Escaping battle/retrying...")
+            handle_battle_if_present()
+            
+        mgba.press_buttons([step])
+        time.sleep(0.5)
+        pos_after = mgba.get_coordinates()
+        
+        # Check for warp in retry loop
+        if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
+            print(f"WARPED! New position: {pos_after}")
+            return pos_after
+            
+        attempts += 1
+        
+    print(f"Finished step. Current position: {pos_after}")
+    return pos_after
 
-# Starting at current (26, 1) on 3F East (Mansion is in State A)
+# Path starting from current (25, 12) on 3F East (Mansion in State A)
+# Detour via Column 26 to avoid closed gate at (25, 13)
 path = [
-    # 2. Walk DOWN Column 26 to Row 12 (bypasses horizontal wall at 25,4)
-    ("Down", 26, 2),
-    ("Down", 26, 3),
-    ("Down", 26, 4),
-    ("Down", 26, 5),
-    ("Down", 26, 6),
-    ("Down", 26, 7),
-    ("Down", 26, 8),
-    ("Down", 26, 9),
-    ("Down", 26, 10),
-    ("Down", 26, 11),
-    ("Down", 26, 12),
-    # 3. Walk Left to Column 25
-    ("Left", 25, 12),
-    # 4. Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
-    ("Down", 25, 13),
-    ("Down", 25, 14),
-    ("Down", 25, 15),
-    ("Down", 25, 16),
-    # 5. Walk Left along Row 16 to Column 21
+    ("Right", 26, 12),
+    ("Down", 26, 13),
+    ("Down", 26, 14),
+    ("Down", 26, 15),
+    ("Down", 26, 16),
+    ("Left", 25, 16),
     ("Left", 24, 16),
     ("Left", 23, 16),
     ("Left", 22, 16),
     ("Left", 21, 16),
-    # 6. Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17),
     ("Down", 21, 18),
-    # 7. Walk Left to balcony drop warp at (19, 18)
     ("Left", 20, 18),
     ("Left", 19, 18)
 ]
 
 print("Executing precise detour walk to balcony drop in State A...")
-for direction, tx, ty in path:
-    if not move_strict(direction, tx, ty):
+for step, x, y in path:
+    pos = mgba.get_coordinates()
+    # If we warped (coordinates changed radically), stop
+    if abs(pos['x'] - 25) > 10 or abs(pos['y'] - 12) > 15:
+        print("We appear to have warped out of 3F East! Stopping path execution.")
         break
+    move_safe(step, x, y)
+
+pos_final = mgba.get_coordinates()
+print("Final position:", pos_final)
+if pos_final != {'x': 25, 'y': 12}:
+    print("Taking final screenshot...")
+    mgba.take_screenshot()
