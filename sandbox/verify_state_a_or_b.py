@@ -45,17 +45,31 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (23, 5)
+# 1. Escape from wild Ponyta battle
+print("Escaping from wild Ponyta battle...")
+# Advance "Wild PONYTA appeared!" text
+mgba.press_buttons(["A"])
+time.sleep(3.0) # Wait for slide-in animation to complete fully
+
+# Select RUN and press A
+mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
+time.sleep(2.0) # Wait for "Got away safely!" text
+
+# Dismiss "Got away safely!" text
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Coordinates after escape:", mgba.get_coordinates())
+
+# 2. Walk remaining path to (22, 2)
 path = [
-    # 1. Walk Right along Row 5 to Column 27
-    (24, 5), (25, 5), (26, 5), (27, 5),
-    # 2. Walk UP Column 27 to Row 2
-    (27, 4), (27, 3), (27, 2),
-    # 3. Walk LEFT along Row 2 to (22, 2)
+    # 1. UP Column 27 to Row 2
+    (27, 3), (27, 2),
+    # 2. LEFT along Row 2 to (22, 2)
     (26, 2), (25, 2), (24, 2), (23, 2), (22, 2)
 ]
 
-print("Walking to (22, 2)...")
+print("Continuing walk to (22, 2)...")
 res = walk_path_strict(path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
 
@@ -65,6 +79,6 @@ if mgba.get_coordinates() == {'x': 22, 'y': 2}:
     test_res = step_strict("Left", 21, 2)
     print(f"Test result: {test_res}. Position: {mgba.get_coordinates()}")
     if test_res == "BLOCKED":
-        print("RESULT: Mansion is in STATE B (Gate at (21,2) is closed).")
+         print("RESULT: Mansion is in STATE B (Gate at (21,2) is closed).")
     elif test_res == "SUCCESS":
-        print("RESULT: Mansion is in STATE A (Gate at (21,2) is open).")
+         print("RESULT: Mansion is in STATE A (Gate at (21,2) is open).")
