@@ -2307,7 +2307,6 @@
 - East Wing corridor runs along cols 26-28 from row 12 south to row 27.
 - Shutter gate at (24..25, 13) connects the northern corridor directly to this eastern corridor in State A.
 - Table/railing barrier at (26..28, 17) divides the corridor, bypassed via open tiles at (24..25, 17..18).
-- **Decorative Object at (23, 22)**: Decorative pedestal/display, not a floor warp.
 ### Verified Multi-Floor Switch State Table
 | Gate / Shutter Location | Floor | State A (Default) | State B (Toggled) |
 |---|---|---|---|
