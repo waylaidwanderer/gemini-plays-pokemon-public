@@ -63,14 +63,14 @@ def flee_battle():
     time.sleep(1.0)
     print("Fled battle.")
 
-# 1. Flee from the Ponyta battle
+# 1. Flee from the wild battle
 flee_battle()
 
-# 2. Walk remaining path from (12, 4) to 3F stairs (22, 1)
+# 2. Walk to the stairs at (22, 4) from (22, 3)
 path = [
-    (12, 3),
-    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3),
-    (22, 2), (22, 1)
+    (21, 3),
+    (21, 4),
+    (22, 4)
 ]
 
 print("Walking to stairs...")
