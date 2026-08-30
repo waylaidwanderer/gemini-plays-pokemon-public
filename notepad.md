@@ -2388,7 +2388,7 @@
 
 ### Northeast & Eastern Sector (Accessible via 2F Northeast Stairs at (6, 1))
 - Access: Accessible from lower floor warp/path.
-- Mewtwo Statue Switch: (10, 4..5) [Front interactable from (10, 6) facing Up]
+- Mewtwo Statue Switch: (13, 9) [Interactable from (12, 9) facing Right]
 - Balcony Drop-off Pits (Row 14):
   - Left Drop-off Pit at (16..17, 14) -> Lands on 1F South Wing at (16, 14)
   - Right Drop-off Pit at (19, 14) -> Lands on 1F Northern Landing Sector at (18, 14) [Enclosed landing sector]
@@ -2398,7 +2398,6 @@
 ## Switch Permutations & Mechanics
 - Mewtwo statue switches toggle global shutter doors throughout 1F, 2F, 3F, and B1F.
 - Entering Mansion from exterior resets all switches to default State A.
-
 
 <hr>
 
