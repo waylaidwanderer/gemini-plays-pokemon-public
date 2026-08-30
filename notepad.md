@@ -2296,6 +2296,7 @@
   - (13, 9), (13, 11): decorative statues (scenery)
   - (14..15, 8..11): solid grey wall structure
   - (12..15, 14..15): rubble blocks
+- Northeast Alcove (cols 24-28, rows 1-7): Open pink floor along row 3 (cols 23-27) and col 28 (rows 4-7); dead-ends at (28, 7) due to row 8 wall/rubble barrier. Southeast B1F staircase area is completely walled off from the northern corridor.
 
 <hr>
 
