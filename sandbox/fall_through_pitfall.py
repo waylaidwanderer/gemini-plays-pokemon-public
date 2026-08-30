@@ -12,28 +12,27 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.4)
 
-def walk_to_pitfall_2f():
-    # Currently at (22, 2) on 2F East
+def walk_to_2f_pitfall():
+    # Currently at (27, 12) on 2F East
     path = [
-        # 1. Right to Column 26
-        (23, 2),
-        (24, 2),
-        (25, 2),
-        (26, 2),
-        # 2. DOWN Column 26 to Row 15
-        (26, 3),
-        (26, 4),
-        (26, 5),
-        (26, 6),
-        (26, 7),
-        (26, 8),
-        (26, 9),
-        (26, 10),
+        # 1. UP Column 27 to Row 11
+        (27, 11),
+        # 2. Left along Row 11 to Column 16
         (26, 11),
-        (26, 12),
-        (26, 13),
-        (26, 14),
-        (26, 15) # Expected 2F East pitfall!
+        (25, 11),
+        (24, 11),
+        (23, 11),
+        (22, 11),
+        (21, 11),
+        (20, 11),
+        (19, 11),
+        (18, 11),
+        (17, 11),
+        (16, 11),
+        # 3. DOWN Column 16 to Row 14 (Expected 2F East pitfall!)
+        (16, 12),
+        (16, 13),
+        (16, 14)
     ]
     
     for i, target in enumerate(path):
@@ -78,15 +77,15 @@ def walk_to_pitfall_2f():
                     print(f"[{i}] Arrived at ({tx}, {ty})")
                     break
 
-    # If we reached (26, 15) but didn't fall, let's try stepping Right to (27, 15)
+    # If we reached (16, 14) but didn't fall, try stepping Left to (15, 14) or DOWN to (16, 15)
     pos = mgba.get_coordinates()
-    if pos['x'] == 26 and pos['y'] == 15:
-        print("At (26, 15). Trying to step Right to (27, 15) to trigger pitfall...")
-        mgba.press_buttons(["Right"])
+    if pos['x'] == 16 and pos['y'] == 14:
+        print("At (16, 14). Trying to step Down to (16, 15) to trigger pitfall...")
+        mgba.press_buttons(["Down"])
         time.sleep(0.6)
         new_pos = mgba.get_coordinates()
-        if new_pos['x'] != 27 or new_pos['y'] != 15:
-            print(f"WARP/FALL DETECTED after stepping Right! Landed at: {new_pos}")
+        if new_pos['x'] != 16 or new_pos['y'] != 15:
+            print(f"WARP/FALL DETECTED after stepping Down! Landed at: {new_pos}")
             mgba.take_screenshot()
             return True
 
@@ -94,4 +93,4 @@ def walk_to_pitfall_2f():
     print(f"Final Position: {mgba.get_coordinates()}")
     return False
 
-walk_to_pitfall_2f()
+walk_to_2f_pitfall()
