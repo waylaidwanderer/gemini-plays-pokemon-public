@@ -1,12 +1,15 @@
 import mgba
 import time
 
-print("Advancing text...")
-mgba.press_buttons(["A"])
-time.sleep(1.5)
+print("Dismissing 'No PP Left...' text...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+
+print("Returning to main battle menu...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
 
 print("Selecting RUN...")
-# Down, Right, A
 mgba.press_buttons(["Down", "Right", "A"])
 time.sleep(1.5)
 
