@@ -64,23 +64,22 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# We are at (21, 6) in State A.
-# Walk path to northeast stairs via Row 14 and Column 26.
-stairs_path = [
-    # 1. Walk LEFT to Column 12
-    (20, 6), (19, 6), (18, 6), (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6),
-    # 2. Walk DOWN Column 12 to Row 14
-    (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12), (12, 13), (12, 14),
-    # 3. Walk RIGHT along Row 14 to Column 26
-    (13, 14), (14, 14), (15, 14), (16, 14), (17, 14), (18, 14), (19, 14), (20, 14), (21, 14), (22, 14), (23, 14), (24, 14), (25, 14), (26, 14),
-    # 4. Walk UP Column 26 to Row 2
-    (26, 13), (26, 12), (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3), (26, 2),
-    # 5. Walk LEFT along Row 2 to Column 22
-    (25, 2), (24, 2), (23, 2), (22, 2),
-    # 6. Walk UP Column 22 to the staircase warp at (22, 1)
+# We are at (12, 11) in State A.
+# Path to stairs: UP to Row 6, RIGHT to Column 21, UP to Row 3, RIGHT to Column 22, UP to Row 1.
+path_to_stairs = [
+    # 1. UP Column 12 to Row 6
+    (12, 10), (12, 9), (12, 8), (12, 7), (12, 6),
+    # 2. RIGHT along Row 6 to Column 21
+    (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6),
+    # 3. UP Column 21 to Row 3 (bypassing Row 7 horizontal gates)
+    (21, 5), (21, 4), (21, 3),
+    # 4. RIGHT to Column 22
+    (22, 3),
+    # 5. UP Column 22 to stairs warp at (22, 1) (OPEN in State A!)
+    (22, 2),
     (22, 1)
 ]
 
-print("Walking to the northeast stairs via bottom corridor Row 14 and Column 26...")
-res = walk_path(stairs_path)
+print("Walking to the northeast stairs via Column 21 and Row 3 bypass...")
+res = walk_path(path_to_stairs)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
