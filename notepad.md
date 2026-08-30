@@ -1258,6 +1258,19 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Locations/PokemonMansion1F</code></h1>
 
+# Pokémon Mansion 1F - Map & Navigation Log
+
+## Physical Layout & Walkable Areas (Verified Turn 69025)
+- **1F West and 1F East Connection:** Connected horizontally via Row 6.
+- **Warp from 2F West:** The staircase at (7, 10) on 2F West warps the player down to 1F West, landing at (7, 11) on 1F West.
+- **Rubble Barrier on Row 7:** Row 7 is blocked horizontally on Columns 3-9 by a horizontal wall of rubble. Columns 10, 11, 12 on Row 7 are completely open pink checkered floor.
+- **Column 11 Partition Wall:** Solid vertical wall separating Column 10 from Column 12 on Rows 8-12.
+- **NPC at (6, 11):** There is a wandering NPC (Scientist) on Row 11 walking between Columns 4-6.
+- **Diary at (6, 12):** There is a report/diary on a table at (6, 12).
+- **Column 12 Hedges/Statues:** Column 12 is blocked by hedges and statues on Rows 8-11, except for (12, 12) which is open.
+
+## B1F East Stairs
+- Located inside the fenced room on 1F East (around Column 25/26). This fenced area is completely accessible from the rest of 1F East in State A, and leads down to B1F East.
 
 
 <hr>
@@ -1297,9 +1310,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Northeast Stairs (22, 1):**
   - The northeast stairs at (22, 1) on 2F East only lead UP to 3F East (landing at 22, 1 on 3F).
   - They do NOT warp the player down to 1F.
-- **State B Corridor & Stair warps (Verified Turn 67507/67570):**
+- **State B Corridor & Stair warps (Verified Turn 67507/67570/69025):**
   - Row 6 on 2F is a completely open and passable horizontal corridor in State B, connecting the western and eastern sections.
-  - The stairs at (7, 10) on 2F East warp the player to (7, 11) on 2F West.
+  - The stairs at (7, 10) on 2F West warp the player DOWN to 1F West, landing at (7, 11) on 1F.
 
 ## Mewtwo Statue Switches
 - **2F East Switches:** No switches exist on 2F East (verified on Turn 66789 by standing at 12, 9 and 12, 11).
@@ -1308,6 +1321,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **2F West Switch False Position:** Visual inspection on Turn 68041 confirmed that Column 2 Row 11 on 2F West is completely open pink-checkered floor. There is NO Mewtwo switch statue at (2, 11) on 2F West (previous reports was an error/hallucination).
 - **3F East Switch False Position:** Visual inspection on Turn 67958 confirmed that Column 12 Row 10/11 on 3F East is completely open pink-checkered floor. There is NO Mewtwo switch statue at (12, 11) on 3F East.
 - **The Only Switches on 3F and 2F West:** The only verified, active switches are at (2, 5) on 3F West.
+
 
 <hr>
 
