@@ -1,216 +1,95 @@
-from PIL import Image, ImageChops
 import mgba
 import time
 
-def is_in_battle():
-    img1_path = mgba.take_screenshot()
-    img1 = Image.open(img1_path)
-    mgba.press_buttons(["Start"])
-    time.sleep(0.25)
-    img2_path = mgba.take_screenshot()
-    img2 = Image.open(img2_path)
-    diff = ImageChops.difference(img1, img2)
-    bbox = diff.getbbox()
-    if bbox is None:
-        print("is_in_battle: TRUE")
-        return True
-    else:
-        print("is_in_battle: FALSE. Closing menu...")
-        mgba.press_buttons(["Start"])
-        time.sleep(0.25)
-        return False
-
-def handle_battle_escape():
-    print("handle_battle_escape: ESCAPING BATTLE...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    mgba.press_buttons(["Down", "Right", "A"])
+def escape_battle_proactive():
+    print("PROACTIVE ESCAPE SEQUENCE...")
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.2)
+    mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1200", "B"])
     time.sleep(1.5)
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
+    mgba.press_buttons(["A"])
+    time.sleep(0.5)
 
-def move_safe_battle(step, target_x, target_y):
+def step_safe(direction, target_x, target_y):
     pos_before = mgba.get_coordinates()
-    print(f"move_safe_battle: Moving '{step}' to ({target_x}, {target_y}). Current: {pos_before}")
-    mgba.press_buttons([step])
+    print(f"Moving {direction} to ({target_x}, {target_y}). Current: {pos_before}")
+    mgba.press_buttons([direction])
     time.sleep(0.4)
     pos_after = mgba.get_coordinates()
     
-    # Check if map transitioned or we fell (coordinates shift out of range or map changes)
-    # The player falls to 1F East inside the fenced room (around (26, 4) or (25, 6))
-    # We can detect if we fell by checking if the coordinate y-position changed unexpectedly 
-    # or if we are no longer on 3F (which has y up to 18, but 1F East is different)
-    # Actually, we can check if y coordinate went to 1F East
-    
-    attempts = 0
-    while (pos_after['x'] != target_x or pos_after['y'] != target_y) and attempts < 6:
-        # Check if we fell (our position changed significantly or we are not at target but didn't hit a wall)
-        if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 2 or abs(pos_after['y'] - pos_before['y']) > 2):
-            print(f"move_safe_battle: Significant coordinate shift detected! Fell or warped? Current: {pos_after}")
-            return True
-            
-        if pos_before == pos_after:
-            print("move_safe_battle: Position did not change. Checking battle...")
-            if is_in_battle():
-                handle_battle_escape()
-            else:
-                print("move_safe_battle: Turn-in-place or wall. Retrying...")
-        else:
-            print(f"move_safe_battle: Moved but to {pos_after} instead of target ({target_x}, {target_y}). Checking battle...")
-            if is_in_battle():
-                handle_battle_escape()
-            else:
-                print("move_safe_battle: Unexpected overworld movement.")
-                
-        print(f"move_safe_battle: Retrying step '{step}'...")
-        mgba.press_buttons([step])
+    if pos_before != pos_after and (abs(pos_after['x'] - pos_before['x']) > 5 or abs(pos_after['y'] - pos_before['y']) > 5):
+        print(f"Warped! From {pos_before} to {pos_after}")
+        return "WARPED"
+        
+    if pos_after['x'] == target_x and pos_after['y'] == target_y:
+        return "SUCCESS"
+        
+    if pos_before == pos_after:
+        escape_battle_proactive()
+        mgba.press_buttons([direction])
         time.sleep(0.4)
-        pos_before = pos_after
         pos_after = mgba.get_coordinates()
-        attempts += 1
-        
-    return pos_after['x'] == target_x and pos_after['y'] == target_y
+        if pos_after['x'] == target_x and pos_after['y'] == target_y:
+            return "SUCCESS"
+        return "BLOCKED"
+            
+    return "SUCCESS"
 
-def main():
-    print("get_secret_key: Executing full path starting from 3F West...")
-    
-    pos = mgba.get_coordinates()
-    print(f"Start coordinates: {pos}")
-    
-    # If we are on 3F:
-    # Walk Right along Row 11 to Column 10
-    if pos['y'] == 11 and pos['x'] <= 10:
-        for x in range(pos['x'] + 1, 11):
-            if not move_safe_battle("Right", x, 11): return
-            
-    pos = mgba.get_coordinates()
-    # Walk Up Column 10 to Row 6
-    if pos['x'] == 10 and pos['y'] > 6:
-        for y in range(pos['y'] - 1, 5, -1):
-            if not move_safe_battle("Up", 10, y): return
-            
-    pos = mgba.get_coordinates()
-    # Walk Right Row 6 to Column 19
-    if pos['y'] == 6 and pos['x'] < 19:
-        for x in range(pos['x'] + 1, 20):
-            if not move_safe_battle("Right", x, 6): return
-            
-    pos = mgba.get_coordinates()
-    # Walk Up Column 19 to Row 4
-    if pos['x'] == 19 and pos['y'] > 4:
-        for y in range(pos['y'] - 1, 3, -1):
-            if not move_safe_battle("Up", 19, y): return
-            
-    pos = mgba.get_coordinates()
-    # Walk Right to (20, 4) then UP to (20, 3)
-    if pos['x'] == 19 and pos['y'] == 4:
-        if not move_safe_battle("Right", 20, 4): return
-        if not move_safe_battle("Up", 20, 3): return
-        
-    pos = mgba.get_coordinates()
-    # Walk Right along Row 3 to Column 26
-    if pos['y'] == 3 and pos['x'] < 26:
-        for x in range(pos['x'] + 1, 27):
-            # Check if we fall while walking to Row 3 Column 26
-            if not move_safe_battle("Right", x, 3):
-                # We might have fallen
-                pos = mgba.get_coordinates()
-                if pos['y'] != 3:
-                    print(f"Fell through pit! Landed at: {pos}")
-                    break
-                    
-    pos = mgba.get_coordinates()
-    # If we are still on Row 3 Column 26, walk DOWN to Row 6 to trigger pitfall
-    if pos['x'] == 26 and pos['y'] == 3:
-        for y in range(4, 7):
-            if not move_safe_battle("Down", 26, y):
-                pos = mgba.get_coordinates()
-                if pos['y'] != y:
-                    print(f"Fell through pit at y={y}! Landed at: {pos}")
-                    break
-                    
-    # Now we should have fallen to 1F East inside the fenced room!
-    # Let's verify our coordinates
-    time.sleep(1.0)
-    pos = mgba.get_coordinates()
-    print(f"Landed on 1F East: {pos}")
-    
-    # 1F East Fenced Room to stairs at (22, 2)
-    # Walk to (21, 2) then RIGHT onto stairs at (22, 2)
-    # The stairs can land us at (26, 4) or similar depending on where we dropped.
-    # Let's navigate to (21, 2)
-    if pos['y'] > 2:
-        for y in range(pos['y'] - 1, 1, -1):
-            if not move_safe_battle("Up", pos['x'], y): return
-            
-    pos = mgba.get_coordinates()
-    if pos['x'] > 21:
-        for x in range(pos['x'] - 1, 20, -1):
-            if not move_safe_battle("Left", x, pos['y']): return
-            
-    pos = mgba.get_coordinates()
-    if pos['y'] != 2:
-        # Move vertically to Row 2
-        if pos['y'] < 2:
-            if not move_safe_battle("Down", pos['x'], 2): return
-        elif pos['y'] > 2:
-            if not move_safe_battle("Up", pos['x'], 2): return
-            
-    pos = mgba.get_coordinates()
-    print(f"Standing at {pos}, ready to step onto stairs at (22, 2)...")
-    # Step RIGHT onto the stairs at (22, 2) to warp DOWN to B1F East
-    if not move_safe_battle("Right", 22, 2):
+def walk_path(coords):
+    for target_x, target_y in coords:
         pos = mgba.get_coordinates()
-        if pos['x'] == 22 and pos['y'] == 2:
-            print("Successfully warped down to B1F East!")
-            
-    # Allow warp animation to finish
-    time.sleep(1.0)
-    pos = mgba.get_coordinates()
-    print(f"Coordinates after B1F East warp: {pos}")
-    
-    # On B1F East:
-    # 1. Walk down to (22, 4)
-    if pos['y'] < 4:
-        for y in range(pos['y'] + 1, 5):
-            if not move_safe_battle("Down", 22, y): return
-            
-    pos = mgba.get_coordinates()
-    # 2. Walk LEFT along Row 4 to Column 19 (19, 4)
-    if pos['x'] > 19:
-        for x in range(pos['x'] - 1, 18, -1):
-            if not move_safe_battle("Left", x, 4): return
-            
-    pos = mgba.get_coordinates()
-    # 3. Walk DOWN to (19, 5)
-    if pos['y'] == 4:
-        if not move_safe_battle("Down", 19, 5): return
+        dx = target_x - pos['x']
+        dy = target_y - pos['y']
         
-    pos = mgba.get_coordinates()
-    # 4. Walk LEFT along Row 5 all the way to B1F West (1, 5)
-    if pos['y'] == 5 and pos['x'] > 1:
-        for x in range(pos['x'] - 1, 0, -1):
-            if not move_safe_battle("Left", x, 5): return
-            
-    pos = mgba.get_coordinates()
-    print(f"At B1F West Secret Key Room: {pos}")
-    
-    # Retrieve the Secret Key at (1, 4)
-    print("Facing UP towards Secret Key...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    print("Retrieving Secret Key...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    # Dismiss dialogue text boxes
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    pos = mgba.get_coordinates()
-    print(f"Final coordinates: {pos}")
+        direction = ""
+        if dx > 0: direction = "Right"
+        elif dx < 0: direction = "Left"
+        elif dy > 0: direction = "Down"
+        elif dy < 0: direction = "Up"
+        
+        attempts = 0
+        while attempts < 3:
+            res = step_safe(direction, target_x, target_y)
+            if res == "SUCCESS":
+                break
+            elif res == "WARPED":
+                return "WARPED"
+            attempts += 1
+            time.sleep(0.2)
+        if attempts == 3:
+            return "BLOCKED"
+    return "SUCCESS"
 
-if __name__ == "__main__":
-    main()
+pos = mgba.get_coordinates()
+print(f"Starting get_secret_key path from {pos}")
+
+# 1. Walk from 2F East (22, 3) back to 2F West stairs at (5, 10)
+# We must bypass the Column 22 debris via Row 3 and Column 19
+to_stairs_path = [
+    (21, 3), (20, 3), (19, 3),
+    (19, 4), (19, 5), (19, 6),
+    (18, 6), (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6),
+    (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
+    (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11),
+    (5, 10)
+]
+
+res = walk_path(to_stairs_path)
+print(f"To 2F West stairs result: {res}. Pos: {mgba.get_coordinates()}")
+
+# 2. On 3F West: Walk to Column 25 and down to balcony
+# We will land on 3F West (which should be around (5, 10))
+# Let's check our position after the warp
+pos = mgba.get_coordinates()
+if pos['y'] == 10 and pos['x'] == 5:
+    # We are on 3F West! Walk to Column 25 Row 3, and down Column 25 to balcony!
+    to_balcony_path = [
+        (5, 9), (5, 8), (5, 7), (5, 6), (5, 5), (5, 4), (5, 3),
+        (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
+        (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
+        (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+        (19, 18) # Trigger the fall to B1F West!
+    ]
+    res_balc = walk_path(to_balcony_path)
+    print(f"Balcony drop result: {res_balc}. Pos: {mgba.get_coordinates()}")
