@@ -1,82 +1,119 @@
 import mgba
 import time
 
-def flee_battle():
-    print("Attempting to flee battle...")
-    # Press B a few times to dismiss potential text or submenus
-    for _ in range(4):
-        mgba.press_buttons(["B"])
-        time.sleep(0.3)
-    
-    # Try to navigate to RUN and press A
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.5) # Wait for escape message and transition back to overworld
-    
-    # Press B / A to clear "Escaped safely!" text
-    mgba.press_buttons(["B", "B"])
-    time.sleep(0.5)
+button_count = 0
 
-def walk_path(path):
+def press_buttons_safe(buttons):
+    global button_count
+    if button_count + len(buttons) > 85:
+        print(f"Approaching button limit ({button_count} pressed). Safe abort to prevent emulator limit.")
+        return False
+    mgba.press_buttons(buttons)
+    button_count += len(buttons)
+    return True
+
+def flee_battle():
+    print("Fleeing battle...")
+    for _ in range(5):
+        if not press_buttons_safe(["B"]): return False
+        time.sleep(0.4)
+    if not press_buttons_safe(["Down", "Right", "A"]): return False
+    time.sleep(2.0)
+    for _ in range(3):
+        if not press_buttons_safe(["B"]): return False
+        time.sleep(0.4)
+    return True
+
+def walk_route(path):
     for i, target in enumerate(path):
         tx, ty = target
         attempts = 0
         while attempts < 15:
             pos = mgba.get_coordinates()
             if pos['x'] == tx and pos['y'] == ty:
-                print(f"[{i}] Successfully at target ({tx}, {ty})")
+                print(f"[{i}] Already at ({tx}, {ty})")
                 break
             
-            # Determine direction to move
             dx = tx - pos['x']
             dy = ty - pos['y']
+            if dx > 0: direction = "Right"
+            elif dx < 0: direction = "Left"
+            elif dy > 0: direction = "Down"
+            elif dy < 0: direction = "Up"
+            else: break
             
-            if dx > 0:
-                direction = "Right"
-            elif dx < 0:
-                direction = "Left"
-            elif dy > 0:
-                direction = "Down"
-            elif dy < 0:
-                direction = "Up"
-            else:
-                break
-            
-            print(f"Moving {direction} from {pos} to reach ({tx}, {ty}). Attempt {attempts+1}")
-            mgba.press_buttons([direction])
+            print(f"Moving {direction} from {pos} to ({tx}, {ty}). Attempt {attempts+1}")
+            if not press_buttons_safe([direction]):
+                print("Button limit reached during movement. Aborting.")
+                return False
             time.sleep(0.6)
             
             new_pos = mgba.get_coordinates()
             if new_pos == pos:
-                # We didn't move! Could be blocked or in battle.
                 attempts += 1
-                print("Coordinates did not change. Checking if in battle or blocked...")
-                # Let's try to flee battle just in case
-                flee_battle()
+                print("Coordinates did not change. Checking for battle...")
+                if not flee_battle():
+                    print("Button limit reached during flee. Aborting.")
+                    return False
             else:
-                # We moved!
-                attempts = 0 # reset attempts
+                attempts = 0
                 if new_pos['x'] == tx and new_pos['y'] == ty:
                     print(f"[{i}] Arrived at ({tx}, {ty})")
                     break
+                else:
+                    print(f"Displaced to {new_pos}. Retrying target ({tx}, {ty}).")
+                    time.sleep(0.3)
+    return True
 
-# Generate path from (25, 12) to (3, 5) via Column 26, Row 1, Column 4, Row 5
-path = []
-# Start at (25, 12)
-# Step 1: Walk to Column 26
-path.append((26, 12))
-# Step 2: Walk UP Column 26 to Row 1
-for y in range(11, 0, -1):
-    path.append((26, y))
-# Step 3: Walk Left along Row 1 to Column 4
-for x in range(25, 3, -1):
-    path.append((x, 1))
-# Step 4: Walk Down Column 4 to Row 5
-for y in range(2, 6):
-    path.append((4, y))
-# Step 5: Walk Left to Column 3
-path.append((3, 5))
+# Path from current position (25, 12) to switch at (3, 5)
+path = [
+    # 1. Right to Column 26
+    (26, 12),
+    # 2. UP Column 26 to Row 1
+    (26, 11),
+    (26, 10),
+    (26, 9),
+    (26, 8),
+    (26, 7),
+    (26, 6),
+    (26, 5),
+    (26, 4),
+    (26, 3),
+    (26, 2),
+    (26, 1),
+    # 3. Left along Row 1 to Column 4
+    (25, 1),
+    (24, 1),
+    (23, 1),
+    (22, 1),
+    (21, 1),
+    (20, 1),
+    (19, 1),
+    (18, 1),
+    (17, 1),
+    (16, 1),
+    (15, 1),
+    (14, 1),
+    (13, 1),
+    (12, 1),
+    (11, 1),
+    (10, 1),
+    (9, 1),
+    (8, 1),
+    (7, 1),
+    (6, 1),
+    (5, 1),
+    (4, 1),
+    # 4. DOWN Column 4 to Row 5
+    (4, 2),
+    (4, 3),
+    (4, 4),
+    (4, 5),
+    # 5. Left to (3, 5)
+    (3, 5),
+]
 
-print(f"Full path length: {len(path)} steps")
-walk_path(path)
+print(f"Path to switch (3, 5): {len(path)} steps")
+success = walk_route(path)
 mgba.take_screenshot()
-print("Walking complete!")
+print(f"Execution finished. Success: {success}. Final Position: {mgba.get_coordinates()}")
