@@ -43,40 +43,24 @@ def move_safe(step, target_x, target_y):
             print("Failed to reach target after 4 attempts.")
             return pos_after
 
-# Starting from current (24, 10) on 1F East
-# 1. Walk Right to Column 26
-# 2. Walk UP Column 26 to Row 2
-# 3. Walk Left along Row 2 to Column 5 on 1F West (completely bypasses Column 22 wall and Column 9 wall!)
-# 4. Walk DOWN Column 5 to Row 10 (stairs tile)
+# Starting from current (22, 3) on 1F East in State A
+# Walk Left along Row 3 to Column 10, UP to Row 2, Left along Row 2 to Column 5, Down Column 5 to stairs (5, 10)
 path = [
-    ("Right", 25, 10),
-    ("Right", 26, 10),
-    # Walk UP Column 26 to Row 2
-    ("Up", 26, 9),
-    ("Up", 26, 8),
-    ("Up", 26, 7),
-    ("Up", 26, 6),
-    ("Up", 26, 5),
-    ("Up", 26, 4),
-    ("Up", 26, 3),
-    ("Up", 26, 2),
+    ("Left", 21, 3),
+    ("Left", 20, 3),
+    ("Left", 19, 3),
+    ("Left", 18, 3),
+    ("Left", 17, 3),
+    ("Left", 16, 3),
+    ("Left", 15, 3),
+    ("Left", 14, 3),
+    ("Left", 13, 3),
+    ("Left", 12, 3),
+    ("Left", 11, 3),
+    ("Left", 10, 3),
+    # Walk UP Column 10 to Row 2
+    ("Up", 10, 2),
     # Walk Left along Row 2 to Column 5
-    ("Left", 25, 2),
-    ("Left", 24, 2),
-    ("Left", 23, 2),
-    ("Left", 22, 2),
-    ("Left", 21, 2),
-    ("Left", 20, 2),
-    ("Left", 19, 2),
-    ("Left", 18, 2),
-    ("Left", 17, 2),
-    ("Left", 16, 2),
-    ("Left", 15, 2),
-    ("Left", 14, 2),
-    ("Left", 13, 2),
-    ("Left", 12, 2),
-    ("Left", 11, 2),
-    ("Left", 10, 2),
     ("Left", 9, 2),
     ("Left", 8, 2),
     ("Left", 7, 2),
@@ -93,11 +77,11 @@ path = [
     ("Down", 5, 10) # Stairs UP to 2F West!
 ]
 
-print("Executing 1F East to 2F West stairs route via Row 2 connection...")
+print("Executing 1F East to 2F West stairs route from (22, 3)...")
 for step, x, y in path:
     pos = mgba.get_coordinates()
-    # Check if we warped to 2F West (Coordinates on 2F West start at 5,10/5,11)
-    if pos['y'] > 25 or abs(pos['x'] - 24) > 22:
+    # Check if we warped to 2F West
+    if pos['y'] > 25 or abs(pos['x'] - 22) > 20:
         print("Map transition detected! Stopping script.")
         break
     move_safe(step, x, y)
