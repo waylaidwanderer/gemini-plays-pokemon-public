@@ -43,5 +43,5 @@
 | (9, 4..5) Shutter Gate | 1F | OPEN | CLOSED |
 | (24..25, 13) Shutter Gate | 1F | OPEN | CLOSED |
 | (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
-| (21, 17) Shutter Gate | 2F | CLOSED | OPEN |
+| (24..25, 17) Passage | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
