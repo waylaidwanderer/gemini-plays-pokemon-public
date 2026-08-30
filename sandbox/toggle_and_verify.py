@@ -61,31 +61,46 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Escape the wild Vulpix
-print("Escaping wild Vulpix...")
-mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1200", "B"])
-time.sleep(1.5)
-mgba.press_buttons(["A"])
-time.sleep(0.5)
-
 pos = mgba.get_coordinates()
-print(f"Overworld active. Current position: {pos}")
+print(f"Starting step-by-step switch verification from {pos}")
 
-if pos == {'x': 2, 'y': 6}:
+# 1. Walk from (22, 2) to (2, 6)
+to_switch_path = [
+    (22, 3),
+    (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
+    (10, 2),
+    (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2),
+    (4, 3), (4, 4),
+    (3, 4),
+    (3, 5), (3, 6),
+    (2, 6)
+]
+
+res = walk_path(to_switch_path)
+print(f"Walk to switch at (2, 5) result: {res}. Pos: {mgba.get_coordinates()}")
+
+if mgba.get_coordinates() == {'x': 2, 'y': 6}:
     # Face UP
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # Toggle switch at (2, 5) exactly ONCE to State A
-    print("Toggling Mewtwo switch at (2, 5) to State A...")
+    # Toggle switch with screenshot after each press
+    print("Toggling Mewtwo switch step-by-step...")
     mgba.press_buttons(["A"])
     time.sleep(2.5)
+    mgba.take_screenshot() # step 1
+    
     mgba.press_buttons(["A"])
     time.sleep(2.5)
+    mgba.take_screenshot() # step 2
+    
     mgba.press_buttons(["A"])
     time.sleep(2.5)
+    mgba.take_screenshot() # step 3
+    
     mgba.press_buttons(["A"])
     time.sleep(2.5)
+    mgba.take_screenshot() # step 4
     
     # Walk back to (22, 2)
     verify_path = [
