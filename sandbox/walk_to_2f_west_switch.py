@@ -57,9 +57,8 @@ time.sleep(1.0)
 pos = mgba.get_coordinates()
 print(f"Position in overworld: {pos}")
 
-# Walk from current (26, 3) to the northeast stairs warp (22, 1) on 3F East
+# Walk from current (22, 3) to the northeast stairs warp (22, 1) on 3F East
 path_3f = [
-    (25, 3), (24, 3), (23, 3), (22, 3),
     (22, 2),
     (22, 1) # Staircase warp
 ]
