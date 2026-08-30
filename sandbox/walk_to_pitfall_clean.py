@@ -65,16 +65,12 @@ def walk_route(path):
                     time.sleep(0.3)
     return True
 
-# Path from (3, 8)
+# Path from current position (3, 4)
 path = [
-    # 1. UP Column 3 to Row 3
-    (3, 7),
-    (3, 6),
-    (3, 5),
-    (3, 4),
-    (3, 3),
-    # 2. Right along Row 3 to Column 12
+    # 1. Move to Column 4
+    (4, 4),
     (4, 3),
+    # 2. Right along Row 3 to Column 12
     (5, 3),
     (6, 3),
     (7, 3),
@@ -101,7 +97,7 @@ path = [
     (10, 14),
     (10, 15),
     (10, 16),
-    # 6. Right to Column 18 on Row 16
+    # 6. Right to Column 18 on Row 16 (the pitfall)
     (11, 16),
     (12, 16),
     (13, 16),
