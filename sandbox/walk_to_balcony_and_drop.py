@@ -46,23 +46,7 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Escape from wild Grimer battle
-print("Escaping from wild Grimer battle...")
-# Advance "Wild GRIMER appeared!" text
-mgba.press_buttons(["A"])
-time.sleep(3.0) # Wait for slide-in animation to complete fully
-
-# Select RUN and press A
-mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
-time.sleep(2.0) # Wait for "Got away safely!" text
-
-# Dismiss "Got away safely!" text
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-print("Coordinates after escape:", mgba.get_coordinates())
-
-# 2. Continue path from (19, 3) to the balcony
+# Start at current (19, 3)
 path = [
     # 1. Walk RIGHT along Row 3 to Column 25
     (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
@@ -74,6 +58,6 @@ path = [
     (19, 18)
 ]
 
-print("Continuing walk to balcony drop...")
+print("Walking to balcony drop from (19, 3) in State A...")
 res = walk_path_strict(path)
-print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
+print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
