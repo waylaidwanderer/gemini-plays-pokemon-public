@@ -31,43 +31,36 @@ def walk_path(coords):
             
         res = step_safe(direction, target_x, target_y)
         if res == "BLOCKED":
-            print(f"Aborting: Blocked trying to reach ({target_x}, {target_y})")
+            print(f"Aborting: Blocked on way at {mgba.get_coordinates()} trying to reach ({target_x}, {target_y})")
             return "BLOCKED"
     return "SUCCESS"
 
-# We are at (12, 2) on 3F East in State A.
-# Walk to (12, 6) first
-init_path = [
-    (12, 3), (12, 4), (12, 5), (12, 6)
-]
+# We are currently at (25, 12) on 3F East in State A.
+# Step 1. Walk UP to Row 11
+print("Walking UP to Row 11...")
+res = walk_path([(25, 11)])
+print(f"Row 11 result: {res}. Pos: {mgba.get_coordinates()}")
 
-print("Walking to (12, 6)...")
-res = walk_path(init_path)
-print(f"Init path result: {res}. Position: {mgba.get_coordinates()}")
-
-# Probing Row 13 on Columns 14-20
-if mgba.get_coordinates() == {'x': 12, 'y': 6}:
-    for col in [14, 15, 16, 17, 18, 19, 20]:
+# Probing Row 13 on Columns 21, 20, 19, 18, 17, 16, 15, 14, 13, 12
+if mgba.get_coordinates() == {'x': 25, 'y': 11}:
+    for col in [21, 20, 19, 18, 17, 16, 15, 14, 13, 12]:
         print(f"\n--- Probing Column {col} Row 13 ---")
-        # Walk along Row 6 to the target column
+        # Walk along Row 11 to the target column
         pos = mgba.get_coordinates()
         dx = col - pos['x']
         if dx > 0:
-            res_walk = walk_path([(x, 6) for x in range(pos['x'] + 1, col + 1)])
+            res_walk = walk_path([(x, 11) for x in range(pos['x'] + 1, col + 1)])
         elif dx < 0:
-            res_walk = walk_path([(x, 6) for x in range(pos['x'] - 1, col - 1, -1)])
+            res_walk = walk_path([(x, 11) for x in range(pos['x'] - 1, col - 1, -1)])
             
         if res_walk == "BLOCKED":
-            print(f"Aborting probe of Column {col} because Row 6 was blocked.")
+            print(f"Aborting probe of Column {col} because Row 11 was blocked.")
             continue
             
         # Walk down to Row 12
-        res_down = walk_path([(col, y) for y in range(7, 13)])
+        res_down = walk_path([(col, 12)])
         if res_down == "BLOCKED":
-            print(f"Aborting probe of Column {col} because vertical path on Rows 7-12 was blocked.")
-            # Go back UP to Row 6
-            pos_after = mgba.get_coordinates()
-            walk_path([(col, y) for y in range(pos_after['y'] - 1, 5, -1)])
+            print(f"Aborting probe of Column {col} because Row 12 was blocked.")
             continue
             
         # Test Row 13
@@ -89,6 +82,6 @@ if mgba.get_coordinates() == {'x': 12, 'y': 6}:
             break
         else:
             print(f"Column {col} Row 13 is BLOCKED.")
-            # Walk back UP to Row 6 to test the next column
+            # Walk back UP to Row 11 to test the next column
             pos_after = mgba.get_coordinates()
-            walk_path([(col, y) for y in range(pos_after['y'] - 1, 5, -1)])
+            walk_path([(col, 11)])
