@@ -2,7 +2,6 @@ import mgba
 import time
 
 def step_strict(direction, target_x, target_y):
-    # Allow 2 attempts per step to handle turning-in-place/lag
     for attempt in range(2):
         pos_before = mgba.get_coordinates()
         mgba.press_buttons([direction])
@@ -39,18 +38,21 @@ def walk_path_safe(path):
         if res == "SUCCESS":
             idx += 1
         elif res == "BLOCKED":
-            print(f"BLOCKED! Position did not change while trying to go to {(target_x, target_y)}. Stopping script for manual handling.")
+            print(f"BLOCKED! Position did not change while trying to go to {(target_x, target_y)}. Stopping script.")
             return "BLOCKED_STATE"
         elif res == "WARPED":
             return "WARPED"
         time.sleep(0.1)
     return "SUCCESS"
 
-# Start at current (21, 16) in State A
+# Walk from current (10, 11) to balcony drop at (19, 18)
 path = [
+    (10, 12), (10, 13), (10, 14), (10, 15), (10, 16),
+    (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16), (20, 16), (21, 16),
     (21, 17), (21, 18), (20, 18), (19, 18)
 ]
 
-print("Executing final balcony drop from current position (21, 16) in State A...")
+print("Executing walk to balcony drop from current position (10, 11)...")
 res = walk_path_safe(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
+
