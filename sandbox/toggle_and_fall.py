@@ -19,7 +19,7 @@ def walk_route(path, detect_warp=False):
         attempts = 0
         while attempts < 15:
             # Check button limit
-            if button_count > 80:
+            if button_count > 35:
                 print(f"Approaching button limit ({button_count}). Pausing execution to let player run next turn.")
                 return False
                 
