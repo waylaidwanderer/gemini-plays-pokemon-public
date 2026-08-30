@@ -50,16 +50,24 @@ def walk_path(coords):
     return "SUCCESS"
 
 # We are at (23, 11) on 3F East in State A.
-# 1. Walk to 3F East stairs at (22, 1) and go down to 2F East (landing at 22, 1 on 2F)
+# 1. Walk to 3F East stairs at (22, 1) via Column 26/27 bypass and go down to 2F East
 stairs_path_3f = [
-    (24, 11), (25, 11),
-    (25, 10), (25, 9), (25, 8), (25, 7), (25, 6), (25, 5), (25, 4), (25, 3),
-    (24, 3), (23, 3), (22, 3),
+    # Walk RIGHT to Column 26
+    (24, 11), (25, 11), (26, 11),
+    # Walk UP Column 26 to Row 7 (safe from Row 6 pitfall)
+    (26, 10), (26, 9), (26, 8), (26, 7),
+    # Walk RIGHT to Column 27
+    (27, 7),
+    # Walk UP Column 27 to Row 3 (bypassing Row 10/11 rubble on Column 27)
+    (27, 6), (27, 5), (27, 4), (27, 3),
+    # Walk LEFT along Row 3 to Column 22 (safe from Column 26 Row 3 pitfall)
+    (26, 3), (25, 3), (24, 3), (23, 3), (22, 3),
+    # Walk UP Column 22 to (22, 1) (staircase warp)
     (22, 2),
-    (22, 1) # This triggers the stairs DOWN to 2F East!
+    (22, 1)
 ]
 
-print("Walking to the stairs on 3F East...")
+print("Walking to 3F East stairs...")
 res = walk_path(stairs_path_3f)
 print(f"Stairs result: {res}. Position: {mgba.get_coordinates()}")
 
