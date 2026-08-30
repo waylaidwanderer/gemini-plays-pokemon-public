@@ -64,19 +64,24 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# We are at (27, 9) on 3F East in State A.
-# Walk path to the balcony drop at (19, 18) via Column 26 (safe below Row 6!).
+# We are at (28, 12) on 3F East in State A.
+# Walk path to the balcony drop at (19, 18) via Column 25 (OPEN in State A!).
 balcony_path = [
-    # 1. Walk LEFT to Column 26
-    (26, 9),
-    # 2. Walk DOWN Column 26 to Row 17
-    (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16), (26, 17),
-    # 3. Walk LEFT along Row 17 to Column 19 (through open State A balcony gates)
-    (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+    # 1. Walk LEFT to Column 25 on Row 12
+    (27, 12), (26, 12), (25, 12),
+    # 2. Walk DOWN Column 25 to Row 17 (shutter gate at (25,13) is OPEN in State A!)
+    (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
+    # 3. Walk LEFT along Row 17 to Column 19 (balcony gates are OPEN in State A!)
+    (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
     # 4. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
     (19, 18)
 ]
 
-print("Walking to the balcony at (19, 18) from (27, 9) via Column 26 bypass...")
+# 1. Dismiss "Got away safely!" textbox
+print("Dismissing battle screen...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Walking to the balcony at (19, 18) from (28, 12) via Column 25 Row 17 in State A...")
 res = walk_path(balcony_path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
