@@ -64,11 +64,11 @@ def walk_path(coords):
 pos = mgba.get_coordinates()
 print(f"Starting 3F switch toggle from {pos}")
 
-# 1. Walk from (22, 2) to (2, 6) via Row 3 and Column 10
+# 1. Walk from (10, 4) to (2, 6) via Row 2
 to_switch_path = [
-    (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
-    (10, 4), (10, 5), (10, 6),
-    (9, 6), (8, 6), (7, 6), (6, 6), (5, 6), (4, 6), (3, 6), (2, 6)
+    (10, 3), (10, 2),
+    (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
+    (2, 3), (2, 4), (2, 5), (2, 6)
 ]
 
 res = walk_path(to_switch_path)
@@ -80,7 +80,7 @@ if mgba.get_coordinates() == {'x': 2, 'y': 6}:
     time.sleep(0.5)
     
     # Toggle switch at (2, 5) exactly ONCE to State A
-    print("Toggling switch at (2, 5)...")
+    print("Toggling Mewtwo switch at (2, 5) to State A...")
     mgba.press_buttons(["A"])
     time.sleep(2.5)
     mgba.press_buttons(["A"])
@@ -90,18 +90,16 @@ if mgba.get_coordinates() == {'x': 2, 'y': 6}:
     mgba.press_buttons(["A"])
     time.sleep(2.5)
     
-    # Walk back to (22, 2) to verify gate at (21, 2)
+    # Walk back to (22, 2)
     verify_path = [
-        (3, 6), (4, 6), (5, 6), (6, 6), (7, 6), (8, 6), (9, 6), (10, 6),
-        (10, 5), (10, 4), (10, 3),
-        (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3),
-        (22, 2)
+        (2, 5), (2, 4), (2, 3), (2, 2),
+        (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2)
     ]
     res_verify = walk_path(verify_path)
     print(f"Walk to verify result: {res_verify}. Pos: {mgba.get_coordinates()}")
     
     if mgba.get_coordinates() == {'x': 22, 'y': 2}:
-        # Try to step Left to (21, 2)
+        # Verify gate
         print("Verifying if gate at (21, 2) is open...")
         mgba.press_buttons(["Left"])
         time.sleep(0.5)
@@ -110,7 +108,7 @@ if mgba.get_coordinates() == {'x': 2, 'y': 6}:
         
         if pos_gate == {'x': 21, 'y': 2}:
             print("GATE IS OPEN! WE ARE IN STATE A.")
-            # Walk to Column 26 Row 3 and down to trigger pitfall!
+            # Step back to (22, 2), then to Column 26 and Down to trigger pitfall!
             pitfall_path = [
                 (22, 2), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
                 (26, 4), (26, 5), (26, 6)
