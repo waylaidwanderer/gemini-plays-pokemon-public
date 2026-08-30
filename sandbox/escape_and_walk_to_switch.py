@@ -46,22 +46,22 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (4, 3)
-path_to_switch_front = [
-    # 1. Down to (4, 4)
-    (4, 4),
-    # 2. Left to (3, 4)
-    (3, 4),
-    # 3. Down to (3, 5)
-    (3, 5),
-    # 4. Down to (3, 6)
-    (3, 6),
-    # 5. Left to (2, 6)
-    (2, 6)
+# Start at current (20, 16)
+path_to_switch = [
+    # 1. Walk UP Column 20 to Row 1 (bypasses Row 13 in State B!)
+    (20, 15), (20, 14), (20, 13), (20, 12), (20, 11), (20, 10), (20, 9), (20, 8), (20, 7), (20, 6), (20, 5), (20, 4), (20, 3), (20, 2), (20, 1),
+    # 2. Walk LEFT along Row 1 to Column 6 (bypasses Column 5 Row 1 wall)
+    (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1),
+    # 3. Walk DOWN Column 6 to Row 3
+    (6, 2), (6, 3),
+    # 4. Walk LEFT Row 3 to Column 2 on 3F West
+    (5, 3), (4, 3), (3, 3), (2, 3),
+    # 5. Walk DOWN Column 2 to (2, 6) (directly below the switch!)
+    (2, 4), (2, 5), (2, 6)
 ]
 
-print("Walking to (2, 6) on 3F West...")
-res = walk_path_strict(path_to_switch_front)
+print("Walking from (20, 16) to switch at (2, 6) in State B...")
+res = walk_path_strict(path_to_switch)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 2, 'y': 6}:
@@ -82,19 +82,21 @@ if mgba.get_coordinates() == {'x': 2, 'y': 6}:
     time.sleep(2.5)
     print("Mewtwo switch toggled to State A successfully from the front!")
     
-    # Walk to the balcony drop in State A!
+    # Walk directly to the balcony drop from 3F West in State A!
     path_to_balcony = [
-        # 1. UP Column 2 to Row 2
-        (2, 5), (2, 4), (2, 3), (2, 2),
-        # 2. Walk RIGHT along Row 2 to Column 25 (completely open in State A!)
-        (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2),
-        # 3. Walk DOWN Column 25 to Row 17 (shutter gate at 25, 13 is open in State A!)
-        (25, 3), (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
-        # 4. Walk LEFT along Row 17 to Column 19 (balcony gates open in State A!)
-        (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
-        # 5. Walk DOWN Column 19 to Row 18 (balcony drop warp!)
-        (19, 18)
+        # 1. Walk Right to (3, 6)
+        (3, 6),
+        # 2. Walk UP Column 3 to Row 2
+        (3, 5), (3, 4), (3, 3), (3, 2),
+        # 3. Walk RIGHT along Row 2 to Column 10 (completely open in State A!)
+        (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2),
+        # 4. Walk DOWN Column 10 to Row 16 (completely open in State A!)
+        (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11), (10, 12), (10, 13), (10, 14), (10, 15), (10, 16),
+        # 5. Walk RIGHT Row 16 directly to balcony drop at (19, 18)!
+        (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16),
+        # 6. Walk DOWN Column 19 to Row 18 (balcony drop warp!)
+        (19, 17), (19, 18)
     ]
-    print("Walking to the balcony drop in State A...")
+    print("Walking to the balcony drop in State A directly from 3F West...")
     res_balcony = walk_path_strict(path_to_balcony)
     print(f"Balcony result: {res_balcony}. Final position: {mgba.get_coordinates()}")
