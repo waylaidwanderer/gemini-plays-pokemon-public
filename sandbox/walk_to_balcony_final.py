@@ -46,14 +46,11 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Start at current (25, 14) in State A
+# Start at current (21, 16) in State A
 path = [
-    (25, 15), (25, 16),
-    (24, 16), (23, 16), (22, 16), (21, 16), (20, 16),
-    (20, 17), (20, 18),
-    (19, 18)
+    (21, 17), (21, 18), (20, 18), (19, 18)
 ]
 
-print("Executing final balcony drop from current position (25, 14) in State A...")
+print("Executing final balcony drop from current position (21, 16) in State A...")
 res = walk_path_safe(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
