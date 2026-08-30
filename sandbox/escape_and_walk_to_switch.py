@@ -46,15 +46,26 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (16, 1)
+# 1. Escape from wild Ponyta battle
+print("Escaping from wild Ponyta battle at (6, 3)...")
+mgba.press_buttons(["A"])
+time.sleep(3.5) # Generous sleep to wait for slide-in animation and menu to fully load!
+
+# Select RUN and press A (Down moves to ITEM, Right moves to RUN)
+mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
+time.sleep(2.0) # Wait for escape text to appear
+
+# Dismiss escape text
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Coordinates after escape:", mgba.get_coordinates())
+
+# 2. Walk remaining path to (2, 6) from (6, 3)
 path_to_switch = [
-    # 1. Walk Left Row 1 to Column 6
-    (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1),
-    # 2. Walk DOWN Column 6 to Row 3
-    (6, 2), (6, 3),
-    # 3. Walk LEFT Row 3 to Column 2
+    # 1. Walk LEFT Row 3 to Column 2 on 3F West
     (5, 3), (4, 3), (3, 3), (2, 3),
-    # 4. Walk DOWN Column 2 to (2, 6)
+    # 2. Walk DOWN Column 2 to (2, 6)
     (2, 4), (2, 5), (2, 6)
 ]
 
