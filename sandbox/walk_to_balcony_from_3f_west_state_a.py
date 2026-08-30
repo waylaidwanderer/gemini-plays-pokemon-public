@@ -13,13 +13,16 @@ def handle_battle_if_present():
     mgba.press_buttons(["B"])
     time.sleep(1.0)
 
-# Full path from (3, 6) on 3F West to (19, 18) balcony drop on 3F East in State A
+# Full path from (8, 4) on 3F West to (19, 18) balcony drop on 3F East in State A
 path = [
-    (3, 6),
-    (3, 5), (4, 5),
-    (4, 4), (4, 3),
+    (8, 4),
+    (8, 3),
+    (8, 2),
+    (9, 2),  # Cross Column 9 Wall on Row 2
+    (10, 2),
+    (10, 3),
     # Row 3 to Column 27
-    (5, 3), (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3), (27, 3),
+    (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3), (27, 3),
     # Column 27 to Row 9
     (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
     # Column 26 down to Row 16 (bypassing pitfalls and Closed shutter gate at (25, 13))
@@ -44,7 +47,7 @@ def get_direction(curr, nxt):
     if dy == -1: return "Up"
     return None
 
-print("Starting robust state-machine path follower to the balcony drop...")
+print("Starting robust state-machine path follower to the balcony drop from (8, 4)...")
 max_button_presses = 100
 button_count = 0
 
@@ -52,7 +55,7 @@ while button_count < max_button_presses:
     curr = mgba.get_coordinates()
     curr_tup = (curr['x'], curr['y'])
     
-    # If we warped to B1F West (landing at 9, 16 or 9, 18 or similar), we are done!
+    # If we warped to B1F West, we are done!
     if curr_tup[1] == 16 and curr_tup[0] < 15:
         print("We successfully warped to B1F West! Current Position:", curr_tup)
         break
