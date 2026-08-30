@@ -46,28 +46,16 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (25, 3)
+# Start at current (24, 17)
 path = [
-    # 1. Walk UP to Row 2
-    (25, 2),
-    # 2. Walk RIGHT to Column 27 (safe from Column 26 pitfalls!)
-    (26, 2), (27, 2),
-    # 3. Walk DOWN Column 27 to Row 9
-    (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
-    # 4. Walk LEFT to Column 26 on Row 9 (safe!)
-    (26, 9),
-    # 5. Walk DOWN Column 26 to Row 12 (safe!)
-    (26, 10), (26, 11), (26, 12),
-    # 6. Walk LEFT to Column 25
-    (25, 12),
-    # 7. Walk DOWN Column 25 to Row 17 (shutter gate at 25, 13 is open in State A!)
-    (25, 13), (25, 14), (25, 15), (25, 16), (25, 17),
-    # 8. Walk LEFT along Row 17 to Column 19 (balcony gates open in State A!)
-    (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
-    # 9. Walk DOWN Column 19 to Row 18 (balcony drop warp!)
-    (19, 18)
+    # 1. UP to Row 16
+    (24, 16),
+    # 2. LEFT along Row 16 to Column 19 (bypasses Row 17 counters and shutter gates!)
+    (23, 16), (22, 16), (21, 16), (20, 16), (19, 16),
+    # 3. DOWN Column 19 to Row 18 (balcony drop warp!)
+    (19, 17), (19, 18)
 ]
 
-print("Executing walk to balcony drop in State A...")
+print("Executing final walk to balcony drop via Row 16...")
 res = walk_path_strict(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
