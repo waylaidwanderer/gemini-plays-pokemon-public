@@ -46,12 +46,18 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Escape from battle
-print("Escaping battle...")
-mgba.press_buttons(["A"])
-time.sleep(1.5)
+# 1. Exit moves menu and escape battle
+print("Closing moves menu and escaping...")
+mgba.press_buttons(["B"])
+time.sleep(1.0)
+
+# Main battle menu should be open now. Let's select RUN.
+print("Selecting RUN...")
 mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
-time.sleep(1.5)
+time.sleep(2.0) # Wait for escape animation and text
+
+# Dismiss "Got away safely!" text
+print("Dismissing escape text...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
