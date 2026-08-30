@@ -44,7 +44,7 @@
     - If you successfully step to `(3, 6)`, then State B is active!
 
 ## Critical Switch Mechanics & Verification Constraints (Verified Turn 67356)
-- **4 A-Press Sequence Required:** To fully toggle any Mewtwo Switch statue (e.g. at (2, 5) or (12, 11)) and cleanly restore the overworld without leaving dialogue boxes open, a strict 4 A-press sequence is REQUIRED:
+- **4 A-Press Sequence Required:** To fully toggle any Mewtwo Switch statue (e.g. at (2, 5)) and cleanly restore the overworld without leaving dialogue boxes open, a strict 4 A-press sequence is REQUIRED:
   1. **A-Press 1:** Interacts with the statue. "A secret switch!" text scrolls onto screen.
   2. **A-Press 2:** Advances text. YES/NO menu appears.
   3. **A-Press 3:** Selects YES (default). "Who wouldn't?" text scrolls onto screen.
