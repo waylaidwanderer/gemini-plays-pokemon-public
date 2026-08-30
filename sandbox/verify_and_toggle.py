@@ -14,13 +14,9 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (22, 1) on 3F East (Mansion is in State B)
+# Starting at current (18, 1) on 3F East (Mansion is in State B)
 path_to_switch = [
     # Walk Left along Row 1 to Column 4
-    ("Left", 21, 1),
-    ("Left", 20, 1),
-    ("Left", 19, 1),
-    ("Left", 18, 1),
     ("Left", 17, 1),
     ("Left", 16, 1),
     ("Left", 15, 1),
