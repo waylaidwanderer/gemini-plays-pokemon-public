@@ -26,7 +26,7 @@
 - Thoroughfare Column 12: Unobstructed north-south corridor connecting row 11 to row 1, bypassing all rubble at rows 8-9.
 - Computer terminals along row 2: (13, 2), (15, 2), (17, 2), (19, 2)
 - Item Ball: (14, 3) [Collected Turn 18593]
-- Shutter Barrier (North-Central): (21, 17) [CLOSED in State A, OPEN in State B]
+- Shutter Barrier (North-Central): (20..21, 17) [OPEN in State A, CLOSED in State B]; Passage at (24..25, 17) [CLOSED in State A, OPEN in State B]
 - Shutter Barrier (Southeast): (26..27, 27) [CLOSED in State A, OPEN in State B]
 - Doorway connections: (26..27, 4), (24..25, 13)
 - Corridors: Row 1 (cols 4-27), Row 3 (cols 10-27), Row 16 (cols 21-28), Col 26 (rows 4-12, 14-26)
