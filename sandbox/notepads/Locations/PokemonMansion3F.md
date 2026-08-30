@@ -69,7 +69,7 @@
     - Shutter gates at `(19, 2)` and `(21, 2)` on 3F East are CLOSED.
   - **State A:**
     - Balcony gates at `(20, 17)` and `(21, 17)` are OPEN (completely passable door frames!).
-    - Shutter gate at `(25, 13)` on Column 25 is OPEN.
+    - Shutter gate at `(25, 13)` on Column 25 is CLOSED (yellow/black striped gate).
     - Shutter gate at `(4, 6)` on 3F West is CLOSED (blocked by green frame).
     - Shutter gates at `(19, 2)` and `(21, 2)` on 3F East are OPEN.
 

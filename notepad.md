@@ -1348,7 +1348,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
    - Walk through 1F West to the stairs up to 2F West.
    - On 2F, since State A gates on Row 11 are OPEN, walk freely to 2F East.
    - Take the northeast stairs at (22, 1) UP to 3F East.
-4. **Access Balcony:** Land on 3F East at (22, 1). Walk down Column 25 (which is completely open to Row 16). Since the balcony shutter gates at (20, 17) and (21, 17) are OPEN in State A, walk through them to the balcony at (19, 18) and drop to B1F West to retrieve the Secret Key!
+4. **Access Balcony:** Land on 3F East at (22, 1). In State A, walk DOWN Column 27 (since Column 27 is completely open vertically to Row 9, avoiding pitfalls) to Row 9, walk Left to Column 26 at (26, 9), then walk DOWN Column 26 (completely open vertically below Row 9 to Row 16) to Row 16, walk Left along Row 16 to Column 21, walk DOWN Column 21 through the open balcony gates at (21, 17) to Row 18, and walk Left to (19, 18) to trigger the balcony drop warp and drop to B1F West to retrieve the Secret Key! (Note: The shutter gate at (25, 13) is closed in State A, so Column 25 is blocked at Row 13).
 
 ## Shutter Gate at (3, 6) Local Verification Logic (Verified Turn 67240)
 - **Mewtwo Switch Gate at (3, 6) on 3F West:**
