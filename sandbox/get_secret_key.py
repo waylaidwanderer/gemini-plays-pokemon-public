@@ -64,21 +64,23 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# We are on 3F East at (22, 1) in State A.
+# We are on 3F West/Middle at (11, 7).
 # Walk path to the balcony drop at (19, 18).
 balcony_path = [
-    # 1. Step DOWN to Row 2
-    (22, 2),
-    # 2. Walk LEFT along Row 2 to Column 10
-    (21, 2), (20, 2), (19, 2), (18, 2), (17, 2), (16, 2), (15, 2), (14, 2), (13, 2), (12, 2), (11, 2), (10, 2),
-    # 3. Walk DOWN Column 10 to Row 16
-    (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11), (10, 12), (10, 13), (10, 14), (10, 15), (10, 16),
-    # 4. Walk RIGHT along Row 16 to Column 19
+    # 1. Step RIGHT to Column 12
+    (12, 7),
+    # 2. Walk DOWN Column 12 to Row 12 (bypassing Row 8 rubble)
+    (12, 8), (12, 9), (12, 10), (12, 11), (12, 12),
+    # 3. Walk LEFT to Column 10 on Row 12
+    (11, 12), (10, 12),
+    # 4. Walk DOWN Column 10 to Row 16
+    (10, 13), (10, 14), (10, 15), (10, 16),
+    # 5. Walk RIGHT along Row 16 to Column 19
     (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16),
-    # 5. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
+    # 6. Walk DOWN Column 19 to (19, 18) (Trigger balcony fall warp!)
     (19, 17), (19, 18)
 ]
 
-print("Walking to the balcony at (19, 18)...")
+print("Walking to the balcony at (19, 18) from (11, 7)...")
 res = walk_path(balcony_path)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
