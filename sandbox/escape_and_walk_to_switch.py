@@ -46,7 +46,22 @@ def walk_path_strict(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Start at current (20, 16)
+# 1. Escape from wild Muk battle
+print("Escaping from wild Muk battle at (20, 16)...")
+mgba.press_buttons(["A"])
+time.sleep(3.5) # Wait for slide-in animation and menu to fully load!
+
+# Select RUN and press A (Down moves to ITEM, Right moves to RUN)
+mgba.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
+time.sleep(2.0) # Wait for escape text to appear
+
+# Dismiss escape text
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Coordinates after escape:", mgba.get_coordinates())
+
+# 2. Walk remaining path to (2, 6) from (20, 16)
 path_to_switch = [
     # 1. Walk UP Column 20 to Row 1 (bypasses Row 13 in State B!)
     (20, 15), (20, 14), (20, 13), (20, 12), (20, 11), (20, 10), (20, 9), (20, 8), (20, 7), (20, 6), (20, 5), (20, 4), (20, 3), (20, 2), (20, 1),
@@ -60,7 +75,7 @@ path_to_switch = [
     (2, 4), (2, 5), (2, 6)
 ]
 
-print("Walking from (20, 16) to switch at (2, 6) in State B...")
+print("Walking to (2, 6) on 3F West...")
 res = walk_path_strict(path_to_switch)
 print(f"Path result: {res}. Position: {mgba.get_coordinates()}")
 
