@@ -2303,14 +2303,11 @@
 - Descending Staircase to B1F: Located at (26..27, 27).
 - North Landing: Located at row 26 (26..27, 26). Stairs must be entered from the NORTH at row 26 stepping DOWN into (26..27, 27).
 - Item Ball at (1, 22): Full Restore [Collected Turn 20065]
-### Isolated B1F Staircase Enclosure & Access Rule (Verified Turns 20090-20104)
-- **Isolated Enclosure**: The chamber at (26..28, rows 8..16) containing the Scientist at (27, 11) and the B1F Staircase North Landing at (26, 16) is COMPLETELY ENCLOSED by walls on 1F:
-  - North: Wall at row 8 (cols 8-25).
-  - South: Staircase and table barriers at row 17 (25..28, 17). Stepping Up from row 18 (26..27, 18) collides with the solid south railing.
-  - West: Solid vertical wall at column 25 (25, 9..16).
-  - East: Solid exterior wall at column 29.
-- **Entry Method**: This enclosure CANNOT be entered from 1F ground level. It must be entered by dropping from the far-right section of the 3F balcony pits!
-- **Decorative Object at (23, 22)**: (23, 22) is a decorative pedestal/display, NOT a floor warp or staircase.
+### East Wing Layout & B1F Access (Verified Turns 20508-20518)
+- East Wing corridor runs along cols 26-28 from row 12 south to row 27.
+- Shutter gate at (24..25, 13) connects the northern corridor directly to this eastern corridor in State A.
+- Table/railing barrier at (26..28, 17) divides the corridor, bypassed via open tiles at (24..25, 17..18).
+- **Decorative Object at (23, 22)**: Decorative pedestal/display, not a floor warp.
 ### Verified Multi-Floor Switch State Table
 | Gate / Shutter Location | Floor | State A (Default) | State B (Toggled) |
 |---|---|---|---|
@@ -2323,7 +2320,7 @@
 ## Verified B1F Access Solution (Turn 20508)
 - 1F NW Mewtwo statue switch at (2, 5) MUST be interacted with from (2, 6) facing UP (interacting from (3, 5) does not work).
 - Toggling switch to State A opens the shutter gate at (24..25, 13).
-- Direct path to B1F stairs: From NW room / (5, 1) -> East along row 1 to (26, 1) -> South down col 26 to (26, 12) -> West 2 steps to (24, 12) -> South 4 steps through open gate at (24, 13) to (24, 16) -> East 2 steps to (26, 16) -> South 1 step into (26, 17) descending stairs to B1F.
+- Direct path to B1F stairs: From NW room / (5, 1) -> East along row 1 to (26, 1) -> South down col 26 to (26, 12) -> West 2 steps to (24, 12) -> South 4 steps through open gate at (24, 13) to (24, 16) -> South along cols 24-26 to (26, 26) -> South 1 step into (26, 27) descending stairs to B1F.
 
 <hr>
 
