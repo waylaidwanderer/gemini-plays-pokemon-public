@@ -68,20 +68,46 @@ def walk_path_robust(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Start at current (25, 3)
-path = [
-    # 1. UP to Row 2
-    (25, 2),
-    # 2. RIGHT to Column 27 (bypasses pitfall at 26, 3!)
-    (26, 2), (27, 2),
-    # 3. DOWN Column 27 to Row 17 (completely open, bypasses all walls!)
-    (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16), (27, 17),
-    # 4. LEFT along Row 17 to Column 19 (gates open in State A!)
-    (26, 17), (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
-    # 5. DOWN to Column 19 Row 18 (balcony drop!)
-    (19, 18)
+# Phase 1: Walk to switch at (12, 11) in State B from current (24, 13)
+to_switch_path = [
+    (24, 12),
+    (25, 12), (26, 12),
+    (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
+    (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
+    (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12)
 ]
 
-print("Executing final balcony drop via Column 27...")
-res = walk_path_robust(path)
-print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
+print("Walking to switch...")
+res = walk_path_robust(to_switch_path)
+print(f"Arrival at switch: {res}. Position: {mgba.get_coordinates()}")
+
+if mgba.get_coordinates() == {'x': 12, 'y': 12}:
+    # Face UP
+    print("Facing UP to the switch...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    # Toggle switch with 4 A-presses and 2.5-second delays
+    print("Toggling Mewtwo switch to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    mgba.press_buttons(["A"])
+    time.sleep(2.5)
+    print("Mewtwo switch toggled to State A successfully!")
+    
+    # Phase 2: Walk to balcony and drop in State A
+    to_balcony_path = [
+        (11, 12),
+        (11, 11), (11, 10), (11, 9), (11, 8), (11, 7), (11, 6), (11, 5), (11, 4), (11, 3), (11, 2),
+        (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2), (27, 2),
+        (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16), (27, 17),
+        (26, 17), (25, 17), (24, 17), (23, 17), (22, 17), (21, 17), (20, 17), (19, 17),
+        (19, 18)
+    ]
+    print("Walking to balcony and dropping...")
+    res_balcony = walk_path_robust(to_balcony_path)
+    print(f"Balcony result: {res_balcony}. Final position: {mgba.get_coordinates()}")
