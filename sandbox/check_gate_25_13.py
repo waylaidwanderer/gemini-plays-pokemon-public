@@ -65,60 +65,38 @@ def walk_route(path):
                     time.sleep(0.3)
     return True
 
-# Path from current position (10, 19) to (25, 12)
+# Path from current position (25, 3) to (25, 12)
 path = [
-    # 1. UP Column 10 to Row 12
-    (10, 18),
-    (10, 17),
-    (10, 16),
-    (10, 15),
-    (10, 14),
-    (10, 13),
-    (10, 12),
-    # 2. Right along Row 12 to Column 12
-    (11, 12),
-    (12, 12),
-    # 3. UP Column 12 to Row 1
-    (12, 11),
-    (12, 10),
-    (12, 9),
-    (12, 8),
-    (12, 7),
-    (12, 6),
-    (12, 5),
-    (12, 4),
-    (12, 3),
-    (12, 2),
-    (12, 1),
-    # 4. Right along Row 1 to Column 25
-    (13, 1),
-    (14, 1),
-    (15, 1),
-    (16, 1),
-    (17, 1),
-    (18, 1),
-    (19, 1),
-    (20, 1),
-    (21, 1),
-    (22, 1),
-    (23, 1),
-    (24, 1),
-    (25, 1),
-    # 5. DOWN Column 25 to Row 12
-    (25, 2),
-    (25, 3),
-    (25, 4),
-    (25, 5),
-    (25, 6),
-    (25, 7),
-    (25, 8),
-    (25, 9),
-    (25, 10),
-    (25, 11),
+    # 1. Right to Column 26
+    (26, 3),
+    # 2. DOWN Column 26 to Row 12
+    (26, 4),
+    (26, 5),
+    (26, 6),
+    (26, 7),
+    (26, 8),
+    (26, 9),
+    (26, 10),
+    (26, 11),
+    (26, 12),
+    # 3. Left to Column 25
     (25, 12),
+    # 4. Attempt to walk Down past Row 13 to Row 16
+    (25, 13),
+    (25, 14),
+    (25, 15),
+    (25, 16),
+    # 5. Walk Left to (18, 16)
+    (24, 16),
+    (23, 16),
+    (22, 16),
+    (21, 16),
+    (20, 16),
+    (19, 16),
+    (18, 16),
 ]
 
-print(f"Path to (25, 12): {len(path)} steps")
+print(f"Path to pitfall (18, 16): {len(path)} steps")
 success = walk_route(path)
 mgba.take_screenshot()
 print(f"Execution finished. Success: {success}. Final Position: {mgba.get_coordinates()}")
