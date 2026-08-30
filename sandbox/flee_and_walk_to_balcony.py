@@ -40,8 +40,8 @@ def move_safe(step, target_x, target_y):
     print(f"Finished step. Current position: {pos_after}")
     return pos_after
 
-# 1. Escape the current wild Vulpix battle
-print("Fleeing current wild Vulpix battle...")
+# 1. Escape the current wild Ponyta battle
+print("Fleeing current wild Ponyta battle...")
 # Press A to advance "appeared!" text
 mgba.press_buttons(["A"])
 time.sleep(1.5)
@@ -58,14 +58,10 @@ time.sleep(0.8)
 # 2. Verify we are in the overworld and continue path to balcony
 print("Overworld reached. Current position:", mgba.get_coordinates())
 
-# From current (27, 9) to (19, 18) balcony drop
+# From current (27, 16) to (19, 18) balcony drop
 path = [
-    # Walk Left to Column 25 on Row 9
-    ("Left", 26, 9), ("Left", 25, 9),
-    # Walk DOWN Column 25 to Row 16 (gate at 25,13 is open in State A)
-    ("Down", 25, 10), ("Down", 25, 11), ("Down", 25, 12), ("Down", 25, 13), ("Down", 25, 14), ("Down", 25, 15), ("Down", 25, 16),
     # Walk Left along Row 16 to Column 21
-    ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
+    ("Left", 26, 16), ("Left", 25, 16), ("Left", 24, 16), ("Left", 23, 16), ("Left", 22, 16), ("Left", 21, 16),
     # Walk DOWN Column 21 through open balcony gates (21, 17) to Row 18
     ("Down", 21, 17), ("Down", 21, 18),
     # Walk Left to balcony drop warp at (19, 18)
