@@ -66,7 +66,7 @@ def flee_battle():
     print("Fled battle.")
 
 # 1. Flee from the wild Ponyta battle
-flee_battle()
+# flee_battle()
 
 # 2. Walk to the 2F West stairs at (5, 11) from (4, 11)
 print("Walking to stairs at (5, 11)...")
