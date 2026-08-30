@@ -46,32 +46,18 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Start at current (12, 12) in State A
+# Start at current (27, 5) in State A
 path = [
-    # 1. Walk Left to Column 11
-    (11, 12),
-    # 2. Walk UP Column 11 to Row 9
-    (11, 11), (11, 10), (11, 9),
-    # 3. Walk Right to Column 12
-    (12, 9),
-    # 4. Walk UP Column 12 to Row 3
-    (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
-    # 5. Walk Right along Row 3 to Column 25 (bypasses green windows on Row 2)
-    (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-    # 6. Walk UP Column 25 to Row 2
-    (25, 2),
-    # 7. Walk Right along Row 2 to Column 27 (bypasses pitfall at 26, 3)
-    (26, 2), (27, 2),
-    # 8. Walk DOWN Column 27 to Row 16
-    (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16),
-    # 9. Walk Left along Row 16 to Column 20 (bypasses Column 18 Row 16 wall!)
+    # 1. Walk DOWN Column 27 to Row 16
+    (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), (27, 15), (27, 16),
+    # 2. Walk Left along Row 16 to Column 20 (bypasses wall at Column 18 Row 16 and wall at 19, 17!)
     (26, 16), (25, 16), (24, 16), (23, 16), (22, 16), (21, 16), (20, 16),
-    # 10. Walk DOWN Column 20 through open gate to Row 18
+    # 3. Walk DOWN Column 20 through open gate to Row 18
     (20, 17), (20, 18),
-    # 11. Walk Left to Column 19 (balcony grass drop warp!)
+    # 4. Walk Left to Column 19 (balcony grass drop warp!)
     (19, 18)
 ]
 
-print("Executing walk to balcony drop in State A...")
+print("Executing walk to balcony drop from current position (27, 5) in State A...")
 res = walk_path_safe(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
