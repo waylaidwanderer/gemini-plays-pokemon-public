@@ -14,31 +14,21 @@ def move_strict(direction, target_x, target_y):
         print(f"BLOCKED or Battle encountered! Position is {pos_after}. Exiting script.")
         return False
 
-# Starting at current (25, 3) on 3F East
+# Starting at current (10, 3) on 3F East
 path_to_switch = [
-    # Walk Left along Row 3 to Column 4 (bypasses NPC at 3,3)
-    ("Left", 24, 3),
-    ("Left", 23, 3),
-    ("Left", 22, 3),
-    ("Left", 21, 3),
-    ("Left", 20, 3),
-    ("Left", 19, 3),
-    ("Left", 18, 3),
-    ("Left", 17, 3),
-    ("Left", 16, 3),
-    ("Left", 15, 3),
-    ("Left", 14, 3),
-    ("Left", 13, 3),
-    ("Left", 12, 3),
-    ("Left", 11, 3),
-    ("Left", 10, 3),
-    ("Left", 9, 3),
-    ("Left", 8, 3),
+    # Walk UP to Row 2 to bypass Column 9 wall
+    ("Up", 10, 2),
+    # Walk Left across Column 9 on Row 2
+    ("Left", 9, 2),
+    ("Left", 8, 2),
+    # Walk DOWN to Row 3
+    ("Down", 8, 3),
+    # Continue Left along Row 3 to Column 4
     ("Left", 7, 3),
     ("Left", 6, 3),
     ("Left", 5, 3),
     ("Left", 4, 3),
-    # Walk DOWN Column 4 to Row 6
+    # Walk DOWN Column 4 to Row 6 (bypasses NPC at 3,3)
     ("Down", 4, 4),
     ("Down", 4, 5),
     ("Down", 4, 6),
@@ -76,13 +66,19 @@ if arrived:
         ("Up", 4, 5),
         ("Up", 4, 4),
         ("Up", 4, 3),
-        # Walk Right along Row 3 to Column 25
+        # Walk Right along Row 3 to Column 8 (using Row 2 detour to cross Column 9 wall)
         ("Right", 5, 3),
         ("Right", 6, 3),
         ("Right", 7, 3),
         ("Right", 8, 3),
-        ("Right", 9, 3),
-        ("Right", 10, 3),
+        # Walk UP to Row 2
+        ("Up", 8, 2),
+        # Walk Right across Column 9
+        ("Right", 9, 2),
+        ("Right", 10, 2),
+        # Walk DOWN to Row 3
+        ("Down", 10, 3),
+        # Continue Right to Column 25
         ("Right", 11, 3),
         ("Right", 12, 3),
         ("Right", 13, 3),
