@@ -43,45 +43,70 @@ def walk_to_target(tx, ty):
     return False
 
 def main():
-    print("--- Probing Pitfalls on Column 26 (State B) ---")
+    print("--- Systematic Stair / Warp Search on 3F East ---")
     pos = mgba.get_coordinates()
     print("Current position:", pos)
     
-    # 1. Walk Right to (26, 3)
-    if not walk_to_target(26, 3):
-        print("Failed to reach (26, 3)")
-        return
-        
-    # 2. Walk Down Column 26 all the way to Row 12, checking coordinates at each step
-    print("Walking Down Column 26...")
-    for y in range(4, 13):
-        print(f"Attempting to step DOWN to ({26}, {y})...")
-        mgba.press_buttons(["Down"])
-        time.sleep(0.8)
-        
-        new_pos = mgba.get_coordinates()
-        print("Current position:", new_pos)
-        
-        # Check if we dropped to another floor (our Y would change or map transition)
-        # 1F East landing is at (26, 4) or (25, 6)
-        if new_pos['y'] != y and new_pos['x'] != 26:
-            print("Warp/Fall detected! New position:", new_pos)
-            mgba.take_screenshot()
+    # 1. Walk from (26, 12) to (22, 3) via Row 12, Column 24, and Row 3
+    # Wait, in State B, Column 22 on Row 12 is blocked, but Column 24 and 25 are open!
+    # Let's trace a safe path to (22, 3):
+    # - Walk Left to Column 24: (25, 12), (24, 12)
+    # - Walk Up Column 24 to Row 3: (24, 11), (24, 10), (24, 9), (24, 8), (24, 7), (24, 6), (24, 5), (24, 4), (24, 3)
+    # - Walk Left to Column 22: (23, 3), (22, 3)
+    path = [
+        (25, 12), (24, 12),
+        (24, 11), (24, 10), (24, 9), (24, 8), (24, 7), (24, 6), (24, 5), (24, 4), (24, 3),
+        (23, 3), (22, 3)
+    ]
+    
+    print("Walking to (22, 3)...")
+    for tx, ty in path:
+        if not walk_to_target(tx, ty):
+            print(f"Failed to reach ({tx}, {ty})")
             return
             
-        if new_pos == pos:
-            # We didn't move, check for battle
-            print("No movement. Checking for battle...")
-            flee_battle()
-            new_pos = mgba.get_coordinates()
-            if new_pos['x'] != 26:
-                print("Displaced after battle! New position:", new_pos)
-                mgba.take_screenshot()
-                return
-        pos = new_pos
-
-    print("Finished probing Column 26. No pitfall triggered.")
-    mgba.take_screenshot()
+    # 2. Walk Up to (22, 2)
+    if not walk_to_target(22, 2):
+        print("Failed to reach (22, 2)")
+        return
+        
+    # 3. Walk Up to (22, 1)
+    if not walk_to_target(22, 1):
+        print("Failed to reach (22, 1)")
+        return
+        
+    # 4. Try walking UP into (22, 0)
+    print("Testing UP onto (22, 0)...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.5)
+    new_pos = mgba.get_coordinates()
+    print("Position after UP:", new_pos)
+    
+    if new_pos['y'] == 0:
+        # We moved to Row 0! Check if we warped
+        print("Moved to Row 0! Check if warp triggers.")
+        mgba.take_screenshot()
+        # Walk Left/Right to find warp on Row 0
+        for x in [21, 23]:
+            print(f"Walking to ({x}, 0)...")
+            mgba.press_buttons(["Left" if x < new_pos['x'] else "Right"])
+            time.sleep(1.5)
+            chk_pos = mgba.get_coordinates()
+            print("Position:", chk_pos)
+            mgba.take_screenshot()
+            
+    # 5. Try walking Left to (21, 1) and Right to (23, 1)
+    print("Testing other tiles on Row 1...")
+    for x in [21, 23]:
+        print(f"Walking to ({x}, 1)...")
+        if walk_to_target(x, 1):
+            # Try walking UP from there
+            print("Testing UP from here...")
+            mgba.press_buttons(["Up"])
+            time.sleep(1.5)
+            chk_pos = mgba.get_coordinates()
+            print("Position:", chk_pos)
+            mgba.take_screenshot()
 
 if __name__ == "__main__":
     main()
