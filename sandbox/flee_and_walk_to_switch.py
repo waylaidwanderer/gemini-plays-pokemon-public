@@ -69,19 +69,19 @@ def toggle_switch():
     time.sleep(2.5)
     print("Switch toggle complete.")
 
-# 1. Path from current (5, 11) to (2, 12)
+# 1. Walk from current (6, 11) on 2F West to (2, 12)
 path_to_switch = [
-    (4, 11), (3, 11), (3, 12), (2, 12)
+    (5, 11), (4, 11), (3, 11), (3, 12), (2, 12)
 ]
 
-print("Walking to switch...")
+print("Walking to 2F West switch from (6, 11)...")
 res = walk_path_safe(path_to_switch)
 print(f"Walk result: {res}. Position: {mgba.get_coordinates()}")
 
 if mgba.get_coordinates() == {'x': 2, 'y': 12}:
     toggle_switch()
     
-    # 2. Path back to stairs at (5, 11)
+    # 2. Walk back to (5, 11)
     path_to_stairs = [
         (3, 12), (3, 11), (4, 11), (5, 11)
     ]
