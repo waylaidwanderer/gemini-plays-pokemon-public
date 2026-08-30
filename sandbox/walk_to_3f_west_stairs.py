@@ -47,19 +47,21 @@ def walk_path_safe(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Walk from current (22, 1) on 3F East to 3F West stairs at (5, 10) in State B via Column 10 and Row 11
+# Walk from current (10, 7) to 3F West stairs at (5, 10) in State B via Column 12 and Row 11
 path = [
-    # 1. Walk Left along Row 1 to Column 10 (bypasses closed gate at 21,2)
-    (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1),
-    # 2. Walk DOWN Column 10 to Row 11 (bypasses Row 9 solid wall and Row 8 rubble)
-    (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11),
-    # 3. Walk Left along Row 11 to Column 5 (bypasses closed gate at 8,10)
-    (9, 11), (8, 11), (7, 11), (6, 11), (5, 11),
-    # 4. Walk UP Column 5 into stairs at (5, 10) -> triggers warp DOWN to 2F West!
+    # 1. UP Column 10 to Row 1
+    (10, 6), (10, 5), (10, 4), (10, 3), (10, 2), (10, 1),
+    # 2. Right along Row 1 to Column 12
+    (11, 1), (12, 1),
+    # 3. DOWN Column 12 to Row 11 (bypasses Row 8 rubble)
+    (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
+    # 4. Walk Left along Row 11 to Column 5 (bypasses closed gate at 8,10)
+    (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11),
+    # 5. Walk UP Column 5 into stairs at (5, 10) -> triggers warp DOWN to 2F West!
     (5, 10)
 ]
 
-print("Walking to 3F West stairs at (5, 10) via Column 10 and Row 11...")
+print("Walking from (10, 7) to 3F West stairs at (5, 10) via Column 12...")
 res = walk_path_safe(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
 
