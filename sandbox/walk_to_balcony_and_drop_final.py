@@ -68,13 +68,14 @@ def walk_path_robust(path):
         time.sleep(0.1)
     return "SUCCESS"
 
-# Start at current (25, 14) in State A
+# Start at current (19, 16)
+# Walk through the open balcony gates at (20, 17) to Row 18, then Left to (19, 18)
 path = [
-    (25, 15), (25, 16),
-    (24, 16), (23, 16), (22, 16), (21, 16), (20, 16), (19, 16),
-    (19, 17), (19, 18)
+    (20, 16),
+    (20, 17), (20, 18),
+    (19, 18)
 ]
 
-print("Executing final balcony drop in State A...")
+print("Executing final balcony drop via open gates at (20, 17)...")
 res = walk_path_robust(path)
 print(f"Path result: {res}. End position: {mgba.get_coordinates()}")
