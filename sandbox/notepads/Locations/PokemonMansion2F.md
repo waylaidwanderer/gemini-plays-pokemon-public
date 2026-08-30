@@ -28,7 +28,7 @@
 - Column 26 (rows 1-12): Open corridor connecting row 1 to row 12 in East Wing.
 - Row 13 Doorway: Open passage at (24..25, 13) connecting row 12 to rows 14-16 in East Wing.
 - Row 17 Barriers: Shutter gate at (20..21, 17) closed; passage at (24..25, 17) open; Burglar trainer at (17, 17).
-- Southeast Room (cols 24-28, rows 18-27): Shutter barrier at (26..27, 27).
+- Southeast Room (cols 24-28, rows 18-27): Shutter barrier at (26..27, 27) [Empirically verified CLOSED in State A on Turn 21144 and CLOSED in State B on Turn 21061].
 - Row 13 Bypass (West): Open passage at (8..10, 13) leading from row 12 into column 9-10 corridor (rows 14-26).
 
 ## Verified Empirical Collisions & State Mechanics
