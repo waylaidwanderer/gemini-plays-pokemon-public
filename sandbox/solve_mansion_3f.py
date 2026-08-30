@@ -77,66 +77,25 @@ def walk_path(coords):
     return "SUCCESS"
 
 if __name__ == "__main__":
-    # We start in battle with Koffing at (26, 4). Escape first!
+    # Escape from wild Ponyta
     handle_battle_escape()
     
     pos = mgba.get_coordinates()
-    print(f"Starting solve_mansion_3f.py from {pos}...")
+    print(f"Starting final pitfall descent script from {pos}...")
     
-    # Path in State B: walk to (12, 12)
-    path_to_switch = [
-        # Up to Row 3
-        (26, 3),
-        # Left to Column 18
-        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3),
-        # Up to Row 1
-        (18, 2), (18, 1),
-        # Left to Column 12
-        (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
-        # Down Column 12 to Row 12 (directly below switch at 12, 11)
-        (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
-        (12, 12)
+    # Path from (12, 7) to Column 26
+    pitfall_path = [
+        # Walk Up Column 12 to Row 1
+        (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
+        # Walk Right on Row 1 to Column 18
+        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
+        # Walk Down Column 18 to Row 3
+        (18, 2), (18, 3),
+        # Walk Right on Row 3 to Column 26
+        (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        # Walk Down Column 26 to trigger the pitfall!
+        (26, 4), (26, 5), (26, 6)
     ]
     
-    res = walk_path(path_to_switch)
-    print(f"Path result to (12, 12): {res}. Position: {mgba.get_coordinates()}")
-    
-    if mgba.get_coordinates() == {'x': 12, 'y': 12}:
-        # Face UP towards switch at (12, 11)
-        mgba.press_buttons(["Up"])
-        time.sleep(0.5)
-        
-        # Clean 4 A-press toggle to State A
-        print("Toggling Mewtwo switch at (12, 11)...")
-        # 1st A: Interact
-        mgba.press_buttons(["A"])
-        time.sleep(2.5)
-        
-        # 2nd A: Advance to YES/NO prompt
-        mgba.press_buttons(["A"])
-        time.sleep(2.5)
-        
-        # 3rd A: Select YES
-        mgba.press_buttons(["A"])
-        time.sleep(2.5)
-        
-        # 4th A: Close the dialogue completely
-        mgba.press_buttons(["A"])
-        time.sleep(2.5)
-        
-        # Walk to the pitfall on Column 26
-        print("Walking to the pitfall on Column 26...")
-        pitfall_path = [
-            # Walk Up Column 12 to Row 1
-            (12, 11), (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
-            # Walk Right on Row 1 to Column 18
-            (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1),
-            # Walk Down Column 18 to Row 3
-            (18, 2), (18, 3),
-            # Walk Right on Row 3 to Column 26
-            (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-            # Walk Down Column 26 to trigger the pitfall!
-            (26, 4), (26, 5), (26, 6)
-        ]
-        res_pit = walk_path(pitfall_path)
-        print(f"Pitfall walk result: {res_pit}. Final pos: {mgba.get_coordinates()}")
+    res = walk_path(pitfall_path)
+    print(f"Pitfall walk result: {res}. Position: {mgba.get_coordinates()}")
