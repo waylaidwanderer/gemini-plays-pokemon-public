@@ -1305,6 +1305,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **2F West Switch:** Located at (2, 11) on 2F West.
 - **2F East Switches:** No switches exist on 2F East (verified on Turn 66789 by standing at 12, 9 and 12, 11).
 
+## Verified Switch Locations & Visual Ground Truth
+- **2F West Switch False Position:** Visual inspection on Turn 68041 confirmed that Column 2 Row 11 on 2F West is completely open pink-checkered floor. There is NO Mewtwo switch statue at (2, 11) on 2F West (previous reports was an error/hallucination).
+- **3F East Switch False Position:** Visual inspection on Turn 67958 confirmed that Column 12 Row 10/11 on 3F East is completely open pink-checkered floor. There is NO Mewtwo switch statue at (12, 11) on 3F East.
+- **The Only Switches on 3F and 2F West:** The only verified, active switches are at (2, 5) on 3F West.
 
 <hr>
 
