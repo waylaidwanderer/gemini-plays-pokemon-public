@@ -62,10 +62,11 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# 1. Walk from current (14, 3) on 3F West to (2, 6)
+# 1. Walk from current (10, 4) on 3F East to (2, 6) crossing Column 9 on Row 2!
 path_to_switch = [
-    (13, 3), (12, 3), (11, 3), (10, 3), (9, 3), (8, 3), (7, 3), (6, 3), (5, 3), (4, 3), (3, 3), (2, 3),
-    (2, 4), (2, 5), (2, 6)
+    (10, 3), (10, 2),
+    (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
+    (2, 3), (2, 4), (2, 5), (2, 6)
 ]
 
 print("Executing path to switch...")
@@ -88,13 +89,13 @@ if res == "SUCCESS":
     time.sleep(2.0)
     
     print("Switch toggled. Walking back to 3F East Row 16...")
-    # Walk back to (25, 3) and then down Column 25 past Row 13 to Row 16, then Left to Column 16 to find the pitfall!
+    # Walk back to (25, 2) crossing Column 9 on Row 2, then down Column 25 past Row 13 to Row 16, then Left to Column 18 to find the pitfall!
     path_back = [
-        (2, 5), (2, 4), (2, 3),
-        (3, 3), (4, 3), (5, 3), (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3),
-        (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
-        # Walk Left along Row 16 to search for the pitfall!
-        (24, 16), (23, 16), (22, 16), (21, 16), (20, 16), (19, 16), (18, 16), (17, 16), (16, 16)
+        (2, 5), (2, 4), (2, 3), (2, 2),
+        (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2),
+        (25, 3), (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), (25, 15), (25, 16),
+        # Walk Left along Row 16 to the pitfall at (18, 16)!
+        (24, 16), (23, 16), (22, 16), (21, 16), (20, 16), (19, 16), (18, 16)
     ]
     res_back = walk_path(path_back)
     print("Path back result:", res_back)
