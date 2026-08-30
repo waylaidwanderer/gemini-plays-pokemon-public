@@ -6,7 +6,8 @@
 - **Column 10 Vertical Corridor:** Column 10 is completely open and walkable on Rows 9-16 on 3F West (unlike 2F West where it is blocked by rubble), providing the primary vertical passage between the northern and southern halves of 3F West.
 - **Row 8 Debris:** Blocked by solid rubble on Columns 8-11, making Row 8 impassable horizontally on these columns.
 - **Column 12 Vertical Passage:** Completely open vertically on Rows 6-12, providing an alternate vertical passage on 3F West.
-- **Row 1 Horizontal Corridor:** Completely open horizontally across 3F East and 3F West, but Column 22 on Row 1 is blocked horizontally by the recessed staircase structure at (22, 1). To cross between 3F East and 3F West, you must use Row 3.
+- **Column 19 Row 17 Solid Wall (Verified Turn 67854):** Column 19 Row 17 is a permanent, solid wall/cabinet structure in both State A and State B, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
+- **Balcony Access Route (Verified Turn 67854):** To access the balcony drop at (19, 18) in State A, you must walk down Column 20 or Column 21 through the open shutter gates at (20, 17) or (21, 17) to Row 18, and then walk Left to (19, 18).
 
 ## 3F East - Mapping & Boundaries
 - **Column 22 Partition Wall:** Solid vertical wall separating Columns 23-28 from Columns 15-21 on Rows 4-11.
