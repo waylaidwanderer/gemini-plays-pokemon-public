@@ -64,16 +64,16 @@ def walk_path(coords):
             return "BLOCKED"
     return "SUCCESS"
 
-# Path from (7, 11) on 2F West to northeast stairs at (22, 1)
+# Path from (7, 10) on 2F West to northeast stairs at (22, 1) in State A
 stairs_path = [
-    # 1. UP to Row 10
-    (7, 10),
-    # 2. LEFT to Column 4
-    (6, 10), (5, 10), (4, 10),
-    # 3. UP Column 4 to Row 6
-    (4, 9), (4, 8), (4, 7), (4, 6),
+    # 1. DOWN to Row 11
+    (7, 11),
+    # 2. RIGHT along Row 11 to Column 10 (bypassing the Row 9 solid partition wall)
+    (8, 11), (9, 11), (10, 11),
+    # 3. UP Column 10 to Row 6 (bypassing the Column 10 rubble on Row 8-9)
+    (10, 10), (10, 9), (10, 8), (10, 7), (10, 6),
     # 4. RIGHT along Row 6 to Column 19
-    (5, 6), (6, 6), (7, 6), (8, 6), (9, 6), (10, 6), (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
+    (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
     # 5. UP Column 19 to Row 4
     (19, 5), (19, 4),
     # 6. RIGHT to Column 21
@@ -82,7 +82,7 @@ stairs_path = [
     (21, 3),
     # 8. RIGHT to Column 22
     (22, 3),
-    # 9. UP Column 22 to stairs warp at (22, 1)
+    # 9. UP Column 22 to stairs warp at (22, 1) (OPEN in State A!)
     (22, 2),
     (22, 1)
 ]
