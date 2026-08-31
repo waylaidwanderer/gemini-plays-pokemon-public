@@ -63,4 +63,4 @@
 - [x] Defeat Gym Leader Sabrina in Saffron Gym (Marsh Badge & TM46 Psywave) [Defeated Turn 18379]
 
 - [x] Retrieve Secret Key from Pokémon Mansion B1F [Turn 21590]
-- [x] Defeat Gym Leader Blaine in Cinnabar Gym (Volcano Badge & TM38 Fire Blast) [Turn 21652]
+- [x] Defeat Gym Leader Blaine in Cinnabar Gym (Volcano Badge obtained; TM38 Fire Blast pending pickup from Blaine due to full bag) [Turn 21652]
