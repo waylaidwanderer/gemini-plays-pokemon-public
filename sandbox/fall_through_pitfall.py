@@ -33,9 +33,19 @@ def walk_to_pitfall():
     path.append((26, 3))
     path.append((26, 4))
     
-    current_idx = 0
-    stuck_count = 0
+    # Find closest path node to initialize current_idx
+    pos = mgba.get_coordinates()
+    cx, cy = pos['x'], pos['y']
+    min_dist = 999999
+    closest_idx = 0
+    for i, (tx, ty) in enumerate(path):
+        dist = abs(tx - cx) + abs(ty - cy)
+        if dist < min_dist:
+            min_dist = dist
+            closest_idx = i
+    current_idx = closest_idx
     
+    stuck_count = 0
     while current_idx < len(path):
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
