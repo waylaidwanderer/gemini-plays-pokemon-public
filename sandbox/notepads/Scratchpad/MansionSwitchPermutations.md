@@ -16,3 +16,8 @@
 - Global switch flag is currently in STATE 0.
 - In State 0: 2F (9, 4..5) shutter is CLOSED.
 - Next Action: Toggle 1F (2, 5) switch to STATE 1 to open 2F (9, 4..5) shutter, ascend to 3F via (6, 1) stairs, and access 3F balcony drop.
+- Turn 21403: 1F (2, 5) Switch -> Toggled to State 1.
+
+## Active State: STATE 1
+- Shutter at 2F (9, 4..5) is OPEN.
+- Shutter at 3F (15, 10..11) is OPEN.
