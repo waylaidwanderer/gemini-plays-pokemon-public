@@ -1286,6 +1286,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Southern Area Access:** Taking the stairs down from 2F West at (7, 10) lands the player at (7, 11) on 1F West (in the southern half of 1F West).
 
 
+## Verified Layout & Warp Facts (Turn 70007)
+- **Staircase Chain-Warp on 2F West:** The staircase at `(7, 10)` on 2F West is an active downward warp zone. Stepping on it immediately warps the player down to 1F West at `(7, 11)`.
+
+
 <hr>
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
