@@ -1284,6 +1284,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 9 Partition Wall:** Closed in State A, blocking horizontal passage between 1F West and 1F East along Row 6.
 - **Debris on Row 8:** Columns 8, 9, 10, 11 on Row 8 are blocked by solid yellow/brown debris.
 - **Southern Area Access:** Taking the stairs down from 2F West at (7, 10) lands the player at (7, 11) on 1F West (in the southern half of 1F West).
+## B1F East Stairs (Verified Turn 69328)
+- **Location:** (22, 7) on 1F East is the active staircase leading DOWN to B1F East (landing at 22, 7 on B1F East).
+- **Proof:** Standing at (22, 7) on 1F East and stepping ONTO it warps the player to B1F East on Turn 69328.
+
 
 <hr>
 
@@ -1336,11 +1340,18 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## 2F State A Horizontal Connections & Ground Truth (Verified Turn 69479)
 - **Column 13 and Column 22 Rubble Barriers:** Column 22 is blocked on Rows 8-10 by solid rubble. Column 13 is a solid partition wall on Rows 8-12.
-- **Row 11 Open Gates:** Shutter gates on Row 11 are open in State A, allowing horizontal connection between 2F East and 2F West.
+
 - **Bypassing Column 22 Rubble:** To cross from 2F East to 2F West in State A:
   - Walk Left to Column 21 on Row 7.
   - Walk Down Column 21 to Row 11 (Column 21 is completely open vertically).
   - Walk Left along Row 11 to 2F West (completely open in State A).
+## Southwest Staircase Warp Connections
+- **Staircase (5, 10) on 3F West:** Warps DOWN to 2F West, landing at (5, 11) on 2F West.
+- **Staircase on 2F West:** The staircase at (5, 10) on 2F West leads DOWN to 1F West, landing at (5, 11) on 1F West.
+
+## Row 2 Walkability Boundaries
+- **State B Corridor:** Row 2 on 2F is completely open and passable horizontally (Columns 5-12). However, on 2F East, a solid obstruction blocks horizontal travel past Column 14.
+
 
 <hr>
 
@@ -1423,6 +1434,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **3F West Stairs (5, 10):** Functional staircase warp leading DOWN to 2F West, landing at (5, 11) on 2F West. Completely open and accessible in both State A and State B!
 - **3F East Stairs (22, 1):** Landing point from 2F East stairs. Landing coordinate is (22, 1) on 3F East. 
 
+## Southwest Staircase Warp Connections
+- **Staircase (5, 10) on 3F West:** Warps DOWN to 2F West, landing at (5, 11) on 2F West.
+
 
 <hr>
 
@@ -1430,10 +1444,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 # Scratchpad: B1F Connection & Stairs Tracking
 
-## Southeast Fenced Room B1F Stairs (Active Hypothesis)
-- **Location:** The staircase leading down to B1F East is located inside the southeast fenced room on 1F East, around Columns 25-28.
 
-- **State A Shutter Gate Observations (Verified):** The gate at (25, 13) on 1F East is OPEN in State A, granting direct access to the fenced room.
 
 <hr>
 
