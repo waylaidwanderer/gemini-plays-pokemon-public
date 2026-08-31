@@ -1393,6 +1393,17 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 3. **Fall through Pitfall (State A):** Walk onto the active pitfall in the southern half of 3F East to fall to the 1F East fenced room.
 4. **Descend to B1F East:** From the 1F East fenced room, take the stairs at (22, 7) directly down to B1F East.
 
+## Verified Layout & Obstacle Mapping (State-Dependent - Turn 70139)
+- **Column 11 Row 16 is a Solid Wall:** Column 11 Row 16 is a permanent, solid vertical partition wall panel on 3F, preventing horizontal travel along Row 16 between 3F West and 3F East.
+- **Row 6 Column 22 is a Solid Wall:** Column 22 Row 6 is a solid vertical wall panel, preventing horizontal crossing of Row 6 across Column 22.
+- **Column 19 Row 7 is a Solid Wall:** Column 19 Row 7 is a permanent solid horizontal wall panel on Rows 7-8 on Columns 18-22. This blocks vertical passage down Column 19 from Row 6.
+- **Row 4 Column 23-25 is a Solid Wall:** Columns 23-25 Row 4 is blocked by a solid horizontal wall panel, blocking vertical passage down Column 23 from Row 3 to Row 5.
+- **Column 26 Row 13 is a Solid Wall:** Column 26 Row 13 is a permanent solid wall panel, NOT a gate.
+- **Column 25 Row 13 Shutter Gate:** OPEN in State A (pink checkered floor), CLOSED and blocked in State B.
+- **Column 21 Row 17 Shutter Gate (Balcony):** OPEN in State B, CLOSED and blocked in State A.
+- **Column 23 Vertical Passage:** Completely open vertically from Row 6 to Row 12, on the East side of Column 22 Wall.
+- **Row 3 and Row 12 Horizontal Openings:** Row 3 and Row 12 are the only horizontal passages across Column 22 on 3F East.
+- **The Only Valid Route to Balcony (State B):** Walk UP Column 21 to Row 3, RIGHT to Column 23, DOWN Column 23 to Row 12, LEFT Row 12 to Column 21, DOWN Column 21 to Row 18, LEFT Row 18 to Column 19 (balcony drop), and drop!
 
 <hr>
 
