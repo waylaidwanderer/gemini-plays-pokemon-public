@@ -31,21 +31,16 @@ def walk_step(direction, target):
 
 def main():
     pos = mgba.get_coordinates()
-    print("Initial Position:", pos)
+    print("Initial Position on 2F West:", pos)
     
-    # Path to (22, 1) on 2F East
+    # Path to staircase at (7, 22)
     path = [
-        ("Left", (21, 6)),
-        ("Left", (20, 6)),
-        ("Left", (19, 6)),
-        ("Up", (19, 5)),
-        ("Up", (19, 4)),
-        ("Right", (20, 4)),
-        ("Up", (20, 3)),
-        ("Up", (20, 2)),
-        ("Right", (21, 2)),
-        ("Right", (22, 2)),
-        ("Up", (22, 1))
+        ("Up", (9, 25)),
+        ("Up", (9, 24)),
+        ("Up", (9, 23)),
+        ("Up", (9, 22)),
+        ("Left", (8, 22)),
+        ("Left", (7, 22))
     ]
     
     for dir, target in path:
@@ -66,7 +61,7 @@ def main():
             if new_pos == pos:
                 time.sleep(0.5)
                 
-    # Final check of warp after stepping on (22, 1)
+    # Final check of warp after stepping on (7, 22)
     time.sleep(1.5)
     print("Final Position after walk:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
