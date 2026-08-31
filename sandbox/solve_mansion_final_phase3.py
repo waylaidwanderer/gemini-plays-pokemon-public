@@ -54,16 +54,21 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (21, 16) in State A on 3F East in the overworld
+    # Currently at (26, 14) in State A on 3F East in the overworld
     pos = mgba.get_coordinates()
     print("Starting final solve_mansion from position:", pos)
     
-    # Phase 1: Walk from current position (21, 16) back to switch at (3, 11) in State A
+    # Phase 1: Walk from current position (26, 14) back to switch at (3, 11) in State A
+    # Since Column 26 Row 13 is a permanent solid wall panel, we must walk UP via Column 25 Row 13 (open in State A)!
     path_to_switch = [
-        # Right along Row 16 to Column 26
-        (22, 16), (23, 16), (24, 16), (25, 16), (26, 16),
-        # Up Column 26 to Row 1
-        (26, 15), (26, 14), (26, 13), (26, 12), (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
+        # Left to Column 25 Row 14
+        (25, 14),
+        # Up Column 25 to Row 12 (through the open gate at 25, 13)
+        (25, 13), (25, 12),
+        # Right to Column 26 Row 12
+        (26, 12),
+        # Up Column 26 to Row 1 (completely open above Row 13!)
+        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
         # Left Row 1 to Column 12
         (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
         # Down Column 12 to Row 11
