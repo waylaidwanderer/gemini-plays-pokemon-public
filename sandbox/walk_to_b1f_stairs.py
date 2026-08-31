@@ -26,8 +26,8 @@ def walk_step(action):
         new_pos = mgba.get_coordinates()
     return new_pos
 
-def walk_to_b1f():
-    # We are at (26, 11).
+def walk_to_b1f_stairs_and_warp():
+    # We are currently at (26, 11).
     # Path to (22, 7) stairs:
     path = [
         ("Left", 25, 11),
@@ -37,19 +37,45 @@ def walk_to_b1f():
         ("Up", 23, 9),
         ("Up", 23, 8),
         ("Up", 23, 7),
-        ("Left", 22, 7) # Step Left onto the stairs at (22, 7) to warp!
+        ("Left", 22, 7) # Step Left onto the stairs at (22, 7) to warp DOWN!
     ]
     
-    for action, tx, ty in path:
+    idx = 0
+    stuck_count = 0
+    last_pos = None
+    
+    while idx < len(path):
+        action, tx, ty = path[idx]
         pos = mgba.get_coordinates()
         x, y = pos['x'], pos['y']
-        print(f"Testing step: {action} to ({tx}, {ty}), Current: ({x}, {y})")
-        pos = walk_step(action)
+        print(f"Current Position: ({x}, {y})")
+        
         # Warp check: if we warped, our position will change drastically (we'll land on B1F East)
-        if pos != {'x': x, 'y': y} and pos != {'x': tx, 'y': ty}:
-            print(f"WARPED! Landed at: {pos}")
-            return
+        if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path]:
+            print(f"WARPED! New Position: ({x}, {y})")
+            break
             
-    print("Path completed. Final position:", pos)
+        if x == tx and y == ty:
+            idx += 1
+            stuck_count = 0
+            continue
+            
+        if last_pos == (x, y):
+            stuck_count += 1
+            if stuck_count > 2:
+                print("Stuck! Running flee_battle...")
+                flee_battle()
+                stuck_count = 0
+                continue
+        else:
+            stuck_count = 0
+            last_pos = (x, y)
+            
+        mgba.press_buttons([action])
+        time.sleep(0.4)
+        
+    time.sleep(1.5)
+    pos = mgba.get_coordinates()
+    print("Final Position:", pos)
 
-walk_to_b1f()
+walk_to_b1f_stairs_and_warp()
