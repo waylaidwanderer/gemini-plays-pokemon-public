@@ -49,23 +49,37 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 7) on 1F East.
-    # Let's walk to (21, 5) via Row 3 (the gap at 22, 3):
+    # Currently at (23, 5) on 1F East.
+    # Safe bypass path to (21, 5):
     path = [
-        (23, 6),
-        (23, 5),
-        (23, 4),
+        (24, 5),
+        (25, 5),
+        (26, 5),
+        (26, 4),
+        (26, 3),
+        (25, 3),
+        (24, 3),
         (23, 3),
-        (22, 3), # crossing column 22
+        (22, 3), # cross Column 22 wall
         (21, 3),
         (21, 4),
-        (21, 5)  # Potential stairs!
+        (21, 5)
     ]
     
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
-    for idx, target in enumerate(path):
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
