@@ -19,7 +19,7 @@
 
 ## 1F West Layout & Ground Truth (Verified Turn 69405)
 - **Walkable Tiles:** (5, 8) and (7, 8) are completely walkable pink checkered floor tiles.
-- **Main Staircase:** Located at (5, 10). Warps from 2F West at (5, 10) land at (5, 11) on 1F West, which is a walkable red/white checkered carpet tile in the southern portion.
+- **Main Staircase:** Located at (7, 10) on 1F West. Warps UP to 2F West, landing at (7, 10) on 2F West. (Landing from 2F West stairs at (7, 10) lands the player at (7, 11) on 1F West).
 - **Row 9 Partition Wall:** Row 9 contains a solid, impassable partition wall on Columns 1-7, blocking direct vertical passage.
 - **Column 9 Partition Wall:** Closed in State A, blocking horizontal passage between 1F West and 1F East along Row 6.
 - **Debris on Row 8:** Columns 8, 9, 10, 11 on Row 8 are blocked by solid yellow/brown debris.
