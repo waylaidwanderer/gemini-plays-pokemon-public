@@ -49,7 +49,7 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (21, 16) on 3F East in State B.
+    # Currently at (22, 3) on 3F East in State B.
     # Phase 1: Walk to the Mewtwo switch at (2, 5) on 3F West
     path_to_switch = [
         # Walk RIGHT along Row 16 to Column 24
@@ -91,10 +91,19 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
+    # Dynamically find starting index in path_to_switch
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path_to_switch):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
     # Execution of Phase 1
-    print("Walking to switch at (2, 5)...")
-    for target in path_to_switch:
-        walk_to_target(target)
+    print(f"Walking to switch starting from index {start_idx} (target: {path_to_switch[start_idx]})...")
+    for idx in range(start_idx, len(path_to_switch)):
+        walk_to_target(path_to_switch[idx])
         
     print("Reached switch at (2, 5). Facing UP...")
     walk_to_target((2, 5))
