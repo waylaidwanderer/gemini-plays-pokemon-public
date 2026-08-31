@@ -1391,7 +1391,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
    - Walk RIGHT along Row 12 to Column 25.
    - Walk DOWN Column 25 past the open gate at (25, 13) to (25, 14).
 3. **Fall through Pitfall (State A):** Walk onto the active pitfall in the southern half of 3F East to fall to the 1F East fenced room.
-4. **Descend to B1F East:** From the 1F East fenced room, take the stairs at (22, 7) directly down to B1F East.
+
 
 ## Verified Layout & Obstacle Mapping (State-Dependent - Turn 70139)
 - **Column 11 Row 16 is a Solid Wall:** Column 11 Row 16 is a permanent, solid vertical partition wall panel on 3F, preventing horizontal travel along Row 16 between 3F West and 3F East.
