@@ -1,39 +1,39 @@
-# Pok�mon Mansion 2F - Layout & Exploration
+# Pokémon Mansion 2F - Layout & Exploration
 
 ## Overview
-- Second floor of the ruined Pok�mon Mansion.
+- Second floor of the ruined Pokémon Mansion.
 - Features marble floors, Mewtwo statue switch, eastern computer wing, and stairs connecting 1F and 3F.
 
 ## Layout & Landmarks
 
 ### West / Central Sector
-- Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)]
-- Wall Divider at Row 9: Solid horizontal wall across (1..7, 9) dividing south central carpet from northwest room.
-- Main South Corridor: (4..7, 10..27) red carpet hallway. Dead ends at solid wall (4..7, 27).
-- Connecting East-West Corridor: Row 11 (cols 4-12) connects main hall to column 12 thoroughfare.
+- Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)].
+- Stairs up to 3F (Southwest Wing): (7, 10) [Leads to isolated 3F TM09 room].
+- Statue at (2, 10..11): Located west of (5, 10) stairs. (Switch status: Pending empirical verification).
+- Shutter Gate at (9, 4..5): CLOSED in State B, OPEN in State A.
+- Wall Divider at Row 9: Solid horizontal wall across (1..7, 9) dividing central hallway from Northwest Room.
+- Column 9 Divider: Solid vertical wall with shutter at (9, 4..5).
+- Row 11 Thoroughfare: (5..12, 11) open pink floor connecting (5, 11) to column 10 corridor.
 
 ### Northwest Room
-- Boundaries: cols 1-8, rows 1-7
+- Boundaries: cols 1-8, rows 1-7.
 - Interior: Rubble at (1..3, 2..3), wooden table at (6..7, 4..5), display table at (4, 6..7).
 - **Northwest Wing Stairs to 3F**: Located at (6, 1) in northwest sector. Connects directly to 3F Northern Sector at (6, 1) [Verified Turn 21206].
-- Thoroughfare along row 1 (cols 1-28) connects Northwest Room to East Wing.
-
-### Stairs to 3F
-- **East Wing Stairs**: Located at (21, 23) in the southern sector. Visual landmark; direct ground access from 2F East Wing blocked by closed shutters in both states.
-- **Southwest Wing Stairs**: Located at (7, 10) in the central sector (adjacent to 1F stairs at (5, 10)). Leads up to 3F Southwest Wing (isolated room with TM09 Take Down and Mew journal).
+- Statue at (2, 4..5): Tested Turn 21203 - no switch at (2, 5) on 2F.
 
 ### East Wing & Corridors
-- Column 12 Thoroughfare: Open from row 1 to row 12. Blocked at row 13 by solid horizontal wall at (11..17, 13).
-- Row 1 (cols 1-28): Open northern corridor across entire floor.
-- Column 26 (rows 1-12): Open corridor connecting row 1 to row 12 in East Wing.
-- Row 13 Doorway: Open passage at (24..25, 13) connecting row 12 to rows 14-16 in East Wing.
-- Row 17 Barriers: Shutter gate at (20..21, 17) closed; passage at (24..25, 17) open; Burglar trainer at (17, 17).
-- Southeast Room (cols 24-28, rows 18-27): Shutter barrier at (26..27, 27) [Empirically verified CLOSED in State A on Turn 21144 and CLOSED in State B on Turn 21061].
-- Row 13 Bypass (West): Open passage at (8..10, 13) leading from row 12 into column 9-10 corridor (rows 14-26).
+- Doorway at (15, 6..7): Open doorway connecting Central Wing to East Wing.
+- Row 8 Wall: Solid horizontal wall at (14..17, 8) and (20..21, 8) and (24..28, 8).
+  - Open gap through Row 8 wall at (18, 8) and (19, 8).
+- Row 13 Wall: Solid horizontal wall at (18..19, 13); open pink floor at (20..21, 13).
+- Row 16 Wall: Solid horizontal wall at (18..23, 16).
+- Northeast Alcove (cols 23-28, rows 1-7): Open floor via (22, 3) gap; dead-ends at row 8 wall.
+- Bookshelf at (18..19, 2..3) with research journal on top.
+- Yellow Machine / Terminal: Located at (15, 11) (solid obstacle blocking west passage at row 11).
+- **East Wing Staircase**: Discovered at (25, 14) [Observed Turn 21339].
 
-## Verified Empirical Collisions & State Mechanics
-- Row 13 Wall: Solid horizontal wall at (11..17, 13) [Empirically verified Turn 20997 & 21118].
-- Row 9 Wall: Solid horizontal wall at (1..7, 9) [Empirically verified Turn 21097].
-- Column 11 Wall: Solid vertical wall dividing col 10 from cols 12-15 along rows 14-18 and rows 21-27.
-- Shutter at (20..21, 17): Closed in State A and State B.
-- Shutter at (16..17, 7): Closed in State A [Verified Turn 21104].
+### South Wing (cols 6-13, rows 21-27)
+- Vertical walls at col 7 and col 11 end at row 21 (wall caps at (7, 21) and (11, 21)).
+- Row 22 Thoroughfare: Open pink floor across cols 6-13.
+- Tables / Bookshelves: Located at (12..14, 26).
+- South Boundary: Solid bottom wall at row 27.
