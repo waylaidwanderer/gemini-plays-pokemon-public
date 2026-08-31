@@ -49,15 +49,15 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (4, 11) on 3F West in State B.
-    # Path to switch at (2, 5) standing at (3, 5):
+    # Currently at (10, 9) on 3F West in State B.
+    # Path to switch at (2, 5) via Column 12 and Row 2:
     path = [
-        # Walk RIGHT along Row 11 to Column 10
-        (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11),
-        # Walk UP Column 10 to Row 2
-        (10, 10), (10, 9), (10, 8), (10, 7), (10, 6), (10, 5), (10, 4), (10, 3), (10, 2),
+        # Walk RIGHT to Column 12
+        (11, 9), (12, 9),
+        # Walk UP Column 12 to Row 2
+        (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2),
         # Walk LEFT along Row 2 to Column 2
-        (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
+        (11, 2), (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
         # Walk DOWN Column 2 and 3 to stand at (3, 5)
         (2, 3), (2, 4), (3, 4), (3, 5)
     ]
