@@ -2284,7 +2284,7 @@
 - Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)].
 - Stairs up to 3F (Southwest Wing): (7, 10) [Leads to isolated 3F TM09 room].
 - Statue at (2, 10..11): Tested Turn 21364 facing Left from (3, 11) - Decorative only; no switch dialogue.
-- Shutter Gate at (9, 4..5): CLOSED in State B, OPEN in State A.
+- Shutter Gate at (9, 4..5): CLOSED in State 0, OPEN in State 1. (Tested from (10, 4) on Turn 21453: blocked by yellow bars in State 0).
 - Wall Divider at Row 9: Solid horizontal wall across (1..7, 9) dividing central hallway from Northwest Room.
 - Column 9 Divider: Solid vertical wall with shutter at (9, 4..5).
 - Row 11 Thoroughfare: (5..12, 11) open pink floor connecting (5, 11) to column 10 corridor.
