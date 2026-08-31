@@ -33,15 +33,13 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial Position:", pos)
     
-    # Path to (5, 10) on 3F West
+    # Strictly adjacent steps to stairs at (5, 10) on 3F West
     path = [
-        ("Left", (12, 3)),
-        # Down Column 12
-        ("Down", (12, 4)), ("Down", (12, 5)), ("Down", (12, 6)), ("Down", (12, 7)),
-        ("Down", (12, 8)), ("Down", (12, 9)), ("Down", (12, 10)),
-        # Left along Row 10
-        ("Left", (11, 10)), ("Left", (10, 10)), ("Left", (9, 10)), ("Left", (8, 10)),
-        ("Left", (7, 10)), ("Left", (6, 10)), ("Left", (5, 10))
+        ("Left", (8, 11)),
+        ("Left", (7, 11)),
+        ("Up", (7, 10)),
+        ("Left", (6, 10)),
+        ("Left", (5, 10))
     ]
     
     for dir, target in path:
@@ -63,8 +61,10 @@ def main():
                 time.sleep(0.5)
                 
     # Final check of warp after stepping on (5, 10)
-    time.sleep(1.0)
+    time.sleep(1.5)
     print("Final Position after walk:", mgba.get_coordinates())
+    scr = mgba.take_screenshot()
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
     main()
