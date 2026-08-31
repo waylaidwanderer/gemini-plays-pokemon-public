@@ -49,48 +49,22 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (27, 12).
-    # Let's systematically test every tile in the southeast area of 1F East.
-    # The area is Rows 12-16, Columns 25-28.
-    # We will walk on:
-    # 1. (28, 12)
-    # 2. (26, 12), (25, 12)
-    # 3. (25, 13), (25, 14), (25, 15), (25, 16)
-    # 4. (26, 16), (27, 16), (28, 16)
-    # 5. (28, 15), (28, 14)
-    # 6. (27, 14), (27, 15)
-    # 7. (26, 15), (26, 14)
-    
+    # Currently at (28, 16).
+    # We systematically test the remaining tiles inside the fenced room:
     test_tiles = [
-        (28, 12),
-        (27, 12),
-        (26, 12),
-        (25, 12),
-        (25, 13),
-        (25, 14),
-        (26, 14),
-        (27, 14),
-        (28, 14),
-        (28, 15),
-        (27, 15),
-        (26, 15),
-        (25, 15),
-        (25, 16),
-        (26, 16),
         (27, 16),
-        (28, 16)
+        (26, 16),
+        (25, 16),
+        (25, 15),
+        (26, 15),
+        (27, 15)
     ]
     
     print("Initial position:", mgba.get_coordinates())
     
     for target in test_tiles:
         pos_before = mgba.get_coordinates()
-        # If the target is blocked (like we already know some wall/rubble), walk_to_target will try and then recover or continue
-        try:
-            walk_to_target(target)
-        except Exception as e:
-            print(f"Error walking to {target}: {e}")
-            
+        walk_to_target(target)
         pos_after = mgba.get_coordinates()
         print(f"Stood on {pos_after} (tried to reach {target})")
         
