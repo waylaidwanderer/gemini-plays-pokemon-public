@@ -16,14 +16,7 @@ def flee_battle():
         time.sleep(0.3)
 
 def fall():
-    # Monotonic path from (22, 7) to (26, 6) on 3F East in State A:
-    # 1. Walk to (19, 7)
-    # 2. Walk UP Column 19 to Row 4: (19, 4)
-    # 3. Walk Right to (21, 4)
-    # 4. Walk UP Column 21 to Row 3: (21, 3)
-    # 5. Walk Right along Row 3 to Column 26: (26, 3)
-    # 6. Walk DOWN Column 26 to (26, 6) to trigger fall!
-    
+    # Monotonic path from (22, 7) to the actual pitfall at (26, 12) on 3F East in State A:
     path = [
         (22, 7),
         (21, 7),
@@ -42,7 +35,13 @@ def fall():
         (26, 3),
         (26, 4),
         (26, 5),
-        (26, 6)
+        (26, 6),
+        (26, 7),
+        (26, 8),
+        (26, 9),
+        (26, 10),
+        (26, 11),
+        (26, 12)  # Actual pitfall!
     ]
     
     # Initialize current_idx to the closest point in the entire path
@@ -63,10 +62,19 @@ def fall():
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
         
-        # If we fell, we will warp to a different map (coordinates change drastically)
-        if abs(cx - 26) + abs(cy - 6) > 10:
-            print("WARPED! Successfully fell through pitfall to 1F East fenced room! New position:", pos)
+        # If we fell, we warp to 1F East map (coordinates change drastically)
+        if cy == 12 and cx == 26:
+            print("Standing on pitfall tile (26, 12)!")
+            mgba.press_buttons(["Down"])
+            time.sleep(1.5)
+            new_pos = mgba.get_coordinates()
+            print("Position after stepping down on pitfall:", new_pos)
             break
+            
+        # Also check if we fell automatically (e.g. map changes)
+        if cy < 3 and cx > 25:
+            # wait, if map changed to 1F East, cy will be around 4-6
+            pass
             
         # Monotonic path progression (check from furthest lookahead down to current_idx)
         best_idx = current_idx
