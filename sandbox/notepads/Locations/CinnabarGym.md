@@ -6,5 +6,5 @@
 
 ## Layout & Landmarks
 - Entrance: (16, 17) / (17, 17).
-- Gym Guide: Located at (17, 13).
-- First Trainer: Located at (16, 13).
+- Gym Guide: Located at (16, 13).
+- Gym Statue: Located at (17, 13).
