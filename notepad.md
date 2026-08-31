@@ -64,8 +64,8 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 22051)
-1. HYDROS (Blastoise) - Lv 66
-   - Stats: Max HP 222 (HP: 222/222 - Healthy), Attack 155, Defense 171, Speed 158, Special 164
+1. HYDROS (Blastoise) - Lv 67
+   - Stats: Max HP 225, Attack 157, Defense 174, Speed 160, Special 166
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -2621,19 +2621,19 @@
 
 <h1><code>Locations/VictoryRoad1F</code></h1>
 
-# Victory Road 1F - Layout & Puzzle Notes
+# Victory Road 1F - Layout & Notes
 
 ## General Information
 - South exit / entrance: Route 23 at (8, 17) [Entered Turn 22138]
-- Objective: Solve Strength boulder puzzle, defeat trainers, reach stairs to 2F
 
-## Boulder Puzzles & Switches
-- Boulder 1: Located at (5, 15)
-- Switch / Pressure Plate 1: Located at (5, 14) directly above Boulder 1
-- Shutter / Barrier: (5, 13)
-
-## Layout & Connectivity
+## Observed Layout & Physical Features
 - Entrance mat: (8, 17)
-- Path north: (8..9, 14..16) connects entrance to northern sector
+- Path north: (8..9, 14..16) connects entrance to central junction
+- Boulder at (5, 15): Movable boulder object
+- Tile at (5, 14): Distinct circular floor indentation / plate
+- Tile at (5, 13): Horizontal striped barrier / shutter
+- Upper corridor: Row 12 (checkered plateau) running across columns 4..13
+- Elevation / Stairs: (9, 14) -> (9, 13) -> (9, 12) connects lower entrance path to upper row 12 plateau
+
 
 <hr>
