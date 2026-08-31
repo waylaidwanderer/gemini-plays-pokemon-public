@@ -16,3 +16,11 @@
 - **Open Gate at (25, 13):** Open in State A, allowing entry into the fenced room from Row 12.
 - **Verified Walkable Tiles:** (25, 13), (25, 14), (26, 14), (27, 12), and (28, 12) are completely walkable pink checkered floors.
 - **Row 13 Counter Barrier:** Columns 26, 27, 28 on Row 13 contain solid wall/counter structures blocking vertical travel.
+
+## 1F West Layout & Ground Truth (Verified Turn 69405)
+- **Walkable Tiles:** (5, 8) and (7, 8) are completely walkable pink checkered floor tiles.
+- **Main Staircase:** Located at (5, 10). Warps from 2F West at (5, 10) land at (5, 11) on 1F West, which is a walkable red/white checkered carpet tile in the southern portion.
+- **Row 9 Partition Wall:** Row 9 contains a solid, impassable partition wall on Columns 1-7, blocking direct vertical passage.
+- **Column 9 Partition Wall:** Closed in State A, blocking horizontal passage between 1F West and 1F East along Row 6.
+- **Debris on Row 8:** Columns 8, 9, 10, 11 on Row 8 are blocked by solid yellow/brown debris.
+- **Southern Area Access:** Taking the stairs down from 2F West at (7, 10) lands the player at (7, 8) on 1F West (in the northern half of 1F West).
