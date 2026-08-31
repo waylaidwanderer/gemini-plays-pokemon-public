@@ -2491,19 +2491,17 @@
 | (19, 1) | Left | (11, 1) | North Sector to Northwest Sector |
 | (11, 2) | Right | (17, 2) | Northwest Sector to North-Central Sector |
 | (18, 2) | Down | (18, 11) | North-Central back to Entrance Sector |
+| (5, 13) | Right | (7, 16) | Southwest spin tile |
+| (4, 14) | Right | (7, 16) | Southwest spin tile |
 
 ## Gym Trainers Roster & Defeats
 - [x] Blackbelt (Karate King): (10, 1) facing Right [Defeated Turn 21748]. Roster: Machoke Lv 38, Machop Lv 38, Machoke Lv 38. Reward: ¥950.
+- [x] Blackbelt: (11, 11) facing Left [Defeated Turn 21762]. Roster: Machoke Lv 40. Reward: ¥1000.
+- [ ] Trainer: (10, 7) facing Down.
+- [ ] Trainer: (12, 7) facing Down.
 - [ ] Trainer: (13, 5) facing Up.
 - [ ] Trainer: (16, 9) facing Down.
+- [ ] Trainer: (2, 16) facing Down/Right.
 - [ ] Gym Leader Giovanni: Northwest arena.
-## Gym Floor - Southwest Sector (Rows 10-17)
-- Stop tiles: (4, 13), (7, 16).
-- Spin tiles:
-  - (5, 13) Right spin tile.
-  - (4, 14) Right spin tile.
-- Trainers:
-  - Trainer: Located at (2, 16).
-  - Trainer: Located at (11, 11).
 
 <hr>
