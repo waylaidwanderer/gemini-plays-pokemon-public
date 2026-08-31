@@ -49,23 +49,31 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (3, 5) on 3F West in State A.
-    # Safe path to balcony drop in State A:
+    # Currently at (3, 5) on 3F West in State B.
+    # Safe State B path to the balcony drop:
     path = [
         # Walk UP to (3, 4)
         (3, 4),
         # Walk RIGHT to Column 4
         (4, 4),
-        # Walk UP Column 4 to Row 2 (bypassing Columns 1-3 rubble)
+        # Walk UP Column 4 to Row 2
         (4, 3), (4, 2),
-        # Walk RIGHT along Row 2 to Column 10
+        # Walk RIGHT along Row 2 to Column 10 (crosses Column 9 wall gap at Row 2)
         (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2),
-        # Walk DOWN Column 10 to Row 3
-        (10, 3),
-        # Walk RIGHT along Row 3 to Column 21
-        (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3),
-        # Walk DOWN Column 21 to Row 18 (both gates 21, 5 and 21, 17 are open in State A!)
-        (21, 4), (21, 5), (21, 6), (21, 7), (21, 8), (21, 9), (21, 10), (21, 11), (21, 12), (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
+        # Walk DOWN Column 10 to Row 11
+        (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11),
+        # Walk RIGHT along Row 11 to Column 12
+        (11, 11), (12, 11),
+        # Walk UP Column 12 to Row 3
+        (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3),
+        # Walk RIGHT along Row 3 to Column 26
+        (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        # Walk DOWN Column 26 to Row 16 (gate at 26, 13 is open in State B!)
+        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+        # Walk LEFT along Row 16 to Column 21
+        (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
+        # Walk DOWN Column 21 to Row 18 (gate at (21, 17) is OPEN in State B!)
+        (21, 17), (21, 18),
         # Walk LEFT along Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
         # Step DOWN to trigger drop!
