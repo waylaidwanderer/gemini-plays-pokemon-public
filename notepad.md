@@ -2510,5 +2510,10 @@
 
 ## Items in Gym
 - Item Ball: Located at (16, 8).
+## Verified Collision Layout & Navigation Graph
+- (11, 4), (12, 3), (14, 8), (13, 6), (11, 6), (10, 6), (9, 6), (9, 5), (8, 4) are walls.
+- (10, 5) -> (10, 4) -> (10, 3) -> (10, 2) is an open vertical hallway connecting row 5 to row 2.
+- (10, 2) connects west along row 2: (10, 2) -> (9, 2) -> (8, 2) -> ... directly into Giovanni's arena at top-left.
+- (11, 2) is a Right-spin tile carrying back to (17, 2).
 
 <hr>
