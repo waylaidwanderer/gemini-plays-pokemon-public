@@ -15,113 +15,89 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def fall():
-    # Monotonic path from (22, 7) to the actual pitfall at (26, 12) on 3F East in State A:
-    path = [
-        (22, 7),
-        (21, 7),
-        (20, 7),
-        (19, 7),
-        (19, 6),
-        (19, 5),
-        (19, 4),
-        (20, 4),
-        (21, 4),
-        (21, 3),
-        (22, 3),
-        (23, 3),
-        (24, 3),
-        (25, 3),
-        (26, 3),
-        (26, 4),
-        (26, 5),
-        (26, 6),
-        (26, 7),
-        (26, 8),
-        (26, 9),
-        (26, 10),
-        (26, 11),
-        (26, 12)  # Actual pitfall!
-    ]
-    
-    # Initialize current_idx to the closest point in the entire path
+def walk_step(direction, target):
     pos = mgba.get_coordinates()
     cx, cy = pos['x'], pos['y']
-    min_dist = 999999
-    closest_idx = 0
-    for i, (tx, ty) in enumerate(path):
-        dist = abs(tx - cx) + abs(ty - cy)
+    print(f"Current: ({cx}, {cy}) | Pressing {direction} to go to {target}")
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    new_pos = mgba.get_coordinates()
+    if new_pos == pos:
+        # Check for battle
+        print("No movement, checking for battle...")
+        flee_battle()
+        new_pos = mgba.get_coordinates()
+    return new_pos
+
+def main():
+    pos = mgba.get_coordinates()
+    print("Initial Position on 3F West:", pos)
+    
+    # Path to (26, 6)
+    path = [
+        ("Right", (3, 6)),
+        ("Up", (3, 5)),
+        ("Right", (4, 5)),
+        ("Up", (4, 4)),
+        ("Up", (4, 3)),
+        ("Up", (4, 2)),
+        # Row 2 Right to Column 26
+        ("Right", (5, 2)), ("Right", (6, 2)), ("Right", (7, 2)), ("Right", (8, 2)),
+        ("Right", (9, 2)), ("Right", (10, 2)), ("Right", (11, 2)), ("Right", (12, 2)),
+        ("Right", (13, 2)), ("Right", (14, 2)), ("Right", (15, 2)), ("Right", (16, 2)),
+        ("Right", (17, 2)), ("Right", (18, 2)), ("Right", (19, 2)), ("Right", (20, 2)),
+        ("Right", (21, 2)), ("Right", (22, 2)), ("Right", (23, 2)), ("Right", (24, 2)),
+        ("Right", (25, 2)), ("Right", (26, 2)),
+        # Down Column 26 to Row 6
+        ("Down", (26, 3)),
+        ("Down", (26, 4)),
+        ("Down", (26, 5)),
+        ("Down", (26, 6))
+    ]
+    
+    # Find our current position in the path (to handle resume if needed)
+    start_idx = 0
+    min_dist = 9999
+    for i, (dir, target) in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
         if dist < min_dist:
             min_dist = dist
-            closest_idx = i
-    current_idx = closest_idx
-    print(f"Initialized path index to {current_idx}/{len(path)-1} at current position ({cx}, {cy})")
+            start_idx = i
+            
+    print(f"Resuming path from index {start_idx} / {len(path)-1} (target: {path[start_idx][1]})")
     
-    stuck_count = 0
-    while current_idx < len(path):
+    for idx in range(start_idx, len(path)):
+        dir, target = path[idx]
         pos = mgba.get_coordinates()
-        cx, cy = pos['x'], pos['y']
-        
-        # If we fell, we warp to 1F East map (coordinates change drastically)
-        if cy == 12 and cx == 26:
-            print("Standing on pitfall tile (26, 12)!")
-            mgba.press_buttons(["Down"])
-            time.sleep(1.5)
-            new_pos = mgba.get_coordinates()
-            print("Position after stepping down on pitfall:", new_pos)
-            break
-            
-        # Also check if we fell automatically (e.g. map changes)
-        if cy < 3 and cx > 25:
-            # wait, if map changed to 1F East, cy will be around 4-6
-            pass
-            
-        # Monotonic path progression (check from furthest lookahead down to current_idx)
-        best_idx = current_idx
-        for i in range(min(current_idx + 4, len(path) - 1), current_idx - 1, -1):
-            dist = abs(path[i][0] - cx) + abs(path[i][1] - cy)
-            if dist <= 1:
-                best_idx = i
-                break
-                
-        current_idx = max(current_idx, best_idx)
-        
-        if cx == path[current_idx][0] and cy == path[current_idx][1]:
-            target_idx = min(current_idx + 1, len(path) - 1)
-        else:
-            target_idx = current_idx
-            
-        tx, ty = path[target_idx]
-        
-        # Get direction
-        direction = None
-        if tx > cx: direction = "Right"
-        elif tx < cx: direction = "Left"
-        elif ty > cy: direction = "Down"
-        elif ty < cy: direction = "Up"
-        
-        if direction is None:
-            current_idx += 1
+        # If we are already at the target, skip
+        if pos['x'] == target[0] and pos['y'] == target[1]:
             continue
             
-        print(f"Current: ({cx}, {cy}) | Path Index: {current_idx}/{len(path)-1} | Heading to: ({tx}, {ty}) via {direction}")
-        mgba.press_buttons([direction])
-        time.sleep(0.4)
-        
-        # Check movement
-        new_pos = mgba.get_coordinates()
-        if new_pos == {'x': cx, 'y': cy}:
-            stuck_count += 1
-            if stuck_count > 1:
-                print("Stuck! Running flee/clear routine...")
-                flee_battle()
-                stuck_count = 0
-                post_flee = mgba.get_coordinates()
-                if post_flee == {'x': cx, 'y': cy}:
-                    print("This is a physical wall! Stopping script.")
-                    break
-        else:
-            stuck_count = 0
+        # Try to step to the target
+        while True:
+            pos = mgba.get_coordinates()
+            if pos['x'] == target[0] and pos['y'] == target[1]:
+                break
+                
+            # If coordinates changed drastically, we fell through pitfall!
+            cx, cy = pos['x'], pos['y']
+            tx, ty = target
+            actual_dir = dir
+            if abs(tx - cx) + abs(ty - cy) > 1:
+                # If we fell, we land on 1F East (coordinates around x=26, y=4 or 5)
+                # But since the map changes, coordinates might be very different or we are not on 3F
+                print("WARPED! Map transition detected during walk! Final Position:", pos)
+                return
+                
+            new_pos = walk_step(actual_dir, target)
+            if new_pos == pos:
+                time.sleep(0.5)
+                
+    pos = mgba.get_coordinates()
+    print("Reached final target (26, 6)! Position:", pos)
+    
+    scr = mgba.take_screenshot()
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
-    fall()
+    main()
