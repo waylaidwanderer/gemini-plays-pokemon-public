@@ -2495,5 +2495,10 @@
 - (19, 1): Left spin tile (spins West across row 1).
 - (18, 2): Down spin tile (spins South along col 18).
 - (17, 2): Stop tile.
+## Gym Floor - Northwest Sector (Row 0-5)
+- (11, 1): Stop tile (landing from Left spin tile at 19, 1).
+- (11, 2): Right spin tile (spins East along row 2).
+- Trainer: Located at (10, 1) facing Right.
+- Trainer: Located at (13, 5) facing Up.
 
 <hr>
