@@ -54,23 +54,15 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (22, 1) in battle on 3F East in State A
-    # First, let's flee from this battle
-    print("Fleeing current battle at (22, 1)...")
-    flee_battle_safe()
-    
-    # Walk directly to the balcony drop in State A
+    # Currently at (26, 12) in State A on 3F East in the overworld
+    # Perfect State A path to the balcony drop via Column 25 DOWN
     path = [
-        # From (22, 1), walk Right Row 1 to Column 27
-        (23, 1), (24, 1), (25, 1), (26, 1), (27, 1),
-        # Down Column 27 to Row 9
-        (27, 2), (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
-        # Left to Column 26 Row 9
-        (26, 9),
-        # Down Column 26 to Row 16 (open in State A!)
-        (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+        # Left to Column 25 Row 12
+        (25, 12),
+        # Down Column 25 to Row 16 (through open gate at 25, 13 in State A)
+        (25, 13), (25, 14), (25, 15), (25, 16),
         # Left along Row 16 to Column 21
-        (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
+        (24, 16), (23, 16), (22, 16), (21, 16),
         # Down Column 21 to Row 18 (open in State A!)
         (21, 17), (21, 18),
         # Left along Row 18 to Column 19 (balcony drop!)
@@ -97,7 +89,7 @@ def main():
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Robust warp check: did our position change drastically?
+        # Robust warp check: did our Y position change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. We fell through! Success!")
             break
