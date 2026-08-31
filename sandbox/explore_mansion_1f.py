@@ -54,11 +54,10 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting from:", pos)
     
-    # Simple loop to explore the southern room
+    # Path to walk to 1F East from 1F West southern room
     path = [
-        (5, 11), (5, 12), (5, 13), (5, 14),
-        (6, 14), (6, 13), (6, 12), (6, 11),
-        (5, 11)
+        (5, 11), (5, 12), (5, 13),
+        (6, 13), (7, 13), (8, 13), (9, 13), (10, 13), (11, 13), (12, 13), (13, 13), (14, 13), (15, 13), (16, 13), (17, 13), (18, 13), (19, 13), (20, 13), (21, 13), (22, 13), (23, 13), (24, 13), (25, 13)
     ]
     
     for target in path:
