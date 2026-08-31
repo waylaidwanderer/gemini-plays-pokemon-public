@@ -49,15 +49,15 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (3, 11) on 3F West.
-    # Path to (2, 5) via Column 12 (clear of Row 9 wall and Row 8/9 rubble):
+    # Currently at (11, 6) on 3F West.
+    # Path to (2, 5) via Row 2 (completely open horizontally!):
     path = [
-        # Walk to Column 12 Row 11
-        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (11, 11), (12, 11),
-        # Up Column 12 to Row 5 (avoiding Row 8 rubble on Columns 8-11)
-        (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5),
-        # Left along Row 5 to Column 2 (where switch is likely located)
-        (11, 5), (10, 5), (9, 5), (8, 5), (7, 5), (6, 5), (5, 5), (4, 5), (3, 5), (2, 5)
+        # Up Column 11 to Row 2
+        (11, 5), (11, 4), (11, 3), (11, 2),
+        # Left along Row 2 to Column 2
+        (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
+        # Down Column 2 to Row 5
+        (2, 3), (2, 4), (2, 5)
     ]
     
     pos = mgba.get_coordinates()
