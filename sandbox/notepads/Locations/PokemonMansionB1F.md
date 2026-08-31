@@ -11,7 +11,7 @@
 
 ## Switch Permutations & Shutters
 - Eastern corridor shutter at (26..27, 17): CLOSED (blocks access from row 18 to row 6 corridor).
-- Statue switch at (19, 17) base / (19, 16) top (accessible from western room via (20, 13..15) opening).
+- Statue switch at (18, 25) base / (18, 24) top (accessible from (18, 26) facing Up).
 
 ## West & Central Wing Topology
 - Column 20 (rows 16-26): Solid vertical wall dividing Southeast Arrival Sector from West/Center rooms.
