@@ -15,81 +15,62 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def navigate():
-    # Target path:
-    # 1. From current (16, 11) to (18, 11): Right, Right
-    # 2. UP Column 18 to Row 7: (18, 10), (18, 9), (18, 8), (18, 7)
-    # 3. Left along Row 7 to Column 5: (17, 7) down to (5, 7)
-    # 4. Down Column 5 to Row 10: (5, 8), (5, 9), (5, 10)
-    
-    path = [
-        (16, 11),
-        (17, 11),
-        (18, 11),
-        (18, 10),
-        (18, 9),
-        (18, 8),
-        (18, 7),
-    ]
-    for col in range(17, 4, -1):
-        path.append((col, 7))
-    path.append((5, 8))
-    path.append((5, 9))
-    path.append((5, 10))
-    
-    stuck_count = 0
-    while True:
-        pos = mgba.get_coordinates()
-        cx, cy = pos['x'], pos['y']
-        
-        # If we reached final destination
-        if cx == 5 and cy == 10:
-            print("Reached southwest stairs!")
-            break
-            
-        # Find closest path node
-        min_dist = 999999
-        closest_idx = 0
-        for i, (tx, ty) in enumerate(path):
-            dist = abs(tx - cx) + abs(ty - cy)
-            if dist < min_dist:
-                min_dist = dist
-                closest_idx = i
-                
-        if cx == path[closest_idx][0] and cy == path[closest_idx][1]:
-            target_idx = min(closest_idx + 1, len(path) - 1)
-        else:
-            target_idx = closest_idx
-            
-        tx, ty = path[target_idx]
-        
-        # Get direction
-        direction = None
-        if tx > cx: direction = "Right"
-        elif tx < cx: direction = "Left"
-        elif ty > cy: direction = "Down"
-        elif ty < cy: direction = "Up"
-        
-        if direction is None:
-            break
-            
-        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
-        mgba.press_buttons([direction])
-        time.sleep(0.4)
-        
-        # Check movement
-        new_pos = mgba.get_coordinates()
-        if new_pos == {'x': cx, 'y': cy}:
-            stuck_count += 1
-            if stuck_count > 1:
-                print("Stuck! Running flee/clear routine...")
+def explore():
+    # Currently at (11, 8)
+    # Step 1: Walk UP Column 11 to Row 2: (11, 7) -> (11, 6) -> (11, 5) -> (11, 4) -> (11, 3) -> (11, 2)
+    print("Walking UP Column 11 to Row 2...")
+    for row in range(7, 1, -1):
+        while True:
+            pos = mgba.get_coordinates()
+            cx, cy = pos['x'], pos['y']
+            if cy == row:
+                break
+            print(f"Current: ({cx}, {cy}) | Heading UP to row {row}")
+            mgba.press_buttons(["Up"])
+            time.sleep(0.4)
+            new_pos = mgba.get_coordinates()
+            if new_pos == pos:
+                print("Stuck heading UP! Fleeing/clearing...")
                 flee_battle()
-                stuck_count = 0
-                # Double check position after fleeing
+                
+    # Step 2: Try to walk Left along Row 2 towards Column 5
+    print("Attempting to walk Left along Row 2...")
+    for col in range(10, 4, -1):
+        while True:
+            pos = mgba.get_coordinates()
+            cx, cy = pos['x'], pos['y']
+            if cx == col:
+                break
+            print(f"Current: ({cx}, {cy}) | Heading Left to column {col}")
+            mgba.press_buttons(["Left"])
+            time.sleep(0.4)
+            new_pos = mgba.get_coordinates()
+            if new_pos == pos:
+                print("Stuck heading Left! Fleeing/clearing...")
+                flee_battle()
                 post_flee = mgba.get_coordinates()
-                print("Post-flee coordinates:", post_flee)
-        else:
-            stuck_count = 0
+                if post_flee == pos:
+                    print(f"Blocked trying to go Left at {pos}!")
+                    return
+
+    # Step 3: If we made it to Column 5, walk DOWN to the stairs at (5, 10)
+    print("Made it to Column 5! Walking DOWN to (5, 10)...")
+    for row in range(3, 11):
+        while True:
+            pos = mgba.get_coordinates()
+            cx, cy = pos['x'], pos['y']
+            if cy == row:
+                break
+            print(f"Current: ({cx}, {cy}) | Heading DOWN to row {row}")
+            mgba.press_buttons(["Down"])
+            time.sleep(0.4)
+            new_pos = mgba.get_coordinates()
+            if new_pos == pos:
+                print("Stuck heading DOWN! Fleeing/clearing...")
+                flee_battle()
+
+    final_pos = mgba.get_coordinates()
+    print("Reached final position:", final_pos)
 
 if __name__ == "__main__":
-    navigate()
+    explore()
