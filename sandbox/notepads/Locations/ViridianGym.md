@@ -20,6 +20,8 @@
 | (10, 2) | Left | Northwest Arena | Direct access to Giovanni's arena from corridor (10, 3..5) |
 | (11, 2) | Right | (17, 2) | Northwest Sector to North-Central Sector |
 | (18, 2) | Down | (18, 11) | North-Central back to Entrance Sector |
+| (13, 16) | Left | (7, 16) | Entrance sector to Southwest sector |
+| (1, 15) | Up | Northwest Arena | Direct Up-spin expressway into Giovanni's arena |
 | (5, 13) | Right | (7, 16) | Southwest spin tile |
 | (4, 14) | Right | (7, 16) | Southwest spin tile |
 
