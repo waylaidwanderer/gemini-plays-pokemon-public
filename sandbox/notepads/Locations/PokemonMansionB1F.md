@@ -11,3 +11,8 @@
 
 ## Switch Permutations & Shutters
 - Exploring.
+## West & Central Wing Topology
+- Column 9 (rows 8-16): Solid vertical wall dividing Central corridor from West wing.
+- Row 8 (cols 6-15): Solid horizontal wall dividing northern rooms from central corridor.
+- Row 18: Unobstructed horizontal thoroughfare connecting central sector to western sector.
+- Statue switch at (19, 17).
