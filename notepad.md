@@ -2604,5 +2604,8 @@
 - [ ] 6. Marsh Badge
 - [ ] 7. Volcano Badge
 - [ ] 8. Earth Badge
+## Verified Route 23 Topology
+- Cascade Check Sector: y=136..139. Guard at (8, 136).
+- Statue Barrier: Rows 130-131 contain statues and walls, but columns 14 and 15 (14..15, 128..131) form an open 2-tile wide tall grass corridor running directly north to the next sector!
 
 <hr>
