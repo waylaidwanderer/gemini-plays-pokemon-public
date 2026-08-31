@@ -3,15 +3,17 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
-    time.sleep(1.0)
+    # Clear "Wild PONYTA appeared!" text
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.2)
-    print("Pressing Down and Right to select RUN...")
+    # Move cursor to RUN (Down then Right)
+    print("Selecting RUN...")
     mgba.press_buttons(["Down", "Right"])
     time.sleep(0.3)
     mgba.press_buttons(["A"])
     time.sleep(1.5)
+    # Dismiss "Got away safely!"
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.2)
@@ -52,12 +54,17 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Corrected path in State A from our current position (20, 1) to the balcony
+    # If currently in battle, let's flee first
+    print("Starting solve_mansion path from current battle at (21, 3)...")
+    flee_battle_safe()
+    
+    # We should be around (21, 3) in the overworld in State A
+    # Perfect path to the balcony drop
     path = [
-        # Already at (20, 1), next is (21, 1)
-        (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1), (27, 1),
+        # Right along Row 3 to Column 27
+        (22, 3), (23, 3), (24, 3), (25, 3), (26, 3), (27, 3),
         # Down Column 27 to Row 9
-        (27, 2), (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
+        (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
         # Left to Column 26 Row 9
         (26, 9),
         # Down Column 26 to Row 16
@@ -72,10 +79,6 @@ def main():
         (19, 19)
     ]
     
-    print("Starting corrected State A balcony drop solution from (20, 1)...")
-    
-    # First, let's dismiss the "Got away safely!" text box by pressing B
-    # Since we are at (20, 1), we can just do that inside the loop
     for target in path:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
