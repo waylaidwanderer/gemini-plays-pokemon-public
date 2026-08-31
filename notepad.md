@@ -2531,5 +2531,10 @@
 - Wild Pokémon: Rattata, Spearow, Nidoran♀, Nidoran♂, Mankey
 - Rival RED Encounter: Triggered when walking west past east entrance.
 - Front Gatehouse: Checks all 8 Kanto Badges sequentially.
+## Layout & Navigation Notes
+- East entrance: (39, 8..9) from Viridian City.
+- Tree barrier: Column 34 is blocked by trees at (34, 6..11).
+- Southern bypass: Clear passage around the tree barrier at row 12 (34, 12).
+- Tall grass patch: Located at (31..33, 8..10). Ledge at row 7.
 
 <hr>
