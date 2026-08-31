@@ -1336,7 +1336,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Verified Switch Locations & Visual Ground Truth
 - **2F West Switch False Position:** Visual inspection on Turn 68041 confirmed that Column 2 Row 11 on 2F West is completely open pink-checkered floor. There is NO Mewtwo switch statue at (2, 11) on 2F West (previous reports was an error/hallucination).
 - **3F East Switch False Position:** Visual inspection on Turn 67958 confirmed that Column 12 Row 10/11 on 3F East is completely open pink-checkered floor. There is NO Mewtwo switch statue at (12, 11) on 3F East.
-- **The Only Switches on 3F and 2F West:** The verified active switches are at (2, 5) and (2, 11) on 3F West, and (2, 11) on 2F West.
+- **The Only Switches on 3F and 2F West:** The verified active switches are at (2, 5) and (2, 11) on 3F West.
 
 ## 2F State A Horizontal Connections & Ground Truth (Verified Turn 69479)
 - **Column 13 and Column 22 Rubble Barriers:** Column 22 is blocked on Rows 8-10 by solid rubble. Column 13 is a solid partition wall on Rows 8-12.
