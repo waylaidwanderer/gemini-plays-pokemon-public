@@ -24,3 +24,7 @@
 - **Column 9 Partition Wall:** Closed in State A, blocking horizontal passage between 1F West and 1F East along Row 6.
 - **Debris on Row 8:** Columns 8, 9, 10, 11 on Row 8 are blocked by solid yellow/brown debris.
 - **Southern Area Access:** Taking the stairs down from 2F West at (7, 10) lands the player at (7, 11) on 1F West (in the southern half of 1F West).
+
+
+## Verified Layout & Warp Facts (Turn 70007)
+- **Staircase Chain-Warp on 2F West:** The staircase at `(7, 10)` on 2F West is an active downward warp zone. Stepping on it immediately warps the player down to 1F West at `(7, 11)`.

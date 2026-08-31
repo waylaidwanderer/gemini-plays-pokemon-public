@@ -1344,6 +1344,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **State B Corridor:** Row 2 on 2F is completely open and passable horizontally (Columns 5-12). However, on 2F East, a solid obstruction blocks horizontal travel past Column 14.
 
 
+## Verified Layout & Warp Facts (Turn 70007)
+- **Staircase Chain-Warp on 2F West:** The staircase at `(7, 10)` on 2F West is an active downward warp zone. Stepping on it immediately warps the player down to 1F West at `(7, 11)`.
+
+
 <hr>
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
@@ -1376,7 +1380,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - This allows horizontal crossing between 3F East and the southern half of 3F East via Row 2, Column 21 (gate at (21, 5) is OPEN in State A).
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
-1. **Verify State A:** Standing on 3F West, toggle the Mewtwo switch at `(2, 11)` to State A.
+1. **Verify State A:** The active Mewtwo switch pedestal on 3F West is located at `(2, 11)` (interact from `(2, 12)` facing UP, or `(1, 11)` facing RIGHT, or `(3, 11)` facing LEFT).
 2. **Walk to 3F East Southern Room:** 
    - Walk UP Column 10 to Row 2.
    - Walk RIGHT along Row 2 past Column 22 (open in State A).
