@@ -15,8 +15,12 @@
 
 ### Northern & Eastern Sector (Stairs from 2F at (6, 1))
 - Stairs down to 2F: Located at (6, 1) in northwest sector [Arrival on 3F at (6, 2), Verified Turn 21207].
-- Mewtwo Statue Switch: Switch at (10, 5) [Observed Turn 18444].
-- Shutter Gate: Located at (15, 10..11).
+- Statues (Negative Switch Tests):
+  - Statue at (10, 4..5): Tested from (11, 5) and (10, 6) on Turns 21213-21219. Decorative; no switch dialogue.
+  - Statue at (12, 9): Tested from (13, 9) on Turn 21235. Decorative; no switch dialogue.
+  - Statue at (12, 11): Tested from (13, 11) on Turn 21238. Decorative; no switch dialogue.
+- Shutter Gate: Located at (15, 10..11) (CLOSED in State A, OPEN in State B).
 - Balcony Drop-off Pits (Row 14):
   - Left Drop-off Pit at (16..17, 14) -> Drops to 1F Enclosed Southern/Eastern Wing at (16, 14).
   - Right Drop-off Pit at (19, 14) -> Drops to 1F Northern Landing Sector at (18, 14).
+
