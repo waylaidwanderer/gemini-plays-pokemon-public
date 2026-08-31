@@ -49,19 +49,11 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (22, 16) on 3F East.
-    # Walk back to switch area at (3, 5) on 3F West:
+    # Currently at (23, 3) on 3F East in State B.
+    # Walk back to the switch at (2, 5) on 3F West:
     path_to_switch = [
-        # Walk RIGHT along Row 16 to Column 24
-        (23, 16), (24, 16),
-        # Walk UP Column 24 to Row 12
-        (24, 15), (24, 14), (24, 13), (24, 12),
-        # Walk RIGHT along Row 12 to Column 26
-        (25, 12), (26, 12),
-        # Walk UP Column 26 to Row 3
-        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
-        # Walk LEFT Row 3 to Column 12 on 3F West
-        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
+        # Walk LEFT along Row 3 to Column 12
+        (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
         # Up Column 12 to Row 2
         (12, 2),
         # Left Row 2 to Column 4
@@ -90,32 +82,34 @@ def main():
     mgba.press_buttons(["Left"])
     time.sleep(0.8)
     
-    # Let's perform a step-by-step switch interaction with screenshot captures!
-    print("PAGE 1: Pressing A to interact with switch...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.take_screenshot() # Will be saved in sandbox/screenshots/
+    # Capture BEFORE screenshot
+    print("Capturing BEFORE toggle screenshot...")
+    scr_before = mgba.take_screenshot()
     
-    print("PAGE 2: Pressing A to scroll to Yes/No prompt...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.take_screenshot()
-    
-    print("PAGE 3: Pressing A to select YES on prompt...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.take_screenshot()
-    
-    print("PAGE 4: Pressing A to scroll final text...")
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.take_screenshot()
-    
-    print("PAGE 5: Pressing B to clear...")
-    mgba.press_buttons(["B"])
+    # Toggle switch (exactly 6 A presses + 1 B press)
+    print("Toggling switch...")
+    mgba.press_buttons(["A"]) # Page 1: "A mysterious switch!"
     time.sleep(0.5)
+    mgba.press_buttons(["A"]) # Page 2: "Who'd press it?"
+    time.sleep(0.5)
+    mgba.press_buttons(["A"]) # Chose Yes on Yes/No prompt -> "Who wouldn't?"
+    time.sleep(0.5)
+    mgba.press_buttons(["A"]) # Page 4: "Pressed it!"
+    time.sleep(0.5)
+    mgba.press_buttons(["A"]) # Page 5: "Shutter gates..."
+    time.sleep(0.5)
+    mgba.press_buttons(["A"]) # Clear dialogue
+    time.sleep(0.5)
+    mgba.press_buttons(["B"]) # Residual clear
+    time.sleep(1.0)
     
-    print("Toggled and inspected switch. Final position:", mgba.get_coordinates())
+    # Capture AFTER screenshot
+    print("Capturing AFTER toggle screenshot...")
+    scr_after = mgba.take_screenshot()
+    
+    print("Switch toggle sequence completed.")
+    print("BEFORE screenshot:", scr_before)
+    print("AFTER screenshot:", scr_after)
 
 if __name__ == "__main__":
     main()
