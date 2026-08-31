@@ -1,36 +1,36 @@
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 21853 - Active in Battle vs Tamer's Rhyhorn)
+## Active Party (Verified Turn 21869 - 100% Fully Healed)
 1. HYDROS (Blastoise) - Lv 65
-   - Stats: Max HP 218 (HP: 0/218 - FNT), Attack 153, Defense 168, Speed 155, Special 162
+   - Stats: Max HP 218 (HP: 218/218 - Healthy), Attack 153, Defense 168, Speed 155, Special 162
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
-   - Role: Primary powerhouse (Needs revival at Pokémon Center)
+   - Role: Primary powerhouse & sweeper
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46 - FNT)
+   - Stats: Max HP 46 (HP: 46/46 - Healthy)
    - Type: Grass / Poison
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Cut utility
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 18/54)
+   - Stats: Max HP 54 (HP: 54/54 - Healthy)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Physical Fighting attacker & Strength utility
 4. TERRA (Geodude) - Lv 22
-   - Stats: Max HP 56 (HP: 17/56)
+   - Stats: Max HP 56 (HP: 56/56 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
    - Role: Physical Rock/Ground tank & Dig utility
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 2/62)
+   - Stats: Max HP 62 (HP: 62/62 - Healthy)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall
 6. ZEPHYR (Pidgey) - Lv 20
-   - Stats: Max HP 58 (HP: 58/58 - Healthy!)
+   - Stats: Max HP 58 (HP: 58/58 - Healthy)
    - Type: Normal / Flying
    - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
-   - Role: Healthy Flying attacker (Immune to Ground moves)
+   - Role: Flyer utility
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
