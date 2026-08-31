@@ -73,29 +73,22 @@ def walk_path_robust(target_path):
             stuck_count = 0
 
 def main():
-    # Currently at (10, 7) on 3F West in State A
-    # Path using Column 12 to bypass the Column 10 Row 8 rubble:
-    path = [
-        (11, 7),
-        (12, 7), # Row 7 Column 12
-        (12, 8),
-        (12, 9),
-        (12, 10), # Row 10 Column 12
-        (11, 10),
-        (10, 10),
-        (9, 10),
-        (8, 10), # Open shutter gate (8, 10)
-        (7, 10),
-        (6, 10),
-        (5, 10) # Triggers warp down to 2F West (5, 11)
-    ]
-    
+    # Currently at (5, 11) on 2F West in State A
+    # Path to (22, 1) northeast stairs:
+    # 1. Walk Right along Row 11 to Column 22: (6, 11) to (22, 11)
+    # 2. Walk UP Column 22 to Row 1: (22, 10) to (22, 1) (triggers warp up to 3F East)
+    path = []
+    for col in range(6, 23):
+        path.append((col, 11))
+    for row in range(10, 0, -1):
+        path.append((22, row))
+        
     walk_path_robust(path)
     
-    # Wait for transition to 2F West
+    # Wait for transition to 3F East
     time.sleep(1.5)
     pos = mgba.get_coordinates()
-    print("New Position after 2F West transition:", pos)
+    print("New Position after 3F East transition:", pos)
 
 if __name__ == "__main__":
     main()
