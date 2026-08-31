@@ -26,40 +26,24 @@ def walk_step(action):
     return new_pos
 
 def main():
-    # Currently at (5, 6) on 3F West in State A
-    # Path to (5, 10) stairs via Column 10:
+    # Currently at (8, 7) on 1F West in State B
+    # Let's try to walk to (10, 6) on 1F East:
     path = [
-        ("Right", 6, 6),
-        ("Right", 7, 6),
-        ("Right", 8, 6),
+        ("Up", 8, 6),
         ("Right", 9, 6),
-        ("Right", 10, 6),
-        ("Down", 10, 7),
-        ("Down", 10, 8),
-        ("Down", 10, 9),
-        ("Down", 10, 10),
-        ("Left", 9, 10),
-        ("Left", 8, 10),
-        ("Left", 7, 10),
-        ("Left", 6, 10),
-        ("Left", 5, 10) # Triggers warp to 2F West
+        ("Right", 10, 6)
     ]
     
     idx = 0
     stuck_count = 0
     last_pos = None
     
-    print("Walking on 3F West to stairs at (5, 10) via Column 10...")
+    print("Trying to walk from 1F West to 1F East on Row 6 in State B...")
     while idx < len(path):
         action, tx, ty = path[idx]
         pos = mgba.get_coordinates()
         x, y = pos['x'], pos['y']
         
-        # Warp check: if coordinates changed to 2F West (usually (5, 11) or close to it)
-        if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path]:
-            print(f"Warp detected! Landed at: ({x}, {y})")
-            break
-            
         if x == tx and y == ty:
             idx += 1
             stuck_count = 0
@@ -78,9 +62,8 @@ def main():
             
         walk_step(action)
         
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("New Position after 2F West transition:", pos)
+    final_pos = mgba.get_coordinates()
+    print("Final Position:", final_pos)
 
 if __name__ == "__main__":
     main()
