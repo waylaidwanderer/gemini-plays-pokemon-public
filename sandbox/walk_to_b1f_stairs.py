@@ -49,21 +49,15 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 5) on 1F East.
-    # Safe bypass path to (21, 5):
+    # Currently at (21, 5) on 1F East.
+    # Path to (17, 7) (staircase!):
     path = [
-        (24, 5),
-        (25, 5),
-        (26, 5),
-        (26, 4),
-        (26, 3),
-        (25, 3),
-        (24, 3),
-        (23, 3),
-        (22, 3), # cross Column 22 wall
-        (21, 3),
-        (21, 4),
-        (21, 5)
+        (20, 5),
+        (19, 5),
+        (18, 5),
+        (17, 5),
+        (17, 6),
+        (17, 7) # staircase!
     ]
     
     pos = mgba.get_coordinates()
