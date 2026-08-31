@@ -54,7 +54,7 @@
 ## Inventory & Resources (Verified Turn 17963)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
 - Bag Capacity: 10 / 20 slots used (10 free slots available)
-- Active Bag Items: Bicycle, Great Ball x9, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM22 (Solarbeam), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave)
+- Active Bag Items: Bicycle, Great Ball x9, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM22 (Solarbeam), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave), Max Potion, Escape Rope, Secret Key
 - Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥30,000+
 

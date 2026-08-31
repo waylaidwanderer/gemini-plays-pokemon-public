@@ -54,6 +54,8 @@
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
 - `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
 - `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
+- `Locations/CinnabarIsland`: Cinnabar Island points of interest, Gym, Lab, Mansion
+- `Locations/CinnabarGym`: Cinnabar Gym layout, quiz machines, Blaine battle
 
 <hr>
 
@@ -115,7 +117,7 @@
 ## Inventory & Resources (Verified Turn 17963)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge (6/8)
 - Bag Capacity: 10 / 20 slots used (10 free slots available)
-- Active Bag Items: Bicycle, Great Ball x9, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM22 (Solarbeam), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave)
+- Active Bag Items: Bicycle, Great Ball x9, Card Key, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, Master Ball x1, TM06 (Toxic), TM22 (Solarbeam), TM03 (Swords Dance), TM29 (Psychic), TM46 (Psywave), Max Potion, Escape Rope, Secret Key
 - Deposited in PC: HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM06 (Toxic), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
 - Funds: ¥30,000+
 
@@ -2345,16 +2347,6 @@
   - Right Drop-off Pit at (19, 14) -> Drops to 1F Northern Landing Sector at (18, 14).
 
 
-
-<hr>
-
-<h1><code>Scratchpad/MansionSwitchPermutations</code></h1>
-
-- Turn 21518: B1F (18, 25) Switch -> Toggled successfully ('Who wouldn't?' confirmed).
-- B1F (26..27, 17) eastern shutter: OPEN.
-- Turn 21554: B1F (20, 3) Switch in Northeast Bedroom -> Toggling to State 1 to open (9, 6..7) shutter.
-- Turn 21557: B1F (20, 3) Switch in Northeast Bedroom -> Toggled successfully ('Who wouldn't?' confirmed).
-- B1F (9, 6..7) northwest shutter: OPEN.
 
 <hr>
 

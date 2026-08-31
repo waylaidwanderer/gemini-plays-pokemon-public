@@ -52,3 +52,5 @@
 - `Locations/Route16`: Route 16 points of interest, Secret House, HM02 Fly
 - `Locations/Route18`: Route 18 layout, Gatehouse connection to Cycling Road & Fuchsia City
 - `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
+- `Locations/CinnabarIsland`: Cinnabar Island points of interest, Gym, Lab, Mansion
+- `Locations/CinnabarGym`: Cinnabar Gym layout, quiz machines, Blaine battle
