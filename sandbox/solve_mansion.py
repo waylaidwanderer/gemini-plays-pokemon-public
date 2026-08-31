@@ -54,16 +54,50 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 3) in State B on 3F East
-    # Perfect State B path to the balcony drop via Column 26 DOWN
-    path = [
-        # Right along Row 3 to Column 26
-        (24, 3), (25, 3), (26, 3),
-        # Down Column 26 to Row 16 (through open gate at 26, 13 in State B)
-        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+    # Currently at (26, 12) in State B on 3F East (Got away safely text on screen)
+    pos = mgba.get_coordinates()
+    print("Starting final solve_mansion from position:", pos)
+    
+    # Phase 1: Walk from current position (26, 12) back to switch at (3, 11) in State B
+    path_to_switch = [
+        # Up Column 26 to Row 1
+        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
+        # Left Row 1 to Column 12
+        (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
+        # Down Column 12 to Row 11
+        (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
+        # Left along Row 11 to Column 3
+        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
+    ]
+    
+    for target in path_to_switch:
+        walk_to_target(target)
+        
+    # Phase 2: Toggle switch to State A
+    walk_to_target((3, 11))
+    print("PHASE 2: Turning Left and toggling switch to State A...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A", "sleep 300", "A", "sleep 300", "A", "sleep 300", "A", "sleep 300"])
+    time.sleep(1.0)
+    
+    # Phase 3: Walk to the balcony drop in State A
+    path_to_balcony = [
+        # Right along Row 11 to Column 12
+        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (11, 11), (12, 11),
+        # Up Column 12 to Row 1
+        (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
+        # Right Row 1 to Column 27
+        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1), (27, 1),
+        # Down Column 27 to Row 9
+        (27, 2), (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
+        # Left to Column 26 Row 9
+        (26, 9),
+        # Down Column 26 to Row 16 (open in State A!)
+        (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
         # Left along Row 16 to Column 21
         (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
-        # Down Column 21 to Row 18 (through open gate at 21, 17 in State B)
+        # Down Column 21 to Row 18 (open in State A!)
         (21, 17), (21, 18),
         # Left along Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
@@ -71,20 +105,8 @@ def main():
         (19, 19)
     ]
     
-    # Filter or resume path based on current position
-    pos = mgba.get_coordinates()
-    start_idx = 0
-    min_dist = 9999
-    for i, target in enumerate(path):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Resuming solve_mansion path from index {start_idx} (target: {path[start_idx]})")
-    
-    for idx in range(start_idx, len(path)):
-        target = path[idx]
+    print("PHASE 3: Walking to balcony drop in State A...")
+    for target in path_to_balcony:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
