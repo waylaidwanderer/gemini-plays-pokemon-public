@@ -54,23 +54,16 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (10, 9) in battle on 3F West in State B
-    # First, let's flee from this battle
-    print("Fleeing current battle at (10, 9)...")
-    flee_battle_safe()
-    
-    # Correct State B path to the balcony drop from (10, 9)
+    # Currently at (19, 6) in the overworld on 3F East in State B
+    # Walk: Right Row 6 to Column 23, Down Column 23 to Row 12, Left Row 12 to Column 21,
+    # Down Column 21 to Row 18, Left Row 18 to Column 19, and Down to drop!
     path = [
-        # From (10, 9), walk Right to Column 12 to bypass the Row 8 rubble on Column 10
-        (11, 9), (12, 9),
-        # Up Column 12 to Row 6
-        (12, 8), (12, 7), (12, 6),
-        # Right along Row 6 to Column 19
-        (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
-        # Down Column 19 to Row 12 (through open gate at 19, 8 in State B)
-        (19, 7), (19, 8), (19, 9), (19, 10), (19, 11), (19, 12),
-        # Right to Column 21 Row 12
-        (20, 12), (21, 12),
+        # Right along Row 6 to Column 23
+        (20, 6), (21, 6), (22, 6), (23, 6),
+        # Down Column 23 to Row 12
+        (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
+        # Left along Row 12 to Column 21
+        (22, 12), (21, 12),
         # Down Column 21 to Row 18 (through open gate at 21, 17 in State B)
         (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
         # Left along Row 18 to Column 19 (balcony drop!)
@@ -79,7 +72,7 @@ def main():
         (19, 19)
     ]
     
-    # Find our current position index in the path list
+    # Filter or resume path based on current position
     pos = mgba.get_coordinates()
     start_idx = 0
     min_dist = 9999
@@ -89,7 +82,7 @@ def main():
             min_dist = dist
             start_idx = i
             
-    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
+    print(f"Resuming solve_mansion path from index {start_idx} (target: {path[start_idx]})")
     
     for idx in range(start_idx, len(path)):
         target = path[idx]
