@@ -31,4 +31,4 @@
     3. Gyarados Lv 45 (Water/Flying) [Defeated by HYDROS Ice Beam]
     4. Growlithe Lv 47 (Fire) [Defeated by HYDROS Surf]
     5. Alakazam Lv 50 (Psychic) [Defeated by HYDROS Double-Edge]
-    6. Venusaur Lv 53 (Grass/Poison) [Target: Ice Beam]
+    6. Venusaur Lv 53 (Grass/Poison) [Defeated by HYDROS Ice Beam]

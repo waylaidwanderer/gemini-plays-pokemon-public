@@ -213,6 +213,7 @@
 - [x] Retrieve Secret Key from Pokémon Mansion B1F [Turn 21590]
 - [x] Defeat Gym Leader Blaine in Cinnabar Gym (Volcano Badge obtained; TM38 Fire Blast pending pickup from Blaine due to full bag) [Turn 21652]
 - [x] Defeat Gym Leader Giovanni in Viridian Gym (Earth Badge & TM27 Fissure obtained; All 8 Badges unlocked!) [Turn 21973]
+- [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 
 <hr>
 
@@ -2554,6 +2555,6 @@
     3. Gyarados Lv 45 (Water/Flying) [Defeated by HYDROS Ice Beam]
     4. Growlithe Lv 47 (Fire) [Defeated by HYDROS Surf]
     5. Alakazam Lv 50 (Psychic) [Defeated by HYDROS Double-Edge]
-    6. Venusaur Lv 53 (Grass/Poison) [Target: Ice Beam]
+    6. Venusaur Lv 53 (Grass/Poison) [Defeated by HYDROS Ice Beam]
 
 <hr>
