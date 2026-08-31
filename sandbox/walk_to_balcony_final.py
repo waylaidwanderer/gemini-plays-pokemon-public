@@ -54,25 +54,13 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting from:", pos)
     
-    # Complete correct path to the balcony drop in State B from (4, 10)
+    # Path down Column 19 to Row 16, then Right to Column 21, Down to Row 18, and Left to drop
     path = [
-        # Walk Down to Row 11
-        (4, 11),
-        # Walk Right to Column 10
-        (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11),
-        # Walk Up Column 10 to Row 3
-        (10, 10), (10, 9), (10, 8), (10, 7), (10, 6), (10, 5), (10, 4), (10, 3),
-        # Walk Right along Row 3 to Column 26
-        (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-        # Down Column 26 to Row 12
-        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
-        # Left to Column 24
-        (25, 12), (24, 12),
-        # Down Column 24 to Row 16
-        (24, 13), (24, 14), (24, 15), (24, 16),
-        # Left along Row 16 to Column 21
-        (23, 16), (22, 16), (21, 16),
-        # Down Column 21 through open balcony gates to Row 18
+        # Down Column 19 to Row 16
+        (19, 5), (19, 6), (19, 7), (19, 8), (19, 9), (19, 10), (19, 11), (19, 12), (19, 13), (19, 14), (19, 15), (19, 16),
+        # Right to Column 21
+        (20, 16), (21, 16),
+        # Down Column 21 to Row 18 (through open balcony gates)
         (21, 17), (21, 18),
         # Left to drop at (19, 18)
         (20, 18), (19, 18)
