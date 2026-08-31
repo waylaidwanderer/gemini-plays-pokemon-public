@@ -54,16 +54,17 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Phase 1: Walk from current position (20, 16) back to switch at (3, 11) in State A
+    # Phase 1: Walk from current position (26, 14) back to switch at (3, 11) in State A
+    # Since Column 26 Row 13 is CLOSED in State A, we must walk UP via Column 25!
     path_to_switch = [
-        # Right Row 16 to Column 26
-        (21, 16), (22, 16), (23, 16), (24, 16), (25, 16), (26, 16),
-        # Up Column 26 to Row 9
-        (26, 15), (26, 14), (26, 13), (26, 12), (26, 11), (26, 10), (26, 9),
-        # Right to Column 27 Row 9
-        (27, 9),
+        # Left to Column 25
+        (25, 14),
+        # Up Column 25 to Row 12 (through the open gate at 25, 13)
+        (25, 13), (25, 12),
+        # Right to Column 27 Row 12
+        (26, 12), (27, 12),
         # Up Column 27 to Row 1
-        (27, 8), (27, 7), (27, 6), (27, 5), (27, 4), (27, 3), (27, 2), (27, 1),
+        (27, 11), (27, 10), (27, 9), (27, 8), (27, 7), (27, 6), (27, 5), (27, 4), (27, 3), (27, 2), (27, 1),
         # Left Row 1 to Column 12
         (26, 1), (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
         # Down Column 12 to Row 11
@@ -72,7 +73,7 @@ def main():
         (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
     ]
     
-    print("PHASE 1: Walking back to switch in State A...")
+    print("Starting solve_mansion from (26, 14) in State A...")
     for target in path_to_switch:
         walk_to_target(target)
         
