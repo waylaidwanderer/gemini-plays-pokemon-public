@@ -26,18 +26,20 @@ def walk_step(action):
         new_pos = mgba.get_coordinates()
     return new_pos
 
-def walk_to_b1f_stairs_and_warp():
-    # We are currently at (26, 11).
-    # Path to (22, 7) stairs:
+def test_staircase_27_11():
+    # We are currently at (23, 7).
+    # Path to (27, 12), then step Up onto (27, 11):
     path = [
-        ("Left", 25, 11),
-        ("Up", 25, 10),
-        ("Left", 24, 10),
-        ("Left", 23, 10),
-        ("Up", 23, 9),
-        ("Up", 23, 8),
-        ("Up", 23, 7),
-        ("Left", 22, 7) # Step Left onto the stairs at (22, 7) to warp DOWN!
+        ("Down", 23, 8),
+        ("Down", 23, 9),
+        ("Down", 23, 10),
+        ("Right", 24, 10),
+        ("Right", 25, 10),
+        ("Down", 25, 11),
+        ("Down", 25, 12),
+        ("Right", 26, 12),
+        ("Right", 27, 12),
+        ("Up", 27, 11) # Step Up onto (27, 11) to trigger warp down to B1F East!
     ]
     
     idx = 0
@@ -50,9 +52,9 @@ def walk_to_b1f_stairs_and_warp():
         x, y = pos['x'], pos['y']
         print(f"Current Position: ({x}, {y})")
         
-        # Warp check: if we warped, our position will change drastically (we'll land on B1F East)
+        # Warp check: if we are at B1F East, coordinates will change drastically (we'll land on B1F East)
         if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path]:
-            print(f"WARPED! New Position: ({x}, {y})")
+            print(f"WARPED! Landed at: ({x}, {y})")
             break
             
         if x == tx and y == ty:
@@ -78,4 +80,4 @@ def walk_to_b1f_stairs_and_warp():
     pos = mgba.get_coordinates()
     print("Final Position:", pos)
 
-walk_to_b1f_stairs_and_warp()
+test_staircase_27_11()
