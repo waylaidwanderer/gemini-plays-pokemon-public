@@ -54,16 +54,16 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting from:", pos)
     
-    # Path from (21, 10) to (2, 6) on 3F West via Row 1
+    # Target path around obstacles
     path = [
-        # Up to Row 9
-        (21, 9),
-        # Left to Column 19
-        (20, 9), (19, 9),
-        # Up Column 19 to Row 1
-        (19, 8), (19, 7), (19, 6), (19, 5), (19, 4), (19, 3), (19, 2), (19, 1),
-        # Left Row 1 to Column 2
-        (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1), (11, 1), (10, 1), (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1), (3, 1), (2, 1),
+        # Down to Row 6
+        (19, 6),
+        # Left on Row 6 to Column 10
+        (18, 6), (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6), (11, 6), (10, 6),
+        # Up Column 10 to Row 1
+        (10, 5), (10, 4), (10, 3), (10, 2), (10, 1),
+        # Left on Row 1 to Column 2
+        (9, 1), (8, 1), (7, 1), (6, 1), (5, 1), (4, 1), (3, 1), (2, 1),
         # Down Column 2 to (2, 6)
         (2, 2), (2, 3), (2, 4), (2, 5), (2, 6)
     ]
@@ -76,7 +76,7 @@ def main():
             break
     active_path = path[start_idx:]
     
-    print("Executing walk to 3F West Mewtwo switch...")
+    print("Executing systematic walk to 3F West Mewtwo switch...")
     for target in active_path:
         res = walk_to_target(target[0], target[1])
         if res == "FALLEN":
