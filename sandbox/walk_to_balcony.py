@@ -15,87 +15,77 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_to_balcony():
-    # Target path:
-    # 1. Walk Right along Row 11 to Column 12: (4, 11) to (12, 11)
-    # 2. Walk UP Column 12 to Row 3: (12, 10) down to (12, 3)
-    # 3. Walk Left along Row 3 to Column 10: (11, 3), (10, 3)
-    # 4. Walk DOWN Column 10 to Row 16: (10, 4) down to (10, 16)
-    # 5. Walk Right along Row 16 to Column 20: (11, 16) to (20, 16)
-    # 6. Walk DOWN Column 20 to (20, 17) (open gate to balcony)
-    # 7. Walk to (19, 17) -> (19, 18) (balcony drop)
-    
-    path = []
-    for col in range(4, 13):
-        path.append((col, 11))
-    for row in range(10, 2, -1):
-        path.append((12, row))
-    path.append((11, 3))
-    path.append((10, 3))
-    for row in range(4, 17):
-        path.append((10, row))
-    for col in range(11, 21):
-        path.append((col, 16))
-    path.append((20, 17))
-    path.append((19, 17))
-    path.append((19, 18))
-    
-    stuck_count = 0
-    while True:
-        pos = mgba.get_coordinates()
-        cx, cy = pos['x'], pos['y']
-        
-        # If we reached the balcony drop
-        if cx == 19 and cy == 18:
-            print("Arrived at balcony drop!")
-            break
-            
-        # Find closest path node
-        min_dist = 999999
-        closest_idx = 0
-        for i, (tx, ty) in enumerate(path):
-            dist = abs(tx - cx) + abs(ty - cy)
-            if dist < min_dist:
-                min_dist = dist
-                closest_idx = i
-                
-        if cx == path[closest_idx][0] and cy == path[closest_idx][1]:
-            target_idx = min(closest_idx + 1, len(path) - 1)
-        else:
-            target_idx = closest_idx
-            
-        tx, ty = path[target_idx]
-        
-        # Get direction
-        direction = None
-        if tx > cx: direction = "Right"
-        elif tx < cx: direction = "Left"
-        elif ty > cy: direction = "Down"
-        elif ty < cy: direction = "Up"
-        
-        if direction is None:
-            break
-            
-        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
-        mgba.press_buttons([direction])
-        time.sleep(0.4)
-        
-        # Check movement
+def walk_step(direction, target):
+    pos = mgba.get_coordinates()
+    cx, cy = pos['x'], pos['y']
+    print(f"Current: ({cx}, {cy}) | Pressing {direction} to go to {target}")
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    new_pos = mgba.get_coordinates()
+    if new_pos == pos:
+        # Check for battle
+        print("No movement, checking for battle...")
+        flee_battle()
         new_pos = mgba.get_coordinates()
-        if new_pos == {'x': cx, 'y': cy}:
-            stuck_count += 1
-            if stuck_count > 1:
-                print("Stuck! Running flee/clear routine...")
-                flee_battle()
-                stuck_count = 0
-                post_flee = mgba.get_coordinates()
-                print("Post-flee coordinates:", post_flee)
-                # If we are still stuck at the same coordinates after fleeing, it is a physical wall!
-                if post_flee == {'x': cx, 'y': cy}:
-                    print("This is a physical wall! Stopping script.")
-                    break
-        else:
-            stuck_count = 0
+    return new_pos
+
+def main():
+    pos = mgba.get_coordinates()
+    print("Initial Position:", pos)
+    
+    # We are at (12, 8). Let's go to (12, 11)
+    path = [
+        ("Down", (12, 9)),
+        ("Down", (12, 10)),
+        ("Down", (12, 11)),
+        # Left to Column 10
+        ("Left", (11, 11)),
+        ("Left", (10, 11)),
+        # Down Column 10 to Row 16
+        ("Down", (10, 12)),
+        ("Down", (10, 13)),
+        ("Down", (10, 14)),
+        ("Down", (10, 15)),
+        ("Down", (10, 16)),
+        # Try to walk Right to Column 20 along Row 16
+        ("Right", (11, 16)),
+        ("Right", (12, 16)),
+        ("Right", (13, 16)),
+        ("Right", (14, 16)),
+        ("Right", (15, 16)),
+        ("Right", (16, 16)),
+        ("Right", (17, 16)),
+        ("Right", (18, 16)),
+        ("Right", (19, 16)),
+        ("Right", (20, 16)),
+        # Walk DOWN to (20, 17) and Left to (19, 18)
+        ("Down", (20, 17)),
+        ("Left", (19, 17)),
+        ("Down", (19, 18))
+    ]
+    
+    for dir, target in path:
+        while True:
+            pos = mgba.get_coordinates()
+            if pos['x'] == target[0] and pos['y'] == target[1]:
+                break
+                
+            # If coordinates changed drastically, we fell through balcony drop!
+            cx, cy = pos['x'], pos['y']
+            tx, ty = target
+            actual_dir = dir
+            if abs(tx - cx) + abs(ty - cy) > 1:
+                print("WARPED! Fell through balcony drop! New position:", pos)
+                return
+                
+            new_pos = walk_step(actual_dir, target)
+            if new_pos == pos:
+                time.sleep(0.5)
+                
+    time.sleep(1.5)
+    print("Final Position:", mgba.get_coordinates())
+    scr = mgba.take_screenshot()
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
-    walk_to_balcony()
+    main()
