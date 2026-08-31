@@ -50,36 +50,37 @@ def walk_to_target(target):
 
 def main():
     # Currently at (27, 15).
-    # Let's systematically walk over all walkable tiles in the fenced room area.
-    # We will walk on all coordinates in the box (22-28, 12-19) that are reachable.
-    # To do this systematically, we will list the target tiles and walk to each.
-    fenced_tiles = [
-        (26, 15), (25, 15), (24, 15), (23, 15),
-        (23, 16), (24, 16), (25, 16), (26, 16), (27, 16), (28, 16),
-        (25, 17), (24, 17), (24, 18), (25, 18),
-        # Let's also check if there are tiles to the left on Rows 14-16
-        (22, 16), (22, 15), (22, 14),
-        (21, 16), (21, 15), (21, 14)
+    # Remaining tiles to search inside/near the fenced room on 1F East:
+    path = [
+        (26, 15),
+        (25, 15),
+        (25, 16),
+        (26, 16),
+        (27, 16),
+        (28, 16), # far bottom-right
+        (27, 16), (26, 16), (25, 16), (24, 16), (23, 16),
+        (22, 16), (21, 16), # left side of the fence
+        (21, 15), (22, 15),
+        (22, 14), (21, 14)
     ]
     
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
-    print("Searching inside the fenced room area...")
-    for target in fenced_tiles:
+    for target in path:
         pos_before = mgba.get_coordinates()
-        # If the target is not walkable or we are blocked, walk_to_target will try and then move on.
         try:
             walk_to_target(target)
         except Exception as e:
-            print(f"Error walking to {target}: {e}")
-            
+            print(f"Error: {e}")
         pos_after = mgba.get_coordinates()
+        
+        # Warp check: did our floor change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
-            print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful! Found the stairs!")
-            return
+            print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
+            break
             
-    print("Finished search. No warp found inside the fenced room. Final position:", mgba.get_coordinates())
+    print("Finished path. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
