@@ -13,13 +13,13 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_to_b1f():
-    # From (21, 6) on 1F East to the stairs
+def walk_around_wall_to_b1f():
+    # Path around Column 22 wall on Row 6 by going Up to Row 3 first.
     path = [
         (21, 6),
-        (22, 6), (23, 6), (24, 6), (25, 6), # Right to Column 25
-        (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), # Down Column 25 (Gate is open)
-        (25, 14), # Inside fenced room
+        (21, 5), (21, 4), (21, 3), # Up to Row 3
+        (22, 3), (23, 3), (24, 3), (25, 3), # Right past Column 22 wall
+        (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), # Down Column 25
         (26, 14) # Stairs to B1F East
     ]
     
@@ -34,7 +34,6 @@ def walk_to_b1f():
         print(f"Current Position: ({x}, {y})")
         
         # Warp check: if we are no longer on 1F, we have warped!
-        # If we reach (26, 14) on 1F, we step Right onto the stairs.
         if x == 26 and y == 14:
             print("Arrived at B1F East stairs! Stepping onto them...")
             mgba.press_buttons(["Right", "sleep 1000"])
@@ -89,4 +88,4 @@ def walk_to_b1f():
     pos = mgba.get_coordinates()
     print("Final Position:", pos)
 
-walk_to_b1f()
+walk_around_wall_to_b1f()
