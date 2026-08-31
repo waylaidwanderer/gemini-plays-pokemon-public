@@ -15,66 +15,58 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def search():
-    # Currently at (21, 3)
-    # We will walk to Column 26 and test stepping on various rows
-    # to find the pitfall trap.
+def walk_step(direction, target):
+    pos = mgba.get_coordinates()
+    cx, cy = pos['x'], pos['y']
+    print(f"Current: ({cx}, {cy}) | Pressing {direction} to go to {target}")
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    new_pos = mgba.get_coordinates()
+    if new_pos == pos:
+        # Check for battle
+        print("No movement, checking for battle...")
+        flee_battle()
+        new_pos = mgba.get_coordinates()
+    return new_pos
+
+def main():
+    pos = mgba.get_coordinates()
+    print("Initial Position on 3F East:", pos)
     
+    # Strictly adjacent search path of pink checkered tiles:
+    # Starting at (26, 3)
     path = [
-        # Walk back to (26, 3)
-        (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-        # Test Column 26 Row 2
-        (26, 2),
-        # Test Column 26 Row 1
-        (26, 1),
-        # Walk to Column 27 Row 1
-        (27, 1),
-        # Test Column 27 Row 2
-        (27, 2),
-        # Test Column 27 Row 3
-        (27, 3),
-        # Test Column 27 Row 4
-        (27, 4),
-        # Test Column 27 Row 5
-        (27, 5),
-        # Test Column 26 Row 6
-        (26, 6),
-        # Test Column 26 Row 7
-        (26, 7),
+        ("Right", (27, 3)),
+        ("Down", (27, 4)),
+        ("Left", (26, 4)),
+        ("Left", (25, 4)),
+        ("Down", (25, 5)),
+        ("Right", (26, 5)),
+        ("Right", (27, 5)),
+        ("Right", (28, 5)),
+        ("Up", (28, 4))
     ]
     
-    for target in path:
-        pos = mgba.get_coordinates()
-        cx, cy = pos['x'], pos['y']
-        
-        # Get direction
-        direction = None
-        if target[0] > cx: direction = "Right"
-        elif target[0] < cx: direction = "Left"
-        elif target[1] > cy: direction = "Down"
-        elif target[1] < cy: direction = "Up"
-        
-        if direction is not None:
-            print(f"Current: ({cx}, {cy}) | Stepping to: {target} via {direction}")
-            mgba.press_buttons([direction])
-            time.sleep(0.6)
-            
-            new_pos = mgba.get_coordinates()
-            # If coordinates changed drastically, we fell!
-            if new_pos != pos and abs(new_pos['x'] - pos['x']) + abs(new_pos['y'] - pos['y']) > 1:
-                print("WARPED! Fell through pitfall! New position:", new_pos)
-                return True
+    for dir, target in path:
+        while True:
+            pos = mgba.get_coordinates()
+            if pos['x'] == target[0] and pos['y'] == target[1]:
+                break
                 
-            # If we didn't move but no battle, maybe wall
+            # If coordinates changed drastically, we fell through the pitfall!
+            cx, cy = pos['x'], pos['y']
+            tx, ty = target
+            actual_dir = dir
+            if abs(tx - cx) + abs(ty - cy) > 1:
+                print("WARPED! Fell through the pitfall! New position:", pos)
+                return
+                
+            new_pos = walk_step(actual_dir, target)
             if new_pos == pos:
-                print("Failed to move, checking for battle...")
-                flee_battle()
-                post_flee = mgba.get_coordinates()
-                if post_flee == pos:
-                    print(f"Blocked at {pos} trying to go to {target} (physical wall/obstacle)")
-                    
-    print("Search completed. No pitfall triggered.")
-    return False
+                time.sleep(0.5)
+                
+    time.sleep(1.0)
+    print("Final position:", mgba.get_coordinates())
 
 if __name__ == "__main__":
-    search()
+    main()
