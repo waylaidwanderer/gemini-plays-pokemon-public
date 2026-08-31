@@ -49,17 +49,25 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (10, 9) on 3F West in State B.
-    # Path to switch at (2, 5) via Column 12 and Row 2:
-    path = [
-        # Walk RIGHT to Column 12
-        (11, 9), (12, 9),
-        # Walk UP Column 12 to Row 2
-        (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2),
-        # Walk LEFT along Row 2 to Column 2
-        (11, 2), (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2), (3, 2), (2, 2),
-        # Walk DOWN Column 2 and 3 to stand at (3, 5)
-        (2, 3), (2, 4), (3, 4), (3, 5)
+    # Currently at (22, 16) on 3F East in State B.
+    # Walk back to the switch at (2, 5) on 3F West:
+    path_to_switch = [
+        # Walk RIGHT along Row 16 to Column 24
+        (23, 16), (24, 16),
+        # Walk UP Column 24 to Row 12
+        (24, 15), (24, 14), (24, 13), (24, 12),
+        # Walk RIGHT along Row 12 to Column 26
+        (25, 12), (26, 12),
+        # Walk UP Column 26 to Row 3
+        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
+        # Walk LEFT Row 3 to Column 12 on 3F West
+        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
+        # Up Column 12 to Row 2
+        (12, 2),
+        # Left Row 2 to Column 4
+        (11, 2), (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2),
+        # Down Column 4 and 3 to (3, 5)
+        (4, 3), (4, 4), (4, 5), (3, 5)
     ]
     
     pos = mgba.get_coordinates()
@@ -67,22 +75,23 @@ def main():
     
     start_idx = 0
     min_dist = 9999
-    for i, target in enumerate(path):
+    for i, target in enumerate(path_to_switch):
         dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
         if dist < min_dist:
             min_dist = dist
             start_idx = i
             
-    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
-    for idx in range(start_idx, len(path)):
-        target = path[idx]
+    print(f"Walking to switch from index {start_idx} (target: {path_to_switch[start_idx]})")
+    for idx in range(start_idx, len(path_to_switch)):
+        target = path_to_switch[idx]
         walk_to_target(target)
         
-    print("Reached switch area at (3, 5). Turning LEFT to face switch at (2, 5)...")
+    print("Reached (3, 5). Turning LEFT to face switch at (2, 5)...")
     mgba.press_buttons(["Left"])
-    time.sleep(0.5)
+    time.sleep(0.8)
     
-    print("Pressing A to interact with Mewtwo statue switch at (2, 5) to set to State A...")
+    # Toggle switch to State A (requires exactly 4 A presses to clear text box)
+    print("Toggling switch to State A...")
     mgba.press_buttons(["A"])
     time.sleep(0.4)
     mgba.press_buttons(["A"])
@@ -92,11 +101,11 @@ def main():
     mgba.press_buttons(["A"])
     time.sleep(0.8)
     
-    # Clear residual text / menu
+    # Clear residual dialog
     mgba.press_buttons(["B"])
     time.sleep(0.4)
     
-    print("Toggled switch. Final position:", mgba.get_coordinates())
+    print("Toggled switch to State A. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
