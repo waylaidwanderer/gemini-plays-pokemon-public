@@ -18,11 +18,13 @@
   - Shutter gate at `(25, 13)` on Column 25 is CLOSED.
   - Shutter gate at `(4, 6)` on 3F West is OPEN.
   - Shutter gates at `(19, 2)` and `(21, 2)` on 3F East are CLOSED.
+  - Shutter gate at `(21, 17)` on Column 21 (Balcony) is CLOSED.
   - The northeastern Scientist room on 3F East is completely isolated in State B.
 - **State A:**
   - Shutter gate at `(25, 13)` on Column 25 is OPEN.
   - Shutter gate at `(4, 6)` on 3F West is CLOSED.
   - Shutter gates at `(19, 2)`, `(21, 2)` on 3F East are OPEN.
+  - Shutter gate at `(21, 17)` on Column 21 (Balcony) is OPEN.
   - This allows horizontal crossing between 3F East and the southern half of 3F East via Row 2, Column 21 (gate at (21, 5) is OPEN in State A).
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
