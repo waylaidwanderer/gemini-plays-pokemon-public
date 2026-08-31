@@ -26,26 +26,22 @@ def walk_step(action):
     return new_pos
 
 def main():
-    # Currently at (5, 6) on 1F West
+    # Currently at (1, 8) on 1F West
     # Path to (2, 6):
-    # 1. Down to (5, 7)
-    # 2. Left to (4, 7) (open gate in State A)
-    # 3. Left to (3, 7)
-    # 4. Left to (2, 7)
-    # 5. Up to (2, 6)
+    # 1. Up to (1, 7)
+    # 2. Up to (1, 6)
+    # 3. Right to (2, 6)
     path = [
-        ("Down", 5, 7),
-        ("Left", 4, 7),
-        ("Left", 3, 7),
-        ("Left", 2, 7),
-        ("Up", 2, 6)
+        ("Up", 1, 7),
+        ("Up", 1, 6),
+        ("Right", 2, 6)
     ]
     
     idx = 0
     stuck_count = 0
     last_pos = None
     
-    print("Walking to 1F West Mewtwo switch...")
+    print("Walking to 1F West Mewtwo switch from (1, 8)...")
     while idx < len(path):
         action, tx, ty = path[idx]
         pos = mgba.get_coordinates()
