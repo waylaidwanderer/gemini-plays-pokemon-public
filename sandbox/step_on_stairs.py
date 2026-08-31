@@ -1,17 +1,74 @@
 import mgba
 import time
 
+def flee_battle():
+    print("Wild battle! Fleeing...")
+    # Clean up screen text
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+    # Select RUN
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.5)
+    # Clear "Got away safely!"
+    for _ in range(5):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+
+def walk_step(direction, target):
+    pos = mgba.get_coordinates()
+    cx, cy = pos['x'], pos['y']
+    print(f"Current: ({cx}, {cy}) | Pressing {direction} to go to {target}")
+    mgba.press_buttons([direction])
+    time.sleep(0.4)
+    new_pos = mgba.get_coordinates()
+    if new_pos == pos:
+        # Check for battle
+        print("No movement, checking for battle...")
+        flee_battle()
+        new_pos = mgba.get_coordinates()
+    return new_pos
+
 def main():
-    pos1 = mgba.get_coordinates()
-    print("Initial Position on 1F West:", pos1)
+    pos = mgba.get_coordinates()
+    print("Initial Position:", pos)
     
-    print("Stepping Up to (7, 10) on 1F West...")
-    mgba.press_buttons(["Up"])
-    time.sleep(1.5) # Wait for warp
+    # Path to (22, 1) on 2F East
+    path = [
+        ("Left", (21, 6)),
+        ("Left", (20, 6)),
+        ("Left", (19, 6)),
+        ("Up", (19, 5)),
+        ("Up", (19, 4)),
+        ("Right", (20, 4)),
+        ("Up", (20, 3)),
+        ("Up", (20, 2)),
+        ("Right", (21, 2)),
+        ("Right", (22, 2)),
+        ("Up", (22, 1))
+    ]
     
-    pos2 = mgba.get_coordinates()
-    print("Position after Up:", pos2)
-    
+    for dir, target in path:
+        while True:
+            pos = mgba.get_coordinates()
+            if pos['x'] == target[0] and pos['y'] == target[1]:
+                break
+                
+            # If coordinates changed drastically, we warped
+            cx, cy = pos['x'], pos['y']
+            tx, ty = target
+            actual_dir = dir
+            if abs(tx - cx) + abs(ty - cy) > 1:
+                print("WARPED! Map transition detected! New position:", pos)
+                return
+                
+            new_pos = walk_step(actual_dir, target)
+            if new_pos == pos:
+                time.sleep(0.5)
+                
+    # Final check of warp after stepping on (22, 1)
+    time.sleep(1.5)
+    print("Final Position after walk:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
