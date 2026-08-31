@@ -72,67 +72,41 @@ def walk_path_robust(target_path):
         else:
             stuck_count = 0
 
-def step_on_stairs(action, tx, ty):
-    # This function steps on the stair tile and waits for map load
-    print(f"Stepping onto stairs at ({tx}, {ty}) via {action}...")
-    walk_step(action)
-    time.sleep(1.5)
-    new_pos = mgba.get_coordinates()
-    print("New Position after stairs:", new_pos)
-    return new_pos
-
-def walk_step(action):
-    pos = mgba.get_coordinates()
-    x, y = pos['x'], pos['y']
-    mgba.press_buttons([action])
-    time.sleep(0.4)
-    new_pos = mgba.get_coordinates()
-    if new_pos == {'x': x, 'y': y}:
-        flee_battle()
-        mgba.press_buttons([action])
-        time.sleep(0.4)
-        new_pos = mgba.get_coordinates()
-    return new_pos
-
 def main():
     # Currently at (8, 6) on 1F West
-    # 1. Walk to stairs at (7, 8) on 1F West
-    path_to_1f_stairs = [(8, 7), (8, 8), (7, 8)]
+    # 1. Walk to stairs at (5, 10) on 1F West
+    path_to_1f_stairs = [
+        (7, 6),
+        (6, 6),
+        (5, 6),
+        (5, 7),
+        (5, 8),
+        (5, 9),
+        (5, 10) # Triggers warp to 2F West (5, 11)
+    ]
     walk_path_robust(path_to_1f_stairs)
     
-    # Take stairs to 2F West (step on (7, 8) again to trigger warp if not triggered)
-    pos = mgba.get_coordinates()
-    if pos['x'] == 7 and pos['y'] == 8:
-        # Step UP or Down? The stairs is at (7, 8), we step on it.
-        # It should trigger warp immediately.
-        pass
-        
-    time.sleep(1.0)
+    # Wait for map transition to 2F West
+    time.sleep(1.5)
+    
     pos = mgba.get_coordinates()
     print("Current Position on 2F West:", pos)
     
     # 2. On 2F West: walk to 2F East northeast stairs at (22, 1)
-    # Landing on 2F West is typically around (7, 8).
-    # Path to 2F East stairs:
-    # Walk Down to Row 11: (7, 11)
-    # Walk Right to 2F East Row 11: (22, 11)?
-    # Wait, let's check if Row 11 is open across the whole floor on 2F in State A!
-    # Yes, "On 2F, since State A gates on Row 11 are OPEN, walk freely to 2F East."
-    # Let's write the 2F path:
+    # Landing on 2F West is (5, 11).
+    # Since Row 11 gates are open in State A, we can walk:
+    # Right to (22, 11)
+    # Up to (22, 1)
     path_2f = []
-    # From current 2F position, walk to (7, 11)
-    path_2f.extend([(7, 9), (7, 10), (7, 11)])
-    # Walk Right to Column 22 on Row 11
-    for col in range(8, 23):
+    for col in range(6, 23):
         path_2f.append((col, 11))
-    # Walk Up Column 22 to the northeast stairs at (22, 1)
     for row in range(10, 0, -1):
         path_2f.append((22, row))
         
     walk_path_robust(path_2f)
     
     # Take stairs UP to 3F East (landing at 22, 1)
-    print("Stepping UP to 3F East...")
+    time.sleep(1.5)
     pos = mgba.get_coordinates()
     print("Completed transition. Position should be on 3F East. Current:", pos)
 
