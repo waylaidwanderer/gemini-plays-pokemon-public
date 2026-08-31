@@ -49,41 +49,31 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Path from (17, 6) to the fenced room entrance at (25, 13):
-    path_to_entrance = [
-        (17, 5), (18, 5), (19, 5), (20, 5), (21, 5),
-        (21, 4), (21, 3),
-        (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
-        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
-        (25, 12),
-        (25, 13) # entrance gate
-    ]
-    
-    # Grid of tiles inside the fenced room to systematically search:
+    # Currently at (27, 15).
+    # Let's systematically walk over all walkable tiles in the fenced room area.
+    # We will walk on all coordinates in the box (22-28, 12-19) that are reachable.
+    # To do this systematically, we will list the target tiles and walk to each.
     fenced_tiles = [
-        (25, 14), (26, 14), (27, 14), (28, 14),
-        (28, 15), (27, 15), (26, 15), (25, 15),
-        (25, 16), (26, 16), (27, 16), (28, 16)
+        (26, 15), (25, 15), (24, 15), (23, 15),
+        (23, 16), (24, 16), (25, 16), (26, 16), (27, 16), (28, 16),
+        (25, 17), (24, 17), (24, 18), (25, 18),
+        # Let's also check if there are tiles to the left on Rows 14-16
+        (22, 16), (22, 15), (22, 14),
+        (21, 16), (21, 15), (21, 14)
     ]
     
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
-    # 1. Walk to the fenced room entrance
-    print("Walking to fenced room entrance...")
-    for target in path_to_entrance:
-        pos_before = mgba.get_coordinates()
-        walk_to_target(target)
-        pos_after = mgba.get_coordinates()
-        if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
-            print(f"WARPED! From {pos_before} to {pos_after}. Map transition occurred early!")
-            return
-            
-    # 2. Walk on every tile inside the fenced room
-    print("Searching inside the fenced room...")
+    print("Searching inside the fenced room area...")
     for target in fenced_tiles:
         pos_before = mgba.get_coordinates()
-        walk_to_target(target)
+        # If the target is not walkable or we are blocked, walk_to_target will try and then move on.
+        try:
+            walk_to_target(target)
+        except Exception as e:
+            print(f"Error walking to {target}: {e}")
+            
         pos_after = mgba.get_coordinates()
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful! Found the stairs!")
