@@ -25,3 +25,11 @@
 - [ ] Trainer: (13, 5) facing Up.
 - [ ] Trainer: (16, 9) facing Down.
 - [ ] Gym Leader Giovanni: Northwest arena.
+## Gym Floor - Southwest Sector (Rows 10-17)
+- Stop tiles: (4, 13), (7, 16).
+- Spin tiles:
+  - (5, 13) Right spin tile.
+  - (4, 14) Right spin tile.
+- Trainers:
+  - Trainer: Located at (2, 16).
+  - Trainer: Located at (11, 11).
