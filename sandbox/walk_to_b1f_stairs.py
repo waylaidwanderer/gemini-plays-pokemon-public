@@ -49,20 +49,16 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    print("Dismissing 'Got away safely!' text...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
-    # Path to B1F East stairs from (23, 14):
-    # Up to (23, 13), Left to (22, 13), Up Column 22 to (22, 7)
+    # Currently at (23, 14) on 1F East inside the fenced room.
+    # Path: Right to Column 25, Up Column 25 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
     path = [
-        (23, 13),
-        (22, 13),
-        (22, 12),
-        (22, 11),
-        (22, 10),
-        (22, 9),
-        (22, 8),
+        # Right to Column 25
+        (24, 14), (25, 14),
+        # Up Column 25 to Row 6 (passing through open gate at 25, 13)
+        (25, 13), (25, 12), (25, 11), (25, 10), (25, 9), (25, 8), (25, 7), (25, 6),
+        # Left along Row 6 to Column 22
+        (24, 6), (23, 6), (22, 6),
+        # Down Column 22 to Row 7 (the B1F stairs!)
         (22, 7)
     ]
     
@@ -77,14 +73,14 @@ def main():
             min_dist = dist
             start_idx = i
             
-    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
+    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
     for idx in range(start_idx, len(path)):
         target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Warp check
+        # Warp check: did our floor change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
             break
