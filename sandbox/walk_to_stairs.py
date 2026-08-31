@@ -16,48 +16,69 @@ def flee_battle():
         time.sleep(0.3)
 
 def walk_to_stairs():
-    # Path from (10, 7) to (7, 10) on 3F West in State B:
-    # 1. Right to Column 12: (11, 7), (12, 7)
-    # 2. Down Column 12 to Row 11: (12, 8), (12, 9), (12, 10), (12, 11)
-    # 3. Left along Row 11 to Column 7: (11, 11), (10, 11), (9, 11), (8, 11), (7, 11)
-    # 4. UP to stairs at (7, 10)
-    
+    # Robust, monotonic path from (28, 7) to B1F East Stairs at (22, 7) on 1F East:
     path = [
-        (10, 7),
-        (11, 7),
-        (12, 7),
-        (12, 8),
-        (12, 9),
-        (12, 10),
-        (12, 11),
+        (28, 7),
+        (28, 6),
+        (28, 5),
+        (28, 4),
+        (27, 4),
+        (26, 4),
+        (25, 4),
+        (25, 3),
+        (24, 3),
+        (23, 3),
+        (22, 3),
+        (21, 3),
+        (21, 4),
+        (21, 5),
+        (21, 6),
+        (21, 7),
+        (22, 7)
     ]
-    for col in range(11, 6, -1):
-        path.append((col, 11))
-    path.append((7, 10))
+    
+    # Initialize current_idx to the closest point in the entire path
+    pos = mgba.get_coordinates()
+    cx, cy = pos['x'], pos['y']
+    min_dist = 999999
+    closest_idx = 0
+    for i, (tx, ty) in enumerate(path):
+        dist = abs(tx - cx) + abs(ty - cy)
+        if dist < min_dist:
+            min_dist = dist
+            closest_idx = i
+    current_idx = closest_idx
+    print(f"Initialized path index to {current_idx}/{len(path)-1} at current position ({cx}, {cy})")
     
     stuck_count = 0
-    while True:
+    while current_idx < len(path):
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
         
-        # If we reached final target
-        if cx == 7 and cy == 10:
-            print("Reached staircase at (7, 10) on 3F West!")
+        # If we reached the stairs and warped, we will detect map/coordinate change
+        if cx == 22 and cy == 7:
+            print("Standing on B1F East Stairs (22, 7)!")
+            # Take step to trigger warp if not warped automatically
+            mgba.press_buttons(["A"])
+            time.sleep(1.5)
+            new_pos = mgba.get_coordinates()
+            print("Position after warp attempt:", new_pos)
             break
             
-        # Find closest path node
-        min_dist = 999999
-        closest_idx = 0
-        for i, (tx, ty) in enumerate(path):
-            dist = abs(tx - cx) + abs(ty - cy)
-            if dist < min_dist:
-                min_dist = dist
-                closest_idx = i
+        # Monotonic path progression (check from furthest lookahead down to current_idx)
+        best_idx = current_idx
+        for i in range(min(current_idx + 4, len(path) - 1), current_idx - 1, -1):
+            dist = abs(path[i][0] - cx) + abs(path[i][1] - cy)
+            if dist <= 1:
+                best_idx = i
+                break
                 
-        if cx == path[closest_idx][0] and cy == path[closest_idx][1]:
-            target_idx = min(closest_idx + 1, len(path) - 1)
+        current_idx = max(current_idx, best_idx)
+        
+        if cx == path[current_idx][0] and cy == path[current_idx][1]:
+            target_idx = min(current_idx + 1, len(path) - 1)
         else:
-            target_idx = closest_idx
+            target_idx = current_idx
             
         tx, ty = path[target_idx]
         
@@ -69,9 +90,10 @@ def walk_to_stairs():
         elif ty < cy: direction = "Up"
         
         if direction is None:
-            break
+            current_idx += 1
+            continue
             
-        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
+        print(f"Current: ({cx}, {cy}) | Path Index: {current_idx}/{len(path)-1} | Heading to: ({tx}, {ty}) via {direction}")
         mgba.press_buttons([direction])
         time.sleep(0.4)
         
@@ -84,7 +106,6 @@ def walk_to_stairs():
                 flee_battle()
                 stuck_count = 0
                 post_flee = mgba.get_coordinates()
-                print("Post-flee coordinates:", post_flee)
                 if post_flee == {'x': cx, 'y': cy}:
                     print("This is a physical wall! Stopping script.")
                     break
