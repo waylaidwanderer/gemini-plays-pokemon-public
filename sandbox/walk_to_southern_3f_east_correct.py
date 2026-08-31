@@ -30,18 +30,11 @@ def walk_step_safe(direction, target):
     time.sleep(0.5)
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
-        # We didn't move. This could be due to a battle or a physical wall.
-        # Let's try pressing B to check if we are in battle.
         print("No movement detected. Checking if in battle...")
         mgba.press_buttons(["B"])
         time.sleep(0.5)
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # We still didn't move. Let's try to flee battle but without pressing overworld directions!
-            # To avoid moving the player if we are in overworld, we can press Start to check overworld.
-            # But let's just attempt a safe flee: if we are in battle, the cursor will move to RUN and we will flee.
-            # If we are in overworld, pressing B, Down, Right, A might open and close the menu or do nothing.
-            # Actually, to be completely safe, we can just run the flee battle routine.
             flee_battle_safe()
             new_pos = mgba.get_coordinates()
     return new_pos
@@ -50,7 +43,7 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial Position:", pos)
     
-    # Correct path to the southern half of 3F East via Row 2 and Column 21
+    # Correct path to the southern half of 3F East via Row 3 and Column 21
     path = [
         # From (4, 5) to (10, 5)
         ("Right", (5, 5)),
@@ -59,24 +52,22 @@ def main():
         ("Right", (8, 5)),
         ("Right", (9, 5)),
         ("Right", (10, 5)),
-        # Up Column 10 to Row 2
+        # Up Column 10 to Row 3
         ("Up", (10, 4)),
         ("Up", (10, 3)),
-        ("Up", (10, 2)),
-        # Right Row 2 to Column 21
-        ("Right", (11, 2)),
-        ("Right", (12, 2)),
-        ("Right", (13, 2)),
-        ("Right", (14, 2)),
-        ("Right", (15, 2)),
-        ("Right", (16, 2)),
-        ("Right", (17, 2)),
-        ("Right", (18, 2)),
-        ("Right", (19, 2)),
-        ("Right", (20, 2)),
-        ("Right", (21, 2)),
+        # Right Row 3 to Column 21
+        ("Right", (11, 3)),
+        ("Right", (12, 3)),
+        ("Right", (13, 3)),
+        ("Right", (14, 3)),
+        ("Right", (15, 3)),
+        ("Right", (16, 3)),
+        ("Right", (17, 3)),
+        ("Right", (18, 3)),
+        ("Right", (19, 3)),
+        ("Right", (20, 3)),
+        ("Right", (21, 3)),
         # Down Column 21 to Row 12
-        ("Down", (21, 3)),
         ("Down", (21, 4)),
         ("Down", (21, 5)),
         ("Down", (21, 6)),
