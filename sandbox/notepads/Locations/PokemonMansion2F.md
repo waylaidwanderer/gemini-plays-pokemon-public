@@ -15,7 +15,7 @@
 ### Northwest Room
 - Boundaries: cols 1-8, rows 1-7
 - Interior: Rubble at (1..3, 2..3), wooden table at (6..7, 4..5), display table at (4, 6..7).
-- Mewtwo Statue Switch: Located at (2, 4..5) (base/switch at (2, 5), head at (2, 4)). Interactable from (2, 6) facing Up or (3, 5) facing Left.
+- **Northwest Wing Stairs to 3F**: Located at (6, 1) in northwest sector. Connects directly to 3F Northern Sector at (6, 1) [Verified Turn 21206].
 - Thoroughfare along row 1 (cols 1-28) connects Northwest Room to East Wing.
 
 ### Stairs to 3F

@@ -13,7 +13,8 @@
 - Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455].
 - Empirical Topology (Turn 21197): Fully enclosed room (cols 0-10, rows 8-17). Solid rubble at (1..9, 6..7) blocks northern passage; solid vertical wall at col 11 blocks eastern passage; boundary walls at col 0 and row 17. Only exit is descending stairs at (7, 10) back to 2F.
 
-### Northeast & Eastern Sector (Accessible via 2F East Wing Stairs at (21, 23))
+### Northern & Eastern Sector (Stairs from 2F at (6, 1))
+- Stairs down to 2F: Located at (6, 1) in northwest sector [Arrival on 3F at (6, 2), Verified Turn 21207].
 - Mewtwo Statue Switch: Switch at (10, 5) [Observed Turn 18444].
 - Shutter Gate: Located at (15, 10..11).
 - Balcony Drop-off Pits (Row 14):
