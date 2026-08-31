@@ -31,22 +31,31 @@ def walk_step(direction, target):
 
 def main():
     pos = mgba.get_coordinates()
-    print("Initial Position on 2F:", pos)
+    print("Initial Position on 2F West:", pos)
     
-    # 1. Walk Down Column 10 to Row 6
-    while pos['y'] < 6:
-        pos = walk_step("Down", (pos['x'], pos['y'] + 1))
+    # Walk DOWN Column 10 as far as possible
+    while True:
+        pos = mgba.get_coordinates()
+        cx, cy = pos['x'], pos['y']
         
-    # 2. Explore Right along Row 6 as far as possible
-    print("Exploring Right along Row 6...")
-    for col in range(11, 29):
-        pos_before = mgba.get_coordinates()
-        pos_after = walk_step("Right", (col, 6))
-        if pos_after == pos_before:
-            print(f"Blocked at {pos_before} trying to go to ({col}, 6)")
+        # Try to step Down
+        new_pos = walk_step("Down", (cx, cy + 1))
+        if new_pos == pos:
+            print("Blocked from going Down!")
             break
             
-    print("Final position after Row 6 exploration:", mgba.get_coordinates())
+    # Walk Left as far as possible
+    while True:
+        pos = mgba.get_coordinates()
+        cx, cy = pos['x'], pos['y']
+        
+        # Try to step Left
+        new_pos = walk_step("Left", (cx - 1, cy))
+        if new_pos == pos:
+            print("Blocked from going Left!")
+            break
+            
+    print("Final Position on 2F West:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
