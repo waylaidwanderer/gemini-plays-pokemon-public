@@ -16,7 +16,8 @@
 | :--- | :--- | :--- | :--- |
 | (16, 10) | Down | (16, 12) | Entrance sector bypass |
 | (19, 11) | Up | (19, 2) | Entrance to North Sector |
-| (19, 1) | Left | (11, 1) | North Sector to Northwest Sector |
+| (19, 1) | Left | (11, 1) | North Sector to Northwest Sector (blocked by Karate King at (10, 1)) |
+| (10, 2) | Left | Northwest Arena | Direct access to Giovanni's arena from corridor (10, 3..5) |
 | (11, 2) | Right | (17, 2) | Northwest Sector to North-Central Sector |
 | (18, 2) | Down | (18, 11) | North-Central back to Entrance Sector |
 | (5, 13) | Right | (7, 16) | Southwest spin tile |
