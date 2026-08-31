@@ -3,74 +3,97 @@ import time
 
 def flee_battle():
     print("Wild battle! Fleeing...")
+    # Clean up screen text
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.3)
+    # Select RUN
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.5)
+    # Clear "Got away safely!"
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_step(action):
-    pos = mgba.get_coordinates()
-    x, y = pos['x'], pos['y']
-    mgba.press_buttons([action])
-    time.sleep(0.4)
-    new_pos = mgba.get_coordinates()
-    if new_pos == {'x': x, 'y': y}:
-        flee_battle()
-        mgba.press_buttons([action])
-        time.sleep(0.4)
-        new_pos = mgba.get_coordinates()
-    return new_pos
+def get_dir(cx, cy, tx, ty):
+    if tx > cx: return "Right"
+    if tx < cx: return "Left"
+    if ty > cy: return "Down"
+    if ty < cy: return "Up"
+    return None
 
-def main():
-    # Currently at (1, 8) on 1F West
-    # Path to (2, 6):
-    # 1. Up to (1, 7)
-    # 2. Up to (1, 6)
-    # 3. Right to (2, 6)
-    path = [
-        ("Up", 1, 7),
-        ("Up", 1, 6),
-        ("Right", 2, 6)
-    ]
-    
-    idx = 0
+def walk_path_robust(target_path):
     stuck_count = 0
-    last_pos = None
     
-    print("Walking to 1F West Mewtwo switch from (1, 8)...")
-    while idx < len(path):
-        action, tx, ty = path[idx]
+    while True:
         pos = mgba.get_coordinates()
-        x, y = pos['x'], pos['y']
+        cx, cy = pos['x'], pos['y']
         
-        if x == tx and y == ty:
-            idx += 1
-            stuck_count = 0
-            continue
+        # If we reached the final target, we are done!
+        final_tx, final_ty = target_path[-1]
+        if cx == final_tx and cy == final_ty:
+            print("Reached final destination!")
+            break
             
-        if last_pos == (x, y):
+        # Find the closest point in target_path to our current position
+        min_dist = 999999
+        closest_idx = 0
+        for i, (tx, ty) in enumerate(target_path):
+            dist = abs(tx - cx) + abs(ty - cy)
+            if dist < min_dist:
+                min_dist = dist
+                closest_idx = i
+                
+        # We want to head towards the next tile in the path
+        if cx == target_path[closest_idx][0] and cy == target_path[closest_idx][1]:
+            target_idx = min(closest_idx + 1, len(target_path) - 1)
+        else:
+            target_idx = closest_idx
+            
+        tx, ty = target_path[target_idx]
+        direction = get_dir(cx, cy, tx, ty)
+        if direction is None:
+            break
+            
+        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
+        
+        # Take step
+        mgba.press_buttons([direction])
+        time.sleep(0.4)
+        
+        # Check if we moved
+        new_pos = mgba.get_coordinates()
+        if new_pos == {'x': cx, 'y': cy}:
             stuck_count += 1
-            if stuck_count > 2:
-                print("Stuck! Fleeing...")
+            if stuck_count > 1:
+                print("Stuck! Attempting to flee battle / clear obstacle...")
                 flee_battle()
                 stuck_count = 0
-                continue
         else:
             stuck_count = 0
-            last_pos = (x, y)
-            
-        walk_step(action)
-        
-    print("Arrived below the Mewtwo switch at (2, 6). Facing UP...")
-    # Face UP
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
+
+def main():
+    # Currently at (8, 6) on 1F West in State A
+    # Path to (2, 6) using Row 5 bypass:
+    path = [
+        (7, 6),
+        (6, 6),
+        (5, 6),
+        (5, 5), # Row 5 bypass start
+        (4, 5),
+        (3, 5), # Row 5 bypass end
+        (3, 6),
+        (2, 6)
+    ]
     
-    # Toggle switch to State B (4 A-presses)
+    walk_path_robust(path)
+    
+    print("Arrived below the Mewtwo switch at (2, 6). Facing UP...")
+    # Force facing UP
+    mgba.press_buttons(["Up"])
+    time.sleep(1.0)
+    
+    # Toggle switch to State B (4 A-presses with generous delays)
     print("Toggling switch to State B...")
     for press in range(1, 5):
         print(f"A-press {press}")
@@ -78,7 +101,7 @@ def main():
         time.sleep(2.0)
         
     final_pos = mgba.get_coordinates()
-    print("Final Position:", final_pos)
+    print("Final Position after toggle:", final_pos)
 
 if __name__ == "__main__":
     main()
