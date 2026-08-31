@@ -1400,6 +1400,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - Walk Right to Column 26. Walk DOWN Column 26 (completely open vertically) to Row 12. Walk Left to Column 25 on Row 12 to resume vertical traversal down Column 25.
 - **Bypassing Closed Shutter Gate at (4, 6) in State A:**
   - Walk from `(2, 6)` UP through Column 3 and Column 4 (`(3, 6)` -> `(3, 5)` -> `(4, 5)` -> `(4, 4)` -> `(4, 3)`) to Row 3, completely bypassing the closed gate.
+## Verified Staircase Warp Connections (Verified Turn 69023)
+- **3F West Stairs (5, 10):** Functional staircase warp leading DOWN to 2F West, landing at (5, 11) on 2F West. Completely open and accessible in both State A and State B!
+- **3F East Stairs (22, 1):** Landing point from 2F East stairs. Landing coordinate is (22, 1) on 3F East. 
+
 
 <hr>
 
