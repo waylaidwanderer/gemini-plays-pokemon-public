@@ -54,15 +54,16 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (19, 6) in the overworld on 3F East in State B
-    # Walk: Right Row 6 to Column 23, Down Column 23 to Row 12, Left Row 12 to Column 21,
-    # Down Column 21 to Row 18, Left Row 18 to Column 19, and Down to drop!
+    # Currently at (21, 6) in State B on 3F East
+    # Perfect State B path to the balcony drop
     path = [
-        # Right along Row 6 to Column 23
-        (20, 6), (21, 6), (22, 6), (23, 6),
+        # Up Column 21 to Row 3
+        (21, 5), (21, 4), (21, 3),
+        # Right Row 3 to Column 23 (open across Column 22 Partition Wall!)
+        (22, 3), (23, 3),
         # Down Column 23 to Row 12
-        (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
-        # Left along Row 12 to Column 21
+        (23, 4), (23, 5), (23, 6), (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
+        # Left Row 12 to Column 21
         (22, 12), (21, 12),
         # Down Column 21 to Row 18 (through open gate at 21, 17 in State B)
         (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
@@ -72,20 +73,8 @@ def main():
         (19, 19)
     ]
     
-    # Filter or resume path based on current position
-    pos = mgba.get_coordinates()
-    start_idx = 0
-    min_dist = 9999
-    for i, target in enumerate(path):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Resuming solve_mansion path from index {start_idx} (target: {path[start_idx]})")
-    
-    for idx in range(start_idx, len(path)):
-        target = path[idx]
+    print("Starting corrected State B balcony drop path from (21, 6)...")
+    for target in path:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
