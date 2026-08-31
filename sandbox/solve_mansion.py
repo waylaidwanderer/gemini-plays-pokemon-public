@@ -54,13 +54,19 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (10, 18) on 3F West in State B
-    # Correct State B path to the balcony drop via Row 6
+    # Currently at (10, 9) in battle on 3F West in State B
+    # First, let's flee from this battle
+    print("Fleeing current battle at (10, 9)...")
+    flee_battle_safe()
+    
+    # Correct State B path to the balcony drop from (10, 9)
     path = [
-        # Up Column 10 to Row 6
-        (10, 17), (10, 16), (10, 15), (10, 14), (10, 13), (10, 12), (10, 11), (10, 10), (10, 9), (10, 8), (10, 7), (10, 6),
+        # From (10, 9), walk Right to Column 12 to bypass the Row 8 rubble on Column 10
+        (11, 9), (12, 9),
+        # Up Column 12 to Row 6
+        (12, 8), (12, 7), (12, 6),
         # Right along Row 6 to Column 19
-        (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
+        (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
         # Down Column 19 to Row 12 (through open gate at 19, 8 in State B)
         (19, 7), (19, 8), (19, 9), (19, 10), (19, 11), (19, 12),
         # Right to Column 21 Row 12
@@ -73,7 +79,7 @@ def main():
         (19, 19)
     ]
     
-    # Filter or resume path based on current position
+    # Find our current position index in the path list
     pos = mgba.get_coordinates()
     start_idx = 0
     min_dist = 9999
@@ -83,7 +89,7 @@ def main():
             min_dist = dist
             start_idx = i
             
-    print(f"Resuming solve_mansion path from index {start_idx} (target: {path[start_idx]})")
+    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
     
     for idx in range(start_idx, len(path)):
         target = path[idx]
@@ -92,7 +98,6 @@ def main():
         pos_after = mgba.get_coordinates()
         
         # Robust warp check: did our Y position change drastically?
-        # On 3F Y is at most 18. If we fell to B1F, we'll land on B1F with Y coordinate different.
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. We fell through! Success!")
             break
