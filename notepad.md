@@ -2384,6 +2384,11 @@
 - Column 9 (rows 8-16): Solid vertical wall dividing Central corridor from West wing.
 - Row 8 (cols 6-15): Solid horizontal wall dividing northern rooms from central corridor.
 - Statue switch at (20, 3) base / (20, 2) top in Northeast Bedroom (accessible from (20, 4) facing Up).
+## Items Collected
+- (5, 4): TM22 (Solarbeam) [Collected Turn 21571]
+
+## Northwest & Southwest Wing Topology
+- Northwest Room (cols 2-8, rows 1-7) connects South via doorway at (4..5, 8).
 
 <hr>
 
