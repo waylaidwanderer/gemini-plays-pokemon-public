@@ -26,36 +26,34 @@ def walk_step(action):
     return new_pos
 
 def main():
-    # Currently at (5, 8) on 1F West
-    # Path to (5, 10) stairs:
-    # 1. Right to (7, 8)
-    # 2. Down to (7, 10)
-    # 3. Left to (5, 10)
-    path_1f = [
-        ("Right", 6, 8),
-        ("Right", 7, 8),
+    # Currently at (3, 6) on 1F West in State A
+    # Path to (7, 11) testing the (7, 9) gate:
+    # 1. Down to (3, 7)
+    # 2. Right to (4, 7) (open gate)
+    # 3. Right to (7, 7)
+    # 4. Down to (7, 11) (passing through (7, 8), (7, 9) gate, (7, 10))
+    path = [
+        ("Down", 3, 7),
+        ("Right", 4, 7),
+        ("Right", 5, 7),
+        ("Right", 6, 7),
+        ("Right", 7, 7),
+        ("Down", 7, 8),
         ("Down", 7, 9),
         ("Down", 7, 10),
-        ("Left", 6, 10),
-        ("Left", 5, 10) # Triggers warp to 2F West (5, 11)
+        ("Down", 7, 11)
     ]
     
     idx = 0
     stuck_count = 0
     last_pos = None
     
-    print("Walking to 1F West stairs...")
-    while idx < len(path_1f):
-        action, tx, ty = path_1f[idx]
+    print("Walking and testing (7, 9) vertical gate in State A...")
+    while idx < len(path):
+        action, tx, ty = path[idx]
         pos = mgba.get_coordinates()
         x, y = pos['x'], pos['y']
         
-        # Warp check: if we are on 2F West (our coordinates will typically be (5, 11) or close to it)
-        # And we were at (5, 10) on 1F, so if coordinates change to anything not on 1F
-        if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path_1f]:
-            print(f"Warped! Landed at: ({x}, {y})")
-            break
-            
         if x == tx and y == ty:
             idx += 1
             stuck_count = 0
@@ -74,9 +72,8 @@ def main():
             
         walk_step(action)
         
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("Current Position on 2F:", pos)
+    final_pos = mgba.get_coordinates()
+    print("Final Position after walk test:", final_pos)
 
 if __name__ == "__main__":
     main()
