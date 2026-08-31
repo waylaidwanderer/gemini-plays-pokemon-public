@@ -54,69 +54,37 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (26, 14) in State A on 3F East in the overworld
+    # Currently at (10, 12) in State B on 3F West (Got away safely text on screen)
     pos = mgba.get_coordinates()
-    print("Starting final solve_mansion from position:", pos)
+    print("Starting solve_mansion_final_phase3 from position:", pos)
     
-    # Phase 1: Walk from current position (26, 14) back to switch at (3, 11) in State A
-    # Since Column 26 Row 13 is a permanent solid wall panel, we must walk UP via Column 25 Row 13 (open in State A)!
-    path_to_switch = [
-        # Left to Column 25 Row 14
-        (25, 14),
-        # Up Column 25 to Row 12 (through the open gate at 25, 13)
-        (25, 13), (25, 12),
-        # Right to Column 26 Row 12
-        (26, 12),
-        # Up Column 26 to Row 1 (completely open above Row 13!)
-        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
-        # Left Row 1 to Column 12
-        (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
-        # Down Column 12 to Row 11
-        (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
-        # Left along Row 11 to Column 3
-        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
-    ]
-    
-    # Find our current position index in the path list
-    start_idx = 0
-    min_dist = 9999
-    for i, target in enumerate(path_to_switch):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Resuming PHASE 1 from path index {start_idx} (target: {path_to_switch[start_idx]})")
-    for idx in range(start_idx, len(path_to_switch)):
-        target = path_to_switch[idx]
-        walk_to_target(target)
-        
-    # Phase 2: Toggle switch to State B
-    walk_to_target((3, 11))
-    print("PHASE 2: Turning Left and toggling switch to State B...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    mgba.press_buttons(["A", "sleep 300", "A", "sleep 300", "A", "sleep 300", "A", "sleep 300"])
-    time.sleep(1.0)
-    
-    # Phase 3: Walk to the balcony drop in State B
-    path_to_balcony = [
-        # Right Row 11 to Column 10
-        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11),
+    # Correct State B path to the balcony drop from (10, 12)
+    path = [
         # Down Column 10 to Row 16
-        (10, 12), (10, 13), (10, 14), (10, 15), (10, 16),
+        (10, 13), (10, 14), (10, 15), (10, 16),
         # Right Row 16 to Column 21 (open in State B!)
         (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16), (20, 16), (21, 16),
         # Down Column 21 to Row 18 (open in State B!)
         (21, 17), (21, 18),
-        # Left Row 18 to Column 19 (balcony drop!)
+        # Left along Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
         # Down on (19, 18) to trigger the fall
         (19, 19)
     ]
     
-    print("PHASE 3: Walking to balcony drop in State B...")
-    for target in path_to_balcony:
+    # Find our current position index in the path list
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
+    
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
