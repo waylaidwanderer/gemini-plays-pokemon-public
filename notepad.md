@@ -2431,5 +2431,8 @@
 - Trainer: Burglar/Super Nerd at (17, 8) facing Down.
 - Quiz Machine: Located at (15, 7). Question: "CATERPIE evolves into BUTTERFREE?" -> YES.
 - Shutter Door: Located at (18..19, 6), opens to Room 2.
+## Room 2 (Northeast Sector)
+- Trainer: Super Nerd at (17, 2).
+- Room connects West along row 1 into Northwest sector (Room 3).
 
 <hr>
