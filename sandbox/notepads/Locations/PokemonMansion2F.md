@@ -32,3 +32,7 @@
 
 ## Row 2 Walkability Boundaries
 - **State B Corridor:** Row 2 on 2F is completely open and passable horizontally (Columns 5-12). However, on 2F East, a solid obstruction blocks horizontal travel past Column 14.
+
+
+## Verified Layout & Warp Facts (Turn 70007)
+- **Staircase Chain-Warp on 2F West:** The staircase at `(7, 10)` on 2F West is an active downward warp zone. Stepping on it immediately warps the player down to 1F West at `(7, 11)`.
