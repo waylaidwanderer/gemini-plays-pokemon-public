@@ -3,7 +3,7 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
-    # Clear "Wild GRIMER appeared!" text
+    # Clear battle text
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.2)
@@ -54,27 +54,54 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # If currently in battle, let's flee first
-    print("Starting solve_mansion path from current battle at (27, 12)...")
-    flee_battle_safe()
+    # Phase 1: Walk from current position (20, 16) back to switch at (3, 11) in State A
+    path_to_switch = [
+        # Right Row 16 to Column 26
+        (21, 16), (22, 16), (23, 16), (24, 16), (25, 16), (26, 16),
+        # Up Column 26 to Row 9
+        (26, 15), (26, 14), (26, 13), (26, 12), (26, 11), (26, 10), (26, 9),
+        # Right to Column 27 Row 9
+        (27, 9),
+        # Up Column 27 to Row 1
+        (27, 8), (27, 7), (27, 6), (27, 5), (27, 4), (27, 3), (27, 2), (27, 1),
+        # Left Row 1 to Column 12
+        (26, 1), (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
+        # Down Column 12 to Row 11
+        (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
+        # Left along Row 11 to Column 3
+        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
+    ]
     
-    # Corrected State A path to the balcony drop via Column 25
-    path = [
-        # Left to Column 25 Row 12
-        (26, 12), (25, 12),
-        # Down Column 25 to Row 16 (through the open shutter gate at 25, 13)
-        (25, 13), (25, 14), (25, 15), (25, 16),
-        # Left along Row 16 to Column 21
-        (24, 16), (23, 16), (22, 16), (21, 16),
-        # Down Column 21 to Row 18
+    print("PHASE 1: Walking back to switch in State A...")
+    for target in path_to_switch:
+        walk_to_target(target)
+        
+    # Phase 2: Toggle switch to State B
+    walk_to_target((3, 11))
+    print("PHASE 2: Turning Left and toggling switch to State B...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A", "sleep 300", "A", "sleep 300", "A", "sleep 300", "A", "sleep 300"])
+    time.sleep(1.0)
+    
+    # Phase 3: Walk to the balcony drop in State B
+    path_to_balcony = [
+        # Right Row 11 to Column 10
+        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11),
+        # Down Column 10 to Row 16
+        (10, 12), (10, 13), (10, 14), (10, 15), (10, 16),
+        # Right Row 16 to Column 21 (open in State B!)
+        (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16), (20, 16), (21, 16),
+        # Down Column 21 to Row 18 (open in State B!)
         (21, 17), (21, 18),
-        # Left along Row 18 to Column 19 (balcony drop!)
+        # Left Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
         # Down on (19, 18) to trigger the fall
         (19, 19)
     ]
     
-    for target in path:
+    print("PHASE 3: Walking to balcony drop in State B...")
+    for target in path_to_balcony:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
