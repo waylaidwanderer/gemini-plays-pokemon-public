@@ -28,3 +28,7 @@
 - Trainer: Burglar at (3, 14).
 - Quiz Machine: Located at (1, 13). Question: "POKéMON of the same kind and level are not identical?" -> YES.
 - Shutter Door: Located at (4..5, 12), opens to Room 6.
+## Room 6 (Northwest Sector - Final Room)
+- Trainer: Super Nerd at (3, 8).
+- Quiz Machine: Located at (1, 7). Question: "TM28 contains TOMBSTONER?" -> NO.
+- Shutter Door: Located at (4..5, 6), opens to Blaine's Arena.
