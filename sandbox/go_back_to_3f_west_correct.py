@@ -49,18 +49,18 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (21, 3)
-    # Correct path along Row 3 horizontally to Column 10, then Down to Row 11, then Left to switch
+    # Currently at (11, 7)
+    # Correct path: Right to Column 12, Down to Row 11, Left to Column 3 (switch)
     path = [
-        # Left along Row 3 to Column 10
-        (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
-        # Down Column 10 to Row 11
-        (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11),
-        # Left along Row 11 to Column 3
-        (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
+        # Move Right to Column 12
+        (12, 7),
+        # Move Down Column 12 to Row 11
+        (12, 8), (12, 9), (12, 10), (12, 11),
+        # Move Left Row 11 to Column 3
+        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
     ]
     
-    print("Starting correct walk to 3F West switch...")
+    print("Starting correct walk down Column 12 to 3F West switch...")
     for target in path:
         walk_to_target(target)
         
