@@ -1412,3 +1412,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 
 <hr>
+
+<h1><code>notepads/Locations/PokemonMansion1F.md</code></h1>
+
+
+
+<hr>
