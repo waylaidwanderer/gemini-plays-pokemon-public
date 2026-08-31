@@ -17,3 +17,9 @@
 - Main road: Rows 14 and 15 (y=14..15) form an open paved highway leading west all the way under the cliff.
 - West terminus: Column 1 (x=1) is a cliff wall on rows 11..15.
 - Pokémon League Front Gatehouse: South entrance at columns 2..5, rows 10..11.
+## Topography & True Route to Gatehouse
+- Row 13 is a south-facing one-way ledge separating the Gatehouse area (y<=12) from the lower exit highway (y=14..15).
+- Route to Gatehouse:
+  1. From east entrance, bypass column 34 tree barrier at (34, 12).
+  2. In central clearing (x=30..33), head north through grass patch (x=30, y=8..11) to upper corridor (y=6).
+  3. Follow upper corridor west above the cliff wall (x=26..29) directly into the Pokémon League Gatehouse (x=2..5, y=10..11).
