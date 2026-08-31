@@ -23,3 +23,4 @@
   1. From east entrance, bypass column 34 tree barrier at (34, 12).
   2. In central clearing (x=30..33), head north through grass patch (x=30, y=8..11) to upper corridor (y=6).
   3. Follow upper corridor west above the cliff wall (x=26..29) directly into the Pokémon League Gatehouse (x=2..5, y=10..11).
+- Ledge Loop: Row 13 ledge is a one-way drop from row 12 to row 14. To return to the upper level (y<=12) after dropping, walk east to (39, 14) into Viridian City, walk north to row 16, and re-enter Route 22 at (39, 8).
