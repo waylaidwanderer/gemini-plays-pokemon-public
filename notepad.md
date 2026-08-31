@@ -2536,12 +2536,15 @@
 - East entrance: (39, 8..9) from Viridian City.
 - Tree barrier: Column 34 is blocked by trees at (34, 6..11).
 - Southern bypass: Clear passage around the tree barrier at row 12 (34, 12).
-- Tall grass patch: Located at (30..33, 8..11). Ledge at row 7.
-- Cliff wall: (26..29, 9..13) blocks middle-north.
-- Main road: Rows 14 and 15 (y=14..15) form an open paved highway leading west all the way under the cliff.
-- Ledge Gap: (33, 13) is a verified 1-tile gap in the row 13 ledge allowing seamless two-way passage between the lower highway and the central clearing.
+- Tall grass patch: Located at (30..33, 8..11).
+- Ledge Gaps:
+  - Row 13 Ledge Gap: (33, 13) allows two-way passage between lower highway and central clearing.
+  - Row 7 Ledge Gap: (31, 7) allows two-way passage between central tall grass patch and upper corridor (row 6).
+- Cliff wall: (26..29, 7..13) blocks middle section.
+- Upper Corridor: Row 6 (y=6) runs unobstructed westward above the cliff directly to the Pokémon League Gatehouse.
+- Lower Road: Rows 14 and 15 (y=14..15) form the lower paved road.
 - Route to Gatehouse:
-  1. From (33, 13), walk North through tall grass along column 33 to row 6.
+  1. From (33, 13), walk North through tall grass along column 31 through (31, 7) gap to row 6.
   2. Follow upper corridor west along row 6 above the cliff wall (x=26..29) directly into the Pokémon League Gatehouse (and trigger Rival RED battle).
 
 <hr>
