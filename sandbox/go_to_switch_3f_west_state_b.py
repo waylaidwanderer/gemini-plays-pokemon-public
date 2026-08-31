@@ -48,58 +48,44 @@ def walk_to_target(target):
                 flee_battle_safe()
                 time.sleep(0.5)
 
+def toggle_switch_to_b():
+    print("Toggling switch back to State B...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+    print("Switch toggled back to State B.")
+
 def main():
-    # Currently at (24, 3) on 3F East in State A.
-    # Walk back to the switch at (2, 5) on 3F West:
-    path_to_switch = [
-        # Walk LEFT along Row 3 to Column 12
-        (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
-        # Up Column 12 to Row 2
-        (12, 2),
-        # Left Row 2 to Column 4
-        (11, 2), (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2),
-        # Down Column 4 and 3 to (3, 5)
-        (4, 3), (4, 4), (4, 5), (3, 5)
-    ]
-    
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
-    start_idx = 0
-    min_dist = 9999
-    for i, target in enumerate(path_to_switch):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Walking to switch from index {start_idx} (target: {path_to_switch[start_idx]})")
-    for idx in range(start_idx, len(path_to_switch)):
-        target = path_to_switch[idx]
+    # We are currently at (2, 11).
+    # Step 1: Toggle the switch at (2, 11) to State B
+    toggle_switch_to_b()
+    
+    # Step 2: Walk to (2, 6)
+    path_to_northern_switch = [
+        (3, 11),
+        (4, 11),
+        (4, 10), (4, 9), (4, 8), (4, 7), (4, 6),
+        (3, 6), (2, 6)
+    ]
+    
+    for target in path_to_northern_switch:
         walk_to_target(target)
         
-    print("Reached (3, 5). Turning LEFT to face switch at (2, 5)...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.8)
-    
-    # Toggle switch to State B (using 6 A/B presses to ensure dialogue is fully cleared!)
-    print("Toggling switch...")
-    mgba.press_buttons(["A"]) # Page 1: "A mysterious switch!"
-    time.sleep(1.2)
-    mgba.press_buttons(["A"]) # Page 2: "Who'd press it?"
-    time.sleep(1.2)
-    mgba.press_buttons(["A"]) # Chose Yes on Yes/No prompt -> "Who wouldn't?"
-    time.sleep(1.2)
-    mgba.press_buttons(["A"]) # Page 4: "Pressed it!"
-    time.sleep(1.2)
-    mgba.press_buttons(["A"]) # Page 5: "Shutter gates..."
-    time.sleep(1.2)
-    mgba.press_buttons(["A"]) # Clear dialogue
-    time.sleep(1.2)
-    mgba.press_buttons(["B"]) # Residual clear
-    time.sleep(1.0)
-    
-    print("Toggled switch to State B. Final position:", mgba.get_coordinates())
+    print("Finished. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
