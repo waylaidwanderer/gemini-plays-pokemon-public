@@ -63,7 +63,7 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 21986)
+## Active Party (Verified Turn 22051)
 1. HYDROS (Blastoise) - Lv 66
    - Stats: Max HP 222 (HP: 222/222 - Healthy), Attack 155, Defense 171, Speed 158, Special 164
    - Type: Water
@@ -79,21 +79,21 @@
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Physical Fighting attacker & Strength utility
-4. TERRA (Geodude) - Lv 22
-   - Stats: Max HP 56 (HP: 56/56 - Healthy)
-   - Type: Rock / Ground
-   - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
-   - Role: Physical Rock/Ground tank & Dig utility
+4. ZEPHYR (Pidgey) - Lv 21
+   - Stats: Max HP 61 (HP: 61/61 - Healthy)
+   - Type: Normal / Flying
+   - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
+   - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 62 (HP: 62/62 - Healthy)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall
-6. ZEPHYR (Pidgey) - Lv 20
-   - Stats: Max HP 58 (HP: 58/58 - Healthy)
-   - Type: Normal / Flying
-   - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
-   - Role: Flyer utility
+6. TERRA (Geodude) - Lv 22
+   - Stats: Max HP 56 (HP: 56/56 - Healthy)
+   - Type: Rock / Ground
+   - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
+   - Role: Physical Rock/Ground tank & Dig utility (Slot 6)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
