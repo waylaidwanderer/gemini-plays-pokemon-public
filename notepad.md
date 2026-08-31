@@ -1385,7 +1385,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - This allows horizontal crossing between 3F East and the southern half of 3F East via Row 2, Column 21 (gate at (21, 5) is OPEN in State A).
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
-1. **Verify State A:** The active Mewtwo switch pedestal on 3F West is located at `(2, 11)` (interact from `(2, 12)` facing UP, or `(1, 11)` facing RIGHT, or `(3, 11)` facing LEFT).
+1. **Verify State A:** The active Mewtwo switch pedestal on 3F West is located at `(2, 5)` (interact from `(2, 6)` facing UP, or `(1, 5)` facing RIGHT, or `(3, 5)` facing LEFT).
 2. **Walk to 3F East Southern Room:** 
    - Walk UP Column 10 to Row 2.
    - Walk RIGHT along Row 2 past Column 22 (open in State A).
