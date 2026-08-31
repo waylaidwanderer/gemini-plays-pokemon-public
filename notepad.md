@@ -2483,5 +2483,12 @@
 - Gym Guide: Located at (16, 15)
 - Statues: Located at (15, 14..15) and (18, 14..15)
 - Mechanics: Arrow / spin tiles and trainers across the gym floor.
+## Gym Floor - Entrance Sector
+- Trainer: Located at (16, 9) facing Down.
+- Spin Tiles & Mechanics:
+  - Down spin tile at (16, 10).
+  - Stop tile at (16, 12).
+  - Up spin tile at (19, 11).
+  - Stop tile at (18, 11).
 
 <hr>
