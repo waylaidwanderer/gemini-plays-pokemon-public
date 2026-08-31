@@ -49,17 +49,17 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 8).
-    # Path: Down Column 23 to Row 14, Left Row 14 to Column 10, Up Column 10 to Row 5, Right Row 5 to Column 21
+    # Currently at (23, 11) on 1F East.
+    # Path: Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
     path = [
-        # Down Column 23 to Row 14
-        (23, 9), (23, 10), (23, 11), (23, 12), (23, 13), (23, 14),
-        # Left Row 14 to Column 10
-        (22, 14), (21, 14), (20, 14), (19, 14), (18, 14), (17, 14), (16, 14), (15, 14), (14, 14), (13, 14), (12, 14), (11, 14), (10, 14),
-        # Up Column 10 to Row 5
-        (10, 13), (10, 12), (10, 11), (10, 10), (10, 9), (10, 8), (10, 7), (10, 6), (10, 5),
-        # Right Row 5 to Column 21
-        (11, 5), (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5), (18, 5), (19, 5), (20, 5), (21, 5)
+        # Right to Column 26
+        (24, 11), (25, 11), (26, 11),
+        # Up Column 26 to Row 6
+        (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
+        # Left along Row 6 to Column 22
+        (25, 6), (24, 6), (23, 6), (22, 6),
+        # Down Column 22 to Row 7 (the B1F stairs!)
+        (22, 7)
     ]
     
     pos = mgba.get_coordinates()
@@ -80,7 +80,7 @@ def main():
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Warp check
+        # Warp check: did our floor change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
             break
