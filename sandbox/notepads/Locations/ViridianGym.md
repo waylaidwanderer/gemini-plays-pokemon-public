@@ -29,7 +29,7 @@
 - [x] Cooltrainer / Tamer: (12, 7) facing Down [Defeated Turn 21769]. Roster: Sandslash Lv 39.
 - [x] Cooltrainer: (13, 5) facing Up [Defeated Turn 21798]. Roster: Rhyhorn Lv 39.
 - [x] Tamer: (10, 7) facing Down [Defeated Turn 21887]. Roster: Rhyhorn Lv 43.
-- [ ] Tamer: (2, 16) / (4, 16) [Engaged Turn 21905].
+- [x] Tamer: (4, 16) facing Right [Defeated Turn 21908]. Roster: Arbok Lv 39, Tauros Lv 39.
 - [ ] Trainer: (16, 9) facing Down.
 - [ ] Gym Leader Giovanni: Northwest arena.
 
