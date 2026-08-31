@@ -2349,7 +2349,8 @@
 
 <h1><code>Scratchpad/MansionSwitchPermutations</code></h1>
 
-
+- Turn 21518: B1F (18, 25) Switch -> Toggled successfully ('Who wouldn't?' confirmed).
+- B1F (26..27, 17) eastern shutter: OPEN.
 
 <hr>
 
