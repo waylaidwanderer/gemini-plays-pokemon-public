@@ -1400,10 +1400,8 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 4 Column 23-25:** Open and walkable floor in the vertical corridor on Column 23.
 - **Column 26 Row 13 is a Solid Wall:** Column 26 Row 13 is a permanent solid wall panel, NOT a gate.
 - **Column 25 Row 13 Shutter Gate:** OPEN in State A (pink checkered floor), CLOSED and blocked in State B.
-- **Column 21 Row 17 Shutter Gate (Balcony):** OPEN in State B, CLOSED and blocked in State A.
-- **Column 23 Vertical Passage:** Completely open vertically from Row 6 to Row 12, on the East side of Column 22 Wall.
-- **Row 3 and Row 12 Horizontal Openings:** Row 3 and Row 12 are the only horizontal passages across Column 22 on 3F East.
-- **The Only Valid Route to Balcony (State B):** Walk UP Column 21 to Row 3, RIGHT to Column 23, DOWN Column 23 to Row 12, LEFT Row 12 to Column 21, DOWN Column 21 to Row 18, LEFT Row 18 to Column 19 (balcony drop), and drop!
+- **Column 21 Row 17 Shutter Gate (Balcony):** OPEN in State A, CLOSED and blocked in State B.
+- **The Only Valid Route to Balcony (State A):** Walk DOWN Column 26 to Row 12, LEFT Row 12 to Column 24, DOWN Column 24 to Row 16, LEFT Row 16 to Column 21, DOWN Column 21 past the open gate at (21, 17) to Row 18, LEFT Row 18 to Column 19 (balcony drop), and drop!
 
 <hr>
 
