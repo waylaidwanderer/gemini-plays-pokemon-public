@@ -73,14 +73,20 @@ def walk_path_robust(target_path):
             stuck_count = 0
 
 def main():
-    # Currently at (3, 7) on 1F West
-    # Path to (27, 11) northeast stairs:
-    # 1. Row 6 from Column 3 to 27
-    # 2. Column 27 from Row 6 to 11
-    path = []
-    # Start at current position, go to (3, 6)
-    path.append((3, 6))
-    for col in range(4, 28):
+    # Currently at (3, 7) on 1F West in State B
+    # Path using Row 5 to bypass Column 4 gates:
+    path = [
+        (3, 6),
+        (3, 5),
+        (4, 5),
+        (5, 5),
+        (5, 6),
+        (6, 6),
+        (7, 6),
+        (8, 6),
+        (9, 6), # Column 9 shutter gate (open in State B)
+    ]
+    for col in range(10, 28):
         path.append((col, 6))
     for row in range(7, 12):
         path.append((27, row))
