@@ -77,10 +77,10 @@ def main():
     # Path using Row 5 to bypass Column 4 gates:
     path = [
         (3, 6),
-        (3, 5),
+        (3, 5), # Row 5 bypass start
         (4, 5),
         (5, 5),
-        (5, 6),
+        (5, 6), # Row 5 bypass end
         (6, 6),
         (7, 6),
         (8, 6),
