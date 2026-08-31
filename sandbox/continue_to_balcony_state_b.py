@@ -49,20 +49,22 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (12, 2) on 3F in State B.
+    # Currently at (23, 3) on 3F East in State B.
     # Path to the balcony drop in State B:
     path = [
-        # From (12, 2), step DOWN to Row 3
-        (12, 3),
-        # Right Row 3 to Column 23
-        (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3),
-        # Down Column 23 to Row 12 (bypasses all walls/gates in State B!)
-        (23, 4), (23, 5), (23, 6), (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
-        # Left Row 12 to Column 21
-        (22, 12), (21, 12),
-        # Down Column 21 to Row 18 (past open gate at 21, 17)
-        (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
-        # Left Row 18 to Column 19
+        # Walk RIGHT along Row 3 to Column 26
+        (24, 3), (25, 3), (26, 3),
+        # Walk DOWN Column 26 to Row 12
+        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
+        # Walk LEFT along Row 12 to Column 24
+        (25, 12), (24, 12),
+        # Walk DOWN Column 24 to Row 16
+        (24, 13), (24, 14), (24, 15), (24, 16),
+        # Walk LEFT along Row 16 to Column 21
+        (23, 16), (22, 16), (21, 16),
+        # Walk DOWN Column 21 to Row 18 (past open gate at 21, 17)
+        (21, 17), (21, 18),
+        # Walk LEFT along Row 18 to Column 19
         (20, 18), (19, 18),
         # Step DOWN to trigger drop!
         (19, 19)
