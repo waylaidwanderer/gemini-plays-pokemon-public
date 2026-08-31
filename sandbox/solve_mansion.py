@@ -54,22 +54,40 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Corrected State A path back to 3F West switch via Column 26 UP
+    # We are in the overworld at (12, 1) facing DOWN.
+    # Dismiss the "Got away safely!" box first (handled by walk_to_target pressing B)
+    pos = mgba.get_coordinates()
+    print("Starting solve_mansion from position:", pos)
+    
     path_to_switch = [
-        # Left to Column 26 Row 12 (already above the closed gate at Row 13!)
-        (26, 12),
-        # Up Column 26 to Row 1
-        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3), (26, 2), (26, 1),
+        # Left to Column 25
+        (25, 14),
+        # Up Column 25 to Row 12 (through the open gate at 25, 13)
+        (25, 13), (25, 12),
+        # Right to Column 27 Row 12
+        (26, 12), (27, 12),
+        # Up Column 27 to Row 1
+        (27, 11), (27, 10), (27, 9), (27, 8), (27, 7), (27, 6), (27, 5), (27, 4), (27, 3), (27, 2), (27, 1),
         # Left Row 1 to Column 12
-        (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
+        (26, 1), (25, 1), (24, 1), (23, 1), (22, 1), (21, 1), (20, 1), (19, 1), (18, 1), (17, 1), (16, 1), (15, 1), (14, 1), (13, 1), (12, 1),
         # Down Column 12 to Row 11
         (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11),
         # Left along Row 11 to Column 3
         (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
     ]
     
-    print("Starting solve_mansion from (27, 12) via Column 26 UP...")
-    for target in path_to_switch:
+    # Find our current position index in the path list
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path_to_switch):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Resuming PHASE 1 from path index {start_idx} (target: {path_to_switch[start_idx]})")
+    for idx in range(start_idx, len(path_to_switch)):
+        target = path_to_switch[idx]
         walk_to_target(target)
         
     # Phase 2: Toggle switch to State B
