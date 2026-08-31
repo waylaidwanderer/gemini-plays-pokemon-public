@@ -49,23 +49,19 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    print("Dismissing 'Got away safely!' text...")
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-    
-    # Path to (10, 5) via Row 15:
-    # 1. Walk to (25, 15)
-    # 2. Walk Left to (10, 15)
-    # 3. Walk Up to (10, 5)
-    # 4. Walk Right to (21, 5)
+    # Currently at (24, 11) on 1F East.
+    # Path: Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 10,
+    # Up Column 10 to Row 5, Right Row 5 to Column 21
     path = [
-        # Walk to (25, 15)
-        (24, 8), (25, 8), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (25, 12), (25, 13), (25, 14), (25, 15),
-        # Walk Left along Row 15 to Column 10
-        (24, 15), (23, 15), (22, 15), (21, 15), (20, 15), (19, 15), (18, 15), (17, 15), (16, 15), (15, 15), (14, 15), (13, 15), (12, 15), (11, 15), (10, 15),
-        # Walk Up Column 10 to Row 5
-        (10, 14), (10, 13), (10, 12), (10, 11), (10, 10), (10, 9), (10, 8), (10, 7), (10, 6), (10, 5),
-        # Walk Right along Row 5 to Column 21
+        # Walk to Column 26
+        (25, 11), (26, 11),
+        # Up Column 26 to Row 6
+        (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
+        # Left along Row 6 to Column 10 (main corridor)
+        (25, 6), (24, 6), (23, 6), (22, 6), (21, 6), (20, 6), (19, 6), (18, 6), (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6), (11, 6), (10, 6),
+        # Up Column 10 to Row 5
+        (10, 5),
+        # Right along Row 5 to Column 21 (stairs area!)
         (11, 5), (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5), (18, 5), (19, 5), (20, 5), (21, 5)
     ]
     
@@ -87,7 +83,7 @@ def main():
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Warp check
+        # Warp check: did our floor change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
             break
