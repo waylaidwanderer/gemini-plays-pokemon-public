@@ -54,27 +54,37 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (21, 6) in State B on 3F East
-    # Perfect State B path to the balcony drop
+    # Currently at (23, 3) in State B on 3F East
+    # Perfect State B path to the balcony drop via Column 26 DOWN
     path = [
-        # Up Column 21 to Row 3
-        (21, 5), (21, 4), (21, 3),
-        # Right Row 3 to Column 23 (open across Column 22 Partition Wall!)
-        (22, 3), (23, 3),
-        # Down Column 23 to Row 12
-        (23, 4), (23, 5), (23, 6), (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
-        # Left Row 12 to Column 21
-        (22, 12), (21, 12),
+        # Right along Row 3 to Column 26
+        (24, 3), (25, 3), (26, 3),
+        # Down Column 26 to Row 16 (through open gate at 26, 13 in State B)
+        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+        # Left along Row 16 to Column 21
+        (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
         # Down Column 21 to Row 18 (through open gate at 21, 17 in State B)
-        (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
+        (21, 17), (21, 18),
         # Left along Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
         # Down on (19, 18) to trigger the fall
         (19, 19)
     ]
     
-    print("Starting corrected State B balcony drop path from (21, 6)...")
-    for target in path:
+    # Filter or resume path based on current position
+    pos = mgba.get_coordinates()
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Resuming solve_mansion path from index {start_idx} (target: {path[start_idx]})")
+    
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
