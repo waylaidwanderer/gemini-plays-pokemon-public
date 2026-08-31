@@ -50,6 +50,7 @@ def walk_to_target(target):
 
 def toggle_switch_at_2_5():
     print("Toggling northern switch at (2, 5) to State A...")
+    # Stand at (2, 6) facing UP
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     mgba.press_buttons(["A"])
@@ -70,12 +71,11 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
-    # Path to northern switch stand position (2, 6) in State B
+    # Path from (10, 9) to northern switch stand position (2, 6) in State B via Column 12 bypass
     path_to_switch = [
-        (4, 11),
-        (3, 11),
-        (2, 11),
-        (2, 10), (2, 9), (2, 8), (2, 7), (2, 6)
+        (11, 9), (12, 9),
+        (12, 8), (12, 7), (12, 6),
+        (11, 6), (10, 6), (9, 6), (8, 6), (7, 6), (6, 6), (5, 6), (4, 6), (3, 6), (2, 6)
     ]
     
     start_idx = 0
