@@ -49,11 +49,9 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Start at (3, 5) on 3F West in State A.
-    # Path to the balcony drop on 3F East in State A via Column 23 (safe from Column 26 pitfalls):
+    # Currently at (4, 5) on 3F West in State A.
+    # Path to the balcony drop in State A:
     path = [
-        # Walk RIGHT to Column 4
-        (4, 5),
         # Walk UP Column 4 to Row 2
         (4, 4), (4, 3), (4, 2),
         # Walk RIGHT along Row 2 to Column 12
