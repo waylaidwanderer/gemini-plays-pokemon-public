@@ -49,13 +49,17 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 15) on 3F East.
-    # Path to switch at (3, 11) on 3F West via Column 26 (completely clear vertical corridor!):
+    # Currently at (26, 14) on 3F East.
+    # Path to switch at (3, 11) on 3F West bypassing (26, 13) via (25, 13):
     path = [
-        # Walk to Column 26
-        (24, 15), (25, 15), (26, 15),
+        # Walk LEFT to Column 25
+        (25, 14),
+        # Walk UP through open gate to Row 12
+        (25, 13), (25, 12),
+        # Walk RIGHT to Column 26
+        (26, 12),
         # Walk UP Column 26 to Row 3
-        (26, 14), (26, 13), (26, 12), (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
+        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
         # Walk LEFT along Row 3 to Column 10
         (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
         # Walk DOWN Column 10 to Row 11
