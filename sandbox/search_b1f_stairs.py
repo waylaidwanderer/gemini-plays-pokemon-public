@@ -49,20 +49,20 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (28, 16).
-    # We systematically test the remaining tiles inside the fenced room:
-    test_tiles = [
-        (27, 16),
-        (26, 16),
-        (25, 16),
-        (25, 15),
-        (26, 15),
-        (27, 15)
+    # Currently at (23, 8).
+    # Path: Down Column 23 to Row 14, Left Row 14 to Column 21, Up Column 21 to Row 5 (testing for stairs!)
+    path = [
+        # Down Column 23 to Row 14
+        (23, 9), (23, 10), (23, 11), (23, 12), (23, 13), (23, 14),
+        # Left Row 14 to Column 21
+        (22, 14), (21, 14),
+        # Up Column 21 to Row 5
+        (21, 13), (21, 12), (21, 11), (21, 10), (21, 9), (21, 8), (21, 7), (21, 6), (21, 5)
     ]
     
     print("Initial position:", mgba.get_coordinates())
     
-    for target in test_tiles:
+    for target in path:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
