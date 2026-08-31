@@ -28,3 +28,4 @@
   - Observed Roster:
     1. Pidgeot Lv 47 (Normal/Flying) [Defeated by HYDROS Ice Beam]
     2. Rhyhorn Lv 45 (Ground/Rock) [Defeated by ZEPHYR Fly + Poison]
+    3. Gyarados Lv 45 (Water/Flying)
