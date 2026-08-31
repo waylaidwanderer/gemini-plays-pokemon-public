@@ -6,8 +6,7 @@ import time
 width, height = 30, 20
 walls = set()
 
-# Known solid walls on 3F (to speed up pathfinding)
-# Let's add boundaries and known solid structures
+# Known solid walls on 3F
 for x in range(width):
     walls.add((x, 0))
     walls.add((x, 17))
@@ -15,9 +14,9 @@ for y in range(height):
     walls.add((0, y))
     walls.add((29, y))
 
-# Permanent solid walls on 3F
+# Column 22 Partition Wall
 for y in range(4, 12):
-    walls.add((22, y)) # Column 22 Partition Wall
+    walls.add((22, y))
 
 # Row 8 Solid Partition Wall
 for x in range(24, 29):
@@ -26,8 +25,19 @@ for x in range(24, 29):
 # Column 1 Row 9 Solid Wall
 walls.add((1, 9))
 
+# Row 9 solid partition wall on Columns 1-7
+for x in range(1, 8):
+    walls.add((x, 9))
+
+# Row 8 solid debris on Columns 8-11
+for x in range(8, 12):
+    walls.add((x, 8))
+
 # Column 19 Row 17 Solid Wall
 walls.add((19, 17))
+
+# Shutter gate at (11, 13) or similar walls
+walls.add((11, 13))
 
 def flee_battle_safe():
     print("Wild battle! Fleeing...")
