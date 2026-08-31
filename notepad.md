@@ -2351,6 +2351,7 @@
 
 - Turn 21518: B1F (18, 25) Switch -> Toggled successfully ('Who wouldn't?' confirmed).
 - B1F (26..27, 17) eastern shutter: OPEN.
+- Turn 21554: B1F (20, 3) Switch in Northeast Bedroom -> Toggling to State 1 to open (9, 6..7) shutter.
 
 <hr>
 
