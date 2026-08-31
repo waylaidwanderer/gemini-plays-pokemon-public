@@ -17,7 +17,6 @@
 - (8..15, 43) is a south-facing ledge barrier.
 - Columns 6 and 7 (6..7, 40..48) form a completely clear, 2-tile wide open green grass corridor connecting the lower section (row 48) directly to the upper sector (row 40) past the ledge!
 - Route around rock obstacles: From (10, 44), move Right to col 11/12, Down to row 48, Left along row 48 to col 7, then walk North along column 7 straight past Guard 8 at (8, 41) into Victory Road approach!
-- Heading north towards Victory Road cave entrance (y=0..35).
 ## Verified Route 23 Topology
 - Cascade Check Sector: y=136..139. Guard at (8, 136).
 - Statue Barrier: Rows 130-131 contain statues and walls, but columns 14 and 15 (14..15, 128..131) form an open 2-tile wide tall grass corridor running directly north to the next sector!
