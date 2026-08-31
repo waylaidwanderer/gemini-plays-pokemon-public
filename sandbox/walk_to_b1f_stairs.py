@@ -19,26 +19,27 @@ def walk_step(action):
     time.sleep(0.4)
     new_pos = mgba.get_coordinates()
     if new_pos == {'x': x, 'y': y}:
+        # Check if in battle
         flee_battle()
         mgba.press_buttons([action])
         time.sleep(0.4)
         new_pos = mgba.get_coordinates()
     return new_pos
 
-def run_route(path, target_map_description):
+def run_route(path, description):
     idx = 0
     stuck_count = 0
     last_pos = None
     
-    print(f"Starting route to: {target_map_description}")
+    print(f"Starting: {description}")
     while idx < len(path):
         action, tx, ty = path[idx]
         pos = mgba.get_coordinates()
         x, y = pos['x'], pos['y']
         
-        # Warp check: if coordinates changed to something not in our path segment
+        # Warp check: if coordinates changed drastically
         if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path]:
-            print(f"Warp detected! Landed at: ({x}, {y})")
+            print(f"WARP DETECTED! Landed at: ({x}, {y})")
             return (x, y)
             
         if x == tx and y == ty:
@@ -64,89 +65,67 @@ def run_route(path, target_map_description):
     return (pos['x'], pos['y'])
 
 def main():
-    # --- STEP 1: 3F West to 2F West ---
-    # Currently at (2, 6) on 3F West.
-    # Path to (5, 10):
-    # Left (to 4,5), Left (to 3,5), Down (to 3,6), Left (to 2,6)? No!
-    # Let's use the verified bypassing route:
-    # 1. Right to (3, 6)
-    # 2. Up to (3, 5)
-    # 3. Right to (4, 5)
-    # 4. Right to (5, 5)
-    # 5. Down to (5, 10)
-    path_3f = [
-        ("Right", 3, 6),
-        ("Up", 3, 5),
-        ("Right", 4, 5),
-        ("Right", 5, 5),
-        ("Down", 5, 6),
-        ("Down", 5, 7),
-        ("Down", 5, 8),
-        ("Down", 5, 9),
-        ("Down", 5, 10) # Triggers warp to 2F West (5, 11)
-    ]
-    land_pos = run_route(path_3f, "2F West")
-    print("Landed on 2F West at:", land_pos)
-    
-    # --- STEP 2: 2F West to 1F West ---
-    # Currently at (5, 11) on 2F West.
-    # Path to (7, 10):
-    # Right to (7, 11), Up to (7, 10)
-    path_2f = [
-        ("Right", 6, 11),
-        ("Right", 7, 11),
-        ("Up", 7, 10) # Triggers warp to 1F West (7, 11)
-    ]
-    land_pos = run_route(path_2f, "1F West")
-    print("Landed on 1F West at:", land_pos)
-    
-    # --- STEP 3: 1F West to 1F East Fenced Room ---
-    # Currently at (7, 11) on 1F West.
-    # Path: Up to (7, 6) on Row 6.
-    # Right to (25, 6) on 1F East.
-    # Down to (25, 13) into the fenced room.
-    path_1f = [
-        ("Up", 7, 10),
-        ("Up", 7, 9),
-        ("Up", 7, 8),
-        ("Up", 7, 7),
-        ("Up", 7, 6),
-    ]
-    # Walk Right along Row 6 to Column 25
-    for col in range(8, 26):
-        path_1f.append(("Right", col, 6))
-    # Walk Down Column 25 to (25, 13)
+    # Start at (8, 6) on 1F West
+    # Path to (25, 13):
+    # Walk Right along Row 6 to Column 25: (9, 6) to (25, 6)
+    # Then walk Down Column 25 to Row 13: (25, 7) to (25, 13)
+    path = []
+    for col in range(9, 26):
+        path.append(("Right", col, 6))
     for row in range(7, 14):
-        path_1f.append(("Down", 25, row))
+        path.append(("Down", 25, row))
         
-    land_pos = run_route(path_1f, "1F East Fenced Room")
-    print("Entered Fenced Room on 1F East at:", land_pos)
+    land_pos = run_route(path, "Walk to 1F East Fenced Gate")
+    print("Reached gate area:", land_pos)
     
-    # --- STEP 4: Walk around the fenced room and search for B1F stairs ---
-    # Let's do a simple spiral or block search in the fenced room:
-    # Walkable tiles are in Columns 25-28, Rows 11-14.
-    # Let's try to step on various tiles to trigger the B1F warp!
-    fenced_path = [
-        ("Right", 26, 13),
-        ("Right", 27, 13),
-        ("Down", 27, 14),
+    # Check if we warped (which shouldn't happen during the walk to the gate)
+    pos = mgba.get_coordinates()
+    if pos['x'] != 25 or pos['y'] != 13:
+        print("Not at (25, 13), aborting search segment.")
+        return
+        
+    # Now step inside the fenced area: Down to (25, 14)
+    print("Stepping inside fenced room...")
+    walk_step("Down")
+    time.sleep(0.5)
+    
+    # Search all possible stairs coordinates in the fenced room
+    # We will try to step on them. If any triggers a warp (coordinates change to B1F East), we've found it!
+    search_steps = [
+        ("Right", 26, 14),
+        ("Right", 27, 14),
         ("Right", 28, 14),
         ("Up", 28, 13),
         ("Up", 28, 12),
-        ("Left", 27, 12),
-        ("Left", 26, 12),
-        ("Left", 25, 12),
-        ("Down", 25, 13),
-        ("Down", 25, 14),
-        ("Right", 26, 14),
-        ("Right", 27, 14),
-        ("Up", 27, 13),
-        ("Up", 27, 12),
-        ("Up", 27, 11), # Let's try (27, 11) just in case!
+        ("Up", 28, 11),
+        ("Left", 27, 11),
+        ("Left", 26, 11),
+        ("Left", 25, 11),
+        ("Down", 25, 12),
+        ("Right", 26, 12),
+        ("Right", 27, 12),
+        ("Down", 27, 13),
+        ("Left", 26, 13),
     ]
     
-    # Run the fenced path search
-    run_route(fenced_path, "B1F East Warp Search")
+    print("Starting B1F East Stairs search inside the fenced room...")
+    for action, tx, ty in search_steps:
+        pos = mgba.get_coordinates()
+        cx, cy = pos['x'], pos['y']
+        
+        # Warp check: in Pokémon Mansion B1F East, coordinates are around (26, 3) or similar
+        # If coordinates are no longer on 1F (where x is around 25-28 and y is 11-14), we warped!
+        if cx not in [25, 26, 27, 28] or cy not in [11, 12, 13, 14]:
+            print(f"WARPED DOWN TO B1F! Current position: ({cx}, {cy})")
+            return
+            
+        print(f"Searching: trying {action} to ({tx}, {ty})")
+        walk_step(action)
+        time.sleep(0.5)
+        
+    # Check after search
+    final_pos = mgba.get_coordinates()
+    print("Completed search. Final Position:", final_pos)
 
 if __name__ == "__main__":
     main()
