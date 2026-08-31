@@ -40,7 +40,7 @@
 - **Column 11 Row 16 is a Solid Wall:** Column 11 Row 16 is a permanent, solid vertical partition wall panel on 3F, preventing horizontal travel along Row 16 between 3F West and 3F East.
 - **Row 6 Column 22 is a Solid Wall:** Column 22 Row 6 is a solid vertical wall panel, preventing horizontal crossing of Row 6 across Column 22.
 - **Column 19 Row 7 is a Solid Wall:** Column 19 Row 7 is a permanent solid horizontal wall panel on Rows 7-8 on Columns 18-22. This blocks vertical passage down Column 19 from Row 6.
-- **Row 4 Column 23-25 is a Solid Wall:** Columns 23-25 Row 4 is blocked by a solid horizontal wall panel, blocking vertical passage down Column 23 from Row 3 to Row 5.
+- **Row 4 Column 23-25:** Open and walkable floor in the vertical corridor on Column 23.
 - **Column 26 Row 13 is a Solid Wall:** Column 26 Row 13 is a permanent solid wall panel, NOT a gate.
 - **Column 25 Row 13 Shutter Gate:** OPEN in State A (pink checkered floor), CLOSED and blocked in State B.
 - **Column 21 Row 17 Shutter Gate (Balcony):** OPEN in State B, CLOSED and blocked in State A.
