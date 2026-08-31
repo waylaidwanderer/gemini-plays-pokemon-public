@@ -34,7 +34,7 @@
 - [x] Tamer: (4, 16) facing Right [Defeated Turn 21908]. Roster: Arbok Lv 39, Tauros Lv 39.
 - [x] Blackbelt: (2, 7) / (3, 7) [Defeated Turn 21913]. Roster: Machoke Lv 43.
 - [x] Cooltrainer♂: (6, 7) / (6, 5) [Defeated Turn 21920]. Roster: Nidorino Lv 39, Nidoking Lv 39.
-- [ ] Gym Leader Giovanni: Northwest arena.
+- [x] Gym Leader Giovanni: Northwest arena (2, 1) [Defeated Turn 21973]. Roster: Rhyhorn Lv 45, Dugtrio Lv 42, Nidoqueen Lv 44, Nidoking Lv 45, Rhydon Lv 50. Reward: Earth Badge & TM27 (Fissure).
 
 ## Items in Gym
 - Item Ball: Located at (16, 8).
