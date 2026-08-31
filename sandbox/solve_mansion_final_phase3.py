@@ -3,17 +3,14 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
-    # Clear battle text
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.2)
-    # Move cursor to RUN (Down then Right)
     print("Selecting RUN...")
     mgba.press_buttons(["Down", "Right"])
     time.sleep(0.3)
     mgba.press_buttons(["A"])
     time.sleep(1.5)
-    # Dismiss "Got away safely!"
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.2)
@@ -43,58 +40,44 @@ def walk_to_target(target):
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # We didn't move. Let's check for battle or block.
-            print("No movement. Pressing B to dismiss potential menu/text.")
+            print("No movement. Pressing B.")
             mgba.press_buttons(["B"])
             time.sleep(0.5)
             new_pos = mgba.get_coordinates()
             if new_pos == pos:
-                # Still no movement, try to flee
                 flee_battle_safe()
                 time.sleep(0.5)
 
 def main():
-    # Currently at (10, 12) in State B on 3F West (Got away safely text on screen)
-    pos = mgba.get_coordinates()
-    print("Starting solve_mansion_final_phase3 from position:", pos)
-    
-    # Correct State B path to the balcony drop from (10, 12)
+    # Currently at (16, 3) in State B on 3F East
+    # Path: Right along Row 3 to Column 26, Down Column 26 to Row 16, Left Row 16 to Column 21, Down Column 21 to Row 18, Left to Column 19, and Down to drop!
     path = [
-        # Down Column 10 to Row 16
-        (10, 13), (10, 14), (10, 15), (10, 16),
-        # Right Row 16 to Column 21 (open in State B!)
-        (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16), (20, 16), (21, 16),
-        # Down Column 21 to Row 18 (open in State B!)
+        # Walk RIGHT along Row 3 to Column 26
+        (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        # Walk DOWN Column 26 to Row 16 (pitfall is covered in State B!)
+        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+        # Walk LEFT along Row 16 to Column 21
+        (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
+        # Walk DOWN Column 21 to Row 18 (gate at 21, 17 is open in State B!)
         (21, 17), (21, 18),
-        # Left along Row 18 to Column 19 (balcony drop!)
+        # Walk LEFT along Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
-        # Down on (19, 18) to trigger the fall
+        # Walk DOWN on (19, 18) to trigger the fall
         (19, 19)
     ]
     
-    # Find our current position index in the path list
-    start_idx = 0
-    min_dist = 9999
-    for i, target in enumerate(path):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
-    
-    for idx in range(start_idx, len(path)):
-        target = path[idx]
+    print("Starting Phase 3: Walk to balcony drop...")
+    for target in path:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Robust warp check: did our Y position change drastically?
+        # Warp check: did our floor change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. We fell through! Success!")
             break
             
-    print("Finished path. Final position:", mgba.get_coordinates())
+    print("Finished Phase 3. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
