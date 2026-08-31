@@ -17,20 +17,24 @@ def flee_battle():
 
 def walk_to_pitfall():
     # Monotonic path to (26, 4) on 3F East in State A:
-    # 1. Walk to (12, 11)
-    # 2. Walk UP to (12, 2)
-    # 3. Walk Right to (26, 2)
-    # 4. Walk DOWN to (26, 4) (pitfall)
+    # 1. Walk DOWN Column 14 to Row 6: (14, 4) -> (14, 6)
+    # 2. Walk Right along Row 6 to Column 21: (15, 6) -> (21, 6)
+    # 3. Walk UP Column 21 to Row 3: (21, 5) -> (21, 3)
+    # 4. Walk Right along Row 3 to Column 26: (22, 3) -> (26, 3)
+    # 5. Walk DOWN Column 26 to (26, 4) (pitfall)
     
     path = []
-    # Currently at (5, 11)
-    for col in range(6, 13):
-        path.append((col, 11))
-    for row in range(10, 1, -1):
-        path.append((12, row))
-    for col in range(13, 27):
-        path.append((col, 2))
-    path.append((26, 3))
+    # Currently at (14, 3)
+    path.append((14, 4))
+    path.append((14, 5))
+    path.append((14, 6))
+    for col in range(15, 22):
+        path.append((col, 6))
+    path.append((21, 5))
+    path.append((21, 4))
+    path.append((21, 3))
+    for col in range(22, 27):
+        path.append((col, 3))
     path.append((26, 4))
     
     # Find closest path node to initialize current_idx
@@ -50,9 +54,8 @@ def walk_to_pitfall():
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
         
-        # If we warped/fell, we will detect map/coordinate change
-        if cy == 4 and cx == 26:
-            # We are on the pitfall tile. Stepping onto it or moving should trigger fall.
+        # If we reached the pitfall
+        if cx == 26 and cy == 4:
             print("Standing on pitfall tile (26, 4)!")
             mgba.press_buttons(["Down"])
             time.sleep(1.5)
@@ -60,9 +63,8 @@ def walk_to_pitfall():
             print("Position after stepping down on pitfall:", new_pos)
             break
             
-        # Monotonic path progression
+        # Monotonic path progression (check from furthest down to current_idx)
         best_idx = current_idx
-        # Check from furthest lookahead down to current_idx
         for i in range(min(current_idx + 4, len(path) - 1), current_idx - 1, -1):
             dist = abs(path[i][0] - cx) + abs(path[i][1] - cy)
             if dist <= 1:
