@@ -1,7 +1,7 @@
-# Pokémon Mansion 3F - Layout & Exploration
+# Pokï¿½mon Mansion 3F - Layout & Exploration
 
 ## Overview
-- Third floor of the ruined Pokémon Mansion.
+- Third floor of the ruined Pokï¿½mon Mansion.
 - Features marble floors, Mewtwo research journal, statue switches, and balcony drop pits to 1F.
 
 ## Layout & Landmarks

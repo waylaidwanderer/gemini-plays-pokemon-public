@@ -1,7 +1,7 @@
-# Pokémon Mansion 2F - Layout & Exploration
+# Pokï¿½mon Mansion 2F - Layout & Exploration
 
 ## Overview
-- Second floor of the ruined Pokémon Mansion.
+- Second floor of the ruined Pokï¿½mon Mansion.
 - Features marble floors, Mewtwo statue switch, eastern computer wing, and stairs connecting 1F and 3F.
 
 ## Layout & Landmarks
