@@ -1270,7 +1270,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 12 Hedges/Statues:** Column 12 is blocked by hedges and statues on Rows 8-11, except for (12, 12) which is open.
 
 ## B1F East Stairs
-- Located inside the fenced room on 1F East (around Column 25/26). This fenced area is completely accessible from the rest of 1F East in State A, and leads down to B1F East.
+- Unverified position on 1F East (previously hypothesized to be inside the fenced room around Column 25/26).
 
 ## 1F East Southeast Fenced Room (Verified Ground Truth)
 - **Open Gate at (25, 13):** Open in State A, allowing entry into the fenced room from Row 12.
