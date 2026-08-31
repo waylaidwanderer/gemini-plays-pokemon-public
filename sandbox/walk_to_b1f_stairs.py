@@ -49,31 +49,22 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (26, 12) on 1F East.
-    # Path: Up Column 26 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
+    # We are currently at (27, 15).
+    # Path: Left to Column 25, Up Column 25 past gate to Row 11, Left Row 11 to Column 22, Up Column 22 to (22, 7) (stairs)
     path = [
-        # Up Column 26 to Row 6
-        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
-        # Left along Row 6 to Column 22
-        (25, 6), (24, 6), (23, 6), (22, 6),
-        # Down Column 22 to Row 7 (the B1F stairs!)
-        (22, 7)
+        # Walk Left to Column 25 on Row 15
+        (26, 15), (25, 15),
+        # Walk Up Column 25 to Row 11 (passing open gate at 25, 13)
+        (25, 14), (25, 13), (25, 12), (25, 11),
+        # Walk Left along Row 11 to Column 22
+        (24, 11), (23, 11), (22, 11),
+        # Walk Up Column 22 to Row 7 (the stairs!)
+        (22, 10), (22, 9), (22, 8), (22, 7)
     ]
     
-    pos = mgba.get_coordinates()
-    print("Initial position:", pos)
+    print("Initial position:", mgba.get_coordinates())
     
-    start_idx = 0
-    min_dist = 9999
-    for i, target in enumerate(path):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
-    for idx in range(start_idx, len(path)):
-        target = path[idx]
+    for target in path:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
