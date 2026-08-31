@@ -1,162 +1,87 @@
 import mgba
 import time
 
-# Grid dimensions for Pokémon Mansion 3F
-# X: 0 to 28, Y: 0 to 18
-width, height = 30, 20
-walls = set()
-
-# Known solid walls on 3F
-for x in range(width):
-    walls.add((x, 0))
-    walls.add((x, 17))
-for y in range(height):
-    walls.add((0, y))
-    walls.add((29, y))
-
-# Column 22 Partition Wall
-for y in range(4, 12):
-    walls.add((22, y))
-
-# Row 8 Solid Partition Wall
-for x in range(24, 29):
-    walls.add((x, 8))
-
-# Column 1 Row 9 Solid Wall
-walls.add((1, 9))
-
-# Row 9 solid partition wall on Columns 1-7
-for x in range(1, 8):
-    walls.add((x, 9))
-
-# Row 8 solid debris on Columns 8-11
-for x in range(8, 12):
-    walls.add((x, 8))
-
-# Column 19 Row 17 Solid Wall
-walls.add((19, 17))
-
-# Shutter gate at (11, 13) or similar walls
-walls.add((11, 13))
-
 def flee_battle_safe():
-    print("Wild battle! Fleeing...")
-    time.sleep(1.0)
+    print("Wild battle detected! Fleeing safely...")
     for _ in range(8):
         mgba.press_buttons(["B"])
-        time.sleep(0.2)
+        time.sleep(0.1)
+    print("Selecting RUN...")
     mgba.press_buttons(["Down", "Right"])
-    time.sleep(0.3)
+    time.sleep(0.2)
     mgba.press_buttons(["A"])
     time.sleep(1.5)
     for _ in range(8):
         mgba.press_buttons(["B"])
-        time.sleep(0.2)
-    print("Fled safely.")
+        time.sleep(0.1)
+    print("Fled battle safely.")
 
-def get_neighbors(node):
-    x, y = node
-    neighbors = []
-    # Up, Down, Left, Right
-    for dx, dy, direction in [(0, -1, "Up"), (0, 1, "Down"), (-1, 0, "Left"), (1, 0, "Right")]:
-        nx, ny = x + dx, y + dy
-        if 0 <= nx < width and 0 <= ny < height:
-            if (nx, ny) not in walls:
-                neighbors.append(((nx, ny), direction))
-    return neighbors
-
-def find_path(start, goal):
-    queue = [[start]]
-    visited = {start}
-    
-    while queue:
-        path = queue.pop(0)
-        node = path[-1]
-        
-        if node == goal:
-            return path
-            
-        for neighbor, _ in get_neighbors(node):
-            if neighbor not in visited:
-                visited.add(neighbor)
-                new_path = list(path)
-                new_path.append(neighbor)
-                queue.append(new_path)
+def get_dir(curr, target):
+    if target[0] > curr['x']: return "Right"
+    if target[0] < curr['x']: return "Left"
+    if target[1] > curr['y']: return "Down"
+    if target[1] < curr['y']: return "Up"
     return None
 
-def walk_step(direction, target):
-    pos = mgba.get_coordinates()
-    cx, cy = pos['x'], pos['y']
-    print(f"At ({cx}, {cy}) | Pressing {direction} -> target {target}")
-    mgba.press_buttons([direction])
-    time.sleep(0.5)
-    
-    new_pos = mgba.get_coordinates()
-    if new_pos == pos:
-        # Check if in battle
-        print("No movement. Pressing B to dismiss potential menu/text.")
-        mgba.press_buttons(["B"])
-        time.sleep(0.5)
-        new_pos = mgba.get_coordinates()
-        if new_pos == pos:
-            # Try to flee
-            flee_battle_safe()
-            new_pos = mgba.get_coordinates()
-            if new_pos == pos:
-                # Actual wall/block!
-                print(f"BUMPED! Marking {target} as a wall.")
-                walls.add(target)
-                return False
-    return True
-
-def navigate_to(goal):
+def walk_to_target(target):
     while True:
-        pos_dict = mgba.get_coordinates()
-        start = (pos_dict['x'], pos_dict['y'])
-        if start == goal:
-            print("Successfully reached goal:", goal)
+        pos = mgba.get_coordinates()
+        if pos['x'] == target[0] and pos['y'] == target[1]:
+            print(f"Reached target {target}")
             break
             
-        path = find_path(start, goal)
-        if not path or len(path) < 2:
-            print(f"No path found from {start} to {goal}!")
-            break
-            
-        next_node = path[1]
-        # Determine direction
-        dx = next_node[0] - start[0]
-        dy = next_node[1] - start[1]
-        direction = None
-        if dx == 1: direction = "Right"
-        elif dx == -1: direction = "Left"
-        elif dy == 1: direction = "Down"
-        elif dy == -1: direction = "Up"
-        
+        direction = get_dir(pos, target)
         if not direction:
             break
             
-        success = walk_step(direction, next_node)
-        if not success:
-            # Re-plan in next iteration
+        print(f"Current: ({pos['x']}, {pos['y']}) | Moving {direction} to target {target}")
+        mgba.press_buttons([direction])
+        time.sleep(0.5)
+        
+        new_pos = mgba.get_coordinates()
+        if new_pos == pos:
+            print("No movement. Pressing B.")
+            mgba.press_buttons(["B"])
             time.sleep(0.5)
+            new_pos = mgba.get_coordinates()
+            if new_pos == pos:
+                flee_battle_safe()
+                time.sleep(0.5)
 
 def main():
+    # Currently at (26, 8) on 1F East.
+    # Path: Up Column 26 to Row 4, Right to Column 27, Down to Row 5
+    path = [
+        (26, 7), (26, 6), (26, 5), (26, 4),
+        (27, 4), (27, 5)
+    ]
+    
     pos = mgba.get_coordinates()
-    print("Starting smart pathfinder from:", pos)
+    print("Initial position:", pos)
     
-    # Target: (26, 3) in the northeastern room
-    goal = (26, 3)
-    navigate_to(goal)
-    
-    # Once at (26, 3), step Down to trigger the fall
-    print("At (26, 3). Stepping Down to fall through pitfall...")
-    mgba.press_buttons(["Down"])
-    time.sleep(1.5)
-    
-    new_pos = mgba.get_coordinates()
-    print("New position after fall:", new_pos)
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
+        pos_before = mgba.get_coordinates()
+        walk_to_target(target)
+        pos_after = mgba.get_coordinates()
+        
+        # Warp check
+        if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
+            print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
+            break
+            
+    print("Finished path. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
-    print("Screenshot:", scr)
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
     main()
