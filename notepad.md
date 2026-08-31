@@ -2365,11 +2365,15 @@
 
 ## Layout & Landmarks
 - Ascending Staircase to 1F: Located at (23, 22).
-- Southeast Room (Arrival Sector): cols 21-28, rows 18-26 open pink floor. Divided from western sector by solid vertical wall at col 20.
+- Southeast Room (Arrival Sector): cols 21-28, rows 18-26 open pink floor.
+- Northeast Bedroom: cols 22-28, rows 1-5 with beds at (22, 2..3), (24, 2..3), (26, 2..3), entered via (24..25, 5) doorway from row 6.
+- Northern Thoroughfare: Row 6 (cols 10-28) open pink floor.
+- Item Ball: Located at (10, 2) in northern room (accessible via (12..13, 2..5) passage).
 
 ## Switch Permutations & Shutters
-- Eastern corridor shutter at (26..27, 17): CLOSED (blocks access from row 18 to row 6 corridor).
-- Statue switch at (18, 25) base / (18, 24) top (accessible from (18, 26) facing Up).
+- Eastern corridor shutter at (26..27, 17): OPEN (opened by (18, 25) switch, traversed Turn 21534-21536).
+- Statue switch at (18, 25) base / (18, 24) top (toggled Turn 21518).
+- Shutter at (9, 6..7): CLOSED in current state (yellow/orange bars visible at (9, 6..7) on Turn 21541).
 
 ## West & Central Wing Topology
 - Column 20 (rows 16-26): Solid vertical wall dividing Southeast Arrival Sector from West/Center rooms.
