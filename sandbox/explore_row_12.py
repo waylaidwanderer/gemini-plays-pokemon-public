@@ -3,18 +3,17 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
-    time.sleep(1.0)
     for _ in range(8):
         mgba.press_buttons(["B"])
-        time.sleep(0.2)
-    print("Pressing Down and Right to select RUN...")
+        time.sleep(0.1)
+    print("Selecting RUN...")
     mgba.press_buttons(["Down", "Right"])
-    time.sleep(0.3)
+    time.sleep(0.2)
     mgba.press_buttons(["A"])
     time.sleep(1.5)
     for _ in range(8):
         mgba.press_buttons(["B"])
-        time.sleep(0.2)
+        time.sleep(0.1)
     print("Fled battle safely.")
 
 def get_dir(curr, target):
@@ -24,56 +23,82 @@ def get_dir(curr, target):
     if target[1] < curr['y']: return "Up"
     return None
 
-def walk_to_target(target):
-    while True:
+def walk_to_target_robust(target):
+    retries = 0
+    while retries < 3:
         pos = mgba.get_coordinates()
         if pos['x'] == target[0] and pos['y'] == target[1]:
             print(f"Reached target {target}")
-            break
+            return True
             
         direction = get_dir(pos, target)
         if not direction:
-            break
+            return False
             
-        print(f"Current: ({pos['x']}, {pos['y']}) | Moving {direction} to target {target}")
+        print(f"Current: ({pos['x']}, {pos['y']}) | Moving {direction} to target {target} (attempt {retries+1})")
         mgba.press_buttons([direction])
         time.sleep(0.5)
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Check if in battle or blocked
-            print("No movement. Pressing B to dismiss potential menu/text.")
+            # Check if we got into a battle
+            print("No movement. Pressing B to dismiss any dialogue or see if battle opened...")
             mgba.press_buttons(["B"])
             time.sleep(0.5)
-            new_pos = mgba.get_coordinates()
-            if new_pos == pos:
-                # Still no movement, try to flee
+            new_pos2 = mgba.get_coordinates()
+            if new_pos2 == pos:
+                # Still didn't move, let's try to flee battle
                 flee_battle_safe()
-                new_pos = mgba.get_coordinates()
-                if new_pos == pos:
-                    print("Stuck or unable to move. Exiting.")
-                    break
+                time.sleep(0.5)
+                new_pos3 = mgba.get_coordinates()
+                if new_pos3 == pos:
+                    # Still didn't move, increment retries (could be a wall)
+                    retries += 1
+                else:
+                    # We were in battle and fled, or were moved! Continue walking
+                    print("Recovered from battle/movement. Continuing...")
+            else:
+                print("Recovered after pressing B. Continuing...")
+        else:
+            # We successfully moved! Reset retries and continue loop
+            retries = 0
+
+    print(f"Target {target} is blocked (wall/obstacle).")
+    return False
 
 def main():
-    # We start at (3, 11) in State B
-    # Walk: Down to (3, 12), then Right along Row 12
-    path = [
-        (3, 12),
-        (4, 12), (5, 12), (6, 12), (7, 12), (8, 12), (9, 12), (10, 12),
-        (11, 12), (12, 12), (13, 12), (14, 12), (15, 12), (16, 12), (17, 12),
-        (18, 12), (19, 12), (20, 12), (21, 12), (22, 12), (23, 12), (24, 12), (25, 12)
+    # Currently at (26, 3) on 3F East in State B.
+    # We want to walk down Column 26 to Row 12, then LEFT along Row 12 to Column 21.
+    path_down = [
+        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12)
     ]
     
-    print("Testing Row 12 horizontal walkability...")
-    for target in path:
-        pos = mgba.get_coordinates()
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist > 2:
-            print(f"BUMPED or BLOCKED at {pos}. Expected target was {target}.")
+    path_left = [
+        (25, 12), (24, 12), (23, 12), (22, 12), (21, 12)
+    ]
+    
+    pos = mgba.get_coordinates()
+    print("Initial position:", pos)
+    
+    # 1. Walk down Column 26
+    print("Walking down Column 26 to Row 12...")
+    for target in path_down:
+        success = walk_to_target_robust(target)
+        if not success:
+            print("Failed to walk down Column 26!")
             break
-        walk_to_target(target)
-        
-    print("Test finished. Final position:", mgba.get_coordinates())
+            
+    # 2. Walk LEFT along Row 12
+    pos = mgba.get_coordinates()
+    if pos['y'] == 12:
+        print("Walking left along Row 12...")
+        for target in path_left:
+            success = walk_to_target_robust(target)
+            if not success:
+                print("Failed to walk left along Row 12!")
+                break
+                
+    print("Search finished. Current position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
