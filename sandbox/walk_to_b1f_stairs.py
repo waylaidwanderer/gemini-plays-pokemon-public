@@ -49,21 +49,21 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 14) on 1F East inside the fenced room.
-    # Path: Right to Column 25, Up Column 25 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
+    # Currently at (25, 10) on 1F East.
+    # Path: Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
     path = [
-        # Right to Column 25
-        (24, 14), (25, 14),
-        # Up Column 25 to Row 6 (passing through open gate at 25, 13)
-        (25, 13), (25, 12), (25, 11), (25, 10), (25, 9), (25, 8), (25, 7), (25, 6),
+        # Right to Column 26
+        (26, 10),
+        # Up Column 26 to Row 6
+        (26, 9), (26, 8), (26, 7), (26, 6),
         # Left along Row 6 to Column 22
-        (24, 6), (23, 6), (22, 6),
+        (25, 6), (24, 6), (23, 6), (22, 6),
         # Down Column 22 to Row 7 (the B1F stairs!)
         (22, 7)
     ]
     
     pos = mgba.get_coordinates()
-    print("Current position:", pos)
+    print("Initial position:", pos)
     
     start_idx = 0
     min_dist = 9999
