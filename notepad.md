@@ -2381,17 +2381,20 @@
 
 ## Empirical Switch Locations Verified:
 1. **1F Switch**: (2, 5) in 1F Northwest Room [Verified: triggers dialogue & toggles shutters].
-2. **2F Switch**: (2, 5) DISPROVEN on Turn 21203 (no switch at 2F (2, 5)). Need to find the real 2F switch location or verify if switches exist in East Wing / 3F.
+2. **2F Switch**: (2, 5) and (2, 11) DISPROVEN (decorative only).
+3. **3F Switches**: Pending exploration in 3F East Wing.
 
-## Current Global State (Turn 21324):
-- Toggled on Turn 21324 via 1F (2, 5) switch.
-- Verified on 2F (Turn 21327): 2F (9, 4..5) shutter is CLOSED.
-- 2F doorway to East Wing at (15, 6..7) is OPEN.
+## Chronological Switch Toggle Ledger:
+- Turn 20944: Entered Mansion (Initial State: State 0).
+- Turn 21286: 1F (2, 5) Switch -> Toggled to State 1.
+- Turn 21312: 1F (2, 5) Switch -> Toggled to State 0.
+- Turn 21324: 1F (2, 5) Switch -> Toggled to State 1.
+- Turn 21373: 1F (2, 5) Switch -> Toggled to State 0.
 
-## Exploration Plan:
-1. Explore 2F East Wing through (15, 6..7).
-2. Map all statues, shutters, and stairs in 2F East Wing.
-3. Check 3F via accessible staircases to find open paths to the Balcony Drop-off pit.
+## Current Global State (Turn 21373):
+- Global switch flag is currently in STATE 0.
+- In State 0: 2F (9, 4..5) shutter is CLOSED.
+- Next Action: Toggle 1F (2, 5) switch to STATE 1 to open 2F (9, 4..5) shutter, ascend to 3F via (6, 1) stairs, and access 3F balcony drop.
 
 <hr>
 
