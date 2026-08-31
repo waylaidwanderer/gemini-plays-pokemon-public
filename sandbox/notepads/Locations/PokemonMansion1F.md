@@ -24,6 +24,3 @@
 - **Column 9 Partition Wall:** Closed in State A, blocking horizontal passage between 1F West and 1F East along Row 6.
 - **Debris on Row 8:** Columns 8, 9, 10, 11 on Row 8 are blocked by solid yellow/brown debris.
 - **Southern Area Access:** Taking the stairs down from 2F West at (7, 10) lands the player at (7, 11) on 1F West (in the southern half of 1F West).
-## B1F East Stairs (Verified Turn 69328)
-- **Location:** (22, 7) on 1F East is the active staircase leading DOWN to B1F East (landing at 22, 7 on B1F East).
-- **Proof:** Standing at (22, 7) on 1F East and stepping ONTO it warps the player to B1F East on Turn 69328.
