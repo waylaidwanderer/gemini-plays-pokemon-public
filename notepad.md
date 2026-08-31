@@ -2435,5 +2435,9 @@
 - Trainer: Super Nerd at (17, 2).
 - Room connects West along row 1 into Northwest sector (Room 3).
 - Trainer at (11, 4): Super Nerd ("I have studied POKéMON totally!").
+## Room 3 (Central Sector)
+- Trainer: Burglar at (11, 8).
+- Quiz Machine: Located at (9, 7). Question: "POLIWAG evolves 3 times?" -> NO.
+- Shutter Door: Located at (12..13, 12), opens to Room 4.
 
 <hr>
