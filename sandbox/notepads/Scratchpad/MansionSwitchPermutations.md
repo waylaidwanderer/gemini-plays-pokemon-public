@@ -19,3 +19,4 @@
 - 3F (15, 10..11) shutter: OPEN in State 1.
 - 2F (9, 4..5) shutter: CLOSED in both states from the east side.
 - Turn 21438: 1F (2, 5) Switch -> Toggled to State 0.
+- Turn 21465: 1F (2, 5) Switch -> Toggling to State 1.
