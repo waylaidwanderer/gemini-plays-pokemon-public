@@ -1347,7 +1347,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - Walk Left along Row 11 to 2F West (completely open in State A).
 ## Southwest Staircase Warp Connections
 - **Staircase (5, 10) on 3F West:** Warps DOWN to 2F West, landing at (5, 11) on 2F West.
-- **Staircase on 2F West:** The staircase at (5, 10) on 2F West leads DOWN to 1F West, landing at (5, 11) on 1F West.
 
 ## Row 2 Walkability Boundaries
 - **State B Corridor:** Row 2 on 2F is completely open and passable horizontally (Columns 5-12). However, on 2F East, a solid obstruction blocks horizontal travel past Column 14.

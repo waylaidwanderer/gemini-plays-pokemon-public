@@ -15,32 +15,37 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_to_pitfall():
-    # Monotonic path to (26, 4) on 3F East in State A:
-    # 1. Walk Left to Column 18 on Row 7: (21, 7) -> (18, 7)
-    # 2. Walk UP Column 18 to Row 4: (18, 6) -> (18, 4)
-    # 3. Walk Right along Row 4 to Column 21: (19, 4) -> (21, 4)
+def fall():
+    # Monotonic path from (22, 7) to (26, 6) on 3F East in State A:
+    # 1. Walk to (19, 7)
+    # 2. Walk UP Column 19 to Row 4: (19, 4)
+    # 3. Walk Right to (21, 4)
     # 4. Walk UP Column 21 to Row 3: (21, 3)
-    # 5. Walk Right along Row 3 to Column 26: (22, 3) -> (26, 3)
-    # 6. Walk DOWN Column 26 to (26, 4) (pitfall)
+    # 5. Walk Right along Row 3 to Column 26: (26, 3)
+    # 6. Walk DOWN Column 26 to (26, 6) to trigger fall!
     
-    path = []
-    # Currently at (21, 7)
-    path.append((20, 7))
-    path.append((19, 7))
-    path.append((18, 7))
-    path.append((18, 6))
-    path.append((18, 5))
-    path.append((18, 4))
-    path.append((19, 4))
-    path.append((20, 4))
-    path.append((21, 4))
-    path.append((21, 3))
-    for col in range(22, 27):
-        path.append((col, 3))
-    path.append((26, 4))
+    path = [
+        (22, 7),
+        (21, 7),
+        (20, 7),
+        (19, 7),
+        (19, 6),
+        (19, 5),
+        (19, 4),
+        (20, 4),
+        (21, 4),
+        (21, 3),
+        (22, 3),
+        (23, 3),
+        (24, 3),
+        (25, 3),
+        (26, 3),
+        (26, 4),
+        (26, 5),
+        (26, 6)
+    ]
     
-    # Find closest path node to initialize current_idx
+    # Initialize current_idx to the closest point in the entire path
     pos = mgba.get_coordinates()
     cx, cy = pos['x'], pos['y']
     min_dist = 999999
@@ -51,22 +56,19 @@ def walk_to_pitfall():
             min_dist = dist
             closest_idx = i
     current_idx = closest_idx
+    print(f"Initialized path index to {current_idx}/{len(path)-1} at current position ({cx}, {cy})")
     
     stuck_count = 0
     while current_idx < len(path):
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
         
-        # If we reached the pitfall
-        if cx == 26 and cy == 4:
-            print("Standing on pitfall tile (26, 4)!")
-            mgba.press_buttons(["Down"])
-            time.sleep(1.5)
-            new_pos = mgba.get_coordinates()
-            print("Position after stepping down on pitfall:", new_pos)
+        # If we fell, we will warp to a different map (coordinates change drastically)
+        if abs(cx - 26) + abs(cy - 6) > 10:
+            print("WARPED! Successfully fell through pitfall to 1F East fenced room! New position:", pos)
             break
             
-        # Monotonic path progression (check from furthest down to current_idx)
+        # Monotonic path progression (check from furthest lookahead down to current_idx)
         best_idx = current_idx
         for i in range(min(current_idx + 4, len(path) - 1), current_idx - 1, -1):
             dist = abs(path[i][0] - cx) + abs(path[i][1] - cy)
@@ -114,4 +116,4 @@ def walk_to_pitfall():
             stuck_count = 0
 
 if __name__ == "__main__":
-    walk_to_pitfall()
+    fall()
