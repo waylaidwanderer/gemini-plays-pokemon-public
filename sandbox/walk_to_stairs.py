@@ -73,25 +73,24 @@ def walk_path_robust(target_path):
             stuck_count = 0
 
 def main():
-    # Currently at (14, 3) on 2F East
-    # Path to (22, 1) northeast stairs:
-    # 1. Walk Down Column 14 to Row 6: (14, 4) to (14, 6)
-    # 2. Walk Right along Row 6 to Column 22: (15, 6) to (22, 6)
-    # 3. Walk UP Column 22 to Row 1: (22, 5) to (22, 1) (triggers warp up to 3F East)
+    # Currently at (22, 7) on 2F East in State A
+    # Path to (5, 10) southwest stairs on 2F West:
+    # 1. Down Column 22 to Row 11: (22, 8) to (22, 11)
+    # 2. Left along Row 11 to Column 5: (21, 11) to (5, 11)
+    # 3. UP to stairs at (5, 10) (triggers warp up to 3F West)
     path = []
-    for row in range(4, 7):
-        path.append((14, row))
-    for col in range(15, 23):
-        path.append((col, 6))
-    for row in range(5, 0, -1):
+    for row in range(8, 12):
         path.append((22, row))
-        
+    for col in range(21, 4, -1):
+        path.append((col, 11))
+    path.append((5, 10))
+    
     walk_path_robust(path)
     
-    # Wait for transition to 3F East
+    # Wait for transition to 3F West
     time.sleep(1.5)
     pos = mgba.get_coordinates()
-    print("New Position after 3F East transition:", pos)
+    print("New Position after 3F West transition:", pos)
 
 if __name__ == "__main__":
     main()
