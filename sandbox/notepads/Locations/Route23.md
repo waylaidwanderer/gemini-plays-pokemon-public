@@ -8,8 +8,8 @@
 - [x] 1. Boulder Badge: Route 22 Gate (Inside Gatehouse) [Passed Turn 22089]
 - [x] 2. Cascade Badge: Guard located at (8, 136) [Passed Turn 22091]
 - [x] 3. Thunder Badge: Guard located at (8, 119) [Passed Turn 22103]
-- [ ] 4. Rainbow Badge: Guard located at (12, 105) [Facing Turn 22107]
-- [ ] 5. Soul Badge: Next checkpoint ahead
+- [x] 4. Rainbow Badge: Guard located at (12, 105) [Passed Turn 22108]
+- [ ] 5. Soul Badge: Next checkpoint ahead (in water canal sector)
 - [ ] 6. Marsh Badge
 - [ ] 7. Volcano Badge
 - [ ] 8. Earth Badge
