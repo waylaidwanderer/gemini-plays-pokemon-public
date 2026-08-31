@@ -73,20 +73,19 @@ def walk_path_robust(target_path):
             stuck_count = 0
 
 def main():
-    # Currently at (13, 12) on 2F West in State A
-    # Path to (22, 1) northeast stairs via Column 12 and Row 2:
-    path = [
-        (12, 12),
-    ]
-    # Up Column 12 to Row 2
-    for row in range(11, 1, -1):
-        path.append((12, row))
-    # Right along Row 2 to Column 22
-    for col in range(13, 23):
-        path.append((col, 2))
-    # Up to stairs at (22, 1)
-    path.append((22, 1))
-    
+    # Currently at (14, 3) on 2F East
+    # Path to (22, 1) northeast stairs:
+    # 1. Walk Down Column 14 to Row 6: (14, 4) to (14, 6)
+    # 2. Walk Right along Row 6 to Column 22: (15, 6) to (22, 6)
+    # 3. Walk UP Column 22 to Row 1: (22, 5) to (22, 1) (triggers warp up to 3F East)
+    path = []
+    for row in range(4, 7):
+        path.append((14, row))
+    for col in range(15, 23):
+        path.append((col, 6))
+    for row in range(5, 0, -1):
+        path.append((22, row))
+        
     walk_path_robust(path)
     
     # Wait for transition to 3F East
