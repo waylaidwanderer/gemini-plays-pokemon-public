@@ -49,23 +49,19 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (26, 5) on 3F East.
-    # Path to the balcony drop in State A:
-    path = [
-        # Walk DOWN Column 26 to Row 12
-        (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12),
-        # Walk LEFT along Row 12 to Column 24
-        (25, 12), (24, 12),
-        # Walk DOWN Column 24 to Row 16
-        (24, 13), (24, 14), (24, 15), (24, 16),
-        # Walk LEFT along Row 16 to Column 21
-        (23, 16), (22, 16), (21, 16),
-        # Walk DOWN Column 21 to Row 18 (past open gate at 21, 17)
-        (21, 17), (21, 18),
-        # Walk LEFT along Row 18 to Column 19
-        (20, 18), (19, 18),
-        # Step DOWN to trigger drop!
-        (19, 19)
+    # Currently at (21, 16) on 3F East in State A.
+    # First, let's walk back to the switch at (2, 5) to set to State B:
+    path_to_switch = [
+        # Up Column 21 to Row 3
+        (21, 15), (21, 14), (21, 13), (21, 12), (21, 11), (21, 10), (21, 9), (21, 8), (21, 7), (21, 6), (21, 5), (21, 4), (21, 3),
+        # Left Row 3 to Column 12 on 3F West
+        (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3),
+        # Up Column 12 to Row 2
+        (12, 2),
+        # Left Row 2 to Column 4
+        (11, 2), (10, 2), (9, 2), (8, 2), (7, 2), (6, 2), (5, 2), (4, 2),
+        # Down Column 4 and 3 to (3, 5)
+        (4, 3), (4, 4), (4, 5), (3, 5)
     ]
     
     pos = mgba.get_coordinates()
@@ -73,15 +69,65 @@ def main():
     
     start_idx = 0
     min_dist = 9999
-    for i, target in enumerate(path):
+    for i, target in enumerate(path_to_switch):
         dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
         if dist < min_dist:
             min_dist = dist
             start_idx = i
             
-    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
-    for idx in range(start_idx, len(path)):
-        target = path[idx]
+    print(f"Walking to switch from index {start_idx} (target: {path_to_switch[start_idx]})")
+    for idx in range(start_idx, len(path_to_switch)):
+        target = path_to_switch[idx]
+        walk_to_target(target)
+        
+    print("Reached (3, 5). Turning LEFT to face switch at (2, 5)...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    
+    # Toggle switch to State B (requires exactly 4 A presses to clear text box)
+    print("Toggling switch to State B...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(0.8)
+    
+    # Clear residual dialog
+    mgba.press_buttons(["B"])
+    time.sleep(0.4)
+    
+    # Now walk from (3, 5) to the balcony in State B using Column 23:
+    path_to_balcony = [
+        # Walk RIGHT to Column 4
+        (4, 5),
+        # Walk UP Column 4 to Row 2
+        (4, 4), (4, 3), (4, 2),
+        # Walk RIGHT along Row 2 to Column 12
+        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2),
+        # Down to Row 3
+        (12, 3),
+        # Right Row 3 to Column 23
+        (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3),
+        # Down Column 23 to Row 12 (bypasses all walls/gates in State B!)
+        (23, 4), (23, 5), (23, 6), (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
+        # Left Row 12 to Column 21
+        (22, 12), (21, 12),
+        # Down Column 21 to Row 18 (past open gate at 21, 17)
+        (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
+        # Left Row 18 to Column 19
+        (20, 18), (19, 18),
+        # Step DOWN to drop!
+        (19, 19)
+    ]
+    
+    pos = mgba.get_coordinates()
+    print("Position after toggling switch:", pos)
+    
+    print("Walking to balcony...")
+    for target in path_to_balcony:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
@@ -91,7 +137,7 @@ def main():
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
             break
             
-    print("Finished path. Final position:", mgba.get_coordinates())
+    print("Finished. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
