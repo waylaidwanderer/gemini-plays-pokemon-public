@@ -20,7 +20,7 @@
 - Mewtwo Statue Switch: (2, 4..5) (base/switch at (2, 5)).
 - Large Wooden Table: (6..7, 4..5).
 - Green Display Table: (4, 6..7).
-- Column 9 Divider: Solid vertical wall from Row 0 to Row 8 with shutter gate at (9, 4..5) (OPEN in State A, CLOSED in State B).
+- Column 9 Divider: Solid vertical wall from Row 0 to Row 8 with open doorway at (9, 3) connecting central corridor to Northwest Room.
 - South Divider (Row 9): Solid wall across cols 1-7.
 
 ### Northern Landing Sector (Accessible via 3F Right Balcony Drop at (19, 14))
