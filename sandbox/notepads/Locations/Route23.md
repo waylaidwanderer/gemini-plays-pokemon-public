@@ -17,3 +17,4 @@
 - Cascade Check Sector: y=136..139. Guard at (8, 136).
 - Statue Barrier: Rows 130-131 contain statues and walls, but columns 14 and 15 (14..15, 128..131) form an open 2-tile wide tall grass corridor running directly north to the next sector!
 - Thunder Check Approach: From row 124 at (15, 124), walk Left across open grass to central paved road (cols 6..8, y=124), then follow central road north towards Thunder Badge check.
+- Statue Barrier 2: Rows 122-123 have statues at (7, 121..123) and (10, 121..123), but columns 8 and 9 (8..9, 120..123) form an open tall grass corridor running north to row 119!
