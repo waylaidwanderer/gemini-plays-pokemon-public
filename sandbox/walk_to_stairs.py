@@ -73,28 +73,21 @@ def walk_path_robust(target_path):
             stuck_count = 0
 
 def main():
-    # Currently at (8, 6) on 3F West in State A
-    # Path to (5, 10) stairs via Row 2 and Column 10:
+    # Currently at (10, 7) on 3F West in State A
+    # Path using Column 12 to bypass the Column 10 Row 8 rubble:
     path = [
-        (8, 5),
-        (8, 4),
-        (8, 3),
-        (8, 2), # Row 2
-        (9, 2), # Cross Column 9
-        (10, 2), # Column 10
-        (10, 3),
-        (10, 4),
-        (10, 5),
-        (10, 6),
-        (10, 7),
-        (10, 8),
-        (10, 9),
-        (10, 10), # Row 10
+        (11, 7),
+        (12, 7), # Row 7 Column 12
+        (12, 8),
+        (12, 9),
+        (12, 10), # Row 10 Column 12
+        (11, 10),
+        (10, 10),
         (9, 10),
-        (8, 10),
+        (8, 10), # Open shutter gate (8, 10)
         (7, 10),
         (6, 10),
-        (5, 10) # Triggers warp to 2F West (5, 11)
+        (5, 10) # Triggers warp down to 2F West (5, 11)
     ]
     
     walk_path_robust(path)
