@@ -41,7 +41,7 @@ def walk_to_target(target):
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Check if in battle or blocked
+            # We didn't move. Let's check for battle or block.
             print("No movement. Pressing B to dismiss potential menu/text.")
             mgba.press_buttons(["B"])
             time.sleep(0.5)
@@ -52,19 +52,10 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # If currently in battle or on end-battle screen, let's flee or dismiss it
-    # But wait, we are currently in the overworld at (10, 16) facing RIGHT on Turn 70073!
-    # Let's define our exact coordinate path to the balcony in State A
+    # Corrected path in State A from our current position (20, 1) to the balcony
     path = [
-        # Up Column 10 to Row 11
-        (10, 15), (10, 14), (10, 13), (10, 12), (10, 11),
-        # Right to Column 12 Row 11
-        (11, 11), (12, 11),
-        # Up Column 12 to Row 1
-        (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
-        # Right along Row 1 to Column 27
-        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1),
-        (23, 1), (24, 1), (25, 1), (26, 1), (27, 1),
+        # Already at (20, 1), next is (21, 1)
+        (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1), (27, 1),
         # Down Column 27 to Row 9
         (27, 2), (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
         # Left to Column 26 Row 9
@@ -81,16 +72,20 @@ def main():
         (19, 19)
     ]
     
-    print("Starting ultimate State A balcony drop solution...")
+    print("Starting corrected State A balcony drop solution from (20, 1)...")
+    
+    # First, let's dismiss the "Got away safely!" text box by pressing B
+    # Since we are at (20, 1), we can just do that inside the loop
     for target in path:
-        pos = mgba.get_coordinates()
-        # If coordinates changed drastically, we fell through to B1F West!
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist > 5:
-            print("WARPED! We fell through to B1F West! Success!")
-            break
+        pos_before = mgba.get_coordinates()
         walk_to_target(target)
+        pos_after = mgba.get_coordinates()
         
+        # Robust warp check: did our position change by more than 5 tiles in a single step?
+        if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
+            print(f"WARPED! From {pos_before} to {pos_after}. We fell through! Success!")
+            break
+            
     print("Finished path. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
