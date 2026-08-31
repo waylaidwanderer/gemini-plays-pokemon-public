@@ -1407,14 +1407,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <hr>
 
-<h1><code>Scratchpad/B1F_Connection</code></h1>
-
-# Scratchpad: B1F Connection & Stairs Tracking
-
-
-
-<hr>
-
 <h1><code>notepads/Scratchpad/B1F_Connection.md</code></h1>
 
 
