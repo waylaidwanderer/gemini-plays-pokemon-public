@@ -49,23 +49,15 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (26, 14) on 3F East.
-    # Path to switch at (3, 11) on 3F West bypassing (26, 13) via (25, 13):
+    # Currently at (10, 7) on 3F East/Middle.
+    # Path to switch at (3, 11) on 3F West via Column 12 (clear of rubble!):
     path = [
-        # Walk LEFT to Column 25
-        (25, 14),
-        # Walk UP through open gate to Row 12
-        (25, 13), (25, 12),
-        # Walk RIGHT to Column 26
-        (26, 12),
-        # Walk UP Column 26 to Row 3
-        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
-        # Walk LEFT along Row 3 to Column 10
-        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
-        # Walk DOWN Column 10 to Row 11
-        (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11),
+        # Walk to Column 12 on Row 7
+        (11, 7), (12, 7),
+        # Walk DOWN Column 12 to Row 11
+        (12, 8), (12, 9), (12, 10), (12, 11),
         # Walk LEFT along Row 11 to Column 3 (right next to switch)
-        (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
+        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
     ]
     
     pos = mgba.get_coordinates()
