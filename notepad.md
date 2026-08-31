@@ -2389,6 +2389,7 @@
 
 ## Northwest & Southwest Wing Topology
 - Northwest Room (cols 2-8, rows 1-7) connects South via doorway at (4..5, 8).
+- (5, 13): Secret Key [Collected Turn 21590] (Unlocks Cinnabar Gym)
 
 <hr>
 
