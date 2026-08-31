@@ -2,9 +2,9 @@
 
 ## Active Party (Verified Turn 22171)
 1. HYDROS (Blastoise) - Lv 68
-   - Stats: Max HP 229 (HP: 30/229 - Active), Attack 161, Defense 177, Speed 163, Special 170
+   - Stats: Max HP 229 (HP: 229/229 - Healthy), Attack 161, Defense 177, Speed 163, Special 170
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (6/10), Bite (25/25), Surf (10/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46 - Healthy)
@@ -33,16 +33,16 @@
    - Role: Physical Rock/Ground tank & Dig utility (Slot 6)
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pokï¿½mon will receive a thoughtful, unique nickname.
 
-## Boxed Pokémon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
+## Boxed Pokï¿½mon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokï¿½mon Center PC]
+2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokï¿½mon Center PC]
 3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2]
 4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F]
 5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo]
-6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pokémon Mansion 2F]
+6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pokï¿½mon Mansion 2F]
 
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
-- Active Bag Items: Bicycle, Great Ball x9, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
+- Active Bag Items: Bicycle, Great Ball x9, HM03 (Surf), HM04 (Strength), Silph Scope, Pokï¿½ Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
