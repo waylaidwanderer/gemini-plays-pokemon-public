@@ -41,7 +41,7 @@ def walk_to_target(target):
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # We didn't move. Let's check for battle or block.
+            # Check if in battle or blocked
             print("No movement. Pressing B to dismiss potential menu/text.")
             mgba.press_buttons(["B"])
             time.sleep(0.5)
@@ -50,61 +50,39 @@ def walk_to_target(target):
                 # Still no movement, try to flee
                 flee_battle_safe()
                 time.sleep(0.5)
-                # Let the loop continue and try the movement again!
 
 def main():
-    # If we are currently in battle, let's flee first
-    print("Fleeing current battle first...")
-    flee_battle_safe()
-    
-    # We should be around (10, 16) or (10, 17)
-    # Phase 1: Walk back to switch at (3, 11) on 3F West
-    path_to_switch = [
+    # If currently in battle or on end-battle screen, let's flee or dismiss it
+    # But wait, we are currently in the overworld at (10, 16) facing RIGHT on Turn 70073!
+    # Let's define our exact coordinate path to the balcony in State A
+    path = [
         # Up Column 10 to Row 11
-        (10, 16), (10, 15), (10, 14), (10, 13), (10, 12), (10, 11),
-        # Left along Row 11 to Column 3
-        (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
+        (10, 15), (10, 14), (10, 13), (10, 12), (10, 11),
+        # Right to Column 12 Row 11
+        (11, 11), (12, 11),
+        # Up Column 12 to Row 1
+        (12, 10), (12, 9), (12, 8), (12, 7), (12, 6), (12, 5), (12, 4), (12, 3), (12, 2), (12, 1),
+        # Right along Row 1 to Column 27
+        (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1),
+        (23, 1), (24, 1), (25, 1), (26, 1), (27, 1),
+        # Down Column 27 to Row 9
+        (27, 2), (27, 3), (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
+        # Left to Column 26 Row 9
+        (26, 9),
+        # Down Column 26 to Row 16
+        (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+        # Left along Row 16 to Column 21
+        (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
+        # Down Column 21 to Row 18
+        (21, 17), (21, 18),
+        # Left along Row 18 to Column 19 (balcony drop!)
+        (20, 18), (19, 18),
+        # Down on (19, 18) to trigger the fall
+        (19, 19)
     ]
     
-    print("PHASE 1: Walking to switch at (2, 11)...")
-    for target in path_to_switch:
-        pos = mgba.get_coordinates()
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist > 5:
-            # Skip if we are already past it
-            continue
-        walk_to_target(target)
-        
-    # Phase 2: Toggle switch to State A
-    # Make sure we are at (3, 11)
-    walk_to_target((3, 11))
-    
-    print("PHASE 2: Turning Left to face Mewtwo statue...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-    
-    print("Toggling switch to State A...")
-    mgba.press_buttons(["A", "sleep 300", "A", "sleep 300", "A", "sleep 300", "A", "sleep 300"])
-    time.sleep(1.0)
-    
-    # Phase 3: Walk to the balcony drop in State A
-    path_to_balcony = [
-        # Right along Row 11 to Column 10
-        (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11),
-        # Down Column 10 to Row 16
-        (10, 12), (10, 13), (10, 14), (10, 15), (10, 16),
-        # Right along Row 16 to Column 20
-        (11, 16), (12, 16), (13, 16), (14, 16), (15, 16), (16, 16), (17, 16), (18, 16), (19, 16), (20, 16),
-        # Down to (20, 17) (open gate in State A!)
-        (20, 17),
-        # Left to (19, 17)
-        (19, 17),
-        # Down to (19, 18) (balcony drop!)
-        (19, 18)
-    ]
-    
-    print("PHASE 3: Walking to the balcony drop...")
-    for target in path_to_balcony:
+    print("Starting ultimate State A balcony drop solution...")
+    for target in path:
         pos = mgba.get_coordinates()
         # If coordinates changed drastically, we fell through to B1F West!
         dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
