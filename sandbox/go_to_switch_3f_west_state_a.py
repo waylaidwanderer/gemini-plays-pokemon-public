@@ -49,24 +49,17 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Path from current position (22, 16) to switch area at (3, 5) on 3F West:
+    # Currently at (11, 7) or nearby on 3F
+    # Path to switch at (3, 5) via Column 12 and Row 11:
     path = [
-        # Walk to Column 24 Row 16
-        (23, 16), (24, 16),
-        # Up Column 24 to Row 12
-        (24, 15), (24, 14), (24, 13), (24, 12),
-        # Right to Column 26
-        (25, 12), (26, 12),
-        # Up Column 26 to Row 3
-        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
-        # Left along Row 3 to Column 10
-        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
-        # Down Column 10 to Row 6
-        (10, 4), (10, 5), (10, 6),
-        # Left along Row 6 to Column 3
-        (9, 6), (8, 6), (7, 6), (6, 6), (5, 6), (4, 6), (3, 6),
+        # Walk to Column 12 on Row 7
+        (12, 7),
+        # Down Column 12 to Row 11
+        (12, 8), (12, 9), (12, 10), (12, 11),
+        # Left along Row 11 to Column 3
+        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11),
         # Up Column 3 to Row 5 (standing next to switch at (2, 5))
-        (3, 5)
+        (3, 10), (3, 9), (3, 8), (3, 7), (3, 6), (3, 5)
     ]
     
     pos = mgba.get_coordinates()
@@ -89,7 +82,7 @@ def main():
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
     
-    print("Pressing A to interact with Mewtwo statue switch at (2, 5)...")
+    print("Pressing A to interact with Mewtwo statue switch at (2, 5) to set to State A...")
     mgba.press_buttons(["A"])
     time.sleep(0.4)
     mgba.press_buttons(["A"])
