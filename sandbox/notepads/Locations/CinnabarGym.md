@@ -20,3 +20,7 @@
 - Trainer: Burglar at (11, 8).
 - Quiz Machine: Located at (9, 7). Question: "POLIWAG evolves 3 times?" -> NO.
 - Shutter Door: Located at (12..13, 12), opens to Room 4.
+## Room 4 (South Central Sector)
+- Trainer: Super Nerd at (11, 14).
+- Quiz Machine: Located at (9, 13). Question: "Are thunder moves effective against GROUND element-type POKéMON?" -> NO.
+- Shutter Door: Located at (5..6, 12) / (5..6, 6) leading West.
