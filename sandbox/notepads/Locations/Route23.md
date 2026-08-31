@@ -6,8 +6,8 @@
 
 ## Badge Check Guards
 - [x] 1. Boulder Badge: Route 22 Gate (Inside Gatehouse) [Passed Turn 22089]
-- [ ] 2. Cascade Badge: Guard located at (8, 136) [Facing now]
-- [ ] 3. Thunder Badge
+- [x] 2. Cascade Badge: Guard located at (8, 136) [Passed Turn 22091]
+- [ ] 3. Thunder Badge: Next checkpoint ahead
 - [ ] 4. Rainbow Badge
 - [ ] 5. Soul Badge
 - [ ] 6. Marsh Badge
