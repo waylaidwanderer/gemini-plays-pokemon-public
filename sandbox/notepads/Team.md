@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 22051)
+## Active Party (Verified Turn 22171)
 1. HYDROS (Blastoise) - Lv 67
-   - Stats: Max HP 225, Attack 157, Defense 174, Speed 160, Special 166
+   - Stats: Max HP 225 (HP: 114/225 - Active), Attack 157, Defense 174, Speed 160, Special 166
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (15/15), Ice Beam (6/10), Bite (25/25), Surf (10/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46 - Healthy)
@@ -33,33 +33,16 @@
    - Role: Physical Rock/Ground tank & Dig utility (Slot 6)
 
 ## Planned Nicknaming Strategy
-- Every captured PokÃ©mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Boxed PokÃ©mon (Box 1)
-1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon PokÃ©mon Center PC]
-   - Stats: Max HP 32, Type: Rock / Ground, Moves: Tackle, Screech
-2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon PokÃ©mon Center PC]
-   - Stats: Max HP 28, Type: Poison / Flying, Moves: Leech Life, Supersonic
-3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2; sent to Box 1]
-   - Type: Normal
-4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F; sent to Box 1]
-   - Type: Water / Ice
-5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo; sent to Box 1]
-   - Type: Fighting
-   - Moves: Jump Kick, Meditate, Rolling Kick
-6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on PokÃ©mon Mansion 2F; sent to Box 1]
-   - Type: Poison
-   - Moves: Pound, Disable, Poison Gas
+## Boxed Pokémon (Box 1)
+1. TITAN (Onix) - Lv 13 [Deposited Turn 12022 at Celadon Pokémon Center PC]
+2. ECHO (Zubat) - Lv 9 [Deposited Turn 14171 at Celadon Pokémon Center PC]
+3. FRTUNA (Chansey) - Lv 26 [Captured Turn 16072 in Safari Zone Area 2]
+4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F]
+5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo]
+6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pokémon Mansion 2F]
 
 ## Inventory & Resources (Verified Turn 21825)
-- Badges: Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge (8/8)
-- Bag Capacity: 12 / 20 slots used (8 free slots available)
-- Active Bag Items: Bicycle, Great Ball x9, HM03 (Surf), HM04 (Strength), Silph Scope, PokÃ© Flute, Good Rod, TM22 (Solarbeam), TM27 (Fissure), Max Potion, Escape Rope, Secret Key
-- Deposited in PC: Master Ball x1, Card Key, TM03 (Swords Dance), TM06 (Toxic), TM29 (Psychic), TM46 (Psywave), HM02 (Fly), TM18 (Counter), TM48 (Rock Slide), TM49 (Tri Attack), TM40 (Skull Bash), TM32 (Double Team), Lift Key, 2x Moon Stone, 1x Water Stone, 1x Helix Fossil, 1x Nugget, TM34, TM11, TM28, TM21, TM08, TM24, S.S. Ticket
-- Funds: Â¥30,000+
-
-## Field HM Mechanics (Empirically Verified)
-- HM01 Cut: Party menu -> CUT removes adjacent cut bush.
-- HM02 Fly: Party menu -> FLY opens fast-travel town map.
-- HM03 Surf: Usable outside battle with Soul Badge on water tiles.
-- HM04 Strength: Party menu -> STRENGTH activates boulder-moving capability for active map. Walking into a boulder displaces it 1 tile in the walking direction.
+- Badges: 8/8 (All Kanto Badges earned!)
+- Active Bag Items: Bicycle, Great Ball x9, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
