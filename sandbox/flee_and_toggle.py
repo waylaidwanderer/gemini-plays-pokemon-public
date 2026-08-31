@@ -49,37 +49,40 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    print("Fleeing current battle first...")
+    # Currently in battle at (4, 2). Flee first!
     flee_battle_safe()
     
-    # We are currently at (26, 12) on 1F East.
-    # The entrance to the fenced room is at (25, 13) or (25, 12) -> (25, 13) -> (25, 14).
-    # Let's explore the fenced room systematic coordinates:
+    # Remaining path to switch at (2, 5) standing at (3, 5):
     path = [
-        # Walk to entrance
-        (25, 12),
-        # Step into the fenced room via gate
-        (25, 13),
-        # Go deeper
-        (25, 14), (26, 14), (27, 14), (28, 14),
-        (28, 15), (27, 15), (26, 15), (25, 15),
-        (25, 16), (26, 16), (27, 16), (28, 16)
+        # Walk LEFT along Row 2 to Column 2
+        (3, 2), (2, 2),
+        # Walk DOWN Column 2 and 3 to stand at (3, 5)
+        (2, 3), (2, 4), (3, 4), (3, 5)
     ]
     
-    print("Walking systematic exploration of 1F East fenced room...")
+    print("Starting path to switch area...")
     for target in path:
-        pos_before = mgba.get_coordinates()
         walk_to_target(target)
-        pos_after = mgba.get_coordinates()
         
-        # Warp check: did our coordinates change drastically or did we disappear?
-        # A map transition will load a new screen and usually reset coordinates or change them.
-        # But we can also look at the return value of get_coordinates().
-        # In Pokémon, B1F East stairs land the player at a specific coordinate.
-        # Let's print our coordinate after each successful step.
-        print("Currently at:", pos_after)
-        
-    print("Finished path. Final position:", mgba.get_coordinates())
+    print("Reached switch area at (3, 5). Turning LEFT to face switch at (2, 5)...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    
+    print("Pressing A to interact with Mewtwo statue switch at (2, 5) to set to State A...")
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(0.4)
+    mgba.press_buttons(["A"])
+    time.sleep(0.8)
+    
+    # Clear residual text / menu
+    mgba.press_buttons(["B"])
+    time.sleep(0.4)
+    
+    print("Toggled switch. Final position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
