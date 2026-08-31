@@ -2370,6 +2370,8 @@
 - 2F (9, 4..5) shutter: OPEN in State 1 (traversed Turn 21476).
 - Turn 21438: 1F (2, 5) Switch -> Toggled to State 0.
 - Turn 21468: 1F (2, 5) Switch -> Toggled to State 1.
+- Turn 21487: 3F (10, 5) Switch -> Toggled to State 0 (Confirmed by 'Who wouldn't?' dialogue).
+- 3F (15, 10..11) shutter: OPEN in State 0.
 
 <hr>
 
