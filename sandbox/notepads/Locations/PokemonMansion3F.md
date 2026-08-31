@@ -26,7 +26,7 @@
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
 1. **Toggle Switch to State A:** From 3F East, walk via Column 26 Row 1 and Row 1 horizontally to 3F West Column 2 Row 6, face UP and toggle the Mewtwo switch at (2, 5) to State A (using exactly 5 A-presses since the default is YES).
-2. **Fall through Pitfall (State B):** The pitfall on 3F East is located at (26, 3) or (26, 4). In State B, the pitfall is open and active. We must access 3F East in State B via the northeast stairs on 2F East, and then walk to the pitfall to fall through.
+
 3. **Ascend via 2F East:**
    - From 1F East fenced room, take the stairs down to B1F East.
    - Walk through 1F West to the stairs up to 2F West.
