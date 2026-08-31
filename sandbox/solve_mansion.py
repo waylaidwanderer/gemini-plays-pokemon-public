@@ -55,7 +55,7 @@ def walk_to_target(target):
 
 def main():
     # Currently at (10, 18) on 3F West in State B
-    # Perfect State B path to the balcony drop
+    # Correct State B path to the balcony drop via Row 6
     path = [
         # Up Column 10 to Row 6
         (10, 17), (10, 16), (10, 15), (10, 14), (10, 13), (10, 12), (10, 11), (10, 10), (10, 9), (10, 8), (10, 7), (10, 6),
@@ -73,13 +73,26 @@ def main():
         (19, 19)
     ]
     
-    print("Starting ultimate State B balcony drop solution from (10, 18)...")
-    for target in path:
+    # Filter or resume path based on current position
+    pos = mgba.get_coordinates()
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Resuming solve_mansion path from index {start_idx} (target: {path[start_idx]})")
+    
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Robust warp check: did our position change by more than 5 tiles in a single step?
+        # Robust warp check: did our Y position change drastically?
+        # On 3F Y is at most 18. If we fell to B1F, we'll land on B1F with Y coordinate different.
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. We fell through! Success!")
             break
