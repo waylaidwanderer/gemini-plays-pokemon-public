@@ -2285,7 +2285,6 @@
 | (9, 4..5) Shutter Gate | 1F | OPEN | CLOSED |
 | (24..25, 13) Shutter Gate | 1F | OPEN | CLOSED |
 | (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
-| (24..25, 17) Passage | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
 ### Central & Garden Sector (Empirically Mapped Turns 21160-21163)
 - Stairs: 2F descending stairs at (5, 10); 3F ascending stairs at (7, 10).
@@ -2323,7 +2322,7 @@
 - Thoroughfare along row 1 (cols 1-28) connects Northwest Room to East Wing.
 
 ### Stairs to 3F
-- **East Wing Stairs**: Located at (21, 23) in the southern sector. Leads up to 3F Northeast Sector (drop pits to 1F / B1F access).
+- **East Wing Stairs**: Located at (21, 23) in the southern sector. Visual landmark; direct ground access from 2F East Wing blocked by closed shutters in both states.
 - **Southwest Wing Stairs**: Located at (7, 10) in the central sector (adjacent to 1F stairs at (5, 10)). Leads up to 3F Southwest Wing (isolated room with TM09 Take Down and Mew journal).
 
 ### East Wing & Corridors
