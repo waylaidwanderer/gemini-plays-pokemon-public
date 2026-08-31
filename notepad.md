@@ -63,14 +63,14 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 21781)
+## Active Party (Verified Turn 21813 - Fully Healed at Viridian Pokémon Center)
 1. HYDROS (Blastoise) - Lv 65
-   - Stats: Max HP 218 (HP: 0/218 - Fainted Turn 21778 in Viridian Gym), Attack 153, Defense 168, Speed 155, Special 162
+   - Stats: Max HP 218 (HP: 218/218 - Healthy), Attack 153, Defense 168, Speed 155, Special 162
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (9/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46 - Fainted)
+   - Stats: Max HP 46 (HP: 46/46 - Healthy)
    - Type: Grass / Poison
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Active combatant & Cut utility
@@ -85,7 +85,7 @@
    - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
    - Role: Physical Rock/Ground tank & Dig utility
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62 - Active in Battle)
+   - Stats: Max HP 62 (HP: 62/62 - Healthy)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Active Battler & evasion stall
