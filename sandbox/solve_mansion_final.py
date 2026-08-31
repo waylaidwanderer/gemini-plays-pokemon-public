@@ -54,23 +54,18 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
+    # Currently at (20, 6) in the overworld on 3F East in State B (Got away safely text on screen)
     pos = mgba.get_coordinates()
     print("Starting solve_mansion_final from position:", pos)
     
-    # Correct State B path to the balcony drop from our current position (10, 19)
+    # Correct State B path to the balcony drop from (20, 6) via Column 23
     path = [
-        # Up Column 10 to Row 11
-        (10, 18), (10, 17), (10, 16), (10, 15), (10, 14), (10, 13), (10, 12), (10, 11),
-        # Right Row 11 to Column 12
-        (11, 11), (12, 11),
-        # Up Column 12 to Row 6 (completely bypassing the Column 10 Row 8 rubble!)
-        (12, 10), (12, 9), (12, 8), (12, 7), (12, 6),
-        # Right along Row 6 to Column 19
-        (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6),
-        # Down Column 19 to Row 12 (through open gate at 19, 8 in State B)
-        (19, 7), (19, 8), (19, 9), (19, 10), (19, 11), (19, 12),
-        # Right to Column 21 Row 12
-        (20, 12), (21, 12),
+        # Right along Row 6 to Column 23
+        (21, 6), (22, 6), (23, 6),
+        # Down Column 23 to Row 12 (open vertically in State B!)
+        (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
+        # Left Row 12 to Column 21
+        (22, 12), (21, 12),
         # Down Column 21 to Row 18 (through open gate at 21, 17 in State B)
         (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
         # Left along Row 18 to Column 19 (balcony drop!)
