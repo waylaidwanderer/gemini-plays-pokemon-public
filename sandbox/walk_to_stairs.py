@@ -81,12 +81,14 @@ def main():
     # 4. UP to stairs at (5, 10) (triggers warp up to 3F West)
     path = [
         (21, 7),
-        (21, 8),
-        (21, 9),
-        (21, 10),
-        (21, 11),
+        (20, 7),
+        (19, 7),
+        (19, 8),
+        (19, 9),
+        (19, 10),
+        (19, 11),
     ]
-    for col in range(20, 4, -1):
+    for col in range(18, 4, -1):
         path.append((col, 11))
     path.append((5, 10))
     
