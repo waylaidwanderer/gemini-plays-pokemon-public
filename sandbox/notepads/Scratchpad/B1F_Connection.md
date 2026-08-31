@@ -1,10 +1,6 @@
-# Scratchpad: Unverified B1F Connection Hypothesis
+# Scratchpad: B1F Connection & Stairs Tracking
 
-## Proposed Connection Hypothesis (Unverified - Turn 68439)
-- **HYPOTHESIS - B1F Connection:** The Secret Key is on B1F West. We hypothesize that B1F East and B1F West may be directly connected on B1F, which would mean we do NOT need to reach the 3F balcony to drop to B1F West. This is currently UNVERIFIED.
-- **PROPOSED SOLUTION PATH (Hypothetical):**
-  1. Trigger State A (verified active currently).
-  2. Find and fall through the active pitfall on 3F East (under investigation).
-  3. Take the stairs down to B1F East.
-  4. Navigate B1F to see if we can cross from East to West, find the Mewtwo switch, toggle it, and retrieve the Secret Key!
-- **State A Shutter Gate Observations (Verified Turn 68991):** The shutter gate at `(25, 13)` is OPEN in State A.
+## Southeast Fenced Room B1F Stairs (Active Hypothesis)
+- **Location:** The staircase leading down to B1F East is located inside the southeast fenced room on 1F East, around Columns 25-28.
+- **Warp Tile Hypothesis:** We hypothesize that (27, 11) is the actual warp tile leading down to B1F East. We need to walk to (27, 12) and step UP onto (27, 11) to verify if the warp triggers.
+- **State A Shutter Gate Observations (Verified):** The gate at (25, 13) on 1F East is OPEN in State A, granting direct access to the fenced room.

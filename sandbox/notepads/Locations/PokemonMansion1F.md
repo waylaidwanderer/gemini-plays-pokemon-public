@@ -11,3 +11,8 @@
 
 ## B1F East Stairs
 - Located inside the fenced room on 1F East (around Column 25/26). This fenced area is completely accessible from the rest of 1F East in State A, and leads down to B1F East.
+
+## 1F East Southeast Fenced Room (Verified Ground Truth)
+- **Open Gate at (25, 13):** Open in State A, allowing entry into the fenced room from Row 12.
+- **Verified Walkable Tiles:** (25, 13), (25, 14), (26, 14), (27, 12), and (28, 12) are completely walkable pink checkered floors.
+- **Row 13 Counter Barrier:** Columns 26, 27, 28 on Row 13 contain solid wall/counter structures blocking vertical travel.
