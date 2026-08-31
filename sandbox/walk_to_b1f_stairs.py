@@ -13,14 +13,13 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_around_wall_to_b1f():
-    # Path around Column 22 wall on Row 6 by going Up to Row 3 first.
+def walk_down_column_26():
+    # Safe path down Column 26 on 1F East
+    # We step Right to (26, 3) first, then walk Down Column 26.
     path = [
-        (21, 6),
-        (21, 5), (21, 4), (21, 3), # Up to Row 3
-        (22, 3), (23, 3), (24, 3), (25, 3), # Right past Column 22 wall
-        (25, 4), (25, 5), (25, 6), (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), (25, 14), # Down Column 25
-        (26, 14) # Stairs to B1F East
+        (25, 3),
+        (26, 3), # Step Right to Column 26
+        (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (26, 13), (26, 14) # Down Column 26
     ]
     
     idx = 0
@@ -33,16 +32,27 @@ def walk_around_wall_to_b1f():
         x, y = pos['x'], pos['y']
         print(f"Current Position: ({x}, {y})")
         
-        # Warp check: if we are no longer on 1F, we have warped!
-        if x == 26 and y == 14:
-            print("Arrived at B1F East stairs! Stepping onto them...")
-            mgba.press_buttons(["Right", "sleep 1000"])
+        # Warp check: if we are no longer on 1F East (our coordinate changes to B1F East, or we can't find ourselves on 1F), we warped!
+        # If our position changes to something else, we print it and break.
+        if last_pos is not None and last_pos != (x, y) and (x, y) not in path:
+            print(f"Warp detected! New Position: ({x}, {y})")
             break
             
         if (x, y) in path:
             curr_idx = path.index((x, y))
             if curr_idx > idx:
                 idx = curr_idx
+                
+            if idx == len(path) - 1:
+                # We reached (26, 14). Let's see if we warped or if the stairs are here.
+                # In Pokemon Red/Blue, the stairs to B1F are usually on Row 12 or Row 14.
+                # Let's check if the coordinate changes
+                print("Arrived at the end of Column 26! Testing for warp...")
+                # Press Right or Down to activate warp if we are standing on it
+                mgba.press_buttons(["Right"])
+                time.sleep(1.5)
+                break
+                
             tx, ty = path[idx + 1]
             print(f"Index: {idx}, Next Target: ({tx}, {ty})")
             
@@ -86,6 +96,6 @@ def walk_around_wall_to_b1f():
         
     time.sleep(1.5)
     pos = mgba.get_coordinates()
-    print("Final Position:", pos)
+    print("Final Position after loop:", pos)
 
-walk_around_wall_to_b1f()
+walk_down_column_26()
