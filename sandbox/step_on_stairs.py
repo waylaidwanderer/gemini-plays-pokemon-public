@@ -16,47 +16,76 @@ def flee_battle_safe():
         time.sleep(0.1)
     print("Fled battle safely.")
 
+def get_dir(curr, target):
+    if target[0] > curr['x']: return "Right"
+    if target[0] < curr['x']: return "Left"
+    if target[1] > curr['y']: return "Down"
+    if target[1] < curr['y']: return "Up"
+    return None
+
 def walk_to_target(target):
-    pos = mgba.get_coordinates()
-    if pos['x'] == target[0] and pos['y'] == target[1]:
-        print("Already at target.")
-        return
-        
-    direction = None
-    if target[0] > pos['x']: direction = "Right"
-    elif target[0] < pos['x']: direction = "Left"
-    elif target[1] > pos['y']: direction = "Down"
-    elif target[1] < pos['y']: direction = "Up"
-    
-    if direction:
-        print(f"Moving {direction} to target {target}...")
+    while True:
+        pos = mgba.get_coordinates()
+        if pos['x'] == target[0] and pos['y'] == target[1]:
+            print(f"Reached target {target}")
+            break
+            
+        direction = get_dir(pos, target)
+        if not direction:
+            break
+            
+        print(f"Current: ({pos['x']}, {pos['y']}) | Moving {direction} to target {target}")
         mgba.press_buttons([direction])
         time.sleep(0.5)
+        
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Check for battle
             print("No movement. Pressing B.")
             mgba.press_buttons(["B"])
             time.sleep(0.5)
             new_pos = mgba.get_coordinates()
             if new_pos == pos:
                 flee_battle_safe()
+                time.sleep(0.5)
 
 def main():
-    print("Testing (27, 12) as B1F East stairs...")
-    pos_before = mgba.get_coordinates()
-    walk_to_target((27, 12))
-    pos_after = mgba.get_coordinates()
-    print("Coordinates after move attempt:", pos_after)
-    if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
-        print("WARPED! B1F East stairs successfully triggered!")
-    else:
-        print("Did not warp. Testing (28, 12)...")
-        walk_to_target((28, 12))
-        pos_final = mgba.get_coordinates()
-        print("Coordinates after (28, 12) attempt:", pos_final)
-        if abs(pos_final['x'] - pos_after['x']) + abs(pos_final['y'] - pos_after['y']) > 5:
-            print("WARPED on (28, 12)!")
+    # Currently at (27, 9) on 1F East.
+    # Path: UP Column 27 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
+    path = [
+        # UP to Row 6 on Column 27
+        (27, 8), (27, 7), (27, 6),
+        # Left Row 6 to Column 22
+        (26, 6), (25, 6), (24, 6), (23, 6), (22, 6),
+        # Down Column 22 to Row 7 (the B1F stairs!)
+        (22, 7)
+    ]
+    
+    pos = mgba.get_coordinates()
+    print("Initial position:", pos)
+    
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
+        pos_before = mgba.get_coordinates()
+        walk_to_target(target)
+        pos_after = mgba.get_coordinates()
+        
+        # Warp check: did our floor change drastically?
+        if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
+            print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
+            break
+            
+    print("Finished path. Final position:", mgba.get_coordinates())
+    scr = mgba.take_screenshot()
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
     main()
