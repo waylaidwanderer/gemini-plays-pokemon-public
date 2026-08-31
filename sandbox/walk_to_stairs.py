@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import mgba
 import time
 
@@ -12,47 +13,44 @@ def flee_battle():
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_robust_path():
-    # Complete 100% open path from (7, 8) to the stairs at (5, 10) on 3F
+def walk_1f_west_to_east():
+    # Safe path on 1F from (7, 11) to the B1F East stairs on 1F East
+    # We walk around the warp tile (7, 10) by going Left to Column 6 first.
     path = [
-        (7, 8),
-        (6, 8), (5, 8), # Walk to Column 5
-        (5, 7), (5, 6), (5, 5), (5, 4), (5, 3), (5, 2), # Up to Row 2
-        (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), # Right to Column 12 (cross Column 9)
-        (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), # Down to Row 11
-        (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), # Left to Column 5 on Row 11 (bypassing closed gates)
-        (5, 10) # Up onto the stairs warp!
+        (7, 11),
+        (6, 11), # Left to Column 6
+        (6, 10), (6, 9), (6, 8), (6, 7), (6, 6), # Up to Row 6
+        # Walk Right along Row 6 to 1F East Column 25
+        (7, 6), (8, 6), (9, 6), (10, 6), (11, 6), (12, 6), (13, 6), (14, 6), (15, 6),
+        (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6), (22, 6), (23, 6), (24, 6), (25, 6),
+        # Walk Down Column 25 into the fenced room
+        (25, 7), (25, 8), (25, 9), (25, 10), (25, 11), (25, 12), (25, 13), # Gate is open in State A!
+        (25, 14), # Inside fenced room
+        (26, 14) # Onto the stairs to B1F East!
     ]
     
+    idx = 0
     stuck_count = 0
     last_pos = None
     
-    while True:
+    while idx < len(path):
+        action_target = path[idx]
         pos = mgba.get_coordinates()
         x, y = pos['x'], pos['y']
         print(f"Current Position: ({x}, {y})")
         
-        # Warp check: if we are on 2F West (landing at 5, 11), warp succeeded!
-        # Note: B1F East or 2F West landing position. On 2F West, coordinate is (5, 11)
-        # To be absolutely sure, let's also check if the map name/properties changed, but coordinates are sufficient.
-        if x == 5 and y == 11 and last_pos is not None and last_pos != (5, 11):
-            # Wait, we might land on 2F West (5, 11) when coming down the stairs from (5, 10).
-            # Yes! This means warp succeeded!
-            print("Successfully warped down to 2F West!")
+        # Warp check: if we are at B1F East, coordinates will change (typically to B1F coordinates)
+        if x == 26 and y == 14:
+            print("Arrived at B1F East stairs! Stepping onto them...")
+            mgba.press_buttons(["Right", "sleep 1000"])
             break
             
-        # Find where we are in the path
         if (x, y) in path:
             curr_idx = path.index((x, y))
-            if curr_idx == len(path) - 1:
-                print("Arrived at stairs (5, 10)! Waiting for warp...")
-                mgba.press_buttons(["Up"])
-                time.sleep(1.5)
-                continue
-            
-            # Next target tile
-            tx, ty = path[curr_idx + 1]
-            print(f"Next Target: ({tx}, {ty})")
+            if curr_idx > idx:
+                idx = curr_idx
+            tx, ty = path[idx + 1]
+            print(f"Index: {idx}, Next Target: ({tx}, {ty})")
             
             # Determine button press
             if tx < x:
@@ -64,9 +62,8 @@ def walk_robust_path():
             else:
                 action = "Down"
         else:
-            # Fallback if displaced off-path: walk to the closest path tile
+            # Fallback if displaced off-path
             print("Displaced off-path! Finding closest path tile...")
-            # Simple Manhattan distance
             closest_tile = min(path, key=lambda t: abs(t[0] - x) + abs(t[1] - y))
             cx, cy = closest_tile
             print(f"Closest Path Tile: ({cx}, {cy})")
@@ -93,5 +90,5 @@ def walk_robust_path():
         mgba.press_buttons([action])
         time.sleep(0.4)
 
-print("Starting robust walk to stairs...")
-walk_robust_path()
+print("Starting walk on 1F...")
+walk_1f_west_to_east()
