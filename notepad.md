@@ -2618,3 +2618,22 @@
 - Statue Barrier 3: Rows 113-115 have statues at (9, 113..115) and (12, 113..115), but columns 10 and 11 (10..11, 112..115) form an open green grass corridor running north towards the Rainbow Badge check!
 
 <hr>
+
+<h1><code>Locations/VictoryRoad1F</code></h1>
+
+# Victory Road 1F - Layout & Puzzle Notes
+
+## General Information
+- South exit / entrance: Route 23 at (8, 17) [Entered Turn 22138]
+- Objective: Solve Strength boulder puzzle, defeat trainers, reach stairs to 2F
+
+## Boulder Puzzles & Switches
+- Boulder 1: Located at (5, 15)
+- Switch / Pressure Plate 1: Located at (5, 14) directly above Boulder 1
+- Shutter / Barrier: (5, 13)
+
+## Layout & Connectivity
+- Entrance mat: (8, 17)
+- Path north: (8..9, 14..16) connects entrance to northern sector
+
+<hr>
