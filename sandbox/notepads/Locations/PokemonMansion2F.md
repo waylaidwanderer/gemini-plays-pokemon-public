@@ -14,7 +14,7 @@
   - The northeast stairs at (22, 1) on 2F East only lead UP to 3F East (landing at 22, 1 on 3F).
   - They do NOT warp the player down to 1F.
 - **State B Corridor & Stair warps (Verified Turn 67507/67570/69025):**
-  - Row 6 on 2F is a completely open and passable horizontal corridor in State B, connecting the western and eastern sections.
+  - Row 2 on 2F is a completely open and passable horizontal corridor (Columns 5-12) in State B, connecting the western and eastern sections. Row 6 is blocked by a solid partition wall at (9, 6).
   - The stairs at (7, 10) on 2F West warp the player DOWN to 1F West, landing at (7, 11) on 1F.
 
 ## Mewtwo Statue Switches
