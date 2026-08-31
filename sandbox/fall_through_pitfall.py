@@ -17,20 +17,23 @@ def flee_battle():
 
 def walk_to_pitfall():
     # Monotonic path to (26, 4) on 3F East in State A:
-    # 1. Walk DOWN Column 14 to Row 6: (14, 4) -> (14, 6)
-    # 2. Walk Right along Row 6 to Column 21: (15, 6) -> (21, 6)
-    # 3. Walk UP Column 21 to Row 3: (21, 5) -> (21, 3)
-    # 4. Walk Right along Row 3 to Column 26: (22, 3) -> (26, 3)
-    # 5. Walk DOWN Column 26 to (26, 4) (pitfall)
+    # 1. Walk Left to Column 18 on Row 7: (21, 7) -> (18, 7)
+    # 2. Walk UP Column 18 to Row 4: (18, 6) -> (18, 4)
+    # 3. Walk Right along Row 4 to Column 21: (19, 4) -> (21, 4)
+    # 4. Walk UP Column 21 to Row 3: (21, 3)
+    # 5. Walk Right along Row 3 to Column 26: (22, 3) -> (26, 3)
+    # 6. Walk DOWN Column 26 to (26, 4) (pitfall)
     
     path = []
-    # Currently at (14, 3)
-    path.append((14, 4))
-    path.append((14, 5))
-    path.append((14, 6))
-    for col in range(15, 22):
-        path.append((col, 6))
-    path.append((21, 5))
+    # Currently at (21, 7)
+    path.append((20, 7))
+    path.append((19, 7))
+    path.append((18, 7))
+    path.append((18, 6))
+    path.append((18, 5))
+    path.append((18, 4))
+    path.append((19, 4))
+    path.append((20, 4))
     path.append((21, 4))
     path.append((21, 3))
     for col in range(22, 27):
