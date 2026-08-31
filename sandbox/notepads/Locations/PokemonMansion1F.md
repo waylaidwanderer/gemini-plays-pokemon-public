@@ -20,7 +20,7 @@
 - Mewtwo Statue Switch: (2, 4..5) (base/switch at (2, 5)).
 - Large Wooden Table: (6..7, 4..5).
 - Green Display Table: (4, 6..7).
-- Column 9 Divider: Solid vertical wall dividing central corridor from Northwest Room along rows 3-7 (empirical passability of row 1-3 under test).
+- Column 9 Divider: Solid vertical wall dividing central corridor from Northwest Room along rows 3-7 with solid wall cap at (9, 3). Rows 1 and 2 (at (9, 1) and (9, 2)) are 100% open pink floor providing unobstructed east-west passage between central corridor and Northwest Room [Verified Turn 21276].
 - South Divider (Row 9): Solid wall across cols 1-7.
 
 ### Northern Landing Sector (Accessible via 3F Right Balcony Drop at (19, 14))
