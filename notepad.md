@@ -2538,5 +2538,7 @@
 - Tall grass patch: Located at (31..33, 8..10). Ledge at row 7.
 - Cliff wall: (26..29, 5..13) blocks middle-north.
 - Main road: Rows 14 and 15 (y=14..15) form an open paved highway leading west all the way under the cliff.
+- West terminus: Column 1 (x=1) is a cliff wall on rows 11..15.
+- Pokémon League Front Gatehouse: South entrance at columns 2..5, rows 10..11.
 
 <hr>
