@@ -1,97 +1,19 @@
 import mgba
 import time
 
-def flee_battle():
-    print("Wild battle! Fleeing...")
-    # Clean up screen text
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.3)
-    # Select RUN
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.5)
-    # Clear "Got away safely!"
-    for _ in range(5):
-        mgba.press_buttons(["B"])
-        time.sleep(0.3)
-
-def get_dir(cx, cy, tx, ty):
-    if tx > cx: return "Right"
-    if tx < cx: return "Left"
-    if ty > cy: return "Down"
-    if ty < cy: return "Up"
-    return None
-
-def walk_path_robust(target_path):
-    stuck_count = 0
-    
-    while True:
-        pos = mgba.get_coordinates()
-        cx, cy = pos['x'], pos['y']
-        
-        # If we reached the final target, we are done!
-        final_tx, final_ty = target_path[-1]
-        if cx == final_tx and cy == final_ty:
-            print("Reached final destination!")
-            break
-            
-        # Find the closest point in target_path to our current position
-        min_dist = 999999
-        closest_idx = 0
-        for i, (tx, ty) in enumerate(target_path):
-            dist = abs(tx - cx) + abs(ty - cy)
-            if dist < min_dist:
-                min_dist = dist
-                closest_idx = i
-                
-        # We want to head towards the next tile in the path
-        if cx == target_path[closest_idx][0] and cy == target_path[closest_idx][1]:
-            target_idx = min(closest_idx + 1, len(target_path) - 1)
-        else:
-            target_idx = closest_idx
-            
-        tx, ty = target_path[target_idx]
-        direction = get_dir(cx, cy, tx, ty)
-        if direction is None:
-            break
-            
-        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
-        
-        # Take step
-        mgba.press_buttons([direction])
-        time.sleep(0.4)
-        
-        # Check if we moved
-        new_pos = mgba.get_coordinates()
-        if new_pos == {'x': cx, 'y': cy}:
-            stuck_count += 1
-            if stuck_count > 1:
-                print("Stuck! Attempting to flee battle / clear obstacle...")
-                flee_battle()
-                stuck_count = 0
-        else:
-            stuck_count = 0
-
 def main():
-    # Currently at (10, 11) on 3F West in State A
-    # Path using Row 12 to bypass the Column 8 Row 10 closed gate:
-    path = [
-        (10, 12),
-        (9, 12),
-        (8, 12), # Open shutter gate (8, 12)
-        (7, 12),
-        (6, 12),
-        (5, 12),
-        (5, 11),
-        (5, 10) # Triggers warp down to 2F West (5, 11)
-    ]
+    pos1 = mgba.get_coordinates()
+    print("Initial Position on 1F West:", pos1)
     
-    walk_path_robust(path)
+    print("Stepping Up to (7, 10) on 1F West...")
+    mgba.press_buttons(["Up"])
+    time.sleep(1.5) # Wait for warp
     
-    # Wait for transition to 2F West
-    time.sleep(1.5)
-    pos = mgba.get_coordinates()
-    print("New Position after 2F West transition:", pos)
+    pos2 = mgba.get_coordinates()
+    print("Position after Up:", pos2)
+    
+    scr = mgba.take_screenshot()
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
     main()
