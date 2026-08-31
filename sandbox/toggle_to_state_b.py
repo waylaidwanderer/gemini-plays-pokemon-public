@@ -33,82 +33,60 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial Position on 3F West:", pos)
     
-    # Strictly adjacent steps from (10, 9) to (2, 6) via Column 12 and Row 3:
-    path = [
-        ("Right", (11, 9)),
-        ("Right", (12, 9)),
-        ("Up", (12, 8)),
-        ("Up", (12, 7)),
-        ("Up", (12, 6)),
-        ("Up", (12, 5)),
-        ("Up", (12, 4)),
-        ("Up", (12, 3)),
-        ("Left", (11, 3)),
-        ("Left", (10, 3)),
-        ("Left", (9, 3)),
-        ("Left", (8, 3)),
-        ("Left", (7, 3)),
-        ("Left", (6, 3)),
-        ("Left", (5, 3)),
-        ("Left", (4, 3)),
-        ("Down", (4, 4)),
-        ("Down", (4, 5)),
-        ("Left", (3, 5)),
-        ("Down", (3, 6)),
-        ("Left", (2, 6))
-    ]
-    
-    # Find our current position in the path (to handle resume if needed)
-    start_idx = 0
-    min_dist = 9999
-    for i, (dir, target) in enumerate(path):
-        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
-        if dist < min_dist:
-            min_dist = dist
-            start_idx = i
-            
-    print(f"Resuming path from index {start_idx} / {len(path)-1} (target: {path[start_idx][1]})")
-    
-    for idx in range(start_idx, len(path)):
-        dir, target = path[idx]
+    # Simple relative path from (12, 5) to the switch
+    # 1. Walk Up to Row 3
+    while True:
         pos = mgba.get_coordinates()
-        # If we are already at the target, skip
-        if pos['x'] == target[0] and pos['y'] == target[1]:
-            continue
-            
-        # Try to step to the target
-        while True:
-            pos = mgba.get_coordinates()
-            if pos['x'] == target[0] and pos['y'] == target[1]:
-                break
-                
-            cx, cy = pos['x'], pos['y']
-            tx, ty = target
-            actual_dir = dir
-            if abs(tx - cx) + abs(ty - cy) > 1:
-                # Recalculate adjacent direction
-                if tx > cx: actual_dir = "Right"
-                elif tx < cx: actual_dir = "Left"
-                elif ty > cy: actual_dir = "Down"
-                elif ty < cy: actual_dir = "Up"
-                
-            new_pos = walk_step(actual_dir, target)
-            if new_pos == pos:
-                time.sleep(0.5)
-                
-    # Now stand at (2, 6) and face UP
-    print("Facing Up to look at the switch...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    # Toggle switch (4 A-presses)
-    print("Toggling Mewtwo Switch...")
-    for press in range(1, 5):
-        print(f"A-press {press}...")
-        mgba.press_buttons(["A"])
-        time.sleep(2.0)
+        if pos['y'] <= 3:
+            break
+        pos = walk_step("Up", (pos['x'], pos['y'] - 1))
         
-    print("Successfully toggled switch to State B!")
+    # 2. Walk Left to Column 4 on Row 3
+    while True:
+        pos = mgba.get_coordinates()
+        if pos['x'] <= 4:
+            break
+        pos = walk_step("Left", (pos['x'] - 1, pos['y']))
+        
+    # 3. Walk to (4, 5)
+    while True:
+        pos = mgba.get_coordinates()
+        if pos['y'] >= 5:
+            break
+        pos = walk_step("Down", (pos['x'], pos['y'] + 1))
+        
+    # 4. Walk to (3, 5)
+    pos = mgba.get_coordinates()
+    if pos['x'] == 4 and pos['y'] == 5:
+        pos = walk_step("Left", (3, 5))
+        
+    # 5. Walk to (3, 6)
+    pos = mgba.get_coordinates()
+    if pos['x'] == 3 and pos['y'] == 5:
+        pos = walk_step("Down", (3, 6))
+        
+    # 6. Walk to (2, 6)
+    pos = mgba.get_coordinates()
+    if pos['x'] == 3 and pos['y'] == 6:
+        pos = walk_step("Left", (2, 6))
+        
+    pos = mgba.get_coordinates()
+    if pos['x'] == 2 and pos['y'] == 6:
+        # Now stand at (2, 6) and face UP
+        print("Facing Up to look at the switch...")
+        mgba.press_buttons(["Up"])
+        time.sleep(0.5)
+        
+        # Toggle switch (4 A-presses)
+        print("Toggling Mewtwo Switch...")
+        for press in range(1, 5):
+            print(f"A-press {press}...")
+            mgba.press_buttons(["A"])
+            time.sleep(2.0)
+            
+        print("Successfully toggled switch to State B!")
+    else:
+        print("Failed to reach (2, 6)!")
     
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
