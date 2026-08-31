@@ -33,16 +33,18 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial Position on 3F West:", pos)
     
-    # Strictly adjacent steps from (11, 10) to the switch stand at (2, 6):
+    # Strictly adjacent steps from (10, 9) to (2, 6) via Column 12 and Row 3:
     path = [
-        ("Left", (10, 10)),
-        ("Up", (10, 9)),
-        ("Up", (10, 8)),
-        ("Up", (10, 7)),
-        ("Up", (10, 6)),
-        ("Up", (10, 5)),
-        ("Up", (10, 4)),
-        ("Up", (10, 3)),
+        ("Right", (11, 9)),
+        ("Right", (12, 9)),
+        ("Up", (12, 8)),
+        ("Up", (12, 7)),
+        ("Up", (12, 6)),
+        ("Up", (12, 5)),
+        ("Up", (12, 4)),
+        ("Up", (12, 3)),
+        ("Left", (11, 3)),
+        ("Left", (10, 3)),
         ("Left", (9, 3)),
         ("Left", (8, 3)),
         ("Left", (7, 3)),
@@ -80,7 +82,6 @@ def main():
             if pos['x'] == target[0] and pos['y'] == target[1]:
                 break
                 
-            # If we are completely off-track, recalculate direction dynamically
             cx, cy = pos['x'], pos['y']
             tx, ty = target
             actual_dir = dir
@@ -93,7 +94,6 @@ def main():
                 
             new_pos = walk_step(actual_dir, target)
             if new_pos == pos:
-                # We are blocked, try to clear battle or retry
                 time.sleep(0.5)
                 
     # Now stand at (2, 6) and face UP
