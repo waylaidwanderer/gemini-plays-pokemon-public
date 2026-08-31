@@ -29,22 +29,20 @@ def main():
     pos = mgba.get_coordinates()
     print("Initial Position:", pos)
     
-    # Let's walk Left along Row 3 to Column 10
+    # Path from (16, 4) to 3F West (Column 10)
     path = [
-        ("Left", (23, 3)),
-        ("Left", (22, 3)),
-        ("Left", (21, 3)),
-        ("Left", (20, 3)),
-        ("Left", (19, 3)),
-        ("Left", (18, 3)),
-        ("Left", (17, 3)),
-        ("Left", (16, 3)),
-        ("Left", (15, 3)),
-        ("Left", (14, 3)),
-        ("Left", (13, 3)),
-        ("Left", (12, 3)),
-        ("Left", (11, 3)),
-        ("Left", (10, 3))
+        ("Right", (17, 4)),
+        ("Right", (18, 4)),
+        ("Down", (18, 5)),
+        ("Down", (18, 6)),
+        ("Left", (17, 6)),
+        ("Left", (16, 6)),
+        ("Left", (15, 6)),
+        ("Left", (14, 6)),
+        ("Left", (13, 6)),
+        ("Left", (12, 6)),
+        ("Left", (11, 6)),
+        ("Left", (10, 6))
     ]
     
     for dir, target in path:
@@ -56,7 +54,7 @@ def main():
             if new_pos == pos:
                 time.sleep(0.5)
                 
-    print("Reached Column 10! Position:", mgba.get_coordinates())
+    print("Successfully reached 3F West Column 10! Position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
     print("Screenshot saved to:", scr)
 
