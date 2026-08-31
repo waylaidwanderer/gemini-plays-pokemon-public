@@ -2,18 +2,18 @@
 
 ## Overview
 - Third floor of the ruined Pokémon Mansion.
-- Features marble floors, Mewtwo research journal, and stairs connecting to 1F.
+- Features marble floors, Mewtwo research journal, statue switches, and balcony drop pits to 1F.
 
 ## Layout & Landmarks
 
-### Southwest Wing (Stairs from 1F at (7, 10))
-- Stairs down to 1F: Located at (7, 10) [Arrival on 3F at (7, 11)].
+### Southwest Wing (Stairs from 2F at (7, 10))
+- Stairs down to 2F: Located at (7, 10) [Arrival on 3F at (7, 11)].
 - Research Journal: Located at (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.").
 - Trainer: Burglar Simon at (5, 11) [Defeated Turn 18447].
 - Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455].
-- Eastward/Northward Connectivity: Rows 7-9 and cols 8-12 require systematic physical probing from (7, 11).
+- Empirical Topology (Turn 21197): Fully enclosed room (cols 0-10, rows 8-17). Solid rubble at (1..9, 6..7) blocks northern passage; solid vertical wall at col 11 blocks eastern passage; boundary walls at col 0 and row 17. Only exit is descending stairs at (7, 10) back to 2F.
 
-### Northeast & Eastern Sector (Balcony Drop Overlook)
+### Northeast & Eastern Sector (Accessible via 2F East Wing Stairs at (21, 23))
 - Mewtwo Statue Switch: Switch at (10, 5) [Observed Turn 18444].
 - Shutter Gate: Located at (15, 10..11).
 - Balcony Drop-off Pits (Row 14):
