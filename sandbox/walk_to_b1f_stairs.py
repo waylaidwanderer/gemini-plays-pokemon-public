@@ -23,27 +23,39 @@ def get_dir(cx, cy, tx, ty):
     return None
 
 def walk_path_robust(target_path):
-    idx = 0
     stuck_count = 0
     
-    while idx < len(target_path):
-        tx, ty = target_path[idx]
+    while True:
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
         
-        # If we reached the target tile, go to next
-        if cx == tx and cy == ty:
-            idx += 1
-            stuck_count = 0
-            continue
+        # If we reached the final target, we are done!
+        final_tx, final_ty = target_path[-1]
+        if cx == final_tx and cy == final_ty:
+            print("Reached final destination!")
+            break
             
-        # Determine direction
+        # Find the closest point in target_path to our current position
+        min_dist = 999999
+        closest_idx = 0
+        for i, (tx, ty) in enumerate(target_path):
+            dist = abs(tx - cx) + abs(ty - cy)
+            if dist < min_dist:
+                min_dist = dist
+                closest_idx = i
+                
+        # We want to head towards the next tile in the path
+        if cx == target_path[closest_idx][0] and cy == target_path[closest_idx][1]:
+            target_idx = min(closest_idx + 1, len(target_path) - 1)
+        else:
+            target_idx = closest_idx
+            
+        tx, ty = target_path[target_idx]
         direction = get_dir(cx, cy, tx, ty)
         if direction is None:
-            idx += 1
-            continue
+            break
             
-        print(f"Current: ({cx}, {cy}) | Heading to target {idx}: ({tx}, {ty}) via {direction}")
+        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
         
         # Take step
         mgba.press_buttons([direction])
