@@ -2601,8 +2601,8 @@
 - [x] 3. Thunder Badge: Guard located at (8, 119) [Passed Turn 22103]
 - [x] 4. Rainbow Badge: Guard located at (12, 105) [Passed Turn 22108]
 - [x] 5. Soul Badge: Guard located at (11, 96) [Passed Turn 22115]
-- [ ] 6. Marsh Badge: Next checkpoint ahead
-- [ ] 7. Volcano Badge
+- [x] 6. Marsh Badge: Guard located at (8, 85) [Passed Turn 22118]
+- [ ] 7. Volcano Badge: Next checkpoint ahead
 - [ ] 8. Earth Badge
 ## Verified Route 23 Topology
 - Cascade Check Sector: y=136..139. Guard at (8, 136).
