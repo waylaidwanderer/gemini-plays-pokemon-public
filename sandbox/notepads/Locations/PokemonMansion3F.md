@@ -25,15 +25,10 @@
 - **The Balcony is Inaccessible in State B:** Because of the above barriers, the central balcony area cannot be reached from either 3F East or 3F West while in State B.
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
-1. **Toggle Switch to State A:** From 3F East, walk via Column 26 Row 1 and Row 1 horizontally to 3F West Column 2 Row 6, face UP and toggle the Mewtwo switch at (2, 5) to State A (using exactly 5 A-presses since the default is YES).
-
-3. **Ascend via 2F East:**
-   - From 1F East fenced room, take the stairs down to B1F East.
-   - Walk through 1F West to the stairs up to 2F West.
-   - On 2F, since State A gates on Row 11 are OPEN, walk freely to 2F East.
-   - Take the northeast stairs at (22, 1) UP to 3F East.
-4. **Access B1F West via B1F East:** The 3F East balcony route is physically blocked by closed gates in State A. Access B1F West directly by falling through the 3F East pitfall, going to B1F, and walking horizontally from B1F East to B1F West.
-
+1. **Verify State A:** Standing on 3F East, if we want to reach B1F West, we must be in State A to open the pitfall at (26, 4) on 3F East and the gate at (25, 13) on 1F East.
+2. **Fall through Pitfall (State A):** Walk to the pitfall at (26, 4) on 3F East. In State A, the pitfall is open and we will fall to the 1F East fenced room.
+3. **Descend to B1F East:** From the 1F East fenced room, take the stairs at (22, 7) directly down to B1F East.
+4. **Cross to B1F West:** In State A, the shutter gate at (9, 5) on B1F East is closed. We must find a way to toggle the switch on B1F West or use the balcony drop in State B to reach B1F West first, then open the gate for future access.
 ## Critical Switch Mechanics & Verification Constraints (Verified Turn 67356)
 - **4 A-Press Sequence Required:** To fully toggle any Mewtwo Switch statue (e.g. at (2, 5)) and cleanly restore the overworld without leaving dialogue boxes open, a strict 4 A-press sequence is REQUIRED:
   1. **A-Press 1:** Interacts with the statue. "A secret switch!" text scrolls onto screen.
