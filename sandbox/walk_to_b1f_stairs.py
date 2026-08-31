@@ -3,17 +3,14 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
-    # Clean up screen text
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
-    # Select RUN
     print("Selecting RUN...")
     mgba.press_buttons(["Down", "Right"])
     time.sleep(0.2)
     mgba.press_buttons(["A"])
     time.sleep(1.5)
-    # Dismiss "Got away safely!"
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
@@ -52,20 +49,21 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    print("Fleeing current Vulpix battle first...")
-    flee_battle_safe()
-    
-    # Path to B1F East stairs from (24, 11):
-    # Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 22, Down Column 22 to (22, 7)
+    # Currently at (23, 8).
+    # Path: Down Column 23 to Row 14, Left Row 14 to Column 10, Up Column 10 to Row 5, Right Row 5 to Column 21
     path = [
-        (25, 11), (26, 11),
-        (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
-        (25, 6), (24, 6), (23, 6), (22, 6),
-        (22, 7)
+        # Down Column 23 to Row 14
+        (23, 9), (23, 10), (23, 11), (23, 12), (23, 13), (23, 14),
+        # Left Row 14 to Column 10
+        (22, 14), (21, 14), (20, 14), (19, 14), (18, 14), (17, 14), (16, 14), (15, 14), (14, 14), (13, 14), (12, 14), (11, 14), (10, 14),
+        # Up Column 10 to Row 5
+        (10, 13), (10, 12), (10, 11), (10, 10), (10, 9), (10, 8), (10, 7), (10, 6), (10, 5),
+        # Right Row 5 to Column 21
+        (11, 5), (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5), (18, 5), (19, 5), (20, 5), (21, 5)
     ]
     
     pos = mgba.get_coordinates()
-    print("Current position after fleeing:", pos)
+    print("Initial position:", pos)
     
     start_idx = 0
     min_dist = 9999
@@ -75,7 +73,7 @@ def main():
             min_dist = dist
             start_idx = i
             
-    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
+    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
     for idx in range(start_idx, len(path)):
         target = path[idx]
         pos_before = mgba.get_coordinates()
