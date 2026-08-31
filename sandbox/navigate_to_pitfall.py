@@ -55,27 +55,39 @@ def walk_to_target(target):
                     break
 
 def main():
+    # Target path from (12, 3) to the pitfall at (26, 4) on Row 3/Row 4 on Column 26
     path = [
-        (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6),
-        (21, 7), (21, 8), (21, 9), (21, 10), (21, 11), (21, 12),
-        (22, 12), (23, 12), (24, 12), (25, 12),
-        (25, 13), (25, 14)
+        # Down Column 12 to Row 6
+        (12, 4), (12, 5), (12, 6),
+        # Right along Row 6 to Column 21
+        (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), (18, 6), (19, 6), (20, 6), (21, 6),
+        # Up Column 21 to Row 3
+        (21, 5), (21, 4), (21, 3),
+        # Right along Row 3 to Column 26
+        (22, 3), (23, 3), (24, 3), (25, 3), (26, 3),
+        # Down Column 26 to (26, 4) / (26, 5) / (26, 6) to trigger fall
+        (26, 4), (26, 5), (26, 6)
     ]
     
-    print("Starting navigation from current position...")
+    print("Starting exact path navigation to pitfall...")
     for target in path:
         pos = mgba.get_coordinates()
-        # If we have jumped or warped, stop
-        # If we are already at or past the target, skip it
-        # Let's find where we are in the path list
+        # Check if we transitioned maps (fell)
+        # 3F East has a map index, but we can also check coordinates.
+        # If we fell, we land on 1F East inside the fenced room.
+        # Our Y coordinate will change drastically (usually 1F East fencing is at a different location or we fall).
+        # On 1F East, coordinates are very different or we are not on 3F.
+        # Let's check if the coordinates changed drastically from the expected target.
         dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
         if dist > 5:
-            # Check if we warped
-            print(f"Current pos {pos} is far from target {target}. We might have warped/fallen.")
-            continue
+            print(f"Position {pos} is far from expected target {target}. We must have fallen!")
+            break
+            
         walk_to_target(target)
         
     print("Navigation finished. Final position:", mgba.get_coordinates())
+    scr = mgba.take_screenshot()
+    print("Screenshot saved to:", scr)
 
 if __name__ == "__main__":
     main()
