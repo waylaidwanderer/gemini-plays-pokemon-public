@@ -15,3 +15,4 @@
 ## Room 2 (Northeast Sector)
 - Trainer: Super Nerd at (17, 2).
 - Room connects West along row 1 into Northwest sector (Room 3).
+- Trainer at (11, 4): Super Nerd ("I have studied POKéMON totally!").
