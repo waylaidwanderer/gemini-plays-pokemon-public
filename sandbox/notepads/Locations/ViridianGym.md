@@ -33,7 +33,7 @@
 - [x] Tamer: (10, 7) facing Down [Defeated Turn 21887]. Roster: Rhyhorn Lv 43.
 - [x] Tamer: (4, 16) facing Right [Defeated Turn 21908]. Roster: Arbok Lv 39, Tauros Lv 39.
 - [x] Blackbelt: (2, 7) / (3, 7) [Defeated Turn 21913]. Roster: Machoke Lv 43.
-- [ ] Blackbelt: (6, 5) facing Down.
+- [ ] Cooltrainer: (6, 7) / (6, 5) [Engaged Turn 21917].
 - [ ] Gym Leader Giovanni: Northwest arena.
 
 ## Items in Gym
