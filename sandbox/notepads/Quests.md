@@ -64,3 +64,4 @@
 
 - [x] Retrieve Secret Key from Pokémon Mansion B1F [Turn 21590]
 - [x] Defeat Gym Leader Blaine in Cinnabar Gym (Volcano Badge obtained; TM38 Fire Blast pending pickup from Blaine due to full bag) [Turn 21652]
+- [x] Defeat Gym Leader Giovanni in Viridian Gym (Earth Badge & TM27 Fissure obtained; All 8 Badges unlocked!) [Turn 21973]
