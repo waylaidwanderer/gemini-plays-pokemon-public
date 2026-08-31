@@ -26,5 +26,5 @@
 - Rival RED Battle Details:
   - Trigger Location: (29, 5) along row 5 upper corridor.
   - Observed Roster:
-    1. Pidgeot Lv 47 (Normal/Flying) [Defeated by Ice Beam]
-    2. Rhyhorn Lv 45 (Ground/Rock) [Weak to Water/Grass/Ice]
+    1. Pidgeot Lv 47 (Normal/Flying) [Defeated by HYDROS Ice Beam]
+    2. Rhyhorn Lv 45 (Ground/Rock) [Defeated by ZEPHYR Fly + Poison]
