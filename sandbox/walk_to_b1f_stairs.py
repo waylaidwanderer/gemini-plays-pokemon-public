@@ -49,20 +49,14 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (24, 11) on 1F East.
-    # Path: Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 10,
-    # Up Column 10 to Row 5, Right Row 5 to Column 21
+    # Currently at (26, 8) on 1F East.
+    # Direct path to stairs at (22, 7):
     path = [
-        # Walk to Column 26
-        (25, 11), (26, 11),
-        # Up Column 26 to Row 6
-        (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
-        # Left along Row 6 to Column 10 (main corridor)
-        (25, 6), (24, 6), (23, 6), (22, 6), (21, 6), (20, 6), (19, 6), (18, 6), (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6), (11, 6), (10, 6),
-        # Up Column 10 to Row 5
-        (10, 5),
-        # Right along Row 5 to Column 21 (stairs area!)
-        (11, 5), (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5), (18, 5), (19, 5), (20, 5), (21, 5)
+        (26, 7),
+        (25, 7),
+        (24, 7),
+        (23, 7),
+        (22, 7)
     ]
     
     pos = mgba.get_coordinates()
