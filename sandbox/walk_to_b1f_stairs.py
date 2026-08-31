@@ -3,14 +3,17 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
+    # Clean up screen text
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
+    # Select RUN
     print("Selecting RUN...")
     mgba.press_buttons(["Down", "Right"])
     time.sleep(0.2)
     mgba.press_buttons(["A"])
     time.sleep(1.5)
+    # Dismiss "Got away safely!"
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
@@ -49,27 +52,37 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # We are currently at (27, 15).
-    # Path: Left to Column 25, Up Column 25 past gate to Row 11, Left Row 11 to Column 22, Up Column 22 to (22, 7) (stairs)
+    print("Fleeing current Vulpix battle first...")
+    flee_battle_safe()
+    
+    # Path to B1F East stairs from (24, 11):
+    # Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 22, Down Column 22 to (22, 7)
     path = [
-        # Walk Left to Column 25 on Row 15
-        (26, 15), (25, 15),
-        # Walk Up Column 25 to Row 11 (passing open gate at 25, 13)
-        (25, 14), (25, 13), (25, 12), (25, 11),
-        # Walk Left along Row 11 to Column 22
-        (24, 11), (23, 11), (22, 11),
-        # Walk Up Column 22 to Row 7 (the stairs!)
-        (22, 10), (22, 9), (22, 8), (22, 7)
+        (25, 11), (26, 11),
+        (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
+        (25, 6), (24, 6), (23, 6), (22, 6),
+        (22, 7)
     ]
     
-    print("Initial position:", mgba.get_coordinates())
+    pos = mgba.get_coordinates()
+    print("Current position after fleeing:", pos)
     
-    for target in path:
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Warp check: did our floor change drastically?
+        # Warp check
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
             break
