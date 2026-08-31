@@ -27,8 +27,14 @@
 
 ## 2F State A Horizontal Connections & Ground Truth (Verified Turn 69479)
 - **Column 13 and Column 22 Rubble Barriers:** Column 22 is blocked on Rows 8-10 by solid rubble. Column 13 is a solid partition wall on Rows 8-12.
-- **Row 11 Open Gates:** Shutter gates on Row 11 are open in State A, allowing horizontal connection between 2F East and 2F West.
+
 - **Bypassing Column 22 Rubble:** To cross from 2F East to 2F West in State A:
   - Walk Left to Column 21 on Row 7.
   - Walk Down Column 21 to Row 11 (Column 21 is completely open vertically).
   - Walk Left along Row 11 to 2F West (completely open in State A).
+## Southwest Staircase Warp Connections
+- **Staircase (5, 10) on 3F West:** Warps DOWN to 2F West, landing at (5, 11) on 2F West.
+- **Staircase on 2F West:** The staircase at (5, 10) on 2F West leads DOWN to 1F West, landing at (5, 11) on 1F West.
+
+## Row 2 Walkability Boundaries
+- **State B Corridor:** Row 2 on 2F is completely open and passable horizontally (Columns 5-12). However, on 2F East, a solid obstruction blocks horizontal travel past Column 14.

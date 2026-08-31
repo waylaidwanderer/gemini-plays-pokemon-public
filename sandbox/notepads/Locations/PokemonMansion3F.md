@@ -74,3 +74,6 @@
 ## Verified Staircase Warp Connections (Verified Turn 69023)
 - **3F West Stairs (5, 10):** Functional staircase warp leading DOWN to 2F West, landing at (5, 11) on 2F West. Completely open and accessible in both State A and State B!
 - **3F East Stairs (22, 1):** Landing point from 2F East stairs. Landing coordinate is (22, 1) on 3F East. 
+
+## Southwest Staircase Warp Connections
+- **Staircase (5, 10) on 3F West:** Warps DOWN to 2F West, landing at (5, 11) on 2F West.
