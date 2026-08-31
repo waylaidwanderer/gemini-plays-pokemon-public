@@ -18,3 +18,8 @@
   - Stop tile at (16, 12).
   - Up spin tile at (19, 11).
   - Stop tile at (18, 11).
+## Gym Floor - North Sector (Row 0-3)
+- (19, 2): Stop tile (landing from Up spin tile at 19, 11).
+- (19, 1): Left spin tile (spins West across row 1).
+- (18, 2): Down spin tile (spins South along col 18).
+- (17, 2): Stop tile.
