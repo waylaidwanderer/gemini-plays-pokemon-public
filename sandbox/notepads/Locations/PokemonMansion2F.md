@@ -2,7 +2,7 @@
 
 ## Overview
 - Second floor of the ruined Pokémon Mansion.
-- Features marble floors, Mewtwo statue switch, eastern computer wing, and stairs connecting 1F and 3F.
+- Features marble floors, eastern computer wing, and stairs connecting 1F and 3F.
 
 ## Layout & Landmarks
 
