@@ -27,5 +27,8 @@
   - Trigger Location: (29, 5) along row 5 upper corridor.
   - Observed Roster:
     1. Pidgeot Lv 47 (Normal/Flying) [Defeated by HYDROS Ice Beam]
-    2. Rhyhorn Lv 45 (Ground/Rock) [Defeated by ZEPHYR Fly + Poison]
-    3. Gyarados Lv 45 (Water/Flying)
+    2. Rhyhorn Lv 45 (Ground/Rock) [Defeated by HYDROS Ice Beam]
+    3. Gyarados Lv 45 (Water/Flying) [Defeated by HYDROS Ice Beam]
+    4. Growlithe Lv 47 (Fire) [Defeated by HYDROS Surf]
+    5. Alakazam Lv 50 (Psychic) [Defeated by HYDROS Double-Edge]
+    6. Venusaur Lv 53 (Grass/Poison) [Target: Ice Beam]
