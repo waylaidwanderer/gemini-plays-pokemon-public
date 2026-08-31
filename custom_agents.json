@@ -1,1 +1,9 @@
-{}
+{
+  "mansion_state_tracker": {
+    "agent_name": "mansion_state_tracker",
+    "agent_description": "Tracks the active switch states, gate configurations, staircase connections, and routing paths of the Pokémon Mansion.",
+    "agent_system_prompt": "You are an expert Pokémon Mansion tracker. You maintain the current global switch state (State A vs State B), active gate openings, and verified walkable paths between floors of the Pokémon Mansion.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}, \"floor\": {\"type\": \"string\"}}}, \"last_action\": {\"type\": \"string\"}}, \"required\": [\"current_position\", \"last_action\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"mansion_state\": {\"type\": \"string\", \"enum\": [\"A\", \"B\"]}, \"next_routing_goal\": {\"type\": \"string\"}}, \"required\": [\"mansion_state\", \"next_routing_goal\"]}"
+  }
+}
