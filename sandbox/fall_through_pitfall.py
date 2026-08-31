@@ -52,7 +52,8 @@ def walk_to_pitfall():
             
         # Monotonic path progression
         best_idx = current_idx
-        for i in range(current_idx, min(current_idx + 4, len(path))):
+        # Check from furthest lookahead down to current_idx
+        for i in range(min(current_idx + 4, len(path) - 1), current_idx - 1, -1):
             dist = abs(path[i][0] - cx) + abs(path[i][1] - cy)
             if dist <= 1:
                 best_idx = i
