@@ -24,3 +24,11 @@
 - **2F West Switch False Position:** Visual inspection on Turn 68041 confirmed that Column 2 Row 11 on 2F West is completely open pink-checkered floor. There is NO Mewtwo switch statue at (2, 11) on 2F West (previous reports was an error/hallucination).
 - **3F East Switch False Position:** Visual inspection on Turn 67958 confirmed that Column 12 Row 10/11 on 3F East is completely open pink-checkered floor. There is NO Mewtwo switch statue at (12, 11) on 3F East.
 - **The Only Switches on 3F and 2F West:** The only verified, active switches are at (2, 5) on 3F West.
+
+## 2F State A Horizontal Connections & Ground Truth (Verified Turn 69479)
+- **Column 13 and Column 22 Rubble Barriers:** Column 22 is blocked on Rows 8-10 by solid rubble. Column 13 is a solid partition wall on Rows 8-12.
+- **Row 11 Open Gates:** Shutter gates on Row 11 are open in State A, allowing horizontal connection between 2F East and 2F West.
+- **Bypassing Column 22 Rubble:** To cross from 2F East to 2F West in State A:
+  - Walk Left to Column 21 on Row 7.
+  - Walk Down Column 21 to Row 11 (Column 21 is completely open vertically).
+  - Walk Left along Row 11 to 2F West (completely open in State A).
