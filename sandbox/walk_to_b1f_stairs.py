@@ -49,27 +49,42 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (27, 16) on 1F East inside the fenced room in State A.
-    # Path: Left to Column 25, Up Column 25 past open gate at (25, 13) to Row 12,
-    # Left Row 12 to Column 22, Up Column 22 to Row 7 (stairs at 22, 7!)
+    print("Dismissing 'Got away safely!' text...")
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
+    
+    # Path to B1F East stairs from (23, 14):
+    # Up to (23, 13), Left to (22, 13), Up Column 22 to (22, 7)
     path = [
-        # Left to Column 25
-        (26, 16), (25, 16),
-        # Up Column 25 to Row 12
-        (25, 15), (25, 14), (25, 13), (25, 12),
-        # Left along Row 12 to Column 22
-        (24, 12), (23, 12), (22, 12),
-        # Up Column 22 to Row 7 (the stairs!)
-        (22, 11), (22, 10), (22, 9), (22, 8), (22, 7)
+        (23, 13),
+        (22, 13),
+        (22, 12),
+        (22, 11),
+        (22, 10),
+        (22, 9),
+        (22, 8),
+        (22, 7)
     ]
     
-    print("Walking to B1F East stairs at (22, 7) on 1F East...")
-    for target in path:
+    pos = mgba.get_coordinates()
+    print("Current position:", pos)
+    
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Resuming path from index {start_idx} (target: {path[start_idx]})")
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
         
-        # Warp check: if we transition to B1F, our coordinates will change drastically
+        # Warp check
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
             break
