@@ -27,26 +27,35 @@ def walk_step(action):
 
 def main():
     # Currently at (5, 6) on 3F West in State A
-    # Path to (5, 10) stairs:
-    # Down to (5, 10)
+    # Path to (5, 10) stairs via Column 10:
     path = [
-        ("Down", 5, 7),
-        ("Down", 5, 8),
-        ("Down", 5, 9),
-        ("Down", 5, 10) # Triggers warp to 2F West (5, 11)
+        ("Right", 6, 6),
+        ("Right", 7, 6),
+        ("Right", 8, 6),
+        ("Right", 9, 6),
+        ("Right", 10, 6),
+        ("Down", 10, 7),
+        ("Down", 10, 8),
+        ("Down", 10, 9),
+        ("Down", 10, 10),
+        ("Left", 9, 10),
+        ("Left", 8, 10),
+        ("Left", 7, 10),
+        ("Left", 6, 10),
+        ("Left", 5, 10) # Triggers warp to 2F West
     ]
     
     idx = 0
     stuck_count = 0
     last_pos = None
     
-    print("Walking down Column 5 on 3F West to 2F West stairs...")
+    print("Walking on 3F West to stairs at (5, 10) via Column 10...")
     while idx < len(path):
         action, tx, ty = path[idx]
         pos = mgba.get_coordinates()
         x, y = pos['x'], pos['y']
         
-        # Warp check: if coordinates changed to something not in our path segment
+        # Warp check: if coordinates changed to 2F West (usually (5, 11) or close to it)
         if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path]:
             print(f"Warp detected! Landed at: ({x}, {y})")
             break
