@@ -3,7 +3,7 @@ import time
 
 def flee_battle_safe():
     print("Wild battle detected! Fleeing safely...")
-    # Clear "Wild PONYTA appeared!" text
+    # Clear "Wild GRIMER appeared!" text
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.2)
@@ -55,22 +55,17 @@ def walk_to_target(target):
 
 def main():
     # If currently in battle, let's flee first
-    print("Starting solve_mansion path from current battle at (21, 3)...")
+    print("Starting solve_mansion path from current battle at (27, 12)...")
     flee_battle_safe()
     
-    # We should be around (21, 3) in the overworld in State A
-    # Perfect path to the balcony drop
+    # Corrected State A path to the balcony drop via Column 25
     path = [
-        # Right along Row 3 to Column 27
-        (22, 3), (23, 3), (24, 3), (25, 3), (26, 3), (27, 3),
-        # Down Column 27 to Row 9
-        (27, 4), (27, 5), (27, 6), (27, 7), (27, 8), (27, 9),
-        # Left to Column 26 Row 9
-        (26, 9),
-        # Down Column 26 to Row 16
-        (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), (26, 15), (26, 16),
+        # Left to Column 25 Row 12
+        (26, 12), (25, 12),
+        # Down Column 25 to Row 16 (through the open shutter gate at 25, 13)
+        (25, 13), (25, 14), (25, 15), (25, 16),
         # Left along Row 16 to Column 21
-        (25, 16), (24, 16), (23, 16), (22, 16), (21, 16),
+        (24, 16), (23, 16), (22, 16), (21, 16),
         # Down Column 21 to Row 18
         (21, 17), (21, 18),
         # Left along Row 18 to Column 19 (balcony drop!)
