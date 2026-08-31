@@ -22,3 +22,4 @@
 - Column 20 Doorway: Located at rows 13-15 (open pink floor across cols 19-21 at rows 13-15).
 - Column 9 (rows 8-16): Solid vertical wall dividing Central corridor from West wing.
 - Row 8 (cols 6-15): Solid horizontal wall dividing northern rooms from central corridor.
+- Statue switch at (20, 3) base / (20, 2) top in Northeast Bedroom (accessible from (20, 4) facing Up).
