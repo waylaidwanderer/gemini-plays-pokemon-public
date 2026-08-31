@@ -25,3 +25,4 @@
 
 ## Access to B1F:
 - To access B1F, player must navigate up to 3F and jump down the balcony drop-off pits to land in the secluded 1F stairwell sector.
+- Descending Staircase to B1F: Located at (21, 23) in the secluded southern wing of 1F (accessed via 3F balcony pit drop).
