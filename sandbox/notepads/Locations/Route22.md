@@ -13,3 +13,5 @@
 - Tree barrier: Column 34 is blocked by trees at (34, 6..11).
 - Southern bypass: Clear passage around the tree barrier at row 12 (34, 12).
 - Tall grass patch: Located at (31..33, 8..10). Ledge at row 7.
+- Cliff wall: (26..29, 5..13) blocks middle-north.
+- Main road: Rows 14 and 15 (y=14..15) form an open paved highway leading west all the way under the cliff.
