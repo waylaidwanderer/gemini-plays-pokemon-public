@@ -49,13 +49,11 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (25, 10) on 1F East.
-    # Path: Right to Column 26, Up Column 26 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
+    # Currently at (26, 12) on 1F East.
+    # Path: Up Column 26 to Row 6, Left Row 6 to Column 22, Down to (22, 7) (stairs!)
     path = [
-        # Right to Column 26
-        (26, 10),
         # Up Column 26 to Row 6
-        (26, 9), (26, 8), (26, 7), (26, 6),
+        (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6),
         # Left along Row 6 to Column 22
         (25, 6), (24, 6), (23, 6), (22, 6),
         # Down Column 22 to Row 7 (the B1F stairs!)
