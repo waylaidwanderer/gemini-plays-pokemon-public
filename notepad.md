@@ -2318,7 +2318,7 @@
 ### Northwest Room
 - Boundaries: cols 1-8, rows 1-7
 - Interior: Rubble at (1..3, 2..3), wooden table at (6..7, 4..5), display table at (4, 6..7).
-- Mewtwo Statue Switch: Located at (2, 4..5) (base/switch at (2, 5), head at (2, 4)). Interactable from (2, 6) facing Up or (3, 5) facing Left.
+- **Northwest Wing Stairs to 3F**: Located at (6, 1) in northwest sector. Connects directly to 3F Northern Sector at (6, 1) [Verified Turn 21206].
 - Thoroughfare along row 1 (cols 1-28) connects Northwest Room to East Wing.
 
 ### Stairs to 3F
@@ -2361,7 +2361,8 @@
 - Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455].
 - Empirical Topology (Turn 21197): Fully enclosed room (cols 0-10, rows 8-17). Solid rubble at (1..9, 6..7) blocks northern passage; solid vertical wall at col 11 blocks eastern passage; boundary walls at col 0 and row 17. Only exit is descending stairs at (7, 10) back to 2F.
 
-### Northeast & Eastern Sector (Accessible via 2F East Wing Stairs at (21, 23))
+### Northern & Eastern Sector (Stairs from 2F at (6, 1))
+- Stairs down to 2F: Located at (6, 1) in northwest sector [Arrival on 3F at (6, 2), Verified Turn 21207].
 - Mewtwo Statue Switch: Switch at (10, 5) [Observed Turn 18444].
 - Shutter Gate: Located at (15, 10..11).
 - Balcony Drop-off Pits (Row 14):
