@@ -49,29 +49,52 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (23, 8).
-    # Path: Down Column 23 to Row 14, Left Row 14 to Column 21, Up Column 21 to Row 5 (testing for stairs!)
-    path = [
-        # Down Column 23 to Row 14
-        (23, 9), (23, 10), (23, 11), (23, 12), (23, 13), (23, 14),
-        # Left Row 14 to Column 21
-        (22, 14), (21, 14),
-        # Up Column 21 to Row 5
-        (21, 13), (21, 12), (21, 11), (21, 10), (21, 9), (21, 8), (21, 7), (21, 6), (21, 5)
+    # Currently at (22, 16) on 1F East inside the fenced room.
+    # We want to systematically walk to:
+    # 1. (27, 11)
+    # 2. (28, 11)
+    # 3. (27, 9)
+    # 4. (27, 8)
+    
+    # Path to (27, 11):
+    # From (22, 16) -> (22, 14) -> (25, 14) -> (25, 12) -> (27, 12) -> (27, 11)
+    path_to_27_11 = [
+        (22, 15), (22, 14),
+        (23, 14), (24, 14), (25, 14),
+        (25, 13), (25, 12),
+        (26, 12), (27, 12),
+        (27, 11)
+    ]
+    
+    # Path to (27, 8):
+    # From (27, 12) (or nearby) -> (25, 12) -> (25, 7) -> (27, 7) -> (27, 8) -> (27, 9)
+    path_to_27_8 = [
+        (26, 12), (25, 12),
+        (25, 11), (25, 10), (25, 9), (25, 8), (25, 7),
+        (26, 7), (27, 7),
+        (27, 8),
+        (27, 9)
     ]
     
     print("Initial position:", mgba.get_coordinates())
     
-    for target in path:
+    # Execute Path to 27, 11
+    for target in path_to_27_11:
         pos_before = mgba.get_coordinates()
         walk_to_target(target)
         pos_after = mgba.get_coordinates()
-        print(f"Stood on {pos_after} (tried to reach {target})")
-        
-        # Warp check: did our coordinates change drastically?
         if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
             print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
-            break
+            return
+            
+    # Execute Path to 27, 8
+    for target in path_to_27_8:
+        pos_before = mgba.get_coordinates()
+        walk_to_target(target)
+        pos_after = mgba.get_coordinates()
+        if abs(pos_after['x'] - pos_before['x']) + abs(pos_after['y'] - pos_before['y']) > 5:
+            print(f"WARPED! From {pos_before} to {pos_after}. Map transition successful!")
+            return
             
     print("Search finished. Current position:", mgba.get_coordinates())
     scr = mgba.take_screenshot()
