@@ -41,7 +41,7 @@ def walk_to_target(target):
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Check if in battle or blocked
+            # We didn't move. Let's check for battle or block.
             print("No movement. Pressing B to dismiss potential menu/text.")
             mgba.press_buttons(["B"])
             time.sleep(0.5)
@@ -49,27 +49,36 @@ def walk_to_target(target):
             if new_pos == pos:
                 # Still no movement, try to flee
                 flee_battle_safe()
-                new_pos = mgba.get_coordinates()
-                if new_pos == pos:
-                    print("Stuck or unable to move. Exiting.")
-                    break
+                time.sleep(0.5)
+                # Let the loop continue and try the movement again!
 
 def main():
-    # Phase 1: Walk from (12, 12) to (3, 11) on 3F West
+    # If we are currently in battle, let's flee first
+    print("Fleeing current battle first...")
+    flee_battle_safe()
+    
+    # We should be around (10, 16) or (10, 17)
+    # Phase 1: Walk back to switch at (3, 11) on 3F West
     path_to_switch = [
-        # Left along Row 12 to Column 10
-        (11, 12), (10, 12),
         # Up Column 10 to Row 11
-        (10, 11),
+        (10, 16), (10, 15), (10, 14), (10, 13), (10, 12), (10, 11),
         # Left along Row 11 to Column 3
         (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
     ]
     
     print("PHASE 1: Walking to switch at (2, 11)...")
     for target in path_to_switch:
+        pos = mgba.get_coordinates()
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist > 5:
+            # Skip if we are already past it
+            continue
         walk_to_target(target)
         
     # Phase 2: Toggle switch to State A
+    # Make sure we are at (3, 11)
+    walk_to_target((3, 11))
+    
     print("PHASE 2: Turning Left to face Mewtwo statue...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
