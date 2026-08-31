@@ -49,24 +49,26 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (3, 8) on 3F West in State B.
-    # Completely verified clear route to balcony drop:
+    # Currently at (3, 4) on 3F West.
+    # Path to balcony drop bypassing Columns 1-3 rubble:
     path = [
-        # Walk UP to Row 2
-        (3, 7), (3, 6), (3, 5), (3, 4), (3, 3), (3, 2),
-        # Walk RIGHT along Row 2 to Column 12 (crosses Column 9 wall gap at Row 2)
-        (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2),
+        # Walk RIGHT to Column 4
+        (4, 4),
+        # Walk UP Column 4 to Row 2
+        (4, 3), (4, 2),
+        # Walk RIGHT along Row 2 to Column 12
+        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2),
         # Walk DOWN Column 12 to Row 3
         (12, 3),
-        # Walk RIGHT along Row 3 to Column 23 (crosses Column 22 wall gap at Row 3)
+        # Walk RIGHT along Row 3 to Column 23
         (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3),
-        # Walk DOWN Column 23 to Row 12 (completely open vertical corridor)
+        # Walk DOWN Column 23 to Row 12
         (23, 4), (23, 5), (23, 6), (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
-        # Walk LEFT along Row 12 to Column 21 (crosses Column 22 wall gap at Row 12)
+        # Walk LEFT along Row 12 to Column 21
         (22, 12), (21, 12),
         # Walk DOWN Column 21 to Row 18 (balcony gate at (21, 17) is OPEN in State B!)
         (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
-        # Walk LEFT along Row 18 to Column 19 (balcony drop!)
+        # Walk LEFT to (19, 18)
         (20, 18), (19, 18),
         # Step DOWN to trigger drop!
         (19, 19)
