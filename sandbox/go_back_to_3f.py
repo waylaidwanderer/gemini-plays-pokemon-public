@@ -54,14 +54,14 @@ def main():
     pos = mgba.get_coordinates()
     print("Starting from:", pos)
     
-    # Path from (21, 15) on 1F East to (7, 11) on 1F West
+    # Path from (18, 10) on 1F to (5, 10) on 1F West
     path = [
-        # Up Column 21 to Row 6
-        (21, 14), (21, 13), (21, 12), (21, 11), (21, 10), (21, 9), (21, 8), (21, 7), (21, 6),
-        # Left along Row 6 to Column 7
-        (20, 6), (19, 6), (18, 6), (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6), (11, 6), (10, 6), (9, 6), (8, 6), (7, 6),
-        # Down Column 7 to (7, 11)
-        (7, 7), (7, 8), (7, 9), (7, 10), (7, 11)
+        # Walk Up Column 18 to Row 6
+        (18, 9), (18, 8), (18, 7), (18, 6),
+        # Walk Left along Row 6 to Column 5
+        (17, 6), (16, 6), (15, 6), (14, 6), (13, 6), (12, 6), (11, 6), (10, 6), (9, 6), (8, 6), (7, 6), (6, 6), (5, 6),
+        # Walk Down Column 5 to stairs at (5, 10)
+        (5, 7), (5, 8), (5, 9), (5, 10)
     ]
     
     # Trim path
@@ -86,10 +86,6 @@ def main():
             print(f"Failed to reach {target}")
             break
             
-    # Try stepping Up onto (7, 10) to warp to 2F West
-    print("Stepping Up onto stairs at (7, 10)...")
-    walk_to_target(7, 10)
-    
     final_pos = mgba.get_coordinates()
     print("Final position:", final_pos)
     mgba.take_screenshot()
