@@ -43,7 +43,6 @@
 | (9, 4..5) Shutter Gate | 1F | OPEN | CLOSED |
 | (24..25, 13) Shutter Gate | 1F | OPEN | CLOSED |
 | (9, 4..5) Shutter Gate | 2F | OPEN | CLOSED |
-| (24..25, 17) Passage | 2F | CLOSED | OPEN |
 | (15, 10..11) Shutter Gate | 3F | CLOSED | OPEN |
 ### Central & Garden Sector (Empirically Mapped Turns 21160-21163)
 - Stairs: 2F descending stairs at (5, 10); 3F ascending stairs at (7, 10).

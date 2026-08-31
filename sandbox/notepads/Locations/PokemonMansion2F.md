@@ -19,7 +19,7 @@
 - Thoroughfare along row 1 (cols 1-28) connects Northwest Room to East Wing.
 
 ### Stairs to 3F
-- **East Wing Stairs**: Located at (21, 23) in the southern sector. Leads up to 3F Northeast Sector (drop pits to 1F / B1F access).
+- **East Wing Stairs**: Located at (21, 23) in the southern sector. Visual landmark; direct ground access from 2F East Wing blocked by closed shutters in both states.
 - **Southwest Wing Stairs**: Located at (7, 10) in the central sector (adjacent to 1F stairs at (5, 10)). Leads up to 3F Southwest Wing (isolated room with TM09 Take Down and Mew journal).
 
 ### East Wing & Corridors
