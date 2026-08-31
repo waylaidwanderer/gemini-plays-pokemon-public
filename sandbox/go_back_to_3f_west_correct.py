@@ -49,31 +49,35 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Phase 1: Walk from (21, 16) on 3F East to the switch at (3, 11) on 3F West
-    # We are in State A, so the gate at (25, 13) is OPEN.
+    # Currently at (23, 15) on 3F East.
+    # Path to switch at (3, 11) on 3F West via Column 26 (completely clear vertical corridor!):
     path = [
-        # Up Column 21 to Row 15
-        (21, 15),
-        # Right along Row 15 to Column 25
-        (22, 15), (23, 15), (24, 15), (25, 15),
-        # Up Column 25 past the open gate at (25, 13) to Row 12
-        (25, 14), (25, 13), (25, 12),
-        # Left along Row 12 to Column 21 (gate at Column 21 is open in State A)
-        (24, 12), (23, 12), (22, 12), (21, 12),
-        # Up Column 21 to Row 3
-        (21, 11), (21, 10), (21, 9), (21, 8), (21, 7), (21, 6), (21, 5), (21, 4), (21, 3),
-        # Left along Row 3 to Column 10
-        (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
-        # Down Column 10 to Row 11
+        # Walk to Column 26
+        (24, 15), (25, 15), (26, 15),
+        # Walk UP Column 26 to Row 3
+        (26, 14), (26, 13), (26, 12), (26, 11), (26, 10), (26, 9), (26, 8), (26, 7), (26, 6), (26, 5), (26, 4), (26, 3),
+        # Walk LEFT along Row 3 to Column 10
+        (25, 3), (24, 3), (23, 3), (22, 3), (21, 3), (20, 3), (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3),
+        # Walk DOWN Column 10 to Row 11
         (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11),
-        # Left along Row 11 to Column 3 (right next to switch)
+        # Walk LEFT along Row 11 to Column 3 (right next to switch)
         (9, 11), (8, 11), (7, 11), (6, 11), (5, 11), (4, 11), (3, 11)
     ]
     
     pos = mgba.get_coordinates()
     print("Initial position:", pos)
     
-    for target in path:
+    start_idx = 0
+    min_dist = 9999
+    for i, target in enumerate(path):
+        dist = abs(target[0] - pos['x']) + abs(target[1] - pos['y'])
+        if dist < min_dist:
+            min_dist = dist
+            start_idx = i
+            
+    print(f"Starting path from index {start_idx} (target: {path[start_idx]})")
+    for idx in range(start_idx, len(path)):
+        target = path[idx]
         walk_to_target(target)
         
     print("Reached switch area at (3, 11). Interacting with the switch...")
