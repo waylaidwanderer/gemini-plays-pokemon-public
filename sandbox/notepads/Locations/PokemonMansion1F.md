@@ -20,13 +20,8 @@
 - Northern Thoroughfare: Row 3 is open across cols 14-25.
 - Eastern Bypass Corridor: Columns 26-27 are open pink floor from row 1 down to row 12! Bypasses all row 4-8 rubble/wall barriers.
 - Shutter Gate at (24..25, 13):
-  - **State 0 (State A)**: **OPEN** (Passage clear to B1F stairs!).
-  - **State 1 (State B)**: **CLOSED** (Orange/yellow barrier bars visible at row 13).
-- **Descending Staircase to B1F**: Located at **(25, 14)** directly below row 13 shutter!
+  - Empirically verified CLOSED in both State 0 and State 1 during direct testing (Turn 21431, 21443).
+  - Note: The secluded southern/eastern area of 1F (where the B1F staircase is located) is accessible by dropping down from the 3F balcony pits.
 
-## Verified Master Route to B1F:
-1. Ensure global switch is in **STATE 0 (State A)** (Default).
-2. On 1F: Walk from (5, 10) -> (12, 7) -> (18, 3) -> east along row 3 to (26, 3).
-3. Walk south down column 26 to (26, 12).
-4. Step through the **OPEN** (24..25, 13) shutter to (25, 14).
-5. Take (25, 14) staircase directly down into **POKÉMON MANSION B1F**!
+## Access to B1F:
+- To access B1F, player must navigate up to 3F and jump down the balcony drop-off pits to land in the secluded 1F stairwell sector.
