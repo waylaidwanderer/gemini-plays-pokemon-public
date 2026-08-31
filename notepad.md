@@ -2390,12 +2390,14 @@
 - Southeast Room (Arrival Sector): cols 21-28, rows 18-26 open pink floor. Divided from western sector by solid vertical wall at col 20.
 
 ## Switch Permutations & Shutters
-- Exploring.
+- Eastern corridor shutter at (26..27, 17): CLOSED (blocks access from row 18 to row 6 corridor).
+- Statue switch at (19, 17) base / (19, 16) top (accessible from western room via (20, 13..15) opening).
+
 ## West & Central Wing Topology
+- Column 20 (rows 16-26): Solid vertical wall dividing Southeast Arrival Sector from West/Center rooms.
+- Column 20 Doorway: Located at rows 13-15 (open pink floor across cols 19-21 at rows 13-15).
 - Column 9 (rows 8-16): Solid vertical wall dividing Central corridor from West wing.
 - Row 8 (cols 6-15): Solid horizontal wall dividing northern rooms from central corridor.
-- Row 18: Unobstructed horizontal thoroughfare connecting central sector to western sector.
-- Statue switch at (19, 17).
 
 <hr>
 
