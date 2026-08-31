@@ -3,76 +3,94 @@ import time
 
 def flee_battle():
     print("Wild battle! Fleeing...")
+    # Clean up screen text
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.3)
+    # Select RUN
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.5)
+    # Clear "Got away safely!"
     for _ in range(5):
         mgba.press_buttons(["B"])
         time.sleep(0.3)
 
-def walk_step(action):
-    pos = mgba.get_coordinates()
-    x, y = pos['x'], pos['y']
-    mgba.press_buttons([action])
-    time.sleep(0.4)
-    new_pos = mgba.get_coordinates()
-    if new_pos == {'x': x, 'y': y}:
-        flee_battle()
-        mgba.press_buttons([action])
-        time.sleep(0.4)
-        new_pos = mgba.get_coordinates()
-    return new_pos
+def get_dir(cx, cy, tx, ty):
+    if tx > cx: return "Right"
+    if tx < cx: return "Left"
+    if ty > cy: return "Down"
+    if ty < cy: return "Up"
+    return None
 
-def main():
-    # Currently at (2, 6) on 1F West in State B.
-    # 1. Walk to 1F East northeast stairs at (27, 11)
-    # Path:
-    # Walk Right along Row 6 to Column 27: (3, 6) to (27, 6)
-    # Walk Down Column 27 to Row 11: (27, 7) to (27, 11) (triggers warp up to 2F East)
-    path = []
-    for col in range(3, 28):
-        path.append(("Right", col, 6))
-    for row in range(7, 12):
-        path.append(("Down", 27, row))
-        
-    idx = 0
+def walk_path_robust(target_path):
     stuck_count = 0
-    last_pos = None
     
-    print("Walking from 1F West to 1F East northeast stairs...")
-    while idx < len(path):
-        action, tx, ty = path[idx]
+    while True:
         pos = mgba.get_coordinates()
-        x, y = pos['x'], pos['y']
+        cx, cy = pos['x'], pos['y']
         
-        # Warp check: we should land on 2F East (coordinates usually around (27, 11) or close to it)
-        if last_pos is not None and last_pos != (x, y) and (x, y) not in [(p[1], p[2]) for p in path]:
-            print(f"Warp detected! Landed on 2F East at: ({x}, {y})")
+        # If we reached the final target, we are done!
+        final_tx, final_ty = target_path[-1]
+        if cx == final_tx and cy == final_ty:
+            print("Reached final destination!")
             break
             
-        if x == tx and y == ty:
-            idx += 1
-            stuck_count = 0
-            continue
+        # Find the closest point in target_path to our current position
+        min_dist = 999999
+        closest_idx = 0
+        for i, (tx, ty) in enumerate(target_path):
+            dist = abs(tx - cx) + abs(ty - cy)
+            if dist < min_dist:
+                min_dist = dist
+                closest_idx = i
+                
+        # We want to head towards the next tile in the path
+        if cx == target_path[closest_idx][0] and cy == target_path[closest_idx][1]:
+            target_idx = min(closest_idx + 1, len(target_path) - 1)
+        else:
+            target_idx = closest_idx
             
-        if last_pos == (x, y):
+        tx, ty = target_path[target_idx]
+        direction = get_dir(cx, cy, tx, ty)
+        if direction is None:
+            break
+            
+        print(f"Current: ({cx}, {cy}) | Heading to target {target_idx}: ({tx}, {ty}) via {direction}")
+        
+        # Take step
+        mgba.press_buttons([direction])
+        time.sleep(0.4)
+        
+        # Check if we moved
+        new_pos = mgba.get_coordinates()
+        if new_pos == {'x': cx, 'y': cy}:
             stuck_count += 1
-            if stuck_count > 2:
-                print("Stuck! Fleeing...")
+            if stuck_count > 1:
+                print("Stuck! Attempting to flee battle / clear obstacle...")
                 flee_battle()
                 stuck_count = 0
-                continue
         else:
             stuck_count = 0
-            last_pos = (x, y)
-            
-        walk_step(action)
+
+def main():
+    # Currently at (3, 7) on 1F West
+    # Path to (27, 11) northeast stairs:
+    # 1. Row 6 from Column 3 to 27
+    # 2. Column 27 from Row 6 to 11
+    path = []
+    # Start at current position, go to (3, 6)
+    path.append((3, 6))
+    for col in range(4, 28):
+        path.append((col, 6))
+    for row in range(7, 12):
+        path.append((27, row))
         
+    walk_path_robust(path)
+    
+    # Wait for transition to 2F East
     time.sleep(1.5)
     pos = mgba.get_coordinates()
-    print("Current Position on 2F East:", pos)
+    print("New Position after 2F East transition:", pos)
 
 if __name__ == "__main__":
     main()
