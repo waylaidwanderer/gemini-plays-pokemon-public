@@ -49,26 +49,24 @@ def walk_to_target(target):
                 time.sleep(0.5)
 
 def main():
-    # Currently at (3, 4) on 3F West.
-    # Path to balcony drop bypassing Columns 1-3 rubble:
+    # Currently at (3, 5) on 3F West in State A.
+    # Safe path to balcony drop in State A:
     path = [
+        # Walk UP to (3, 4)
+        (3, 4),
         # Walk RIGHT to Column 4
         (4, 4),
-        # Walk UP Column 4 to Row 2
+        # Walk UP Column 4 to Row 2 (bypassing Columns 1-3 rubble)
         (4, 3), (4, 2),
-        # Walk RIGHT along Row 2 to Column 12
-        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2),
-        # Walk DOWN Column 12 to Row 3
-        (12, 3),
-        # Walk RIGHT along Row 3 to Column 23
-        (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3),
-        # Walk DOWN Column 23 to Row 12
-        (23, 4), (23, 5), (23, 6), (23, 7), (23, 8), (23, 9), (23, 10), (23, 11), (23, 12),
-        # Walk LEFT along Row 12 to Column 21
-        (22, 12), (21, 12),
-        # Walk DOWN Column 21 to Row 18 (balcony gate at (21, 17) is OPEN in State B!)
-        (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
-        # Walk LEFT to (19, 18)
+        # Walk RIGHT along Row 2 to Column 10
+        (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2),
+        # Walk DOWN Column 10 to Row 3
+        (10, 3),
+        # Walk RIGHT along Row 3 to Column 21
+        (11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 3), (21, 3),
+        # Walk DOWN Column 21 to Row 18 (both gates 21, 5 and 21, 17 are open in State A!)
+        (21, 4), (21, 5), (21, 6), (21, 7), (21, 8), (21, 9), (21, 10), (21, 11), (21, 12), (21, 13), (21, 14), (21, 15), (21, 16), (21, 17), (21, 18),
+        # Walk LEFT along Row 18 to Column 19 (balcony drop!)
         (20, 18), (19, 18),
         # Step DOWN to trigger drop!
         (19, 19)
