@@ -2556,5 +2556,18 @@
     4. Growlithe Lv 47 (Fire) [Defeated by HYDROS Surf]
     5. Alakazam Lv 50 (Psychic) [Defeated by HYDROS Double-Edge]
     6. Venusaur Lv 53 (Grass/Poison) [Defeated by HYDROS Ice Beam]
+## Verified Obstacles & West Gatehouse Access Route
+- Western Statues: Columns 14 and 15 (x=14..15, y=4..11) form a solid vertical statue wall blocking upper-west passage.
+- Western Lawn: Row 12 (y=12) is completely open green grass across columns 2..25, running directly beneath the statue wall at (14..15, 12).
+- Western Ledge Drop: (16, 7) is a south-facing ledge allowing descent from row 5/6 corridor into western tall grass (16, 8..11) and onto row 12 lawn (16, 12).
+- Gatehouse Facade:
+  - Signpost: (7, 11)
+  - Wooden posts / fence: (6, 11) and (8..13, 11)
+  - Grand Entrance Carpet: (2..5, 10..11)
+- Master Route to Gatehouse:
+  1. From (30, 12), walk Right to (31, 12), North through (31, 7) gap to (31, 6) -> (30, 6) -> (30, 5).
+  2. Follow row 5 west past defeated Rival RED to (16, 5).
+  3. Step South over (16, 7) ledge into tall grass down to row 12 lawn at (16, 12).
+  4. Walk West along row 12 across (14..15, 12) to the Gatehouse front approach (x=4..8, y=12).
 
 <hr>
