@@ -208,6 +208,7 @@
 
 - [x] Defeat Gym Leader Sabrina in Saffron Gym (Marsh Badge & TM46 Psywave) [Defeated Turn 18379]
 
+- [x] Retrieve Secret Key from Pokémon Mansion B1F [Turn 21590]
 
 <hr>
 
