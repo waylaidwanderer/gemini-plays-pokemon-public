@@ -12,11 +12,11 @@
 - [x] 5. Soul Badge: Guard located at (11, 96) [Passed Turn 22115]
 - [x] 6. Marsh Badge: Guard located at (8, 85) [Passed Turn 22118]
 - [x] 7. Volcano Badge: Guard located at (10, 56) [Passed Turn 22121]
-- [x] 8. Earth Badge: Guard located at (13, 41) [Final Checkpoint]
-## Victory Road Approach
-- Guard 8 stands at (13, 41) inspecting the Earth Badge.
-- Paved approach corridor: (13, 42..43).
-- Passage north continues past (13, 40) directly to Victory Road entrance.
+- [ ] 8. Earth Badge: Guard located at (8, 41) [Final Checkpoint]
+## Victory Road Approach & Bypass Layout
+- (8..15, 43) is a south-facing ledge barrier.
+- Columns 6 and 7 (6..7, 40..48) form a completely clear, 2-tile wide open green grass corridor connecting the lower section (row 48) directly to the upper sector (row 40) past the ledge!
+- Route around rock obstacles: From (10, 44), move Right to col 11/12, Down to row 48, Left along row 48 to col 7, then walk North along column 7 straight past Guard 8 at (8, 41) into Victory Road approach!
 ## Verified Route 23 Topology
 - Cascade Check Sector: y=136..139. Guard at (8, 136).
 - Statue Barrier: Rows 130-131 contain statues and walls, but columns 14 and 15 (14..15, 128..131) form an open 2-tile wide tall grass corridor running directly north to the next sector!
