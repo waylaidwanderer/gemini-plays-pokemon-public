@@ -1,6 +1,5 @@
 import mgba
 import time
-from PIL import Image
 
 def step(direction):
     current = mgba.get_coordinates()
@@ -22,28 +21,26 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Walk to (3, 11) in State B
+# Starting at (12, 11).
+# Walk to (3, 11).
 path = [
-    ("Down", 2),    # (18, 4) -> (18, 6)
-    ("Left", 6),    # (18, 6) -> (12, 6)
-    ("Down", 5),    # (12, 6) -> (12, 11)
     ("Left", 9)     # (12, 11) -> (3, 11)
 ]
 
-print("Walking to (3, 11)...")
+print("Walking from (12, 11) to (3, 11)...")
 if walk_path(path):
     print("Reached (3, 11)! Turning Left to face the statue at (2, 11)...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
     
-    # Let's inspect the switch dialogue step-by-step
+    # Inspect the switch dialogue step-by-step
     for i in range(1, 5):
-        print(f"Pressing A ({i}/4) and taking screenshot...")
+        print(f"Pressing A ({i}/4)...")
         mgba.press_buttons(["A"])
         time.sleep(0.5)
         # Capture screenshot to see what is on screen
         shot = mgba.take_screenshot()
-        print(f"Screenshot saved after A-press {i}")
+        print(f"Screenshot saved after A-press {i}: {shot}")
         
     print("Dialogue inspection complete. Final coordinates:")
     print(mgba.get_coordinates())
