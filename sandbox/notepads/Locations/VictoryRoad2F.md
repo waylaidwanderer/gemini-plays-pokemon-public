@@ -12,3 +12,4 @@
 - Switch-Shutter Pairings: To be tested.
 - Session Push Log:
   - Turn 22565: Arrived on 2F via ladder from 1F. Initial observations recorded.
+- Blackbelt: Located at (4, 2) facing South.
