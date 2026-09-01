@@ -1,27 +1,6 @@
 import mgba
 import time
 
-def escape_battle():
-    print("Dismissing battle text...")
-    for _ in range(3):
-        mgba.press_buttons(["B"])
-        time.sleep(0.5)
-        
-    print("Waiting for SHELLBY send-out animation...")
-    time.sleep(2.5) # generous delay
-    
-    print("Selecting RUN...")
-    mgba.press_buttons(["Down"])
-    time.sleep(0.25)
-    mgba.press_buttons(["Right"])
-    time.sleep(0.25)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    print("Dismissing 'Got away safely!'...")
-    mgba.press_buttons(["B"])
-    time.sleep(1.0)
-
 def step(direction):
     current = mgba.get_coordinates()
     mgba.press_buttons([direction])
@@ -42,26 +21,42 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-print("Escaping wild battle first...")
-escape_battle()
-
-current_pos = mgba.get_coordinates()
-print("Current position after escape:", current_pos)
-
-# 1. Walk from (10, 10) to (3, 11)
-path = [
-    ("Down", 1),    # (10, 10) -> (10, 11)
-    ("Left", 7)     # (10, 11) -> (3, 11)
+# Starting at (21, 15).
+# 1. Walk back to (3, 11) to toggle the switch properly.
+path_to_switch = [
+    ("Up", 4),      # (21, 15) -> (21, 11)
+    ("Left", 18)    # (21, 11) -> (3, 11)
 ]
 
-print("Resuming navigation to (3, 11)...")
-if walk_path(path):
-    print("Reached (3, 11) successfully! Turning LEFT to face the switch...")
+# 2. Walk to the balcony in State A.
+path_to_balcony = [
+    ("Right", 18),  # (3, 11) -> (21, 11)
+    ("Down", 7),    # (21, 11) -> (21, 18)
+    ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
+]
+
+print("Walking to the switch at (3, 11)...")
+if walk_path(path_to_switch):
+    print("Reached (3, 11)! Facing LEFT towards the switch at (2, 11)...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
-    print("Final position check:", mgba.get_coordinates())
-    mgba.take_screenshot()
+    
+    # Toggle switch with 4 A-presses and GENEROUS 1.2s delays
+    for i in range(1, 5):
+        print(f"A-press {i}/4...")
+        mgba.press_buttons(["A"])
+        time.sleep(1.2)
+        
+    print("Switch toggled. Walking to the balcony in State A...")
+    success = walk_path(path_to_balcony)
+    if success:
+        print("Balcony drop executed successfully! Checking current position:")
+        time.sleep(1.0)
+        print(mgba.get_coordinates())
+        mgba.take_screenshot()
+    else:
+        print("Failed on the balcony path. Current coordinates:")
+        print(mgba.get_coordinates())
+        mgba.take_screenshot()
 else:
-    print("Navigation interrupted. Current coordinates:")
-    print(mgba.get_coordinates())
-    mgba.take_screenshot()
+    print("Failed to reach the switch.")
