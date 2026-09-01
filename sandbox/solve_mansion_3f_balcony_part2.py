@@ -100,21 +100,11 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (19, 4) to the balcony (19, 18) via Column 20 bypass
+# Route from current position (27, 5) to the balcony (19, 18)
 route_to_balcony = [
-    # Walk RIGHT to Column 20, then UP to Row 3
-    {'x': 20, 'y': 4},
-    {'x': 20, 'y': 3},
-    # Walk RIGHT along Row 3 to Column 26
-    {'x': 21, 'y': 3},
-    {'x': 22, 'y': 3},
-    {'x': 23, 'y': 3},
-    {'x': 24, 'y': 3},
-    {'x': 25, 'y': 3},
-    {'x': 26, 'y': 3},
-    # Walk DOWN Column 26 to Row 12
-    {'x': 26, 'y': 4},
+    # Step Left to Column 26 Row 5
     {'x': 26, 'y': 5},
+    # Walk DOWN Column 26 to Row 12
     {'x': 26, 'y': 6},
     {'x': 26, 'y': 7},
     {'x': 26, 'y': 8},
@@ -142,8 +132,9 @@ route_to_balcony = [
     {'x': 19, 'y': 18}
 ]
 
-print("Starting robust balcony navigation Part 2 from (19, 4) using Column 20 bypass...")
-print("Current position:", mgba.get_coordinates())
+print("Escaping active battle and completing balcony navigation...")
+escape_battle()
+print("Position after escape:", mgba.get_coordinates())
 
 if walk_route(route_to_balcony):
     print("Successfully reached the balcony drop tile (19, 18)!")
