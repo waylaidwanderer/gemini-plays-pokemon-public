@@ -75,10 +75,11 @@ def walk_route(route_coords):
         print(f"Successfully reached {target}")
     return True
 
-# 1. Route to stairs at (5, 10) in State A from current (7, 8)
+# 1. Route from current (2, 6) to stairs at (5, 10) in State A via Row 5 (completely open, bypasses Row 2 rubble!)
 route_to_stairs = [
-    {'x': 6, 'y': 8}, {'x': 5, 'y': 8},
-    {'x': 5, 'y': 9}, {'x': 5, 'y': 10}
+    {'x': 3, 'y': 6}, {'x': 3, 'y': 5},
+    {'x': 4, 'y': 5}, {'x': 5, 'y': 5},
+    {'x': 5, 'y': 6}, {'x': 5, 'y': 7}, {'x': 5, 'y': 8}, {'x': 5, 'y': 9}, {'x': 5, 'y': 10}
 ]
 
 # 2. Route from (5, 11) to balcony drop (19, 18) on 3F in State A
@@ -90,7 +91,7 @@ route_to_balcony = [
     {'x': 20, 'y': 18}, {'x': 19, 'y': 18}
 ]
 
-print("Executing direct balcony drop script in State A starting from (7, 8)...")
+print("Executing direct stairs-to-balcony-drop script starting from (2, 6) in State A...")
 print("Current Position:", mgba.get_coordinates())
 
 print("Navigating to stairs...")
@@ -106,9 +107,13 @@ if walk_route(route_to_stairs):
             print("Executed balcony drop successfully!")
             time.sleep(2.0) # wait for drop transition
             print("Final landing position on B1F West:", mgba.get_coordinates())
+            mgba.take_screenshot()
         else:
             print("Interrupted on 3F route to balcony.")
+            mgba.take_screenshot()
     else:
         print("Landing position is not (5, 11). Current position:", pos)
+        mgba.take_screenshot()
 else:
     print("Failed to reach 2F stairs.")
+    mgba.take_screenshot()
