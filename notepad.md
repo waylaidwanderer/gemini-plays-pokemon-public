@@ -2732,7 +2732,7 @@
 - Row 7/8 Boundary: An impassable cliff wall spanning columns 4-12. Stepping South from row 7 to row 8 is strictly blocked.
 - Terrace (3..7, 5..7) Exits:
   - West Corridor: (3, 7) -> (3, 8..11) connects to the lower western highway and Shutter 1 (5, 10).
-  - North Gap: (5, 4) connects to row 3 (blocked by Boulder 1 at (5, 3)).
+  - North Gap: (5, 4) connects to row 3.
 
 ## Verified Northwest Sector Topology & Boulder 1
 - (0..4, 4) and (6, 4) are solid rock walls separating the lower terrace (row 5-8) from the upper corridor (rows 1-3).
