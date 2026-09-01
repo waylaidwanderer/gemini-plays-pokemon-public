@@ -21,20 +21,28 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (21, 15).
-# Walk to (12, 11).
+# Starting at (10, 5) in State A.
+# Goal: reach (19, 18) and drop to B1F West.
+
 path = [
-    ("Up", 4),      # (21, 15) -> (21, 11)
-    ("Left", 9)     # (21, 11) -> (12, 11)
+    ("Down", 6),    # (10, 5) -> (10, 11)
+    ("Right", 2),   # (10, 11) -> (12, 11)
+    ("Up", 5),      # (12, 11) -> (12, 6)
+    ("Right", 7),   # (12, 6) -> (19, 6)
+    ("Down", 5),    # (19, 6) -> (19, 11)
+    ("Right", 2),   # (19, 11) -> (21, 11)
+    ("Down", 7),    # (21, 11) -> (21, 18)
+    ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
 ]
 
-print("Walking to (12, 11)...")
+print("Starting direct balcony drop navigation route in State A...")
 success = walk_path(path)
 if success:
-    print("Reached (12, 11) successfully!")
+    print("Drop executed successfully! Checking current location:")
+    time.sleep(1.0) # wait for map transition / screen load
     print(mgba.get_coordinates())
     mgba.take_screenshot()
 else:
-    print("Navigation interrupted. Current coordinates:")
+    print("Navigation interrupted or blocked. Current coordinates:")
     print(mgba.get_coordinates())
     mgba.take_screenshot()
