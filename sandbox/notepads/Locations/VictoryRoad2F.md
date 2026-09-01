@@ -17,3 +17,6 @@
 ## Dynamic Puzzle Tracking
 - Switch-Shutter Pairings:
   - Switch Plate (9, 11) <-> Shutter 1 (5, 10) pairing to be verified.
+- Item Ball: Located at (14, 2) [Observed Turn 22641]
+- Shutter 2: Located at (15, 7) (purple horizontal bars) [Observed Turn 22641]
+- Open East Plateau: Columns 11..16 across rows 4..6 form a large open chamber.
