@@ -2725,7 +2725,9 @@
 - Moltres: Located at (11, 5) on elevated plateau [Observed Turn 22580].
 - Shutter 2: Located at (15, 15) in eastern sector.
 - Shutter 3: Located at (21, 15) in eastern sector.
-- Boulder 3: Located at (18, 9) in eastern sector.
+- Item Ball: Located at (18, 9) in eastern sector.
+- Trainer: Located at (19, 8) facing Down/Left.
+- Boundary / Elevation Step: (23, 14) separates lower row 14 from ladder platform at (25, 14).
 
 ## Defeated Trainers (2F)
 - [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: �1075.
@@ -2736,6 +2738,5 @@
 - Terrace (3..7, 5..7) Exits:
   - West Corridor: (3, 7) -> (3, 8..11) connects to the lower western highway and Shutter 1 (5, 10).
   - North Gap: (5, 4) connects to row 3 (blocked by Boulder 1 at (5, 3)).
-
 
 <hr>

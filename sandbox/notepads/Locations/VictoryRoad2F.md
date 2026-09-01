@@ -15,11 +15,13 @@
 - Moltres: Located at (11, 5) on elevated plateau [Observed Turn 22580].
 - Shutter 2: Located at (15, 15) in eastern sector.
 - Shutter 3: Located at (21, 15) in eastern sector.
-- Boulder 3: Located at (18, 9) in eastern sector.
+- Item Ball: Located at (18, 9) in eastern sector.
+- Trainer: Located at (19, 8) facing Down/Left.
+- Boundary / Elevation Step: (23, 14) separates lower row 14 from ladder platform at (25, 14).
 
 ## Defeated Trainers (2F)
-- [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: ¥1075.
-- [x] Juggler: (21, 13) [Defeated Turn 22845]. Roster: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41 x2. Reward: ¥1435.
+- [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: ï¿½1075.
+- [x] Juggler: (21, 13) [Defeated Turn 22845]. Roster: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41 x2. Reward: ï¿½1435.
 
 ## Terrace & Elevation Topology
 - Row 7/8 Boundary: An impassable cliff wall spanning columns 4-12. Stepping South from row 7 to row 8 is strictly blocked.
