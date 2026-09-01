@@ -20,3 +20,9 @@
 ### Unverified Structural Hypotheses (To Be Tested)
 - Ascent to 2F: Hypothesis that stairs/ladder exists in western/central sector (e.g. near row 10..11). Must be visually located and confirmed in-game.
 - Switch Plate 2 at (17, 13): Must test which shutter it operates once reached.
+
+### Empirical Test Log: Turn 22328
+- **Action:** Boulder 1 pushed from (5, 15) onto Switch Plate 1 at (5, 14).
+- **Observation:** Tile (5, 13) visually inspected. Purple horizontal shutter bars remain CLOSED.
+- **Deduction:** Switch Plate 1 at (5, 14) does NOT control Shutter at (5, 13). It likely controls Shutter at (7, 7) or (15, 7).
+- **Western Corridor Topology:** (1..3, 10..16) is fully open and accessible from (4, 14) by walking Left to col 1-3. Boulder 2 is visible at (2, 10).
