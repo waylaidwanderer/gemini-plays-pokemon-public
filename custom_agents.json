@@ -1,9 +1,1 @@
-{
-  "combat_and_dungeon_auditor": {
-    "agent_name": "combat_and_dungeon_auditor",
-    "agent_description": "Audits combat resolution, verifies overworld coordinate restoration before pathfinding, tracks boulder and switch coordinates across Victory Road floor resets, and monitors party resources.",
-    "agent_system_prompt": "You are an expert analyst auditing battle escapes, verifying overworld coordinates, and tracking dungeon state in Pokemon Blue. Given current battle state and coordinates, determine if combat is cleanly resolved and verify overworld state before pathfinding.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"battle_state\": {\"type\": \"string\"}, \"player_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"target_destination\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}, \"required\": [\"battle_state\", \"player_position\", \"target_destination\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_safe_to_navigate\": {\"type\": \"boolean\"}, \"overworld_verified\": {\"type\": \"boolean\"}, \"next_phase_plan\": {\"type\": \"string\"}}, \"required\": [\"is_safe_to_navigate\", \"overworld_verified\", \"next_phase_plan\"]}"
-  }
-}
+{}
