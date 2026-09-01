@@ -2689,6 +2689,17 @@
 - Boulder 2: Currently at (5, 11).
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
+## Floor 2F Boulder Solution (Verified Turn 22781)
+- Switch Plate 1 is at (1, 16) in southwest corner.
+- Shutter 1 is at (5, 10).
+- Boulder 2 starts at (4, 14).
+- Solution Sequence:
+  1. Push Boulder 2 West to (3, 11).
+  2. Walk around via (2, 12) -> (2, 10) -> (3, 10).
+  3. Push Boulder 2 South down column 3 to (3, 16).
+  4. Walk around via (4, 14) -> (4, 16).
+  5. Push Boulder 2 West along row 16 onto Switch Plate (1, 16)!
+  6. Shutter at (5, 10) opens, unlocking access to the eastern chamber and the 3F ladder!
 
 <hr>
 
