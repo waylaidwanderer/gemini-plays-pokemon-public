@@ -1,43 +1,49 @@
 import mgba
 import time
 
-def press(button, count=1):
-    for _ in range(count):
-        mgba.press_buttons([button])
-        time.sleep(0.35)
-        pos = mgba.get_coordinates()
-        print(f"Pressed {button}. Position is now {pos}")
+def step(direction):
+    current = mgba.get_coordinates()
+    mgba.press_buttons([direction])
+    time.sleep(0.35)
+    next_pos = mgba.get_coordinates()
+    if next_pos == current:
+        print(f"Blocked at {current} trying to move {direction}")
+        return False
+    return next_pos
 
-print("Current coordinates:", mgba.get_coordinates())
+def walk_path(path_steps):
+    for direction, count in path_steps:
+        print(f"Moving {direction} {count} times...")
+        for _ in range(count):
+            res = step(direction)
+            if not res:
+                return False
+            print(f"Moved to {res}")
+    return True
 
-# 1. Walk from (6, 11) to (3, 11)
-print("Walking to (3, 11)...")
-press("Left", 3)   # (6, 11) -> (3, 11)
+# Starting at (11, 12).
+# Goal: reach (19, 18) and drop to B1F West.
 
-# Verify we reached (3, 11)
-pos = mgba.get_coordinates()
-if pos != {'x': 3, 'y': 11}:
-    print(f"Error: Expected to be at (3, 11), but actually at {pos}")
-    exit(1)
+path = [
+    ("Right", 1),   # (11, 12) -> (12, 12)
+    ("Up", 9),      # (12, 12) -> (12, 3)
+    ("Right", 13),  # (12, 3) -> (25, 3)
+    ("Down", 9),    # (25, 3) -> (25, 12)
+    ("Left", 1),    # (25, 12) -> (24, 12)
+    ("Down", 4),    # (24, 12) -> (24, 16)
+    ("Left", 3),    # (24, 16) -> (21, 16)
+    ("Down", 2),    # (21, 16) -> (21, 18)
+    ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
+]
 
-# 2. Turn left and toggle switch
-print("Toggling Mewtwo switch...")
-press("Left", 1)  # Face Left towards (2, 11)
-
-# 4 A-presses to complete dialogue
-for i in range(1, 5):
-    print(f"A-press {i}...")
-    mgba.press_buttons(["A"])
-    time.sleep(0.5)
-
-# 3. Walk from (3, 11) to the balcony and drop!
-print("Walking to the balcony...")
-press("Right", 9)  # (3, 11) -> (12, 11)
-press("Down", 5)   # (12, 11) -> (12, 16)
-press("Right", 9)  # (12, 16) -> (21, 16)
-press("Down", 2)   # (21, 16) -> (21, 18)
-press("Left", 2)   # (21, 18) -> (19, 18) (drop!)
-
-print("Final position check:")
-print(mgba.get_coordinates())
-mgba.take_screenshot()
+print("Starting balcony navigation route...")
+success = walk_path(path)
+if success:
+    print("Drop executed successfully! Checking current location:")
+    time.sleep(1.0) # wait for map transition / screen load
+    print(mgba.get_coordinates())
+    mgba.take_screenshot()
+else:
+    print("Navigation interrupted or blocked. Current coordinates:")
+    print(mgba.get_coordinates())
+    mgba.take_screenshot()
