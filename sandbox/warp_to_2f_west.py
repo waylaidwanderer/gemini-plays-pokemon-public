@@ -60,21 +60,19 @@ def walk_route(route_coords):
             return False
     return True
 
-# Route to the stairs at (5, 10) on 3F West from (13, 12)
+# Route from current position (9, 13) to warp stairs at (5, 10) on 3F West via Row 11
 route_to_warp = [
-    {'x': 12, 'y': 12},
-    {'x': 11, 'y': 12},
-    {'x': 10, 'y': 12},
     {'x': 9, 'y': 12},
-    {'x': 8, 'y': 12},
-    {'x': 7, 'y': 12},
-    {'x': 6, 'y': 12},
-    {'x': 5, 'y': 12},
+    {'x': 9, 'y': 11}, # Row 11
+    # Left along Row 11
+    {'x': 8, 'y': 11},
+    {'x': 7, 'y': 11},
+    {'x': 6, 'y': 11},
     {'x': 5, 'y': 11},
     {'x': 5, 'y': 10} # stairs
 ]
 
-print("Walking to warp stairs at (5, 10) on 3F West...")
+print("Walking from (9, 13) to warp stairs at (5, 10) on 3F West via Row 11...")
 if walk_route(route_to_warp):
     print("Warping DOWN to 2F West...")
     time.sleep(3.0) # wait generously for floor transition fade
