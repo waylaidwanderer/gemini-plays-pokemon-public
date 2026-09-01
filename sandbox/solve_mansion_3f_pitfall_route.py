@@ -100,36 +100,21 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route in State B from current position (12, 12) to the pitfall at (26, 3)
+# Perfect State B route to 3F East pitfall (26, 3) from current (18, 6)
 route_to_pitfall = [
-    # 1. Walk UP Column 12 to Row 11
-    {'x': 12, 'y': 11},
-    # 2. Walk LEFT along Row 11 to Column 10
-    {'x': 11, 'y': 11},
-    {'x': 10, 'y': 11},
-    # 3. Walk UP Column 10 to Row 6
-    {'x': 10, 'y': 10},
-    {'x': 10, 'y': 9},
-    {'x': 10, 'y': 8},
-    {'x': 10, 'y': 7},
-    {'x': 10, 'y': 6},
-    # 4. Walk RIGHT along Row 6 to Column 17
-    {'x': 11, 'y': 6},
-    {'x': 12, 'y': 6},
-    {'x': 13, 'y': 6},
-    {'x': 14, 'y': 6},
-    {'x': 15, 'y': 6},
-    {'x': 16, 'y': 6},
+    # 1. Walk LEFT to Column 17
     {'x': 17, 'y': 6},
-    # 5. Walk UP Column 17 to Row 3
+    # 2. Walk UP Column 17 to Row 4
     {'x': 17, 'y': 5},
     {'x': 17, 'y': 4},
-    {'x': 17, 'y': 3},
-    # 6. Walk RIGHT along Row 3 to Column 26
-    {'x': 18, 'y': 3},
-    {'x': 19, 'y': 3},
-    {'x': 20, 'y': 3},
+    # 3. Walk RIGHT along Row 4 to Column 21
+    {'x': 18, 'y': 4},
+    {'x': 19, 'y': 4},
+    {'x': 20, 'y': 4},
+    {'x': 21, 'y': 4},
+    # 4. Walk UP Column 21 to Row 3
     {'x': 21, 'y': 3},
+    # 5. Walk RIGHT along Row 3 to Column 26
     {'x': 22, 'y': 3},
     {'x': 23, 'y': 3},
     {'x': 24, 'y': 3},
@@ -137,12 +122,12 @@ route_to_pitfall = [
     {'x': 26, 'y': 3} # pitfall tile!
 ]
 
-print("Walking State B route to 3F East pitfall starting from (12, 12)...")
+print("Walking State B route to 3F East pitfall starting from (18, 6)...")
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_pitfall):
     print("Reached (26, 3)! Attempting to step into the pitfall...")
-    # Step down/right to fall into the pitfall
+    # Step down to fall into the pitfall
     mgba.press_buttons(["Down"])
     time.sleep(3.0) # wait generously for falling transition and 1F East fade-in
     print("Coordinates after falling:", mgba.get_coordinates())
