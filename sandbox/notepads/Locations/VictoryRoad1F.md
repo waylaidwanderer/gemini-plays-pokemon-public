@@ -24,10 +24,10 @@
   - South Cross-Bridge: row 12 across cols 5..12 (fully open elevated floor connecting west and east arms)
   - East Arm: cols 11..12 across rows 5..12 (connects south cross-bridge to northern plateau)
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
-- Northern Sector Items:
+- Northern Sector Items (Elevated Plateau):
   - Item Ball at (9, 2)
   - Item Ball at (11, 0)
   - Item Ball at (14, 2)
-- Northern Brown Plateau Access: Columns 11 and 12 (rows 2-4) provide open access connecting lower floor (row 4) to upper brown sector (rows 0-2).
+  - Note: Row 3 is an impassable south-facing cliff wall separating rows 4-6 from upper brown plateau (rows 0-2).
 - Verified Shutter (7, 7): Lowered/opened by Switch (17, 13), providing direct passage from northern arena (7, 6) onto row 8 lower floor (7, 8).
 - Verified Ladder to 2F: Located at (1, 1) in northwest corner on lower cave floor.
