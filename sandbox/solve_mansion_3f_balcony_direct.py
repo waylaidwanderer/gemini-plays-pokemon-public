@@ -100,31 +100,15 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (14, 3) on 3F East to the balcony (19, 18) in State A via Row 6
+print("Escaping active battle at (22, 7)...")
+escape_battle()
+print("Position after escape:", mgba.get_coordinates())
+
+# Route from (22, 7) to the balcony (19, 18) in State A via Column 21
 route_to_balcony = [
-    # Walk LEFT to Column 10
-    {'x': 13, 'y': 3},
-    {'x': 12, 'y': 3},
-    {'x': 11, 'y': 3},
-    {'x': 10, 'y': 3},
-    # Walk DOWN Column 10 to Row 6
-    {'x': 10, 'y': 4},
-    {'x': 10, 'y': 5},
-    {'x': 10, 'y': 6},
-    # Walk RIGHT along Row 6 to Column 21
-    {'x': 11, 'y': 6},
-    {'x': 12, 'y': 6},
-    {'x': 13, 'y': 6},
-    {'x': 14, 'y': 6},
-    {'x': 15, 'y': 6},
-    {'x': 16, 'y': 6},
-    {'x': 17, 'y': 6},
-    {'x': 18, 'y': 6},
-    {'x': 19, 'y': 6},
-    {'x': 20, 'y': 6},
-    {'x': 21, 'y': 6},
-    # Walk DOWN Column 21 to Row 18
+    # Walk left to Column 21
     {'x': 21, 'y': 7},
+    # Walk DOWN Column 21 to Row 18
     {'x': 21, 'y': 8},
     {'x': 21, 'y': 9},
     {'x': 21, 'y': 10},
@@ -141,9 +125,7 @@ route_to_balcony = [
     {'x': 19, 'y': 18} # drop tile
 ]
 
-print("Starting direct balcony navigation in State A via Row 6/Column 21 bypass...")
-print("Current position:", mgba.get_coordinates())
-
+print("Navigating 3F in State A directly to balcony drop tile (19, 18)...")
 if walk_route(route_to_balcony):
     print("Successfully reached the balcony drop tile (19, 18)!")
     print("Performing balcony drop step...")
