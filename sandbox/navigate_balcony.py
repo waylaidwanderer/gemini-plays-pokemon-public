@@ -1,6 +1,27 @@
 import mgba
 import time
 
+def escape_battle():
+    print("Dismissing battle text...")
+    for _ in range(3):
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        
+    print("Waiting for SHELLBY send-out animation...")
+    time.sleep(2.5) # generous delay
+    
+    print("Selecting RUN...")
+    mgba.press_buttons(["Down"])
+    time.sleep(0.25)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.25)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    print("Dismissing 'Got away safely!'...")
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+
 def step(direction):
     current = mgba.get_coordinates()
     mgba.press_buttons([direction])
@@ -21,10 +42,16 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (21, 11).
-# Walk final chunk: 7 steps Down to (21, 18), 2 steps Left to (19, 18) (drop!)
+print("Escaping wild battle first...")
+escape_battle()
+
+current_pos = mgba.get_coordinates()
+print("Current position after escape:", current_pos)
+
+# Starting at (21, 14).
+# Walk final chunk: 4 steps Down to (21, 18), 2 steps Left to (19, 18) (drop!)
 path = [
-    ("Down", 7),
+    ("Down", 4),
     ("Left", 2)
 ]
 
