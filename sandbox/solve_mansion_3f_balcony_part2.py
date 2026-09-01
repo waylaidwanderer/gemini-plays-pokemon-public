@@ -100,14 +100,13 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Walk from current position (21, 4) to (12, 6) via Row 6
+# 1. Walk from current position (20, 4) to (12, 6) via Row 6 bypassing closed gates
 route_to_col12 = [
-    {'x': 20, 'y': 4},
-    {'x': 20, 'y': 5},
-    {'x': 20, 'y': 6},
-    # Left along Row 6
-    {'x': 19, 'y': 6},
+    {'x': 19, 'y': 4},
+    {'x': 18, 'y': 4},
+    {'x': 18, 'y': 5},
     {'x': 18, 'y': 6},
+    # Left along Row 6
     {'x': 17, 'y': 6},
     {'x': 16, 'y': 6},
     {'x': 15, 'y': 6},
@@ -161,7 +160,6 @@ if col12_success:
 else:
     print("Column 12 path blocked. Walking back UP to Row 6 to try Column 17 path...")
     # Walk back up to Row 6 (recovery from whichever point on Column 12 we reached)
-    # The simplest is to use coordinates based on current position
     curr = mgba.get_coordinates()
     y_pos = curr['y']
     recovery_up = []
