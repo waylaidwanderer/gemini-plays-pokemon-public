@@ -41,16 +41,6 @@
 - Initial Spawn: Boulder 1 at (5, 5), Boulder 2 at (4, 14).
 - Switch Plates: Switch 1 at (1, 16) [controls Shutter 1 at (5, 10)]; Switch 2 at (9, 11).
 - Dynamic Session State: Resets whenever entering 2F from ladders/warps. Strength must be re-activated each session.
-## Floor 2F Boulder Solution (Verified Turn 22814)
-- Switch Plate 1 is at (1, 16) in southwest corner.
-- Shutter 1 is at (5, 10).
-- Boulder 2 starts at (4, 14).
-- Solution Executed:
-  1. Pushed Boulder 2 North from (4, 14) to (4, 11).
-  2. Pushed Boulder 2 West to (3, 11).
-  3. Pushed Boulder 2 South down column 3 to (3, 16).
-  4. Pushed Boulder 2 West along row 16 onto Switch Plate (1, 16) [CONFIRMED Turn 22814]!
-  5. Shutter at (5, 10) is OPEN! Passage to eastern chamber and 3F ladder unlocked!
 ## Floor 2F Verified Layout & Eastern Sector Findings
 - Shutter 1 at (5, 10) is OPEN [Verified Turn 22917], connecting the western entrance terrace (cols 0-4) to the central horizontal corridor (rows 8-9, cols 5-14).
 - (15, 8) is a solid rock wall corner; eastward passage from (14, 8) along row 8 is blocked.
