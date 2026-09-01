@@ -100,41 +100,45 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (27, 5) to the balcony (19, 18)
+# Route from current position (26, 5) to the balcony (19, 18) via Column 21 in State A
 route_to_balcony = [
-    # Step Left to Column 26 Row 5
-    {'x': 26, 'y': 5},
-    # Walk DOWN Column 26 to Row 12
-    {'x': 26, 'y': 6},
-    {'x': 26, 'y': 7},
-    {'x': 26, 'y': 8},
-    {'x': 26, 'y': 9},
-    {'x': 26, 'y': 10},
-    {'x': 26, 'y': 11},
-    {'x': 26, 'y': 12},
-    # Walk LEFT Row 12 to Column 24
-    {'x': 25, 'y': 12},
-    {'x': 24, 'y': 12},
-    # Walk DOWN Column 24 to Row 16
-    {'x': 24, 'y': 13},
-    {'x': 24, 'y': 14},
-    {'x': 24, 'y': 15},
-    {'x': 24, 'y': 16},
-    # Walk LEFT Row 16 to Column 21
-    {'x': 23, 'y': 16},
-    {'x': 22, 'y': 16},
+    # Walk left and up to Row 3
+    {'x': 25, 'y': 5},
+    {'x': 25, 'y': 4},
+    {'x': 25, 'y': 3},
+    # Walk left along Row 3 to Column 20
+    {'x': 24, 'y': 3},
+    {'x': 23, 'y': 3},
+    {'x': 22, 'y': 3},
+    {'x': 21, 'y': 3},
+    {'x': 20, 'y': 3},
+    # Walk up to Row 2, then right to Column 21
+    {'x': 20, 'y': 2},
+    {'x': 21, 'y': 2},
+    # Walk DOWN Column 21 all the way to Row 18
+    {'x': 21, 'y': 3},
+    {'x': 21, 'y': 4},
+    {'x': 21, 'y': 5},
+    {'x': 21, 'y': 6},
+    {'x': 21, 'y': 7},
+    {'x': 21, 'y': 8},
+    {'x': 21, 'y': 9},
+    {'x': 21, 'y': 10},
+    {'x': 21, 'y': 11},
+    {'x': 21, 'y': 12},
+    {'x': 21, 'y': 13},
+    {'x': 21, 'y': 14},
+    {'x': 21, 'y': 15},
     {'x': 21, 'y': 16},
-    # Walk DOWN Column 21 past the open gate to Row 18
     {'x': 21, 'y': 17},
     {'x': 21, 'y': 18},
-    # Walk LEFT along Row 18 to Column 19
+    # Walk left along Row 18 to Column 19
     {'x': 20, 'y': 18},
     {'x': 19, 'y': 18}
 ]
 
-print("Escaping active battle and completing balcony navigation...")
-escape_battle()
-print("Position after escape:", mgba.get_coordinates())
+print("Starting robust balcony navigation Part 2 from (26, 5) using Column 21 State A path...")
+print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_balcony):
     print("Successfully reached the balcony drop tile (19, 18)!")
