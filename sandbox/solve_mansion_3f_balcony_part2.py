@@ -100,46 +100,120 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (26, 5) to the balcony (19, 18) via Column 21 in State A
-route_to_balcony = [
-    # Walk left and up to Row 3
-    {'x': 25, 'y': 5},
-    {'x': 25, 'y': 4},
-    {'x': 25, 'y': 3},
-    # Walk left along Row 3 to Column 20
-    {'x': 24, 'y': 3},
-    {'x': 23, 'y': 3},
-    {'x': 22, 'y': 3},
-    {'x': 21, 'y': 3},
-    {'x': 20, 'y': 3},
-    # Walk up to Row 2, then right to Column 21
-    {'x': 20, 'y': 2},
-    {'x': 21, 'y': 2},
-    # Walk DOWN Column 21 all the way to Row 18
-    {'x': 21, 'y': 3},
-    {'x': 21, 'y': 4},
-    {'x': 21, 'y': 5},
-    {'x': 21, 'y': 6},
-    {'x': 21, 'y': 7},
-    {'x': 21, 'y': 8},
-    {'x': 21, 'y': 9},
-    {'x': 21, 'y': 10},
-    {'x': 21, 'y': 11},
-    {'x': 21, 'y': 12},
-    {'x': 21, 'y': 13},
-    {'x': 21, 'y': 14},
-    {'x': 21, 'y': 15},
-    {'x': 21, 'y': 16},
-    {'x': 21, 'y': 17},
-    {'x': 21, 'y': 18},
-    # Walk left along Row 18 to Column 19
-    {'x': 20, 'y': 18},
-    {'x': 19, 'y': 18}
+# 1. Walk from current position (21, 4) to (12, 6) via Row 6
+route_to_col12 = [
+    {'x': 20, 'y': 4},
+    {'x': 20, 'y': 5},
+    {'x': 20, 'y': 6},
+    # Left along Row 6
+    {'x': 19, 'y': 6},
+    {'x': 18, 'y': 6},
+    {'x': 17, 'y': 6},
+    {'x': 16, 'y': 6},
+    {'x': 15, 'y': 6},
+    {'x': 14, 'y': 6},
+    {'x': 13, 'y': 6},
+    {'x': 12, 'y': 6}
 ]
 
-print("Starting robust balcony navigation Part 2 from (26, 5) using Column 21 State A path...")
-print("Current position:", mgba.get_coordinates())
+print("1. Walking to Column 12 Row 6...")
+if not walk_route(route_to_col12):
+    print("Failed to reach Column 12 Row 6.")
+    mgba.take_screenshot()
+    exit(1)
 
+# 2. Try walking Column 12 to Row 16
+col12_to_row16 = [
+    {'x': 12, 'y': 7},
+    {'x': 12, 'y': 8},
+    {'x': 12, 'y': 9},
+    {'x': 12, 'y': 10},
+    {'x': 12, 'y': 11},
+    {'x': 12, 'y': 12},
+    {'x': 12, 'y': 13},
+    {'x': 12, 'y': 14},
+    {'x': 12, 'y': 15},
+    {'x': 12, 'y': 16}
+]
+
+print("2. Attempting Column 12 path to Row 16...")
+col12_success = walk_route(col12_to_row16)
+
+if col12_success:
+    print("Column 12 path succeeded! Walking to balcony...")
+    route_to_balcony = [
+        {'x': 13, 'y': 16},
+        {'x': 14, 'y': 16},
+        {'x': 15, 'y': 16},
+        {'x': 16, 'y': 16},
+        {'x': 17, 'y': 16},
+        {'x': 18, 'y': 16},
+        {'x': 19, 'y': 16},
+        {'x': 20, 'y': 16},
+        {'x': 21, 'y': 16},
+        # Down past open gate to Row 18
+        {'x': 21, 'y': 17},
+        {'x': 21, 'y': 18},
+        # Left along Row 18 to Column 19
+        {'x': 20, 'y': 18},
+        {'x': 19, 'y': 18}
+    ]
+else:
+    print("Column 12 path blocked. Walking back UP to Row 6 to try Column 17 path...")
+    # Walk back up to Row 6 (recovery from whichever point on Column 12 we reached)
+    # The simplest is to use coordinates based on current position
+    curr = mgba.get_coordinates()
+    y_pos = curr['y']
+    recovery_up = []
+    for y in range(y_pos - 1, 5, -1):
+        recovery_up.append({'x': 12, 'y': y})
+    walk_route(recovery_up)
+    
+    # Walk to Column 17 Row 6
+    print("Walking to Column 17 Row 6...")
+    route_to_col17 = [
+        {'x': 13, 'y': 6},
+        {'x': 14, 'y': 6},
+        {'x': 15, 'y': 6},
+        {'x': 16, 'y': 6},
+        {'x': 17, 'y': 6}
+    ]
+    walk_route(route_to_col17)
+    
+    # Try Column 17 path
+    print("Attempting Column 17 path to Row 16...")
+    col17_to_row16 = [
+        {'x': 17, 'y': 7},
+        {'x': 17, 'y': 8},
+        {'x': 17, 'y': 9},
+        {'x': 17, 'y': 10},
+        {'x': 17, 'y': 11},
+        {'x': 17, 'y': 12},
+        {'x': 17, 'y': 13},
+        {'x': 17, 'y': 14},
+        {'x': 17, 'y': 15},
+        {'x': 17, 'y': 16}
+    ]
+    if walk_route(col17_to_row16):
+        print("Column 17 path succeeded! Walking to balcony...")
+        route_to_balcony = [
+            {'x': 18, 'y': 16},
+            {'x': 19, 'y': 16},
+            {'x': 20, 'y': 16},
+            {'x': 21, 'y': 16},
+            # Down past open gate to Row 18
+            {'x': 21, 'y': 17},
+            {'x': 21, 'y': 18},
+            # Left along Row 18 to Column 19
+            {'x': 20, 'y': 18},
+            {'x': 19, 'y': 18}
+        ]
+    else:
+        print("Fatal: Column 17 path also blocked!")
+        mgba.take_screenshot()
+        exit(1)
+
+# Walk from Row 16 to balcony
 if walk_route(route_to_balcony):
     print("Successfully reached the balcony drop tile (19, 18)!")
     print("Performing balcony drop step...")
