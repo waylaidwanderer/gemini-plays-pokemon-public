@@ -18,3 +18,4 @@
 - Session Push Log:
   - Turn 22565: Arrived on 2F via ladder from 1F. Strength field move activated.
   - Turn 22583: Pushed Boulder 1 from (5, 5) North to (5, 4).
+- Boulder 2: Default initial location at (2, 10) between rock walls (1, 10) and (3, 10). Pushing South clears passage to row 11/12 southern highway.
