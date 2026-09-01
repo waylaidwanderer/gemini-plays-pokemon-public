@@ -2627,7 +2627,6 @@
 - Shutter at (5, 13): Horizontal purple bars
 - Boulder 1: Pushed from (5, 15) onto Switch Plate 1 at (5, 14) [Verified Turn 22151: SPRITE_6768 at (5, 14)]
 - Western Corridor: Columns 1-3 (rows 10-16)
-- Western Ramp / Stairs: (1, 10..11)
 - Western Boulder: Located at (2, 9)
 - Lower Rock Obstacle: (10..11, 15..16) is a 2x2 rock obstacle separating lower row 16 from central entrance foyer. Row 14 is the clear horizontal bypass.
 
@@ -2667,5 +2666,12 @@
 - **Deduction:** Switch Plate 1 at (5, 14) does NOT control Shutter at (5, 13). It likely controls Shutter at (7, 7) or (15, 7).
 - **Western Corridor Topology:** (1..3, 10..16) is fully open and accessible from (4, 14) by walking Left to col 1-3. Boulder 2 is visible at (2, 10).
 - **Boulder 2 Test Turn 22340:** Boulder 2 pushed from (2, 10) to (2, 9). Shutter at (7, 7) remains CLOSED. Column 2 at (2, 9) terminates in rock wall (2, 8). Routing to eastern corridor via (14, 13) to inspect Switch Plate 2 at (17, 13) and Shutter at (15, 7).
+### Empirical Inspection: Turn 22351
+- **Observation in Eastern Chamber:**
+  - Shutter at (15, 7) visually confirmed CLOSED (purple horizontal bars visible on upper elevation layer).
+  - Row 10 (14..21, 10) is a solid cliff wall separating ground floor (rows 11-15) from upper plateau (rows 7-9).
+  - Switch Plate 2 is at (17, 13) on ground floor.
+- **Conclusion:** Switch Plate 1 at (5, 14) does NOT open Shutter (15, 7). Ground-level route to upper plateau is via western column 2 chute (pushing Boulder 2 north into row 8 hallway).
+
 
 <hr>
