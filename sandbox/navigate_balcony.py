@@ -1,6 +1,27 @@
 import mgba
 import time
 
+def escape_battle():
+    print("Dismissing battle text...")
+    for _ in range(3):
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+        
+    print("Waiting for SHELLBY send-out animation...")
+    time.sleep(2.5) # generous delay
+    
+    print("Selecting RUN...")
+    mgba.press_buttons(["Down"])
+    time.sleep(0.25)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.25)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    print("Dismissing 'Got away safely!'...")
+    mgba.press_buttons(["B"])
+    time.sleep(1.0)
+
 def step(direction):
     current = mgba.get_coordinates()
     mgba.press_buttons([direction])
@@ -21,12 +42,16 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (10, 5) in State A.
-# Goal: reach (19, 18) and drop to B1F West.
+print("Escaping wild battle first...")
+escape_battle()
 
+current_pos = mgba.get_coordinates()
+print("Current position after escape:", current_pos)
+
+# Starting at (11, 11).
+# Walk final chunk: 1 step Right, 5 steps Up, 7 steps Right, 5 steps Down, 2 steps Right, 7 steps Down, 2 steps Left (drop!)
 path = [
-    ("Down", 6),    # (10, 5) -> (10, 11)
-    ("Right", 2),   # (10, 11) -> (12, 11)
+    ("Right", 1),   # (11, 11) -> (12, 11)
     ("Up", 5),      # (12, 11) -> (12, 6)
     ("Right", 7),   # (12, 6) -> (19, 6)
     ("Down", 5),    # (19, 6) -> (19, 11)
@@ -35,7 +60,7 @@ path = [
     ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
 ]
 
-print("Starting direct balcony drop navigation route in State A...")
+print("Starting final balcony drop path...")
 success = walk_path(path)
 if success:
     print("Drop executed successfully! Checking current location:")
@@ -43,6 +68,6 @@ if success:
     print(mgba.get_coordinates())
     mgba.take_screenshot()
 else:
-    print("Navigation interrupted or blocked. Current coordinates:")
+    print("Balcony path interrupted. Current coordinates:")
     print(mgba.get_coordinates())
     mgba.take_screenshot()
