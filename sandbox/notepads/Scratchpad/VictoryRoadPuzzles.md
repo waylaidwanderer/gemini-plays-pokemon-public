@@ -21,3 +21,10 @@
 
 ## Floor 2F & 3F Puzzle Tracking
 - To be mapped upon arrival on 2F.
+## Floor 2F Puzzle System
+
+### Baseline Observations (Floor 2F)
+- Spawn Ladder from 1F: (0, 8)
+- Boulder 1: Located at (5, 5)
+- Shutter 1: Located at (5, 10) (3 purple horizontal bars)
+- Switch Plates: To be located.
