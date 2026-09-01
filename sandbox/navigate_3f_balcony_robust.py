@@ -75,31 +75,34 @@ def walk_route(route_coords):
         print(f"Successfully reached {target}")
     return True
 
-# 3F Balcony Route via Column 10 in State A starting from current (13, 12)
-route_to_balcony_via_col10 = [
-    # 1. Walk LEFT to Column 10
-    {'x': 12, 'y': 12}, {'x': 11, 'y': 12}, {'x': 10, 'y': 12},
-    # 2. Walk DOWN Column 10 to Row 16
-    {'x': 10, 'y': 13}, {'x': 10, 'y': 14}, {'x': 10, 'y': 15}, {'x': 10, 'y': 16},
-    # 3. Walk RIGHT along Row 16 to Column 21
-    {'x': 11, 'y': 16}, {'x': 12, 'y': 16}, {'x': 13, 'y': 16}, {'x': 14, 'y': 16}, {'x': 15, 'y': 16}, {'x': 16, 'y': 16}, {'x': 17, 'y': 16}, {'x': 18, 'y': 16}, {'x': 19, 'y': 16}, {'x': 20, 'y': 16}, {'x': 21, 'y': 16},
-    # 4. Walk DOWN past the open balcony gate at (21, 16)
+# 3F Route from current (10, 17) to balcony (19, 18) in State A via Row 3 and Column 26
+route_to_balcony = [
+    # 1. UP Column 10 to Row 3
+    {'x': 10, 'y': 16}, {'x': 10, 'y': 15}, {'x': 10, 'y': 14}, {'x': 10, 'y': 13}, {'x': 10, 'y': 12}, {'x': 10, 'y': 11}, {'x': 10, 'y': 10}, {'x': 10, 'y': 9}, {'x': 10, 'y': 8}, {'x': 10, 'y': 7}, {'x': 10, 'y': 6}, {'x': 10, 'y': 5}, {'x': 10, 'y': 4}, {'x': 10, 'y': 3},
+    # 2. RIGHT Row 3 to Column 26
+    {'x': 11, 'y': 3}, {'x': 12, 'y': 3}, {'x': 13, 'y': 3}, {'x': 14, 'y': 3}, {'x': 15, 'y': 3}, {'x': 16, 'y': 3}, {'x': 17, 'y': 3}, {'x': 18, 'y': 3}, {'x': 19, 'y': 3}, {'x': 20, 'y': 3}, {'x': 21, 'y': 3}, {'x': 22, 'y': 3}, {'x': 23, 'y': 3}, {'x': 24, 'y': 3}, {'x': 25, 'y': 3}, {'x': 26, 'y': 3},
+    # 3. DOWN Column 26 to Row 12
+    {'x': 26, 'y': 4}, {'x': 26, 'y': 5}, {'x': 26, 'y': 6}, {'x': 26, 'y': 7}, {'x': 26, 'y': 8}, {'x': 26, 'y': 9}, {'x': 26, 'y': 10}, {'x': 26, 'y': 11}, {'x': 26, 'y': 12},
+    # 4. LEFT Row 12 to Column 24
+    {'x': 25, 'y': 12}, {'x': 24, 'y': 12},
+    # 5. DOWN Column 24 to Row 16
+    {'x': 24, 'y': 13}, {'x': 24, 'y': 14}, {'x': 24, 'y': 15}, {'x': 24, 'y': 16},
+    # 6. LEFT Row 16 to Column 21
+    {'x': 23, 'y': 16}, {'x': 22, 'y': 16}, {'x': 21, 'y': 16},
+    # 7. DOWN past open balcony gate at (21, 16) to Row 18
     {'x': 21, 'y': 17}, {'x': 21, 'y': 18},
-    # 5. Walk LEFT to the drop tile at (19, 18)
+    # 8. LEFT along Row 18 to Column 19 (drop tile)
     {'x': 20, 'y': 18}, {'x': 19, 'y': 18}
 ]
 
-print("Executing 3F balcony drop navigation from (13, 12) in State A via Column 10...")
+print("Executing robust 3F West-to-East balcony drop navigation in State A...")
 print("Current Position:", mgba.get_coordinates())
 
-if walk_route(route_to_balcony_via_col10):
+if walk_route(route_to_balcony):
     print("Reached balcony drop tile (19, 18) successfully! Performing final drop step...")
-    # Walking down or left from (19, 18) drops the player over the balcony railing to B1F West!
     mgba.press_buttons(["Down"])
-    time.sleep(2.5) # wait generously for falling animation and map transition!
-    
-    final_pos = mgba.get_coordinates()
-    print("Coordinates after balcony drop:", final_pos)
+    time.sleep(2.5) # wait generously for drop transition!
+    print("Final landing position on B1F West:", mgba.get_coordinates())
     mgba.take_screenshot()
 else:
     print("Failed to reach balcony drop tile.")
