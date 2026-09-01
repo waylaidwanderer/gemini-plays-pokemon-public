@@ -52,3 +52,6 @@
   3. Third 'A' - Confirms "YES".
   4. Fourth 'A' - Displays "Who wouldn't?" and then closes the textbox, returning control to the overworld.
 - Walking away before the fourth 'A' is pressed will consume the first movement key to close the textbox, leaving the player in place and causing routing misalignment. Always verify the overworld is active before moving.
+## Pitfall Warp landing (Verified Turn 71668)
+- **3F East Pitfall landing:** Falling through the pitfall at `(26, 3)` on 3F East lands the player at `(26, 4)` on 2F East (Southeast fenced area).
+- **2F East physical layout near landing:** Columns 22, 23, 24 on Row 4 on 2F East are permanently blocked by rubble. Row 3 Columns 21-27 is a completely open pink checkered horizontal path connecting Columns 21 and 25. Row 6 Column 15 is completely open and serves as the horizontal transition between 2F East and 2F West in State B.
