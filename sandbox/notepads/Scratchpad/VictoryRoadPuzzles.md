@@ -36,9 +36,10 @@
 - Turn 22701: Pushed Boulder 1 North from (5, 5) to (5, 3) [Current active session].
 - Turn 22753: Pushed Boulder 2 North from (4, 14) to (4, 11).
 - Turn 22760: Pushed Boulder 2 East from (4, 11) to (5, 11).
-- Boulder 2: Currently at (5, 11).
-- Switch Plate 1: Located at (9, 11).
-- Shutter 1: Located at (5, 10).
+### Floor 2F Boulder Reset State (Default)
+- Initial Spawn: Boulder 1 at (5, 5), Boulder 2 at (4, 14).
+- Switch Plates: Switch 1 at (1, 16) [controls Shutter 1 at (5, 10)]; Switch 2 at (9, 11).
+- Dynamic Session State: Resets whenever entering 2F from ladders/warps. Strength must be re-activated each session.
 ## Floor 2F Boulder Solution (Verified Turn 22814)
 - Switch Plate 1 is at (1, 16) in southwest corner.
 - Shutter 1 is at (5, 10).
