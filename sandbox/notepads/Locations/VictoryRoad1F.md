@@ -15,7 +15,6 @@
 - Shutter at (5, 13): Horizontal purple bars
 - Boulder 1: Pushed from (5, 15) onto Switch Plate 1 at (5, 14) [Verified Turn 22151: SPRITE_6768 at (5, 14)]
 - Western Corridor: Columns 1-3 (rows 10-16)
-- Western Ramp / Stairs: (1, 10..11)
 - Western Boulder: Located at (2, 9)
 - Lower Rock Obstacle: (10..11, 15..16) is a 2x2 rock obstacle separating lower row 16 from central entrance foyer. Row 14 is the clear horizontal bypass.
 
