@@ -2636,6 +2636,12 @@
 - Traversal route to 2F: From eastern switch chamber, walk West along row 14 to (4, 14) -> (4, 15) -> (1, 15) -> North along western corridor (cols 1-3) -> central plateau ramp (5, 12) / northern passage past lowered shutters to ladder (17, 1)!
 - Boulder 2 Chokepoint: (3, 10) is a rock obstacle. Boulder 2 sits at (2, 10) between rock walls (1, 10) and (3, 10). Pushing Boulder 2 North past (2, 10) clears access to row 8/9 northern highway!
 - Shutter (5, 13) Verified: Switch (17, 13) opens Shutter (5, 13), allowing passage from row 14 onto the central elevated plateau (5..7, 9..12).
+- Elevated Plateau U-Bridge Architecture:
+  - West Arm: cols 5..7 (rows 9..12)
+  - South Cross-Bridge: row 12 across cols 5..12 (fully open elevated floor connecting west and east arms!)
+  - East Arm: cols 11..12 across rows 5..12 (connects south cross-bridge to northern plateau!)
+  - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
+  - Exit to 2F: Northern sector from (11..12, 5) heading to ladder at (17, 1)!
 
 <hr>
 
