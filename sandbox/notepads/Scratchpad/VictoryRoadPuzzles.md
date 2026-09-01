@@ -26,3 +26,4 @@
 - **Observation:** Tile (5, 13) visually inspected. Purple horizontal shutter bars remain CLOSED.
 - **Deduction:** Switch Plate 1 at (5, 14) does NOT control Shutter at (5, 13). It likely controls Shutter at (7, 7) or (15, 7).
 - **Western Corridor Topology:** (1..3, 10..16) is fully open and accessible from (4, 14) by walking Left to col 1-3. Boulder 2 is visible at (2, 10).
+- **Boulder 2 Test Turn 22340:** Boulder 2 pushed from (2, 10) to (2, 9). Shutter at (7, 7) remains CLOSED. Column 2 at (2, 9) terminates in rock wall (2, 8). Routing to eastern corridor via (14, 13) to inspect Switch Plate 2 at (17, 13) and Shutter at (15, 7).
