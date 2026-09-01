@@ -21,11 +21,10 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (18, 10).
+# Starting at (13, 6).
 # 1. Walk to the switch at (2, 5) via Row 6
 path_to_switch = [
-    ("Up", 4),      # (18, 10) -> (18, 6)
-    ("Left", 16)    # (18, 6) -> (2, 6)
+    ("Left", 11)    # (13, 6) -> (2, 6)
 ]
 
 # 2. Walk from (2, 6) to (19, 18) in State A
