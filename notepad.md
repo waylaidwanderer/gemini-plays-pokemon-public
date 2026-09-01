@@ -2729,12 +2729,12 @@
 - Switch-Shutter Pairings:
   - Switch Plate (9, 11) <-> Shutter 1 (5, 10) pairing to be verified.
 ## Verified Plateau Access & 3F Ladder Route
-- The entrance ramp to the upper brown plateau is located at (9, 7) / (10, 7).
+- The entrance ramp to the upper brown plateau is located at (11, 7).
 - Route from Shutter 1 (5, 10) to 3F Ladder:
   1. Pass through Shutter 1 at (5, 10) to (5, 9).
-  2. Walk East along row 9/8 to (9, 8).
-  3. Step North up ramp at (9, 7) into upper plateau.
-  4. Walk North up column 9 to row 1 (9, 1).
+  2. Walk East along row 9/8 to (11, 8).
+  3. Step North up ramp at (11, 7) into upper plateau (11, 6).
+  4. Walk Left to (10, 6) and North up column 10 to row 1 (10, 1).
   5. Walk West along row 1 to (1, 1) and climb ladder to Victory Road 3F!
 
 <hr>
