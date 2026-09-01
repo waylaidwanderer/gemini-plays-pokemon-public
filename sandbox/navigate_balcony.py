@@ -21,15 +21,13 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (14, 3).
+# Starting at (17, 6).
 # Goal: reach (19, 18) and drop to B1F West.
 
 path = [
-    ("Left", 2),    # (14, 3) -> (12, 3)
-    ("Down", 3),    # (12, 3) -> (12, 6)
-    ("Right", 5),   # (12, 6) -> (17, 6)
-    ("Up", 3),      # (17, 6) -> (17, 3)
-    ("Right", 8),   # (17, 3) -> (25, 3)
+    ("Right", 1),   # (17, 6) -> (18, 6)
+    ("Up", 3),      # (18, 6) -> (18, 3)
+    ("Right", 7),   # (18, 3) -> (25, 3)
     ("Down", 9),    # (25, 3) -> (25, 12)
     ("Left", 1),    # (25, 12) -> (24, 12)
     ("Down", 4),    # (24, 12) -> (24, 16)
