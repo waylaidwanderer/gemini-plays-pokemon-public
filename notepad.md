@@ -2635,6 +2635,7 @@
 - Eastern Cul-de-Sac: (13..21, 10) is a solid rock wall blocking northward passage from the eastern switch chamber.
 - Traversal route to 2F: From eastern switch chamber, walk West along row 14 to (4, 14) -> (4, 15) -> (1, 15) -> North along western corridor (cols 1-3) -> central plateau ramp (5, 12) / northern passage past lowered shutters to ladder (17, 1)!
 - Boulder 2 Chokepoint: (3, 10) is a rock obstacle. Boulder 2 sits at (2, 10) between rock walls (1, 10) and (3, 10). Pushing Boulder 2 North past (2, 10) clears access to row 8/9 northern highway!
+- Shutter (5, 13) Verified: Switch (17, 13) opens Shutter (5, 13), allowing passage from row 14 onto the central elevated plateau (5..7, 9..12).
 
 <hr>
 
