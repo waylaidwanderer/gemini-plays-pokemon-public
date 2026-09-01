@@ -2737,7 +2737,7 @@
 ## Verified Northwest Sector Topology & Boulder 1
 - (0..4, 4) and (6, 4) are solid rock walls separating the lower terrace (row 5-8) from the upper corridor (rows 1-3).
 - (5, 4) is the single open vertical gap connecting row 5 to row 3.
-- Boulder 1 starts at (5, 5) or sits at (5, 3). Pushing Boulder 1 North from (5, 4) clears the passage to row 3.
+- Boulder 1 default initial location at (5, 5) [Observed Turn 22565]. Keep Boulder 1 at (5, 5) to leave row 3 corridor open.
 - Upper Corridor: Rows 1-3 (cols 1-6) contain:
   - Blackbelt trainer at (4, 2)
   - Ladder to 3F (NW) at (1, 1)
