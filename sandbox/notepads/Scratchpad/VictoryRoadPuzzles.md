@@ -39,7 +39,7 @@
 - Boulder 2: Currently at (5, 11).
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
-## Floor 2F Boulder Solution (Verified Turn 22781)
+## Floor 2F Boulder Solution (Planned Routing)
 - Switch Plate 1 is at (1, 16) in southwest corner.
 - Shutter 1 is at (5, 10).
 - Boulder 2 starts at (4, 14).

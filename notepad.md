@@ -2689,7 +2689,7 @@
 - Boulder 2: Currently at (5, 11).
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
-## Floor 2F Boulder Solution (Verified Turn 22781)
+## Floor 2F Boulder Solution (Planned Routing)
 - Switch Plate 1 is at (1, 16) in southwest corner.
 - Shutter 1 is at (5, 10).
 - Boulder 2 starts at (4, 14).
@@ -2729,13 +2729,5 @@
 ## Dynamic Puzzle Tracking
 - Switch-Shutter Pairings:
   - Switch Plate (9, 11) <-> Shutter 1 (5, 10) pairing to be verified.
-## Master Path to 3F Ladder
-1. Row 1 is a continuous open hallway across (1..12, 1) leading directly into the 3F ladder at (1, 1).
-2. Eastern chamber (cols 10..12, rows 1..9) connects the lower blue floor (row 8/9) to row 1.
-3. Full Route from 1F Ladder:
-   - (0, 8) -> (7, 7) -> jump South over ledge (7, 8) onto lower floor (7, 9).
-   - Walk East along row 9 to col 11 (11, 9).
-   - Walk North up col 11 past Moltres (11, 5) to row 1 (11, 1).
-   - Walk West along row 1 to (1, 1) and climb ladder to 3F!
 
 <hr>
