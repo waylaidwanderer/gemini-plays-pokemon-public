@@ -33,3 +33,4 @@
 - Turn 22583: Pushed Boulder 1 North from (5, 5) to (5, 4).
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
+- Turn 22628: Pushed Boulder 2 South from (2, 10) down column 2 into row 12/13.
