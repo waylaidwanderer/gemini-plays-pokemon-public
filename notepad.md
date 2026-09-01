@@ -64,10 +64,10 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 22255)
-1. HYDROS (Blastoise) - Lv 68
-   - Stats: Max HP 229 (HP: 229/229 - Healthy), Attack 161, Defense 177, Speed 163, Special 170
+1. HYDROS (Blastoise) - Lv 69
+   - Stats: Max HP 233 (HP: 106/233 - Healthy), Attack 163, Defense 180, Speed 166, Special 173
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (11/15), Ice Beam (4/10), Bite (25/25), Surf (14/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46 - Healthy)
@@ -2710,25 +2710,28 @@
 - Ladder down to 1F: Located at (0, 8) [Arrived Turn 22565]
 
 ## Baseline Floor Geometry & Objects
-- Ladder up to 3F: Located at (1, 1) in northwest corner of upper corridor [Observed Turn 22702]
+- Ladder up to 3F (Northwest): Located at (1, 1) in northwest corner of upper corridor [Observed Turn 22702]
+- Ladder up to 3F (Southeast): Located at (25, 14) in southeast clearing [Observed Turn 22840]
 - Blackbelt: Located at (4, 2) facing South [Observed Turn 22692].
 - Boulder 1: Default initial location at (5, 5) [Observed Turn 22565].
 - Boulder 2: Default initial location at (4, 14) on Lower Highway [Observed Turn 22705].
-- Shutter 1: Located at (5, 10) (3 purple horizontal bars).
-- Switch Plate 1: Located at (9, 11) (circular red/yellow plate) [Observed Turn 22586].
-- Juggler / Trainer: Located at (12, 9) facing Left [Observed Turn 22586].
+- Shutter 1: Located at (5, 10) (Opened by Switch Plate (1, 16)) [Verified Turn 22814].
+- Switch Plate 1: Located at (1, 16) in southwest corner [Verified Turn 22814].
+- Switch Plate (Upper): Located at (9, 11) (circular red/yellow plate) [Observed Turn 22586].
+- Moltres: Located at (11, 5) on elevated plateau [Observed Turn 22580].
+- Shutter 2: Located at (15, 15) in eastern sector.
+- Shutter 3: Located at (21, 15) in eastern sector.
+- Boulder 3: Located at (18, 9) in eastern sector.
 
-## Floor Topology & Verified Observations
-- Northwest Sector: (0, 8) ladder from 1F.
-- Row 4 Wall: Solid rock wall across cols 0-4 and 6-8, with a single 1-tile gap at (5, 4).
-- Row 7/8 Boundary: South-facing cliff/elevation barrier separating row 7 from row 8.
-- Shutter 1: Located at (5, 10), currently closed. Blocks access into the lower purple chamber (rows 8-9).
-- Ladder up to 3F: Located at (1, 1) in northwest corner of upper corridor [Observed Turn 22702].
+## Defeated Trainers (2F)
+- [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: �1075.
+- [x] Juggler: (21, 13) [Defeated Turn 22845]. Roster: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41 x2. Reward: �1435.
 
-## Dynamic Puzzle Tracking
-- Switch Plate 1 at (1, 16) opens Shutter 1 at (5, 10) [Verified Turn 22814].
-- Shutter 2 observed at (15, 15).
-- Boulder 3 observed at (18, 9).
-- Active exploration of eastern chamber (cols 13-22) in progress.
+## Terrace & Elevation Topology
+- Row 7/8 Boundary: An impassable cliff wall spanning columns 4-12. Stepping South from row 7 to row 8 is strictly blocked.
+- Terrace (3..7, 5..7) Exits:
+  - West Corridor: (3, 7) -> (3, 8..11) connects to the lower western highway and Shutter 1 (5, 10).
+  - North Gap: (5, 4) connects to row 3 (blocked by Boulder 1 at (5, 3)).
+
 
 <hr>
