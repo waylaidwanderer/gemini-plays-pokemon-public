@@ -20,19 +20,7 @@
 - Ladder up to 3F: Located at (1, 1) in northwest corner of upper corridor [Observed Turn 22702].
 
 ## Dynamic Puzzle Tracking
-- Switch-Shutter Pairings:
-  - Switch Plate (9, 11) <-> Shutter 1 (5, 10) pairing to be verified.
-## Verified Plateau Access & 3F Ladder Route
-- The entrance ramp to the upper brown plateau is located at (11, 7).
-- Route from Shutter 1 (5, 10) to 3F Ladder:
-  1. Pass through Shutter 1 at (5, 10) to (5, 9).
-  2. Walk East along row 9/8 to (11, 8).
-  3. Step North up ramp at (11, 7) into upper plateau (11, 6).
-  4. Walk Left to (10, 6) and North up column 10 to row 1 (10, 1).
-  5. Walk West along row 1 to (1, 1) and climb ladder to Victory Road 3F!
-## Verified Plateau Access & 3F Ladder Route (Updated Turn 22829)
-- Ramp to upper plateau is located at (17, 11) in the eastern sector.
-- Route from (17, 12) to 3F Ladder:
-  1. Step North up ramp at (17, 11) onto upper plateau.
-  2. Walk North up column 17 to row 1 (17, 1).
-  3. Walk West along row 1 to (1, 1) and climb ladder to Victory Road 3F!
+- Switch Plate 1 at (1, 16) opens Shutter 1 at (5, 10) [Verified Turn 22814].
+- Shutter 2 observed at (15, 15).
+- Boulder 3 observed at (18, 9).
+- Active exploration of eastern chamber (cols 13-22) in progress.
