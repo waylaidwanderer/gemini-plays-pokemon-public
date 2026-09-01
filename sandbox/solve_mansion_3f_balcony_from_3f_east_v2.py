@@ -100,26 +100,17 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Route from (21, 15) back to 3F West (2, 12)
+# 1. Route from current (17, 9) back to 3F West (2, 12) via Column 18
 route_to_switch = [
-    {'x': 21, 'y': 14},
-    {'x': 21, 'y': 13},
-    {'x': 21, 'y': 12},
-    {'x': 20, 'y': 12},
-    {'x': 19, 'y': 12},
-    {'x': 18, 'y': 12},
-    {'x': 18, 'y': 11},
-    {'x': 17, 'y': 11},
-    # Column 17 up to Row 3
-    {'x': 17, 'y': 10},
-    {'x': 17, 'y': 9},
-    {'x': 17, 'y': 8},
-    {'x': 17, 'y': 7},
-    {'x': 17, 'y': 6},
-    {'x': 17, 'y': 5},
-    {'x': 17, 'y': 4},
-    {'x': 17, 'y': 3},
+    {'x': 18, 'y': 9},
+    {'x': 18, 'y': 8},
+    {'x': 18, 'y': 7},
+    {'x': 18, 'y': 6},
+    {'x': 18, 'y': 5},
+    {'x': 18, 'y': 4},
+    {'x': 18, 'y': 3},
     # Row 3 left to Column 10
+    {'x': 17, 'y': 3},
     {'x': 16, 'y': 3},
     {'x': 15, 'y': 3},
     {'x': 14, 'y': 3},
@@ -148,7 +139,7 @@ route_to_switch = [
     {'x': 2, 'y': 12}
 ]
 
-print("Walking back to 3F West switch from (21, 15)...")
+print("Walking back to 3F West switch from (17, 9)...")
 if walk_route(route_to_switch):
     print("Successfully reached switch tile (2, 12)!")
     print("Toggling switch...")
@@ -164,7 +155,7 @@ if walk_route(route_to_switch):
     print("Switch toggled. Walking State A route to balcony...")
     # State A route from (2, 12) to (19, 18)
     route_state_a = [
-        {'x': 2, 'y': 11}, # wait, standing at (2, 12), step up is (2, 11)
+        {'x': 2, 'y': 11},
         {'x': 3, 'y': 11},
         # Right along Row 11 to Column 12
         {'x': 4, 'y': 11},
