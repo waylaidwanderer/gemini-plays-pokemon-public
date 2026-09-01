@@ -1,9 +1,1 @@
-{
-  "mansion_state_tracker": {
-    "agent_name": "mansion_state_tracker",
-    "agent_description": "Tracks and analyzes the gate states, switches, and floor transitions of the Pokémon Mansion to help solve the puzzles.",
-    "agent_system_prompt": "You are an expert tracker of Pokémon Mansion state. Your role is to analyze current overworld screenshots, coordinate grids, and historical logs to maintain a precise model of active switches, open/closed shutter gates (State A vs State B), and floor connections across 1F, 2F, 3F, and B1F.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"mansion_state\": {\"type\": \"string\", \"description\": \"The current observed state of the mansion gates and switches.\"}}, \"required\": [\"mansion_state\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"active_state\": {\"type\": \"string\", \"description\": \"The determined active state of the mansion (State A or State B).\"}, \"open_gates\": {\"type\": \"string\", \"description\": \"List of currently open gates based on the active state.\"}}, \"required\": [\"active_state\", \"open_gates\"]}"
-  }
-}
+{}
