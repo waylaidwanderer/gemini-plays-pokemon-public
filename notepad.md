@@ -2641,13 +2641,15 @@
 
 ## Floor 1F Puzzle System
 
-### Proposed Routing Plan (Under Empirical Test)
-- **Boulder 1 Candidate Route:**
-  1. Boulder 1 starts at (5, 15).
-  2. Push South from (5, 14) to (5, 16).
-  3. Push East along row 16 to (9, 16) - Note: Avoid stepping onto row 17 exit warp tiles (8..9, 17).
-  4. Test methods to elevate Boulder 1 onto row 14 or route towards eastern chamber.
-  5. Position boulder to test depression of Switch Plate at (17, 13).
+### Verified Solution for 1F Switch (17, 13)
+- (15, 13), (17, 14), (18, 13) are solid rock walls.
+- The ONLY open approach to Switch Plate (17, 13) is from the North at (17, 12).
+- Sequence:
+  1. From (16, 14), push Boulder North to (16, 12).
+  2. Walk around via (14, 14) -> (14, 12) -> (15, 12).
+  3. From (15, 12), push Boulder East to (17, 12).
+  4. Walk around via (15, 11) -> (17, 11).
+  5. From (17, 11), push Boulder South onto Switch Plate (17, 13)!
 
 ### Empirically Verified Observations (Floor 1F)
 - Exit Warp Boundary: (8, 17) and (9, 17) immediately exit to Route 23 and reset all boulders.
