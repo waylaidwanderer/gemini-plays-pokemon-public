@@ -1343,7 +1343,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Mewtwo Statue Switches
 - **2F West Switches:**
   - **Mewtwo Statue Switch at (2, 11):** Fully active! Toggled by standing at `(2, 12)` facing UP (verified on Turn 71729). This is the ONLY active switch on 2F!
-  - Toggling this switch alternates the Mansion between **State A** and **State B**.
+  
 
 ## State A vs State B Gate Configurations (Verified Turn 70924)
 - **State B (Default):**
