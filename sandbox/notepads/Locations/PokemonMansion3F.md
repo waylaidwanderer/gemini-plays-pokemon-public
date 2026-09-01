@@ -42,7 +42,7 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 ### Path 2: The Pitfall Route (State A)
 1. Set Mansion to **State A** on 3F West.
 2. Walk to 3F East via Row 2 (open in State A).
-3. Walk to the pitfall at `(26, 4)` and step onto it to fall to 1F East.
+3. Walk to the pitfall at `(26, 3)` on 3F East and step onto it to fall to `(26, 4)` on 2F East (Southeast fenced area).
 4. Walk out of the 1F East fenced room via the open gate at `(25, 13)` (open in State A).
 5. Walk through Row 6 to 1F West (Wait! Column 9 Row 6 partition is closed in State A).
 6. Let's find how to toggle to State B from 1F/2F!
