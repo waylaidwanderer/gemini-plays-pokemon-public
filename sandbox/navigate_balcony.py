@@ -21,25 +21,32 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (21, 7).
-# Goal: reach (19, 18) and drop to B1F West.
+# Starting at (21, 15).
+# Walk to (2, 6) facing the switch at (2, 5).
 
 path = [
-    ("Left", 2),    # (21, 7) -> (19, 7)
-    ("Down", 4),    # (19, 7) -> (19, 11)
-    ("Right", 2),   # (19, 11) -> (21, 11)
-    ("Down", 7),    # (21, 11) -> (21, 18)
-    ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
+    ("Up", 4),      # (21, 15) -> (21, 11)
+    ("Left", 9),    # (21, 11) -> (12, 11)
+    ("Up", 5),      # (12, 11) -> (12, 6)
+    ("Left", 10)    # (12, 6) -> (2, 6)
 ]
 
-print("Starting direct balcony drop navigation route...")
+print("Walking to the 3F West switch at (2, 5)...")
 success = walk_path(path)
 if success:
-    print("Drop executed successfully! Checking current location:")
-    time.sleep(1.0) # wait for map transition / screen load
+    print("Reached (2, 6) successfully! Turning UP to face the switch...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    # Toggle switch with 4 A-presses and check dialogue
+    for i in range(1, 5):
+        print(f"Pressing A ({i}/4)...")
+        mgba.press_buttons(["A"])
+        time.sleep(0.5)
+        shot = mgba.take_screenshot()
+        print(f"Screenshot saved: {shot}")
+        
+    print("Switch toggle complete. Checking coordinates:")
     print(mgba.get_coordinates())
-    mgba.take_screenshot()
 else:
-    print("Navigation interrupted or blocked. Current coordinates:")
-    print(mgba.get_coordinates())
-    mgba.take_screenshot()
+    print("Failed to reach (2, 6).")
