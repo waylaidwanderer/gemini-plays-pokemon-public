@@ -2632,6 +2632,8 @@
 
 - Obstacle Note: Tile (3, 14) is a rock obstacle. Bypass west via row 15: (4, 14) -> (4, 15) -> (1, 15) -> (1, 10..14).
 - Corridor Note: Tile (1, 10..11) is elevated rock wall. Open northward corridor runs along columns 2-3: (2, 12) -> (2, 11) -> (3, 11) -> (3, 8..10) -> (4..6, 8) into northern sector. Boulder 2 sits at (2, 10).
+- Eastern Cul-de-Sac: (13..21, 10) is a solid rock wall blocking northward passage from the eastern switch chamber.
+- Traversal route to 2F: From eastern switch chamber, walk West along row 14 to (4, 14) -> (4, 15) -> (1, 15) -> North along western corridor (cols 1-3) -> central plateau ramp (5, 12) / northern passage past lowered shutters to ladder (17, 1)!
 
 <hr>
 
