@@ -8,16 +8,10 @@ def press(button, count=1):
         pos = mgba.get_coordinates()
         print(f"Pressed {button}. Position is now {pos}")
 
-# First dismiss the battle textbox
-print("Dismissing battle screen...")
-mgba.press_buttons(["B"])
-time.sleep(1.0)
-
 print("Current coordinates:", mgba.get_coordinates())
 
-# 1. Walk from (12, 7) to (3, 11)
+# 1. Walk from (12, 11) to (3, 11)
 print("Walking to (3, 11)...")
-press("Down", 4)   # (12, 7) -> (12, 11)
 press("Left", 9)   # (12, 11) -> (3, 11)
 
 # Verify we reached (3, 11)
