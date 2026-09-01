@@ -2676,13 +2676,14 @@
 - Spawn Ladder from 1F: (0, 8)
 - Boulder 1: Located at (5, 5)
 - Shutter 1: Located at (5, 10) (3 purple horizontal bars)
-- Switch Plates: To be located.
+- Switch Plate 1: Located at (9, 11) (circular red/yellow plate)
+- Juggler / Trainer: Located at (12, 9) facing Left
+
 ### Floor 2F Push Session Log
 - Turn 22565: Arrived on 2F from 1F ladder. Strength field move activated.
 - Turn 22583: Pushed Boulder 1 North from (5, 5) to (5, 4).
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
-- Turn 22628: Pushed Boulder 2 South from (2, 10) down column 2 into row 12/13.
 
 <hr>
 
