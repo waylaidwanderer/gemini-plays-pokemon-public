@@ -29,6 +29,11 @@ path_to_test = [
     {'x': 10, 'y': 16}
 ]
 
+curr = mgba.get_coordinates()
+if curr in path_to_test:
+    idx = path_to_test.index(curr)
+    path_to_test = path_to_test[idx+1:]
+
 print("Walking to (10, 16)...")
 for target in path_to_test:
     curr = mgba.get_coordinates()
@@ -40,6 +45,9 @@ for target in path_to_test:
     elif dx == -1: pdir = "Left"
     elif dy == 1: pdir = "Down"
     elif dy == -1: pdir = "Up"
+    else:
+        print(f"Skipping disjoint target: {target}")
+        continue
     res = step(pdir)
     if res != target:
         print(f"Failed to reach {target}, at {res}")
