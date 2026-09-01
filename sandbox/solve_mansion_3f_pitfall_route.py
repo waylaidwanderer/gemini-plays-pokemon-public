@@ -100,15 +100,15 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Perfect State B route to 3F East pitfall (26, 3) from current (18, 6)
+# Absolute open route in State B starting from current position (17, 7)
 route_to_pitfall = [
-    # 1. Walk LEFT to Column 17
-    {'x': 17, 'y': 6},
-    # 2. Walk UP Column 17 to Row 4
-    {'x': 17, 'y': 5},
-    {'x': 17, 'y': 4},
-    # 3. Walk RIGHT along Row 4 to Column 21
+    # 1. Walk RIGHT to Column 18
+    {'x': 18, 'y': 7},
+    # 2. Walk UP Column 18 to Row 4
+    {'x': 18, 'y': 6},
+    {'x': 18, 'y': 5},
     {'x': 18, 'y': 4},
+    # 3. Walk RIGHT along Row 4 to Column 21
     {'x': 19, 'y': 4},
     {'x': 20, 'y': 4},
     {'x': 21, 'y': 4},
@@ -122,7 +122,7 @@ route_to_pitfall = [
     {'x': 26, 'y': 3} # pitfall tile!
 ]
 
-print("Walking State B route to 3F East pitfall starting from (18, 6)...")
+print("Walking perfect State B route to 3F East pitfall starting from (17, 7)...")
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_pitfall):
