@@ -100,64 +100,116 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route in State A from current position (21, 4) to the balcony drop (19, 18) via Column 17
-route_to_balcony = [
-    # Walk LEFT to Column 18
-    {'x': 20, 'y': 4},
-    {'x': 19, 'y': 4},
-    {'x': 18, 'y': 4},
-    # Walk DOWN to Row 6 on Column 18 (bypassing Row 5 gate on Column 17)
-    {'x': 18, 'y': 5},
-    {'x': 18, 'y': 6},
-    # Walk LEFT to Column 17
-    {'x': 17, 'y': 6},
-    # Walk DOWN Column 17 to Row 12
-    {'x': 17, 'y': 7},
-    {'x': 17, 'y': 8},
-    {'x': 17, 'y': 9},
-    {'x': 17, 'y': 10},
+# 1. Route from (21, 15) back to 3F West (2, 12)
+route_to_switch = [
+    {'x': 21, 'y': 14},
+    {'x': 21, 'y': 13},
+    {'x': 21, 'y': 12},
+    {'x': 20, 'y': 12},
+    {'x': 19, 'y': 12},
+    {'x': 18, 'y': 12},
+    {'x': 18, 'y': 11},
     {'x': 17, 'y': 11},
-    {'x': 17, 'y': 12},
-    # Walk LEFT along Row 12 to Column 12
-    {'x': 16, 'y': 12},
-    {'x': 15, 'y': 12},
-    {'x': 14, 'y': 12},
-    {'x': 13, 'y': 12},
-    {'x': 12, 'y': 12},
-    # Walk DOWN Column 12 to Row 16
-    {'x': 12, 'y': 13},
-    {'x': 12, 'y': 14},
-    {'x': 12, 'y': 15},
-    {'x': 12, 'y': 16},
-    # Walk RIGHT along Row 16 to Column 21
-    {'x': 13, 'y': 16},
-    {'x': 14, 'y': 16},
-    {'x': 15, 'y': 16},
-    {'x': 16, 'y': 16},
-    {'x': 17, 'y': 16},
-    {'x': 18, 'y': 16},
-    {'x': 19, 'y': 16},
-    {'x': 20, 'y': 16},
-    {'x': 21, 'y': 16}, # open balcony gate in State A!
-    # Walk DOWN past open gate to Row 18
-    {'x': 21, 'y': 17},
-    {'x': 21, 'y': 18},
-    # Walk LEFT along Row 18 to Column 19
-    {'x': 20, 'y': 18},
-    {'x': 19, 'y': 18} # drop tile
+    # Column 17 up to Row 3
+    {'x': 17, 'y': 10},
+    {'x': 17, 'y': 9},
+    {'x': 17, 'y': 8},
+    {'x': 17, 'y': 7},
+    {'x': 17, 'y': 6},
+    {'x': 17, 'y': 5},
+    {'x': 17, 'y': 4},
+    {'x': 17, 'y': 3},
+    # Row 3 left to Column 10
+    {'x': 16, 'y': 3},
+    {'x': 15, 'y': 3},
+    {'x': 14, 'y': 3},
+    {'x': 13, 'y': 3},
+    {'x': 12, 'y': 3},
+    {'x': 11, 'y': 3},
+    {'x': 10, 'y': 3},
+    # Column 10 down to Row 11
+    {'x': 10, 'y': 4},
+    {'x': 10, 'y': 5},
+    {'x': 10, 'y': 6},
+    {'x': 10, 'y': 7},
+    {'x': 10, 'y': 8},
+    {'x': 10, 'y': 9},
+    {'x': 10, 'y': 10},
+    {'x': 10, 'y': 11},
+    # Row 11 left to Column 2
+    {'x': 9, 'y': 11},
+    {'x': 8, 'y': 11},
+    {'x': 7, 'y': 11},
+    {'x': 6, 'y': 11},
+    {'x': 5, 'y': 11},
+    {'x': 4, 'y': 11},
+    {'x': 3, 'y': 11},
+    {'x': 2, 'y': 11},
+    {'x': 2, 'y': 12}
 ]
 
-print("Walking State A route to balcony from (21, 4) via Column 17...")
-print("Current position:", mgba.get_coordinates())
-
-if walk_route(route_to_balcony):
-    print("Successfully reached balcony drop tile (19, 18)!")
-    print("Performing drop step...")
-    # Step down to drop
-    mgba.press_buttons(["Down"])
-    time.sleep(3.0) # wait generously for drop transition and B1F West fade-in
-    print("Final coordinates after drop:", mgba.get_coordinates())
-    mgba.take_screenshot()
+print("Walking back to 3F West switch from (21, 15)...")
+if walk_route(route_to_switch):
+    print("Successfully reached switch tile (2, 12)!")
+    print("Toggling switch...")
+    # Stand at (2, 12) and press UP to interact with switch at (2, 11)
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    # Perform switch dialogue: 4 A presses with 1.5s delays
+    for i in range(4):
+        print(f"Pressing A ({i+1}/4)...")
+        mgba.press_buttons(["A"])
+        time.sleep(1.5)
+    
+    print("Switch toggled. Walking State A route to balcony...")
+    # State A route from (2, 12) to (19, 18)
+    route_state_a = [
+        {'x': 2, 'y': 11}, # wait, standing at (2, 12), step up is (2, 11)
+        {'x': 3, 'y': 11},
+        # Right along Row 11 to Column 12
+        {'x': 4, 'y': 11},
+        {'x': 5, 'y': 11},
+        {'x': 6, 'y': 11},
+        {'x': 7, 'y': 11},
+        {'x': 8, 'y': 11},
+        {'x': 9, 'y': 11},
+        {'x': 10, 'y': 11},
+        {'x': 11, 'y': 11},
+        {'x': 12, 'y': 11},
+        # Down Column 12 to Row 16
+        {'x': 12, 'y': 12},
+        {'x': 12, 'y': 13},
+        {'x': 12, 'y': 14},
+        {'x': 12, 'y': 15},
+        {'x': 12, 'y': 16},
+        # Right along Row 16 to Column 21
+        {'x': 13, 'y': 16},
+        {'x': 14, 'y': 16},
+        {'x': 15, 'y': 16},
+        {'x': 16, 'y': 16},
+        {'x': 17, 'y': 16},
+        {'x': 18, 'y': 16},
+        {'x': 19, 'y': 16},
+        {'x': 20, 'y': 16},
+        {'x': 21, 'y': 16}, # open in State A!
+        # Down to Row 18
+        {'x': 21, 'y': 17},
+        {'x': 21, 'y': 18},
+        # Left along Row 18 to Column 19
+        {'x': 20, 'y': 18},
+        {'x': 19, 'y': 18} # drop tile
+    ]
+    
+    if walk_route(route_state_a):
+        print("Reached balcony drop tile (19, 18)!")
+        print("Performing drop step...")
+        mgba.press_buttons(["Down"])
+        time.sleep(3.0)
+        print("Final coordinates after drop:", mgba.get_coordinates())
+        mgba.take_screenshot()
+    else:
+        print("Failed to navigate to balcony in State A.")
+        mgba.take_screenshot()
 else:
-    print("Failed to reach balcony drop tile.")
+    print("Failed to reach switch on 3F West.")
     mgba.take_screenshot()
