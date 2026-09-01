@@ -21,11 +21,19 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (17, 6).
-# Goal: reach (19, 18) and drop to B1F West.
+# Starting at (18, 4).
+# 1. Walk to the active switch at (2, 5) via Row 6
+path_to_switch = [
+    ("Down", 2),    # (18, 4) -> (18, 6)
+    ("Left", 16)    # (18, 6) -> (2, 6)
+]
 
-path = [
-    ("Right", 1),   # (17, 6) -> (18, 6)
+# 2. Walk from (2, 6) to (19, 18) in State A
+path_to_balcony = [
+    ("Down", 5),    # (2, 6) -> (2, 11)
+    ("Right", 10),  # (2, 11) -> (12, 11)
+    ("Up", 5),      # (12, 11) -> (12, 6)
+    ("Right", 6),   # (12, 6) -> (18, 6)
     ("Up", 3),      # (18, 6) -> (18, 3)
     ("Right", 7),   # (18, 3) -> (25, 3)
     ("Down", 9),    # (25, 3) -> (25, 12)
@@ -36,14 +44,28 @@ path = [
     ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
 ]
 
-print("Starting balcony navigation route...")
-success = walk_path(path)
-if success:
-    print("Drop executed successfully! Checking current location:")
-    time.sleep(1.0) # wait for map transition / screen load
-    print(mgba.get_coordinates())
-    mgba.take_screenshot()
+print("Starting complete balcony drop solution sequence...")
+if walk_path(path_to_switch):
+    print("Reached (2, 6) successfully! Toggling switch...")
+    mgba.press_buttons(["Up"])
+    time.sleep(0.35)
+    
+    # 4 A-presses to toggle
+    for i in range(1, 5):
+        print(f"A-press {i}...")
+        mgba.press_buttons(["A"])
+        time.sleep(0.5)
+        
+    print("Switch toggled to State A! Navigating to balcony...")
+    success = walk_path(path_to_balcony)
+    if success:
+        print("Drop executed successfully! Checking current location:")
+        time.sleep(1.0) # wait for map transition / screen load
+        print(mgba.get_coordinates())
+        mgba.take_screenshot()
+    else:
+        print("Interrupted during balcony path. Current coordinates:")
+        print(mgba.get_coordinates())
+        mgba.take_screenshot()
 else:
-    print("Navigation interrupted or blocked. Current coordinates:")
-    print(mgba.get_coordinates())
-    mgba.take_screenshot()
+    print("Failed to reach the switch.")
