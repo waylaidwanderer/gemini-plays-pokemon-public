@@ -2669,8 +2669,6 @@
 - Shutters Observed: (5, 13), (7, 7), and (15, 7) have purple horizontal shutter graphics.
 - Upper Plateau: Middle plateau (rows 9-12, cols 5-7) is accessible from (5, 12). Cooltrainer stands at (7, 5).
 
-## Floor 2F & 3F Puzzle Tracking
-- To be mapped upon arrival on 2F.
 ## Floor 2F Puzzle System
 
 ### Baseline Observations (Floor 2F)
