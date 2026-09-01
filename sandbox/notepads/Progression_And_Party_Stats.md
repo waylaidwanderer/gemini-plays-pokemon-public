@@ -2,9 +2,9 @@
 - **SHELLBY** (Blastoise) - Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
 
 ## Badge Status & Gym Clearances (Verified Ground Truth - Turn 65791)
-- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh). Cinnabar and Viridian Gyms remaining.
-- **Volcano Badge (Cinnabar Gym):** NOT acquired yet. Blaine is undefeated. We need to travel to Cinnabar Island to defeat him.
-- **Earth Badge (Viridian Gym):** NOT acquired yet. Locked (needs 7 Badges).
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Only Viridian Gym (Giovanni) remaining.
+- **Volcano Badge (Cinnabar Gym):** ACQUIRED (verified on Turn 70673). Gym Leader Blaine is defeated.
+- **Earth Badge (Viridian Gym):** NOT acquired yet. Unlocked (we have 7 Badges).
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
