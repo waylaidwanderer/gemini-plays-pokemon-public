@@ -49,3 +49,7 @@
   3. Pushed Boulder 2 South down column 3 to (3, 16).
   4. Pushed Boulder 2 West along row 16 onto Switch Plate (1, 16) [CONFIRMED Turn 22814]!
   5. Shutter at (5, 10) is OPEN! Passage to eastern chamber and 3F ladder unlocked!
+## Floor 2F Eastern Sector Hypotheses & Protocol
+- Objective: Locate ground access to Boulder 3 at (18, 9) and test pushing onto Switch Plate (9, 11) / (9, 16) to open Shutters 2 (15, 15) and 3 (21, 15).
+- Test Path: Column 14 (rows 8-12) is verified open blue floor. Testing (14, 8) -> (15, 8) -> (16, 8) east connection to upper plateau.
+- Empirical Rule: Every step along unmapped rows/columns must be verified via coordinate check before full sequences are issued.
