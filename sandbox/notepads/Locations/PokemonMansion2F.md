@@ -34,3 +34,13 @@
 ## Southwest Staircase Warp Connections
 - **Staircase (5, 10) on 2F West:** Warps UP to 3F West, landing at `(5, 11)` on 3F West.
 - **Staircase (7, 10) on 2F West:** Warps DOWN to 1F West, landing at `(7, 11)` on 1F West.
+
+## Empirical Gate Observations (Verified Turn 71043 / 71052)
+- **State B (Default):**
+  - Shutter gate at `(5, 9)` on Column 5 is CLOSED, blocking the stairs UP at `(5, 10)`.
+  - Shutter gates on Row 11 (Columns 5, 6, 7) are OPEN, allowing horizontal passage between 2F West and 2F East.
+- **State A:**
+  - Shutter gate at `(5, 9)` on Column 5 is OPEN, unblocking the stairs UP at `(5, 10)`.
+  - Shutter gates on Row 11 (Columns 5, 6, 7) are CLOSED, blocking horizontal passage along Row 11.
+  - Horizontal passage on the north side of 2F between East and West is completely open along Row 2! Column 9 Row 2 is a pink checkered floor with no wall.
+  - Row 6 Column 4 and Row 7 Column 4 on 2F West are blocked by solid window frames, so Row 8 is the primary horizontal corridor to cross Column 4 on the north side of 2F West.
