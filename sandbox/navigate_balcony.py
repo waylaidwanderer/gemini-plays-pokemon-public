@@ -10,9 +10,9 @@ def press(button, count=1):
 
 print("Current coordinates:", mgba.get_coordinates())
 
-# 1. Walk from (12, 11) to (3, 11)
+# 1. Walk from (6, 11) to (3, 11)
 print("Walking to (3, 11)...")
-press("Left", 9)   # (12, 11) -> (3, 11)
+press("Left", 3)   # (6, 11) -> (3, 11)
 
 # Verify we reached (3, 11)
 pos = mgba.get_coordinates()
