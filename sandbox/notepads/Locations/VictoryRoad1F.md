@@ -31,5 +31,5 @@
 - Northern Sector Items:
   - Item Ball at (9, 2)
   - Item Ball at (14, 2)
-- Verified Ladder to 2F: Located at (3, 2) in northwest sector on lower cave floor.
-- Western Ramp from Northern Plateau: Located at (4, 4), connecting elevated floor at (5, 4) down to lower floor at (3, 4).
+- Verified Shutter (7, 7): Lowered/opened by Switch (17, 13), providing direct passage from northern arena (7, 6) onto row 8 lower floor (7, 8).
+- Verified Ladder to 2F: Located at (1, 1) in northwest corner on lower cave floor.
