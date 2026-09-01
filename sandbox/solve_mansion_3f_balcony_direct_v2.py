@@ -102,7 +102,7 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Cleanup redundant nested directory tree at 'notepads/notepads/'
+# Cleanup redundant nested directory tree at 'notepads/notepads/'
 nested_dir = 'notepads/notepads'
 if os.path.exists(nested_dir):
     try:
@@ -111,7 +111,7 @@ if os.path.exists(nested_dir):
     except Exception as e:
         print(f"Failed to remove redundant nested notepads directory: {e}")
 
-# 2. Cleanup obsolete scripts
+# Cleanup obsolete scripts
 obsolete_files = [
     'go_to_12_3.py',
     'test_column_11_row_16.py',
@@ -127,17 +127,24 @@ for f in obsolete_files:
         except Exception as e:
             print(f"Failed to remove {f}: {e}")
 
-# Perfect State B route on 2F from current (21, 4) to 2F West switch (2, 6) via Row 4
+# Perfect State B route on 2F from current (17, 4) to 2F West switch (2, 6)
 route_to_switch = [
-    {'x': 20, 'y': 4},
-    {'x': 19, 'y': 4},
+    # Walk RIGHT to Column 18
     {'x': 18, 'y': 4},
-    {'x': 17, 'y': 4},
-    {'x': 16, 'y': 4},
-    {'x': 15, 'y': 4},
-    {'x': 14, 'y': 4},
-    {'x': 13, 'y': 4},
+    # Walk DOWN Column 18 to Row 6
+    {'x': 18, 'y': 5},
+    {'x': 18, 'y': 6},
+    # Walk LEFT along Row 6 to Column 12
+    {'x': 17, 'y': 6},
+    {'x': 16, 'y': 6},
+    {'x': 15, 'y': 6}, # open on 2F!
+    {'x': 14, 'y': 6},
+    {'x': 13, 'y': 6},
+    {'x': 12, 'y': 6},
+    # Walk UP Column 12 to Row 4
+    {'x': 12, 'y': 5},
     {'x': 12, 'y': 4},
+    # Walk LEFT along Row 4 to Column 2
     {'x': 11, 'y': 4},
     {'x': 10, 'y': 4},
     {'x': 9, 'y': 4},
@@ -148,11 +155,12 @@ route_to_switch = [
     {'x': 4, 'y': 4},
     {'x': 3, 'y': 4},
     {'x': 2, 'y': 4},
+    # Walk DOWN Column 2 to Row 6
     {'x': 2, 'y': 5},
     {'x': 2, 'y': 6}
 ]
 
-print("Walking perfect State B route to 2F West switch from (21, 4)...")
+print("Walking perfect State B route to 2F West switch from (17, 4)...")
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_switch):
