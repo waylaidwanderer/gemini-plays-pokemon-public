@@ -9,7 +9,8 @@
 - Boulder 2: Default initial location at (2, 10) between rock walls (1, 10) and (3, 10).
 - Shutter 1: Located at (5, 10) (3 purple horizontal bars) [Observed Turn 22565]
 - Switch Plate 1: Located at (9, 11) (circular red/yellow plate) [Observed Turn 22586]
-- Moltres (Legendary Bird): Located at (11, 5) on elevated plateau [Observed Turn 22580]
+- Moltres (Legendary Bird): Located at (9, 2) on elevated plateau [Observed Turn 22635]
+- Cooltrainer♀ / Trainer: Located at (7, 4) facing South [Observed Turn 22635]
 - Juggler / Trainer: Located at (12, 9) facing Left [Observed Turn 22586]
 - Blackbelt: Located at (3, 2) facing South.
 
