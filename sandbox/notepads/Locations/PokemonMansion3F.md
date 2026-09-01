@@ -47,3 +47,16 @@
 - **Column 25 Row 13 Shutter Gate:** OPEN in State A (pink checkered floor), CLOSED and blocked in State B.
 - **Column 21 Row 17 Shutter Gate (Balcony):** OPEN in State A, CLOSED and blocked in State B.
 - **The Only Valid Route to Balcony (State A):** Walk DOWN Column 26 to Row 12, LEFT Row 12 to Column 24, DOWN Column 24 to Row 16, LEFT Row 16 to Column 21, DOWN Column 21 past the open gate at (21, 17) to Row 18, LEFT Row 18 to Column 19 (balcony drop), and drop!
+
+## Verified Layout & Obstacle Mapping (Turn 70613)
+- **Obstacle at (12, 13):** Column 12 is blocked at Row 13 by a solid wall/cabinet structure.
+- **Closed Gate at (14, 7) and (15, 7) in State A:** Closed shutter gates block vertical travel down Columns 14 and 15 in State A. These gates are OPEN in State B!
+- **Rubble Block at (22, 12) and (23, 12):** Solid rubble permanently blocks horizontal travel along Row 12 between Columns 21 and 24.
+- **Column 17 Vertical Pathway:** Completely open and walkable vertically from Row 3 to Row 12. No shutter gates block Column 17 on Row 7!
+- **Row 16 and Column 12 Connection:** Completely open and gate-free in both State A and State B. Row 16 connects Column 12 to Column 21. Column 12 connects Row 11 to Row 16!
+- **True Balcony Drop Solution:**
+  1. Toggle Mansion to State B on 3F West.
+  2. Walk to 3F East via Row 3, go down Column 14/15/17 (open in State B) to Row 16, and walk to (21, 16).
+  3. Walk back to 3F West via Row 16 (open in State B), Column 12 (open in State B), Row 11, and stand at (3, 11).
+  4. Toggle Mansion to State A. This opens the balcony gate at (21, 17)!
+  5. Walk from (3, 11) to the balcony in State A: Right along Row 11 to Column 12, DOWN Column 12 to Row 16, RIGHT along Row 16 to (21, 16), and DOWN past the open gate at (21, 17) to Row 18, Left to Column 19, and drop!
