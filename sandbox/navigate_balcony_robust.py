@@ -23,7 +23,7 @@ def escape_battle():
     time.sleep(1.5)
 
 def move_to(target_x, target_y):
-    # Attempt to move to an adjacent target tile. Handles battles.
+    # Attempt to move to an adjacent target tile. Handles battles and recalculations.
     for attempt in range(3):
         curr = mgba.get_coordinates()
         if curr == {'x': target_x, 'y': target_y}:
@@ -33,15 +33,27 @@ def move_to(target_x, target_y):
         dy = target_y - curr['y']
         
         if abs(dx) + abs(dy) != 1:
-            print(f"Error: Target ({target_x}, {target_y}) is not adjacent to current {curr}")
-            return False
+            print(f"Non-adjacent! Current: {curr}, Target: ({target_x}, {target_y}). Attempting to recover...")
+            # If we are not adjacent, we might have been moved by a battle.
+            # Try to escape battle first in case one is active
+            escape_battle()
+            time.sleep(2.0)
+            curr = mgba.get_coordinates()
+            if curr == {'x': target_x, 'y': target_y}:
+                return True
+            # Recalculate dx, dy
+            dx = target_x - curr['x']
+            dy = target_y - curr['y']
+            if abs(dx) + abs(dy) != 1:
+                print(f"Still non-adjacent after recovery check: {curr}")
+                return False
             
         if dx == 1: direction = "Right"
         elif dx == -1: direction = "Left"
         elif dy == 1: direction = "Down"
         elif dy == -1: direction = "Up"
         
-        print(f"Attempt {attempt+1}: Stepping {direction} from {curr} to ({target_x}, {target_y})...")
+        print(f"Step Attempt {attempt+1}: Stepping {direction} from {curr} to ({target_x}, {target_y})...")
         mgba.press_buttons([direction])
         time.sleep(0.4)
         
@@ -56,8 +68,37 @@ def move_to(target_x, target_y):
     return False
 
 def walk_route(route_coords):
-    for i in range(len(route_coords)):
-        target = route_coords[i]
+    for target in route_coords:
+        # Dynamic check of adjacency. If we are far from the target, find a way back!
+        curr = mgba.get_coordinates()
+        if curr == target:
+            continue
+        
+        # If we got misaligned, recalculate the local path to target!
+        # Since target is on our highway, we can easily go UP to Row 2, then to target's column, then DOWN to target!
+        dx = target['x'] - curr['x']
+        dy = target['y'] - curr['y']
+        if abs(dx) + abs(dy) != 1:
+            print(f"Misalignment detected! Current: {curr}, Target: {target}. Recalculating via Row 2 highway...")
+            # Generate highway route to target:
+            highway_recovery = []
+            # 1. UP to Row 2
+            for y in range(curr['y'] - 1, 1, -1):
+                highway_recovery.append({'x': curr['x'], 'y': y})
+            # 2. Horizontal to target's column on Row 2
+            step_x = 1 if target['x'] > curr['x'] else -1
+            for x in range(curr['x'] + step_x, target['x'] + step_x, step_x):
+                highway_recovery.append({'x': x, 'y': 2})
+            # 3. DOWN to target's row
+            for y in range(3, target['y'] + 1):
+                highway_recovery.append({'x': target['x'], 'y': y})
+                
+            print(f"Recovery route: {highway_recovery}")
+            if not walk_route(highway_recovery):
+                print("Highway recovery failed.")
+                return False
+                
+        # Now we are adjacent (or at target), execute the step
         curr = mgba.get_coordinates()
         if curr == target:
             continue
@@ -67,10 +108,11 @@ def walk_route(route_coords):
         print(f"Successfully reached {target}")
     return True
 
-# 1. Route to switch at (2, 6) from (8, 7)
+# 1. Target switch route from current (5, 3)
+# We can walk: (5, 3) -> (5, 2) -> (2, 2) -> (2, 6)
 route_to_switch = [
-    {'x': 8, 'y': 6}, {'x': 8, 'y': 5}, {'x': 8, 'y': 4}, {'x': 8, 'y': 3}, {'x': 8, 'y': 2},
-    {'x': 7, 'y': 2}, {'x': 6, 'y': 2}, {'x': 5, 'y': 2}, {'x': 4, 'y': 2}, {'x': 3, 'y': 2}, {'x': 2, 'y': 2},
+    {'x': 5, 'y': 2},
+    {'x': 4, 'y': 2}, {'x': 3, 'y': 2}, {'x': 2, 'y': 2},
     {'x': 2, 'y': 3}, {'x': 2, 'y': 4}, {'x': 2, 'y': 5}, {'x': 2, 'y': 6}
 ]
 
@@ -90,10 +132,10 @@ route_to_balcony = [
     {'x': 20, 'y': 18}, {'x': 19, 'y': 18}
 ]
 
-print("Starting robust overworld traversal to balcony drop...")
+print("Starting ultra-robust overworld traversal to balcony drop...")
 print("Current Position:", mgba.get_coordinates())
 
-print("Step 1: Walking to the Mewtwo Statue Switch at (2, 5) from (8, 7)...")
+print("Step 1: Walking to the Mewtwo Statue Switch at (2, 5) from current position...")
 if walk_route(route_to_switch):
     print("Reached (2, 6) successfully! Facing UP to face the switch...")
     mgba.press_buttons(["Up"])
@@ -118,16 +160,11 @@ if walk_route(route_to_switch):
                 print("Executed balcony drop successfully!")
                 time.sleep(2.0) # wait for drop transition
                 print("Final landing position on B1F West:", mgba.get_coordinates())
-                mgba.take_screenshot()
             else:
                 print("Interrupted on 3F route to balcony.")
-                mgba.take_screenshot()
         else:
             print("Landing position is not (5, 11). Current position:", pos)
-            mgba.take_screenshot()
     else:
         print("Failed to reach 2F stairs.")
-        mgba.take_screenshot()
 else:
     print("Failed to reach 2F switch.")
-    mgba.take_screenshot()
