@@ -100,14 +100,23 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (14, 3) to the balcony (19, 18)
+# Route from current position (14, 3) to the balcony (19, 18) via Row 6 and Column 19
 route_to_balcony = [
-    # Walk RIGHT along Row 3 to Column 26
-    {'x': 15, 'y': 3},
-    {'x': 16, 'y': 3},
-    {'x': 17, 'y': 3},
-    {'x': 18, 'y': 3},
+    # Walk DOWN Column 14 to Row 6
+    {'x': 14, 'y': 4},
+    {'x': 14, 'y': 5},
+    {'x': 14, 'y': 6},
+    # Walk RIGHT along Row 6 to Column 19
+    {'x': 15, 'y': 6},
+    {'x': 16, 'y': 6},
+    {'x': 17, 'y': 6},
+    {'x': 18, 'y': 6},
+    {'x': 19, 'y': 6},
+    # Walk UP Column 19 to Row 3
+    {'x': 19, 'y': 5},
+    {'x': 19, 'y': 4},
     {'x': 19, 'y': 3},
+    # Walk RIGHT along Row 3 to Column 26
     {'x': 20, 'y': 3},
     {'x': 21, 'y': 3},
     {'x': 22, 'y': 3},
@@ -145,7 +154,7 @@ route_to_balcony = [
     {'x': 19, 'y': 18}
 ]
 
-print("Starting robust balcony navigation Part 2 from (14, 3)...")
+print("Starting robust balcony navigation Part 2 from (14, 3) using Row 6/Column 19 bypass...")
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_balcony):
