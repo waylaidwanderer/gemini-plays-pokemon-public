@@ -100,8 +100,9 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Walk from (21, 7) to Mewtwo switch stand position (3, 11) on 3F West
+# 1. Walk from current position (22, 7) to Mewtwo switch stand position (3, 11) on 3F West
 route_to_switch = [
+    {'x': 21, 'y': 7},
     {'x': 21, 'y': 6},
     # Left along Row 6
     {'x': 20, 'y': 6},
