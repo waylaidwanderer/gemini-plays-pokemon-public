@@ -51,11 +51,17 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (21, 15).
+print("Dismissing the current 'Got away safely' battle screen...")
+mgba.press_buttons(["B"])
+time.sleep(1.5) # wait for overworld screen fade-in
+
+current_pos = mgba.get_coordinates()
+print("Current position after escape:", current_pos)
+
+# Starting at (17, 11).
 # 1. Walk to the switch at (3, 11) in State B
 path_to_switch = [
-    ("Up", 4),      # (21, 15) -> (21, 11)
-    ("Left", 9),    # (21, 11) -> (12, 11)
+    ("Left", 5),     # (17, 11) -> (12, 11)
     ("Up", 5),      # (12, 11) -> (12, 6)
     ("Left", 2),    # (12, 6) -> (10, 6)
     ("Down", 5),    # (10, 6) -> (10, 11)
