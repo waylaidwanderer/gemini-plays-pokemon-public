@@ -1,4 +1,4 @@
-# Pokémon Mansion 2F - Map & Navigation Log
+# Pokmon Mansion 2F - Map & Navigation Log
 
 ## Physical Layout & Barriers (State-Dependent)
 - **Column 10 Rubble & Gates (State B):**
@@ -17,8 +17,8 @@
   - The stairs at (7, 10) on 2F West warp the player DOWN to 1F West, landing at (7, 11) on 1F.
 
 ## Mewtwo Statue Switches
-- **2F East/Middle Switches:**
-  - **Mewtwo Statue Switch at (13, 9):** Fully active! Toggled by standing at `(12, 9)` facing RIGHT (verified on Turn 70917 and 70923). This is the ONLY active switch on 2F!
+- **2F West Switches:**
+  - **Mewtwo Statue Switch at (2, 5):** Fully active! Toggled by standing at `(2, 6)` facing UP (verified on Turn 71035). This is the ONLY active switch on 2F!
   - Toggling this switch alternates the Mansion between **State A** and **State B**.
 
 ## State A vs State B Gate Configurations (Verified Turn 70924)
