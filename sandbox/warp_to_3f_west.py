@@ -25,14 +25,14 @@ def escape_battle():
 def step(direction):
     current = mgba.get_coordinates()
     mgba.press_buttons([direction])
-    time.sleep(0.4)
+    time.sleep(0.5)
     next_pos = mgba.get_coordinates()
     if next_pos == current:
         print(f"Blocked at {current}. Attempting battle escape...")
         escape_battle()
         time.sleep(2.0)
         mgba.press_buttons([direction])
-        time.sleep(0.4)
+        time.sleep(0.5)
         next_pos = mgba.get_coordinates()
     return next_pos
 
@@ -43,34 +43,66 @@ def walk_route(route_coords):
             continue
         dx = target['x'] - curr['x']
         dy = target['y'] - curr['y']
-        if abs(dx) + abs(dy) != 1:
-            print(f"Error: Target {target} is not adjacent to current {curr}")
-            return False
         
-        if dx == 1: direction = "Right"
-        elif dx == -1: direction = "Left"
-        elif dy == 1: direction = "Down"
-        elif dy == -1: direction = "Up"
-        
-        res = step(direction)
-        if res != target:
-            print(f"Failed to reach target {target}. Position: {res}")
+        if abs(dx) + abs(dy) == 1:
+            if dx == 1: direction = "Right"
+            elif dx == -1: direction = "Left"
+            elif dy == 1: direction = "Down"
+            elif dy == -1: direction = "Up"
+            
+            res = step(direction)
+            if res != target:
+                print(f"Failed to reach target {target}. Position: {res}")
+                return False
+            print(f"Reached {target}")
+        else:
+            print(f"Non-adjacent target {target} from {curr}")
             return False
-        print(f"Reached {target}")
     return True
 
-# Route from current (2, 10) on 2F West to stairs at (5, 10) to warp UP
-route_to_warp = [
-    {'x': 2, 'y': 11}, # DOWN
-    {'x': 3, 'y': 11}, {'x': 4, 'y': 11}, {'x': 5, 'y': 11}, # RIGHT along Row 11
-    {'x': 5, 'y': 10} # UP onto stairs (warp)
+# 1. Walk from current position (4, 11) on 2F West to (5, 10) to warp UP
+route_to_stairs = [
+    {'x': 5, 'y': 11},
+    {'x': 5, 'y': 10} # stairs
 ]
 
-print("Executing walk from (2, 10) to (5, 10) to warp UP to 3F...")
-if walk_route(route_to_warp):
-    print("Warping UP to 3F West...")
-    time.sleep(2.0)
-    print("Coordinates after warp UP:", mgba.get_coordinates())
+print("1. Walking to stairs (5, 10) on 2F West...")
+if not walk_route(route_to_stairs):
+    print("Failed to reach stairs.")
     mgba.take_screenshot()
-else:
-    print("Failed to complete warp route.")
+    exit(1)
+
+print("Warping UP to 3F West...")
+time.sleep(3.0) # wait generously for floor transition fade
+print("Coordinates after warp UP:", mgba.get_coordinates())
+
+# 2. Walk to switch standing position (3, 11) on 3F West
+route_to_switch = [
+    {'x': 4, 'y': 11},
+    {'x': 3, 'y': 11}
+]
+
+print("2. Walking to switch standing position (3, 11) on 3F West...")
+if not walk_route(route_to_switch):
+    print("Failed to reach switch standing position.")
+    mgba.take_screenshot()
+    exit(1)
+
+# Ensure we face LEFT towards switch at (2, 11)
+print("Facing LEFT towards switch at (2, 11)...")
+mgba.press_buttons(["Left"])
+time.sleep(0.5)
+
+# 3. Toggle the switch to State A
+print("Toggling Mewtwo Switch to State A...")
+mgba.press_buttons(["A"]) # "A secret switch!"
+time.sleep(1.5)
+mgba.press_buttons(["A"]) # "Press it?" YES/NO
+time.sleep(1.5)
+mgba.press_buttons(["A"]) # Confirm YES
+time.sleep(1.5)
+mgba.press_buttons(["A"]) # "Who wouldn't?" (Closes dialogue)
+time.sleep(2.0)
+
+print("Mansion is now globally in STATE A!")
+mgba.take_screenshot()
