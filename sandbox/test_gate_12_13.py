@@ -60,18 +60,17 @@ def walk_route(route_coords):
             return False
     return True
 
-# Route from (10, 17) to (12, 12)
+# Route from (10, 13) to (12, 12)
 route = [
-    {'x': 10, 'y': 16},
-    {'x': 10, 'y': 15},
-    {'x': 10, 'y': 14},
-    {'x': 10, 'y': 13},
     {'x': 10, 'y': 12},
     {'x': 11, 'y': 12},
     {'x': 12, 'y': 12}
 ]
 
-print("Walking to (12, 12)...")
+print("Escaping active battle and walking to (12, 12)...")
+escape_battle()
+print("Position after escape:", mgba.get_coordinates())
+
 if walk_route(route):
     print("Reached (12, 12) successfully. Testing (12, 13)...")
     pos = step("Down")
