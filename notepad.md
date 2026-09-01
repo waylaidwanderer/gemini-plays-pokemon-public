@@ -2633,15 +2633,16 @@
 - Obstacle Note: Tile (3, 14) is a rock obstacle. Bypass west via row 15: (4, 14) -> (4, 15) -> (1, 15) -> (1, 10..14).
 - Corridor Note: Tile (1, 10..11) is elevated rock wall. Open northward corridor runs along columns 2-3: (2, 12) -> (2, 11) -> (3, 11) -> (3, 8..10) -> (4..6, 8) into northern sector. Boulder 2 sits at (2, 10).
 - Eastern Cul-de-Sac: (13..21, 10) is a solid rock wall blocking northward passage from the eastern switch chamber.
-- Traversal route to 2F: From eastern switch chamber, walk West along row 14 to (4, 14) -> (4, 15) -> (1, 15) -> North along western corridor (cols 1-3) -> central plateau ramp (5, 12) / northern passage past lowered shutters to ladder (17, 1)!
-- Boulder 2 Chokepoint: (3, 10) is a rock obstacle. Boulder 2 sits at (2, 10) between rock walls (1, 10) and (3, 10). Pushing Boulder 2 North past (2, 10) clears access to row 8/9 northern highway!
-- Shutter (5, 13) Verified: Switch (17, 13) opens Shutter (5, 13), allowing passage from row 14 onto the central elevated plateau (5..7, 9..12).
+- Boulder 2 Chokepoint: (3, 10) is a rock obstacle. Boulder 2 sits at (2, 10) between rock walls (1, 10) and (3, 10).
+- Shutter (5, 13): Allows passage from row 14 onto the central elevated plateau (5..7, 9..12).
 - Elevated Plateau U-Bridge Architecture:
   - West Arm: cols 5..7 (rows 9..12)
-  - South Cross-Bridge: row 12 across cols 5..12 (fully open elevated floor connecting west and east arms!)
-  - East Arm: cols 11..12 across rows 5..12 (connects south cross-bridge to northern plateau!)
+  - South Cross-Bridge: row 12 across cols 5..12 (fully open elevated floor connecting west and east arms)
+  - East Arm: cols 11..12 across rows 5..12 (connects south cross-bridge to northern plateau)
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
-  - Exit to 2F: Northern sector from (11..12, 5) heading to ladder at (17, 1)!
+- Northern Sector Items:
+  - Item Ball at (9, 2)
+  - Item Ball at (14, 2)
 
 <hr>
 
