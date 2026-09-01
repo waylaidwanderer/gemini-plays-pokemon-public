@@ -21,24 +21,16 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (3, 11).
+# Starting at (18, 4).
 # Goal: reach (19, 18) and drop to B1F West.
 
 path = [
-    ("Right", 9),   # (3, 11) -> (12, 11)
-    ("Up", 5),      # (12, 11) -> (12, 6)
-    ("Right", 6),   # (12, 6) -> (18, 6)
-    ("Up", 3),      # (18, 6) -> (18, 3)
-    ("Right", 7),   # (18, 3) -> (25, 3)
-    ("Down", 9),    # (25, 3) -> (25, 12)
-    ("Left", 1),    # (25, 12) -> (24, 12)
-    ("Down", 4),    # (24, 12) -> (24, 16)
-    ("Left", 3),    # (24, 16) -> (21, 16)
-    ("Down", 2),    # (21, 16) -> (21, 18)
+    ("Right", 3),   # (18, 4) -> (21, 4)
+    ("Down", 14),   # (21, 4) -> (21, 18)
     ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
 ]
 
-print("Starting complete balcony drop navigation route...")
+print("Starting direct balcony drop navigation route...")
 success = walk_path(path)
 if success:
     print("Drop executed successfully! Checking current location:")
