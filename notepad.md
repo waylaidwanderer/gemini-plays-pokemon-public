@@ -90,7 +90,7 @@
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall
 6. TERRA (Geodude) - Lv 22
-   - Stats: Max HP 56 (HP: 56/56 - Healthy)
+   - Stats: Max HP 56 (HP: 0/56 - FNT)
    - Type: Rock / Ground
    - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
    - Role: Physical Rock/Ground tank & Dig utility (Slot 6)

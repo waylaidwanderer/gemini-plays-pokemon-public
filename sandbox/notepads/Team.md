@@ -22,7 +22,7 @@
    - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/62 - Healthy)
+   - Stats: Max HP 62 (HP: 0/62 - FNT)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall
