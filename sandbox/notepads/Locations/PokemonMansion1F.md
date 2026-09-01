@@ -9,9 +9,6 @@
 - **Diary at (6, 12):** There is a report/diary on a table at (6, 12).
 - **Column 12 Hedges/Statues:** Column 12 is blocked by hedges and statues on Rows 8-11, except for (12, 12) which is open.
 
-## B1F East Stairs
-- Unverified position on 1F East (previously hypothesized to be inside the fenced room around Column 25/26).
-
 ## 1F East Southeast Fenced Room (Verified Ground Truth)
 - **Open Gate at (25, 13):** Open in State A, allowing entry into the fenced room from Row 12.
 - **Verified Walkable Tiles:** (25, 13), (25, 14), (26, 14), (27, 12), and (28, 12) are completely walkable pink checkered floors.
