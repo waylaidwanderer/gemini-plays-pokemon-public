@@ -100,35 +100,85 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Walk from (5, 11) to switch stand position (3, 11) on 3F West
-route_to_switch = [
+print("Escaping active battle at (13, 12)...")
+escape_battle()
+print("Position after escape:", mgba.get_coordinates())
+
+# 1. Walk from (13, 12) to (3, 6) to check the state of gate (4, 6)
+route_to_check = [
+    {'x': 13, 'y': 11},
+    # Left along Row 11 to Column 3
+    {'x': 12, 'y': 11},
+    {'x': 11, 'y': 11},
+    {'x': 10, 'y': 11},
+    {'x': 9, 'y': 11},
+    {'x': 8, 'y': 11},
+    {'x': 7, 'y': 11},
+    {'x': 6, 'y': 11},
+    {'x': 5, 'y': 11},
     {'x': 4, 'y': 11},
-    {'x': 3, 'y': 11}
+    {'x': 3, 'y': 11},
+    # Up Column 3 to (3, 6)
+    {'x': 3, 'y': 10},
+    {'x': 3, 'y': 9},
+    {'x': 3, 'y': 8},
+    {'x': 3, 'y': 7},
+    {'x': 3, 'y': 6}
 ]
 
-print("1. Walking to Mewtwo Switch stand (3, 11)...")
-if not walk_route(route_to_switch):
-    print("Failed to reach switch standing position.")
+print("1. Walking to verification tile (3, 6)...")
+if not walk_route(route_to_check):
+    print("Failed to reach verification tile.")
     mgba.take_screenshot()
     exit(1)
 
-# Ensure facing LEFT
-print("Facing LEFT towards switch...")
-mgba.press_buttons(["Left"])
+# Test gate at (4, 6)
+print("Testing gate (4, 6) state...")
+curr = mgba.get_coordinates()
+mgba.press_buttons(["Right"])
 time.sleep(0.5)
+pos = mgba.get_coordinates()
 
-# 2. Toggle Mewtwo Statue Switch
-print("Toggling Mewtwo Switch to State A...")
-mgba.press_buttons(["A"]) # "A secret switch!"
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # "Press it?" YES/NO
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # Confirm YES
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # "Who wouldn't?" (Closes dialogue)
-time.sleep(2.0)
+need_toggle = False
+if pos == {'x': 4, 'y': 6}:
+    print("Gate (4, 6) is OPEN -> Mansion is in STATE B.")
+    need_toggle = True
+    # Step back Left to (3, 6)
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+else:
+    print("Gate (4, 6) is CLOSED -> Mansion is in STATE A.")
 
-# 3. Walk to the balcony directly on 3F East in State A
+if need_toggle:
+    # Walk down Column 3 to switch standing position (3, 11)
+    route_to_switch = [
+        {'x': 3, 'y': 7},
+        {'x': 3, 'y': 8},
+        {'x': 3, 'y': 9},
+        {'x': 3, 'y': 10},
+        {'x': 3, 'y': 11}
+    ]
+    print("Walking down to switch stand (3, 11)...")
+    walk_route(route_to_switch)
+    
+    # Face LEFT and toggle switch to State A
+    print("Facing LEFT and toggling Mewtwo Switch...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A"]) # "A secret switch!"
+    time.sleep(1.5)
+    mgba.press_buttons(["A"]) # "Press it?" YES/NO
+    time.sleep(1.5)
+    mgba.press_buttons(["A"]) # Confirm YES
+    time.sleep(1.5)
+    mgba.press_buttons(["A"]) # "Who wouldn't?" (Closes dialogue)
+    time.sleep(2.0)
+    print("Mansion is now globally in STATE A!")
+
+# 2. Walk to (3, 11) if we aren't already there
+walk_route([{'x': 3, 'y': 11}])
+
+# 3. Walk the direct State A route to the balcony drop at (19, 18)
 route_to_balcony = [
     # Walk RIGHT along Row 11 to Column 12
     {'x': 4, 'y': 11},
@@ -140,9 +190,9 @@ route_to_balcony = [
     {'x': 10, 'y': 11},
     {'x': 11, 'y': 11},
     {'x': 12, 'y': 11},
-    # Walk DOWN Column 12 to Row 16
+    # Walk DOWN Column 12 to Row 16 (open in State A!)
     {'x': 12, 'y': 12},
-    {'x': 12, 'y': 13}, # This should be open in State A!
+    {'x': 12, 'y': 13},
     {'x': 12, 'y': 14},
     {'x': 12, 'y': 15},
     {'x': 12, 'y': 16},
@@ -164,7 +214,7 @@ route_to_balcony = [
     {'x': 19, 'y': 18} # drop tile
 ]
 
-print("2. Navigating 3F in State A directly to balcony drop tile (19, 18)...")
+print("3. Navigating 3F in State A directly to balcony drop tile (19, 18)...")
 if walk_route(route_to_balcony):
     print("Successfully reached the balcony drop tile (19, 18)!")
     print("Performing balcony drop step...")
