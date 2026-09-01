@@ -100,80 +100,30 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Walk from current (12, 12) to switch standing position (3, 11) on 3F West
-route_to_switch = [
-    {'x': 12, 'y': 11},
-    # Left along Row 11 to Column 3
-    {'x': 11, 'y': 11},
-    {'x': 10, 'y': 11},
-    {'x': 9, 'y': 11},
-    {'x': 8, 'y': 11},
-    {'x': 7, 'y': 11},
-    {'x': 6, 'y': 11},
-    {'x': 5, 'y': 11},
-    {'x': 4, 'y': 11},
-    {'x': 3, 'y': 11}
-]
-
-print("1. Walking to Mewtwo Switch stand (3, 11)...")
-if not walk_route(route_to_switch):
-    print("Failed to reach switch standing position.")
-    mgba.take_screenshot()
-    exit(1)
-
-# Ensure facing LEFT
-print("Facing LEFT towards switch...")
-mgba.press_buttons(["Left"])
-time.sleep(0.5)
-
-# 2. Toggle Mewtwo Statue Switch
-print("Toggling Mewtwo Switch to State A...")
-mgba.press_buttons(["A"]) # "A secret switch!"
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # "Press it?" YES/NO
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # Confirm YES
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # "Who wouldn't?" (Closes dialogue)
-time.sleep(2.0)
-
-# 3. Walk the true State A route to the balcony drop at (19, 18) via Column 10 and Column 21
+# Route from current position (14, 3) on 3F East to the balcony (19, 18) in State A via Row 6
 route_to_balcony = [
-    # Walk RIGHT to Column 10 Row 11
-    {'x': 4, 'y': 11},
-    {'x': 5, 'y': 11},
-    {'x': 6, 'y': 11},
-    {'x': 7, 'y': 11},
-    {'x': 8, 'y': 11},
-    {'x': 9, 'y': 11},
-    {'x': 10, 'y': 11},
-    # Walk UP Column 10 to Row 2
-    {'x': 10, 'y': 10},
-    {'x': 10, 'y': 9},
-    {'x': 10, 'y': 8},
-    {'x': 10, 'y': 7},
-    {'x': 10, 'y': 6},
-    {'x': 10, 'y': 5},
-    {'x': 10, 'y': 4},
+    # Walk LEFT to Column 10
+    {'x': 13, 'y': 3},
+    {'x': 12, 'y': 3},
+    {'x': 11, 'y': 3},
     {'x': 10, 'y': 3},
-    {'x': 10, 'y': 2},
-    # Walk RIGHT along Row 2 to Column 21
-    {'x': 11, 'y': 2},
-    {'x': 12, 'y': 2},
-    {'x': 13, 'y': 2},
-    {'x': 14, 'y': 2},
-    {'x': 15, 'y': 2},
-    {'x': 16, 'y': 2},
-    {'x': 17, 'y': 2},
-    {'x': 18, 'y': 2},
-    {'x': 19, 'y': 2},
-    {'x': 20, 'y': 2},
-    {'x': 21, 'y': 2},
-    # Walk DOWN Column 21 to Row 18 (all open in State A!)
-    {'x': 21, 'y': 3},
-    {'x': 21, 'y': 4},
-    {'x': 21, 'y': 5},
+    # Walk DOWN Column 10 to Row 6
+    {'x': 10, 'y': 4},
+    {'x': 10, 'y': 5},
+    {'x': 10, 'y': 6},
+    # Walk RIGHT along Row 6 to Column 21
+    {'x': 11, 'y': 6},
+    {'x': 12, 'y': 6},
+    {'x': 13, 'y': 6},
+    {'x': 14, 'y': 6},
+    {'x': 15, 'y': 6},
+    {'x': 16, 'y': 6},
+    {'x': 17, 'y': 6},
+    {'x': 18, 'y': 6},
+    {'x': 19, 'y': 6},
+    {'x': 20, 'y': 6},
     {'x': 21, 'y': 6},
+    # Walk DOWN Column 21 to Row 18
     {'x': 21, 'y': 7},
     {'x': 21, 'y': 8},
     {'x': 21, 'y': 9},
@@ -186,12 +136,14 @@ route_to_balcony = [
     {'x': 21, 'y': 16}, # open balcony gate in State A!
     {'x': 21, 'y': 17},
     {'x': 21, 'y': 18},
-    # Left along Row 18 to Column 19
+    # Walk LEFT Row 18 to Column 19
     {'x': 20, 'y': 18},
     {'x': 19, 'y': 18} # drop tile
 ]
 
-print("2. Navigating 3F in State A directly to balcony drop tile (19, 18) via Row 2/Column 21...")
+print("Starting direct balcony navigation in State A via Row 6/Column 21 bypass...")
+print("Current position:", mgba.get_coordinates())
+
 if walk_route(route_to_balcony):
     print("Successfully reached the balcony drop tile (19, 18)!")
     print("Performing balcony drop step...")
