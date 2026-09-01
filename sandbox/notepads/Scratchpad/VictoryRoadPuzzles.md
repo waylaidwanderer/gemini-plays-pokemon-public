@@ -33,3 +33,11 @@
   - Row 10 (14..21, 10) is a solid cliff wall separating ground floor (rows 11-15) from upper plateau (rows 7-9).
   - Switch Plate 2 is at (17, 13) on ground floor.
 - **Conclusion:** Switch Plate 1 at (5, 14) does NOT open Shutter (15, 7). Ground-level route to upper plateau is via western column 2 chute (pushing Boulder 2 north into row 8 hallway).
+
+## Floor 1F Master Solution Plan
+- **Mechanics Identified:**
+  - Switch Plate at (17, 13) in eastern chamber controls Shutter at (15, 7).
+  - Shutter at (15, 7) blocks the elevated ramp leading to the 2F ladder in the northeast corner.
+  - Pushing Boulder 1 into the western corridor (5, 14) was the incorrect branch.
+  - Correct route: Push Boulder 1 from its starting position into the clear horizontal hallway at row 14 (y=14), push it all the way East across (8..17, 14), and push it North onto Switch Plate at (17, 13).
+  - Once Switch Plate at (17, 13) is depressed, ascend the eastern ramp at row 10, walk through the opened Shutter at (15, 7), and take the ladder up to 2F!
