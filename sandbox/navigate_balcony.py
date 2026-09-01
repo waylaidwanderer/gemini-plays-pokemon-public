@@ -21,26 +21,28 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (13, 6).
-# 1. Walk to the switch at (2, 5) via Row 6
+# Starting at (10, 6).
+# 1. Walk to the switch at (2, 11) via Row 11
 path_to_switch = [
-    ("Left", 11)    # (13, 6) -> (2, 6)
+    ("Down", 5),    # (10, 6) -> (10, 11)
+    ("Left", 7)     # (10, 11) -> (3, 11)
 ]
 
-# 2. Walk from (2, 6) to (19, 18) in State A
+# 2. Walk from (3, 11) to (19, 18) in State A
 path_to_balcony = [
-    ("Down", 5),    # (2, 6) -> (2, 11)
-    ("Right", 10),  # (2, 11) -> (12, 11)
+    ("Right", 9),   # (3, 11) -> (12, 11)
     ("Up", 5),      # (12, 11) -> (12, 6)
-    ("Right", 9),   # (12, 6) -> (21, 6)
-    ("Down", 12),   # (21, 6) -> (21, 18)
+    ("Right", 7),   # (12, 6) -> (19, 6)
+    ("Down", 5),    # (19, 6) -> (19, 11)
+    ("Right", 2),   # (19, 11) -> (21, 11)
+    ("Down", 7),    # (21, 11) -> (21, 18)
     ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
 ]
 
 print("Starting complete balcony drop solution sequence...")
 if walk_path(path_to_switch):
-    print("Reached (2, 6) successfully! Turning UP to face the switch...")
-    mgba.press_buttons(["Up"])
+    print("Reached (3, 11) successfully! Turning LEFT to face the switch...")
+    mgba.press_buttons(["Left"])
     time.sleep(0.5)
     
     # 4 A-presses to toggle
