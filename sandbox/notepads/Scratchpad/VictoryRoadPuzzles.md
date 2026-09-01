@@ -32,6 +32,8 @@
 
 ### Floor 2F Push Session Log
 - Turn 22565: Arrived on 2F from 1F ladder. Strength field move activated.
-- Turn 22583: Pushed Boulder 1 North from (5, 5) to (5, 4).
+- Turn 22583: Pushed Boulder 1 North from (5, 5) to (5, 4) [Pre-reset session].
+- Turn 22701: Pushed Boulder 1 North from (5, 5) to (5, 3) [Current active session].
+- Boulder 2: Default initial location at (4, 14) on Lower Highway.
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
