@@ -2599,6 +2599,12 @@
 - Statue Barrier 2: Rows 122-123 have statues at (7, 121..123) and (10, 121..123), but columns 8 and 9 (8..9, 120..123) form an open tall grass corridor running north to row 119!
 - Thunder Check Bypass: Guard stands at (8, 119); bypass around guard via (7, 119) or (9, 119) onto open northern road.
 - Statue Barrier 3: Rows 113-115 have statues at (9, 113..115) and (12, 113..115), but columns 10 and 11 (10..11, 112..115) form an open green grass corridor running north towards the Rainbow Badge check!
+## Water Canal Sector & Traversal Requirements (Rows 84 to 103)
+- Shoreline at row 104 transitions to open water canal at row 103.
+- SURF is strictly required across rows 84-103 (no solid bridge exists).
+- To traverse: Open Start Menu -> POKéMON -> Select HYDROS -> Select SURF.
+- Soul Badge Checkpoint Guard is at (11, 96) in the canal.
+- Canal ends at row 84/85 near Marsh Badge Checkpoint Guard at (8, 85), where player steps back onto land.
 
 <hr>
 
