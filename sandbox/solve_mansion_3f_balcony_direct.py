@@ -100,72 +100,22 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route in State A from current position (12, 10) to the balcony drop (19, 18) via the detour
+# Short State A route to balcony from (18, 12)
 route_to_balcony = [
-    # Walk to Column 10 Row 11
-    {'x': 12, 'y': 11},
-    {'x': 11, 'y': 11},
-    {'x': 10, 'y': 11},
-    # Walk UP Column 10 to Row 6
-    {'x': 10, 'y': 10},
-    {'x': 10, 'y': 9},
-    {'x': 10, 'y': 8},
-    {'x': 10, 'y': 7},
-    {'x': 10, 'y': 6},
-    # Walk RIGHT along Row 6 to Column 19
-    {'x': 11, 'y': 6},
-    {'x': 12, 'y': 6},
-    {'x': 13, 'y': 6},
-    {'x': 14, 'y': 6},
-    {'x': 15, 'y': 6},
-    {'x': 16, 'y': 6},
-    {'x': 17, 'y': 6},
-    {'x': 18, 'y': 6},
-    {'x': 19, 'y': 6},
-    # Walk UP Column 19 to Row 4 (open in State A!)
-    {'x': 19, 'y': 5},
-    {'x': 19, 'y': 4},
-    # Bypass Column 19 Row 3 gate by going Column 20
-    {'x': 20, 'y': 4},
-    {'x': 20, 'y': 3},
-    # Walk RIGHT along Row 3 to Column 26
-    {'x': 21, 'y': 3},
-    {'x': 22, 'y': 3},
-    {'x': 23, 'y': 3},
-    {'x': 24, 'y': 3},
-    {'x': 25, 'y': 3},
-    {'x': 26, 'y': 3},
-    # Walk DOWN Column 26 to Row 12
-    {'x': 26, 'y': 4},
-    {'x': 26, 'y': 5},
-    {'x': 26, 'y': 6},
-    {'x': 26, 'y': 7},
-    {'x': 26, 'y': 8},
-    {'x': 26, 'y': 9},
-    {'x': 26, 'y': 10},
-    {'x': 26, 'y': 11},
-    {'x': 26, 'y': 12},
-    # Walk LEFT Row 12 to Column 24
-    {'x': 25, 'y': 12},
-    {'x': 24, 'y': 12},
-    # Walk DOWN Column 24 to Row 16
-    {'x': 24, 'y': 13},
-    {'x': 24, 'y': 14},
-    {'x': 24, 'y': 15},
-    {'x': 24, 'y': 16},
-    # Walk LEFT Row 16 to Column 21
-    {'x': 23, 'y': 16},
-    {'x': 22, 'y': 16},
-    {'x': 21, 'y': 16}, # open balcony gate in State A!
-    # Walk DOWN past open gate to Row 18
+    {'x': 19, 'y': 12},
+    {'x': 20, 'y': 12},
+    {'x': 21, 'y': 12},
+    {'x': 21, 'y': 13},
+    {'x': 21, 'y': 14},
+    {'x': 21, 'y': 15},
+    {'x': 21, 'y': 16}, # open balcony gate in State A
     {'x': 21, 'y': 17},
     {'x': 21, 'y': 18},
-    # Walk LEFT along Row 18 to Column 19
     {'x': 20, 'y': 18},
     {'x': 19, 'y': 18} # drop tile
 ]
 
-print("Walking State A detour route to balcony starting from (12, 10)...")
+print("Walking direct State A route to balcony from (18, 12)...")
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_balcony):
