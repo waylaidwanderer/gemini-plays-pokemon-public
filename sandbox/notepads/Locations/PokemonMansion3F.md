@@ -18,13 +18,13 @@
   - Shutter gate at `(25, 13)` on Column 25 is CLOSED.
   - Shutter gate at `(4, 6)` on 3F West is OPEN.
   - Shutter gates at `(19, 2)` and `(21, 2)` on 3F East are CLOSED.
-  - Shutter gate at `(21, 17)` on Column 21 (Balcony) is CLOSED.
+  - Shutter gate at `(21, 16)` on Column 21 (Balcony) is CLOSED.
   - The northeastern Scientist room on 3F East is completely isolated in State B.
 - **State A:**
   - Shutter gate at `(25, 13)` on Column 25 is OPEN.
   - Shutter gate at `(4, 6)` on 3F West is CLOSED.
   - Shutter gates at `(19, 2)`, `(21, 2)` on 3F East are OPEN.
-  - Shutter gate at `(21, 17)` on Column 21 (Balcony) is OPEN.
+  - Shutter gate at `(21, 16)` on Column 21 (Balcony) is OPEN.
   - This allows horizontal crossing between 3F East and the southern half of 3F East via Row 2, Column 21 (gate at (21, 5) is OPEN in State A).
 
 ## The Intended Mansion 3F Puzzle Solution (State A Route)
@@ -45,8 +45,8 @@
 - **Row 4 Column 23-25:** Open and walkable floor in the vertical corridor on Column 23.
 - **Column 26 Row 13 is a Solid Wall:** Column 26 Row 13 is a permanent solid wall panel, NOT a gate.
 - **Column 25 Row 13 Shutter Gate:** OPEN in State A (pink checkered floor), CLOSED and blocked in State B.
-- **Column 21 Row 17 Shutter Gate (Balcony):** OPEN in State A, CLOSED and blocked in State B.
-- **The Only Valid Route to Balcony (State A):** Walk DOWN Column 26 to Row 12, LEFT Row 12 to Column 24, DOWN Column 24 to Row 16, LEFT Row 16 to Column 21, DOWN Column 21 past the open gate at (21, 17) to Row 18, LEFT Row 18 to Column 19 (balcony drop), and drop!
+- **Column 21 Row 16 Shutter Gate (Balcony):** OPEN in State A, CLOSED and blocked in State B.
+- **The Only Valid Route to Balcony (State A):** Walk DOWN Column 26 to Row 12, LEFT Row 12 to Column 24, DOWN Column 24 to Row 16, LEFT Row 16 to Column 21, DOWN Column 21 past the open gate at (21, 16) to Row 18, LEFT Row 18 to Column 19 (balcony drop), and drop!
 
 ## Verified Layout & Obstacle Mapping (Turn 70613)
 - **Obstacle at (12, 13):** Column 12 is blocked at Row 13 by a solid wall/cabinet structure.
@@ -58,5 +58,5 @@
   1. Toggle Mansion to State B on 3F West.
   2. Walk to 3F East via Row 3, go down Column 14/15/17 (open in State B) to Row 16, and walk to (21, 16).
   3. Walk back to 3F West via Row 16 (open in State B), Column 12 (open in State B), Row 11, and stand at (3, 11).
-  4. Toggle Mansion to State A. This opens the balcony gate at (21, 17)!
-  5. Walk from (3, 11) to the balcony in State A: Right along Row 11 to Column 12, DOWN Column 12 to Row 16, RIGHT along Row 16 to (21, 16), and DOWN past the open gate at (21, 17) to Row 18, Left to Column 19, and drop!
+  4. Toggle Mansion to State A. This opens the balcony gate at (21, 16)!
+  5. Walk from (3, 11) to the balcony in State A: Right along Row 11 to Column 12, DOWN Column 12 to Row 16, RIGHT along Row 16 to (21, 16), and DOWN past the open gate at (21, 16) to Row 18, Left to Column 19, and drop!
