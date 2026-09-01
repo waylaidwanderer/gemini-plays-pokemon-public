@@ -49,7 +49,10 @@
   3. Pushed Boulder 2 South down column 3 to (3, 16).
   4. Pushed Boulder 2 West along row 16 onto Switch Plate (1, 16) [CONFIRMED Turn 22814]!
   5. Shutter at (5, 10) is OPEN! Passage to eastern chamber and 3F ladder unlocked!
-## Floor 2F Eastern Sector Hypotheses & Protocol
-- Objective: Locate ground access to Boulder 3 at (18, 9) and test pushing onto Switch Plate (9, 11) / (9, 16) to open Shutters 2 (15, 15) and 3 (21, 15).
-- Test Path: Column 14 (rows 8-12) is verified open blue floor. Testing (14, 8) -> (15, 8) -> (16, 8) east connection to upper plateau.
-- Empirical Rule: Every step along unmapped rows/columns must be verified via coordinate check before full sequences are issued.
+## Floor 2F Verified Layout & Eastern Sector Findings
+- Shutter 1 at (5, 10) is OPEN [Verified Turn 22917], connecting the western entrance terrace (cols 0-4) to the central horizontal corridor (rows 8-9, cols 5-14).
+- (15, 8) is a solid rock wall corner; eastward passage from (14, 8) along row 8 is blocked.
+- (18, 9) contains an Item Ball (not a boulder).
+- (19, 8) has a trainer facing Down/Left.
+- (23, 14) has an elevation boundary / ledge separating the lower highway at row 14 from the platform containing the ladder at (25, 14).
+- Access to the upper platform / 3F ladder (25, 14) and Moltres (11, 5) requires traversing the northern upper corridor (rows 1-3) or testing NW ladder (1, 1).
