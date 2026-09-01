@@ -1369,6 +1369,13 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - Horizontal passage on the north side of 2F between East and West is completely open along Row 2! Column 9 Row 2 is a pink checkered floor with no wall.
   - Row 6 Column 4 and Row 7 Column 4 on 2F West are blocked by solid window frames, so Row 8 is the primary horizontal corridor to cross Column 4 on the north side of 2F West.
 
+## Mewtwo Switch Interaction Protocol (Verified Turn 71072)
+- Exactly **4 A-presses** are required to fully complete the dialogue and physically toggle the gate states:
+  1. First 'A' - Displays "A secret switch!"
+  2. Second 'A' - Displays "Press it?" with YES/NO choice.
+  3. Third 'A' - Confirms "YES".
+  4. Fourth 'A' - Displays "Who wouldn't?" and then closes the textbox, returning control to the overworld.
+- Walking away before the fourth 'A' is pressed will consume the first movement key to close the textbox, leaving the player in place and causing routing misalignment. Always verify the overworld is active before moving.
 
 <hr>
 
