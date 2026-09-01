@@ -48,12 +48,10 @@ escape_battle()
 current_pos = mgba.get_coordinates()
 print("Current position after escape:", current_pos)
 
-# Starting at (11, 11).
-# Walk final chunk: 1 step Right, 5 steps Up, 7 steps Right, 5 steps Down, 2 steps Right, 7 steps Down, 2 steps Left (drop!)
+# Starting at (16, 6).
+# Walk final chunk: 3 steps Right, 5 steps Down, 2 steps Right, 7 steps Down, 2 steps Left (drop!)
 path = [
-    ("Right", 1),   # (11, 11) -> (12, 11)
-    ("Up", 5),      # (12, 11) -> (12, 6)
-    ("Right", 7),   # (12, 6) -> (19, 6)
+    ("Right", 3),   # (16, 6) -> (19, 6)
     ("Down", 5),    # (19, 6) -> (19, 11)
     ("Right", 2),   # (19, 11) -> (21, 11)
     ("Down", 7),    # (21, 11) -> (21, 18)
