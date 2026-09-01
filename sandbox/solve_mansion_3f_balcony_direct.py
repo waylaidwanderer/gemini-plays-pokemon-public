@@ -100,21 +100,11 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (19, 4) directly to balcony drop tile (19, 18) via Column 20 bypass
+# Route in State A from current position (27, 5) to the balcony drop (19, 18) via the detour
 route_to_balcony = [
-    # Walk RIGHT to Column 20, then UP to Row 3
-    {'x': 20, 'y': 4},
-    {'x': 20, 'y': 3},
-    # Walk RIGHT along Row 3 to Column 26
-    {'x': 21, 'y': 3},
-    {'x': 22, 'y': 3},
-    {'x': 23, 'y': 3},
-    {'x': 24, 'y': 3},
-    {'x': 25, 'y': 3},
-    {'x': 26, 'y': 3},
-    # Walk DOWN Column 26 to Row 12
-    {'x': 26, 'y': 4},
+    # Walk LEFT to Column 26
     {'x': 26, 'y': 5},
+    # Walk DOWN Column 26 to Row 12
     {'x': 26, 'y': 6},
     {'x': 26, 'y': 7},
     {'x': 26, 'y': 8},
@@ -142,7 +132,7 @@ route_to_balcony = [
     {'x': 19, 'y': 18} # drop tile
 ]
 
-print("Starting direct balcony navigation in State A via Column 20/Column 21 bypass...")
+print("Starting direct balcony navigation in State A via Detour...")
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_balcony):
