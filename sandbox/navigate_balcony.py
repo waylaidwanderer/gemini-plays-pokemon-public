@@ -21,32 +21,46 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (21, 15).
-# Walk to (2, 6) facing the switch at (2, 5).
-
-path = [
-    ("Up", 4),      # (21, 15) -> (21, 11)
-    ("Left", 9),    # (21, 11) -> (12, 11)
-    ("Up", 5),      # (12, 11) -> (12, 6)
-    ("Left", 10)    # (12, 6) -> (2, 6)
+# Starting at (16, 11).
+# 1. Walk to the switch at (2, 5) via Row 6
+path_to_switch = [
+    ("Right", 2),   # (16, 11) -> (18, 11)
+    ("Up", 5),      # (18, 11) -> (18, 6)
+    ("Left", 16)    # (18, 6) -> (2, 6)
 ]
 
-print("Walking to the 3F West switch at (2, 5)...")
-success = walk_path(path)
-if success:
+# 2. Walk from (2, 6) to (19, 18) in State A
+path_to_balcony = [
+    ("Down", 5),    # (2, 6) -> (2, 11)
+    ("Right", 10),  # (2, 11) -> (12, 11)
+    ("Up", 5),      # (12, 11) -> (12, 6)
+    ("Right", 9),   # (12, 6) -> (21, 6)
+    ("Down", 12),   # (21, 6) -> (21, 18)
+    ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
+]
+
+print("Starting complete balcony drop solution sequence...")
+if walk_path(path_to_switch):
     print("Reached (2, 6) successfully! Turning UP to face the switch...")
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # Toggle switch with 4 A-presses and check dialogue
+    # 4 A-presses to toggle
     for i in range(1, 5):
-        print(f"Pressing A ({i}/4)...")
+        print(f"A-press {i}...")
         mgba.press_buttons(["A"])
         time.sleep(0.5)
-        shot = mgba.take_screenshot()
-        print(f"Screenshot saved: {shot}")
         
-    print("Switch toggle complete. Checking coordinates:")
-    print(mgba.get_coordinates())
+    print("Switch toggled to State A! Navigating to balcony...")
+    success = walk_path(path_to_balcony)
+    if success:
+        print("Drop executed successfully! Checking current location:")
+        time.sleep(1.0) # wait for map transition / screen load
+        print(mgba.get_coordinates())
+        mgba.take_screenshot()
+    else:
+        print("Interrupted during balcony path. Current coordinates:")
+        print(mgba.get_coordinates())
+        mgba.take_screenshot()
 else:
-    print("Failed to reach (2, 6).")
+    print("Failed to reach the switch.")
