@@ -63,9 +63,9 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 22171)
+## Active Party (Verified Turn 22255)
 1. HYDROS (Blastoise) - Lv 68
-   - Stats: Max HP 229 (HP: 0/229 - FNT), Attack 161, Defense 177, Speed 163, Special 170
+   - Stats: Max HP 229 (HP: 229/229 - Healthy), Attack 161, Defense 177, Speed 163, Special 170
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -75,7 +75,7 @@
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Cut utility
 3. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 0/54 - FNT)
+   - Stats: Max HP 54 (HP: 54/54 - Healthy)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Physical Fighting attacker & Strength utility
@@ -85,12 +85,12 @@
    - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 0/62 - FNT)
+   - Stats: Max HP 62 (HP: 62/62 - Healthy)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall
 6. TERRA (Geodude) - Lv 22
-   - Stats: Max HP 56 (HP: 0/56 - FNT)
+   - Stats: Max HP 56 (HP: 56/56 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct (5/5), Defense Curl (40/40), Dig (10/10), Rock Throw (15/15)
    - Role: Physical Rock/Ground tank & Dig utility (Slot 6)
