@@ -100,89 +100,21 @@ def walk_route(route_coords):
                 return False
     return True
 
-# 1. Walk from current position (22, 7) to Mewtwo switch stand position (3, 11) on 3F West
-route_to_switch = [
-    {'x': 21, 'y': 7},
-    {'x': 21, 'y': 6},
-    # Left along Row 6
-    {'x': 20, 'y': 6},
-    {'x': 19, 'y': 6},
-    {'x': 18, 'y': 6},
-    {'x': 17, 'y': 6},
-    {'x': 16, 'y': 6},
-    {'x': 15, 'y': 6},
-    {'x': 14, 'y': 6},
-    {'x': 13, 'y': 6},
-    {'x': 12, 'y': 6},
-    {'x': 11, 'y': 6},
-    {'x': 10, 'y': 6},
-    # Down Column 10 to Row 11
-    {'x': 10, 'y': 7},
-    {'x': 10, 'y': 8},
-    {'x': 10, 'y': 9},
-    {'x': 10, 'y': 10},
-    {'x': 10, 'y': 11},
-    # Left to (3, 11)
-    {'x': 9, 'y': 11},
-    {'x': 8, 'y': 11},
-    {'x': 7, 'y': 11},
-    {'x': 6, 'y': 11},
-    {'x': 5, 'y': 11},
-    {'x': 4, 'y': 11},
-    {'x': 3, 'y': 11}
-]
-
-print("1. Walking to Mewtwo Switch stand (3, 11)...")
-if not walk_route(route_to_switch):
-    print("Failed to reach switch standing position.")
-    mgba.take_screenshot()
-    exit(1)
-
-# Ensure we face LEFT towards switch at (2, 11)
-print("Facing LEFT towards switch...")
-mgba.press_buttons(["Left"])
-time.sleep(0.5)
-
-# 2. Toggle Mewtwo Switch once to transition from State A to State B
-print("Toggling Mewtwo Switch to State B...")
-mgba.press_buttons(["A"]) # "A secret switch!"
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # "Press it?" YES/NO
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # Confirm YES
-time.sleep(1.5)
-mgba.press_buttons(["A"]) # "Who wouldn't?" (Closes dialogue)
-time.sleep(2.0)
-
-# 3. Walk to the pitfall trap at (26, 3) on 3F East (Row 3 is completely open!)
+# Route from current position (14, 4) on 3F East directly to pitfall trap at (26, 3) in State B
 route_to_pitfall = [
-    # Walk RIGHT to Column 10 Row 11
-    {'x': 4, 'y': 11},
-    {'x': 5, 'y': 11},
-    {'x': 6, 'y': 11},
-    {'x': 7, 'y': 11},
-    {'x': 8, 'y': 11},
-    {'x': 9, 'y': 11},
-    {'x': 10, 'y': 11},
-    # Walk UP Column 10 to Row 3
-    {'x': 10, 'y': 10},
-    {'x': 10, 'y': 9},
-    {'x': 10, 'y': 8},
-    {'x': 10, 'y': 7},
-    {'x': 10, 'y': 6},
-    {'x': 10, 'y': 5},
-    {'x': 10, 'y': 4},
-    {'x': 10, 'y': 3},
-    # Walk RIGHT along Row 3 to Column 26
-    {'x': 11, 'y': 3},
-    {'x': 12, 'y': 3},
-    {'x': 13, 'y': 3},
-    {'x': 14, 'y': 3},
-    {'x': 15, 'y': 3},
-    {'x': 16, 'y': 3},
-    {'x': 17, 'y': 3},
-    {'x': 18, 'y': 3},
+    {'x': 14, 'y': 5},
+    {'x': 14, 'y': 6},
+    # Right along Row 6 to Column 19
+    {'x': 15, 'y': 6},
+    {'x': 16, 'y': 6},
+    {'x': 17, 'y': 6},
+    {'x': 18, 'y': 6},
+    {'x': 19, 'y': 6},
+    # Up Column 19 to Row 3
+    {'x': 19, 'y': 5},
+    {'x': 19, 'y': 4},
     {'x': 19, 'y': 3},
+    # Right along Row 3 to Column 26
     {'x': 20, 'y': 3},
     {'x': 21, 'y': 3},
     {'x': 22, 'y': 3},
@@ -192,7 +124,9 @@ route_to_pitfall = [
     {'x': 26, 'y': 3} # pitfall tile!
 ]
 
-print("2. Walking to pitfall trap (26, 3) on 3F East...")
+print("Walking directly from (14, 4) to pitfall trap (26, 3) on 3F East in State B...")
+print("Current position:", mgba.get_coordinates())
+
 if walk_route(route_to_pitfall):
     print("Successfully reached pitfall tile (26, 3)!")
     print("Performing fall step...")
