@@ -21,41 +21,48 @@ def walk_path(path_steps):
             print(f"Moved to {res}")
     return True
 
-# Starting at (21, 15).
-# 1. Walk back to (3, 11) to toggle the switch properly.
+# Starting at (16, 11).
+# 1. Walk to the switch at (2, 11) via Row 6 and Column 10 bypass
 path_to_switch = [
-    ("Up", 4),      # (21, 15) -> (21, 11)
-    ("Left", 18)    # (21, 11) -> (3, 11)
+    ("Right", 2),   # (16, 11) -> (18, 11)
+    ("Up", 5),      # (18, 11) -> (18, 6)
+    ("Left", 8),    # (18, 6) -> (10, 6)
+    ("Down", 5),    # (10, 6) -> (10, 11)
+    ("Left", 7)     # (10, 11) -> (3, 11)
 ]
 
-# 2. Walk to the balcony in State A.
+# 2. Walk from (3, 11) to (19, 18) in State A
 path_to_balcony = [
-    ("Right", 18),  # (3, 11) -> (21, 11)
+    ("Right", 9),   # (3, 11) -> (12, 11)
+    ("Up", 5),      # (12, 11) -> (12, 6)
+    ("Right", 7),   # (12, 6) -> (19, 6)
+    ("Down", 5),    # (19, 6) -> (19, 11)
+    ("Right", 2),   # (19, 11) -> (21, 11)
     ("Down", 7),    # (21, 11) -> (21, 18)
     ("Left", 2)     # (21, 18) -> (19, 18) (drop!)
 ]
 
-print("Walking to the switch at (3, 11)...")
+print("Starting complete balcony drop solution sequence...")
 if walk_path(path_to_switch):
-    print("Reached (3, 11)! Facing LEFT towards the switch at (2, 11)...")
+    print("Reached (3, 11) successfully! Turning LEFT to face the switch...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
     
-    # Toggle switch with 4 A-presses and GENEROUS 1.2s delays
+    # 4 A-presses to toggle with 1.2s delay to allow menu & text rendering
     for i in range(1, 5):
         print(f"A-press {i}/4...")
         mgba.press_buttons(["A"])
         time.sleep(1.2)
         
-    print("Switch toggled. Walking to the balcony in State A...")
+    print("Switch toggled to State A! Navigating to balcony...")
     success = walk_path(path_to_balcony)
     if success:
-        print("Balcony drop executed successfully! Checking current position:")
-        time.sleep(1.0)
+        print("Drop executed successfully! Checking current location:")
+        time.sleep(1.0) # wait for map transition / screen load
         print(mgba.get_coordinates())
         mgba.take_screenshot()
     else:
-        print("Failed on the balcony path. Current coordinates:")
+        print("Interrupted during balcony path. Current coordinates:")
         print(mgba.get_coordinates())
         mgba.take_screenshot()
 else:
