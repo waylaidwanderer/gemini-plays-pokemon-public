@@ -60,19 +60,18 @@ def walk_route(route_coords):
             return False
     return True
 
-# Route from current position (5, 10) on 2F West to northeast stairs at (22, 1) on 2F East
+# Route from current position (6, 10) on 2F West to northeast stairs at (22, 1) on 2F East via Column 6
 route_to_stairs = [
-    # Walk UP Column 5 to Row 2
-    {'x': 5, 'y': 9},
-    {'x': 5, 'y': 8},
-    {'x': 5, 'y': 7},
-    {'x': 5, 'y': 6},
-    {'x': 5, 'y': 5},
-    {'x': 5, 'y': 4},
-    {'x': 5, 'y': 3},
-    {'x': 5, 'y': 2},
-    # Walk RIGHT along Row 2 to Column 22
+    # Walk UP Column 6 to Row 2
+    {'x': 6, 'y': 9},
+    {'x': 6, 'y': 8},
+    {'x': 6, 'y': 7},
+    {'x': 6, 'y': 6},
+    {'x': 6, 'y': 5},
+    {'x': 6, 'y': 4},
+    {'x': 6, 'y': 3},
     {'x': 6, 'y': 2},
+    # Walk RIGHT along Row 2 to Column 22
     {'x': 7, 'y': 2},
     {'x': 8, 'y': 2},
     {'x': 9, 'y': 2},
@@ -93,7 +92,7 @@ route_to_stairs = [
     {'x': 22, 'y': 1}
 ]
 
-print("Walking horizontally across 2F along Row 2 in State A...")
+print("Walking horizontally across 2F along Row 2 via Column 6...")
 if walk_route(route_to_stairs):
     print("Warping UP to 3F East...")
     time.sleep(3.0) # wait generously for floor transition fade
