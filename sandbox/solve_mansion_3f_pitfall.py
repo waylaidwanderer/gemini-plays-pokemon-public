@@ -100,18 +100,8 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route from current position (14, 4) on 3F East directly to pitfall trap at (26, 3) in State B
+# Route from current position (19, 5) directly to pitfall trap at (26, 3) in State B
 route_to_pitfall = [
-    {'x': 14, 'y': 5},
-    {'x': 14, 'y': 6},
-    # Right along Row 6 to Column 19
-    {'x': 15, 'y': 6},
-    {'x': 16, 'y': 6},
-    {'x': 17, 'y': 6},
-    {'x': 18, 'y': 6},
-    {'x': 19, 'y': 6},
-    # Up Column 19 to Row 3
-    {'x': 19, 'y': 5},
     {'x': 19, 'y': 4},
     {'x': 19, 'y': 3},
     # Right along Row 3 to Column 26
@@ -124,7 +114,8 @@ route_to_pitfall = [
     {'x': 26, 'y': 3} # pitfall tile!
 ]
 
-print("Walking directly from (14, 4) to pitfall trap (26, 3) on 3F East in State B...")
+print("Escaping battle at (19, 5) and walking to pitfall trap (26, 3)...")
+escape_battle()
 print("Current position:", mgba.get_coordinates())
 
 if walk_route(route_to_pitfall):
