@@ -34,6 +34,8 @@
 - Turn 22565: Arrived on 2F from 1F ladder. Strength field move activated.
 - Turn 22583: Pushed Boulder 1 North from (5, 5) to (5, 4) [Pre-reset session].
 - Turn 22701: Pushed Boulder 1 North from (5, 5) to (5, 3) [Current active session].
-- Boulder 2: Default initial location at (4, 14) on Lower Highway.
+- Turn 22753: Pushed Boulder 2 North from (4, 14) to (4, 11).
+- Turn 22760: Pushed Boulder 2 East from (4, 11) to (5, 11).
+- Boulder 2: Currently at (5, 11).
 - Switch Plate 1: Located at (9, 11).
 - Shutter 1: Located at (5, 10).
