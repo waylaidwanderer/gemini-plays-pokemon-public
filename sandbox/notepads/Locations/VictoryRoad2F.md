@@ -10,7 +10,7 @@
 - Switch Plate 1: Located at (9, 11) (circular red/yellow plate) [Observed Turn 22586]
 - Moltres (Legendary Bird): Located at (11, 5) on elevated plateau [Observed Turn 22580]
 - Juggler / Trainer: Located at (12, 9) facing Left [Observed Turn 22586]
-- Blackbelt: Located in northwest room (col 3/4, row 2) facing South [Observed Turn 22574, 22588]
+- Blackbelt: Located at (3, 2) facing South.
 
 ## Dynamic Puzzle Tracking
 - Switch-Shutter Pairings:
