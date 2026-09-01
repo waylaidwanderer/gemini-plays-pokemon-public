@@ -37,14 +37,10 @@ def step(direction):
     return next_pos
 
 def walk_route(route_coords):
-    i = 0
-    while i < len(route_coords):
-        target = route_coords[i]
+    for target in route_coords:
         curr = mgba.get_coordinates()
         if curr == target:
-            i += 1
             continue
-        
         dx = target['x'] - curr['x']
         dy = target['y'] - curr['y']
         
@@ -55,101 +51,70 @@ def walk_route(route_coords):
             elif dy == -1: direction = "Up"
             
             res = step(direction)
-            if res == target:
-                print(f"Reached {target}")
-                i += 1
-            else:
-                print(f"Failed to reach target {target}. Position: {res}. Retrying...")
-        else:
-            # We are displaced
-            print(f"Displaced! Current: {curr}, Target: {target}. Attempting recovery...")
-            found = False
-            for idx, coord in enumerate(route_coords):
-                if coord == curr:
-                    print(f"Found current position {curr} in route at index {idx}. Resuming from there.")
-                    i = idx + 1
-                    found = True
-                    break
-            if not found:
-                # Find any adjacent route tile
-                best_idx = -1
-                best_dist = 999999
-                for idx, coord in enumerate(route_coords):
-                    dist = abs(coord['x'] - curr['x']) + abs(coord['y'] - curr['y'])
-                    if dist == 1:
-                        idx_diff = abs(idx - i)
-                        if idx_diff < best_dist:
-                            best_dist = idx_diff
-                            best_idx = idx
-                
-                if best_idx != -1:
-                    target_coord = route_coords[best_idx]
-                    pdx = target_coord['x'] - curr['x']
-                    pdy = target_coord['y'] - curr['y']
-                    print(f"Found adjacent route tile {target_coord} (index {best_idx}). Walking to it...")
-                    if pdx == 1: pdir = "Right"
-                    elif pdx == -1: pdir = "Left"
-                    elif pdy == 1: pdir = "Down"
-                    elif pdy == -1: pdir = "Up"
-                    res = step(pdir)
-                    if res == target_coord:
-                        i = best_idx + 1
-                        continue
-                
-                print("Could not find adjacent route tile for recovery.")
+            if res != target:
+                print(f"Failed to reach target {target}. Position: {res}")
                 return False
+            print(f"Reached {target}")
+        else:
+            print(f"Non-adjacent target {target} from {curr}")
+            return False
     return True
 
-# Route from current position (13, 12) (in battle) to (17, 16) and then balcony
-route_to_balcony = [
-    # Walk UP Column 13 to Row 6
-    {'x': 13, 'y': 11},
-    {'x': 13, 'y': 10},
-    {'x': 13, 'y': 9},
-    {'x': 13, 'y': 8},
-    {'x': 13, 'y': 7},
-    {'x': 13, 'y': 6},
-    # Walk RIGHT along Row 6 to Column 17
-    {'x': 14, 'y': 6},
-    {'x': 15, 'y': 6},
-    {'x': 16, 'y': 6},
-    {'x': 17, 'y': 6},
-    # Walk DOWN Column 17 to Row 16
-    {'x': 17, 'y': 7},
-    {'x': 17, 'y': 8},
-    {'x': 17, 'y': 9},
-    {'x': 17, 'y': 10},
-    {'x': 17, 'y': 11},
-    {'x': 17, 'y': 12},
-    {'x': 17, 'y': 13},
-    {'x': 17, 'y': 14},
-    {'x': 17, 'y': 15},
-    {'x': 17, 'y': 16},
-    # Walk RIGHT Row 16 to Column 21
-    {'x': 18, 'y': 16},
-    {'x': 19, 'y': 16},
-    {'x': 20, 'y': 16},
-    {'x': 21, 'y': 16},
-    # Down past open gate to Row 18
-    {'x': 21, 'y': 17},
-    {'x': 21, 'y': 18},
-    # Left along Row 18 to Column 19
-    {'x': 20, 'y': 18},
-    {'x': 19, 'y': 18}
+# 1. Walk from current position (13, 12) to (10, 16)
+route_to_col10 = [
+    {'x': 12, 'y': 12},
+    {'x': 11, 'y': 12},
+    {'x': 10, 'y': 12},
+    {'x': 10, 'y': 13},
+    {'x': 10, 'y': 14},
+    {'x': 10, 'y': 15},
+    {'x': 10, 'y': 16}
 ]
 
-print("Escaping battle at (13, 12) and completing balcony navigation via Column 17...")
-escape_battle()
-print("Position after escape:", mgba.get_coordinates())
-
-if walk_route(route_to_balcony):
-    print("Successfully reached the balcony drop tile (19, 18)!")
-    print("Performing balcony drop step...")
-    # Step down to drop
-    mgba.press_buttons(["Down"])
-    time.sleep(3.0) # wait generously for drop transition and fade-in
-    print("Final coordinates after drop:", mgba.get_coordinates())
-    mgba.take_screenshot()
+print("1. Walking to (10, 16)...")
+if walk_route(route_to_col10):
+    print("Reached (10, 16) successfully. Testing Row 16 Column 11...")
+    # Try to step Right
+    pos = step("Right")
+    if pos == {'x': 11, 'y': 16}:
+        print("SUCCESS! (11, 16) is OPEN. Stepping onto (12, 16)...")
+        pos2 = step("Right")
+        if pos2 == {'x': 12, 'y': 16}:
+            print("Reached (12, 16) successfully! Walking to balcony drop...")
+            route_to_balcony = [
+                {'x': 13, 'y': 16},
+                {'x': 14, 'y': 16},
+                {'x': 15, 'y': 16},
+                {'x': 16, 'y': 16},
+                {'x': 17, 'y': 16},
+                {'x': 18, 'y': 16},
+                {'x': 19, 'y': 16},
+                {'x': 20, 'y': 16},
+                {'x': 21, 'y': 16},
+                # Down past open gate to Row 18
+                {'x': 21, 'y': 17},
+                {'x': 21, 'y': 18},
+                # Left along Row 18 to Column 19
+                {'x': 20, 'y': 18},
+                {'x': 19, 'y': 18}
+            ]
+            if walk_route(route_to_balcony):
+                print("Successfully reached the balcony drop tile (19, 18)!")
+                print("Performing balcony drop step...")
+                # Step down to drop
+                mgba.press_buttons(["Down"])
+                time.sleep(3.0) # wait generously for drop transition and fade-in
+                print("Final coordinates after drop:", mgba.get_coordinates())
+                mgba.take_screenshot()
+            else:
+                print("Failed to complete route to balcony.")
+                mgba.take_screenshot()
+        else:
+            print(f"Failed to step from (11, 16) to (12, 16). Position: {pos2}")
+            mgba.take_screenshot()
+    else:
+        print(f"BLOCKED! (11, 16) is CLOSED. Position remains: {pos}")
+        mgba.take_screenshot()
 else:
-    print("Failed to navigate to balcony.")
+    print("Failed to reach (10, 16).")
     mgba.take_screenshot()
