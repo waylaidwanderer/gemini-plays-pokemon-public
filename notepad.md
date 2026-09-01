@@ -2706,12 +2706,12 @@
 - Switch Plate 1: Located at (9, 11) (circular red/yellow plate) [Observed Turn 22586].
 - Juggler / Trainer: Located at (12, 9) facing Left [Observed Turn 22586].
 
-## Verified 2F Floor Topology & Master Route to 3F Ladder
+## Floor Topology & Verified Observations
 - Northwest Sector: (0, 8) ladder from 1F.
-- Central Purple Corridor (row 8): Completely open across cols 5-10, connecting west entrance sector to eastern ascent corridor.
-- Eastern Ascent (column 9): Completely open vertical corridor (rows 1-8, cols 9-10) ascending directly into the top corridor at (9, 1).
-- Top Corridor (row 1): Fully open across cols 1-10 (running above Blackbelt at (4, 2)) connecting column 9 directly to the Ladder to 3F at (1, 1)!
-- Verified Ladder to 3F: Located at (1, 1) in northwest corner. Accessible via Master Route: (5, 8) -> (9, 8) -> (9, 1) -> (1, 1).
+- Row 4 Wall: Solid rock wall across cols 0-4 and 6-8, with a single 1-tile gap at (5, 4).
+- Row 7/8 Boundary: South-facing cliff/elevation barrier separating row 7 from row 8.
+- Shutter 1: Located at (5, 10), currently closed. Blocks access into the lower purple chamber (rows 8-9).
+- Ladder up to 3F: Located at (1, 1) in northwest corner of upper corridor [Observed Turn 22702].
 
 ## Dynamic Puzzle Tracking
 - Switch-Shutter Pairings:
