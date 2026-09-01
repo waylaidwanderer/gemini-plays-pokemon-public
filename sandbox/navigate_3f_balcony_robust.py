@@ -75,26 +75,28 @@ def walk_route(route_coords):
         print(f"Successfully reached {target}")
     return True
 
-# 3F Balcony Route in State A starting from (2, 12)
-route_to_balcony = [
-    {'x': 3, 'y': 12}, # RIGHT
-    {'x': 3, 'y': 11}, # UP
-    {'x': 4, 'y': 11}, {'x': 5, 'y': 11}, {'x': 6, 'y': 11}, {'x': 7, 'y': 11}, {'x': 8, 'y': 11}, {'x': 9, 'y': 11}, {'x': 10, 'y': 11}, {'x': 11, 'y': 11}, {'x': 12, 'y': 11}, # RIGHT along Row 11
-    {'x': 12, 'y': 12}, {'x': 12, 'y': 13}, {'x': 12, 'y': 14}, {'x': 12, 'y': 15}, {'x': 12, 'y': 16}, # DOWN Column 12
-    {'x': 13, 'y': 16}, {'x': 14, 'y': 16}, {'x': 15, 'y': 16}, {'x': 16, 'y': 16}, {'x': 17, 'y': 16}, {'x': 18, 'y': 16}, {'x': 19, 'y': 16}, {'x': 20, 'y': 16}, {'x': 21, 'y': 16}, # RIGHT along Row 16
-    {'x': 21, 'y': 17}, {'x': 21, 'y': 18}, # DOWN past the open balcony gate!
-    {'x': 20, 'y': 18}, {'x': 19, 'y': 18} # LEFT to Column 19 (drop!)
+# 3F Balcony Route via Column 10 in State A starting from current (13, 12)
+route_to_balcony_via_col10 = [
+    # 1. Walk LEFT to Column 10
+    {'x': 12, 'y': 12}, {'x': 11, 'y': 12}, {'x': 10, 'y': 12},
+    # 2. Walk DOWN Column 10 to Row 16
+    {'x': 10, 'y': 13}, {'x': 10, 'y': 14}, {'x': 10, 'y': 15}, {'x': 10, 'y': 16},
+    # 3. Walk RIGHT along Row 16 to Column 21
+    {'x': 11, 'y': 16}, {'x': 12, 'y': 16}, {'x': 13, 'y': 16}, {'x': 14, 'y': 16}, {'x': 15, 'y': 16}, {'x': 16, 'y': 16}, {'x': 17, 'y': 16}, {'x': 18, 'y': 16}, {'x': 19, 'y': 16}, {'x': 20, 'y': 16}, {'x': 21, 'y': 16},
+    # 4. Walk DOWN past the open balcony gate at (21, 16)
+    {'x': 21, 'y': 17}, {'x': 21, 'y': 18},
+    # 5. Walk LEFT to the drop tile at (19, 18)
+    {'x': 20, 'y': 18}, {'x': 19, 'y': 18}
 ]
 
-print("Executing 3F balcony drop navigation from (2, 12) in State A...")
+print("Executing 3F balcony drop navigation from (13, 12) in State A via Column 10...")
 print("Current Position:", mgba.get_coordinates())
 
-if walk_route(route_to_balcony):
+if walk_route(route_to_balcony_via_col10):
     print("Reached balcony drop tile (19, 18) successfully! Performing final drop step...")
     # Walking down or left from (19, 18) drops the player over the balcony railing to B1F West!
-    # Let's walk DOWN once to execute the drop!
     mgba.press_buttons(["Down"])
-    time.sleep(2.0) # wait generously for falling animation and map transition!
+    time.sleep(2.5) # wait generously for falling animation and map transition!
     
     final_pos = mgba.get_coordinates()
     print("Coordinates after balcony drop:", final_pos)
