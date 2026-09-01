@@ -2709,6 +2709,12 @@
   - Switch Plate (9, 11) <-> Shutter 1 (5, 10) pairing to be verified.
 - Item Ball: Located at (14, 2) [Observed Turn 22641]
 - Shutter 2: Located at (15, 7) (purple horizontal bars) [Observed Turn 22641]
-- Open East Plateau: Columns 11..16 across rows 4..6 form a large open chamber.
+## Verified Topology & Elevation
+- Multi-tier Elevation Architecture:
+  - Upper Plateau (rows 0-2, brown floor): Contains Blackbelt (3, 2), Moltres (9, 2), Item Ball (11, 0), and Item Ball (14, 2).
+  - Cliff Barrier (row 3): Solid south-facing cliff wall separating upper plateau from lower floor across cols 4-17.
+  - Lower Central Chamber (rows 4-6, purple floor): Cols 5-16. Accessible from western corridor.
+  - Southeast Shutter 2: Located at (15, 7), blocking southern exit from lower central chamber into southeast cavern (rows 8-10, cols 15-19).
+- Access to Upper Plateau: Follow northwest corridor (cols 0-2) north from ladder (0, 8) up to row 1-2.
 
 <hr>
