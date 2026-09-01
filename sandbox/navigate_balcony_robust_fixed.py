@@ -75,16 +75,16 @@ def walk_route(route_coords):
         print(f"Successfully reached {target}")
     return True
 
-# 1. Route to switch at (2, 6) in State B from current (7, 8)
+# 1. Route to switch at (2, 6) in State B from current (8, 7) (using completely open Column 8 highway!)
 route_to_switch_b = [
-    {'x': 7, 'y': 7}, {'x': 7, 'y': 6}, {'x': 7, 'y': 5}, {'x': 7, 'y': 4}, {'x': 7, 'y': 3}, {'x': 7, 'y': 2},
-    {'x': 6, 'y': 2}, {'x': 5, 'y': 2},
+    {'x': 8, 'y': 6}, {'x': 8, 'y': 5}, {'x': 8, 'y': 4}, {'x': 8, 'y': 3}, {'x': 8, 'y': 2},
+    {'x': 7, 'y': 2}, {'x': 6, 'y': 2}, {'x': 5, 'y': 2},
     {'x': 5, 'y': 3}, {'x': 5, 'y': 4}, {'x': 5, 'y': 5},
     {'x': 4, 'y': 5}, {'x': 3, 'y': 5},
     {'x': 3, 'y': 6}, {'x': 2, 'y': 6}
 ]
 
-# 2. Route from (2, 6) to stairs at (5, 10) in State A via Row 5
+# 2. Route from (2, 6) to stairs at (5, 10) in State A via Row 5 (completely open, bypasses Row 2 rubble!)
 route_to_stairs = [
     {'x': 3, 'y': 6}, {'x': 3, 'y': 5},
     {'x': 4, 'y': 5}, {'x': 5, 'y': 5},
@@ -100,7 +100,7 @@ route_to_balcony = [
     {'x': 20, 'y': 18}, {'x': 19, 'y': 18}
 ]
 
-print("Executing robust balcony drop script starting from (7, 8)...")
+print("Executing robust balcony drop script starting from (8, 7)...")
 if walk_route(route_to_switch_b):
     print("Reached (2, 6) successfully! Facing UP and toggling the switch to State A...")
     mgba.press_buttons(["Up"])
