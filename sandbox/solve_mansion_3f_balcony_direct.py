@@ -100,20 +100,27 @@ def walk_route(route_coords):
                 return False
     return True
 
-# Route to (21, 10) from current (22, 7) on 3F East (no escape_battle needed at start!)
-route_to_21_10 = [
-    {'x': 21, 'y': 7},
+# Route from (21, 7) to (21, 18) down Column 21 in State A
+route_to_21_18 = [
     {'x': 21, 'y': 8},
     {'x': 21, 'y': 9},
-    {'x': 21, 'y': 10}
+    {'x': 21, 'y': 10},
+    {'x': 21, 'y': 11},
+    {'x': 21, 'y': 12},
+    {'x': 21, 'y': 13},
+    {'x': 21, 'y': 14},
+    {'x': 21, 'y': 15},
+    {'x': 21, 'y': 16}, # open balcony gate in State A!
+    {'x': 21, 'y': 17},
+    {'x': 21, 'y': 18}
 ]
 
-print("Walking to (21, 10) starting directly in the overworld...")
+print("Walking down Column 21 to Row 18...")
 print("Current position:", mgba.get_coordinates())
 
-if walk_route(route_to_21_10):
-    print("Successfully reached (21, 10)!")
+if walk_route(route_to_21_18):
+    print("Successfully reached (21, 18)!")
     mgba.take_screenshot()
 else:
-    print("Failed to reach (21, 10).")
+    print("Failed to reach (21, 18).")
     mgba.take_screenshot()
