@@ -30,12 +30,15 @@
 - Switch Plate 1: Located at (9, 11) (circular red/yellow plate)
 - Juggler / Trainer: Located at (12, 9) facing Left
 
-### Floor 2F Push Session Log
-- Turn 22565: Arrived on 2F from 1F ladder. Strength field move activated.
-- Turn 22583: Pushed Boulder 1 North from (5, 5) to (5, 4) [Pre-reset session].
-- Turn 22701: Pushed Boulder 1 North from (5, 5) to (5, 3) [Current active session].
-- Turn 22753: Pushed Boulder 2 North from (4, 14) to (4, 11).
-- Turn 22760: Pushed Boulder 2 East from (4, 11) to (5, 11).
+### Verified Push Mechanics & Trajectories
+- Column 3 is the verified, open vertical runway from row 11 to row 16.
+- Column 1 has rock obstacles at rows 12-13 and cannot be used for vertical traversal.
+- To push Boulder 2 onto Switch Plate 1 (1, 16):
+  1. Push Boulder 2 along column 5 from (5, 14) to (5, 11).
+  2. Push Boulder 2 West from (5, 11) to (3, 11).
+  3. Stand at (3, 10) and push Boulder 2 South down column 3 to (3, 16).
+  4. Stand at (4, 16) and push Boulder 2 West along row 16 to (1, 16) [ON SWITCH!].
+  5. Shutter 1 at (5, 10) OPENS.
 ### Floor 2F Boulder Reset State (Default)
 - Initial Spawn: Boulder 1 at (5, 5), Boulder 2 at (4, 14).
 - Switch Plates: Switch 1 at (1, 16) [controls Shutter 1 at (5, 10)]; Switch 2 at (9, 11).
