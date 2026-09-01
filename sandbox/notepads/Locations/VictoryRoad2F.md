@@ -37,3 +37,7 @@
   - Blackbelt trainer at (4, 2)
   - Ladder to 3F (NW) at (1, 1)
   - Eastward extension towards Moltres and eastern 2F plateau
+## Verified Western Corridor & Shutter 1 Connectivity
+- (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (row 8-9) to row 11.
+- From (5, 10), step South to (5, 11) to access the lower western highway.
+- Column 0 (and open floor at cols 2-3) connects row 11 continuously north to (0, 8) [1F ladder] and (1, 1) [3F northwest ladder].
