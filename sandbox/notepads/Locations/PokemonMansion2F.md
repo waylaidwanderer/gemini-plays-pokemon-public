@@ -57,3 +57,6 @@
 ## Pitfall Warp landing (Verified Turn 71668)
 - **3F East Pitfall landing:** Falling through the pitfall at `(26, 3)` on 3F East lands the player at `(26, 4)` on 2F East (Southeast fenced area).
 - **2F East physical layout near landing:** Columns 22, 23, 24 on Row 4 on 2F East are permanently blocked by rubble. Row 3 Columns 21-27 is a completely open pink checkered horizontal path connecting Columns 21 and 25. Row 6 Column 15 is completely open and serves as the horizontal transition between 2F East and 2F West in State B.
+## 🚨 DECOY WARNING (Verified Turn 72876)
+- **Northeast Stairs (22, 1) are a DECOY/ONE-WAY EXIT!** They are CLOSED in State B and cannot be used to go up to 3F East. In State A, although they are open, the West and East halves of 2F are completely separated, making them unreachable from the West.
+- **The ONLY correct path to the balcony is via the Southwest Stairs (5, 10) on 2F West in State A!**
