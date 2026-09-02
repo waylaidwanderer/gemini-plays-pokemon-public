@@ -2747,5 +2747,7 @@
 - Northern Upper Corridor Access: From the NW terrace (3..7, 5..7), stand at (6, 5) and push Boulder 1 West from (5, 5) to (4, 5). This opens the (5, 4) -> (5, 3) vertical bottleneck onto row 3, allowing unrestricted eastward traversal across rows 1-3 to the Eastern Platform.
 - Column 9 & 10 Corridor: Columns 9 and 10 form a completely open, unobstructed 2-tile wide vertical highway connecting the Central Corridor at (9..10, 8) directly north to the Northern Upper Corridor at (9..10, 2..3), bypassing the terrace/Boulder 1 bottleneck entirely.
 - Primary 2F Progression Route: Solve Boulder 2 puzzle on Lower Highway to open Shutter 1 at (5, 10), walk through Shutter 1 into Central Corridor, ascend Column 9 corridor to Northern Upper Corridor (row 2-3), and traverse East to SE 3F ladder at (25, 14) (or West to NW 3F ladder at (1, 1)).
+- Column 8 Rock Wall: (8, 10..15) is a solid rock wall separating the lower western sector (rows 10-16, cols 1-7) from the lower eastern sector (rows 10-16, cols 9-26).
+- Row 10 Wall: (6..12, 10) is a solid rock wall; columns 13 and 14 form the open vertical passage connecting Central Corridor (row 8) to the Eastern Sector (rows 11-16). Switch Plate 2 at (9, 11) is accessed from column 14 via row 11 west ((14, 11) -> (10, 11) -> (9, 11)).
 
 <hr>
