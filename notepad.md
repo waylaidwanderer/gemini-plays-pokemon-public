@@ -2606,7 +2606,7 @@
 - SURF is strictly required across rows 74-103 (no solid bridge exists).
 - To traverse: Open Start Menu -> POKéMON -> Select HYDROS -> Select SURF.
 - Soul Badge Checkpoint Guard is at (11, 96) in the canal.
-- Canal northern landing is on the west bank at (4, 75) / (4, 74), where player steps out of water onto the western paved road.
+- Canal northern landing is on the east bank at (8..12, 71), where player steps out of water onto the green lawn north of row 72.
 
 <hr>
 
