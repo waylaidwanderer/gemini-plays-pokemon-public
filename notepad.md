@@ -2652,21 +2652,17 @@
 - Boulder at (5, 15) pushed via lower highway (row 16) to eastern corridor (14, 14) -> (16, 12) -> (17, 12) -> onto Switch (17, 13).
 - Lowers shutters at (5, 13) and (7, 7), unlocking access to 2F Ladder at (1, 1).
 
-## Floor 2F Master Solution (Systematic Protocol & Testing Plan)
+## Floor 2F Master Solution (SOLVED & VERIFIED)
 
 ### Master Progression Route:
 1. **Phase 1 (Boulder 2 -> Switch 1 @ (1, 16)) [SOLVED & VERIFIED Turn 23674-23676]**:
    - Initial position: Boulder 2 at (4, 14).
    - Verified Push Sequence: (4, 14) -> (3, 14) -> (3, 15) -> (3, 16) -> (2, 16) -> (1, 16) [Switch Plate 1].
-   - **Result**: Shutter 1 at (5, 10) is OPEN (physically walked through at Turn 23676).
+   - **Result**: Shutter 1 at (5, 10) AND Shutter 3 at (21, 15) are OPEN!
 
-2. **Phase 2 (Empirical Testing of Eastern Shutters @ (21, 15) / (15, 15)) [ACTIVE]**:
-   - Test whether Switch 1 (1, 16) lowered Shutter 3 at (21, 15) or Shutter 2 at (15, 15).
-   - Route to Shutter 3: From (5, 8) in Central Corridor -> (13, 8) -> (13, 12) -> (20, 12) -> (20, 14) -> (21, 14) -> step South into (21, 15).
-   - If (21, 15) is passable: Walk East along row 16 directly to SE Ladder at (25, 14) up to 3F!
-
-3. **Phase 3 (Alternative: 3F Boulder Pit Drop)**:
-   - If eastern shutters require Switch 2 (9, 11), access 3F to find the boulder pit that drops onto Switch 2.
+2. **Phase 2 (Traverse Shutter 3 to SE Ladder @ (25, 14)) [SOLVED & VERIFIED Turn 23736]**:
+   - Route: From (5, 8) in Central Corridor -> (13, 8) -> (13, 12) -> (20, 12) -> (20, 14) -> (21, 14) -> stepped South into Shutter 3 at (21, 15)!
+   - Walk along row 16: (21, 16) -> (25, 16) -> (25, 14) to ascend SE Ladder to Victory Road 3F!
 
 ## Battle Escape Protocol (Standardized)
 - Turn 1: Dismiss intro text with `['A', 'B']`.
