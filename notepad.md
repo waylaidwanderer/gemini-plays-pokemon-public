@@ -30,9 +30,6 @@
 - `Mechanics/UI_And_Border_Rendering` - Tile graphics, coordinate overlays.
 - `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
 
-## Current Party Status (Blastoise Solo Runner)
-- **SHELLBY** (Blastoise) - Level 62, healthy. Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
-
 
 <hr>
 
