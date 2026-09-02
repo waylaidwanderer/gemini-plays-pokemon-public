@@ -2660,26 +2660,24 @@
    - Verified Push Sequence: (4, 14) -> (3, 14) -> (3, 15) -> (3, 16) -> (2, 16) -> (1, 16) [Switch Plate 1].
    - **Result**: Shutter 1 at (5, 10) is OPEN (physically walked through at Turn 23676).
 
-2. **Phase 2 (Boulder 1 onto row 3 @ (5, 3)) [SOLVED & VERIFIED Turn 23703-23704]**:
-   - Initial position: Boulder 1 at (5, 5).
-   - Push Sequence: Pushed North from (5, 6) -> (5, 4) -> (5, 3) on row 3!
-   - **Result**: Boulder 1 is positioned at (5, 3) on the row 3 upper highway.
+2. **Phase 2 (Empirical Testing of Eastern Shutters @ (21, 15) / (15, 15)) [ACTIVE]**:
+   - Test whether Switch 1 (1, 16) lowered Shutter 3 at (21, 15) or Shutter 2 at (15, 15).
+   - Route to Shutter 3: From (5, 8) in Central Corridor -> (13, 8) -> (13, 12) -> (20, 12) -> (20, 14) -> (21, 14) -> step South into (21, 15).
+   - If (21, 15) is passable: Walk East along row 16 directly to SE Ladder at (25, 14) up to 3F!
 
-3. **Phase 3 (Circumvent via Eastern Ramp to row 3 @ (6, 3)) [IN PROGRESS]**:
-   - Route: From (5, 4), walk south through Shutter 1 (5, 10) to (5, 8).
-   - Walk east along Central Corridor (row 8) to (13, 8) -> south to (13, 12) -> east along row 12 to (19, 12).
-   - Walk north up Eastern Ramp: (19, 11) -> (19, 8) -> (19, 3) onto upper highway!
-   - Walk west along row 3: (19, 3) -> (9, 3) -> (6, 3).
-   - Stand at (6, 3) facing West towards Boulder 1 at (5, 3).
-
-4. **Phase 4 (Push Boulder 1 West to clear NW Ladder @ (1, 1))**:
-   - From (6, 3), push Boulder 1 West: (5, 3) -> (4, 3) -> (3, 3) -> (2, 3) -> (1, 3).
-   - Walk north: (1, 3) -> (1, 2) -> (1, 1) [Ladder up to Victory Road 3F!].
+3. **Phase 3 (Alternative: 3F Boulder Pit Drop)**:
+   - If eastern shutters require Switch 2 (9, 11), access 3F to find the boulder pit that drops onto Switch 2.
 
 ## Battle Escape Protocol (Standardized)
 - Turn 1: Dismiss intro text with `['A', 'B']`.
 - Turn 2: Select RUN from battle menu with `['Down', 'Right', 'A']`.
 - Turn 3: Clear "Got away safely!" textbox with `['A']` or `['B']`.
+
+## Verified Collision Truths (2F)
+- (19, 11) is a solid south-facing cliff wall / ledge; northward passage from (19, 12) into (19, 11) is blocked.
+- (5, 2) is a solid rock obstacle blocking northward boulder movement from (5, 3).
+- (21, 13) is occupied by a defeated Juggler NPC (solid obstacle; bypass via column 20).
+- (23, 14) is a west-facing ledge (one-way descent from SE platform).
 
 
 <hr>
