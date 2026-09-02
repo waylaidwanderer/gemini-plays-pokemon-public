@@ -39,3 +39,7 @@
 - (21, 9..12) is a solid vertical rock wall separating column 20 from columns 22-23.
 - (24, 4), (25, 4), (26, 4) are rock obstacles; column 25 cannot be traversed south from row 3.
 - (27, 6) and (28, 6) are solid rock cliffs; northeastern sector (rows 0-5) has no southward exit into lower eastern corridors.
+- [x] Item Ball at (7, 7) [Collected Turn 24115]
+- (5, 1) is a solid rock cliff / wall blocking Left movement from (6, 1).
+- (6, 6) -> (6, 7) is blocked when attempting to step South.
+- (7, 7) -> (6, 7) is a solid rock cliff blocking Left movement.
