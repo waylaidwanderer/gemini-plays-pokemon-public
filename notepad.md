@@ -1426,6 +1426,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Pitfall Warp landing (Verified Turn 71668)
 - **3F East Pitfall landing:** Falling through the pitfall at `(26, 3)` on 3F East lands the player at `(26, 4)` on 2F East (Southeast fenced area).
 - **2F East physical layout near landing:** Columns 22, 23, 24 on Row 4 on 2F East are permanently blocked by rubble. Row 3 Columns 21-27 is a completely open pink checkered horizontal path connecting Columns 21 and 25. Row 6 Column 15 is completely open and serves as the horizontal transition between 2F East and 2F West in State B.
+## 🚨 DECOY WARNING (Verified Turn 72876)
+- **Northeast Stairs (22, 1) are a DECOY/ONE-WAY EXIT!** They are CLOSED in State B and cannot be used to go up to 3F East. In State A, although they are open, the West and East halves of 2F are completely separated, making them unreachable from the West.
+- **The ONLY correct path to the balcony is via the Southwest Stairs (5, 10) on 2F West in State A!**
+
 
 <hr>
 
@@ -1472,6 +1476,15 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 
 ### State A Limitations
 - In **State A**, the pitfall trap at `(26, 3)` on 3F East is closed/covered and cannot be fallen through (empirically disproven on Turn 72338 and Turn 72345). Thus, Path 2 is not viable in State A.
+## 🗺️ Verified Final Balcony Route (State A)
+1. Set Mansion to **State A** using the 2F West switch at `(2, 11)` (standing at `(2, 12)` facing UP).
+2. Take the Southwest Stairs at `(5, 10)` on 2F West UP to 3F West, landing at `(5, 11)` on 3F West.
+3. Walk down to Row 15 on 3F West: `(5, 11)` -> `(5, 15)`.
+4. Walk right along Row 15, crossing Column 11 (which is open on Row 15!) to reach 3F East at `(12, 15)`.
+5. Walk right to Column 21: `(12, 15)` -> `(21, 15)`.
+6. Walk down through the open balcony gate at `(21, 16)` (since it is open in State A!) onto the balcony.
+7. Walk to the balcony drop at `(19, 18)` and fall through to land on B1F West!
+
 
 <hr>
 
