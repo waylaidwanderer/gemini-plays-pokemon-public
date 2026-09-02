@@ -1425,7 +1425,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - Balcony shutter gate at `(21, 16)` is **OPEN**.
 
 ## Mewtwo Statue Switches on 3F
-- **3F West Switch:** Located at `(2, 11)`. Interacted from `(2, 12)` facing UP.
+- **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 - **3F East Switch:** Located at `(12, 10)`. Interacted from `(12, 11)` facing UP.
 
 ## The Two Paths to B1F West (Secret Key)
@@ -1440,7 +1440,6 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 
 ### State A Limitations
 - In **State A**, the pitfall trap at `(26, 3)` on 3F East is closed/covered and cannot be fallen through (empirically disproven on Turn 72338 and Turn 72345). Thus, Path 2 is not viable in State A.
-
 
 <hr>
 

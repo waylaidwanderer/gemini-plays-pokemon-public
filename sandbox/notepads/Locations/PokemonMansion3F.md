@@ -24,7 +24,7 @@
   - Balcony shutter gate at `(21, 16)` is **OPEN**.
 
 ## Mewtwo Statue Switches on 3F
-- **3F West Switch:** Located at `(2, 11)`. Interacted from `(2, 12)` facing UP.
+- **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 - **3F East Switch:** Located at `(12, 10)`. Interacted from `(12, 11)` facing UP.
 
 ## The Two Paths to B1F West (Secret Key)
