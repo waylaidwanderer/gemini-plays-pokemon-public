@@ -2743,7 +2743,6 @@
   - Eastward extension towards Moltres and eastern 2F plateau
 ## Verified Corridor Traversal & Elevation Topology
 - (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (rows 8-9) to lower western highway (row 11).
-- (9, 7) is a solid impassable cliff obstacle; row 8 does NOT connect north to row 2 via column 9.
 - (23, 14) is an empirically verified one-way ledge facing west (Turn 23433: stepping East from (22, 14) is blocked); direct entry from lower floor (22, 14) onto ladder platform (24..26, 12..14) is impossible. Access to the SE ladder (25, 14) requires traversing the Northern Upper Corridor (rows 1-3) from the west and walking South down the platform (cols 24-26).
 - Northern Upper Corridor Access: From the NW terrace (3..7, 5..7), stand at (6, 5) and push Boulder 1 West from (5, 5) to (4, 5). This opens the (5, 4) -> (5, 3) vertical bottleneck onto row 3, allowing unrestricted eastward traversal across rows 1-3 to the Eastern Platform.
 - Column 9 & 10 Corridor: Columns 9 and 10 form a completely open, unobstructed 2-tile wide vertical highway connecting the Central Corridor at (9..10, 8) directly north to the Northern Upper Corridor at (9..10, 2..3), bypassing the terrace/Boulder 1 bottleneck entirely.
