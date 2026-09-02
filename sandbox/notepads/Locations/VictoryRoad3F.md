@@ -34,3 +34,6 @@
 - (8..11, 11) is a solid rock wall.
 - (13, 12) is an orange Boulder between walls (12, 12) and (14, 12).
 - (24, 10) is an orange Boulder in eastern central corridor.
+- (24, 4) is a solid rock obstacle when attempting to step South from (24, 3).
+- Boulder at (13, 12) pushed to (13, 13): from (13, 12), (12, 12) is rock wall (West), (14, 12) is rock wall (East), and pushing South against Boulder (13, 13) is blocked by (13, 14) rock wall.
+- (21, 9..12) is a solid vertical rock wall separating column 20 from columns 22-23.
