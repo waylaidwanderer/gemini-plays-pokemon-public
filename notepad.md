@@ -1379,7 +1379,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
 - **Row 6 Column 15 is Open:** Completely open and walkable pink checkered floor, allowing horizontal crossing (verified open in State A on Turn 72327).
 - **Row 6 Column 22 is a Solid Wall:** Solid vertical partition wall panel (impassable).
-- **Row 8 Barrier (Columns 11-28):** Completely blocked horizontally across the entire floor. Columns 11-17 and 20-22 are solid wall panel; Columns 18-19 are solid bookcase/drawers; Columns 23 is solid rubble; Columns 24-28 are solid horizontal partition wall. No vertical travel is possible across Row 8 on 3F East!
+- **Row 8 Barrier (Columns 11-28):** Completely blocked horizontally across the entire floor. Columns 12-17 and 20-22 are solid wall panel; Column 11 on Row 8 is completely open and walkable vertically; Columns 18-19 are solid bookcase/drawers; Columns 23 is solid rubble; Columns 24-28 are solid horizontal partition wall. No vertical travel is possible across Row 8 on 3F East!
 - **Column 11 Row 16 is a Solid Wall:** Solid vertical partition wall panel, preventing horizontal travel along Row 16 between 3F West (Column 10) and 3F East (Column 12).
 - **Row 12 Debris (Columns 14-17):** Solid rubble permanently blocks horizontal travel along Row 12 on Columns 14-17.
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
@@ -1414,14 +1414,6 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 
 ### State A Limitations
 - In **State A**, the pitfall trap at `(26, 3)` on 3F East is closed/covered and cannot be fallen through (empirically disproven on Turn 72338 and Turn 72345). Thus, Path 2 is not viable in State A.
-## 🗺️ Verified Final Balcony Route (State A)
-1. Set Mansion to **State A** using the 2F West switch at `(2, 11)` (standing at `(2, 12)` facing UP).
-2. Take the Southwest Stairs at `(5, 10)` on 2F West UP to 3F West, landing at `(5, 11)` on 3F West.
-3. Walk down to Row 15 on 3F West: `(5, 11)` -> `(5, 15)`.
-4. Walk right along Row 15, crossing Column 11 (which is open on Row 15!) to reach 3F East at `(12, 15)`.
-5. Walk right to Column 21: `(12, 15)` -> `(21, 15)`.
-6. Walk down through the open balcony gate at `(21, 16)` (since it is open in State A!) onto the balcony.
-7. Walk to the balcony drop at `(19, 18)` and fall through to land on B1F West!
 
 
 <hr>
