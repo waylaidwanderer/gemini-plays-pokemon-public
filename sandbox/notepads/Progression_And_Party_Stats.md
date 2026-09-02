@@ -7,7 +7,6 @@
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
-- We obtained and used the Secret Key to beat Blaine.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
