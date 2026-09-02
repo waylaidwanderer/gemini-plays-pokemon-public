@@ -3,18 +3,15 @@
 ## General Information
 - Ladder down to 1F: Located at (0, 8) [Arrived Turn 22565]
 
-## Baseline Floor Geometry & Objects
-- Ladder up to 3F (Northwest): Located at (1, 1) in northwest corner of upper corridor [Observed Turn 22702]
-- Ladder up to 3F (Southeast): Located at (25, 14) in southeast clearing [Observed Turn 22840]
-- Blackbelt: Located at (4, 2) facing South [Observed Turn 22692].
-- Boulder 1: Default initial location at (5, 5) [Observed Turn 22565].
-- Boulder 2: Default initial location at (4, 14) on Lower Highway [Observed Turn 22705].
-- Shutter 1: Located at (5, 10) (Opened by Switch Plate (1, 16)) [Verified Turn 22814].
-- Switch Plate 1: Located at (1, 16) in southwest corner [Verified Turn 22814].
-- Switch Plate (Upper): Located at (9, 11) (circular red/yellow plate) [Observed Turn 22586].
-- Moltres: Located at (11, 5) on elevated plateau [Observed Turn 22580].
-- Shutter 2: Located at (15, 15) in eastern sector.
-- Shutter 3: Located at (21, 15) in eastern sector.
+## Baseline Floor Geometry & Key Objects
+- Ladder to 1F: Located at (0, 8)
+- Ladder to 3F (Northwest): Located at (1, 1) in NW corridor (connects to 3F (2, 0))
+- Ladder to 3F (Southeast): Located at (25, 14) in SE clearing (connects to 3F (26, 8))
+- Moltres: Located at (11, 5) on elevated plateau
+- Boulder 1: Default position at (5, 5) in NW upper corridor
+- Boulder 2: Default position at (4, 14) on lower western highway
+- Switch Plate 1: (1, 16) in SW corner (opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15))
+- Switch Plate 2: (9, 11) in central sector
 
 ## Defeated Trainers (2F)
 - [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: �1075.
