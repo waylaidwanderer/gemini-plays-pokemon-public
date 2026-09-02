@@ -2752,5 +2752,11 @@
 - Push Boulder at (22, 15) into Hole at (23, 15) to drop onto 2F.
 - Drop through hole or traverse 3F to reach final exit.
 
+## Verified Geometry (Turns 23770-23777)
+- Upper elevated terrace: rows 0-1 continuous across cols 12-25+.
+- North Central Lower Chamber: rows 2-4 (cols 12-18) with Cooltrainer♂ at (13, 3) facing Down.
+- Shutter 1: Located at (17, 5) separating North Central Chamber from Lower Central Hall.
+- Northeast Item Ball: Located at (26, 5), Cooltrainer♀ at (28, 5).
+- Ladder to 2F: Located at (23, 7).
 
 <hr>
