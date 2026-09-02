@@ -2697,16 +2697,14 @@
 ## Baseline Floor Geometry & Key Objects
 - Ladder to 1F: Located at (0, 8)
 - Ladder to 3F (Northwest): Located at (1, 1) in NW corridor (connects to 3F (2, 0))
-- Exit Platform (Southeast): Elevated platform with Ladder at (25, 14) and one-way West Ledge at (23, 14) (connects to lower corridor (21..27, 16) via open Shutter 3 at (21, 15))
+- Ladder to 3F (Southeast): Located at (25, 14) on elevated platform
 - Moltres: Located at (11, 5) on elevated plateau
-- Boulder 1: Default position at (5, 5) in NW upper corridor
-- Boulder 2: Default position at (4, 14) on lower western highway
 - Switch Plate 1: (1, 16) in SW corner (opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15))
 - Switch Plate 2: (9, 11) in central sector
 
 ## Defeated Trainers (2F)
-- [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: �1075.
-- [x] Juggler: (21, 13) [Defeated Turn 22845]. Roster: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41 x2. Reward: �1435.
+- [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: ¥1075.
+- [x] Juggler: (21, 13) [Defeated Turn 22845]. Roster: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41 x2. Reward: ¥1435.
 
 ## Terrace & Elevation Topology
 - Terrace (3..7, 5..7) Exits:
@@ -2718,6 +2716,7 @@
   - Blackbelt trainer at (4, 2)
   - Ladder to 3F (NW) at (1, 1)
   - Eastward extension towards Moltres and eastern 2F plateau
+
 ## Verified Corridor Traversal & Elevation Topology
 - (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (rows 8-9) to lower western highway (row 11).
 - (23, 14) is an empirically verified one-way ledge facing west (Turn 23433: stepping East from (22, 14) is blocked); direct entry from lower floor (22, 14) onto ladder platform (24..26, 12..14) is impossible.
@@ -2731,6 +2730,7 @@
   - Central intersection: Column 14 connects North to Central Corridor (row 8) and South to lower Eastern floor (row 12-14).
 - [x] Pokémaniac: Located at (4, 2) facing South in NW corridor [Defeated Turn 23875]. Roster: Charmeleon Lv 40, Lapras Lv 40, Lickitung Lv 40. Reward: ¥2000.
 - Observed Ladders at (23, 7) & (27, 7): Visual line-of-sight confirmed on 2F. Column 28 is blocked at (28, 10); passage from row 16 north is blocked.
+
 
 <hr>
 
