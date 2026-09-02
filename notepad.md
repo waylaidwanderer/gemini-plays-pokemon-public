@@ -2653,7 +2653,7 @@
 - Boulder at (5, 15) pushed via lower highway (row 16) to eastern corridor (14, 14) -> (16, 12) -> (17, 12) -> onto Switch (17, 13).
 - Lowers shutters at (5, 13) and (7, 7), unlocking access to 2F Ladder at (1, 1).
 
-## Floor 2F Master Solution (Verified Turn 23535)
+## Floor 2F Master Solution (Systematic Protocol & Testing Plan)
 
 ### Two-Boulder Master Protocol:
 1. **Phase 1 (Boulder 2 -> Switch 1 @ (1, 16))**:
