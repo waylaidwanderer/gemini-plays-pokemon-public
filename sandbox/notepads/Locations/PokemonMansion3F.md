@@ -25,7 +25,7 @@
 
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 11)`. Interacted from `(2, 12)` facing UP.
-- **3F East Switch:** Located at `(12, 11)`. Interacted from `(12, 12)` facing UP.
+- **3F East Switch:** Located at `(12, 10)`. Interacted from `(12, 11)` facing UP.
 
 ## The Two Paths to B1F West (Secret Key)
 Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 16 is blocked, 3F is physically split.
@@ -37,8 +37,5 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 4. Walk to the 3F East switch at `(12, 11)` (via Column 12, open in State B), stand at `(12, 12)` facing UP, and toggle to **State A**.
 5. This closes the gate at `(12, 13)` behind you, but opens the balcony gate at `(21, 16)`!
 
-
 ### State A Limitations
 - In **State A**, the pitfall trap at `(26, 3)` on 3F East is closed/covered and cannot be fallen through (empirically disproven on Turn 72338 and Turn 72345). Thus, Path 2 is not viable in State A.
-
-
