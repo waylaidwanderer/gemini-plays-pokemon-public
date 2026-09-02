@@ -36,6 +36,8 @@
 - **Staircase (7, 10) on 2F West:** Warps DOWN to 1F West, landing at `(7, 11)` on 1F West.
 
 ## Empirical Gate Observations (Verified Turn 71043 / 71052)
+- **State A:**
+  - Shutter gate / Column 15 Row 6 on 2F East is CLOSED in State A (verified Turn 72301).
 - **State B (Default):**
   - Shutter gate at `(5, 9)` on Column 5 is CLOSED, blocking the stairs UP at `(5, 10)`.
   - Shutter gates on Row 11 (Columns 5, 6, 7) are OPEN, allowing horizontal passage between 2F West and 2F East.
