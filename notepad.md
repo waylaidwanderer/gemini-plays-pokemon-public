@@ -2748,6 +2748,7 @@
 - Observed Ladders at (23, 7) & (27, 7): Visual line-of-sight confirmed on 2F. Column 28 is blocked at (28, 10); passage from row 16 north is blocked.
 
 - (15, 8) is an impassable rock obstacle blocking South movement from (15, 7).
+- [x] Tamer: (19, 8) [Defeated Turn 24158]. Roster: Persian Lv 44, Golduck Lv 44. Reward: ¥1936.
 
 <hr>
 
