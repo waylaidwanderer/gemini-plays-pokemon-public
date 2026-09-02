@@ -1446,11 +1446,8 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 5. This closes the gate at `(12, 13)` behind you, but opens the balcony gate at `(21, 16)`!
 
 
-### Path 2: The Pitfall Route (State A)
-1. Set Mansion to **State A** on 3F West.
-2. Walk to 3F East via Row 2 (open in State A).
-3. Walk to the pitfall at `(26, 3)` on 3F East and step onto it to fall to `(26, 4)` on 2F East (Southeast fenced area).
-4. Walk out of the 1F East fenced room via the open gate at `(25, 13)` (open in State A).
+### State A Limitations
+- In **State A**, the pitfall trap at `(26, 3)` on 3F East is closed/covered and cannot be fallen through (empirically disproven on Turn 72338 and Turn 72345). Thus, Path 2 is not viable in State A.
 
 
 
