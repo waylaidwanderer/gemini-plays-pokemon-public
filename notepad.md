@@ -2793,5 +2793,10 @@
 - (5, 1) is a solid rock cliff / wall blocking Left movement from (6, 1).
 - (6, 6) -> (6, 7) is blocked when attempting to step South.
 - (7, 7) -> (6, 7) is a solid rock cliff blocking Left movement.
+## Verified Collisions & Ladders (3F)
+- Ladder to 2F is at (26, 8) with arrival/spawn tile at (23, 7).
+- (24, 7) is a solid rock obstacle (stepping Right from (23, 7) is blocked).
+- (12, 7) is blocked to the left by solid rock at (11, 7).
+- (23, 6) is a south-facing ledge (stepping Up from (23, 7) is blocked). Northward passage to upper terrace is via (21, 7) -> (21, 6) -> (21, 3).
 
 <hr>
