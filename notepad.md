@@ -2528,9 +2528,7 @@
 - Cliff wall: (26..29, 7..13) blocks middle section.
 - Upper Corridor: From (31, 7) gap, walk North to (31, 6) -> (30, 6) -> (30, 5). Path continues west along row 5 (row 6 is blocked at (29, 6) by a cliff corner).
 - Lower Road: Rows 14 and 15 (y=14..15) form the lower paved road.
-- Route to Gatehouse:
-  1. From (33, 13), walk North through tall grass along column 31 through (31, 7) gap to (31, 6) -> (30, 6) -> (30, 5).
-  2. Follow upper corridor west along row 5 to (29, 5) where Rival RED battle triggers.
+
 - Rival RED Battle Details:
   - Trigger Location: (29, 5) along row 5 upper corridor.
   - Observed Roster:
