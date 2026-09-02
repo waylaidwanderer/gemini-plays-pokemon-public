@@ -4,7 +4,7 @@
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
 - **Row 6 Column 15 is Open:** Completely open and walkable pink checkered floor, allowing horizontal crossing (verified open in State A on Turn 72327).
 - **Row 6 Column 22 is a Solid Wall:** Solid vertical partition wall panel (impassable).
-- **Row 8 Barrier (Columns 11-28):** Completely blocked horizontally across the entire floor. Columns 13-17 and 20-22 are solid wall panel; Column 11 on Row 8 is completely open and walkable vertically; Columns 18-19 are solid bookcase/drawers; Columns 23 is solid rubble; Columns 24-28 are solid horizontal partition wall. No vertical travel is possible across Row 8 on 3F East!
+- **Row 8 Barrier (Columns 11-28):** Completely blocked horizontally across the entire floor. Columns 13-17 and 20-22 are solid wall panel; Column 11 on Row 8 is completely open and walkable vertically; Columns 18-19 are solid bookcase/drawers; Columns 23 is solid rubble; Columns 24-28 are solid horizontal partition wall. Vertical travel is possible across Row 8 on 3F East via Column 12 (verified on Turn 73108).
 - **Column 11 Row 16 is a Solid Wall:** Solid vertical partition wall panel, preventing horizontal travel along Row 16 between 3F West (Column 10) and 3F East (Column 12).
 - **Row 12 Debris (Columns 14-17):** Solid rubble permanently blocks horizontal travel along Row 12 on Columns 14-17.
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
@@ -28,7 +28,7 @@
 - **3F East Switch:** Located at `(12, 10)`. Interacted from `(12, 11)` facing UP.
 
 ## The Two Paths to B1F West (Secret Key)
-Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 16 is blocked, 3F is physically split.
+Row 8 is partially blocked, but 3F East and West are horizontally connected via Row 11 and Row 6.
 
 ### Path 1: The Pitfall Route (Mansion B1F Unlocked in State B)
 1. Set Mansion to **State B** on 3F West.
