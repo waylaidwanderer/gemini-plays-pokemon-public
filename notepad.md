@@ -2710,8 +2710,10 @@
 ## General Information
 - Ladder down to 1F: Located at (0, 8) [Arrived Turn 22565]
 
+## Collected Items
+- [x] Item Ball at (18, 9) [Collected Turn 24170]
+
 ## Baseline Floor Geometry & Key Objects
-- Ladder to 1F: Located at (0, 8)
 - Ladder to 3F (Northwest): Located at (1, 1) in NW corridor (connects to 3F (2, 0))
 - Ladder to 3F (Southeast): Located at (25, 14) on elevated platform
 - Moltres: Located at (11, 5) on elevated plateau
