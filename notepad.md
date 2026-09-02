@@ -2709,7 +2709,7 @@
 ## Baseline Floor Geometry & Key Objects
 - Ladder to 1F: Located at (0, 8)
 - Ladder to 3F (Northwest): Located at (1, 1) in NW corridor (connects to 3F (2, 0))
-- Ladder to 3F (Southeast): Located at (25, 14) in SE clearing (connects to 3F (26, 8))
+- Exit Platform (Southeast): Elevated platform with Ladder at (25, 14) and one-way West Ledge at (23, 14) (connects to lower corridor (21..27, 16) via open Shutter 3 at (21, 15))
 - Moltres: Located at (11, 5) on elevated plateau
 - Boulder 1: Default position at (5, 5) in NW upper corridor
 - Boulder 2: Default position at (4, 14) on lower western highway
