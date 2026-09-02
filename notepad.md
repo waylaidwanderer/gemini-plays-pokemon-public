@@ -84,9 +84,9 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
 ## current Party Status (Solo Blastoise Runner)
 - **SHELLBY** (Blastoise) - Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
 
-## Badge Status & Gym Clearances (Verified Ground Truth - Turn 72062)
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
-- **Earth Badge (Viridian Gym):** Target Badge #8 (Unlocked).
+## Badge Status & Gym Clearances (Verified Ground Truth - Turn 72093)
+- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
+- **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Locked - We do not have the Secret Key yet).
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
