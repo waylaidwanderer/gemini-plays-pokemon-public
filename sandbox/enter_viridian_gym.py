@@ -1,41 +1,54 @@
 import mgba
 import time
 
-def enter_from_east():
-    print("Walking right to find a gap or eastern road...")
-    # Walk right as far as possible (up to x=38)
-    for i in range(10):
-        pos = mgba.get_coordinates()
-        if pos['x'] >= 38:
-            break
-        mgba.press_buttons(["Right"])
-        time.sleep(0.2)
-        
-    pos = mgba.get_coordinates()
-    print(f"Walked right to: {pos}")
+def walk_back():
+    print("Walking from (32, 10) back to (29, 8) via Column 18...")
     
-    # Now try to walk UP to Row 8
-    for _ in range(5):
-        mgba.press_buttons(["Up"])
-        time.sleep(0.2)
-        
-    pos = mgba.get_coordinates()
-    print(f"Walked UP to: {pos}")
-    
-    # Now walk Left to x=32
-    for _ in range(10):
-        pos = mgba.get_coordinates()
-        if pos['x'] <= 32:
-            break
+    # Walk left to (18, 10)
+    for _ in range(14):
         mgba.press_buttons(["Left"])
-        time.sleep(0.2)
+        time.sleep(0.1)
+        
+    print(f"At: {mgba.get_coordinates()}")
+    
+    # Walk UP to (18, 6)
+    for _ in range(4):
+        mgba.press_buttons(["Up"])
+        time.sleep(0.1)
+        
+    print(f"At: {mgba.get_coordinates()}")
+    
+    # Walk Right to (26, 6)
+    for _ in range(8):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.1)
+        
+    print(f"At: {mgba.get_coordinates()}")
+    
+    # Walk Down to (26, 8)
+    for _ in range(2):
+        mgba.press_buttons(["Down"])
+        time.sleep(0.1)
+        
+    print(f"At: {mgba.get_coordinates()}")
+    
+    # Walk Right to (29, 8)
+    for _ in range(3):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.1)
         
     pos = mgba.get_coordinates()
-    print(f"Walked Left to: {pos}")
+    print(f"Arrived at: {pos}")
     
-    # Now walk UP into the Gym
-    mgba.press_buttons(["Up", "Up"])
+    # Try to walk Right into (30, 8)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.2)
+    pos2 = mgba.get_coordinates()
+    print(f"After trying to walk Right: {pos2}")
+    
+    # Talk to the NPC
+    mgba.press_buttons(["A"])
     time.sleep(0.5)
-    print(f"Final position: {mgba.get_coordinates()}")
+    print("Finished.")
 
-enter_from_east()
+walk_back()
