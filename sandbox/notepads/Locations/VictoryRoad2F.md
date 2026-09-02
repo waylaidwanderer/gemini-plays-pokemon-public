@@ -15,9 +15,6 @@
 - Moltres: Located at (11, 5) on elevated plateau [Observed Turn 22580].
 - Shutter 2: Located at (15, 15) in eastern sector.
 - Shutter 3: Located at (21, 15) in eastern sector.
-- Item Ball: Located at (18, 9) in eastern sector.
-- Trainer: Located at (19, 8) facing Down/Left.
-- Boundary / Elevation Step: (23, 14) separates lower row 14 from ladder platform at (25, 14).
 
 ## Defeated Trainers (2F)
 - [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: �1075.
