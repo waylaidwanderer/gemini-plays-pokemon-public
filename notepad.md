@@ -65,7 +65,7 @@
 
 ## Active Party (Verified Turn 22255)
 1. HYDROS (Blastoise) - Lv 70
-   - Stats: Max HP 236 (HP: 34/236 - Needs healing), Attack 165, Defense 183, Speed 168, Special 175
+   - Stats: Max HP 236 (HP: 236/236 - Fully Healed), Attack 165, Defense 183, Speed 168, Special 175
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -109,7 +109,6 @@
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
 - Active Bag Items: Bicycle, Great Ball x9, HM03 (Surf), HM04 (Strength), Silph Scope, Pok� Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
-
 
 <hr>
 
