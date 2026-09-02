@@ -2747,7 +2747,7 @@
 - Row 7/8 Boundary: An impassable cliff wall spanning columns 4-12 separates the elevated terrace/upper sector (rows 1-7) from the Central Corridor (rows 8-9). Stepping South or North across rows 7-8 is blocked across columns 4-12.
 - Column 8 Rock Wall: (8, 10..15) is a solid rock wall separating the lower western sector (rows 10-16, cols 1-7) from the lower eastern sector (rows 10-16, cols 9-26).
 - Row 10 Wall: (6..12, 10) is a solid rock wall; columns 13 and 14 form the open vertical passage connecting Central Corridor (row 8) to the Eastern Sector (rows 11-16). Switch Plate 2 at (9, 11) is accessed from column 14 via row 11 west ((14, 11) -> (10, 11) -> (9, 11)).
-- Row 11/12 Cliff: A south-facing cliff wall separates row 11 from row 12 across columns 16-23. Column 14 is the open vertical passage connecting row 11 to row 12.
+- Row 11/12 Cliff: A solid south-facing cliff wall / ledge separates row 11 from row 12 across columns 16-23 (verified blocked when attempting to step Up from (19, 12) into (19, 11)). The upper platform (rows 8-11, cols 16-23) containing Item Ball at (18, 9) and Trainer at (19, 8) is inaccessible from row 12 below.
 - Row 11 Corridor: Spans columns 9 to 20 above the row 11/12 cliff.
   - West end: Switch Plate 2 at (9, 11).
   - East end: Item Ball at (18, 9) and Trainer at (19, 8) accessed via (19, 11) -> (19, 9) -> (18, 9).
