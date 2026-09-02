@@ -30,8 +30,6 @@
   - North Gap: (5, 4) connects to row 3.
 
 ## Verified Northwest Sector Topology & Boulder 1
-- (0..4, 4) and (6, 4) are solid rock walls separating the lower terrace (row 5-8) from the upper corridor (rows 1-3).
-- (5, 4) is the single open vertical gap connecting row 5 to row 3.
 - Upper Corridor: Rows 1-3 (cols 1-6) contain:
   - Blackbelt trainer at (4, 2)
   - Ladder to 3F (NW) at (1, 1)
