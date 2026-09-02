@@ -28,3 +28,5 @@
 - Shutter 1: Located at (17, 5) separating North Central Chamber from Lower Central Hall.
 - Northeast Item Ball: Located at (26, 5), Cooltrainer♀ at (28, 5).
 - Ladder to 2F: Located at (23, 7).
+- Northwest Ladder (4, 1): Connects to Victory Road 2F Northwest Ladder at (1, 1).
+- Western Elevated Bridge: Spans cols 6-7 from row 0 down past row 5 to the southwest/central sectors.
