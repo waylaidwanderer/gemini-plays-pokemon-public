@@ -2744,6 +2744,7 @@
   - West end: Switch Plate 2 at (9, 11).
   - East end: Item Ball at (18, 9) and Trainer at (19, 8) accessed via (19, 11) -> (19, 9) -> (18, 9).
   - Central intersection: Column 14 connects North to Central Corridor (row 8) and South to lower Eastern floor (row 12-14).
+- Pokémaniac: Located at (4, 2) facing South in NW corridor. Roster: 3 Pokémon.
 
 <hr>
 
