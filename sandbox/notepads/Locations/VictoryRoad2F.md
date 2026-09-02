@@ -39,3 +39,4 @@
   - East end: Item Ball at (18, 9) and Trainer at (19, 8) accessed via (19, 11) -> (19, 9) -> (18, 9).
   - Central intersection: Column 14 connects North to Central Corridor (row 8) and South to lower Eastern floor (row 12-14).
 - [x] Pokémaniac: Located at (4, 2) facing South in NW corridor [Defeated Turn 23875]. Roster: Charmeleon Lv 40, Lapras Lv 40, Lickitung Lv 40. Reward: ¥2000.
+- Ladder to 3F (Northeast): Located at (27, 7) (accessed via Shutter 3 at (21, 15) -> row 16 -> column 28 North to row 7) [Verified Turn 23967]
