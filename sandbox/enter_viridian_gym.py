@@ -1,44 +1,29 @@
 import mgba
 import time
 
-def walk_from_19_7_safe():
-    print("Walking to Gym front from (19, 7) avoiding NPC at (19, 5)...")
+def enter_gym():
+    print("Entering Viridian Gym from (20, 35)...")
     
-    # Path avoiding NPC
-    path = [
-        "Left",                          # (19, 7) -> (18, 7)
-        "Up", "Up", "Up",                # (18, 7) -> (18, 4)
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (18, 4) -> (27, 4)
-        "Down", "Down",                  # (27, 4) -> (27, 6)
-        "Left",                          # (27, 6) -> (26, 6)
-        "Down", "Down",                  # (26, 6) -> (26, 8)
-        "Right", "Right", "Right"        # (26, 8) -> (29, 8)
-    ]
-    
-    for btn in path:
-        mgba.press_buttons([btn])
-        time.sleep(0.25)
+    # 1. Walk Right to Column 32 on Row 35
+    for _ in range(12):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.12)
         
     pos = mgba.get_coordinates()
-    print(f"Arrived at: {pos}")
+    print(f"At Column 32: {pos}")
     
-    if pos['x'] == 29 and pos['y'] == 8:
-        # Turn right and talk to the NPC
-        mgba.press_buttons(["Right", "A"])
-        time.sleep(0.5)
-        # Take a screenshot
-        sc = mgba.take_screenshot()
-        print(f"Took screenshot of textbox: {sc}")
-        
-        # Close textbox
-        mgba.press_buttons(["B"])
-        time.sleep(0.2)
-        mgba.press_buttons(["B"])
-        time.sleep(0.2)
-        
-        # Try to walk Right
-        mgba.press_buttons(["Right"])
-        time.sleep(0.2)
-        print(f"Final coordinates: {mgba.get_coordinates()}")
+    # 2. Walk UP all the way to enter the Gym
+    # We are at (32, 35) and need to reach (32, 7)
+    # That is exactly 28 steps UP.
+    for i in range(30):
+        mgba.press_buttons(["Up"])
+        time.sleep(0.12)
+        pos = mgba.get_coordinates()
+        # If we enter the Gym, the coordinates will reset/change dramatically
+        if pos['y'] < 5 or pos['y'] > 35: 
+            print(f"Successfully entered Gym! Position: {pos}")
+            break
+            
+    print(f"Final Position: {mgba.get_coordinates()}")
 
-walk_from_19_7_safe()
+enter_gym()
