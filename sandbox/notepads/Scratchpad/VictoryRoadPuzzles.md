@@ -26,3 +26,16 @@
 - (5, 2) is a solid rock obstacle blocking northward boulder movement from (5, 3).
 - (21, 13) is occupied by a defeated Juggler NPC (solid obstacle; bypass via column 20).
 - (23, 14) is a west-facing ledge (one-way descent from SE platform).
+
+## Floor 3F Master Solution & Testing Plan (Active Exploration)
+- **Sector Survey Status**:
+  - Upper Terrace (rows 0-1, cols 6-25): Fully surveyed. Connects NW Ladder (4, 1), Western Bridge (cols 6-7), and NE Plateau (cols 21-25).
+  - Western Bridge & SW Sector: Bridge reaches (6, 6). Switch Plate at (3, 5) and Item Ball at (7, 7) identified.
+  - North Central Chamber: Cooltrainer♂ at (13, 3), Shutter at (17, 5).
+  - Southeast & South Sectors: Survey in progress from Ladder (23, 7) southwards.
+- **Active Hypotheses**:
+  1. Switch Plate at (3, 5) or another local switch lowers Shutter at (17, 5).
+  2. Southern chamber contains a boulder and pit leading down to 2F to unlock the exit shutter.
+- **Next Testing Steps**:
+  1. Survey SE and Southern sector from (23, 7) south to locate all boulders, pits, and switches.
+  2. Document exact coordinates of any pits and boulders before pushing.
