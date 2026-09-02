@@ -21,7 +21,6 @@
 - [x] Juggler: (21, 13) [Defeated Turn 22845]. Roster: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41 x2. Reward: �1435.
 
 ## Terrace & Elevation Topology
-- Row 7/8 Boundary: An impassable cliff wall spanning columns 4-12. Stepping South from row 7 to row 8 is strictly blocked.
 - Terrace (3..7, 5..7) Exits:
   - West Corridor: (3, 7) -> (3, 8..11) connects to the lower western highway and Shutter 1 (5, 10).
   - North Gap: (5, 4) connects to row 3.
