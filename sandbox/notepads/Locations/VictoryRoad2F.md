@@ -39,6 +39,5 @@
 - (9, 7) is a solid impassable cliff obstacle; row 8 does NOT connect north to row 2 via column 9.
 - (23, 14) is a one-way ledge facing west, preventing direct entry from the lower floor (22, 14) up to the eastern platform (24..26, 12..14).
 - Column 3 is the open vertical corridor on the west side connecting the lower highway (row 11-16) to the NW elevated terrace at (3, 7).
-- Passage north from rows 5-8 to upper corridor (rows 1-3) is blocked across cols 0-4 by row 4 wall; Boulder 1 at (5, 5) must be pushed north through the (5, 4) gap to open access to rows 1-3.
 - Northern Upper Corridor: Rows 1-3 extend east past Moltres towards the eastern platform. Pushing Boulder 1 North to (5, 3) blocks the vertical bottleneck against the (5, 2) rock wall; rows 1-3 must be accessed via the central corridor/eastern sector or bypassed.
 - Primary 2F Progression Route: Solve Boulder 2 puzzle on Lower Highway to open Shutter 1 at (5, 10), granting access to central corridor (rows 8-9) and eastern sector (SE 3F ladder at (25, 14)).
