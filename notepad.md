@@ -2691,14 +2691,14 @@
   6. Walk down column 9 vertical hallway to row 10 -> lower chamber (rows 12-16).
   7. Walk east along row 16 to (21, 15), push Pit Boulder (22, 15) East into Hole (23, 15).
   8. Jump down Hole (23, 15) to 2F to unlock the exit path to Indigo Plateau!
-## Floor 1F Exact Master Boulder Solution
+## Floor 1F Exact Master Boulder Solution (Testing / In Progress)
 - (5, 15) -> South to (5, 16)
 - (5, 16) -> East 4 times to (9, 16)
 - (9, 16) -> North 2 times to (9, 14)
 - (9, 14) -> East 7 times to (16, 14)
 - (16, 14) -> North 2 times to (16, 12) [CRITICAL: STOP at (16, 12), do not push to row 11!]
 - Stand at (15, 12) -> East 1 time to (17, 12)
-- Stand at (17, 11) -> South 1 time onto Switch (17, 13) [SOLVED!]
+- Stand at (17, 11) -> South 1 time onto Switch (17, 13)
 
 <hr>
 
