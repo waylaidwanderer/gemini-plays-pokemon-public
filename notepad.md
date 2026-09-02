@@ -1381,6 +1381,8 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Staircase (7, 10) on 2F West:** Warps DOWN to 1F West, landing at `(7, 11)` on 1F West.
 
 ## Empirical Gate Observations (Verified Turn 71043 / 71052)
+- **State A:**
+  - Shutter gate / Column 15 Row 6 on 2F East is CLOSED in State A (verified Turn 72301).
 - **State B (Default):**
   - Shutter gate at `(5, 9)` on Column 5 is CLOSED, blocking the stairs UP at `(5, 10)`.
   - Shutter gates on Row 11 (Columns 5, 6, 7) are OPEN, allowing horizontal passage between 2F West and 2F East.
@@ -1409,7 +1411,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## Permanent Physical Barriers (Same in State A and State B)
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
-- **Row 6 Column 15 is Open:** Completely open and walkable pink checkered floor, allowing horizontal crossing.
+- **Row 6 Column 15 is Open:** Completely open and walkable pink checkered floor, allowing horizontal crossing (verified open in State A on Turn 72327).
 - **Row 6 Column 22 is a Solid Wall:** Solid vertical partition wall panel (impassable).
 - **Row 8 Barrier (Columns 11-28):** Completely blocked horizontally across the entire floor. Columns 11-17 and 20-22 are solid wall panel; Columns 18-19 are solid bookcase/drawers; Columns 23 is solid rubble; Columns 24-28 are solid horizontal partition wall. No vertical travel is possible across Row 8 on 3F East!
 - **Column 11 Row 16 is a Solid Wall:** Solid vertical partition wall panel, preventing horizontal travel along Row 16 between 3F West (Column 10) and 3F East (Column 12).
@@ -1450,8 +1452,8 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 2. Walk to 3F East via Row 2 (open in State A).
 3. Walk to the pitfall at `(26, 3)` on 3F East and step onto it to fall to `(26, 4)` on 2F East (Southeast fenced area).
 4. Walk out of the 1F East fenced room via the open gate at `(25, 13)` (open in State A).
-5. Walk through Row 6 to 1F West (Wait! Column 9 Row 6 partition is closed in State A).
-6. Let's find how to toggle to State B from 1F/2F!
+
+
 
 
 <hr>
