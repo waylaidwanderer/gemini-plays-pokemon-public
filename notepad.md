@@ -3,10 +3,9 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Global Badges & Progression Status
-- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
 - **Outstanding Gyms:**
-  - Cinnabar Gym (Blaine) - Volcano Badge (target #7) - Locked (needs Secret Key from Pokémon Mansion).
-  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Locked (requires 7 Badges to enter).
+  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Unlocked (possess 7 Badges).
 
 ## Saffron City Gates & Gym Status
 - **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
@@ -83,12 +82,12 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
 - **SHELLBY** (Blastoise) - Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
 
 ## Badge Status & Gym Clearances (Verified Ground Truth - Turn 72093)
-- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
-- **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Locked - We do not have the Secret Key yet).
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Obtained - Defeated Blaine on Turn 64111).
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
-- We do NOT have the Secret Key in our bag (verified Turn 65791, checked PC on Turn 65817). It must be retrieved from Pokémon Mansion B1F.
+- We obtained and used the Secret Key to beat Blaine.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
