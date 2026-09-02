@@ -12,11 +12,10 @@
 - [x] 5. Soul Badge: Guard located at (11, 96) [Passed Turn 22115]
 - [x] 6. Marsh Badge: Guard located at (8, 85) [Passed Turn 22118]
 - [x] 7. Volcano Badge: Guard located at (10, 56) [Passed Turn 22121]
-- [x] 8. Earth Badge: Checkpoint at row 41 [Passed Turn 22136]
+- [x] 8. Earth Badge: Guard at (4, 35), Gate at (4, 31) [Passed Turn 23269]
 ## Victory Road Approach & Bypass Layout
-- (8..15, 43) is a south-facing ledge barrier.
-- Columns 6 and 7 (6..7, 40..48) form a completely clear, 2-tile wide open green grass corridor connecting the lower section (row 48) directly to the upper sector (row 40) past the ledge!
-- Route around rock obstacles: From (10, 44), move Right to col 11/12, Down to row 48, Left along row 48 to col 7, then walk North along column 7 straight past Guard 8 at (8, 41) into Victory Road approach!
+- Earth Badge Checkpoint: Guard stands at (4, 35). Red gate at (4, 31) allows passage through row 31 ledge.
+- Northern Road (rows 17..30): Leads directly to Victory Road 1F cave entrance at (8, 17).
 ## Verified Route 23 Topology
 - Cascade Check Sector: y=136..139. Guard at (8, 136).
 - Statue Barrier: Rows 130-131 contain statues and walls, but columns 14 and 15 (14..15, 128..131) form an open 2-tile wide tall grass corridor running directly north to the next sector!
