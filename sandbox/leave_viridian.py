@@ -1,41 +1,29 @@
 import mgba
 import time
 
-def leave_viridian():
-    print("Walking out of Viridian City to Route 1...")
-    
-    # 22-step path to (19, 10)
-    path = [
-        "Left", "Left", "Left",         # (29, 8) -> (26, 8)
-        "Up", "Up",                      # (26, 8) -> (26, 6)
-        "Right",                         # (26, 6) -> (27, 6)
-        "Up", "Up",                      # (27, 6) -> (27, 4)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (27, 4) -> (19, 4)
-        "Down", "Down", "Down", "Down", "Down", "Down" # (19, 4) -> (19, 10)
-    ]
-    
-    for btn in path:
-        mgba.press_buttons([btn])
+def leave():
+    print("Leaving Viridian...")
+    # Up 3 times to (22, 4)
+    for _ in range(3):
+        mgba.press_buttons(["Up"])
         time.sleep(0.15)
         
-    pos = mgba.get_coordinates()
-    print(f"Arrived at west corridor: {pos}")
+    print(f"At: {mgba.get_coordinates()}")
     
-    # Now walk all the way south to the Route 1 transition
-    # The southern exit is around (20, 35)
-    # Let's walk Down to y=35
-    for i in range(25):
+    # Left 4 times to (18, 4)
+    for _ in range(4):
+        mgba.press_buttons(["Left"])
+        time.sleep(0.15)
+        
+    print(f"At: {mgba.get_coordinates()}")
+    
+    # Down 31 times to transition to Route 1 (y=35)
+    for i in range(35):
         mgba.press_buttons(["Down"])
-        time.sleep(0.1)
+        time.sleep(0.12)
         pos = mgba.get_coordinates()
-        if pos['y'] >= 34:
-            print(f"Reached south of city: {pos}")
+        if pos['y'] >= 35:
+            print(f"Transitioned! Position: {pos}")
             break
-            
-    # Step onto Route 1 (y=35)
-    mgba.press_buttons(["Right", "Down", "Down"])
-    time.sleep(0.5)
-    
-    print(f"Map transition attempt finished. Current position: {mgba.get_coordinates()}")
 
-leave_viridian()
+leave()
