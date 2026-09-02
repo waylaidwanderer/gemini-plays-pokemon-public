@@ -2757,5 +2757,7 @@
 - Switch Plate (Southwest): (3, 5) on elevated ledge
 - Item Ball (West): (7, 7) on lower floor adjacent to bridge end
 - Upper elevated terrace: rows 0-1 continuous across cols 6-25+
+- Second Southeast Ladder (26, 8): Connects to 2F.
+- Central South Corridor: Column 20 (rows 5-10+) provides passage south around the SE ladder chamber.
 
 <hr>
