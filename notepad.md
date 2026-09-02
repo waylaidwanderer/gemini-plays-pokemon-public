@@ -2751,7 +2751,7 @@
 
 ## General Information
 - Ladder to 2F (Southeast): Located at (26, 8) (Spawn tile when arriving from 2F is (23, 7))
-- Ladder to 2F (Northwest): Located at (4, 1)
+- Ladder to 2F (Northwest): Located at (2, 0)
 
 ## Observed Objects & Geometry (Verified Turns 23770-23859)
 - Northwest Ladder: (2, 0) (blue ladder sprite)
