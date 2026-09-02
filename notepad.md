@@ -3,9 +3,10 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Global Badges & Progression Status
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
 - **Outstanding Gyms:**
-  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Unlocked (possess 7 Badges).
+  - Cinnabar Gym (Blaine) - Volcano Badge (target #7) - Locked (needs Secret Key from Mansion B1F).
+  - Viridian Gym (Giovanni) - Earth Badge (target #8) - Locked (needs 7 Badges).
 
 ## Saffron City Gates & Gym Status
 - **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
@@ -87,7 +88,6 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
-- We obtained and used the Secret Key to beat Blaine.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
