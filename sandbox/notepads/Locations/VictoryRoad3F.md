@@ -25,3 +25,12 @@
 
 ## Defeated Trainers (3F)
 - [x] Cooltrainer: Located at (28, 5) [Defeated Turn 23834]. Roster: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43. Reward: ¥1548.
+## Verified Collision Constraints (3F)
+- (27, 6) is a solid rock wall / cliff.
+- (11, 6) is a solid rock obstacle.
+- (16, 5) is a solid rock wall.
+- (12, 12) is a solid rock wall.
+- (16..20, 12) is a solid horizontal rock wall separating rows 10-11 from rows 13-14.
+- (8..11, 11) is a solid rock wall.
+- (13, 12) is an orange Boulder between walls (12, 12) and (14, 12).
+- (24, 10) is an orange Boulder in eastern central corridor.
