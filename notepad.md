@@ -2681,6 +2681,10 @@
 - Turn 1: Dismiss intro text with `['A', 'B']`.
 - Turn 2: Select RUN from battle menu with `['Down', 'Right', 'A']`.
 - Turn 3: Clear "Got away safely!" textbox with `['A']`.
+## Core Traversal & Puzzle Principles
+- **Empirical Traversal Rule**: Always test physical traversal directly into a gate/shutter tile before concluding whether a switch opened it (distant tile graphics in Gen 1 can suffer from visual rendering quirks).
+- **Goal-Locking Policy**: Never transition between floors to re-survey an area mid-puzzle. Changing floors immediately resets all dynamic boulder coordinates and shutter states across the floor.
+
 
 <hr>
 
