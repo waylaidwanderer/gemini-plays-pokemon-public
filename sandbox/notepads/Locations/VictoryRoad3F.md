@@ -17,3 +17,8 @@
 - Upper elevated terrace: rows 0-1 continuous across cols 6-25+
 - Second Southeast Ladder (26, 8): Connects to 2F.
 - Central South Corridor: Column 20 (rows 5-10+) provides passage south around the SE ladder chamber.
+## Empirically Verified Pit Puzzle (Turn 23800)
+- Pit Boulder: Located at (22, 15).
+- Hole / Pit: Located at (23, 15).
+- Approach Route: From (20, 11), walk West along row 11 past col 16 to col 13, step South to row 15, then walk East along row 15 to (21, 15).
+- Push boulder East from (21, 15) into (23, 15) hole, then drop through hole to 2F.
