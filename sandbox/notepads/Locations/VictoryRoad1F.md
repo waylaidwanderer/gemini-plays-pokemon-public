@@ -10,7 +10,6 @@
 - Eastern Corridor Gap: (14, 13) connects row 14 to upper eastern sector
 - Eastern Corridor: Columns 14-17 (rows 11-15)
 - Switch Plate: Located at (17, 13) in eastern chamber
-- Shutter at (15, 7): Blocking northern sector
 - Boulder 1 (Default Start): (5, 15)
 - Western Corridor: Columns 1-3 (rows 10-16)
 - Western Boulder (Boulder 2): Default initial location at (2, 10)
