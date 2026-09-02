@@ -44,3 +44,6 @@
 
 - (15, 8) is an impassable rock obstacle blocking South movement from (15, 7).
 - [x] Tamer: (19, 8) [Defeated Turn 24158]. Roster: Persian Lv 44, Golduck Lv 44. Reward: ¥1936.
+## Verified Collisions (2F)
+- (27, 10) is a solid rock obstacle (stepping Up from (27, 11) is blocked).
+- (27, 12) is blocked (stepping Down from (27, 11) is blocked).
