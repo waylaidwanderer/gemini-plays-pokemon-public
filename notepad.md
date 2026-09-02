@@ -2764,5 +2764,7 @@
 - Hole / Pit: Located at (23, 15) [Visually observed].
 - Central South Chokepoint: Tile (13, 14) is an impassable solid rock wall (verified Turn 23805). Pushing boulder (13, 13) south is impossible.
 - Active Approach: Eastern corridor via column 27 (rows 0-15).
+## Defeated Trainers (3F)
+- [x] Cooltrainer: Located at (28, 5) [Defeated Turn 23834]. Roster: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43. Reward: ¥1548.
 
 <hr>
