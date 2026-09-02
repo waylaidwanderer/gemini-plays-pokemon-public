@@ -42,7 +42,7 @@
 - Switch Plates: Switch 1 at (1, 16) [controls Shutter 1 at (5, 10)]; Switch 2 at (9, 11).
 - Dynamic Session State: Resets whenever entering 2F from ladders/warps. Strength must be re-activated each session.
 ## Floor 2F Verified Layout & Eastern Sector Findings
-- Shutter 1 at (5, 10) is OPEN [Verified Turn 22917], connecting the western entrance terrace (cols 0-4) to the central horizontal corridor (rows 8-9, cols 5-14).
+- Shutter 1 at (5, 10) is opened when Boulder 2 is placed on Switch 1 at (1, 16).
 - (15, 8) is a solid rock wall corner; eastward passage from (14, 8) along row 8 is blocked.
 - (18, 9) contains an Item Ball (not a boulder).
 - (19, 8) has a trainer facing Down/Left.
