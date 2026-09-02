@@ -28,14 +28,6 @@
 - (23, 14) is a west-facing ledge (one-way descent from SE platform).
 
 ## Floor 3F Topology & Progression Route (Verified Turns 23847-23862)
-- 3F Section A (Terrace & Hallways): Connects via NW Ladder (2, 0) directly to 2F NW Ladder (1, 1) [Empirically verified Turn 23862].
-- 3F Section B (Pit Chamber): Connects via SE Ladder (26, 8) to 2F SE Ladder (25, 14).
-- Master Progression Route:
-  1. From 2F (1, 1), walk south through open Shutter 1 at (5, 10).
-  2. Traverse eastern path through open Shutter 3 at (21, 15) to SE Ladder at (25, 14).
-  3. Ascend ladder at (25, 14) to 3F (26, 8) inside Pit Chamber.
-  4. Walk down to (21, 15), face East and push Boulder (22, 15) into Hole (23, 15).
-  5. Jump down Hole (23, 15) to 2F to permanently open the exit shutter leading to Indigo Plateau!
 
 ## Floor 3F Multi-Floor Solution Hypothesis (IN PROGRESS)
 - Upper Terrace (rows 0-1) connects bridge (cols 6-7) to northeastern area (cols 20-27).
