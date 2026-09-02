@@ -29,14 +29,17 @@
 - Juggler / Trainer: Located at (12, 9) facing Left
 
 ### Verified Push Mechanics & Trajectories
-- Column 3 is the verified, open vertical runway from row 11 to row 16.
-- Column 1 has rock obstacles at rows 12-13 and cannot be used for vertical traversal.
-- To push Boulder 2 onto Switch Plate 1 (1, 16):
-  1. Push Boulder 2 along column 5 from (5, 14) to (5, 11).
-  2. Push Boulder 2 West from (5, 11) to (3, 11).
-  3. Stand at (3, 10) and push Boulder 2 South down column 3 to (3, 16).
-  4. Stand at (4, 16) and push Boulder 2 West along row 16 to (1, 16) [ON SWITCH!].
-  5. Shutter 1 at (5, 10) OPENS.
+- Empirical Push Protocol: When Strength is active, pressing the directional button toward a boulder immediately pushes the boulder 1 tile into the adjacent vacant space, while the player remains on the starting tile during that frame. A second step in the same direction moves the player into the vacated tile.
+- Verified 2F Boulder 2 Solution:
+  1. Position at (5, 14) facing West towards Boulder 2 at (4, 14).
+  2. Press Left -> pushes Boulder 2 to (3, 14).
+  3. Walk to (3, 13) via (4, 14) -> (4, 13) -> (3, 13).
+  4. Press Down -> pushes Boulder 2 to (3, 15).
+  5. Step Down to (3, 14), press Down -> pushes Boulder 2 to (3, 16).
+  6. Walk to (4, 16) via (3, 15) -> (4, 15) -> (4, 16).
+  7. Press Left -> pushes Boulder 2 to (2, 16).
+  8. Step Left to (3, 16), press Left -> pushes Boulder 2 onto Switch Plate 1 at (1, 16)!
+  9. Shutter 1 at (5, 10) OPENS permanently for the session!
 ### Floor 2F Boulder Reset State (Default)
 - Initial Spawn: Boulder 1 at (5, 5), Boulder 2 at (4, 14).
 - Switch Plates: Switch 1 at (1, 16) [controls Shutter 1 at (5, 10)]; Switch 2 at (9, 11).
