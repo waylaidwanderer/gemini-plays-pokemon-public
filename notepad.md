@@ -2746,6 +2746,7 @@
 - (9, 7) is a solid impassable cliff obstacle; row 8 does NOT connect north to row 2 via column 9.
 - (23, 14) is an empirically verified one-way ledge facing west (Turn 23433: stepping East from (22, 14) is blocked); direct entry from lower floor (22, 14) onto ladder platform (24..26, 12..14) is impossible. Access to the SE ladder (25, 14) requires traversing the Northern Upper Corridor (rows 1-3) from the west and walking South down the platform (cols 24-26).
 - Northern Upper Corridor Access: From the NW terrace (3..7, 5..7), stand at (6, 5) and push Boulder 1 West from (5, 5) to (4, 5). This opens the (5, 4) -> (5, 3) vertical bottleneck onto row 3, allowing unrestricted eastward traversal across rows 1-3 to the Eastern Platform.
-- Primary 2F Progression Route: Solve Boulder 2 puzzle on Lower Highway to open Shutter 1 at (5, 10), granting access to central corridor (rows 8-9) and eastern sector (SE 3F ladder at (25, 14)).
+- Column 9 & 10 Corridor: Columns 9 and 10 form a completely open, unobstructed 2-tile wide vertical highway connecting the Central Corridor at (9..10, 8) directly north to the Northern Upper Corridor at (9..10, 2..3), bypassing the terrace/Boulder 1 bottleneck entirely.
+- Primary 2F Progression Route: Solve Boulder 2 puzzle on Lower Highway to open Shutter 1 at (5, 10), walk through Shutter 1 into Central Corridor, ascend Column 9 corridor to Northern Upper Corridor (row 2-3), and traverse East to SE 3F ladder at (25, 14) (or West to NW 3F ladder at (1, 1)).
 
 <hr>
