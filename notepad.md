@@ -2752,6 +2752,6 @@
 - (23, 14) is a one-way ledge facing west, preventing direct entry from the lower floor (22, 14) up to the eastern platform (24..26, 12..14).
 - Column 3 is the open vertical corridor on the west side connecting the lower highway (row 11-16) to the NW elevated terrace at (3, 7).
 - From the NW elevated terrace, Boulder 1 at (5, 5) must be pushed north through (5, 4) into row 2 to open access to the northern upper corridor (rows 1-3).
-- The northern upper corridor (rows 1-3) runs continuously east across the top of 2F, connecting directly down to the eastern platform and ladder to 3F at (25, 14).
+- Northern Upper Corridor Hypothesis: Rows 1-3 extend east past Moltres towards the eastern platform. Exact connectivity, intermediate obstacles, and trainer sightlines require empirical step-by-step traversal upon re-entry.
 
 <hr>
