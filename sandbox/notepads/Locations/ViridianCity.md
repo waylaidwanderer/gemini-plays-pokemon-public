@@ -11,4 +11,3 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
 ## Layout & Barriers
 - **Row 9 Fence:** A solid yellow-brown fence running from Column 24 to Column 35 on Row 9. It blocks vertical passage entirely.
 - **Column 26 Gap:** The only horizontal passage to reach the grass area on Row 8 on the west side of the Gym is through Column 26.
-- **Gym Blocker NPC:** Stands at (30, 8) blocking Row 8 when the Gym is closed.

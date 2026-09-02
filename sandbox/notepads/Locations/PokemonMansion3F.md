@@ -36,8 +36,7 @@ Because Row 8 on 3F East is completely blocked horizontally, and Column 11 Row 1
 3. Stand at `(21, 15)` in State B (facing the closed balcony gate at 21, 16).
 4. Walk to the 3F East switch at `(12, 11)` (via Column 12, open in State B), stand at `(12, 12)` facing UP, and toggle to **State A**.
 5. This closes the gate at `(12, 13)` behind you, but opens the balcony gate at `(21, 16)`!
-6. Go down Column 12 Row 16 (Wait! Column 12 Row 13 is closed, but you are already below it? No, `(12, 11)` is above Row 13! If you are at `(12, 11)` and toggle to State A, you cannot walk down Column 12!).
-7. Ah! If you stand at `(11, 12)` when you toggle, you can walk LEFT to Column 10, go DOWN Column 10 to Row 16, but you cannot cross Column 11 Row 16!
+
 
 ### Path 2: The Pitfall Route (State A)
 1. Set Mansion to **State A** on 3F West.
