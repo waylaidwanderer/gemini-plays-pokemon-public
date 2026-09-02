@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 22255)
-1. HYDROS (Blastoise) - Lv 69
-   - Stats: Max HP 233 (HP: 40/233 - Needs healing), Attack 163, Defense 180, Speed 166, Special 173
+1. HYDROS (Blastoise) - Lv 70
+   - Stats: Max HP 236 (HP: 34/236 - Needs healing), Attack 165, Defense 183, Speed 168, Special 175
    - Type: Water
-   - Moves: Double-Edge (7/15), Ice Beam (0/10), Bite (24/25), Surf (11/15)
+   - Moves: Double-Edge (6/15), Ice Beam (0/10), Bite (24/25), Surf (9/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. SPROUT (Bellsprout) - Lv 17
    - Stats: Max HP 46 (HP: 46/46 - Healthy)
