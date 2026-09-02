@@ -1,26 +1,27 @@
 # Victory Road 3F - Layout & Notes
 
 ## General Information
-- Ladder down to 2F (Southeast): Located at (23, 7) / (26, 8) [Arrived Turn 23749]
+- Ladder to 2F (Southeast): Located at (26, 8) (Spawn tile when arriving from 2F is (23, 7))
+- Ladder to 2F (Northwest): Located at (4, 1)
 
-## Observed Objects & Geometry (Verified Turn 23770-23784)
-- Entrance ladder from 2F: (23, 7)
-- Northwest Ladder (4, 1): Connects to Victory Road 2F Northwest Ladder at (1, 1)
+## Observed Objects & Geometry (Verified Turns 23770-23847)
+- Northwest Ladder: (4, 1) connects to Victory Road 2F Northwest Ladder at (1, 1)
+- Southeast Ladder: (26, 8)
 - Boulder 1 (Northeast): (22, 3) on upper plateau
-- Northeast Item Ball: (26, 5)
-- Trainer 1 (Cooltrainer♀): (28, 5)
+- Trainer 1 (Cooltrainer♂): (28, 5) [Defeated Turn 23834]
 - Trainer 2 (Cooltrainer♂): (13, 3) facing South in North Central lower chamber (rows 2-4, cols 12-18)
 - Shutter 1: (17, 5) [Closed] separating North Central chamber from lower floor
 - Western Elevated Bridge: Spans cols 6-7 from row 0 to row 6
 - Switch Plate (Southwest): (3, 5) on elevated ledge
 - Item Ball (West): (7, 7) on lower floor adjacent to bridge end
-- Upper elevated terrace: rows 0-1 continuous across cols 6-25+
-- Second Southeast Ladder (26, 8): Connects to 2F.
-- Central South Corridor: Column 20 (rows 5-10+) provides passage south around the SE ladder chamber.
-## Observed Pit Puzzle Objects (Turns 23800-23805)
-- Pit Boulder: Located at (22, 15) [Visually observed].
-- Hole / Pit: Located at (23, 15) [Visually observed].
-- Central South Chokepoint: Tile (13, 14) is an impassable solid rock wall (verified Turn 23805). Pushing boulder (13, 13) south is impossible.
-- Active Approach: Eastern corridor via column 27 (rows 0-15).
+- Upper elevated terrace: rows 0-1 continuous across cols 4-27
+- Pit Boulder: Located at (22, 15) [Visually observed]
+- Hole / Pit: Located at (23, 15) [Visually observed]
+- Boulder 3 (Central): (24, 10) [Visually observed]
+- Central South Chokepoint: Tile (13, 14) is an impassable solid rock wall (verified Turn 23805)
+
+## Collected Items
+- [x] Northeast Item Ball at (26, 5) [Collected Turn 23837]
+
 ## Defeated Trainers (3F)
 - [x] Cooltrainer: Located at (28, 5) [Defeated Turn 23834]. Roster: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43. Reward: ¥1548.
