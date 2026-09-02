@@ -1,29 +1,27 @@
 import mgba
 import time
 
-def leave():
-    print("Leaving Viridian...")
-    # Up 3 times to (22, 4)
-    for _ in range(3):
-        mgba.press_buttons(["Up"])
-        time.sleep(0.15)
-        
-    print(f"At: {mgba.get_coordinates()}")
+def leave_viridian_final():
+    print("Walking south to Route 1 from (32, 10)...")
     
-    # Left 4 times to (18, 4)
-    for _ in range(4):
+    # 1. Walk Left to Column 20
+    # We are at (32, 10)
+    for _ in range(12):
         mgba.press_buttons(["Left"])
-        time.sleep(0.15)
+        time.sleep(0.12)
         
     print(f"At: {mgba.get_coordinates()}")
     
-    # Down 31 times to transition to Route 1 (y=35)
-    for i in range(35):
+    # 2. Walk Down to Row 35
+    for _ in range(25):
         mgba.press_buttons(["Down"])
         time.sleep(0.12)
-        pos = mgba.get_coordinates()
-        if pos['y'] >= 35:
-            print(f"Transitioned! Position: {pos}")
-            break
+        
+    print(f"At southern road: {mgba.get_coordinates()}")
+    
+    # 3. Walk Down into Route 1
+    mgba.press_buttons(["Down"])
+    time.sleep(0.5)
+    print(f"Transitioned to Route 1! Current position: {mgba.get_coordinates()}")
 
-leave()
+leave_viridian_final()
