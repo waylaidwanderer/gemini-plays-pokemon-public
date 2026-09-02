@@ -2685,18 +2685,18 @@
   4. Walk down to (21, 15), face East and push Boulder (22, 15) into Hole (23, 15).
   5. Jump down Hole (23, 15) to 2F to permanently open the exit shutter leading to Indigo Plateau!
 
-## Floor 3F Multi-Floor Solution & Master Flow (VERIFIED)
+## Floor 3F Multi-Floor Solution Hypothesis (IN PROGRESS)
 - Upper Terrace (rows 0-1) connects bridge (cols 6-7) to northeastern area (cols 20-27).
 - Elevated Bridge (cols 6-7) terminates at (6, 6)/(7, 7) [Item Ball TM05 collected at (7, 7)]. Dead end.
 - Row 1 across cols 9-18 is an impassable elevated cliff wall overlooking North Central chamber (row 2).
 - Column 25 is blocked at (25, 4).
 - 3F Northwest Chamber (cols 2-4, rows 0-5) containing Switch Plate (3, 5) is accessed EXCLUSIVELY via 2F NW Ladder at (1, 1).
-- Progression Steps:
+- Planned Progression Steps:
   1. From 3F (23, 7), descend ladder to 2F.
-  2. On 2F, traverse open Shutter 3 (21, 15) -> Central Corridor -> open Shutter 1 (5, 10) -> NW Ladder (1, 1).
+  2. On 2F, traverse Central Corridor -> open Terrace North Gap (5, 4) -> NW Ladder (1, 1).
   3. Ascend ladder at (1, 1) to 3F (2, 0).
-  4. Walk down to Switch Plate (3, 5) to open 3F Shutter 1 at (17, 5).
-  5. Return to 3F Central Sector via 2F, walk through open Shutter 1 (17, 5) into North Central chamber.
+  4. Walk down to Switch Plate (3, 5) to test opening 3F Shutter 1 at (17, 5).
+  5. If Shutter 1 opens, return to 3F Central Sector via 2F, walk through open Shutter 1 (17, 5) into North Central chamber.
   6. Walk down column 9 vertical hallway to row 10 -> lower chamber (rows 12-16).
   7. Walk east along row 16 to (21, 15), push Pit Boulder (22, 15) East into Hole (23, 15).
   8. Jump down Hole (23, 15) to 2F to unlock the exit path to Indigo Plateau!
