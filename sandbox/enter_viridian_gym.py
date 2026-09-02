@@ -1,43 +1,34 @@
 import mgba
 import time
 
-def enter_gym():
-    print("Starting Viridian Gym entry script...")
-    
-    for attempt in range(100):
-        pos = mgba.get_coordinates()
-        print(f"Attempt {attempt}: Current position: {pos}")
+def wait_for_npc():
+    print("Waiting for NPC to move...")
+    for i in range(20):
+        # Press B to wait
+        mgba.press_buttons(["B"])
+        time.sleep(1.0)
         
-        # Try to walk right
+        # Try to step right
         mgba.press_buttons(["Right"])
         time.sleep(0.2)
         pos = mgba.get_coordinates()
+        print(f"Time {i}: Position: {pos}")
         
         if pos['x'] >= 30:
-            print("Successfully moved past the NPC!")
-            # Walk to (32, 8)
+            print("NPC moved! Walking to the Gym...")
+            # Walk right to (32, 8)
             for _ in range(5):
                 if pos['x'] < 32:
                     mgba.press_buttons(["Right"])
                     time.sleep(0.2)
                     pos = mgba.get_coordinates()
-            print(f"Reached door column: {pos}")
-            
             # Walk UP to enter the Gym
             mgba.press_buttons(["Up", "Up"])
             time.sleep(0.5)
-            new_pos = mgba.get_coordinates()
-            print(f"Final position: {new_pos}")
+            print(f"Entered Gym! Position: {mgba.get_coordinates()}")
             return True
             
-        # Step left to give him space
-        mgba.press_buttons(["Left"])
-        time.sleep(0.2)
-        # Step right back to (29, 8)
-        mgba.press_buttons(["Right"])
-        time.sleep(0.2)
-
-    print("Failed to move past the NPC.")
+    print("NPC did not move.")
     return False
 
-enter_gym()
+wait_for_npc()
