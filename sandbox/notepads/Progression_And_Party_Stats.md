@@ -2,12 +2,12 @@
 - **SHELLBY** (Blastoise) - Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
 
 ## Badge Status & Gym Clearances (Verified Ground Truth - Turn 72093)
-- **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
-- **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Locked - We do not have the Secret Key yet).
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Obtained - Defeated Blaine on Turn 64111).
 
 ## Key Items & Inventory Log (Verified Turn 65791)
 - Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
-- We do NOT have the Secret Key in our bag (verified Turn 65791, checked PC on Turn 65817). It must be retrieved from Pokémon Mansion B1F.
+- We obtained and used the Secret Key to beat Blaine.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
