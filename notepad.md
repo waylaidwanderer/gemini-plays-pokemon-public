@@ -2746,10 +2746,11 @@
 - (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (row 8-9) to row 11.
 - From (5, 10), step South to (5, 11) to access the lower western highway (row 11).
 - Passage north from rows 5-8 to upper corridor (rows 1-3) is blocked across cols 0-4 by row 4 wall; the verified vertical passage to rows 1-3 is through the (5, 4) gap where Boulder 1 is pushed north.
-## Floor 2F Master Traversal Solution (Verified Turn 23090)
-- Step 1: Push Boulder 2 at (4, 14) onto Switch 1 at (1, 16) via: (4, 14) -> (5, 14..11) -> (3, 11) -> (3, 16) -> (1, 16).
-- Step 2: Shutter 1 at (5, 10) permanently opens.
-- Step 3: Boulder 1 stays at default (5, 5), leaving row 3 completely open from (6, 3) to (1, 3).
-- Step 4: Traverse (5, 10) -> (5, 8) -> (9, 8) -> (9, 2) -> (6, 2) -> (6, 3) -> (1, 3) -> (1, 1) to ascend ladder to 3F!
+## Verified Corridor Traversal & Elevation Topology
+- (9, 7) is a solid impassable cliff obstacle; row 8 does NOT connect north to row 2 via column 9.
+- (23, 14) is a one-way ledge facing west, preventing direct entry from the lower floor (22, 14) up to the eastern platform (24..26, 12..14).
+- Column 3 is the open vertical corridor on the west side connecting the lower highway (row 11-16) to the NW elevated terrace at (3, 7).
+- From the NW elevated terrace, Boulder 1 at (5, 5) must be pushed north through (5, 4) into row 2 to open access to the northern upper corridor (rows 1-3).
+- The northern upper corridor (rows 1-3) runs continuously east across the top of 2F, connecting directly down to the eastern platform and ladder to 3F at (25, 14).
 
 <hr>
