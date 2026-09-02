@@ -2747,6 +2747,7 @@
 - [x] Pokémaniac: Located at (4, 2) facing South in NW corridor [Defeated Turn 23875]. Roster: Charmeleon Lv 40, Lapras Lv 40, Lickitung Lv 40. Reward: ¥2000.
 - Observed Ladders at (23, 7) & (27, 7): Visual line-of-sight confirmed on 2F. Column 28 is blocked at (28, 10); passage from row 16 north is blocked.
 
+- (15, 8) is an impassable rock obstacle blocking South movement from (15, 7).
 
 <hr>
 
