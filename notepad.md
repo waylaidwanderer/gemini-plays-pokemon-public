@@ -1374,7 +1374,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - Row 8 Column 10 (10, 8) is a CLOSED shutter gate in State B.
   - Row 9 Column 10 (10, 9) is blocked by solid rubble.
   - Row 10 Column 10 (10, 10) is blocked by solid rubble.
-  - Row 11 Column 10 (10, 11) is blocked by solid rubble (verified blocked on Turn 72800).
+  - Row 11 Column 10 (10, 11) is completely open and walkable in State B (verified Turn 72865).
 - **Row 11 Shutter Gates (State B):**
   - Row 11 Column 7 (7, 11), Column 6 (6, 11), Column 5 (5, 11) are completely OPEN and walkable in State B!
   - This connects 2F East (Columns 12-28) and 2F West (Columns 1-11) horizontally on Row 11 in State B.
