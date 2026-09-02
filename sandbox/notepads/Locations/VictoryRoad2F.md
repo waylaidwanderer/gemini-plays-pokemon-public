@@ -36,13 +36,10 @@
   - Blackbelt trainer at (4, 2)
   - Ladder to 3F (NW) at (1, 1)
   - Eastward extension towards Moltres and eastern 2F plateau
-## Verified Western Corridor & Shutter 1 Connectivity
-- (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (row 8-9) to row 11.
-- From (5, 10), step South to (5, 11) to access the lower western highway (row 11).
-- Passage north from rows 5-8 to upper corridor (rows 1-3) is blocked across cols 0-4 by row 4 wall; the verified vertical passage to rows 1-3 is through the (5, 4) gap where Boulder 1 is pushed north.
 ## Verified Corridor Traversal & Elevation Topology
+- (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (rows 8-9) to lower western highway (row 11).
 - (9, 7) is a solid impassable cliff obstacle; row 8 does NOT connect north to row 2 via column 9.
 - (23, 14) is a one-way ledge facing west, preventing direct entry from the lower floor (22, 14) up to the eastern platform (24..26, 12..14).
 - Column 3 is the open vertical corridor on the west side connecting the lower highway (row 11-16) to the NW elevated terrace at (3, 7).
-- From the NW elevated terrace, Boulder 1 at (5, 5) must be pushed north through (5, 4) into row 2 to open access to the northern upper corridor (rows 1-3).
-- Northern Upper Corridor Hypothesis: Rows 1-3 extend east past Moltres towards the eastern platform. Exact connectivity, intermediate obstacles, and trainer sightlines require empirical step-by-step traversal upon re-entry.
+- Passage north from rows 5-8 to upper corridor (rows 1-3) is blocked across cols 0-4 by row 4 wall; Boulder 1 at (5, 5) must be pushed north through the (5, 4) gap to open access to rows 1-3.
+- Northern Upper Corridor: Rows 1-3 extend east past Moltres towards the eastern platform.
