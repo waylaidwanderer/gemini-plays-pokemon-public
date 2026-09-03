@@ -1257,29 +1257,30 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Scratchpad/Switch_Matrix</code></h1>
 
-# Pokémon Mansion - Multi-Floor Switch & Gate State Truth Matrix
+# Pokémon Mansion - Multi-Floor Switch & Gate State Matrix
 
-## Global Switch States
-A single global flag in RAM controls all Mewtwo statue shutter gates across all floors:
-- **State A (Default / Non-toggled):**
-  - **1F East:** Shutter gate at `(25, 13)` is **OPEN**.
-  - **2F East:** Shutter gate at `(18, 8)` / `(19, 8)` is **CLOSED**.
-  - **3F West / Center:** Shutter gates at `(16, 7)` and `(17, 7)` are **CLOSED**.
-  - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **OPEN**.
-  - **3F Balcony:** Shutter gate at `(20, 17)` / `(21, 17)` is **CLOSED** (in State A).
-  - **B1F:** Shutter gate at `(9, 5)` is **CLOSED**.
+## Verified Empirical Observations
+- **State A:**
+  - **2F East:** Shutter gate at `(18, 8)` / `(19, 8)` is **CLOSED** (verified Turn 73390).
+  - **3F West / Center:** Shutter gates at `(16, 7)` and `(17, 7)` are **CLOSED** (verified Turn 73449).
+  - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **OPEN** (verified Turn 73242).
+  - **3F Balcony:** Shutter gate at `(20, 17)` / `(21, 17)` is **CLOSED** (verified Turn 73256).
 
-- **State B (Toggled):**
-  - **1F East:** Shutter gate at `(25, 13)` is **CLOSED**.
-  - **2F East:** Shutter gate at `(18, 8)` / `(19, 8)` is **OPEN**.
-  - **3F West / Center:** Shutter gates at `(16, 7)` and `(17, 7)` are **OPEN**.
-  - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **CLOSED**.
-  - **B1F:** Shutter gate at `(9, 5)` is **OPEN** (connecting B1F East to B1F West).
+- **State B:**
+  - **2F East:** Shutter gate at `(18, 8)` / `(19, 8)` is **OPEN** (verified Turn 73513).
+  - **2F West:** Shutter gates at `(9, 4)` and `(9, 5)` are **CLOSED** (verified Turn 73581).
+  - **3F West / Center:** Shutter gates at `(16, 7)` and `(17, 7)` are **OPEN** (verified Turn 73468).
+  - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **CLOSED** (verified Turn 73484).
+  - **3F East Column 26:** Pink checkered floor, NO pitfall trap in State B (verified Turn 73478-73484).
 
-## 2F East Layout Conclusions (Verified Turn 73402, 73547, 73559, 73566)
+## Hypotheses Requiring In-Person Verification
+- **1F East Gate (25, 13):** Hypothesized open in State A and closed in State B, but requires direct visual confirmation in current game session.
+- **B1F Connecting Gate (9, 5):** Hypothesized open in State B and closed in State A, but requires direct visual verification upon entering B1F.
+
+## 2F East Layout Conclusions (Verified Ground Truth)
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end! Enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7. No southern exit to Rows 9-16.
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
-- **Southeast Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** INACCESSIBLE via walking on 2F in either State A or State B. Must be entered via falling from 3F or accessed from 1F.
+- **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
 
 
 <hr>
@@ -1395,6 +1396,7 @@ A single global flag in RAM controls all Mewtwo statue shutter gates across all 
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402, 73559, 73568. Enclosed dead-end! Row 8 consists of solid wall panels on Columns 24-28 (verified at (28, 8) and (24-28, 8)). Rows 6-7 are blocked by rubble on Columns 24-27. There is NO southern exit from this pocket to Rows 9-16.
 - **Southeastern Chamber & Stairs at (25, 14):** Visually confirmed on Turn 73520 at `(25, 14)`. Because both the Southwest Corridor and the Northeast Pocket are completely blocked from entering this chamber on foot, this area cannot be reached by walking horizontally on 2F in either State A or State B; it must be entered via falling from 3F or ascending from 1F.
 - **Column 22 Rubble Barrier (2F East, Verified Turn 73536-73547):** Tested physical movement eastward against Column 22; (22, 12), (22, 13), (22, 14), and (22, 15) are empirically verified solid impassable rubble. Row 16 railing is a solid impassable barrier (tested at (21, 16)).
+- **Column 9 Shutter Gates (2F West, Verified Turn 73581):** Shutter gates at `(9, 4)` and `(9, 5)` are CLOSED in State B, blocking horizontal corridor travel on Rows 4-5 between 2F West and 2F East. Row 10 is open pink checkered floor connecting Columns 8-12.
 
 <hr>
 
@@ -1419,8 +1421,6 @@ A single global flag in RAM controls all Mewtwo statue shutter gates across all 
 
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
-
-
 
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
