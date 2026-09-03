@@ -6,7 +6,7 @@
 - Pokédex: 0 Caught / 0 Seen
 
 ## Key Milestones
-- [ ] Complete Intro & Name Character/Rival
+- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED)
 - [ ] Receive Starter Pokémon from Oak
 - [ ] Deliver Oak's Parcel from Viridian City
 - [ ] Obtain Pokédex & Poké Balls
