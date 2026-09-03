@@ -1257,12 +1257,14 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Scratchpad/Switch_Matrix</code></h1>
 
-# Pokémon Mansion - Multi-Floor Switch & Gate State Matrix
+# Pok�mon Mansion - Multi-Floor Switch & Gate State Matrix
 
 ## Verified Empirical Observations
 - **State A:**
   - **2F East:** Shutter gate at `(18, 8)` / `(19, 8)` is **CLOSED** (verified Turn 73390).
   - **3F West / Center:** Shutter gates at `(16, 7)` and `(17, 7)` are **CLOSED** (verified Turn 73449).
+  - **3F Center Gate:** Shutter gate at `(15, 4)` / `(15, 5)` is **OPEN** (verified Turn 73952).
+  - **3F Lower Center Gate:** Shutter gate at `(15, 10)` / `(15, 11)` is **CLOSED** (verified Turn 73952).
   - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **OPEN** (verified Turn 73242).
   - **3F Balcony:** Shutter gate at `(20, 17)` / `(21, 17)` is **CLOSED** (verified Turn 73256).
 
@@ -1270,8 +1272,15 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - **2F East:** Shutter gate at `(18, 8)` / `(19, 8)` is **OPEN** (verified Turn 73513).
   - **2F West:** Shutter gates at `(9, 4)` and `(9, 5)` are **CLOSED** (verified Turn 73581).
   - **3F West / Center:** Shutter gates at `(16, 7)` and `(17, 7)` are **OPEN** (verified Turn 73468).
+  - **3F Center Gate:** Shutter gate at `(15, 4)` / `(15, 5)` is **CLOSED** (verified Turn 73958).
+  - **3F Lower Center Gate:** Shutter gate at `(15, 10)` / `(15, 11)` is **OPEN** (verified Turn 73958).
   - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **CLOSED** (verified Turn 73484).
   - **3F East Column 26:** Pink checkered floor, NO pitfall trap in State B (verified Turn 73478-73484).
+  - **3F Balcony:** Shutter gate at `(20, 17)` / `(21, 17)` status: Hypothesis is OPEN in State B (to be verified upon reaching Row 17).
+
+- **Mewtwo Switches:**
+  - **3F Switch at `(10, 5)`:** Confirmed active secret switch on 3F (verified Turn 73953-73958). Toggled from (10, 6) facing UP.
+  - **2F Switch at `(2, 11)`:** Confirmed active secret switch on 2F West (verified Turn 73065).
 
 ## Hypotheses Requiring In-Person Verification
 - **1F East Gate (25, 13):** Hypothesized open in State A and closed in State B, but requires direct visual confirmation in current game session.
@@ -1281,12 +1290,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end! Enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7. No southern exit to Rows 9-16.
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
 - **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
-
-## Switch at (10, 5) Empirical Proof (Turn 73958)
-- Statue at `(10, 5)` is an active Mewtwo switch on 3F.
-- Interacting with (10, 5) toggled gates:
-  - Gate at `(15, 4)` and `(15, 5)` CLOSED.
-  - Gate at `(15, 10)` and `(15, 11)` OPENED.
 
 
 <hr>
@@ -1419,12 +1422,14 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
 ## State-Dependent Shutter Gates
+
+- **Central Corridor Gates (15, 4-5) and (15, 10-11):**
+  - Gate at `(15, 4)` and `(15, 5)`: OPEN in State A, CLOSED in State B (verified Turn 73958).
+  - Gate at `(15, 10)` and `(15, 11)`: CLOSED in State A, OPEN in State B (verified Turn 73958).
 - **Row 7 Shutter Gates (Columns 16-17):** Shutter gates at `(16, 7)` and `(17, 7)`. Empirically verified CLOSED in State A on Turn 73279. OPEN in State B!
 - **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. Empirically verified CLOSED in State B on Turn 73340.
 - **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED and impassable in State A on Turn 73708 (player at (21, 16) bumped when stepping Down). State B configuration is an unverified hypothesis.
 - **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. (State B unverified).
-
-## Mewtwo Statue Switches on 3F
 
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
@@ -1460,6 +1465,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Mewtwo Statues at (12, 9) and (12, 11) (Verified Turn 73917 & 73928):** Inactive decorative statues with NO switches. Tested facing UP from (12, 12) on Turn 73917 (negative), and tested facing LEFT from (13, 11) on Turn 73928 (negative). No prompt or dialogue triggered.
 
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
+## Trainers on 3F
+- **Scientist Ted at `(19, 11)`:** 3 Pok�mon (leads with Magnemite Lv 33). Facing Left along Row 11.
+
 
 <hr>
 
