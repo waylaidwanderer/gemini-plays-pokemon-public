@@ -8,5 +8,5 @@
 - [ ] Pokémon Center (heal Sheldon)
 - [ ] Viridian City Gym
 ## Geography & Layout
-- South-East Pocket (y=28..31, x=21..35): Residential area with houses at row 31. Row 27 is a continuous ledge to the east border trees at x=36.
-- Western Avenue: Row 30 street leads west to x=17, where the road turns north toward the Pokémon Center and city center.
+- South-East Pocket (y=28..31, x=21..35): Residential area with houses at row 31. Row 27 is a continuous south-facing ledge from x=14 to x=35 (verified bump at (17, 27)).
+- Western Avenue: Row 30 street leads west past x=13 around the pond toward the western entrance to the city center and Pokémon Center.
