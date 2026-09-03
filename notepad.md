@@ -1363,6 +1363,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
 
+- **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402. Column 28 dead-ends at `(28, 7)` into solid wall at `(28, 8)`. No stairs down in this pocket.
 
 <hr>
 
