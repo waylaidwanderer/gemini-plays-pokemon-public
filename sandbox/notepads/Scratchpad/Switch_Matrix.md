@@ -27,6 +27,3 @@
 ## Hypotheses Requiring In-Person Verification
 - **1F East Gate (25, 13):** Open in State A (verified Turn 68294), closed in State B.
 - **B1F Connecting Gate (9, 5):** Hypothesized open in State B and closed in State A, but requires direct visual verification upon entering B1F.
-
-- **Turn 74337 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by 'Who wouldn't?' prompt and gate closing at (15, 4-5)). Current Mansion State: **State B**.
-  - **3F Balcony Gate:** Shutter gate at `(20, 17)` / `(21, 17)` is **OPEN** (verified Turn 74482).
