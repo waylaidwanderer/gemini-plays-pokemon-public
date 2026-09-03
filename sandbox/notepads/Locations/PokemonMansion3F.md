@@ -10,12 +10,14 @@
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
 ## State-Dependent Shutter Gates
+
+- **Central Corridor Gates (15, 4-5) and (15, 10-11):**
+  - Gate at `(15, 4)` and `(15, 5)`: OPEN in State A, CLOSED in State B (verified Turn 73958).
+  - Gate at `(15, 10)` and `(15, 11)`: CLOSED in State A, OPEN in State B (verified Turn 73958).
 - **Row 7 Shutter Gates (Columns 16-17):** Shutter gates at `(16, 7)` and `(17, 7)`. Empirically verified CLOSED in State A on Turn 73279. OPEN in State B!
 - **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. Empirically verified CLOSED in State B on Turn 73340.
 - **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED and impassable in State A on Turn 73708 (player at (21, 16) bumped when stepping Down). State B configuration is an unverified hypothesis.
 - **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. (State B unverified).
-
-## Mewtwo Statue Switches on 3F
 
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
@@ -51,3 +53,5 @@
 - **Mewtwo Statues at (12, 9) and (12, 11) (Verified Turn 73917 & 73928):** Inactive decorative statues with NO switches. Tested facing UP from (12, 12) on Turn 73917 (negative), and tested facing LEFT from (13, 11) on Turn 73928 (negative). No prompt or dialogue triggered.
 
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
+## Trainers on 3F
+- **Scientist Ted at `(19, 11)`:** 3 Pokémon (leads with Magnemite Lv 33). Facing Left along Row 11.
