@@ -1288,9 +1288,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## 2F East Layout Conclusions (Verified Ground Truth)
 
 
-- **Turn 74229-74230 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by closed gate at (15, 4-5) and open gate at (15, 10)).
 
-- **Turn 74302-74303 Switch Toggle:** Toggled 2F West Mewtwo switch at `(2, 11)` from State B to State A (confirmed by 'Who wouldn't?' prompt). Current Mansion State: **State A**.
 
 - **Turn 74337 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by 'Who wouldn't?' prompt and gate closing at (15, 4-5)). Current Mansion State: **State B**.
 
