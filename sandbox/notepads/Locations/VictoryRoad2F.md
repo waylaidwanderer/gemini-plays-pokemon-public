@@ -42,10 +42,3 @@
 - [x] Pokémaniac: Located at (4, 2) facing South in NW corridor [Defeated Turn 23875]. Roster: Charmeleon Lv 40, Lapras Lv 40, Lickitung Lv 40. Reward: ¥2000.
 
 - [x] Tamer: (19, 8) [Defeated Turn 24158]. Roster: Persian Lv 44, Golduck Lv 44. Reward: ¥1936.
-## Verified Master Boulder Solution (Verified Turn 24487)
-- Boulder 2 Initial Position: (4, 14)
-- Master Push Sequence:
-  1. Stand at (5, 14) -> Push West to (3, 14).
-  2. Stand at (3, 13) -> Push South 2 times to (3, 16).
-  3. Stand at (4, 16) -> Push West 2 times onto Switch 1 at (1, 16).
-- Verified Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened!
