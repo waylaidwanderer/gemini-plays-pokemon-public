@@ -1401,7 +1401,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 
-## The Two Paths to B1F West (Secret Key)
+## Verified Route to B1F West (Secret Key)
 Row 8 is partially blocked, but 3F East and West are horizontally connected via Row 11 and Row 6.
 
 ### Verified Balcony Route (To B1F West)
@@ -1413,9 +1413,8 @@ Row 8 is partially blocked, but 3F East and West are horizontally connected via 
 6. Walk Down Column 21 through the gate to `(21, 18)`, Left to `(19, 18)` (balcony railing).
 7. Step Down over the railing to drop into B1F at `(9, 16)`!
 
-### Pitfall Trap Status
-- In **State A**, the pitfall trap at `(26, 3)` is covered/walkable pink checkered floor (allows safe traversal down Column 26).
-- In **State B**, the pitfall trap at `(26, 3)` is active (stepping on it drops the player down to 1F East).
+### Column 26 Walkability Status
+- Column 26 is completely walkable pink checkered floor from Row 1 down to Row 12 in both states (verified on Turns 73161, 73192, and 73199). There is no active drop trap on (26, 3).
 
 <hr>
 
