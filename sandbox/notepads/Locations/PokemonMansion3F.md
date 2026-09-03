@@ -34,3 +34,4 @@
 
 ## Staircases & Floor Warps
 - **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
+- **Turn 73478-73484 (State B Empirical Test of 3F East Column 26 & Row 13):** In State B, walked down Column 26 from (26, 3) to (26, 11). All tiles are solid pink checkered floor with NO pitfall trigger. At Row 13, the passage is 100% solid and impassable: (22, 13)-(23, 13) rubble, (24, 13)-(25, 13) closed shutter gates, (26, 13)-(28, 13) solid horizontal wall panels. No southern passage exists on 3F East in State B.
