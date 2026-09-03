@@ -2677,7 +2677,7 @@
 - Access to SE Ladder (25, 14) via Shutter 3 @ (21, 15) -> Row 16 highway (21..29, 16) -> North to (29, 12) -> West to (25, 12) -> South to (25, 14).
 - SE Ladder (25, 14) on 2F connects to Ladder B (26, 8) on 3F!
 
-## Floor 3F Pit & Boulder Master Solution (VERIFIED)
+## Floor 3F Pit & Boulder Master Solution (Working Hypothesis - To Empirically Verify)
 1. From 2F, take SE Ladder at (25, 14) to arrive at Ladder B (26, 8) on 3F.
 2. Activate HM Strength with ATLAS (Machop).
 3. From (26, 8), walk to (25, 8) -> (25, 9) -> (25, 10) (standing east of Boulder 2 @ (24, 10)).
