@@ -8,7 +8,7 @@
 
 ## Baseline Floor Geometry & Key Objects
 - Ladder to 3F (Northwest): Located at (1, 1) in NW corridor (connects to 3F (2, 0))
-- Ladder to 3F (Southeast): Located at (25, 14) on elevated platform
+- Ladder to 3F (Southeast): Located at (23, 7) on elevated platform (accessed via row 11 cols 21-23 -> row 8)
 - Moltres: Located at (11, 5) on elevated plateau
 - Switch Plate 1: (1, 16) in SW corner (opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15))
 - Switch Plate 2: (9, 11) in central sector
