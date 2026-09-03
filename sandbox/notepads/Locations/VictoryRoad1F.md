@@ -9,7 +9,6 @@
 - Row 13 Wall: Solid rock wall at (8..13, 13) separating lower entrance area from upper plateau
 - Eastern Corridor Gap: (14, 13) connects row 14 to upper eastern chamber (cols 14-17, rows 11-15)
 - Eastern Chamber: Columns 14-17 (rows 11-15). Contains Switch Plate at (17, 13). (13..14, 11..12) is a solid rock wall blocking westward passage. Ledge at (15, 10) blocks northward passage from (15, 11).
-- Switch Plate: Located at (17, 13) in eastern chamber
 - Boulder 1 (Default Start): (5, 15)
 - Western Corridor: Columns 1-3 (rows 10-16)
 - Western Boulder (Boulder 2): Default initial location at (2, 10)
