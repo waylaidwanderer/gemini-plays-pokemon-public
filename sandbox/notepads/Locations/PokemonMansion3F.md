@@ -1,4 +1,4 @@
-# PokÃ©mon Mansion 3F - Map & Navigation Log
+# Pokémon Mansion 3F - Map & Navigation Log
 
 ## Permanent Physical Barriers (Same in State A and State B)
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
@@ -58,3 +58,5 @@
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
+## Empirical Pitfall & Warp Drops (Verified Ground Truth)
+- **3F East Pitfall at `(19, 14)` (Verified Turn 74244):** Stepping into the dark pitfall tile at `(19, 14)` on 3F East drops the player to `(18, 14)` on 2F East Southwest Corridor (`(19, 13) -> (19, 14) -> [New Map|(18, 14)]`).

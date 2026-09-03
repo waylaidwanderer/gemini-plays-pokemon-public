@@ -22,3 +22,6 @@
 - **2F East Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7.
 - **2F East Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end blocked to the east by Column 22 rubble and south by Row 16 railing.
 - **2F East Southeastern Chamber (Columns 23-28, Rows 9-16):** Contains stairs at `(25, 14)`. Inaccessible via walking on 2F in either state; only accessible via stairs from 3F East `(25, 14)`.
+
+## Vertical Drop Landings (Verified Ground Truth)
+- **Landing from 3F East Pitfall `(19, 14)` (Verified Turn 74244):** Player lands at `(18, 14)` on 2F East Southwest Corridor. From here, open pink floor extends east to Column 21 and north along Column 20 up to Row 10 corridor.
