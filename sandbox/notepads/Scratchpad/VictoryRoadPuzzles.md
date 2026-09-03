@@ -18,6 +18,6 @@
 5. Step West to (24, 10) and push Boulder 2 West again: (23, 10) -> (22, 10).
 6. With column 23 cleared, walk South down column 23: (23, 10) -> (23, 11) -> (23, 12) -> (23, 13) -> (23, 14).
 7. From (23, 14), walk Left/Down: (23, 14) -> (22, 14) -> (21, 14) -> (21, 15) (standing west of Pit Boulder @ (22, 15)).
-8. Face East (Right) at (21, 15) and push Pit Boulder from (22, 15) into Hole at (23, 15)!
-9. Step into Hole at (23, 15) to drop down to 2F.
+8. Face East (Right) and push Boulder 2 into Hole at (23, 14)!
+9. Step into Hole at (23, 14) to drop down to 2F.
 10. On 2F, fallen boulder activates the exit switch plate, unlocking path to Route 23 North / Indigo Plateau exit ladder!
