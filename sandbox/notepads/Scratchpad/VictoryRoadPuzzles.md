@@ -14,7 +14,7 @@
 
 2. **Phase 2 (Traverse Shutter 3 to SE Ladder @ (25, 14)) [SOLVED & VERIFIED Turn 23736]**:
    - Route: From (5, 8) in Central Corridor -> (13, 8) -> (13, 12) -> (20, 12) -> (20, 14) -> (21, 14) -> stepped South into Shutter 3 at (21, 15)!
-   - Walk along row 16: (21, 16) -> (25, 16) -> (25, 14) to ascend SE Ladder to Victory Road 3F!
+   - Walk along row 16 to column 28, then north to access ladder platforms.
 
 ## Verified Collision Truths (2F)
 - (19, 11) is a solid south-facing cliff wall / ledge; northward passage from (19, 12) into (19, 11) is blocked.
