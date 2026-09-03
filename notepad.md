@@ -2797,19 +2797,22 @@
 - [x] Juggler: Located at (24, 3) [Defeated Turn 24576]. Roster: Mr. Mime Lv 48. Reward: ¥1680.
 
 ## Verified Collisions & Topology
-- Upper Terrace (cols 15..28, rows 0..7):
+- Upper Terrace & Row 1 Highway Progression (Verified Turns 24888-24901):
   - Ladder from 2F (SE) spawns at (23, 7).
-  - Blue ladder at (26, 8) / (27, 7) connects down to 2F eastern corridor.
-  - (23, 6) is a south-facing ledge.
-  - Route from (23, 7) to NW: (21, 7) -> (16, 7) -> (16, 1) -> (27, 1).
-  - Horizontal rock obstacle wall spans row 4 (cols 18..24).
-  - Vertical rock cliff separates column 15 (upper terrace) from column 14 (lower chamber) along rows 0..8.
-  - Impassable elevation wall separates row 11 (upper terrace) from row 12 (lower room) across cols 16..21.
-- Central-West Chamber (cols 11..13, rows 0..7):
-  - Item Ball at (11, 0).
-  - Cooltrainer at (11, 5).
-- Main Progression Route:
-  - Accessed via 2F NW Ladder (1, 1) leading to 3F (2, 0).
-  - Pit Boulder at (22, 15) must be pushed East into Hole at (23, 15) to unlock 2F exit route.
+  - Boulder 1 at (22, 3) pushed North to (22, 0) permanently clears the Row 1 Highway (y=1 across cols 6-22).
+  - Row 1 Highway provides direct, unblocked horizontal access across the top of 3F:
+    - West access to columns 9-10 (Central-West sector).
+    - West access to columns 6-7 (Western Elevated Bridge).
+    - Far west access to column 1 (NW Ladder).
+- Central-West Sector & Row 10 Highway:
+  - From Row 1 at (10, 1), walking South down column 10 (rows 1-10) enters the central lower floor.
+  - Row 10 (y=10) runs horizontally East across columns 10-24 directly into the southern chute.
+  - Boulder 3 at (24, 10) sits at the entrance of the southern chute (cols 22-24, rows 10-15).
+- Western Elevated Bridge (cols 6-7, rows 1-6):
+  - Connects North to Row 1 Highway at (6..7, 1).
+  - South end at (7, 7) has a south-facing one-way step; return North via (7, 7) -> (7, 6).
+- Southern Sector & Pit Boulder Puzzle:
+  - Pit Boulder at (22, 15) must be pushed East into Hole at (23, 15).
+  - Stepping into Hole (23, 15) drops player down to 2F adjacent to the fallen boulder.
 
 <hr>
