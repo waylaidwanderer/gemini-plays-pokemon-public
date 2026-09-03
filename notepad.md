@@ -2748,7 +2748,6 @@
   - Central intersection: Column 14 connects North to Central Corridor (row 8) and South to lower Eastern floor (row 12-14).
 - [x] Pokémaniac: Located at (4, 2) facing South in NW corridor [Defeated Turn 23875]. Roster: Charmeleon Lv 40, Lapras Lv 40, Lickitung Lv 40. Reward: ¥2000.
 
-- (15, 8) is an impassable rock obstacle blocking South movement from (15, 7).
 - [x] Tamer: (19, 8) [Defeated Turn 24158]. Roster: Persian Lv 44, Golduck Lv 44. Reward: ¥1936.
 ## Verified Master Boulder Solution (Verified Turn 24487)
 - Boulder 2 Initial Position: (4, 14)
@@ -2759,6 +2758,7 @@
 - Verified Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened!
 ## Verified SE Ladder Access Route
 - From Shutter 3 at (21, 15): Step Down to (21, 16) -> Walk East along row 16 to (28, 16) -> Walk North up eastern corridor (cols 28-29) to row 8 at (28, 8) -> Walk West across row 8 to (25, 8) -> Walk South down column 25 to (25, 14) [Ladder to 3F].
+
 
 <hr>
 
