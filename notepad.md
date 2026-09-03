@@ -32,7 +32,7 @@
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 6, Water]
-  - HP: 15 / 21
+  - HP: 21 / 21
   - Stats: Attack 12, Defense 14, Speed 12, Special 12
   - Moves: Tackle (PP 28/35), Tail Whip (PP 30/30)
 
