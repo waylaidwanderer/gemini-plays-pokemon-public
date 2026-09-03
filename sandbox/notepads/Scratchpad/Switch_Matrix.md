@@ -17,7 +17,6 @@
   - **3F Lower Center Gate:** Shutter gate at `(15, 10)` / `(15, 11)` is **OPEN** (verified Turn 73958).
   - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **CLOSED** (verified Turn 73484).
   - **3F East Column 26:** Pink checkered floor, NO pitfall trap in State B (verified Turn 73478-73484).
-  - **3F Balcony:** Shutter gate at `(20, 17)` / `(21, 17)` status: Hypothesis is OPEN in State B (to be verified upon reaching Row 17).
 
 - **Mewtwo Switches:**
   - **3F Switch at `(10, 5)`:** Confirmed active secret switch on 3F (verified Turn 73953-73958). Toggled from (10, 6) facing UP.

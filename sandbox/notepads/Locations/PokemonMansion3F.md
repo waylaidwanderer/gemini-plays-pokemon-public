@@ -9,6 +9,8 @@
 - **Row 12 Debris (Columns 14-17):** Solid rubble permanently blocks horizontal travel along Row 12 on Columns 14-17.
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
+- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
+
 ## State-Dependent Shutter Gates
 
 - **Central Corridor Gates (15, 4-5) and (15, 10-11):**
@@ -54,5 +56,3 @@
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
-
-- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
