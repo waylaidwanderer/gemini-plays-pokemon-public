@@ -23,3 +23,5 @@
 - **Balcony Barriers (Rows 18-19 and 22-23):** Green hedges at `(14-19, 18)` & `(14-19, 22)`, gold balustrades/urns at `(14-19, 19)` & `(14-19, 23)`.
 - **Corridors:** Open pink checkered corridors on Columns 12-13 and Columns 20-23 bypass the barriers to the south.
 - **Item Ball at `(18, 21)`:** Located in the corridor between the hedge rows.
+
+- **2F-3F Balcony Chamber Staircase Pair (Verified Turn 74442 & 74451):** Tile `(21, 23)` on 2F is an ascending staircase warping to `(23, 22)` on 3F East. Tile `(23, 22)` on 3F East descends directly back to `(21, 23)` on 2F (player lands at `(21, 24)`).

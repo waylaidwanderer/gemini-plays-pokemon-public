@@ -1411,6 +1411,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Corridors:** Open pink checkered corridors on Columns 12-13 and Columns 20-23 bypass the barriers to the south.
 - **Item Ball at `(18, 21)`:** Located in the corridor between the hedge rows.
 
+- **2F-3F Balcony Chamber Staircase Pair (Verified Turn 74442 & 74451):** Tile `(21, 23)` on 2F is an ascending staircase warping to `(23, 22)` on 3F East. Tile `(23, 22)` on 3F East descends directly back to `(21, 23)` on 2F (player lands at `(21, 24)`).
 
 <hr>
 
