@@ -2767,15 +2767,21 @@
   - Column 11 (rows 5..11) is a solid rock wall blocking westward bridge extension.
   - Bridge South Span: Spans columns 12..15 south from row 7 to row 11. Row 11 is the southern bridge boundary.
 - Southern Lower Floor Corridor: Located at rows 12-13, where Boulder is visible at (13, 13).
-## Master Pit & Boulder Puzzle System (Hypothesis & Investigation)
+## Master Pit & Boulder Puzzle System (Empirically Verified & Solved)
 - Pit / Hole Location: (23, 14)
-- Ladder B (from 2F SE): (27, 7)
-- Ladder at (25, 14) leads to 2F
-- Shutter at (21, 15)
-- Trainer at (19, 8): Cooltrainer (male)
-- Known Boulders on 3F:
-  - Boulder 1 at (22, 3) in NE Room
-  - Boulder at (13, 13) in SW Sector
-- Investigation Goal: Defeat Cooltrainer at (19, 8) to clear column 19 and find which boulder routes into the Hole at (23, 14).
+- Boulder 2 Location: (24, 10) (located east of column 23 at row 10)
+- Ladder B (connects to 2F SE (25, 14)): Located at (26, 8) on 3F
+- Row 9 Rock Wall: (21..24, 9) separates upper area from row 10
+- Master Execution Sequence:
+  1. Take Ladder A at (23, 7) down to 2F.
+  2. On 2F, navigate to SE Ladder at (25, 14) (via row 16 highway / eastern corridor).
+  3. Climb SE Ladder at (25, 14) on 2F to arrive at Ladder B (26, 8) on 3F.
+  4. Activate HM Strength with ATLAS (Machop) via Start -> POKéMON -> ATLAS -> STRENGTH.
+  5. From (26, 8), walk down to (25, 10) (standing east of Boulder 2 @ (24, 10)).
+  6. Push Boulder 2 West from (24, 10) to (23, 10).
+  7. Move to (23, 9) (above Boulder 2) and push Boulder 2 straight SOUTH down column 23:
+     - (23, 10) -> (23, 11) -> (23, 12) -> (23, 13) -> into Hole at (23, 14)!
+  8. Step into Hole at (23, 14) to drop down to 2F onto exit switch plate!
+  9. On 2F, exit shutter is opened; climb exit ladder to Indigo Plateau!
 
 <hr>
