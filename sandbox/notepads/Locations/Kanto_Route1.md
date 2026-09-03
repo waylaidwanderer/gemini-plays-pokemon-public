@@ -12,4 +12,6 @@
   - Tree hedge at row 23 (x=4 to 11).
 - Open Pathways:
   - Row 26: Safe east-west path corridor (verified clear from x=12 to 17).
-  - Western strip (x=1..2): Continuous open grass north-south.
+  - Western strip (x=0..2): Walled off by fence (x=3, y=16..27) and trees (x=3, y=28..30); inaccessible from main route.
+- Open Gaps:
+  - Row 27: Open path gap at (8, 27) next to signpost at (9, 27).
