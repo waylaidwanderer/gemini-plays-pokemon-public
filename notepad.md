@@ -13,6 +13,8 @@
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
+- [ ] Reach Viridian City via Route 1
+- [ ] Visit Viridian City Poké Mart
 
 <hr>
 
@@ -56,5 +58,21 @@
 - Open Gaps:
   - Row 19: Open path gap at (9, 19) through the row 19 ledge.
   - Row 27: Open path gap at (8, 27) next to signpost at (9, 27).
+
+<hr>
+
+<h1><code>Mechanics/Combat</code></h1>
+
+# Combat Mechanics & Observations
+
+## Active Pokémon: SQUIRTLE (SHELDON)
+- Type: Water | Level: 6
+- Moves:
+  - Tackle: Normal physical attack (35 max PP). Deals ~4-5 damage to neutral Lv 5 targets.
+  - Tail Whip: Lowers target Defense by 1 stage (30 max PP).
+
+## Strategy
+- Route 1: Defeat wild Pidgey/Rattata with Tackle for EXP toward Lv 8 (Bubble).
+- Conserve Potions unless HP <= 5.
 
 <hr>
