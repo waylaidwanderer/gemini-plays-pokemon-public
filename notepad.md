@@ -1290,6 +1290,11 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
 - **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
 
+## Strategic Plan for 3F & B1F Access (Turn 74195)
+- Player is on 2F West at (6, 4) in State A.
+- Ascend via (6, 1) stairs to 3F West.
+- On 3F West, the (10, 5) switch is accessible to toggle to State B if needed so that B1F gate at (9, 5) is open when entering B1F.
+- Drop from 3F balcony to B1F, navigate B1F West, and retrieve Secret Key.
 
 <hr>
 
