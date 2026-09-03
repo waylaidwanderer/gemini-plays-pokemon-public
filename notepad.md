@@ -2611,6 +2611,7 @@
 - To traverse: Open Start Menu -> POKéMON -> Select HYDROS -> Select SURF.
 - Soul Badge Checkpoint Guard is at (11, 96) in the canal.
 - Canal northern landing is on the east bank at (8..12, 71), where player steps out of water onto the green lawn north of row 72.
+- Volcano Check Approach & Corridor: Volcano Guard stands at (10, 56). The walkable corridor running north past the statues is columns 12 and 13 (x=12..13, y=53..57), which bypasses all statues and ledges directly to row 50+!
 
 <hr>
 
