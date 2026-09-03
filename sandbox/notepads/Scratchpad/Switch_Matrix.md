@@ -23,12 +23,7 @@
   - **2F Switch at `(2, 11)`:** Confirmed active secret switch on 2F West (verified Turn 73065).
 
 ## Hypotheses Requiring In-Person Verification
-- **1F East Gate (25, 13):** Hypothesized open in State A and closed in State B, but requires direct visual confirmation in current game session.
+- **1F East Gate (25, 13):** Open in State A (verified Turn 68294), closed in State B.
 - **B1F Connecting Gate (9, 5):** Hypothesized open in State B and closed in State A, but requires direct visual verification upon entering B1F.
-
-## 2F East Layout Conclusions (Verified Ground Truth)
-
-
-
 
 - **Turn 74337 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by 'Who wouldn't?' prompt and gate closing at (15, 4-5)). Current Mansion State: **State B**.
