@@ -1458,6 +1458,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 - **Row 12 Column 22 Open Bridge (Verified Turn 74354):** Tile `(22, 12)` is open pink checkered floor between rubble at `(22, 11)` and wall at `(22, 13)`, providing horizontal passage between Columns 19-21 and Column 23.
 - **Rows 14-15 Central Chasm (Verified Turn 74354):** Columns 18-22 on Rows 14 and 15 are a dark grey chasm/void (pitfall). Column 23 is open pink floor bypassing the chasm to the east.
+- **Column 22 Boundary at Row 16 (Verified Turn 74368):** Tile `(22, 16)` is solid impassable boundary wall when stepping Left from `(23, 16)` (player bumped). Chasm cannot be entered from Column 23 at Row 16.
 
 <hr>
 
