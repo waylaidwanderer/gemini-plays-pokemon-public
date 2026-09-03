@@ -1412,8 +1412,9 @@ Row 8 is partially blocked, but 3F East and West are horizontally connected via 
 4. Walk to the 3F East switch at `(12, 11)` (via Column 12, open in State B), stand at `(12, 12)` facing UP, and toggle to **State A**.
 5. This closes the gate at `(12, 13)` behind you, but opens the balcony gate at `(21, 16)`!
 
-### State A Limitations
-- In **State A**, the pitfall trap at `(26, 3)` on 3F East is closed/covered and cannot be fallen through (empirically disproven on Turn 72338 and Turn 72345). Thus, Path 2 is not viable in State A.
+### Pitfall Trap Status
+- In **State A**, the pitfall trap at `(26, 3)` is covered/walkable pink checkered floor (allows safe traversal down Column 26).
+- In **State B**, the pitfall trap at `(26, 3)` is active (stepping on it drops the player down to 1F East).
 
 <hr>
 
