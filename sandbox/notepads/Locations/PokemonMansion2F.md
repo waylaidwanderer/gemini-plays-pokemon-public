@@ -8,3 +8,4 @@
 - **2F East Central Corridor:** Rows 6-7 span Columns 16-22 (open pink checkered floor).
 - **Row 8 Shutter Gate (2F East):** Shutter gate located at `(18, 8)` and `(19, 8)`. Verified CLOSED in State A on Turn 73390. Empirically verified OPEN in State B on Turn 73513!
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402. Column 28 dead-ends at `(28, 7)` into solid wall at `(28, 8)`. No stairs down to 1F East in this pocket.
+- **Stairs at (25, 14) on 2F East:** Discovered visually on Turn 73520! Located in the southeastern chamber of 2F East at `(25, 14)`. Accessible from Row 6-7 corridor via Columns 24-25.
