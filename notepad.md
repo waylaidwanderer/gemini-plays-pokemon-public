@@ -1405,6 +1405,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 17 Dead-End:** Column 17 terminates at a solid horizontal wall panel at `(17, 12)` on Row 13. It does NOT connect south to Row 16.
 - **Column 12 Vertical Corridor:** Open pink checkered floor on Rows 6-11 between Column 11 rubble and Column 13 vertical wall. Runs vertically outside the west wall of the central statue chamber.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
+## Empirical State Tracking & Observations
+- **Turn 73449 (State A Visual Confirmation):** Standing at (12, 9) looking east, the shutter gates at (16, 7) and (17, 7) were visibly CLOSED with orange/black bars and yellow frames, definitively proving the mansion was in State A.
+- **Turn 73459 (Switch Toggled to State B):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE B.
+
 
 <hr>
 
