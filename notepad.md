@@ -1391,13 +1391,13 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 7 Shutter Gates (Columns 16-17):** Shutter gates at `(16, 7)` and `(17, 7)`. Empirically verified CLOSED in State A on Turn 73279. OPEN in State B!
 - **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. Empirically verified CLOSED in State B on Turn 73340.
 - **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED in State A on Turn 73256. (State B unverified).
-- **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. OPEN in State B!
+- **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. (State B unverified).
 
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 - **3F Central-East Statue:** Located at `(16, 10)` and `(18, 10)`.
 
-- **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
+
 
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
@@ -1408,6 +1408,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Empirical State Tracking & Observations
 - **Turn 73449 (State A Visual Confirmation):** Standing at (12, 9) looking east, the shutter gates at (16, 7) and (17, 7) were visibly CLOSED with orange/black bars and yellow frames, definitively proving the mansion was in State A.
 - **Turn 73459 (Switch Toggled to State B):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE B.
+- **Turn 73468 (State B Visual Confirmation):** Standing at (12, 3) looking southeast, the shutter gates at (16, 7) and (17, 7) were visibly OPEN as pink checkered floor, definitively confirming the mansion is in State B.
+
+## Staircases & Floor Warps
+- **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
 
 
 <hr>
