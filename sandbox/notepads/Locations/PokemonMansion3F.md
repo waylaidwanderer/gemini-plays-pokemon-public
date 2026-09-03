@@ -69,3 +69,4 @@
 - **Burglar at `(16, 23)` (Verified Turn 74523):** Active trainer (says "Uh-oh. Where am I now?" pre-battle). Has 2 Pokémon. Engaged in battle on Turn 74523.
 - **Tile `(16, 14)` Walkability (Verified Turn 74557):** Confirmed standard walkable pink checkered floor with no drop.
 - **Tile `(18, 14)` Walkability (Verified Turn 74561):** Confirmed standard walkable pink checkered floor with no drop.
+- **Tile `(20, 14)` Walkability (Verified Turn 74564):** Confirmed standard walkable pink checkered floor with no drop.
