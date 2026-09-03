@@ -36,9 +36,9 @@
 ## Staircases & Floor Warps
 - **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
 
-## Ground Truth Balcony & Southern Route (Verified Turn 73671 in State A)
-- **Balcony Access Route:** The balcony on Columns 16-19 (Rows 18-20) is NOT entered through the closed shutter gate at `(20, 17)` / `(21, 17)`.
-- **True Path to Balcony:** In State A, pass through the open shutter gate at `(24, 13)` / `(25, 13)` to Row 16. Then pass south through the wide-open doorway at `(24, 17)` and `(25, 17)` into the southern chamber (Rows 18-20+).
-- **Southern Corridor:** Row 20 connects Columns 16-23 directly across to the balcony pedestals at `(16-19, 18-19)`!
-- **Burglar NPC:** Located at `(17, 17)` guarding the inner balcony corridor.
-- **Balcony Drop Tile (19, 18):** Accessible from the south via Row 19/20! Dropping over the railing here lands on B1F at `(9, 16)`.
+## Southeastern Chamber & Southern Wing Layout (Verified Turns 73680-73708 in State A)
+- **Column 24 Vertical Barrier:** Continuous solid vertical wall on Rows 19-23, and continuous rubble on Rows 24-27. This completely isolates Columns 26-28 from Columns 20-23 across all southern rows.
+- **Column 25 Rubble:** Solid rubble blocks Column 25 on Rows 24-27.
+- **Row 27 Boundary:** Columns 22-23 terminate in a solid wall/counter at Row 27. Columns 24-25 are rubble at Row 27. Columns 26-27 terminate in a closed shutter gate at `(26, 27)` and `(27, 27)` in State A.
+- **Row 17 Balcony Shutter Gate:** Closed and impassable in State A at `(20, 17)` and `(21, 17)` (tested Turn 73708, bumped). State B configuration is an unverified hypothesis.
+- **Burglar NPC & Inner Balcony Corridor:** Burglar is located at `(17, 17)` with balcony railing at `(17-19, 18)`. Columns 17-23 on Row 20 are open pink floor, but completely unreachable from Columns 24-28 due to the Column 24 wall and Row 17 closed gates.
