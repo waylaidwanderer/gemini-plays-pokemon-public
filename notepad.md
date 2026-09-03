@@ -1521,6 +1521,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Columns 16-17 Corridor (Verified Turn 74495):** Rows 16-19 on Columns 16-17 form an open 2-tile wide corridor between desks at Columns 14-15 and Columns 18-19, leading to southern corridor (Rows 20-25) and item ball at `(19, 25)` (collected Turn 74500).
 - **Active 3F East Mewtwo Statue Switch at `(18, 25)` (Verified Turn 74508):** Confirmed active secret switch! Interacted from `(18, 26)` facing UP. Triggers "A secret switch!" prompt.
 - **Burglar at `(16, 23)` (Verified Turn 74523):** Active trainer (says "Uh-oh. Where am I now?" pre-battle). Has 2 Pokémon. Engaged in battle on Turn 74523.
+- **Tile `(16, 14)` Walkability (Verified Turn 74557):** Confirmed standard walkable pink checkered floor with no drop.
 
 <hr>
 
