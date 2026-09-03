@@ -1487,6 +1487,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **3F East Pitfall at `(17, 14)` (Verified Turn 74402):** Stepping into the dark pitfall tile at `(17, 14)` on 3F East drops the player to `(16, 14)` on the lower floor balcony chamber (`(17, 13) -> (17, 14) -> [New Map|(16, 14)]`). Contains Burglar NPC at `(17, 17)` and balcony hedges on Row 18.
 - **Row 15 Walkability (Verified Turn 74495):** Tiles `(17, 15)`, `(18, 15)`, `(19, 15)`, `(20, 15)`, and `(21, 15)` are standard walkable pink checkered floor with no drops, connecting Column 21 through to Column 17.
 - **Columns 16-17 Corridor (Verified Turn 74495):** Rows 16-19 on Columns 16-17 form an open 2-tile wide corridor between desks at Columns 14-15 and Columns 18-19, leading to southern corridor (Rows 20-25) and item ball at `(19, 25)`.
+- **Active 3F East Mewtwo Statue Switch at `(18, 25)` (Verified Turn 74508):** Confirmed active secret switch! Interacted from `(18, 26)` facing UP. Triggers "A secret switch!" prompt.
 
 <hr>
 
