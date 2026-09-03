@@ -8,4 +8,4 @@
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
-- [ ] Receive Starter Pokémon from Professor Oak
+- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
