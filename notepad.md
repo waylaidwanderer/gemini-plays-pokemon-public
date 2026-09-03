@@ -1394,16 +1394,12 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 - **3F Central-East Statue:** Located at `(16, 10)` and `(18, 10)`.
 
-## Ground Truth Route to Balcony Drop (B1F West)
-The balcony drop tile at `(19, 18)` drops the player directly into B1F West at `(9, 16)`.
-In **State B**:
-1. At 3F West switch `(2, 5)`, toggle to **State B**.
-2. Walk east along Row 6 to Column 16/17 `(16, 6)` or `(17, 6)`.
-3. Walk Down through the open shutter gates at `(16, 7)` / `(17, 7)` to Row 16!
-4. Walk south along Column 17 past the Burglar at `(17, 17)` to Row 20 `(17, 20)`!
-5. Walk East along Row 20 to `(20, 20)`.
-6. Walk North along Column 20 to `(20, 18)`.
-7. Walk West to `(19, 18)` (balcony railing) and step Down to drop directly into B1F West!
+## Verified Layout & Physical Constraints (Turns 73310-73322)
+- **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
+- **Mewtwo Statues at `(16, 10)` and `(18, 10)`:** Verified inactive with NO interactable switches (tested turns 73316-73317).
+- **Column 17 Dead-End:** Column 17 terminates at a solid horizontal wall panel at `(17, 12)` on Row 13. It does NOT connect south to Row 16.
+- **Column 12 Vertical Corridor:** Open pink checkered floor on Rows 6-11 between Column 11 rubble and Column 13 vertical wall. Runs vertically outside the west wall of the central statue chamber.
+- **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
 
 
 <hr>
