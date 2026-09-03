@@ -2733,23 +2733,29 @@
 
 <h1><code>Locations/VictoryRoad3F</code></h1>
 
-# Victory Road 3F - Layout & Notes
+# Victory Road 3F - Layout & Topology
 
-## General Information
+## Ladders
 - NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room
-- Ladder A (from 2F (23, 7)): Located at (23, 7)
-- Ladder B (from 2F SE (25, 14)): Located at (26, 8) [Key progression ladder!]
+- Ladder A (from 2F (23, 7)): Located at (23, 7) on upper plateau
+- Ladder NE (from 2F (27, 7)): Located at (27, 7) on upper plateau
+- Ladder B (from 2F SE (25, 14)): Located at (25, 14) in SE Lower Purple Room (rows 12-14)
 
-## Master Puzzle Solution: Pit Boulder & Exit Activation
-1. Arrive on 3F at (26, 8) via Ladder B from 2F SE (25, 14).
-2. Activate HM Strength with ATLAS (Machop).
-3. From (26, 8), walk to (25, 10) (standing directly east of Boulder 2 @ (24, 10)).
-4. Push Boulder 2 West twice: (24, 10) -> (23, 10) -> (22, 10).
-5. Walk South down clear column 23: (23, 10) -> (23, 11) -> (23, 12) -> (23, 13) -> (23, 14).
-6. Walk West/South to (21, 15): (23, 14) -> (22, 14) -> (21, 14) -> (21, 15).
-7. Stand at (21, 15) facing East: Push Pit Boulder @ (22, 15) East into Hole @ (23, 15)!
-8. Step East into Hole @ (23, 15) to drop down to 2F.
-9. On 2F, fallen boulder lands on exit switch, unlocking path to Route 23 North / Indigo Plateau exit ladder!
+## Physical Features & Topography
+- Upper Dark Plateau (rows 6-11, cols 12-28): Contains Ladder A (23, 7), Ladder NE (27, 7), and boulder at (22, 10). Separated from lower purple floor by cliff wall between row 11 and 12.
+- SE Lower Purple Room (rows 12-14, cols 18-26):
+  - Ladder B at (25, 14) connects to 2F SE (25, 14).
+  - Cooltrainer at (21, 13).
+  - Shutter Barrier at (21, 15) with solid rock wall at (18..20, 15) and (22..27, 15).
+- SW / South Sector (rows 12-15, cols 0-17):
+  - Accessed via NW Room (2, 0) -> Western Bridge (cols 5-7).
+  - Contains Boulder at (13, 13).
+  - Contains Switch and path to open barriers / hole.
 
+## Master Progression Strategy
+1. From 2F NW ladder (1, 1), enter 3F NW room at (2, 0).
+2. Follow Western Bridge (cols 5-7) south into SW sector (rows 12-15).
+3. Activate Strength, solve SW boulder/switch puzzle to unlock shutter at (21, 15) and access the Pit/Hole.
+4. Push Pit Boulder through Hole down to 2F to trigger the exit switch!
 
 <hr>
