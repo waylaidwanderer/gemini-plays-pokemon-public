@@ -9,4 +9,4 @@
 - **Row 8 Shutter Gate (2F East):** Shutter gate located at `(18, 8)` and `(19, 8)`. Verified CLOSED in State A on Turn 73390. Empirically verified OPEN in State B on Turn 73513!
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402. Column 28 dead-ends at `(28, 7)` into solid wall at `(28, 8)`. No stairs down to 1F East in this pocket.
 - **Stairs at (25, 14) on 2F East:** Discovered visually on Turn 73520! Located in the southeastern chamber of 2F East at `(25, 14)`.
-- **Column 22 Rubble Barrier (2F East, Verified Turn 73536-73537):** Tested physical movement eastward against Column 22; (22, 12), (22, 13), and (22, 14) are empirically verified solid impassable rubble. Testing (22, 15) and Row 16 railing on Turn 73541.
+- **Column 22 Rubble Barrier (2F East, Verified Turn 73536-73547):** Tested physical movement eastward against Column 22; (22, 12), (22, 13), (22, 14), and (22, 15) are empirically verified solid impassable rubble. Row 16 railing is a solid impassable barrier (tested at (21, 16)).
