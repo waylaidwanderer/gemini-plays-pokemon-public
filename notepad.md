@@ -2768,19 +2768,5 @@
   - Column 11 (rows 5..11) is a solid rock wall blocking westward bridge extension.
   - Bridge South Span: Spans columns 12..15 south from row 7 to row 11. Row 11 is the southern bridge boundary.
 - Southern Lower Floor Corridor: Located at rows 12-13, where Boulder is visible at (13, 13).
-## Master Pit & Boulder Puzzle System (Planned Solution)
-- Pit / Hole Location: (23, 14)
-- Boulder 2 Location: (24, 10) (located east of column 23 at row 10)
-- Ladder B (connects to 2F SE (25, 14)): Located at (26, 8) on 3F
-- Row 9 Rock Wall: (21..24, 9) separates upper area from row 10
-- Master Execution Sequence:
-  1. Ascend from 2F SE Ladder at (25, 14) to arrive at Ladder B (26, 8) on 3F.
-  2. Activate HM Strength with ATLAS (Machop) via Start -> POKéMON -> ATLAS -> STRENGTH.
-  3. From (26, 8), walk down to (25, 10) (standing east of Boulder 2 @ (24, 10)).
-  4. Push Boulder 2 West from (24, 10) to (23, 10).
-  5. Move to (23, 9) (above Boulder 2) and push Boulder 2 straight SOUTH down column 23:
-     - (23, 10) -> (23, 11) -> (23, 12) -> (23, 13) -> into Hole at (23, 14)!
-  6. Step into Hole at (23, 14) to drop down to 2F onto exit switch plate!
-  7. On 2F, exit shutter is opened; climb exit ladder to Indigo Plateau!
 
 <hr>
