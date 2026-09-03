@@ -2785,7 +2785,7 @@
 - Southeast Ladder: (26, 8) (connects to 2F SE ladder at (25, 14))
 - Boulder 1 (Northeast): (22, 3) on upper plateau
 - Trainer 1 (Cooltrainer♂): (28, 5) [Defeated Turn 23834]
-- Trainer 2 (Cooltrainer♂): (13, 3) facing South in North Central lower chamber
+- Trainer 2 (Cooltrainer♀): (13, 3) [Defeated Turn 25004]. Roster: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43.
 - Shutter 1: (17, 5) [Opened by Switch Plate at (3, 5)] connecting North Central chamber (17, 4) to Central Hall (17, 6) [Verified Turn 24985]
 - Western Elevated Bridge: Spans cols 6-7 from row 0 to row 6
 - Switch Plate (Southwest): (3, 5) on elevated ledge / western floor
