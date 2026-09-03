@@ -11,7 +11,7 @@
 
 ## State-Dependent Shutter Gates
 - **Row 7 Shutter Gates (Columns 16-17):** Shutter gates at `(16, 7)` and `(17, 7)`. Empirically verified CLOSED in State A on Turn 73279. OPEN in State B!
-- **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. CLOSED in State B.
+- **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. Empirically verified CLOSED in State B on Turn 73340.
 - **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED in State A on Turn 73256. OPEN in State B!
 - **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. OPEN in State B!
 
@@ -25,3 +25,5 @@
 - **Column 17 Dead-End:** Column 17 terminates at a solid horizontal wall panel at `(17, 12)` on Row 13. It does NOT connect south to Row 16.
 - **Column 12 Vertical Corridor:** Open pink checkered floor on Rows 6-11 between Column 11 rubble and Column 13 vertical wall. Runs vertically outside the west wall of the central statue chamber.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
+
+- **Column 26 Pitfall (Rows 3-6):** Empirically verified INACTIVE / COVERED in State B on Turn 73339 (player walked from (26, 1) to (26, 6) without falling). ACTIVE in State A (falls into 1F East fenced room at (26, 4)).
