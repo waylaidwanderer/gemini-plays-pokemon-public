@@ -1449,6 +1449,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 9 Northern Boundary:** Solid continuous horizontal wall across Columns 1-7.
 - **Row 10 Connection & Stairs:** Open corridor at Row 10 connecting Columns 1-7 directly to the hallway leading to descending stairs to 2F West at `(6, 1)`. Row 11 connects Columns 1-12 across.
 - **Southwest Dead-End:** No switches, pitfalls, or exits in the southwest quadrant; all paths terminate at Row 27 solid wall.
+- **Central Switch Chamber (Columns 11-15, Rows 7-11, Verified Turn 73912):**
+  - Row 8 Column 11 is a solid horizontal wall panel. Passage to Column 13 is via Row 7 `(12, 7)` and `(13, 7)`.
+  - Mewtwo statues are located at `(12, 9)` and `(12, 11)` with a shrub at `(12, 10)`. Both statues face east toward open pink floor on Column 13 `(13, 9)` and `(13, 11)`.
+  - Shutter gates leading east into the balcony area are at `(15, 10)` and `(15, 11)`. Verified CLOSED in State A.
 
 <hr>
 
