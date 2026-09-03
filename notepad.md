@@ -1304,7 +1304,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## Physical Layout & Walkable Areas (Verified Turn 69025)
 - **1F West and 1F East Connection:** Connected horizontally via Row 6.
-- **Warp from 2F West:** The staircase at (7, 10) on 2F West warps the player down to 1F West, landing at (7, 11) on 1F West.
 - **Rubble Barrier on Row 7:** Row 7 is blocked horizontally on Columns 3-9 by a horizontal wall of rubble. Columns 10, 11, 12 on Row 7 are completely open pink checkered floor.
 - **Column 11 Partition Wall:** Solid vertical wall separating Column 10 from Column 12 on Rows 8-12.
 - **NPC at (6, 11):** There is a wandering NPC (Scientist) on Row 11 walking between Columns 4-6.
@@ -1362,8 +1361,17 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
+# Pokémon Mansion 2F - Map & Navigation Log
 
-- **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402. Column 28 dead-ends at `(28, 7)` into solid wall at `(28, 8)`. No stairs down in this pocket.
+## Verified Layout & Physical Constraints
+- **Stairs to 1F West:** Located at `(7, 10)` on 2F West. Stepping on it warps player down to 1F West at `(7, 11)`.
+- **Stairs to 3F West:** Located at `(5, 10)` on 2F West. Warps player up to 3F West at `(5, 10)`.
+- **2F West Mewtwo Switch:** Located at `(2, 11)` on 2F West. Interacted from `(2, 12)` facing UP.
+- **Horizontal Connection (Rows 4-7):** Empirically verified on Turn 73387 in State A. Rows 4, 5, 6, 7 form a massive open corridor spanning Columns 10-15+ connecting 2F West directly to 2F East with ZERO shutter gates or barriers.
+- **2F East Central Corridor:** Rows 6-7 span Columns 16-22 (open pink checkered floor).
+- **Row 8 Shutter Gate (2F East):** Shutter gate located at `(18, 8)` and `(19, 8)`. Verified CLOSED in State A on Turn 73390.
+- **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402. Column 28 dead-ends at `(28, 7)` into solid wall at `(28, 8)`. No stairs down to 1F East in this pocket.
+
 
 <hr>
 
