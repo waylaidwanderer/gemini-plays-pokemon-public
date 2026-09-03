@@ -25,6 +25,7 @@
 - **Column 12 Vertical Corridor:** Open pink checkered floor on Rows 6-11 between Column 11 rubble and Column 13 vertical wall. Runs vertically outside the west wall of the central statue chamber.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
 ## Empirical State Tracking & Observations
+- **Turn 73662-73664 (State A Empirical Ground Truth of 3F East):** In State A, shutter gates at `(24, 13)` and `(25, 13)` are visibly OPEN pink checkered floor, allowing passage into southern 3F East (Rows 14-20). Row 16 is open pink floor across Columns 21-28. Row 17 has an open doorway at `(24, 17)` and `(25, 17)` leading south into Rows 18-20. Shutter gate at `(21, 17)` is CLOSED in State A.
 - **Turn 73643 (Switch Toggled to State A):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE A.
 - **Turn 73478-73484 (State B Empirical Test of 3F East Column 26 & Row 13):** In State B, walked down Column 26 from (26, 3) to (26, 11). All tiles are solid pink checkered floor with NO pitfall trigger. At Row 13, the passage is 100% solid and impassable: (22, 13)-(23, 13) rubble, (24, 13)-(25, 13) closed shutter gates, (26, 13)-(28, 13) solid horizontal wall panels. No southern passage exists on 3F East in State B.
 
