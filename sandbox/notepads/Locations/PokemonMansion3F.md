@@ -63,3 +63,4 @@
 - **Column 22 Boundary at Row 15 (Verified Turn 74385):** Tile `(22, 15)` is solid impassable boundary wall when stepping Left from `(23, 15)` (player bumped). Chasm cannot be entered from Column 23 at Row 15.
 - **Column 22 Boundary at Row 14 (Verified Turn 74388):** Tile `(22, 14)` is solid impassable boundary wall when stepping Left from `(23, 14)` (player bumped). Entire Column 22 boundary across Rows 14-16 is impassable.
 - **Row 13 Counter Barrier at (21, 13) (Verified Turn 74393):** Tile `(21, 13)` is solid impassable counter when stepping Down from `(21, 12)` (player bumped). Cannot enter chasm via (21, 13).
+- **3F East Pitfall at `(17, 14)` (Verified Turn 74402):** Stepping into the dark pitfall tile at `(17, 14)` on 3F East drops the player to `(16, 14)` on the lower floor balcony chamber (`(17, 13) -> (17, 14) -> [New Map|(16, 14)]`). Contains Burglar NPC at `(17, 17)` and balcony hedges on Row 18.
