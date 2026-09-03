@@ -1465,9 +1465,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
-- **Scientist Ted at `(19, 11)`:** 3 Pokmon (leads with Magnemite Lv 33). Facing Left along Row 11.
+- **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
 
-- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is an ordinary walkable floor tile on 3F (no map warp).
+- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
 
 <hr>
 
