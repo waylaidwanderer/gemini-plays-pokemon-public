@@ -30,9 +30,7 @@
 - **Turn 73643 (Switch Toggled to State A):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE A.
 - **Turn 73478-73484 (State B Empirical Test of 3F East Column 26 & Row 13):** In State B, walked down Column 26 from (26, 3) to (26, 11). All tiles are solid pink checkered floor with NO pitfall trigger. At Row 13, the passage is 100% solid and impassable: (22, 13)-(23, 13) rubble, (24, 13)-(25, 13) closed shutter gates, (26, 13)-(28, 13) solid horizontal wall panels. No southern passage exists on 3F East in State B.
 
-- **Turn 73449 (State A Visual Confirmation):** Standing at (12, 9) looking east, the shutter gates at (16, 7) and (17, 7) were visibly CLOSED with orange/black bars and yellow frames, definitively proving the mansion was in State A.
-- **Turn 73459 (Switch Toggled to State B):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE B.
-- **Turn 73468 (State B Visual Confirmation):** Standing at (12, 3) looking southeast, the shutter gates at (16, 7) and (17, 7) were visibly OPEN as pink checkered floor, definitively confirming the mansion is in State B.
+
 
 ## Staircases & Floor Warps
 - **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
