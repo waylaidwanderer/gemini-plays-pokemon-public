@@ -1408,6 +1408,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - **State A:** CLOSED (blocks passage into 2F East corridor).
   - **State B:** OPEN (allows passage into 2F East corridor).
 
+
+- **Column 9 Wall & Gate Barrier (Empirically Verified Turn 74291):** Column 9 is a solid wall on Rows 1-3 and Rows 6-9 (tested bumping into (9, 1) from (10, 1) on Turn 74291). In State B, with the shutter gate at (9, 4-5) closed, Column 9 is an unbroken vertical barrier from Row 1 to Row 9. The stairs at (6, 1) cannot be accessed from Column 10 in State B; the switch at (2, 11) must be set to State A to open (9, 4-5).
+
 ## Chamber Connectivity
 - **2F West:** Contains stairs to 1F `(7, 10)`, stairs to 3F `(6, 1)`, and switch at `(2, 11)`.
 - **2F East Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7.
