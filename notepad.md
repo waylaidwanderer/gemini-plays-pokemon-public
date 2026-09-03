@@ -1415,7 +1415,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
 - **Column 15 Crossing (Rows 4-5):** Column 15 has solid vertical wall panels on Row 2, Row 3, and Rows 6-9. Horizontal crossing between 3F West and 3F East is open pink checkered floor on Row 4 and Row 5.
 - **Row 6 Column 22 is a Solid Wall:** Solid vertical partition wall panel (impassable).
-- **Row 8 Barrier (Columns 11-28):** Horizontal barrier running across the floor, but vertical travel across Row 8 is possible via Column 11, Column 12, and Column 26/27. Columns 13-17 and 20-22 are solid wall panels; Columns 18-19 are bookcases; Column 23 is rubble; Columns 24-25 are wall panels. Columns 26-27 are completely open pink checkered floors (verified on Turn 73161 and Turn 73192).
+- **Row 8 Barrier (Columns 11-28):** Horizontal barrier running across the floor. Vertical travel across Row 8 is possible via Column 11 and Column 12 in the west.
 - **Column 11 Row 16 is a Solid Wall:** Solid vertical partition wall panel, preventing horizontal travel along Row 16 between 3F West (Column 10) and 3F East (Column 12).
 - **Row 12 Debris (Columns 14-17):** Solid rubble permanently blocks horizontal travel along Row 12 on Columns 14-17.
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
@@ -1469,9 +1469,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
-- **Tile (26, 6):** Empirically verified solid impassable rubble on Turn 74147 (player bumped from (26, 5) stepping Down).
-- **Tile (27, 6):** Empirically verified solid impassable rubble on Turn 74150 (player bumped from (27, 5) stepping Down).
-- **Tile (27, 7):** Empirically verified solid impassable rubble on Turn 74155 (player bumped from (28, 7) stepping Left). Northeast pocket (Columns 24-28) is completely closed to the south on Rows 6-8.
 
 <hr>
 
