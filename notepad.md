@@ -99,7 +99,8 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
   9. HP UP x 1
   10. CALCIUM x 1
   11. TM35 x 1
-  12. IRON x 1 (Collected from 3F East at (19, 25) on Turn 74500)
+  12. IRON x 1
+  Note: One item in slots 12-14 was collected from 3F East at (19, 25) on Turn 74500 (pickup dialogue was not verified).
   13. CARBOS x 1
   14. TM14 (BLIZZARD) x 1
 - Empty bag slots: 6 available (14/20).
@@ -1317,8 +1318,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **1F East Gate (25, 13):** Open in State A (verified Turn 68294), closed in State B.
 - **B1F Connecting Gate (9, 5):** Hypothesized open in State B and closed in State A, but requires direct visual verification upon entering B1F.
 
-- **Turn 74337 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by 'Who wouldn't?' prompt and gate closing at (15, 4-5)). Current Mansion State: **State B**.
-  - **3F Balcony Gate:** Shutter gate at `(20, 17)` / `(21, 17)` is **OPEN** (verified Turn 74482).
 
 <hr>
 
