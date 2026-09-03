@@ -2705,10 +2705,11 @@
 ## Collected Items
 - [x] Item Ball at (18, 9) [Collected Turn 24170]
 
-## Verified East Sector & SE Ladder Architecture (Verified Turn 25695)
+## Verified East Sector & SE Ladder Architecture (Verified Turn 26192)
 - Row 16 Highway: Connects Shutter 3 at (21, 15) east to (29, 16) through (21..29, 16).
-- Eastern Wrap-Around Highway: Columns 28-29 span rows 7 to 17, providing open passage from the lower highway up to the SE ladder platform (rows 12-14) and NE ladder platform (row 7)!
-- SE Ladder Access: From (29, 16) -> North to (29, 12) -> West to (25, 12) -> South to (25, 14) [SE Ladder to 3F].
+- Eastern Wrap-Around Highway: Columns 28-29 span rows 11 to 16. Row 10 is blocked by rock at (26..30, 10).
+- Row 11 Highway: Open horizontal corridor across (18..29, 11) on upper plateau.
+- SE Ladder (25, 14): Located on lower light-purple floor (rows 12-14), accessed from Shutter 3 at (21, 15) -> row 12 (21..25, 12) -> (25, 14).
 - Ledge at (23, 14): West-facing one-way descent jumping FROM (24, 14) DOWN TO (22, 14).
 
 ## Defeated Trainers (2F)
