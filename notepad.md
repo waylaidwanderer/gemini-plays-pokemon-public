@@ -2789,28 +2789,20 @@
 
 ## Defeated Trainers (3F)
 - [x] Cooltrainer: Located at (28, 5) [Defeated Turn 23834]. Roster: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43. Reward: ¥1548.
-## Verified Collision Constraints (3F)
-- (27, 6) is a solid rock wall / cliff.
-- (11, 6) is a solid rock obstacle.
-- (16, 5) is a solid rock wall.
-- (12, 12) is a solid rock wall.
-- (16..20, 12) is a solid horizontal rock wall separating rows 10-11 from rows 13-14.
-- (8..11, 11) is a solid rock wall.
-- (13, 12) is an orange Boulder between walls (12, 12) and (14, 12).
-- (24, 10) is an orange Boulder in eastern central corridor.
-- (24, 4) is a solid rock obstacle when attempting to step South from (24, 3).
-- Boulder at (13, 12) pushed to (13, 13): from (13, 12), (12, 12) is rock wall (West), (14, 12) is rock wall (East), and pushing South against Boulder (13, 13) is blocked by (13, 14) rock wall.
-- (21, 9..12) is a solid vertical rock wall separating column 20 from columns 22-23.
+## Verified Collisions & Topology (3F)
+- Ladder to 2F (SE): Located at (26, 8) with arrival/spawn tile at (23, 7).
+- Ladder to 2F (NW): Located at (2, 0).
+- (23, 6) is a south-facing ledge (stepping Up from (23, 7) is blocked). Northward passage to upper terrace is via (21, 7) -> (21, 6) -> (21, 3).
+- (24, 7) is a solid rock obstacle (stepping Right from (23, 7) is blocked).
 - (24, 4), (25, 4), (26, 4) are rock obstacles; column 25 cannot be traversed south from row 3.
 - (27, 6) and (28, 6) are solid rock cliffs; northeastern sector (rows 0-5) has no southward exit into lower eastern corridors.
-- [x] Item Ball at (7, 7) [Collected Turn 24115]
-- (5, 1) is a solid rock cliff / wall blocking Left movement from (6, 1).
-- (6, 6) -> (6, 7) is blocked when attempting to step South.
-- (7, 7) -> (6, 7) is a solid rock cliff blocking Left movement.
-## Verified Collisions & Ladders (3F)
-- Ladder to 2F is at (26, 8) with arrival/spawn tile at (23, 7).
-- (24, 7) is a solid rock obstacle (stepping Right from (23, 7) is blocked).
-- (12, 7) is blocked to the left by solid rock at (11, 7).
-- (23, 6) is a south-facing ledge (stepping Up from (23, 7) is blocked). Northward passage to upper terrace is via (21, 7) -> (21, 6) -> (21, 3).
+- (21, 9..12) is a solid vertical rock wall separating column 20 from columns 22-23.
+- (16..20, 12) is a solid horizontal rock wall separating rows 10-11 from rows 13-14.
+- (8..11, 11) is a solid rock wall; (11, 6) and (11, 7) are rock obstacles.
+- (12, 12) and (16, 5) are solid rock walls.
+- (13, 14) is a solid rock wall blocking southward push of Boulder at (13, 13).
+- (5, 1) is a solid rock cliff/wall blocking Left movement from (6, 1).
+- (6, 6) -> (6, 7) is blocked; (7, 7) -> (6, 7) is a solid cliff.
+- Pit Boulder is at (22, 15); Pit/Hole is at (23, 15). Push Pit Boulder East into Hole (23, 15) to unlock 2F exit route.
 
 <hr>
