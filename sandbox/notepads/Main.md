@@ -11,5 +11,5 @@
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
-- [ ] Reach Viridian City via Route 1
+- [x] Reach Viridian City via Route 1 [Turn 132]
 - [ ] Visit Viridian City Poké Mart

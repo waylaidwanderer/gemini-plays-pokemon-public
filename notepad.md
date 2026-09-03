@@ -13,7 +13,7 @@
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
-- [ ] Reach Viridian City via Route 1
+- [x] Reach Viridian City via Route 1 [Turn 132]
 - [ ] Visit Viridian City Poké Mart
 
 <hr>
@@ -75,5 +75,19 @@
 ## Strategy
 - Route 1: Defeat wild Pidgey/Rattata with Tackle for EXP toward Lv 8 (Bubble).
 - Conserve Potions unless HP <= 5.
+
+<hr>
+
+<h1><code>Locations/Kanto_ViridianCity</code></h1>
+
+# Viridian City Points of Interest & Geography
+
+## Connections
+- South: Route 1 entrance at (21, 36). Arrived at (21, 35) on Turn 132.
+
+## Key Buildings & Objectives
+- [ ] Poké Mart (recommended by Route 1 clerk)
+- [ ] Pokémon Center (heal Sheldon)
+- [ ] Viridian City Gym
 
 <hr>
