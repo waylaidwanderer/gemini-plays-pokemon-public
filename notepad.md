@@ -1385,12 +1385,32 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
-## 2F Balcony Chamber (Verified Ground Truth - Turn 74424)
-- **Access:** Only reachable by dropping through 3F East pitfall at `(17, 14)`. Player lands at `(16, 14)`.
-- **Scientist Trainer at (17, 17):** Defeated on Turn 74424 (Electrode Lv 29, Weezing Lv 29; awarded ¥1450).
-- **Balcony Barrier (Rows 18-19):** Green hedges at `(14-19, 18)` and gold balustrades/urns at `(14-19, 19)`.
-- **Bypass Routes to Balcony:** Open pink checkered corridors on Columns 12-13 and Columns 20-21 bypass the hedges south to Row 20.
-- **Item Ball:** Visible at `(18, 21)`.
+# Pokémon Mansion 2F - Map & Navigation Log
+
+## Physical Layout & Walkable Areas
+- **Stairs to 1F West:** Located at `(7, 10)`. Landing from 1F West places the player at `(7, 11)`.
+- **Stairs to 3F West:** Located at `(6, 1)`.
+- **Stairs to 3F East:** Located at `(25, 14)` in the Southeastern Chamber.
+- **Southeastern Chamber:** Bounded by Column 22 rubble and Row 16 railing. Landing from `(25, 14)` enters this room.
+
+## Mewtwo Statue Switches & Shutter Gates
+- **2F West Mewtwo Switch:** Located at `(2, 11)`. Interacting from `(2, 12)` facing UP toggles between State A and State B (confirmed Turn 73065, Turn 74302).
+- **2F West Shutter Gates (Columns 9-10, Rows 4-5):**
+  - Shutter gate at `(9, 4)` and `(9, 5)` is **OPEN** in State A, **CLOSED** in State B.
+- **2F East Shutter Gate (Columns 18-19, Row 8):**
+  - Shutter gate at `(18, 8)` / `(19, 8)` is **CLOSED** in State A, **OPEN** in State B (verified Turn 73513).
+- **Balcony Railing:** Row 16 at `(21, 16)` is a solid impassable railing (verified Turn 74249).
+
+## Empirical Landings & Pitfall Warps
+- **Landing from 3F East Pitfall `(19, 14)` (Verified Turn 74244):** Player lands at `(18, 14)` on 2F East Southwest Corridor. From here, open pink floor extends north along Column 19/20 up to Row 10 corridor, and west towards 1F stairs.
+- **Landing from 3F East Pitfall `(17, 14)` (Verified Turn 74402):** Player lands at `(16, 14)` in the 2F Balcony Chamber.
+
+## 2F Balcony Chamber (Verified Ground Truth)
+- **Scientist Trainer at `(17, 17)`:** Defeated on Turn 74424 (Electrode Lv 29, Weezing Lv 29; awarded ¥1450).
+- **Balcony Barriers (Rows 18-19 and 22-23):** Green hedges at `(14-19, 18)` & `(14-19, 22)`, gold balustrades/urns at `(14-19, 19)` & `(14-19, 23)`.
+- **Corridors:** Open pink checkered corridors on Columns 12-13 and Columns 20-23 bypass the barriers to the south.
+- **Item Ball at `(18, 21)`:** Located in the corridor between the hedge rows.
+
 
 <hr>
 
@@ -1432,7 +1452,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 24 Vertical Barrier:** Continuous solid vertical wall on Rows 19-23, and continuous rubble on Rows 24-27. This completely isolates Columns 26-28 from Columns 20-23 across all southern rows.
 - **Column 25 Rubble:** Solid rubble blocks Column 25 on Rows 24-27.
 - **Row 27 Boundary:** Columns 22-23 terminate in a solid wall/counter at Row 27. Columns 24-25 are rubble at Row 27. Columns 26-27 terminate in a closed shutter gate at `(26, 27)` and `(27, 27)` in State A.
-- **Burglar NPC & Inner Balcony Corridor:** Burglar is located at `(17, 17)` with balcony railing at `(17-19, 18)`. Columns 17-23 on Row 20 are open pink floor, but completely unreachable from Columns 24-28 due to the Column 24 wall and Row 17 closed gates.
 - **Column 11 Vertical Barrier (Verified Turn 73743):** Solid vertical wall panel extends continuously from Row 13 all the way down to Row 27, where it meets the solid Row 27 south wall. There is NO eastern crossing between Column 10 and Column 12 anywhere on Rows 13-27.
 - **Row 27 Southern Boundary (3F West, Verified Turn 73743):** Row 27 is a continuous solid wall/counter across Columns 8-15, terminating the map at Row 27. Rows 28-30 are void.
 
