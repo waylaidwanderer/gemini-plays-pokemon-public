@@ -1453,6 +1453,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Negative Interaction Logs (Verified Ground Truth)
 - **Mewtwo Statues at (12, 9) and (12, 11) (Verified Turn 73917 & 73928):** Inactive decorative statues with NO switches. Tested facing UP from (12, 12) on Turn 73917 (negative), and tested facing LEFT from (13, 11) on Turn 73928 (negative). No prompt or dialogue triggered.
 
+- **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 
 <hr>
 
