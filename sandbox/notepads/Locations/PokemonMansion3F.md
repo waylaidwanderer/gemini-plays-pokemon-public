@@ -10,6 +10,7 @@
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
 ## State-Dependent Shutter Gates
+- **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on the southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269.
 - **State B (Default):**
   - Shutter gate at `(12, 13)` is **OPEN**, unblocking Column 12 down to Row 16.
   - Shutter gates on Columns 14, 15, 17 on Row 7/8 are **OPEN**.
