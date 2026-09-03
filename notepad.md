@@ -86,9 +86,9 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
 - **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
 - **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Locked - We do not have the Secret Key yet).
 
-## Key Items & Inventory Log (Verified Turn 73904)
-- Our Bag contains 12 items: POKé FLUTE, SUPER ROD, MAX POTION (x1), MAX REVIVE (x1), HM03 (SURF), TOWN MAP, GOOD ROD, MASTER BALL (x1), HP UP (x1), CALCIUM (x1), TM35 (x1), IRON (x1).
-- We do NOT have the Secret Key in our bag. It must be retrieved from Pokémon Mansion B1F.
+## Key Items & Inventory Log (Verified Turn 65791)
+- Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
+- We do NOT have the Secret Key in our bag (verified Turn 65791, checked PC on Turn 65817). It must be retrieved from Pokémon Mansion B1F.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
@@ -1394,21 +1394,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
-# Pokémon Mansion 2F - Map & Navigation Log
 
-## Verified Layout & Physical Constraints
-- **Stairs to 1F West:** Located at `(7, 10)` on 2F West (descending). Landing at `(7, 11)` on 1F West. Stepping on it warps player down to 1F West at `(7, 11)`.
-- **Stairs to 3F West:** Located at `(6, 1)` on 2F West (ascending). Stepping on it warps player up to 3F West, landing at `(6, 2)`.
-- **Stairs to 2F West (on 3F):** Descending stairs on 3F West are at `(6, 1)`. Stepping on it warps down to 2F West at `(6, 2)`.
-- **2F West Mewtwo Switch:** Located at `(2, 11)` on 2F West. Interacted from `(2, 12)` facing UP.
-- **Horizontal Connection (Rows 4-7):** Empirically verified on Turn 73387 in State A. Rows 4, 5, 6, 7 form a massive open corridor spanning Columns 10-15+ connecting 2F West directly to 2F East with ZERO shutter gates or barriers.
-- **2F East Central Corridor:** Rows 6-7 span Columns 16-22 (open pink checkered floor).
-- **Row 8 Shutter Gate (2F East):** Shutter gate located at `(18, 8)` and `(19, 8)`. Verified CLOSED in State A on Turn 73390. Empirically verified OPEN in State B on Turn 73513!
-- **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402, 73559, 73568. Enclosed dead-end! Row 8 consists of solid wall panels on Columns 24-28 (verified at (28, 8) and (24-28, 8)). Rows 6-7 are blocked by rubble on Columns 24-27. There is NO southern exit from this pocket to Rows 9-16.
-- **Southeastern Chamber & Stairs at (25, 14):** Visually confirmed on Turn 73520 at `(25, 14)`. Because both the Southwest Corridor and the Northeast Pocket are completely blocked from entering this chamber on foot, this area cannot be reached by walking horizontally on 2F in either State A or State B; it must be entered via falling from 3F or ascending from 1F.
-- **Column 22 Rubble Barrier (2F East, Verified Turn 73536-73547):** Tested physical movement eastward against Column 22; (22, 12), (22, 13), (22, 14), and (22, 15) are empirically verified solid impassable rubble. Row 16 railing is a solid impassable barrier (tested at (21, 16)).
-- **Column 9 Shutter Gates (2F West, Verified Turn 73581):** Shutter gates at `(9, 4)` and `(9, 5)` are CLOSED in State B, blocking horizontal corridor travel on Rows 4-5 between 2F West and 2F East. Row 10 is open pink checkered floor connecting Columns 8-12.
-- **Column 9 Wall Panel (Rows 6-9):** Solid vertical wall panel at `(9, 6)` through `(9, 9)`. Horizontal passage between Column 10 and Column 8 is open via Row 10 (Columns 7-10) and Rows 4-5 in State A.
 
 <hr>
 
