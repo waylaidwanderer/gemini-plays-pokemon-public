@@ -1290,7 +1290,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
 - **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
 
-- **Turn 74183 State Change:** Toggling 2F West Mewtwo switch at `(2, 11)` from State B to **State A**. Shutter gates at `(9, 4-5)` on 2F West will open, 3F balcony gate will open, 1F fenced gate will open.
 
 <hr>
 
@@ -1464,7 +1463,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Central Switch Chamber (Columns 11-15, Rows 7-11, Verified Turn 73912):**
   - Row 8 Column 11 is a solid horizontal wall panel. Passage to Column 13 is via Row 7 `(12, 7)` and `(13, 7)`.
   - Mewtwo statues are located at `(12, 9)` and `(12, 11)` with a shrub at `(12, 10)`. Both statues face east toward open pink floor on Column 13 `(13, 9)` and `(13, 11)`.
-  ## Negative Interaction Logs (Verified Ground Truth)
+## Negative Interaction Logs (Verified Ground Truth)
 - **Mewtwo Statues at (12, 9) and (12, 11) (Verified Turn 73917 & 73928):** Inactive decorative statues with NO switches. Tested facing UP from (12, 12) on Turn 73917 (negative), and tested facing LEFT from (13, 11) on Turn 73928 (negative). No prompt or dialogue triggered.
 
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
