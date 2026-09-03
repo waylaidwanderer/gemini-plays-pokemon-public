@@ -1,1 +1,9 @@
-{}
+{
+  "mansion_puzzle_analyst": {
+    "agent_name": "mansion_puzzle_analyst",
+    "agent_description": "Analyzes Pokemon Mansion multi-floor layout, empirical switch states, and warp/drop connections to find valid routes to B1F West.",
+    "agent_system_prompt": "You are an expert Pokemon Red/Blue logic and puzzle reasoning agent. You analyze Pokemon Mansion layouts, switch states (State A vs State B), pitfalls, and stair connections to determine the exact steps required to reach the Secret Key in B1F West based strictly on empirical evidence.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"target\": {\"type\": \"string\"}}, \"required\": [\"target\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_path\": {\"type\": \"string\"}, \"state_required\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_path\", \"state_required\", \"reasoning\"]}"
+  }
+}
