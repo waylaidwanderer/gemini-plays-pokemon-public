@@ -1454,7 +1454,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - Mewtwo statues are located at `(12, 9)` and `(12, 11)` with a shrub at `(12, 10)`. Both statues face east toward open pink floor on Column 13 `(13, 9)` and `(13, 11)`.
   - Shutter gates are at `(15, 10)` and `(15, 11)`. Verified CLOSED in State A.
 ## Negative Interaction Logs (Verified Ground Truth)
-- **Mewtwo Statue at (12, 11) (Turn 73917):** Standing at (12, 12) facing UP and pressing A yielded no textbox, dialogue, or switch prompt. Neither (12, 9) nor (12, 11) responded to front-facing interaction.
+- **Mewtwo Statues at (12, 9) and (12, 11) (Verified Turn 73917 & 73928):** Inactive decorative statues with NO switches. Tested facing UP from (12, 12) on Turn 73917 (negative), and tested facing LEFT from (13, 11) on Turn 73928 (negative). No prompt or dialogue triggered.
 
 
 <hr>
