@@ -2695,7 +2695,7 @@
 4. Push Pit Boulder East into Hole (23, 15).
 5. Jump down Hole (23, 15) to 2F to activate switch and unlock exit route to Indigo Plateau.
 
-## Floor 3F Boulder 1 -> Switch Plate Master Route (VERIFIED ARCHITECTURE)
+## Floor 3F Boulder 1 -> Switch Plate Master Route (Hypothesis - To Test)
 - Corridor Row Structure: Row 0 is the northern boundary row; Row 1 is the open bypass row.
 - Bridge Location: Elevated bridge spans columns 6-7 from row 1 to row 6.
 - CRITICAL MECHANIC: Above (7, 0) is row -1 (solid wall); therefore, to push Boulder South down the bridge, Boulder MUST travel along ROW 1 so player can stand at (7, 0) on Row 0 and push South into (7, 1)!
