@@ -59,3 +59,4 @@
 - **Tile (22, 10):** Empirically verified solid impassable rubble on Turn 74113 (player bumped from (21, 10) stepping Right).
 - **Tile (22, 11):** Empirically verified solid impassable rubble on Turn 74116 (player bumped from (21, 11) stepping Right).
 - **Tile (22, 12):** Empirically verified solid impassable rubble on Turn 74119 (player bumped from (21, 12) stepping Right).
+- **Tiles (22, 13-15):** Empirically verified solid impassable rubble on Turn 74125 (player bumped stepping Right from (21, 13), (21, 14), and (21, 15)). Column 22 is completely impassable from Row 8 to Row 15.
