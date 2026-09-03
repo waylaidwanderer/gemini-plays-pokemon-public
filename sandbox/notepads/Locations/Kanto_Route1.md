@@ -14,4 +14,5 @@
   - Row 26: Safe east-west path corridor (verified clear from x=12 to 17).
   - Western strip (x=0..2): Walled off by fence (x=3, y=16..27) and trees (x=3, y=28..30); inaccessible from main route.
 - Open Gaps:
+  - Row 19: Open path gap at (9, 19) through the row 19 ledge.
   - Row 27: Open path gap at (8, 27) next to signpost at (9, 27).
