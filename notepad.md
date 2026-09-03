@@ -2695,7 +2695,7 @@
 - North Central Room: (9..18, 2..5). Cooltrainer♀ at (13, 3) defeated [Turn 25004]. Shutter 1 at (17, 5) connects to Central Hall (17, 6).
 - Central Hall: (12..21, 6..11). Connects to Row 1 Highway via (21, 6) -> (21, 1).
 - Northeast Room: (20..28, 0..5). Arrival ladder from 2F SE at (23, 7). Cooltrainer♂ at (28, 5) and Juggler at (24, 3) defeated. Boulder 1 pushed from (22, 3) to (23, 3).
-- Immediate Objective: Map local connectivity in the Northeast sector around (23, 7) / (25, 3) towards the Southeast chute (22..24, 10..15).
+
 
 <hr>
 
