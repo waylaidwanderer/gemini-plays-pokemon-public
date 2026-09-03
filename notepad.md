@@ -2698,7 +2698,7 @@
 - Central Hall: (12..21, 6..11). Connects to Row 1 Highway via (21, 6) -> (21, 1).
 - Northeast Room: (20..28, 0..5). Arrival ladder from 2F SE at (23, 7). Cooltrainer♂ at (28, 5) and Juggler at (24, 3) defeated. Boulder 1 pushed from (22, 3) to (23, 3).
 
-## Floor 2F to 3F Isolated Pocket & Pit Solution (VERIFIED Turn 25460)
+## Floor 2F to 3F Isolated Pocket & Pit Solution (Hypothesis - To Verify)
 1. 2F Boulder 2 placed on Switch 1 at (1, 16) -> permanently opened Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
 2. Walk through Shutter 3 at (21, 15) to Row 16 Highway -> (28, 16) -> (28, 11) -> (27, 11) -> Ladder C at (27, 7).
 3. Ascend Ladder C at (27, 7) on 2F to arrive inside 3F isolated pocket at (27, 7).
