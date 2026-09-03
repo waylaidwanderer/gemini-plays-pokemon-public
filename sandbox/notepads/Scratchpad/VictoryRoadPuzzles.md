@@ -40,3 +40,13 @@
 6. Walk around to (21, 15) and push Pit Boulder at (22, 15) East into Hole at (23, 15).
 7. Drop down Hole at (23, 15) to 2F.
 8. On 2F, fallen boulder activates exit switch, opening path to Route 23 North / Indigo Plateau exit ladder!
+
+## Floor 2F Unified Master Navigation Protocol (Verified)
+1. **Boulder 2 to Switch 1**:
+   - Access via (14, 8) -> (14, 12) -> (5, 12) -> (5, 14).
+   - Push Boulder 2 from (4, 14) -> (3, 14) -> (3, 16) -> (1, 16) [Switch Plate 1].
+   - Outcome: Shutter 1 at (5, 10) and Shutter 3 at (21, 15) OPEN!
+2. **Boulder 1 Clearing to NW Ladder (1, 1)**:
+   - Walk from (1, 16) to (3, 11) -> North up column 3 to (3, 7) -> East onto Terrace to (6, 7) -> North to (6, 5).
+   - Facing West at (6, 5): Push Boulder 1 from (5, 5) Left to (3, 5).
+   - Column 5 is completely clear: Walk (5, 5) -> (5, 4) -> (5, 3) -> Left to (4, 3) -> West along row 3 to (1, 3) -> North to (1, 1) [NW Ladder to 3F!].
