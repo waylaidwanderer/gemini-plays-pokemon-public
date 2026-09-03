@@ -4,8 +4,8 @@
 
 ## Status
 - Badges: 0 / 8
-- Active Team: Empty
-- Pokédex: 0 Caught / 0 Seen
+- Active Team: Squirtle (SHELDON) Lv 5
+- Pokédex: 1 Caught / 1 Seen
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
