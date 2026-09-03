@@ -1276,7 +1276,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - **3F Lower Center Gate:** Shutter gate at `(15, 10)` / `(15, 11)` is **OPEN** (verified Turn 73958).
   - **3F East:** Shutter gate at `(24, 13)` and `(25, 13)` is **CLOSED** (verified Turn 73484).
   - **3F East Column 26:** Pink checkered floor, NO pitfall trap in State B (verified Turn 73478-73484).
-  - **3F Balcony:** Shutter gate at `(20, 17)` / `(21, 17)` status: Hypothesis is OPEN in State B (to be verified upon reaching Row 17).
 
 - **Mewtwo Switches:**
   - **3F Switch at `(10, 5)`:** Confirmed active secret switch on 3F (verified Turn 73953-73958). Toggled from (10, 6) facing UP.
@@ -1421,6 +1420,8 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 12 Debris (Columns 14-17):** Solid rubble permanently blocks horizontal travel along Row 12 on Columns 14-17.
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
+- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
+
 ## State-Dependent Shutter Gates
 
 - **Central Corridor Gates (15, 4-5) and (15, 10-11):**
@@ -1466,8 +1467,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
-
-- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
 
 <hr>
 
