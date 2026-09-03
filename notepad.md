@@ -2716,6 +2716,10 @@
 - [x] Pok�maniac: (4, 2) [Defeated Turn 23875]
 - [x] Tamer: (19, 8) [Defeated Turn 24158]
 
+## Verified Northern Sector (Verified Turn 25825)
+- Column 15 connects row 7 at (15, 7) directly north to row 1 at (15, 1).
+- Row 1-3 Highway: Open horizontal corridor spanning (15, 1) east to (28, 2).
+- Connects to eastern chamber (26..28, 3..5) where Juggler is located at (26, 3).
 
 <hr>
 
