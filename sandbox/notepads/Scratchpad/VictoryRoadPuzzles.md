@@ -36,3 +36,10 @@
 4. Push Pit Boulder East into Hole (23, 15).
 5. Jump down Hole (23, 15) to 2F to activate switch and unlock exit route to Indigo Plateau.
 
+
+## Floor 3F Empirical Test Plan
+- Goal: Systematically navigate to Western Bridge (cols 6-7), traverse south to jump ledge at (8..10, 10), verify jump down onto SW lower floor (row 12), and map exact walkable paths in rows 12-15 towards Pit Boulder (22, 15) and Hole (23, 15).
+- Step 1: Walk from current position (25, 3) -> (25, 1) -> West along Row 1 Highway to (7, 1).
+- Step 2: Walk South down Western Bridge (7, 1..6) -> (8, 6..10).
+- Step 3: Test jump south from (8, 10) to (8, 12).
+- Step 4: Map lower floor connectivity from (8, 12) across rows 12-15.
