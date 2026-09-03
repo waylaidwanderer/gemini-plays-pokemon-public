@@ -2764,8 +2764,6 @@
   2. Stand at (3, 13) -> Push South 2 times to (3, 16).
   3. Stand at (4, 16) -> Push West 2 times onto Switch 1 at (1, 16).
 - Verified Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened!
-## Verified SE Ladder Access Route
-- From Shutter 3 at (21, 15): Step Down to (21, 16) -> Walk East along row 16 to (28, 16) -> Walk North up eastern corridor (cols 28-29) to row 8 at (28, 8) -> Walk West across row 8 to (25, 8) -> Walk South down column 25 to (25, 14) [Ladder to 3F].
 
 
 <hr>
