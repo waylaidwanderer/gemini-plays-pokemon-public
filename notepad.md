@@ -1392,8 +1392,8 @@ A single global flag in RAM controls all Mewtwo statue shutter gates across all 
 - **Horizontal Connection (Rows 4-7):** Empirically verified on Turn 73387 in State A. Rows 4, 5, 6, 7 form a massive open corridor spanning Columns 10-15+ connecting 2F West directly to 2F East with ZERO shutter gates or barriers.
 - **2F East Central Corridor:** Rows 6-7 span Columns 16-22 (open pink checkered floor).
 - **Row 8 Shutter Gate (2F East):** Shutter gate located at `(18, 8)` and `(19, 8)`. Verified CLOSED in State A on Turn 73390. Empirically verified OPEN in State B on Turn 73513!
-- **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402. Column 28 dead-ends at `(28, 7)` into solid wall at `(28, 8)`. No stairs down to 1F East in this pocket.
-- **Stairs at (25, 14) on 2F East:** Discovered visually on Turn 73520! Located in the southeastern chamber of 2F East at `(25, 14)`.
+- **Northeast Pocket (Columns 24-28, Rows 1-7):** Empirically verified Turn 73402, 73559, 73568. Enclosed dead-end! Row 8 consists of solid wall panels on Columns 24-28 (verified at (28, 8) and (24-28, 8)). Rows 6-7 are blocked by rubble on Columns 24-27. There is NO southern exit from this pocket to Rows 9-16.
+- **Southeastern Chamber & Stairs at (25, 14):** Visually confirmed on Turn 73520 at `(25, 14)`. Because both the Southwest Corridor and the Northeast Pocket are completely blocked from entering this chamber on foot, this area cannot be reached by walking horizontally on 2F in either State A or State B; it must be entered via falling from 3F or ascending from 1F.
 - **Column 22 Rubble Barrier (2F East, Verified Turn 73536-73547):** Tested physical movement eastward against Column 22; (22, 12), (22, 13), (22, 14), and (22, 15) are empirically verified solid impassable rubble. Row 16 railing is a solid impassable barrier (tested at (21, 16)).
 
 <hr>
