@@ -1429,14 +1429,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 10 Vertical Corridor (Turns 73732-73738):** Open pink checkered floor on Column 10 from Row 10 down to Row 22 (and Column 9 alongside it), running south west of the solid Column 11 vertical partition wall. Visually extends down to Row 26.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
 ## Empirical State Tracking & Observations
-- **Turn 73662-73664 (State A Empirical Ground Truth of 3F East):** In State A, shutter gates at `(24, 13)` and `(25, 13)` are visibly OPEN pink checkered floor, allowing passage into southern 3F East (Rows 14-20). Row 16 is open pink floor across Columns 21-28. Row 17 has an open doorway at `(24, 17)` and `(25, 17)` leading south into Rows 18-20. Shutter gate at `(21, 17)` is CLOSED in State A.
-- **Turn 73643 (Switch Toggled to State A):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE A.
-- **Turn 73478-73484 (State B Empirical Test of 3F East Column 26 & Row 13):** In State B, walked down Column 26 from (26, 3) to (26, 11). All tiles are solid pink checkered floor with NO pitfall trigger. At Row 13, the passage is 100% solid and impassable: (22, 13)-(23, 13) rubble, (24, 13)-(25, 13) closed shutter gates, (26, 13)-(28, 13) solid horizontal wall panels. No southern passage exists on 3F East in State B.
 
 
 
 ## Staircases & Floor Warps
-- **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
 
 ## Southeastern Chamber & Southern Wing Layout (Verified Turns 73680-73708 in State A)
 - **Column 24 Vertical Barrier:** Continuous solid vertical wall on Rows 19-23, and continuous rubble on Rows 24-27. This completely isolates Columns 26-28 from Columns 20-23 across all southern rows.
@@ -1451,7 +1447,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Columns 4-7 Red Carpet Runner:** 4-tile wide red carpet running uninterrupted from Row 10 down to Row 27.
 - **Columns 3 & 8 Pedestals:** Lined with display pedestals on even rows (Rows 14, 16, 18, 20, 22, 24) with open pink floor gaps on odd rows (Rows 15, 17, 19, 21, 23, 25, 26).
 - **Row 9 Northern Boundary:** Solid continuous horizontal wall across Columns 1-7.
-- **Row 10 Connection & Stairs:** Open corridor at Row 10 connecting Columns 1-7 directly to the descending stairs to 2F West at `(5, 10)`. Row 11 connects Columns 1-12 across.
+- **Row 10 Connection & Stairs:** Open corridor at Row 10 connecting Columns 1-7 directly to the hallway leading to descending stairs to 2F West at `(6, 1)`. Row 11 connects Columns 1-12 across.
 - **Southwest Dead-End:** No switches, pitfalls, or exits in the southwest quadrant; all paths terminate at Row 27 solid wall.
 
 <hr>
