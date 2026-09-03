@@ -9,7 +9,7 @@
 - Unlocks Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15).
 - NW Ladder @ (1, 1): Leads to 3F NW Room @ (2, 0) - This is the critical progression ladder!
 
-## Floor 3F Pit & Boulder Master Solution (Verified Topology)
+## Floor 3F Pit & Boulder Master Solution (Hypothesized Route)
 1. On 2F, climb NW Ladder at (1, 1) to arrive in NW Room at (2, 0) on 3F.
 2. Activate HM Strength with ATLAS (Machop).
 3. From NW Room at (2, 0), walk south along Western Bridge (columns 5-7, rows 0-10) directly into the southern sector (rows 12-15).
