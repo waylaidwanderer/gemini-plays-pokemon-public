@@ -2666,7 +2666,7 @@
   5. Stand at (16, 15) -> Push North 2 times to (16, 12). (CRITICAL: Stop at row 12).
   6. Stand at (15, 12) -> Push East 1 time to (17, 12).
   7. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13).
-- Verified Outcome: Switch at (17, 13) fully activated; Shutters at (5, 13) and (7, 7) permanently opened, granting open access across the elevated bridge to 2F Ladder at (1, 1).
+- Verified Outcome: Switch at (17, 13) activated; Shutters at (5, 13) and (7, 7) opened for the duration of the current visit (note: exiting the cave to Route 23 or using Dig/Escape Rope resets the boulder puzzle and closes the shutters).
 
 <hr>
 
