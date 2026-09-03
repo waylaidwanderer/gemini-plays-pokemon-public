@@ -1385,34 +1385,26 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
 ## State-Dependent Shutter Gates
-- **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on the southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269.
-- **State B (Default):**
-  - Shutter gate at `(12, 13)` is **OPEN**, unblocking Column 12 down to Row 16.
-  - Shutter gates on Columns 14, 15, 17 on Row 7/8 are **OPEN**.
-  - Shutter gate at `(25, 13)` is **CLOSED**.
-  - Shutter gates at `(19, 2)`, `(21, 2)` are **CLOSED**.
-  - Balcony shutter gate at `(21, 17)`: Empirically verified CLOSED in State A on Turn 73256.
-- **State A:**
-  - Shutter gate at `(12, 13)` is **CLOSED**, blocking Column 12 at Row 13.
-  - Shutter gates on Columns 14, 15, 17 on Row 7/8 are **CLOSED**.
-  - Shutter gate at `(25, 13)` is **OPEN**.
-  - Shutter gates at `(19, 2)`, `(21, 2)` are **OPEN**.
-  
+- **Row 7 Shutter Gates (Columns 16-17):** Shutter gates at `(16, 7)` and `(17, 7)`. Empirically verified CLOSED in State A on Turn 73279. OPEN in State B!
+- **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. CLOSED in State B.
+- **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED in State A on Turn 73256. OPEN in State B!
+- **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. OPEN in State B!
+
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
+- **3F Central-East Statue:** Located at `(16, 10)` and `(18, 10)`.
 
-## Verified Route to B1F West (Secret Key)
-Row 8 is partially blocked, but 3F East and West are horizontally connected via Row 11 and Row 6.
+## Ground Truth Route to Balcony Drop (B1F West)
+The balcony drop tile at `(19, 18)` drops the player directly into B1F West at `(9, 16)`.
+In **State B**:
+1. At 3F West switch `(2, 5)`, toggle to **State B**.
+2. Walk east along Row 6 to Column 16/17 `(16, 6)` or `(17, 6)`.
+3. Walk Down through the open shutter gates at `(16, 7)` / `(17, 7)` to Row 16!
+4. Walk south along Column 17 past the Burglar at `(17, 17)` to Row 20 `(17, 20)`!
+5. Walk East along Row 20 to `(20, 20)`.
+6. Walk North along Column 20 to `(20, 18)`.
+7. Walk West to `(19, 18)` (balcony railing) and step Down to drop directly into B1F West!
 
-### Verified Balcony Route (To B1F West)
-1. At 3F West switch at `(2, 5)`, stand at `(2, 6)` facing UP, and press A to confirm text 'A secret switch! ... Pressed it!' to toggle to **State A**.
-2. Walk to 3F East via Row 6 to `(8, 6)`, Up Column 8 to `(8, 2)`, Right to `(10, 2)`, Up to Row 1 `(10, 1)`, Right along Row 1 to `(26, 1)`.
-3. Walk Down Column 26 to `(26, 12)`, Left to `(25, 12)`.
-4. In State A, the shutter gate at `(25, 13)` is OPEN! Walk Down Column 25 past Row 13 to Row 16 `(25, 16)`.
-7. Step Down over the railing to drop into B1F at `(9, 16)`!
-
-### Column 26 Walkability Status
-- Column 26 is completely walkable pink checkered floor from Row 1 down to Row 12 in both states (verified on Turns 73161, 73192, and 73199). There is no active drop trap on (26, 3).
 
 <hr>
 
