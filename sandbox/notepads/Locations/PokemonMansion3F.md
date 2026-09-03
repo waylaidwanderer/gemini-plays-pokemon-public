@@ -34,7 +34,6 @@
 - **Column 24 Vertical Barrier:** Continuous solid vertical wall on Rows 19-23, and continuous rubble on Rows 24-27. This completely isolates Columns 26-28 from Columns 20-23 across all southern rows.
 - **Column 25 Rubble:** Solid rubble blocks Column 25 on Rows 24-27.
 - **Row 27 Boundary:** Columns 22-23 terminate in a solid wall/counter at Row 27. Columns 24-25 are rubble at Row 27. Columns 26-27 terminate in a closed shutter gate at `(26, 27)` and `(27, 27)` in State A.
-- **Burglar NPC & Inner Balcony Corridor:** Burglar is located at `(17, 17)` with balcony railing at `(17-19, 18)`. Columns 17-23 on Row 20 are open pink floor, but completely unreachable from Columns 24-28 due to the Column 24 wall and Row 17 closed gates.
 - **Column 11 Vertical Barrier (Verified Turn 73743):** Solid vertical wall panel extends continuously from Row 13 all the way down to Row 27, where it meets the solid Row 27 south wall. There is NO eastern crossing between Column 10 and Column 12 anywhere on Rows 13-27.
 - **Row 27 Southern Boundary (3F West, Verified Turn 73743):** Row 27 is a continuous solid wall/counter across Columns 8-15, terminating the map at Row 27. Rows 28-30 are void.
 
