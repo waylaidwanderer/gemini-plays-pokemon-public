@@ -2702,12 +2702,13 @@
 5. Jump down Hole (23, 15) to 2F to activate switch and unlock exit route to Indigo Plateau.
 
 
-## Floor 3F Empirical Test Plan
-- Goal: Systematically navigate to Western Bridge (cols 6-7), traverse south to jump ledge at (8..10, 10), verify jump down onto SW lower floor (row 12), and map exact walkable paths in rows 12-15 towards Pit Boulder (22, 15) and Hole (23, 15).
-- Step 1: Walk from current position (25, 3) -> (25, 1) -> West along Row 1 Highway to (7, 1).
-- Step 2: Walk South down Western Bridge (7, 1..6) -> (8, 6..10).
-- Step 3: Test jump south from (8, 10) to (8, 12).
-- Step 4: Map lower floor connectivity from (8, 12) across rows 12-15.
+## Floor 3F Empirical Verification Log
+- Northwest Room: (1..4, 1..5). NW Ladder to 2F at (2, 0). Switch Plate at (3, 5) activated -> permanently opened Shutter 1 at (17, 5). Single exit at (5, 2) -> (6, 2).
+- Western Elevated Bridge: (6..7, 0..6) connects Row 1 Highway to (6..7, 6) south end.
+- North Central Room: (9..18, 2..5). Cooltrainer♀ at (13, 3) defeated [Turn 25004]. Shutter 1 at (17, 5) connects to Central Hall (17, 6).
+- Central Hall: (12..21, 6..11). Connects to Row 1 Highway via (21, 6) -> (21, 1).
+- Northeast Room: (20..28, 0..5). Arrival ladder from 2F SE at (23, 7). Cooltrainer♂ at (28, 5) and Juggler at (24, 3) defeated. Boulder 1 pushed from (22, 3) to (23, 3).
+- Immediate Objective: Map local connectivity in the Northeast sector around (23, 7) / (25, 3) towards the Southeast chute (22..24, 10..15).
 
 <hr>
 
