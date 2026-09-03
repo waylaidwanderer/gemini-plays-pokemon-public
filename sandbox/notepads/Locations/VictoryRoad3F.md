@@ -18,7 +18,7 @@
 - Northeast Room: (20..28, 0..5)
   - Defeated Cooltrainer (male) at (28, 5)
   - Defeated Juggler at (26, 3)
-  - Boulder 1 at (22, 3) (pushed east to (23, 3))
+  - Boulder 1 default start: (22, 3) (resets to (22, 3) upon floor transitions)
 - Central Hall: (12..21, 6..11)
   - Row 6 corridor: (12..21, 6) open horizontal path
   - Row 7 corridor: (12..21, 7) open horizontal path connecting Central Hall to Ladder A (23, 7)
