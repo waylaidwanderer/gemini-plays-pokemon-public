@@ -1408,7 +1408,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## Permanent Physical Barriers (Same in State A and State B)
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
-- **Row 6 Column 15 is Open:** Completely open and walkable pink checkered floor, allowing horizontal crossing (verified open in State A on Turn 72327).
+- **Column 15 Crossing (Rows 4-5):** Column 15 has solid vertical wall panels on Row 2, Row 3, and Rows 6-9. Horizontal crossing between 3F West and 3F East is open pink checkered floor on Row 4 and Row 5.
 - **Row 6 Column 22 is a Solid Wall:** Solid vertical partition wall panel (impassable).
 - **Row 8 Barrier (Columns 11-28):** Horizontal barrier running across the floor, but vertical travel across Row 8 is possible via Column 11, Column 12, and Column 26/27. Columns 13-17 and 20-22 are solid wall panels; Columns 18-19 are bookcases; Column 23 is rubble; Columns 24-25 are wall panels. Columns 26-27 are completely open pink checkered floors (verified on Turn 73161 and Turn 73192).
 - **Column 11 Row 16 is a Solid Wall:** Solid vertical partition wall panel, preventing horizontal travel along Row 16 between 3F West (Column 10) and 3F East (Column 12).
@@ -1456,7 +1456,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 9 Northern Boundary:** Solid continuous horizontal wall across Columns 1-7.
 - **Row 10 Connection & Stairs:** Open corridor at Row 10 connecting Columns 1-7 directly to the descending stairs to 2F West at `(5, 10)`. Row 11 connects Columns 1-12 across.
 - **Southwest Dead-End:** No switches, pitfalls, or exits in the southwest quadrant; all paths terminate at Row 27 solid wall.
-
 
 <hr>
 
