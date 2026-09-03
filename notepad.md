@@ -1290,6 +1290,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
 - **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
 
+- **Turn 74183 State Change:** Toggling 2F West Mewtwo switch at `(2, 11)` from State B to **State A**. Shutter gates at `(9, 4-5)` on 2F West will open, 3F balcony gate will open, 1F fenced gate will open.
 
 <hr>
 
