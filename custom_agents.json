@@ -1,9 +1,1 @@
-{
-  "victory_road_auditor": {
-    "agent_name": "victory_road_auditor",
-    "agent_description": "Audits movement sequences and maintains multi-floor puzzle state machines for Victory Road.",
-    "agent_system_prompt": "You are a specialized path auditor and state tracker for Pokémon Red/Blue Victory Road. You verify collision boundaries, boulder push geometries, and switch/shutter state persistence across floors.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"floor\":{\"type\":\"string\"},\"current_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"intended_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"floor\",\"current_pos\",\"intended_path\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_valid\":{\"type\":\"boolean\"},\"blocking_point\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"nullable\":true},\"explanation\":{\"type\":\"string\"}},\"required\":[\"is_valid\",\"explanation\"]}"
-  }
-}
+{}
