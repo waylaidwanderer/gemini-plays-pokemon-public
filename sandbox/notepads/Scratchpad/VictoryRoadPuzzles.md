@@ -22,12 +22,6 @@
 - (21, 13) is occupied by a defeated Juggler NPC (solid obstacle; bypass via column 20).
 - (23, 14) is a west-facing ledge (one-way descent from SE platform).
 
-## Floor 3F Progression Strategy
-1. Ascend to 3F via SE Ladder at (25, 14) (arrival at 3F (23, 7)).
-2. Explore upper northern sector and solve 3F Boulder switch puzzle to open barriers.
-3. Reach southern sector containing Pit Boulder (22, 15) and Hole (23, 15).
-4. Push Pit Boulder East into Hole (23, 15).
-5. Jump down Hole (23, 15) to 2F to activate switch and unlock exit route to Indigo Plateau.
 
 
 ## Floor 3F Empirical Verification Log
