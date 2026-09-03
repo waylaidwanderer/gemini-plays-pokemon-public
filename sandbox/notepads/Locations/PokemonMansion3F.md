@@ -19,11 +19,11 @@
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 - **3F Central-East Statue:** Located at `(16, 10)` and `(18, 10)`.
 
+- **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
+
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
 - **Mewtwo Statues at `(16, 10)` and `(18, 10)`:** Verified inactive with NO interactable switches (tested turns 73316-73317).
 - **Column 17 Dead-End:** Column 17 terminates at a solid horizontal wall panel at `(17, 12)` on Row 13. It does NOT connect south to Row 16.
 - **Column 12 Vertical Corridor:** Open pink checkered floor on Rows 6-11 between Column 11 rubble and Column 13 vertical wall. Runs vertically outside the west wall of the central statue chamber.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
-
-- **Column 26 Pitfall (Rows 3-6):** Empirically verified INACTIVE / COVERED in State B on Turn 73339 (player walked from (26, 1) to (26, 6) without falling). Unverified / requires testing.
