@@ -1440,6 +1440,13 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Staircases & Floor Warps
 - **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
 
+## Ground Truth Balcony & Southern Route (Verified Turn 73671 in State A)
+- **Balcony Access Route:** The balcony on Columns 16-19 (Rows 18-20) is NOT entered through the closed shutter gate at `(20, 17)` / `(21, 17)`.
+- **True Path to Balcony:** In State A, pass through the open shutter gate at `(24, 13)` / `(25, 13)` to Row 16. Then pass south through the wide-open doorway at `(24, 17)` and `(25, 17)` into the southern chamber (Rows 18-20+).
+- **Southern Corridor:** Row 20 connects Columns 16-23 directly across to the balcony pedestals at `(16-19, 18-19)`!
+- **Burglar NPC:** Located at `(17, 17)` guarding the inner balcony corridor.
+- **Balcony Drop Tile (19, 18):** Accessible from the south via Row 19/20! Dropping over the railing here lands on B1F at `(9, 16)`.
+
 
 <hr>
 
