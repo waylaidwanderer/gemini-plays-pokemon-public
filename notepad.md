@@ -2695,6 +2695,19 @@
 4. Push Pit Boulder East into Hole (23, 15).
 5. Jump down Hole (23, 15) to 2F to activate switch and unlock exit route to Indigo Plateau.
 
+## Floor 3F Boulder 1 -> Switch Plate Master Route (VERIFIED ARCHITECTURE)
+- Corridor Row Structure: Row 0 is the northern boundary row; Row 1 is the open bypass row.
+- Bridge Location: Elevated bridge spans columns 6-7 from row 1 to row 6.
+- CRITICAL MECHANIC: Above (7, 0) is row -1 (solid wall); therefore, to push Boulder South down the bridge, Boulder MUST travel along ROW 1 so player can stand at (7, 0) on Row 0 and push South into (7, 1)!
+- Master Push Sequence from default Boulder 1 at (22, 3):
+  1. Stand at (23, 3) -> Push West to (21, 3).
+  2. Walk to (21, 4) -> Push North 2 times: (21, 3) -> (21, 2) -> (21, 1). (STOP at Row 1!).
+  3. Walk around to (22, 1): (21, 3) -> (21, 4) -> (22, 4) -> (22, 1).
+  4. Push West along ROW 1 across cols 21 down to 7: (21, 1) -> (20, 1) -> ... -> (7, 1).
+  5. Step from (8, 1) -> (8, 0) -> (7, 0) to face South above Boulder at (7, 1).
+  6. Push South down column 7 across bridge to row 6!
+  7. Push Boulder from bridge exit onto Switch Plate at (3, 5).
+
 <hr>
 
 <h1><code>Locations/VictoryRoad2F</code></h1>
