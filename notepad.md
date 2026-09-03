@@ -1367,6 +1367,19 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
+# Pokémon Mansion 2F - Map & Navigation Log
+
+## Physical Layout & Walkable Areas
+- **2F West and 2F East Connection:** Connected horizontally along Row 5 and Row 7.
+- **Warp to 3F West:** Staircase located at `(5, 10)` warps UP to 3F West `(5, 10)`.
+- **Warp from 1F West:** Main staircase from 1F lands at `(7, 10)` on 2F West. Stepping on `(7, 10)` warps back down to 1F West `(7, 11)`.
+- **2F East Stairs to 3F East:** Staircase at `(22, 2)` warps to 3F East `(22, 2)`.
+
+## State-Dependent Gates & Switches
+- **2F Mewtwo Statue Switch:** Located at `(2, 11)`. Interacted from `(2, 12)` facing UP.
+- **State A vs State B on 2F:**
+  - In **State A**: Gate at `(5, 9)` is OPEN. Shutter gates on Row 9 are OPEN. Staircase gate at `(22, 2)` is OPEN.
+  - In **State B**: Gate at `(5, 9)` is CLOSED. Row 6 gate at `(9, 6)` is CLOSED. Staircase gate at `(22, 2)` is CLOSED.
 
 
 <hr>
@@ -1400,17 +1413,18 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
-- **3F East Switch:** Located at `(12, 10)`. Interacted from `(12, 11)` facing UP.
 
 ## The Two Paths to B1F West (Secret Key)
 Row 8 is partially blocked, but 3F East and West are horizontally connected via Row 11 and Row 6.
 
-### Path 1: The Pitfall Route (Mansion B1F Unlocked in State B)
-1. Set Mansion to **State B** on 3F West.
-2. Walk to 3F East via Row 6, go down Column 14/15/17 (open in State B) to Row 12, walk LEFT to Column 12, and go down Column 12 (open in State B) to Row 16.
-3. Stand at `(21, 15)` in State B (facing the closed balcony gate at 21, 16).
-4. Walk to the 3F East switch at `(12, 11)` (via Column 12, open in State B), stand at `(12, 12)` facing UP, and toggle to **State A**.
-5. This closes the gate at `(12, 13)` behind you, but opens the balcony gate at `(21, 16)`!
+### Verified Balcony Route (To B1F West)
+1. At 3F West switch at `(2, 5)`, stand at `(2, 6)` facing UP, and press A to confirm text 'A secret switch! ... Pressed it!' to toggle to **State A**.
+2. Walk to 3F East via Row 6 to `(8, 6)`, Up Column 8 to `(8, 2)`, Right to `(10, 2)`, Up to Row 1 `(10, 1)`, Right along Row 1 to `(26, 1)`.
+3. Walk Down Column 26 to `(26, 12)`, Left to `(25, 12)`.
+4. In State A, the shutter gate at `(25, 13)` is OPEN! Walk Down Column 25 past Row 13 to Row 16 `(25, 16)`.
+5. Walk Left along Row 16 to `(21, 16)`. In State A, the balcony gate at `(21, 16)` is OPEN!
+6. Walk Down Column 21 through the gate to `(21, 18)`, Left to `(19, 18)` (balcony railing).
+7. Step Down over the railing to drop into B1F at `(9, 16)`!
 
 ### Pitfall Trap Status
 - In **State A**, the pitfall trap at `(26, 3)` is covered/walkable pink checkered floor (allows safe traversal down Column 26).
