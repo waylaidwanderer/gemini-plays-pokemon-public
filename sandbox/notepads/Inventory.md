@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Items
-- POTION x1 (withdrawn from bedroom PC on Turn 18)
+- POTION x2 (x1 from bedroom PC on Turn 18, x1 from Route 1 Mart clerk sample on Turn 76)
 
 ## Key Items
 - None
