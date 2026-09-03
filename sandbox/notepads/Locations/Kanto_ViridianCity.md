@@ -9,4 +9,8 @@
 - Row 27 Ledge Observations:
   - South-facing ledge verified at (5, 27) and (17, 27) via collision.
   - Water pond occupies rows 26-27 between columns 9 and 13.
-  - Central avenue (columns 18-23) remains to be tested.
+  - Open ledge gap discovered at (19, 27) allowing northward passage to row 26.
+  - Collisions confirmed at (5, 27), (17, 27), and (20, 27).
+
+## Key Buildings
+- Pokémon Center: Located at (22..25, 24..25) with entrance door at (23, 25) and sign at (24, 25).
