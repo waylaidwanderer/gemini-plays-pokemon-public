@@ -2708,11 +2708,11 @@
 # Victory Road 2F - Layout & Notes
 
 ## General Information
-- Ladder down to 1F: Located at (0, 8) [Arrived Turn 22565]
-- Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) [Connects to 3F SE Room at (25, 14)]
-- Ladder to 3F (Ladder NE): Located at (27, 7)
-- Ladder to 3F (Ladder A): Located at (23, 7)
-- Ladder to 3F (NW Ladder): Located at (1, 1)
+- Ladder down to 1F: Located at (0, 8) <-> 1F (1, 1) [Verified Turns 22565, 26670]
+- Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) <-> 3F (25, 14)
+- Ladder to 3F (Ladder NE): Located at (27, 7) <-> 3F (27, 7)
+- Ladder to 3F (Ladder A): Located at (23, 7) <-> 3F (23, 7) [Verified Turns 26725, 26744]
+- Ladder to 3F (NW Ladder): Located at (1, 1) <-> 3F NW Room (2, 0)
 
 ## Collected Items
 - [x] Item Ball at (18, 9) [Collected Turn 24170]
