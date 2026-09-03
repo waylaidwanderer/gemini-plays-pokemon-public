@@ -42,6 +42,7 @@
 4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F]
 5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo]
 6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pok�mon Mansion 2F]
+7. GEODUDE - Lv 24 [Captured Turn 25256 in Victory Road]
 
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
