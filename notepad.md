@@ -2803,6 +2803,7 @@
 
 ## Defeated Trainers (3F)
 - [x] Cooltrainer: Located at (28, 5) [Defeated Turn 23834]. Roster: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43. Reward: ¥1548.
+- [x] Juggler: Located at (24, 3) [Defeated Turn 24576]. Roster: Mr. Mime Lv 48. Reward: ¥1680.
 ## Verified Collisions & Topology (3F)
 - Ladder to 2F (SE): Located at (26, 8) with arrival/spawn tile at (23, 7).
 - Ladder to 2F (NW): Located at (2, 0).
