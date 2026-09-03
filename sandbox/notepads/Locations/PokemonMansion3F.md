@@ -11,6 +11,8 @@
 
 - **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
 
+- **Column 22 Rubble Barrier (Rows 8-15):** Empirically verified solid impassable rubble across all rows from Row 8 to Row 15 (tested Turns 74113-74125). There is no horizontal passage across Column 22 on Rows 8-16.
+
 ## State-Dependent Shutter Gates
 
 - **Central Corridor Gates (15, 4-5) and (15, 10-11):**
@@ -56,7 +58,3 @@
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
-- **Tile (22, 10):** Empirically verified solid impassable rubble on Turn 74113 (player bumped from (21, 10) stepping Right).
-- **Tile (22, 11):** Empirically verified solid impassable rubble on Turn 74116 (player bumped from (21, 11) stepping Right).
-- **Tile (22, 12):** Empirically verified solid impassable rubble on Turn 74119 (player bumped from (21, 12) stepping Right).
-- **Tiles (22, 13-15):** Empirically verified solid impassable rubble on Turn 74125 (player bumped stepping Right from (21, 13), (21, 14), and (21, 15)). Column 22 is completely impassable from Row 8 to Row 15.
