@@ -70,3 +70,4 @@
 - **Tile `(16, 14)` Walkability (Verified Turn 74557):** Confirmed standard walkable pink checkered floor with no drop.
 - **Tile `(18, 14)` Walkability (Verified Turn 74561):** Confirmed standard walkable pink checkered floor with no drop.
 - **Tile `(20, 14)` Walkability (Verified Turn 74564):** Confirmed standard walkable pink checkered floor with no drop.
+- **Tile `(22, 14)` Walkability (Verified Turn 74567):** Confirmed standard walkable pink checkered floor with no drop.
