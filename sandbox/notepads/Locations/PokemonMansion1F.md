@@ -2,7 +2,6 @@
 
 ## Physical Layout & Walkable Areas (Verified Turn 69025)
 - **1F West and 1F East Connection:** Connected horizontally via Row 6.
-- **Warp from 2F West:** The staircase at (7, 10) on 2F West warps the player down to 1F West, landing at (7, 11) on 1F West.
 - **Rubble Barrier on Row 7:** Row 7 is blocked horizontally on Columns 3-9 by a horizontal wall of rubble. Columns 10, 11, 12 on Row 7 are completely open pink checkered floor.
 - **Column 11 Partition Wall:** Solid vertical wall separating Column 10 from Column 12 on Rows 8-12.
 - **NPC at (6, 11):** There is a wandering NPC (Scientist) on Row 11 walking between Columns 4-6.
