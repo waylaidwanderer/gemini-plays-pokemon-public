@@ -9,13 +9,13 @@
 - Unlocks Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15).
 - NW Ladder @ (1, 1): Leads to 3F NW Room @ (2, 0) - This is the critical progression ladder!
 
-## Floor 3F Pit & Boulder Master Solution (Hypothesized Route)
-1. On 2F, climb NW Ladder at (1, 1) to arrive in NW Room at (2, 0) on 3F.
-2. Activate HM Strength with ATLAS (Machop).
-3. From NW Room at (2, 0), walk south along Western Bridge (columns 5-7, rows 0-10) directly into the southern sector (rows 12-15).
-4. In southern sector:
-   - Collect Item Ball at (6, 14).
-   - Approach Boulder at (13, 12).
-   - Push Boulder East along row 14-15 highway all the way to the Hole at (23, 15)!
-5. Push Boulder into Hole at (23, 15), then step into Hole to drop down to 2F.
-6. On 2F, the fallen boulder lands on the exit switch plate, unlocking the barrier to the Route 23 North / Indigo Plateau exit ladder!
+## Floor 3F Puzzle Mechanics (Empirical Observations & Strategy)
+- 3F Topography:
+  - Upper Dark Plateau (rows 6-11, cols 12-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder at (22, 10). Separated from lower SE room by impassable cliff wall between row 11 and row 12.
+  - SE Lower Purple Room (rows 12-14, cols 18-26): Contains Ladder B at (25, 14) connecting to 2F SE (25, 14). Shutter barrier at (21, 15) blocks access to southern edge.
+  - SW Sector (rows 12-15, cols 0-17): Contains Boulder at (13, 13). Accessible from NW Room (2, 0) via Western Bridge (cols 5-7).
+- Master Progression Path:
+  1. Descend from 3F to 2F via Ladder A (23, 7) or Ladder NE (27, 7).
+  2. On 2F, walk west across light purple floor to NW Ladder (1, 1).
+  3. Ascend NW Ladder to 3F NW room (2, 0).
+  4. Walk south across Western Bridge to SW sector, solve SW puzzle, push Pit Boulder into Hole to unlock 2F exit!
