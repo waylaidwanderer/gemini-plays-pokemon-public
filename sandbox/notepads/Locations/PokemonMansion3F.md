@@ -72,3 +72,4 @@
 - **Tile `(20, 14)` Walkability (Verified Turn 74564):** Confirmed standard walkable pink checkered floor with no drop.
 - **Tile `(22, 14)` Walkability (Verified Turn 74567):** Confirmed standard walkable pink checkered floor with no drop.
 - **Tile `(23, 14)` and `(24, 14)` Walkability (Verified Turn 74570):** Both tiles are confirmed standard walkable pink checkered floor with no drop.
+- **Tile `(19, 14)` Behavior in State B (Verified Turn 74587):** Player walked into (19, 14) and stood on it without falling. No drop triggered in State B.
