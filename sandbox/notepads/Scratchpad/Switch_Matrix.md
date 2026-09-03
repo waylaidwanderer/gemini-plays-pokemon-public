@@ -22,3 +22,9 @@
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end! Enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7. No southern exit to Rows 9-16.
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
 - **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
+
+## Switch at (10, 5) Empirical Proof (Turn 73958)
+- Statue at `(10, 5)` is an active Mewtwo switch on 3F.
+- Interacting with (10, 5) toggled gates:
+  - Gate at `(15, 4)` and `(15, 5)` CLOSED.
+  - Gate at `(15, 10)` and `(15, 11)` OPENED.
