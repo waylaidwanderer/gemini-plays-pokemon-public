@@ -1,11 +1,8 @@
 # Pokémon Mansion 1F - Map & Navigation Log
 
 ## Physical Layout & Walkable Areas
-- **Rubble Barrier on Row 7:** Row 7 is blocked horizontally on Columns 3-9 by a horizontal wall of rubble. Columns 10, 11, 12 on Row 7 are completely open pink checkered floor.
-- **Column 11 Partition Wall:** Solid vertical wall separating Column 10 from Column 12 on Rows 8-12.
 - **NPC at (4, 11)-(6, 11):** There is a wandering NPC (Scientist) on Row 11 walking between Columns 4-6.
 - **Diary at (6, 12):** There is a report/diary on a table at (6, 12).
-- **Column 12 Hedges/Statues:** Column 12 is blocked by hedges and statues on Rows 8-11, except for (12, 12) which is open.
 
 ## 1F West Southern Enclosed Area (Verified Turn 73428-73441)
 - **Southern Boundary:** Row 17 is a solid wall structure on Columns 1-5 and solid rubble on Columns 6-10. Rows 18-20 are dark grey void.
