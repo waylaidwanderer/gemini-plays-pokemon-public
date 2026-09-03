@@ -2739,6 +2739,15 @@
 - [x] Juggler: (21, 13) [Defeated Turn 22845]
 - [x] Pokmaniac: (4, 2) [Defeated Turn 23875]
 - [x] Tamer: (19, 8) [Defeated Turn 24158]
+## Verified Eastern Outer Corridor & Upper Plateau Highway (Verified Turn 26705)
+- Eastern Outer Corridor: Columns 28 and 29 (rows 11-16) form a continuous open 2-tile wide vertical highway connecting Row 16 Lower Highway at (28..29, 16) north to Row 11 Highway at (28..29, 11).
+- Row 11 Highway: Row 11 (y=11) is an open horizontal corridor spanning columns 22 through 29, providing unobstructed access from the Eastern Corridor onto the Upper Plateau.
+- Waypoint Connections:
+  - (28..29, 16): Row 16 Lower Highway connection to Shutter 3 (21, 15).
+  - (28..29, 11): Junction with Row 11 Highway.
+  - (27, 7): Ladder NE.
+  - (23, 7): Ladder A (accessed via col 23 north from (23, 11)).
+  - (1, 1): NW Ladder (accessed via western traversal across Upper Plateau).
 
 <hr>
 
