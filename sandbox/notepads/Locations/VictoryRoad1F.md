@@ -17,7 +17,7 @@
 - Boulder 2 Chokepoint: (3, 10) is a rock obstacle. Boulder 2 sits at (2, 10) between rock walls (1, 10) and (3, 10).
 - Shutter (5, 13): Lowered by Switch (17, 13), allowing passage from lower floor row 14 onto the West Arm (5..7, 9..12).
 - Elevated Plateau Architecture:
-  - West Arm: cols 5..7 (rows 9..12). Note: Tile (8, 12) is a solid boundary wall.
+  - Central Cross-Highway: Row 12 (y=12) is completely open and connects columns 5 through 12 across the entire elevated plateau!
   - East Arm: cols 11..12 across rows 5..12.
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
 - Northern Sector Items (Elevated Plateau):
