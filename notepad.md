@@ -1286,8 +1286,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **B1F Connecting Gate (9, 5):** Hypothesized open in State B and closed in State A, but requires direct visual verification upon entering B1F.
 
 ## 2F East Layout Conclusions (Verified Ground Truth)
-- **Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end! Enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7. No southern exit to Rows 9-16.
-- **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
 
 
 - **Turn 74229-74230 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by closed gate at (15, 4-5) and open gate at (15, 10)).
@@ -1456,9 +1454,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Column 12 Vertical Corridor & Row 13 Wall (Turn 73731):** Open pink checkered floor on Rows 6-12 between Column 11 and Column 13. At `(12, 13)` and `(13, 13)`, the corridor terminates in a solid horizontal wall panel. Column 12 does NOT connect south to Rows 14-16.
 - **Column 10 Vertical Corridor (Turns 73732-73738):** Open pink checkered floor on Column 10 from Row 10 down to Row 22 (and Column 9 alongside it), running south west of the solid Column 11 vertical partition wall. Visually extends down to Row 26.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
-
-
-
 
 ## Southeastern Chamber & Southern Wing Layout (Verified Turns 73680-73708 in State A)
 - **Column 24 Vertical Barrier:** Continuous solid vertical wall on Rows 19-23, and continuous rubble on Rows 24-27. This completely isolates Columns 26-28 from Columns 20-23 across all southern rows.
