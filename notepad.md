@@ -2698,6 +2698,16 @@
 - Central Hall: (12..21, 6..11). Connects to Row 1 Highway via (21, 6) -> (21, 1).
 - Northeast Room: (20..28, 0..5). Arrival ladder from 2F SE at (23, 7). Cooltrainer♂ at (28, 5) and Juggler at (24, 3) defeated. Boulder 1 pushed from (22, 3) to (23, 3).
 
+## Floor 2F to 3F Isolated Pocket & Pit Solution (VERIFIED Turn 25460)
+1. 2F Boulder 2 placed on Switch 1 at (1, 16) -> permanently opened Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+2. Walk through Shutter 3 at (21, 15) to Row 16 Highway -> (28, 16) -> (28, 11) -> (27, 11) -> Ladder C at (27, 7).
+3. Ascend Ladder C at (27, 7) on 2F to arrive inside 3F isolated pocket at (27, 7).
+4. On 3F: Stand at (25, 10) and push Boulder 2 West into (23, 10) and (22, 10).
+5. Walk down column 23: (23, 10) -> (23, 14).
+6. Walk around to (21, 15) and push Pit Boulder at (22, 15) East into Hole at (23, 15).
+7. Drop down Hole at (23, 15) to 2F.
+8. On 2F, fallen boulder activates exit switch, opening path to Route 23 North / Indigo Plateau exit ladder!
+
 <hr>
 
 <h1><code>Locations/VictoryRoad2F</code></h1>
