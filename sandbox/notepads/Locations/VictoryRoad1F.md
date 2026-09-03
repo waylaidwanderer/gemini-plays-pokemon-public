@@ -17,11 +17,10 @@
 - Obstacle Note: Tile (3, 14) is a rock obstacle. Bypass west via row 15: (4, 14) -> (4, 15) -> (1, 15) -> (1, 10..14).
 - Eastern Cul-de-Sac: (13..21, 10) is a solid rock wall blocking northward passage from the eastern switch chamber.
 - Boulder 2 Chokepoint: (3, 10) is a rock obstacle. Boulder 2 sits at (2, 10) between rock walls (1, 10) and (3, 10).
-- Shutter (5, 13): Lowered by Switch (17, 13), allowing passage from row 14 onto the central elevated plateau (5..7, 9..12).
-- Elevated Plateau U-Bridge Architecture:
-  - West Arm: cols 5..7 (rows 9..12)
-  - South Cross-Bridge: row 12 across cols 5..12 (fully open elevated floor connecting west and east arms)
-  - East Arm: cols 11..12 across rows 5..12 (connects south cross-bridge to northern plateau)
+- Shutter (5, 13): Lowered by Switch (17, 13), allowing passage from lower floor row 14 onto the West Arm (5..7, 9..12).
+- Elevated Plateau Architecture:
+  - West Arm: cols 5..7 (rows 9..12). Note: Tile (8, 12) is a solid boundary wall; there is NO continuous horizontal cross-bridge across row 12 between cols 8 and 11.
+  - East Arm: cols 11..12 across rows 5..12 (connects eastern corridor at (14, 12) to northern arena)
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
 - Northern Sector Items (Elevated Plateau):
   - Item Ball at (9, 2)
