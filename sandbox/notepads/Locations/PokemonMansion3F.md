@@ -58,3 +58,4 @@
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
+- **Tile (26, 6):** Empirically verified solid impassable rubble on Turn 74147 (player bumped from (26, 5) stepping Down).
