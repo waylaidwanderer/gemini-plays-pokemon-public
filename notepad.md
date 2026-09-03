@@ -2692,8 +2692,6 @@
 - (21, 13) is occupied by a defeated Juggler NPC (solid obstacle; bypass via column 20).
 - (23, 14) is a west-facing ledge (one-way descent from SE platform).
 
-## Floor 3F Topology & Progression Route (Verified Turns 23847-23862)
-
 ## Floor 3F Progression Strategy
 1. Ascend to 3F via SE Ladder at (25, 14) (arrival at 3F (23, 7)).
 2. Explore upper northern sector and solve 3F Boulder switch puzzle to open barriers.
