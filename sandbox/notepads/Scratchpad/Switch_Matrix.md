@@ -19,6 +19,7 @@
   - **3F East Column 26:** Pink checkered floor, NO pitfall trap in State B (verified Turn 73478-73484).
 
 - **Mewtwo Switches:**
+  - **3F East Switch at `(18, 25)`:** Confirmed active secret switch on 3F East (verified Turn 74508). Toggled from (18, 26) facing UP.
   - **3F Switch at `(10, 5)`:** Confirmed active secret switch on 3F (verified Turn 73953-73958). Toggled from (10, 6) facing UP.
   - **2F Switch at `(2, 11)`:** Confirmed active secret switch on 2F West (verified Turn 73065).
 
