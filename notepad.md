@@ -1437,6 +1437,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## Staircases & Floor Warps
 - **Stairs to 2F West:** Located at `(5, 10)` on 3F West. Stepping on it warps player down to 2F West, landing at `(5, 11)` (empirically verified Turn 73379).
+- **Turn 73643 (Switch Toggled to State A):** Interacted with 3F West Mewtwo switch at (2, 5) from (2, 6) facing UP, selected YES ('Who wouldn't?'), toggling the mansion into STATE A.
 
 
 <hr>
