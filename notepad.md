@@ -964,7 +964,7 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 <h1><code>Progression_And_Party_Stats.md</code></h1>
 
 ## current Party Status (Solo Blastoise Runner)
-- **SHELLBY** (Blastoise) - Movepool: HYDRO PUMP, ICE BEAM, BITE, SURF.
+- **SHELLBY** (Blastoise) Lv 63 - HP: 182/202. Movepool: HYDRO PUMP (0/5), ICE BEAM (0/10), BITE (13/25), SURF (3/15).
 
 ## Badge Status & Gym Clearances (Verified Ground Truth - Turn 72093)
 - **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
