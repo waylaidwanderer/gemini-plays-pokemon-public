@@ -2641,6 +2641,18 @@
 - Verified Shutter (7, 7): Lowered/opened by Switch (17, 13), providing direct passage from northern arena (7, 6) onto row 8 lower floor (7, 8).
 - Verified Ladder to 2F: Located at (1, 1) in northwest corner on lower cave floor.
 
+## Verified Master Boulder Solution (Verified Turn 24445)
+- Initial State: Boulder 1 at (5, 15).
+- Master Push Sequence:
+  1. Stand at (5, 14) -> Push Down to (5, 16).
+  2. Stand at (4, 16) -> Push East 4 times to (9, 16).
+  3. Stand at (9, 17) -> Push North 2 times to (9, 14).
+  4. Stand at (8, 14) -> Push East 7 times to (16, 14).
+  5. Stand at (16, 15) -> Push North 2 times to (16, 12). (CRITICAL: Stop at row 12).
+  6. Stand at (15, 12) -> Push East 1 time to (17, 12).
+  7. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13).
+- Verified Outcome: Switch at (17, 13) fully activated; Shutters at (5, 13) and (7, 7) permanently opened, granting open access across the elevated bridge to 2F Ladder at (1, 1).
+
 <hr>
 
 <h1><code>Scratchpad/VictoryRoadPuzzles</code></h1>
