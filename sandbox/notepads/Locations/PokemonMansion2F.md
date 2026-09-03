@@ -18,7 +18,7 @@
   - **State B:** OPEN (allows passage into 2F East corridor).
 
 
-- **Column 9 Wall & Gate Barrier (Empirically Verified Turn 74291):** Column 9 is a solid wall on Rows 1-3 and Rows 6-9 (tested bumping into (9, 1) from (10, 1) on Turn 74291). In State B, with the shutter gate at (9, 4-5) closed, Column 9 is an unbroken vertical barrier from Row 1 to Row 9. The stairs at (6, 1) cannot be accessed from Column 10 in State B; the switch at (2, 11) must be set to State A to open (9, 4-5).
+- **Column 9 Wall & Gate Barrier (Empirically Verified Turn 74291):** Column 9 is a solid wall on Rows 1-3 and Rows 6-9 (tested bumping into (9, 1) from (10, 1) on Turn 74291). In State B, with the shutter gate at (9, 4-5) closed, Column 9 is an unbroken vertical barrier from Row 1 to Row 9. Row 1 cannot cross Column 9 between (10, 1) and (8, 1).
 
 ## Chamber Connectivity
 - **2F West:** Contains stairs to 1F `(7, 10)`, stairs to 3F `(6, 1)`, and switch at `(2, 11)`.
