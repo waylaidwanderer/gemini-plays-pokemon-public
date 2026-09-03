@@ -2,7 +2,7 @@
 
 ## General Information
 - Ladder down to 1F: Located at (0, 8) [Arrived Turn 22565]
-- Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) [Leads to 3F @ (26, 8) right behind Pit Boulder!]
+- Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) [Connects to 3F SE Room at (25, 14)]
 - Ladder to 3F (Ladder NE): Located at (27, 7)
 - Ladder to 3F (Ladder A): Located at (23, 7)
 - Ladder to 3F (NW Ladder): Located at (1, 1)
