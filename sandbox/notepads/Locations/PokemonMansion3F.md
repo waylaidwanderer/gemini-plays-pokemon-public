@@ -61,3 +61,4 @@
 - **Rows 14-15 Central Chasm (Verified Turn 74354):** Columns 18-22 on Rows 14 and 15 are a dark grey chasm/void (pitfall). Column 23 is open pink floor bypassing the chasm to the east.
 - **Column 22 Boundary at Row 16 (Verified Turn 74368):** Tile `(22, 16)` is solid impassable boundary wall when stepping Left from `(23, 16)` (player bumped). Chasm cannot be entered from Column 23 at Row 16.
 - **Column 22 Boundary at Row 15 (Verified Turn 74385):** Tile `(22, 15)` is solid impassable boundary wall when stepping Left from `(23, 15)` (player bumped). Chasm cannot be entered from Column 23 at Row 15.
+- **Column 22 Boundary at Row 14 (Verified Turn 74388):** Tile `(22, 14)` is solid impassable boundary wall when stepping Left from `(23, 14)` (player bumped). Entire Column 22 boundary across Rows 14-16 is impassable.
