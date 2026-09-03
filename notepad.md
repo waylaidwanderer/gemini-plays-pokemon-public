@@ -1460,7 +1460,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 6 Column 22 is a Solid Wall:** Solid vertical partition wall panel (impassable).
 - **Row 8 Barrier (Columns 11-28):** Horizontal barrier running across the floor. Vertical travel across Row 8 is possible via Column 11 and Column 12 in the west.
 - **Column 11 Row 16 is a Solid Wall:** Solid vertical partition wall panel, preventing horizontal travel along Row 16 between 3F West (Column 10) and 3F East (Column 12).
-- **Row 12 Debris (Columns 14-17):** Solid rubble permanently blocks horizontal travel along Row 12 on Columns 14-17.
+- **Row 12 Traversability (Verified Turn 74579):** Column 16 on Row 12 is verified open walkable floor connecting vertically between Row 13 and Row 11.
 - **Column 19 Row 17 is a Solid Wall:** Permanent solid cabinet/wall structure in both states, blocking direct vertical passage down Column 19 from Row 16 to the balcony.
 
 - **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
