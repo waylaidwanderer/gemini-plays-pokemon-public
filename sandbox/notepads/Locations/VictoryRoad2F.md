@@ -11,7 +11,9 @@
 - Ladder to 3F (Southeast): Accessed via column 25 at (25, 14) (connects to 3F arrival at (23, 7))
 - Moltres: Located at (11, 5) on elevated plateau
 - Switch Plate 1: (1, 16) in SW corner (opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15))
-- Switch Plate 2: (9, 11) in central sector
+- HM Strength Mechanic: Strength field effect resets whenever taking a ladder/warp transition to another floor/map. Must re-activate via Machop in Pokémon menu on each floor.
+- Column 14 Vertical Rock Divider: Column 14 (rows 0-7) is a solid vertical rock barrier preventing direct passage between eastern sector (cols 15-16) and Moltres chamber (cols 11-13). Access is through Central Corridor at (14, 8).
+- Upper Corridor Row 1 Highway: Row 1 (y=1) is an open horizontal corridor spanning from column 13 (Moltres chamber) all the way west to (1, 1) NW Ladder.
 
 ## Defeated Trainers (2F)
 - [x] Blackbelt: (9, 9) [Defeated Turn 22819]. Roster: Machoke Lv 43, Machop Lv 43, Machoke Lv 43. Reward: Â¥1075.
