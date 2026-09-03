@@ -31,3 +31,12 @@
   - Western columns (9..11, 12..15) open floor
   - Divider rock wall at row 12 (14..21, 12)
   - Row 14-15 open highway: (14..21, 14..15) connects to Hole at (23, 15)
+## Empirically Verified Connectivity & Layout (Turns 25890-25920)
+- North Central Room (cols 9..18, rows 2..4) connects south through Shutter 1 at (17, 5) directly onto the Central Elevated Bridge.
+- Shutter 1 at (17, 5) is open/passable.
+- Western Hallway / Cul-de-Sac: Columns 9-10 (rows 2-10) lead south to (8..10, 10), which dead-ends at the row 11 rock wall and elevated bridge railing at (7, 10). Column 8 is a solid rock wall separating this hallway from the western bridge.
+- Central Elevated Bridge:
+  - Spans rows 6-7 from column 12 east to Ladder A at (23, 7).
+  - Column 11 (rows 5..11) is a solid rock wall blocking westward bridge extension.
+  - Bridge South Span: Spans columns 12..15 south from row 7 to row 11. Row 11 is the southern bridge boundary.
+- Southern Lower Floor Corridor: Located at rows 12-13, where Boulder is visible at (13, 13).
