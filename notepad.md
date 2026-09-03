@@ -1416,7 +1416,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## State-Dependent Shutter Gates
 - **Row 7 Shutter Gates (Columns 16-17):** Shutter gates at `(16, 7)` and `(17, 7)`. Empirically verified CLOSED in State A on Turn 73279. OPEN in State B!
 - **Row 13 East Shutter Gate (Columns 24-25):** Shutter gate at `(24, 13)` and `(25, 13)`. Empirically verified OPEN in State A on Turn 73242. Empirically verified CLOSED in State B on Turn 73340.
-- **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED in State A on Turn 73256. (State B unverified).
+- **Row 17 Balcony Shutter Gate (Columns 20-21):** Shutter gate at `(20, 17)` and `(21, 17)`. Empirically verified CLOSED and impassable in State A on Turn 73708 (player at (21, 16) bumped when stepping Down). OPEN in State B.
 - **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. (State B unverified).
 
 ## Mewtwo Statue Switches on 3F
@@ -1446,7 +1446,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Southern Corridor:** Row 20 connects Columns 16-23 directly across to the balcony pedestals at `(16-19, 18-19)`!
 - **Burglar NPC:** Located at `(17, 17)` guarding the inner balcony corridor.
 - **Balcony Drop Tile (19, 18):** Accessible from the south via Row 19/20! Dropping over the railing here lands on B1F at `(9, 16)`.
-
 
 <hr>
 
