@@ -1467,6 +1467,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** 3 Pokmon (leads with Magnemite Lv 33). Facing Left along Row 11.
 
+- **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is an ordinary walkable floor tile on 3F (no map warp).
 
 <hr>
 
