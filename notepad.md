@@ -2825,13 +2825,11 @@
   - Blue ladder at (27, 7) connects down to 2F eastern corridor.
   - (23, 6) is a south-facing ledge.
   - Route from (23, 7) to NW: (21, 7) -> (16, 7) -> (16, 1) -> (27, 1).
-  - Item Ball at (27, 5) collected [Turn 24557].
   - Horizontal rock obstacle wall spans row 4 (cols 18..24).
   - Vertical rock cliff separates column 15 (upper terrace) from column 14 (lower chamber) along rows 0..8.
   - Impassable elevation wall separates row 11 (upper terrace) from row 12 (lower room) across cols 16..21.
 - Central-West Chamber (cols 11..13, rows 0..7):
   - Item Ball at (11, 0).
   - Cooltrainer at (11, 5).
-- Cooltrainer at (26, 3) / (23, 3): Roster includes Mr. Mime Lv 43.
 
 <hr>
