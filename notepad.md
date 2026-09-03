@@ -86,9 +86,9 @@ Viridian City is the second city visited in Kanto. It contains the Viridian Gym 
 - **Gym Badges Possessed:** 6 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh).
 - **Volcano Badge (Cinnabar Gym):** Target Badge #7 (Locked - We do not have the Secret Key yet).
 
-## Key Items & Inventory Log (Verified Turn 65791)
-- Our Bag contains exactly 7 items: POKé FLUTE, SUPER ROD, MAX POTION, MAX REVIVE, HM03 (SURF), TOWN MAP, GOOD ROD.
-- We do NOT have the Secret Key in our bag (verified Turn 65791, checked PC on Turn 65817). It must be retrieved from Pokémon Mansion B1F.
+## Key Items & Inventory Log (Verified Turn 73899)
+- Our Bag contains 10 items: POKé FLUTE, SUPER ROD, MAX POTION (x1), MAX REVIVE (x1), HM03 (SURF), TOWN MAP, GOOD ROD, MASTER BALL (x1), HP UP (x1), CALCIUM (x1).
+- We do NOT have the Secret Key in our bag. It must be retrieved from Pokémon Mansion B1F.
 
 ## Verified Party Slots (Turn 65044)
 - **Slot 1:** SHELLBY (Blastoise) - Level 62+
