@@ -1,11 +1,15 @@
 import mgba
 
 TOTAL_BUTTONS = 0
-HARD_LIMIT = 40
+HARD_LIMIT = 50
 
 def reset_budget():
     global TOTAL_BUTTONS
     TOTAL_BUTTONS = 0
+
+def get_budget():
+    global TOTAL_BUTTONS, HARD_LIMIT
+    return HARD_LIMIT - TOTAL_BUTTONS
 
 def press_counted(btn_list):
     global TOTAL_BUTTONS, HARD_LIMIT
@@ -19,17 +23,11 @@ def press_counted(btn_list):
     if to_send:
         mgba.press_buttons(to_send)
 
-def escape_battle_if_active():
-    global TOTAL_BUTTONS, HARD_LIMIT
-    if TOTAL_BUTTONS >= HARD_LIMIT - 6:
-        return
-    # Standard Battle Escape Protocol:
-    # 1. Dismiss intro text with B
-    press_counted(["B", "sleep 150"])
-    # 2. Select RUN from battle menu (Down, Right, A)
-    press_counted(["Down", "Right", "A", "sleep 350"])
-    # 3. Dismiss "Got away safely!" text with B
-    press_counted(["B", "sleep 150", "B", "sleep 150"])
+def activate_strength():
+    press_counted(["Start", "sleep 200", "Down", "sleep 100", "A", "sleep 300", "Down", "sleep 100", "Down", "sleep 100", "A", "sleep 200", "A", "sleep 400", "B", "sleep 200", "B", "sleep 200", "B", "sleep 200"])
+
+def escape_battle():
+    press_counted(["B", "sleep 150", "Down", "Right", "A", "sleep 350", "B", "sleep 150", "B", "sleep 150"])
 
 def safe_step(d):
     global TOTAL_BUTTONS, HARD_LIMIT
@@ -40,8 +38,7 @@ def safe_step(d):
     new_pos = mgba.get_coordinates()
     
     if old_pos == new_pos:
-        # Check if coordinates failed to change due to a wild battle
-        escape_battle_if_active()
+        escape_battle()
         if TOTAL_BUTTONS < HARD_LIMIT:
             old_pos = mgba.get_coordinates()
             press_counted([d, "sleep 200"])
