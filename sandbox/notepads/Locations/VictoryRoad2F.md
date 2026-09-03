@@ -25,8 +25,7 @@
 
 ## Verified Northwest Sector Topology & Boulder 1
 - Upper Corridor: Rows 1-3 (cols 1-6) contain:
-  - Blackbelt trainer at (4, 2)
-  - Ladder to 3F (NW) at (1, 1)
+    - Ladder to 3F (NW) at (1, 1)
   - Eastward extension towards Moltres and eastern 2F plateau
 
 ## Verified Corridor Traversal & Elevation Topology

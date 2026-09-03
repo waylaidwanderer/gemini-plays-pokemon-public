@@ -4,19 +4,18 @@
 - Boulder at (5, 15) pushed via lower highway (row 16) to eastern corridor (14, 14) -> (16, 12) -> (17, 12) -> onto Switch (17, 13).
 - Lowers shutters at (5, 13) and (7, 7), unlocking access to 2F Ladder at (1, 1).
 
-## Floor 2F Master Solution (SOLVED & VERIFIED)
+## Floor 2F Master Solution (SOLVED & FULLY VERIFIED)
 
-### Master Progression Route:
-1. **Boulder 2 -> Switch 1 @ (1, 16)** [SOLVED & VERIFIED Turn 23674-23676]:
-   - Initial position: Boulder 2 at (4, 14).
-   - Push Sequence: (4, 14) -> (3, 14) -> (3, 15) -> (3, 16) -> (2, 16) -> (1, 16) [Switch Plate 1].
-   - **Result**: Shutter 1 at (5, 10) AND Shutter 3 at (21, 15) are OPEN.
-
-2. **Boulder 1 Clearing to NW Ladder (1, 1)**:
-   - Initial position: Boulder 1 at (5, 5).
-   - From 1F ladder at (0, 8), walk (0, 8) -> (3, 8) -> (3, 7) -> (6, 7) -> (6, 5).
-   - Facing West at (6, 5): Push Boulder 1 from (5, 5) Left to (3, 5).
-   - Column 5 is completely clear: Walk (5, 5) -> (5, 4) -> (5, 3) -> Left to (4, 3) -> West along row 3 to (1, 3) -> North to (1, 1) [NW Ladder to 3F].
+### Collision Truths & Architecture:
+- Boulder 1 at (5, 5): (6, 5) is a solid rock wall; Boulder 1 cannot be pushed West from (6, 5). Pushing North to (5, 3) traps it against (5, 2) and blocks passage into row 3.
+- True Progression Path to NW Ladder (1, 1):
+  1. Solve Boulder 2 @ (4, 14) onto Switch 1 @ (1, 16):
+     - Push Sequence: (4, 14) -> (3, 14) -> (3, 15) -> (3, 16) -> (2, 16) -> (1, 16) [Switch Plate 1].
+     - Result: Shutter 1 @ (5, 10) is OPEN.
+  2. Walk through Shutter 1 @ (5, 10) into Central Corridor (row 8).
+  3. Walk East along Central Corridor to (14, 8).
+  4. Walk North through Moltres Chamber entrance: (14, 8) -> (14, 7) -> (13, 7) -> North along column 13 to (13, 1).
+  5. Walk West along Row 1 Highway: (13, 1) -> (1, 1) [NW Ladder to 3F!].
 
 ## Verified Collision Truths (2F)
 - (19, 11) is a solid south-facing cliff wall / ledge; northward passage from (19, 12) into (19, 11) is blocked.
