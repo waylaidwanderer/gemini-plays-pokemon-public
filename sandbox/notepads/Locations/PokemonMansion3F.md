@@ -11,7 +11,6 @@
 
 - **Row 16 Railing (Columns 21-28):** Empirically verified solid and impassable at `(25, 16)` on Turn 74017 (player bumped). Tile `(25, 14)` is a staircase warping between 3F and 2F Southeastern Chamber (verified Turn 74020).
 
-- **Column 22 Rubble Barrier (Rows 8-15):** Empirically verified solid impassable rubble across all rows from Row 8 to Row 15 (tested Turns 74113-74125). There is no horizontal passage across Column 22 on Rows 8-16.
 
 ## State-Dependent Shutter Gates
 
