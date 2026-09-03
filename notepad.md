@@ -2813,5 +2813,12 @@
 - Southern Sector & Pit Boulder Puzzle:
   - Pit Boulder at (22, 15) must be pushed East into Hole at (23, 15).
   - Stepping into Hole (23, 15) drops player down to 2F adjacent to the fallen boulder.
+## Verified 3F Master Puzzle & Pit Boulder Solution (Verified Turn 24935)
+- Row 11 Ledge Jump (cols 8-10): Row 10 (y=10, cols 8-10) is a south-facing jump ledge. Stepping Down from (8..10, 10) jumps over row 11 rock boundary directly onto row 12 lower floor (8..10, 12).
+- Lower Floor (rows 12-15): Provides open, unblocked horizontal access across row 15 from column 8 all the way to column 21.
+- Pit Boulder Puzzle Execution:
+  1. From (8..10, 12), walk South to row 15 (8, 15) -> walk East along row 15 to (21, 15).
+  2. Standing at (21, 15) facing East: Push Right to push Pit Boulder (22, 15) into Hole (23, 15).
+  3. Step Right into Hole (23, 15) to drop down to 2F adjacent to the fallen boulder!
 
 <hr>
