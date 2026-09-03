@@ -18,8 +18,6 @@
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 
-
-
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
 - **Mewtwo Statues at `(16, 10)` and `(18, 10)`:** Verified inactive with NO interactable switches (tested turns 73316-73317).
