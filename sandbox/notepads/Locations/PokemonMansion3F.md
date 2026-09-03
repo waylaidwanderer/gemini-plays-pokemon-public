@@ -15,14 +15,13 @@
   - Shutter gates on Columns 14, 15, 17 on Row 7/8 are **OPEN**.
   - Shutter gate at `(25, 13)` is **CLOSED**.
   - Shutter gates at `(19, 2)`, `(21, 2)` are **CLOSED**.
-  - Balcony shutter gate at `(21, 16)` is **CLOSED**.
+  - Balcony shutter gate at `(21, 17)`: Empirically verified CLOSED in State A on Turn 73256.
 - **State A:**
   - Shutter gate at `(12, 13)` is **CLOSED**, blocking Column 12 at Row 13.
   - Shutter gates on Columns 14, 15, 17 on Row 7/8 are **CLOSED**.
   - Shutter gate at `(25, 13)` is **OPEN**.
   - Shutter gates at `(19, 2)`, `(21, 2)` are **OPEN**.
-  - Balcony shutter gate at `(21, 16)` is **OPEN**.
-
+  
 ## Mewtwo Statue Switches on 3F
 - **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
 
@@ -34,8 +33,6 @@ Row 8 is partially blocked, but 3F East and West are horizontally connected via 
 2. Walk to 3F East via Row 6 to `(8, 6)`, Up Column 8 to `(8, 2)`, Right to `(10, 2)`, Up to Row 1 `(10, 1)`, Right along Row 1 to `(26, 1)`.
 3. Walk Down Column 26 to `(26, 12)`, Left to `(25, 12)`.
 4. In State A, the shutter gate at `(25, 13)` is OPEN! Walk Down Column 25 past Row 13 to Row 16 `(25, 16)`.
-5. Walk Left along Row 16 to `(21, 16)`. In State A, the balcony gate at `(21, 16)` is OPEN!
-6. Walk Down Column 21 through the gate to `(21, 18)`, Left to `(19, 18)` (balcony railing).
 7. Step Down over the railing to drop into B1F at `(9, 16)`!
 
 ### Column 26 Walkability Status
