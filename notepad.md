@@ -1452,7 +1452,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 27 Southeast Wall (Columns 22-29):** Empirically verified solid continuous boundary wall in both State A (Turn 73269) and State B (Turn 74475). No passage south.
 
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
-- **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
+- **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. Row 13 connects Columns 16-21 openly to the Row 14-16 corridor.
 - **Mewtwo Statues at `(16, 10)` and `(18, 10)`:** Verified inactive with NO interactable switches (tested turns 73316-73317).
 - **Column 17 Corridor (Verified Turn 74396):** Column 17 is open pink checkered floor on Rows 11-13 (`(17, 11)`, `(17, 12)`, `(17, 13)`), flanked by Column 16 corridor on the west and Column 18 wall on the east. Tile `(17, 14)` is a dark grey chasm drop tile!
 - **Column 12 Vertical Corridor & Row 13 Wall (Turn 73731):** Open pink checkered floor on Rows 6-12 between Column 11 and Column 13. At `(12, 13)` and `(13, 13)`, the corridor terminates in a solid horizontal wall panel. Column 12 does NOT connect south to Rows 14-16.
@@ -1483,7 +1483,6 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
 ## Empirical Pitfall & Warp Drops (Verified Ground Truth)
-- **3F East Pitfall at `(19, 14)` (Verified Turn 74244):** Stepping into the dark pitfall tile at `(19, 14)` on 3F East drops the player to `(18, 14)` on 2F East Southwest Corridor (`(19, 13) -> (19, 14) -> [New Map|(18, 14)]`).
 
 - **Row 12 Column 22 Open Bridge (Verified Turn 74354):** Tile `(22, 12)` is open pink checkered floor between rubble at `(22, 11)` and wall at `(22, 13)`, providing horizontal passage between Columns 19-21 and Column 23.
 - **Central Floor & Pitfalls (Verified Turns 74244, 74402, 74489):** Visual floor on Rows 12-16 across Columns 17-24 is pink checkered floor. Specific discrete drop points exist: (19, 14) drops to 2F East Southwest corridor, (17, 14) drops to 2F Balcony. Tiles (21, 14), (21, 15), (21, 16) are confirmed standard walkable floor with no drop (tested Turn 74489).
