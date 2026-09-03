@@ -2539,19 +2539,25 @@
     6. Venusaur Lv 53 (Grass/Poison) [Defeated by HYDROS Ice Beam]
 ## Verified Obstacles & West Gatehouse Access Route
 - Western Statues: Columns 14 and 15 (x=14..15, y=4..11) form a solid vertical statue wall blocking upper-west passage.
-- Western Lawn: Row 12 (y=12) is completely open green grass across columns 2..25, running directly beneath the statue wall at (14..15, 12).
-- Western Ledge Drop: (16, 7) is a south-facing ledge allowing descent from row 5/6 corridor into western tall grass (16, 8..11) and onto row 12 lawn (16, 12).
+- Western Lawn (Row 12): Row 12 (y=12) is open green grass across columns 2..25, running directly beneath the statue wall.
+- Western Ledge Drop: (16, 7) is a south-facing ledge allowing descent from row 5 corridor into western tall grass (16, 8..11) and onto row 12 lawn (16, 12).
+- CRITICAL ONE-WAY LEDGE (Row 13): Row 13 is a south-facing ledge spanning columns 2..25. Once you step south onto row 14, you CANNOT go back north into row 12. DO NOT step down from row 12 into row 14!
 - Gatehouse Facade:
   - Signpost: (7, 11)
   - Wooden posts / fence: (6, 11) and (8..13, 11)
-  - Grand Entrance Carpet: (2..13, 10..11) with fence gap at (3..5, 11)
+  - Grand Entrance Carpet: (2..13, 10..11) with fence gap at (2..5, 11)
   - Ledge Gap to Upper Forecourt: (11, 9) allows northward passage from row 10 carpet to row 8 green grass!
   - Gatehouse Entrance Door: Located at (8, 5).
 - Master Route from Viridian to Gatehouse:
-  1. From Viridian City, take lower yellow road (row 14) west across Route 22 to (5, 14).
-  2. Walk north to row 12 lawn (5, 12), step through (5, 11) fence gap onto row 10 carpet (5, 10).
-  3. Walk east on carpet to (11, 10), step north through (11, 9) ledge gap to (11, 8) -> (11, 6).
-  4. Walk west along row 6 to (8, 6), then step north into Gatehouse door at (8, 5)!
+  1. From Viridian City, enter Route 22 at (39, 8..9).
+  2. Walk west along lower road (row 14) to (33, 14), north through gap (33, 13) to (33, 8), west to (31, 8), and north through gap (31, 7) to upper corridor at (31, 5).
+  3. Walk west along upper corridor (row 5) past (29, 5) to (16, 5).
+  4. At (16, 5), walk south to (16, 7) and jump south down ledge to (16, 8) -> (16, 12) (STOP at row 12 lawn!).
+  5. Walk west along row 12 lawn to (5, 12).
+  6. Walk NORTH (Up) from (5, 12) through fence opening at (5, 11) onto carpet at (5, 10).
+  7. Walk east along carpet (row 10) to (11, 10).
+  8. Walk north through ledge gap at (11, 9) to (11, 6).
+  9. Walk west along row 6 to (8, 6), then step north into Gatehouse door at (8, 5)!
 
 <hr>
 
