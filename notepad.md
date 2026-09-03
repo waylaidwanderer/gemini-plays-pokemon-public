@@ -2767,5 +2767,17 @@
   - Column 11 (rows 5..11) is a solid rock wall blocking westward bridge extension.
   - Bridge South Span: Spans columns 12..15 south from row 7 to row 11. Row 11 is the southern bridge boundary.
 - Southern Lower Floor Corridor: Located at rows 12-13, where Boulder is visible at (13, 13).
+## Master Pit & Boulder Puzzle Solution (Empirically Verified Turn 25928)
+- Pit / Hole Location: (23, 14)
+- Boulder Location: (19, 8)
+- Ladder B (from 2F SE): (27, 7)
+- Ladder at (25, 14) leads to 2F
+- Shutter at (21, 15)
+- Clear Boulder Route:
+  1. Boulder at (19, 8) is pushed straight SOUTH down column 19 to (19, 14):
+     - (19, 8) -> (19, 9) -> (19, 10) -> (19, 11) -> (19, 12) -> (19, 13) -> (19, 14).
+  2. Stand west of boulder at (18, 14) and push straight EAST along row 14 into the Hole at (23, 14):
+     - (19, 14) -> (20, 14) -> (21, 14) -> (22, 14) -> (23, 14) [HOLE].
+  3. Step into Hole at (23, 14) to drop down to 2F onto the exit switch plate!
 
 <hr>
