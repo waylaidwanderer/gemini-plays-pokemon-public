@@ -60,3 +60,4 @@
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
 - **Tile (26, 6):** Empirically verified solid impassable rubble on Turn 74147 (player bumped from (26, 5) stepping Down).
 - **Tile (27, 6):** Empirically verified solid impassable rubble on Turn 74150 (player bumped from (27, 5) stepping Down).
+- **Tile (27, 7):** Empirically verified solid impassable rubble on Turn 74155 (player bumped from (28, 7) stepping Left). Northeast pocket (Columns 24-28) is completely closed to the south on Rows 6-8.
