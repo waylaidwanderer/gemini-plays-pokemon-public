@@ -105,10 +105,12 @@
 4. LAPRAS - Lv 15 [Received Turn 17815 on Silph Co. 7F]
 5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo]
 6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pok�mon Mansion 2F]
+7. GEODUDE - Lv 24 [Captured Turn 25256 in Victory Road]
 
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
 - Active Bag Items: Bicycle, Great Ball x9, HM03 (Surf), HM04 (Strength), Silph Scope, Pok� Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
+
 
 <hr>
 
@@ -2792,9 +2794,6 @@
 3. Walk south to (3, 5) and step onto Switch Plate (opens Shutter 1 at (17, 5)).
 4. Step East from (5, 2) onto Western Elevated Bridge at (6, 2).
 5. Walk North along bridge to (6, 0) -> (7, 1) -> (17, 1) -> (17, 4) -> step South through open Shutter (17, 5) into Central Hall at (17, 6).
-6. In Central Hall / South Sector: push Pit Boulder into Hole at (23, 15).
-7. Drop down Hole (23, 15) to 2F.
-8. On 2F, push fallen boulder onto exit switch, lowering shutter to Route 23 exit ladder to Indigo Plateau!
 
 
 <hr>
