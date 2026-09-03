@@ -57,3 +57,6 @@
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
 ## Empirical Pitfall & Warp Drops (Verified Ground Truth)
 - **3F East Pitfall at `(19, 14)` (Verified Turn 74244):** Stepping into the dark pitfall tile at `(19, 14)` on 3F East drops the player to `(18, 14)` on 2F East Southwest Corridor (`(19, 13) -> (19, 14) -> [New Map|(18, 14)]`).
+
+- **Row 12 Column 22 Open Bridge (Verified Turn 74354):** Tile `(22, 12)` is open pink checkered floor between rubble at `(22, 11)` and wall at `(22, 13)`, providing horizontal passage between Columns 19-21 and Column 23.
+- **Rows 14-15 Central Chasm (Verified Turn 74354):** Columns 18-22 on Rows 14 and 15 are a dark grey chasm/void (pitfall). Column 23 is open pink floor bypassing the chasm to the east.
