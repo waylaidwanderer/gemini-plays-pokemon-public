@@ -5,3 +5,5 @@
 
 ## Key Items
 - None
+## Party Pokémon
+- SQUIRTLE (Nickname: SHELDON) [Lv 5, Water]
