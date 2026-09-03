@@ -18,8 +18,7 @@
   9. HP UP x 1
   10. CALCIUM x 1
   11. TM35 x 1
-  12. IRON x 1
-  Note: One item in slots 12-14 was collected from 3F East at (19, 25) on Turn 74500 (pickup dialogue was not verified).
+  12. IRON x 1 (Collected from 3F East at (19, 25) on Turn 74500)
   13. CARBOS x 1
   14. TM14 (BLIZZARD) x 1
 - Empty bag slots: 6 available (14/20).
