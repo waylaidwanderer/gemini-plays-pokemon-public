@@ -25,3 +25,5 @@
 - **Item Ball at `(18, 21)`:** Located in the corridor between the hedge rows.
 
 - **2F-3F Balcony Chamber Staircase Pair (Verified Turn 74442 & 74451):** Tile `(21, 23)` on 2F is an ascending staircase warping to `(23, 22)` on 3F East. Tile `(23, 22)` on 3F East descends directly back to `(21, 23)` on 2F (player lands at `(21, 24)`).
+- **2F Balcony Railing Tests (Verified Turns 74440 & 74456):** Tested stepping Down into Row 27 railing at `(20, 27)` and `(12, 27)`. Both are solid impassable railings. The railing is continuous across Columns 12-23 with no hop gaps.
+- **Balcony Chamber Exit:** The only exit from this chamber is the ascending staircase at `(21, 23)` leading up to 3F at `(23, 22)`.
