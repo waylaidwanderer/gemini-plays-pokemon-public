@@ -1,34 +1,49 @@
 import mgba
 
-class CollisionError(Exception):
+class ButtonBudgetExceeded(Exception):
     pass
 
-def get_pos():
-    return mgba.get_coordinates()
+class Navigator:
+    def __init__(self, max_buttons=90):
+        self.button_count = 0
+        self.max_buttons = max_buttons
 
-def handle_battle():
-    # Advance battle text and escape
-    mgba.press_buttons([
-        "B", "sleep 200", "B", "sleep 200",
-        "Down", "sleep 100", "Right", "sleep 100",
-        "A", "sleep 350", "B", "sleep 200", "B", "sleep 200"
-    ])
+    def press(self, buttons):
+        # Count non-sleep actions
+        count = sum(1 for b in buttons if not b.startswith("sleep"))
+        if self.button_count + count > self.max_buttons:
+            raise ButtonBudgetExceeded(f"Cannot press {count} buttons: budget {self.button_count}/{self.max_buttons}")
+        self.button_count += count
+        mgba.press_buttons(buttons)
 
-def step(d, raise_on_blocked=True):
-    old_pos = get_pos()
-    mgba.press_buttons([d, "sleep 220"])
-    new_pos = get_pos()
-    if old_pos == new_pos:
-        handle_battle()
-        new_pos = get_pos()
-        if old_pos == new_pos:
-            if raise_on_blocked:
-                raise CollisionError(f"Blocked moving {d} at {old_pos}")
-            return False, new_pos
-    print(f"Step {d}: {old_pos} -> {new_pos}")
-    return True, new_pos
+    def get_pos(self):
+        return mgba.get_coordinates()
 
-def walk(directions):
-    for d in directions:
-        success, _ = step(d, raise_on_blocked=True)
-    return get_pos()
+    def handle_battle(self):
+        # Escape battle cleanly
+        seq = [
+            "B", "sleep 200", "B", "sleep 200",
+            "Down", "sleep 100", "Right", "sleep 100",
+            "A", "sleep 350", "B", "sleep 200", "B", "sleep 200"
+        ]
+        self.press(seq)
+
+    def step(self, d):
+        old = self.get_pos()
+        self.press([d, "sleep 220"])
+        new = self.get_pos()
+        if old == new:
+            self.handle_battle()
+            self.press([d, "sleep 220"])
+            new = self.get_pos()
+        return new
+
+    def walk_path(self, directions):
+        for d in directions:
+            old = self.get_pos()
+            new = self.step(d)
+            print(f"Step {d}: {old} -> {new}")
+            if old == new:
+                print(f"Blocked moving {d} at {old}")
+                return False
+        return True
