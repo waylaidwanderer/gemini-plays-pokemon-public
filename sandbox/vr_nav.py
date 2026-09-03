@@ -17,13 +17,13 @@ def escape_battle():
     for _ in range(4):
         mgba.press_buttons(["B", "sleep 120"])
 
-def safe_walk(path, max_buttons=40):
+def safe_walk(path, max_buttons=50):
     button_count = 0
     executed_steps = []
     
     for d in path:
-        if button_count + 12 > max_buttons:
-            print(f"Approaching budget ({button_count}/{max_buttons}), stopping safely.")
+        if button_count >= max_buttons:
+            print(f"Reached budget ({button_count}/{max_buttons}), stopping safely.")
             break
             
         old_pos = mgba.get_coordinates()
