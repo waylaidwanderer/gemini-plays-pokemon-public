@@ -1288,7 +1288,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## 2F East Layout Conclusions (Verified Ground Truth)
 - **Northeast Pocket (Columns 24-28, Rows 1-7):** Dead end! Enclosed to the south by solid wall panels on Row 8 `(24-28, 8)` and rubble on Rows 6-7. No southern exit to Rows 9-16.
 - **Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end! Blocked on the east by continuous solid rubble on Column 22 `(22, 11-15)`. Blocked to the south by solid balcony railing on Row 16 `(21, 16)`.
-- **Southeastern Chamber (Columns 23-28, Rows 9-16 with stairs at (25, 14)):** Inaccessible via walking on 2F in either State A or State B.
+
+
+- **Turn 74229-74230 Switch Toggle:** Toggled 3F Mewtwo switch at `(10, 5)` from State A to State B (confirmed by closed gate at (15, 4-5) and open gate at (15, 10)).
 
 
 <hr>
@@ -1414,12 +1416,15 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **2F East Southwest Corridor (Columns 18-21, Rows 8-15):** Dead end blocked to the east by Column 22 rubble and south by Row 16 railing.
 - **2F East Southeastern Chamber (Columns 23-28, Rows 9-16):** Contains stairs at `(25, 14)`. Inaccessible via walking on 2F in either state; only accessible via stairs from 3F East `(25, 14)`.
 
+## Vertical Drop Landings (Verified Ground Truth)
+- **Landing from 3F East Pitfall `(19, 14)` (Verified Turn 74244):** Player lands at `(18, 14)` on 2F East Southwest Corridor. From here, open pink floor extends east to Column 21 and north along Column 20 up to Row 10 corridor.
+
 
 <hr>
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
 
-# PokÃ©mon Mansion 3F - Map & Navigation Log
+# Pokémon Mansion 3F - Map & Navigation Log
 
 ## Permanent Physical Barriers (Same in State A and State B)
 - **Column 15 Row 3 is a Solid Wall:** Column 15 Row 3 is blocked by a permanent solid vertical wall panel. Horizontal travel across Column 15 on Row 3 is impossible.
@@ -1479,6 +1484,9 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Active 3F Mewtwo Statue Switch at `(10, 5)` (Verified Turn 73953):** Confirmed active secret switch! Interacted from `(10, 6)` facing UP. Triggers "A secret switch!" prompt.
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
+## Empirical Pitfall & Warp Drops (Verified Ground Truth)
+- **3F East Pitfall at `(19, 14)` (Verified Turn 74244):** Stepping into the dark pitfall tile at `(19, 14)` on 3F East drops the player to `(18, 14)` on 2F East Southwest Corridor (`(19, 13) -> (19, 14) -> [New Map|(18, 14)]`).
+
 
 <hr>
 
