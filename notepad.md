@@ -15,3 +15,15 @@
 - [ ] Defeat Brock at Pewter Gym (Boulder Badge)
 
 <hr>
+
+<h1><code>Inventory</code></h1>
+
+# Inventory Log
+
+## Items
+- POTION x1 (withdrawn from bedroom PC on Turn 18)
+
+## Key Items
+- None
+
+<hr>
