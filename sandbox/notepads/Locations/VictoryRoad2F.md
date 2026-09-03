@@ -22,10 +22,10 @@
 - Eastern Outer Corridor: Columns 28-29 span rows 11 to 16.
 - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7).
 
-## Master Route to SE Ladder (25, 14) / 3F Pit Boulder Access:
+## Master Route to SE Ladder (25, 14):
 - From Row 16 at (21, 16) -> North through Shutter 3 to (21, 14).
 - Walk West to (20, 14) -> North to (20, 12) -> East along row 12 to (25, 12) -> South to (25, 14) [Ladder B].
-- Ascend Ladder B to 3F @ (26, 8) right next to Boulder 2 @ (24, 10)!
+- Ascend Ladder B to 3F SE Room at (25, 14).
 
 ## Defeated Trainers (2F)
 - [x] Blackbelt: (9, 9) [Defeated Turn 22819]
