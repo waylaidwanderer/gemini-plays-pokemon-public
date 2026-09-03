@@ -31,7 +31,6 @@
   - Eastward extension towards Moltres and eastern 2F plateau
 
 ## Verified Corridor Traversal & Elevation Topology
-- (4..12, 10) is a solid rock wall; Shutter 1 at (5, 10) is the sole opening connecting the central sector (rows 8-9) to lower western highway (row 11).
 - (23, 14) is an empirically verified one-way ledge facing west (Turn 23433: stepping East from (22, 14) is blocked); direct entry from lower floor (22, 14) onto ladder platform (24..26, 12..14) is impossible.
 - Row 7/8 Boundary: An impassable cliff wall spanning columns 4-12 separates the elevated terrace/upper sector (rows 1-7) from the Central Corridor (rows 8-9). Stepping South or North across rows 7-8 is blocked across columns 4-12.
 - Column 8 Rock Wall: (8, 10..15) is a solid rock wall separating the lower western sector (rows 10-16, cols 1-7) from the lower eastern sector (rows 10-16, cols 9-26).
