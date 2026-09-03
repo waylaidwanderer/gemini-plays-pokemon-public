@@ -1468,6 +1468,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ## Trainers on 3F
 - **Scientist Ted at `(19, 11)`:** Defeated on Turn 73998 (awarded ¥1650). No longer blocks or initiates combat.
 - **Tile (22, 10):** Empirically verified solid impassable rubble on Turn 74113 (player bumped from (21, 10) stepping Right).
+- **Tile (22, 11):** Empirically verified solid impassable rubble on Turn 74116 (player bumped from (21, 11) stepping Right).
 
 <hr>
 
