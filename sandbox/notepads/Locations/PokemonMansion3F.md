@@ -25,7 +25,7 @@
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
 - **Mewtwo Statues at `(16, 10)` and `(18, 10)`:** Verified inactive with NO interactable switches (tested turns 73316-73317).
-- **Column 17 Dead-End:** Column 17 terminates at a solid horizontal wall panel at `(17, 12)` on Row 13. It does NOT connect south to Row 16.
+- **Column 17 Corridor (Verified Turn 74396):** Column 17 is open pink checkered floor on Rows 11-13 (`(17, 11)`, `(17, 12)`, `(17, 13)`), flanked by Column 16 corridor on the west and Column 18 wall on the east. Tile `(17, 14)` is a dark grey chasm drop tile!
 - **Column 12 Vertical Corridor & Row 13 Wall (Turn 73731):** Open pink checkered floor on Rows 6-12 between Column 11 and Column 13. At `(12, 13)` and `(13, 13)`, the corridor terminates in a solid horizontal wall panel. Column 12 does NOT connect south to Rows 14-16.
 - **Column 10 Vertical Corridor (Turns 73732-73738):** Open pink checkered floor on Column 10 from Row 10 down to Row 22 (and Column 9 alongside it), running south west of the solid Column 11 vertical partition wall. Visually extends down to Row 26.
 - **Tile `(4, 6)`:** Blocked by permanent structure/obstacle; Row 6 cannot be crossed horizontally through Column 4. Must use Row 1 or Row 8 bypass.
