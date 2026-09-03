@@ -2737,11 +2737,11 @@
   - NW Ladder at (2, 0)
   - Switch Plate at (3, 5) -> Opens Shutter 1 at (17, 5)
   - Room exit at (5, 2) connects to Western Elevated Bridge at (6, 2)
-- Western Elevated Bridge: (6..7, 0..6) connects NW exit to Row 1 Highway and southern routes
-- Row 1 Highway: (6..23, 1) spans across the top of 3F connecting Western Bridge to NE Room
+- Western Elevated Bridge: (6..7, 0..6) connects NW exit to southern routes
 - North Central Room: (9..18, 2..5)
   - Defeated Cooltrainer (female) at (13, 3)
-  - Shutter 1 at (17, 5) connects to Central Hall
+  - Shutter 1 at (17, 5) connects to Central Hall / Elevated Bridge
+  - East Boundary: Column 19 (rows 1..5) is a solid vertical rock wall isolating North Central Room from NE Room. No northern bypass exists along rows 1..3.
 - Northeast Room: (20..28, 0..5)
   - Defeated Cooltrainer (male) at (28, 5)
   - Defeated Juggler at (26, 3)
