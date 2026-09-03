@@ -1419,7 +1419,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Row 27 Southeast Shutter Gate (Columns 26-27):** Shutter gate on southern boundary at `(26, 27)` and `(27, 27)`. Empirically verified CLOSED in State A on Turn 73269. (State B unverified).
 
 ## Mewtwo Statue Switches on 3F
-- **3F West Switch:** Located at `(2, 5)`. Interacted from `(2, 6)` facing UP.
+- **3F West (2, 5) Rubble:** (2, 5) and (2, 4) were visually confirmed to be solid rubble on Turn 73893; there is NO switch at (2, 5).
 
 ## Verified Layout & Physical Constraints (Turns 73310-73322)
 - **Central Statue Chamber (Columns 14-21, Rows 8-12):** Gated on the north by shutter gates at `(16, 7)` and `(17, 7)` (OPEN in State B, CLOSED in State A). West wall is Column 13. South wall is a solid partition wall along Row 13 from Column 13 to Column 21. East boundary is solid rubble on Column 22. This chamber is an enclosed dead-end with NO southern exit.
@@ -1452,7 +1452,10 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Central Switch Chamber (Columns 11-15, Rows 7-11, Verified Turn 73912):**
   - Row 8 Column 11 is a solid horizontal wall panel. Passage to Column 13 is via Row 7 `(12, 7)` and `(13, 7)`.
   - Mewtwo statues are located at `(12, 9)` and `(12, 11)` with a shrub at `(12, 10)`. Both statues face east toward open pink floor on Column 13 `(13, 9)` and `(13, 11)`.
-  - Shutter gates leading east into the balcony area are at `(15, 10)` and `(15, 11)`. Verified CLOSED in State A.
+  - Shutter gates are at `(15, 10)` and `(15, 11)`. Verified CLOSED in State A.
+## Negative Interaction Logs (Verified Ground Truth)
+- **Mewtwo Statue at (12, 11) (Turn 73917):** Standing at (12, 12) facing UP and pressing A yielded no textbox, dialogue, or switch prompt. Neither (12, 9) nor (12, 11) responded to front-facing interaction.
+
 
 <hr>
 
