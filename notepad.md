@@ -5,7 +5,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Squirtle (SHELDON) Lv 13
-- Money: ¥945
+- Money: ¥2331
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
 ## Milestones
@@ -35,12 +35,13 @@
 - POTION x2
 - ESCAPE ROPE x1
 - ANTIDOTE x2
+- TM34 (BIDE)
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
 
 ## Money
-- ¥945
+- ¥2331
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 13, Water]
