@@ -117,6 +117,10 @@
   - Bubble vs Lv 11 Sandshrew (Ground, Special ~15): Deals 16-18 damage (~50% max HP, observed Turn 569).
   - Enemy Diglett Lv 11 Scratch vs Defense 20: 5 damage on normal hit (Turn 551), 8 damage on critical hit (Turn 556).
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit (Turn 566).
+- Enemy Offensive Damage Bounds against Sheldon (Defense 25-27):
+  - Trainer Pidgey Lv 9 Gust: 5 HP damage on normal hit, 9-10 HP damage on critical hit.
+  - Sand-Attack: lowers accuracy by 1 stage per hit (caps at stage -6).
+
 - Enemy Offensive Damage Bounds against Sheldon (Defense 17):
   - Wild Route 1-2 targets (Lv 3-4 Pidgey Gust / Rattata Tackle): 3-4 HP damage.
   - Forest Bug Pokémon (Lv 6 Weedle Poison Sting / Caterpie Tackle): 2-3 HP damage (Critical hit deals ~4 HP).
@@ -129,7 +133,7 @@
   - Level 9: 703 EXP
   - Level 10: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17
   - Level 11: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19
-  - Level 12: Stats unverified (milestone achieved during Liam battle)
+  - Level 12: Stats unverified
   - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
 
