@@ -9,7 +9,7 @@
 - ¥175 (won from Rival RED in Oak's Lab on Turn 58)
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 6, Water]
-  - HP: 15 / 21
-  - Stats: Attack 12, Defense 14, Speed 12, Special 12
+- SQUIRTLE (Nickname: SHELDON) [Lv 7, Water]
+  - HP: 17 / 23
+  - Stats: Attack 13, Defense 15, Speed 13, Special 13
   - Moves: Tackle (PP 33/35), Tail Whip (PP 30/30)

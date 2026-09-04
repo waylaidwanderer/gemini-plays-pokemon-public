@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 0 / 8
-- Active Team: Squirtle (SHELDON) Lv 6
+- Active Team: Squirtle (SHELDON) Lv 7
 - Money: ¥175
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
@@ -32,9 +32,9 @@
 - ¥175 (won from Rival RED in Oak's Lab on Turn 58)
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 6, Water]
-  - HP: 15 / 21
-  - Stats: Attack 12, Defense 14, Speed 12, Special 12
+- SQUIRTLE (Nickname: SHELDON) [Lv 7, Water]
+  - HP: 17 / 23
+  - Stats: Attack 13, Defense 15, Speed 13, Special 13
   - Moves: Tackle (PP 33/35), Tail Whip (PP 30/30)
 
 <hr>
@@ -83,6 +83,14 @@
 - Enemy Attack: Rattata Tackle Critical Hit dealt 3 damage to Sheldon (HP 21 -> 18).
 - Enemy Status: Rattata used Tail Whip, reducing Sheldon Defense by 1 stage.
 - Experience: Awarded 24 EXP upon defeat.
+
+## Verified Encounter Observations (Turns 186-190)
+- Enemy: Wild Pidgey (Lv 3) on Route 1.
+- Player: Squirtle (SHELDON) Lv 6 -> grew to Lv 7!
+- Tackle Damage: Critical Hit dealt ~50% damage on hit 1; regular Tackle dealt ~45% on hit 2 (KO in 2 hits).
+- Enemy Attack: Pidgey Gust dealt 3 damage to Sheldon (HP 18 -> 15).
+- Experience: Awarded 23 EXP upon defeat, triggering Level 7!
+- Stat Growth at Lv 7: Attack 12->13, Defense 14->15, Speed 12->13, Special 12->13.
 
 <hr>
 

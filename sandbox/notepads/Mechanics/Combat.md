@@ -16,3 +16,11 @@
 - Enemy Attack: Rattata Tackle Critical Hit dealt 3 damage to Sheldon (HP 21 -> 18).
 - Enemy Status: Rattata used Tail Whip, reducing Sheldon Defense by 1 stage.
 - Experience: Awarded 24 EXP upon defeat.
+
+## Verified Encounter Observations (Turns 186-190)
+- Enemy: Wild Pidgey (Lv 3) on Route 1.
+- Player: Squirtle (SHELDON) Lv 6 -> grew to Lv 7!
+- Tackle Damage: Critical Hit dealt ~50% damage on hit 1; regular Tackle dealt ~45% on hit 2 (KO in 2 hits).
+- Enemy Attack: Pidgey Gust dealt 3 damage to Sheldon (HP 18 -> 15).
+- Experience: Awarded 23 EXP upon defeat, triggering Level 7!
+- Stat Growth at Lv 7: Attack 12->13, Defense 14->15, Speed 12->13, Special 12->13.
