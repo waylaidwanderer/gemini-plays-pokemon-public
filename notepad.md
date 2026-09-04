@@ -3,8 +3,8 @@
 # Pokémon Blue - Journey Log
 
 ## Status
-- Badges: 0 / 8
-- Active Team: Squirtle (SHELDON) Lv 12
+- Badges: 1 / 8 (Boulderbadge)
+- Active Team: Squirtle (SHELDON) Lv 13
 - Money: ¥945
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
@@ -21,7 +21,7 @@
 - [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 - [x] Reach Pewter City [Turn 495]
-- [ ] Defeat Pewter Gym Leader Brock
+- [x] Defeat Pewter Gym Leader Brock [Turn 594]
 
 <hr>
 
@@ -43,11 +43,11 @@
 - ¥945
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 12, Water]
+- SQUIRTLE (Nickname: SHELDON) [Lv 13, Water]
   - Status: Healthy
-  - HP: 21 / 33
-  - Stats: Attack 18, Defense 22, Speed 18, Special 19
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 29/30), Bubble (PP 25/30)
+  - HP: 18 / 35
+  - Stats: Attack 20, Defense 25, Speed 20, Special 21
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 29/30), Bubble (PP 21/30)
 
 
 <hr>
@@ -126,6 +126,8 @@
   - Trainer Caterpie Lv 6: ~66 EXP
   - Trainer Weedle Lv 9: 99 EXP
 - Level 10 Stats: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
+- Level 11 Stats: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19 (reached on Turn 561)
+- Level 13 Stats: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21 (reached on Turn 594)
 - Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2, not Slot 3. To reach Slot 3 from Slot 1 requires pressing "Down" twice.
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
@@ -142,6 +144,7 @@
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit (Turn 566).
 
 - Leader Geodude Lv 12: 220 EXP
+- Leader Onix Lv 14: 324 EXP
 
 <hr>
 
