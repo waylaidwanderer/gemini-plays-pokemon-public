@@ -2776,7 +2776,6 @@
 
 ## Critical Mechanics & Reset Behavior
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F, 2F, and 1F! The entire floor puzzle must be executed in a single continuous visit.
-- Dig Exit (Turn 27441): Player used Dig to heal at Viridian Pokecenter. All boulder puzzles in Victory Road are currently reset to default starting positions.
 - Switch Plate: (3, 5) in NW Room (accessible from 2F NW ladder at (1, 1) -> 3F (2, 0)).
 - Shutter Barrier: Located at (21, 15) in SE lower purple room.
 - Pit / Hole: Located at (23, 15) in southern sector.
