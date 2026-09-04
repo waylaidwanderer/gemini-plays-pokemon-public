@@ -28,3 +28,6 @@
     - BURN HEAL: ¥250
     - AWAKENING: ¥200
     - PARLYZ HEAL: ¥200
+- Pewter Gym: Located at (14..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
+  - Courtyard: Rows 18..20 in front of the Gym.
+  - Tree barrier: Row 21 (cols 15..17) separates Gym courtyard from row 22 street.
