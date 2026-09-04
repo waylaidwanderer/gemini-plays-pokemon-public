@@ -5,7 +5,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 16
-- Money: ¥1621
+- Money: ¥1771
 - Pokédex: 1 Caught / 11 Seen
 
 ## Milestones
@@ -42,7 +42,7 @@
 - POKéDEX
 
 ## Money
-- ¥1621
+- ¥1771
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 16, Water]
