@@ -2779,5 +2779,12 @@
 - The Pit / Hole: Located at (23, 15) in the southern sector [Visual observation]
 - Shutter Barrier: Located at (17, 5) [Visual observation]
 - Cooltrainer: Located at (28, 5) [Visual observation]
+## Verified 3F Master State (Turn 26930)
+- Current Position: (22, 8) on Victory Road 3F with Strength ACTIVE!
+- Ladder A: (23, 7) <-> 2F (23, 7)
+- Ladder NE: (26, 8) <-> 2F (27, 7)
+- Boulder 2: (24, 10) in southeast corridor
+- Open Row 8 Corridor: (20..23, 8)
+- Goal: Survey path from (22, 8) to Boulder 2 at (24, 10) and push boulder south into Pit at (23, 15), then drop through hole to 2F exit platform!
 
 <hr>
