@@ -5,7 +5,7 @@
 ## Status
 - Badges: 0 / 8
 - Active Team: Squirtle (SHELDON) Lv 12
-- Money: ¥725
+- Money: ¥945
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
 ## Milestones
@@ -40,7 +40,7 @@
 - POKéDEX (received from Prof. Oak on Turn 214)
 
 ## Money
-- ¥725
+- ¥945
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 12, Water]
