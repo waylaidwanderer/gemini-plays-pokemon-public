@@ -32,7 +32,7 @@
 ## Items
 - TOWN MAP (Slot 1 in Bag)
 - POKé BALL x6
-- POTION x3
+- POTION x2
 - ESCAPE ROPE x1
 - ANTIDOTE x2
 
@@ -45,7 +45,7 @@
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 11, Water]
   - Status: Healthy
-  - HP: 8 / 31 (healing with Potion this turn)
+  - HP: 19 / 31 (healed by Potion Turn 565)
   - Stats: Attack 18, Defense 22, Speed 18, Special 19
   - Moves: Tackle (PP 35/35), Tail Whip (PP 29/30), Bubble (PP 28/30)
 
