@@ -323,8 +323,9 @@
   - Upper tier: Row 6..7 bounded by south ledge at row 7 (cols 10..13).
   - Middle tier: Rows 8..10 tall grass (cols 10..13).
   - Lower tier: Rows 12..13 tall grass, south of row 11 ledge.
-- Trainer (10, 6): Stationed on upper tier at (10, 6) facing South behind row 7 ledge (cannot engage from below).
-- Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9).
+- Bug Catcher (10, 6): Stationed on upper tier at (10, 6) facing South/East. Defeated on Turn 772 (yielded ¥100; team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10).
+- Youngster (14, 4): Stationed on upper tier at (14, 4) facing South across column 14.
+- Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9). Defeated.
 - Shrub Barrier (Col 17): Vertical column of small trees at column 17 (rows 7..11) separating middle grass field from eastern Route 3.
 - Upper East Trainer: Stationed at (18, 5..6) in blue outfit.
 ## Corridor Connectivity & Ramps
