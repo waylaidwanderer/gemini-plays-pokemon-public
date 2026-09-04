@@ -34,7 +34,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x2
+- POK� BALL x2
 - POTION x3
 - ESCAPE ROPE x1
 - ANTIDOTE x0 (Depleted)
@@ -42,12 +42,12 @@
 - TM34 (BIDE)
 
 ## Key Items
-- POKéDEX
+- POK�DEX
 
 ## Money
-- ¥2531
+- �2531
 
-## Party Pokémon
+## Party Pok�mon
 - WARTORTLE (Nickname: SHELDON) [Lv 19, Water]
   - Status: Healthy
   - HP: 17 / 54
@@ -57,7 +57,11 @@
   - Status: Healthy
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
-  - Moves: Pending in-game verification
+  - HP: 26 / 26
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+  - Moves: Tackle (PP 35/35)
+  - EXP: 314 (105 to Lv 9)
+
 
 <hr>
 
@@ -183,6 +187,10 @@
 - Leader Geodude Lv 12: 220 EXP
 - Trainer Jigglypuff Lv 14: 228 EXP
 - Leader Onix Lv 14: 324 EXP
+## Party Member Reference: Rocky (Geodude)
+- Level 8 Caught Stats: Max HP 26, Attack 19, Defense 22, Speed 9, Special 11
+- Moves: Tackle (PP 35/35)
+- EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
 
 <hr>
 
