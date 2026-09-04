@@ -7,5 +7,5 @@
 - Entrance Chamber (Cols 24..30, Rows 8..13): Elevated rocky plateau where Ladder (25, 9) arrives.
 - Ledge (Cols 28..29, Row 7): South-facing one-way jump ledge.
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
-- Team Rocket Grunt (29, 11): Stationed at (29, 11) facing North. Pre-battle dialogue: "We're pulling a big job here! Get lost, kid!". Team: Zubat Lv 12 (Defeated), Ekans.
+- Team Rocket Grunt (29, 11): Defeated. Pre-battle: "We're pulling a big job here! Get lost, kid!". Defeat: "So, you are good.". Team: Zubat Lv 12, Ekans Lv 12. Prize: ¥360.
 - Southern Cliff Boundary (Row 11..12): Impassable elevation cliff along row 11 south edge blocking direct descent to lower floor at row 12.
