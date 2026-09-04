@@ -45,3 +45,8 @@
   - Turn 320: Sheldon Tackle dealt ~6 damage (~35% HP); Pidgey Gust dealt 4 damage (HP 17 -> 10).
   - Turn 321: Sheldon Tackle KO'd Pidgey!
 - Experience: Awarded ~23 EXP upon defeat.
+## Verified Encounter Observations (Turns 377-381)
+- Trainer: Bug Catcher Rick at (27, 33) in Viridian Forest.
+- Enemy: Weedle (Lv 6, Bug/Poison).
+- Player: Squirtle (SHELDON) Lv 8 (HP 12/25).
+- Turn 381: Sheldon used Bubble! Dealt ~45% max HP to Weedle Lv 6 and triggered secondary effect: Enemy Weedle's Speed fell!
