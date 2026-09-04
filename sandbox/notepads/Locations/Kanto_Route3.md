@@ -22,6 +22,6 @@
   - Row 11 Ramp at (15, 11): Verified 2-way passable tan dirt ramp connecting lower tier (rows 12..13) and middle tier (rows 8..10). Can be walked North and South.
   - Row 7 Ramp at (11, 7): Matching tan dirt ramp connecting middle tier (rows 8..10) to upper tier (rows 4..6).
 - Tier Structure:
-  - Upper Tier (Rows 4..6): Main eastward thoroughfare bypassing column 17 and column 23 tree barriers to reach eastern Route 3 / Mt. Moon.
+  - Upper Tier (Rows 4..6): Main eastward thoroughfare.
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9) and Youngster (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).

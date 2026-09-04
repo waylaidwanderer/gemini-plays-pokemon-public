@@ -15,7 +15,7 @@
 
 ## Stat Stage Modifiers
 - Tail Whip: Decreases target Defense by 1 stage per application (Stage -1 = approx. 2/3 Defense, Stage -2 = approx. 1/2 Defense). Verified: Lv 6 Weedle took 11-12 damage from Tackle at -1 Defense vs ~6-8 at neutral Defense.
-- Bubble Secondary Effect: Has a chance to lower target Speed by 1 stage (observed to drop enemy Weedle's Speed on Turns 381, 385, and 462).
+- Bubble Secondary Effect: Has a chance to lower target Speed by 1 stage.
 - String Shot: Lowers target Speed by 1 stage.
 
 ## Verified Damage Ranges & Combat Bounds
