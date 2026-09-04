@@ -12,6 +12,6 @@
 - Row 10 Bypass: Passable east-west floor corridor between (28, 10) and (35, 10).
 - East Corridor & Boundaries:
   - Passage along column 34 connects row 10 north to row 6.
-  - Northern wall: Solid rock wall along row 5 (cols 23..26 and 32..35; collision confirmed at (24, 5)).
+  - Northern wall: Solid rock wall along row 5 (cols 23..26 and 32..35).
   - Eastern boundary: Impassable elevation drop prevents moving East from (35, 6) into (36, 6).
   - Boulder: Isolated rock at (33, 9).
