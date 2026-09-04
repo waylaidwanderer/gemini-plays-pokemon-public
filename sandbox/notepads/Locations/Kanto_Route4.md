@@ -16,3 +16,10 @@
   - "POKé" Sign: Located at (12, 5).
   - Courtyard: Clear open ground at rows 6..8, columns 11..13.
   - Exterior NPC: Wandering youngster around (10, 7).
+## Mt. Moon Pokémon Center Interior
+- Entrance Mat: (3..4, 7). Exits south to Route 4.
+- Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
+- Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North.
+- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
+- Youngster: Stationed at (7, 3).
+- Magikarp Salesman: Stationed on the west side.
