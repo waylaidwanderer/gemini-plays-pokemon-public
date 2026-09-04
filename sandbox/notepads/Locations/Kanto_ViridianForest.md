@@ -18,7 +18,6 @@
 - Western Grass Pocket (Rows 30..31, Cols 1..5): Confirmed dead end. Bounded by western boundary posts at (0, 30..31), solid tree wall to the north (Rows 27..29, Cols 0..7), and solid tree wall to the south (Rows 32..35, Cols 1..5). No passage north along the western boundary.
 - Eastern Cross-Corridor (Rows 42..43, Cols 18..21+): Column 19 fence ends at row 39. Rows 42 and 43 form an open clear-ground path extending east past column 21 into the unexplored eastern half of Viridian Forest.
 - Signpost (24, 40): Located in tall grass north of row 42 cross-corridor.
-- Eastern Avenue (Column 26): Continuous clear-ground north-south corridor running along column 26 from row 43 north through at least row 38, providing a safe grass-free path north into the eastern forest.
 - NPC / Trainer (27, 40): Located in the eastern corridor south of row 39 trees, facing south.
 - Eastern Avenue Corridor (Cols 26..27, Rows 34..43): Verified 2-tile wide clear-ground highway running continuously north along the eastern edge, completely bypassing all tall grass.
-- Bug Catcher (30, 33): Walked west along row 33 to (27, 33) to challenge player. Line: "Hey! You have POKéMON! Come on!" [Turn 376]
+- Bug Catcher (30, 33): Trainer stationed at (30, 33) facing west, guarding row 33 passage across the eastern avenue.
