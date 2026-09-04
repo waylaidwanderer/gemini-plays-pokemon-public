@@ -75,11 +75,9 @@
 
 # Combat Mechanics & Observations
 
-## Active Pokémon: SQUIRTLE (SHELDON)
-- Type: Water | Level: 6
-- Moves:
-  - Tackle: Normal physical attack (35 max PP). Deals ~4-5 damage to neutral Lv 5 targets.
-  - Tail Whip: Lowers target Defense by 1 stage (30 max PP).
+## Battle Engine & Turn Priority
+- Move Order: Determined strictly by Speed stat. Sheldon (Lv 7, Speed 13) consistently outspeeds Route 1 wild Pokémon (Lv 2-4 Rattata/Pidgey).
+- Item Priority: Bag item usage (e.g. Potion) executes at turn start before Pokémon moves.
 
 ## Strategy
 - Route 1: Defeat wild Pidgey/Rattata with Tackle for EXP toward Lv 8 (Bubble).
