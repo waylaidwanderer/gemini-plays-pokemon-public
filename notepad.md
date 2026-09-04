@@ -2708,8 +2708,9 @@
 - Lower Purple Floor Access: The lower purple room (cols 18-26, rows 12-14) contains Ladder B at (25, 14), Cooltrainer at (21, 13), and Shutter Gate at (21, 15).
 - Boulders on 3F:
   - Boulder 1: Default at (22, 3) on Upper Plateau.
-  - Boulder 2: (12, 9) in Western Purple Chamber.
-- Progression Objective: Drop boulder down the pit to hold the 2F switch and unlock the exit path to Indigo Plateau!
+  - Boulder 2 (Pit Boulder): Default at (24, 10) in SE Chamber (accessed via 2F Ladder NE at (27, 7) -> 3F (26, 8)).
+  - Boulder 3: Default at (13, 12) between rock walls in central chamber.
+- Progression Objective: Ascend Ladder NE at (27, 7) from 2F to 3F (26, 8), push Boulder 2 at (24, 10) West to (23, 10) and South down column 23 into Pit at (23, 15), then jump down the Pit to 2F exit ledge!
 
 <hr>
 
