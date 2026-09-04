@@ -124,12 +124,10 @@
 - South: Route 1 entrance at (21, 36).
 
 ## Geography & Layout
-- Main Southern Entrance: Street at columns 20-21 leads north from Route 1 to row 30 cross street.
+- Main Thoroughfare: Columns 20-21 form the primary north-south street connecting Route 1 (south) to Route 2 (north).
 - Southern Cross Street: Row 30 runs east-west from column 4 to column 35, south of the pond and row 27 ledge.
-- Row 27 Ledge Observations:
-  - Water pond occupies rows 26-27 between columns 9 and 13.
-  - Open ledge gap discovered at (19, 27) allowing northward passage to row 26.
-  - Collisions confirmed at (5, 27), (17, 27), and (20, 27).
+- Row 27 Ledge: Pond occupies rows 26-27 (columns 9-13); passable gap at (19, 27) leads to row 26.
+- Mid-City Street (Row 16): Striped road running east-west south of the house at (21..23, 14..15), connecting column 25 to the main avenue at columns 20-21. Row 13 fence blocks northward travel across columns 21-30.
 
 ## Key Buildings
 - Pokémon Center: Located at (22..25, 24..25) with entrance door at (23, 25) and sign at (24, 25).
