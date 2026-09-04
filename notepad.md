@@ -2662,7 +2662,7 @@
 4. Walk North along column 11 to Northern Arena at (11, 6).
 5. Walk West across row 6 to (7, 6).
 6. Walk South through lowered Shutter (7, 7) to lower cave floor at (7, 8).
-7. Walk West along row 8 to (3, 8) and North along column 1 to (1, 1).
+7. Walk West along row 8 to (3, 8), North to (3, 7), West to (2, 7), North to (2, 5), West to (1, 5), and North along column 1 to (1, 1). (Note: (2, 8) is a rock obstacle).
 8. Step into Ladder at (1, 1) to ascend to Victory Road 2F!
 
 ## Verified Master Boulder Solution (Verified Turn 24445)
