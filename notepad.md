@@ -2760,7 +2760,7 @@
   - (28..29, 11): Junction with Row 11 Highway.
   - (27, 7): Ladder NE.
   - (23, 7): Ladder A (accessed via col 23 north from (23, 11)).
-  - (1, 1): NW Ladder (accessed via western traversal across Upper Plateau).
+  - (1, 1): NW Ladder (located in West Sector; accessed via 2F Lower Floor / Shutter 1 bypass, blocked from East Plateau by rock wall at cols 14-15).
 ## Verified Elevation & Corridor Mechanics (Updated Turn 27002)
 - Column 12 Vertical Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26, rows 10-14) from the western sector (cols 1-5).
 - Verified Lower Floor Bypass: To traverse west from (21, 14) to the western sector (cols 1-5), walk west to (13, 14), north along column 13 to row 8 (13, 8), west along open row 8 to (5, 8), south through open Shutter 1 (5, 10) to (5, 14), and west to column 1.
