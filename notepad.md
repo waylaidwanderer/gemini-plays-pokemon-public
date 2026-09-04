@@ -450,7 +450,10 @@
 - Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
 - Central Rock Pillar (Cols 18..19, Rows 8..11): Rock wall at columns 18..19, rows 8..11 blocking westward movement along row 11.
 - Eastern Avenue (Cols 24..27, Rows 11..27): Wide 4-tile north-south thoroughfare connecting southern bypass (rows 26..27) directly north to row 11 corridor.
-- Northern Corridor (Row 11, Cols 17..30+): East-west corridor connecting Eastern Avenue and Ladder (17, 11).
+- Northern Highway (Rows 6..7, Cols 16..25+): Wide open east-west corridor running along the northern section of 1F.
+- Rock Wall Partition (Rows 8..9, Cols 18..25): Horizontal rock divider between northern highway and row 10.
+- North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
+- East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
 
 <hr>
 
