@@ -6,7 +6,7 @@
 
 ### Central Transit Corridor (1F Ladder 17, 11 Area)
 - Ladder (25, 9): Ascending ladder leading back to Mt. Moon 1F at (17, 11).
-- Ladder (17, 11): Descending ladder leading to Mt. Moon B2F at (25, 9) (empirically verified warp).
+- Ladder (17, 11): Descending ladder leading to Mt. Moon B2F at (25, 9).
 
 ## Layout & Geography
 ### Southern Section

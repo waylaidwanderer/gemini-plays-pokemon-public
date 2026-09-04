@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x2
+- POKÃ© BALL x2
 - ESCAPE ROPE x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
@@ -10,12 +10,12 @@
 - ANTIDOTE x0 (Depleted)
 
 ## Key Items
-- POKéDEX
+- POKÃ©DEX
 
 ## Money
-- ¥2531
+- Â¥2696
 
-## Party Pokémon
+## Party PokÃ©mon
 - WARTORTLE (Nickname: SHELDON) [Lv 19, Water]
   - Status: Healthy
   - HP: 29 / 54
