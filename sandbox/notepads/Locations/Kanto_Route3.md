@@ -17,7 +17,7 @@
 - Youngster (14, 4): Stationed on upper tier at (14, 4) facing South across column 14.
 - Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9).
 - Shrub Barrier (Col 17): Vertical column of small trees at column 17 from row 6 to row 10+ (row 6 is blocked at (17, 6); rows 4 and 5 are open passage).
-- Upper East Trainer: Stationed at (19, 5) facing South across column 19. Pre-battle quote: "Are you a trainer? Let's fight!".
+- Bug Catcher (19, 5): Stationed at (19, 5) facing South across column 19. Pre-battle quote: "Are you a trainer? Let's fight!".
 - Eastern Upper NPC (Col 23, Row 4): Green-haired trainer facing West guarding row 4.
 - Eastern Shrub (23, 6): Tree blocking row 6 at column 23.
 ## Corridor Connectivity & Ramps
