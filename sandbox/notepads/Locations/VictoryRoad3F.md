@@ -27,7 +27,7 @@
   - Boulder 1: (22, 3) in northern sector of Upper Plateau.
   - SW Boulder: (13, 12) in SW sector between rock walls (12, 12) and (14, 12).
 - Verified NPCs & Trainers:
-  - Cooltrainer ♂ at (19, 8) [Challenged Turn 27631].
+  - Cooltrainer ♂ at (19, 8) [Defeated - post-battle dialogue: 'You earned the right to be on VICTORY ROAD!'].
   - Cooltrainer at (21, 13) in SE lower purple room.
   - Cooltrainers at (28, 5) and (13, 3) [Defeated].
 - Working Progression Strategy:
