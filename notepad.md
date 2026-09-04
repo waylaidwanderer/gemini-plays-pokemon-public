@@ -117,6 +117,8 @@
   - Wild Pidgey Lv 3: 23 EXP | Lv 4: ~23-28 EXP
   - Trainer Weedle Lv 6: 66 EXP
   - Trainer Caterpie Lv 6: ~66 EXP
+  - Trainer Weedle Lv 9: 99 EXP
+- Level 10 Stats: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
 
 <hr>
 
