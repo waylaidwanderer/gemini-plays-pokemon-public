@@ -35,13 +35,14 @@
 - TOWN MAP (received from Daisy on Turn 225)
 
 ## Money
-- ¥185
+- ¥275
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 9, Water]
-  - HP: 24 / 27
-  - Stats: Attack 15, Defense 19, Speed 15, Special 16
-  - Moves: Tackle (PP 31/35), Tail Whip (PP 30/30), Bubble (PP 19/30)
+- SQUIRTLE (Nickname: SHELDON) [Lv 10, Water]
+  - Status: Poisoned (curing via Antidote Turn 468+)
+  - HP: 17 / 29
+  - Stats: Attack 17, Defense 20, Speed 17, Special 17
+  - Moves: Tackle (PP 31/35), Tail Whip (PP 30/30), Bubble (PP 15/30)
 
 <hr>
 
