@@ -12,7 +12,7 @@
 - POKéDEX
 
 ## Money
-- ¥1356
+- ¥1366
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 15, Water]
