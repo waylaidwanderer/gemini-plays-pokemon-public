@@ -2,13 +2,14 @@
 
 ## Items
 - POTION x1 (x1 sold to Viridian Poké Mart on Turn 281 for ¥150)
+- POKé BALL x1 (purchased at Viridian Poké Mart on Turn 284 for ¥200)
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
 - TOWN MAP (received from Daisy on Turn 225)
 
 ## Money
-- ¥325 (¥175 from Rival RED + ¥150 from selling 1 Potion on Turn 281)
+- ¥125 (¥325 - ¥200 for 1 Poké Ball on Turn 284)
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 7, Water]
