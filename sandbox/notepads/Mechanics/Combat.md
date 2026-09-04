@@ -29,7 +29,7 @@
   - Critical Hits: Deal approximately double regular damage, ignoring positive defense stages.
 - Sheldon Lv 10-11 Combat Bounds (Attack 17-18, Defense 20-22, Special 17-19):
   - Bubble vs Lv 11 Diglett (Ground, Special ~16): Deals 20-22 damage.
-  - Bubble vs Lv 11 Sandshrew (Ground, Special ~15): Deals 16-18 damage (~50% max HP, observed Turn 569).
+  - Bubble vs Lv 11 Sandshrew (Ground, Special ~15): Deals 16-18 damage (~50% max HP).
   - Enemy Diglett Lv 11 Scratch vs Defense 20: 5 damage on normal hit, 8 damage on critical hit.
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit.
 - Enemy Offensive Damage Bounds against Sheldon (Defense 25-27):
