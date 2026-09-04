@@ -60,6 +60,7 @@
 - Trainer Pidgey Lv 9: 105 EXP
 - Trainer Weedle Lv 9: 99 EXP
 - Trainer Caterpie Lv 10: 112 EXP
+- Trainer Weedle Lv 10: 111 EXP
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
 - Leader Geodude Lv 12: 220 EXP
