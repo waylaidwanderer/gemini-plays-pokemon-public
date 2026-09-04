@@ -34,7 +34,7 @@
 
 ## Items
 - TOWN MAP
-- POK� BALL x2
+- POKé BALL x2
 - ESCAPE ROPE x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
@@ -42,12 +42,12 @@
 - ANTIDOTE x0 (Depleted)
 
 ## Key Items
-- POK�DEX
+- POKéDEX
 
 ## Money
-- �2531
+- ¥2696
 
-## Party Pok�mon
+## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 19, Water]
   - Status: Healthy
   - HP: 29 / 54
@@ -454,7 +454,7 @@
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction (empirically verified collision at (17, 21)).
 - Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher at (7, 23). Bounded on north by solid rock wall at rows 18-19.
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
-- Bug Catcher (7, 22): Defeated on Turn 1240 (Weedle Lv 11, Kakuna Lv 11; stepped to (7, 23)). Yielded ¥110.
+- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11). Yielded ¥110.
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
 - Ground Item (2, 20): POTION collected.
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east-west south of the Northern Boundary Wall, passing behind Bug Catcher (16, 23) and connecting Eastern Avenue (col 21) west into Western Cavern Corridor.
@@ -466,7 +466,7 @@
 - Eastern North-South Passage (Col 30, Rows 6..14): Open floor passage east of rock partition connecting row 10 directly north into Northern Highway.
 - North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
 - East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
-- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: 2 Pokémon.
+- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
 - Vertical Wall Partition (Cols 12..13, Rows 3..11+): 2-tile wide vertical rock wall separating north-central corridor (cols 14-17) from northwest corridor (cols 10-11).
 
 <hr>
@@ -481,7 +481,7 @@
 
 ### Central Transit Corridor (1F Ladder 17, 11 Area)
 - Ladder (25, 9): Ascending ladder leading back to Mt. Moon 1F at (17, 11).
-- Ladder (17, 11): Descending ladder leading to Mt. Moon B2F at (25, 9) (empirically verified warp).
+- Ladder (17, 11): Descending ladder leading to Mt. Moon B2F at (25, 9).
 
 ## Layout & Geography
 ### Southern Section
@@ -518,8 +518,7 @@
 - Ledge (Cols 28..29, Row 7): South-facing one-way jump ledge.
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - Team Rocket Grunt (29, 11): Stationed at (29, 11) facing North. Pre-battle dialogue: "We're pulling a big job here! Get lost, kid!". Team: 2 Pokémon.
-- Southern Cliff Boundary (Row 11..12): Impassable elevation cliff along row 11 south edge blocking direct descent to lower floor at row 12 (collision confirmed at (25, 11) facing Down).
-- Eastern Corridor (Rows 8..11, Cols 30..33+): Dark speckled cave floor extending east past column 33.
-- Rock Outcroppings: Rocks at (30..31, 7) and (29..30, 12) flank the eastern passage.
+- Southern Cliff Boundary (Row 11..12): Impassable elevation cliff along row 11 south edge blocking direct descent to lower floor at row 12.
+
 
 <hr>
