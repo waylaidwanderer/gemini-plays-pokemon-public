@@ -33,13 +33,13 @@
 - POKé BALL x6 (bought 5 on Turn 522)
 - POTION x3 (bought 3 on Turn 525)
 - ESCAPE ROPE x1 (bought Turn 528)
-- ANTIDOTE x1 (found in Viridian Forest)
+- ANTIDOTE x2 (1 found Viridian Forest, 1 bought Pewter Turn 529)
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
 
 ## Money
-- ¥825
+- ¥725
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 10, Water]
