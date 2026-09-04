@@ -522,9 +522,30 @@
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - Team Rocket Grunt (29, 11): Defeated. Pre-battle: "We're pulling a big job here! Get lost, kid!". Defeat: "So, you are good.". Team: Zubat Lv 12, Ekans Lv 12. Prize: ¥360.
 - Southern Cliff Boundary (Row 11..12): Impassable elevation cliff along row 11 south edge blocking direct descent to lower floor at row 12.
+- Row 10 Bypass: Passable east-west floor corridor between (28, 10) and (35, 10).
+- East Corridor & Boundaries:
+  - Passage along column 34 connects row 10 north to row 6.
+  - Northern wall: Solid rock wall along row 5 (cols 32..35).
+  - Eastern boundary: Impassable elevation drop prevents moving East from (35, 6) into (36, 6).
+  - Boulder: Isolated rock at (33, 9).
 
-- Row 10 Bypass: Verified passable floor connecting (28, 10) east to (33, 10) north of defeated Grunt.
-- Eastern Wall & North Turn: Solid rock wall at column 36 (rows 8..11). Corridor turns North at columns 32..35 toward rows 6..7.
-- Boulder: Isolated rock at (33, 9).
+
+<hr>
+
+<h1><code>Scratchpad_MtMoon_B2F_Routing</code></h1>
+
+# Mt. Moon B2F Routing & Hypotheses
+
+## Current Position & Known Boundaries
+- Standing at (35, 6) on the elevated entrance plateau.
+- Northern wall: Solid rock at row 5 (cols 32..35).
+- Eastern edge: Impassable boundary at col 36 (probed at (35, 6) -> (36, 6)).
+- South edge of plateau: Elevation drop along row 11 to purple floor at row 12.
+
+## Unexplored Hypotheses
+1. Western Plateau: Explore west of Ladder (25, 9) across columns 20..24.
+2. South Edge Probing: Probe other columns along row 11 (e.g. 24, 26..28, 30..35) to check for passable ramps or jump ledges down to row 12 purple floor.
+3. Ladder / Transit Re-evaluation: If the entrance plateau is an isolated pocket (housing Grunt and item ball at 29, 5), check if main B2F cavern is reached from another B1F ladder (such as B1F Southern Section).
+
 
 <hr>
