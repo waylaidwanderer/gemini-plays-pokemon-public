@@ -47,9 +47,9 @@
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 14, Water]
   - Status: Healthy
-  - HP: 37 / 37
+  - HP: 35 / 37
   - Stats: Attack 22, Defense 27, Speed 22, Special 23
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 28/30)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 26/30)
 
 <hr>
 
@@ -143,6 +143,7 @@
 - Trainer Caterpie Lv 6: ~66 EXP
 - Trainer Pidgey Lv 9: 105 EXP
 - Trainer Weedle Lv 9: 99 EXP
+- Trainer Caterpie Lv 10: 112 EXP
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
 - Leader Geodude Lv 12: 220 EXP
