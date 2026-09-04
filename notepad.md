@@ -315,6 +315,6 @@
   - Upper tier: Row 6..7 bounded by south ledge at row 7 (cols 10..13).
   - Middle tier: Rows 8..10 tall grass (cols 10..13).
   - Lower tier: Rows 12..13 tall grass, south of row 11 ledge.
-- Trainer (10, 6): Stationed on upper tier at (10, 6) facing South across column 10.
+- Trainer (10, 6): Stationed on upper tier at (10, 6) facing South behind row 7 ledge (cannot engage from below).
 
 <hr>
