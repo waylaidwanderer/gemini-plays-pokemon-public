@@ -2701,18 +2701,23 @@
   9. Walk North along Column 23: (23, 11) -> (23, 7).
   10. Step onto Ladder A at (23, 7) to ascend to 3F!
 
-## Floor 3F Puzzle & Route to Indigo Plateau
-- Topography:
-  - Upper Plateau (rows 0-11, cols 12-28): Contains Ladder A at (23, 7), northern corridor with Boulder at (22, 3), Switch plate at (3, 5), and Shutter Barrier at (17, 5).
-  - Southern Sector (rows 12-16, cols 18-28): Contains the Pit / Hole at (23, 15).
-- Master Progression Path:
-  1. Ascend Ladder A at (23, 7) to 3F.
-  2. Activate Strength with ATLAS.
-  3. Push Northern Boulder at (22, 3) West past (17, 5) toward (3, 5).
-  4. Step on Switch plate at (3, 5) to open Shutter Barrier at (17, 5).
-  5. Push the Boulder through open Shutter (17, 5), South to row 15, and East all the way into the Pit at (23, 15).
-  6. Jump down the Pit at (23, 15) to land on the 2F exit ledge (where the dropped boulder presses the 2F switch).
-  7. Climb the 2F exit ladder to Route 23 North / Indigo Plateau!
+## Floor 3F Puzzle & Route to Indigo Plateau (VERIFIED PUZZLE MECHANIC)
+- Switch Mechanism: Pressure switches in Gen 1 require a BOULDER resting on top to permanently hold shutter gates open (stepping off closes them).
+- Switch (3, 5): Located in NW Room at (3, 5). Controls Shutter Barrier at (17, 5).
+- Boulder 1 Master Push Path to Switch (3, 5):
+  1. Boulder 1 at (7, 6) pushed North along col 7 to (7, 1).
+  2. Stand at (8, 1) -> push Left to (6, 1).
+  3. Stand at (6, 0) -> push Down to (6, 2).
+  4. Stand at (7, 2) -> push Left along Row 2 to (2, 2).
+  5. Stand at (2, 1) -> push Down along col 2 to (2, 5).
+  6. Stand at (1, 5) -> push Right onto Switch Plate (3, 5).
+  7. Outcome: Switch (3, 5) permanently held down; Shutter (17, 5) permanently opened!
+- Final Progression to Indigo Plateau:
+  1. Walk via Row 2 and Row 1 to (17, 1).
+  2. Walk South through permanently open Shutter (17, 5) into Southern Sector.
+  3. Push Boulder 3 from (22, 15) East into Pit at (23, 15).
+  4. Jump down Pit at (23, 15) to land on 2F exit ledge (dropped boulder presses 2F switch).
+  5. Climb 2F exit ladder to Route 23 North / Indigo Plateau!
 
 <hr>
 
