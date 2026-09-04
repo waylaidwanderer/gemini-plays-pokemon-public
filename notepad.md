@@ -2700,10 +2700,16 @@
   2. On 2F, walk west across light purple floor to NW Ladder (1, 1).
   3. Ascend NW Ladder to 3F NW room (2, 0).
   4. Walk south across Western Bridge to SW sector, solve SW puzzle, push Pit Boulder into Hole to unlock 2F exit!
-## Floor 2F Current Status (Verified Turn 27016)
+## Floor 2F Master Solution (SOLVED & FULLY VERIFIED)
 - Boulder 2 @ (4, 14) pushed onto Switch 1 @ (1, 16): SOLVED. Lowers Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15).
-- Northern Boulder @ (5, 5) pushed north to (5, 3): IN PROGRESS.
-- Plan: Test step-by-step passage to row 3 to push boulder from (5, 3) left towards (1, 1) [NW Ladder to 3F NW Room].
+- Northern Boulder @ (5, 5) pushed north to (5, 3): SOLVED.
+- Verified Master Route to NW Ladder (1, 1):
+  1. From 2F East / Ladder A at (23, 7), walk west across upper plateau: (23, 7) -> (15, 7) -> (9, 7).
+  2. Walk north along column 9: (9, 7) -> (9, 4) -> (9, 3).
+  3. Walk west along open row 3: (9, 3) -> (8, 3) -> (7, 3) -> (6, 3).
+  4. At (6, 3), push Boulder Left from (5, 3) to (4, 3) and (3, 3). Player arrives at (4, 3).
+  5. Step Up to (4, 2), walk Left to (1, 2), and step Up into NW Ladder at (1, 1).
+  6. Ascend NW Ladder to arrive on 3F NW Room at (2, 0)!
 
 ## Floor 3F Puzzle Working Hypothesis (Testing in progress)
 - Working Theory:
