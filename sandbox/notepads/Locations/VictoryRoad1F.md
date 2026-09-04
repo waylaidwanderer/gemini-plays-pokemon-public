@@ -7,7 +7,7 @@
 - Entrance mat: (8, 17)
 - Path north: (8..9, 14..16) connects entrance to central junction (row 14)
 - Row 13 Wall: Solid rock wall at (8..13, 13) separating lower entrance area from upper plateau
-- Eastern Corridor Gap: (14, 13) connects row 14 to upper eastern chamber (cols 14-17, rows 11-15)
+- Eastern Corridor Gap: Column 14 (14, 13..14) connects row 14 to upper eastern chamber (row 12 at (14, 12)). Note: (15, 13) is a solid rock wall! To walk from (16, 13/14) to (15, 12), you must bypass via column 14: (16, 14) -> (14, 14) -> (14, 12) -> (15, 12).
 - Eastern Chamber: Columns 14-17 (rows 11-15). Contains Switch Plate at (17, 13). (13..14, 11..12) is a solid rock wall blocking westward passage. Ledge at (15, 10) blocks northward passage from (15, 11).
 - Boulder 1 (Default Start): (5, 15)
 - Western Corridor: Columns 1-3 (rows 10-16)
