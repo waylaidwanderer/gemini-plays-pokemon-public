@@ -182,6 +182,7 @@
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
 - Trainer Zubat Lv 11: 126 EXP
+- Trainer Zubat Lv 12: 138 EXP
 - Trainer Oddish Lv 11: 183 EXP
 - Trainer Bellsprout Lv 11: 198 EXP
 - Trainer Ekans Lv 11: 145 EXP
@@ -192,6 +193,7 @@
 - Level 8 Caught Stats: Max HP 26, Attack 19, Defense 22, Speed 9, Special 11
 - Moves: Tackle (PP 35/35)
 - EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
+- Shift Mode Switch Prompt: In Gen 1, the switch prompt ('Will <PLAYER> change POKéMON?') defaults the cursor to YES. Pressing 'B' immediately declines the prompt (acts as NO) without needing to navigate down.
 
 <hr>
 
@@ -517,7 +519,7 @@
 - Entrance Chamber (Cols 24..30, Rows 8..13): Elevated rocky plateau where Ladder (25, 9) arrives.
 - Ledge (Cols 28..29, Row 7): South-facing one-way jump ledge.
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
-- Team Rocket Grunt (29, 11): Stationed at (29, 11) facing North. Pre-battle dialogue: "We're pulling a big job here! Get lost, kid!". Team: 2 Pokémon.
+- Team Rocket Grunt (29, 11): Stationed at (29, 11) facing North. Pre-battle dialogue: "We're pulling a big job here! Get lost, kid!". Team: Zubat Lv 12 (Defeated), Ekans.
 - Southern Cliff Boundary (Row 11..12): Impassable elevation cliff along row 11 south edge blocking direct descent to lower floor at row 12.
 
 

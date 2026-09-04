@@ -96,3 +96,4 @@
 - Level 8 Caught Stats: Max HP 26, Attack 19, Defense 22, Speed 9, Special 11
 - Moves: Tackle (PP 35/35)
 - EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
+- Shift Mode Switch Prompt: In Gen 1, the switch prompt ('Will <PLAYER> change POKéMON?') defaults the cursor to YES. Pressing 'B' immediately declines the prompt (acts as NO) without needing to navigate down.
