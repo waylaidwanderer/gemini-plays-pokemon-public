@@ -41,3 +41,7 @@
   6. Stand at (15, 12) -> Push East 1 time to (17, 12).
   7. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13).
 - Verified Outcome: Switch at (17, 13) activated; Shutters at (5, 13) and (7, 7) opened for the duration of the current visit (note: exiting the cave to Route 23 or using Dig/Escape Rope resets the boulder puzzle and closes the shutters).
+
+## Verified Map Boundaries & Exit Warps (Verified Turn 28092, 28112)
+- South Exit Warp: Located at (8..9, 17). Stepping onto row 17 across columns 8 and 9 immediately transfers player out to Route 23 at (4, 31), resetting all boulder positions and shutter states on 1F. Do not step on row 17 while solving the puzzle!
+- Verified Switch Plate on 1F: Located at (17, 13) in Eastern Chamber (target for Boulder 1). Note: (1, 16) is a standard floor tile on 1F (Switch (1, 16) is on 2F).
