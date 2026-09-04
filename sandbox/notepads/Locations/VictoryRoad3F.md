@@ -15,13 +15,19 @@
 - SW / South Sector (rows 12-15, cols 0-17):
   - Accessible ONLY via 2F NW Ladder (1, 1) -> 3F NW Room (2, 0) -> Western Bridge (cols 5-7).
   - Contains Boulder at (13, 13).
-## Active Floor State & Critical Mechanics (Turn 27212)
+## Active Floor State & Critical Mechanics (Turn 27241)
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F! The entire floor puzzle must be executed in a single continuous visit.
-- Active Floor State: Strength active. Boulder 1 currently at (19, 1) along Row 1 highway.
-- Switch Plate: (3, 5) in NW Room (opens Shutter at (17, 5)).
+- Active Floor State: Strength active. Boulder 1 pushed to (7, 6).
+- Switch Plate: (3, 5) in NW Room (accessible via Row 2 passage (6, 2) -> (3, 2) -> (3, 5)). Stepping on Switch (3, 5) lowers Shutter Barrier at (17, 5).
 - Shutter Barrier: Located at (17, 5) [Closed; opened by Switch (3, 5)].
 - Pit / Hole: Located at (23, 15) in southern sector.
-- Target Objective: Push Boulder 1 west along Row 1 to col 7, south along col 7 to (7, 6), activate Switch (3, 5), push through open Shutter (17, 5) to Pit (23, 15), and jump into Pit!
+- Boulder 3: Pre-positioned at (22, 15) directly adjacent to the Pit at (23, 15).
+- Master Progression Route:
+  1. Step on Switch (3, 5) to open Shutter (17, 5).
+  2. Walk back via Row 2 to Row 1 highway and through open Shutter (17, 5) into the Southern Sector.
+  3. Push Boulder 3 from (22, 15) into Pit at (23, 15).
+  4. Jump into Pit at (23, 15) to land on 2F exit ledge!
+  5. Climb 2F exit ladder to Indigo Plateau.
 
 ## Verified 3F Coordinates & Topology
 - Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
