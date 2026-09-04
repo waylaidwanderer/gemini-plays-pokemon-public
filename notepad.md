@@ -430,6 +430,6 @@
 - Western Cavern Corridor (Cols 0..13, Rows 22..29): Wide open cavern passage leading west toward items and northwest ladder.
 - Ground Item (5, 32): TM12 (WATER GUN) collected on Turn 1045.
 
-- Ground Item (2, 20): Item ball in west alcove (accessible from (2, 21) facing North).
+- Ground Item (2, 20): Item ball collected on Turn 1056.
 
 <hr>
