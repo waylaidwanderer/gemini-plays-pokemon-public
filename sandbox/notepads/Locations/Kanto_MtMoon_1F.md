@@ -3,9 +3,7 @@
 ## Connections
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (21, 17): Ladder visible across western rock wall in north-east area.
-- Ladder (25, 15): Confirmed ladder at (25, 15) descending to B1F (visually confirmed after stepping south to unmask player sprite).
-- Eastern Corridor (Cols 24..27, Rows 15..23+): 4-tile wide north-south cavern passage extending south toward southeast chamber.
+- Ladder (21, 17): Ladder visible in north-east area.
 
 ## Layout & Corridors
 - Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
@@ -19,3 +17,4 @@
 - Ground Item (2, 20): POTION collected.
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east above Bug Catcher Kent (16, 23) connecting the central junction to the eastern avenue.
 - Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
+- Eastern Corridor (Cols 24..27, Rows 14..27): 4-tile wide north-south dead-end passage. Connects at rows 26..27 west to central area. Bounded by solid rock walls at row 13 (north), row 28 (south), and col 28 (east). Note: Tile (25, 15) is regular cave floor, NOT a ladder (empirical test: walking onto it triggers no warp).
