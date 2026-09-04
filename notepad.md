@@ -2779,7 +2779,7 @@
 - Initial State: Boulder 1 at (22, 3).
 - Step 1: Pushed west to (21, 3).
 - Step 2: Repositioned to (21, 4), pushed North twice: (21, 3) -> (21, 2) -> (21, 1) -> (21, 0).
-- Step 3: Repositioned to (22, 0), pushed West along Row 0: (21, 0) -> (20, 0) -> (19, 0) -> (18, 0).
-- Step 4: Continuing West along Row 0 northern highway towards western chute and pit.
+- Step 3: Repositioned to (22, 0), pushed West along Row 0: (21, 0) -> (20, 0) -> (19, 0) -> (18, 0) -> (17, 0) -> (16, 0).
+- Step 4: Continuing West along Row 0 northern highway towards column 12 and western chute.
 
 <hr>
