@@ -5,7 +5,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 17
-- Money: ¥1881
+- Money: ¥2091
 - Pokédex: 1 Caught / 11 Seen
 
 ## Milestones
@@ -42,7 +42,7 @@
 - POKéDEX
 
 ## Money
-- ¥1881
+- ¥2091
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 17, Water]
@@ -228,12 +228,12 @@
 
 ## Verified Geography & Landmarks
 - Southern Entry Corridor (Rows 44..47): Open path across columns 15..18, bounded by stone posts at columns 14 and 19.
-- Signpost (18, 45): Trainer Tips - "Weaken POKéMON before attempting capture! When healthy, they may escape!" [Turn 337]
-- Resident/NPC (16, 43): Youngster warns "I came here with some friends! They're out for POKéMON fights!" [Turn 338]
+- Signpost (18, 45): Trainer Tips - "Weaken POKéMON before attempting capture! When healthy, they may escape!"
+- Resident/NPC (16, 43): Youngster warns "I came here with some friends! They're out for POKéMON fights!"
 - Main South-Central Avenue (Rows 36..40): 2-tile wide clear path along columns 16..17 flanked by tall grass (col 15 and 18) and stone posts (col 14 and 19). Completely avoids grass encounters.
-- Signpost (16, 32): Trainer Tips - "For poison, use ANTIDOTE! Get it at POKéMON MARTs!" [Turn 345]
+- Signpost (16, 32): Trainer Tips - "For poison, use ANTIDOTE! Get it at POKéMON MARTs!"
 - Western Maze Passage (Rows 32..33): Avenue terminates at row 31 tree wall; path branches west through tall grass opening at rows 32..33 into the western forest maze.
-- Ground Item (12, 29): Visually confirmed item ball in an enclosed clearing north of row 30 trees [Turn 346]. Traversal of northern corridors (columns 11-13, 16-18, 25-26) confirmed no northern breach into this clearing; it remains isolated from the main paths (likely requires Cut or alternative access).
+- Ground Item (12, 29): Visually confirmed item ball in an enclosed clearing north of row 30 trees. Traversal of northern corridors (columns 11-13, 16-18, 25-26) confirmed no northern breach into this clearing; it remains isolated from the main paths (likely requires Cut or alternative access).
 - Western Path Junction (Row 33, Col 7): Open grass path at (7, 33) connects the row 32..33 grass field to western and southern corridors.
 - West-Central Corridor (Rows 33..37, Cols 6..7): 2-tile wide clear path bypassing the central tree clump (cols 3..5, rows 33..36) to the east; turns west along row 37.
 - Southwest Grass Pocket (Rows 40..43, Cols 1..5): Dead-end 5x4 tall grass clearing bounded by western stone posts (col 0) and tree walls to north (row 38) and south (row 44). Exit is east to column 6.
@@ -293,7 +293,7 @@
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
 - Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 - Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
-- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
+- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKéMON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
 - Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
@@ -328,6 +328,7 @@
 - East: Mt. Moon.
 
 ## Landmarks & Layout
+- Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
 - First Tall Grass Field (Rows 8..11, Cols 2..5+): Tall grass spans across columns 2 to 5+. Stone boundary posts located at (4, 8) and (4, 11). Rows 9 and 10 provide continuous east-west passage through the grass field.
 
@@ -354,8 +355,7 @@
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9); NPC stationed at (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
 - Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
-- Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
-- Eastern Ledge & Ramp (37, 7): Upper terrace extends across rows 4..6 (cols 34..37) with ledge at row 7 and ramp at (37, 7).
+- Eastern Ledge & Ramp (37, 7): Visual hypothesis - upper terrace appears to extend across rows 4..6 (cols 34..37) with ledge at row 7 and ramp texture at (37, 7) (pending empirical traversal verification).
 
 <hr>
