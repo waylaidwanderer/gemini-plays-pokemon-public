@@ -2784,7 +2784,7 @@
 
 ## Active Floor State & Critical Mechanics (Turn 27304)
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F! The entire floor puzzle must be executed in a single continuous visit.
-- Active Floor State: Strength is ACTIVE (cast Turn 27288 with ATLAS). Boulder 1 currently at (20, 1) along Row 1 highway.
+- Active Floor State: Strength is ACTIVE. Boulder 1 is being placed onto Switch Plate (3, 5) to permanently open Shutter (17, 5).
 - Verified Walkable Bypass Tiles in NW Chamber:
   - (3, 1) and (2, 1) are open, walkable floor tiles (traversed turns 27247-27250, 27271).
   - (2, 2) through (2, 5) forms an open vertical corridor along column 2.
