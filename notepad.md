@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 0 / 8
-- Active Team: Squirtle (SHELDON) Lv 7
+- Active Team: Squirtle (SHELDON) Lv 8
 - Money: ¥125
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
