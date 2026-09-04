@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 17, Spearow (FALCO) Lv 5
+- Active Team: Wartortle (SHELDON) Lv 18, Spearow (FALCO) Lv 5
 - Money: ¥2091
 - Pokédex: 2 Caught / 11 Seen
 
@@ -422,6 +422,7 @@
 
 ## Connections
 - South Exit: Warp at (14, 35) leading outside to Route 4.
+- Ladder (13, 27): Ladder descending to basement chamber (empirically verified warp).
 - Ladder (17, 11): Ladder in north-central corridor.
 - Ladder (21, 17): Ladder visible in north-east area.
 
@@ -433,11 +434,30 @@
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction (cols 10..19).
 - Western Cavern Corridor (Cols 0..13, Rows 22..29): Wide open cavern passage leading west toward items and northwest ladder.
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
-
 - Ground Item (2, 20): POTION collected.
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east above Bug Catcher Kent (16, 23) connecting the central junction to the eastern avenue.
 - Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
-- Eastern Corridor (Cols 24..27, Rows 14..27): 4-tile wide north-south dead-end passage. Connects at rows 26..27 west to central area. Bounded by solid rock walls at row 13 (north), row 28 (south), and col 28 (east). Note: Tile (25, 15) is regular cave floor, NOT a ladder (empirical test: walking onto it triggers no warp).
+- Eastern Corridor (Cols 24..27, Rows 14..27): 4-tile wide north-south dead-end passage. Connects at rows 26..27 west to central area. Bounded by solid rock walls at row 13 (north), row 28 (south), and col 28 (east).
+
+
+<hr>
+
+<h1><code>Locations/Kanto_MtMoon_Basement1</code></h1>
+
+# Mt. Moon Basement (Entrance Ladder 13, 27 Chamber)
+
+## Connections
+- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27). Empirically verified warp origin and return unmasked on step off.
+
+## Layout & Geography
+- Arrival Warp: Warped from 1F (13, 27) onto basement (13, 27) and automatically scripted 2 steps east to (15, 27).
+- Southern Ridge/Plateau: Elevated cliff ridge spanning rows 28..30, cols 12..20. Lower speckled floor path runs along row 31.
+- Western Corridor: North-south corridor along column 11 (rows 23..31).
+- Main Northern Cavern (Cols 14..20, Rows 23..27): Wide open speckled cave floor extending north toward unexplored basement depths.
+
+## NPCs & Trainers
+- Team Rocket Grunt: Stationed at (15, 24) facing South. Line of sight triggers when walking north on column 15 at (15, 25).
+  - Team: 3 Pok�mon (Sandshrew Lv 11, Rattata Lv 11, [3rd Pok�mon pending]).
 
 
 <hr>
