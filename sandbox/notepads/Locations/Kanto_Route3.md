@@ -37,3 +37,4 @@
 - Far Eastern Highway (Cols 38..47, Rows 4..6): Wide continuous open green highway running east past column 47 toward the Mt. Moon entrance courtyard.
 - Far Eastern Mountain Spur (Col 50): Solid mountain cliff blocks eastward passage on rows 3..7.
 - Far Eastern Ramp (49, 7): Tan dirt ramp connecting row 6 down to rows 8..9, routing path south around the mountain spur toward Mt. Moon.
+- Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54 directly toward the Mt. Moon entrance and Pokémon Center.
