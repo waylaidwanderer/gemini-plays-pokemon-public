@@ -5,7 +5,7 @@
 - POKé BALL x6
 - POTION x4
 - ESCAPE ROPE x1
-- ANTIDOTE x2
+- ANTIDOTE x0 (Depleted)
 - TM34 (BIDE)
 
 ## Key Items
@@ -16,7 +16,7 @@
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 15, Water]
-  - Status: Poisoned
+  - Status: Healthy
   - HP: 31 / 39
   - Stats: Attack 23, Defense 29, Speed 23, Special 24
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 22/30), Water Gun (PP 25/25)
