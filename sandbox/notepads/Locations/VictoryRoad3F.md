@@ -3,7 +3,7 @@
 ## Ladders
 - NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room (leads south onto Western Bridge cols 5-7)
 - Ladder A (from 2F (23, 7)): Arrival tile at (23, 7) on upper plateau from 2F (23, 7). (Note: Descent from 3F (23, 7) is not bidirectional; use Ladder B at (25, 14) or NW Ladder at (2, 0) to descend).
-- Ladder NE (from 2F (27, 7)): Located at (26, 8) in eastern corridor (verified visually on Turn 28491)
+- Ladder NE (from 2F (27, 7)): Located at (27, 7) in eastern corridor (accessed via (25, 3) -> (27, 4) -> (27, 7))
 - Ladder B (from 2F SE (25, 14)): Located at (25, 14) in SE Lower Purple Room (rows 12-14)
 
 ## Physical Features & Topography
