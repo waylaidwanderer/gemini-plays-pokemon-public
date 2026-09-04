@@ -199,5 +199,6 @@
 - Eastern Avenue (Column 26): Continuous clear-ground north-south corridor running along column 26 from row 43 north through at least row 38, providing a safe grass-free path north into the eastern forest.
 - NPC / Trainer (27, 40): Located in the eastern corridor south of row 39 trees, facing south.
 - Eastern Avenue Corridor (Cols 26..27, Rows 34..43): Verified 2-tile wide clear-ground highway running continuously north along the eastern edge, completely bypassing all tall grass.
+- Bug Catcher (30, 33): Walked west along row 33 to (27, 33) to challenge player. Line: "Hey! You have POKéMON! Come on!" [Turn 376]
 
 <hr>
