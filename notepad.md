@@ -61,9 +61,13 @@
   - Vertical fence at x=18 (runs vertically).
   - Tree hedge at row 23 (x=4 to 11).
 - Open Pathways:
+  - Row 4: Safe east-west open path corridor connecting x=10..17 north of row 5 ledge.
   - Rows 6..9: Tall grass patch spanning x=10..17 across route. Northbound path through corridor at x=14..17 crosses rows 9..6.
   - Row 26: Safe east-west path corridor (verified clear from x=12 to 17).
   - Western strip (x=0..2): Walled off by fence (x=3, y=16..27) and trees (x=3, y=28..30); inaccessible from main route.
+- Northern Exit to Viridian City:
+  - Row 1: Wall structure blocks columns 12..18.
+  - Columns 10..11: Open 2-tile road corridor leading directly north into Viridian City.
 - Open Gaps:
   - Row 19: Open path gap at (9, 19) through the row 19 ledge.
   - Row 27: Open path gap at (8, 27) next to signpost at (9, 27).
