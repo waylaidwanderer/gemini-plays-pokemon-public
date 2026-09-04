@@ -15,13 +15,18 @@
 - SW / South Sector (rows 12-15, cols 0-17):
   - Accessible ONLY via 2F NW Ladder (1, 1) -> 3F NW Room (2, 0) -> Western Bridge (cols 5-7).
   - Contains Boulder at (13, 13).
-## Verified 3F Coordinates & Visual Observations (Turn 27151)
+## Active Floor State & Critical Mechanics (Turn 27212)
+- CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F! The entire floor puzzle must be executed in a single continuous visit.
+- Active Floor State: Strength active. Boulder 1 currently at (19, 1) along Row 1 highway.
+- Switch Plate: (3, 5) in NW Room (opens Shutter at (17, 5)).
+- Shutter Barrier: Located at (17, 5) [Closed; opened by Switch (3, 5)].
+- Pit / Hole: Located at (23, 15) in southern sector.
+- Target Objective: Push Boulder 1 west along Row 1 to col 7, south along col 7 to (7, 6), activate Switch (3, 5), push through open Shutter (17, 5) to Pit (23, 15), and jump into Pit!
+
+## Verified 3F Coordinates & Topology
 - Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
 - Ladder NE (to 2F): (26, 8) [Visual observation from Ladder A]
-- Boulder 1: (7, 6) along Western Bridge (pushed from (22, 3) via Row 1 and Col 7) [Verified Turn 27135]
-- Switch Plate: (3, 5) in Northwest Room [Activated Turn 27142; lowers Shutter (17, 5)]
-- Shutter Barrier: Located at (17, 5) [Lowered/Opened by Switch (3, 5)]
-- Boulder 2: (24, 10) in southeastern sector [Visual observation]
-- Boulder 3: (22, 15) in southern sector [Visual observation]
-- The Pit / Hole: Located at (23, 15) in the southern sector [Visual observation]
-- Cooltrainer: Located at (28, 5) and (13, 3) [Both defeated]
+- Boulder 1 Initial Start: (22, 3)
+- Boulder 2: (24, 10) in southeastern sector
+- Boulder 3: (22, 15) in southern sector
+- Cooltrainers: (28, 5) and (13, 3) [Both defeated]
