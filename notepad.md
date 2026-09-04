@@ -41,7 +41,7 @@
 - SQUIRTLE (Nickname: SHELDON) [Lv 7, Water]
   - HP: 10 / 23
   - Stats: Attack 13, Defense 15, Speed 13, Special 13
-  - Moves: Tackle (PP 34/35), Tail Whip (PP 30/30)
+  - Moves: Tackle (PP 32/35), Tail Whip (PP 30/30)
 
 <hr>
 
