@@ -61,6 +61,7 @@
   - Vertical fence at x=18 (runs vertically).
   - Tree hedge at row 23 (x=4 to 11).
 - Open Pathways:
+  - Rows 6..9: Tall grass patch spanning x=10..17 across route. Northbound path through corridor at x=14..17 crosses rows 9..6.
   - Row 26: Safe east-west path corridor (verified clear from x=12 to 17).
   - Western strip (x=0..2): Walled off by fence (x=3, y=16..27) and trees (x=3, y=28..30); inaccessible from main route.
 - Open Gaps:
