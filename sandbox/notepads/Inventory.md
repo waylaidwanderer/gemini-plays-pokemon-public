@@ -7,7 +7,7 @@
 - POKéDEX (received from Prof. Oak on Turn 214)
 
 ## Money
-- ¥275
+- ¥3275
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 10, Water]
