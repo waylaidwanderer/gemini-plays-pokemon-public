@@ -2781,17 +2781,11 @@
   - Shutter 2: (21, 15) in SE lower purple room.
 - Verified Boulder Locations:
   - Boulder 1: (22, 3) in northern chamber of Upper Plateau.
-  - Boulder 2 (Pit Boulder): (24, 10) in southeastern corridor above lower room.
-  - SW Boulder: (13, 12) in SW sector between rock walls (12, 12) and (14, 12).
+  - Boulder 2: (24, 10) in southeastern corridor.
+  - Boulder 3: (13, 12) in central corridor between rock walls (12, 12) and (14, 12).
 - Verified NPCs & Trainers:
   - Cooltrainer ♂ at (19, 8) [Defeated].
   - Cooltrainer at (21, 13) in SE lower purple room.
   - Cooltrainers at (28, 5), (26, 3), (13, 3) [Defeated].
-- Master Pit Puzzle Solution:
-  1. Stand at (23, 10) and push Boulder 2 at (24, 10) East to (25, 10).
-  2. Stand at (25, 9) and push Boulder 2 South through (25, 11..14) into the Lower Purple Room.
-  3. Hop down into Lower Purple Room and push Boulder West along row 15 into Pit at (23, 15).
-  4. Jump down Pit at (23, 15) to land on 2F exit ledge.
-  5. Ascend 2F exit ladder to Route 23 North / Indigo Plateau.
 
 <hr>
