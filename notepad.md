@@ -2775,7 +2775,7 @@
   - Cooltrainer at (21, 13).
   - Shutter Barrier at (21, 15) with solid rock wall at (18..20, 15) and (22..27, 15).
 - SW / South Sector (rows 12-15, cols 0-17):
-  - Contains Boulder at (13, 13) and connects to Western Bridge (cols 6-7).
+  - Contains Boulder at (13, 13). (Western Bridge terminates at row 6/7 against solid rock).
 - Northwest Room (rows 0-5, cols 1-4):
   - Contains NW Ladder at (2, 0) connecting to 2F (1, 1).
   - Contains Switch Plate at (3, 5) which opens Shutter Barrier at (17, 5).
