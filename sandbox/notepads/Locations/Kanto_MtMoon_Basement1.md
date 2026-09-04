@@ -1,0 +1,14 @@
+# Mt. Moon Basement (Entrance Ladder 13, 27 Chamber)
+
+## Connections
+- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27). Empirically verified warp origin and return unmasked on step off.
+
+## Layout & Geography
+- Arrival Warp: Warped from 1F (13, 27) onto basement (13, 27) and automatically scripted 2 steps east to (15, 27).
+- Southern Ridge/Plateau: Elevated cliff ridge spanning rows 28..30, cols 12..20. Lower speckled floor path runs along row 31.
+- Western Corridor: North-south corridor along column 11 (rows 23..31).
+- Main Northern Cavern (Cols 14..20, Rows 23..27): Wide open speckled cave floor extending north toward unexplored basement depths.
+
+## NPCs & Trainers
+- Team Rocket Grunt: Stationed at (15, 24) facing South. Line of sight triggers when walking north on column 15 at (15, 25).
+  - Team: 3 Pokémon (Sandshrew Lv 11, Rattata Lv 11, [3rd Pokémon pending]).
