@@ -509,6 +509,6 @@
 - Ledge (Cols 28..29, Row 7): South-facing one-way jump ledge.
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - NPC (29, 11): Stationed at (29, 11) facing North.
-- Western Corridor (Rows 12..13, Cols 21..28): Wide passage connecting entrance chamber west into main B2F cavern (cols 21-22).
+- Southern Cliff Boundary (Row 11..12): Impassable elevation cliff along row 11 south edge blocking direct descent to lower floor at row 12 (collision confirmed at (25, 11) facing Down).
 
 <hr>
