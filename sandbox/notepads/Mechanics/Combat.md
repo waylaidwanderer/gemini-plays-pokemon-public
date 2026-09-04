@@ -7,21 +7,13 @@
 ## Strategy
 - Route 1: Defeat wild Pidgey/Rattata with Tackle for EXP toward Lv 8 (Bubble).
 - Conserve Potions unless HP <= 5.
-## Verified Encounter Observations (Turns 124-128)
-- Enemy: Wild Rattata (Lv 3) on Route 1.
-- Player: Squirtle (SHELDON) Lv 6 (Attack 12, Defense 14).
-- Tackle Damage: Dealt ~6-7 HP (~50-55% of Rattata max HP); KO in 2 hits.
-- Enemy Attack: Rattata Tackle Critical Hit dealt 3 damage to Sheldon (HP 21 -> 18).
-- Enemy Status: Rattata used Tail Whip, reducing Sheldon Defense by 1 stage.
-- Experience: Awarded 24 EXP upon defeat.
+## Stat Modifiers & Stage Divisors
+- Tail Whip: Decreases target Defense by 1 stage per use (-1 stage = 2/3 Defense, -2 stages = 1/2 Defense).
+  - Verified: Lv 4 Rattata Tackle dealt 6 damage to Sheldon at -2 Defense vs ~3-4 damage at neutral Defense.
 
-## Verified Encounter Observations (Turns 186-190)
-- Enemy: Wild Pidgey (Lv 3) on Route 1.
-- Player: Squirtle (SHELDON) Lv 6 -> grew to Lv 7!
-- Tackle Damage: Critical Hit dealt ~50% damage on hit 1; regular Tackle dealt ~45% on hit 2 (KO in 2 hits).
-- Enemy Attack: Pidgey Gust dealt 3 damage to Sheldon (HP 18 -> 15).
-- Experience: Awarded 23 EXP upon defeat, triggering Level 7!
-- Stat Growth at Lv 7: Attack 12->13, Defense 14->15, Speed 12->13, Special 12->13.
+## Damage Ranges (Squirtle Tackle)
+- Against Lv 3-4 Route 1 wild targets (neutral): Tackle deals ~6-7 HP per hit (~35-50% max HP), yielding consistent 2-to-3-hit KOs.
+- Critical Hits: Double effective level in damage calculation, dealing ~50% bonus damage.
 
 ## Verified Encounter Observations (Turns 196-200)
 - Enemy: Wild Pidgey (Lv 3) on Route 1.
