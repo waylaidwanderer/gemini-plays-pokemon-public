@@ -5,7 +5,7 @@
 ## Status
 - Badges: 0 / 8
 - Active Team: Squirtle (SHELDON) Lv 10
-- Money: ¥275
+- Money: ¥725
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
 ## Milestones
@@ -20,7 +20,8 @@
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
 - [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
-- [ ] Reach Pewter City & Defeat Gym Leader Brock
+- [x] Reach Pewter City [Turn 495]
+- [ ] Defeat Pewter Gym Leader Brock
 
 <hr>
 
@@ -30,10 +31,10 @@
 
 ## Items
 - TOWN MAP (Slot 1 in Bag)
-- POKé BALL x6 (bought 5 on Turn 522)
-- POTION x3 (bought 3 on Turn 525)
-- ESCAPE ROPE x1 (bought Turn 528)
-- ANTIDOTE x2 (1 found Viridian Forest, 1 bought Pewter Turn 529)
+- POKé BALL x6
+- POTION x3
+- ESCAPE ROPE x1
+- ANTIDOTE x2
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
@@ -94,7 +95,7 @@
 
 ## Stat Stage Modifiers
 - Tail Whip: Decreases target Defense by 1 stage per application (Stage -1 = approx. 2/3 Defense, Stage -2 = approx. 1/2 Defense). Verified: Lv 6 Weedle took 11-12 damage from Tackle at -1 Defense vs ~6-8 at neutral Defense.
-- Bubble Secondary Effect: Possesses an empirical ~33% chance to lower target Speed by 1 stage (Stage -1 = 2/3 Speed). Verified: Successfully dropped enemy Weedle's Speed on Turns 381, 385, and 462.
+- Bubble Secondary Effect: Has a chance to lower target Speed by 1 stage (observed to drop enemy Weedle's Speed on Turns 381, 385, and 462).
 - String Shot: Lowers target Speed by 1 stage.
 
 ## Verified Damage Ranges & Combat Bounds
@@ -226,23 +227,21 @@
 - South: Route 2 northern entrance corridor at (18..19, 35).
 - East: Route 3 (leading to Mt. Moon).
 
-## Layout & Landmarks
+## Layout & Thoroughfares
 - Southern Entrance (Rows 32..35, Cols 18..19): 2-tile wide paved corridor flanked by dense tree hedges.
-- Main City opens north of row 32.
+- Main Avenue (Cols 18..19, Rows 22..27): 2-tile wide clear north-south thoroughfare connecting southern entrance to row 22 cross-street.
+- Row 22 Cross-Street: Paved avenue running east from column 19 to column 23+. Dead-ends at column 15 to the west.
+- Central Fence: Vertical fence posts at column 18 (rows 18..21) separating west and east avenues.
+- Northbound Corridor: Columns 18..19 form an open clear ground avenue running north from row 22 past row 14 toward the Museum.
+- Northern Boulevard (Rows 12..13, Cols 11..19): Wide east-west thoroughfare running above the Gym roof, connecting east and west sides of northern Pewter City.
+- Western Corridor (Cols 10..11, Rows 13..18): North-south path along the western edge leading into the Gym courtyard.
+- Gym Courtyard (Rows 18..20, Cols 10..17): Open plaza area in front of the Gym, bounded by row 20 trees to the south and column 18 fence to the east.
+- Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flower patches.
+
 ## Key Buildings
 - Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKé" sign at (14, 25).
-- City Signpost: Located at (19, 29).
-- NPC: Stationed at (17, 25) outside the Pokémon Center.
-- Main Avenue (Cols 18..19, Rows 22..27): 2-tile wide clear north-south thoroughfare connecting southern entrance to row 22 cross-street.
-- Row 22 Cross-Street: Paved avenue running east from column 19 to column 23+.
-- Central Fence: Vertical fence posts at column 18 (rows 18..21) separating west and east avenues.
-- Northbound Corridor: Column 19 is open clear ground running north from row 22 past row 18.
-- Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flowers. NPC wandering inside.
-- Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
-- Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17).
-- Paved Plaza: Rows 18..19 in front of the Mart.
-- Youngster NPC: Standing at (27, 17) just east of the Mart.
-  - Pewter Poké Mart Stock (Turn 518):
+- Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17). Paved plaza in front at rows 18..19.
+  - Verified Pewter Poké Mart Stock:
     - POKé BALL: ¥200
     - POTION: ¥300
     - ESCAPE ROPE: ¥550
@@ -250,8 +249,18 @@
     - BURN HEAL: ¥250
     - AWAKENING: ¥200
     - PARLYZ HEAL: ¥200
-- Pewter Gym: Located at (14..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
-  - Courtyard: Rows 18..20 in front of the Gym.
-  - Tree barrier: Row 21 (cols 15..17) separates Gym courtyard from row 22 street.
+- Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16). Interior entered at Turn 540.
+
+## Signposts & Points of Interest
+- City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
+- Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
+- Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
+
+## NPCs
+- Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
+- Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
+- Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
+- Western Pewter NPC: Stationed at (8, 15) in the western residential area.
+
 
 <hr>
