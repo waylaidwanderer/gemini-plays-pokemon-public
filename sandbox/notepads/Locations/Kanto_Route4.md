@@ -22,7 +22,7 @@
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North.
 - Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
 - Youngster: Stationed at (7, 3).
-- Magikarp Salesman: Stationed at (11, 2) in the northeast corner behind the counter. Sells Magikarp for ¥500 (talk from (11, 3) facing North).
+- Magikarp Salesman: Stationed at (11, 2) in the northeast corner behind the counter.
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Resident who advises: "If you have too many POKéMON, you should store them via PC!".
 ## Cave & Landmarks
