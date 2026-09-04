@@ -41,4 +41,4 @@
 - Impassable Monument (58..59, 8..9): Impassable structure/boundary at the western edge of the eastern grass field.
 - Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
 - Row 7 Ledge at (57, 7): South-facing ledge (empirically confirmed in Turn 923: northbound movement from (57, 8) is blocked). Cannot be climbed North; main route continues East toward Mt. Moon.
-- Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area south of the Pokémon Center.
+- Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area.

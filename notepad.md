@@ -85,7 +85,7 @@
 # Combat Mechanics & Tactical Guidelines
 
 ## Turn Priority & Item Mechanics
-- Move Execution Order: Strictly determined by Speed stat under neutral conditions. Higher Speed acts first. When Speed stats are identical (Speed tie), turn priority is resolved randomly (50/50) each turn (empirically confirmed Turns 456 & 458: Sheldon at Speed 15 and Trainer Weedle Lv 9 alternated move priority under neutral conditions, demonstrating an empirical Speed tie).
+- Move Execution Order: Strictly determined by Speed stat under neutral conditions. Higher Speed acts first. When Speed stats are identical (Speed tie), turn priority is resolved randomly (50/50) each turn.
 - In-Battle Item Priority: Bag item usage (e.g. Potion) possesses top execution priority (+1 priority), resolving at the beginning of the turn before any Pokémon moves, irrespective of Speed.
 - Item Effects: Potion restores exactly 20 HP to the designated Pokémon.
 - Potion Tactical Doctrine: Conserve Potions unless active Pokémon HP <= 5 and opponent possesses lethal KO potential on the current turn. When HP <= 5 and enemy attack cannot be prevented by outspeeding and knocking out the target, item priority ensures 100% survival.
@@ -364,6 +364,6 @@
 - Impassable Monument (58..59, 8..9): Impassable structure/boundary at the western edge of the eastern grass field.
 - Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
 - Row 7 Ledge at (57, 7): South-facing ledge (empirically confirmed in Turn 923: northbound movement from (57, 8) is blocked). Cannot be climbed North; main route continues East toward Mt. Moon.
-- Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area south of the Pokémon Center.
+- Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area.
 
 <hr>
