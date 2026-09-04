@@ -7,7 +7,6 @@
 - Main Southern Entrance: Street at columns 20-21 leads north from Route 1 to row 30 cross street.
 - Southern Cross Street: Row 30 runs east-west from column 4 to column 35, south of the pond and row 27 ledge.
 - Row 27 Ledge Observations:
-  - South-facing ledge verified at (5, 27) and (17, 27) via collision.
   - Water pond occupies rows 26-27 between columns 9 and 13.
   - Open ledge gap discovered at (19, 27) allowing northward passage to row 26.
   - Collisions confirmed at (5, 27), (17, 27), and (20, 27).
