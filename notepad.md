@@ -525,7 +525,7 @@
 - Row 10 Bypass: Passable east-west floor corridor between (28, 10) and (35, 10).
 - East Corridor & Boundaries:
   - Passage along column 34 connects row 10 north to row 6.
-  - Northern wall: Solid rock wall along row 5 (cols 32..35).
+  - Northern wall: Solid rock wall along row 5 (cols 23..26 and 32..35; collision confirmed at (24, 5)).
   - Eastern boundary: Impassable elevation drop prevents moving East from (35, 6) into (36, 6).
   - Boulder: Isolated rock at (33, 9).
 
@@ -536,24 +536,22 @@
 
 # Mt. Moon B2F Routing & Hypotheses
 
-## Current Position & Verified Layout
-- At (24, 6) on the elevated B2F plateau.
-- Probing (24, 5): 1-tile pocket bounded by rock walls at (23, 5), (24, 4), and (25, 5).
-- Item ball at (29, 5): Sits on isolated platform above (28..29, 7) jump ledge; accessible from separate route.
-- B2F Entrance Plateau Summary:
-  - Connected via Ladder (25, 9) to B1F transit corridor.
-  - Houses defeated Rocket Grunt at (29, 11) (yielded ¥360).
-  - East corridor ends at (35, 6) against impassable col 36 cliff.
-  - West edge bounded by solid rock wall at col 23.
-  - South edge bounded by impassable cliff along row 11.
+## B2F Entrance Plateau (Fully Mapped & Cleared)
+- Ladder (25, 9): Ascends to B1F Central Transit Corridor at (17, 11).
+- Team Rocket Grunt (29, 11): Defeated (¥360 prize money).
+- Northern boundary: Solid rock wall at row 5 (cols 23..26 and 32..35). (24, 5) is solid wall.
+- Eastern boundary: Impassable cliff into col 36 (tested at (35, 6) -> (36, 6)).
+- Southern boundary: Impassable elevation cliff along row 11 into row 12 purple floor.
+- Western boundary: Solid rock wall along col 23 (rows 5..11).
+- Item ball at (29, 5): Elevated platform above (28..29, 7) jump ledge; reached from separate route.
 
-## Strategic Plan
-- This plateau is a fully completed side pocket (Grunt defeated, boundaries mapped).
-- Next: Return to Ladder (25, 9) and ascend to B1F/1F.
-- Priority exploration targets for Fossil:
-  1. Mt. Moon 1F Northwest Corridor (cols 0..11, rows 0..17).
-  2. Mt. Moon 1F Northeast area (east of Lass 30, 4).
-  3. Mt. Moon B1F Southern Section (unexplored northern cavern and eastern corridor).
+## Next Progression Plan
+- Ascend Ladder (25, 9) to B1F Central Transit Corridor.
+- Take Ladder (25, 9) on B1F back up to 1F at (17, 11).
+- On 1F, explore:
+  1. Northwest corridor (cols 0..11, rows 0..17) via Northern Highway west.
+  2. Northeast area beyond defeated Lass (30, 4).
+  3. B1F Southern Section (unexplored northern cavern and eastern corridor via Ladder 13, 27).
 
 
 <hr>
