@@ -92,6 +92,13 @@
 - Experience: Awarded 23 EXP upon defeat, triggering Level 7!
 - Stat Growth at Lv 7: Attack 12->13, Defense 14->15, Speed 12->13, Special 12->13.
 
+## Verified Encounter Observations (Turns 196-200)
+- Enemy: Wild Pidgey (Lv 3) on Route 1.
+- Player: Squirtle (SHELDON) Lv 7 (Attack 13, Defense 15, Speed 13, Special 13).
+- Tackle Damage: Dealt ~55% on hit 1; regular Tackle dealt ~45% on hit 2 (KO in 2 hits).
+- Enemy Attack: Pidgey Gust Critical Hit dealt 3 damage, regular Gust dealt 3 damage (HP 17 -> 11).
+- Experience: Awarded 23 EXP upon defeat.
+
 <hr>
 
 <h1><code>Locations/Kanto_ViridianCity</code></h1>
