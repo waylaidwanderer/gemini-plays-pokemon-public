@@ -15,7 +15,7 @@
 - ¥1621
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 16, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 16, Water]
   - Status: Healthy
   - HP: 29 / 41
   - Stats: Attack 24, Defense 30, Speed 24, Special 25
