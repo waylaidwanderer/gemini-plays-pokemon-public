@@ -45,6 +45,7 @@
 - Level 10 Stats: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
 - Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2, not Slot 3. To reach Slot 3 from Slot 1 requires pressing "Down" twice.
 - Trainer Diglett Lv 11: 190 EXP
+- Trainer Sandshrew Lv 11: 219 EXP
 
 ## Battle Menu Memory Rules
 - Main Battle Menu Cursor Memory: The primary 4-choice battle menu (FIGHT, PKMN, ITEM, RUN) retains its position from the previously confirmed action. Specifically, using an Item leaves the cursor on ITEM on subsequent turns, rather than resetting to FIGHT. Verified on Turn 566.
