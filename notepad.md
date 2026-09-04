@@ -2742,16 +2742,11 @@
 - Eastern Outer Corridor: Columns 28-29 span rows 11 to 16.
 - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7).
 
-## Master Route to SE Ladder (25, 14) (Empirically Verified):
-- Shutter 3 at (21, 15) switch state persists across floor transitions.
-- Ledge Drop Access: Row 11 Highway spans cols 22-29. At (25, 11), a south-facing ledge allows jumping DOWN into the SE room at (25, 12).
-- Complete Step-by-Step Route to Ladder B:
-  1. From Row 16 at (21, 16), walk East 7 steps to (28, 16).
-  2. Walk North 5 steps along Eastern Corridor (col 28) to (28, 11).
-  3. Walk West 3 steps along Row 11 highway to (25, 11).
-  4. Step Down 1 time to jump south down ledge from (25, 11) into (25, 12).
-  5. Step Down 2 times along Column 25 to (25, 14) [Ladder B].
-  6. Step into Ladder B at (25, 14) to ascend to 3F SE Room directly at the Pit!
+## Verified 2F Elevation & Ladder A Access
+- Upper Plateau: Row 11 (y=11) connects Eastern Corridor (28, 11) west to Ladder A at (23, 7) and Ladder NE at (27, 7).
+- Row 11 South Boundary: The boundary between Row 11 and Row 12 is an impassable elevated cliff wall (cannot jump south into SE lower room).
+- SE Lower Room Access: The lower SE room (and exit ladder area) on 2F is accessed by pushing the 3F Boulder into the Pit at (23, 15) on 3F and jumping down the Pit!
+- Route to Ladder A: From (28, 11), walk West along Row 11 to (23, 11), then North along Column 23 to (23, 7) to ascend to 3F.
 
 ## Defeated Trainers (2F)
 - [x] Blackbelt: (9, 9) [Defeated Turn 22819]
