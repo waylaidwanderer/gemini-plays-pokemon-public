@@ -368,7 +368,7 @@
 - Eastern Structure (58..59, 8..9): Impassable structure at western edge of eastern grass field. Tile (58, 9) is solid (collision confirmed from (58, 10) and (57, 9)). Sign located at (59, 9).
 - Signpost (59, 9): Reads "ROUTE 3 - MT. MOON AHEAD".
 - Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
-- Row 7 Ledge at (57, 7): South-facing ledge. Cannot be climbed North; main route continues East toward Mt. Moon.
+- Row 7 Ledge at (57, 7): South-facing ledge. Cannot be climbed North.
 - Eastern Grass Pocket (Cols 58..65, Rows 8..13): Enclosed tall grass field at the southeastern boundary of Route 3. Bounded by solid rock cliff to the east (Col 66, Rows 8..13) and map boundary to the south (Row 14). Confirmed dead-end pocket for wild encounters (Spearow, etc.); does NOT lead to Mt. Moon.
 - Out-of-Bounds Border: Repeating tan road metatiles visible south of row 13 and east of column 66 are the out-of-bounds border block.
 - Mt. Moon Access Ramp (59, 7): Empirically verified 2-way passable tan dirt ramp located directly behind the Mt. Moon signpost at (59, 9). Ascends from row 8 up onto the elevated northern terrace at (59, 6).
@@ -403,7 +403,7 @@
 - Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North.
 - Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
 - Youngster: Stationed at (7, 3).
-- Magikarp Salesman: Stationed at (11, 2) in the northeast corner behind the counter. Sells Magikarp for ¥500 (talk from (11, 3) facing North).
+- Magikarp Salesman: Stationed at (11, 2) in the northeast corner behind the counter.
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Resident who advises: "If you have too many POKéMON, you should store them via PC!".
 ## Cave & Landmarks
@@ -428,9 +428,9 @@
 - Bug Catcher Kent (16, 23): Stationed at (16, 23) facing South down column 16.
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction (cols 10..19).
 - Western Cavern Corridor (Cols 0..13, Rows 22..29): Wide open cavern passage leading west toward items and northwest ladder.
-- Ground Item (5, 32): TM12 (WATER GUN) collected on Turn 1045.
+- Ground Item (5, 32): TM12 (WATER GUN) collected.
 
-- Ground Item (2, 20): Item ball collected on Turn 1056.
+- Ground Item (2, 20): Item ball collected.
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east above Bug Catcher Kent (16, 23) connecting the central junction to the eastern avenue.
 - Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
 
