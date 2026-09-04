@@ -19,3 +19,5 @@
     - ANTIDOTE: ¥100
     - PARLYZ HEAL: ¥200
     - BURN HEAL: ¥250
+  - Verified Resale Values (Turn 280):
+    - POTION: ¥150
