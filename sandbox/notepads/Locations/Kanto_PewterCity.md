@@ -38,3 +38,18 @@
 - Garden Resident: Wandering inside the fenced flower garden (rows 24..26).
 - Mart Exterior Youngster: Standing at (27, 17) just east of the Mart.
 - Western Pewter NPC: Stationed at (8, 15) in the western residential area.
+
+
+## Pewter Gym Interior Layout & Landmarks
+- Entrance Mat: Located at (4..5, 13) at the south edge; stepping Down onto row 14 triggers exit warp to Pewter City (16, 18).
+- Central Highway: Columns 4 and 5 form a clear 2-tile wide grey floor corridor running north from row 12 to row 2.
+- Entrance Statues: Left statue at (3, 10), right statue at (6, 10). Tops occupy row 9.
+- Gym Guide: Stationed at (7, 10) east of the right statue. Talks from (7, 11).
+- Boulder Barriers:
+  - Row 9: Flanks central path at columns 0..2 (west) and 7..9 (east).
+  - Row 7: Boulders at columns 5..7 and 9. Passage is through columns 3..4 and 8.
+  - Row 5: Boulder at (5, 5).
+  - Row 3: Boulders at columns 1..3 and 6..8 flanking the northern platform passage at columns 4..5.
+  - Row 0: Solid northern boundary boulder wall across columns 0..9.
+- Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6). Defeated on Turn 576.
+- Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2). Defeated on Turn 594.
