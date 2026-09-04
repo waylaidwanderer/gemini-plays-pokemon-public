@@ -35,11 +35,11 @@
 ## Items
 - TOWN MAP
 - POK� BALL x2
-- POTION x3
 - ESCAPE ROPE x1
+- TM34 (BIDE) x1
+- POTION x1
+- TM12 (WATER GUN) x1
 - ANTIDOTE x0 (Depleted)
-- TM12 (WATER GUN)
-- TM34 (BIDE)
 
 ## Key Items
 - POK�DEX
