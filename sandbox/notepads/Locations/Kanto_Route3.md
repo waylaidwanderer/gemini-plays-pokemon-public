@@ -43,3 +43,4 @@
 - Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
 - Row 7 Ledge at (57, 7): South-facing ledge. Cannot be climbed North; main route continues East toward Mt. Moon.
 - Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area.
+- Northeast Tan Road (Cols 61..65+, Row 6): Tan dirt road running east above row 7 rocks toward Mt. Moon.
