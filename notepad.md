@@ -2734,23 +2734,16 @@
 - Elevation Split:
   - Upper Plateau (Dark Checkerboard): Rows 0-7 and Row 11.
   - Lower Floor (Light Purple Floor): Rows 8-14 across columns 5-26.
-  - South-Facing Cliff Boundary: Impassable horizontal ledge line between row 7 and row 8 across columns 9-13.
+  - South-Facing Cliff Boundary: Impassable horizontal ledge line between row 7 and row 8 across columns 9-13, and between row 11 and row 12.
   - Ledge at (23, 14): West-facing one-way descent jumping FROM (24, 14) DOWN TO (22, 14).
-- Shutter 1 @ (5, 10): Opened by Switch 1 @ (1, 16), connects row 13 west sector to row 8 light purple floor.
-- Shutter 3 @ (21, 15): Opened by Switch 1 @ (1, 16), connects row 14 light purple floor to row 16 lower highway.
-- Row 16 Lower Highway: Connects Shutter 3 at (21, 15) east to (29, 16).
-- Eastern Outer Corridor: Columns 28-29 span rows 11 to 16.
-- Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7).
-
-## Verified 2F Elevation, Outer Corridor & Ladders (Verified Turn 26705)
-- Eastern Outer Corridor: Columns 28-29 (rows 11-16) form a continuous 2-tile wide vertical highway connecting Row 16 Lower Highway at (28..29, 16) north to Row 11 Highway at (28..29, 11).
-- Row 11 Upper Highway: Row 11 (y=11) connects Eastern Corridor (28, 11) west to Ladder A at (23, 7) and Ladder NE at (27, 7).
-- Impassable South Cliff: The boundary between Row 11 and Row 12 is a solid cliff wall (cannot jump south into SE lower room).
-- SE Lower Room Access: The lower SE room (and exit ladder area) on 2F is accessed by pushing the 3F Boulder into the Pit at (23, 15) on 3F and jumping down the Pit!
-- Route to Ladder A: From (28, 11), walk West along Row 11 to (23, 11), then North along Column 23 to (23, 7) to ascend to 3F.
-## Verified Elevation & Corridor Mechanics (Updated Turn 27002)
-- Column 12 Vertical Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26, rows 10-14) from the western sector (cols 1-5).
-- Verified Lower Floor Bypass: To traverse west from (21, 14) to the western sector (cols 1-5), walk west to (13, 14), north along column 13 to row 8 (13, 8), west along open row 8 to (5, 8), south through open Shutter 1 (5, 10) to (5, 14), and west to column 1.
+- Shutters & Corridors:
+  - Shutter 1 @ (5, 10): Opened by Switch 1 @ (1, 16), connects row 13 west sector to row 8 light purple floor.
+  - Shutter 3 @ (21, 15): Opened by Switch 1 @ (1, 16), connects row 14 light purple floor to row 16 lower highway.
+  - Row 16 Lower Highway: Connects Shutter 3 at (21, 15) east to (29, 16).
+  - Eastern Outer Corridor: Columns 28-29 (rows 11-16) form a continuous 2-tile wide vertical highway connecting Row 16 Lower Highway at (28..29, 16) north to Row 11 Highway at (28..29, 11).
+  - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7) and Ladder NE at (27, 7).
+  - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
+  - SE Lower Room Access: The lower SE room (and exit ladder area) on 2F is accessed by pushing the 3F Boulder into the Pit at (23, 15) on 3F and jumping down after it.
 
 <hr>
 
