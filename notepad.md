@@ -364,7 +364,7 @@
 - Far Eastern Highway (Cols 38..47, Rows 4..6): Wide continuous open green highway running east past column 47 toward the Mt. Moon entrance courtyard.
 - Far Eastern Mountain Spur (Col 50): Solid mountain cliff blocks eastward passage on rows 3..7.
 - Far Eastern Ramp (49, 7): Empirically verified 2-way passable ramp (ascended North from (49, 10) through (49, 7) to (49, 6)). Connects lower bypass road to the upper highway.
-- Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54 directly toward the Mt. Moon entrance and Pokémon Center.
+- Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54.
 - Eastern Structure (58..59, 8..9): Impassable structure at western edge of eastern grass field. Tile (58, 9) is solid (collision confirmed from (58, 10) and (57, 9)). Sign located at (59, 9).
 - Signpost (59, 9): Reads "ROUTE 3 - MT. MOON AHEAD".
 - Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
@@ -430,5 +430,6 @@
 - Western Cavern Corridor (Cols 0..13, Rows 22..29): Wide open cavern passage leading west toward items and northwest ladder.
 - Ground Item (5, 32): TM12 (WATER GUN) collected on Turn 1045.
 
+- Ground Item (2, 20): Item ball in west alcove (accessible from (2, 21) facing North).
 
 <hr>
