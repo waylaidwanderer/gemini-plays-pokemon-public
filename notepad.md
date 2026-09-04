@@ -81,7 +81,6 @@
 - Item Priority: Bag item usage (e.g. Potion) executes at turn start before Pokémon moves.
 
 ## Strategy
-- Route 1: Defeat wild Pidgey/Rattata with Tackle for EXP toward Lv 8 (Bubble).
 - Conserve Potions unless HP <= 5.
 ## Stat Modifiers & Stage Divisors
 - Tail Whip: Decreases target Defense by 1 stage per use (-1 stage = 2/3 Defense, -2 stages = 1/2 Defense).
