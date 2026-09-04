@@ -2775,4 +2775,11 @@
 - Central Bridge (Column 6): Spans rows 0 through 6. Terminates at (6, 6) due to an impassable cliff barrier at (6, 7).
 - Wall (8, 2..9): Solid rock wall separating Central Bridge (cols 6-7) from vertical chute (cols 9-10).
 
+## 3F Master Boulder Push Sequence (In Progress)
+- Initial State: Boulder 1 at (22, 3).
+- Step 1: Pushed west to (21, 3).
+- Step 2: Repositioned to (21, 4), pushed North twice: (21, 3) -> (21, 2) -> (21, 1) -> (21, 0).
+- Step 3: Repositioned to (22, 0), pushed West along Row 0: (21, 0) -> (20, 0) -> (19, 0) -> (18, 0).
+- Step 4: Continuing West along Row 0 northern highway towards western chute and pit.
+
 <hr>
