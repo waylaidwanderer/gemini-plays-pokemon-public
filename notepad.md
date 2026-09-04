@@ -29,7 +29,6 @@
 
 ## Items
 - POTION x1
-- POKé BALL x1
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
@@ -40,7 +39,7 @@
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 7, Water]
-  - HP: 20 / 23
+  - HP: 17 / 23
   - Stats: Attack 13, Defense 15, Speed 13, Special 13
   - Moves: Tackle (PP 34/35), Tail Whip (PP 30/30)
 
