@@ -141,6 +141,7 @@
   - Enemy Diglett Lv 11 Scratch vs Defense 20: 5 damage on normal hit (Turn 551), 8 damage on critical hit (Turn 556).
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit (Turn 566).
 
+- Leader Geodude Lv 12: 220 EXP
 
 <hr>
 
