@@ -194,5 +194,6 @@
 - NPC / Trainer (27, 40): Located in the eastern corridor south of row 39 trees, facing south.
 - Eastern Avenue Corridor (Cols 26..27, Rows 34..43): Verified 2-tile wide clear-ground highway running continuously north along the eastern edge, completely bypassing all tall grass.
 - Bug Catcher (30, 33): Trainer stationed at (30, 33) facing west, guarding row 33 passage across the eastern avenue.
+- Eastern Perimeter Corridor (Cols 31..32, Rows 25..33+): Continuous 2-tile wide clear-ground highway running north along the eastern boundary fence (Col 33), completely free of tall grass.
 
 <hr>
