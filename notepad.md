@@ -68,9 +68,6 @@
 - Northern Exit to Viridian City:
   - Row 1: Wall structure blocks columns 12..18.
   - Columns 10..11: Open 2-tile road corridor leading directly north into Viridian City.
-- Open Gaps:
-  - Row 19: Open path gap at (9, 19) through the row 19 ledge.
-  - Row 27: Open path gap at (8, 27) next to signpost at (9, 27).
 
 <hr>
 
