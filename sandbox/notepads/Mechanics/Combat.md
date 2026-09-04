@@ -42,17 +42,18 @@
   - Level 7: 318 EXP
   - Level 8: 482 EXP (Learns Bubble, fills Slot 3)
   - Level 9: 703 EXP
-  - Level 10: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
-  - Level 11: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19 (reached on Turn 561)
-  - Level 12: Baseline stats intermediate between Lv 11 and Lv 13 (reached during Liam battle, Turn 576)
-  - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21 (reached on Turn 594)
-  - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23 (reached on Turn 656)
+  - Level 10: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17
+  - Level 11: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19
+  - Level 12: Stats unverified (milestone achieved during Liam battle)
+  - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21
+  - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
 - Wild Pidgey Lv 3: 23 EXP | Lv 4: ~23-28 EXP
 - Trainer Weedle Lv 6: 66 EXP
 - Trainer Caterpie Lv 6: ~66 EXP
+- Trainer Pidgey Lv 9: 105 EXP
 - Trainer Weedle Lv 9: 99 EXP
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
