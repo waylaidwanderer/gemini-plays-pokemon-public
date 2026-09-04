@@ -369,5 +369,7 @@
 - Row 7 Ledge at (57, 7): South-facing ledge. Cannot be climbed North; main route continues East toward Mt. Moon.
 - Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area.
 - Northeast Tan Road (Cols 61..65+, Row 6): Tan dirt road running east above row 7 rocks toward Mt. Moon.
+- Eastern Rock Barrier (Col 66, Rows 7..12): Vertical rock cliff dividing the eastern tall grass field from the eastern tan road (Col 67).
+- Eastern Highway to Mt. Moon (Col 67, Rows 4..12+): Open tan dirt road running north-south along the eastern edge, connecting around the southern tip of the rock barrier north to Mt. Moon and the Pokémon Center.
 
 <hr>
