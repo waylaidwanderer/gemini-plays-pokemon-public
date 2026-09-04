@@ -2641,15 +2641,10 @@
   - [ ] Item Ball at (11, 0)
   - [ ] Item Ball at (14, 2)
   - Note: Row 3 is an impassable south-facing cliff wall separating rows 4-6 from upper brown plateau (rows 0-2).
-## Verified Master Floor Traversal to 2F Ladder (Verified Turn 26667)
-1. Solve Boulder 1 Master Push Sequence to activate Switch (17, 13) and lower Shutters (5, 13) and (7, 7).
-2. From lower floor (5, 14), walk North through lowered Shutter (5, 13) to elevated platform at (5, 12).
-3. Walk East along open row 12 cross-highway to East Arm at (11, 12).
-4. Walk North along column 11 to Northern Arena at (11, 6).
-5. Walk West across row 6 to (7, 6).
-6. Walk South through lowered Shutter (7, 7) to lower cave floor at (7, 8).
-7. Walk West along row 8 to (3, 8), North to (3, 7), West to (2, 7), North to (2, 5), West to (1, 5), and North along column 1 to (1, 1). (Note: (2, 8) is a rock obstacle).
-8. Step into Ladder at (1, 1) to ascend to Victory Road 2F!
+## Floor Traversal & Ladder Access
+- From lower floor (5, 14), pass North through lowered Shutter (5, 13) onto elevated cross-highway (row 12).
+- Proceed East along row 12 to (11, 12), North to (11, 6), West across row 6 to (7, 6), and South through lowered Shutter (7, 7) to lower cave floor (7, 8).
+- Proceed West and North through corridor (avoiding rock at (2, 8)) to reach 2F Ladder at (1, 1).
 
 ## Verified Master Boulder Solution (Verified Turn 24445)
 - Initial State: Boulder 1 at (5, 15).
