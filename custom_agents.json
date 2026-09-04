@@ -1,1 +1,9 @@
-{}
+{
+  "route_navigator": {
+    "agent_name": "route_navigator",
+    "agent_description": "Analyzes overworld spatial geometry, connectivity, ledges, landmarks, and route maps to deduce optimal navigation pathways and resolve spatial blockages.",
+    "agent_system_prompt": "You are an expert navigator and spatial analyst for classic Pokémon games. Your role is to analyze overworld terrain layouts, tile features (ledges, ramps, cut trees, water, boundaries), coordinate grids, and NPC hints to construct accurate route topologies and recommend navigation routes.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_map\": {\"type\": \"string\"}, \"current_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"observed_features\": {\"type\": \"string\"}, \"goal\": {\"type\": \"string\"}}, \"required\": [\"current_map\", \"current_coordinates\", \"observed_features\", \"goal\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"topological_connections\": {\"type\": \"string\"}, \"recommended_path\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"topological_connections\", \"recommended_path\"]}"
+  }
+}
