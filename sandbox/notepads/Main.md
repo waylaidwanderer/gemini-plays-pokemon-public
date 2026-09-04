@@ -12,4 +12,5 @@
 - [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 - [x] Reach Viridian City via Route 1 [Turn 132]
-- [ ] Visit Viridian City Poké Mart
+- [x] Visit Viridian City Poké Mart [Turn 169]
+- [ ] Deliver parcel to Prof. Oak in Pallet Town
