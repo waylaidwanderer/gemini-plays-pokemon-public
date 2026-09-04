@@ -26,7 +26,7 @@
     - BURN HEAL: ¥250
     - AWAKENING: ¥200
     - PARLYZ HEAL: ¥200
-- Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16). Interior entered at Turn 540.
+- Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
 
 ## Signposts & Points of Interest
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
