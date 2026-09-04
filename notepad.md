@@ -466,7 +466,8 @@
 
 ## Connections
 - Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27).
-- Ladder Arrival (25, 9): Arrival point from 1F Ladder (17, 11).
+- Ladder (25, 9): Ascending ladder leading back to Mt. Moon 1F at (17, 11).
+- Ladder (17, 11): Descending ladder leading to lower basement (B2F).
 
 ## Layout & Geography
 - Arrival Warp: Warped from 1F (13, 27) onto basement (13, 27) and automatically scripted 2 steps east to (15, 27).
