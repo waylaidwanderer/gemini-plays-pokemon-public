@@ -326,8 +326,13 @@
 - Lass (16, 9): Stationed at (16, 9) facing West across row 9 middle corridor. Line of sight triggers at (14, 9).
 - Shrub Barrier (Col 17): Vertical column of small trees at column 17 (rows 7..11) separating middle grass field from eastern Route 3.
 - Upper East Trainer: Stationed at (18, 5..6) in blue outfit.
-## Corridor Connectivity & Navigation
-- Middle Tier Dead-End: Middle tier (rows 8..10) terminates at column 17 tree barrier (rows 6..11).
-- Lower Tier East Passage: Row 11 ledge can be jumped south from row 10 onto row 12. Rows 12..13 form an open tall grass corridor extending east under the column 17 trees toward eastern Route 3.
+## Corridor Connectivity & Ramps
+- Ledge Ramps (Passable 2-way):
+  - Row 11 Ramp at (15, 11): Verified 2-way passable tan dirt ramp connecting lower tier (rows 12..13) and middle tier (rows 8..10). Can be walked North and South.
+  - Row 7 Ramp at (11, 7): Matching tan dirt ramp connecting middle tier (rows 8..10) to upper tier (rows 4..6).
+- Tier Structure:
+  - Upper Tier (Rows 4..6): Main eastward thoroughfare bypassing column 17 and column 23 tree barriers to reach eastern Route 3 / Mt. Moon.
+  - Middle Tier (Rows 8..10): Guarded by Lass (16, 9) and Youngster (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
+  - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
 
 <hr>
