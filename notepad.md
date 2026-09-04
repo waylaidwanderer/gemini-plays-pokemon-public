@@ -468,5 +468,8 @@
   - Team: 3 Pokémon (Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11).
   - Status: Defeated.
 
+- Western Ledge (Cols 12..13, Rows 21..28): 2-tile wide elevated ridge with east-facing jump ledge at column 13. Empirically verified impassable from east on Turn 1169 (bumped at (13, 25) from (14, 25)).
+- Room Connectivity: Lower terrace (cols 14..29, rows 22..27) is fully enclosed. Ladder at (15, 27) provides the return exit back to Mt. Moon 1F.
+
 
 <hr>
