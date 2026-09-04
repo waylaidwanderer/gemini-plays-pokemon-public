@@ -22,20 +22,16 @@
 ## Critical Mechanics & Reset Behavior
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F, 2F, and 1F! The entire floor puzzle must be executed in a single continuous visit.
 - Dig Exit (Turn 27441): Player used Dig to heal at Viridian Pokecenter. All boulder puzzles in Victory Road are currently reset to default starting positions.
-- Switch Plate: (3, 5) in NW Room [VERIFIED ACTIVATED: Boulder 1 resting on Switch (3, 5)].
-- Shutter Barrier: Located at (17, 5) [VERIFIED PERMANENTLY OPEN].
+- Switch Plate: (3, 5) in NW Room (accessible from 2F NW ladder at (1, 1) -> 3F (2, 0)).
+- Shutter Barrier: Located at (21, 15) in SE lower purple room.
 - Pit / Hole: Located at (23, 15) in southern sector.
-- Boulder 3: Pre-positioned at (22, 15) directly adjacent to the Pit at (23, 15).
+- Boulder at (22, 15): Pushed into the Pit at (23, 15) to fall down to 2F and hold the 2F switch open!
 - Master Progression Route:
-  1. Push Boulder 1 from (20, 1) west along Row 1 to (6, 1).
-  2. Stand at (6, 0) and push Boulder 1 Down to (6, 2).
-  3. Stand at (7, 2) and push Boulder 1 Left along Row 2 to (2, 2).
-  4. Stand at (2, 1) and push Boulder 1 Down along Col 2 to (2, 5).
-  5. Stand at (1, 5) and push Boulder 1 Right onto Switch Plate (3, 5).
-  6. Walk via Row 2 and Row 1 to (17, 1) and South through permanently open Shutter (17, 5) into Southern Sector.
-  7. Push Boulder 3 from (22, 15) into Pit at (23, 15).
-  8. Jump into Pit at (23, 15) to land on 2F exit ledge!
-  9. Climb 2F exit ladder to Indigo Plateau.
+  1. Ascend to 3F via Ladder B at (25, 14) on 2F (arriving directly in 3F SE Lower Purple Room).
+  2. Navigate through the southern sector to (21, 15).
+  3. Push Boulder from (22, 15) East into Pit at (23, 15).
+  4. Jump into Pit at (23, 15) to land on 2F exit ledge!
+  5. Climb 2F exit ladder to Route 23 North / Indigo Plateau.
 
 ## Verified 3F Coordinates & Topology
 - Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
