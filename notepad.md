@@ -2782,10 +2782,10 @@
   - Cooltrainer ♂ at (19, 8) [Defeated].
   - Cooltrainer at (21, 13) in SE lower purple room.
   - Cooltrainers at (28, 5), (26, 3), (13, 3) [Defeated].
-## Verified 3F Central Bridge & Northern Corridor (Verified Turn 27954)
+## Verified 3F Central Bridge & Northern Corridor (Verified Turn 27956)
 - Northern Highway (Rows 0-1): Continuous open floor spanning across columns 6 through 25, connecting the eastern plateau, northern chamber, and western sectors.
 - Column 19 Rock Column: Separates northern room (cols 14-18, rows 2-4) from eastern chamber (cols 20-25, rows 2-5). Bypassed seamlessly via open Row 1 (18..20, 1).
-- Central Bridge (Column 6): Column 6 (x=6, y=0..10) is an open, unobstructed vertical corridor running from row 0 all the way down to row 10, connecting directly to the lower floor at (6, 10)!
+- Central Bridge (Column 6): Spans rows 0 through 6. Terminates at (6, 6) due to an impassable cliff barrier at (6, 7).
 - Wall (8, 2..9): Solid rock wall separating Central Bridge (cols 6-7) from vertical chute (cols 9-10).
 
 <hr>
