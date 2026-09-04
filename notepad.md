@@ -2608,12 +2608,7 @@
 ## Verified Continuous Highway & Earth Gate Route (Verified Turn 26434)
 - Column 7 Highway: Column 7 (x=7, y=35..48) is an open, unobstructed vertical corridor running straight north from row 48 to the Earth Badge sector at (7, 35).
 - Earth Badge Checkpoint: Guard stands at (4, 35). The red gate at (4, 31) is the opening through the row 31 ledge.
-- Route to Cave Entrance:
-  1. From (7, 35), walk Left 3 steps to (4, 35).
-  2. Walk North through Earth Gate at (4, 31) to (4, 30).
-  3. Walk Right 4 steps to (8, 30).
-  4. Walk North 13 steps along the central highway to Victory Road entrance at (8, 17).
-  5. Step North into (8, 16) to enter Victory Road 1F.
+- Route to Cave Entrance: From (7, 35), proceed west to Earth Gate at (4, 31), pass north through gate to (4, 30), walk east to central highway at (8, 30), and proceed north directly to Victory Road entrance at (8, 17).
 
 <hr>
 
