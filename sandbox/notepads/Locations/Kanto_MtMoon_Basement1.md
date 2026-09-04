@@ -11,4 +11,4 @@
 
 ## NPCs & Trainers
 - Team Rocket Grunt: Stationed at (15, 24) facing South. Line of sight triggers when walking north on column 15 at (15, 25).
-  - Team: 3 Pokémon (Sandshrew Lv 11, Rattata Lv 11, [3rd Pokémon pending]).
+  - Team: 3 PokÃ©mon (Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11).
