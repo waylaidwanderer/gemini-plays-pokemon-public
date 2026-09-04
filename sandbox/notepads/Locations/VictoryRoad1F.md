@@ -21,9 +21,9 @@
   - East Arm: cols 11..12 across rows 5..12.
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
 - Northern Sector Items (Elevated Plateau):
-  - Item Ball at (9, 2)
-  - Item Ball at (11, 0)
-  - Item Ball at (14, 2)
+  - [ ] Item Ball at (9, 2)
+  - [ ] Item Ball at (11, 0)
+  - [ ] Item Ball at (14, 2)
   - Note: Row 3 is an impassable south-facing cliff wall separating rows 4-6 from upper brown plateau (rows 0-2).
 ## Verified Master Floor Traversal to 2F Ladder (Verified Turn 26667)
 1. Solve Boulder 1 Master Push Sequence to activate Switch (17, 13) and lower Shutters (5, 13) and (7, 7).
