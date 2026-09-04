@@ -433,6 +433,7 @@
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (13, 27): Ladder descending to basement chamber (empirically verified warp).
 - Ladder (17, 11): Ladder in north-central corridor.
+- Ladder (25, 15): Ladder in east-central corridor (visible on Turn 1251).
 
 ## Layout & Corridors
 - Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
