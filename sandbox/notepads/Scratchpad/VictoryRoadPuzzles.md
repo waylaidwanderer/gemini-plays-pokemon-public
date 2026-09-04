@@ -23,14 +23,13 @@
 ## Floor 3F Puzzle & Route to Indigo Plateau (VERIFIED PUZZLE MECHANIC)
 - Switch Mechanism: Pressure switches in Gen 1 require a BOULDER resting on top to permanently hold shutter gates open (stepping off closes them).
 - Switch (3, 5): Located in NW Room at (3, 5). Controls Shutter Barrier at (17, 5).
-- Boulder 1 Master Push Path to Switch (3, 5):
-  1. Boulder 1 at (7, 6) pushed North along col 7 to (7, 1).
-  2. Stand at (8, 1) -> push Left to (6, 1).
-  3. Stand at (6, 0) -> push Down to (6, 2).
-  4. Stand at (7, 2) -> push Left along Row 2 to (2, 2).
-  5. Stand at (2, 1) -> push Down along col 2 to (2, 5).
-  6. Stand at (1, 5) -> push Right onto Switch Plate (3, 5).
-  7. Outcome: Switch (3, 5) permanently held down; Shutter (17, 5) permanently opened!
+- Boulder 1 Master Push Path to Switch (3, 5) (SOLVED & VERIFIED):
+  1. Boulder 1 pushed along Row 1 highway to (6, 1).
+  2. Stand at (6, 0) -> push Down to (6, 2).
+  3. Stand at (7, 2) -> push Left along Row 2 to (2, 2).
+  4. Stand at (2, 1) -> push Down along col 2 to (2, 5).
+  5. Stand at (1, 5) -> push Right onto Switch Plate (3, 5).
+  6. Outcome: Switch (3, 5) permanently held down; Shutter (17, 5) permanently opened!
 - Final Progression to Indigo Plateau:
   1. Walk via Row 2 and Row 1 to (17, 1).
   2. Walk South through permanently open Shutter (17, 5) into Southern Sector.
