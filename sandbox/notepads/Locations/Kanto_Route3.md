@@ -30,4 +30,4 @@
   - Upper Tier (Rows 4..6): Main eastward thoroughfare.
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9); NPC stationed at (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
-- Eastern Ledge & Mountain (Cols 27..29): Visual examination indicates mountain wall at cols 28..29. Tile (27, 7) has tan dirt ramp texture matching (11, 7), hypothesized to connect upper terrace to lower tier (pending empirical traversal verification).
+- Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
