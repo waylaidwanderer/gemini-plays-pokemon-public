@@ -3,7 +3,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x5
-- POTION x1
+- POTION x0
 - ESCAPE ROPE x1
 - ANTIDOTE x2
 - TM34 (BIDE)
