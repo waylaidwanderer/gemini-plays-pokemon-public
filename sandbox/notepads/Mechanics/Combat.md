@@ -32,6 +32,8 @@
   - Bubble vs Lv 11 Sandshrew (Ground, Special ~15): Deals 16-18 damage (~50% max HP).
   - Enemy Diglett Lv 11 Scratch vs Defense 20: 5 damage on normal hit, 8 damage on critical hit.
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit.
+  - Enemy Sandshrew Lv 11 Scratch vs Sheldon (Defense 37): 3 HP damage.
+  - Bubble (Sheldon Lv 17, Special 32) vs Trainer Sandshrew Lv 11: deals 22 damage on turn 1, KO on turn 2.
 - Enemy Offensive Damage Bounds against Sheldon (Defense 25-27):
   - Trainer Pidgey Lv 9 Gust: 5 HP damage on normal hit, 9-10 HP damage on critical hit.
   - Sand-Attack: lowers accuracy by 1 stage per hit (caps at stage -6).
@@ -55,6 +57,7 @@
   - Level 16 (Squirtle): Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
   - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46)
   - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
+  - Level 18: Max HP 51, Attack 32, Defense 39, Speed 33, Special 33
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
