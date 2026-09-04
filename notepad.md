@@ -2690,22 +2690,16 @@
   9. Walk North along Column 23: (23, 11) -> (23, 7).
   10. Step onto Ladder A at (23, 7) to ascend to 3F!
 
-## Floor 3F Puzzle & Master Solution (VERIFIED)
+## Floor 3F Puzzle & Topology (EMPIRICALLY TESTED)
 - Verified Topology & Elevation:
   - Upper Dark Plateau (rows 0-11, cols 12-28): Contains Ladder A (23, 7) [arrival from 2F], Ladder NE (26, 8) [descends to 2F], Boulder 1 @ (22, 3), Boulder 2 @ (24, 10).
   - Northern Highway (Rows 0-1): Continuous open floor across columns 6 through 25.
-  - CRITICAL PUSH RULE: Row 0 is the northern boundary wall. Boulders on Row 0 CANNOT be pushed South. Puzzle boulders moving west to turn south MUST be pushed along Row 1 (so player stands at Row 0 to push Down).
+  - Central Bridge (Column 6): Spans rows 0-6. EMPIRICALLY VERIFIED (Turn 28522): Terminates at (6, 6) against solid rock wall at (6, 7). This is NOT a pit.
+  - Southern Lower Corridor (Row 16): Spans columns 18-29, connecting eastern corridor (28, 16) to western sectors.
+  - SE Lower Purple Room (rows 12-14, cols 24-26): Contains Ladder B @ (25, 14) and Pit @ (23, 14..15).
   - Row 1-2 Cliff: Impassable cliff wall separates Row 1 from Row 2 across cols 9-14.
-  - Central Bridge (Column 6): Spans rows 0-6.
-- Master Boulder 1 Push Sequence:
-  1. Position at (23, 3) -> Push Left 1 time: Boulder moves to (21, 3), Player at (22, 3).
-  2. Reposition: Down to (22, 4) -> Left to (21, 4).
-  3. Push North 2 times: Boulder moves (21, 3) -> (21, 2) -> (21, 1) [STOP AT ROW 1!]. Player at (21, 2).
-  4. Reposition: Right to (22, 2) -> Up to (22, 1).
-  5. Push West along Row 1: Boulder moves from (21, 1) all the way west to (6, 1).
-  6. Turn South at Central Bridge: Step Up to (7, 0) -> Left to (6, 0).
-  7. Stand at (6, 0) facing Down -> Push Down along Column 6 towards the pit!
-- Progression Objective: Push Boulder into Pit to trigger 2F exit shutter, then jump down pit to 2F!
+- Active Investigation:
+  - Exploring southern corridors (rows 14-16) to map the exact route to push the puzzle boulder into the Pit at (23, 14) and unlock 2F exit.
 
 <hr>
 
