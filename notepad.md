@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 16
+- Active Team: Wartortle (SHELDON) Lv 17
 - Money: ¥1771
 - Pokédex: 1 Caught / 11 Seen
 
@@ -45,10 +45,10 @@
 - ¥1771
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 16, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 17, Water]
   - Status: Healthy
-  - HP: 27 / 46
-  - Stats: Attack 24, Defense 30, Speed 24, Special 25
+  - HP: 30 / 49
+  - Stats: Attack 31, Defense 37, Speed 31, Special 32
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 6/25)
 
 <hr>
@@ -138,6 +138,7 @@
   - Level 15: Max HP 39, Attack 23, Defense 29, Speed 23, Special 24 (Learns Water Gun, fills Slot 4)
   - Level 16 (Squirtle): Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
   - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46, verified Turn 847)
+  - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
@@ -150,6 +151,7 @@
 - Trainer Caterpie Lv 9: 102 EXP
 - Trainer Metapod Lv 9: 138 EXP
 - Trainer Caterpie Lv 10: 112 EXP
+- Trainer Caterpie Lv 11: 124 EXP
 - Trainer Rattata Lv 10: 121 EXP
 - Trainer Nidoran♂ Lv 10: 127 EXP
 - Trainer Rattata Lv 11: 133 EXP
