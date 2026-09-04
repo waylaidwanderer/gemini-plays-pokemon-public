@@ -2,7 +2,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 17
+- Active Team: Wartortle (SHELDON) Lv 17, Spearow Lv 5
 - Money: ¥2091
 - Pokédex: 1 Caught / 11 Seen
 
