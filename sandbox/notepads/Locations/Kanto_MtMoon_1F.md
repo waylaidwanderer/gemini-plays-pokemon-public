@@ -27,3 +27,4 @@
 - East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
 - Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
 - Vertical Wall Partition (Cols 12..13, Rows 3..11+): 2-tile wide vertical rock wall separating north-central corridor (cols 14-17) from northwest corridor (cols 10-11).
+- Ladder (21, 17): Ladder visible at (21, 17) west of Eastern Avenue.
