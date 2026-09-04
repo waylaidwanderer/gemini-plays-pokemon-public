@@ -3,7 +3,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 18, Spearow (FALCO) Lv 5
-- Money: ¥2091
+- Money: ¥2421
 - Pokédex: 2 Caught / 11 Seen
 
 ## Milestones

@@ -1,7 +1,7 @@
 # Mt. Moon Basement (Entrance Ladder 13, 27 Chamber)
 
 ## Connections
-- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27). Empirically verified warp origin and return unmasked on step off.
+- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27). Candidate ascending ladder back to Mt. Moon 1F.
 
 ## Layout & Geography
 - Arrival Warp: Warped from 1F (13, 27) onto basement (13, 27) and automatically scripted 2 steps east to (15, 27).
@@ -11,7 +11,7 @@
 - Ground Item (25, 21): Item ball visible on elevated northern platform above row 23 ledge.
 - Row 23 Ledge (Cols 24..25, Row 23): South-facing one-way ledge separating northern platform (rows 21..22) from southern floor (rows 24..27).
 - Eastern Cavern (Cols 20..28+, Rows 24..27): Wide speckled cave floor extending east past column 28.
-- Eastern Ridge (Cols 30..31, Rows 21..28): 2-tile wide impassable elevated cliff ridge separating central terrace from eastern corridor. Empirically verified impassable (bumped at (30, 25) from (29, 25)).
+- Eastern Ridge (Cols 30..31, Rows 21..28): 2-tile wide impassable elevated cliff ridge separating central terrace from eastern corridor. Empirically verified impassable.
 - Eastern Corridor (Cols 32..34, Rows 22..29+): Open cave floor running north-south east of the ridge.
 
 ## NPCs & Trainers
@@ -19,5 +19,5 @@
   - Team: 3 Pokémon (Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11).
   - Status: Defeated.
 
-- Western Ledge (Cols 12..13, Rows 21..28): 2-tile wide elevated ridge with east-facing jump ledge at column 13. Empirically verified impassable from east on Turn 1169 (bumped at (13, 25) from (14, 25)).
-- Room Connectivity: Lower terrace (cols 14..29, rows 22..27) is fully enclosed. Ladder at (15, 27) provides the return exit back to Mt. Moon 1F.
+- Western Ledge (Cols 12..13, Rows 21..28): 2-tile wide elevated ridge with east-facing jump ledge at column 13. Empirically verified impassable from east (bumped at (13, 25) from (14, 25)).
+- Room Connectivity: Ladder at (15, 27) is a visible candidate exit to Mt. Moon 1F.
