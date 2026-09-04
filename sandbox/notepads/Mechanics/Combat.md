@@ -66,6 +66,7 @@
 - Trainer Caterpie Lv 9: 102 EXP
 - Trainer Metapod Lv 9: 138 EXP
 - Trainer Caterpie Lv 10: 112 EXP
+- Trainer Rattata Lv 10: 121 EXP
 - Trainer Rattata Lv 11: 133 EXP
 - Trainer Weedle Lv 10: 111 EXP
 - Trainer Diglett Lv 11: 190 EXP
