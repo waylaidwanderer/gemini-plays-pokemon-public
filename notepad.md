@@ -49,7 +49,7 @@
   - Status: Healthy
   - HP: 29 / 41
   - Stats: Attack 24, Defense 30, Speed 24, Special 25
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 14/25)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 13/25)
 
 <hr>
 
@@ -146,6 +146,7 @@
 - Trainer Pidgey Lv 9: 105 EXP
 - Trainer Weedle Lv 9: 99 EXP
 - Trainer Kakuna Lv 9: 136 EXP
+- Trainer Caterpie Lv 9: 102 EXP
 - Trainer Caterpie Lv 10: 112 EXP
 - Trainer Rattata Lv 11: 133 EXP
 - Trainer Weedle Lv 10: 111 EXP
