@@ -440,7 +440,7 @@
 - Signpost (15, 23): Reads "Beware! ZUBAT is a blood sucker!".
 - Bug Catcher (16, 23): Stationed at (16, 23) facing South down column 16.
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction (empirically verified collision at (17, 21)).
-- Western Cavern Corridor (Cols 0..13, Rows 22..29): Wide open cavern passage leading west toward items and northwest ladder.
+- Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher Kent at (7, 23). Bounded on north by solid rock wall at rows 18-19.
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
 - Bug Catcher (7, 22): Defeated on Turn 1240 (Weedle Lv 11, Kakuna Lv 11; stepped to (7, 23)). Yielded ¥110.
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
