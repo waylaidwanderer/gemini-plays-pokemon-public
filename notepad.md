@@ -2758,7 +2758,7 @@
 ## Ladders
 - NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room (leads south onto Western Bridge cols 5-7)
 - Ladder A (from 2F (23, 7)): Located at (23, 7) on upper plateau [Verified bidirectional, turns 26725, 26744]
-- Ladder NE (from 2F (27, 7)): Located at (26, 8) in isolated NE pocket
+- Ladder NE (from 2F (27, 7)): Located at (27, 7) in isolated NE pocket [Empirically verified in visual grid Turn 27637]
 - Ladder B (from 2F SE (25, 14)): Located at (25, 14) in SE Lower Purple Room (rows 12-14)
 
 ## Physical Features & Topography
