@@ -438,6 +438,8 @@
 - Ground Item (2, 20): POTION collected.
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east above Bug Catcher Kent (16, 23) connecting the central junction to the eastern avenue.
 - Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
+- Central Rock Pillar (Cols 18..19, Rows 8..21): Massive rock pillar separating Eastern Avenue (cols 20..21) from Western Avenue (col 17). Bypassed to the south via East-West Cross Corridor (Row 22) or to the north via Row 7 corridor.
+- Ladder (17, 11): Located in Western Avenue along column 17, accessed from the south via row 22 cross-corridor.
 - Eastern Avenue (Cols 24..27, Rows 11..27): Wide 4-tile north-south thoroughfare connecting southern bypass (rows 26..27) directly north to row 11 corridor. Note: (25, 15) is regular floor (empirically verified on Turn 1184).
 - Northern Corridor (Row 11, Cols 17..30+): East-west corridor connecting Eastern Avenue, Ladder (21, 17) via column 21, and Ladder (17, 11).
 
