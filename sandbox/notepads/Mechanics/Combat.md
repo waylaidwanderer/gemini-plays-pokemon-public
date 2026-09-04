@@ -51,6 +51,7 @@
   - Level 12: Stats unverified
   - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
+  - Level 15: Max HP 39, Attack 23, Defense 29, Speed 23, Special 24 (Learns Water Gun, fills Slot 4)
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
