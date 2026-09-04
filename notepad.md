@@ -171,5 +171,6 @@
 - Rows 54..56: Central tree grove at columns 6..12; bypassed via western corridor at columns 3..5.
 - Rows 48..51: Tall grass patch spanning columns 4..9.
 - Row 47 Ledge & Passage: South-facing ledge spans columns 0..7; open passage at columns 8..9 leads north to the row 46 paved road.
+- Viridian Forest Gatehouse: Located at (3..5, 42..43) with entrance door at (3, 43). Row 46 paved road connects column 8 to the gatehouse courtyard at columns 3..9.
 
 <hr>
