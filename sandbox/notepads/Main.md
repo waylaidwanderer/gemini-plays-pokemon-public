@@ -3,7 +3,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 17
-- Money: ¥1771
+- Money: ¥1881
 - Pokédex: 1 Caught / 11 Seen
 
 ## Milestones
