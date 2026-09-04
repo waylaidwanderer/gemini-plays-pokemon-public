@@ -15,8 +15,8 @@
 - ¥1771
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 16, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 17, Water]
   - Status: Healthy
-  - HP: 27 / 46
-  - Stats: Attack 24, Defense 30, Speed 24, Special 25
+  - HP: 30 / 49
+  - Stats: Attack 31, Defense 37, Speed 31, Special 32
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 6/25)
