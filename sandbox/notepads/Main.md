@@ -2,9 +2,9 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 18, Spearow (FALCO) Lv 5
+- Active Team: Wartortle (SHELDON) Lv 18, Spearow (FALCO) Lv 5, Geodude Lv 8
 - Money: ¥2421
-- Pokédex: 2 Caught / 11 Seen
+- Pokédex: 3 Caught / 12 Seen
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
@@ -21,4 +21,5 @@
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 - [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
+- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
 - [ ] Explore Mt. Moon and retrieve Fossil
