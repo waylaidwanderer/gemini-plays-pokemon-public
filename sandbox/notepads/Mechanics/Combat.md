@@ -77,4 +77,5 @@
 - Trainer Sandshrew Lv 11: 219 EXP
 - Trainer Ekans Lv 11: 145 EXP
 - Leader Geodude Lv 12: 220 EXP
+- Trainer Jigglypuff Lv 14: 228 EXP
 - Leader Onix Lv 14: 324 EXP
