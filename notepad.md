@@ -339,6 +339,8 @@
 - Bug Catcher (19, 5): Stationed at (19, 5) facing South across column 19.
 - Lass (23, 4): Stationed at (23, 4) facing West across row 4. Vision range: 4 tiles (walks to (20, 4) when triggered from (19, 4)).
 - Eastern Shrub (23, 6): Tree blocking row 6 at column 23.
+- East Route 3 Trainer (24, 6): Stationed at (24, 6) facing West (line of sight to the west blocked by tree at (23, 6)).
+- Upper East Bypass: Row 6 corridor (18..22, 6) is open; connects to row 5 at (22..24, 5) heading directly east toward Mt. Moon.
 ## Corridor Connectivity & Ramps
 - Ledge Ramps (Passable 2-way):
   - Row 11 Ramp at (15, 11): Verified 2-way passable tan dirt ramp connecting lower tier (rows 12..13) and middle tier (rows 8..10). Can be walked North and South.
