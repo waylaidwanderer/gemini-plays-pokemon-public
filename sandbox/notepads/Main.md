@@ -17,4 +17,5 @@
 - [x] Obtain Pokédex from Prof. Oak [Turn 214]
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
 - [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
-- [ ] Traverse Route 2 & Viridian Forest to Pewter City [Started Turn 285]
+- [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
+- [ ] Reach Pewter City & Defeat Gym Leader Brock
