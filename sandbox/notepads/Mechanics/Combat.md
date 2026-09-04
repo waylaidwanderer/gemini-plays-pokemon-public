@@ -53,7 +53,7 @@
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
   - Level 15: Max HP 39, Attack 23, Defense 29, Speed 23, Special 24 (Learns Water Gun, fills Slot 4)
   - Level 16 (Squirtle): Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
-  - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46, verified Turn 847)
+  - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46)
   - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
 
 ## Defeat Yields
@@ -66,6 +66,7 @@
 - Trainer Kakuna Lv 9: 136 EXP
 - Trainer Caterpie Lv 9: 102 EXP
 - Trainer Metapod Lv 9: 138 EXP
+- Trainer Metapod Lv 11: 169 EXP
 - Trainer Caterpie Lv 10: 112 EXP
 - Trainer Caterpie Lv 11: 124 EXP
 - Trainer Rattata Lv 10: 121 EXP
