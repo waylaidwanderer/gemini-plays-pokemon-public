@@ -372,5 +372,6 @@
 - Out-of-Bounds Border: Repeating tan road metatiles visible south of row 13 and east of column 66 are the out-of-bounds border block.
 - Mt. Moon Access Ramp (59, 7): Empirically verified 2-way passable tan dirt ramp located directly behind the Mt. Moon signpost at (59, 9). Ascends from row 8 up onto the elevated northern terrace at (59, 6).
 - Northern Highway to Route 4 (Cols 56..57, Rows 0..6): 2-tile wide clear-ground corridor bounded by mountain cliff on the west (Col 55) and building structure on the east (Cols 58..63). Runs continuously North directly toward the Route 4 / Mt. Moon boundary.
+- Northern Exit to Route 4: Located at (57, 0). Stepping North triggers the map transition directly into Route 4 outside Mt. Moon.
 
 <hr>
