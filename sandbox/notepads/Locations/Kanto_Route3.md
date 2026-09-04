@@ -35,3 +35,5 @@
 - Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
 - Eastern Ledge & Ramp (37, 7): Empirically verified passable ramp. Stepping North from (37, 8) stepped through (37, 7) onto the upper terrace at (37, 6), connecting the lower road to the upper highway.
 - Far Eastern Highway (Cols 38..47, Rows 4..6): Wide continuous open green highway running east past column 47 toward the Mt. Moon entrance courtyard.
+- Far Eastern Mountain Spur (Col 50): Solid mountain cliff blocks eastward passage on rows 3..7.
+- Far Eastern Ramp (49, 7): Tan dirt ramp connecting row 6 down to rows 8..9, routing path south around the mountain spur toward Mt. Moon.

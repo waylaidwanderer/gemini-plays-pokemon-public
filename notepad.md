@@ -357,5 +357,6 @@
 - Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
 - Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
 - Eastern Ledge & Ramp (37, 7): Empirically verified passable ramp. Stepping North from (37, 8) stepped through (37, 7) onto the upper terrace at (37, 6), connecting the lower road to the upper highway.
+- Far Eastern Highway (Cols 38..47, Rows 4..6): Wide continuous open green highway running east past column 47 toward the Mt. Moon entrance courtyard.
 
 <hr>
