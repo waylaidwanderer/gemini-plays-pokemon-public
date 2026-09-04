@@ -536,15 +536,15 @@
 
 # Mt. Moon B2F Routing & Hypotheses
 
-## Current Position & Known Boundaries
-- At (34, 10) heading West along verified Row 10 corridor.
-- Eastern dead-end at (35, 6) / (36, 6) fully confirmed.
-- Defeated Rocket Grunt at (29, 11).
+## Current Position & Verified Layout
+- At (24, 10) on the elevated plateau.
+- West boundary: Column 23 is a solid rock wall spanning rows 6..11.
+- North passage: Columns 24..25 are open dark speckled floor running north past row 6 (between col 23 wall and col 26..27 rock pillar).
+- East: (28..29, 7) jump ledge drops south; defeated Grunt at (29, 11); row 10 bypass connects to col 35; east end at (35, 6) dead-ends against col 36 cliff.
 
 ## Active Routing Objective
-- Return west along row 10 to columns 24..27.
-- Investigate northwest section of plateau (cols 24..27, rows 6..8) to determine how to reach item ball at (29, 5) above row 7 ledge.
-- Check western plateau boundary (cols 20..24).
+- Walk north along column 24 to (24, 6) and scout rows 2..5.
+- Determine if passage wraps east to item ball at (29, 5) above the jump ledge or leads to another ladder/chamber.
 
 
 <hr>
