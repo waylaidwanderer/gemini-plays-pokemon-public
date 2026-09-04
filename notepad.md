@@ -49,9 +49,9 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 18, Water]
   - Status: Healthy
-  - HP: 31 / 51
+  - HP: 25 / 51
   - Stats: Attack 32, Defense 39, Speed 33, Special 33
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 19/30), Water Gun (PP 1/25)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 16/30), Water Gun (PP 1/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
 
@@ -122,6 +122,8 @@
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit.
   - Enemy Sandshrew Lv 11 Scratch vs Sheldon (Defense 37): 3 HP damage.
   - Bubble (Sheldon Lv 17, Special 32) vs Trainer Sandshrew Lv 11: deals 22 damage on turn 1, KO on turn 2.
+  - Enemy Zubat Lv 11 Leech Life vs Sheldon (Defense 39): 1 HP damage.
+  - Bubble (Sheldon Lv 18, Special 33) vs Trainer Zubat Lv 11: deals ~14-16 damage (~55% max HP).
 - Enemy Offensive Damage Bounds against Sheldon (Defense 25-27):
   - Trainer Pidgey Lv 9 Gust: 5 HP damage on normal hit, 9-10 HP damage on critical hit.
   - Sand-Attack: lowers accuracy by 1 stage per hit (caps at stage -6).
