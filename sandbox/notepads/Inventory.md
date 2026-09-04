@@ -3,7 +3,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x6
-- POTION x0
+- POTION x4
 - ESCAPE ROPE x1
 - ANTIDOTE x2
 - TM34 (BIDE)
@@ -12,7 +12,7 @@
 - POKéDEX
 
 ## Money
-- ¥2466
+- ¥1266
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 14, Water]
