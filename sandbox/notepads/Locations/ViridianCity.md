@@ -17,3 +17,11 @@
   - Courtyard at (24..27, 4..8) connects to Gym approach at row 8.
   - Row 9 ledge separates Gym approach from southern road at row 10.
 - Signpost: Located at (19, 1) near northern exit to Route 2.
+## Verified Pokecenter to Route 22 Transit (Verified Turn 27813)
+- Path from Pokecenter (23, 26) to Route 22:
+  1. From (23, 26), walk Down to (23, 30).
+  2. Walk Left along row 30 to (15, 30).
+  3. Walk North through row 27 gap at (15, 27) to (15, 18).
+  4. Walk West along row 18 paved highway to (4, 18).
+  5. Walk North along column 4 to (4, 9).
+  6. Walk West to (0, 9) to enter Route 22 at (39, 6..9).
