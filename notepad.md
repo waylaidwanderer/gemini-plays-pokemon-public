@@ -238,5 +238,10 @@
 - Poké Mart: Located at (22..25, 16..17) with entrance door at (23, 17) and "MART" sign at (24, 17).
 - Paved Plaza: Rows 18..19 in front of the Mart.
 - Youngster NPC: Standing at (27, 17) just east of the Mart.
+  - Pewter Poké Mart Stock (Turn 518):
+    - POKé BALL: ¥200
+    - POTION: ¥300
+    - ESCAPE ROPE: ¥550
+    - ANTIDOTE: ¥100
 
 <hr>
