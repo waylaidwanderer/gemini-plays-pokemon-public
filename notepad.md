@@ -77,7 +77,7 @@
 # Combat Mechanics & Tactical Guidelines
 
 ## Turn Priority & Item Mechanics
-- Move Execution Order: Strictly determined by Speed stat under neutral conditions. Higher Speed acts first. When Speed stats are identical (Speed tie), turn priority is resolved randomly (50/50) each turn (empirically confirmed Turns 456 & 458: Sheldon Speed 15 vs Trainer Weedle Lv 9 Speed 15).
+- Move Execution Order: Strictly determined by Speed stat under neutral conditions. Higher Speed acts first. When Speed stats are identical (Speed tie), turn priority is resolved randomly (50/50) each turn (empirically confirmed Turns 456 & 458: Sheldon at Speed 15 and Trainer Weedle Lv 9 alternated move priority under neutral conditions, demonstrating an empirical Speed tie).
 - In-Battle Item Priority: Bag item usage (e.g. Potion) possesses top execution priority (+1 priority), resolving at the beginning of the turn before any Pokémon moves, irrespective of Speed.
 - Item Effects: Potion restores exactly 20 HP to the designated Pokémon.
 - Potion Tactical Doctrine: Conserve Potions unless active Pokémon HP <= 5 and opponent possesses lethal KO potential on the current turn. When HP <= 5 and enemy attack cannot be prevented by outspeeding and knocking out the target, item priority ensures 100% survival.
