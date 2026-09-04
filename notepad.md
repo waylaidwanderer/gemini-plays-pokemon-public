@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Squirtle (SHELDON) Lv 15
+- Active Team: Squirtle (SHELDON) Lv 16
 - Money: ¥1531
 - Pokédex: 1 Caught / 11 Seen
 
@@ -45,10 +45,10 @@
 - ¥1531
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 15, Water]
+- SQUIRTLE (Nickname: SHELDON) [Lv 16, Water]
   - Status: Healthy
-  - HP: 29 / 39
-  - Stats: Attack 23, Defense 29, Speed 23, Special 24
+  - HP: 31 / 41
+  - Stats: Attack 24, Defense 30, Speed 24, Special 25
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 16/25)
 
 <hr>
@@ -136,6 +136,7 @@
   - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
   - Level 15: Max HP 39, Attack 23, Defense 29, Speed 23, Special 24 (Learns Water Gun, fills Slot 4)
+  - Level 16: Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
@@ -144,6 +145,7 @@
 - Trainer Caterpie Lv 6: ~66 EXP
 - Trainer Pidgey Lv 9: 105 EXP
 - Trainer Weedle Lv 9: 99 EXP
+- Trainer Kakuna Lv 9: 136 EXP
 - Trainer Caterpie Lv 10: 112 EXP
 - Trainer Rattata Lv 11: 133 EXP
 - Trainer Weedle Lv 10: 111 EXP
