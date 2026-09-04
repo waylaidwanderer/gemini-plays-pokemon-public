@@ -363,7 +363,7 @@
 - Far Eastern Mountain Spur (Col 50): Solid mountain cliff blocks eastward passage on rows 3..7.
 - Far Eastern Ramp (49, 7): Empirically verified 2-way passable ramp (ascended North from (49, 10) through (49, 7) to (49, 6) in Turn 953). Connects lower bypass road to the upper highway.
 - Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54 directly toward the Mt. Moon entrance and Pokémon Center.
-- Impassable Monument (58..59, 8..9): Impassable structure/boundary at the western edge of the eastern grass field.
+- Mt. Moon Pokémon Center (58..59, 8..9): Building located at the western edge of the eastern grass field. Entrance door is at (58, 9), entered by walking UP from (58, 10). Pokémon Center sign at (59, 9).
 - Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!". Friendly NPC who traversed Mt. Moon from Cerulean.
 - Row 7 Ledge at (57, 7): South-facing ledge (empirically confirmed in Turn 923: northbound movement from (57, 8) is blocked). Cannot be climbed North; main route continues East toward Mt. Moon.
 - Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area.
