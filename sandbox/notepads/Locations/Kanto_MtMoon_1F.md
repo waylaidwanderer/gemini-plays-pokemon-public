@@ -26,4 +26,4 @@
 - Eastern North-South Passage (Col 30, Rows 6..14): Open floor passage east of rock partition connecting row 10 directly north into Northern Highway.
 - North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
 - East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
-- Bug Catcher (30, 4): Stationed at (30, 4) facing South down column 30 (stepped to (30, 6) on Turn 1258). Dialogue: "Wow! It's way bigger in here...".
+- Lass (30, 4): Stationed at (30, 4) facing South down column 30 (stepped to (30, 6) on Turn 1258). Dialogue: "Wow! It's way bigger in here than I thought!". Team: 2 Pokémon.
