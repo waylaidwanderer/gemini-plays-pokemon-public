@@ -2657,9 +2657,9 @@
   - East Arm: cols 11..12 across rows 5..12.
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
 - Northern Sector Items (Elevated Plateau):
-  - Item Ball at (9, 2)
-  - Item Ball at (11, 0)
-  - Item Ball at (14, 2)
+  - [ ] Item Ball at (9, 2)
+  - [ ] Item Ball at (11, 0)
+  - [ ] Item Ball at (14, 2)
   - Note: Row 3 is an impassable south-facing cliff wall separating rows 4-6 from upper brown plateau (rows 0-2).
 ## Verified Master Floor Traversal to 2F Ladder (Verified Turn 26667)
 1. Solve Boulder 1 Master Push Sequence to activate Switch (17, 13) and lower Shutters (5, 13) and (7, 7).
@@ -2718,7 +2718,7 @@
   - Boulder 1 (Pit Boulder): Default at (22, 3) on Upper Plateau. Pushed Up to row 1, West along top highway to western corridor, South along west corridor, East along bottom corridor into the Pit!
   - Boulder 2: Default at (24, 10) in southeastern corridor.
   - Boulder 3: Default at (13, 12) between rock walls in central chamber. (Empirically verified: pushing South to (13, 13) is a dead end chokepoint).
-- Progression Objective: Push Boulder 1 at (22, 3) across 3F into the Pit, then jump down the Pit to 2F exit ledge!
+- Progression Objective: Push Boulder on 3F into the Pit, then jump down the Pit to 2F exit ledge!
 
 <hr>
 

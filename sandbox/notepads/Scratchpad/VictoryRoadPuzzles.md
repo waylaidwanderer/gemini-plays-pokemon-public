@@ -29,4 +29,4 @@
   - Boulder 1 (Pit Boulder): Default at (22, 3) on Upper Plateau. Pushed Up to row 1, West along top highway to western corridor, South along west corridor, East along bottom corridor into the Pit!
   - Boulder 2: Default at (24, 10) in southeastern corridor.
   - Boulder 3: Default at (13, 12) between rock walls in central chamber. (Empirically verified: pushing South to (13, 13) is a dead end chokepoint).
-- Progression Objective: Push Boulder 1 at (22, 3) across 3F into the Pit, then jump down the Pit to 2F exit ledge!
+- Progression Objective: Push Boulder on 3F into the Pit, then jump down the Pit to 2F exit ledge!
