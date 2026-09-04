@@ -11,6 +11,7 @@
 - Testing Boundary: Empirically verified across consecutive attack turns with Bubble, Tail Whip, and Tackle, AND verified to persist after navigating through the ITEM submenu to use a Potion. Behavior after PKMN submenu or aborting actions remains unverified.
 - Battle Initialization Reset: At the start of a new battle, the move selection cursor resets to Slot 1 (Tackle), regardless of what move was used in previous encounters.
 - Main Battle Menu Cursor Memory: The primary 4-choice battle menu (FIGHT, PKMN, ITEM, RUN) retains its position from the previously confirmed action. Specifically, using an Item leaves the cursor on ITEM on subsequent turns, rather than resetting to FIGHT.
+- Battle Bag Menu Cursor Memory: Opening the ITEM menu during battle retains the cursor position from the previously confirmed item (empirically verified on Turn 1195: cursor was on POKé BALL at Slot 2 after using a Poké Ball on Turn 1192).
 - Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2, not Slot 3. To reach Slot 3 from Slot 1 requires pressing "Down" twice.
 
 ## Stat Stage Modifiers
