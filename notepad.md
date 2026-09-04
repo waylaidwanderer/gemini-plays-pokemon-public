@@ -197,5 +197,7 @@
 - Eastern Perimeter Corridor (Cols 31..32, Rows 25..33+): Continuous 2-tile wide clear-ground highway running north along the eastern boundary fence (Col 33), completely free of tall grass.
 - Bug Catcher (30, 19): Stationary trainer facing west across row 19. Column 31 provides a clear bypass behind his back.
 - Eastern Clearing (Row 18, Cols 27..32): 6-tile wide open clear-ground clearing connecting the eastern perimeter to westward passages.
+- Signpost (26, 17): Trainer Tips - "Contact PROF. OAK via PC to get your POKéDEX evaluated!"
+- Northern Avenue (Cols 25..26, Rows 14..19): 2-tile wide clear-ground corridor running north between column 24 stone posts and row 14-17 trees.
 
 <hr>
