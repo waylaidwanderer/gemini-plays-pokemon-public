@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x6
+- POKé BALL x5
 - POTION x4
 - ESCAPE ROPE x1
 - ANTIDOTE x0 (Depleted)
