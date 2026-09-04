@@ -2700,11 +2700,18 @@
   2. On 2F, walk west across light purple floor to NW Ladder (1, 1).
   3. Ascend NW Ladder to 3F NW room (2, 0).
   4. Walk south across Western Bridge to SW sector, solve SW puzzle, push Pit Boulder into Hole to unlock 2F exit!
+## Floor 2F Current Status (Verified Turn 27016)
+- Boulder 2 @ (4, 14) pushed onto Switch 1 @ (1, 16): SOLVED. Lowers Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15).
+- Northern Boulder @ (5, 5) pushed north to (5, 3): IN PROGRESS.
+- Plan: Test step-by-step passage to row 3 to push boulder from (5, 3) left towards (1, 1) [NW Ladder to 3F NW Room].
+
 ## Floor 3F Puzzle Working Hypothesis (Testing in progress)
 - Working Theory:
-  1. From 2F, reach NW Ladder at (1, 1) or southern corridor to access 3F puzzle sector.
-  2. Push boulder into hole on 3F to unlock 2F exit shutter.
-  3. Drop through hole to land on 2F exit platform and reach Route 23 North / Indigo Plateau.
+  1. Ascend NW Ladder at (1, 1) on 2F to 3F NW Room at (2, 0).
+  2. Activate Strength and navigate south along western side to SW/South sector.
+  3. Push 3F Boulder east along southern corridor into the Pit at (23, 15).
+  4. Drop down the Pit at (23, 15) to land on the 2F exit ledge.
+  5. Climb 2F exit ladder to Route 23 North / Indigo Plateau.
 
 <hr>
 
