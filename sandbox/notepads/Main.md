@@ -3,7 +3,7 @@
 ## Status
 - Badges: 0 / 8
 - Active Team: Squirtle (SHELDON) Lv 7
-- Money: ¥175
+- Money: ¥125
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
 ## Milestones
@@ -16,4 +16,5 @@
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
 - [x] Obtain Pokédex from Prof. Oak [Turn 214]
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
-- [ ] Return to Viridian City & purchase Poké Balls
+- [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
+- [ ] Traverse Route 2 & Viridian Forest to Pewter City
