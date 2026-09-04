@@ -197,5 +197,7 @@
 - Eastern Cross-Corridor (Rows 42..43, Cols 18..21+): Column 19 fence ends at row 39. Rows 42 and 43 form an open clear-ground path extending east past column 21 into the unexplored eastern half of Viridian Forest.
 - Signpost (24, 40): Located in tall grass north of row 42 cross-corridor.
 - Eastern Avenue (Column 26): Continuous clear-ground north-south corridor running along column 26 from row 43 north through at least row 38, providing a safe grass-free path north into the eastern forest.
+- NPC / Trainer (27, 40): Located in the eastern corridor south of row 39 trees, facing south.
+- Eastern Avenue Corridor (Cols 26..27, Rows 34..43): Verified 2-tile wide clear-ground highway running continuously north along the eastern edge, completely bypassing all tall grass.
 
 <hr>
