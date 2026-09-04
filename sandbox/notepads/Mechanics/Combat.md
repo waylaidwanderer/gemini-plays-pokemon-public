@@ -79,6 +79,7 @@
 - Trainer Nidoran♂ Lv 10: 127 EXP
 - Trainer Rattata Lv 11: 133 EXP
 - Trainer Weedle Lv 10: 111 EXP
+- Trainer Weedle Lv 11: 121 EXP
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
 - Trainer Zubat Lv 11: 126 EXP
