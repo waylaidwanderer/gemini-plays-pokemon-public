@@ -2776,21 +2776,28 @@
   - Cooltrainer at (21, 13).
   - Shutter Barrier at (21, 15) with solid rock wall at (18..20, 15) and (22..27, 15).
 - SW / South Sector (rows 12-15, cols 0-17):
-  - Accessible ONLY via 2F NW Ladder (1, 1) -> 3F NW Room (2, 0) -> Western Bridge (cols 5-7).
-  - Contains Boulder at (13, 13).
-## Active Floor State & Critical Mechanics (Turn 27241)
+  - Contains Boulder at (13, 13) and connects to Western Bridge (cols 6-7).
+- Northwest Room (rows 0-5, cols 1-4):
+  - Contains NW Ladder at (2, 0) connecting to 2F (1, 1).
+  - Contains Switch Plate at (3, 5) which opens Shutter Barrier at (17, 5).
+  - Connects to Western Bridge / Eastern Plateau via open Row 2 walkway: (2, 2) <-> (3, 2) <-> (4, 2) <-> (5, 2) <-> (6, 2).
+
+## Active Floor State & Critical Mechanics (Turn 27271)
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F! The entire floor puzzle must be executed in a single continuous visit.
-- Active Floor State: Strength active. Boulder 1 pushed to (7, 6).
-- Switch Plate: (3, 5) in NW Room (accessible via Row 2 passage (6, 2) -> (3, 2) -> (3, 5)). Stepping on Switch (3, 5) lowers Shutter Barrier at (17, 5).
-- Shutter Barrier: Located at (17, 5) [Closed; opened by Switch (3, 5)].
+- Active Floor State: Boulders reset to default starting positions (Boulder 1 at (22, 3)). Strength needs to be cast upon re-entering 3F.
+- Collision Boundary Note: On Western Bridge, rows 7+ at (6..7, 7) are solid rock walls (dead end). Column 7 is for traversing to Western Bridge and row 2 bypass only.
+- Switch Plate: (3, 5) in NW Room (accessible via Row 2 passage (6, 2) -> (3, 2) -> (2, 2) -> (2, 5) -> (3, 5)). Requires Boulder 1 resting on it to permanently hold open Shutter Barrier (17, 5).
+- Shutter Barrier: Located at (17, 5) [Closed; permanently opened when Boulder 1 rests on Switch (3, 5)].
 - Pit / Hole: Located at (23, 15) in southern sector.
 - Boulder 3: Pre-positioned at (22, 15) directly adjacent to the Pit at (23, 15).
 - Master Progression Route:
-  1. Step on Switch (3, 5) to open Shutter (17, 5).
-  2. Walk back via Row 2 to Row 1 highway and through open Shutter (17, 5) into the Southern Sector.
-  3. Push Boulder 3 from (22, 15) into Pit at (23, 15).
-  4. Jump into Pit at (23, 15) to land on 2F exit ledge!
-  5. Climb 2F exit ladder to Indigo Plateau.
+  1. Re-enter 3F via Ladder (1, 1) -> (2, 0).
+  2. Activate Strength with ATLAS.
+  3. Push Boulder 1 from (22, 3) onto Switch (3, 5) via Row 1, Row 2, Col 2, and (1, 5).
+  4. Walk via Row 2 and Row 1 to (17, 1) and South through permanently open Shutter (17, 5) into Southern Sector.
+  5. Push Boulder 3 from (22, 15) into Pit at (23, 15).
+  6. Jump into Pit at (23, 15) to land on 2F exit ledge!
+  7. Climb 2F exit ladder to Indigo Plateau.
 
 ## Verified 3F Coordinates & Topology
 - Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
