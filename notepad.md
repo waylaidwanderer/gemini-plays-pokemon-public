@@ -5,7 +5,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Squirtle (SHELDON) Lv 15
-- Money: ¥1366
+- Money: ¥1531
 - Pokédex: 1 Caught / 11 Seen
 
 ## Milestones
@@ -42,7 +42,7 @@
 - POKéDEX
 
 ## Money
-- ¥1366
+- ¥1531
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 15, Water]
