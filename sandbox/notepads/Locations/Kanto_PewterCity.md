@@ -12,3 +12,6 @@
 - City Signpost: Located at (19, 29).
 - NPC: Stationed at (17, 25) outside the Pokémon Center.
 - Main Avenue (Cols 18..19, Rows 22..27): 2-tile wide clear north-south thoroughfare connecting southern entrance to row 22 cross-street.
+- Row 22 Cross-Street: Paved avenue running east from column 19 to column 23+.
+- Central Fence: Vertical fence posts at column 18 (rows 18..21) separating west and east avenues.
+- Northbound Corridor: Column 19 is open clear ground running north from row 22 past row 18.
