@@ -234,6 +234,6 @@
 - Central Fence: Vertical fence posts at column 18 (rows 18..21) separating west and east avenues.
 - Northbound Corridor: Column 19 is open clear ground running north from row 22 past row 18.
 - Fenced Flower Garden: Located at rows 23..26 (cols 22..28), with wooden fence along row 23 and flowers. NPC wandering inside.
-- Signpost: Located at (25, 23) along the north fence of the garden.
+- Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 
 <hr>
