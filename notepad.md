@@ -5,7 +5,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 18, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
-- Money: ¥2421
+- Money: ¥2531
 - Pokédex: 3 Caught / 12 Seen
 
 ## Milestones
@@ -464,7 +464,7 @@
 # Mt. Moon Basement (Entrance Ladder 13, 27 Chamber)
 
 ## Connections
-- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27) (empirically verified warp on Turn 1173).
+- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27).
 
 ## Layout & Geography
 - Arrival Warp: Warped from 1F (13, 27) onto basement (13, 27) and automatically scripted 2 steps east to (15, 27).
@@ -484,6 +484,5 @@
 
 - Western Ledge (Cols 12..13, Rows 21..28): 2-tile wide elevated ridge with east-facing jump ledge at column 13. Empirically verified impassable from east (bumped at (13, 25) from (14, 25)).
 - Room Connectivity: Ladder at (15, 27) is a visible candidate exit to Mt. Moon 1F.
-
 
 <hr>
