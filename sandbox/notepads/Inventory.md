@@ -25,4 +25,4 @@
   - Status: Healthy
 - GEODUDE (Nickname: Pending) [Lv 8, Rock/Ground]
   - Status: Healthy
-  - Moves: Tackle, Defense Curl
+  - Moves: Pending in-game verification

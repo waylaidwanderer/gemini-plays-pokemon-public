@@ -31,12 +31,12 @@
   - Upper Tier (Rows 4..6): Main eastward thoroughfare.
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9); NPC stationed at (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
-- Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
+- Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile.
 - Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
-- Eastern Ledge & Ramp (37, 7): Empirically verified passable ramp. Stepping North from (37, 8) stepped through (37, 7) onto the upper terrace at (37, 6), connecting the lower road to the upper highway.
+- Eastern Ledge & Ramp (37, 7): Empirically verified passable ramp.
 - Far Eastern Highway (Cols 38..47, Rows 4..6): Wide continuous open green highway running east past column 47 toward the Mt. Moon entrance courtyard.
 - Far Eastern Mountain Spur (Col 50): Solid mountain cliff blocks eastward passage on rows 3..7.
-- Far Eastern Ramp (49, 7): Empirically verified 2-way passable ramp (ascended North from (49, 10) through (49, 7) to (49, 6)). Connects lower bypass road to the upper highway.
+- Far Eastern Ramp (49, 7): Empirically verified 2-way passable ramp. Connects lower bypass road to the upper highway.
 - Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54.
 - Eastern Structure (58..59, 8..9): Impassable structure at western edge of eastern grass field. Tile (58, 9) is solid (collision confirmed from (58, 10) and (57, 9)). Sign located at (59, 9).
 - Signpost (59, 9): Reads "ROUTE 3 - MT. MOON AHEAD".
