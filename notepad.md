@@ -45,10 +45,10 @@
 - ¥2331
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 13, Water]
+- SQUIRTLE (Nickname: SHELDON) [Lv 14, Water]
   - Status: Healthy
-  - HP: 25 / 35
-  - Stats: Attack 20, Defense 25, Speed 20, Special 21
+  - HP: 27 / 37
+  - Stats: Attack 22, Defense 27, Speed 22, Special 23
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 24/30)
 
 
@@ -130,6 +130,7 @@
   - Level 10: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
   - Level 11: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19 (reached on Turn 561)
   - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21 (reached on Turn 594)
+  - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23 (reached on Turn 656)
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
