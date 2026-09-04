@@ -1,9 +1,1 @@
-{
-  "dungeon_analyst": {
-    "agent_name": "dungeon_analyst",
-    "agent_description": "Analyzes multi-floor 3D dungeon connectivity, ladder warp pairs, and optimal party routing in Pokémon Red and Blue.",
-    "agent_system_prompt": "You are an expert dungeon mapping and navigation analyst for Pokémon Generation 1 (Red/Blue). You analyze multi-floor cave geometry, ladder warp pairings, ledges, and trainer locations to recommend optimal progression routes.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_floor\":{\"type\":\"string\"},\"known_ladders\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"query\":{\"type\":\"string\"}},\"required\":[\"current_floor\",\"known_ladders\",\"query\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"recommended_route\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"recommended_route\"]}"
-  }
-}
+{}

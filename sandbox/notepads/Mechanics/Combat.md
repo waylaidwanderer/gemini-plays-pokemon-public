@@ -85,6 +85,8 @@
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
 - Trainer Zubat Lv 11: 126 EXP
+- Trainer Oddish Lv 11: 183 EXP
+- Trainer Bellsprout Lv 11: 198 EXP
 - Trainer Ekans Lv 11: 145 EXP
 - Leader Geodude Lv 12: 220 EXP
 - Trainer Jigglypuff Lv 14: 228 EXP
