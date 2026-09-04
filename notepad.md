@@ -2552,16 +2552,7 @@
   - Grand Entrance Carpet: (2..13, 10..11) with fence gap at (2..5, 11)
   - Ledge Gap to Upper Forecourt: (11, 9) allows northward passage from row 10 carpet to row 8 green grass!
   - Gatehouse Entrance Door: Located at (8, 5).
-- Master Route from Viridian to Gatehouse:
-  1. From Viridian City, enter Route 22 at (39, 8..9).
-  2. Walk west along lower road (row 14) to (33, 14), north through gap (33, 13) to (33, 8), west to (31, 8), and north through gap (31, 7) to upper corridor at (31, 5).
-  3. Walk west along upper corridor (row 5) past (29, 5) to (16, 5).
-  4. At (16, 5), walk south to (16, 7) and jump south down ledge to (16, 8) -> (16, 12) (STOP at row 12 lawn!).
-  5. Walk west along row 12 lawn to (5, 12).
-  6. Walk NORTH (Up) from (5, 12) through fence opening at (5, 11) onto carpet at (5, 10).
-  7. Walk east along carpet (row 10) to (11, 10).
-  8. Walk north through ledge gap at (11, 9) to (11, 6).
-  9. Walk west along row 6 to (8, 6), then step north into Gatehouse door at (8, 5)!
+- Route to Gatehouse: Traverse lower road to row 13 ledge gap at (33, 13), proceed through upper corridor (row 5) to (16, 5), jump south down ledge (16, 7) to row 12 lawn, enter front carpet at (5, 10), pass north through ledge gap (11, 9) to row 6, and enter Gatehouse door at (8, 5).
 
 <hr>
 
