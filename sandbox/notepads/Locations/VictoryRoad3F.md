@@ -17,24 +17,18 @@
   - Contains Switch Plate at (3, 5).
   - Isolated pocket: Column 5 (x=5, y=0..6) is a solid vertical rock barrier completely separating NW room from the central bridge (cols 6-7). No direct walkable horizontal corridor between (4, 2) and (6, 2).
 
-## Critical Mechanics & Reset Behavior
+## Critical Mechanics & Verified Topology
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F, 2F, and 1F! The entire floor puzzle must be executed in a single continuous visit.
 - Switch Plate: (3, 5) in NW Room (accessible from 2F NW ladder at (1, 1) -> 3F (2, 0)).
-- Shutter Barrier: Located at (21, 15) in SE lower purple room.
-- Pit / Hole: Located at (23, 15) in southern sector.
-- Boulder at (22, 15): Pushed into the Pit at (23, 15) to fall down to 2F and hold the 2F switch open!
-- Master Progression Route:
-  1. Ascend to 3F via Ladder B at (25, 14) on 2F (arriving directly in 3F SE Lower Purple Room).
-  2. Navigate through the southern sector to (21, 15).
-  3. Push Boulder from (22, 15) East into Pit at (23, 15).
-  4. Jump into Pit at (23, 15) to land on 2F exit ledge!
-  5. Climb 2F exit ladder to Route 23 North / Indigo Plateau.
-
-## Verified 3F Coordinates & Topology
-- Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
-- Ladder NE (to 2F): (26, 8) [Visual observation from Ladder A]
-- Boulder 1 Initial Start: (22, 3)
-- Boulder 2: (24, 10) in southeastern sector
-- SW Sector Boulder: (13, 12) between rock walls (12, 12) and (14, 12)
-- Boulder 3: (22, 15) in southern sector
-- Cooltrainers: (28, 5) and (13, 3) [Both defeated]
+- Shutter Gates:
+  - Shutter 1: (17, 5) on Upper Plateau (blocks passage to northern rooms).
+  - Shutter 2: (21, 15) in SE lower purple room.
+- Verified Boulder Locations:
+  - Boulder 1: (22, 3) in northern sector of Upper Plateau.
+  - SW Boulder: (13, 12) in SW sector between rock walls (12, 12) and (14, 12).
+- Verified NPCs & Trainers:
+  - Cooltrainer ♂ at (19, 8) [Challenged Turn 27631].
+  - Cooltrainer at (21, 13) in SE lower purple room.
+  - Cooltrainers at (28, 5) and (13, 3) [Defeated].
+- Working Progression Strategy:
+  - Complete full survey of 3F Upper Plateau (Boulder at (22, 3), Shutter at (17, 5), and northern rooms) before committing to any ledge descent into the Lower Purple Room.
