@@ -37,6 +37,7 @@
 - POTION x2
 - ESCAPE ROPE x1
 - ANTIDOTE x0 (Depleted)
+- TM12 (WATER GUN)
 - TM34 (BIDE)
 
 ## Key Items
