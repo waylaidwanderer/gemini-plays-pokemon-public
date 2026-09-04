@@ -2,12 +2,14 @@
 
 ## Items
 - TOWN MAP (Slot 1 in Bag)
+- POKé BALL x6 (bought 5 on Turn 522)
+- ANTIDOTE x1 (found in Viridian Forest)
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
 
 ## Money
-- ¥3275
+- ¥2275
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 10, Water]
