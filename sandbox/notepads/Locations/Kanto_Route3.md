@@ -5,6 +5,7 @@
 - East: Mt. Moon.
 
 ## Landmarks & Layout
+- Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Western Entrance (Rows 8..11, Cols 0..1): 4-tile wide open ground passage connecting to Pewter City, bounded by solid mountain cliff walls to the north (rows 6..7) and south (rows 12..14).
 - First Tall Grass Field (Rows 8..11, Cols 2..5+): Tall grass spans across columns 2 to 5+. Stone boundary posts located at (4, 8) and (4, 11). Rows 9 and 10 provide continuous east-west passage through the grass field.
 
@@ -31,6 +32,5 @@
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9); NPC stationed at (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
 - Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
-- Lass Robin (33, 10): Stationed at (33, 10) facing North across row 8 road (walks to (33, 9) when triggered from (33, 8)).
 - Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
-- Eastern Ledge & Ramp (37, 7): Upper terrace extends across rows 4..6 (cols 34..37) with ledge at row 7 and ramp at (37, 7).
+- Eastern Ledge & Ramp (37, 7): Visual hypothesis - upper terrace appears to extend across rows 4..6 (cols 34..37) with ledge at row 7 and ramp texture at (37, 7) (pending empirical traversal verification).
