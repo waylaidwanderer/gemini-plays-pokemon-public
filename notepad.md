@@ -137,7 +137,7 @@
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
   - Level 15: Max HP 39, Attack 23, Defense 29, Speed 23, Special 24 (Learns Water Gun, fills Slot 4)
   - Level 16 (Squirtle): Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
-  - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46, verified Turn 847)
+  - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46)
   - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
 
 ## Defeat Yields
@@ -150,6 +150,7 @@
 - Trainer Kakuna Lv 9: 136 EXP
 - Trainer Caterpie Lv 9: 102 EXP
 - Trainer Metapod Lv 9: 138 EXP
+- Trainer Metapod Lv 11: 169 EXP
 - Trainer Caterpie Lv 10: 112 EXP
 - Trainer Caterpie Lv 11: 124 EXP
 - Trainer Rattata Lv 10: 121 EXP
@@ -291,7 +292,7 @@
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
 - Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 - Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
-- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POK�MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
+- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÃ©MON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
 - Center Exterior NPC: Stationed at (17, 25) outside the Pokémon Center.
@@ -351,7 +352,6 @@
   - Upper Tier (Rows 4..6): Main eastward thoroughfare.
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9); NPC stationed at (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
-- Row 7 Ramp (East) at (27, 7): Tan dirt ramp connecting eastern upper terrace (rows 4..6) to lower tier (rows 8..10+).
-- Eastern Mountain Wall (Cols 28..29): Blocks eastward passage on rows 3..7; path routes South via (27, 7) ramp toward Mt. Moon.
+- Eastern Ledge & Mountain (Cols 27..29): Visual examination indicates mountain wall at cols 28..29. Tile (27, 7) has tan dirt ramp texture matching (11, 7), hypothesized to connect upper terrace to lower tier (pending empirical traversal verification).
 
 <hr>
