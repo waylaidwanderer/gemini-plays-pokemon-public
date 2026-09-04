@@ -2,7 +2,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Squirtle (SHELDON) Lv 15
+- Active Team: Squirtle (SHELDON) Lv 16
 - Money: ¥1531
 - Pokédex: 1 Caught / 11 Seen
 
