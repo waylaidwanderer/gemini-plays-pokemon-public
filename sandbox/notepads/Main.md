@@ -3,7 +3,7 @@
 ## Status
 - Badges: 0 / 8
 - Active Team: Squirtle (SHELDON) Lv 10
-- Money: ¥275
+- Money: ¥725
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
 ## Milestones
@@ -18,4 +18,5 @@
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
 - [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
-- [ ] Reach Pewter City & Defeat Gym Leader Brock
+- [x] Reach Pewter City [Turn 495]
+- [ ] Defeat Pewter Gym Leader Brock
