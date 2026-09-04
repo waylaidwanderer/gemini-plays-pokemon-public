@@ -30,3 +30,9 @@
   - Turn 250: Sheldon Tackle dealt ~35% HP; Rattata used Tail Whip (-2 Def).
   - Turn 251: Sheldon Tackle dealt ~20% HP (Rattata survived with ~1-2 HP); Rattata Tackle dealt 6 damage to -2 Def Sheldon (HP 11 -> 5).
   - Turn 252: Sheldon Tackle KO'd Rattata!
+
+## Experience & Growth Mechanics
+- Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
+- Wild Pidgey Lv 3: 23 EXP
+- Growth Curve: Medium-Slow (Lv 7 at 318 EXP, Lv 8 at 482 EXP).
+- Movepool: Squirtle learns Bubble at Lv 8 (fills empty slot 3).
