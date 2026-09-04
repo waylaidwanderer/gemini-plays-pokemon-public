@@ -3,7 +3,7 @@
 ## Map Structure
 - Connects Pallet Town (south, y=35) to Viridian City (north, y=0).
 - Southbound Fast-Return Ledges (one-way South):
-  - Row 5: Ledge on west segment (x=11..13), with open path corridor on east (x=14..17).
+  - Row 5: Ledge on west segment (x=11..13), verified jump from (11, 4) to (11, 6). Open corridor on east (x=14..17).
   - Row 19: Ledge split into two segments: west (x=4..8) and east (x=10..17), separated by an open gap at (9, 19). Jumps into row 20.
   - Row 23: Ledge spanning x=16 to 17. Jumps into row 24.
   - Row 27: Ledge spanning x=12 to 17. Jumps into row 28 tall grass.
