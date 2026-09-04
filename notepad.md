@@ -113,6 +113,16 @@
 - Growth Curve: Medium-Slow (Lv 7 at 318 EXP, Lv 8 at 482 EXP).
 - Movepool: Squirtle learns Bubble at Lv 8 (fills empty slot 3).
 
+## Verified Encounter Observations (Turns 312-322)
+- Enemy: Wild Pidgey (Lv 4) on Route 2.
+- Player: Squirtle (SHELDON) Lv 7 (Attack 13, Defense 15, Speed 13).
+- Battle Flow:
+  - Turn 314: Sheldon Tackle dealt 6 damage (~35% HP); Pidgey Gust dealt 3 damage (HP 23 -> 20).
+  - Turn 316: Threw Poké Ball at ~60% HP; ball wobbled 3 times, Pidgey broke free; Pidgey Gust dealt 3 damage (HP 20 -> 17).
+  - Turn 320: Sheldon Tackle dealt ~6 damage (~35% HP); Pidgey Gust dealt 4 damage (HP 17 -> 10).
+  - Turn 321: Sheldon Tackle KO'd Pidgey!
+- Experience: Awarded ~23 EXP upon defeat.
+
 <hr>
 
 <h1><code>Locations/Kanto_ViridianCity</code></h1>
