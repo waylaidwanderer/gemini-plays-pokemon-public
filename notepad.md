@@ -2703,13 +2703,19 @@
 ## Floor 2F Master Solution (SOLVED & FULLY VERIFIED)
 - Boulder 2 @ (4, 14) pushed onto Switch 1 @ (1, 16): SOLVED. Lowers Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15).
 - Northern Boulder @ (5, 5) pushed north to (5, 3): SOLVED.
-- Verified Master Route to NW Ladder (1, 1):
-  1. From 2F East / Ladder A at (23, 7), walk west across upper plateau: (23, 7) -> (15, 7) -> (9, 7).
-  2. Walk north along column 9: (9, 7) -> (9, 4) -> (9, 3).
-  3. Walk west along open row 3: (9, 3) -> (8, 3) -> (7, 3) -> (6, 3).
-  4. At (6, 3), push Boulder Left from (5, 3) to (4, 3) and (3, 3). Player arrives at (4, 3).
-  5. Step Up to (4, 2), walk Left to (1, 2), and step Up into NW Ladder at (1, 1).
-  6. Ascend NW Ladder to arrive on 3F NW Room at (2, 0)!
+## Verified 2F Floor Topology & Master Route to NW Ladder (Verified Turn 27068)
+- East Plateau (cols 16-29, rows 0-11): Contains Ladder A at (23, 7), Ladder NE at (27, 7), Tamer at (19, 8). Blocked from West Plateau by solid rock wall at columns 14-15 across rows 0-7.
+- Lower Purple Floor (cols 5-26, rows 8-14): Connects east at (21, 14) past Shutter 3 (21, 15) to west at (5, 8).
+- West Sector (cols 0-5, rows 0-16):
+  - 1F Ladder: (0, 8)
+  - Switch 1: (1, 16) (controls Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15))
+  - Northern Path: From (5, 8) walk North past row 5 boulder to Pokémaniac at (4, 2) and NW Ladder at (1, 1).
+  - NW Ladder at (1, 1): Leads to 3F NW Room (2, 0).
+- Master Traversal to NW Ladder (1, 1):
+  1. From East Plateau (17, 2), walk south to (17, 11), east to (28, 11), south along Eastern Corridor to (28, 16), and west along Row 16 highway to (21, 16).
+  2. Pass north through open Shutter 3 at (21, 15) to (21, 14) on Lower Purple Floor.
+  3. Walk west to (13, 14), north along column 13 to (13, 8), and west along open row 8 to (5, 8).
+  4. Walk north along cols 4-5 to (4, 2), then west to (1, 2) and step Up into NW Ladder at (1, 1).
 
 ## Floor 3F Puzzle Working Hypothesis (Testing in progress)
 - Working Theory:
