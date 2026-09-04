@@ -23,6 +23,6 @@
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 14/30), Water Gun (PP 1/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
-- GEODUDE (Nickname: Pending) [Lv 8, Rock/Ground]
+- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - Moves: Pending in-game verification
