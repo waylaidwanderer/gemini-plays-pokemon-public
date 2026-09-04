@@ -25,3 +25,6 @@
     - POTION: ¥300
     - ESCAPE ROPE: ¥550
     - ANTIDOTE: ¥100
+    - BURN HEAL: ¥250
+    - AWAKENING: ¥200
+    - PARLYZ HEAL: ¥200
