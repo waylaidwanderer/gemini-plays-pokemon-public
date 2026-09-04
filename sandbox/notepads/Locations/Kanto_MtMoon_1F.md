@@ -4,7 +4,6 @@
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (13, 27): Ladder descending to basement chamber (empirically verified warp).
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (25, 15): Ladder in east-central corridor (visible on Turn 1251).
 
 ## Layout & Corridors
 - Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
@@ -12,7 +11,7 @@
 - Signpost (15, 23): Reads "Beware! ZUBAT is a blood sucker!".
 - Bug Catcher (16, 23): Stationed at (16, 23) facing South down column 16.
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction (empirically verified collision at (17, 21)).
-- Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher Kent at (7, 23). Bounded on north by solid rock wall at rows 18-19.
+- Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher at (7, 23). Bounded on north by solid rock wall at rows 18-19.
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
 - Bug Catcher (7, 22): Defeated on Turn 1240 (Weedle Lv 11, Kakuna Lv 11; stepped to (7, 23)). Yielded ¥110.
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
@@ -26,4 +25,4 @@
 - Eastern North-South Passage (Col 30, Rows 6..14): Open floor passage east of rock partition connecting row 10 directly north into Northern Highway.
 - North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
 - East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
-- Lass (30, 4): Stationed at (30, 4) facing South down column 30 (stepped to (30, 6) on Turn 1258). Dialogue: "Wow! It's way bigger in here than I thought!". Team: 2 Pokémon.
+- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: 2 Pokémon.
