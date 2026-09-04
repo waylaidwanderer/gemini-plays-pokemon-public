@@ -15,7 +15,7 @@
   - Entrance Door: Located at (11, 5).
   - "POKé" Sign: Located at (12, 5).
   - Courtyard: Clear open ground at rows 6..8, columns 11..13.
-  - Exterior NPC: Wandering youngster around (10, 7).
+  - Exterior NPC: Cooltrainer F around (10, 7).
 ## Mt. Moon Pokémon Center Interior
 - Entrance Mat: (3..4, 7). Exits south to Route 4.
 - Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
@@ -25,3 +25,6 @@
 - Magikarp Salesman: Stationed at (11, 2) in the northeast corner behind the counter. Sells Magikarp for ¥500 (talk from (11, 3) facing North).
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Resident who advises: "If you have too many POKéMON, you should store them via PC!".
+## Cave & Landmarks
+- Mt. Moon Cave Entrance: Located at (18, 5). Cave mouth set into the north cliff face, entered from (18, 6) facing North.
+- Route 4 Signpost: Located at (17, 7).
