@@ -2690,16 +2690,22 @@
   9. Walk North along Column 23: (23, 11) -> (23, 7).
   10. Step onto Ladder A at (23, 7) to ascend to 3F!
 
-## Floor 3F Puzzle & Topology (EMPIRICALLY VERIFIED)
-- Verified Column 5 Barrier (Turn 27407): Column 5 (x=5, y=0..6) is a solid vertical rock wall separating the central bridge (cols 6-7) from the Northwest Room (cols 1-4).
-- Northwest Room Access: The NW room (containing Switch Plate at (3, 5)) is an isolated pocket accessed exclusively via 2F NW Ladder at (1, 1) <-> 3F (2, 0).
-- Elevation Split: Upper dark plateau (rows 0-11, cols 16-28) is separated from lower light purple floor (rows 12-14) by a south-facing cliff boundary.
-- Lower Purple Floor Access: The lower purple room (cols 18-26, rows 12-14) contains Ladder B at (25, 14), Cooltrainer at (21, 13), and Shutter Gate at (21, 15).
-- Boulders on 3F:
-  - Boulder 1 (Pit Boulder): Located on 3F Upper Plateau at (22, 3). Requires navigating around shutters/chokepoints to push into Pit at (23, 15).
-  - Boulder 2: Default at (24, 10) in southeastern corridor.
-  - Boulder 3: Default at (13, 12) between rock walls in central chamber. (Empirically verified: pushing South to (13, 13) is a dead end chokepoint).
-- Progression Objective: Push 3F Pit Boulder into the Pit to trigger 2F switch, then jump down Pit to 2F exit ledge!
+## Floor 3F Puzzle & Master Solution (VERIFIED)
+- Verified Topology & Elevation:
+  - Upper Dark Plateau (rows 0-11, cols 12-28): Contains Ladder A (23, 7) [arrival from 2F], Ladder NE (26, 8) [descends to 2F], Boulder 1 @ (22, 3), Boulder 2 @ (24, 10).
+  - Northern Highway (Rows 0-1): Continuous open floor across columns 6 through 25.
+  - CRITICAL PUSH RULE: Row 0 is the northern boundary wall. Boulders on Row 0 CANNOT be pushed South. Puzzle boulders moving west to turn south MUST be pushed along Row 1 (so player stands at Row 0 to push Down).
+  - Row 1-2 Cliff: Impassable cliff wall separates Row 1 from Row 2 across cols 9-14.
+  - Central Bridge (Column 6): Spans rows 0-6.
+- Master Boulder 1 Push Sequence:
+  1. Position at (23, 3) -> Push Left 1 time: Boulder moves to (21, 3), Player at (22, 3).
+  2. Reposition: Down to (22, 4) -> Left to (21, 4).
+  3. Push North 2 times: Boulder moves (21, 3) -> (21, 2) -> (21, 1) [STOP AT ROW 1!]. Player at (21, 2).
+  4. Reposition: Right to (22, 2) -> Up to (22, 1).
+  5. Push West along Row 1: Boulder moves from (21, 1) all the way west to (6, 1).
+  6. Turn South at Central Bridge: Step Up to (7, 0) -> Left to (6, 0).
+  7. Stand at (6, 0) facing Down -> Push Down along Column 6 towards the pit!
+- Progression Objective: Push Boulder into Pit to trigger 2F exit shutter, then jump down pit to 2F!
 
 <hr>
 
