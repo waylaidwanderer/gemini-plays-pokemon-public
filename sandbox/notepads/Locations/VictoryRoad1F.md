@@ -30,16 +30,18 @@
 - Proceed East along row 12 to (11, 12), North to (11, 6), West across row 6 to (7, 6), and South through lowered Shutter (7, 7) to lower cave floor (7, 8).
 - Proceed West and North through corridor (avoiding rock at (2, 8)) to reach 2F Ladder at (1, 1).
 
-## Verified Master Boulder Solution (Verified Turn 24445)
+## Verified Master Boulder Solution (Verified Turn 28353)
 - Initial State: Boulder 1 at (5, 15).
-- Master Push Sequence:
-  1. Stand at (5, 14) -> Push Down to (5, 16).
-  2. Stand at (4, 16) -> Push East 4 times to (9, 16).
-  3. Stand at (9, 17) -> Push North 2 times to (9, 14).
-  4. Stand at (8, 14) -> Push East 7 times to (16, 14).
-  5. Stand at (16, 15) -> Push North 2 times to (16, 12). (CRITICAL: Stop at row 12).
-  6. Stand at (15, 12) -> Push East 1 time to (17, 12).
-  7. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13).
+- Pre-Push Coordinate Assertions & Master Push Sequence:
+  1. Stand at (5, 14) -> Push Down 1 time to (5, 16) [Boulder at (5, 16), Player at (5, 15)].
+  2. Stand at (4, 16) -> Push East 4 times to (9, 16) [Boulder at (9, 16), Player at (8, 16)].
+  3. Stand at (9, 17) -> Push North 2 times to (9, 14) [Boulder at (9, 14), Player at (9, 15)].
+  4. Stand at (8, 14) -> Push East 7 times to (16, 14) [Boulder at (16, 14), Player at (15, 14)].
+  5. Stand at (16, 15) -> Push North 2 times to (16, 12) [Boulder at (16, 12), Player at (16, 13)]. (CRITICAL: Stop at row 12!).
+  6. CRITICAL DETOUR: Tile (15, 13) is a solid rock wall. Reposition around boulder by walking: (16, 13) -> Down to (16, 14) -> Left 2 to (14, 14) -> Up 2 to (14, 12) -> Right 1 to (15, 12).
+  7. Stand at (15, 12) -> Push East 1 time to (17, 12) [Boulder at (17, 12), Player at (16, 12)].
+  8. Reposition to (17, 11) via (16, 12) -> Up to (16, 11) -> Right to (17, 11).
+  9. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13) [Boulder at (17, 13), Player at (17, 12)].
 - Verified Outcome: Switch at (17, 13) activated; Shutters at (5, 13) and (7, 7) opened for the duration of the current visit (note: exiting the cave to Route 23 or using Dig/Escape Rope resets the boulder puzzle and closes the shutters).
 
 ## Verified Map Boundaries & Exit Warps (Verified Turn 28092, 28200)
