@@ -2770,15 +2770,14 @@
 - SW / South Sector (rows 12-15, cols 0-17):
   - Accessible ONLY via 2F NW Ladder (1, 1) -> 3F NW Room (2, 0) -> Western Bridge (cols 5-7).
   - Contains Boulder at (13, 13).
-## Verified 3F Coordinates & Topology (Verified Turn 26849)
-- Ladder A (from 2F (23, 7)): (23, 7)
-- Ladder NE (to 2F): (26, 8)
-- Boulder 1: (22, 3) on northern corridor
-- Boulder 2: (24, 10) in southeastern sector
-- Boulder 3: (22, 15) directly adjacent to the Pit
-- The Pit / Hole: Located at (23, 15) in the southern sector
-- Shutter Barrier: Located at (17, 5)
-- Cooltrainer: Located at (28, 5)
-- Column 25 Highway: (25, 7..15) is an open north-south corridor on the eastern side
+## Verified 3F Coordinates & Visual Observations (Turn 26849/26890)
+- Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
+- Ladder NE (to 2F): (26, 8) [Visual observation from Ladder A]
+- Boulder 1: (22, 3) on northern corridor [Visual observation]
+- Boulder 2: (24, 10) in southeastern sector [Visual observation]
+- Boulder 3: (22, 15) in southern sector [Visual observation]
+- The Pit / Hole: Located at (23, 15) in the southern sector [Visual observation]
+- Shutter Barrier: Located at (17, 5) [Visual observation]
+- Cooltrainer: Located at (28, 5) [Visual observation]
 
 <hr>
