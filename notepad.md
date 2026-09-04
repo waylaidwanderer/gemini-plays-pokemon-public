@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 0 / 8
-- Active Team: Squirtle (SHELDON) Lv 10
+- Active Team: Squirtle (SHELDON) Lv 11
 - Money: ¥725
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
@@ -45,9 +45,9 @@
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 11, Water]
   - Status: Healthy
-  - HP: 19 / 31 (healed by Potion Turn 565)
+  - HP: 19 / 31
   - Stats: Attack 18, Defense 22, Speed 18, Special 19
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 29/30), Bubble (PP 28/30)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 29/30), Bubble (PP 27/30)
 
 
 <hr>
@@ -128,6 +128,18 @@
 - Level 10 Stats: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
 - Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2, not Slot 3. To reach Slot 3 from Slot 1 requires pressing "Down" twice.
 - Trainer Diglett Lv 11: 190 EXP
+
+## Battle Menu Memory Rules
+- Main Battle Menu Cursor Memory: The primary 4-choice battle menu (FIGHT, PKMN, ITEM, RUN) retains its position from the previously confirmed action. Specifically, using an Item leaves the cursor on ITEM on subsequent turns, rather than resetting to FIGHT. Verified on Turn 566.
+- Move Selection Cursor Memory: Inside the FIGHT menu, the cursor retains its position from the previously confirmed attack (persisting across consecutive attack turns and across item usage). Verified on Turns 399, 555, and 567.
+
+
+- Sheldon Lv 10-11 Combat Bounds (Attack 17-18, Defense 20-22, Special 17-19):
+  - Bubble vs Lv 11 Diglett (Ground, Special ~16): Deals 20-22 damage (observed Turns 557-558: took Diglett from 100% to ~2 HP).
+  - Bubble vs Lv 11 Sandshrew (Ground, Special ~15): Deals 16-18 damage (~50% max HP, observed Turn 569).
+  - Enemy Diglett Lv 11 Scratch vs Defense 20: 5 damage on normal hit (Turn 551), 8 damage on critical hit (Turn 556).
+  - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit (Turn 566).
+
 
 <hr>
 
@@ -252,7 +264,7 @@
     - BURN HEAL: ¥250
     - AWAKENING: ¥200
     - PARLYZ HEAL: ¥200
-- Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16). Interior entered at Turn 540.
+- Pewter Gym: Located at (12..17, 14..17) with entrance door at (16, 17) and "GYM" sign at (14..15, 16).
 
 ## Signposts & Points of Interest
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
