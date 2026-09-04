@@ -26,8 +26,8 @@
   - (3, 1) and (2, 1) are open, walkable floor tiles (traversed turns 27247-27250, 27271).
   - (2, 2) through (2, 5) forms an open vertical corridor along column 2.
   - (1, 4) and (1, 5) are open dark floor tiles (verified Turn 27281), allowing player to position at (1, 5) and push Boulder 1 Right onto Switch (3, 5).
-- Switch Plate: (3, 5) in NW Room (accessible via Row 2 passage (6, 2) -> (3, 2) -> (2, 2) -> (2, 5) -> (3, 5)). Requires Boulder 1 resting on it to permanently hold open Shutter Barrier (17, 5).
-- Shutter Barrier: Located at (17, 5) [Closed; permanently opened when Boulder 1 rests on Switch (3, 5)].
+- Switch Plate: (3, 5) in NW Room [VERIFIED ACTIVATED: Boulder 1 resting on Switch (3, 5)].
+- Shutter Barrier: Located at (17, 5) [VERIFIED PERMANENTLY OPEN].
 - Pit / Hole: Located at (23, 15) in southern sector.
 - Boulder 3: Pre-positioned at (22, 15) directly adjacent to the Pit at (23, 15).
 - Master Progression Route:
