@@ -15,7 +15,8 @@
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 - [x] Reach Viridian City via Route 1 [Turn 132]
 - [x] Visit Viridian City Poké Mart [Turn 169]
-- [ ] Deliver parcel to Prof. Oak in Pallet Town [Started Turn 171]
+- [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
+- [ ] Obtain Pokédex from Prof. Oak [Started Turn 211]
 
 <hr>
 
