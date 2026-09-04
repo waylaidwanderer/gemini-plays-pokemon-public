@@ -14,3 +14,5 @@
 - Ground Item (5, 32): TM12 (WATER GUN) collected on Turn 1045.
 
 - Ground Item (2, 20): Item ball collected on Turn 1056.
+- East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east above Bug Catcher Kent (16, 23) connecting the central junction to the eastern avenue.
+- Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
