@@ -2739,47 +2739,24 @@
 # Victory Road 3F - Layout & Topology
 
 ## Ladders
-- NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room (leads south onto Western Bridge cols 5-7)
-- Ladder A (from 2F (23, 7)): Arrival tile at (23, 7) on upper plateau from 2F (23, 7). (Note: Descent from 3F (23, 7) is not bidirectional; use Ladder B at (25, 14) or NW Ladder at (2, 0) to descend).
-- Ladder NE (from 2F (27, 7)): Located at (27, 7) in eastern corridor (accessed via (25, 3) -> (27, 4) -> (27, 7))
+- NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room
+- Ladder A (from 2F (23, 7)): Arrival tile at (23, 7) on upper plateau from 2F (23, 7). (Note: Descent from 3F (23, 7) is not bidirectional; use Ladder NE at (26, 8), Ladder B at (25, 14), or NW Ladder at (2, 0) to descend).
+- Ladder NE (from 2F (27, 7)): Located at (26, 8) in eastern corridor (accessed via (23, 10) -> (25, 10) -> (25, 8) -> (26, 8))
 - Ladder B (from 2F SE (25, 14)): Located at (25, 14) in SE Lower Purple Room (rows 12-14)
 
 ## Physical Features & Topography
-- Upper Dark Plateau (rows 0-11, cols 12-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder at (22, 3). Separated from lower purple floor by impassable south-facing cliff wall between row 11 and 12. Row 1-2 boundary across cols 9-14 is an impassable upper cliff wall.
-- SE Lower Purple Room (rows 12-14, cols 18-26):
-  - Ladder B at (25, 14) connects to 2F SE (25, 14).
-  - Cooltrainer at (21, 13).
-  - Shutter Barrier at (21, 15) with solid rock wall at (18..20, 15) and (22..27, 15).
-- Northwest Room (rows 0-5, cols 1-4):
-  - Contains NW Ladder at (2, 0) connecting to 2F (1, 1).
-  - Contains Switch Plate at (3, 5).
-  - Isolated pocket: Column 5 (x=5, y=0..6) is a solid vertical rock barrier completely separating NW room from the central bridge (cols 6-7). No direct walkable horizontal corridor between (4, 2) and (6, 2).
-
-## Critical Mechanics & Verified Topology
-- CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F, 2F, and 1F! The entire floor puzzle must be executed in a single continuous visit.
-- Switch Plate: (3, 5) in NW Room (accessible from 2F NW ladder at (1, 1) -> 3F (2, 0)).
-- Shutter Gates:
-  - Shutter 1: (17, 5) on Upper Plateau (blocks passage to northern rooms).
-  - Shutter 2: (21, 15) in SE lower purple room.
-- Verified Boulder Locations:
-  - Boulder 1: (22, 3) in northern chamber of Upper Plateau.
-  - Boulder 2: (24, 10) in southeastern corridor.
-  - Boulder 3: (13, 12) in central corridor between rock walls (12, 12) and (14, 12).
-- Verified NPCs & Trainers:
-  - Cooltrainer ♂ at (19, 8) [Defeated].
-  - Cooltrainer at (21, 13) in SE lower purple room.
-  - Cooltrainers at (28, 5), (26, 3), (13, 3) [Defeated].
-## Verified 3F Central Bridge & Northern Corridor (Verified Turn 27956)
+- Upper Dark Plateau (rows 0-11, cols 12-28): Contains Ladder A (23, 7), Ladder NE (26, 8), Boulder 1 at (22, 3), Boulder 2 at (24, 10). Separated from lower purple floor by impassable south-facing cliff wall between row 11 and 12.
 - Northern Highway (Rows 0-1): Continuous open floor spanning across columns 6 through 25, connecting the eastern plateau, northern chamber, and western sectors.
-- Column 19 Rock Column: Separates northern room (cols 14-18, rows 2-4) from eastern chamber (cols 20-25, rows 2-5). Bypassed seamlessly via open Row 1 (18..20, 1).
-- Central Bridge (Column 6): Spans rows 0 through 6. Terminates at (6, 6) due to an impassable cliff barrier at (6, 7).
-- Wall (8, 2..9): Solid rock wall separating Central Bridge (cols 6-7) from vertical chute (cols 9-10).
-
-## 3F Master Boulder Push Sequence (In Progress)
-- Initial State: Boulder 1 at (22, 3).
-- Step 1: Pushed west to (21, 3).
-- Step 2: Repositioned to (21, 4), pushed North twice: (21, 3) -> (21, 2) -> (21, 1) -> (21, 0).
-- Step 3: Repositioned to (22, 0), pushed West along Row 0: (21, 0) -> (20, 0) -> (19, 0) -> (18, 0) -> (17, 0) -> (16, 0) -> (15, 0) -> (14, 0) -> (13, 0) -> (12, 0) -> (11, 0).
-- Step 4: Continuing West along Row 0 northern highway towards columns 6-8 and western chute.
+- Impassable Boundaries & Push Constraints:
+  - Row 0 Boundary: Row 0 is the northernmost map boundary. A boulder pushed onto Row 0 cannot be pushed South because the player cannot stand at Row -1. Therefore, puzzle boulders traversing west to turn south MUST be pushed along Row 1 (so the player can use Row 0 to push Down).
+  - Row 1-2 Cliff Wall: Impassable south-facing cliff wall separates Row 1 from Row 2 across columns 9-14.
+  - Central Bridge (Column 6): Spans rows 0 through 6. Terminates at (6, 6) due to an impassable cliff barrier at (6, 7).
+  - Column 19 Rock Column: Separates northern room (cols 14-18, rows 2-4) from eastern chamber (cols 20-25, rows 2-5). Bypassed seamlessly via open Row 1 (18..20, 1).
+  - Isolated NW Room: Columns 1-4, rows 0-5. Contains NW Ladder at (2, 0) and Switch Plate at (3, 5). Separated from central bridge by solid rock wall at column 5.
+- SE Lower Purple Room (rows 12-15, cols 18-26):
+  - Ladder B at (25, 14) connects to 2F SE (25, 14).
+  - Hole / Pit located at (23, 14..15).
+  - Cooltrainer at (21, 13).
+  - Shutter Barrier at (21, 15).
 
 <hr>
