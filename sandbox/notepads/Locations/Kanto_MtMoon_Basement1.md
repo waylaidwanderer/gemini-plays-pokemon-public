@@ -1,7 +1,7 @@
 # Mt. Moon Basement (Entrance Ladder 13, 27 Chamber)
 
 ## Connections
-- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27). Candidate ascending ladder back to Mt. Moon 1F.
+- Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27) (empirically verified warp on Turn 1173).
 
 ## Layout & Geography
 - Arrival Warp: Warped from 1F (13, 27) onto basement (13, 27) and automatically scripted 2 steps east to (15, 27).
