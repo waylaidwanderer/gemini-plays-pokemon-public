@@ -28,14 +28,14 @@
 # Inventory Log
 
 ## Items
-- None (Potion consumed on Sheldon Turn 396)
+- ANTIDOTE x1
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
 - TOWN MAP (received from Daisy on Turn 225)
 
 ## Money
-- ¥125
+- ¥185
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 9, Water]
