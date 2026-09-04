@@ -2774,13 +2774,9 @@
   - Contains Switch Plate at (3, 5).
   - Isolated pocket: Column 5 (x=5, y=0..6) is a solid vertical rock barrier completely separating NW room from the central bridge (cols 6-7). No direct walkable horizontal corridor between (4, 2) and (6, 2).
 
-## Active Floor State & Critical Mechanics (Turn 27304)
-- CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F! The entire floor puzzle must be executed in a single continuous visit.
-- Active Floor State (Turn 27391): Player on 3F at (16, 1). Floor reloaded after Ladder A traversal; Boulder 1 reset to (22, 3). Executing single continuous 3F puzzle solver: 1. Push Boulder 1 onto Switch (3, 5) to open Shutter (21, 15). 2. Walk to (25, 10) and push Boulder 2 left into (23, 10). 3. Walk down column 22/23 through open Shutter (21, 15). 4. Push Boulder 3 into Pit (23, 15) and jump down to 2F exit ledge!
-- Verified Walkable Bypass Tiles in NW Chamber:
-  - (3, 1) and (2, 1) are open, walkable floor tiles (traversed turns 27247-27250, 27271).
-  - (2, 2) through (2, 5) forms an open vertical corridor along column 2.
-  - (1, 4) and (1, 5) are open dark floor tiles (verified Turn 27281), allowing player to position at (1, 5) and push Boulder 1 Right onto Switch (3, 5).
+## Critical Mechanics & Reset Behavior
+- CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F, 2F, and 1F! The entire floor puzzle must be executed in a single continuous visit.
+- Dig Exit (Turn 27441): Player used Dig to heal at Viridian Pokecenter. All boulder puzzles in Victory Road are currently reset to default starting positions.
 - Switch Plate: (3, 5) in NW Room [VERIFIED ACTIVATED: Boulder 1 resting on Switch (3, 5)].
 - Shutter Barrier: Located at (17, 5) [VERIFIED PERMANENTLY OPEN].
 - Pit / Hole: Located at (23, 15) in southern sector.
