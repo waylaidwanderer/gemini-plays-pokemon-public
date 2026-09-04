@@ -2709,10 +2709,10 @@
 - Elevation Split: Upper dark plateau (rows 0-11, cols 16-28) is separated from lower light purple floor (rows 12-14) by a south-facing cliff boundary.
 - Lower Purple Floor Access: The lower purple room (cols 18-26, rows 12-14) contains Ladder B at (25, 14), Cooltrainer at (21, 13), and Shutter Gate at (21, 15).
 - Boulders on 3F:
-  - Boulder 1 (Pit Boulder): Default at (22, 3) on Upper Plateau. Pushed Up to row 1, West along top highway to western corridor, South along west corridor, East along bottom corridor into the Pit!
+  - Boulder 1 (Pit Boulder): Located on 3F Upper Plateau at (22, 3). Requires navigating around shutters/chokepoints to push into Pit at (23, 15).
   - Boulder 2: Default at (24, 10) in southeastern corridor.
   - Boulder 3: Default at (13, 12) between rock walls in central chamber. (Empirically verified: pushing South to (13, 13) is a dead end chokepoint).
-- Progression Objective: Push Boulder on 3F into the Pit, then jump down the Pit to 2F exit ledge!
+- Progression Objective: Push 3F Pit Boulder into the Pit to trigger 2F switch, then jump down Pit to 2F exit ledge!
 
 <hr>
 
