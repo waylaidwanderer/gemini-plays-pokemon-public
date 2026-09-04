@@ -2,6 +2,7 @@
 
 ## Connections
 - South Exit: Warp at (14, 35) leading outside to Route 4.
+- Ladder (17, 11): Ladder in north-central corridor.
 - Ladder (25, 15): Ladder in northeast corridor descending to B1F.
 
 ## Layout & Corridors
