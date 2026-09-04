@@ -2,6 +2,7 @@
 
 ## Connections
 - South: Route 1 entrance at (21, 36).
+- North: Route 2 entrance at (18..19, 0).
 
 ## Geography & Layout
 - Main Thoroughfare: Columns 20-21 form the primary north-south street connecting Route 1 (south) to Route 2 (north).
