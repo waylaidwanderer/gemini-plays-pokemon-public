@@ -18,7 +18,7 @@
 ## Verified 3F Coordinates & Visual Observations (Turn 26849/26890)
 - Ladder A (from 2F (23, 7)): (23, 7) [Physically traversed]
 - Ladder NE (to 2F): (26, 8) [Visual observation from Ladder A]
-- Boulder 1: (22, 3) on northern corridor [Visual observation]
+- Boulder 1: (14, 1) along northern Row 1 highway (pushed from (22, 3)) [Verified Turn 27121]
 - Boulder 2: (24, 10) in southeastern sector [Visual observation]
 - Boulder 3: (22, 15) in southern sector [Visual observation]
 - The Pit / Hole: Located at (23, 15) in the southern sector [Visual observation]
