@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Squirtle (SHELDON) Lv 16
+- Active Team: Wartortle (SHELDON) Lv 16
 - Money: ¥1621
 - Pokédex: 1 Caught / 11 Seen
 
@@ -45,7 +45,7 @@
 - ¥1621
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 16, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 16, Water]
   - Status: Healthy
   - HP: 29 / 41
   - Stats: Attack 24, Defense 30, Speed 24, Special 25
