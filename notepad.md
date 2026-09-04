@@ -227,7 +227,7 @@
 ## Connections
 - South: Route 1 (y=35)
 - North: Route 2 / Viridian Forest (y=0)
-- West: Route 22 (y=16)
+- West: Route 22 (y=8..9)
 
 ## Buildings & Verified Points of Interest
 - Pokémon Center: Located at (23, 25) [Observed Turn 65]. Heals party for free.
