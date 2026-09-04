@@ -50,3 +50,5 @@
 - Enemy: Weedle (Lv 6, Bug/Poison).
 - Player: Squirtle (SHELDON) Lv 8 (HP 12/25).
 - Turn 381: Sheldon used Bubble! Dealt ~45% max HP to Weedle Lv 6 and triggered secondary effect: Enemy Weedle's Speed fell!
+- Move Menu Memory: In battle, the move selection cursor retains its previous position from the last turn. It does not reset to Slot 1.
+- Turn 383: Sheldon used Tail Whip! Lowered Weedle's Defense by 1 stage. Weedle now at -1 Speed, -1 Defense, ~55% HP.
