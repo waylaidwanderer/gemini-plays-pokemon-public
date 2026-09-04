@@ -3,7 +3,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x4
-- POTION x2
+- POTION x3
 - ESCAPE ROPE x1
 - ANTIDOTE x0 (Depleted)
 - TM12 (WATER GUN)
