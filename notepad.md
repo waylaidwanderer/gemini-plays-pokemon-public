@@ -29,7 +29,7 @@
 
 ## Items
 - POTION x1
-- POKé BALL x1 (purchased at Viridian Poké Mart on Turn 284 for ¥200)
+- POKé BALL x1
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
