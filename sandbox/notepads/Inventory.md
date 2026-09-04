@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKÃ© BALL x2
+- POKé BALL x2
 - POTION x3
 - ESCAPE ROPE x1
 - ANTIDOTE x0 (Depleted)
@@ -10,12 +10,12 @@
 - TM34 (BIDE)
 
 ## Key Items
-- POKÃ©DEX
+- POKéDEX
 
 ## Money
-- Â¥2531
+- ¥2531
 
-## Party PokÃ©mon
+## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 19, Water]
   - Status: Healthy
   - HP: 17 / 54
@@ -25,4 +25,7 @@
   - Status: Healthy
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
-  - Moves: Pending in-game verification
+  - HP: 26 / 26
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+  - Moves: Tackle (PP 35/35)
+  - EXP: 314 (105 to Lv 9)

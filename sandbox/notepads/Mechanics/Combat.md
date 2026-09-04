@@ -91,3 +91,7 @@
 - Leader Geodude Lv 12: 220 EXP
 - Trainer Jigglypuff Lv 14: 228 EXP
 - Leader Onix Lv 14: 324 EXP
+## Party Member Reference: Rocky (Geodude)
+- Level 8 Caught Stats: Max HP 26, Attack 19, Defense 22, Speed 9, Special 11
+- Moves: Tackle (PP 35/35)
+- EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
