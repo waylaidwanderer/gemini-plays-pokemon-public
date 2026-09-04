@@ -162,6 +162,7 @@
 - Trainer Pidgey Lv 9: 105 EXP
 - Trainer Weedle Lv 9: 99 EXP
 - Trainer Kakuna Lv 9: 136 EXP
+- Trainer Kakuna Lv 11: 166 EXP
 - Trainer Caterpie Lv 9: 102 EXP
 - Trainer Metapod Lv 9: 138 EXP
 - Trainer Metapod Lv 11: 169 EXP
