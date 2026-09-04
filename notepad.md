@@ -47,7 +47,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 16, Water]
   - Status: Healthy
-  - HP: 29 / 41
+  - HP: 34 / 46
   - Stats: Attack 24, Defense 30, Speed 24, Special 25
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 12/25)
 
@@ -136,7 +136,8 @@
   - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23
   - Level 15: Max HP 39, Attack 23, Defense 29, Speed 23, Special 24 (Learns Water Gun, fills Slot 4)
-  - Level 16: Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
+  - Level 16 (Squirtle): Max HP 41, Attack 24, Defense 30, Speed 24, Special 25
+  - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46, verified Turn 847)
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
