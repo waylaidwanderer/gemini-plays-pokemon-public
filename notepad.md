@@ -43,11 +43,12 @@
 - ¥725
 
 ## Party Pokémon
-- SQUIRTLE (Nickname: SHELDON) [Lv 10, Water]
+- SQUIRTLE (Nickname: SHELDON) [Lv 11, Water]
   - Status: Healthy
-  - HP: 29 / 29
-  - Stats: Attack 17, Defense 20, Speed 17, Special 17
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 30/30)
+  - HP: 8 / 31 (healing with Potion this turn)
+  - Stats: Attack 18, Defense 22, Speed 18, Special 19
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 29/30), Bubble (PP 28/30)
+
 
 <hr>
 
