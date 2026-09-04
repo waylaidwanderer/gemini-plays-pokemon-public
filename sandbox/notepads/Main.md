@@ -14,4 +14,6 @@
 - [x] Reach Viridian City via Route 1 [Turn 132]
 - [x] Visit Viridian City Poké Mart [Turn 169]
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
-- [ ] Obtain Pokédex from Prof. Oak [Started Turn 211]
+- [x] Obtain Pokédex from Prof. Oak [Turn 214]
+- [ ] Obtain Town Map from Daisy in Pallet Town
+- [ ] Return to Viridian City & purchase Poké Balls

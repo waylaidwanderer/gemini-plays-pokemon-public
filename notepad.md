@@ -16,7 +16,9 @@
 - [x] Reach Viridian City via Route 1 [Turn 132]
 - [x] Visit Viridian City Poké Mart [Turn 169]
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
-- [ ] Obtain Pokédex from Prof. Oak [Started Turn 211]
+- [x] Obtain Pokédex from Prof. Oak [Turn 214]
+- [ ] Obtain Town Map from Daisy in Pallet Town
+- [ ] Return to Viridian City & purchase Poké Balls
 
 <hr>
 
@@ -28,7 +30,8 @@
 - POTION x2 (x1 from bedroom PC on Turn 18, x1 from Route 1 Mart clerk sample on Turn 76)
 
 ## Key Items
-- OAK'S PARCEL (received from Viridian City Poké Mart clerk on Turn 171)
+- POKéDEX (received from Prof. Oak on Turn 214)
+(Note: OAK'S PARCEL delivered to Prof. Oak on Turn 211)
 ## Money
 - ¥175 (won from Rival RED in Oak's Lab on Turn 58)
 
