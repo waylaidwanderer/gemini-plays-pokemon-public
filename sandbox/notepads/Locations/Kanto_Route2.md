@@ -9,4 +9,5 @@
 - Boundaries: Fences on west (column 6), dense trees on east (columns 10..13).
 - Row 67: Paved striped road at columns 8-9; flower patch to the west (columns 4..7).
 - Rows 64..65: Paved cross street connects west to column 4; signpost located at (5, 65).
-- Row 61 Ledge: South-facing ledge spans columns 2..11 (trees at 12..13), completely blocking northward travel on columns 8-9. Northbound passage requires detouring via western branch at row 64.
+- Row 61 Ledge & Northbound Ramp: South-facing ledge spans across columns 2..6 and 8..11. Tile (7, 61) is a verified passable tan ramp/gap providing direct northward passage from row 62 to the open highway at row 60+.
+- Rows 58..59: Wide paved highway spanning columns 4..9 heading north toward Viridian Forest.
