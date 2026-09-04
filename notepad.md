@@ -36,7 +36,7 @@
 - TOWN MAP (received from Daisy on Turn 225)
 
 ## Money
-- ¥125 (¥325 - ¥200 for 1 Poké Ball on Turn 284)
+- ¥125
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 7, Water]
