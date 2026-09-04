@@ -356,6 +356,6 @@
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
 - Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
 - Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
-- Eastern Ledge & Ramp (37, 7): Visual hypothesis - upper terrace appears to extend across rows 4..6 (cols 34..37) with ledge at row 7 and ramp texture at (37, 7) (pending empirical traversal verification).
+- Eastern Ledge & Ramp (37, 7): Empirically verified passable ramp. Stepping North from (37, 8) stepped through (37, 7) onto the upper terrace at (37, 6), connecting the lower road to the upper highway.
 
 <hr>
