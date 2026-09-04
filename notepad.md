@@ -170,6 +170,9 @@
 - Rows 48..51: Tall grass patch spanning columns 4..9.
 - Row 47 Ledge & Passage: South-facing ledge spans columns 0..7; open passage at columns 8..9 leads north to the row 46 paved road.
 - Viridian Forest Gatehouse: Located at (3..5, 42..43) with entrance door at (3, 43). Row 46 paved road connects column 8 to the gatehouse courtyard at columns 3..9.
+## Northern Section (North of Viridian Forest)
+- Gatehouse Exit: Player emerges from the north gatehouse at (3, 11) facing north. Gatehouse door at (3, 15).
+- Paved Street (Rows 8..9): Wide east-west paved avenue connecting directly into Pewter City.
 
 <hr>
 
