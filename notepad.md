@@ -353,5 +353,8 @@
   - Middle Tier (Rows 8..10): Guarded by Lass (16, 9); NPC stationed at (22, 9). Blocked by trees at col 17 (rows 6..11) and col 23.
   - Lower Tier (Rows 12..13): Southern tall grass trench. Accessible via jumping row 11 ledge or through (15, 11) ramp. Bounded by trees at (23, 12..13) and cliff at (9, 12).
 - Eastern Ledge & Ramp at (27, 7): Empirically verified walkable tile. Stepping South from (27, 6) landed directly onto (27, 7) without jumping, confirming it is an open pathway connecting the upper terrace to the lower tier.
+- Eastern Highway Trainer (33, 10): Stationed at (33, 10) facing North across row 8 road.
+- Eastern Road (Cols 28..37, Rows 8..9): Wide 2-tile tall open clear-ground road running East past column 37 toward Mt. Moon.
+- Eastern Ledge & Ramp (37, 7): Upper terrace extends across rows 4..6 (cols 34..37) with ledge at row 7 and ramp at (37, 7).
 
 <hr>
