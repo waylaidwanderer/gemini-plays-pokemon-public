@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Items
-- POTION x1 (x1 sold to Viridian Poké Mart on Turn 281 for ¥150)
+- POTION x1
 - POKé BALL x1 (purchased at Viridian Poké Mart on Turn 284 for ¥200)
 
 ## Key Items
