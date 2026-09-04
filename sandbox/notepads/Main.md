@@ -20,3 +20,4 @@
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
+- [ ] Traverse Route 3 and reach Mt. Moon

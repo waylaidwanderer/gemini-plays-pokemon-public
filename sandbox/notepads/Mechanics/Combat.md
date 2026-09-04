@@ -38,7 +38,7 @@
   - Status Affliction Risk: Poison Sting inflicts Poison on hit (~20-30% chance). Poison deals periodic 1/16 max HP damage in battle and 4 HP every 4 overworld steps.
 
 ## Experience & Growth Curves
-- Level Milestones (Medium-Slow Curve):
+- Level Milestones:
   - Level 7: 318 EXP
   - Level 8: 482 EXP (Learns Bubble, fills Slot 3)
   - Level 9: 703 EXP

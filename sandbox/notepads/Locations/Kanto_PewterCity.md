@@ -51,5 +51,5 @@
   - Row 5: Boulder at (5, 5).
   - Row 3: Boulders at columns 1..3 and 6..8 flanking the northern platform passage at columns 4..5.
   - Row 0: Solid northern boundary boulder wall across columns 0..9.
-- Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6). Defeated on Turn 576.
-- Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2). Defeated on Turn 594.
+- Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6).
+- Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2).
