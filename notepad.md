@@ -52,7 +52,7 @@
   - Status: Healthy
   - HP: 37 / 54
   - Stats: Attack 34, Defense 41, Speed 34, Special 35
-  - Moves: Tackle (PP 26/35), Tail Whip (PP 30/30), Bubble (PP 11/30), Water Gun (PP 1/25)
+  - Moves: Tackle (PP 25/35), Tail Whip (PP 30/30), Bubble (PP 11/30), Water Gun (PP 1/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
