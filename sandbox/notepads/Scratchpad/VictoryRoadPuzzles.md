@@ -20,19 +20,12 @@
   9. Walk North along Column 23: (23, 11) -> (23, 7).
   10. Step onto Ladder A at (23, 7) to ascend to 3F!
 
-## Floor 3F Puzzle & Route to Indigo Plateau (VERIFIED PUZZLE MECHANIC)
-- Switch Mechanism: Pressure switches in Gen 1 require a BOULDER resting on top to permanently hold shutter gates open (stepping off closes them).
-- Switch (3, 5): Located in NW Room at (3, 5). Controls Shutter Barrier at (17, 5).
-- Boulder 1 Master Push Path to Switch (3, 5) (SOLVED & VERIFIED):
-  1. Boulder 1 pushed along Row 1 highway to (6, 1).
-  2. Stand at (6, 0) -> push Down to (6, 2).
-  3. Stand at (7, 2) -> push Left along Row 2 to (2, 2).
-  4. Stand at (2, 1) -> push Down along col 2 to (2, 5).
-  5. Stand at (1, 5) -> push Right onto Switch Plate (3, 5).
-  6. Outcome: Switch (3, 5) permanently held down; Shutter (17, 5) permanently opened!
-- Final Progression to Indigo Plateau:
-  1. Walk via Row 2 and Row 1 to (17, 1).
-  2. Walk South through permanently open Shutter (17, 5) into Southern Sector.
-  3. Push Boulder 3 from (22, 15) East into Pit at (23, 15).
-  4. Jump down Pit at (23, 15) to land on 2F exit ledge (dropped boulder presses 2F switch).
-  5. Climb 2F exit ladder to Route 23 North / Indigo Plateau!
+## Floor 3F Puzzle & Topology (EMPIRICALLY VERIFIED)
+- Verified Column 5 Barrier (Turn 27407): Column 5 (x=5, y=0..6) is a solid vertical rock wall separating the central bridge (cols 6-7) from the Northwest Room (cols 1-4).
+- Northwest Room Access: The NW room (containing Switch Plate at (3, 5)) is an isolated pocket accessed exclusively via 2F NW Ladder at (1, 1) <-> 3F (2, 0).
+- Elevation Split: Upper dark plateau (rows 0-11, cols 16-28) is separated from lower light purple floor (rows 12-14) by a south-facing cliff boundary.
+- Lower Purple Floor Access: The lower purple room (cols 18-26, rows 12-14) contains Ladder B at (25, 14), Cooltrainer at (21, 13), and Shutter Gate at (21, 15).
+- Boulders on 3F:
+  - Boulder 1: Default at (22, 3) on Upper Plateau.
+  - Boulder 2: (12, 9) in Western Purple Chamber.
+- Progression Objective: Drop boulder down the pit to hold the 2F switch and unlock the exit path to Indigo Plateau!
