@@ -11,3 +11,4 @@
 - Pokémon Center: Located at (12..15, 23..25). Entrance door at (13, 25) with "POKé" sign at (14, 25).
 - City Signpost: Located at (19, 29).
 - NPC: Stationed at (17, 25) outside the Pokémon Center.
+- Main Avenue (Cols 18..19, Rows 22..27): 2-tile wide clear north-south thoroughfare connecting southern entrance to row 22 cross-street.
