@@ -1,10 +1,9 @@
 # Viridian Forest Geography & Navigation
 
 ## Connections
-- South: Southern gatehouse from Route 2.
-- North: Northern gatehouse to Route 2 (Pewter City side).
+- South: Southern gatehouse from Route 2; player enters at (17, 47) [Turn 335].
 
-## Key Strategy & Features
-- Items to find: Poké Ball (ground item), Antidote (ground item), Potion (ground item).
-- Wild Pokémon: Caterpie, Weedle, Metapod, Kakuna, Pikachu (rare).
-- Trainers: Bug Catchers (Weedle, Caterpie lines). Sheldon's Bubble and Tackle outspeed and deal high damage.
+## Verified Geography & Landmarks
+- Southern Entry Corridor (Rows 44..47): Open path across columns 15..18, bounded by stone posts at columns 14 and 19.
+- Signpost: Located at (18, 45).
+- Resident/NPC: NPC located at (16, 43).
