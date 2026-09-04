@@ -37,8 +37,8 @@
 - POK� BALL x2
 - ESCAPE ROPE x1
 - TM34 (BIDE) x1
-- POTION x1
 - TM12 (WATER GUN) x1
+- POTION x0 (Depleted)
 - ANTIDOTE x0 (Depleted)
 
 ## Key Items
@@ -50,11 +50,12 @@
 ## Party Pok�mon
 - WARTORTLE (Nickname: SHELDON) [Lv 19, Water]
   - Status: Healthy
-  - HP: 17 / 54
+  - HP: 37 / 54
   - Stats: Attack 34, Defense 41, Speed 34, Special 35
   - Moves: Tackle (PP 27/35), Tail Whip (PP 30/30), Bubble (PP 11/30), Water Gun (PP 1/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
+  - HP: 19 / 19
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
