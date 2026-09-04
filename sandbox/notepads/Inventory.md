@@ -20,3 +20,5 @@
   - HP: 32 / 49
   - Stats: Attack 31, Defense 37, Speed 31, Special 32
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 1/25)
+- SPEAROW [Lv 5, Normal/Flying]
+  - Status: Healthy

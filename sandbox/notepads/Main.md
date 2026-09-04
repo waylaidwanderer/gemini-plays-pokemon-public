@@ -4,7 +4,7 @@
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 17, Spearow Lv 5
 - Money: ¥2091
-- Pokédex: 1 Caught / 11 Seen
+- Pokédex: 2 Caught / 11 Seen
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
