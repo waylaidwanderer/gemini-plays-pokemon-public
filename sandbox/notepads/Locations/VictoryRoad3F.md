@@ -7,7 +7,7 @@
 - Ladder B (from 2F SE (25, 14)): Located at (25, 14) in SE Lower Purple Room (rows 12-14)
 
 ## Physical Features & Topography
-- Upper Dark Plateau (rows 0-11, cols 12-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder at (22, 10). Solid rock walls at (9, 0..10) completely block westward access to Western Bridge. Separated from lower purple floor by impassable south-facing cliff wall between row 11 and 12.
+- Upper Dark Plateau (rows 0-11, cols 12-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder at (22, 3). Separated from lower purple floor by impassable south-facing cliff wall between row 11 and 12. Row 1-2 boundary across cols 9-14 is an impassable upper cliff wall.
 - SE Lower Purple Room (rows 12-14, cols 18-26):
   - Ladder B at (25, 14) connects to 2F SE (25, 14).
   - Cooltrainer at (21, 13).
