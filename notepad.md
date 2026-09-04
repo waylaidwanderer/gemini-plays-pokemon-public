@@ -33,7 +33,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x5
-- POTION x3
+- POTION x2
 - ESCAPE ROPE x1
 - ANTIDOTE x0 (Depleted)
 - TM34 (BIDE)
@@ -47,7 +47,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 17, Water]
   - Status: Healthy
-  - HP: 12 / 49
+  - HP: 32 / 49
   - Stats: Attack 31, Defense 37, Speed 31, Special 32
   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 21/30), Water Gun (PP 1/25)
 
@@ -361,7 +361,7 @@
 - Far Eastern Mountain Spur (Col 50): Solid mountain cliff blocks eastward passage on rows 3..7.
 - Far Eastern Ramp (49, 7): Tan dirt ramp connecting row 6 down to rows 8..9, routing path south around the mountain spur toward Mt. Moon.
 - Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54 directly toward the Mt. Moon entrance and Pokémon Center.
-- Route 3 Pokémon Center: Located at (58..59, 8..9). Entrance door at (58, 9).
+- Impassable Monument (58..59, 8..9): Impassable structure/boundary at the western edge of the eastern grass field.
 - Youngster Calvin (57, 11): Stationed at (57, 11) facing West across row 11 road.
 - Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area south of the Pokémon Center.
 
