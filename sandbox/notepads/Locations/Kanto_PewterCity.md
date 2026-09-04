@@ -32,6 +32,7 @@
 - City Entrance Signpost: Located at (19, 29). Reads: "PEWTER CITY - A Stone Gray City".
 - Garden Signpost: Located at (25, 23) along the north fence of the garden. Reads: "PEWTER CITY - A Stone Gray City".
 - Western Signpost: Located at (11, 17) outside the western entrance to the Gym courtyard.
+- Eastern Notice Signpost: Located at (33, 19) at the eastern exit road to Route 3. Reads: "NOTICE! Thieves have been stealing POKÈMON fossils at MT. MOON! Please call PEWTER POLICE with any info!".
 
 ## NPCs
 - Center Exterior NPC: Stationed at (17, 25) outside the Pok√©mon Center.
