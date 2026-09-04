@@ -2790,6 +2790,7 @@
 - Ladder NE (to 2F): (26, 8) [Visual observation from Ladder A]
 - Boulder 1 Initial Start: (22, 3)
 - Boulder 2: (24, 10) in southeastern sector
+- SW Sector Boulder: (13, 12) between rock walls (12, 12) and (14, 12)
 - Boulder 3: (22, 15) in southern sector
 - Cooltrainers: (28, 5) and (13, 3) [Both defeated]
 
