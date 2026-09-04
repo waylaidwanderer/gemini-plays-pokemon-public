@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 18, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
+- Active Team: Wartortle (SHELDON) Lv 19, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
 - Money: ¥2531
 - Pokédex: 3 Caught / 12 Seen
 
@@ -48,10 +48,10 @@
 - ¥2531
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 18, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 19, Water]
   - Status: Healthy
-  - HP: 14 / 51
-  - Stats: Attack 32, Defense 39, Speed 33, Special 33
+  - HP: 17 / 54
+  - Stats: Attack 34, Defense 41, Speed 34, Special 35
   - Moves: Tackle (PP 29/35), Tail Whip (PP 30/30), Bubble (PP 11/30), Water Gun (PP 1/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -153,6 +153,7 @@
   - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46)
   - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
   - Level 18: Max HP 51, Attack 32, Defense 39, Speed 33, Special 33
+  - Level 19: Max HP 54, Attack 34, Defense 41, Speed 34, Special 35
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
