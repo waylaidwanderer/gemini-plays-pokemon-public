@@ -44,6 +44,7 @@
   - Level 9: 703 EXP
   - Level 10: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
   - Level 11: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19 (reached on Turn 561)
+  - Level 12: Baseline stats intermediate between Lv 11 and Lv 13 (reached during Liam battle, Turn 576)
   - Level 13: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21 (reached on Turn 594)
   - Level 14: Max HP 37, Attack 22, Defense 27, Speed 22, Special 23 (reached on Turn 656)
 
