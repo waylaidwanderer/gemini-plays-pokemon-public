@@ -14,10 +14,10 @@
 ## Key Buildings
 - Pokémon Center: Located at (22..25, 24..25) with entrance door at (23, 25) and sign at (24, 25).
 - Poké Mart: Located at (28..31, 18..19) with entrance door at (29, 19) and "MART" sign at (30, 19).
-  - Verified Stock & Prices (Turn 277):
+  - Verified Stock & Prices:
     - POKé BALL: ¥200
     - ANTIDOTE: ¥100
     - PARLYZ HEAL: ¥200
     - BURN HEAL: ¥250
-  - Verified Resale Values (Turn 280):
+  - Verified Resale Values:
     - POTION: ¥150
