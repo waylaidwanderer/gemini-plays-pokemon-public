@@ -2771,8 +2771,8 @@
   - Contains Boulder at (13, 13). (Western Bridge terminates at row 6/7 against solid rock).
 - Northwest Room (rows 0-5, cols 1-4):
   - Contains NW Ladder at (2, 0) connecting to 2F (1, 1).
-  - Contains Switch Plate at (3, 5) which opens Shutter Barrier at (17, 5).
-  - Connects to Western Bridge / Eastern Plateau via open Row 2 walkway: (2, 2) <-> (3, 2) <-> (4, 2) <-> (5, 2) <-> (6, 2).
+  - Contains Switch Plate at (3, 5).
+  - Isolated pocket: Column 5 (x=5, y=0..6) is a solid vertical rock barrier completely separating NW room from the central bridge (cols 6-7). No direct walkable horizontal corridor between (4, 2) and (6, 2).
 
 ## Active Floor State & Critical Mechanics (Turn 27304)
 - CRITICAL MECHANIC: Floor transitions (stairs/ladders) or Dig/Escape Rope reset all boulder positions and non-persistent puzzle states on 3F! The entire floor puzzle must be executed in a single continuous visit.
