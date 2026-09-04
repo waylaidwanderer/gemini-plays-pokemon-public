@@ -61,6 +61,7 @@
   - Level 16 (Wartortle): Max HP 46 (Current HP scaled to 34 / 46)
   - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
   - Level 18: Max HP 51, Attack 32, Defense 39, Speed 33, Special 33
+  - Level 19: Max HP 54, Attack 34, Defense 41, Speed 34, Special 35
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP

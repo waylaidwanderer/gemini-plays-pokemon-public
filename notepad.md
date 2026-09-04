@@ -52,7 +52,7 @@
   - Status: Healthy
   - HP: 14 / 51
   - Stats: Attack 32, Defense 39, Speed 33, Special 33
-  - Moves: Tackle (PP 30/35), Tail Whip (PP 30/30), Bubble (PP 11/30), Water Gun (PP 1/25)
+  - Moves: Tackle (PP 29/35), Tail Whip (PP 30/30), Bubble (PP 11/30), Water Gun (PP 1/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
