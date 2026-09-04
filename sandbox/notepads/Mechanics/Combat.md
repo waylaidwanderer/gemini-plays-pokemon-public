@@ -43,6 +43,8 @@
   - Trainer Caterpie Lv 6: ~66 EXP
   - Trainer Weedle Lv 9: 99 EXP
 - Level 10 Stats: Max HP 29, Attack 17, Defense 20, Speed 17, Special 17 (reached on Turn 466)
+- Level 11 Stats: Max HP 31, Attack 18, Defense 22, Speed 18, Special 19 (reached on Turn 561)
+- Level 13 Stats: Max HP 35, Attack 20, Defense 25, Speed 20, Special 21 (reached on Turn 594)
 - Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2, not Slot 3. To reach Slot 3 from Slot 1 requires pressing "Down" twice.
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
@@ -59,3 +61,4 @@
   - Enemy Sandshrew Lv 11 Scratch vs Defense 22: 9 damage on critical hit (Turn 566).
 
 - Leader Geodude Lv 12: 220 EXP
+- Leader Onix Lv 14: 324 EXP

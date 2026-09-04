@@ -1,8 +1,8 @@
 # Pokémon Blue - Journey Log
 
 ## Status
-- Badges: 0 / 8
-- Active Team: Squirtle (SHELDON) Lv 12
+- Badges: 1 / 8 (Boulderbadge)
+- Active Team: Squirtle (SHELDON) Lv 13
 - Money: ¥945
 - Pokédex: 1 Caught / 2 Seen (Bulbasaur seen)
 
@@ -19,4 +19,4 @@
 - [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 - [x] Reach Pewter City [Turn 495]
-- [ ] Defeat Pewter Gym Leader Brock
+- [x] Defeat Pewter Gym Leader Brock [Turn 594]
