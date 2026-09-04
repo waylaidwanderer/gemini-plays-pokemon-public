@@ -4,7 +4,7 @@
 - POTION x2 (x1 from bedroom PC on Turn 18, x1 from Route 1 Mart clerk sample on Turn 76)
 
 ## Key Items
-- None
+- OAK'S PARCEL (received from Viridian City Poké Mart clerk on Turn 171)
 ## Money
 - ¥175 (won from Rival RED in Oak's Lab on Turn 58)
 
