@@ -362,7 +362,8 @@
 - Far Eastern Ramp (49, 7): Tan dirt ramp connecting row 6 down to rows 8..9, routing path south around the mountain spur toward Mt. Moon.
 - Southern Bypass around Mountain (Rows 10..12, Cols 49..54+): Mountain cliff terminates at row 9. Rows 10 and 11 form a wide open clear-ground highway running east past column 54 directly toward the Mt. Moon entrance and Pokémon Center.
 - Impassable Monument (58..59, 8..9): Impassable structure/boundary at the western edge of the eastern grass field.
-- Youngster Calvin (57, 11): Stationed at (57, 11) facing West across row 11 road.
+- Resting NPC (57, 11): Youngster stationed at (57, 11). Dialogue: "Whew... I better take a rest...". Friendly NPC, not a battle.
+- North Ramp at (57, 7): Tan dirt ramp at (57, 7) connecting the lower road (rows 8..10) to the upper northern plateau (row 6 and north toward Mt. Moon).
 - Eastern Grass Field (Cols 58..62, Rows 10..13): Tall grass area south of the Pokémon Center.
 
 <hr>
