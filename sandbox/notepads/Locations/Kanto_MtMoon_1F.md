@@ -13,7 +13,7 @@
 - Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel across columns 10..22 (empirically verified collision at (17, 21)).
 - Western Cavern Corridor (Cols 0..13, Rows 22..29): Wide open cavern passage leading west toward items and northwest ladder.
 - Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
-- Trainer (7, 22): Stationed at (7, 22) facing South down column 7.
+- Bug Catcher (7, 22): Stationed at (7, 22) facing South down column 7. Team: 2 Pokémon.
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
 - Ground Item (2, 20): POTION collected.
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east-west south of the Northern Boundary Wall, passing behind Bug Catcher Kent (16, 23) and connecting Eastern Avenue (col 21) west into Western Cavern Corridor.
