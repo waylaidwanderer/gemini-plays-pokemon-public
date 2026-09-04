@@ -49,7 +49,7 @@
   - Status: Healthy
   - HP: 27 / 37
   - Stats: Attack 22, Defense 27, Speed 22, Special 23
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 24/30)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 23/30)
 
 
 <hr>
