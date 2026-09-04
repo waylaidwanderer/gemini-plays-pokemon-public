@@ -2700,6 +2700,19 @@
   2. On 2F, walk west across light purple floor to NW Ladder (1, 1).
   3. Ascend NW Ladder to 3F NW room (2, 0).
   4. Walk south across Western Bridge to SW sector, solve SW puzzle, push Pit Boulder into Hole to unlock 2F exit!
+## Master Victory Road Final Solution & Execution Plan (Verified Turn 26967)
+1. From 3F (23, 8), take Ladder A at (23, 7) down to 2F (23, 7).
+2. On 2F, traverse the verified open corridor to NW Ladder at (1, 1):
+   - (23, 7) -> South to (23, 11) -> East to (29, 11) -> South to (29, 16) -> West to (21, 16).
+   - North through Shutter 3 (21, 15) to (21, 14).
+   - West across lower light purple floor (row 14) to (5, 14).
+   - North through Shutter 1 (5, 10) to (5, 8) -> West to (1, 8) -> North to (1, 1).
+3. Ascend NW Ladder at (1, 1) to arrive on 3F NW Room at (2, 0).
+4. Activate Strength on 3F NW.
+5. Walk South down the western corridor to the SW / South sector.
+6. Push the SW Boulder east along the southern corridor into the Pit at (23, 15).
+7. Jump into the Pit at (23, 15) to drop down to the 2F exit platform!
+8. Climb the 2F exit ladder to reach Route 23 North / Indigo Plateau!
 
 <hr>
 
