@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Items
-- POTION x1
+- None (Potion consumed on Sheldon Turn 396)
 
 ## Key Items
 - POKéDEX (received from Prof. Oak on Turn 214)
@@ -12,6 +12,6 @@
 
 ## Party Pokémon
 - SQUIRTLE (Nickname: SHELDON) [Lv 8, Water]
-  - HP: 4 / 25
+  - HP: 24 / 25
   - Stats: Attack 14, Defense 17, Speed 14, Special 15
   - Moves: Tackle (PP 31/35), Tail Whip (PP 30/30), Bubble (PP 25/30)
