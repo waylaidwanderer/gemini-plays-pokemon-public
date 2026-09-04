@@ -3,7 +3,8 @@
 ## Connections
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (25, 15): Ladder in northeast corridor descending to B1F.
+- Ladder (21, 17): Ladder visible in north-east area.
+- Eastern Corridor (Cols 24..27, Rows 14..19+): 4-tile wide north-south cavern passage. Note: Tile (25, 15) is regular cave floor, NOT a ladder.
 
 ## Layout & Corridors
 - Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
