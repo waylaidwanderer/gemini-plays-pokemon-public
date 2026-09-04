@@ -149,6 +149,7 @@
 - Trainer Weedle Lv 10: 111 EXP
 - Trainer Diglett Lv 11: 190 EXP
 - Trainer Sandshrew Lv 11: 219 EXP
+- Trainer Ekans Lv 11: 145 EXP
 - Leader Geodude Lv 12: 220 EXP
 - Leader Onix Lv 14: 324 EXP
 
