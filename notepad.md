@@ -22,6 +22,7 @@
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
+- [ ] Traverse Route 3 and reach Mt. Moon
 
 <hr>
 
@@ -122,7 +123,7 @@
   - Status Affliction Risk: Poison Sting inflicts Poison on hit (~20-30% chance). Poison deals periodic 1/16 max HP damage in battle and 4 HP every 4 overworld steps.
 
 ## Experience & Growth Curves
-- Level Milestones (Medium-Slow Curve):
+- Level Milestones:
   - Level 7: 318 EXP
   - Level 8: 482 EXP (Learns Bubble, fills Slot 3)
   - Level 9: 703 EXP
@@ -231,7 +232,7 @@
 - West-Central Corridor (Cols 11..13, Rows 12..19): Northbound corridor bounded by column 9-10 stone posts on the west and column 14-15 trees on the east, connected to the north-central avenue via row 16-17 clear grass.
 - Northern Exit Gatehouse (Cols 1..3, Rows 0..2): Visually confirmed gatehouse building structure at the northwest corner of the map. Accessible via the column 2 avenue.
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
-- Bug Catcher (2, 18): Defeated on Turn 467. Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
+- Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.
 
 <hr>
 
@@ -290,8 +291,8 @@
   - Row 5: Boulder at (5, 5).
   - Row 3: Boulders at columns 1..3 and 6..8 flanking the northern platform passage at columns 4..5.
   - Row 0: Solid northern boundary boulder wall across columns 0..9.
-- Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6). Defeated on Turn 576.
-- Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2). Defeated on Turn 594.
+- Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6).
+- Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2).
 
 
 <hr>
