@@ -2738,19 +2738,6 @@
   8. Walk North along Column 29: (29, 16) -> (29, 11).
   9. Walk West to Ladder B at (25, 14) or Ladder NE at (27, 7) / Ladder A at (23, 7).
 
-## Verified Master Boulder 2 Solution (Verified Turn 29073)
-- Topology Discovery: Tile (1, 13) is a solid rock obstacle. Pushing Boulder 2 to (1, 14) corners it against (0, 14) and (1, 13). The correct path routes down Column 3 and west along Row 16!
-- Master Push Sequence:
-  1. Stand at (5, 14) facing West -> Push Left 1 time to (3, 14) [Boulder at (3, 14), Player at (4, 14)].
-  2. Reposition around to (3, 13) via (4, 13) -> (3, 13).
-  3. Stand at (3, 13) facing South -> Push Down 2 times:
-     - Push Down 1: Boulder at (3, 15), Player at (3, 14).
-     - Push Down 2: Boulder at (3, 16), Player at (3, 15).
-  4. Reposition around to (4, 16) via (4, 15) -> (4, 16) [facing West].
-  5. Stand at (4, 16) facing West -> Push Left 2 times:
-     - Push Left 1: Boulder at (2, 16), Player at (3, 16).
-     - Push Left 2: Boulder at (1, 16) [ON SWITCH 1!], Player at (2, 16).
-- Outcome: Switch 1 at (1, 16) activated! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened.
 
 ## Optimal Column 4 Master Boulder 2 Solution (Verified Turn 29079)
 - Note: Strength expires on floor transitions and must be re-cast upon arriving on 2F!
@@ -2777,7 +2764,7 @@
 - Ladder A (from 2F (23, 7)): Arrival tile at (23, 7) on upper plateau from 2F (23, 7). (Note: Descent from 3F (23, 7) is not bidirectional; use Ladder NE at (27, 7) or Ladder B at (25, 14) to descend).
 - Ladder NE (to 2F): Located at (27, 7) (accessed from Upper Dark Plateau via row 6). Note: Row 10 is a solid wall blocking northward traversal along column 29 from (29, 11).
 - Ladder B (to 2F SE): Located at (25, 14) in SE Lower Purple Room
-- THE PIT / HOLE: Located at (23, 14). Dropping a boulder through this hole is the planned mechanism to land on the 2F exit switch and unlock the 2F exit shutter.
+- The Pit / Hole: Located at (23, 14).
 
 ## Physical Features & Topography
 - Upper Dark Plateau (rows 0-11, cols 19-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder 1 at (22, 3). Separated from lower floor by impassable south-facing cliff wall between row 11 and 12.
