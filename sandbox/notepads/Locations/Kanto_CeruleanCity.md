@@ -18,6 +18,7 @@
   - Gym Guide Advice (verified Turn 1979): Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
     - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
+    - Jr. Trainer ♀ on northern platform at (4, 3): Goldeen Lv 19 (451 EXP). Prize: ¥380. Defeated Turn 2016.
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
   - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
