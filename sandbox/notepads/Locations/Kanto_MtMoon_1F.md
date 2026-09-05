@@ -58,4 +58,4 @@
 - Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15) (collision confirmed Turn 1496). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
 - Inert Tile (25, 15): Tile (25, 15) in Eastern Avenue is ordinary walkable cave floor; does not trigger any map warp.
 
-- Youngster (24, 31): Stationed at (24, 31) facing North up column 24. Line of sight triggers at (24, 28). Dialogue: "What! Don't sneak up on me!". Status: In battle.
+- Super Nerd (24, 31): Stationed at (24, 31) facing North up column 24. Line of sight triggers at (24, 28). Dialogue: "What! Don't sneak up on me!". Status: In battle.
