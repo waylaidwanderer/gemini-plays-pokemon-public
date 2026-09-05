@@ -80,3 +80,8 @@
 - Pidgey Lv 16: Defeated in 2 hits by Bite (used Sand-Attack, -1 Sheldon accuracy). Yield: 187 EXP.
 - Nidoran♀ Lv 16: Defeated in 1 hit by Bubblebeam. Yield: 201 EXP.
 - Total EXP: 388 EXP. Prize: ¥240.
+
+## Route 24 Nugget Bridge - Jr. Trainer ♂ (Turn 2346-2353)
+- Position: (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!".
+- Mankey Lv 18: Defeated in 1 hit by Bubblebeam. Yield: 285 EXP.
+- Total EXP: 285 EXP. Prize: ¥360.

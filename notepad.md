@@ -189,6 +189,10 @@
 - Nidoran♀ Lv 16: Defeated in 1 hit by Bubblebeam. Yield: 201 EXP.
 - Total EXP: 388 EXP. Prize: ¥240.
 
+## Route 24 Nugget Bridge - Jr. Trainer ♂ (Turn 2346-2353)
+- Position: (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!".
+- Mankey Lv 18: Defeated in 1 hit by Bubblebeam. Yield: 285 EXP.
+- Total EXP: 285 EXP. Prize: ¥360.
 
 <hr>
 
@@ -707,6 +711,7 @@
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
   - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
   - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
-  - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!".
+  - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!". Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
+  - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15).
 
 <hr>
