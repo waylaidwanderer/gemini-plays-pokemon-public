@@ -22,3 +22,8 @@
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 - Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
 - Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
+
+### Eastern Cavern Highway & Southern Cavern (Reached via Row 15 / Row 14)
+- Breakthrough Passage (33, 15): Empirically verified fully passable northward from Row 16 to Row 14, connecting lower chamber directly back to northern corridors.
+- Eastern Cavern Highway (Cols 36..38, Rows 14..24): 3-tile wide open north-south corridor running from row 14 south past row 24. Bounded on east by solid rock wall at Col 39.
+- Southern Avenue (Cols 32..34, Rows 24..28+): At row 24, the corridor turns west to cols 32..34, where a 3-tile wide passage extends south through rows 25..28+ toward the fossil chamber. Bounded on east by rock wall at cols 35..39 on row 25.
