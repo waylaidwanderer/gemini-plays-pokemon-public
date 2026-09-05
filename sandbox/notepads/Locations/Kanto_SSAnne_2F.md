@@ -17,5 +17,5 @@
   - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
 - Cabin 2: Entrance at (13, 11) in 2F main hallway. Interior doorway at (12..13, 5).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Occupants: Fisherman at (13, 4) [In Battle, Turn 2964], Sailor at (10, 2) facing South.
+  - Occupants: Fisherman at (13, 4), Sailor at (10, 2) facing South.
   - Target: Object at (12, 1).
