@@ -4,8 +4,8 @@
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Wartortle (SHELDON) Lv 25, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥5185
+- Active Team: Wartortle (SHELDON) Lv 26, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
+- Money: ¥5995
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -29,6 +29,7 @@
 - [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
 - [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
 - [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
+- [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
 
 <hr>
 
@@ -52,7 +53,7 @@
 - POKéDEX
 
 ## Money
-- ¥5545
+- ¥5995
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 26, Water]
