@@ -13,7 +13,9 @@
 - Northern Building East: Cols 20..23, rows 0..3.
 - Cut Trees: Visible at (24, 3).
 - Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
+- House (Fishing Guru?): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center.
 - Northern House (West): Building at cols 14..17, rows 0..3.
+- Water Inlet: Shoreline begins at (7..9, 6) south of Pokémon Center, expanding across cols 7..15 at row 8.
 - Northern Cross Street: Paved street spanning cols 11..24 along row 4.
 - Pokémon Center Interior: Entrance mat at (3, 7) and (4, 7); Nurse Joy counter at (3, 2); PC in northeast corner at (11, 4); NPC at (5, 4).
 - NPC (14, 6): Kid in green shirt.
