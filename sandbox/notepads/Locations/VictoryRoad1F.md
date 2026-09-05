@@ -47,3 +47,10 @@
 ## Verified Map Boundaries & Exit Warps (Verified Turn 28092, 28200)
 - South Exit Warp: Stepping South into row 17 across columns 8 and 9 (the entrance mat) immediately triggers a map transition to Route 23 at (4, 31), resetting all boulder positions and shutter states on 1F. Avoid walking South into row 17 during 1F puzzle execution!
 - Verified Switch Plate on 1F: Located at (17, 13) in Eastern Chamber (target for Boulder 1). Note: (1, 16) is a standard floor tile on 1F (Switch (1, 16) is on 2F).
+
+## Battle Interruption & Verification Protocol
+- Rule: Never execute blind compound macros after a battle interruption.
+- Whenever a wild battle interrupts navigation or pushing:
+  1. Escape battle cleanly (Down -> Right -> A -> B).
+  2. Inspect current player coordinates and check `<NPCMovementTracker>` to verify exact boulder coordinates.
+  3. Chunk inputs in small, single-phase segments (1-4 buttons max) and confirm player/boulder coordinate deltas after every push.
