@@ -2720,6 +2720,15 @@
   - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
   - SE Lower Room Access: Working hypothesis is that the lower SE room is accessed by dropping the 3F boulder through the Pit at (23, 14) on 3F. Verification pending.
 
+## Empirical Verification Protocol: 2F Shutter 3 to Ladder B / 3F
+- Objective: Empirically verify walkable path from opened Shutter 3 at (21, 15) to Ladder B at (25, 14) and Ladder NE at (27, 7).
+- Protocol:
+  1. Once Boulder 2 is pushed onto Switch 1 at (1, 16), walk East to Shutter 3 at (21, 15).
+  2. Pass South through opened Shutter 3 to (21, 16) on Lower Highway.
+  3. Walk East along row 16: (21, 16) -> (29, 16).
+  4. Walk North along column 29: (29, 16) -> (29, 11).
+  5. Log tile-by-tile coordinate traversability from (29, 11) to (25, 14) / (27, 7) before ascending.
+
 <hr>
 
 <h1><code>Locations/VictoryRoad3F</code></h1>
