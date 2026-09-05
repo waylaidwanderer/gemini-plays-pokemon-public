@@ -35,7 +35,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x2
-- ESCAPE ROPE x1
+- ESCAPE ROPE x0 (Depleted)
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
 - POTION x0 (Depleted)
