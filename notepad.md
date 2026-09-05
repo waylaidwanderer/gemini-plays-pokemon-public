@@ -588,7 +588,8 @@
 ### Main Cavern (Reached via Ladder 21, 17)
 - Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
-- Northern Highway (Cols 18..22, Rows 6..13): Wide 5-tile north-south highway bounded by western wall (Col 17) and plateau cliff (Cols 23..24). Sights Ladder (25, 9) on plateau above to the east. Extends north past row 6.
+- Northern Highway (Cols 18..22, Rows 5..13): Wide 5-tile north-south highway bounded by western wall (Col 17) and plateau cliff (Cols 23..24). Sights Ladder (25, 9) on plateau above to the east.
+- Northern Passage (Cols 18..19, Rows 2..5+): 2-tile wide checkered floor corridor continuing north past row 2. Columns 20..22 terminate into solid rock ceiling at rows 2..4.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 
 
@@ -609,7 +610,8 @@
 8. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
 9. [x] Sighted descending Ladder at (21, 17) in B1F corridor.
 10. [x] Descend Ladder (21, 17) to main B2F cavern; caught wild Paras Lv 10 (FUNGI) [Turn 1666-1675].
-11. Primary Objective: Explore main B2F cavern depths, defeat Super Nerd, and retrieve prehistoric fossil.
+11. [ ] Follow northern passage (cols 18..19) north past row 2 toward fossil chamber.
+12. Primary Objective: Defeat Super Nerd guardian and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
