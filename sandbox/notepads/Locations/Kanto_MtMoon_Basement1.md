@@ -2,6 +2,7 @@
 
 ## Connections
 ### Southern Section (Entrance Ladder 13, 27 Area)
+- Architectural Note: On Turn 1792, this section was empirically verified to connect seamlessly to B2F main cavern corridors without any map transitions. For unified geographic mapping of this floor, refer to Locations/Kanto_MtMoon_Basement2.md.
 - Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27).
 
 ### Central Transit Corridor (1F Ladder 17, 11 Area)

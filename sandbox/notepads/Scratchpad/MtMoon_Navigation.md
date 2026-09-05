@@ -8,6 +8,5 @@
 - [ ] Defeat Super Nerd Miguel and claim a prehistoric fossil.
 - [ ] Proceed to Route 4 exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
-- 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor / entrance plateau)
 - 1F Ladder (5, 5) <-> B1F (5, 5) (Northwest transit corridor)

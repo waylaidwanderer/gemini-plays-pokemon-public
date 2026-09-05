@@ -35,7 +35,6 @@
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
-- Super Nerd Miguel: Stationed at (12, 8) facing South down column 12. Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12.
-- Ground Artifact (12, 6): DOME FOSSIL (Kabuto).
-- Ground Artifact (13, 6): HELIX FOSSIL (Omanyte).
-- Exit Route: Post-battle passage leading to Route 4 exit ladder behind the fossils.
+- Super Nerd: Stationed at (12, 8) facing South down column 12. Challenged player with 3 Pokémon (Lead: Grimer Lv 12 witnessed).
+- Ground Artifact (12, 6): Uninspected prehistoric fossil / stone artifact.
+- Ground Artifact (13, 6): Uninspected prehistoric fossil / stone artifact.
