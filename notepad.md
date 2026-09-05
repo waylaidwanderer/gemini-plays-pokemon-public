@@ -2747,6 +2747,14 @@
      - Push Left 2: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
 - Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened!
 
+## NW Sector Topology (Verified Turn 30512)
+- Arrival Ladder from 3F NW (2, 0): Located at (1, 1) on 2F NW.
+- Trainer (Blackbelt) at (4, 2).
+- Elevated checkerboard platform spans cols 1-3 (rows 2-4) and cols 2-7 (rows 6-7).
+- Boulder gate at (5, 5), pushed south to (5, 6) connects row 4/5 light purple floor to checkerboard platform (cols 4-7, rows 6-7).
+- Row 8 Light Purple Highway (cols 5-14, row 8) is directly accessible from (5, 7) -> (5, 8).
+- 1F Ladder at (0, 8) connects to west corridor (cols 0-4).
+
 
 <hr>
 
@@ -2792,7 +2800,6 @@
 - Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) opened.
 
 ## 3F Pit Area & Boulder Observations
-- Boulder observed at (24, 10).
 - Column 13 / Row 11: Pushing boulder at (13, 12) down to (13, 13) dead-ends against rock obstacle at (13, 14).
 
 
