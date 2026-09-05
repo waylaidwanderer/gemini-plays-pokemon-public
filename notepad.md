@@ -862,3 +862,15 @@
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
 
 <hr>
+
+<h1><code>Locations/Kanto_SeaCottage</code></h1>
+
+# Sea Cottage (Bill's House) Interior
+
+## Layout & Features
+- Entrance Mat: Located at (2..3, 7). Exits south to Route 25.
+- Desk & PC: Located at (1..2, 4..5). PC at (1, 5).
+- Resident: Bill (transformed into a Pokémon) stationed at (6, 5).
+- North Area: Teleporter experiment machines.
+
+<hr>
