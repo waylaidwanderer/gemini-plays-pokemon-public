@@ -32,3 +32,7 @@
   - Occupants: Global Police agent at (21, 13) ("Ssh! I'm a GLOBAL POLICE agent! I'm on the trail of TEAM ROCKET!").
   - No item balls visible.
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
+## Eastern Corridor & B1F Passage
+- Doorway at (31, 8): Eastern room/cabin entrance along south wall.
+- Eastern South Corridor: Cols 36..37, extending south from row 7 (checkered carpet at col 36, yellow at col 37).
+- East wall of ship at col 38.
