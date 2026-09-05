@@ -348,6 +348,15 @@
 - Junior Trainer Liam: Stationed at (3, 6) facing East across column 4; line of sight triggers on tile (4, 6).
 - Leader Brock Platform: Elevated platform at rows 1..2. Brock is stationed at (4, 1) facing South; player challenges Brock from (4, 2).
 
+## Pewter Pokémon Center Interior
+- Entrance Mat: (3..4, 7). Exits south to Pewter City at (13, 26).
+- Counter: Extends across row 2 (cols 0..7). Poké Ball healing tray at (3, 2).
+- Nurse Joy: Stationed behind counter at (3, 1). Talk from (3, 3) facing North to heal party.
+- Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
+- Youngster: Stationed at (7, 3).
+- PC: Located at (10, 0) in the northeast alcove.
+- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
+- Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 
 <hr>
 
