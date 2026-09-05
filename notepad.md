@@ -172,6 +172,7 @@
   - Level 20: Max HP 56, Attack 36, Defense 44, Speed 36, Special 37
   - Level 21: Max HP 58, Attack 38, Defense 46, Speed 38, Special 39
   - Level 22: Max HP 61, Attack 39, Defense 48, Speed 39, Special 41
+  - Level 23: Max HP 63, Attack 41, Defense 50, Speed 41, Special 42
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
