@@ -21,4 +21,4 @@
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 - Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
-- Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary tested at (35, 16) [blocked]; rows 17 and 18 at Col 35 remain untested.
+- Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
