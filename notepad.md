@@ -1032,7 +1032,10 @@
   - Interior bounds: Cols 10..13, Rows 1..5.
   - Occupants: Fisherman Dale at (13, 4) [Defeated, Turn 2977] (Roster: Goldeen Lv 17, Tentacool Lv 17, Goldeen Lv 17; Prize: ¥595), Gentleman at (11, 2) [Defeated, Turn 2984] (Roster: Pikachu Lv 23; Prize: ¥1610).
   - Item Ball at (12, 1): Max Ether collected [Turn 2985]!
-- Cabin 3: Entrance at (17, 11) in 2F main hallway.
+- Cabin 3: Entrance at (17, 11) in 2F main hallway. Interior doorway at (22..23, 5).
+  - Interior bounds: Cols 20..23, Rows 1..5.
+  - Occupants: Gentleman at (21, 2) facing South, Person at (22, 1).
+  - Furniture: Desk at (20..21, 1), chair at (20, 3), bed at (23, 1..2).
 
 
 <hr>
