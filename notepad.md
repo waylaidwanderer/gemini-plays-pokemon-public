@@ -49,6 +49,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x11
+- GREAT BALL x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
 - ESCAPE ROPE x1
@@ -962,11 +963,11 @@
   - Cook: (13, 6)
   - Trash Can 2: (13, 7) [Inspected, Turn 2936: Empty - "Nope, there's only trash here."]
   - Cook: (13, 8)
-  - Trash Can 3: (13, 9)
+  - Trash Can 3: (13, 9) [Contains GREAT BALL - Retrieved Turn 2937]
   - Cook (Onions): (13, 10)
 
 ## Points of Interest
-- Hidden Item: Trash can with Great Ball (clue confirmed: "I saw an odd ball in the trash.").
+- Hidden Item: GREAT BALL retrieved from trash can at (13, 9) [Turn 2937]!
 - NPCs:
   - Cook at (1, 5)
   - Cook at (9, 2)
