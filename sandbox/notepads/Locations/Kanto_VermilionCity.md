@@ -12,7 +12,10 @@
 - Northern Building West: Cols 15..17, rows 0..3.
 - Northern Building East: Cols 20..23, rows 0..3.
 - Cut Trees: Visible at (24, 3).
-- Pokémon Center: To be located and mapped.
+- Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
+- Northern House (West): Building at cols 14..17, rows 0..3.
+- Northern Cross Street: Paved street spanning cols 11..24 along row 4.
+- NPC (14, 6): Kid in green shirt.
 - Poké Mart: To be located.
 - Vermilion Gym: Located south/southwest behind a Cut tree.
 - Pokémon Fan Club: To be located.
