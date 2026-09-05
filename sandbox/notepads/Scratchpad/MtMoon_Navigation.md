@@ -11,7 +11,9 @@
 8. [ ] Proceed south down column 15 to row 22 East-West Cross Corridor.
 9. [ ] Explore eastward to column 21 and descend Ladder (21, 17), or explore west.
 10. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos.
-11. [ ] Descend Northwest Ladder (5, 5) to access main B2F cavern.
+11. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
+12. [ ] Follow B1F corridor south to descending ladder to main B2F cavern.
+13. Primary Objective: Explore main B2F cavern depths and retrieve prehistoric fossil.
 12. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status

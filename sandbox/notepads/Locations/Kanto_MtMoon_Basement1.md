@@ -28,3 +28,6 @@
 - Team Rocket Grunt: Stationed at (15, 24) facing South in Southern Section.
   - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
   - Status: Defeated.
+### Northwest Transit Corridor (1F Ladder 5, 5 Area)
+- Ladder (5, 5): Ascending ladder leading back to Mt. Moon 1F at (5, 5).
+- Layout: 4-tile wide north-south corridor spanning cols 4..7, extending south from row 4 past row 9.
