@@ -2772,7 +2772,7 @@
 
 ## Discovered Points of Interest & Topology
 - [ ] Item Ball at (11, 0) in northern corridor of western sector.
-- Cooltrainer NPC at (19, 8): "You earned the right to be on VICTORY ROAD!".
+
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
 
 ## Northern Highway Branch Corridors & Scout Checklist
