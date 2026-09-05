@@ -10,7 +10,7 @@
 7. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos (Turn 1642).
 8. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
 9. [x] Sighted descending Ladder at (21, 17) in B1F corridor.
-10. [ ] Descend Ladder (21, 17) to main B2F cavern.
+10. [x] Descend Ladder (21, 17) to main B2F cavern; caught wild Paras Lv 10 (FUNGI) [Turn 1666-1675].
 11. Primary Objective: Explore main B2F cavern depths, defeat Super Nerd, and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
