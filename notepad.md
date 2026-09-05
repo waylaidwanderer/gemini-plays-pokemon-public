@@ -461,7 +461,7 @@
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (13, 27): Ladder descending to basement chamber.
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (25, 15): Descending ladder in Eastern Avenue at (25, 15).
+- Ladder (21, 17): Descending ladder in east-central cavern at (21, 17), accessible via column 20..21 from south.
 
 ## Layout & Corridors
 
@@ -586,7 +586,9 @@
 2. [x] Enter Mt. Moon 1F via cave entrance (Turn 1482).
 3. [x] Defeat Super Nerd (24, 31) in Eastern Avenue (Turn 1519).
 4. [x] Collect Ground Item at (35, 31): RARE CANDY (Turn 1526).
-5. [ ] Ascend north to Ladder (25, 15) in Eastern Avenue and descend to basement.
+5. [x] Ascended Eastern Avenue to row 15; confirmed (21, 17) is separated by rock wall.
+6. [ ] Navigate east along row 14 to column 30, then north to Northern Highway.
+7. [ ] Descend Ladder (17, 11) to B1F/B2F to explore basement depths.
 6. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
