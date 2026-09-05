@@ -2678,16 +2678,52 @@
 
 # Victory Road Master Strategy & Puzzle Log
 
-## Master Victory Road Puzzle Loop (Verified Turn 29710)
-1. 1F: Push Boulder 1 onto Switch (17, 13) to open 1F shutters. Climb Ladder at (1, 1) to 2F. [COMPLETED!]
-2. 2F: Push Boulder 2 onto Switch 1 at (1, 16) to open Shutter 1 (5, 10) and Shutter 3 (21, 15). [COMPLETED!]
-3. 2F NW Access: Climb 2F NW Ladder at (1, 1) to arrive in 3F NW Room at (2, 0).
-4. 3F NW Switch: In NW Room, push NW Boulder (5, 5) onto Switch (3, 5) (Down 1 to (5, 6), Left 2 to (3, 6), Up 1 onto (3, 5)). This opens Shutter (17, 5) permanently!
-5. 3F -> 2F: Descend 3F NW Ladder (2, 0) to 2F (1, 1). Walk across 2F through opened Shutters to Ladder A (23, 7).
-6. 3F SE Room: Climb Ladder A to 3F (23, 7). Walk through opened Shutter (17, 5) to SE Room.
-7. Pit Drop: In SE Room, push boulder into Pit at (23, 14), then jump into Pit.
-8. 2F Exit: Boulder lands on 2F. Push boulder onto 2F exit switch plate, opening final shutter. Jump down ledge at (23, 14) and climb ladder to Indigo Plateau!
+## Master Victory Road Puzzle Sequence (Verified Canonical Route)
+1. **1F Entrance & Boulder 1**:
+   - South entrance from Route 23 at (8, 17).
+   - Push Boulder 1 from (5, 15) onto Switch (17, 13) using verified master sequence:
+     - (5, 14) Push Down 1 to (5, 16)
+     - (4, 16) Push East 4 to (9, 16)
+     - (9, 17) Push North 2 to (9, 14)
+     - (8, 14) Push East 7 to (16, 14)
+     - (16, 15) Push North 2 to (16, 12)
+     - Detour via (14, 14) -> (14, 12) -> (15, 12)
+     - (15, 12) Push East 1 to (17, 12)
+     - Reposition to (17, 11) -> Push South 1 onto Switch (17, 13)!
+   - Outcome: 1F Shutters open. Walk to NW Ladder at (1, 1) and climb to 2F.
 
+2. **2F -> 3F NW Room Access**:
+   - Arrive on 2F at (0, 8).
+   - Walk 7 steps North along Column 1 directly to 2F NW Ladder at (1, 1)! (No 2F puzzles needed yet!).
+   - Climb 2F NW Ladder (1, 1) to arrive in 3F NW Room at (2, 0).
+
+3. **3F NW Switch Activation**:
+   - In 3F NW Room, push NW Boulder from (5, 5) onto Switch (3, 5):
+     - Stand at (5, 4) -> Push Down 1 to (5, 6)
+     - Walk to (6, 6) -> Push Left 2 to (3, 6)
+     - Walk to (3, 7) -> Push Up 1 onto Switch (3, 5)!
+   - Outcome: 3F Shutters (including (21, 15) and (15, 15)) permanently opened!
+   - Descend 3F NW Ladder at (2, 0) back to 2F (1, 1).
+
+4. **2F Boulder 2 & Switch 1 Solution**:
+   - Walk to Boulder 2 at (4, 14).
+   - Push Boulder 2 onto Switch 1 at (1, 16) using verified master sequence:
+     - Stand at (5, 14) -> Push Left 1 to (3, 14)
+     - Stand at (3, 13) -> Push Down 2 to (3, 16)
+     - Stand at (4, 16) -> Push Left 2 onto Switch 1 (1, 16)!
+   - Outcome: 2F Shutter 1 (5, 10) and Shutter 3 (21, 15) permanently opened!
+
+5. **2F to 3F SE Room & Pit Drop**:
+   - Walk through Shutter 1 (5, 10) -> (14, 8) -> (20, 14) -> Shutter 3 (21, 15) -> Column 29 -> Ladder A at (23, 7).
+   - Climb Ladder A to 3F (23, 7).
+   - Walk south through opened Shutter into SE Room!
+   - Push SE Boulder into Pit at (23, 14).
+   - Jump into the Pit at (23, 14) down to 2F!
+
+6. **2F Exit & Indigo Plateau**:
+   - Land on 2F right next to the fallen boulder.
+   - Push the boulder onto the 2F exit switch plate to open the final shutter.
+   - Jump down the 2F ledge at (23, 14) and climb the ladder to Route 23 North / Indigo Plateau!
 
 <hr>
 
