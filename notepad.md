@@ -566,19 +566,26 @@
 
 <h1><code>Scratchpad_MtMoon_B2F_Routing</code></h1>
 
-# Mt. Moon 1F Routing & Hypotheses
+# Mt. Moon Progression & Routing
 
-## Current Tactical State
-- Position: (24, 22) on Eastern Avenue.
-- Team: Sheldon Lv 19 (HP 12/54, Water Gun 1/25, Bubble 8/30), Falco Lv 5 (19/19), Rocky Lv 8 (26/26).
-- Funds: ¥3056. Potions: 0. Antidotes: 0. Escape Rope: 1.
-- Col 23 at row 22 is solid rock wall.
+## Current Status
+- Warped safely to Route 4 outside Mt. Moon via Escape Rope.
+- Position: (13, 26) directly outside the Route 4 Pokémon Center door.
+- Funds: ¥3056 intact.
+- Team: Sheldon Lv 19 (HP 12/54), Falco Lv 5 (19/19), Rocky Lv 8 (26/26).
 
-## Decision: Tactical Escape Rope
-- Walking back through wild encounter zones with Sheldon at 12 HP risks a wipe and loss of ¥1528 prize money.
-- Escape Rope warps instantly to the Route 4 Pokémon Center outside the cave.
-- Nurse Joy heals entire party to 100% HP and restores all PP (Water Gun 25/25, Bubble 30/30) for free.
-- Fully restored team can then enter Mt. Moon and sweep all remaining paths (1F Northwest, 1F Northeast, B1F main cavern) with zero risk.
+## Immediate Goal
+1. Step inside Route 4 Pokémon Center.
+2. Heal party with Nurse Joy to 100% HP and full PP.
+3. Check NPCs / PC / salesman inside.
+
+## Re-entry & Fossil Retrieval Strategy
+- Re-enter Mt. Moon 1F fully stabilized.
+- Primary exploration targets on 1F:
+  1. Northwest Corridor (cols 0..11, rows 0..17) via Northern Highway west past col 12 wall partition.
+  2. Northeast Area past defeated Lass Miriam (30, 4).
+  3. Ladder (21, 17) discovered on Eastern Avenue.
+  4. B1F Southern Section (unexplored northern cavern and eastern corridor via Ladder 13, 27).
 
 
 <hr>
