@@ -2681,12 +2681,13 @@
 
 ## Floor 3F Puzzle & Topology (IN PROGRESS)
 - Verified Features:
-  - Upper Dark Plateau (rows 0-11, cols 19-29): Ladder A arrival at (23, 7), Ladder NE at (27, 7), Boulder at (22, 3).
-  - Eastern Corridor (cols 28-29, rows 1-17): Connects row 1 Northern Highway to row 16/17 Southern Highway.
-  - Southern Highway (rows 16-17, cols 10-29): Open floor running west to boulder at (9, 16).
-  - Central Sector: Chute at cols 10-11 (rows 11-16), Item Ball at (9, 11), Shutter at (15, 15) and (21, 15).
-  - Southeast Area: Purple floor (row 14) containing Pit / Hole at (23, 14) and Ladder B at (25, 14).
-  - Northern Highway (rows 0-1): Connects upper plateau west to col 6 and western sector.
+  - Upper Dark Plateau (rows 0-11, cols 19-28): Ladder A arrival at (23, 7), Ladder NE at (27, 7), Boulder at (22, 3).
+  - NPC at (19, 8): Cooltrainer stating "You earned the right to be on VICTORY ROAD!".
+  - Item Ball at (11, 0): Located in northern corridor of western sector.
+  - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
+  - SE Lower Room: Light purple floor (rows 12-14, cols 10-26) containing Pit / Hole at (23, 14) and Ladder B at (25, 14).
+  - Column 10 Connectivity Note: Row 1 above column 10 is separated from lower rows by a south-facing cliff boundary.
+  - Central Corridor / Column 22: Column 22 connects upper plateau (rows 2-11) south towards row 12/14 SE room.
 
 <hr>
 
