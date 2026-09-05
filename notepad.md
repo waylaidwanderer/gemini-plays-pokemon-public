@@ -1,24 +1,24 @@
 <h1><code>Main</code></h1>
 
-# PokÃ©mon Blue - Journey Log
+# Pokémon Blue - Journey Log
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 29, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: Â¥10310
-- PokÃ©dex: 5 Caught / 14 Seen
+- Money: ¥10310
+- Pokédex: 5 Caught / 14 Seen
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
-- [x] Receive Starter PokÃ©mon from Professor Oak (Squirtle) [Turn 40]
+- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 - [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Visit Viridian City PokÃ© Mart [Turn 169]
+- [x] Visit Viridian City Poké Mart [Turn 169]
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
-- [x] Obtain PokÃ©dex from Prof. Oak [Turn 214]
+- [x] Obtain Pokédex from Prof. Oak [Turn 214]
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
-- [x] Return to Viridian City, heal team & purchase PokÃ© Ball [Turn 284]
+- [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
@@ -139,6 +139,18 @@
 
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+
+
+## Boss Battle Tactics & Preparation (Audited Turn 2766)
+- **Lt. Surge (Vermilion Gym):** Roster is Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
+  - Threat: Raichu's high Special Thunderbolt threatens Water-types like Sheldon.
+  - Hard Counter: Rocky (Geodude Lv 8). Rock/Ground typing provides complete immunity to Electric attacks and resistance to Normal moves (Mega Punch, Quick Attack).
+  - Preparation Plan: Teach Rocky TM28 (Dig) and grind to Lv 20-22 for a guaranteed sweep.
+- **S.S. Anne Rival RED:** Roster includes Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, and Ivysaur Lv 20.
+  - Lead Sheldon (Wartortle Lv 29) to defeat normal/psychic roster with Bubblebeam/Bite. Switch against Ivysaur.
+- **Team Utility:**
+  - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
+  - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
 
 
 <hr>
@@ -797,7 +809,7 @@
 - Trainer (11, 21): Jr. Trainer â (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
-- Trainer (19, 26): Bug Catcher Elijah (1 PokÃ©mon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
+- Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668] (Roster: Butterfree Lv 20 - 685 EXP, Prize: ¥240). Pre-battle: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
 - Trainer (11, 30): Jr. Trainer â [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
@@ -821,8 +833,8 @@
 - Northern Building West: Cols 15..17, rows 0..3.
 - Northern Building East: Cols 20..23, rows 0..3.
 - Cut Trees: Visible at (24, 3).
-- PokÃ©mon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKÃ©" sign at (12, 3).
-- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of PokÃ©mon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
+- Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
+- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Central Building (Trade House): Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South. Interior: NPC at (3, 5) trades Spearow for Farfetch'd (DUX)!
 - Western Building (Pokémon Fan Club): Verified! Cols 8..11, rows 10..13. Entrance door at (9, 13) facing South. Interior has Chairman and members.
 - Signpost (7, 13): Located immediately west of Western Building at (7, 13).
@@ -858,8 +870,7 @@
   - Member at (6, 3) facing south (dark hair, blue shirt).
 - Chairman:
   - Located at (3, 1) facing South behind podium (rows 2..3, cols 3..4).
-  - Access: Northern corridor row 1. Stand at (2, 1) facing Right to speak.
   - Dialogue: Tells a story about his beloved Pokémon.
-  - Requirement: Answer YES to his question to receive BIKE VOUCHER!
+
 
 <hr>
