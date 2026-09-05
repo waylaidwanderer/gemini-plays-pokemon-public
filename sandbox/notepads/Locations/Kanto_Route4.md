@@ -23,7 +23,8 @@
 - Green-haired Customer: Stationed at (4, 3) facing North. Dialogue: "I've 6 POKé BALLs set in my belt."
 - Youngster: Stationed at (7, 3).
 - PC: Located at (10, 0) in the northeast alcove.
-- Couch NPC (0, 4): Resident who advises: "If you have too many POKéMON, you should store them via PC!".
+- Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
+- Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
 ## Cave & Landmarks
 - Mt. Moon Cave Entrance: Located at (18, 5). Cave mouth set into the north cliff face, entered from (18, 6) facing North.
 - Route 4 Signpost: Located at (17, 7).
