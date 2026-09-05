@@ -48,3 +48,4 @@
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
   - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
+- Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Police officer stationed at (28, 12) facing North (stepped aside to allow entry after Bill event).
