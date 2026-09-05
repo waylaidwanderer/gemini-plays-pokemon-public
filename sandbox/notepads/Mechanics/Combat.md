@@ -102,3 +102,13 @@
   - Machop Lv 15: Used Karate Chop (5 damage). Defeated by Sheldon Water Gun (x2). Yield: 282 EXP.
   - Geodude Lv 15: Defeated in 1 hit by Water Gun (Super Effective). Yield: 276 EXP.
 - Total EXP: 558 EXP. Prize: ¥525.
+
+## Route 25 - Youngster (Turn 2392-2408)
+- Position: (14, 2) facing South. Sight range: 2 tiles (engaged at (14, 4)).
+- Pre-battle Dialogue: "Local trainers come here to practice!"
+- Defeat Quote: "YOUNGSTER: You're decent."
+- Team:
+  - Rattata Lv 15: Defeated in 1 hit by Sheldon Bite. Yield: 183 EXP.
+  - Spearow Lv 15: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
+- Total EXP Yield: 369 EXP. Prize: ¥225.
+- Sheldon HP: 54 / 71. Bite PP: 13 / 25.
