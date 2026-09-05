@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Wartortle (SHELDON) Lv 29, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
+- Active Team: Wartortle (SHELDON) Lv 29, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
 - Money: ¥10310
 - Pokédex: 4 Caught / 13 Seen
 
@@ -34,6 +34,7 @@
 - [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
 - [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
 - [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
+- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 - [ ] Board the S.S. Anne in Vermilion City to obtain HM01 Cut
 
 <hr>
@@ -69,9 +70,10 @@
   - HP: 79 / 79
   - Stats: Attack 52, Defense 63, Speed 52, Special 54
   - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
-- SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
+- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
-  - HP: 19 / 19
+  - OT: Traded (Boosted EXP)
+  - Potential: Can learn HM01 Cut
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
