@@ -57,7 +57,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 25, Water]
   - Status: Healthy
-  - HP: 58 / 68
+  - HP: 56 / 68
   - Stats: Attack 43, Defense 52, Speed 43, Special 44
   - Moves: Bite (PP 16/25), Tail Whip (PP 30/30), Bubblebeam (PP 12/20), Water Gun (PP 24/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
