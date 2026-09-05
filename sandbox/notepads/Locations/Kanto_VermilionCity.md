@@ -27,6 +27,6 @@
 - Harbor Thoroughfare: Columns 20..21 form an open paved passage running south past row 20 to the docks.
 - Building Southeast: Cols 22..23+, rows 16..19 with entrance door at (23, 19).
 - Southwest Area: Grass and trees visible at cols 14..15, rows 18..20 (Gym entrance).
-- Poké Mart: To be located.
+- Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
 - Vermilion Gym: Located south/southwest behind a Cut tree.
 - Pokémon Fan Club: To be located.
