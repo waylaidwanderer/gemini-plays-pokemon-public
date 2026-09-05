@@ -46,3 +46,7 @@
   - Roster: Goldeen Lv 17 (Yield: 403 EXP), Tentacool Lv 17 (Yield: 382 EXP), Goldeen Lv 17 (Yield: 403 EXP). Prize: ¥595.
   - Pre-battle: "Check out what I fished up!". Defeat: "FISHERMAN: I'm all out!".
   - Combat: Sheldon Lv 30 used Bite on Goldeen 1 (dealt ~75%, Goldeen flinched). Sheldon used Bite on Goldeen 1 (OHKO). Sheldon used Bite on Tentacool (OHKO). Sheldon used Bite on Goldeen 2 (dealt ~75%, Goldeen used Tail Whip). Sheldon used Bite on Goldeen 2 (OHKO). Sheldon took 0 damage (HP 76/81). Bite PP: 25 -> 21. Bubblebeam PP: 15/20 (conserved).
+- **Gentleman [Turn 2978 - 2984] (2F Cabin 2 at 11, 2):**
+  - Roster: Pikachu Lv 23 (Yield: 403 EXP). Prize: ¥1610.
+  - Pre-battle: "Competing against the young keeps me youthful.". Defeat: "GENTLEMAN: Good fight! Ah, I feel young again!".
+  - Combat: Pikachu used Quick Attack (dealt 5 dmg, Sheldon HP 76 -> 71/81). Sheldon Lv 30 used Bite (Pikachu down to ~15%). Sheldon used Bite (OHKO). Sheldon took 5 damage total (HP 71/81). Bite PP: 21 -> 19. Bubblebeam PP: 15/20 (conserved).

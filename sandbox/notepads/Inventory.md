@@ -4,6 +4,7 @@
 - TOWN MAP
 - POKé BALL x11
 - GREAT BALL x1
+- MAX ETHER x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
 - ESCAPE ROPE x1
@@ -22,14 +23,14 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥12820
+- ¥14430
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 30, Water]
   - Status: Healthy
-  - HP: 76 / 81
+  - HP: 71 / 81
   - Stats: Attack 54, Defense 65, Speed 54, Special 56
-  - Moves: Bite (PP 21/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 19/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
