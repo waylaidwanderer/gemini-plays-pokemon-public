@@ -9,7 +9,7 @@
    - On 2F, walk south to Boulder 2 at (4, 14), activate Strength with ATLAS.
    - Push Boulder 2 onto Switch 1 at (1, 16) via Column 3 -> Row 16 sequence.
    - Shutter 1 at (5, 10) opens!
-   - Walk through Shutter 1 onto Purple Floor: (5, 10) -> (5, 8) -> (14, 8) -> (14, 12) -> (25, 12) -> (25, 14) to Ladder B.
+   - Walk through Shutter 1 at (5, 10) -> (5, 8) -> (14, 8) -> (14, 12) -> (20, 12) -> (21, 14) -> Shutter 3 at (21, 15) -> Lower Highway (21, 16) -> (29, 16) -> (29, 11) -> Ladder B at (25, 14).
    - Ascend Ladder B at (25, 14) up to 3F SE Lower Purple Room.
 3. **3F Pit Drop & Final Exit**:
    - In 3F SE Room, locate Boulder and push it into the Pit at (23, 14).

@@ -49,7 +49,7 @@
   5. Stand at (4, 16) facing West -> Push Left 2 times along Row 16:
      - Push Left 1: Boulder 2 to (2, 16), Player to (3, 16).
      - Push Left 2: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
-- Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened!
+- Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened for the active visit (resets upon changing floors).
 
 ## NW Sector Topology (Verified Turn 30512)
 - Arrival Ladder from 3F NW (2, 0): Located at (1, 1) on 2F NW.
