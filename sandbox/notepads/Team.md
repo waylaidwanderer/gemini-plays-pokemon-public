@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 22255)
-1. HYDROS (Blastoise) - Lv 70
-   - Stats: Max HP 236 (HP: 236/236 - Fully Healed), Attack 165, Defense 183, Speed 168, Special 175
+1. HYDROS (Blastoise) - Lv 71
+   - Stats: Max HP 240 (HP: 109/240), Attack 169, Defense 186, Speed 171, Special 178
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -43,6 +43,7 @@
 5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo]
 6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pok�mon Mansion 2F]
 7. GEODUDE - Lv 24 [Captured Turn 25256 in Victory Road]
+8. AKTT)((! (Geodude) - Lv 22 [Captured Turn 29686 in Victory Road 2F]
 
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)

@@ -19,7 +19,6 @@
 - [ ] Item Ball at (11, 0) in northern corridor of western sector.
 - Cooltrainer NPC at (19, 8): "You earned the right to be on VICTORY ROAD!".
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
-- Switch Plate at (3, 5): Opened Shutter (17, 5) when NW Boulder at (5, 5) was pushed onto it.
 
 ## Northern Highway Branch Corridors & Scout Checklist
 - Column 17: Open 1-tile gap at row 4 connecting rows 1-3 to rows 6-11 (Upper Dark Plateau & Ladder A arrival).
