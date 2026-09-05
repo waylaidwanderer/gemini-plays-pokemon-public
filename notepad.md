@@ -35,6 +35,7 @@
 - [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
 - [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
+- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
 - [ ] Board the S.S. Anne in Vermilion City to obtain HM01 Cut
 
 <hr>
@@ -60,6 +61,7 @@
 - POKéDEX
 - S.S. TICKET
 - OLD ROD
+- BIKE VOUCHER
 
 ## Money
 - ¥10310
