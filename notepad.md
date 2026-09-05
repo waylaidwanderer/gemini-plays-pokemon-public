@@ -473,8 +473,10 @@
 - Upper Ledge (Row 5, Cols 39..42+): South-facing one-way jump ledge bounding the upper plateau from the middle corridor.
 - Lower Ledge (Row 9, Cols 24..42+): South-facing one-way jump ledge bounding the middle corridor from the lower route.
 - Column 45 Ledge: One-way jump ledge facing East at row 6. Stepping East from (44, 6) hops over (45, 6) to (46, 6).
-- Central Corridor (Cols 46..49): Open green grass traversed between (46, 2) and (46, 10). North boundary at row 1 is solid mountain cliff.
-- Row 10 Corridor: East-west corridor at rows 10..12, bordered to the south by a south-facing ledge at row 13.
+- Central Corridor (Cols 46..49, Rows 2..10): Open green grass corridor between col 45 ledge and col 50 ridge. North boundary at row 1 is solid mountain cliff.
+- Row 10 Corridor (Cols 42..61, Rows 10..12): Open grass corridor bordered to the north by row 9 ledge and south by row 13 ledge.
+- Lower Corridor (Cols 42..61, Rows 14..15): Bounded by row 13 south-facing ledge to the north. Walkable red flower bed at cols 42..47, open grass at cols 48..61.
+- Lower Corridor Boundaries: Solid rock wall at col 41 (verified at (41, 15)); solid water/shoreline at row 16 (verified at (44, 16)); solid tree at (62, 15).
 
 <hr>
 
