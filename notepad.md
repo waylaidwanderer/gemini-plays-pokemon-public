@@ -51,14 +51,14 @@
 - POKéDEX
 
 ## Money
-- ¥4735
+- ¥4945
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 25, Water]
   - Status: Healthy
   - HP: 60 / 68
   - Stats: Attack 43, Defense 52, Speed 43, Special 44
-  - Moves: Bite (PP 19/25), Tail Whip (PP 30/30), Bubblebeam (PP 14/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 16/25), Tail Whip (PP 30/30), Bubblebeam (PP 14/20), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -700,6 +700,7 @@
   - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310.
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
   - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
-  - Trainer 4: Lass stationed at (10, 22) facing South (visually verified on Turn 2321).
+  - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?".
+  - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West.
 
 <hr>
