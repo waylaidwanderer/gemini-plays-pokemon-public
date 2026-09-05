@@ -13,7 +13,7 @@
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: ¥360.
 - Boulder: Isolated rock at (33, 9).
-- Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. Further routing under investigation.
+- Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. 
 
 ### Main Cavern (Reached via Ladder 21, 17)
 - Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
@@ -27,4 +27,6 @@
 - Breakthrough Passage (33, 15): Empirically verified fully passable northward from Row 16 to Row 14, connecting lower chamber directly back to northern corridors.
 - Eastern Cavern Highway (Cols 36..38, Rows 14..24): 3-tile wide open north-south corridor running from row 14 south past row 24. Bounded on east by solid rock wall at Col 39.
 - Southern Avenue (Cols 32..34, Rows 24..30): At row 24, the corridor turns west to cols 32..34, running south to row 30.
-- Southern Corridor (Cols 20..33, Rows 31..32): At row 31, turns west into a 2-tile high corridor (rows 31-32) bounded by rock walls at row 30 (north) and row 33 (south).
+- Southern Corridor (Cols 11..33, Rows 31..32): 2-tile high corridor extending west from col 33 to col 11 along rows 31-32, bounded by rock walls to north (row 30) and south (row 33).
+- Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
+- Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
