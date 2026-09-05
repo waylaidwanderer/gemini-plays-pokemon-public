@@ -7,7 +7,8 @@
 - Central Lawn Fence (Cols 22..23, Row 17): Solid wooden rail fence bounding the lawn between Pokémon Center and Gym, empirically verified impassable on Turn 2145.
 - Central House Gap (Cols 16..17, Rows 14..17): Rows 16..17 are walkable checkered lawn, but rows 14..15 are a solid connecting roof between Northwest House (cols 13..16) and Pokémon Center (cols 18..21), blocking northern access at (17, 15).
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
-- Western Avenue Fence (Cols 8..11, Row 15): A continuous wooden rail fence across cols 8..11 at row 15 completely blocks northward access from the main street into the northern district (empirically verified on Turns 2155-2156).
+- Northwest House Yard Fence: Wooden rail fence at col 11 (rows 14..16) bordering the house lawn. Column 10 is an open grass pathway (rows 13..16) leading north into the northern avenue along row 12!
+- Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
 - Eastern Corridor (Cols 32..37, Rows 19..21): Street running east past Gym. At row 19, a continuous south-facing jump ledge blocks northward movement from the south (one-way drop-down from northern district).
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
