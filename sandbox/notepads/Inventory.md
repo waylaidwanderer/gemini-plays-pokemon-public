@@ -9,12 +9,13 @@
 - POTION x3
 - ANTIDOTE x3
 - RARE CANDY x1
+- HELIX FOSSIL x1
 
 ## Key Items
 - POKéDEX
 
 ## Money
-- ¥3251
+- ¥3551
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 22, Water]
