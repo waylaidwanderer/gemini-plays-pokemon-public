@@ -11,23 +11,19 @@ def clear_dialogue_or_battle():
     # Run from battle: Down -> Right -> A
     mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 400", "B", "sleep 200", "B", "sleep 100"])
 
-def surf():
+def start_surf():
     print("Initiating SURF with HYDROS...")
-    # Start -> Pokémon (A) -> HYDROS (A) -> SURF (Down, Down, A or Down, A depending on menu)
-    # Blastoise moves: Double-Edge, Ice Beam, Bite, Surf
-    # HYDROS submenu: STATS, SWITCH, CANCEL or Field Move SURF!
-    # Field moves on Pokemon menu appear at top or:
-    # Let's check Pokemon menu: Select HYDROS (A) -> Menu options: [SURF, STATS, SWITCH, CANCEL]
-    # For Surf, if on water edge, SURF is the first option!
+    # Start -> Down to POKéMON -> A -> HYDROS is slot 1 -> A -> In Gen 1 field menu for water: SURF is top option -> A
+    # Then text appears "HYDROS used SURF!" -> press A/B to advance
     mgba.press_buttons([
         "Start", "sleep 250",
-        "Down", "sleep 150", # cursor on POKéMON
-        "A", "sleep 350",    # open POKéMON menu
-        "A", "sleep 300",    # select HYDROS (Slot 1)
-        "Down", "sleep 200", # In Gen 1, when facing water, does SURF appear? Actually, SURF is a field move: options are STATS, SWITCH, SURF or SURF is at top.
-        # Wait, in Gen 1, if you can Surf, SURF is option 1 or option 2?
-        # Let's check: in Gen 1, field move is at the TOP above STATS! So "A" selects SURF immediately!
-        # Wait! If SURF is at top, pressing Down would move off it.
+        "Down", "sleep 150",
+        "A", "sleep 350",
+        "A", "sleep 350",
+        "A", "sleep 400",
+        "A", "sleep 400",
+        "B", "sleep 300",
+        "B", "sleep 300"
     ])
 
 def move_step(d):
@@ -41,7 +37,7 @@ def move_step(d):
         new_x, new_y = get_pos()
     return new_x, new_y
 
-def walk_path(waypoints, max_total_steps=100):
+def walk_path(waypoints, max_total_steps=120):
     total = 0
     for wx, wy in waypoints:
         while total < max_total_steps:
@@ -65,4 +61,4 @@ def walk_path(waypoints, max_total_steps=100):
             print(f"Reached max steps budget! Pos: {get_pos()}")
             break
 
-print("Initial Pos:", get_pos())
+print("Ready.")
