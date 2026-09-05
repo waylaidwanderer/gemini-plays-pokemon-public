@@ -2792,14 +2792,13 @@
 - Columns 6-7 (Central Bridge): Spans rows 0-6 connecting Northern Highway (Row 1) south to NW Room and Row 6 cross-corridor.
 - Columns 0-5 (Far West Room): Contains NW Boulder at (5, 5) and Switch Plate at (3, 5).
 
-## Verified Master 3F NW Boulder Solution to Switch (3, 5) (VERIFIED Turn 29241)
-- Initial Position: NW Boulder @ (5, 5). Switch @ (3, 5).
+## Verified Master 3F NW Boulder Solution to Switch (3, 5)
+- Initial Position: NW Boulder @ (5, 6). Switch @ (3, 5).
+- Verified Topology: (5, 0..5) is solid rock wall. Row 6 ((5, 6), (4, 6), (3, 6), (2, 6)) is the horizontal corridor. Row 7 ((6, 7), (5, 7), (4, 7), (3, 7), (2, 7)) is the southern bypass.
 - Master Push Protocol:
-  1. Stand at (5, 4) facing South -> Push Down 1 time: Boulder to (5, 6).
-  2. Reposition around via (5, 4) -> (6, 6) facing West.
-  3. Stand at (6, 6) facing West -> Push Left 2 times: Boulder to (3, 6).
-  4. Reposition around via (4, 6) -> (4, 7) -> (3, 7) facing North.
-  5. Stand at (3, 7) facing North -> Push Up 1 time: Boulder moves onto Switch (3, 5) [Player at (3, 6)]!
+  1. Stand at (6, 6) facing West -> Push Left 2 times: Boulder moves from (5, 6) to (4, 6) and (3, 6) [Player at (4, 6)].
+  2. Reposition around via (4, 6) -> Down to (4, 7) -> Left to (3, 7) [facing North].
+  3. Stand at (3, 7) facing North -> Push Up 1 time: Boulder moves onto Switch (3, 5) [Player at (3, 6)]!
 - Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) opened.
 
 ## 3F Pit Area & Boulder Observations
