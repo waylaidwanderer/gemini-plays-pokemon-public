@@ -74,7 +74,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 31, Water]
   - Status: Healthy
-  - HP: 74 / 84
+  - HP: 57 / 84
   - Stats: Attack 56, Defense 67, Speed 56, Special 58
   - Moves: Bite (PP 15/25), Tail Whip (PP 30/30), Bubblebeam (PP 13/20), Water Gun (PP 23/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
