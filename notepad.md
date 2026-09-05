@@ -58,7 +58,7 @@
   - Status: Healthy
   - HP: 22 / 66
   - Stats: Attack 41, Defense 50, Speed 41, Special 42
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 30/30), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubble (PP 30/30), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -66,7 +66,7 @@
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35)
+  - Moves: Bite (PP 25/25)
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
