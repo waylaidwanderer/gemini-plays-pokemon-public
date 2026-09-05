@@ -23,7 +23,7 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥15620
+- ¥15890
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 31, Water]
