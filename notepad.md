@@ -670,6 +670,7 @@
 - Resident NPC: Wandering citizen around (10, 21).
 
 ## Key Buildings & Facilities
+- Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
 - Pokémon Center: TBD
 - Poké Mart: TBD
 - Cerulean Gym: TBD (Gym Leader: Misty - Water type)
