@@ -19,7 +19,8 @@
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
-- Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
+- Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
+  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Customer at (1, 3). Shop Clerk/Manager at (5, 4) with counter at (5..7, 3).
 - Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28) blocking direct southern access to Route 5 without HM01 Cut.
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 - Resident NPC: Wandering citizen around (10, 21).
