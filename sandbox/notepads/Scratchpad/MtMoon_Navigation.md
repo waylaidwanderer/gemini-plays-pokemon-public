@@ -7,7 +7,7 @@
 - [x] Reached Fossil Chamber at (12, 10); sighted Super Nerd Miguel (12, 8), Dome Fossil (12, 6), and Helix Fossil (13, 6) [Turn 1825].
 - [x] Defeated Super Nerd Miguel (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12) [Turn 1846].
 - [x] Claimed Helix Fossil at (13, 6) [Turn 1853].
-- [ ] Proceed to Route 4 exit ladder.
+- [/] Proceed to Route 4 exit ladder (Ladder sighted at (5, 7) on B2F).
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor / entrance plateau)
 - 1F Ladder (5, 5) <-> B1F (5, 5) (Northwest transit corridor)
