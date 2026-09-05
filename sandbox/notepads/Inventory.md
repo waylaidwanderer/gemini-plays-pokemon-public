@@ -7,7 +7,7 @@
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
 - POTION x2
-- ANTIDOTE x3
+- ANTIDOTE x2
 - RARE CANDY x1
 - HELIX FOSSIL x1
 - NUGGET x1
@@ -20,7 +20,7 @@
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 27, Water]
-  - Status: Poisoned
+  - Status: Healthy
   - HP: 23 / 73
   - Stats: Attack 48, Defense 59, Speed 48, Special 50
   - Moves: Bite (PP 10/25), Tail Whip (PP 30/30), Bubblebeam (PP 11/20), Water Gun (PP 17/25)
