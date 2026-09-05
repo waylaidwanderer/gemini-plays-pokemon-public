@@ -12,7 +12,8 @@
 9. [x] Sighted descending Ladder at (21, 17) in B1F corridor.
 10. [x] Descend Ladder (21, 17) to main B2F cavern; caught wild Paras Lv 10 (FUNGI) [Turn 1666-1675].
 11. [x] Tested northern passage at (20, 5); verified cols 18..19 and row 4 are impassable.
-12. [ ] Navigate south to rows 16..18 to bypass west into main western cavern.
+12. [x] Empirically tested (19, 16) - confirmed impassable cliff ridge.
+13. [ ] Explore east along row 14 past col 25 toward eastern B2F passage.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
