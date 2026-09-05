@@ -51,14 +51,14 @@
 - POKéDEX
 
 ## Money
-- ¥3790
+- ¥4385
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 24, Water]
   - Status: Healthy
-  - HP: 66 / 66
+  - HP: 58 / 66
   - Stats: Attack 43, Defense 52, Speed 43, Special 44
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 17/20), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -154,6 +154,14 @@
 - Sheldon Lv 22 Water Gun vs Shellder Lv 16: ~40% max HP damage.
 - Jr. Trainer (Female) Goldeen Lv 19: Peck deals 5 HP damage (7 HP at -1 Def). Tail Whip lowers Def 1 stage. Defeat yield: 451 EXP. Prize: ¥380.
 - Sheldon Lv 22 Tackle vs Goldeen Lv 19: ~25% max HP damage (~12-14 HP), critical hit deals ~35-40% max HP (~18-20 HP).
+
+## Rival RED Battle (Route 24 Entrance - Turns 2284-2296)
+- Opponent Team: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17.
+- Pidgeotto Lv 18: Gust deals 8 HP damage to Sheldon (Defense 52). Bubblebeam deals ~80% HP on hit 1; hit 2 defeats. Yield: 435 EXP.
+- Abra Lv 15: Low physical Defense (~12). Sheldon Bite deals 49+ damage (OHKO). Yield: 234 EXP.
+- Rattata Lv 15: Sheldon Bubblebeam deals 69 damage (OHKO). Yield: 183 EXP.
+- Bulbasaur Lv 17: Used Growl (-1 Attack). Sheldon Bite deals ~23 damage on hit 1, ~17 damage at -1 Attack on hit 2 (2HKO). Yield: 232 EXP.
+- Total EXP Yield: 1,084 EXP. Prize: ¥595.
 
 
 <hr>
