@@ -289,7 +289,8 @@
 - Position: (37, 4) facing South. Sight range: 1 tile (engaged at (37, 5)).
 - Pre-battle Dialogue: "My friend has a cute POKéMON. I'm so jealous!"
 - Team Size: 3 Pokémon.
-- Team: In progress...
+- Team:
+  - Oddish Lv 13: In progress...
 
 <hr>
 
