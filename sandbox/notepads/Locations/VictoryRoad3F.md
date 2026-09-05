@@ -10,7 +10,7 @@
 ## Physical Features & Topography
 - Upper Dark Plateau (rows 0-11, cols 19-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder 1 at (22, 3). Separated from lower floor by impassable south-facing cliff wall between row 11 and 12.
 - Northern Highway (Rows 0-1): Continuous open floor spanning across columns 6 through 25.
-- Central Bridge (Column 6): Spans rows 0-6. Terminates at (6, 6) against solid rock wall at (6, 7).
+- Central Bridge (Column 6): Spans rows 0-6. Empirically verified on Turn 28794 that Central Bridge (cols 6-7, rows 0-6) dead-ends at row 6 against south-facing cliff walls (row 7) and impassable solid rock wall along column 8 (rows 2-9). Pushing Boulder 1 (22, 3) down Central Bridge traps it; the bridge does NOT connect to the lower purple floor.
 - Row 16 Lower Highway: Continuous open floor across columns 10-29 connecting eastern corridor (28, 16) to western/central sectors.
 - Western/Central Vertical Chute (Column 10): Open vertical corridor (cols 9-10) connecting Row 16 at (10, 16) north to Row 14 at (10, 14) and Row 1.
 - SE Lower Purple Floor (rows 12-14, cols 10-26): Row 14 is a continuous horizontal corridor running from column 10 east all the way into the Pit at (23, 14) and Ladder B at (25, 14).
