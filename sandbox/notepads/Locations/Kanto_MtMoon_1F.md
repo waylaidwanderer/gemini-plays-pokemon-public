@@ -7,7 +7,7 @@
 - Ladder (13, 27): Ladder descending to basement chamber.
 
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (25, 15): Sighted ladder in east-central cavern at (25, 15), accessible via row 15 cross-corridor.
+- Ladder (21, 17): Sighted ladder in east-central cavern at (21, 17), accessible via column 21.
 
 
 
