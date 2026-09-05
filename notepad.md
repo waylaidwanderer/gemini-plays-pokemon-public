@@ -172,7 +172,7 @@
 - Caterpie Lv 14: Defeated in 1 hit by Bubblebeam (Critical Hit). Yield: 159 EXP.
 - Weedle Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 156 EXP.
 - Sheldon grew to Level 25! Max HP increased to 68 (Current HP: 60 / 68).
-- Total EXP: 315 EXP. Prize: �140.
+- Total EXP: 315 EXP. Prize: ¥140.
 
 ## Route 24 Nugget Bridge - Lass (Turn 2314-2319)
 - Position: (10, 28) facing South.
@@ -211,7 +211,7 @@
 - Team:
   - Machop Lv 15: Used Karate Chop (5 damage). Defeated by Sheldon Water Gun (x2). Yield: 282 EXP.
   - Geodude Lv 15: Defeated in 1 hit by Water Gun (Super Effective). Yield: 276 EXP.
-- Total EXP: 558 EXP. Prize: �525.
+- Total EXP: 558 EXP. Prize: ¥525.
 
 
 <hr>
@@ -727,7 +727,7 @@
 ## Geography & Layout
 - Nugget Bridge: 2-tile wide golden bridge extending north across water along columns 10 and 11.
 - Bridge Gauntlet: 5 trainers stationed consecutively along the bridge corridor.
-  - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310. Prize: �140.
+  - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310. Prize: ¥140.
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
   - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
   - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
@@ -740,7 +740,7 @@
 - Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+ empirically verified walkable).
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
-- Item Ball at (10, 5): Pok� Ball item visible on western elevated plateau north of row 7 ridge.
+- Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.
 
 <hr>
 
@@ -759,10 +759,10 @@
 - Shrub Barrier (8, 7): Dense shrub at (8, 7) blocking sightline south from (8, 4).
 - Corridor 1 (Col 9, Rows 4..8): Open grass connector linking row 8 avenue north to rows 4..7.
 - Row 7 Tree Gap (Cols 10..11, Row 7): 1-tile wide east-west grass corridor between trees at (10..11, 6) and (10, 8..9).
-- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: �525.
+- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: ¥525.
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Youngster stationed at (13, 7) facing East.
-- Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South (engaged Turn 2395, 2 Pokémon).
+- Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South.
 - Trainer 4 at (18, 5): Lass / Jr. Trainer ♀ stationed at (18, 5) facing West.
 - Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
 
