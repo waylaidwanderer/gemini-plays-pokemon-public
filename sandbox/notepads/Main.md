@@ -28,3 +28,4 @@
 - [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
 - [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
 - [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
+- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]

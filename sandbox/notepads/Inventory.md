@@ -14,6 +14,7 @@
 
 ## Key Items
 - POKéDEX
+- S.S. TICKET
 
 ## Money
 - ¥8960
