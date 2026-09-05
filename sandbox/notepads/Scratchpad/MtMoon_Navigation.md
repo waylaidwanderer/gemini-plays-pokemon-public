@@ -9,8 +9,9 @@
 6. [x] Traversed Northern Highway west to Northwest Chamber (Turn 1624).
 7. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos (Turn 1642).
 8. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
-9. [ ] Follow B1F corridor east along row 16 to descending ladder to main B2F cavern.
-10. [ ] Explore main B2F cavern depths, defeat Super Nerd, and retrieve prehistoric fossil.
+9. [x] Sighted descending Ladder at (21, 17) in B1F corridor.
+10. [ ] Descend Ladder (21, 17) to main B2F cavern.
+11. Primary Objective: Explore main B2F cavern depths, defeat Super Nerd, and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8

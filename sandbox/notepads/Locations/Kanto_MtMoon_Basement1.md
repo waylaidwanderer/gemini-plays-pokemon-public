@@ -30,4 +30,5 @@
   - Status: Defeated.
 ### Northwest Transit Corridor (1F Ladder 5, 5 Area)
 - Ladder (5, 5): Ascending ladder leading back to Mt. Moon 1F at (5, 5).
-- Layout: 4-tile wide north-south corridor spanning cols 4..7, extending south from row 4 past row 9.
+- Ladder (21, 17): Descending ladder leading to Mt. Moon B2F main cavern.
+- Layout: Corridor runs south along cols 4..7 to row 16, turns east along rows 16..17 to col 21, connecting Ladder (5, 5) and Ladder (21, 17).
