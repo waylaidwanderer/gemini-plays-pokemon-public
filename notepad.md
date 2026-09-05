@@ -2773,12 +2773,11 @@
 - Purple Chamber (rows 2-4, cols 14-18): Connected west to central corridor via row 2 (cols 9-18). Separated from Northern Highway by solid north wall at row 2, and blocked to the south by rock walls and Shutter at (17, 5).
 - SE Lower Purple Floor (rows 12-14, cols 10-26): Accessible via 2F Ladder B at (25, 14). Contains Boulder 3 at (13, 12), the Pit at (23, 14), and Ladder B at (25, 14).
 
-## Discovered Points of Interest & Topology (Verified Turn 28862)
+## Discovered Points of Interest & Topology
 - [ ] Item Ball at (11, 0) in northern corridor of western sector.
 - Cooltrainer NPC at (19, 8): "You earned the right to be on VICTORY ROAD!".
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
-- Column 10 Connectivity: Row 1 above column 10 is separated from lower rows by a south-facing cliff wall; cannot walk south between row 1 and row 2 at column 10.
-- Boulder 1 at (22, 3): Positioned on upper dark plateau.
+- Switch Plate at (3, 5): Opened Shutter (17, 5) when NW Boulder at (5, 5) was pushed onto it.
 
 ## Northern Highway Branch Corridors & Scout Checklist
 - Column 17: Open 1-tile gap at row 4 connecting rows 1-3 to rows 6-11 (Upper Dark Plateau & Ladder A arrival).
