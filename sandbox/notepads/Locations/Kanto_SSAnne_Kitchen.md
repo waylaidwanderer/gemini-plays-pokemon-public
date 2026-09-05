@@ -10,7 +10,13 @@
 - Aisles: Vertical passages at col 1, cols 4..5, and cols 8..9.
 - South Area: Rows 10..15 open floor with counters/tables along rows 14..15; south wall at row 16.
 - East Wall: Col 14 boundary.
-- East Aisle: Col 12 passage (rows 5..10) between Island 3 and east wall/chefs.
+- East Wall & Aisle: Col 12 passage. East wall at col 13 has alternating trash cans and chefs:
+  - Trash Can 1: (13, 5)
+  - Cook: (13, 6)
+  - Trash Can 2: (13, 7)
+  - Cook: (13, 8)
+  - Trash Can 3: (13, 9)
+  - Cook (Onions): (13, 10)
 
 ## Points of Interest
 - Hidden Item: Trash can with Great Ball (clue confirmed: "I saw an odd ball in the trash.").
