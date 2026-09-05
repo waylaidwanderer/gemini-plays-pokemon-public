@@ -36,4 +36,5 @@
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 - [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
+- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 - [ ] Obtain HM01 Cut from the Captain of the S.S. Anne

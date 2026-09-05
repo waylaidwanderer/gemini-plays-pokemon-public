@@ -38,6 +38,7 @@
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 - [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
+- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 - [ ] Obtain HM01 Cut from the Captain of the S.S. Anne
 
 <hr>
@@ -76,7 +77,7 @@
   - Status: Healthy
   - HP: 57 / 84
   - Stats: Attack 56, Defense 67, Speed 56, Special 58
-  - Moves: Bite (PP 15/25), Tail Whip (PP 30/30), Bubblebeam (PP 13/20), Water Gun (PP 23/25)
+  - Moves: Bite (PP 14/25), Tail Whip (PP 30/30), Bubblebeam (PP 13/20), Water Gun (PP 23/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
