@@ -1058,14 +1058,16 @@
 - Stairs Warp Tile: Player spawns at (27, 5) facing Down when descending from 1F.
 
 ## Cabins & Exploration (In Progress)
-- Cabin 1 (Eastern Cabin): Entrance at (23, 3), door approach at (23, 4).
+- Cabin 1 (Eastern Cabin): Entrance at (23, 3), interior doorway at (12, 15).
+  - Interior bounds: Cols 10..13, Rows 11..15.
+  - Occupants: Sailor at (10, 13) facing East, Pokémon sprite at (11, 12) / (12, 11).
+  - Furniture: Desk/table at (10..11, 11), bunk bed at (13, 11..12).
 - Cabin 2: Entrance at (19, 3), door approach at (19, 4).
 - Remaining Cabins: Expected at (15, 3), (11, 3), (7, 3).
 - Key Targets on B1F:
   - TM44 (Rest) item ball.
   - Useful recovery items (Super Potion, Ether).
   - Sailor trainer battles for EXP to level up Rocky (Geodude) and Sheldon (Wartortle).
-- Current Action: Entering Cabin 1 at (23, 3).
 
 <hr>
 
