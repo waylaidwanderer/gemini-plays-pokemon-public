@@ -59,7 +59,7 @@
 - S.S. TICKET
 
 ## Money
-- ¥9670
+- ¥9990
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 29, Water]
