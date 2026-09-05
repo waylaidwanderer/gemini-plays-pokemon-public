@@ -4,7 +4,7 @@
 
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 
-- Ladder (13, 27): Ladder descending to basement chamber (empirically verified warp).
+- Ladder (13, 27): Ladder descending to basement chamber.
 
 - Ladder (17, 11): Ladder in north-central corridor.
 - Ladder (21, 17): Sighted ladder in east-central cavern.
@@ -21,7 +21,7 @@
 
 - Bug Catcher (16, 23): Stationed at (16, 23) facing South down column 16.
 
-- Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction (empirically verified collision at (17, 21)).
+- Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction.
 
 - Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher at (7, 23). Bounded on north by solid rock wall at rows 18-19.
 
@@ -57,4 +57,4 @@
 
 - Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
 
-- Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area (collision verified at (24, 22) facing West).
+- Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
