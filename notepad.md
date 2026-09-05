@@ -558,7 +558,8 @@
   - Status: Defeated.
 ### Northwest Transit Corridor (1F Ladder 5, 5 Area)
 - Ladder (5, 5): Ascending ladder leading back to Mt. Moon 1F at (5, 5).
-- Layout: 4-tile wide north-south corridor spanning cols 4..7, extending south from row 4 past row 9.
+- Ladder (21, 17): Descending ladder leading to Mt. Moon B2F main cavern.
+- Layout: Corridor runs south along cols 4..7 to row 16, turns east along rows 16..17 to col 21, connecting Ladder (5, 5) and Ladder (21, 17).
 
 
 <hr>
@@ -598,8 +599,9 @@
 6. [x] Traversed Northern Highway west to Northwest Chamber (Turn 1624).
 7. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos (Turn 1642).
 8. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
-9. [ ] Follow B1F corridor east along row 16 to descending ladder to main B2F cavern.
-10. [ ] Explore main B2F cavern depths, defeat Super Nerd, and retrieve prehistoric fossil.
+9. [x] Sighted descending Ladder at (21, 17) in B1F corridor.
+10. [ ] Descend Ladder (21, 17) to main B2F cavern.
+11. Primary Objective: Explore main B2F cavern depths, defeat Super Nerd, and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
