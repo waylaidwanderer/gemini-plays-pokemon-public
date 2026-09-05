@@ -3,6 +3,7 @@
 ## Items
 - TOWN MAP
 - POKé BALL x11
+- GREAT BALL x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
 - ESCAPE ROPE x1
