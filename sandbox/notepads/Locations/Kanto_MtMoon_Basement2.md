@@ -26,4 +26,5 @@
 ### Eastern Cavern Highway & Southern Cavern (Reached via Row 15 / Row 14)
 - Breakthrough Passage (33, 15): Empirically verified fully passable northward from Row 16 to Row 14, connecting lower chamber directly back to northern corridors.
 - Eastern Cavern Highway (Cols 36..38, Rows 14..24): 3-tile wide open north-south corridor running from row 14 south past row 24. Bounded on east by solid rock wall at Col 39.
-- Southern Avenue (Cols 32..34, Rows 24..28+): At row 24, the corridor turns west to cols 32..34, where a 3-tile wide passage extends south through rows 25..28+ toward the fossil chamber. Bounded on east by rock wall at cols 35..39 on row 25.
+- Southern Avenue (Cols 32..34, Rows 24..30): At row 24, the corridor turns west to cols 32..34, running south to row 30.
+- Southern Corridor (Cols 20..33, Rows 31..32): At row 31, turns west into a 2-tile high corridor (rows 31-32) bounded by rock walls at row 30 (north) and row 33 (south).
