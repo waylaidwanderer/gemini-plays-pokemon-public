@@ -767,7 +767,7 @@
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
 - Eastern Elevation Boundary (Row 19, Cols 32..37): Impassable northbound elevation boundary across cols 32..37.
-- Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37. Empirically verified at (35, 27) on Turn 2236 that bollards are solid collision.
+- Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37.
 - Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
 - Southeast Building: Located at cols 28..33, rows 24..25 with blue roof.
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
@@ -853,7 +853,7 @@
 - Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
 - Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
 - Item Ball at (22, 2): Poké Ball on northern plateau at (22, 2). Enclosed by tree line (col 21) and bounded by Cut tree at (26, 3) and Jr. Trainer ♂ at (24, 4).
-- Cut Tree at (26, 3): Cut shrub blocking direct access from (26, 4) into northern corridor (cols 22..26, row 2).
+- Shrub at (26, 3): Small shrub (possible Cut tree, unverified collision/interaction) blocking direct access from (26, 4) into northern corridor (cols 22..26, row 2).
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
 - Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
 - Trainer 8 at (32, 3): Youngster stationed at (32, 3) facing West. Defeated Turn 2516. Team: Ekans Lv 14, Sandshrew Lv 14. Prize: ¥210. Defeat Quote: "YOUNGSTER: I knew I'd lose too!".
