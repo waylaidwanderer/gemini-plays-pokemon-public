@@ -2682,7 +2682,7 @@
 2. **2F Master Sequence (COMPLETED)**:
    - Descended to 2F, activated Strength with ATLAS.
    - Pushed Boulder 2 from (4, 14) onto Switch 1 at (1, 16) via Column 3 -> Row 16 sequence.
-   - Outcome: Shutter 1 (5, 10) and Shutter 3 (21, 15) permanently opened!
+   - Outcome: Shutter 1 (5, 10) and Shutter 3 (21, 15) opened for the duration of the current 2F visit (resets upon changing floors).
 3. **3F Pit Drop & 2F Exit Sequence**:
    - On 3F, navigate to the Pit at (23, 14) and Boulder at (22, 15).
    - Push Boulder East into (23, 15) and North into the Pit at (23, 14).
@@ -2811,5 +2811,9 @@
 - NW Boulder default position: (5, 5) near NW Switch at (3, 5).
 - Row 11/12 Elevation Cliff (Empirically Verified Turn 29996): Row 11 is an impassable south-facing cliff wall separating the Upper Dark Plateau from the Lower Purple Floor (rows 12-14). Access from Row 11 to the Lower Highway (Row 16) requires walking east to Eastern Outer Corridor (cols 28-29) and south to row 16.
 - Row 16 Lower Highway: Spans east-west along rows 16-17, connecting Eastern Outer Corridor (cols 28-29) westward beneath the rock obstacles.
+## Obstacles & Blockages (Verified Turn 30600)
+- Column 11 Wall: Column 11 (x=11, y=5..10) is a solid vertical rock barrier blocking Row 6 westward passage at (11, 6). Boulders pushed west past (17, 6) stop at (12, 6) and cannot be pushed further west or south.
+- Row 7 Ledge / Wall: Impassable from (13, 6) south to (13, 7). Bypass east via Row 6 to (17, 6).
+
 
 <hr>
