@@ -27,9 +27,10 @@
   - HP: 79 / 79
   - Stats: Attack 52, Defense 63, Speed 52, Special 54
   - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
-- SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
+- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
-  - HP: 19 / 19
+  - OT: Traded (Boosted EXP)
+  - Potential: Can learn HM01 Cut
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
