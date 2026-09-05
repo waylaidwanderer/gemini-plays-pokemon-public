@@ -2795,5 +2795,12 @@
 - Boulder observed at (24, 10).
 - Column 13 / Row 11: Pushing boulder at (13, 12) down to (13, 13) dead-ends against rock obstacle at (13, 14).
 - Routing to lower pit area (rows 14-15) from upper plateau is currently being mapped step-by-step.
+## Verified Northern Highway Boulder 1 Traversal (Verified Turn 29384)
+- Boulder 1 initial position: (22, 3).
+- Sequence:
+  1. Cast Strength from party menu (ATLAS).
+  2. Push Up 2 times from (22, 4) -> Boulder 1 moved to (22, 1) on Northern Highway.
+  3. Reposition to (23, 1) facing West -> Push Left 1 time -> Boulder 1 moved to (21, 1).
+  4. Pushing West along row 1 towards western corridors.
 
 <hr>
