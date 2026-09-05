@@ -64,8 +64,8 @@
 # Current Party & Team Strategy
 
 ## Active Party (Verified Turn 22255)
-1. HYDROS (Blastoise) - Lv 70
-   - Stats: Max HP 236 (HP: 236/236 - Fully Healed), Attack 165, Defense 183, Speed 168, Special 175
+1. HYDROS (Blastoise) - Lv 71
+   - Stats: Max HP 240 (HP: 109/240), Attack 169, Defense 186, Speed 171, Special 178
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -106,6 +106,7 @@
 5. BRUCE (Hitmonlee) - Lv 30 [Claimed Turn 18055 at Fighting Dojo]
 6. TOXIN (Grimer) - Lv 32 [Captured Turn 19148 on Pok�mon Mansion 2F]
 7. GEODUDE - Lv 24 [Captured Turn 25256 in Victory Road]
+8. AKTT)((! (Geodude) - Lv 22 [Captured Turn 29686 in Victory Road 2F]
 
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
@@ -2677,15 +2678,9 @@
 
 # Victory Road Master Strategy & Puzzle Log
 
-## Floor 3F Puzzle & Topology (IN PROGRESS)
-- Verified Features:
-  - Upper Dark Plateau (rows 0-11, cols 19-28): Ladder A arrival at (23, 7), Ladder NE at (27, 7), Boulder at (22, 3).
-  - NPC at (19, 8): Cooltrainer stating "You earned the right to be on VICTORY ROAD!".
-  - Item Ball at (11, 0): Located in northern corridor of western sector.
-  - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
-  - SE Lower Room: Light purple floor (rows 12-14, cols 10-26) containing Pit / Hole at (23, 14) and Ladder B at (25, 14).
-  - Column 10 Connectivity Note: Row 1 above column 10 is separated from lower rows by a south-facing cliff boundary.
-  - Central Corridor / Column 22: Column 22 connects upper plateau (rows 2-11) south towards row 12/14 SE room.
+## Floor 3F Routing & Active Sequence
+- Current Phase: Testing connectivity of Northern Highway (row 1) to NW Boulder room at (5, 5).
+- Objective: Activate Switch (3, 5) to lower Shutter (17, 5), then push SE Boulder into Pit at (23, 14).
 ## Master Victory Road Puzzle Loop (Verified Turn 29512)
 1. 1F: Push Boulder 1 onto Switch (17, 13) to open 1F shutters. Climb Ladder at (1, 1) to 2F.
 2. 2F: Activate Strength, push Boulder 2 onto Switch 1 at (1, 16) to open Shutter 1 (5, 10) and Shutter 3 (21, 15).
@@ -2777,7 +2772,6 @@
 - [ ] Item Ball at (11, 0) in northern corridor of western sector.
 - Cooltrainer NPC at (19, 8): "You earned the right to be on VICTORY ROAD!".
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
-- Switch Plate at (3, 5): Opened Shutter (17, 5) when NW Boulder at (5, 5) was pushed onto it.
 
 ## Northern Highway Branch Corridors & Scout Checklist
 - Column 17: Open 1-tile gap at row 4 connecting rows 1-3 to rows 6-11 (Upper Dark Plateau & Ladder A arrival).
