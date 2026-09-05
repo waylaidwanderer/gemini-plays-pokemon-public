@@ -24,11 +24,12 @@
 ### Central Transit Corridor
 - Geography: 4-tile wide east-west corridor spanning rows 8..11, cols 14..25. Bounded by solid rock wall to the north at row 7. Connects Ladder (25, 9) and Ladder (17, 11).
 
-## NPCs & Trainers
-- Team Rocket Grunt: Stationed at (15, 24) facing South in Southern Section.
-  - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
-  - Status: Defeated.
 ### Northwest Transit Corridor (1F Ladder 5, 5 Area)
 - Ladder (5, 5): Ascending ladder leading back to Mt. Moon 1F at (5, 5).
 - Ladder (21, 17): Descending ladder leading to Mt. Moon B2F main cavern.
 - Layout: Corridor runs south along cols 4..7 to row 16, turns east along rows 16..17 to col 21, connecting Ladder (5, 5) and Ladder (21, 17).
+
+## NPCs & Trainers
+- Team Rocket Grunt: Stationed at (15, 24) facing South in Southern Section.
+  - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
+  - Status: Defeated.
