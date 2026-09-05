@@ -747,9 +747,9 @@
 - Nugget Bridge: 2-tile wide golden bridge extending north across water along columns 10 and 11.
 - Bridge Gauntlet: 5 trainers stationed consecutively along the bridge corridor.
   - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310. Prize: ¥140.
-  - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
-  - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
-  - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
+  - Trainer 2: Lass stationed at (10, 28) facing South. Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
+  - Trainer 3: Youngster stationed at (11, 25) facing West. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
+  - Trainer 4: Lass stationed at (10, 22) facing North. Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
   - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!". Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
   - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15). Defeated Turn 2367. Prize: ¥450.
 ## Northern Section (North of Nugget Bridge)
@@ -782,8 +782,9 @@
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
-- Trainer 4 at (18, 5): Youngster stationed at (18, 5) facing West.
-- Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.- Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
+- Trainer 4 at (18, 5): Youngster stationed at (18, 5) (engaged via direct interaction).
+- Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
+- Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 
 
 <hr>
