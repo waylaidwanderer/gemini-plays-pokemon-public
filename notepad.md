@@ -154,6 +154,11 @@
   - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
   - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
 
+## Route 6 Empirical Combat Log (Turns 2668 - 2695)
+- **Bug Catcher Elijah [Turn 2668]:** Roster: Butterfree Lv 20 (Yield: 685 EXP, Prize: ¥200). Sheldon Lv 28 used Bubblebeam (OHKO).
+- **Jr. Trainer ♀ Nancy [Turn 2682]:** Roster: Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
+- **Jr. Trainer ♂ Ricky [Turn 2695]:** Roster: Spearow Lv 16 (198 EXP), Raticate Lv 16 (397 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
+
 
 <hr>
 
@@ -811,7 +816,7 @@
 - Trainer (11, 21): Jr. Trainer â (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
-- Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668] (Roster: Butterfree Lv 20 - 685 EXP, Prize: ¥240). Pre-battle: "I've never seen you around! Are you good?".
+- Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668] (Roster: Butterfree Lv 20 - 685 EXP, Prize: ¥200). Pre-battle: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
 - Trainer (11, 30): Jr. Trainer â [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
@@ -827,14 +832,12 @@
 - North: Route 6 northern entrance at (18..19, 0).
 - South: Harbor & S.S. Anne docks.
 - East: Route 11 entrance.
-- West: Route 11 / Diglett's Cave area.
 
 ## Geography & Landmarks
 - Northern Entrance: Paved street at (18..19, 0..3) entering south from Route 6.
 - Cross Street: Open paved street running east-west along row 4 (cols 15..24+).
 - Northern Building West: Cols 15..17, rows 0..3.
 - Northern Building East: Cols 20..23, rows 0..3.
-- Cut Trees: Visible at (24, 3).
 - Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
 - House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Central Building (Trade House): Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South. Interior: NPC at (3, 5) trades Spearow for Farfetch'd (DUX)!
@@ -852,7 +855,7 @@
 ## S.S. Anne Docks & Harbor
 - Location: Eastern Vermilion City at columns 30..31.
 - Approach: Paved thoroughfare runs east along rows 14..15 past Poké Mart (cols 24..28) to the pier entrance at (30, 15..16).
-- Signpost (29, 15): Harbor sign located immediately west of pier entrance.
+- Signpost (29, 15): Located immediately west of pier entrance (text unread).
 - Pier: 2-tile wide wooden plank pier (cols 30..31) extending south from row 16 through the water into the ocean.
 
 <hr>
