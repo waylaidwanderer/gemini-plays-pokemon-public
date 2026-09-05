@@ -1051,5 +1051,9 @@
   - Interior bounds: Cols 10..13, Rows 11..15.
   - Occupants: Gentleman at (12, 12) ("Have you gone to the SAFARI ZONE in FUCHSIA CITY?"), Boy at (11, 14) ("Me and my Daddy think the SAFARI ZONE is awesome!").
   - Desk/bin at (10, 11).
+- Cabin 6: Entrance at (29, 11) in 2F main hallway. Interior doorway at (22..23, 15).
+  - Interior bounds: Cols 20..23, Rows 11..15.
+  - Occupants: Passenger at (22, 12) ("The CAPTAIN looked really sick and pale!"), Girl at (20, 12) ("I hear many people get seasick!").
+  - Furniture: Desk at (20..21, 11), stool at (20, 13), bed at (23, 11..12). No items.
 
 <hr>
