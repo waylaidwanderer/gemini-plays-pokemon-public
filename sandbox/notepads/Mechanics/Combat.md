@@ -74,3 +74,9 @@
 - Ekans Lv 14: Defeated in 1 hit by Bite. Yield: 186 EXP.
 - Zubat Lv 14: Defeated in 1 hit by Bite. Yield: 162 EXP.
 - Total EXP: 519 EXP.
+
+## Route 24 Nugget Bridge - Lass (Turn 2333-2341)
+- Position: (10, 22) facing North. Dialogue: "I'm No. 4! Getting tired?".
+- Pidgey Lv 16: Defeated in 2 hits by Bite (used Sand-Attack, -1 Sheldon accuracy). Yield: 187 EXP.
+- Nidoran♀ Lv 16: Defeated in 1 hit by Bubblebeam. Yield: 201 EXP.
+- Total EXP: 388 EXP. Prize: ¥240.
