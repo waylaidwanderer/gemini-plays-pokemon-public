@@ -557,14 +557,15 @@
 ### Central Transit Corridor
 - Geography: 4-tile wide east-west corridor spanning rows 8..11, cols 14..25. Bounded by solid rock wall to the north at row 7. Connects Ladder (25, 9) and Ladder (17, 11).
 
-## NPCs & Trainers
-- Team Rocket Grunt: Stationed at (15, 24) facing South in Southern Section.
-  - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
-  - Status: Defeated.
 ### Northwest Transit Corridor (1F Ladder 5, 5 Area)
 - Ladder (5, 5): Ascending ladder leading back to Mt. Moon 1F at (5, 5).
 - Ladder (21, 17): Descending ladder leading to Mt. Moon B2F main cavern.
 - Layout: Corridor runs south along cols 4..7 to row 16, turns east along rows 16..17 to col 21, connecting Ladder (5, 5) and Ladder (21, 17).
+
+## NPCs & Trainers
+- Team Rocket Grunt: Stationed at (15, 24) facing South in Southern Section.
+  - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
+  - Status: Defeated.
 
 
 <hr>
@@ -594,7 +595,7 @@
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 - Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
-- Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges, bounded on east by solid rock wall at Col 35 (Rows 15..18).
+- Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary tested at (35, 16) [blocked]; rows 17 and 18 at Col 35 remain untested.
 
 
 <hr>
