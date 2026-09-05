@@ -904,7 +904,7 @@
 
 ## Connections
 - North Exit: Gangplank to Vermilion City harbor at (26..27, -1).
-- Stairs to 2F: Located at (2, 6) at western end of main hallway.
+- Stairs to B1F: Located at (2, 6) at western end of main hallway (descends to B1F at 2, 4).
 - South Corridor: Cols 2..3, Rows 7..15 heading south toward kitchen.
 - Kitchen Door: Doorway at (3, 16) leads into Kitchen at (6, 0).
 
@@ -969,6 +969,29 @@
   - Cook at (13, 8)
   - Cook at (13, 10) ("Snivel...Sniff... I only get to peel onions...")
   - Cook at (11, 13)
+
+
+<hr>
+
+<h1><code>Locations/Kanto_SSAnne_B1F</code></h1>
+
+# S.S. Anne B1F
+
+## Connections
+- Stairs to 1F: Located at (2, 4), ascending to 1F western corridor at (2, 6).
+- Stairs at (2, 12): Located at west end of B1F hallway.
+
+## Geography & Layout
+- West Corridor: Cols 2..3, Rows 4..11 running north-south from stairs at (2, 4) down to hallway junction.
+- Main Hallway: Rows 12..13 running east from col 3 with yellow striped carpet.
+- Cabins: Located along north wall of main hallway (doors at row 11).
+- NPC in West Corridor: Waiter at (3, 7) ("This ship, she is a luxury liner for trainers...").
+
+## Cabins
+- Cabin 1: Entrance at (9, 11) in B1F main hallway. Interior doorway at (2..3, 5).
+  - Interior bounds: Cols 0..3, Rows 0..5.
+  - Occupants: Sailor at (1, 2) facing South.
+  - Item Ball: Located at (0, 3).
 
 
 <hr>
