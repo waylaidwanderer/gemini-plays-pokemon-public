@@ -2704,19 +2704,13 @@
    - Walk through Shutter 1 (5, 10) -> (14, 8) -> (20, 14) -> Shutter 3 (21, 15) -> Column 29 -> Ladder A at (23, 7).
    - Climb Ladder A to 3F (23, 7) to arrive on the 3F Upper Dark Plateau.
 
-4. **3F NW Switch & SE Pit Drop**:
-   - From 3F Upper Plateau, navigate to 3F SE Room via opened shutters or access.
-   - Push SE Boulder into Pit at (23, 14).
+4. **2F to 3F SE Room & Pit Drop**:
+   - Walk through Shutter 1 (5, 10) -> (14, 8) -> (20, 14) -> Shutter 3 (21, 15) -> Column 29 -> Ladder B at (25, 14).
+   - Climb Ladder B to 3F (25, 14) directly into the SE Pit Room!
+   - Push Boulder 3 into the Pit at (23, 14).
    - Jump into the Pit at (23, 14) down to 2F!
 
-5. **2F to 3F SE Room & Pit Drop**:
-   - Walk through Shutter 1 (5, 10) -> (14, 8) -> (20, 14) -> Shutter 3 (21, 15) -> Column 29 -> Ladder A at (23, 7).
-   - Climb Ladder A to 3F (23, 7).
-   - Walk south through opened Shutter into SE Room!
-   - Push SE Boulder into Pit at (23, 14).
-   - Jump into the Pit at (23, 14) down to 2F!
-
-6. **2F Exit & Indigo Plateau**:
+5. **2F Exit & Indigo Plateau**:
    - Land on 2F right next to the fallen boulder.
    - Push the boulder onto the 2F exit switch plate to open the final shutter.
    - Jump down the 2F ledge at (23, 14) and climb the ladder to Route 23 North / Indigo Plateau!
