@@ -12,3 +12,8 @@
 - Bypass: Col 26 checkered carpet is open from entrance to main hallway.
 - Cabins South: Entrances at (23, 8) and (31, 8).
 - Wall decor: Life preservers on north wall at (30, 5) and (32, 5).
+## Cabins
+- Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
+  - Interior bounds: Cols 10..13, Rows 1..5.
+  - NPC at (11, 4) facing South.
+  - Table/luggage at (10..11, 5), bed at (13, 4..5).
