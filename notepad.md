@@ -671,7 +671,8 @@
 
 ## Key Buildings & Facilities
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
-- Pokémon Center: TBD
+- Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
+  - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
 - Poké Mart: TBD
 - Cerulean Gym: TBD (Gym Leader: Misty - Water type)
 - Bike Shop: TBD
