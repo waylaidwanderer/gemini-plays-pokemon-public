@@ -28,7 +28,7 @@
 ## Floor Traversal & Ladder Access
 - From lower floor (5, 14), pass North through lowered Shutter (5, 13) onto elevated cross-highway (row 12).
 - Proceed East along row 12 to (11, 12), North to (11, 6), West across row 6 to (7, 6), and South through lowered Shutter (7, 7) to lower cave floor (7, 8).
-- Proceed West along row 8 to (3, 8) (note: (2, 8) is a rock obstacle and col 1 is solid wall; do not enter col 1/row 9). Walk North along Column 3 through (3, 7)->(3, 6)->(3, 5) to reach 2F Ladder.
+- Proceed West along row 8 to (3, 8) (note: (2, 8) is a rock obstacle and col 1 is solid wall; do not enter col 1/row 9). Walk North along Column 3 through (3, 7)->(3, 6)->(3, 5)->(3, 4)->(3, 3)->(3, 2)->(3, 1), then Left 2 steps through (2, 1) to reach the 2F Ladder at (1, 1) (connecting to 2F at (0, 8)).
 
 ## Verified Master Boulder Solution (Verified Turn 28353)
 - Initial State: Boulder 1 at (5, 15).
