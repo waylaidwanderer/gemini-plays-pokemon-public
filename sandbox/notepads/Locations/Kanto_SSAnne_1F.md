@@ -23,6 +23,6 @@
   - Table at (20..21, 5), bed at (23, 4..5).
 - Cabin 3: Entrance at (15, 8) in 1F main hallway. Interior doorway at (0, 10).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14).
+  - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway.
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
