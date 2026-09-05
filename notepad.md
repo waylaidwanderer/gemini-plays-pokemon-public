@@ -571,6 +571,10 @@
   - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
   - Status: Defeated.
 
+### Northeast Exit Transit Corridor
+- Arrival from B2F Ladder (5, 7): Arrive at (23, 3).
+- Ladder (27, 3): Ascending ladder leading up to Mt. Moon 1F Route 4 exit room.
+- Corridor runs east-west along rows 2..3 between col 20 and col 27.
 
 <hr>
 
