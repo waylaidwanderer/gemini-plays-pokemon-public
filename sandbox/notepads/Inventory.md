@@ -11,6 +11,7 @@
 - RARE CANDY x1
 - HELIX FOSSIL x1
 - NUGGET x1
+- TM28 (DIG) x1
 
 ## Key Items
 - POKéDEX
