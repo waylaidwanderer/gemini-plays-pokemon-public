@@ -925,7 +925,7 @@
   - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
-  - Occupants: NPC at (13, 11), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
+  - Occupants: Passenger at (13, 11) ("I collected these POKéMON from all around the world!"), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
   - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
 
