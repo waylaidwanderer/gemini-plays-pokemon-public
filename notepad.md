@@ -72,7 +72,7 @@
   - Status: Healthy
   - HP: 79 / 79
   - Stats: Attack 52, Defense 63, Speed 52, Special 54
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 18/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 17/20), Water Gun (PP 25/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
