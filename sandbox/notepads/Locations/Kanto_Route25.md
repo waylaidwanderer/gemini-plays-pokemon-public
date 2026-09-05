@@ -27,6 +27,6 @@
   - Row 3: Open grass cols 28..31. Youngster at (32, 3) facing West.
   - Row 4-5: Trees at (31, 4..5) and (28..29, 7..9). Open grass at cols 28..30 (rows 4..5).
   - Row 6: Open grass corridor cols 27..32+ passing south of trees at (31, 4..5).
-  - Alcove Access to (22, 2) Item Ball: Path unverified.
+
 - Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Defeated Turn 2531. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Prize: ¥195. Defeat quote: "LASS: I'm not so jealous!".
 - Sea Cottage / Northeast Building: Large house spanning cols 37..46+, rows 1..3 with blue gabled roof over east wing and front entrance door at (45, 3). Paved courtyard extends cols 42..46, rows 4..7.
