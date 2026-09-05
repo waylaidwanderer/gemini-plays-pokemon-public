@@ -32,3 +32,4 @@
 - Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
 
 - Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ¥390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
+- Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
