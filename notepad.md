@@ -587,10 +587,10 @@
 3. [x] Defeat Super Nerd (24, 31) in Eastern Avenue (Turn 1519).
 4. [x] Collect Ground Item at (35, 31): RARE CANDY (Turn 1526).
 5. [x] Ascended Eastern Avenue to row 15; verified (25, 15) is inert floor.
-6. [ ] Ascend north along column 25 to row 10 corridor.
-7. [ ] Take column 30 north into Northern Highway (rows 6-7).
-8. [ ] Head west along Northern Highway to cols 16-17 and south down alcove to Ladder (17, 11).
-9. [ ] Descend Ladder (17, 11) -> B1F -> B2F to retrieve prehistoric fossil.
+6. [x] Navigated to row 10, took col 30 into Northern Highway, reached Ladder (17, 11).
+7. [x] Descended Ladder (17, 11) to B1F transit corridor (Turn 1584).
+8. [ ] Traverse B1F corridor west to Ladder (17, 11) and descend to B2F.
+9. [ ] Explore B2F depths and retrieve prehistoric fossil.
 6. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
