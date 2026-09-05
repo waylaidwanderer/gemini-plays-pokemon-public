@@ -435,6 +435,7 @@
 ## Connections
 - South: Route 3 northern entrance at (7, 17).
 - North/East: Mt. Moon entrance and Pokémon Center.
+- East: Cerulean City border at column 80+ via row 10-11 bridge.
 
 ## Geography & Layout
 - Southern Entry (7..11, 16..17): Open pale mint courtyard entering from Route 3.
