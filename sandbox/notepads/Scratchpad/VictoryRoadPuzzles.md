@@ -2,14 +2,9 @@
 
 ## Master Victory Road Puzzle Sequence (Verified Canonical Route)
 1. **1F Completed (Active Visit)**: Boulder 1 placed on Switch (17, 13). Shutters at (5, 13) and (7, 7) lowered.
-2. **2F Master Sequence (Active Route)**:
-   - Descend NW Ladder at 3F (2, 0) to 2F (1, 1).
-   - Activate Strength with ATLAS from party menu.
-   - Push Boulder 1 at (5, 5) south to (5, 6) to open the passage south.
-   - Walk south to (5, 14) and execute Master Boulder 2 Sequence onto Switch 1 at (1, 16):
-     - Stand at (5, 14) -> Push Left 1 to (3, 14).
-     - Stand at (3, 13) -> Push Down 2 to (3, 16).
-     - Stand at (4, 16) -> Push Left 2 onto Switch 1 at (1, 16)!
+2. **2F Master Sequence (COMPLETED)**:
+   - Descended to 2F, activated Strength with ATLAS.
+   - Pushed Boulder 2 from (4, 14) onto Switch 1 at (1, 16) via Column 3 -> Row 16 sequence.
    - Outcome: Shutter 1 (5, 10) and Shutter 3 (21, 15) permanently opened!
 3. **2F to Ladder B & 3F SE Pit Room**:
    - Walk through Shutter 1 (5, 10) -> (14, 8) -> (14, 12) -> (20, 14) -> through Shutter 3 (21, 15) -> onto Lower Highway at (21, 16).
