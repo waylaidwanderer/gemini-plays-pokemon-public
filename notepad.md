@@ -46,14 +46,14 @@
 - POKéDEX
 
 ## Money
-- ¥1581
+- ¥1731
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 20, Water]
   - Status: Healthy
-  - HP: 52 / 56
+  - HP: 49 / 56
   - Stats: Attack 36, Defense 44, Speed 36, Special 37
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 22/25)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 19/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -514,6 +514,8 @@
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
+
+- Youngster (14, 16): Stationed at (12..14, 16) facing East. Dialogue: "Did you come to explore too?". Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Status: Defeated. Prize: �150.
 
 
 <hr>
