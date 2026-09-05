@@ -26,5 +26,8 @@
   - Interior bounds: Cols 10..13, Rows 10..15.
   - Occupants: Lass Ann at (13, 11) [Defeated, Turn 2908] (Roster: Pidgey Lv 18 - 211 EXP, Nidoran♀ Lv 18 - 226 EXP, Prize: ¥270; Pre-battle: "I collected these POKéMON from all around the world!", Defeat: "Oh no! I went around the world for these!"), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
   - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
-- Cabin 5: Entrance at (7, 8) in 1F main hallway.
+- Cabin 5: Entrance at (7, 8) in 1F main hallway. Interior doorway at (20, 10).
+  - Interior bounds: Cols 20..23, Rows 10..15.
+  - Occupants: NPC at (20, 13).
+  - No item balls visible.
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
