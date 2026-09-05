@@ -17,4 +17,4 @@
 - Trainer (11, 21): Jr. Trainer ♀ (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
-- Trainer (19, 26): Bug Catcher (approached to (17, 26)). Pre-battle dialogue: "I've never seen you around!".
+- Trainer (19, 26): Bug Catcher Elijah (1 Pokémon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
