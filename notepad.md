@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 29, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥10310
+- Money: ¥11640
 - Pokédex: 5 Caught / 14 Seen
 
 ## Milestones
@@ -65,14 +65,14 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥10310
+- ¥11640
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 29, Water]
   - Status: Healthy
   - HP: 79 / 79
   - Stats: Attack 52, Defense 63, Speed 52, Special 54
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 18/20), Water Gun (PP 25/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -159,6 +159,11 @@
 - **Bug Catcher Elijah [Turn 2668]:** Roster: Butterfree Lv 20 (Yield: 685 EXP, Prize: ¥200). Sheldon Lv 28 used Bubblebeam (OHKO).
 - **Jr. Trainer ♀ Nancy [Turn 2682]:** Roster: Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
 - **Jr. Trainer ♂ Ricky [Turn 2695]:** Roster: Spearow Lv 16 (198 EXP), Raticate Lv 16 (397 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
+
+## S.S. Anne Empirical Combat Log (Turns 2842 - 2850)
+- **Gentleman [Turn 2842 - 2850] (Cabin 1 at 11, 4):**
+  - Roster: Nidoran♂ Lv 19 (Yield: 243 EXP), Nidoran♀ Lv 19 (Yield: 240 EXP). Prize: ¥1330.
+  - Combat: Sheldon Lv 29 used Bubblebeam on Nidoran♂ (Critical Hit, OHKO). Sheldon Lv 29 used Bubblebeam on Nidoran♀ (OHKO). Sheldon took 0 damage (HP 79/79). Bubblebeam PP: 20 -> 18.
 
 
 <hr>
@@ -813,8 +818,6 @@
 - Northern Tall Grass Field: Extends across cols 8..13, rows 14..18+.
 - Western North-South Highway (Cols 4..5, Rows 12..17+): 2-tile wide paved road running south toward Vermilion City, completely bypassing the tall grass field.
 - Central Cross-Plaza (Rows 20..21, Cols 4..14+): Continuous paved clearing connecting western highway to eastern passage.
-- Trainer (10, 21): Jr. Trainer â (Ricky) facing West along row 21.
-- Trainer (11, 21): Jr. Trainer â (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
 - Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668] (Roster: Butterfree Lv 20 - 685 EXP, Prize: ¥200). Pre-battle: "I've never seen you around! Are you good?".
@@ -846,7 +849,6 @@
 - Signpost (7, 13): Located immediately west of Western Building at (7, 13).
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..15 connecting south towards Gym and north towards water inlet.
 - Vermilion Gym: Building at cols 8..13, rows 16..19. Front door at (12, 19) facing South. "GYM" sign at (10..11, 18).
-- Southern Plaza (Rows 20..21): Open paved ground visible across cols 6..12+ south of the Gym.
 - West Passage (Cols 6..7): Paved passage runs south along Gym to row 18. Row 19 has structures at (6..7, 19).
 - Cut Tree: Located at (15, 18), blocking direct access to the Gym entrance!
 - Water Shoreline & Southeastern Peninsula: Water inlet covers cols 16..19 from row 18 to 22+ with fence at col 19. Paved peninsula spans cols 20..25, rows 16..21 (Pidgey House). Entire southern edge of cols 19..25 is solid ocean shore at row 22 with no pier or dock.
@@ -907,7 +909,7 @@
 ## Cabins
 - Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - NPC at (11, 4) facing South.
+  - Trainer (11, 4): Gentleman [Defeated, Turn 2850] (Roster: Nidoran♂ Lv 19 - 243 EXP, Nidoran♀ Lv 19 - 240 EXP, Prize: ¥1330). Pre-battle: "You pup! How dare you barge in!". Defeat: "Humph! You rude child!".
   - Table/luggage at (10..11, 5), bed at (13, 4..5).
 
 <hr>
