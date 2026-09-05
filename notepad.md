@@ -24,7 +24,7 @@
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
 - [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
 - [x] Catch wild Geodude in Mt. Moon [Turn 1197]
-- [ ] Explore Mt. Moon and retrieve Fossil
+- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 
 <hr>
 
@@ -613,8 +613,8 @@
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
 - Super Nerd Miguel: Defeated (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12). Stationed at (12, 8) facing South down column 12.
-- Ground Artifact (12, 6): Uninspected prehistoric fossil / stone artifact.
-- Ground Artifact (13, 6): Uninspected prehistoric fossil / stone artifact.
+- Ground Artifact (13, 6): HELIX FOSSIL (Claimed by player).
+- Ground Artifact (12, 6): DOME FOSSIL (Claimed by Super Nerd Miguel).
 
 
 <hr>
@@ -629,7 +629,7 @@
 - [x] Discovered northern passage at (Cols 12..13, Rows 12..16) past defeated Grunt [Turn 1822].
 - [x] Reached Fossil Chamber at (12, 10); sighted Super Nerd Miguel (12, 8), Dome Fossil (12, 6), and Helix Fossil (13, 6) [Turn 1825].
 - [x] Defeated Super Nerd Miguel (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12) [Turn 1846].
-- [ ] Claim prehistoric fossil at (12, 6) or (13, 6).
+- [x] Claimed Helix Fossil at (13, 6) [Turn 1853].
 - [ ] Proceed to Route 4 exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor / entrance plateau)
