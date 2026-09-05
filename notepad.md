@@ -186,7 +186,7 @@
 - Rattata Lv 14: Defeated in 1 hit by Bite. Yield: 171 EXP.
 - Ekans Lv 14: Defeated in 1 hit by Bite. Yield: 186 EXP.
 - Zubat Lv 14: Defeated in 1 hit by Bite. Yield: 162 EXP.
-- Total EXP: 519 EXP.
+- Total EXP: 519 EXP. Prize: ¥210.
 
 ## Route 24 Nugget Bridge - Lass (Turn 2333-2341)
 - Position: (10, 22) facing North. Dialogue: "I'm No. 4! Getting tired?".
@@ -809,7 +809,7 @@
 - Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
 - Row 10 Bollard Barrier: Stone bollards spanning (12..18+, 10) enclosing southeast lawn.
 - Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). Walkability/jump mechanics unverified.
-- Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+ empirically verified walkable).
+- Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+).
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
 - Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.
@@ -839,7 +839,7 @@
 - Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
-- Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles, engaged at (24, 7)). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
+- Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
 - Trainer 8 at (32, 3): Youngster stationed at (32, 3) facing West. Defeated Turn 2516. Team: Ekans Lv 14, Sandshrew Lv 14. Prize: ¥210. Defeat Quote: "YOUNGSTER: I knew I'd lose too!".
 - Corridor Layout (Cols 28..32, Rows 2..6):
   - Row 2: Open grass cols 28..32. Blocked to west by tree at (27, 2).

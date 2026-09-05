@@ -17,7 +17,7 @@
 - Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
 - Row 10 Bollard Barrier: Stone bollards spanning (12..18+, 10) enclosing southeast lawn.
 - Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). Walkability/jump mechanics unverified.
-- Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+ empirically verified walkable).
+- Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+).
 - Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
 - Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
 - Item Ball at (10, 5): Pok¥ Ball item visible on western elevated plateau north of row 7 ridge.

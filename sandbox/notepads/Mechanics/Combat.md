@@ -76,7 +76,7 @@
 - Rattata Lv 14: Defeated in 1 hit by Bite. Yield: 171 EXP.
 - Ekans Lv 14: Defeated in 1 hit by Bite. Yield: 186 EXP.
 - Zubat Lv 14: Defeated in 1 hit by Bite. Yield: 162 EXP.
-- Total EXP: 519 EXP.
+- Total EXP: 519 EXP. Prize: ¥210.
 
 ## Route 24 Nugget Bridge - Lass (Turn 2333-2341)
 - Position: (10, 22) facing North. Dialogue: "I'm No. 4! Getting tired?".

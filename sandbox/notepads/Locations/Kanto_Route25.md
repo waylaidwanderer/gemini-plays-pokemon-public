@@ -19,7 +19,7 @@
 - Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
-- Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles, engaged at (24, 7)). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
+- Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".
 - Trainer 8 at (32, 3): Youngster stationed at (32, 3) facing West. Defeated Turn 2516. Team: Ekans Lv 14, Sandshrew Lv 14. Prize: ¥210. Defeat Quote: "YOUNGSTER: I knew I'd lose too!".
 - Corridor Layout (Cols 28..32, Rows 2..6):
   - Row 2: Open grass cols 28..32. Blocked to west by tree at (27, 2).
