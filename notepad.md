@@ -940,5 +940,11 @@
 - Environment: Completely straight corridor heading South toward Route 6 exit. No wild encounters.
 - Southern Stairs: Located at (2, 41), leading up into the Route 6 entrance building.
 - South Wall: Row 42.
+## Route 6 Entrance Building
+- Spawn Position: (4, 4) on ascending stairs facing South.
+- Interior: Checkered floor, counter barriers at cols 1..2 and 5..6 (rows 2..6).
+- NPC at (2, 3).
+- Counter passage at (3..4, 6).
+- Exit Mat / Door: Located at (3..4, 7), leading south onto Route 6.
 
 <hr>
