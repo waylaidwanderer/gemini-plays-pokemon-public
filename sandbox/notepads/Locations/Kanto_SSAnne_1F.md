@@ -21,3 +21,6 @@
   - Interior bounds: Cols 20..23, Rows 1..5.
   - NPC at (22, 1..2).
   - Table at (20..21, 5), bed at (23, 4..5).
+- Cabin 3: Entrance at (15, 8) in 1F main hallway.
+- Cabin 4: Entrance at (11, 8) in 1F main hallway.
+- Hallway NPC: Wandering trainer/sailor at (11..12, 6).
