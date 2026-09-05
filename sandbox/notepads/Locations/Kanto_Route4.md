@@ -40,3 +40,7 @@
 - Middle Corridor (Rows 6..8, Cols 24..42+): Open east-west green corridor between Mt. Moon exit and Cerulean City.
 - Upper Ledge (Row 5, Cols 39..42+): South-facing one-way jump ledge bounding the upper plateau from the middle corridor.
 - Lower Ledge (Row 9, Cols 24..42+): South-facing one-way jump ledge bounding the middle corridor from the lower route.
+- Column 45 East-Facing Ledge (Rows 2..8): One-way jump ledge facing East. Stepping East from col 44 hops over col 45 to col 46.
+- Central Plateau Corridor (Cols 46..49, Rows 2..10): 4-tile wide open green grass corridor between col 45 ledge and col 50 ridge. No row 9 ledge here; opens directly into row 10.
+- Column 50 Cliff Ridge (Rows 2..8): West-facing rock ridge bounding cols 46..49 on the east. Connects at (50, 9) to row 9 south-facing ledge at (51, 9).
+- Row 10 Open Highway: Unobstructed grass spanning cols 46..51+ heading toward Cerulean City.
