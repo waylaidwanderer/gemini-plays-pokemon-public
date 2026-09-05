@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 31, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥15890
+- Money: ¥17190
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -70,7 +70,7 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥15890
+- ¥17190
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 31, Water]
