@@ -1,7 +1,7 @@
 # Mt. Moon Navigation & Exploration Scratchpad
 
 ## Current Route Plan
-1. Enter Route 4 Pokémon Center, speak to Nurse Joy to establish Route 4 respawn checkpoint.
+1. [x] Route 4 respawn checkpoint established with Nurse Joy (Turn 1477).
 2. Enter Mt. Moon 1F via cave entrance in northern cliff face.
 3. Primary Objective: Navigate through Mt. Moon to reach the Fossil chamber and claim prehistoric fossil.
 4. Active Inventory Buffer: Escape Rope x1, Potion x3, Antidote x3, Poké Ball x2. Money: ¥1306.
