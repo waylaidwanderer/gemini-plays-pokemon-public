@@ -797,9 +797,8 @@
 - Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
 - Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
-- Trainer 5 at (18, 8): Female trainer stationed at (18, 8).
+- Trainer 5 at (18, 8): Lass stationed at (18, 8). Pre-battle: "Hi! My boy friend is cool!". Team: 2 Pokémon.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 - Trainer 6 at (23, 9): Hiker stationed in southeastern corridor.
-
 
 <hr>
