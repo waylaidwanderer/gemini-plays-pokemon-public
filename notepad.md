@@ -468,7 +468,7 @@
 - Upper Plateau: cols 24..37+, rows 6..8 (open green corridor). Mountain cliff ends at col 35, opening northward at cols 36..37+ (rows 2..5).
 - Ledge (Row 9): South-facing one-way ledge separating the upper plateau from the lower route.
 ### Eastern Section Geography & Elevation
-- Northern Alcove / Passage (Cols 36..37, Rows 2..5): 2-tile wide passage heading North between western mountain cliff (col 35) and eastern rock ridge (col 38).
+- Northern Alcove / Passage (Cols 36..37, Rows 2..5): 2-tile wide dead-end alcove heading North between western mountain cliff (col 35) and eastern rock ridge (col 38), terminating at row 1 mountain wall.
 - Middle Corridor (Rows 6..8, Cols 24..42+): Open east-west green corridor between Mt. Moon exit and Cerulean City.
 - Upper Ledge (Row 5, Cols 39..42+): South-facing one-way jump ledge bounding the upper plateau from the middle corridor.
 - Lower Ledge (Row 9, Cols 24..42+): South-facing one-way jump ledge bounding the middle corridor from the lower route.
