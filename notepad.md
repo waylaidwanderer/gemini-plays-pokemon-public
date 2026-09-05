@@ -311,6 +311,10 @@
 - Total EXP Yield: 689 EXP. Prize: ¥510.
 - Reward Item: TM28 (DIG).
 - Sheldon HP: 76 / 76 (0 damage taken). Bubblebeam PP: 18 / 20.
+## Route 6 - Bug Catcher Elijah (Turn 2664-2665)
+- Position: (19, 26) facing West. Engaged at (16, 26).
+- Team: Butterfree Lv 20 (1 Pokémon).
+- Combat Data: Confusion deals 8 HP damage to Sheldon (Special 52). Sheldon Lv 28 Bite deals ~60-65% max HP damage.
 
 <hr>
 
