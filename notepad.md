@@ -1023,6 +1023,7 @@
 ## Connections
 - Stairs to 1F: Located at (2, 4), ascending to 1F western corridor at (2, 6).
 - Stairs at (2, 12): Located at west end of 2F hallway.
+- Stairs to Captain's Cabin: Located at (36, 4) at northern end of corridor.
 
 ## Geography & Layout
 - West Corridor: Cols 2..3, Rows 4..11 running north-south from stairs at (2, 4) down to hallway junction.
