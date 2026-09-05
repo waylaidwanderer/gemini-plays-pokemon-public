@@ -49,7 +49,7 @@
 - POKéDEX
 
 ## Money
-- ¥3551
+- ¥3251
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 22, Water]
@@ -674,5 +674,6 @@
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21) verified on Turn 1955: "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
+  - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
 
 <hr>
