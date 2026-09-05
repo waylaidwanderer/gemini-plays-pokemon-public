@@ -34,7 +34,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x1
+- POKé BALL x0 (Depleted)
 - ESCAPE ROPE x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
@@ -63,7 +63,6 @@
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35)
   - EXP: 314 (105 to Lv 9)
-
 
 <hr>
 
