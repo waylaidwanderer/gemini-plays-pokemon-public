@@ -159,6 +159,7 @@
   - Level 17: Max HP 49, Attack 31, Defense 37, Speed 31, Special 32
   - Level 18: Max HP 51, Attack 32, Defense 39, Speed 33, Special 33
   - Level 19: Max HP 54, Attack 34, Defense 41, Speed 34, Special 35
+  - Level 20: Max HP 56, Attack 36, Defense 44, Speed 36, Special 37
 
 ## Defeat Yields
 - Wild Rattata Lv 3: 24 EXP | Lv 4: 32 EXP
@@ -194,7 +195,6 @@
 - Level 8 Caught Stats: Max HP 26, Attack 19, Defense 22, Speed 9, Special 11
 - Moves: Tackle (PP 35/35)
 - EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
-
 
 <hr>
 
@@ -514,8 +514,7 @@
 - Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15) (collision confirmed Turn 1496). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
 - Inert Tile (25, 15): Tile (25, 15) in Eastern Avenue is ordinary walkable cave floor; does not trigger any map warp.
 
-- Super Nerd (24, 31): Stationed at (24, 31) facing North up column 24. Line of sight triggers at (24, 28). Dialogue: "What! Don't sneak up on me!". Status: In battle.
-
+- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
 
 <hr>
 
