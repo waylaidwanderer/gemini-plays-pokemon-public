@@ -46,3 +46,6 @@
 - NW Boulder default position: (5, 5) near NW Switch at (3, 5).
 - Row 11/12 Elevation Cliff (Empirically Verified Turn 29996): Row 11 is an impassable south-facing cliff wall separating the Upper Dark Plateau from the Lower Purple Floor (rows 12-14). Access from Row 11 to the Lower Highway (Row 16) requires walking east to Eastern Outer Corridor (cols 28-29) and south to row 16.
 - Row 16 Lower Highway: Spans east-west along rows 16-17, connecting Eastern Outer Corridor (cols 28-29) westward beneath the rock obstacles.
+## Obstacles & Blockages (Verified Turn 30600)
+- Column 11 Wall: Column 11 (x=11, y=5..10) is a solid vertical rock barrier blocking Row 6 westward passage at (11, 6). Boulders pushed west past (17, 6) stop at (12, 6) and cannot be pushed further west or south.
+- Row 7 Ledge / Wall: Impassable from (13, 6) south to (13, 7). Bypass east via Row 6 to (17, 6).
