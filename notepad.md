@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 24, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥1711
+- Money: ¥3790
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -42,6 +42,7 @@
 - ESCAPE ROPE x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
+- TM11 (BUBBLEBEAM) x1
 - POTION x3
 - ANTIDOTE x3
 - RARE CANDY x1
@@ -51,7 +52,7 @@
 - POKéDEX
 
 ## Money
-- ¥1711
+- ¥3790
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 24, Water]
