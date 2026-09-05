@@ -94,3 +94,11 @@
 - Sheldon grew to Level 26! Max HP increased to 71 (HP: 59 / 71).
 - Zubat Lv 15: Defeated in 1 hit by Bite (Critical Hit). Yield: 172 EXP.
 - Total EXP: 370 EXP. Prize: Â¥450.
+## Route 25 - Hiker Franklin (Turn 2378-2385)
+- Position: (8, 4) facing South. Sight range: 1 tile (engaged at (8, 5)).
+- Dialogue: "I just got down from MT. MOON, but I'm ready!"
+- Defeat Quote: "You worked hard!"
+- Team:
+  - Machop Lv 15: Used Karate Chop (5 damage). Defeated by Sheldon Water Gun (x2). Yield: 282 EXP.
+  - Geodude Lv 15: Defeated in 1 hit by Water Gun (Super Effective). Yield: 276 EXP.
+- Total EXP: 558 EXP. Prize: ¥525.
