@@ -7,6 +7,7 @@
 ## Geography & Layout
 - West Corridor: Cols 2..3, Rows 4..11 running north-south from stairs at (2, 4) down to hallway junction.
 - Main Hallway: Rows 12..13 running east from col 3 to col 37 with yellow striped carpet (east wall at col 38). Wide passage at cols 36..37 leads North towards Captain's cabin / stairs.
+- Northern Corridor: 2-tile wide passage along cols 36..37 running north from row 12 past row 5 towards Captain's cabin / stairs (checkered carpet at col 36, yellow striped at col 37).
 - Cabins: Located along north wall of main hallway (doors at row 11).
 - NPC in West Corridor: Waiter at (3, 7) ("This ship, she is a luxury liner for trainers...").
 
