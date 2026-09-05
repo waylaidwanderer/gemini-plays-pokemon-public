@@ -1,7 +1,7 @@
 # Pokémon Blue - Journey Log
 
 ## Status
-- Badges: 1 / 8 (Boulderbadge)
+- Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 23, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
 - Money: ¥1711
 - Pokédex: 4 Caught / 13 Seen
@@ -25,3 +25,4 @@
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 - [x] Exit Mt. Moon to Route 4 [Turn 1865]
 - [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
+- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
