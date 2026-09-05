@@ -24,14 +24,14 @@
 - HM01 (CUT)
 
 ## Money
-- ¥18330
+- ¥18840
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 32, Water]
   - Status: Healthy
-  - HP: 47 / 86
+  - HP: 46 / 86
   - Stats: Attack 58, Defense 69, Speed 58, Special 59
-  - Moves: Bite (PP 6/25), Tail Whip (PP 30/30), Bubblebeam (PP 13/20), Water Gun (PP 23/25)
+  - Moves: Bite (PP 2/25), Tail Whip (PP 30/30), Bubblebeam (PP 13/20), Water Gun (PP 23/25)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
