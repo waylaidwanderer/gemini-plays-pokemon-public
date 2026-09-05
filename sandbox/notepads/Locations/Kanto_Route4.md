@@ -33,5 +33,5 @@
 - Mt. Moon Exit Cave: Located at (24, 5), player steps out to (24, 6) facing South.
 - Route 4 Eastern Signpost: Located at (27, 7), read from (27, 6) facing South.
   - Text: "ROUTE 4 / MT. MOON - CERULEAN CITY"
-- Upper Plateau: cols 24..30+, rows 6..8.
+- Upper Plateau: cols 24..37+, rows 6..8 (open green corridor). Mountain cliff ends at col 35, opening northward at cols 36..37+ (rows 2..5).
 - Ledge (Row 9): South-facing one-way ledge separating the upper plateau from the lower route.
