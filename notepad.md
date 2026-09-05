@@ -744,12 +744,13 @@
 - East: Sea Cottage (Bill's House).
 
 ## Geography & Layout
-- Western Gateway (Cols 0..9+, Rows 8..9): 2-tile wide pale mint avenue connecting directly from Route 24.
-- Southern Barrier (Row 10): Line of stone bollards bounding the avenue from the southern lawn (cols 0..9+).
+- Western Gateway (Cols 0..9, Rows 8..9): 2-tile wide pale mint avenue from Route 24, terminating at column 9 (blocked by trees at (10, 8) and (10, 9)).
+- Southern Barrier (Row 10): Line of stone bollards bounding the avenue from the southern lawn (cols 0..11+).
 - Northern Elevation (Row 7): Brown elevation ridge spanning cols 0..7. Ends at col 7.
-- Shrub Barrier (8, 7): Dense shrub at (8, 7) between avenue and northern lawn.
-- Eastern Passage / Opening (Col 9, Rows 4..7): Open grass corridor connecting avenue to northern district.
-- Trainer at (8, 4): First Route 25 trainer stationed at (8, 4) north of the (8, 7) shrub.
+- Shrub Barrier (8, 7): Dense shrub at (8, 7) blocking sightline south from (8, 4).
+- Corridor 1 (Col 9, Rows 4..8): Open grass connector linking row 8 avenue north to rows 4..7.
+- Row 7 Tree Gap (Cols 10..11, Row 7): 1-tile wide east-west grass corridor between trees at (10..11, 6) and (10, 8..9).
+- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South. Line of sight covers (8, 5) and (8, 6), blocked south by (8, 7) shrub.
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 
 <hr>
