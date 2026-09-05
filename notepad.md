@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 25, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥4525
+- Money: ¥4735
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -51,14 +51,14 @@
 - POKéDEX
 
 ## Money
-- ¥4525
+- ¥4735
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 25, Water]
   - Status: Healthy
   - HP: 60 / 68
   - Stats: Attack 43, Defense 52, Speed 43, Special 44
-  - Moves: Bite (PP 22/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 22/25), Tail Whip (PP 30/30), Bubblebeam (PP 14/20), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -169,6 +169,12 @@
 - Weedle Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 156 EXP.
 - Sheldon grew to Level 25! Max HP increased to 68 (Current HP: 60 / 68).
 - Total EXP: 315 EXP.
+
+## Route 24 Nugget Bridge - Lass (Turn 2314-2319)
+- Position: (10, 28) facing South.
+- Pidgey Lv 14: Defeated in 1 hit by Bite. Yield: 165 EXP.
+- Nidoran♀ Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 177 EXP.
+- Total EXP: 342 EXP. Prize: ¥210.
 
 
 <hr>
@@ -687,5 +693,6 @@
   - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310.
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
   - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314).
+  - Trainer 4: Lass stationed at (10, 22) facing South (visually verified on Turn 2321).
 
 <hr>
