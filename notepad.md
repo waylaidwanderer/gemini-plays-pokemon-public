@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 28, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥8960
+- Money: ¥9470
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -892,5 +892,23 @@
 - North Area: Left Teleporter at (1..2, 1..2), Right Teleporter at (5..7, 1..2).
 ## Events & Quest
 - Bill's Experiment: Spoke with Bill at (6, 5). Bill entered right teleporter. Player initiated Cell Separation System at (1, 5) facing North. Bill emerged from left teleporter restored to human form at (4, 4). Awarded S.S. TICKET for the S.S. Anne in Vermilion City.
+
+<hr>
+
+<h1><code>Locations/Kanto_Route5</code></h1>
+
+# Route 5 Geography & Points of Interest
+
+## Connections
+- North: Cerulean City southern gateway at (16..17, 0) [connects to Cerulean (26..27, 36)].
+- South: Saffron City northern gatehouse (inaccessible; guards thirsty) and Underground Path to Route 6 / Vermilion City.
+
+## Geography & Layout
+- Northern Gateway Corridor (Cols 16..17, Rows 0..5+): 2-tile wide pale mint avenue heading straight south from Cerulean City.
+- Western Boundary: Stone fence posts along column 14 with grass at column 15.
+- Eastern Boundary: Stone fence posts along column 19 with dense tall grass patches spanning columns 20..22+.
+- Points of Interest:
+  - Pokémon Day Care house (west side).
+  - Underground Path Entrance Building (east/southeast side).
 
 <hr>
