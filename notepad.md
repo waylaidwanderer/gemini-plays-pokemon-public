@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 27, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥7820
+- Money: ¥8275
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -53,7 +53,7 @@
 - POKéDEX
 
 ## Money
-- ¥7820
+- ¥8275
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 27, Water]
@@ -255,6 +255,18 @@
   - Nidoran♀ Lv 15: Defeated in 1 hit by Sheldon Bubblebeam (Critical Hit). Yield: 189 EXP.
 - Total EXP Yield: 381 EXP. Prize: ¥225.
 - Sheldon HP: 23 / 73 (Poisoned). Bubblebeam PP: 11 / 20, Water Gun PP: 17 / 25.
+## Route 25 - Hiker Nob (Turn 2468-2485)
+- Position: (23, 9) facing North. Engaged when player stepped to (23, 8).
+- Pre-battle Dialogue: "I'm off to see a POKéMON collector at the cape!"
+- Defeat Quote: "HIKER: You got me."
+- Team:
+  - Geodude Lv 13: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 238 EXP.
+  - Geodude Lv 13: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 238 EXP.
+  - Machop Lv 13: Defeated in 1 hit by Sheldon Bubblebeam. Yield: 244 EXP.
+  - Geodude Lv 13: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 238 EXP.
+- Total EXP Yield: 958 EXP. Prize: ¥455.
+- Sheldon HP: 23 / 73 (Healthy). Bubblebeam PP: 10 / 20, Water Gun PP: 14 / 25.
+
 
 <hr>
 
@@ -808,6 +820,6 @@
 - Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
 - Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
-- Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Pre-battle: "I'm off to see a POKéMON collector at the cape!". Team: 4 Pokémon.
+- Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
 
 <hr>
