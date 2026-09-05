@@ -18,5 +18,6 @@
 ### Main Cavern (Reached via Ladder 21, 17)
 - Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
-- Northern Highway (Cols 18..22, Rows 6..13): Wide 5-tile north-south highway bounded by western wall (Col 17) and plateau cliff (Cols 23..24). Sights Ladder (25, 9) on plateau above to the east. Extends north past row 6.
+- Northern Highway (Cols 18..22, Rows 5..13): Wide 5-tile north-south highway bounded by western wall (Col 17) and plateau cliff (Cols 23..24). Sights Ladder (25, 9) on plateau above to the east.
+- Northern Passage (Cols 18..19, Rows 2..5+): 2-tile wide checkered floor corridor continuing north past row 2. Columns 20..22 terminate into solid rock ceiling at rows 2..4.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
