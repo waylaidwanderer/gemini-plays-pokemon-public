@@ -112,3 +112,12 @@
   - Spearow Lv 15: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
 - Total EXP Yield: 369 EXP. Prize: ¥225.
 - Sheldon HP: 54 / 71. Bite PP: 13 / 25.
+
+## Route 25 - Hiker (Turn 2409-2416)
+- Position: (13, 7) facing East. Sight range: 2 tiles (engaged at (15, 7)).
+- Pre-battle Dialogue: "You're going to see BILL? First, let's fight!"
+- Defeat Quote: "HIKER: You're something."
+- Team:
+  - Onix Lv 17: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 393 EXP.
+- Total EXP Yield: 393 EXP. Prize: ¥595.
+- Sheldon HP: 54 / 71. Water Gun PP: 19 / 25.
