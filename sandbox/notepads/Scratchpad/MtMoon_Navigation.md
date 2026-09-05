@@ -2,7 +2,8 @@
 
 ## Current Route Plan
 - [x] Traversed southern corridor west to column 11 [Turn 1796].
-- [ ] Advance north along Western Cavern Highway (Cols 7..11) toward fossil chamber.
+- [x] Defeated Team Rocket Grunt at (11, 16) (Rattata Lv 13, Zubat Lv 13) [Turn 1818].
+- [ ] Advance north past (11, 16) along Western Cavern Highway toward fossil chamber.
 - [ ] Locate Super Nerd Miguel, defeat him, choose a fossil, and proceed to exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
