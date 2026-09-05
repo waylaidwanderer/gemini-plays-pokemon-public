@@ -15,3 +15,15 @@
 
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
+
+
+## Boss Battle Tactics & Preparation (Audited Turn 2766)
+- **Lt. Surge (Vermilion Gym):** Roster is Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
+  - Threat: Raichu's high Special Thunderbolt threatens Water-types like Sheldon.
+  - Hard Counter: Rocky (Geodude Lv 8). Rock/Ground typing provides complete immunity to Electric attacks and resistance to Normal moves (Mega Punch, Quick Attack).
+  - Preparation Plan: Teach Rocky TM28 (Dig) and grind to Lv 20-22 for a guaranteed sweep.
+- **S.S. Anne Rival RED:** Roster includes Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, and Ivysaur Lv 20.
+  - Lead Sheldon (Wartortle Lv 29) to defeat normal/psychic roster with Bubblebeam/Bite. Switch against Ivysaur.
+- **Team Utility:**
+  - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
+  - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).

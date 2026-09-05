@@ -18,6 +18,4 @@
   - Member at (6, 3) facing south (dark hair, blue shirt).
 - Chairman:
   - Located at (3, 1) facing South behind podium (rows 2..3, cols 3..4).
-  - Access: Northern corridor row 1. Stand at (2, 1) facing Right to speak.
   - Dialogue: Tells a story about his beloved Pokémon.
-  - Requirement: Answer YES to his question to receive BIKE VOUCHER!

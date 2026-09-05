@@ -12,8 +12,8 @@
 - Northern Building West: Cols 15..17, rows 0..3.
 - Northern Building East: Cols 20..23, rows 0..3.
 - Cut Trees: Visible at (24, 3).
-- PokÃ©mon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKÃ©" sign at (12, 3).
-- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of PokÃ©mon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
+- Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
+- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Central Building (Trade House): Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South. Interior: NPC at (3, 5) trades Spearow for Farfetch'd (DUX)!
 - Western Building (Pokémon Fan Club): Verified! Cols 8..11, rows 10..13. Entrance door at (9, 13) facing South. Interior has Chairman and members.
 - Signpost (7, 13): Located immediately west of Western Building at (7, 13).
