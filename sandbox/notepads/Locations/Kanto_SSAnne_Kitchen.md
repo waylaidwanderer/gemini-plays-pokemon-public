@@ -10,7 +10,7 @@
 - Aisles: Vertical passages at col 1, cols 4..5, and cols 8..9.
 - South Area: Rows 10..15 open floor with counters/tables along rows 14..15; south wall at row 16.
 - East Wall: Col 14 boundary.
-- Trash Cans: 3 trash cans lined up along col 13 at (13, 8), (13, 9), and (13, 10).
+- East Aisle: Col 12 passage (rows 5..10) between Island 3 and east wall/chefs.
 
 ## Points of Interest
 - Hidden Item: Trash can with Great Ball (clue confirmed: "I saw an odd ball in the trash.").
@@ -18,3 +18,6 @@
   - Cook at (1, 5)
   - Cook at (9, 2)
   - Cook at (5, 7) ("I saw an odd ball in the trash.")
+  - Cook at (13, 8)
+  - Cook at (13, 10) ("Snivel...Sniff... I only get to peel onions...")
+  - Cook at (11, 13)
