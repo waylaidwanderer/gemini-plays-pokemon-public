@@ -11,7 +11,6 @@
 - Carpet: Red/orange checkered at col 26, yellow striped at col 27.
 - Main corridor: Runs east-west at rows 6..7 (yellow striped carpet).
 - NPC at (27, 5): Waiter in green hat facing West.
-- Wall decor: Life preservers on north wall at (30, 5) and (32, 5).
 ## Cabins
 - Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
   - Interior bounds: Cols 10..13, Rows 1..5.

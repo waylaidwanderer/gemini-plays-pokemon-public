@@ -30,7 +30,7 @@
 - **Jr. Trainer ♀ Nancy [Turn 2682]:** Roster: Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
 - **Jr. Trainer ♂ Ricky [Turn 2695]:** Roster: Spearow Lv 16 (198 EXP), Raticate Lv 16 (397 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
 
-## S.S. Anne Empirical Combat Log (Turns 2842 - 2850)
+## S.S. Anne Empirical Combat Log
 - **Gentleman [Turn 2842 - 2850] (Cabin 1 at 11, 4):**
   - Roster: Nidoran♂ Lv 19 (Yield: 243 EXP), Nidoran♀ Lv 19 (Yield: 240 EXP). Prize: ¥1330.
   - Combat: Sheldon Lv 29 used Bubblebeam on Nidoran♂ (Critical Hit, OHKO). Sheldon Lv 29 used Bubblebeam on Nidoran♀ (OHKO). Sheldon took 0 damage (HP 79/79). Bubblebeam PP: 20 -> 18.
