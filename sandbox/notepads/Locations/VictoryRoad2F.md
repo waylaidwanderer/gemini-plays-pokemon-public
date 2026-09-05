@@ -58,3 +58,8 @@
 - Boulder gate at (5, 5), pushed south to (5, 6) connects row 4/5 light purple floor to checkerboard platform (cols 4-7, rows 6-7).
 - Row 8 Light Purple Highway (cols 5-14, row 8) is directly accessible from (5, 7) -> (5, 8).
 - 1F Ladder at (0, 8) connects to west corridor (cols 0-4).
+
+## Shutter 1 & Elevation Verification (Turn 30515)
+- Empirically verified: Transitioning between 2F and 3F reloads 2F, resetting Shutter 1 at (5, 10) to CLOSED and Boulder 2 to default position at (4, 14).
+- Row 7 checkerboard to Row 8 purple floor is a solid vertical cliff boundary (cannot walk/hop down from (5..7, 7) to (5..7, 8)).
+- To access Row 8 Light Purple Highway, Boulder 2 at (4, 14) MUST be pushed onto Switch 1 at (1, 16) via the west corridor to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
