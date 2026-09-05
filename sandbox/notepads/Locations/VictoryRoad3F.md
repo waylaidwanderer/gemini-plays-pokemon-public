@@ -39,11 +39,9 @@
 - Row 8 Connection: (3, 8) connects east via light purple floor (row 8) directly to central corridor and SE Pit room at (23, 14) without changing floors!
 
 ## 3F Pit Area & Boulder Observations
-- Pit located at (23, 15) with an adjacent boulder observed at (22, 15).
 - Boulder observed at (24, 10).
 - Column 13 / Row 11: Pushing boulder at (13, 12) down to (13, 13) dead-ends against rock obstacle at (13, 14).
 ## 3F Default Boulder & Switch Layout
 - Note: Warping out via Dig / Escape Rope resets all dungeon entities to default spawn positions.
 - Boulder 1 default position: (22, 3) on Upper Dark Plateau.
 - NW Boulder default position: (5, 5) near NW Switch at (3, 5).
-- SE Lower Room (rows 12-15): Accessible directly from 2F via Ladder B at (25, 14). Contains Boulder at (22, 15) and Pit at (23, 15).
