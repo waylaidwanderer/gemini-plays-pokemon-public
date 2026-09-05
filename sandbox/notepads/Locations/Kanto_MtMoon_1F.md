@@ -4,7 +4,7 @@
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (13, 27): Ladder descending to basement chamber.
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (25, 15): Descending ladder in Eastern Avenue at (25, 15).
+- Ladder (21, 17): Descending ladder in east-central cavern at (21, 17), accessible via column 20..21 from south.
 
 ## Layout & Corridors
 
