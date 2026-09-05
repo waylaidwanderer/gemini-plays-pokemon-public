@@ -1,64 +1,65 @@
 import mgba
-import time
 
-def get_pos():
-    p = mgba.get_coordinates()
-    return p['x'], p['y']
+class Route23Nav:
+    def __init__(self, max_buttons=85):
+        self.button_count = 0
+        self.max_buttons = max_buttons
 
-def clear_dialogue_or_battle():
-    # Attempt to clear dialogue first with A/B, then try RUN if in battle
-    mgba.press_buttons(["A", "sleep 150", "B", "sleep 150", "A", "sleep 150", "B", "sleep 150"])
-    # Run from battle: Down -> Right -> A
-    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 400", "B", "sleep 200", "B", "sleep 100"])
+    def get_pos(self):
+        p = mgba.get_coordinates()
+        return p['x'], p['y']
 
-def start_surf():
-    print("Initiating SURF with HYDROS...")
-    # Start -> Down to POKéMON -> A -> HYDROS is slot 1 -> A -> In Gen 1 field menu for water: SURF is top option -> A
-    # Then text appears "HYDROS used SURF!" -> press A/B to advance
-    mgba.press_buttons([
-        "Start", "sleep 250",
-        "Down", "sleep 150",
-        "A", "sleep 350",
-        "A", "sleep 350",
-        "A", "sleep 400",
-        "A", "sleep 400",
-        "B", "sleep 300",
-        "B", "sleep 300"
-    ])
+    def press(self, buttons):
+        btn_only = [b for b in buttons if not b.startswith("sleep")]
+        if self.button_count + len(btn_only) > self.max_buttons:
+            print(f"Button limit reached ({self.button_count}/{self.max_buttons}).")
+            return False
+        self.button_count += len(btn_only)
+        mgba.press_buttons(buttons)
+        return True
 
-def move_step(d):
-    old_x, old_y = get_pos()
-    mgba.press_buttons([d, "sleep 200"])
-    new_x, new_y = get_pos()
-    if (new_x, new_y) == (old_x, old_y):
-        # We might have hit a dialogue or wild battle
-        clear_dialogue_or_battle()
-        mgba.press_buttons([d, "sleep 200"])
-        new_x, new_y = get_pos()
-    return new_x, new_y
+    def escape_battle_or_dialogue(self):
+        # A/B to advance text
+        self.press(["A", "sleep 120", "B", "sleep 120", "B", "sleep 120"])
+        # Attempt to run from battle (Down -> Right -> A)
+        self.press(["Down", "sleep 80", "Right", "sleep 80", "A", "sleep 350", "B", "sleep 150", "B", "sleep 100"])
 
-def walk_path(waypoints, max_total_steps=120):
-    total = 0
-    for wx, wy in waypoints:
-        while total < max_total_steps:
-            x, y = get_pos()
-            if x == wx and y == wy:
-                print(f"Reached waypoint ({wx}, {wy})")
-                break
-            
-            if x < wx:
+    def step(self, d):
+        old_x, old_y = self.get_pos()
+        if not self.press([d, "sleep 180"]):
+            return old_x, old_y
+        new_x, new_y = self.get_pos()
+        if (new_x, new_y) == (old_x, old_y):
+            self.escape_battle_or_dialogue()
+            new_x, new_y = self.get_pos()
+        return new_x, new_y
+
+    def walk_to(self, target_x, target_y, max_steps=40):
+        steps = 0
+        while steps < max_steps:
+            x, y = self.get_pos()
+            if x == target_x and y == target_y:
+                print(f"Reached ({target_x}, {target_y})")
+                return True
+            if self.button_count >= self.max_buttons:
+                print(f"Budget reached at ({x}, {y})")
+                return False
+
+            if x < target_x:
                 d = "Right"
-            elif x > wx:
+            elif x > target_x:
                 d = "Left"
-            elif y < wy:
+            elif y < target_y:
                 d = "Down"
-            elif y > wy:
+            elif y > target_y:
                 d = "Up"
-            
-            move_step(d)
-            total += 1
-        if total >= max_total_steps:
-            print(f"Reached max steps budget! Pos: {get_pos()}")
-            break
 
-print("Ready.")
+            self.step(d)
+            steps += 1
+        return False
+
+    def walk_waypoints(self, waypoints):
+        for wx, wy in waypoints:
+            ok = self.walk_to(wx, wy, max_steps=abs(wx - self.get_pos()[0]) + abs(wy - self.get_pos()[1]) + 5)
+            if not ok and self.button_count >= self.max_buttons:
+                break
