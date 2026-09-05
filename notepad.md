@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 29, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥11640
+- Money: ¥11955
 - Pokédex: 5 Caught / 14 Seen
 
 ## Milestones
@@ -65,7 +65,7 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥11640
+- ¥11955
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 29, Water]
@@ -923,8 +923,8 @@
   - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
-  - Occupants: NPC at (13, 11), NPC at (10, 13), Youngster at (11, 14) ("I love POKéMON! Do you?").
-  - Item Ball at (12, 15)!
+  - Occupants: NPC at (13, 11), NPC at (10, 13), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
+  - Item Ball at (12, 15): Collected [Verifying identity in Bag]!
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
 
 <hr>
