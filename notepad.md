@@ -673,5 +673,6 @@
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21) verified on Turn 1955: "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
+  - Interior: Entrance mat (3..4, 7). Clerk at (3, 3), talk from (3, 4) facing North. Customer at (0, 5).
 
 <hr>
