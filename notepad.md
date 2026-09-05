@@ -2790,5 +2790,14 @@
 - Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) opened.
 - Row 8 Connection: (3, 8) connects east via light purple floor (row 8) directly to central corridor and SE Pit room at (23, 14) without changing floors!
 
+## Verified 3F Pit Puzzle Solution & Traversal (Verified Turn 29361)
+- Boulder 3 at (13, 12) blocks column 13 path leading down from row 11 to row 14.
+- Pit is located at (23, 15).
+- Boulder 4 is located at (22, 15) (directly adjacent west of the pit).
+- Master Pit Solution:
+  1. From (13, 11), push Boulder 3 South along column 13 into row 15 (clearing row 14 passage).
+  2. Walk East along row 14 corridor: (14, 14) -> (21, 14) -> Down 1 to (21, 15).
+  3. Stand at (21, 15) facing East -> Push Right 1 time: Boulder at (22, 15) falls into Pit at (23, 15)!
+  4. Step Right 1 time into Pit at (23, 15) to drop to 2F!
 
 <hr>
