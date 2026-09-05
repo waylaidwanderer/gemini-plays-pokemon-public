@@ -76,7 +76,7 @@
   - Status: Healthy
   - HP: 74 / 84
   - Stats: Attack 56, Defense 67, Speed 56, Special 58
-  - Moves: Bite (PP 17/25), Tail Whip (PP 30/30), Bubblebeam (PP 14/20), Water Gun (PP 23/25)
+  - Moves: Bite (PP 17/25), Tail Whip (PP 30/30), Bubblebeam (PP 13/20), Water Gun (PP 23/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -132,7 +132,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns.
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
@@ -189,7 +189,6 @@
   - Roster: Rattata Lv 18 (Yield: 219 EXP), Pikachu Lv 18 (Yield: 315 EXP). Total EXP: 534. Prize: ¥270.
   - Pre-battle: "I never saw you at the party.". Defeat: "LASS: Take it easy!".
   - Combat: Sheldon Lv 31 used Bite on Rattata (OHKO). Sheldon Lv 31 used Bite on Pikachu (OHKO). Sheldon took 0 damage (HP 74/84). Bite PP: 19 -> 17. Bubblebeam PP: 15/20 (conserved). Water Gun PP: 23/25 (conserved).
-
 
 <hr>
 
