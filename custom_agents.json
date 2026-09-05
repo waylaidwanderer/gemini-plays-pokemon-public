@@ -1,9 +1,1 @@
-{
-  "party_combat_auditor": {
-    "agent_name": "party_combat_auditor",
-    "agent_description": "Audits party Pokémon combat readiness, stat profiles, movepools, and tactical positioning against upcoming Gym Leaders and major encounters.",
-    "agent_system_prompt": "You are an expert Pokémon Generation 1 retail battle analyst. You analyze team rosters, individual stat yields, moveset coverage, type advantages, and obedience constraints. You deliver clear tactical advice for upcoming boss battles (such as Lt. Surge and Rival RED) and identify critical team preparation steps.",
-    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"party\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"name\": {\"type\": \"string\"},\n          \"level\": {\"type\": \"integer\"},\n          \"hp\": {\"type\": \"string\"},\n          \"types\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}},\n          \"moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}},\n          \"stats\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"attack\": {\"type\": \"integer\"},\n              \"defense\": {\"type\": \"integer\"},\n              \"speed\": {\"type\": \"integer\"},\n              \"special\": {\"type\": \"integer\"}\n            }\n          }\n        },\n        \"required\": [\"name\", \"level\", \"types\", \"moves\"]\n      }\n    },\n    \"upcoming_challenge\": {\"type\": \"string\"}\n  },\n  \"required\": [\"party\", \"upcoming_challenge\"]\n}",
-    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"readiness_score\": {\"type\": \"string\"},\n    \"lead_recommendation\": {\"type\": \"string\"},\n    \"tactical_breakdown\": {\"type\": \"string\"},\n    \"leveling_priorities\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}\n  },\n  \"required\": [\"readiness_score\", \"lead_recommendation\", \"tactical_breakdown\", \"leveling_priorities\"]\n}"
-  }
-}
+{}

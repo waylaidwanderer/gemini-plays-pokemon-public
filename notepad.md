@@ -151,7 +151,7 @@
 ## Boss Battle Tactics & Preparation (Audited Turn 2766)
 - **Tactical Preparation Synthesis (Turns 2881 & 2911):**
   - **Lt. Surge Counter:** Rocky (Geodude Lv 8). Rock/Ground typing walls Electric attacks and resists Normal attacks. Plan: Train Rocky to Lv 18–21 and teach TM28 (Dig) for an effortless sweep.
-  - **Rival RED Counter:** RED's roster on S.S. Anne 2F is Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20. Sheldon (Lv 30) crushes the first three. Against Ivysaur's Grass moves, Dux (Farfetch'd Lv 5) can be trained to Lv 15–18 as a Flying-type pivot with STAB Peck, or Sheldon can overpower with Body Slam/Bite.
+  - **Rival RED Counter:** [Defeated, Turn 3056 - see S.S. Anne Empirical Combat Log below].
 
 - **Team Utility:**
   - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
@@ -1027,7 +1027,6 @@
 
 ## Connections
 - Stairs to 1F: Located at (2, 4), ascending to 1F western corridor at (2, 6).
-- Stairs at (2, 12): Located at west end of 2F hallway.
 - Stairs to Captain's Cabin: Located at (36, 4) at northern end of corridor.
 
 ## Geography & Layout
