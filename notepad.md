@@ -32,7 +32,7 @@
 - [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
 - [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
 - [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
-- [ ] Traverse Route 5 and Underground Path to Vermilion City
+- [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
 - [ ] Board the S.S. Anne in Vermilion City to obtain HM01 Cut
 
 <hr>
@@ -755,14 +755,12 @@
 - NPC at (2, 3).
 - Descending Stairs: Located at (4, 4), leading down into the Underground Path tunnel.
 ## Underground Tunnel (North-South Corridor)
-- Spawn Position: (5, 4) facing South below the northern stairs.
 - Tunnel Width: 4 tiles wide (Cols 2..5). Bounded by solid walls at Col 1 (West) and Col 6 (East).
 - North Wall: Row 2.
 - Environment: Completely straight corridor heading South toward Route 6 exit. No wild encounters.
 - Southern Stairs: Located at (2, 41), leading up into the Route 6 entrance building.
 - South Wall: Row 42.
 ## Route 6 Entrance Building
-- Spawn Position: (4, 4) on ascending stairs facing South.
 - Interior: Checkered floor, counter barriers at cols 1..2 and 5..6 (rows 2..6).
 - NPC at (2, 3).
 - Counter passage at (3..4, 6).
@@ -794,7 +792,7 @@
 - Trainer (19, 26): Bug Catcher Elijah (1 Pokémon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
-- Trainer (11, 30): Jr. Trainer ♀ (3 Pokémon). Approached to (10, 30). Pre-battle dialogue: "Me? Well, OK. I'll play!".
-- Trainer (11, 31): Jr. Trainer ♂ (2 Pokémon: Spearow Lv 16, Raticate Lv 16). Approached to (10, 31) when player stepped to (9, 31). Pre-battle dialogue: "Huh? You want to talk to me?".
+- Trainer (11, 30): Jr. Trainer ♀ [Defeated, Turn 2682] (Roster: Rattata Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
+- Trainer (11, 31): Jr. Trainer ♂ [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
 
 <hr>
