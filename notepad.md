@@ -211,8 +211,9 @@
 - Cerulean Gym Combat Bounds:
   - Swimmer Horsea Lv 16 Bubble vs Sheldon (Water type, Special 41): 2 HP damage.
   - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage. Defeat yield: 283 EXP.
-  - Swimmer Pokémon #2: Shellder Lv 16 (verified Turn 1996). Moves: Tackle (missed turn 1999, critical hit dealt 6 damage to Sheldon turn 2001).
+  - Swimmer Pokémon #2: Shellder Lv 16 (verified Turn 1996). Moves: Tackle (missed turn 1999, normal hit 4 damage, critical hit 6 damage to Sheldon). Defeat yield: 331 EXP.
   - Sheldon Lv 22 Water Gun vs Shellder Lv 16: ~40% max HP damage.
+  - Defeated Swimmer prize money: ¥80.
 
 <hr>
 
@@ -679,6 +680,8 @@
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21) verified on Turn 1955: "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
   - Interior: Entrance mat at (4..5, 13). Central pool spanning rows 9..11 with central pier at cols 4..5. Left statue at (3, 10..11), right statue at (6, 10..11). Gym Guide stationed at (7, 10).
   - Gym Guide Advice (verified Turn 1979): Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
+  - Gym Trainers:
+    - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
 - Cerulean Poké Mart: Located at cols 24..27, rows 22..25. Entrance door at (25, 25), "MART" sign at (26, 25). Front street at rows 26..27. NPC at (29, 26) with Pokémon at (28, 26).
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
   - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
