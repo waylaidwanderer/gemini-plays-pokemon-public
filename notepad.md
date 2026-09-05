@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Wartortle (SHELDON) Lv 27, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
+- Active Team: Wartortle (SHELDON) Lv 28, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
 - Money: ¥8555
 - Pokédex: 4 Caught / 13 Seen
 
@@ -58,7 +58,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 27, Water]
   - Status: Healthy
-  - HP: 43 / 73
+  - HP: 46 / 76
   - Stats: Attack 48, Defense 59, Speed 48, Special 50
   - Moves: Bite (PP 8/25), Tail Whip (PP 30/30), Bubblebeam (PP 10/20), Water Gun (PP 14/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
