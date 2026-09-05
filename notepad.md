@@ -36,7 +36,8 @@
 - [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
-- [ ] Board the S.S. Anne in Vermilion City to obtain HM01 Cut
+- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
+- [ ] Obtain HM01 Cut from the Captain of the S.S. Anne
 
 <hr>
 
@@ -884,5 +885,20 @@
   - Located at (3, 1) facing South behind podium (rows 2..3, cols 3..4).
   - Dialogue: Tells a story about his beloved Pokémon.
 
+
+<hr>
+
+<h1><code>Locations/Kanto_SSAnne_1F</code></h1>
+
+# S.S. Anne 1F
+
+## Connections
+- North Exit: Gangplank to Vermilion City harbor at (26..27, -1).
+- Stairs: To be located (leads to 2F and B1F).
+
+## Geography & Layout
+- Entrance corridor: Cols 26..27, rows 0..4.
+- Carpet: Red/orange checkered at col 26, yellow striped at col 27.
+- Main corridor: Runs east-west at row 5+.
 
 <hr>
