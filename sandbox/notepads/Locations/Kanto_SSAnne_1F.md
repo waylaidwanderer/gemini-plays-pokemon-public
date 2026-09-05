@@ -15,5 +15,5 @@
 ## Cabins
 - Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - NPC at (11, 4) facing South.
+  - Trainer (11, 4): Gentleman [Defeated, Turn 2850] (Roster: Nidoran♂ Lv 19 - 243 EXP, Nidoran♀ Lv 19 - 240 EXP, Prize: ¥1330). Pre-battle: "You pup! How dare you barge in!". Defeat: "Humph! You rude child!".
   - Table/luggage at (10..11, 5), bed at (13, 4..5).
