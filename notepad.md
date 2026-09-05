@@ -2741,4 +2741,14 @@
 - Western/Central Vertical Chute (Column 10): Open vertical corridor (cols 9-10) connecting Row 16 at (10, 16) north to Row 14 at (10, 14) and Row 1.
 - SE Lower Purple Floor (rows 12-14, cols 10-26): Row 14 is a continuous horizontal corridor running from column 10 east all the way into the Pit at (23, 14) and Ladder B at (25, 14).
 
+## Discovered Points of Interest & Topology (Verified Turn 28862)
+- [ ] Item Ball at (11, 0) in northern corridor of western sector.
+- Cooltrainer NPC at (19, 8): "You earned the right to be on VICTORY ROAD!".
+- Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
+- Column 10 Connectivity: Row 1 above column 10 is separated from lower rows by a south-facing cliff wall; cannot walk south between row 1 and row 2 at column 10.
+- Boulder 1 at (22, 3): Positioned on upper dark plateau.
+- Boulder 2 at (24, 10): Positioned on upper dark plateau.
+- SE Lower Purple Room (rows 12-14, cols 10-26): Contains Pit / Hole at (23, 14) and Ladder B at (25, 14).
+- 2F Exit Shutter Mechanism: Dropping a boulder through the Pit at (23, 14) activates the floor switch on 2F that permanently unlocks the exit shutter to Indigo Plateau.
+
 <hr>
