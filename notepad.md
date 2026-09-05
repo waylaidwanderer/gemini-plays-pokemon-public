@@ -279,7 +279,8 @@
 ## Route 25 - Youngster (Turn 2509-Present)
 - Position: (32, 3) facing West. Sight range: 3 tiles (engaged at (29, 3)).
 - Pre-battle Dialogue: "I knew I had to fight you!"
-- Team: In progress...
+- Team:
+  - Ekans Lv 14: In progress...
 
 <hr>
 
