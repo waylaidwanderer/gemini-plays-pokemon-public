@@ -13,4 +13,4 @@
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: ¥360.
 - Boulder: Isolated rock at (33, 9).
-- Main Cavern Connectivity: Passage to lower B2F cavern does not originate from this plateau. Access to main B2F must originate from 1F.
+- Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. Further routing under investigation.
