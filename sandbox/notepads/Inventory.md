@@ -21,6 +21,7 @@
 - S.S. TICKET
 - OLD ROD
 - BIKE VOUCHER
+- HM01 (CUT)
 
 ## Money
 - ¥17190

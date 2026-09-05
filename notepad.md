@@ -39,7 +39,7 @@
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 - [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
-- [ ] Obtain HM01 Cut from the Captain of the S.S. Anne
+- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 
 <hr>
 
@@ -68,6 +68,7 @@
 - S.S. TICKET
 - OLD ROD
 - BIKE VOUCHER
+- HM01 (CUT)
 
 ## Money
 - ¥17190
