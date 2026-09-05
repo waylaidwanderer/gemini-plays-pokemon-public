@@ -969,5 +969,6 @@
 - Trainer (10, 21): Jr. Trainer ♂ (Ricky) facing West along row 21.
 - Trainer (11, 21): Jr. Trainer ♀ (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
+- Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
 
 <hr>
