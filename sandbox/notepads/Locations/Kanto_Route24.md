@@ -1,7 +1,7 @@
 # Route 24 Geography & Points of Interest
 
 ## Connections
-- South: Cerulean City northern gateway at (20..21, 35..36 / border).
+- South: Cerulean City northern gateway at (10..11, 36) [connects to Cerulean (20..21, 0)].
 - East: Route 25 border at northeast plateau.
 
 ## Geography & Layout
