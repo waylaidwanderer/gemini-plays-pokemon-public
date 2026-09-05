@@ -32,3 +32,10 @@
   3. Walk East along row 16: (21, 16) -> (29, 16).
   4. Walk North along column 29: (29, 16) -> (29, 11).
   5. Log tile-by-tile coordinate traversability from (29, 11) to (25, 14) / (27, 7) before ascending.
+
+## 2F Boulder 2 Verification Checklist
+- Step 1: Push Boulder 2 West along row 14 to (1, 14). Verify Player at (2, 14), Boulder at (1, 14).
+- Step 2: Reposition around to (1, 13) via (2, 13) -> (1, 13).
+- Step 3: Push Boulder 2 South from (1, 13) to (1, 15). Verify Player at (1, 14), Boulder at (1, 15).
+- Step 4: Push Boulder 2 South from (1, 14) onto Switch 1 at (1, 16). Verify Player at (1, 15), Boulder at (1, 16) [ON SWITCH!].
+- Step 5: Verify Shutters at (5, 10) and (21, 15) are opened before proceeding to the eastern corridor.
