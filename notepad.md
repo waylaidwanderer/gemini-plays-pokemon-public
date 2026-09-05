@@ -3,7 +3,7 @@
 # Pokémon Blue - Journey Log
 
 ## Status
-- Badges: 1 / 8 (Boulderbadge)
+- Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 23, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
 - Money: ¥1711
 - Pokédex: 4 Caught / 13 Seen
@@ -27,6 +27,8 @@
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 - [x] Exit Mt. Moon to Route 4 [Turn 1865]
 - [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
+- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
+
 
 <hr>
 
@@ -144,7 +146,7 @@
 
 ## Cerulean Gym Combat Bounds
 - Leader Misty Staryu Lv 18: Tackle deals 4 HP damage to Sheldon (neutral Defense 50). Uses X DEFEND when HP is critical. Sheldon Lv 23 Tackle deals ~30-35% max HP damage (Critical hit deals ~55% max HP damage). Defeat yield: 408 EXP.
-- Leader Misty Starmie Lv 21: Tackle deals 6 HP damage (critical hit 10 HP damage) to Sheldon (neutral Defense 50). Uses X DEFEND. Sheldon Tail Whip lowers Starmie Def 1 stage.
+- Leader Misty Starmie Lv 21: Tackle deals 6 HP damage (critical hit 10 HP damage) to Sheldon (neutral Defense 50). Uses X DEFEND. Sheldon Tail Whip lowers Starmie Def 1 stage. Starmie fainted to Sheldon Tackle. Defeated Leader Misty Turn 2077.
 - Swimmer Horsea Lv 16 Bubble vs Sheldon (Water type, Special 41): 2 HP damage.
 - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage. Defeat yield: 283 EXP.
 - Swimmer Shellder Lv 16: Tackle deals 4 HP damage (critical hit 6 HP). Defeat yield: 331 EXP. Prize: ¥80.
