@@ -6,7 +6,7 @@
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 21, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
 - Money: ¥2081
-- Pokédex: 3 Caught / 12 Seen
+- Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
@@ -581,15 +581,14 @@
   - Western Partition (Cols 30..31, Rows 5..7): Solid rock wall separating eastern plateau from (29, 5) item pocket.
 - Ledge (Cols 28..29, Row 7): South-facing one-way jump ledge.
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
-- Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: �360.
+- Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: ¥360.
 - Boulder: Isolated rock at (33, 9).
 - Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. Further routing under investigation.
 
 ### Main Cavern (Reached via Ladder 21, 17)
 - Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
-- Northern Highway (Cols 18..22, Rows 5..13): Wide 5-tile north-south highway bounded by western wall (Col 17) and plateau cliff (Cols 23..24). Sights Ladder (25, 9) on plateau above to the east.
-- Northern Passage (Cols 18..19, Rows 2..5+): 2-tile wide checkered floor corridor continuing north past row 2. Columns 20..22 terminate into solid rock ceiling at rows 2..4.
+- Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 
 
@@ -610,13 +609,13 @@
 8. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
 9. [x] Sighted descending Ladder at (21, 17) in B1F corridor.
 10. [x] Descend Ladder (21, 17) to main B2F cavern; caught wild Paras Lv 10 (FUNGI) [Turn 1666-1675].
-11. [ ] Follow northern passage (cols 18..19) north past row 2 toward fossil chamber.
-12. Primary Objective: Defeat Super Nerd guardian and retrieve prehistoric fossil.
+11. [x] Tested northern passage at (20, 5); verified cols 18..19 and row 4 are impassable.
+12. [ ] Navigate south to rows 16..18 to bypass west into main western cavern.
 
 ## Party & Inventory Status
-- Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
+- Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
 - Funds: ¥2081
-- Key Supplies: Rare Candy x1, Escape Rope x1, Potion x3, Antidote x3, Poké Ball x2, TM12, TM34
+- Key Supplies: Rare Candy x1, Escape Rope x1, Potion x3, Antidote x3, TM12, TM34 (Poké Balls depleted)
 - Sheldon Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 16/25)
 
 ## 3D Cavern Hypothesis & Ladder Graph
