@@ -1062,7 +1062,10 @@
   - Interior bounds: Cols 10..13, Rows 11..15.
   - Occupants: Sailor at (10, 13) ("My buddy, MACHOKE, is super strong!"), Machoke at (11, 12) ("Gwoh! Goggoh!"). Friendly, no battle.
   - Furniture: Desk/table at (10..11, 11), bunk bed at (13, 11..12). No items. Status: Cleared.
-- Cabin 2: Entrance at (19, 3), door approach at (19, 4).
+- Cabin 2: Entrance at (19, 3) in B1F hallway, interior doorway at (2..3, 15).
+  - Interior bounds: Cols 0..3, Rows 11..15.
+  - Occupants: Sailor 1 at (2, 11) facing South, Sailor 2 at (0, 13) facing East.
+  - Furniture: Desk at (0..1, 11), bunk bed at (3, 11..12). No item balls visible.
 - Remaining Cabins: Expected at (15, 3), (11, 3), (7, 3).
 - Key Targets on B1F:
   - TM44 (Rest) item ball.
