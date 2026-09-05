@@ -13,7 +13,7 @@
 - East Wall & Aisle: Col 12 passage. East wall at col 13 has alternating trash cans and chefs:
   - Trash Can 1: (13, 5)
   - Cook: (13, 6)
-  - Trash Can 2: (13, 7)
+  - Trash Can 2: (13, 7) [Inspected, Turn 2936: Empty - "Nope, there's only trash here."]
   - Cook: (13, 8)
   - Trash Can 3: (13, 9)
   - Cook (Onions): (13, 10)
