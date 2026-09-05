@@ -34,5 +34,6 @@
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
 ## Eastern Corridor & B1F Passage
 - Doorway at (31, 8): Eastern room/cabin entrance along south wall.
-- Eastern South Corridor: Cols 36..37, extending south from row 7 (checkered carpet at col 36, yellow at col 37).
+- Eastern South Corridor: Cols 36..37, extending south from row 7 to row 15 (checkered carpet at col 36, yellow at col 37).
 - East wall of ship at col 38.
+- Stairs to B1F: Located at (37, 15) at southern end of corridor (descends to S.S. Anne B1F).
