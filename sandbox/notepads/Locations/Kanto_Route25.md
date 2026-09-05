@@ -11,7 +11,7 @@
 - Shrub Barrier (8, 7): Dense shrub at (8, 7) blocking sightline south from (8, 4).
 - Corridor 1 (Col 9, Rows 4..8): Open grass connector linking row 8 avenue north to rows 4..7.
 - Row 7 Tree Gap (Cols 10..11, Row 7): 1-tile wide east-west grass corridor between trees at (10..11, 6) and (10, 8..9).
-- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South. Line of sight covers (8, 5) and (8, 6), blocked south by (8, 7) shrub.
+- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Dialogue: "I just got down from MT. MOON...".
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Youngster stationed at (13, 7) facing West.
 - Trainer 3 at (14, 2): Boy/Youngster stationed at (14, 2) facing South/West.
