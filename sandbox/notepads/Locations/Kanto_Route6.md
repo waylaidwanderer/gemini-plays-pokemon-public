@@ -20,5 +20,5 @@
 - Trainer (19, 26): Bug Catcher Elijah (1 Pokémon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
-- Trainer (11, 30): Jr. Trainer ♀ (3 Pokémon). Approached to (10, 30). Pre-battle dialogue: "Me? Well, OK. I'll play!".
-- Trainer (11, 31): Jr. Trainer ♂ (2 Pokémon: Spearow Lv 16, Raticate Lv 16). Approached to (10, 31) when player stepped to (9, 31). Pre-battle dialogue: "Huh? You want to talk to me?".
+- Trainer (11, 30): Jr. Trainer ♀ [Defeated, Turn 2682] (Roster: Rattata Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
+- Trainer (11, 31): Jr. Trainer ♂ [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
