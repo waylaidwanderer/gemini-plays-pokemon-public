@@ -899,6 +899,10 @@
 ## Geography & Layout
 - Entrance corridor: Cols 26..27, rows 0..4.
 - Carpet: Red/orange checkered at col 26, yellow striped at col 27.
-- Main corridor: Runs east-west at row 5+.
+- Main corridor: Runs east-west at rows 6..7 (yellow striped carpet).
+- NPC at (27, 5): Waiter in green hat facing West.
+- Bypass: Col 26 checkered carpet is open from entrance to main hallway.
+- Cabins South: Entrances at (23, 8) and (31, 8).
+- Wall decor: Life preservers on north wall at (30, 5) and (32, 5).
 
 <hr>
