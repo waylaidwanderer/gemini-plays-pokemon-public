@@ -38,7 +38,6 @@
 - Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) opened.
 
 ## 3F Pit Area & Boulder Observations
-- Boulder observed at (24, 10).
 - Column 13 / Row 11: Pushing boulder at (13, 12) down to (13, 13) dead-ends against rock obstacle at (13, 14).
 
 
