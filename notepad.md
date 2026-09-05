@@ -590,6 +590,7 @@
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
+- Team Rocket Grunt (29, 17): Stationed in southern cavern at (29, 17), facing South. Dialogue: 'Little kids should leave grown-ups alone!'. Status: Engaged in battle.
 
 
 <hr>
