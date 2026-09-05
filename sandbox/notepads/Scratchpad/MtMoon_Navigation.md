@@ -15,7 +15,8 @@
 12. [x] Empirically tested (19, 16) - confirmed impassable cliff ridge.
 13. [x] Row 14 explored to col 28; blocked to east by rock pillar (29..30, 12..15).
 14. [x] Hopped ledge at (27, 15) into southern B2F cavern; defeated Rocket Grunt (29, 17) [Raticate Lv 16, ¥480].
-15. [ ] Explore Southern Cavern Corridor east along row 16 past col 30.
+15. [x] Tested east at (35, 16) [blocked] and south at (34, 19) and (30, 19) [blocked]. Row 19 is impassable chasm.
+16. [ ] Navigate west along row 18 past col 26 to locate connection to western cavern.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 37/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
