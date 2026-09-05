@@ -2686,7 +2686,7 @@
    - On 2F, walk south to Boulder 2 at (4, 14), activate Strength with ATLAS.
    - Push Boulder 2 onto Switch 1 at (1, 16) via Column 3 -> Row 16 sequence.
    - Shutter 1 at (5, 10) opens!
-   - Walk through Shutter 1 onto Purple Floor: (5, 10) -> (5, 8) -> (14, 8) -> (14, 12) -> (25, 12) -> (25, 14) to Ladder B.
+   - Walk through Shutter 1 at (5, 10) -> (5, 8) -> (14, 8) -> (14, 12) -> (20, 12) -> (21, 14) -> Shutter 3 at (21, 15) -> Lower Highway (21, 16) -> (29, 16) -> (29, 11) -> Ladder B at (25, 14).
    - Ascend Ladder B at (25, 14) up to 3F SE Lower Purple Room.
 3. **3F Pit Drop & Final Exit**:
    - In 3F SE Room, locate Boulder and push it into the Pit at (23, 14).
@@ -2749,7 +2749,7 @@
   5. Stand at (4, 16) facing West -> Push Left 2 times along Row 16:
      - Push Left 1: Boulder 2 to (2, 16), Player to (3, 16).
      - Push Left 2: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
-- Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened!
+- Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened for the active visit (resets upon changing floors).
 
 ## NW Sector Topology (Verified Turn 30512)
 - Arrival Ladder from 3F NW (2, 0): Located at (1, 1) on 2F NW.
