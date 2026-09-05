@@ -19,3 +19,6 @@
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
 - Trainer (19, 26): Bug Catcher Elijah (1 Pokémon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
+- Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
+- Trainer (11, 30): Jr. Trainer facing West along row 30.
+- Trainer (11, 31): Jr. Trainer facing West along row 31.
