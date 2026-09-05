@@ -44,3 +44,8 @@
 - North boundary: solid rock wall at rows 0..1.
 - East boundary: rock wall at col 17.
 - South boundary: rock wall at row 5, with opening at cols 12..13 connecting south into Fossil Chamber.
+### Route 4 Exit Chamber (Cols 2..8, Rows 2..7)
+- Northern Corridor: cols 3..10, rows 2..4.
+- Jump Ledge: South-facing jump ledge at (3, 5).
+- Southern Alcove: cols 2..7, rows 6..7.
+- Ladder (5, 7): Ascending ladder leading to upper floors toward Route 4 exit.
