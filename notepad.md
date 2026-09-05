@@ -597,6 +597,11 @@
 - Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
 - Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
 
+### Eastern Cavern Highway & Southern Cavern (Reached via Row 15 / Row 14)
+- Breakthrough Passage (33, 15): Empirically verified fully passable northward from Row 16 to Row 14, connecting lower chamber directly back to northern corridors.
+- Eastern Cavern Highway (Cols 36..38, Rows 14..24): 3-tile wide open north-south corridor running from row 14 south past row 24. Bounded on east by solid rock wall at Col 39.
+- Southern Avenue (Cols 32..34, Rows 24..28+): At row 24, the corridor turns west to cols 32..34, where a 3-tile wide passage extends south through rows 25..28+ toward the fossil chamber. Bounded on east by rock wall at cols 35..39 on row 25.
+
 
 <hr>
 
@@ -604,15 +609,12 @@
 
 # Mt. Moon Navigation & Exploration Scratchpad
 
-## Breakthrough Discovery
-- Tile (33, 15) is fully passable northward from Row 16 to Row 14 [Turn 1773]!
-- Exited the rows 16..18 chamber.
-
 ## Current Route Plan
 1. [x] Defeated Rocket Grunt at (29, 17) in lower B2F chamber.
 2. [x] Discovered northern exit at (33, 15) connecting Row 16 to Row 14 [Turn 1773].
-3. [ ] Advance east along Row 14 from (33, 14) to (36, 14) and head south down the Eastern Cavern Highway (Cols 36..38).
-4. [ ] Explore southern cavern depths to locate Super Nerd Miguel, defeat him, and retrieve the fossil.
+3. [x] Traversed Eastern Cavern Highway (Cols 36..38) south from (36, 15) to (36, 24) [Turn 1777].
+4. [ ] Turn West along row 24 to (33, 24) and head South down the southern avenue (Cols 32..34, Rows 25..28+).
+5. [ ] Locate Super Nerd Miguel, defeat him, choose a fossil, and proceed to exit ladder.
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
