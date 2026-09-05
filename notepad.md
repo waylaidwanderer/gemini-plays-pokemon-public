@@ -1081,7 +1081,7 @@
   - Furniture: Desk at (0..1, 11), bunk bed at (3, 11..12). No items. Status: Cleared.
 - Cabin 3: Entrance at (15, 3) in B1F hallway, interior doorway at (22..23, 5).
   - Interior bounds: Cols 20..23, Rows 1..5.
-  - Occupants: Sailor at (22, 2).
+  - Occupants: Sailor at (22, 2) [In battle, Turn 3142; Pre-battle: "I like feisty kids like you!"].
   - Furniture: Desk at (20..21, 1), chair/table at (20, 2..3), bunk bed at (23, 1..2).
 - Remaining Cabins: Expected at (11, 3), (7, 3).
 
