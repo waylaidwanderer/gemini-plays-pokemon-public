@@ -37,7 +37,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
   - EXP: 125 (91 to Lv 6)
   - Potential: Can learn HM01 Cut
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
