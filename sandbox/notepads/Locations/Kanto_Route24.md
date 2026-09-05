@@ -9,5 +9,5 @@
 - Bridge Gauntlet: 5 trainers stationed consecutively along the bridge corridor.
   - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310.
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
-  - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14. Defeated Turn 2324.
+  - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14.
   - Trainer 4: Lass stationed at (10, 22) facing South (visually verified on Turn 2321).
