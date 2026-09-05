@@ -210,6 +210,11 @@
   - Combat: Sheldon Lv 32 used Bite (took 4 dmg from Tackle), then Bite (KO). Sheldon took 4 damage total (HP 51 -> 47/86). Bite PP: 8 -> 6/25.
   - Outcome: Decisive victory. HP: 47/86. Bite PP: 6/25. Money: ¥17700 -> ¥18330.
 
+- **Sailor [Turn 3142 - 3154] (B1F Cabin 3 at 22, 2):**
+  - Roster: Horsea Lv 17 (Yield: 301 EXP), Horsea Lv 17 (Yield: 301 EXP), Horsea Lv 17 (Yield: 301 EXP). Total EXP: 903 EXP. Prize: ¥510.
+  - Pre-battle: "I like feisty kids like you!". Defeat: "SAILOR: Argh! Lost it!".
+  - Combat: Horsea 1 took Bite (~85%), dealt 1 dmg with Bubble (Sheldon HP 47 -> 46/86, Speed fell), then Bite (KO). Horsea 2 took Bite (OHKO). Horsea 3 took Bite (OHKO).
+  - Outcome: Decisive victory. HP: 46/86. Bite PP: 6 -> 2/25. Money: ¥18330 -> ¥18840.
 
 <hr>
 
@@ -1081,8 +1086,8 @@
   - Furniture: Desk at (0..1, 11), bunk bed at (3, 11..12). No items. Status: Cleared.
 - Cabin 3: Entrance at (15, 3) in B1F hallway, interior doorway at (22..23, 5).
   - Interior bounds: Cols 20..23, Rows 1..5.
-  - Occupants: Sailor at (22, 2). Pre-battle: "I like feisty kids like you!".
-  - Furniture: Desk at (20..21, 1), chair/table at (20, 2..3), bunk bed at (23, 1..2).
+  - Occupants: Sailor at (22, 2) [Defeated, Turn 3154] (Roster: Horsea Lv 17, Horsea Lv 17, Horsea Lv 17; Prize: ¥510; Pre-battle: "I like feisty kids like you!", Defeat: "SAILOR: Argh! Lost it!").
+  - Furniture: Desk at (20..21, 1), chair at (20, 2..3), bunk bed at (23, 1..2). No items. Status: Cleared.
 - Remaining Cabins: Expected at (11, 3), (7, 3).
 
 <hr>

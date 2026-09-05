@@ -76,3 +76,9 @@
   - Pre-battle: "You know what they say about sailors and fighting!". Defeat: "SAILOR: Right! Good fight, mate!".
   - Combat: Sheldon Lv 32 used Bite (took 4 dmg from Tackle), then Bite (KO). Sheldon took 4 damage total (HP 51 -> 47/86). Bite PP: 8 -> 6/25.
   - Outcome: Decisive victory. HP: 47/86. Bite PP: 6/25. Money: ¥17700 -> ¥18330.
+
+- **Sailor [Turn 3142 - 3154] (B1F Cabin 3 at 22, 2):**
+  - Roster: Horsea Lv 17 (Yield: 301 EXP), Horsea Lv 17 (Yield: 301 EXP), Horsea Lv 17 (Yield: 301 EXP). Total EXP: 903 EXP. Prize: ¥510.
+  - Pre-battle: "I like feisty kids like you!". Defeat: "SAILOR: Argh! Lost it!".
+  - Combat: Horsea 1 took Bite (~85%), dealt 1 dmg with Bubble (Sheldon HP 47 -> 46/86, Speed fell), then Bite (KO). Horsea 2 took Bite (OHKO). Horsea 3 took Bite (OHKO).
+  - Outcome: Decisive victory. HP: 46/86. Bite PP: 6 -> 2/25. Money: ¥18330 -> ¥18840.
