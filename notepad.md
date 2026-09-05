@@ -4,8 +4,8 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 19, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
-- Money: ¥1306
+- Active Team: Wartortle (SHELDON) Lv 20, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
+- Money: ¥1581
 - Pokédex: 3 Caught / 12 Seen
 
 ## Milestones
@@ -46,7 +46,7 @@
 - POKéDEX
 
 ## Money
-- ¥1306
+- ¥1581
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 20, Water]
@@ -110,7 +110,7 @@
 - Battle Initialization Reset: At the start of a new battle, the move selection cursor resets to Slot 1 (Tackle), regardless of what move was used in previous encounters.
 - Main Battle Menu Cursor Memory: The primary 4-choice battle menu (FIGHT, PKMN, ITEM, RUN) retains its position from the previously confirmed action. Specifically, using an Item leaves the cursor on ITEM on subsequent turns, rather than resetting to FIGHT.
 - Battle Bag Menu Cursor Memory: Opening the ITEM menu during battle retains the cursor position from the previously confirmed item (empirically verified on Turn 1195: cursor was on POKé BALL at Slot 2 after using a Poké Ball on Turn 1192).
-- Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2, not Slot 3. To reach Slot 3 from Slot 1 requires pressing "Down" twice.
+- Battle Move Menu Layout: The 4 moves are arranged in a single vertical 4-line list (Slot 1 at top, Slot 2 second, Slot 3 third, Slot 4 fourth), NOT a 2x2 grid. Pressing "Down" from Slot 1 moves to Slot 2. Pressing "Down" from Slot 4 wraps around to Slot 1. Pressing "Up" from Slot 1 wraps around to Slot 4. It does NOT clamp at the boundaries.
 - Shift Mode Switch Prompt: In Gen 1, the switch prompt ('Will <PLAYER> change POKéMON?') defaults the cursor to YES. Pressing 'B' immediately declines the prompt (acts as NO) without needing to navigate down.
 ## Stat Stage Modifiers
 - Tail Whip: Decreases target Defense by 1 stage per application (Stage -1 = approx. 2/3 Defense, Stage -2 = approx. 1/2 Defense). Verified: Lv 6 Weedle took 11-12 damage from Tackle at -1 Defense vs ~6-8 at neutral Defense.
@@ -514,7 +514,7 @@
 - Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
 
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
-- Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15) (collision confirmed Turn 1496). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
+- Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
 - Inert Tile (25, 15): Tile (25, 15) in Eastern Avenue is ordinary walkable cave floor; does not trigger any map warp.
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
@@ -585,14 +585,23 @@
 
 ## Current Route Plan
 1. [x] Route 4 respawn checkpoint established with Nurse Joy (Turn 1477).
-2. Enter Mt. Moon 1F via cave entrance in northern cliff face.
-3. Primary Objective: Navigate through Mt. Moon to reach the Fossil chamber and claim prehistoric fossil.
-4. Active Inventory Buffer: Escape Rope x1, Potion x3, Antidote x3, Poké Ball x2. Money: ¥1306.
+2. [x] Enter Mt. Moon 1F via cave entrance (Turn 1482).
+3. [x] Defeat Super Nerd (24, 31) in Eastern Avenue (Turn 1519).
+4. [x] Collect Ground Item at (35, 31): RARE CANDY (Turn 1526).
+5. [ ] Navigate west along southern bypass (row 32) to column 14/15 (Main Cavern Junction).
+6. [ ] Ascend north to row 22, take East-West Cross Corridor east to column 21.
+7. [ ] Head north along column 21 to Ladder (21, 17) and descend into basement.
+8. Primary Objective: Retrieve prehistoric fossil in basement depths.
+
+## Party & Inventory Status
+- Active Team: Wartortle (SHELDON) Lv 20 (HP 52/56), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
+- Funds: ¥1581
+- Key Supplies: Rare Candy x1, Escape Rope x1, Potion x3, Antidote x3, Poké Ball x2, TM12, TM34
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor)
-- 1F Ladder (21, 17) <-> Unexplored eastern descent (Target for exploration)
+- 1F Ladder (21, 17) <-> Unexplored eastern descent (Immediate Target)
 
 
 <hr>
