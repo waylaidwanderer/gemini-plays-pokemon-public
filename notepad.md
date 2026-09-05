@@ -2726,14 +2726,17 @@
   - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7) and Ladder NE at (27, 7).
   - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
 
-## Empirical Verification Protocol: 2F Shutter 3 to Ladder B / 3F
-- Objective: Empirically verify walkable path from opened Shutter 3 at (21, 15) to Ladder B at (25, 14) and Ladder NE at (27, 7).
-- Protocol:
-  1. Once Boulder 2 is pushed onto Switch 1 at (1, 16), walk East to Shutter 3 at (21, 15).
-  2. Pass South through opened Shutter 3 to (21, 16) on Lower Highway.
-  3. Walk East along row 16: (21, 16) -> (29, 16).
-  4. Walk North along column 29: (29, 16) -> (29, 11).
-  5. Log tile-by-tile coordinate traversability from (29, 11) to (25, 14) / (27, 7) before ascending.
+## Empirical Verification Protocol: 2F Shutter 3 to Ladder B / 3F (VERIFIED Turn 29111)
+- Master Route:
+  1. Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+  2. Walk through Shutter 1 at (5, 10) onto Light Purple Floor at (5, 9).
+  3. Walk East along row 8: (5, 8) -> (14, 8) -> South to (14, 12).
+  4. Walk East along row 12: (14, 12) -> (20, 12).
+  5. Bypass trainer at (21, 13) via (20, 12) -> (20, 14) -> (21, 14).
+  6. Pass South through opened Shutter 3 at (21, 15) onto Lower Highway at (21, 16).
+  7. Walk East along Lower Highway: (21, 16) -> (29, 16).
+  8. Walk North along Column 29: (29, 16) -> (29, 11).
+  9. Walk West to Ladder B at (25, 14) or Ladder NE at (27, 7) / Ladder A at (23, 7).
 
 ## Verified Master Boulder 2 Solution (Verified Turn 29073)
 - Topology Discovery: Tile (1, 13) is a solid rock obstacle. Pushing Boulder 2 to (1, 14) corners it against (0, 14) and (1, 13). The correct path routes down Column 3 and west along Row 16!
