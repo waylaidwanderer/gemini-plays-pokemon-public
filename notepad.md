@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 31, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥14430
+- Money: ¥15620
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -69,7 +69,7 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥14430
+- ¥15620
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 31, Water]
@@ -181,6 +181,10 @@
   - Roster: Pikachu Lv 23 (Yield: 403 EXP). Prize: ¥1610.
   - Pre-battle: "Competing against the young keeps me youthful.". Defeat: "GENTLEMAN: Good fight! Ah, I feel young again!".
   - Combat: Pikachu used Quick Attack (dealt 5 dmg, Sheldon HP 76 -> 71/81). Sheldon Lv 30 used Bite (Pikachu down to ~15%). Sheldon used Bite (OHKO). Sheldon took 5 damage total (HP 71/81). Bite PP: 21 -> 19. Bubblebeam PP: 15/20 (conserved).
+- **Gentleman [Turn 2994 - 3005] (2F Cabin 4 at 1, 14):**
+  - Roster: Growlithe Lv 17 (Yield: 331 EXP), Ponyta Lv 17 (Yield: 553 EXP). Total EXP: 884. Prize: ¥1190.
+  - Pre-battle: "Which do you like, a strong or a rare POKéMON?". Defeat: "GENTLEMAN: I must salute you!".
+  - Combat: Sheldon Lv 30 used Water Gun on Growlithe (OHKO). Sheldon Lv 30 used Water Gun on Ponyta (OHKO). Sheldon grew to Lv 31 (HP 74/84, Atk 56, Def 67, Spd 56, Spc 58). Declined Withdraw to preserve moveset. Water Gun PP: 25 -> 23. Bubblebeam PP: 15/20 (conserved). Bite PP: 19/25 (conserved).
 
 
 <hr>
@@ -1037,7 +1041,7 @@
   - Furniture: Desk at (20..21, 1), chair at (20, 3), bed at (23, 1..2). No items in Cabin 3.
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Occupants: Gentleman at (1, 14) (Pre-battle: "Which do you like, a strong or a rare POKéMON?"), Person at (2, 11) facing South.
+  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Person at (2, 11) facing South.
   - Object at (0, 12): Unverified sprite (to be inspected in-game).
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12).
 
