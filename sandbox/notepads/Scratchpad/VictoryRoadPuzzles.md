@@ -1,7 +1,7 @@
 # Victory Road Master Strategy & Puzzle Log
 
 ## Master Victory Road Puzzle Sequence (Verified Canonical Route)
-1. **1F Completed**: Boulder 1 pushed onto Switch (17, 13).
+1. **1F In Progress (Active Visit)**: Boulder 1 currently at (16, 13), being pushed via (16, 12) -> (17, 12) onto Switch (17, 13).
 2. **2F Master Sequence (Active Route)**:
    - Descend NW Ladder at 3F (2, 0) to 2F (1, 1).
    - Activate Strength with ATLAS from party menu.
