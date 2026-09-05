@@ -290,7 +290,8 @@
 - Pre-battle Dialogue: "My friend has a cute POKéMON. I'm so jealous!"
 - Team Size: 3 Pokémon.
 - Team:
-  - Oddish Lv 13: In progress...
+  - Oddish Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 216 EXP.
+  - Pidgey Lv 13: In progress...
 
 <hr>
 
