@@ -613,10 +613,11 @@
 - Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
 - Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
-- Western Fence Barrier (Cols 8..11, Row 15): Empirically verified on Turn 2183 that row 15 is a continuous solid wooden rail fence across columns 8..11, completely blocking northward access through column 10.
+- Western Elevation Boundary (Cols 8..11, Row 15): Impassable northbound elevation boundary. Empirically verified impassable northbound from row 16 at (10, 15) on Turn 2183 and at (9, 15) on Turn 2249.
+- Canal Northern Bank NPC (4, 12): Green-haired NPC standing on the northern bank across the canal at (4, 12), visible from the southern bank.
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
-- Eastern Ledge (Row 19, Cols 32..37): Continuous south-facing jump ledge extends across cols 32..37.
+- Eastern Elevation Boundary (Row 19, Cols 32..37): Impassable northbound elevation boundary across cols 32..37.
 - Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37. Empirically verified at (35, 27) on Turn 2236 that bollards are solid collision.
 - Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
 - Southeast Building: Located at cols 28..33, rows 24..25 with blue roof. Empirically verified on Turn 2191 that (33, 25) is solid wall (no functional entrance door).
@@ -625,7 +626,9 @@
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
 - Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
-  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Customer at (1, 3). Shop Clerk/Manager at (5, 4) with counter at (5..7, 3).
+  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 4) with counter at (5..7, 3).
+  - Pricing & Mechanics: Manager offers Bicycle for �1,000,000 (unaffordable without Bike Voucher).
+  - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28) blocking direct southern access to Route 5 without HM01 Cut.
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 - Resident NPC: Wandering citizen around (10, 21).
