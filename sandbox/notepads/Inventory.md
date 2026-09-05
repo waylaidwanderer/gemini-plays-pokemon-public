@@ -17,6 +17,7 @@
 - POKéDEX
 - S.S. TICKET
 - OLD ROD
+- BIKE VOUCHER
 
 ## Money
 - ¥10310
