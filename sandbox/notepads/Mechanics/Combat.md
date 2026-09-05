@@ -125,3 +125,13 @@
 
 ## Discovered Gen 1 Combat Mechanics
 - **Confusion & PP Deduction (Verified Turn 2434)**: In Gen 1, if a Pokémon is confused and hurts itself in confusion, the chosen move's PP is NOT deducted. Move PP is only decremented if the move is successfully executed. Empirically verified on Turn 2434 when Sheldon's move menu showed Bite at 11/25 despite two prior turns of confusion self-damage.
+
+## Route 25 - Youngster (Turn 2418-2442)
+- Position: (18, 5) (engaged via direct interaction from (17, 5)).
+- Pre-battle Dialogue: "Dad took me to a great party on S.S.ANNE at VERMILION CITY!"
+- Defeat Quote: "YOUNGSTER: I'm not mad!"
+- Team:
+  - Slowpoke Lv 17: Used Confusion (deals 5-10 damage, inflicts confusion). Defeated by Sheldon Bite (x3). Yield: 360 EXP.
+- Total EXP Yield: 360 EXP. Prize: ¥255.
+- Sheldon grew to Level 27! Max HP increased to 73 (HP: 25 / 73).
+- Sheldon Bite PP: 10 / 25.
