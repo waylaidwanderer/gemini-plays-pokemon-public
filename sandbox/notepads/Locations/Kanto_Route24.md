@@ -7,7 +7,7 @@
 ## Geography & Layout
 - Nugget Bridge: 2-tile wide golden bridge extending north across water.
 - Gauntlet of 5 trainers stationed consecutively along the bridge:
-  1. Bug Catcher (Caterpie Lv 10, Weedle Lv 10)
+  1. Bug Catcher (Caterpie Lv 14, Weedle Lv 14)
   2. Lass (Pidgey Lv 12, Oddish Lv 12, Bellsprout Lv 12)
   3. Youngster (Sandshrew Lv 14, Ekans Lv 14)
   4. Lass (Pidgey Lv 16, NidoranF Lv 16)
