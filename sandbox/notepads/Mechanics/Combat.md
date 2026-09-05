@@ -82,6 +82,7 @@
 - Trainer Rattata Lv 10: 121 EXP
 - Trainer Nidoran♂ Lv 10: 127 EXP
 - Trainer Rattata Lv 11: 133 EXP
+- Trainer Raticate Lv 16: 397 EXP
 - Trainer Weedle Lv 10: 111 EXP
 - Trainer Weedle Lv 11: 121 EXP
 - Trainer Diglett Lv 11: 190 EXP
