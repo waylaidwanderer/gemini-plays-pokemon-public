@@ -1,16 +1,14 @@
 # Mt. Moon Navigation & Exploration Scratchpad
 
+## Breakthrough Discovery
+- Tile (33, 15) is fully passable northward from Row 16 to Row 14 [Turn 1773]!
+- Exited the rows 16..18 chamber.
+
 ## Current Route Plan
 1. [x] Defeated Rocket Grunt at (29, 17) in lower B2F chamber.
-2. [x] Empirically verified boundaries of rows 16..18 chamber:
-   - South (Row 19): Impassable cliff across cols 25..35 (tested at cols 25, 30, 31, 32, 34; identical pixel structure across all cols).
-   - East (Col 35): Solid rock wall across rows 16..18 (tested blocked at 35, 16; 35, 17; 35, 18).
-   - West (Col 24): Solid rock wall across rows 16..18 (tested blocked at 24, 16; 24, 17; 24, 18).
-3. [ ] Test northern boundary (Row 15) passability from row 16:
-   - Probe (33, 15) from (33, 16).
-   - Probe (32, 15) from (32, 16).
-   - Probe adjacent row 15 tiles (34, 15), (31, 15), etc.
-4. [ ] Advance through row 14 east to column 36 to enter the eastern cavern highway leading south to the fossil chamber.
+2. [x] Discovered northern exit at (33, 15) connecting Row 16 to Row 14 [Turn 1773].
+3. [ ] Advance east along Row 14 from (33, 14) to (36, 14) and head south down the Eastern Cavern Highway (Cols 36..38).
+4. [ ] Explore southern cavern depths to locate Super Nerd Miguel, defeat him, and retrieve the fossil.
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
