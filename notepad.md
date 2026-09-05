@@ -674,7 +674,7 @@
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
 - Poké Mart: TBD
-- Cerulean Gym: TBD (Gym Leader: Misty - Water type)
+- Cerulean Gym: Located at cols 24..31, rows 16..19. Front street at row 20. Signpost at (27, 21). Leader: Misty (Water type).
 - Bike Shop: TBD
 
 <hr>
