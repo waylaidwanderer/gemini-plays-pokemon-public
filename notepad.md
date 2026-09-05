@@ -2678,16 +2678,16 @@
 
 # Victory Road Master Strategy & Puzzle Log
 
-## Floor 3F Routing & Active Sequence
-- Current Phase: Testing connectivity of Northern Highway (row 1) to NW Boulder room at (5, 5).
-- Objective: Activate Switch (3, 5) to lower Shutter (17, 5), then push SE Boulder into Pit at (23, 14).
-## Master Victory Road Puzzle Loop (Verified Turn 29512)
-1. 1F: Push Boulder 1 onto Switch (17, 13) to open 1F shutters. Climb Ladder at (1, 1) to 2F.
-2. 2F: Activate Strength, push Boulder 2 onto Switch 1 at (1, 16) to open Shutter 1 (5, 10) and Shutter 3 (21, 15).
-3. 2F -> 3F: Walk through Shutter 1, along row 8/12, through Shutter 3, along Lower Highway to Column 29, North to Row 11 Dark Plateau, and climb Ladder A at (23, 7) to 3F.
-4. 3F: Activate Strength. Walk along Northern Highway (row 1) to NW Room. Push NW Boulder onto Switch (3, 5) (Down 1 to (5, 6), Left 2 to (3, 6), Up 1 onto (3, 5)). This opens Shutter (17, 5).
-5. 3F -> 2F: Walk through Shutter (17, 5) to SE Room. Push Boulder into Pit at (23, 15), then jump into Pit.
-6. 2F Exit: Boulder lands on 2F. Push boulder onto 2F exit switch plate, opening the final shutter. Jump down ledge at (23, 14) and climb ladder to Indigo Plateau!
+## Master Victory Road Puzzle Loop (Verified Turn 29710)
+1. 1F: Push Boulder 1 onto Switch (17, 13) to open 1F shutters. Climb Ladder at (1, 1) to 2F. [COMPLETED!]
+2. 2F: Push Boulder 2 onto Switch 1 at (1, 16) to open Shutter 1 (5, 10) and Shutter 3 (21, 15). [COMPLETED!]
+3. 2F NW Access: Climb 2F NW Ladder at (1, 1) to arrive in 3F NW Room at (2, 0).
+4. 3F NW Switch: In NW Room, push NW Boulder (5, 5) onto Switch (3, 5) (Down 1 to (5, 6), Left 2 to (3, 6), Up 1 onto (3, 5)). This opens Shutter (17, 5) permanently!
+5. 3F -> 2F: Descend 3F NW Ladder (2, 0) to 2F (1, 1). Walk across 2F through opened Shutters to Ladder A (23, 7).
+6. 3F SE Room: Climb Ladder A to 3F (23, 7). Walk through opened Shutter (17, 5) to SE Room.
+7. Pit Drop: In SE Room, push boulder into Pit at (23, 14), then jump into Pit.
+8. 2F Exit: Boulder lands on 2F. Push boulder onto 2F exit switch plate, opening final shutter. Jump down ledge at (23, 14) and climb ladder to Indigo Plateau!
+
 
 <hr>
 
@@ -2761,6 +2761,8 @@
 - The Pit / Hole: Located at (23, 14) in SE Lower Purple Room.
 
 ## Physical Features & Topography
+- Column 14 Barrier (Empirically Verified Turn 29710): Column 14 (x=14, y=0..5) is a solid continuous rock wall completely blocking east-west traversal between Upper Dark Plateau (cols 15-28) and Western Sector (cols 0-13). Row 0/1 does NOT connect to the NW Room.
+- NW Room Access Protocol: The NW Room (Switch (3, 5) and NW Boulder (5, 5)) must be accessed exclusively via 2F NW Ladder at (1, 1) <-> 3F NW Ladder at (2, 0).
 - Upper Dark Plateau (rows 0-11, cols 19-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder 1 at (22, 3). Separated from lower floor by impassable south-facing cliff wall between row 11 and 12.
 - Northern Highway (Rows 0-1): Continuous open floor spanning across columns 6 through 25.
 - Central Bridge (Column 6): Spans rows 0-6. Empirically verified on Turn 28794 that Central Bridge (cols 6-7, rows 0-6) dead-ends at row 6 against south-facing cliff walls (row 7) and impassable solid rock wall along column 8 (rows 2-9). Pushing Boulder 1 (22, 3) down Central Bridge traps it; the bridge does NOT connect to the lower purple floor.
