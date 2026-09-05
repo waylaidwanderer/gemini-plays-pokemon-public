@@ -31,10 +31,16 @@
 - Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
 - Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
 
-- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ¥390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
+- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ï¿½390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
 - Super Nerd Miguel: Defeated (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12). Stationed at (12, 8) facing South down column 12.
 - Ground Artifact (13, 6): HELIX FOSSIL (Claimed by player).
 - Ground Artifact (12, 6): DOME FOSSIL (Claimed by Super Nerd Miguel).
+
+### Northern Exit Corridor (Cols 9..16, Rows 2..4)
+- 3-tile high horizontal corridor extending west from col 16 past col 9.
+- North boundary: solid rock wall at rows 0..1.
+- East boundary: rock wall at col 17.
+- South boundary: rock wall at row 5, with opening at cols 12..13 connecting south into Fossil Chamber.

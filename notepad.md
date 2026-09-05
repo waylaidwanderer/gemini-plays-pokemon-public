@@ -616,6 +616,11 @@
 - Ground Artifact (13, 6): HELIX FOSSIL (Claimed by player).
 - Ground Artifact (12, 6): DOME FOSSIL (Claimed by Super Nerd Miguel).
 
+### Northern Exit Corridor (Cols 9..16, Rows 2..4)
+- 3-tile high horizontal corridor extending west from col 16 past col 9.
+- North boundary: solid rock wall at rows 0..1.
+- East boundary: rock wall at col 17.
+- South boundary: rock wall at row 5, with opening at cols 12..13 connecting south into Fossil Chamber.
 
 <hr>
 
