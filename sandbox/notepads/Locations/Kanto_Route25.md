@@ -15,5 +15,6 @@
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
-- Trainer 4 at (18, 5): Youngster stationed at (18, 5) facing West.
-- Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.- Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
+- Trainer 4 at (18, 5): Youngster stationed at (18, 5) (engaged via direct interaction).
+- Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
+- Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
