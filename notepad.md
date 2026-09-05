@@ -611,7 +611,8 @@
 10. [x] Descend Ladder (21, 17) to main B2F cavern; caught wild Paras Lv 10 (FUNGI) [Turn 1666-1675].
 11. [x] Tested northern passage at (20, 5); verified cols 18..19 and row 4 are impassable.
 12. [x] Empirically tested (19, 16) - confirmed impassable cliff ridge.
-13. [ ] Explore east along row 14 past col 25 toward eastern B2F passage.
+13. [x] Row 14 explored to col 28; blocked to east by rock pillar (29..30, 12..15).
+14. [ ] Hop ledge at (27, 15) into southern B2F cavern to engage Rocket Grunt (29, 17).
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
