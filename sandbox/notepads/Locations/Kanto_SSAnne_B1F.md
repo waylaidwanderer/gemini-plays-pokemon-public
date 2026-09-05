@@ -13,5 +13,5 @@
 ## Cabins
 - Cabin 1: Entrance at (9, 11) in B1F main hallway. Interior doorway at (2..3, 5).
   - Interior bounds: Cols 0..3, Rows 0..5.
-  - Occupants: Sailor at (1, 2) facing South.
+  - Occupants: Sailor at (1, 2) ("In all my travels I've never seen any POKéMON sleep like this one! It was something like this!" -> shows Snorlax No. 143 Pokédex entry).
   - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
