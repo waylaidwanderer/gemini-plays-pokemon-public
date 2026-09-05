@@ -46,3 +46,11 @@
 - Sheldon Lv 22 Water Gun vs Shellder Lv 16: ~40% max HP damage.
 - Jr. Trainer (Female) Goldeen Lv 19: Peck deals 5 HP damage (7 HP at -1 Def). Tail Whip lowers Def 1 stage. Defeat yield: 451 EXP. Prize: ¥380.
 - Sheldon Lv 22 Tackle vs Goldeen Lv 19: ~25% max HP damage (~12-14 HP), critical hit deals ~35-40% max HP (~18-20 HP).
+
+## Rival RED Battle (Route 24 Entrance - Turns 2284-2296)
+- Opponent Team: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17.
+- Pidgeotto Lv 18: Gust deals 8 HP damage to Sheldon (Defense 52). Bubblebeam deals ~80% HP on hit 1; hit 2 defeats. Yield: 435 EXP.
+- Abra Lv 15: Low physical Defense (~12). Sheldon Bite deals 49+ damage (OHKO). Yield: 234 EXP.
+- Rattata Lv 15: Sheldon Bubblebeam deals 69 damage (OHKO). Yield: 183 EXP.
+- Bulbasaur Lv 17: Used Growl (-1 Attack). Sheldon Bite deals ~23 damage on hit 1, ~17 damage at -1 Attack on hit 2 (2HKO). Yield: 232 EXP.
+- Total EXP Yield: 1,084 EXP. Prize: ¥595.
