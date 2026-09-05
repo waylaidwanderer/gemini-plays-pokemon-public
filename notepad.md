@@ -59,7 +59,7 @@
 - WARTORTLE (Nickname: SHELDON) [Lv 28, Water]
   - Status: Healthy
   - HP: 46 / 76
-  - Stats: Attack 48, Defense 59, Speed 48, Special 50
+  - Stats: Attack 50, Defense 61, Speed 50, Special 52
   - Moves: Bite (PP 7/25), Tail Whip (PP 30/30), Bubblebeam (PP 10/20), Water Gun (PP 13/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
@@ -847,5 +847,7 @@
   - Row 4-5: Trees at (31, 4..5) and (28..29, 7..9). Open grass at cols 28..30 (rows 4..5).
   - Row 6: Open grass corridor cols 27..32+ passing south of trees at (31, 4..5).
   - Alcove Access to (22, 2) Item Ball: Open path via (23, 7) -> (23, 5) -> (24, 5) -> (24, 3) -> (22, 2).
+- Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South guarding the entrance path to Sea Cottage.
+- Sea Cottage (Bill's House): Located at northeast end of Route 25 (cols 37..41+, rows 1..3). Front door located along row 3/4 east of column 37.
 
 <hr>

@@ -22,7 +22,7 @@
 - WARTORTLE (Nickname: SHELDON) [Lv 28, Water]
   - Status: Healthy
   - HP: 46 / 76
-  - Stats: Attack 48, Defense 59, Speed 48, Special 50
+  - Stats: Attack 50, Defense 61, Speed 50, Special 52
   - Moves: Bite (PP 7/25), Tail Whip (PP 30/30), Bubblebeam (PP 10/20), Water Gun (PP 13/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
