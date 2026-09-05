@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Wartortle (SHELDON) Lv 30, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
+- Active Team: Wartortle (SHELDON) Lv 31, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
 - Money: ¥14430
 - Pokédex: 5 Caught / 15 Seen
 
@@ -72,10 +72,10 @@
 - ¥14430
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 30, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 31, Water]
   - Status: Healthy
-  - HP: 71 / 81
-  - Stats: Attack 54, Defense 65, Speed 54, Special 56
+  - HP: 74 / 84
+  - Stats: Attack 56, Defense 67, Speed 56, Special 58
   - Moves: Bite (PP 19/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 23/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
