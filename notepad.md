@@ -208,6 +208,9 @@
 - Level 8 Caught Stats: Max HP 26, Attack 19, Defense 22, Speed 9, Special 11
 - Moves: Tackle (PP 35/35)
 - EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
+- Cerulean Gym Combat Bounds:
+  - Swimmer Horsea Lv 16 Bubble vs Sheldon (Water type, Special 41): 2 HP damage.
+  - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage.
 
 <hr>
 
