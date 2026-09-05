@@ -3,7 +3,7 @@
 ## Ladders & Exits
 - NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room
 - Ladder A (from 2F (23, 7)): Arrival tile at (23, 7) on upper plateau from 2F (23, 7). (Note: Descent from 3F (23, 7) is not bidirectional; use Ladder NE at (27, 7) or Ladder B at (25, 14) to descend).
-- Ladder NE (to 2F): Located at (27, 7) (accessed from Upper Dark Plateau via row 6). Note: Row 10 is a solid wall blocking northward traversal along column 29 from (29, 11).
+- Ladder NE (to 2F): Located at (27, 7) in an isolated northeastern corridor (rows 7-9, cols 25-29) bounded by solid rock walls at row 6 and row 10.
 - Ladder B (to 2F SE): Located at (25, 14) in SE Lower Purple Room
 - The Pit / Hole: Located at (23, 14) in SE Lower Purple Room.
 
