@@ -144,7 +144,7 @@
 
 ## Cerulean Gym Combat Bounds
 - Leader Misty Staryu Lv 18: Tackle deals 4 HP damage to Sheldon (neutral Defense 50). Uses X DEFEND when HP is critical. Sheldon Lv 23 Tackle deals ~30-35% max HP damage (Critical hit deals ~55% max HP damage). Defeat yield: 408 EXP.
-- Leader Misty Starmie Lv 21: Tackle deals 6 HP damage to Sheldon (neutral Defense 50). Uses X DEFEND. Sheldon Tail Whip lowers Starmie Def 1 stage.
+- Leader Misty Starmie Lv 21: Tackle deals 6 HP damage (critical hit 10 HP damage) to Sheldon (neutral Defense 50). Uses X DEFEND. Sheldon Tail Whip lowers Starmie Def 1 stage.
 - Swimmer Horsea Lv 16 Bubble vs Sheldon (Water type, Special 41): 2 HP damage.
 - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage. Defeat yield: 283 EXP.
 - Swimmer Shellder Lv 16: Tackle deals 4 HP damage (critical hit 6 HP). Defeat yield: 331 EXP. Prize: ¥80.
