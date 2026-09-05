@@ -8,8 +8,9 @@
 5. [x] Ascended Eastern Avenue to row 15; verified (25, 15) is inert floor.
 6. [x] Navigated to row 10, took col 30 into Northern Highway, reached Ladder (17, 11).
 7. [x] Descended Ladder (17, 11) to B1F transit corridor (Turn 1584).
-8. [ ] Traverse B1F corridor west to Ladder (17, 11) and descend to B2F.
-9. [ ] Explore B2F depths and retrieve prehistoric fossil.
+8. [x] Descended to B2F entrance plateau at (25, 9).
+9. [ ] Descend into lower B2F cavern via col 31-34 bypass and explore westward.
+10. [ ] Defeat fossil researcher (Super Nerd) and retrieve prehistoric fossil.
 6. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
