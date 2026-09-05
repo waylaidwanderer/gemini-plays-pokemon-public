@@ -128,6 +128,8 @@
 - Level 22 Stats: Max HP 61, Attack 39, Defense 48, Speed 39, Special 41
 - Level 23 Stats: Max HP 63, Attack 41, Defense 50, Speed 41, Special 42
 - Level 24 Stats: Max HP 66, Attack 43, Defense 52, Speed 43, Special 44
+- Level 25 Stats: Max HP 68, Attack 43, Defense 52, Speed 43, Special 44
+- Level 26 Stats: Max HP 71, Attack 46, Defense 56, Speed 47, Special 48
 - Moves:
   - Bite (Normal, Physical, Power 60, Accuracy 100%, 10% flinch, PP 25/25)
   - Tail Whip (Normal, Status, Lowers Defense 1 stage, Accuracy 100%, PP 30/30)
@@ -170,7 +172,7 @@
 - Caterpie Lv 14: Defeated in 1 hit by Bubblebeam (Critical Hit). Yield: 159 EXP.
 - Weedle Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 156 EXP.
 - Sheldon grew to Level 25! Max HP increased to 68 (Current HP: 60 / 68).
-- Total EXP: 315 EXP.
+- Total EXP: 315 EXP. Prize: �140.
 
 ## Route 24 Nugget Bridge - Lass (Turn 2314-2319)
 - Position: (10, 28) facing South.
@@ -716,17 +718,19 @@
 ## Geography & Layout
 - Nugget Bridge: 2-tile wide golden bridge extending north across water along columns 10 and 11.
 - Bridge Gauntlet: 5 trainers stationed consecutively along the bridge corridor.
-  - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310.
+  - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310. Prize: �140.
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
   - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
   - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
   - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!". Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
   - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15). Defeated Turn 2367. Prize: ¥450.
 ## Northern Section (North of Nugget Bridge)
-- Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
-- Row 10 Bollard Barrier: Wooden/stone bollards spanning (12..15, 10) enclosing southeast lawn (cols 13..15, rows 11..15).
-- Row 7 Jump Ledge: South-facing one-way ledge spanning columns 7..12 at row 7. Bounded by corner at (13, 7).
-- Row 8 East-West Thoroughfare: Wide open corridor spanning row 8 connecting western grass to eastern Route 25 passage.
-- Northeast Avenue (Cols 14..15+, Rows 6..8): Open path leading north and east toward Route 25.
+- Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8 (empirically traversed).
+- Row 10 Bollard Barrier: Stone bollards spanning (12..18+, 10) enclosing southeast lawn.
+- Row 7 Elevation Boundary: Brown elevation ridge spanning columns 7..12 at row 7 with corner post at (13, 7). Walkability/jump mechanics unverified.
+- Row 8 Corridor: Open pale mint corridor spanning row 8 (cols 10..18+ empirically verified walkable).
+- Northern Corridor (Cols 14..15, Rows 4..8): Open 2-tile wide pale mint path heading north between column 13 cliff wall and column 16 rocky cliff.
+- Eastern Avenue (Rows 8..9, Cols 14..18+): Open pale mint corridor extending east toward Route 25.
+- Item Ball at (10, 5): Pok� Ball item visible on western elevated plateau north of row 7 ridge.
 
 <hr>
