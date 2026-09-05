@@ -135,3 +135,13 @@
 - Total EXP Yield: 360 EXP. Prize: ¥255.
 - Sheldon grew to Level 27! Max HP increased to 73 (HP: 25 / 73).
 - Sheldon Bite PP: 10 / 25.
+
+## Route 25 - Lass Haley (Turn 2448-2458)
+- Position: (18, 8) facing North.
+- Pre-battle Dialogue: "Hi! My boy friend is cool!"
+- Defeat Quote: "LASS: I was in bad condition!"
+- Team:
+  - Nidoran♂ Lv 15: Used Poison Sting (deals 2 damage, inflicts poison). Defeated by Sheldon Water Gun (x2). Yield: 192 EXP.
+  - Nidoran♀ Lv 15: Defeated in 1 hit by Sheldon Bubblebeam (Critical Hit). Yield: 189 EXP.
+- Total EXP Yield: 381 EXP. Prize: ¥225.
+- Sheldon HP: 23 / 73 (Poisoned). Bubblebeam PP: 11 / 20, Water Gun PP: 17 / 25.

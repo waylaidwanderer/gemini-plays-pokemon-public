@@ -246,6 +246,15 @@
 - Sheldon grew to Level 27! Max HP increased to 73 (HP: 25 / 73).
 - Sheldon Bite PP: 10 / 25.
 
+## Route 25 - Lass Haley (Turn 2448-2458)
+- Position: (18, 8) facing North.
+- Pre-battle Dialogue: "Hi! My boy friend is cool!"
+- Defeat Quote: "LASS: I was in bad condition!"
+- Team:
+  - Nidoran♂ Lv 15: Used Poison Sting (deals 2 damage, inflicts poison). Defeated by Sheldon Water Gun (x2). Yield: 192 EXP.
+  - Nidoran♀ Lv 15: Defeated in 1 hit by Sheldon Bubblebeam (Critical Hit). Yield: 189 EXP.
+- Total EXP Yield: 381 EXP. Prize: ¥225.
+- Sheldon HP: 23 / 73 (Poisoned). Bubblebeam PP: 11 / 20, Water Gun PP: 17 / 25.
 
 <hr>
 
@@ -797,7 +806,7 @@
 - Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
 - Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
-- Trainer 5 at (18, 8): Lass stationed at (18, 8). Pre-battle: "Hi! My boy friend is cool!". Team: 2 Pokémon.
+- Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 - Trainer 6 at (23, 9): Hiker stationed in southeastern corridor.
 
