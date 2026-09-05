@@ -166,9 +166,12 @@
   - Ekans Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
 - Total EXP Yield: 357 EXP. Prize: ¥280.
 - Sheldon HP: 23 / 73 (Healthy). Bite PP: 8 / 25, Bubblebeam PP: 10 / 20, Water Gun PP: 14 / 25.
-## Route 25 - Youngster (Turn 2509-Present)
+## Route 25 - Youngster (Turn 2509-2516)
 - Position: (32, 3) facing West. Sight range: 3 tiles (engaged at (29, 3)).
 - Pre-battle Dialogue: "I knew I had to fight you!"
+- Defeat Quote: "YOUNGSTER: I knew I'd lose too!"
 - Team:
   - Ekans Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
-  - Sandshrew Lv 14: In progress...
+  - Sandshrew Lv 14: Defeated in 1 hit by Sheldon Water Gun (Super Effective). Yield: 279 EXP.
+- Total EXP Yield: 465 EXP. Prize: ¥210.
+- Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 7 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
