@@ -1,9 +1,1 @@
-{
-  "route_planner": {
-    "agent_name": "route_planner",
-    "agent_description": "Analyzes town layouts, map connections, and route topography to determine optimal navigation paths and progression milestones.",
-    "agent_system_prompt": "You are an expert navigator for Pokémon Blue. Your task is to analyze map layouts, obstacles, building coordinates, and elevation ledges to provide clear, step-by-step navigation recommendations based on verified in-game geometry.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_location\": {\"type\": \"string\"}, \"destination\": {\"type\": \"string\"}, \"map_context\": {\"type\": \"string\"}}, \"required\": [\"current_location\", \"destination\", \"map_context\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_path\": {\"type\": \"string\"}, \"landmarks\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"risks_or_barriers\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"recommended_path\", \"landmarks\", \"risks_or_barriers\"]}"
-  }
-}
+{}
