@@ -605,17 +605,16 @@
 # Mt. Moon Navigation & Exploration Scratchpad
 
 ## Current Route Plan
-15. [x] Tested East at (35, 16) - confirmed blocked [Turn 1704].
-16. [x] Stepped Left onto (25, 18) [passable].
-17. [x] Tested Left onto (24, 18) [blocked by rock wall].
-18. [x] Verified Paras (FUNGI) stats and move Scratch in party menu [Turn 1721].
-19. [x] Tested (25, 19) directly south - confirmed impassable cliff boundary [Turn 1736].
-20. [x] Advanced east along row 18 from (29, 18) to (34, 18) [Turn 1744].
-21. [x] Tested East at (35, 18) - confirmed blocked rock wall [Turn 1744].
-22. [x] Tested East at (35, 17) - confirmed blocked rock wall [Turn 1746].
-23. [x] Visited (25, 16) [passable floor]; tested Left into (24, 16) - confirmed blocked wall [Turn 1753].
-24. [x] Visited (25, 17) [passable floor]; tested Left into (24, 17) - confirmed blocked wall [Turn 1755].
-25. [ ] Advance east along row 18 to (30, 18) and test southern chute at (30, 19) and (31, 19).
+1. [x] Defeated Rocket Grunt at (29, 17) in lower B2F chamber.
+2. [x] Empirically verified boundaries of rows 16..18 chamber:
+   - South (Row 19): Impassable cliff across cols 25..35 (tested at cols 25, 30, 31, 32, 34; identical pixel structure across all cols).
+   - East (Col 35): Solid rock wall across rows 16..18 (tested blocked at 35, 16; 35, 17; 35, 18).
+   - West (Col 24): Solid rock wall across rows 16..18 (tested blocked at 24, 16; 24, 17; 24, 18).
+3. [ ] Test northern boundary (Row 15) passability from row 16:
+   - Probe (33, 15) from (33, 16).
+   - Probe (32, 15) from (32, 16).
+   - Probe adjacent row 15 tiles (34, 15), (31, 15), etc.
+4. [ ] Advance through row 14 east to column 36 to enter the eastern cavern highway leading south to the fossil chamber.
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
