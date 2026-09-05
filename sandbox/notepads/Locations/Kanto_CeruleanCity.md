@@ -5,11 +5,11 @@
 - North: Route 24 entrance at (20..21, 5..6).
 
 ## Geography & Layout
-- Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym, empirically verified impassable on Turns 2213-2214.
-- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings. Empirically verified on Turn 2195 that (17, 15) is solid collision.
+- Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
+- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
 - Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
-- Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11 (verified at (10, 15) on Turn 2183 and (9, 15) on Turn 2249), but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street (empirically verified on Turn 2276).
+- Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11, but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street.
 - Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
 - Canal Northern Bank Landmark (4, 11): Northern cave/mouth structure at (4, 11) with green-haired NPC at (4, 12).
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
@@ -17,7 +17,7 @@
 - Eastern Elevation Boundary (Row 19, Cols 32..37): Impassable northbound elevation boundary across cols 32..37.
 - Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37. Empirically verified at (35, 27) on Turn 2236 that bollards are solid collision.
 - Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
-- Southeast Building: Located at cols 28..33, rows 24..25 with blue roof. Empirically verified on Turn 2191 that (33, 25) is solid wall (no functional entrance door).
+- Southeast Building: Located at cols 28..33, rows 24..25 with blue roof.
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
@@ -38,9 +38,9 @@
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
-- Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21) verified on Turn 1955: "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
+- Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
   - Interior: Entrance mat at (4..5, 13). Central pool spanning rows 9..11 with central pier at cols 4..5. Left statue at (3, 10..11), right statue at (6, 10..11). Gym Guide stationed at (7, 10).
-  - Gym Guide Advice (verified Turn 1979): Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
+  - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
   - Gym Trainers:
     - Swimmer (male) on central pier: Horsea Lv 16 (283 EXP), Shellder Lv 16 (331 EXP). Prize: ¥80. Defeated Turn 2005.
     - Jr. Trainer ♀ on northern platform at (4, 3): Goldeen Lv 19 (451 EXP). Prize: ¥380. Defeated Turn 2016.

@@ -44,7 +44,7 @@
 - Row 10 Corridor (Cols 42..61, Rows 10..12): Open grass corridor bordered to the north by row 9 ledge and south by row 13 ledge.
 - Row 9 Ledge Gap: Located at (61, 9). Passable gap allows walking North from row 10 up onto row 8.
 - Row 13 Ledge Gap: Located at (53, 13). Passable gap allows walking North from row 14 directly up into row 12.
-- Eastern Row 13 Ramp/Gap: Located at (77, 13). Empirically verified walkable tile on Turn 2264 connecting row 12 and row 14.
+- Eastern Row 13 Ramp/Gap: Located at (77, 13). connecting row 12 and row 14.
 - Lower Corridor (Cols 42..61, Rows 14..15): Bounded by row 13 south-facing ledge to the north. Walkable red flower bed at cols 42..47, open grass at cols 48..61.
 - Row 8 Bypass: Open grass path at row 8 bypassing the col 62 tree line (which only blocks rows 9..15).
-- Lower Corridor Boundaries: Solid rock wall at col 41 (verified at (41, 15)); solid water/shoreline at row 16 (verified at (44, 16) and (61, 16)); column 75 tree line extends rows 9..13 only (rows 14..15 are completely open grass connecting the bridge pocket to the western lower corridor).
+- Lower Corridor Boundaries: Solid rock wall at col 41; solid water/shoreline at row 16; column 75 tree line extends rows 9..13 only (rows 14..15 are completely open grass connecting the bridge pocket to the western lower corridor).
