@@ -536,6 +536,7 @@
 
 ## Connections
 ### Southern Section (Entrance Ladder 13, 27 Area)
+- Architectural Note: On Turn 1792, this section was empirically verified to connect seamlessly to B2F main cavern corridors without any map transitions. For unified geographic mapping of this floor, refer to Locations/Kanto_MtMoon_Basement2.md.
 - Ladder (15, 27): Ascending ladder leading back to Mt. Moon 1F at (13, 27).
 
 ### Central Transit Corridor (1F Ladder 17, 11 Area)
@@ -610,10 +611,10 @@
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
-- Super Nerd Miguel: Stationed at (12, 8) facing South down column 12. Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12.
-- Ground Artifact (12, 6): DOME FOSSIL (Kabuto).
-- Ground Artifact (13, 6): HELIX FOSSIL (Omanyte).
-- Exit Route: Post-battle passage leading to Route 4 exit ladder behind the fossils.
+- Super Nerd: Stationed at (12, 8) facing South down column 12. Challenged player with 3 Pok�mon (Lead: Grimer Lv 12 witnessed).
+- Ground Artifact (12, 6): Uninspected prehistoric fossil / stone artifact.
+- Ground Artifact (13, 6): Uninspected prehistoric fossil / stone artifact.
+
 
 <hr>
 
@@ -629,7 +630,6 @@
 - [ ] Defeat Super Nerd Miguel and claim a prehistoric fossil.
 - [ ] Proceed to Route 4 exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
-- 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor / entrance plateau)
 - 1F Ladder (5, 5) <-> B1F (5, 5) (Northwest transit corridor)
 
