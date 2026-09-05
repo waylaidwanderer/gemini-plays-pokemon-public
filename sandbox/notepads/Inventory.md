@@ -33,4 +33,4 @@
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
-  - Moves: Scratch, Stun Spore, Leech Life (TBC)
+  - Moves: Pending menu verification (Lv 10 wild catch)
