@@ -23,3 +23,4 @@
 - [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
 - [x] Catch wild Geodude in Mt. Moon [Turn 1197]
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
+- [x] Exit Mt. Moon to Route 4 [Turn 1865]
