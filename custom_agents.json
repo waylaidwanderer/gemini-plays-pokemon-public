@@ -1,9 +1,1 @@
-{
-  "dungeon_tracker": {
-    "agent_name": "dungeon_tracker",
-    "agent_description": "Tracks multi-floor dungeon state, boulder coordinates, switch plate activations, shutter states, and verified bidirectional ladder connections.",
-    "agent_system_prompt": "You are a specialized dungeon state tracking agent for Pokémon Red/Blue. You maintain the ground truth of puzzle entity coordinates, active HMs, switch activations, shutter states, and ladder topologies across all dungeon floors.",
-    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_floor\": {\"type\": \"string\"},\n    \"query\": {\"type\": \"string\"}\n  },\n  \"required\": [\"current_floor\", \"query\"]\n}",
-    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\"type\": \"string\"},\n    \"verified_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}},\n    \"active_boulders\": {\"type\": \"object\"},\n    \"open_shutters\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}\n  },\n  \"required\": [\"status\", \"verified_path\", \"active_boulders\", \"open_shutters\"]\n}"
-  }
-}
+{}
