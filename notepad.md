@@ -276,6 +276,10 @@
   - Ekans Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
 - Total EXP Yield: 357 EXP. Prize: ¥280.
 - Sheldon HP: 23 / 73 (Healthy). Bite PP: 8 / 25, Bubblebeam PP: 10 / 20, Water Gun PP: 14 / 25.
+## Route 25 - Youngster (Turn 2509-Present)
+- Position: (32, 3) facing West. Sight range: 3 tiles (engaged at (29, 3)).
+- Pre-battle Dialogue: "I knew I had to fight you!"
+- Team: In progress...
 
 <hr>
 
