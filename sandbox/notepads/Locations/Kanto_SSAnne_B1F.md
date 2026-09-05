@@ -5,15 +5,17 @@
 
 ## Geography & Layout
 - Main Corridor: 2-tile wide hallway running east-west along rows 4..5 from col 27 heading West with yellow striped carpet.
-- North Wall (Row 3): Wall features blue plus emblems at (24, 3), (26, 3), plain wall panels at (25, 3), (27, 3), and an object/doorway structure at (23, 3).
+- North Wall (Row 3): Wall features red cabin doors at odd columns spaced 4 tiles apart: (23, 3), (19, 3), (15, 3), (11, 3), (7, 3). Blue plus emblems at even columns (18, 20, 22, 24, 26).
 - South Wall (Row 6): Solid continuous wall bordering the corridor to the south.
 - East Boundary: Solid wall and void east of col 27.
 - Stairs Warp Tile: Player spawns at (27, 5) facing Down when descending from 1F.
 
 ## Cabins & Exploration (In Progress)
-- Current Objective: Explore westward along rows 4..5 from the stairs at (27, 5).
+- Cabin 1 (Eastern Cabin): Entrance at (23, 3), door approach at (23, 4).
+- Cabin 2: Entrance at (19, 3), door approach at (19, 4).
+- Remaining Cabins: Expected at (15, 3), (11, 3), (7, 3).
 - Key Targets on B1F:
   - TM44 (Rest) item ball.
   - Useful recovery items (Super Potion, Ether).
   - Sailor trainer battles for EXP to level up Rocky (Geodude) and Sheldon (Wartortle).
-- Route: Walk West along row 5, inspect all doors and structures along rows 3 and 6.
+- Current Action: Entering Cabin 1 at (23, 3).
