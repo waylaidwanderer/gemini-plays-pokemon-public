@@ -13,12 +13,12 @@
 - Northern Tall Grass Field: Extends across cols 8..13, rows 14..18+.
 - Western North-South Highway (Cols 4..5, Rows 12..17+): 2-tile wide paved road running south toward Vermilion City, completely bypassing the tall grass field.
 - Central Cross-Plaza (Rows 20..21, Cols 4..14+): Continuous paved clearing connecting western highway to eastern passage.
-- Trainer (10, 21): Jr. Trainer ♂ (Ricky) facing West along row 21.
-- Trainer (11, 21): Jr. Trainer ♀ (Nancy) facing West along row 21.
+- Trainer (10, 21): Jr. Trainer â (Ricky) facing West along row 21.
+- Trainer (11, 21): Jr. Trainer â (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
-- Trainer (19, 26): Bug Catcher Elijah (1 Pokémon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
+- Trainer (19, 26): Bug Catcher Elijah (1 PokÃ©mon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
-- Trainer (11, 30): Jr. Trainer ♀ [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
-- Trainer (11, 31): Jr. Trainer ♂ [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
+- Trainer (11, 30): Jr. Trainer â [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
+- Trainer (11, 31): Jr. Trainer â [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
