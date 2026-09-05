@@ -512,7 +512,6 @@
 - Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
 
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
-- Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
 
@@ -571,7 +570,7 @@
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: �360.
 - Boulder: Isolated rock at (33, 9).
-- Main Cavern Connectivity: Passage to lower B2F cavern does not originate from this plateau. Access to main B2F must originate from 1F.
+- Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. Further routing under investigation.
 
 
 <hr>
@@ -585,16 +584,23 @@
 2. [x] Enter Mt. Moon 1F via cave entrance (Turn 1482).
 3. [x] Defeat Super Nerd (24, 31) in Eastern Avenue (Turn 1519).
 4. [x] Collect Ground Item at (35, 31): RARE CANDY (Turn 1526).
-5. [x] Ascended Eastern Avenue to row 15; verified (25, 15) is inert floor.
-6. [x] Navigated to row 10, took col 30 into Northern Highway, reached Ladder (17, 11).
-7. [x] Descended Ladder (17, 11) to B1F transit corridor (Turn 1584).
-8. [x] Descended to B2F entrance plateau at (25, 9).
-9. [x] Empirically scouted B2F entrance plateau; verified isolated by cliffs and rock walls.
-10. [ ] Ascend Ladder (25, 9) through B1F to 1F at (17, 11).
-11. [ ] Navigate on 1F to Ladder (21, 17) to access main B2F cavern.
-12. [ ] Retrieve prehistoric fossil in basement depths.
+5. [x] Scouted Eastern Avenue and northern 1F corridors; verified (25, 15) is inert floor.
+6. [x] Sighted descending Ladder at (21, 17) on 1F.
+7. [ ] Defeat Youngster at (14, 16) on 1F (Turn 1621 concluding).
+8. [ ] Proceed south down column 15 to row 22 East-West Cross Corridor.
+9. [ ] Explore eastward to column 21 and descend Ladder (21, 17), or explore west.
+10. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
+
 ## Party & Inventory Status
+- Active Team: Wartortle (SHELDON) Lv 20 (HP 49/56), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
+- Funds: ~�1731 (after Youngster victory)
+- Key Supplies: Rare Candy x1, Escape Rope x1, Potion x3, Antidote x3, Pok� Ball x2, TM12, TM34
+- Sheldon Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 19/25)
+
 ## 3D Cavern Hypothesis & Ladder Graph
+- 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
+- 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor)
+- 1F Ladder (21, 17) <-> Unexplored descent
 
 
 <hr>
