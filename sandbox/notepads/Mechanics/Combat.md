@@ -67,3 +67,10 @@
 - Pidgey Lv 14: Defeated in 1 hit by Bite. Yield: 165 EXP.
 - Nidoran♀ Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 177 EXP.
 - Total EXP: 342 EXP. Prize: ¥210.
+
+## Route 24 Nugget Bridge - Youngster (Turn 2321-2327)
+- Position: (11, 25) facing West.
+- Rattata Lv 14: Defeated in 1 hit by Bite. Yield: 171 EXP.
+- Ekans Lv 14: Defeated in 1 hit by Bite. Yield: 186 EXP.
+- Zubat Lv 14: Defeated in 1 hit by Bite. Yield: 162 EXP.
+- Total EXP: 519 EXP.
