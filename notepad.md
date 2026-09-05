@@ -66,7 +66,7 @@
   - Status: Healthy
   - HP: 66 / 79
   - Stats: Attack 52, Defense 63, Speed 52, Special 54
-  - Moves: Bite (PP 20/25), Tail Whip (PP 30/30), Bubblebeam (PP 17/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 20/25), Tail Whip (PP 30/30), Bubblebeam (PP 16/20), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -778,6 +778,6 @@
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
 - Trainer (11, 30): Jr. Trainer ♀ (3 Pokémon). Approached to (10, 30). Pre-battle dialogue: "Me? Well, OK. I'll play!".
-- Trainer (11, 31): Jr. Trainer ♂ (2 Pokémon). Approached to (10, 31) when player stepped to (9, 31). Pre-battle dialogue: "Huh? You want to talk to me?".
+- Trainer (11, 31): Jr. Trainer ♂ (2 Pokémon: Spearow Lv 16, Raticate Lv 16). Approached to (10, 31) when player stepped to (9, 31). Pre-battle dialogue: "Huh? You want to talk to me?".
 
 <hr>
