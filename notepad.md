@@ -5,7 +5,7 @@
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
 - Active Team: Wartortle (SHELDON) Lv 21, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥2081
+- Money: ¥2561
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -46,14 +46,14 @@
 - POKéDEX
 
 ## Money
-- ¥2081
+- ¥2561
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 21, Water]
   - Status: Healthy
-  - HP: 51 / 58
+  - HP: 37 / 58
   - Stats: Attack 38, Defense 46, Speed 38, Special 39
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 16/25)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 14/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -591,7 +591,8 @@
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
-- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
+- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
+- Southern Cavern Corridor (Cols 26..34+, Rows 16..18): Wide 3-tile high open cave corridor running east below the central rock formation and ledges.
 
 
 <hr>
@@ -614,13 +615,14 @@
 11. [x] Tested northern passage at (20, 5); verified cols 18..19 and row 4 are impassable.
 12. [x] Empirically tested (19, 16) - confirmed impassable cliff ridge.
 13. [x] Row 14 explored to col 28; blocked to east by rock pillar (29..30, 12..15).
-14. [ ] Hop ledge at (27, 15) into southern B2F cavern to engage Rocket Grunt (29, 17).
+14. [x] Hopped ledge at (27, 15) into southern B2F cavern; defeated Rocket Grunt (29, 17) [Raticate Lv 16, ¥480].
+15. [ ] Explore Southern Cavern Corridor east along row 16 past col 30.
 
 ## Party & Inventory Status
-- Active Team: Wartortle (SHELDON) Lv 21 (HP 51/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
-- Funds: ¥2081
+- Active Team: Wartortle (SHELDON) Lv 21 (HP 37/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
+- Funds: ¥2561
 - Key Supplies: Rare Candy x1, Escape Rope x1, Potion x3, Antidote x3, TM12, TM34 (Poké Balls depleted)
-- Sheldon Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 16/25)
+- Sheldon Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 14/25)
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
