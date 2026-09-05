@@ -4,6 +4,7 @@
 - West: Route 4 eastern bridge at (0, 18..19).
 
 ## Geography & Layout
+- Central Lawn Fence (Cols 22..23, Row 17): Solid wooden rail fence bounding the lawn between Pokémon Center and Gym, empirically verified impassable on Turn 2145.
 - Northern Corridor Hypothesis (Cols 8..11, Rows 14..18): Open north-south thoroughfare between western canal (cols 0..6) and Northwest House (cols 12..15); currently exploring northward to verify if it connects to Route 24 or terminates.
 - Eastern Corridor (Cols 32..37, Rows 19..21): Street running east past Gym. At row 19, a continuous south-facing jump ledge blocks northward movement from the south (one-way drop-down from northern district).
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
