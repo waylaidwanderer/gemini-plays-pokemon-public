@@ -11,7 +11,7 @@
 - Northern Highway (Rows 0-1): Continuously open from Column 27 west through Column 13 and beyond! Row 1 connects directly across all northern columns, while Row 2 (Purple Chamber) is separated from Row 1 by a solid cliff/wall.
 - NW Room Access: Directly connected to Central Bridge (Columns 6-7) at rows 6-8 and Northern Highway (Row 1), as well as 2F NW Ladder (1, 1) <-> 3F (2, 0).
 - Upper Dark Plateau (rows 0-11, cols 15-28): Contains Ladder A (23, 7), Ladder NE (27, 7), and connects via southern corridor (row 11) to column 28/29.
-- Central Bridge (Columns 6-7): Spans rows 0-15 continuously! Empirically verified on Turns 30026-30028 that Column 7 connects from Row 1 directly south into rows 6-8 (NW room entrance at cols 5-6) and connects further south across rows 11-15 to the Row 16 Lower Highway.
+- Central Bridge (Columns 6-7): Spans rows 0-6 connecting Northern Highway (Row 1) south to NW Room and Row 6 cross-corridor.
 - Central Corridor (Columns 9-10): Vertical corridor spanning rows 2-10 (terminates at (10, 10)). Row 10 connects west to (8, 10) (adjacent to Switch Plate at (3, 5)).
 - Purple Chamber (rows 2-4, cols 14-18): Connected west to central corridor via row 2 (cols 9-18). Separated from Northern Highway by solid north wall at row 2, and blocked to the south by rock walls and Shutter at (17, 5).
 - SE Lower Purple Floor (rows 12-14, cols 10-26): Accessible via 2F Ladder B at (25, 14). Contains Boulder 3 at (13, 12), the Pit at (23, 14), and Ladder B at (25, 14).
@@ -24,7 +24,7 @@
 ## Northern Highway Branch Corridors & Scout Checklist
 - Column 17: Open 1-tile gap at row 4 connecting rows 1-3 to rows 6-11 (Upper Dark Plateau & Ladder A arrival).
 - Columns 9-10: North wall at row 2 separates row 1 Northern Highway from Purple Chamber.
-- Columns 6-7 (Central Bridge): Spans rows 0-6; dead-ends at row 6 against south cliff wall and column 8 rock wall.
+- Columns 6-7 (Central Bridge): Spans rows 0-6 connecting Northern Highway (Row 1) south to NW Room and Row 6 cross-corridor.
 - Columns 0-5 (Far West Room): Contains NW Boulder at (5, 5) and Switch Plate at (3, 5).
 
 ## Verified Master 3F NW Boulder Solution to Switch (3, 5) (VERIFIED Turn 29241)
