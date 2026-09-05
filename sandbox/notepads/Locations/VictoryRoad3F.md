@@ -8,6 +8,8 @@
 - The Pit / Hole: Located at (23, 14) in SE Lower Purple Room.
 
 ## Physical Features & Topography
+- Column 14 Barrier (Empirically Verified Turn 29710): Column 14 (x=14, y=0..5) is a solid continuous rock wall completely blocking east-west traversal between Upper Dark Plateau (cols 15-28) and Western Sector (cols 0-13). Row 0/1 does NOT connect to the NW Room.
+- NW Room Access Protocol: The NW Room (Switch (3, 5) and NW Boulder (5, 5)) must be accessed exclusively via 2F NW Ladder at (1, 1) <-> 3F NW Ladder at (2, 0).
 - Upper Dark Plateau (rows 0-11, cols 19-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder 1 at (22, 3). Separated from lower floor by impassable south-facing cliff wall between row 11 and 12.
 - Northern Highway (Rows 0-1): Continuous open floor spanning across columns 6 through 25.
 - Central Bridge (Column 6): Spans rows 0-6. Empirically verified on Turn 28794 that Central Bridge (cols 6-7, rows 0-6) dead-ends at row 6 against south-facing cliff walls (row 7) and impassable solid rock wall along column 8 (rows 2-9). Pushing Boulder 1 (22, 3) down Central Bridge traps it; the bridge does NOT connect to the lower purple floor.
