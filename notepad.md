@@ -31,6 +31,9 @@
 - [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
 - [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
 - [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
+- [ ] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City
+- [ ] Traverse Route 5 and Underground Path to Vermilion City
+- [ ] Board the S.S. Anne in Vermilion City to obtain HM01 Cut
 
 <hr>
 
