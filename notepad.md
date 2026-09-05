@@ -2749,6 +2749,20 @@
      - Push Left 2: Boulder at (1, 16) [ON SWITCH 1!], Player at (2, 16).
 - Outcome: Switch 1 at (1, 16) activated! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened.
 
+## Optimal Column 4 Master Boulder 2 Solution (Verified Turn 29079)
+- Note: Strength expires on floor transitions and must be re-cast upon arriving on 2F!
+- Starting State: Boulder 2 at default (4, 14). Player at (4, 13). Strength active.
+- Optimal Push Sequence:
+  1. Stand at (4, 13) facing South -> Push Down 2 times:
+     - Push Down 1: Boulder 2 to (4, 15), Player to (4, 14).
+     - Push Down 2: Boulder 2 to (4, 16), Player to (4, 15).
+  2. Reposition around to (5, 16) via Right to (5, 15) -> Down to (5, 16) [facing West].
+  3. Stand at (5, 16) facing West -> Push Left 3 times along Row 16:
+     - Push Left 1: Boulder 2 to (3, 16), Player to (4, 16).
+     - Push Left 2: Boulder 2 to (2, 16), Player to (3, 16).
+     - Push Left 3: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
+- Outcome: Switch 1 at (1, 16) activated! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened!
+
 <hr>
 
 <h1><code>Locations/VictoryRoad3F</code></h1>
