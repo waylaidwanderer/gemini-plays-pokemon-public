@@ -9,3 +9,8 @@
 - Counter passage at (3..4, 6).
 - NPC at (2, 3).
 - Descending Stairs: Located at (4, 4), leading down into the Underground Path tunnel.
+## Underground Tunnel (North-South Corridor)
+- Spawn Position: (5, 4) facing South below the northern stairs.
+- Tunnel Width: 4 tiles wide (Cols 2..5). Bounded by solid walls at Col 1 (West) and Col 6 (East).
+- North Wall: Row 2.
+- Environment: Completely straight corridor heading South toward Route 6 exit. No wild encounters.
