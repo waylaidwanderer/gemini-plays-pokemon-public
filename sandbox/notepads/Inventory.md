@@ -12,6 +12,7 @@
 - HELIX FOSSIL x1
 - NUGGET x1
 - TM28 (DIG) x1
+- TM08 (BODY SLAM) x1
 
 ## Key Items
 - POKéDEX

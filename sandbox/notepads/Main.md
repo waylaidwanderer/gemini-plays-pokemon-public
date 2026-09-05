@@ -35,4 +35,5 @@
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
+- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
 - [ ] Obtain HM01 Cut from the Captain of the S.S. Anne
