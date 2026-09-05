@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 30, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥12225
+- Money: ¥12820
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -68,14 +68,14 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥12225
+- ¥12820
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 30, Water]
   - Status: Healthy
   - HP: 76 / 81
   - Stats: Attack 54, Defense 65, Speed 54, Special 56
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 21/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -172,6 +172,10 @@
   - Roster: Pidgey Lv 18 (Yield: 211 EXP), Nidoran♀ Lv 18 (Yield: 226 EXP). Prize: ¥270.
   - Pre-battle: "I collected these POKéMON from all around the world!". Defeat: "Oh no! I went around the world for these!".
   - Combat: Pidgey used Quick Attack (dealt 5 dmg, Sheldon HP 79 -> 74/79). Sheldon Lv 29 used Bubblebeam (OHKO). Sheldon used Bubblebeam on Nidoran♀ (OHKO). Sheldon grew to Lv 30 (HP 76/81, Atk 54, Def 65, Spd 54, Spc 56). Bubblebeam PP: 17 -> 15.
+- **Fisherman Dale [Turn 2964 - 2977] (2F Cabin 2 at 13, 4):**
+  - Roster: Goldeen Lv 17 (Yield: 403 EXP), Tentacool Lv 17 (Yield: 382 EXP), Goldeen Lv 17 (Yield: 403 EXP). Prize: ¥595.
+  - Pre-battle: "Check out what I fished up!". Defeat: "FISHERMAN: I'm all out!".
+  - Combat: Sheldon Lv 30 used Bite on Goldeen 1 (dealt ~75%, Goldeen flinched). Sheldon used Bite on Goldeen 1 (OHKO). Sheldon used Bite on Tentacool (OHKO). Sheldon used Bite on Goldeen 2 (dealt ~75%, Goldeen used Tail Whip). Sheldon used Bite on Goldeen 2 (OHKO). Sheldon took 0 damage (HP 76/81). Bite PP: 25 -> 21. Bubblebeam PP: 15/20 (conserved).
 
 
 <hr>
@@ -1021,7 +1025,7 @@
   - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
 - Cabin 2: Entrance at (13, 11) in 2F main hallway. Interior doorway at (12..13, 5).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Occupants: Fisherman at (13, 4), Sailor at (10, 2) facing South.
+  - Occupants: Fisherman Dale at (13, 4) [Defeated, Turn 2977] (Roster: Goldeen Lv 17, Tentacool Lv 17, Goldeen Lv 17; Prize: ¥595), Sailor at (10, 2) facing South.
   - Target: Object at (12, 1).
 
 
