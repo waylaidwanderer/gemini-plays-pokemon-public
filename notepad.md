@@ -2752,7 +2752,6 @@
 - Trainer (Blackbelt) at (4, 2).
 - Elevated checkerboard platform spans cols 1-3 (rows 2-4) and cols 2-7 (rows 6-7).
 - Boulder gate at (5, 5), pushed south to (5, 6) connects row 4/5 light purple floor to checkerboard platform (cols 4-7, rows 6-7).
-- Row 8 Light Purple Highway (cols 5-14, row 8) is directly accessible from (5, 7) -> (5, 8).
 - 1F Ladder at (0, 8) connects to west corridor (cols 0-4).
 
 ## Shutter 1 & Elevation Verification (Turn 30515)
