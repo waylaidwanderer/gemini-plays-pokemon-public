@@ -40,6 +40,7 @@
 - TM12 (WATER GUN) x1
 - POTION x3
 - ANTIDOTE x3
+- RARE CANDY x1
 
 ## Key Items
 - POKéDEX
@@ -485,6 +486,8 @@
 - Ground Item (5, 32): TM12 (WATER GUN) collected.
 
 - Ground Item (2, 20): POTION collected.
+- Ground Item (35, 31): RARE CANDY collected in far southeast cavern pocket.
+- Southeast Pocket (Cols 30..37, Rows 28..34): Open cavern ending at eastern rock wall at col 38.
 
 - East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east-west south of the Northern Boundary Wall, passing behind Bug Catcher (16, 23) and connecting Eastern Avenue (col 21) west into Western Cavern Corridor.
 
