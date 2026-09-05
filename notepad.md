@@ -618,7 +618,8 @@
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
-- Southern Green (Cols 5..10, Rows 20..22): Grassy lawn with south street branch at cols 6..7.
+- Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
+- Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (12, 25).
 - Resident NPC: Wandering citizen around (10, 21).
 
 ## Key Buildings & Facilities
