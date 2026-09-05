@@ -10,7 +10,8 @@
 21. [x] Tested East at (35, 18) - confirmed blocked rock wall [Turn 1744].
 22. [x] Tested East at (35, 17) - confirmed blocked rock wall [Turn 1746].
 23. [x] Visited (25, 16) [passable floor]; tested Left into (24, 16) - confirmed blocked wall [Turn 1753].
-24. [ ] Step Down to (25, 17) and test Left into (24, 17) to check for passage to Ladder (21, 17).
+24. [x] Visited (25, 17) [passable floor]; tested Left into (24, 17) - confirmed blocked wall [Turn 1755].
+25. [ ] Advance east along row 18 to (30, 18) and test southern chute at (30, 19) and (31, 19).
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
