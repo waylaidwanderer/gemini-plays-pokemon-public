@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x0 (Depleted)
+- POKé BALL x10
 - ESCAPE ROPE x1
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
@@ -15,7 +15,7 @@
 - POKéDEX
 
 ## Money
-- ¥3251
+- ¥1251
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 22, Water]
