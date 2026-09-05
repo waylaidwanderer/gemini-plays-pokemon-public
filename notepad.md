@@ -2793,7 +2793,6 @@
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
 - Column 10 Connectivity: Row 1 above column 10 is separated from lower rows by a south-facing cliff wall; cannot walk south between row 1 and row 2 at column 10.
 - Boulder 1 at (22, 3): Positioned on upper dark plateau.
-- Boulder 2 at (24, 10): Positioned on upper dark plateau.
 
 
 <hr>
