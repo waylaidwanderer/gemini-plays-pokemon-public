@@ -85,3 +85,10 @@
 - Position: (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!".
 - Mankey Lv 18: Defeated in 1 hit by Bubblebeam. Yield: 285 EXP.
 - Total EXP: 285 EXP. Prize: ¥360.
+## Route 24 Nugget Bridge - Team Rocket Recruiter (Turn 2356-2367)
+- Position: (11, 15) facing West.
+- Received NUGGET before battle.
+- Ekans Lv 15: Used Wrap (2 damage/turn). Defeated by Water Gun (x2, critical hit). Yield: 198 EXP.
+- Sheldon grew to Level 26! Max HP increased to 71 (HP: 59 / 71).
+- Zubat Lv 15: Defeated in 1 hit by Bite (Critical Hit). Yield: 172 EXP.
+- Total EXP: 370 EXP. Prize: ¥450.

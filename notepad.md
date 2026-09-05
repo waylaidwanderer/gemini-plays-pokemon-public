@@ -59,7 +59,7 @@
   - Status: Healthy
   - HP: 59 / 71
   - Stats: Attack 46, Defense 56, Speed 47, Special 48
-  - Moves: Bite (PP 16/25), Tail Whip (PP 30/30), Bubblebeam (PP 12/20), Water Gun (PP 23/25)
+  - Moves: Bite (PP 15/25), Tail Whip (PP 30/30), Bubblebeam (PP 12/20), Water Gun (PP 23/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -194,6 +194,13 @@
 - Position: (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!".
 - Mankey Lv 18: Defeated in 1 hit by Bubblebeam. Yield: 285 EXP.
 - Total EXP: 285 EXP. Prize: ¥360.
+## Route 24 Nugget Bridge - Team Rocket Recruiter (Turn 2356-2367)
+- Position: (11, 15) facing West.
+- Received NUGGET before battle.
+- Ekans Lv 15: Used Wrap (2 damage/turn). Defeated by Water Gun (x2, critical hit). Yield: 198 EXP.
+- Sheldon grew to Level 26! Max HP increased to 71 (HP: 59 / 71).
+- Zubat Lv 15: Defeated in 1 hit by Bite (Critical Hit). Yield: 172 EXP.
+- Total EXP: 370 EXP. Prize: ¥450.
 
 <hr>
 
@@ -713,6 +720,6 @@
   - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
   - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
   - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!". Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
-  - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15).
+  - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15). Defeated Turn 2367. Prize: ¥450.
 
 <hr>
