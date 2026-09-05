@@ -62,7 +62,7 @@
 - Caterpie Lv 14: Defeated in 1 hit by Bubblebeam (Critical Hit). Yield: 159 EXP.
 - Weedle Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 156 EXP.
 - Sheldon grew to Level 25! Max HP increased to 68 (Current HP: 60 / 68).
-- Total EXP: 315 EXP. Prize: ¥140.
+- Total EXP: 315 EXP. Prize: Â¥140.
 
 ## Route 24 Nugget Bridge - Lass (Turn 2314-2319)
 - Position: (10, 28) facing South.
@@ -101,4 +101,4 @@
 - Team:
   - Machop Lv 15: Used Karate Chop (5 damage). Defeated by Sheldon Water Gun (x2). Yield: 282 EXP.
   - Geodude Lv 15: Defeated in 1 hit by Water Gun (Super Effective). Yield: 276 EXP.
-- Total EXP: 558 EXP. Prize: ¥525.
+- Total EXP: 558 EXP. Prize: Â¥525.

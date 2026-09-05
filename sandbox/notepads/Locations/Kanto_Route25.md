@@ -11,9 +11,9 @@
 - Shrub Barrier (8, 7): Dense shrub at (8, 7) blocking sightline south from (8, 4).
 - Corridor 1 (Col 9, Rows 4..8): Open grass connector linking row 8 avenue north to rows 4..7.
 - Row 7 Tree Gap (Cols 10..11, Row 7): 1-tile wide east-west grass corridor between trees at (10..11, 6) and (10, 8..9).
-- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: �525.
+- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: ¥525.
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Youngster stationed at (13, 7) facing East.
-- Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South (engaged Turn 2395, 2 Pokémon).
+- Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South.
 - Trainer 4 at (18, 5): Lass / Jr. Trainer ♀ stationed at (18, 5) facing West.
 - Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
