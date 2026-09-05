@@ -20,7 +20,9 @@
 - Pokémon Center Interior: Entrance mat at (3, 7) and (4, 7); Nurse Joy counter at (3, 2); PC in northeast corner at (11, 4); NPC at (5, 4).
 - NPC (14, 6): Kid in green shirt.
 - NPC (21, 7): Woman in orange dress.
-- Eastern North-South Boulevard: Open paved thoroughfare spanning cols 16..20 from row 4 heading south past row 9.
+- Eastern North-South Boulevard: Open paved thoroughfare spanning cols 18..21 from row 4 heading south past row 13.
+- Central Building: Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South.
+- Western Cross Passage: Open paved ground at cols 12..13, rows 12..13 connecting west below the water inlet.
 - Poké Mart: To be located.
 - Vermilion Gym: Located south/southwest behind a Cut tree.
 - Pokémon Fan Club: To be located.
