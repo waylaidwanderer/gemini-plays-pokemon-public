@@ -915,7 +915,9 @@
   - Interior bounds: Cols 20..23, Rows 1..5.
   - NPC at (22, 1..2).
   - Table at (20..21, 5), bed at (23, 4..5).
-- Cabin 3: Entrance at (15, 8) in 1F main hallway.
+- Cabin 3: Entrance at (15, 8) in 1F main hallway. Interior doorway at (0, 10).
+  - Interior bounds: Cols 0..3, Rows 11..15.
+  - Girl at (2, 11), Pikachu at (3, 11), Sailor at (0, 14).
 - Cabin 4: Entrance at (11, 8) in 1F main hallway.
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
 
