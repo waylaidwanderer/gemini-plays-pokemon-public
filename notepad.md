@@ -301,6 +301,15 @@
   - Oddish Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 216 EXP.
 - Total EXP Yield: 585 EXP. Prize: ¥195.
 - Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 4 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
+- **Battle Menu Move Cursor Memory (Verified Turns 2434 & 2607)**: In Gen 1, within the same battle, the move menu cursor ALWAYS remains on the last selected move rather than resetting to Move 1 (top). Selecting moves in combat must account for the current cursor position or visually verify the move menu before inputting selection confirmations.
+
+## Cerulean City Robbed House - Team Rocket Grunt (Turn 2600-2609)
+- Opponent: Team Rocket Grunt at (30, 8) in backyard.
+- Machop Lv 17: Defeated in 1 hit by Sheldon Bubblebeam (STAB Special). Yield: 319 EXP.
+- Drowzee Lv 17: Bubblebeam deals ~75% HP; Drowzee used move that didn't affect Sheldon; hit 2 Bubblebeam defeats. Yield: 370 EXP.
+- Total EXP Yield: 689 EXP. Prize: ¥510.
+- Reward Item: TM28 (DIG).
+- Sheldon HP: 76 / 76 (0 damage taken). Bubblebeam PP: 18 / 20.
 
 <hr>
 
@@ -854,7 +863,7 @@
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
 - Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
 - Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
-- Item Ball at (22, 2): Poké Ball on northern plateau at (22, 2). Enclosed by tree line (col 21) and bounded by Cut tree at (26, 3) and Jr. Trainer ♂ at (24, 4).
+- Item Ball at (22, 2): Poké Ball on northern plateau at (22, 2). Enclosed by tree line (col 21) and bounded by shrub at (26, 3) and Jr. Trainer ♂ at (24, 4).
 - Shrub at (26, 3): Small shrub (possible Cut tree, unverified collision/interaction) blocking direct access from (26, 4) into northern corridor (cols 22..26, row 2).
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
 - Trainer 7 at (24, 4): Jr. Trainer ♂ stationed at (24, 4) facing South (sight range: 3 tiles). Defeated Turn 2498. Team: Rattata Lv 14, Ekans Lv 14. Prize: ¥280. Defeat Quote: "JR.TRAINER♂: Aww, darn...".

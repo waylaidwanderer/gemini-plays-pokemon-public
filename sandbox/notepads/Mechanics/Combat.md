@@ -186,3 +186,12 @@
   - Oddish Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 216 EXP.
 - Total EXP Yield: 585 EXP. Prize: ¥195.
 - Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 4 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
+- **Battle Menu Move Cursor Memory (Verified Turns 2434 & 2607)**: In Gen 1, within the same battle, the move menu cursor ALWAYS remains on the last selected move rather than resetting to Move 1 (top). Selecting moves in combat must account for the current cursor position or visually verify the move menu before inputting selection confirmations.
+
+## Cerulean City Robbed House - Team Rocket Grunt (Turn 2600-2609)
+- Opponent: Team Rocket Grunt at (30, 8) in backyard.
+- Machop Lv 17: Defeated in 1 hit by Sheldon Bubblebeam (STAB Special). Yield: 319 EXP.
+- Drowzee Lv 17: Bubblebeam deals ~75% HP; Drowzee used move that didn't affect Sheldon; hit 2 Bubblebeam defeats. Yield: 370 EXP.
+- Total EXP Yield: 689 EXP. Prize: ¥510.
+- Reward Item: TM28 (DIG).
+- Sheldon HP: 76 / 76 (0 damage taken). Bubblebeam PP: 18 / 20.
