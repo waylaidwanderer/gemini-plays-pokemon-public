@@ -21,6 +21,8 @@
 - Level 25 Stats: Max HP 68, Attack 43, Defense 52, Speed 43, Special 44
 - Level 26 Stats: Max HP 71, Attack 46, Defense 56, Speed 47, Special 48
 - Level 27 Stats: Max HP 73, Attack 48, Defense 59, Speed 48, Special 50
+- Level 28 Stats: Max HP 76, Attack 50, Defense 61, Speed 50, Special 52
+- Level 29 Stats: Max HP 79, Attack 52, Defense 63, Speed 52, Special 54
 - Moves:
   - Bite (Normal, Physical, Power 60, Accuracy 100%, 10% flinch, PP 25/25)
   - Tail Whip (Normal, Status, Lowers Defense 1 stage, Accuracy 100%, PP 30/30)
@@ -165,7 +167,7 @@
   - Rattata Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 171 EXP.
   - Ekans Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
 - Total EXP Yield: 357 EXP. Prize: ¥280.
-- Sheldon HP: 23 / 73 (Healthy). Bite PP: 8 / 25, Bubblebeam PP: 10 / 20, Water Gun PP: 14 / 25.
+
 ## Route 25 - Youngster (Turn 2509-2516)
 - Position: (32, 3) facing West. Sight range: 3 tiles (engaged at (29, 3)).
 - Pre-battle Dialogue: "I knew I had to fight you!"
@@ -174,7 +176,7 @@
   - Ekans Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
   - Sandshrew Lv 14: Defeated in 1 hit by Sheldon Water Gun (Super Effective). Yield: 279 EXP.
 - Total EXP Yield: 465 EXP. Prize: ¥210.
-- Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 7 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
+
 ## Route 25 - Lass (Turn 2522-2531)
 - Position: (37, 4) facing South. Sight range: 1 tile (engaged at (37, 5)).
 - Pre-battle Dialogue: "My friend has a cute POKéMON. I'm so jealous!"
@@ -185,7 +187,7 @@
   - Pidgey Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 153 EXP.
   - Oddish Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 216 EXP.
 - Total EXP Yield: 585 EXP. Prize: ¥195.
-- Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 4 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
+
 - **Battle Menu Move Cursor Memory (Verified Turns 2434 & 2607)**: In Gen 1, within the same battle, the move menu cursor ALWAYS remains on the last selected move rather than resetting to Move 1 (top). Selecting moves in combat must account for the current cursor position or visually verify the move menu before inputting selection confirmations.
 
 ## Cerulean City Robbed House - Team Rocket Grunt (Turn 2600-2609)
@@ -194,7 +196,7 @@
 - Drowzee Lv 17: Bubblebeam deals ~75% HP; Drowzee used move that didn't affect Sheldon; hit 2 Bubblebeam defeats. Yield: 370 EXP.
 - Total EXP Yield: 689 EXP. Prize: ¥510.
 - Reward Item: TM28 (DIG).
-- Sheldon HP: 76 / 76 (0 damage taken). Bubblebeam PP: 18 / 20.
+
 ## Route 6 - Bug Catcher Elijah (Turn 2664-2665)
 - Position: (19, 26) facing West. Engaged at (16, 26).
 - Team: Butterfree Lv 20 (1 Pokémon).

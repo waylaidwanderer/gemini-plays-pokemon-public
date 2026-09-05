@@ -18,14 +18,14 @@
 - S.S. TICKET
 
 ## Money
-- ¥9470
+- ¥9670
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 28, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 29, Water]
   - Status: Healthy
-  - HP: 76 / 76
-  - Stats: Attack 50, Defense 61, Speed 50, Special 52
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 18/20), Water Gun (PP 25/25)
+  - HP: 71 / 79
+  - Stats: Attack 52, Defense 63, Speed 52, Special 54
+  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 18/20), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
