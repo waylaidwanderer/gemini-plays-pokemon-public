@@ -1,7 +1,5 @@
 # Mt. Moon 1F Geography & Exploration
 
-
-
 ## Connections
 
 - South Exit: Warp at (14, 35) leading outside to Route 4.
@@ -9,6 +7,7 @@
 - Ladder (13, 27): Ladder descending to basement chamber (empirically verified warp).
 
 - Ladder (17, 11): Ladder in north-central corridor.
+- Ladder (21, 17): Sighted ladder in east-central cavern.
 
 
 
