@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 26, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥6745
+- Money: ¥7340
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -53,7 +53,7 @@
 - POKéDEX
 
 ## Money
-- ¥6745
+- ¥7340
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 26, Water]
@@ -222,6 +222,15 @@
   - Spearow Lv 15: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
 - Total EXP Yield: 369 EXP. Prize: ¥225.
 - Sheldon HP: 54 / 71. Bite PP: 13 / 25.
+
+## Route 25 - Hiker (Turn 2409-2416)
+- Position: (13, 7) facing East. Sight range: 2 tiles (engaged at (15, 7)).
+- Pre-battle Dialogue: "You're going to see BILL? First, let's fight!"
+- Defeat Quote: "HIKER: You're something."
+- Team:
+  - Onix Lv 17: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 393 EXP.
+- Total EXP Yield: 393 EXP. Prize: ¥595.
+- Sheldon HP: 54 / 71. Water Gun PP: 19 / 25.
 
 
 <hr>
@@ -771,7 +780,7 @@
 - Row 7 Tree Gap (Cols 10..11, Row 7): 1-tile wide east-west grass corridor between trees at (10..11, 6) and (10, 8..9).
 - Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: ¥525.
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
-- Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East.
+- Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
 - Trainer 4 at (18, 5): Lass / Jr. Trainer ♀ stationed at (18, 5) facing West.
 - Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
