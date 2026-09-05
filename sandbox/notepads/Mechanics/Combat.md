@@ -108,5 +108,5 @@
   - Swimmer Pokémon #2: Shellder Lv 16 (verified Turn 1996). Moves: Tackle (missed turn 1999, normal hit 4 damage, critical hit 6 damage to Sheldon). Defeat yield: 331 EXP.
   - Sheldon Lv 22 Water Gun vs Shellder Lv 16: ~40% max HP damage.
   - Defeated Swimmer prize money: ¥80.
-  - Jr. Trainer ♀ Goldeen Lv 19 (verified Turn 2010). Moves: Peck (deals 5 HP damage to Sheldon, Defense 48).
+  - Jr. Trainer ♀ Goldeen Lv 19 (verified Turn 2010). Moves: Peck (deals 5 HP damage to Sheldon, Defense 48), Tail Whip (lowers Defense 1 stage).
   - Sheldon Lv 22 Tackle vs Goldeen Lv 19: ~25% max HP damage (~12-14 HP).
