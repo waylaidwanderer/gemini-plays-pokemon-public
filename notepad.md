@@ -58,9 +58,9 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 26, Water]
   - Status: Healthy
-  - HP: 25 / 71
+  - HP: 9 / 71
   - Stats: Attack 46, Defense 56, Speed 47, Special 48
-  - Moves: Bite (PP 10/25), Tail Whip (PP 30/30), Bubblebeam (PP 12/20), Water Gun (PP 19/25)
+  - Moves: Bite (PP 11/25), Tail Whip (PP 30/30), Bubblebeam (PP 12/20), Water Gun (PP 19/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -231,6 +231,9 @@
   - Onix Lv 17: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 393 EXP.
 - Total EXP Yield: 393 EXP. Prize: ¥595.
 - Sheldon HP: 54 / 71. Water Gun PP: 19 / 25.
+
+## Discovered Gen 1 Combat Mechanics
+- **Confusion & PP Deduction (Verified Turn 2434)**: In Gen 1, if a Pokémon is confused and hurts itself in confusion, the chosen move's PP is NOT deducted. Move PP is only decremented if the move is successfully executed. Empirically verified on Turn 2434 when Sheldon's move menu showed Bite at 11/25 despite two prior turns of confusion self-damage.
 
 
 <hr>
