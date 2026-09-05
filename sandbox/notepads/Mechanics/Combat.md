@@ -17,6 +17,7 @@
 - Starter Squirtle Lv 5 -> Wartortle Lv 16 at Mt. Moon.
 - Level 22 Stats: Max HP 61, Attack 39, Defense 48, Speed 39, Special 41
 - Level 23 Stats: Max HP 63, Attack 41, Defense 50, Speed 41, Special 42
+- Level 24 Stats: Max HP 66, Attack 43, Defense 52, Speed 43, Special 44
 - Moves:
   - Tackle (Normal, Physical, Power 35, Accuracy 95%, PP 35/35)
   - Tail Whip (Normal, Status, Lowers Defense 1 stage, Accuracy 100%, PP 30/30)
