@@ -39,7 +39,7 @@
 - TM34 (BIDE) x1
 - TM12 (WATER GUN) x1
 - POTION x3
-- ANTIDOTE x0 (Depleted)
+- ANTIDOTE x3
 
 ## Key Items
 - POKéDEX
