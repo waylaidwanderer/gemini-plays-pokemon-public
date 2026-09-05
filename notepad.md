@@ -46,6 +46,7 @@
 - ANTIDOTE x3
 - RARE CANDY x1
 - HELIX FOSSIL x1
+- NUGGET x1
 
 ## Key Items
 - POKéDEX
