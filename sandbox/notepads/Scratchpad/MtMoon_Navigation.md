@@ -9,7 +9,8 @@
 14. [x] Hopped ledge at (27, 15) into southern B2F cavern; defeated Rocket Grunt (29, 17) [Raticate Lv 16, ¥480].
 15. [x] Tested east at (35, 16) [blocked] and south at (34, 19) and (30, 19) [blocked].
 16. [x] Stepped Left onto (25, 18) [passable!].
-17. [ ] Test step Left onto (24, 18) to connect to western corridor (col 23).
+17. [x] Tested Left onto (24, 18) [blocked].
+18. [ ] Open START menu, verify Paras (FUNGI) stats/moves, and test (25, 17) / corridor exits.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 37/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
