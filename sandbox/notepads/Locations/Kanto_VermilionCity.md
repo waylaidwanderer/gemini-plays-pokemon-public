@@ -25,7 +25,7 @@
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..13 connecting west below the water inlet.
 - Water Shoreline (South): Water covers cols 16..19 from row 18 down to row 20+.
 - Harbor Thoroughfare: Columns 20..21 form an open paved passage running south past row 20 to the docks.
-- Building Southeast: Cols 22..23+, rows 16..19 with entrance door at (23, 19).
+- House Southeast (Pidgey Letter House): Cols 22..25, rows 16..19. Entrance door at (23, 19). Interior: Girl with Pidgey sending letter to Saffron City.
 - Southwest Area: Grass and trees visible at cols 14..15, rows 18..20 (Gym entrance).
 - Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
 - Vermilion Gym: Located south/southwest behind a Cut tree.
