@@ -461,9 +461,7 @@
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (13, 27): Ladder descending to basement chamber.
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (21, 17): Sighted ladder in east-central cavern at (21, 17), accessible via column 21.
-
-
+- Ladder (25, 15): Descending ladder in Eastern Avenue at (25, 15).
 
 ## Layout & Corridors
 
@@ -515,9 +513,9 @@
 
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
 - Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
-- Inert Tile (25, 15): Tile (25, 15) in Eastern Avenue is ordinary walkable cave floor; does not trigger any map warp.
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
+
 
 <hr>
 
@@ -588,10 +586,8 @@
 2. [x] Enter Mt. Moon 1F via cave entrance (Turn 1482).
 3. [x] Defeat Super Nerd (24, 31) in Eastern Avenue (Turn 1519).
 4. [x] Collect Ground Item at (35, 31): RARE CANDY (Turn 1526).
-5. [x] Navigate through southern pocket, collected Rare Candy (35, 31).
-6. [ ] Ascend north along Eastern Avenue (cols 24-25) to row 11 corridor.
-7. [ ] Head through northern highway / alcove to Ladder (17, 11) -> B1F -> B2F.
-8. Primary Objective: Explore B2F depths and retrieve prehistoric fossil.
+5. [ ] Ascend north to Ladder (25, 15) in Eastern Avenue and descend to basement.
+6. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 20 (HP 52/56), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
@@ -601,7 +597,7 @@
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor)
-- 1F Ladder (21, 17) <-> Unexplored eastern descent (Immediate Target)
+- 1F Ladder (25, 15) <-> Unexplored eastern descent (Immediate Target)
 
 
 <hr>
