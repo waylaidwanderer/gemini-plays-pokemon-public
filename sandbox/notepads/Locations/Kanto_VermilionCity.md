@@ -23,6 +23,10 @@
 - Eastern North-South Boulevard: Open paved thoroughfare spanning cols 18..21 from row 4 heading south past row 13.
 - Central Building: Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South.
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..13 connecting west below the water inlet.
+- Water Shoreline (South): Water covers cols 16..19 from row 18 down to row 20+.
+- Harbor Thoroughfare: Columns 20..21 form an open paved passage running south past row 20 to the docks.
+- Building Southeast: Cols 22..23+, rows 16..19 with entrance door at (23, 19).
+- Southwest Area: Grass and trees visible at cols 14..15, rows 18..20 (Gym entrance).
 - Poké Mart: To be located.
 - Vermilion Gym: Located south/southwest behind a Cut tree.
 - Pokémon Fan Club: To be located.
