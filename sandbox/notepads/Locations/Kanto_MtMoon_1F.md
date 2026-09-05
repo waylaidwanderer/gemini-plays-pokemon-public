@@ -1,11 +1,8 @@
 # Mt. Moon 1F Geography & Exploration
 
 ## Connections
-
 - South Exit: Warp at (14, 35) leading outside to Route 4.
-
 - Ladder (13, 27): Ladder descending to basement chamber.
-
 - Ladder (17, 11): Ladder in north-central corridor.
 - Ladder (21, 17): Sighted ladder in east-central cavern at (21, 17), accessible via column 21.
 
@@ -58,3 +55,5 @@
 - Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
 
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
+- Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15) (collision confirmed Turn 1496). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
+- Inert Tile (25, 15): Tile (25, 15) in Eastern Avenue is ordinary walkable cave floor; does not trigger any map warp.
