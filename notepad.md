@@ -53,7 +53,7 @@
   - Status: Healthy
   - HP: 33 / 61
   - Stats: Attack 39, Defense 48, Speed 39, Special 41
-  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 8/25)
+  - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30), Bubble (PP 29/30), Water Gun (PP 7/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -612,7 +612,7 @@
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
-- Super Nerd: Stationed at (12, 8) facing South down column 12. Team: Grimer Lv 12, Voltorb Lv 12 (2 of 3 witnessed).
+- Super Nerd: Stationed at (12, 8) facing South down column 12. Team: Grimer Lv 12, Voltorb Lv 12 (2 of 3 witnessed), Koffing Lv 12.
 - Ground Artifact (12, 6): Uninspected prehistoric fossil / stone artifact.
 - Ground Artifact (13, 6): Uninspected prehistoric fossil / stone artifact.
 
