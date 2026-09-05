@@ -12,7 +12,8 @@
 17. [x] Tested Left onto (24, 18) [blocked].
 18. [x] Verified Paras (FUNGI) stats and move Scratch in party menu [Turn 1721].
 19. [x] Fled from wild Geodude battle safely [Turn 1725].
-20. [ ] Test passability of tile (25, 19) directly south to determine if row 19 is passable floor or cliff.
+20. [x] Tested (25, 19) directly south - confirmed impassable cliff boundary [Turn 1736].
+21. [ ] Walk east along row 18 to column 34 to scout eastern corridor boundaries and exits.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 37/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
