@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 32, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥17190
+- Money: ¥17700
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,7 +71,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥17190
+- ¥17700
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 32, Water]
@@ -197,6 +197,13 @@
   - Pre-battle: "Bonjour! BLUE! Imagine seeing you here!...". Defeat: "Humph! At least you're raising your POKéMON!".
   - Combat: Sheldon Lv 31 used Bubblebeam on Pidgeotto (OHKO). Sheldon used Bubblebeam on Raticate (OHKO). Sheldon used Bite on Kadabra (OHKO). Sheldon used Bite on Ivysaur, Ivysaur used Vine Whip (dealt 17 dmg, Sheldon HP 74 -> 57/84), Sheldon used Bite (Ivysaur fainted).
   - Outcome: Decisive victory. Total damage taken: 17 HP. Bubblebeam PP: 15 -> 13. Bite PP: 16 -> 14.
+
+- **Sailor [Turn 3111 - 3128] (B1F Cabin 2 at 2, 11):**
+  - Roster: Horsea Lv 17 (Yield: 301 EXP), Shellder Lv 17 (Yield: 352 EXP), Tentacool Lv 17 (Yield: 382 EXP). Total EXP: 1035 EXP. Prize: ¥510.
+  - Pre-battle: "My sailor's pride is at stake!". Defeat: "SAILOR: Your spirit sank me!".
+  - Combat: Sheldon Lv 31 used Bite on Horsea (took 1 dmg from Bubble, Sheldon grew to Lv 32). Sheldon Lv 32 used Bite on Shellder (took 3 dmg from Tackle), then Bite (Critical Hit, OHKO). Sheldon Lv 32 used Bite on Tentacool (Critical Hit, OHKO).
+  - Outcome: Decisive victory. HP: 55/86. Bite PP: 13 -> 9. Money: ¥17190 -> ¥17700.
+
 
 <hr>
 
