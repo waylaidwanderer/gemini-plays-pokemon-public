@@ -4,7 +4,7 @@
 - West: Route 4 eastern bridge at (0, 18..19).
 
 ## Geography & Layout
-- Central Lawn Fence (Cols 22..23, Row 17): Solid wooden rail fence bounding the lawn between Pokémon Center and Gym, empirically verified impassable on Turn 2145.
+- Central Lawn Fence (Cols 22..23, Row 17): Solid wooden rail fence bounding the lawn between Pokémon Center and Gym, empirically verified impassable on Turns 2213-2214.
 - Central House Gap (Cols 16..17, Rows 14..17): Rows 16..17 are walkable grass lawn. Empirically verified on Turn 2195 that (17, 15) is solid collision (impassable decorative railing/roof).
 - Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
