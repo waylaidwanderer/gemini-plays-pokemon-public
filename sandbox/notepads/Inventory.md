@@ -21,14 +21,14 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥11955
+- ¥12225
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 29, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 30, Water]
   - Status: Healthy
-  - HP: 79 / 79
-  - Stats: Attack 52, Defense 63, Speed 52, Special 54
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 17/20), Water Gun (PP 25/25)
+  - HP: 76 / 81
+  - Stats: Attack 54, Defense 65, Speed 54, Special 56
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20

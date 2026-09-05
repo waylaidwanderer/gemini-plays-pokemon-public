@@ -9,8 +9,6 @@
 - Carpet: Red/orange checkered at col 26, yellow striped at col 27.
 - Main corridor: Runs east-west at rows 6..7 (yellow striped carpet).
 - NPC at (27, 5): Waiter in green hat facing West.
-- Bypass: Col 26 checkered carpet is open from entrance to main hallway.
-- Cabins South: Entrances at (23, 8) and (31, 8).
 - Wall decor: Life preservers on north wall at (30, 5) and (32, 5).
 ## Cabins
 - Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
@@ -26,6 +24,7 @@
   - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
-  - Occupants: Lass Ann at (13, 11) [In Battle, Turn 2894] (Pre-battle: "I collected these POKéMON from all around the world!"), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
+  - Occupants: Lass Ann at (13, 11) [Defeated, Turn 2908] (Roster: Pidgey Lv 18 - 211 EXP, Nidoran♀ Lv 18 - 226 EXP, Prize: ¥270; Pre-battle: "I collected these POKéMON from all around the world!", Defeat: "Oh no! I went around the world for these!"), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
   - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
+- Cabin 5: Entrance at (7, 8) in 1F main hallway.
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).

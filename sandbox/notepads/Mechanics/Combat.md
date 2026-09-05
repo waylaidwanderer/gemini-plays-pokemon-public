@@ -18,6 +18,9 @@
 
 
 ## Boss Battle Tactics & Preparation (Audited Turn 2766)
+- **Tactical Preparation Synthesis (Turns 2881 & 2911):**
+  - **Lt. Surge Counter:** Rocky (Geodude Lv 8). Rock/Ground typing walls Electric attacks and resists Normal attacks. Plan: Train Rocky to Lv 18–21 and teach TM28 (Dig) for an effortless sweep.
+  - **Rival RED Counter:** RED's roster on S.S. Anne 2F is Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20. Sheldon (Lv 30) crushes the first three. Against Ivysaur's Grass moves, Dux (Farfetch'd Lv 5) can be trained to Lv 15–18 as a Flying-type pivot with STAB Peck, or Sheldon can overpower with Body Slam/Bite.
 - **Lt. Surge (Vermilion Gym):** Roster is Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
   - Threat: Raichu's high Special Thunderbolt threatens Water-types like Sheldon.
   - Hard Counter: Rocky (Geodude Lv 8). Rock/Ground typing provides complete immunity to Electric attacks and resistance to Normal moves (Mega Punch, Quick Attack).
@@ -41,3 +44,7 @@
 - **Youngster Tyler [Turn 2871 - 2875] (Cabin 4 at 11, 8):**
   - Roster: Nidoran♂ Lv 21 (Yield: 270 EXP). Prize: ¥315. Pre-battle: "I love POKéMON! Do you?". Defeat: "Wow! You're great!".
   - Combat: Sheldon Lv 29 used Bubblebeam (Critical Hit, OHKO). Sheldon took 0 damage (HP 79/79). Bubblebeam PP: 18 -> 17.
+- **Lass Ann [Turn 2894 - 2908] (Cabin 4 at 13, 11):**
+  - Roster: Pidgey Lv 18 (Yield: 211 EXP), Nidoran♀ Lv 18 (Yield: 226 EXP). Prize: ¥270.
+  - Pre-battle: "I collected these POKéMON from all around the world!". Defeat: "Oh no! I went around the world for these!".
+  - Combat: Pidgey used Quick Attack (dealt 5 dmg, Sheldon HP 79 -> 74/79). Sheldon Lv 29 used Bubblebeam (OHKO). Sheldon used Bubblebeam on Nidoran♀ (OHKO). Sheldon grew to Lv 30 (HP 76/81, Atk 54, Def 65, Spd 54, Spc 56). Bubblebeam PP: 17 -> 15.
