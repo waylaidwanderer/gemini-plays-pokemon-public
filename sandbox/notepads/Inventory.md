@@ -8,6 +8,7 @@
 - TM12 (WATER GUN) x1
 - POTION x3
 - ANTIDOTE x3
+- RARE CANDY x1
 
 ## Key Items
 - POKéDEX
