@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 32, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥17700
+- Money: ¥18330
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,7 +71,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥17700
+- ¥18330
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 32, Water]
@@ -203,6 +203,12 @@
   - Pre-battle: "My sailor's pride is at stake!". Defeat: "SAILOR: Your spirit sank me!".
   - Combat: Sheldon Lv 31 used Bite on Horsea (took 1 dmg from Bubble, Sheldon grew to Lv 32). Sheldon Lv 32 used Bite on Shellder (took 3 dmg from Tackle), then Bite (Critical Hit, OHKO). Sheldon Lv 32 used Bite on Tentacool (Critical Hit, OHKO).
   - Outcome: Decisive victory. HP: 55/86. Bite PP: 13 -> 9. Money: ¥17190 -> ¥17700.
+
+- **Sailor [Turn 3130 - 3136] (B1F Cabin 2 at 0, 13):**
+  - Roster: Shellder Lv 21 (Yield: 436 EXP). Prize: ¥630.
+  - Pre-battle: "You know what they say about sailors and fighting!". Defeat: "SAILOR: Right! Good fight, mate!".
+  - Combat: Sheldon Lv 32 used Bite (took 4 dmg from Tackle), then Bite (KO). Sheldon took 4 damage total (HP 51 -> 47/86). Bite PP: 8 -> 6/25.
+  - Outcome: Decisive victory. HP: 47/86. Bite PP: 6/25. Money: ¥17700 -> ¥18330.
 
 
 <hr>
@@ -1071,8 +1077,8 @@
   - Furniture: Desk/table at (10..11, 11), bunk bed at (13, 11..12). No items. Status: Cleared.
 - Cabin 2: Entrance at (19, 3) in B1F hallway, interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Occupants: Sailor 1 at (2, 11) facing South, Sailor 2 at (0, 13) facing East.
-  - Furniture: Desk at (0..1, 11), bunk bed at (3, 11..12). No item balls visible.
+  - Occupants: Sailor 1 at (2, 11) [Defeated, Turn 3128], Sailor 2 at (0, 13) [Defeated, Turn 3136].
+  - Furniture: Desk at (0..1, 11), bunk bed at (3, 11..12). No items. Status: Cleared.
 - Remaining Cabins: Expected at (15, 3), (11, 3), (7, 3).
 
 
