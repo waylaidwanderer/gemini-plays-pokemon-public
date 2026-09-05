@@ -14,3 +14,9 @@
 - Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: ¥360.
 - Boulder: Isolated rock at (33, 9).
 - Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. Further routing under investigation.
+
+### Main Cavern (Reached via Ladder 21, 17)
+- Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
+- Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
+- Northern Highway (Cols 18..22, Rows 10..13): Wide 5-tile corridor leading north toward central cavern.
+- Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
