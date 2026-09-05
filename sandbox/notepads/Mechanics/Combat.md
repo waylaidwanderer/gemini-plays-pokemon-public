@@ -104,4 +104,5 @@
 - EXP: 314 total, 105 to Lv 9 (Medium Slow experience curve: 419 EXP at Lv 9)
 - Cerulean Gym Combat Bounds:
   - Swimmer Horsea Lv 16 Bubble vs Sheldon (Water type, Special 41): 2 HP damage.
-  - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage.
+  - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage. Defeat yield: 283 EXP.
+  - Swimmer Pokémon #2: Shellder (verified Turn 1996).
