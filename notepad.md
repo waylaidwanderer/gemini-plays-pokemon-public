@@ -291,7 +291,8 @@
 - Team Size: 3 Pokémon.
 - Team:
   - Oddish Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 216 EXP.
-  - Pidgey Lv 13: In progress...
+  - Pidgey Lv 13: Defeated in 1 hit by Sheldon Bite. Yield: 153 EXP.
+  - Oddish Lv 13: In progress...
 
 <hr>
 
