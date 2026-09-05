@@ -42,3 +42,7 @@
   - Roster: Pidgey Lv 18 (Yield: 211 EXP), Nidoran♀ Lv 18 (Yield: 226 EXP). Prize: ¥270.
   - Pre-battle: "I collected these POKéMON from all around the world!". Defeat: "Oh no! I went around the world for these!".
   - Combat: Pidgey used Quick Attack (dealt 5 dmg, Sheldon HP 79 -> 74/79). Sheldon Lv 29 used Bubblebeam (OHKO). Sheldon used Bubblebeam on Nidoran♀ (OHKO). Sheldon grew to Lv 30 (HP 76/81, Atk 54, Def 65, Spd 54, Spc 56). Bubblebeam PP: 17 -> 15.
+- **Fisherman Dale [Turn 2964 - 2977] (2F Cabin 2 at 13, 4):**
+  - Roster: Goldeen Lv 17 (Yield: 403 EXP), Tentacool Lv 17 (Yield: 382 EXP), Goldeen Lv 17 (Yield: 403 EXP). Prize: ¥595.
+  - Pre-battle: "Check out what I fished up!". Defeat: "FISHERMAN: I'm all out!".
+  - Combat: Sheldon Lv 30 used Bite on Goldeen 1 (dealt ~75%, Goldeen flinched). Sheldon used Bite on Goldeen 1 (OHKO). Sheldon used Bite on Tentacool (OHKO). Sheldon used Bite on Goldeen 2 (dealt ~75%, Goldeen used Tail Whip). Sheldon used Bite on Goldeen 2 (OHKO). Sheldon took 0 damage (HP 76/81). Bite PP: 25 -> 21. Bubblebeam PP: 15/20 (conserved).
