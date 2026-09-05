@@ -18,6 +18,8 @@
 - Level 22 Stats: Max HP 61, Attack 39, Defense 48, Speed 39, Special 41
 - Level 23 Stats: Max HP 63, Attack 41, Defense 50, Speed 41, Special 42
 - Level 24 Stats: Max HP 66, Attack 43, Defense 52, Speed 43, Special 44
+- Level 25 Stats: Max HP 68, Attack 43, Defense 52, Speed 43, Special 44
+- Level 26 Stats: Max HP 71, Attack 46, Defense 56, Speed 47, Special 48
 - Moves:
   - Bite (Normal, Physical, Power 60, Accuracy 100%, 10% flinch, PP 25/25)
   - Tail Whip (Normal, Status, Lowers Defense 1 stage, Accuracy 100%, PP 30/30)
@@ -60,7 +62,7 @@
 - Caterpie Lv 14: Defeated in 1 hit by Bubblebeam (Critical Hit). Yield: 159 EXP.
 - Weedle Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 156 EXP.
 - Sheldon grew to Level 25! Max HP increased to 68 (Current HP: 60 / 68).
-- Total EXP: 315 EXP.
+- Total EXP: 315 EXP. Prize: ¥140.
 
 ## Route 24 Nugget Bridge - Lass (Turn 2314-2319)
 - Position: (10, 28) facing South.
