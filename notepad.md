@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 26, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥6520
+- Money: ¥6745
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -53,7 +53,7 @@
 - POKéDEX
 
 ## Money
-- ¥6520
+- ¥6745
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 26, Water]
@@ -212,6 +212,16 @@
   - Machop Lv 15: Used Karate Chop (5 damage). Defeated by Sheldon Water Gun (x2). Yield: 282 EXP.
   - Geodude Lv 15: Defeated in 1 hit by Water Gun (Super Effective). Yield: 276 EXP.
 - Total EXP: 558 EXP. Prize: ¥525.
+
+## Route 25 - Youngster (Turn 2392-2408)
+- Position: (14, 2) facing South. Sight range: 2 tiles (engaged at (14, 4)).
+- Pre-battle Dialogue: "Local trainers come here to practice!"
+- Defeat Quote: "YOUNGSTER: You're decent."
+- Team:
+  - Rattata Lv 15: Defeated in 1 hit by Sheldon Bite. Yield: 183 EXP.
+  - Spearow Lv 15: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
+- Total EXP Yield: 369 EXP. Prize: ¥225.
+- Sheldon HP: 54 / 71. Bite PP: 13 / 25.
 
 
 <hr>
@@ -762,7 +772,7 @@
 - Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: ¥525.
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Youngster stationed at (13, 7) facing East.
-- Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South.
+- Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
 - Trainer 4 at (18, 5): Lass / Jr. Trainer ♀ stationed at (18, 5) facing West.
 - Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
 
