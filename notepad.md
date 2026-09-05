@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 27, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥7340
+- Money: ¥7595
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -53,7 +53,7 @@
 - POKéDEX
 
 ## Money
-- ¥7340
+- ¥7595
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 27, Water]
@@ -235,6 +235,16 @@
 
 ## Discovered Gen 1 Combat Mechanics
 - **Confusion & PP Deduction (Verified Turn 2434)**: In Gen 1, if a Pokémon is confused and hurts itself in confusion, the chosen move's PP is NOT deducted. Move PP is only decremented if the move is successfully executed. Empirically verified on Turn 2434 when Sheldon's move menu showed Bite at 11/25 despite two prior turns of confusion self-damage.
+
+## Route 25 - Youngster (Turn 2418-2442)
+- Position: (18, 5) (engaged via direct interaction from (17, 5)).
+- Pre-battle Dialogue: "Dad took me to a great party on S.S.ANNE at VERMILION CITY!"
+- Defeat Quote: "YOUNGSTER: I'm not mad!"
+- Team:
+  - Slowpoke Lv 17: Used Confusion (deals 5-10 damage, inflicts confusion). Defeated by Sheldon Bite (x3). Yield: 360 EXP.
+- Total EXP Yield: 360 EXP. Prize: ¥255.
+- Sheldon grew to Level 27! Max HP increased to 73 (HP: 25 / 73).
+- Sheldon Bite PP: 10 / 25.
 
 
 <hr>
@@ -786,7 +796,7 @@
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
-- Trainer 4 at (18, 5): Youngster stationed at (18, 5) (engaged via direct interaction).
+- Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
 - Trainer 5 at (18, 8): Trainer stationed at (18, 8) facing North.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 
