@@ -28,6 +28,6 @@
   - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
 - Cabin 5: Entrance at (7, 8) in 1F main hallway. Interior doorway at (20, 10).
   - Interior bounds: Cols 20..23, Rows 10..15.
-  - Occupants: NPC at (20, 13).
+  - Occupants: Global Police agent at (21, 13) ("Ssh! I'm a GLOBAL POLICE agent! I'm on the trail of TEAM ROCKET!").
   - No item balls visible.
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
