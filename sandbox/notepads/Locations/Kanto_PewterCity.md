@@ -64,3 +64,5 @@
 - PC: Located at (10, 0) in the northeast alcove.
 - Couch NPC (0, 4): Jigglypuff trainer sitting at table. Dialogue: "When JIGGLYPUFF sings, POKéMON get drowsy...".
 - Pokémon (1, 3): Jigglypuff standing next to trainer at (0, 4).
+## Route 3 Border Connection
+- Eastern Exit Corridor (Rows 16..19, Cols 32..39): 4-tile wide east-west thoroughfare connecting directly to Route 3. Passes the notice signpost at (33, 19). Fully passable at (32..33, 18).
