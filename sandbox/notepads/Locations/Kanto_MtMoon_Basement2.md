@@ -33,3 +33,9 @@
 
 - Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: ¥390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
+
+### Fossil Chamber (Rows 5..10, Cols 8..16)
+- Super Nerd Miguel: Stationed at (12, 8) facing South down column 12. Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12.
+- Ground Artifact (12, 6): DOME FOSSIL (Kabuto).
+- Ground Artifact (13, 6): HELIX FOSSIL (Omanyte).
+- Exit Route: Post-battle passage leading to Route 4 exit ladder behind the fossils.
