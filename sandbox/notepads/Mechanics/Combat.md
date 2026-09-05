@@ -37,3 +37,7 @@
 - **Gentleman [Turn 2842 - 2850] (Cabin 1 at 11, 4):**
   - Roster: Nidoran♂ Lv 19 (Yield: 243 EXP), Nidoran♀ Lv 19 (Yield: 240 EXP). Prize: ¥1330.
   - Combat: Sheldon Lv 29 used Bubblebeam on Nidoran♂ (Critical Hit, OHKO). Sheldon Lv 29 used Bubblebeam on Nidoran♀ (OHKO). Sheldon took 0 damage (HP 79/79). Bubblebeam PP: 20 -> 18.
+
+- **Youngster Tyler [Turn 2871 - 2875] (Cabin 4 at 11, 8):**
+  - Roster: Nidoran♂ Lv 21 (Yield: 270 EXP). Prize: ¥315. Pre-battle: "I love POKéMON! Do you?". Defeat: "Wow! You're great!".
+  - Combat: Sheldon Lv 29 used Bubblebeam (Critical Hit, OHKO). Sheldon took 0 damage (HP 79/79). Bubblebeam PP: 18 -> 17.
