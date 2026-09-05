@@ -65,7 +65,9 @@
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
-  - Moves: Pending menu verification (Lv 10 wild catch)
+  - HP: 29 / 29
+  - Stats: Attack 21, Defense 16, Speed 11, Special 18
+  - Moves: Pending Page 2 inspection
 
 <hr>
 
