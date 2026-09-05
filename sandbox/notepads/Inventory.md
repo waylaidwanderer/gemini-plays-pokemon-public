@@ -16,6 +16,7 @@
 ## Key Items
 - POKéDEX
 - S.S. TICKET
+- OLD ROD
 
 ## Money
 - ¥10310

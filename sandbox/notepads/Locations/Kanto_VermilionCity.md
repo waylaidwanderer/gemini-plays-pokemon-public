@@ -13,7 +13,7 @@
 - Northern Building East: Cols 20..23, rows 0..3.
 - Cut Trees: Visible at (24, 3).
 - Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
-- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center. Interior: Guru at (2, 4) facing South; entrance mat at (2..3, 7).
+- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Northern House (West): Building at cols 14..17, rows 0..3.
 - Water Inlet: Shoreline begins at (7..9, 6) south of Pokémon Center, expanding across cols 7..15 at row 8.
 - Northern Cross Street: Paved street spanning cols 11..24 along row 4.
