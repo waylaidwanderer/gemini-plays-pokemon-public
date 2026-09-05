@@ -61,4 +61,4 @@
 - Trainer (11, 30): Jr. Trainer ♀ [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
 
 
-- Trainer (11, 31): Jr. Trainer ♀ [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
+- Trainer (11, 31): Jr. Trainer ♂ [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
