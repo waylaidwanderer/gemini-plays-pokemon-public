@@ -13,3 +13,9 @@
   - Trainer 4: Lass stationed at (10, 22) facing North (engaged Turn 2332). Dialogue: "I'm No. 4! Getting tired?". Team: Pidgey Lv 16, Nidoran♀ Lv 16. Defeated Turn 2341. Prize: ¥240.
   - Trainer 5: Jr. Trainer ♂ stationed at (11, 19) facing West. Dialogue: "OK! I'm No. 5! I'll stomp you!". Team: Mankey Lv 18 (285 EXP). Defeated Turn 2353. Prize: ¥360.
   - Bridge Finish / Recruiter: Team Rocket Grunt stationed at (11, 15) facing West. Awards NUGGET for beating the 5 trainers, then battles player (Ekans Lv 15, Zubat Lv 15). Defeated Turn 2367. Prize: ¥450.
+## Northern Section (North of Nugget Bridge)
+- Northern Avenue (Cols 10..11, Rows 8..15): Open pale mint path connecting Nugget Bridge to row 8.
+- Row 10 Bollard Barrier: Wooden/stone bollards spanning (12..15, 10) enclosing southeast lawn (cols 13..15, rows 11..15).
+- Row 7 Jump Ledge: South-facing one-way ledge spanning columns 7..12 at row 7. Bounded by corner at (13, 7).
+- Row 8 East-West Thoroughfare: Wide open corridor spanning row 8 connecting western grass to eastern Route 25 passage.
+- Northeast Avenue (Cols 14..15+, Rows 6..8): Open path leading north and east toward Route 25.
