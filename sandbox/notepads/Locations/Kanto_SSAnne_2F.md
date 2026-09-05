@@ -29,5 +29,5 @@
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12). No item ball.
 - Cabin 5: Entrance at (25, 11) in 2F main hallway. Interior doorway at (12..13, 15).
   - Interior bounds: Cols 10..13, Rows 11..15.
-  - Occupants: Gentleman at (12, 12) ("Have you gone to the SAFARI ZONE in FUCHSIA CITY?"), Boy at (10..11, 14).
+  - Occupants: Gentleman at (12, 12) ("Have you gone to the SAFARI ZONE in FUCHSIA CITY?"), Boy at (11, 14) ("Me and my Daddy think the SAFARI..."), wandering girl/NPC at (10, 13..14).
   - No item ball (tile was open floor). Desk/bin at (10, 11).
