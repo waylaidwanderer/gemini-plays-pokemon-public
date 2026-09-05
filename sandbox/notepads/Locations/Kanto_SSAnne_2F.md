@@ -30,4 +30,4 @@
 - Cabin 5: Entrance at (25, 11) in 2F main hallway. Interior doorway at (12..13, 15).
   - Interior bounds: Cols 10..13, Rows 11..15.
   - Occupants: Gentleman at (12, 12) ("Have you gone to the SAFARI ZONE in FUCHSIA CITY?"), Boy at (11, 14) ("Me and my Daddy think the SAFARI ZONE is awesome!").
-  - No item ball (tile was open floor). Desk/bin at (10, 11).
+  - Desk/bin at (10, 11).
