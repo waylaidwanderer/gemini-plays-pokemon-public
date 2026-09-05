@@ -614,7 +614,9 @@
 - Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
 - Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
-- Western Elevation Boundary (Cols 8..11, Row 15): Impassable northbound elevation boundary. Empirically verified impassable northbound from row 16 at (10, 15) on Turn 2183 and at (9, 15) on Turn 2249.
+- Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11 (verified at (10, 15) on Turn 2183 and (9, 15) on Turn 2249), but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street (empirically verified on Turn 2276).
+- Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
+- Canal Northern Bank Landmark (4, 11): Northern cave/mouth structure at (4, 11) with green-haired NPC at (4, 12).
 - Canal Northern Bank NPC (4, 12): Green-haired NPC standing on the northern bank across the canal at (4, 12), visible from the southern bank.
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.

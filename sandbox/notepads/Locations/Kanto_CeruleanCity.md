@@ -8,7 +8,9 @@
 - Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
 - Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
-- Western Elevation Boundary (Cols 8..11, Row 15): Impassable northbound elevation boundary. Empirically verified impassable northbound from row 16 at (10, 15) on Turn 2183 and at (9, 15) on Turn 2249.
+- Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11 (verified at (10, 15) on Turn 2183 and (9, 15) on Turn 2249), but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street (empirically verified on Turn 2276).
+- Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
+- Canal Northern Bank Landmark (4, 11): Northern cave/mouth structure at (4, 11) with green-haired NPC at (4, 12).
 - Canal Northern Bank NPC (4, 12): Green-haired NPC standing on the northern bank across the canal at (4, 12), visible from the southern bank.
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
@@ -22,7 +24,7 @@
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
 - Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
   - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 4) with counter at (5..7, 3).
-  - Pricing & Mechanics: Manager offers Bicycle for �1,000,000 (unaffordable without Bike Voucher).
+  - Pricing & Mechanics: Manager offers Bicycle for �1,000,000 (unaffordable without Bike Voucher).
   - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28) blocking direct southern access to Route 5 without HM01 Cut.
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
