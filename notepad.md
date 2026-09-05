@@ -111,6 +111,7 @@
 
 ## Battle Menu & Cursor Memory
 - Move Selection Cursor Memory: During consecutive attack turns within a single battle, the move menu cursor retains its position from the previously confirmed attack (e.g. executing Bubble from Slot 3 leaves the cursor at Slot 3 on the following turn). It does NOT automatically reset to Slot 1.
+- Move Selection Cursor Memory across Enemy Sendouts: Within a single trainer battle, when the opponent sends out a new Pok�mon after a faint, the move menu cursor retains its position from the previously confirmed attack rather than resetting to Slot 1 (empirically verified on Turn 1815: cursor was at Slot 4 WATER GUN after KOing Rattata with Water Gun on Turn 1812).
 - Testing Boundary: Empirically verified across consecutive attack turns with Bubble, Tail Whip, and Tackle, AND verified to persist after navigating through the ITEM submenu to use a Potion. Behavior after PKMN submenu or aborting actions remains unverified.
 - Battle Initialization Reset: At the start of a new battle, the move selection cursor resets to Slot 1 (Tackle), regardless of what move was used in previous encounters.
 - Main Battle Menu Cursor Memory: The primary 4-choice battle menu (FIGHT, PKMN, ITEM, RUN) retains its position from the previously confirmed action. Specifically, using an Item leaves the cursor on ITEM on subsequent turns, rather than resetting to FIGHT.
