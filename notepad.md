@@ -2789,7 +2789,6 @@
   4. Reposition around via (4, 6) -> (4, 7) -> (3, 7) facing North.
   5. Stand at (3, 7) facing North -> Push Up 1 time: Boulder moves onto Switch (3, 5) [Player at (3, 6)]!
 - Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) opened.
-- Row 8 Connection: (3, 8) connects east via light purple floor (row 8) directly to central corridor and SE Pit room at (23, 14) without changing floors!
 
 ## 3F Pit Area & Boulder Observations
 - Boulder observed at (24, 10).
