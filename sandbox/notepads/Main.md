@@ -34,4 +34,5 @@
 - [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
-- [ ] Board the S.S. Anne in Vermilion City to obtain HM01 Cut
+- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
+- [ ] Obtain HM01 Cut from the Captain of the S.S. Anne
