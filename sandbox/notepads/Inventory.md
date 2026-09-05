@@ -29,7 +29,9 @@
   - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
-  - OT: Traded (Boosted EXP)
+  - HP: 20 / 20
+  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Potential: Can learn HM01 Cut
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
