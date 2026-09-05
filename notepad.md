@@ -824,7 +824,8 @@
 - PokÃ©mon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKÃ©" sign at (12, 3).
 - House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of PokÃ©mon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Central Building (Trade House): Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South. Interior: NPC at (3, 5) trades Spearow for Farfetch'd (DUX)!
-- Western Building (Unverified): Cols 8..11, rows 10..13, located west across the passage and directly north of the Gym. Suspected Pokémon Fan Club.
+- Western Building (Unverified): Cols 8..11, rows 10..13. Entrance door at (9, 13) facing South. Suspected Pokémon Fan Club.
+- Signpost (7, 13): Located immediately west of Western Building at (7, 13).
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..15 connecting south towards Gym and north towards water inlet.
 - Vermilion Gym: Building at cols 10..13, rows 16..19+. "GYM" sign visible at (11, 18).
 - Cut Tree: Located at (15, 18), blocking direct access to the Gym entrance!
