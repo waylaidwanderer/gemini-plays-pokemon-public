@@ -1,7 +1,8 @@
 # S.S. Anne 2F
 
 ## Connections
-- Stairs to 1F: Located at (2, 4), ascending to 1F western corridor at (2, 6).
+- Stairs to 1F: Located at (2, 4), descends to 1F at (2, 6).
+- Stairs to Lower Hallway: Located at (2, 12) at west end of 2F main hallway (leads to lower hallway at 19, 3).
 - Stairs to Captain's Cabin: Located at (36, 4) at northern end of corridor.
 
 ## Geography & Layout

@@ -20,7 +20,3 @@
   - Occupants: Sailor 1 at (2, 11) facing South, Sailor 2 at (0, 13) facing East.
   - Furniture: Desk at (0..1, 11), bunk bed at (3, 11..12). No item balls visible.
 - Remaining Cabins: Expected at (15, 3), (11, 3), (7, 3).
-- Key Targets on B1F:
-  - TM44 (Rest) item ball.
-  - Useful recovery items (Super Potion, Ether).
-  - Sailor trainer battles for EXP to level up Rocky (Geodude) and Sheldon (Wartortle).
