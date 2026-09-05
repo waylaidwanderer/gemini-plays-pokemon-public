@@ -1,0 +1,17 @@
+# S.S. Anne B1F
+
+## Connections
+- Stairs to 1F: Located at (2, 4), ascending to 1F western corridor at (2, 6).
+- Stairs at (2, 12): Located at west end of B1F hallway.
+
+## Geography & Layout
+- West Corridor: Cols 2..3, Rows 4..11 running north-south from stairs at (2, 4) down to hallway junction.
+- Main Hallway: Rows 12..13 running east from col 3 with yellow striped carpet.
+- Cabins: Located along north wall of main hallway (doors at row 11).
+- NPC in West Corridor: Waiter at (3, 7) ("This ship, she is a luxury liner for trainers...").
+
+## Cabins
+- Cabin 1: Entrance at (9, 11) in B1F main hallway. Interior doorway at (2..3, 5).
+  - Interior bounds: Cols 0..3, Rows 0..5.
+  - Occupants: Sailor at (1, 2) facing South.
+  - Item Ball: Located at (0, 3).
