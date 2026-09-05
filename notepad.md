@@ -920,7 +920,7 @@
   - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
-  - Occupants: NPC at (13, 11), NPC at (10, 13), NPC at (11, 14).
+  - Occupants: NPC at (13, 11), NPC at (10, 13), Youngster at (11, 14) ("I love POKéMON! Do you?").
   - Item Ball at (12, 15)!
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
 
