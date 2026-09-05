@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 26, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥5995
+- Money: ¥6520
 - Pokédex: 4 Caught / 13 Seen
 
 ## Milestones
@@ -53,7 +53,7 @@
 - POKéDEX
 
 ## Money
-- ¥5995
+- ¥6520
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 26, Water]
@@ -204,6 +204,15 @@
 - Sheldon grew to Level 26! Max HP increased to 71 (HP: 59 / 71).
 - Zubat Lv 15: Defeated in 1 hit by Bite (Critical Hit). Yield: 172 EXP.
 - Total EXP: 370 EXP. Prize: ¥450.
+## Route 25 - Hiker Franklin (Turn 2378-2385)
+- Position: (8, 4) facing South. Sight range: 1 tile (engaged at (8, 5)).
+- Dialogue: "I just got down from MT. MOON, but I'm ready!"
+- Defeat Quote: "You worked hard!"
+- Team:
+  - Machop Lv 15: Used Karate Chop (5 damage). Defeated by Sheldon Water Gun (x2). Yield: 282 EXP.
+  - Geodude Lv 15: Defeated in 1 hit by Water Gun (Super Effective). Yield: 276 EXP.
+- Total EXP: 558 EXP. Prize: �525.
+
 
 <hr>
 
@@ -750,7 +759,7 @@
 - Shrub Barrier (8, 7): Dense shrub at (8, 7) blocking sightline south from (8, 4).
 - Corridor 1 (Col 9, Rows 4..8): Open grass connector linking row 8 avenue north to rows 4..7.
 - Row 7 Tree Gap (Cols 10..11, Row 7): 1-tile wide east-west grass corridor between trees at (10..11, 6) and (10, 8..9).
-- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Dialogue: "I just got down from MT. MOON...".
+- Trainer 1 - Hiker Franklin at (8, 4): Stationed facing South (sight range: 1 tile, covers (8, 5)). Defeated Turn 2385. Team: Machop Lv 15, Geodude Lv 15. Prize: �525.
 - Northern Tree Canopy (Cols 2..7, Rows 4..5): Forest canopy north of row 6 grass corridor.
 - Trainer 2 at (13, 7): Youngster stationed at (13, 7) facing West.
 - Trainer 3 at (14, 2): Boy/Youngster stationed at (14, 2) facing South/West.
