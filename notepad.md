@@ -475,8 +475,10 @@
 - Column 45 Ledge: One-way jump ledge facing East at row 6. Stepping East from (44, 6) hops over (45, 6) to (46, 6).
 - Central Corridor (Cols 46..49, Rows 2..10): Open green grass corridor between col 45 ledge and col 50 ridge. North boundary at row 1 is solid mountain cliff.
 - Row 10 Corridor (Cols 42..61, Rows 10..12): Open grass corridor bordered to the north by row 9 ledge and south by row 13 ledge.
+- Row 9 Ledge Gap: Located at (61, 9). Passable gap allows walking North from row 10 up onto row 8.
 - Row 13 Ledge Gap: Located at (53, 13). Passable gap allows walking North from row 14 directly up into row 12.
 - Lower Corridor (Cols 42..61, Rows 14..15): Bounded by row 13 south-facing ledge to the north. Walkable red flower bed at cols 42..47, open grass at cols 48..61.
+- Row 8 Bypass: Open grass path at row 8 bypassing the col 62 tree line (which only blocks rows 9..15).
 - Lower Corridor Boundaries: Solid rock wall at col 41 (verified at (41, 15)); solid water/shoreline at row 16 (verified at (44, 16) and (61, 16)); solid trees at col 62 (verified at (62, 14) and (62, 15)).
 
 <hr>
