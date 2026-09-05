@@ -36,5 +36,5 @@
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
 - Super Nerd Miguel: Defeated (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12). Stationed at (12, 8) facing South down column 12.
-- Ground Artifact (12, 6): Uninspected prehistoric fossil / stone artifact.
-- Ground Artifact (13, 6): Uninspected prehistoric fossil / stone artifact.
+- Ground Artifact (13, 6): HELIX FOSSIL (Claimed by player).
+- Ground Artifact (12, 6): DOME FOSSIL (Claimed by Super Nerd Miguel).
