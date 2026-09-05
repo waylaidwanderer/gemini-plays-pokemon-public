@@ -171,3 +171,4 @@
 - Pre-battle Dialogue: "I knew I had to fight you!"
 - Team:
   - Ekans Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 186 EXP.
+  - Sandshrew Lv 14: In progress...
