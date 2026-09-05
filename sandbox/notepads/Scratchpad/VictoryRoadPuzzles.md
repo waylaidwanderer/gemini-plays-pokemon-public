@@ -6,12 +6,9 @@
    - Descended to 2F, activated Strength with ATLAS.
    - Pushed Boulder 2 from (4, 14) onto Switch 1 at (1, 16) via Column 3 -> Row 16 sequence.
    - Outcome: Shutter 1 (5, 10) and Shutter 3 (21, 15) permanently opened!
-3. **2F to Ladder B & 3F SE Pit Room**:
-   - Walk through Shutter 1 (5, 10) -> (14, 8) -> (14, 12) -> (20, 14) -> through Shutter 3 (21, 15) -> onto Lower Highway at (21, 16).
-   - Walk East along Lower Highway to (29, 16), North up Column 29 to (29, 14), and West along row 14 to Ladder B at (25, 14)!
-   - Climb Ladder B at (25, 14) directly into 3F SE Pit Room!
-4. **3F Pit Drop & 2F Exit to Indigo Plateau**:
-   - In 3F SE Pit Room, push Boulder 3 into the Pit at (23, 14).
-   - Jump into the Pit at (23, 14) down to 2F!
-   - Land on 2F in the exit corridor, push fallen boulder onto exit switch plate to lower final shutter.
-   - Ascend exit ladder to Route 23 North / Indigo Plateau!
+3. **3F Pit Drop & 2F Exit Sequence**:
+   - On 3F, navigate to the Pit at (23, 14) and Boulder at (22, 15).
+   - Push Boulder East into (23, 15) and North into the Pit at (23, 14).
+   - Jump into the Pit at (23, 14) down to 2F.
+   - On 2F, push the fallen boulder onto the switch plate to lower the final exit shutter.
+   - Ascend exit ladder to Route 23 North / Indigo Plateau.
