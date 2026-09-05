@@ -175,7 +175,8 @@
   - Sandshrew Lv 14: Defeated in 1 hit by Sheldon Water Gun (Super Effective). Yield: 279 EXP.
 - Total EXP Yield: 465 EXP. Prize: ¥210.
 - Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 7 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
-## Route 25 - Trainer at (37, 4) (Turn 2522-Present)
+## Route 25 - Lass (Turn 2522-Present)
 - Position: (37, 4) facing South. Sight range: 1 tile (engaged at (37, 5)).
-- Pre-battle Dialogue: "My friend has a cute POKéMON."
+- Pre-battle Dialogue: "My friend has a cute POKéMON. I'm so jealous!"
+- Team Size: 3 Pokémon.
 - Team: In progress...

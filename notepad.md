@@ -285,9 +285,10 @@
   - Sandshrew Lv 14: Defeated in 1 hit by Sheldon Water Gun (Super Effective). Yield: 279 EXP.
 - Total EXP Yield: 465 EXP. Prize: ¥210.
 - Sheldon HP: 46 / 76 (Healthy). Level: 28. Bite PP: 7 / 25, Water Gun PP: 13 / 25, Bubblebeam PP: 10 / 20.
-## Route 25 - Trainer at (37, 4) (Turn 2522-Present)
+## Route 25 - Lass (Turn 2522-Present)
 - Position: (37, 4) facing South. Sight range: 1 tile (engaged at (37, 5)).
-- Pre-battle Dialogue: "My friend has a cute POKéMON."
+- Pre-battle Dialogue: "My friend has a cute POKéMON. I'm so jealous!"
+- Team Size: 3 Pokémon.
 - Team: In progress...
 
 <hr>
@@ -851,7 +852,7 @@
   - Row 4-5: Trees at (31, 4..5) and (28..29, 7..9). Open grass at cols 28..30 (rows 4..5).
   - Row 6: Open grass corridor cols 27..32+ passing south of trees at (31, 4..5).
   - Alcove Access to (22, 2) Item Ball: Open path via (23, 7) -> (23, 5) -> (24, 5) -> (24, 3) -> (22, 2).
-- Trainer at (37, 4): Female trainer stationed at (37, 4) facing South (engaged at (37, 5)). Dialogue: "My friend has a cute POKéMON.". Battle in progress.
+- Trainer 9 at (37, 4): Lass stationed at (37, 4) facing South (sight range: 1 tile). Pre-battle: "My friend has a cute POKéMON. I'm so jealous!". Team: 3 Pokémon.
 - Northeast Building: Large building located at (cols 37..42+, rows 1..3) with patterned roof and shuttered windows.
 
 <hr>
