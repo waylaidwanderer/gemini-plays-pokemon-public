@@ -1043,25 +1043,20 @@
 # S.S. Anne B1F
 
 ## Connections
-- Stairs to 1F: Located at (2, 4), ascending to 1F western corridor at (2, 6).
-- Stairs at (2, 12): Located at west end of B1F hallway.
+- Stairs to 2F: Located at (19, 3) at eastern end of corridor (ascends to 2F west hallway at 2, 12).
+- West end: Dead end at col 0 (rows 2..3).
 
 ## Geography & Layout
-- West Corridor: Cols 2..3, Rows 4..11 running north-south from stairs at (2, 4) down to hallway junction.
-- Main Hallway: Rows 12..13 running east from col 3 with yellow striped carpet.
-- Cabins: Located along north wall of main hallway (doors at row 11).
-- NPC in West Corridor: Waiter at (3, 7) ("This ship, she is a luxury liner for trainers...").
+- Main Hallway: 2-tile wide corridor running east-west along rows 2..3 from col 0 to col 19 with yellow striped carpet.
+- North Wall (Row 1): Features ship wheel emblems at even columns (2, 4, 6, 8, 10, 12, 14, 16) and plain wall panels / potential cabin entrances at odd columns (3, 5, 7, 9, 11, 13, 15, 17).
+  - Empirical test [Turn 3090]: Stepped Up at (3, 2) into (3, 1) -> solid wall, no warp.
+- South Wall (Row 4): Solid continuous wall spanning cols 0 through 19.
+- Hallway NPC: Sailor SPRITE_932a wandering along row 3 between cols 4 and 12.
+  - Dialogue: "Our CAPTAIN is a sword master! He even teaches CUT to POKéMON!" (Stunned at 6, 3 Turn 3087).
 
-## Cabins
-- Cabin 1: Entrance at (9, 11) in B1F main hallway. Interior doorway at (2..3, 5).
-  - Interior bounds: Cols 0..3, Rows 0..5.
-  - Occupants: Sailor at (1, 2) ("In all my travels I've never seen any POKéMON sleep like this one! It was something like this!" -> shows Snorlax No. 143 Pokédex entry).
-  - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
-- Cabin 2: Entrance at (13, 11) in B1F main hallway. Interior doorway at (12..13, 5).
-  - Interior bounds: Cols 10..13, Rows 1..5.
-  - Occupants: Sailor at (10, 2) facing South, Girl at (13, 4).
-  - Target: Object/Item at (12, 1).
-
+## Cabins (Exploration in Progress)
+- Candidate cabin doors along North wall at odd columns (5, 7, 9, 11, 13, 15, 17).
+- Key targets: TM44 (Rest), Super Potion, Ether, and Sailor trainer battles for EXP/money.
 
 <hr>
 
