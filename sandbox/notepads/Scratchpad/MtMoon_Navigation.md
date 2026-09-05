@@ -10,7 +10,8 @@
 15. [x] Tested east at (35, 16) [blocked] and south at (34, 19) and (30, 19) [blocked].
 16. [x] Stepped Left onto (25, 18) [passable!].
 17. [x] Tested Left onto (24, 18) [blocked].
-18. [ ] Open START menu, verify Paras (FUNGI) stats/moves, and test (25, 17) / corridor exits.
+18. [x] Verified Paras (FUNGI) stats and move Scratch in party menu [Turn 1721].
+19. [ ] Flee from wild Geodude and step Up to test (25, 17) passability.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 21 (HP 37/58), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10
