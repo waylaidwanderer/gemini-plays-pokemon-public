@@ -10,7 +10,10 @@
 - Western Fence Barrier (Cols 8..11, Row 15): Empirically verified on Turn 2183 that row 15 is a continuous solid wooden rail fence across columns 8..11, completely blocking northward access through column 10.
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
-- Eastern Corridor (Cols 32..37, Rows 19..21): Street running east past Gym. At row 19, a continuous south-facing jump ledge blocks northward movement from the south (one-way drop-down from northern district).
+- Eastern Ledge (Row 19, Cols 32..37): Continuous south-facing jump ledge extends across cols 32..37.
+- Eastern Bollard Line (Col 35, Rows 20..25): Vertical barrier of wooden bollards separating col 34 from cols 36..37.
+- Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
+- Southeast Building: Located at cols 28..33, rows 24..25+ with blue roof.
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
