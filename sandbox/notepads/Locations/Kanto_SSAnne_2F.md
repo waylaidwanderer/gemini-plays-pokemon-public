@@ -25,6 +25,6 @@
   - Furniture: Desk at (20..21, 1), chair at (20, 3), bed at (23, 1..2). No items in Cabin 3.
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Occupants: Gentleman at (1, 14) (Pre-battle: "Which do you like, a strong or a rare POKéMON?"), Person at (2, 11) facing South.
+  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Person at (2, 11) facing South.
   - Object at (0, 12): Unverified sprite (to be inspected in-game).
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12).

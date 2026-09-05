@@ -50,3 +50,7 @@
   - Roster: Pikachu Lv 23 (Yield: 403 EXP). Prize: ¥1610.
   - Pre-battle: "Competing against the young keeps me youthful.". Defeat: "GENTLEMAN: Good fight! Ah, I feel young again!".
   - Combat: Pikachu used Quick Attack (dealt 5 dmg, Sheldon HP 76 -> 71/81). Sheldon Lv 30 used Bite (Pikachu down to ~15%). Sheldon used Bite (OHKO). Sheldon took 5 damage total (HP 71/81). Bite PP: 21 -> 19. Bubblebeam PP: 15/20 (conserved).
+- **Gentleman [Turn 2994 - 3005] (2F Cabin 4 at 1, 14):**
+  - Roster: Growlithe Lv 17 (Yield: 331 EXP), Ponyta Lv 17 (Yield: 553 EXP). Total EXP: 884. Prize: ¥1190.
+  - Pre-battle: "Which do you like, a strong or a rare POKéMON?". Defeat: "GENTLEMAN: I must salute you!".
+  - Combat: Sheldon Lv 30 used Water Gun on Growlithe (OHKO). Sheldon Lv 30 used Water Gun on Ponyta (OHKO). Sheldon grew to Lv 31 (HP 74/84, Atk 56, Def 67, Spd 56, Spc 58). Declined Withdraw to preserve moveset. Water Gun PP: 25 -> 23. Bubblebeam PP: 15/20 (conserved). Bite PP: 19/25 (conserved).

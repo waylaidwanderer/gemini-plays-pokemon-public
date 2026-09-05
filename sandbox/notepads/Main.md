@@ -3,7 +3,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 31, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥14430
+- Money: ¥15620
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
