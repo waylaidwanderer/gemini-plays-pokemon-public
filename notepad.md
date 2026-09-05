@@ -58,7 +58,7 @@
   - Status: Healthy
   - HP: 60 / 68
   - Stats: Attack 43, Defense 52, Speed 43, Special 44
-  - Moves: Bite (PP 20/25), Tail Whip (PP 30/30), Bubblebeam (PP 14/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 19/25), Tail Whip (PP 30/30), Bubblebeam (PP 14/20), Water Gun (PP 25/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 19 / 19
@@ -175,6 +175,13 @@
 - Pidgey Lv 14: Defeated in 1 hit by Bite. Yield: 165 EXP.
 - Nidoran♀ Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 177 EXP.
 - Total EXP: 342 EXP. Prize: ¥210.
+
+## Route 24 Nugget Bridge - Youngster (Turn 2321-2327)
+- Position: (11, 25) facing West.
+- Rattata Lv 14: Defeated in 1 hit by Bite. Yield: 171 EXP.
+- Ekans Lv 14: Defeated in 1 hit by Bite. Yield: 186 EXP.
+- Zubat Lv 14: Defeated in 1 hit by Bite. Yield: 162 EXP.
+- Total EXP: 519 EXP.
 
 
 <hr>
@@ -692,7 +699,7 @@
 - Bridge Gauntlet: 5 trainers stationed consecutively along the bridge corridor.
   - Trainer 1: Bug Catcher Cale stationed at (11, 31) facing West. Team: Caterpie Lv 14 (159 EXP), Weedle Lv 14 (156 EXP). Defeated Turn 2310.
   - Trainer 2: Lass stationed at (10, 28) facing South (visually verified on Turn 2314). Team: Pidgey Lv 14, Nidoran♀ Lv 14. Defeated Turn 2319.
-  - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14.
+  - Trainer 3: Youngster stationed at (11, 25) facing West (visually verified on Turn 2314). Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Defeated Turn 2327.
   - Trainer 4: Lass stationed at (10, 22) facing South (visually verified on Turn 2321).
 
 <hr>
