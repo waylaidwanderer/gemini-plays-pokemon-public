@@ -27,3 +27,8 @@
 - **Team Utility:**
   - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
   - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
+
+## Route 6 Empirical Combat Log (Turns 2668 - 2695)
+- **Bug Catcher Elijah [Turn 2668]:** Roster: Butterfree Lv 20 (Yield: 685 EXP, Prize: ¥200). Sheldon Lv 28 used Bubblebeam (OHKO).
+- **Jr. Trainer ♀ Nancy [Turn 2682]:** Roster: Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP), Pidgey Lv 16 (187 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.
+- **Jr. Trainer ♂ Ricky [Turn 2695]:** Roster: Spearow Lv 16 (198 EXP), Raticate Lv 16 (397 EXP). Prize: ¥320. Sheldon used Bubblebeam/Bite.

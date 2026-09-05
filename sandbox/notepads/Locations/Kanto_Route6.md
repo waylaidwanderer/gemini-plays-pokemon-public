@@ -17,7 +17,7 @@
 - Trainer (11, 21): Jr. Trainer â (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
-- Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668] (Roster: Butterfree Lv 20 - 685 EXP, Prize: ¥240). Pre-battle: "I've never seen you around! Are you good?".
+- Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668] (Roster: Butterfree Lv 20 - 685 EXP, Prize: ¥200). Pre-battle: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
 - Trainer (11, 30): Jr. Trainer â [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
