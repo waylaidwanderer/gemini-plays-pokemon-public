@@ -267,6 +267,12 @@
 - Total EXP Yield: 958 EXP. Prize: ¥455.
 - Sheldon HP: 23 / 73 (Healthy). Bubblebeam PP: 10 / 20, Water Gun PP: 14 / 25.
 
+## Route 25 - Jr. Trainer ♂ (Turn 2488-Present)
+- Position: (24, 4) facing South. Sight range: 3 tiles (engaged at (24, 7)).
+- Pre-battle Dialogue: "I'm a cool guy. I've got a girl friend!"
+- Team:
+  - Rattata Lv 14: Defeated in 1 hit by Sheldon Bite. Yield: 171 EXP.
+  - Ekans Lv 14: In progress...
 
 <hr>
 
