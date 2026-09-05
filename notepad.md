@@ -824,7 +824,7 @@
 - PokÃ©mon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKÃ©" sign at (12, 3).
 - House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of PokÃ©mon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Central Building (Trade House): Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South. Interior: NPC at (3, 5) trades Spearow for Farfetch'd (DUX)!
-- Western Building (Unverified): Cols 8..11, rows 10..13. Entrance door at (9, 13) facing South. Suspected Pokémon Fan Club.
+- Western Building (Pokémon Fan Club): Verified! Cols 8..11, rows 10..13. Entrance door at (9, 13) facing South. Interior has Chairman and members.
 - Signpost (7, 13): Located immediately west of Western Building at (7, 13).
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..15 connecting south towards Gym and north towards water inlet.
 - Vermilion Gym: Building at cols 10..13, rows 16..19+. "GYM" sign visible at (11, 18).
@@ -857,8 +857,9 @@
   - Member at (1, 3) facing south (green hair).
   - Member at (6, 3) facing south (dark hair, blue shirt).
 - Chairman:
-  - Located at (3, 3) / (4, 3).
-  - Dialogue: Tells a story about Rapidash/Fearow.
+  - Located at (3, 1) facing South behind podium (rows 2..3, cols 3..4).
+  - Access: Northern corridor row 1. Stand at (2, 1) facing Right to speak.
+  - Dialogue: Tells a story about his beloved Pokémon.
   - Requirement: Answer YES to his question to receive BIKE VOUCHER!
 
 <hr>
