@@ -609,6 +609,12 @@
 - Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: �390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
 - Fossil Approach Corridor (Cols 12..13, Rows 12..16+): 2-tile wide passage north of defeated Grunt (11, 16), running north along columns 12..13 toward the fossil chamber.
 
+### Fossil Chamber (Rows 5..10, Cols 8..16)
+- Super Nerd Miguel: Stationed at (12, 8) facing South down column 12. Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12.
+- Ground Artifact (12, 6): DOME FOSSIL (Kabuto).
+- Ground Artifact (13, 6): HELIX FOSSIL (Omanyte).
+- Exit Route: Post-battle passage leading to Route 4 exit ladder behind the fossils.
+
 <hr>
 
 <h1><code>Scratchpad/MtMoon_Navigation</code></h1>
@@ -619,8 +625,9 @@
 - [x] Traversed southern corridor west to column 11 [Turn 1796].
 - [x] Defeated Team Rocket Grunt at (11, 16) (Rattata Lv 13, Zubat Lv 13) [Turn 1818].
 - [x] Discovered northern passage at (Cols 12..13, Rows 12..16) past defeated Grunt [Turn 1822].
-- [ ] Advance north along Cols 12..13 into fossil chamber.
-- [ ] Locate Super Nerd Miguel, defeat him, choose a fossil, and proceed to exit ladder.
+- [x] Reached Fossil Chamber at (12, 10); sighted Super Nerd Miguel (12, 8), Dome Fossil (12, 6), and Helix Fossil (13, 6) [Turn 1825].
+- [ ] Defeat Super Nerd Miguel and claim a prehistoric fossil.
+- [ ] Proceed to Route 4 exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor / entrance plateau)
