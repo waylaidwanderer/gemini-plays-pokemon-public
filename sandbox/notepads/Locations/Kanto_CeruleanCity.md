@@ -49,3 +49,4 @@
   - Interior: Entrance mat (3..4, 7). Counter & register at (1, 4..5), Clerk at (0, 5) (talk from (2, 5) facing West). Customers at (3, 3) and (4, 2).
   - Catalog Items: POKé BALL (¥200), POTION (¥300), REPEL (¥350), ANTIDOTE (¥100).
 - Robbed House: Located at cols 26..31, rows 8..11 with blue roof and front entrance door at (27, 11). Police officer stationed at (28, 12) facing North (stepped aside to allow entry after Bill event).
+  - Robbed House Interior: Entrance mat at (2..3, 7). Ransacked furniture with broken pottery at (2, 4) and table at (3..4, 3..4). Wall hole blasted through north wall at (3, 0) with dirt tracks leading north into backyard.
