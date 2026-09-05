@@ -37,16 +37,16 @@
   9. Walk West to Ladder B at (25, 14) or Ladder NE at (27, 7) / Ladder A at (23, 7).
 
 
-## Optimal Column 4 Master Boulder 2 Solution (Verified Turn 29079)
+## Optimal Master Boulder 2 Solution (Verified Row 14 -> Col 1 Protocol)
 - Note: Strength expires on floor transitions and must be re-cast upon arriving on 2F!
-- Starting State: Boulder 2 at default (4, 14). Player at (4, 13). Strength active.
-- Optimal Push Sequence:
-  1. Stand at (4, 13) facing South -> Push Down 2 times:
-     - Push Down 1: Boulder 2 to (4, 15), Player to (4, 14).
-     - Push Down 2: Boulder 2 to (4, 16), Player to (4, 15).
-  2. Reposition around to (5, 16) via Right to (5, 15) -> Down to (5, 16) [facing West].
-  3. Stand at (5, 16) facing West -> Push Left 3 times along Row 16:
-     - Push Left 1: Boulder 2 to (3, 16), Player to (4, 16).
-     - Push Left 2: Boulder 2 to (2, 16), Player to (3, 16).
-     - Push Left 3: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
+- Starting State: Boulder 2 at default (4, 14). Player at (5, 14). Strength active.
+- Master Push Sequence:
+  1. Stand at (5, 14) facing West -> Push Left 3 times along Row 14:
+     - Push Left 1: Boulder 2 to (3, 14), Player to (4, 14).
+     - Push Left 2: Boulder 2 to (2, 14), Player to (3, 14).
+     - Push Left 3: Boulder 2 to (1, 14), Player to (2, 14).
+  2. Reposition around to (1, 13) via (2, 14) -> Up to (2, 13) -> Left to (1, 13) [facing South].
+  3. Stand at (1, 13) facing South -> Push Down 2 times along Column 1:
+     - Push Down 1: Boulder 2 to (1, 15), Player to (1, 14).
+     - Push Down 2: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (1, 15).
 - Outcome: Switch 1 at (1, 16) activated! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened!
