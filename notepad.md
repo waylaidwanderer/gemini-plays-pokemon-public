@@ -587,7 +587,7 @@
 - Ground Item (29, 5): Item ball visible on elevated northern platform above row 7 ledge.
 - Team Rocket Grunt (29, 11): Defeated (Zubat Lv 12, Ekans Lv 12). Prize: ¥360.
 - Boulder: Isolated rock at (33, 9).
-- Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. Further routing under investigation.
+- Main Cavern Connectivity: Northern corridor at row 6 blocked to west by wall at (31, 6); southern edge bounded by cliff at row 11..12. 
 
 ### Main Cavern (Reached via Ladder 21, 17)
 - Ladder (21, 17): Ascending ladder leading back to B1F Northwest corridor at (21, 17).
@@ -601,7 +601,10 @@
 - Breakthrough Passage (33, 15): Empirically verified fully passable northward from Row 16 to Row 14, connecting lower chamber directly back to northern corridors.
 - Eastern Cavern Highway (Cols 36..38, Rows 14..24): 3-tile wide open north-south corridor running from row 14 south past row 24. Bounded on east by solid rock wall at Col 39.
 - Southern Avenue (Cols 32..34, Rows 24..30): At row 24, the corridor turns west to cols 32..34, running south to row 30.
-- Southern Corridor (Cols 20..33, Rows 31..32): At row 31, turns west into a 2-tile high corridor (rows 31-32) bounded by rock walls at row 30 (north) and row 33 (south).
+- Southern Corridor (Cols 11..33, Rows 31..32): 2-tile high corridor extending west from col 33 to col 11 along rows 31-32, bounded by rock walls to north (row 30) and south (row 33).
+- Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
+- Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
+
 
 <hr>
 
@@ -610,14 +613,9 @@
 # Mt. Moon Navigation & Exploration Scratchpad
 
 ## Current Route Plan
-1. [x] Defeated Rocket Grunt at (29, 17) in lower B2F chamber.
-2. [x] Discovered northern exit at (33, 15) connecting Row 16 to Row 14 [Turn 1773].
-3. [x] Traversed Eastern Cavern Highway (Cols 36..38) south from (36, 15) to (36, 24) [Turn 1777].
-4. [x] Traversed southern avenue south to (33, 31) and turned west to (29, 31) [Turn 1788].
-5. [x] Traversed southern corridor west to (11, 31) [Turn 1796].
-6. [ ] Advance north along western corridor (Cols 9..11) toward fossil chamber.
-7. [ ] Locate Super Nerd Miguel, defeat him, choose a fossil, and proceed to exit ladder.
-
+- [x] Traversed southern corridor west to column 11 [Turn 1796].
+- [ ] Advance north along Western Cavern Highway (Cols 7..11) toward fossil chamber.
+- [ ] Locate Super Nerd Miguel, defeat him, choose a fossil, and proceed to exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor / entrance plateau)
