@@ -2,8 +2,8 @@
 
 ## Status
 - Badges: 1 / 8 (Boulderbadge)
-- Active Team: Wartortle (SHELDON) Lv 19, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
-- Money: ¥1306
+- Active Team: Wartortle (SHELDON) Lv 20, Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
+- Money: ¥1581
 - Pokédex: 3 Caught / 12 Seen
 
 ## Milestones
