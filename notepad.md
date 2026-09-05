@@ -58,7 +58,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 27, Water]
   - Status: Healthy
-  - HP: 25 / 73
+  - HP: 23 / 73
   - Stats: Attack 48, Defense 59, Speed 48, Special 50
   - Moves: Bite (PP 10/25), Tail Whip (PP 30/30), Bubblebeam (PP 12/20), Water Gun (PP 19/25)
 - SPEAROW (Nickname: FALCO) [Lv 5, Normal/Flying]
@@ -797,7 +797,7 @@
 - Trainer 2 at (13, 7): Hiker stationed at (13, 7) facing East. Defeated Turn 2416. Team: Onix Lv 17. Prize: ¥595.
 - Trainer 3 at (14, 2): Youngster stationed at (14, 2) facing South. Defeated Turn 2408. Team: Rattata Lv 15, Spearow Lv 15. Prize: ¥225.
 - Trainer 4 at (18, 5): Youngster stationed at (18, 5). Defeated Turn 2442. Team: Slowpoke Lv 17. Prize: ¥255.
-- Trainer 5 at (18, 8): Trainer stationed at (18, 8).
+- Trainer 5 at (18, 8): Female trainer stationed at (18, 8).
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 - Trainer 6 at (23, 9): Hiker stationed in southeastern corridor.
 
