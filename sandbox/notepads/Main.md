@@ -24,3 +24,4 @@
 - [x] Catch wild Geodude in Mt. Moon [Turn 1197]
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 - [x] Exit Mt. Moon to Route 4 [Turn 1865]
+- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]

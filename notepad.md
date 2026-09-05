@@ -26,6 +26,7 @@
 - [x] Catch wild Geodude in Mt. Moon [Turn 1197]
 - [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
 - [x] Exit Mt. Moon to Route 4 [Turn 1865]
+- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
 
 <hr>
 
@@ -652,5 +653,25 @@
 - Jump Ledge: South-facing jump ledge at (3, 5).
 - Southern Alcove: cols 2..7, rows 6..7.
 - Ladder (5, 7): Ascending ladder leading to upper floors toward Route 4 exit.
+
+<hr>
+
+<h1><code>Locations/Kanto_CeruleanCity</code></h1>
+
+# Cerulean City Geography & Points of Interest
+
+## Connections
+- West: Route 4 eastern bridge at (0, 18..19).
+
+## Geography & Layout
+- Western Entrance (Cols 0..5, Rows 18..19): Wide paved street entering from the Route 4 bridge.
+- Northern Boundary (Row 17): Stone fence posts guarding the canal/river.
+- Southern Boundary (Row 20): Stone fence posts and green grass.
+
+## Key Buildings & Facilities
+- Pokémon Center: TBD
+- Poké Mart: TBD
+- Cerulean Gym: TBD (Gym Leader: Misty - Water type)
+- Bike Shop: TBD
 
 <hr>
