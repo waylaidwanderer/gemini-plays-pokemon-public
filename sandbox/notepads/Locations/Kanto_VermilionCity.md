@@ -19,6 +19,8 @@
 - Northern Cross Street: Paved street spanning cols 11..24 along row 4.
 - Pokémon Center Interior: Entrance mat at (3, 7) and (4, 7); Nurse Joy counter at (3, 2); PC in northeast corner at (11, 4); NPC at (5, 4).
 - NPC (14, 6): Kid in green shirt.
+- NPC (21, 7): Woman in orange dress.
+- Eastern North-South Boulevard: Open paved thoroughfare spanning cols 16..20 from row 4 heading south past row 9.
 - Poké Mart: To be located.
 - Vermilion Gym: Located south/southwest behind a Cut tree.
 - Pokémon Fan Club: To be located.
