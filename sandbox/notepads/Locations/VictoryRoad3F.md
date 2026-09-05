@@ -21,3 +21,9 @@
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
 - Column 10 Connectivity: Row 1 above column 10 is separated from lower rows by a south-facing cliff wall; cannot walk south between row 1 and row 2 at column 10.
 - Boulder 1 at (22, 3): Positioned on upper dark plateau.
+
+## Northern Highway Branch Corridors & Scout Checklist
+- Column 17: Open 1-tile gap at row 4 connecting rows 1-3 to rows 6-11 (Upper Dark Plateau & Ladder A arrival).
+- Columns 9-10: North wall at row 2 separates row 1 Northern Highway from Purple Chamber.
+- Columns 6-7 (Central Bridge): Spans rows 0-6; dead-ends at row 6 against south cliff wall and column 8 rock wall.
+- Columns 0-5 (Far West Corridor): Under active scouting.
