@@ -910,7 +910,7 @@
 ## Connections
 - North Exit: Gangplank to Vermilion City harbor at (26..27, -1).
 - Stairs to 2F: Located at (2, 6) at western end of main hallway.
-- South Corridor: Cols 2..3, Rows 7..11+ heading south toward kitchen and B1F.
+- South Corridor: Cols 2..3, Rows 7..15+ heading south toward kitchen and B1F.
 
 ## Geography & Layout
 - Entrance corridor: Cols 26..27, rows 0..4.
