@@ -28,20 +28,13 @@
 - Columns 6-7 (Central Bridge): Spans rows 0-6; dead-ends at row 6 against south cliff wall and column 8 rock wall.
 - Columns 0-5 (Far West Corridor): Under active scouting.
 
-## Verified Master 3F Boulder 1 Solution to Switch (3, 5)
-- Initial Position: Boulder 1 @ (22, 3).
+## Verified Master 3F NW Boulder Solution to Switch (3, 5) (VERIFIED Turn 29241)
+- Initial Position: NW Boulder @ (5, 5). Switch @ (3, 5).
 - Master Push Protocol:
-  1. Stand at (23, 3) facing West -> Push Left 2 times: Boulder to (20, 3) [Player at (21, 3)].
-  2. Reposition around via (21, 4) -> (20, 4) facing North.
-  3. Stand at (20, 4) facing North -> Push Up 2 times: Boulder to (20, 1) [Player at (20, 2)]. (CRITICAL: Stop at Row 1; do NOT push into Row 0!).
-  4. Reposition around to (21, 1) via (20, 2) -> (21, 2) -> (21, 1) facing West.
-  5. Stand at (21, 1) facing West -> Push Left 15 times along Row 1 to (6, 1) [Boulder at (6, 1), Player at (7, 1)].
-  6. Reposition around to (6, 0) via (7, 1) -> (7, 0) -> (6, 0) facing South.
-  7. Stand at (6, 0) facing South -> Push Down 1 time: Boulder to (6, 2) [Player at (6, 1)].
-  8. Reposition around to (7, 2) via (6, 1) -> (7, 1) -> (7, 2) facing West.
-  9. Stand at (7, 2) facing West -> Push Left 4 times across Row 2 to (2, 2) [Boulder at (2, 2), Player at (3, 2)].
-  10. Reposition around to (2, 1) via (3, 2) -> (3, 1) -> (2, 1) facing South.
-  11. Stand at (2, 1) facing South -> Push Down 3 times down Column 2 to (2, 5) [Boulder at (2, 5), Player at (2, 4)].
-  12. Reposition around to (1, 5) via (2, 4) -> (1, 4) -> (1, 5) facing East.
-  13. Stand at (1, 5) facing East -> Push Right 1 time: Boulder moves onto Switch (3, 5) [Player at (2, 5)]!
-- Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) permanently opened.
+  1. Stand at (5, 4) facing South -> Push Down 1 time: Boulder to (5, 6).
+  2. Reposition around via (5, 4) -> (6, 6) facing West.
+  3. Stand at (6, 6) facing West -> Push Left 2 times: Boulder to (3, 6).
+  4. Reposition around via (4, 6) -> (4, 7) -> (3, 7) facing North.
+  5. Stand at (3, 7) facing North -> Push Up 1 time: Boulder moves onto Switch (3, 5) [Player at (3, 6)]!
+- Verified Outcome: Switch at (3, 5) activated! Shutter at (17, 5) opened.
+- Row 8 Connection: (3, 8) connects east via light purple floor (row 8) directly to central corridor and SE Pit room at (23, 14) without changing floors!
