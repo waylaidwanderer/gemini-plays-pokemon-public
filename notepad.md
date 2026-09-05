@@ -606,7 +606,7 @@
 - Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
 - Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
 
-- Team Rocket Grunt (11, 16): Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
+- Team Rocket Grunt (11, 16): Defeated (Rattata Lv 13, Zubat Lv 13). Prize: �390. Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
 
 <hr>
 
@@ -616,7 +616,8 @@
 
 ## Current Route Plan
 - [x] Traversed southern corridor west to column 11 [Turn 1796].
-- [ ] Advance north along Western Cavern Highway (Cols 7..11) toward fossil chamber.
+- [x] Defeated Team Rocket Grunt at (11, 16) (Rattata Lv 13, Zubat Lv 13) [Turn 1818].
+- [ ] Advance north past (11, 16) along Western Cavern Highway toward fossil chamber.
 - [ ] Locate Super Nerd Miguel, defeat him, choose a fossil, and proceed to exit ladder.
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
