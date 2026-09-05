@@ -30,3 +30,5 @@
 - Southern Corridor (Cols 11..33, Rows 31..32): 2-tile high corridor extending west from col 33 to col 11 along rows 31-32, bounded by rock walls to north (row 30) and south (row 33).
 - Western Cavern Highway (Cols 7..11, Rows 23..32+): At column 11, the corridor opens into a wide 5-tile thoroughfare (cols 7..11) heading north past row 27 toward the western/northwestern quadrant.
 - Unified Architecture Note: Southern Ladder (15, 27) and its surrounding plateau/corridors connect seamlessly with this main cavern without any map transition, confirming they are all part of this continuous B2F dungeon floor.
+
+- Team Rocket Grunt (11, 16): Stationed at (11, 16) facing South down Western Cavern Highway. Line of sight triggered at (11, 19). Dialogue: 'TEAM ROCKET will find the fossils, revive them and sell them for cash!'.
