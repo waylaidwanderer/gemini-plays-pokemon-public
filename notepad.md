@@ -595,7 +595,7 @@
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
 - Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Prize: ¥480. Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
-- Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary tested at (35, 16) [blocked]; rows 17 and 18 at Col 35 remain untested.
+- Southern Cavern Corridor (Cols 26..34, Rows 16..18): 3-tile high open cave corridor running east below the central rock formation and ledges. East boundary verified solid rock wall at Col 35 across rows 16, 17, and 18 (empirically tested blocked at 35, 16; 35, 17; 35, 18).
 
 
 <hr>
@@ -605,15 +605,16 @@
 # Mt. Moon Navigation & Exploration Scratchpad
 
 ## Current Route Plan
-15. [x] Tested east at (35, 16) [blocked]; (35, 17..18) remain untested.
+15. [x] Tested East at (35, 16) - confirmed blocked [Turn 1704].
 16. [x] Stepped Left onto (25, 18) [passable].
 17. [x] Tested Left onto (24, 18) [blocked by rock wall].
 18. [x] Verified Paras (FUNGI) stats and move Scratch in party menu [Turn 1721].
 19. [x] Tested (25, 19) directly south - confirmed impassable cliff boundary [Turn 1736].
-20. [ ] Advance east along row 18 from (29, 18) to (34, 18).
-21. [ ] Test East from (34, 18) into (35, 18) to check for eastern passage into unmapped cavern.
-22. [ ] Test East from (34, 17) into (35, 17).
-23. [ ] If east is fully blocked, test column 25 north: (25, 17) and (25, 16).
+20. [x] Advanced east along row 18 from (29, 18) to (34, 18) [Turn 1744].
+21. [x] Tested East at (35, 18) - confirmed blocked rock wall [Turn 1744].
+22. [x] Tested East at (35, 17) - confirmed blocked rock wall [Turn 1746].
+23. [ ] Advance west along row 16 to column 25 to test unvisited tiles (25, 16) and (25, 17).
+24. [ ] Test West from (25, 16) into (24, 16) and from (25, 17) into (24, 17) to check for passage to Ladder (21, 17).
 
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
