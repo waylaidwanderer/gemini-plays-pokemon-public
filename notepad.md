@@ -911,5 +911,9 @@
   - Interior bounds: Cols 10..13, Rows 1..5.
   - Trainer (11, 4): Gentleman [Defeated, Turn 2850] (Roster: Nidoran♂ Lv 19 - 243 EXP, Nidoran♀ Lv 19 - 240 EXP, Prize: ¥1330). Pre-battle: "You pup! How dare you barge in!". Defeat: "Humph! You rude child!".
   - Table/luggage at (10..11, 5), bed at (13, 4..5).
+- Cabin 2: Entrance at (19, 8) in 1F main hallway. Interior doorway at (20, 0).
+  - Interior bounds: Cols 20..23, Rows 1..5.
+  - NPC at (22, 1..2).
+  - Table at (20..21, 5), bed at (23, 4..5).
 
 <hr>
