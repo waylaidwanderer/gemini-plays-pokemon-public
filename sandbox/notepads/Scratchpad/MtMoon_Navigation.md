@@ -5,10 +5,8 @@
 2. [x] Enter Mt. Moon 1F via cave entrance (Turn 1482).
 3. [x] Defeat Super Nerd (24, 31) in Eastern Avenue (Turn 1519).
 4. [x] Collect Ground Item at (35, 31): RARE CANDY (Turn 1526).
-5. [x] Navigate through southern pocket, collected Rare Candy (35, 31).
-6. [ ] Ascend north along Eastern Avenue (cols 24-25) to row 11 corridor.
-7. [ ] Head through northern highway / alcove to Ladder (17, 11) -> B1F -> B2F.
-8. Primary Objective: Explore B2F depths and retrieve prehistoric fossil.
+5. [ ] Ascend north to Ladder (25, 15) in Eastern Avenue and descend to basement.
+6. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 20 (HP 52/56), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
@@ -18,4 +16,4 @@
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor)
-- 1F Ladder (21, 17) <-> Unexplored eastern descent (Immediate Target)
+- 1F Ladder (25, 15) <-> Unexplored eastern descent (Immediate Target)

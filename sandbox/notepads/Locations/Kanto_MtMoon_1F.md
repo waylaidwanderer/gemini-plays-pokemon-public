@@ -4,9 +4,7 @@
 - South Exit: Warp at (14, 35) leading outside to Route 4.
 - Ladder (13, 27): Ladder descending to basement chamber.
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (21, 17): Sighted ladder in east-central cavern at (21, 17), accessible via column 21.
-
-
+- Ladder (25, 15): Descending ladder in Eastern Avenue at (25, 15).
 
 ## Layout & Corridors
 
@@ -58,6 +56,5 @@
 
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
 - Asymmetric Traversal Barrier (23, 15): Row 15 allows eastward traversal from (21, 15) to (24, 15), but blocks westward traversal from (24, 15) into (23, 15). To return to column 21 from Eastern Avenue requires taking the southern bypass (rows 26..27).
-- Inert Tile (25, 15): Tile (25, 15) in Eastern Avenue is ordinary walkable cave floor; does not trigger any map warp.
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
