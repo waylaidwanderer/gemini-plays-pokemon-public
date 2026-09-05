@@ -37,6 +37,7 @@
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
+- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
 - [ ] Obtain HM01 Cut from the Captain of the S.S. Anne
 
 <hr>
@@ -57,6 +58,7 @@
 - HELIX FOSSIL x1
 - NUGGET x1
 - TM28 (DIG) x1
+- TM08 (BODY SLAM) x1
 
 ## Key Items
 - POKéDEX
@@ -924,7 +926,7 @@
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
   - Occupants: NPC at (13, 11), NPC at (10, 13), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
-  - Item Ball at (12, 15): Collected [Verifying identity in Bag]!
+  - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
 - Hallway NPC: Wandering trainer/sailor at (11..12, 6).
 
 <hr>
