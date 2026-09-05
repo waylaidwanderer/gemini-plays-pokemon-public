@@ -182,6 +182,7 @@
 - Trainer Rattata Lv 10: 121 EXP
 - Trainer Nidoran♂ Lv 10: 127 EXP
 - Trainer Rattata Lv 11: 133 EXP
+- Trainer Raticate Lv 16: 397 EXP
 - Trainer Weedle Lv 10: 111 EXP
 - Trainer Weedle Lv 11: 121 EXP
 - Trainer Diglett Lv 11: 190 EXP
@@ -590,7 +591,7 @@
 - Central Cross Corridor (Cols 18..28, Rows 12..14): Wide open cave floor running east-west below the entrance plateau cliff.
 - Northern Highway (Cols 20..22, Rows 5..13): Corridor bounded on east by plateau cliff (Cols 23..24) and on north by solid rock wall at row 4. Checkered tiles at Cols 18..19 are impassable.
 - Ledge (Cols 26..27, Row 15): South-facing one-way ledge.
-- Team Rocket Grunt (29, 17): Stationed in southern cavern at (29, 17), facing South. Dialogue: 'Little kids should leave grown-ups alone!'. Status: Engaged in battle.
+- Team Rocket Grunt (29, 17): Defeated (Raticate Lv 16). Dialogue: 'Little kids should leave grown-ups alone!' / 'I'm steamed!'.
 
 
 <hr>
