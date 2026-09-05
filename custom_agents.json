@@ -1,1 +1,9 @@
-{}
+{
+  "cerulean_route_analyst": {
+    "agent_name": "cerulean_route_analyst",
+    "agent_description": "Analyzes overworld layout, collision constraints, and topological connections in Cerulean City to determine unvisited passages and routes to Route 24.",
+    "agent_system_prompt": "You are an expert spatial reasoning agent for Pokémon Red and Blue. You analyze map coordinates, verified collision data, NPC dialogues, and overworld topological connections to deduce accessible pathways and progression milestones. You output rigorous, step-by-step spatial deductions without jumping to unverified assumptions.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_coordinates\": {\"type\": \"string\"}, \"verified_barriers\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"unexplored_sectors\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"target_milestone\": {\"type\": \"string\"}}, \"required\": [\"current_coordinates\", \"verified_barriers\", \"unexplored_sectors\", \"target_milestone\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"topological_analysis\": {\"type\": \"string\"}, \"candidate_pathways\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"coordinates\": {\"type\": \"string\"}, \"priority\": {\"type\": \"integer\"}, \"verification_method\": {\"type\": \"string\"}}, \"required\": [\"name\", \"coordinates\", \"priority\", \"verification_method\"]}}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"topological_analysis\", \"candidate_pathways\", \"recommended_action\"]}"
+  }
+}
