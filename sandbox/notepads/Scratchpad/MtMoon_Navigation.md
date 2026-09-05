@@ -10,7 +10,9 @@
 7. [ ] Defeat Youngster at (14, 16) on 1F (Turn 1621 concluding).
 8. [ ] Proceed south down column 15 to row 22 East-West Cross Corridor.
 9. [ ] Explore eastward to column 21 and descend Ladder (21, 17), or explore west.
-10. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
+10. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos.
+11. [ ] Descend Northwest Ladder (5, 5) to access main B2F cavern.
+12. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 20 (HP 49/56), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
