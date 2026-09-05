@@ -67,7 +67,7 @@
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Bite (PP 25/25)
+  - Moves: Tackle (PP 35/35)
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
