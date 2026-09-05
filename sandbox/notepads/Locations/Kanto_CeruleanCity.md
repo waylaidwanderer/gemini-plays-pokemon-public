@@ -5,7 +5,7 @@
 
 ## Geography & Layout
 - Central Lawn Ledge (Cols 22..23, Row 17): South-facing jump ledge bounding the lawn between Pokémon Center and Gym (impassable northbound from row 18, jumpable southbound from row 16).
-- Central House Gap (Cols 16..17, Rows 14..17): Rows 16..17 are walkable grass lawn. Empirically verified on Turn 2195 that (17, 15) is solid collision (impassable decorative railing/roof).
+- Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
 - Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
 - Western Fence Barrier (Cols 8..11, Row 15): Empirically verified on Turn 2183 that row 15 is a continuous solid wooden rail fence across columns 8..11, completely blocking northward access through column 10.
