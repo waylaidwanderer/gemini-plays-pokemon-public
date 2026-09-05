@@ -619,7 +619,7 @@
 - Eastern Ledge (Row 19, Cols 32..37): Continuous south-facing jump ledge extends across cols 32..37.
 - Eastern Bollard Line (Col 35, Rows 20..25): Vertical barrier of wooden bollards separating col 34 from cols 36..37.
 - Eastern Corridor (Col 34, Rows 20..25): Open north-south pale mint pathway running south between flower garden/building (cols 31..33) and bollards (col 35).
-- Southeast Building: Located at cols 28..33, rows 24..25+ with blue roof.
+- Southeast Building: Located at cols 28..33, rows 24..25 with blue roof. Empirically verified on Turn 2191 that (33, 25) is solid wall (no functional entrance door).
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
