@@ -2,7 +2,7 @@
 
 ## Connections
 - West: Route 4 eastern bridge at (0, 18..19).
-- North: Route 24 entrance at (20..21, 5..6).
+- North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
