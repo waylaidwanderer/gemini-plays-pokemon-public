@@ -2728,9 +2728,9 @@
 ## Ladders & Exits
 - NW Ladder (from 2F NW (1, 1)): Located at (2, 0) in isolated NW room
 - Ladder A (from 2F (23, 7)): Arrival tile at (23, 7) on upper plateau from 2F (23, 7). (Note: Descent from 3F (23, 7) is not bidirectional; use Ladder NE at (27, 7) or Ladder B at (25, 14) to descend).
-- Ladder NE (to 2F): Located at (27, 7) in eastern corridor (accessed via (28, 11) -> (29, 11) -> (29, 7) -> (27, 7))
+- Ladder NE (to 2F): Located at (27, 7) (accessed from Upper Dark Plateau via row 6). Note: Row 10 is a solid wall blocking northward traversal along column 29 from (29, 11).
 - Ladder B (to 2F SE): Located at (25, 14) in SE Lower Purple Room
-- THE PIT / HOLE: Located at (23, 14). Dropping a boulder through this hole lands on the 2F exit switch, permanently unlocking the 2F exit shutter to Indigo Plateau. Jumping down the hole drops the player to the 2F exit area.
+- THE PIT / HOLE: Located at (23, 14). Dropping a boulder through this hole is the planned mechanism to land on the 2F exit switch and unlock the 2F exit shutter.
 
 ## Physical Features & Topography
 - Upper Dark Plateau (rows 0-11, cols 19-28): Contains Ladder A (23, 7), Ladder NE (27, 7), Boulder 1 at (22, 3). Separated from lower floor by impassable south-facing cliff wall between row 11 and 12.
