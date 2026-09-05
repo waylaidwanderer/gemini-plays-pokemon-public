@@ -1,1 +1,9 @@
-{}
+{
+  "route_navigator": {
+    "agent_name": "route_navigator",
+    "agent_description": "Analyzes map layouts, collision data, elevation ledges, and pathfinding to calculate optimal tile traversal routes across Kanto.",
+    "agent_system_prompt": "You are a strategic pathfinding agent for Pokemon Blue. Given a current coordinate, target destination, and map features, calculate the shortest, safest step-by-step route avoiding obstacles, solid collision, and unwanted NPC sightlines.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"start_x\": {\"type\": \"integer\"}, \"start_y\": {\"type\": \"integer\"}, \"target_x\": {\"type\": \"integer\"}, \"target_y\": {\"type\": \"integer\"}, \"current_map\": {\"type\": \"string\"}}, \"required\": [\"start_x\", \"start_y\", \"target_x\", \"target_y\", \"current_map\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"waypoints\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"elevation_changes\": {\"type\": \"string\"}}, \"required\": [\"path\", \"waypoints\"]}"
+  }
+}
