@@ -610,7 +610,8 @@
 
 ## Geography & Layout
 - Central Lawn Fence (Cols 22..23, Row 17): Solid wooden rail fence bounding the lawn between Pokémon Center and Gym, empirically verified impassable on Turn 2145.
-- Central House Gap (Cols 16..17, Rows 14..17): Rows 16..17 are walkable checkered lawn, but rows 14..15 are a solid connecting roof between Northwest House (cols 13..16) and Pokémon Center (cols 18..21), blocking northern access at (17, 15).
+- Central House Gap (Cols 16..17, Rows 14..17): Rows 16..17 are walkable grass lawn; testing northern passage through (16..17, 15).
+- Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
 - Western Fence Barrier (Cols 8..11, Row 15): Empirically verified on Turn 2183 that row 15 is a continuous solid wooden rail fence across columns 8..11, completely blocking northward access through column 10.
 - Resident NPC (15, 16): "That bush in front of the shop is in the way. There might be a way around."
