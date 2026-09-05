@@ -137,7 +137,7 @@
 - Sheldon Bite PP: 10 / 25.
 
 ## Route 25 - Lass Haley (Turn 2448-2458)
-- Position: (18, 8) facing North.
+- Position: (18, 8) (engaged via manual interaction from (18, 7)).
 - Pre-battle Dialogue: "Hi! My boy friend is cool!"
 - Defeat Quote: "LASS: I was in bad condition!"
 - Team:
