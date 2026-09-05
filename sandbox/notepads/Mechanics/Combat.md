@@ -54,3 +54,10 @@
 - Rattata Lv 15: Sheldon Bubblebeam deals 69 damage (OHKO). Yield: 183 EXP.
 - Bulbasaur Lv 17: Used Growl (-1 Attack). Sheldon Bite deals ~23 damage on hit 1, ~17 damage at -1 Attack on hit 2 (2HKO). Yield: 232 EXP.
 - Total EXP Yield: 1,084 EXP. Prize: ¥595.
+
+## Route 24 Nugget Bridge - Bug Catcher Cale (Turn 2304-2310)
+- Position: (11, 31) facing West.
+- Caterpie Lv 14: Defeated in 1 hit by Bubblebeam (Critical Hit). Yield: 159 EXP.
+- Weedle Lv 14: Defeated in 1 hit by Bubblebeam. Yield: 156 EXP.
+- Sheldon grew to Level 25! Max HP increased to 68 (Current HP: 60 / 68).
+- Total EXP: 315 EXP.
