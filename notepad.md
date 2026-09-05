@@ -1060,8 +1060,8 @@
 ## Cabins & Exploration (In Progress)
 - Cabin 1 (Eastern Cabin): Entrance at (23, 3), interior doorway at (12, 15).
   - Interior bounds: Cols 10..13, Rows 11..15.
-  - Occupants: Sailor at (10, 13) facing East, Pokémon sprite at (11, 12) / (12, 11).
-  - Furniture: Desk/table at (10..11, 11), bunk bed at (13, 11..12).
+  - Occupants: Sailor at (10, 13) facing East, Machoke at (11, 12) ("Gwoh! Goggoh!").
+  - Furniture: Desk/table at (10..11, 11), bunk bed at (13, 11..12). No items in Cabin 1.
 - Cabin 2: Entrance at (19, 3), door approach at (19, 4).
 - Remaining Cabins: Expected at (15, 3), (11, 3), (7, 3).
 - Key Targets on B1F:
