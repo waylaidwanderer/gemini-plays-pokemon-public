@@ -33,9 +33,16 @@
   4. Walk North along column 29: (29, 16) -> (29, 11).
   5. Log tile-by-tile coordinate traversability from (29, 11) to (25, 14) / (27, 7) before ascending.
 
-## 2F Boulder 2 Verification Checklist
-- Step 1: Push Boulder 2 West along row 14 to (1, 14). Verify Player at (2, 14), Boulder at (1, 14).
-- Step 2: Reposition around to (1, 13) via (2, 13) -> (1, 13).
-- Step 3: Push Boulder 2 South from (1, 13) to (1, 15). Verify Player at (1, 14), Boulder at (1, 15).
-- Step 4: Push Boulder 2 South from (1, 14) onto Switch 1 at (1, 16). Verify Player at (1, 15), Boulder at (1, 16) [ON SWITCH!].
-- Step 5: Verify Shutters at (5, 10) and (21, 15) are opened before proceeding to the eastern corridor.
+## Verified Master Boulder 2 Solution (Verified Turn 29073)
+- Topology Discovery: Tile (1, 13) is a solid rock obstacle. Pushing Boulder 2 to (1, 14) corners it against (0, 14) and (1, 13). The correct path routes down Column 3 and west along Row 16!
+- Master Push Sequence:
+  1. Stand at (5, 14) facing West -> Push Left 1 time to (3, 14) [Boulder at (3, 14), Player at (4, 14)].
+  2. Reposition around to (3, 13) via (4, 13) -> (3, 13).
+  3. Stand at (3, 13) facing South -> Push Down 2 times:
+     - Push Down 1: Boulder at (3, 15), Player at (3, 14).
+     - Push Down 2: Boulder at (3, 16), Player at (3, 15).
+  4. Reposition around to (4, 16) via (4, 15) -> (4, 16) [facing West].
+  5. Stand at (4, 16) facing West -> Push Left 2 times:
+     - Push Left 1: Boulder at (2, 16), Player at (3, 16).
+     - Push Left 2: Boulder at (1, 16) [ON SWITCH 1!], Player at (2, 16).
+- Outcome: Switch 1 at (1, 16) activated! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) permanently opened.
