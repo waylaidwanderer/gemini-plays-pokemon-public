@@ -58,3 +58,8 @@
   - Roster: Rattata Lv 18 (Yield: 219 EXP), Pikachu Lv 18 (Yield: 315 EXP). Total EXP: 534. Prize: ¥270.
   - Pre-battle: "I never saw you at the party.". Defeat: "LASS: Take it easy!".
   - Combat: Sheldon Lv 31 used Bite on Rattata (OHKO). Sheldon Lv 31 used Bite on Pikachu (OHKO). Sheldon took 0 damage (HP 74/84). Bite PP: 19 -> 17. Bubblebeam PP: 15/20 (conserved). Water Gun PP: 23/25 (conserved).
+- **Rival RED [Turn 3042 - 3056] (S.S. Anne 2F Corridor at 36, 8):**
+  - Roster: Pidgeotto Lv 19 (Yield: 459 EXP), Raticate Lv 16 (Yield: 397 EXP), Kadabra Lv 18 (Yield: 558 EXP), Ivysaur Lv 20. Prize: ¥1300.
+  - Pre-battle: "Bonjour! BLUE! Imagine seeing you here!...". Defeat: "Humph! At least you're raising your POKéMON!".
+  - Combat: Sheldon Lv 31 used Bubblebeam on Pidgeotto (OHKO). Sheldon used Bubblebeam on Raticate (OHKO). Sheldon used Bite on Kadabra (OHKO). Sheldon used Bite on Ivysaur, Ivysaur used Vine Whip (dealt 17 dmg, Sheldon HP 74 -> 57/84), Sheldon used Bite (Ivysaur fainted).
+  - Outcome: Decisive victory. Total damage taken: 17 HP. Bubblebeam PP: 15 -> 13. Bite PP: 16 -> 14.
