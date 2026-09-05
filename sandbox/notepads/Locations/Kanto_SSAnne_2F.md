@@ -26,5 +26,4 @@
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
   - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Lass at (2, 12) [Defeated, Turn 3011] (Roster: Rattata Lv 18, Pikachu Lv 18; Prize: ¥270).
-  - Object at (0, 12): Unverified sprite (to be inspected in-game).
-  - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12).
+  - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12). No item ball.

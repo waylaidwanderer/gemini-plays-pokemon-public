@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 31, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥15620
+- Money: ¥15890
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -69,7 +69,7 @@
 - BIKE VOUCHER
 
 ## Money
-- ¥15620
+- ¥15890
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 31, Water]
@@ -185,6 +185,10 @@
   - Roster: Growlithe Lv 17 (Yield: 331 EXP), Ponyta Lv 17 (Yield: 553 EXP). Total EXP: 884. Prize: ¥1190.
   - Pre-battle: "Which do you like, a strong or a rare POKéMON?". Defeat: "GENTLEMAN: I must salute you!".
   - Combat: Sheldon Lv 30 used Water Gun on Growlithe (OHKO). Sheldon Lv 30 used Water Gun on Ponyta (OHKO). Sheldon grew to Lv 31 (HP 74/84, Atk 56, Def 67, Spd 56, Spc 58). Declined Withdraw to preserve moveset. Water Gun PP: 25 -> 23. Bubblebeam PP: 15/20 (conserved). Bite PP: 19/25 (conserved).
+- **Lass [Turn 3007 - 3011] (2F Cabin 4 at 2, 12):**
+  - Roster: Rattata Lv 18 (Yield: 219 EXP), Pikachu Lv 18 (Yield: 315 EXP). Total EXP: 534. Prize: ¥270.
+  - Pre-battle: "I never saw you at the party.". Defeat: "LASS: Take it easy!".
+  - Combat: Sheldon Lv 31 used Bite on Rattata (OHKO). Sheldon Lv 31 used Bite on Pikachu (OHKO). Sheldon took 0 damage (HP 74/84). Bite PP: 19 -> 17. Bubblebeam PP: 15/20 (conserved). Water Gun PP: 23/25 (conserved).
 
 
 <hr>
@@ -1041,7 +1045,7 @@
   - Furniture: Desk at (20..21, 1), chair at (20, 3), bed at (23, 1..2). No items in Cabin 3.
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Lass at (2, 11) [Defeated, Turn 3011] (Pre-battle: "I never saw you at the party.", Roster: Rattata Lv 18, Pikachu Lv 18).
+  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Lass at (2, 12) [Defeated, Turn 3011] (Roster: Rattata Lv 18, Pikachu Lv 18; Prize: ¥270).
   - Object at (0, 12): Unverified sprite (to be inspected in-game).
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12).
 
