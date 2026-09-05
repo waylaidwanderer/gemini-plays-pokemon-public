@@ -1,17 +1,19 @@
 # S.S. Anne B1F
 
 ## Connections
-- Stairs to 2F: Located at (19, 3) at eastern end of corridor (ascends to 2F west hallway at 2, 12).
-- West end: Dead end at col 0 (rows 2..3).
+- Stairs to 1F: Located at (27, 5) at eastern end of B1F corridor (ascends to 1F eastern corridor at 37, 15).
 
 ## Geography & Layout
-- Main Hallway: 2-tile wide corridor running east-west along rows 2..3 from col 0 to col 19 with yellow striped carpet.
-- North Wall (Row 1): Features ship wheel emblems at even columns (2, 4, 6, 8, 10, 12, 14, 16) and plain wall panels / potential cabin entrances at odd columns (3, 5, 7, 9, 11, 13, 15, 17).
-  - Empirical test [Turn 3090]: Stepped Up at (3, 2) into (3, 1) -> solid wall, no warp.
-- South Wall (Row 4): Solid continuous wall spanning cols 0 through 19.
-- Hallway NPC: Sailor SPRITE_932a wandering along row 3 between cols 4 and 12.
-  - Dialogue: "Our CAPTAIN is a sword master! He even teaches CUT to POKéMON!" (Stunned at 6, 3 Turn 3087).
+- Main Corridor: 2-tile wide hallway running east-west along rows 4..5 from col 27 heading West with yellow striped carpet.
+- North Wall (Row 3): Wall features blue plus emblems at (24, 3), (26, 3), plain wall panels at (25, 3), (27, 3), and an object/doorway structure at (23, 3).
+- South Wall (Row 6): Solid continuous wall bordering the corridor to the south.
+- East Boundary: Solid wall and void east of col 27.
+- Stairs Warp Tile: Player spawns at (27, 5) facing Down when descending from 1F.
 
-## Cabins (Exploration in Progress)
-- Candidate cabin doors along North wall at odd columns (5, 7, 9, 11, 13, 15, 17).
-- Key targets: TM44 (Rest), Super Potion, Ether, and Sailor trainer battles for EXP/money.
+## Cabins & Exploration (In Progress)
+- Current Objective: Explore westward along rows 4..5 from the stairs at (27, 5).
+- Key Targets on B1F:
+  - TM44 (Rest) item ball.
+  - Useful recovery items (Super Potion, Ether).
+  - Sailor trainer battles for EXP to level up Rocky (Geodude) and Sheldon (Wartortle).
+- Route: Walk West along row 5, inspect all doors and structures along rows 3 and 6.
