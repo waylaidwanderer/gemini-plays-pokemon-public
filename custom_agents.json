@@ -1,9 +1,1 @@
-{
-  "cave_navigator": {
-    "agent_name": "cave_navigator",
-    "agent_description": "Analyzes 3D cave topology, ladder warp graphs, and party endurance modeling based on empirical coordinates.",
-    "agent_system_prompt": "You are an analytical assistant for Pokémon Gen 1 retail navigation. You specialize in modeling 3D cave floor connections (1F, B1F, B2F), tracking party HP/PP endurance, and evaluating tile connectivity without making unverified assumptions.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}, \"current_floor\": {\"type\": \"string\"}, \"team_status\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_path\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommended_path\"]}"
-  }
-}
+{}
