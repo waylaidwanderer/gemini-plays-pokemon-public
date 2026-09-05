@@ -2691,26 +2691,23 @@
      - Reposition to (17, 11) -> Push South 1 onto Switch (17, 13)!
    - Outcome: 1F Shutters open. Walk to NW Ladder at (1, 1) and climb to 2F.
 
-2. **2F -> 3F NW Room Access**:
+2. **2F Boulder 2 & Switch 1 Solution**:
    - Arrive on 2F at (0, 8).
-   - Walk 7 steps North along Column 1 directly to 2F NW Ladder at (1, 1)! (No 2F puzzles needed yet!).
-   - Climb 2F NW Ladder (1, 1) to arrive in 3F NW Room at (2, 0).
-
-3. **3F NW Switch Activation**:
-   - In 3F NW Room, push NW Boulder from (5, 5) onto Switch (3, 5):
-     - Stand at (5, 4) -> Push Down 1 to (5, 6)
-     - Walk to (6, 6) -> Push Left 2 to (3, 6)
-     - Walk to (3, 7) -> Push Up 1 onto Switch (3, 5)!
-   - Outcome: 3F Shutters (including (21, 15) and (15, 15)) permanently opened!
-   - Descend 3F NW Ladder at (2, 0) back to 2F (1, 1).
-
-4. **2F Boulder 2 & Switch 1 Solution**:
-   - Walk to Boulder 2 at (4, 14).
+   - Walk South along Column 1/0 to Boulder 2 at (4, 14).
    - Push Boulder 2 onto Switch 1 at (1, 16) using verified master sequence:
      - Stand at (5, 14) -> Push Left 1 to (3, 14)
      - Stand at (3, 13) -> Push Down 2 to (3, 16)
      - Stand at (4, 16) -> Push Left 2 onto Switch 1 (1, 16)!
    - Outcome: 2F Shutter 1 (5, 10) and Shutter 3 (21, 15) permanently opened!
+
+3. **2F to 3F Main Floor (Ladder A)**:
+   - Walk through Shutter 1 (5, 10) -> (14, 8) -> (20, 14) -> Shutter 3 (21, 15) -> Column 29 -> Ladder A at (23, 7).
+   - Climb Ladder A to 3F (23, 7) to arrive on the 3F Upper Dark Plateau.
+
+4. **3F NW Switch & SE Pit Drop**:
+   - From 3F Upper Plateau, navigate to 3F SE Room via opened shutters or access.
+   - Push SE Boulder into Pit at (23, 14).
+   - Jump into the Pit at (23, 14) down to 2F!
 
 5. **2F to 3F SE Room & Pit Drop**:
    - Walk through Shutter 1 (5, 10) -> (14, 8) -> (20, 14) -> Shutter 3 (21, 15) -> Column 29 -> Ladder A at (23, 7).
