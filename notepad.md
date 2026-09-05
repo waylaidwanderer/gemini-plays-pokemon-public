@@ -821,5 +821,6 @@
 - Trainer 5 at (18, 8): Lass Haley stationed at (18, 8). Defeated Turn 2458. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Prize: ¥225.
 - Item Ball at (22, 2): Poké Ball visible east of column 21 tree line.
 - Trainer 6 at (23, 9): Hiker Nob stationed at (23, 9) facing North. Defeated Turn 2485. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Prize: ¥455.
+- Trainer 7 at (24, 4): Youngster stationed at (24, 4) facing South (sight range: 3 tiles, engaged at (24, 7)). Pre-battle: "I'm a cool guy. I've got a girl friend!". Team: 2 Pokémon.
 
 <hr>
