@@ -14,4 +14,4 @@
 - Cabin 1: Entrance at (9, 11) in B1F main hallway. Interior doorway at (2..3, 5).
   - Interior bounds: Cols 0..3, Rows 0..5.
   - Occupants: Sailor at (1, 2) facing South.
-  - Item Ball: Located at (0, 3).
+  - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
