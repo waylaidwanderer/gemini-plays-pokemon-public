@@ -26,5 +26,5 @@
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
   - Occupants: Gentleman at (1, 14) (Pre-battle: "Which do you like, a strong or a rare POKéMON?"), Person at (2, 11) facing South.
-  - Target: Item Ball at (0, 12).
+  - Object at (0, 12): Unverified sprite (to be inspected in-game).
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12).
