@@ -44,3 +44,5 @@
 - Note: Warping out via Dig / Escape Rope resets all dungeon entities to default spawn positions.
 - Boulder 1 default position: (22, 3) on Upper Dark Plateau.
 - NW Boulder default position: (5, 5) near NW Switch at (3, 5).
+- Row 11/12 Elevation Cliff (Empirically Verified Turn 29996): Row 11 is an impassable south-facing cliff wall separating the Upper Dark Plateau from the Lower Purple Floor (rows 12-14). Access from Row 11 to the Lower Highway (Row 16) requires walking east to Eastern Outer Corridor (cols 28-29) and south to row 16.
+- Row 16 Lower Highway: Spans east-west along rows 16-17, connecting Eastern Outer Corridor (cols 28-29) westward beneath the rock obstacles.
