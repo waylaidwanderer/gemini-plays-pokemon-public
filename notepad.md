@@ -2794,6 +2794,6 @@
 - Column 10 Connectivity: Row 1 above column 10 is separated from lower rows by a south-facing cliff wall; cannot walk south between row 1 and row 2 at column 10.
 - Boulder 1 at (22, 3): Positioned on upper dark plateau.
 - Boulder 2 at (24, 10): Positioned on upper dark plateau.
-- 2F Exit Shutter Mechanism: Dropping a boulder through the Pit at (23, 14) activates the floor switch on 2F that permanently unlocks the exit shutter to Indigo Plateau.
+
 
 <hr>
