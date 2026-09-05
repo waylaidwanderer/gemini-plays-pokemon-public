@@ -2778,7 +2778,7 @@
 
 ## Physical Features & Topography
 - Northern Highway (Rows 0-1): Continuously open from Column 27 west through Column 13 and beyond! Row 1 connects directly across all northern columns, while Row 2 (Purple Chamber) is separated from Row 1 by a solid cliff/wall.
-- NW Room Access: Directly connected to Central Bridge (Columns 6-7) at rows 6-8 and Northern Highway (Row 1), as well as 2F NW Ladder (1, 1) <-> 3F (2, 0).
+- NW Room Access: Connected to Central Bridge (Columns 6-7) via Row 2 ((6, 2) -> (2, 2)) and to 2F NW Ladder (1, 1) <-> 3F (2, 0). Note: (6, 7) at the south base of Central Bridge is an impassable wall.
 - Upper Dark Plateau (rows 0-11, cols 15-28): Contains Ladder A (23, 7), Ladder NE (27, 7), and connects via southern corridor (row 11) to column 28/29.
 - Central Bridge (Columns 6-7): Spans rows 0-6 connecting Northern Highway (Row 1) south to NW Room and Row 6 cross-corridor.
 - Central Corridor (Columns 9-10): Vertical corridor spanning rows 2-10 (terminates at (10, 10)). Row 10 connects west to (8, 10) (adjacent to Switch Plate at (3, 5)).
