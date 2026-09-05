@@ -463,7 +463,7 @@
 - Ladder (13, 27): Ladder descending to basement chamber.
 
 - Ladder (17, 11): Ladder in north-central corridor.
-- Ladder (21, 17): Sighted ladder in east-central cavern.
+- Ladder (25, 15): Sighted ladder in east-central cavern at (25, 15), accessible via row 15 cross-corridor.
 
 
 
@@ -588,7 +588,7 @@
 ## 3D Cavern Hypothesis & Ladder Graph
 - 1F Ladder (13, 27) <-> B1F (15, 27) (South cavern pocket)
 - 1F Ladder (17, 11) <-> B1F (25, 9) -> B1F (17, 11) <-> B2F (25, 9) (Central transit corridor)
-- 1F Ladder (21, 17) <-> Unexplored eastern descent (Target for exploration)
+- 1F Ladder (25, 15) <-> Unexplored eastern descent (Target for exploration)
 
 <!-- Scratchpad active and verified -->
 
