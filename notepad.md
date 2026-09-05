@@ -2797,6 +2797,15 @@
 ## 3F Pit Area & Boulder Observations
 - Boulder observed at (24, 10).
 - Column 13 / Row 11: Pushing boulder at (13, 12) down to (13, 13) dead-ends against rock obstacle at (13, 14).
+## Active 3F Puzzle State (Turn 30333)
+- Strength active with ATLAS.
+- Boulder 1 currently at (22, 6). Pushing south down Column 22 to row 8 at (22, 8).
+- Next: Reposition to (23, 8) -> push West along row 8 to (20, 8) -> push South along Column 20 to row 14 -> push East into Pit at (23, 14).
+- Verified Boundaries on 3F:
+  - Row 6 rock wall across columns 24-28 (Cooltrainer pocket).
+  - Row 9 rock wall across (21..24, 9).
+  - Column 20 is clear floor from (20, 8) south through (20, 15).
+
 ## 3F Default Boulder & Switch Layout
 - Note: Warping out via Dig / Escape Rope resets all dungeon entities to default spawn positions.
 - Boulder 1 default position: (22, 3) on Upper Dark Plateau.
