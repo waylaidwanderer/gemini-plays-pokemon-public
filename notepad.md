@@ -556,6 +556,10 @@
 - Team Rocket Grunt: Stationed at (15, 24) facing South in Southern Section.
   - Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11.
   - Status: Defeated.
+### Northwest Transit Corridor (1F Ladder 5, 5 Area)
+- Ladder (5, 5): Ascending ladder leading back to Mt. Moon 1F at (5, 5).
+- Layout: 4-tile wide north-south corridor spanning cols 4..7, extending south from row 4 past row 9.
+
 
 <hr>
 
@@ -596,7 +600,9 @@
 8. [ ] Proceed south down column 15 to row 22 East-West Cross Corridor.
 9. [ ] Explore eastward to column 21 and descend Ladder (21, 17), or explore west.
 10. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos.
-11. [ ] Descend Northwest Ladder (5, 5) to access main B2F cavern.
+11. [x] Descended Northwest Ladder (5, 5) to B1F Northwest corridor (Turn 1644).
+12. [ ] Follow B1F corridor south to descending ladder to main B2F cavern.
+13. Primary Objective: Explore main B2F cavern depths and retrieve prehistoric fossil.
 12. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
