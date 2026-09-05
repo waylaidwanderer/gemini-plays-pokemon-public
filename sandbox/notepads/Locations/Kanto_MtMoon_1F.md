@@ -57,3 +57,5 @@
 - Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
+
+- Youngster (14, 16): Stationed at (12..14, 16) facing East. Dialogue: "Did you come to explore too?". Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Status: Defeated. Prize: �150.
