@@ -67,7 +67,8 @@
   - Status: Healthy
   - HP: 29 / 29
   - Stats: Attack 21, Defense 16, Speed 11, Special 18
-  - Moves: Pending Page 2 inspection
+  - Moves: Scratch (PP 35/35)
+  - EXP: 1000 (331 to Lv 11)
 
 <hr>
 
