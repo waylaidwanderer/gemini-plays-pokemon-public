@@ -127,9 +127,9 @@
 - Level 23 Stats: Max HP 63, Attack 41, Defense 50, Speed 41, Special 42
 - Level 24 Stats: Max HP 66, Attack 43, Defense 52, Speed 43, Special 44
 - Moves:
-  - Tackle (Normal, Physical, Power 35, Accuracy 95%, PP 35/35)
+  - Bite (Normal, Physical, Power 60, Accuracy 100%, 10% flinch, PP 25/25)
   - Tail Whip (Normal, Status, Lowers Defense 1 stage, Accuracy 100%, PP 30/30)
-  - Bubble (Water, Special, Power 20, STAB, 33% chance to lower Speed, Accuracy 100%, PP 30/30)
+  - Bubblebeam (Water, Special, Power 65, STAB, 33% chance to lower Speed, Accuracy 100%, PP 20/20)
   - Water Gun (Water, Special, Power 40, STAB, Accuracy 100%, PP 25/25)
 
 ## Party Member Reference: Rocky (Geodude)
@@ -147,7 +147,7 @@
 
 ## Cerulean Gym Combat Bounds
 - Leader Misty Staryu Lv 18: Tackle deals 4 HP damage to Sheldon (neutral Defense 50). Uses X DEFEND when HP is critical. Sheldon Lv 23 Tackle deals ~30-35% max HP damage (Critical hit deals ~55% max HP damage). Defeat yield: 408 EXP.
-- Leader Misty Starmie Lv 21: Tackle deals 6 HP damage (critical hit 10 HP damage) to Sheldon (neutral Defense 50). Uses X DEFEND. Sheldon Tail Whip lowers Starmie Def 1 stage. Starmie fainted to Sheldon Tackle. Defeated Leader Misty Turn 2077.
+- Leader Misty Starmie Lv 21: Tackle deals 6 HP damage (critical hit 10 HP damage) to Sheldon (neutral Defense 50). Uses X DEFEND. Sheldon Tail Whip lowers Starmie Def 1 stage. Defeat yield: 931 EXP. Prize: ¥2079, CASCADEBADGE, TM11 (BUBBLEBEAM).
 - Swimmer Horsea Lv 16 Bubble vs Sheldon (Water type, Special 41): 2 HP damage.
 - Sheldon Lv 22 Critical Tackle vs Horsea Lv 16: ~40% max HP damage. Defeat yield: 283 EXP.
 - Swimmer Shellder Lv 16: Tackle deals 4 HP damage (critical hit 6 HP). Defeat yield: 331 EXP. Prize: ¥80.
@@ -609,7 +609,7 @@
 - West: Route 4 eastern bridge at (0, 18..19).
 
 ## Geography & Layout
-- Northern Avenue (Cols 8..11, Rows 14..18): Open north-south thoroughfare between the western canal (cols 0..6) and Northwest House (cols 12..15), providing the main street connection leading north to Route 24 (Nugget Bridge).
+- Northern Corridor Hypothesis (Cols 8..11, Rows 14..18): Open north-south thoroughfare between western canal (cols 0..6) and Northwest House (cols 12..15); currently exploring northward to verify if it connects to Route 24 or terminates.
 - Eastern Corridor (Cols 32..37, Rows 19..21): Street running east past Gym. At row 19, a continuous south-facing jump ledge blocks northward movement from the south (one-way drop-down from northern district).
 - Gym Front Street NPC: Boy stationed at (31, 20) facing South. Passable to the south via row 21.
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
