@@ -1,24 +1,24 @@
 <h1><code>Main</code></h1>
 
-# Pokémon Blue - Journey Log
+# PokÃ©mon Blue - Journey Log
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 29, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥10310
-- Pokédex: 5 Caught / 14 Seen
+- Money: Â¥10310
+- PokÃ©dex: 5 Caught / 14 Seen
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
-- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
+- [x] Receive Starter PokÃ©mon from Professor Oak (Squirtle) [Turn 40]
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 - [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Visit Viridian City Poké Mart [Turn 169]
+- [x] Visit Viridian City PokÃ© Mart [Turn 169]
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
-- [x] Obtain Pokédex from Prof. Oak [Turn 214]
+- [x] Obtain PokÃ©dex from Prof. Oak [Turn 214]
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
-- [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
+- [x] Return to Viridian City, heal team & purchase PokÃ© Ball [Turn 284]
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 - [x] Reach Pewter City [Turn 495]
 - [x] Defeat Pewter Gym Leader Brock [Turn 594]
@@ -789,15 +789,15 @@
 - Northern Tall Grass Field: Extends across cols 8..13, rows 14..18+.
 - Western North-South Highway (Cols 4..5, Rows 12..17+): 2-tile wide paved road running south toward Vermilion City, completely bypassing the tall grass field.
 - Central Cross-Plaza (Rows 20..21, Cols 4..14+): Continuous paved clearing connecting western highway to eastern passage.
-- Trainer (10, 21): Jr. Trainer ♂ (Ricky) facing West along row 21.
-- Trainer (11, 21): Jr. Trainer ♀ (Nancy) facing West along row 21.
+- Trainer (10, 21): Jr. Trainer â (Ricky) facing West along row 21.
+- Trainer (11, 21): Jr. Trainer â (Nancy) facing West along row 21.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
-- Trainer (19, 26): Bug Catcher Elijah (1 Pokémon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
+- Trainer (19, 26): Bug Catcher Elijah (1 PokÃ©mon). Engaged at (17, 26). Pre-battle dialogue: "I've never seen you around! Are you good?".
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
-- Trainer (11, 30): Jr. Trainer ♀ [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
-- Trainer (11, 31): Jr. Trainer ♂ [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
+- Trainer (11, 30): Jr. Trainer â [Defeated, Turn 2682] (Roster: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16). Pre-battle dialogue: "Me? Well, OK. I'll play!".
+- Trainer (11, 31): Jr. Trainer â [Defeated, Turn 2695] (Roster: Spearow Lv 16, Raticate Lv 16). Pre-battle dialogue: "Huh? You want to talk to me?".
 
 <hr>
 
@@ -817,16 +817,16 @@
 - Northern Building West: Cols 15..17, rows 0..3.
 - Northern Building East: Cols 20..23, rows 0..3.
 - Cut Trees: Visible at (24, 3).
-- Pokémon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKé" sign at (12, 3).
-- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of Pokémon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
+- PokÃ©mon Center: Building at cols 11..13, rows 0..3. Entrance door at (11, 3). "POKÃ©" sign at (12, 3).
+- House (Fishing Guru): Building at cols 7..9, rows 0..3. Entrance door at (7, 3). Directly west of PokÃ©mon Center. Interior: Guru at (2, 4) facing South gives Old Rod; entrance mat at (2..3, 7).
 - Central Building (Trade House): Cols 14..17, rows 10..13. Entrance door at (15, 13) facing South. Interior: NPC at (3, 5) trades Spearow for Farfetch'd (DUX)!
-- Western Building (Pok�mon Fan Club): Cols 8..11, rows 10..13, located west across the passage and directly north of the Gym.
+- Western Building (Unverified): Cols 8..11, rows 10..13, located west across the passage and directly north of the Gym. Suspected Pokémon Fan Club.
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..15 connecting south towards Gym and north towards water inlet.
 - Vermilion Gym: Building at cols 10..13, rows 16..19+. "GYM" sign visible at (11, 18).
 - Cut Tree: Located at (15, 18), blocking direct access to the Gym entrance!
 - Water Shoreline (Central/South): Shore begins at row 18 (cols 16..19) and extends south. Ocean water covers cols 19..28 at row 22+.
 - House Southeast (Pidgey Letter House): Cols 22..25, rows 16..19. Entrance door at (23, 19). Interior: Girl with Pidgey sending letter to Saffron City.
-- Pok� Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
+- Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
 
 
 <hr>
