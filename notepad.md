@@ -517,6 +517,9 @@
 
 - Youngster (14, 16): Stationed at (12..14, 16) facing East. Dialogue: "Did you come to explore too?". Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Status: Defeated. Prize: �150.
 
+- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: �350.
+- Ladder (5, 5): Descending ladder in the northwest corner of 1F.
+
 
 <hr>
 
@@ -591,7 +594,9 @@
 7. [ ] Defeat Youngster at (14, 16) on 1F (Turn 1621 concluding).
 8. [ ] Proceed south down column 15 to row 22 East-West Cross Corridor.
 9. [ ] Explore eastward to column 21 and descend Ladder (21, 17), or explore west.
-10. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
+10. [x] Discovered Northwest Ladder at (5, 5) and defeated Hiker Marcos.
+11. [ ] Descend Northwest Ladder (5, 5) to access main B2F cavern.
+12. Primary Objective: Explore basement depths and retrieve prehistoric fossil.
 
 ## Party & Inventory Status
 - Active Team: Wartortle (SHELDON) Lv 20 (HP 49/56), Spearow (FALCO) Lv 5, Geodude (ROCKY) Lv 8
