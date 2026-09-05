@@ -849,6 +849,11 @@
 - House Southeast (Pidgey Letter House): Cols 22..25, rows 16..19. Entrance door at (23, 19). Interior: Girl with Pidgey sending letter to Saffron City.
 - Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
 
+## S.S. Anne Docks & Harbor
+- Location: Eastern Vermilion City at columns 30..31.
+- Approach: Paved thoroughfare runs east along rows 14..15 past Poké Mart (cols 24..28) to the pier entrance at (30, 15..16).
+- Signpost (29, 15): Harbor sign located immediately west of pier entrance.
+- Pier: 2-tile wide wooden plank pier (cols 30..31) extending south from row 16 through the water into the ocean.
 
 <hr>
 
