@@ -16,7 +16,7 @@
 - POKéDEX
 
 ## Money
-- ¥7820
+- ¥8275
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 27, Water]

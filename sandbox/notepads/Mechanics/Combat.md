@@ -145,3 +145,14 @@
   - Nidoran♀ Lv 15: Defeated in 1 hit by Sheldon Bubblebeam (Critical Hit). Yield: 189 EXP.
 - Total EXP Yield: 381 EXP. Prize: ¥225.
 - Sheldon HP: 23 / 73 (Poisoned). Bubblebeam PP: 11 / 20, Water Gun PP: 17 / 25.
+## Route 25 - Hiker Nob (Turn 2468-2485)
+- Position: (23, 9) facing North. Engaged when player stepped to (23, 8).
+- Pre-battle Dialogue: "I'm off to see a POKéMON collector at the cape!"
+- Defeat Quote: "HIKER: You got me."
+- Team:
+  - Geodude Lv 13: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 238 EXP.
+  - Geodude Lv 13: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 238 EXP.
+  - Machop Lv 13: Defeated in 1 hit by Sheldon Bubblebeam. Yield: 244 EXP.
+  - Geodude Lv 13: Defeated in 1 hit by Sheldon Water Gun (Super Effective 4x). Yield: 238 EXP.
+- Total EXP Yield: 958 EXP. Prize: ¥455.
+- Sheldon HP: 23 / 73 (Healthy). Bubblebeam PP: 10 / 20, Water Gun PP: 14 / 25.
