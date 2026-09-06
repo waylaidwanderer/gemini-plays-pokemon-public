@@ -1,1 +1,9 @@
-{}
+{
+  "rock_tunnel_expedition_auditor": {
+    "agent_name": "rock_tunnel_expedition_auditor",
+    "agent_description": "Analyzes party combat roles, HM distribution (Cut, Flash), moveset sacrifices, and inventory strategy for the upcoming Route 9, Route 10, and Rock Tunnel expedition.",
+    "agent_system_prompt": "You are a tactical advisor specializing in retail Pokémon Red and Blue mechanics. Your objective is to audit team readiness for upcoming routes and dungeons, ensuring HM field move distribution, party typing coverage, and inventory space are fully optimized before embarking on long routes without Pokémon Centers.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party_summary\": {\"type\": \"string\"}, \"inventory_summary\": {\"type\": \"string\"}, \"upcoming_dungeon\": {\"type\": \"string\"}}, \"required\": [\"party_summary\", \"inventory_summary\", \"upcoming_dungeon\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"combat_readiness\": {\"type\": \"string\"}, \"hm_strategy\": {\"type\": \"string\"}, \"item_bag_recommendations\": {\"type\": \"string\"}, \"overall_verdict\": {\"type\": \"string\"}}, \"required\": [\"combat_readiness\", \"hm_strategy\", \"item_bag_recommendations\", \"overall_verdict\"]}"
+  }
+}
