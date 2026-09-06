@@ -1,7 +1,7 @@
 # Route 5 Geography & Points of Interest
 
 ## Connections
-- North: Cerulean City southern gateway at (16..17, 0) [connects to Cerulean (26..27, 36)].
+- North: Cerulean City southern gateway at (16..17, 0) [connects to Cerulean (26..27, 36)], and tall grass corridor warp at (15, 0) <-> Cerulean City (25, 35).
 - South: Saffron City northern gatehouse (inaccessible; guards thirsty) and Underground Path to Route 6 / Vermilion City.
 
 ## Geography & Layout
