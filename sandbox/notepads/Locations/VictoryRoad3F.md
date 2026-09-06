@@ -35,3 +35,9 @@
 - Tested (1, 6) -> Down (bumped into wall at row 6) and (0, 6) -> Down (bumped into wall at (0, 7)).
 - The NW Room and Upper Dark Plateau form an isolated upper sector connected to 2F via NW Ladder at (2, 0) and Ladder NE at (27, 7).
 - The Lower Purple Floor (Pit sector) containing Ladder B at (25, 14), Pit Boulder at (22, 15), and Pit at (23, 15) is accessed directly via Ladder B from 2F.
+## 3F Mid-Floor Barrier Matrix & Corridor Connectivity (Verified Turn 32192)
+- Row 8: (20..23, 8) open dark highway connecting col 20 to col 23 (Ladder A @ (23, 7)). (24, 8) is solid rock. (25, 8) open to Ladder NE @ (26, 8).
+- Row 9 Barrier: (21..24, 9) is a solid rock wall blocking southward passage between col 21-24. Passable corridors south are Column 20 (17..20, 9) and Column 25 (25..26, 9).
+- Row 10: Western sector (17..20, 10) open. Central pocket (22..23, 10) open. Boulder 2 chokepoint @ (24, 10) sits between rock walls (24, 9) and (24, 11), blocking access to eastern corridor (25..26, 10).
+- Row 11: Western sector (17..20, 11) open. (21, 11) solid rock. Central pocket (22..23, 11) open. (24, 11) solid rock. Eastern corridor (25..26, 11) open.
+- Row 12: Western barrier (17..21, 12) solid rock wall.
