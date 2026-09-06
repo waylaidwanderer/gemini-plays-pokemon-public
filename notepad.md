@@ -2684,7 +2684,7 @@
 4. **3F Pit Boulder & Final Exit (IN PROGRESS)**:
    - Pit Boulder at (22, 15) successfully pushed East into Pit at (23, 15) [Dropped to 2F Turn 30970]!
    - Jump into the Pit at (23, 15) down to 2F!
-   - Land on 2F at (24, 14) behind the ledge in the enclosed exit room with the fallen boulder.
+   - Land on 2F at (22, 16) with the fallen boulder at (23, 16).
    - Push the fallen boulder onto the switch to lower the final exit shutter.
    - Ascend the exit ladder to Route 23 North / Indigo Plateau!
 
