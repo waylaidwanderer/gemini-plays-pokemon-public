@@ -28,7 +28,11 @@
 - Cycle 6: Switch 1 at (5, 11) [Turn 3432]. Tested adjacent Can (3, 11) -> reset [Turn 3434].
 
 ## Active Cycle 7 (Current)
-- Cycle 7 begins at (3, 12).
+- Cycle 7: Switch 1 at (7, 9) [Turn 3449]. Tested adjacent Can (9, 9) -> reset [Turn 3453].
+
+## Strategic Pivot (Turn 3453)
+- Completed 7 consecutive cycles in Vermilion Gym.
+- Exiting Gym to explore Route 11 and Diglett's Cave for a Ground-type counter (Diglett/Dugtrio) before returning.
 
 - Can (3, 11): Tested [Turn 3436] -> Only trash.
 - Can (1, 11): Tested [Turn 3437] -> Only trash.
