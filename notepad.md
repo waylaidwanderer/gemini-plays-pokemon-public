@@ -2825,4 +2825,10 @@
    - Stand at (1, 5) facing East -> Push Right 1 time onto Switch Plate (3, 5)!
 9. Outcome: Switch (3, 5) ACTIVATED! Shutter at (17, 5) OPENED!
 
+## Final Pit & Exit Puzzle Coordinates (Verified Turn 30942)
+- Pit Boulder: Located at (22, 15) on Row 15.
+- The Pit: Located at (23, 15).
+- Access Route: Northern Highway (Row 1) -> Eastern Outer Highway (Column 28, rows 1-16) -> Row 15 Highway (cols 21-28) -> (21, 15) [Push East into Pit (23, 15)].
+- Critical Safety Rule: Avoid stepping North into (23, 7) (Ladder A warp). Bypass via Column 20/21.
+
 <hr>
