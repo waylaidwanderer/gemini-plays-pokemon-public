@@ -18,7 +18,3 @@
 ## Obedience
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
-## Boss Battle Tactics & Preparation (Audited Turn 2766)
-- **Team Utility:**
-  - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
-  - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
