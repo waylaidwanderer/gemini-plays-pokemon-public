@@ -1470,7 +1470,7 @@
 
 ## Geography & Layout
 - Northern Entrance (Cols 8..11, Rows 0..2): Open green lawn entering from Route 10 South.
-- Town Signpost at (9, 3): Located just south of the northern entrance.
+- Signpost at (9, 3): Silph Scope advertisement ("New SILPH SCOPE! Make the Invisible Plain to See! SILPH CO.") [Turn 4843].
 - Pokémon Tower (Northeast): Large multi-story landmark building spanning cols 12..19, rows 0..11+.
 - Northwest Building: Located at cols 2..7, rows 2..5+.
 
@@ -1480,6 +1480,5 @@
 - Pokémon Tower: Located in northeast quadrant.
 - Lavender Volunteer Pokémon House (Mr. Fuji): TBD
 - Name Rater's House: TBD
-
 
 <hr>
