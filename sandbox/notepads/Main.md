@@ -50,3 +50,4 @@
 - [x] Enter Rock Tunnel on Route 10 [Turn 4547]
 - [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
 - [x] Arrive in Lavender Town [Turn 4839]
+- [x] Defeat Rival RED on Pokémon Tower 2F [Turn 4940]
