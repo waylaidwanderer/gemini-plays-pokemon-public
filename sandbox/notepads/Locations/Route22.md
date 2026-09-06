@@ -11,7 +11,6 @@
 
 ## Verified Topology & Navigation Routes (Verified Turn 32761)
 - Upper Highway (Row 5): Extends west from Route 22 east entrance (39, 5) to (16..18, 5). Connects west to row 4 northern bypass at (16..17, 4).
-- Row 4 Northern Bypass & Cut Tree: Note: The Cut tree at (14, 4) is located inside Viridian City, not on Route 22.
 - Statue Barrier: Statues sit along row 5 at columns 9..13 and along column 7 (7, 6..14).
 - Gatehouse Building: Spans columns 2..5 (rows 0..9/13).
 - Western Ledge Descent: From (16, 5), hop south down the Row 7 ledge (16, 7) into western tall grass (16, 8..11) and descend directly to the Row 12 Lawn at (16, 12).

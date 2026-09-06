@@ -19,3 +19,4 @@
 - Signpost: Located at (19, 1) near northern exit to Route 2.
 ## Verified Route 22 Transit
 - Route 22 connects to Viridian City at the west edge (rows 8-9), accessible via the paved avenue at rows 18-19 and column 4.
+- Row 27 Ledge Bypass: Located at (19, 27), allowing passage from the southern road (row 28/30) north into the Pokémon Center courtyard at row 26.
