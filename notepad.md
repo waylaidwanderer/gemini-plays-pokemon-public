@@ -87,11 +87,11 @@
 - ¥27671
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 36, Water]
   - Status: Healthy
-  - HP: 90 / 94
-  - Stats: Attack 63, Defense 77, Speed 63, Special 65
-  - Moves: Bite (PP 25/25), Body Slam (PP 7/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Learned Turn 4031]
+  - HP: 93 / 97
+  - Stats: Attack 65, Defense 79, Speed 65, Special 67
+  - Moves: Bite (PP 23/25), Body Slam (PP 7/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
