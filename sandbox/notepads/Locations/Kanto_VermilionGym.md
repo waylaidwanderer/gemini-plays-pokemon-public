@@ -12,7 +12,7 @@
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
 - Rocker Trainer at (3, 8) [Defeated, Turn 3288].
 - Sailor Trainer at (0, 10) [Defeated, Turn 3299]: Stationed at (0, 10) facing East along row 10 (moved to 2, 10 during battle).
-- Trainer at (9, 6): Stationed at (9, 6) facing West along row 6. Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
+- Gentleman Trainer at (9, 6) [Defeated, Turn 3304]: Stationed at (9, 6) facing West along row 6. Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
 
 ## Mechanics & Locks
 - Door Locks: Gym Guide states a code must be broken to reach Lt. Surge. Exact mechanism unverified.

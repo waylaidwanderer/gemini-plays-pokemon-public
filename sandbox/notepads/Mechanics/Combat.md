@@ -118,3 +118,9 @@
   - Pre-battle: "This is no place for kids!". Defeat: "SAILOR: Wow! Surprised me!".
   - Combat: Sheldon Lv 34 used Bite on Pikachu 1 (OHKO). Sheldon Lv 34 used Bite on Pikachu 2 (OHKO). Sheldon took 0 damage (HP 88/91). Bite PP: 25 -> 23/25.
   - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
+
+- **Gentleman [Turn 3302 - 3304] (Vermilion Gym at 9, 6):**
+  - Roster: Pikachu Lv 23 (Yield: 403 EXP).
+  - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
+  - Combat: Sheldon Lv 34 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 88/91). Bubblebeam PP: 16 -> 15/20.
+  - Outcome: Decisive victory.
