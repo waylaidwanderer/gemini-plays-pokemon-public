@@ -1278,7 +1278,7 @@
 - Western Pocket / Southern Highway (Rows 14..15): Gravel corridor spanning cols 10..23. Bounded on the west by solid cliff wall at col 9 (tested Turns 4118, 4138) and on the east by mountain cliff at cols 24..27 (rows 13..18 solid cliff). Bounded south by cliff at row 16 and north by south-facing ledge at row 13.
 - Tile (19, 13) Ramp: Empirically verified walkable slope/ramp connecting the southern highway (rows 14-15) north into row 12 grass and the main highway [Turn 4146].
 - Tile (29, 13) Ramp: Walkable slope/ramp connecting the eastern tall grass strip (rows 14-15) north into row 12 and the central highway [Turn 4178].
-- Tile (29, 9) Ramp: Walkable slope/ramp connecting row 10 tall grass north onto row 8 lawn and upper highway [Turn 4181].
+- Tile (29, 9) Ramp: Confirmed fully walkable ramp connecting row 10 (Middle Terrace) north onto row 8 lawn (Top Terrace) [Empirically verified Turn 4259].
 - Main Route 9 Highway (Rows 10..11): Wide open gravel avenue spanning east from col 20 towards col 28 tall grass and Route 10.
 - Central Tall Grass Corridor (Row 12): Continuous east-west grass avenue spanning cols 28..37+ bounded south by row 13 ledge and north by rocky outcroppings.
 - Eastern Grass Strip (Rows 14..15): Lower tall grass strip entered via hopping row 13 ledge at (40..41, 13). Spans east to col 53; terminated on the east by cliff at col 54 (tested Turn 4155). Row 13 ledges north at cols 46, 47, 52, 53 confirmed impassable going north.
