@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 37, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥33546
+- Money: ¥34211
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -1357,7 +1357,7 @@
 - Arrived via Ladder 2 from B1F (27, 3) -> 1F (5, 3) [Turn 4660].
 - Chamber at cols 3-7, rows 2-4 with Ladder 2 at (5, 3).
 - Open area at rows 6-10 across cols 2-10+.
-- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Engaged Turn 4664. Guards column 7 entrance to eastern passage.
+- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Prize: ¥665. Defeated Turn 4675.
 
 <hr>
 
