@@ -2737,6 +2737,7 @@
 - Chokepoint Boulder (13, 12): Blocks direct vertical access from (13, 11) to (13, 13). Pushing it down into (13, 13) closes diagonal passage to (14, 13).
 - Pit Room Route: From Central Bridge (6, 15), walk East along Row 15 directly to (21, 15) facing East beside the Pit Boulder at (22, 15).
 - Cooltrainer at (28, 5): Defeated (Turn 33412 verified dialogue: "You beat GIOVANNI of TEAM ROCKET?").
+- Row 1 South Cliff: Impassable cliff boundary between Row 1 and Row 2 across columns 9-14 blocks southward walking from Row 1 Northern Highway directly onto the Row 2 light purple floor.
 
 <hr>
 
