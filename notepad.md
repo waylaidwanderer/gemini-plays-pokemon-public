@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 38, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥36541
+- Money: ¥36921
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -85,7 +85,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥36541
+- ¥36921
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 38, Water]
@@ -1374,7 +1374,7 @@
 - Jr. Trainer ♀ at (37, 21) facing West ("Eek! Don't try anything funny in the dark!"): Bellsprout Lv 22, Clefairy Lv 22. Prize: ¥440. Defeated Turn 4745. Stations along row 21.
 - West Wall of Exit Hall: Column 31 is a solid vertical rock wall (rows 14-21).
 - Southward Avenue: Exit hall turns south along cols 32-36, extending south past row 21 .
-- Jr. Trainer ♀ at (32, 24) facing East ("You have POKéMON! Let's start!"): Engaged Turn 4748. Stations along row 24.
+- Jr. Trainer ♀ at (32, 24) facing East ("You have POKéMON! Let's start!"): Pidgey Lv 19, Rattata Lv 19, Bellsprout Lv 19. Prize: ¥380. Defeated Turn 4760. Stations along row 24.
 - Southern Avenue Extension: Wide open corridor spanning cols 33-37 from row 21 down past row 25+.
 
 
