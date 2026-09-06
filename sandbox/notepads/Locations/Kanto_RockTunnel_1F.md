@@ -16,3 +16,4 @@
 - Central rock divider: (18..19, 8..15) separates the eastern forward route from the western return pocket.
 - Western Return Pocket: Ladder at (17, 11), trainer visible at (17, 15), connected south via row 16.
 - Eastern Forward Corridor: Rows 10..13 across cols 20..25+ open eastward. Southern wall at row 14 (cols 20..25).
+- Eastern Corridor Extension: Confirmed horizontal highway rows 10..13 bounded north by wall at rows 8..9 and south by wall at rows 14..15, spanning east through col 30+.
