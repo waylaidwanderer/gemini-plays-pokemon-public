@@ -9,3 +9,4 @@
 ## Main Tunnel
 - Ladder up to Vermilion City entrance room: Located at (37, 31).
 - Tunnel extends west along rows 30..33. Wild encounter zone.
+- Main tunnel: Ladder at (37, 31). Tunnel extends west along rows 30..31 to (24, 31) where it turns north towards row 27.
