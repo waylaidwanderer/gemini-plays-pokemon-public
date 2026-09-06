@@ -47,3 +47,4 @@
 - [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
 - [x] Defeat Picnicker Alicia on Route 9 [Turn 4108]
+- [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
