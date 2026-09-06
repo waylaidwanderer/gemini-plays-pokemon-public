@@ -2639,9 +2639,10 @@
 
 # Victory Road Master Strategy & Puzzle Log
 
-## Core Dungeon Rules (Verified Turn 31589)
-- Warping or changing floors (ladders/stairs/Dig/Escape Rope) resets all boulder positions and switches on the departed floor.
-- Each floor's puzzle must be completed in one continuous session on that floor.
+## Core Dungeon Rules (Verified Turn 32306)
+- Native floor boulders and switches reset upon floor transitions (ladders/stairs/Dig/Escape Rope).
+- Pit-Dropped Boulders: Once dropped through a pit from 3F to 2F, the boulder permanently persists on 2F at (23, 16) across inter-floor ladder transitions during the dungeon visit.
+- Each floor's native puzzle must be completed in one continuous session on that floor.
 
 ## Floor-by-Floor Master Solutions
 
@@ -2674,8 +2675,8 @@
    - Reposition behind it at (28, 17) facing North.
    - Push North 5 times along Column 28: (28, 16) -> (28, 11).
    - Reposition to (29, 11) facing West.
-   - Push West across Row 11 onto Switch Plate!
-   - Ascend platform to the exit ladder -> Route 23 North / Indigo Plateau!
+   - Push West across Row 11 onto Switch Plate at (25, 11)!
+   - Shutter at (27, 10) lowers -> Walk North through (27, 10) to Exit Ladder at (27, 7) -> Emerge onto Route 23 North / Indigo Plateau!
 
 
 <hr>
