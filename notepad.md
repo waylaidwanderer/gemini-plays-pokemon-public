@@ -2737,6 +2737,10 @@
 - Chokepoint Boulder (13, 12): Sits between purple rock walls at (12, 12) and (14, 12). Pushing it down to (13, 13) traps it against rock wall (13, 14) and wall (14, 12), blocking horizontal passage.
 - SE Pit Room Access: The SE Pit Room (boulder at (22, 15), pit at (23, 15), Ladder B at (25, 14)) is isolated from the 3F upper plateau by impassable cliffs; it is reached via Ladder B at (25, 14) from 2F!
 - Cooltrainer at (28, 5): Defeated (Turn 33412 verified dialogue: "You beat GIOVANNI of TEAM ROCKET?").
+- Verified Boundary at (23, 9): Stepping South from (23, 8) into (23, 9) is blocked by a solid rock wall / ledge boundary. Column 23 does not allow direct southward passage from (23, 8) to (23, 10).
+- Ladder A at (23, 7): Wall ladder connecting 3F (23, 7) and 2F (23, 7). Connects to upper dark plateau.
+- Ladder NE at (26..27, 7..8): Located in enclosed NE chamber (rows 7-11, cols 25-28), accessed by pushing boulder at (24, 10) east into (25, 10).
+- NW Ladder at (2, 0): Located in NW room, connects to 2F NW elevated plateau at (1, 1). Accessible via Row 1 Northern Highway.
 
 <hr>
 
