@@ -20,3 +20,9 @@
 - Jr. Trainer ♀ at (14, 28) in north alcove ("I don't often come here, but I will fight you."): Oddish Lv 22, Bulbasaur Lv 22. Prize: ¥440. Defeated Turn 4609.
 - Western Cul-de-sac: Southern highway (rows 30-33) terminates at col 2 against west rock wall (cols 0-1). Tile (2, 29) confirmed solid rock wall by bump test Turn 4618. Visual inspection shows rock wall along rows 28-29. No items or exits in western pocket.
 - Central Northbound Passage: Cols 14-17 (rows 28-29) connect southern corridor north into a wide open chamber across rows 24-27 (cols 14-20+). Bounded north by wall at rows 22-23 (cols 12-19) and west by wall at cols 12-13 (rows 22-27). Passage continues east toward col 20+.
+## Central & Eastern Chambers
+- North rock wall (rows 22-23) spans cols 12-19.
+- Eastern Bypass Corridor: Column 20 (rows 22-24) is open cave floor connecting central chamber (rows 24-27) north into rows 20-21.
+- Rock divider at cols 18-19, rows 20-21.
+- Trainer sighted at (20, 21) [Turn 4626].
+- Eastern area: Rows 20-27 open east through col 23+.
