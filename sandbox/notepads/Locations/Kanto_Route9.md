@@ -19,4 +19,4 @@
 - Central Tall Grass Corridor (Row 12): Continuous east-west grass avenue spanning cols 28..37+ bounded south by row 13 ledge and north by rocky outcroppings.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
 - Eastern Grass Highway (Rows 14..15): Open tall grass avenue continuing east past col 44 towards Route 10, accessible via hopping the row 13 ledge at (40..41, 13).
-- Trainer at (45, 15): Stationed in the lower tall grass strip.
+- Camper at (45, 15): Facing West in lower tall grass strip. Quote: "Hahahaha! Come on, dude!".
