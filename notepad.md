@@ -92,7 +92,7 @@
   - Status: Healthy
   - HP: 99 / 117
   - Stats: Attack 84, Defense 99, Speed 84, Special 87
-  - Moves: Bite (PP 20/25), Body Slam (PP 8/15), Bubblebeam (PP 17/20), Water Gun (PP 15/25) [Learned Turn 4031]
+  - Moves: Bite (PP 19/25), Body Slam (PP 8/15), Bubblebeam (PP 17/20), Water Gun (PP 15/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1371,7 +1371,7 @@
 - Arrived via Ladder 4 from B1F (3, 3) -> 1F (37, 17) [Turn 4736].
 - Eastern boundary wall at col 38; northern rock wall at row 15.
 - Wide open hall spanning cols 33-37 (rows 16-21) extending west.
-- Trainer sighted at (37, 21).
+- Jr. Trainer ♀ at (37, 21) facing West ("Eek! Don't try anything funny in the dark!"): Engaged Turn 4738. Stations along row 21.
 - West Wall of Exit Hall: Column 31 is a solid vertical rock wall (rows 14-21).
 - Southward Avenue: Exit hall turns south along cols 32-36, extending south past row 21 toward the cave exit.
 
