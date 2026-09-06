@@ -55,5 +55,7 @@
   - Status: Healthy
   - HP: 36 / 36
   - Stats: Attack 28, Defense 15, Speed 42, Special 24
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40)
+  - EXP: 5832 (1027 to Lv 19)
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
