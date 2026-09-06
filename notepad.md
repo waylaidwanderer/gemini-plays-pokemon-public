@@ -2761,14 +2761,14 @@
      - Push Left 2: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
 - Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened for the active visit (resets upon changing floors).
 
-## NW Sector Topology (Verified Turn 30512)
+## NW Sector Layout
 - Arrival Ladder from 3F NW (2, 0): Located at (1, 1) on 2F NW.
 - Trainer (Blackbelt) at (4, 2).
 - Elevated checkerboard platform spans cols 1-3 (rows 2-4) and cols 2-7 (rows 6-7).
 - Boulder gate at (5, 5), pushed south to (5, 6) connects row 4/5 light purple floor to checkerboard platform (cols 4-7, rows 6-7).
 - 1F Ladder at (0, 8) connects to west corridor (cols 0-4).
 
-## Shutter 1 & Elevation Verification (Turn 30515)
+## Shutter 1 & Elevation Rules
 - Empirically verified: Transitioning between 2F and 3F reloads 2F, resetting Shutter 1 at (5, 10) to CLOSED and Boulder 2 to default position at (4, 14).
 - Row 7 checkerboard to Row 8 purple floor is a solid vertical cliff boundary (cannot walk/hop down from (5..7, 7) to (5..7, 8)).
 - To access Row 8 Light Purple Highway, Boulder 2 at (4, 14) MUST be pushed onto Switch 1 at (1, 16) via the west corridor to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
