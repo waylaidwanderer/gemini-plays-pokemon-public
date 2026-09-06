@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Wartortle (SHELDON) Lv 34, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Wartortle (SHELDON) Lv 35, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 - Money: ¥25626
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
@@ -88,10 +88,10 @@
 - ¥25626
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
   - Status: Healthy
-  - HP: 91 / 91
-  - Stats: Attack 61, Defense 74, Speed 62, Special 63
+  - HP: 94 / 94
+  - Stats: Attack 63, Defense 77, Speed 63, Special 65
   - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 11/15) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
