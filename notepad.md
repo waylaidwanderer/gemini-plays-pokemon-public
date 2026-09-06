@@ -2678,9 +2678,10 @@
    - Push West across Row 11 onto Switch Plate at (25, 11)!
    - Shutter at (27, 10) lowers -> Walk North through (27, 10) to Exit Ladder at (27, 7) -> Emerge onto Route 23 North / Indigo Plateau!
 
-## Verified Switch (25, 11) & Ladder (27, 7) Solution (Verified Turn 32513)
-- Boulder pushed along Row 16 -> Column 28 -> Row 11 onto Switch Plate at (25, 11).
-- Shutter at (27, 10) lowered, granting direct northward access from (27, 11) to Ladder at (27, 7) leading to the final Victory Road exit!
+## 2F Upper Highway & Ladder B Access
+- Dropping boulder from 3F SE room hole lands on 2F at (23, 16).
+- Row 11 (cols 17-28) is an open upper highway above the lower purple floor.
+- From (25, 11) on Row 11, hopping south down the ledge reaches (25, 12) purple floor, leading directly south to Ladder B at (25, 14) which ascends to 3F SE Room.
 
 <hr>
 
