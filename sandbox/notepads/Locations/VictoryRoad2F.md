@@ -32,8 +32,8 @@
 5. Bypass trainer at (21, 13) via (20, 12) -> (20, 14) -> (21, 14).
 6. Pass South through opened Shutter 3 at (21, 15) onto Lower Highway at (21, 16).
 7. Walk East along Lower Highway: (21, 16) -> (29, 16).
-8. Walk North along Column 29: (29, 16) -> (29, 11).
-9. Walk West along Row 11 to **Ladder NE at (27, 7)** and ascend directly to 3F Upper Dark Plateau!
+8. Walk North along Column 29 from (29, 16) to (29, 11).
+9. Note: (29, 10) is a rock dead-end; bypass west along Row 11/12 to reach **Ladder NE at (27, 7)** and **Ladder B at (25, 14)** (which ascends to 3F SE Lower Sector / Pit room).
 
 ## Master Boulder 2 Solution
 - Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
