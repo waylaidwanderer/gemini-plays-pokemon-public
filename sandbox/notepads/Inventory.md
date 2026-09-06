@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x8
+- POKé BALL x17
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
@@ -24,7 +24,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥24575
+- ¥24951
 
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
