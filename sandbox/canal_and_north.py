@@ -1,7 +1,7 @@
 import mgba
 
-class CanalToVR:
-    def __init__(self, budget=80):
+class NorthRoute23:
+    def __init__(self, budget=85):
         self.budget = budget
         self.used = 0
 
@@ -20,7 +20,7 @@ class CanalToVR:
     def clear_text_or_run(self):
         # Clear dialogue text
         self.press(["A", "sleep 180", "B", "sleep 180", "A", "sleep 180", "B", "sleep 180"])
-        # Attempt to run from wild battle
+        # Run from wild battle
         self.press(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 350", "B", "sleep 150", "B", "sleep 100"])
 
     def step(self, d):
@@ -53,19 +53,24 @@ class CanalToVR:
             steps += 1
         return False
 
-    def run_stage1(self):
-        # Surf north along column 6 to row 71
-        print("Starting Stage 1 from:", self.get_pos())
-        while True:
-            x, y = self.get_pos()
-            if y <= 71:
-                print("Reached y <= 71 at:", x, y)
-                break
+    def to_victory_road(self):
+        print("Starting north route from:", self.get_pos())
+        wps = [
+            (12, 71),
+            (12, 53),
+            (7, 53),
+            (7, 35),
+            (4, 35),
+            (4, 30),
+            (8, 30),
+            (8, 17)
+        ]
+        for wx, wy in wps:
+            self.walk_to(wx, wy)
             if self.used >= self.budget:
                 break
-            self.step("Up")
-        print("End Stage 1 pos:", self.get_pos(), "used:", self.used)
+        print("End pos:", self.get_pos(), "used buttons:", self.used)
 
 if __name__ == "__main__":
-    c = CanalToVR(budget=80)
-    c.run_stage1()
+    nr = NorthRoute23(budget=85)
+    nr.to_victory_road()
