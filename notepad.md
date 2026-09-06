@@ -2711,16 +2711,16 @@
 # Victory Road 2F - Layout & Notes
 
 ## General Information
-- Ladder down to 1F: Located at (0, 8) <-> 1F (1, 1) [Verified Turns 22565, 26670]
-- Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) <-> 3F (25, 14)
-- Ladder to 3F (Ladder NE): Located at (27, 7) <-> 3F (27, 7)
-- Arrival tile from 3F (Ladder A): Located at (23, 7) (One-way descent arrival from 3F (23, 7); does not function as an ascending ladder from 2F).
+- Ladder down to 1F: Located at (0, 8) <-> 1F (1, 1)
+- Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) <-> 3F SE Lower Purple Room (25, 14)
+- Ladder to 3F (Ladder NE): Located at (27, 7) <-> 3F Upper Dark Plateau (27, 7)
+- Arrival tile from 3F (Ladder A): Located at (23, 7) (One-way descent arrival from 3F (23, 7))
 - Ladder to 3F (NW Ladder): Located at (1, 1) <-> 3F NW Room (2, 0)
 
 ## Collected Items
-- [x] Item Ball at (18, 9) [Collected Turn 24170]
+- [x] Item Ball at (18, 9)
 
-## Verified Physical Elevation & Topology
+## Physical Elevation & Topology
 - Elevation Split:
   - Upper Plateau (Dark Checkerboard): Rows 0-7 and Row 11.
   - Lower Floor (Light Purple Floor): Rows 8-14 across columns 5-26.
@@ -2734,56 +2734,37 @@
   - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7) and Ladder NE at (27, 7).
   - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
 
-## Empirical Verification Protocol: 2F Shutter 3 to Ladder B / 3F (VERIFIED Turn 29111)
-- Master Route:
-  1. Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-  2. Walk through Shutter 1 at (5, 10) onto Light Purple Floor at (5, 9).
-  3. Walk East along row 8: (5, 8) -> (14, 8) -> South to (14, 12).
-  4. Walk East along row 12: (14, 12) -> (20, 12).
-  5. Bypass trainer at (21, 13) via (20, 12) -> (20, 14) -> (21, 14).
-  6. Pass South through opened Shutter 3 at (21, 15) onto Lower Highway at (21, 16).
-  7. Walk East along Lower Highway: (21, 16) -> (29, 16).
-  8. Walk North along Column 29: (29, 16) -> (29, 11).
-  9. Walk West to Ladder B at (25, 14) or Ladder NE at (27, 7) / Ladder A at (23, 7).
+## Route from 2F Entrance (0, 8) to Ladder NE (27, 7) / 3F Upper Dark Plateau
+1. Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+2. Walk through Shutter 1 at (5, 10) onto Light Purple Floor at (5, 9).
+3. Walk East along row 8: (5, 8) -> (14, 8) -> South to (14, 12).
+4. Walk East along row 12: (14, 12) -> (20, 12).
+5. Bypass trainer at (21, 13) via (20, 12) -> (20, 14) -> (21, 14).
+6. Pass South through opened Shutter 3 at (21, 15) onto Lower Highway at (21, 16).
+7. Walk East along Lower Highway: (21, 16) -> (29, 16).
+8. Walk North along Column 29: (29, 16) -> (29, 11).
+9. Walk West along Row 11 to **Ladder NE at (27, 7)** and ascend directly to 3F Upper Dark Plateau!
 
-
-## Optimal Master Boulder 2 Solution (VERIFIED & ACTIVATED Turn 29308)
+## Master Boulder 2 Solution
 - Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
-- Master Column 3 -> Row 16 Push Sequence:
-  1. Stand at (5, 14) facing West -> Push Left 1 time: Boulder 2 to (3, 14) [Player at (4, 14)].
-  2. Reposition around to (3, 13) via (4, 14) -> Up to (4, 13) -> Left to (3, 13) [facing South].
-  3. Stand at (3, 13) facing South -> Push Down 2 times along Column 3:
-     - Push Down 1: Boulder 2 to (3, 15), Player to (3, 14).
-     - Push Down 2: Boulder 2 to (3, 16), Player to (3, 15).
-  4. Reposition around to (4, 16) via (3, 15) -> Right to (4, 15) -> Down to (4, 16) [facing West].
-  5. Stand at (4, 16) facing West -> Push Left 2 times along Row 16:
-     - Push Left 1: Boulder 2 to (2, 16), Player to (3, 16).
-     - Push Left 2: Boulder 2 to (1, 16) [ON SWITCH 1!], Player to (2, 16).
-- Outcome: Switch 1 at (1, 16) ACTIVATED! Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened for the active visit (resets upon changing floors).
+- Push Sequence:
+  1. Stand at (5, 14) facing West -> Push Left 1 time: Boulder 2 to (3, 14).
+  2. Reposition around to (3, 13) via (4, 14) -> (4, 13) -> (3, 13).
+  3. Stand at (3, 13) facing South -> Push Down 2 times along Column 3: Boulder 2 to (3, 16).
+  4. Reposition around to (4, 16) via (3, 15) -> (4, 15) -> (4, 16).
+  5. Stand at (4, 16) facing West -> Push Left 2 times along Row 16: Boulder 2 to (1, 16) [ON SWITCH 1!].
+- Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
 
-## NW Sector Layout
-- Arrival Ladder from 3F NW (2, 0): Located at (1, 1) on 2F NW.
-- Trainer (Blackbelt) at (4, 2).
-- Elevated checkerboard platform spans cols 1-3 (rows 2-4) and cols 2-7 (rows 6-7).
-- Boulder gate at (5, 5), pushed south to (5, 6) connects row 4/5 light purple floor to checkerboard platform (cols 4-7, rows 6-7).
-- 1F Ladder at (0, 8) connects to west corridor (cols 0-4).
-
-## Shutter 1 & Elevation Rules
-- Empirically verified: Transitioning between 2F and 3F reloads 2F, resetting Shutter 1 at (5, 10) to CLOSED and Boulder 2 to default position at (4, 14).
-- Row 7 checkerboard to Row 8 purple floor is a solid vertical cliff boundary (cannot walk/hop down from (5..7, 7) to (5..7, 8)).
-- To access Row 8 Light Purple Highway, Boulder 2 at (4, 14) MUST be pushed onto Switch 1 at (1, 16) via the west corridor to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-
-## 2F Pit Drop Landing & Exit Puzzle Solution (VERIFIED Turn 30973-30991)
-- Drop Arrival: Dropping through 3F Pit at (23, 15) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
-- Ladder B (to 3F SE): Located at (25, 14) <-> 3F SE (25, 14). Allows instant 5-second reset of 3F Pit Boulder if needed.
-- Column 29 vs Column 28 Push Constraint: Column 30 is a solid vertical rock wall. Boulders in Column 29 CANNOT be pushed West. The fallen boulder MUST be pushed North along Column 28, NOT Column 29!
+## 2F Pit Drop Landing & Exit Puzzle Solution
+- Drop Arrival: Dropping through 3F Pit at (23, 14) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
 - Master Fallen Boulder Route to Row 11 & Switch:
   1. Activate Strength with ATLAS.
   2. Push Boulder East along Row 16 from (23, 16) to (28, 16) (STOP AT COLUMN 28!).
-  3. Reposition to (28, 17) via (27, 16) -> (27, 17) -> (28, 17) facing North.
-  4. Push North 5 times along Column 28: (28, 16) -> (28, 15) -> (28, 14) -> (28, 13) -> (28, 12) -> (28, 11) [Boulder at (28, 11), Player at (28, 12)].
-  5. Reposition to (29, 11) via (28, 12) -> (29, 12) -> (29, 11) facing West.
-  6. Stand at (29, 11) facing West -> Push Left across Row 11 towards the switch plate!
+  3. Reposition to (28, 17) facing North.
+  4. Push North 5 times along Column 28: (28, 16) -> (28, 11).
+  5. Reposition to (29, 11) facing West.
+  6. Stand at (29, 11) facing West -> Push Left across Row 11 onto Switch Plate!
+  7. Shutter on 2F opens -> Walk up to Exit Ladder -> Route 23 North / Indigo Plateau!
 
 <hr>
 
