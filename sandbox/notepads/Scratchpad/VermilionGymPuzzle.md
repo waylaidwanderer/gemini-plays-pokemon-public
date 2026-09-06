@@ -61,3 +61,4 @@
 - Can (7, 9) tested: empty [Turn 3593].
 - Can (9, 9) tested: empty [Turn 3594].
 - Can (7, 7) tested: empty [Turn 3595].
+- Switch 1 found at Can (9, 7) [Turn 3596]!
