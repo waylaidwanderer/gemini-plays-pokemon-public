@@ -92,7 +92,7 @@
   - Status: Healthy
   - HP: 101 / 114
   - Stats: Attack 82, Defense 96, Speed 82, Special 84
-  - Moves: Bite (PP 25/25), Body Slam (PP 8/15), Bubblebeam (PP 17/20), Water Gun (PP 20/25) [Learned Turn 4031]
+  - Moves: Bite (PP 25/25), Body Slam (PP 8/15), Bubblebeam (PP 17/20), Water Gun (PP 19/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1366,7 +1366,7 @@
 - Trainer at (5, 16): Stations in western corridor facing South along col 5.
 - Southern Boundary: Row 22 is a solid rock wall bounding the south of the hall across cols 4-13+ (observed Turn 4686).
 - Ladder 3 Approach: Southern hall connects east into cols 14-17 (rows 14-21).
-- Trainer at (17, 15) facing West ("Outsiders like you need to show..."): Engaged Turn 4693. Guards northern approach to Ladder 3.
+- Hiker at (17, 15) facing West ("Outsiders like you need to show me some respect!"): Engaged Turn 4694. Guards northern approach to Ladder 3.
 - Ladder 3: Located at (17, 11) at north end of col 17 pocket. Descends back to B1F.
 
 
