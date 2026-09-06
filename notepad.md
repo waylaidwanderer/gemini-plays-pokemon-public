@@ -1242,7 +1242,7 @@
 - [x] Can (3, 11): Checked Turn 3318 -> Only trash.
 - [x] Can (1, 11): FOUND SWITCH 1! (Turn 3319)
   - Message: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
-- [ ] Can (1, 9): Inspecting Turn 3319 (THE ONLY VALID ADJACENT CAN FOR SWITCH 2).
+- [ ] Can (1, 9): Inspecting Turn 3322 for Switch 2 (Switch 1 active at 1, 11).
 
 ## Deduction (Turn 3318)
 - 12 of 15 cans empty. Cols 3, 5, 7, 9 completely cleared.
