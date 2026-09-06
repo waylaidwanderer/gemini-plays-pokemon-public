@@ -1353,6 +1353,12 @@
 - Eastern Forward Corridor: Rows 10..13 across cols 20..25+ open eastward. Southern wall at row 14 (cols 20..25).
 - Eastern Corridor Extension: Confirmed horizontal highway rows 10..13 bounded north by wall at rows 8..9 and south by wall at rows 14..15, spanning east through col 30+.
 - Northeast Ladder 1: Located at (37, 3) at the north end of columns 34-37. Descends to B1F.
+## Northwest Section (Section 2)
+- Arrived via Ladder 2 from B1F (27, 3) -> 1F (5, 3) [Turn 4660].
+- Chamber at cols 3-7, rows 2-4 with Ladder 2 at (5, 3).
+- Corridor at rows 6-7 heading east and west.
+- Trainer visible at (7, 5) facing South/West.
+
 
 <hr>
 

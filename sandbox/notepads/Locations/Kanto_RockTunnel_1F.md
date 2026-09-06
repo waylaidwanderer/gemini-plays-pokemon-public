@@ -21,5 +21,5 @@
 ## Northwest Section (Section 2)
 - Arrived via Ladder 2 from B1F (27, 3) -> 1F (5, 3) [Turn 4660].
 - Chamber at cols 3-7, rows 2-4 with Ladder 2 at (5, 3).
-- Corridor at rows 6-7 heading east and west.
-- Trainer visible at (7, 5) facing South/West.
+- Open area at rows 6-10 across cols 2-10+.
+- Trainer at (7, 5) facing South: Guards column 7 entrance to eastern passage.
