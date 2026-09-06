@@ -40,6 +40,7 @@
 - [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
+- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
 
 <hr>
 
