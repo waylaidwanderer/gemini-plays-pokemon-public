@@ -1728,5 +1728,8 @@
 - Lass trainer stationed at (51, 12) facing West along row 12 (Dialogue: "What's a cute, round and fluffy POKéMON?" / Defeated Turn 5098: Clefairy Lv 22, Clefairy Lv 22 / Prize: ¥330).
 - Gambler trainer stationed at (46, 13) facing South.
 - Open passage west of col 47 heading west along rows 9..12.
+- Vertical path at cols 42..43 (rows 8..13) connecting south passage to north road.
+- Cuttable tree at (41, 10) blocking entrance through iron fence gap at (40, 10) into central tall grass patch.
+- Western passage along southern perimeter ends at col 41/40 fence; main unobstructed route continues via northern corridor (rows 4..8).
 
 <hr>
