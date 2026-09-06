@@ -7,9 +7,6 @@
 - Arrival tile from 3F (Ladder A): Located at (23, 7) (One-way descent arrival from 3F (23, 7))
 - Ladder to 3F (NW Ladder): Located at (1, 1) <-> 3F NW Room (2, 0)
 
-## Collected Items
-- [x] Item Ball at (18, 9)
-
 ## Physical Elevation & Topology
 - Elevation Split:
   - Upper Plateau (Dark Checkerboard): Rows 0-7 and Row 11.
@@ -46,7 +43,7 @@
 - Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
 
 ## 2F Pit Drop Landing & Exit Puzzle Solution
-- Drop Arrival: Dropping through 3F Pit at (23, 14) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
+- Drop Arrival: Dropping through 3F Pit at (23, 15) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
 - Master Fallen Boulder Route to Row 11 & Switch:
   1. Activate Strength with ATLAS.
   2. Push Boulder East along Row 16 from (23, 16) to (28, 16) (STOP AT COLUMN 28!).
