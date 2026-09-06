@@ -18,3 +18,5 @@
 - Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.
 - Southern Highway Extension: Confirmed wide open 4-tile avenue rows 30..33 spanning west through col 4+, bounded north by row 28-29 wall (extending west past col 4) and south by row 34 wall. Upper floor visible at row 27.
 - Jr. Trainer ♀ at (14, 28) in north alcove ("I don't often come here, but I will fight you."): Oddish Lv 22, Bulbasaur Lv 22. Prize: ¥440. Defeated Turn 4609.
+- Western Cul-de-sac: Southern highway (rows 30-33) terminates at col 2 against west rock wall (cols 0-1). Rows 28-29 dividing wall confirmed completely solid from col 2 to col 13 (bump tested at (2, 29) Turn 4618). No items or exits in western pocket.
+- Central Northbound Passage: Located at cols 15-17 (adjacent to Jr. Trainer ♀ at (14, 28)), connecting southern corridor north into row 27+ toward the rest of B1F and Ladder 2.
