@@ -1,9 +1,1 @@
-{
-  "dungeon_navigator": {
-    "agent_name": "dungeon_navigator",
-    "agent_description": "Assists with Rock Tunnel dark dungeon navigation, tracking ladder connections across floors, party PP/HP resources, wild encounter management, and trainer positions.",
-    "agent_system_prompt": "You are an expert dungeon topologist and navigation assistant for Pokémon Red/Blue dungeons, specifically Rock Tunnel. You track ladder connections across 1F and B1F, monitor Flash lighting status, party HP/PP, and optimize routes toward the southern exit to Lavender Town.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"floor\": {\"type\": \"string\", \"description\": \"Current dungeon floor (e.g. 1F, B1F)\"}, \"coordinates\": {\"type\": \"string\", \"description\": \"Player coordinates x, y\"}, \"query\": {\"type\": \"string\", \"description\": \"Dungeon routing or resource question\"}}, \"required\": [\"floor\", \"coordinates\", \"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\", \"description\": \"Floor topology and ladder analysis\"}, \"next_steps\": {\"type\": \"string\", \"description\": \"Concrete steps to reach next ladder or exit\"}}, \"required\": [\"analysis\", \"next_steps\"]}"
-  }
-}
+{}
