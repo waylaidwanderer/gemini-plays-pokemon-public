@@ -2649,40 +2649,34 @@
 
 ## Floor-by-Floor Master Solutions
 
-1. **1F Master Solution**:
+1. **1F Master Solution** (COMPLETED):
    - Strength activated by ATLAS.
    - Initial State: Boulder 1 @ (5, 15). Target: Switch @ (17, 13).
    - Push sequence: Down 1 to (5, 16) -> East 4 to (9, 16) -> North 2 to (9, 14) -> East 7 to (16, 14) -> North 2 to (16, 12) -> bypass via col 14 to (15, 12) -> East 1 to (17, 12) -> reposition to (17, 11) -> South 1 onto Switch (17, 13).
    - Shutters opened -> ascend Ladder (1, 1) to 2F (0, 8).
 
-2. **2F Master Solution**:
+2. **2F Master Solution** (COMPLETED):
    - Initial State: Arrive at (0, 8). Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
    - Push sequence: From (5, 14) push Left 1 to (3, 14) -> reposition to (3, 13) -> push Down 2 to (3, 16) -> reposition to (4, 16) -> push Left 2 onto Switch 1 (1, 16).
    - Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
-   - Path to 3F: Walk through Shutter 1 (5, 10) to row 8 -> East to (14, 8) -> South to (14, 12) -> East to (20, 12) -> bypass trainer via (20, 14) -> (21, 14) -> South through Shutter 3 (21, 15) to (21, 16) -> East to (29, 16) -> North along col 29 to (29, 11) -> West to **Ladder NE at (27, 7)** -> ascend to 3F Upper Dark Plateau (27, 7).
+   - Route to Upper Plateau & Ladder A: From (5, 8) east to (17, 8) -> north along column 17 to (17, 2) -> east along row 2 to (28, 2) -> south to (28, 8) -> west to Ladder A at (23, 7) -> ascend to 3F.
 
 3. **3F Master Topology & Pit Drop Solution**:
-   - 3F is divided into two distinct sectors:
-     - Upper Dark Plateau / NW Room: accessed via NW Ladder (2, 0) and Ladder NE (27, 7). Contains Boulder 1 and Switch (3, 5).
-     - Lower Purple Floor / Pit Room: accessed via Ladder B at (25, 14) from 2F. Contains Pit Boulder @ (22, 15) and The Pit @ (23, 15).
+   - 3F Sectors:
+     - Upper Dark Plateau / NW Room: accessed via NW Ladder (2, 0), Ladder A (23, 7), and Ladder NE (27, 7).
+     - Lower Purple Floor / Pit Room: contains Pit Boulder @ (22, 15) and The Pit @ (23, 15).
    - Route to Pit Drop:
-     1. Ascend Ladder B at (25, 14) from 2F to 3F SE Room.
+     1. Ascend to 3F via Ladder A at (23, 7).
      2. Activate Strength with ATLAS.
-     3. Walk from (25, 14) to (21, 14) -> Down 1 to (21, 15) (facing East beside Pit Boulder at (22, 15)).
+     3. Walk to Pit Room at (21, 15) facing East beside Pit Boulder at (22, 15).
      4. Push Right 1 time: Pit Boulder falls into Pit at (23, 15)!
      5. Step Right 1 time into Pit at (23, 15) -> Drop to 2F!
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
    - Dropping boulder from 3F SE room hole lands on 2F at (23, 16).
-   - Boulder at (23, 16) can be bypassed via Row 17 open corridor ((24..21, 17)).
-   - Shutter 3 at (21, 15) connects Row 16 lower road to Light Purple Floor at (21, 14).
-   - Light Purple Floor connects west to (5, 8) and Shutter 1 at (5, 10).
-   - Ascend via Ladder NE at (27, 7) (accessed via Northern Corridor rows 1-3) to reach 3F final exit sector.
+   - Push fallen boulder onto switch on 2F to lower Shutter at (27, 10) blocking Ladder NE.
+   - Ascend via Ladder NE at (27, 7) to reach 3F final exit sector and exit to Indigo Plateau!
 
-## 2F Upper Highway & Ladder B Access
-- Dropping boulder from 3F SE room hole lands on 2F at (23, 16).
-- Row 11 (cols 17-28) is an open upper highway above the lower purple floor.
-- From (25, 11) on Row 11, hopping south down the ledge reaches (25, 12) purple floor, leading directly south to Ladder B at (25, 14) which ascends to 3F SE Room.
 
 <hr>
 
