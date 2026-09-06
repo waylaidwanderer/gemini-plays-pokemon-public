@@ -35,3 +35,4 @@
 - Can (1, 9): Tested [Turn 3440] -> Only trash.
 - Can (1, 7): Tested [Turn 3441] -> Only trash. (Column 1 fully empty).
 - Can (3, 7): Tested [Turn 3444] -> Only trash.
+- Can (5, 7): Tested [Turn 3445] -> Only trash.
