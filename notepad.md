@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 41, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥40946
+- Money: ¥41496
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -171,7 +171,7 @@
 
 ## Money
 
-- �¥40946
+- �¥41496
 
 
 
@@ -179,7 +179,7 @@
 
 - BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 110 / 124
 
@@ -189,7 +189,7 @@
 
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 26 / 26
 
@@ -201,7 +201,7 @@
 
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 29 / 29
 
@@ -213,7 +213,7 @@
 
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 20 / 20
 
@@ -227,7 +227,7 @@
 
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 38 / 38
 
@@ -243,7 +243,7 @@
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: Full
 
@@ -257,7 +257,7 @@
 
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: Full
 
@@ -265,7 +265,7 @@
 
 - SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: Full
 
@@ -1731,7 +1731,7 @@
 - Vertical path at cols 42..43 (rows 8..13) connecting south passage to north road.
 - Cuttable tree at (41, 10) blocking entrance through iron fence gap at (40, 10) into central tall grass patch.
 - Western passage along southern perimeter ends at col 41/40 fence; main unobstructed route continues via northern corridor (rows 4..8).
-- Super Nerd trainer stationed at (42, 6) facing West along row 6 (Dialogue: "You need strategy to win at this!").
+- Super Nerd trainer stationed at (42, 6) facing West along row 6 (Dialogue: "You need strategy to win at this!" / Defeated Turn 5120: Grimer Lv 22, Muk Lv 22, Grimer Lv 22 / Prize: ¥550).
 - Northern corridor runs west along rows 5..7 (cols 39..41 open highway).
 
 <hr>
