@@ -41,4 +41,4 @@
 - Corridor at rows 10-13 runs west from col 23 to col 18, bounded north by rows 8-9 wall and south by rows 14-15 wall.
 - Central-West Junction (Cols 15-17): Both north and south walls terminate at col 18; wide opening extends north, south, and west.
 - Island Rock Pillar: Cols 12-13, rows 10-13 form a dividing pillar with open passages to the north (rows 7-9) and south (rows 14-15).
-- Trainer sighted at (11, 13) in western passage.
+- Jr. Trainer at (11, 13) facing South ("Hikers leave twigs as trail markers."): Engaged Turn 4708. Stations in western passage.
