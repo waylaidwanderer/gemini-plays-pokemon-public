@@ -263,6 +263,15 @@
 - Gatehouse Exit: Player emerges from the north gatehouse at (3, 11) facing north. Gatehouse door at (3, 15).
 - Paved Street (Rows 8..9): Wide east-west paved avenue connecting directly into Pewter City.
 
+## Eastern Path (Diglett's Cave to Southern Gatehouse - Audited Turn 3823)
+- Northern Exit: Diglett's Cave entrance building door at (12, 9).
+- Signpost at (11, 11): Diglett's Cave sign.
+- Thoroughfare: Paved path runs south along cols 10..13 through rows 10..13.
+- Rock Barrier at Row 15: Solid rock/monument structures span cols 8..13 at row 15.
+- Eastern Bypass: Cols 14..17 are open grass lawn bypassing the rock barrier on the east.
+- Building at Cols 14..17, Rows 18+: House with green roof directly south of the eastern lawn bypass.
+
+
 <hr>
 
 <h1><code>Locations/Kanto_ViridianForest</code></h1>
