@@ -1,1 +1,9 @@
-{}
+{
+  "town_navigator": {
+    "agent_name": "town_navigator",
+    "agent_description": "Synthesizes structured town facility locations, verified doorway coordinates, signposts, and NPC dialogue lore.",
+    "agent_system_prompt": "You are a spatial and lore mapping assistant for Pokémon Red and Blue. You extract verified landmarks, confirm entrance coordinates, and maintain a structured geographical record without hallucinating unvisited coordinates.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"town_name\":{\"type\":\"string\"},\"current_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"observations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"town_name\",\"current_coordinates\",\"observations\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"verified_facilities\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"door_x\":{\"type\":\"integer\"},\"door_y\":{\"type\":\"integer\"},\"notes\":{\"type\":\"string\"}},\"required\":[\"name\",\"door_x\",\"door_y\"]}},\"next_recommended_action\":{\"type\":\"string\"}},\"required\":[\"verified_facilities\",\"next_recommended_action\"]}"
+  }
+}
