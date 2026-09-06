@@ -53,7 +53,7 @@
 <h1><code>Inventory</code></h1>
 
 # Inventory Log
-(Capacity: 18 / 20 unique item slots - in progress of freeing bag space at Cerulean PC)
+(Capacity: 16 / 20 unique item slots - in progress of freeing bag space at Cerulean PC)
 
 ## Items
 - TOWN MAP
@@ -63,8 +63,6 @@
 - ESCAPE ROPE x1
 - ANTIDOTE x2
 - RARE CANDY x2
-- HELIX FOSSIL x1
-- NUGGET x1
 - TM08 (BODY SLAM) x1
 - TM24 (THUNDERBOLT) x1
 - HP UP x1
