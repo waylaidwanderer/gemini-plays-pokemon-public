@@ -65,3 +65,10 @@
   - Moves: Splash (PP 40/40)
   - OT: BLUE (IDNo. 04620)
   - Caught: Route 11 with Old Rod [Turn 3694]
+
+## PC Box 1 Pokémon
+- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Pound, Hypnosis
+  - Caught: Route 11 tall grass [Turn 3721]
