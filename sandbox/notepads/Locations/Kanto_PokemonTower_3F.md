@@ -5,7 +5,7 @@
 - Stairs Up: TBD.
 
 ## Key Events & Encounters
-- Channeler at (15, 8): Trainer battle! Dialogue: "Be cursed with me! Kwaaah!" [Turn 5011].
+- Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: ¥690). Defeat dialogue: "What!".
 - Item Ball at (12, 10): Poké Ball on floor (contains Escape Rope) [Turn 5011].
 
 ## Geography & Layout
