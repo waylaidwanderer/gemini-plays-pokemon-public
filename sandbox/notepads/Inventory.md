@@ -32,7 +32,7 @@
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 5832 (1027 to Lv 19)
+  - EXP: 7237 (Lv 19 reached Turn 3631)
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -58,4 +58,4 @@
   - Status: Healthy
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
