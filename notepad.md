@@ -1275,5 +1275,12 @@
 - Switch 1 IS 100% GUARANTEED TO BE AT (1, 7) OR (1, 9)!
 - Action: Inspecting Can (1, 7) on Turn 3354!
 
+## Switch 1 Found at Can (1, 7)! (Turn 3354)
+- Message: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
+- Cardinally adjacent cans to (1, 7):
+  - South: Can (1, 9)
+  - East: Can (3, 7)
+- Action: Inspecting Can (1, 9) for Switch 2 on Turn 3355!
+
 
 <hr>
