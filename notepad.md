@@ -877,6 +877,28 @@
 
 <h1><code>Locations/Kanto_Route6</code></h1>
 
+# Route 6 Geography & Points of Interest
+
+## Connections
+- North: Underground Path entrance building at (17, 13); Saffron City southern gatehouse (blocked).
+- South: Vermilion City northern entrance.
+
+## Geography & Layout
+- Underground Path Entrance Building (Cols 16..19, Rows 10..13): Front door at (17, 13) leading north into Underground Path to Route 5.
+- Underground Path Apron (Cols 14..18, Rows 14..15): Open pale mint ground.
+- Signpost (19, 15): "UNDERGROUND PATH / CERULEAN CITY - VERMILION CITY".
+- Northeast Tall Grass Patch: Spans rows 16..18+ south of the Underground Path building.
+- Northern Cross-Highway (Rows 12..13, Cols 8..15+): 2-tile wide paved road running east-west between northern fence (Row 11) and southern tall grass field.
+- Northern Tall Grass Field: Extends across cols 8..13, rows 14..18+.
+- Western North-South Highway (Cols 4..5, Rows 12..17+): 2-tile wide paved road running south toward Vermilion City, completely bypassing the tall grass field.
+- Central Cross-Plaza (Rows 20..21, Cols 4..14+): Continuous paved clearing connecting western highway to eastern passage.
+- Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
+- Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
+- Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668].
+- Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
+- Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
+- Trainer (11, 30): Jr. Trainer ♀ Nancy [Defeated, Turn 2682].
+- Trainer (11, 31): Jr. Trainer ♂ Ricky [Defeated, Turn 2695].
 
 
 <hr>
@@ -909,10 +931,13 @@
 - Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
 
 ## S.S. Anne Docks & Harbor
-- Location: Eastern Vermilion City at columns 30..31.
+- Location: Eastern and southern Vermilion City harbor.
 - Approach: Paved thoroughfare runs east along rows 14..15 past Poké Mart (cols 24..28) to the pier entrance at (30, 15..16).
 - Signpost (29, 15): Located immediately west of pier entrance (text unread).
-- Pier: 2-tile wide wooden plank pier (cols 30..31) extending south from row 16 through the water into the ocean.
+- Pier Structure & Traversal (Turns 3221-3226):
+  - North-South Pier (Cols 30..31, Rows 16..26): 2-tile wide wooden plank pier running south through the water.
+  - Southern Branch (Cols 18..30, Rows 26..27): 2-tile wide wooden dock running west from col 30 to col 18.
+  - S.S. Anne Gangplank: Located at (18, 26) connecting the ship to the harbor dock.
 
 <hr>
 
@@ -961,7 +986,7 @@
 ## Cabins
 - Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Trainer (11, 4): Gentleman [Defeated, Turn 2850] (Roster: Nidoran♂ Lv 19 - 243 EXP, Nidoran♀ Lv 19 - 240 EXP, Prize: ¥1330). Pre-battle: "You pup! How dare you barge in!". Defeat: "Humph! You rude child!".
+  - Trainer (11, 4): Gentleman [Defeated, Turn 2850].
   - Table/luggage at (10..11, 5), bed at (13, 4..5).
 - Cabin 2: Entrance at (19, 8) in 1F main hallway. Interior doorway at (20, 0).
   - Interior bounds: Cols 20..23, Rows 1..5.
@@ -972,7 +997,7 @@
   - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
-  - Occupants: Lass Ann at (13, 11) [Defeated, Turn 2908] (Roster: Pidgey Lv 18 - 211 EXP, Nidoran♀ Lv 18 - 226 EXP, Prize: ¥270; Pre-battle: "I collected these POKéMON from all around the world!", Defeat: "Oh no! I went around the world for these!"), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
+  - Occupants: Lass Ann at (13, 11) [Defeated, Turn 2908], Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875].
   - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
 - Cabin 5: Entrance at (7, 8) in 1F main hallway. Interior doorway at (20, 10).
   - Interior bounds: Cols 20..23, Rows 10..15.
@@ -982,7 +1007,7 @@
 ## Eastern Corridor & B1F Passage
 - Cabin 6 (Eastern Cabin): Entrance at (31, 8) in 1F main hallway, interior doorway at (0, 0).
   - Interior bounds: Cols 0..3, Rows 0..5.
-  - Occupants: Gentleman at (2, 3) [Defeated, Turn 3216] (Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!").
+  - Occupants: Gentleman at (2, 3) [Defeated, Turn 3216].
   - Furniture: Bed at (3, 4..5), desk/table at (0..1, 5). No item balls visible.
 - Eastern South Corridor: Cols 36..37, extending south from row 7 to row 15 (checkered carpet at col 36, yellow at col 37).
 - East wall of ship at col 38.
@@ -1087,7 +1112,7 @@
   - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
 - Cabin 2: Entrance at (13, 11) in 2F main hallway. Interior doorway at (12..13, 5).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Occupants: Fisherman Dale at (13, 4) [Defeated, Turn 2977] (Roster: Goldeen Lv 17, Tentacool Lv 17, Goldeen Lv 17; Prize: ¥595), Gentleman at (11, 2) [Defeated, Turn 2984] (Roster: Pikachu Lv 23; Prize: ¥1610).
+  - Occupants: Fisherman Dale at (13, 4) [Defeated, Turn 2977], Gentleman at (11, 2) [Defeated, Turn 2984].
   - Item Ball at (12, 1): Max Ether collected [Turn 2985]!
 - Cabin 3: Entrance at (17, 11) in 2F main hallway. Interior doorway at (22..23, 5).
   - Interior bounds: Cols 20..23, Rows 1..5.
@@ -1095,7 +1120,7 @@
   - Furniture: Desk at (20..21, 1), chair at (20, 3), bed at (23, 1..2). No items in Cabin 3.
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Lass at (2, 12) [Defeated, Turn 3011] (Roster: Rattata Lv 18, Pikachu Lv 18; Prize: ¥270).
+  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005], Lass at (2, 12) [Defeated, Turn 3011].
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12). No item ball.
 - Cabin 5: Entrance at (25, 11) in 2F main hallway. Interior doorway at (12..13, 15).
   - Interior bounds: Cols 10..13, Rows 11..15.
