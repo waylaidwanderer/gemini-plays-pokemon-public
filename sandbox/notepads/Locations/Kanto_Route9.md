@@ -61,3 +61,5 @@
 
 - Tile (30, 11): Solid rock wall, impassable east from (29, 11) [Turn 4413].
 - Tile (30, 10): Solid rock wall, impassable east from (29, 10) [Turn 4414].
+- Tile (36, 11): Solid rock wall, impassable north from (36, 12) [Turn 4417].
+- Tile (26, 2): Solid mountain ridge collision [Re-confirmed Turn 4461].

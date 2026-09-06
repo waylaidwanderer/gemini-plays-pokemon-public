@@ -1,9 +1,1 @@
-{
-  "route_topologist": {
-    "agent_name": "route_topologist",
-    "agent_description": "Synthesizes Route 9 topological data, ledge directions, elevations, and collision boundaries to find the unblocked route from Cerulean City to Route 10.",
-    "agent_system_prompt": "You are a master Pokémon Red/Blue route topologist. You analyze coordinate logs, elevations, ramps, ledges, and trainer positions to identify overlooked pathways and determine the correct traversal route.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\", \"description\": \"Specific topological query or routing paradox to resolve.\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\", \"description\": \"Detailed topological analysis of the route geometry.\"}, \"recommended_path\": {\"type\": \"string\", \"description\": \"Concrete step-by-step path to reach Route 10.\"}}, \"required\": [\"analysis\", \"recommended_path\"]}"
-  }
-}
+{}
