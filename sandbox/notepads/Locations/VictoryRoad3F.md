@@ -12,7 +12,7 @@
 - NW Room Access: Connected to Central Bridge (Columns 6-7) via Row 2 ((6, 2) -> (2, 2)) and to 2F NW Ladder (1, 1) <-> 3F (2, 0). Note: (6, 7) at the south base of Central Bridge is an impassable wall.
 - Upper Dark Plateau (rows 0-11, cols 15-28): Contains Ladder A (23, 7), Ladder NE (27, 7), and connects via southern corridor (row 11) to column 28/29.
 - Central Bridge (Columns 6-7): Spans rows 0-6 connecting Northern Highway (Row 1) south to NW Room and Row 6 cross-corridor.
-- Central Corridor (Columns 9-10): Vertical corridor spanning rows 2-10 (terminates at (10, 10)). Row 10 connects west to (8, 10) (adjacent to Switch Plate at (3, 5)).
+- Central Corridor (Columns 9-10): Vertical corridor spanning rows 2-10 (terminates at (10, 10)).
 - Purple Chamber (rows 2-4, cols 14-18): Connected west to central corridor via row 2 (cols 9-18). Separated from Northern Highway by solid north wall at row 2, and blocked to the south by rock walls and Shutter at (17, 5).
 - SE Lower Purple Floor (rows 12-14, cols 10-26): Accessible via 2F Ladder B at (25, 14). Contains Boulder 3 at (13, 12), the Pit at (23, 14), and Ladder B at (25, 14).
 
