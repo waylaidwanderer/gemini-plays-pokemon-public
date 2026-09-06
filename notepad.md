@@ -1241,6 +1241,6 @@
 - Can (1, 11): Tested [Turn 3437] -> Only trash.
 - Can (1, 9): Tested [Turn 3440] -> Only trash.
 - Can (1, 7): Tested [Turn 3441] -> Only trash. (Column 1 fully empty).
-- Can (3, 7): Moving to inspect via (3, 6) [Turn 3441].
+- Can (3, 7): Inspecting on Turn 3442.
 
 <hr>
