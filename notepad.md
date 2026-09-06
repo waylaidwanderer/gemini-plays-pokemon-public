@@ -177,7 +177,7 @@
 
 ## Party Pokéémon
 
-- BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 41, Water]
 
   - Status: Healthy
 
