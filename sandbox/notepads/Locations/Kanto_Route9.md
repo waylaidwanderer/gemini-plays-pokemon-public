@@ -1,0 +1,1 @@
+- Tile (45, 8): Solid rock slope, impassable south from (45, 7) [Turn 4492].
