@@ -27,4 +27,8 @@
   - Interior bounds: Cols 10..13, Rows 1..5.
   - Occupants: Sailor at (12, 3) [Defeated, Turn 3168] (Roster: Tentacool Lv 18 - 405 EXP, Staryu Lv 18 - 408 EXP; Prize: ¥540; Pre-battle: "Us sailors have POKéMON too!", Defeat: "SAILOR: OK, you're not bad.").
   - Furniture: Desk at (10..11, 1), chair at (10, 2..3), bunk bed at (13, 1..2). No items. Status: Cleared.
-- Remaining Cabins: Expected at (7, 3).
+- Cabin 5: Entrance at (7, 3) in B1F hallway, interior doorway at (2..3, 5).
+  - Interior bounds: Cols 0..3, Rows 1..5.
+  - Occupants: NPC at (0, 2), NPC at (0, 4).
+  - Furniture: Desk at (0..1, 1), chair/table at (0, 3), bunk bed at (3, 1..2). Status: In progress.
+- Remaining Cabins: None (all 5 cabins on B1F discovered).
