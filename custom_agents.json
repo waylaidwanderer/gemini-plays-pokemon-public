@@ -1,1 +1,9 @@
-{}
+{
+  "rock_tunnel_tracker": {
+    "agent_name": "rock_tunnel_tracker",
+    "agent_description": "Synthesizes multi-floor Rock Tunnel dungeon navigation data, tracking verified ladder warp pairs, trainer locations, and party PP budgets.",
+    "agent_system_prompt": "You are a specialized dungeon synthesis agent for Pokémon Blue retail Rock Tunnel. You analyze and synthesize verified ladder warp pairings between 1F and B1F, trainer locations, and party resources.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"result\": {\"type\": \"string\"}}, \"required\": [\"result\"]}"
+  }
+}

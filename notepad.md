@@ -85,7 +85,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥32671
+- ¥34211
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 37, Water]
@@ -1338,7 +1338,7 @@
 ## Overview
 - Dark multi-floor cave connecting Route 10 (North) to Route 10 (South) and Lavender Town.
 - Requires HM05 Flash to illuminate (taught to Drowzee SANDMAN in Slot 6).
-- Wild encounters: Zubat, Geodude, Machop, Onix.
+- Wild encounters verified: Zubat Lv 17-18 [Turn 4567, 4679], Machop Lv 17 [Turn 4662], Geodude, Onix.
 
 ## Entrance & Connections
 - Route 10 North Entrance: Entered at (15, 3) facing North [Turn 4547].
