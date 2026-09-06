@@ -1091,7 +1091,11 @@
   - Interior bounds: Cols 20..23, Rows 1..5.
   - Occupants: Sailor at (22, 2) [Defeated, Turn 3154] (Roster: Horsea Lv 17, Horsea Lv 17, Horsea Lv 17; Prize: ¥510; Pre-battle: "I like feisty kids like you!", Defeat: "SAILOR: Argh! Lost it!").
   - Furniture: Desk at (20..21, 1), chair at (20, 2..3), bunk bed at (23, 1..2). No items. Status: Cleared.
-- Remaining Cabins: Expected at (11, 3), (7, 3).
+- Cabin 4: Entrance at (11, 3) in B1F hallway, interior doorway at (12..13, 5).
+  - Interior bounds: Cols 10..13, Rows 1..5.
+  - Occupants: Sailor at (12, 3).
+  - Furniture: Desk at (10..11, 1), chair at (10, 2..3), bunk bed at (13, 1..2). No items visible.
+- Remaining Cabins: Expected at (7, 3).
 
 <hr>
 
