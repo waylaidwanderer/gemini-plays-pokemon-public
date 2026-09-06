@@ -1,7 +1,7 @@
 import mgba
 
-class Route23ToVR:
-    def __init__(self, budget=80):
+class Route23Final:
+    def __init__(self, budget=75):
         self.budget = budget
         self.used = 0
 
@@ -20,7 +20,7 @@ class Route23ToVR:
     def clear_text_or_run(self):
         # Clear dialogue text
         self.press(["A", "sleep 180", "B", "sleep 180", "A", "sleep 180", "B", "sleep 180"])
-        # Run from wild battle
+        # Attempt to run from wild battle
         self.press(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 350", "B", "sleep 150", "B", "sleep 100"])
 
     def step(self, d):
@@ -54,10 +54,9 @@ class Route23ToVR:
         return False
 
     def run(self):
-        print("Starting from:", self.get_pos())
+        print("Starting Route 23 final stretch from:", self.get_pos())
         wps = [
-            (13, 66),
-            (13, 53),
+            (12, 53),
             (7, 53),
             (7, 35),
             (4, 35),
@@ -72,5 +71,5 @@ class Route23ToVR:
         print("End pos:", self.get_pos(), "used buttons:", self.used)
 
 if __name__ == "__main__":
-    nav = Route23ToVR(budget=80)
-    nav.run()
+    rf = Route23Final(budget=75)
+    rf.run()
