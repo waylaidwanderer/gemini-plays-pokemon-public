@@ -1516,9 +1516,10 @@
 ## Geography & Layout
 - Entrance Mat: Located at cols 10..11, row 17.
 - Memorial Altars: Decorated tombstones with flower arrangements at rows 16..17 (cols 6..8, 12..13).
-- Central Aisle: Open diamond-tiled corridor spanning cols 9..12 heading North from entrance.
-- Pillars / Columns: Structural columns visible at col 13 (rows 13..15).
+- Central Aisle: Open diamond-tiled corridor spanning cols 9..12 heading North from entrance (rows 9..16).
+- Pillars / Columns: Structural column at col 13 (rows 12..15).
+- Display Counter: Located at cols 14..15, row 12.
 - Visitor at (15, 13): Person in green attire paying respects.
-
+- Visitor at (8, 12): Man in orange vest facing south.
 
 <hr>
