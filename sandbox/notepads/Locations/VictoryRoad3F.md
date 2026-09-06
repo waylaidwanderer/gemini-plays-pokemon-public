@@ -31,8 +31,13 @@
 15. Outcome: Switch (3, 5) ACTIVATED! Shutters at (17, 5), (15, 15), (21, 15), and (1, 9) OPEN!
 
 ## Pit Drop to 2F & Exit Gauntlet (Continuous Single Session)
-1. Walk from NW Room through opened Shutter (17, 5) to (21, 15) beside Pit Boulder (22, 15).
-2. Push Pit Boulder East into Pit at (23, 15).
-3. Step East into Pit (23, 15) -> Drop to 2F at (22, 16) with fallen boulder at (23, 16).
-4. On 2F: Push fallen boulder East along Row 16 to (28, 16) -> North along Col 28 to (28, 11) -> West across Row 11 onto Switch Plate.
-5. Exit Shutter opens -> Ascend exit ladder to Route 23 North / Indigo Plateau!
+- Elevation Note: Row 1 Northern Highway (Upper Dark Plateau) is separated from Row 2-4 Lower Purple Floor by a south-facing cliff across cols 13-22. To reach opened Shutter (17, 5) from Upper Plateau / Row 1, walk west to Central Bridge at (6, 1) -> South to (6, 2) -> East along Row 2 / Row 4 to (17, 4) in front of opened Shutter (17, 5).
+1. From NW Room (or Central Bridge): Walk to (17, 4) in front of opened Shutter (17, 5).
+2. Pass South through opened Shutter (17, 5) to (17, 6) onto the southern purple floor.
+3. Walk East along Row 6: (17, 6) -> (23, 6) (6 steps Right).
+4. Walk South down Column 23: (23, 6) -> (23, 14) (8 steps Down).
+5. Walk to Pit Boulder: Step Left 2 to (21, 14), Down 1 to (21, 15) [facing East beside Pit Boulder at (22, 15)].
+6. Push Pit Boulder East into Pit at (23, 15) [Push Right 1 time].
+7. Step East into Pit (23, 15) -> Drop to 2F at (22, 16) with fallen boulder at (23, 16).
+8. On 2F: Push fallen boulder East along Row 16 to (28, 16) -> North along Col 28 to (28, 11) -> West across Row 11 onto Switch Plate.
+9. Exit Shutter opens -> Ascend exit ladder to Route 23 North / Indigo Plateau!
