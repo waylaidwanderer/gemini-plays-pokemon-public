@@ -1383,7 +1383,7 @@
 - Jr. Trainer ♀ at (22, 24) facing South ("I came this far for POKéMON!"): Meowth Lv 20, Oddish Lv 20, Pidgey Lv 20. Prize: ¥400. Defeated Turn 4778. Defeated dialogue: "I'm out of POKéMON!".
 - Corridor Junction (Cols 18..21, Rows 24..31): Westbound corridor from col 22 opens into a wide north-south avenue spanning cols 18-19 (rows 24 through 31+).
 - Southwest Section (Rows 27..35, Cols 14..19): Open cave floor extending west past col 14. South boundary is solid rock wall at rows 34-35 (cols 14-23).
-- Ladder at (15, 33): Sighted on row 33.
+- Southern Exit (15, 33): Ladder warp tile that exits Rock Tunnel 1F to Route 10 South (8, 53) [Turn 4789].
 
 <hr>
 
