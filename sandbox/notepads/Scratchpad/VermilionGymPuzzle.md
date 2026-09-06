@@ -50,3 +50,4 @@
 - Can (7, 7) tested: empty [Turn 3582].
 - Can (9, 7) tested: empty [Turn 3583].
 - Can (7, 9) tested: empty [Turn 3584].
+- Can (9, 9) tested: empty [Turn 3585].
