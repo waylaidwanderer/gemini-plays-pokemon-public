@@ -1281,7 +1281,7 @@
 ## Trainers
 - Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
 - Hiker Jeremy at (15, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
-- Camper at (24, 7): Stationed on upper northern path facing South.
+- Camper at (24, 7): Jr. Trainer ♂ facing South. Quote: "...with those good looking POKéMON?". Has 2 Pokémon.
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
