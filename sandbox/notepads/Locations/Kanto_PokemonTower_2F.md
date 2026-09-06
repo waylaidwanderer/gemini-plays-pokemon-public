@@ -2,7 +2,7 @@
 
 ## Connections
 - Stairs Up: Located at (18, 9) leading up to 3F [Verified Turns 5007, 5032].
-- Stairs Down: Tile (3, 9) displays staircase sprite; active testing required to confirm 1F warp connection.
+- Stairs Down: Tile (3, 9) was empirically tested and confirmed to be standard crosshatch floor (no warp). Actively searching remaining quadrants of 2F (specifically rows 1..4 in north and east) for the 1F connection [Turn 5056].
 
 ## Key Events & Encounters
 - Rival RED Encounter: Challenged player on 2F.
