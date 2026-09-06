@@ -1,5 +1,5 @@
 # Inventory Log
-(Capacity: 15 / 20 unique item slots - 5 slots freed at Cerulean PC)
+(Capacity: 14 / 20 unique item slots - 5 slots freed at Cerulean PC)
 
 ## Items
 - POKé BALL x11
@@ -9,7 +9,6 @@
 - ESCAPE ROPE x1
 - ANTIDOTE x2
 - RARE CANDY x2
-- TM08 (BODY SLAM) x1
 - TM24 (THUNDERBOLT) x1
 - HP UP x1
 
@@ -62,7 +61,7 @@
   - Status: Healthy
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 15/15) [Learned Turn 4031]
   - Moveset Plan: Teach TM08 Body Slam over Tail Whip prior to Route 9 departure. Retains Bubblebeam (STAB 65 BP), Water Gun (STAB 40 BP endurance), Bite (60 BP), and Body Slam (85 BP Normal coverage + 30% paralysis).
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
