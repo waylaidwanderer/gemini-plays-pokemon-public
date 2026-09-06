@@ -1542,7 +1542,7 @@
   - Dialogue: Mentions catching Cubone and looking for Marowak.
   - Departure: Exited down the stairs at (18, 9) to 1F.
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
-- Channeler at (10, 13): Trainer battle! Dialogue: "Be gone! Evil spirit!" (Has 1 Pokémon) [Turn 4963].
+- Channeler at (10, 13): Trainer battle! Gastly Lv 22 (447 EXP). Defeated Turn 4971 (Prize: ¥660). Defeat dialogue: "Whew! The spirit left!"
 - Staircase at (3, 9): Visually displays staircase graphics; status pending precise interaction testing.
 
 ## Geography & Layout
