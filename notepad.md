@@ -1511,12 +1511,12 @@
 
 ## Connections
 - South Exit: Door warp at cols 10..11, row 18 (exits to Lavender Town exterior at (14, 5)).
-- Stairs Up: Leads to 2F (TBD - east side surveyed, cols 16..19 at rows 0..12 contain no stairs; searching west half).
+- Stairs Up: Leads to 2F (TBD).
 
 ## Geography & Layout
 - Entrance Mat: Located at cols 10..11, row 17.
 - Memorial Altars: Decorated tombstones with flower arrangements at rows 16..17 (cols 6..8, 12..13).
-- Central Aisle: Open diamond-tiled corridor spanning cols 9..12 heading North from entrance (rows 9..16).
+- Central Aisle: Diamond-tiled floor heading North from entrance, divided by monuments.
 - Pillars / Columns: Structural column at col 13 (rows 12..15).
 - Display Counter: Located at cols 14..15, row 12.
 - Visitor at (15, 13): Person in green attire paying respects.
