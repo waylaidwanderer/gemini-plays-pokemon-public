@@ -9,11 +9,9 @@
   - Row 7:  (1, 7)  (3, 7)  (5, 7)  (7, 7)  (9, 7)
   - Row 9:  (1, 9)  (3, 9)  (5, 9)  (7, 9)  (9, 9)
   - Row 11: (1, 11) (3, 11) (5, 11) (7, 11) (9, 11)
-- Aisles:
-  - Vertical: cols 0, 2, 4, 6, 8
-  - Horizontal: rows 6, 8, 10, 12
+- Aisles: Vertical (cols 0, 2, 4, 6, 8), Horizontal (rows 6, 8, 10, 12)
 - Barrier: Located at rows 4..5 blocking passage to Lt. Surge.
-- All 3 Gym Trainers Defeated: Rocker at (3, 8), Sailor at (0, 10), Gentleman at (9, 6).
+- All 3 Gym Trainers Defeated: Rocker at (3, 8), Sailor at (2, 10), Gentleman at (9, 6).
 
 ## Verified Empirical Observations
 1. Inspecting an empty can: "Nope, there's only trash here."
@@ -21,55 +19,21 @@
 3. Inspecting a non-switch can while Switch 1 is active: "Nope! There's only trash here. Hey! The electric locks were reset!"
    - Confirmed: When locks reset, Switch 1 re-rolls to a can.
 
-## Working Hypotheses (Awaiting Verification)
-- Switch 2 Location: Hypothesized to be in an adjacent can to Switch 1 while Switch 1 is active. (Unproven in this playthrough).
+## Compressed History of Completed Cycles
+- Cycle 1: Switch 1 at (1, 11) [Turn 3319]. Tested (1, 9) -> reset [Turn 3323].
+- Cycle 2: Switch 1 at (1, 11) [Turn 3329]. Tested non-adjacent (1, 7) -> reset [Turn 3333].
+- Cycle 3: Switch 1 at (1, 7) [Turn 3354]. Tested (1, 9) -> reset [Turn 3356].
+- Cycle 4: Switch 1 at (3, 9) [Turn 3371]. Tested (3, 11) -> reset [Turn 3372].
+- Cycle 5: Switch 1 at (1, 7) [Turn 3410]. Tested (3, 7) -> reset [Turn 3414].
 
-## Empirical Testing History
-- Cycle 1: Switch 1 found at (1, 11) [Turn 3319]. Tested (1, 9) -> reset [Turn 3323].
-- Cycle 2: Switch 1 found at (1, 11) [Turn 3329]. Tested (1, 7) -> reset [Turn 3331/3333].
-- Cycle 3: Switch 1 found at (1, 7) [Turn 3354]. Tested (1, 9) -> reset [Turn 3356].
-- Cycle 4 (Current - post-Turn 3356 reset):
-  - Can (1, 9): Tested Turn 3358 -> Only trash.
-  - Can (1, 7): Tested Turn 3360/3361 -> Only trash.
-  - Can (3, 7): Checked Turn 3362 -> Only trash.
-  - Can (5, 7): Inspecting Turn 3362.
-- Can (5, 7): Checked Turn 3363 -> Only trash.
-- Can (7, 7): Inspecting Turn 3363.
-- Can (7, 7): Checked Turn 3365 -> Only trash.
-- Can (9, 7): Inspecting Turn 3365.
-- Can (9, 7): Checked Turn 3366 -> Only trash. (All Row 7 cans empty in Cycle 4).
-- Can (9, 9): Inspecting Turn 3366.
-- Can (9, 9): Checked Turn 3367 -> Only trash.
-- Can (7, 9): Inspecting Turn 3367.
-- Can (7, 9): Checked Turn 3369 -> Only trash.
-- Can (5, 9): Inspecting Turn 3369.
-- Can (5, 9): Checked Turn 3370 -> Only trash.
-- Can (3, 9): Inspecting Turn 3370.
-
-## Switch 1 Found at Can (3, 9)! (Turn 3371)
-- Message: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
-- Cardinally adjacent cans on grid:
-  - South: Can (3, 11) (directly behind player at 3, 10!)
-  - North: Can (3, 7)
-  - East: Can (5, 9)
-  - West: Can (1, 9)
-- Action: Inspecting Can (3, 11) for Switch 2 on Turn 3371!
-- Can (3, 11): Tested while Switch 1 active at (3, 9) [Turn 3372] -> Only trash, locks reset.
-- Cycle 5: Can (7, 7) tested [Turn 3396] -> Only trash.
-
-- Cycle 5: Can (3, 11) tested [Turn 3378] -> Only trash.
-- Cycle 5: Can (3, 9) tested [Turn 3385] -> Only trash.
-- Cycle 5: Can (5, 9) tested [Turn 3389] -> Only trash.
-- Cycle 5: Can (7, 9) tested [Turn 3397] -> Only trash.
-- Cycle 5: Can (7, 11) tested [Turn 3398] -> Only trash.
-- Cycle 5: Can (5, 11) tested [Turn 3399] -> Only trash.
-- Cycle 5: Can (9, 11) tested [Turn 3402] -> Only trash.
-- Cycle 5: Can (9, 9) tested [Turn 3403] -> Only trash.
-- Cycle 5: Can (9, 7) tested [Turn 3404] -> Only trash.
-- DEDUCTION: All 12 cans in Columns 3, 5, 7, 9 are empty. Switch 1 MUST be in Column 1: (1, 7), (1, 9), or (1, 11)!
-- Cycle 5: Inspecting Can (1, 7) on Turn 3406.
-## Switch 1 Found at Can (1, 7)! (Turn 3410)
-- 1st electric lock opened!
-- Adjacent cans for Switch 2:
-  - Can (3, 7) [East]
-  - Can (1, 9) [South]
+## Active Cycle 6 (Current)
+- Can (3, 7): Tested [Turn 3418] -> Only trash.
+- Can (1, 7): Tested [Turn 3419] -> Only trash.
+- Can (5, 7): Tested [Turn 3423] -> Only trash.
+- Can (7, 7): Tested [Turn 3424] -> Only trash.
+- Can (9, 7): Tested [Turn 3425] -> Only trash. (All 5 Row 7 cans empty).
+- Can (9, 9): Tested [Turn 3427] -> Only trash.
+- Can (7, 9): Tested [Turn 3428] -> Only trash.
+- Can (9, 11): Tested [Turn 3429] -> Only trash.
+- Can (7, 11): Tested [Turn 3430] -> Only trash. (Columns 7 and 9 fully empty).
+- Can (5, 11): Inspecting on Turn 3431.
