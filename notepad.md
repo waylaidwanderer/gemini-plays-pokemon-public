@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 33, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥18330
+- Money: ¥19380
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -78,7 +78,7 @@
   - Status: Healthy
   - HP: 43 / 89
   - Stats: Attack 59, Defense 72, Speed 60, Special 61
-  - Moves: Bite (PP 0/25), Tail Whip (PP 30/30), Bubblebeam (PP 9/20), Water Gun (PP 23/25)
+  - Moves: Bite (PP 0/25), Tail Whip (PP 30/30), Bubblebeam (PP 8/20), Water Gun (PP 23/25)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -134,7 +134,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
-- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted).
+- **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
@@ -1103,7 +1103,7 @@
 - Cabin 5: Entrance at (7, 3) in B1F hallway, interior doorway at (2..3, 5).
   - Interior bounds: Cols 0..3, Rows 1..5.
   - Occupants: NPC at (0, 2), Fisherman at (0, 4) (Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!").
-  - Furniture: Desk at (0..1, 1), chair at (0, 3), bunk bed at (3, 1..2). Status: In progress.
+  - Furniture: Desk at (0..1, 1), chair at (0, 3), bunk bed at (3, 1..2).
 - Remaining Cabins: None (all 5 cabins on B1F discovered).
 
 <hr>
