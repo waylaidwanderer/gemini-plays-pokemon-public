@@ -37,3 +37,4 @@
 - Can (3, 7): Tested [Turn 3444] -> Only trash.
 - Can (5, 7): Tested [Turn 3445] -> Only trash.
 - Can (7, 7): Tested [Turn 3446] -> Only trash.
+- Can (9, 7): Tested [Turn 3447] -> Only trash. (All 5 Row 7 cans empty).
