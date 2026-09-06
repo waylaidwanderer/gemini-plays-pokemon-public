@@ -181,7 +181,7 @@
 
   - Status: Healthy
 
-  - HP: 110 / 124
+  - HP: 113 / 127
 
   - Stats: Attack 89, Defense 105, Speed 89, Special 91
 
