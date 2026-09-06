@@ -48,6 +48,7 @@
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 - [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
+- [x] Traverse Route 9 and reach Route 10 [Turn 4517]
 
 
 <hr>
@@ -1275,5 +1276,7 @@
 - Row 11: South-facing ledges across cols 2..5.
 - Central Lawn (Cols 2..3, Rows 6..10): Open green lawn strip.
 - Eastern Tall Grass Strip (Cols 4..5+, Rows 6..10): Tall grass field on eastern perimeter.
+- Corridor (Rows 12..13, Cols 2..7+): East-west open green lawn passage bounded north by row 11 south-facing ledge and south by row 14 cliff wall. Leads east toward the Pokémon Center and Rock Tunnel [Turn 4519].
+- Cliff Line (Row 14, Cols 2..7+): Impassable southern mountain cliff bounding the row 12-13 corridor [Turn 4519].
 
 <hr>
