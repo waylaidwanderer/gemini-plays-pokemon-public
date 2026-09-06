@@ -12,7 +12,7 @@
 4. Ladder B @ (25, 14): Floor ladder (black opening `[=]`) in SE Pit room. Connects to 2F SE sector at (25, 14).
 
 ## Verified Mechanics & Puzzle State
-- Switch (3, 5) in NW Room: Activated by Boulder 1 -> Opens Shutter at (17, 5) and Shutter at (21, 15).
+- Switch (3, 5) in NW Room: The 3F NW Room contains no pushable boulders; the primary progression route bypasses this switch via Ladder A (23, 7) directly to the Pit Room.
 - Pit at (23, 15): Dropping Pit Boulder down this hole lands on 2F at (23, 16) beside the player landing at (22, 16).
 - Route to Ladder B from Row 16: (28, 16) -> (25, 17) -> (21, 17) -> through Shutter (21, 15) to (21, 14) -> col 20 (20, 12) -> Row 12 East to (25, 12) -> Down to Ladder B at (25, 14).
 ## Verified Topography & Navigation Guidelines (Verified Turns 33345-33361)
