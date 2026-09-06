@@ -1283,5 +1283,6 @@
 - Tested adjacent Can (3, 7) [Turn 3414] -> Only trash, locks reset.
 - Cycle 6 begins.
 - Cycle 6: Can (3, 7) tested [Turn 3418] -> Only trash.
+- Cycle 6: Can (1, 7) tested [Turn 3419] -> Only trash.
 
 <hr>
