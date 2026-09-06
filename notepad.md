@@ -1233,6 +1233,8 @@
 - Attempt 3 (Current):
   - Testing Can (1, 11) on Turn 3331 to observe if Switch 1 persists or re-rolls.
   - If Switch 1 is at (1, 11), adjacent untested can while active is (3, 11).
+- Can (1, 11): Checked Turn 3336 -> Only trash. (Switch 1 re-rolled).
+- Can (3, 11): Inspecting Turn 3336.
 
 
 <hr>
