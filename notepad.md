@@ -1334,6 +1334,8 @@
 - Signpost at (9, 55): Read from (8, 55) facing East. Text: "ROCK TUNNEL" [Turn 4790].
 - NPC at (7, 54): Stationed at (7, 54) facing South down column 7.
 - Southern Geography: Cols 5..12 terminated at row 58 by cliff wall; passage continues south/west through col 4 and cols 0..3 toward Lavender Town.
+- Hiker at (7, 54): Triggered at (7, 56) facing South. Pre-battle dialogue: "I'm feeling a bit faint from this..." [Turn 4793].
+- NPC at (0, 58): Sighted on the western path facing East/South.
 
 <hr>
 
