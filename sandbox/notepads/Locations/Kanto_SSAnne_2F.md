@@ -19,7 +19,7 @@
   - Furniture: Desk at (0..1, 1), chair at (0, 3), bed at (3, 1..2). No item ball in Cabin 1.
 - Cabin 2: Entrance at (13, 11) in 2F main hallway. Interior doorway at (12..13, 5).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Occupants: Fisherman Dale at (13, 4) [Defeated, Turn 2977] (Roster: Goldeen Lv 17, Tentacool Lv 17, Goldeen Lv 17; Prize: ¥595), Gentleman at (11, 2) [Defeated, Turn 2984] (Roster: Pikachu Lv 23; Prize: ¥1610).
+  - Occupants: Fisherman Dale at (13, 4) [Defeated, Turn 2977], Gentleman at (11, 2) [Defeated, Turn 2984].
   - Item Ball at (12, 1): Max Ether collected [Turn 2985]!
 - Cabin 3: Entrance at (17, 11) in 2F main hallway. Interior doorway at (22..23, 5).
   - Interior bounds: Cols 20..23, Rows 1..5.
@@ -27,7 +27,7 @@
   - Furniture: Desk at (20..21, 1), chair at (20, 3), bed at (23, 1..2). No items in Cabin 3.
 - Cabin 4: Entrance at (21, 11) in 2F main hallway. Interior doorway at (2..3, 15).
   - Interior bounds: Cols 0..3, Rows 11..15.
-  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005] (Roster: Growlithe Lv 17, Ponyta Lv 17; Prize: ¥1190), Lass at (2, 12) [Defeated, Turn 3011] (Roster: Rattata Lv 18, Pikachu Lv 18; Prize: ¥270).
+  - Occupants: Gentleman at (1, 14) [Defeated, Turn 3005], Lass at (2, 12) [Defeated, Turn 3011].
   - Furniture: Desk at (0..1, 11), chair at (0, 13), bed at (3, 11..12). No item ball.
 - Cabin 5: Entrance at (25, 11) in 2F main hallway. Interior doorway at (12..13, 15).
   - Interior bounds: Cols 10..13, Rows 11..15.

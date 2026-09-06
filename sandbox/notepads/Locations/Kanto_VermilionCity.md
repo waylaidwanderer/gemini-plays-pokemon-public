@@ -24,7 +24,10 @@
 - Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
 
 ## S.S. Anne Docks & Harbor
-- Location: Eastern Vermilion City at columns 30..31.
+- Location: Eastern and southern Vermilion City harbor.
 - Approach: Paved thoroughfare runs east along rows 14..15 past Poké Mart (cols 24..28) to the pier entrance at (30, 15..16).
 - Signpost (29, 15): Located immediately west of pier entrance (text unread).
-- Pier: 2-tile wide wooden plank pier (cols 30..31) extending south from row 16 through the water into the ocean.
+- Pier Structure & Traversal (Turns 3221-3226):
+  - North-South Pier (Cols 30..31, Rows 16..26): 2-tile wide wooden plank pier running south through the water.
+  - Southern Branch (Cols 18..30, Rows 26..27): 2-tile wide wooden dock running west from col 30 to col 18.
+  - S.S. Anne Gangplank: Located at (18, 26) connecting the ship to the harbor dock.

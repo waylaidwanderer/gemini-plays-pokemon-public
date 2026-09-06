@@ -14,7 +14,7 @@
 ## Cabins
 - Cabin 1: Entrance at (23, 8) in 1F main hallway. Interior doorway at (10, 0).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Trainer (11, 4): Gentleman [Defeated, Turn 2850] (Roster: Nidoran♂ Lv 19 - 243 EXP, Nidoran♀ Lv 19 - 240 EXP, Prize: ¥1330). Pre-battle: "You pup! How dare you barge in!". Defeat: "Humph! You rude child!".
+  - Trainer (11, 4): Gentleman [Defeated, Turn 2850].
   - Table/luggage at (10..11, 5), bed at (13, 4..5).
 - Cabin 2: Entrance at (19, 8) in 1F main hallway. Interior doorway at (20, 0).
   - Interior bounds: Cols 20..23, Rows 1..5.
@@ -25,7 +25,7 @@
   - Girl at (2, 11) ("I always travel with WIGGLYTUFF!"), Wigglytuff at (3, 11) ("Puup pupuu!"), Sailor at (0, 14) ("A cruise is so elegant yet cozy!"). No items or trainers.
 - Cabin 4: Entrance at (11, 8) in 1F main hallway. Interior doorway at (10, 10).
   - Interior bounds: Cols 10..13, Rows 10..15.
-  - Occupants: Lass Ann at (13, 11) [Defeated, Turn 2908] (Roster: Pidgey Lv 18 - 211 EXP, Nidoran♀ Lv 18 - 226 EXP, Prize: ¥270; Pre-battle: "I collected these POKéMON from all around the world!", Defeat: "Oh no! I went around the world for these!"), Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875] (Roster: Nidoran♂ Lv 21 - 270 EXP, Prize: ¥315).
+  - Occupants: Lass Ann at (13, 11) [Defeated, Turn 2908], Lass at (10, 13) ("We are cruising around the world."), Youngster Tyler [Defeated, Turn 2875].
   - Item Ball at (12, 15): TM08 (Body Slam) collected [Turn 2877]!
 - Cabin 5: Entrance at (7, 8) in 1F main hallway. Interior doorway at (20, 10).
   - Interior bounds: Cols 20..23, Rows 10..15.
@@ -35,7 +35,7 @@
 ## Eastern Corridor & B1F Passage
 - Cabin 6 (Eastern Cabin): Entrance at (31, 8) in 1F main hallway, interior doorway at (0, 0).
   - Interior bounds: Cols 0..3, Rows 0..5.
-  - Occupants: Gentleman at (2, 3) [Defeated, Turn 3216] (Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!").
+  - Occupants: Gentleman at (2, 3) [Defeated, Turn 3216].
   - Furniture: Bed at (3, 4..5), desk/table at (0..1, 5). No item balls visible.
 - Eastern South Corridor: Cols 36..37, extending south from row 7 to row 15 (checkered carpet at col 36, yellow at col 37).
 - East wall of ship at col 38.
