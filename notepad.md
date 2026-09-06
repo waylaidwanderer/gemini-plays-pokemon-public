@@ -1314,6 +1314,6 @@
 - Tile (53, 13): South-facing ledge, impassable north from (53, 14) [Turn 4339].
 - Tile (54, 15): Solid rock wall, impassable east from (53, 15) [Turn 4337].
 - Tile (53, 16): Solid cliff wall, impassable south from (53, 15) [Turn 4338].
-- Northern Plateau (Cols 8..25, Rows 2..5): Elevated dead-end plateau containing wild grass patch and Bug Catcher at (22, 2). Mountains along cols 26-29 block eastward movement on rows 1-7. Access is exclusively via ramp at (25, 5).
+- Tile (19, 6): Solid rock wall, impassable west from (20, 6) [Turn 4380].
 
 <hr>
