@@ -21,12 +21,12 @@
   - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7) and Ladder NE at (26, 8).
   - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
 
-## Master Route from 2F Entrance to Ladder NE (26, 8) & 3F Upper Dark Plateau
+## Master Route from 2F Entrance to Ladder NE (27, 7) & 3F Upper Dark Plateau
 - Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-- Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) -> walk through Shutter 1 (5, 10) -> across light purple floor to (20, 14) -> south through Shutter 3 (21, 15) to Lower Highway (row 16) -> east to (29, 16) -> north up col 29 to (29, 8) -> west to Ladder NE at (26, 8) -> ascends to 3F Upper Dark Plateau.
+- Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) -> walk through Shutter 1 (5, 10) -> across light purple floor to (20, 14) -> south through Shutter 3 (21, 15) to Lower Highway (row 16) -> east to (29, 16) -> north up col 29 to (29, 8) -> west to Ladder NE at (27, 7) -> ascends to 3F Upper Dark Plateau.
 
-## Return Route from Ladder A / North Area (23, 8) to Ladder NE (26, 8):
-- North Area connects west via Row 8 to column 20, south to Shutter 3 (21, 15), and east along Row 16 to column 29, ascending to Ladder NE (26, 8).
+## Return Route from Ladder A / North Area (23, 8) to Ladder NE (27, 7):
+- North Area connects west via Row 8 to column 20, south to Shutter 3 (21, 15), and east along Row 16 to column 29, ascending to Ladder NE (27, 7).
 
 ## Master Boulder 2 Solution
 - Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
