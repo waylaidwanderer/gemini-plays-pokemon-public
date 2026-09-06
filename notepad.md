@@ -2738,6 +2738,11 @@
 - Switch Plate: Located at (9, 16).
 - Shutter: Located at (15, 15).
 - Target: Push Boulder (9, 11) onto Switch (9, 16) to lower Shutter (15, 15) and open passage to Lower Highway (row 16/17).
+## Verified Physical Boundaries & Caution Warnings (Verified Turns 33284-33331)
+- Impassable South-Facing Cliff: Located at Row 7 across columns 10-14, preventing direct southward walking from the upper plateau onto Row 8.
+- Row 4 Rock Wall Barrier: Solid rock wall spans columns 0 through 4 at Row 4 ((0..4, 4)). The ONLY gap connecting Row 5 to Rows 1-3 is at (5, 4). Direct access to NW Ladder (1, 1) from the south is completely blocked unless approaching from the north or via the (5, 4) chute.
+- Ladder Tile Warp Hazard (0, 8): Stepping South from (0, 7) directly onto (0, 8) immediately triggers the map warp to 1F (1, 1), resetting all 2F native boulders and closing shutters. Always maintain coordinate awareness near (0, 8).
+- Verified Continuous East Highway: Row 12 is fully open across columns 14 through 25 ((14..25, 12)), providing an unobstructed route from the west foyer to Ladder B at (25, 14).
 
 <hr>
 
