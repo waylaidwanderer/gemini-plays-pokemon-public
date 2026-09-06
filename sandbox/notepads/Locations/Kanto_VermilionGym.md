@@ -11,4 +11,4 @@
 
 ## Mechanics & Locks
 - Door Locks: Lt. Surge is behind a locked barrier. You must break a code / find switches to open the doors.
-- Trash Can Grid: Visible at row 10 (cans at cols 1, 3, 5, 7, 9 with aisles between them).
+- Trash Can Grid: Row 11 has cans at cols 1, 3, 5, 7, 9 with aisles between them (cols 0, 2, 4, 6, 8).
