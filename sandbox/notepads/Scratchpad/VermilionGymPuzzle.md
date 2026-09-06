@@ -40,3 +40,4 @@
 - Can (1, 9) tested: empty [Turn 3572].
 - Can (3, 9) tested: empty [Turn 3573].
 - Can (1, 7) tested: empty [Turn 3574].
+- Can (3, 7) tested: empty [Turn 3575].
