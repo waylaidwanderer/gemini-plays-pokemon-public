@@ -36,4 +36,9 @@
 - Can (7, 9): Tested [Turn 3428] -> Only trash.
 - Can (9, 11): Tested [Turn 3429] -> Only trash.
 - Can (7, 11): Tested [Turn 3430] -> Only trash. (Columns 7 and 9 fully empty).
-- Can (5, 11): Inspecting on Turn 3431.
+- Can (5, 11): Switch 1 FOUND! [Turn 3432]
+- 1st electric lock opened!
+- Adjacent cans for Switch 2:
+  - Can (3, 11) [West]
+  - Can (5, 9) [North]
+  - Can (7, 11) [East]
