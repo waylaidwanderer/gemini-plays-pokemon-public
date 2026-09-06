@@ -47,3 +47,5 @@
 - Tested adjacent Can (7, 7) -> reset [Turn 3580].
 
 ## Cycle 9 (Turn 3580+)
+- Can (7, 7) tested: empty [Turn 3582].
+- Can (9, 7) tested: empty [Turn 3583].
