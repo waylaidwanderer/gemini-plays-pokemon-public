@@ -7,6 +7,8 @@
 
 ## Connections & Ladders
 - Ladder 1: Arrived at (33, 25) from 1F (37, 3).
+- Ladder 2: Located at (27, 3) [Turn 4656]. Ascends to 1F.
+- Ladder 3: Sighted at (23, 11) [Turn 4655]. Located in western pocket across col 24-25 wall.
 ## Geography & Layout
 - Southeastern Chamber: Ladder 1 at (33, 25). North wall at row 21 (cols 26-38), East wall at col 38 (rows 21-29).
 - Dividing Rock Wall: Vertical rock barrier at cols 26-27 (rows 21-29) separates the Ladder 1 chamber from the western corridor.
