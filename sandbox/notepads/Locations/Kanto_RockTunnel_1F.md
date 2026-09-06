@@ -43,3 +43,4 @@
 - Southern Avenue Extension: Wide open corridor spanning cols 33-37 from row 21 down past row 25+.
 
 - Southern Bend (Rows 28..31): Solid southern wall at row 32 and east wall at col 38. Corridor turns west along rows 28..31 across cols 29..37+.
+- Southwest Corridor (Rows 26..31, Cols 26..30): Wide open corridor extending west past col 26, bounded south by rock wall at row 32.
