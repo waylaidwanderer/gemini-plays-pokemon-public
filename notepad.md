@@ -270,6 +270,7 @@
   - Opponent Roster: Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
   - Combat: Voltorb used Tackle (dealt 10 dmg, DIGBY HP 36 -> 26/36). DIGBY used Dig (underground dodged Sonicboom, then emerged with super-effective STAB OHKO!). Voltorb fainted.
   - Pikachu used Growl (failed while Digby underground), Surge used X Speed. DIGBY used Dig (super-effective STAB OHKO!). Pikachu fainted.
+  - Raichu used Thunderbolt (no effect on Ground), then Surge used X Speed. Raichu used Thundershock (no effect). DIGBY used Dig (super-effective 2HKO!). Raichu fainted. DIGBY grew to Lv 19! Prize: ¥2376. Decisive victory!
 
 <hr>
 
@@ -1271,7 +1272,6 @@
 
 ## Main Tunnel
 - Main tunnel: Ladder at (37, 31) up to Vermilion City entrance room. Tunnel extends west along rows 30..31 to (24, 31) where it turns north towards row 27.
-- Tunnel turns west along rows 26..28 past col 24.
 - Main tunnel: Extends west along rows 26..29 past col 16 to cols 12..13, where it turns north through rows 22..25.
 ## Wild Encounters
 - Diglett: Lv 18 observed [Turn 3496].
