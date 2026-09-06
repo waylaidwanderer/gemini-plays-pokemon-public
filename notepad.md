@@ -68,6 +68,7 @@
 - NUGGET x1
 - TM08 (BODY SLAM) x1
 - TM24 (THUNDERBOLT) x1
+- HP UP x1
 
 ## Key Items
 - POKéDEX
@@ -286,6 +287,7 @@
 - Occupants:
   - (8, 4): Wandering Youngster NPC (advises: "Once a POKéMON learns FLASH, you can get through ROCK TUNNEL.").
   - (1, 4): PROFESSOR OAK'S AIDE! Stationed on the west side of the gatehouse. Gives HM05 (Flash) if player has caught 10 or more Pokémon species.
+- Southern Cut Pocket (Turn 3860): HP Up collected from item ball at (13, 45).
 
 
 <hr>
