@@ -15,6 +15,7 @@
 - Youngster Trainer at (13, 5): Stationed in grass facing West along row 5 (sightline along row 5).
 
 ## Wild Encounters & Catches
+- Spearow: Lv 13 observed in tall grass [Turn 3709].
 - Magikarp: Lv 5 caught with Old Rod at (0, 8) [Turn 3694], nicknamed TSUNAMI.
-- Drowzee: Native to Route 11 tall grass.
+- Drowzee: Lv 9 caught in tall grass [Turn 3721], nicknamed SANDMAN.
 - Sandshrew: Native to Route 11 tall grass (Blue version exclusive).
