@@ -1339,9 +1339,8 @@
 - Cliff Wall (Row 64, Cols 2..7): Solid mountain cliff bounding south side of western tall grass.
 - Hiker at (3, 57): Triggered at (3, 56) facing North. Pre-battle dialogue: "Ha-hahah-ah-ha!". Team: Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4811. Defeat dialogue: "Ha-haha! Not laughing! Ha-hay fever! Haha-ha-choo!".
 - Hiker at (3, 61): Triggered at (3, 63) facing South. Pre-battle dialogue: "Ah! This mountain air is delicious!". Team: Onix Lv 19, Graveler Lv 19. Prize: ¥665. Defeated Turn 4824. Defeat quote: "That cleared my head!".
-- Pokémaniac at (14, 64): Triggered at (10, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: Cubone Lv 20, Slowpoke Lv 20. [Turn 4826-4831].
+- Pokémaniac at (11, 64): Stationed at (11, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: Cubone Lv 20, Slowpoke Lv 20. Prize: ¥1000. Defeated Turn 4832.
 - Eastern South Avenue (Cols 10..11, Rows 62..67): Open avenue through tall grass between cliff (west, cols 4..8) and Lavender Town building (east, cols 12..13, rows 66+). Runs directly South past row 67 into Lavender Town!
-
 
 <hr>
 
