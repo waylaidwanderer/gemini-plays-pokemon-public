@@ -1,8 +1,8 @@
 # Pokémon Tower 2F Geography & Points of Interest
 
 ## Connections
-- Stairs Down: Located at (18, 9) leading down to 1F.
-- Stairs Up: Unverified / TBD.
+- Stairs Up: Located at (18, 9) leading up to 3F [Verified Turns 5007, 5032].
+- Stairs Down: Tile (3, 9) displays staircase sprite; active testing required to confirm 1F warp connection.
 
 ## Key Events & Encounters
 - Rival RED Encounter: Challenged player on 2F.
