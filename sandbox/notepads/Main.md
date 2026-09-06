@@ -48,3 +48,5 @@
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
 - [x] Defeat Picnicker Alicia on Route 9 [Turn 4108]
 - [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
+- [x] Defeat Hiker at (45, 15) on Route 9 [Turn 4174]
+- [x] Defeat Camper Drew on Route 9 [Turn 4190]
