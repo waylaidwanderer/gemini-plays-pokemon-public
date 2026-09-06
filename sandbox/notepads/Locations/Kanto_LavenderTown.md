@@ -27,7 +27,6 @@
 - Pokémon Tower: Located in northeast quadrant (cols 12..17, rows 0..3 on cliff above rows 4..5). Black arched doorway visually confirmed at (14, 5) with approach from row 6 [Turn 4891].
   - Confirmed Collisions: Tile (15, 5) is solid cliff wall [Turn 4888].
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
-- Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9. Front entrance door at (7, 9).
   - Interior Layout (verified Turn 4856-4858):
     - Entrance mat at (2..3, 7).
     - Table at (3..4, 3..4) with Pokémon Fan Magazine at (3, 3).
