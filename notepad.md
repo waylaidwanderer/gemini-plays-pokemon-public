@@ -1251,5 +1251,10 @@
 - If (1, 11) is Switch 1 -> Switch 2 MUST be (1, 9).
 - If (1, 11) is empty -> Switches MUST be (1, 9) and (1, 7)!
 
+## Reset Event (Turn 3325)
+- Lock reset confirmed: Switch 2 was not (1, 9) or direction fell out of bounds.
+- Switch 1 re-rolled.
+- Checking Can (1, 9) on Turn 3325.
+
 
 <hr>
