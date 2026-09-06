@@ -1,6 +1,6 @@
 import mgba
 
-class Route23Surfer:
+class CanalToVR:
     def __init__(self, budget=80):
         self.budget = budget
         self.used = 0
@@ -53,19 +53,19 @@ class Route23Surfer:
             steps += 1
         return False
 
-    def surf_to_north_bank(self):
-        print("Starting surf from:", self.get_pos())
-        # Surf north along column 11
+    def run_stage1(self):
+        # Surf north along column 6 to row 71
+        print("Starting Stage 1 from:", self.get_pos())
         while True:
             x, y = self.get_pos()
             if y <= 71:
-                print("Landed on north bank at:", x, y)
+                print("Reached y <= 71 at:", x, y)
                 break
             if self.used >= self.budget:
-                print("Budget limit reached at:", x, y)
                 break
             self.step("Up")
+        print("End Stage 1 pos:", self.get_pos(), "used:", self.used)
 
 if __name__ == "__main__":
-    s = Route23Surfer(budget=80)
-    s.surf_to_north_bank()
+    c = CanalToVR(budget=80)
+    c.run_stage1()
