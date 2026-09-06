@@ -31,7 +31,7 @@
 - ¥27671
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 36, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 36, Water]
   - Status: Healthy
   - HP: 93 / 97
   - Stats: Attack 65, Defense 79, Speed 65, Special 67

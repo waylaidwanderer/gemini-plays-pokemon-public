@@ -29,7 +29,7 @@
 - Hiker Jeremy at (15, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
 - Camper at (24, 7): Jr. Trainer ♂ (Drew) facing South. Growlithe Lv 21, Charmander Lv 21. Prize: ¥420. Defeated Turn 4190.
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
-- Bug Catcher at (40, 8): Stationed on upper path facing South.
+- Bug Catcher at (40, 8): Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Prize: �200. Defeated Turn 4489.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
 - Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19, Beedrill Lv 19. Prize: ¥190. Defeated Turn 4209.
 ## Elevation Boundaries & Confirmed Collisions
