@@ -27,39 +27,9 @@
 - Cycle 5: Switch 1 at (1, 7) [Turn 3410]. Tested (3, 7) -> reset [Turn 3414].
 - Cycle 6: Switch 1 at (5, 11) [Turn 3432]. Tested adjacent Can (3, 11) -> reset [Turn 3434].
 - Cycle 7: Switch 1 at (7, 9) [Turn 3449]. Tested adjacent Can (9, 9) -> reset [Turn 3453].
+- Cycle 8: Switch 1 at (9, 7) [Turn 3578]. Tested adjacent Can (7, 7) -> reset [Turn 3580].
+- Cycle 9: Switch 1 at (9, 11) [Turn 3587]. Tested adjacent Can (7, 11) -> reset [Turn 3589].
+- Cycle 10: Switch 1 at (9, 7) [Turn 3596]. Switch 2 found at Can (9, 9) [Turn 3598]! PUZZLE SOLVED! Barrier opened!
 
-## Strategic Pivot (Turn 3453)
-- Completed 7 consecutive cycles in Vermilion Gym.
-- Exited Gym to explore Route 11 and Diglett's Cave for a Ground-type counter before returning.
-
-## Cycle 8 (Turn 3561+)
-- DIGBY secured with TM28 Dig (Ground STAB, Electric immune).
-- Can (5, 11) tested: empty [Turn 3563].
-- Can (3, 11) tested: empty [Turn 3568].
-- Can (1, 11) tested: empty [Turn 3570].
-- Can (1, 9) tested: empty [Turn 3572].
-- Can (3, 9) tested: empty [Turn 3573].
-- Can (1, 7) tested: empty [Turn 3574].
-- Can (3, 7) tested: empty [Turn 3575].
-- Can (5, 7) tested: empty [Turn 3576].
-- Can (7, 7) tested: empty [Turn 3577].
-- Switch 1 found at Can (9, 7) [Turn 3578]!
-- Tested adjacent Can (7, 7) -> reset [Turn 3580].
-
-## Cycle 9 (Turn 3580+)
-- Can (7, 7) tested: empty [Turn 3582].
-- Can (9, 7) tested: empty [Turn 3583].
-- Can (7, 9) tested: empty [Turn 3584].
-- Can (9, 9) tested: empty [Turn 3585].
-- Can (7, 11) tested: empty [Turn 3586].
-- Switch 1 found at Can (9, 11) [Turn 3587]!
-- Tested adjacent Can (7, 11) -> reset [Turn 3589].
-
-## Cycle 10 (Turn 3589+)
-- Can (7, 11) tested: empty [Turn 3591].
-- Can (9, 11) tested: empty [Turn 3592].
-- Can (7, 9) tested: empty [Turn 3593].
-- Can (9, 9) tested: empty [Turn 3594].
-- Can (7, 7) tested: empty [Turn 3595].
-- Switch 1 found at Can (9, 7) [Turn 3596]!
-- Switch 2 found at Can (9, 9) [Turn 3598]! PUZZLE SOLVED! Barrier opened!
+## Status
+- Electric Barrier: OPEN [Turn 3598]. Both locks deactivated. Central aisle fully open to Lt. Surge.
