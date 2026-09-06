@@ -1172,9 +1172,10 @@
 - Central Aisle: Column 4 and Column 5 running north into the main hall.
 
 ## Occupants & Trainers
-- Gym Guide at (4, 14): Awaiting initial consultation.
+- Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious and protected by a code lock.
 
 ## Mechanics & Locks
-- TBD (consult Gym Guide).
+- Door Locks: Lt. Surge is behind a locked barrier. You must break a code / find switches to open the doors.
+- Trash Can Grid: Visible at row 10 (cans at cols 1, 3, 5, 7, 9 with aisles between them).
 
 <hr>
