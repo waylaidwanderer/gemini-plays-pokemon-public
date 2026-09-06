@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Wartortle (SHELDON) Lv 34, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥25266
+- Money: ¥25626
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -84,17 +84,14 @@
 - TOWN MAP x1
 
 ## Money
-- ¥25266
+- ¥25626
 
 ## Party Pokémon
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
   - Status: Healthy
-  - HP: 38 / 38
-  - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
-  - OT: BLUE (IDNo. 04620)
-  - Caught: Diglett's Cave [Turn 3507]
+  - HP: 91 / 91
+  - Stats: Attack 61, Defense 74, Speed 62, Special 63
+  - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 11/15) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -114,12 +111,14 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
   - EXP: 125 (91 to Lv 6)
-- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 91 / 91
-  - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 15/15) [Learned Turn 4031]
-
+  - HP: 38 / 38
+  - Stats: Attack 29, Defense 16, Speed 45, Special 26
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
+  - OT: BLUE (IDNo. 04620)
+  - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: Full
@@ -1267,7 +1266,9 @@
 - Northern Corridor (Row 8): Open path from col 0 to col 4. Tile (5, 8) is the CONFIRMED Cut tree blocking Route 9! Cleared with Farfetch'd (DUX) using Cut from (4, 8) facing East [Turn 4085]. Leads directly east onto the Route 9 gravel road at col 6+.
 - Southern Corridor (Row 9): Open path from col 0 to col 3. Tile (4, 9) is an impassable decorative shrub (solid collision, cannot be cut).
 ## Trainers
-- Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: �360. Defeated Turn 4108.
+- Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
 
+- Southern Highway (Rows 14..15): Open gravel road spanning cols 12..21+ bounded by southern cliff at row 16 and south-facing ledge at row 13.
+- Jr. Trainer ♂ (Camper) at (16, 15) facing West.
 
 <hr>

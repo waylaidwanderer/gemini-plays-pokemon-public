@@ -10,3 +10,6 @@
 - Southern Corridor (Row 9): Open path from col 0 to col 3. Tile (4, 9) is an impassable decorative shrub (solid collision, cannot be cut).
 ## Trainers
 - Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
+
+- Southern Highway (Rows 14..15): Open gravel road spanning cols 12..21+ bounded by southern cliff at row 16 and south-facing ledge at row 13.
+- Jr. Trainer ♂ (Camper) at (16, 15) facing West.
