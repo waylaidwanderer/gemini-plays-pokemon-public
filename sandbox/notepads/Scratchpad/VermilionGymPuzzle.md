@@ -52,3 +52,7 @@
 - Can (5, 7): Checked Turn 3347 -> Only trash.
 - Only 2 cans remain for Switch 1: (7, 7) and (9, 7).
 - Can (7, 7): Inspecting Turn 3347.
+- Can (7, 7): Checked Turn 3348 -> Only trash.
+- 14 of 15 cans empty in Cycle 2!
+- Switch 1 IS 100% GUARANTEED AT CAN (9, 7)!
+- Can (9, 7): Inspecting Turn 3348.
