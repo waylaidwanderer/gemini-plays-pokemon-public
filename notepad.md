@@ -2771,7 +2771,6 @@
 
 ## Western Corridor & NW Room Boundaries (Empirically Verified Turn 32039)
 - NW Room (cols 0-5, rows 0-6) is bounded on the south by a solid rock wall across row 6 (tiles (0..5, 6) do not connect south to row 7).
-- Tested (1, 6) -> Down (bumped into wall at row 6) and (0, 6) -> Down (bumped into wall at (0, 7)).
 - The NW Room and Upper Dark Plateau form an isolated upper sector connected to 2F via NW Ladder at (2, 0) and Ladder NE at (27, 7).
 - The Lower Purple Floor (Pit sector) containing Ladder B at (25, 14), Pit Boulder at (22, 15), and Pit at (23, 15) is accessed directly via Ladder B from 2F.
 ## 3F Mid-Floor Barrier Matrix & Corridor Connectivity (Verified Turn 32192)
