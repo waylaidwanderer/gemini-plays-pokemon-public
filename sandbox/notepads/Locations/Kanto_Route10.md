@@ -14,3 +14,4 @@
 - Eastern Tall Grass Strip (Cols 4..5+, Rows 6..10): Tall grass field on eastern perimeter.
 - Corridor (Rows 12..13, Cols 2..7+): East-west open green lawn passage bounded north by row 11 south-facing ledge and south by row 14 cliff wall. Leads east toward the Pokémon Center and Rock Tunnel [Turn 4519].
 - Cliff Line (Row 14, Cols 2..7+): Impassable southern mountain cliff bounding the row 12-13 corridor [Turn 4519].
+- Pokémon Center (Exterior): Roof visible at rows 16+ across cols 10..13, with open lawn approach at cols 10..13, rows 12..15 [Sighted Turn 4520].
