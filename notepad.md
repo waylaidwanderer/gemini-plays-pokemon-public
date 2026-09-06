@@ -48,11 +48,6 @@
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 - [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
-- [x] Defeat Picnicker Alicia on Route 9 [Turn 4108]
-- [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
-- [x] Defeat Hiker at (45, 15) on Route 9 [Turn 4174]
-- [x] Defeat Camper Drew on Route 9 [Turn 4190]
-- [x] Defeat Bug Catcher at (22, 2) on Route 9 [Turn 4209]
 
 
 <hr>
