@@ -2794,31 +2794,24 @@
 
 <h1><code>Scratchpad/Route22Map</code></h1>
 
-# Route 22 - Verified Grid Map & Topology
+# Route 22 - Verified Grid Map & Topology (Active Investigation)
 
-## Elevation Tiers & Corridors
-1. **Upper Highway (Rows 4-5)**:
-   - Paved road spanning columns 4 to 35.
-2. **Central Tall Grass & Statues (Rows 8-11)**:
-   - Tall grass: cols 16-25 and cols 29-33.
-   - Statues: column 34 (rows 8-11).
+## Verified Elevation Tiers & Corridors
+1. **Eastern Sector (Columns 29-39)**:
+   - Viridian City connection: rows 8-9 (paved road) and row 6 (green grass).
    - Unobstructed vertical lawn corridor: column 35 (rows 7-12).
-3. **Lawn Tier (Row 12)**:
-   - Eastern Lawn: cols 30-37.
-   - Western Lawn: cols 2-25.
-   - Boundary: Column 26-28 mountain rock wall.
-4. **Row 13 Ledge**:
-   - South-facing ledge spanning columns 2-37.
-   - ONLY open two-way dirt gap: located at `(33, 13)`.
-5. **Lower Paved Road (Rows 14-15)**:
-   - Continuous 100% unobstructed paved road spanning columns 2 to 39.
-   - 0% wild encounter rate.
-   - Direct connection between Eastern sector (via dirt gap (33, 13)) and Western sector (cols 2-13).
-
-## Western Sector Landmarks
-- Grand Entrance Carpet: Rows 10-11, columns 2-13.
-- Open Iron Gate: Located at `(7, 11)`.
-- Front Gatehouse Building: Rows 0-9, columns 2-8.
-- Gatehouse Entrance Warp: Leads into Route 22 Gate (Boulder Badge checkpoint).
+   - Statues: column 34 (rows 6-10).
+   - Tall grass: cols 29-33 (rows 8-11).
+   - Ledge (Row 13): South-facing ledge spanning across rows 13. Verified open two-way dirt gap at `(33, 13)`.
+2. **Central Barrier (Columns 26-28)**:
+   - Mountain rock wall spanning rows 8-13 across columns 26-28.
+   - Lower Paved Road: Continuous paved road across rows 14-15 (columns 2-39).
+   - Row 4-5 Upper Highway: Paved road visible at (26..35, 4..5).
+3. **Western Sector (Columns 2-25)**:
+   - Lower Paved Road (Rows 14-15): Spans columns 2-25. Blocked to the west at column 1 by mountain wall.
+   - Row 13 Ledge: South-facing ledge across columns 2-25.
+   - Western Lawn (Row 12): Continuous green grass across columns 2-25.
+   - Grand Entrance Carpet: Rows 10-11 across columns 2-13. Open fence gap at (2..5, 11) and open gate at (7, 11).
+   - Front Gatehouse Building: Located in northwest sector (cols 2-8, rows 0-9). Door/warp coordinate under active verification.
 
 <hr>
