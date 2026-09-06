@@ -1,0 +1,1 @@
+- Gambler Rich stationed at (13, 9) facing North (Dialogue: "All right! Let's roll the dice!"). Engaged Turn 5164.
