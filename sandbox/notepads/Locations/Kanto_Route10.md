@@ -24,3 +24,9 @@
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
 - NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
+
+## Route 10 South (Exit of Rock Tunnel to Lavender Town)
+- Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
+- Signpost at (9, 55): Read from (8, 55) facing East. Text: "ROCK TUNNEL" [Turn 4790].
+- NPC at (7, 54): Stationed at (7, 54) facing South down column 7.
+- Southern Geography: Cols 5..12 terminated at row 58 by cliff wall; passage continues south/west through col 4 and cols 0..3 toward Lavender Town.
