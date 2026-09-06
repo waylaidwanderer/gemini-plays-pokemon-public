@@ -2670,30 +2670,43 @@
 
 # Victory Road Master Strategy & Puzzle Log
 
-## Master Victory Road Puzzle Sequence (Standard Progression Reset Post-Dig)
-- Note: Warping out via Dig / Escape Rope resets all dungeon entities to default spawn positions.
-- Current Status: Entering Victory Road 1F at (8, 17).
+## Core Dungeon Rules (Verified Turn 31589)
+- Warping or changing floors (ladders/stairs/Dig/Escape Rope) resets all boulder positions and switches on the departed floor.
+- Each floor's puzzle must be completed in one continuous session on that floor.
 
-## Floor-by-Floor Master Solutions (Ready to Execute)
+## Floor-by-Floor Master Solutions
+
 1. **1F Master Solution**:
    - Strength activated by ATLAS.
    - Initial State: Boulder 1 @ (5, 15). Target: Switch @ (17, 13).
    - Push sequence: Down 1 to (5, 16) -> East 4 to (9, 16) -> North 2 to (9, 14) -> East 7 to (16, 14) -> North 2 to (16, 12) -> bypass via col 14 to (15, 12) -> East 1 to (17, 12) -> reposition to (17, 11) -> South 1 onto Switch (17, 13).
-   - Shutter at (5, 13) and (7, 7) lowered.
-   - Walk through Shutter (5, 13) -> row 12 cross-highway -> (11, 12) -> (11, 6) -> (7, 6) -> south through (7, 7) to (7, 8) -> west to (3, 8) -> north along col 3 to Ladder (1, 1) -> ascend to 2F (0, 8).
+   - Shutters opened -> ascend Ladder (1, 1) to 2F (0, 8).
 
 2. **2F Master Solution**:
    - Initial State: Arrive at (0, 8). Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
    - Push sequence: From (5, 14) push Left 1 to (3, 14) -> reposition to (3, 13) -> push Down 2 to (3, 16) -> reposition to (4, 16) -> push Left 2 onto Switch 1 (1, 16).
    - Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
-   - Path to 3F Upper Dark Plateau: Pass through Shutter 1 (5, 10) to row 8 -> East along row 8 to (14, 8) -> South to (14, 12) -> East along row 12 to (20, 12) -> bypass trainer via (20, 14) -> (21, 14) -> South through Shutter 3 (21, 15) to (21, 16) -> East to (29, 16) -> North along col 29 to (29, 11) -> West to **Ladder NE at (27, 7)** -> ascend to 3F Upper Dark Plateau (27, 7).
+   - Path to 3F: Walk through Shutter 1 (5, 10) to row 8 -> East to (14, 8) -> South to (14, 12) -> East to (20, 12) -> bypass trainer via (20, 14) -> (21, 14) -> South through Shutter 3 (21, 15) to (21, 16) -> East to (29, 16) -> North along col 29 to (29, 11) -> West to **Ladder NE at (27, 7)** -> ascend to 3F Upper Dark Plateau (27, 7).
 
-3. **3F Master Switch & Pit Solution**:
+3. **3F Master Switch & Pit Drop Solution (Continuous Single-Visit)**:
    - Strength activated by ATLAS.
-   - Initial State: Boulder 1 @ (22, 3) on Upper Dark Plateau. Target: Switch @ (3, 5) in NW Room.
-   - Push sequence: Push North 2 to (22, 1) on Row 1 (Northern Highway) -> push West along Row 1 to (6, 1) -> push South 1 to (6, 2) -> push West into NW Room to (2, 2) -> push South down col 2 to (2, 5) -> push East 1 onto Switch (3, 5).
-   - Shutters at (17, 5), (15, 15), and (21, 15) opened!
-   - Final Pit sequence: Walk to Pit Boulder at (22, 15) -> Stand at (21, 15) facing East -> push Right 1 time into Pit at (23, 15) -> jump Right into Pit (23, 15) to drop to 2F.
+   - Initial State: Boulder 1 @ (22, 3). Target: Switch @ (3, 5).
+   - Push sequence:
+     1. Stand at (22, 4) -> push Up 2 times to (22, 1) on Row 1 Northern Highway.
+     2. Reposition to (23, 1) -> push West along Row 1 to (6, 1).
+     3. Stand at (6, 0) -> push South 1 time to (6, 2) on Central Bridge.
+     4. Stand at (7, 2) -> push West into NW Room to (2, 2).
+     5. Reposition to (2, 1) -> push South down col 2 to (2, 5).
+     6. Reposition to (1, 5) -> push East 1 time onto Switch (3, 5)!
+     7. Outcome: Switch (3, 5) clicked; Shutter at (17, 5) OPENED!
+   - Route from Switch (3, 5) to Pit (Continuous, DO NOT CHANGE FLOORS):
+     1. Walk from NW room to (17, 4) in front of opened Shutter (17, 5).
+     2. Pass South through opened Shutter (17, 5) to (17, 6).
+     3. Walk East along Row 6: (17, 6) -> (23, 6).
+     4. Walk South down Column 23: (23, 6) -> (23, 14).
+     5. Walk Left to (21, 14), then Down 1 to (21, 15) (directly beside Pit Boulder at (22, 15) facing East towards The Pit at (23, 15)).
+     6. Stand at (21, 15) facing East -> Push Right 1 time: Pit Boulder falls into Pit at (23, 15)!
+     7. Step Right 1 time into Pit at (23, 15) -> Drop to 2F!
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
    - Land on 2F at (22, 16) with fallen boulder at (23, 16).
@@ -2814,6 +2827,10 @@
   1. Stand at (21, 15) facing East.
   2. Push Right 1 time: Boulder moves from (22, 15) into Pit at (23, 15) (falls to 2F). Player moves to (22, 15).
   3. Step Right 1 time into Pit at (23, 15) -> Player drops through hole and lands on 2F at (22, 16).
+
+## Critical Dungeon Reset Mechanic (VERIFIED Turn 31589)
+- Inter-floor transitions (using ladders, stairs, hole drops, Dig, or Escape Rope) immediately reset all boulder positions and switch states on the departed floor to their default initial spawns.
+- Therefore, all puzzles on a floor (e.g. 3F Switch (3, 5) -> Shutter (17, 5) -> Pit Boulder (22, 15) -> Pit Drop) MUST be executed in a single continuous visit without changing floors!
 
 
 <hr>
