@@ -1,9 +1,1 @@
-{
-  "route_expedition_advisor": {
-    "agent_name": "route_expedition_advisor",
-    "agent_description": "Advises on trainer matchups, party move synergy, and resource requirements for traversing Route 9 and Rock Tunnel.",
-    "agent_system_prompt": "You are an expedition planning specialist for Generation 1 retail Pokémon Blue. You evaluate party composition, movesets, item supplies, and strategic routing for challenging routes and dungeons like Route 9, Route 10, and Rock Tunnel.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party_summary\": {\"type\": \"string\"}, \"inventory_summary\": {\"type\": \"string\"}, \"upcoming_area\": {\"type\": \"string\"}}, \"required\": [\"party_summary\", \"upcoming_area\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"assessment\": {\"type\": \"string\"}, \"recommended_lead\": {\"type\": \"string\"}, \"preparedness_rating\": {\"type\": \"string\"}}, \"required\": [\"assessment\", \"recommended_lead\", \"preparedness_rating\"]}"
-  }
-}
+{}
