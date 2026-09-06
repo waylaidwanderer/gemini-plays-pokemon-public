@@ -4,7 +4,7 @@
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34, Magikarp (TSUNAMI) Lv 5
 - Money: ¥24951
-- Pokédex: 9 Caught / 48 Seen [Verified Turn 3721]
+- Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]

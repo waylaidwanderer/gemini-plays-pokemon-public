@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x12
+- POKé BALL x11
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
@@ -72,3 +72,7 @@
   - HP: Full
   - Moves: Pound, Hypnosis
   - Caught: Route 11 tall grass [Turn 3721]
+- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
+  - Status: Healthy
+  - HP: Full
+  - Caught: Route 11 tall grass [Turn 3751]

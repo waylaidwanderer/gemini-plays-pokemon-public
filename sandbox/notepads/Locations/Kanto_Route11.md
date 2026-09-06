@@ -18,4 +18,4 @@
 - Spearow: Lv 13 observed in tall grass [Turn 3709].
 - Magikarp: Lv 5 caught with Old Rod at (0, 8) [Turn 3694], nicknamed TSUNAMI.
 - Drowzee: Lv 9 caught in tall grass [Turn 3721], nicknamed SANDMAN.
-- Sandshrew: Native to Route 11 tall grass (Blue version exclusive).
+- Sandshrew: Lv 15 caught in tall grass [Turn 3751], nicknamed PANGO.
