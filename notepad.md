@@ -51,6 +51,8 @@
 - [x] Traverse Route 9 and reach Route 10 [Turn 4517]
 - [x] Enter Rock Tunnel on Route 10 [Turn 4547]
 - [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
+- [x] Arrive in Lavender Town [Turn 4839]
+
 
 <hr>
 
