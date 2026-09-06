@@ -29,24 +29,8 @@
   - Combat: Sheldon Lv 31 used Bubblebeam on Pidgeotto (OHKO). Sheldon used Bubblebeam on Raticate (OHKO). Sheldon used Bite on Kadabra (OHKO). Sheldon used Bite on Ivysaur, Ivysaur used Vine Whip (dealt 17 dmg, Sheldon HP 74 -> 57/84), Sheldon used Bite (Ivysaur fainted).
   - Outcome: Decisive victory. Total damage taken: 17 HP. Bubblebeam PP: 15 -> 13. Bite PP: 16 -> 14.
 
-## Vermilion Gym Empirical Combat Log (Turn 3274 - 3287)
-- **Rocker [Turn 3274 - 3287] (Vermilion Gym at 3, 8):**
-  - Roster: Voltorb Lv 20 (Yield: 441 EXP), Magnemite Lv 20 (Yield: 381 EXP), Voltorb Lv 20 (Yield: 441 EXP). Total EXP: 1263 EXP. Prize: ¥500.
-  - Pre-battle: "I'm a lightweight, but I'm good with electricity!". Defeat: "ROCKER: Fried!".
-  - Combat: Sheldon Lv 33 used Bubblebeam on Voltorb 1 (OHKO). Sheldon Lv 33 used Bubblebeam on Magnemite (took 3 dmg from Tackle, HP 89 -> 86/89), Sheldon used Bubblebeam (KO, grew to Lv 34, HP 86 -> 88/91, Atk 61, Def 74, Spd 62, Spc 63). Sheldon Lv 34 used Bubblebeam on Voltorb 2 (Critical Hit, OHKO).
-  - Outcome: Decisive victory. HP: 88/91. Bubblebeam PP: 20 -> 16/20. Money: ¥21835 -> ¥22335.
-
-- **Sailor [Turn 3292 - 3299] (Vermilion Gym at 0, 10):**
-  - Roster: Pikachu Lv 21 (Yield: 369 EXP), Pikachu Lv 21 (Yield: 369 EXP). Total EXP: 738 EXP. Prize: ¥630.
-  - Pre-battle: "This is no place for kids!". Defeat: "SAILOR: Wow! Surprised me!".
-  - Combat: Sheldon Lv 34 used Bite on Pikachu 1 (OHKO). Sheldon Lv 34 used Bite on Pikachu 2 (OHKO). Sheldon took 0 damage (HP 88/91). Bite PP: 25 -> 23/25.
-  - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
-
-- **Gentleman [Turn 3302 - 3304] (Vermilion Gym at 9, 6):**
-  - Roster: Pikachu Lv 23 (Yield: 403 EXP). Prize: ¥1610.
-  - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!". Defeat: "GENTLEMAN: Stop! You're very good!".
-  - Combat: Sheldon Lv 34 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 88/91). Bubblebeam PP: 16 -> 15/20.
-  - Outcome: Decisive victory.
+## Vermilion Gym Empirical Combat Log (Turn 3274 - 3634)
+- **Gym Minions Cleared:** Rocker (3, 8), Sailor (0, 10), Gentleman (9, 6) defeated Turns 3274-3304.
 
 - **Gym Leader Lt. Surge [Turn 3612+] (Vermilion Gym):**
   - Opponent Roster: Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
