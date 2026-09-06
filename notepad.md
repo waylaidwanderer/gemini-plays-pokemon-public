@@ -2693,7 +2693,7 @@
    - Initial State: Boulder 1 @ (22, 3) on Upper Dark Plateau. Target: Switch @ (3, 5) in NW Room.
    - Push sequence: Push North 2 to (22, 1) on Row 1 (Northern Highway) -> push West along Row 1 to (6, 1) -> push South 1 to (6, 2) -> push West into NW Room to (2, 2) -> push South down col 2 to (2, 5) -> push East 1 onto Switch (3, 5).
    - Shutters at (17, 5), (15, 15), and (21, 15) opened!
-   - Final Pit sequence: Walk from NW Room through opened Shutter (17, 5) or via 2F to Row 16 Lower Highway -> walk to Pit Boulder at (9, 16) -> push East along Row 16 to (23, 16) -> push North 1 into Pit at (23, 14) -> jump down Pit (23, 14) to 2F.
+   - Final Pit sequence: Walk to Pit Boulder at (22, 15) -> Stand at (21, 15) facing East -> push Right 1 time into Pit at (23, 15) -> jump Right into Pit (23, 15) to drop to 2F.
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
    - Land on 2F at (22, 16) with fallen boulder at (23, 16).
@@ -2703,6 +2703,7 @@
    - Reposition to (29, 11) facing West.
    - Push West across Row 11 onto Switch Plate!
    - Ascend platform to the exit ladder -> Route 23 North / Indigo Plateau!
+
 
 <hr>
 
@@ -2789,7 +2790,7 @@
 - Shutter at (17, 5): Horizontal purple bars blocking passage south from row 4 purple room to row 6.
 - Shutters at (15, 15) and (21, 15): Block passage between row 14 and row 16 lower highway until Switch (3, 5) is activated.
 
-## Master Boulder 1 to Switch (3, 5) Solution (VERIFIED Turn 30921)
+## Master Boulder 1 to Switch (3, 5) Solution (VERIFIED Turn 30921, Re-verified Turn 31486)
 1. Strength activated by ATLAS on 3F Upper Dark Plateau.
 2. Initial State: Boulder 1 at (22, 3).
 3. Position at (22, 4) -> Push North 2 times to (22, 1) on Row 1 (Northern Highway).
@@ -2805,10 +2806,14 @@
    - Stand at (1, 5) facing East -> Push Right 1 time onto Switch Plate (3, 5)!
 9. Outcome: Switch (3, 5) ACTIVATED! Shutters at (17, 5), (15, 15), and (21, 15) OPEN!
 
-## Final Pit & Exit Puzzle Coordinates (Verified Turn 30942)
-- Pit Boulder: Located at (9, 16) on Row 16.
-- The Pit: Located at (23, 14).
-- Access Route: Walk through opened Shutter (17, 5) or (21, 15) -> Row 16 -> Push Pit Boulder East from (9, 16) to (23, 16) -> Push Up 1 time into Pit (23, 14).
-- Jump down Pit (23, 14) to 2F.
+## Final Pit & Exit Puzzle Coordinates (Verified Turn 31486-31497)
+- Pit Boulder: Located at (22, 15) on Row 15, immediately west of The Pit.
+- The Pit: Located at (23, 15) on Row 15.
+- Other Boulders on 3F: Boulder 2 at (13, 13) (pushed south from (13, 12)).
+- Pit Drop Execution:
+  1. Stand at (21, 15) facing East.
+  2. Push Right 1 time: Boulder moves from (22, 15) into Pit at (23, 15) (falls to 2F). Player moves to (22, 15).
+  3. Step Right 1 time into Pit at (23, 15) -> Player drops through hole and lands on 2F at (22, 16).
+
 
 <hr>
