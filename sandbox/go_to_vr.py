@@ -1,7 +1,8 @@
 import mgba
+import time
 
-class Nav:
-    def __init__(self, budget=70):
+class Route23Navigator:
+    def __init__(self, budget=80):
         self.budget = budget
         self.used = 0
 
@@ -17,8 +18,10 @@ class Nav:
         mgba.press_buttons(seq)
         return True
 
-    def run_battle(self):
-        self.press(["B", "sleep 200", "B", "sleep 200", "A", "sleep 200", "B", "sleep 200"])
+    def run_battle_or_dialogue(self):
+        # A/B to clear text
+        self.press(["A", "sleep 200", "B", "sleep 200", "B", "sleep 200", "A", "sleep 200", "B", "sleep 200"])
+        # Attempt to run from battle (Down -> Right -> A)
         self.press(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 400", "B", "sleep 200", "B", "sleep 150"])
 
     def step(self, d):
@@ -27,7 +30,7 @@ class Nav:
             return ox, oy
         nx, ny = self.get_pos()
         if (nx, ny) == (ox, oy):
-            self.run_battle()
+            self.run_battle_or_dialogue()
             nx, ny = self.get_pos()
         return nx, ny
 
@@ -51,26 +54,45 @@ class Nav:
             steps += 1
         return False
 
-    def run(self):
+    def exit_gate_to_route23(self):
+        # From Route 22 Gate (4, 7) -> (4, 0)
+        print("Starting in gatehouse:", self.get_pos())
+        while True:
+            x, y = self.get_pos()
+            if y == 0 or y > 50: # Exited to Route 23 (y is ~139)
+                break
+            self.step("Up")
+            if self.used >= self.budget:
+                break
+        print("Exited gatehouse, current pos:", self.get_pos())
+
+    def traverse_south_route23(self):
+        # On Route 23 (y=139 down to canal y=104)
+        # Waypoints:
+        # Cascade guard approach: (8, 137) -> (8, 134)
+        # Corridor 1: (14, 134) -> (14, 128)
+        # Corridor 2 / Thunder guard: (14, 124) -> (8, 124) -> (8, 118)
+        # Corridor 3 / Rainbow guard: (10, 118) -> (10, 110)
+        # Canal approach: (10, 104)
         wps = [
-            (16, 5),
-            (16, 7),
-            (16, 12),
-            (5, 12),
-            (5, 10),
-            (11, 10),
-            (11, 6),
-            (8, 6),
+            (8, 137),
+            (8, 134),
+            (14, 134),
+            (14, 128),
+            (14, 124),
+            (8, 124),
+            (8, 118),
+            (10, 118),
+            (10, 110),
+            (10, 104)
         ]
         for wx, wy in wps:
             self.walk_to(wx, wy)
             if self.used >= self.budget:
                 break
-        cx, cy = self.get_pos()
-        if (cx, cy) == (8, 6):
-            self.press(["Up", "sleep 350", "Up", "sleep 350"])
-        print("End pos:", self.get_pos(), "used:", self.used)
+        print("Route 23 progress pos:", self.get_pos(), "used:", self.used)
 
 if __name__ == "__main__":
-    n = Nav(budget=70)
-    n.run()
+    nav = Route23Navigator(budget=75)
+    nav.exit_gate_to_route23()
+    nav.traverse_south_route23()
