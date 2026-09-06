@@ -1236,30 +1236,12 @@
 - Cycle 4: Switch 1 at (3, 9) [Turn 3371]. Tested (3, 11) -> reset [Turn 3372].
 - Cycle 5: Switch 1 at (1, 7) [Turn 3410]. Tested (3, 7) -> reset [Turn 3414].
 - Cycle 6: Switch 1 at (5, 11) [Turn 3432]. Tested adjacent Can (3, 11) -> reset [Turn 3434].
-
-## Active Cycle 7 (Current)
 - Cycle 7: Switch 1 at (7, 9) [Turn 3449]. Tested adjacent Can (9, 9) -> reset [Turn 3453].
 
 ## Strategic Pivot (Turn 3453)
 - Completed 7 consecutive cycles in Vermilion Gym.
-- Exiting Gym to explore Route 11 and Diglett's Cave for a Ground-type counter (Diglett/Dugtrio) before returning.
+- Exited Gym to explore Route 11 and Diglett's Cave for a Ground-type counter before returning.
 
-- Can (3, 11): Tested [Turn 3436] -> Only trash.
-- Can (1, 11): Tested [Turn 3437] -> Only trash.
-- Can (1, 9): Tested [Turn 3440] -> Only trash.
-- Can (1, 7): Tested [Turn 3441] -> Only trash. (Column 1 fully empty).
-- Can (3, 7): Tested [Turn 3444] -> Only trash.
-- Can (5, 7): Tested [Turn 3445] -> Only trash.
-- Can (7, 7): Tested [Turn 3446] -> Only trash.
-- Can (9, 7): Tested [Turn 3447] -> Only trash. (All 5 Row 7 cans empty).
-- Can (9, 9): Tested [Turn 3448] -> Only trash.
-- Can (7, 9): Switch 1 FOUND! [Turn 3449]
-- 1st electric lock opened!
-- Adjacent cans for Switch 2:
-  - Can (9, 9) [East - directly behind player at (8, 9)!]
-  - Can (7, 7) [North - 2 steps North along col 8!]
-  - Can (7, 11) [South - 2 steps South along col 8!]
-  - Can (5, 9) [West]
 
 <hr>
 
@@ -1270,11 +1252,11 @@
 ## Geography & Layout
 - Vermilion City / Route 11 Entrance: Room at cols 1..5, rows 3..7.
 - Exit mat: (2, 7) facing South exits to Route 11 outside.
-- NPC at (2, 3) facing South.
+- NPC at (2, 3) facing South: "What a surprise! DIGLETTs dug this long tunnel! It goes right to VIRIDIAN CITY!"
 - Ladder down: Located at (4, 4) leading down into the main tunnel.
 
-## Objectives
-- Descend ladder to encounter and catch wild Diglett (Lv 15-22) or Dugtrio (Lv 29-31).
-- NPC dialogue: "What a surprise! DIGLETTs dug this long tunnel!" (Tunnel connects Vermilion City / Route 11 to Route 2).
+## Main Tunnel
+- Ladder up to Vermilion City entrance room: Located at (37, 31).
+- Tunnel extends west along rows 30..33. Wild encounter zone.
 
 <hr>
