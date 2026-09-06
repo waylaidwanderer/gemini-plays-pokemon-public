@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 33, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥19975
+- Money: ¥20575
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,7 +71,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥19975
+- ¥20575
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 33, Water]
@@ -228,6 +228,12 @@
   - Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!". Defeat: "FISHERMAN: Darn! I let that one get away!".
   - Combat: Tentacool took Bubblebeam (~45%), used Acid (dealt 3 dmg, Sheldon HP 46 -> 43/89), then Bubblebeam (KO). Staryu took Bubblebeam (~65%), used Tackle (dealt 2 dmg, Sheldon HP 43 -> 41/89, Speed fell), then Bubblebeam (KO). Shellder took Bubblebeam (~95%), used Tackle (dealt 3 dmg, Sheldon HP 41 -> 38/89, Speed fell), then Bubblebeam (KO).
   - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 11 -> 5/20. Money: ¥19380 -> ¥19975.
+- **Sailor [Turn 3191 - 3195] (B1F Cabin 5 at 0, 2):**
+  - Roster: Machop Lv 20 (Yield: 376 EXP). Prize: ¥600.
+  - Pre-battle: "Matey, you're walking the plank if you lose!". Defeat: "SAILOR: Argh! Beaten by a kid!".
+  - Combat: Sheldon Lv 33 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 38/89). Bubblebeam PP: 5 -> 4/20.
+  - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 5 -> 4/20. Money: ¥19975 -> ¥20575.
+
 
 <hr>
 
@@ -1107,8 +1113,8 @@
   - Furniture: Desk at (10..11, 1), chair at (10, 2..3), bunk bed at (13, 1..2). No items. Status: Cleared.
 - Cabin 5: Entrance at (7, 3) in B1F hallway, interior doorway at (2..3, 5).
   - Interior bounds: Cols 0..3, Rows 1..5.
-  - Occupants: Sailor at (0, 2) (Pre-battle: "Matey, you're walking the plank if you lose!"), Fisherman at (0, 4) [Defeated, Turn 3190] (Roster: Tentacool Lv 17, Staryu Lv 17, Shellder Lv 17; Prize: ¥595; Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!", Defeat: "FISHERMAN: Darn! I let that one get away!").
-  - Furniture: Desk at (0..1, 1), chair at (0, 3), bunk bed at (3, 1..2).
+  - Occupants: Sailor at (0, 2) [Defeated, Turn 3195] (Roster: Machop Lv 20 - 376 EXP; Prize: ¥600; Pre-battle: "Matey, you're walking the plank if you lose!", Defeat: "SAILOR: Argh! Beaten by a kid!"), Fisherman at (0, 4) [Defeated, Turn 3190] (Roster: Tentacool Lv 17 - 382 EXP, Staryu Lv 17 - 385 EXP, Shellder Lv 17 - 352 EXP; Prize: ¥595; Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!", Defeat: "FISHERMAN: Darn! I let that one get away!").
+  - Furniture: Desk at (0..1, 1), chair at (0, 3), bunk bed at (3, 1..2). No items. Status: Cleared.
 - Remaining Cabins: None (all 5 cabins on B1F discovered).
 
 <hr>
