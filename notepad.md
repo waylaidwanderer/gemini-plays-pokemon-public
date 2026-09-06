@@ -1366,5 +1366,10 @@
 
 ## Connections & Ladders
 - Ladder 1: Arrived at (33, 25) from 1F (37, 3).
+## Geography & Layout
+- Southeastern Chamber: Ladder 1 at (33, 25). North wall at row 21 (cols 26-38), East wall at col 38 (rows 21-29).
+- Dividing Rock Wall: Vertical rock barrier at cols 26-27 (rows 21-29) separates the Ladder 1 chamber from the western corridor.
+- Southward Exit: Open floor corridor along cols 28-34 heading south past row 29 toward the southern bend.
+- Target: Ladder 2 at northwest corner (5, 3) leading back up to 1F.
 
 <hr>
