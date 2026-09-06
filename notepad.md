@@ -46,6 +46,7 @@
 - [x] Catch wild Drowzee on Route 11 [Turn 3721]
 - [x] Catch wild Sandshrew on Route 11 [Turn 3751]
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
+- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
 
 
 <hr>
@@ -69,7 +70,7 @@
 ## Key Items
 - S.S. TICKET
 - OLD ROD
-- BIKE VOUCHER
+- BICYCLE
 - HM01 (CUT)
 - HM05 (FLASH)
 
