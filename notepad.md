@@ -1245,6 +1245,8 @@
 - Can (9, 9): Inspecting Turn 3341.
 - Can (9, 9): Checked Turn 3342 -> Only trash.
 - Can (7, 9): Inspecting Turn 3342.
+- Can (7, 9): Checked Turn 3343 -> Only trash.
+- Can (5, 9): Inspecting Turn 3343.
 
 
 <hr>
