@@ -45,3 +45,4 @@
 - [x] Catch wild Sandshrew on Route 11 [Turn 3751]
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 - [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
+- [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
