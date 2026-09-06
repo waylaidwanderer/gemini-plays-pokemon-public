@@ -62,3 +62,15 @@
 - Empirically verified: Transitioning between 2F and 3F reloads 2F, resetting Shutter 1 at (5, 10) to CLOSED and Boulder 2 to default position at (4, 14).
 - Row 7 checkerboard to Row 8 purple floor is a solid vertical cliff boundary (cannot walk/hop down from (5..7, 7) to (5..7, 8)).
 - To access Row 8 Light Purple Highway, Boulder 2 at (4, 14) MUST be pushed onto Switch 1 at (1, 16) via the west corridor to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+
+## 2F Pit Drop Landing & Exit Puzzle Solution (VERIFIED Turn 30973-30991)
+- Drop Arrival: Dropping through 3F Pit at (23, 15) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
+- Ladder B (to 3F SE): Located at (25, 14) <-> 3F SE (25, 14). Allows instant 5-second reset of 3F Pit Boulder if needed.
+- Column 29 vs Column 28 Push Constraint: Column 30 is a solid vertical rock wall. Boulders in Column 29 CANNOT be pushed West. The fallen boulder MUST be pushed North along Column 28, NOT Column 29!
+- Master Fallen Boulder Route to Row 11 & Switch:
+  1. Activate Strength with ATLAS.
+  2. Push Boulder East along Row 16 from (23, 16) to (28, 16) (STOP AT COLUMN 28!).
+  3. Reposition to (28, 17) via (27, 16) -> (27, 17) -> (28, 17) facing North.
+  4. Push North 5 times along Column 28: (28, 16) -> (28, 15) -> (28, 14) -> (28, 13) -> (28, 12) -> (28, 11) [Boulder at (28, 11), Player at (28, 12)].
+  5. Reposition to (29, 11) via (28, 12) -> (29, 12) -> (29, 11) facing West.
+  6. Stand at (29, 11) facing West -> Push Left across Row 11 towards the switch plate!
