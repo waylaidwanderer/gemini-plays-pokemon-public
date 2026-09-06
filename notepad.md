@@ -1270,8 +1270,8 @@
 ## Trainers
 - Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
 
-- Southern Highway (Rows 14..15): Open gravel road spanning cols 12..21+ bounded by southern cliff at row 16 and south-facing ledge at row 13.
-- Jr. Trainer ♂ (Camper) at (16, 15) facing West.- Hiker Jeremy at (16, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
+- Southern Highway (Rows 14..15): Gravel corridor spanning cols 6..23, terminated on the east by mountain cliff at col 24 (cols 24-27, rows 13-18 are solid cliff). Bounded south by cliff at row 16 and north by south-facing ledge at row 13.
+- Hiker Jeremy at (15, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
 
 
 <hr>
