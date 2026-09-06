@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Wartortle (SHELDON) Lv 35, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥27061
+- Money: ¥27481
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -86,7 +86,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥27061
+- ¥27481
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
@@ -1281,7 +1281,7 @@
 ## Trainers
 - Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
 - Hiker Jeremy at (15, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
-- Camper at (24, 7): Jr. Trainer ♂ facing South. Quote: "...with those good looking POKéMON?". Has 2 Pokémon.
+- Camper at (24, 7): Jr. Trainer ♂ (Drew) facing South. Growlithe Lv 21, Charmander Lv 21. Prize: ¥420. Defeated Turn 4190.
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
