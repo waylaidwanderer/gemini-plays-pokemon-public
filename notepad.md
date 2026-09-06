@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 39, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥38101
+- Money: ¥39921
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -86,7 +86,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥38101
+- ¥39921
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
@@ -1332,12 +1332,15 @@
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
 - Signpost at (9, 55): Read from (8, 55) facing East. Text: "ROCK TUNNEL" [Turn 4790].
+- Jr. Trainer ♀ at (7, 54): Triggered at (7, 56) facing South. Pre-battle dialogue: "I'm feeling a bit faint from this tough hike." Team: Pidgey Lv 21, Pidgeotto Lv 21. Prize: ¥420. Defeated Turn 4799. Defeat dialogue: "I'm not up to it!".
 - Southern Geography: Cols 5..12 terminated at row 58 by cliff wall; passage continues south/west through col 4 and cols 0..3 toward Lavender Town.
-- Jr. Trainer ♀ at (7, 54): Triggered at (7, 56) facing South. Pre-battle dialogue: "I'm feeling a bit faint from this tough hike." Team: Pidgey Lv 21, Pidgeotto Lv 21. [Turn 4793-4798].
-- NPC at (0, 58): Sighted on the western path facing East/South.
+- Ledge (Row 59, Cols 2..3): South-facing one-way jumping ledge from row 58 to row 60.
+- Western Tall Grass Field (Rows 60..63, Cols 2..7): Tall grass corridor before Lavender Town.
+- Cliff Wall (Row 64, Cols 2..7): Solid mountain cliff bounding south side of western tall grass.
+- Hiker at (3, 57): Triggered at (3, 56) facing North. Pre-battle dialogue: "Ha-hahah-ah-ha!". Team: Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4811. Defeat dialogue: "Ha-haha! Not laughing! Ha-hay fever! Haha-ha-choo!".
+- Hiker at (3, 61): Triggered at (3, 63) facing South. Pre-battle dialogue: "Ah! This mountain air is delicious!". Team: Onix Lv 19, Graveler Lv 19. Prize: ¥665. Defeated Turn 4824. Defeat quote: "That cleared my head!".
+- Pokémaniac at (14, 64): Triggered at (10, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: Cubone Lv 20, Slowpoke Lv 20. [Turn 4826-4831].
 - Eastern South Avenue (Cols 10..11, Rows 62..67): Open avenue through tall grass between cliff (west, cols 4..8) and Lavender Town building (east, cols 12..13, rows 66+). Runs directly South past row 67 into Lavender Town!
-
-- Pokémaniac at (14, 64): Triggered at (10, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: Cubone Lv 20, [Pokémon 2]. [Turn 4826-4828].
 
 
 <hr>
@@ -1356,7 +1359,7 @@
 ## Navigation Route & Ladders
 - 1F Section 1 (North): Path leads south from (15, 3), turns east around central rock outcrop, then winds south/east toward Ladder 1 at (37, 3).
 ## Trainers
-- PokÃ©maniac Ashton at (23, 8) facing West: Cubone Lv 23, Slowpoke Lv 23. Defeated Turn 4562.
+- Pokémaniac Ashton at (23, 8) facing West: Cubone Lv 23, Slowpoke Lv 23. Defeated Turn 4562.
 ## Geography & Confirmed Layout
 - Central rock divider: (18..19, 8..15) separates the eastern forward route from the western return pocket.
 - Eastern Forward Corridor: Rows 10..13 across cols 20..25+ open eastward. Southern wall at row 14 (cols 20..25).
@@ -1366,7 +1369,7 @@
 - Arrived via Ladder 2 from B1F (27, 3) -> 1F (5, 3) [Turn 4660].
 - Chamber at cols 3-7, rows 2-4 with Ladder 2 at (5, 3).
 - Open area at rows 6-10 across cols 2-10+.
-- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Prize: Â¥665. Defeated Turn 4675.
+- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Prize: ¥665. Defeated Turn 4675.
 - Central Rock Pillar: (6..7, 10..13+) divides southern path into western branch (cols 3-5) and eastern branch (cols 8-11).
 - Eastern Branch: Open corridor cols 8-11, rows 6-13+ bounded east by wall at col 12.
 - Western Branch: Open corridor cols 3-5, rows 6-13+.
@@ -1384,7 +1387,6 @@
 - Wide open hall spanning cols 33-37 (rows 16-21) extending west.
 - Jr. Trainer ♀ at (37, 21) facing West ("Eek! Don't try anything funny in the dark!"): Bellsprout Lv 22, Clefairy Lv 22. Prize: ¥440. Defeated Turn 4745. Stations along row 21.
 - West Wall of Exit Hall: Column 31 is a solid vertical rock wall (rows 14-21).
-- Southward Avenue: Exit hall turns south along cols 32-36, extending south past row 21 .
 - Jr. Trainer ♀ at (32, 24) facing East ("You have POKéMON! Let's start!"): Pidgey Lv 19, Rattata Lv 19, Bellsprout Lv 19. Prize: ¥380. Defeated Turn 4760. Stations along row 24.
 - Southern Avenue Extension: Wide open corridor spanning cols 33-37 from row 21 down past row 25+.
 
