@@ -89,7 +89,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥37641
+- ¥39266
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
@@ -1525,5 +1525,25 @@
 - Visitor at (13, 7): Woman with red hair facing south.
 - Northeast Quadrant (Cols 14..18, Rows 0..3): Wall and memorial altars; no staircase present.
 - Visitor at (17, 7): Person in blue coat facing west.
+
+<hr>
+
+<h1><code>Locations/Kanto_PokemonTower_2F</code></h1>
+
+# Pokémon Tower 2F Geography & Points of Interest
+
+## Connections
+- Stairs Down: Leads to 1F (TBD).
+- Stairs Up: Leads to 3F (TBD).
+
+## Key Events & Encounters
+- Rival RED Encounter: Challenged player on 2F.
+  - Rival's Team: Pidgeotto Lv 25, Gyarados Lv 23, Growlithe Lv 22, Kadabra Lv 20, Ivysaur Lv 25.
+  - Defeated Turn 4940 (Prize: ¥1625).
+  - Dialogue: Mentions catching Cubone and looking for Marowak.
+
+## Geography & Layout
+- Memorial Altars: Clusters of orange altars and grey tombstones across the floor.
+- Floor Tiles: Diamond/crosshatch stone pattern in walkable aisles.
 
 <hr>
