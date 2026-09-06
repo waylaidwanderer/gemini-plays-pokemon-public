@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 39, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥37641
+- Money: ¥39266
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -1476,7 +1476,6 @@
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9 with orange entrance door at (7, 9) and window at (8, 9).
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
-- West Exit: Gatehouse approach at west edge (row 9).
 - NPC at (11, 7): Stationed in eastern lawn.
 - NPC at (9, 10): Stationed south of Volunteer House.
 - NPC at (15, 8): Sighted east of Volunteer House [Turn 4861].
@@ -1534,7 +1533,7 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 1F.
-- Stairs Up: Located at (3, 9) leading up to 3F.
+- Stairs Up: Unverified / TBD.
 
 ## Key Events & Encounters
 - Rival RED Encounter: Challenged player on 2F.
@@ -1543,11 +1542,10 @@
   - Dialogue: Mentions catching Cubone and looking for Marowak.
   - Departure: Exited down the stairs at (18, 9) to 1F.
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
+- Empirical Test (Turn 4949): Tile (3, 9) is standard crosshatch floor, not a warp tile. Walking West collided with solid orange altar at (2, 9).
 
 ## Geography & Layout
 - Eastern Wall: Solid boundary along cols 19..20 (and cols 16..20 on rows 1..3).
-- Stairs Down to 1F: (18, 9).
-- Stairs Up to 3F: (3, 9).
 - Central / Eastern Hall: Open crosshatch aisles across cols 11..15, rows 3..5 and rows 7..8.
 - Northern / Central Aisles: Open floor at cols 9..10 (rows 2..5) and cols 11..15 (rows 3..5).
 - Main West-East Corridor (Row 5): Open crosshatch path running through cols 7..15.

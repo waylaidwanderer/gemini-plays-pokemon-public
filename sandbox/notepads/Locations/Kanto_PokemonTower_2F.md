@@ -2,7 +2,7 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 1F.
-- Stairs Up: Located at (3, 9) leading up to 3F.
+- Stairs Up: Unverified / TBD.
 
 ## Key Events & Encounters
 - Rival RED Encounter: Challenged player on 2F.
@@ -11,11 +11,10 @@
   - Dialogue: Mentions catching Cubone and looking for Marowak.
   - Departure: Exited down the stairs at (18, 9) to 1F.
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
+- Empirical Test (Turn 4949): Tile (3, 9) is standard crosshatch floor, not a warp tile. Walking West collided with solid orange altar at (2, 9).
 
 ## Geography & Layout
 - Eastern Wall: Solid boundary along cols 19..20 (and cols 16..20 on rows 1..3).
-- Stairs Down to 1F: (18, 9).
-- Stairs Up to 3F: (3, 9).
 - Central / Eastern Hall: Open crosshatch aisles across cols 11..15, rows 3..5 and rows 7..8.
 - Northern / Central Aisles: Open floor at cols 9..10 (rows 2..5) and cols 11..15 (rows 3..5).
 - Main West-East Corridor (Row 5): Open crosshatch path running through cols 7..15.

@@ -13,7 +13,6 @@
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9 with orange entrance door at (7, 9) and window at (8, 9).
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
-- West Exit: Gatehouse approach at west edge (row 9).
 - NPC at (11, 7): Stationed in eastern lawn.
 - NPC at (9, 10): Stationed south of Volunteer House.
 - NPC at (15, 8): Sighted east of Volunteer House [Turn 4861].
