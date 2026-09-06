@@ -17,5 +17,5 @@
 - Vertical path at cols 42..43 (rows 8..13) connecting south passage to north road.
 - Cuttable tree at (41, 10) blocking entrance through iron fence gap at (40, 10) into central tall grass patch.
 - Western passage along southern perimeter ends at col 41/40 fence; main unobstructed route continues via northern corridor (rows 4..8).
-- Super Nerd trainer stationed at (42, 6) facing West along row 6 (Dialogue: "You need strategy to win at this!").
+- Super Nerd trainer stationed at (42, 6) facing West along row 6 (Dialogue: "You need strategy to win at this!" / Defeated Turn 5120: Grimer Lv 22, Muk Lv 22, Grimer Lv 22 / Prize: ¥550).
 - Northern corridor runs west along rows 5..7 (cols 39..41 open highway).

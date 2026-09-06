@@ -60,7 +60,7 @@
 
 ## Money
 
-- �¥40946
+- �¥41496
 
 
 
@@ -68,7 +68,7 @@
 
 - BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 110 / 124
 
@@ -78,7 +78,7 @@
 
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 26 / 26
 
@@ -90,7 +90,7 @@
 
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 29 / 29
 
@@ -102,7 +102,7 @@
 
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 20 / 20
 
@@ -116,7 +116,7 @@
 
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: 38 / 38
 
@@ -132,7 +132,7 @@
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: Full
 
@@ -146,7 +146,7 @@
 
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: Full
 
@@ -154,7 +154,7 @@
 
 - SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
 
-  - Status: Healthy
+  - Status: Poisoned (PSN)
 
   - HP: Full
 
