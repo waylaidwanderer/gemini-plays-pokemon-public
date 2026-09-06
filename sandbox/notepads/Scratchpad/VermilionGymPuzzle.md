@@ -31,4 +31,5 @@
 - Cycle 4 (Current - post-Turn 3356 reset):
   - Can (1, 9): Tested Turn 3358 -> Only trash.
   - Can (1, 7): Tested Turn 3360/3361 -> Only trash.
-  - Can (3, 7): Inspecting Turn 3361.
+  - Can (3, 7): Checked Turn 3362 -> Only trash.
+  - Can (5, 7): Inspecting Turn 3362.

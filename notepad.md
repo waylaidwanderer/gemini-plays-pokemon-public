@@ -944,7 +944,7 @@
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..15 connecting south towards Gym and north towards water inlet.
 - Vermilion Gym: Building at cols 8..13, rows 16..19. Front door at (12, 19) facing South. "GYM" sign at (10..11, 18).
 - West Passage (Cols 6..7): Paved passage runs south along Gym to row 18. Row 19 has structures at (6..7, 19).
-- Cut Tree: Located at (15, 18), blocking direct access to the Gym entrance!
+- Cut Tree: Located at (15, 18) [Cleared, Turn 3260].
 - Water Shoreline & Southeastern Peninsula: Water inlet covers cols 16..19 from row 18 to 22+ with fence at col 19. Paved peninsula spans cols 20..25, rows 16..21 (Pidgey House). Entire southern edge of cols 19..25 is solid ocean shore at row 22 with no pier or dock.
 - House Southeast (Pidgey Letter House): Cols 22..25, rows 16..19. Entrance door at (23, 19). Interior: Girl with Pidgey sending letter to Saffron City.
 - Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
@@ -1222,21 +1222,23 @@
 - Barrier: Located at rows 4..5 blocking passage to Lt. Surge.
 - All 3 Gym Trainers Defeated: Rocker at (3, 8), Sailor at (0, 10), Gentleman at (9, 6).
 
-## Verified Empirical Mechanics
+## Verified Empirical Observations
 1. Inspecting an empty can: "Nope, there's only trash here."
 2. Finding Switch 1: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
-3. Finding Switch 2: Must be in a cardinally adjacent can while Switch 1 is active.
-4. Failing Switch 2: "Nope! There's only trash here. Hey! The electric locks were reset!"
-   - When locks reset, Switch 1 re-rolls to a random can.
-   - Any adjacent can can be Switch 2 (prior testing before Switch 1 was active does not invalidate an adjacent can).
+3. Inspecting a non-switch can while Switch 1 is active: "Nope! There's only trash here. Hey! The electric locks were reset!"
+   - Confirmed: When locks reset, Switch 1 re-rolls to a can.
 
-## Switch 1 History
-- Cycle 1: Found at (1, 11) [Turn 3319]. Tested (1, 9) -> reset [Turn 3323].
-- Cycle 2: Found at (1, 11) [Turn 3329]. Tested (1, 7) -> reset [Turn 3331/3333].
-- Cycle 3: Found at (1, 7) [Turn 3354]. Tested (1, 9) -> reset [Turn 3356].
-- Cycle 4 (Current): Testing Can (1, 9) at (0, 9) facing East on Turn 3357.
-- Can (1, 9): Checked Turn 3359 -> Only trash.
-- Can (1, 7): Inspecting Turn 3359.
+## Working Hypotheses (Awaiting Verification)
+- Switch 2 Location: Hypothesized to be in an adjacent can to Switch 1 while Switch 1 is active. (Unproven in this playthrough).
+
+## Empirical Testing History
+- Cycle 1: Switch 1 found at (1, 11) [Turn 3319]. Tested (1, 9) -> reset [Turn 3323].
+- Cycle 2: Switch 1 found at (1, 11) [Turn 3329]. Tested (1, 7) -> reset [Turn 3331/3333].
+- Cycle 3: Switch 1 found at (1, 7) [Turn 3354]. Tested (1, 9) -> reset [Turn 3356].
+- Cycle 4 (Current - post-Turn 3356 reset):
+  - Can (1, 9): Tested Turn 3358 -> Only trash.
+  - Can (1, 7): Tested Turn 3360/3361 -> Only trash.
+  - Can (3, 7): Inspecting Turn 3361.
 
 
 <hr>
