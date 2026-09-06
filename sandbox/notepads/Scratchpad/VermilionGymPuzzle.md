@@ -58,3 +58,4 @@
 ## Cycle 10 (Turn 3589+)
 - Can (7, 11) tested: empty [Turn 3591].
 - Can (9, 11) tested: empty [Turn 3592].
+- Can (7, 9) tested: empty [Turn 3593].
