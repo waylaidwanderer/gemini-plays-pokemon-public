@@ -4,6 +4,7 @@
 - South: Route 5 border connection at (25..27, 36) and tall grass strip warp at Cerulean (25, 35) <-> Route 5 (15, 0).
 - West: Route 4 eastern bridge at (0, 18..19).
 - North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
+- East: Route 9 entrance (accessed past Robbed House backyard / eastern corridor, blocked by a Cut tree).
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.

@@ -24,3 +24,6 @@
 - **TM28 DIG:**
   - Designated User: Diglett (DIGBY) - Slot 1 in current party.
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
+
+## Bicycle Locomotion Physics
+- **Perpendicular Turn Mechanics:** When mounted on the Bicycle, an initial directional input while facing a perpendicular direction turns the player in place to face that direction without advancing a grid step (empirically confirmed Turns 4046, 4048, 4049, 4054). Subsequent directional inputs in the same direction advance one grid step per press.

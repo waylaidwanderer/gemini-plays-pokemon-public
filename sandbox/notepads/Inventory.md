@@ -62,7 +62,6 @@
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
   - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 15/15) [Learned Turn 4031]
-  - Moveset Plan: Teach TM08 Body Slam over Tail Whip prior to Route 9 departure. Retains Bubblebeam (STAB 65 BP), Water Gun (STAB 40 BP endurance), Bite (60 BP), and Body Slam (85 BP Normal coverage + 30% paralysis).
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
