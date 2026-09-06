@@ -2740,7 +2740,6 @@
 - Boulder: Located at (9, 11).
 - Switch Plate: Located at (9, 16).
 - Shutter: Located at (15, 15).
-- Access Route to Boulder (9, 11): From row 8, descend via col 6/7 through (6, 8)->(6, 11)->(8, 11) to stand beside Boulder at (9, 11).
 - Target: Push Boulder (9, 11) onto Switch (9, 16) to lower Shutter (15, 15) and open passage to Lower Highway (row 16/17).
 
 <hr>
