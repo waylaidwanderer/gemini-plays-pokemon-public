@@ -20,5 +20,7 @@
 - Barrier: Located at rows 4..5 blocking passage to Lt. Surge.
 
 ## Testing Log & Hypotheses
-- Status: Defeated all 3 Gym trainers. Beginning systematic inspection of cans.
-- [ ] Can (7, 7): Inspecting Turn 3305
+- Status: Systematic inspection of 15 cans for 1st switch.
+- [x] Can (7, 7): Checked Turn 3306 -> Only trash.
+- [x] Can (9, 7): Checked Turn 3307 -> Only trash.
+- [ ] Can (9, 9): Inspecting Turn 3307.
