@@ -1252,6 +1252,7 @@
 ## Cycle 8 (Turn 3561+)
 - DIGBY secured with TM28 Dig (Ground STAB, Electric immune).
 - Can (5, 11) tested: empty [Turn 3563].
+- Can (3, 11) tested: empty [Turn 3568].
 
 <hr>
 
