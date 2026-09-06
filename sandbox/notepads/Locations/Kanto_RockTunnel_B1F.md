@@ -16,5 +16,5 @@
 
 ## Southern Corridor
 - Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.
-- Southern Highway Extension: Confirmed wide open 4-tile avenue rows 30..33 spanning west through col 18+, bounded north by row 29 wall and south by row 34 wall.
+- Southern Highway Extension: Confirmed wide open 4-tile avenue rows 30..33 spanning west past col 14 through col 7+, bounded north by row 28-29 wall (cols 7-13) and south by row 34 wall.
 - Jr. Trainer ♀ at (14, 28) in north alcove ("I don't often come here, but I will fight you."): Oddish Lv 22, Bulbasaur Lv 22. Prize: ¥440. Defeated Turn 4609.
