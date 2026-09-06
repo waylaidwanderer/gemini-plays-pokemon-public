@@ -35,7 +35,7 @@
   - Status: Asleep (SLP)
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 7/10)
   - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
@@ -56,7 +56,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 27/30)
   - EXP: 125 (91 to Lv 6)
 - WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
   - Status: Healthy

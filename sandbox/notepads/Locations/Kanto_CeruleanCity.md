@@ -8,7 +8,6 @@
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
 - Northwest House & Center Boundary: Northwest House spans cols 12..17, rows 14..15 (door at (13, 15), windows at (14..16, 15)). Connects flush to Pokémon Center (cols 18..21, rows 14..17) with no gap between buildings.
-- Bicycle Shop Citizen (9, 27): "I want a bright red bicycle!"
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
 - Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11, but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street.
 - Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
@@ -30,7 +29,6 @@
 ## Key Buildings & Facilities
 - Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
   - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
-  - Pricing & Mechanics: Manager offers Bicycle for ¥1,000,000 (unaffordable without Bike Voucher).
   - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
   - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
