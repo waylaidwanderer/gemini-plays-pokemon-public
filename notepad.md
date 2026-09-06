@@ -1321,5 +1321,6 @@
 - Tile (44, 13): Solid rock wall, impassable north from (44, 14) [Turn 4407].
 
 - Tile (30, 11): Solid rock wall, impassable east from (29, 11) [Turn 4413].
+- Tile (30, 10): Solid rock wall, impassable east from (29, 10) [Turn 4414].
 
 <hr>
