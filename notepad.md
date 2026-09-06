@@ -1230,7 +1230,8 @@
 - Status: Systematic inspection of 15 cans for 1st switch.
 - [x] Can (7, 7): Checked Turn 3306 -> Only trash.
 - [x] Can (9, 7): Checked Turn 3307 -> Only trash.
-- [ ] Can (9, 9): Inspecting Turn 3307.
+- [x] Can (9, 9): Checked Turn 3308 -> Only trash.
+- [ ] Can (7, 9): Inspecting Turn 3308.
 
 
 <hr>
