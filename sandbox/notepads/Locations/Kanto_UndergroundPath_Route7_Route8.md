@@ -17,4 +17,5 @@ Subterranean tunnel connecting Route 8 (east of Saffron City) to Route 7 (west o
 - East entrance stairs connect to Route 8 gatehouse; entry tile at (47, 2).
 - Eastern boundary wall at col 48.
 - Horizontal corridor spans rows 1..5; north wall at row 0, south wall at row 6.
-- Tunnel runs west from col 47 toward Route 7 gatehouse (cols 0..4).
+- Tunnel runs west from col 47 to col 2; western boundary wall at col 1.
+- West exit stairs located at (2, 5) ascending into the Route 7 gatehouse.
