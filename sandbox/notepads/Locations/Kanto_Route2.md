@@ -26,3 +26,7 @@
 - Rock Barrier at Row 15: Solid rock/monument structures span cols 8..13 at row 15.
 - Eastern Bypass: Cols 14..17 are open grass lawn bypassing the rock barrier on the east.
 - Building at Cols 14..17, Rows 18+: House with green roof directly south of the eastern lawn bypass.
+- Cut Tree at (15, 22): [CHOPPED DOWN, Turn 3829] Unlocked southern passage.
+- Row 23..26 Lawn: Open grass spanning cols 14..19.
+- Row 27 Ledge & Ramp: South-facing ledge spans cols 14..16 and 18..19. Passable two-way ramp at (17, 27) connects north and south.
+- Rows 28..30+ Lawn: Open path continuing south towards the gatehouse. Flower patch at (18..19, 28..29).
