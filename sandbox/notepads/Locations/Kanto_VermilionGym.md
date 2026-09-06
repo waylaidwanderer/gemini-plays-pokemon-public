@@ -15,4 +15,6 @@
 - Gentleman Trainer at (9, 6) [Defeated, Turn 3304]: Stationed at (9, 6) facing West along row 6.
 
 ## Mechanics & Locks
-- Door Locks: Gym Guide states a code must be broken to reach Lt. Surge. Exact mechanism unverified.
+- Door Locks: The barrier blocking Lt. Surge consists of two electric locks controlled by switches hidden inside the 15 trash cans (5x3 grid across rows 7, 9, 11 and cols 1, 3, 5, 7, 9).
+- Switch 1 opens the 1st electric lock. Once activated, Switch 2 is generated in an adjacent trash can (North, South, East, or West).
+- Inspecting an incorrect can while Switch 1 is active resets both electric locks, re-rolling Switch 1 to a new can.
