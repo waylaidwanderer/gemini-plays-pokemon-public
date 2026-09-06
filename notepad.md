@@ -96,7 +96,7 @@
   - Status: Healthy
   - HP: 90 / 94
   - Stats: Attack 63, Defense 77, Speed 63, Special 65
-  - Moves: Bite (PP 25/25), Body Slam (PP 8/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Learned Turn 4031]
+  - Moves: Bite (PP 25/25), Body Slam (PP 7/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -139,7 +139,6 @@
   - Status: Healthy
   - HP: Full
   - Caught: Route 11 tall grass [Turn 3751]
-
 
 <hr>
 
@@ -1299,6 +1298,10 @@
   1. Top Terrace (Rows 2..9): Starts at the Cut tree (5, 8), runs east past Camper Drew (24, 7), connects to the Northern Plateau (rows 2..5). Ramp at (29, 9) connects from Middle Terrace up to row 8 lawn.
   2. Middle Terrace (Rows 10..12): Lower terrace entered by hopping south over ledges at (23, 9) or (40..41, 11). Bounded east by rock wall at (42, 12) and west by solid rock cliff at (19, 11) and south-facing ledge at (11, 11).
   3. Bottom Terrace (Rows 14..15): Lowest terrace entered by hopping south over row 13 ledges. Contains TM30 (10, 15) and Hiker (45, 15). Terminates east at col 54 cliff. Ramps at (19, 13) and (29, 13) lead up to Middle Terrace.
-- Elevation Connectivity: Tile (29, 9) is a verified walkable ramp from Middle Terrace (row 10) up to Top Terrace (row 8). Tile (30, 8) is a solid cliff corner (impassable going east from (29, 8)).
+- Elevation Boundaries & Confirmed Collisions:
+  - Tile (26, 2): Solid mountain ridge collision [Turn 4216].
+  - Tile (30, 8): Solid cliff corner collision, impassable east from (29, 8) [Turn 4182].
+  - Tile (34, 11): South-facing ledge, impassable north from (34, 12) [Turn 4273].
+  - Tile (52, 13): South-facing ledge, impassable north from (52, 14) [Turn 4281].
 
 <hr>
