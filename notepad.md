@@ -1556,6 +1556,7 @@
 - Memorial Altars & Tombstones:
   - Orange altars at (6..8, 1), (5..7, 2), (4..5, 3), (3..4, 4..5), (3, 6), (7, 2), (13..15, 1), (14..16, 2), (16..17, 3), (17..18, 4..5), (18..19, 6), (19, 7..9).
   - Grey tombstones at (9..12, 1), (8, 2), (7..8, 3), (7, 4), (5..7, 4), (6..7, 3), (16, 4), (7..13, 6), (7..9, 7..9), (12..15, 8..9).
-- Western District: Open crosshatch floor across cols 4..7 (rows 6..7) and cols 3..5 (rows 8..9).
+- Western Wall: Solid boundary along cols 0..1.
+- Western District: Open crosshatch floor across cols 4..7 (rows 6..7), cols 3..5 (rows 8..11). Orange altars line col 2 (rows 6..11) and (3, 11).
 
 <hr>
