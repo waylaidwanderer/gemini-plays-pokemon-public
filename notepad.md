@@ -1280,5 +1280,7 @@
 - Adjacent cans for Switch 2:
   - Can (3, 7) [East]
   - Can (1, 9) [South]
+- Tested adjacent Can (3, 7) [Turn 3414] -> Only trash, locks reset.
+- Cycle 6 begins.
 
 <hr>
