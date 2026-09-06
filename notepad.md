@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34, Magikarp (TSUNAMI) Lv 5
+- Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34, Drowzee (SANDMAN) Lv 9
 - Money: ¥25266
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
@@ -118,11 +118,12 @@
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
   - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+  - Moveset Plan: Teach TM08 Body Slam over Tail Whip prior to Route 9 departure. Retains Bubblebeam (STAB 65 BP), Water Gun (STAB 40 BP endurance), Bite (60 BP), and Body Slam (85 BP Normal coverage + 30% paralysis).
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: Full
-  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20)
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
 ## PC Box 1 Pokémon
@@ -170,6 +171,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
@@ -190,22 +192,6 @@
 - **Team Utility:**
   - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
   - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
-
-## S.S. Anne Empirical Combat Log
-- **Rival RED [Turn 3042 - 3056] (S.S. Anne 2F Corridor at 36, 8):**
-  - Roster: Pidgeotto Lv 19 (Yield: 459 EXP), Raticate Lv 16 (Yield: 397 EXP), Kadabra Lv 18 (Yield: 558 EXP), Ivysaur Lv 20. Prize: ¥1300.
-  - Pre-battle: "Bonjour! BLUE! Imagine seeing you here!...". Defeat: "Humph! At least you're raising your POKéMON!".
-  - Combat: Sheldon Lv 31 used Bubblebeam on Pidgeotto (OHKO). Sheldon used Bubblebeam on Raticate (OHKO). Sheldon used Bite on Kadabra (OHKO). Sheldon used Bite on Ivysaur, Ivysaur used Vine Whip (dealt 17 dmg, Sheldon HP 74 -> 57/84), Sheldon used Bite (Ivysaur fainted).
-  - Outcome: Decisive victory. Total damage taken: 17 HP. Bubblebeam PP: 15 -> 13. Bite PP: 16 -> 14.
-
-## Vermilion Gym Empirical Combat Log (Turn 3274 - 3634)
-- **Gym Minions Cleared:** Rocker (3, 8), Sailor (0, 10), Gentleman (9, 6) defeated Turns 3274-3304.
-
-- **Gym Leader Lt. Surge [Turn 3612+] (Vermilion Gym):**
-  - Opponent Roster: Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
-  - Combat: Voltorb used Tackle (dealt 10 dmg, DIGBY HP 36 -> 26/36). DIGBY used Dig (underground dodged Sonicboom, then emerged with super-effective STAB OHKO!). Voltorb fainted.
-  - Pikachu used Growl (failed while Digby underground), Surge used X Speed. DIGBY used Dig (super-effective STAB OHKO!). Pikachu fainted.
-  - Raichu used Thunderbolt (no effect on Ground), then Surge used X Speed. Raichu used Thundershock (no effect). DIGBY used Dig (super-effective 2HKO!). Raichu fainted. DIGBY grew to Lv 19! Prize: ¥2376. Decisive victory!
 
 
 <hr>
@@ -1304,8 +1290,8 @@
   - Badge Requirement: Boulderbadge (Brock) - earned Turn 594.
   - Obtained: From Prof. Oak's Aide in Route 2 eastern gatehouse [Turn 3846].
   - Function: Illuminates pitch-black caves (specifically Rock Tunnel).
-  - Designated User: Drowzee (SANDMAN) - stored in PC Box 1, to be withdrawn at Cerulean Pokémon Center.
-  - Compatibility Audit: In Gen 1 retail, Paras, Diglett, Farfetch'd, Wartortle, Geodude, and Magikarp CANNOT learn Flash. Drowzee (Psychic), Abra line, Pikachu line, and Clefairy line are eligible learners.
+  - Designated User: Drowzee (SANDMAN) - Slot 6 in active party.
+  - Empirical Compatibility Proof (Turn 4021): Party compatibility screen confirmed Slots 1-5 (Digby, Rocky, Fungi, Dux, Sheldon) are NOT ABLE; Drowzee (SANDMAN) is ABLE. Taught HM05 Flash into Move Slot 3 (PP 20/20).
 - **TM28 DIG:**
   - Designated User: Diglett (DIGBY) - Slot 1 in current party.
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
