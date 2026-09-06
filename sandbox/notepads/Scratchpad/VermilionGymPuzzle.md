@@ -34,3 +34,5 @@
 - Can (7, 11): Inspecting Turn 3338.
 - Can (7, 11): Checked Turn 3339 -> Only trash.
 - Can (9, 11): Inspecting Turn 3339.
+- Can (9, 11): Checked Turn 3341 -> Only trash. (All Row 11 cans empty in Cycle 2).
+- Can (9, 9): Inspecting Turn 3341.
