@@ -28,7 +28,6 @@
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
 - Signpost at (9, 55): Read from (8, 55) facing East. Text: "ROCK TUNNEL" [Turn 4790].
-- NPC at (7, 54): Stationed at (7, 54) facing South down column 7.
 - Southern Geography: Cols 5..12 terminated at row 58 by cliff wall; passage continues south/west through col 4 and cols 0..3 toward Lavender Town.
 - Jr. Trainer ♀ at (7, 54): Triggered at (7, 56) facing South. Pre-battle dialogue: "I'm feeling a bit faint from this tough hike." Team: Pidgey Lv 21, Pidgeotto Lv 21. [Turn 4793-4798].
 - NPC at (0, 58): Sighted on the western path facing East/South.
