@@ -22,4 +22,4 @@
 - Arrived via Ladder 2 from B1F (27, 3) -> 1F (5, 3) [Turn 4660].
 - Chamber at cols 3-7, rows 2-4 with Ladder 2 at (5, 3).
 - Open area at rows 6-10 across cols 2-10+.
-- Trainer at (7, 5) facing South: Guards column 7 entrance to eastern passage.
+- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Engaged Turn 4664. Guards column 7 entrance to eastern passage.
