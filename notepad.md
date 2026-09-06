@@ -277,6 +277,15 @@
 - Row 31 Ledge & Ramp: South-facing ledge spans cols 14..16 and 18..19, with a passable two-way ramp at (17, 31).
 - Southern Gatehouse (Oak's Aide): Building located at cols 14..19, rows 35..38+. North entrance opening at cols 16..17, rows 35..36.
 
+## Southern Gatehouse Interior (Audited Turn 3842)
+- Location: Connects Route 2 eastern cut path (north entrance) to Route 2 southern highway (south entrance).
+- North Doorway: At (5, 0), entering from Route 2 east path at (16, 36).
+- South Doorway: At cols 2..3, row 5 with red doormats, exiting south to Route 2 Viridian side.
+- Floor: Open checkered floor spanning cols 1..5, rows 1..4 and cols 6..9, rows 1..4.
+- Occupants:
+  - (8, 4): Wandering Youngster NPC (advises: "Once a POKéMON learns FLASH, you can get through ROCK TUNNEL.").
+  - (1, 4): NPC stationed on the west side of the hall.
+
 
 <hr>
 
@@ -1234,12 +1243,12 @@
 - Row 14-18 Passage: From row 18, corridor extends north through rows 17..14 along cols 7..9.
 - North Wall at Row 13: Solid rock wall across cols 6..10 at row 13 blocks further north progress directly.
 - Westbound Corridor at Rows 14..17: A wide 4-tile high horizontal passage spans rows 14..17 running west from col 9 through cols 8, 7, 6, 5+ toward the Route 2 exit ladder.
+- Westernmost North Corridor (Cols 4..5): A 2-tile wide vertical passage at cols 4..5 running north from row 17 through rows 14, 13, 12, 11, 10+ directly toward the Route 2 exit ladder (bounded by west wall at col 3, south wall at row 18).
+- Route 2 Exit Ladder: Located at (5, 5) at the northern terminus of the western corridor, leading up to Route 2 entrance room.
 
 ## Wild Encounters
 - Diglett: Lv 15-22 observed throughout main tunnel.
 - Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY.
-- Westernmost North Corridor (Cols 4..5): A 2-tile wide vertical passage at cols 4..5 running north from row 17 through rows 14, 13, 12, 11, 10+ directly toward the Route 2 exit ladder (bounded by west wall at col 3, south wall at row 18).
-- Route 2 Exit Ladder: Located at (5, 5) at the northern terminus of the western corridor, leading up to Route 2 entrance room.
 
 
 <hr>
