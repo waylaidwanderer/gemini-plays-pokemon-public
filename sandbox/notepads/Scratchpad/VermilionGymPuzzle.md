@@ -55,7 +55,7 @@
   - West: Can (1, 9)
 - Action: Inspecting Can (3, 11) for Switch 2 on Turn 3371!
 - Can (3, 11): Tested while Switch 1 active at (3, 9) [Turn 3372] -> Only trash, locks reset.
-- Cycle 5: Checking Can (3, 11) post-reset on Turn 3373.
+- Cycle 5: Can (7, 7) tested [Turn 3396] -> Only trash.
 
 - Cycle 5: Can (3, 11) tested [Turn 3378] -> Only trash.
 - Cycle 5: Can (3, 9) tested [Turn 3385] -> Only trash.
