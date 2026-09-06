@@ -1569,7 +1569,7 @@
 
 ## Key Events & Encounters
 - Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: �690). Defeat dialogue: "What!".
-- Item Ball at (12, 10): Pok� Ball on floor (contains Escape Rope) [Turn 5011].
+- Item Ball at (9, 10): Pok� Ball on floor (Escape Rope) [Turn 5030].
 
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
