@@ -76,7 +76,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥24951
+- ¥25266
 
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
@@ -84,7 +84,7 @@
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 7237 (Lv 19 reached Turn 3631)
+  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -110,7 +110,7 @@
   - Status: Healthy
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 19/20), Water Gun (PP 25/25)
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: 15 / 15
@@ -216,6 +216,14 @@
   - Combat: Voltorb used Tackle (dealt 10 dmg, DIGBY HP 36 -> 26/36). DIGBY used Dig (underground dodged Sonicboom, then emerged with super-effective STAB OHKO!). Voltorb fainted.
   - Pikachu used Growl (failed while Digby underground), Surge used X Speed. DIGBY used Dig (super-effective STAB OHKO!). Pikachu fainted.
   - Raichu used Thunderbolt (no effect on Ground), then Surge used X Speed. Raichu used Thundershock (no effect). DIGBY used Dig (super-effective 2HKO!). Raichu fainted. DIGBY grew to Lv 19! Prize: ¥2376. Decisive victory!
+
+## Route 11 Empirical Combat Log
+- **Youngster [Turn 3781 - 3788] (Route 11 at 13, 5):**
+  - Roster: Ekans Lv 21 (Yield: 278 EXP split 139 to Sheldon / 139 to Digby). Prize: ¥315.
+  - Pre-battle: "Let's go, but don't cheat!". Defeat: "YOUNGSTER: Huh? That's not right!".
+  - Combat: DIGBY sent out. Switched to SHELDON (took 0 dmg, Defense fell from Leer). Sheldon Lv 34 used Bubblebeam (OHKO). Ekans fainted.
+  - Outcome: Decisive victory. Prize: ¥315. Money: ¥24951 -> ¥25266. Sheldon Bubblebeam PP: 20 -> 19/20.
+
 
 <hr>
 
@@ -1241,7 +1249,7 @@
 - Southern Water: Shoreline along row 8 (cols 0..7), ocean water extending south into rows 9..10+.
 - Fence & Passage: Vertical fence along col 10 with opening at (10, 6..7).
 - Western Tall Grass Patch: 4x4 block of tall grass spanning cols 12..15, rows 6..9.
-- Youngster Trainer at (13, 5): Stationed in grass facing West along row 5 (sightline along row 5).
+- Youngster Trainer at (13, 5) [Defeated, Turn 3788]: Stationed at (13, 5) facing West. Used Ekans Lv 21. Prize: ¥315.
 
 ## Wild Encounters & Catches
 - Spearow: Lv 13 observed in tall grass [Turn 3709].
