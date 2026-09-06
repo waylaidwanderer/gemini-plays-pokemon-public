@@ -33,3 +33,5 @@
   - Can (1, 7): Tested Turn 3360/3361 -> Only trash.
   - Can (3, 7): Checked Turn 3362 -> Only trash.
   - Can (5, 7): Inspecting Turn 3362.
+- Can (5, 7): Checked Turn 3363 -> Only trash.
+- Can (7, 7): Inspecting Turn 3363.
