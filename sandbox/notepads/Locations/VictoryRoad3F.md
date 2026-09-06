@@ -44,12 +44,18 @@
 - Column 11 Wall: Column 11 (x=11, y=5..10) is a solid vertical rock barrier blocking Row 6 westward passage at (11, 6). Boulders pushed west past (17, 6) stop at (12, 6) and cannot be pushed further west or south.
 - Row 7 Ledge / Wall: Impassable from (13, 6) south to (13, 7). Bypass east via Row 6 to (17, 6).
 
-## Master Boulder 1 to Switch (3, 5) Solution (Verified In Progress Turn 30890)
+## Master Boulder 1 to Switch (3, 5) Solution (VERIFIED & SOLVED Turn 30921)
 1. Strength activated by ATLAS on 3F Upper Dark Plateau.
 2. Initial State: Boulder 1 at (22, 3).
 3. Position at (22, 4) -> Push North 2 times to (22, 1) on Row 1 (Northern Highway).
 4. Reposition via (22, 3) -> (23, 3) -> (23, 1).
 5. Push West along Row 1: (22, 1) -> (21, 1) -> (20, 1) -> (19, 1) -> (18, 1) -> ... -> (6, 1).
 6. At (6, 1), stand at (6, 0) and push South 1 time to (6, 2) on Central Bridge.
-7. Stand at (7, 2) and push West into NW Room at (2, 2).
-8. Push South down Column 2/3 and onto Switch Plate at (3, 5) to open Shutter at (17, 5).
+7. Stand at (7, 2) and push West into NW Room at (5, 2) -> (4, 2) -> (3, 2).
+8. Note: Tile (3, 3) is a rock obstacle! Bypass to (2, 2):
+   - From (4, 2), push Left to (2, 2) [Boulder at (2, 2)].
+   - Reposition to (2, 1) via (3, 2) -> (3, 1) -> (2, 1).
+   - Push South down Column 2: (2, 2) -> (2, 3) -> (2, 4) -> (2, 5) [Boulder at (2, 5), Player at (2, 4)].
+   - Reposition to (1, 5) via (2, 4) -> Left to (1, 4) -> Down to (1, 5).
+   - Stand at (1, 5) facing East -> Push Right 1 time onto Switch Plate (3, 5)!
+9. Outcome: Switch (3, 5) ACTIVATED! Shutter at (17, 5) OPENED!
