@@ -105,3 +105,10 @@
   - Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!". Defeat: "GENTLEMAN: My, my friends...".
   - Combat: Sheldon Lv 33 used Water Gun on Growlithe 1 (OHKO). Sheldon used Water Gun on Growlithe 2 (OHKO). Sheldon took 0 damage (HP 38/89). Water Gun PP: 23 -> 21/25.
   - Outcome: Decisive victory. HP: 38/89. Water Gun PP: 21/25. Money: ¥20575 -> ¥21835.
+
+## Vermilion Gym Empirical Combat Log (Turn 3274 - 3287)
+- **Rocker [Turn 3274 - 3287] (Vermilion Gym at 3, 8):**
+  - Roster: Voltorb Lv 20 (Yield: 441 EXP), Magnemite Lv 20 (Yield: 381 EXP), Voltorb Lv 20 (Yield: 441 EXP). Total EXP: 1263 EXP. Prize: ¥500.
+  - Pre-battle: "I'm a lightweight, but I'm good with electricity!". Defeat: "ROCKER: Fried!".
+  - Combat: Sheldon Lv 33 used Bubblebeam on Voltorb 1 (OHKO). Sheldon Lv 33 used Bubblebeam on Magnemite (took 3 dmg from Tackle, HP 89 -> 86/89), Sheldon used Bubblebeam (KO, grew to Lv 34, HP 86 -> 88/91, Atk 61, Def 74, Spd 62, Spc 63). Sheldon Lv 34 used Bubblebeam on Voltorb 2 (Critical Hit, OHKO).
+  - Outcome: Decisive victory. HP: 88/91. Bubblebeam PP: 20 -> 16/20. Money: ¥21835 -> ¥22335.

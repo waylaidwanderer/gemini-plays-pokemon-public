@@ -5,13 +5,14 @@
 - Statues: Located at (3, 14) and (6, 14) flanking the entrance aisle.
 - Gym Guide: Stationed at (4, 14) facing South.
 - Central Aisle: Column 4 and Column 5 running north into the main hall.
-- Visible Cans: Cans observed at cols 1, 3, 5, 7, 9 on rows 7, 9, 11 with aisles between them (cols 2, 4, 6, 8) and cross-aisles (rows 8, 10, 12).
-- North Barrier: Located at rows 2..3, white barrier/counters with circular nodes flanking central passage at cols 4..5.
+- Visible Cans (Empirically Confirmed Turn 3288): 5x3 matrix of 15 cans at cols 1, 3, 5, 7, 9 on rows 7, 9, 11 with vertical aisles at cols 0, 2, 4, 6, 8 and cross-aisles at rows 6, 8, 10, 12.
+- North Barrier: Located at rows 4..5, white barrier/counters with circular plus-nodes at cols 1..2 and 7..8 flanking central passage at cols 4..5 with electronic terminal panels at (4..5, 4).
 
 ## Occupants & Trainers
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
-- Rocker Trainer at (3, 8): Facing South behind trash can at (3, 9). Pre-battle: "I'm a lightweight, but I'm good with electricity!". Team: 3 Pokémon (Voltorb Lv 20, Magnemite Lv 20, Voltorb Lv 20).
-- Trainer at (9, 4): Visible in blue outfit facing South/West.
+- Rocker Trainer at (3, 8) [Defeated, Turn 3288]: Pre-battle: "I'm a lightweight, but I'm good with electricity!". Team: Voltorb Lv 20 (441 EXP), Magnemite Lv 20 (381 EXP), Voltorb Lv 20 (441 EXP). Defeat Quote: "ROCKER: Fried!". Prize: ¥500.
+- Trainer at (0, 10): Red/orange hat sprite facing East along row 10.
+- Trainer at (9, 6): Blue outfit sprite facing West along row 6.
 
 ## Mechanics & Locks
 - Door Locks: Gym Guide states a code must be broken to reach Lt. Surge. Exact mechanism unverified.
