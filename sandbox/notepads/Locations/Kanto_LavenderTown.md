@@ -27,7 +27,8 @@
 - Poké Mart: Located at cols 14..17, rows 11..13. Front entrance door at (15, 13), "MART" sign at (16, 13) [Sighted Turn 4861].
   - Interior: Clerk counter at (0..1, 5), talk from (2, 5) facing West. Customer at (3, 4). Entrance mat at (3..4, 7).
   - Catalog Items: GREAT BALL (¥600), SUPER POTION (¥700), REVIVE (¥1500), ESCAPE ROPE (¥550), SUPER REPEL (¥500), ANTIDOTE (¥100), BURN HEAL (¥250), ICE HEAL (¥250), PARLYZ HEAL (¥200) [Verified Turn 4872].
-- Pokémon Tower: Located in northeast quadrant.
+- Pokémon Tower: Located in northeast quadrant (cols 12..19, rows 0..5+). Front entrance door at (14, 5) in stone foundation. Exterior approach along row 6.
+- Signpost at (17, 7): Located outside Pokémon Tower.
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9. Front entrance door at (7, 9).
   - Interior Layout (verified Turn 4856-4858):
     - Entrance mat at (2..3, 7).
