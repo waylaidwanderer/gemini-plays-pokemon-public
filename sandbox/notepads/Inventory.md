@@ -35,7 +35,7 @@
   - Status: Healthy
   - HP: 100 / 121
   - Stats: Attack 87, Defense 102, Speed 87, Special 89
-  - Moves: Bite (PP 9/25), Body Slam (PP 8/15), Bubblebeam (PP 13/20), Water Gun (PP 15/25) [Learned Turn 4031]
+  - Moves: Bite (PP 11/25), Body Slam (PP 8/15), Bubblebeam (PP 13/20), Water Gun (PP 15/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
