@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 36, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥28331
+- Money: ¥28731
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -85,7 +85,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥28331
+- ¥28731
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 36, Water]
@@ -1325,6 +1325,7 @@
 - Signpost (7, 19): Rock Tunnel entrance signpost [Sighted Turn 4529].
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
-- NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].
+- NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].- Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
+
 
 <hr>
