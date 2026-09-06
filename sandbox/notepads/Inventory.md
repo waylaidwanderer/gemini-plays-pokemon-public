@@ -14,6 +14,7 @@
 - NUGGET x1
 - TM08 (BODY SLAM) x1
 - TM24 (THUNDERBOLT) x1
+- HP UP x1
 
 ## Key Items
 - POKéDEX
