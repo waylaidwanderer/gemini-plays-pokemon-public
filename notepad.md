@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34
-- Money: ¥26951
+- Money: ¥24951
 - Pokédex: 7 Caught / 48 Seen [Verified Turn 3636]
 
 ## Milestones
@@ -51,7 +51,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x8
+- POKé BALL x17
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
@@ -73,7 +73,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥24575
+- ¥24951
 
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
@@ -161,13 +161,6 @@
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
 ## Boss Battle Tactics & Preparation (Audited Turn 2766)
-- **Tactical Preparation Synthesis (Turns 2881 & 2911):**
-  - **Lt. Surge Counter Strategy (Audited Turn 3157):**
-    - Option A (Diglett's Cave - Recommended): Diglett's Cave is situated directly east in Vermilion City. Wild Diglett (Lv 15–22) or Dugtrio (Lv 29–31) have pure Ground typing, immense Speed, and innate Ground moves, completely trivializing Lt. Surge with zero grinding required.
-    - Option B (Overleveled Sheldon): Sheldon Lv 32 possesses high bulk (HP 86, Def 69) and can be taught TM28 (Dig) or TM08 (Body Slam) to overpower Surge's roster.
-    - Option C (Rocky): Rocky (Geodude Lv 8) remains a viable Ground-type reserve if trained, but catching a high-level Diglett is far more time-efficient.
-  - **Rival RED Counter:** [Defeated, Turn 3056 - see S.S. Anne Empirical Combat Log below].
-
 - **Team Utility:**
   - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
   - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
