@@ -1261,5 +1261,7 @@
 - Main tunnel: Ladder at (37, 31). Tunnel extends west along rows 30..31 to (24, 31) where it turns north towards row 27.
 - Tunnel turns west along rows 26..28 past col 24.
 - Main tunnel: Extends west along rows 26..29 past col 16 to cols 12..13, where it turns north through rows 22..25.
+## Wild Encounters
+- Diglett: Lv 18 observed [Turn 3496].
 
 <hr>
