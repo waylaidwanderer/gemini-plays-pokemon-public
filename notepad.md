@@ -1270,5 +1270,6 @@
 - Cycle 5: Can (7, 9) tested [Turn 3397] -> Only trash.
 - Cycle 5: Can (7, 11) tested [Turn 3398] -> Only trash.
 - Cycle 5: Can (5, 11) tested [Turn 3399] -> Only trash.
+- Cycle 5: Inspecting Can (9, 11) on Turn 3400.
 
 <hr>
