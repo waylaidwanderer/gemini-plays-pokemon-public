@@ -30,13 +30,12 @@
      6. Reposition to (1, 5) -> push East 1 time onto Switch (3, 5)!
      7. Outcome: Switch (3, 5) clicked; Shutter at (17, 5) OPENED!
    - Route from Switch (3, 5) to Pit (Continuous, DO NOT CHANGE FLOORS):
-     1. Walk from NW room to (17, 4) in front of opened Shutter (17, 5).
-     2. Pass South through opened Shutter (17, 5) to (17, 6).
-     3. Walk East along Row 6: (17, 6) -> (23, 6).
-     4. Walk South down Column 23: (23, 6) -> (23, 14).
-     5. Walk Left to (21, 14), then Down 1 to (21, 15) (directly beside Pit Boulder at (22, 15) facing East towards The Pit at (23, 15)).
-     6. Stand at (21, 15) facing East -> Push Right 1 time: Pit Boulder falls into Pit at (23, 15)!
-     7. Step Right 1 time into Pit at (23, 15) -> Drop to 2F!
+     - Elevation Note: Row 1 Northern Highway is separated from Rows 2-4 by a south-facing cliff. To reach opened Shutter (17, 5), walk from NW Room / Central Bridge at (6, 1) -> South to (6, 2) -> East along Row 2 / Row 4 to (17, 4) in front of opened Shutter (17, 5), OR from Upper Plateau (23, 1) walk South down Column 21/23 (bypassing Ladder A at (23, 7)) to Row 14.
+     1. Pass through opened Shutter (17, 5) to (17, 6) (or navigate down Column 21/23 to Row 14).
+     2. Walk East along Row 6 to (23, 6) -> South down Column 23 to (23, 14).
+     3. Walk Left to (21, 14), then Down 1 to (21, 15) (beside Pit Boulder at (22, 15) facing East).
+     4. Push Right 1 time: Pit Boulder falls into Pit at (23, 15)!
+     5. Step Right 1 time into Pit at (23, 15) -> Drop to 2F!
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
    - Land on 2F at (22, 16) with fallen boulder at (23, 16).
