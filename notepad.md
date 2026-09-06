@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 33, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥19380
+- Money: ¥19975
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,7 +71,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥19380
+- ¥19975
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 33, Water]
