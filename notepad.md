@@ -681,6 +681,7 @@
 # Cerulean City Geography & Points of Interest
 
 ## Connections
+- South: Route 5 border connection at (25..27, 36) and tall grass strip warp at Cerulean (25, 35) <-> Route 5 (15, 0).
 - West: Route 4 eastern bridge at (0, 18..19).
 - North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
 
@@ -818,7 +819,7 @@
 # Route 5 Geography & Points of Interest
 
 ## Connections
-- North: Cerulean City southern gateway at (16..17, 0) [connects to Cerulean (26..27, 36)].
+- North: Cerulean City southern gateway at (16..17, 0) [connects to Cerulean (26..27, 36)], and tall grass corridor warp at (15, 0) <-> Cerulean City (25, 35).
 - South: Saffron City northern gatehouse (inaccessible; guards thirsty) and Underground Path to Route 6 / Vermilion City.
 
 ## Geography & Layout
@@ -1274,6 +1275,36 @@
 - Magikarp: Lv 5 caught with Old Rod at (0, 8) [Turn 3694], nicknamed TSUNAMI.
 - Drowzee: Lv 9 caught in tall grass [Turn 3721], nicknamed SANDMAN.
 - Sandshrew: Lv 15 caught in tall grass [Turn 3751], nicknamed PANGO.
+
+
+<hr>
+
+<h1><code>Mechanics/FieldMoves</code></h1>
+
+# Field Moves & Hidden Machines (Generation 1 Retail)
+
+## Mechanics & Menu Navigation
+- **No Direct 'A' Interaction:** In retail Pokémon Red/Blue, pressing 'A' while facing a cuttable tree, boulder, or dark cave does NOT prompt the player to use field moves. Field moves MUST be manually selected through the party Pokémon menu.
+- **Menu Execution Sequence:**
+  1. Press `Start` to open the Start menu.
+  2. Select `POKéMON` (2nd option from top).
+  3. Navigate to the party member knowing the desired field move.
+  4. Press `A` to open the Pokémon's command menu.
+  5. Select the field move (e.g. `CUT`, `FLASH`, `SURF`, `STRENGTH`, `DIG`, `TELEPORT`) at the top of the menu above STATS / SWITCH.
+  6. The move animation executes in the overworld, clearing or affecting the target obstacle, and the menu closes automatically.
+
+## Registered Field Moves & Party Users
+- **HM01 CUT:**
+  - Badge Requirement: Cascadebadge (Misty) - earned Turn 2077.
+  - Designated User: Farfetch'd (DUX) - Slot 4 in current party.
+  - Usage: Cuts down small bushy trees in the overworld (e.g., Vermilion Gym entrance, Route 2 passages, Cerulean City southern barrier at (19, 28)). Cut trees respawn upon reloading the map or entering/exiting buildings.
+- **HM05 FLASH:**
+  - Badge Requirement: Boulderbadge (Brock) - earned Turn 594.
+  - Obtained: From Prof. Oak's Aide in Route 2 eastern gatehouse [Turn 3846].
+  - Function: Illuminates pitch-black caves (specifically Rock Tunnel).
+- **TM28 DIG:**
+  - Designated User: Diglett (DIGBY) - Slot 1 in current party.
+  - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
 
 
 <hr>
