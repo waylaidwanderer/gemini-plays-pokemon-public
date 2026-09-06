@@ -1236,6 +1236,6 @@
 ## Active Cycle 6 (Current)
 - Can (3, 7): Tested [Turn 3418] -> Only trash.
 - Can (1, 7): Tested [Turn 3419] -> Only trash.
-- Can (5, 7): Inspecting on Turn 3422.
+- Can (5, 7): Tested [Turn 3423] -> Only trash.
 
 <hr>
