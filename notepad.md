@@ -284,7 +284,7 @@
 - Floor: Open checkered floor spanning cols 1..5, rows 1..4 and cols 6..9, rows 1..4.
 - Occupants:
   - (8, 4): Wandering Youngster NPC (advises: "Once a POKéMON learns FLASH, you can get through ROCK TUNNEL.").
-  - (1, 4): NPC stationed on the west side of the hall.
+  - (1, 4): PROFESSOR OAK'S AIDE! Stationed on the west side of the gatehouse. Gives HM05 (Flash) if player has caught 10 or more Pokémon species.
 
 
 <hr>
