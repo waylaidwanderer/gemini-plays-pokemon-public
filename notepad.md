@@ -1266,6 +1266,7 @@
 
 - Cycle 5: Can (3, 11) tested [Turn 3378] -> Only trash.
 - Cycle 5: Can (3, 9) tested [Turn 3385] -> Only trash.
-- Cycle 5: Inspecting Can (5, 9) on Turn 3388.
+- Cycle 5: Can (5, 9) tested [Turn 3389] -> Only trash.
+- Cycle 5: Moving to (4, 7) to inspect Can (5, 7).
 
 <hr>
