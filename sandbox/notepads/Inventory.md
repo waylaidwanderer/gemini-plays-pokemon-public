@@ -1,8 +1,7 @@
 # Inventory Log
-(Capacity: 16 / 20 unique item slots - in progress of freeing bag space at Cerulean PC)
+(Capacity: 15 / 20 unique item slots - 5 slots freed at Cerulean PC)
 
 ## Items
-- TOWN MAP
 - POKé BALL x11
 - GREAT BALL x1
 - MAX ETHER x1
@@ -21,7 +20,11 @@
 - HM05 (FLASH)
 
 ## PC Items (Cerulean City PC)
-- TM12 (WATER GUN) x1 [Depositing Turn 3969]
+- TM34 (BIDE) x1
+- TM12 (WATER GUN) x1
+- NUGGET x1
+- HELIX FOSSIL x1
+- TOWN MAP x1
 
 ## Money
 - ¥25266
