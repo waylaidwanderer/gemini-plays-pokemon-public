@@ -3,7 +3,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Wartortle (SHELDON) Lv 35, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥27481
+- Money: ¥27671
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -50,3 +50,4 @@
 - [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
 - [x] Defeat Hiker at (45, 15) on Route 9 [Turn 4174]
 - [x] Defeat Camper Drew on Route 9 [Turn 4190]
+- [x] Defeat Bug Catcher at (22, 2) on Route 9 [Turn 4209]
