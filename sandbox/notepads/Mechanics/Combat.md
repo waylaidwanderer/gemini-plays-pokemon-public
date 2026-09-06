@@ -1,6 +1,7 @@
 # Combat Mechanics (Generation 1 Retail)
 
 ## Battle UI & Controls
+- **Start Menu Cursor Memory:** In Generation 1 retail, the overworld Start menu remembers the last selected menu item across overworld sessions (empirically confirmed Turns 3985-3986: hovering on POKéMON causes the Start menu to re-open on POKéMON on the next press).
 - **Move Cursor Memory:** Within the same battle, the move selection menu remembers the last selected move slot across turns and across enemy Pokémon faintings (empirically confirmed Turn 3049 vs Rival RED: Slot 3 Bubblebeam remained selected after Pidgeotto fainted). At the start of each new battle, the move cursor always re-initializes to Slot 1 (empirically confirmed Turns 3144, 3160, 3175).
 - **Shift Style Prompt:** When an opposing Pokémon faints in trainer battles, the game asks "Will BLUE change POKéMON?". Default cursor is YES. Pressing B automatically selects NO and retains current Pokémon.
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
@@ -21,19 +22,3 @@
 - **Team Utility:**
   - Dux (Farfetch'd Lv 5): Normal/Flying STAB against Grass types, designated Cut user.
   - Fungi (Paras Lv 10): Train to Lv 13 for status powders (Spore line at Lv 27).
-
-## S.S. Anne Empirical Combat Log
-- **Rival RED [Turn 3042 - 3056] (S.S. Anne 2F Corridor at 36, 8):**
-  - Roster: Pidgeotto Lv 19 (Yield: 459 EXP), Raticate Lv 16 (Yield: 397 EXP), Kadabra Lv 18 (Yield: 558 EXP), Ivysaur Lv 20. Prize: ¥1300.
-  - Pre-battle: "Bonjour! BLUE! Imagine seeing you here!...". Defeat: "Humph! At least you're raising your POKéMON!".
-  - Combat: Sheldon Lv 31 used Bubblebeam on Pidgeotto (OHKO). Sheldon used Bubblebeam on Raticate (OHKO). Sheldon used Bite on Kadabra (OHKO). Sheldon used Bite on Ivysaur, Ivysaur used Vine Whip (dealt 17 dmg, Sheldon HP 74 -> 57/84), Sheldon used Bite (Ivysaur fainted).
-  - Outcome: Decisive victory. Total damage taken: 17 HP. Bubblebeam PP: 15 -> 13. Bite PP: 16 -> 14.
-
-## Vermilion Gym Empirical Combat Log (Turn 3274 - 3634)
-- **Gym Minions Cleared:** Rocker (3, 8), Sailor (0, 10), Gentleman (9, 6) defeated Turns 3274-3304.
-
-- **Gym Leader Lt. Surge [Turn 3612+] (Vermilion Gym):**
-  - Opponent Roster: Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
-  - Combat: Voltorb used Tackle (dealt 10 dmg, DIGBY HP 36 -> 26/36). DIGBY used Dig (underground dodged Sonicboom, then emerged with super-effective STAB OHKO!). Voltorb fainted.
-  - Pikachu used Growl (failed while Digby underground), Surge used X Speed. DIGBY used Dig (super-effective STAB OHKO!). Pikachu fainted.
-  - Raichu used Thunderbolt (no effect on Ground), then Surge used X Speed. Raichu used Thundershock (no effect). DIGBY used Dig (super-effective 2HKO!). Raichu fainted. DIGBY grew to Lv 19! Prize: ¥2376. Decisive victory!
