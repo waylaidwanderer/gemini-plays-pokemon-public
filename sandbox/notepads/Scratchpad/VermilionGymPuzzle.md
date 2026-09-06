@@ -61,3 +61,4 @@
 - Cycle 5: Can (3, 9) tested [Turn 3385] -> Only trash.
 - Cycle 5: Can (5, 9) tested [Turn 3389] -> Only trash.
 - Cycle 5: Can (7, 9) tested [Turn 3397] -> Only trash.
+- Cycle 5: Can (7, 11) tested [Turn 3398] -> Only trash.
