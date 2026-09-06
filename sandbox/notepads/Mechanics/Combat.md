@@ -100,3 +100,8 @@
   - Pre-battle: "Matey, you're walking the plank if you lose!". Defeat: "SAILOR: Argh! Beaten by a kid!".
   - Combat: Sheldon Lv 33 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 38/89). Bubblebeam PP: 5 -> 4/20.
   - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 5 -> 4/20. Money: ¥19975 -> ¥20575.
+- **Gentleman [Turn 3209 - 3216] (1F Cabin 6 at 2, 3):**
+  - Roster: Growlithe Lv 18 (Yield: 351 EXP), Growlithe Lv 18 (Yield: 351 EXP). Total EXP: 702 EXP. Prize: ¥1260.
+  - Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!". Defeat: "GENTLEMAN: My, my friends...".
+  - Combat: Sheldon Lv 33 used Water Gun on Growlithe 1 (OHKO). Sheldon used Water Gun on Growlithe 2 (OHKO). Sheldon took 0 damage (HP 38/89). Water Gun PP: 23 -> 21/25.
+  - Outcome: Decisive victory. HP: 38/89. Water Gun PP: 21/25. Money: ¥20575 -> ¥21835.
