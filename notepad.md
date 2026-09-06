@@ -1,143 +1,274 @@
 <h1><code>Main</code></h1>
 
-# Pokéémon Blue - Journey Log
-
-## Status
-- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥40616
-- Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
-
-## Milestones
-- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
-- [x] Withdraw starting Potion from bedroom PC [Turn 18]
-- [x] Receive Starter Pokéémon from Professor Oak (Squirtle) [Turn 40]
-- [x] Defeat Rival RED in Oak's Lab [Turn 58]
-- [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Visit Viridian City Pokéé Mart [Turn 169]
-- [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
-- [x] Obtain Pokéédex from Prof. Oak [Turn 214]
-- [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
-- [x] Return to Viridian City, heal team & purchase Pokéé Ball [Turn 284]
-- [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
-- [x] Reach Pewter City [Turn 495]
-- [x] Defeat Pewter Gym Leader Brock [Turn 594]
-- [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
-- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
-- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
-- [x] Exit Mt. Moon to Route 4 [Turn 1865]
-- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
-- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
-- [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
-- [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
-- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
-- [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
-- [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
-- [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
-- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
-- [x] Obtain Bike Voucher from Pokéémon Fan Club Chairman in Vermilion City [Turn 2796]
-- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
-- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
-- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
-- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
-- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
-- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
-- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
-- [x] Catch wild Drowzee on Route 11 [Turn 3721]
-- [x] Catch wild Sandshrew on Route 11 [Turn 3751]
-- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
-- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
-- [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
-- [x] Traverse Route 9 and reach Route 10 [Turn 4517]
-- [x] Enter Rock Tunnel on Route 10 [Turn 4547]
-- [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
-- [x] Arrive in Lavender Town [Turn 4839]
+# Pokéémon Blue - Journey Log
+
+
+
+## Status
+
+- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
+
+- Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+
+- Money: ¥40946
+- Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
+
+
+
+## Milestones
+
+- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
+
+- [x] Withdraw starting Potion from bedroom PC [Turn 18]
+
+- [x] Receive Starter Pokéémon from Professor Oak (Squirtle) [Turn 40]
+
+- [x] Defeat Rival RED in Oak's Lab [Turn 58]
+
+- [x] Reach Viridian City via Route 1 [Turn 132]
+
+- [x] Visit Viridian City Pokéé Mart [Turn 169]
+
+- [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
+
+- [x] Obtain Pokéédex from Prof. Oak [Turn 214]
+
+- [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
+
+- [x] Return to Viridian City, heal team & purchase Pokéé Ball [Turn 284]
+
+- [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
+
+- [x] Reach Pewter City [Turn 495]
+
+- [x] Defeat Pewter Gym Leader Brock [Turn 594]
+
+- [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
+
+- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
+
+- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
+
+- [x] Exit Mt. Moon to Route 4 [Turn 1865]
+
+- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
+
+- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
+
+- [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
+
+- [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
+
+- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
+
+- [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
+
+- [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
+
+- [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
+
+- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
+
+- [x] Obtain Bike Voucher from Pokéémon Fan Club Chairman in Vermilion City [Turn 2796]
+
+- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
+
+- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
+
+- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
+
+- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
+
+- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
+
+- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
+
+- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
+
+- [x] Catch wild Drowzee on Route 11 [Turn 3721]
+
+- [x] Catch wild Sandshrew on Route 11 [Turn 3751]
+
+- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
+
+- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
+
+- [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
+
+- [x] Traverse Route 9 and reach Route 10 [Turn 4517]
+
+- [x] Enter Rock Tunnel on Route 10 [Turn 4547]
+
+- [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
+
+- [x] Arrive in Lavender Town [Turn 4839]
+
 - [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]
 
 <hr>
 
 <h1><code>Inventory</code></h1>
 
-# Inventory Log
-(Capacity: 14 / 20 unique item slots - 5 slots freed at Cerulean PC)
-
-## Items
-- POKé BALL x11
-- GREAT BALL x1
-- MAX ETHER x1
-- MAX POTION x1
-- ESCAPE ROPE x1
-- ANTIDOTE x2
-- RARE CANDY x2
-- TM24 (THUNDERBOLT) x1
-- TM30 (TELEPORT) x1
-- HP UP x1
-- SUPER REPEL x5
-
-## Key Items
-- S.S. TICKET
-- OLD ROD
-- BICYCLE
-- HM01 (CUT)
-- HM05 (FLASH)
-
-## PC Items (Cerulean City PC)
-- TM34 (BIDE) x1
-- TM12 (WATER GUN) x1
-- NUGGET x1
-- HELIX FOSSIL x1
-- TOWN MAP x1
-
-## Money
-- �¥40616
-
-## Party Pokéémon
-- BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
-  - Status: Healthy
-  - HP: 110 / 124
-  - Stats: Attack 89, Defense 105, Speed 89, Special 91
-  - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 16/20), Water Gun (PP 25/25) [Restored Turn 4849]
-- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Healthy
-  - HP: 26 / 26
-  - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35)
-  - EXP: 314 (105 to Lv 9)
-- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
-  - Status: Healthy
-  - HP: 29 / 29
-  - Stats: Attack 21, Defense 16, Speed 11, Special 18
-  - Moves: Scratch (PP 35/35)
-  - EXP: 1000 (331 to Lv 11)
-- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy
-  - HP: 20 / 20
-  - Stats: Attack 12, Defense 11, Speed 11, Special 11
-  - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
-  - EXP: 125 (91 to Lv 6)
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
-  - Status: Healthy
-  - HP: 38 / 38
-  - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10)
-  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
-  - OT: BLUE (IDNo. 04620)
-  - Caught: Diglett's Cave [Turn 3507]
-- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy
-  - HP: Full
-  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
-  - Caught: Route 11 tall grass [Turn 3721]
-
-## PC Box 1 Pokéémon
-- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
-  - Status: Healthy
-  - HP: Full
-  - Caught: Route 11 with Old Rod [Turn 3694]
-- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
-  - Status: Healthy
-  - HP: Full
+# Inventory Log
+
+(Capacity: 14 / 20 unique item slots - 5 slots freed at Cerulean PC)
+
+
+
+## Items
+
+- POKé BALL x11
+
+- GREAT BALL x1
+
+- MAX ETHER x1
+
+- MAX POTION x1
+
+- ESCAPE ROPE x1
+
+- ANTIDOTE x2
+
+- RARE CANDY x2
+
+- TM24 (THUNDERBOLT) x1
+
+- TM30 (TELEPORT) x1
+
+- HP UP x1
+
+- SUPER REPEL x5
+
+
+
+## Key Items
+
+- S.S. TICKET
+
+- OLD ROD
+
+- BICYCLE
+
+- HM01 (CUT)
+
+- HM05 (FLASH)
+
+
+
+## PC Items (Cerulean City PC)
+
+- TM34 (BIDE) x1
+
+- TM12 (WATER GUN) x1
+
+- NUGGET x1
+
+- HELIX FOSSIL x1
+
+- TOWN MAP x1
+
+
+
+## Money
+
+- �¥40946
+
+
+
+## Party Pokéémon
+
+- BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
+
+  - Status: Healthy
+
+  - HP: 110 / 124
+
+  - Stats: Attack 89, Defense 105, Speed 89, Special 91
+
+  - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Restored Turn 4849]
+
+- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+
+  - Status: Healthy
+
+  - HP: 26 / 26
+
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+
+  - Moves: Tackle (PP 35/35)
+
+  - EXP: 314 (105 to Lv 9)
+
+- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+
+  - Status: Healthy
+
+  - HP: 29 / 29
+
+  - Stats: Attack 21, Defense 16, Speed 11, Special 18
+
+  - Moves: Scratch (PP 35/35)
+
+  - EXP: 1000 (331 to Lv 11)
+
+- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+
+  - Status: Healthy
+
+  - HP: 20 / 20
+
+  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
+
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
+
+  - EXP: 125 (91 to Lv 6)
+
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+
+  - Status: Healthy
+
+  - HP: 38 / 38
+
+  - Stats: Attack 29, Defense 16, Speed 45, Special 26
+
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10)
+
+  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
+
+  - OT: BLUE (IDNo. 04620)
+
+  - Caught: Diglett's Cave [Turn 3507]
+
+- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
+
+  - Status: Healthy
+
+  - HP: Full
+
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
+
+  - Caught: Route 11 tall grass [Turn 3721]
+
+
+
+## PC Box 1 Pokéémon
+
+- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
+
+  - Status: Healthy
+
+  - HP: Full
+
+  - Caught: Route 11 with Old Rod [Turn 3694]
+
+- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
+
+  - Status: Healthy
+
+  - HP: Full
+
   - Caught: Route 11 tall grass [Turn 3751]
 
 <hr>
@@ -1474,6 +1605,14 @@
 - Pokémon Tower (Northeast): Large multi-story landmark building spanning cols 12..19, rows 0..11+.
 - Central Lawn (Rows 6..7, Cols 2..10): Wide open east-west lawn connecting northern entrance to Pokémon Center and central buildings.
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9 with orange entrance door at (7, 9) and window at (8, 9).
+  - Interior Layout (verified Turn 4856-4858):
+    - Entrance mat at (2..3, 7).
+    - Table at (3..4, 3..4) with Pokémon Fan Magazine at (3, 3).
+    - Bookcases along north wall at (0..1, 1) and (7, 1).
+    - Kid in blue at (3, 5): Dialogue - "That's odd, MR.FUJI isn't here. Where'd he go?" [Turn 4857].
+    - Little girl at (6, 3).
+    - Nidorino at (6, 4).
+    - Psyduck at (1, 3).
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 - NPC at (11, 7): Stationed in eastern lawn.
@@ -1490,14 +1629,6 @@
 - Pokémon Tower: Located in northeast quadrant (cols 12..17, rows 0..3 on cliff above rows 4..5). Black arched doorway visually confirmed at (14, 5) with approach from row 6 [Turn 4891].
   - Confirmed Collisions: Tile (15, 5) is solid cliff wall [Turn 4888].
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
-  - Interior Layout (verified Turn 4856-4858):
-    - Entrance mat at (2..3, 7).
-    - Table at (3..4, 3..4) with Pokémon Fan Magazine at (3, 3).
-    - Bookcases along north wall at (0..1, 1) and (7, 1).
-    - Kid in blue at (3, 5): Dialogue - "That's odd, MR.FUJI isn't here. Where'd he go?" [Turn 4857].
-    - Little girl at (6, 3).
-    - Nidorino at (6, 4).
-    - Psyduck at (1, 3).
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
 - Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.
 
@@ -1594,7 +1725,7 @@
 - Iron fence structure spans cols 47..50 (rows 4..11), with open passage to the south along rows 12..13.
 - Southern boundary fence/ledge along row 14 (cols 46..53).
 - Street lamps / barrier posts at cols 54..55, rows 10..12.
-- Lass trainer stationed at (51, 12) facing West along row 12 (Dialogue: "What's a cute, round and fluffy POKéMON?" / Defeated Turn 5098: Clefairy Lv 22, Clefairy Lv 22).
+- Lass trainer stationed at (51, 12) facing West along row 12 (Dialogue: "What's a cute, round and fluffy POKéMON?" / Defeated Turn 5098: Clefairy Lv 22, Clefairy Lv 22 / Prize: ¥330).
 - Gambler trainer stationed at (46, 13) facing South.
 - Open passage west of col 47 heading west along rows 9..12.
 
