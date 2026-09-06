@@ -45,6 +45,7 @@
 - [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
 - [x] Catch wild Drowzee on Route 11 [Turn 3721]
 - [x] Catch wild Sandshrew on Route 11 [Turn 3751]
+- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 
 
 <hr>
@@ -75,6 +76,7 @@
 - OLD ROD
 - BIKE VOUCHER
 - HM01 (CUT)
+- HM05 (FLASH)
 
 ## Money
 - ¥25266
