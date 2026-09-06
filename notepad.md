@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34, Magikarp (TSUNAMI) Lv 5
-- Money: ¥24951
+- Money: ¥25266
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -41,7 +41,8 @@
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 - [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
-- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
+- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
+- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
 - [x] Catch wild Drowzee on Route 11 [Turn 3721]
 - [x] Catch wild Sandshrew on Route 11 [Turn 3751]
 
@@ -192,24 +193,8 @@
   - Combat: Sheldon Lv 31 used Bubblebeam on Pidgeotto (OHKO). Sheldon used Bubblebeam on Raticate (OHKO). Sheldon used Bite on Kadabra (OHKO). Sheldon used Bite on Ivysaur, Ivysaur used Vine Whip (dealt 17 dmg, Sheldon HP 74 -> 57/84), Sheldon used Bite (Ivysaur fainted).
   - Outcome: Decisive victory. Total damage taken: 17 HP. Bubblebeam PP: 15 -> 13. Bite PP: 16 -> 14.
 
-## Vermilion Gym Empirical Combat Log (Turn 3274 - 3287)
-- **Rocker [Turn 3274 - 3287] (Vermilion Gym at 3, 8):**
-  - Roster: Voltorb Lv 20 (Yield: 441 EXP), Magnemite Lv 20 (Yield: 381 EXP), Voltorb Lv 20 (Yield: 441 EXP). Total EXP: 1263 EXP. Prize: ¥500.
-  - Pre-battle: "I'm a lightweight, but I'm good with electricity!". Defeat: "ROCKER: Fried!".
-  - Combat: Sheldon Lv 33 used Bubblebeam on Voltorb 1 (OHKO). Sheldon Lv 33 used Bubblebeam on Magnemite (took 3 dmg from Tackle, HP 89 -> 86/89), Sheldon used Bubblebeam (KO, grew to Lv 34, HP 86 -> 88/91, Atk 61, Def 74, Spd 62, Spc 63). Sheldon Lv 34 used Bubblebeam on Voltorb 2 (Critical Hit, OHKO).
-  - Outcome: Decisive victory. HP: 88/91. Bubblebeam PP: 20 -> 16/20. Money: ¥21835 -> ¥22335.
-
-- **Sailor [Turn 3292 - 3299] (Vermilion Gym at 0, 10):**
-  - Roster: Pikachu Lv 21 (Yield: 369 EXP), Pikachu Lv 21 (Yield: 369 EXP). Total EXP: 738 EXP. Prize: ¥630.
-  - Pre-battle: "This is no place for kids!". Defeat: "SAILOR: Wow! Surprised me!".
-  - Combat: Sheldon Lv 34 used Bite on Pikachu 1 (OHKO). Sheldon Lv 34 used Bite on Pikachu 2 (OHKO). Sheldon took 0 damage (HP 88/91). Bite PP: 25 -> 23/25.
-  - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
-
-- **Gentleman [Turn 3302 - 3304] (Vermilion Gym at 9, 6):**
-  - Roster: Pikachu Lv 23 (Yield: 403 EXP). Prize: ¥1610.
-  - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!". Defeat: "GENTLEMAN: Stop! You're very good!".
-  - Combat: Sheldon Lv 34 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 88/91). Bubblebeam PP: 16 -> 15/20.
-  - Outcome: Decisive victory.
+## Vermilion Gym Empirical Combat Log (Turn 3274 - 3634)
+- **Gym Minions Cleared:** Rocker (3, 8), Sailor (0, 10), Gentleman (9, 6) defeated Turns 3274-3304.
 
 - **Gym Leader Lt. Surge [Turn 3612+] (Vermilion Gym):**
   - Opponent Roster: Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
@@ -1224,12 +1209,19 @@
 - NPC at (2, 3) facing South: "What a surprise! DIGLETTs dug this long tunnel! It goes right to VIRIDIAN CITY!"
 - Ladder down: Located at (4, 4) leading down into the main tunnel.
 
-## Main Tunnel
-- Main tunnel: Ladder at (37, 31) up to Vermilion City entrance room. Tunnel extends west along rows 30..31 to (24, 31) where it turns north towards row 27.
-- Main tunnel: Extends west along rows 26..29 past col 16 to cols 12..13, where it turns north through rows 22..25.
+## Main Tunnel Layout & Traversal (Audited Turn 3811)
+- South Corridor: Ladder up to Route 11 room at (37, 31). Tunnel extends west along rows 30..31 (bounded by north wall at row 29, south wall at row 32..33) from col 37 to col 24.
+- Corner Junction 1: At (24..25, 30..31), tunnel turns north through rows 29..27.
+- Central Wide Corridor: 4-tile wide horizontal corridor spanning rows 26..29, running west from col 25 to cols 12..13 (bounded by north wall at row 25, south wall at row 30).
+- Corner Junction 2: At cols 12..13, rows 26..28, passage turns north.
+- Western Vertical Corridor: 2-tile wide corridor at cols 12..13 running north through rows 25..22 (bounded by west wall at col 11, east wall at col 14).
+- Row 18 Chamber / Crossway: At row 18, corridor widens to span cols 9..13. North wall at row 17 blocks cols 10..14.
+- Northbound Main Passage: At cols 7..9, 3-tile wide passage extends north from row 18 through rows 17, 16, 15, 14+ toward Route 2 ladder.
+
 ## Wild Encounters
-- Diglett: Lv 18 observed [Turn 3496].
-- Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY [Turn 3523].
+- Diglett: Lv 15-22 observed throughout main tunnel.
+- Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY.
+
 
 <hr>
 
