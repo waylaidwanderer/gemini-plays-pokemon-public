@@ -1384,7 +1384,7 @@
 ## Connections & Ladders
 - Ladder 1: Arrived at (33, 25) from 1F (37, 3).
 - Ladder 2: Located at (27, 3) [Turn 4656]. Ascends to 1F.
-- Ladder 3: Sighted at (23, 11) [Turn 4655]. Located in western pocket across col 24-25 wall.
+- Ladder 3: Arrived at (23, 11) from 1F (17, 11) [Turn 4702]. Leads into western upper corridor.
 ## Geography & Layout
 - Southeastern Chamber: Ladder 1 at (33, 25). North wall at row 21 (cols 26-38), East wall at col 38 (rows 21-29).
 - Dividing Rock Wall: Vertical rock barrier at cols 26-27 (rows 21-29) separates the Ladder 1 chamber from the western corridor.
@@ -1412,5 +1412,10 @@
 - Upper Northern Corridor: Rows 12-13 form a wide open corridor running west from col 32. Rock pillar at (30..33, 8..9).
 - Hiker at (30, 10) facing South ("My POKéMON techniques will leave you crying!"): Geodude Lv 25. Prize: ¥875. Defeated Turn 4653.
 - Northeast Area: Columns 34-37 open north through row 8.
+## Northwest Section (Section 3)
+- Arrived via Ladder 3 from 1F (17, 11) -> B1F (23, 11) [Turn 4702].
+- Corridor at rows 10-13 runs west from col 23 past col 19+.
+- Bounded north by rock wall at rows 8-9, south by rock wall at rows 14-15, east by wall at cols 24-25.
+
 
 <hr>
