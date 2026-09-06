@@ -1272,5 +1272,7 @@
 - Cycle 5: Can (5, 11) tested [Turn 3399] -> Only trash.
 - Cycle 5: Can (9, 11) tested [Turn 3402] -> Only trash.
 - Cycle 5: Can (9, 9) tested [Turn 3403] -> Only trash.
+- Cycle 5: Can (9, 7) tested [Turn 3404] -> Only trash.
+- DEDUCTION: All 12 cans in Columns 3, 5, 7, 9 are empty. Switch 1 MUST be in Column 1: (1, 7), (1, 9), or (1, 11)!
 
 <hr>
