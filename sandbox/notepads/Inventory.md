@@ -28,7 +28,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥26326
+- ¥27061
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 35, Water]

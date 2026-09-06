@@ -23,4 +23,4 @@
 - Camper at (24, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
-- Hiker at (45, 15): Facing West in lower tall grass strip. Quote: "Hahahaha! Come on, dude!". Has 2 Pokémon: Geodude Lv 21 (defeated Turn 4168), Onix.
+- Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
