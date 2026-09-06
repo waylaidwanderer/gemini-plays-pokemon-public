@@ -45,3 +45,12 @@
 - Can (5, 9): Inspecting Turn 3369.
 - Can (5, 9): Checked Turn 3370 -> Only trash.
 - Can (3, 9): Inspecting Turn 3370.
+
+## Switch 1 Found at Can (3, 9)! (Turn 3371)
+- Message: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
+- Cardinally adjacent cans on grid:
+  - South: Can (3, 11) (directly behind player at 3, 10!)
+  - North: Can (3, 7)
+  - East: Can (5, 9)
+  - West: Can (1, 9)
+- Action: Inspecting Can (3, 11) for Switch 2 on Turn 3371!
