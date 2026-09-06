@@ -124,3 +124,7 @@
   - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!". Defeat: "GENTLEMAN: Stop! You're very good!".
   - Combat: Sheldon Lv 34 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 88/91). Bubblebeam PP: 16 -> 15/20.
   - Outcome: Decisive victory.
+
+- **Gym Leader Lt. Surge [Turn 3612+] (Vermilion Gym):**
+  - Opponent Roster: Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24.
+  - Combat: Voltorb used Tackle (dealt 10 dmg, DIGBY HP 36 -> 26/36). DIGBY used Dig (underground dodged Sonicboom, then emerged with super-effective STAB OHKO!). Voltorb fainted.
