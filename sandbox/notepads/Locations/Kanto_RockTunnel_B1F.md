@@ -1,7 +1,7 @@
 # Rock Tunnel B1F Geography & Exploration Log
 
 ## Overview
-- Wild encounters verified: Machop Lv 15-16 [Turn 4579], Geodude Lv 17 [Turn 4589], Zubat [Turn 4593].
+- Wild encounters verified: Machop Lv 15-16 [Turn 4579], Geodude Lv 17 [Turn 4589], Zubat Lv 17 [Turn 4593, 4613].
 - Basement level of Rock Tunnel connecting the two sections of 1F.
 - Arrived via Ladder 1 from 1F (37, 3) -> B1F (33, 25) [Turn 4575].
 
