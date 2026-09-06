@@ -2688,7 +2688,7 @@
 - Ladder down to 1F: Located at (0, 8) <-> 1F (1, 1)
 - Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) <-> 3F SE Lower Purple Room (25, 14)
 - Ladder to 3F (Ladder NE): Located at (26, 8) <-> 3F Upper Dark Plateau (27, 7)
-- Arrival tile from 3F (Ladder A): Located at (23, 7) (One-way descent arrival from 3F (23, 7))
+- Ladder to 3F (Ladder A): Located at (23, 7) <-> 3F (23, 7) (Bidirectional ladder connecting 2F and 3F)
 - Ladder to 3F (NW Ladder): Located at (1, 1) <-> 3F NW Room (2, 0)
 
 ## Physical Elevation & Topology
