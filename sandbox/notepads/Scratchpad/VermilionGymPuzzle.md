@@ -28,3 +28,5 @@
 - Cycle 2: Found at (1, 11) [Turn 3329]. Tested (1, 7) -> reset [Turn 3331/3333].
 - Cycle 3: Found at (1, 7) [Turn 3354]. Tested (1, 9) -> reset [Turn 3356].
 - Cycle 4 (Current): Testing Can (1, 9) at (0, 9) facing East on Turn 3357.
+- Can (1, 9): Checked Turn 3359 -> Only trash.
+- Can (1, 7): Inspecting Turn 3359.
