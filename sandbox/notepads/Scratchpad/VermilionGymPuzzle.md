@@ -32,3 +32,4 @@
 
 - Can (3, 11): Tested [Turn 3436] -> Only trash.
 - Can (1, 11): Tested [Turn 3437] -> Only trash.
+- Can (1, 9): Inspecting on Turn 3438.
