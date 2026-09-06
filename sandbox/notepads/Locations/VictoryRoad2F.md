@@ -26,11 +26,7 @@
 - Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) -> walk through Shutter 1 (5, 10) -> across light purple floor to (20, 14) -> south through Shutter 3 (21, 15) to Lower Highway (row 16) -> east to (29, 16) -> north up col 29 to (29, 8) -> west to Ladder NE at (26, 8) -> ascends to 3F Upper Dark Plateau.
 
 ## Return Route from Ladder A / North Area (23, 8) to Ladder NE (26, 8):
-1. Walk West 3 steps along Row 8: (23, 8) -> (20, 8).
-2. Walk South 6 steps down Column 20: (20, 8) -> (20, 14).
-3. Walk Right 1 step: (20, 14) -> (21, 14).
-4. Pass South 2 steps through Shutter 3 (21, 15) to Lower Highway (21, 16).
-5. Follow steps 7-10 above to Ladder NE at (26, 8).
+- North Area connects west via Row 8 to column 20, south to Shutter 3 (21, 15), and east along Row 16 to column 29, ascending to Ladder NE (26, 8).
 
 ## Master Boulder 2 Solution
 - Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
