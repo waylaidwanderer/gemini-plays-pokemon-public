@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 41, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥41781
+- Money: ¥43321
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -171,7 +171,7 @@
 
 ## Money
 
-- �¥41781
+- �¥43321
 
 
 
@@ -1712,7 +1712,7 @@
 
 <h1><code>Locations/Kanto_Route8</code></h1>
 
-- Gambler stationed at (13, 9) facing North (Dialogue: "All right! Let's roll the dice!"). Roster: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22. Engaged Turn 5164.
+- Gambler stationed at (13, 9) facing North (Dialogue: "All right! Let's roll the dice!" / Defeat: "Drat! Came up short!" / Defeated Turn 5175: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22 / Prize: ¥1540).
 
 
 <hr>
