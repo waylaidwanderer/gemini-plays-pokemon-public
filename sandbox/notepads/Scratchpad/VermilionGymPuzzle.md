@@ -68,3 +68,8 @@
 - Cycle 5: Can (9, 7) tested [Turn 3404] -> Only trash.
 - DEDUCTION: All 12 cans in Columns 3, 5, 7, 9 are empty. Switch 1 MUST be in Column 1: (1, 7), (1, 9), or (1, 11)!
 - Cycle 5: Inspecting Can (1, 7) on Turn 3406.
+## Switch 1 Found at Can (1, 7)! (Turn 3410)
+- 1st electric lock opened!
+- Adjacent cans for Switch 2:
+  - Can (3, 7) [East]
+  - Can (1, 9) [South]
