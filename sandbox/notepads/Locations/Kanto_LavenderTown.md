@@ -2,7 +2,7 @@
 
 ## Connections
 - North: Route 10 South at cols 9..11, row 0 (Route 10 South (9..11, 71) <-> Lavender Town (9..11, 0)).
-- West: Gatehouse / path at west boundary (row 9).
+- West: Route 8 connection corridor at col -1, row 8 (between mountain cliff at row 7 and fence at row 9).
 - South: Southern pathway (TBD).
 
 ## Geography & Layout
