@@ -29,7 +29,7 @@
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 38 / 38
+  - HP: 28 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
