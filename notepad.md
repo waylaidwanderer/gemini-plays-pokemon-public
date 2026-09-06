@@ -1558,3 +1558,23 @@
 - Western District: Open crosshatch floor across cols 4..7 (rows 6..7), cols 3..5 (rows 8..11). Orange altars line col 2 (rows 6..11) and (3, 11).
 
 <hr>
+
+<h1><code>Locations/Kanto_PokemonTower_3F</code></h1>
+
+# Pok�mon Tower 3F Geography & Points of Interest
+
+## Connections
+- Stairs Down: Located at (18, 9) leading down to 2F.
+- Stairs Up: TBD.
+
+## Key Events & Encounters
+- Channeler at (15, 8): Trainer battle! Dialogue: "Be cursed with me! Kwaaah!" [Turn 5011].
+- Item Ball at (12, 10): Pok� Ball on floor (contains Escape Rope) [Turn 5011].
+
+## Geography & Layout
+- Eastern Wall: (19, 5..10) orange altars.
+- Stairs Down: (18, 9) yellow/brown steps descending left.
+- Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
+
+
+<hr>
