@@ -1175,7 +1175,7 @@
 
 ## Occupants & Trainers
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
-- Sailor Trainer at (3, 8): Facing South behind trash can at (3, 9). Pre-battle: "I'm a lightweight, but I'm good with electricity!".
+- Rocker Trainer at (3, 8): Facing South behind trash can at (3, 9). Pre-battle: "I'm a lightweight, but I'm good with electricity!". Team: 2 Pokémon.
 - Trainer at (9, 4): Visible in blue outfit facing South/West.
 
 ## Mechanics & Locks
