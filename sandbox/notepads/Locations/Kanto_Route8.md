@@ -19,3 +19,4 @@
 - Western passage along southern perimeter ends at col 41/40 fence; main unobstructed route continues via northern corridor (rows 4..8).
 - Super Nerd trainer stationed at (42, 6) facing West along row 6 (Dialogue: "You need strategy to win at this!" / Defeated Turn 5120: Grimer Lv 22, Muk Lv 22, Grimer Lv 22 / Prize: ¥550).
 - Northern corridor runs west along rows 5..7 (cols 39..41 open highway).
+- Lass trainer stationed at (26, 6) facing East along row 6 (Dialogue: "We must look silly standing...").
