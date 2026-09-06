@@ -31,4 +31,4 @@
   - North-South Pier (Cols 30..31, Rows 16..26): 2-tile wide wooden plank pier running south through the water.
   - Southern Branch (Cols 18..30, Rows 26..27): 2-tile wide wooden dock running west from col 30 to col 18.
   - S.S. Anne Gangplank: Located at (18, 26) connecting the ship to the harbor dock.
-- Diglett's Cave: Entrance mound at cols 34..35, rows 12..13 with opening at row 13 facing South. Signpost at (37, 13).
+- Signpost (37, 13): Notice from Vermilion Police warning that Route 12 may be blocked by a sleeping Pokémon (detour through Rock Tunnel to Lavender Town).
