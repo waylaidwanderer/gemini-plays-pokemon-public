@@ -81,7 +81,7 @@
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 5832 (1027 to Lv 19)
+  - EXP: 7237 (Lv 19 reached Turn 3631)
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -107,7 +107,7 @@
   - Status: Healthy
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
 
 
 <hr>
@@ -1209,6 +1209,7 @@
 - North Barrier: [DISARMED, Turn 3598]. Both electric locks deactivated via Switches in Cans (9, 7) and (9, 9). Central passage at cols 4..5, rows 4..5 is open and traversable north to Lt. Surge.
 
 ## Occupants & Trainers
+- Gym Leader Lt. Surge at (5, 1..2) [Defeated, Turn 3632]: Uses Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24. Defeated by DIGBY using Dig. Awards Thunderbadge and TM24 (Thunderbolt).
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
 - Rocker Trainer at (3, 8) [Defeated, Turn 3288].
 - Sailor Trainer at (0, 10) [Defeated, Turn 3299]: Stationed at (0, 10) facing East along row 10 (moved to 2, 10 during battle).
