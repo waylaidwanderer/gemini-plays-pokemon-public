@@ -92,7 +92,7 @@
   - Status: Healthy
   - HP: 98 / 111
   - Stats: Attack 80, Defense 93, Speed 80, Special 82
-  - Moves: Bite (PP 25/25), Body Slam (PP 8/15), Bubblebeam (PP 19/20), Water Gun (PP 25/25) [Learned Turn 4031]
+  - Moves: Bite (PP 25/25), Body Slam (PP 8/15), Bubblebeam (PP 18/20), Water Gun (PP 25/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1384,7 +1384,7 @@
 - North rock wall (rows 22-23) spans cols 12-19.
 - Eastern Bypass Corridor: Column 20 (rows 22-24) is open cave floor connecting central chamber (rows 24-27) north into rows 20-21.
 - Rock divider at cols 18-19, rows 20-21.
-- Pokémaniac at (20, 21) ("Do you know about costume players?").
+- Pokémaniac at (20, 21) ("Do you know about costume players?"): Charmander Lv 22, [Pokémon 2].
 - Eastern area: Rows 20-27 open east through col 23+.
 
 <hr>
