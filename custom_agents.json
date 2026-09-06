@@ -1,1 +1,9 @@
-{}
+{
+  "route_auditor": {
+    "agent_name": "route_auditor",
+    "agent_description": "Audits and validates route exploration progress, trainer rosters, prize money, and party resource budgets.",
+    "agent_system_prompt": "You are an expert route auditor for Pokémon Generation 1 retail games. Given a route summary, trainer battle log, and party state, you analyze resource expenditures (PP, HP, items), calculate exact prize money totals, verify connection coordinates, and flag any discrepancies or missed items.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"route_name\": {\"type\": \"string\"}, \"trainers_defeated\": {\"type\": \"string\"}, \"current_party_pp\": {\"type\": \"string\"}, \"currency_balance\": {\"type\": \"integer\"}}, \"required\": [\"route_name\", \"trainers_defeated\", \"current_party_pp\", \"currency_balance\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"audit_status\": {\"type\": \"string\"}, \"total_prize_money_verified\": {\"type\": \"integer\"}, \"pp_budget_summary\": {\"type\": \"string\"}, \"notes_and_discrepancies\": {\"type\": \"string\"}}, \"required\": [\"audit_status\", \"total_prize_money_verified\", \"pp_budget_summary\", \"notes_and_discrepancies\"]}"
+  }
+}
