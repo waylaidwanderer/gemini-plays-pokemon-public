@@ -1275,6 +1275,7 @@
 
 - Tile (19, 13) Ramp: Empirically verified walkable slope/ramp connecting the southern highway (rows 14-15) north into row 12 grass and the main highway [Turn 4146].
 - Main Route 9 Highway (Rows 10..11): Wide open gravel avenue spanning east from col 20 towards col 28 tall grass and Route 10.
+- Central Tall Grass Corridor (Row 12): Continuous east-west grass avenue spanning cols 28..37+ bounded south by row 13 ledge and north by rocky outcroppings.
 
 
 <hr>
