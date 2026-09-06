@@ -53,7 +53,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x13
+- POKé BALL x12
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
@@ -123,7 +123,6 @@
   - HP: Full
   - Moves: Pound, Hypnosis
   - Caught: Route 11 tall grass [Turn 3721]
-
 
 <hr>
 
