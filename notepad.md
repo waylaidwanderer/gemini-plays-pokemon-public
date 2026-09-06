@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 39, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥37301
+- Money: ¥37701
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -85,7 +85,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥37301
+- ¥37701
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
@@ -1380,7 +1380,7 @@
 - Southern Bend (Rows 28..31): Solid southern wall at row 32 and east wall at col 38. Corridor turns west along rows 28..31 across cols 29..37+.
 - Southwest Corridor (Rows 26..31, Cols 26..30): Wide open corridor extending west past col 26, bounded south by rock wall at row 32.
 - Westbound Bypass (Rows 26..27): Rock wall at cols 22..25 (rows 28..34) blocks direct western passage at row 28+. Corridor turns north to rows 26..27 and continues west past col 22.
-- Jr. Trainer ♀ at (22, 24) facing South ("I came this far for POKéMON!"): Meowth Lv 20, Oddish Lv 20, Pidgey Lv 20. Stations along col 22 overlooking row 27 westbound corridor.
+- Jr. Trainer ♀ at (22, 24) facing South ("I came this far for POKéMON!"): Meowth Lv 20, Oddish Lv 20, Pidgey Lv 20. Prize: ¥400. Defeated Turn 4778. Defeated dialogue: "I'm out of POKéMON!".
 
 <hr>
 
