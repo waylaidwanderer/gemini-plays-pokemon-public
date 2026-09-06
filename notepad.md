@@ -48,6 +48,7 @@
 - [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
 - [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
+- [x] Defeat Picnicker Alicia on Route 9 [Turn 4108]
 
 
 <hr>
@@ -1306,5 +1307,8 @@
 - Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south).
 - Northern Corridor (Row 8): Open path from col 0 to col 4. Tile (5, 8) is the CONFIRMED Cut tree blocking Route 9! Cleared with Farfetch'd (DUX) using Cut from (4, 8) facing East [Turn 4085]. Leads directly east onto the Route 9 gravel road at col 6+.
 - Southern Corridor (Row 9): Open path from col 0 to col 3. Tile (4, 9) is an impassable decorative shrub (solid collision, cannot be cut).
+## Trainers
+- Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: �360. Defeated Turn 4108.
+
 
 <hr>
