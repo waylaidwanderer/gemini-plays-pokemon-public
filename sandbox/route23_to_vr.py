@@ -1,7 +1,7 @@
 import mgba
 
 class Route23Final:
-    def __init__(self, budget=75):
+    def __init__(self, budget=80):
         self.budget = budget
         self.used = 0
 
@@ -56,8 +56,8 @@ class Route23Final:
     def run(self):
         print("Starting Route 23 final stretch from:", self.get_pos())
         wps = [
-            (12, 53),
-            (7, 53),
+            (12, 52),
+            (7, 52),
             (7, 35),
             (4, 35),
             (4, 30),
@@ -71,5 +71,5 @@ class Route23Final:
         print("End pos:", self.get_pos(), "used buttons:", self.used)
 
 if __name__ == "__main__":
-    rf = Route23Final(budget=75)
+    rf = Route23Final(budget=80)
     rf.run()
