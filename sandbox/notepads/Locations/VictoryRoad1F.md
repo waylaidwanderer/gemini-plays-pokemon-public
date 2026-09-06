@@ -20,11 +20,9 @@
   - Central Cross-Highway: Row 12 (y=12) is completely open and connects columns 5 through 12 across the entire elevated plateau!
   - East Arm: cols 11..12 across rows 5..12.
   - North Arm / Arena: rows 5..6 across cols 7..12. Cooltrainer at (7, 5).
-- Northern Sector Items (Elevated Plateau):
-  - [ ] Item Ball at (9, 2)
-  - [ ] Item Ball at (11, 0)
-  - [ ] Item Ball at (14, 2)
+- Northern Sector Elevated Plateau:
   - Note: Row 3 is an impassable south-facing cliff wall separating rows 4-6 from upper brown plateau (rows 0-2).
+
 ## Floor Traversal & Ladder Access
 - From lower floor (5, 14), pass North through lowered Shutter (5, 13) onto elevated cross-highway (row 12).
 - Proceed East along row 12 to (11, 12), North to (11, 6), West across row 6 to (7, 6), and South through lowered Shutter (7, 7) to lower cave floor (7, 8).
