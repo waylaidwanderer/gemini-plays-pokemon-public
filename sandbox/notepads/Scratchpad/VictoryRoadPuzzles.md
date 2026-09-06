@@ -38,7 +38,3 @@
    - Reposition to (29, 11) facing West.
    - Push West across Row 11 onto Switch Plate at (25, 11)!
    - Shutter at (27, 10) lowers -> Walk North through (27, 10) to Exit Ladder at (27, 7) -> Emerge onto Route 23 North / Indigo Plateau!
-
-## Verified Victory Road Exit (Verified Turn 32420)
-- The exit of Victory Road 3F is located at (28, 0) in the northeast sector!
-- Access: From Northern Highway (Row 1), walk east all the way to (28, 1), then step North into (28, 0) to exit Victory Road and emerge onto Route 23 North / Indigo Plateau!
