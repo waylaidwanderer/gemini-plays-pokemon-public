@@ -32,3 +32,12 @@
 - Rows 28..30+ Lawn: Open path continuing south towards the gatehouse. Flower patch at (18..19, 28..29).
 - Row 31 Ledge & Ramp: South-facing ledge spans cols 14..16 and 18..19, with a passable two-way ramp at (17, 31).
 - Southern Gatehouse (Oak's Aide): Building located at cols 14..19, rows 35..38+. North entrance opening at cols 16..17, rows 35..36.
+
+## Southern Gatehouse Interior (Audited Turn 3842)
+- Location: Connects Route 2 eastern cut path (north entrance) to Route 2 southern highway (south entrance).
+- North Doorway: At (5, 0), entering from Route 2 east path at (16, 36).
+- South Doorway: At cols 2..3, row 5 with red doormats, exiting south to Route 2 Viridian side.
+- Floor: Open checkered floor spanning cols 1..5, rows 1..4 and cols 6..9, rows 1..4.
+- Occupants:
+  - (8, 4): Wandering Youngster NPC (advises: "Once a POKéMON learns FLASH, you can get through ROCK TUNNEL.").
+  - (1, 4): NPC stationed on the west side of the hall.
