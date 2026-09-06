@@ -49,3 +49,9 @@
   - Column 17 connects south at (17, 8) to north at (17, 2).
   - Row 2 / Row 3 connects Column 17 at (17, 2) east to Column 27 at (27, 2).
   - Column 28 connects north at (28, 5) south to (28, 8), giving access to (27, 8) directly below Ladder NE at (27, 7).
+## Central-South Boulder Puzzle (Discovered Turn 32673)
+- Boulder: Located at (9, 11).
+- Switch Plate: Located at (9, 16).
+- Shutter: Located at (15, 15).
+- Access Route to Boulder (9, 11): From row 8, descend via col 6/7 through (6, 8)->(6, 11)->(8, 11) to stand beside Boulder at (9, 11).
+- Target: Push Boulder (9, 11) onto Switch (9, 16) to lower Shutter (15, 15) and open passage to Lower Highway (row 16/17).
