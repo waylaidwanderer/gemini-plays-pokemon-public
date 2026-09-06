@@ -1,9 +1,1 @@
-{
-  "vr_puzzle_tracker": {
-    "agent_name": "vr_puzzle_tracker",
-    "agent_description": "Tracks multi-floor Victory Road puzzle prerequisites, boulder positions, switch activations, shutter states, and verified topological connectivity across 1F, 2F, and 3F.",
-    "agent_system_prompt": "You are an expert Pokémon Gen 1 (Red/Blue) Victory Road spatial reasoning and dungeon navigator agent. You maintain precise topological graphs of Victory Road 1F, 2F, and 3F, tracking boulder solutions, switch plate activations, opened shutters, and ladder connectivity matrices.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"floor\":{\"type\":\"string\",\"description\":\"Current floor: 1F, 2F, or 3F\"},\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"query\":{\"type\":\"string\",\"description\":\"Query regarding route, puzzle state, or connectivity\"}},\"required\":[\"floor\",\"current_position\",\"query\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"verified_facts\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_path\":{\"type\":\"string\"},\"active_puzzle_prerequisites\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"verified_facts\",\"recommended_path\",\"active_puzzle_prerequisites\"]}"
-  }
-}
+{}
