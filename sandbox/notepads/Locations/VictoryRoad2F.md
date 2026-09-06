@@ -31,7 +31,7 @@
 7. Walk East along Lower Highway (Row 16): (21, 16) -> (29, 16) (8 steps Right).
 8. Walk North up Column 29: (29, 16) -> (29, 8) (8 steps Up).
 9. Walk West along Row 8: (29, 8) -> (26, 8) (3 steps Left).
-10. Step onto Ladder NE at (26, 8) -> Ascends to Victory Road 3F Upper Dark Plateau!
+10. Step onto Ladder NE at (26, 8) -> Ascends to Victory Road 3F Upper Dark Plateau (27, 7)!
 
 ## Return Route from Ladder A / North Area (23, 8) to Ladder NE (26, 8):
 1. Walk West 3 steps along Row 8: (23, 8) -> (20, 8).
