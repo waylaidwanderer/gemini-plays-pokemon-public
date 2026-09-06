@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 38, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥35366
+- Money: ¥36101
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -85,7 +85,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥35366
+- ¥36101
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 38, Water]
@@ -1373,7 +1373,7 @@
 <h1><code>Locations/Kanto_RockTunnel_B1F</code></h1>
 
 - West Hallway & Pillar: Rock formations at cols 6-7 (rows 8-9 and 14-16) with open cross-corridor at rows 10-13.
-- Hiker at (6, 10) facing South ("Hahaha! Can you beat my power?"): Engaged Turn 4721. Guards column 6 across rows 11-13.
+- Hiker at (6, 10) facing South ("Hahaha! Can you beat my power?"): Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Prize: ¥735. Defeated Turn 4730. Guards column 6 across rows 11-13.
 - Western Avenue: Cols 4-5 open north-south across rows 8-16+.
 
 
