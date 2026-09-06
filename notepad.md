@@ -67,6 +67,7 @@
 - ANTIDOTE x2
 - RARE CANDY x2
 - TM24 (THUNDERBOLT) x1
+- TM30 (TELEPORT) x1
 - HP UP x1
 
 ## Key Items
