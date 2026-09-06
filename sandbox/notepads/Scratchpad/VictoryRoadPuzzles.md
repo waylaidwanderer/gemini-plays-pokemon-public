@@ -31,13 +31,11 @@
      5. Step Right 1 time into Pit at (23, 15) -> Drop to 2F!
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
-   - Land on 2F at (22, 16) with fallen boulder at (23, 16).
-   - Push fallen boulder East along Row 16 from (23, 16) to (28, 16) (STOP AT COL 28!).
-   - Reposition behind it at (28, 17) facing North.
-   - Push North 5 times along Column 28: (28, 16) -> (28, 11).
-   - Reposition to (29, 11) facing West.
-   - Push West across Row 11 onto Switch Plate at (25, 11)!
-   - Shutter at (27, 10) lowers -> Walk North through (27, 10) to Exit Ladder at (27, 7) -> Emerge onto Route 23 North / Indigo Plateau!
+   - Dropping boulder from 3F SE room hole lands on 2F at (23, 16).
+   - Boulder at (23, 16) can be bypassed via Row 17 open corridor ((24..21, 17)).
+   - Shutter 3 at (21, 15) connects Row 16 lower road to Light Purple Floor at (21, 14).
+   - Light Purple Floor connects west to (5, 8) and Shutter 1 at (5, 10).
+   - Ascend via Ladder NE at (27, 7) (accessed via Northern Corridor rows 1-3) to reach 3F final exit sector.
 
 ## 2F Upper Highway & Ladder B Access
 - Dropping boulder from 3F SE room hole lands on 2F at (23, 16).
