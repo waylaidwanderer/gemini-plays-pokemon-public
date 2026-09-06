@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 37, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥31571
+- Money: ¥32671
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -1384,7 +1384,7 @@
 - North rock wall (rows 22-23) spans cols 12-19.
 - Eastern Bypass Corridor: Column 20 (rows 22-24) is open cave floor connecting central chamber (rows 24-27) north into rows 20-21.
 - Rock divider at cols 18-19, rows 20-21.
-- Pokémaniac at (20, 21) ("Do you know about costume players?"): Charmander Lv 22, Cubone Lv 22.
+- Pokémaniac at (20, 21) ("Do you know about costume players?"): Charmander Lv 22, Cubone Lv 22. Prize: ¥1100. Defeated Turn 4634.
 - Eastern area: Rows 20-27 open east through col 23+.
 
 <hr>
