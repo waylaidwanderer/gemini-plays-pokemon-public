@@ -18,7 +18,7 @@
 - Western Cross Passage: Open paved ground at cols 12..13, rows 12..15 connecting south towards Gym and north towards water inlet.
 - Vermilion Gym: Building at cols 8..13, rows 16..19. Front door at (12, 19) facing South. "GYM" sign at (10..11, 18).
 - West Passage (Cols 6..7): Paved passage runs south along Gym to row 18. Row 19 has structures at (6..7, 19).
-- Cut Tree: Located at (15, 18), blocking direct access to the Gym entrance!
+- Cut Tree: Located at (15, 18) [Cleared, Turn 3260].
 - Water Shoreline & Southeastern Peninsula: Water inlet covers cols 16..19 from row 18 to 22+ with fence at col 19. Paved peninsula spans cols 20..25, rows 16..21 (Pidgey House). Entire southern edge of cols 19..25 is solid ocean shore at row 22 with no pier or dock.
 - House Southeast (Pidgey Letter House): Cols 22..25, rows 16..19. Entrance door at (23, 19). Interior: Girl with Pidgey sending letter to Saffron City.
 - Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
