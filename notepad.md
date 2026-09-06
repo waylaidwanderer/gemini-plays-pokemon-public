@@ -1293,23 +1293,19 @@
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
 - Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19, Beedrill Lv 19. Prize: ¥190. Defeated Turn 4209.
-## Topography & Route 10 Progression Architecture
-- Route 9 consists of 3 distinct elevation terraces:
-  1. Top Terrace (Rows 2..9): Starts at the Cut tree (5, 8), runs east past Camper Drew (24, 7), connects to the Northern Plateau (rows 2..5). Ramp at (29, 9) connects from Middle Terrace up to row 8 lawn.
-  2. Middle Terrace (Rows 10..12): Lower terrace entered by hopping south over ledges at (23, 9) or (40..41, 11). Bounded east by rock wall at (42, 12) and west by solid rock cliff at (19, 11) and south-facing ledge at (11, 11).
-  3. Bottom Terrace (Rows 14..15): Lowest terrace entered by hopping south over row 13 ledges. Contains TM30 (10, 15) and Hiker (45, 15). Terminates east at col 54 cliff. Ramps at (19, 13) and (29, 13) lead up to Middle Terrace.
-- Elevation Boundaries & Confirmed Collisions:
-  - Tile (25, 1): Solid mountain wall, impassable north from (25, 2) [Turn 4313].
-  - Tile (26, 2): Solid mountain ridge collision [Confirmed Turn 4216, Turn 4314].
-  - Tile (26, 3): Solid rock wall, impassable east from (25, 3) [Turn 4303].
-  - Tile (26, 4): Solid rock wall, impassable east from (25, 4) [Turn 4304].
-  - Tile (26, 6): Solid rock wall, impassable east from (25, 6) [Turn 4312].
-  - Tile (30, 8): Solid cliff corner collision, impassable east from (29, 8) [Turn 4182].
-  - Tile (34, 11): South-facing ledge, impassable north from (34, 12) [Turn 4273].
-  - Tile (48, 13): Solid rock wall, impassable north from (48, 14) [Turn 4294].
-  - Tile (49, 13): Solid rock wall, impassable north from (49, 14) [Turn 4295].
-  - Tile (50, 13): Solid rock wall, impassable north from (50, 14) [Turn 4296].
-  - Tile (51, 13): Solid rock wall, impassable north from (51, 14) [Turn 4298].
-  - Tile (52, 13): South-facing ledge, impassable north from (52, 14) [Turn 4281].
+## Elevation Boundaries & Confirmed Collisions
+- Tile (25, 1): Solid mountain wall, impassable north from (25, 2) [Turn 4313].
+- Tile (26, 2): Solid mountain ridge collision [Confirmed Turn 4216, Turn 4314].
+- Tile (26, 3): Solid rock wall, impassable east from (25, 3) [Turn 4303].
+- Tile (26, 4): Solid rock wall, impassable east from (25, 4) [Turn 4304].
+- Tile (26, 6): Solid rock wall, impassable east from (25, 6) [Turn 4312].
+- Tile (29, 7): Solid rock wall, impassable north from (29, 8) [Turn 4182].
+- Tile (30, 8): Solid cliff corner collision, impassable east from (29, 8) [Turn 4182].
+- Tile (34, 11): South-facing ledge, impassable north from (34, 12) [Turn 4273].
+- Tile (48, 13): Solid rock wall, impassable north from (48, 14) [Turn 4294].
+- Tile (49, 13): Solid rock wall, impassable north from (49, 14) [Turn 4295].
+- Tile (50, 13): Solid rock wall, impassable north from (50, 14) [Turn 4296].
+- Tile (51, 13): Solid rock wall, impassable north from (51, 14) [Turn 4298].
+- Tile (52, 13): South-facing ledge, impassable north from (52, 14) [Turn 4281].
 
 <hr>
