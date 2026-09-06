@@ -11,6 +11,6 @@
 - Iron fence structure spans cols 47..50 (rows 4..11), with open passage to the south along rows 12..13.
 - Southern boundary fence/ledge along row 14 (cols 46..53).
 - Street lamps / barrier posts at cols 54..55, rows 10..12.
-- Lass trainer stationed at (51, 12) facing West along row 12 (Dialogue: "What's a cute, round and fluffy POKéMON?" / Defeated Turn 5098: Clefairy Lv 22, Clefairy Lv 22).
+- Lass trainer stationed at (51, 12) facing West along row 12 (Dialogue: "What's a cute, round and fluffy POKéMON?" / Defeated Turn 5098: Clefairy Lv 22, Clefairy Lv 22 / Prize: ¥330).
 - Gambler trainer stationed at (46, 13) facing South.
 - Open passage west of col 47 heading west along rows 9..12.

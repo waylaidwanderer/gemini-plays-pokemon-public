@@ -11,6 +11,14 @@
 - Pokémon Tower (Northeast): Large multi-story landmark building spanning cols 12..19, rows 0..11+.
 - Central Lawn (Rows 6..7, Cols 2..10): Wide open east-west lawn connecting northern entrance to Pokémon Center and central buildings.
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9 with orange entrance door at (7, 9) and window at (8, 9).
+  - Interior Layout (verified Turn 4856-4858):
+    - Entrance mat at (2..3, 7).
+    - Table at (3..4, 3..4) with Pokémon Fan Magazine at (3, 3).
+    - Bookcases along north wall at (0..1, 1) and (7, 1).
+    - Kid in blue at (3, 5): Dialogue - "That's odd, MR.FUJI isn't here. Where'd he go?" [Turn 4857].
+    - Little girl at (6, 3).
+    - Nidorino at (6, 4).
+    - Psyduck at (1, 3).
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 - NPC at (11, 7): Stationed in eastern lawn.
@@ -27,13 +35,5 @@
 - Pokémon Tower: Located in northeast quadrant (cols 12..17, rows 0..3 on cliff above rows 4..5). Black arched doorway visually confirmed at (14, 5) with approach from row 6 [Turn 4891].
   - Confirmed Collisions: Tile (15, 5) is solid cliff wall [Turn 4888].
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
-  - Interior Layout (verified Turn 4856-4858):
-    - Entrance mat at (2..3, 7).
-    - Table at (3..4, 3..4) with Pokémon Fan Magazine at (3, 3).
-    - Bookcases along north wall at (0..1, 1) and (7, 1).
-    - Kid in blue at (3, 5): Dialogue - "That's odd, MR.FUJI isn't here. Where'd he go?" [Turn 4857].
-    - Little girl at (6, 3).
-    - Nidorino at (6, 4).
-    - Psyduck at (1, 3).
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
 - Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.
