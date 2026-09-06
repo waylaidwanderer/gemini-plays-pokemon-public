@@ -1305,6 +1305,7 @@
   - Tile (48, 13): Solid rock wall, impassable north from (48, 14) [Turn 4294].
   - Tile (49, 13): Solid rock wall, impassable north from (49, 14) [Turn 4295].
   - Tile (50, 13): Solid rock wall, impassable north from (50, 14) [Turn 4296].
+  - Tile (51, 13): Solid rock wall, impassable north from (51, 14) [Turn 4298].
   - Tile (52, 13): South-facing ledge, impassable north from (52, 14) [Turn 4281].
 
 <hr>
