@@ -29,7 +29,7 @@
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 28 / 38 (verifying post-battle)
+  - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - EXP: 5832 (1027 to Lv 19)
@@ -56,6 +56,6 @@
   - EXP: 125 (91 to Lv 6)
 - WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
   - Status: Healthy
-  - HP: 83 / 91
+  - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
   - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
