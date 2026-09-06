@@ -14,7 +14,6 @@
 - Row 4 Northern Bypass & Cut Tree: Located at (14, 4). Cutting the tree at (14, 4) opens a continuous 1-tile wide green corridor along Row 4 from the Gatehouse East Lawn (6..13, 4) directly through (14..15, 4) to (16..17, 4) on the Upper Highway!
 - Statue Barrier: Statues sit along row 5 at columns 9..13 and along column 7 (7, 6..14).
 - Gatehouse Building: Spans columns 2..5 (rows 0..9/13).
-- Gatehouse East Approach Corridor: Column 6 (6, 4..14) is an unobstructed open green grass corridor connecting row 4 directly south to row 10 (Grand Entrance Carpet) and row 14 (Lower Road).
 - Western Ledge Descent: From (16, 5), hop south down the Row 7 ledge (16, 7) into western tall grass (16, 8..11) and descend directly to the Row 12 Lawn at (16, 12).
 - Western Lawn (Row 12): Columns 2 to 25 along Row 12 form a continuous, unobstructed green lawn running directly beneath the statue wall (rows 4-11).
 - Grand Entrance Carpet (Row 10): Spans columns 2 to 13. Accessible from Row 12 via the open fence gap at (2..5, 11) or from column 6 at (6, 10).
