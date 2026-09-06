@@ -6,7 +6,7 @@
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34, Magikarp (TSUNAMI) Lv 5
 - Money: ¥24951
-- Pokédex: 9 Caught / 48 Seen [Verified Turn 3721]
+- Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
@@ -54,7 +54,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x12
+- POKé BALL x11
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
@@ -124,6 +124,11 @@
   - HP: Full
   - Moves: Pound, Hypnosis
   - Caught: Route 11 tall grass [Turn 3721]
+- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
+  - Status: Healthy
+  - HP: Full
+  - Caught: Route 11 tall grass [Turn 3751]
+
 
 <hr>
 
@@ -1242,7 +1247,7 @@
 - Spearow: Lv 13 observed in tall grass [Turn 3709].
 - Magikarp: Lv 5 caught with Old Rod at (0, 8) [Turn 3694], nicknamed TSUNAMI.
 - Drowzee: Lv 9 caught in tall grass [Turn 3721], nicknamed SANDMAN.
-- Sandshrew: Native to Route 11 tall grass (Blue version exclusive).
+- Sandshrew: Lv 15 caught in tall grass [Turn 3751], nicknamed PANGO.
 
 
 <hr>
