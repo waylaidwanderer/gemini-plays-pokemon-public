@@ -28,6 +28,7 @@
 - Eastern Chamber: Open floor spans rows 16-23 across cols 20-25+. Bounded north by wall at rows 14-15 (cols 18-25+).
 - Western Vertical Corridor: Cols 16-17 (rows 14-21) open north past row 14, closed south at row 22, separated from eastern chamber by rock pillar at cols 18-19.
 ## Northern Rock Wall & Eastern Corridor
-- North Wall (Rows 14..15): Solid rock wall spanning across cols 19..28+ (bump-tested at (23, 15) Turn 4643). Separates rows 16-19 from rows 12-13.
-- Eastern Corridor (Rows 16..19): Wide 4-tile open corridor spanning east past col 28 above the row 20-21 rock wall. Leads toward the eastern end of the serpentine path.
-- Upper Northern Corridor: Rows 12-13 visible above the row 14-15 wall, likely connecting via the eastern or western perimeter.
+- North Wall (Rows 14..15): Solid rock wall spanning across cols 19..31 (terminates at col 31). Separates rows 16-19 from rows 12-13.
+- Column 32 North-South Bypass: Open corridor along col 32 connecting rows 16-19 north into rows 12-13 (upper northern corridor).
+- Eastern Corridor (Rows 16..19): Wide 4-tile open corridor spanning east from col 20 to col 32+ above the row 20-21 rock wall.
+- Upper Northern Corridor: Rows 12-13 visible above the row 14-15 wall, running west from col 32.
