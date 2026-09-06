@@ -36,3 +36,4 @@
     - Nidorino at (6, 4).
     - Psyduck at (1, 3).
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
+- Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.
