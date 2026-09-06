@@ -1474,7 +1474,7 @@
 - Central Lawn (Rows 6..7, Cols 2..10): Wide open east-west lawn connecting northern entrance to Pokémon Center and central buildings.
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9 with orange entrance door at (7, 9) and window at (8, 9).
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
-- Signpost at (11, 9): Located east of Volunteer House.
+- Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 - Southwest Building: Located at cols 2..5, rows 12..13 with entrance door at (3, 13) and window at (4, 13).
 - South Building: Located at cols 6..9, rows 12..13 with entrance door at (7, 13) and window at (8, 13).
 - Poké Mart: Located at cols 14..17, rows 11..13 with entrance door at (15, 13) and "MART" sign at (16, 13) [Sighted Turn 4861].
@@ -1499,6 +1499,5 @@
     - Psyduck at (1, 3).
 - Southwest House: Located at cols 2..5, rows 12..13. Entrance door at (3, 13).
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
-
 
 <hr>
