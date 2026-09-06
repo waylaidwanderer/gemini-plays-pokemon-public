@@ -32,4 +32,11 @@
 - [x] Can (5, 7): Checked Turn 3315 -> Only trash.
 - [x] Can (3, 7): Checked Turn 3316 -> Only trash.
 - [x] Can (3, 9): Checked Turn 3317 -> Only trash.
-- [ ] Can (3, 11): Inspecting Turn 3317.
+- [x] Can (3, 11): Checked Turn 3318 -> Only trash.
+- [ ] Can (1, 11): Inspecting Turn 3318.
+
+## Deduction (Turn 3318)
+- 12 of 15 cans empty. Cols 3, 5, 7, 9 completely cleared.
+- Both switches MUST be in Column 1: (1, 7), (1, 9), (1, 11)!
+- If (1, 11) is Switch 1 -> Switch 2 MUST be (1, 9).
+- If (1, 11) is empty -> Switches MUST be (1, 9) and (1, 7)!
