@@ -49,3 +49,6 @@
 - Can (3, 7): Checked Turn 3346 -> Only trash.
 - Only 3 cans remain for Switch 1: (5, 7), (7, 7), (9, 7).
 - Can (5, 7): Inspecting Turn 3346.
+- Can (5, 7): Checked Turn 3347 -> Only trash.
+- Only 2 cans remain for Switch 1: (7, 7) and (9, 7).
+- Can (7, 7): Inspecting Turn 3347.

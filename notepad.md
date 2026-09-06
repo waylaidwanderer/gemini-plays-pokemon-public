@@ -1253,6 +1253,9 @@
 - EMPIRICAL STATUS: Rows 9 and 11 completely empty in Cycle 2.
 - Switch 1 MUST be on Row 7: (3, 7), (5, 7), (7, 7), or (9, 7)!
 - Can (3, 7): Inspecting Turn 3345.
+- Can (3, 7): Checked Turn 3346 -> Only trash.
+- Only 3 cans remain for Switch 1: (5, 7), (7, 7), (9, 7).
+- Can (5, 7): Inspecting Turn 3346.
 
 
 <hr>
