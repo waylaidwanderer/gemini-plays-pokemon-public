@@ -100,7 +100,9 @@
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 18, Ground]
   - Status: Healthy
-  - Level: 18
+  - HP: 36 / 36
+  - Stats: Attack 28, Defense 15, Speed 42, Special 24
+  - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 
 <hr>
