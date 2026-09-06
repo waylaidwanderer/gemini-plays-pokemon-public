@@ -1357,7 +1357,10 @@
 - Arrived via Ladder 2 from B1F (27, 3) -> 1F (5, 3) [Turn 4660].
 - Chamber at cols 3-7, rows 2-4 with Ladder 2 at (5, 3).
 - Open area at rows 6-10 across cols 2-10+.
-- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Prize: ¥665. Defeated Turn 4675.
+- Hiker at (7, 5) facing South ("This tunnel goes a long way, kid!"): Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Prize: ¥665. Defeated Turn 4675.- Central Rock Pillar: (6..7, 10..13+) divides southern path into western branch (cols 3-5) and eastern branch (cols 8-11).
+- Eastern Branch: Open corridor cols 8-11, rows 6-13+ bounded east by wall at col 12.
+- Western Branch: Open corridor cols 3-5, rows 6-13+.
+
 
 <hr>
 
