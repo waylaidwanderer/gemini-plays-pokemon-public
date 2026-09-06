@@ -49,7 +49,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x11
+- POKé BALL x10
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
@@ -98,7 +98,6 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
   - EXP: 125 (91 to Lv 6)
-
 
 <hr>
 
