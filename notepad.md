@@ -2672,7 +2672,7 @@
 
 ## Master Victory Road Puzzle Sequence (Standard Progression Reset Post-Dig)
 - Note: Warping out via Dig / Escape Rope resets all dungeon entities to default spawn positions.
-- Current Status: Healed at Viridian City Pokémon Center; re-entering Victory Road via Route 22/23.
+- Current Status: Entering Victory Road 1F at (8, 17).
 
 ## Floor-by-Floor Master Solutions (Ready to Execute)
 1. **1F Master Solution**:
@@ -2686,14 +2686,14 @@
    - Initial State: Arrive at (0, 8). Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
    - Push sequence: From (5, 14) push Left 1 to (3, 14) -> reposition to (3, 13) -> push Down 2 to (3, 16) -> reposition to (4, 16) -> push Left 2 onto Switch 1 (1, 16).
    - Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
-   - Path to 3F Ladder B: Pass through Shutter 1 (5, 10) to row 8 -> East along row 8 to (14, 8) -> South to (14, 12) -> East along row 12 to (20, 12) -> South to (21, 14) -> South through Shutter 3 (21, 15) to (21, 16) -> East to (29, 16) -> North along col 29 to (29, 11) -> West to Ladder B at (25, 14) -> ascend to 3F (25, 14).
+   - Path to 3F Upper Dark Plateau: Pass through Shutter 1 (5, 10) to row 8 -> East along row 8 to (14, 8) -> South to (14, 12) -> East along row 12 to (20, 12) -> bypass trainer via (20, 14) -> (21, 14) -> South through Shutter 3 (21, 15) to (21, 16) -> East to (29, 16) -> North along col 29 to (29, 11) -> West to **Ladder NE at (27, 7)** -> ascend to 3F Upper Dark Plateau (27, 7).
 
 3. **3F Master Switch & Pit Solution**:
    - Strength activated by ATLAS.
-   - Initial State: Boulder 1 @ (22, 3). Target: Switch @ (3, 5) in NW Room.
+   - Initial State: Boulder 1 @ (22, 3) on Upper Dark Plateau. Target: Switch @ (3, 5) in NW Room.
    - Push sequence: Push North 2 to (22, 1) on Row 1 (Northern Highway) -> push West along Row 1 to (6, 1) -> push South 1 to (6, 2) -> push West into NW Room to (2, 2) -> push South down col 2 to (2, 5) -> push East 1 onto Switch (3, 5).
-   - Shutter at (17, 5) opened!
-   - Final Pit sequence: Walk through Shutter (17, 5) -> proceed down stairs to lower level -> walk to Pit Boulder at (22, 15) -> push East 1 into Pit at (23, 15) -> jump down Pit (23, 15) to 2F.
+   - Shutters at (17, 5), (15, 15), and (21, 15) opened!
+   - Final Pit sequence: Walk from NW Room through opened Shutter (17, 5) or via 2F to Row 16 Lower Highway -> walk to Pit Boulder at (9, 16) -> push East along Row 16 to (23, 16) -> push North 1 into Pit at (23, 14) -> jump down Pit (23, 14) to 2F.
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
    - Land on 2F at (22, 16) with fallen boulder at (23, 16).
