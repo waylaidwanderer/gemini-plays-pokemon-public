@@ -1,3 +1,3 @@
 - West Hallway & Pillar: Rock formations at cols 6-7 (rows 8-9 and 14-16) with open cross-corridor at rows 10-13.
-- Hiker at (6, 10) facing South ("Hahaha! Can you beat my power?"): Engaged Turn 4721. Guards column 6 across rows 11-13.
+- Hiker at (6, 10) facing South ("Hahaha! Can you beat my power?"): Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Prize: ¥735. Defeated Turn 4730. Guards column 6 across rows 11-13.
 - Western Avenue: Cols 4-5 open north-south across rows 8-16+.
