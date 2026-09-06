@@ -39,3 +39,10 @@
 - Can (7, 7): Tested [Turn 3446] -> Only trash.
 - Can (9, 7): Tested [Turn 3447] -> Only trash. (All 5 Row 7 cans empty).
 - Can (9, 9): Tested [Turn 3448] -> Only trash.
+- Can (7, 9): Switch 1 FOUND! [Turn 3449]
+- 1st electric lock opened!
+- Adjacent cans for Switch 2:
+  - Can (9, 9) [East - directly behind player at (8, 9)!]
+  - Can (7, 7) [North - 2 steps North along col 8!]
+  - Can (7, 11) [South - 2 steps South along col 8!]
+  - Can (5, 9) [West]
