@@ -12,7 +12,6 @@
   - Departure: Exited down the stairs at (18, 9) to 1F.
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
 - Channeler at (10, 13): Trainer battle! Gastly Lv 22 (447 EXP). Defeated Turn 4971 (Prize: ¥660). Defeat dialogue: "Whew! The spirit left!"
-- Staircase at (3, 9): Visually displays staircase graphics; status pending precise interaction testing.
 - Wild Encounters: Active on 2F (triggered at (6, 13)). Wild Pokémon appear as unidentifiable 'GHOST' without the Silph Scope [Turn 4976].
 
 ## Geography & Layout

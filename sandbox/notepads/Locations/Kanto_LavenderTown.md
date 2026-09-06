@@ -36,5 +36,4 @@
     - Little girl at (6, 3).
     - Nidorino at (6, 4).
     - Psyduck at (1, 3).
-- Southwest House: Located at cols 2..5, rows 12..13. Entrance door at (3, 13).
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
