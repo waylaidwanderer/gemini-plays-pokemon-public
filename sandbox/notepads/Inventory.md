@@ -26,11 +26,14 @@
 - ¥24575
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
+- DIGLETT (Nickname: DIGBY) [Lv 18, Ground]
   - Status: Healthy
-  - HP: 83 / 91
-  - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
+  - HP: 36 / 36
+  - Stats: Attack 28, Defense 15, Speed 42, Special 24
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - EXP: 5832 (1027 to Lv 19)
+  - OT: BLUE (IDNo. 04620)
+  - Caught: Diglett's Cave [Turn 3507]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -42,7 +45,7 @@
   - HP: 29 / 29
   - Stats: Attack 21, Defense 16, Speed 11, Special 18
   - Moves: Scratch (PP 35/35)
-    - EXP: 1000 (331 to Lv 11)
+  - EXP: 1000 (331 to Lv 11)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Healthy
   - HP: 20 / 20
@@ -50,11 +53,8 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
   - EXP: 125 (91 to Lv 6)
-- DIGLETT (Nickname: DIGBY) [Lv 18, Ground]
+- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
   - Status: Healthy
-  - HP: 36 / 36
-  - Stats: Attack 28, Defense 15, Speed 42, Special 24
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 5832 (1027 to Lv 19)
-  - OT: BLUE (IDNo. 04620)
-  - Caught: Diglett's Cave [Turn 3507]
+  - HP: 83 / 91
+  - Stats: Attack 61, Defense 74, Speed 62, Special 63
+  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)

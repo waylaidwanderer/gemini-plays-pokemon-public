@@ -2,7 +2,7 @@
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Wartortle (SHELDON) Lv 34, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Diglett (DIGBY) Lv 18
+- Active Team: Diglett (DIGBY) Lv 18, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34
 - Money: ¥24575
 - Pokédex: 6 Caught / 15 Seen
 
