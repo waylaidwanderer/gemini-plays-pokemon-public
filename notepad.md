@@ -1337,7 +1337,7 @@
 - NPC at (0, 58): Sighted on the western path facing East/South.
 - Eastern South Avenue (Cols 10..11, Rows 62..67): Open avenue through tall grass between cliff (west, cols 4..8) and Lavender Town building (east, cols 12..13, rows 66+). Runs directly South past row 67 into Lavender Town!
 
-- Pokémaniac at (14, 64): Triggered at (10, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: 2 Pokémon. [Turn 4826-4827].
+- Pokémaniac at (14, 64): Triggered at (10, 64) facing West. Pre-battle dialogue: "Hi kid, want to see my POKéMON?". Team: Cubone Lv 20, [Pokémon 2]. [Turn 4826-4828].
 
 
 <hr>
