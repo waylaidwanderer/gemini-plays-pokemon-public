@@ -109,6 +109,12 @@
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
   - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
+  - Status: Healthy
+  - HP: 15 / 15
+  - Moves: Splash (PP 40/40)
+  - OT: BLUE (IDNo. 04620)
+  - Caught: Route 11 with Old Rod [Turn 3694]
 
 
 <hr>
