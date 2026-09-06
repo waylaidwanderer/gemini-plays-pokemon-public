@@ -18,3 +18,6 @@
 - Eastern Canal: Water canal running north-south along cols 16..17, bounded on the west by stone bollards along col 15 [Sighted Turn 4521].
 - Eastern Flank Corridor (Col 14, Rows 12..16+): Open north-south lawn passage between Pokémon Center (cols 10..13) and canal bollards (col 15), leading to front entrance [Turn 4521].
 - Route 10 Pokémon Center: Located at cols 10..13, rows 16..19. Front entrance door at (11, 19), "POKé" sign at (12, 19). Front paved avenue along rows 20..21 [Turn 4523].
+- Rock Tunnel Entrance (8, 17): Dark cave mouth in northern cliff [Sighted Turn 4529].
+- Signpost (7, 19): Rock Tunnel entrance signpost [Sighted Turn 4529].
+- Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
