@@ -23,7 +23,7 @@
    - Initial State: Boulder 1 @ (22, 3) on Upper Dark Plateau. Target: Switch @ (3, 5) in NW Room.
    - Push sequence: Push North 2 to (22, 1) on Row 1 (Northern Highway) -> push West along Row 1 to (6, 1) -> push South 1 to (6, 2) -> push West into NW Room to (2, 2) -> push South down col 2 to (2, 5) -> push East 1 onto Switch (3, 5).
    - Shutters at (17, 5), (15, 15), and (21, 15) opened!
-   - Final Pit sequence: Walk from NW Room through opened Shutter (17, 5) or via 2F to Row 16 Lower Highway -> walk to Pit Boulder at (9, 16) -> push East along Row 16 to (23, 16) -> push North 1 into Pit at (23, 14) -> jump down Pit (23, 14) to 2F.
+   - Final Pit sequence: Walk to Pit Boulder at (22, 15) -> Stand at (21, 15) facing East -> push Right 1 time into Pit at (23, 15) -> jump Right into Pit (23, 15) to drop to 2F.
 
 4. **2F Fallen Boulder to Indigo Plateau Exit**:
    - Land on 2F at (22, 16) with fallen boulder at (23, 16).
