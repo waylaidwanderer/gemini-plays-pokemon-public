@@ -1,4 +1,5 @@
 # Inventory Log
+(Capacity: 20 / 20 unique item slots - BAG FULL. Plan to deposit low-priority items at Cerulean Pokémon Center PC before Rock Tunnel.)
 
 ## Items
 - TOWN MAP
@@ -17,7 +18,6 @@
 - HP UP x1
 
 ## Key Items
-- POKéDEX
 - S.S. TICKET
 - OLD ROD
 - BIKE VOUCHER
@@ -29,7 +29,7 @@
 
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
-  - Status: Healthy
+  - Status: Asleep (SLP)
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
