@@ -53,6 +53,7 @@
 <h1><code>Inventory</code></h1>
 
 # Inventory Log
+(Capacity: 20 / 20 unique item slots - BAG FULL. Plan to deposit low-priority items at Cerulean Pokémon Center PC before Rock Tunnel.)
 
 ## Items
 - TOWN MAP
@@ -71,7 +72,6 @@
 - HP UP x1
 
 ## Key Items
-- POKéDEX
 - S.S. TICKET
 - OLD ROD
 - BIKE VOUCHER
@@ -83,7 +83,7 @@
 
 ## Party Pokémon
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
-  - Status: Healthy
+  - Status: Asleep (SLP)
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
@@ -203,13 +203,6 @@
   - Combat: Voltorb used Tackle (dealt 10 dmg, DIGBY HP 36 -> 26/36). DIGBY used Dig (underground dodged Sonicboom, then emerged with super-effective STAB OHKO!). Voltorb fainted.
   - Pikachu used Growl (failed while Digby underground), Surge used X Speed. DIGBY used Dig (super-effective STAB OHKO!). Pikachu fainted.
   - Raichu used Thunderbolt (no effect on Ground), then Surge used X Speed. Raichu used Thundershock (no effect). DIGBY used Dig (super-effective 2HKO!). Raichu fainted. DIGBY grew to Lv 19! Prize: ¥2376. Decisive victory!
-
-## Route 11 Empirical Combat Log
-- **Youngster [Turn 3781 - 3788] (Route 11 at 13, 5):**
-  - Roster: Ekans Lv 21 (Yield: 278 EXP split 139 to Sheldon / 139 to Digby). Prize: ¥315.
-  - Pre-battle: "Let's go, but don't cheat!". Defeat: "YOUNGSTER: Huh? That's not right!".
-  - Combat: DIGBY sent out. Switched to SHELDON (took 0 dmg, Defense fell from Leer). Sheldon Lv 34 used Bubblebeam (OHKO). Ekans fainted.
-  - Outcome: Decisive victory. Prize: ¥315. Money: ¥24951 -> ¥25266. Sheldon Bubblebeam PP: 20 -> 19/20.
 
 
 <hr>
