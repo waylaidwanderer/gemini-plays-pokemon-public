@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 36, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥28731
+- Money: ¥29881
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -50,7 +50,6 @@
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
 - [x] Traverse Route 9 and reach Route 10 [Turn 4517]
 - [x] Enter Rock Tunnel on Route 10 [Turn 4547]
-
 
 <hr>
 
