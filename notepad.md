@@ -1255,6 +1255,7 @@
 - Can (3, 11) tested: empty [Turn 3568].
 - Can (1, 11) tested: empty [Turn 3570].
 - Can (1, 9) tested: empty [Turn 3572].
+- Can (3, 9) tested: empty [Turn 3573].
 
 <hr>
 
