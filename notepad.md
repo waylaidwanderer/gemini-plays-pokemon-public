@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Wartortle (SHELDON) Lv 35, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥27481
+- Money: ¥27671
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -52,6 +52,7 @@
 - [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
 - [x] Defeat Hiker at (45, 15) on Route 9 [Turn 4174]
 - [x] Defeat Camper Drew on Route 9 [Turn 4190]
+- [x] Defeat Bug Catcher at (22, 2) on Route 9 [Turn 4209]
 
 
 <hr>
@@ -88,7 +89,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥27481
+- ¥27671
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
@@ -1290,7 +1291,7 @@
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
-- Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19 (in battle Turn 4201).
+- Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19, Beedrill Lv 19. Prize: ¥190. Defeated Turn 4209.
 
 
 <hr>
