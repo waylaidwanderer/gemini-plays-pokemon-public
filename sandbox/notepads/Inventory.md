@@ -24,7 +24,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥18840
+- ¥19380
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 33, Water]

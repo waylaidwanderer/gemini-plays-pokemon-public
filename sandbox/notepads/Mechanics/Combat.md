@@ -85,3 +85,8 @@
   - Pre-battle: "I like feisty kids like you!". Defeat: "SAILOR: Argh! Lost it!".
   - Combat: Horsea 1 took Bite (~85%), dealt 1 dmg with Bubble (Sheldon HP 47 -> 46/86, Speed fell), then Bite (KO). Horsea 2 took Bite (OHKO). Horsea 3 took Bite (OHKO).
   - Outcome: Decisive victory. HP: 46/86. Bite PP: 6 -> 2/25. Money: ¥18330 -> ¥18840.
+- **Sailor [Turn 3159 - 3168] (B1F Cabin 4 at 12, 3):**
+  - Roster: Tentacool Lv 18 (Yield: 405 EXP), Staryu Lv 18 (Yield: 408 EXP). Total EXP: 813 EXP. Prize: ¥540.
+  - Pre-battle: "Us sailors have POKéMON too!". Defeat: "SAILOR: OK, you're not bad.".
+  - Combat: Sheldon used Bite on Tentacool (OHKO). Sheldon used Bubblebeam on Staryu (dealt ~65%), Staryu used Tackle (dealt 3 dmg, Sheldon HP 46 -> 43/86), Sheldon used Bubblebeam (KO). Sheldon grew to Lv 33 (HP 46/89, Atk 59, Def 72, Spd 60, Spc 61).
+  - Outcome: Decisive victory. HP: 46/89. Bite PP: 0/25, Bubblebeam PP: 11/20. Money: ¥18840 -> ¥19380.

@@ -74,10 +74,10 @@
 - ¥18840
 
 ## Party Pokémon
-- WARTORTLE (Nickname: SHELDON) [Lv 32, Water]
+- WARTORTLE (Nickname: SHELDON) [Lv 33, Water]
   - Status: Healthy
-  - HP: 43 / 86
-  - Stats: Attack 58, Defense 69, Speed 58, Special 59
+  - HP: 46 / 89
+  - Stats: Attack 59, Defense 72, Speed 60, Special 61
   - Moves: Bite (PP 0/25), Tail Whip (PP 30/30), Bubblebeam (PP 11/20), Water Gun (PP 23/25)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -218,6 +218,11 @@
   - Pre-battle: "I like feisty kids like you!". Defeat: "SAILOR: Argh! Lost it!".
   - Combat: Horsea 1 took Bite (~85%), dealt 1 dmg with Bubble (Sheldon HP 47 -> 46/86, Speed fell), then Bite (KO). Horsea 2 took Bite (OHKO). Horsea 3 took Bite (OHKO).
   - Outcome: Decisive victory. HP: 46/86. Bite PP: 6 -> 2/25. Money: ¥18330 -> ¥18840.
+- **Sailor [Turn 3159 - 3168] (B1F Cabin 4 at 12, 3):**
+  - Roster: Tentacool Lv 18 (Yield: 405 EXP), Staryu Lv 18 (Yield: 408 EXP). Total EXP: 813 EXP. Prize: ¥540.
+  - Pre-battle: "Us sailors have POKéMON too!". Defeat: "SAILOR: OK, you're not bad.".
+  - Combat: Sheldon used Bite on Tentacool (OHKO). Sheldon used Bubblebeam on Staryu (dealt ~65%), Staryu used Tackle (dealt 3 dmg, Sheldon HP 46 -> 43/86), Sheldon used Bubblebeam (KO). Sheldon grew to Lv 33 (HP 46/89, Atk 59, Def 72, Spd 60, Spc 61).
+  - Outcome: Decisive victory. HP: 46/89. Bite PP: 0/25, Bubblebeam PP: 11/20. Money: ¥18840 -> ¥19380.
 
 <hr>
 
@@ -1093,8 +1098,8 @@
   - Furniture: Desk at (20..21, 1), chair at (20, 2..3), bunk bed at (23, 1..2). No items. Status: Cleared.
 - Cabin 4: Entrance at (11, 3) in B1F hallway, interior doorway at (12..13, 5).
   - Interior bounds: Cols 10..13, Rows 1..5.
-  - Occupants: Sailor at (12, 3). Pre-battle: "Us sailors have POKéMON too!".
-  - Furniture: Desk at (10..11, 1), chair at (10, 2..3), bunk bed at (13, 1..2). No items visible.
+  - Occupants: Sailor at (12, 3) [Defeated, Turn 3168] (Roster: Tentacool Lv 18 - 405 EXP, Staryu Lv 18 - 408 EXP; Prize: ¥540; Pre-battle: "Us sailors have POKéMON too!", Defeat: "SAILOR: OK, you're not bad.").
+  - Furniture: Desk at (10..11, 1), chair at (10, 2..3), bunk bed at (13, 1..2). No items. Status: Cleared.
 - Remaining Cabins: Expected at (7, 3).
 
 <hr>
