@@ -4,9 +4,9 @@
 
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34
+- Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34, Magikarp (TSUNAMI) Lv 5
 - Money: ¥24951
-- Pokédex: 7 Caught / 48 Seen [Verified Turn 3636]
+- Pokédex: 8 Caught / 48 Seen [Verified Turn 3636]
 
 ## Milestones
 - [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
@@ -41,7 +41,8 @@
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 - [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
-- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
+- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
+
 
 <hr>
 
