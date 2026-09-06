@@ -962,7 +962,7 @@
 - Cut Tree: Located at (15, 18) (requires Cut; respawns on map reload).
 - Water Shoreline & Southeastern Peninsula: Water inlet covers cols 16..19 from row 18 to 22+ with fence at col 19. Paved peninsula spans cols 20..25, rows 16..21 (Pidgey House). Entire southern edge of cols 19..25 is solid ocean shore at row 22 with no pier or dock.
 - House Southeast (Pidgey Letter House): Cols 22..25, rows 16..19. Entrance door at (23, 19). Interior: Girl with Pidgey sending letter to Saffron City.
-- Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13).
+- Poké Mart: Building at cols 22..24, rows 10..13. Entrance door at (23, 13). "MART" sign at (24, 13). Interior: Clerk at (0, 5) behind counter at (1, 5); customer stands at (2, 5) facing West. Sells: Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), etc.
 
 ## S.S. Anne Docks & Harbor
 - Location: Eastern and southern Vermilion City harbor.
