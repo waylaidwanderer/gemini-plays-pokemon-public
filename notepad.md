@@ -50,6 +50,8 @@
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
 - [x] Defeat Picnicker Alicia on Route 9 [Turn 4108]
 - [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
+- [x] Defeat Hiker at (45, 15) on Route 9 [Turn 4174]
+- [x] Defeat Camper Drew on Route 9 [Turn 4190]
 
 
 <hr>
@@ -91,7 +93,7 @@
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
   - Status: Healthy
-  - HP: 94 / 94
+  - HP: 90 / 94
   - Stats: Attack 63, Defense 77, Speed 63, Special 65
   - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -1266,7 +1268,6 @@
 ## Geography & Layout
 - Tile (25, 5) Ramp: Walkable slope/ramp connecting row 6 gravel road north onto row 4 green lawn plateau [Turn 4196].
 - Northern Plateau (Rows 2..4, Cols 21..25+): Open green lawn area north of the central rock ridge. Trainer stationed at (22, 2) facing South.
-- Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon.
 - Signpost at (25, 7): "ROUTE 9 / CERULEAN CITY - ROCK TUNNEL" [Turn 4194].
 - Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south).
 - Northern Corridor (Row 8): Open path from col 0 to col 4. Tile (5, 8) is the CONFIRMED Cut tree blocking Route 9! Cleared with Farfetch'd (DUX) using Cut from (4, 8) facing East [Turn 4085]. Leads directly east onto the Route 9 gravel road at col 6+.
@@ -1289,6 +1290,7 @@
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
+- Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19 (in battle Turn 4201).
 
 
 <hr>
