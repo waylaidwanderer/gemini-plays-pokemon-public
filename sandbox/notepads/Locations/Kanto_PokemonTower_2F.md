@@ -10,7 +10,7 @@
   - Defeated Turn 4940 (Prize: ¥1625).
   - Dialogue: Mentions catching Cubone and looking for Marowak.
   - Departure: Exited down the stairs at (18, 9) to 1F.
-- NPC at (3, 7): Person in green attire facing East, stationed above 3F stairs.
+- NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
 
 ## Geography & Layout
 - Eastern Wall: Solid boundary along cols 19..20 (and cols 16..20 on rows 1..3).
