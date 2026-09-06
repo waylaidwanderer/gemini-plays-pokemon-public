@@ -1261,5 +1261,14 @@
 - Can (1, 7): Checked Turn 3328 -> Only trash.
 - Can (1, 11): Inspecting Turn 3328.
 
+## Cycle 2 - Switch 1 Found! (Turn 3329)
+- Can (1, 11): FOUND SWITCH 1! (Turn 3329)
+- Second Switch Analysis:
+  - Corner can (1, 11) has adjacent neighbors (1, 9) and (3, 11).
+  - Out-of-bounds directions (down/left) in Gen 1 Red/Blue default to Can 0: (1, 7) [50% chance]!
+  - Up neighbor (1, 9) [25% chance].
+  - Right neighbor (3, 11) [25% chance].
+- Action: Inspecting Can (1, 7) with 50% probability on Turn 3330!
+
 
 <hr>
