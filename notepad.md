@@ -2557,14 +2557,7 @@
 - North entrance: Victory Road (y=0)
 
 ## Badge Check Guards
-- [x] 1. Boulder Badge: Route 22 Gate (Inside Gatehouse) [Passed Turn 22089]
-- [x] 2. Cascade Badge: Guard located at (8, 136) [Passed Turn 22091]
-- [x] 3. Thunder Badge: Guard located at (8, 119) [Passed Turn 22103]
-- [x] 4. Rainbow Badge: Guard located at (12, 105) [Passed Turn 22108]
-- [x] 5. Soul Badge: Guard located at (11, 96) [Passed Turn 22115]
-- [x] 6. Marsh Badge: Guard located at (8, 85) [Passed Turn 22118]
-- [x] 7. Volcano Badge: Guard located at (10, 56) [Passed Turn 22121]
-- [x] 8. Earth Badge: Guard at (4, 35), Gate at (4, 31) [Passed Turn 23269]
+- All 8 Badge Inspection Guards passed sequentially (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth).
 ## Victory Road Approach & Bypass Layout
 - Earth Badge Checkpoint: Guard stands at (4, 35). Red gate at (4, 31) allows passage through row 31 ledge.
 - Northern Road (rows 17..30): Leads directly to Victory Road 1F cave entrance at (8, 17).
