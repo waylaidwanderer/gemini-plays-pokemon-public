@@ -1281,6 +1281,9 @@
   - South: Can (1, 9)
   - East: Can (3, 7)
 - Action: Inspecting Can (1, 9) for Switch 2 on Turn 3355!
+- Can (1, 9): Tested while Switch 1 active at (1, 7) [Turn 3356] -> Only trash, locks reset.
+  - Note: For Switch 1 at (1, 7), Switch 2 was (3, 7).
+- Cycle 4: Checking Can (1, 9) post-reset on Turn 3356.
 
 
 <hr>
