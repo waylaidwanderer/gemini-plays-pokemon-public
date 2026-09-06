@@ -1299,6 +1299,7 @@
   2. Middle Terrace (Rows 10..12): Lower terrace entered by hopping south over ledges at (23, 9) or (40..41, 11). Bounded east by rock wall at (42, 12) and west by solid rock cliff at (19, 11) and south-facing ledge at (11, 11).
   3. Bottom Terrace (Rows 14..15): Lowest terrace entered by hopping south over row 13 ledges. Contains TM30 (10, 15) and Hiker (45, 15). Terminates east at col 54 cliff. Ramps at (19, 13) and (29, 13) lead up to Middle Terrace.
 - Elevation Boundaries & Confirmed Collisions:
+  - Tile (25, 1): Solid mountain wall, impassable north from (25, 2) [Turn 4313].
   - Tile (26, 2): Solid mountain ridge collision [Turn 4216].
   - Tile (26, 3): Solid rock wall, impassable east from (25, 3) [Turn 4303].
   - Tile (26, 4): Solid rock wall, impassable east from (25, 4) [Turn 4304].
