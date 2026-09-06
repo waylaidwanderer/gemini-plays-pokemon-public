@@ -1377,6 +1377,7 @@
 - Jr. Trainer ♀ at (32, 24) facing East ("You have POKéMON! Let's start!"): Pidgey Lv 19, Rattata Lv 19, Bellsprout Lv 19. Prize: ¥380. Defeated Turn 4760. Stations along row 24.
 - Southern Avenue Extension: Wide open corridor spanning cols 33-37 from row 21 down past row 25+.
 
+- Southern Bend (Rows 28..31): Solid southern wall at row 32 and east wall at col 38. Corridor turns west along rows 28..31 across cols 29..37+.
 
 <hr>
 
