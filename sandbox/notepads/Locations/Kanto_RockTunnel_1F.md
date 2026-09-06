@@ -37,3 +37,5 @@
 - Eastern boundary wall at col 38; northern rock wall at row 15.
 - Wide open hall spanning cols 33-37 (rows 16-21) extending west.
 - Trainer sighted at (37, 21).
+- West Wall of Exit Hall: Column 31 is a solid vertical rock wall (rows 14-21).
+- Southward Avenue: Exit hall turns south along cols 32-36, extending south past row 21 toward the cave exit.
