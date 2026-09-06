@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Wartortle (SHELDON) Lv 35, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥25626
+- Money: ¥26326
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -86,7 +86,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥25626
+- ¥26326
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
@@ -1271,7 +1271,7 @@
 - Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
 
 - Southern Highway (Rows 14..15): Open gravel road spanning cols 12..21+ bounded by southern cliff at row 16 and south-facing ledge at row 13.
-- Jr. Trainer ♂ (Camper) at (16, 15) facing West.- Hiker Jeremy at (16, 15): Machop Lv 20, Onix Lv 20. Defeated Turn 4126.
+- Jr. Trainer ♂ (Camper) at (16, 15) facing West.- Hiker Jeremy at (16, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
 
 
 <hr>
