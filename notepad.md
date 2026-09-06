@@ -74,10 +74,10 @@
 - ¥24575
 
 ## Party Pokémon
-- DIGLETT (Nickname: DIGBY) [Lv 18, Ground]
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 36 / 36
-  - Stats: Attack 28, Defense 15, Speed 42, Special 24
+  - HP: 28 / 38 (verifying post-battle)
+  - Stats: Attack 29, Defense 16, Speed 45, Special 26
   - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - EXP: 5832 (1027 to Lv 19)
   - OT: BLUE (IDNo. 04620)
