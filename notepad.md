@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Wartortle (SHELDON) Lv 35, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥26326
+- Money: ¥27061
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -86,7 +86,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥26326
+- ¥27061
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 35, Water]
@@ -1282,7 +1282,7 @@
 - Camper at (24, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
 - Bug Catcher at (40, 8): Stationed on upper path facing South.
-- Hiker at (45, 15): Facing West in lower tall grass strip. Quote: "Hahahaha! Come on, dude!". Has 2 Pokémon: Geodude Lv 21 (defeated Turn 4168), Onix.
+- Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
 
 
 <hr>
