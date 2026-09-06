@@ -1371,5 +1371,10 @@
 - Dividing Rock Wall: Vertical rock barrier at cols 26-27 (rows 21-29) separates the Ladder 1 chamber from the western corridor.
 - Southward Exit: Open floor corridor along cols 28-34 heading south past row 29 toward the southern bend.
 - Target: Ladder 2 at northwest corner (5, 3) leading back up to 1F.
+## Trainers
+- Trainer at (26, 30) facing East.
+
+## Southern Corridor
+- Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.
 
 <hr>
