@@ -2736,6 +2736,7 @@
 - Eastern Rock Cluster: Purple rock obstacle block spans columns 24-27 across rows 4-7 ((24..27, 4..7)), blocking direct southward passage from row 3 on the east side.
 - Chokepoint Boulder (13, 12): Blocks direct vertical access from (13, 11) to (13, 13). Pushing it down into (13, 13) closes diagonal passage to (14, 13).
 - Pit Room Route: From Central Bridge (6, 15), walk East along Row 15 directly to (21, 15) facing East beside the Pit Boulder at (22, 15).
+- Cooltrainer at (28, 5): Defeated (Turn 33412 verified dialogue: "You beat GIOVANNI of TEAM ROCKET?").
 
 <hr>
 
