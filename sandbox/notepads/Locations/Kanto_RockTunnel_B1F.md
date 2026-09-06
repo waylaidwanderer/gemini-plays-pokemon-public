@@ -5,3 +5,4 @@
 - Western Avenue: Wide open corridor spanning cols 2-5 from row 8 down past row 16.
 - Trainer at (3, 5) facing South: Stations in western avenue along col 3.
 - Northwest Pocket: Cols 2-5 extend north past row 4.
+- Northwest Ladder: Located at (3, 3) at north end of western avenue (cols 2-5). Ascends to 1F.
