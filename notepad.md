@@ -1224,6 +1224,7 @@
 - Diglett: Lv 15-22 observed throughout main tunnel.
 - Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY.
 - Westernmost North Corridor (Cols 4..5): A 2-tile wide vertical passage at cols 4..5 running north from row 17 through rows 14, 13, 12, 11, 10+ directly toward the Route 2 exit ladder (bounded by west wall at col 3, south wall at row 18).
+- Route 2 Exit Ladder: Located at (5, 5) at the northern terminus of the western corridor, leading up to Route 2 entrance room.
 
 
 <hr>
