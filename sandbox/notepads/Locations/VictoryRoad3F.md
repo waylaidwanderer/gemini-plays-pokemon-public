@@ -28,7 +28,8 @@
 - Columns 0-5 (Far West Room): Contains NW Boulder at (5, 5) and Switch Plate at (3, 5).
 
 ## NW Room & Switch Plate
-- Empirically Verified (Turns 30576, 30680, 30756): NW Room contains Switch Plate at (3, 5), but NO pushable boulder exists inside the room.
+- Empirically Verified (Turns 30576, 30680, 30756, 30818): NW Room contains Switch Plate at (3, 5), but NO pushable boulder exists inside the room.
+- Row 6 Boundary (Turn 30818): Stepping South from (2, 5) onto (2, 6) confirmed that Row 6 ((2..5, 6)) is an IMPASSABLE SOLID WALL (not a hop-able ledge). The NW room does not connect to the southern sector.
 
 ## 3F Pit Area & Boulder Observations
 - Column 13 / Row 11: Pushing boulder at (13, 12) down to (13, 13) dead-ends against rock obstacle at (13, 14).
