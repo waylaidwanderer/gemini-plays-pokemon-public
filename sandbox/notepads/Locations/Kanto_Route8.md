@@ -1,1 +1,1 @@
-- Gambler stationed at (13, 9) facing North (Dialogue: "All right! Let's roll the dice!"). Roster: Poliwag Lv 22, Poliwhirl. Engaged Turn 5164.
+- Gambler stationed at (13, 9) facing North (Dialogue: "All right! Let's roll the dice!"). Roster: Poliwag Lv 22, Poliwag Lv 22. Engaged Turn 5164.
