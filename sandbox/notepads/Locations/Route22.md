@@ -9,8 +9,8 @@
 - Rival RED Encounter: Triggered when walking west past east entrance (defeated Turn 22069).
 - Front Gatehouse: Checks all 8 Kanto Badges sequentially.
 
-## Verified Topology & Navigation Routes (Verified Turn 32761)
-- Upper Highway (Rows 4-5): Paved road visible in northern sector. Note: East end at (36..39, 4..5) is solid cliff wall.
-- Statue Barrier: Statues sit along row 5 at columns 9..13 and along column 7 (7, 6..14).
-- Grand Entrance Carpet: Located in the western sector across rows 10-11 (cols 2..13) with an open fence gate at (7, 11).
-- Pokémon League Front Gatehouse: Located in the northwest sector (cols 2..5, rows 0..9), entered from the Grand Entrance Carpet.
+## Verified Topology & Navigation Routes (Verified Turn 33100)
+- Upper Highway (Rows 4-5): Continuous paved road spanning columns 1 to 35 across northern Route 22. East end at (36, 4..5) is blocked by mountain wall.
+- Eastern Access to Upper Highway: From Eastern Lawn at (33, 12), walk Left to (31, 12), walk North through tall grass to (31, 8), and step North through verified dirt gap at (31, 7) into (31, 6) green grass and (31, 4..5) Upper Highway!
+- Central Barrier (Columns 26-29): The Upper Highway (rows 4-5) runs completely unobstructed ABOVE the central mountain wall (rows 8-13), connecting the eastern sector directly to the western gatehouse sector!
+- Grand Entrance Carpet & Gatehouse: Located in western sector (cols 2..8, rows 0..9).
