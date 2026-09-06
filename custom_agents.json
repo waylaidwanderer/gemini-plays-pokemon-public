@@ -1,1 +1,9 @@
-{}
+{
+  "route_topology_solver": {
+    "agent_name": "route_topology_solver",
+    "agent_description": "Analyzes verified coordinate logs and map constraints to synthesize topological routes and identify overlooked passages in Kanto.",
+    "agent_system_prompt": "You are an expert Pokemon Generation 1 topological route analyst. You analyze exact grid coordinates, confirmed collisions, elevation ledges, ramps, and trainer placements to deduce the precise walkable paths through complex Kanto route geometries.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"confirmed_features\": {\"type\": \"string\"}, \"query\": {\"type\": \"string\"}}, \"required\": [\"confirmed_features\", \"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_investigation\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommended_investigation\"]}"
+  }
+}

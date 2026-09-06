@@ -1315,5 +1315,6 @@
 - Tile (54, 15): Solid rock wall, impassable east from (53, 15) [Turn 4337].
 - Tile (53, 16): Solid cliff wall, impassable south from (53, 15) [Turn 4338].
 - Tile (19, 6): Solid rock wall, impassable west from (20, 6) [Turn 4380].
+- Tile (42, 12): Solid rock wall, impassable east from (41, 12) [Turn 4385].
 
 <hr>
