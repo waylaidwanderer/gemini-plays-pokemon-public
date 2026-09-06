@@ -2732,6 +2732,23 @@
   5. Reposition to (29, 11) facing West.
   6. Stand at (29, 11) facing West -> Push Left across Row 11 onto Switch Plate!
   7. Shutter on 2F opens -> Walk up to Exit Ladder -> Route 23 North / Indigo Plateau!
+## 2F Pit Drop Landing & Final Exit Solution (Empirically Verified Turns 32238-32247)
+- Drop Arrival: Dropping through 3F Pit at (23, 15) lands player on 2F at (22, 16) with the fallen boulder at (23, 16).
+- Strength Activation: Must cast Strength with ATLAS upon arriving on 2F.
+- Boulder Push Route to Switch:
+  1. Push fallen boulder East along Row 16 from (23, 16) to (28, 16) (STOP AT COL 28!).
+  2. Reposition to (28, 17) facing North.
+  3. Push North 5 times up Column 28: (28, 16) -> (28, 11).
+  4. Reposition to (29, 11) facing West.
+  5. Push West across Row 11 onto Switch Plate at (25, 11).
+  6. Switch Plate depressed -> Barrier on 2F lowers, unlocking access to the Indigo Plateau Exit Ladder at (27, 7)!
+- Route to Exit Ladder (27, 7):
+  1. From Row 11 / (20, 11), walk North up Column 20 to Row 6 (20, 6).
+  2. Walk East along Row 6 to (23, 6).
+  3. Walk North up Column 23 to Row 1 (23, 1).
+  4. Walk East along Row 1 to Column 28 (28, 1).
+  5. Walk South down Column 28 to Row 7 (28, 7).
+  6. Step Left 1 step onto Exit Ladder at (27, 7) -> Emerges onto Route 23 North / Indigo Plateau!
 
 <hr>
 
