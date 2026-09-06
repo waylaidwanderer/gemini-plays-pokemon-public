@@ -1542,7 +1542,8 @@
   - Dialogue: Mentions catching Cubone and looking for Marowak.
   - Departure: Exited down the stairs at (18, 9) to 1F.
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
-- Empirical Test (Turn 4949): Tile (3, 9) is standard crosshatch floor, not a warp tile. Walking West collided with solid orange altar at (2, 9).
+- Channeler at (10, 13): Dialogue: "Be gone! Evil spirit!" [Turn 4959].
+- Staircase at (3, 9): Visually displays staircase graphics; status pending precise interaction testing.
 
 ## Geography & Layout
 - Eastern Wall: Solid boundary along cols 19..20 (and cols 16..20 on rows 1..3).
