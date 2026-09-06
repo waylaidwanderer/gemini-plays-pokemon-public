@@ -49,6 +49,7 @@
 - [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
 - [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
 - [x] Defeat Picnicker Alicia on Route 9 [Turn 4108]
+- [x] Defeat Hiker Jeremy on Route 9 [Turn 4126]
 
 
 <hr>
@@ -1270,6 +1271,7 @@
 - Picnicker Alicia at (13, 10): Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Prize: ¥360. Defeated Turn 4108.
 
 - Southern Highway (Rows 14..15): Open gravel road spanning cols 12..21+ bounded by southern cliff at row 16 and south-facing ledge at row 13.
-- Jr. Trainer ♂ (Camper) at (16, 15) facing West.
+- Jr. Trainer ♂ (Camper) at (16, 15) facing West.- Hiker Jeremy at (16, 15): Machop Lv 20, Onix Lv 20. Defeated Turn 4126.
+
 
 <hr>
