@@ -2761,15 +2761,6 @@
   6. Stand at (29, 11) facing West -> Push Left across Row 11 onto Switch Plate!
   7. Shutter on 2F opens -> Walk up to Exit Ladder -> Route 23 North / Indigo Plateau!
 
-## Upper Plateau & Ladder NE Access (Verified Turn 31755)
-- Row 10 Barrier: Columns 24-31 across Row 10 form a solid rock cliff wall blocking northward passage from (24..31, 11).
-- Open Western Passage: Columns 22 and 23 are completely open across Rows 7-11!
-- Master Route from Row 11 (26, 11) to Ladder NE (27, 7):
-  1. From (26, 11), walk West 3 steps along Row 11 to (23, 11).
-  2. Walk North 4 steps along Column 23 to (23, 7).
-  3. Walk East 4 steps along Row 7: (24, 7) -> (25, 7) -> (26, 7) -> (27, 7).
-  4. Step on Ladder NE at (27, 7) -> Ascends to Victory Road 3F Upper Dark Plateau!
-
 <hr>
 
 <h1><code>Locations/VictoryRoad3F</code></h1>
