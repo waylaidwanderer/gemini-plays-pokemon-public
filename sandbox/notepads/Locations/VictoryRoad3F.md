@@ -30,9 +30,8 @@
 14. Push East 1 time onto Switch Plate (3, 5): Boulder moves to (3, 5) [ON SWITCH!].
 15. Outcome: Switch (3, 5) ACTIVATED! Shutters at (17, 5), (15, 15), (21, 15), and (1, 9) OPEN!
 
-## Western Corridor & Passage to Southern Floor (Empirically Verified Turn 32034)
-- NW Room (cols 1-5, rows 0-6) connects to Western Corridor at (1, 3).
-- From (2, 2) in NW Room: walk Down to (2, 3) -> Left to (1, 3) -> Down along Column 1 through (1, 4), (1, 5), (1, 6) to (1, 7).
-- Row 7 (cols 1-5) is completely open light purple floor: (1..5, 7).
-- Column 5 (x=5) connects Row 7 at (5, 7) south through (5, 8), (5, 9), (5, 10) into the southern corridors without obstruction.
-- Path to Pit: From (1, 6) -> Down 1 to (1, 7) -> Right 4 to (5, 7) -> Down 3 to (5, 10) -> navigate east through southern corridors to Pit Boulder at (22, 15) and Pit at (23, 15).
+## Western Corridor & NW Room Boundaries (Empirically Verified Turn 32039)
+- NW Room (cols 0-5, rows 0-6) is bounded on the south by a solid rock wall across row 6 (tiles (0..5, 6) do not connect south to row 7).
+- Tested (1, 6) -> Down (bumped into wall at row 6) and (0, 6) -> Down (bumped into wall at (0, 7)).
+- The NW Room and Upper Dark Plateau form an isolated upper sector connected to 2F via NW Ladder at (2, 0) and Ladder NE at (27, 7).
+- The Lower Purple Floor (Pit sector) containing Ladder B at (25, 14), Pit Boulder at (22, 15), and Pit at (23, 15) is accessed directly via Ladder B from 2F.
