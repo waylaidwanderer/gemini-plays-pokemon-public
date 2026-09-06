@@ -1,13 +1,11 @@
 # Inventory Log
-(Capacity: 20 / 20 unique item slots - BAG FULL. Plan to deposit low-priority items at Cerulean Pokémon Center PC before Rock Tunnel.)
+(Capacity: 18 / 20 unique item slots - in progress of freeing bag space at Cerulean PC)
 
 ## Items
 - TOWN MAP
 - POKé BALL x11
 - GREAT BALL x1
 - MAX ETHER x1
-- TM34 (BIDE) x1
-- TM12 (WATER GUN) x1
 - ESCAPE ROPE x1
 - ANTIDOTE x2
 - RARE CANDY x2
@@ -23,6 +21,9 @@
 - BIKE VOUCHER
 - HM01 (CUT)
 - HM05 (FLASH)
+
+## PC Items (Cerulean City PC)
+- TM12 (WATER GUN) x1 [Depositing Turn 3969]
 
 ## Money
 - ¥25266
