@@ -2721,16 +2721,24 @@
   - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7) and Ladder NE at (27, 7).
   - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
 
-## Route from 2F Entrance (0, 8) to Ladder NE (27, 7) / 3F Upper Dark Plateau
+## Master Route from 2F Entrance to Ladder NE (26, 8) & 3F Upper Dark Plateau (VERIFIED Turn 31764)
 1. Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-2. Walk through Shutter 1 at (5, 10) onto Light Purple Floor at (5, 9).
+2. From Switch 1 / (3, 16), walk through Shutter 1 at (5, 10) onto Light Purple Floor at (5, 8).
 3. Walk East along row 8: (5, 8) -> (14, 8) -> South to (14, 12).
 4. Walk East along row 12: (14, 12) -> (20, 12).
 5. Bypass trainer at (21, 13) via (20, 12) -> (20, 14) -> (21, 14).
 6. Pass South through opened Shutter 3 at (21, 15) onto Lower Highway at (21, 16).
-7. Walk East along Lower Highway: (21, 16) -> (29, 16).
-8. Walk North along Column 29 from (29, 16) to (29, 11).
-9. Note: (29, 10) is a rock dead-end; bypass west along Row 11/12 to reach **Ladder NE at (27, 7)** and **Ladder B at (25, 14)** (which ascends to 3F SE Lower Sector / Pit room).
+7. Walk East along Lower Highway (Row 16): (21, 16) -> (29, 16) (8 steps Right).
+8. Walk North up Column 29: (29, 16) -> (29, 8) (8 steps Up).
+9. Walk West along Row 8: (29, 8) -> (26, 8) (3 steps Left).
+10. Step onto Ladder NE at (26, 8) -> Ascends to Victory Road 3F Upper Dark Plateau!
+
+## Return Route from Ladder A / North Area (23, 8) to Ladder NE (26, 8):
+1. Walk West 3 steps along Row 8: (23, 8) -> (20, 8).
+2. Walk South 6 steps down Column 20: (20, 8) -> (20, 14).
+3. Walk Right 1 step: (20, 14) -> (21, 14).
+4. Pass South 2 steps through Shutter 3 (21, 15) to Lower Highway (21, 16).
+5. Follow steps 7-10 above to Ladder NE at (26, 8).
 
 ## Master Boulder 2 Solution
 - Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
