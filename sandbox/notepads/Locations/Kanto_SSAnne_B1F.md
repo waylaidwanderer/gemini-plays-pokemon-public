@@ -29,6 +29,6 @@
   - Furniture: Desk at (10..11, 1), chair at (10, 2..3), bunk bed at (13, 1..2). No items. Status: Cleared.
 - Cabin 5: Entrance at (7, 3) in B1F hallway, interior doorway at (2..3, 5).
   - Interior bounds: Cols 0..3, Rows 1..5.
-  - Occupants: Sailor at (0, 2) (Pre-battle: "Matey, you're walking the plank if you lose!"), Fisherman at (0, 4) [Defeated, Turn 3190] (Roster: Tentacool Lv 17, Staryu Lv 17, Shellder Lv 17; Prize: ¥595; Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!", Defeat: "FISHERMAN: Darn! I let that one get away!").
-  - Furniture: Desk at (0..1, 1), chair at (0, 3), bunk bed at (3, 1..2).
+  - Occupants: Sailor at (0, 2) [Defeated, Turn 3195] (Roster: Machop Lv 20 - 376 EXP; Prize: ¥600; Pre-battle: "Matey, you're walking the plank if you lose!", Defeat: "SAILOR: Argh! Beaten by a kid!"), Fisherman at (0, 4) [Defeated, Turn 3190] (Roster: Tentacool Lv 17 - 382 EXP, Staryu Lv 17 - 385 EXP, Shellder Lv 17 - 352 EXP; Prize: ¥595; Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!", Defeat: "FISHERMAN: Darn! I let that one get away!").
+  - Furniture: Desk at (0..1, 1), chair at (0, 3), bunk bed at (3, 1..2). No items. Status: Cleared.
 - Remaining Cabins: None (all 5 cabins on B1F discovered).

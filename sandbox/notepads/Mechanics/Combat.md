@@ -95,3 +95,8 @@
   - Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!". Defeat: "FISHERMAN: Darn! I let that one get away!".
   - Combat: Tentacool took Bubblebeam (~45%), used Acid (dealt 3 dmg, Sheldon HP 46 -> 43/89), then Bubblebeam (KO). Staryu took Bubblebeam (~65%), used Tackle (dealt 2 dmg, Sheldon HP 43 -> 41/89, Speed fell), then Bubblebeam (KO). Shellder took Bubblebeam (~95%), used Tackle (dealt 3 dmg, Sheldon HP 41 -> 38/89, Speed fell), then Bubblebeam (KO).
   - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 11 -> 5/20. Money: ¥19380 -> ¥19975.
+- **Sailor [Turn 3191 - 3195] (B1F Cabin 5 at 0, 2):**
+  - Roster: Machop Lv 20 (Yield: 376 EXP). Prize: ¥600.
+  - Pre-battle: "Matey, you're walking the plank if you lose!". Defeat: "SAILOR: Argh! Beaten by a kid!".
+  - Combat: Sheldon Lv 33 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 38/89). Bubblebeam PP: 5 -> 4/20.
+  - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 5 -> 4/20. Money: ¥19975 -> ¥20575.
