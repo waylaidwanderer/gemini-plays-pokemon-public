@@ -1362,6 +1362,8 @@
 - Western Branch: Open corridor cols 3-5, rows 6-13+.
 - Eastern Expansion: At row 14, east wall terminates; open cave floor expands east into cols 12-13+ (rows 14-17+).
 - Western Corridor: Trainer visible at (5, 16) on the west side of the col 6-7 dividing rock wall.
+- Southern Hall: At row 18, central rock pillar terminates; corridors merge into a large open hall spanning cols 4-13+ across rows 18-21+.
+- Trainer at (5, 16): Stations in western corridor facing South along col 5.
 
 
 <hr>
