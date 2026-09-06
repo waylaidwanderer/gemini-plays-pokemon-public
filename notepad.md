@@ -127,7 +127,7 @@
 
 - ESCAPE ROPE x1
 
-- ANTIDOTE x2
+- ANTIDOTE x1
 
 - RARE CANDY x2
 
@@ -179,7 +179,7 @@
 
 - BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: 110 / 124
 
@@ -189,7 +189,7 @@
 
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: 26 / 26
 
@@ -201,7 +201,7 @@
 
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: 29 / 29
 
@@ -213,7 +213,7 @@
 
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: 20 / 20
 
@@ -227,7 +227,7 @@
 
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: 38 / 38
 
@@ -243,7 +243,7 @@
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: Full
 
@@ -257,7 +257,7 @@
 
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: Full
 
@@ -265,7 +265,7 @@
 
 - SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
 
-  - Status: Poisoned (PSN)
+  - Status: Healthy
 
   - HP: Full
 
