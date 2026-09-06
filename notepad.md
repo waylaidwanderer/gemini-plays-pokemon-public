@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 39, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥39921
+- Money: ¥40921
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -1328,7 +1328,6 @@
 - Signpost (7, 19): Rock Tunnel entrance signpost [Sighted Turn 4529].
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
-- NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].
 - Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
 
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
@@ -1465,8 +1464,8 @@
 
 ## Connections
 - North: Route 10 South at cols 9..11, row 0 (Route 10 South (9..11, 71) <-> Lavender Town (9..11, 0)).
-- West: Route 8.
-- South: Route 12 (Silence Bridge).
+- West: Gatehouse / path at west boundary (row 9).
+- South: Southern pathway (TBD).
 
 ## Geography & Layout
 - Northern Entrance (Cols 8..11, Rows 0..2): Open green lawn entering from Route 10 South.
@@ -1478,15 +1477,28 @@
 - Signpost at (11, 9): Located east of Volunteer House.
 - Southwest Building: Located at cols 2..5, rows 12..13 with entrance door at (3, 13) and window at (4, 13).
 - South Building: Located at cols 6..9, rows 12..13 with entrance door at (7, 13) and window at (8, 13).
-- West Exit: Route 8 connection/gatehouse approach at west edge (row 9).
+- Poké Mart: Located at cols 14..17, rows 11..13 with entrance door at (15, 13) and "MART" sign at (16, 13) [Sighted Turn 4861].
+- West Exit: Gatehouse approach at west edge (row 9).
 - NPC at (11, 7): Stationed in eastern lawn.
 - NPC at (9, 10): Stationed south of Volunteer House.
+- NPC at (15, 8): Sighted east of Volunteer House [Turn 4861].
+- NPC at (15, 7): Sighted in eastern district [Turn 4861].
 
 ## Key Buildings & Facilities
 - Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3).
-- Poké Mart: TBD
+- Poké Mart: Located at cols 14..17, rows 11..13. Front entrance door at (15, 13), "MART" sign at (16, 13) [Sighted Turn 4861].
 - Pokémon Tower: Located in northeast quadrant.
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9. Front entrance door at (7, 9).
-- Name Rater's House: TBD
+  - Interior Layout (verified Turn 4856-4858):
+    - Entrance mat at (2..3, 7).
+    - Table at (3..4, 3..4) with Pokémon Fan Magazine at (3, 3).
+    - Bookcases along north wall at (0..1, 1) and (7, 1).
+    - Kid in blue at (3, 5): Dialogue - "That's odd, MR.FUJI isn't here. Where'd he go?" [Turn 4857].
+    - Little girl at (6, 3).
+    - Nidorino at (6, 4).
+    - Psyduck at (1, 3).
+- Southwest House: Located at cols 2..5, rows 12..13. Entrance door at (3, 13).
+- South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
+
 
 <hr>
