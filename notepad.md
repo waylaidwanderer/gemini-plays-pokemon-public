@@ -1,143 +1,143 @@
 <h1><code>Main</code></h1>
 
-# Pokémon Blue - Journey Log
-
-## Status
-- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: �40616
-- Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
-
-## Milestones
-- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
-- [x] Withdraw starting Potion from bedroom PC [Turn 18]
-- [x] Receive Starter Pokémon from Professor Oak (Squirtle) [Turn 40]
-- [x] Defeat Rival RED in Oak's Lab [Turn 58]
-- [x] Reach Viridian City via Route 1 [Turn 132]
-- [x] Visit Viridian City Poké Mart [Turn 169]
-- [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
-- [x] Obtain Pokédex from Prof. Oak [Turn 214]
-- [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
-- [x] Return to Viridian City, heal team & purchase Poké Ball [Turn 284]
-- [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
-- [x] Reach Pewter City [Turn 495]
-- [x] Defeat Pewter Gym Leader Brock [Turn 594]
-- [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
-- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
-- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
-- [x] Exit Mt. Moon to Route 4 [Turn 1865]
-- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
-- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
-- [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
-- [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
-- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
-- [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
-- [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
-- [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
-- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
-- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 2796]
-- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
-- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
-- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
-- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
-- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
-- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
-- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
-- [x] Catch wild Drowzee on Route 11 [Turn 3721]
-- [x] Catch wild Sandshrew on Route 11 [Turn 3751]
-- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
-- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
-- [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
-- [x] Traverse Route 9 and reach Route 10 [Turn 4517]
-- [x] Enter Rock Tunnel on Route 10 [Turn 4547]
-- [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
-- [x] Arrive in Lavender Town [Turn 4839]
-- [x] Defeat Rival RED on Pokémon Tower 2F [Turn 4940]
+# Pokéémon Blue - Journey Log
+
+## Status
+- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
+- Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Money: ¥40616
+- Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
+
+## Milestones
+- [x] Complete Intro & Name Character/Rival (Player: BLUE, Rival: RED) [Turn 14]
+- [x] Withdraw starting Potion from bedroom PC [Turn 18]
+- [x] Receive Starter Pokéémon from Professor Oak (Squirtle) [Turn 40]
+- [x] Defeat Rival RED in Oak's Lab [Turn 58]
+- [x] Reach Viridian City via Route 1 [Turn 132]
+- [x] Visit Viridian City Pokéé Mart [Turn 169]
+- [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
+- [x] Obtain Pokéédex from Prof. Oak [Turn 214]
+- [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
+- [x] Return to Viridian City, heal team & purchase Pokéé Ball [Turn 284]
+- [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
+- [x] Reach Pewter City [Turn 495]
+- [x] Defeat Pewter Gym Leader Brock [Turn 594]
+- [x] Traverse Route 3 and reach Mt. Moon [Turn 1017]
+- [x] Catch wild Geodude in Mt. Moon [Turn 1197]
+- [x] Explore Mt. Moon and retrieve Fossil (Helix Fossil) [Turn 1853]
+- [x] Exit Mt. Moon to Route 4 [Turn 1865]
+- [x] Traverse Route 4 and reach Cerulean City [Turn 1938]
+- [x] Defeat Cerulean Gym Leader Misty & earn Cascadebadge [Turn 2077]
+- [x] Defeat Rival RED at Route 24 entrance [Turn 2296]
+- [x] Clear Nugget Bridge & defeat Team Rocket Recruiter [Turn 2367]
+- [x] Clear Route 25 trainers and obtain S.S. Ticket from Bill [Turn 2552]
+- [x] Recover TM28 (Dig) from Team Rocket Grunt behind robbed house in Cerulean City [Turn 2612]
+- [x] Traverse Route 5 and Underground Path to Vermilion City [Turn 2701]
+- [x] Obtain Old Rod from Fishing Guru in Vermilion City [Turn 2717]
+- [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
+- [x] Obtain Bike Voucher from Pokéémon Fan Club Chairman in Vermilion City [Turn 2796]
+- [x] Board the S.S. Anne in Vermilion City [Turn 2836]
+- [x] Obtain TM08 (Body Slam) in S.S. Anne Cabin 4 [Turn 2877]
+- [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
+- [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
+- [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
+- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
+- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
+- [x] Catch wild Drowzee on Route 11 [Turn 3721]
+- [x] Catch wild Sandshrew on Route 11 [Turn 3751]
+- [x] Obtain HM05 Flash from Professor Oak's Aide on Route 2 [Turn 3846]
+- [x] Exchange Bike Voucher for Bicycle at Miracle Cycle in Cerulean City [Turn 3981]
+- [x] Cut down Route 9 tree and enter Route 9 [Turn 4085]
+- [x] Traverse Route 9 and reach Route 10 [Turn 4517]
+- [x] Enter Rock Tunnel on Route 10 [Turn 4547]
+- [x] Traverse Rock Tunnel and exit onto Route 10 South [Turn 4789]
+- [x] Arrive in Lavender Town [Turn 4839]
+- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]
 
 <hr>
 
 <h1><code>Inventory</code></h1>
 
-# Inventory Log
-(Capacity: 14 / 20 unique item slots - 5 slots freed at Cerulean PC)
-
-## Items
-- POKé BALL x11
-- GREAT BALL x1
-- MAX ETHER x1
-- MAX POTION x1
-- ESCAPE ROPE x1
-- ANTIDOTE x2
-- RARE CANDY x2
-- TM24 (THUNDERBOLT) x1
-- TM30 (TELEPORT) x1
-- HP UP x1
-- SUPER REPEL x5
-
-## Key Items
-- S.S. TICKET
-- OLD ROD
-- BICYCLE
-- HM01 (CUT)
-- HM05 (FLASH)
-
-## PC Items (Cerulean City PC)
-- TM34 (BIDE) x1
-- TM12 (WATER GUN) x1
-- NUGGET x1
-- HELIX FOSSIL x1
-- TOWN MAP x1
-
-## Money
-- �40616
-
-## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
-  - Status: Healthy
-  - HP: 110 / 124
-  - Stats: Attack 89, Defense 105, Speed 89, Special 91
-  - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 16/20), Water Gun (PP 25/25) [Restored Turn 4849]
-- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Healthy
-  - HP: 26 / 26
-  - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35)
-  - EXP: 314 (105 to Lv 9)
-- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
-  - Status: Healthy
-  - HP: 29 / 29
-  - Stats: Attack 21, Defense 16, Speed 11, Special 18
-  - Moves: Scratch (PP 35/35)
-  - EXP: 1000 (331 to Lv 11)
-- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy
-  - HP: 20 / 20
-  - Stats: Attack 12, Defense 11, Speed 11, Special 11
-  - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
-  - EXP: 125 (91 to Lv 6)
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
-  - Status: Healthy
-  - HP: 38 / 38
-  - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
-  - OT: BLUE (IDNo. 04620)
-  - Caught: Diglett's Cave [Turn 3507]
-- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy
-  - HP: Full
-  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
-  - Caught: Route 11 tall grass [Turn 3721]
-
-## PC Box 1 Pokémon
-- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
-  - Status: Healthy
-  - HP: Full
-  - Caught: Route 11 with Old Rod [Turn 3694]
-- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
-  - Status: Healthy
-  - HP: Full
+# Inventory Log
+(Capacity: 14 / 20 unique item slots - 5 slots freed at Cerulean PC)
+
+## Items
+- POKé BALL x11
+- GREAT BALL x1
+- MAX ETHER x1
+- MAX POTION x1
+- ESCAPE ROPE x1
+- ANTIDOTE x2
+- RARE CANDY x2
+- TM24 (THUNDERBOLT) x1
+- TM30 (TELEPORT) x1
+- HP UP x1
+- SUPER REPEL x5
+
+## Key Items
+- S.S. TICKET
+- OLD ROD
+- BICYCLE
+- HM01 (CUT)
+- HM05 (FLASH)
+
+## PC Items (Cerulean City PC)
+- TM34 (BIDE) x1
+- TM12 (WATER GUN) x1
+- NUGGET x1
+- HELIX FOSSIL x1
+- TOWN MAP x1
+
+## Money
+- �¥40616
+
+## Party Pokéémon
+- BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
+  - Status: Healthy
+  - HP: 110 / 124
+  - Stats: Attack 89, Defense 105, Speed 89, Special 91
+  - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 16/20), Water Gun (PP 25/25) [Restored Turn 4849]
+- GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
+  - Status: Healthy
+  - HP: 26 / 26
+  - Stats: Attack 19, Defense 22, Speed 9, Special 11
+  - Moves: Tackle (PP 35/35)
+  - EXP: 314 (105 to Lv 9)
+- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+  - Status: Healthy
+  - HP: 29 / 29
+  - Stats: Attack 21, Defense 16, Speed 11, Special 18
+  - Moves: Scratch (PP 35/35)
+  - EXP: 1000 (331 to Lv 11)
+- FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
+  - Status: Healthy
+  - HP: 20 / 20
+  - Stats: Attack 12, Defense 11, Speed 11, Special 11
+  - OT: TRAINER (IDNo. 24460, Boosted EXP)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
+  - EXP: 125 (91 to Lv 6)
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+  - Status: Healthy
+  - HP: 38 / 38
+  - Stats: Attack 29, Defense 16, Speed 45, Special 26
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
+  - OT: BLUE (IDNo. 04620)
+  - Caught: Diglett's Cave [Turn 3507]
+- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
+  - Caught: Route 11 tall grass [Turn 3721]
+
+## PC Box 1 Pokéémon
+- MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
+  - Status: Healthy
+  - HP: Full
+  - Caught: Route 11 with Old Rod [Turn 3694]
+- SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
+  - Status: Healthy
+  - HP: Full
   - Caught: Route 11 tall grass [Turn 3751]
 
 <hr>
@@ -1527,53 +1527,53 @@
 
 <h1><code>Locations/Kanto_PokemonTower_2F</code></h1>
 
-# Pokémon Tower 2F Geography & Points of Interest
-
-## Connections
-- Stairs Up: Located at (18, 9) leading up to 3F [Verified Turns 5007, 5032].
-- Stairs Down: Tile (3, 9) was empirically tested and confirmed to be standard crosshatch floor (no warp). Actively searching remaining quadrants of 2F (specifically rows 1..4 in north and east) for the 1F connection [Turn 5056].
-
-## Key Events & Encounters
-- Rival RED Encounter: Challenged player on 2F.
-  - Rival's Team: Pidgeotto Lv 25, Gyarados Lv 23, Growlithe Lv 22, Kadabra Lv 20, Ivysaur Lv 25.
-  - Defeated Turn 4940 (Prize: ¥1625).
-  - Dialogue: Mentions catching Cubone and looking for Marowak.
-  - Departure: Exited down the stairs at (18, 9) to 1F.
-- NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
-- Channeler at (10, 13): Trainer battle! Gastly Lv 22 (447 EXP). Defeated Turn 4971 (Prize: ¥660). Defeat dialogue: "Whew! The spirit left!"
-- Wild Encounters: Active on 2F (triggered at (6, 13)). Wild Pokémon appear as unidentifiable 'GHOST' without the Silph Scope [Turn 4976].
-
-## Geography & Layout
-- Eastern Wall: Solid boundary along cols 19..20 (and cols 16..20 on rows 1..3).
-- Central / Eastern Hall: Open crosshatch aisles across cols 11..15, rows 3..5 and rows 7..8.
-- Northern / Central Aisles: Open floor at cols 9..10 (rows 2..5) and cols 11..15 (rows 3..5).
-- Main West-East Corridor (Row 5): Open crosshatch path running through cols 7..15.
-- Central Barrier (Row 6): Solid horizontal line of tombstones across cols 7..13.
-- Southern Aisle: Open floor running through cols 10..16 along row 7, and north-south path at cols 10..11 (rows 7..9).
-- Memorial Altars & Tombstones:
-  - Orange altars at (6..8, 1), (5..7, 2), (4..5, 3), (3..4, 4..5), (3, 6), (7, 2), (13..15, 1), (14..16, 2), (16..17, 3), (17..18, 4..5), (18..19, 6), (19, 7..9).
-  - Grey tombstones at (9..12, 1), (8, 2), (7..8, 3), (7, 4), (5..7, 4), (6..7, 3), (16, 4), (7..13, 6), (7..9, 7..9), (12..15, 8..9).
-- Western Wall: Solid boundary along cols 0..1.
+# Pokéémon Tower 2F Geography & Points of Interest
+
+## Connections
+- Stairs Up: Located at (18, 9) leading up to 3F [Verified Turns 5007, 5032].
+- Stairs Down: Tile (3, 9) was empirically tested and confirmed to be standard crosshatch floor (no warp).
+
+## Key Events & Encounters
+- Rival RED Encounter: Challenged player on 2F.
+  - Rival's Team: Pidgeotto Lv 25, Gyarados Lv 23, Growlithe Lv 22, Kadabra Lv 20, Ivysaur Lv 25.
+  - Defeated Turn 4940 (Prize: ¥1625).
+  - Dialogue: Mentions catching Cubone and looking for Marowak.
+  - Departure: Exited down the stairs at (18, 9) to 1F.
+- NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
+- Channeler at (10, 13): Trainer battle! Gastly Lv 22 (447 EXP). Defeated Turn 4971 (Prize: ¥660). Defeat dialogue: "Whew! The spirit left!"
+- Wild Encounters: Active on 2F (triggered at (6, 13)). Wild Pokéémon appear as unidentifiable 'GHOST' without the Silph Scope [Turn 4976].
+
+## Geography & Layout
+- Eastern Wall: Solid boundary along cols 19..20 (and cols 16..20 on rows 1..3).
+- Central / Eastern Hall: Open crosshatch aisles across cols 11..15, rows 3..5 and rows 7..8.
+- Northern / Central Aisles: Open floor at cols 9..10 (rows 2..5) and cols 11..15 (rows 3..5).
+- Main West-East Corridor (Row 5): Open crosshatch path running through cols 7..15.
+- Central Barrier (Row 6): Solid horizontal line of tombstones across cols 7..13.
+- Southern Aisle: Open floor running through cols 10..16 along row 7, and north-south path at cols 10..11 (rows 7..9).
+- Memorial Altars & Tombstones:
+  - Orange altars at (6..8, 1), (5..7, 2), (4..5, 3), (3..4, 4..5), (3, 6), (7, 2), (13..15, 1), (14..16, 2), (16..17, 3), (17..18, 4..5), (18..19, 6), (19, 7..9).
+  - Grey tombstones at (9..12, 1), (8, 2), (7..8, 3), (7, 4), (5..7, 4), (6..7, 3), (16, 4), (7..13, 6), (7..9, 7..9), (12..15, 8..9).
+- Western Wall: Solid boundary along cols 0..1.
 - Western District: Open crosshatch floor across cols 4..7 (rows 6..7), cols 3..5 (rows 8..11). Orange altars line col 2 (rows 6..11) and (3, 11).
 
 <hr>
 
 <h1><code>Locations/Kanto_PokemonTower_3F</code></h1>
 
-# Pok�mon Tower 3F Geography & Points of Interest
-
-## Connections
-- Stairs Down: Located at (18, 9) leading down to 2F.
-- Stairs Up: TBD.
-
-## Key Events & Encounters
-- Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: �690). Defeat dialogue: "What!".
-- Item Ball at (9, 10): Pok� Ball on floor (Escape Rope) [Turn 5030].
-
-## Geography & Layout
-- Eastern Wall: (19, 5..10) orange altars.
-- Stairs Down: (18, 9) yellow/brown steps descending left.
-- Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
+# Poké�mon Tower 3F Geography & Points of Interest
+
+## Connections
+- Stairs Down: Located at (18, 9) leading down to 2F.
+- Stairs Up: TBD.
+
+## Key Events & Encounters
+- Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: �¥690). Defeat dialogue: "What!".
+- Item Ball at (9, 10): Poké� Ball on floor (Escape Rope) [Turn 5030].
+
+## Geography & Layout
+- Eastern Wall: (19, 5..10) orange altars.
+- Stairs Down: (18, 9) yellow/brown steps descending left.
+- Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
 
 
 <hr>
