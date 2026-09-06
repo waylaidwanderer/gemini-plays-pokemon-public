@@ -19,6 +19,8 @@
   - Badge Requirement: Boulderbadge (Brock) - earned Turn 594.
   - Obtained: From Prof. Oak's Aide in Route 2 eastern gatehouse [Turn 3846].
   - Function: Illuminates pitch-black caves (specifically Rock Tunnel).
+  - Designated User: Drowzee (SANDMAN) - stored in PC Box 1, to be withdrawn at Cerulean Pokémon Center.
+  - Compatibility Audit: In Gen 1 retail, Paras, Diglett, Farfetch'd, Wartortle, Geodude, and Magikarp CANNOT learn Flash. Drowzee (Psychic), Abra line, Pikachu line, and Clefairy line are eligible learners.
 - **TM28 DIG:**
   - Designated User: Diglett (DIGBY) - Slot 1 in current party.
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
