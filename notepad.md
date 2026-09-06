@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 33, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥20575
+- Money: ¥21835
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,7 +71,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥20575
+- ¥21835
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 33, Water]
@@ -233,6 +233,11 @@
   - Pre-battle: "Matey, you're walking the plank if you lose!". Defeat: "SAILOR: Argh! Beaten by a kid!".
   - Combat: Sheldon Lv 33 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 38/89). Bubblebeam PP: 5 -> 4/20.
   - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 5 -> 4/20. Money: ¥19975 -> ¥20575.
+- **Gentleman [Turn 3209 - 3216] (1F Cabin 6 at 2, 3):**
+  - Roster: Growlithe Lv 18 (Yield: 351 EXP), Growlithe Lv 18 (Yield: 351 EXP). Total EXP: 702 EXP. Prize: ¥1260.
+  - Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!". Defeat: "GENTLEMAN: My, my friends...".
+  - Combat: Sheldon Lv 33 used Water Gun on Growlithe 1 (OHKO). Sheldon used Water Gun on Growlithe 2 (OHKO). Sheldon took 0 damage (HP 38/89). Water Gun PP: 23 -> 21/25.
+  - Outcome: Decisive victory. HP: 38/89. Water Gun PP: 21/25. Money: ¥20575 -> ¥21835.
 
 
 <hr>
@@ -1040,7 +1045,7 @@
 ## Eastern Corridor & B1F Passage
 - Cabin 6 (Eastern Cabin): Entrance at (31, 8) in 1F main hallway, interior doorway at (0, 0).
   - Interior bounds: Cols 0..3, Rows 0..5.
-  - Occupants: Gentleman at (2, 3) (Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!").
+  - Occupants: Gentleman at (2, 3) [Defeated, Turn 3216] (Pre-battle: "I travel alone on my journeys! My POKéMON are my only friends!").
   - Furniture: Bed at (3, 4..5), desk/table at (0..1, 5). No item balls visible.
 - Eastern South Corridor: Cols 36..37, extending south from row 7 to row 15 (checkered carpet at col 36, yellow at col 37).
 - East wall of ship at col 38.
