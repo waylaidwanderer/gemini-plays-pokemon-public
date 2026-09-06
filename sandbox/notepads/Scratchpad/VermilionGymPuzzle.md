@@ -35,3 +35,5 @@
   - Can (5, 7): Inspecting Turn 3362.
 - Can (5, 7): Checked Turn 3363 -> Only trash.
 - Can (7, 7): Inspecting Turn 3363.
+- Can (7, 7): Checked Turn 3365 -> Only trash.
+- Can (9, 7): Inspecting Turn 3365.
