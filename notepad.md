@@ -1243,5 +1243,6 @@
 - Can (7, 9): Tested [Turn 3428] -> Only trash.
 - Can (9, 11): Tested [Turn 3429] -> Only trash.
 - Can (7, 11): Tested [Turn 3430] -> Only trash. (Columns 7 and 9 fully empty).
+- Can (5, 11): Inspecting on Turn 3431.
 
 <hr>
