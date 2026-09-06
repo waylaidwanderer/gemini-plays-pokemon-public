@@ -12,7 +12,7 @@
 - Southern Water: Shoreline along row 8 (cols 0..7), ocean water extending south into rows 9..10+.
 - Fence & Passage: Vertical fence along col 10 with opening at (10, 6..7).
 - Western Tall Grass Patch: 4x4 block of tall grass spanning cols 12..15, rows 6..9.
-- Youngster Trainer at (13, 5): Stationed in grass facing West along row 5 (sightline along row 5).
+- Youngster Trainer at (13, 5) [Defeated, Turn 3788]: Stationed at (13, 5) facing West. Used Ekans Lv 21. Prize: ¥315.
 
 ## Wild Encounters & Catches
 - Spearow: Lv 13 observed in tall grass [Turn 3709].
