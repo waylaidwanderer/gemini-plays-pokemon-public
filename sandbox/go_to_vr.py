@@ -18,8 +18,7 @@ class Nav:
         return True
 
     def run_battle(self):
-        # Clear battle text / intro and attempt Run
-        self.press(["A", "sleep 250", "B", "sleep 250", "A", "sleep 250", "B", "sleep 250"])
+        self.press(["B", "sleep 200", "B", "sleep 200", "A", "sleep 200", "B", "sleep 200"])
         self.press(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 400", "B", "sleep 200", "B", "sleep 150"])
 
     def step(self, d):
@@ -28,7 +27,6 @@ class Nav:
             return ox, oy
         nx, ny = self.get_pos()
         if (nx, ny) == (ox, oy):
-            # Check if battle or dialogue
             self.run_battle()
             nx, ny = self.get_pos()
         return nx, ny
@@ -53,30 +51,8 @@ class Nav:
             steps += 1
         return False
 
-    def route22(self):
-        # We start around (33, 9)
-        # First ensure out of battle
-        self.run_battle()
-        print("After run attempt, pos:", self.get_pos())
-        
-        # Canonical Route 22 waypoints from (33, 9):
-        # 1. Down to (33, 12)
-        # 2. Left to (31, 12)
-        # 3. North through grass to (31, 8)
-        # 4. North through gap at (31, 7) to Upper Highway (31, 5)
-        # 5. West along Upper Highway to (16, 5)
-        # 6. Hop south at (16, 7) down ledge to (16, 8) -> (16, 12)
-        # 7. West to (5, 12)
-        # 8. North through carpet to (5, 10)
-        # 9. East to (11, 10)
-        # 10. North to (11, 6)
-        # 11. West to (8, 6)
-        # 12. North to (8, 5) (Gatehouse entrance)
+    def run(self):
         wps = [
-            (33, 12),
-            (31, 12),
-            (31, 8),
-            (31, 5),
             (16, 5),
             (16, 7),
             (16, 12),
@@ -90,13 +66,11 @@ class Nav:
             self.walk_to(wx, wy)
             if self.used >= self.budget:
                 break
-        
-        # If at (8, 6), enter gatehouse
         cx, cy = self.get_pos()
         if (cx, cy) == (8, 6):
-            self.press(["Up", "sleep 300", "Up", "sleep 300"])
-        print("Finished script at pos:", self.get_pos(), "used buttons:", self.used)
+            self.press(["Up", "sleep 350", "Up", "sleep 350"])
+        print("End pos:", self.get_pos(), "used:", self.used)
 
 if __name__ == "__main__":
     n = Nav(budget=70)
-    n.route22()
+    n.run()
