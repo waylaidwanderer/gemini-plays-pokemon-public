@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥40616
+- Money: �40616
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -89,7 +89,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥40616
+- �40616
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 40, Water]
@@ -1568,7 +1568,7 @@
 - Stairs Up: TBD.
 
 ## Key Events & Encounters
-- Channeler at (15, 8): Trainer battle! Dialogue: "Be cursed with me! Kwaaah!" [Turn 5011].
+- Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: �690). Defeat dialogue: "What!".
 - Item Ball at (12, 10): Pok� Ball on floor (contains Escape Rope) [Turn 5011].
 
 ## Geography & Layout
