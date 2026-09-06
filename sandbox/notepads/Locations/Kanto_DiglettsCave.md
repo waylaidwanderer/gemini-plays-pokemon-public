@@ -8,3 +8,4 @@
 
 ## Objectives
 - Descend ladder to encounter and catch wild Diglett (Lv 15-22) or Dugtrio (Lv 29-31).
+- NPC dialogue: "What a surprise! DIGLETTs dug this long tunnel!" (Tunnel connects Vermilion City / Route 11 to Route 2).
