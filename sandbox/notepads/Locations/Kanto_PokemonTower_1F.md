@@ -14,3 +14,5 @@
 - Visitor at (8, 12): Man in orange vest facing south.
 - Visitor at (6, 8): Girl with black hair and green bow facing south.
 - Visitor at (13, 7): Woman with red hair facing south.
+- Northeast Quadrant (Cols 14..18, Rows 0..3): Wall and memorial altars; no staircase present.
+- Visitor at (17, 7): Person in blue coat facing west.
