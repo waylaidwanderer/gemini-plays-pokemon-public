@@ -35,7 +35,7 @@
 ## Eastern Corridor & B1F Passage
 - Cabin 6 (Eastern Cabin): Entrance at (31, 8) in 1F main hallway, interior doorway at (0, 0).
   - Interior bounds: Cols 0..3, Rows 0..5.
-  - Occupants: Sailor at (2, 3).
+  - Occupants: Sailor at (2, 3) (Quote: "I travel alone on my journeys!").
   - Furniture: Bed at (3, 4..5), desk/table at (0..1, 5). No item balls visible.
 - Eastern South Corridor: Cols 36..37, extending south from row 7 to row 15 (checkered carpet at col 36, yellow at col 37).
 - East wall of ship at col 38.
