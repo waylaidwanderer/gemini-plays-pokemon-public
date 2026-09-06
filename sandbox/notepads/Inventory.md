@@ -27,17 +27,14 @@
 - TOWN MAP x1
 
 ## Money
-- ¥25266
+- ¥25626
 
 ## Party Pokémon
-- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
+- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
   - Status: Healthy
-  - HP: 38 / 38
-  - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
-  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
-  - OT: BLUE (IDNo. 04620)
-  - Caught: Diglett's Cave [Turn 3507]
+  - HP: 91 / 91
+  - Stats: Attack 61, Defense 74, Speed 62, Special 63
+  - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 11/15) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -57,12 +54,14 @@
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
   - EXP: 125 (91 to Lv 6)
-- WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
+- DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
-  - HP: 91 / 91
-  - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 15/15) [Learned Turn 4031]
-
+  - HP: 38 / 38
+  - Stats: Attack 29, Defense 16, Speed 45, Special 26
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - EXP: 7376 (139 EXP from Youngster Ekans Turn 3787)
+  - OT: BLUE (IDNo. 04620)
+  - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
   - HP: Full
