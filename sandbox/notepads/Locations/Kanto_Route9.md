@@ -34,7 +34,7 @@
 - Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19, Beedrill Lv 19. Prize: ¥190. Defeated Turn 4209.
 ## Topography & Route 10 Progression Architecture
 - Route 9 consists of 3 distinct elevation terraces:
-  1. Top Terrace (Rows 2..9): The MAIN HIGHWAY to Route 10! Starts at the Cut tree (5, 8), runs east past Camper Drew (24, 7), crosses the Northern Plateau (rows 2..5) or upper path past Bug Catcher (31, 7), continues along gravel road (rows 8..9) past Bug Catcher (40, 8) and straight into Route 10!
-  2. Middle Terrace (Rows 10..12): Lower terrace entered by hopping south over ledges at (23, 9) or (40..41, 11). Bounded east by rock wall at (42, 12). Open along row 10 west back to Alicia (13, 10) and entrance.
+  1. Top Terrace (Rows 2..9): Starts at the Cut tree (5, 8), runs east past Camper Drew (24, 7), connects to the Northern Plateau (rows 2..5). Ramp at (29, 9) connects from Middle Terrace up to row 8 lawn.
+  2. Middle Terrace (Rows 10..12): Lower terrace entered by hopping south over ledges at (23, 9) or (40..41, 11). Bounded east by rock wall at (42, 12) and west by solid rock cliff at (19, 11) and south-facing ledge at (11, 11).
   3. Bottom Terrace (Rows 14..15): Lowest terrace entered by hopping south over row 13 ledges. Contains TM30 (10, 15) and Hiker (45, 15). Terminates east at col 54 cliff. Ramps at (19, 13) and (29, 13) lead up to Middle Terrace.
-- Critical Progression Rule: To reach Route 10, DO NOT hop down any south-facing ledges! Stay on the Top Terrace (rows 6..9) all the way east.
+- Elevation Connectivity: Tile (29, 9) is a verified walkable ramp from Middle Terrace (row 10) up to Top Terrace (row 8). Tile (30, 8) is a solid cliff corner (impassable going east from (29, 8)).
