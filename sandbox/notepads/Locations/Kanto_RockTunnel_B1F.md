@@ -17,3 +17,4 @@
 ## Southern Corridor
 - Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.
 - Southern Highway Extension: Confirmed wide open 4-tile avenue rows 30..33 spanning west through col 18+, bounded north by row 29 wall and south by row 34 wall.
+- Trainer sighted at (14, 28) facing South (green hair / orange outfit).
