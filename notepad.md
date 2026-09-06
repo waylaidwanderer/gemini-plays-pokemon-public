@@ -1324,5 +1324,7 @@
 - Rock Tunnel Entrance (8, 17): Dark cave mouth in northern cliff [Sighted Turn 4529].
 - Signpost (7, 19): Rock Tunnel entrance signpost [Sighted Turn 4529].
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
+- Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
+- NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].
 
 <hr>
