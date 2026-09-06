@@ -25,3 +25,5 @@
 - Central Rock Pillar: (6..7, 10..13+) divides southern path into western branch (cols 3-5) and eastern branch (cols 8-11).
 - Eastern Branch: Open corridor cols 8-11, rows 6-13+ bounded east by wall at col 12.
 - Western Branch: Open corridor cols 3-5, rows 6-13+.
+- Eastern Expansion: At row 14, east wall terminates; open cave floor expands east into cols 12-13+ (rows 14-17+).
+- Western Corridor: Trainer visible at (5, 16) on the west side of the col 6-7 dividing rock wall.
