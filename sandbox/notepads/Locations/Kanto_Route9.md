@@ -10,7 +10,7 @@
 - Northern Tall Grass Patch (Rows 2..5, Cols 8..15): 4-tile high grass patch on the northern plateau, bounded north by row 1 mountain and south by row 6 lawn.
 - Northern Plateau (Rows 2..4, Cols 21..25+): Open green lawn area north of the central rock ridge.
 - Signpost at (25, 7): "ROUTE 9 / CERULEAN CITY - ROCK TUNNEL" [Turn 4194].
-- Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south).
+- Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south). Stone fence posts on column 5 extend continuously from row 2 through row 6 [Surveyed Turn 4402].
 - Northern Corridor (Row 8): Open path from col 0 to col 4. Tile (5, 8) is the CONFIRMED Cut tree blocking Route 9! Cleared with Farfetch'd (DUX) using Cut from (4, 8) facing East [Turn 4085]. Leads directly east onto the Route 9 gravel road at col 6+.
 - Southern Corridor (Row 9): Open path from col 0 to col 3. Tile (4, 9) is an impassable decorative shrub (solid collision, cannot be cut).
 - Western Pocket / Southern Highway (Rows 14..15): Gravel corridor spanning cols 10..23. Bounded on the west by solid cliff wall at col 9 (tested Turns 4118, 4138) and on the east by mountain cliff at cols 24..27 (rows 13..18 solid cliff). Bounded south by cliff at row 16 and north by south-facing ledge at row 13.
@@ -19,7 +19,7 @@
 - Tile (29, 9) Ramp: Confirmed fully walkable ramp connecting row 10 (Middle Terrace) north onto row 8 lawn (Top Terrace) [Empirically verified Turn 4259].
 - Main Route 9 Highway (Rows 10..11): Wide open gravel avenue spanning east from col 20.
 - Central Tall Grass Corridor (Row 12): Continuous east-west grass avenue spanning cols 28..37+ bounded south by row 13 ledge and north by rocky outcroppings.
-- Eastern Grass Strip (Rows 14..15): Lower tall grass strip entered via hopping row 13 ledge at (40..41, 13). Spans east to col 53; terminated on the east by cliff at col 54 (tested Turn 4155). Row 13 ledges north at cols 46, 47, 52, 53 confirmed impassable going north.
+- Eastern Grass Strip (Rows 14..15): Lower tall grass strip entered via hopping row 13 ledge at (40..41, 13). Spans east to col 53; terminated on the east by cliff at col 54 (tested Turn 4155).
 
 ## Items
 - TM30 (TELEPORT): Ground item ball at (10, 15) in western pocket. Collected Turn 4116.
@@ -57,3 +57,4 @@
 - Tile (42, 12): Solid rock wall, impassable east from (41, 12) [Turn 4385].
 - Tile (46, 13): South-facing ledge, impassable north from (46, 14) [Turn 4408].
 - Tile (47, 13): South-facing ledge, impassable north from (47, 14) [Turn 4409].
+- Tile (44, 13): Solid rock wall, impassable north from (44, 14) [Turn 4407].
