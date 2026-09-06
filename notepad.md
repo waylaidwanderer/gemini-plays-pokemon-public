@@ -85,7 +85,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥29881
+- ¥31131
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 36, Water]
@@ -1325,7 +1325,8 @@
 - Signpost (7, 19): Rock Tunnel entrance signpost [Sighted Turn 4529].
 - Tile (8, 21): Impassable decorative shrub, blocked west from (9, 21) [Turn 4533].
 - Southern Bypass (Rows 26..29, Cols 7..14): Wide open green lawn and paved road connecting Pokémon Center grounds west to the main Rock Tunnel avenue at col 7 [Turn 4535].
-- NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].- Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
+- NPC at (7, 25): Stationed on column 7 road facing North [Turn 4535].
+- Jr. Trainer Female at (7, 24): Pikachu Lv 20, Clefairy Lv 20. Prize: ¥400. Defeated Turn 4542.
 
 
 <hr>
@@ -1361,6 +1362,7 @@
 # Rock Tunnel B1F Geography & Exploration Log
 
 ## Overview
+- Wild encounters verified: Machop Lv 15-16 [Turn 4579], Geodude Lv 17 [Turn 4589].
 - Basement level of Rock Tunnel connecting the two sections of 1F.
 - Arrived via Ladder 1 from 1F (37, 3) -> B1F (33, 25) [Turn 4575].
 
@@ -1370,7 +1372,6 @@
 - Southeastern Chamber: Ladder 1 at (33, 25). North wall at row 21 (cols 26-38), East wall at col 38 (rows 21-29).
 - Dividing Rock Wall: Vertical rock barrier at cols 26-27 (rows 21-29) separates the Ladder 1 chamber from the western corridor.
 - Southward Exit: Open floor corridor along cols 28-34 heading south past row 29 toward the southern bend.
-- Target: Ladder 2 at northwest corner (5, 3) leading back up to 1F.
 ## Trainers
 - Pokémaniac Winston at (26, 30) facing South ("I draw POKéMON when I'm home."): Slowpoke Lv 25. Defeated Turn 4585. Prize: ¥1250.
 
