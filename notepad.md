@@ -1511,7 +1511,7 @@
 
 ## Connections
 - South Exit: Door warp at cols 10..11, row 18 (exits to Lavender Town exterior at (14, 5)).
-- Stairs Up: Leads to 2F (TBD).
+- Stairs Up: Located at (18, 9), leads to 2F [Verified Turn 4903].
 
 ## Geography & Layout
 - Entrance Mat: Located at cols 10..11, row 17.
