@@ -15,3 +15,5 @@
 - Corridor (Rows 12..13, Cols 2..7+): East-west open green lawn passage bounded north by row 11 south-facing ledge and south by row 14 cliff wall. Leads east toward the Pokémon Center and Rock Tunnel [Turn 4519].
 - Cliff Line (Row 14, Cols 2..7+): Impassable southern mountain cliff bounding the row 12-13 corridor [Turn 4519].
 - Pokémon Center (Exterior): Roof visible at rows 16+ across cols 10..13, with open lawn approach at cols 10..13, rows 12..15 [Sighted Turn 4520].
+- Eastern Canal: Water canal running north-south along cols 16..17, bounded on the west by stone bollards along col 15 [Sighted Turn 4521].
+- Eastern Flank Corridor (Col 14, Rows 12..16+): Open north-south lawn passage between Pokémon Center (cols 10..13) and canal bollards (col 15), leading to front entrance [Turn 4521].
