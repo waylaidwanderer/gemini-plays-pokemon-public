@@ -91,9 +91,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
   - Status: Healthy
-  - HP: 100 / 121
+  - HP: 95 / 121
   - Stats: Attack 87, Defense 102, Speed 87, Special 89
-  - Moves: Bite (PP 11/25), Body Slam (PP 8/15), Bubblebeam (PP 13/20), Water Gun (PP 15/25) [Learned Turn 4031]
+  - Moves: Bite (PP 11/25), Body Slam (PP 8/15), Bubblebeam (PP 12/20), Water Gun (PP 15/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1332,7 +1332,6 @@
 ## Route 10 South (Exit of Rock Tunnel to Lavender Town)
 - Rock Tunnel South Cave Exit: Located at (8, 53), player emerges at (8, 54) facing South [Turn 4789].
 - Signpost at (9, 55): Read from (8, 55) facing East. Text: "ROCK TUNNEL" [Turn 4790].
-- NPC at (7, 54): Stationed at (7, 54) facing South down column 7.
 - Southern Geography: Cols 5..12 terminated at row 58 by cliff wall; passage continues south/west through col 4 and cols 0..3 toward Lavender Town.
 - Jr. Trainer ♀ at (7, 54): Triggered at (7, 56) facing South. Pre-battle dialogue: "I'm feeling a bit faint from this tough hike." Team: Pidgey Lv 21, Pidgeotto Lv 21. [Turn 4793-4798].
 - NPC at (0, 58): Sighted on the western path facing East/South.
@@ -1346,7 +1345,7 @@
 ## Overview
 - Dark multi-floor cave connecting Route 10 (North) to Route 10 (South) and Lavender Town.
 - Requires HM05 Flash to illuminate (taught to Drowzee SANDMAN in Slot 6).
-- Wild encounters verified: Zubat Lv 17-18 [Turn 4567, 4679], Machop Lv 17 [Turn 4662], Geodude Lv 16 [Turn 4690], Onix.
+- Wild encounters verified: Zubat Lv 17-18 [Turn 4567, 4679, 4786], Machop Lv 17 [Turn 4662], Geodude Lv 16 [Turn 4690], Onix.
 
 ## Entrance & Connections
 - Route 10 North Entrance: Entered at (15, 3) facing North [Turn 4547].
