@@ -22,6 +22,7 @@
 - OLD ROD
 - BIKE VOUCHER
 - HM01 (CUT)
+- HM05 (FLASH)
 
 ## Money
 - ¥25266
