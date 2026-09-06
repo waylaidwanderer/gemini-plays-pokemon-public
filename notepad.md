@@ -1488,7 +1488,7 @@
 - Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3).
 - Poké Mart: Located at cols 14..17, rows 11..13. Front entrance door at (15, 13), "MART" sign at (16, 13) [Sighted Turn 4861].
   - Interior: Clerk counter at (0..1, 5), talk from (2, 5) facing West. Customer at (3, 4). Entrance mat at (3..4, 7).
-  - Catalog Items: GREAT BALL (¥600), SUPER POTION (¥700), REVIVE (¥1500), ESCAPE ROPE (¥550) [Verified Turn 4870].
+  - Catalog Items: GREAT BALL (¥600), SUPER POTION (¥700), REVIVE (¥1500), ESCAPE ROPE (¥550), SUPER REPEL (¥500), ANTIDOTE (¥100) [Verified Turn 4871].
 - Pokémon Tower: Located in northeast quadrant.
 - Lavender Volunteer Pokémon House (Mr. Fuji): Located at cols 6..9, rows 8..9. Front entrance door at (7, 9).
   - Interior Layout (verified Turn 4856-4858):
