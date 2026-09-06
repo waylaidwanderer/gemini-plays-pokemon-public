@@ -1260,6 +1260,7 @@
 - Can (3, 7) tested: empty [Turn 3575].
 - Can (5, 7) tested: empty [Turn 3576].
 - Can (7, 7) tested: empty [Turn 3577].
+- Switch 1 found at Can (9, 7) [Turn 3578]!
 
 <hr>
 
