@@ -31,3 +31,9 @@
 - Ladder 3 Approach: Southern hall connects east into cols 14-17 (rows 14-21).
 - Hiker at (17, 15) facing West ("Outsiders like you need to show me some respect!"): Geodude Lv 21, Graveler Lv 21. Prize: ¥735. Defeated Turn 4700. Guards northern approach to Ladder 3.
 - Ladder 3: Located at (17, 11) at north end of col 17 pocket. Descends back to B1F.
+
+## Final Section (Section 3 - Exit Route)
+- Arrived via Ladder 4 from B1F (3, 3) -> 1F (37, 17) [Turn 4736].
+- Eastern boundary wall at col 38; northern rock wall at row 15.
+- Wide open hall spanning cols 33-37 (rows 16-21) extending west.
+- Trainer sighted at (37, 21).
