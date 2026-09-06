@@ -41,3 +41,7 @@
   1. Stand at (21, 15) facing East.
   2. Push Right 1 time: Boulder moves from (22, 15) into Pit at (23, 15) (falls to 2F). Player moves to (22, 15).
   3. Step Right 1 time into Pit at (23, 15) -> Player drops through hole and lands on 2F at (22, 16).
+
+## Critical Dungeon Reset Mechanic (VERIFIED Turn 31589)
+- Inter-floor transitions (using ladders, stairs, hole drops, Dig, or Escape Rope) immediately reset all boulder positions and switch states on the departed floor to their default initial spawns.
+- Therefore, all puzzles on a floor (e.g. 3F Switch (3, 5) -> Shutter (17, 5) -> Pit Boulder (22, 15) -> Pit Drop) MUST be executed in a single continuous visit without changing floors!
