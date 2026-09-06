@@ -25,7 +25,7 @@
 - Column 17: Open 1-tile gap at row 4 connecting rows 1-3 to rows 6-11 (Upper Dark Plateau & Ladder A arrival).
 - Columns 9-10: North wall at row 2 separates row 1 Northern Highway from Purple Chamber.
 - Columns 6-7 (Central Bridge): Spans rows 0-6 connecting Northern Highway (Row 1) south to NW Room and Row 6 cross-corridor.
-- Columns 0-5 (Far West Room): Contains NW Boulder at (5, 5) and Switch Plate at (3, 5).
+- Columns 0-5 (Far West Room): Contains Switch Plate at (3, 5) and Ladder to 2F NW at (2, 0).
 
 ## NW Room & Switch Plate
 - Empirically Verified (Turns 30576, 30680, 30756, 30818): NW Room contains Switch Plate at (3, 5), but NO pushable boulder exists inside the room.
