@@ -41,3 +41,4 @@
 - [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
 - [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]- [x] Catch wild Magikarp with Old Rod on Route 11 [Turn 3694]
 - [x] Catch wild Drowzee on Route 11 [Turn 3721]
+- [x] Catch wild Sandshrew on Route 11 [Turn 3751]
