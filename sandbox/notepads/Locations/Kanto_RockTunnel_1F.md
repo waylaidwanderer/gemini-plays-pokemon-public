@@ -8,8 +8,8 @@
 ## Entrance & Connections
 - Route 10 North Entrance: Entered at (15, 3) facing North [Turn 4547].
 ## Navigation Route & Ladders
-- Traversal Sequence: 1F North Entrance -> Ladder 1 (to B1F) -> Ladder 2 (to 1F) -> Ladder 3 (to B1F) -> Ladder 4 (to 1F) -> Route 10 South Exit (to Lavender Town).
-- 1F Section 1 (North): Path leads south from (15, 3), turns east around central rock outcrop, then winds south/east toward Ladder 1.
+- 1F Section 1 (North): Path leads south from (15, 3), turns east around central rock outcrop, then winds south/east toward Ladder 1 at (37, 3).
+- Traversal Status: Entered at (15, 3), defeated Pokémaniac Ashton at (23, 8), reached Ladder 1 at (37, 3), and descended to B1F. Southern half of 1F remains unmapped.
 ## Trainers
 - Pokémaniac Ashton at (23, 8) facing West: Cubone Lv 23, Slowpoke Lv 23. Defeated Turn 4562.
 ## Geography & Confirmed Layout
@@ -18,4 +18,3 @@
 - Eastern Forward Corridor: Rows 10..13 across cols 20..25+ open eastward. Southern wall at row 14 (cols 20..25).
 - Eastern Corridor Extension: Confirmed horizontal highway rows 10..13 bounded north by wall at rows 8..9 and south by wall at rows 14..15, spanning east through col 30+.
 - Northeast Ladder 1: Located at (37, 3) at the north end of columns 34-37. Descends to B1F.
-- Southeast Ladder (Ladder 3/4): Sighted at (37, 17) in the southern corridor (rows 16-17).

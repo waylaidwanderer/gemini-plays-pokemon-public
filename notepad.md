@@ -1343,8 +1343,8 @@
 ## Entrance & Connections
 - Route 10 North Entrance: Entered at (15, 3) facing North [Turn 4547].
 ## Navigation Route & Ladders
-- Traversal Sequence: 1F North Entrance -> Ladder 1 (to B1F) -> Ladder 2 (to 1F) -> Ladder 3 (to B1F) -> Ladder 4 (to 1F) -> Route 10 South Exit (to Lavender Town).
-- 1F Section 1 (North): Path leads south from (15, 3), turns east around central rock outcrop, then winds south/east toward Ladder 1.
+- 1F Section 1 (North): Path leads south from (15, 3), turns east around central rock outcrop, then winds south/east toward Ladder 1 at (37, 3).
+- Traversal Status: Entered at (15, 3), defeated Pokémaniac Ashton at (23, 8), reached Ladder 1 at (37, 3), and descended to B1F. Southern half of 1F remains unmapped.
 ## Trainers
 - Pokémaniac Ashton at (23, 8) facing West: Cubone Lv 23, Slowpoke Lv 23. Defeated Turn 4562.
 ## Geography & Confirmed Layout
@@ -1353,7 +1353,6 @@
 - Eastern Forward Corridor: Rows 10..13 across cols 20..25+ open eastward. Southern wall at row 14 (cols 20..25).
 - Eastern Corridor Extension: Confirmed horizontal highway rows 10..13 bounded north by wall at rows 8..9 and south by wall at rows 14..15, spanning east through col 30+.
 - Northeast Ladder 1: Located at (37, 3) at the north end of columns 34-37. Descends to B1F.
-- Southeast Ladder (Ladder 3/4): Sighted at (37, 17) in the southern corridor (rows 16-17).
 
 <hr>
 
@@ -1379,7 +1378,7 @@
 - Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.
 - Southern Highway Extension: Confirmed wide open 4-tile avenue rows 30..33 spanning west through col 4+, bounded north by row 28-29 wall (extending west past col 4) and south by row 34 wall. Upper floor visible at row 27.
 - Jr. Trainer ♀ at (14, 28) in north alcove ("I don't often come here, but I will fight you."): Oddish Lv 22, Bulbasaur Lv 22. Prize: ¥440. Defeated Turn 4609.
-- Western Cul-de-sac: Southern highway (rows 30-33) terminates at col 2 against west rock wall (cols 0-1). Rows 28-29 dividing wall confirmed completely solid from col 2 to col 13 (bump tested at (2, 29) Turn 4618). No items or exits in western pocket.
-- Central Northbound Passage: Located at cols 15-17 (adjacent to Jr. Trainer ♀ at (14, 28)), connecting southern corridor north into row 27+ toward the rest of B1F and Ladder 2.
+- Western Cul-de-sac: Southern highway (rows 30-33) terminates at col 2 against west rock wall (cols 0-1). Tile (2, 29) confirmed solid rock wall by bump test Turn 4618. Visual inspection shows rock wall along rows 28-29. No items or exits in western pocket.
+- Central Northbound Passage: Located at cols 15-17 (adjacent to Jr. Trainer ♀ at (14, 28)), connecting southern corridor north into row 27+.
 
 <hr>
