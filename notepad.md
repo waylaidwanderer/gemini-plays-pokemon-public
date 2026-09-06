@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Blastoise (SHELDON) Lv 39, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 - Money: ¥39266
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
@@ -1499,7 +1499,6 @@
     - Little girl at (6, 3).
     - Nidorino at (6, 4).
     - Psyduck at (1, 3).
-- Southwest House: Located at cols 2..5, rows 12..13. Entrance door at (3, 13).
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
 
 <hr>
@@ -1543,7 +1542,6 @@
   - Departure: Exited down the stairs at (18, 9) to 1F.
 - NPC at (3, 7): Dialogue: "Even we could not identify the wayward GHOSTs! A SILPH SCOPE might be able to unmask them."
 - Channeler at (10, 13): Trainer battle! Gastly Lv 22 (447 EXP). Defeated Turn 4971 (Prize: ¥660). Defeat dialogue: "Whew! The spirit left!"
-- Staircase at (3, 9): Visually displays staircase graphics; status pending precise interaction testing.
 - Wild Encounters: Active on 2F (triggered at (6, 13)). Wild Pokémon appear as unidentifiable 'GHOST' without the Silph Scope [Turn 4976].
 
 ## Geography & Layout
