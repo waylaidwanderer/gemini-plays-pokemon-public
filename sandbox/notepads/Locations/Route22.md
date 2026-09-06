@@ -18,9 +18,3 @@
 - Gatehouse Entrance: Located at (8, 5). From (11, 7), ride west along the paved walkway to (8, 7) and step north into the front door at (8, 5) to enter Route 22 Gate at (4, 7).
 - Row 13 Ledge: Continuous south-facing ledge spanning columns 2..37, with a two-way dirt gap at (33, 13).
 - Lower Road: Rows 14 and 15 form the lower paved road leading east back to Viridian City at (39, 14).
-
-## Verified Lower Road to Gatehouse Route (Verified Turn 32711)
-- From Lower Road (x, 14), walk West to (6, 14).
-- Walk North along unobstructed column 6 to (6, 7).
-- Walk East 2 steps to (8, 7) on the paved walkway.
-- Walk North 2 steps into the Gatehouse Door at (8, 5) to enter Route 22 Gate.
