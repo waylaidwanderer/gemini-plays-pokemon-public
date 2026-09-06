@@ -23,15 +23,15 @@
 - Western Entrance (Cols 0..10, Rows 18..19): Wide paved street entering from the Route 4 bridge.
 - Canal / River (Cols 0..6, Rows 14..16): Bounded by stone fence posts at row 17 (opening east at cols 8..9).
 - Southern Green (Cols 5..10, Rows 20..25): Grassy lawn with south street branch at cols 6..7 and stone fence posts at col 4 (rows 20..27).
-- Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
-  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
-  - Pricing & Mechanics: Manager offers Bicycle for ¥1,000,000 (unaffordable without Bike Voucher).
-  - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Southern Barrier (Rows 28..29): Impassable barrier consisting of bushes, wooden bollards at (16, 29), Trainer Tips signpost at (17, 29), and a Cut tree at (19, 28) blocking direct southern access to Route 5 without HM01 Cut.
 - Trainer Tips Signpost (17, 29): "TRAINER TIPS / Pressing B Button during evolution cancels the whole process."
 - Resident NPC: Wandering citizen around (10, 21).
 
 ## Key Buildings & Facilities
+- Cerulean Bicycle Shop: Located at cols 10..15, rows 22..25. Front entrance door at (13, 25).
+  - Interior: Entrance mat at (2..3, 7). Display bicycles at (0..1, 4..5) and (6..7, 6..7). Shop Clerk/Manager at (5, 2) behind counter at (5..6, 3). Customer with green cap wanders showroom.
+  - Pricing & Mechanics: Manager offers Bicycle for ¥1,000,000 (unaffordable without Bike Voucher).
+  - Customer at (1, 3): Dialogue - bicycles are cool but way too expensive.
 - Northwest House: Located at cols 12..15, rows 14..15. Entrance door at (13, 15).
   - Interior: Entrance mat at (2..3, 7). Large table at (3..4, 3..4).
   - Resident 1 at (5, 4): Kid in blue overalls.
@@ -39,6 +39,7 @@
   - North wall: Solid wall with bookcases (0..1, 0..1), painting at (3, 0), window at (5, 0). No back door exit.
 - Cerulean Pokémon Center: Located at cols 18..21, rows 14..17. Entrance door at (19, 17), "POKé" sign at (20, 17).
   - Interior: Entrance mat (3..4, 7). Nurse Joy behind counter at (3, 1), talk from (3, 3) facing North. Customer at (4, 3).
+    - PC Terminal: Located on east wall at (13, 3..4). Accessible by standing at (13, 4) facing North at monitor (13, 3), or at (12, 3) facing East.
 - Cerulean Gym: Located at cols 24..31, rows 16..19. Entrance door at (30, 19). Front street along row 20. Exterior signpost at (27, 21): "CERULEAN CITY POKéMON GYM / LEADER: MISTY".
   - Interior: Entrance mat at (4..5, 13). Central pool spanning rows 9..11 with central pier at cols 4..5. Left statue at (3, 10..11), right statue at (6, 10..11). Gym Guide stationed at (7, 10).
   - Gym Guide Advice: Leader Misty specializes in Water-type Pokémon; recommends Grass (plant) and Electric types as counters.
