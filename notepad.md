@@ -93,9 +93,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
   - Status: Healthy
-  - HP: 95 / 121
+  - HP: 121 / 121
   - Stats: Attack 87, Defense 102, Speed 87, Special 89
-  - Moves: Bite (PP 11/25), Body Slam (PP 7/15), Bubblebeam (PP 12/20), Water Gun (PP 13/25) [Learned Turn 4031]
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Water Gun (PP 25/25) [Restored Turn 4849]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
