@@ -223,6 +223,11 @@
   - Pre-battle: "Us sailors have POKéMON too!". Defeat: "SAILOR: OK, you're not bad.".
   - Combat: Sheldon used Bite on Tentacool (OHKO). Sheldon used Bubblebeam on Staryu (dealt ~65%), Staryu used Tackle (dealt 3 dmg, Sheldon HP 46 -> 43/86), Sheldon used Bubblebeam (KO). Sheldon grew to Lv 33 (HP 46/89, Atk 59, Def 72, Spd 60, Spc 61).
   - Outcome: Decisive victory. HP: 46/89. Bite PP: 0/25, Bubblebeam PP: 11/20. Money: ¥18840 -> ¥19380.
+- **Fisherman [Turn 3172 - 3190] (B1F Cabin 5 at 0, 4):**
+  - Roster: Tentacool Lv 17 (Yield: 382 EXP), Staryu Lv 17 (Yield: 385 EXP), Shellder Lv 17 (Yield: 352 EXP). Total EXP: 1119 EXP. Prize: ¥595.
+  - Pre-battle: "Hello stranger! Stop and chat! All my POKéMON are from the sea!". Defeat: "FISHERMAN: Darn! I let that one get away!".
+  - Combat: Tentacool took Bubblebeam (~45%), used Acid (dealt 3 dmg, Sheldon HP 46 -> 43/89), then Bubblebeam (KO). Staryu took Bubblebeam (~65%), used Tackle (dealt 2 dmg, Sheldon HP 43 -> 41/89, Speed fell), then Bubblebeam (KO). Shellder took Bubblebeam (~95%), used Tackle (dealt 3 dmg, Sheldon HP 41 -> 38/89, Speed fell), then Bubblebeam (KO).
+  - Outcome: Decisive victory. HP: 38/89. Bubblebeam PP: 11 -> 5/20. Money: ¥19380 -> ¥19975.
 
 <hr>
 
