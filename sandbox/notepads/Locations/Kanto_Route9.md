@@ -6,7 +6,7 @@
 
 ## Geography & Layout
 - Tile (25, 5) Ramp: Walkable slope/ramp connecting row 6 gravel road north onto row 4 green lawn plateau [Turn 4196].
-- Cut Tree at (14, 7): Cuttable tree connecting row 8 (south) north into row 6 lawn and the northern tall grass field [Turn 4212].
+- Shrub at (14, 7): Impassable decorative shrub (cannot be cut) [Turn 4326].
 - Northern Tall Grass Patch (Rows 2..5, Cols 8..15): 4-tile high grass patch on the northern plateau, bounded north by row 1 mountain and south by row 6 lawn.
 - Northern Plateau (Rows 2..4, Cols 21..25+): Open green lawn area north of the central rock ridge.
 - Signpost at (25, 7): "ROUTE 9 / CERULEAN CITY - ROCK TUNNEL" [Turn 4194].
