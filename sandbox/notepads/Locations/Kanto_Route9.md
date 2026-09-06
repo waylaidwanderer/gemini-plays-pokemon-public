@@ -41,4 +41,5 @@
   - Tile (26, 2): Solid mountain ridge collision [Turn 4216].
   - Tile (30, 8): Solid cliff corner collision, impassable east from (29, 8) [Turn 4182].
   - Tile (34, 11): South-facing ledge, impassable north from (34, 12) [Turn 4273].
+  - Tile (48, 13): Solid rock wall, impassable north from (48, 14) [Turn 4294].
   - Tile (52, 13): South-facing ledge, impassable north from (52, 14) [Turn 4281].
