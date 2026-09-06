@@ -119,16 +119,17 @@
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
   - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
 
+- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
+  - Status: Healthy
+  - HP: Full
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20)
+  - Caught: Route 11 tall grass [Turn 3721]
+
 ## PC Box 1 Pokémon
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
   - Caught: Route 11 with Old Rod [Turn 3694]
-- DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy
-  - HP: Full
-  - Moves: Pound, Hypnosis
-  - Caught: Route 11 tall grass [Turn 3721]
 - SANDSHREW (Nickname: PANGO) [Lv 15, Ground]
   - Status: Healthy
   - HP: Full
