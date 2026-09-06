@@ -9,8 +9,14 @@
 - Rival RED Encounter: Triggered when walking west past east entrance (defeated Turn 22069).
 - Front Gatehouse: Checks all 8 Kanto Badges sequentially.
 
-## Verified Topology & Navigation Routes (Verified Turn 33100)
-- Upper Highway (Rows 4-5): Continuous paved road spanning columns 1 to 35 across northern Route 22. East end at (36, 4..5) is blocked by mountain wall.
-- Eastern Access to Upper Highway: From Eastern Lawn at (33, 12), walk Left to (31, 12), walk North through tall grass to (31, 8), and step North through verified dirt gap at (31, 7) into (31, 6) green grass and (31, 4..5) Upper Highway!
-- Central Barrier (Columns 26-29): The Upper Highway (rows 4-5) runs completely unobstructed ABOVE the central mountain wall (rows 8-13), connecting the eastern sector directly to the western gatehouse sector!
-- Grand Entrance Carpet & Gatehouse: Located in western sector (cols 2..8, rows 0..9).
+## Verified Topology & Navigation Routes (Verified Turn 33106)
+- Complete Canonical Route from Viridian City to Pokémon League Front Gatehouse:
+  1. Exit Viridian City west at (0, 9) onto Route 22 at (39, 9).
+  2. Walk south to Eastern Lawn at (33, 12), walk Left to (31, 12).
+  3. Walk North through tall grass to (31, 8), and step North through open dirt gap at (31, 7) onto Upper Highway at (31, 5).
+  4. Walk West along Upper Highway (rows 4-5) to (16, 5).
+  5. Hop South down the ledge at (16, 7) into western tall grass (16, 8..11) and descend to Row 12 Lawn at (16, 12).
+  6. Walk West along Row 12 to (5, 12), step North through open carpet at (5, 11) onto Grand Entrance Carpet at (5, 10).
+  7. Walk East along Row 10 to (11, 10), and step North through open dirt gap at (11, 9) onto the paved road at (11, 6..7).
+  8. Walk West along row 6 to (8, 6), and step North into the Front Gatehouse door at (8, 5)!
+- Front Gatehouse Door: Located at (8, 5), transitions into Route 22 Gate.
