@@ -1,1 +1,2 @@
 - Gambler stationed at (13, 9) facing North (Dialogue: "All right! Let's roll the dice!" / Defeat: "Drat! Came up short!" / Defeated Turn 5175: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22 / Prize: ¥1540).
+- Underground Path (Route 7-Route 8) entrance building located at cols 12..15, rows 2..3; entrance door at (13, 3).
