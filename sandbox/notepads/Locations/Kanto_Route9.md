@@ -6,5 +6,5 @@
 
 ## Geography & Layout
 - Western Entrance (Cols 0..5, Rows 7..10): Bounded by stone fence posts along row 7 (north) and row 10 (south).
-- Northern Corridor (Row 8): Open path from col 0 to col 4. Tile (5, 8) pending collision test.
-- Southern Corridor (Row 9): Open path from col 0 to col 3. Tile (4, 9) has a green shrub graphic but repeatedly rejected Cut from North (4, 8) and West (3, 9) ("There isn't anything to CUT!"); pending collision test.
+- Northern Corridor (Row 8): Open path from col 0 to col 4. Tile (5, 8) is the CONFIRMED Cut tree blocking Route 9! Cleared with Farfetch'd (DUX) using Cut from (4, 8) facing East [Turn 4085]. Leads directly east onto the Route 9 gravel road at col 6+.
+- Southern Corridor (Row 9): Open path from col 0 to col 3. Tile (4, 9) is an impassable decorative shrub (solid collision, cannot be cut).
