@@ -1,73 +1,102 @@
 import mgba
-import time
 
-def get_pos():
-    p = mgba.get_coordinates()
-    return p['x'], p['y']
+class Nav:
+    def __init__(self, budget=70):
+        self.budget = budget
+        self.used = 0
 
-def press(buttons):
-    mgba.press_buttons(buttons)
+    def get_pos(self):
+        p = mgba.get_coordinates()
+        return p['x'], p['y']
 
-def escape_battle():
-    # Dismiss any text and try to run
-    press(["B", "sleep 150", "B", "sleep 150", "A", "sleep 150", "B", "sleep 150"])
-    press(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 400", "B", "sleep 200", "B", "sleep 150"])
+    def press(self, seq):
+        btn_count = len([b for b in seq if not b.startswith("sleep")])
+        if self.used + btn_count > self.budget:
+            return False
+        self.used += btn_count
+        mgba.press_buttons(seq)
+        return True
 
-def step_dir(d):
-    ox, oy = get_pos()
-    press([d, "sleep 180"])
-    nx, ny = get_pos()
-    if (nx, ny) == (ox, oy):
-        # Could be battle, dialogue, or wall
-        escape_battle()
-        nx, ny = get_pos()
-    return nx, ny
+    def run_battle(self):
+        # Clear battle text / intro and attempt Run
+        self.press(["A", "sleep 250", "B", "sleep 250", "A", "sleep 250", "B", "sleep 250"])
+        self.press(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 400", "B", "sleep 200", "B", "sleep 150"])
 
-def walk_to(tx, ty, max_steps=60):
-    steps = 0
-    while steps < max_steps:
-        x, y = get_pos()
-        if x == tx and y == ty:
-            return True
-        if x < tx:
-            d = "Right"
-        elif x > tx:
-            d = "Left"
-        elif y < ty:
-            d = "Down"
-        elif y > ty:
-            d = "Up"
-        step_dir(d)
-        steps += 1
-    return False
+    def step(self, d):
+        ox, oy = self.get_pos()
+        if not self.press([d, "sleep 180"]):
+            return ox, oy
+        nx, ny = self.get_pos()
+        if (nx, ny) == (ox, oy):
+            # Check if battle or dialogue
+            self.run_battle()
+            nx, ny = self.get_pos()
+        return nx, ny
 
-def route22_to_gate():
-    # Route 22 path from (39, 6):
-    # From (39, 6) -> walk south to (33, 12)? Wait, let's look at Route 22 layout
-    print("Navigating Route 22 from", get_pos())
-    # Canonical route:
-    # 1. From (39, 6..9) -> (33, 12)
-    # (39, 6) -> Down to (39, 9) -> Left to (33, 9) -> Down to (33, 12)
-    walk_to(39, 9)
-    walk_to(33, 9)
-    walk_to(33, 12)
-    walk_to(31, 12)
-    # North through tall grass
-    walk_to(31, 8)
-    walk_to(31, 5) # Upper highway
-    walk_to(16, 5)
-    # Hop ledge south
-    walk_to(16, 7)
-    step_dir("Down") # Hop ledge to row 8
-    walk_to(16, 12)
-    walk_to(5, 12)
-    walk_to(5, 10)
-    walk_to(11, 10)
-    walk_to(11, 6)
-    walk_to(8, 6)
-    # Step into gatehouse
-    press(["Up", "sleep 400", "Up", "sleep 400"])
-    print("Entered gatehouse, pos:", get_pos())
+    def walk_to(self, tx, ty, max_steps=40):
+        steps = 0
+        while steps < max_steps:
+            x, y = self.get_pos()
+            if x == tx and y == ty:
+                return True
+            if self.used >= self.budget:
+                return False
+            if x < tx:
+                d = "Right"
+            elif x > tx:
+                d = "Left"
+            elif y < ty:
+                d = "Down"
+            elif y > ty:
+                d = "Up"
+            self.step(d)
+            steps += 1
+        return False
+
+    def route22(self):
+        # We start around (33, 9)
+        # First ensure out of battle
+        self.run_battle()
+        print("After run attempt, pos:", self.get_pos())
+        
+        # Canonical Route 22 waypoints from (33, 9):
+        # 1. Down to (33, 12)
+        # 2. Left to (31, 12)
+        # 3. North through grass to (31, 8)
+        # 4. North through gap at (31, 7) to Upper Highway (31, 5)
+        # 5. West along Upper Highway to (16, 5)
+        # 6. Hop south at (16, 7) down ledge to (16, 8) -> (16, 12)
+        # 7. West to (5, 12)
+        # 8. North through carpet to (5, 10)
+        # 9. East to (11, 10)
+        # 10. North to (11, 6)
+        # 11. West to (8, 6)
+        # 12. North to (8, 5) (Gatehouse entrance)
+        wps = [
+            (33, 12),
+            (31, 12),
+            (31, 8),
+            (31, 5),
+            (16, 5),
+            (16, 7),
+            (16, 12),
+            (5, 12),
+            (5, 10),
+            (11, 10),
+            (11, 6),
+            (8, 6),
+        ]
+        for wx, wy in wps:
+            self.walk_to(wx, wy)
+            if self.used >= self.budget:
+                break
+        
+        # If at (8, 6), enter gatehouse
+        cx, cy = self.get_pos()
+        if (cx, cy) == (8, 6):
+            self.press(["Up", "sleep 300", "Up", "sleep 300"])
+        print("Finished script at pos:", self.get_pos(), "used buttons:", self.used)
 
 if __name__ == "__main__":
-    route22_to_gate()
+    n = Nav(budget=70)
+    n.route22()
