@@ -1713,8 +1713,7 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 
 ## Overworld Features & Layout
 - Underground Path Building: located at (4..7, 10..13) with entrance door at (5, 13).
-- Main Highway: 2-tile wide pavement path spanning rows 14-15.
-- Route 7 connects directly west into Celadon City.
-- Route 7 connects east to Saffron City Gatehouse at (12..16, 10..11).
+- Signpost at (3, 13): "UNDERGROUND PATH / CELADON CITY - LAVENDER TOWN".
+- Paved path spanning rows 14-15 south of Underground Path building terminates to the west at col 2 against a treeline (cols 0-1).
 
 <hr>
