@@ -1,9 +1,1 @@
-{
-  "state_synchronizer": {
-    "agent_name": "state_synchronizer",
-    "agent_description": "Synthesizes structured game state data and checks for discrepancies across dashboards and location notepads.",
-    "agent_system_prompt": "You are a state synchronization expert for Pokémon Blue. Analyze current battle outcomes, items, and trainer encounters to produce structured updates for dashboard notepads, ensuring 100% consistency across Main.md, Inventory.md, and location records.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_turn\":{\"type\":\"integer\"},\"battle_outcome\":{\"type\":\"string\"},\"money_change\":{\"type\":\"integer\"},\"exp_change\":{\"type\":\"string\"}},\"required\":[\"current_turn\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"sync_status\":{\"type\":\"string\"},\"notes\":{\"type\":\"string\"}},\"required\":[\"sync_status\",\"notes\"]}"
-  }
-}
+{}
