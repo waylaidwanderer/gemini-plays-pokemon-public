@@ -112,3 +112,9 @@
   - Pre-battle: "I'm a lightweight, but I'm good with electricity!". Defeat: "ROCKER: Fried!".
   - Combat: Sheldon Lv 33 used Bubblebeam on Voltorb 1 (OHKO). Sheldon Lv 33 used Bubblebeam on Magnemite (took 3 dmg from Tackle, HP 89 -> 86/89), Sheldon used Bubblebeam (KO, grew to Lv 34, HP 86 -> 88/91, Atk 61, Def 74, Spd 62, Spc 63). Sheldon Lv 34 used Bubblebeam on Voltorb 2 (Critical Hit, OHKO).
   - Outcome: Decisive victory. HP: 88/91. Bubblebeam PP: 20 -> 16/20. Money: ¥21835 -> ¥22335.
+
+- **Sailor [Turn 3292 - 3299] (Vermilion Gym at 0, 10):**
+  - Roster: Pikachu Lv 21 (Yield: 369 EXP), Pikachu Lv 21 (Yield: 369 EXP). Total EXP: 738 EXP. Prize: ¥630.
+  - Pre-battle: "This is no place for kids!". Defeat: "SAILOR: Wow! Surprised me!".
+  - Combat: Sheldon Lv 34 used Bite on Pikachu 1 (OHKO). Sheldon Lv 34 used Bite on Pikachu 2 (OHKO). Sheldon took 0 damage (HP 88/91). Bite PP: 25 -> 23/25.
+  - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
