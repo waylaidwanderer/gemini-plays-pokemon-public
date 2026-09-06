@@ -21,6 +21,7 @@
 - NPC at (9, 10): Stationed south of Volunteer House.
 - NPC at (15, 8): Sighted east of Volunteer House [Turn 4861].
 - NPC at (15, 7): Sighted in eastern district [Turn 4861].
+- NPC at (14, 5): Wandering outside Pokémon Tower; asks "Do you believe in GHOSTS?" [Turn 4885].
 
 ## Key Buildings & Facilities
 - Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3).
