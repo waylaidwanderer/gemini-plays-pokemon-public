@@ -15,7 +15,7 @@
 ## Key Items
 - S.S. TICKET
 - OLD ROD
-- BIKE VOUCHER
+- BICYCLE
 - HM01 (CUT)
 - HM05 (FLASH)
 
