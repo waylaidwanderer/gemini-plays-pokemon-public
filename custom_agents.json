@@ -1,1 +1,9 @@
-{}
+{
+  "route_topography_synthesizer": {
+    "agent_name": "route_topography_synthesizer",
+    "agent_description": "Synthesizes verified map data, elevation boundaries, and trainer positions to deduce the missing connection to Route 10.",
+    "agent_system_prompt": "You are an expert game cartographer and Gen 1 Pokémon mechanics analyst. Given verified coordinates, confirmed collisions, trainer positions, and terrain types from standard retail Pokémon Red/Blue Route 9, your job is to identify all valid progression routes to Route 10, expose ungrounded assumptions, and pinpoint exact coordinates that remain unexplored.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"verified_collisions\": {\"type\": \"string\"}, \"trainer_coordinates\": {\"type\": \"string\"}, \"known_ramps\": {\"type\": \"string\"}, \"hypothesis\": {\"type\": \"string\"}}, \"required\": [\"verified_collisions\", \"trainer_coordinates\", \"known_ramps\", \"hypothesis\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"untested_coordinates\": {\"type\": \"string\"}, \"logical_contradictions\": {\"type\": \"string\"}, \"recommended_next_test\": {\"type\": \"string\"}}, \"required\": [\"untested_coordinates\", \"logical_contradictions\", \"recommended_next_test\"]}"
+  }
+}
