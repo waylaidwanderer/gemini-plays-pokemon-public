@@ -1235,6 +1235,8 @@
   - If Switch 1 is at (1, 11), adjacent untested can while active is (3, 11).
 - Can (1, 11): Checked Turn 3336 -> Only trash. (Switch 1 re-rolled).
 - Can (3, 11): Inspecting Turn 3336.
+- Can (3, 11): Checked Turn 3337 -> Only trash.
+- Can (5, 11): Inspecting Turn 3337.
 
 
 <hr>
