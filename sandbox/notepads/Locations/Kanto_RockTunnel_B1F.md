@@ -25,4 +25,5 @@
 - Eastern Bypass Corridor: Column 20 (rows 22-24) is open cave floor connecting central chamber (rows 24-27) north into rows 20-21.
 - Rock divider at cols 18-19, rows 20-21.
 - Pokémaniac at (20, 21) ("Do you know about costume players?"): Charmander Lv 22, Cubone Lv 22. Prize: ¥1100. Defeated Turn 4634.
-- Eastern area: Rows 20-27 open east through col 23+.
+- Eastern Chamber: Open floor spans rows 16-23 across cols 20-25+. Bounded north by wall at rows 14-15 (cols 18-25+).
+- Western Vertical Corridor: Cols 16-17 (rows 14-21) open north past row 14, closed south at row 22, separated from eastern chamber by rock pillar at cols 18-19.
