@@ -1320,5 +1320,6 @@
 - Tile (47, 13): South-facing ledge, impassable north from (47, 14) [Turn 4409].
 - Tile (44, 13): Solid rock wall, impassable north from (44, 14) [Turn 4407].
 
+- Tile (30, 11): Solid rock wall, impassable east from (29, 11) [Turn 4413].
 
 <hr>
