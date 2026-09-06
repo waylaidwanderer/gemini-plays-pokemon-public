@@ -12,6 +12,7 @@
 - TM24 (THUNDERBOLT) x1
 - TM30 (TELEPORT) x1
 - HP UP x1
+- SUPER REPEL x5
 
 ## Key Items
 - S.S. TICKET
@@ -28,7 +29,7 @@
 - TOWN MAP x1
 
 ## Money
-- ¥40141
+- ¥37641
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
