@@ -1374,7 +1374,7 @@
 - Jr. Trainer ♀ at (37, 21) facing West ("Eek! Don't try anything funny in the dark!"): Bellsprout Lv 22, Clefairy Lv 22. Prize: ¥440. Defeated Turn 4745. Stations along row 21.
 - West Wall of Exit Hall: Column 31 is a solid vertical rock wall (rows 14-21).
 - Southward Avenue: Exit hall turns south along cols 32-36, extending south past row 21 .
-- Trainer at (32, 24) facing East ("You have POKéMON! Let's start!"): Engaged Turn 4748. Stations along row 24.
+- Jr. Trainer ♀ at (32, 24) facing East ("You have POKéMON! Let's start!"): Engaged Turn 4748. Stations along row 24.
 - Southern Avenue Extension: Wide open corridor spanning cols 33-37 from row 21 down past row 25+.
 
 
