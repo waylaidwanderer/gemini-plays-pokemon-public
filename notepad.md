@@ -1270,6 +1270,9 @@
 - Can (9, 9) tested: empty [Turn 3585].
 - Can (7, 11) tested: empty [Turn 3586].
 - Switch 1 found at Can (9, 11) [Turn 3587]!
+- Tested adjacent Can (7, 11) -> reset [Turn 3589].
+
+## Cycle 10 (Turn 3589+)
 
 <hr>
 
