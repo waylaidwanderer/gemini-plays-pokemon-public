@@ -3,3 +3,5 @@
 - Western Avenue: Cols 4-5 open north-south across rows 8-16+.
 - Western Boundary: Solid rock wall at col 1 (rows 8-16+).
 - Western Avenue: Wide open corridor spanning cols 2-5 from row 8 down past row 16.
+- Trainer at (3, 5) facing South: Stations in western avenue along col 3.
+- Northwest Pocket: Cols 2-5 extend north past row 4.
