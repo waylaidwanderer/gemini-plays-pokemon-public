@@ -1,7 +1,7 @@
 # Route 22 Gate (Pokémon League Front Gatehouse) - Layout & Notes
 
 ## General Information
-- South entrance/exit: Route 22 (x=4..5, y=7) [Door at Route 22 (8, 5)]
+- South entrance/exit: Route 22 (x=4..5, y=7) [Door on Route 22 at (4..5, 13), entered from (4..5, 14) stepping Up]
 - North entrance/exit: Route 23 (x=4..5, y=0)
 
 ## Points of Interest & Badge Checks
