@@ -1414,8 +1414,8 @@
 - Northeast Area: Columns 34-37 open north through row 8.
 ## Northwest Section (Section 3)
 - Arrived via Ladder 3 from 1F (17, 11) -> B1F (23, 11) [Turn 4702].
-- Corridor at rows 10-13 runs west from col 23 past col 19+.
-- Bounded north by rock wall at rows 8-9, south by rock wall at rows 14-15, east by wall at cols 24-25.
+- Corridor at rows 10-13 runs west from col 23 to col 18, bounded north by rows 8-9 wall and south by rows 14-15 wall.
+- Central-West Junction (Cols 15-17): Both north and south walls terminate at col 18; wide opening extends north, south, and west.
 
 
 <hr>
