@@ -1273,6 +1273,7 @@
 - Tested adjacent Can (7, 11) -> reset [Turn 3589].
 
 ## Cycle 10 (Turn 3589+)
+- Can (7, 11) tested: empty [Turn 3591].
 
 <hr>
 
