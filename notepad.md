@@ -1256,5 +1256,9 @@
 - Switch 1 re-rolled.
 - Checking Can (1, 9) on Turn 3325.
 
+## Cycle 2 Testing (Post-Reset)
+- Can (1, 9): Checked Turn 3327 -> Only trash.
+- Can (1, 7): Inspecting Turn 3327.
+
 
 <hr>
