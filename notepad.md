@@ -8,7 +8,7 @@
 
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 40, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 41, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥40946
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
