@@ -117,7 +117,6 @@
   - HP: 91 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
   - Moves: Bite (PP 25/25), Bubblebeam (PP 20/20), Water Gun (PP 25/25), Body Slam (PP 15/15) [Learned Turn 4031]
-  - Moveset Plan: Teach TM08 Body Slam over Tail Whip prior to Route 9 departure. Retains Bubblebeam (STAB 65 BP), Water Gun (STAB 40 BP endurance), Bite (60 BP), and Body Slam (85 BP Normal coverage + 30% paralysis).
 
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Healthy
@@ -672,6 +671,7 @@
 - South: Route 5 border connection at (25..27, 36) and tall grass strip warp at Cerulean (25, 35) <-> Route 5 (15, 0).
 - West: Route 4 eastern bridge at (0, 18..19).
 - North: Route 24 entrance at (20..21, 0) [connects to Route 24 (10..11, 36)].
+- East: Route 9 entrance (accessed past Robbed House backyard / eastern corridor, blocked by a Cut tree).
 
 ## Geography & Layout
 - Central Lawn Elevation (Cols 22..23, Row 17): Impassable northbound elevation boundary bounding the lawn between Pokémon Center and Gym.
@@ -1294,6 +1294,9 @@
 - **TM28 DIG:**
   - Designated User: Diglett (DIGBY) - Slot 1 in current party.
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
+
+## Bicycle Locomotion Physics
+- **Perpendicular Turn Mechanics:** When mounted on the Bicycle, an initial directional input while facing a perpendicular direction turns the player in place to face that direction without advancing a grid step (empirically confirmed Turns 4046, 4048, 4049, 4054). Subsequent directional inputs in the same direction advance one grid step per press.
 
 
 <hr>
