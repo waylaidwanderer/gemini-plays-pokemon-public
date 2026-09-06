@@ -12,6 +12,7 @@
 ## Underground Tunnel (North-South Corridor)
 - Tunnel Width: 4 tiles wide (Cols 2..5). Bounded by solid walls at Col 1 (West) and Col 6 (East).
 - North Wall: Row 2.
+- Northern Stairs: Located at (5, 4), leading up into the Route 5 entrance building.
 - Environment: Completely straight corridor heading South toward Route 6 exit. No wild encounters.
 - Southern Stairs: Located at (2, 41), leading up into the Route 6 entrance building.
 - South Wall: Row 42.
