@@ -1232,22 +1232,11 @@
 - Cycle 3: Switch 1 at (1, 7) [Turn 3354]. Tested (1, 9) -> reset [Turn 3356].
 - Cycle 4: Switch 1 at (3, 9) [Turn 3371]. Tested (3, 11) -> reset [Turn 3372].
 - Cycle 5: Switch 1 at (1, 7) [Turn 3410]. Tested (3, 7) -> reset [Turn 3414].
+- Cycle 6: Switch 1 at (5, 11) [Turn 3432]. Tested adjacent Can (3, 11) -> reset [Turn 3434].
 
-## Active Cycle 6 (Current)
-- Can (3, 7): Tested [Turn 3418] -> Only trash.
-- Can (1, 7): Tested [Turn 3419] -> Only trash.
-- Can (5, 7): Tested [Turn 3423] -> Only trash.
-- Can (7, 7): Tested [Turn 3424] -> Only trash.
-- Can (9, 7): Tested [Turn 3425] -> Only trash. (All 5 Row 7 cans empty).
-- Can (9, 9): Tested [Turn 3427] -> Only trash.
-- Can (7, 9): Tested [Turn 3428] -> Only trash.
-- Can (9, 11): Tested [Turn 3429] -> Only trash.
-- Can (7, 11): Tested [Turn 3430] -> Only trash. (Columns 7 and 9 fully empty).
-- Can (5, 11): Switch 1 FOUND! [Turn 3432]
-- 1st electric lock opened!
-- Adjacent cans for Switch 2:
-  - Can (3, 11) [West]
-  - Can (5, 9) [North]
-  - Can (7, 11) [East]
+## Active Cycle 7 (Current)
+- Cycle 7 begins at (3, 12).
+
+- Can (3, 11): Inspecting on Turn 3435.
 
 <hr>

@@ -29,3 +29,5 @@
 
 ## Active Cycle 7 (Current)
 - Cycle 7 begins at (3, 12).
+
+- Can (3, 11): Inspecting on Turn 3435.
