@@ -2,7 +2,7 @@
 
 ## Items
 - TOWN MAP
-- POKé BALL x17
+- POKé BALL x16
 - GREAT BALL x1
 - MAX ETHER x1
 - TM34 (BIDE) x1
