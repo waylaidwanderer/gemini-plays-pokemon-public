@@ -31,7 +31,7 @@
 - ¥37301
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 38, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
   - Status: Healthy
   - HP: 96 / 117
   - Stats: Attack 84, Defense 99, Speed 84, Special 87

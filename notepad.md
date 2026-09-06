@@ -4,7 +4,7 @@
 
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
-- Active Team: Blastoise (SHELDON) Lv 38, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 39, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 - Money: ¥37301
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
@@ -88,7 +88,7 @@
 - ¥37301
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 38, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 39, Water]
   - Status: Healthy
   - HP: 96 / 117
   - Stats: Attack 84, Defense 99, Speed 84, Special 87
