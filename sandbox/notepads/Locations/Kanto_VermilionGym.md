@@ -11,7 +11,7 @@
 ## Occupants & Trainers
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
 - Rocker Trainer at (3, 8) [Defeated, Turn 3288]: Pre-battle: "I'm a lightweight, but I'm good with electricity!". Team: Voltorb Lv 20 (441 EXP), Magnemite Lv 20 (381 EXP), Voltorb Lv 20 (441 EXP). Defeat Quote: "ROCKER: Fried!". Prize: ¥500.
-- Trainer at (0, 10): Stationed at (0, 10) facing East along row 10. Pre-battle: "This is no place for kids!".
+- Sailor Trainer at (0, 10): Stationed at (0, 10) facing East along row 10. Pre-battle: "This is no place for kids!". Team: 2 Pokémon (Pikachu Lv 21, TBD).
 - Trainer at (9, 6): Blue outfit sprite facing West along row 6.
 
 ## Mechanics & Locks
