@@ -1387,5 +1387,8 @@
 - Pokémaniac at (20, 21) ("Do you know about costume players?"): Charmander Lv 22, Cubone Lv 22. Prize: ¥1100. Defeated Turn 4634.
 - Eastern Chamber: Open floor spans rows 16-23 across cols 20-25+. Bounded north by wall at rows 14-15 (cols 18-25+).
 - Western Vertical Corridor: Cols 16-17 (rows 14-21) open north past row 14, closed south at row 22, separated from eastern chamber by rock pillar at cols 18-19.
+## Northern Corridor & Column 23 Passage
+- Column 23 Passage: Tile (23, 14..15) is an open north-south passage through the row 14-15 rock wall.
+- Upper Northern Corridor: Rows 12-13 form a wide open corridor spanning west through col 19+ and east through col 28+, separated by pillar at cols 24-25.
 
 <hr>
