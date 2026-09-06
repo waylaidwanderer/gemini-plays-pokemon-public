@@ -38,13 +38,14 @@
   5. Stand at (4, 16) facing West -> Push Left 2 times along Row 16: Boulder 2 to (1, 16) [ON SWITCH 1!].
 - Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
 
-## 2F Pit Drop Landing & Exit Puzzle Solution
+## 2F Pit Drop Landing & Route Analysis (Verified Turn 32611)
 - Drop Arrival: Dropping through 3F Pit at (23, 15) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
-- Master Fallen Boulder Route to Row 11 & Switch:
-  1. Activate Strength with ATLAS.
-  2. Push Boulder East along Row 16 from (23, 16) to (28, 16) (STOP AT COL 28!).
-  3. Reposition to (28, 17) facing North.
-  4. Push North 5 times along Column 28: (28, 16) -> (28, 11).
-  5. Reposition to (29, 11) facing West.
-  6. Stand at (29, 11) facing West -> Push Left across Row 11 onto Switch Plate.
-  7. Barrier lowers -> Access Exit Ladder to Route 23 North / Indigo Plateau!
+- Row 17 Bypass: Row 17 ((21..28, 17)) is completely open and bypasses the boulder at (23, 16) without needing Strength.
+- Corridor Connectivity:
+  - Row 16 Lower Road connects west to Shutter 3 at (21, 15) and east to Column 28/29.
+  - Column 28 connects Row 16 at (28, 16) north to Row 11 Highway at (28, 11).
+  - Row 11 connects east to Column 28 and west to Column 23 at (23, 11).
+  - Column 23 / Row 8 connects west to Column 17 at (17, 8).
+  - Column 17 connects south at (17, 8) to north at (17, 2).
+  - Row 2 / Row 3 connects Column 17 at (17, 2) east to Column 27 at (27, 2).
+  - Column 28 connects north at (28, 5) south to (28, 8), giving access to (27, 8) directly below Ladder NE at (27, 7).
