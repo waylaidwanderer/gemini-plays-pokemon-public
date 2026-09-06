@@ -185,7 +185,7 @@
 
   - Stats: Attack 89, Defense 105, Speed 89, Special 91
 
-  - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 14/20), Water Gun (PP 25/25) [Restored Turn 4849]
+  - Moves: Bite (PP 25/25), Body Slam (PP 10/15), Bubblebeam (PP 13/20), Water Gun (PP 25/25) [Restored Turn 4849]
 
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
 
