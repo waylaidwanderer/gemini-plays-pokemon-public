@@ -1238,6 +1238,6 @@
 - Cycle 7 begins at (3, 12).
 
 - Can (3, 11): Tested [Turn 3436] -> Only trash.
-- Can (1, 11): Inspecting on Turn 3436.
+- Can (1, 11): Tested [Turn 3437] -> Only trash.
 
 <hr>
