@@ -1,0 +1,3 @@
+- West Hallway & Pillar: Rock formations at cols 6-7 (rows 8-9 and 14-16) with open cross-corridor at rows 10-13.
+- Trainer at (6, 10) facing South: Guards column 6 across rows 11-13.
+- Western Avenue: Cols 4-5 open north-south across rows 8-16+.
