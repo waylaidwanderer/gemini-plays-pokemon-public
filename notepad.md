@@ -4,8 +4,8 @@
 
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Wartortle (SHELDON) Lv 33, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥21835
+- Active Team: Wartortle (SHELDON) Lv 34, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
+- Money: ¥22965
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,14 +71,14 @@
 - HM01 (CUT)
 
 ## Money
-- ¥22335
+- ¥22965
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
   - Status: Healthy
   - HP: 88 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 25/25), Tail Whip (PP 30/30), Bubblebeam (PP 16/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 16/20), Water Gun (PP 25/25)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -245,6 +245,12 @@
   - Pre-battle: "I'm a lightweight, but I'm good with electricity!". Defeat: "ROCKER: Fried!".
   - Combat: Sheldon Lv 33 used Bubblebeam on Voltorb 1 (OHKO). Sheldon Lv 33 used Bubblebeam on Magnemite (took 3 dmg from Tackle, HP 89 -> 86/89), Sheldon used Bubblebeam (KO, grew to Lv 34, HP 86 -> 88/91, Atk 61, Def 74, Spd 62, Spc 63). Sheldon Lv 34 used Bubblebeam on Voltorb 2 (Critical Hit, OHKO).
   - Outcome: Decisive victory. HP: 88/91. Bubblebeam PP: 20 -> 16/20. Money: ¥21835 -> ¥22335.
+
+- **Sailor [Turn 3292 - 3299] (Vermilion Gym at 0, 10):**
+  - Roster: Pikachu Lv 21 (Yield: 369 EXP), Pikachu Lv 21 (Yield: 369 EXP). Total EXP: 738 EXP. Prize: ¥630.
+  - Pre-battle: "This is no place for kids!". Defeat: "SAILOR: Wow! Surprised me!".
+  - Combat: Sheldon Lv 34 used Bite on Pikachu 1 (OHKO). Sheldon Lv 34 used Bite on Pikachu 2 (OHKO). Sheldon took 0 damage (HP 88/91). Bite PP: 25 -> 23/25.
+  - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
 
 
 <hr>
@@ -1182,8 +1188,8 @@
 
 ## Occupants & Trainers
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
-- Rocker Trainer at (3, 8) [Defeated, Turn 3288]: Pre-battle: "I'm a lightweight, but I'm good with electricity!". Team: Voltorb Lv 20 (441 EXP), Magnemite Lv 20 (381 EXP), Voltorb Lv 20 (441 EXP). Defeat Quote: "ROCKER: Fried!". Prize: ¥500.
-- Sailor Trainer at (0, 10) [Defeated, Turn 3299]: Stationed at (0, 10) facing East along row 10. Pre-battle: "This is no place for kids!". Team: Pikachu Lv 21 (369 EXP), Pikachu Lv 21 (369 EXP).
+- Rocker Trainer at (3, 8) [Defeated, Turn 3288].
+- Sailor Trainer at (0, 10) [Defeated, Turn 3299]: Stationed at (0, 10) facing East along row 10 (moved to 2, 10 during battle).
 - Trainer at (9, 6): Blue outfit sprite facing West along row 6.
 
 ## Mechanics & Locks
