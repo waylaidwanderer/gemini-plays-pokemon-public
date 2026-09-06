@@ -5,7 +5,7 @@
 ## Status
 - Badges: 2 / 8 (Boulderbadge, Cascadebadge)
 - Active Team: Wartortle (SHELDON) Lv 34, Farfetch'd (DUX) Lv 5, Geodude (ROCKY) Lv 8, Paras Lv 10
-- Money: ¥22965
+- Money: ¥24575
 - Pokédex: 5 Caught / 15 Seen
 
 ## Milestones
@@ -71,7 +71,7 @@
 - HM01 (CUT)
 
 ## Money
-- ¥22965
+- ¥24575
 
 ## Party Pokémon
 - WARTORTLE (Nickname: SHELDON) [Lv 34, Water]
@@ -253,8 +253,8 @@
   - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
 
 - **Gentleman [Turn 3302 - 3304] (Vermilion Gym at 9, 6):**
-  - Roster: Pikachu Lv 23 (Yield: 403 EXP).
-  - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
+  - Roster: Pikachu Lv 23 (Yield: 403 EXP). Prize: ¥1610.
+  - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!". Defeat: "GENTLEMAN: Stop! You're very good!".
   - Combat: Sheldon Lv 34 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 88/91). Bubblebeam PP: 16 -> 15/20.
   - Outcome: Decisive victory.
 
@@ -1211,7 +1211,7 @@
 - Gym Guide: "LT. SURGE is very cautious! You'll have to break a code to get to him!"
 - Trainer at (3, 8) [Rocker]: "I'm a lightweight, but I'm good with electricity!"
 - Trainer at (0, 10) [Sailor]: "This is no place for kids!"
-- Trainer at (9, 6): "When I was in the Army, LT.SURGE was my strict CO!"
+- Trainer at (9, 6) [Gentleman]: "When I was in the Army, LT.SURGE was my strict CO!" / Defeat: "GENTLEMAN: Stop! You're very good!"
 
 ## Structure & Coordinates
 - 5x3 Grid of 15 Trash Cans:
@@ -1227,8 +1227,8 @@
 - Barrier: Located at rows 4..5 blocking passage to Lt. Surge.
 
 ## Testing Log & Hypotheses
-- Status: Defeating Gym trainers before beginning trash can inspection.
-- [ ] Test 1: TBD
+- Status: Defeated all 3 Gym trainers. Beginning systematic inspection of cans.
+- [ ] Can (7, 7): Inspecting Turn 3305
 
 
 <hr>
