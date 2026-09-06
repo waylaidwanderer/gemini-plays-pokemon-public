@@ -1320,5 +1320,6 @@
 - Tile (36, 11): Solid rock wall, impassable north from (36, 12) [Turn 4417].
 - Tile (26, 2): Solid mountain ridge collision [Re-confirmed Turn 4461].
 - Tile (41, 11) Ramp: Confirmed fully walkable slope/ramp connecting row 12 north up onto row 10 and the eastern gravel highway [Empirically verified Turn 4478].
+- Tile (39, 5) Ramp: Confirmed fully walkable elevation ramp connecting row 6 gravel road north up into row 4 northern tall grass corridor [Empirically verified Turn 4496].
 
 <hr>

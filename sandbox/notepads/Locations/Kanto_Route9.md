@@ -29,7 +29,7 @@
 - Hiker Jeremy at (15, 15): Machop Lv 20, Onix Lv 20. Prize: ¥700. Defeated Turn 4126.
 - Camper at (24, 7): Jr. Trainer ♂ (Drew) facing South. Growlithe Lv 21, Charmander Lv 21. Prize: ¥420. Defeated Turn 4190.
 - Bug Catcher at (31, 7): Stationed on upper northern path facing South.
-- Bug Catcher at (40, 8): Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Prize: �200. Defeated Turn 4489.
+- Bug Catcher at (40, 8): Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Prize: �200. Defeated Turn 4489.
 - Hiker at (45, 15): Geodude Lv 21, Onix Lv 21. Prize: ¥735. Defeated Turn 4174.
 - Bug Catcher at (22, 2): Stationed on northern plateau facing South. Quote: "I got up early every day to raise my POKéMON from cocoons!". Has 2 Pokémon: Beedrill Lv 19, Beedrill Lv 19. Prize: ¥190. Defeated Turn 4209.
 ## Elevation Boundaries & Confirmed Collisions
@@ -64,3 +64,4 @@
 - Tile (36, 11): Solid rock wall, impassable north from (36, 12) [Turn 4417].
 - Tile (26, 2): Solid mountain ridge collision [Re-confirmed Turn 4461].
 - Tile (41, 11) Ramp: Confirmed fully walkable slope/ramp connecting row 12 north up onto row 10 and the eastern gravel highway [Empirically verified Turn 4478].
+- Tile (39, 5) Ramp: Confirmed fully walkable elevation ramp connecting row 6 gravel road north up into row 4 northern tall grass corridor [Empirically verified Turn 4496].
