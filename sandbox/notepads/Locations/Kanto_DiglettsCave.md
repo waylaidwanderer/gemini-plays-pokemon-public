@@ -14,4 +14,4 @@
 - Main tunnel: Extends west along rows 26..29 past col 16 to cols 12..13, where it turns north through rows 22..25.
 ## Wild Encounters
 - Diglett: Lv 18 observed [Turn 3496].
-- Diglett: Lv 18 caught [Turn 3507] (Ground-type counter secured for Lt. Surge!).
+- Diglett: Lv 18 caught [Turn 3507], nicknamed DIGBY [Turn 3523] (Ground-type counter secured for Lt. Surge!).
