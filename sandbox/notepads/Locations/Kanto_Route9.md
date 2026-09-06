@@ -38,6 +38,7 @@
 - Tile (26, 3): Solid rock wall, impassable east from (25, 3) [Turn 4303].
 - Tile (26, 4): Solid rock wall, impassable east from (25, 4) [Turn 4304].
 - Tile (26, 6): Solid rock wall, impassable east from (25, 6) [Turn 4312].
+- Tile (27, 7): Solid rock wall, impassable north from (27, 8) [Turn 4343].
 - Tile (28, 7): Solid rock wall, impassable north from (28, 8) [Turn 4342].
 - Tile (29, 7): Solid rock wall, impassable north from (29, 8) [Turn 4182].
 - Tile (30, 8): Solid cliff corner collision, impassable east from (29, 8) [Turn 4182].
