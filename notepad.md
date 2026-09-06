@@ -3,9 +3,9 @@
 # Pokémon Blue - Journey Log
 
 ## Status
-- Badges: 2 / 8 (Boulderbadge, Cascadebadge)
-- Active Team: Diglett (DIGBY) Lv 18, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34
-- Money: ¥24575
+- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
+- Active Team: Diglett (DIGBY) Lv 19, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Wartortle (SHELDON) Lv 34
+- Money: ¥26951
 - Pokédex: 6 Caught / 15 Seen
 
 ## Milestones
@@ -41,6 +41,7 @@
 - [x] Defeat Rival RED on S.S. Anne 2F [Turn 3056]
 - [x] Obtain HM01 Cut from the Captain of the S.S. Anne [Turn 3066]
 - [x] Catch wild Diglett (DIGBY) Lv 18 in Diglett's Cave [Turn 3507]
+- [x] Defeat Vermilion Gym Leader Lt. Surge & earn Thunderbadge [Turn 3632]
 
 <hr>
 
@@ -62,6 +63,7 @@
 - HELIX FOSSIL x1
 - NUGGET x1
 - TM08 (BODY SLAM) x1
+- TM24 (THUNDERBOLT) x1
 
 ## Key Items
 - POKéDEX
