@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 37, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥32671
+- Money: ¥33546
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -1392,7 +1392,7 @@
 - Column 32 North-South Bypass: Open corridor along col 32 connecting rows 16-19 north into rows 12-13 (upper northern corridor).
 - Eastern Corridor (Rows 16..19): Wide 4-tile open corridor spanning east from col 20 to col 32+ above the row 20-21 rock wall.
 - Upper Northern Corridor: Rows 12-13 form a wide open corridor running west from col 32. Rock pillar at (30..33, 8..9).
-- Hiker at (30, 10) facing South ("My POKéMON techniques will leave you crying!"): Engaged Turn 4649.
+- Hiker at (30, 10) facing South ("My POKéMON techniques will leave you crying!"): Geodude Lv 25. Prize: ¥875. Defeated Turn 4653.
 - Northeast Area: Columns 34-37 open north through row 8.
 
 <hr>
