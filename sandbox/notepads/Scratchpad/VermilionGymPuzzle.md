@@ -4,7 +4,7 @@
 - Gym Guide: "LT. SURGE is very cautious! You'll have to break a code to get to him!"
 - Trainer at (3, 8) [Rocker]: "I'm a lightweight, but I'm good with electricity!"
 - Trainer at (0, 10) [Sailor]: "This is no place for kids!"
-- Trainer at (9, 6): "When I was in the Army, LT.SURGE was my strict CO!"
+- Trainer at (9, 6) [Gentleman]: "When I was in the Army, LT.SURGE was my strict CO!" / Defeat: "GENTLEMAN: Stop! You're very good!"
 
 ## Structure & Coordinates
 - 5x3 Grid of 15 Trash Cans:
@@ -20,5 +20,5 @@
 - Barrier: Located at rows 4..5 blocking passage to Lt. Surge.
 
 ## Testing Log & Hypotheses
-- Status: Defeating Gym trainers before beginning trash can inspection.
-- [ ] Test 1: TBD
+- Status: Defeated all 3 Gym trainers. Beginning systematic inspection of cans.
+- [ ] Can (7, 7): Inspecting Turn 3305

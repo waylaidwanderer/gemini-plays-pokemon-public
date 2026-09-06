@@ -78,7 +78,7 @@
   - Status: Healthy
   - HP: 88 / 91
   - Stats: Attack 61, Defense 74, Speed 62, Special 63
-  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 16/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 23/25), Tail Whip (PP 30/30), Bubblebeam (PP 15/20), Water Gun (PP 25/25)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -251,6 +251,12 @@
   - Pre-battle: "This is no place for kids!". Defeat: "SAILOR: Wow! Surprised me!".
   - Combat: Sheldon Lv 34 used Bite on Pikachu 1 (OHKO). Sheldon Lv 34 used Bite on Pikachu 2 (OHKO). Sheldon took 0 damage (HP 88/91). Bite PP: 25 -> 23/25.
   - Outcome: Decisive victory. HP: 88/91. Bite PP: 23/25. Money: ¥22335 -> ¥22965.
+
+- **Gentleman [Turn 3302 - 3304] (Vermilion Gym at 9, 6):**
+  - Roster: Pikachu Lv 23 (Yield: 403 EXP).
+  - Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
+  - Combat: Sheldon Lv 34 used Bubblebeam (OHKO). Sheldon took 0 damage (HP 88/91). Bubblebeam PP: 16 -> 15/20.
+  - Outcome: Decisive victory.
 
 
 <hr>
@@ -1190,7 +1196,7 @@
 - Gym Guide at (4, 14): Advises that Lt. Surge is the "Lightning American", an expert on Electric Pokémon. Birds and Water Pokémon are at risk, and beware of paralysis. Lt. Surge is very cautious; "You'll have to break a code to get to him!".
 - Rocker Trainer at (3, 8) [Defeated, Turn 3288].
 - Sailor Trainer at (0, 10) [Defeated, Turn 3299]: Stationed at (0, 10) facing East along row 10 (moved to 2, 10 during battle).
-- Trainer at (9, 6): Stationed at (9, 6) facing West along row 6. Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
+- Gentleman Trainer at (9, 6) [Defeated, Turn 3304]: Stationed at (9, 6) facing West along row 6. Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!".
 
 ## Mechanics & Locks
 - Door Locks: Gym Guide states a code must be broken to reach Lt. Surge. Exact mechanism unverified.
