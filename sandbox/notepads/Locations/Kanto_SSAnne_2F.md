@@ -37,3 +37,9 @@
   - Interior bounds: Cols 20..23, Rows 11..15.
   - Occupants: Passenger at (22, 12) ("The CAPTAIN looked really sick and pale!"), Girl at (20, 12) ("I hear many people get seasick!").
   - Furniture: Desk at (20..21, 11), stool at (20, 13), bed at (23, 11..12). No items.
+
+## Lower Hallway / 2F Annex (via stairs at 2, 12)
+- Entry: Stairs at (2, 12) on 2F descend to lower hallway at (19, 3).
+- Corridor: 2-tile wide corridor along rows 2..3 running west from col 19 to col 0.
+- Occupants: Sailor at (11..12, 2) ("Our CAPTAIN is a sword master! He even teaches CUT to POKéMON!").
+- Exits: Stairs back to 2F at (19, 3).

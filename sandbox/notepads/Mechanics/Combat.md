@@ -19,7 +19,10 @@
 
 ## Boss Battle Tactics & Preparation (Audited Turn 2766)
 - **Tactical Preparation Synthesis (Turns 2881 & 2911):**
-  - **Lt. Surge Counter:** Rocky (Geodude Lv 8). Rock/Ground typing walls Electric attacks and resists Normal attacks. Plan: Train Rocky to Lv 18–21 and teach TM28 (Dig) for an effortless sweep.
+  - **Lt. Surge Counter Strategy (Audited Turn 3157):**
+    - Option A (Diglett's Cave - Recommended): Diglett's Cave is situated directly east in Vermilion City. Wild Diglett (Lv 15–22) or Dugtrio (Lv 29–31) have pure Ground typing, immense Speed, and innate Ground moves, completely trivializing Lt. Surge with zero grinding required.
+    - Option B (Overleveled Sheldon): Sheldon Lv 32 possesses high bulk (HP 86, Def 69) and can be taught TM28 (Dig) or TM08 (Body Slam) to overpower Surge's roster.
+    - Option C (Rocky): Rocky (Geodude Lv 8) remains a viable Ground-type reserve if trained, but catching a high-level Diglett is far more time-efficient.
   - **Rival RED Counter:** [Defeated, Turn 3056 - see S.S. Anne Empirical Combat Log below].
 
 - **Team Utility:**
