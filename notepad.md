@@ -1382,6 +1382,8 @@
 - Westbound Bypass (Rows 26..27): Rock wall at cols 22..25 (rows 28..34) blocks direct western passage at row 28+. Corridor turns north to rows 26..27 and continues west past col 22.
 - Jr. Trainer ♀ at (22, 24) facing South ("I came this far for POKéMON!"): Meowth Lv 20, Oddish Lv 20, Pidgey Lv 20. Prize: ¥400. Defeated Turn 4778. Defeated dialogue: "I'm out of POKéMON!".
 - Corridor Junction (Cols 18..21, Rows 24..31): Westbound corridor from col 22 opens into a wide north-south avenue spanning cols 18-19 (rows 24 through 31+).
+- Southwest Section (Rows 27..35, Cols 14..19): Open cave floor extending west past col 14. South boundary is solid rock wall at rows 34-35 (cols 14-23).
+- Ladder at (15, 33): Sighted on row 33.
 
 <hr>
 
