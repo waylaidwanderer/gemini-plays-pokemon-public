@@ -2698,7 +2698,7 @@
 - Ladder down to 1F: Located at (0, 8) <-> 1F (1, 1) [Verified Turns 22565, 26670]
 - Ladder to 3F (Ladder B - Southeast Arrival): Located at (25, 14) <-> 3F (25, 14)
 - Ladder to 3F (Ladder NE): Located at (27, 7) <-> 3F (27, 7)
-- Ladder to 3F (Ladder A): Located at (23, 7) <-> 3F (23, 7) [Verified Turns 26725, 26744]
+- Arrival tile from 3F (Ladder A): Located at (23, 7) (One-way descent arrival from 3F (23, 7); does not function as an ascending ladder from 2F).
 - Ladder to 3F (NW Ladder): Located at (1, 1) <-> 3F NW Room (2, 0)
 
 ## Collected Items
