@@ -1237,5 +1237,6 @@
 - Can (3, 7): Tested [Turn 3418] -> Only trash.
 - Can (1, 7): Tested [Turn 3419] -> Only trash.
 - Can (5, 7): Tested [Turn 3423] -> Only trash.
+- Can (7, 7): Tested [Turn 3424] -> Only trash.
 
 <hr>
