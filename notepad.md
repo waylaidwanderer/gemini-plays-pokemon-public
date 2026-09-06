@@ -1237,7 +1237,8 @@
 - [x] Can (5, 11): Checked Turn 3313 -> Only trash.
 - [x] Can (5, 9): Checked Turn 3314 -> Only trash.
 - [x] Can (5, 7): Checked Turn 3315 -> Only trash.
-- [ ] Can (3, 7): Inspecting Turn 3315.
+- [x] Can (3, 7): Checked Turn 3316 -> Only trash.
+- [ ] Can (3, 9): Inspecting Turn 3316.
 
 
 <hr>
