@@ -1391,6 +1391,8 @@
 - North Wall (Rows 14..15): Solid rock wall spanning across cols 19..31 (terminates at col 31). Separates rows 16-19 from rows 12-13.
 - Column 32 North-South Bypass: Open corridor along col 32 connecting rows 16-19 north into rows 12-13 (upper northern corridor).
 - Eastern Corridor (Rows 16..19): Wide 4-tile open corridor spanning east from col 20 to col 32+ above the row 20-21 rock wall.
-- Upper Northern Corridor: Rows 12-13 visible above the row 14-15 wall, running west from col 32.
+- Upper Northern Corridor: Rows 12-13 form a wide open corridor running west from col 32. Rock pillar at (30..33, 8..9).
+- Trainer at (30, 10) facing South: Stations in upper corridor guarding column 30 across rows 11-13.
+- Northeast Area: Columns 34-37 open north through row 8.
 
 <hr>
