@@ -1240,5 +1240,6 @@
 - Can (7, 7): Tested [Turn 3424] -> Only trash.
 - Can (9, 7): Tested [Turn 3425] -> Only trash. (All 5 Row 7 cans empty).
 - Can (9, 9): Tested [Turn 3427] -> Only trash.
+- Can (7, 9): Tested [Turn 3428] -> Only trash.
 
 <hr>
