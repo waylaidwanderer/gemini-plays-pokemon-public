@@ -12,7 +12,7 @@
 - Southward Exit: Open floor corridor along cols 28-34 heading south past row 29 toward the southern bend.
 - Target: Ladder 2 at northwest corner (5, 3) leading back up to 1F.
 ## Trainers
-- Pokémaniac Winston at (26, 30) facing South ("I draw POKéMON when I'm home."): Slowpoke Lv 25.
+- Pokémaniac Winston at (26, 30) facing South ("I draw POKéMON when I'm home."): Slowpoke Lv 25. Defeated Turn 4585. Prize: ¥1250.
 
 ## Southern Corridor
 - Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.

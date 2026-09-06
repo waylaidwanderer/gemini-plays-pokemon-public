@@ -5,7 +5,7 @@
 ## Status
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 - Active Team: Blastoise (SHELDON) Lv 36, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
-- Money: ¥29881
+- Money: ¥31131
 - Pokédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 ## Milestones
@@ -90,9 +90,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 36, Water]
   - Status: Healthy
-  - HP: 105 / 111
+  - HP: 98 / 111
   - Stats: Attack 80, Defense 93, Speed 80, Special 82
-  - Moves: Bite (PP 25/25), Body Slam (PP 13/15), Bubblebeam (PP 19/20), Water Gun (PP 25/25) [Learned Turn 4031]
+  - Moves: Bite (PP 25/25), Body Slam (PP 12/15), Bubblebeam (PP 19/20), Water Gun (PP 25/25) [Learned Turn 4031]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1372,7 +1372,7 @@
 - Southward Exit: Open floor corridor along cols 28-34 heading south past row 29 toward the southern bend.
 - Target: Ladder 2 at northwest corner (5, 3) leading back up to 1F.
 ## Trainers
-- Pokémaniac Winston at (26, 30) facing South ("I draw POKéMON when I'm home."): Slowpoke Lv 25.
+- Pokémaniac Winston at (26, 30) facing South ("I draw POKéMON when I'm home."): Slowpoke Lv 25. Defeated Turn 4585. Prize: ¥1250.
 
 ## Southern Corridor
 - Rows 30..33 form a wide open corridor connecting east chamber to western passage under the col 26-27 divider.
