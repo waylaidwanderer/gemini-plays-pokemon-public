@@ -2628,7 +2628,7 @@
   15. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13) [Boulder at (17, 13), Player at (17, 12)].
 - Outcome: Boulder 1 resting on Switch (17, 13) lowers Shutters at (5, 13) and (7, 7) to open access to the elevated cross-highway and ladder path.
 
-## Verified Map Boundaries & Exit Warps (Verified Turn 28092, 28200)
+## Map Boundaries & Exit Warps
 - South Exit Warp: Stepping South into row 17 across columns 8 and 9 (the entrance mat) immediately triggers a map transition to Route 23 at (4, 31), resetting all boulder positions and shutter states on 1F. Avoid walking South into row 17 during 1F puzzle execution!
 - Verified Switch Plate on 1F: Located at (17, 13) in Eastern Chamber (target for Boulder 1). Note: (1, 16) is a standard floor tile on 1F (Switch (1, 16) is on 2F).
 
