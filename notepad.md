@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 43, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥47671
+- Money: ¥48361
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -112,7 +112,6 @@
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Reach Rocket Hideout B4F [Turn 6050]
 
-
 <hr>
 
 <h1><code>Inventory</code></h1>
@@ -150,7 +149,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥47671
+- ¥48361
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
