@@ -2605,21 +2605,26 @@
 - Proceed East along row 12 to (11, 12), North to (11, 6), West across row 6 to (7, 6), and South through lowered Shutter (7, 7) to lower cave floor (7, 8).
 - Proceed West along row 8 to (3, 8) (note: (2, 8) is a rock obstacle and col 1 is solid wall; do not enter col 1/row 9). Walk North along Column 3 through (3, 7)->(3, 6)->(3, 5)->(3, 4)->(3, 3)->(3, 2)->(3, 1), then Left 2 steps through (2, 1) to reach the 2F Ladder at (1, 1) (connecting to 2F at (0, 8)).
 
-## Planned Master Boulder Solution (Zero-Warp Protocol - In Progress)
+## Planned Master Boulder Solution (Verified Protocol)
 - Initial State: Boulder 1 at (5, 15).
-- Pre-Push Coordinate Assertions & Master Push Sequence (Avoids Row 17 Exit Warp):
-  1. Step into cave at (8, 17) and immediately walk Up to (8, 15). Activate STRENGTH with ATLAS.
-  2. Stand at (4, 15) -> Push East 4 times to (9, 15) [Boulder at (9, 15), Player at (8, 15)].
-  3. Reposition to (9, 16) via (8, 15) -> Down 1 to (8, 16) -> Right 1 to (9, 16). (Row 16 is safe; never enter row 17!).
-  4. Stand at (9, 16) -> Push North 1 time to (9, 14) [Boulder at (9, 14), Player at (9, 15)].
-  5. Reposition to (8, 14) via (9, 15) -> Left 1 to (8, 15) -> Up 1 to (8, 14).
-  6. Stand at (8, 14) -> Push East 7 times to (16, 14) [Boulder at (16, 14), Player at (15, 14)].
-  7. Stand at (16, 15) -> Push North 2 times to (16, 12) [Boulder at (16, 12), Player at (16, 13)]. (CRITICAL: Stop at row 12!).
-  8. CRITICAL DETOUR: Tile (15, 13) is a solid rock wall. Reposition around boulder by walking: (16, 13) -> Down to (16, 14) -> Left 2 to (14, 14) -> Up 2 to (14, 12) -> Right 1 to (15, 12).
-  9. Stand at (15, 12) -> Push East 1 time to (17, 12) [Boulder at (17, 12), Player at (16, 12)].
-  10. Reposition to (17, 11) via (16, 12) -> Up to (16, 11) -> Right to (17, 11).
-  11. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13) [Boulder at (17, 13), Player at (17, 12)].
-- Verified Outcome: Switch at (17, 13) activated; Shutters at (5, 13) and (7, 7) opened for the duration of the current visit (note: exiting the cave to Route 23 or using Dig/Escape Rope resets the boulder puzzle and closes the shutters).
+- Note: Tile (6, 15) is a solid rock obstacle, so Boulder 1 cannot be pushed directly East from (5, 15). It must be pushed Down to row 16 first.
+- Verified Master Push Sequence:
+  1. Step into cave at (8, 17) and walk Up to (8, 16). Activate STRENGTH with ATLAS.
+  2. Walk to (5, 14) via (8, 16) -> (4, 16) -> (4, 14) -> (5, 14).
+  3. Stand at (5, 14) -> Push Down 1 time to (5, 16) [Boulder at (5, 16), Player at (5, 15)].
+  4. Reposition to (4, 16) via (5, 15) -> Up to (5, 14) -> Left to (4, 14) -> Down 2 to (4, 16).
+  5. Stand at (4, 16) -> Push East 4 times along row 16 to (9, 16) [Boulder at (9, 16), Player at (8, 16)].
+  6. Reposition behind boulder to (9, 17) via (8, 16) -> Down 1 to (8, 17) -> Right 1 to (9, 17). (Horizontal movement across (8..9, 17) does not trigger exit warp).
+  7. Stand at (9, 17) -> Push North 2 times to (9, 14) [Boulder at (9, 14), Player at (9, 15)].
+  8. Reposition behind boulder to (8, 14) via (9, 15) -> Down 1 to (9, 16) -> Left 1 to (8, 16) -> Up 2 to (8, 14).
+  9. Stand at (8, 14) -> Push East 7 times along row 14 to (16, 14) [Boulder at (16, 14), Player at (15, 14)].
+  10. Reposition to (16, 15) via (15, 14) -> Down 1 to (15, 15) -> Right 1 to (16, 15).
+  11. Stand at (16, 15) -> Push North 2 times to (16, 12) [Boulder at (16, 12), Player at (16, 13)].
+  12. CRITICAL DETOUR: Tile (15, 13) is a solid rock wall. Reposition around boulder by walking: (16, 13) -> Down to (16, 14) -> Left 2 to (14, 14) -> Up 2 to (14, 12) -> Right 1 to (15, 12).
+  13. Stand at (15, 12) -> Push East 1 time to (17, 12) [Boulder at (17, 12), Player at (16, 12)].
+  14. Reposition to (17, 11) via (16, 12) -> Up to (16, 11) -> Right to (17, 11).
+  15. Stand at (17, 11) -> Push South 1 time onto Switch (17, 13) [Boulder at (17, 13), Player at (17, 12)].
+- Verified Outcome: Switch at (17, 13) activated; Shutters at (5, 13) and (7, 7) opened.
 
 ## Verified Map Boundaries & Exit Warps (Verified Turn 28092, 28200)
 - South Exit Warp: Stepping South into row 17 across columns 8 and 9 (the entrance mat) immediately triggers a map transition to Route 23 at (4, 31), resetting all boulder positions and shutter states on 1F. Avoid walking South into row 17 during 1F puzzle execution!
