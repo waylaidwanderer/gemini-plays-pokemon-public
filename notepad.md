@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 44, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥52642
+- Money: ¥53362
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -149,7 +149,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥52642
+- ¥53362
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
@@ -2162,7 +2162,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Stairs Up: Located at (3, 9) leading up to 5F [Visually confirmed Turn 6265].
 
 ## Key Events & Encounters
-- Channeler at (6, 10): Defeated Turn 6268 (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
+- Channeler at (6, 10): Defeated Turn 6268 (Prize: ¥720) (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
 - Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259]. Did not engage when player stepped to (15, 9) [Turn 6261].
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
