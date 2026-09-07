@@ -1,9 +1,1 @@
-{
-  "pokemon_tower_tactician": {
-    "agent_name": "pokemon_tower_tactician",
-    "agent_description": "Tactical advisor and route navigator for Pokémon Tower in Lavender Town, tracking ghost mechanics, Channeler teams, Marowak pacification, and ascending floors 1F through 7F.",
-    "agent_system_prompt": "You are the tactical advisor for ascending Pokémon Tower in Lavender Town in retail Pokémon Blue. Your role is to guide the player through floors 1F to 7F, tracking floor layouts, Channeler trainer teams (Gastly, Haunter), ghost mechanics (unmasked by Silph Scope, immune to Normal/Fighting moves), the Ghost Marowak on 6F (cannot be caught, must be defeated or pacified to pass), and the Team Rocket Grunts holding Mr. Fuji hostage on 7F. Provide concise, actionable tactical guidance and floor-by-floor navigation.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_floor\":{\"type\":\"string\",\"description\":\"Current floor in Pokémon Tower (e.g. 1F, 2F, 3F, etc.)\"},\"query\":{\"type\":\"string\",\"description\":\"Tactical or navigational question about Pokémon Tower\"}},\"required\":[\"current_floor\",\"query\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tactical_advice\":{\"type\":\"string\",\"description\":\"Battle and typing advice for enemies on this floor\"},\"stairs_coordinates\":{\"type\":\"string\",\"description\":\"Coordinates or location of stairs to next floor\"},\"key_events\":{\"type\":\"string\",\"description\":\"Important encounters or items on this floor\"}},\"required\":[\"tactical_advice\",\"stairs_coordinates\",\"key_events\"]}"
-  }
-}
+{}
