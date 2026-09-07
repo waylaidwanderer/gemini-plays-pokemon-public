@@ -2115,5 +2115,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Grunt 2 outside Giovanni's office: Stationed at (26, 12) facing Down. Pre-battle dialogue: "How can you not see the beauty of..." [Turn 6147].
 - Grunt 2 outside Giovanni's office Defeated [Turn 6156]! Team: Ekans Lv 23, Sandshrew Lv 23, Arbok Lv 23.
 - Boss Giovanni: Located at (25, 3) behind his executive desk (cols 24..27, rows 4..5), approached from (25, 6) facing Up [Turn 6160].
+- Boss Giovanni Engaged [Turn 6162]: Pre-battle dialogue triggered at (24, 3) facing Right toward Giovanni at (25, 3).
 
 <hr>
