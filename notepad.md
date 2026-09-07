@@ -2564,15 +2564,12 @@
    - SURF required. Guard stands in water canal at (11, 96).
    - Left water channel (cols 4-7) bypasses central island (rows 82-84).
    - North canal landing at (8..12, 71) onto green lawn.
-7. **Volcano Badge**: Guard at (8, 66). Ledge gap at (7, 61). Tree bypass at column 4 (4, 53..57). Row 47 ledge gap at (8, 47).
+7. **Volcano Badge**: Guard at (8, 66). Ledge gap at (7, 61). Columns 12-13 form an unobstructed 2-tile wide green grass highway (rows 44-66) bypassing western ledges directly to the Gatehouse.
 8. **Route 23 Gatehouse & Northern Sector**:
-   - Gatehouse door at (3, 43), exit mat at (18, 45) / (17, 47).
-   - Guard at (16, 43). 2x2 tree at (16..17, 41..42) bypassed via col 15 (15, 40..43) or col 18.
-   - Central Green Highway: Columns 16-17 (rows 34-40) open 2-tile lawn avenue.
-   - Row 33 Cross-Corridor: Spans columns 6 through 17 connecting East Highway to West Highway.
-   - West Highway: Columns 6-7 (rows 30-35) connect to row 30 tall grass corridor (cols 1-8).
-   - **Earth Badge Checkpoint**: Guard at (1, 31). Hidden Poké Ball at (1, 31).
-   - **Northern Sector & Cave Entrance**: Exploration in progress past row 33 towards Victory Road 1F cave entrance.
+   - Gatehouse South Door: Located at (13, 43).
+   - Gatehouse North Exit: Leads onto Route 23 northern sector.
+   - **Earth Badge Checkpoint**: Guard checks Earth Badge along northern approach.
+   - **Victory Road 1F Cave Entrance**: Located at the northern terminus of Route 23.
 
 <hr>
 
