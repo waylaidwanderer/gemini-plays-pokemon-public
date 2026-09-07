@@ -1917,5 +1917,7 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - Wall Partition: Spans (22..24, 8) separating divider from east hall [Turn 5624].
 - Team Rocket Grunt: Stationed at (26, 8) facing West [Turn 5624].
 - West Hall: Open checkered floor spanning cols 17..20, rows 5..11+ [Turn 5624].
+- West Boundary of Aisle (Col 16): Alternating potted plants and statues spanning rows 8..15 [Turn 5625].
+- West Aisle: Continuous 4-tile wide corridor (cols 17..20) extending south past row 15 [Turn 5625].
 
 <hr>
