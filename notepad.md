@@ -2208,6 +2208,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Key Features & Events
 - Channeler at (16, 5): Sighted facing Right/Down. South vision blocked by tombstones at (16..17, 6) [Turn 6354].
+- Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
 
 ## Geography & Layout
 - Arrival Stairs: (18, 9) on east wall.
