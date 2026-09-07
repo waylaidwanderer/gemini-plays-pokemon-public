@@ -2044,5 +2044,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - East Wall: Solid boundary along col 29.
 - Team Rocket Grunt 3: Defeated at (26, 9) [Turns 5928-5937]! Team: Machop Lv 21, Machop Lv 21; prize ¥630. Defeat quote: "What? I lost? No!". Sheldon took 0 damage (HP 135/135). Pre-battle: "We got word from upstairs that you...".
 - Northwest Corridor: Opening along rows 5..7 connects elevator lobby past col 21 wall divider into northwest chambers (cols 18..20+) [Turn 5942].
+- B3F Spinner Maze Sighted: Stop pad at (16, 11), right-facing spinner at (14, 11). Northern highway (rows 5..7) completely clear and bypasses spinners into western sector past col 14 [Turn 5943].
 
 <hr>
