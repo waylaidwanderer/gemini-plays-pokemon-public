@@ -2311,5 +2311,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Railing Barrier at Row 28: Pier railing blocks cols 6..13 over water. Open wooden bridge bypass at cols 14..15. Fisherman NPC stationed at (14, 31) [Verified Turn 6929].
 - Fisherman (Ned): Stationed at (14, 31) facing West. Engaged at (10, 31) [Turn 6933].- Item Ball at (14, 35): Sighted on eastern wooden dock platform [Turn 6941].
 
+- Platform at Rows 34..35: Wooden platform spans west across cols 6..11. Railing blocks south at (6..11, 36). Isolated eastern pier at cols 14..15 (rows 34..37) dead-ends at row 38 railing. Main route turns west along rows 34..35 [Verified Turn 6943].
 
 <hr>
