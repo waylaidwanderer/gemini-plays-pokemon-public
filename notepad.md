@@ -1999,6 +1999,9 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 ## B3F Stairs & Elevator
 - B3F Descending Stairs: Located at (21, 22) in the Southeast Chamber, entered from (21, 21) facing Down [Turn 5810].
 
+## B2F Northern Stairs to B3F
+- Northern Descending Stairs: Located at (21, 8). Leads down to B3F Northern Sector (25, 6) [Turn 5924].
+
 
 <hr>
 
@@ -2034,6 +2037,12 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Row 16 Collision Test: Impassable solid wall at (12, 16) and (13, 16). Empirically tested Turn 5916: attempted steps Up from (12, 17) and (13, 17), player remained on row 17.
 - Row 16 Collision Test: Impassable solid wall at (14, 16) and (15, 16). Empirically tested Turn 5917: attempted steps Up from (14, 17) and (15, 17), player remained on row 17.
 - Row 16 Collision Test: Impassable solid wall at (16, 16). Empirically tested Turn 5918: attempted step Up from (16, 17), player remained at (16, 17). Row 16 (cols 9..17) is 100% verified solid with no openings.
+
+## B3F Northern Sector
+- Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
+- North Wall: Wall partition along row 4 (cols 21..28).
+- East Wall: Solid boundary along col 29.
+- Team Rocket Grunt 3: Stationed at (26, 9) facing Up. Pre-battle dialogue: "We got word from upstairs that you..." [Turn 5928].
 
 
 <hr>
