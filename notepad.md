@@ -1897,5 +1897,6 @@ Gambling facility in central Celadon City serving as the front for Team Rocket's
 - North Corridor: Row 5 spans horizontally in front of the north wall, accessible via col 11 [Turn 5602].
 - Poster: Located on north wall at (9, 4) [Turn 5603].
 - Team Rocket Grunt: Defeated at (9, 5) [Turn 5604-5608] using Sheldon (Raticate Lv 20, Zubat Lv 20; prize �600). Grunt fled off-screen, unlocking access to the poster at (9, 4) [Turn 5611].
+- Secret Staircase: Revealed at (17, 4) after pressing the switch behind the poster at (9, 4). Leads down into Rocket Hideout B1F [Turn 5622].
 
 <hr>
