@@ -2564,11 +2564,12 @@
 - Canal northern landing is at (8..12, 71), where player steps out of water onto green lawn.
 
 ## Volcano Check & Earth Gate to Victory Road
-- Volcano Check Corridor: Volcano Guard stands at (10, 56). Open corridor along columns 12-13 (rows 53-57) bypasses statues to row 52.
-- Column 7 Highway: Column 7 (x=7, y=35..52) is an open, unobstructed vertical corridor running straight north from row 52 to the Earth Badge sector at (7, 35).
-- Earth Badge Checkpoint: Guard stands at (4, 35). Red Earth Gate at (4, 31) allows passage north through row 31 ledge to (4, 30).
-- Northern Highway & Cave Entrance: From (4, 30), proceed east to central highway at (8, 30), and proceed north directly to Victory Road 1F cave entrance at (8, 17).
-
+- Canal Landing to Volcano Check: North landing at (7..10, 71). Row 61 ledge gap is at (7, 61).
+- Row 56 Tree Bypass: Column 4 corridor (x=4, y=53..57) bypasses the row 56 tree barrier to row 52.
+- Row 47 Ledge Gap: Columns 8-9 (x=8..9, y=47) form an open 2-tile wide gap through row 47 south-facing ledge.
+- Earth Badge Checkpoint: Guard stands at (4, 35). Red Earth Gate at (4, 31) allows passage north to row 30.
+- Northern Sector & Gate: Cut tree at (14, 4) requires HM01 Cut to access the northern entrance corridor at (16..17, 4).
+- Northern Highway & Cave Entrance: Central paved highway (rows 17-30) leads directly to Victory Road 1F cave entrance.
 
 <hr>
 
