@@ -5,7 +5,7 @@
 - Stairs Up: Unexplored.
 
 ## Key Features & Events
-- Channeler at (16, 5): Battling Turn 6373! Intro dialogue: 'Ke..ke....ke... ke..ke...ke!!'.
+- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
 - Channeler at (9, 5): Sighted facing South (Down) [Turn 6367].
 
