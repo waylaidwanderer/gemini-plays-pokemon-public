@@ -2857,19 +2857,23 @@
 # Route 22 Traversal & True Passable Path
 
 ## Empirical Passable Route from Viridian City to Route 22 Gate at (8, 5)
-1. Enter Route 22 from Viridian City at `(39, 6..7)`.
+1. Enter Route 22 from Viridian City at `(39, 6..9)`.
 2. Walk West to `(36, 6)`.
 3. Walk `Down` 1 to `(36, 7)`, `Left` 1 to `(35, 7)`.
-4. Walk `Down` 5 along column 35 to `(35, 12)` (bypassing the statues at cols 34-35).
-5. Walk `Left` 4 steps along row 12 to column 31 at `(31, 12)`.
-6. Walk straight `Up` along column 31: `(31, 12)` -> `(31, 11)` -> `(31, 10)` -> `(31, 9)` -> `(31, 8)` -> `(31, 7)` (passes through the Column 31 Ledge Gap!) -> `(31, 6)` -> `(31, 5)`.
-7. At `(31, 5)`, you emerge onto the Upper Paved Brick Highway!
-8. Walk straight `Left` 23 steps along row 5 from `(31, 5)` directly to the Gatehouse entrance at `(8, 5)`.
-9. Step `Up` 1 into the Route 22 Gatehouse door!
+4. Walk `Down` 5 along column 35 to `(35, 12)` (bypassing eastern statues at cols 34-35).
+5. Walk `Left` along Row 12 (unobstructed green lawn) past column 12 to column 4 at `(4, 12)`.
+6. Step `Up` through the fence opening at `(4..5, 11)` onto the Gatehouse front plaza at `(4..5, 10)`.
+7. Walk `Right` along row 10 to column 11 at `(11, 10)`.
+8. Walk straight `Up` along column 11 through `(11, 9)`, `(11, 8)`, `(11, 7)` to `(11, 6)` onto the Upper Paved Road.
+9. Walk `Left` 3 steps along row 6 to `(8, 6)`.
+10. Step `Up` 1 into the Gatehouse golden entrance door at `(8, 5)`!
 
 ## Verified Topology Notes
-- **Column 31 Ledge Gap**: Column 31 at row 7 is a passable opening through the northern ledge that allows northward traversal into row 6 and the Upper Highway (row 5).
-- **Upper Highway (rows 4-5, cols 8-35)**: Unobstructed paved brick road leading straight west to Gatehouse at (8, 5).
+- **Gatehouse Golden Door**: Located at `(8, 5)`.
+- **Upper Paved Road**: Rows 6-7 across columns 7-13 in front of Gatehouse.
+- **Column 11 North Avenue**: Column 11 at rows 6-10 connects the lower plaza (row 10) to the upper road (row 6).
+- **Gatehouse Plaza (row 10)**: Paved area connecting column 4 to column 11.
+- **Row 12 Green Lawn**: Unbroken horizontal lawn spanning from col 37 west to col 4.
 - **Lower Road (rows 14-15)**: One-way return road back to Viridian City. Row 13 is an impassable south-facing ledge. Avoid hopping south of row 12.
 
 <hr>
