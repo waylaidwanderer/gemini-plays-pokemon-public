@@ -1733,5 +1733,7 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Eastern Area: Solid vertical fence at col 17 (rows 11-15) encloses tall grass patch at cols 18-21 (rows 12-15).
 - Landmark at (20, 16..18): Stone statue/monument.
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
+## Northern Highway Passage (Verified)
+- Passage at (8, 11): Fully passable from the south (empirically verified Turn 5316). Links southern Underground Path plaza directly to the northern open highway at rows 8-10.
 
 <hr>
