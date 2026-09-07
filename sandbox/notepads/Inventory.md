@@ -34,9 +34,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥55492
+- ï¿½55492
 
-## Party Pokémon
+## Party Pokï¿½mon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
   - HP: 138 / 138
@@ -75,7 +75,7 @@
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
-## PC Box 1 Pokémon
+## PC Box 1 Pokï¿½mon
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full

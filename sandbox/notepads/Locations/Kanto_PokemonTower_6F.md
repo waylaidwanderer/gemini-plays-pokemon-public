@@ -5,9 +5,10 @@
 - Stairs Up: Located at (9, 16) on southern wall, entered from the East via (10, 16) stepping Left [Visually confirmed Turn 6415].
 
 ## Key Features & Events
-- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Keee!'.
+- Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Dialogue: 'Be gone... Intruders...'.
+- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, ï¿½720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
-- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Something fell out!'.
+- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, ï¿½720). Defeat dialogue: 'Something fell out!'.
 
 ## Geography & Layout
 - Eastern Wall: (19, 6..11) orange altars.
