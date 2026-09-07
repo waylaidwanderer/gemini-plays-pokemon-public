@@ -47,3 +47,4 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
   4. Walk Down along column 12 through (12, 14) and (12, 15) into the southwest sector (rows 16+) [Turn 5957].
 - Column 9 Corridor (Turn 5966): (9, 13..19) is an open vertical corridor connecting the spinner maze to row 19.
 - Navigation Decision: Returning via row 16 spinners (13, 16 -> 17, 16 -> 18, 15) to northern corridor (20, 7) and heading south past Grunt 3 (26, 9) into the unexplored elevator lobby (cols 24..28, rows 10..20) to locate B4F stairs / Lift Key.
+- B3F Spinner Maze Northern Exit (Turn 5975): Row 11 from (16, 11) Stop Pad across (17..20, 11) is clear pink floor. Column 20 (rows 8..11) is an open north-south corridor passing the row 8 wall gap at (20, 8) directly onto the Northern Highway at (20, 7).
