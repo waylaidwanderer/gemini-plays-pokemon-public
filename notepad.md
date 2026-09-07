@@ -2046,5 +2046,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Northwest Corridor: Opening along rows 5..7 connects elevator lobby past col 21 wall divider into northwest chambers (cols 18..20+) [Turn 5942].
 - B3F Spinner Maze Sighted: Stop pad at (16, 11), right-facing spinner at (14, 11). Northern highway (rows 5..7) completely clear and bypasses spinners into western sector past col 14 [Turn 5943].
 - B3F Spinner Maze Mechanics: Row 11 features Stop Pad at (10, 11), Left-spinner at (12, 11) sliding west to (10, 11), and Right-spinner at (14, 11) sliding east to Stop Pad at (16, 11). Console gap at (13..14, 10). Northern highway (rows 5..7) remains wide open past col 10 [Turn 5944].
+- Northwest Pocket: Cols 9..11, rows 5..7 is open checkered floor ending at solid west boundary wall at col 8. No stairs or items in this pocket. Row 8 wall partition is completely solid from col 8 to col 19; sole access to the B3F Spinner Maze is via (20, 8) [Turn 5945].
 
 <hr>
