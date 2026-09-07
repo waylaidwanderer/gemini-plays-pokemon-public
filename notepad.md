@@ -2752,6 +2752,7 @@
 - Current state (Turn 34773): Boulder 1 at (13, 1), Player at (15, 1) on Row 1 Northern Highway.
 - Turn 34778-34779: Pushed Boulder 1 west to (7, 1) at the top of the Central Bridge corridor.
 - Current state: Boulder 1 at (7, 1), Player repositioning to (7, 0) to push South down Column 7.
+- Turn 34784-34786: Pushed Boulder 1 south from (7, 1) to (7, 3) along Column 7 Central Bridge [Player at (7, 2)].
 
 <hr>
 
