@@ -25,3 +25,14 @@
 - Row 11 South-Facing Cliff: Continuous cliff runs along Row 11 across columns 16-27, preventing northward walking from Row 12 into Row 11.
 - Column 28-29 Highway: Columns 28 and 29 form an open vertical corridor connecting rows 11-16 to the northern corridors.
 - Row 16 Highway: Row 16 connects columns 20 through 28 horizontally across the southern edge of the map.
+
+## Empirical Boulder Traversal Telemetry (Verified Turns 34761-34771)
+- Boulder 1 starting position: (22, 3) in northern chamber.
+- Turn 34761: Pushed West from (22, 3) -> (21, 3) [Player at (22, 3)].
+- Turn 34763: Pushed West from (21, 3) -> (20, 3) [Player at (21, 3)].
+- Turn 34764: Pushed North from (20, 3) -> (20, 2) [Player at (20, 3)].
+- Turn 34765: Pushed North from (20, 2) -> (20, 1) onto Row 1 Northern Highway [Player at (20, 2)].
+- Turn 34766: Repositioned to (21, 1) and pushed West from (20, 1) -> (19, 1) [Player at (20, 1)].
+- Turn 34768: Pushed West from (19, 1) -> (17, 1) [Player at (18, 1)].
+- Turn 34769: Pushed West from (17, 1) -> (14, 1) [Player at (16, 1)].
+- Current state (Turn 34771): Boulder 1 at (14, 1), Player at (16, 1) on Row 1 Northern Highway.
