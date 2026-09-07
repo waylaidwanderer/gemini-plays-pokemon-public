@@ -1993,7 +1993,7 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 ## B2F Southeast Sector & Maze Escape
 - Maze Exit: Stop Pad 2 at (16, 13) is reached via the continuous column 16 up-spinner corridor from (16, 18) [^^] [Turn 5798].
 - East Exit Avenue: Row 13 is open floor from (16, 13) across (17..19, 13) into the Eastern Chamber [Turn 5799].
-- South Passage: Column 19 is open south of row 13 through (19, 14..15+) leading into the Southeast Sector.
+- Row 16 Wall Barrier: Solid horizontal wall blocks row 16 across cols 18..24. Passage from Southeast Sector to the north is via the Column 16 up-spinner at (16, 18) [Turn 5876].
 ## B2F East Chamber & Elevator Geography
 - East Hallway: Cols 25..28 across rows 11..15 are open checkered floor ending at solid east wall at col 29. No stairs exist in this corridor.
 - Row 16 Barrier: Solid horizontal wall spans cols 19..29 at row 16, completely blocking northern access to the elevator room.
