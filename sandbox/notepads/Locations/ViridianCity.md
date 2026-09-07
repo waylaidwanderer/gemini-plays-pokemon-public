@@ -19,4 +19,4 @@
 ## Verified Route 22 Transit
 - Route 22 connects to Viridian City at the west edge (rows 8-9), accessible via the paved avenue at rows 18-19 and column 4.
 - Row 27 Ledge Bypass: Located at (19, 27), allowing passage from the southern road (row 28/30) north into the Pokémon Center courtyard at row 26.
-- Northwest Cut Corridor: Located at rows 4-5 across columns 6-14. Cut tree at (14, 4) requires HM01 Cut to enter from the eastern city, opening access to the northern lawn (6..14, 4..5).
+- Northwest Cut Corridor: Located at rows 4-5 across columns 6-14. Cut tree at (14, 4) requires HM01 Cut to enter from the eastern city, opening access to the northern lawn (6..14, 4..5). Note: The western boundary of the northern lawn at column 5 is a solid tree/cliff wall with no direct access to Route 22; column 6 leads south to row 14.
