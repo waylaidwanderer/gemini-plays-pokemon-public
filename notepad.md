@@ -2755,6 +2755,7 @@
 - Turn 34835: Pushed Boulder 1 south from (6, 2) to (6, 3) [Player at (6, 2)]. Verified (6, 4) and (6, 5) are open dark checkerboard bridge floor.
 - Turn 34836: Pushed Boulder 1 south from (6, 3) to (6, 4) [Player at (6, 3)]. Verified (6, 5) and (6, 6) are open dark checkerboard bridge floor.
 - Turn 34837: Pushed Boulder 1 south from (6, 4) to (6, 5) [Player at (6, 4)]. Verified (6, 6), (6, 7), (6, 8) are open dark checkerboard bridge floor.
+- Turn 34838: Pushed Boulder 1 south from (6, 5) to (6, 6) [Player at (6, 5)]. Verified (6, 7), (6, 8), (6, 9) are open dark checkerboard bridge floor.
 
 <hr>
 
