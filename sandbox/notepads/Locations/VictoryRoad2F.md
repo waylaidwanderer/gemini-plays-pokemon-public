@@ -26,7 +26,7 @@
 
 ## Switches & Shutters on 2F
 - **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16). Lowers Shutter 1 at (5, 10).
-- **Central-South Boulder & Switch**: Boulder at (9, 11), Switch at (9, 16), Shutter at (15, 15).
+- **Central-South Boulder & Switch**: Boulder at (9, 11) with switch at (9, 16) and shutter at (15, 15). Note: (9, 10) is a solid rock wall, so Boulder (9, 11) is not pushed from the north; progression uses Switch 1 @ (1, 16) to open Shutter 1 (5, 10) and Shutter 3 (21, 15).
 - **Pit Drop Landing**: Falling through 3F Pit at (23, 15) drops the player to 2F at (22, 16) and the boulder to (23, 16).
 
 ## Master Progression Plan
