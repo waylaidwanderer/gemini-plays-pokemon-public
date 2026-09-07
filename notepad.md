@@ -1972,6 +1972,16 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Item Ball 1: Located at (1, 11). Retrieved on Turn 5721; contained MOON STONE.
 - Item Ball 2: Located at (6, 12). Retrieved on Turn 5747; contained TM07 (HORN DRILL).
 - Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
+- Northern Highway (Row 7): Completely open corridor spanning from col 1 to col 21, connecting western and eastern sectors.
+
+## B2F Southern Sector & B3F Stairs Route
+- Southeast Stop Pad: Located at (15, 18) [Turn 5751].
+- Row 20 Stop Pad: Located at (11, 20) [Turn 5752].
+- Deep South Stop Pad: Located at (9, 24) [Turn 5752].
+- Southern Conveyor Route:
+  1. From (15, 18) Stop Pad: step Left onto (13, 18) [<<] -> slides to (11, 18) [vv] -> lands on Stop Pad at (11, 20).
+  2. From (11, 20) Stop Pad: walk to (14, 22), step Left onto (13, 22) [<<] -> slides to (9, 22) [vv] -> lands on Stop Pad at (9, 24).
+  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber and B3F stairs!
 
 
 <hr>
