@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 45, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: �55492
+- Money: ¥57712
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -153,14 +153,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- �55492
+- ¥57712
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 45, Water]
   - Status: Healthy
   - HP: 141 / 141
   - Stats: Attack 102, Defense 119, Speed 102, Special 104
-  - Moves: Bite (PP 21/25), Body Slam (PP 11/15), Bubblebeam (PP 15/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 21/25), Body Slam (PP 11/15), Bubblebeam (PP 16/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2224,8 +2224,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
   - Row 7 western highway: Open crosshatch floor from col 10 all the way west to col 3 (cols 3..10 open).
   - Cols 14..15 form a 2-tile-wide north-south highway between row 3 and row 10.
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
-## Items
-- Item Ball at (14, 14): Sighted on floor in southeast alcove [Turn 6444].
+
 
 <hr>
 
@@ -2246,7 +2245,6 @@ The top floor of Pokémon Tower where Team Rocket holds Mr. Fuji captive.
 
 ## Geography & Layout
 - Central Corridor: Open vertical aisle along columns 9..12 leading from southern stairs at (9, 16) north toward the northern altar area.
-- Mr. Fuji: Sighted and visually verified at northern altar at (10, 2) [Verified Turn 6522].
 
 
 <hr>
