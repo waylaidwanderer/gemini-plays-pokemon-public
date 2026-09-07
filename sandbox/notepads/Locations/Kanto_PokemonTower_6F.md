@@ -5,7 +5,7 @@
 - Stairs Up: Located at (9, 16) on southern wall, entered from the East via (10, 16) stepping Left [Visually confirmed Turn 6415].
 
 ## Key Features & Events
-- Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Dialogue: 'Be gone... Intruders...'.
+- Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]!
 - Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
 - Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Something fell out!'.
