@@ -2705,6 +2705,8 @@
 ## Verified Puzzle Reset Triggers (Verified Turn 34061)
 - Map reload events (such as ascending/descending floor ladders, leaving through cave entrances, or using Dig/Escape Rope) completely reload the floor's map state and reset all pushable boulders back to their default starting positions.
 - Switch activations and shutter gates on a given floor are temporary for the active visit; they persist while remaining on that floor, but reset to closed when the floor is reloaded.
+- **Shutter 2 @ (15, 15)**: Empirically verified open/passable on Turn 34749, connecting eastern corridor (15, 14) directly to Row 16 southern highway at (15, 16)!
+- **Row 16 Highway**: Row 16 is completely open dark checkerboard floor across columns 9 to 27, connecting Central Chamber (cols 9-11) directly to East Sector (cols 21-27).
 
 <hr>
 
