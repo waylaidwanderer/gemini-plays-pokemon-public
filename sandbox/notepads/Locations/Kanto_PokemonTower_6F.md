@@ -7,7 +7,7 @@
 ## Key Features & Events
 - Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
-- Channeler at (9, 5): Battling Turn 6388 (stepped to 9, 6)! Intro dialogue: 'Urff..  Kwaah!'.
+- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Something fell out!'.
 - Item Ball at (6, 8): Sighted on floor south of row 7 [Turn 6386].
 
 ## Geography & Layout
