@@ -22,6 +22,7 @@
 - HM01 (CUT)
 - HM05 (FLASH)
 - BICYCLE
+- COIN CASE
 
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)

@@ -102,3 +102,7 @@
 - [x] Arrive in Lavender Town [Turn 4839]
 
 - [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]- [x] Enter Celadon City via Route 7 [Turn 5434]
+- [x] Purchase drinks (Fresh Water, Soda Pop, Lemonade) on Celadon Dept. Store Roof [Turn 5522]
+- [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
+- [x] Teach TM13 Ice Beam to Blastoise (SHELDON) over Water Gun [Turn 5556]
+- [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
