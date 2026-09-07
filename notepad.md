@@ -67,7 +67,7 @@
 1. HYDROS (Blastoise) - Lv 71
    - Stats: Max HP 240 (HP: 131/240), Attack 169, Defense 186, Speed 171, Special 178
    - Type: Water
-   - Moves: Double-Edge (0/15), Ice Beam (10/10), Bite (25/25), Surf (13/15)
+   - Moves: Double-Edge (0/15), Ice Beam (10/10), Bite (25/25), Surf (8/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 0/54 - Fainted)
@@ -2640,11 +2640,10 @@
 ## Master Victory Road Canonical Routing & Solution
 1. **1F Completed**: Boulder pushed to Switch (17, 13), Shutters opened, climbed ladder to 2F (0, 8).
 2. **2F Switch 1 Completed**: Boulder (4, 14) pushed to Switch 1 (1, 16), Shutter 1 at (5, 10) opened!
-3. **2F Central Boulder Puzzle (Switch 2)**:
-   - Walk through opened Shutter 1 at (5, 10) into central room (rows 11-16, cols 6-15).
-   - Locate Boulder at (9, 11).
-   - Push Boulder (9, 11) onto Switch 2 at (9, 16).
-   - This lowers Shutter at (15, 15) and Shutter at (21, 15), unlocking the eastern sector of 2F!
+3. **2F Traversal Completed**:
+   - Shutter 1 at (5, 10) and Shutter 2 at (15, 15) empirically verified open/passable.
+   - Central Chamber contains no boulder; Switch 1 opened full access.
+   - Row 16 connects directly to Column 28-29 Highway leading north to Ladder A at (23, 7).
 4. **Ascend to 3F via Ladder A (23, 7)**:
    - Walk east through opened Shutter at (15, 15) / (21, 15) into eastern sector.
    - Ascend Ladder A at (23, 7) directly to 3F main floor!
@@ -2740,6 +2739,16 @@
 - Column 28-29 Highway: Columns 28 and 29 form an open vertical corridor connecting rows 11-16 to the northern corridors.
 - Row 16 Highway: Row 16 connects columns 20 through 28 horizontally across the southern edge of the map.
 
+## Empirical Boulder Traversal Telemetry (Verified Turns 34761-34771)
+- Boulder 1 starting position: (22, 3) in northern chamber.
+- Turn 34761: Pushed West from (22, 3) -> (21, 3) [Player at (22, 3)].
+- Turn 34763: Pushed West from (21, 3) -> (20, 3) [Player at (21, 3)].
+- Turn 34764: Pushed North from (20, 3) -> (20, 2) [Player at (20, 3)].
+- Turn 34765: Pushed North from (20, 2) -> (20, 1) onto Row 1 Northern Highway [Player at (20, 2)].
+- Turn 34766: Repositioned to (21, 1) and pushed West from (20, 1) -> (19, 1) [Player at (20, 1)].
+- Turn 34768: Pushed West from (19, 1) -> (17, 1) [Player at (18, 1)].
+- Turn 34769: Pushed West from (17, 1) -> (14, 1) [Player at (16, 1)].
+- Current state (Turn 34771): Boulder 1 at (14, 1), Player at (16, 1) on Row 1 Northern Highway.
 
 <hr>
 
