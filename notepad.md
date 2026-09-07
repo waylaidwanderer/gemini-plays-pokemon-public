@@ -63,7 +63,7 @@
 
 # Current Party & Team Strategy
 
-## Active Party (Fully Healed at Viridian Pokecenter Turn 35030)
+## Active Party
 1. HYDROS (Blastoise) - Lv 72
    - Stats: Max HP 245 (HP: 237/245), Attack 172, Defense 190, Speed 174, Special 182
    - Type: Water
@@ -2670,7 +2670,14 @@
    - Location: Northeast chamber behind shutter at (27, 10). Leads to 3F final exit.
 
 ## Switches & Shutters on 2F
-- **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16). Lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+- **Switch 1 @ (1, 16) - Verified Master Protocol**:
+  1. Default State: Boulder at (4, 14), Switch 1 at (1, 16).
+  2. Stand at (5, 14) -> Push Left 1 time to (3, 14) [Boulder at (3, 14), Player at (4, 14)].
+  3. Reposition to (3, 13) via (4, 13) -> (3, 13).
+  4. Stand at (3, 13) -> Push Down 2 times along Column 3 to (3, 16) [Boulder at (3, 16), Player at (3, 15)].
+  5. Reposition to (4, 16) via (4, 15) -> (4, 16) (standing on open floor east of boulder).
+  6. Stand at (4, 16) -> Push Left 2 times along row 16 onto Switch (1, 16) [Boulder at (1, 16), Player at (2, 16)].
+  7. Outcome: Switch 1 activates, lowering Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
 - **Central-South Boulder & Switch**: Boulder at (9, 11) with switch at (9, 16) and shutter at (15, 15).
 - **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
