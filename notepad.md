@@ -1790,6 +1790,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Celadon Department Store: Large multi-story MART building at rows 7..13; 'MART' sign at (12, 13); front entrance door at (10, 13) [Turn 5498].
 - South Commercial Complex: Buildings spanning rows 24..27+ across cols 14..17 and cols 18..21; accessible via southbound passage at col 22 (rows 23..27+) [Turn 5570].
 - South Commercial Building (Diner): Spans cols 26..33+, rows 24..27; front entrance door at (31, 27) [Turn 5573].
+  - Patron at (1, 4): "Psst! There's a basement under the GAME CORNER." [Turn 5575].
 
 <hr>
 
