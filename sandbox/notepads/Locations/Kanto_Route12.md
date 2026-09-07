@@ -20,4 +20,4 @@
 
 - Crossway at Rows 40..41: East-west platform across cols 4..9 connects western lane to eastern lane. Cols 4..5 dead-ends at row 44 railing. Main bridge continues south along cols 8..9 (rows 42..45) [Verified Turn 6951].
 - Bridge Segment at Rows 46..51: Paved grass corridor at cols 12..13 (rows 46..47) connects to wooden bridge planks (rows 48..51). Cross-platform at rows 52..53 connects to western lane. Fisherman NPC stationed at (9, 52) [Verified Turn 6953].
-- Fisherman (Elliot): Engaged at (12, 52) from (9, 52) stepping to (11, 52) [Turn 6954].
+- Fisherman (Elliot): Engaged at (12, 52) from (9, 52) stepping to (11, 52) (Defeated Turn 6959: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21).
