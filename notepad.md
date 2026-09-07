@@ -110,6 +110,8 @@
 - [x] Teach TM13 Ice Beam to Blastoise (SHELDON) over Water Gun [Turn 5556]
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
+- [x] Reach Rocket Hideout B4F [Turn 6050]
+
 
 <hr>
 
@@ -155,7 +157,7 @@
   - Status: Healthy
   - HP: 130 / 135
   - Stats: Attack 97, Defense 113, Speed 97, Special 99
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 0/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 0/20), Ice Beam (PP 9/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2035,6 +2037,8 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 
 - Column 9 Passability (Turn 6018): Tile (9, 16) is empirically verified 100% passable, connecting row 16 directly to column 9 (rows 13..19).
 
+- B4F Descending Stairs (Turn 6050): Located at (19, 18) in the southern aisle. Leads down to Rocket Hideout B4F (19, 10).
+
 ## B3F Northern Sector
 - Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
 - North Wall: Wall partition along row 4 (cols 21..28).
@@ -2093,7 +2097,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Consoles / Desks: Span (10..11, 4..5) and (12..13, 4..5).
 - Server Equipment: Runs along row 1 across cols 10..15.
 
-- Northwest Room Grunt: Stationed at (11, 2). Engaged on Turn 6056! Pre-battle dialogue: "The elevator doesn't work? Who..."
 - Northwest Room Grunt Pre-Battle Quote: "The elevator doesn't work? Who has the LIFT KEY?" [Turn 6056]
 
 <hr>
