@@ -22,7 +22,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Northwest Room Grunt Pre-Battle Quote: "The elevator doesn't work? Who has the LIFT KEY?" [Turn 6056]
 - Northwest Room Grunt Defeated [Turn 6066]! Team: Koffing Lv 21, Zubat Lv 21; prize ¥630. Defeat quote: 'ROCKET: No!'.
 - Northwest Room Grunt Post-Battle Dialogue [Turn 6072]: "Oh no! I dropped the LIFT KEY!"
-- Lift Key Item Ball: Spawned at (10, 2) after talking to Grunt [Turn 6073].
 - Lift Key: Collected from (10, 2) [Turn 6079].
 - Item Ball 1 at (9, 4): Retrieved TM02 (RAZOR WIND) [Turn 6085].
 ## Physical Boundaries & Collisions (Verified Turns 6088-6089)
@@ -30,3 +29,5 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Western Boundary: Solid wall along column 8.
 - Open Passages: Row 15 is open traversable floor from col 10 to col 18.
 - Column 21 Divider: Solid vertical wall separates central hallway from elevator lobby (rows 6..12).
+
+- Item Ball 2: Sighted at (10, 12) sitting on desk/console in northwest room [Turn 6092].

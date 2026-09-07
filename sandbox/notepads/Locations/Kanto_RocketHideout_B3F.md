@@ -4,7 +4,7 @@
 Third basement level of Team Rocket's underground headquarters beneath Celadon City. Contains Rocket Grunts, items, and access to B4F.
 
 ## Layout & Geography
-- Entry Stairs (to B2F): Located at (21, 24). Arrival tile at (21, 25) facing Down [Turn 5811].
+- Entry Stairs (to B2F): Located at (25, 6) in Northern Sector; connects to B2F (21, 8). (Note: (21, 24) in Southeast Chamber was empirically verified flat floor, not stairs).
 - Southeast Chamber: Open checkered floor spanning cols 18..22, rows 21..26.
 - South Wall: Row 27 is the south boundary wall.
 - East Wall: Column 23 is the eastern solid boundary wall.
