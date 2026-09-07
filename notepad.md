@@ -2676,6 +2676,9 @@
 - Switch 1 @ (1, 16): Boulder 1 successfully pushed onto (1, 16) with Strength.
 - Status: Switch 1 ACTIVATED! Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15) are lowered and open for current visit.
 - Traversal: Pass north through Shutter 1 (5, 10) to access upper plateau / central corridors, and east through Shutter 3 (21, 15) to Ladder B (25, 14).
+## Verified Puzzle Reset Triggers (Verified Turn 34061)
+- Map reload events (such as ascending/descending floor ladders, leaving through cave entrances, or using Dig/Escape Rope) completely reload the floor's map state and reset all pushable boulders back to their default starting positions.
+- Switch activations and shutter gates on a given floor are temporary for the active visit; they persist while remaining on that floor, but reset to closed when the floor is reloaded.
 
 <hr>
 
