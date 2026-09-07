@@ -21,7 +21,16 @@
 - Chokepoint Boulder (13, 12): Sits between purple rock walls at (12, 12) and (14, 12). Pushing it down to (13, 13) traps it against rock wall (13, 14) and wall (14, 12), blocking horizontal passage.
 - SE Pit Room Access: The SE Pit Room (boulder at (22, 15), pit at (23, 15), Ladder B at (25, 14)) is isolated from the 3F upper plateau by impassable cliffs; it is reached via Ladder B at (25, 14) from 2F!
 - Cooltrainer at (28, 5): Defeated (Turn 33412 verified dialogue: "You beat GIOVANNI of TEAM ROCKET?").
-- Verified Boundary at (23, 9): Stepping South from (23, 8) into (23, 9) is blocked by a solid rock wall / ledge boundary. Column 23 does not allow direct southward passage from (23, 8) to (23, 10).
-- Ladder A at (23, 7): Wall ladder connecting 3F (23, 7) and 2F (23, 7). Connects to upper dark plateau.
-- Ladder NE at (26..27, 7..8): Located in enclosed NE chamber (rows 7-11, cols 25-28), accessed by pushing boulder at (24, 10) east into (25, 10).
-- NW Ladder at (2, 0): Located in NW room, connects to 2F NW elevated plateau at (1, 1). Accessible via Row 1 Northern Highway.
+
+## Verified Boundaries & Blockades (Empirically Verified Turns 33855-33900)
+- Row 6 Barrier (East): Continuous solid rock wall spans columns 21 through 29 along Row 6, preventing southward passage from Northern Highway (Row 1) on the east side.
+- Column 23 Rock: Tile (23, 9) is a solid purple rock obstacle blocking southward passage from (23, 8) into row 10.
+- Column 5-6 Divider: Solid vertical rock wall divides Column 5 and Column 6 across rows 0 through 6, completely separating the NW Chamber (cols 0-5) from the Central Bridge (cols 6-7).
+- Row 1 Cliff (Central): South-facing cliff spans columns 8 through 18 between Row 1 and Row 2, preventing southward stepping into Row 2.
+- Central Bridge Obstacles: Column 6 is blocked at (6, 7) by purple rock, and Column 7 is blocked at (7, 8) by purple rock.
+
+## Verified 3F Ladders & Floor Connections
+1. NW Ladder @ (2, 0): Located in NW Room (cols 0-5). Connects to 2F NW elevated plateau at (1, 1).
+2. Ladder A @ (23, 7): Wall ladder on north wall of central sector. Connects to 2F at (23, 7).
+3. Ladder NE @ (27, 7): Wall ladder in enclosed NE room (rows 7-9, cols 25-28). Connects to 2F behind switch shutter at (27, 7).
+4. Ladder B @ (25, 14): Floor ladder (black opening `[=]`) in SE Pit room. Connects to 2F SE sector at (25, 14).
