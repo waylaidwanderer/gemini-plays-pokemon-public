@@ -38,3 +38,5 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
 ## Northern Highway Passage (Verified)
 - Passage at (8, 11): Fully passable from the south (empirically verified Turn 5316). Links southern Underground Path plaza directly to the northern open highway at rows 8-10.
+  - (1, 9): Impassable tree boundary (Turn 5320).
+- Northern Passage: Column 10 provides open passage north past row 7 ledge into northern rows 0-6.
