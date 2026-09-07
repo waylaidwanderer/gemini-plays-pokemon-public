@@ -156,7 +156,7 @@
   - Status: Healthy
   - HP: 135 / 135
   - Stats: Attack 97, Defense 113, Speed 97, Special 99
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 20/20), Ice Beam (PP 7/10)
+  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 16/20), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2004,7 +2004,9 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 ## B2F Northern Stairs to B3F
 - Northern Descending Stairs: Located at (21, 8). Leads down to B3F Northern Sector (25, 6) [Turn 5924].
 
+## B2F Elevator
 - Elevator Entrance (Empirically Verified Turn 6129): Located at (24, 19) with red/white checkered entryway, accessible directly from row 18 (24, 18) facing Down.
+
 
 <hr>
 
@@ -2080,11 +2082,11 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 Fourth and deepest basement level of Team Rocket's underground headquarters beneath Celadon City. Contains Giovanni's office, the Lift Key, and the Silph Scope.
 
 ## Layout & Geography
+- Elevator Entrance/Arrival (Empirically Verified Turn 6133): Threshold at cols 24..25, row 15/16; player exited elevator cabin onto B4F at (25, 15).
+- Boss Office Doors: Double wooden sliding doors located at (24..25, 11), guarded by Grunt 1 at (23, 12) and Grunt 2 at (26, 12).
 - Entry Stairs (to B3F): Located at (19, 10), arrival tile at (19, 10) facing Up [Turn 6050]. Connects to B3F (19, 18).
 - Central Hallway: Spans cols 17..20, rows 6..12.
 - Central Divider Wall: Solid vertical divider along column 21 (rows 6..12).
-- Elevator: Doors located at (24..25, 11) in the eastern sector.
-- Team Rocket Grunt: Stationed at (23, 12) facing Down in front of the elevator corridor.
 - Western Corridor: Open passageway along rows 13..14 extending west past column 15.
 - Wall Gap at Col 16: Opening at rows 3..4 allows passage from central hallway into the western/northwestern sector.
 - Northern Corridor: Rows 2..6, cols 17..20 are open pink checkered floor.
