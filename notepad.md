@@ -2102,5 +2102,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Northwest Room Grunt Post-Battle Dialogue [Turn 6072]: "Oh no! I dropped the LIFT KEY!"
 - Lift Key Item Ball: Spawned at (10, 2) after talking to Grunt [Turn 6073].
 - Lift Key: Collected from (10, 2) [Turn 6079].
+- Item Ball 1 at (9, 4): Retrieved TM02 (RAZOR WIND) [Turn 6085].
 
 <hr>
