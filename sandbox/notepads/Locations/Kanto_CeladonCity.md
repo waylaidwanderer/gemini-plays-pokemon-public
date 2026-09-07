@@ -12,11 +12,10 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Entry coordinate from Route 7: (49, 11) facing West [Turn 5434].
 
 - Pokémon Center (Southeast, Cols 41..43, Rows 7..9): Entrance door at (41, 9), "POKé" sign at (42, 9). Interior features Nurse Joy at (3, 2), PC in northeast corner. Established as warp anchor [Turn 5443].
-- Bicycle mounted at (41, 10) outside Pokémon Center [Turn 5482].
 - NPC sighted wandering along row 14 at (43, 14).
 - Citizen with Poliwrath at (32, 12) and (30, 12): Mentions Poliwrath evolved from Poliwhirl via Water Stone [Turn 5485-5486].
 - Celadon Mansion (Condominiums): Front entrance door at (24, 9); spans rows 7..9, cols 23..27+ [Turn 5488].
 - North Courtyard: Spans cols 20..21 (rows 7..9) with statue at (21, 9) [Turn 5489].
 - Main Avenue: Continuous paved east-west boulevard across rows 10..13 [Turn 5488].
-- Rocket Game Corner Complex (Green Awning Building): Roof spans cols 20..25, rows 14..15 [Turn 5489].
-- West Avenue / Game Corner Access: Southbound paved avenue at cols 16..17 (rows 10..15+) leading south toward Game Corner plaza [Turn 5489].
+- Green Awning Building: Roof spans cols 20..25, rows 14..15 [Turn 5489].
+- West Avenue: Southbound paved avenue at cols 16..17 (rows 10..15+) leading south toward southern district [Turn 5489].
