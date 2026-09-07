@@ -15,7 +15,7 @@
 6. Row 9 Ledge Hop @ (1, 9): South-facing ledge at (1, 9) allows jumping down from lower purple floor (1, 8) directly onto the southern dark checkerboard highway at (1, 10..14).
 
 ## Trainers on Victory Road 3F
-- Cooltrainer (M) @ (4, 14): Southern corridor. Roster: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43. [Engaged]
+- Cooltrainer (M) @ (4, 14): Southern corridor. Roster: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43. [Defeated]
 - Cooltrainer (F) @ (28, 5): Eastern alcove near Ladder NE. [Defeated]
 
 ## Verified Mechanics & Observed Objects

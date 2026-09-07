@@ -1,7 +1,7 @@
 # Victory Road 1F - Layout & Notes
 
 ## General Information
-- South exit / entrance: Route 23 at (8, 17) [Entered Turn 22138]
+- South exit / entrance: Route 23 at (8, 17)
 
 ## Observed Layout & Physical Features
 - Entrance mat: (8, 17)

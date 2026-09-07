@@ -2574,7 +2574,7 @@
 # Victory Road 1F - Layout & Notes
 
 ## General Information
-- South exit / entrance: Route 23 at (8, 17) [Entered Turn 22138]
+- South exit / entrance: Route 23 at (8, 17)
 
 ## Observed Layout & Physical Features
 - Entrance mat: (8, 17)
@@ -2703,7 +2703,7 @@
 6. Row 9 Ledge Hop @ (1, 9): South-facing ledge at (1, 9) allows jumping down from lower purple floor (1, 8) directly onto the southern dark checkerboard highway at (1, 10..14).
 
 ## Trainers on Victory Road 3F
-- Cooltrainer (M) @ (4, 14): Southern corridor. Roster: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43. [Engaged]
+- Cooltrainer (M) @ (4, 14): Southern corridor. Roster: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43. [Defeated]
 - Cooltrainer (F) @ (28, 5): Eastern alcove near Ladder NE. [Defeated]
 
 ## Verified Mechanics & Observed Objects
@@ -2720,7 +2720,6 @@
 - Column 9/10 Lower Highway: Columns 9-10 form a vertical purple floor highway connecting rows 2-5 down to rows 8-10.
 - Row 12 Wall Gap: Columns 22-23 form an open gap through the Row 12 wall connecting upper sector to southern corridors.
 - Row 13-15 Southern Highway: Horizontal corridor spanning columns 1 through 23 directly to the Pit room at (21..23, 15).
-
 
 <hr>
 
