@@ -15,8 +15,8 @@
    - Southern Shutter opened!
 6. **3F Boulder Pit Drop**:
    - Arrive on 3F at (23, 7).
-   - Push Boulder through southern 3F corridors to Pit at (23, 14).
-   - Push boulder down Pit at (23, 14) and jump down after it to 2F.
+   - Push Boulder through southern 3F corridors to Pit at (23, 15).
+   - Push boulder down Pit at (23, 15) and jump down after it to 2F.
 7. **2F Final Exit**:
    - Land in 2F SE room at (23, 14) with fallen boulder.
    - Push fallen boulder onto SE switch plate to lower exit shutter at (27, 10).

@@ -3,7 +3,7 @@
 ## Visual Tile Characteristics
 - Upper Dark Plateau: Dark checkerboard floor texture across rows 0-11. Contains Northern Highway (Row 1), Central Bridge (cols 6-7), NW Room (cols 0-5), Switch (3, 5), Ladder A (23, 7), Ladder NE (27, 7), Cooltrainer (28, 5).
 - Lower Purple Floor: Light purple floor with dots across rows 12-14 (cols 17-26).
-- Pit Room: Southern sector (rows 14-17, cols 21-29). Contains Pit at (23, 14), Shutter at (21, 15), and Ladder B at (25, 14).
+- Pit Room: Southern sector (rows 14-17, cols 21-29). Contains Pit at (23, 14), Shutter at (21, 15) [Lowered Turn 34926], and Ladder B at (25, 14).
 
 ## Verified 3F Ladders & Floor Connections
 1. NW Ladder @ (2, 0): Located in NW Room (cols 0-5). Connects to 2F NW elevated plateau at (1, 1).
@@ -15,8 +15,8 @@
 - Switch (3, 5) in NW Room: Grey circular switch plate. Solved by pushing Boulder 1 from Row 1/2 through Column 2 down to (2, 5) and pushing East from (1, 5) onto (3, 5).
 - Obstacles in NW Room: (3, 3) is a solid rock obstacle blocking direct southward push along Column 3; (4, 1), (4, 5), (2, 6)-(5, 6) are rock rubble.
 - Boulder 1 @ (22, 3): Located in northern chamber (reloaded position).
-- Boulder 2 @ (13, 12): Located at western chokepoint between rock walls (12, 12) and (14, 12).
-- Pit @ (23, 14): Blue checked square tile `[X]`. Pushing Boulder 2 into Pit drops it to 2F SE sector.
+- Boulder 2 @ (22, 15): Located at western chokepoint between rock walls (12, 12) and (14, 12).
+- Pit @ (23, 15): Blue checked square tile `[X]`. Pushing Boulder 2 into Pit drops it to 2F SE sector.
 
 ## Verified Boundaries & Blockades
 - Row 2 Highway Connection: Columns 2 through 7 along Row 2 ((2..7, 2)) form an open corridor connecting NW Room (cols 0-5) to Central Bridge (cols 6-7).
