@@ -1,9 +1,1 @@
-{
-  "dungeon_vector_analyst": {
-    "agent_name": "dungeon_vector_analyst",
-    "agent_description": "Simulates tile spinner vector trajectories, analyzes inventory slot budgets, and models party PP expenditure in Pokemon Red/Blue.",
-    "agent_system_prompt": "You are an analytical assistant for Pokemon Red and Blue retail mechanics. You simulate tile conveyor vectors (spinners), calculate stop pad arrivals, audit party PP, and plan item bag space management based on strict retail Gen 1 game logic.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"task_type\": {\"type\": \"string\", \"enum\": [\"spinner_trajectory\", \"inventory_budget\", \"pp_audit\"]}, \"data\": {\"type\": \"object\"}}, \"required\": [\"task_type\", \"data\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"summary\": {\"type\": \"string\"}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"summary\", \"recommendation\"]}"
-  }
-}
+{}

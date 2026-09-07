@@ -27,7 +27,7 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Item Ball 1: Located at (1, 11). Retrieved on Turn 5721; contained MOON STONE.
 - Item Ball 2: Located at (6, 12). Retrieved on Turn 5747; contained TM07 (HORN DRILL).
 - Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
-- Northern Highway (Row 7): Completely open corridor spanning from col 1 to col 21, connecting western and eastern sectors.
+- Northern Highway (Row 7): Spans col 1 to col 17; blocked at col 18 by wall partition spanning rows 6..9.
 
 ## B2F Southern Sector & B3F Stairs Route
 - Southeast Stop Pad: Located at (15, 18) [Turn 5751].
@@ -36,12 +36,11 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Southern Conveyor Route:
   1. From (15, 18) Stop Pad: step Left onto (13, 18) [<<] -> slides to (11, 18) [vv] -> lands on Stop Pad at (11, 20).
   2. From (11, 20) Stop Pad: walk to (14, 22), step Left onto (13, 22) [<<] -> slides to (9, 22) [vv] -> lands on Stop Pad at (9, 24).
-  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber and B3F stairs!
+  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber (contains Super Potion at (3, 21); no stairs found in southwest).
 
 ## B2F Southwest Sector
 - Stop Pad: Located at (2, 19), reached via the (8, 23) -> (8, 19) spinner trajectory [Turn 5757].
 - Item Ball 3: Located at (3, 21) between consoles. Retrieved on Turn 5774; contained SUPER POTION.
 - Stop Pad 4: Located at (8, 11) in central maze, reached via (4, 15) [>>] into (8, 15) [^^] [Turn 5779].
 - Row 14 Console Barrier: Blocked at (1..3, 14), separating northwest and southwest sectors.
-- Highway Bypass: Console at (6, 7) bypassed via (5, 8..9) -> (7, 8..9) -> (7, 7).
 - West Corridor: Column 1 is open floor from row 15 down past row 23.
