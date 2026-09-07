@@ -2565,10 +2565,10 @@
    - Left water channel (cols 4-7) bypasses central island (rows 82-84).
    - North canal landing at (8..12, 71) onto green lawn.
 7. **Volcano Badge**: Guard at (8, 66). Ledge gap at (7, 61). Columns 12-13 form an unobstructed 2-tile wide green grass highway (rows 44-66) bypassing western ledges directly to the Gatehouse.
-8. **Route 23 Gatehouse & Northern Sector**:
-   - Gatehouse South Door: Located at (13, 43).
-   - Gatehouse North Exit: Leads onto Route 23 northern sector.
-   - **Earth Badge Checkpoint**: Guard checks Earth Badge along northern approach.
+8. **Route 23 Northern Highway & Earth Badge Checkpoint**:
+   - Central-West Highway (Columns 6-7): An unobstructed continuous north-south green grass corridor spanning from row 49 straight north past rows 41-43 (where columns 8-18 are blocked by statues/ledges) towards the northern sector (rows 0-40).
+   - Bypass Route: From southern lawns (row 48), walk west across (11..7, 48) to column 7, then walk straight North along column 7 through (7, 47..35).
+   - **Earth Badge Checkpoint**: Located on northern approach.
    - **Victory Road 1F Cave Entrance**: Located at the northern terminus of Route 23.
 
 <hr>
