@@ -15,4 +15,4 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - West Corridor: Rows 17..18 open westward past column 10.
 - South Corridor: Columns 10..11 open southward past row 22.
 - Item Ball 1: Located at (9, 17). Retrieved on Turn 5835; contained HYPER POTION.
-- Team Rocket Grunt 2: Stationed at (15, 25) facing Down along row 25 corridor [Turn 5837].
+- Team Rocket Grunt 2 at (15, 25): Defeated [Turn 5855]! Team: Rattata Lv 19, Raticate Lv 19, Rattata Lv 19; prize ¥570. Sheldon took 0 damage, leveled up to Lv 43 (HP 135/135).
