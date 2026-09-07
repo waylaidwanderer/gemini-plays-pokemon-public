@@ -16,5 +16,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - NPC sighted wandering along row 14 at (43, 14).
 - Citizen with Poliwrath at (32, 12) and (30, 12): Mentions Poliwrath evolved from Poliwhirl via Water Stone [Turn 5485-5486].
 - Celadon Mansion (Condominiums): Front entrance door at (24, 9); spans rows 7..9, cols 23..27+ [Turn 5488].
+- North Courtyard: Spans cols 20..21 (rows 7..9) with statue at (21, 9) [Turn 5489].
 - Main Avenue: Continuous paved east-west boulevard across rows 10..13 [Turn 5488].
-- South Commercial District (Green Awning Building): Roof spans cols 23..25+, rows 14..15+ [Turn 5488].
+- Rocket Game Corner Complex (Green Awning Building): Roof spans cols 20..25, rows 14..15 [Turn 5489].
+- West Avenue / Game Corner Access: Southbound paved avenue at cols 16..17 (rows 10..15+) leading south toward Game Corner plaza [Turn 5489].
