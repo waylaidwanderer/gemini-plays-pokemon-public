@@ -2637,29 +2637,29 @@
 # Scratchpad: Victory Road Empirical Traversal & Puzzle Assertions
 
 ## Current Goal
-Execute clean end-to-end Victory Road traversal from 1F to Indigo Plateau.
+Solve 2F Switch 1 puzzle to open Shutter (5, 10), then ascend to 3F.
 
-## 1F Master Solution (Verified Protocol)
-- Boulder 1 starts at (5, 15). Push Down to (5, 16) first (since (6, 15) is a rock obstacle).
-- Reposition to (4, 16), push East 4 times along row 16 to (9, 16) [Player at (8, 16)].
-- Reposition to (9, 17) and push North 2 times to (9, 14) [Player at (9, 15)].
-- Reposition to (8, 14) and push East 7 times along row 14 to (16, 14) [Player at (15, 14)].
-- Reposition to (16, 15) and push North 2 times to (16, 12) [Player at (16, 13)].
-- Detour around (15, 13) rock wall to (15, 12), push East 1 time to (17, 12).
-- Reposition to (17, 11) and push South 1 time onto Switch (17, 13).
-- Shutters at (5, 13) and (7, 7) open! Proceed to 1F Ladder at (1, 1) -> 2F (0, 8).
+## 2F Switch 1 Solution (In Progress - Verified Protocol)
+- Boulder starts at (4, 14).
+- Pushed Down to (4, 15).
+- Reposition to (5, 15), push Left 1 time to (3, 15) [Player at (4, 15)] (Verified Turn 34684).
+- Reposition to (3, 14) via Up -> Left.
+- Push Down 1 time to (3, 16) [Player at (3, 15)].
+- Reposition to (4, 16) via Right -> Down.
+- Push Left 2 times along row 16 onto Switch 1 at (1, 16) [Boulder at (1, 16), Player at (2, 16)].
+- Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) opens!
 
-## 2F Traversal to NW Ladder
-- Arrive at 2F (0, 8).
-- Proceed through open corridor to 2F NW Ladder at (1, 1) -> 3F (2, 0).
+## 2F Traversal to 3F Ladder A
+- Proceed through opened Shutter 1 at (5, 10) into central sector.
+- Ascend Ladder A at (23, 7) to 3F.
 
-## 3F Master Sequence Plan (To Verify Empirically)
-- Arrive at 3F NW Ladder (2, 0).
+## 3F Master Sequence Plan
+- Arrive at 3F at (23, 7).
 - Open menu -> PKMN -> ATLAS -> Use STRENGTH.
-- Proceed East along Row 2 to find 3F Boulder.
-- Push Boulder through Row 1/2 -> Column 13/14 -> Row 14 -> Pit at (23, 14).
+- Traverse southern 3F corridors to Boulder at (22, 3) / (13, 12).
+- Push Boulder through Row 14 -> Pit at (23, 14).
 - Jump down Pit (23, 14) to 2F.
-- Push fallen boulder onto 2F switch plate to open exit shutter.
+- Push fallen boulder onto 2F switch plate to open exit shutter at (27, 10).
 - Climb Ladder NE at (27, 7) to 3F Exit Chamber.
 - Exit to Indigo Plateau!
 
