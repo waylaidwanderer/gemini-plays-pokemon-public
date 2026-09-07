@@ -5,7 +5,7 @@
 - Stairs Up: Located at (18, 9) leading up to 6F (expected).
 
 ## Key Features & Events
-- Purified Zone: Located in the center of 5F; protected healing zone that restores party HP/PP and prevents wild encounters.
+- Purified Zone: Located in the center of 5F; protected healing zone that restores party HP/PP and prevents wild encounters. Sighted at cols 10+, rows 8..9 [Turn 6322].
 - Channeler at (6, 10): Facing West (Left) toward col 5. Vision blocked by tombstone at (5, 10).
 
 ## Geography & Layout
