@@ -54,3 +54,5 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - Horizontal ledge across row 7 (cols 2-7) faces South (one-way hop from north to south).
   - Elevated northwest terrace: Cols 2-6 (rows 0-6) paved corridor.
 - Northern Meadow (Verified Turn 5366): Cols 8-13 at rows 2-5 are passable grass, not solid trees! Tile (8, 5) empirically verified walkable.
+
+  - (6, 7): Impassable horizontal ledge from south (Turn 5427).
