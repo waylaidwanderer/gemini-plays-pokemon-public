@@ -5,5 +5,5 @@
 
 ## Points of Interest & Badge Checks
 - Guard: Checks the Boulder Badge (1st Badge).
-  - Verified Turn 22089: "Oh! That is the BOULDERBADGE! Go right ahead!"
+  - "Oh! That is the BOULDERBADGE! Go right ahead!"
   - Grants passage north onto Route 23.
