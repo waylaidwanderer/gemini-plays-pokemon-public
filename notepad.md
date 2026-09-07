@@ -8,7 +8,7 @@
 
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 42, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 43, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥45241
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
@@ -150,11 +150,11 @@
 - ¥45241
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 42, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
   - Status: Healthy
-  - HP: 131 / 131
-  - Stats: Attack 94, Defense 110, Speed 94, Special 96
-  - Moves: Bite (PP 13/25), Body Slam (PP 13/15), Bubblebeam (PP 9/20), Ice Beam (PP 10/10)
+  - HP: 135 / 135
+  - Stats: Attack 97, Defense 113, Speed 97, Special 99
+  - Moves: Bite (PP 12/25), Body Slam (PP 13/15), Bubblebeam (PP 9/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1973,14 +1973,16 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
 - Northern Highway (Row 7): Spans col 1 to col 17; blocked at col 18 by wall partition spanning rows 6..9.
 
-## B2F Southern Sector & B3F Stairs Route
+## B2F Southern Sector & Progression Routes
 - Southeast Stop Pad: Located at (15, 18) [Turn 5751].
 - Row 20 Stop Pad: Located at (11, 20) [Turn 5752].
 - Deep South Stop Pad: Located at (9, 24) [Turn 5752].
-- Southern Conveyor Route:
+- Southwest Chamber Conveyor Route (Dead-End / Item):
   1. From (15, 18) Stop Pad: step Left onto (13, 18) [<<] -> slides to (11, 18) [vv] -> lands on Stop Pad at (11, 20).
   2. From (11, 20) Stop Pad: walk to (14, 22), step Left onto (13, 22) [<<] -> slides to (9, 22) [vv] -> lands on Stop Pad at (9, 24).
-  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber (contains Super Potion at (3, 21); no stairs found in southwest).
+  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber (contains Super Potion at (3, 21)).
+- B3F Descending Stairs Route (Verified):
+  From (9, 24) Stop Pad, navigate east across southern corridor: walk right to (10, 25), proceed east to (14, 25), through the open corridor past row 25 into Southeast Chamber, and reach the B3F stairs at (21, 22).
 
 ## B2F Southwest Sector
 - Stop Pad: Located at (2, 19), reached via the (8, 23) -> (8, 19) spinner trajectory [Turn 5757].
@@ -2016,12 +2018,12 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - East Wall: Column 23 is the eastern solid boundary wall.
 - West Exit: Rows 25..26 open westward into column 17 and beyond.
 - North Aisle: Columns 18..22 extend north past row 21.
-- Team Rocket Grunt at (18, 17): Defeated [Turn 5825]! Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20; prize �600. Sheldon took 0 damage (HP 131/131).
-- Northwest Corridor: Rows 17..18 connect westward past column 17.
+- Team Rocket Grunt at (18, 17): Defeated [Turn 5825]! Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20; prize ¥600. Sheldon took 0 damage (HP 131/131).
 - Central Barrier: Columns 12..17, rows 19..22 form a solid barrier block.
 - West Corridor: Rows 17..18 open westward past column 10.
 - South Corridor: Columns 10..11 open southward past row 22.
 - Item Ball 1: Located at (9, 17). Retrieved on Turn 5835; contained HYPER POTION.
 - Team Rocket Grunt 2: Stationed at (15, 25) facing Down along row 25 corridor [Turn 5837].
+
 
 <hr>
