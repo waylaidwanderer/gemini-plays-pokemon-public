@@ -20,3 +20,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer 1 (Lass) at (2, 11): Defeated! Team: Bellsprout Lv 23, Weepinbell Lv 23. Prize: ¥345. Defeat quote: "You're too rough!"
 - Trainer at (7, 10): Lass / Beauty facing West across row 10.
 - Passage North (Rows 7..9): Row 9 has open gap at (4..5, 9). Row 8 has open walkway at (4..5, 8). Row 7 is blocked by shrub at (4, 7) and cuttable tree at (5, 7) [Turn 6742].
+## Room 2 (Rows 4..6)
+- Passage into Room 2: Cuttable tree at (5, 7) cut down [Turn 6751].
+- Open lawn area at row 6: (3..6, 6) open grass.
+- Flower patch at center: (4..5, 4..5).
+- Trainer at (1, 5): Beauty with blue hair/hat.
+- Trainer at (9, 5): Trainer with orange hair/hat.
+- Cuttable trees: (2, 4) on west side, (7, 5) on east side.
