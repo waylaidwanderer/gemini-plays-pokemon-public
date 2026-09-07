@@ -29,14 +29,16 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
 - Northern Highway (Row 7): Spans col 1 to col 17; blocked at col 18 by wall partition spanning rows 6..9.
 
-## B2F Southern Sector & B3F Stairs Route
+## B2F Southern Sector & Progression Routes
 - Southeast Stop Pad: Located at (15, 18) [Turn 5751].
 - Row 20 Stop Pad: Located at (11, 20) [Turn 5752].
 - Deep South Stop Pad: Located at (9, 24) [Turn 5752].
-- Southern Conveyor Route:
+- Southwest Chamber Conveyor Route (Dead-End / Item):
   1. From (15, 18) Stop Pad: step Left onto (13, 18) [<<] -> slides to (11, 18) [vv] -> lands on Stop Pad at (11, 20).
   2. From (11, 20) Stop Pad: walk to (14, 22), step Left onto (13, 22) [<<] -> slides to (9, 22) [vv] -> lands on Stop Pad at (9, 24).
-  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber (contains Super Potion at (3, 21); no stairs found in southwest).
+  3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber (contains Super Potion at (3, 21)).
+- B3F Descending Stairs Route (Verified):
+  From (9, 24) Stop Pad, navigate east across southern corridor: walk right to (10, 25), proceed east to (14, 25), through the open corridor past row 25 into Southeast Chamber, and reach the B3F stairs at (21, 22).
 
 ## B2F Southwest Sector
 - Stop Pad: Located at (2, 19), reached via the (8, 23) -> (8, 19) spinner trajectory [Turn 5757].
