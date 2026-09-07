@@ -28,4 +28,3 @@
 - Column 5-6 Divider: Solid vertical rock wall divides Column 5 and Column 6 across rows 0 through 6, completely separating the NW Chamber (cols 0-5) from the Central Bridge (cols 6-7).
 - Row 1 Cliff (Central): South-facing cliff spans columns 8 through 18 between Row 1 and Row 2, preventing southward stepping into Row 2.
 - Central Bridge Obstacles: Column 6 is blocked at (6, 7) by purple rock, and Column 7 is blocked at (7, 8) by purple rock.
-
