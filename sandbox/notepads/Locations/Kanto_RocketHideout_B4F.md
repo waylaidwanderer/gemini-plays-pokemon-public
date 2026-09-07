@@ -35,3 +35,4 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Grunt 1 outside Giovanni's office: Stationed at (23, 12) facing Down. Pre-battle dialogue: "I know you! You ruined our plans at MT.MOON!" [Turn 6136].
 - Grunt 1 outside Giovanni's office Defeated [Turn 6144]! Team: Sandshrew Lv 23, Ekans Lv 23, Sandslash Lv 23.
 - Grunt 2 outside Giovanni's office: Stationed at (26, 12) facing Down. Pre-battle dialogue: "How can you not see the beauty of..." [Turn 6147].
+- Grunt 2 outside Giovanni's office Defeated [Turn 6156]! Team: Ekans Lv 23, Sandshrew Lv 23, Arbok Lv 23.
