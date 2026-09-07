@@ -1,7 +1,7 @@
 # Rocket Hideout B2F (Celadon City)
 
 ## Overview
-Second basement level of Team Rocket's underground headquarters beneath Celadon City. Known for containing directional conveyor / spinner arrow tile mazes.
+Second basement level of Team Rocket's underground headquarters beneath Celadon City. Features directional spinner arrow tiles and stop pads observed to the west [Turn 5691].
 
 ## Layout & Geography
 - Entry Stairs (to B1F): Located at (27, 8), facing Up. Leads up to Rocket Hideout B1F (23, 2) [Turn 5687].
@@ -14,4 +14,4 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Team Rocket Grunt: Stationed at (20, 12) facing Down (South) overlooking column 20 [Turn 5689].
 - Wall Partition: Spans (18, 14..15) blocking western exit of row 14; bypass passage to western maze is along rows 10..13 [Turn 5689].
 - Grunt Dialogue at (20, 13): "BOSS said you can see GHOSTs with a SILPH SCOPE!" [Turn 5691]. Directly confirms Team Rocket's boss possesses the Silph Scope here in the hideout.
-- Team Rocket Grunt at (20, 12): Defeated! Used Zubat Lv 17, Koffing Lv 17, Grimer Lv 17. Clears access to the western spinner maze [Turn 5699].
+- Team Rocket Grunt at (20, 12): Defeated! Team consists of 4 Pokémon: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Zubat Lv 17. Clears access to the western spinner maze [Turn 5699].
