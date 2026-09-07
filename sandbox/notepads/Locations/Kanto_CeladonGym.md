@@ -17,6 +17,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Room 1 (Rows 10..13)
 - Shrub row at rows 12..13: Obstacles at (2..3, 12..13) and (6..7, 12..13), central gap at (4..5, 12..13).
 - Open area at rows 10..11: Spans cols 2..7.
-- Trainer 1 (Lass) at (2, 11): Has 2 Pokémon (Bellsprout Lv 23 [defeated], Weepinbell Lv 23). Pre-battle dialogue: "Hey! You are not allowed in here!"
+- Trainer 1 (Lass) at (2, 11): Defeated! Team: Bellsprout Lv 23, Weepinbell Lv 23. Prize: ¥345. Defeat quote: "You're too rough!"
 - Trainer at (7, 10): Lass / Beauty facing West across row 10.
 - Shrub row at row 9: Obstacles at (2..3, 9) and (6..7, 9), central gap at (4..5, 9).
