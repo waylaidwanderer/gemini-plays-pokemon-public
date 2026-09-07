@@ -131,6 +131,7 @@
 - ELIXER x1
 - TM49 (TRI ATTACK) x1
 - NUGGET x1
+- TM10 (DOUBLE-EDGE) x1
 
 ## Key Items
 - S.S. TICKET
@@ -2058,7 +2059,7 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Row 13 Divider: Horizontal wall partition along row 13 (cols 24..28); opening is at (22..23, 13).
 - South Lobby: Open checkered floor spanning cols 22..28, rows 14..18.
 - South Boundary Wall: Horizontal wall along row 19 (cols 22..29).
-- Item Ball 2: Located at (26, 17) in the south lobby, directly south of Grunt 3 [Turn 5983].
+- Item Ball 2: Located at (26, 17) in the south lobby, directly south of Grunt 3 [Turn 5983]. Retrieved on Turn 6002; contained TM10 (DOUBLE-EDGE).
 
 
 <hr>
