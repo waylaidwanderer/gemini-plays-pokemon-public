@@ -2579,6 +2579,11 @@
   3. Walk East 11 steps along Row 18 to (17, 18).
   4. Walk North 18 steps along Column 17 into Victory Road 1F at (17, 0)!
 
+## Verified Eastern Bypass Corridor & Victory Road Entrance (Turns 35878-35881)
+- Column 26/27 Corridor: An open 2-tile wide light green grass highway spanning (26..27, 18..42) completely bypasses the central statue maze and tree clusters on the east side of Route 23.
+- Row 18 Main Road: Connects Column 26 at (26, 18) directly West to Column 17 at (17, 18).
+- Column 17 Entrance Avenue: Unobstructed grand paved avenue spanning (17, 0..18), passing wooden gate posts at (16..17, 14..15) and Earth Badge Guard at (18, 5) directly into Victory Road 1F entrance at (17, 0) (enters 1F at (8, 17)).
+
 <hr>
 
 <h1><code>Locations/VictoryRoad1F</code></h1>
