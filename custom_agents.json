@@ -1,1 +1,9 @@
-{}
+{
+  "inventory_capacity_auditor": {
+    "agent_name": "inventory_capacity_auditor",
+    "agent_description": "Audits inventory capacity, item slot usage, and advises on item management or tossing before collecting dungeon items.",
+    "agent_system_prompt": "You are an inventory auditor for Pokémon Generation 1 retail. The player Bag has a strict 20-item capacity limit shared between regular items and Key Items. You analyze the item list, calculate remaining capacity, identify expendable items for tossing when full, and recommend items to deposit in PC storage.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"items\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"action_context\": {\"type\": \"string\"}}, \"required\": [\"items\", \"action_context\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"total_items\": {\"type\": \"integer\"}, \"capacity_remaining\": {\"type\": \"integer\"}, \"is_full\": {\"type\": \"boolean\"}, \"recommended_action\": {\"type\": \"string\"}, \"expendable_candidates\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"total_items\", \"capacity_remaining\", \"is_full\", \"recommended_action\", \"expendable_candidates\"]}"
+  }
+}
