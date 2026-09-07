@@ -15,3 +15,4 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Central Barrier: Columns 12..17, rows 19..22 form a solid barrier block.
 - West Corridor: Rows 17..18 open westward past column 10.
 - South Corridor: Columns 10..11 open southward past row 22.
+- Item Ball 1: Located at (9, 17). Retrieved on Turn 5835; contained HYPER POTION.

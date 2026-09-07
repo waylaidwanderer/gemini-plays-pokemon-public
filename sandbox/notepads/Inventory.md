@@ -1,6 +1,7 @@
 # Inventory Log
 
 ## Items
+- HYPER POTION x1
 - TM07 (HORN DRILL) x1
 - MOON STONE x1
 - POKé BALL x10
