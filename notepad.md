@@ -2520,14 +2520,11 @@
 
 ## Route 22 Topology & Navigation Routes
 - Complete Canonical Route from Viridian City to Pokémon League Front Gatehouse:
-  1. Exit Viridian City west at (0, 9) onto Route 22 at (39, 6).
-  2. Walk south to Eastern Lawn at (33, 12), walk Left to (31, 12).
-  3. Walk North through tall grass to (31, 8), and step North through open dirt gap at (31, 7) onto Upper Highway at (31, 5).
-  4. Walk West along Upper Highway (rows 4-5) to (16, 4..5).
-  5. Hop South down the ledge at (16, 7) into western tall grass at (16, 8..10).
-  6. Walk Left to (11, 10), and step North through open gap at (11, 9) onto paved entrance road at (11, 6).
-  7. Walk West along row 6 to (8, 6), and step North into the Front Gatehouse door at (8, 5)!
-  - Note: Ledge at (16, 13) drops south into the lower return path (rows 14-15) which leads back east to Viridian City. Do NOT hop the row 13 ledge when approaching the Gatehouse.
+  1. Exit Viridian City west at (0, 9) onto Route 22 at (39, 6) / (39, 5).
+  2. Walk straight West along the unobstructed Upper Highway (row 5) from (39, 5) all the way to (8, 5).
+  3. Step North at (8, 5) directly into the Front Gatehouse door!
+  - CRITICAL WARNING: Do NOT hop south down any ledges (such as row 7 or row 13) when approaching the Gatehouse! The entire lower area (rows 8-16) is separated from the Gatehouse by impassable south-facing ledges (row 9) and fences (row 11), acting as a one-way return route back to Viridian City via row 14.
+  - Return / Reset Route: If in lower area (rows 8-13), hop south over ledge at row 13 onto the paved return road at row 14, walk East along row 14 to Viridian City / Route 22 east edge (39, 14), walk North to row 5, and take the Upper Highway west.
 - Front Gatehouse Door: Located at (8, 5), transitions into Route 22 Gate.
 
 <hr>
