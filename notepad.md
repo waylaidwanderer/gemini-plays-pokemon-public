@@ -120,11 +120,17 @@
 - MAX ETHER x1
 - MAX POTION x1
 - TM24 (THUNDERBOLT) x1
+- HP UP x1
+- TM30 (TELEPORT) x1
+- SUPER REPEL x5
+- ELIXER x1
 
 ## Key Items
 - S.S. TICKET
+- OLD ROD
 - HM01 (CUT)
 - HM05 (FLASH)
+- BICYCLE
 
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
