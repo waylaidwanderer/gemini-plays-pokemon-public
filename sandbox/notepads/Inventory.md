@@ -1,13 +1,11 @@
 # Inventory Log
 
 ## Items
-- HYPER POTION x1
 - TM07 (HORN DRILL) x1
 - MOON STONE x1
 - POKé BALL x10
 - ESCAPE ROPE x2
 - RARE CANDY x3
-- MAX ETHER x1
 - MAX POTION x1
 - TM24 (THUNDERBOLT) x1
 - SUPER REPEL x5
@@ -15,6 +13,7 @@
 - TM49 (TRI ATTACK) x1
 - NUGGET x1
 - TM10 (DOUBLE-EDGE) x1
+- TM02 (RAZOR WIND) x1
 
 ## Key Items
 - S.S. TICKET
@@ -23,6 +22,7 @@
 - HM05 (FLASH)
 - BICYCLE
 - COIN CASE
+- LIFT KEY
 
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
@@ -36,9 +36,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
   - Status: Healthy
-  - HP: 130 / 135
+  - HP: 135 / 135
   - Stats: Attack 97, Defense 113, Speed 97, Special 99
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 0/20), Ice Beam (PP 9/10)
+  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 20/20), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26

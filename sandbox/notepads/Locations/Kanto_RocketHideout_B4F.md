@@ -15,7 +15,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## B4F Northwest Room (Turn 6054)
 - Entry: Reached via wall opening at (16, 3..4), corridor along row 2..3 into cols 9..15.
-- Item Ball 1: Sighted at (9, 4).
 - Team Rocket Grunt: Stationed at (11, 2) facing Down.
 - Consoles / Desks: Span (10..11, 4..5) and (12..13, 4..5).
 - Server Equipment: Runs along row 1 across cols 10..15.
@@ -26,3 +25,8 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Lift Key Item Ball: Spawned at (10, 2) after talking to Grunt [Turn 6073].
 - Lift Key: Collected from (10, 2) [Turn 6079].
 - Item Ball 1 at (9, 4): Retrieved TM02 (RAZOR WIND) [Turn 6085].
+## Physical Boundaries & Collisions (Verified Turns 6088-6089)
+- Solid Walls: (19, 14), (18, 16), (10, 16), and continuous row 16 wall across cols 9..19.
+- Western Boundary: Solid wall along column 8.
+- Open Passages: Row 15 is open traversable floor from col 10 to col 18.
+- Column 21 Divider: Solid vertical wall separates central hallway from elevator lobby (rows 6..12).
