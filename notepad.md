@@ -1788,6 +1788,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Green Awning Building: Roof spans cols 20..25, rows 14..15 [Turn 5489].
 - West Avenue: Southbound paved avenue at cols 16..17 (rows 10..15+) leading south toward southern district [Turn 5489].
 - Celadon Department Store: Large multi-story MART building at rows 7..13; 'MART' sign at (12, 13); front entrance door at (10, 13) [Turn 5498].
+- South Commercial Complex: Buildings spanning rows 24..27+ across cols 14..17 and cols 18..21; accessible via southbound passage at col 22 (rows 23..27+) [Turn 5570].
 
 <hr>
 
