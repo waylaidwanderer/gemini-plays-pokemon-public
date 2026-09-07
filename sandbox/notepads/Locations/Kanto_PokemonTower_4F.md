@@ -2,7 +2,7 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 3F [Verified arrival Turn 6259].
-- Stairs Up: Located at (3, 9) leading up to 5F [Empirically verified arrival & ascent Turn 6275].
+- Stairs Up: TBD (Empirically verified on Turn 6278 that tile (3, 9) is ordinary crosshatch floor with no stairs).
 
 ## Key Events & Encounters
 - Channeler at (6, 10): Defeated Turn 6268 (Prize: ¥720) (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
