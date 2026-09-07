@@ -4,7 +4,7 @@
 
 ## Connections
 - Stairs Down: Located at (3, 9) leading down to 2F.
-- Stairs Up: TBD (Hypothesized eastern sector, unverified).
+- Stairs Up: Located at (18, 9) leading up to 4F [Visually confirmed Turn 6257].
 
 ## Key Events & Encounters
 - Channeler Hope at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
@@ -22,4 +22,3 @@
 
 
 - Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
-
