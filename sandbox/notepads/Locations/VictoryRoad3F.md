@@ -32,3 +32,14 @@
 - Column 9/10 Lower Highway: Columns 9-10 form a vertical purple floor highway connecting rows 2-5 down to rows 8-10.
 - Row 12 Wall Gap: Columns 22-23 form an open gap through the Row 12 wall connecting upper sector to southern corridors.
 - Row 13-15 Southern Highway: Horizontal corridor spanning columns 1 through 23 directly to the Pit room at (21..23, 15).
+## Verified Atomic Checkpoints: Boulder 1 to Switch (3, 5)
+- Initial State: Boulder 1 at (5, 2), Player at (6, 2) facing Left. Strength active.
+- Checkpoint A: Push Left to (4, 2). Step Left to (5, 2). [Boulder at (4, 2), Player at (5, 2)]
+- Checkpoint B: Push Left to (3, 2). Step Left to (4, 2). [Boulder at (3, 2), Player at (4, 2)]
+- Checkpoint C: Push Left to (2, 2). Stand at (3, 2). [Boulder at (2, 2), Player at (3, 2)]
+- Checkpoint D: Reposition to (2, 1): Up 1 to (3, 1) -> Left 1 to (2, 1) facing Down. [Player at (2, 1)]
+- Checkpoint E: Push Down to (2, 3). Step Down to (2, 2). [Boulder at (2, 3), Player at (2, 2)]
+- Checkpoint F: Push Down to (2, 4). Step Down to (2, 3). [Boulder at (2, 4), Player at (2, 3)]
+- Checkpoint G: Push Down to (2, 5). Stand at (2, 4). [Boulder at (2, 5), Player at (2, 4)]
+- Checkpoint H: Reposition to (1, 5): Left 1 to (1, 4) -> Down 1 to (1, 5) facing East. [Player at (1, 5)]
+- Checkpoint I: Push East onto Switch (3, 5). [Boulder locked on (3, 5), Shutter (21, 15) lowered!]
