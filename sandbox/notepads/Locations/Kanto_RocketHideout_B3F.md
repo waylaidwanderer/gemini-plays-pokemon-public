@@ -21,3 +21,4 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - West Boundary Confirmed: Column 8 is solid wall from row 16 to row 27. (9, 26) open, (8, 26) solid wall. The southern chamber (cols 8..23, rows 16..27) is a completely enclosed self-contained loop with no walking exit to rows 0..15. Northern sector of B3F must be accessed from B2F [Turn 5872].
 - West Boundary Collision Test: Impassable solid wall at (8, 26). Empirically tested Turn 5899: attempted step Left from (9, 26), player remained at (9, 26).
 - Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
+- Grunt 1 Post-Battle Dialogue: "SILPH SCOPE? I don't know where it is!" [Turn 5907].
