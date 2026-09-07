@@ -118,6 +118,7 @@
 # Inventory Log
 
 ## Items
+- MOON STONE x1
 - POKé BALL x10
 - ESCAPE ROPE x2
 - RARE CANDY x2
@@ -125,7 +126,6 @@
 - MAX ETHER x1
 - MAX POTION x1
 - TM24 (THUNDERBOLT) x1
-- HP UP x1
 - TM30 (TELEPORT) x1
 - SUPER REPEL x5
 - ELIXER x1
