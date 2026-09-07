@@ -1899,7 +1899,7 @@ Open-air rooftop square of the Celadon Department Store featuring vending machin
   - SODA POP: �300
   - LEMONADE: �350
 - Patio & Tables: Checkered blue/cream tiles across rows 3..6. Picnic table at (9, 4..5).
-- NPC: Thirsty Girl at (10, 4) seated at picnic table.
+- NPC: Little Boy at (10, 4) seated at picnic table ("My sister is a trainer, believe it or not...").
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
 
