@@ -120,13 +120,11 @@
 # Inventory Log
 
 ## Items
-- HYPER POTION x1
 - TM07 (HORN DRILL) x1
 - MOON STONE x1
 - POKé BALL x10
 - ESCAPE ROPE x2
 - RARE CANDY x3
-- MAX ETHER x1
 - MAX POTION x1
 - TM24 (THUNDERBOLT) x1
 - SUPER REPEL x5
@@ -134,6 +132,7 @@
 - TM49 (TRI ATTACK) x1
 - NUGGET x1
 - TM10 (DOUBLE-EDGE) x1
+- TM02 (RAZOR WIND) x1
 
 ## Key Items
 - S.S. TICKET
@@ -142,6 +141,7 @@
 - HM05 (FLASH)
 - BICYCLE
 - COIN CASE
+- LIFT KEY
 
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
@@ -155,9 +155,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
   - Status: Healthy
-  - HP: 130 / 135
+  - HP: 135 / 135
   - Stats: Attack 97, Defense 113, Speed 97, Special 99
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 0/20), Ice Beam (PP 9/10)
+  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 20/20), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2092,7 +2092,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## B4F Northwest Room (Turn 6054)
 - Entry: Reached via wall opening at (16, 3..4), corridor along row 2..3 into cols 9..15.
-- Item Ball 1: Sighted at (9, 4).
 - Team Rocket Grunt: Stationed at (11, 2) facing Down.
 - Consoles / Desks: Span (10..11, 4..5) and (12..13, 4..5).
 - Server Equipment: Runs along row 1 across cols 10..15.
@@ -2103,5 +2102,11 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Lift Key Item Ball: Spawned at (10, 2) after talking to Grunt [Turn 6073].
 - Lift Key: Collected from (10, 2) [Turn 6079].
 - Item Ball 1 at (9, 4): Retrieved TM02 (RAZOR WIND) [Turn 6085].
+## Physical Boundaries & Collisions (Verified Turns 6088-6089)
+- Solid Walls: (19, 14), (18, 16), (10, 16), and continuous row 16 wall across cols 9..19.
+- Western Boundary: Solid wall along column 8.
+- Open Passages: Row 15 is open traversable floor from col 10 to col 18.
+- Column 21 Divider: Solid vertical wall separates central hallway from elevator lobby (rows 6..12).
+
 
 <hr>
