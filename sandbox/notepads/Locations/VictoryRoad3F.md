@@ -36,3 +36,5 @@
   4. Reposition to (21, 1) -> Push West along Row 1 Northern Highway all the way to (6, 1) [Player at (7, 1)].
   5. Reposition around boulder to (6, 0) via (7, 0) -> Push South down Column 6 chute across bridge directly to southern floor at row 12!
   6. Push east across southern floor to Pit at (23, 14) and drop boulder into pit.
+
+- Turn 34833: Boulder 1 successfully positioned at (6, 1) at the head of Column 6 chute. Player at (8, 0) stepping to (6, 0) to push South down Column 6.
