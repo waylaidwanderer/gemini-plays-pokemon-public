@@ -38,7 +38,7 @@
 - Boulder at (5, 5): Pushed down/east to (6, 6) to open the passage between northern plateau and southern rows 6-7.
 - Columns 2-3 Highway: Columns 2 and 3 (y=7..10+) form an unobstructed 2-tile wide vertical highway connecting Row 7 down into the lower western floor (rows 8-16, Switch 1 @ (1, 16) and Boulder @ (4, 14)).
 
-## Verified Puzzle Reset Triggers (Verified Turn 34061)
+## Puzzle Reset Triggers
 - Map reload events (such as ascending/descending floor ladders, leaving through cave entrances, or using Dig/Escape Rope) completely reload the floor's map state and reset all pushable boulders back to their default starting positions.
 - Switch activations and shutter gates on a given floor are temporary for the active visit; they persist while remaining on that floor, but reset to closed when the floor is reloaded.
 - **Shutter 2 @ (15, 15)**: Empirically verified open/passable on Turn 34749, connecting eastern corridor (15, 14) directly to Row 16 southern highway at (15, 16)!
