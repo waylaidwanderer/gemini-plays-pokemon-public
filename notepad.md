@@ -1730,6 +1730,10 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - (17, 12): Impassable vertical fence (Turn 5306).
   - (17, 13): Impassable vertical fence (Turn 5309).
   - (17, 15): Impassable vertical fence (Turn 5309).
+  - (11, 8): Impassable vertical fence posts (Turn 5348).
+  - (1, 8): Impassable tree boundary (Turn 5355).
+  - (1, 9): Impassable tree boundary (Turn 5357).
+  - (7, 2): Impassable vertical ledge from east (Turn 5368).
 - Eastern Area: Solid vertical fence at col 17 (rows 11-15) encloses tall grass patch at cols 18-21 (rows 12-15).
 - Landmark at (20, 16..18): Stone statue/monument.
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
@@ -1737,12 +1741,10 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Passage at (8, 11): Fully passable from the south (Turn 5316). Links southern Underground Path plaza directly to the northern highway at rows 8-10.
 - Gatehouse at cols 12-17 (rows 8-10): Fronted by impassable vertical fence posts at (11, 8) and (11, 9) (Turn 5348).
 - Ledge System:
-  - Vertical ledge at col 7 (rows 2-6) faces East (one-way hop from west to east; impassable when moving west from col 8, Turn 5327).
+  - Vertical ledge at col 7 (rows 2-6): Impassable when moving west from col 8 (Turn 5327, Turn 5368).
   - Horizontal ledge across row 7 (cols 2-7) faces South (one-way hop from north to south).
   - Elevated northwest terrace: Cols 2-6 (rows 0-6) paved corridor.
 - Western Border: Cols 0-1 blocked by trees across rows 4-12.
 - Northern Meadow (Verified Turn 5366): Cols 8-13 at rows 2-5 are passable grass, not solid trees! Tile (8, 5) empirically verified walkable.
-- Northern Boundary: Solid tree border is at row 1.
-- Northwest Terrace Access: Testing northern corridor along row 2 to enter cols 2-6 (paved road to Celadon City).
 
 <hr>
