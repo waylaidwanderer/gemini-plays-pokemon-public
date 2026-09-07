@@ -123,7 +123,7 @@
 - MOON STONE x1
 - POKé BALL x10
 - ESCAPE ROPE x2
-- RARE CANDY x2
+- RARE CANDY x3
 - MAX ETHER x1
 - MAX POTION x1
 - TM24 (THUNDERBOLT) x1
@@ -2048,6 +2048,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - B3F Spinner Maze Sighted: Stop pad at (16, 11), right-facing spinner at (14, 11). Northern highway (rows 5..7) completely clear and bypasses spinners into western sector past col 14 [Turn 5943].
 - B3F Spinner Maze Mechanics: Row 11 features Stop Pad at (10, 11), Left-spinner at (12, 11) sliding west to (10, 11), and Right-spinner at (14, 11) sliding east to Stop Pad at (16, 11). Console gap at (13..14, 10). Northern highway (rows 5..7) remains wide open past col 10 [Turn 5944].
 - Northwest Pocket: Cols 9..11, rows 5..7 is open checkered floor ending at solid west boundary wall at col 8. No stairs or items in this pocket. Row 8 wall partition is completely solid from col 8 to col 19; sole access to the B3F Spinner Maze is via (20, 8) [Turn 5945].
-- B3F Spinner Maze Trajectories: Stop Pad at (16, 11). Down-spinner at (17, 12) slides south along col 17. Up-spinner at (16, 13) slides north into (16, 11) Stop Pad. Stop Pad sighted at (14, 13). Right-spinner at (14, 15) slides east into Stop Pad at (18, 15). Item ball sighted at (20, 14) [Turn 5948]!
+- B3F Spinner Maze Trajectories: Stop Pad at (16, 11). Down-spinner at (17, 12) slides south along col 17. Up-spinner at (16, 13) slides north into (16, 11) Stop Pad. Stop Pad sighted at (14, 13). Right-spinner at (14, 15) slides east into Stop Pad at (18, 15). Item ball at (20, 14): Retrieved on Turn 5950; contained RARE CANDY (total: 3) [Turn 5952]!
 
 <hr>
