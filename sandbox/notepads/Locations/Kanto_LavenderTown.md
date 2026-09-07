@@ -22,10 +22,6 @@
     - Mr. Fuji at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
-- NPC at (11, 7): Stationed in eastern lawn.
-- NPC at (9, 10): Stationed south of Volunteer House.
-- NPC at (15, 8): Sighted east of Volunteer House [Turn 4861].
-- NPC at (15, 7): Sighted in eastern district [Turn 4861].
 - NPC at (14, 5): Wandering outside Pokémon Tower; asks "Do you believe in GHOSTS?" [Turn 4885].
 
 ## Key Buildings & Facilities
