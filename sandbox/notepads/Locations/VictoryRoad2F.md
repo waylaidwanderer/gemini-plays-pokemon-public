@@ -60,3 +60,4 @@
 - Ladder Tile Warp Hazard (0, 8): Stepping South from (0, 7) directly onto (0, 8) immediately triggers the map warp to 1F (1, 1), resetting all 2F native boulders and closing shutters. Always maintain coordinate awareness near (0, 8).
 - Verified Continuous East Highway: Row 12 is fully open across columns 14 through 25 ((14..25, 12)), providing an unobstructed route from the west foyer to Ladder B at (25, 14).
 - Column 14-15 Barrier (2F): Columns 14 and 15 form a solid vertical rock wall across rows 0-6 dividing the northern dark plateau into separate East (cols 16-28) and West (cols 12-13) sections.
+- Western Corridor Details (rows 8-14, cols 1-3): Tile (3, 10) is a solid purple rock wall. Default boulder sits at (2, 10). From (3, 9), step Left to (2, 9), push Down to move boulder to (2, 11), step into (2, 10), step Left into (1, 10), and walk down Column 1 ((1, 10..14)) directly onto Row 14 to access Boulder 2 at (4, 14) / (5, 14).
