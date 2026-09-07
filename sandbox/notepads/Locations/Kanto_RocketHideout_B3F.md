@@ -52,3 +52,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - South Lobby: Open checkered floor spanning cols 22..28, rows 14..18.
 - South Boundary Wall: Horizontal wall along row 19 (cols 22..29).
 - Item Ball 2: Located at (26, 17) in the south lobby, directly south of Grunt 3 [Turn 5983]. Retrieved on Turn 6002; contained TM10 (DOUBLE-EDGE).
+
+- Southwest Conveyor Route (Turn 6020): (11, 18) [>>] slides east across row 18 into (15, 18) [vv] Down-spinner, which slides south down column 15 directly onto Stop Pad at (15, 22).
+- Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Engaged in battle on Turn 6022! Pre-battle dialogue: "Stop meddling in TEAM ROCKET's..."
