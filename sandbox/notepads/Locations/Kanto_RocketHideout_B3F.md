@@ -25,6 +25,8 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 
 - Column 9 Passability (Turn 6018): Tile (9, 16) is empirically verified 100% passable, connecting row 16 directly to column 9 (rows 13..19).
 
+- B4F Descending Stairs (Turn 6050): Located at (19, 18) in the southern aisle. Leads down to Rocket Hideout B4F (19, 10).
+
 ## B3F Northern Sector
 - Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
 - North Wall: Wall partition along row 4 (cols 21..28).
