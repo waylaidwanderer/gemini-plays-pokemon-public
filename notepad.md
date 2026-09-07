@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 44, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥51922
+- Money: ¥52642
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -149,14 +149,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥51922
+- ¥52642
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
   - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 18/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1653,7 +1653,7 @@
 - Stairs Up: Located at (18, 9) leading up to 4F [Visually confirmed Turn 6257].
 
 ## Key Events & Encounters
-- Channeler Hope at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
+- Channeler at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
 - Silph Scope Verification [Turn 6238]: Encountered wild Gastly Lv 18 at (11, 4). Silph Scope successfully dispelled ghost concealment into identifiable, encounterable sprite.
 
 - Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: �¥690). Defeat dialogue: "What!".
@@ -2162,8 +2162,8 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Stairs Up: Located at (3, 9) leading up to 5F [Visually confirmed Turn 6265].
 
 ## Key Events & Encounters
-- Channeler Laurel/Jody at (6, 10): Defeated Turn 6268 (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
-- Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259].
+- Channeler at (6, 10): Defeated Turn 6268 (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
+- Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259]. Did not engage when player stepped to (15, 9) [Turn 6261].
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
 ## Geography & Layout
