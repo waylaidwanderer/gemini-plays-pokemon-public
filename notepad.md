@@ -2571,6 +2571,17 @@
    - **Earth Badge Checkpoint**: Located on northern approach.
    - **Victory Road 1F Cave Entrance**: Located at the northern terminus of Route 23.
 
+## Verified Physical Boundaries & Northern Terminus Topology (Turn 35791)
+- Row 4 Tree Obstacle: Solid trees at (14..15, 4..5) block eastward passage along row 4 between column 13 and column 16 ("There isn't anything to CUT!"). Row 4 does NOT connect to column 17.
+- Column 6 Highway: An open, unobstructed 1-tile wide green grass highway spanning (6, 4..18) connects the northern sector to the southern paved road.
+- Row 18 Main Road: A wide paved east-west avenue spanning (4..17, 18..19).
+- Column 17 Entrance Corridor: The unobstructed main paved avenue spanning (17, 0..18), passing through the wooden gate posts at (16..17, 14..15) and the Earth Badge Guard at (18, 5) directly into the Victory Road 1F cave entrance at (17, 0) / (8, 17 on 1F).
+- Verified Route from (13, 4) to Victory Road 1F:
+  1. Walk Left 7 steps to (6, 4).
+  2. Walk South 14 steps along Column 6 to (6, 18).
+  3. Walk East 11 steps along Row 18 to (17, 18).
+  4. Walk North 18 steps along Column 17 into Victory Road 1F at (17, 0)!
+
 <hr>
 
 <h1><code>Locations/VictoryRoad1F</code></h1>
