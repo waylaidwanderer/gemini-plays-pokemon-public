@@ -1,65 +1,38 @@
-# Victory Road 2F - Layout & Notes
+# Victory Road 2F - Verified Layout & Matrix
 
-## General Information
-- Ladder down to 1F: Located at (0, 8) <-> 1F (1, 1)
-- Ladder to 3F (Ladder B - Verified Primary Route): Located at (25, 14) <-> 3F SE Lower Purple Room (25, 14)
-- Ladder to 3F (NW Ladder): Located at (1, 1) <-> 3F NW Room (2, 0)
-- Tile (23, 7): Passable floor tile with wall ladder graphic (no warp trigger on 2F).
-- Enclosed NE Sector: Rows 7-9, cols 25-29 (contains shutter at (27, 10) and upper ladder at (26..27, 7..8)).
+## Floor Elevation & Physical Topography
+- Lower Cave Floor (Light Purple / Dots): Rows 8-16, Columns 1-26.
+- Upper Plateau (Dark Checkerboard): Rows 0-7, Rows 11-13 in central-east sections.
+- Impassable South-Facing Cliffs:
+  - Row 7 cliff (cols 5-14): Separates Row 7 (upper plateau) from Row 8 (lower floor). Cannot walk North from Row 8 onto Row 7.
+  - Row 11 cliff (cols 21-27): Separates Row 11 (upper plateau) from Row 12 (lower floor). Cannot walk South or North between Row 11 and Row 12.
+- Vertical Rock Dividers:
+  - Column 12 rock wall (y=10..15): Separates western floor (cols 1-5) from central floor (cols 13-26).
+  - Column 14-15 rock wall (y=0..6): Divides northern upper plateau.
 
-## Physical Elevation & Topology
-- Elevation Split:
-  - Upper Plateau (Dark Checkerboard): Rows 0-7 and Row 11.
-  - Lower Floor (Light Purple Floor): Rows 8-14 across columns 5-26.
-  - South-Facing Cliff Boundary: Impassable horizontal ledge line between row 7 and row 8 across columns 9-13, and between row 11 and row 12.
-  - Ledge at (23, 14): West-facing one-way descent jumping FROM (24, 14) DOWN TO (22, 14).
-- Shutters & Corridors:
-  - Shutter 1 @ (5, 10): Opened by Switch 1 @ (1, 16), connects row 13 west sector to row 8 light purple floor.
-  - Shutter 3 @ (21, 15): Opened by Switch 1 @ (1, 16), connects row 14 light purple floor to row 16 lower highway.
-  - Row 16 Lower Highway: Connects Shutter 3 at (21, 15) east to (29, 16).
-  - Eastern Outer Corridor: Columns 28-29 (rows 11-16) form a continuous 2-tile wide vertical highway connecting Row 16 Lower Highway at (28..29, 16) north to Row 11 Highway at (28..29, 11).
-  - Row 11 Highway: Connects (29, 11) west across the upper plateau to Ladder A at (23, 7) and Ladder NE at (27, 7).
-  - Column 12 Barrier: Column 12 (x=12, y=10..15) is a solid rock wall separating the eastern light purple floor (cols 13-26) from the western sector (cols 1-5). Bypass via (13, 8) <-> (5, 8) <-> Shutter 1 (5, 10).
+## Verified Ladders & Connectivity Matrix
+1. **Ladder 1F <-> 2F (Southwest Ladder)**:
+   - Coordinates: (0, 8) on 2F <-> (1, 1) on 1F.
+   - Access: Sits at (0, 8) in western lower corridor.
+2. **NW Ladder to 3F**:
+   - Coordinates: (1, 1) on 2F <-> (2, 0) on 3F.
+   - Location: Northwest corner of 2F upper plateau. Connects to 3F Northern Highway (Row 1).
+3. **Ladder B to 3F (SE Pit Room Ladder)**:
+   - Coordinates: (25, 14) on 2F <-> (25, 14) on 3F.
+   - Location: Southeast room on 2F lower purple floor.
+4. **Ladder NE to 3F (Exit Chamber Ladder)**:
+   - Coordinates: (27, 7) on 2F <-> (27, 7) on 3F.
+   - Location: Northeast chamber behind shutter at (27, 10). Leads to 3F final exit.
 
-## Master Route from 2F Entrance to Ladder NE (27, 7) & 3F Upper Dark Plateau
-- Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-- Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15). Note: Row 8 is blocked at (7, 8) by a vertical barrier column; navigate south through Shutter 1 to (5, 14) / Central-South puzzle or across Dark Plateau to reach the eastern sector.
+## Switches & Shutters on 2F
+- **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16). Lowers Shutter 1 at (5, 10).
+- **Central-South Boulder & Switch**: Boulder at (9, 11), Switch at (9, 16), Shutter at (15, 15).
+- **Pit Drop Landing**: Falling through 3F Pit at (23, 15) drops the player to 2F at (22, 16) and the boulder to (23, 16).
 
-## Verified Elevation Boundaries & Physical Topography (Verified Turn 33750)
-- Row 11 South-Facing Cliff Barrier: A continuous, impassable 2-tile elevated cliff spans columns 21 through 27 along Row 11, preventing southward descent from the dark checkerboard plateau directly into row 12.
-- Row 10 Barrier: Solid rock wall spans columns 24-30 with a shutter gate at (27, 10).
-- Eastern Purple Room (Ladder B at (25, 14)): Accessible from the North Area via column 23 (connecting Row 8 at (23, 8) south into (23, 12) -> (25, 12) -> (25, 14)). West-facing ledge at (23, 14) prevents westward entry into (24, 14) from (22, 14).
-
-## Master Boulder 2 Solution
-- Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
-- Push Sequence:
-  1. Stand at (5, 14) facing West -> Push Left 1 time: Boulder 2 to (3, 14).
-  2. Reposition around to (3, 13) via (4, 14) -> (4, 13) -> (3, 13).
-  3. Stand at (3, 13) facing South -> Push Down 2 times along Column 3: Boulder 2 to (3, 16).
-  4. Reposition around to (4, 16) via (3, 15) -> (4, 15) -> (4, 16).
-  5. Stand at (4, 16) facing West -> Push Left 2 times along Row 16: Boulder 2 to (1, 16) [ON SWITCH 1!].
-- Outcome: Switch 1 at (1, 16) activated; Shutter 1 at (5, 10) and Shutter 3 at (21, 15) opened.
-
-## 2F Pit Drop Landing & Route Analysis (Verified Turn 32611)
-- Drop Arrival: Dropping through 3F Pit at (23, 15) lands on 2F at (22, 16) with the fallen boulder at (23, 16).
-- Row 17 Bypass: Row 17 ((21..28, 17)) is completely open and bypasses the boulder at (23, 16) without needing Strength.
-- Corridor Connectivity:
-  - Row 16 Lower Road connects west to Shutter 3 at (21, 15) and east to Column 28/29.
-  - Column 28 connects Row 16 at (28, 16) north to Row 11 Highway at (28, 11).
-  - Row 11 connects east to Column 28 and west to Column 23 at (23, 11).
-  - Column 23 / Row 8 connects west to Column 17 at (17, 8).
-  - Column 17 connects south at (17, 8) to north at (17, 2).
-  - Row 2 / Row 3 connects Column 17 at (17, 2) east to Column 27 at (27, 2).
-  - Column 28 connects north at (28, 5) south to (28, 8), giving access to (27, 8) directly below Ladder NE at (27, 7).
-## Central-South Boulder Puzzle (Discovered Turn 32673)
-- Boulder: Located at (9, 11).
-- Switch Plate: Located at (9, 16).
-- Shutter: Located at (15, 15).
-- Target: Push Boulder (9, 11) onto Switch (9, 16) to lower Shutter (15, 15) and open passage to Lower Highway (row 16/17).
-## Verified Physical Boundaries & Caution Warnings (Verified Turns 33284-33331)
-- Impassable South-Facing Cliff: Located at Row 7 across columns 10-14, preventing direct southward walking from the upper plateau onto Row 8.
-- Row 4 Rock Wall Barrier: Solid rock wall spans columns 0 through 4 at Row 4 ((0..4, 4)). The ONLY gap connecting Row 5 to Rows 1-3 is at (5, 4). Direct access to NW Ladder (1, 1) from the south is completely blocked unless approaching from the north or via the (5, 4) chute.
-- Ladder Tile Warp Hazard (0, 8): Stepping South from (0, 7) directly onto (0, 8) immediately triggers the map warp to 1F (1, 1), resetting all 2F native boulders and closing shutters. Always maintain coordinate awareness near (0, 8).
-- Verified Continuous East Highway: Row 12 is fully open across columns 14 through 25 ((14..25, 12)), providing an unobstructed route from the west foyer to Ladder B at (25, 14).
-- Column 14-15 Barrier (2F): Columns 14 and 15 form a solid vertical rock wall across rows 0-6 dividing the northern dark plateau into separate East (cols 16-28) and West (cols 12-13) sections.
-- Western Corridor Details (rows 8-14, cols 1-3): Tile (3, 10) is a solid purple rock wall. Default boulder sits at (2, 10). From (3, 9), step Left to (2, 9), push Down to move boulder to (2, 11), step into (2, 10), step Left into (1, 10), and walk down Column 1 ((1, 10..14)) directly onto Row 14 to access Boulder 2 at (4, 14) / (5, 14).
+## Master Progression Plan
+1. Enter 2F at (0, 8). Use Strength.
+2. Push Boulder at (4, 14) to (1, 16) to open Shutter (5, 10).
+3. Navigate to 3F via Ladder B at (25, 14) or NW Ladder at (1, 1).
+4. On 3F, push Pit Boulder down hole at (23, 15), then jump down after it.
+5. On 2F, push fallen boulder to switch to open exit shutter at (27, 10).
+6. Ascend Ladder NE at (27, 7) to 3F exit room and exit to Indigo Plateau.
