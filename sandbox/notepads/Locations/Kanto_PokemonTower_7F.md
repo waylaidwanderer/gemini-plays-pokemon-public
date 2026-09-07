@@ -13,4 +13,3 @@ The top floor of Pokémon Tower where Team Rocket holds Mr. Fuji captive.
 
 ## Geography & Layout
 - Central Corridor: Open vertical aisle along columns 9..12 leading from southern stairs at (9, 16) north toward the northern altar area.
-- Mr. Fuji: Sighted and visually verified at northern altar at (10, 2) [Verified Turn 6522].

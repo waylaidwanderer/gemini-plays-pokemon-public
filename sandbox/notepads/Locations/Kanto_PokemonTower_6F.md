@@ -21,5 +21,3 @@
   - Row 7 western highway: Open crosshatch floor from col 10 all the way west to col 3 (cols 3..10 open).
   - Cols 14..15 form a 2-tile-wide north-south highway between row 3 and row 10.
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
-## Items
-- Item Ball at (14, 14): Sighted on floor in southeast alcove [Turn 6444].

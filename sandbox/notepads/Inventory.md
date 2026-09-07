@@ -34,14 +34,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- �55492
+- ¥57712
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 45, Water]
   - Status: Healthy
   - HP: 141 / 141
   - Stats: Attack 102, Defense 119, Speed 102, Special 104
-  - Moves: Bite (PP 21/25), Body Slam (PP 11/15), Bubblebeam (PP 15/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 21/25), Body Slam (PP 11/15), Bubblebeam (PP 16/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
