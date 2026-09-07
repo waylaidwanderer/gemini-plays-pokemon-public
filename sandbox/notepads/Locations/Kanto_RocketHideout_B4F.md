@@ -19,3 +19,5 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Team Rocket Grunt: Stationed at (11, 2) facing Down.
 - Consoles / Desks: Span (10..11, 4..5) and (12..13, 4..5).
 - Server Equipment: Runs along row 1 across cols 10..15.
+
+- Northwest Room Grunt: Stationed at (11, 2). Engaged on Turn 6056! Pre-battle dialogue: "The elevator doesn't work? Who..."
