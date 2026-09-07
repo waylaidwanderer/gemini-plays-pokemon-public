@@ -2710,6 +2710,12 @@
 - **Shutter 2 @ (15, 15)**: Connects eastern corridor (15, 14) directly to Row 16 southern highway at (15, 16).
 - **Row 16 Highway**: Row 16 is completely open dark checkerboard floor across columns 9 to 27, connecting Central Chamber (cols 9-11) directly to East Sector (cols 21-27).
 
+## Verified Post-Shutter 2F Route to Ladder A (23, 7)
+- From lowered Shutter 1 at (5, 10), walk North through (5, 9) onto Central-East Highway at (5, 8).
+- Proceed East along row 8 across columns 5 through 23 to (23, 8).
+- Step North 1 time into (23, 7) onto Ladder A to ascend directly to Victory Road 3F at (23, 7)!
+- Physical layout: Rows 8 and 9 form a completely open 2-tile wide horizontal corridor connecting the western shutter area (col 5) directly to the eastern wall and Ladder A (col 23).
+
 <hr>
 
 <h1><code>Locations/VictoryRoad3F</code></h1>
