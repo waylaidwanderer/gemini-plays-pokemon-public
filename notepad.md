@@ -2292,3 +2292,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer 3 (Lass / Jr. Trainer) at (6, 3): Stepped down to (6, 4). Defeated! Team: Oddish Lv 23, Gloom Lv 23. Prize: ¥345. Defeat quote: "Oh! You!" [Turn 6775].
 
 <hr>
+
+<h1><code>Locations/Kanto_Route12</code></h1>
+
+# Route 12 (Silence Bridge) - Kanto
+
+## Connections
+- North: Lavender Town at cols 8..9, row 0 (Lavender Town (8..9, 18) <-> Route 12 (8..9, 0)) [Verified Turn 6923].
+- South: Route 13.
+
+## Geography & Layout
+- Northern Entrance Pier: 2-tile-wide pier corridor at cols 8..9, rows 0..3 bordered by mountain cliff to west (col 7) and shoreline to east (col 10).
+- Silence Bridge (Wooden Dock): 2-tile-wide wooden bridge across cols 8..9 starting at row 4, flanked by deep water to west (cols 4..7) and east (cols 10..13) [Verified Turn 6923].
+- Sleeping Pokémon (Snorlax Lv 30): Stationed south along the bridge blocking progression to Route 13 and Fuchsia City.
+
+<hr>
