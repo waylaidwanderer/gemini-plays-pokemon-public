@@ -1807,6 +1807,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Barrier of wooden fence posts along row 21 (cols 26, 28..32) [Turn 5596].
 - Prize Exchange: Located at cols 32..35, rows 14..19. Front entrance door at (33, 19), signpost at (33, 21) [Turn 5598].
 - Courtyard Entrance: Open avenue at col 36 connects row 22 to row 20 patio, bypassing fence posts [Turn 5598].
+- Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
 
 <hr>
 
@@ -1877,5 +1878,20 @@ Massive multi-story department store (largest shop in Kanto) located in northwes
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
 
+
+<hr>
+
+<h1><code>Locations/Kanto_RocketGameCorner</code></h1>
+
+# Rocket Game Corner (Celadon City)
+
+## Overview
+Gambling facility in central Celadon City serving as the front for Team Rocket's underground headquarters.
+
+## 1F: Slot Hall
+- Entrance Mat: (15, 17) and (16, 17). Exits south to Celadon City at (28, 19).
+- Central Aisle: Cols 15..16 running north through the center of the hall.
+- Slot Machine Banks: Rows 13..15 across cols 11..14 (west) and cols 17..19 (east).
+- Objective: Locate Team Rocket Grunt guarding the poster on the north wall, defeat him, and press the secret switch to open the Rocket Hideout basement.
 
 <hr>

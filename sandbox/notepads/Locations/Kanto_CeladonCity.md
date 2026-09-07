@@ -35,3 +35,4 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Barrier of wooden fence posts along row 21 (cols 26, 28..32) [Turn 5596].
 - Prize Exchange: Located at cols 32..35, rows 14..19. Front entrance door at (33, 19), signpost at (33, 21) [Turn 5598].
 - Courtyard Entrance: Open avenue at col 36 connects row 22 to row 20 patio, bypassing fence posts [Turn 5598].
+- Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
