@@ -27,7 +27,7 @@
 - Column 28-29 Highway: Open vertical corridor connecting rows 11-16 to northern corridors.
 - Row 16 Highway: Row 16 connects columns 20 through 28 horizontally across the southern edge of the map.
 
-## Canonical Switch (3, 5) Solution Protocol (In Progress)
+## Canonical Switch (3, 5) Solution Protocol (COMPLETED Turn 34926)
 1. Reload 3F via NW Ladder (2, 0) and activate STRENGTH with ATLAS.
 2. Push Boulder 1 from (22, 3) west to (20, 3), north to (20, 1), and west along Row 1 all the way to (6, 1) [Player at (7, 1)].
 3. Reposition around boulder to (6, 0) via (7, 0).
@@ -39,3 +39,5 @@
 9. Push Down 3 times along Column 2: Boulder 1 moves (2, 2) -> (2, 3) -> (2, 4) -> (2, 5) [Player at (2, 4)].
 10. Reposition to (1, 5) directly West of Boulder: Step Left to (1, 4), Down to (1, 5).
 11. Push East 1 time: Boulder 1 moves from (2, 5) onto Switch Plate (3, 5) to activate switch!
+
+- Turn 34926: Boulder 1 pushed from (2, 5) onto Switch Plate (3, 5)! Switch (3, 5) fully activated, opening the southern shutter on 3F!

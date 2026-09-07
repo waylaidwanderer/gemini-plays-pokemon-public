@@ -10,11 +10,14 @@
 4. **Ascend to 3F via Ladder A (23, 7)**:
    - Walk east through opened Shutter at (15, 15) / (21, 15) into eastern sector.
    - Ascend Ladder A at (23, 7) directly to 3F main floor!
-5. **3F Boulder Pit Drop**:
+5. **3F Switch (3, 5) Activated [Turn 34926]**:
+   - Boulder 1 successfully pushed onto Switch Plate (3, 5) via Column 2 -> (1, 5) -> (3, 5).
+   - Southern Shutter opened!
+6. **3F Boulder Pit Drop**:
    - Arrive on 3F at (23, 7).
    - Push Boulder through southern 3F corridors to Pit at (23, 14).
    - Push boulder down Pit at (23, 14) and jump down after it to 2F.
-6. **2F Final Exit**:
+7. **2F Final Exit**:
    - Land in 2F SE room at (23, 14) with fallen boulder.
    - Push fallen boulder onto SE switch plate to lower exit shutter at (27, 10).
    - Climb Ladder NE at (27, 7) to 3F Exit Chamber.
