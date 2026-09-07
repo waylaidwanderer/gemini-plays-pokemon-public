@@ -149,14 +149,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥54772
+- ¥55492
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
   - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 19/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 18/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2208,7 +2208,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 ## Key Features & Events
 - Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
-- Channeler at (9, 5): Battling Turn 6388 (stepped to 9, 6)! Intro dialogue: 'Urff..  Kwaah!'.
+- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Something fell out!'.
 - Item Ball at (6, 8): Sighted on floor south of row 7 [Turn 6386].
 
 ## Geography & Layout
