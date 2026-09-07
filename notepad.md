@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 43, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥46441
+- Money: ¥47041
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -148,14 +148,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥46441
+- ¥47041
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
   - Status: Healthy
-  - HP: 135 / 135
+  - HP: 130 / 135
   - Stats: Attack 97, Defense 113, Speed 97, Special 99
-  - Moves: Bite (PP 10/25), Body Slam (PP 13/15), Bubblebeam (PP 9/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 9/25), Body Slam (PP 12/15), Bubblebeam (PP 9/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2064,7 +2064,7 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 
 ## B3F Southwest Sector
 - Southwest Conveyor Route (Turn 6020): (11, 18) [>>] slides east across row 18 into (15, 18) [vv] Down-spinner, which slides south down column 15 directly onto Stop Pad at (15, 22).
-- Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Engaged in battle on Turn 6022! Pre-battle dialogue: "Stop meddling in TEAM ROCKET's..."
+- Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Defeated on Turn 6035! Team: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20; prize ¥600. Defeat quote: "Oof! Taken down!". Pre-battle: "Stop meddling in TEAM ROCKET's affairs!".
 
 
 <hr>
