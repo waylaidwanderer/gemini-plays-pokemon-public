@@ -12,7 +12,6 @@
 - Channeler at (17, 7): Defeated Turn 6338 (Haunter Lv 23, 621 EXP, ¥690). Defeat dialogue: 'Gasp!'.
 
 ## Geography & Layout
-- Arrival Stairs: (3, 9) on west wall.
 - West Wall: Orange altars at (2, 6..11), (3, 5..6), (4, 5).
 - Tombstones: (5..7, 8..9), (5, 10), (8..11, 7), (14..15, 4), (15, 5), (14..15, 8..9), (12..13, 10).
 - Open Passages:
