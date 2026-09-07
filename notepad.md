@@ -1741,6 +1741,8 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - Horizontal ledge across row 7 (cols 2-7) faces South (one-way hop from north to south).
   - Elevated northwest terrace: Cols 2-6 (rows 0-6) paved corridor.
 - Western Border: Cols 0-1 blocked by trees across rows 4-12.
-- Northern Passage: Eastern corridor at cols 14-16 runs north past rows 4-5 tree barrier into rows 0-3 to connect to northwest terrace and Celadon City.
+- Northern Meadow (Verified Turn 5366): Cols 8-13 at rows 2-5 are passable grass, not solid trees! Tile (8, 5) empirically verified walkable.
+- Northern Boundary: Solid tree border is at row 1.
+- Northwest Terrace Access: Testing northern corridor along row 2 to enter cols 2-6 (paved road to Celadon City).
 
 <hr>
