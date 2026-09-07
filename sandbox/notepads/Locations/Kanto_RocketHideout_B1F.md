@@ -20,3 +20,6 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - South Sector (Rows 17..19): Houses desks, patterned floor tiles at (24..25, 19), and a Rocket Grunt at (18, 17) facing North [Turn 5626].
 - Col 23 Nook: (23, 12..13) dead-ends at bush at (23, 14).
 - East Bypass (Col 28): Continuous open corridor (rows 11..15) bypassing consoles into southern sector [Turn 5638].- Team Rocket Grunt: Stationed at (28, 18) facing North overlooking row 17 [Turn 5639].
+
+- Consoles at (24..25, 16): Confirmed solid obstacles. Row 16 is an unbroken barrier across east wing [Turn 5644].
+- Navigation: Returning to row 7 to access the West Wing (cols < 16) for the route to B2F [Turn 5644].
