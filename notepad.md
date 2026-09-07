@@ -2707,11 +2707,7 @@
 - Row 1 Cliff (Central): South-facing cliff spans columns 8 through 18 between Row 1 and Row 2, preventing southward stepping into Row 2.
 - Central Bridge Obstacles: Column 6 is blocked at (6, 7) by purple rock, and Column 7 is blocked at (7, 8) by purple rock.
 
-## Verified 3F Ladders & Floor Connections
-1. NW Ladder @ (2, 0): Located in NW Room (cols 0-5). Connects to 2F NW elevated plateau at (1, 1).
-2. Ladder A @ (23, 7): Wall ladder on north wall of central sector. Connects to 2F at (23, 7).
-3. Ladder NE @ (27, 7): Wall ladder in enclosed NE room (rows 7-9, cols 25-28). Connects to 2F behind switch shutter at (27, 7).
-4. Ladder B @ (25, 14): Floor ladder (black opening `[=]`) in SE Pit room. Connects to 2F SE sector at (25, 14).
+
 
 <hr>
 
