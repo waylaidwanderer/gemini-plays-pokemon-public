@@ -19,6 +19,7 @@
     - Little girl at (6, 3).
     - Nidorino at (6, 4).
     - Psyduck at (1, 3).
+    - Mr. Fuji at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 - NPC at (11, 7): Stationed in eastern lawn.
@@ -37,4 +38,3 @@
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
 - Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.
-- Volunteer Pokémon House: Located at cols 6..9, rows 8..9. Mr. Fuji located at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
