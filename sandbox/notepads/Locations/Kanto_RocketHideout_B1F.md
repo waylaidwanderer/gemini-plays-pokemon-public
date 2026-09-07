@@ -26,3 +26,7 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - West Wing Corridor (Cols 12..14): Open passage extending south from row 7 through rows 8..11+ [Turn 5647].
 - Team Rocket Grunt: Defeated at (12, 6) [Turns 5648-5654] using Sheldon (Raticate Lv 21, Raticate Lv 21; prize ¥630) [Turn 5655].
 - Wall Partition: Spans (13..15, 8) [Turn 5647].- West Wing Main Hall: Spans cols 9..14 across rows 9..11+, accessed via open passage at (11..12, 8) [Turn 5655].
+
+- Office Consoles: Spans cols 10..13 at rows 12..13 [Turn 5656].
+- West Bypass (Col 14): Continuous open aisle spanning rows 11..15 [Turn 5656].
+- Item Ball: Located at (11, 14) south of consoles [Turn 5656].
