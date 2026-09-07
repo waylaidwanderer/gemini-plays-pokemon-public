@@ -1893,5 +1893,7 @@ Gambling facility in central Celadon City serving as the front for Team Rocket's
 - Central Aisle: Cols 15..16 running north through the center of the hall.
 - Slot Machine Banks: Rows 13..15 across cols 11..14 (west) and cols 17..19 (east).
 - Objective: Locate Team Rocket Grunt guarding the poster on the north wall, defeat him, and press the secret switch to open the Rocket Hideout basement.
+- Cross Aisle: Spans horizontally along row 8 across cols 11..19.
+- Upper Slot Bank: Spans cols 12..19 along row 7 with western passage at col 11 [Turn 5601].
 
 <hr>
