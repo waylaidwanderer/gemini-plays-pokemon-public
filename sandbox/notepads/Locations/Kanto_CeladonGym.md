@@ -13,7 +13,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Flower patches: Flank the entrance along row 13 at cols 0..1 and 8..9.
 
 ## Trainers
-- Gym Leader: Erika (Victreebel Lv 29 [defeated], Tangela Lv 24 [defeated], Vileplume Lv 29 [defeated]).
+- Gym Leader: Erika (Victreebel Lv 29 [defeated], Tangela Lv 24 [defeated], Vileplume Lv 29 [defeated]). Defeated Turn 6800! Prize: ¥2871. Awarded RAINBOWBADGE and TM21 (Mega Drain).
 ## Room 1 (Rows 10..13)
 - Shrub row at rows 12..13: Obstacles at (2..3, 12..13) and (6..7, 12..13), central gap at (4..5, 12..13).
 - Open area at rows 10..11: Spans cols 2..7.

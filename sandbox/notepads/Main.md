@@ -4,11 +4,11 @@
 
 ## Status
 
-- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
+- Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
 
 - Active Team: Blastoise (SHELDON) Lv 46, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥59242
+- Money: ¥62113
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -111,4 +111,5 @@
 - [x] Reach Rocket Hideout B4F [Turn 6050]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
 - [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+- [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
 
