@@ -1,6 +1,6 @@
 # Current Party & Team Strategy
 
-## Active Party (Fully Healed at Viridian Pokecenter Turn 35030)
+## Active Party
 1. HYDROS (Blastoise) - Lv 72
    - Stats: Max HP 245 (HP: 237/245), Attack 172, Defense 190, Speed 174, Special 182
    - Type: Water
