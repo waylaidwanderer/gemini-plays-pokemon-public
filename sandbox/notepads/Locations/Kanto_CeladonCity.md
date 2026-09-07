@@ -34,3 +34,5 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
 - Southern Tree Border: Row 32 tree at (22, 32) is a standard non-cuttable border tree (tested with Cut: "There isn't anything to CUT!" [Turn 6694]). Rows 33..34 lawn south of row 32 is an enclosed/decorative area inaccessible from the South Plaza.
 - Cuttable Tree (Southern Garden Entrance): Located at (35, 32) directly south of Celadon Hotel entrance at (35, 27). Cut down on Turn 6713 to access the Southern Garden Corridor [Turn 6713].
+
+- Gym Courtyard Fence Opening: Located at (5, 31) between fence posts at (4, 31) and (6, 31). Connects the Celadon Gym courtyard (rows 28..30) south into the Southern Garden Corridor (rows 32..34) [Verified Turn 6822].
