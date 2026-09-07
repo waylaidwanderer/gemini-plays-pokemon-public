@@ -10,11 +10,9 @@
 - Front Gatehouse: Checks all 8 Kanto Badges sequentially.
 
 ## Route 22 Topology & Navigation Routes
-- Complete Canonical Route from Viridian City to Pokémon League Front Gatehouse:
-  1. Exit Viridian City west at (0, 9) onto Route 22 at (39, 8..9).
-  2. Walk West along row 8/9/11 past the decorative statues (col 34) through row 12 gap at (34..35, 12) to (28, 12).
-  3. Walk North from (28, 12) through (28, 8) and through the open ledge gap at (27..29, 7) directly onto the Upper Highway at (28, 5)! (Note: Row 7 ledge ends at col 30; cols 27-29 are completely open).
-  4. Walk West along the Upper Highway (row 5) from (28, 5) straight to (8, 5).
-  5. Step North at (8, 5) directly into the Front Gatehouse door!
-  - CRITICAL WARNING: Do NOT hop south down the row 13 ledge into the lower return road (row 14/15) when approaching the Gatehouse!
+- Empirical Traversal Notes:
+  - Viridian City connects to Route 22 at west boundary (x=39).
+  - Upper Highway (rows 4-5) runs west directly to the Front Gatehouse door at (8, 5).
+  - Middle Area (rows 8-12): Contains tall grass and decorative statues at column 34.
+  - One-Way Ledge Warning: Row 13 ledge hops south into the lower return road at rows 14-15. Do not hop south over row 13 ledge during westward traversal.
 - Front Gatehouse Door: Located at (8, 5), transitions into Route 22 Gate.
