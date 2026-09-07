@@ -14,6 +14,7 @@
 - ELIXER x1
 - FRESH WATER x1
 - SODA POP x1
+- LEMONADE x1
 
 ## Key Items
 - S.S. TICKET
