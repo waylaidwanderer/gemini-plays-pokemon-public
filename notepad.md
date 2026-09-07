@@ -1935,8 +1935,8 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - West Bypass (Col 14): Continuous open aisle spanning rows 11..15 [Turn 5656].
 - Item Ball: Located at (11, 14) south of consoles [Turn 5656].
 - Row 8 Partition: (14, 8) confirmed solid wall. Passage through row 8 is at (11..12, 8) [Turn 5658].
-- Row 16 Wall: Confirmed solid obstacle across cols 14..22 (tested turn 5668 bumping south at (18, 15)). There is NO opening at (18, 16).
-- Central Aisle (Cols 17..20, Rows 8..15): A dead-end corridor bordered by col 16 (statues/plants) on the west, col 21-22 (statues/wall) on the east, and row 16 (wall) on the south. Only connects north to row 7.
-- Southern Sector Access: The only route into the southern sector (and B2F stairs) is via the East Bypass at Col 28 past the Rocket Grunt at (28, 18).
+- Row 16 Wall: Confirmed solid obstacle across central and east wings (tested turn 5668 at (18, 15) and turn 5675 at (28, 15)). Neither (18, 16) nor (28, 16) is passable.
+- East Wing Dead-End: East Bypass at col 28 dead-ends at row 15 in front of the row 16 wall. The Grunt at (28, 18) and elevator at (24..25, 19) are on the other side of this wall.
+- Southern Sector & B2F Route: Accessible ONLY via the West Wing (cols 8..13), extending south past the consoles/item ball at (11, 14) into the southwest stairs and southern corridor.
 
 <hr>
