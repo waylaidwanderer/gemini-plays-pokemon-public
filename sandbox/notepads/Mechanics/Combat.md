@@ -7,6 +7,7 @@
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
+- **Bag Cursor Memory:** The overworld Bag menu preserves cursor and scroll position across openings during an overworld session (empirically confirmed Turn 5481: reopening Bag outside Pokémon Center retained cursor on ELIXER x1 from Turn 5475).
 
 ## Stat & Damage Mechanics
 - **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat.
