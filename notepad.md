@@ -126,6 +126,7 @@
 - ELIXER x1
 - FRESH WATER x1
 - SODA POP x1
+- LEMONADE x1
 
 ## Key Items
 - S.S. TICKET
@@ -1873,7 +1874,7 @@ Fifth floor of Celadon Department Store (Drug Store / Stat Enhancers).
 
 ## Layout & Landmarks
 - Stairs down to 4F: Located at (16, 1).
-- Floor Sign: Located at (14, 1) on north wall. Text confirmed: "5F: DRUG STORE" [Turn 5509].
+- Floor Sign: Located at (14, 1) on north wall (unprobed).
 - Stairs up to Roof: Located at (12, 1).
 - NPC: Gentleman (wandering, stunned) at (14, 2).
 - Central Aisle: Spanning cols 14..15, rows 2..5.
@@ -1888,13 +1889,17 @@ Fifth floor of Celadon Department Store (Drug Store / Stat Enhancers).
 # Celadon Department Store Roof (Rooftop Square)
 
 ## Overview
-Open-air rooftop square of the Celadon Department Store featuring vending machines and patio.
+Open-air rooftop square of the Celadon Department Store featuring vending machines, picnic patio, and thirsty girl NPC.
 
 ## Layout & Landmarks
 - Stairs down to 5F: Located at (15, 2). Landing at (15, 3).
 - Rooftop Sign: Located at (13, 2).
 - Vending Machines: Located at (11, 1..2) and (12, 1..2). Accessible from row 3 facing North.
-- Patio: Checkered blue/cream tiles across rows 3..6.
+  - FRESH WATER: �200
+  - SODA POP: �300
+  - LEMONADE: �350
+- Patio & Tables: Checkered blue/cream tiles across rows 3..6. Picnic table at (9, 4..5).
+- NPC: Thirsty Girl at (10, 4) seated at picnic table.
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
 
