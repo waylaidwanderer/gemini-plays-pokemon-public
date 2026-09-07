@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 47, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥63723
+- Money: ¥64458
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -2317,6 +2317,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - Crossway at Rows 40..41: East-west platform across cols 4..9 connects western lane to eastern lane. Cols 4..5 dead-ends at row 44 railing. Main bridge continues south along cols 8..9 (rows 42..45) [Verified Turn 6951].
 - Bridge Segment at Rows 46..51: Paved grass corridor at cols 12..13 (rows 46..47) connects to wooden bridge planks (rows 48..51). Cross-platform at rows 52..53 connects to western lane. Fisherman NPC stationed at (9, 52) [Verified Turn 6953].
-- Fisherman (Elliot): Stationed at (9, 52) facing East. Engaged at (12, 52) [Turn 6954].
+- Fisherman (Elliot): Stationed at (9, 52) facing East. Defeated at (11, 52) [Turn 6964].
+- Crossway at Row 49: Wooden crossway at row 49 connects cols 8..9 to cols 4..5. Cols 4..5 continues south across rows 50..57+ bypassing the row 54 railing to reach the wide southern bridge platform [Verified Turn 6965].
 
 <hr>
