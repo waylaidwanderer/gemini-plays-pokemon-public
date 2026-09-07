@@ -2026,5 +2026,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Team Rocket Grunt 2 at (15, 25): Defeated [Turn 5855]! Team: Rattata Lv 19, Raticate Lv 19, Rattata Lv 19; prize ¥570. Sheldon took 0 damage, leveled up to Lv 43 (HP 135/135).
 
 - Elevator Lobby Sighted: Elevator doors visible at (24..25, 16). Red checkered entryway at (24..25, 19). Lobby floor (cols 24..27) extends north past row 14 into northern sector. Separated from eastern aisle by solid wall partition along column 23 (rows 16..22) [Turn 5868].
+- West Boundary Confirmed: Column 8 is solid wall from row 16 to row 27. (9, 26) open, (8, 26) solid wall. The southern chamber (cols 8..23, rows 16..27) is a completely enclosed self-contained loop with no walking exit to rows 0..15. Northern sector of B3F must be accessed from B2F [Turn 5872].
 
 <hr>
