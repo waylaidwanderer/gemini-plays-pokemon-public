@@ -2740,6 +2740,7 @@
 - Row 1 Highway: Columns 6 through 23 along Row 1 form an open northern corridor.
 - Row 2 Highway: Columns 2 through 7 along Row 2 connect NW Room to Central Bridge.
 - Column 9/10 Lower Highway: Columns 9-10 form a vertical purple floor highway connecting rows 2-5 down to rows 8-10.
+- Row 9 Ledge Hop @ (1, 9): South-facing ledge at (1, 9) allows jumping down from lower purple floor (1, 8) directly onto the southern dark checkerboard highway at (1, 10..14)!
 - Row 12 Wall Gap: Columns 22-23 form an open gap through the Row 12 wall connecting upper sector to southern corridors.
 - Row 13-14 Highway: Horizontal corridor connecting columns 14 through 23 directly to the Pit room.
 
