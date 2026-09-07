@@ -2704,7 +2704,6 @@
 - Central Bridge Obstacles: Column 6 is blocked at (6, 7) by purple rock, and Column 7 is blocked at (7, 8) by purple rock.
 
 
-
 <hr>
 
 <h1><code>Scratchpad/VictoryRoadPuzzles.md</code></h1>
