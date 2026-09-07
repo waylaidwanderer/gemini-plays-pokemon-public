@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 43, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥47041
+- Money: ¥47671
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -1999,7 +1999,7 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - East Hallway: Cols 25..28 across rows 11..15 are open checkered floor ending at solid east wall at col 29. No stairs exist in this corridor.
 - Row 16 Barrier: Solid horizontal wall spans cols 19..29 at row 16, completely blocking northern access to the elevator room.
 - Elevator: Located at (24..25, 19) south of row 16.
-## B3F Stairs & Elevator
+## B2F Southeast Chamber (B3F Descending Stairs)
 - B3F Descending Stairs: Located at (21, 22) in the Southeast Chamber, entered from (21, 21) facing Down [Turn 5810].
 
 ## B2F Northern Stairs to B3F
@@ -2016,7 +2016,7 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 Third basement level of Team Rocket's underground headquarters beneath Celadon City. Contains Rocket Grunts, items, and access to B4F.
 
 ## Layout & Geography
-- Entry Stairs (to B2F): Located at (21, 24). Arrival tile at (21, 25) facing Down [Turn 5811].
+- Entry Stairs (to B2F): Located at (25, 6) in Northern Sector; connects to B2F (21, 8). (Note: (21, 24) in Southeast Chamber was empirically verified flat floor, not stairs).
 - Southeast Chamber: Open checkered floor spanning cols 18..22, rows 21..26.
 - South Wall: Row 27 is the south boundary wall.
 - East Wall: Column 23 is the eastern solid boundary wall.
@@ -2098,7 +2098,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Northwest Room Grunt Pre-Battle Quote: "The elevator doesn't work? Who has the LIFT KEY?" [Turn 6056]
 - Northwest Room Grunt Defeated [Turn 6066]! Team: Koffing Lv 21, Zubat Lv 21; prize ¥630. Defeat quote: 'ROCKET: No!'.
 - Northwest Room Grunt Post-Battle Dialogue [Turn 6072]: "Oh no! I dropped the LIFT KEY!"
-- Lift Key Item Ball: Spawned at (10, 2) after talking to Grunt [Turn 6073].
 - Lift Key: Collected from (10, 2) [Turn 6079].
 - Item Ball 1 at (9, 4): Retrieved TM02 (RAZOR WIND) [Turn 6085].
 ## Physical Boundaries & Collisions (Verified Turns 6088-6089)
@@ -2106,6 +2105,8 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Western Boundary: Solid wall along column 8.
 - Open Passages: Row 15 is open traversable floor from col 10 to col 18.
 - Column 21 Divider: Solid vertical wall separates central hallway from elevator lobby (rows 6..12).
+
+- Item Ball 2: Sighted at (10, 12) sitting on desk/console in northwest room [Turn 6092].
 
 
 <hr>
