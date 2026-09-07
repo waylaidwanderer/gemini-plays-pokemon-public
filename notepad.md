@@ -2567,6 +2567,8 @@
 - Canal Landing to Volcano Check: North landing at (7..10, 71). Row 61 ledge gap is at (7, 61).
 - Row 56 Tree Bypass: Column 4 corridor (x=4, y=53..57) bypasses the row 56 tree barrier to row 52.
 - Row 47 Ledge Gap: Columns 8-9 (x=8..9, y=47) form an open 2-tile wide gap through row 47 south-facing ledge.
+- Row 43 Gatehouse: Entrance door at (3, 43) leads through interior gatehouse (4..5, 0..7), exiting north onto Route 23 at (17, 47).
+- Row 43 Guard & Tree Bypass: Guard stands at (16, 43). 2x2 tree at (16..17, 41..42) is bypassed east via column 18: (17, 43) -> Right to (18, 43) -> Up to (18, 39) -> Left to (17, 39).
 - Earth Badge Checkpoint: Guard stands at (4, 35). Red Earth Gate at (4, 31) allows passage north to row 30.
 - Northern Sector & Gate: Cut tree at (14, 4) requires HM01 Cut to access the northern entrance corridor at (16..17, 4).
 - Northern Highway & Cave Entrance: Central paved highway (rows 17-30) leads directly to Victory Road 1F cave entrance.
