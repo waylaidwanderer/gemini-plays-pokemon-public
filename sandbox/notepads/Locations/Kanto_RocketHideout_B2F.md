@@ -11,7 +11,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Western Barrier (Col 24): Alternating potted plants and statues spanning rows 8..12 (plant at row 8, statue at row 9, plant at row 10, statue at row 11, plant at row 12) [Turn 5687].
 - South Corridor (Row 14): Continuous open corridor spanning cols 22..28 passing under column 23/24 barriers. Connects the Northeast Chamber to the western sector [Turn 5688].
 - Western Wall Partition (Col 23): Solid wall partition spanning rows 7..13, ending at row 13 with row 14 open beneath it.
-- Team Rocket Grunt: Stationed at (20, 12) facing Down (South) overlooking column 20 [Turn 5689].
 - Wall Partition: Spans (18, 14..15) blocking western exit of row 14; bypass passage to western maze is along rows 10..13 [Turn 5689].
 - Grunt Dialogue at (20, 13): "BOSS said you can see GHOSTs with a SILPH SCOPE!" [Turn 5691]. Directly confirms Team Rocket's boss possesses the Silph Scope here in the hideout.
 - Team Rocket Grunt at (20, 12): Defeated! Team consisted of 5 Pokémon: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Zubat Lv 17, Raticate Lv 17; prize ¥510. Clears access to the western spinner maze [Turn 5704].
@@ -26,6 +25,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 
 ## B2F Western Sector
 - Stop Pad (West): Located at (2, 9). Reached via the (12, 11) up-spinner trajectory across row 9 [Turn 5712].
-- Item Ball 1: Located at (1, 11), accessible from (2, 9) via (3, 9..13) and (1..2, 13) [Turn 5712].
+- Item Ball 1: Located at (1, 11). Retrieved on Turn 5721; contained MOON STONE.
 - Item Ball 2: Located at (6, 12) [Turn 5712].
 - Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
