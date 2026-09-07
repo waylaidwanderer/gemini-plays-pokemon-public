@@ -40,3 +40,5 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Passage at (8, 11): Fully passable from the south (empirically verified Turn 5316). Links southern Underground Path plaza directly to the northern open highway at rows 8-10.
   - (1, 9): Impassable tree boundary (Turn 5320).
 - Northern Passage: Column 10 provides open passage north past row 7 ledge into northern rows 0-6.
+  - (7, 6): Impassable ledge boundary from east (Turn 5327).
+- Northern Open Corridor: Rows 6-7 provide wide paved corridor spanning east across cols 10-15+.
