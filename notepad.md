@@ -1324,6 +1324,8 @@
 ## Bicycle Locomotion Physics
 - **Perpendicular Turn Mechanics:** When mounted on the Bicycle, an initial directional input while facing a perpendicular direction turns the player in place to face that direction without advancing a grid step (empirically confirmed Turns 4046, 4048, 4049, 4054). Subsequent directional inputs in the same direction advance one grid step per press.
 
+## Field Items (Poké Flute)
+- **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 
 <hr>
 
