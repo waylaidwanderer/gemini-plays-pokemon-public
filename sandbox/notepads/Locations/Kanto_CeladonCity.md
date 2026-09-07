@@ -15,3 +15,6 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Bicycle mounted at (41, 10) outside Pokémon Center [Turn 5482].
 - NPC sighted wandering along row 14 at (43, 14).
 - Citizen with Poliwrath at (32, 12) and (30, 12): Mentions Poliwrath evolved from Poliwhirl via Water Stone [Turn 5485-5486].
+- Celadon Mansion (Condominiums): Front entrance door at (24, 9); spans rows 7..9, cols 23..27+ [Turn 5488].
+- Main Avenue: Continuous paved east-west boulevard across rows 10..13 [Turn 5488].
+- South Commercial District (Green Awning Building): Roof spans cols 23..25+, rows 14..15+ [Turn 5488].
