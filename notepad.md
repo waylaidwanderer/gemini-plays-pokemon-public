@@ -157,7 +157,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥58057
+- ¥58897
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 46, Water]
@@ -2288,6 +2288,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer at (1, 5): Beauty with blue hair/hat.
 - Trainer at (9, 5): Trainer with orange hair/hat.
 - Cuttable trees: (2, 4) on west side, (7, 5) on east side.
-- Trainer 2 (Cooltrainer ♀) at (5, 5): Has 3 Pokémon (Weepinbell Lv 24 [defeated], Gloom Lv 24 [defeated], Ivysaur). Pre-battle dialogue: "Welcome to CELADON GYM! You better not underestimate girl power!" [Turn 6755].
+- Trainer 2 (Cooltrainer ♀) at (5, 5): Defeated! Team: Weepinbell Lv 24, Gloom Lv 24, Ivysaur Lv 24. Prize: ¥840. Defeat quote: "Oh! Beaten!"
+- Trainer 3 (Lass / Jr. Trainer) at (6, 3): Stepped down to (6, 4). Pre-battle dialogue: "Don't bring any bugs or fire into a grass-type gym!" [Turn 6767].
 
 <hr>
