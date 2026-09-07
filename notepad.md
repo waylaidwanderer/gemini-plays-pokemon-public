@@ -129,7 +129,6 @@
 - TM30 (TELEPORT) x1
 - SUPER REPEL x5
 - ELIXER x1
-- FRESH WATER x1
 - TM48 (ROCK SLIDE) x1
 - TM49 (TRI ATTACK) x1
 
@@ -154,7 +153,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 42, Water]
   - Status: Healthy
-  - HP: 102 / 130
+  - HP: 130 / 130
   - Stats: Attack 94, Defense 110, Speed 94, Special 96
   - Moves: Bite (PP 17/25), Body Slam (PP 13/15), Bubblebeam (PP 11/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
