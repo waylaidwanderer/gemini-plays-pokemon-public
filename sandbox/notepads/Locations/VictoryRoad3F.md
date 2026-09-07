@@ -54,3 +54,6 @@
 - Checkpoint 2F-1: Push fallen boulder onto 2F switch to lower exit Shutter at (28, 10).
 - Checkpoint 2F-2: Climb Ladder NE at (27, 7) to 3F Exit Chamber.
 - Checkpoint Exit: Exit 3F north onto Indigo Plateau exterior plaza!
+## Verified Empirically: Pit Drop Outcome
+- Pit Boulder at (22, 15) on 3F pushed East into Pit (23, 15) drops down to 2F at (23, 16).
+- Player jumping into Pit (23, 15) lands on 2F at (22, 16) facing East directly adjacent to the Fallen Boulder at (23, 16).
