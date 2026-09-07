@@ -160,7 +160,7 @@
   - Status: Healthy
   - HP: 141 / 141
   - Stats: Attack 102, Defense 119, Speed 102, Special 104
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 17/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 23/25), Body Slam (PP 14/15), Bubblebeam (PP 16/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2243,10 +2243,9 @@ The top floor of Pokémon Tower where Team Rocket holds Mr. Fuji captive.
 - Team Rocket Grunt 1: Located at (9, 11), facing East. Defeated Turn 6493 (¥750). Defeat dialogue: "I'm not going to forget this!". Team: Zubat Lv 25, Zubat Lv 25, Golbat Lv 25.
 - Team Rocket Grunt 2: Located at (12, 9), facing Left (West). Guarding aisle at row 9. Team: Koffing Lv 26, Drowzee Lv 26.
 - Team Rocket Grunt 3: Located at (9, 7), facing East. Guarding aisle at row 7.
-- Mr. Fuji: Located at the northern altar at the top of 7F (north of row 7).
 
 ## Geography & Layout
-- Central Corridor: Open vertical aisle along columns 9..12 leading from southern stairs at (9, 16) north toward Mr. Fuji.
+- Central Corridor: Open vertical aisle along columns 9..12 leading from southern stairs at (9, 16) north toward the northern altar area.
 
 
 <hr>
