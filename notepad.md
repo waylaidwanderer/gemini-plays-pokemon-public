@@ -2511,7 +2511,7 @@
 - Rival RED Encounter: Triggered when walking west past east entrance (defeated Turn 22069).
 - Front Gatehouse: Checks all 8 Kanto Badges sequentially.
 
-## Verified Topology & Navigation Routes (Verified Turn 33106)
+## Route 22 Topology & Navigation Routes
 - Complete Canonical Route from Viridian City to Pokémon League Front Gatehouse:
   1. Exit Viridian City west at (0, 9) onto Route 22 at (39, 9).
   2. Walk south to Eastern Lawn at (33, 12), walk Left to (31, 12).
