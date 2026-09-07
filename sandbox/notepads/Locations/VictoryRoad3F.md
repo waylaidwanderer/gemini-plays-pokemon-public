@@ -38,3 +38,4 @@
   6. Push east across southern floor to Pit at (23, 14) and drop boulder into pit.
 
 - Turn 34833: Boulder 1 successfully positioned at (6, 1) at the head of Column 6 chute. Player at (8, 0) stepping to (6, 0) to push South down Column 6.
+- Turn 34834: Boulder 1 at (6, 2), Player at (6, 1) facing South. Beginning empirical southward descent down Column 6.
