@@ -2,10 +2,9 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Located on the western/central sector leading up to 7F (guarded by the restless spirit of Marowak).
+- Stairs Up: Unexplored.
 
 ## Key Features & Events
-- Restless Spirit: The ghost blocking the stairs to 7F is the restless spirit of Cubone's mother, Marowak (Lv 30). With Silph Scope, it will be unmasked and can be defeated to clear the stairs.
 - Channeler at (16, 5): Sighted facing Right/Down. South vision blocked by tombstones at (16..17, 6) [Turn 6354].
 
 ## Geography & Layout
