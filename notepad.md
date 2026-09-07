@@ -2647,11 +2647,14 @@
 4. **Ascend to 3F via Ladder A (23, 7)**:
    - Walk east through opened Shutter at (15, 15) / (21, 15) into eastern sector.
    - Ascend Ladder A at (23, 7) directly to 3F main floor!
-5. **3F Boulder Pit Drop**:
+5. **3F Switch (3, 5) Activated [Turn 34926]**:
+   - Boulder 1 successfully pushed onto Switch Plate (3, 5) via Column 2 -> (1, 5) -> (3, 5).
+   - Southern Shutter opened!
+6. **3F Boulder Pit Drop**:
    - Arrive on 3F at (23, 7).
    - Push Boulder through southern 3F corridors to Pit at (23, 14).
    - Push boulder down Pit at (23, 14) and jump down after it to 2F.
-6. **2F Final Exit**:
+7. **2F Final Exit**:
    - Land in 2F SE room at (23, 14) with fallen boulder.
    - Push fallen boulder onto SE switch plate to lower exit shutter at (27, 10).
    - Climb Ladder NE at (27, 7) to 3F Exit Chamber.
@@ -2740,7 +2743,7 @@
 - Column 28-29 Highway: Open vertical corridor connecting rows 11-16 to northern corridors.
 - Row 16 Highway: Row 16 connects columns 20 through 28 horizontally across the southern edge of the map.
 
-## Canonical Switch (3, 5) Solution Protocol (In Progress)
+## Canonical Switch (3, 5) Solution Protocol (COMPLETED Turn 34926)
 1. Reload 3F via NW Ladder (2, 0) and activate STRENGTH with ATLAS.
 2. Push Boulder 1 from (22, 3) west to (20, 3), north to (20, 1), and west along Row 1 all the way to (6, 1) [Player at (7, 1)].
 3. Reposition around boulder to (6, 0) via (7, 0).
@@ -2752,6 +2755,8 @@
 9. Push Down 3 times along Column 2: Boulder 1 moves (2, 2) -> (2, 3) -> (2, 4) -> (2, 5) [Player at (2, 4)].
 10. Reposition to (1, 5) directly West of Boulder: Step Left to (1, 4), Down to (1, 5).
 11. Push East 1 time: Boulder 1 moves from (2, 5) onto Switch Plate (3, 5) to activate switch!
+
+- Turn 34926: Boulder 1 pushed from (2, 5) onto Switch Plate (3, 5)! Switch (3, 5) fully activated, opening the southern shutter on 3F!
 
 
 <hr>
