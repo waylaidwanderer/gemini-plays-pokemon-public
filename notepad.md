@@ -1964,7 +1964,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Stop Pad 1: Located at (14, 12). Safe stopping point between console barriers [Turn 5709].
 - Stop Pad 2: Located at (16, 13) [Turn 5707].
 - Stop Pad 3: Located at (14, 15) [Turn 5709].
-- Item Ball: Discovered at (16, 8) in northern corridor above row 9 consoles [Turn 5708].
 - Entrance Trajectory: Step Left from (18, 10) onto (17, 10) [<<] -> slides to (13, 10) [vv] -> slides to (13, 12) [>>] -> lands safely on Stop Pad at (14, 12) [Turn 5709].
 - Column 12 Trajectory: (12, 11) [^^] spins North into (12, 9) [<<], which spins West across row 9 into column 9 and the western sector.
 
