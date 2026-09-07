@@ -28,6 +28,7 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - (12, 11): Impassable gatehouse corner wall (Turn 5296).
   - (13, 11): Impassable gatehouse brick wall (Turn 5298).
   - (14, 11): Impassable gatehouse brick wall (Turn 5300).
+  - (15, 11): Impassable gatehouse brick wall (Turn 5303).
 - Eastern Area: Solid vertical fence at col 17 (rows 11-15) encloses tall grass patch at cols 18-21 (rows 12-15).
 - Landmark at (20, 16..18): Stone statue/monument.
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
