@@ -2,7 +2,7 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Under exploration in western sector (investigating (3, 9) and surroundings).
+- Stairs Up: Located at (9, 16) on southern wall.
 
 ## Key Features & Events
 - Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!

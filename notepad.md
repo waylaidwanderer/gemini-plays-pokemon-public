@@ -2205,7 +2205,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Under exploration in western sector (investigating (3, 9) and surroundings).
+- Stairs Up: Located at (9, 16) on southern wall.
 
 ## Key Features & Events
 - Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!
@@ -2226,6 +2226,5 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
 ## Items
 - Item Ball at (14, 14): Sighted on floor in southeast alcove [Turn 6444].
-
 
 <hr>
