@@ -1926,7 +1926,6 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - East Bypass (Col 28): Continuous open corridor (rows 11..15) bypassing consoles into southern sector [Turn 5638].- Team Rocket Grunt: Stationed at (28, 18) facing North overlooking row 17 [Turn 5639].
 
 - Consoles at (24..25, 16): Confirmed solid obstacles. Row 16 is an unbroken barrier across east wing [Turn 5644].
-- Navigation: Returning to row 7 to access the West Wing (cols < 16) for the route to B2F [Turn 5644].
 - West Wing Corridor (Cols 12..14): Open passage extending south from row 7 through rows 8..11+ [Turn 5647].
 - Team Rocket Grunt: Defeated at (12, 6) [Turns 5648-5654] using Sheldon (Raticate Lv 21, Raticate Lv 21; prize ¥630) [Turn 5655].
 - Wall Partition: Spans (13..15, 8) [Turn 5647].- West Wing Main Hall: Spans cols 9..14 across rows 9..11+, accessed via open passage at (11..12, 8) [Turn 5655].
@@ -1948,7 +1947,7 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 # Rocket Hideout B2F (Celadon City)
 
 ## Overview
-Second basement level of Team Rocket's underground headquarters beneath Celadon City. Known for containing directional conveyor / spinner arrow tile mazes.
+Second basement level of Team Rocket's underground headquarters beneath Celadon City. Features directional spinner arrow tiles and stop pads observed to the west [Turn 5691].
 
 ## Layout & Geography
 - Entry Stairs (to B1F): Located at (27, 8), facing Up. Leads up to Rocket Hideout B1F (23, 2) [Turn 5687].
@@ -1961,6 +1960,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Team Rocket Grunt: Stationed at (20, 12) facing Down (South) overlooking column 20 [Turn 5689].
 - Wall Partition: Spans (18, 14..15) blocking western exit of row 14; bypass passage to western maze is along rows 10..13 [Turn 5689].
 - Grunt Dialogue at (20, 13): "BOSS said you can see GHOSTs with a SILPH SCOPE!" [Turn 5691]. Directly confirms Team Rocket's boss possesses the Silph Scope here in the hideout.
-- Team Rocket Grunt at (20, 12): Defeated! Used Zubat Lv 17, Koffing Lv 17, Grimer Lv 17. Clears access to the western spinner maze [Turn 5699].
+- Team Rocket Grunt at (20, 12): Defeated! Team consists of 4 Pok�mon: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Zubat Lv 17. Clears access to the western spinner maze [Turn 5699].
 
 <hr>
