@@ -123,7 +123,6 @@
 ## Items
 - TM07 (HORN DRILL) x1
 - MOON STONE x1
-- POKé BALL x10
 - ESCAPE ROPE x2
 - RARE CANDY x3
 - TM24 (THUNDERBOLT) x1
@@ -158,7 +157,7 @@
   - Status: Healthy
   - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 10/20), Ice Beam (PP 7/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -182,7 +181,7 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
@@ -2117,7 +2116,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Grunt 2 outside Giovanni's office: Stationed at (26, 12) facing Down. Pre-battle dialogue: "How can you not see the beauty of..." [Turn 6147].
 - Grunt 2 outside Giovanni's office Defeated [Turn 6156]! Team: Ekans Lv 23, Sandshrew Lv 23, Arbok Lv 23.
 - Boss Giovanni: Located at (25, 3) behind his executive desk (cols 24..27, rows 4..5), approached from (25, 6) facing Up [Turn 6160].
-- Boss Giovanni Engaged [Turn 6162]: Pre-battle dialogue triggered at (24, 3) facing Right toward Giovanni at (25, 3).- Boss Giovanni Defeated [Turn 6172]! Prize: ¥2871. Team: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29.
+- Boss Giovanni Defeated [Turn 6172]! Prize: ¥2871. Team: Onix Lv 25, Rhyhorn Lv 24, Kangaskhan Lv 29.
 
 - Silph Scope: Retrieved from (25, 2) [Turn 6201] after defeating Giovanni!
 
