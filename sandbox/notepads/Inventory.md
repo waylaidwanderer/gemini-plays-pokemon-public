@@ -12,7 +12,7 @@
 - TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
 
-## Key Items (7 / 8)
+## Key Items (8 / 8)
 - OLD ROD
 - HM01 (CUT)
 - HM05 (FLASH)
@@ -20,9 +20,10 @@
 - COIN CASE
 - LIFT KEY
 - SILPH SCOPE
+- POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 (3 slots free). Verified in-game Turn 6588.
+- Total Slots Used: 18 / 20 (2 slots free). Verified in-game Turn 6599.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
