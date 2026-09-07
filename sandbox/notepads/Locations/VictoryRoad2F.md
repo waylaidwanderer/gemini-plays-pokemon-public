@@ -25,8 +25,10 @@
 - Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
 - Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15). Note: Row 8 is blocked at (7, 8) by a vertical barrier column; navigate south through Shutter 1 to (5, 14) / Central-South puzzle or across Dark Plateau to reach the eastern sector.
 
-## Return Route from Ladder A / North Area (23, 8) to Ladder NE (27, 7):
-- North Area connects west via Row 8 to column 20, south to Shutter 3 (21, 15), and east along Row 16 to column 29, ascending to Ladder NE (27, 7).
+## Verified Elevation Boundaries & Physical Topography (Verified Turn 33750)
+- Row 11 South-Facing Cliff Barrier: A continuous, impassable 2-tile elevated cliff spans columns 21 through 27 along Row 11, preventing southward descent from the dark checkerboard plateau directly into row 12.
+- Row 10 Barrier: Solid rock wall spans columns 24-30 with a shutter gate at (27, 10).
+- Eastern Purple Room (Ladder B at (25, 14)): Accessible from the North Area via column 23 (connecting Row 8 at (23, 8) south into (23, 12) -> (25, 12) -> (25, 14)). West-facing ledge at (23, 14) prevents westward entry into (24, 14) from (22, 14).
 
 ## Master Boulder 2 Solution
 - Initial Position: Boulder 2 @ (4, 14). Switch 1 @ (1, 16).
