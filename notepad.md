@@ -2750,6 +2750,8 @@
 - Turn 34769: Pushed West from (17, 1) -> (14, 1) [Player at (16, 1)].
 - Turn 34772: Pushed West from (14, 1) -> (13, 1) [Player at (15, 1)].
 - Current state (Turn 34773): Boulder 1 at (13, 1), Player at (15, 1) on Row 1 Northern Highway.
+- Turn 34778-34779: Pushed Boulder 1 west to (7, 1) at the top of the Central Bridge corridor.
+- Current state: Boulder 1 at (7, 1), Player repositioning to (7, 0) to push South down Column 7.
 
 <hr>
 
