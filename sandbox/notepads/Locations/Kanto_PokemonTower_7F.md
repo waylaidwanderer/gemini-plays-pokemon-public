@@ -14,3 +14,4 @@ The top floor of Pokémon Tower where Team Rocket holds Mr. Fuji captive.
 ## Geography & Layout
 - Central Corridor: Open vertical aisle along columns 9..12 leading from southern stairs at (9, 16) north toward the northern altar area.
 - Mr. Fuji: Directly sighted and visually rendered on-screen at northern altar at (10, 3) [Verified Turn 6543].
+- Rescue Event: Spoke with Mr. Fuji at (10, 3) on Turn 6545! Dialogue: "MR. FUJI: Heh? You came to save me?".
