@@ -2672,6 +2672,10 @@
 - Row 1 Highway: (1..10, 1) connects NW Ladder to central corridors.
 - Boulder at (5, 5): Pushed down/east to (6, 6) to open the passage between northern plateau and southern rows 6-7.
 - Columns 2-3 Highway: Columns 2 and 3 (y=7..10+) form an unobstructed 2-tile wide vertical highway connecting Row 7 down into the lower western floor (rows 8-16, Switch 1 @ (1, 16) and Boulder @ (4, 14)).
+## Verified Switch 1 & Shutter State (Verified Turn 34044)
+- Switch 1 @ (1, 16): Boulder 1 successfully pushed onto (1, 16) with Strength.
+- Status: Switch 1 ACTIVATED! Shutter 1 @ (5, 10) and Shutter 3 @ (21, 15) are lowered and open for current visit.
+- Traversal: Pass north through Shutter 1 (5, 10) to access upper plateau / central corridors, and east through Shutter 3 (21, 15) to Ladder B (25, 14).
 
 <hr>
 
