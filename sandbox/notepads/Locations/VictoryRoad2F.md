@@ -32,7 +32,7 @@
 - **Central-South Boulder & Switch**: Boulder at (9, 11) with switch at (9, 16) and shutter at (15, 15).
 - **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
-## Verified NW Sector & Lower Floor Access (Verified Turn 34008)
+## NW Sector & Lower Floor Access
 - NW Ladder @ (1, 1) connects to 3F (2, 0).
 - Row 1 Highway: (1..10, 1) connects NW Ladder to central corridors.
 - Boulder at (5, 5): Pushed down/east to (6, 6) to open the passage between northern plateau and southern rows 6-7.
