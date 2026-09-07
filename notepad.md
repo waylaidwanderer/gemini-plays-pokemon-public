@@ -2208,7 +2208,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Unexplored.
+- Stairs Up: Located at (9, 16) on southern wall, entered from the East via (10, 16) stepping Left [Visually confirmed Turn 6415].
 
 ## Key Features & Events
 - Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Keee!'.
