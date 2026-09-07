@@ -2708,12 +2708,13 @@
 - SE Pit Room Access: The SE Pit Room (boulder at (22, 15), pit at (23, 15), Ladder B at (25, 14)) is isolated from the 3F upper plateau by impassable cliffs; it is reached via Ladder B at (25, 14) from 2F!
 - Cooltrainer at (28, 5): Defeated (Turn 33412 verified dialogue: "You beat GIOVANNI of TEAM ROCKET?").
 
-## Verified Boundaries & Blockades (Empirically Verified Turns 33855-33900)
-- Row 6 Barrier (East): Continuous solid rock wall spans columns 21 through 29 along Row 6, preventing southward passage from Northern Highway (Row 1) on the east side.
+## Verified Boundaries & Blockades (Empirically Verified Turns 33855-34113)
+- Row 2 Highway Connection: Columns 2 through 7 along Row 2 ((2..7, 2)) form an open, unobstructed east-west corridor connecting the NW Room (cols 0-5) directly to the Central Bridge (cols 6-7) and Northern Highway (Row 1)!
+- Column 13-14 Purple Highway: Columns 13-14 form a continuous vertical open corridor (rows 2-14) connecting the northern plateau directly down to the lower southern floor (Row 14), the Pit at (23, 14), and Ladder B at (25, 14).
+- Row 6 Barrier (East): Continuous solid rock wall spans columns 24 through 29 along Row 6, separating the northern plateau from the eastern ladder chamber.
 - Column 23 Rock: Tile (23, 9) is a solid purple rock obstacle blocking southward passage from (23, 8) into row 10.
-- Column 5-6 Divider: Solid vertical rock wall divides Column 5 and Column 6 across rows 0 through 6, completely separating the NW Chamber (cols 0-5) from the Central Bridge (cols 6-7).
-- Row 1 Cliff (Central): South-facing cliff spans columns 8 through 18 between Row 1 and Row 2, preventing southward stepping into Row 2.
-- Central Bridge Obstacles: Column 6 is blocked at (6, 7) by purple rock, and Column 7 is blocked at (7, 8) by purple rock.
+- Boulder 1 @ (22, 3) & Boulder 2 @ (24, 10): Boulder 2 is pushed West from (25, 10) into (23, 10) and then South into Pit at (23, 14).
+- True Ladder @ (26, 8): In the northeast corridor.
 
 
 <hr>
