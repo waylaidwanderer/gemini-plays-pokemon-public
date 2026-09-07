@@ -21,13 +21,8 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - West Boundary Collision Test: Impassable solid wall at (8, 26). Empirically tested Turn 5899: attempted step Left from (9, 26), player remained at (9, 26).
 - Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
 - Grunt 1 Post-Battle Dialogue: "SILPH SCOPE? I don't know where it is!" [Turn 5907].
-- Row 16 Collision Test: Impassable solid wall at (17, 16). Empirically tested Turn 5909: attempted step Up from (17, 17), player remained at (17, 17).
-
-- Row 17 West Collision Test: Impassable solid wall at (8, 17). Empirically tested Turn 5913: attempted step Left from (9, 17), player remained at (9, 17).
-- Row 16 Collision Test: Impassable solid wall at (10, 16) and (11, 16). Empirically tested Turn 5915: attempted steps Up from (10, 17) and (11, 17), player remained on row 17.
-- Row 16 Collision Test: Impassable solid wall at (12, 16) and (13, 16). Empirically tested Turn 5916: attempted steps Up from (12, 17) and (13, 17), player remained on row 17.
-- Row 16 Collision Test: Impassable solid wall at (14, 16) and (15, 16). Empirically tested Turn 5917: attempted steps Up from (14, 17) and (15, 17), player remained on row 17.
-- Row 16 Collision Test: Impassable solid wall at (16, 16). Empirically tested Turn 5918: attempted step Up from (16, 17), player remained at (16, 17). Row 16 (cols 9..17) is 100% verified solid with no openings.
+- Row 16 Barrier: Impassable solid barrier verified across cols 9..17 (tested Turns 5909, 5913-5918).
+- West Boundary Wall: Impassable solid wall along col 8 (tested at (8, 17) Turn 5913 and (8, 26) Turn 5899).
 
 ## B3F Northern Sector
 - Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
@@ -45,7 +40,13 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
   2. Slides east across row 13 onto (14, 13) Stop Pad.
   3. From (14, 13) Stop Pad: walk Left along row 13 to (12, 13).
   4. Walk Down along column 12 through (12, 14) and (12, 15) into the southwest sector (rows 16+) [Turn 5957].
-- Column 9 Corridor (Turn 5966): (9, 13..19) is an open vertical corridor connecting the spinner maze to row 19.
-- Navigation Decision: Returning via row 16 spinners (13, 16 -> 17, 16 -> 18, 15) to northern corridor (20, 7) and heading south past Grunt 3 (26, 9) into the unexplored elevator lobby (cols 24..28, rows 10..20) to locate B4F stairs / Lift Key.
 - B3F Spinner Maze Northern Exit (Turn 5975): Row 11 from (16, 11) Stop Pad across (17..20, 11) is clear pink floor. Column 20 (rows 8..11) is an open north-south corridor passing the row 8 wall gap at (20, 8) directly onto the Northern Highway at (20, 7).
 - Grunt 3 Post-Battle Dialogue (Turn 5980): "Go ahead and go! But, you need the LIFT KEY to run the elevator!"
+
+## B3F Elevator Lobby
+- Northern Approach: Row 7 corridor connects east past col 21 to col 28.
+- Grunt 3 Bypass: Grunt 3 stationed at (26, 9) facing Left; bypass corridor runs along cols 27..28 (rows 7..12).
+- Row 13 Divider: Horizontal wall partition along row 13 (cols 24..28); opening is at (22..23, 13).
+- South Lobby: Open checkered floor spanning cols 22..28, rows 14..18.
+- South Boundary Wall: Horizontal wall along row 19 (cols 22..29).
+- Item Ball 2: Located at (26, 17) in the south lobby, directly south of Grunt 3 [Turn 5983].
