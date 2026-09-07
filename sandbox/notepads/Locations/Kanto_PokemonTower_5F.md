@@ -9,7 +9,8 @@
 - Channeler at (6, 10): Facing West (Left) toward col 5. Vision blocked by tombstone at (5, 10).
 - Channeler at (12, 8): Facing West (Left) directly overlooking the Purified Zone [Turn 6325].
 - Channeler at (14, 3): Facing West (Left) along row 3 [Turn 6325].
-- Channeler at (17, 7): Facing West (Left) guarding row 7 passage to 6F stairs [Turn 6327].
+- Channeler at (17, 7): Defeated Turn 6338 (Haunter Lv 23, 621 EXP, ¥690). Defeat dialogue: 'Gasp!'.
+- Route to 6F Stairs: (13, 9) -> West along row 9 to (9, 9) via Purified Zone (11, 9) -> South down col 9 to (9, 12) -> East along row 12 to (14, 12) -> North up col 14 to (14, 10) -> East along row 10 to (18, 10) -> North into (18, 9) stairs [Mapped Turn 6341].
 
 ## Geography & Layout
 - Arrival Stairs: (3, 9) on west wall.

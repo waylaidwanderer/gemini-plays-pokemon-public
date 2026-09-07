@@ -2186,7 +2186,8 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Channeler at (6, 10): Facing West (Left) toward col 5. Vision blocked by tombstone at (5, 10).
 - Channeler at (12, 8): Facing West (Left) directly overlooking the Purified Zone [Turn 6325].
 - Channeler at (14, 3): Facing West (Left) along row 3 [Turn 6325].
-- Channeler at (17, 7): Facing West (Left) guarding row 7 passage to 6F stairs [Turn 6327].
+- Channeler at (17, 7): Defeated Turn 6338 (Haunter Lv 23, 621 EXP, ¥690). Defeat dialogue: 'Gasp!'.
+- Route to 6F Stairs: Row 7 west to (13, 7) -> south down col 13 to (13, 9) -> west into Purified Zone (11, 9) -> south to row 11 -> east along row 11 (cols 12..17) -> north to (18, 9) stairs [Mapped Turn 6340].
 
 ## Geography & Layout
 - Arrival Stairs: (3, 9) on west wall.
