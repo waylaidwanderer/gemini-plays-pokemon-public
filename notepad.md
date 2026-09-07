@@ -8,9 +8,9 @@
 
 - Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 45, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 46, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥57712
+- Money: ¥59242
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -182,7 +182,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 28/30)
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 27/30)
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
@@ -2215,9 +2215,9 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Key Features & Events
 - Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!
-- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �¥720). Defeat dialogue: 'Keee!'.
+- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
-- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, �¥720). Defeat dialogue: 'Something fell out!'.
+- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, ¥720). Defeat dialogue: 'Something fell out!'.
 
 ## Geography & Layout
 - Eastern Wall: (19, 6..11) orange altars.
