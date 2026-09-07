@@ -3,7 +3,6 @@
 ## Items
 - TM07 (HORN DRILL) x1
 - MOON STONE x1
-- POKé BALL x10
 - ESCAPE ROPE x2
 - RARE CANDY x3
 - TM24 (THUNDERBOLT) x1
@@ -38,7 +37,7 @@
   - Status: Healthy
   - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 10/20), Ice Beam (PP 7/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -62,7 +61,7 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
