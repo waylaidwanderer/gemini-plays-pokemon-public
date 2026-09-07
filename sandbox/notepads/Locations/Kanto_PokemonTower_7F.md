@@ -8,7 +8,7 @@ The top floor of Pokémon Tower where Team Rocket holds Mr. Fuji captive.
 
 ## Key Features & Events
 - Team Rocket Grunt 1: Located at (9, 11), facing East. Defeated Turn 6493 (¥750). Defeat dialogue: "I'm not going to forget this!". Team: Zubat Lv 25, Zubat Lv 25, Golbat Lv 25.
-- Team Rocket Grunt 2: Located at (12, 9), facing Left (West). Guarding aisle at row 9. Team: Koffing Lv 26, Drowzee Lv 26.
+- Team Rocket Grunt 2: Located at (12, 9), facing Left. Defeated Turn 6516 (¥780). Defeat dialogue: "Please! No more!". Team: Koffing Lv 26, Drowzee Lv 26.
 - Team Rocket Grunt 3: Located at (9, 7), facing East. Guarding aisle at row 7.
 
 ## Geography & Layout
