@@ -33,10 +33,9 @@
 - **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
 ## NW Sector & Lower Floor Access
-- NW Ladder @ (1, 1) connects to 3F (2, 0).
-- Row 1 Highway: (1..10, 1) connects NW Ladder to central corridors.
-- Boulder at (5, 5): Pushed down/east to (6, 6) to open the passage between northern plateau and southern rows 6-7.
-- Columns 2-3 Highway: Columns 2 and 3 (y=7..10+) form an unobstructed 2-tile wide vertical highway connecting Row 7 down into the lower western floor (rows 8-16, Switch 1 @ (1, 16) and Boulder @ (4, 14)).
+- SW Ladder (0, 8) connects directly to Columns 2-3 Highway via (0, 6) -> (1, 6) -> (2, 6..7) without requiring Boulder (5, 5) to be moved!
+- Row 4 contains a rock divider at (0..4, 4) and (6..8, 4) with (5, 4) open north of Boulder (5, 5).
+- Columns 2-3 Highway: Columns 2 and 3 form an unobstructed 2-tile wide vertical highway spanning rows 6 through 16, connecting the western entrance directly to the lower floor (rows 12-16), Switch 1 @ (1, 16), and Boulder @ (4, 14).
 
 ## Puzzle Reset Triggers
 - Map reload events (such as ascending/descending floor ladders, leaving through cave entrances, or using Dig/Escape Rope) completely reload the floor's map state and reset all pushable boulders back to their default starting positions.
