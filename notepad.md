@@ -2756,7 +2756,6 @@
 10. Reposition to (1, 5) directly West of Boulder: Step Left to (1, 4), Down to (1, 5).
 11. Push East 1 time: Boulder 1 moves from (2, 5) onto Switch Plate (3, 5) to activate switch!
 
-- Turn 34926: Boulder 1 pushed from (2, 5) onto Switch Plate (3, 5)! Switch (3, 5) fully activated, opening the southern shutter on 3F!
 
 
 <hr>
