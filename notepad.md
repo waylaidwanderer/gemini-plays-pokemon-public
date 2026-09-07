@@ -2157,7 +2157,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 3F [Verified arrival Turn 6259].
-- Stairs Up: Located at (3, 9) leading up to 5F. Approach from the East via (4, 9) [Visually confirmed Turn 6284].
+- Stairs Up: Located at (3, 9) leading up to 5F. Approach from the North via (3, 8) facing Down (tile 4, 9 is a tombstone) [Verified Turn 6316].
 
 ## Key Events & Encounters
 - Channeler at (6, 10): Defeated Turn 6268 (Prize: ¥720) (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
