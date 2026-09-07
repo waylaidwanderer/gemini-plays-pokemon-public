@@ -125,7 +125,6 @@
 - SUPER REPEL x5
 - ELIXER x1
 - FRESH WATER x1
-- TM13 (ICE BEAM) x1
 - TM48 (ROCK SLIDE) x1
 - TM49 (TRI ATTACK) x1
 
@@ -151,7 +150,7 @@
   - Status: Healthy
   - HP: 127 / 127
   - Stats: Attack 91, Defense 107, Speed 91, Special 94
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Water Gun (PP 25/25)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
