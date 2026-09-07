@@ -1987,7 +1987,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 ## B2F Southwest Sector
 - Stop Pad: Located at (2, 19), reached via the (8, 23) -> (8, 19) spinner trajectory [Turn 5757].
 - Item Ball 3: Located at (3, 21) between consoles. Retrieved on Turn 5774; contained SUPER POTION.
-- Stop Pad 4: Located at (8, 11) in central maze, reached via (4, 15) [>>] into (8, 15) [^^] [Turn 5779].
 - Row 14 Console Barrier: Blocked at (1..3, 14), separating northwest and southwest sectors.
 - West Corridor: Column 1 is open floor from row 15 down past row 23.
 ## B2F Southeast Sector & Maze Escape
