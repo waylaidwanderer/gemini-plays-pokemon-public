@@ -47,3 +47,12 @@
   - Upper Plateau Puzzle: Boulder 1 @ (22, 3) -> push to (20, 1) -> west along Row 1 to (7, 1) -> south to Row 2 at (7, 2) -> west along Row 2 to (3, 2) -> south along Column 3 onto Switch Plate @ (3, 5)!
   - Lower Floor Puzzle: Boulder 2 @ (13, 12) -> push east across lower purple floor directly into Pit @ (23, 14)!
   - Action: Reloading 3F via NW Ladder (2, 0) to execute the canonical Switch (3, 5) solution.
+## Canonical Verified Switch (3, 5) Master Solution
+1. Reload 3F via NW Ladder (2, 0) and activate STRENGTH with ATLAS.
+2. Push Boulder 1 from (22, 3) west to (20, 3), north to (20, 1), and west along Row 1 all the way to (6, 1) [Player at (7, 1)].
+3. Reposition around boulder to (6, 0) via (7, 0).
+4. Push Down 1 time: Boulder 1 moves from (6, 1) to (6, 2) [Player at (6, 1)].
+5. Reposition to (7, 2) directly East of Boulder 1: Step Right to (7, 1), then Down to (7, 2) [Player at (7, 2) facing South].
+6. Turn West and push Left 3 times along Row 2: Boulder 1 moves from (6, 2) -> (5, 2) -> (4, 2) -> (3, 2) [Player at (4, 2)].
+7. Reposition to (3, 1) directly North of Boulder 1: Step Up to (4, 1), then Left to (3, 1) [Player at (3, 1) facing South].
+8. Push Down 3 times along Column 3: Boulder 1 moves from (3, 2) -> (3, 3) -> (3, 4) onto Switch Plate (3, 5)! (Puzzle Solved!).
