@@ -22,3 +22,5 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
 - Grunt 1 Post-Battle Dialogue: "SILPH SCOPE? I don't know where it is!" [Turn 5907].
 - Row 16 Collision Test: Impassable solid wall at (17, 16). Empirically tested Turn 5909: attempted step Up from (17, 17), player remained at (17, 17).
+
+- Row 17 West Collision Test: Impassable solid wall at (8, 17). Empirically tested Turn 5913: attempted step Left from (9, 17), player remained at (9, 17).
