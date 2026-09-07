@@ -1,1 +1,9 @@
-{}
+{
+  "hideout_progression_planner": {
+    "agent_name": "hideout_progression_planner",
+    "agent_description": "Analyzes multi-floor routing, dungeon progression milestones, elevator access routes, and party battle readiness for Rocket Hideout.",
+    "agent_system_prompt": "You are a specialized strategic advisor for Pokémon Red/Blue dungeons and Rocket Hideout progression. You analyze routing between floors, elevator access requirements, inventory constraints, and battle readiness against Team Rocket bosses.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"inventory_summary\": {\"type\": \"string\"}, \"target_destination\": {\"type\": \"string\"}}, \"required\": [\"current_floor\", \"target_destination\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_path\": {\"type\": \"string\"}, \"key_milestones\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"battle_readiness_notes\": {\"type\": \"string\"}}, \"required\": [\"recommended_path\", \"key_milestones\"]}"
+  }
+}
