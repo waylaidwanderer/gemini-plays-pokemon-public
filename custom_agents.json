@@ -1,9 +1,1 @@
-{
-  "dungeon_combat_analyst": {
-    "agent_name": "dungeon_combat_analyst",
-    "agent_description": "Analyzes party move PP reserves, combat match-ups, and tactical readiness during multi-battle dungeon gauntlets.",
-    "agent_system_prompt": "You are an analytical assistant tracking party move PP reserves, damage calculations, and type match-ups for Generation 1 Pokémon battles. You evaluate remaining resources and recommend optimal move usage to conserve PP.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party_status\": {\"type\": \"string\"}, \"battle_context\": {\"type\": \"string\"}}, \"required\": [\"party_status\", \"battle_context\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendations\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommendations\"]}"
-  }
-}
+{}
