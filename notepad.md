@@ -2739,22 +2739,17 @@
 - Column 28-29 Highway: Columns 28 and 29 form an open vertical corridor connecting rows 11-16 to the northern corridors.
 - Row 16 Highway: Row 16 connects columns 20 through 28 horizontally across the southern edge of the map.
 
-## Empirical Boulder Traversal Telemetry (Verified Turns 34761-34771)
-- Boulder 1 starting position: (22, 3) in northern chamber.
-- Turn 34761: Pushed West from (22, 3) -> (21, 3) [Player at (22, 3)].
-- Turn 34763: Pushed West from (21, 3) -> (20, 3) [Player at (21, 3)].
-- Turn 34764: Pushed North from (20, 3) -> (20, 2) [Player at (20, 3)].
-- Turn 34765: Pushed North from (20, 2) -> (20, 1) onto Row 1 Northern Highway [Player at (20, 2)].
-- Turn 34766: Repositioned to (21, 1) and pushed West from (20, 1) -> (19, 1) [Player at (20, 1)].
-- Turn 34768: Pushed West from (19, 1) -> (17, 1) [Player at (18, 1)].
-- Turn 34769: Pushed West from (17, 1) -> (14, 1) [Player at (16, 1)].
-- Turn 34772: Pushed West from (14, 1) -> (13, 1) [Player at (15, 1)].
-- Current state (Turn 34773): Boulder 1 at (13, 1), Player at (15, 1) on Row 1 Northern Highway.
-- Turn 34778-34779: Pushed Boulder 1 west to (7, 1) at the top of the Central Bridge corridor.
-- Current state: Boulder 1 at (7, 1), Player repositioning to (7, 0) to push South down Column 7.
-- Turn 34784-34786: Pushed Boulder 1 south from (7, 1) to (7, 3) along Column 7 Central Bridge [Player at (7, 2)].
-- Column 7 vs Column 6 Discovery (Turn 34792): Column 7 is blocked at (7, 8) by a rock obstacle with solid wall at (8, 6..7). Column 6 is a clear vertical highway from (6, 1) through (6, 9)+. Boulder 1 MUST be pushed west along Row 1 to (6, 1) and pushed south down Column 6.
-- Plan: Reload 3F via NW Ladder (2, 0), push Boulder 1 to (6, 1), and push down Column 6.
+## Verified Boulder 1 Routing Protocol (Refreshed Visit)
+- Initial State: Boulder 1 at (22, 3) in northern chamber, 3F reloaded via NW Ladder.
+- Strength: Activated with ATLAS (Turn 34796).
+- Step-by-Step Route:
+  1. Approach Boulder 1 at (22, 3) via Row 1 Northern Highway.
+  2. Stand at (23, 3) -> Push West 2 times from (22, 3) to (20, 3) [Player at (21, 3)].
+  3. Reposition behind boulder to (20, 4) / (20, 3) -> Push North 2 times to (20, 1) [Player at (20, 2)].
+  4. Reposition to (21, 1) -> Push West along Row 1 Northern Highway all the way to (6, 1) [Player at (7, 1)].
+  5. Reposition around boulder to (6, 0) via (7, 0) -> Push South down Column 6 chute across bridge directly to southern floor at row 12!
+  6. Push east across southern floor to Pit at (23, 14) and drop boulder into pit.
+
 
 <hr>
 
