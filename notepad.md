@@ -97,7 +97,7 @@
 
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
-- Active Bag Items: Bicycle, Great Ball x3, HM03 (Surf), HM04 (Strength), Silph Scope, Pok� Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
+- Active Bag Items: Bicycle, Great Ball x3, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
 
 <hr>
 
