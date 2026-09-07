@@ -1936,5 +1936,7 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - Item Ball: Located at (11, 14) south of consoles [Turn 5656].
 - Row 8 Partition: (14, 8) confirmed solid wall. Passage through row 8 is at (11..12, 8) [Turn 5658].
 - South Passage (Col 18): Opening at (18, 16) connects central aisle to southern sector [Turn 5658].
+- Northwest Sector: Row 4 is solid north outer wall (cols 8..16) [Turn 5660].
+- Sole South Passage: Central aisle at (18, 16) is the only opening into the southern sector and route to B2F [Turn 5660].
 
 <hr>
