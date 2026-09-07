@@ -149,7 +149,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥44131
+- ¥44641
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 42, Water]
@@ -1961,6 +1961,14 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Wall Partition: Spans (18, 14..15) blocking western exit of row 14; bypass passage to western maze is along rows 10..13 [Turn 5689].
 - Grunt Dialogue at (20, 13): "BOSS said you can see GHOSTs with a SILPH SCOPE!" [Turn 5691]. Directly confirms Team Rocket's boss possesses the Silph Scope here in the hideout.
 - Team Rocket Grunt at (20, 12): Defeated! Team consisted of 5 Pokémon: Zubat Lv 17, Koffing Lv 17, Grimer Lv 17, Zubat Lv 17, Raticate Lv 17; prize ¥510. Clears access to the western spinner maze [Turn 5704].
+
+## B2F Spinner Maze (Eastern Sector)
+- Stop Pad 1: Located at (14, 12). Safe stopping point between console barriers [Turn 5709].
+- Stop Pad 2: Located at (16, 13) [Turn 5707].
+- Stop Pad 3: Located at (14, 15) [Turn 5709].
+- Item Ball: Discovered at (16, 8) in northern corridor above row 9 consoles [Turn 5708].
+- Entrance Trajectory: Step Left from (18, 10) onto (17, 10) [<<] -> slides to (13, 10) [vv] -> slides to (13, 12) [>>] -> lands safely on Stop Pad at (14, 12) [Turn 5709].
+- Column 12 Trajectory: (12, 11) [^^] spins North into (12, 9) [<<], which spins West across row 9 into column 9 and the western sector.
 
 
 <hr>
