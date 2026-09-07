@@ -2325,5 +2325,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Southern Platform at Rows 56..57: Wide platform spans cols 4..13 (grass island at cols 10..11). Railing blocks south at (4..9, 58). Main route crosses east along rows 56..57 toward cols 12..13 [Verified Turn 6966].
 - Bridge Continuation at Row 58: Railing blocks cols 4..9 and cols 12..15. Open 2-tile-wide bridge continues south down cols 10..11 across rows 58..60+ [Verified Turn 6967].
 - Sleeping Snorlax: Stationed at (10, 62) facing South. Awakened with Poké Flute and defeated on Turn 6981; chokepoint permanently cleared [Verified Turn 6981].
+- Bridge Segment Rows 63..71: Grass and signpost at (11, 63). Railing at row 64. 2-tile bridge continues south down cols 10..11 across rows 64..71 over water [Verified Turn 6985].
+- Platform at Rows 72..73+: Bridge widens eastward across cols 10..15+ [Verified Turn 6985].
 
 <hr>
