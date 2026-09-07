@@ -2,7 +2,7 @@
 
 ## Items
 - POKé BALL x10
-- ESCAPE ROPE x1
+- ESCAPE ROPE x2
 - RARE CANDY x2
 - GREAT BALL x1
 - MAX ETHER x1
