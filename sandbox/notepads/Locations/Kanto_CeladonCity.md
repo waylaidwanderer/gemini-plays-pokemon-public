@@ -25,3 +25,5 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - South Commercial Building (Diner): Spans cols 26..33+, rows 24..27; front entrance door at (31, 27) [Turn 5573].
   - Patron at (1, 4): "Psst! There's a basement under the GAME CORNER." [Turn 5575].
   - Gambler at (0, 1): Broke gambler gives the COIN CASE [Turn 5577].
+- South Plaza: Paved walkway spanning rows 28..31 between southern building row (row 27) and southern tree barrier (row 32) [Turn 5583].
+- Adjacent Building East: Entrance door at (35, 27) [Turn 5583].
