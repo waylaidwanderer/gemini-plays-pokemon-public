@@ -2205,7 +2205,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Location under active exploration. (Confirmed: (9, 16) is a dead-end alcove; (3, 9) is a tombstone).
+- Stairs Up: Located at (9, 16) on southern wall, leading up to 7F (unlocked after calming Marowak) [Verified Turn 6466].
 
 ## Key Features & Events
 - Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!
@@ -2226,5 +2226,26 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
 ## Items
 - Item Ball at (14, 14): Sighted on floor in southeast alcove [Turn 6444].
+
+<hr>
+
+<h1><code>Locations/Kanto_PokemonTower_7F</code></h1>
+
+# Pokémon Tower 7F Geography & Points of Interest
+
+## Overview
+The top floor of Pokémon Tower where Team Rocket holds Mr. Fuji captive.
+
+## Connections
+- Stairs Down: Located at (9, 16) in the south, leading down to 6F [Arrived Turn 6466].
+
+## Key Features & Events
+- Team Rocket Grunt 1: Located at (9, 11), facing East. Engaged Turn 6479. Team: 3 Pokémon (Zubat Lv 25, Zubat Lv 25, Golbat Lv 25). Pre-battle dialogue: "What do you want? Why are you here?".
+- Team Rocket Grunts 2 & 3: Guarding upper central aisle north of Grunt 1.
+- Mr. Fuji: Located at the northern altar at the top of 7F.
+
+## Geography & Layout
+- Central Corridor: Open vertical aisle along columns 9..12 leading from southern stairs at (9, 16) north toward Mr. Fuji.
+
 
 <hr>
