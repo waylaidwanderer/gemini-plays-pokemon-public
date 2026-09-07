@@ -1992,7 +1992,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 ## B2F Southeast Sector & Maze Escape
 - Maze Exit: Stop Pad 2 at (16, 13) is reached via the continuous column 16 up-spinner corridor from (16, 18) [^^] [Turn 5798].
 - East Exit Avenue: Row 13 is open floor from (16, 13) across (17..19, 13) into the Eastern Chamber [Turn 5799].
-- Row 16 Wall Barrier: Solid horizontal wall blocks row 16 across cols 18..24. Passage from Southeast Sector to the north is via the Column 16 up-spinner at (16, 18) [Turn 5876].
 ## B2F East Chamber & Elevator Geography
 - East Hallway: Cols 25..28 across rows 11..15 are open checkered floor ending at solid east wall at col 29. No stairs exist in this corridor.
 - Row 16 Barrier: Solid horizontal wall spans cols 19..29 at row 16, completely blocking northern access to the elevator room.
@@ -2025,9 +2024,10 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Team Rocket Grunt 2 at (15, 25): Defeated [Turn 5855]! Team: Rattata Lv 19, Raticate Lv 19, Rattata Lv 19; prize ¥570. Sheldon took 0 damage, leveled up to Lv 43 (HP 135/135).
 
 - Elevator Lobby Sighted: Elevator doors visible at (24..25, 16). Red checkered entryway at (24..25, 19). Lobby floor (cols 24..27) extends north past row 14 into northern sector. Separated from eastern aisle by solid wall partition along column 23 (rows 16..22) [Turn 5868].
-- West Boundary Confirmed: Column 8 is solid wall from row 16 to row 27. (9, 26) open, (8, 26) solid wall. The southern chamber (cols 8..23, rows 16..27) is a completely enclosed self-contained loop with no walking exit to rows 0..15. Northern sector of B3F must be accessed from B2F [Turn 5872].
 - West Boundary Collision Test: Impassable solid wall at (8, 26). Empirically tested Turn 5899: attempted step Left from (9, 26), player remained at (9, 26).
 - Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
 - Grunt 1 Post-Battle Dialogue: "SILPH SCOPE? I don't know where it is!" [Turn 5907].
+- Row 16 Collision Test: Impassable solid wall at (17, 16). Empirically tested Turn 5909: attempted step Up from (17, 17), player remained at (17, 17).
+
 
 <hr>
