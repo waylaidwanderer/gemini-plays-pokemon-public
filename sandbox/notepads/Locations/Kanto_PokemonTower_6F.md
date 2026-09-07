@@ -2,7 +2,7 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Located at (3, 9) in the northwest corner (consistent with 2F and 4F). (Tile 9, 16 was a dead-end southern alcove, NOT stairs; verified Turn 6446).
+- Stairs Up: Under exploration in western sector (investigating (3, 9) and surroundings).
 
 ## Key Features & Events
 - Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!
@@ -21,3 +21,5 @@
   - Row 7 western highway: Open crosshatch floor from col 10 all the way west to col 3 (cols 3..10 open).
   - Cols 14..15 form a 2-tile-wide north-south highway between row 3 and row 10.
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
+## Items
+- Item Ball at (14, 14): Sighted on floor in southeast alcove [Turn 6444].
