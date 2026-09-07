@@ -1555,10 +1555,6 @@
     - Mr. Fuji at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
-- NPC at (11, 7): Stationed in eastern lawn.
-- NPC at (9, 10): Stationed south of Volunteer House.
-- NPC at (15, 8): Sighted east of Volunteer House [Turn 4861].
-- NPC at (15, 7): Sighted in eastern district [Turn 4861].
 - NPC at (14, 5): Wandering outside Pokémon Tower; asks "Do you believe in GHOSTS?" [Turn 4885].
 
 ## Key Buildings & Facilities
@@ -1815,7 +1811,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Connections
 - East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3).
-- West: Cols 2..8, rows 10..23 is an enclosed western avenue bordered by solid trees/fence at col 1 (rows 6..26) and Celadon Gym at row 24; no exit to Route 16 exists on this western corridor. Dept Store side door at (8, 13).
+- West: Cols 2..8, rows 10..23 western avenue terminates at Celadon Gym (rows 24..26); impassable obstacles confirmed at (1, 14) and (1, 20); fence at (1, 18..19). Dept Store side door at (8, 13).
 
 ## Geography & Layout
 - Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
