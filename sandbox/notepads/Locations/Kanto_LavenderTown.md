@@ -22,7 +22,6 @@
     - Mr. Fuji at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
-- NPC at (14, 5): Wandering outside Pokémon Tower; asks "Do you believe in GHOSTS?" [Turn 4885].
 
 ## Key Buildings & Facilities
 - Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Full party heal completed [Turn 6213], establishing Lavender Town as active overworld warp anchor.
