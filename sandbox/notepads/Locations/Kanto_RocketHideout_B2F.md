@@ -54,3 +54,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Elevator: Located at (24..25, 19) south of row 16.
 ## B3F Stairs & Elevator
 - B3F Descending Stairs: Located at (21, 22) in the Southeast Chamber, entered from (21, 21) facing Down [Turn 5810].
+
+## B2F Northern Stairs to B3F
+- Northern Descending Stairs: Located at (21, 8). Leads down to B3F Northern Sector (25, 6) [Turn 5924].
