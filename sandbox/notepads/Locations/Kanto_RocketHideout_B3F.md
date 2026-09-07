@@ -10,5 +10,5 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - East Wall: Column 23 is the eastern solid boundary wall.
 - West Exit: Rows 25..26 open westward into column 17 and beyond.
 - North Aisle: Columns 18..22 extend north past row 21.
-- Team Rocket Grunt: Stationed at (18, 17) facing Down [Turn 5812].
+- Team Rocket Grunt at (18, 17): Defeated [Turn 5825]! Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20; prize ¥600. Sheldon took 0 damage (HP 131/131).
 - Northwest Corridor: Rows 17..18 connect westward past column 17.
