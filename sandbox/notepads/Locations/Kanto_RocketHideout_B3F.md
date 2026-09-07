@@ -45,3 +45,5 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
   2. Slides east across row 13 onto (14, 13) Stop Pad.
   3. From (14, 13) Stop Pad: walk Left along row 13 to (12, 13).
   4. Walk Down along column 12 through (12, 14) and (12, 15) into the southwest sector (rows 16+) where B4F stairs are located [Turn 5957]!
+- Column 9 Corridor (Turn 5966): (9, 13..19) is an open vertical corridor connecting the spinner maze to row 19.
+- Navigation Decision: Returning via row 16 spinners (13, 16 -> 17, 16 -> 18, 15) to northern corridor (20, 7) and heading south past Grunt 3 (26, 9) into the unexplored elevator lobby (cols 24..28, rows 10..20) to locate B4F stairs / Lift Key.
