@@ -35,4 +35,5 @@
 - Turn 34766: Repositioned to (21, 1) and pushed West from (20, 1) -> (19, 1) [Player at (20, 1)].
 - Turn 34768: Pushed West from (19, 1) -> (17, 1) [Player at (18, 1)].
 - Turn 34769: Pushed West from (17, 1) -> (14, 1) [Player at (16, 1)].
-- Current state (Turn 34771): Boulder 1 at (14, 1), Player at (16, 1) on Row 1 Northern Highway.
+- Turn 34772: Pushed West from (14, 1) -> (13, 1) [Player at (15, 1)].
+- Current state (Turn 34773): Boulder 1 at (13, 1), Player at (15, 1) on Row 1 Northern Highway.
