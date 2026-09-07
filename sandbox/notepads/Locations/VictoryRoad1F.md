@@ -28,7 +28,7 @@
 - Proceed East along row 12 to (11, 12), North to (11, 6), West across row 6 to (7, 6), and South through lowered Shutter (7, 7) to lower cave floor (7, 8).
 - Proceed West along row 8 to (3, 8) (note: (2, 8) is a rock obstacle and col 1 is solid wall; do not enter col 1/row 9). Walk North along Column 3 through (3, 7)->(3, 6)->(3, 5)->(3, 4)->(3, 3)->(3, 2)->(3, 1), then Left 2 steps through (2, 1) to reach the 2F Ladder at (1, 1) (connecting to 2F at (0, 8)).
 
-## Verified Master Boulder Solution (Verified Turn 34539 - Zero-Warp Protocol)
+## Planned Master Boulder Solution (Zero-Warp Protocol - In Progress)
 - Initial State: Boulder 1 at (5, 15).
 - Pre-Push Coordinate Assertions & Master Push Sequence (Avoids Row 17 Exit Warp):
   1. Step into cave at (8, 17) and immediately walk Up to (8, 15). Activate STRENGTH with ATLAS.
