@@ -49,3 +49,4 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - Elevated northwest terrace: Cols 2-6 (rows 0-6) paved corridor.
 - Western Border: Cols 0-1 blocked by trees across rows 4-12.
 - Northern Meadow (Verified Turn 5366): Cols 8-13 at rows 2-5 are passable grass, not solid trees! Tile (8, 5) empirically verified walkable.
+  - (8, 1): Impassable tree boundary (Turn 5373).
