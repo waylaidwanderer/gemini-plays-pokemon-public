@@ -2695,7 +2695,7 @@
    - Location: Northeast chamber behind shutter at (27, 10). Leads to 3F final exit.
 
 ## Switches & Shutters on 2F
-- **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16) (Verified Turn 34689). Lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15). Shutter 1 at (5, 10) empirically open for active visit!
+- **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16). Lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
 - **Central-South Boulder & Switch**: Boulder at (9, 11) with switch at (9, 16) and shutter at (15, 15).
 - **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
