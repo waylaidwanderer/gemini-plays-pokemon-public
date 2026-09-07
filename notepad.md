@@ -1919,5 +1919,7 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - West Hall: Open checkered floor spanning cols 17..20, rows 5..11+ [Turn 5624].
 - West Boundary of Aisle (Col 16): Alternating potted plants and statues spanning rows 8..15 [Turn 5625].
 - West Aisle: Continuous 4-tile wide corridor (cols 17..20) extending south past row 15 [Turn 5625].
+- South Wall of West Aisle: Wall partition at row 16 (cols 16..22). West aisle dead-ends at row 15 [Turn 5626].
+- South Sector (Rows 17..19): Houses desks, spin/warp tiles at (24..25, 19), and a Rocket Grunt at (18, 17) facing North [Turn 5626].
 
 <hr>
