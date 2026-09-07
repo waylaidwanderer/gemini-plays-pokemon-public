@@ -1989,5 +1989,9 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Stop Pad 4: Located at (8, 11) in central maze, reached via (4, 15) [>>] into (8, 15) [^^] [Turn 5779].
 - Row 14 Console Barrier: Blocked at (1..3, 14), separating northwest and southwest sectors.
 - West Corridor: Column 1 is open floor from row 15 down past row 23.
+## B2F Southeast Sector & Maze Escape
+- Maze Exit: Stop Pad 2 at (16, 13) is reached via the continuous column 16 up-spinner corridor from (16, 18) [^^] [Turn 5798].
+- East Exit Avenue: Row 13 is open floor from (16, 13) across (17..19, 13) into the Eastern Chamber [Turn 5799].
+- South Passage: Column 19 is open south of row 13 through (19, 14..15+) leading into the Southeast Sector.
 
 <hr>
