@@ -14,12 +14,7 @@
 - HM01 (CUT)
 - HM05 (FLASH)
 
-## Stored / PC Items (Cerulean & Lavender PCs)
-- BICYCLE (Stored in PC)
-- OLD ROD (Stored in PC)
-- TM30 (TELEPORT) x1 (Stored in PC)
-- HP UP x1 (Stored in PC)
-- SUPER REPEL x5 (Stored in PC)
+## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
 - NUGGET x1 (PC)
