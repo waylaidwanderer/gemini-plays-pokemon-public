@@ -2042,7 +2042,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
 - North Wall: Wall partition along row 4 (cols 21..28).
 - East Wall: Solid boundary along col 29.
-- Team Rocket Grunt 3: Stationed at (26, 9) facing Up. Pre-battle dialogue: "We got word from upstairs that you..." [Turn 5928].
-
+- Team Rocket Grunt 3: Defeated at (26, 9) [Turns 5928-5937]! Team: Machop Lv 21, Machop Lv 21; prize ¥630. Defeat quote: "What? I lost? No!". Sheldon took 0 damage (HP 135/135). Pre-battle: "We got word from upstairs that you...".
 
 <hr>
