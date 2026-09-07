@@ -1551,6 +1551,7 @@
     - Little girl at (6, 3).
     - Nidorino at (6, 4).
     - Psyduck at (1, 3).
+    - Mr. Fuji at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 - NPC at (11, 7): Stationed in eastern lawn.
@@ -1569,7 +1570,7 @@
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
 - Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.
-- Volunteer Pokémon House: Located at cols 6..9, rows 8..9. Mr. Fuji located at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
+
 
 <hr>
 
@@ -1813,7 +1814,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Connections
 - East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3).
-- West: Route 16 (Cycling Road, Snorlax).
+- West: Route 16 connection (exact transition coordinates to be verified).
 
 ## Geography & Layout
 - Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
@@ -1841,7 +1842,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Barrier of wooden fence posts along row 21 (cols 26, 28..32) [Turn 5596].
 - Prize Exchange: Located at cols 32..35, rows 14..19. Front entrance door at (33, 19), signpost at (33, 21) [Turn 5598].
 - Courtyard Entrance: Open avenue at col 36 connects row 22 to row 20 patio, bypassing fence posts [Turn 5598].
-- Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
+- Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5¥600].
 
 <hr>
 
@@ -2214,9 +2215,9 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Key Features & Events
 - Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!
-- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Keee!'.
+- Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �¥720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
-- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Something fell out!'.
+- Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, �¥720). Defeat dialogue: 'Something fell out!'.
 
 ## Geography & Layout
 - Eastern Wall: (19, 6..11) orange altars.
