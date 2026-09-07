@@ -8,9 +8,9 @@
 
 - Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 46, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 47, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥62113
+- Money: ¥63723
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -1555,7 +1555,6 @@
     - Mr. Fuji at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 - Signpost at (5, 9): "LAVENDER VOLUNTEER POKéMON HOUSE" [Turn 4853].
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
-- NPC at (14, 5): Wandering outside Pokémon Tower; asks "Do you believe in GHOSTS?" [Turn 4885].
 
 ## Key Buildings & Facilities
 - Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Full party heal completed [Turn 6213], establishing Lavender Town as active overworld warp anchor.
@@ -2309,13 +2308,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Gatehouse 1F Interior: North entrance at (4..5, 0). Central green-checkered hallway spans rows 1..6 (cols 3..6). Guard at (1, 3). Stairs to 2F at (8, 6). South exit mat at (4..5, 7) [Verified Turn 6927].
 - Gatehouse South Exit: Door at (10, 21), player emerges at (10, 22). 2-tile-wide bridge (cols 10..11) continues south over deep water (rows 22..25). Grass island with flanking platforms at row 26 [Verified Turn 6928].
 - Railing Barrier at Row 28: Pier railing blocks cols 6..13 over water. Open wooden bridge bypass at cols 14..15. Fisherman NPC stationed at (14, 31) [Verified Turn 6929].
-- Fisherman (Ned): Stationed at (14, 31) facing West. Engaged at (10, 31) [Turn 6933].- Item Ball at (14, 35): Sighted on eastern wooden dock platform [Turn 6941].
+- Fisherman (Ned): Stationed at (14, 31) facing West. Engaged at (10, 31) [Turn 6933].
+- Item Ball at (14, 35): Sighted on eastern wooden dock platform [Turn 6941].
 
 - Platform at Rows 34..35: Wooden platform spans west across cols 6..11. Railing blocks south at (6..11, 36). Isolated eastern pier at cols 14..15 (rows 34..37) dead-ends at row 38 railing. Main route turns west along rows 34..35 [Verified Turn 6943].
-- Fisherman (Hank): Stationed at (5, 39) facing North along col 5. Engaged at (5, 35) [Turn 6944].- Bridge Continuation at Row 36: 2-tile-wide bridge continues south along cols 4..5 over water (rows 36..39+) past Fisherman Hank [Verified Turn 6950].
+- Fisherman (Hank): Stationed at (5, 39) facing North along col 5. Engaged at (5, 35) [Turn 6944].
+- Bridge Continuation at Row 36: 2-tile-wide bridge continues south along cols 4..5 over water (rows 36..39+) past Fisherman Hank [Verified Turn 6950].
 
 - Crossway at Rows 40..41: East-west platform across cols 4..9 connects western lane to eastern lane. Cols 4..5 dead-ends at row 44 railing. Main bridge continues south along cols 8..9 (rows 42..45) [Verified Turn 6951].
 - Bridge Segment at Rows 46..51: Paved grass corridor at cols 12..13 (rows 46..47) connects to wooden bridge planks (rows 48..51). Cross-platform at rows 52..53 connects to western lane. Fisherman NPC stationed at (9, 52) [Verified Turn 6953].
-- Fisherman (Elliot): Engaged at (12, 52) from (9, 52) stepping to (11, 52) (Defeated Turn 6959: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21).
+- Fisherman (Elliot): Stationed at (9, 52) facing East. Engaged at (12, 52) [Turn 6954].
 
 <hr>
