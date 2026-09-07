@@ -1,6 +1,7 @@
 # Inventory Log
 
 ## Items
+- TM07 (HORN DRILL) x1
 - MOON STONE x1
 - POKé BALL x10
 - ESCAPE ROPE x2

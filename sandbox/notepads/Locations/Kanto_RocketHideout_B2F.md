@@ -25,5 +25,5 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 ## B2F Western Sector
 - Stop Pad (West): Located at (2, 9). Reached via the (12, 11) up-spinner trajectory across row 9 [Turn 5712].
 - Item Ball 1: Located at (1, 11). Retrieved on Turn 5721; contained MOON STONE.
-- Item Ball 2: Located at (6, 12) [Turn 5712].
+- Item Ball 2: Located at (6, 12). Retrieved on Turn 5747; contained TM07 (HORN DRILL).
 - Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
