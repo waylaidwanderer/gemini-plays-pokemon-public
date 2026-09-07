@@ -100,6 +100,13 @@
 - Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
 
+## Active Party Field Move Selection Protocols
+- When opening Party menu from Start Menu (index 1: POKÉMON):
+  - Slot 1: HYDROS (Blastoise) -> Press A on Lead -> Option 1: SURF (when facing water)
+  - Slot 2: ATLAS (Machop) -> Press Down 1 from Lead -> Press A -> Option 1: STRENGTH
+  - Slot 3: TERRA (Geodude) -> Press Down 2 from Lead -> Press A -> Option 1: DIG (Warps to last Pokémon Center - DO NOT USE inside Victory Road unless retreating!)
+  - Slot 4: ZEPHYR (Pidgey) -> Press Down 3 from Lead -> Press A -> Option 1: FLY (Outdoors only)
+  - Slot 6: SPROUT (Bellsprout) -> Press Up 1 from Lead -> Press A -> Option 1: CUT
 
 <hr>
 
