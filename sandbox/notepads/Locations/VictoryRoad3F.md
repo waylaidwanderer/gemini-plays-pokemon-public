@@ -12,46 +12,30 @@
 4. Ladder B @ (25, 14): Floor ladder (wall ladder graphic `[=]`) in SE Pit room. Connects to 2F SE sector at (25, 14).
 
 ## Verified Mechanics & Observed Objects
-- Switch (3, 5) in NW Room: The 3F NW Room contains no pushable boulders.
-- Boulder 1 @ (22, 3): Located in northern chamber.
+- Switch (3, 5) in NW Room: Grey circular switch plate. Solved by pushing Boulder 1 from Row 1/2 through Column 2 down to (2, 5) and pushing East from (1, 5) onto (3, 5).
+- Obstacles in NW Room: (3, 3) is a solid rock obstacle blocking direct southward push along Column 3; (4, 1), (4, 5), (2, 6)-(5, 6) are rock rubble.
+- Boulder 1 @ (22, 3): Located in northern chamber (reloaded position).
 - Boulder 2 @ (13, 12): Located at western chokepoint between rock walls (12, 12) and (14, 12).
-- Pit @ (23, 14): Blue checked square tile `[X]`. Note: horizontal movement East from (22, 14) into (23, 14) is physically blocked (verified Turns 34158, 34161).
+- Pit @ (23, 14): Blue checked square tile `[X]`. Pushing Boulder 2 into Pit drops it to 2F SE sector.
 
-## Verified Boundaries & Blockades (Empirically Verified Turns 33855-34170)
-- Row 2 Highway Connection: Columns 2 through 7 along Row 2 ((2..7, 2)) form an open, unobstructed east-west corridor connecting the NW Room (cols 0-5) directly to the Central Bridge (cols 6-7) and Northern Highway (Row 1)!
-- Row 6 Barrier (East): Continuous solid rock wall spans columns 24 through 29 along Row 6, separating the northern plateau from the eastern ladder chamber.
+## Verified Boundaries & Blockades
+- Row 2 Highway Connection: Columns 2 through 7 along Row 2 ((2..7, 2)) form an open corridor connecting NW Room (cols 0-5) to Central Bridge (cols 6-7).
+- Row 6 Barrier (East): Continuous solid rock wall spans columns 24 through 29 along Row 6.
 - Column 23 Rock: Tile (23, 9) is a solid purple rock obstacle blocking southward passage from (23, 8) into row 10.
-- Row 10 East Barrier: Horizontal purple rock wall spans columns 24 through 29 along Row 10, separating rows 7-9 from rows 11-14.
-- Row 11 South-Facing Cliff: Continuous cliff runs along Row 11 across columns 16-27, preventing northward walking from Row 12 into Row 11.
-- Column 28-29 Highway: Columns 28 and 29 form an open vertical corridor connecting rows 11-16 to the northern corridors.
+- Row 10 East Barrier: Horizontal purple rock wall spans columns 24 through 29 along Row 10.
+- Row 11 South-Facing Cliff: Continuous cliff runs along Row 11 across columns 16-27.
+- Column 28-29 Highway: Open vertical corridor connecting rows 11-16 to northern corridors.
 - Row 16 Highway: Row 16 connects columns 20 through 28 horizontally across the southern edge of the map.
 
-## Verified Boulder 1 Routing Protocol (Refreshed Visit)
-- Initial State: Boulder 1 at (22, 3) in northern chamber, 3F reloaded via NW Ladder.
-- Strength: Activated with ATLAS (Turn 34796).
-- Step-by-Step Route:
-  1. Approach Boulder 1 at (22, 3) via Row 1 Northern Highway.
-  2. Stand at (23, 3) -> Push West 2 times from (22, 3) to (20, 3) [Player at (21, 3)].
-  3. Reposition behind boulder to (20, 4) / (20, 3) -> Push North 2 times to (20, 1) [Player at (20, 2)].
-  4. Reposition to (21, 1) -> Push West along Row 1 Northern Highway all the way to (6, 1) [Player at (7, 1)].
-  5. Reposition around boulder to (6, 0) via (7, 0) -> Push South down Column 6 chute across bridge directly to southern floor at row 12!
-  6. Push east across southern floor to Pit at (23, 14) and drop boulder into pit.
-
-- Turn 34833: Boulder 1 successfully positioned at (6, 1) at the head of Column 6 chute. Player at (8, 0) stepping to (6, 0) to push South down Column 6.
-- Turn 34834: Boulder 1 at (6, 2), Player at (6, 1) facing South. Beginning empirical southward descent down Column 6.
-- Turn 34835: Pushed Boulder 1 south from (6, 2) to (6, 3) [Player at (6, 2)]. Verified (6, 4) and (6, 5) are open dark checkerboard bridge floor.
-- Turn 34836: Pushed Boulder 1 south from (6, 3) to (6, 4) [Player at (6, 3)]. Verified (6, 5) and (6, 6) are open dark checkerboard bridge floor.
-- Turn 34837: Pushed Boulder 1 south from (6, 4) to (6, 5) [Player at (6, 4)]. Verified (6, 6), (6, 7), (6, 8) are open dark checkerboard bridge floor.
-- Turn 34838: Pushed Boulder 1 south from (6, 5) to (6, 6) [Player at (6, 5)]. Verified (6, 7), (6, 8), (6, 9) are open dark checkerboard bridge floor.
-- Breakthrough 3F Map & Puzzle Discovery (Turn 34840):
-  - Upper Plateau Puzzle: Boulder 1 @ (22, 3) -> push to (20, 1) -> west along Row 1 to (7, 1) -> south to Row 2 at (7, 2) -> west along Row 2 to (3, 2) -> south along Column 3 onto Switch Plate @ (3, 5)!
-  - Lower Floor Puzzle: Boulder 2 @ (13, 12) -> push east across lower purple floor directly into Pit @ (23, 14)!
-## Canonical Switch (3, 5) Solution Protocol (Under Empirical Verification)
+## Canonical Switch (3, 5) Solution Protocol (In Progress)
 1. Reload 3F via NW Ladder (2, 0) and activate STRENGTH with ATLAS.
 2. Push Boulder 1 from (22, 3) west to (20, 3), north to (20, 1), and west along Row 1 all the way to (6, 1) [Player at (7, 1)].
 3. Reposition around boulder to (6, 0) via (7, 0).
 4. Push Down 1 time: Boulder 1 moves from (6, 1) to (6, 2) [Player at (6, 1)].
-5. Reposition to (7, 2) directly East of Boulder 1: Step Right to (7, 1), then Down to (7, 2) [Player at (7, 2) facing South].
-6. Turn West and push Left 3 times along Row 2: Boulder 1 moves from (6, 2) -> (5, 2) -> (4, 2) -> (3, 2) [Player at (4, 2)].
-7. Reposition to (3, 1) directly North of Boulder 1: Step Up to (4, 1), then Left to (3, 1) [Player at (3, 1) facing South].
-8. Push Down 3 times along Column 3: Boulder 1 moves from (3, 2) -> (3, 3) -> (3, 4) onto Switch Plate (3, 5)! (Puzzle Solved!).
+5. Reposition to (7, 2) directly East of Boulder 1: Step Right to (7, 1), then Down to (7, 2).
+6. Push Left 3 times along Row 2: Boulder 1 moves (6, 2) -> (5, 2) -> (4, 2) -> (3, 2) [Player at (4, 2)].
+7. Push Left 1 time from (4, 2): Boulder 1 moves to (2, 2) in Column 2 [Player at (3, 2)].
+8. Reposition to (2, 1) directly North of Boulder 1: Step Up to (3, 1), Left to (2, 1).
+9. Push Down 3 times along Column 2: Boulder 1 moves (2, 2) -> (2, 3) -> (2, 4) -> (2, 5) [Player at (2, 4)].
+10. Reposition to (1, 5) directly West of Boulder: Step Left to (1, 4), Down to (1, 5).
+11. Push East 1 time: Boulder 1 moves from (2, 5) onto Switch Plate (3, 5) to activate switch!
