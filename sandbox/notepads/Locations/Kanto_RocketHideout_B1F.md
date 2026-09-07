@@ -29,7 +29,8 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 
 - Office Consoles: Spans cols 10..13 at rows 12..13 [Turn 5656].
 - West Bypass (Col 14): Continuous open aisle spanning rows 11..15 [Turn 5656].
-- Item Ball: Located at (11, 14) south of consoles [Turn 5656].
+- Item Ball: Located at (9, 17) in the southern corridor (behind the row 16 wall, not at 11, 14) [Turn 5682].
+- West Wing Consoles: Span cols 10..13 at rows 12..13. Rows 14..15 are open floor south of consoles [Turn 5682].
 - Row 8 Partition: (14, 8) confirmed solid wall. Passage through row 8 is at (11..12, 8) [Turn 5658].
 - Row 16 Wall: Confirmed solid obstacle across central and east wings (tested turn 5668 at (18, 15) and turn 5675 at (28, 15)). Neither (18, 16) nor (28, 16) is passable.
 - East Wing Dead-End: East Bypass at col 28 dead-ends at row 15 in front of the row 16 wall. The Grunt at (28, 18) and elevator at (24..25, 19) are on the other side of this wall.
