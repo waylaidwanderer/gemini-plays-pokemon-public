@@ -7,10 +7,8 @@
 ## Key Events & Encounters
 - Silph Scope Verification [Turn 6238]: Encountered wild Gastly Lv 18 at (11, 4). Silph Scope successfully dispelled ghost concealment into identifiable, encounterable sprite.
 - Channeler at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
-- Channeler at (6, 10): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6268 (Prize: ¥720). Defeat dialogue: 'Where is the GHOST?'.
 - Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: ¥690). Defeat dialogue: 'What!'.
-- Item Ball at (9, 10): Poké Ball on floor (Escape Rope) [Turn 5030, sighted Turn 6264].
-- Item Ball at (12, 16): Poké Ball on floor in south alcove [Sighted Turn 6264].
+- Item Ball at (9, 10): Poké Ball on floor (Escape Rope) [Turn 5030].
 - Item Ball at (12, 1): Poké Ball on floor in north alcove [Sighted Turn 6242].
 
 ## Geography & Layout
