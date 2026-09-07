@@ -2312,6 +2312,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fisherman (Ned): Stationed at (14, 31) facing West. Engaged at (10, 31) [Turn 6933].- Item Ball at (14, 35): Sighted on eastern wooden dock platform [Turn 6941].
 
 - Platform at Rows 34..35: Wooden platform spans west across cols 6..11. Railing blocks south at (6..11, 36). Isolated eastern pier at cols 14..15 (rows 34..37) dead-ends at row 38 railing. Main route turns west along rows 34..35 [Verified Turn 6943].
-- Fisherman (Hank): Stationed at (5, 39) facing North along col 5. Engaged at (5, 35) [Turn 6944].
+- Fisherman (Hank): Stationed at (5, 39) facing North along col 5. Engaged at (5, 35) [Turn 6944].- Bridge Continuation at Row 36: 2-tile-wide bridge continues south along cols 4..5 over water (rows 36..39+) past Fisherman Hank [Verified Turn 6950].
+
+- Crossway at Rows 40..41: East-west platform across cols 4..9 connects western lane to eastern lane. Cols 4..5 dead-ends at row 44 railing. Main bridge continues south along cols 8..9 (rows 42..45) [Verified Turn 6951].
 
 <hr>
