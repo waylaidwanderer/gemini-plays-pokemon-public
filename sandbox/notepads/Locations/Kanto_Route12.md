@@ -26,3 +26,4 @@
 - Crossway at Row 49: Wooden crossway at row 49 connects cols 8..9 to cols 4..5. Cols 4..5 continues south across rows 50..57+ bypassing the row 54 railing to reach the wide southern bridge platform [Verified Turn 6965].
 - Southern Platform at Rows 56..57: Wide platform spans cols 4..13 (grass island at cols 10..11). Railing blocks south at (4..9, 58). Main route crosses east along rows 56..57 toward cols 12..13 [Verified Turn 6966].
 - Bridge Continuation at Row 58: Railing blocks cols 4..9 and cols 12..15. Open 2-tile-wide bridge continues south down cols 10..11 across rows 58..60+ [Verified Turn 6967].
+- Sleeping Snorlax: Stationed at (10, 62) facing South, blocking the wooden bridge chokepoint between row 61 and row 63. Flanked by boulders to the west (cols 6..9, rows 61..63) and deep water to the east. Path continues south along cols 10..11 at row 64+ [Verified Turn 6968].
