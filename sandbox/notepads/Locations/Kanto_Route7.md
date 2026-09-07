@@ -38,6 +38,7 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - (1, 9): Impassable tree boundary (Turn 5357).
   - (7, 2): Impassable vertical ledge from east (Turn 5368).
   - (1, 10): Impassable tree boundary (Turn 5391).
+  - (1, 13): Impassable tree boundary (Turn 5392).
 - Eastern Area: Solid vertical fence at col 17 (rows 11-15) encloses tall grass patch at cols 18-21 (rows 12-15).
 - Landmark at (20, 16..18): Stone statue/monument.
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
