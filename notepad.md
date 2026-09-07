@@ -2027,5 +2027,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Elevator Lobby Sighted: Elevator doors visible at (24..25, 16). Red checkered entryway at (24..25, 19). Lobby floor (cols 24..27) extends north past row 14 into northern sector. Separated from eastern aisle by solid wall partition along column 23 (rows 16..22) [Turn 5868].
 - West Boundary Confirmed: Column 8 is solid wall from row 16 to row 27. (9, 26) open, (8, 26) solid wall. The southern chamber (cols 8..23, rows 16..27) is a completely enclosed self-contained loop with no walking exit to rows 0..15. Northern sector of B3F must be accessed from B2F [Turn 5872].
 - West Boundary Collision Test: Impassable solid wall at (8, 26). Empirically tested Turn 5899: attempted step Left from (9, 26), player remained at (9, 26).
+- Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
 
 <hr>
