@@ -129,7 +129,6 @@
 - TM30 (TELEPORT) x1
 - SUPER REPEL x5
 - ELIXER x1
-- TM48 (ROCK SLIDE) x1
 - TM49 (TRI ATTACK) x1
 
 ## Key Items
@@ -160,7 +159,7 @@
   - Status: Healthy
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35)
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10)
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
