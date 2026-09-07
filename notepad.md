@@ -6,11 +6,11 @@
 
 ## Status
 
-- Badges: 3 / 8 (Boulderbadge, Cascadebadge, Thunderbadge)
+- Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
 
 - Active Team: Blastoise (SHELDON) Lv 46, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥59242
+- Money: ¥62113
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -113,6 +113,7 @@
 - [x] Reach Rocket Hideout B4F [Turn 6050]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
 - [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+- [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
 
 
 
@@ -157,7 +158,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥59242
+- ¥62113
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 46, Water]
@@ -2274,7 +2275,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Flower patches: Flank the entrance along row 13 at cols 0..1 and 8..9.
 
 ## Trainers
-- Gym Leader: Erika (Victreebel Lv 29 [defeated], Tangela Lv 24 [defeated], Vileplume Lv 29 [defeated]).
+- Gym Leader: Erika (Victreebel Lv 29 [defeated], Tangela Lv 24 [defeated], Vileplume Lv 29 [defeated]). Defeated Turn 6800! Prize: ¥2871. Awarded RAINBOWBADGE and TM21 (Mega Drain).
 ## Room 1 (Rows 10..13)
 - Shrub row at rows 12..13: Obstacles at (2..3, 12..13) and (6..7, 12..13), central gap at (4..5, 12..13).
 - Open area at rows 10..11: Spans cols 2..7.
