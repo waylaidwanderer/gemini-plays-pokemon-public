@@ -38,7 +38,7 @@
   - Status: Healthy
   - HP: 135 / 135
   - Stats: Attack 97, Defense 113, Speed 97, Special 99
-  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 20/20), Ice Beam (PP 7/10)
+  - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 16/20), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26

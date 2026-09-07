@@ -4,11 +4,11 @@
 Fourth and deepest basement level of Team Rocket's underground headquarters beneath Celadon City. Contains Giovanni's office, the Lift Key, and the Silph Scope.
 
 ## Layout & Geography
+- Elevator Entrance/Arrival (Empirically Verified Turn 6133): Threshold at cols 24..25, row 15/16; player exited elevator cabin onto B4F at (25, 15).
+- Boss Office Doors: Double wooden sliding doors located at (24..25, 11), guarded by Grunt 1 at (23, 12) and Grunt 2 at (26, 12).
 - Entry Stairs (to B3F): Located at (19, 10), arrival tile at (19, 10) facing Up [Turn 6050]. Connects to B3F (19, 18).
 - Central Hallway: Spans cols 17..20, rows 6..12.
 - Central Divider Wall: Solid vertical divider along column 21 (rows 6..12).
-- Elevator: Doors located at (24..25, 11) in the eastern sector.
-- Team Rocket Grunt: Stationed at (23, 12) facing Down in front of the elevator corridor.
 - Western Corridor: Open passageway along rows 13..14 extending west past column 15.
 - Wall Gap at Col 16: Opening at rows 3..4 allows passage from central hallway into the western/northwestern sector.
 - Northern Corridor: Rows 2..6, cols 17..20 are open pink checkered floor.
