@@ -111,7 +111,8 @@
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Reach Rocket Hideout B4F [Turn 6050]
-- [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
+- [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]- [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+
 
 <hr>
 
@@ -131,7 +132,7 @@
 - TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
 
-## Key Items (7 / 8)
+## Key Items (8 / 8)
 - OLD ROD
 - HM01 (CUT)
 - HM05 (FLASH)
@@ -139,9 +140,10 @@
 - COIN CASE
 - LIFT KEY
 - SILPH SCOPE
+- POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 (3 slots free). Verified in-game Turn 6588.
+- Total Slots Used: 18 / 20 (2 slots free). Verified in-game Turn 6599.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -1564,7 +1566,8 @@
   - Confirmed Collisions: Tile (15, 5) is solid cliff wall [Turn 4888].
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
-- Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.- Volunteer Pokémon House: Mr. Fuji located at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557].
+- Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.
+- Volunteer Pokémon House: Located at cols 6..9, rows 8..9. Mr. Fuji located at (3, 1) at northern desk, approached from south via (3, 2) [Verified Turn 6557]. Gives the POKé FLUTE after rescuing him from Pokémon Tower [Turn 6599].
 
 <hr>
 
