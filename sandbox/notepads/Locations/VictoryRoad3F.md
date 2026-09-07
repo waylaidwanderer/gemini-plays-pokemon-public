@@ -35,6 +35,6 @@
 3. Ladder NE @ (27, 7): Wall ladder in enclosed NE room (rows 7-9, cols 25-28). Connects to 2F behind switch shutter at (27, 7).
 4. Ladder B @ (25, 14): Floor ladder (black opening `[=]`) in SE Pit room. Connects to 2F SE sector at (25, 14).
 ## Verified Route from Ladder A (23, 7) to East Boulder (24, 10) & Pit Room
-- Path: From (23, 8), walk Left to (20, 8) -> Down to (20, 11) -> Left to (19, 11) -> Down to (19, 13) -> Right along Row 13 to (22, 13) -> Up to (22, 10) -> Right to (23, 10).
+- Path: From (23, 7)/(22, 7), walk Left across Row 7 to (15, 7) -> Down along Col 15 to (15, 11) -> Right along Row 11 to (19, 11) -> Down to (19, 13) -> Right along Row 13 to (22, 13) -> Up to (22, 10) -> Right to (23, 10).
 - East Boulder Puzzle: Stand at (23, 10) facing East -> Push Right to move Boulder from (24, 10) into (25, 10).
 - Outcome: Unlocks access to Ladder NE (26, 8) and Column 25 corridor down to SE Pit Room at (23, 15).
