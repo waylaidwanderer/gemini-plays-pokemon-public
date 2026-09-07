@@ -33,3 +33,4 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Item Ball 2: Sighted at (10, 12) sitting on desk/console in northwest room [Turn 6092].
 
 - Grunt 1 outside Giovanni's office: Stationed at (23, 12) facing Down. Pre-battle dialogue: "I know you! You ruined our plans at MT.MOON!" [Turn 6136].
+- Grunt 1 outside Giovanni's office Defeated [Turn 6144]! Team: Sandshrew Lv 23, Ekans Lv 23, Sandslash Lv 23.
