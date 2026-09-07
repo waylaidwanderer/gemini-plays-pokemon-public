@@ -1564,7 +1564,7 @@
   - Confirmed Collisions: Tile (15, 5) is solid cliff wall [Turn 4888].
 - Signpost at (17, 7): "May the Souls of POKéMON Rest Easy / POKéMON TOWER" [Turn 4882].
 - South House: Located at cols 6..9, rows 12..13. Entrance door at (7, 13).
-- Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.- Volunteer Pokémon House: Mr. Fuji located at (0, 2) in northwest corner under painting [Verified Turn 6552].
+- Northwest Perimeter: Solid mountain cliff along row 1 (cols -4..1) and col -1 (rows 1..6). Pocket at cols 0..1 (rows 2..5) west of Pokémon Center is a dead end.- Volunteer Pokémon House: Mr. Fuji located at world coordinates (3, 2) in northwest corner [Verified Turn 6554].
 
 
 <hr>
