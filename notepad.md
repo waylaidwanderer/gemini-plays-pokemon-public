@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 44, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥48361
+- Money: ¥49051
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -149,13 +149,13 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥48361
+- ¥49051
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
-  - HP: 135 / 135
-  - Stats: Attack 97, Defense 113, Speed 97, Special 99
+  - HP: 138 / 138
+  - Stats: Attack 99, Defense 116, Speed 99, Special 101
   - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 14/20), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
