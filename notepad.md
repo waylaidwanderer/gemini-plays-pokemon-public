@@ -2659,7 +2659,7 @@
 
 ## Master Route from 2F Entrance to Ladder NE (27, 7) & 3F Upper Dark Plateau
 - Boulder 2 pushed onto Switch 1 at (1, 16) opens Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-- Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) -> walk through Shutter 1 (5, 10) -> across light purple floor to (20, 14) -> south through Shutter 3 (21, 15) to Lower Highway (row 16) -> east to (29, 16) -> north up col 29 to (29, 8) -> west to Ladder NE at (27, 7) -> ascends to 3F Upper Dark Plateau.
+- Route: From (0, 8) entrance, push Boulder 2 onto Switch 1 (1, 16) to open Shutter 1 at (5, 10) and Shutter 3 at (21, 15). Note: Row 8 is blocked at (7, 8) by a vertical barrier column; navigate south through Shutter 1 to (5, 14) / Central-South puzzle or across Dark Plateau to reach the eastern sector.
 
 ## Return Route from Ladder A / North Area (23, 8) to Ladder NE (27, 7):
 - North Area connects west via Row 8 to column 20, south to Shutter 3 (21, 15), and east along Row 16 to column 29, ascending to Ladder NE (27, 7).
