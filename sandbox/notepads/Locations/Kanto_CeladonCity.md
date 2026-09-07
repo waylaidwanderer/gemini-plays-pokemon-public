@@ -11,5 +11,5 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
 - Entry coordinate from Route 7: (49, 11) facing West [Turn 5434].
 
-- Southeast Building (Cols 41..43, Rows 7..9): Features "POKé" sign at (42, 9) and glass entrance doors at (41, 9).
+- Southeast Building (Cols 41..43, Rows 7..9): Celadon Hotel (entrance door at (41, 9), "POKé" sign at (42, 9)). Interior features hotel lobby with couches and guests.
 - NPC sighted wandering along row 14 at (43, 14).
