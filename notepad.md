@@ -1721,5 +1721,6 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11 (no south-facing entrance).
 - Visual Sightings (Unverified): Paved area along row 10 visible across cols 8-21 beyond barriers.
 
+  - (1, 14): Impassable tree boundary; Cut confirmed not cuttable (Turn 5269).
 
 <hr>
