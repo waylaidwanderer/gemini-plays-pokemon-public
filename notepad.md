@@ -2849,26 +2849,20 @@
 
 # Route 22 Traversal & Mapping Scratchpad
 
-## Goal: Clean Traversal from Viridian City to Route 22 Gatehouse at (8, 5)
+## Goal: Traversal via Viridian Northwest Cut Corridor to Route 22 Upper Highway at (8, 5)
 
-### Viridian City Navigation Rules
-- When outside Pokémon Center at (23, 26), DO NOT walk south into row 27 (row 27 is a south-facing ledge).
-- Path to Route 22:
-  1. From (23, 26): Walk Left to col 19 at (19, 26).
-  2. Walk Up along col 19 to row 18 at (19, 18).
-  3. Walk Left along row 18 to col 4 at (4, 18).
-  4. Walk Up along col 4 to row 14 at (4, 14).
-  5. Walk Left along row 14 to (0, 14) to enter Route 22 at (39, 6).
+### Verified Route 22 Middle Pocket Geometry (Turn 36167)
+- **Column 29 Wall**: Solid vertical cliff wall from row 7 down to row 13 at column 29.
+- **Middle Pocket**: Rows 8-12, columns 30-33 is an enclosed dead-end grass pocket with zero westward passages.
+- **Lower Road**: Rows 14-15 is a one-way return road to Viridian City with continuous south-facing ledge at row 13.
+- **True Route to Gatehouse**: Route 22 Upper Highway (rows 4-5) runs north of the column 29 mountain cliff directly from east (col 39) to west (col 8) to the Gatehouse door at (8, 5).
 
-### Route 22 Empirical Probe Log & Negative Constraints
-- **Turn 36130 Lower Road Probe**: Tested columns 8 down to 0 along row 14/15. Confirmed that row 13 is an unbroken, impassable south-facing cliff ledge from column 39 all the way to column 1 with ZERO northward passages.
-- **Rule**: Lower road (rows 14-15) is strictly a one-way return avenue to Viridian City.
-- **Rule**: NEVER step south into row 13/14 when traveling west.
-
-### Route 22 Upper/Middle Tier Probing Plan
-- Enter Route 22 at (39, 6).
-- Step Left to (35, 6), Down to (35, 12), Left through statue gap at (34, 12) to (33, 12).
-- From (33, 12), step IMMEDIATELY UP into middle grass at (33, 11) -> (33, 9).
-- Probe westward corridor along rows 8-9 across columns 33 down to 8 to reach Gatehouse at (8, 5).
+### Execution Route via Viridian Northwest Cut Corridor
+1. Fly to Viridian City -> land at (23, 26).
+2. Walk (23, 26) -> Left 3 to (20, 26) -> Up 22 along col 20 to row 4 at (20, 4).
+3. Walk Left 5 steps to (15, 4) facing Cut tree at (14, 4).
+4. Use Cut on SPROUT to clear tree at (14, 4).
+5. Walk West along row 4 across cols 13..0 to enter Route 22 Upper Highway at (39, 4).
+6. Walk straight West along rows 4-5 across cols 39..8 directly to Gatehouse at (8, 5).
 
 <hr>
