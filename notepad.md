@@ -1983,5 +1983,9 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
   2. From (11, 20) Stop Pad: walk to (14, 22), step Left onto (13, 22) [<<] -> slides to (9, 22) [vv] -> lands on Stop Pad at (9, 24).
   3. From (9, 24) Stop Pad: step onto (8, 23) [^^] -> slides North into (8, 19) [<<] -> shoots West across row 19 into the Southwest Chamber and B3F stairs!
 
+## B2F Southwest Sector
+- Stop Pad: Located at (2, 19), reached via the (8, 23) -> (8, 19) spinner trajectory [Turn 5757].
+- Item Ball 3: Located at (3, 21) between consoles. Accessible from east aisle at (4, 21).
+- West Corridor: Column 1 is open floor from row 15 down past row 23.
 
 <hr>
