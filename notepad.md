@@ -2315,5 +2315,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fisherman (Hank): Stationed at (5, 39) facing North along col 5. Engaged at (5, 35) [Turn 6944].- Bridge Continuation at Row 36: 2-tile-wide bridge continues south along cols 4..5 over water (rows 36..39+) past Fisherman Hank [Verified Turn 6950].
 
 - Crossway at Rows 40..41: East-west platform across cols 4..9 connects western lane to eastern lane. Cols 4..5 dead-ends at row 44 railing. Main bridge continues south along cols 8..9 (rows 42..45) [Verified Turn 6951].
+- Bridge Segment at Rows 46..51: Paved grass corridor at cols 12..13 (rows 46..47) connects to wooden bridge planks (rows 48..51). Cross-platform at rows 52..53 connects to western lane. Fisherman NPC stationed at (9, 52) [Verified Turn 6953].
 
 <hr>
