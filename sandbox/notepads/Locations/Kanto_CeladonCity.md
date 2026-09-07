@@ -27,8 +27,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Gambler at (0, 1): Broke gambler gives the COIN CASE [Turn 5577].
 - South Plaza: Paved walkway spanning rows 28..31 between southern building row (row 27) and southern tree barrier (row 32) [Turn 5583].
 - Adjacent Building East: Entrance door at (35, 27) [Turn 5583].
-- Celadon Gym (Erika): Spans cols 8..13, rows 24..27. 'GYM' lettering at (8..11, 26), front entrance door at (12, 27) [Turn 5589].
-- Middle Commercial Complex (Tier 2, rows 14..17): Houses Game Corner and Prize Exchange facing south onto row 18 courtyard [Turn 5589].
+- Celadon Gym: Spans cols 8..13, rows 24..27. 'GYM' lettering at (8..11, 26), front entrance door at (12, 27) [Turn 5589].
 - Rocket Game Corner: Located at cols 26..32+, rows 14..19.
   - Signpost at (27, 21): "ROCKET GAME CORNER / The playground for grown-ups!" [Turn 5596].
   - Front entrance door at (28, 19) [Turn 5596].
