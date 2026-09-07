@@ -39,3 +39,4 @@
 
 - Turn 34833: Boulder 1 successfully positioned at (6, 1) at the head of Column 6 chute. Player at (8, 0) stepping to (6, 0) to push South down Column 6.
 - Turn 34834: Boulder 1 at (6, 2), Player at (6, 1) facing South. Beginning empirical southward descent down Column 6.
+- Turn 34835: Pushed Boulder 1 south from (6, 2) to (6, 3) [Player at (6, 2)]. Verified (6, 4) and (6, 5) are open dark checkerboard bridge floor.
