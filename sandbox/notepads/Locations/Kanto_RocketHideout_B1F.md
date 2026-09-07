@@ -30,3 +30,5 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 - Office Consoles: Spans cols 10..13 at rows 12..13 [Turn 5656].
 - West Bypass (Col 14): Continuous open aisle spanning rows 11..15 [Turn 5656].
 - Item Ball: Located at (11, 14) south of consoles [Turn 5656].
+- Row 8 Partition: (14, 8) confirmed solid wall. Passage through row 8 is at (11..12, 8) [Turn 5658].
+- South Passage (Col 18): Opening at (18, 16) connects central aisle to southern sector [Turn 5658].
