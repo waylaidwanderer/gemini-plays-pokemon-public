@@ -107,3 +107,4 @@
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
 - [x] Teach TM13 Ice Beam to Blastoise (SHELDON) over Water Gun [Turn 5556]
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
+- [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
