@@ -148,14 +148,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥44641
+- ¥45241
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 42, Water]
   - Status: Healthy
   - HP: 131 / 131
   - Stats: Attack 94, Defense 110, Speed 94, Special 96
-  - Moves: Bite (PP 16/25), Body Slam (PP 13/15), Bubblebeam (PP 10/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 16/25), Body Slam (PP 13/15), Bubblebeam (PP 9/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2017,7 +2017,10 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - East Wall: Column 23 is the eastern solid boundary wall.
 - West Exit: Rows 25..26 open westward into column 17 and beyond.
 - North Aisle: Columns 18..22 extend north past row 21.
-- Team Rocket Grunt: Stationed at (18, 17) facing Down [Turn 5812].
+- Team Rocket Grunt at (18, 17): Defeated [Turn 5825]! Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20; prize �600. Sheldon took 0 damage (HP 131/131).
 - Northwest Corridor: Rows 17..18 connect westward past column 17.
+- Central Barrier: Columns 12..17, rows 19..22 form a solid barrier block.
+- West Corridor: Rows 17..18 open westward past column 10.
+- South Corridor: Columns 10..11 open southward past row 22.
 
 <hr>
