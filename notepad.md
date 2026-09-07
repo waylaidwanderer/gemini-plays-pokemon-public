@@ -2697,7 +2697,7 @@ Solve 2F Switch 1 puzzle to open Shutter (5, 10), then ascend to 3F.
    - Location: Northeast chamber behind shutter at (27, 10). Leads to 3F final exit.
 
 ## Switches & Shutters on 2F
-- **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16). Lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+- **Switch 1 @ (1, 16)**: Activated by pushing Boulder (4, 14) onto (1, 16) (Verified Turn 34689). Lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15). Shutter 1 at (5, 10) empirically open for active visit!
 - **Central-South Boulder & Switch**: Boulder at (9, 11) with switch at (9, 16) and shutter at (15, 15).
 - **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
@@ -2710,7 +2710,6 @@ Solve 2F Switch 1 puzzle to open Shutter (5, 10), then ascend to 3F.
 ## Verified Puzzle Reset Triggers (Verified Turn 34061)
 - Map reload events (such as ascending/descending floor ladders, leaving through cave entrances, or using Dig/Escape Rope) completely reload the floor's map state and reset all pushable boulders back to their default starting positions.
 - Switch activations and shutter gates on a given floor are temporary for the active visit; they persist while remaining on that floor, but reset to closed when the floor is reloaded.
-
 
 <hr>
 
