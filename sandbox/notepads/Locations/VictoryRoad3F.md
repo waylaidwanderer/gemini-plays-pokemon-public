@@ -40,3 +40,5 @@
 - Turn 34778-34779: Pushed Boulder 1 west to (7, 1) at the top of the Central Bridge corridor.
 - Current state: Boulder 1 at (7, 1), Player repositioning to (7, 0) to push South down Column 7.
 - Turn 34784-34786: Pushed Boulder 1 south from (7, 1) to (7, 3) along Column 7 Central Bridge [Player at (7, 2)].
+- Column 7 vs Column 6 Discovery (Turn 34792): Column 7 is blocked at (7, 8) by a rock obstacle with solid wall at (8, 6..7). Column 6 is a clear vertical highway from (6, 1) through (6, 9)+. Boulder 1 MUST be pushed west along Row 1 to (6, 1) and pushed south down Column 6.
+- Plan: Reload 3F via NW Ladder (2, 0), push Boulder 1 to (6, 1), and push down Column 6.
