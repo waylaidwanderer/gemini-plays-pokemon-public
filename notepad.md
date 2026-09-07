@@ -1960,5 +1960,6 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Western Wall Partition (Col 23): Solid wall partition spanning rows 7..13, ending at row 13 with row 14 open beneath it.
 - Team Rocket Grunt: Stationed at (20, 12) facing Down (South) overlooking column 20 [Turn 5689].
 - Wall Partition: Spans (18, 14..15) blocking western exit of row 14; bypass passage to western maze is along rows 10..13 [Turn 5689].
+- Grunt Dialogue at (20, 13): "BOSS said you can see GHOSTs with a SILPH SCOPE!" [Turn 5691]. Directly confirms Team Rocket's boss possesses the Silph Scope here in the hideout.
 
 <hr>
