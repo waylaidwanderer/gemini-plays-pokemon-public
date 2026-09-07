@@ -14,6 +14,6 @@ Open-air rooftop square of the Celadon Department Store featuring vending machin
   - East picnic table at (8..9, 4..5) with chairs at (7, 4..5) and (10, 4..5).
   - West picnic table at (4..5, 2..3) with chairs at (3, 2..3) and (6, 2..3).
 - NPC (East): Little Boy at (10, 4) seated at east table ("My sister is a trainer, believe it or not...").
-- NPC (West): Thirsty Girl (sister) at (3, 6) in southwest patio. Traded Fresh Water -> received TM13 (Ice Beam) [Turn 5534]; Traded Soda Pop -> received TM48 (Rock Slide) [Turn 5537].
+- NPC (West): Thirsty Girl (sister) at (3, 6) in southwest patio. Traded Fresh Water -> received TM13 (Ice Beam) [Turn 5534]; Traded Soda Pop -> received TM48 (Rock Slide) [Turn 5537]; Traded Lemonade -> received TM49 (Tri Attack) [Turn 5539].
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
