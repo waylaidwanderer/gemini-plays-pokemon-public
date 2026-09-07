@@ -112,4 +112,5 @@
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
 - [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
+- [x] Awaken and defeat sleeping Snorlax on Route 12 with Poké Flute [Turn 6981]
 
