@@ -54,4 +54,4 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 
 ## B3F Southwest Sector
 - Southwest Conveyor Route (Turn 6020): (11, 18) [>>] slides east across row 18 into (15, 18) [vv] Down-spinner, which slides south down column 15 directly onto Stop Pad at (15, 22).
-- Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Engaged in battle on Turn 6022! Pre-battle dialogue: "Stop meddling in TEAM ROCKET's..."
+- Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Defeated on Turn 6035! Team: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20; prize ¥600. Defeat quote: "Oof! Taken down!". Pre-battle: "Stop meddling in TEAM ROCKET's affairs!".
