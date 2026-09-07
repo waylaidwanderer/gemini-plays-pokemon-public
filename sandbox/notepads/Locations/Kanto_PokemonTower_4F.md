@@ -5,8 +5,8 @@
 - Stairs Up: Located at (3, 9) leading up to 5F [Visually confirmed Turn 6265].
 
 ## Key Events & Encounters
-- Channeler Laurel/Jody at (6, 10): Defeated Turn 6268 (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
-- Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259].
+- Channeler at (6, 10): Defeated Turn 6268 (Gastly Lv 24, 487 EXP). Defeat dialogue: 'Where is the GHOST?'.
+- Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259]. Did not engage when player stepped to (15, 9) [Turn 6261].
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
 ## Geography & Layout
