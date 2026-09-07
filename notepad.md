@@ -2565,7 +2565,7 @@
    - Row 33 Cross-Corridor: Spans columns 6 through 17 connecting East Highway to West Highway.
    - West Highway: Columns 6-7 (rows 30-35) connect to row 30 tall grass corridor (cols 1-8).
    - **Earth Badge Checkpoint**: Guard at (1, 31). Hidden Poké Ball at (1, 31).
-   - **Northern Sector & Cave Entrance**: Columns 11-12 (rows 26-29) lead north to Victory Road 1F cave entrance.
+   - **Northern Sector & Cave Entrance**: Exploration in progress past row 33 towards Victory Road 1F cave entrance.
 
 <hr>
 
