@@ -1,13 +1,13 @@
 # Current Party & Team Strategy
 
-## Active Party (Verified Turn 34203)
+## Active Party (Fully Healed at Viridian Pokecenter Turn 35030)
 1. HYDROS (Blastoise) - Lv 72
-   - Stats: Max HP 245 (HP: 98/245), Attack 172, Defense 190, Speed 174, Special 182
+   - Stats: Max HP 245 (HP: 245/245), Attack 172, Defense 190, Speed 174, Special 182
    - Type: Water
-   - Moves: Double-Edge (0/15), Ice Beam (0/10), Bite (18/25), Surf (8/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 0/54 - Fainted)
+   - Stats: Max HP 54 (HP: 54/54 - Revived & Healthy!)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
@@ -22,7 +22,7 @@
    - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 62 (HP: 62/63 - Healthy)
+   - Stats: Max HP 63 (HP: 63/63 - Healthy)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall (Slot 5)
@@ -32,6 +32,7 @@
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Cut utility (Slot 6)
 
-## Inventory & Resources (Verified Turn 21825)
+## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Active Bag Items: Bicycle, Great Ball x3, HM03 (Surf), HM04 (Strength), Silph Scope, Poké Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
+- Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
+- HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
