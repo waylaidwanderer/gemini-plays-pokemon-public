@@ -2184,15 +2184,17 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Stairs Up: Located at (18, 9) leading up to 6F (expected).
 
 ## Key Features & Events
-- Purified Zone: Located in the center of 5F; protected healing zone that restores party HP/PP and prevents wild encounters. Sighted at cols 10+, rows 8..9 [Turn 6322].
+- Purified Zone: Located in the center of 5F at (10..11, 8..9); protected healing zone that restores party HP/PP and prevents wild encounters [Turn 6325].
 - Channeler at (6, 10): Facing West (Left) toward col 5. Vision blocked by tombstone at (5, 10).
+- Channeler at (12, 8): Facing West (Left) directly overlooking the Purified Zone [Turn 6325].
+- Channeler at (14, 3): Facing West (Left) along row 3 [Turn 6325].
 
 ## Geography & Layout
 - Arrival Stairs: (3, 9) on west wall.
 - West Wall: Orange altars at (2, 6..11), (3, 5..6), (4, 5).
-- Tombstone Cluster (West): (5..7, 8..9), (5, 10), (8, 7), (5, 11).
+- Tombstones: (5..7, 8..9), (5, 10), (8..11, 7), (14..15, 4), (15, 5), (14..15, 8..9), (12..13, 10).
 - Open Passages:
-  - Row 6 is a clear northern avenue (cols 4..8+) running east-west.
-  - Col 4 is clear from row 6 to row 11.
+  - Row 6 is a wide open highway across the entire floor (cols 4..15+).
+  - Row 10 is open across cols 7..11 below the Purified Zone.
 
 <hr>
