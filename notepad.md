@@ -2083,5 +2083,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Elevator: Doors located at (24..25, 11) in the eastern sector.
 - Team Rocket Grunt: Stationed at (23, 12) facing Down in front of the elevator corridor.
 - Western Corridor: Open passageway along rows 13..14 extending west past column 15.
+- Wall Gap at Col 16: Opening at rows 3..4 allows passage from central hallway into the western/northwestern sector.
+- Northern Corridor: Rows 2..6, cols 17..20 are open pink checkered floor.
 
 <hr>
