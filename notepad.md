@@ -112,7 +112,7 @@
 # Inventory Log
 
 ## Items
-- POKé BALL x11
+- POKé BALL x10
 - ESCAPE ROPE x1
 - ANTIDOTE x1
 - RARE CANDY x2
@@ -189,7 +189,6 @@
   - Status: Healthy
   - HP: Full
   - Caught: Route 11 tall grass [Turn 3751]
-
 
 <hr>
 
