@@ -1,12 +1,10 @@
 # Inventory Log
 
-## Items (12 / 12)
+## Items (10 / 12)
 - ESCAPE ROPE x2
-- RARE CANDY x3
+- RARE CANDY x4 [Verified Turn 6581]
 - MAX POTION x1 [Verified Turn 6400]
-- TM24 (THUNDERBOLT) x1
 - SUPER REPEL x5
-- ELIXER x1
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
 - NUGGET x1
@@ -14,8 +12,7 @@
 - TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
 
-## Key Items (8 / 8)
-- S.S. TICKET
+## Key Items (7 / 8)
 - OLD ROD
 - HM01 (CUT)
 - HM05 (FLASH)
@@ -25,9 +22,12 @@
 - SILPH SCOPE
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Bag is FULL). Verified in-game Turn 6400.
+- Total Slots Used: 17 / 20 (3 slots free). Verified in-game Turn 6588.
 
 ## Stored / PC Items
+- S.S. TICKET x1 (PC) [Stored Turn 6582]
+- TM24 (THUNDERBOLT) x1 (PC) [Stored Turn 6585]
+- ELIXER x1 (PC) [Stored Turn 6588]
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
 - HELIX FOSSIL x1 (PC)
