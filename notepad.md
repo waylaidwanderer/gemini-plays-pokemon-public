@@ -1970,5 +1970,11 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Entrance Trajectory: Step Left from (18, 10) onto (17, 10) [<<] -> slides to (13, 10) [vv] -> slides to (13, 12) [>>] -> lands safely on Stop Pad at (14, 12) [Turn 5709].
 - Column 12 Trajectory: (12, 11) [^^] spins North into (12, 9) [<<], which spins West across row 9 into column 9 and the western sector.
 
+## B2F Western Sector
+- Stop Pad (West): Located at (2, 9). Reached via the (12, 11) up-spinner trajectory across row 9 [Turn 5712].
+- Item Ball 1: Located at (1, 11), accessible from (2, 9) via (3, 9..13) and (1..2, 13) [Turn 5712].
+- Item Ball 2: Located at (6, 12) [Turn 5712].
+- Outer Boundaries: West outer wall at col 0, North outer wall at row 6.
+
 
 <hr>
