@@ -2715,10 +2715,10 @@
 - Proceed East along row 8 across columns 5 through 23 to (23, 8).
 - Step North 1 time into (23, 7) onto Ladder A to ascend directly to Victory Road 3F at (23, 7)!
 - Physical layout: Rows 8 and 9 form a completely open 2-tile wide horizontal corridor connecting the western shutter area (col 5) directly to the eastern wall and Ladder A (col 23).
-## Verified Empirically: 2F Exit Shutter & Boulder Lock
-- Fallen Boulder pushed East along Row 16 onto Switch Plate at (29, 16).
-- Switch Plate (29, 16) activated: Exit Shutter at (28, 10) permanently lowered!
-- Clear path to Ladder NE at (27, 7) unlocked via Column 28 (rows 16..8) -> Left to (27, 8) -> Up into (27, 7).
+## 2F Pit Drop & Exit Investigation (Turn 35671)
+- Pit Boulder dropped from 3F lands on 2F at (23, 16).
+- Empirical test: Pushing boulder East into (29, 16) dead-ends against (30, 16) rock wall and does NOT open Exit Shutter at (27, 10). Shutter at (27, 10) confirmed closed on Turn 35669.
+- Required Master Protocol: From landing at (23, 16), walk around to East of boulder at (24, 16) and push boulder WEST along Row 16 onto the southern switch plate to open Exit Shutter (27, 10).
 
 <hr>
 
