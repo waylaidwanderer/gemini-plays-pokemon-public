@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 44, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥54052
+- Money: �55492
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -1664,8 +1664,6 @@
 
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
-- Stairs Down: (3, 9) on west wall leading down to 2F.
-- Stairs Up: (18, 9) on east wall leading up to 4F.
 - Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
 - Row 10 Runway: Clear open crosshatch floor from (10, 10) east to (18, 10) leading directly into (18, 9) stairs.
 
@@ -2169,7 +2167,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Geography & Layout
 - Eastern Wall: (19, 6..11) orange altars.
-- Arrival Stairs: (18, 9) on east wall.
 - Tombstones at (12..13, 5), (15..16, 6), (11..13, 7), (11..13, 9), (11, 10), (16, 10), (14..17, 11), (14, 13).
 - Orange altars at (17..18, 5), (18, 6), (17..18, 11..13).
 - Open Passages: Row 8 is a wide open highway (cols 11..18); Col 14 is open (rows 5..10); Row 9 (cols 14..17).
