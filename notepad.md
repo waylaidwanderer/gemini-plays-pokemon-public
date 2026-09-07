@@ -2514,9 +2514,11 @@
   1. Exit Viridian City west at (0, 9) onto Route 22 at (39, 9).
   2. Walk south to Eastern Lawn at (33, 12), walk Left to (31, 12).
   3. Walk North through tall grass to (31, 8), and step North through open dirt gap at (31, 7) onto Upper Highway at (31, 5).
-  4. Walk West along Upper Highway (rows 4-5) continuously all the way from (31, 5) to (8, 5) WITHOUT hopping any ledges!
-  5. At (8, 5), step North directly into the Front Gatehouse door!
-  - Note: Ledges at (16, 7) and (16, 13) drop south into the one-way lower return paths. Do NOT hop down these ledges when traveling west to the Gatehouse!
+  4. Walk West along Upper Highway (rows 4-5) to (16, 4..5).
+  5. Hop South down the ledge at (16, 7) into western tall grass at (16, 8..10).
+  6. Walk Left to (11, 10), and step North through open gap at (11, 9) onto paved entrance road at (11, 6).
+  7. Walk West along row 6 to (8, 6), and step North into the Front Gatehouse door at (8, 5)!
+  - Note: Ledge at (16, 13) drops south into the lower return path (rows 14-15) which leads back east to Viridian City. Do NOT hop the row 13 ledge when approaching the Gatehouse.
 - Front Gatehouse Door: Located at (8, 5), transitions into Route 22 Gate.
 
 <hr>
