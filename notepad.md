@@ -160,7 +160,7 @@
   - Status: Healthy
   - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 18/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 17/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2208,7 +2208,7 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Stairs Up: Located at (9, 16) on southern wall, entered from the East via (10, 16) stepping Left [Visually confirmed Turn 6415].
 
 ## Key Features & Events
-- Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]!
+- Restless Spirit: Encountered at (10, 16) blocking (9, 16) stairs [Turn 6417]. Unmasked by Silph Scope as wild MAROWAK Lv 30 [Turn 6422-6423]! Defeated and calmed on Turn 6425. Mother's spirit departed into afterlife, permanently unlocking the 7F stairs!
 - Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
 - Channeler at (9, 5): Defeated Turn 6395 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Something fell out!'.
