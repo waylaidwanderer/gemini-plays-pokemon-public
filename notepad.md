@@ -2189,7 +2189,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Channeler at (17, 7): Defeated Turn 6338 (Haunter Lv 23, 621 EXP, ¥690). Defeat dialogue: 'Gasp!'.
 
 ## Geography & Layout
-- Arrival Stairs: (3, 9) on west wall.
 - West Wall: Orange altars at (2, 6..11), (3, 5..6), (4, 5).
 - Tombstones: (5..7, 8..9), (5, 10), (8..11, 7), (14..15, 4), (15, 5), (14..15, 8..9), (12..13, 10).
 - Open Passages:
@@ -2213,7 +2212,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Item Ball at (6, 8): Sighted on floor south of row 7 [Turn 6386].
 
 ## Geography & Layout
-- Arrival Stairs: (18, 9) on east wall.
 - Eastern Wall: (19, 6..11) orange altars.
 - Altars at (17..18, 5), (18, 6), (17..18, 11..13).
 - Tombstones: (16..17, 6), (14, 11), (16..17, 11), (14, 12), (14, 13), (16, 13).
