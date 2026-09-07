@@ -46,8 +46,7 @@
 - Breakthrough 3F Map & Puzzle Discovery (Turn 34840):
   - Upper Plateau Puzzle: Boulder 1 @ (22, 3) -> push to (20, 1) -> west along Row 1 to (7, 1) -> south to Row 2 at (7, 2) -> west along Row 2 to (3, 2) -> south along Column 3 onto Switch Plate @ (3, 5)!
   - Lower Floor Puzzle: Boulder 2 @ (13, 12) -> push east across lower purple floor directly into Pit @ (23, 14)!
-  - Action: Reloading 3F via NW Ladder (2, 0) to execute the canonical Switch (3, 5) solution.
-## Canonical Verified Switch (3, 5) Master Solution
+## Canonical Switch (3, 5) Solution Protocol (Under Empirical Verification)
 1. Reload 3F via NW Ladder (2, 0) and activate STRENGTH with ATLAS.
 2. Push Boulder 1 from (22, 3) west to (20, 3), north to (20, 1), and west along Row 1 all the way to (6, 1) [Player at (7, 1)].
 3. Reposition around boulder to (6, 0) via (7, 0).
