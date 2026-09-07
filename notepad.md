@@ -1722,5 +1722,6 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Visual Sightings (Unverified): Paved area along row 10 visible across cols 8-21 beyond barriers.
 
   - (1, 14): Impassable tree boundary; Cut confirmed not cuttable (Turn 5269).
+  - (1, 15): Impassable tree boundary (Turn 5277).
 
 <hr>
