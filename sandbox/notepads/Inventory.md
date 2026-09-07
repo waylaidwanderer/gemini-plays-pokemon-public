@@ -6,7 +6,6 @@
 - POKé BALL x10
 - ESCAPE ROPE x2
 - RARE CANDY x3
-- MAX POTION x1
 - TM24 (THUNDERBOLT) x1
 - SUPER REPEL x5
 - ELIXER x1
@@ -23,6 +22,7 @@
 - BICYCLE
 - COIN CASE
 - LIFT KEY
+- SILPH SCOPE
 
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
@@ -36,7 +36,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
-  - HP: 130 / 138
+  - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
   - Moves: Bite (PP 9/25), Body Slam (PP 5/15), Bubblebeam (PP 10/20), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]

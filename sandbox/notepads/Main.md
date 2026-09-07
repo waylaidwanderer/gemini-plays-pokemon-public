@@ -109,3 +109,4 @@
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Reach Rocket Hideout B4F [Turn 6050]
+- [x] Defeat Team Rocket Boss Giovanni and obtain Silph Scope [Turn 6174]
