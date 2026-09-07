@@ -31,3 +31,5 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Column 21 Divider: Solid vertical wall separates central hallway from elevator lobby (rows 6..12).
 
 - Item Ball 2: Sighted at (10, 12) sitting on desk/console in northwest room [Turn 6092].
+
+- Grunt 1 outside Giovanni's office: Stationed at (23, 12) facing Down. Pre-battle dialogue: "I know you! You ruined our plans at MT.MOON!" [Turn 6136].
