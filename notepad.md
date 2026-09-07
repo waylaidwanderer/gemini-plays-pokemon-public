@@ -155,7 +155,7 @@
   - Status: Healthy
   - HP: 131 / 131
   - Stats: Attack 94, Defense 110, Speed 94, Special 96
-  - Moves: Bite (PP 17/25), Body Slam (PP 13/15), Bubblebeam (PP 11/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 16/25), Body Slam (PP 13/15), Bubblebeam (PP 10/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1999,7 +1999,7 @@ Second basement level of Team Rocket's underground headquarters beneath Celadon 
 - Elevator: Located at (24..25, 19) south of row 16.
 ## B3F Stairs & Elevator
 - B3F Descending Stairs: Located at (21, 22) in the Southeast Chamber, entered from (21, 21) facing Down [Turn 5810].
-- Elevator: Located at (24..25, 19) in the east corridor.
+
 
 <hr>
 
@@ -2018,7 +2018,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - West Exit: Rows 25..26 open westward into column 17 and beyond.
 - North Aisle: Columns 18..22 extend north past row 21.
 - Team Rocket Grunt: Stationed at (18, 17) facing Down [Turn 5812].
-- Elevator on B3F: Located at (24..25, 19).
 - Northwest Corridor: Rows 17..18 connect westward past column 17.
 
 <hr>
