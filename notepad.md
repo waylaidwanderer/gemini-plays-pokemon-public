@@ -2568,21 +2568,17 @@
    - **Earth Badge Checkpoint**: Located on northern approach.
    - **Victory Road 1F Cave Entrance**: Located at the northern terminus of Route 23.
 
-## Verified Physical Boundaries & Northern Terminus Topology (Turn 35791)
-- Row 4 Tree Obstacle: Solid trees at (14..15, 4..5) block eastward passage along row 4 between column 13 and column 16 ("There isn't anything to CUT!"). Row 4 does NOT connect to column 17.
-- Column 6 Highway: An open, unobstructed 1-tile wide green grass highway spanning (6, 4..18) connects the northern sector to the southern paved road.
-- Row 18 Main Road: A wide paved east-west avenue spanning (4..17, 18..19).
-- Column 17 Entrance Corridor: The unobstructed main paved avenue spanning (17, 0..18), passing through the wooden gate posts at (16..17, 14..15) and the Earth Badge Guard at (18, 5) directly into the Victory Road 1F cave entrance at (17, 0) / (8, 17 on 1F).
-- Verified Route from (13, 4) to Victory Road 1F:
-  1. Walk Left 7 steps to (6, 4).
-  2. Walk South 14 steps along Column 6 to (6, 18).
-  3. Walk East 11 steps along Row 18 to (17, 18).
-  4. Walk North 18 steps along Column 17 into Victory Road 1F at (17, 0)!
-
-## Verified Eastern Bypass Corridor & Victory Road Entrance (Turns 35878-35881)
-- Column 26/27 Corridor: An open 2-tile wide light green grass highway spanning (26..27, 18..42) completely bypasses the central statue maze and tree clusters on the east side of Route 23.
-- Row 18 Main Road: Connects Column 26 at (26, 18) directly West to Column 17 at (17, 18).
-- Column 17 Entrance Avenue: Unobstructed grand paved avenue spanning (17, 0..18), passing wooden gate posts at (16..17, 14..15) and Earth Badge Guard at (18, 5) directly into Victory Road 1F entrance at (17, 0) (enters 1F at (8, 17)).
+## Verified Northern Terminus Topology & True Victory Road Entrance (Turns 35884-35911)
+- True Cave Entrance Location: The Victory Road 1F cave entrance archway is located at (2, 1) on Route 23 (enters Victory Road 1F at (8, 17)).
+- Row 0 Boundary: Row 0 across Columns 6 through 33 is a continuous solid wall of gold/yellow statues and trees with zero cave openings.
+- Column 2 Approach: Column 2 forms the vertical approach corridor leading north directly into the cave entrance at (2, 1).
+- Row 22 Highway: Row 22 is an open horizontal avenue connecting Column 6 at (6, 22) directly West to Column 2 at (2, 22).
+- Column 6 Highway: Spans rows 1 through 22, connecting the northern grass lawns down to Row 22.
+- Verified Route to Victory Road 1F:
+  1. From Column 6, walk South to Row 22 at (6, 22).
+  2. Walk West 4 steps along Row 22 to Column 2 at (2, 22).
+  3. Walk straight North along Column 2 to (2, 1).
+  4. Step into cave entrance doorway at (2, 1) to transition into Victory Road 1F at (8, 17).
 
 <hr>
 
