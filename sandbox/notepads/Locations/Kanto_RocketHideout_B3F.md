@@ -16,7 +16,7 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Item Ball 1: Located at (9, 17). Retrieved on Turn 5835; contained HYPER POTION.
 - Team Rocket Grunt 2 at (15, 25): Defeated [Turn 5855]! Team: Rattata Lv 19, Raticate Lv 19, Rattata Lv 19; prize ¥570. Sheldon took 0 damage, leveled up to Lv 43 (HP 135/135).
 
-- Elevator Lobby Sighted: Elevator doors visible at (24..25, 16). Red checkered entryway at (24..25, 19). Lobby floor (cols 24..27) extends north past row 14 into northern sector. Separated from eastern aisle by solid wall partition along column 23 (rows 16..22) [Turn 5868].
+- South Lobby (Empirically Verified Turn 6105): Open checkered floor across cols 22..28, rows 14..18. Contained TM10 at (26, 17). No elevator doors exist on B3F (elevator bypasses B3F, serving only B1F, B2F, and B4F).
 - West Boundary Collision Test: Impassable solid wall at (8, 26). Empirically tested Turn 5899: attempted step Left from (9, 26), player remained at (9, 26).
 - Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
 - Grunt 1 Post-Battle Dialogue: "SILPH SCOPE? I don't know where it is!" [Turn 5907].
