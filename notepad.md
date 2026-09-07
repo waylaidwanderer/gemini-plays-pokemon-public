@@ -149,14 +149,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥53362
+- ¥54052
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
   - HP: 138 / 138
   - Stats: Attack 99, Defense 116, Speed 99, Special 101
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 18/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2187,7 +2187,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Channeler at (12, 8): Facing West (Left) directly overlooking the Purified Zone [Turn 6325].
 - Channeler at (14, 3): Facing West (Left) along row 3 [Turn 6325].
 - Channeler at (17, 7): Defeated Turn 6338 (Haunter Lv 23, 621 EXP, ¥690). Defeat dialogue: 'Gasp!'.
-- Route to 6F Stairs: (13, 9) -> West along row 9 to (9, 9) via Purified Zone (11, 9) -> South down col 9 to (9, 12) -> East along row 12 to (14, 12) -> North up col 14 to (14, 10) -> East along row 10 to (18, 10) -> North into (18, 9) stairs [Mapped Turn 6341].
 
 ## Geography & Layout
 - Arrival Stairs: (3, 9) on west wall.
@@ -2205,10 +2204,9 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 5F [Arrived Turn 6354].
-- Stairs Up: Located on the western/central sector leading up to 7F (guarded by the restless spirit of Marowak).
+- Stairs Up: Unexplored.
 
 ## Key Features & Events
-- Restless Spirit: The ghost blocking the stairs to 7F is the restless spirit of Cubone's mother, Marowak (Lv 30). With Silph Scope, it will be unmasked and can be defeated to clear the stairs.
 - Channeler at (16, 5): Sighted facing Right/Down. South vision blocked by tombstones at (16..17, 6) [Turn 6354].
 
 ## Geography & Layout
