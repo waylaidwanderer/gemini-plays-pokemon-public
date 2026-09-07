@@ -65,7 +65,7 @@
   - End State: Boulder at (17, 13) [SWITCH DEPRESSED], Player at (17, 12).
   - Outcome: Shutters at (5, 13) and (7, 7) lowered permanently for current visit!
 - **Checkpoint 7 (Ascent to 2F Southwest Ladder at (1, 1))**:
-  - Path: (17, 12) -> West 6 to (11, 12) -> North 6 to (11, 6) -> West 4 to (7, 6) -> South 2 through shutter (7, 7) to (7, 8) -> West 4 to (3, 8) -> North 7 to (3, 1) -> Left 2 to (1, 1) [Transitions to 2F at (0, 8)]!
+  - Path: From Switch chamber (14, 12), walk Down 2 to row 14 at (14, 14) -> West 9 along row 14 to (5, 14) -> North 2 through lowered Shutter (5, 13) onto elevated cross-highway at (5, 12) -> East 6 along row 12 to (11, 12) -> North 6 along col 11 to (11, 6) -> West 4 along row 6 to (7, 6) -> South 2 through lowered Shutter (7, 7) to lower cave floor (7, 8) -> West 4 along row 8 to (3, 8) -> North 7 along col 3 to (3, 1) -> Left 2 through (2, 1) onto 2F Ladder at (1, 1) [Transitions to 2F at (0, 8)]!
 
 ## Map Boundaries & Exit Warps
 - South Exit Warp: Stepping South into row 17 across columns 8 and 9 (the entrance mat) immediately triggers a map transition to Route 23 at (4, 31), resetting all boulder positions and shutter states on 1F. Avoid walking South into row 17 during 1F puzzle execution!
