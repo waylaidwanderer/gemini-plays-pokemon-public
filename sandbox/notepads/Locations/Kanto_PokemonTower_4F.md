@@ -2,9 +2,10 @@
 
 ## Connections
 - Stairs Down: Located at (18, 9) leading down to 3F [Verified arrival Turn 6259].
-- Stairs Up: Hypothesized at (3, 9) leading up to 5F [Unverified].
+- Stairs Up: Located at (3, 9) leading up to 5F [Visually confirmed Turn 6265].
 
 ## Key Events & Encounters
+- Channeler Jody at (5..6, 10): Engaged player at (7, 10) [Turn 6265].
 - Channeler at (15, 7): Sighted facing South overlooking column 15 [Turn 6259].
 - Channeler at (14, 12): Sighted facing West [Turn 6259].
 
