@@ -13,6 +13,7 @@
 - SUPER REPEL x5
 - ELIXER x1
 - FRESH WATER x1
+- SODA POP x1
 
 ## Key Items
 - S.S. TICKET
@@ -29,7 +30,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥43121
+- ¥42821
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 41, Water]
