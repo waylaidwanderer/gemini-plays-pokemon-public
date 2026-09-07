@@ -23,3 +23,6 @@ First basement level of Team Rocket's underground headquarters beneath the Celad
 
 - Consoles at (24..25, 16): Confirmed solid obstacles. Row 16 is an unbroken barrier across east wing [Turn 5644].
 - Navigation: Returning to row 7 to access the West Wing (cols < 16) for the route to B2F [Turn 5644].
+- West Wing Corridor (Cols 12..14): Open passage extending south from row 7 through rows 8..11+ [Turn 5647].
+- Team Rocket Grunt: Stationed at (12, 6) [Turn 5647].
+- Wall Partition: Spans (13..15, 8) [Turn 5647].
