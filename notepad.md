@@ -150,7 +150,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥47041
+- ¥47671
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 43, Water]
@@ -2099,5 +2099,6 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 
 - Northwest Room Grunt Pre-Battle Quote: "The elevator doesn't work? Who has the LIFT KEY?" [Turn 6056]
 - Northwest Room Grunt Defeated [Turn 6066]! Team: Koffing Lv 21, Zubat Lv 21; prize ¥630. Defeat quote: 'ROCKET: No!'.
+- Northwest Room Grunt Post-Battle Dialogue [Turn 6072]: "Oh no! I dropped the LIFT KEY!"
 
 <hr>
