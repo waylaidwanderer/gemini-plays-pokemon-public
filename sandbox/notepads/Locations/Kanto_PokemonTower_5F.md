@@ -2,13 +2,14 @@
 
 ## Connections
 - Stairs Down: Located at (3, 9) leading down to 4F [Arrived Turn 6318].
-- Stairs Up: Located at (18, 9) leading up to 6F (expected).
+- Stairs Up: Located at (18, 9) leading up to 6F [Visually confirmed Turn 6327].
 
 ## Key Features & Events
 - Purified Zone: Located in the center of 5F at (10..11, 8..9); protected healing zone that restores party HP/PP and prevents wild encounters [Turn 6325].
 - Channeler at (6, 10): Facing West (Left) toward col 5. Vision blocked by tombstone at (5, 10).
 - Channeler at (12, 8): Facing West (Left) directly overlooking the Purified Zone [Turn 6325].
 - Channeler at (14, 3): Facing West (Left) along row 3 [Turn 6325].
+- Channeler at (17, 7): Facing West (Left) guarding row 7 passage to 6F stairs [Turn 6327].
 
 ## Geography & Layout
 - Arrival Stairs: (3, 9) on west wall.
