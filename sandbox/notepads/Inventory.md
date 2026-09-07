@@ -14,6 +14,7 @@
 - ELIXER x1
 - TM49 (TRI ATTACK) x1
 - NUGGET x1
+- TM10 (DOUBLE-EDGE) x1
 
 ## Key Items
 - S.S. TICKET
