@@ -229,7 +229,6 @@
 - Pokémon Center: Located at (23, 25). Heals party for free.
 - Pokémart: Located at (29, 19).
   - Catalog: Poké Ball (¥200), Antidote (¥100), Parlyz Heal (¥200), Burn Heal (¥250).
-  - Purchased 2x Antidote for ¥200 [Turn 200].
 - North path: Old Man located at (18, 5) unblocks Route 2 north.
 - Viridian Gym: Located in northeast sector at (32, 7).
   - Unlocked after earning 7 Badges.
@@ -241,6 +240,7 @@
 - Route 22 connects to Viridian City at the west edge (rows 8-9), accessible via the paved avenue at rows 18-19 and column 4.
 - Row 27 Ledge Bypass: Located at (19, 27), allowing passage from the southern road (row 28/30) north into the Pokémon Center courtyard at row 26.
 - Northwest Cut Corridor: Located at rows 4-5 across columns 6-14. Cut tree at (14, 4) requires HM01 Cut to enter from the eastern city, opening access to the northern lawn (6..14, 4..5).
+
 
 <hr>
 
