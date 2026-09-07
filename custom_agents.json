@@ -1,9 +1,1 @@
-{
-  "victory_road_puzzle_tracker": {
-    "agent_name": "victory_road_puzzle_tracker",
-    "agent_description": "Tracks the state of Victory Road multi-floor switches, boulders, and shutters across 1F, 2F, and 3F.",
-    "agent_system_prompt": "You are an expert puzzle state machine for Pokemon Red/Blue Victory Road. You track boulder positions, depressed switch plates, and lowered shutters across 1F, 2F, and 3F.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"floor\": {\"type\": \"string\"}, \"action\": {\"type\": \"string\"}}, \"required\": [\"floor\", \"action\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"next_checkpoint\": {\"type\": \"string\"}, \"boulder_target\": {\"type\": \"string\"}, \"shutter_state\": {\"type\": \"string\"}}, \"required\": [\"next_checkpoint\", \"boulder_target\", \"shutter_state\"]}"
-  }
-}
+{}
