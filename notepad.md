@@ -2043,7 +2043,7 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
 - North Wall: Wall partition along row 4 (cols 21..28).
 - East Wall: Solid boundary along col 29.
-- Team Rocket Grunt 3: Defeated at (26, 9) [Turns 5928-5937]! Team: Machop Lv 21, Machop Lv 21; prize ¥630. Defeat quote: "What? I lost? No!". Sheldon took 0 damage (HP 135/135). Pre-battle: "We got word from upstairs that you...".
+- Team Rocket Grunt 3: Defeated at (26, 12) facing Down [Turns 5928-5937]! Team: Machop Lv 21, Machop Lv 21; prize ¥630. Defeat quote: "What? I lost? No!". Sheldon took 0 damage (HP 135/135). Pre-battle: "We got word from upstairs that you...".
 - Northwest Corridor: Opening along rows 5..7 connects elevator lobby past col 21 wall divider into northwest chambers (cols 18..20+) [Turn 5942].
 - B3F Spinner Maze Sighted: Stop pad at (16, 11), right-facing spinner at (14, 11). Northern highway (rows 5..7) completely clear and bypasses spinners into western sector past col 14 [Turn 5943].
 - B3F Spinner Maze Mechanics: Row 11 features Stop Pad at (10, 11), Left-spinner at (12, 11) sliding west to (10, 11), and Right-spinner at (14, 11) sliding east to Stop Pad at (16, 11). Console gap at (13..14, 10). Northern highway (rows 5..7) remains wide open past col 10 [Turn 5944].
@@ -2069,7 +2069,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 ## B3F Southwest Sector
 - Southwest Conveyor Route (Turn 6020): (11, 18) [>>] slides east across row 18 into (15, 18) [vv] Down-spinner, which slides south down column 15 directly onto Stop Pad at (15, 22).
 - Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Defeated on Turn 6035! Team: Rattata Lv 20, Raticate Lv 20, Drowzee Lv 20; prize ¥600. Defeat quote: "Oof! Taken down!". Pre-battle: "Stop meddling in TEAM ROCKET's affairs!".
-
 
 <hr>
 
