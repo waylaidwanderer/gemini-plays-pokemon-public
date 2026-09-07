@@ -119,20 +119,21 @@
 
 # Inventory Log
 
-## Items
-- TM07 (HORN DRILL) x1
-- MOON STONE x1
+## Items (12 / 12)
 - ESCAPE ROPE x2
 - RARE CANDY x3
+- MAX POTION x1 [Verified Turn 6400]
 - TM24 (THUNDERBOLT) x1
 - SUPER REPEL x5
 - ELIXER x1
 - TM49 (TRI ATTACK) x1
+- MOON STONE x1
 - NUGGET x1
+- TM07 (HORN DRILL) x1
 - TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
 
-## Key Items
+## Key Items (8 / 8)
 - S.S. TICKET
 - OLD ROD
 - HM01 (CUT)
@@ -142,6 +143,9 @@
 - LIFT KEY
 - SILPH SCOPE
 
+## Inventory Capacity
+- Total Slots Used: 20 / 20 (Bag is FULL). Verified in-game Turn 6400.
+
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
@@ -149,9 +153,9 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥55492
+- �55492
 
-## Party Pokémon
+## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 44, Water]
   - Status: Healthy
   - HP: 138 / 138
@@ -190,7 +194,7 @@
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
-## PC Box 1 Pokémon
+## PC Box 1 Pok�mon
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
@@ -199,6 +203,7 @@
   - Status: Healthy
   - HP: Full
   - Caught: Route 11 tall grass [Turn 3751]
+
 
 <hr>
 
