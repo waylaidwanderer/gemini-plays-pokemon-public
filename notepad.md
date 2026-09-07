@@ -1900,3 +1900,18 @@ Gambling facility in central Celadon City serving as the front for Team Rocket's
 - Secret Staircase: Revealed at (17, 4) after pressing the switch behind the poster at (9, 4). Leads down into Rocket Hideout B1F [Turn 5622].
 
 <hr>
+
+<h1><code>Locations/Kanto_RocketHideout_B1F</code></h1>
+
+# Rocket Hideout B1F (Celadon City)
+
+## Overview
+First basement level of Team Rocket's underground headquarters beneath the Celadon Game Corner.
+
+## Layout & Geography
+- Entry Stairs: Located at (21, 2), leads up to Celadon Game Corner 1F [Turn 5623].
+- North Chamber: Spans cols 19..24, rows 1..3.
+- Southern Passage: Opening through row 4 at cols 20..23 leading south into the main floor [Turn 5623].
+- Boundaries: West wall at col 18, East wall at col 25, North wall at row 0.
+
+<hr>
