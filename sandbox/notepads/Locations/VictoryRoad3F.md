@@ -43,3 +43,7 @@
 - Turn 34836: Pushed Boulder 1 south from (6, 3) to (6, 4) [Player at (6, 3)]. Verified (6, 5) and (6, 6) are open dark checkerboard bridge floor.
 - Turn 34837: Pushed Boulder 1 south from (6, 4) to (6, 5) [Player at (6, 4)]. Verified (6, 6), (6, 7), (6, 8) are open dark checkerboard bridge floor.
 - Turn 34838: Pushed Boulder 1 south from (6, 5) to (6, 6) [Player at (6, 5)]. Verified (6, 7), (6, 8), (6, 9) are open dark checkerboard bridge floor.
+- Breakthrough 3F Map & Puzzle Discovery (Turn 34840):
+  - Upper Plateau Puzzle: Boulder 1 @ (22, 3) -> push to (20, 1) -> west along Row 1 to (7, 1) -> south to Row 2 at (7, 2) -> west along Row 2 to (3, 2) -> south along Column 3 onto Switch Plate @ (3, 5)!
+  - Lower Floor Puzzle: Boulder 2 @ (13, 12) -> push east across lower purple floor directly into Pit @ (23, 14)!
+  - Action: Reloading 3F via NW Ladder (2, 0) to execute the canonical Switch (3, 5) solution.
