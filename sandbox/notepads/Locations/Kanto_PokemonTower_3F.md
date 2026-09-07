@@ -13,7 +13,5 @@
 
 ## Geography & Layout
 - Eastern Wall: (19, 5..10) orange altars.
-- Stairs Down: (3, 9) on west wall leading down to 2F.
-- Stairs Up: (18, 9) on east wall leading up to 4F.
 - Tombstones at (11, 7), (12, 7), (13, 7), (11, 10), (12, 9), (13, 9), (15, 11).
 - Row 10 Runway: Clear open crosshatch floor from (10, 10) east to (18, 10) leading directly into (18, 9) stairs.
