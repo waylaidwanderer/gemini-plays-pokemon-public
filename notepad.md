@@ -2547,31 +2547,25 @@
 - South entrance: Route 22 Front Gatehouse (x=7..8, y=139)
 - North entrance: Victory Road (y=0)
 
-## Badge Check Guards
-- All 8 Badge Inspection Guards passed sequentially (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth).
-
-## Verified Route 23 Topology & Waypoints
-- Cascade Check Sector: y=136..139. Guard at (8, 136). Bypass via (9, 136) or (7, 136).
-- Statue Barrier: Rows 130-131 contain statues and walls, but columns 14 and 15 (14..15, 128..131) form an open 2-tile wide tall grass corridor running directly north to the next sector!
-- Thunder Check Approach: From row 124 at (14, 124), walk Left across open grass to central paved road (cols 8..9, y=124), then follow central road north towards Thunder Badge check.
-- Statue Barrier 2 & Thunder Guard: Guard stands at (8, 119); bypass around guard via (9, 119) onto open northern road.
-- Statue Barrier 3 & Rainbow Guard: Columns 10 and 11 (10..11, 112..115) form an open green grass corridor running north past Rainbow Badge check to canal edge at (11, 104).
-
-## Water Canal Sector (Rows 71 to 103)
-- Shoreline at row 104 transitions to open water canal at row 103.
-- SURF is strictly required across rows 71-103.
-- To traverse: Open Start Menu -> POKéMON -> Select HYDROS -> Select SURF.
-- Soul Badge Checkpoint Guard is at (11, 96) in the canal.
-- Left water channel (columns 4-7) is completely clear running north past the central island (rows 82-84).
-- Canal northern landing is at (8..12, 71), where player steps out of water onto green lawn.
-
-## Volcano Check & Earth Gate to Victory Road
-- Canal Landing to Volcano Check: North landing at (7..10, 71). Row 61 ledge gap is at (7, 61).
-- Row 56 Tree Bypass: Column 4 corridor (x=4, y=53..57) bypasses the row 56 tree barrier to row 52.
-- Row 47 Ledge Gap: Columns 8-9 (x=8..9, y=47) form an open 2-tile wide gap through row 47 south-facing ledge.
-- Row 43 Gate Barrier Bypass: The gate building spans columns 8-13 (rows 41-43). Columns 6-7 form an open, unobstructed vertical green grass highway running north from row 48 past row 40 directly to row 39!
-- Earth Badge Checkpoint: Guard stands at (4, 35). Red Earth Gate at (4, 31) allows passage north to row 30.
-- Northern Highway & Cave Entrance: Cave entrance to Victory Road 1F is located at (4, 31).
+## Badge Check Guards & Verified Waypoints
+1. **Boulder Badge**: Route 22 Gate (Front Gatehouse) guard at (4..5, 2).
+2. **Cascade Badge**: Guard at (8, 136). Bypass via (7, 136) or (9, 136).
+3. **Statue Barrier 1**: Rows 130-131 statues; tall grass corridor at columns 14-15 (14..15, 128..131) runs north.
+4. **Thunder Badge**: Guard at (8, 119); bypass via (9, 119) onto central road.
+5. **Statue Barrier 2 & Rainbow Badge**: Columns 10-11 (10..11, 112..115) green grass corridor leads north to canal edge at (11, 104).
+6. **Soul Badge (Water Canal Sector, Rows 71-103)**:
+   - SURF required. Guard stands in water canal at (11, 96).
+   - Left water channel (cols 4-7) bypasses central island (rows 82-84).
+   - North canal landing at (8..12, 71) onto green lawn.
+7. **Volcano Badge**: Guard at (8, 66). Ledge gap at (7, 61). Tree bypass at column 4 (4, 53..57). Row 47 ledge gap at (8, 47).
+8. **Route 23 Gatehouse & Northern Sector**:
+   - Gatehouse door at (3, 43), exit mat at (18, 45) / (17, 47).
+   - Guard at (16, 43). 2x2 tree at (16..17, 41..42) bypassed via col 15 (15, 40..43) or col 18.
+   - Central Green Highway: Columns 16-17 (rows 34-40) open 2-tile lawn avenue.
+   - Row 33 Cross-Corridor: Spans columns 6 through 17 connecting East Highway to West Highway.
+   - West Highway: Columns 6-7 (rows 30-35) connect to row 30 tall grass corridor (cols 1-8).
+   - **Earth Badge Checkpoint**: Guard at (1, 31). Hidden Poké Ball at (1, 31).
+   - **Northern Sector & Cave Entrance**: Columns 11-12 (rows 26-29) lead north to Victory Road 1F cave entrance.
 
 <hr>
 
