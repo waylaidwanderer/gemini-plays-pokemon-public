@@ -15,6 +15,8 @@
 - Altars at (17..18, 5), (18, 6), (17..18, 11..13).
 - Tombstones: (16..17, 6), (14, 11), (16..17, 11), (14, 12), (14, 13), (16, 13).
 - Open Passages:
-  - Cols 14..15 form a 2-tile-wide north-south highway between row 5 and row 10.
-  - Rows 7, 8, 9, 10 open across cols 14..18.
+  - Row 3 northern hallway runs from col 15 west to (7, 3), blocked at (6, 3) by tombstone.
+  - Col 10 corridor: (10, 3..7) connects northern hallway to row 7 highway.
+  - Row 7 western highway: Open crosshatch floor from col 10 all the way west to col 3 (cols 3..10 open).
+  - Cols 14..15 form a 2-tile-wide north-south highway between row 3 and row 10.
   - Row 9 blocked at (11, 9) by tombstones (12, 9 is a dead-end alcove).
