@@ -2729,7 +2729,6 @@
 ## Verified Mechanics & Puzzle State
 - Switch (3, 5) in NW Room: The 3F NW Room contains no pushable boulders; the primary progression route bypasses this switch via Ladder A (23, 7) directly to the Pit Room.
 - Pit at (23, 15): Dropping Pit Boulder down this hole lands on 2F at (23, 16) beside the player landing at (22, 16).
-- Route to Ladder B from Row 16: (28, 16) -> (25, 17) -> (21, 17) -> through Shutter (21, 15) to (21, 14) -> col 20 (20, 12) -> Row 12 East to (25, 12) -> Down to Ladder B at (25, 14).
 ## Verified Topography & Navigation Guidelines (Verified Turns 33345-33451)
 - Continuous Northern Highway (Row 1): Spans columns 6 through 27 ((6..27, 1)), completely clear of obstacles horizontally.
 - Impassable South Cliff Boundary: A continuous south-facing cliff runs along Row 1 across columns 6 through 22, preventing direct southward walking from Row 1 down to the lower areas.
