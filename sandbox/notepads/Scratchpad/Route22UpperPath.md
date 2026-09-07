@@ -1,25 +1,17 @@
-# Route 22 Traversal & Mapping Scratchpad
+# Route 22 Traversal & True Passable Path
 
-## Goal: Clean Traversal from Viridian City to Route 22 Gatehouse at (8, 5)
+## Empirical Passable Route from Viridian City to Route 22 Gate at (8, 5)
+1. Enter Route 22 from Viridian City at `(39, 6..7)`.
+2. Walk West to `(36, 6)`.
+3. Walk `Down` 1 to `(36, 7)`, `Left` 1 to `(35, 7)`.
+4. Walk `Down` 5 along column 35 to `(35, 12)` (bypassing the statues at cols 34-35).
+5. Walk `Left` 4 steps along row 12 to column 31 at `(31, 12)`.
+6. Walk straight `Up` along column 31: `(31, 12)` -> `(31, 11)` -> `(31, 10)` -> `(31, 9)` -> `(31, 8)` -> `(31, 7)` (passes through the Column 31 Ledge Gap!) -> `(31, 6)` -> `(31, 5)`.
+7. At `(31, 5)`, you emerge onto the Upper Paved Brick Highway!
+8. Walk straight `Left` 23 steps along row 5 from `(31, 5)` directly to the Gatehouse entrance at `(8, 5)`.
+9. Step `Up` 1 into the Route 22 Gatehouse door!
 
-### Viridian City Navigation Rules
-- When outside Pokémon Center at (23, 26), DO NOT walk south into row 27 (row 27 is a south-facing ledge).
-- Path from Pokémon Center (23, 26) to Route 22:
-  1. (23, 26) -> Left 3 to (20, 26).
-  2. Up 8 along col 20 to row 18 at (20, 18).
-  3. Left 16 along row 18 to col 4 at (4, 18).
-  4. Up 4 along col 4 to row 14 at (4, 14).
-  5. Left 5 along row 14 to (0, 14) to enter Route 22 at (39, 6).
-
-### Verified Empirical Sector Geometry (Turns 36192-36203)
-- **Middle Grass Pocket (`cols 30-33, rows 8-12`)**:
-  - West: Column 29 solid rock cliff wall from row 7 to row 13. Zero westward passages.
-  - North: Row 7 south-facing ledge.
-  - South: Row 13 south-facing ledge.
-  - East: Column 34 statues. The ONLY east exit is at (34, 12).
-- **Lower Road (`cols 0-39, rows 14-15`)**:
-  - Row 13 is an unbroken south-facing ledge from col 39 to col 1. One-way return to Viridian City.
-- **East Sector (`cols 35-39, rows 6-12`)**:
-  - Open grass and paved road connecting to Viridian City.
-- **Upper Highway (`cols 8-35, rows 4-5`)**:
-  - Unbroken open brick road leading directly to Gatehouse at (8, 5).
+## Verified Topology Notes
+- **Column 31 Ledge Gap**: Column 31 at row 7 is a passable opening through the northern ledge that allows northward traversal into row 6 and the Upper Highway (row 5).
+- **Upper Highway (rows 4-5, cols 8-35)**: Unobstructed paved brick road leading straight west to Gatehouse at (8, 5).
+- **Lower Road (rows 14-15)**: One-way return road back to Viridian City. Row 13 is an impassable south-facing ledge. Avoid hopping south of row 12.
