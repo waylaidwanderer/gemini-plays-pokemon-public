@@ -1828,7 +1828,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Town Signpost at (19, 15): "CELADON CITY / The City of Rainbow Dreams" [Turn 5495].
 - West Avenue: Southbound paved avenue at cols 16..17 (rows 10..15+) leading south toward southern district [Turn 5489].
 - Celadon Department Store: Large multi-story MART building at rows 7..13; 'MART' sign at (12, 13); front entrance door at (10, 13) [Turn 5498].
-- South Commercial Complex: Buildings spanning rows 24..27+ across cols 14..17 and cols 18..21; accessible via southbound passage at col 22 (rows 23..27+) [Turn 5570].
+- South Commercial Complex: Buildings spanning rows 24..27+ across cols 14..17 and cols 18..21; accessible via wide southbound passage across cols 22..25 (rows 23..27+) between buildings [Verified Turn 6837].
 - South Commercial Building (Diner): Spans cols 26..33+, rows 24..27; front entrance door at (31, 27) [Turn 5573].
   - Patron at (1, 4): "Psst! There's a basement under the GAME CORNER." [Turn 5575].
   - Gambler at (0, 1): Broke gambler gives the COIN CASE [Turn 5577].
