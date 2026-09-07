@@ -24,6 +24,8 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Row 16 Barrier: Impassable solid barrier verified across cols 9..17 (tested Turns 5909, 5913-5918).
 - West Boundary Wall: Impassable solid wall along col 8 (tested at (8, 17) Turn 5913 and (8, 26) Turn 5899).
 
+- Column 9 Passability (Turn 6018): Tile (9, 16) is empirically verified 100% passable, connecting row 16 directly to column 9 (rows 13..19).
+
 ## B3F Northern Sector
 - Northern Sector Entry Stairs (from B2F): Located at (25, 6), connects up to B2F (21, 8) [Turn 5925].
 - North Wall: Wall partition along row 4 (cols 21..28).
