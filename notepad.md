@@ -2765,6 +2765,10 @@
 - Checkpoint G: Push Down to (2, 5). Stand at (2, 4). [Boulder at (2, 5), Player at (2, 4)]
 - Checkpoint H: Reposition to (1, 5): Left 1 to (1, 4) -> Down 1 to (1, 5) facing East. [Player at (1, 5)]
 - Checkpoint I: Push East onto Switch (3, 5). [Boulder locked on (3, 5), Shutter (21, 15) lowered!]
+## Verified Elevation Connectors & Topography
+- Ramp @ (17, 5): Connects Upper Dark Plateau (Row 6 at (17, 6)) to Lower Purple Floor (Row 4 at (17, 4)).
+- Row 6 Dark Corridor: Spans columns 13 through 21, connecting eastern plateau directly to Ramp base at (17, 6).
+- Purple Floor Basin: Rows 2-4 (cols 9-18) connects via Column 9/10 vertical corridor to Row 8 purple corridor (cols 1-9), which leads directly to the Ledge Hop at (1, 9).
 
 <hr>
 
