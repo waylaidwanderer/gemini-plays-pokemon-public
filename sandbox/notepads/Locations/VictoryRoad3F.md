@@ -47,3 +47,10 @@
 - Ramp @ (17, 5): Connects Upper Dark Plateau (Row 6 at (17, 6)) to Lower Purple Floor (Row 4 at (17, 4)).
 - Row 6 Dark Corridor: Spans columns 13 through 21, connecting eastern plateau directly to Ramp base at (17, 6).
 - Purple Floor Basin: Rows 2-4 (cols 9-18) connects via Column 9/10 vertical corridor to Row 8 purple corridor (cols 1-9), which leads directly to the Ledge Hop at (1, 9).
+## Verified Atomic Checkpoints: SE Pit Room & 2F Exit Sequence
+- Checkpoint Pit-1: Arrive at (21, 15) facing East towards Pit Boulder at (22, 15).
+- Checkpoint Pit-2: Push Pit Boulder East into Pit (23, 15). Boulder drops to 2F.
+- Checkpoint Pit-3: Step East into Pit (23, 15) to jump down to 2F landing area.
+- Checkpoint 2F-1: Push fallen boulder onto 2F switch to lower exit Shutter at (28, 10).
+- Checkpoint 2F-2: Climb Ladder NE at (27, 7) to 3F Exit Chamber.
+- Checkpoint Exit: Exit 3F north onto Indigo Plateau exterior plaza!
