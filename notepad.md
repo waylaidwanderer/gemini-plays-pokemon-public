@@ -162,11 +162,11 @@
 - ¥62113
 
 ## Party Pok�mon
-- BLASTOISE (Nickname: SHELDON) [Lv 46, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 47, Water]
   - Status: Healthy
-  - HP: 144 / 144
-  - Stats: Attack 104, Defense 122, Speed 104, Special 107
-  - Moves: Bite (PP 19/25), Body Slam (PP 9/15), Bubblebeam (PP 16/20), Ice Beam (PP 4/10)
+  - HP: 147 / 147
+  - Stats: Attack 106, Defense 124, Speed 106, Special 109
+  - Moves: Bite (PP 16/25), Body Slam (PP 9/15), Bubblebeam (PP 16/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2309,6 +2309,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Gatehouse 1F Interior: North entrance at (4..5, 0). Central green-checkered hallway spans rows 1..6 (cols 3..6). Guard at (1, 3). Stairs to 2F at (8, 6). South exit mat at (4..5, 7) [Verified Turn 6927].
 - Gatehouse South Exit: Door at (10, 21), player emerges at (10, 22). 2-tile-wide bridge (cols 10..11) continues south over deep water (rows 22..25). Grass island with flanking platforms at row 26 [Verified Turn 6928].
 - Railing Barrier at Row 28: Pier railing blocks cols 6..13 over water. Open wooden bridge bypass at cols 14..15. Fisherman NPC stationed at (14, 31) [Verified Turn 6929].
-- Fisherman (Ned): Stationed at (14, 31) facing West. Engaged at (10, 31) [Turn 6933].
+- Fisherman (Ned): Stationed at (14, 31) facing West. Engaged at (10, 31) [Turn 6933].- Item Ball at (14, 35): Sighted on eastern wooden dock platform [Turn 6941].
+
 
 <hr>
