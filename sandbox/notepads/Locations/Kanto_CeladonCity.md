@@ -5,7 +5,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Connections
 - East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3).
-- West: Cols 2..5, rows 10..14 is a paved dead-end pocket flanked by trees at col 1 (rows 6..14) and building base wall at row 9 (cols 2..5); Dept Store side door at (8, 13). Searching south (rows 15+) for Route 16 connection.
+- West: Cols 2..8, rows 10..23 is an enclosed western avenue bordered by solid trees/fence at col 1 (rows 6..26) and Celadon Gym at row 24; no exit to Route 16 exists on this western corridor. Dept Store side door at (8, 13). Exploring North Courtyard (cols 20..21) and northern avenues.
 
 ## Geography & Layout
 - Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
