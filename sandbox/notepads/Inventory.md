@@ -1,6 +1,6 @@
 # Inventory Log
 
-## Items (10 / 12)
+## Items (11 / 12)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
 - MAX POTION x1 [Verified Turn 6400]
@@ -11,6 +11,7 @@
 - TM07 (HORN DRILL) x1
 - TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
+- TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 
 ## Key Items (8 / 8)
 - OLD ROD
@@ -23,7 +24,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (2 slots free). Verified in-game Turn 6599.
+- Total Slots Used: 19 / 20 (1 slot free). Verified in-game Turn 6802.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
