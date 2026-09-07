@@ -2320,5 +2320,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fisherman (Elliot): Stationed at (9, 52) facing East. Defeated at (11, 52) [Turn 6964].
 - Crossway at Row 49: Wooden crossway at row 49 connects cols 8..9 to cols 4..5. Cols 4..5 continues south across rows 50..57+ bypassing the row 54 railing to reach the wide southern bridge platform [Verified Turn 6965].
 - Southern Platform at Rows 56..57: Wide platform spans cols 4..13 (grass island at cols 10..11). Railing blocks south at (4..9, 58). Main route crosses east along rows 56..57 toward cols 12..13 [Verified Turn 6966].
+- Bridge Continuation at Row 58: Railing blocks cols 4..9 and cols 12..15. Open 2-tile-wide bridge continues south down cols 10..11 across rows 58..60+ [Verified Turn 6967].
 
 <hr>
