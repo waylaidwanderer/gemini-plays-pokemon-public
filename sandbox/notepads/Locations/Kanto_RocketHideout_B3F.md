@@ -27,3 +27,4 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Row 16 Collision Test: Impassable solid wall at (10, 16) and (11, 16). Empirically tested Turn 5915: attempted steps Up from (10, 17) and (11, 17), player remained on row 17.
 - Row 16 Collision Test: Impassable solid wall at (12, 16) and (13, 16). Empirically tested Turn 5916: attempted steps Up from (12, 17) and (13, 17), player remained on row 17.
 - Row 16 Collision Test: Impassable solid wall at (14, 16) and (15, 16). Empirically tested Turn 5917: attempted steps Up from (14, 17) and (15, 17), player remained on row 17.
+- Row 16 Collision Test: Impassable solid wall at (16, 16). Empirically tested Turn 5918: attempted step Up from (16, 17), player remained at (16, 17). Row 16 (cols 9..17) is 100% verified solid with no openings.
