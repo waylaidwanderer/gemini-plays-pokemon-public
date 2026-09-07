@@ -40,3 +40,8 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - Northwest Pocket: Cols 9..11, rows 5..7 is open checkered floor ending at solid west boundary wall at col 8. No stairs or items in this pocket. Row 8 wall partition is completely solid from col 8 to col 19; sole access to the B3F Spinner Maze is via (20, 8) [Turn 5945].
 - B3F Spinner Maze Trajectories: Stop Pad at (16, 11). Down-spinner at (17, 12) slides south along col 17. Up-spinner at (16, 13) slides north into (16, 11) Stop Pad. Stop Pad sighted at (14, 13). Right-spinner at (14, 15) slides east into Stop Pad at (18, 15). Item ball at (20, 14): Retrieved on Turn 5950; contained RARE CANDY (total: 3) [Turn 5952]!
 - B3F Western Spinner Layout: (10, 13) features Right-spinner sliding east into (14, 13) Stop Pad. Open floor at (10, 12) between consoles. (12, 11) Left-spinner provides sole gateway from console gap (13, 10..11) into (10, 11) Stop Pad [Turn 5956].
+- B3F Maze Solution Route to Southwest Sector:
+  1. From (10, 11) Stop Pad: step Down to (10, 12), then Down onto (10, 13) [>>] Right-spinner.
+  2. Slides east across row 13 onto (14, 13) Stop Pad.
+  3. From (14, 13) Stop Pad: walk Left along row 13 to (12, 13).
+  4. Walk Down along column 12 through (12, 14) and (12, 15) into the southwest sector (rows 16+) where B4F stairs are located [Turn 5957]!
