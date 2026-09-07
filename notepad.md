@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 43, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥45811
+- Money: ¥46441
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -2021,7 +2021,6 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - West Exit: Rows 25..26 open westward into column 17 and beyond.
 - North Aisle: Columns 18..22 extend north past row 21.
 - Team Rocket Grunt at (18, 17): Defeated [Turn 5825]! Team: Grimer Lv 20, Koffing Lv 20, Koffing Lv 20; prize ¥600. Sheldon took 0 damage (HP 131/131).
-- Central Barrier: Columns 12..17, rows 19..22 form a solid barrier block.
 - West Corridor: Rows 17..18 open westward past column 10.
 - South Corridor: Columns 10..11 open southward past row 22.
 - Item Ball 1: Located at (9, 17). Retrieved on Turn 5835; contained HYPER POTION.
@@ -2031,7 +2030,7 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - West Boundary Collision Test: Impassable solid wall at (8, 26). Empirically tested Turn 5899: attempted step Left from (9, 26), player remained at (9, 26).
 - Grunt 2 Post-Battle Dialogue: "OK, I'll talk! Take the elevator to see my BOSS!" Confirms Boss Giovanni is accessed via the elevator [Turn 5902].
 - Grunt 1 Post-Battle Dialogue: "SILPH SCOPE? I don't know where it is!" [Turn 5907].
-- Row 16 Barrier: Impassable solid barrier verified across cols 9..17 (tested Turns 5909, 5913-5918).
+- Row 16 Barrier: Impassable solid barrier verified across cols 10..17 (tested Turns 5909, 5915-5918); tile (9, 16) is open.
 - West Boundary Wall: Impassable solid wall along col 8 (tested at (8, 17) Turn 5913 and (8, 26) Turn 5899).
 
 - Column 9 Passability (Turn 6018): Tile (9, 16) is empirically verified 100% passable, connecting row 16 directly to column 9 (rows 13..19).
@@ -2063,6 +2062,7 @@ Third basement level of Team Rocket's underground headquarters beneath Celadon C
 - South Boundary Wall: Horizontal wall along row 19 (cols 22..29).
 - Item Ball 2: Located at (26, 17) in the south lobby, directly south of Grunt 3 [Turn 5983]. Retrieved on Turn 6002; contained TM10 (DOUBLE-EDGE).
 
+## B3F Southwest Sector
 - Southwest Conveyor Route (Turn 6020): (11, 18) [>>] slides east across row 18 into (15, 18) [vv] Down-spinner, which slides south down column 15 directly onto Stop Pad at (15, 22).
 - Team Rocket Grunt 4: Located at (10, 22) in the deep southwest corner. Engaged in battle on Turn 6022! Pre-battle dialogue: "Stop meddling in TEAM ROCKET's..."
 
