@@ -27,4 +27,4 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer at (1, 5): Beauty with blue hair/hat.
 - Trainer at (9, 5): Trainer with orange hair/hat.
 - Cuttable trees: (2, 4) on west side, (7, 5) on east side.
-- Trainer 2 (Cooltrainer ♀) at (5, 5): Has 3 Pokémon (Weepinbell Lv 24 [defeated], Gloom Lv 24 [defeated]). Pre-battle dialogue: "Welcome to CELADON GYM! You better not underestimate girl power!" [Turn 6755].
+- Trainer 2 (Cooltrainer ♀) at (5, 5): Has 3 Pokémon (Weepinbell Lv 24 [defeated], Gloom Lv 24 [defeated], Ivysaur). Pre-battle dialogue: "Welcome to CELADON GYM! You better not underestimate girl power!" [Turn 6755].

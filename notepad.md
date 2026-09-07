@@ -160,10 +160,10 @@
 - ¥58057
 
 ## Party Pok�mon
-- BLASTOISE (Nickname: SHELDON) [Lv 45, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 46, Water]
   - Status: Healthy
-  - HP: 141 / 141
-  - Stats: Attack 102, Defense 119, Speed 102, Special 104
+  - HP: 144 / 144
+  - Stats: Attack 104, Defense 122, Speed 104, Special 107
   - Moves: Bite (PP 20/25), Body Slam (PP 9/15), Bubblebeam (PP 16/20), Ice Beam (PP 9/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
@@ -2288,6 +2288,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer at (1, 5): Beauty with blue hair/hat.
 - Trainer at (9, 5): Trainer with orange hair/hat.
 - Cuttable trees: (2, 4) on west side, (7, 5) on east side.
-- Trainer 2 (Cooltrainer ♀) at (5, 5): Has 3 Pokémon (Weepinbell Lv 24 [defeated], Gloom). Pre-battle dialogue: "Welcome to CELADON GYM! You better not underestimate girl power!" [Turn 6755].
+- Trainer 2 (Cooltrainer ♀) at (5, 5): Has 3 Pokémon (Weepinbell Lv 24 [defeated], Gloom Lv 24 [defeated], Ivysaur). Pre-battle dialogue: "Welcome to CELADON GYM! You better not underestimate girl power!" [Turn 6755].
 
 <hr>
