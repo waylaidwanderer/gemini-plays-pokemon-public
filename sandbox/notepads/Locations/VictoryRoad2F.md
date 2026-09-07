@@ -59,13 +59,7 @@
 - Pit Boulder dropped from 3F lands on 2F at (23, 16).
 - Empirical test: Pushing boulder East into (29, 16) dead-ends against (30, 16) rock wall and does NOT open Exit Shutter at (27, 10). Shutter at (27, 10) confirmed closed on Turn 35669.
 - Required Master Protocol: From landing at (23, 16), walk around to East of boulder at (24, 16) and push boulder WEST along Row 16 onto the southern switch plate to open Exit Shutter (27, 10).
-## Verified Master Exit Route & Shutter Mechanics (Turn 35698)
-- Shutter at (28, 10): Blocks Column 28 passage into Ladder NE Room (rows 7-9, cols 26-29).
-- Controlled by Switch (9, 16)!
-- Ladder NE at (27, 7): Wall ladder in enclosed NE room on 2F. Connects directly to 3F Exit Room leading to Indigo Plateau!
-- Complete Master Sequence:
-  1. 1F: Push Boulder to (17, 13) -> Take SW Ladder (1, 1) to 2F (0, 8).
-  2. 2F: Push Boulder (4, 14) to (1, 16) -> Lowers Shutter (5, 10) -> Take Ladder A (23, 7) to 3F.
-  3. 3F: Push Boulder (22, 3) to Switch (3, 5) -> Lowers Shutter (21, 15) -> Push Pit Boulder (22, 15) into Pit (23, 15) -> Jump into Pit (23, 15).
-  4. 2F Landing: Land at (22, 16) with boulder at (23, 16) -> Reposition to (24, 16) -> Push boulder WEST 14 tiles along Row 16 onto Switch (9, 16) -> Lowers Shutter (28, 10)!
-  5. 2F Exit: Walk to (28, 16) -> North along Col 28 through lowered Shutter (28, 10) to (28, 9) -> Left to (27, 9) -> North to (27, 7) (Ladder NE) -> Ascend to 3F Exit Room and exit to Indigo Plateau!
+## Observed Landmarks & Working Hypotheses
+- Shutter at (28, 10): Observed blocking Column 28 passage into Ladder NE Room (rows 7-9, cols 26-29).
+- Ladder NE at (27, 7): Wall ladder in enclosed NE room on 2F (cols 26-29, rows 7-9), isolated from main Row 8 corridor by rock wall at cols 24-25.
+- Working Hypothesis: Pushing the fallen 3F pit boulder onto Switch (9, 16) will lower Shutter (28, 10), unlocking passage to Ladder NE. Full routing plan tracked in Scratchpad/VictoryRoadPuzzles.md.
