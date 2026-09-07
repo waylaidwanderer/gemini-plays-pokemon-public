@@ -2506,24 +2506,31 @@
 
 <h1><code>Locations/Route22</code></h1>
 
-# Route 22 - Layout & Notes
+# Route 22 - Layout & Verified Traversal
 
 ## General Information
-- East connection: Viridian City (x=39, y=8..9)
-- West connection: Pokémon League Front Gatehouse / Badge Check (x=8, y=5)
+- East connection: Viridian City (x=39, y=6..9)
+- West connection: Pokémon League Front Gatehouse / Route 22 Gate at door `(8, 5)`
 
-## Points of Interest & Encounters
-- Wild Pokémon: Rattata, Spearow, Nidoran♀, Nidoran♂, Mankey
-- Rival RED Encounter: Triggered when walking west past east entrance (defeated Turn 22069).
-- Front Gatehouse: Checks all 8 Kanto Badges sequentially.
+## Empirical Passable Route from Viridian City to Route 22 Gate (8, 5)
+1. Enter Route 22 from Viridian City at `(39, 6..9)`.
+2. Walk West to `(36, 6)`.
+3. Walk `Down` 1 to `(36, 7)`, `Left` 1 to `(35, 7)`.
+4. Walk `Down` 5 along column 35 to `(35, 12)` (bypassing eastern statues at cols 34-35).
+5. Walk `Left` along Row 12 (unobstructed green lawn) past column 12 to column 4 at `(4, 12)`.
+6. Step `Up` through the fence opening at `(4..5, 11)` onto the Gatehouse front plaza at `(4..5, 10)`.
+7. Walk `Right` along row 10 to column 11 at `(11, 10)`.
+8. Walk straight `Up` along column 11 through `(11, 9)`, `(11, 8)`, `(11, 7)` to `(11, 6)` onto the Upper Paved Road.
+9. Walk `Left` 3 steps along row 6 to `(8, 6)`.
+10. Step `Up` 1 into the Gatehouse golden entrance door at `(8, 5)`!
 
-## Route 22 Topology & Navigation Routes
-- Empirical Traversal Notes:
-  - Viridian City connects to Route 22 at west boundary (x=39).
-  - Upper Highway (rows 4-5) runs west directly to the Front Gatehouse door at (8, 5).
-  - Middle Area (rows 8-12): Contains tall grass and decorative statues at column 34.
-  - One-Way Ledge Warning: Row 13 ledge hops south into the lower return road at rows 14-15. Do not hop south over row 13 ledge during westward traversal.
-- Front Gatehouse Door: Located at (8, 5), transitions into Route 22 Gate.
+## Verified Topology Notes
+- **Gatehouse Golden Door**: Located at `(8, 5)`.
+- **Upper Paved Road**: Rows 6-7 across columns 7-13 in front of Gatehouse.
+- **Column 11 North Avenue**: Column 11 at rows 6-10 connects the lower plaza (row 10) to the upper road (row 6).
+- **Gatehouse Plaza (row 10)**: Paved area connecting column 4 to column 11.
+- **Row 12 Green Lawn**: Unbroken horizontal lawn spanning from col 37 west to col 4.
+- **Lower Road (rows 14-15)**: One-way return road back to Viridian City. Row 13 is an impassable south-facing ledge. Avoid hopping south of row 12.
 
 <hr>
 
