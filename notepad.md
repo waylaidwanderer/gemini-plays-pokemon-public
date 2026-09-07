@@ -1653,6 +1653,7 @@
 - Stairs Up: TBD (Hypothesized eastern sector, unverified).
 
 ## Key Events & Encounters
+- Channeler Hope at (9, 9): Trainer battle! Gastly Lv 24 (487 EXP). Defeated Turn 6252 (Prize: ¥720). Defeat dialogue: 'Hmm? What am I doing?'.
 - Silph Scope Verification [Turn 6238]: Encountered wild Gastly Lv 18 at (11, 4). Silph Scope successfully dispelled ghost concealment into identifiable, encounterable sprite.
 
 - Channeler at (15, 8): Trainer battle! Gastly Lv 23 (468 EXP), Gastly Lv 23 (468 EXP). Defeated Turn 5027 (Prize: �¥690). Defeat dialogue: "What!".
