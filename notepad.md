@@ -2209,7 +2209,8 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 ## Key Features & Events
 - Channeler at (16, 5): Defeated Turn 6375 (Gastly Lv 24, 487 EXP, �720). Defeat dialogue: 'Keee!'.
 - Channeler at (12, 10): Sighted facing East along row 10 [Turn 6364].
-- Channeler at (9, 5): Sighted facing South (Down) [Turn 6367].
+- Channeler at (9, 5): Sighted facing South (Down) [Turn 6367]. Line of sight covers col 9 south (rows 6..7).
+- Item Ball at (6, 8): Sighted on floor south of row 7 [Turn 6386].
 
 ## Geography & Layout
 - Arrival Stairs: (18, 9) on east wall.
