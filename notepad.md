@@ -103,7 +103,8 @@
 
 - [x] Arrive in Lavender Town [Turn 4839]
 
-- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]
+- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]- [x] Enter Celadon City via Route 7 [Turn 5434]
+
 
 <hr>
 
@@ -1754,6 +1755,24 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
   - Elevated northwest terrace: Cols 2-6 (rows 0-6) paved corridor.
 - Northern Meadow (Verified Turn 5366): Cols 8-13 at rows 2-5 are passable grass, not solid trees! Tile (8, 5) empirically verified walkable.
 
+
+
+<hr>
+
+<h1><code>Locations/Kanto_CeladonCity</code></h1>
+
+# Celadon City (Kanto)
+
+## Overview
+Major metropolis in central-western Kanto. Features Celadon Department Store, Rocket Game Corner (Hideout), Celadon Mansion, Celadon Hotel, and Celadon Gym (Erika).
+
+## Connections
+- East: Route 7 connection avenue (cols 49..54, rows 10..11) <-> Route 7 (cols 0..1, rows 2..3).
+- West: Route 16 (Cycling Road, Snorlax).
+
+## Geography & Layout
+- Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
+- Entry coordinate from Route 7: (49, 11) facing West [Turn 5434].
 
 
 <hr>
