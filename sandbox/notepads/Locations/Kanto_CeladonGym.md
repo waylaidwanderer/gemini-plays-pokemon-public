@@ -19,13 +19,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Open area at rows 10..11: Spans cols 2..7.
 - Trainer 1 (Lass) at (2, 11): Defeated! Team: Bellsprout Lv 23, Weepinbell Lv 23. Prize: ¥345. Defeat quote: "You're too rough!"
 - Trainer at (7, 10): Lass / Beauty facing West across row 10.
-- Passage North (Rows 7..9): Row 9 has open gap at (4..5, 9). Row 8 has open walkway at (4..5, 8). Row 7 is blocked by shrub at (4, 7) and cuttable tree at (5, 7) [Turn 6742].
+- Passage North (Rows 7..9): Row 9 has open gap at (4..5, 9). Row 8 has open walkway at (4..5, 8). Row 7 has shrub at (4, 7) and cuttable tree at (5, 7).
 ## Room 2 (Rows 4..6)
-- Passage into Room 2: Cuttable tree at (5, 7) cut down [Turn 6751].
+- Passage into Room 2: Cuttable tree at (5, 7) connects row 8 to row 6.
 - Open lawn area at row 6: (3..6, 6) open grass.
 - Flower patch at center: (4..5, 4..5).
-- Trainer at (1, 5): Beauty with blue hair/hat.
+- Trainer at (1, 5): Beauty with blue hair/hat (facing south).
 - Trainer at (9, 5): Trainer with orange hair/hat.
-- Cuttable trees: (2, 4) on west side, (7, 5) on east side.
+- Cuttable trees: (2, 4) on west side [cut down Turn 6780], (7, 5) on east side, (5, 7) on south side.
 - Trainer 2 (Cooltrainer ♀) at (5, 5): Defeated! Team: Weepinbell Lv 24, Gloom Lv 24, Ivysaur Lv 24. Prize: ¥840. Defeat quote: "Oh! Beaten!"
 - Trainer 3 (Lass / Jr. Trainer) at (6, 3): Stepped down to (6, 4). Defeated! Team: Oddish Lv 23, Gloom Lv 23. Prize: ¥345. Defeat quote: "Oh! You!" [Turn 6775].
