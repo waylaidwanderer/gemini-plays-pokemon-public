@@ -2570,9 +2570,7 @@
 - Row 43 Gatehouse: Entrance door at (3, 43) leads through interior gatehouse (4..5, 0..7), exiting north onto Route 23 at (17, 47).
 - Row 43 Guard & Tree Bypass: Guard stands at (16, 43). 2x2 tree at (16..17, 41..42) is bypassed east via column 18: (17, 43) -> Right to (18, 43) -> Up to (18, 39) -> Left to (17, 39).
 - Earth Badge Checkpoint: Guard stands at (4, 35). Red Earth Gate at (4, 31) allows passage north to row 30.
-- Northern Sector & Gate: Cut tree at (14, 4) requires HM01 Cut to access the northern entrance corridor at (16..17, 4).
-- Northern Boundary Warp: Walking north from (17, 0) at the northern gate structure transitions directly to (7, 71) on Route 23.
-- Northern Highway & Cave Entrance: Central paved highway (rows 17-30) leads directly to Victory Road 1F cave entrance.
+- Northern Highway & Cave Entrance: Cave entrance to Victory Road 1F is located at (4, 31).
 
 <hr>
 
