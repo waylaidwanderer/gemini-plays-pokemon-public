@@ -1735,11 +1735,12 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
 ## Northern Highway Passage & Ledges (Verified)
 - Passage at (8, 11): Fully passable from the south (Turn 5316). Links southern Underground Path plaza directly to the northern highway at rows 8-10.
-- Saffron City West Gatehouse: Located at cols 12-17, rows 8-10. Entrance door at cols 10-11, rows 8-9. Fence posts run vertically along col 17.
+- Gatehouse at cols 12-17 (rows 8-10): Fronted by impassable vertical fence posts at (11, 8) and (11, 9) (Turn 5348).
 - Ledge System:
   - Vertical ledge at col 7 (rows 2-6) faces East (one-way hop from west to east; impassable when moving west from col 8, Turn 5327).
-  - Horizontal ledge corner at (6, 7) and (7, 7).
-  - Elevated northwest terrace: Cols 0-6 (rows 2-6) paved corridor.
-- Main Highway: Rows 8-9 form an open paved highway connecting cols 6-11 west towards Celadon City.
+  - Horizontal ledge across row 7 (cols 2-7) faces South (one-way hop from north to south).
+  - Elevated northwest terrace: Cols 2-6 (rows 0-6) paved corridor.
+- Western Border: Cols 0-1 blocked by trees across rows 4-12.
+- Northern Passage: Eastern corridor at cols 14-16 runs north past rows 4-5 tree barrier into rows 0-3 to connect to northwest terrace and Celadon City.
 
 <hr>
