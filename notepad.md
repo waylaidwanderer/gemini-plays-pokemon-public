@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 42, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥44641
+- Money: ¥45241
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -109,7 +109,6 @@
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
 - [x] Teach TM13 Ice Beam to Blastoise (SHELDON) over Water Gun [Turn 5556]
 - [x] Obtain Coin Case from broke gambler in Celadon Diner [Turn 5577]
-
 
 <hr>
 
