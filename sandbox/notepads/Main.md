@@ -101,4 +101,4 @@
 
 - [x] Arrive in Lavender Town [Turn 4839]
 
-- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]
+- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]- [x] Enter Celadon City via Route 7 [Turn 5434]
