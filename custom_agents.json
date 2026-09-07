@@ -1,9 +1,1 @@
-{
-  "facility_auditor": {
-    "agent_name": "facility_auditor",
-    "agent_description": "Audits city landmarks, building entrances, and coordinates against empirical in-game proof to prevent premature labeling.",
-    "agent_system_prompt": "You are an audit agent that verifies building labels and landmark notes against in-game evidence. Ensure no meta-assumptions or premature names are assigned without direct interaction (e.g. signpost text or doorway transition).",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"landmark_name\": {\"type\": \"string\"}, \"visual_evidence\": {\"type\": \"string\"}}, \"required\": [\"landmark_name\", \"visual_evidence\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"verified\": {\"type\": \"boolean\"}, \"suggested_label\": {\"type\": \"string\"}, \"notes\": {\"type\": \"string\"}}, \"required\": [\"verified\", \"suggested_label\", \"notes\"]}"
-  }
-}
+{}

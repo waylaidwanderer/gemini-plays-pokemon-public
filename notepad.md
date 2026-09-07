@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 41, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥42271
+- Money: ¥42871
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -148,14 +148,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥42271
+- ¥42871
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 41, Water]
   - Status: Healthy
-  - HP: 127 / 127
+  - HP: 109 / 127
   - Stats: Attack 91, Defense 107, Speed 91, Special 94
-  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 20/20), Ice Beam (PP 10/10)
+  - Moves: Bite (PP 25/25), Body Slam (PP 15/15), Bubblebeam (PP 18/20), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -1799,8 +1799,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
   - Gambler at (0, 1): Broke gambler gives the COIN CASE [Turn 5577].
 - South Plaza: Paved walkway spanning rows 28..31 between southern building row (row 27) and southern tree barrier (row 32) [Turn 5583].
 - Adjacent Building East: Entrance door at (35, 27) [Turn 5583].
-- Celadon Gym (Erika): Spans cols 8..13, rows 24..27. 'GYM' lettering at (8..11, 26), front entrance door at (12, 27) [Turn 5589].
-- Middle Commercial Complex (Tier 2, rows 14..17): Houses Game Corner and Prize Exchange facing south onto row 18 courtyard [Turn 5589].
+- Celadon Gym: Spans cols 8..13, rows 24..27. 'GYM' lettering at (8..11, 26), front entrance door at (12, 27) [Turn 5589].
 - Rocket Game Corner: Located at cols 26..32+, rows 14..19.
   - Signpost at (27, 21): "ROCKET GAME CORNER / The playground for grown-ups!" [Turn 5596].
   - Front entrance door at (28, 19) [Turn 5596].
@@ -1892,12 +1891,11 @@ Gambling facility in central Celadon City serving as the front for Team Rocket's
 - Entrance Mat: (15, 17) and (16, 17). Exits south to Celadon City at (28, 19).
 - Central Aisle: Cols 15..16 running north through the center of the hall.
 - Slot Machine Banks: Rows 13..15 across cols 11..14 (west) and cols 17..19 (east).
-- Objective: Locate Team Rocket Grunt guarding the poster on the north wall, defeat him, and press the secret switch to open the Rocket Hideout basement.
 - Cross Aisle: Spans horizontally along row 8 across cols 11..19.
 - Upper Slot Bank: Spans cols 12..19 along row 7 with western passage at col 11 [Turn 5601].
 - North Wall: Spans row 4. Col 20 is the eastern border wall.
 - North Corridor: Row 5 spans horizontally in front of the north wall, accessible via col 11 [Turn 5602].
 - Poster: Located on north wall at (9, 4) [Turn 5603].
-- Team Rocket Grunt: Standing at (9, 5) facing north toward poster [Turn 5603].
+- Team Rocket Grunt: Defeated at (9, 5) [Turn 5604-5608] using Sheldon (Raticate Lv 20, Zubat Lv 20; prize �600). Grunt fled off-screen, unlocking access to the poster at (9, 4) [Turn 5611].
 
 <hr>
