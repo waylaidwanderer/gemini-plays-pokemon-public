@@ -70,7 +70,7 @@
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54 - Healthy)
+   - Stats: Max HP 54 (HP: 0/54 - Fainted)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
@@ -98,7 +98,6 @@
 ## Inventory & Resources (Verified Turn 21825)
 - Badges: 8/8 (All Kanto Badges earned!)
 - Active Bag Items: Bicycle, Great Ball x3, HM03 (Surf), HM04 (Strength), Silph Scope, Pok� Flute, Good Rod, TM22, TM27, Max Potion, Escape Rope, Secret Key
-
 
 <hr>
 
