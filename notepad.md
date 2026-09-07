@@ -2847,18 +2847,20 @@
 
 <h1><code>Scratchpad/Route22UpperPath</code></h1>
 
-# Route 22 Upper Path & Traversal Scratchpad
+# Route 22 Traversal & Mapping Scratchpad
 
-## Goal: Zero-Ledge Traversal to Gatehouse at (8, 5)
+## Goal: Clean Traversal from Viridian City to Route 22 Gatehouse at (8, 5)
 
-### Key Rules
-- NEVER hop south over row 13 ledge into the lower road (rows 14-15).
-- Stay on rows 4-6 (Upper Highway) from the moment of entering Route 22 from Viridian City.
-- Front Gatehouse entrance is at (8, 5) on Route 22.
+### Viridian City Navigation Rules
+- When outside Pokémon Center at (23, 26), DO NOT walk south into row 27 (row 27 is a south-facing ledge).
+- Path to Route 22:
+  1. From (23, 26): Walk Left to col 19 at (19, 26).
+  2. Walk Up along col 19 to row 18 at (19, 18).
+  3. Walk Left along row 18 to col 4 at (4, 18).
+  4. Walk Up along col 4 to row 8 at (4, 8).
+  5. Walk Left along row 8 to (0, 8) to enter Route 22 at (39, 8).
 
-### Step-by-Step Waypoint Log
-- Viridian City (23, 26) -> Hop ledge at (19, 27) to (19, 28) -> West to col 4 at (4, 28).
-- North along col 4 to row 4/6/8 -> West to col 0 to enter Route 22 at (39, 4..6).
-- On Route 22: Trace rows 4-6 west across cols 39..8 directly to Gatehouse at (8, 5).
+### Route 22 Coordinate Probe Log
+- Systematic column-by-column probing to find the exact walkable corridor to the Gatehouse at (8, 5).
 
 <hr>
