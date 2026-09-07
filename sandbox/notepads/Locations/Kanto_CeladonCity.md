@@ -11,7 +11,6 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Eastern Entrance Avenue: Paved east-west avenue spanning rows 10..11, bounded by tree borders along rows 7..9 (north) and rows 12..14 (south).
 
 - Pokémon Center (Southeast, Cols 41..43, Rows 7..9): Entrance door at (41, 9), "POKé" sign at (42, 9). Interior features Nurse Joy at (3, 2), PC in northeast corner. Established as warp anchor [Turn 5443].
-- NPC sighted wandering along row 14 at (43, 14).
 - Citizen with Poliwrath at (32, 12) and (30, 12): Mentions Poliwrath evolved from Poliwhirl via Water Stone [Turn 5485-5486].
 - Celadon Mansion (Condominiums): Front entrance door at (24, 9); spans rows 7..9, cols 23..27+ [Turn 5488].
 - North Courtyard: Spans cols 20..21 (rows 7..9) with statue at (21, 9) [Turn 5489].
@@ -34,4 +33,4 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Courtyard Entrance: Open avenue at col 36 connects row 22 to row 20 patio, bypassing fence posts [Turn 5598].
 - Rocket Game Corner Interior: Entered through front door at (28, 19). Entrance mat at interior (15, 17) [Turn 5600].
 - Southern Tree Border: Row 32 tree at (22, 32) is a standard non-cuttable border tree (tested with Cut: "There isn't anything to CUT!" [Turn 6694]). Rows 33..34 lawn south of row 32 is an enclosed/decorative area inaccessible from the South Plaza.
-- Cuttable Tree (Southern Garden Entrance): Located at (35, 32) directly south of Celadon Hotel entrance at (35, 27). This 1x1 cuttable tree blocks access from the South Plaza into the Southern Garden Corridor (rows 33..34) leading west toward Celadon Gym [Verified Turn 6707-6709].
+- Cuttable Tree (Southern Garden Entrance): Located at (35, 32) directly south of Celadon Hotel entrance at (35, 27). Cut down on Turn 6713 to access the Southern Garden Corridor [Turn 6713].
