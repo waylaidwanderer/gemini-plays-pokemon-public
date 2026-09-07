@@ -21,3 +21,4 @@ Fourth and deepest basement level of Team Rocket's underground headquarters bene
 - Server Equipment: Runs along row 1 across cols 10..15.
 
 - Northwest Room Grunt Pre-Battle Quote: "The elevator doesn't work? Who has the LIFT KEY?" [Turn 6056]
+- Northwest Room Grunt Defeated [Turn 6066]! Team: Koffing Lv 21, Zubat Lv 21; prize ¥630. Defeat quote: 'ROCKET: No!'.
