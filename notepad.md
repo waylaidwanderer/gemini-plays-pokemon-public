@@ -131,6 +131,7 @@
 - SUPER REPEL x5
 - ELIXER x1
 - TM49 (TRI ATTACK) x1
+- NUGGET x1
 
 ## Key Items
 - S.S. TICKET
@@ -143,7 +144,6 @@
 ## Stored / PC Items
 - TM34 (BIDE) x1 (PC)
 - TM12 (WATER GUN) x1 (PC)
-- NUGGET x1 (PC)
 - HELIX FOSSIL x1 (PC)
 - TOWN MAP x1 (PC)
 
