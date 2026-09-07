@@ -7,10 +7,10 @@ Open-air rooftop square of the Celadon Department Store featuring vending machin
 - Stairs down to 5F: Located at (15, 2). Landing at (15, 3).
 - Rooftop Sign: Located at (13, 2).
 - Vending Machines: Located at (11, 1..2) and (12, 1..2). Accessible from row 3 facing North.
-  - FRESH WATER: ¥200
-  - SODA POP: ¥300
-  - LEMONADE: ¥350
+  - FRESH WATER: ï¿½200
+  - SODA POP: ï¿½300
+  - LEMONADE: ï¿½350
 - Patio & Tables: Checkered blue/cream tiles across rows 3..6. Picnic table at (9, 4..5).
-- NPC: Thirsty Girl at (10, 4) seated at picnic table.
+- NPC: Little Boy at (10, 4) seated at picnic table ("My sister is a trainer, believe it or not...").
 - Rooftop Railing: South border along row 7.
 - Sky Border: Deep blue open sky along north and east edges.
