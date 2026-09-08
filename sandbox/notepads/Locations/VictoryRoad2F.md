@@ -52,9 +52,8 @@
 
 ## Verified Post-Shutter 2F Route to Ladder A (23, 7)
 - From lowered Shutter 1 at (5, 10), walk North through (5, 9) onto Central-East Highway at (5, 8).
-- Proceed East along row 8 across columns 5 through 23 to (23, 8).
-- Step North 1 time into (23, 7) onto Ladder A to ascend directly to Victory Road 3F at (23, 7)!
-- Physical layout: Rows 8 and 9 form a completely open 2-tile wide horizontal corridor connecting the western shutter area (col 5) directly to the eastern wall and Ladder A (col 23).
+- Note: Column 15 contains a solid rock wall at (15, 8..11) dividing the western upper plateau from the eastern upper plateau. Passage to the eastern sector is via the Row 12 / Row 16 lower highway.
+- Shutter 1 at (5, 10) and Shutter 3 at (21, 15) allow seamless transit along the southern corridor (Row 16) directly to the eastern sector (cols 21-29).
 ## 2F Pit Drop & Exit Investigation (Turn 35671)
 - Pit Boulder dropped from 3F lands on 2F at (23, 16).
 - Empirical test: Pushing boulder East into (29, 16) dead-ends against (30, 16) rock wall and does NOT open Exit Shutter at (27, 10). Shutter at (27, 10) confirmed closed on Turn 35669.
