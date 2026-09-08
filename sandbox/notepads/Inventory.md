@@ -37,7 +37,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥68108
+- ¥68758
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
