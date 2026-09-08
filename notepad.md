@@ -169,7 +169,7 @@
   - Status: Healthy
   - HP: 120 / 154
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 0/25), Body Slam (PP 2/15), Bubblebeam (PP 6/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 0/25), Body Slam (PP 1/15), Bubblebeam (PP 6/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2379,7 +2379,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
   - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26. Defeated on Turn 7085 [Verified Turn 7085].
-- Row 12 corridor continues west past col 7 through cols 3..6 toward Route 14 [Verified Turn 7087].
 - Western End of Row 12: Dead-ends at col 0 blocked by fence post at (0, 12) and dead-end alcove at (1, 13) [Verified Turn 7088].
 - Upper Fence Maze Layout (Cols 13..22, Rows 3..10):
   - Row 9 has opening at (13, 9) leading north into row 8.
@@ -2392,6 +2391,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Upper Fence Bypass (Cols 23..26):
   - Row 5 fence ends at col 23; cols 24..25 are open ground connecting row 6 and row 4 [Verified Turn 7106].
   - Col 26 has vertical fence at rows 3..5 [Verified Turn 7106].
-- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4) [Turn 7117].
+- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25 [Turn 7117].
 
 <hr>
