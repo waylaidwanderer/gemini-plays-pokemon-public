@@ -182,8 +182,8 @@
   - Moves: Scratch (PP 35/35)
   - EXP: 1000 (331 to Lv 11)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy
-  - HP: 20 / 20
+  - Status: Fainted [Turn 7295]
+  - HP: 0 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 25/30)
