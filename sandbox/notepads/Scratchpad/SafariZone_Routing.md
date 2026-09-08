@@ -90,3 +90,4 @@
 - Turn 8232: Submenu open on TM02 with USE/TOSS. Pressing Down to select TOSS and A to initiate tossing TM02.
 - Turn 8233: Quantity box '×01' open. Pressing A to confirm quantity 1 and A to select YES to toss TM02.
 - Turn 8234: Selected YES to toss TM02. Pressing A to confirm toss, followed by B, B, B to exit menus to overworld at (19, 6).
+- Turn 8235: Pressed A at (19, 6) facing (19, 7). Screen confirmed: 'BLUE found GOLD TEETH!'! Key item GOLD TEETH successfully collected! 14 steps remaining in session.
