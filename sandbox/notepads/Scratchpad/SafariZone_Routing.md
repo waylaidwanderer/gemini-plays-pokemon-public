@@ -69,3 +69,4 @@
 - Turn 8144: Confirmed (25, 23) is solid cliff. Diagonal pinch is impassable; northern lawn is an enclosed basin. Executing backtrack via staircase (34, 15) to traverse eastern plateau to southern boulevard and access (22, 23) from the south.
 - Turn 8145: Reached (31, 19). Staircase (34, 15) in sight. Walking to (34, 16) and ascending to (34, 14) on the upper plateau.
 - Turn 8147: Standing at (34, 14) on upper plateau. Walking east to (37, 14) and south along elevated ridge to (37, 18).
+- Turn 8149: Walking south along elevated ridge to southern plateau junction at (37, 24).
