@@ -127,8 +127,7 @@
 
 # Inventory Log
 
-## Items (9 / 11)
-- ESCAPE ROPE x2
+## Items (8 / 11)
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
@@ -150,8 +149,7 @@
 - HM04 (STRENGTH) [Received Turn 8274]
 
 ## Inventory Capacity
-## Inventory Capacity
-- Total Slots Used: 20 / 20 (Full). TM02 tossed Turn 8234, HM04 Strength received Turn 8274.
+- Total Slots Used: 19 / 20 (1 Free Slot for HM03 Surf). ESCAPE ROPE x2 tossed Turn 8309.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -221,7 +219,6 @@
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 7581]
   - Transferred to PC Box 1 (Active Party full)
-
 
 <hr>
 
