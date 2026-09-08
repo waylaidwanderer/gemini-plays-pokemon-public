@@ -2588,6 +2588,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 32..38. Staircase at (34, 15) descends south to open lawn at (34, 16) [Verified Turn 8132].
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
+- Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
 
 <hr>
 
@@ -2657,5 +2658,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8135: Reached (25, 15). Continuous statue barrier along row 11. Rows 12..19 form a wide open lawn corridor extending west past col 21. Advancing west along row 15 to (21, 15).
 - Turn 8136: Reached (21, 15). Rows 12..19 continue as wide open lawn corridor across cols 17..21. Tree line begins at (17, 11). Advancing west along row 15 to (17, 15).
 - Turn 8137: At (17, 15). Column 16 is a vertical tree wall blocking west at row 15. Moving Down along col 17 lawn to (17, 19) to locate southern bypass into col 15.
+- Turn 8139: At (17, 19). Confirmed col 16 tree wall extends to row 19, and row 20 is an elevated plateau cliff (cols 14..22+). Spotted western staircase at (22, 23)! Moving east along row 19 to (22, 19) to access the southern corridor around col 25.
 
 <hr>
