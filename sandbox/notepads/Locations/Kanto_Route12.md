@@ -39,3 +39,4 @@
 - Bridge Junction Rows 90..93: Cols 10..11 has tall grass across rows 90..91. Jr. Trainer ♂ Justin at (11, 92). Team: Nidoran♂ Lv 29, Nidorino Lv 29. Defeated on Turn 7014. Main bridge continues south across cols 7..11 at rows 92..93+ [Verified Turn 7014].
 - Platform at Rows 94..95: Wide dock across cols 10..15. Railing blocks south at (10..13, 96). Open bypass corridor at cols 14..15 connects rows 96..98+ [Verified Turn 7016].
 - Bridge Corridor Rows 100..101+: Railing blocks south at (10..11, 100) and (14..15, 100). Open 2-tile bridge corridor at cols 12..13 continues south across rows 100..101+ over water [Verified Turn 7017].
+- Bridge Continuation Rows 104..109+: Cols 12..13 dead-ends at row 106 railing. Main 2-tile bridge corridor shifts west to cols 10..11 continuing south across rows 104..109+ over water toward Route 13 [Verified Turn 7019].
