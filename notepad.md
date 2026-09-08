@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-# Pokéémon Blue - Journey Log
+# Pok��mon Blue - Journey Log
 
 
 
@@ -10,8 +10,8 @@
 
 - Active Team: Blastoise (SHELDON) Lv 49, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥70808
-- Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
+- Money: �71388
+- Pok��dex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
 
@@ -21,21 +21,21 @@
 
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
 
-- [x] Receive Starter Pokéémon from Professor Oak (Squirtle) [Turn 40]
+- [x] Receive Starter Pok��mon from Professor Oak (Squirtle) [Turn 40]
 
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 
 - [x] Reach Viridian City via Route 1 [Turn 132]
 
-- [x] Visit Viridian City Pokéé Mart [Turn 169]
+- [x] Visit Viridian City Pok�� Mart [Turn 169]
 
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
 
-- [x] Obtain Pokéédex from Prof. Oak [Turn 214]
+- [x] Obtain Pok��dex from Prof. Oak [Turn 214]
 
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
 
-- [x] Return to Viridian City, heal team & purchase Pokéé Ball [Turn 284]
+- [x] Return to Viridian City, heal team & purchase Pok�� Ball [Turn 284]
 
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 
@@ -69,7 +69,7 @@
 
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 
-- [x] Obtain Bike Voucher from Pokéémon Fan Club Chairman in Vermilion City [Turn 2796]
+- [x] Obtain Bike Voucher from Pok��mon Fan Club Chairman in Vermilion City [Turn 2796]
 
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 
@@ -103,7 +103,7 @@
 
 - [x] Arrive in Lavender Town [Turn 4839]
 
-- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]
+- [x] Defeat Rival RED on Pok��mon Tower 2F [Turn 4940]
 - [x] Enter Celadon City via Route 7 [Turn 5434]
 - [x] Purchase drinks (Fresh Water, Soda Pop, Lemonade) on Celadon Dept. Store Roof [Turn 5522]
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
@@ -112,9 +112,9 @@
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Reach Rocket Hideout B4F [Turn 6050]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
-- [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
+- [x] Rescue Mr. Fuji from Pok�mon Tower and obtain Pok� Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
-- [x] Awaken and defeat sleeping Snorlax on Route 12 with Poké Flute [Turn 6981]
+- [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
 
 
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
@@ -162,7 +162,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥70808
+- ¥71388
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
@@ -2421,7 +2421,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
 - Biker at (15, 30): Stationed at (15, 30) facing West across tall grass. Line: "We ride out here because there's more room!". Team: Koffing Lv 29, Muk Lv 29. Defeated on Turn 7195 [Turn 7195]. Engaged at (13, 30) [Turn 7192].
-- Trainer at (15, 31): Stationed east of road at (15, 31) [Observed Turn 7187].
+- Trainer at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary...". Engaged at (13, 31) [Turn 7198].
 - Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].
 
 <hr>
