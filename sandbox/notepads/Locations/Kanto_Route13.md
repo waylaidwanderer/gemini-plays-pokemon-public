@@ -46,4 +46,4 @@
 - Upper Fence Bypass (Cols 23..26):
   - Row 5 fence ends at col 23; cols 24..25 are open ground connecting row 6 and row 4 [Verified Turn 7106].
   - Col 26 has vertical fence at rows 3..5 [Verified Turn 7106].
-- Jr. Trainer ♀ at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4) [Turn 7117].
+- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4) [Turn 7117].
