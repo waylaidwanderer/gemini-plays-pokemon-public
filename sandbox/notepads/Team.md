@@ -34,6 +34,6 @@
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Pok� Flute, Silph Scope, Good Rod, Secret Key
+- Key Items: Bicycle, Poké� Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
-- Funds: �50,000+ available for supplies at Indigo Plateau Mart
+- Funds: �¥50,000+ available for supplies at Indigo Plateau Mart
