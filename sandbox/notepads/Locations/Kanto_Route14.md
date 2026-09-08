@@ -10,6 +10,6 @@
 - Bird Keeper at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good moves to POKéMON!". Team: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Defeated on Turn 7162 [Turn 7162].
 - Col 3 is vertical rock cliff dividing eastern corridors from western wild grass patch (cols 1..2) [Verified Turn 7152].
 - NPC at (15, 6) is in row 6 corridor below row 5 fence; line of sight to row 4 is blocked by fence [Verified Turn 7149].
-- Row 6 Corridor: Extends east from col 4 past col 10 bounded north by row 5 fence and south by row 7 fence [Verified Turn 7164].
+- Row 6 Corridor: Extends east from col 4 to col 14, where row 7 opening connects to row 8 [Verified Turn 7165].
 - Row 8 Corridor: Open ground across cols 4..10 below row 7 fence [Verified Turn 7164].
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
