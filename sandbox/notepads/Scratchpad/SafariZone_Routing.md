@@ -65,3 +65,4 @@
 - Turn 8170: At (8, 30). Confirmed columns 6..7 form open north-bound tall grass corridor. Walking Left to col 6 and Up along col 6 to (6, 26).
 - Turn 8172: Standing at (6, 26). Walking Up 4 times along col 6 corridor to (6, 22) on northern promenade.
 - Turn 8173: Reached (6, 22). Pond at (4..7, 18..19) blocks direct northwest path; col 8 is open lawn heading north past pond. Moving Up to row 21, Right to col 8, and Up along col 8 to (8, 18).
+- Turn 8175: Standing at (8, 18). Walking Up 4 times along col 8 to (8, 14) to clear the pond and reach the northern promenade to Area 3.
