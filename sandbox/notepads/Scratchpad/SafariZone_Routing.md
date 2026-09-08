@@ -22,3 +22,4 @@
   4. Ascend north along eastern corridor to rows 10..11 to cross into Area 1.
 - Turn 7890: Confirmed walkable passage through tree wall at (23, 15). Testing eastbound tiles into col 28 corridor.
 - Turn 7895: Confirmed (24, 15) is also a passable tree tile. Row 15 tree tunnel extends east toward col 28 open lawn. Testing (25, 15).
+- Turn 7897: Confirmed (25, 15) is passable. Row 15 tree tunnel continues east. Advancing 3 steps Right through (26..27, 15) to emerge onto col 28 open lawn.
