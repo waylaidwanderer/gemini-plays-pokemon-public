@@ -2544,5 +2544,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Item Ball: Located at (21, 10) on the northern lawn.
 - Wooden Staircase: Located at (26, 10), leading north from the lawn.
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
+- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Access to northern lawn and Area 2 lies via western path north of entrance signpost at (5, 23).
 
 <hr>
