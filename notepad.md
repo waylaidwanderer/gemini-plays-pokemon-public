@@ -2490,11 +2490,12 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
 - Northern Building: Roof observed at cols 17..22 rows 22..23 (collision verified at 21, 22 on Turn 7355, 20, 22 on Turn 7387, and 19, 22 on Turn 7390; cols 17..18 untested).
-- Northern Monuments: Display signboards at (21, 15) and (25, 15).
+- Northern Monuments: Display signboard at (21, 15).
 - Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Building East of Center: Located at cols 26..29 rows 25..27 with entrance door at (27, 27) [Observed Turn 7324].
 - Barrier at Col 23: Solid vertical barrier along col 23 rows 26..31 blocks direct passage between col 24 and the Pokémon Center grounds (empirically confirmed Turn 7329 at 24, 28).
-- Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0 and the western building (Fuchsia Gym) at cols 2..9 rows 22..25.
+- Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0.
+- Poké Mart: Located at cols 4..7 rows 11..13 with entrance door at (5, 13) and MART sign at (6, 13) [Verified Turn 7411].
 - Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
 - Fuchsia Gym: Located at cols 4..9 rows 24..27 with entrance door at (5, 27) and GYM sign at (6, 26) [Verified Turn 7342]. Front faces south onto row 28 paved road.
 - Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28). Southern boundary is a south-facing ledge at row 31 cols 3..6.
