@@ -6,7 +6,6 @@
 - SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
-- NUGGET x1
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
@@ -23,7 +22,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). TM07 tossed Turn 7683.
+- Total Slots Used: 18 / 20 (2 slots free). NUGGET tossed Turn 7690.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
