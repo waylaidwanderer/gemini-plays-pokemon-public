@@ -29,3 +29,5 @@
 - Sleeping Snorlax: Stationed at (10, 62) facing South. Awakened with Poké Flute and defeated on Turn 6981; chokepoint permanently cleared [Verified Turn 6981].
 - Bridge Segment Rows 63..71: Grass and signpost at (11, 63). Railing at row 64. 2-tile bridge continues south down cols 10..11 across rows 64..71 over water [Verified Turn 6985].
 - Platform at Rows 72..73+: Bridge widens eastward across cols 10..15+ [Verified Turn 6985].
+- Fishing Guru's Brother's Cottage: Located at cols 10..13, rows 76..77. Front door at (11, 77). North approach blocked by railing at (10..13, 74) and water at (10..13, 75); bypass dock is to the east at cols 14..15 [Verified Turn 6986].
+- Fisherman NPC: Stationed at (14, 76) facing North [Verified Turn 6986].
