@@ -2646,16 +2646,16 @@
 ## Complete 1-Run Victory Road Solution
 1. **Victory Road 1F**:
    - Cast Strength on Machop ATLAS.
-   - Push Boulder at (5, 15) onto Switch Plate at (17, 13) using verified master protocol.
+   - Push Boulder at (5, 15) onto Switch Plate at (17, 15) using verified master protocol.
    - Lowers Shutters at (5, 13) and (7, 7).
    - Ascend SW Ladder at (1, 1) to 2F (enters 2F at (0, 8)).
 
 2. **Victory Road 2F (First Pass)**:
    - Cast Strength on Machop ATLAS.
    - In SW Room: Push Boulder at (4, 14) onto Switch 1 at (1, 16).
-   - Lowers Shutter 1 at (5, 10).
-   - Walk through lowered Shutter 1 at (5, 10) -> Row 8 purple corridor -> Column 14 -> Row 14 -> Ladder B at (27, 15).
-   - Ascend Ladder B at (27, 15) to 3F (enters 3F at (27, 15)).
+   - Lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
+   - Walk through lowered Shutter 1 at (5, 10) -> Row 8 purple corridor -> Column 14 -> Row 12/14 -> Shutter 3 at (21, 15) -> Row 16 highway -> Ladder B at (25, 14).
+   - Ascend Ladder B at (25, 14) to 3F (enters 3F at (25, 14)).
 
 3. **Victory Road 3F**:
    - Cast Strength on Machop ATLAS.
