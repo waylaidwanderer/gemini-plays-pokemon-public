@@ -2602,5 +2602,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7805: Verified (21, 13) is solid water collision. North access via col 21 is blocked.
 - Routing Realization: Area 1 entrance is via southern corridor (rows 21..24) east of Rest House 1, matching the verified Area 1 West Exit at (0, 22..23). Moving south along col 21.
 - Turn 7808: At (21, 18) (~480 steps left). Row 19, 20, 21 along col 21 are clear grass. Advancing south to row 21/22.
+- Turn 7810: At (21, 21) (~477 steps left). Cropped (22, 24) confirming statue. Southern corridor is blocked at col 22 by trees/statue. Traversing west along row 21 toward the western bypass around the central pond.
 
 <hr>
