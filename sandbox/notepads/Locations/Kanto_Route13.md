@@ -36,3 +36,11 @@
 - Row 12 corridor continues west past col 7 through cols 3..6 toward Route 14 [Verified Turn 7087].
 - Western End of Row 12: Dead-ends at col 0 blocked by fence post at (0, 12) and dead-end alcove at (1, 13) [Verified Turn 7088].
 - True Route 14 Exit Path: Retrace East along row 12 to col 7/8, step North to row 10, walk East along row 10 to col 13, step North through (13, 9) gap to row 8, then follow row 8 West past col 0 to Route 14 [Verified Turn 7088].
+- Upper Fence Maze Layout (Cols 13..22, Rows 3..10):
+  - Row 9 has opening at (13, 9) leading north into row 8.
+  - Row 8 connects (13, 8) east to (17, 8) bounded by row 7 fence north and row 9 fence south.
+  - Row 7 has opening at (17, 7) connecting row 8 to row 6 [Verified Turn 7103].
+  - Row 6 corridor extends east from (17, 6) across cols 18..22+ bounded by row 5 fence north and row 7 fence south [Verified Turn 7103].
+  - Col 16 vertical fence (rows 5..7) separates eastern corridors from western open section.
+  - Western open section (cols 9..15) has rows 4..6 open ground connecting to trainer at (12, 4).
+  - Row 4 is open across cols 13..22 bounded north by solid row 3 fence. Path forward routes east along row 6 to bypass row 5 fence, then west across row 4 [Verified Turn 7103].
