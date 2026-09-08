@@ -7,13 +7,13 @@
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
 
 ## Notepads Index
-- `Team`: Current party roster, battle stats, move sets, boxed Pok�émon, capture equipment
+- `Team`: Current party roster, battle stats, move sets, boxed Poké�émon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Viridian Forest layout, Bug Catchers, item locations
-- `Locations/PewterCity`: Pewter City points of interest, Pok�émon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Poké�émon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F tunnels, ladder transitions
@@ -31,19 +31,19 @@
 - `Locations/SSAnneB1F`: S.S. Anne B1F layout, Sailors, Fishermen, items
 - `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
 - `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pok�émon Center, Jr. Trainer Carol battle
+- `Locations/Route10`: Route 10 layout, Poké�émon Center, Jr. Trainer Carol battle
 - `Locations/RockTunnel1F`: Rock Tunnel 1F layout, standardized ladder matrix, trainers
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladder connectivity matrix, exit ladder
-- `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�émon Tower, Name Rater, Pok�émart
+- `Locations/LavenderTown`: Lavender Town layout, buildings, Poké�émon Tower, Name Rater, Poké�émart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
-- `Locations/Pok�emonTower1F`: Pok�émon Tower 1F layout, mourning NPCs, ascending stairs
-- `Locations/Pok�emonTower2F`: Pok�émon Tower 2F layout, Rival RED battle, Channeler dialogue
-- `Locations/Pok�emonTower3F`: Pok�émon Tower 3F layout, Channelers, ascending stairs
-- `Locations/Pok�emonTower4F`: Pok�émon Tower 4F layout, items, Channelers
-- `Locations/Pok�emonTower5F`: Pok�émon Tower 5F layout, Purified Zone healing tile, Channelers
-- `Locations/Pok�emonTower6F`: Pok�émon Tower 6F layout, Ghost Marowak battle, stairs
-- `Locations/Pok�emonTower7F`: Pok�émon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
+- `Locations/Poké�emonTower1F`: Poké�émon Tower 1F layout, mourning NPCs, ascending stairs
+- `Locations/Poké�emonTower2F`: Poké�émon Tower 2F layout, Rival RED battle, Channeler dialogue
+- `Locations/Poké�emonTower3F`: Poké�émon Tower 3F layout, Channelers, ascending stairs
+- `Locations/Poké�emonTower4F`: Poké�émon Tower 4F layout, items, Channelers
+- `Locations/Poké�emonTower5F`: Poké�émon Tower 5F layout, Purified Zone healing tile, Channelers
+- `Locations/Poké�emonTower6F`: Poké�émon Tower 6F layout, Ghost Marowak battle, stairs
+- `Locations/Poké�emonTower7F`: Poké�émon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
 - `Locations/Route12`: Route 12 layout, Gatehouse, Sleeping Snorlax roadblock
 - `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Mansion, Game Corner
 - `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, Grunts, hidden stairs
@@ -60,7 +60,7 @@
 - `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
-- `Locations/IndigoPlateau`: Pok��mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
+- `Locations/IndigoPlateau`: Poké��mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
 
 
 <hr>
@@ -103,9 +103,9 @@
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Pok� Flute, Silph Scope, Good Rod, Secret Key
+- Key Items: Bicycle, Poké� Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
-- Funds: �50,000+ available for supplies at Indigo Plateau Mart
+- Funds: �¥50,000+ available for supplies at Indigo Plateau Mart
 
 
 <hr>
@@ -2862,44 +2862,52 @@
 
 <h1><code>Locations/IndigoPlateau</code></h1>
 
-# Indigo Plateau & Pok�mon League HQ
+# Indigo Plateau & Pokémon League HQ
 
 ## Building Layout & Points of Interest
-- **Entrance Lobby**:
-  - Pok�mon Center Counter: Nurse Joy heals party for free (west side).
-  - Pok�mart Counter: Items and supplies.
-  - PC Terminal: Box management and item storage.
-  - Elite Four Entrance Gate: North corridor leading to Room 1 (Lorelei).
+- **Reception Lobby**:
+  - Entrance Mat (South): Rows 7-8 at `(3..4, 7)`, exits south to Route 23 exterior at `(13, 25)`.
+  - Nurse Joy Counter: Located at `(3, 1)` with counter at `(3, 2)` (approach from `(3, 3)` facing UP). Heals party to 100% HP/PP and sets respawn point to Indigo Plateau.
+  - Chansey: Located at `(1, 3)`.
+  - PC Terminal: Located at `(13, 3)` with table at `(13, 4)`.
+  - Cable Club Attendant: Located at `(11, 2)` between gold gates at `(10, 2)` and `(12, 2)`.
+  - Row 2 Counter Barrier: Continuous counter barrier spanning `(0..9, 2)` and `(13, 2)`.
+  - NPC at `(0, 4..5)`: NPC standing on west wall.
+  - NPC at `(11, 7)`: NPC standing on south-east wall.
+
+## Route 23 Exterior & League Access
+- Pokémon Center Reception Building: Located at `(12..15, 22..25)` on Route 23 exterior with door at `(13, 25)`.
+- Exterior stairs: Located at `(9, 28..29)`.
 
 ## Gauntlet Mechanics & Reset Protocol
-- **Sequential Gauntlet Rule**: The Pok�mon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pok�mon Centers.
-- **Blackout & Failure Reset**: Blacking out at any point during the gauntlet (even against Champion RED) completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pok�mon Center. The entire gauntlet must be completed from Room 1 in a single run.
-- **Preparation & Rematch Strategy**: Ensure full party health, max PP on sweeper moves (Ice Beam, Surf, Double-Edge), and carry restoratives (Full Restores / Revives) before entering Room 1.
+- **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
+- **Blackout & Failure Reset**: Blacking out at any point during the gauntlet completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokémon Center. The entire gauntlet must be completed in a single run.
+- **Preparation & Rematch Strategy**: Ensure full party health, max PP on sweeper moves (Ice Beam, Surf, Double-Edge), and carry restoratives before entering Room 1.
 
 ## Elite Four Gauntlet Chambers & Verified Rosters
 1. **Room 1: Lorelei (Ice / Water Specialist)**
-   - Room Layout: Ice floor tiles with statues. Door at (4, 1)/(5, 1).
    - Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
+   - Sweep Strategy: Double-Edge on Dewgong, Jynx, Lapras; Surf/Double-Edge on Cloyster; Bite/Double-Edge on Slowbro.
    - Status: REMATCH PENDING
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
-   - Room Layout: Rock boulder walls. Door at (4, 1)/(5, 1).
    - Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
+   - Sweep Strategy: Surf on Onix/Machamp; Ice Beam/Double-Edge on Hitmons.
    - Status: REMATCH PENDING
 
 3. **Room 3: Agatha (Ghost / Poison Specialist)**
-   - Room Layout: Tombstones surrounding room. Door at (4, 1)/(5, 1).
    - Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
+   - Sweep Strategy: Surf/Ice Beam on Gengars/Haunter; Surf/Ice Beam on Golbat/Arbok.
    - Status: REMATCH PENDING
 
 4. **Room 4: Lance (Dragon Specialist)**
-   - Room Layout: Dragon statues lining walls. Door at (5, 0)/(6, 0).
    - Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
+   - Sweep Strategy: Double-Edge on Gyarados; Ice Beam on Dragonairs, Aerodactyl, Dragonite.
    - Status: REMATCH PENDING
 
-5. **Champion Chamber: Rival RED**
-   - Room Layout: Enclosed championship room.
+5. **Champion Chamber: Champion RED**
    - Roster: Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65.
+   - Sweep Strategy: Ice Beam on Pidgeot, Rhydon, Venusaur; Surf on Arcanine; Double-Edge on Alakazam, Gyarados.
    - Status: REMATCH PENDING
 
 
