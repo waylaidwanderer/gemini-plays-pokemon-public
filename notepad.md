@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Gauntlet In Progress (Lorelei, Bruno, Agatha Defeated; Proceeding to Lance in Room 4)
+- League Status: Elite Four Gauntlet Conquered (Lorelei, Bruno, Agatha, Lance Defeated); Champion Battle against RED Active in Champion Chamber!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -2904,12 +2904,12 @@
   - Dragonite Lv 62: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
 
 - Champion Chamber (Champion RED):
-  - Pidgeot Lv 61: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO)
-  - Alakazam Lv 59: Double-Edge (Slot 1: A - Guaranteed OHKO vs 45 Def!)
-  - Rhydon Lv 61: STAB Surf (Slot 4: Down 3, A - 4x SE OHKO)
-  - Gyarados Lv 63: Double-Edge (Slot 1: A - physical 2HKO)
-  - Arcanine Lv 63: STAB Surf (Slot 4: Down 3, A - 2x SE OHKO)
-  - Venusaur Lv 65: Ice Beam (Slot 2: Down 1, A - 2x SE) + Double-Edge finisher
+  - Pidgeot Lv 61: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO) [Consumes final Ice Beam PP -> 0/10]
+  - Alakazam Lv 59: Double-Edge (Slot 1: A - Guaranteed OHKO vs 75 Def!) [DE PP -> 6/15]
+  - Rhydon Lv 61: STAB Surf (Slot 4: Down 3, A - 4x SE OHKO) [Surf PP -> 2/15]
+  - Gyarados Lv 63: Double-Edge (Slot 1: A - physical 2HKO) [DE PP -> 4/15]
+  - Arcanine Lv 63: STAB Surf (Slot 4: Down 3, A - 2x SE OHKO) [Surf PP -> 1/15]
+  - Venusaur Lv 65: Double-Edge (Slot 1: A - physical 2HKO vs 126 Def) [DE PP -> 2/15]
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
