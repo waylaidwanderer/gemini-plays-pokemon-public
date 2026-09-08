@@ -2532,6 +2532,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - North Exit (to Area 2): Northern boundary (approx cols 14..15 row 0).
 - Route Progression: Clockwise traversal (Center Area -> Area 1 -> Area 2 -> Area 3).
 
+## Area 1 (East)
+- West Exit: Center Area at (0, 22..24). Player enters at (0, 23).
+- Signpost: Located at (5, 23).
+- Geography: Open lawn corridor runs east from the west border (rows 21..24) bounded by hedges at row 20 and row 25.
+
 <hr>
 
 <h1><code>Locations/Kanto_SafariZone.md</code></h1>
@@ -2558,7 +2563,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Area 1 (East)
 - West Exit: Center Area at (0, 22..24). Player enters at (0, 23).
-- Signpost: Located at (5, 23).
-- Geography: Open lawn corridor runs east from the west border (rows 21..24) bounded by hedges at row 20 and row 25.
+- Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
+- Geography: Row 23 blocked east of player by signpost (5, 23) and stumps/bushes (6..9, 23). Clear open lawn corridor runs along row 24 (cols 0..9+) bounded by southern hedge at row 25.
 
 <hr>
