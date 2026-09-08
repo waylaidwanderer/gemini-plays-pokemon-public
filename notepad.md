@@ -2487,5 +2487,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Geography & Layout
 - Eastern Entrance Highway: 2-tile wide paved road along rows 8..9 from gatehouse at (8, 8..9) bounded north by stone fence at row 7 and south by stone fence at row 10 [Verified Turn 7314].
 - East Border: Enters from Route 15 gatehouse corridor at (39, 16..17) [Verified Turn 7316]. Road runs west to col 36, then opens south toward the central district.
+- Boulevard Junction: Road turns south along cols 36..37 rows 16..18, connecting to a wide east-west paved boulevard along row 18 extending west across cols 32..37 [Verified Turn 7317].
+- Trees block westward traversal along row 16 at col 35.
+- Building observed to the south at cols 32..33 rows 20+.
 
 <hr>
