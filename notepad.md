@@ -126,10 +126,9 @@
 
 # Inventory Log
 
-## Items (11 / 12)
+## Items (9 / 11)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
-- MAX POTION x0 [Used Turn 7261] [Verified Turn 6400]
 - SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
@@ -150,7 +149,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (0 slots free - Bag Full). Verified Turn 7001.
+- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7529 via Bag inspection.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2539,5 +2538,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path, making this staircase the mandatory path north to Area 2.
+## Area 1 Features & Landmarks
+- Rock Plateau: Spans cols 19..26 rows 12..14, accessed by stairs at (24, 15).
+- Northern Lawn: Extends along rows 10..11 cols 20..25.
+- Item Ball: Located at (21, 10) on the northern lawn.
+- Wooden Staircase: Located at (26, 10), leading north from the lawn.
+- Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
 
 <hr>
