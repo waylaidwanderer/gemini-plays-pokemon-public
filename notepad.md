@@ -2536,7 +2536,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - West Exit: Center Area at (0, 22..24). Player enters at (0, 23).
 - Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
 - Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
-- Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Row 23 opening at (17..18, 23) leads into row 22 corridor between plateau and southern hedges.
+- Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
+- Eastern Bypass: Row 22 corridor (tall grass cols 18..24) connects east to an open north-south corridor at cols 24..25+. Clear lawn at rows 18..19 cols 24..25 leads north toward Area 2.
 
 <hr>
 
@@ -2567,6 +2568,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
 - Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
 - Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
-- Eastern Bypass: Row 22 corridor (tall grass cols 18..24) connects east to an open north-south corridor at cols 24..25+. Clear lawn at rows 18..19 cols 24..25 leads north toward Area 2.
+- Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 18..19 across cols 24..28 (and cols 27..28 across all rows) leads north toward Area 2.
 
 <hr>
