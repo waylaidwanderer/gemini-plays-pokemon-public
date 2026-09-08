@@ -7,48 +7,46 @@
   - When HYDROS is unparalyzed, it strikes FIRST on turn 1 of every Agatha matchup, achieving 1-hit knockouts with STAB Surf (Gengar, Haunter, Arbok) and Ice Beam (Golbat) BEFORE they can ever cast Confuse Ray or Hypnosis!
   - In Room 1 (Lorelei), knock out Lapras swiftly using Surf / Double-Edge to minimize the window for Body Slam paralysis.
 
-## Gauntlet Master PP Budget & Strategy (Rooms 2-5)
-- Current Party Status entering Room 2:
-  - HYDROS: Lv 80 (HP: 191/274, Speed: 195, Special: 203)
-  - PP: Double-Edge (14/15), Ice Beam (9/10), Bite (25/25), Surf (8/15)
+## Status Mitigation & Poké Flute Protocol
+- **Poké Flute in Battle**: The Bag contains the Poké Flute (infinite uses). When HYDROS is put to sleep (e.g. by Hypnosis), opening `ITEM` and selecting `POKé FLUTE` instantly awakens HYDROS on the next turn, eliminating multi-turn sleep risks and completely preventing Dream Eater attacks!
+- **Speed Dominance**: At Lv 81, HYDROS has 200 Speed, outspeeding every Pokémon across Lorelei, Bruno, Agatha, Lance, and Champion RED. Always strike first with STAB Surf, Ice Beam, or Double-Edge.
 
-1. **Room 2: Elite Four Bruno (Rock / Fighting)**
-   - Onix Lv 53 (Rock/Ground): Ice Beam (1 PP, 4x Super-Effective OHKO, saves Surf PP!)
-   - Hitmonchan Lv 55 (Fighting): STAB Surf (1 PP, OHKO)
-   - Hitmonlee Lv 55 (Fighting): STAB Surf (1 PP, OHKO)
-   - Onix Lv 56 (Rock/Ground): Ice Beam (1 PP, 4x Super-Effective OHKO, saves Surf PP!)
-   - Machamp Lv 58 (Fighting): STAB Surf (1 PP, OHKO)
-   - *PP Consumed: 3 Surf, 2 Ice Beam. HYDROS HP: 191/274 (0 damage taken).*
-   - *Exiting PP: 5 Surf, 7 Ice Beam, 14 Double-Edge, 25 Bite.*
+## Gauntlet Master PP Budget & Strategy (Rooms 1-5)
+- Entering Room 1 (Lorelei):
+  - Dewgong Lv 54: STAB Surf (Slot 4: Down 3, A) or Double-Edge (Slot 1: A) (2HKO)
+  - Cloyster Lv 53: STAB Surf (Slot 4: Down 3, A) (2HKO vs 90 Spc)
+  - Slowbro Lv 54: Double-Edge (Slot 1: A) (2HKO)
+  - Jynx Lv 56: Double-Edge (Slot 1: A - Guaranteed OHKO vs 44 Def!)
+  - Lapras Lv 56: Double-Edge (Slot 1: A) + STAB Surf finisher (2HKO)
 
-2. **Room 3: Elite Four Agatha (Ghost / Poison)**
-   - Gengar Lv 56 (Ghost/Poison): STAB Surf (1 PP, OHKO)
-   - Golbat Lv 56 (Poison/Flying): Ice Beam (1 PP, 2x Super-Effective OHKO)
-   - Haunter Lv 55 (Ghost/Poison): Ice Beam (1 PP, OHKO vs 105 HP, preserves Surf PP!)
-   - Arbok Lv 58 (Poison): Double-Edge (1 PP, OHKO vs 69 Def)
-   - Gengar Lv 60 (Ghost/Poison): STAB Surf (1 PP, OHKO)
-   - *PP Consumed: 2 Surf, 2 Ice Beam, 1 Double-Edge. HYDROS HP: ~175+ HP.*
-   - *Exiting PP: 2 Surf, 6 Ice Beam, 13 Double-Edge, 25 Bite.*
+- Room 2 (Bruno):
+  - Onix Lv 53: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
+  - Hitmonchan Lv 55: STAB Surf (Slot 4: Down 3, A - OHKO)
+  - Hitmonlee Lv 55: STAB Surf (Slot 4: Down 3, A - OHKO)
+  - Onix Lv 56: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
+  - Machamp Lv 58: STAB Surf (Slot 4: Down 3, A - OHKO)
 
-3. **Room 4: Elite Four Lance (Dragon / Flying)**
-   - Gyarados Lv 58 (Water/Flying): Double-Edge (2 PP, physical 2HKO vs 79 Def)
-   - Dragonair Lv 56 (Dragon): Ice Beam (1 PP, 4x Super-Effective OHKO)
-   - Dragonair Lv 56 (Dragon): Ice Beam (1 PP, 4x Super-Effective OHKO)
-   - Aerodactyl Lv 60 (Rock/Flying): Ice Beam (1 PP, 2x Super-Effective OHKO)
-   - Dragonite Lv 62 (Dragon/Flying): Ice Beam (1 PP, 4x Super-Effective OHKO)
-   - *PP Consumed: 0 Surf, 4 Ice Beam, 2 Double-Edge. HYDROS HP: ~140+ HP.*
-   - *Exiting PP: 2 Surf, 2 Ice Beam, 11 Double-Edge, 25 Bite.*
+- Room 3 (Agatha):
+  - Gengar Lv 56: STAB Surf (Slot 4: Down 3, A - OHKO)
+  - Golbat Lv 56: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO)
+  - Haunter Lv 55: Ice Beam (Slot 2: Down 1, A - OHKO)
+  - Arbok Lv 58: Double-Edge (Slot 1: A - OHKO vs 69 Def)
+  - Gengar Lv 60: STAB Surf (Slot 4: Down 3, A - OHKO)
 
-4. **Champion Chamber: Champion RED**
-   - Pidgeot Lv 61 (Normal/Flying): Ice Beam (1 PP, 2x Super-Effective OHKO)
-   - Alakazam Lv 59 (Psychic): Double-Edge (1 PP, OHKO vs 45 Def!)
-   - Rhydon Lv 61 (Ground/Rock): STAB Surf (1 PP, 4x Super-Effective OHKO)
-   - Gyarados Lv 63 (Water/Flying): Double-Edge (2 PP, physical 2HKO)
-   - Arcanine Lv 63 (Fire): STAB Surf (1 PP, 2x Super-Effective OHKO)
-   - Venusaur Lv 65 (Grass/Poison): Ice Beam (1 PP, 2x Super-Effective) + Double-Edge finisher
-   - *PP Consumed: 2 Surf, 2 Ice Beam, 4 Double-Edge.*
-   - *Surplus Remaining: 0 Surf deficit, 0 Ice Beam deficit, 7 Double-Edge surplus, 25 Bite surplus!*
-   - *Outcome: Complete Hall of Fame victory!*
+- Room 4 (Lance):
+  - Gyarados Lv 58: Double-Edge (Slot 1: A - physical 2HKO)
+  - Dragonair Lv 56: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
+  - Dragonair Lv 56: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
+  - Aerodactyl Lv 60: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO)
+  - Dragonite Lv 62: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
+
+- Champion Chamber (Champion RED):
+  - Pidgeot Lv 61: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO)
+  - Alakazam Lv 59: Double-Edge (Slot 1: A - Guaranteed OHKO vs 45 Def!)
+  - Rhydon Lv 61: STAB Surf (Slot 4: Down 3, A - 4x SE OHKO)
+  - Gyarados Lv 63: Double-Edge (Slot 1: A - physical 2HKO)
+  - Arcanine Lv 63: STAB Surf (Slot 4: Down 3, A - 2x SE OHKO)
+  - Venusaur Lv 65: Ice Beam (Slot 2: Down 1, A - 2x SE) + Double-Edge finisher
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
