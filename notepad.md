@@ -2670,5 +2670,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8182: Selected RUN with A and cleared escape text with B, returning to overworld at (12, 11).
 - Turn 8184: Standing at (12, 11). Walking Up 4 times along col 12 to (12, 7) on the northern lawn above the pond.
 - Turn 8186: At (12, 7) facing Up. Testing Left into (11, 7) to verify if column 11 bush permits passage to western lawn at (10, 7).
+- Turn 8188: At (12, 7). Walking Up 2 times to (12, 5) to survey northern promenade and path around row 4 hedge.
 
 <hr>
