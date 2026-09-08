@@ -63,3 +63,4 @@
 - Turn 8136: Reached (21, 15). Rows 12..19 continue as wide open lawn corridor across cols 17..21. Tree line begins at (17, 11). Advancing west along row 15 to (17, 15).
 - Turn 8137: At (17, 15). Column 16 is a vertical tree wall blocking west at row 15. Moving Down along col 17 lawn to (17, 19) to locate southern bypass into col 15.
 - Turn 8139: At (17, 19). Confirmed col 16 tree wall extends to row 19, and row 20 is an elevated plateau cliff (cols 14..22+). Spotted western staircase at (22, 23)! Moving east along row 19 to (22, 19) to access the southern corridor around col 25.
+- Turn 8140: At (22, 19). Verified col 26 is an open north-south lawn corridor (rows 19..23+). Moving east to (26, 19) and south along col 26 to (26, 23) to loop around the cliff to the (22, 23) staircase approach.
