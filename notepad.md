@@ -2528,5 +2528,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Map Connections
 - Center Area -> Area 1 (East), Area 2 (North), Area 3 (West).
+## Center Area
+- Entrance: Southern gatehouse at (15, 24). Signpost at (14, 24).
 
 <hr>
