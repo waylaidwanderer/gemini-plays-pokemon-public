@@ -2664,6 +2664,11 @@
   - Verify Shutter (28, 10) state -> Walk East along Row 16 to (28, 16) -> North along Col 28 through lowered Shutter (28, 10) to (28, 9) -> Left to (27, 9) -> North to (27, 7) (Ladder NE).
   - Ascend Ladder NE at (27, 7) to 3F Exit Room -> Walk North to Indigo Plateau!
 
+## 3F Live Progress Checkpoint (Turn 36852)
+- Boulder 1 successfully locked onto Switch (3, 5)!
+- Switch (3, 5) depressed: Shutter at (21, 15) permanently lowered!
+- Player at (2, 3) navigating via Row 2, Central Bridge, and Ramp (17, 5) towards SE Pit Room at (21, 15).
+
 <hr>
 
 <h1><code>Locations/VictoryRoad2F</code></h1>
