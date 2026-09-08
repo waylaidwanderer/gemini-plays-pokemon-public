@@ -27,3 +27,4 @@
 - Turn 7808: At (21, 18) (~480 steps left). Row 19, 20, 21 along col 21 are clear grass. Advancing south to row 21/22.
 - Turn 7810: At (21, 21) (~477 steps left). Cropped (22, 24) confirming statue. Southern corridor is blocked at col 22 by trees/statue. Traversing west along row 21 toward the western bypass around the central pond.
 - Turn 7811: At (16, 21) (~472 steps left). Advancing west along row 21 to survey western boundary (cols 7..12).
+- Turn 7812: At (12, 21) (~468 steps left). Path north along col 12 (rows 17..20) is verified clear open grass. Advancing north to row 17 to bypass the tree block.
