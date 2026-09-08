@@ -30,4 +30,4 @@
 - Item Ball: Located at (21, 10) on the northern lawn.
 - Wooden Staircase: Located at (26, 10), leading north from the lawn.
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
-- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Access to northern lawn and Area 2 lies via western path north of entrance signpost at (5, 23).
+- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes; open northern passage in Area 1 lies through cols 7..9.
