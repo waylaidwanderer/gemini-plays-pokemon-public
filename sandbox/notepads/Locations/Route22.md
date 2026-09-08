@@ -26,3 +26,4 @@
   - Continuous open horizontal avenue spanning columns 1 to 37, with zero northern exits west of column 33 due to the continuous row 13 ledge.
 
 - Passable UP gap at `(31, 7)` connects tall grass `(31, 8)` directly north onto Row 6 highway at `(31, 6)`.
+- Continuous Upper Highway (rows 4-5): Light-brick paved walkway running continuously from col 35 all the way west past (29, 4..5) directly into Gatehouse entrance at (8, 5).
