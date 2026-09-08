@@ -2667,5 +2667,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8147: Standing at (34, 14) on upper plateau. Walking east to (37, 14) and south along elevated ridge to (37, 18).
 - Turn 8149: Walking south along elevated ridge to southern plateau junction at (37, 24).
 - Turn 8150: Reached (37, 24). Traversing west across plateau along row 25 to staircase at (28, 27) and descending to southern boulevard at (28, 28).
+- Turn 8151: Descended staircase (28, 27) to southern boulevard at (28, 28). Moving Down to row 29 and west across cols 27..24 towards the staircase (22, 23) approach at (22, 29).
 
 <hr>
