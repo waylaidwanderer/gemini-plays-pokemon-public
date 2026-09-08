@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 84
-   - Stats: Max HP 288 (HP: 252/288), Attack 204, Defense 226, Speed 207, Special 214
+   - Stats: Max HP 288 (HP: 197/288), Attack 204, Defense 226, Speed 207, Special 214
    - Type: Water
-   - Moves: Double-Edge (14/15), Ice Beam (10/10), Bite (25/25), Surf (8/15)
+   - Moves: Double-Edge (13/15), Ice Beam (10/10), Bite (25/25), Surf (8/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
@@ -194,7 +194,7 @@
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 - [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
 
-- [ ] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56)
+- [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 38685]
 - [ ] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58)
 - [ ] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60)
 - [ ] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)
