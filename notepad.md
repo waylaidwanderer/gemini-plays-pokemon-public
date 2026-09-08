@@ -2390,5 +2390,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Col 16 vertical fence (rows 5..7) separates eastern corridors from western open section.
   - Western open section (cols 9..15) has rows 4..6 open ground connecting to trainer at (12, 4).
   - Row 4 is open across cols 13..22 bounded north by solid row 3 fence. Path forward routes east along row 6 to bypass row 5 fence, then west across row 4 [Verified Turn 7103].
+- Upper Fence Bypass (Cols 23..26):
+  - Row 5 fence ends at col 23; cols 24..25 are open ground connecting row 6 and row 4 [Verified Turn 7106].
+  - Col 26 has vertical fence at rows 3..5.
+  - From (24, 6), head North through (24, 5) to row 4 at (24, 4), then head West along row 4 toward Route 14 [Verified Turn 7106].
 
 <hr>
