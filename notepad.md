@@ -2656,5 +2656,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Backtrack & Direct Path to Western Staircase: Re-ascended staircase (34, 15), traversed south across eastern plateau to staircase (28, 27), and descended to southern boulevard at (28, 28). Followed row 29 west past col 25 through tall grass valley into col 22, then walked north along col 22 directly into western staircase at (22, 23).
   - True Ground Path Clarification: From Area 2 entrance at (39, 31), the direct path to Area 3 does NOT ascend eastern plateau at (28, 27). Instead, follow row 29/30 boulevard west past col 26, turn north into column 22 tall grass valley at (22, 29), and ascend staircase (22, 23) onto the western plateau.
   - Step Reconciliation: The circuitous survey loop expended 113 steps within Area 2 (entering at 329, arriving at 216). Active step baseline at Turn 8162: Position (22, 22) on western plateau with ~216 steps remaining. Projected steps to Area 3 entrance: ~23 steps (reaching Area 3 with ~193 steps remaining).
+- Turn 8164: Standing at (18, 22) on western plateau. Traversing Left 2 times to col 16 and Down 4 times along ridge to (16, 26).
 
 <hr>
