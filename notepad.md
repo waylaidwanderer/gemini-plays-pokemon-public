@@ -2553,6 +2553,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
 - Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 - Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.

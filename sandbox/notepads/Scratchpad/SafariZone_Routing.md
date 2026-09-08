@@ -42,8 +42,14 @@
 3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
 (Note: Gold Teeth at (19, 7) already collected on Turn 8235!).
 
-## Active Session Step Tracking (Session 4 - Preparing Entry)
-- Inventory status: 19 / 20 items (1 free slot ready for HM03 Surf).
-- Budget: 500 steps upon entering gatehouse.
-- Route: Center Area -> Area 1 -> Area 2 -> Area 3 -> Secret House.
-- Step target to Secret House: ~187 steps (leaving ~313 steps to spare).
+## Active Session Step Tracking (Session 4 - Turn 8345)
+- Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
+- Turn 8350: Traversed Center Area to (28, 15), crossed tree gap (23..27, 15).
+- Turn 8351: Entered Area 1 at (0, 23) (471 steps remaining, 29 steps used).
+- Turn 8356: Reached (17, 23) hedge opening; confirmed (16, 22) is solid bush blocking direct ground path.
+- Turn 8358: Ascended south plateau staircase at (20, 21) (452 steps remaining, 48 steps used).
+- Turn 8360: Descended western staircase at (12, 21) to (12, 22) (442 steps remaining, 58 steps used).
+- Turn 8364: Reached northern bridge base at (12, 8) (421 steps remaining, 79 steps used).
+- Turn 8365: Crossed bridge to (17, 6), descended staircase to (17, 8) (414 steps remaining, 86 steps used).
+- Turn 8369: Reached row 3 northern highway, turned down to row 5 corridor at (7, 5) (387 steps remaining, 113 steps used).
+- Target: Reach Area 2 East Gate at (0, 5), enter Area 2 at (39, 31).
