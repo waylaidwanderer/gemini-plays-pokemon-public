@@ -62,3 +62,8 @@
 ## Observed Landmarks
 - Shutter at (28, 10): Observed blocking Column 28 passage into Ladder NE Room (rows 7-9, cols 26-29).
 - Ladder NE at (27, 7): Wall ladder in enclosed NE room on 2F (cols 26-29, rows 7-9), isolated from main Row 8 corridor by rock wall at cols 24-25.
+## Verified Southern Highway & Exit Corridor (Turns 36693-36713)
+- **Row 16 Highway**: Spans continuously from Switch 2 at (9, 16) all the way east to (28, 16).
+- **Column 28 Avenue**: Spans rows 11 through 16 along column 28, connecting Row 16 at (28, 16) north to (28, 11) directly facing the Exit Shutter at (28, 10).
+- **Exit Shutter & NE Ladder**: Exit Shutter at (28, 10) blocks entrance into the NE Room (cols 26-29, rows 7-9) containing Ladder NE at (27, 7) which ascends to 3F Exit Room towards Indigo Plateau.
+- **Switch 2 @ (9, 16)**: Sits at the western terminus of Row 16 highway, connecting directly north via Column 9 into the Central Chamber.
