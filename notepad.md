@@ -2486,7 +2486,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - East Border: Enters from Route 15 gatehouse corridor at (39, 16..17) [Verified Turn 7316]. Road runs west along rows 16..17 to col 36, then opens south toward the central district.
 - Boulevard Junction: Road connects south along cols 36..37 rows 16..18 to a wide east-west paved boulevard along row 18 extending west across cols 25..37 [Verified Turn 7317].
 - Zoo Enclosure: Stone-fenced pond at cols 29..34 rows 19..22 south of the boulevard [Verified Turn 7318], ending at col 25 with a garden patch at cols 26..27 rows 20..22 [Verified Turn 7319].
-- Central Avenue Junction: Boulevard intersects major north-south avenue at cols 22..23 rows 14..21 [Observed Turn 7321].
+- Central Avenue Junction: Cols 20..21 and 24..25 are paved avenues with dashed road markings, separated by a walkable yellow brick promenade at cols 22..23 (verified Turn 7335).
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
 - South Building: Roof observed at cols 18..22 rows 22+ west of central avenue [Observed Turn 7322].
