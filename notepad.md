@@ -2355,6 +2355,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Silence Bridge Continuation: Pier planks extend south down cols 50..51 across rows 0..8+ [Verified Turn 7022].
 - Trainer/NPC at (50, 5): Stationed on wooden planks at (50, 5) [Verified Turn 7022].
 
-- Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Two trainers stationed at (48, 10) and (49, 10) [Verified Turn 7023].
+- Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Trainer at (49, 10) is Bird Keeper (Sebastian) facing East, engaged at (51, 10). Another trainer at (48, 10) [Verified Turn 7024].
 
 <hr>
