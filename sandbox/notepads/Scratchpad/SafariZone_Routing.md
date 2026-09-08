@@ -84,3 +84,6 @@
   - West Stairs: (16, 27) wooden staircase facing south onto (16, 28).
   - Plateau Bridge connects (28, 27) to (16, 27) directly over the col 17 tree wall!
   - Routing: Ascend (28, 27) -> cross west to (16, 27) -> descend into western sector toward Area 3.
+- Plateau 1 West Cliff (Turn 8019): Tested (26, 26) from (27, 26); solid cliff wall. Plateau 1 does not extend west.
+- True Northern Route: Cols 23..25 form an open north-south corridor running from row 29 up to row 24 clear lawn.
+- Execution: Descend (28, 27) -> move to col 25 -> advance north to row 24 lawn -> proceed west to Area 3.
