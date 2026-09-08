@@ -42,3 +42,4 @@
 - Turn 7829: At (19, 21) (~425 steps left). Stepping Right to col 20 and Up 4 times to (20, 17) to reach row 14 testing position.
 - Turn 7832: Stepping Up 3 times from (20, 17) to (20, 14) to systematically test the row 14 boundary coordinates.
 - Turn 7833: At (20, 14) (~417 steps left). Testing Left into (19, 14) to empirically verify if the row 14 pond underpass is passable.
+- Turn 7845: Strategic course correction. Confirmed Area 1 connects directly to the eastern edge of Center Area around rows 22-24 (matching Turn 7507 entry at (0, 23)). Discarded false hypothesis of 'Row 10 Western Highway'. Moving south via Col 19 to row 24 to locate the eastward passage to Area 1.
