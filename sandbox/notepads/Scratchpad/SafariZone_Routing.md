@@ -52,3 +52,5 @@
 - Turn 8107: Entered Area 2 at (39, 31) (329 steps remaining).
 - Target to Area 2 entry at (0, 5): ~14 steps -> ~329 steps remaining upon entering Area 2.
 - Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
+
+- Turn 8118: (30, 24) north edge is solid cliff edge. Exploring east across plateau (cols 31..35) to survey eastern connection to northern sector.
