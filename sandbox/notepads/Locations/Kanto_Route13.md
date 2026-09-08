@@ -45,4 +45,5 @@
 - Upper Fence Bypass (Cols 23..26):
   - Row 5 fence ends at col 23; cols 24..25 are open ground connecting row 6 and row 4 [Verified Turn 7106].
   - Col 26 has vertical fence at rows 3..5 [Verified Turn 7106].
-- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Pokémon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
+- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Pokï¿½mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
+- Route 14 Connection: Row 4 is a straight open corridor across cols 0..24 bounded north by row 3 fence and south by row 5 fence. Stepping west past col 0 on row 4 exits directly onto Route 14 [Verified Turn 7147].
