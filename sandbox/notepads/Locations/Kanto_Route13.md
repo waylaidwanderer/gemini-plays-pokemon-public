@@ -26,3 +26,7 @@
 - Row 12 dead-ends at col 16/17: blocked west by fence at (16, 12) and south by alcove at (17, 13..14) [Verified Turn 7061].
 - Northern bypass connection: Row 11 has open gap at (22..23, 11) connecting row 12 to row 10. Row 10 extends west across cols 15..22+ [Verified Turn 7061].
 - Row 10 corridor extends west from (22, 10) through (14..18, 10)+ bounded north by row 9 fence and south by row 11 fence. Signpost visible at (15, 13) [Verified Turn 7072].
+- Fence Maze Layout (Cols 10..14):
+  - Row 10 corridor continues west across cols 10..14 bounded north by row 9 fence and south by row 11 fence [Verified Turn 7073].
+  - Gap in row 9 fence at (13, 9) opens north to row 8 corridor.
+  - NPC sighted at (10, 7) [Observed Turn 7073].
