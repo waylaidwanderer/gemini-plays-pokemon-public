@@ -34,3 +34,4 @@
 - Cut Tree at (18, 19): Cleared by DUX on Turn 7466. Provides access from row 20/21 paved street north into the central zoo enclosure (cols 14..23 rows 8..19).
 - Zoo Enclosure (Lapras): Stone-fenced pond at cols 9..12 rows 16..17 with exhibit signboard at (13, 15) ("Name: LAPRAS").
 - Cut Tree at (16, 11): Located at col 16 row 11. Blocks northern path into the Safari Zone gatehouse promenade (rows 4..6).
+- Safari Zone Gatehouse: Located at cols 16..21 rows 2..5 with entrance door at (18, 3) and sign at (17, 5).
