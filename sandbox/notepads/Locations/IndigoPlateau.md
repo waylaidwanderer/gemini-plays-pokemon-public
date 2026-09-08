@@ -54,3 +54,10 @@
 - Ice Beam: 8-9 used / 10 pool (Surplus: +1-2)
 - Double-Edge: 4-6 used / 15 pool (Surplus: +9-11)
 - Bite: 6-8 used / 25 pool (Surplus: +17-19)
+
+## Verified Pokémon League HQ Lobby Layout & Waypoints
+- Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
+- North corridor: Columns 7 and 8 form an unobstructed vertical hallway spanning from row 11 straight North to row 0.
+- Elite Four Entrance Doorway: Located at (7..8, 0) on the north wall, leading directly into Room 1 (Lorelei's Chamber).
+- Left Wing (cols 0-4): Pokémon Center healing counter and PC terminal.
+- Right Wing (cols 10-14): Poké Mart clerk counter and PC terminal.
