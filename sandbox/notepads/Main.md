@@ -9,7 +9,7 @@
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: �74868
-- Pokédex: 10 Caught / 49+ Seen [Lapras Seen at Fuchsia Zoo Turn 7481]
+- Pokédex: 11 Caught / 50+ Seen [Nidorina Caught Turn 7549]
 
 
 
