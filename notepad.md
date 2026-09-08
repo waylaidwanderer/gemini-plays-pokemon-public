@@ -220,6 +220,8 @@
 - [x] Defeat Gym Leader Blaine in Cinnabar Gym (Volcano Badge obtained; TM38 Fire Blast pending pickup from Blaine due to full bag) [Turn 21652]
 - [x] Defeat Gym Leader Giovanni in Viridian Gym (Earth Badge & TM27 Fissure obtained; All 8 Badges unlocked!) [Turn 21973]
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
+- [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
+
 
 <hr>
 
@@ -2844,6 +2846,13 @@
 ## Verified Empirically: Pit Drop Outcome
 - Pit Boulder at (22, 15) on 3F pushed East into Pit (23, 15) drops down to 2F at (23, 16).
 - Player jumping into Pit (23, 15) lands on 2F at (22, 16) facing East directly adjacent to the Fallen Boulder at (23, 16).
+
+## Verified Exit Route to Indigo Plateau (Turns 37637-37641)
+- 1. On 2F, depress Switch 2 at (9, 16) with fallen pit boulder to lower Shutter 3 at (21, 15).
+- 2. Climb Ladder B at (25, 14) on 2F to ascend to 3F SE corridor at (27, 15).
+- 3. On 3F, walk straight North up Column 27: (27, 15) -> (27, 8).
+- 4. Step Left onto Floor Ladder at (26, 8) on 3F.
+- 5. Descends through the exit passage directly out onto Route 23 North / Indigo Plateau exterior at (14, 31)!
 
 
 <hr>
