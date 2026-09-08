@@ -2647,5 +2647,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
 
 - Turn 8118: (30, 24) north edge is solid cliff edge. Exploring east across plateau (cols 31..35) to survey eastern connection to northern sector.
+- Turn 8123: Discovered 2-tile wide elevated ridge at cols 37..38 continuing north across rows 20..23+. Advancing north to reveal northern descent.
 
 <hr>
