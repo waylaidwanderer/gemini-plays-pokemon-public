@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Conquering Champion RED; Full Party Healed (HYDROS Lv 83 285/285 HP, Full PP); Executing Final Championship Sweep Run!
+- League Status: Rooms 1–3 Cleared (Lorelei, Bruno, Agatha Defeated); HYDROS Lv 85 (202/293 HP); Entering Room 4 to Battle Lance!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -2897,19 +2897,20 @@
   - Gengar Lv 60: STAB Surf (Slot 4: Down 3, A - OHKO)
 
 - Room 4 (Lance):
-  - Gyarados Lv 58: Double-Edge (Slot 1: A - physical 2HKO)
-  - Dragonair Lv 56: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
-  - Dragonair Lv 56: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
-  - Aerodactyl Lv 60: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO)
-  - Dragonite Lv 62: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
+  - Gyarados Lv 58: Double-Edge (Slot 1: A) x2 [DE PP: 13 -> 11/15, physical 2HKO, ~50 recoil -> HYDROS at ~152 HP]
+  - Dragonair Lv 56: Ice Beam (Slot 2: Down 1, A) [Ice Beam PP: 5 -> 4/10, 4x SE OHKO, 0 recoil]
+  - Dragonair Lv 56: Ice Beam (Slot 2: A) [Ice Beam PP: 4 -> 3/10, 4x SE OHKO, 0 recoil]
+  - Aerodactyl Lv 60: Ice Beam (Slot 2: A) [Ice Beam PP: 3 -> 2/10, 2x SE OHKO, 0 recoil]
+  - Dragonite Lv 62: Ice Beam (Slot 2: A) [Ice Beam PP: 2 -> 1/10, 4x SE OHKO, 0 recoil]
 
 - Champion Chamber (Champion RED):
-  - Pidgeot Lv 61: Ice Beam (Slot 2: Down 1, A - 2x SE OHKO) [Consumes final Ice Beam PP -> 0/10]
-  - Alakazam Lv 59: Double-Edge (Slot 1: A - Guaranteed OHKO vs 75 Def!) [DE PP -> 6/15]
-  - Rhydon Lv 61: STAB Surf (Slot 4: Down 3, A - 4x SE OHKO) [Surf PP -> 2/15]
-  - Gyarados Lv 63: Double-Edge (Slot 1: A - physical 2HKO) [DE PP -> 4/15]
-  - Arcanine Lv 63: STAB Surf (Slot 4: Down 3, A - 2x SE OHKO) [Surf PP -> 1/15]
-  - Venusaur Lv 65: Double-Edge (Slot 1: A - physical 2HKO vs 126 Def) [DE PP -> 2/15]
+  - Pidgeot Lv 61: Ice Beam (Slot 2: Down 1, A) [Ice Beam PP: 1 -> 0/10, 2x SE OHKO, 0 recoil]
+  - Alakazam Lv 59: Double-Edge (Slot 1: Up 1, A) [DE PP: 11 -> 10/15, Guaranteed OHKO vs 75 Def!, ~36 recoil -> HYDROS at ~116 HP]
+  - Rhydon Lv 61: Double-Edge (Slot 1: A) x2 [DE PP: 10 -> 8/15, physical 2HKO vs 179 Def, ~40 recoil -> HYDROS at ~76 HP]
+  - Gyarados Lv 63: Double-Edge (Slot 1: A) x2 [DE PP: 8 -> 6/15, physical 2HKO vs 111 Def, ~40 recoil -> HYDROS at ~36 HP! Gyarados FAINTS]
+  - Arcanine Lv 63: Double-Edge (Slot 1: A) x2 [DE PP: 6 -> 4/15, physical 2HKO vs 123 Def, ~30 recoil -> HYDROS at ~15 HP! Arcanine FAINTS]
+  - Venusaur Lv 65: Double-Edge (Slot 1: A) x2 [DE PP: 4 -> 2/15, physical 2HKO vs 126 Def] -> Venusaur FAINTS!
+  -> Champion RED Defeated! Enter Hall of Fame!
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
