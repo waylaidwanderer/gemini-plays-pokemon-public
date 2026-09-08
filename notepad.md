@@ -2653,5 +2653,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Signpost at (6, 4): 'TRAINER TIPS / The remaining time declines only while you walk!' [Read Turn 8004].
 - Northern Gate to Area 2: Open gateway at cols 0..1 rows 4..5 between statue gateposts at (1, 3) and (1, 6).
 - Step Budget: 160 steps remaining. Advancing west along row 5 into Area 2.
+## Area 2 (North) Arrival (Turn 8007)
+- Map Transition Detected: Entered Safari Zone Area 2 at (39, 31) from Area 1 western gate.
+- Gate Topology: Enters facing Left between statues at (39, 28..29) and (39, 32..33).
+- Step Budget: 149 steps remaining. Wide open green corridor running west.
 
 <hr>
