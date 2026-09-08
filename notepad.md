@@ -2656,5 +2656,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8134: At (29, 16). Wide open lawn corridor extends west across rows 12..19 cols 25..31+. Moving Up to row 15 and stepping west along clean lawn to (25, 15) to bypass tall grass at (26, 16).
 - Turn 8135: Reached (25, 15). Continuous statue barrier along row 11. Rows 12..19 form a wide open lawn corridor extending west past col 21. Advancing west along row 15 to (21, 15).
 - Turn 8136: Reached (21, 15). Rows 12..19 continue as wide open lawn corridor across cols 17..21. Tree line begins at (17, 11). Advancing west along row 15 to (17, 15).
+- Turn 8137: At (17, 15). Column 16 is a vertical tree wall blocking west at row 15. Moving Down along col 17 lawn to (17, 19) to locate southern bypass into col 15.
 
 <hr>
