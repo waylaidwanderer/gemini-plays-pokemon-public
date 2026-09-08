@@ -2537,3 +2537,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Path to Area 1 (East Exit): Route heads east across row 14/15 toward col 29.
 
 <hr>
+
+<h1><code>Locations/Kanto_SafariZone.md</code></h1>
+
+
+
+<hr>
