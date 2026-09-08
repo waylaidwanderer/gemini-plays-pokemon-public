@@ -2489,10 +2489,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Avenue Junction: Cols 20..21 and 24..25 are paved avenues with dashed road markings, separated by a walkable yellow brick promenade at cols 22..23 (verified Turn 7335).
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
-- South Building: Roof observed at cols 18..22 rows 22+ west of central avenue [Observed Turn 7322].
+- Northern Building: Roof at cols 17..22 rows 22..23 blocks northern access to Pokémon Center.
 - Northern Monuments: Display signboards at (21, 15) and (25, 15).
-- Pokémon Center: Located at cols 20..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324].
+- Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Building East of Center: Located at cols 26..29 rows 25..27 with entrance door at (27, 27) [Observed Turn 7324].
-- Barrier at Col 23: Solid vertical barrier along col 23 rows 26..31 blocks direct passage between col 24 and the Pokémon Center grounds (empirically confirmed Turn 7329 at 24, 28). Access to Pokémon Center is via the central avenue at cols 22..23.
+- Barrier at Col 23: Solid vertical barrier along col 23 rows 26..31 blocks direct passage between col 24 and the Pokémon Center grounds (empirically confirmed Turn 7329 at 24, 28).
+- Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 17..21 to route around the northern building toward the Pokémon Center south plaza.
 
 <hr>
