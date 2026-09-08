@@ -92,3 +92,7 @@
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 7581]
   - Transferred to PC Box 1 (Active Party full)
+- CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
+  - Status: Healthy
+  - Caught: Safari Zone Area 2 tall grass [Turn 8384]
+  - Transferred to PC Box 1 (Active Party full)
