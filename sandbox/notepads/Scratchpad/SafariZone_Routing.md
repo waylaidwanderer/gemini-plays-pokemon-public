@@ -85,3 +85,4 @@
 - Turn 8223: Standing at (3, 33) directly above the southern gate at (2..3, 34..35) flanked by statues. Walking Down 3 times into row 36 to enter Safari Zone Area 3 (West) with ~91 steps remaining!
 - Turn 8224: Entered Safari Zone Area 3 (West) at (21, 0) with 91 steps remaining! Standing on clear lawn corridor (cols 20-21). Walking Down 4 times to (21, 4).
 - Turn 8225: At (21, 4) with 87 steps remaining. Spotted item ball at (19, 7)! Moving Left 2, Down 2 to (19, 6) and pressing A to collect.
+- Turn 8226: At (19, 6) facing item ball at (19, 7). Interacting returned 'No more room for items!'. Bag is at 20/20 capacity. 83 steps remaining. Opening Start menu to free 2 slots for Gold Teeth and HM03 Surf.
