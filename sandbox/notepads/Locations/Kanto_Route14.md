@@ -24,7 +24,8 @@
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
 - Biker at (15, 30): Stationed at (15, 30) facing West across tall grass. Line: "We ride out here because there's more room!". Team: Koffing Lv 29, Muk Lv 29. Defeated on Turn 7195 [Turn 7195]. Engaged at (13, 30) [Turn 7192].
 - Bird Keeper at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary POKéMON?". Team: Farfetch'd Lv 33. Defeated on Turn 7202 [Turn 7202]. Engaged at (13, 31) [Turn 7198].
-- Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].- Row 40 Tree Line Opening: Col 10 tree line ends at row 39; cols 9..13 are open ground connecting east and west roads at rows 40..41 [Verified Turn 7206].
+- Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].
+- Row 40 Tree Line Opening: Col 10 tree line ends at row 39; cols 9..13 are open ground connecting east and west roads at rows 40..41 [Verified Turn 7206].
 - Route 15 Junction (Rows 46..47): Central paved road ends at row 47 bounded south by tall grass at rows 48..49. Paved road turns WEST as a 2-tile-wide highway along rows 46..47 across cols 9..13+ leading directly toward Route 15 and Fuchsia City [Verified Turn 7208].
 
 - Bird Keeper at (6, 49): Stationed in southern tall grass patch at (6, 49). Line: "I'm not into it, but OK! Let's go!". Team: Spearow Lv 29, Fearow Lv 29. Defeated on Turn 7217 [Turn 7217]. Engaged at (6, 46) [Turn 7210].
