@@ -70,3 +70,4 @@
 - Turn 8145: Reached (31, 19). Staircase (34, 15) in sight. Walking to (34, 16) and ascending to (34, 14) on the upper plateau.
 - Turn 8147: Standing at (34, 14) on upper plateau. Walking east to (37, 14) and south along elevated ridge to (37, 18).
 - Turn 8149: Walking south along elevated ridge to southern plateau junction at (37, 24).
+- Turn 8150: Reached (37, 24). Traversing west across plateau along row 25 to staircase at (28, 27) and descending to southern boulevard at (28, 28).
