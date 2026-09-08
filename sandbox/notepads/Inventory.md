@@ -39,7 +39,7 @@
 ## Money
 - ¥70083
 
-## Party Pok�mon
+## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
   - Status: Healthy
   - HP: 120 / 154
@@ -78,7 +78,7 @@
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
-## PC Box 1 Pok�mon
+## PC Box 1 Pokémon
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
