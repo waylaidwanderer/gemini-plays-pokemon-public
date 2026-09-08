@@ -45,8 +45,6 @@
 - Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 ## Step Budget & Timer (Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
-- Empirical Benchmarks:
-  - Turn 7671: 223 / 500 remaining.
-  - Turn 7716: 183 / 500 remaining (verified via Start menu).
-  - Turn 7741: ~139 steps remaining.
-  - Turn 7774: Exactly 60 / 500 steps remaining (verified via in-game Start menu display).
+- Session Ledger:
+  - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
+  - Turn 7831: Current position (20, 17) -> ~420 steps remaining.
