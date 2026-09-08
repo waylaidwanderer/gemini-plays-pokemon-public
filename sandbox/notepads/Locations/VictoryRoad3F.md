@@ -33,16 +33,20 @@
 - Row 12 Wall Gap: Columns 22-23 form an open gap through the Row 12 wall connecting upper sector to southern corridors.
 - Row 13-15 Southern Highway: Horizontal corridor spanning columns 1 through 23 directly to the Pit room at (21..23, 15).
 ## Verified Atomic Checkpoints: Boulder 1 to Switch (3, 5)
-- Initial State: Boulder 1 at (5, 2), Player at (6, 2) facing Left. Strength active.
-- Checkpoint A: Push Left to (4, 2). Step Left to (5, 2). [Boulder at (4, 2), Player at (5, 2)]
-- Checkpoint B: Push Left to (3, 2). Step Left to (4, 2). [Boulder at (3, 2), Player at (4, 2)]
-- Checkpoint C: Push Left to (2, 2). Stand at (3, 2). [Boulder at (2, 2), Player at (3, 2)]
-- Checkpoint D: Reposition to (2, 1): Up 1 to (3, 1) -> Left 1 to (2, 1) facing Down. [Player at (2, 1)]
-- Checkpoint E: Push Down to (2, 3). Step Down to (2, 2). [Boulder at (2, 3), Player at (2, 2)]
-- Checkpoint F: Push Down to (2, 4). Step Down to (2, 3). [Boulder at (2, 4), Player at (2, 3)]
-- Checkpoint G: Push Down to (2, 5). Stand at (2, 4). [Boulder at (2, 5), Player at (2, 4)]
-- Checkpoint H: Reposition to (1, 5): Left 1 to (1, 4) -> Down 1 to (1, 5) facing East. [Player at (1, 5)]
-- Checkpoint I: Push East onto Switch (3, 5). [Boulder locked on (3, 5), Shutter (21, 15) lowered!]
+- Gen 1 Strength Mechanic: Pushing a boulder moves the boulder 1 tile away while player STAYS stationary on their tile. A second directional press is needed to walk into the vacated tile.
+- Verified Sequence from (4, 2):
+  1. Left to (3, 2)
+  2. Up to (3, 1)
+  3. Left to (2, 1) facing Down
+  4. Down (pushes boulder to (2, 3), player stays at (2, 1))
+  5. Down (steps into (2, 2))
+  6. Down (pushes boulder to (2, 4), player stays at (2, 2))
+  7. Down (steps into (2, 3))
+  8. Down (pushes boulder to (2, 5), player stays at (2, 3))
+  9. Left to (1, 3)
+  10. Down to (1, 4)
+  11. Down to (1, 5) facing East
+  12. Right (pushes boulder to (3, 5) onto Switch Plate! Shutter at (21, 15) lowered!)
 ## Verified Elevation Connectors & Topography
 - Ramp @ (17, 5): Connects Upper Dark Plateau (Row 6 at (17, 6)) to Lower Purple Floor (Row 4 at (17, 4)).
 - Row 6 Dark Corridor: Spans columns 13 through 21, connecting eastern plateau directly to Ramp base at (17, 6).
