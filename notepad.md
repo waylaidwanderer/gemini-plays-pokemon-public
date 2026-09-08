@@ -2632,8 +2632,8 @@
 6. **Checkpoint 6 (Push East to Col 17 & Lock onto Switch (17, 13))**:
    - Reposition (Detour around (15, 13) wall): Down 1 to (16, 14) -> Left 2 to (14, 14) -> Up 2 to (14, 12) -> Right 1 to (15, 12) facing East.
    - From (15, 12) facing East: Push East 1 time to (17, 12). [Boulder at (17, 12), Player at (16, 12)]
-   - Reposition: Up 1 to (16, 11) -> Right 1 to (17, 11) facing South.
-   - From (17, 11) facing South: Push South 1 time onto Switch (17, 13). [Boulder at (17, 13) SWITCH DEPRESSED, Player at (17, 12)]
+   - Reposition: Up 1 to (16, 11) -> Right 1 to (17, 11) -> Down 1 to (17, 14) facing South.
+   - From (17, 14) facing South: Push South 1 time onto Switch (17, 15). [Boulder at (17, 15) SWITCH DEPRESSED, Player at (17, 14)]
 7. **Checkpoint 7 (Ascent to 2F Southwest Ladder at (1, 1))**:
    - From (17, 12): Left 3 to (14, 12) -> Down 2 to (14, 14) -> West 9 to (5, 14) -> North 2 through lowered Shutter (5, 13) onto elevated cross-highway at (5, 12) -> East 6 to (11, 12) -> North 6 to (11, 6) -> West 4 to (7, 6) -> South 2 through lowered Shutter (7, 7) to lower cave floor (7, 8) -> West 4 to (3, 8) -> North 7 along col 3 to (3, 1) -> Left 2 through (2, 1) onto 2F Ladder at (1, 1) [Transitions to 2F at (0, 8)]!
 
