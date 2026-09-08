@@ -24,7 +24,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). Full Restore obtained Turn 7647.
+- Total Slots Used: 20 / 20 (Full at Turn 7667). Tossing non-essential TMs to free slots.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
