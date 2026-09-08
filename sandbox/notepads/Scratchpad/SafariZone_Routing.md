@@ -67,3 +67,4 @@
 - Turn 8141: At (26, 23). Testing Down into (26, 24) to verify if the diagonal cliff corner tile is passable to access (25, 24) and the (22, 23) staircase.
 - Turn 8143: Testing Left from (26, 23) into (25, 23). If impassable, the pinch is closed and we initiate the backtrack to (34, 15).
 - Turn 8144: Confirmed (25, 23) is solid cliff. Diagonal pinch is impassable; northern lawn is an enclosed basin. Executing backtrack via staircase (34, 15) to traverse eastern plateau to southern boulevard and access (22, 23) from the south.
+- Turn 8145: Reached (31, 19). Staircase (34, 15) in sight. Walking to (34, 16) and ascending to (34, 14) on the upper plateau.
