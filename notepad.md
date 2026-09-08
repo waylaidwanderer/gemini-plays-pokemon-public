@@ -2444,7 +2444,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - North Boundary: Ledge jumping south at row 7 cols 55..61 [Observed Turn 7226].
 - South Boundary: Stone fence posts along row 14 [Observed Turn 7226].
 - Terrain Details: Flower tiles in grass patch at (58..59, 9) north of road [Verified Turn 7226].- Trainers at Col 53:
-  - Jr. Trainer ♀ at (53, 10) facing West (Team of 2: Pikachu Lv 29, Raichu). Line: "You look gentle, so I think I can beat you!".
+  - Jr. Trainer ♀ at (53, 10) facing West (Team of 2: Pikachu Lv 29, Raichu Lv 29). Line: "You look gentle, so I think I can beat you!".
   - Biker at (53, 11) facing North.
   - Highway is blocked at col 53 by the facing trainers.
   - Bypass: Walk through tall grass along row 9 (cols 52..55) to safely route around them.
