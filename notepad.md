@@ -2532,7 +2532,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Center Area
 - Row 9 Bush Collision at (22, 9): Tested Turn 7767; solid impassable collision.
 - Map Size: 30x30.
-- South Exit: Gatehouse to Fuchsia City at (14..15, 25). Player spawns at (15, 24).
+- South Exit: Gatehouse opening at row 25 cols 14..15 leads south to Fuchsia City Gatehouse. (15, 25 is fence opening, exit warp is further south).
 - Rest House 1: Located at cols 16..19 rows 18..19, door at (17, 19).
 - Central Pond: Cols 17..20 rows 10..13. Shoreline at col 21.
 - East Exit (to Area 1): Open corridor at rows 10..11 cols 28..30. Tree wall blocks col 29 rows 12..19.
@@ -2570,6 +2570,5 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Turn 7716: 183 / 500 remaining (verified via Start menu).
   - Turn 7741: ~139 steps remaining.
   - Turn 7774: Exactly 60 / 500 steps remaining (verified via in-game Start menu display).
-
 
 <hr>
