@@ -2565,11 +2565,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 ## Step Budget & Timer (Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
-- Empirical Benchmarks:
-  - Turn 7671: 223 / 500 remaining.
-  - Turn 7716: 183 / 500 remaining (verified via Start menu).
-  - Turn 7741: ~139 steps remaining.
-  - Turn 7774: Exactly 60 / 500 steps remaining (verified via in-game Start menu display).
+- Session Ledger:
+  - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
+  - Turn 7831: Current position (20, 17) -> ~420 steps remaining.
 
 <hr>
 
@@ -2617,5 +2615,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7826: At (21, 24) (~429 steps left). Verified (22, 24) is solid collision. Pressing A to inspect the statue.
 - Turn 7827: (22, 24) statue confirmed non-interactive solid. Moving north along col 19 to reach the central pond crossing.
 - Turn 7829: At (19, 21) (~425 steps left). Stepping Right to col 20 and Up 4 times to (20, 17) to reach row 14 testing position.
+- Turn 7832: Stepping Up 3 times from (20, 17) to (20, 14) to systematically test the row 14 boundary coordinates.
 
 <hr>
