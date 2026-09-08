@@ -17,3 +17,8 @@
 - East Exit (to Area 1): Open corridor at rows 10..11 cols 28..30. Tree wall blocks col 29 rows 12..19.
 - North Exit (to Area 2): Northern boundary (approx cols 14..15 row 0).
 - Route Progression: Clockwise traversal (Center Area -> Area 1 -> Area 2 -> Area 3).
+
+## Area 1 (East)
+- West Exit: Center Area at (0, 22..24). Player enters at (0, 23).
+- Signpost: Located at (5, 23).
+- Geography: Open lawn corridor runs east from the west border (rows 21..24) bounded by hedges at row 20 and row 25.
