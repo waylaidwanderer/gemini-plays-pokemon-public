@@ -15,3 +15,4 @@
 
 ## Geography & Layout
 - Eastern Entrance Highway: 2-tile wide paved road along rows 8..9 from gatehouse at (8, 8..9) bounded north by stone fence at row 7 and south by stone fence at row 10 [Verified Turn 7314].
+- East Border: Enters from Route 15 gatehouse corridor at (39, 16..17) [Verified Turn 7316]. Road runs west to col 36, then opens south toward the central district.
