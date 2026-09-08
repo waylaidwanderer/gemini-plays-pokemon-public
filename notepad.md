@@ -2533,5 +2533,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Geography: Open lawn corridor along row 21 extending east toward Area 1. Tall grass patch to the west (cols 10..13 rows 20..23). Elevation plateau steps at (14, 22) and (18, 20).
 - Rest House 1 (Center Area): Located at cols 16..19 rows 18..19 with entrance door at (17, 19).
 - Open lawn corridor east of Rest House along col 21 (rows 17..21) bypassing the tall grass patch.
+- Central Pond: Located at cols 17..20 rows 10..13. Shoreline at col 21.
+- Path to Area 1 (East Exit): Route heads east across row 14/15 toward col 29.
 
 <hr>
