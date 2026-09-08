@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Rooms 1–3 Cleared (Lorelei, Bruno, Agatha Defeated); HYDROS Lv 85 (202/293 HP); Entering Room 4 to Battle Lance!
+- League Status: Initiating Final Guaranteed Championship Sweep; Full Party Healed (HYDROS Lv 85 293/293 HP, Full PP); Flying to Indigo Plateau!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -70,34 +70,34 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 85
-   - Stats: Max HP 293 (HP: 0/293, FNT), Attack 206, Defense 228, Speed 209, Special 216
+   - Stats: Max HP 293 (HP: 293/293), Attack 206, Defense 228, Speed 209, Special 216
    - Type: Water
-   - Moves: Double-Edge (6/15), Ice Beam (0/10), Bite (25/25), Surf (0/15)
-   - Role: Primary powerhouse & sweeper (Fainted after dealing massive damage to Gyarados)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 0/60, FNT)
+   - Stats: Max HP 60 (HP: 60/60)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig / Selfdestruct combat backup (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
-   - Stats: Max HP 61 (HP: 0/61, FNT)
+   - Stats: Max HP 61 (HP: 61/61)
    - Type: Normal / Flying
    - Moves: Fly (15/15), Sand-Attack, Quick Attack (30/30), Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 63 (HP: 0/63, FNT)
+   - Stats: Max HP 63 (HP: 63/63)
    - Type: Normal
-   - Moves: Tackle (34/35), Sand-Attack (15/15), Double Team (15/15)
+   - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall (Slot 5)
 6. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46, FNT)
+   - Stats: Max HP 46 (HP: 46/46)
    - Type: Grass / Poison
-   - Moves: PoisonPowder (34/35), Rest (10/10), Wrap (19/20), Cut (28/30)
+   - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Wrap utility (Slot 6)
 
 ## Inventory & Resources
@@ -194,10 +194,10 @@
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 - [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
 
-- [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 38685]
-- [x] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58) [Turn 38689]
-- [x] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60) [Turn 38699]
-- [x] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62) [Turn 38704]
+- [ ] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56)
+- [ ] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58)
+- [ ] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60)
+- [ ] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)
 - [ ] Defeat Champion RED in Champion Chamber (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65)
 
 <hr>

@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Rooms 1–3 Cleared (Lorelei, Bruno, Agatha Defeated); HYDROS Lv 85 (202/293 HP); Entering Room 4 to Battle Lance!
+- League Status: Initiating Final Guaranteed Championship Sweep; Full Party Healed (HYDROS Lv 85 293/293 HP, Full PP); Flying to Indigo Plateau!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
