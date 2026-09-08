@@ -194,10 +194,10 @@
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 - [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
 
-- [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 38601]
-- [x] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58) [Turn 38610]
-- [x] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60) [Defeated Turn 38626]
-- [x] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62) [Defeated Turn 38636]
+- [ ] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56)
+- [ ] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58)
+- [ ] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60)
+- [ ] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)
 - [ ] Defeat Champion RED in Champion Chamber (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65)
 
 <hr>
@@ -2917,9 +2917,9 @@
 - Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
 - Right Wing (cols 9-15): Poké Mart counter at (10..11, 5..6), Cable Club link desk at (13, 6).
 - Verified Route to Lorelei's Chamber (Room 1):
-  1. From entrance (7, 11), walk West along row 11 to (3, 11).
-  2. Walk North 9 steps along Column 3 to (3, 2).
-  3. Walk East 5 steps along Row 2 across (4..7, 2) to (8, 2).
+  1. From entrance (7, 11), walk West 5 steps along row 11 to Column 2 at (2, 11).
+  2. Walk North 9 steps along Column 2 from (2, 11) to (2, 2) (Column 2 is completely unobstructed!).
+  3. Walk East 6 steps along Row 2 from (2, 2) to (8, 2).
   4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
 
 ## Verified Move Menu Mapping & Lorelei Execution Safeguards

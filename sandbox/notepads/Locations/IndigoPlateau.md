@@ -54,9 +54,9 @@
 - Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
 - Right Wing (cols 9-15): Poké Mart counter at (10..11, 5..6), Cable Club link desk at (13, 6).
 - Verified Route to Lorelei's Chamber (Room 1):
-  1. From entrance (7, 11), walk West along row 11 to (3, 11).
-  2. Walk North 9 steps along Column 3 to (3, 2).
-  3. Walk East 5 steps along Row 2 across (4..7, 2) to (8, 2).
+  1. From entrance (7, 11), walk West 5 steps along row 11 to Column 2 at (2, 11).
+  2. Walk North 9 steps along Column 2 from (2, 11) to (2, 2) (Column 2 is completely unobstructed!).
+  3. Walk East 6 steps along Row 2 from (2, 2) to (8, 2).
   4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
 
 ## Verified Move Menu Mapping & Lorelei Execution Safeguards
