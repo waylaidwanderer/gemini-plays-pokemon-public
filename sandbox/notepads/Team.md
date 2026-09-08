@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 81
-   - Stats: Max HP 277 (HP: 218/277), Attack 197, Defense 218, Speed 200, Special 207
+   - Stats: Max HP 277 (HP: 188/278), Attack 197, Defense 218, Speed 200, Special 207
    - Type: Water
-   - Moves: Double-Edge (14/15), Ice Beam (9/10), Bite (23/25), Surf (14/15)
+   - Moves: Double-Edge (12/15), Ice Beam (9/10), Bite (23/25), Surf (14/15)
    - Status: Healthy
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
