@@ -2602,5 +2602,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7895: Confirmed (24, 15) is also a passable tree tile. Row 15 tree tunnel extends east toward col 28 open lawn. Testing (25, 15).
 - Turn 7897: Confirmed (25, 15) is passable. Row 15 tree tunnel continues east. Advancing 3 steps Right through (26..27, 15) to emerge onto col 28 open lawn.
 - Turn 7899: Emerged onto col 28 open lawn at (28, 15). Row 15 tree tunnel fully confirmed passable. Heading north along col 28 to row 11 and crossing east at (29, 11) into Area 1.
+- Turn 7901: Successfully entered Safari Zone Area 1 at (0, 23)! Remaining steps: ~338. Heading east along row 24 toward the plateau stairs at col 12/20 to reach Area 2.
 
 <hr>
