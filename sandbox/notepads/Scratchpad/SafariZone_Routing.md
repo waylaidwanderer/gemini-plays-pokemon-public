@@ -77,3 +77,10 @@
   - Generation 1 Safari Zone Area 2 connects west/southwest into Area 3 (West Area).
   - Primary path: Follow southern corridor west along rows 30-31 toward western map border (col 0).
   - Target: Transition into Area 3 with ~110+ steps remaining to claim HM03 Surf (Secret House) and Gold Teeth.
+
+- Tree Wall Barrier at Col 17: Solid vertical wall of trees along col 17 rows 28..33 blocks ground passage.
+- Elevated Bridge Solution:
+  - East Stairs: (28, 27) wooden staircase facing south onto (28, 28).
+  - West Stairs: (16, 27) wooden staircase facing south onto (16, 28).
+  - Plateau Bridge connects (28, 27) to (16, 27) directly over the col 17 tree wall!
+  - Routing: Ascend (28, 27) -> cross west to (16, 27) -> descend into western sector toward Area 3.
