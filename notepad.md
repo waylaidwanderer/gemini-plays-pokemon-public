@@ -2659,5 +2659,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8164-8189: Descended western plateau staircase at (16, 27) to southern boulevard (16, 28). Traversed west along row 30 past pond, up col 6 corridor to (6, 22). Bypassed southern pond via cols 8..12 past (8, 18) and (12, 11) (escaped wild Nidoran♀). Reached northern lawn at (12, 7). Tested (11, 7) (solid bush). Advanced to (17, 6) surveying east side.
 - Turn 8191: Position (17, 6). Active step baseline: ~155 steps remaining (174 steps expended in Area 2). Discovered item ball at (19, 7). Row 4 is a solid tree/bush hedge across cols 13..22; row 6/18 does not connect north to row 3. Retrieving item ball at (19, 7).
 - Turn 8193: At (19, 6). Walking Right 4 times along row 6 lawn to (23, 6) to scout the eastern end of the row 4 hedge.
+- Turn 8195: Standing at (23, 6). Walking Right 5 times to (28, 6) and Up 4 times along col 28 to (28, 2) to enter the row 2 northern highway.
 
 <hr>
