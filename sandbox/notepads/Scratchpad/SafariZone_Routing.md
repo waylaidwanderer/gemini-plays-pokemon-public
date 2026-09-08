@@ -87,3 +87,6 @@
 - Plateau 1 West Cliff (Turn 8019): Tested (26, 26) from (27, 26); solid cliff wall. Plateau 1 does not extend west.
 - True Northern Route: Cols 23..25 form an open north-south corridor running from row 29 up to row 24 clear lawn.
 - Execution: Descend (28, 27) -> move to col 25 -> advance north to row 24 lawn -> proceed west to Area 3.
+- West Sector Descent (Turn 8025): Descended stairs at (16, 27) to (16, 28) lawn. Advanced to (14, 28).
+- Pond Bypass at Cols 10-11: Pond occupies rows 25-29. Rows 30-32 lawn corridor provides unobstructed western passage to col 0 (Area 3 transition).
+- Remaining Steps: 81 steps. ~14 steps to Area 3 border.
