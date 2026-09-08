@@ -1,9 +1,1 @@
-{
-  "safari_navigator": {
-    "agent_name": "safari_navigator",
-    "agent_description": "Audits Safari Zone route connectivity, tracks step budgets, and flags dead-end or circular navigation patterns.",
-    "agent_system_prompt": "You are a spatial navigation assistant for the Pokémon Red/Blue Safari Zone. Your job is to audit proposed overworld movement paths (using cardinal directions: Up, Down, Left, Right) against known Safari Zone topography, step budgets, and area transitions. Note that map transitions occur at boundary coordinates (e.g., walking past the map edge onto x=0 or map borders warps to adjacent sectors), which are valid transitions, not wall collisions. Focus on spatial route efficiency, dead-end detection, and remaining step budgets. Ignore non-spatial UI inputs like button A or B if present in path proposals.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"remaining_steps\": {\"type\": \"integer\"}, \"destination_area\": {\"type\": \"string\"}, \"planned_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_position\", \"remaining_steps\", \"destination_area\", \"planned_path\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_route_valid\": {\"type\": \"boolean\"}, \"estimated_step_cost\": {\"type\": \"integer\"}, \"warnings\": {\"type\": \"string\"}, \"recommendations\": {\"type\": \"string\"}}, \"required\": [\"is_route_valid\", \"estimated_step_cost\", \"warnings\", \"recommendations\"]}"
-  }
-}
+{}
