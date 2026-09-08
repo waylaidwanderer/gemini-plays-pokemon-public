@@ -34,11 +34,13 @@
 5. Descend staircase at (16, 27) to ground lawn at (16, 28).
 6. Walk west along row 30 boulevard past Rest House 3 to (6, 30).
 7. Walk north along col 6 past Rest House 3 to row 19/20.
-8. Bypass pond north and sprint west across northern promenade to col 0 into Area 3!
+8. At row 30-31 boulevard, walk west past col 6, turn south along western corridor (cols 1-3) through row 25 signpost to (3, 33), and step Down through gate at (2..3, 34..35) to enter Area 3 at (21, 0)!
 
-### Phase 4: Area 3 (Secret House & Gold Teeth)
-1. Inside Area 3, locate the Secret House to receive HM03 (Surf).
-2. Retrieve the Gold Teeth item ball for the Fuchsia Warden (rewards HM04 Strength).
+### Phase 4: Area 3 (Secret House - HM03 Surf)
+1. Enter Area 3 at (21, 0).
+2. Step Down to rows 2-4 and sprint directly WEST along the open northern lawn highway (rows 2-5, cols 0-21).
+3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
+(Note: Gold Teeth at (19, 7) already collected on Turn 8235!).
 
 ## Active Session Step Tracking (Session 3 - Turn 8045)
 - Turn 8045: Started fresh session (500 steps).
@@ -66,29 +68,3 @@
 - Turn 8197: In battle with wild Exeggcute at (28, 5). Dismissing text with B and positioning cursor on RUN.
 - Turn 8198: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (28, 5).
 - Turn 8199: In overworld at (28, 5). Walking Up 3 times to (28, 2) onto the row 2 clean lawn highway and Left 4 times to (24, 2) towards Area 3.
-- Turn 8200: Reached (24, 2) on row 2 northern highway with ~136 steps remaining. Leaving (25, 1) item ball to preserve bag space for Surf/Gold Teeth. Sprinting west along row 2 to (14, 2).
-- Turn 8202: Standing at (14, 2) on row 2 highway. Sprinting Left 5 times along clean lawn to (9, 2) towards Area 3 entrance.
-- Turn 8203: Reached (9, 2). Row 1 is confirmed 100% clean lawn across cols 5..9 avoiding tall grass at (7..8, 2). Stepping Up to (9, 1) and sprinting Left 4 times to (5, 1) towards Area 3 entrance.
-- Turn 8204: Standing at (5, 1). Bypassing tall grass via row 1 to (2, 1), Down to (2, 2), and Left across (1, 2) into (0, 2) to enter Safari Zone Area 3 with ~120 steps remaining!
-- Turn 8205: Reached western boundary corridor at (1, 2). Column 0 at rows 2..6 is a bush border. Walking Down 4 times along col 1 clean lawn to (1, 6) to scan the western edge for the Area 3 entrance.
-- Turn 8206: Reached (1, 6). Bypassing tree at (0..1, 8..9) via col 2 to (1, 10) to scan western boundary for Area 3 entrance.
-- Turn 8208: In battle with wild Nidoran♀ at (2, 7). Dismissing text with B and positioning cursor on RUN.
-- Turn 8209: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (2, 7).
-- Turn 8211: Standing at (2, 7). Walking Down 4 times along col 2 to (2, 11) to exit tall grass into the open lawn field and scan col 0 for Area 3 entrance.
-- Turn 8212: Reached (2, 11) on open western lawn. Column 1 rows 11..15 is clean lawn. Moving Left to (1, 11) and Down 4 times to (1, 15) to scan col 0 south for Area 3 gate.
-- Turn 8213: Reached (1, 15). Column 0 at rows 11..19 is a bush border; col 1 is clean lawn. Walking Down 4 times along col 1 to (1, 19) to scan col 0 south for Area 3 gate.
-- Turn 8214: Reached (1, 19). Column 0 remains bush border to row 23. Walking Down 4 times along col 1 clean lawn to (1, 23) towards row 25 signpost.
-- Turn 8215: Reached (1, 23). Walking Down to (1, 25), Right to (3, 25), and pressing A to read the signpost at (4, 25) for Area 3 directions.
-- Turn 8217: Standing at (3, 25) reading signpost at (4, 25). Active step baseline: 102 steps remaining (227 steps expended in Area 2). Advancing dialogue.
-- Turn 8220: Read signpost at (4, 25): 'TRAINER TIPS / The SECRET HOUSE / is still ahead!'. Confirms path to Area 3 is directly ahead. Active step baseline: 102 steps remaining.
-- Turn 8221: Walked Down 4 times along col 3 from (3, 25) to (3, 29). Open lawn corridor continues south. Remaining steps: 98.
-- Turn 8223: Standing at (3, 33) directly above the southern gate at (2..3, 34..35) flanked by statues. Walking Down 3 times into row 36 to enter Safari Zone Area 3 (West) with ~91 steps remaining!
-- Turn 8224: Entered Safari Zone Area 3 (West) at (21, 0) with 91 steps remaining! Standing on clear lawn corridor (cols 20-21). Walking Down 4 times to (21, 4).
-- Turn 8225: At (21, 4) with 87 steps remaining. Spotted item ball at (19, 7)! Moving Left 2, Down 2 to (19, 6) and pressing A to collect.
-- Turn 8226: At (19, 6) facing item ball at (19, 7). Interacting returned 'No more room for items!'. Bag is at 20/20 capacity. 83 steps remaining. Opening Start menu to free 2 slots for Gold Teeth and HM03 Surf.
-- Turn 8227: Start menu open. Safari Zone counter displays '14/500' (exactly 14 steps remaining in this session!). Opening ITEM menu via Down, Down, A to inspect bag contents and toss/use items to free inventory space.
-- Turn 8232: Submenu open on TM02 with USE/TOSS. Pressing Down to select TOSS and A to initiate tossing TM02.
-- Turn 8233: Quantity box '×01' open. Pressing A to confirm quantity 1 and A to select YES to toss TM02.
-- Turn 8234: Selected YES to toss TM02. Pressing A to confirm toss, followed by B, B, B to exit menus to overworld at (19, 6).
-- Turn 8235: Pressed A at (19, 6) facing (19, 7). Screen confirmed: 'BLUE found GOLD TEETH!'! Key item GOLD TEETH successfully collected! 14 steps remaining in session.
-- Turn 8245: Exited Safari Zone session 3. Player standing at (4, 3) in Gatehouse. Stepping Down twice into Fuchsia City to deliver Gold Teeth to Warden at (27, 27).

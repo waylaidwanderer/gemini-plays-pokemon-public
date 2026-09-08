@@ -70,3 +70,10 @@
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
 - Turn 8217 Step Baseline: Position (3, 25) at row 25 western signpost with 102 steps remaining (227 steps expended in Area 2). Discovered item ball at (19, 7).
+## Area 3 (West)
+- North Entrance: Connects from Area 2 southern gate at (2..3, 34..35) to (21, 0) [Verified Turn 8224].
+- Northern Highway: Wide 4-tile open green lawn corridor across rows 2..5 spanning cols 12..23+ heading west towards the Secret House.
+- Signpost at (17, 3): Display signpost situated in northern lawn.
+- Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
+- Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), and dense bush wall along col 24 (rows 6..13).
+- Master Traversal Route: From north entrance at (21, 0), step down to rows 2-4 and run directly WEST along the open northern lawn highway to reach the Secret House.

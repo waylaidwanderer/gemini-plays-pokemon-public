@@ -20,7 +20,9 @@
 - LIFT KEY
 - SILPH SCOPE
 - POKé FLUTE [Obtained Turn 6599]
+- GOLD TEETH [Obtained Turn 8235]
 
+## Inventory Capacity
 ## Inventory Capacity
 - Total Slots Used: 20 / 20 (Full). TM02 tossed Turn 8234, Gold Teeth collected Turn 8235.
 
