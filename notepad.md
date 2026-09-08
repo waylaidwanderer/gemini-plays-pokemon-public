@@ -11,7 +11,7 @@
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥72868
-- Pokédex: 12 Caught / 50+ Seen [Venonat Caught Turn 7581]
+- Pokédex: 13 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 
 
@@ -120,6 +120,8 @@
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
+- [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
+
 
 <hr>
 
@@ -219,6 +221,11 @@
   - Status: Healthy
   - Caught: Safari Zone Center Area tall grass [Turn 7581]
   - Transferred to PC Box 1 (Active Party full)
+- CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
+  - Status: Healthy
+  - Caught: Safari Zone Area 2 tall grass [Turn 8384]
+  - Transferred to PC Box 1 (Active Party full)
+
 
 <hr>
 
