@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 48, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥66488
+- Money: ¥66968
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -162,14 +162,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥66488
+- ¥66968
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 48, Water]
   - Status: Healthy
-  - HP: 146 / 151
+  - HP: 137 / 151
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 10/25), Body Slam (PP 7/15), Bubblebeam (PP 10/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 5/25), Body Slam (PP 7/15), Bubblebeam (PP 10/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2357,6 +2357,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Bird Keeper Sebastian at (50, 10) defeated on Turn 7030 [Verified Turn 7030].
 - Jr. Trainer ♀ at (48, 10): Stationed at (48, 10) facing South. Line: "I'm told I'm good for a kid!". Engaged at (48, 11). Pokémon: Pidgey Lv 24, Meowth Lv 24, Rattata Lv 24, Pikachu Lv 24, Meowth Lv 24. Defeated on Turn 7044 [Verified Turn 7044].
-- Westward Bridge Pier (Rows 10..11): 2-tile-wide wooden bridge corridor continues west along rows 10..11 past cols 48..44+ toward Route 14. Railing blocks south at row 12. Trees/hedges block north at row 9 [Verified Turn 7045].
+- Westward Bridge Pier (Rows 10..11): 2-tile-wide wooden bridge corridor continues west along rows 10..11 past cols 48..40+ toward Route 14. Railing blocks south at row 12 (cols 40..51). Trees/hedges block north at row 9 (cols 40..49) [Verified Turn 7046].
 
 <hr>
