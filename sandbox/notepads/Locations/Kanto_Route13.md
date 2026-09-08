@@ -23,3 +23,5 @@
   - Southward bypass at col 25: open gap through (25, 11) to row 12 corridor at (25, 12) [Verified Turn 7058].
   - Row 12 corridor extends west across cols 19..25 bounded south by row 13 fence and north by row 11 fence (cols 19..21) [Verified Turn 7060].
   - Female NPC at (23, 10) did not engage player at (23, 12) [Verified Turn 7060].
+- Row 12 dead-ends at col 16/17: blocked west by fence at (16, 12) and south by alcove at (17, 13..14) [Verified Turn 7061].
+- Northern bypass connection: Row 11 has open gap at (22..23, 11) connecting row 12 to row 10. Row 10 extends west across cols 15..22+ [Verified Turn 7061].
