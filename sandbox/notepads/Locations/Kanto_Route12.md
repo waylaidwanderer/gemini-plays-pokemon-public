@@ -7,7 +7,6 @@
 ## Geography & Layout
 - Northern Entrance Pier: 2-tile-wide pier corridor at cols 8..9, rows 0..3 bordered by mountain cliff to west (col 7) and shoreline to east (col 10).
 - Silence Bridge (Wooden Dock): 2-tile-wide wooden bridge across cols 8..9 starting at row 4, flanked by deep water to west (cols 4..7) and east (cols 10..13) [Verified Turn 6923].
-- Sleeping Pokémon (Snorlax Lv 30): Stationed south along the bridge blocking progression to Route 13 and Fuchsia City.
 - Bridge Fork at Row 10: Central grass patch at cols 8..9 (rows 10..11). Pier railing blocks central passage at (6..9, 12). Bypass walkways exist to the west at cols 4..5 and east at cols 10..11 [Verified Turn 6924].
 - Route 12 Gatehouse: Spans cols 8..13 over the water at rows 16..18+. North entrance approached via wooden bridge at cols 10..11 [Verified Turn 6925].
 - Gatehouse 1F Interior: North entrance at (4..5, 0). Central green-checkered hallway spans rows 1..6 (cols 3..6). Guard at (1, 3). Stairs to 2F at (8, 6). South exit mat at (4..5, 7) [Verified Turn 6927].
@@ -39,4 +38,4 @@
 - Bridge Junction Rows 90..93: Cols 10..11 has tall grass across rows 90..91. Jr. Trainer ♂ Justin at (11, 92). Team: Nidoran♂ Lv 29, Nidorino Lv 29. Defeated on Turn 7014. Main bridge continues south across cols 7..11 at rows 92..93+ [Verified Turn 7014].
 - Platform at Rows 94..95: Wide dock across cols 10..15. Railing blocks south at (10..13, 96). Open bypass corridor at cols 14..15 connects rows 96..98+ [Verified Turn 7016].
 - Bridge Corridor Rows 100..101+: Railing blocks south at (10..11, 100) and (14..15, 100). Open 2-tile bridge corridor at cols 12..13 continues south across rows 100..101+ over water [Verified Turn 7017].
-- Bridge Continuation Rows 104..109+: Cols 12..13 dead-ends at row 106 railing. Main 2-tile bridge corridor shifts west to cols 10..11 continuing south across rows 104..109+ over water toward Route 13 [Verified Turn 7019].
+- Bridge Continuation Rows 104..109+: Cols 12..13 dead-ends at row 106 railing. Main 2-tile bridge corridor shifts west to cols 10..11 continuing south across rows 104..109+ over water toward Route 13. Exited to Route 13 at (11, 108) [Verified Turn 7020].
