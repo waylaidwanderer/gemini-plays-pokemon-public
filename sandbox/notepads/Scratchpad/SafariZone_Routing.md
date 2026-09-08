@@ -77,3 +77,4 @@
 - Turn 8211: Standing at (2, 7). Walking Down 4 times along col 2 to (2, 11) to exit tall grass into the open lawn field and scan col 0 for Area 3 entrance.
 - Turn 8212: Reached (2, 11) on open western lawn. Column 1 rows 11..15 is clean lawn. Moving Left to (1, 11) and Down 4 times to (1, 15) to scan col 0 south for Area 3 gate.
 - Turn 8213: Reached (1, 15). Column 0 at rows 11..19 is a bush border; col 1 is clean lawn. Walking Down 4 times along col 1 to (1, 19) to scan col 0 south for Area 3 gate.
+- Turn 8214: Reached (1, 19). Column 0 remains bush border to row 23. Walking Down 4 times along col 1 clean lawn to (1, 23) towards row 25 signpost.
