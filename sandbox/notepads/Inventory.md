@@ -6,12 +6,11 @@
 - SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
-- TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
 - MAX POTION x1 [Obtained Turn 7695 in Safari Zone Area 1]
 
-## Key Items (9 / 9)
+## Key Items (10 / 10)
 - OLD ROD
 - SUPER ROD [Obtained Turn 7001]
 - HM01 (CUT)
@@ -23,7 +22,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7711 (9 regular + 9 key items).
+- Total Slots Used: 20 / 20 (Full). TM02 tossed Turn 8234, Gold Teeth collected Turn 8235.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
