@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 49, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥68758
+- Money: ¥69383
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -162,7 +162,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥68758
+- ¥69383
 
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
@@ -2391,6 +2391,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Upper Fence Bypass (Cols 23..26):
   - Row 5 fence ends at col 23; cols 24..25 are open ground connecting row 6 and row 4 [Verified Turn 7106].
   - Col 26 has vertical fence at rows 3..5 [Verified Turn 7106].
-- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25 [Turn 7117].
+- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
 
 <hr>
