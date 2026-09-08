@@ -2362,6 +2362,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fence Maze Layout (Cols 27..35):
   - Row 10 corridor: Open path across cols 27..34 between fences.
   - Signpost at (31, 11): "North to SILENCE BRIDGE" [Verified Turn 7052].
-  - NPCs sighted at (32, 6), (33, 6), and (27, 9) [Observed Turn 7051].
+  - NPCs sighted at (32, 6) and (33, 6).
+  - Trainer at (27, 9): Stationed at (27, 9) facing South. Line: "Wow! Your BADGES are too cool!". Engaged at (27, 10) [Verified Turn 7052].
 
 <hr>
