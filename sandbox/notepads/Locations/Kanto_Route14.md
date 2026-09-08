@@ -22,5 +22,5 @@
 - Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
 - Biker at (15, 30): Stationed at (15, 30) facing West across tall grass. Line: "We ride out here because there's more room!". Team: Koffing Lv 29, Muk Lv 29. Defeated on Turn 7195 [Turn 7195]. Engaged at (13, 30) [Turn 7192].
-- Bird Keeper at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary POKéMON?". Team: Farfetch'd Lv 33. Engaged at (13, 31) [Turn 7198].
+- Bird Keeper at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary POKéMON?". Team: Farfetch'd Lv 33. Defeated on Turn 7202 [Turn 7202]. Engaged at (13, 31) [Turn 7198].
 - Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].
