@@ -57,3 +57,4 @@
 - Turn 8123: Discovered 2-tile wide elevated ridge at cols 37..38 continuing north across rows 20..23+. Advancing north to reveal northern descent.
 - Turn 8127: At (37, 16). Upper plateau expands west across rows 12..14+. South-facing staircase spotted at (34, 15) leading down to lower valley. Ascending north to (37, 13).
 - Turn 8131: At (33, 13). Confirmed plateau western edge is a cliff at col 32. Descending staircase at (34, 15) to open lawn at (34, 16).
+- Turn 8133: At (34, 16). Stepping west along row 16 lawn to (29, 16) to scout central Area 2.
