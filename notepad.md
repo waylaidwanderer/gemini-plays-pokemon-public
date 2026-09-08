@@ -70,13 +70,13 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 73
-   - Stats: Max HP 249 (HP: 249/249 - Fully Healed!), Attack 175, Defense 194, Speed 178, Special 185
+1. HYDROS (Blastoise) - Lv 74
+   - Stats: Max HP 252 (HP: ~44/252), Attack 178, Defense 197, Speed 180, Special 187
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (10/15), Ice Beam (5/10), Bite (21/25), Surf (3/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54 - Revived & Healthy!)
+   - Stats: Max HP 54 (HP: 54/54 - Healthy)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
@@ -84,7 +84,7 @@
    - Stats: Max HP 56 (HP: 56/56 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Dig utility & Rock/Ground tank (Slot 3)
+   - Role: Dig utility & Rock/Ground backup (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
    - Stats: Max HP 61 (HP: 61/61 - Healthy)
    - Type: Normal / Flying
@@ -103,35 +103,15 @@
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
+- Key Items: Bicycle, Pok� Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
 
-## Active Party Field Move Selection Protocols
-- When opening Party menu from Start Menu (index 1: POKÉMON):
-  - Slot 1: HYDROS (Blastoise) -> Press A on Lead -> Option 1: SURF (when facing water)
-  - Slot 2: ATLAS (Machop) -> Press Down 1 from Lead -> Press A -> Option 1: STRENGTH
-  - Slot 3: TERRA (Geodude) -> Press Down 2 from Lead -> Press A -> Option 1: DIG (Warps to last Pokémon Center - DO NOT USE inside Victory Road unless retreating!)
-  - Slot 4: ZEPHYR (Pidgey) -> Press Down 3 from Lead -> Press A -> Option 1: FLY (Outdoors only)
-  - Slot 6: SPROUT (Bellsprout) -> Press Up 1 from Lead -> Press A -> Option 1: CUT
-
-## Elite Four Gauntlet Strategy & Resource Audit
-- Primary Sweeper: HYDROS (Blastoise Lv 73)
-  - Moves:
-    - Double-Edge (15/15 PP) - High Normal physical power for neutral targets
-    - Ice Beam (10/10 PP) - Super effective vs Lorelei (Jynx), Bruno (Onix), Lance (Dragonite, Dragonair, Aerodactyl), Rival (Pidgeot, Venusaur, Rhydon)
-    - Bite (25/25 PP) - High PP flinch utility vs Agatha's Ghosts (Gengar, Haunter, Golbat, Arbok)
-    - Surf (15/15 PP) - STAB powerhouse vs Bruno (Onix), Agatha (Arbok), Lance (Aerodactyl), Rival (Rhydon, Arcanine, Charizard)
-  - Total PP: 65 PP across moves, sufficient for ~25-30 trainer Pok�mon gauntlet.
-- Support / Utility Roster:
-  - ATLAS (Machop Lv 16): Strength utility, sacrificial switch / revive pivot
-  - TERRA (Geodude Lv 22): Rock Throw, Dig utility / switch pivot
-  - ZEPHYR (Pidgey Lv 21): Fly fast travel, Sand-Attack accuracy stall
-  - PRISM (Eevee Lv 25): Double Team evasion stall
-  - SPROUT (Bellsprout Lv 17): Cut utility, PoisonPowder / Rest status stall
-- Contingencies & League Protocols:
-  - Indigo Plateau features a Pok�mon Center and Mart in the main lobby.
-  - Heal all Pok�mon to 100% HP/PP at Indigo Plateau Center counter before entering door.
-  - Purchase Max Potions, Full Restores, and Revives at Indigo Mart if bag space permits.
+## Elite Four Gauntlet Remaining PP Audit
+- Total Remaining Sweeper PP: 39 PP
+  - Double-Edge: 10/15 PP
+  - Ice Beam: 5/10 PP (Key vs Lance's Dragonite/Dragonairs/Aerodactyl & Rival's Pidgeot/Venusaur/Rhydon)
+  - Bite: 21/25 PP
+  - Surf: 3/15 PP (Key vs Lance's Aerodactyl/Gyarados & Rival's Rhydon/Arcanine/Charizard)
 
 
 <hr>
@@ -2888,18 +2868,52 @@
 
 <h1><code>Locations/IndigoPlateau</code></h1>
 
-# Indigo Plateau - Pok�mon League Headquarters
+# Indigo Plateau & Pok�mon League HQ
 
-## General Information
-- South exit: Route 23 North at (7..8, 11)
-- North passage: Elite Four entrance chamber
+## Building Layout & Points of Interest
+- **Entrance Lobby**:
+  - Pok�mon Center Counter: Nurse Joy heals party for free.
+  - Pok�mart Counter: Items and supplies.
+  - PC Terminal: Box management and item storage.
+  - Elite Four Gate: Guard at north center opens access to Room 1.
 
-## Points of Interest & Services
-- Entrance Carpet: (7..8, 11)
-- Pok�mon Center Counter: (5..8, 6) with Nurse Joy at (7, 5)
-- Pok�mart Counter: (10..11, 6) on the right side of the lobby
-- PC Storage Terminal: Located on the counter
-- Elite Four Entrance Guard: Guards the northern gate leading to the Elite Four gauntlet
+## Elite Four Gauntlet Chambers & Verified Rosters
+1. **Room 1: Lorelei (Ice / Water Specialist)**
+   - Room Layout: Ice floor tiles with statues. Door at (4, 1)/(5, 1).
+   - Roster:
+     1. Dewgong (Lv 54) - Water/Ice
+     2. Cloyster (Lv 53) - Water/Ice
+     3. Slowbro (Lv 54) - Water/Psychic
+     4. Jynx (Lv 56) - Ice/Psychic
+     5. Lapras (Lv 56) - Water/Ice
+   - Status: DEFEATED [Turn 37686]
+
+2. **Room 2: Bruno (Fighting / Rock Specialist)**
+   - Room Layout: Rock boulder walls. Door at (4, 1)/(5, 1).
+   - Roster:
+     1. Onix (Lv 53) - Rock/Ground (OHKO by Surf)
+     2. Hitmonchan (Lv 55) - Fighting (OHKO by Surf)
+     3. Hitmonlee (Lv 55) - Fighting (OHKO by Surf)
+     4. Onix (Lv 56) - Rock/Ground (OHKO by Surf)
+     5. Machamp (Lv 58) - Fighting (OHKO by Surf)
+   - Status: DEFEATED [Turn 37696]
+
+3. **Room 3: Agatha (Ghost / Poison Specialist)**
+   - Room Layout: Tombstones surrounding room. Door at (4, 1)/(5, 1).
+   - Roster:
+     1. Gengar (Lv 56) - Ghost/Poison (Surf 2HKO)
+     2. Golbat (Lv 56) - Poison/Flying (Ice Beam OHKO)
+     3. Haunter (Lv 55) - Ghost/Poison (Surf OHKO)
+     4. Arbok (Lv 58) - Poison (Surf OHKO)
+     5. Gengar (Lv 60) - Ghost/Poison (Surf)
+   - Status: IN PROGRESS / DEFEATED
+
+4. **Room 4: Lance (Dragon Specialist)**
+   - Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
+   - Strategy: Ice Beam sweeps Dragonite (4x weak), Dragonairs (2x weak), Aerodactyl (2x weak).
+
+5. **Champion Chamber: Rival RED**
+   - Roster: Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65.
 
 
 <hr>
