@@ -65,9 +65,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 72
-   - Stats: Max HP 245 (HP: 195/245), Attack 172, Defense 190, Speed 174, Special 182
+   - Stats: Max HP 245 (HP: 245/245 - Fully Healed!), Attack 172, Defense 190, Speed 174, Special 182
    - Type: Water
-   - Moves: Double-Edge (0/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54 - Revived & Healthy!)
@@ -2517,12 +2517,11 @@
 2. Walk West to `(36, 6)`.
 3. Walk `Down` 1 to `(36, 7)`, `Left` 1 to `(35, 7)`.
 4. Walk `Down` 5 along column 35 to `(35, 12)` (bypassing eastern statues at cols 34-35).
-5. Walk `Left` along Row 12 (unobstructed green lawn) past column 12 to column 4 at `(4, 12)`.
-6. Step `Up` through the fence opening at `(4..5, 11)` onto the Gatehouse front plaza at `(4..5, 10)`.
-7. Walk `Right` along row 10 to column 11 at `(11, 10)`.
-8. Walk straight `Up` along column 11 through `(11, 9)`, `(11, 8)`, `(11, 7)` to `(11, 6)` onto the Upper Paved Road.
-9. Walk `Left` 3 steps along row 6 to `(8, 6)`.
-10. Step `Up` 1 into the Gatehouse golden entrance door at `(8, 5)`!
+5. Walk `Down` to Row 14 lower road, walk West to Column 33/4, ascend onto the Gatehouse front plaza.
+6. Walk `Right` along row 10 to column 11 at `(11, 10)`.
+7. Walk straight `Up` along column 11 to `(11, 6)` onto the Upper Paved Road.
+8. Walk `Left` 3 steps along row 6 to `(8, 6)`.
+9. Step `Up` 1 into the Gatehouse golden entrance door at `(8, 5)`!
 
 ## Verified Topology Notes
 - **Gatehouse Golden Door**: Located at `(8, 5)`.
