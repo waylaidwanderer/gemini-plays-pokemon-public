@@ -2665,5 +2665,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8199: In overworld at (28, 5). Walking Up 3 times to (28, 2) onto the row 2 clean lawn highway and Left 4 times to (24, 2) towards Area 3.
 - Turn 8200: Reached (24, 2) on row 2 northern highway with ~136 steps remaining. Leaving (25, 1) item ball to preserve bag space for Surf/Gold Teeth. Sprinting west along row 2 to (14, 2).
 - Turn 8202: Standing at (14, 2) on row 2 highway. Sprinting Left 5 times along clean lawn to (9, 2) towards Area 3 entrance.
+- Turn 8203: Reached (9, 2). Row 1 is confirmed 100% clean lawn across cols 5..9 avoiding tall grass at (7..8, 2). Stepping Up to (9, 1) and sprinting Left 4 times to (5, 1) towards Area 3 entrance.
 
 <hr>
