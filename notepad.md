@@ -2363,6 +2363,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Row 10 corridor: Open path across cols 27..34 between fences.
   - Signpost at (31, 11): "North to SILENCE BRIDGE" [Verified Turn 7052].
   - NPCs sighted at (32, 6) and (33, 6).
-  - Jr. Trainer ♀ at (27, 9): Stationed at (27, 9) facing South. Line: "Wow! Your BADGES are too cool!". Engaged at (27, 10). Pokémon: Poliwag Lv 30, Poliwag Lv 30 [Verified Turn 7055].
+  - Jr. Trainer ♀ at (27, 9): Stationed at (27, 9) facing South. Line: "Wow! Your BADGES are too cool!". Engaged at (27, 10). Pokémon: Poliwag Lv 30, Poliwag Lv 30. Defeated on Turn 7056 [Verified Turn 7056].
 
 <hr>
