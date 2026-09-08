@@ -70,6 +70,6 @@
 
 - [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 37686]
 - [x] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58) [Turn 37696]
-- [ ] Defeat Elite Four Agatha in Room 3
+- [x] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60) [Turn 37714]
 - [ ] Defeat Elite Four Lance in Room 4
 - [ ] Defeat Champion RED in Champion Chamber
