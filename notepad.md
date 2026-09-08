@@ -2639,33 +2639,39 @@
 
 <h1><code>Scratchpad/VictoryRoadPuzzles</code></h1>
 
-# Victory Road Master Puzzle Blueprint & Hypotheses
+# Victory Road Master Blueprint & Protocol
 
-## Floor Mechanics & Switch Matrix
-- **1F Master Puzzle**:
-  - Boulder at (5, 15), Switch at (17, 13).
-  - Pushing Boulder (5, 15) onto Switch (17, 13) lowers Shutters at (5, 13) and (7, 7).
-  - Open path: (5, 14) -> (5, 12) -> (11, 12) -> (11, 6) -> (7, 6) -> (7, 8) -> (3, 8) -> (3, 1) -> (1, 1) [SW Ladder to 2F (0, 8)].
+## Complete 1-Run Victory Road Solution
+1. **Victory Road 1F**:
+   - Cast Strength on Machop ATLAS.
+   - Push Boulder at (5, 15) onto Switch Plate at (17, 13) using verified master protocol.
+   - Lowers Shutters at (5, 13) and (7, 7).
+   - Ascend SW Ladder at (1, 1) to 2F (enters 2F at (0, 8)).
 
-- **2F Master Puzzle (Part 1)**:
-  - Boulder at (4, 14), Switch 1 at (1, 16).
-  - Pushing Boulder (4, 14) onto Switch (1, 16) lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-  - Open path to eastern sector: Pass through lowered Shutter 1 at (5, 10) -> (5, 9) -> Row 12 corridor to reach eastern chambers and Ladder B at (25, 14).
+2. **Victory Road 2F (First Pass)**:
+   - Cast Strength on Machop ATLAS.
+   - In SW Room: Push Boulder at (4, 14) onto Switch 1 at (1, 16).
+   - Lowers Shutter 1 at (5, 10).
+   - Walk through lowered Shutter 1 at (5, 10) -> Row 8 purple corridor -> Column 14 -> Row 14 -> Ladder B at (27, 15).
+   - Ascend Ladder B at (27, 15) to 3F (enters 3F at (27, 15)).
 
-- **3F Master Puzzle**:
-  - Boulder 1 at (22, 3), Switch at (3, 5).
-  - Pushing Boulder 1 onto Switch (3, 5) lowers Shutter at (21, 15) in front of SE Pit Room.
-  - Path to SE Pit: Down ramp (17, 5) -> col 9/10 purple floor -> row 8 purple floor -> Ledge Hop (1, 9) -> Row 14/15 Southern Highway East to (21, 15).
-  - In SE Pit Room: Pit Boulder at (22, 15), Pit at (23, 15).
-  - Push Pit Boulder at (22, 15) East into Pit (23, 15).
-  - Step East into Pit (23, 15) to drop down to 2F!
+3. **Victory Road 3F**:
+   - Cast Strength on Machop ATLAS.
+   - Walk west along Southern Highway (row 14/15) to (1, 14) -> north through purple floor -> col 9/10 -> Ramp (17, 5) -> Row 1 Northern Highway.
+   - Push Boulder at (22, 3) west along Row 1, down Col 2, and east onto Switch Plate at (3, 5).
+   - Lowers Shutter at (21, 15) in front of SE Pit Room.
+   - Walk to SE Pit Room: Push Pit Boulder at (22, 15) EAST into Pit at (23, 15).
+   - Step EAST into Pit at (23, 15) to drop down to 2F!
 
-- **2F Master Puzzle (Part 2 - Final Clear)**:
-  - Landing: Player lands at (22, 16) with fallen boulder at (23, 16).
-  - Working Hypothesis (to verify): Depressing Switch (9, 16) lowers Shutter at (28, 10), unlocking access to Ladder NE at (27, 7).
-  - Execution: Reposition around boulder to (24, 16) -> Push boulder WEST 14 tiles along Row 16 onto Switch (9, 16).
-  - Verify Shutter (28, 10) state -> Walk East along Row 16 to (28, 16) -> North along Col 28 through lowered Shutter (28, 10) to (28, 9) -> Left to (27, 9) -> North to (27, 7) (Ladder NE).
-  - Ascend Ladder NE at (27, 7) to 3F Exit Room -> Walk North to Indigo Plateau!
+4. **Victory Road 2F (Second Pass & Final Clear)**:
+   - Land on 2F at (22, 16) with fallen boulder at (23, 16).
+   - Cast Strength on Machop ATLAS.
+   - Walk around through Row 16 to (24, 16).
+   - Push fallen boulder WEST along Row 16 to (9, 16) onto Switch 2!
+   - Lowers NE Exit Shutter at (27, 10) and Shutter 2 at (15, 15).
+   - Walk east along Row 16 to (28, 16) -> north along Column 28 to (28, 11) -> left to (27, 11) -> north through lowered shutter (27, 10) to Ladder NE at (27, 7).
+   - Ascend Ladder NE at (27, 7) to 3F Exit Room.
+   - In 3F Exit Room, walk north to exit Victory Road onto Indigo Plateau!
 
 <hr>
 
