@@ -2841,25 +2841,9 @@
 
 # Fast-Travel Fly Map Navigation & Mechanics
 
-## Fly Map City Matrix & Verified Offsets
-- **From Pallet Town**:
-  - `Up` 1 time -> **VIRIDIAN CITY** ("To VIRIDIAN CITY")
-  - `Up` 2 times -> **PEWTER CITY** ("To PEWTER CITY")
-  - `Up` 2 times, `Left` 1 time -> **INDIGO PLATEAU** ("To INDIGO PLATEAU")
-- **From Viridian City**:
-  - `Down` 1 time -> **PALLET TOWN** ("To PALLET TOWN")
-  - `Up` 1 time -> **PEWTER CITY** ("To PEWTER CITY")
-  - `Up` 1 time, `Left` 1 time -> **INDIGO PLATEAU** ("To INDIGO PLATEAU")
-- **From Pewter City**:
-  - `Down` 1 time -> **VIRIDIAN CITY** ("To VIRIDIAN CITY")
-  - `Down` 2 times -> **PALLET TOWN** ("To PALLET TOWN")
-  - `Left` 1 time -> **INDIGO PLATEAU** ("To INDIGO PLATEAU")
-- **From Saffron City**:
-  - `Left` 1 time -> **CELADON CITY** ("To CELADON CITY")
-  - `Down` 1 time, `Left` 1 time -> **PALLET TOWN** -> `Up` 1 time -> **VIRIDIAN CITY**
-
-## Field Move Execution Sequence
-- Open Start Menu -> POKÉMON (index 1) -> select ZEPHYR (Slot 4) -> Option 1: FLY -> Navigate cursor to target city -> Press A to confirm flight.
+## Fly Map Mechanics
+- Field Move Execution: Open Start Menu -> POKÉMON (index 1) -> select flyer (ZEPHYR) -> Option 1: FLY -> Navigate cursor to target city -> Verify on-screen text banner -> Press A to confirm flight.
+- Verification Protocol: Always verify the on-screen destination text header ('To [DESTINATION]') before pressing A to confirm flight. Do not execute unverified blind batch inputs on the Fly map.
 
 
 <hr>
@@ -2868,18 +2852,7 @@
 
 # Indigo Plateau & Pokémon League HQ
 
-## Building Layout & Points of Interest
-- **Indigo Plateau Facility (Entrance at (13, 25) on Route 23 exterior)**:
-  - Entrance Mat (South): Rows 7-8 at `(3..4, 7)`, exits south to Route 23 exterior at `(13, 25)`.
-  - Nurse Joy Counter: Located at `(3, 1)` with counter at `(3, 2)` (approach from `(3, 3)` facing UP). Heals party to 100% HP/PP and sets respawn point to Indigo Plateau.
-  - Chansey: Located at `(1, 3)`.
-  - PC Terminal: Located at `(13, 3)` with table at `(13, 4)`.
-  - Attendant at `(11, 2)`.
-  - Row 2 Counter Barrier: Spans across `(0..9, 2)` and `(13, 2)`.
-  - NPCs at `(0, 4..5)` and `(11, 7)`.
-  - Elite Four Entrance: Northern passage inside Indigo Plateau facility leading into Room 1 (Lorelei).
-
-## Gauntlet Mechanics & Reset Protocol
+## Gauntlet Overview & Rules
 - **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
 - **Blackout & Failure Reset**: Blacking out at any point during the gauntlet completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokémon Center. The entire gauntlet must be completed in a single run.
 - **Preparation & Rematch Strategy**: Ensure full party health, max PP on sweeper moves (Ice Beam, Surf, Double-Edge), and carry restoratives before entering Room 1.
@@ -2888,7 +2861,7 @@
 1. **Room 1: Lorelei (Ice / Water Specialist)**
    - Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
    - Sweep Strategy: Double-Edge on Dewgong, Jynx, Lapras; Surf/Double-Edge on Cloyster; Bite/Double-Edge on Slowbro.
-   - Status: REMATCH READY
+   - Status: REMATCH PENDING
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
    - Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
