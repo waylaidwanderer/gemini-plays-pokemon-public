@@ -2575,17 +2575,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Area 2 Route: Route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 ## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
-- Session Ledger:
-  - Turn 8045: Started active session with 500 / 500 steps remaining (¥500 paid Turn 8045).
-  - Turn 8047: Spoke with gatekeeper, entered Center Area at (15, 24) (499 steps remaining).
-  - Turn 8055: Confirmed walkable tree gap at (23..27, 15) across eastern tree wall.
-  - Turn 8058: Crossed east border at row 11 into Area 1 at (0, 23) (473 steps remaining).
-  - Turn 8064: Fled wild Kangaskhan battle at (17, 24) (455 steps remaining).
-  - Turn 8066: Ascended south plateau at (20, 21), crossed west to (12, 20), descended to (12, 22).
-  - Turn 8074: Fled wild Exeggcute battle at (8, 14) (424 steps remaining).
-  - Turn 8097: Breached column 20 corridor through row 4 onto row 3 northern highway.
-  - Turn 8100: Position (12, 3) on row 3 northern highway (343 steps remaining).
-  - Turn 8107: Entered Safari Zone Area 2 at (39, 31) (329 steps remaining).
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
@@ -2594,7 +2583,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 32..38. Staircase at (34, 15) descends south to open lawn at (34, 16) [Verified Turn 8132].
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
-- Turn 8217 Step Baseline: Position (3, 25) at row 25 western signpost with 102 steps remaining (227 steps expended in Area 2). Discovered item ball at (19, 7).
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (2..3, 34..35) to (21, 0) [Verified Turn 8224].
 - Northern Highway: Wide 4-tile open green lawn corridor across rows 2..5 spanning cols 12..23+ heading west towards the Secret House.
@@ -2651,27 +2639,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 2. Step Down to rows 2-4 and sprint directly WEST along the open northern lawn highway (rows 2-5, cols 0-21).
 3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
 (Note: Gold Teeth at (19, 7) already collected on Turn 8235!).
-
-## Active Session Step Tracking (Session 3 - Turn 8045)
-- Turn 8045: Started fresh session (500 steps).
-- Turn 8047: Enter Center Area at (15, 24) (499 steps).
-- Turn 8058: Enter Area 1 at (0, 23) (473 steps).
-- Turn 8064: Escape Kangaskhan battle at (17, 24) (455 steps).
-- Turn 8066: Ascend south plateau at (20, 21), cross to (12, 20), descend to (12, 22).
-- Turn 8074: Escape Exeggcute battle at (8, 14) (424 steps).
-- Turn 8097: Reach (20, 4) on column 20, breach onto row 3 highway.
-- Turn 8100: At (12, 3) on row 3 northern highway (343 steps remaining).
-- Turn 8107: Entered Area 2 at (39, 31) (329 steps remaining).
-- Target to Area 2 entry at (0, 5): ~14 steps -> ~329 steps remaining upon entering Area 2.
-- Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
-
-- Turns 8118-8159 (Area 2 Topological Survey & Western Plateau Routing):
-  - Eastern Plateau & Northern Basin Survey: Ascended staircase at (28, 27) and traversed the 2-tile elevated ridge (cols 37..38, rows 14..24) to upper plateau (rows 12..14). Descended staircase (34, 15) to survey northern lawn (rows 12..19, cols 17..31).
-  - Enclosure Verification: Confirmed col 16 tree wall (rows 12..19), row 11 statue line, and row 20 cliff form a solid boundary enclosing the northern lawn basin. Tested diagonal corner pinch at (26, 24) (Turn 8141) and (25, 23) (Turn 8143); both confirmed solid impassable collision.
-  - Backtrack & Direct Path to Western Staircase: Re-ascended staircase (34, 15), traversed south across eastern plateau to staircase (28, 27), and descended to southern boulevard at (28, 28). Followed row 29 west past col 25 through tall grass valley into col 22, then walked north along col 22 directly into western staircase at (22, 23).
-  - True Ground Path Clarification: From Area 2 entrance at (39, 31), the direct path to Area 3 does NOT ascend eastern plateau at (28, 27). Instead, follow row 29/30 boulevard west past col 26, turn north into column 22 tall grass valley at (22, 29), and ascend staircase (22, 23) onto the western plateau.
-  - Step Reconciliation: The circuitous survey loop expended 113 steps within Area 2 (entering at 329, arriving at 216). Active step baseline at Turn 8162: Position (22, 22) on western plateau with ~216 steps remaining. Projected steps to Area 3 entrance: ~23 steps (reaching Area 3 with ~193 steps remaining).
-- Turns 8164-8189: Descended western plateau staircase at (16, 27) to southern boulevard (16, 28). Traversed west along row 30 past pond, up col 6 corridor to (6, 22). Bypassed southern pond via cols 8..12 past (8, 18) and (12, 11) (escaped wild Nidoran♀). Reached northern lawn at (12, 7). Tested (11, 7) (solid bush). Advanced to (17, 6) surveying east side.
 
 ## Active Session Step Tracking (Session 4 - Preparing Entry)
 - Inventory status: 19 / 20 items (1 free slot ready for HM03 Surf).
