@@ -38,7 +38,7 @@
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
 - Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
-- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes; open northern passage in Area 1 lies through cols 7..9.
+- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
 - Southern Barrier (Rows 15-16): Continuous barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across the entire western and central sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.

@@ -2558,7 +2558,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
 - Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
-- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes; open northern passage in Area 1 lies through cols 7..9.
+- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
 - Southern Barrier (Rows 15-16): Continuous barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across the entire western and central sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
@@ -2570,5 +2570,31 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Turn 7716: 183 / 500 remaining (verified via Start menu).
   - Turn 7741: ~139 steps remaining.
   - Turn 7774: Exactly 60 / 500 steps remaining (verified via in-game Start menu display).
+
+<hr>
+
+<h1><code>Scratchpad/SafariZone_Routing</code></h1>
+
+# Safari Zone Systematic Routing Audit
+
+## Current Session (Turn 7795 Re-Entry)
+- Step Allowance: 500 steps
+- Turns 7795-7797: Advanced to (15, 20) (~496 steps left)
+- Mission: Retrieve HM03 Surf (Secret House) and Gold Teeth in Area 3
+
+## Area 1 Unsurveyed Coordinates & Hypotheses
+- Prior visits confirmed dead ends at:
+  - (4, 6) solid bush
+  - (6, 6) uncuttable bush
+  - (10, 4) rock cliff
+  - (17, 4) rock cliff
+  - Rest House 2 eastern lawn tree line
+- Unsurveyed Corridors to Area 2:
+  - Signpost at (6, 4): Must read to determine exact direction to Area 2.
+  - Columns 0..3 north of row 6 (lawn corridor leading toward row 0..4).
+  - Columns 5..9 north of row 6 (open grass between bushes and cliff).
+  - Top border connection (row 0) between cols 0..10.
+- Center Area Investigation:
+  - Inspecting rows 10..16 to verify east corridor to Area 1 and pond layout.
 
 <hr>
