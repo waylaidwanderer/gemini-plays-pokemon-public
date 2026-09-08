@@ -7,13 +7,13 @@
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
 
 ## Notepads Index
-- `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
+- `Team`: Current party roster, battle stats, move sets, boxed Pok�émon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Viridian Forest layout, Bug Catchers, item locations
-- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pok�émon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F tunnels, ladder transitions
@@ -31,19 +31,19 @@
 - `Locations/SSAnneB1F`: S.S. Anne B1F layout, Sailors, Fishermen, items
 - `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
 - `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pokémon Center, Jr. Trainer Carol battle
+- `Locations/Route10`: Route 10 layout, Pok�émon Center, Jr. Trainer Carol battle
 - `Locations/RockTunnel1F`: Rock Tunnel 1F layout, standardized ladder matrix, trainers
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladder connectivity matrix, exit ladder
-- `Locations/LavenderTown`: Lavender Town layout, buildings, Pokémon Tower, Name Rater, Pokémart
+- `Locations/LavenderTown`: Lavender Town layout, buildings, Pok�émon Tower, Name Rater, Pok�émart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
-- `Locations/PokemonTower1F`: Pokémon Tower 1F layout, mourning NPCs, ascending stairs
-- `Locations/PokemonTower2F`: Pokémon Tower 2F layout, Rival RED battle, Channeler dialogue
-- `Locations/PokemonTower3F`: Pokémon Tower 3F layout, Channelers, ascending stairs
-- `Locations/PokemonTower4F`: Pokémon Tower 4F layout, items, Channelers
-- `Locations/PokemonTower5F`: Pokémon Tower 5F layout, Purified Zone healing tile, Channelers
-- `Locations/PokemonTower6F`: Pokémon Tower 6F layout, Ghost Marowak battle, stairs
-- `Locations/PokemonTower7F`: Pokémon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
+- `Locations/Pok�emonTower1F`: Pok�émon Tower 1F layout, mourning NPCs, ascending stairs
+- `Locations/Pok�emonTower2F`: Pok�émon Tower 2F layout, Rival RED battle, Channeler dialogue
+- `Locations/Pok�emonTower3F`: Pok�émon Tower 3F layout, Channelers, ascending stairs
+- `Locations/Pok�emonTower4F`: Pok�émon Tower 4F layout, items, Channelers
+- `Locations/Pok�emonTower5F`: Pok�émon Tower 5F layout, Purified Zone healing tile, Channelers
+- `Locations/Pok�emonTower6F`: Pok�émon Tower 6F layout, Ghost Marowak battle, stairs
+- `Locations/Pok�emonTower7F`: Pok�émon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
 - `Locations/Route12`: Route 12 layout, Gatehouse, Sleeping Snorlax roadblock
 - `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Mansion, Game Corner
 - `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, Grunts, hidden stairs
@@ -60,7 +60,7 @@
 - `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
-- `Locations/IndigoPlateau`: Pok�mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
+- `Locations/IndigoPlateau`: Pok��mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
 
 
 <hr>
@@ -70,18 +70,18 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 74
-   - Stats: Max HP 252 (HP: ~44/252), Attack 178, Defense 197, Speed 180, Special 187
+1. HYDROS (Blastoise) - Lv 75
+   - Stats: Max HP 256 (HP: 68/256), Attack 180, Defense 200, Speed 183, Special 190
    - Type: Water
-   - Moves: Double-Edge (10/15), Ice Beam (5/10), Bite (21/25), Surf (3/15)
+   - Moves: Double-Edge (5/15), Ice Beam (0/10), Bite (21/25), Surf (2/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54 - Healthy)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
-3. TERRA (Geodude) - Lv 22
-   - Stats: Max HP 56 (HP: 56/56 - Healthy)
+3. TERRA (Geodude) - Lv 24
+   - Stats: Max HP 60 (HP: 57/60 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig utility & Rock/Ground backup (Slot 3)
@@ -105,13 +105,14 @@
 - Badges: 8/8 (All Kanto Badges earned!)
 - Key Items: Bicycle, Pok� Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
+- Restoratives: 1x Revive remaining
 
-## Elite Four Gauntlet Remaining PP Audit
-- Total Remaining Sweeper PP: 39 PP
-  - Double-Edge: 10/15 PP
-  - Ice Beam: 5/10 PP (Key vs Lance's Dragonite/Dragonairs/Aerodactyl & Rival's Pidgeot/Venusaur/Rhydon)
+## Elite Four & Champion Gauntlet Remaining PP Audit
+- Total Remaining Sweeper PP: 28 PP
+  - Double-Edge: 5/15 PP
+  - Ice Beam: 0/10 PP (Used to sweep Lance's dragons & Pidgeot)
   - Bite: 21/25 PP
-  - Surf: 3/15 PP (Key vs Lance's Aerodactyl/Gyarados & Rival's Rhydon/Arcanine/Charizard)
+  - Surf: 2/15 PP (Used to sweep Bruno, Rhydon; 2 PP remaining for Arcanine & reserve)
 
 
 <hr>
@@ -207,7 +208,7 @@
 - [x] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58) [Turn 37696]
 - [x] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60) [Turn 37714]
 - [x] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)
-- [ ] Defeat Champion RED in Champion Chamber
+- [x] Defeat Champion RED in Champion Chamber & Enter Hall of Fame! (Roster: Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65) [Turn 37742]
 
 <hr>
 
@@ -2880,40 +2881,33 @@
 ## Elite Four Gauntlet Chambers & Verified Rosters
 1. **Room 1: Lorelei (Ice / Water Specialist)**
    - Room Layout: Ice floor tiles with statues. Door at (4, 1)/(5, 1).
-   - Roster:
-     1. Dewgong (Lv 54) - Water/Ice
-     2. Cloyster (Lv 53) - Water/Ice
-     3. Slowbro (Lv 54) - Water/Psychic
-     4. Jynx (Lv 56) - Ice/Psychic
-     5. Lapras (Lv 56) - Water/Ice
+   - Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
    - Status: DEFEATED [Turn 37686]
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
    - Room Layout: Rock boulder walls. Door at (4, 1)/(5, 1).
-   - Roster:
-     1. Onix (Lv 53) - Rock/Ground (OHKO by Surf)
-     2. Hitmonchan (Lv 55) - Fighting (OHKO by Surf)
-     3. Hitmonlee (Lv 55) - Fighting (OHKO by Surf)
-     4. Onix (Lv 56) - Rock/Ground (OHKO by Surf)
-     5. Machamp (Lv 58) - Fighting (OHKO by Surf)
+   - Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
    - Status: DEFEATED [Turn 37696]
 
 3. **Room 3: Agatha (Ghost / Poison Specialist)**
    - Room Layout: Tombstones surrounding room. Door at (4, 1)/(5, 1).
-   - Roster:
-     1. Gengar (Lv 56) - Ghost/Poison (Surf 2HKO)
-     2. Golbat (Lv 56) - Poison/Flying (Ice Beam OHKO)
-     3. Haunter (Lv 55) - Ghost/Poison (Surf OHKO)
-     4. Arbok (Lv 58) - Poison (Surf OHKO)
-     5. Gengar (Lv 60) - Ghost/Poison (Surf)
-   - Status: IN PROGRESS / DEFEATED
+   - Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
+   - Status: DEFEATED [Turn 37714]
 
 4. **Room 4: Lance (Dragon Specialist)**
+   - Room Layout: Dragon statues lining walls. Door at (5, 0)/(6, 0).
    - Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
-   - Strategy: Ice Beam sweeps Dragonite (4x weak), Dragonairs (2x weak), Aerodactyl (2x weak).
+   - Status: DEFEATED [Turn 37730]
 
 5. **Champion Chamber: Rival RED**
-   - Roster: Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65.
+   - Room Layout: Enclosed championship room.
+   - Roster:
+     1. Pidgeot (Lv 61) - Normal/Flying (OHKO by Ice Beam) [DEFEATED Turn 37736]
+     2. Alakazam (Lv 59) - Psychic (OHKO by Double-Edge) [DEFEATED Turn 37737]
+     3. Rhydon (Lv 61) - Ground/Rock (OHKO by Surf) [DEFEATED Turn 37738]
+     4. Gyarados (Lv 63) - Water/Flying (2HKO by Double-Edge) [DEFEATED Turn 37739]
+     5. Arcanine (Lv 63) - Fire (OHKO by Surf) [IN PROGRESS]
+     6. Venusaur (Lv 65) - Grass/Poison (2HKO by Double-Edge) [PENDING]
 
 
 <hr>
