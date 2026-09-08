@@ -1,15 +1,15 @@
-# Indigo Plateau & Pokémon League HQ
+# Indigo Plateau & Pokï¿½mon League HQ
 
 ## Building Layout & Points of Interest
 - **Entrance Lobby**:
-  - Pokémon Center Counter: Nurse Joy heals party for free (west side).
-  - Pokémart Counter: Items and supplies.
+  - Pokï¿½mon Center Counter: Nurse Joy heals party for free (west side).
+  - Pokï¿½mart Counter: Items and supplies.
   - PC Terminal: Box management and item storage.
   - Elite Four Entrance Gate: North corridor leading to Room 1 (Lorelei).
 
 ## Gauntlet Mechanics & Reset Protocol
-- **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
-- **Blackout & Failure Reset**: Blacking out at any point during the gauntlet (even against Champion RED) completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokémon Center. The entire gauntlet must be completed from Room 1 in a single run.
+- **Sequential Gauntlet Rule**: The Pokï¿½mon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokï¿½mon Centers.
+- **Blackout & Failure Reset**: Blacking out at any point during the gauntlet (even against Champion RED) completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokï¿½mon Center. The entire gauntlet must be completed from Room 1 in a single run.
 - **Preparation & Rematch Strategy**: Ensure full party health, max PP on sweeper moves (Ice Beam, Surf, Double-Edge), and carry restoratives (Full Restores / Revives) before entering Room 1.
 
 ## Elite Four Gauntlet Chambers & Verified Rosters
