@@ -1,6 +1,6 @@
 # Inventory Log
 
-## Items (10 / 11)
+## Items (9 / 11)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
@@ -23,7 +23,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). MAX POTION obtained Turn 7695.
+- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7711 (9 regular + 9 key items).
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
