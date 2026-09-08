@@ -169,7 +169,7 @@
   - Status: Healthy
   - HP: 122 / 151
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 1/25), Body Slam (PP 5/15), Bubblebeam (PP 7/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 1/25), Body Slam (PP 5/15), Bubblebeam (PP 6/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2378,6 +2378,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fence Maze Layout (Cols 6..10):
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
-  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26 [Verified Turn 7084].
+  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26. Defeated on Turn 7085 [Verified Turn 7085].
 
 <hr>
