@@ -47,7 +47,7 @@
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
 - Southern Barrier (Rows 15-16): Barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across cols 0-19. Columns 20..22 is an open grass passage connecting the southern and northern sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
-- Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
+- Area 2 Route: Route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 ## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 - Session Ledger:
