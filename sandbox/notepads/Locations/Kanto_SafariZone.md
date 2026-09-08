@@ -48,3 +48,4 @@
 - Session Ledger:
   - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
   - Turn 7831: Current position (20, 17) -> ~420 steps remaining.
+- Signpost at (14, 22): 'TRAINER TIPS / Press the START / Button to check / remaining time!' [Verified Turn 7864].
