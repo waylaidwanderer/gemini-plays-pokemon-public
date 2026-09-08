@@ -2669,5 +2669,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8150: Reached (37, 24). Traversing west across plateau along row 25 to staircase at (28, 27) and descending to southern boulevard at (28, 28).
 - Turn 8151: Descended staircase (28, 27) to southern boulevard at (28, 28). Moving Down to row 29 and west across cols 27..24 towards the staircase (22, 23) approach at (22, 29).
 - Turn 8153: In battle with wild Paras at (24, 29). Dismissing text and moving cursor to RUN.
+- Turn 8155: Selected RUN with A and cleared escape text with B, returning to overworld at (24, 29).
 
 <hr>
