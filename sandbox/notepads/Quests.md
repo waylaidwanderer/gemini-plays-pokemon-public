@@ -66,3 +66,4 @@
 - [x] Defeat Gym Leader Blaine in Cinnabar Gym (Volcano Badge obtained; TM38 Fire Blast pending pickup from Blaine due to full bag) [Turn 21652]
 - [x] Defeat Gym Leader Giovanni in Viridian Gym (Earth Badge & TM27 Fissure obtained; All 8 Badges unlocked!) [Turn 21973]
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
+- [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
