@@ -129,7 +129,7 @@
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
 - MAX POTION x0 [Used Turn 7261] [Verified Turn 6400]
-- SUPER REPEL x4 [Active Turn 7235]
+- SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
 - NUGGET x1
