@@ -10,6 +10,7 @@
   - Rest Houses: Located in each area for shelter/hints.
 
 ## Center Area
+- Row 9 Bush Collision at (22, 9): Tested Turn 7767; solid impassable collision.
 - Map Size: 30x30.
 - South Exit: Gatehouse to Fuchsia City at (14..15, 25). Player spawns at (15, 24).
 - Rest House 1: Located at cols 16..19 rows 18..19, door at (17, 19).
