@@ -2667,5 +2667,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8202: Standing at (14, 2) on row 2 highway. Sprinting Left 5 times along clean lawn to (9, 2) towards Area 3 entrance.
 - Turn 8203: Reached (9, 2). Row 1 is confirmed 100% clean lawn across cols 5..9 avoiding tall grass at (7..8, 2). Stepping Up to (9, 1) and sprinting Left 4 times to (5, 1) towards Area 3 entrance.
 - Turn 8204: Standing at (5, 1). Bypassing tall grass via row 1 to (2, 1), Down to (2, 2), and Left across (1, 2) into (0, 2) to enter Safari Zone Area 3 with ~120 steps remaining!
+- Turn 8205: Reached western boundary corridor at (1, 2). Column 0 at rows 2..6 is a bush border. Walking Down 4 times along col 1 clean lawn to (1, 6) to scan the western edge for the Area 3 entrance.
 
 <hr>
