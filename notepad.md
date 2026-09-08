@@ -56,6 +56,11 @@
 - `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
 - `Locations/CinnabarIsland`: Cinnabar Island points of interest, Gym, Lab, Mansion
 - `Locations/CinnabarGym`: Cinnabar Gym layout, quiz machines, Blaine battle
+- `Locations/Route23`: Route 23 badge checkpoints, water canal, cave entrance at (2, 1)
+- `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
+- `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
+- `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
+
 
 <hr>
 
@@ -2706,7 +2711,7 @@
    - Location: Southeast room on 2F lower purple floor.
 5. **Ladder NE to 3F (Exit Chamber Ladder)**:
    - Coordinates: (27, 7) on 2F <-> (27, 7) on 3F.
-   - Location: Northeast chamber behind shutter at (27, 10). Leads to 3F final exit.
+   - Location: Northeast chamber behind shutter at (28, 10). Leads to 3F final exit.
 
 ## Switches & Shutters on 2F
 - **Switch 1 @ (1, 16) - Verified Master Protocol**:
