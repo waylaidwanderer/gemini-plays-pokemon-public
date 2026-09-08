@@ -13,15 +13,15 @@
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 60/60 - Healthy)
+   - Stats: Max HP 60 (HP: 60/60 - Healthy, Ground Dig Backup)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Dig utility (Slot 3)
+   - Role: Dig utility & 2x Super Effective Ground finisher (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
-   - Stats: Max HP 61 (HP: 61/61 - Active in Room 3)
+   - Stats: Max HP 61 (HP: 1/61 - Active in Room 3)
    - Type: Normal / Flying
    - Moves: Fly (14/15), Sand-Attack, Quick Attack, Whirlwind
-   - Role: Flyer utility & Finisher vs Gengar (Slot 4)
+   - Role: Flyer utility & Active in Room 3 (Slot 4)
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 63 (HP: 63/63 - Healthy)
    - Type: Normal
