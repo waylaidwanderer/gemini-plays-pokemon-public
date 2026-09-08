@@ -2416,7 +2416,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
 - Bird Keeper at (12, 11): Stationed at (12, 11) facing South down col 12. Line: "There's a Dept. Store in CELADON! But, only a few people have HMs!". Team: Pidgeotto Lv 29, Fearow Lv 29. Defeated on Turn 7180 [Turn 7180].
 - Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].
-- Central Southern Road (Rows 12..41+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass at col 14 and cliff at col 15 [Verified Turn 7185].
+- Central Southern Road (Rows 12..45+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass at col 14 and cliff at col 15 [Verified Turn 7185].
 - Westward road visible at col 9 rows 25..26 beyond col 10 tree line [Observed Turn 7185].
 - Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
 - Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
