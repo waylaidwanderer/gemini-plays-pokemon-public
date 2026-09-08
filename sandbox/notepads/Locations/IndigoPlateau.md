@@ -20,28 +20,28 @@
      - Jynx Lv 56: Double-Edge (1 PP) [OHKO]
      - Lapras Lv 56: Double-Edge (2 PP) [2HKO]
      - *Actual Spend: 9 Double-Edge, 1 Ice Beam, 0 Surf.*
-  2. **Bruno (5 Pokémon)**: IN PROGRESS (4/5 Defeated)
+  2. **Bruno (5 Pokémon)**: DEFEATED [Turn 38029]
      - Onix Lv 53: Surf (1 PP) [4x OHKO Crit] - DEFEATED
      - Hitmonchan Lv 55: Bite (2 PP) [2HKO] - DEFEATED
      - Hitmonlee Lv 55: Ice Beam (1 PP) [OHKO] - DEFEATED
      - Onix Lv 56: Surf (1 PP) [4x OHKO] - DEFEATED
-     - Machamp Lv 58: Surf (1 PP) [OHKO] - IN PROGRESS
-     - *Remaining Bruno Budget: 1 Surf.*
-  3. **Agatha (5 Pokémon)**: PENDING
-     - Gengar Lv 56: Surf (1 PP) [OHKO/2HKO]
+     - Machamp Lv 58: Surf (1 PP) [OHKO Crit] - DEFEATED
+     - *Actual Spend: 3 Surf, 1 Ice Beam, 2 Bite. Zero damage taken.*
+  3. **Agatha (5 Pokémon)**: UP NEXT (Room 3)
+     - Gengar Lv 56: Surf / Ice Beam (1-2 PP) [1-2HKO]
      - Golbat Lv 56: Ice Beam (1 PP) [2x OHKO]
      - Haunter Lv 55: Surf (1 PP) [OHKO]
-     - Arbok Lv 58: Surf (1 PP) [OHKO/2HKO]
+     - Arbok Lv 58: Surf (1 PP) [OHKO]
      - Gengar Lv 60: Surf (1-2 PP) [1-2HKO]
      - *Battle Budget: 4-5 Surf, 1 Ice Beam, 0 Double-Edge.*
-  4. **Lance (5 Pokémon)**: PENDING
+  4. **Lance (5 Pokémon)**: PENDING (Room 4)
      - Gyarados Lv 58: Double-Edge / Bite (2 PP) [2HKO]
      - Dragonair Lv 56: Ice Beam (1 PP) [4x OHKO]
      - Dragonair Lv 56: Ice Beam (1 PP) [4x OHKO]
      - Aerodactyl Lv 60: Ice Beam / Surf (1 PP) [2x OHKO]
      - Dragonite Lv 62: Ice Beam (1 PP) [4x OHKO]
      - *Battle Budget: 4 Ice Beam, 2 Double-Edge/Bite, 0 Surf.*
-  5. **Champion RED (6 Pokémon)**: PENDING
+  5. **Champion RED (6 Pokémon)**: PENDING (Champion Chamber)
      - Pidgeot Lv 61: Ice Beam (1 PP) [2x OHKO]
      - Alakazam Lv 59: Double-Edge (1 PP) [OHKO vs 45 Def] / Bite
      - Rhydon Lv 61: Surf (1 PP) [4x OHKO]
@@ -51,7 +51,7 @@
      - *Battle Budget: 3 Ice Beam, 2 Surf, 3 Double-Edge/Bite.*
 
 - **Gauntlet Total Resource Balance**:
-  - **Surf**: 13 / 15 remaining (ample reserve)
+  - **Surf**: 12 / 15 remaining (ample reserve)
   - **Ice Beam**: 8 / 10 remaining (ample reserve)
   - **Double-Edge**: 6 / 15 remaining
   - **Bite**: 23 / 25 remaining (full finishing reserve)
@@ -62,12 +62,12 @@
    - Status: DEFEATED [Turn 37993]
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
-   - Roster: Onix Lv 53 (DEFEATED), Hitmonchan Lv 55 (DEFEATED), Hitmonlee Lv 55 (DEFEATED), Onix Lv 56 (DEFEATED), Machamp Lv 58 (IN PROGRESS).
-   - Status: IN PROGRESS
+   - Roster: Onix Lv 53 (DEFEATED), Hitmonchan Lv 55 (DEFEATED), Hitmonlee Lv 55 (DEFEATED), Onix Lv 56 (DEFEATED), Machamp Lv 58 (DEFEATED).
+   - Status: DEFEATED [Turn 38029]
 
 3. **Room 3: Agatha (Ghost / Poison Specialist)**
    - Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60.
-   - Status: PENDING
+   - Status: UP NEXT
 
 4. **Room 4: Lance (Dragon Specialist)**
    - Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
