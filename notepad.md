@@ -2535,6 +2535,7 @@
 
 - Passable UP gap at `(31, 7)` connects tall grass `(31, 8)` directly north onto Row 6 highway at `(31, 6)`.
 - Continuous Upper Highway (rows 4-5): Light-brick paved walkway running continuously from col 35 all the way west past (29, 4..5) directly into Gatehouse entrance at (8, 5).
+- **True Northern Master Highway (rows 1-2)**: Continuous tan paved highway running along rows 1-2 across columns 4 to 35, completely bypassing all statues, ledges, and wild grass directly into the Pokémon League Gatehouse!
 
 <hr>
 
