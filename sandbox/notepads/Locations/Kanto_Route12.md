@@ -35,3 +35,5 @@
 - Cottage Southern Bypass: Fence blocks south at (6..15, 79). Open wooden pier corridor at cols 4..5 connects row 78 down across rows 79..82 over water [Verified Turn 7004].
 - Southern Platform at Row 82: Planks at cols 4..9 and cols 12..13, tall grass patch at cols 10..11 [Verified Turn 7004].
 - Bridge Continuation at Row 84: Railing blocks south at (4..9, 84). Open wooden bridge corridor at col 10+ continues south across rows 84..86+ over water [Verified Turn 7005].
+- Eastern Pier at Rows 90..92: Planks at cols 12..15 dead-ends at row 92 with railing over water [Verified Turn 7008].
+- Bridge Junction Rows 90..93: Cols 10..11 has tall grass across rows 90..91. Trainer at (11, 92) facing North. Main bridge continues south across cols 7..11 at rows 92..93+ [Verified Turn 7008].
