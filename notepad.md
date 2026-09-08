@@ -2528,7 +2528,7 @@
 - **Upper Paved Road**: Rows 6-7 across columns 7-13 in front of Gatehouse.
 - **Column 11 North Avenue**: Column 11 at rows 6-10 connects the lower plaza (row 10) to the upper road (row 6).
 - **Gatehouse Plaza (row 10)**: Paved area connecting column 4 to column 11.
-- **Row 12 Green Lawn**: Unbroken horizontal lawn spanning from col 37 west to col 4.
+- **Row 12 Green Lawn**: Lawn spanning columns 30 to 37; western edge at column 29 is a cliff face.
 - **Lower Road (rows 14-15)**: One-way return road back to Viridian City. Row 13 is an impassable south-facing ledge. Avoid hopping south of row 12.
 
 <hr>
