@@ -2580,6 +2580,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Turn 8074: Fled wild Exeggcute battle at (8, 14) (424 steps remaining).
   - Turn 8097: Breached column 20 corridor through row 4 onto row 3 northern highway.
   - Turn 8100: Position (12, 3) on row 3 northern highway (343 steps remaining).
+  - Turn 8107: Entered Safari Zone Area 2 at (39, 31) (329 steps remaining).
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
@@ -2641,6 +2642,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8074: Escape Exeggcute battle at (8, 14) (424 steps).
 - Turn 8097: Reach (20, 4) on column 20, breach onto row 3 highway.
 - Turn 8100: At (12, 3) on row 3 northern highway (343 steps remaining).
+- Turn 8107: Entered Area 2 at (39, 31) (329 steps remaining).
 - Target to Area 2 entry at (0, 5): ~14 steps -> ~329 steps remaining upon entering Area 2.
 - Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
 
