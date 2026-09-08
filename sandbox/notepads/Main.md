@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Rematch - In Progress (Room 1: Lorelei battle in progress - 4/5 defeated)
+- League Status: Elite Four Rematch - In Progress (Room 1 cleared: Lorelei defeated! Entering Room 2: Bruno)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment

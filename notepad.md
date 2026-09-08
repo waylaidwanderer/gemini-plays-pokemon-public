@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Rematch - In Progress (Room 1: Lorelei battle in progress - 4/5 defeated)
+- League Status: Elite Four Rematch - In Progress (Room 1 cleared: Lorelei defeated! Entering Room 2: Bruno)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 78
-   - Stats: Max HP 267 (HP: 267/267 - Fully Restored upon Blackout Reset), Attack 189, Defense 208, Speed 191, Special 199
+   - Stats: Max HP 267 (HP: 34/267), Attack 189, Defense 208, Speed 191, Special 199
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (6/15), Ice Beam (9/10), Bite (25/25), Surf (11/15)
    - Status: Healthy (Full Speed 191)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
