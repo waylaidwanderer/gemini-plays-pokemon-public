@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Rematch in progress (Lorelei DEFEATED, Bruno DEFEATED, Agatha IN PROGRESS)
+- League Status: Elite Four Rematch in progress (Lorelei IN PROGRESS - Room 1)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -61,7 +61,6 @@
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
 - `Locations/IndigoPlateau`: Pokémon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four chambers
-
 
 <hr>
 
