@@ -2667,5 +2667,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8178: (8, 13) confirmed solid water shoreline. Testing Left from (8, 14) into (7, 14) to see if shoreline corner permits passage into (7, 13).
 - Turn 8179: (7, 14) confirmed solid. Both shoreline tiles block the diagonal gap. Moving Right 4 times to col 12 and Up 4 times to (12, 10) to bypass northern pond via eastern corridor.
 - Turn 8180: Encountered wild Nidoran♀ at (12, 11). Dismissing text and moving cursor to RUN to escape.
+- Turn 8182: Selected RUN with A and cleared escape text with B, returning to overworld at (12, 11).
 
 <hr>
