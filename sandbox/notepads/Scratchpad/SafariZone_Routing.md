@@ -73,3 +73,4 @@
 - Turn 8205: Reached western boundary corridor at (1, 2). Column 0 at rows 2..6 is a bush border. Walking Down 4 times along col 1 clean lawn to (1, 6) to scan the western edge for the Area 3 entrance.
 - Turn 8206: Reached (1, 6). Bypassing tree at (0..1, 8..9) via col 2 to (1, 10) to scan western boundary for Area 3 entrance.
 - Turn 8208: In battle with wild Nidoran♀ at (2, 7). Dismissing text with B and positioning cursor on RUN.
+- Turn 8209: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (2, 7).
