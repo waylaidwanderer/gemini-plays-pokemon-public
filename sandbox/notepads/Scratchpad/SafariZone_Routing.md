@@ -38,3 +38,4 @@
 - Turn 7824: At (19, 20) (~435 steps left). Stepping Down 4 times to row 24 and Right to (20, 24) to reach the (22, 24) testing point.
 - Turn 7825: At (20, 24) (~430 steps left). Testing Right into (21, 24) and (22, 24) to verify statue collision.
 - Turn 7826: At (21, 24) (~429 steps left). Verified (22, 24) is solid collision. Pressing A to inspect the statue.
+- Turn 7827: (22, 24) statue confirmed non-interactive solid. Moving north along col 19 to reach the central pond crossing.
