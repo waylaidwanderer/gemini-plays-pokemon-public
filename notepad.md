@@ -2448,5 +2448,16 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Biker at (53, 11) facing North.
   - Highway is blocked at col 53 by the facing trainers.
   - Bypass: Walk through tall grass along row 9 (cols 52..55) to safely route around them.
+- Trainers at Col 48 & 46:
+  - Trainer at (48, 10) facing South.
+  - Trainer at (46, 10) facing South.
+  - Bypassed via row 9 tall grass.
+- Trainers at Col 41:
+  - Jr. Trainer ♀ at (41, 10) facing East.
+  - Biker at (41, 11) facing North.
+  - Bypassed via (41, 9) -> (40, 9) -> (40, 10).
+- Landmarks:
+  - Signpost at (39, 9).
+  - Upper parallel road at row 5 with Bird Keeper at (37, 5).
 
 <hr>
