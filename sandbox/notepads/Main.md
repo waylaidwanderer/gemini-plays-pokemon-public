@@ -1,4 +1,4 @@
-# PokÃ©Ã©mon Blue - Journey Log
+# Pokéémon Blue - Journey Log
 
 
 
@@ -8,8 +8,8 @@
 
 - Active Team: Blastoise (SHELDON) Lv 49, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: Â¥70808
-- PokÃ©Ã©dex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
+- Money: ¥71388
+- Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
 
@@ -19,21 +19,21 @@
 
 - [x] Withdraw starting Potion from bedroom PC [Turn 18]
 
-- [x] Receive Starter PokÃ©Ã©mon from Professor Oak (Squirtle) [Turn 40]
+- [x] Receive Starter Pokéémon from Professor Oak (Squirtle) [Turn 40]
 
 - [x] Defeat Rival RED in Oak's Lab [Turn 58]
 
 - [x] Reach Viridian City via Route 1 [Turn 132]
 
-- [x] Visit Viridian City PokÃ©Ã© Mart [Turn 169]
+- [x] Visit Viridian City Pokéé Mart [Turn 169]
 
 - [x] Deliver parcel to Prof. Oak in Pallet Town [Turn 211]
 
-- [x] Obtain PokÃ©Ã©dex from Prof. Oak [Turn 214]
+- [x] Obtain Pokéédex from Prof. Oak [Turn 214]
 
 - [x] Obtain Town Map from Daisy in Pallet Town [Turn 225]
 
-- [x] Return to Viridian City, heal team & purchase PokÃ©Ã© Ball [Turn 284]
+- [x] Return to Viridian City, heal team & purchase Pokéé Ball [Turn 284]
 
 - [x] Traverse Route 2 & Viridian Forest to Northern Gatehouse [Turn 485]
 
@@ -67,7 +67,7 @@
 
 - [x] Trade Spearow for Farfetch'd (DUX) in Vermilion City [Turn 2756]
 
-- [x] Obtain Bike Voucher from PokÃ©Ã©mon Fan Club Chairman in Vermilion City [Turn 2796]
+- [x] Obtain Bike Voucher from Pokéémon Fan Club Chairman in Vermilion City [Turn 2796]
 
 - [x] Board the S.S. Anne in Vermilion City [Turn 2836]
 
@@ -101,7 +101,7 @@
 
 - [x] Arrive in Lavender Town [Turn 4839]
 
-- [x] Defeat Rival RED on PokÃ©Ã©mon Tower 2F [Turn 4940]
+- [x] Defeat Rival RED on Pokéémon Tower 2F [Turn 4940]
 - [x] Enter Celadon City via Route 7 [Turn 5434]
 - [x] Purchase drinks (Fresh Water, Soda Pop, Lemonade) on Celadon Dept. Store Roof [Turn 5522]
 - [x] Obtain TM13 (Ice Beam), TM48 (Rock Slide), TM49 (Tri Attack) on Dept. Store Roof [Turn 5540]
@@ -110,9 +110,9 @@
 - [x] Defeat Team Rocket Grunts and explore Rocket Hideout B1F, B2F, and B3F [Turn 5937]
 - [x] Reach Rocket Hideout B4F [Turn 6050]
 - [x] Defeat Team Rocket Boss Giovanni [Turn 6172] and obtain Silph Scope [Turn 6201]
-- [x] Rescue Mr. Fuji from PokÃ©mon Tower and obtain PokÃ© Flute in Lavender Town [Turn 6599]
+- [x] Rescue Mr. Fuji from Pokémon Tower and obtain Poké Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
-- [x] Awaken and defeat sleeping Snorlax on Route 12 with PokÃ© Flute [Turn 6981]
+- [x] Awaken and defeat sleeping Snorlax on Route 12 with Poké Flute [Turn 6981]
 
 
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
