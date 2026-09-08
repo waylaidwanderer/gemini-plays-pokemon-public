@@ -1,7 +1,5 @@
 # Pok��mon Blue - Journey Log
 
-
-
 ## Status
 
 - Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
@@ -10,8 +8,6 @@
 
 - Money: ¥72868
 - Pokédex: 13 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
-
-
 
 ## Milestones
 
@@ -113,7 +109,6 @@
 - [x] Rescue Mr. Fuji from Pok�mon Tower and obtain Pok� Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
-
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]

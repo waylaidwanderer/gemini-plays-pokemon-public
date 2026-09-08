@@ -52,4 +52,8 @@
 - Turn 8364: Reached northern bridge base at (12, 8) (421 steps remaining, 79 steps used).
 - Turn 8365: Crossed bridge to (17, 6), descended staircase to (17, 8) (414 steps remaining, 86 steps used).
 - Turn 8369: Reached row 3 northern highway, turned down to row 5 corridor at (7, 5) (387 steps remaining, 113 steps used).
-- Target: Reach Area 2 East Gate at (0, 5), enter Area 2 at (39, 31).
+- Turn 8375: Entered Area 2 at (39, 31) (384 steps remaining, 116 steps used).
+- Turn 8384: Wild Chansey (LUCKY) caught at (22, 29) at 0 step cost (365 steps remaining, 135 steps used).
+- Turn 8392: Ascended western plateau staircase at (22, 23) (360 steps remaining, 140 steps used).
+- Turn 8395: Descended staircase at (16, 27) to ground lawn at (16, 28) (345 steps remaining, 155 steps used).
+- Turn 8401: Current position (8, 34) at southern statue opening (330 steps remaining, 170 steps used). Heading west along row 35/36 to Area 3 gate at (3, 35).
