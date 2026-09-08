@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 49, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: �71388
+- Money: �72213
 - Pok��dex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -2416,13 +2416,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
 - Bird Keeper at (12, 11): Stationed at (12, 11) facing South down col 12. Line: "There's a Dept. Store in CELADON! But, only a few people have HMs!". Team: Pidgeotto Lv 29, Fearow Lv 29. Defeated on Turn 7180 [Turn 7180].
 - Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].
-- Central Southern Road (Rows 12..26+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass at col 14 and cliff at col 15 [Verified Turn 7185].
+- Central Southern Road (Rows 12..41+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass at col 14 and cliff at col 15 [Verified Turn 7185].
 - Westward road visible at col 9 rows 25..26 beyond col 10 tree line [Observed Turn 7185].
 - Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
 - Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
 - Biker at (15, 30): Stationed at (15, 30) facing West across tall grass. Line: "We ride out here because there's more room!". Team: Koffing Lv 29, Muk Lv 29. Defeated on Turn 7195 [Turn 7195]. Engaged at (13, 30) [Turn 7192].
 - Bird Keeper at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary POKéMON?". Team: Farfetch'd Lv 33. Defeated on Turn 7202 [Turn 7202]. Engaged at (13, 31) [Turn 7198].
-- Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].
+- Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].- Row 40 Tree Line Opening: Col 10 tree line ends at row 39; cols 9..13 are open ground connecting east and west roads at rows 40..41 [Verified Turn 7206].
+
 
 <hr>
