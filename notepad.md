@@ -117,6 +117,7 @@
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
 
 
+- [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 
@@ -146,11 +147,11 @@
 - LIFT KEY
 - SILPH SCOPE
 - POKé FLUTE [Obtained Turn 6599]
-- GOLD TEETH [Obtained Turn 8235]
+- HM04 (STRENGTH) [Received Turn 8274]
 
 ## Inventory Capacity
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Full). TM02 tossed Turn 8234, Gold Teeth collected Turn 8235.
+- Total Slots Used: 20 / 20 (Full). TM02 tossed Turn 8234, HM04 Strength received Turn 8274.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
