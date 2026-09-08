@@ -2358,5 +2358,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Bird Keeper Sebastian at (50, 10) defeated on Turn 7030 [Verified Turn 7030].
 - Jr. Trainer ♀ at (48, 10): Stationed at (48, 10) facing South. Line: "I'm told I'm good for a kid!". Engaged at (48, 11). Pokémon: Pidgey Lv 24, Meowth Lv 24, Rattata Lv 24, Pikachu Lv 24, Meowth Lv 24. Defeated on Turn 7044 [Verified Turn 7044].
 - Westward Bridge Pier (Rows 10..11): 2-tile-wide wooden bridge corridor continues west along rows 10..11 past cols 48..36+ toward Route 14. Railing blocks south at row 12 (cols 36..51). Trees/hedges block north at row 9 (cols 36..49) [Verified Turn 7047].
+- Route 13 Mainland & Fence Maze (Col 35 Westward): Wooden pier ends at col 36. Mainland begins at col 35. Horizontal fence at (32..33, 11) blocks row 11. Bypasses exist via row 10 (cols 32..35) to the north, opening to northern field at col 33 rows 7..9, and row 12 to the south bounded by row 13 fence [Verified Turn 7048].
 
 <hr>
