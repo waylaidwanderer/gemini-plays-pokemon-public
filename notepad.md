@@ -164,7 +164,7 @@
 ## Money
 - ¥70083
 
-## Party Pok�mon
+## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
   - Status: Healthy
   - HP: 120 / 154
@@ -203,7 +203,7 @@
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
-## PC Box 1 Pok�mon
+## PC Box 1 Pokémon
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
@@ -2414,7 +2414,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 6 Corridor: Extends east from col 4 to col 14, where row 7 opening connects to row 8 [Verified Turn 7165].
 - Row 8 Corridor: Open ground across cols 4..10 below row 7 fence [Verified Turn 7164].
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
-- Trainer at (12, 11): Stationed at (12, 11) facing North up col 12 [Observed Turn 7167].
+- Trainer at (12, 11): Stationed at (12, 11) facing South down col 12 [Verified Turn 7171].
 - Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].
 
 <hr>
