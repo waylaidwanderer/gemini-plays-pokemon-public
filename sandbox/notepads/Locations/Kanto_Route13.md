@@ -17,4 +17,4 @@
   - Row 10 corridor: Open path across cols 27..34 between fences.
   - Signpost at (31, 11): "North to SILENCE BRIDGE" [Verified Turn 7052].
   - NPCs sighted at (32, 6) and (33, 6).
-  - Trainer at (27, 9): Stationed at (27, 9) facing South. Line: "Wow! Your BADGES are too cool!". Engaged at (27, 10) [Verified Turn 7052].
+  - Jr. Trainer ♀ at (27, 9): Stationed at (27, 9) facing South. Line: "Wow! Your BADGES are too cool!". Engaged at (27, 10). Pokémon 1 is Poliwag Lv 30 (roster: 2 Pokémon) [Verified Turn 7053].
