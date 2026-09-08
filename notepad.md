@@ -2548,6 +2548,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
 - Row 6 Bush Cut Test at (6, 6): Tested Turn 7720 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
@@ -2570,7 +2571,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 - Session Ledger:
   - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
-  - Turn 7831: Current position (20, 17) -> ~420 steps remaining.
+  - Turn 7883: Exactly 361 / 500 steps remaining (verified at 4, 17).
+  - Turn 7900: Re-entered Area 1 at (0, 23) (~338 steps remaining).
+  - Turn 7982: Current position (20, 20) on plateau -> ~243 steps remaining.
 
 
 <hr>
