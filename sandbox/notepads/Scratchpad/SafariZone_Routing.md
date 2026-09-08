@@ -21,3 +21,4 @@
   - Inspecting rows 10..16 to verify east corridor to Area 1 and pond layout.
 - Turn 7801: Advanced to (15, 16) (~492 steps left).
 - Visual confirmation: Row 15 fence ends at col 19. (20, 15) and (20, 14) are open grass, enabling bypass to eastern sector.
+- Turn 7804: Advanced to (21, 14) (~484 steps left). Testing north tile (21, 13) at shoreline.
