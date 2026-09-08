@@ -76,20 +76,20 @@
    - Status: Fainted
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54 - Healthy)
+   - Stats: Max HP 54 (HP: 0/54 - Fainted in Agatha Room 3)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 60/60 - Active in Room 3)
+   - Stats: Max HP 60 (HP: 60/60 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Dig utility & 2x Ground finisher vs Gengar (Slot 3)
+   - Role: Dig utility (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
-   - Stats: Max HP 61 (HP: 61/61 - Healthy)
+   - Stats: Max HP 61 (HP: 61/61 - Active in Room 3)
    - Type: Normal / Flying
-   - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
-   - Role: Flyer utility (Slot 4)
+   - Moves: Fly (14/15), Sand-Attack, Quick Attack, Whirlwind
+   - Role: Flyer utility & Finisher vs Gengar (Slot 4)
 5. PRISM (Eevee) - Lv 25
    - Stats: Max HP 63 (HP: 63/63 - Healthy)
    - Type: Normal
