@@ -9,5 +9,5 @@
 - Silence Bridge Continuation: Pier planks extend south down cols 50..51 across rows 0..8+ [Verified Turn 7022].
 - Trainer/NPC at (50, 5): Stationed on wooden planks at (50, 5) [Verified Turn 7022].
 
-- Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Trainer at (49, 10) is Bird Keeper (Sebastian) facing East, engaged at (51, 10). Another trainer at (48, 10) [Verified Turn 7024].
-- Bird Keeper (Sebastian) Battle: Pokémon 1 is Pidgey Lv 29, Pokémon 2 is Pidgeotto Lv 29. Defeated on Turn 7030 [Verified Turn 7030].
+- Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Bird Keeper Sebastian at (50, 10) defeated on Turn 7030 [Verified Turn 7030].
+- Trainer at (48, 10): Stationed at (48, 10) facing South. Line: "I'm told I'm good for a kid!". Engaged at (48, 11) [Verified Turn 7033].
