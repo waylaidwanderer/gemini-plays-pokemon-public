@@ -2712,6 +2712,7 @@
 ## NW Sector & Lower Floor Access
 - SW Ladder (0, 8) connects directly to Columns 2-3 Highway via (0, 6) -> (1, 6) -> (2, 6..7).
 - Row 4 contains a rock divider at (0..4, 4) and (6..8, 4) with (5, 4) open north of Boulder (5, 5).
+- **NW Boulder Constraint (Verified Turn 36671)**: Pushing Boulder from (5, 5) to (5, 4) and then (5, 3) dead-ends against the solid rock obstacle at (5, 2). Lateral access at (4, 4)/(6, 4) is blocked by solid rock walls, so the NW plateau cannot be passed through this corridor; 3F must be accessed via the Eastern Wing ladders.
 - Columns 2-3 Highway: Columns 2 and 3 form an unobstructed 2-tile wide vertical highway spanning rows 6 through 16, connecting the upper room at row 6 directly to the lower floor (rows 12-16), Switch 1 @ (1, 16), and Boulder @ (4, 14). Note: Columns 0-4 are blocked north of row 6 by the Row 4 rock wall.
 
 ## Puzzle Reset Triggers
