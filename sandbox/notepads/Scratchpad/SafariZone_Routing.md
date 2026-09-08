@@ -56,3 +56,13 @@
   3. Advance west along row 24 to access the western staircase at (12, 21).
   4. Ascend (12, 21) and follow the western plateau system north into Area 2.
 - Step Budget: ~250 steps remaining (plenty for Area 1 -> Area 2 -> Area 3 -> HM03).
+## Western Sector & Northern Bridge Verification (Turn 7992)
+- Western Boundary:
+  - Statues at (0, 7), (1, 6), (0, 6), (1, 3), (0, 3) form solid western barrier.
+  - Row 6 is completely impassable from col 0 to col 9 (statues at cols 0-1, bushes at cols 2-9).
+  - Ground level row 7 cannot bypass row 6 westward.
+- Northern Bridge at (12, 7):
+  - Wooden staircase at (12, 7) facing south onto (12, 8).
+  - Ascends onto the northern elevated plateau to bridge OVER the row 6 hedge.
+  - Connects to northern sector and Area 2 corridor.
+- Step Budget: 207 steps remaining. Moving east to (9, 7) -> (12, 8) -> ascend (12, 7).
