@@ -2502,7 +2502,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Northern Monuments: Display signboard at (21, 15).
 - Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
-- Barrier at Col 23: Solid vertical barrier along col 23 rows 26..31 blocks direct passage between col 24 and the Pokémon Center grounds (empirically confirmed Turn 7329 at 24, 28). Tile (23, 22) is also impassable solid collision from row 21 (empirically confirmed Turn 7451).
+- Barrier at Col 23: Barrier separating col 24 from Pokémon Center grounds. Collision empirically confirmed at (23, 28) on Turn 7329 and (23, 22) on Turn 7451; hedge visually observed along rows 26..30.
 - Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0.
 - Poké Mart: Located at cols 4..7 rows 11..13 with entrance door at (5, 13) and MART sign at (6, 13) [Verified Turn 7411].
 - Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
@@ -2672,12 +2672,12 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - True Ground Path Clarification: From Area 2 entrance at (39, 31), the direct path to Area 3 does NOT ascend eastern plateau at (28, 27). Instead, follow row 29/30 boulevard west past col 26, turn north into column 22 tall grass valley at (22, 29), and ascend staircase (22, 23) onto the western plateau.
   - Step Reconciliation: The circuitous survey loop expended 113 steps within Area 2 (entering at 329, arriving at 216). Active step baseline at Turn 8162: Position (22, 22) on western plateau with ~216 steps remaining. Projected steps to Area 3 entrance: ~23 steps (reaching Area 3 with ~193 steps remaining).
 - Turns 8164-8189: Descended western plateau staircase at (16, 27) to southern boulevard (16, 28). Traversed west along row 30 past pond, up col 6 corridor to (6, 22). Bypassed southern pond via cols 8..12 past (8, 18) and (12, 11) (escaped wild Nidoran♀). Reached northern lawn at (12, 7). Tested (11, 7) (solid bush). Advanced to (17, 6) surveying east side.
-- Turn 8191: Position (17, 6). Active step baseline: ~155 steps remaining (174 steps expended in Area 2). Discovered item ball at (19, 7). Row 4 is a solid tree/bush hedge across cols 13..22; row 6/18 does not connect north to row 3. Retrieving item ball at (19, 7).
-- Turn 8193: At (19, 6). Walking Right 4 times along row 6 lawn to (23, 6) to scout the eastern end of the row 4 hedge.
-- Turn 8195: Standing at (23, 6). Walking Right 5 times to (28, 6) and Up 4 times along col 28 to (28, 2) to enter the row 2 northern highway.
-- Turn 8197: In battle with wild Exeggcute at (28, 5). Dismissing text with B and positioning cursor on RUN.
-- Turn 8198: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (28, 5).
-- Turn 8199: In overworld at (28, 5). Walking Up 3 times to (28, 2) onto the row 2 clean lawn highway and Left 4 times to (24, 2) towards Area 3.
+
+## Active Session Step Tracking (Session 4 - Preparing Entry)
+- Inventory status: 19 / 20 items (1 free slot ready for HM03 Surf).
+- Budget: 500 steps upon entering gatehouse.
+- Route: Center Area -> Area 1 -> Area 2 -> Area 3 -> Secret House.
+- Step target to Secret House: ~187 steps (leaving ~313 steps to spare).
 
 
 <hr>
