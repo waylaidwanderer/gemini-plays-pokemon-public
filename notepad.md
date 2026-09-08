@@ -2491,5 +2491,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - South Building: Roof observed at cols 18..22 rows 22+ west of central avenue [Observed Turn 7322].
 - Northern Monuments: Display signboards at (21, 15) and (25, 15).
+- Pokémon Center: Located at cols 20..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324].
+- Building East of Center: Located at cols 26..29 rows 25..27 with entrance door at (27, 27) [Observed Turn 7324].
+- South Plaza: Paved open road along row 28 connecting cols 20..24 directly in front of Pokémon Center.
 
 <hr>
