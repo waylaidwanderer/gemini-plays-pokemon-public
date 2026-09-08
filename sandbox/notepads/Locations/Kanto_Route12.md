@@ -34,3 +34,4 @@
 - Fishing Guru's Brother's Cottage Interior: Entrance mat at (2..3, 7). Fishing Guru's brother sitting at (2, 4) facing South [Verified Turn 6998].
 - Cottage Southern Bypass: Fence blocks south at (6..15, 79). Open wooden pier corridor at cols 4..5 connects row 78 down across rows 79..82 over water [Verified Turn 7004].
 - Southern Platform at Row 82: Planks at cols 4..9 and cols 12..13, tall grass patch at cols 10..11 [Verified Turn 7004].
+- Bridge Continuation at Row 84: Railing blocks south at (4..9, 84). Open wooden bridge corridor at col 10+ continues south across rows 84..86+ over water [Verified Turn 7005].
