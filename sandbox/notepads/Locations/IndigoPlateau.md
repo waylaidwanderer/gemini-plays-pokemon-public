@@ -52,13 +52,25 @@
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
-- Nurse Joy Healing Counter: (5..8, 5..6)
-- Poké Mart Counter: (10..11, 5..6)
-- Elite Four Entrance Guard: Located at `(13, 6)` facing South
-- Elite Four Entrance Doorways: Checkerboard entrance doorways at `(12, 4)` and `(14, 4)`
-- Verified Path to Elite Four Chamber (Room 1):
-  1. From entrance (7, 11), walk North 4 steps along row 7 to (7, 7).
-  2. Walk East 6 steps along row 7 to `(13, 7)` facing the Guard at `(13, 6)`.
-  3. Walk North / interact with Guard at `(13, 6)`.
-  4. Walk North through `(13, 6)` to `(13, 5)`.
-  5. Walk Left to `(12, 5)` and North through doorway at `(12, 4)` to enter Lorelei's Chamber (Room 1)!
+- Left Wing (cols 0-4): PC terminal at (1, 5), Town Map / Sign at (1, 4), Column 3 North transit corridor.
+- Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
+- Right Wing (cols 9-15): Poké Mart counter at (10..11, 5..6), Cable Club link desk at (13, 6).
+- Verified Route to Lorelei's Chamber (Room 1):
+  1. From entrance (7, 11), walk West along row 11 to (3, 11).
+  2. Walk North 9 steps along Column 3 to (3, 2).
+  3. Walk East 5 steps along Row 2 across (4..7, 2) to (8, 2).
+  4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
+
+## Verified Move Menu Mapping & Lorelei Execution Safeguards
+- HYDROS Move Layout (Lv 80 Blastoise):
+  - Slot 1: Double-Edge (Normal physical, 100 Power, 100 Acc) - Default cursor (Top-Left)
+  - Slot 2: Ice Beam (Ice special, 95 Power, 100 Acc) - `Down` 1 (Bottom-Left)
+  - Slot 3: Bite (Normal physical, 60 Power, 100 Acc) - `Right` 1 (Top-Right)
+  - Slot 4: Surf (Water special STAB, 95 Power, 100 Acc) - `Down` 1, `Right` 1 (Bottom-Right)
+
+- Lorelei Matchup Execution (Room 1):
+  1. Dewgong Lv 54 (83 Def / 83 Spc): STAB Surf (Slot 4: Down, Right, A) or Double-Edge (Slot 1: A) (2HKO)
+  2. Cloyster Lv 53 (177 Def / 90 Spc): STAB Surf (Slot 4: Down, Right, A) (2HKO vs 90 Spc; never use physical moves vs 177 Def!)
+  3. Slowbro Lv 54 (94 Def / 74 Spc): Double-Edge (Slot 1: A) or STAB Surf (2HKO)
+  4. Jynx Lv 56 (44 Def / 84 Spc): Double-Edge (Slot 1: A - OHKO vs 44 Def!)
+  5. Lapras Lv 56 (76 Def / 90 Spc): Double-Edge (Slot 1: A) + STAB Surf finisher (Slot 4: Down, Right, A) (2HKO)
