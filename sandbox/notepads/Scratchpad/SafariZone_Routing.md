@@ -65,3 +65,4 @@
 - Turn 8139: At (17, 19). Confirmed col 16 tree wall extends to row 19, and row 20 is an elevated plateau cliff (cols 14..22+). Spotted western staircase at (22, 23)! Moving east along row 19 to (22, 19) to access the southern corridor around col 25.
 - Turn 8140: At (22, 19). Verified col 26 is an open north-south lawn corridor (rows 19..23+). Moving east to (26, 19) and south along col 26 to (26, 23) to loop around the cliff to the (22, 23) staircase approach.
 - Turn 8141: At (26, 23). Testing Down into (26, 24) to verify if the diagonal cliff corner tile is passable to access (25, 24) and the (22, 23) staircase.
+- Turn 8143: Testing Left from (26, 23) into (25, 23). If impassable, the pinch is closed and we initiate the backtrack to (34, 15).
