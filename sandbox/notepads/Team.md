@@ -34,7 +34,7 @@
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
+- Key Items: Bicycle, Pokï¿½ Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
 - Restoratives: 1x Revive remaining
 

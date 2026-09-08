@@ -1,9 +1,9 @@
-# Indigo Plateau & Pokémon League HQ
+# Indigo Plateau & Pokï¿½mon League HQ
 
 ## Building Layout & Points of Interest
 - **Entrance Lobby**:
-  - Pokémon Center Counter: Nurse Joy heals party for free.
-  - Pokémart Counter: Items and supplies.
+  - Pokï¿½mon Center Counter: Nurse Joy heals party for free.
+  - Pokï¿½mart Counter: Items and supplies.
   - PC Terminal: Box management and item storage.
   - Elite Four Gate: Guard at north center opens access to Room 1.
 
