@@ -36,3 +36,4 @@
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Central Opening: The only traversable north-south opening between the north and south sectors of Center Area is at cols 20-21.
 - Routing to Area 2: Reconciled with official Area 1 signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'). Center Area lacks an unobstructed north route; true route to Area 2 proceeds through Area 1 via the plateau overpass (stairs at 20, 21 -> 12, 21 -> row 22 -> open highway cols 7..9 north).
+- Northern Overpass (Verified Turn 7643): Elevated rocky bridge spanning cols 11..17 rows 4..7. West staircase at (12, 7) ascends from western highway (cols 7..10); east staircase at (17, 7) descends onto the northern lawn (rows 8..11 cols 17..25). This bridge is the verified path to the northern lawn, the Item Ball at (21, 10), and the Area 2 northern transition staircase at (24-25, 8-9).
