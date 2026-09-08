@@ -2747,6 +2747,7 @@
 ## Northern Purple Corridor Boundaries (Verified Turn 36738)
 - Row 8 connects (5, 8) east to (14, 8) on lower purple floor.
 - Column 14 at (14, 4..7) is a continuous vertical rock wall divider separating northern purple corridor from eastern upper plateau. Tested Up from (14, 8) into (14, 7): solid rock wall.
+- **Final Shutter Switch Activation (Turn 36913)**: The fallen boulder was pushed from (10, 16) west onto Switch 2 at (9, 16), locking it onto the switch plate and depressing Switch 2. This permanently lowers the NE Exit Shutter at (27, 10) for this visit.
 
 <hr>
 
