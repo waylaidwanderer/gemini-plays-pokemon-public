@@ -2916,11 +2916,15 @@
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
-- Path to Elite Four Chamber:
-  1. From entrance (7, 11), walk Left to (3, 11) -> North along Column 3 to (3, 2).
-  2. From (3, 2), walk East 5 steps to (8, 2).
-  3. From (8, 2), walk North 2 steps to (8, 0) into Lorelei's Chamber (Room 1).
-- Left Wing: Pokémon Center healing counter & PC at (0..3, 1..5).
-- Right Wing: Poké Mart clerk counter & PC at (10..13, 2..6).
+- Nurse Joy Healing Counter: (5..8, 5..6)
+- Poké Mart Counter: (10..11, 5..6)
+- Elite Four Entrance Guard: Located at `(13, 6)` facing South
+- Elite Four Entrance Doorways: Checkerboard entrance doorways at `(12, 4)` and `(14, 4)`
+- Verified Path to Elite Four Chamber (Room 1):
+  1. From entrance (7, 11), walk North 4 steps along row 7 to (7, 7).
+  2. Walk East 6 steps along row 7 to `(13, 7)` facing the Guard at `(13, 6)`.
+  3. Walk North / interact with Guard at `(13, 6)`.
+  4. Walk North through `(13, 6)` to `(13, 5)`.
+  5. Walk Left to `(12, 5)` and North through doorway at `(12, 4)` to enter Lorelei's Chamber (Room 1)!
 
 <hr>
