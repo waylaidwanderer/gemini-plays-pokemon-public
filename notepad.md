@@ -2380,5 +2380,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
   - NPC sighted at (7, 13) facing North toward row 12 [Observed Turn 7074].
+- Row 12 corridor confirmed open westward across cols 4..8 through (7, 12) and (6, 12) [Verified Turn 7075].
 
 <hr>
