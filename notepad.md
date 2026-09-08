@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Rematch - In Progress (Room 1: Lorelei cleared; Room 2: Bruno cleared; Room 3: Agatha cleared! Entering Room 4: Lance)
+- League Status: Elite Four Rematch - Attempt 3 In Progress (Optimized Zero-Recoil Strategy)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -2873,12 +2873,12 @@
 
 ## Sustainable Gauntlet PP & Move Plan
 1. **Room 1: Lorelei (Ice / Water Specialist)**
-   - Dewgong Lv 54 (Water/Ice): Double-Edge / Bite (1-2 PP)
-   - Cloyster Lv 53 (Water/Ice, 180 Def, 85 Spc): Surf (2 PP, zero recoil)
-   - Slowbro Lv 54 (Water/Psychic, 110 Def, 80 Spc): Bite / Surf (2-3 PP, zero recoil)
-   - Jynx Lv 56 (Ice/Psychic, 35 Def): Double-Edge (1 PP, OHKO)
-   - Lapras Lv 56 (Water/Ice, 80 Def): Bite / Surf (2 PP, zero recoil)
-   - *Target HP entering Room 2: ~200+ HP.*
+   - Dewgong Lv 54 (Water/Ice): Double-Edge / Surf (2 hits)
+   - Cloyster Lv 53 (Water/Ice, 180 Def, 85 Spc): STAB Surf immediately (2 hits, 0 recoil, prevents Supersonic confusion!)
+   - Slowbro Lv 54 (Water/Psychic, 110 Def, 80 Spc): STAB Surf (3 hits, zero recoil)
+   - Jynx Lv 56 (Ice/Psychic, 35 Def, 95 Spc): STAB Surf immediately (1 hit OHKO, zero recoil, saves 30+ HP compared to Double-Edge!)
+   - Lapras Lv 56 (Water/Ice, 80 Def): Surf / Bite / Double-Edge
+   - *Target HP entering Room 2: ~220+ HP.*
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
    - Onix Lv 53: Surf (1 PP, 4x OHKO)
