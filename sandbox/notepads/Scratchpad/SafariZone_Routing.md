@@ -45,3 +45,20 @@
 - Turn 7957: Tested (16, 22); confirmed solid bush hedge. Row 22 does not connect west to (12, 21). Remaining steps: 271. Ascending staircase at (20, 21) to cross plateau bridge north to (21, 14).
 - Turn 7960: Reached (21, 14) on northern plateau via col 21 bridge. Remaining steps: 259. Moving Up 2 times to (21, 12) to test northern descent onto row 11 lawn.
 - Turn 7963: Reached (26, 12) on the northeast plateau rim directly south of Rest House 2. Testing Right into corner tile (27, 12) to descend onto the cols 27..28 lawn.
+## Critical Breakthrough (Turn 7976)
+- Eastern Plateau Confirmed Impassable North & East:
+  - (27, 12) tested Turn 7971; 0 tiles moved (solid cliff corner).
+  - Row 12 cliff face blocks north passage to row 11.
+  - Staircase at (24, 15) only leads south to the dead-end eastern lawn (cols 24-28).
+  - CONCLUSION: Eastern plateau bridge (20, 21 -> 24, 15) does NOT lead to Area 2!
+- The True Route to Area 2:
+  - Signpost at (5, 23): "CENTER AREA / NORTH: AREA 2".
+  - Western Staircase at (12, 21) is accessed from the west sector (row 24 cols 0..13).
+  - On Turns 7631-7647: Ascended (12, 21), crossed western plateau, descended to middle sector, crossed northern elevated area, and reached northern lawn at (21, 10) / Rest House 2 at (25, 9) / corridor to Area 2 at (6, 4)!
+  - Hedge at (16, 22) separates east and west lawn.
+- Execution Plan:
+  1. Retrace steps from (26, 12) west to (21, 14) and south across ridge to (20, 21).
+  2. Descend staircase at (20, 21) to (20, 22), return west through gap (17, 23) to row 24.
+  3. Advance west along row 24 to access the western staircase at (12, 21).
+  4. Ascend (12, 21) and follow the western plateau system north into Area 2.
+- Step Budget: ~250 steps remaining (plenty for Area 1 -> Area 2 -> Area 3 -> HM03).
