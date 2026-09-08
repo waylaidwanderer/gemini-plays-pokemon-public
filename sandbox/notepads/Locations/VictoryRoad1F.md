@@ -10,7 +10,7 @@
 - Eastern Chamber: Columns 14-17 (rows 11-16). Contains Switch Plate at (17, 15). (15, 13) is a solid rock wall; detour via col 14: (16, 14) -> (14, 14) -> (14, 12) -> (15, 12).
 - Boulder 1 (Default Start): (5, 15).
 - Western Corridor: Columns 1-3 (rows 10-16). Contains Switch Plate at (1, 16) and Western Boulder (Boulder 2) at (2, 10).
-- Shutters: Shutter (5, 13) and Shutter (7, 7) lowered permanently for current visit when Switch (17, 13) is depressed by Boulder 1!
+- Shutters: Shutter (5, 13) and Shutter (7, 7) lowered permanently for current visit when Switch (17, 15) is depressed by Boulder 1!
 - Elevated Plateau: Connected via lowered Shutter (5, 13) -> Row 12 Cross-Highway (5..12, 12) -> Col 11 North Avenue (11, 6..12) -> Row 6 West Avenue (7..11, 6) -> lowered Shutter (7, 7) -> Row 8 lower floor (3..7, 8) -> Col 3 North Avenue (3, 1..8) -> SW 2F Ladder at (1, 1) (enters 2F at (0, 8)).
 
 ## Verified Master Boulder Solution Protocol
