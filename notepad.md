@@ -2620,5 +2620,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 4. Northern Sector Progression:
    - Advance west across northern corridor past pond and (6, 4) signpost to exit into Area 2.
 
+- Turn 7953: Reached (17, 24) at the threshold of the hedge opening. Wild Paras appeared. Remaining steps: ~273. Fleeing via RUN.
 
 <hr>

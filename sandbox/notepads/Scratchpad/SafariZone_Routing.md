@@ -40,3 +40,5 @@
    - At (21, 14): Systematically test row 12 northward into row 11 (cols 20..26) to access northern lawn and Rest House 2 without descending eastern stairs.
 4. Northern Sector Progression:
    - Advance west across northern corridor past pond and (6, 4) signpost to exit into Area 2.
+
+- Turn 7953: Reached (17, 24) at the threshold of the hedge opening. Wild Paras appeared. Remaining steps: ~273. Fleeing via RUN.
