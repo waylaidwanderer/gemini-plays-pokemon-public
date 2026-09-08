@@ -27,10 +27,10 @@
    - Moves: Tackle (34/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall (Slot 5)
 6. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 6/46)
+   - Stats: Max HP 46 (HP: 0/46, FNT)
    - Type: Grass / Poison
-   - Moves: PoisonPowder (34/35), Rest (10/10), Wrap (20/20), Cut (30/30)
-   - Role: Wrap immobilization stall (Slot 6)
+   - Moves: PoisonPowder (34/35), Rest (10/10), Wrap (19/20), Cut (28/30)
+   - Role: Wrap utility (Slot 6)
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
