@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Ready for Fresh Elite Four Gauntlet Run (Full Party Restored)
+- League Status: Elite Four Gauntlet In Progress (Lorelei Defeated; Bruno Room 2 Underway vs Machamp)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
