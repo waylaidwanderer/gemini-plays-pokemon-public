@@ -2529,6 +2529,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Map Connections
 - Center Area -> Area 1 (East), Area 2 (North), Area 3 (West).
 ## Center Area
-- Entrance: Southern gatehouse at (15, 24). Signpost at (14, 24).
+- Entrance: Southern gatehouse at (14..15, 25). Player spawns at (15, 24).
+- Geography: Open lawn corridor along row 21 extending east toward Area 1. Tall grass patch to the west (cols 10..13 rows 20..23). Elevation plateau steps at (14, 22) and (18, 20).
 
 <hr>
