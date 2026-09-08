@@ -9,8 +9,8 @@
 2. Walk West to `(36, 6)`.
 3. Walk `Down` 1 to `(36, 7)`, `Left` 1 to `(35, 7)`.
 4. Walk `Down` 5 along column 35 to `(35, 12)` (bypassing eastern statues at cols 34-35).
-5. Walk `Down` to Row 14 lower road, walk West to Column 33/4, ascend onto the Gatehouse front plaza.
-6. Walk `Right` along row 10 to column 11 at `(11, 10)`.
+5. Walk `Down` to Row 14 lower road, walk West to Column 33 at `(33, 14)`, ascend North through ledge gap at `(33, 13)` onto Row 12 lawn.
+6. Walk `Left` along Row 12 all the way west to Column 11 at `(11, 12)`.
 7. Walk straight `Up` along column 11 to `(11, 6)` onto the Upper Paved Road.
 8. Walk `Left` 3 steps along row 6 to `(8, 6)`.
 9. Step `Up` 1 into the Gatehouse golden entrance door at `(8, 5)`!
