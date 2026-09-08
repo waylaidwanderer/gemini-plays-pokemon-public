@@ -2661,5 +2661,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8193: At (19, 6). Walking Right 4 times along row 6 lawn to (23, 6) to scout the eastern end of the row 4 hedge.
 - Turn 8195: Standing at (23, 6). Walking Right 5 times to (28, 6) and Up 4 times along col 28 to (28, 2) to enter the row 2 northern highway.
 - Turn 8197: In battle with wild Exeggcute at (28, 5). Dismissing text with B and positioning cursor on RUN.
+- Turn 8198: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (28, 5).
 
 <hr>
