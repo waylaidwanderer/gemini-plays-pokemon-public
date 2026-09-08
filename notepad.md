@@ -2503,5 +2503,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!") and resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"). Entrance door at (22, 13) [Verified Turn 7368, 7376].
 - Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
 - Cut Tree at (18, 19): Cleared by DUX on Turn 7466. Provides access from row 20/21 paved street north into the central zoo enclosure (cols 14..23 rows 8..19).
+- Zoo Enclosure (Lapras): Stone-fenced pond at cols 9..12 rows 16..17 with exhibit signboard at (13, 15) ("Name: LAPRAS").
+- Cut Tree at (16, 11): Located at col 16 row 11. Blocks northern path into the Safari Zone gatehouse promenade (rows 4..6).
 
 <hr>
