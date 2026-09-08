@@ -26,3 +26,6 @@
 - Paved highway along rows 10..11 extends clear across cols 33..40.
 - Tree canopy bounds road to the north at cols 33..35 rows 8..9.
 - Bird Keeper at (31, 13) in southern tall grass, facing North (Team of 4: Pidgeotto Lv 26, Farfetch'd Lv 26, Doduo Lv 26, Pidgey Lv 26) [DEFEATED Turn 7304]. Prize: ¥650. Defeat line: "Ow! That's tragic!". Engaged at (31, 10).
+- Route 15 Gatehouse:
+  - Entrance at (13, 8..9) on rows 8..9 paved road [Verified Turn 7311].
+  - Connects Route 15 west directly into Fuchsia City.
