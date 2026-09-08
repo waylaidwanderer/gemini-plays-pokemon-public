@@ -2576,6 +2576,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Turn 7982: Current position (20, 20) on plateau -> ~243 steps remaining.
 
 - Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
+## Area 2 (North)
+- East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
+- Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
 
 <hr>
 
