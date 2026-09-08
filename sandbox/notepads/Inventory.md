@@ -9,7 +9,6 @@
 - MOON STONE x1
 - NUGGET x1
 - TM07 (HORN DRILL) x1
-- TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 
@@ -44,7 +43,7 @@
   - Status: Healthy
   - HP: 51 / 157 [Turn 7270]
   - Stats: Attack 115, Defense 133, Speed 115, Special 117
-  - Moves: Bite (PP 0/25), Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
+  - Moves: Double-Edge (PP 15/15) [Learned Turn 7274], Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
