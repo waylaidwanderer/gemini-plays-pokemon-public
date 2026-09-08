@@ -14,3 +14,5 @@
 - Row 6 Corridor: Extends east from col 4 to col 14, where row 7 opening connects to row 8 [Verified Turn 7165].
 - Row 8 Corridor: Open ground across cols 4..10 below row 7 fence [Verified Turn 7164].
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
+- Trainer at (12, 11): Stationed at (12, 11) facing North up col 12 [Observed Turn 7167].
+- Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].
