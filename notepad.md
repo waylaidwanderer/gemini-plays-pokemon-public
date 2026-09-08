@@ -64,8 +64,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 72
-   - Stats: Max HP 245 (HP: 245/245 - Fully Healed!), Attack 172, Defense 190, Speed 174, Special 182
+1. HYDROS (Blastoise) - Lv 73
+   - Stats: Max HP 249 (HP: 199/249), Attack 175, Defense 194, Speed 178, Special 185
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -2706,7 +2706,6 @@
   5. Reposition to (4, 16) via (4, 15) -> (4, 16) (standing on open floor east of boulder).
   6. Stand at (4, 16) -> Push Left 2 times along row 16 onto Switch (1, 16) [Boulder at (1, 16), Player at (2, 16)].
   7. Outcome: Switch 1 activates, lowering Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-- **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
 ## NW Sector & Lower Floor Access
 - SW Ladder (0, 8) connects directly to Columns 2-3 Highway via (0, 6) -> (1, 6) -> (2, 6..7).
