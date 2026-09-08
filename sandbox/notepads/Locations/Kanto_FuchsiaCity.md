@@ -23,4 +23,6 @@
 - Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Building East of Center: Located at cols 26..29 rows 25..27 with entrance door at (27, 27) [Observed Turn 7324].
 - Barrier at Col 23: Solid vertical barrier along col 23 rows 26..31 blocks direct passage between col 24 and the Pokémon Center grounds (empirically confirmed Turn 7329 at 24, 28).
-- Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 17..21 to route around the northern building toward the Pokémon Center south plaza.
+- Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0 and the western building (Fuchsia Gym) at cols 2..9 rows 22..25.
+- Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
+- Western Building (Gym): Pink-roofed building at cols 4..9 rows 24..25+.
