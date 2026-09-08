@@ -2569,6 +2569,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Turn 7671: 223 / 500 remaining.
   - Turn 7716: 183 / 500 remaining (verified via Start menu).
   - Turn 7741: ~139 steps remaining.
+  - Turn 7774: Exactly 60 / 500 steps remaining (verified via in-game Start menu display).
 
 
 <hr>
