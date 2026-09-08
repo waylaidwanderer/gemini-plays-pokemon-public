@@ -2612,16 +2612,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - East Stairs at (24, 15): Descends south to isolated eastern lawn (cols 24-28 rows 16-19).
   - Eastern Boundary (col 28): (28, 15) is confirmed solid tree collision [Verified Turn 7927].
 
-## Active Navigation Strategy: Reaching Area 2
-1. Immediate Move (from 14, 24):
-   - Advance east 3 steps to (17, 24), step Up 2 times through (17, 23) hedge gap to (17, 22) clear lawn.
-2. Empirical Test at (17, 22):
-   - Test Left into (16, 22). If passable, advance west to (12, 22) and ascend western staircase at (12, 21).
-3. If (16, 22) is solid:
-   - Advance east across row 22 to (20, 22), ascend staircase at (20, 21), and cross ridge to northern plateau at (21, 14).
-   - At (21, 14): Systematically test row 12 northward into row 11 (cols 20..26) to access northern lawn and Rest House 2 without descending eastern stairs.
-4. Northern Sector Progression:
-   - Advance west across northern corridor past pond and (6, 4) signpost to exit into Area 2.
+## Active Navigation Strategy: Exploring Western Plateau Corridor
+1. From (20, 20), advance west along open plateau corridor across rows 18-20 (cols 19..16 and beyond).
+2. Follow western plateau towards western sector and northern corridor to access Area 2.
+3. Maintain linear progression without looping back to south stairs.
 
 - Turn 7953: Reached (17, 24) at the threshold of the hedge opening. Wild Paras appeared. Remaining steps: ~273. Fleeing via RUN.
 - Turn 7957: Tested (16, 22); confirmed solid bush hedge. Row 22 does not connect west to (12, 21). Remaining steps: 271. Ascending staircase at (20, 21) to cross plateau bridge north to (21, 14).
