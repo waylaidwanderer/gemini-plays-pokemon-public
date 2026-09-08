@@ -66,3 +66,7 @@
   - Ascends onto the northern elevated plateau to bridge OVER the row 6 hedge.
   - Connects to northern sector and Area 2 corridor.
 - Step Budget: 207 steps remaining. Moving east to (9, 7) -> (12, 8) -> ascend (12, 7).
+## Northern Corridor & Area 2 Gate (Turn 8005)
+- Signpost at (6, 4): 'TRAINER TIPS / The remaining time declines only while you walk!' [Read Turn 8004].
+- Northern Gate to Area 2: Open gateway at cols 0..1 rows 4..5 between statue gateposts at (1, 3) and (1, 6).
+- Step Budget: 160 steps remaining. Advancing west along row 5 into Area 2.
