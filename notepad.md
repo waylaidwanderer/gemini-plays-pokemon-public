@@ -169,7 +169,7 @@
   - Status: Healthy
   - HP: 120 / 154
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 0/25), Body Slam (PP 1/15), Bubblebeam (PP 4/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 0/25), Body Slam (PP 1/15), Bubblebeam (PP 3/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2407,7 +2407,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Geography & Layout
 - Entrance Corridor (Row 4): Horizontal corridor extending west from col 19 to col 4 bounded north by row 3 fence, south by row 5 fence, and west by col 3 rock cliff [Verified Turn 7152].
 - Row 5 fence runs solid from col 19 to col 6; opening at cols 4..5 connects row 4 to row 6 corridor [Verified Turn 7152].
-- Bird Keeper at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good moves to POKéMON!". Team: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 29 [Turn 7161].
+- Bird Keeper at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good moves to POKéMON!". Team: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Defeated on Turn 7162 [Turn 7162].
 - Col 3 is vertical rock cliff dividing eastern corridors from western wild grass patch (cols 1..2) [Verified Turn 7152].
 - NPC at (15, 6) is in row 6 corridor below row 5 fence; line of sight to row 4 is blocked by fence [Verified Turn 7149].
 
