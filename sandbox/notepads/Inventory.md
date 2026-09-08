@@ -1,6 +1,6 @@
 # Inventory Log
 
-## Items (9 / 11)
+## Items (10 / 11)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
@@ -10,6 +10,7 @@
 - TM07 (HORN DRILL) x1
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
+- FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
 
 ## Key Items (9 / 9)
 - OLD ROD
@@ -23,7 +24,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7529 via Bag inspection.
+- Total Slots Used: 19 / 20 (1 slot free). Full Restore obtained Turn 7647.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
