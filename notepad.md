@@ -2671,5 +2671,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8206: Reached (1, 6). Bypassing tree at (0..1, 8..9) via col 2 to (1, 10) to scan western boundary for Area 3 entrance.
 - Turn 8208: In battle with wild Nidoran♀ at (2, 7). Dismissing text with B and positioning cursor on RUN.
 - Turn 8209: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (2, 7).
+- Turn 8211: Standing at (2, 7). Walking Down 4 times along col 2 to (2, 11) to exit tall grass into the open lawn field and scan col 0 for Area 3 entrance.
 
 <hr>
