@@ -67,3 +67,9 @@
 - [x] Defeat Gym Leader Giovanni in Viridian Gym (Earth Badge & TM27 Fissure obtained; All 8 Badges unlocked!) [Turn 21973]
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 - [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
+
+- [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 37686]
+- [ ] Defeat Elite Four Bruno in Room 2
+- [ ] Defeat Elite Four Agatha in Room 3
+- [ ] Defeat Elite Four Lance in Room 4
+- [ ] Defeat Champion RED in Champion Chamber

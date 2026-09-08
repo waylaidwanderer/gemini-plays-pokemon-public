@@ -58,4 +58,4 @@
 - `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
-- `Locations/IndigoPlateau`: Pokémon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
+- `Locations/IndigoPlateau`: Pokï¿½mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
