@@ -1,1 +1,9 @@
-{}
+{
+  "elite_four_tactician": {
+    "agent_name": "elite_four_tactician",
+    "agent_description": "Audits PP expenditure, monitors HP thresholds, and provides optimal move recommendations for the 5-battle Elite Four rematch gauntlet.",
+    "agent_system_prompt": "You are the tactical battle assistant for Pokemon Blue Elite Four gauntlet. Track HYDROS's move PP across the 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) and recommend optimal moves to avoid PP exhaustion and ensure 1-run completion.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_battle\":{\"type\":\"string\"},\"active_party_hp\":{\"type\":\"number\"},\"move_pp\":{\"type\":\"object\"},\"enemy_pokemon\":{\"type\":\"string\"}},\"required\":[\"current_battle\",\"active_party_hp\",\"move_pp\",\"enemy_pokemon\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"resource_warning\":{\"type\":\"boolean\"},\"notes\":{\"type\":\"string\"}},\"required\":[\"recommended_move\",\"resource_warning\",\"notes\"]}"
+  }
+}

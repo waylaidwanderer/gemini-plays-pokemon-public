@@ -7,13 +7,13 @@
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
 
 ## Notepads Index
-- `Team`: Current party roster, battle stats, move sets, boxed Poké�émon, capture equipment
+- `Team`: Current party roster, battle stats, move sets, boxed Pokéé�émon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Viridian Forest layout, Bug Catchers, item locations
-- `Locations/PewterCity`: Pewter City points of interest, Poké�émon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pokéé�émon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F tunnels, ladder transitions
@@ -31,19 +31,19 @@
 - `Locations/SSAnneB1F`: S.S. Anne B1F layout, Sailors, Fishermen, items
 - `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
 - `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Poké�émon Center, Jr. Trainer Carol battle
+- `Locations/Route10`: Route 10 layout, Pokéé�émon Center, Jr. Trainer Carol battle
 - `Locations/RockTunnel1F`: Rock Tunnel 1F layout, standardized ladder matrix, trainers
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladder connectivity matrix, exit ladder
-- `Locations/LavenderTown`: Lavender Town layout, buildings, Poké�émon Tower, Name Rater, Poké�émart
+- `Locations/LavenderTown`: Lavender Town layout, buildings, Pokéé�émon Tower, Name Rater, Pokéé�émart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
-- `Locations/Poké�emonTower1F`: Poké�émon Tower 1F layout, mourning NPCs, ascending stairs
-- `Locations/Poké�emonTower2F`: Poké�émon Tower 2F layout, Rival RED battle, Channeler dialogue
-- `Locations/Poké�emonTower3F`: Poké�émon Tower 3F layout, Channelers, ascending stairs
-- `Locations/Poké�emonTower4F`: Poké�émon Tower 4F layout, items, Channelers
-- `Locations/Poké�emonTower5F`: Poké�émon Tower 5F layout, Purified Zone healing tile, Channelers
-- `Locations/Poké�emonTower6F`: Poké�émon Tower 6F layout, Ghost Marowak battle, stairs
-- `Locations/Poké�emonTower7F`: Poké�émon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
+- `Locations/Pokéé�emonTower1F`: Pokéé�émon Tower 1F layout, mourning NPCs, ascending stairs
+- `Locations/Pokéé�emonTower2F`: Pokéé�émon Tower 2F layout, Rival RED battle, Channeler dialogue
+- `Locations/Pokéé�emonTower3F`: Pokéé�émon Tower 3F layout, Channelers, ascending stairs
+- `Locations/Pokéé�emonTower4F`: Pokéé�émon Tower 4F layout, items, Channelers
+- `Locations/Pokéé�emonTower5F`: Pokéé�émon Tower 5F layout, Purified Zone healing tile, Channelers
+- `Locations/Pokéé�emonTower6F`: Pokéé�émon Tower 6F layout, Ghost Marowak battle, stairs
+- `Locations/Pokéé�emonTower7F`: Pokéé�émon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
 - `Locations/Route12`: Route 12 layout, Gatehouse, Sleeping Snorlax roadblock
 - `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Mansion, Game Corner
 - `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, Grunts, hidden stairs
@@ -60,7 +60,7 @@
 - `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
-- `Locations/IndigoPlateau`: Poké��mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
+- `Locations/IndigoPlateau`: Pokéé��mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
 
 
 <hr>
@@ -2865,19 +2865,15 @@
 # Indigo Plateau & Pokémon League HQ
 
 ## Building Layout & Points of Interest
-- **Reception Lobby**:
+- **Indigo Plateau Facility (Entrance at (13, 25) on Route 23 exterior)**:
   - Entrance Mat (South): Rows 7-8 at `(3..4, 7)`, exits south to Route 23 exterior at `(13, 25)`.
   - Nurse Joy Counter: Located at `(3, 1)` with counter at `(3, 2)` (approach from `(3, 3)` facing UP). Heals party to 100% HP/PP and sets respawn point to Indigo Plateau.
   - Chansey: Located at `(1, 3)`.
   - PC Terminal: Located at `(13, 3)` with table at `(13, 4)`.
-  - Cable Club Attendant: Located at `(11, 2)` between gold gates at `(10, 2)` and `(12, 2)`.
-  - Row 2 Counter Barrier: Continuous counter barrier spanning `(0..9, 2)` and `(13, 2)`.
-  - NPC at `(0, 4..5)`: NPC standing on west wall.
-  - NPC at `(11, 7)`: NPC standing on south-east wall.
-
-## Route 23 Exterior & League Access
-- Pokémon Center Reception Building: Located at `(12..15, 22..25)` on Route 23 exterior with door at `(13, 25)`.
-- Exterior stairs: Located at `(9, 28..29)`.
+  - Attendant at `(11, 2)`.
+  - Row 2 Counter Barrier: Spans across `(0..9, 2)` and `(13, 2)`.
+  - NPCs at `(0, 4..5)` and `(11, 7)`.
+  - Elite Four Entrance: Northern passage inside Indigo Plateau facility leading into Room 1 (Lorelei).
 
 ## Gauntlet Mechanics & Reset Protocol
 - **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
@@ -2888,7 +2884,7 @@
 1. **Room 1: Lorelei (Ice / Water Specialist)**
    - Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
    - Sweep Strategy: Double-Edge on Dewgong, Jynx, Lapras; Surf/Double-Edge on Cloyster; Bite/Double-Edge on Slowbro.
-   - Status: REMATCH PENDING
+   - Status: REMATCH READY
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
    - Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
