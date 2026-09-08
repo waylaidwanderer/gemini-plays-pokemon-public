@@ -2589,6 +2589,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 32..38. Staircase at (34, 15) descends south to open lawn at (34, 16) [Verified Turn 8132].
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
+- Turn 8162 Step Baseline: Position (22, 22) on western plateau with ~216 steps remaining (113 steps expended in Area 2).
 
 <hr>
 
@@ -2649,28 +2650,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Target to Area 2 entry at (0, 5): ~14 steps -> ~329 steps remaining upon entering Area 2.
 - Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
 
-- Turn 8118: (30, 24) north edge is solid cliff edge. Exploring east across plateau (cols 31..35) to survey eastern connection to northern sector.
-- Turn 8123: Discovered 2-tile wide elevated ridge at cols 37..38 continuing north across rows 20..23+. Advancing north to reveal northern descent.
-- Turn 8127: At (37, 16). Upper plateau expands west across rows 12..14+. South-facing staircase spotted at (34, 15) leading down to lower valley. Ascending north to (37, 13).
-- Turn 8131: At (33, 13). Confirmed plateau western edge is a cliff at col 32. Descending staircase at (34, 15) to open lawn at (34, 16).
-- Turn 8133: At (34, 16). Stepping west along row 16 lawn to (29, 16) to scout central Area 2.
-- Turn 8134: At (29, 16). Wide open lawn corridor extends west across rows 12..19 cols 25..31+. Moving Up to row 15 and stepping west along clean lawn to (25, 15) to bypass tall grass at (26, 16).
-- Turn 8135: Reached (25, 15). Continuous statue barrier along row 11. Rows 12..19 form a wide open lawn corridor extending west past col 21. Advancing west along row 15 to (21, 15).
-- Turn 8136: Reached (21, 15). Rows 12..19 continue as wide open lawn corridor across cols 17..21. Tree line begins at (17, 11). Advancing west along row 15 to (17, 15).
-- Turn 8137: At (17, 15). Column 16 is a vertical tree wall blocking west at row 15. Moving Down along col 17 lawn to (17, 19) to locate southern bypass into col 15.
-- Turn 8139: At (17, 19). Confirmed col 16 tree wall extends to row 19, and row 20 is an elevated plateau cliff (cols 14..22+). Spotted western staircase at (22, 23)! Moving east along row 19 to (22, 19) to access the southern corridor around col 25.
-- Turn 8140: At (22, 19). Verified col 26 is an open north-south lawn corridor (rows 19..23+). Moving east to (26, 19) and south along col 26 to (26, 23) to loop around the cliff to the (22, 23) staircase approach.
-- Turn 8141: At (26, 23). Testing Down into (26, 24) to verify if the diagonal cliff corner tile is passable to access (25, 24) and the (22, 23) staircase.
-- Turn 8143: Testing Left from (26, 23) into (25, 23). If impassable, the pinch is closed and we initiate the backtrack to (34, 15).
-- Turn 8144: Confirmed (25, 23) is solid cliff. Diagonal pinch is impassable; northern lawn is an enclosed basin. Executing backtrack via staircase (34, 15) to traverse eastern plateau to southern boulevard and access (22, 23) from the south.
-- Turn 8145: Reached (31, 19). Staircase (34, 15) in sight. Walking to (34, 16) and ascending to (34, 14) on the upper plateau.
-- Turn 8147: Standing at (34, 14) on upper plateau. Walking east to (37, 14) and south along elevated ridge to (37, 18).
-- Turn 8149: Walking south along elevated ridge to southern plateau junction at (37, 24).
-- Turn 8150: Reached (37, 24). Traversing west across plateau along row 25 to staircase at (28, 27) and descending to southern boulevard at (28, 28).
-- Turn 8151: Descended staircase (28, 27) to southern boulevard at (28, 28). Moving Down to row 29 and west across cols 27..24 towards the staircase (22, 23) approach at (22, 29).
-- Turn 8153: In battle with wild Paras at (24, 29). Dismissing text and moving cursor to RUN.
-- Turn 8155: Selected RUN with A and cleared escape text with B, returning to overworld at (24, 29).
-- Turn 8157: In overworld at (24, 29). Walking Left to col 22 and north along col 22 to (22, 25) towards western staircase (22, 23).
-- Turn 8159: Standing at (22, 25). Walking Up 3 times to ascend staircase (22, 23) onto the western plateau at (22, 22).
+- Turns 8118-8159 (Area 2 Topological Survey & Western Plateau Routing):
+  - Eastern Plateau & Northern Basin Survey: Ascended staircase at (28, 27) and traversed the 2-tile elevated ridge (cols 37..38, rows 14..24) to upper plateau (rows 12..14). Descended staircase (34, 15) to survey northern lawn (rows 12..19, cols 17..31).
+  - Enclosure Verification: Confirmed col 16 tree wall (rows 12..19), row 11 statue line, and row 20 cliff form a solid boundary enclosing the northern lawn basin. Tested diagonal corner pinch at (26, 24) (Turn 8141) and (25, 23) (Turn 8143); both confirmed solid impassable collision.
+  - Backtrack & Direct Path to Western Staircase: Re-ascended staircase (34, 15), traversed south across eastern plateau to staircase (28, 27), and descended to southern boulevard at (28, 28). Followed row 29 west past col 25 through tall grass valley into col 22, then walked north along col 22 directly into western staircase at (22, 23).
+  - True Ground Path Clarification: From Area 2 entrance at (39, 31), the direct path to Area 3 does NOT ascend eastern plateau at (28, 27). Instead, follow row 29/30 boulevard west past col 26, turn north into column 22 tall grass valley at (22, 29), and ascend staircase (22, 23) onto the western plateau.
+  - Step Reconciliation: The circuitous survey loop expended 113 steps within Area 2 (entering at 329, arriving at 216). Active step baseline at Turn 8162: Position (22, 22) on western plateau with ~216 steps remaining. Projected steps to Area 3 entrance: ~23 steps (reaching Area 3 with ~193 steps remaining).
 
 <hr>
