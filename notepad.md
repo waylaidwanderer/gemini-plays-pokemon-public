@@ -2533,6 +2533,7 @@
 - **Lower Dirt Road (rows 14-15)**:
   - Continuous open horizontal avenue spanning columns 1 to 37, with zero northern exits west of column 33 due to the continuous row 13 ledge.
 
+- Passable UP gap at `(31, 7)` connects tall grass `(31, 8)` directly north onto Row 6 highway at `(31, 6)`.
 
 <hr>
 
