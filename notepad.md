@@ -2509,3 +2509,24 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Safari Zone Gatehouse: Located at cols 16..21 rows 2..5 with entrance door at (18, 3) and sign at (17, 5).
 
 <hr>
+
+<h1><code>Locations/Kanto_SafariZone</code></h1>
+
+# Safari Zone - Kanto
+
+## Gatehouse & Rules
+- Entrance: Located at north Fuchsia City (cols 16..21 rows 2..5, door at (18, 3)).
+- Gatehouse Interior: Map size 8x6, entrance mat at (3..4, 5). Attendant at counter.
+- Entry Fee: ¥500.
+- Allotment: 30 Safari Balls, 500 steps.
+- Mechanics: No party battles. Encounters use BALL, BAIT, THROW (Rock), RUN. Party Pokémon cannot take damage or faint.
+
+## Key Quests & Progression Items
+- HM03 (SURF): Obtained from the man inside the Secret House in Area 3.
+- GOLD TEETH: Found on the ground outside the Secret House in Area 3 (return to Fuchsia Warden for HM04 Strength).
+- TM06 (TOXIC): Found on the ground in Area 3.
+
+## Map Connections
+- Center Area -> Area 1 (East), Area 2 (North), Area 3 (West).
+
+<hr>
