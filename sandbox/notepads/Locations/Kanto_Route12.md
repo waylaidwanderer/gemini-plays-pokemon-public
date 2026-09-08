@@ -31,3 +31,4 @@
 - Platform at Rows 72..73+: Bridge widens eastward across cols 10..15+ [Verified Turn 6985].
 - Fishing Guru's Brother's Cottage: Located at cols 10..13, rows 76..77. Front door at (11, 77). North approach blocked by railing at (10..13, 74) and water at (10..13, 75); bypass dock is to the east at cols 14..15 [Verified Turn 6986].
 - Rocker Trainer (Luca): Stationed at (14, 76) facing North. Engaged at (14, 73). Pokémon: Voltorb Lv 29, Electrode Lv 29. Defeated on Turn 6993 [Verified Turn 6993].
+- Fishing Guru's Brother's Cottage Interior: Entrance mat at (2..3, 7). Fishing Guru's brother sitting at (2, 4) facing South [Verified Turn 6998].
