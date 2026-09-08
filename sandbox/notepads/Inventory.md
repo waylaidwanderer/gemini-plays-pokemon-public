@@ -1,9 +1,8 @@
 # Inventory Log
 
-## Items (11 / 12)
+## Items (9 / 11)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
-- MAX POTION x0 [Used Turn 7261] [Verified Turn 6400]
 - SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
@@ -24,7 +23,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (0 slots free - Bag Full). Verified Turn 7001.
+- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7529 via Bag inspection.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
