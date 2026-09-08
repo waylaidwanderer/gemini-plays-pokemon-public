@@ -2496,6 +2496,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Barrier at Col 23: Solid vertical barrier along col 23 rows 26..31 blocks direct passage between col 24 and the Pokémon Center grounds (empirically confirmed Turn 7329 at 24, 28).
 - Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0 and the western building (Fuchsia Gym) at cols 2..9 rows 22..25.
 - Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
-- Western Building (Gym): Pink-roofed building at cols 4..9 rows 24..25+.
+- Fuchsia Gym: Located at cols 4..9 rows 24..27 with entrance door at (5, 27) and GYM sign at (6, 26) [Verified Turn 7342]. Front faces south onto row 28 paved road.
 
 <hr>
