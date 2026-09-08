@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 75
-   - Stats: Max HP 256 (HP: 68/256), Attack 180, Defense 200, Speed 183, Special 190
+   - Stats: Max HP 256 (HP: 256/256 - Fully Restored!), Attack 180, Defense 200, Speed 183, Special 190
    - Type: Water
-   - Moves: Double-Edge (5/15), Ice Beam (0/10), Bite (21/25), Surf (2/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54 - Healthy)
@@ -12,7 +12,7 @@
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 57/60 - Healthy)
+   - Stats: Max HP 60 (HP: 60/60 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig utility & Rock/Ground backup (Slot 3)
@@ -36,11 +36,4 @@
 - Badges: 8/8 (All Kanto Badges earned!)
 - Key Items: Bicycle, Pok� Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
-- Restoratives: 1x Revive remaining
-
-## Elite Four & Champion Gauntlet Remaining PP Audit
-- Total Remaining Sweeper PP: 28 PP
-  - Double-Edge: 5/15 PP
-  - Ice Beam: 0/10 PP (Used to sweep Lance's dragons & Pidgeot)
-  - Bite: 21/25 PP
-  - Surf: 2/15 PP (Used to sweep Bruno, Rhydon; 2 PP remaining for Arcanine & reserve)
+- Funds: �50,000+ available for supplies at Indigo Plateau Mart
