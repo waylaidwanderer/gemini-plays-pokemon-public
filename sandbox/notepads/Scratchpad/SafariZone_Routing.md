@@ -88,3 +88,4 @@
 - Turn 8226: At (19, 6) facing item ball at (19, 7). Interacting returned 'No more room for items!'. Bag is at 20/20 capacity. 83 steps remaining. Opening Start menu to free 2 slots for Gold Teeth and HM03 Surf.
 - Turn 8227: Start menu open. Safari Zone counter displays '14/500' (exactly 14 steps remaining in this session!). Opening ITEM menu via Down, Down, A to inspect bag contents and toss/use items to free inventory space.
 - Turn 8232: Submenu open on TM02 with USE/TOSS. Pressing Down to select TOSS and A to initiate tossing TM02.
+- Turn 8233: Quantity box '×01' open. Pressing A to confirm quantity 1 and A to select YES to toss TM02.
