@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 83
-   - Stats: Max HP 285 (HP: 115/285), Attack 202, Defense 224, Speed 205, Special 212
+   - Stats: Max HP 285 (HP: 69/285), Attack 202, Defense 224, Speed 205, Special 212
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (5/10), Bite (24/25), Surf (3/15)
+   - Moves: Double-Edge (7/15), Ice Beam (1/10), Bite (24/25), Surf (3/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
@@ -197,7 +197,7 @@
 - [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 38601]
 - [x] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58) [Turn 38610]
 - [x] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60) [Defeated Turn 38626]
-- [ ] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)
+- [x] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62) [Defeated Turn 38636]
 - [ ] Defeat Champion RED in Champion Chamber (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65)
 
 <hr>
