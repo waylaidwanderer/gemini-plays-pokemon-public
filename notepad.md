@@ -2740,6 +2740,9 @@
 - **Central Corridor (cols 9-11, rows 11-16)**: Connects Switch 2 at (9, 16) north along column 9 to (9, 11).
 - **Row 10 Rock Divider (cols 6-12, row 10)**: Solid horizontal rock barrier dividing Central Chamber (row 11) from northern purple corridor (row 8).
 - **Passage to Western Sector**: Row 11 dark checkerboard floor spans across (5..7, 11), connecting directly to lowered Shutter 1 at (5, 10).
+## Northern Purple Corridor Boundaries (Verified Turn 36738)
+- Row 8 connects (5, 8) east to (14, 8) on lower purple floor.
+- Column 14 at (14, 4..7) is a continuous vertical rock wall divider separating northern purple corridor from eastern upper plateau. Tested Up from (14, 8) into (14, 7): solid rock wall.
 
 <hr>
 
