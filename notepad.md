@@ -2356,5 +2356,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer/NPC at (50, 5): Stationed on wooden planks at (50, 5) [Verified Turn 7022].
 
 - Bridge Corner Rows 10..12: Railing blocks south at (47..51, 12). Bridge expands west along rows 10..11 across cols 47..51+. Trainer at (49, 10) is Bird Keeper (Sebastian) facing East, engaged at (51, 10). Another trainer at (48, 10) [Verified Turn 7024].
+- Bird Keeper (Sebastian) Battle: Pokémon 1 is Pidgey Lv 29 (enemy roster: 2 Pokémon) [Verified Turn 7025].
 
 <hr>
