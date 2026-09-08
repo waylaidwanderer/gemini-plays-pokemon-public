@@ -2,8 +2,10 @@
 
 ## Gauntlet Overview & Rules
 - **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
-- **Blackout & Failure Reset**: Blacking out at any point during the gauntlet completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokémon Center. The entire gauntlet must be completed in a single run.
-- **HP Preservation Strategy**: Avoid recoil moves (Double-Edge) against bulky targets. Leverage STAB Surf and Bite to conserve HYDROS's HP above 200 for Agatha, Lance, and Champion RED.
+- **Blackout & Failure Reset**: Blacking out at any point during the gauntlet completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokémon Center. The entire gauntlet must be completed in a single continuous run.
+- **Speed Priority & Status Mitigation (Crucial Lesson)**: At Lv 78, HYDROS possesses 191 Speed, naturally outspeeding every single Pokémon in Lorelei, Bruno, and Agatha's rosters (Agatha's fastest Gengar is base 110 Spd = ~145 Spd at Lv 60). Maintaining full Speed is paramount:
+  - When HYDROS is unparalyzed, it strikes FIRST on turn 1 of every Agatha matchup, achieving 1-hit knockouts with STAB Surf (Gengar, Haunter, Arbok) and Ice Beam (Golbat) BEFORE they can ever cast Confuse Ray or Hypnosis!
+  - In Room 1 (Lorelei), knock out Lapras swiftly using Surf / Double-Edge to minimize the window for Body Slam paralysis.
 
 ## Sustainable Gauntlet PP & Move Plan
 1. **Room 1: Lorelei (Ice / Water Specialist)**
