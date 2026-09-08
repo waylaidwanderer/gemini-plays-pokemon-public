@@ -19,3 +19,6 @@
 - Boulevard Junction: Road turns south along cols 36..37 rows 16..18, connecting to a wide east-west paved boulevard along row 18 extending west across cols 32..37 [Verified Turn 7317].
 - Trees block westward traversal along row 16 at col 35.
 - Building observed to the south at cols 32..33 rows 20+.
+- Zoo Enclosure: Stone-fenced pond at cols 29..34 rows 19..22 south of the boulevard [Verified Turn 7318].
+- NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
+- Main Boulevard: Clear paved highway along row 18 extending west across cols 29..37.
