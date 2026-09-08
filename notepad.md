@@ -214,6 +214,10 @@
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 7549]
   - Transferred to PC Box 1 (Active Party full)
+- VENONAT (Nickname: RADAR) [Lv 22, Bug/Poison]
+  - Status: Healthy
+  - Caught: Safari Zone Center Area tall grass [Turn 7581]
+  - Transferred to PC Box 1 (Active Party full)
 
 <hr>
 
