@@ -2612,5 +2612,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7821: At (14, 17) (~449 steps left). Advancing 5 steps east along row 17 to (19, 17) above Rest House 1.
 - Turn 7822: At (19, 17) (~444 steps left). Advancing to (22, 18) on the eastern lawn to empirically test eastward progression toward Area 1.
 - Turn 7823: At (22, 18) (~440 steps left). Trees block (23, 18). Moving south to row 24 to physically test the straight row 24 eastern path into Area 1.
+- Turn 7824: At (19, 20) (~435 steps left). Stepping Down 4 times to row 24 and Right to (20, 24) to reach the (22, 24) testing point.
 
 <hr>
