@@ -167,9 +167,9 @@
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 48, Water]
   - Status: Healthy
-  - HP: 137 / 151
+  - HP: 132 / 151
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 5/25), Body Slam (PP 5/15), Bubblebeam (PP 10/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 2/25), Body Slam (PP 5/15), Bubblebeam (PP 9/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2371,5 +2371,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Jr. Trainer ♀ at (23, 10): Stationed at (23, 10) facing West. Line: "My cute POKéMON wish to make your acquaintance.". Engaged at (22, 10). Pokémon: Pidgey Lv 27, Meowth Lv 27, Pidgey Lv 27, Pidgeotto Lv 27. Defeated on Turn 7070 [Verified Turn 7070].
 - Row 12 dead-ends at col 16/17: blocked west by fence at (16, 12) and south by alcove at (17, 13..14) [Verified Turn 7061].
 - Northern bypass connection: Row 11 has open gap at (22..23, 11) connecting row 12 to row 10. Row 10 extends west across cols 15..22+ [Verified Turn 7061].
+- Row 10 corridor extends west from (22, 10) through (18, 10)+ bounded north by row 9 fence and south by row 11 fence [Verified Turn 7071].
 
 <hr>
