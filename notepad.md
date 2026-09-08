@@ -2591,6 +2591,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), and dense bush wall along col 24 (rows 6..13).
 - Master Traversal Route: From north entrance at (21, 0), step down to rows 2-4 and run directly WEST along the open northern lawn highway to reach the Secret House.
 
+- Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
 
 <hr>
 
