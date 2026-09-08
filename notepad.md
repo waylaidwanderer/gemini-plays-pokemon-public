@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 49, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥70083
+- Money: ¥70808
 - Pokéédex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -162,7 +162,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥70083
+- ¥70808
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
@@ -2415,6 +2415,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 8 Corridor: Open ground across cols 4..10 below row 7 fence [Verified Turn 7164].
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
 - Bird Keeper at (12, 11): Stationed at (12, 11) facing South down col 12. Line: "There's a Dept. Store in CELADON! But, only a few people have HMs!". Team: Pidgeotto Lv 29, Fearow Lv 29. Defeated on Turn 7180 [Turn 7180].
-- Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].
+- Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].- Central Southern Road (Rows 12..15+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass patches at cols 10..11 and 14..15 [Verified Turn 7182].
+- Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
+- Trainer at (14, 15): Stationed at (14, 15) on east edge of paved road [Observed Turn 7183].
 
 <hr>
