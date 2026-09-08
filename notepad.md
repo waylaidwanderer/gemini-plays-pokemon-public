@@ -2610,5 +2610,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7819: Reflection completed. Confirmed western sector is dead-ended by row 16 bushes. Returning east along row 17 to Rest House 1 (cols 17..22 rows 18..21) to execute empirical physical testing of the eastern corridor to Area 1.
 - Turn 7820: At (9, 17) (~449 steps left). Advancing east along row 17 to (14, 17).
 - Turn 7821: At (14, 17) (~449 steps left). Advancing 5 steps east along row 17 to (19, 17) above Rest House 1.
+- Turn 7822: At (19, 17) (~444 steps left). Advancing to (22, 18) on the eastern lawn to empirically test eastward progression toward Area 1.
 
 <hr>
