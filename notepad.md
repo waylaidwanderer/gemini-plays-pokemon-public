@@ -125,7 +125,7 @@
 
 # Inventory Log
 
-## Items (9 / 11)
+## Items (10 / 11)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
@@ -135,6 +135,7 @@
 - TM07 (HORN DRILL) x1
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
+- FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
 
 ## Key Items (9 / 9)
 - OLD ROD
@@ -148,7 +149,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7529 via Bag inspection.
+- Total Slots Used: 19 / 20 (1 slot free). Full Restore obtained Turn 7647.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2547,8 +2548,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
-- Item Ball: Located at (21, 10) on the northern lawn.
-- Wooden Staircase: Located at (26, 10), leading north from the lawn.
+- Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
+- Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
 - Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes; open northern passage in Area 1 lies through cols 7..9.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
@@ -2556,6 +2557,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Central Opening: The only traversable north-south opening between the north and south sectors of Center Area is at cols 20-21.
 - Routing to Area 2: Reconciled with official Area 1 signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'). Center Area lacks an unobstructed north route; true route to Area 2 proceeds through Area 1 via the plateau overpass (stairs at 20, 21 -> 12, 21 -> row 22 -> open highway cols 7..9 north).
-- Northern Overpass (Verified Turn 7643): Elevated rocky bridge spanning cols 11..17 rows 4..7. West staircase at (12, 7) ascends from western highway (cols 7..10); east staircase at (17, 7) descends onto the northern lawn (rows 8..11 cols 17..25). This bridge is the verified path to the northern lawn, the Item Ball at (21, 10), and the Area 2 northern transition staircase at (24-25, 8-9).
+- Northern Overpass (Verified Turn 7643): Elevated rocky bridge spanning cols 11..17 rows 4..7. West staircase at (12, 7) ascends from western highway (cols 7..10); east staircase at (17, 7) descends onto the northern lawn (rows 8..11 cols 17..25). This bridge is the verified path to the northern lawn, the Full Restore at (21, 10), and Rest House 2 at (25, 9). Route to Area 2 continues north along western corridor (cols 7..10).
 
 <hr>
