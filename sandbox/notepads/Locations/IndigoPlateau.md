@@ -20,13 +20,13 @@
      - Jynx Lv 56: Double-Edge (1 PP) [OHKO]
      - Lapras Lv 56: Double-Edge (2 PP) [2HKO]
      - *Actual Spend: 9 Double-Edge, 1 Ice Beam, 0 Surf.*
-  2. **Bruno (5 Pokémon)**: IN PROGRESS
+  2. **Bruno (5 Pokémon)**: IN PROGRESS (4/5 Defeated)
      - Onix Lv 53: Surf (1 PP) [4x OHKO Crit] - DEFEATED
-     - Hitmonchan Lv 55: Bite (1 PP) [Crit ~90% damage] - IN PROGRESS (~5% HP remaining)
-     - Hitmonlee Lv 55: Surf (1 PP) [OHKO]
-     - Onix Lv 56: Surf (1 PP) [4x OHKO]
-     - Machamp Lv 58: Surf (1-2 PP) [OHKO/2HKO]
-     - *Remaining Bruno Budget: 3-4 Surf, 1 Bite.*
+     - Hitmonchan Lv 55: Bite (2 PP) [2HKO] - DEFEATED
+     - Hitmonlee Lv 55: Ice Beam (1 PP) [OHKO] - DEFEATED
+     - Onix Lv 56: Surf (1 PP) [4x OHKO] - DEFEATED
+     - Machamp Lv 58: Surf (1 PP) [OHKO] - IN PROGRESS
+     - *Remaining Bruno Budget: 1 Surf.*
   3. **Agatha (5 Pokémon)**: PENDING
      - Gengar Lv 56: Surf (1 PP) [OHKO/2HKO]
      - Golbat Lv 56: Ice Beam (1 PP) [2x OHKO]
@@ -51,10 +51,10 @@
      - *Battle Budget: 3 Ice Beam, 2 Surf, 3 Double-Edge/Bite.*
 
 - **Gauntlet Total Resource Balance**:
-  - **Surf**: 14 / 15 remaining (ample reserve)
-  - **Ice Beam**: 9 / 10 remaining (ample reserve)
+  - **Surf**: 13 / 15 remaining (ample reserve)
+  - **Ice Beam**: 8 / 10 remaining (ample reserve)
   - **Double-Edge**: 6 / 15 remaining
-  - **Bite**: 24 / 25 remaining (full finishing reserve)
+  - **Bite**: 23 / 25 remaining (full finishing reserve)
 
 ## Elite Four Gauntlet Chambers & Verified Rosters
 1. **Room 1: Lorelei (Ice / Water Specialist)**
@@ -62,7 +62,7 @@
    - Status: DEFEATED [Turn 37993]
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
-   - Roster: Onix Lv 53 (DEFEATED), Hitmonchan Lv 55 (~5% HP), Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
+   - Roster: Onix Lv 53 (DEFEATED), Hitmonchan Lv 55 (DEFEATED), Hitmonlee Lv 55 (DEFEATED), Onix Lv 56 (DEFEATED), Machamp Lv 58 (IN PROGRESS).
    - Status: IN PROGRESS
 
 3. **Room 3: Agatha (Ghost / Poison Specialist)**
