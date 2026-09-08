@@ -2576,6 +2576,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 <h1><code>Scratchpad/SafariZone_Routing</code></h1>
 
-
+- Turn 7927: Tested (28, 15); confirmed solid tree collision. Row 15 does not offer ground passage north.
+- Turn 7929: Heading south along col 28 (clear lawn, zero tall grass) toward row 22/24 to access the western plateau staircase at (12, 21) leading to Area 2.
 
 <hr>
