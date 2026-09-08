@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 77
-   - Stats: Max HP 263 (HP: 15/263 - PAR), Attack 185, Defense 204, Speed 188 (47 with PAR), Special 195
+1. HYDROS (Blastoise) - Lv 78
+   - Stats: Max HP 267 (HP: 19/267 - PAR), Attack 189, Defense 208, Speed 191 (47 with PAR), Special 199
    - Type: Water
    - Moves: Double-Edge (11/15), Ice Beam (9/10), Bite (25/25), Surf (4/15)
    - Status: Paralyzed (Confusion cleared!)
