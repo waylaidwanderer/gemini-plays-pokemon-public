@@ -58,7 +58,6 @@
 ## 2F Pit Drop & Exit Investigation (Turn 35671)
 - Pit Boulder dropped from 3F lands on 2F at (23, 16).
 - Empirical test: Pushing boulder East into (29, 16) dead-ends against (30, 16) rock wall and does NOT open Exit Shutter at (27, 10). Shutter at (27, 10) confirmed closed on Turn 35669.
-- Required Master Protocol: From landing at (23, 16), walk around to East of boulder at (24, 16) and push boulder WEST along Row 16 onto the southern switch plate to open Exit Shutter (27, 10).
 ## Observed Landmarks
 - Shutter at (28, 10): Observed blocking Column 28 passage into Ladder NE Room (rows 7-9, cols 26-29).
 - Ladder NE at (27, 7): Wall ladder in enclosed NE room on 2F (cols 26-29, rows 7-9), isolated from main Row 8 corridor by rock wall at cols 24-25.

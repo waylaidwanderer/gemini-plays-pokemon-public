@@ -2584,6 +2584,9 @@
   2. Walk West 4 steps along Row 22 to Column 2 at (2, 22).
   3. Walk straight North along Column 2 to (2, 1).
   4. Step into cave entrance doorway at (2, 1) to transition into Victory Road 1F at (8, 17).
+- **Row 31 Ledge Barrier & Archway Passage (Turns 36319-36320)**:
+  - Row 31 contains an impassable south-facing ledge barrier across columns 0-3.
+  - The single open passage through the row 31 barrier onto the northern avenue is the archway doorway at `(4, 31)`.
 
 <hr>
 
