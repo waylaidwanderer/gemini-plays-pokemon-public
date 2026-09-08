@@ -19,7 +19,7 @@
 - Route Progression: Clockwise traversal (Center Area -> Area 1 -> Area 2 -> Area 3).
 
 ## Area 1 (East)
-- West Exit: Center Area at (0, 22..24). Player enters at (0, 23).
+- West Exit: Center Area at (0, 22..23). Player enters at (0, 23). (Tile 0, 24 is impassable collision verified Turn 7761).
 - Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
 - Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
 - Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
@@ -43,7 +43,6 @@
 - Southern Barrier (Rows 15-16): Continuous barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across the entire western and central sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
-- Northern Overpass (Verified Turn 7643): Elevated rocky bridge spanning cols 11..17 rows 4..7. West staircase at (12, 7) ascends from western highway (cols 7..10); east staircase at (17, 7) descends onto the northern lawn (rows 8..11 cols 17..25). This bridge is the verified path to the northern lawn, the Full Restore at (21, 10), and Rest House 2 at (25, 9).
 ## Step Budget & Timer (Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 - Empirical Benchmarks:
