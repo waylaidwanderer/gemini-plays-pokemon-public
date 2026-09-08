@@ -2614,5 +2614,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7823: At (22, 18) (~440 steps left). Trees block (23, 18). Moving south to row 24 to physically test the straight row 24 eastern path into Area 1.
 - Turn 7824: At (19, 20) (~435 steps left). Stepping Down 4 times to row 24 and Right to (20, 24) to reach the (22, 24) testing point.
 - Turn 7825: At (20, 24) (~430 steps left). Testing Right into (21, 24) and (22, 24) to verify statue collision.
+- Turn 7826: At (21, 24) (~429 steps left). Verified (22, 24) is solid collision. Pressing A to inspect the statue.
 
 <hr>
