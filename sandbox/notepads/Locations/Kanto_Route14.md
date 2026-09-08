@@ -17,4 +17,5 @@
 - Bird Keeper at (12, 11): Stationed at (12, 11) facing South down col 12. Line: "There's a Dept. Store in CELADON! But, only a few people have HMs!". Team: Pidgeotto Lv 29, Fearow Lv 29. Defeated on Turn 7180 [Turn 7180].
 - Row 11 Opening: Opening at (13, 11) connects row 10 to row 12 path and tall grass [Observed Turn 7167].- Central Southern Road (Rows 12..15+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass patches at cols 10..11 and 14..15 [Verified Turn 7182].
 - Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
-- Trainer at (14, 15): Stationed at (14, 15) on east edge of paved road [Observed Turn 7183].
+- Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
+- Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
