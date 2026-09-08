@@ -7,7 +7,7 @@
 - West: Route 18 (Cycling Road gatehouse).
 
 ## Points of Interest
-- Pokémon Center: Priority destination for full party revival.
+- Pokémon Center
 - Poké Mart
 - Fuchsia Gym: Leader Koga.
 

@@ -2478,7 +2478,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - West: Route 18 (Cycling Road gatehouse).
 
 ## Points of Interest
-- Pokémon Center: Priority destination for full party revival.
+- Pokémon Center
 - Poké Mart
 - Fuchsia Gym: Leader Koga.
 
