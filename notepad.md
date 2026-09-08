@@ -113,6 +113,26 @@
   - Slot 4: ZEPHYR (Pidgey) -> Press Down 3 from Lead -> Press A -> Option 1: FLY (Outdoors only)
   - Slot 6: SPROUT (Bellsprout) -> Press Up 1 from Lead -> Press A -> Option 1: CUT
 
+## Elite Four Gauntlet Strategy & Resource Audit
+- Primary Sweeper: HYDROS (Blastoise Lv 73)
+  - Moves:
+    - Double-Edge (15/15 PP) - High Normal physical power for neutral targets
+    - Ice Beam (10/10 PP) - Super effective vs Lorelei (Jynx), Bruno (Onix), Lance (Dragonite, Dragonair, Aerodactyl), Rival (Pidgeot, Venusaur, Rhydon)
+    - Bite (25/25 PP) - High PP flinch utility vs Agatha's Ghosts (Gengar, Haunter, Golbat, Arbok)
+    - Surf (15/15 PP) - STAB powerhouse vs Bruno (Onix), Agatha (Arbok), Lance (Aerodactyl), Rival (Rhydon, Arcanine, Charizard)
+  - Total PP: 65 PP across moves, sufficient for ~25-30 trainer Pok�mon gauntlet.
+- Support / Utility Roster:
+  - ATLAS (Machop Lv 16): Strength utility, sacrificial switch / revive pivot
+  - TERRA (Geodude Lv 22): Rock Throw, Dig utility / switch pivot
+  - ZEPHYR (Pidgey Lv 21): Fly fast travel, Sand-Attack accuracy stall
+  - PRISM (Eevee Lv 25): Double Team evasion stall
+  - SPROUT (Bellsprout Lv 17): Cut utility, PoisonPowder / Rest status stall
+- Contingencies & League Protocols:
+  - Indigo Plateau features a Pok�mon Center and Mart in the main lobby.
+  - Heal all Pok�mon to 100% HP/PP at Indigo Plateau Center counter before entering door.
+  - Purchase Max Potions, Full Restores, and Revives at Indigo Mart if bag space permits.
+
+
 <hr>
 
 <h1><code>Locations/PalletTown</code></h1>
