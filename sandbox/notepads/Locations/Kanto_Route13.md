@@ -15,5 +15,5 @@
 - Route 13 Mainland & Fence Maze (Col 35 Westward): Wooden pier ends at col 36. Mainland begins at col 35. Horizontal fence at (32..33, 11) blocks row 11. Bypasses exist via row 10 (cols 32..35) to the north, opening to northern field at col 33 rows 7..9, and row 12 to the south bounded by row 13 fence [Verified Turn 7048].
 - Fence Maze Layout (Cols 27..35):
   - Row 10 corridor: Open path across cols 27..34 between fences.
-  - Signpost at (31, 11).
+  - Signpost at (31, 11): "North to SILENCE BRIDGE" [Verified Turn 7052].
   - NPCs sighted at (32, 6), (33, 6), and (27, 9) [Observed Turn 7051].
