@@ -1,1 +1,9 @@
-{}
+{
+  "safari_navigator": {
+    "agent_name": "safari_navigator",
+    "agent_description": "Audits Safari Zone route connectivity, tracks step budgets, and flags dead-end or circular navigation patterns.",
+    "agent_system_prompt": "You are a specialized navigation auditor for the Generation 1 Safari Zone in Pokémon Blue. Your role is to evaluate step efficiency, verify topological route validity, and ensure the player does not circle back to previously explored dead ends or repeat redundant paths under the 500-step timer.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_position\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"x\": {\"type\": \"integer\"},\n        \"y\": {\"type\": \"integer\"}\n      },\n      \"required\": [\"x\", \"y\"]\n    },\n    \"remaining_steps\": {\"type\": \"integer\"},\n    \"destination_area\": {\"type\": \"string\"},\n    \"planned_path\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    }\n  },\n  \"required\": [\"current_position\", \"remaining_steps\", \"destination_area\", \"planned_path\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"is_route_valid\": {\"type\": \"boolean\"},\n    \"estimated_step_cost\": {\"type\": \"integer\"},\n    \"recommendations\": {\"type\": \"string\"},\n    \"warnings\": {\"type\": \"string\"}\n  },\n  \"required\": [\"is_route_valid\", \"estimated_step_cost\", \"recommendations\", \"warnings\"]\n}"
+  }
+}
