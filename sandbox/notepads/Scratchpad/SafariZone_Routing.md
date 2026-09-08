@@ -29,3 +29,4 @@
 - Turn 7811: At (16, 21) (~472 steps left). Advancing west along row 21 to survey western boundary (cols 7..12).
 - Turn 7812: At (12, 21) (~468 steps left). Path north along col 12 (rows 17..20) is verified clear open grass. Advancing north to row 17 to bypass the tree block.
 - Turn 7814: At (12, 17) (~464 steps left). Row 16 is open grass west to col 8. Stepping Up to (12, 16) and Left to (8, 16) to reach the western bypass (cols 0..7) around the pond.
+- Turn 7815: At (8, 16) (~459 steps left). Visual verification on screen: cols 4..5 rows 12..14 are open grass leading north! Stepping Down to (8, 17) and Left to (4, 17) to enter the western highway.
