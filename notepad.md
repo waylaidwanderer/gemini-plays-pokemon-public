@@ -2512,34 +2512,30 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 <h1><code>Locations/Kanto_SafariZone</code></h1>
 
-# Safari Zone - Kanto
 
-## Gatehouse & Rules
-- Entrance: Located at north Fuchsia City (cols 16..21 rows 2..5, door at (18, 3)).
-- Gatehouse Interior: Map size 8x6, entrance mat at (3..4, 5). Attendant at counter.
-- Entry Fee: ¥500.
-- Allotment: 30 Safari Balls, 500 steps.
-- Mechanics: No party battles. Encounters use BALL, BAIT, THROW (Rock), RUN. Party Pokémon cannot take damage or faint.
-
-## Key Quests & Progression Items
-- HM03 (SURF): Obtained from the man inside the Secret House in Area 3.
-- GOLD TEETH: Found on the ground outside the Secret House in Area 3 (return to Fuchsia Warden for HM04 Strength).
-- TM06 (TOXIC): Found on the ground in Area 3.
-
-## Map Connections
-- Center Area -> Area 1 (East), Area 2 (North), Area 3 (West).
-## Center Area
-- Entrance: Southern gatehouse at (14..15, 25). Player spawns at (15, 24).
-- Geography: Open lawn corridor along row 21 extending east toward Area 1. Tall grass patch to the west (cols 10..13 rows 20..23). Elevation plateau steps at (14, 22) and (18, 20).
-- Rest House 1 (Center Area): Located at cols 16..19 rows 18..19 with entrance door at (17, 19).
-- Open lawn corridor east of Rest House along col 21 (rows 17..21) bypassing the tall grass patch.
-- Central Pond: Located at cols 17..20 rows 10..13. Shoreline at col 21.
-- Path to Area 1 (East Exit): Route heads east across row 14/15 toward col 29.
 
 <hr>
 
 <h1><code>Locations/Kanto_SafariZone.md</code></h1>
 
+# Safari Zone - Kanto
 
+## Safari Zone Rules & Mechanics
+- Admission: ¥500 for 30 Safari Balls and 500 overworld steps.
+- Step Counter: Only movement in the overworld consumes steps. Wild battles, menus, and turning in place do NOT consume steps.
+- When steps expire, PA chime rings and player is automatically warped to the gatehouse.
+- Key Objectives:
+  - Secret House in Area 3: Obtain HM03 (Surf).
+  - Area 3 Item: Retrieve Gold Teeth for the Fuchsia Warden (rewards HM04 Strength).
+  - Rest Houses: Located in each area for shelter/hints.
+
+## Center Area
+- Map Size: 30x30.
+- South Exit: Gatehouse to Fuchsia City at (14..15, 25). Player spawns at (15, 24).
+- Rest House 1: Located at cols 16..19 rows 18..19, door at (17, 19).
+- Central Pond: Cols 17..20 rows 10..13. Shoreline at col 21.
+- East Exit (to Area 1): Open corridor at rows 10..11 cols 28..30. Tree wall blocks col 29 rows 12..19.
+- North Exit (to Area 2): Northern boundary (approx cols 14..15 row 0).
+- Route Progression: Clockwise traversal (Center Area -> Area 1 -> Area 2 -> Area 3).
 
 <hr>
