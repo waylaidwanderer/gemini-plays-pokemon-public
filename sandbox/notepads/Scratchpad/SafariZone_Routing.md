@@ -72,3 +72,4 @@
 - Turn 8180: Encountered wild Nidoran♀ at (12, 11). Dismissing text and moving cursor to RUN to escape.
 - Turn 8182: Selected RUN with A and cleared escape text with B, returning to overworld at (12, 11).
 - Turn 8184: Standing at (12, 11). Walking Up 4 times along col 12 to (12, 7) on the northern lawn above the pond.
+- Turn 8186: At (12, 7) facing Up. Testing Left into (11, 7) to verify if column 11 bush permits passage to western lawn at (10, 7).
