@@ -167,9 +167,9 @@
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 48, Water]
   - Status: Healthy
-  - HP: 132 / 151
+  - HP: 127 / 151
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 2/25), Body Slam (PP 5/15), Bubblebeam (PP 9/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 1/25), Body Slam (PP 5/15), Bubblebeam (PP 9/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2379,7 +2379,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fence Maze Layout (Cols 6..10):
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
-  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon 1 is Pidgey Lv 26 [Verified Turn 7077].
+  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon 1 is Pidgey Lv 26, Pokémon 2 is Pidgeotto Lv 26 [Verified Turn 7079].
 - Row 12 corridor confirmed open westward across cols 4..8 through (7, 12) and (6, 12) [Verified Turn 7075].
 
 <hr>
