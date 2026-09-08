@@ -2537,7 +2537,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
 - Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
 - Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
-- Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 18..19 across cols 24..28 (and cols 27..28 across all rows) leads north toward Area 2.
+- Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
+- Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path, making this staircase the mandatory path north to Area 2.
 
 <hr>
 
