@@ -22,3 +22,5 @@
 - Zoo Enclosure: Stone-fenced pond at cols 29..34 rows 19..22 south of the boulevard [Verified Turn 7318].
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 - Main Boulevard: Clear paved highway along row 18 extending west across cols 29..37.
+- Zoo Enclosure West Boundary: Enclosure ends at col 25 with garden patch at cols 26..27 rows 20..22 [Verified Turn 7319].
+- Central Avenue Junction: Boulevard continues west along row 18 through col 25 into the central district.
