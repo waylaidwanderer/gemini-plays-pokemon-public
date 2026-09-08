@@ -149,7 +149,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). Full Restore obtained Turn 7647.
+- Total Slots Used: 20 / 20 (Full at Turn 7667). Tossing non-essential TMs to free slots.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2536,7 +2536,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rest House 1: Located at cols 16..19 rows 18..19, door at (17, 19).
 - Central Pond: Cols 17..20 rows 10..13. Shoreline at col 21.
 - East Exit (to Area 1): Open corridor at rows 10..11 cols 28..30. Tree wall blocks col 29 rows 12..19.
-- North Exit (to Area 2): Northern boundary (approx cols 14..15 row 0).
 - Route Progression: Clockwise traversal (Center Area -> Area 1 -> Area 2 -> Area 3).
 
 ## Area 1 (East)
@@ -2547,6 +2546,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Item Ball: Located at (3, 7) on western lawn (uncollected, Bag was full at 20/20 on Turn 7667).
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
 - Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
