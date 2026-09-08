@@ -9,6 +9,7 @@
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
+- MAX POTION x1 [Obtained Turn 7695 in Safari Zone Area 1]
 
 ## Key Items (9 / 9)
 - OLD ROD
@@ -22,7 +23,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (2 slots free). NUGGET tossed Turn 7690.
+- Total Slots Used: 19 / 20 (1 slot free). MAX POTION obtained Turn 7695.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]

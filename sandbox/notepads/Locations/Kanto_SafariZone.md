@@ -25,7 +25,7 @@
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
-- Item Ball: Located at (3, 7) on western lawn (uncollected, Bag was full at 20/20 on Turn 7667).
+- Item Ball: Located at (3, 7) on western lawn - MAX POTION [Collected Turn 7695].
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
 - Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
