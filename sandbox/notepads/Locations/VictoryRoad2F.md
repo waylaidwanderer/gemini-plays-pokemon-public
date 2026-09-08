@@ -36,7 +36,6 @@
   5. Reposition to (4, 16) via (4, 15) -> (4, 16) (standing on open floor east of boulder).
   6. Stand at (4, 16) -> Push Left 2 times along row 16 onto Switch (1, 16) [Boulder at (1, 16), Player at (2, 16)].
   7. Outcome: Switch 1 activates, lowering Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-- **Pit Drop Landing**: Falling through 3F Pit drops player to 2F around (22, 16) / (23, 16).
 
 ## NW Sector & Lower Floor Access
 - SW Ladder (0, 8) connects directly to Columns 2-3 Highway via (0, 6) -> (1, 6) -> (2, 6..7).
