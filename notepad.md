@@ -60,6 +60,7 @@
 - `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
+- `Locations/IndigoPlateau`: Pok�mon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
 
 
 <hr>
@@ -2877,5 +2878,23 @@
 
 ## Field Move Execution Sequence
 - Open Start Menu -> POKÉMON (index 1) -> select ZEPHYR (Slot 4) -> Option 1: FLY -> Navigate cursor to target city -> Press A to confirm flight.
+
+<hr>
+
+<h1><code>Locations/IndigoPlateau</code></h1>
+
+# Indigo Plateau - Pok�mon League Headquarters
+
+## General Information
+- South exit: Route 23 North at (7..8, 11)
+- North passage: Elite Four entrance chamber
+
+## Points of Interest & Services
+- Entrance Carpet: (7..8, 11)
+- Pok�mon Center Counter: (5..8, 6) with Nurse Joy at (7, 5)
+- Pok�mart Counter: (10..11, 6) on the right side of the lobby
+- PC Storage Terminal: Located on the counter
+- Elite Four Entrance Guard: Guards the northern gate leading to the Elite Four gauntlet
+
 
 <hr>
