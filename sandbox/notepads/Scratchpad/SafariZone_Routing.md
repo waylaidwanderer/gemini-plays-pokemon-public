@@ -66,3 +66,4 @@
 - Turn 8197: In battle with wild Exeggcute at (28, 5). Dismissing text with B and positioning cursor on RUN.
 - Turn 8198: Cursor positioned on RUN. Pressing A to escape battle and B to return to overworld at (28, 5).
 - Turn 8199: In overworld at (28, 5). Walking Up 3 times to (28, 2) onto the row 2 clean lawn highway and Left 4 times to (24, 2) towards Area 3.
+- Turn 8200: Reached (24, 2) on row 2 northern highway with ~136 steps remaining. Leaving (25, 1) item ball to preserve bag space for Surf/Gold Teeth. Sprinting west along row 2 to (14, 2).
