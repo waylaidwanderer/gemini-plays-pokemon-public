@@ -1,9 +1,1 @@
-{
-  "party_combat_auditor": {
-    "agent_name": "party_combat_auditor",
-    "agent_description": "Audits backup party members' movesets, stats, and type advantages to formulate PP preservation and battle plans for upcoming route gauntlets.",
-    "agent_system_prompt": "You are a Pokémon Generation 1 combat and PP management auditor. Given party Pokémon stats, moves, PP, and upcoming route trainer rosters, evaluate optimal matchup assignments and switch-in strategies to conserve key moves while leveraging backup members.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_status\":{\"type\":\"string\"},\"upcoming_threats\":{\"type\":\"string\"}},\"required\":[\"party_status\",\"upcoming_threats\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendations\":{\"type\":\"string\"},\"lead_pokemon\":{\"type\":\"string\"},\"pp_conservation_notes\":{\"type\":\"string\"}},\"required\":[\"recommendations\",\"lead_pokemon\",\"pp_conservation_notes\"]}"
-  }
-}
+{}

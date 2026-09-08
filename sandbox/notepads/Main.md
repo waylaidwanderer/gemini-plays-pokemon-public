@@ -1,4 +1,3 @@
-- [x] Traverse Routes 12-15 and arrive in Fuchsia City [Turn 7314]
 # Pok��mon Blue - Journey Log
 
 

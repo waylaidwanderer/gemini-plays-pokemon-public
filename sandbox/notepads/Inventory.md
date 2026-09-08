@@ -43,18 +43,18 @@
   - Status: Healthy
   - HP: 0 / 157 [Fainted Turn 7288]
   - Stats: Attack 115, Defense 133, Speed 115, Special 117
-  - Moves: Double-Edge (PP 15/15) [Learned Turn 7274], Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
+  - Moves: Double-Edge (PP 12/15) [Learned Turn 7274], Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Fainted [Turn 7302]
   - HP: 0 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10)
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10)
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - HP: 29 / 29
   - Stats: Attack 21, Defense 16, Speed 11, Special 18
-  - Moves: Scratch (PP 35/35)
+  - Moves: Scratch (PP 34/35)
   - EXP: 1000 (331 to Lv 11)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
   - Status: Fainted [Turn 7295]
@@ -74,7 +74,7 @@
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
   - Status: Fainted [Turn 7292]
   - HP: 0 / 30
-  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
+  - Moves: Pound (PP 35/35), Hypnosis (PP 19/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
 ## PC Box 1 Pokémon
