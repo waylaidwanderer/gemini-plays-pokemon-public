@@ -72,3 +72,4 @@
 - Turn 8204: Standing at (5, 1). Bypassing tall grass via row 1 to (2, 1), Down to (2, 2), and Left across (1, 2) into (0, 2) to enter Safari Zone Area 3 with ~120 steps remaining!
 - Turn 8205: Reached western boundary corridor at (1, 2). Column 0 at rows 2..6 is a bush border. Walking Down 4 times along col 1 clean lawn to (1, 6) to scan the western edge for the Area 3 entrance.
 - Turn 8206: Reached (1, 6). Bypassing tree at (0..1, 8..9) via col 2 to (1, 10) to scan western boundary for Area 3 entrance.
+- Turn 8208: In battle with wild Nidoran♀ at (2, 7). Dismissing text with B and positioning cursor on RUN.
