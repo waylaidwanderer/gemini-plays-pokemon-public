@@ -2500,5 +2500,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28). Southern boundary is a south-facing ledge at row 31 cols 3..6.
 - Southern Lawn (Row 32): Open east-west lawn corridor along row 32 south of the Gym ledge (row 31) and north of boundary statues (row 33); dead-ends at the Route 19 shoreline (col 10).
 - Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!") and resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"). Entrance door at (22, 13) [Verified Turn 7368, 7376].
+- Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
 
 <hr>
