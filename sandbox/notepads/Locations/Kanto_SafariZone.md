@@ -21,4 +21,4 @@
 ## Area 1 (East)
 - West Exit: Center Area at (0, 22..24). Player enters at (0, 23).
 - Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
-- Geography: Row 23 blocked east of player by signpost (5, 23) and stumps/bushes (6..9, 23). Clear open lawn corridor runs along row 24 (cols 0..9+) bounded by southern hedge at row 25.
+- Geography: Row 23 has signpost (5, 23), stumps (6..7, 23), and hedge (cols 8..13+). Clear open lawn corridor runs along row 24 (cols 0..13+) bounded by southern hedge at row 25. North of row 23 hedge: row 22 open lawn and plateau with south staircase at (12, 21).
