@@ -50,17 +50,6 @@
 - Area 2 Route: Route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 ## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
-- Session Ledger:
-  - Turn 8045: Started active session with 500 / 500 steps remaining (¥500 paid Turn 8045).
-  - Turn 8047: Spoke with gatekeeper, entered Center Area at (15, 24) (499 steps remaining).
-  - Turn 8055: Confirmed walkable tree gap at (23..27, 15) across eastern tree wall.
-  - Turn 8058: Crossed east border at row 11 into Area 1 at (0, 23) (473 steps remaining).
-  - Turn 8064: Fled wild Kangaskhan battle at (17, 24) (455 steps remaining).
-  - Turn 8066: Ascended south plateau at (20, 21), crossed west to (12, 20), descended to (12, 22).
-  - Turn 8074: Fled wild Exeggcute battle at (8, 14) (424 steps remaining).
-  - Turn 8097: Breached column 20 corridor through row 4 onto row 3 northern highway.
-  - Turn 8100: Position (12, 3) on row 3 northern highway (343 steps remaining).
-  - Turn 8107: Entered Safari Zone Area 2 at (39, 31) (329 steps remaining).
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
@@ -69,7 +58,6 @@
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 32..38. Staircase at (34, 15) descends south to open lawn at (34, 16) [Verified Turn 8132].
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
-- Turn 8217 Step Baseline: Position (3, 25) at row 25 western signpost with 102 steps remaining (227 steps expended in Area 2). Discovered item ball at (19, 7).
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (2..3, 34..35) to (21, 0) [Verified Turn 8224].
 - Northern Highway: Wide 4-tile open green lawn corridor across rows 2..5 spanning cols 12..23+ heading west towards the Secret House.
