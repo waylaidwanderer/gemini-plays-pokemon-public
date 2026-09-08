@@ -2336,6 +2336,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Southern Platform at Row 82: Planks at cols 4..9 and cols 12..13, tall grass patch at cols 10..11 [Verified Turn 7004].
 - Bridge Continuation at Row 84: Railing blocks south at (4..9, 84). Open wooden bridge corridor at col 10+ continues south across rows 84..86+ over water [Verified Turn 7005].
 - Eastern Pier at Rows 90..92: Planks at cols 12..15 dead-ends at row 92 with railing over water [Verified Turn 7008].
-- Bridge Junction Rows 90..93: Cols 10..11 has tall grass across rows 90..91. Jr. Trainer ♂ Justin at (11, 92). Pre-battle: "Have you found a MOON STONE?". Main bridge continues south across cols 7..11 at rows 92..93+ [Verified Turn 7010].
+- Bridge Junction Rows 90..93: Cols 10..11 has tall grass across rows 90..91. Jr. Trainer ♂ Justin at (11, 92). Team: Nidoran♂ Lv 29, Nidorino Lv 29. Defeated on Turn 7014. Main bridge continues south across cols 7..11 at rows 92..93+ [Verified Turn 7014].
 
 <hr>
