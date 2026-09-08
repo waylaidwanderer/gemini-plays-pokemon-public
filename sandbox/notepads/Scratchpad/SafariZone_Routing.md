@@ -59,19 +59,5 @@
   - Backtrack & Direct Path to Western Staircase: Re-ascended staircase (34, 15), traversed south across eastern plateau to staircase (28, 27), and descended to southern boulevard at (28, 28). Followed row 29 west past col 25 through tall grass valley into col 22, then walked north along col 22 directly into western staircase at (22, 23).
   - True Ground Path Clarification: From Area 2 entrance at (39, 31), the direct path to Area 3 does NOT ascend eastern plateau at (28, 27). Instead, follow row 29/30 boulevard west past col 26, turn north into column 22 tall grass valley at (22, 29), and ascend staircase (22, 23) onto the western plateau.
   - Step Reconciliation: The circuitous survey loop expended 113 steps within Area 2 (entering at 329, arriving at 216). Active step baseline at Turn 8162: Position (22, 22) on western plateau with ~216 steps remaining. Projected steps to Area 3 entrance: ~23 steps (reaching Area 3 with ~193 steps remaining).
-- Turn 8164: Standing at (18, 22) on western plateau. Traversing Left 2 times to col 16 and Down 4 times along ridge to (16, 26).
-- Turn 8165: At (16, 26). Descending staircase (16, 27) onto southern boulevard and walking west along row 30 lawn to (12, 30).
-- Turn 8167: Standing at (12, 30). Walking Left 4 times along row 30 lawn to (8, 30) towards Rest House 3.
-- Turn 8170: At (8, 30). Confirmed columns 6..7 form open north-bound tall grass corridor. Walking Left to col 6 and Up along col 6 to (6, 26).
-- Turn 8172: Standing at (6, 26). Walking Up 4 times along col 6 corridor to (6, 22) on northern promenade.
-- Turn 8173: Reached (6, 22). Pond at (4..7, 18..19) blocks direct northwest path; col 8 is open lawn heading north past pond. Moving Up to row 21, Right to col 8, and Up along col 8 to (8, 18).
-- Turn 8175: Standing at (8, 18). Walking Up 4 times along col 8 to (8, 14) to clear the pond and reach the northern promenade to Area 3.
-- Turn 8177: At (8, 14) facing Up. Testing Up into (8, 13) to determine if shoreline tile allows passage.
-- Turn 8178: (8, 13) confirmed solid water shoreline. Testing Left from (8, 14) into (7, 14) to see if shoreline corner permits passage into (7, 13).
-- Turn 8179: (7, 14) confirmed solid. Both shoreline tiles block the diagonal gap. Moving Right 4 times to col 12 and Up 4 times to (12, 10) to bypass northern pond via eastern corridor.
-- Turn 8180: Encountered wild Nidoran♀ at (12, 11). Dismissing text and moving cursor to RUN to escape.
-- Turn 8182: Selected RUN with A and cleared escape text with B, returning to overworld at (12, 11).
-- Turn 8184: Standing at (12, 11). Walking Up 4 times along col 12 to (12, 7) on the northern lawn above the pond.
-- Turn 8186: At (12, 7) facing Up. Testing Left into (11, 7) to verify if column 11 bush permits passage to western lawn at (10, 7).
-- Turn 8188: At (12, 7). Walking Up 2 times to (12, 5) to survey northern promenade and path around row 4 hedge.
-- Turn 8189: Reached (12, 5). Row 4 bush hedge blocks north at cols 11..15; rows 1..3 is open promenade above. Moving Down to (12, 6) and Right to (17, 6) to bypass tree via col 18.
+- Turns 8164-8189: Descended western plateau staircase at (16, 27) to southern boulevard (16, 28). Traversed west along row 30 past pond, up col 6 corridor to (6, 22). Bypassed southern pond via cols 8..12 past (8, 18) and (12, 11) (escaped wild Nidoran♀). Reached northern lawn at (12, 7). Tested (11, 7) (solid bush). Advanced to (17, 6) surveying east side.
+- Turn 8191: Position (17, 6). Active step baseline: ~155 steps remaining (174 steps expended in Area 2). Discovered item ball at (19, 7). Row 4 is a solid tree/bush hedge across cols 13..22; row 6/18 does not connect north to row 3. Retrieving item ball at (19, 7).
