@@ -117,6 +117,7 @@
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Poké Flute [Turn 6981]
 
 
+- [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 
 <hr>
 
