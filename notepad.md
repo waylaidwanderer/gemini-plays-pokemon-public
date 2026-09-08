@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Gauntlet Conquered (Lorelei, Bruno, Agatha, Lance Defeated); Champion Battle against RED Active in Champion Chamber!
+- League Status: Conquering Champion RED; Full Party Healed (HYDROS Lv 83 285/285 HP, Full PP); Executing Final Championship Sweep Run!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 83
-   - Stats: Max HP 285 (HP: 69/285), Attack 202, Defense 224, Speed 205, Special 212
+   - Stats: Max HP 285 (HP: 285/285), Attack 202, Defense 224, Speed 205, Special 212
    - Type: Water
-   - Moves: Double-Edge (7/15), Ice Beam (1/10), Bite (24/25), Surf (3/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)

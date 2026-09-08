@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Gauntlet Conquered (Lorelei, Bruno, Agatha, Lance Defeated); Champion Battle against RED Active in Champion Chamber!
+- League Status: Conquering Champion RED; Full Party Healed (HYDROS Lv 83 285/285 HP, Full PP); Executing Final Championship Sweep Run!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
