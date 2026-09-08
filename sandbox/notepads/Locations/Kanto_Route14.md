@@ -7,6 +7,6 @@
 ## Geography & Layout
 - Entrance Corridor (Row 4): Horizontal corridor extending west from col 19 to col 4 bounded north by row 3 fence, south by row 5 fence, and west by col 3 rock cliff [Verified Turn 7152].
 - Row 5 fence runs solid from col 19 to col 6; opening at cols 4..5 connects row 4 to row 6 corridor [Verified Turn 7152].
-- Trainer/NPC at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good..." [Turn 7153].
+- Bird Keeper at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good moves to POKéMON!". Team: 3 Pokémon [Turn 7154].
 - Col 3 is vertical rock cliff dividing eastern corridors from western wild grass patch (cols 1..2) [Verified Turn 7152].
 - NPC at (15, 6) is in row 6 corridor below row 5 fence; line of sight to row 4 is blocked by fence [Verified Turn 7149].
