@@ -1,19 +1,15 @@
 # Indigo Plateau & Pokémon League HQ
 
 ## Building Layout & Points of Interest
-- **Reception Lobby**:
+- **Indigo Plateau Facility (Entrance at (13, 25) on Route 23 exterior)**:
   - Entrance Mat (South): Rows 7-8 at `(3..4, 7)`, exits south to Route 23 exterior at `(13, 25)`.
   - Nurse Joy Counter: Located at `(3, 1)` with counter at `(3, 2)` (approach from `(3, 3)` facing UP). Heals party to 100% HP/PP and sets respawn point to Indigo Plateau.
   - Chansey: Located at `(1, 3)`.
   - PC Terminal: Located at `(13, 3)` with table at `(13, 4)`.
-  - Cable Club Attendant: Located at `(11, 2)` between gold gates at `(10, 2)` and `(12, 2)`.
-  - Row 2 Counter Barrier: Continuous counter barrier spanning `(0..9, 2)` and `(13, 2)`.
-  - NPC at `(0, 4..5)`: NPC standing on west wall.
-  - NPC at `(11, 7)`: NPC standing on south-east wall.
-
-## Route 23 Exterior & League Access
-- Pokémon Center Reception Building: Located at `(12..15, 22..25)` on Route 23 exterior with door at `(13, 25)`.
-- Exterior stairs: Located at `(9, 28..29)`.
+  - Attendant at `(11, 2)`.
+  - Row 2 Counter Barrier: Spans across `(0..9, 2)` and `(13, 2)`.
+  - NPCs at `(0, 4..5)` and `(11, 7)`.
+  - Elite Four Entrance: Northern passage inside Indigo Plateau facility leading into Room 1 (Lorelei).
 
 ## Gauntlet Mechanics & Reset Protocol
 - **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
@@ -24,7 +20,7 @@
 1. **Room 1: Lorelei (Ice / Water Specialist)**
    - Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
    - Sweep Strategy: Double-Edge on Dewgong, Jynx, Lapras; Surf/Double-Edge on Cloyster; Bite/Double-Edge on Slowbro.
-   - Status: REMATCH PENDING
+   - Status: REMATCH READY
 
 2. **Room 2: Bruno (Fighting / Rock Specialist)**
    - Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58.
