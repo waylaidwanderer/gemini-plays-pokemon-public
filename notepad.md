@@ -2679,5 +2679,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8217: Standing at (3, 25) reading signpost at (4, 25). Active step baseline: 102 steps remaining (227 steps expended in Area 2). Advancing dialogue.
 - Turn 8220: Read signpost at (4, 25): 'TRAINER TIPS / The SECRET HOUSE / is still ahead!'. Confirms path to Area 3 is directly ahead. Active step baseline: 102 steps remaining.
 - Turn 8221: Walked Down 4 times along col 3 from (3, 25) to (3, 29). Open lawn corridor continues south. Remaining steps: 98.
+- Turn 8223: Standing at (3, 33) directly above the southern gate at (2..3, 34..35) flanked by statues. Walking Down 3 times into row 36 to enter Safari Zone Area 3 (West) with ~91 steps remaining!
 
 <hr>
