@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: �73518
+- Money: �74218
 - Pok��dex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
 
 
@@ -162,7 +162,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥73518 [Turn 7250]
+- ¥74218 [Turn 7271]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
