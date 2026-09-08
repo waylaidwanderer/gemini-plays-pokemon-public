@@ -2737,6 +2737,10 @@
 - **Column 28 Avenue**: Spans rows 11 through 16 along column 28, connecting Row 16 at (28, 16) north to (28, 11) directly facing the Exit Shutter at (28, 10).
 - **Exit Shutter & NE Ladder**: Exit Shutter at (28, 10) blocks entrance into the NE Room (cols 26-29, rows 7-9) containing Ladder NE at (27, 7) which ascends to 3F Exit Room towards Indigo Plateau.
 - **Switch 2 @ (9, 16)**: Sits at the western terminus of Row 16 highway, connecting directly north via Column 9 into the Central Chamber.
+## Central Chamber Topology (Verified Turn 36715)
+- **Central Corridor (cols 9-11, rows 11-16)**: Connects Switch 2 at (9, 16) north along column 9 to (9, 11).
+- **Row 10 Rock Divider (cols 6-12, row 10)**: Solid horizontal rock barrier dividing Central Chamber (row 11) from northern purple corridor (row 8).
+- **Passage to Western Sector**: Row 11 dark checkerboard floor spans across (5..7, 11), connecting directly to lowered Shutter 1 at (5, 10).
 
 <hr>
 
