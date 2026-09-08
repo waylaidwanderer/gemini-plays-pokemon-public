@@ -2686,5 +2686,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8227: Start menu open. Safari Zone counter displays '14/500' (exactly 14 steps remaining in this session!). Opening ITEM menu via Down, Down, A to inspect bag contents and toss/use items to free inventory space.
 - Turn 8232: Submenu open on TM02 with USE/TOSS. Pressing Down to select TOSS and A to initiate tossing TM02.
 - Turn 8233: Quantity box '×01' open. Pressing A to confirm quantity 1 and A to select YES to toss TM02.
+- Turn 8234: Selected YES to toss TM02. Pressing A to confirm toss, followed by B, B, B to exit menus to overworld at (19, 6).
 
 <hr>
