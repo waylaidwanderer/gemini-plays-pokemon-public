@@ -7,7 +7,6 @@
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
 - NUGGET x1
-- TM07 (HORN DRILL) x1
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
@@ -24,7 +23,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Full at Turn 7667). Tossing non-essential TMs to free slots.
+- Total Slots Used: 19 / 20 (1 slot free). TM07 tossed Turn 7683.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
