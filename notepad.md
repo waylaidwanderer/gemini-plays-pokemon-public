@@ -138,8 +138,9 @@
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 
-## Key Items (8 / 8)
+## Key Items (9 / 9)
 - OLD ROD
+- SUPER ROD [Obtained Turn 7001]
 - HM01 (CUT)
 - HM05 (FLASH)
 - BICYCLE
@@ -149,7 +150,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). Verified in-game Turn 6802.
+- Total Slots Used: 20 / 20 (0 slots free - Bag Full). Verified Turn 7001.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2331,5 +2332,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fishing Guru's Brother's Cottage: Located at cols 10..13, rows 76..77. Front door at (11, 77). North approach blocked by railing at (10..13, 74) and water at (10..13, 75); bypass dock is to the east at cols 14..15 [Verified Turn 6986].
 - Rocker Trainer (Luca): Stationed at (14, 76) facing North. Engaged at (14, 73). Pokémon: Voltorb Lv 29, Electrode Lv 29. Defeated on Turn 6993 [Verified Turn 6993].
 - Fishing Guru's Brother's Cottage Interior: Entrance mat at (2..3, 7). Fishing Guru's brother sitting at (2, 4) facing South [Verified Turn 6998].
+- Cottage Southern Bypass: Fence blocks south at (6..15, 79). Open wooden pier corridor at cols 4..5 connects row 78 down across rows 79..82 over water [Verified Turn 7004].
+- Southern Platform at Row 82: Planks at cols 4..9 and cols 12..13, tall grass patch at cols 10..11 [Verified Turn 7004].
 
 <hr>
