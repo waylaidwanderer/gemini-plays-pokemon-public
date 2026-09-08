@@ -42,9 +42,9 @@
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 47, Water]
   - Status: Healthy
-  - HP: 147 / 147
+  - HP: 142 / 147
   - Stats: Attack 106, Defense 124, Speed 106, Special 109
-  - Moves: Bite (PP 10/25), Body Slam (PP 7/15), Bubblebeam (PP 12/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 10/25), Body Slam (PP 7/15), Bubblebeam (PP 11/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
