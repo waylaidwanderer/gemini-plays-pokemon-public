@@ -13,8 +13,9 @@
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 
-## Key Items (8 / 8)
+## Key Items (9 / 9)
 - OLD ROD
+- SUPER ROD [Obtained Turn 7001]
 - HM01 (CUT)
 - HM05 (FLASH)
 - BICYCLE
@@ -24,7 +25,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). Verified in-game Turn 6802.
+- Total Slots Used: 20 / 20 (0 slots free - Bag Full). Verified Turn 7001.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
