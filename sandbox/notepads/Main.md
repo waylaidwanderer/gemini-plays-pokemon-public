@@ -5,13 +5,13 @@
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
 
 ## Notepads Index
-- `Team`: Current party roster, battle stats, move sets, boxed Pok√©mon, capture equipment
+- `Team`: Current party roster, battle stats, move sets, boxed PokÈ√©mon, capture equipment
 - `Quests`: Story progression checklist and completed badge milestones
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Viridian Forest layout, Bug Catchers, item locations
-- `Locations/PewterCity`: Pewter City points of interest, Pok√©mon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, PokÈ√©mon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F tunnels, ladder transitions
@@ -29,19 +29,19 @@
 - `Locations/SSAnneB1F`: S.S. Anne B1F layout, Sailors, Fishermen, items
 - `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
 - `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pok√©mon Center, Jr. Trainer Carol battle
+- `Locations/Route10`: Route 10 layout, PokÈ√©mon Center, Jr. Trainer Carol battle
 - `Locations/RockTunnel1F`: Rock Tunnel 1F layout, standardized ladder matrix, trainers
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladder connectivity matrix, exit ladder
-- `Locations/LavenderTown`: Lavender Town layout, buildings, Pok√©mon Tower, Name Rater, Pok√©mart
+- `Locations/LavenderTown`: Lavender Town layout, buildings, PokÈ√©mon Tower, Name Rater, PokÈ√©mart
 - `Locations/Route7`: Route 7 layout, Underground Path exit, tall grass, Celadon/Saffron connections
 - `Locations/Route8`: Route 8 layout, trainer gauntlet, Underground Path entrance, connections
-- `Locations/PokemonTower1F`: Pok√©mon Tower 1F layout, mourning NPCs, ascending stairs
-- `Locations/PokemonTower2F`: Pok√©mon Tower 2F layout, Rival RED battle, Channeler dialogue
-- `Locations/PokemonTower3F`: Pok√©mon Tower 3F layout, Channelers, ascending stairs
-- `Locations/PokemonTower4F`: Pok√©mon Tower 4F layout, items, Channelers
-- `Locations/PokemonTower5F`: Pok√©mon Tower 5F layout, Purified Zone healing tile, Channelers
-- `Locations/PokemonTower6F`: Pok√©mon Tower 6F layout, Ghost Marowak battle, stairs
-- `Locations/PokemonTower7F`: Pok√©mon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
+- `Locations/PokÈemonTower1F`: PokÈ√©mon Tower 1F layout, mourning NPCs, ascending stairs
+- `Locations/PokÈemonTower2F`: PokÈ√©mon Tower 2F layout, Rival RED battle, Channeler dialogue
+- `Locations/PokÈemonTower3F`: PokÈ√©mon Tower 3F layout, Channelers, ascending stairs
+- `Locations/PokÈemonTower4F`: PokÈ√©mon Tower 4F layout, items, Channelers
+- `Locations/PokÈemonTower5F`: PokÈ√©mon Tower 5F layout, Purified Zone healing tile, Channelers
+- `Locations/PokÈemonTower6F`: PokÈ√©mon Tower 6F layout, Ghost Marowak battle, stairs
+- `Locations/PokÈemonTower7F`: PokÈ√©mon Tower 7F layout, Team Rocket grunts, Mr. Fuji rescue
 - `Locations/Route12`: Route 12 layout, Gatehouse, Sleeping Snorlax roadblock
 - `Locations/CeladonCity`: Celadon City points of interest, Dept Store, Mansion, Game Corner
 - `Locations/RocketHideoutB1F`: Rocket Hideout B1F layout, Grunts, hidden stairs
@@ -58,4 +58,4 @@
 - `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
 - `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
 - `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
-- `Locations/IndigoPlateau`: PokÔøΩmon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate
+- `Locations/IndigoPlateau`: PokÈÔøΩmon League HQ lobby layout, Nurse Joy healing counter, Mart, PC, Elite Four gate

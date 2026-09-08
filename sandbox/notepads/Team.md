@@ -1,18 +1,18 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 74
-   - Stats: Max HP 252 (HP: ~44/252), Attack 178, Defense 197, Speed 180, Special 187
+1. HYDROS (Blastoise) - Lv 75
+   - Stats: Max HP 256 (HP: 68/256), Attack 180, Defense 200, Speed 183, Special 190
    - Type: Water
-   - Moves: Double-Edge (10/15), Ice Beam (5/10), Bite (21/25), Surf (3/15)
+   - Moves: Double-Edge (5/15), Ice Beam (0/10), Bite (21/25), Surf (2/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54 - Healthy)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
-3. TERRA (Geodude) - Lv 22
-   - Stats: Max HP 56 (HP: 56/56 - Healthy)
+3. TERRA (Geodude) - Lv 24
+   - Stats: Max HP 60 (HP: 57/60 - Healthy)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig utility & Rock/Ground backup (Slot 3)
@@ -34,12 +34,13 @@
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Pokï¿½ Flute, Silph Scope, Good Rod, Secret Key
+- Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
+- Restoratives: 1x Revive remaining
 
-## Elite Four Gauntlet Remaining PP Audit
-- Total Remaining Sweeper PP: 39 PP
-  - Double-Edge: 10/15 PP
-  - Ice Beam: 5/10 PP (Key vs Lance's Dragonite/Dragonairs/Aerodactyl & Rival's Pidgeot/Venusaur/Rhydon)
+## Elite Four & Champion Gauntlet Remaining PP Audit
+- Total Remaining Sweeper PP: 28 PP
+  - Double-Edge: 5/15 PP
+  - Ice Beam: 0/10 PP (Used to sweep Lance's dragons & Pidgeot)
   - Bite: 21/25 PP
-  - Surf: 3/15 PP (Key vs Lance's Aerodactyl/Gyarados & Rival's Rhydon/Arcanine/Charizard)
+  - Surf: 2/15 PP (Used to sweep Bruno, Rhydon; 2 PP remaining for Arcanine & reserve)
