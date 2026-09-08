@@ -62,15 +62,15 @@
   4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
 
 ## Verified Move Menu Mapping & Lorelei Execution Safeguards
-- HYDROS Move Layout (Lv 80 Blastoise):
-  - Slot 1: Double-Edge (Normal physical, 100 Power, 100 Acc) - Default cursor (Top-Left)
-  - Slot 2: Ice Beam (Ice special, 95 Power, 100 Acc) - `Down` 1 (Bottom-Left)
-  - Slot 3: Bite (Normal physical, 60 Power, 100 Acc) - `Right` 1 (Top-Right)
-  - Slot 4: Surf (Water special STAB, 95 Power, 100 Acc) - `Down` 1, `Right` 1 (Bottom-Right)
+- HYDROS Move Layout (Lv 80 Blastoise) - VERTICAL 1-COLUMN LIST:
+  - Slot 1: Double-Edge (Normal physical, 100 Power, 100 Acc) - Default cursor at top (index 0) -> Press `A`
+  - Slot 2: Ice Beam (Ice special, 95 Power, 100 Acc) - Index 1 -> Press `Down` 1 time, then `A`
+  - Slot 3: Bite (Normal physical, 60 Power, 100 Acc) - Index 2 -> Press `Down` 2 times, then `A`
+  - Slot 4: Surf (Water special STAB, 95 Power, 100 Acc) - Index 3 -> Press `Down` 3 times, then `A`
 
 - Lorelei Matchup Execution (Room 1):
-  1. Dewgong Lv 54 (83 Def / 83 Spc): STAB Surf (Slot 4: Down, Right, A) or Double-Edge (Slot 1: A) (2HKO)
-  2. Cloyster Lv 53 (177 Def / 90 Spc): STAB Surf (Slot 4: Down, Right, A) (2HKO vs 90 Spc; never use physical moves vs 177 Def!)
-  3. Slowbro Lv 54 (94 Def / 74 Spc): Double-Edge (Slot 1: A) or STAB Surf (2HKO)
-  4. Jynx Lv 56 (44 Def / 84 Spc): Double-Edge (Slot 1: A - OHKO vs 44 Def!)
-  5. Lapras Lv 56 (76 Def / 90 Spc): Double-Edge (Slot 1: A) + STAB Surf finisher (Slot 4: Down, Right, A) (2HKO)
+  1. Dewgong Lv 54 (83 Def / 83 Spc): STAB Surf (Slot 4: Down 3, A) or Double-Edge (Slot 1: A) (2HKO)
+  2. Cloyster Lv 53 (177 Def / 90 Spc): STAB Surf (Slot 4: Down 3, A) (2HKO vs 90 Spc; never use physical moves vs 177 Def!)
+  3. Slowbro Lv 54 (94 Def / 74 Spc): Double-Edge (Slot 1: A) or STAB Surf (Slot 4: Down 3, A) (2HKO)
+  4. Jynx Lv 56 (44 Def / 84 Spc): Double-Edge (Slot 1: A - Guaranteed OHKO vs 44 Def!)
+  5. Lapras Lv 56 (76 Def / 90 Spc): Double-Edge (Slot 1: A) + STAB Surf finisher (Slot 4: Down 3, A) (2HKO)
