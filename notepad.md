@@ -2665,5 +2665,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8175: Standing at (8, 18). Walking Up 4 times along col 8 to (8, 14) to clear the pond and reach the northern promenade to Area 3.
 - Turn 8177: At (8, 14) facing Up. Testing Up into (8, 13) to determine if shoreline tile allows passage.
 - Turn 8178: (8, 13) confirmed solid water shoreline. Testing Left from (8, 14) into (7, 14) to see if shoreline corner permits passage into (7, 13).
+- Turn 8179: (7, 14) confirmed solid. Both shoreline tiles block the diagonal gap. Moving Right 4 times to col 12 and Up 4 times to (12, 10) to bypass northern pond via eastern corridor.
 
 <hr>
