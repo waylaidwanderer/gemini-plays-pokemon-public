@@ -32,4 +32,4 @@
 - Fence Maze Layout (Cols 6..10):
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
-  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon 1 is Pidgey Lv 26, Pokémon 2 is Pidgeotto Lv 26 [Verified Turn 7079].
+  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon 1 is Pidgey Lv 26, Pokémon 2 is Pidgeotto Lv 26, Pokémon 3 is Spearow Lv 26 [Verified Turn 7082].

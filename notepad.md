@@ -167,9 +167,9 @@
 ## Party Pok�mon
 - BLASTOISE (Nickname: SHELDON) [Lv 48, Water]
   - Status: Healthy
-  - HP: 127 / 151
+  - HP: 122 / 151
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 1/25), Body Slam (PP 5/15), Bubblebeam (PP 9/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 1/25), Body Slam (PP 5/15), Bubblebeam (PP 8/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2371,7 +2371,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Jr. Trainer ♀ at (23, 10): Stationed at (23, 10) facing West. Line: "My cute POKéMON wish to make your acquaintance.". Engaged at (22, 10). Pokémon: Pidgey Lv 27, Meowth Lv 27, Pidgey Lv 27, Pidgeotto Lv 27. Defeated on Turn 7070 [Verified Turn 7070].
 - Row 12 dead-ends at col 16/17: blocked west by fence at (16, 12) and south by alcove at (17, 13..14) [Verified Turn 7061].
 - Northern bypass connection: Row 11 has open gap at (22..23, 11) connecting row 12 to row 10. Row 10 extends west across cols 15..22+ [Verified Turn 7061].
-- Row 10 corridor extends west from (22, 10) through (14..18, 10)+ bounded north by row 9 fence and south by row 11 fence. Signpost visible at (15, 13) [Verified Turn 7072].
 - Fence Maze Layout (Cols 10..14):
   - Row 10 corridor continues west across cols 10..14 bounded north by row 9 fence and south by row 11 fence [Verified Turn 7073].
   - Gap in row 9 fence at (13, 9) opens north to row 8 corridor.
@@ -2379,7 +2378,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fence Maze Layout (Cols 6..10):
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
-  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon 1 is Pidgey Lv 26, Pokémon 2 is Pidgeotto Lv 26 [Verified Turn 7079].
-- Row 12 corridor confirmed open westward across cols 4..8 through (7, 12) and (6, 12) [Verified Turn 7075].
+  - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon 1 is Pidgey Lv 26, Pokémon 2 is Pidgeotto Lv 26, Pokémon 3 is Spearow Lv 26 [Verified Turn 7082].
 
 <hr>
