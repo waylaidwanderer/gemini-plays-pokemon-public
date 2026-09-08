@@ -70,33 +70,33 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 80
-   - Stats: Max HP 274 (HP: 0/274 - Fainted)
+   - Stats: Max HP 274 (HP: 274/274), Attack 193, Defense 213, Speed 195, Special 203
    - Type: Water
-   - Moves: Double-Edge (13/15), Ice Beam (4/10), Bite (25/25), Surf (2/15)
-   - Status: Fainted
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Status: Healthy
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 0/54 - Fainted)
+   - Stats: Max HP 54 (HP: 54/54)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 0/60 - Fainted in Agatha Room 3)
+   - Stats: Max HP 60 (HP: 60/60)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig utility (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
-   - Stats: Max HP 61 (HP: 0/61 - Fainted)
+   - Stats: Max HP 61 (HP: 61/61)
    - Type: Normal / Flying
-   - Moves: Fly (13/15), Sand-Attack, Quick Attack, Whirlwind
+   - Moves: Fly (15/15), Sand-Attack, Quick Attack, Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 63 (HP: 63/63 - Active in Room 3 vs Gengar)
+   - Stats: Max HP 63 (HP: 63/63)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall (Slot 5)
 6. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 46/46 - Healthy)
+   - Stats: Max HP 46 (HP: 46/46)
    - Type: Grass / Poison
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Cut utility (Slot 6)
