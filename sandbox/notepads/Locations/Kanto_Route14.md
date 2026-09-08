@@ -20,3 +20,4 @@
 - Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
 - Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
+- Trainer at (15, 30): Stationed east of road at (15, 30) facing West [Observed Turn 7186].
