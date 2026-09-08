@@ -2599,5 +2599,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7801: Advanced to (15, 16) (~492 steps left).
 - Visual confirmation: Row 15 fence ends at col 19. (20, 15) and (20, 14) are open grass, enabling bypass to eastern sector.
 - Turn 7804: Advanced to (21, 14) (~484 steps left). Testing north tile (21, 13) at shoreline.
+- Turn 7805: Verified (21, 13) is solid water collision. North access via col 21 is blocked.
+- Routing Realization: Area 1 entrance is via southern corridor (rows 21..24) east of Rest House 1, matching the verified Area 1 West Exit at (0, 22..23). Moving south along col 21.
 
 <hr>
