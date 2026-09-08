@@ -25,6 +25,7 @@
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Plateau North Cliff Edge at (17, 4): Impassable solid cliff edge verified Turn 7728; rock plateau cannot be exited northward directly onto row 3 lawn.
 - Signpost: Located at (6, 4) in northern corridor.
 - Plateau Western Cliff Corner at (10, 4): Impassable solid cliff edge verified Turn 7702; rock plateau cannot be exited westward directly onto row 4 lawn.
 - Item Ball: Located at (3, 7) on western lawn - MAX POTION [Collected Turn 7695].
