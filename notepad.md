@@ -2662,5 +2662,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8140: At (22, 19). Verified col 26 is an open north-south lawn corridor (rows 19..23+). Moving east to (26, 19) and south along col 26 to (26, 23) to loop around the cliff to the (22, 23) staircase approach.
 - Turn 8141: At (26, 23). Testing Down into (26, 24) to verify if the diagonal cliff corner tile is passable to access (25, 24) and the (22, 23) staircase.
 - Turn 8143: Testing Left from (26, 23) into (25, 23). If impassable, the pinch is closed and we initiate the backtrack to (34, 15).
+- Turn 8144: Confirmed (25, 23) is solid cliff. Diagonal pinch is impassable; northern lawn is an enclosed basin. Executing backtrack via staircase (34, 15) to traverse eastern plateau to southern boulevard and access (22, 23) from the south.
 
 <hr>
