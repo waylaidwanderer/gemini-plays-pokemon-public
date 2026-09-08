@@ -2,6 +2,7 @@
 
 ## Connections
 - East: Route 13 at (19, 4) <-> Route 13 (0, 4) [Verified Turn 7148].
+- West: Route 15 at col 0, rows 46..47 [Verified Turn 7219].
 - South / West: Leads toward Route 15 and Fuchsia City.
 
 ## Geography & Layout
