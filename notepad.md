@@ -2571,16 +2571,20 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 - Session Ledger:
-  - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
-  - Turn 7883: Exactly 361 / 500 steps remaining (verified at 4, 17).
-  - Turn 7900: Re-entered Area 1 at (0, 23) (~338 steps remaining).
-  - Turn 7982: Position (20, 20) on Area 1 plateau -> ~243 steps remaining.
-  - Turn 8007: Entered Safari Zone Area 2 at (39, 31) (149 steps remaining).
-  - Turn 8011: Position (27, 31) in Area 2 tall grass -> 137 steps remaining.
+  - Turn 8045: Started active session with 500 / 500 steps remaining (¥500 paid Turn 8045).
+  - Turn 8047: Spoke with gatekeeper, entered Center Area at (15, 24) (499 steps remaining).
+  - Turn 8055: Confirmed walkable tree gap at (23..27, 15) across eastern tree wall.
+  - Turn 8058: Crossed east border at row 11 into Area 1 at (0, 23) (473 steps remaining).
+  - Turn 8064: Fled wild Kangaskhan battle at (17, 24) (455 steps remaining).
+  - Turn 8066: Ascended south plateau at (20, 21), crossed west to (12, 20), descended to (12, 22).
+  - Turn 8074: Fled wild Exeggcute battle at (8, 14) (424 steps remaining).
+  - Turn 8097: Breached column 20 corridor through row 4 onto row 3 northern highway.
+  - Turn 8100: Position (12, 3) on row 3 northern highway (343 steps remaining).
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
+
 
 <hr>
 
@@ -2634,9 +2638,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8058: Enter Area 1 at (0, 23) (473 steps).
 - Turn 8064: Escape Kangaskhan battle at (17, 24) (455 steps).
 - Turn 8066: Ascend south plateau at (20, 21), cross to (12, 20), descend to (12, 22).
-- Turn 8071: At (9, 17) on western lawn corridor (~430 steps remaining).
-- Target to Area 2 entry: ~375 steps remaining.
-- Target to Area 3 entry: ~310 steps remaining.
+- Turn 8074: Escape Exeggcute battle at (8, 14) (424 steps).
+- Turn 8097: Reach (20, 4) on column 20, breach onto row 3 highway.
+- Turn 8100: At (12, 3) on row 3 northern highway (343 steps remaining).
+- Target to Area 2 entry at (0, 5): ~14 steps -> ~329 steps remaining upon entering Area 2.
+- Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
 
 
 <hr>
