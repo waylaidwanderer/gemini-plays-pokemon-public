@@ -2,7 +2,7 @@
 
 ## Current Session (Turn 7795 Re-Entry)
 - Step Allowance: 500 steps (started Turn 7795)
-- Current Position: (14, 23) (~395 steps left)
+- Current Position: (23, 15) (~339 steps left; 361 confirmed at Turn 7883)
 - Mission: Retrieve HM03 Surf (Secret House) and Gold Teeth in Area 3
 
 ## Verified Topological Constraints (Center Area)
@@ -20,3 +20,4 @@
   2. Advance east through open gap at (20, 15..16) past Rest House 1.
   3. Proceed east along row 14/15 past col 21 to survey eastern corridor (cols 22-29).
   4. Ascend north along eastern corridor to rows 10..11 to cross into Area 1.
+- Turn 7890: Confirmed walkable passage through tree wall at (23, 15). Testing eastbound tiles into col 28 corridor.

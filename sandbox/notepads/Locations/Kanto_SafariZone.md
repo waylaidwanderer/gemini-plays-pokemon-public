@@ -10,6 +10,8 @@
   - Rest Houses: Located in each area for shelter/hints.
 
 ## Center Area
+- Signpost at (14, 22): 'TRAINER TIPS / Press the START / Button to check / remaining time!' [Verified Turn 7864].
+- Tree Gap at (23, 15): Confirmed walkable tile through eastern tree wall [Verified Turn 7890].
 - Row 9 Bush Collision at (22, 9): Tested Turn 7767; solid impassable collision.
 - Map Size: 30x30.
 - South Exit: Stepping Down from row 25 fence opening (14..15, 25) into row 26 triggers warp to Safari Zone Gatehouse at (4, 0) [Verified Turn 7785].
@@ -40,7 +42,7 @@
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
 - Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
-- Southern Barrier (Rows 15-16): Continuous barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across the entire western and central sectors.
+- Southern Barrier (Rows 15-16): Barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across cols 0-19. Columns 20..22 is an open grass passage connecting the southern and northern sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 ## Step Budget & Timer (Verified Mechanics)
