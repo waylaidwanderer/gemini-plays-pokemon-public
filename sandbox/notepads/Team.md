@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 75
-   - Stats: Max HP 256 (HP: 256/256 - Fully Restored!), Attack 180, Defense 200, Speed 183, Special 190
+1. HYDROS (Blastoise) - Lv 76
+   - Stats: Max HP 260 (HP: 181/260), Attack 183, Defense 202, Speed 186, Special 193
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (12/15), Ice Beam (9/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54 - Healthy)
@@ -34,6 +34,5 @@
 
 ## Inventory & Resources
 - Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Poké� Flute, Silph Scope, Good Rod, Secret Key
+- Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
 - HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
-- Funds: �¥50,000+ available for supplies at Indigo Plateau Mart
