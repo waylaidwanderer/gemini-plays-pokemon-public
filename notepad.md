@@ -2667,10 +2667,6 @@
   - Verify Shutter (28, 10) state -> Walk East along Row 16 to (28, 16) -> North along Col 28 through lowered Shutter (28, 10) to (28, 9) -> Left to (27, 9) -> North to (27, 7) (Ladder NE).
   - Ascend Ladder NE at (27, 7) to 3F Exit Room -> Walk North to Indigo Plateau!
 
-## 2F Dual Switch Progression (Turn 36929)
-- Pit Boulder successfully pushed onto Switch 2 at (9, 16), lowering Shutter 2 at (15, 15).
-- Navigating through (15, 15) to SW Room to push Boulder 1 onto Switch 1 at (1, 16).
-
 <hr>
 
 <h1><code>Locations/VictoryRoad2F</code></h1>
