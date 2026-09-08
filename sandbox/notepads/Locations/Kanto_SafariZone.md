@@ -54,3 +54,5 @@
   - Turn 7883: Exactly 361 / 500 steps remaining (verified at 4, 17).
   - Turn 7900: Re-entered Area 1 at (0, 23) (~338 steps remaining).
   - Turn 7982: Current position (20, 20) on plateau -> ~243 steps remaining.
+
+- Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
