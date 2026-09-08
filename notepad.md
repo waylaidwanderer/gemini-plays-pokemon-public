@@ -2367,7 +2367,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fence Maze Layout (Cols 23..27):
   - Row 10 ends at col 25: blocked to the west by vertical fence at (24, 9..11).
   - Southward bypass at col 25: open gap through (25, 11) to row 12 corridor at (25, 12) [Verified Turn 7058].
-  - Row 12 corridor extends west through (21..25, 12) bounded by row 13 fence.
-  - Female NPC sighted at (23, 10) facing South toward (23, 12) [Observed Turn 7058].
+  - Row 12 corridor extends west across cols 19..25 bounded south by row 13 fence and north by row 11 fence (cols 19..21) [Verified Turn 7060].
+  - Female NPC at (23, 10) did not engage player at (23, 12) [Verified Turn 7060].
 
 <hr>
