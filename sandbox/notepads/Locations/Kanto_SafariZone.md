@@ -60,6 +60,7 @@
   - Turn 8074: Fled wild Exeggcute battle at (8, 14) (424 steps remaining).
   - Turn 8097: Breached column 20 corridor through row 4 onto row 3 northern highway.
   - Turn 8100: Position (12, 3) on row 3 northern highway (343 steps remaining).
+  - Turn 8107: Entered Safari Zone Area 2 at (39, 31) (329 steps remaining).
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
