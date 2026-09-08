@@ -10,7 +10,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: �74868
+- Money: ¥72868
 - Pokédex: 12 Caught / 50+ Seen [Venonat Caught Turn 7581]
 
 
@@ -127,7 +127,7 @@
 
 # Inventory Log
 
-## Items (8 / 11)
+## Items (7 / 10)
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
 - TM49 (TRI ATTACK) x1
@@ -149,7 +149,7 @@
 - HM04 (STRENGTH) [Received Turn 8274]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 Free Slot for HM03 Surf). ESCAPE ROPE x2 tossed Turn 8309.
+- Total Slots Used: 17 / 20 (3 Free Slots). ESCAPE ROPE x2 tossed Turn 8309.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2553,7 +2553,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
-- Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
 - Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 - Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
@@ -2642,11 +2641,17 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
 (Note: Gold Teeth at (19, 7) already collected on Turn 8235!).
 
-## Active Session Step Tracking (Session 4 - Preparing Entry)
-- Inventory status: 19 / 20 items (1 free slot ready for HM03 Surf).
-- Budget: 500 steps upon entering gatehouse.
-- Route: Center Area -> Area 1 -> Area 2 -> Area 3 -> Secret House.
-- Step target to Secret House: ~187 steps (leaving ~313 steps to spare).
+## Active Session Step Tracking (Session 4 - Turn 8345)
+- Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
+- Turn 8350: Traversed Center Area to (28, 15), crossed tree gap (23..27, 15).
+- Turn 8351: Entered Area 1 at (0, 23) (471 steps remaining, 29 steps used).
+- Turn 8356: Reached (17, 23) hedge opening; confirmed (16, 22) is solid bush blocking direct ground path.
+- Turn 8358: Ascended south plateau staircase at (20, 21) (452 steps remaining, 48 steps used).
+- Turn 8360: Descended western staircase at (12, 21) to (12, 22) (442 steps remaining, 58 steps used).
+- Turn 8364: Reached northern bridge base at (12, 8) (421 steps remaining, 79 steps used).
+- Turn 8365: Crossed bridge to (17, 6), descended staircase to (17, 8) (414 steps remaining, 86 steps used).
+- Turn 8369: Reached row 3 northern highway, turned down to row 5 corridor at (7, 5) (387 steps remaining, 113 steps used).
+- Target: Reach Area 2 East Gate at (0, 5), enter Area 2 at (39, 31).
 
 
 <hr>
