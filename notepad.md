@@ -197,8 +197,8 @@
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy
-  - HP: Full
+  - Status: Fainted [Turn 7292]
+  - HP: 0 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
