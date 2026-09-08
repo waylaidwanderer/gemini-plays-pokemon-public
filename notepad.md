@@ -2589,7 +2589,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 32..38. Staircase at (34, 15) descends south to open lawn at (34, 16) [Verified Turn 8132].
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
-- Turn 8191 Step Baseline: Position (17, 6) in Area 2 northern sector with ~155 steps remaining (174 steps expended in Area 2). Discovered item ball at (19, 7).
+- Turn 8217 Step Baseline: Position (3, 25) at row 25 western signpost with 102 steps remaining (227 steps expended in Area 2). Discovered item ball at (19, 7).
 
 <hr>
 
@@ -2676,5 +2676,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8213: Reached (1, 15). Column 0 at rows 11..19 is a bush border; col 1 is clean lawn. Walking Down 4 times along col 1 to (1, 19) to scan col 0 south for Area 3 gate.
 - Turn 8214: Reached (1, 19). Column 0 remains bush border to row 23. Walking Down 4 times along col 1 clean lawn to (1, 23) towards row 25 signpost.
 - Turn 8215: Reached (1, 23). Walking Down to (1, 25), Right to (3, 25), and pressing A to read the signpost at (4, 25) for Area 3 directions.
+- Turn 8217: Standing at (3, 25) reading signpost at (4, 25). Active step baseline: 102 steps remaining (227 steps expended in Area 2). Advancing dialogue.
 
 <hr>

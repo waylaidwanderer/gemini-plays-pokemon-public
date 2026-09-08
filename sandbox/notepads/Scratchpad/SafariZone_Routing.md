@@ -79,3 +79,4 @@
 - Turn 8213: Reached (1, 15). Column 0 at rows 11..19 is a bush border; col 1 is clean lawn. Walking Down 4 times along col 1 to (1, 19) to scan col 0 south for Area 3 gate.
 - Turn 8214: Reached (1, 19). Column 0 remains bush border to row 23. Walking Down 4 times along col 1 clean lawn to (1, 23) towards row 25 signpost.
 - Turn 8215: Reached (1, 23). Walking Down to (1, 25), Right to (3, 25), and pressing A to read the signpost at (4, 25) for Area 3 directions.
+- Turn 8217: Standing at (3, 25) reading signpost at (4, 25). Active step baseline: 102 steps remaining (227 steps expended in Area 2). Advancing dialogue.
