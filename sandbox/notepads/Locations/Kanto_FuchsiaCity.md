@@ -35,3 +35,6 @@
 - Zoo Enclosure (Lapras): Stone-fenced pond at cols 9..12 rows 16..17 with exhibit signboard at (13, 15) ("Name: LAPRAS").
 - Cut Tree at (16, 11): Located at col 16 row 11. Blocks northern path into the Safari Zone gatehouse promenade (rows 4..6).
 - Safari Zone Gatehouse: Located at cols 16..21 rows 2..5 with entrance door at (18, 3) and sign at (17, 5).
+- Warden's House Interior Exit: Red mat at (4, 7). Warps outside to (27, 28) facing south.
+- Warden's Yard & South Street: Yard enclosed by fence with signpost at (27, 29). Fence opening at col 30 connects south to rows 30..31 east-west street. Rows 30..31 street connects west to Central Avenue at col 24, which runs north to rows 20..21.
+- Center Roof & Rock Plateau: Elevated barrier spans cols 13..22 rows 22..25, blocking direct southern access from row 21 between col 13 and col 23.
