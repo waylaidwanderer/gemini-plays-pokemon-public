@@ -2,8 +2,6 @@
 
 # Pok��mon Blue - Journey Log
 
-
-
 ## Status
 
 - Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
@@ -12,8 +10,6 @@
 
 - Money: ¥72868
 - Pokédex: 13 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
-
-
 
 ## Milestones
 
@@ -115,7 +111,6 @@
 - [x] Rescue Mr. Fuji from Pok�mon Tower and obtain Pok� Flute in Lavender Town [Turn 6599]
 - [x] Defeat Celadon Gym Leader Erika & earn Rainbowbadge [Turn 6800]
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
-
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
@@ -2560,6 +2555,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
 - Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 - Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
@@ -2598,7 +2594,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), and dense bush wall along col 24 (rows 6..13).
 - Master Traversal Route: From north entrance at (21, 0), step down to rows 2-4 and run directly WEST along the open northern lawn highway to reach the Secret House.
 
-- Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
+
 
 <hr>
 
@@ -2658,7 +2654,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8364: Reached northern bridge base at (12, 8) (421 steps remaining, 79 steps used).
 - Turn 8365: Crossed bridge to (17, 6), descended staircase to (17, 8) (414 steps remaining, 86 steps used).
 - Turn 8369: Reached row 3 northern highway, turned down to row 5 corridor at (7, 5) (387 steps remaining, 113 steps used).
-- Target: Reach Area 2 East Gate at (0, 5), enter Area 2 at (39, 31).
+- Turn 8375: Entered Area 2 at (39, 31) (384 steps remaining, 116 steps used).
+- Turn 8384: Wild Chansey (LUCKY) caught at (22, 29) at 0 step cost (365 steps remaining, 135 steps used).
+- Turn 8392: Ascended western plateau staircase at (22, 23) (360 steps remaining, 140 steps used).
+- Turn 8395: Descended staircase at (16, 27) to ground lawn at (16, 28) (345 steps remaining, 155 steps used).
+- Turn 8401: Current position (8, 34) at southern statue opening (330 steps remaining, 170 steps used). Heading west along row 35/36 to Area 3 gate at (3, 35).
 
 
 <hr>
