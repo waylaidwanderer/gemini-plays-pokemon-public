@@ -11,7 +11,7 @@
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: �74868
-- Pok��dex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
+- Pokédex: 10 Caught / 49+ Seen [Lapras Seen at Fuchsia Zoo Turn 7481]
 
 
 
@@ -118,6 +118,7 @@
 
 
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
+
 
 <hr>
 
