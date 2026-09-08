@@ -24,10 +24,10 @@
 2. **Room 3: Elite Four Agatha (Ghost / Poison)**
    - Gengar Lv 56 (Ghost/Poison): STAB Surf (1 PP, OHKO)
    - Golbat Lv 56 (Poison/Flying): Ice Beam (1 PP, 2x Super-Effective OHKO)
-   - Haunter Lv 55 (Ghost/Poison): STAB Surf (1 PP, OHKO)
+   - Haunter Lv 55 (Ghost/Poison): Ice Beam (1 PP, OHKO vs 105 HP, preserves Surf PP!)
    - Arbok Lv 58 (Poison): Double-Edge (1 PP, OHKO vs 69 Def)
    - Gengar Lv 60 (Ghost/Poison): STAB Surf (1 PP, OHKO)
-   - *PP Consumed: 3 Surf, 1 Ice Beam, 1 Double-Edge. HYDROS HP: ~170+ HP.*
+   - *PP Consumed: 2 Surf, 2 Ice Beam, 1 Double-Edge. HYDROS HP: ~175+ HP.*
    - *Exiting PP: 2 Surf, 6 Ice Beam, 13 Double-Edge, 25 Bite.*
 
 3. **Room 4: Elite Four Lance (Dragon / Flying)**
