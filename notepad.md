@@ -2626,40 +2626,31 @@
 - Initial State: Boulder 1 at (5, 15), Player at (5, 14), Strength active.
 - Note: Tile (6, 15) is a solid rock obstacle, so Boulder 1 cannot be pushed directly East from (5, 15). It must be pushed Down to row 16 first.
 
-### Atomic Checkpoints Matrix:
-- **Checkpoint 1 (Down to Row 16)**:
-  - From (5, 14) facing Down: Push Down 1 time.
-  - State: Boulder at (5, 16), Player at (5, 15).
-  - Reposition: Up to (5, 14) -> Left to (4, 14) -> Down 2 to (4, 16).
-  - End State: Boulder at (5, 16), Player at (4, 16) facing East.
-- **Checkpoint 2 (East along Row 16 to Col 9)**:
-  - From (4, 16) facing East: Push East 4 times along row 16.
-  - State: Boulder at (9, 16), Player at (8, 16).
-  - Reposition: Down 1 to (8, 17) -> Right 1 to (9, 17).
-  - End State: Boulder at (9, 16), Player at (9, 17) facing North.
-- **Checkpoint 3 (North to Row 14)**:
-  - From (9, 17) facing North: Push North 2 times.
-  - State: Boulder at (9, 14), Player at (9, 15).
-  - Reposition: Down 1 to (9, 16) -> Left 1 to (8, 16) -> Up 2 to (8, 14).
-  - End State: Boulder at (9, 14), Player at (8, 14) facing East.
-- **Checkpoint 4 (East along Row 14 to Col 16)**:
-  - From (8, 14) facing East: Push East 7 times along row 14.
+### Atomic Checkpoints Matrix (Safe Northern Route - Never touches Row 17):
+- **Checkpoint 1 (Push North to Row 14)**:
+  - Approach: From entrance foyer (8, 14), walk Left 4 to (4, 14) -> Down 2 to (4, 16) -> Right 1 to (5, 16) facing North.
+  - Push: From (5, 16) facing North, push UP 1 time.
+  - State: Boulder at (5, 14), Player at (5, 15).
+  - Reposition: Down 1 to (5, 16) -> Left 1 to (4, 16) -> Up 2 to (4, 14).
+  - End State: Boulder at (5, 14), Player at (4, 14) facing East.
+- **Checkpoint 2 (East along Row 14 all the way to Col 16)**:
+  - From (4, 14) facing East: Push East 11 times along row 14.
   - State: Boulder at (16, 14), Player at (15, 14).
-  - Reposition: Down 1 to (15, 15) -> Right 1 to (16, 15).
+  - Reposition: Down 1 to (15, 15) -> Right 1 to (16, 15) facing North.
   - End State: Boulder at (16, 14), Player at (16, 15) facing North.
-- **Checkpoint 5 (North to Row 12)**:
+- **Checkpoint 3 (North along Col 16 to Row 12)**:
   - From (16, 15) facing North: Push North 2 times.
   - State: Boulder at (16, 12), Player at (16, 13).
   - Reposition (Detour around (15, 13) rock wall): Down 1 to (16, 14) -> Left 2 to (14, 14) -> Up 2 to (14, 12) -> Right 1 to (15, 12).
   - End State: Boulder at (16, 12), Player at (15, 12) facing East.
-- **Checkpoint 6 (East to Col 17 & Lock onto Switch (17, 13))**:
+- **Checkpoint 4 (East to Col 17 & Lock onto Switch (17, 13))**:
   - From (15, 12) facing East: Push East 1 time to (17, 12) [Boulder at (17, 12), Player at (16, 12)].
   - Reposition: Up 1 to (16, 11) -> Right 1 to (17, 11).
   - From (17, 11) facing South: Push South 1 time onto Switch (17, 13).
   - End State: Boulder at (17, 13) [SWITCH DEPRESSED], Player at (17, 12).
   - Outcome: Shutters at (5, 13) and (7, 7) lowered permanently for current visit!
-- **Checkpoint 7 (Ascent to 2F Southwest Ladder at (1, 1))**:
-  - Path: From Switch chamber (14, 12), walk Down 2 to row 14 at (14, 14) -> West 9 along row 14 to (5, 14) -> North 2 through lowered Shutter (5, 13) onto elevated cross-highway at (5, 12) -> East 6 along row 12 to (11, 12) -> North 6 along col 11 to (11, 6) -> West 4 along row 6 to (7, 6) -> South 2 through lowered Shutter (7, 7) to lower cave floor (7, 8) -> West 4 along row 8 to (3, 8) -> North 7 along col 3 to (3, 1) -> Left 2 through (2, 1) onto 2F Ladder at (1, 1) [Transitions to 2F at (0, 8)]!
+- **Checkpoint 5 (Ascent to 2F Southwest Ladder at (1, 1))**:
+  - Path: From Switch chamber (17, 12), walk Left 3 along row 12 to (14, 12) -> Down 2 to row 14 at (14, 14) -> West 9 along row 14 to (5, 14) -> North 2 through lowered Shutter (5, 13) onto elevated cross-highway at (5, 12) -> East 6 along row 12 to (11, 12) -> North 6 along col 11 to (11, 6) -> West 4 along row 6 to (7, 6) -> South 2 through lowered Shutter (7, 7) to lower cave floor (7, 8) -> West 4 along row 8 to (3, 8) -> North 7 along col 3 to (3, 1) -> Left 2 through (2, 1) onto 2F Ladder at (1, 1) [Transitions to 2F at (0, 8)]!
 
 ## Map Boundaries & Exit Warps
 - South Exit Warp: Stepping South into row 17 across columns 8 and 9 (the entrance mat) immediately triggers a map transition to Route 23 at (4, 31), resetting all boulder positions and shutter states on 1F. Avoid walking South into row 17 during 1F puzzle execution!
