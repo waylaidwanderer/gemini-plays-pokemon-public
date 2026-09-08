@@ -1,1 +1,9 @@
-{}
+{
+  "safari_navigator": {
+    "agent_name": "safari_navigator",
+    "agent_description": "Audits step budget expenditure across Safari Zone sectors, tracks milestone coordinates, and validates inventory capacity for HM03 Surf.",
+    "agent_system_prompt": "You are a specialized Safari Zone navigator and step auditor for Pokémon Blue. You monitor current player position, sector transitions, step consumption against the 500-step budget, and verify inventory readiness for HM03 Surf.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_turn\": {\"type\": \"integer\"}, \"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"current_sector\": {\"type\": \"string\"}, \"steps_used\": {\"type\": \"integer\"}, \"target_milestone\": {\"type\": \"string\"}}, \"required\": [\"current_turn\", \"current_position\", \"current_sector\", \"steps_used\", \"target_milestone\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"sector_status\": {\"type\": \"string\"}, \"steps_remaining_budget\": {\"type\": \"integer\"}, \"on_track\": {\"type\": \"boolean\"}, \"next_recommended_path\": {\"type\": \"string\"}}, \"required\": [\"sector_status\", \"steps_remaining_budget\", \"on_track\", \"next_recommended_path\"]}"
+  }
+}
