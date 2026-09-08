@@ -2409,7 +2409,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 5 fence runs solid from col 19 to col 6; opening at cols 4..5 connects row 4 to row 6 corridor [Verified Turn 7152].
 - Bird Keeper at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good moves to POKéMON!". Team: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Defeated on Turn 7162 [Turn 7162].
 - Col 3 is vertical rock cliff dividing eastern corridors from western wild grass patch (cols 1..2) [Verified Turn 7152].
-- NPC at (15, 6) is in row 6 corridor below row 5 fence; line of sight to row 4 is blocked by fence [Verified Turn 7149].
+- Trainer at (15, 6): Stationed at (15, 6) facing South down col 15 [Verified Turn 7166].
+- Row 7 opening at cols 14..15 connects row 6 to row 8 corridor [Verified Turn 7166].
 - Row 6 Corridor: Extends east from col 4 to col 14, where row 7 opening connects to row 8 [Verified Turn 7165].
 - Row 8 Corridor: Open ground across cols 4..10 below row 7 fence [Verified Turn 7164].
 - Row 9 Fence Opening: Opening at cols 6..7 connects row 8 to southern sections [Verified Turn 7164].
