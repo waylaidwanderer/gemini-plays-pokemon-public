@@ -3,7 +3,7 @@
 ## Items (11 / 12)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
-- MAX POTION x1 [Verified Turn 6400]
+- MAX POTION x0 [Used Turn 7261] [Verified Turn 6400]
 - SUPER REPEL x4 [Active Turn 7235]
 - TM49 (TRI ATTACK) x1
 - MOON STONE x1
