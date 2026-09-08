@@ -8,7 +8,7 @@
 
 - Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 49, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: �72213
 - Pok��dex: 10 Caught / 48+ Seen [Sandshrew Caught Turn 3751]
@@ -165,11 +165,11 @@
 - ¥72213
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 49, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
   - Status: Healthy
-  - HP: 114 / 154
-  - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 0/25), Body Slam (PP 1/15), Bubblebeam (PP 0/20), Ice Beam (PP 1/10)
+  - HP: 117 / 157
+  - Stats: Attack 115, Defense 133, Speed 115, Special 117
+  - Moves: Bite (PP 0/25), Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2426,6 +2426,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Cuttable Tree: Located at (11, 32) west of central road [Observed Turn 7187].- Row 40 Tree Line Opening: Col 10 tree line ends at row 39; cols 9..13 are open ground connecting east and west roads at rows 40..41 [Verified Turn 7206].
 - Route 15 Junction (Rows 46..47): Central paved road ends at row 47 bounded south by tall grass at rows 48..49. Paved road turns WEST as a 2-tile-wide highway along rows 46..47 across cols 9..13+ leading directly toward Route 15 and Fuchsia City [Verified Turn 7208].
 
-- Bird Keeper at (6, 49): Stationed in southern tall grass patch at (6, 49). Line: "I'm not into it, but OK! Let's go!". Team: Spearow Lv 29, Fearow Lv 29. Engaged at (6, 46) [Turn 7210].
+- Bird Keeper at (6, 49): Stationed in southern tall grass patch at (6, 49). Line: "I'm not into it, but OK! Let's go!". Team: Spearow Lv 29, Fearow Lv 29. Defeated on Turn 7217 [Turn 7217]. Engaged at (6, 46) [Turn 7210].
 
 <hr>
