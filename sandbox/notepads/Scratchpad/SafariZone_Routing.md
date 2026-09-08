@@ -46,6 +46,8 @@
 - Turn 8058: Enter Area 1 at (0, 23) (473 steps).
 - Turn 8064: Escape Kangaskhan battle at (17, 24) (455 steps).
 - Turn 8066: Ascend south plateau at (20, 21), cross to (12, 20), descend to (12, 22).
-- Turn 8071: At (9, 17) on western lawn corridor (~430 steps remaining).
-- Target to Area 2 entry: ~375 steps remaining.
-- Target to Area 3 entry: ~310 steps remaining.
+- Turn 8074: Escape Exeggcute battle at (8, 14) (424 steps).
+- Turn 8097: Reach (20, 4) on column 20, breach onto row 3 highway.
+- Turn 8100: At (12, 3) on row 3 northern highway (343 steps remaining).
+- Target to Area 2 entry at (0, 5): ~14 steps -> ~329 steps remaining upon entering Area 2.
+- Target to Area 3 entry: ~65 steps in Area 2 -> ~264 steps remaining upon entering Area 3.
