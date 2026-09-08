@@ -7,7 +7,7 @@
 - Entrance mat: (8..9, 17) (Safe to stand on; exit warp only triggers when stepping South off row 17 into row 18).
 - Row 16 Corridor: Columns 1-9 across row 16 are completely open floor. (10..11, 16) is a 2x2 rock obstacle.
 - Row 14 Highway: Columns 8-17 across row 14 form an open horizontal highway connecting the foyer (col 8) to the Eastern Switch Chamber (col 17). Note: (6..7, 14) and (6, 15) are solid rock obstacles blocking row 14 westward.
-- Eastern Chamber: Columns 14-17 (rows 11-16). Contains Switch Plate at (17, 13). (15, 13) is a solid rock wall; detour via col 14: (16, 14) -> (14, 14) -> (14, 12) -> (15, 12).
+- Eastern Chamber: Columns 14-17 (rows 11-16). Contains Switch Plate at (17, 15). (15, 13) is a solid rock wall; detour via col 14: (16, 14) -> (14, 14) -> (14, 12) -> (15, 12).
 - Boulder 1 (Default Start): (5, 15).
 - Western Corridor: Columns 1-3 (rows 10-16). Contains Switch Plate at (1, 16) and Western Boulder (Boulder 2) at (2, 10).
 - Shutters: Shutter (5, 13) and Shutter (7, 7) lowered permanently for current visit when Switch (17, 13) is depressed by Boulder 1!
