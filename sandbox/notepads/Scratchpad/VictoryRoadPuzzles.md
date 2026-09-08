@@ -9,7 +9,7 @@
 - **2F Master Puzzle (Part 1)**:
   - Boulder at (4, 14), Switch 1 at (1, 16).
   - Pushing Boulder (4, 14) onto Switch (1, 16) lowers Shutter 1 at (5, 10) and Shutter 3 at (21, 15).
-  - Open path: (5, 10) -> (5, 8) -> Row 8 Highway East to (23, 8) -> North into Ladder A at (23, 7) [Wall Ladder to 3F (23, 7)].
+  - Open path to eastern sector: Pass through lowered Shutter 1 at (5, 10) -> (5, 9) -> Row 12 corridor to reach eastern chambers and Ladder B at (25, 14).
 
 - **3F Master Puzzle**:
   - Boulder 1 at (22, 3), Switch at (3, 5).
