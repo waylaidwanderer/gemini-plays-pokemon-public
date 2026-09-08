@@ -25,7 +25,7 @@
    - Location: Southeast room on 2F lower purple floor.
 5. **Ladder NE to 3F (Exit Chamber Ladder)**:
    - Coordinates: (27, 7) on 2F <-> (27, 7) on 3F.
-   - Location: Northeast chamber behind shutter at (27, 10). Leads to 3F final exit.
+   - Location: Northeast chamber behind shutter at (28, 10). Leads to 3F final exit.
 
 ## Switches & Shutters on 2F
 - **Switch 1 @ (1, 16) - Verified Master Protocol**:

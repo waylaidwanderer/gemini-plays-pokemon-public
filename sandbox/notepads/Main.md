@@ -54,3 +54,7 @@
 - `Locations/FuchsiaCity`: Fuchsia City points of interest, Gym, Safari Zone, Warden House
 - `Locations/CinnabarIsland`: Cinnabar Island points of interest, Gym, Lab, Mansion
 - `Locations/CinnabarGym`: Cinnabar Gym layout, quiz machines, Blaine battle
+- `Locations/Route23`: Route 23 badge checkpoints, water canal, cave entrance at (2, 1)
+- `Locations/VictoryRoad1F`: Victory Road 1F layout, boulder switch puzzle, SW Ladder at (1, 1)
+- `Locations/VictoryRoad2F`: Victory Road 2F layout, Moltres, switch puzzles, Ladder NE to exit
+- `Locations/VictoryRoad3F`: Victory Road 3F layout, Switch (3, 5), SE Pit drop puzzle
