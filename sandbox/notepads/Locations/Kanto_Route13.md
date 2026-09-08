@@ -34,3 +34,5 @@
   - Col 6 vertical fence blocks rows 9..11. Row 12 continues open west past (6, 12) toward Route 14.
   - Bird Keeper at (7, 13): Stationed at (7, 13) facing North. Line: "I always go with bird POKéMON!". Engaged at (7, 12). Pokémon: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26. Defeated on Turn 7085 [Verified Turn 7085].
 - Row 12 corridor continues west past col 7 through cols 3..6 toward Route 14 [Verified Turn 7087].
+- Western End of Row 12: Dead-ends at col 0 blocked by fence post at (0, 12) and dead-end alcove at (1, 13) [Verified Turn 7088].
+- True Route 14 Exit Path: Retrace East along row 12 to col 7/8, step North to row 10, walk East along row 10 to col 13, step North through (13, 9) gap to row 8, then follow row 8 West past col 0 to Route 14 [Verified Turn 7088].
