@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Rematch - In Progress (Room 3: Agatha - 4/5 defeated, facing final Gengar Lv 60)
+- League Status: Elite Four Rematch - In Progress (Room 1: Lorelei cleared; Room 2: Bruno cleared; Room 3: Agatha cleared! Entering Room 4: Lance)
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -72,7 +72,7 @@
 1. HYDROS (Blastoise) - Lv 79
    - Stats: Max HP 270 (HP: 37/270), Attack 191, Defense 210, Speed 193, Special 201
    - Type: Water
-   - Moves: Double-Edge (6/15), Ice Beam (7/10), Bite (25/25), Surf (4/15)
+   - Moves: Double-Edge (6/15), Ice Beam (7/10), Bite (25/25), Surf (2/15)
    - Status: Healthy (Full Speed 193)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
