@@ -2621,5 +2621,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
    - Advance west across northern corridor past pond and (6, 4) signpost to exit into Area 2.
 
 - Turn 7953: Reached (17, 24) at the threshold of the hedge opening. Wild Paras appeared. Remaining steps: ~273. Fleeing via RUN.
+- Turn 7957: Tested (16, 22); confirmed solid bush hedge. Row 22 does not connect west to (12, 21). Remaining steps: 271. Ascending staircase at (20, 21) to cross plateau bridge north to (21, 14).
 
 <hr>
