@@ -9,7 +9,7 @@
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: �74868
-- Pokédex: 11 Caught / 50+ Seen [Nidorina Caught Turn 7549]
+- Pokédex: 12 Caught / 50+ Seen [Venonat Caught Turn 7581]
 
 
 
