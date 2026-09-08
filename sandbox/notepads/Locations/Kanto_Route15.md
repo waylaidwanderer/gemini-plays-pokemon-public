@@ -24,3 +24,4 @@
 - Bird Keeper at (35, 13) in southern tall grass, facing North (Team of 3: Dodrio Lv 28, Doduo Lv 28, Doduo) [DEFEATED Turn 7269]. Line: "Hmm? My birds are shivering! You're good!". Engaged at (35, 10).
 - Paved highway along rows 10..11 extends clear across cols 33..40.
 - Tree canopy bounds road to the north at cols 33..35 rows 8..9.
+- Biker at (31, 13) in southern tall grass, facing North. Guards column 31.

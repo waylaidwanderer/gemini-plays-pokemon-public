@@ -134,7 +134,6 @@
 - MOON STONE x1
 - NUGGET x1
 - TM07 (HORN DRILL) x1
-- TM10 (DOUBLE-EDGE) x1
 - TM02 (RAZOR WIND) x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 
@@ -169,7 +168,7 @@
   - Status: Healthy
   - HP: 51 / 157 [Turn 7270]
   - Stats: Attack 115, Defense 133, Speed 115, Special 117
-  - Moves: Bite (PP 0/25), Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
+  - Moves: Double-Edge (PP 15/15) [Learned Turn 7274], Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2459,5 +2458,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Bird Keeper at (35, 13) in southern tall grass, facing North (Team of 3: Dodrio Lv 28, Doduo Lv 28, Doduo) [DEFEATED Turn 7269]. Line: "Hmm? My birds are shivering! You're good!". Engaged at (35, 10).
 - Paved highway along rows 10..11 extends clear across cols 33..40.
 - Tree canopy bounds road to the north at cols 33..35 rows 8..9.
+- Biker at (31, 13) in southern tall grass, facing North. Guards column 31.
 
 <hr>
