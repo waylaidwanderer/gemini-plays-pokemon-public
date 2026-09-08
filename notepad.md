@@ -2608,5 +2608,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7814: At (12, 17) (~464 steps left). Row 16 is open grass west to col 8. Stepping Up to (12, 16) and Left to (8, 16) to reach the western bypass (cols 0..7) around the pond.
 - Turn 7815: At (8, 16) (~459 steps left). Visual verification on screen: cols 4..5 rows 12..14 are open grass leading north! Stepping Down to (8, 17) and Left to (4, 17) to enter the western highway.
 - Turn 7819: Reflection completed. Confirmed western sector is dead-ended by row 16 bushes. Returning east along row 17 to Rest House 1 (cols 17..22 rows 18..21) to execute empirical physical testing of the eastern corridor to Area 1.
+- Turn 7820: At (9, 17) (~449 steps left). Advancing east along row 17 to (14, 17).
 
 <hr>
