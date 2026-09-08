@@ -169,7 +169,7 @@
   - Status: Healthy
   - HP: 137 / 151
   - Stats: Attack 109, Defense 127, Speed 109, Special 112
-  - Moves: Bite (PP 5/25), Body Slam (PP 7/15), Bubblebeam (PP 10/20), Ice Beam (PP 4/10)
+  - Moves: Bite (PP 5/25), Body Slam (PP 5/15), Bubblebeam (PP 10/20), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy
   - HP: 26 / 26
@@ -2364,5 +2364,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Signpost at (31, 11): "North to SILENCE BRIDGE" [Verified Turn 7052].
   - NPCs sighted at (32, 6) and (33, 6).
   - Jr. Trainer ♀ at (27, 9): Stationed at (27, 9) facing South. Line: "Wow! Your BADGES are too cool!". Engaged at (27, 10). Pokémon: Poliwag Lv 30, Poliwag Lv 30. Defeated on Turn 7056 [Verified Turn 7056].
+- Fence Maze Layout (Cols 23..27):
+  - Row 10 ends at col 25: blocked to the west by vertical fence at (24, 9..11).
+  - Southward bypass at col 25: open gap through (25, 11) to row 12 corridor at (25, 12).
+  - Row 12 corridor extends west through (24, 12) and (23, 12) bounded by row 13 fence.
+  - NPC sighted at (23, 10) [Observed Turn 7057].
 
 <hr>
