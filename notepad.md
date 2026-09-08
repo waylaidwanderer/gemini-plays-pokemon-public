@@ -2658,5 +2658,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Step Reconciliation: The circuitous survey loop expended 113 steps within Area 2 (entering at 329, arriving at 216). Active step baseline at Turn 8162: Position (22, 22) on western plateau with ~216 steps remaining. Projected steps to Area 3 entrance: ~23 steps (reaching Area 3 with ~193 steps remaining).
 - Turns 8164-8189: Descended western plateau staircase at (16, 27) to southern boulevard (16, 28). Traversed west along row 30 past pond, up col 6 corridor to (6, 22). Bypassed southern pond via cols 8..12 past (8, 18) and (12, 11) (escaped wild Nidoran♀). Reached northern lawn at (12, 7). Tested (11, 7) (solid bush). Advanced to (17, 6) surveying east side.
 - Turn 8191: Position (17, 6). Active step baseline: ~155 steps remaining (174 steps expended in Area 2). Discovered item ball at (19, 7). Row 4 is a solid tree/bush hedge across cols 13..22; row 6/18 does not connect north to row 3. Retrieving item ball at (19, 7).
+- Turn 8193: At (19, 6). Walking Right 4 times along row 6 lawn to (23, 6) to scout the eastern end of the row 4 hedge.
 
 <hr>
