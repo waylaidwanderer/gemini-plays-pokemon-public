@@ -1,92 +1,41 @@
-# Safari Zone Systematic Routing Framework
+# Safari Zone Master Optimal Route to Area 3 (HM03 Surf & Gold Teeth)
 
-## Session Ledger & Step Budget
-- Admission: 500 steps (Turn 7795)
-- In-Game Verified Milestones:
-  - Turn 7883: Exactly 361 / 500 steps remaining (Start menu verified at 4, 17)
-  - Turn 7900: Entered Safari Zone Area 1 at (0, 23) (~338 steps remaining)
-  - Turn 7921: In battle at (24, 20) (~308 steps remaining)
-  - Turn 7951: Current position (14, 24) facing Up (276 steps remaining)
+## Verified Map Progression & Topology
+- **Step Budget**: Fresh entry = 500 steps (¥500 fee).
+- **Target Route**: Center Area -> Area 1 (East) -> Area 2 (North) -> Area 3 (West) -> Secret House (HM03 Surf) + Gold Teeth.
+- **Budget Audit**: ~155 steps total to reach Area 3, leaving ~345 steps to navigate Area 3!
 
-## Area 1 Verified Empirical Topology & Boundaries
-- Southern Boundary: Row 25 boundary bushes & statue bases (solid).
-- Southern Corridor (Row 24):
-  - Cols 0..13: Clear open green lawn (zero wild encounters).
-  - Cols 14..25: Tall grass strip (wild encounters possible).
-  - Cols 26..28: Clear open green lawn.
-- Row 23 Hedge Barrier:
-  - Extends along cols 8..16 (solid bush hedge).
-  - Solid statue at (6, 23) [Verified Turn 7944].
-  - Open lawn gap at (17..18, 23) connecting row 24 directly to row 22 [Verified Turns 7903, 7941].
-- Row 22 Open Lawn:
-  - Cols 12..15: Open lawn directly in front of western staircase at (12, 21).
-  - Col 16: Bush tile at (16, 22) (untested for passability).
-  - Col 17: Open lawn directly north of hedge gap.
-  - Cols 18..20: Tall grass leading to southern staircase at (20, 21).
-- Plateau Bridge System:
-  - South Stairs at (20, 21): Ascends to elevated plateau top at (20, 20).
-  - Walkable Ridge (cols 21-22 rows 15-18): Connects southern plateau to northern plateau at (21, 14).
-  - Northern Plateau (rows 12-14 cols 18-26): Wide elevated plateau directly south of northern lawn (rows 10-11).
-  - East Stairs at (24, 15): Descends south to isolated eastern lawn (cols 24-28 rows 16-19).
-  - Eastern Boundary (col 28): (28, 15) is confirmed solid tree collision [Verified Turn 7927].
+## Step-by-Step Traversal Protocol
 
-## Active Navigation Strategy: Exploring Western Plateau Corridor
-1. From (20, 20), advance west along open plateau corridor across rows 18-20 (cols 19..16 and beyond).
-2. Follow western plateau towards western sector and northern corridor to access Area 2.
-3. Maintain linear progression without looping back to south stairs.
+### Phase 1: Center Area to Area 1 (~25 steps)
+1. Enter Center Area from gatehouse at (14..15, 25).
+2. Move north to row 22, then northeast around pond to eastern exit at (29, 10..11).
+3. Step east into Area 1 at (0, 23).
 
-## Critical Breakthrough (Turn 7976)
-- Eastern Plateau Confirmed Impassable North & East:
-  - (27, 12) tested Turn 7971; 0 tiles moved (solid cliff corner).
-  - Row 12 cliff face blocks north passage to row 11.
-  - Staircase at (24, 15) only leads south to the dead-end eastern lawn (cols 24-28).
-  - CONCLUSION: Eastern plateau bridge (20, 21 -> 24, 15) does NOT lead to Area 2!
-- The True Route to Area 2:
-  - Signpost at (5, 23): "CENTER AREA / NORTH: AREA 2".
-  - Western Staircase at (12, 21) is accessed from the west sector (row 24 cols 0..13).
-  - On Turns 7631-7647: Ascended (12, 21), crossed western plateau, descended to middle sector, crossed northern elevated area, and reached northern lawn at (21, 10) / Rest House 2 at (25, 9) / corridor to Area 2 at (6, 4)!
-  - Hedge at (16, 22) separates east and west lawn.
-- Execution Plan:
-- Step Budget: ~250 steps remaining (plenty for Area 1 -> Area 2 -> Area 3 -> HM03).
-## Western Sector & Northern Bridge Verification (Turn 7992)
-- Western Boundary:
-  - Statues at (0, 7), (1, 6), (0, 6), (1, 3), (0, 3) form solid western barrier.
-  - Row 6 is completely impassable from col 0 to col 9 (statues at cols 0-1, bushes at cols 2-9).
-  - Ground level row 7 cannot bypass row 6 westward.
-- Northern Bridge at (12, 7):
-  - Wooden staircase at (12, 7) facing south onto (12, 8).
-  - Ascends onto the northern elevated plateau to bridge OVER the row 6 hedge.
-  - Connects to northern sector and Area 2 corridor.
-- Step Budget: 207 steps remaining. Moving east to (9, 7) -> (12, 8) -> ascend (12, 7).
-## Northern Corridor & Area 2 Gate (Turn 8005)
-- Signpost at (6, 4): 'TRAINER TIPS / The remaining time declines only while you walk!' [Read Turn 8004].
-- Northern Gate to Area 2: Open gateway at cols 0..1 rows 4..5 between statue gateposts at (1, 3) and (1, 6).
-- Step Budget: 160 steps remaining. Advancing west along row 5 into Area 2.
-## Area 2 (North) Arrival (Turn 8007)
-- Map Transition Detected: Entered Safari Zone Area 2 at (39, 31) from Area 1 western gate.
-- Gate Topology: Enters facing Left between statues at (39, 28..29) and (39, 32..33).
-- Step Budget: 149 steps remaining. Wide open green corridor running west.
+### Phase 2: Area 1 to Area 2 Gate (~70 steps)
+1. From (0, 23), walk east along row 24 clear lawn to (17, 24).
+2. Step Up through hedge opening at (17, 23) to (17, 22), then east to (20, 22).
+3. Ascend staircase at (20, 21) onto plateau top at (20, 20).
+4. Walk west across plateau corridor (rows 18-20) to western staircase at (12, 21).
+5. Descend staircase at (12, 21) to lawn at (12, 22), move left to (9, 22).
+6. Walk north along col 9 lawn past pond to (12, 8).
+7. Ascend staircase at (12, 7) onto northern bridge at (12, 6).
+8. Walk east across bridge to (17, 6), descend staircase at (17, 7) to lawn at (17, 8).
+9. Walk east to col 20, north along col 20 to row 3 at (20, 3).
+10. Walk west along row 3 lawn to (6, 3), step down to row 5 corridor at (7, 5).
+11. Walk west along row 5 through the gatepost statues at (1, 3) and (1, 6) into (0, 5) to enter Area 2!
 
-## Area 2 Active Routing Framework & Hypotheses
-- Current Baseline: (27, 31), 137 steps remaining.
-- Landmarks Identified:
-  - Eastern Entrance Gate: (39, 30..31) between statues.
-  - Southern Corridor: Rows 28..33 across cols 25..39. Clear lawn at cols 28..39, tall grass patch at cols 20..27.
-  - Northern Staircase: Located at (28, 27) facing south onto (28, 28). Ascends north onto plateau.
-- Area 3 Transition Hypothesis:
-  - Generation 1 Safari Zone Area 2 connects west/southwest into Area 3 (West Area).
-  - Primary path: Follow southern corridor west along rows 30-31 toward western map border (col 0).
-  - Target: Transition into Area 3 with ~110+ steps remaining to claim HM03 Surf (Secret House) and Gold Teeth.
+### Phase 3: Area 2 to Area 3 (~60 steps)
+1. Enter Area 2 at (39, 31).
+2. Walk west along open lawn corridor (rows 30-31) to (28, 29).
+3. Ascend wooden staircase at (28, 27) onto plateau at (28, 26).
+4. Walk west/north across plateau to col 18, follow ridge down to (18, 26).
+5. Step left to (16, 26) and descend staircase at (16, 27) to lawn at (16, 28).
+6. Step down to row 30 lawn boulevard at (14, 30).
+7. Walk west along row 30 boulevard to (6, 30).
+8. Walk north along col 6 past Rest House 3 to row 19/20.
+9. Bypass pond north and sprint west across northern promenade to col 0 into Area 3!
 
-- Tree Wall Barrier at Col 17: Solid vertical wall of trees along col 17 rows 28..33 blocks ground passage.
-- Elevated Bridge Solution:
-  - East Stairs: (28, 27) wooden staircase facing south onto (28, 28).
-  - West Stairs: (16, 27) wooden staircase facing south onto (16, 28).
-  - Plateau Bridge connects (28, 27) to (16, 27) directly over the col 17 tree wall!
-  - Routing: Ascend (28, 27) -> cross west to (16, 27) -> descend into western sector toward Area 3.
-- Plateau 1 West Cliff (Turn 8019): Tested (26, 26) from (27, 26); solid cliff wall. Plateau 1 does not extend west.
-- True Northern Route: Cols 23..25 form an open north-south corridor running from row 29 up to row 24 clear lawn.
-- Execution: Descend (28, 27) -> move to col 25 -> advance north to row 24 lawn -> proceed west to Area 3.
-- West Sector Descent (Turn 8025): Descended stairs at (16, 27) to (16, 28) lawn. Advanced to (14, 28).
-- Pond Bypass at Cols 10-11: Pond occupies rows 25-29. Rows 30-32 lawn corridor provides unobstructed western passage to col 0 (Area 3 transition).
-- Remaining Steps: 81 steps. ~14 steps to Area 3 border.
+### Phase 4: Area 3 (Secret House & Gold Teeth)
+1. Inside Area 3, locate the Secret House to receive HM03 (Surf).
+2. Retrieve the Gold Teeth item ball for the Fuchsia Warden (rewards HM04 Strength).
