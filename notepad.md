@@ -2720,10 +2720,11 @@
 - **Shutter 2 @ (15, 15)**: Connects eastern corridor (15, 14) directly to Row 16 southern highway at (15, 16).
 - **Row 16 Highway**: Row 16 is completely open dark checkerboard floor across columns 9 to 27, connecting Central Chamber (cols 9-11) directly to East Sector (cols 21-27).
 
-## Verified Post-Shutter 2F Route to Ladder A (23, 7)
-- From lowered Shutter 1 at (5, 10), walk North through (5, 9) onto Central-East Highway at (5, 8).
-- Note: Column 15 contains a solid rock wall at (15, 8..11) dividing the western upper plateau from the eastern upper plateau. Passage to the eastern sector is via the Row 12 / Row 16 lower highway.
-- Shutter 1 at (5, 10) and Shutter 3 at (21, 15) allow seamless transit along the southern corridor (Row 16) directly to the eastern sector (cols 21-29).
+## Eastern Sector & Corridor Boundaries
+- Lower purple floor runs along rows 12-14 from column 13 to column 22.
+- Rock wall at (22, 12..15) and obstacle at (23, 14) separate western lower floor from eastern room.
+- Column 15 rock wall at (15, 8..11) divides western upper plateau from eastern upper plateau (Moltres at (19, 8)).
+- Shutter 1 at (5, 10) and Shutter 3 at (21, 15) connect through the southern Row 16 highway.
 ## 2F Pit Drop & Exit Investigation (Turn 35671)
 - Pit Boulder dropped from 3F lands on 2F at (23, 16).
 - Empirical test: Pushing boulder East into (29, 16) dead-ends against (30, 16) rock wall and does NOT open Exit Shutter at (27, 10). Shutter at (27, 10) confirmed closed on Turn 35669.
