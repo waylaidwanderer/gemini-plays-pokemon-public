@@ -2,10 +2,10 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 80
-   - Stats: Max HP 274 (HP: 27/274), Attack 193, Defense 213, Speed 195, Special 203
+   - Stats: Max HP 274 (HP: 0/274 - Fainted in Agatha Room 3), Attack 193, Defense 213, Speed 195, Special 203
    - Type: Water
    - Moves: Double-Edge (13/15), Ice Beam (4/10), Bite (25/25), Surf (2/15)
-   - Status: Healthy (Full Speed 195 - Snapped out of confusion Turn 38413)
+   - Status: Fainted
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54 - Healthy)
@@ -13,10 +13,10 @@
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 60/60 - Healthy)
+   - Stats: Max HP 60 (HP: 60/60 - Active in Room 3)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Dig utility & Rock/Ground backup (Slot 3)
+   - Role: Dig utility & 2x Ground finisher vs Gengar (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
    - Stats: Max HP 61 (HP: 61/61 - Healthy)
    - Type: Normal / Flying
