@@ -28,6 +28,7 @@
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
 - Row 6 Bush Cut Test at (6, 6): Tested Turn 7720 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Signpost at (26, 10): 'REST HOUSE' [Read Turn 7733].
@@ -45,9 +46,8 @@
 - Southern Barrier (Rows 15-16): Barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across cols 0-19. Columns 20..22 is an open grass passage connecting the southern and northern sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
-## Step Budget & Timer (Verified Mechanics)
+## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 - Session Ledger:
   - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
   - Turn 7831: Current position (20, 17) -> ~420 steps remaining.
-- Signpost at (14, 22): 'TRAINER TIPS / Press the START / Button to check / remaining time!' [Verified Turn 7864].
