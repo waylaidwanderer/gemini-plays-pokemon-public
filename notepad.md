@@ -2586,6 +2586,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
 
+- Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 32..38. Staircase at (34, 15) descends south to open lawn at (34, 16) [Verified Turn 8132].
+- Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 
 <hr>
 
@@ -2652,5 +2654,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8131: At (33, 13). Confirmed plateau western edge is a cliff at col 32. Descending staircase at (34, 15) to open lawn at (34, 16).
 - Turn 8133: At (34, 16). Stepping west along row 16 lawn to (29, 16) to scout central Area 2.
 - Turn 8134: At (29, 16). Wide open lawn corridor extends west across rows 12..19 cols 25..31+. Moving Up to row 15 and stepping west along clean lawn to (25, 15) to bypass tall grass at (26, 16).
+- Turn 8135: Reached (25, 15). Continuous statue barrier along row 11. Rows 12..19 form a wide open lawn corridor extending west past col 21. Advancing west along row 15 to (21, 15).
 
 <hr>
