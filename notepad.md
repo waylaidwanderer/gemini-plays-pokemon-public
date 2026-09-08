@@ -2760,9 +2760,6 @@
 - Rock wall at (22, 12..15) and obstacle at (23, 14) separate western lower floor from eastern room.
 - Column 15 rock wall at (15, 8..11) divides western upper plateau from eastern upper plateau (Moltres at (19, 8)).
 - Shutter 1 at (5, 10) and Shutter 3 at (21, 15) connect through the southern Row 16 highway.
-## 2F Pit Drop & Exit Investigation (Turn 35671)
-- Pit Boulder dropped from 3F lands on 2F at (23, 16).
-- Empirical test: Pushing boulder East into (29, 16) dead-ends against (30, 16) rock wall and does NOT open Exit Shutter at (27, 10). Shutter at (28, 10) confirmed closed on Turn 35669.
 ## Observed Landmarks
 - Shutter at (28, 10): Observed blocking Column 28 passage into Ladder NE Room (rows 7-9, cols 26-29).
 - Ladder NE at (27, 7): Wall ladder in enclosed NE room on 2F (cols 26-29, rows 7-9), isolated from main Row 8 corridor by rock wall at cols 24-25.
@@ -2847,9 +2844,6 @@
 ## Verified Empirically: Pit Drop Outcome
 - Pit Boulder at (22, 15) on 3F pushed East into Pit (23, 15) drops down to 2F at (23, 16).
 - Player jumping into Pit (23, 15) lands on 2F at (22, 16) facing East directly adjacent to the Fallen Boulder at (23, 16).
-## Verified Traversal Corridors & Routing (Turns 36852-36871)
-- **Central Bridge Boundary**: Central Bridge (cols 6-7, rows 2-6) dead-ends at south cliff row 7/8; to reach lower purple floor basin, route via Row 1 Northern Highway east to (23, 1), south down Col 23 to (23, 6), west along Row 6 to (17, 6), and north through Ramp at (17, 5) onto purple floor (17, 4).
-- **Chokepoint Boulder Highway Route**: From purple floor (17, 4), walk south through Ramp (17, 5) onto Row 6 at (17, 6) -> west along Row 6 to (13, 6) -> south down Column 13 to (13, 11) directly facing Western Chokepoint Boulder at (13, 12). Pushing boulder south to (13, 13) opens direct access to Southern Highway (rows 13-15) and the SE Pit Room at (21, 15).
 
 
 <hr>
