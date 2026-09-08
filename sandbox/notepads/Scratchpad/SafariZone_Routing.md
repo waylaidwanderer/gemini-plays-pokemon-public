@@ -35,10 +35,6 @@
 2. Follow western plateau towards western sector and northern corridor to access Area 2.
 3. Maintain linear progression without looping back to south stairs.
 
-- Turn 7953: Reached (17, 24) at the threshold of the hedge opening. Wild Paras appeared. Remaining steps: ~273. Fleeing via RUN.
-- Turn 7957: Tested (16, 22); confirmed solid bush hedge. Row 22 does not connect west to (12, 21). Remaining steps: 271. Ascending staircase at (20, 21) to cross plateau bridge north to (21, 14).
-- Turn 7960: Reached (21, 14) on northern plateau via col 21 bridge. Remaining steps: 259. Moving Up 2 times to (21, 12) to test northern descent onto row 11 lawn.
-- Turn 7963: Reached (26, 12) on the northeast plateau rim directly south of Rest House 2. Testing Right into corner tile (27, 12) to descend onto the cols 27..28 lawn.
 ## Critical Breakthrough (Turn 7976)
 - Eastern Plateau Confirmed Impassable North & East:
   - (27, 12) tested Turn 7971; 0 tiles moved (solid cliff corner).
@@ -51,10 +47,6 @@
   - On Turns 7631-7647: Ascended (12, 21), crossed western plateau, descended to middle sector, crossed northern elevated area, and reached northern lawn at (21, 10) / Rest House 2 at (25, 9) / corridor to Area 2 at (6, 4)!
   - Hedge at (16, 22) separates east and west lawn.
 - Execution Plan:
-  1. Retrace steps from (26, 12) west to (21, 14) and south across ridge to (20, 21).
-  2. Descend staircase at (20, 21) to (20, 22), return west through gap (17, 23) to row 24.
-  3. Advance west along row 24 to access the western staircase at (12, 21).
-  4. Ascend (12, 21) and follow the western plateau system north into Area 2.
 - Step Budget: ~250 steps remaining (plenty for Area 1 -> Area 2 -> Area 3 -> HM03).
 ## Western Sector & Northern Bridge Verification (Turn 7992)
 - Western Boundary:
@@ -74,3 +66,14 @@
 - Map Transition Detected: Entered Safari Zone Area 2 at (39, 31) from Area 1 western gate.
 - Gate Topology: Enters facing Left between statues at (39, 28..29) and (39, 32..33).
 - Step Budget: 149 steps remaining. Wide open green corridor running west.
+
+## Area 2 Active Routing Framework & Hypotheses
+- Current Baseline: (27, 31), 137 steps remaining.
+- Landmarks Identified:
+  - Eastern Entrance Gate: (39, 30..31) between statues.
+  - Southern Corridor: Rows 28..33 across cols 25..39. Clear lawn at cols 28..39, tall grass patch at cols 20..27.
+  - Northern Staircase: Located at (28, 27) facing south onto (28, 28). Ascends north onto plateau.
+- Area 3 Transition Hypothesis:
+  - Generation 1 Safari Zone Area 2 connects west/southwest into Area 3 (West Area).
+  - Primary path: Follow southern corridor west along rows 30-31 toward western map border (col 0).
+  - Target: Transition into Area 3 with ~110+ steps remaining to claim HM03 Surf (Secret House) and Gold Teeth.

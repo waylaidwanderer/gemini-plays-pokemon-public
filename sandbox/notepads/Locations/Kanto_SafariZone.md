@@ -28,6 +28,7 @@
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 - Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
@@ -53,9 +54,10 @@
   - Turn 7795: Started new session with 500 / 500 steps remaining (¥500 paid Turn 7793).
   - Turn 7883: Exactly 361 / 500 steps remaining (verified at 4, 17).
   - Turn 7900: Re-entered Area 1 at (0, 23) (~338 steps remaining).
-  - Turn 7982: Current position (20, 20) on plateau -> ~243 steps remaining.
+  - Turn 7982: Position (20, 20) on Area 1 plateau -> ~243 steps remaining.
+  - Turn 8007: Entered Safari Zone Area 2 at (39, 31) (149 steps remaining).
+  - Turn 8011: Position (27, 31) in Area 2 tall grass -> 137 steps remaining.
 
-- Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
