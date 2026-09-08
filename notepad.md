@@ -2684,5 +2684,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8225: At (21, 4) with 87 steps remaining. Spotted item ball at (19, 7)! Moving Left 2, Down 2 to (19, 6) and pressing A to collect.
 - Turn 8226: At (19, 6) facing item ball at (19, 7). Interacting returned 'No more room for items!'. Bag is at 20/20 capacity. 83 steps remaining. Opening Start menu to free 2 slots for Gold Teeth and HM03 Surf.
 - Turn 8227: Start menu open. Safari Zone counter displays '14/500' (exactly 14 steps remaining in this session!). Opening ITEM menu via Down, Down, A to inspect bag contents and toss/use items to free inventory space.
+- Turn 8232: Submenu open on TM02 with USE/TOSS. Pressing Down to select TOSS and A to initiate tossing TM02.
 
 <hr>
