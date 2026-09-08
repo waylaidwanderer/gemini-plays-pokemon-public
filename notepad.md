@@ -2616,5 +2616,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7825: At (20, 24) (~430 steps left). Testing Right into (21, 24) and (22, 24) to verify statue collision.
 - Turn 7826: At (21, 24) (~429 steps left). Verified (22, 24) is solid collision. Pressing A to inspect the statue.
 - Turn 7827: (22, 24) statue confirmed non-interactive solid. Moving north along col 19 to reach the central pond crossing.
+- Turn 7829: At (19, 21) (~425 steps left). Stepping Right to col 20 and Up 4 times to (20, 17) to reach row 14 testing position.
 
 <hr>
