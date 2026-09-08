@@ -125,7 +125,7 @@
 
 # Inventory Log
 
-## Items (10 / 11)
+## Items (9 / 11)
 - ESCAPE ROPE x2
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
@@ -148,7 +148,7 @@
 - POKé FLUTE [Obtained Turn 6599]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (1 slot free). MAX POTION obtained Turn 7695.
+- Total Slots Used: 18 / 20 (2 slots free). Verified Turn 7711 (9 regular + 9 key items).
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2545,6 +2545,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- Signpost: Located at (6, 4) in northern corridor.
+- Plateau Western Cliff Corner at (10, 4): Impassable solid cliff edge verified Turn 7702; rock plateau cannot be exited westward directly onto row 4 lawn.
 - Item Ball: Located at (3, 7) on western lawn - MAX POTION [Collected Turn 7695].
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
@@ -2554,8 +2556,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
 - Southern Barrier (Rows 15-16): Continuous barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across the entire western and central sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
-- Central Opening: The only traversable north-south opening between the north and south sectors of Center Area is at cols 20-21.
-- Routing to Area 2: Reconciled with official Area 1 signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'). Center Area lacks an unobstructed north route; true route to Area 2 proceeds through Area 1 via the plateau overpass (stairs at 20, 21 -> 12, 21 -> row 22 -> open highway cols 7..9 north).
+- Area 2 Route: As indicated by official signpost at (5, 23) ('CENTER AREA / NORTH: AREA 2'), route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
 - Northern Overpass (Verified Turn 7643): Elevated rocky bridge spanning cols 11..17 rows 4..7. West staircase at (12, 7) ascends from western highway (cols 7..10); east staircase at (17, 7) descends onto the northern lawn (rows 8..11 cols 17..25). This bridge is the verified path to the northern lawn, the Full Restore at (21, 10), and Rest House 2 at (25, 9). Route to Area 2 continues north along western corridor (cols 7..10).
 
 <hr>
