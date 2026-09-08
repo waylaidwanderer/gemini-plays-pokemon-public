@@ -2623,5 +2623,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 7953: Reached (17, 24) at the threshold of the hedge opening. Wild Paras appeared. Remaining steps: ~273. Fleeing via RUN.
 - Turn 7957: Tested (16, 22); confirmed solid bush hedge. Row 22 does not connect west to (12, 21). Remaining steps: 271. Ascending staircase at (20, 21) to cross plateau bridge north to (21, 14).
 - Turn 7960: Reached (21, 14) on northern plateau via col 21 bridge. Remaining steps: 259. Moving Up 2 times to (21, 12) to test northern descent onto row 11 lawn.
+- Turn 7963: Reached (26, 12) on the northeast plateau rim directly south of Rest House 2. Testing Right into corner tile (27, 12) to descend onto the cols 27..28 lawn.
 
 <hr>
