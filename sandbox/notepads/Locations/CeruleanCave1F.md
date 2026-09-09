@@ -24,6 +24,7 @@
   - Pokéball item at (19, 3) on northern ledge.
   - Pokéball item at (7, 13) in southwest cavern.
   - Pokéball item at (5, 0) on isolated NW terrace.
+  - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
 - Water canals:
   - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures and western cavern.
   - Southern canal at rows 10-11 (cols 24-29) - accessed via stairs ramp at (25, 9) into (25, 10).
