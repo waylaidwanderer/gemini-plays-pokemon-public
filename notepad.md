@@ -2970,6 +2970,8 @@
 - Ladder at (18, 9) <-> 2F Component C (19, 7) (isolated alcove).
 - Ladder at (23, 7) <-> 2F Component B (22, 6) (isolated landing).
 - Entrance Chamber passage: (21, 11) connects north to row 10 main corridor (21, 10).
+- Ladder at (27, 1) <-> 2F Component D (29, 1) (isolated NE landing).
+- Northern Water Canal: Continuous navigable water channel across rows 4-5 (cols 0-29).
 
 <hr>
 
