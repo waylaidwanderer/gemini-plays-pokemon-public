@@ -70,7 +70,7 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 92
-   - Stats: Max HP 319 (HP: 319/319), Attack 228, Defense 250, Speed 232, Special 240
+   - Stats: Max HP 319 (HP: 302/319), Attack 228, Defense 250, Speed 232, Special 240
    - Type: Water
    - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -100,10 +100,29 @@
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Wrap utility (Slot 6)
 
-## Inventory & Resources
-- Badges: 8/8 (All Kanto Badges earned!)
-- Key Items: Bicycle, Poké Flute, Silph Scope, Good Rod, Secret Key
-- HMs: HM01 (Cut), HM02 (Fly), HM03 (Surf), HM04 (Strength)
+## Verified Bag Inventory (Turn 39819 Empirical Audit)
+- Slot 1: BICYCLE
+- Slot 2: HM03 (Surf)
+- Slot 3: HM04 (Strength)
+- Slot 4: TM14 x1 (Blizzard - Cerulean Cave 2F (4, 15))
+- Slot 5: TM22 x1 (SolarBeam - Pok�mon Mansion)
+- Slot 6: SECRET KEY
+- Slot 7: TM27 x1 (Fissure - Viridian Gym Giovanni)
+- Slot 8: TM47 x1 (Explosion - Victory Road)
+- Slot 9: TM17 x1 (Submission - Victory Road)
+- Slot 10: GUARD SPEC. x1
+- Slot 11: POTION x1
+- Slot 12: TM05 x1 (Mega Kick)
+- Slot 13: POK� BALL x1
+- Slot 14: PP UP x1
+- Slot 15: FULL RESTORE x2
+- Slot 16: NUGGET x1
+- Slot 17: ULTRA BALL x1
+- Bag capacity: 17/20 slots used (3 free slots).
+
+## PC Item Storage Notes
+- Master Ball, Pok� Flute, Silph Scope, Good Rod, Helix Fossil stored in PC Storage.
+
 
 <hr>
 
