@@ -64,3 +64,5 @@
 - Turn 8606: Ascended staircase at (20, 21), crossed plateau to (12, 21), descended to (12, 22).
 - Turn 8611: Reached (10, 14) on western pond corridor. Active step budget baseline: ~366 steps remaining.
 - Turn 8641: Reached (26, 20) in Area 2 via Eastern Plateau bypass. Active step budget baseline: ~238 steps remaining.
+
+- Turns 8642-8663: Explored row 16 lawn to (17, 16) (blocked at 16, 16), returned east, ascended (34, 15) to (34, 14), traversed Eastern Plateau south along cols 37..38 to row 25, reached (33, 25). Active step budget baseline: ~197 steps remaining.
