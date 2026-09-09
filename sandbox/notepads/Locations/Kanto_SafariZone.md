@@ -65,7 +65,7 @@
 - Western Plateau & Elevated Bridge (Turns 9460-9485):
   - Spans cols 14..22 rows 20..27.
   - Acts as an elevated bridge across the column 17 dense bush hedge (which spans rows 28..33 dividing the southern sector).
-  - Ascended via east staircase at (22, 23).
+  - Ascended via east staircase at (22, 23) [Empirically verified Turn 10160 via cols 22..25 tall grass corridor].
   - Descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly south to Area 3 gate at (8..9, 34..35).
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
