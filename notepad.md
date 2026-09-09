@@ -3052,9 +3052,9 @@
 ## Connections
 - Ladder at (22, 6): Connects down to 1F at (23, 7). Isolated 2-tile landing.
 - Ladder at (19, 7): Connects down to 1F at (18, 9). Isolated 3x3 alcove (dead-end, no passage to 2F maze).
-- Ladder at (29, 1): Connects down to 1F at (27, 1). MAIN ACCESS to entire 2F maze and corridors (contains item at (29, 9))!
+- Ladder at (29, 1): Connects down to 1F at (27, 1). Isolated 7-tile landing (dead-end).
 - Ladder at (9, 1): Connects down to 1F at (7, 1) on isolated NW terrace (verified Turn 39491, 39568).
-- Ladder at (1, 3): Connects down to 1F at (1, 3) (verified Turn 39595).
+- Ladder at (1, 3): Connects down to 1F at (1, 3). MAIN ACCESS TO ENTIRE 2F MAZE & CORRIDORS!
 
 ## Map Layout & Exploration
 - Central/western corridors span cols 15-21 and rows 3-11.
