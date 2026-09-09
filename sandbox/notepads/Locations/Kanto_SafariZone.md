@@ -54,6 +54,10 @@
 ## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 
+## Area 1 Elevation Network & Topology
+- South Plateau Bridge: Connects southern entrance corridor to eastern sector. Ascended via south-facing stairs at (20, 21), traverses north along cols 21..22 ridge across rows 15..20, and descends via east-facing/south-facing stairs at (24, 15) to eastern ground corridor.
+- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Provides mandatory high-ground crossing to bypass the impassable ground-level barrier between eastern and western Area 1.
+
 ## Area 2 (North)
 - Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
 - Obstacle Collision at (16, 16): Bumping west from (17, 16) confirmed solid obstacle collision at (16, 16) [Turn 8637].

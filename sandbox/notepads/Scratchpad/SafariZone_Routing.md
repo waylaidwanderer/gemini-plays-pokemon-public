@@ -18,7 +18,8 @@
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 9038: At (18, 4) (137 steps used, 363 remaining). Row 4 north/east edges confirmed cliffs. Descended via (17, 7) stairs to (20, 8).
-- Turn 9064: At (17, 9) (149 steps used, 351 remaining). Rows 4..6 cols 20..22 visually appear as bush hedges. Routing west along row 9 lawn (bypassing tall grass at 16, 8) to test passage toward col 12.
+- Turn 9064: At (17, 9) (149 steps used, 351 remaining). Rows 4..6 cols 20..22 visually appear as bush hedges.
+- Turn 9066: At (16, 9) (150 steps used, 350 remaining). Bumping west into (15, 9) confirmed solid tree trunk collision. Ground passage west blocked by tree (14..15, 8..9) and cliff (13..16, 7). Ascending (17, 7) stairs to cross plateau bridge west to (12, 7) stairs.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
