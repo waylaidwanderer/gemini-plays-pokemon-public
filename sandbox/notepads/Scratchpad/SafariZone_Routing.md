@@ -37,9 +37,9 @@
 8. At row 30-31 boulevard, walk west past col 6, turn south along western corridor (cols 1-3) through row 25 signpost to (3, 33), and step Down through gate at (2..3, 34..35) to enter Area 3 at (21, 0)!
 
 ### Phase 4: Area 3 (Secret House - HM03 Surf)
-1. Enter Area 3 at (21, 0).
-2. Step Down to rows 2-4 and sprint directly WEST along the open northern lawn highway (rows 2-5, cols 0-21).
-3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
+1. Enter Area 3 at (26, 0) from Area 2.
+2. Follow east path south to plateau bridge (21, 17), cross west to (10, 16), descend stairs at (6, 19).
+3. Navigate southern plaza and unexplored sectors to locate Secret House, enter, and receive HM03 (Surf).
 
 ## Active Session Step Tracking (Session 4 - Turn 8345)
 - Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
@@ -69,5 +69,8 @@
 - Turn 8422: Entered building at (11, 11), identified as Rest House 4 (not Secret House).
 - Turn 8429: Exited Rest House 4 back into Area 3 at (11, 12) (258 steps remaining). Now heading to northwest quadrant.
 
-- Turn 8446: Position (1, 23). Row 24 bush line opens at col 10/11 into southern plaza (rows 25-29 cols 1-11). Heading east to col 10 to enter southern plaza and locate Secret House.
-- Turn 8447: Position (5, 23) tall grass encounter with Doduo (238 steps remaining, 262 steps used). Fleeing to continue east along row 23 to col 10 opening.
+- Turn 8446: Position (1, 23). Row 24 bush line opens at (10, 24) into southern plaza.
+- Turn 8447: Position (5, 23) tall grass encounter with Doduo (238 steps remaining, 262 steps used). Fled battle.
+- Turn 8453: Reached (10, 24) bush opening (232 steps remaining, 268 steps used).
+- Turn 8457: Walked east along row 24 lawn to (15, 24) (227 steps remaining, 273 steps used).
+- Turn 8461: Position (15, 24). Scouting southern plaza (rows 26-28) and eastern sector.
