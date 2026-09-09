@@ -29,7 +29,6 @@
 ### Phase 3: Area 2 to Area 3 (~65 steps)
 1. Enter Area 2 at (39, 31).
 2. Walk west along open lawn corridor (rows 30-31) to (23, 30).
-3. Walk north along ground corridor past the eastern plateau (do NOT ascend 28, 27 which hits cliff at 26, 26).
 4. Ascend through western staircase at (22, 23) to access western ridge at (16, 27).
 5. Descend staircase at (16, 27) to ground lawn at (16, 28).
 6. Walk west along row 30 boulevard past Rest House 3 to (6, 30).
@@ -64,3 +63,4 @@
 - Turn 8603: Wild Nidoran male at (20, 22), fled with 0 step loss.
 - Turn 8606: Ascended staircase at (20, 21), crossed plateau to (12, 21), descended to (12, 22).
 - Turn 8611: Reached (10, 14) on western pond corridor. Active step budget baseline: ~366 steps remaining.
+- Turn 8641: Reached (26, 20) in Area 2 via Eastern Plateau bypass. Active step budget baseline: ~238 steps remaining.
