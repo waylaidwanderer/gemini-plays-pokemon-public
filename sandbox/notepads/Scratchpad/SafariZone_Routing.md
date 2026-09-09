@@ -48,15 +48,14 @@
 - Turn 8493: Standing at (25, 3).
 - Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
 - Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
-## Session 5 Master Routing (Center Area Shortcut to Area 3)
-- **Gatehouse to Area 3 (~41 steps total)**:
-  1. Enter Center Area at (14, 25) [500 steps].
-  2. Walk north to row 22, east to (20, 22) [9 steps].
-  3. Walk north to row 11 at (20, 11) [11 steps].
-  4. Walk west along row 11 to (0, 11) [20 steps].
-  5. Step Left into Area 3 at (29, 23) [1 step].
-- **Remaining Budget in Area 3**: ~459 steps!
-- **Area 3 Objective**: Explore southern corridor (rows 26-29) and locate the Secret House to receive HM03 Surf!
+## Center Area Topological Finding (Empirically Verified Turn 8592)
+- The western sector of Center Area (cols 0-16) is physically SEPARATED from the southern entrance and eastern corridor on foot:
+  - North: Blocked by Central Pond (rows 10-13), row 9 hedge (cols 22-27), and tree barrier at (28..29, 8..9).
+  - Central: Blocked by stone statues on row 14 under the pond.
+  - South: Blocked by wooden fence on row 15, bush hedge on row 16 (cols 2-5), and tree barrier on rows 16-17 (cols 0-1).
+- Conclusion: The warp at (0, 11) is a one-way exit from Area 3 back into Center Area (or requires Surf).
+- The ONLY viable ground path to Area 3 is the canonical clockwise route: Center Area -> Area 1 -> Area 2 -> Area 3!
+- Active Budget: 447 steps remaining in Session 5. En route to Area 1 (~34 steps away). Projected steps upon entering Area 3: ~278 steps.
 ## Active Session Step Tracking (Session 5 - Turn 8572)
 - Turn 8572: Started Session 5 (500 steps, ¥72368, 30 Safari Balls).
 - Turns 8572-8580: Traversed Center Area from (15, 24) -> (20, 23) -> (20, 15) -> (22, 11) -> (28, 10) [blocked by trees at 28-29, 9] -> back to (22, 14). Total steps taken: 33 steps (~467 steps remaining).
