@@ -2602,6 +2602,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
 
+- Northern Plateau Overlook (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804. No staircase down to northwest lawn from here; scenic overlook above Rest House 4.
 
 <hr>
 
