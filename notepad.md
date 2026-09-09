@@ -2651,5 +2651,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
 - Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
 - Turn 8522: Standing at (1, 23). Active step budget baseline: ~100 steps remaining.
+- Turn 8538: Discovered signpost at (24, 22) in southern clearing. Position: (21, 22) (~63 steps remaining).
 
 <hr>
