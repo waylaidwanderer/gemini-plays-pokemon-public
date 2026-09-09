@@ -2666,21 +2666,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Southern Sector Navigation to Area 3)
-- Current Position: Safari Zone Area 2 at (18, 32) [Turn 10034]
+- Current Position: Safari Zone Area 2 at (18, 32) [Turn 10051]
 - Steps Remaining: ~197 / 500 steps
+- Empirically Verified Area 2 Collisions:
+  - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
+  - (18, 27): Cliff face from (18, 28) (Turn 10027)
+  - (20, 20): Northern cliff face from row 19 (Turn 9897)
+  - (25, 23): Cliff face (Turns 9903, 10004)
+  - (32, 12): Cliff corner (Turn 10022)
+  - (31, 11): Statue (Turn 10022)
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
-  - Western lawn corridor (cols 14..16 rows 28..33) leads directly south to Area 3 gate.
-  - West staircase of elevated bridge is at (16, 27) descending onto (16, 28).
-  - Column 17 is a bush hedge dividing col 18 from col 16 across rows 28..33.
-  - Testing breach across col 17 at (17, 32) to enter western corridor directly!
-  - Alternative: structure at (19, 33) tested from west (18, 33), or row 19 northern ascent (22..24, 20).
-- Immediate Route Plan:
-  1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
-  2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
-  3. Area 1 Canopy Highway: Breach Col 20 canopy (20, 6..3) -> Row 3 corridor west -> runway (0, 5) into Area 2 at (39, 31).
-  4. Area 2 Traversals: Ascend East Plateau (28, 27) -> north to (34, 14) -> descend (34, 15) to (34, 16) -> Central Lawn west to (22, 23) -> ascend Western Plateau (22, 23) -> cross to west stairs (16, 27) -> descend to (16, 28) -> south to Area 3 gate (8..9, 34..35).
-  5. Area 3 Arrival: Enter Area 3 at (26, 0) with ~325 steps remaining, locate Secret House, claim HM03 Surf!
+  - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
