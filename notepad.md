@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: In Room 1 battling Elite Four Lorelei! Dewgong (SLP, Red HP) facing HYDROS (Lv 88, 222/303 HP). Gauntlet sweep in progress.
+- League Status: Elite Four Lorelei (Room 1) DEFEATED! HYDROS at Lv 89 (92/308 HP). Entering Room 2 to battle Elite Four Bruno.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 89
-   - Stats: Max HP 308 (HP: 108/308), Attack 218, Defense 240, Speed 221, Special 229
+   - Stats: Max HP 308 (HP: 92/308), Attack 218, Defense 240, Speed 221, Special 229
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (10/10), Bite (25/25), Surf (14/15)
+   - Moves: Double-Edge (9/15), Ice Beam (10/10), Bite (25/25), Surf (13/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 18
    - Stats: Max HP 59 (HP: 59/59)
@@ -194,7 +194,7 @@
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 - [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
 
-- [ ] Defeat Elite Four Lorelei in Room 1 (Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56)
+- [x] Defeat Elite Four Lorelei in Room 1 (Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Defeated Turn 39079]
 - [ ] Defeat Elite Four Bruno in Room 2 (Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58)
 - [ ] Defeat Elite Four Agatha in Room 3 (Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60)
 - [ ] Defeat Elite Four Lance in Room 4 (Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)

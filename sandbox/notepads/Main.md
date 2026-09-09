@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: In Room 1 battling Elite Four Lorelei! Dewgong (SLP, Red HP) facing HYDROS (Lv 88, 222/303 HP). Gauntlet sweep in progress.
+- League Status: Elite Four Lorelei (Room 1) DEFEATED! HYDROS at Lv 89 (92/308 HP). Entering Room 2 to battle Elite Four Bruno.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
