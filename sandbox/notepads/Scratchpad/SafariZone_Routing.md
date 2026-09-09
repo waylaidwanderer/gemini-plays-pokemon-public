@@ -35,3 +35,5 @@
 3. Northbound Lawn Ascent: Walk north along col 23 from row 14 up to row 4 at (23, 4) (10 steps).
 4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
 5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
+
+- Turn 8908: At (6, 23) (49 steps remaining). Walking east along row 23 to (11, 23).

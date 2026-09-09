@@ -2616,30 +2616,44 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 <h1><code>Scratchpad/SafariZone_Routing</code></h1>
 
+# Safari Zone Routing & Progression Master Log
+
 ## Active Session Step Tracking (Session 6 - Turn 8723)
 - Turn 8723: Started Session 6 with 500 steps (fee ¥500).
-- Turns 8723-8729: Traversed Center Area via row 15 tree gap to (28, 15) and entered Area 1 at (0, 23) (27 steps, 473 remaining).
-- Turns 8729-8734: Traversed row 24 to (17, 24) (10 steps), ascended lower plateau (20, 21)->(20, 20) (7 steps), crossed to (12, 20) and descended (12, 21)->(12, 22) (10 steps, 438 remaining).
-- Turns 8735-8738: Walked west to col 9, north past pond (fled Parasect at 10, 13 with 0 step loss), ascended northern bridge (12, 7)->(12, 6) (22 steps, 416 remaining).
-- Turns 8739-8763: Explored northern Area 1, confirmed row 3 canopy corridor is fully passable, returned to bridge at (12, 6) (356 steps remaining).
-- Turns 8763-8767: Crossed bridge east to (17, 6)->(20, 8)->(20, 3), west along row 3 canopy to (6, 3), down to row 5, entered Area 2 at (0, 5) (39 steps, 317 remaining).
-- Turns 8768-8778: Traversed Area 2 southern corridor to (22, 29), ascended Western Plateau at (22, 23), descended at (16, 27) to (16, 28), west to (8, 35), entered Area 3 at (26, 0) (55 steps, 262 remaining).
-- Turns 8779-8780: Walked south down East Corridor to (25, 11) (12 steps, 250 remaining). Active step baseline: 250 steps remaining in Session 6.
-- Turns 8781-8791: Ascended plateau bridge at (21, 17) to (21, 16) (~237 steps remaining). Moving west along row 15 corridor.
-- Turn 8806: Confirmed (10, 8) is impassable cliff. Northern plateau is a scenic overlook. Returning east along row 8 to (16, 8) (~219 steps remaining).
-- Turn 8847: Walking Up to (16, 8) and Left along row 8 to (13, 8) (~145 steps remaining).
-- Turn 8874: Walking north along col 25 to row 4 junction at (25, 4) (~101 steps remaining).
-- Turn 8882: At (25, 4) (101 steps remaining). Reading signpost at (26, 4).
-- Turn 8886: Dismissing signpost text with B, testing step Left into (24, 4) (101 steps remaining).
-- Turn 8888: Walking south along col 25 to (25, 10) (~95 steps remaining).
-- Turn 8890: Walking south along col 25 to (25, 16) (~89 steps remaining).
-- Turn 8892: Walking Down to (25, 18) and Left to staircase base at (21, 18) (~83 steps remaining).
-- Turn 8894: Ascending staircase to (21, 16) and walking west across bridge to (17, 16) (~77 steps remaining).
-- Turn 8896: Walking Left to (16, 16), Down to (16, 17), and Left across row 17 to (12, 17) (~71 steps remaining).
-- Turn 8898: Walking Left across row 17 to (6, 17) (~65 steps remaining).
-- Turn 8900: Descending staircase at (6, 19) to (6, 20) and walking west along row 20 to (3, 20) (~59 steps remaining).
-- Turn 8902: Stepping Left to (1, 20) and Down along col 1 to (1, 23) (~54 steps remaining).
-- Turn 8904: Stepping Right to (2, 23) and testing Down into row 24 bush hedge at (2, 24) (~53 steps remaining).
-- Turn 8906: Walking east along row 23 to (6, 23) toward Center Area exit (~49 steps remaining).
+- Turns 8723-8778: Traversed Center Area -> Area 1 -> Area 2 to Area 3 entrance at (26, 0) (238 steps used, 262 remaining).
+- Turns 8778-8862: Explored Area 3 plateau network and overlook:
+  - Ascended plateau bridge at (21, 17) -> (21, 16).
+  - Traversed north along col 16 ridge to northern overlook (rows 6..8, cols 11..16).
+  - 100% Empirically verified northern overlook has NO descent to Northwest Lawn:
+    - (10, 8) solid cliff (Turn 8804)
+    - (11, 5) solid cliff (Turn 8856)
+    - (10, 6) solid cliff (Turn 8859)
+    - (10, 7) solid cliff (Turn 8861)
+  - Retraced south to (21, 16) and descended staircase at (21, 17) to East Corridor (21, 18).
+- Turns 8868-8886: Inspected East Corridor at (25, 4):
+  - Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration Campaign! / The Search for the SECRET HOUSE!'
+  - Empirically confirmed column 24 bush hedge is solid at (24, 4) (Turn 8886).
+- Turns 8887-8906: Explored Sector SW:
+  - Crossed plateau bridge to western staircase at (6, 19).
+  - Descended to row 20 tall grass at (6, 20), traversed west to col 1 clear lawn corridor.
+  - Empirically confirmed southern boundary at (2, 24) is solid bush hedge (Turn 8905).
+  - 100% Empirically verified Sector SW contains NO buildings and NO Secret House!
+- Turn 8907: At (6, 23) in southern corridor (~49 steps remaining). Walking east along row 23 toward Center Area exit at (24, 22).
+
+## Session 7 Master Route: Direct Path to Secret House (HM03 Surf)
+- Step Budget Feasibility: Total required steps from Safari entrance to Secret House is ~198 steps (Surplus: ~302 steps).
+### Phase 1: Gatehouse to Area 3 Entrance (~152 steps)
+1. Center Area: (14, 25) -> north through tree gap (23, 15) -> east exit to Area 1 (0, 23) (~27 steps).
+2. Area 1: (0, 23) -> lower plateau (20, 21)->(12, 21) -> north bridge (12, 7)->(12, 6) -> canopy corridor (20, 3)->(6, 3) -> Area 2 gate (0, 5) (~70 steps).
+3. Area 2: (39, 31) -> southern corridor to (22, 29) -> western plateau (22, 23)->(16, 28) -> west to gate (8, 35) -> Area 3 entrance (26, 0) (~55 steps).
+
+### Phase 2: Area 3 Entrance to Secret House (~46 steps)
+1. East Corridor: From (26, 0), walk straight south along col 25 past signpost at (26, 4) to row 14 at (25, 14) (14 steps).
+2. Row 14 Ground Bypass: Step west through the opening at (24, 14) into col 23 at (23, 14) (2 steps).
+3. Northbound Lawn Ascent: Walk north along col 23 from row 14 up to row 4 at (23, 4) (10 steps).
+4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
+5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
+
+- Turn 8908: At (6, 23) (49 steps remaining). Walking east along row 23 to (11, 23).
 
 <hr>
