@@ -2644,34 +2644,33 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session Status
 - Session Start: Turn 9340 (¥500 paid, 30 Safari Balls, 500 step budget)
-- Initial Budget: 500 steps
-- Steps Used to Area 2 Entrance (39, 31): 125 steps [Turn 9430]
-- Traversal Log:
-  - Area 2 Traversal (Solved & Exited): 176 steps consumed [Turns 9435-9532]
-  - Area 3 Entrance (26, 0) -> (27, 11): 12 steps [Turns 9535-9539]
-  - (27, 11) -> (27, 18): 7 steps [Turn 9545]
-  - (27, 18) -> (22, 21): 8 steps [Turn 9548]
-  - (22, 21) -> (18, 24): 7 steps [Turn 9551]
-  - (18, 24) -> (19, 24): 2 steps [Turn 9554]
-  - (18, 24) -> (21, 24) -> (19, 24): 5 steps [Turn 9557]
-  - (19, 24) -> (26, 23): 8 steps [Turn 9560]
-  - Total Area 3 Steps so far: 49 steps
-- Cumulative Steps Used: 350 steps [Turn 9560]
-- Steps Remaining: 150 / 500 steps
-- Current Position: (26, 23) facing Right on East Corridor
+- Current Turn: 9601
+- Current Position: (8, 16) on elevated Southern Plateau facing Left
+- Unified Step Ledger:
+  - Area 1 Traversal (Gate to Area 2): 125 steps [Turn 9430]
+  - Area 2 Traversal (Area 1 Gate to Area 3 Gate): 176 steps [Turn 9532]
+  - Area 3 Entrance (26, 0) to East Boundary: 49 steps [Turn 9560]
+  - East Boundary / Center Warp / Return to Area 3: 5 steps [Turns 9568-9579]
+  - Central Corridor to Staircase (21, 17) Ascent: 19 steps [Turns 9580-9593]
+  - Plateau Bridge Traversal (21, 16 to 8, 16): 13 steps [Turns 9594-9600]
+  - Cumulative Steps Used: 387 / 500 steps
+  - Steps Remaining: 113 / 500 steps
 
-## Master Map & Route to Secret House (Verified Turn 9593)
-- Southern Plateau Bridge Confirmed:
+## Master Map & Western Descent (Empirically Confirmed Turn 9601)
+- Southern Plateau Bridge:
   - Eastern Staircase: (21, 17) [Ascended Turn 9593 onto 21, 16]
-  - Elevated Floor: Rows 14..16 across cols 6..22
-  - Western Staircase: (6, 19) [Connects to ground level tall grass at 6, 20]
-- Ground Path to Secret House:
-  - From (6, 20), head west to Western Corridor (col 1..2)
-  - Follow corridor north past rows 14..15 around water pond to Northwest Lawn (item ball at 9, 7)
-  - Enter Secret House in Northwest and receive HM03 Surf!
-- Step Ledger:
-  - Steps Used: 374 / 500 steps
-  - Steps Remaining: 126 steps
-  - Estimated Steps to Secret House: ~35-40 steps (Surplus: ~85 steps!)
+  - Elevated Floor: Spans cols 5..22 across rows 16..18 [Visually verified Turn 9601]
+  - Western Staircase: Located at (6, 19) facing south [Visually verified Turn 9601]
+  - Elevated Approach: (6, 18) directly above staircase
+  - Ground Landing: (6, 20) tall grass at base of staircase
+- Next Execution Steps (Descent to Ground):
+  1. (8, 16) -> Left 2 to (6, 16) [2 steps]
+  2. Down 2 to (6, 18) [2 steps]
+  3. Down 2 through staircase (6, 19) to ground level at (6, 20) [2 steps]
+  - Total steps to ground: 6 steps (107 steps remaining).
+- Ground Search Plan for Secret House:
+  - From (6, 20), head west to Western Corridor (cols 1..2).
+  - Scout north around water pond towards Northwest Lawn (item ball at 9, 7) and scout south towards southwest lawn.
+  - Step Margin: ~107 steps available, ample budget to locate and enter Secret House for HM03 Surf.
 
 <hr>
