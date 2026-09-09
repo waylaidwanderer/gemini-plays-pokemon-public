@@ -28,15 +28,16 @@
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 9 Step Ledger
-- Status: Active Session 9 (Eastern Plateau Ridge Traversal to Southern Corridor)
-- Current Position: Safari Zone Area 2 at (34, 16) [Turn 9935]
+- Status: Active Session 9 (Row 33 Southern Bypass -> Area 3 Gateway Dash)
+- Current Position: Safari Zone Area 2 at (22, 33) [Turn 9944]
 - Wallet Balance: ¥70368 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 369 steps (Center Area: 28 steps, Area 1: 78 steps, Area 2: 263 steps)
-- Steps Remaining: 131 / 500 steps
-- Confirmed Collisions: (20, 20) cliff, (22, 20) cliff, (25, 23) cliff, (26, 24) cliff corner, (16, 12) bush, (16, 19) bush, (32, 12) cliff corner, (37, 11) cliff edge.
-- Current Event: Ascending Eastern Plateau at (34, 15) to traverse ridge south to (28, 27) and access southern corridor to Area 3 gate.
-- Immediate Route Plan: Ascend (34, 15) to (34, 14), east to (37, 14), south along col 37 to (37, 25), west to (28, 25), descend at (28, 27) onto southern corridor, head west on row 32/33 to Area 3 gate.
+- Steps Expended: 410 steps (Center Area: 28 steps, Area 1: 78 steps, Area 2: 304 steps)
+- Steps Remaining: 90 / 500 steps
+- Confirmed Breakthrough: Row 33 is an open southern bypass corridor! Tiles (26, 33), (25, 33), (24, 33), (23, 33), (22, 33) are fully passable, connecting directly to open lawn at cols 18..21 rows 30..35.
+- Distance to Area 3 Gate: ~14 steps west to col 8, 2 steps south to row 35 (~16 steps total).
+- Projected Steps in Area 3: ~74 steps remaining upon entering Area 3!
+- Immediate Route Plan: Press Left past col 19 bridge deck to (18, 33) -> (8, 33) -> Down to (8, 35) into Area 3!
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
