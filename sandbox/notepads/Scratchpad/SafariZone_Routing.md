@@ -42,7 +42,7 @@
 3. Locate and enter Secret House to receive HM03 (Surf).
 
 ## Active Session Step Tracking (Session 4 - Turn 8345)
-- Turns 8345–8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
-- Turns 8403–8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
+- Turns 8345ï¿½8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
+- Turns 8403ï¿½8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
 - Turn 8489: Reached (25, 3) (~147 steps remaining). Confirmed (24, 3) is solid bush barrier blocking westward progress across col 24.
 - Turn 8493: Standing at (25, 3). Signpost located at (26, 4).
