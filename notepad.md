@@ -2674,11 +2674,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Traversal: (15, 25) -> (15, 21) [4] -> (20, 21) [5] -> (20, 17) [4] -> (22, 15) [4] -> (27, 15) [5] -> (28, 11) [5] -> Area 1 (0, 23) [2]
   - Steps Expended: 29 steps
 - Stage 2 (Area 1 Traversal): Budgeted ~110 steps
-  - Traversal: (0, 23) -> (1, 23) [1] -> (1, 24) [1] -> (4, 24) [3] -> (9, 24) [5] -> (13, 24) [4]
-  - Steps Expended in Stage 2: 14 steps
-  - Total Steps Expended: 43 steps
-  - Steps Remaining: 457 steps [Turn 9760]
-  - Current Position: Safari Zone Area 1 at (13, 24) facing Right
+  - Traversal: (0, 23) -> (1, 23) [1] -> (1, 24) [1] -> (4, 24) [3] -> (9, 24) [5] -> (13, 24) [4] -> (17, 24) [4]
+  - Steps Expended in Stage 2: 18 steps
+  - Total Steps Expended: 47 steps
+  - Steps Remaining: 453 steps [Turn 9763]
+  - Current Position: Safari Zone Area 1 at (17, 24) [Encounter: Wild Nidoran♀]
   - Verified Route: southern corridor (row 24) to (17, 24) -> South Plateau at (20, 21) -> descend at (12, 21) -> Pond bypass (cols 8..10) -> North Bridge at (12, 7) to (17, 7) -> Col 20 permeable canopy (20, 6..3) -> Row 3 canopy corridor (cols 16..10) -> Area 2 gate at (0, 4..5).
 - Stage 3 (Area 2 Traversal): Budgeted ~100 steps
   - Verified Route: Eastern Plateau descent (34, 15) -> Central Lawn -> Western Plateau bridge (22, 23 to 16, 27) -> Area 3 gate at (8..9, 34..35).
