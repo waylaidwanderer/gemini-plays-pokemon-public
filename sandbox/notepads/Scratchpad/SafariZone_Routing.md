@@ -11,3 +11,4 @@
 - Turn 8806: Confirmed (10, 8) is impassable cliff. Northern plateau is a scenic overlook. Returning east along row 8 to (16, 8) (~219 steps remaining).
 - Turn 8847: Walking Up to (16, 8) and Left along row 8 to (13, 8) (~145 steps remaining).
 - Turn 8874: Walking north along col 25 to row 4 junction at (25, 4) (~101 steps remaining).
+- Turn 8882: At (25, 4) (101 steps remaining). Reading signpost at (26, 4).
