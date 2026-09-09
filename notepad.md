@@ -2987,5 +2987,6 @@
 - Kadabra (Psychic)
 - Dodrio (Normal/Flying)
 - Rhydon (Ground/Rock)
+- Electrode (Electric)
 
 <hr>
