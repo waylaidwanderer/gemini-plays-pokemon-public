@@ -9,7 +9,7 @@
   - Shore Ramp (11, 13): Connects Southern canal cove to Central Plateau (11..18, 8..12).
 - **Ladders**:
   - Ladder B: (23, 7) <-> 2F (22, 6) [Central-East landing, accessible via shore ramp at (25, 9)].
-  - Ladder C: (18, 9) <-> 2F (19, 7) [Central platform transit hub; directly accessible from Central Plateau via Row 8 East (11..18, 8) -> (18, 9)].
+  - Ladder C: (18, 9) <-> 2F (19, 7) [Central platform transit hub; requires navigating southern canal / water cove].
   - Ladder D: (27, 1) <-> 2F (29, 1) [NE Landing, accessible via shore ramp at (23, 3); isolated 2F landing for PP Up].
   - Ladder E: (7, 1) <-> 2F (9, 1) [Isolated NW terrace with one-way ledge jump down at (15, 3)].
   - Ladder A1 (Hypothesized NW Ladder): (1, 3) <-> 2F (1, 3) [Accessible via Northern Grand Highway on 2F].
