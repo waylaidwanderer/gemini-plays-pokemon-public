@@ -37,7 +37,7 @@
 - Slot 2: HM03 (Surf)
 - Slot 3: HM04 (Strength)
 - Slot 4: TM14 x1 (Blizzard - Cerulean Cave 2F (4, 15))
-- Slot 5: TM22 x1 (SolarBeam - Pokémon Mansion)
+- Slot 5: TM22 x1 (SolarBeam - Pokï¿½mon Mansion)
 - Slot 6: SECRET KEY
 - Slot 7: TM27 x1 (Fissure - Viridian Gym Giovanni)
 - Slot 8: TM47 x1 (Explosion - Victory Road)
@@ -45,7 +45,7 @@
 - Slot 10: GUARD SPEC. x1
 - Slot 11: POTION x1
 - Slot 12: TM05 x1 (Mega Kick)
-- Slot 13: POKé BALL x1
+- Slot 13: POKï¿½ BALL x1
 - Slot 14: PP UP x1
 - Slot 15: FULL RESTORE x2
 - Slot 16: NUGGET x1
@@ -53,4 +53,4 @@
 - Bag capacity: 17/20 slots used (3 free slots).
 
 ## PC Item Storage Notes
-- Master Ball, Poké Flute, Silph Scope, Good Rod, Helix Fossil stored in PC Storage.
+- Master Ball, Pokï¿½ Flute, Silph Scope, Good Rod, Helix Fossil stored in PC Storage.
