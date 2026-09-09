@@ -32,6 +32,7 @@
 - Turn 9213: At (24, 14) (~324 steps used, ~176 remaining). Ascended South Plateau via (24, 15) stairs.
 - Turn 9222: At (12, 22) (~344 steps used, ~156 remaining). Descended South Plateau via (12, 21) stairs.
 - Turn 9243: At (13, 6) (~378 steps used, ~122 remaining). On North Plateau Bridge.
+- Turn 9251: At (2, 7) facing Up (90 / 500 steps remaining, 27 Balls). Testing Cut on (2, 6).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
