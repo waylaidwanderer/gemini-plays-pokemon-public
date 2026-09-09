@@ -69,3 +69,4 @@
 
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
+- West Exit (to Area 3): Open corridor at (0, 10..11) [Verified Turn 8551]. Connects directly to Area 3 eastern corridor at (29..30, 22..23). Allows direct access from Center Area to Area 3 in ~40 steps, bypassing Area 1 and Area 2 entirely!
