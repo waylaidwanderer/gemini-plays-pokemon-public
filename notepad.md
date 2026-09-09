@@ -2613,10 +2613,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8723-8729: Traversed Center Area via row 15 tree gap to (28, 15) and entered Area 1 at (0, 23) (27 steps, 473 remaining).
 - Turns 8729-8734: Traversed row 24 to (17, 24) (10 steps), ascended lower plateau (20, 21)->(20, 20) (7 steps), crossed to (12, 20) and descended (12, 21)->(12, 22) (10 steps, 438 remaining).
 - Turns 8735-8738: Walked west to col 9, north past pond (fled Parasect at 10, 13 with 0 step loss), ascended northern bridge (12, 7)->(12, 6) (22 steps, 416 remaining).
-- Turns 8739-8740: Crossed bridge east (17, 6)->(17, 8)->(20, 8)->(20, 3)->(17, 3) (18 steps, 398 remaining).
-- Turns 8748-8752: Fled Nidoran female at (20, 3), returned via col 20 to bridge (17, 7)->(17, 6)->(12, 6)->(12, 8)->(3, 7) (30 steps, 368 remaining).
-- Turn 8758: Tested bridge (12, 6) (12 steps).
-- Turn 8762: Currently on northern bridge at (12, 6) with 356 steps remaining. En route to cross bridge east to (17, 6)->(20, 3) and follow row 3 west to Area 2 gate at (0, 5).
-
+- Turns 8739-8763: Explored northern Area 1, confirmed row 3 canopy corridor is fully passable, returned to bridge at (12, 6) (356 steps remaining).
+- Turns 8763-8767: Crossed bridge east to (17, 6)->(20, 8)->(20, 3), west along row 3 canopy to (6, 3), down to row 5, entered Area 2 at (0, 5) (39 steps, 317 remaining).
+- Turns 8768-8778: Traversed Area 2 southern corridor to (22, 29), ascended Western Plateau at (22, 23), descended at (16, 27) to (16, 28), west to (8, 35), entered Area 3 at (26, 0) (55 steps, 262 remaining).
+- Turns 8779-8780: Walked south down East Corridor to (25, 11) (12 steps, 250 remaining). Active step baseline: 250 steps remaining in Session 6.
 
 <hr>
