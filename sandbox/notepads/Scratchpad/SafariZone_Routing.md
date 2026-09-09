@@ -28,7 +28,8 @@
 - Turn 9105: At (28, 9) (210 steps used, 290 remaining). In col 28 lawn corridor facing Up.
 - Turn 9107: At (28, 6) (213 steps used, 287 remaining). Confirmed col 28 dead-ends at row 5 hedge.
 - Turn 9109: At (28, 11) (218 steps used, 282 remaining). Stepped down to row 11 lawn.
-- Turn 9111: At (23, 11) (223 steps used, 277 remaining). Reached west end of row 11 bypass. Stepping north to row 8 at (23, 8) and west along row 8 to (21, 8) toward North Plateau Bridge.
+- Turn 9111: At (23, 11) (223 steps used, 277 remaining). Reached west end of row 11 bypass.
+- Turn 9113: At (21, 8) (228 steps used, 272 remaining). Advancing west along row 8 lawn to (17, 8) and ascending (17, 7) stairs onto North Plateau Bridge.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
