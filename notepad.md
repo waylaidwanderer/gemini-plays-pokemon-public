@@ -2675,6 +2675,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
   - (18, 27): Cliff face from (18, 28) (Turn 10027)
   - (20, 20): Northern cliff face from row 19 (Turn 9897)
+  - (22, 20): Northern cliff face from row 19 (Turn 10114)
   - (25, 23): Cliff face (Turns 9903, 10004)
   - (32, 12): Cliff corner (Turn 10022)
   - (31, 11): Statue (Turn 10022)
