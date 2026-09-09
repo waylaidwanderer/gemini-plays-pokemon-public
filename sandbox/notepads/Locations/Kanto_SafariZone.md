@@ -33,6 +33,7 @@
 - Western Statue Collision at (1, 6): Tested Turn 9234; solid impassable statue base.
 - Row 6 Bush Collision at (2, 6): Tested Turn 9250; solid impassable collision.
 - Row 6 Bush Cut Test at (2, 6): Tested Turn 9256 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
+- Row 6 Bush Collision at (3, 6): Tested Turn 9259; solid impassable collision.
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
 - Row 6 Bush Collisions at (8, 6) and (9, 6): Tested Turns 9147, 9149; solid impassable bush hedge.
