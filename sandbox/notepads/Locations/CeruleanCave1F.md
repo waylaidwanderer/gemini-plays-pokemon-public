@@ -38,3 +38,4 @@
 - Magneton (Electric)
 - Marowak (Ground)
 - Dodrio (Normal/Flying)
+- Electrode (Electric)
