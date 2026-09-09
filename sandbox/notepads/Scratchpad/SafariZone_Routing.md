@@ -14,3 +14,4 @@
 - Turn 8855: At northern boundary (11, 6) (141 steps remaining). Testing single step Up into (11, 5).
 - Turn 8860: Stepping Down to (11, 7) and testing Left into (10, 7) (~140 steps remaining).
 - Turn 8862: Confirmed (10, 7) is solid cliff. Northern plateau fully eliminated. Returning east along row 7 to (16, 7) (~135 steps remaining).
+- Turn 8864: Walking south along col 16 ridge to (16, 12) (~130 steps remaining).
