@@ -200,6 +200,10 @@
   - Caught: Route 11 tall grass [Turn 3721]
 
 ## PC Box 1 Pokémon
+- PINSIR (Nickname: PINCER) [Lv 23, Bug]
+  - Status: Healthy
+  - Caught: Safari Zone Center Area tall grass [Turn 10141]
+  - Transferred to PC Box 1 (Active Party full)
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
@@ -2602,7 +2606,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Column 16 dense bush wall spans rows 12..19.
   - Obstacle at (16, 16) [Verified Turn 8637].
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
-  - Bushes fill cols 22..24 rows 24..27 and (25, 25..27).
+  - Cols 22..25 rows 24..27: Visually displays tall grass texture on Turn 10105; physical collision pending verification when testing approach from row 33.
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 13..15 by bushes, (16..17, 11) by tree trunk [Verified Turn 10120], cols 18..31 by statues, and cols 33..34 by bushes; zero northern passage from Central Lawn.
   - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
