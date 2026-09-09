@@ -10,14 +10,12 @@
   - Ladder E: (9, 1) <-> 1F (7, 1) [Isolated NW terrace].
 
 ## Verified Physical Boundaries & Corridors (2F)
-- Solid Rock Collisions verified: (22, 5), (21, 6), (23, 6), (15, 14), (14, 14..16), (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4).
+- Solid Rock Collisions verified: (22, 5), (21, 6), (23, 6), (15, 14), (14, 14..16), (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4), (22, 8), (22, 9), (24, 9), (25, 10..11).
 - Open Thoroughfares:
   - Row 1 North Bypass: (1..18, 1) connects Column 1 to Column 13.
   - Column 13 North-South transit: (13, 1..8) connects Row 1 to Row 8.
-  - Row 8 Bypass: (13..15, 8) connects Column 13 to Row 9.
-  - Row 9 Highway: (15..23, 9) connects Central sector (col 15) to East landing (col 23).
-  - Row 10 Highway: (14..23, 10) connects Column 14 to Column 23.
-  - Column 23 North-South corridor: (23, 7..15) connects Ladder B to Row 9, Row 10, and Row 15.
+  - Column 23 Corridor: (23, 7..12) connects Ladder B landing at (22, 7) to Row 12 East Bypass.
+  - Eastern Sector Access Route: (23, 12) -> (26, 12) -> (26, 9) -> (25, 9..7) -> (27, 7..6) -> (28, 6..5) heading North towards Ladder D at (29, 1).
 
 ## Verified Items (2F)
 - Item Pokéball at (29, 9) collected (PP Up).
