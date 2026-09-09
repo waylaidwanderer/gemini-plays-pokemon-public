@@ -13,3 +13,4 @@
 - Turn 8874: Walking north along col 25 to row 4 junction at (25, 4) (~101 steps remaining).
 - Turn 8882: At (25, 4) (101 steps remaining). Reading signpost at (26, 4).
 - Turn 8886: Dismissing signpost text with B, testing step Left into (24, 4) (101 steps remaining).
+- Turn 8888: Walking south along col 25 to (25, 10) (~95 steps remaining).
