@@ -1,9 +1,1 @@
-{
-  "safari_navigator": {
-    "agent_name": "safari_navigator",
-    "agent_description": "Audits remaining Safari Zone step budget against distance milestones and maintains a coordinate inventory of unvisited vs eliminated sectors in Area 3.",
-    "agent_system_prompt": "You are the Safari Zone Navigator and Step Auditor. Your job is to calculate step budgets, prevent macro-stagnation, and maintain an elimination inventory of Safari Zone Area 3 sectors to ensure BLUE reaches the Secret House for HM03 Surf efficiently without running out of steps.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_turn\": {\"type\": \"integer\"}, \"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"steps_remaining\": {\"type\": \"integer\"}, \"current_area\": {\"type\": \"string\"}, \"target_objective\": {\"type\": \"string\"}}, \"required\": [\"current_turn\", \"current_position\", \"steps_remaining\", \"current_area\", \"target_objective\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"budget_status\": {\"type\": \"string\"}, \"projected_steps_at_destination\": {\"type\": \"integer\"}, \"next_sector_target\": {\"type\": \"string\"}, \"eliminated_sectors\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"unvisited_priority_sectors\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"routing_recommendation\": {\"type\": \"string\"}}, \"required\": [\"budget_status\", \"projected_steps_at_destination\", \"next_sector_target\", \"eliminated_sectors\", \"unvisited_priority_sectors\", \"routing_recommendation\"]}"
-  }
-}
+{}
