@@ -2667,8 +2667,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Eastern Plateau Progression)
-- Current Position: Safari Zone Area 2 at (28, 27) [Turn 10096]
-- Steps Remaining: ~131 / 500 steps
+- Current Position: Safari Zone Area 2 at (33, 25) [Turn 10097]
+- Steps Remaining: ~124 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
