@@ -20,9 +20,9 @@
   - Descended to row 20 tall grass at (6, 20), traversed west to col 1 clear lawn corridor.
   - Empirically confirmed southern boundary at (2, 24) is solid bush hedge (Turn 8905).
   - 100% Empirically verified Sector SW contains NO buildings and NO Secret House!
-- Turn 8907: At (6, 23) in southern corridor (~49 steps remaining). Walking east along row 23 toward Center Area exit at (24, 22).
 
-## Session 7 Master Route: Direct Path to Secret House (HM03 Surf)
+## Session 7 Routing Hypotheses (Unverified)
+### Candidate Route A: Northern Bypass via Row 14 Ground Opening (UNVERIFIED HYPOTHESIS)
 - Step Budget Feasibility: Total required steps from Safari entrance to Secret House is ~198 steps (Surplus: ~302 steps).
 ### Phase 1: Gatehouse to Area 3 Entrance (~152 steps)
 1. Center Area: (14, 25) -> north through tree gap (23, 15) -> east exit to Area 1 (0, 23) (~27 steps).
