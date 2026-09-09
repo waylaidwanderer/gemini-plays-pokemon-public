@@ -2551,89 +2551,83 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Pond: Cols 17..20 rows 10..13. Shoreline at col 21.
 - East Exit (to Area 1): Open corridor at rows 10..11 cols 28..30. Tree wall blocks col 29 rows 12..19.
 - Route Progression: Clockwise traversal (Center Area -> Area 1 -> Area 2 -> Area 3).
-
-## Area 1 (East)
-- West Exit: Center Area at (0, 22..23). Player enters at (0, 23). (Tile 0, 24 is impassable collision verified Turn 7761).
-- Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
-- Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Row 22 has lawn at col 17 but tall grass across cols 18..21 leading to plateau stairs at (20, 21). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
-- Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
-- Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
-- Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
-## Area 1 Features & Landmarks
-- South Plateau Western Sector: Ascended at (12, 21) via south-facing stairs. Elevated floor spans cols 11..17+ across rows 18..20 bordering the southern shoreline of the central water pond (rows 14..17).
-- Western Statue Collision at (0, 7): Tested Turn 9127; solid impassable statue base.
-- Western Statue Collision at (1, 6): Tested Turn 9234; solid impassable statue base.
-- Row 6 Bush Collision at (2, 6): Tested Turn 9250; solid impassable collision.
-- Row 6 Bush Collision at (3, 6): Tested Turn 9259; solid impassable collision.
-- Permeable Canopy Corridor (Row 3, cols 10..16): Empirically verified fully walkable westward on Turns 9287-9289, providing direct access to (8, 3) lawn!
-- Verified Area 1 Traversal Solution (Turns 9276-9296, 9358-9382): Enter Area 1 at (0, 23), follow southern corridor (row 24) east to (17, 24), step up to (17, 22), ascend South Plateau stairs at (20, 21) to (20, 20), traverse west across South Plateau elevated floor (rows 18..20) to (12, 20), descend western stairs at (12, 21) to (12, 22), walk west to cols 8..10, traverse north along cols 8..10 western bypass around central pond to row 8 west lawn (12, 8), ascend North Plateau Bridge at (12, 7) and cross east to (17, 7), descend to East Lawn at (20, 8), breach north through Column 20 permeable canopy corridor at (20, 6..3), traverse west through Row 3 canopy corridor (cols 16..10), step down at col 7 into row 5 runway, and walk west through gateway at (0, 4..5) into Area 2 at (39, 30..31)!
-- Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
-- Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
-- Row 6 Bush Collisions at (8, 6) and (9, 6): Tested Turns 9147, 9149; solid impassable bush hedge.
-- Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
-- Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
-- Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
-- North Bridge Access: North bridge staircase at (12, 7) faces south and is accessed from row 8 (12, 8); row 7 at (10..11, 7) is impassable cliff wall [Verified Turn 9029].
-- Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
-- Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
-- Signpost at (26, 10): 'REST HOUSE' [Read Turn 7733].
-- Rest House 2 Eastern Boundary: Columns 27..28 lawn dead-ends at row 4..5 tree line.
-- Plateau North Cliff Edge at (17, 4): Impassable solid cliff edge verified Turn 7728; rock plateau cannot be exited northward directly onto row 3 lawn.
-- Signpost: Located at (6, 4) in northern corridor.
-- Plateau Western Cliff Corner at (10, 4): Impassable solid cliff edge verified Turn 7702; rock plateau cannot be exited westward directly onto row 4 lawn.
-- Item Ball: Located at (3, 7) on western lawn - MAX POTION [Collected Turn 7695].
-- Northern Lawn: Extends along rows 10..11 cols 20..25.
-- Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
-- Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
-- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Rows 18..21 across cols 0..5 are bounded by trees, statues, and hedges; northern gateway runway is open along rows 4..5 cols 0..8.
-## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
 - Tree Barrier at (28..29, 8..9): Solid trees block northern passage across row 9 on the east side of Center Area [Verified Turn 8578].
 - Barrier at Cols 0-1 Rows 16-17: Trees at (0..1, 16..17) block westward passage from (2, 17) [Verified Turn 8592].
 - Southern Barrier (Rows 15-16): Barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across cols 0-19. Columns 20..22 is an open grass passage connecting the southern and northern sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Area 2 Route: Route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
-## Step Budget & Timer(Verified Mechanics)
-- Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 
-## Area 1 Elevation Network & Topology
-- South Plateau Bridge: Connects southern entrance corridor to eastern sector. Ascended via south-facing stairs at (20, 21), traverses north along cols 21..22 ridge across rows 15..20, and descends via east-facing/south-facing stairs at (24, 15) to eastern ground corridor.
-- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns (south of row 6 hedge).
+## Area 1 (East)
+- West Exit: Center Area at (0, 22..23). Player enters at (0, 23). (Tile 0, 24 is impassable collision verified Turn 7761).
+- Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
+- Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Row 22 has lawn at col 17 but tall grass across cols 18..21 leading to plateau stairs at (20, 21). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
+- Rock Plateau / South Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Elevated floor spans cols 11..22 rows 18..20 along the southern shoreline of the central pond (rows 14..17).
+- Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
+- Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block ground path.
+- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns.
+- Permeable Canopy Corridors:
+  - Column 20 permeable canopy corridor at (20, 6..3).
+  - Row 3 canopy corridor (cols 10..16) fully walkable westward [Verified Turns 9287-9289], providing direct access to (8, 3) lawn.
+- Northwest Gateway: Open runway along rows 4..5 cols 0..8 leading west through gateway at (0, 4..5) into Area 2 at (39, 30..31).
+- Physical Boundaries & Collisions:
+  - Row 6 hedge spans cols 2..9 (impassable bush barrier between north and south lawns).
+  - Western statues at (0, 7) and (1, 6) [Verified Turns 9127, 9234].
+  - Western bush at (0, 8) [Verified Turn 9130].
+  - Plateau west cliff wall at (10, 5) [Verified Turn 9138].
+  - Plateau north cliff edge at (17, 4) and west corner at (10, 4) [Verified Turns 7702, 7728].
+  - Bush at (16, 22) [Verified Turn 8356].
+  - Northern boundary hedge at (20, 0) [Verified Turn 7998].
+  - Solid cliff corner at (27, 12) [Verified Turn 7971].
+  - Statue at (6, 23) [Verified Turn 7944].
+- Landmarks:
+  - Item Ball at (3, 7): MAX POTION [Collected Turn 7695].
+  - Item Ball at (21, 10): FULL RESTORE [Collected Turn 7647].
+  - Rest House 2 at (26..29, 10..11), signpost at (26, 10).
+  - Signpost at (6, 4) in northern corridor.
+- Verified Traversal Solution (Turns 9276-9296, 9358-9382):
+  Enter Area 1 at (0, 23) -> southern corridor (row 24) to (17, 24) -> step up to (17, 22) -> ascend South Plateau stairs at (20, 21) -> traverse west to (12, 20) -> descend western stairs at (12, 21) to (12, 22) -> pond bypass (cols 8..10) north to (12, 8) -> ascend North Plateau Bridge at (12, 7) to (17, 7) -> descend to East Lawn at (20, 8) -> breach north through Col 20 permeable canopy (20, 6..3) -> Row 3 canopy corridor (cols 16..10) -> step down at col 7 to row 5 runway -> gateway at (0, 4..5) into Area 2 at (39, 30..31)!
 
 ## Area 2 (North)
-- Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
-- Obstacle Collision at (16, 16): Bumping west from (17, 16) confirmed solid obstacle collision at (16, 16) [Turn 8637].
-- East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
+- East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33).
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
-
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 33..38. Staircase at (34, 15) is accessed from (34, 14) facing Down and descends south to open lawn at (34, 16) [Verified Turns 8132, 9315].
-- Central Lawn Basin: Lawn area spanning rows 12..19 cols 21..35 bounded by row 11 statues/bushes to the north, column 16 dense bush wall to the west, and row 20 Western Plateau cliff to the south. Does NOT connect westward to Area 3 on ground level (ground passage west blocked by column 16 hedge). Rows 14..15 provide clean grass avoiding tall grass patches [Verified Turn 8135].
-- Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
+- Central Lawn Basin: Lawn area spanning rows 12..19 cols 21..35 bounded by row 11 statues/bushes to the north, column 16 dense bush wall to the west, and row 20 Western Plateau cliff to the south. Rows 14..15 provide clean grass avoiding tall grass patches [Verified Turn 8135].
+- Western Plateau & Elevated Bridge (Turns 9460-9485):
+  - Spans cols 14..22 rows 20..27.
+  - Acts as an elevated bridge across the column 17 dense bush hedge (which spans rows 28..33 dividing the southern sector).
+  - Ascended via east staircase at (22, 23).
+  - Descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly south to Area 3 gate at (8..9, 34..35).
+- Area 2 Collisions & Barriers:
+  - Column 16 dense bush wall spans rows 12..19.
+  - Obstacle at (16, 16) [Verified Turn 8637].
+  - Cliff collision at (26, 24) [Verified Turn 8644].
+  - Bushes fill cols 22..24 rows 24..27 and (25, 25..27).
+  - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
+  - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
+
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
 - East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
-- Shoreline Collision at (9, 12): Impassable water shoreline collision blocking northern ascent along col 9 between pond and Rest House 4 [Verified Turn 9626]. Rest House 4 is an enclosed cul-de-sac.
-- East Corridor: Cols 25..28 lawn corridor extends south from entrance at (26, 0).
-- Signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!' [Read Turn 8498].
+- Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains rock tossing mechanics.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
-- Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), dense bush wall along col 24 (rows 6..13), cliff corner at (4, 16) [Turn 8415], tree trunk at (1, 15) [Turn 8419], shoreline water boundary at (2, 13) [Turn 8444], impassable bush hedge along row 25 (cols 11..15, 18..20) [Turn 8463], solid west-facing cliff wall at col 14 (rows 10..15) [Turn 8476], south-facing cliff edge at (17, 17) [Turn 8485], impassable bush hedge along col 24 (rows 2..13) [Turn 8489, 8501], and east-facing plateau cliff edge at (23, 15) [Turn 8509].
-- Item Ball at (8, 20): Collected MAX POTION [Turn 8532].
-- Item Ball at (9, 7): Sighted on Northwest Lawn outside plateau descent [Turn 8713].
+- Southern Plateau Bridge:
+  - Spans cols 6..21 across rows 16..18.
+  - Ascended via eastern staircase at (21, 17), descended via western staircase at (6, 19) to ground level tall grass at (6, 20).
+- Signposts:
+  - Signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!' [Read Turn 8498].
+  - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544].
+- Landmarks:
+  - Item Ball at (8, 20): MAX POTION [Collected Turn 8532].
+  - Item Ball at (9, 7): Sighted on Northwest Lawn outside plateau descent [Turn 8713].
+- Terrain Barriers & Physical Collisions:
+  - Row 14..15 western boundary: 2x2 tree at (0..1, 14..15) blocks northern passage along col 1; water shoreline at (2, 13) blocks col 2.
+  - Shoreline at (9, 12) blocks northern ascent between pond and Rest House 4 (cul-de-sac).
+  - Northern Plateau perimeter (cols 11..16 rows 6..8) is an overlook with no ground descent: solid cliff at (10, 8), (10, 7), (10, 6), and (11, 5).
+  - Cliff corner at (4, 16) [Turn 8415], tree trunk at (1, 15) [Turn 8419], cliff edge at (23, 15) [Turn 8509].
+  - Column 24 solid bush hedge from row 2 through row 13 [Verified Turns 8489, 8501, 8886].
+  - Southern bush enclosures: col 18 solid bush wall at rows 20..23; row 24 continuous hedge across cols 2..9 and bushes at (16..17, 24); row 25 bushes at cols 10..15 and 18..21.
+  - Row 24 lawn bypass: clean lawn at cols 10..15 flanked by bushes, bypasses row 23 tall grass without encounters [Verified Turn 8916].
 
-- Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
-- Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
-
-- Northern Plateau (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804 (blocking westward step).
-- Southern Plateau Western Staircase: South-facing wooden staircase at (6, 19) connects the elevated plateau at (6, 18) down to ground level tall grass at (6, 20).
-- Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.
-- Northern Plateau Row 6 Cliff Edge: Stepping Up from (11, 6) into (11, 5) confirmed impassable solid cliff boundary (Turn 8856).
-- Northern Plateau Corner Collision at (10, 6): Stepping Left from (11, 6) into (10, 6) confirmed solid cliff boundary (Turn 8859).
-- Northern Plateau West Edge Collision at (10, 7): Stepping Left from (11, 7) into (10, 7) confirmed solid cliff boundary (Turn 8861). Entire northern plateau perimeter (11..16, 6), (10, 6), (10, 7), (10, 8) is fully eliminated as an overlook with no descent.
-- Sector SW Inventory: Rows 19..23 cols 0..6 contains no buildings. Bush hedge confirmed at (2, 24); southern rows 24..28 remain partially unmapped.
-- Southern Bush Enclosures: Column 18 has solid bush wall at rows 20..23. Row 24 has continuous solid bush hedge across cols 2..9 and bushes at (16..17, 24), enclosing the row 24 lawn bypass (cols 10..15). Row 25 has solid bushes at cols 10..15 and 18..21.
-- Column 24 Bush Hedge Collision at (24, 4): Bumping Left from (25, 4) into (24, 4) confirmed impassable solid bush hedge (Turn 8886).
-- Row 24 Lawn Bypass: Clear lawn along row 24 (cols 10..15) flanked by row 24 bushes at (7..9, 24) and (16, 24), and row 25 bushes at (10..15, 25). Bypasses row 23 tall grass (cols 13..14) without wild encounters [Verified Turn 8916].
-- Area 2 Central Barrier & Corridors (Turns 9460-9485): Column 16 dense bush wall spans rows 12..19. Western Plateau spans cols 15..22 rows 20..22 with south-facing wooden staircase at (22, 23). Bushes fill cols 22..24 rows 24..27 and (25, 25..27). Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff. Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage exists from Central Lawn. Column 17 dense bush hedge spans rows 28..33, dividing the southern sector into East Tall Grass field and West Lawn corridor. The Western Plateau spans cols 14..22 rows 20..27 and acts as an elevated bridge across the column 17 barrier: ascended via east staircase at (22, 23) and descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly to Area 3 gate at (8..9, 34..35).
-- Southern Plateau Bridge Traversal: Ascended eastern staircase at (21, 17) [Turn 9593], traversed elevated floor across row 16 cols 21 down to 6 [Turns 9594-9600], and descended western staircase at (6, 19) to ground level tall grass at (6, 20) [Turns 9604, 9607]. Bridges the entire central barrier!
 
 <hr>
 

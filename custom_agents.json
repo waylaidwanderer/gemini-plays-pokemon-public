@@ -1,1 +1,9 @@
-{}
+{
+  "step_margin_auditor": {
+    "agent_name": "step_margin_auditor",
+    "agent_description": "Audits step expenditures against budgeted benchmarks and validates planned traversal waypoint sequences against documented collision boundaries.",
+    "agent_system_prompt": "You are a specialized step budget auditor and spatial waypoint validator for Safari Zone navigation in retail Pokémon Blue. You receive the current traversal stage, player position, remaining steps, and planned waypoints. You verify that the steps consumed align with budget targets and that planned waypoints avoid known collisions and minimize tall grass encounter risks.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_stage\":{\"type\":\"string\"},\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"steps_remaining\":{\"type\":\"integer\"},\"planned_waypoints\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"current_stage\",\"current_position\",\"steps_remaining\",\"planned_waypoints\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_valid\":{\"type\":\"boolean\"},\"budget_status\":{\"type\":\"string\"},\"warnings\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"notes\":{\"type\":\"string\"}},\"required\":[\"is_valid\",\"budget_status\",\"warnings\",\"notes\"]}"
+  }
+}
