@@ -26,7 +26,7 @@
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 2 at (17, 19) [Turn 10115]
+- Current Position: Safari Zone Area 2 at (17, 19) [Turn 10118]
 - Steps Remaining: ~54 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:

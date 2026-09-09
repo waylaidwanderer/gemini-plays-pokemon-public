@@ -76,6 +76,7 @@
   - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
   - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
   - Cliff collision at (22, 20) from (22, 19) [Verified Turn 10114].
+  - Cliff collision at (17, 20) from (17, 19) [Verified Turn 10117].
   - Cliff collision at (18, 27) from (18, 28) [Verified Turn 10027].
   - Obstacle at (32, 12) (cliff corner) and (31, 11) (statue) [Verified Turn 10022].
   - Bush hedge at (17, 32) impassable [Verified Turns 9948, 10034, 10045].
