@@ -2651,8 +2651,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Area 3 Sector Elimination & Inventory Matrix
 - Target: Secret House (HM03 Surf)
-- NW Sector (cols 0..10, rows 0..15): Unexplored / High Priority (Rest House 4 at 11, 11 was visited; northwest of that remains unsearched!)
-- SW Sector (cols 0..15, rows 16..25): Item Ball (Max Potion at 8, 20) retrieved. Dead-end along row 24. Shoreline water at (2, 13).
+- SW Sector (cols 0..15, rows 16..25): Item Ball (Max Potion at 8, 20) retrieved. Dead-end along row 24.
+- NW Sector (cols 0..15, rows 0..15): Shoreline water at (2, 13) blocks west bank. Rest House 4 at (11, 11). Unexplored northern territory.
 - NE Sector (cols 18..28, rows 0..15): Gold Teeth Cove at (19, 7) retrieved. East corridor (cols 25..28) explored. Signpost at (26, 4) read. Bush wall at col 24 confirmed.
 - SE Sector (cols 16..28, rows 16..25): Plateau bridge (21, 17) to (6, 19) mapped. Signpost at (24, 22) read.
 
@@ -2663,18 +2663,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - South: Blocked by wooden fence on row 15, bush hedge on row 16 (cols 2-5), and tree barrier on rows 16-17 (cols 0-1).
 - Conclusion: The warp at (0, 11) is a one-way exit from Area 3 back into Center Area (or requires Surf).
 - The ONLY viable ground path to Area 3 is the canonical clockwise route: Center Area -> Area 1 -> Area 2 -> Area 3!
-- Active Budget: 447 steps remaining in Session 5. En route to Area 1 (~34 steps away). Projected steps upon entering Area 3: ~278 steps.
 ## Active Session Step Tracking (Session 5 - Turn 8572)
-- Turn 8572: Started Session 5 (500 steps, ¥72368, 30 Safari Balls).
-- Turns 8572-8580: Traversed Center Area from (15, 24) -> (20, 23) -> (20, 15) -> (22, 11) -> (28, 10) [blocked by trees at 28-29, 9] -> back to (22, 14). Total steps taken: 33 steps (~467 steps remaining).
-- Turn 8581: Wild Exeggcute encounter at (22, 14) in tall grass. Fleeing to preserve steps.
+- Turns 8572-8580: Traversed Center Area from (15, 24) to (22, 14). Total steps: 33 (~467 steps remaining).
 - Turn 8598: Entered Area 1 at (0, 23).
-- Turn 8601: Reached (12, 24), stepped through hedge opening at (17, 23) to (17, 22).
-- Turn 8603: Wild Nidoran male at (20, 22), fled with 0 step loss.
-- Turn 8606: Ascended staircase at (20, 21), crossed plateau to (12, 21), descended to (12, 22).
-- Turn 8611: Reached (10, 14) on western pond corridor. Active step budget baseline: ~366 steps remaining.
-- Turn 8641: Reached (26, 20) in Area 2 via Eastern Plateau bypass. Active step budget baseline: ~238 steps remaining.
-
-- Turns 8642-8663: Explored row 16 lawn to (17, 16) (blocked at 16, 16), returned east, ascended (34, 15) to (34, 14), traversed Eastern Plateau south along cols 37..38 to row 25, reached (33, 25). Active step budget baseline: ~197 steps remaining.
+- Turns 8601-8622: Traversed Area 1 to Area 2 gate at (39, 31). Steps: ~65.
+- Turns 8623-8663: Explored Area 2 Eastern Plateau and backtracked to (33, 25). Steps: ~64.
+- Turns 8664-8685: Traversed Area 2 Western Plateau bridge via (22, 23) and (16, 27) to southern gate at (8, 35), entering Area 3 at (26, 0). Steps: ~48 (~138 steps remaining).
+- Turns 8686-8688: Traversed Area 3 East Corridor south to (25, 17). Steps: 18 (~120 steps remaining).
+- Turns 8689-8692: Ascended plateau bridge at (21, 17), crossed west to (6, 19), descended to (6, 20). Steps: 26 (~94 steps remaining).
+- Turns 8693-8696: Moved to (2, 19) (5 steps), fled Exeggcute, walked to (2, 14) (5 steps), and traversed row 14 east to (8, 14) (6 steps). Steps: 16 (~78 steps remaining).
+- Turn 8701: Currently at (8, 14) with ~78 steps remaining in Session 5. En route to explore Rest House 4 courtyard and northern passage.
 
 <hr>
