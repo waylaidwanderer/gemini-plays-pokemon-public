@@ -12,3 +12,4 @@
 - Turn 8847: Walking Up to (16, 8) and Left along row 8 to (13, 8) (~145 steps remaining).
 - Turn 8853: Advancing Left to (11, 8) and Up to (11, 6) on northern plateau (~141 steps remaining).
 - Turn 8855: At northern boundary (11, 6) (141 steps remaining). Testing single step Up into (11, 5).
+- Turn 8860: Stepping Down to (11, 7) and testing Left into (10, 7) (~140 steps remaining).
