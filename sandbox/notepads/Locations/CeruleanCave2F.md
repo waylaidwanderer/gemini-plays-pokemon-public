@@ -2,12 +2,12 @@
 
 ## Connected Component Graph (2F)
 - **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 1-19.
-  - Ladder A1: (1, 3) <-> 1F (1, 3) [NW Sector].
-  - Ladder A2: (3, 11) <-> 1F (3, 11) [Western Ridge].
+  - Ladder A1: (1, 3) <-> 1F (1, 3) / B1F [NW Sector, accessed via Column 1 Western Highway].
+  - Ladder A2: (3, 11) <-> 1F (3, 11) / B1F [Western Ridge].
   - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
   - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
   - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
-  - Ladder E: (9, 1) <-> 1F (7, 1) [Isolated NW terrace].
+  - Ladder E (Hypothesized / Non-Row 1): Requires further verification.
 
 ## Verified Physical Boundaries & Corridors (2F)
 - Solid Rock Collisions verified: (22, 5), (21, 6), (23, 6), (15, 14), (14, 14..16), (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 14), (21, 14), (16, 11), (16, 13), (18, 12), (19, 12), (20, 12), (21, 12), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
