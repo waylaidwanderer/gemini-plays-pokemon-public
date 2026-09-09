@@ -19,3 +19,4 @@
 - Turn 8868: Walking Right to (21, 16) and descending staircase at (21, 17) to (21, 18) (~119 steps remaining).
 - Turn 8870: Walking east to (25, 18) and north to (25, 16) in East Corridor (~113 steps remaining).
 - Turn 8872: Walking north along col 25 to (25, 10) (~107 steps remaining).
+- Turn 8874: Walking north along col 25 to row 4 junction at (25, 4) (~101 steps remaining).
