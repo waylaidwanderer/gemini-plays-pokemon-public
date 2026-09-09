@@ -11,7 +11,7 @@
 ## Map Layout & Corridors
 - Central/western corridors span cols 15-21 and rows 3-11.
 - Southern maze corridors span cols 8-18 and rows 12-19.
-- Southwest corridor has uncollected Pokéball item visible at (4, 15).
+- Row 18 is a major horizontal transit hallway across cols 1-10+.
 - Row 7 is a major horizontal transit hallway across cols 1-8+.
 - Row 9 is an open horizontal corridor spanning cols 3-8+.
 - Row 11 is an open horizontal corridor spanning cols 5-8+.
@@ -19,7 +19,7 @@
 ## Items (2F)
 - Item Pokéball at (29, 9) collected.
 - Item Pokéball at (13, 6) collected.
-- Item Pokéball at (4, 15) [UNCOLLECTED - visible on screen].
+- Item Pokéball at (4, 15) collected [Turn 39796].
 
 ## Wild Encounters (2F)
 - Ditto (Normal)
