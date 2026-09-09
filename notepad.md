@@ -2651,7 +2651,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9094: At (13, 6) (188 steps used, 312 remaining). Traversing east across plateau bridge.
 - Turn 9096: At (17, 7) (193 steps used, 307 remaining). Descended stairs to (17, 8) and advanced east.
 - Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
-- Turn 9119: At (10, 8) (243 steps used, 257 remaining). Advancing west via row 7 clear lawn corridor toward western Area 2 gateway at (1, 7).
+- Turn 9119: At (10, 8) (243 steps used, 257 remaining). Descended western stairs.
+- Turn 9124: At (6, 7) (248 steps used, 252 remaining). Advancing west along row 7 lawn corridor to (1, 7) to test western boundary and Area 2 transition.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
