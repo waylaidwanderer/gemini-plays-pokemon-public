@@ -2646,10 +2646,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 # Safari Zone Master Routing & Step Ledger (Session 8 / Session 9)
 
 ## Session 8 Reconnaissance Summary
-- Session 8 Traversal: ~500 steps consumed [Turns 9340–9691].
-- Current Turn: 9691
-- Current Position: (28, 7) in Safari Zone Area 3 facing Down
-- Session 8 Expiration: Imminent (standing in park at 28, 7, taking steps to trigger PA chime).
+- Session 8 Traversal: 500 steps consumed [Concluded Turn 9710 with PA chime].
+- Current Turn: 9715
+- Current Position: (4, 0) in Safari Zone Gatehouse.
+- Session 8 Expiration: Completed. Dismissing dialogue to purchase Session 9 admission.
 
 ## Ground Truth & Area 3 Connectivity (Verified Turns 9533–9691)
 - Area 3 Entrance: (26, 0) from Area 2.
