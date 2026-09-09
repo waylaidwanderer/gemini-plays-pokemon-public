@@ -38,7 +38,7 @@
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8981: At (26, 15) inside tree gap (20 steps used, 480 remaining). Confirmed (26, 15) walkable! Advancing east through (27, 15) to eastern corridor at (28, 15).
+- Turn 8982: At (27, 15) inside tree passage (21 steps used, 479 remaining). Wild Exeggcute encountered. Fleeing to emerge onto eastern lawn at (28, 15).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.

@@ -2538,7 +2538,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Center Area
 - Signpost at (14, 22): 'TRAINER TIPS / Press the START / Button to check / remaining time!' [Verified Turn 7864].
-- Tree Gap at (23..25, 15): Confirmed walkable passage through eastern tree wall at row 15 [Verified Turns 7890, 8976, 8978].
+- Tree Gap at (23..26, 15): Confirmed walkable passage through eastern tree wall at row 15 [Verified Turns 7890, 8976, 8978, 8981].
 - Row 9 Bush Collision at (22, 9): Tested Turn 7767; solid impassable collision.
 - Map Size: 30x30.
 - South Exit: Stepping Down from row 25 fence opening (14..15, 25) into row 26 triggers warp to Safari Zone Gatehouse at (4, 0) [Verified Turn 7785].
@@ -2657,7 +2657,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8979: At (25, 15) inside tree gap (19 steps used, 481 remaining). Confirmed (24, 15) and (25, 15) walkable. Testing (26, 15) eastward.
+- Turn 8981: At (26, 15) inside tree gap (20 steps used, 480 remaining). Confirmed (26, 15) walkable! Advancing east through (27, 15) to eastern corridor at (28, 15).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
