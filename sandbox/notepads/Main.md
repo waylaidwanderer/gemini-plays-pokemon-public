@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Continuous Pokémon League gauntlet in progress! Elite Four Lorelei (Room 1) & Bruno (Room 2) DEFEATED! HYDROS at Lv 91 (268/315 HP - 85% health, Surf 5/15, Ice Beam 8/10, Bite 25/25, DE 14/15). Entering Room 3 to battle Elite Four Agatha.
+- League Status: Continuous Pokémon League gauntlet in progress! Elite Four Lorelei (Room 1), Bruno (Room 2), & Agatha (Room 3) DEFEATED! HYDROS at Lv 91 (268/315 HP - 85% health, Surf 3/15, Ice Beam 5/10, Bite 25/25, DE 14/15). Entering Room 4 to battle Elite Four Lance.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
