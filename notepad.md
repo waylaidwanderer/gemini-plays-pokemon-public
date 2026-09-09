@@ -2673,25 +2673,21 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (17, 22) -> (16, 28): 7 steps (Descend Western Plateau to West Lawn) [Turn 9524]
   - (16, 28) -> (12, 29): 5 steps [Turn 9527]
   - (12, 29) -> (8, 35): 10 steps [Turn 9530]
-  - Total Area 2 Steps so far: 175 steps
-- Cumulative Steps Used: 300 steps [Turn 9530]
-- Steps Remaining: 200 / 500 steps
-- Current Position: (8, 35) facing Down at Area 3 gate
+  - (8, 35) -> Area 3 Gate: 1 step [Turn 9532]
+  - Total Area 2 Steps: 176 steps
+- Cumulative Steps Used: 301 steps [Turn 9533]
+- Steps Remaining: 199 / 500 steps
+- Current Position: (26, 0) facing Down in Safari Zone Area 3!
 
-## Breakthrough Route Verification: The True Area 2 -> Area 3 Route
-- Entry to Area 2 from Area 1 is at (39, 30..31) on Southern Corridor (rows 28..33).
-- Exit from Area 2 to Area 3 is at (8..9, 34..35) on Southern Corridor.
-- Traversed Western Plateau bridge (ascend at 22, 23; descend at 16, 27) directly onto West Lawn.
-- Arrived at Area 3 gate at (8, 35) with 200 steps remaining!
-
-## Master Execution Plan
-1. Return across Eastern Plateau: COMPLETED!
-2. Western Plateau Bridge Traversal: COMPLETED!
-3. Southern Corridor to Area 3 Gate: COMPLETED!
-   - Arrived at (8, 35) at Turn 9530.
-   - Next step: Step Down into Area 3 (warp to 26, 0).
-4. Area 3 to Secret House:
-   - Navigate to Secret House in Area 3 and claim HM03 Surf! (~80-100 steps budget).
-   - Massive safety margin: 100+ surplus steps!
+## Area 3 Secret House Mission Plan
+- Objective: Locate Secret House and obtain HM03 Surf!
+- Step Budget: 199 steps remaining (huge surplus margin!).
+- Route:
+  1. East Corridor: Walk south along col 27 (rows 0..24) to bypass signpost and reach southern corridor (~24 steps).
+  2. Row 24 Lawn Bypass: Traverse west along row 24 (cols 10..15) avoiding tall grass (~15 steps).
+  3. Southwest Sector Search: Enter southwest sector (rows 24..28, cols 2..8) to reach the Secret House (~15 steps).
+  4. Enter Secret House and talk to attendant to receive HM03 Surf!
+- Total estimated steps to Secret House: ~55-60 steps.
+- Projected steps remaining upon claiming HM03: ~140 steps!
 
 <hr>
