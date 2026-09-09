@@ -2636,7 +2636,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 5. Descend staircase at (16, 27) to ground lawn at (16, 28).
 6. Walk west along row 30 boulevard past Rest House 3 to (6, 30).
 7. Walk north along col 6 past Rest House 3 to row 19/20.
-8. At row 30-31 boulevard, walk west past col 6, turn south along western corridor (cols 1-3) through row 25 signpost to (3, 33), and step Down through gate at (2..3, 34..35) to enter Area 3 at (21, 0)!
+8. From row 30-31 boulevard, proceed to Area 2 southern gate at (8..9, 34..35), stepping Down into gate to enter Area 3 at (26, 0) [Verified Turn 8403].
 
 ### Phase 4: Area 3 (Secret House - HM03 Surf)
 1. Enter Area 3 at (26, 0) from Area 2.
@@ -2647,6 +2647,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8345�8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
 - Turns 8403�8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
 - Turn 8489: Reached (25, 3) (~147 steps remaining). Confirmed (24, 3) is solid bush barrier blocking westward progress across col 24.
-- Turn 8493: Standing at (25, 3). Signpost located at (26, 4).
+- Turn 8493: Standing at (25, 3).
+- Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
+- Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
+- Turn 8522: Standing at (1, 23). Active step budget baseline: ~100 steps remaining.
 
 <hr>
