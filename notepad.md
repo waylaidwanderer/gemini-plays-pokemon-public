@@ -2656,7 +2656,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9126: At (1, 7) (253 steps used, 247 remaining). Bumping Left confirmed (0, 7) is solid statue collision.
 - Turn 9128: At (1, 7). Stepped Down to (1, 8).
 - Turn 9131: At (1, 8) (254 steps used, 246 remaining). Bumping Left confirmed (0, 8) is solid bush collision.
-- Turn 9133: At (5, 7) (259 steps used, 241 remaining). Advancing east along row 7 lawn to (9, 7) and down to (9, 8) toward North Plateau stairs.
+- Turn 9133: At (5, 7) (259 steps used, 241 remaining). Advanced east along row 7.
+- Turn 9135: At (9, 8) (264 steps used, 236 remaining). Facing Down. Advancing east along row 8 to (12, 8) and ascending (12, 7) stairs to North Plateau at (12, 6).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
