@@ -2653,7 +2653,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
 - Turn 9100: At (23, 8) (200 steps used, 300 remaining). Bumping east into (24, 8) confirmed solid railing collision.
 - Turn 9103: At (25, 11) (205 steps used, 295 remaining). Bypassed south of Rest House 2 along row 11 lawn.
-- Turn 9105: At (28, 9) (210 steps used, 290 remaining). In col 28 lawn corridor facing Up. Sighted structure at (29, 5). Advancing north to (28, 6) to inspect northern passage.
+- Turn 9105: At (28, 9) (210 steps used, 290 remaining). In col 28 lawn corridor facing Up.
+- Turn 9107: At (28, 6) (213 steps used, 287 remaining). Confirmed col 28 dead-ends at row 5 hedge; (29, 2..5) are east boundary statues. No eastern exit exists. Routing back to western sector / North Plateau to reach verified Area 2 gate at (0, 4..5).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
