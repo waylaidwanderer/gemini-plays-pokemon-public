@@ -67,3 +67,5 @@
 - Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), and dense bush wall along col 24 (rows 6..13).
 - Master Traversal Route: From north entrance at (21, 0), step down to rows 2-4 and run directly WEST along the open northern lawn highway to reach the Secret House.
 
+
+- Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
