@@ -27,4 +27,3 @@
 - (3, 3) corridor is blocked to the west by solid rock at (2, 3).
 - Ladder A1 visually confirmed at (1, 3) from (3, 3) vantage, but inaccessible from northern corridors.
 - (9, 6) is solid rock, preventing southward exit from Column 9.
-- Strategic Priority: Return east to (19, 7) / (22, 7) and navigate south via Column 23 into the southern corridors.
