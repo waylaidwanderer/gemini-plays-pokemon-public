@@ -2668,8 +2668,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 2 at (22, 19) [Turn 10113]
-- Steps Remaining: ~59 / 500 steps
+- Current Position: Safari Zone Area 2 at (17, 19) [Turn 10115]
+- Steps Remaining: ~54 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
@@ -2688,5 +2688,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   1. Investigate Southwest Sector (rows 24..28 cols 0..15): Open lawn sighted from (1, 23) during Session 8. Check if Southwest Sector extends around to western/northern regions.
   2. Investigate Central/Western corridors: Map connectivity west of the central pond and around Rest House 4.
   3. Locate Secret House (HM03 Surf) with the ~260 step surplus!
+- Visual Ground Truth Correction (Turn 10115):
+  - Screenshot 10105 confirms cols 22..25 rows 24..27 are TALL GRASS (walkable), not bush hedge.
+  - Central Lawn Basin (rows 12..19) is bounded south by row 20 cliff (confirmed at 20,20 and 22,20) and east by cliff at 25,23 and 26,24.
+  - Western Plateau staircase is at (22, 23), accessed via (22, 24) from the southern tall grass corridor.
+
 
 <hr>
