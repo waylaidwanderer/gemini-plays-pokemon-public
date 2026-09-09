@@ -2980,30 +2980,21 @@
 # Cerulean Cave (Unknown Dungeon) 2F - Layout & Notes
 
 ## Connected Component Graph (2F)
-- **Component A (Main 2F Maze)**: Continuous walkable maze spanning cols 1-24 and rows 3-19.
-  - Entry/Exit Ladder A1: (1, 3) <-> 1F (1, 3) (NW ground entrance).
-  - Entry/Exit Ladder A2: (3, 11) <-> 1F (3, 11) (Western ridge entrance).
-  - Both (1, 3) and (3, 11) connect directly through the continuous 2F corridors without needing to traverse 1F!
-- **Component B (Isolated Landing)**: (22, 6) <-> 1F (23, 7) (isolated 2-tile dead-end).
-- **Component C (Isolated Alcove)**: (19, 7) <-> 1F (18, 9) (isolated 3x3 dead-end).
-- **Component D (Isolated NE Landing)**: (29, 1) <-> 1F (27, 1) (isolated 7-tile dead-end).
-- **Component E (Isolated NW Terrace)**: (9, 1) <-> 1F (7, 1) (isolated 6-tile corridor with item at 5, 0).
+- **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 3-19.
+  - Ladder A1: (1, 3) <-> 1F NW sector.
+  - Ladder A2: (3, 11) <-> 1F Western ridge.
+  - Ladder C: (19, 7) <-> 1F (18, 9) (central transit hub, connects directly to Row 3-5 East/West Highway!).
+  - Ladder B: (22, 6) <-> 1F (23, 7) (connected via open corridors across cols 19-23, rows 3-10).
+  - Ladder D: (29, 1) <-> 1F (27, 1) (isolated NE landing).
+  - Ladder E: (9, 1) <-> 1F (7, 1) (isolated NW terrace).
 
 ## Verified Items (2F)
-- Item Pok�ball at (29, 9) collected.
-- Item Pok�ball at (13, 6) collected.
-- Item Pok�ball at (4, 15) collected (TM14 Blizzard) [Turn 39796].
+- Item Pokéball at (29, 9) collected (PP Up).
+- Item Pokéball at (13, 6) collected (Max Potion).
+- Item Pokéball at (4, 15) collected (TM14 Blizzard).
 
 ## Wild Encounters (2F)
-- Ditto (Normal)
-- Chansey (Normal)
-- Venomoth (Bug/Poison)
-- Kadabra (Psychic)
-- Dodrio (Normal/Flying)
-- Rhydon (Ground/Rock)
-- Electrode (Electric)
-- Marowak (Ground)
-- Wigglytuff (Normal)
+- Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
 
 
 <hr>
