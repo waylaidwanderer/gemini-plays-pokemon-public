@@ -40,3 +40,4 @@
 - Marowak (Ground)
 - Dodrio (Normal/Flying)
 - Electrode (Electric)
+- Venomoth (Bug/Poison)
