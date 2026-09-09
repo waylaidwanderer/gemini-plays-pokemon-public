@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Respawned at Cinnabar Island after testing Champion match. Full party restored (HYDROS Lv 90, 311/311 HP, full PP). Flying to Indigo Plateau to execute zero-recoil sweep of the Pokémon League gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED).
+- League Status: Continuous Pokémon League gauntlet in progress! Lorelei (Room 1) engaged; Dewgong Lv 54 defeated. HYDROS at Lv 90 (311/311 HP - 100% full health, Surf 13/15, Ice Beam 10/10, Bite 25/25). Executing zero-recoil sweep.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
