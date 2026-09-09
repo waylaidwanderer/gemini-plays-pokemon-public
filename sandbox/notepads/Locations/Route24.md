@@ -1,32 +1,47 @@
-# Route 24 - Points of Interest & Notes
-
-## Connections
-- South: Cerulean City at (20, 6) / (21, 6)
-- North: Nugget Bridge leading towards Route 25
-
-## Layout & Landmarks
-- Entry point at south border (cols 20-21, rows 5-6).
-- Nugget Bridge extends northward along columns 20-21 across the water.
-- Waterway flanks the bridge on the left (cols 14-19) and right (cols 22-25).
-- Grass patches located along the western bank.
-
-## Verified Encounters & Battles
-- Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499, Defeated Turn 1528]. Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
-- Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: ¥140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Trainer #2 (Lass): Located at (10, 28) facing Down [Defeated Turn 1553]. Team: Pidgey Lv 12, Oddish Lv 12. Reward: ¥180. Dialogue: "I'm No. 2! Now it's serious!" Defeat quote: "How could I lose?"
-- Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1563]. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Reward: ¥140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
-- Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
+# Route 24 - Points of Interest & Notes
+
+
+
+## Connections
+
+- South: Cerulean City at (20, 6) / (21, 6)
+
+- North: Nugget Bridge leading towards Route 25
+
+
+
+## Layout & Landmarks
+
+- Entry point at south border (cols 20-21, rows 5-6).
+
+- Nugget Bridge extends northward along columns 20-21 across the water.
+
+- Waterway flanks the bridge on the left (cols 14-19) and right (cols 22-25).
+
+- Grass patches located along the western bank.
+
+
+
+## Verified Encounters & Battles
+
+- Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499, Defeated Turn 1528]. Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
+
+- Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: ¥140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
+
+- Nugget Bridge Trainer #2 (Lass): Located at (10, 28) facing Down [Defeated Turn 1553]. Team: Pidgey Lv 12, Oddish Lv 12. Reward: ¥180. Dialogue: "I'm No. 2! Now it's serious!" Defeat quote: "How could I lose?"
+
+- Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1563]. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Reward: ¥140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
+
+- Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"
+
+- Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
+
 - Nugget Bridge Team Rocket Recruiter: Located at (11, 15) [Defeated Turn 1591]. Team: Ekans Lv 15, Zubat Lv 15. Reward: Nugget prize + ¥450. Dialogue: "Congratulations! You beat the 5 of us! You've earned a fabulous prize!" / "By the way, would you like to join TEAM ROCKET?" Defeat quote: "Arrgh! You are good!"
-- Western Grass Trainer (Jr. Trainer Male Shane): Located at (5, 16) in the western grass patch [Defeated Turn 39661]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I saw your feat from the grass!" Defeat quote: "I thought not!"
+- Western Grass Trainer (Jr. Trainer Male Shane): Located at (5, 16) in the western grass patch [Defeated Turn 39661]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I saw your feat from the grass!" Defeat quote: "I thought not!"
+
 
 ## Post-Game: Cerulean Cave Waterway Access Protocol
 - **Location**: West of Nugget Bridge (cols 6-8, rows 15-36+).
 - **Requirements**: Pokémon League Champion title (defeating RED removes the cave guard).
 - **Shoreline Access Point**: (8, 15) / (9, 15) at the northern end of Nugget Bridge.
-- **Navigation**:
-  1. Weave north across Nugget Bridge (avoiding trainers at (11, 31), (10, 28), (11, 25), (10, 22), (11, 19), (11, 15)).
-  2. At row 14/15, step West off the bridge onto the grassy bank at (8, 15).
-  3. Face West toward the water at (7, 15) and activate Surf (HYDROS).
-  4. Surf South down the western river canal to the southern plateau.
-  5. Step onto the land at the cave opening and enter Cerulean Cave to reach Mewtwo!
+- **Navigation**: Access the river canal from northern Route 24 bank at (8, 15) and Surf south into Cerulean Cave.
