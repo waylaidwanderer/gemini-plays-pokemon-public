@@ -2652,7 +2652,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9038: At (18, 4) (137 steps used, 363 remaining). Row 4 north/east edges confirmed cliffs. Descended via (17, 7) stairs to (20, 8).
 - Turns 9064-9085: Tested west sector. Ground passage west along row 9 is blocked by tree trunk at (15, 9). Row 7 western corridor leads to (1, 7); (5, 6) is solid bush hedge; (0, 7) is statue base. Gateway into Area 2 is visible at rows 4..5 between statues.
 - Turns 9092-9150: Macro-loop traversal across North Plateau Bridge and western sector. Empirically confirmed solid collisions at (0, 7) statue, (0, 8) bush, (10, 5) cliff wall, (10, 4) cliff corner, and (8..9, 6) bush hedge. Row 6 confirmed impassable continuous hedge barrier.
-- Turn 9152: At (8, 7) (282 steps used, 218 remaining). Ceasing redundant row 6 probing. Re-routing toward southern corridor and alternate passages.
+- Turn 9152: At (8, 7) (282 steps used, 218 remaining). Ceased redundant row 6 probing.
+- Turn 9153: At (8, 7) (282 steps used, 218 remaining). Breaking out of northern macro-loop: moving to col 10 and heading south along clear lawn corridor.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
