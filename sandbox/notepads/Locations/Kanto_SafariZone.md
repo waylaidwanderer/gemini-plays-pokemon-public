@@ -29,7 +29,6 @@
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
 - South Plateau Western Sector: Ascended at (12, 21) via south-facing stairs. Elevated floor spans cols 11..17+ across rows 18..20 bordering the southern shoreline of the central water pond (rows 14..17).
-- Column 20 Canopy Corridor Hypothesis: Visual lawn at (20, 5) and (20, 7). Rows 4..6 at col 20 are candidate permeable canopy corridor tiles (analogous to Center Area row 15 gap) providing direct access to the northern row 3 lawn corridor.
 - Western Statue Collision at (0, 7): Tested Turn 9127; solid impassable statue base.
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.

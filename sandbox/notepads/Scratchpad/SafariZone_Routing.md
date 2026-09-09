@@ -32,6 +32,8 @@
 - Turn 9170: At (17, 18) (306 steps used, 194 remaining). Traversed east across South Plateau.
 - Turn 9171: At (22, 18) (311 steps used, 189 remaining). Reached eastern ridge (cols 21..22) of South Plateau. Ridge extends north along rows 14..17 toward (24, 15) descent.
 
+- Turn 9213: At (24, 14) (~324 steps used, ~176 remaining). Ascended South Plateau via (24, 15) stairs.
+
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
 - Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Projected steps upon entering Area 3: ~150-180 steps (218 steps remaining in Session 7).
