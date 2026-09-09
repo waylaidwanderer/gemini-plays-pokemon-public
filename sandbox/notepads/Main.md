@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: In Champion Chamber battling Champion RED! All 4 Elite Four members (Lorelei, Bruno, Agatha, Lance) cleared! RED's Pidgeot and Alakazam defeated. Rhydon active.
+- League Status: In Champion Chamber battling Champion RED! All 4 Elite Four members (Lorelei, Bruno, Agatha, Lance) cleared! RED's Pidgeot, Alakazam, and Rhydon defeated. Gyarados incoming.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
