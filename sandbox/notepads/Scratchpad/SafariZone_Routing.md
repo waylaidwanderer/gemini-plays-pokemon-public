@@ -38,7 +38,7 @@
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8992: At (17, 24) (46 steps used, 454 remaining). Wild Paras encountered. Fleeing to ascend lower plateau stairs at (20, 21).
+- Turn 8993: At (17, 24) (46 steps used, 454 remaining). Escaped Paras. Ascending lower plateau stairs at (20, 21).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
