@@ -2659,16 +2659,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Steps Remaining: 150 / 500 steps
 - Current Position: (26, 23) facing Right on East Corridor
 
-## Master Map & Route to Secret House (Verified Turn 9566)
-- Row 24 has a horizontal bush hedge across cols 22..29.
-- At (29, 22..23), there is an east-facing ledge (`>`).
-- Hopping east over the ledge lands at (30, 22..23).
-- Column 30 is clear lawn south past the hedge at (30, 24).
-- Rows 25, 26, 27 form an open lawn corridor across cols 22..31.
-- Plan:
-  1. Step Right 2 to (28, 23) to scout cols 32..33 and verify ledge/pathway layout.
-  2. Hop ledge Right to (30, 23).
-  3. Walk Down to row 26, then West along row 26 superhighway to locate Secret House.
-- Budget: 150 steps remaining, ~32 steps required. Surplus: ~118 steps!
+## Master Map & Route to Secret House (Verified Turn 9571)
+- Column 29 row 23 is a regular two-way open lawn corridor (not a ledge).
+- Row 24 bush hedge ends at col 29.
+- Column 30 is clear lawn from row 23 south past the row 24 hedge.
+- Rows 25, 26, 27 form an open lawn superhighway across the southern sector.
+- Steps Remaining: ~147 / 500 steps.
+- Next Route:
+  1. (29, 23) -> Right to (30, 23) -> Down 3 to (30, 26) [4 steps].
+  2. Sprint West along row 26 superhighway directly into Southwest Sector to Secret House (~25 steps).
+  3. Enter Secret House and obtain HM03 Surf!
 
 <hr>
