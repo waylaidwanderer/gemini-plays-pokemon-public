@@ -2666,10 +2666,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Central Basin Scouting)
-- Current Position: Safari Zone Area 2 at (17, 12) [Turn 10021]
-- Steps Remaining: ~283 / 500 steps (+23 steps margin above 260-step benchmark)
+- Current Position: Safari Zone Area 2 at (27, 12) [Turn 10022]
+- Steps Remaining: ~273 / 500 steps (+13 steps margin above 260-step benchmark)
+- Breakthrough: Column 32 row 11 is an OPEN GAP of clean lawn between the statues (col 31) and cliff (col 33), granting direct access to the rows 8..10 northern highway west across Area 2!
 - Refuted Routes: (25, 23) is solid cliff face; (20, 20) is northern cliff edge; (16, 12..19) is dense bush column.
-- Scouting Goal: Investigate col 32 row 11 opening to reach rows 8..9 northern highway west to Area 3 gate.
+- Scouting Goal: Breach through col 32 row 11 gap to rows 8..10 northern highway and traverse west to Area 3 gate (8..9, 34..35).
 - Immediate Route Plan:
   1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
   2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
