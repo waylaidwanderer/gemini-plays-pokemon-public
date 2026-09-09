@@ -2981,5 +2981,6 @@
 - Chansey (Normal)
 - Venomoth (Bug/Poison)
 - Kadabra (Psychic)
+- Dodrio (Normal/Flying)
 
 <hr>
