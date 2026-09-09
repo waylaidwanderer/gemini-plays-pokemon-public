@@ -2952,8 +2952,9 @@
 
 ## Main Canal Network (1F)
 - Eastern canal (verified): (25, 17) -> (25, 11) -> (21, 11) -> (21, 7). Connects to shore ramps at (25, 9) and (23, 3).
+- Northern canal (verified): (14..28, 4..5) connects east to (25, 9) shore ramp; turns south at Column 14 (14, 5..6) to Row 6/7 canal (6..14, 6..7) heading west towards Column 1.
 - Central/Southern canal (verified): Columns 24-29 (rows 10-11) accessible via shore ramp at (25, 9).
-- Northern/Western canal (Pending empirical exploration): Accessible via shore ramp at (23, 3) / (25, 9) heading west towards (1, 3).
+- Western canal (Pending empirical exploration): Continuing west from (6, 6) towards (1, 3).
 
 ## Verified Items (1F)
 - Rare Candy at (16, 7) - Collected.
