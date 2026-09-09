@@ -19,7 +19,7 @@
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 8995: At (18, 22) (49 steps used, 451 remaining). Wild Kangaskhan (Lv 25) encountered in Area 1!
 - Turn 9001: Caught Wild Kangaskhan (MATILDA) Lv 25! Transferred to PC Box 1 (27 balls remaining).
-- Turn 9032: At (9, 7) (122 steps used, 378 remaining). Navigating via (9, 8) -> (12, 8) to ascend north bridge stairs at (12, 7) and cross to row 4.
+- Turn 9033: At (11, 4) on elevated bridge (131 steps used, 369 remaining). Confirmed (10, 4) is cliff edge. Advancing east along row 4 bridge toward col 20 canopy corridor entrance.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
