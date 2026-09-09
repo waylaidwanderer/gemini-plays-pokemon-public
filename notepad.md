@@ -9,7 +9,7 @@
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥71368
-- Pokédex: 13 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
+- Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
 
@@ -116,6 +116,7 @@
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
+- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
 
 
 <hr>
@@ -219,6 +220,10 @@
 - CHANSEY (Nickname: LUCKY) [Lv 26, Normal]
   - Status: Healthy
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]
+  - Transferred to PC Box 1 (Active Party full)
+- KANGASKHAN (Nickname: MATILDA) [Lv 25, Normal]
+  - Status: Healthy
+  - Caught: Safari Zone Area 1 tall grass [Turn 9001]
   - Transferred to PC Box 1 (Active Party full)
 
 
@@ -2550,7 +2555,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Area 1 (East)
 - West Exit: Center Area at (0, 22..23). Player enters at (0, 23). (Tile 0, 24 is impassable collision verified Turn 7761).
 - Signpost: Located at (5, 23) ("CENTER AREA / NORTH: AREA 2").
-- Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
+- Geography: Row 23 hedge extends along cols 8..16, opens to lawn at cols 17..18, and resumes at cols 19..21+. Row 24 corridor has lawn (cols 0..13) then tall grass (cols 14..21+). Row 22 has lawn at col 17 but tall grass across cols 18..21 leading to plateau stairs at (20, 21). Southern boundary has hedge (cols 0..13) and stumps (cols 14..21+).
 - Rock Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Eastern cliff edge ends at col 23.
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
@@ -2619,7 +2624,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 # Safari Zone Routing & Progression Master Log
 
-## Active Session Step Tracking (Session 6 - Turn 8723)
+## Archived Session 6 Step Tracking (Completed Turn 8955)
 - Turn 8723: Started Session 6 with 500 steps (fee ¥500).
 - Turns 8723-8778: Traversed Center Area -> Area 1 -> Area 2 to Area 3 entrance at (26, 0) (238 steps used, 262 remaining).
 - Turns 8778-8862: Explored Area 3 plateau network and overlook:
@@ -2641,23 +2646,21 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Verified Sector SW rows 19..23 cols 0..6 contains no buildings; southern rows 24..28 bounded by tree/hedge at row 24.
 
 ## Session 7 Routing Hypotheses (Unverified)
-### Candidate Route A: Northern Bypass via Row 14 Ground Opening (UNVERIFIED HYPOTHESIS)
-- Step Budget Feasibility: Total required steps from Safari entrance to Secret House is ~198 steps (Surplus: ~302 steps).
-### Phase 1: Gatehouse to Area 3 Entrance (~152 steps)
-1. Center Area: (14, 25) -> north through tree gap (23, 15) -> east exit to Area 1 (0, 23) (~27 steps).
-2. Area 1: (0, 23) -> lower plateau (20, 21)->(12, 21) -> north bridge (12, 7)->(12, 6) -> canopy corridor (20, 3)->(6, 3) -> Area 2 gate (0, 5) (~70 steps).
-3. Area 2: (39, 31) -> southern corridor to (22, 29) -> western plateau (22, 23)->(16, 28) -> west to gate (8, 35) -> Area 3 entrance (26, 0) (~55 steps).
-
-### Phase 2: Area 3 Entrance to Secret House (~46 steps)
-1. East Corridor: From (26, 0), walk straight south along col 25 past signpost at (26, 4) to row 14 at (25, 14) (14 steps).
-2. Row 14 Ground Bypass: Step west through the opening at (24, 14) into col 23 at (23, 14) (2 steps).
-3. Northbound Lawn Ascent: Walk north along col 23 from row 14 up to row 4 at (23, 4) (10 steps).
-4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
-5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
+### Area 3 Routing Hypotheses (Under Verification in Session 7)
+- Elevation Barriers to Account For:
+  - Northern perimeter tree blocks cols 24..25 at rows 0..1.
+  - Column 17 cliff wall blocks ground traversal across rows 6..14.
+  - Northern plateau (cols 11..16, rows 6..8) terminates at impassable row 6 cliff.
+  - Rows 4..5 ground connectivity across cols 3..22 is unverified and blocked by col 17 cliff.
+- Candidate Approches for Testing:
+  - Approach 1 (Northern Ground Passages): Test rows 2..5 east of col 17 to determine if a northern gap bypasses the col 17 cliff.
+  - Approach 2 (Row 14 Ground Corridor): Test row 14 corridor south of pond (cols 2..15) toward Rest House 4 (11, 11).
+  - Approach 3 (Plateau Overlook Descent): Re-verify western plateau ridge descent options near Rest House 4.
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8995: At (18, 22) (49 steps used, 451 remaining). Wild Kangaskhan encountered in Area 1! Throwing Safari Ball.
+- Turn 8995: At (18, 22) (49 steps used, 451 remaining). Wild Kangaskhan (Lv 25) encountered in Area 1!
+- Turn 9001: Caught Wild Kangaskhan (Lv 25)! 27 Safari Balls remaining, 451 steps remaining.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
