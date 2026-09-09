@@ -2657,7 +2657,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9155: At (8, 7). Advanced east to col 10 and south to (10, 10).
 - Turn 9157: At (10, 10) (287 steps used, 213 remaining). Advanced south along col 10.
 - Turn 9159: At (10, 14) (291 steps used, 209 remaining). Reached lawn south of pond.
-- Turn 9161: At (8, 17) (291 steps used, 209 remaining). Sighted South Plateau staircase at (12, 21). Advancing south down col 8 lawn to row 21 at (9, 21) toward (12, 21) staircase.
+- Turn 9161: At (8, 17) (291 steps used, 209 remaining). Advanced south to (9, 21).
+- Turn 9163: At (9, 21) (296 steps used, 204 remaining). Sighted South Plateau staircase at (12, 21) and signpost at (5, 23). Stepping Down to row 22 lawn and east to ascend (12, 21) stairs.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
