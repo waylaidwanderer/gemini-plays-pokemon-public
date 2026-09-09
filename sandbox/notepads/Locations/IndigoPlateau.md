@@ -52,12 +52,13 @@
   - Venusaur Lv 65: Grass/Poison type.
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
+- Poké Mart Status: Empirically verified that retail Pokémon Red/Blue lobby has NO Poké Mart clerk (right wing has Cable Club desk at (13, 6); no mid-gauntlet item purchasing). Full sweep relies on HP conservation & optimized move routing.
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
 - Left Wing (cols 0-4): PC terminal at (1, 5), Town Map / Sign at (1, 4), Column 3 North transit corridor.
 - Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
-- Right Wing (cols 9-15): Poké Mart counter at (10..11, 5..6), Cable Club link desk at (13, 6).
+- Right Wing (cols 9-15): Cable Club link desk at (13, 6).
 - Verified Route to Lorelei's Chamber (Room 1):
-  1. From entrance (7, 11), walk West 5 steps along row 11 to Column 2 at (2, 11).
+  1. From row 11, walk West along row 11 to Column 2 at (2, 11).
   2. Walk North 9 steps along Column 2 from (2, 11) to (2, 2) (Column 2 is completely unobstructed!).
   3. Walk East 6 steps along Row 2 from (2, 2) to (8, 2).
   4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
