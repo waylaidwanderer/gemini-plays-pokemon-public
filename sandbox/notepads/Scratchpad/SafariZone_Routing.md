@@ -19,26 +19,12 @@
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 9038: At (18, 4) (137 steps used, 363 remaining). Row 4 north/east edges confirmed cliffs. Descended via (17, 7) stairs to (20, 8).
 - Turns 9064-9085: Tested west sector. Ground passage west along row 9 is blocked by tree trunk at (15, 9). Row 7 western corridor leads to (1, 7); (5, 6) is solid bush hedge; (0, 7) is statue base. Gateway into Area 2 is visible at rows 4..5 between statues.
-- Turn 9092: At (13, 6) (188 steps used, 312 remaining). Re-evaluating plateau elevation and northern passage.
-- Turn 9094: At (13, 6) (188 steps used, 312 remaining). Traversing east across plateau bridge.
-- Turn 9096: At (17, 7) (193 steps used, 307 remaining). Descended stairs to (17, 8) and advanced east.
-- Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
-- Turn 9119: At (10, 8) (243 steps used, 257 remaining). Descended western stairs.
-- Turn 9124: At (6, 7) (248 steps used, 252 remaining). Advanced west along row 7.
-- Turn 9126: At (1, 7) (253 steps used, 247 remaining). Bumping Left confirmed (0, 7) is solid statue collision.
-- Turn 9128: At (1, 7). Stepped Down to (1, 8).
-- Turn 9131: At (1, 8) (254 steps used, 246 remaining). Bumping Left confirmed (0, 8) is solid bush collision.
-- Turn 9133: At (5, 7) (259 steps used, 241 remaining). Advanced east along row 7.
-- Turn 9135: At (9, 8) (264 steps used, 236 remaining). Advanced east along row 8.
-- Turn 9137: At (12, 6) (269 steps used, 231 remaining). Ascended stairs to North Plateau.
-- Turn 9139: At (11, 5) (271 steps used, 229 remaining). Bumping Left confirmed (10, 5) is solid cliff wall.
-- Turn 9144: At (11, 4) (272 steps used, 228 remaining). Bumping Left confirmed (10, 4) is solid cliff.
-- Turn 9146: At (12, 8) (277 steps used, 223 remaining). Descended stairs to ground lawn.
-- Turn 9148: At (9, 7) (281 steps used, 219 remaining). Bumping north into (9, 6) confirmed solid bush hedge. Stepping Left to (8, 7) and Up to test physical collision at (8, 6).
+- Turns 9092-9150: Macro-loop traversal across North Plateau Bridge and western sector. Empirically confirmed solid collisions at (0, 7) statue, (0, 8) bush, (10, 5) cliff wall, (10, 4) cliff corner, and (8..9, 6) bush hedge. Row 6 confirmed impassable continuous hedge barrier.
+- Turn 9152: At (8, 7) (282 steps used, 218 remaining). Ceasing redundant row 6 probing. Re-routing toward southern corridor and alternate passages.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
-- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Projected steps upon entering Area 3: ~348 steps.
+- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Projected steps upon entering Area 3: ~150-180 steps (218 steps remaining in Session 7).
 - Area 3 Objectives & Elevation Constraints:
   - Note: Tree at (24..25, 0..1) blocks row 0..1 northern perimeter. Col 17 has solid cliff face across rows 6..14.
   1. Test Northern Lawn Passages (Rows 2..5): From (26, 0), test bypass south of row 0..1 tree into northern lawn corridor.
