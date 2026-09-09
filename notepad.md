@@ -2954,7 +2954,7 @@
   - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
   - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
   - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
-  - Ladder E: Sighted at (9, 1) [Descent target, physical landing pending verification].
+  - Ladder E: (9, 1) <-> 1F (7, 1) [Empirically verified Turn 40215; isolated NW terrace].
 
 ## Verified Physical Boundaries & Corridors (2F)
 - Solid Rock Collisions verified: (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4).
@@ -2970,7 +2970,6 @@
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
-
 
 <hr>
 
