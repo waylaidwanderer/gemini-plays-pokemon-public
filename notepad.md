@@ -2572,6 +2572,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Permeable Canopy Gap at (20, 3): Empirically verified fully walkable northward on Turn 9279! Column 20 completely connects row 7 lawn to northern corridor lawn at (20, 2)!
 - Permeable Canopy Gap at (15, 3): Empirically verified fully walkable westward on Turn 9287! Row 3 is a continuous permeable canopy corridor spanning the northern boundary!
 - Permeable Canopy Corridor (Row 3, cols 10..16): Empirically verified fully walkable westward on Turns 9287-9289, providing direct access to (8, 3) lawn!
+- Verified Area 1 Traversal Solution (Turns 9276-9296): Enter Area 1 at (0, 23), move east to (20, 8), breach north through Column 20 permeable canopy corridor at (20, 6..3), traverse west through Row 3 canopy corridor (cols 16..10), step down at col 7 into row 5 runway, and walk west through gateway at (0, 4..5) into Area 2 at (39, 30..31)!
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
 - Row 6 Bush Collisions at (8, 6) and (9, 6): Tested Turns 9147, 9149; solid impassable bush hedge.
