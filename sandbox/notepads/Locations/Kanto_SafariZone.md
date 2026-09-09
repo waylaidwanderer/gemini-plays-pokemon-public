@@ -83,7 +83,7 @@
 
 
 ## Area 3 (West)
-- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
+- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26..27, 0) [Verified Turns 8403, 10163].
 - East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains rock tossing mechanics.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
