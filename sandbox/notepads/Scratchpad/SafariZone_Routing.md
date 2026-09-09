@@ -28,14 +28,14 @@
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 9 Step Ledger
-- Status: Active Session 9 (Center Area Traversal)
-- Current Position: Safari Zone Center Area at (28, 15) [Turn 9844]
+- Status: Active Session 9 (Center Area Traversal -> Area 1 Entrance)
+- Current Position: Safari Zone Center Area at (28, 10) [Turn 9845]
 - Wallet Balance: ¥70368 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 23 steps (4 steps Turn 9835, 5 steps Turn 9836, 5 steps Turn 9837, 4 steps Turn 9839, 5 steps Turn 9843)
-- Steps Remaining: 477 / 500 steps
-- Current Event: Traversed Tree Gap to clear eastern lawn at (28, 15) [Turn 9844]
-- Immediate Route Plan: Step North along col 28 to row 10 (5 steps), step Right into Area 1 (1 step). Center Area step budget remaining: 6 steps.
+- Steps Expended: 28 steps (4 steps Turn 9835, 5 steps Turn 9836, 5 steps Turn 9837, 4 steps Turn 9839, 5 steps Turn 9843, 5 steps Turn 9844)
+- Steps Remaining: 472 / 500 steps
+- Current Event: Reached East Exit corridor at (28, 10) [Turn 9845]
+- Immediate Route Plan: Step Right into Area 1 at (0, 23). Center Area budget used: 28 steps (7 steps under the ~35 step budget!).
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:

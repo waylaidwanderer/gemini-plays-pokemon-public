@@ -2664,13 +2664,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 9 Step Ledger
 - Status: Active Session 9 (Center Area Traversal)
-- Current Position: Safari Zone Center Area at (23, 15) [Turn 9841]
+- Current Position: Safari Zone Center Area at (28, 15) [Turn 9844]
 - Wallet Balance: �70368 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 18 steps (4 steps Turn 9835, 5 steps Turn 9836, 5 steps Turn 9837, 4 steps Turn 9839)
-- Steps Remaining: 482 / 500 steps
-- Current Event: Fled wild Rhyhorn, returning to overworld at (23, 15) [Turn 9842]
-- Immediate Route Plan: Flee battle, step East along row 15 through Tree Gap to col 28 (5 steps), step North along col 28 to row 10 (5 steps), step Right into Area 1 (1 step). Center Area step budget remaining: 11 steps.
+- Steps Expended: 23 steps (4 steps Turn 9835, 5 steps Turn 9836, 5 steps Turn 9837, 4 steps Turn 9839, 5 steps Turn 9843)
+- Steps Remaining: 477 / 500 steps
+- Current Event: Traversed Tree Gap to clear eastern lawn at (28, 15) [Turn 9844]
+- Immediate Route Plan: Step North along col 28 to row 10 (5 steps), step Right into Area 1 (1 step). Center Area step budget remaining: 6 steps.
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
