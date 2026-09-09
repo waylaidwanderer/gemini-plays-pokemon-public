@@ -3024,23 +3024,21 @@
 
 <h1><code>Scratchpad/CeruleanCave2F_Frontier</code></h1>
 
-# Cerulean Cave 2F Exploration Frontier & Junction Graph
+# Cerulean Cave 2F - Verified Topology & Frontier
 
-## Verified Junctions & Corridors
-- **Junction J1 (NW Entry)**: (1, 3) <-> Ladder to 1F (1, 3). Connects south along Col 1/3 to J2.
-- **Junction J2 (West Entry)**: (3, 11) <-> Ladder to 1F (3, 11).
-  - Branch J2-North: (3, 9) -> East along Row 9 to J3 (13, 9).
-  - Branch J2-South: (1..7, 11..19) -> Southwest cavern with TM14 Blizzard at (4, 15) [Explored & Collected].
-- **Junction J3 (Center Grid)**: (12..13, 9).
-  - Branch J3-East: Bypasses rock at (14, 9) via (13, 8)-(15, 8) to Row 9 East (15..21, 9) [Dead-end wall at (22, 9)].
-  - Branch J3-South: Column 12 corridor (12, 10..15).
-  - Branch J3-North: Column 13 / Column 12 leading towards Row 5 North Corridor.
-- **Junction J4 (South Corridor)**: (12, 15) <-> (13, 15) -> (13, 17).
-  - Branch J4-East: (13..19, 17) [Dead-end at (19, 17) verified Turn 39933].
-  - Branch J4-West: (10..8, 14..17) Southwest quadrant connection.
-- **Unexplored Frontier**:
-  - Frontier F1: Row 5 North Highway (cols 13-24) -> descent to eastern Column 23-29 sector.
-  - Frontier F2: Column 23-29 Southeast sector (rows 11-19, ladders/alcoves).
+## Verified Multi-Floor Ladder Matrix
+- **Ladder A1**: 2F (1, 3) <-> 1F NW sector (Descent Target towards B1F).
+- **Ladder A2**: 2F (3, 11) <-> 1F Western sector.
+- **Ladder C**: 2F (19, 7) <-> 1F (18, 9) [Central Transit Hub - Connects to 2F Row 5 Highway].
+- **Ladder B**: 2F (22, 6) <-> 1F (23, 7) [Isolated component].
+- **Ladder D**: 2F (29, 1) <-> 1F (27, 1) [Isolated NE item landing].
+- **Ladder E**: 2F (9, 1) <-> 1F (7, 1) [Isolated NW terrace with (15, 3) ledge drop to northern canal].
+
+## Verified 2F Highway Paths
+- **Row 5 Highway**: (9..16, 5) connects central transit hub (19, 7) to northwest corridor (cols 3-6).
+- **Column 3 Passage**: (3, 3) <-> (3, 1) connects Row 3 and Row 1.
+- **Row 1 Corridor**: (3..9, 1) connects to Ladder E at (9, 1) and Ladder A1 at (1, 3).
+
 
 <hr>
 
