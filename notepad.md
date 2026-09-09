@@ -85,7 +85,7 @@
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig / Selfdestruct combat backup (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
-   - Stats: Max HP 61 (HP: 61/61)
+   - Stats: Max HP 61 (HP: 0/61 [Fainted])
    - Type: Normal / Flying
    - Moves: Fly (15/15), Sand-Attack, Quick Attack (30/30), Whirlwind
    - Role: Flyer utility (Slot 4)
