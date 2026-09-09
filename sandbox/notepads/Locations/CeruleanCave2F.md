@@ -21,7 +21,7 @@
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
 - Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..27, 17); blocked west by Column 20 rock wall.
 - Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
-- Column 1 Western Grand Highway: (1, 2..11) runs south from Row 2 down to Ladder A2 at (3, 11) (blocked from Row 1 by (2, 1) rock; accessed via Row 17 South Artery).
+- Column 1 Western Grand Highway: (1, 2..11) runs south from Row 2 down to Ladder A2 at (3, 11) (blocked from Row 1 by (2, 1) rock). Accessible via 2F Western Corridors (cols 1..9).
 
 ## Verified Items (2F)
 - Item Pokéball at (29, 9) collected (PP Up).
