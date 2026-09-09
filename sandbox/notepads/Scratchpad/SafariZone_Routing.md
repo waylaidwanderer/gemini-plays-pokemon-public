@@ -70,3 +70,4 @@
 - Turn 8429: Exited Rest House 4 back into Area 3 at (11, 12) (258 steps remaining). Now heading to northwest quadrant.
 
 - Turn 8446: Position (1, 23). Row 24 bush line opens at col 10/11 into southern plaza (rows 25-29 cols 1-11). Heading east to col 10 to enter southern plaza and locate Secret House.
+- Turn 8447: Position (5, 23) tall grass encounter with Doduo (238 steps remaining, 262 steps used). Fleeing to continue east along row 23 to col 10 opening.
