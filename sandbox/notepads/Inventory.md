@@ -76,6 +76,10 @@
   - Caught: Route 11 tall grass [Turn 3721]
 
 ## PC Box 1 Pokémon
+- PINSIR (Nickname: PINCER) [Lv 23, Bug]
+  - Status: Healthy
+  - Caught: Safari Zone Center Area tall grass [Turn 10141]
+  - Transferred to PC Box 1 (Active Party full)
 - MAGIKARP (Nickname: TSUNAMI) [Lv 5, Water]
   - Status: Healthy
   - HP: Full
