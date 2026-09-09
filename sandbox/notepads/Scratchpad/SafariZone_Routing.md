@@ -1,4 +1,3 @@
-
 ## Active Session Step Tracking (Session 6 - Turn 8723)
 - Turn 8723: Started Session 6 with 500 steps (fee ¥500).
 - Turns 8723-8729: Traversed Center Area via row 15 tree gap to (28, 15) and entered Area 1 at (0, 23) (27 steps, 473 remaining).
@@ -8,3 +7,4 @@
 - Turns 8763-8767: Crossed bridge east to (17, 6)->(20, 8)->(20, 3), west along row 3 canopy to (6, 3), down to row 5, entered Area 2 at (0, 5) (39 steps, 317 remaining).
 - Turns 8768-8778: Traversed Area 2 southern corridor to (22, 29), ascended Western Plateau at (22, 23), descended at (16, 27) to (16, 28), west to (8, 35), entered Area 3 at (26, 0) (55 steps, 262 remaining).
 - Turns 8779-8780: Walked south down East Corridor to (25, 11) (12 steps, 250 remaining). Active step baseline: 250 steps remaining in Session 6.
+- Turns 8781-8791: Ascended plateau bridge at (21, 17) to (21, 16) (~237 steps remaining). Moving west along row 15 corridor.
