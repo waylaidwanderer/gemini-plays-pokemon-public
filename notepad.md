@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Challenging Pokémon League Elite Four! Room 1 (Lorelei), Room 2 (Bruno), Room 3 (Agatha) cleared! Entering Room 4 (Lance).
+- League Status: In Champion Chamber battling Champion RED! All 4 Elite Four members (Lorelei, Bruno, Agatha, Lance) cleared! RED's Pidgeot and Alakazam defeated. Rhydon active.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -72,7 +72,7 @@
 1. HYDROS (Blastoise) - Lv 88
    - Stats: Max HP 303 (HP: 22/303), Attack 216, Defense 238, Speed 219, Special 227
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (3/10), Bite (23/25), Surf (4/15)
+   - Moves: Double-Edge (9/15), Ice Beam (0/10), Bite (21/25), Surf (4/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
