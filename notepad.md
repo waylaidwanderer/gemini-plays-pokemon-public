@@ -2568,7 +2568,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 6 Bush Collision at (3, 6): Tested Turn 9259; solid impassable collision.
 - Row 6 Bush Cut Test at (3, 6): Tested Turn 9260 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Permeable Canopy Corridor (Row 3, cols 10..16): Empirically verified fully walkable westward on Turns 9287-9289, providing direct access to (8, 3) lawn!
-- Verified Area 1 Traversal Solution (Turns 9276-9296): Enter Area 1 at (0, 23), move east to (20, 8), breach north through Column 20 permeable canopy corridor at (20, 6..3), traverse west through Row 3 canopy corridor (cols 16..10), step down at col 7 into row 5 runway, and walk west through gateway at (0, 4..5) into Area 2 at (39, 30..31)!
+- Verified Area 1 Traversal Solution (Turns 9276-9296): Enter Area 1 at (0, 23), follow southern corridor (row 24) to col 8..10, traverse north along cols 8..10 western bypass around the central pond to row 8 west lawn (12, 8), ascend North Plateau Bridge at (12, 7) and cross east to (17, 7), descend to East Lawn at (20, 8), breach north through Column 20 permeable canopy corridor at (20, 6..3), traverse west through Row 3 canopy corridor (cols 16..10), step down at col 7 into row 5 runway, and walk west through gateway at (0, 4..5) into Area 2 at (39, 30..31)!
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
 - Row 6 Bush Collisions at (8, 6) and (9, 6): Tested Turns 9147, 9149; solid impassable bush hedge.
@@ -2650,10 +2650,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Budget: 500 steps. Estimated requirement: ~187 steps to Area 3, leaving ~313 steps for Area 3 Secret House.
 - Phase 1: Center Area (30 steps):
   - (14, 25) -> north to (14, 22) -> east to (20, 22) -> north to (20, 15) -> east through tree gap to (28, 15) -> north to (28, 11) -> east to (30, 11) Area 1 warp.
+## Active Session Step Tracking (Session 8 - Started Turn 9344)
+- Turn 9344: Started Session 8 with 500 steps (fee �500).
+- Turns 9345-9357: Center Area traversal (28 steps used, 472 remaining).
+  - (15, 24) -> (20, 22) (7 steps) -> (20, 15) (7 steps) -> (23, 15) (3 steps, fled Exeggcute) -> (28, 15) (5 steps) -> (30, 11) Area 1 warp (6 steps).
+- Turn 9358: Entered Area 1 at (0, 23) (472 steps remaining).
+- Turn 9359: Moved Down to (0, 24) and Right to (5, 24) (6 steps used, 466 steps remaining).
+
 - Phase 2: Area 1 (~75 steps):
-  - Enter at (0, 23). East along southern corridor (rows 23..24) to (12, 22).
-  - Walk north along column 12 corridor to North Plateau Bridge stairs at (12, 7..8).
-  - Cross North Plateau Bridge east from (12, 7) across rows 5..6 to (17, 7), descend to East Lawn at (17..20, 8).
+  - Enter at (0, 23). Follow southern corridor (row 24) east to (8, 24) / (9, 24) (9 steps).
+  - Traverse north along cols 8..10 western bypass around central pond to row 8 west lawn at (12, 8) (~16 steps).
+  - Ascend North Plateau Bridge at (12, 7) and cross east to (17, 7) stairs (6 steps).
+  - Descend to East Lawn at (20, 8) (4 steps).
   - Breach north through permeable canopy at col 20: (20, 7..2) (6 steps).
   - West through row 3 permeable canopy: (19..8, 3) (12 steps).
   - Down to row 5 (2 steps), west through gateway at (0, 4..5) (8 steps) -> Area 2 at (39, 31).
