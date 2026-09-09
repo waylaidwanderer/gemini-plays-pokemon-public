@@ -25,3 +25,4 @@
 - Dodrio (Normal/Flying)
 - Rhydon (Ground/Rock)
 - Electrode (Electric)
+- Marowak (Ground)
