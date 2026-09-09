@@ -22,11 +22,7 @@
   - 2F (19, 7) <-> 1F (18, 9).
 - **Frontier F3 - South Transit Probe**:
   - Column 24 south to Row 15 verified dead-end at (24, 15).
-- (18, 5) - Solid rock wall
-- (19, 4) - Solid rock wall
-- (21, 3) - Solid rock wall
-- (19, 2) - Solid rock wall
-- (16..17, 2) - Solid rock wall
+
 ## Northwest Sector Hypotheses (Unverified)
 - (3, 3) corridor is blocked to the west by solid rock at (2, 3).
 - Ladder A1 visually confirmed at (1, 3) from (3, 3) vantage, but inaccessible from northern corridors.
