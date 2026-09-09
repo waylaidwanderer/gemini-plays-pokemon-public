@@ -3034,6 +3034,7 @@
 - (22, 8) - Solid rock wall
 - (22, 9) - Solid rock wall
 - (24, 9) - Solid rock wall
+- (19, 10) - Solid rock wall
 - (23, 12) - Solid rock wall
 - (23, 13..15) - Solid rock wall
 - (14, 15) - Solid rock wall
