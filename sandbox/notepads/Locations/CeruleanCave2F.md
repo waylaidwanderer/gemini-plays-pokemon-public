@@ -4,7 +4,8 @@
 - Ladder at (22, 6): Connects down to 1F at (23, 7). Isolated 2-tile landing.
 - Ladder at (29, 1): Connects down to 1F at (27, 1). Northeast quadrant (contains item at (29, 9)).
 - Ladder at (19, 7): Connects down to 1F at (18, 9). Main access to central/western 2F corridors!
-- Ladder at (9, 1): Northwest quadrant (accessed via column 7 corridor: 7, 3 -> 7, 1 -> 8, 1 -> 9, 1). Destination pending empirical test!
+- Ladder at (9, 1): Northwest quadrant (accessed via (3, 3) -> (3, 1) -> (9, 1)). Destination pending empirical test!
+- Ladder at (1, 3): Far northwest/west corridor. Destination pending empirical test!
 
 ## Map Layout & Exploration
 - Ladder at (22, 6) is an isolated 2-tile alcove (22, 6..7) on 2F.
