@@ -2656,6 +2656,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (15, 24) -> (20, 22) (7 steps) -> (20, 15) (7 steps) -> (23, 15) (3 steps, fled Exeggcute) -> (28, 15) (5 steps) -> (30, 11) Area 1 warp (6 steps).
 - Turn 9358: Entered Area 1 at (0, 23) (472 steps remaining).
 - Turn 9359: Moved Down to (0, 24) and Right to (5, 24) (6 steps used, 466 steps remaining).
+- Turns 9364-9367: Moved Right to (10, 24) (5 steps) and Right to (17, 24) (7 steps, wild Exeggcute encounter). Total steps used: 46 (454 remaining).
 
 - Phase 2: Area 1 (~75 steps):
   - Enter at (0, 23). Follow southern corridor (row 24) east to (8, 24) / (9, 24) (9 steps).
