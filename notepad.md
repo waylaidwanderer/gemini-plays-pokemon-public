@@ -2647,8 +2647,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session Status
 - Session Start: Turn 9340 (¥500 paid, 30 Safari Balls, 500 step budget)
-- Current Turn: 9667
-- Current Position: (23, 18) facing Right on Eastern Corridor Lawn
+- Current Turn: 9670
+- Current Position: (25, 15) facing Up on Eastern Corridor
 - Unified Step Ledger:
   - Area 1 Traversal (Gate to Area 2): 125 steps [Turn 9430]
   - Area 2 Traversal (Area 1 Gate to Area 3 Gate): 176 steps [Turn 9532]
@@ -2667,8 +2667,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Re-align onto Row 16 Elevated Runway (12, 18 to 15, 16): 5 steps [Turn 9658]
   - Row 16 Elevated Bridge Eastward Sprint (15, 16 to 20, 16): 5 steps [Turn 9664]
   - Descend Eastern Staircase onto Ground Lawn (20, 16 to 23, 18): 5 steps [Turn 9667]
-  - Cumulative Steps Used: 472 / 500 steps
-  - Steps Remaining: 28 / 500 steps
+  - Eastern Corridor Sprint North (23, 18 to 25, 15): 5 steps [Turn 9670]
+  - Cumulative Steps Used: 477 / 500 steps
+  - Steps Remaining: 23 / 500 steps
 
 ## Master Map & Routing Strategy (Turn 9634)
 - Northern Sector Closed (Empirically Confirmed Turn 9626):
