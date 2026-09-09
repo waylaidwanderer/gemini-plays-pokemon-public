@@ -11,3 +11,4 @@
 - Turn 8806: Confirmed (10, 8) is impassable cliff. Northern plateau is a scenic overlook. Returning east along row 8 to (16, 8) (~219 steps remaining).
 - Turn 8810: Walking south along col 16 to (16, 17) and west to (14, 17) (~203 steps remaining).
 - Turn 8814: Reached (10, 17) (199 steps remaining). Sighted staircase at (6, 19). Advancing west along row 17 to (6, 17).
+- Turn 8815: Descending staircase at (6, 19) into (6, 20) and heading west along row 20 toward col 2 western corridor (~190 steps remaining).
