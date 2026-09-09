@@ -17,3 +17,4 @@
 - Turn 8864: Walking south along col 16 ridge to (16, 12) (~130 steps remaining).
 - Turn 8866: Walking Down to (16, 16) and Right across bridge to (18, 16) (~124 steps remaining).
 - Turn 8868: Walking Right to (21, 16) and descending staircase at (21, 17) to (21, 18) (~119 steps remaining).
+- Turn 8870: Walking east to (25, 18) and north to (25, 16) in East Corridor (~113 steps remaining).
