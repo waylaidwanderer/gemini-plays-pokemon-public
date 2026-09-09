@@ -2606,6 +2606,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Southern Plateau Western Staircase: South-facing wooden staircase at (6, 19) connects the elevated plateau at (6, 18) down to ground level tall grass at (6, 20).
 - Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.
 - Northern Plateau Row 6 Cliff Edge: Stepping Up from (11, 6) into (11, 5) confirmed impassable solid cliff boundary (Turn 8856).
+- Northern Plateau Corner Collision at (10, 6): Stepping Left from (11, 6) into (10, 6) confirmed solid cliff boundary (Turn 8859).
 
 <hr>
 
@@ -2625,5 +2626,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8847: Walking Up to (16, 8) and Left along row 8 to (13, 8) (~145 steps remaining).
 - Turn 8853: Advancing Left to (11, 8) and Up to (11, 6) on northern plateau (~141 steps remaining).
 - Turn 8855: At northern boundary (11, 6) (141 steps remaining). Testing single step Up into (11, 5).
+- Turn 8860: Stepping Down to (11, 7) and testing Left into (10, 7) (~140 steps remaining).
 
 <hr>
