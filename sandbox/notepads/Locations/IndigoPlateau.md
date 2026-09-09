@@ -3,13 +3,21 @@
 ## Gauntlet Overview & Rules
 - **Sequential Gauntlet Rule**: The Pokémon League Elite Four consists of 5 consecutive battles (Lorelei, Bruno, Agatha, Lance, Champion RED) with zero mid-gauntlet healing stations or Pokémon Centers.
 - **Blackout & Failure Reset**: Blacking out at any point during the gauntlet completely resets all defeated Elite Four trainers, locks all chamber doors, and returns the player to the last visited Pokémon Center. The entire gauntlet must be completed in a single continuous run.
-- **Speed Priority & Status Mitigation (Crucial Lesson)**: At Lv 78, HYDROS possesses 191 Speed, naturally outspeeding every single Pokémon in Lorelei, Bruno, and Agatha's rosters (Agatha's fastest Gengar is base 110 Spd = ~145 Spd at Lv 60). Maintaining full Speed is paramount:
-  - When HYDROS is unparalyzed, it strikes FIRST on turn 1 of every Agatha matchup, achieving 1-hit knockouts with STAB Surf (Gengar, Haunter, Arbok) and Ice Beam (Golbat) BEFORE they can ever cast Confuse Ray or Hypnosis!
-  - In Room 1 (Lorelei), knock out Lapras swiftly using Surf / Double-Edge to minimize the window for Body Slam paralysis.
+- **Speed Priority & Status Mitigation (Empirically Verified)**: At Lv 91, HYDROS possesses 228 Speed, naturally outspeeding every single Pokémon across Lorelei, Bruno, Agatha, Lance, and Champion RED (Agatha's fastest Gengar is base 110 Spd = ~145 Spd at Lv 60). Maintaining full Speed is paramount:
+  - HYDROS strikes FIRST on turn 1 of every Agatha matchup, achieving 1-hit knockouts with STAB Surf (Gengar Lv 56, Gengar Lv 60) and Ice Beam (Golbat Lv 56, Haunter Lv 55, Arbok Lv 58) BEFORE they can ever cast Confuse Ray or Hypnosis!
 
 ## Status Mitigation & Poké Flute Protocol
 - **Poké Flute in Battle**: The Bag contains the Poké Flute (infinite uses). When HYDROS is put to sleep (e.g. by Hypnosis), opening `ITEM` and selecting `POKé FLUTE` instantly awakens HYDROS on the next turn, eliminating multi-turn sleep risks and completely preventing Dream Eater attacks!
-- **Speed Dominance**: At Lv 81, HYDROS has 200 Speed, outspeeding every Pokémon across Lorelei, Bruno, Agatha, Lance, and Champion RED. Always strike first with STAB Surf, Ice Beam, or Double-Edge.
+- **Speed Dominance**: At Lv 91, HYDROS has 228 Speed, outspeeding every Pokémon in the League. Always strike first with STAB Surf, Ice Beam, or Double-Edge.
+
+## Fight Menu Cursor Memory Mechanic (Empirically Verified)
+- **Cursor Memory**: In retail Pokémon Blue, when opening the `FIGHT` menu during battle, the cursor retains the position of the **last selected move slot** from the previous turn rather than resetting to Slot 1.
+- Move Layout (Slot 1: Double-Edge, Slot 2: Ice Beam, Slot 3: Bite, Slot 4: Surf).
+- To switch moves, calculate relative offsets from the previously selected move slot:
+  - From Slot 4 (Surf) to Slot 2 (Ice Beam): Press `Up` 2 times.
+  - From Slot 2 (Ice Beam) to Slot 4 (Surf): Press `Down` 2 times.
+  - From Slot 2 (Ice Beam) to Slot 3 (Bite): Press `Down` 1 time.
+  - From Slot 4 (Surf) to Slot 1 (Double-Edge): Press `Down` 1 time (wraps) or `Up` 3 times.
 
 ## Gauntlet Progress & PP Verification Protocol
 - Track live PP after every room to adapt move selections dynamically across the gauntlet.
@@ -25,35 +33,35 @@
 
 - Room 2 (Bruno):
   - Onix Lv 53: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 10 -> 9/10]
-  - Hitmonchan Lv 55: STAB Surf (Slot 4) - OHKO vs 35 Special, 0 recoil [Surf PP: 6 -> 5/15]
-  - Hitmonlee Lv 55: STAB Surf (Slot 4) - OHKO vs 35 Def, 0 recoil [Surf PP: 5 -> 4/15]
+  - Hitmonchan Lv 55: Double-Edge (Slot 1) - OHKO (recoil 32 HP -> 268/315) [DE PP: 15 -> 14/15]
+  - Hitmonlee Lv 55: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 6 -> 5/15]
   - Onix Lv 56: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 9 -> 8/10]
-  - Machamp Lv 58: STAB Surf (Slot 4) - OHKO vs 65 Special, 0 recoil [Surf PP: 4 -> 3/15]
-  -> HYDROS clears Room 2 at 311/311 HP (100% full health) with zero recoil!
+  - Machamp Lv 58: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 5 -> 4/15]
+  -> HYDROS clears Room 2 at 268/315 HP with 0 additional recoil!
 
 - Room 3 (Agatha):
-  - Gengar Lv 56: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 3 -> 2/15]
+  - Gengar Lv 56: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 5 -> 4/15]
   - Golbat Lv 56: Ice Beam (Slot 2) - 2x SE OHKO, 0 recoil [Ice Beam PP: 8 -> 7/10]
   - Haunter Lv 55: Ice Beam (Slot 2) - OHKO, 0 recoil [Ice Beam PP: 7 -> 6/10]
   - Arbok Lv 58: Ice Beam (Slot 2) - OHKO, 0 recoil [Ice Beam PP: 6 -> 5/10]
-  - Gengar Lv 60: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 2 -> 1/15]
-  -> HYDROS clears Room 3 at 311/311 HP (100% full health) with zero recoil!
+  - Gengar Lv 60: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 4 -> 3/15]
+  -> HYDROS clears Room 3 at 268/315 HP with zero recoil!
 
 - Room 4 (Lance):
   - Gyarados Lv 58: Ice Beam (Slot 2) - neutral 95 BP deals ~167 dmg, finish with Bite (Slot 3) [Ice Beam PP: 5 -> 4/10, Bite PP: 25 -> 24/25]
   - Dragonair Lv 56: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 4 -> 3/10]
   - Dragonair Lv 56: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 3 -> 2/10]
-  - Aerodactyl Lv 60: STAB Surf (Slot 4) - 2x SE OHKO, 0 recoil [Surf PP: 1 -> 0/15]
-  - Dragonite Lv 62: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 2 -> 1/10]
-  -> HYDROS clears Room 4 at ~290+/311 HP with zero recoil!
+  - Aerodactyl Lv 60: Ice Beam (Slot 2) - 2x SE OHKO, 0 recoil [Ice Beam PP: 2 -> 1/10] (Conserves Surf for RED!)
+  - Dragonite Lv 62: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 1 -> 0/10]
+  -> HYDROS clears Room 4 at 268/315 HP with zero recoil!
 
 - Champion Chamber (Champion RED Matchup Notes):
-  - Pidgeot Lv 61: Ice Beam (Slot 2) - 2x SE OHKO, 0 recoil [Ice Beam PP: 1 -> 0/10]
+  - Pidgeot Lv 61: STAB Surf (Slot 4) / Double-Edge - OHKO [Surf PP: 3 -> 2/15]
   - Alakazam Lv 59: Bite (Slot 3) - OHKO vs 68 Def, 0 recoil [Bite PP: 24 -> 23/25]
-  - Rhydon Lv 61: Bite / STAB Surf - 4x SE OHKO, 0 recoil
-  - Gyarados Lv 61: Bite / Double-Edge (HYDROS has ~290 HP, so recoil is completely safe!)
-  - Arcanine Lv 63: Bite / Double-Edge
-  - Venusaur Lv 65: Double-Edge - OHKO / 2HKO
+  - Rhydon Lv 61: STAB Surf (Slot 4) - 4x SE OHKO, 0 recoil [Surf PP: 2 -> 1/15]
+  - Gyarados Lv 61: Double-Edge (Slot 1) / Bite [DE PP: 14 -> 13/15]
+  - Arcanine Lv 63: STAB Surf (Slot 4) - 2x SE OHKO, 0 recoil [Surf PP: 1 -> 0/15]
+  - Venusaur Lv 65: Double-Edge (Slot 1) - OHKO [DE PP: 13 -> 12/15]
   -> CHAMPION RED DEFEATED! ENTER HALL OF FAME!
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
