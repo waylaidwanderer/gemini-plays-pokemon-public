@@ -3,6 +3,7 @@
 ## Connected Component Graph (1F)
 - **Entrance**: (24..25, 17) via water canal from Route 24 / Cerulean City.
 - **Shore Ramps (1F)**:
+  - Entrance Shore Ramp (21, 12): Connects entrance landing (21..25, 13..17) to Eastern canal.
   - Shore Ramp (25, 9): Connects Eastern canal to Central-East landing.
   - Shore Ramp (23, 3): Connects Northern canal to NE landing.
   - Shore Ramp (11, 13): Connects Southern canal cove to Central Plateau (11..18, 8..12).
