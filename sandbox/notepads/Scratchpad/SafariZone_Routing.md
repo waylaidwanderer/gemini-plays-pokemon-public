@@ -24,7 +24,8 @@
 - Turn 9153: At (8, 7) (282 steps used, 218 remaining). Breaking out of northern macro-loop: moving to col 10.
 - Turn 9155: At (8, 7). Advanced east to col 10 and south to (10, 10).
 - Turn 9157: At (10, 10) (287 steps used, 213 remaining). Advanced south along col 10.
-- Turn 9159: At (10, 14) (291 steps used, 209 remaining). Reached lawn south of pond. Wide clear lawn corridor open along rows 16..17. Advancing south to row 17 and west to (8, 17) toward southwest sector and South Plateau.
+- Turn 9159: At (10, 14) (291 steps used, 209 remaining). Reached lawn south of pond.
+- Turn 9161: At (8, 17) (291 steps used, 209 remaining). Sighted South Plateau staircase at (12, 21). Advancing south down col 8 lawn to row 21 at (9, 21) toward (12, 21) staircase.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
