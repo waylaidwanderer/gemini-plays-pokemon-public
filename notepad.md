@@ -2660,14 +2660,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Steps Remaining: 150 / 500 steps
 - Current Position: (26, 23) facing Right on East Corridor
 
-## Master Map & Route to Secret House (Verified Turn 9576)
-- Map Border Discovery: Stepping Right from (29, 23) in Area 3 crosses the eastern map boundary into Center Area at (0, 11). Area 3 width is 30 tiles (cols 0..29).
-- Row 24 bush hedge spans cols 22..29 to the eastern map boundary, so southeast cannot be bypassed to the east.
-- True Secret House Location: Located in the NORTHWEST of Area 3 (Safari Zone West), north of the water pond / Rest House 4, in the sector where the item ball at (9, 7) was sighted!
-- Traversal Strategy:
-  1. Step Left from Center Area (0, 11) to return to Area 3 at (29, 23).
-  2. From (29, 23), head West across row 23 to cols 10..15 (row 24 lawn bypass).
-  3. Proceed into western corridor (col 1..6) and navigate north around the water pond to the Northwest Lawn / Secret House!
-- Budget: ~146 steps remaining. Path to Northwest takes ~45-50 steps. Surplus: ~95 steps!
+## Master Map & Route to Secret House (Verified Turn 9593)
+- Southern Plateau Bridge Confirmed:
+  - Eastern Staircase: (21, 17) [Ascended Turn 9593 onto 21, 16]
+  - Elevated Floor: Rows 14..16 across cols 6..22
+  - Western Staircase: (6, 19) [Connects to ground level tall grass at 6, 20]
+- Ground Path to Secret House:
+  - From (6, 20), head west to Western Corridor (col 1..2)
+  - Follow corridor north past rows 14..15 around water pond to Northwest Lawn (item ball at 9, 7)
+  - Enter Secret House in Northwest and receive HM03 Surf!
+- Step Ledger:
+  - Steps Used: 374 / 500 steps
+  - Steps Remaining: 126 steps
+  - Estimated Steps to Secret House: ~35-40 steps (Surplus: ~85 steps!)
 
 <hr>
