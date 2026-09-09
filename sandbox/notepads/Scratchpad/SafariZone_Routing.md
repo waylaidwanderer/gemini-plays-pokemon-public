@@ -28,15 +28,15 @@
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 9 Step Ledger
-- Status: Active Session 9 (Area 2 Central Lawn -> Western Plateau Traversal)
-- Current Position: Safari Zone Area 2 at (20, 19) [Turn 9902]
+- Status: Active Session 9 (Eastern Plateau Ridge Traversal to Southern Corridor)
+- Current Position: Safari Zone Area 2 at (34, 16) [Turn 9935]
 - Wallet Balance: ¥70368 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 181 steps (Center Area: 28 steps, Area 1: 78 steps, Area 2: 75 steps)
-- Steps Remaining: 319 / 500 steps (+59 steps margin above 260-step benchmark)
-- Confirmed Obstacles: (20, 20) northern cliff edge impassable collision [Verified Turn 9897]
-- Current Event: Advancing via east corridor (26, 23) -> (25, 23) -> row 24 lawn to ascend Western Plateau staircase at (22, 23)
-- Immediate Route Plan: East along row 19 to (26, 19), south to (26, 23), west to (25, 23), south to (25, 24), west along row 24 to (22, 24), ascend staircase at (22, 23).
+- Steps Expended: 369 steps (Center Area: 28 steps, Area 1: 78 steps, Area 2: 263 steps)
+- Steps Remaining: 131 / 500 steps
+- Confirmed Collisions: (20, 20) cliff, (22, 20) cliff, (25, 23) cliff, (26, 24) cliff corner, (16, 12) bush, (16, 19) bush, (32, 12) cliff corner, (37, 11) cliff edge.
+- Current Event: Ascending Eastern Plateau at (34, 15) to traverse ridge south to (28, 27) and access southern corridor to Area 3 gate.
+- Immediate Route Plan: Ascend (34, 15) to (34, 14), east to (37, 14), south along col 37 to (37, 25), west to (28, 25), descend at (28, 27) onto southern corridor, head west on row 32/33 to Area 3 gate.
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
