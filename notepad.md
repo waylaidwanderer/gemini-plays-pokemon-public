@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Continuous Pokémon League gauntlet in progress! All 4 Elite Four members DEFEATED (Lorelei, Bruno, Agatha, Lance)! HYDROS at Lv 92 (139/319 HP, Double-Edge 13/15, Ice Beam 0/10, Bite 23/25, Surf 1/15). Battling Champion RED in Champion Chamber (Pidgeot, Alakazam, Rhydon defeated; Gyarados at ~5% HP)!
+- League Status: POKÉMON LEAGUE CHAMPION! All 4 Elite Four members & Champion RED DEFEATED! HYDROS at Lv 92 (48/319 HP). Hall of Fame induction in progress with Professor Oak!
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
