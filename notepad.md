@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥72868
+- Money: ¥72368
 - Pokédex: 13 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -2597,6 +2597,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
 - West Exit (to Area 3): Open corridor at (0, 10..11) [Verified Turn 8551]. Connects directly to Area 3 eastern corridor at (29..30, 22..23). Allows direct access from Center Area to Area 3 in ~40 steps, bypassing Area 1 and Area 2 entirely!
+- Tree Barrier at (28..29, 8..9): Solid trees block northern passage across row 9 on the east side of Center Area [Verified Turn 8578].
 
 <hr>
 
@@ -2652,9 +2653,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8493: Standing at (25, 3).
 - Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
 - Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
-- Turn 8522: Standing at (1, 23). Active step budget baseline: ~100 steps remaining.
-- Turn 8538: Discovered signpost at (24, 22) in southern clearing. Position: (21, 22) (~63 steps remaining).
-- Turn 8548: Verified exactly 9 steps remaining on Safari PA counter (9/500, 28 Safari Balls).
 ## Session 5 Master Routing (Center Area Shortcut to Area 3)
 - **Gatehouse to Area 3 (~41 steps total)**:
   1. Enter Center Area at (14, 25) [500 steps].
@@ -2664,5 +2662,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   5. Step Left into Area 3 at (29, 23) [1 step].
 - **Remaining Budget in Area 3**: ~459 steps!
 - **Area 3 Objective**: Explore southern corridor (rows 26-29) and locate the Secret House to receive HM03 Surf!
+## Active Session Step Tracking (Session 5 - Turn 8572)
+- Turn 8572: Started Session 5 (500 steps, ¥72368, 30 Safari Balls).
+- Turns 8572-8580: Traversed Center Area from (15, 24) -> (20, 23) -> (20, 15) -> (22, 11) -> (28, 10) [blocked by trees at 28-29, 9] -> back to (22, 14). Total steps taken: 33 steps (~467 steps remaining).
+- Turn 8581: Wild Exeggcute encounter at (22, 14) in tall grass. Fleeing to preserve steps.
+
 
 <hr>
