@@ -7,7 +7,7 @@
 - MOON STONE x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
-- MAX POTION x1 [Obtained Turn 7695 in Safari Zone Area 1]
+- MAX POTION x2 [Obtained Turn 7695 in Area 1, Turn 8532 in Area 3]
 
 ## Key Items (10 / 10)
 - OLD ROD
