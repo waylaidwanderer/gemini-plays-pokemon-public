@@ -2543,6 +2543,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Center Area
 - Signpost at (14, 22): 'TRAINER TIPS / Press the START / Button to check / remaining time!' [Verified Turn 7864].
+- West Exit (to Area 3): Open boundary at col 0, rows 10..11. Stepping Left from (0, 10..11) warps directly to Safari Zone Area 3 at (29, 23) [Verified Turn 9578].
 - Tree Gap at (23..27, 15): Confirmed walkable passage through eastern tree wall at row 15 directly to eastern lawn at col 28 [Verified Turns 7890, 8976, 8978, 8981, 8982].
 - Row 9 Bush Collision at (22, 9): Tested Turn 7767; solid impassable collision.
 - Map Size: 30x30.
@@ -2613,6 +2614,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
+- East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
+- Shoreline Collision at (9, 12): Impassable water shoreline collision blocking northern ascent along col 9 between pond and Rest House 4 [Verified Turn 9626]. Rest House 4 is an enclosed cul-de-sac.
 - East Corridor: Cols 25..28 lawn corridor extends south from entrance at (26, 0).
 - Signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!' [Read Turn 8498].
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
@@ -2634,7 +2637,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Column 24 Bush Hedge Collision at (24, 4): Bumping Left from (25, 4) into (24, 4) confirmed impassable solid bush hedge (Turn 8886).
 - Row 24 Lawn Bypass: Clear lawn along row 24 (cols 10..15) flanked by row 24 bushes at (7..9, 24) and (16, 24), and row 25 bushes at (10..15, 25). Bypasses row 23 tall grass (cols 13..14) without wild encounters [Verified Turn 8916].
 - Area 2 Central Barrier & Corridors (Turns 9460-9485): Column 16 dense bush wall spans rows 12..19. Western Plateau spans cols 15..22 rows 20..22 with south-facing wooden staircase at (22, 23). Bushes fill cols 22..24 rows 24..27 and (25, 25..27). Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff. Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage exists from Central Lawn. Column 17 dense bush hedge spans rows 28..33, dividing the southern sector into East Tall Grass field and West Lawn corridor. The Western Plateau spans cols 14..22 rows 20..27 and acts as an elevated bridge across the column 17 barrier: ascended via east staircase at (22, 23) and descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly to Area 3 gate at (8..9, 34..35).
-- Southern Plateau Eastern Staircase: Located at (21, 17) facing south [Discovered Turn 9590]. Ascended from row 18 (21, 18) onto elevated Southern Plateau at (21, 16). Elevated floor spans rows 15..17 across cols 6..22, connecting directly to the western staircase at (6, 19). Bridges the entire central barrier!
+- Southern Plateau Bridge Traversal: Ascended eastern staircase at (21, 17) [Turn 9593], traversed elevated floor across row 16 cols 21 down to 6 [Turns 9594-9600], and descended western staircase at (6, 19) to ground level tall grass at (6, 20) [Turns 9604, 9607]. Bridges the entire central barrier!
 
 <hr>
 
@@ -2656,19 +2659,16 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Approach & Step onto Western Staircase (8, 16 to 6, 19): 5 steps [Turn 9603]
   - Descent & Traverse to Western Corridor (6, 19 to 2, 20): 5 steps [Turn 9607]
   - Western Corridor Sprint North (2, 20 to 1, 16): 5 steps [Turn 9610]
-  - Western Tree Bypass onto Row 14 Avenue (1, 16 to 4, 14): 5 steps [Turn 9613]
-  - Row 14 Avenue East to Pond Corner (4, 14 to 9, 14): 5 steps [Turn 9616]
-  - Rest House Apron & Shoreline Collision Test (9, 14 to 10, 12): 5 steps [Turn 9626]
-  - Row 14 Avenue Westward Return (10, 12 to 7, 14): 5 steps [Turn 9629]
+  - Rest House 4 Scout & Col 9 Shoreline Collision Test: 20 steps [Turns 9611-9629]
   - Cumulative Steps Used: 422 / 500 steps
   - Steps Remaining: 78 / 500 steps
 
-## Master Map & True Secret House Routing (Empirically Verified Turn 9626, 9629)
+## Master Map & Routing Strategy (Turn 9634)
 - Northern Sector Closed (Empirically Confirmed Turn 9626):
   - Column 9 bank at (9, 12) is impassable water shoreline collision.
   - Rest House 4 (cols 10..13 rows 10..11) is an enclosed cul-de-sac bounded by pond and cliff.
-- True Secret House Location:
-  - SOUTHWEST SECTOR (rows 23..28 across cols 0..15).
+- Sector Hypotheses:
+  - Northwest and Southwest sectors are both candidate locations. Scouting Western Corridor to evaluate physical access to both sectors.
 - Execution Route to Secret House:
   1. (7, 14) -> Left 5 along row 14 avenue to (2, 14) [5 steps]
   2. Down 4 along col 2 to (2, 18), Left 1 to (1, 18) [5 steps]
