@@ -2647,7 +2647,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session Status
 - Session Start: Turn 9340 (¥500 paid, 30 Safari Balls, 500 step budget)
-- Current Turn: 9640
+- Current Turn: 9641
 - Current Position: (1, 18) facing Down in Western Corridor
 - Unified Step Ledger:
   - Area 1 Traversal (Gate to Area 2): 125 steps [Turn 9430]
@@ -2660,8 +2660,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Descent & Traverse to Western Corridor (6, 19 to 2, 20): 5 steps [Turn 9607]
   - Western Corridor Sprint North (2, 20 to 1, 16): 5 steps [Turn 9610]
   - Rest House 4 Scout & Col 9 Shoreline Collision Test: 20 steps [Turns 9611-9629]
-  - Cumulative Steps Used: 422 / 500 steps
-  - Steps Remaining: 78 / 500 steps
+  - Western Corridor South (7, 14 to 1, 18): 10 steps (5 to 2, 14, 5 to 1, 18) [Turns 9637, 9640]
+  - Cumulative Steps Used: 432 / 500 steps
+  - Steps Remaining: 68 / 500 steps
 
 ## Master Map & Routing Strategy (Turn 9634)
 - Northern Sector Closed (Empirically Confirmed Turn 9626):
