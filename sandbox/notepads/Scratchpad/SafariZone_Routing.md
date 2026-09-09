@@ -24,10 +24,10 @@
   1. Southwest Sector: Rows 24..28 across cols 2..15 (unvisited; cols 0..6 rows 25..27 viewed from 1, 23 showed open lawn).
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
-## Active Session 10 Step Ledger
-- Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 3 at (27, 14) [Turn 10164]
-- Steps Remaining: 304 / 500 steps
+## Active Session 11 Step Ledger
+- Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
+- Current Position: Safari Zone Area 3 at (9, 17) [Turn 10176]
+- Steps Remaining: 279 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
