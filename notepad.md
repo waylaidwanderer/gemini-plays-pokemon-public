@@ -2999,6 +2999,10 @@
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
+- Row 3 West Corridor: (4..9, 3) verified open continuous floor.
+- Row 2 Rock Divider: (4..10, 2) solid rock.
+- Row 4 Rock Divider: (4..8, 4) solid rock.
+- Ladder E: (9, 1) accessible via Row 1 (8, 1).
 
 <hr>
 
