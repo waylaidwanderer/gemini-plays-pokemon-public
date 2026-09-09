@@ -2604,6 +2604,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Bushes fill cols 22..24 rows 24..27 and (25, 25..27).
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
+  - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
+  - Western Plateau Access Corridor: Accessed from Central Lawn east corridor -> (26, 23) lawn -> step west to (25, 23) lawn -> step south to (25, 24) lawn -> traverse west along row 24 lawn to (22, 24) -> face North and ascend wooden staircase at (22, 23) onto elevated plateau!
 
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
@@ -2663,18 +2665,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 9 Step Ledger
-- Status: Active Session 9 (Area 1 Southern Corridor Traversal)
-- Current Position: Safari Zone Area 1 at (8, 24) [Turn 9848]
-- Wallet Balance: �70368 (Admission paid)
+- Status: Active Session 9 (Area 2 Central Lawn -> Western Plateau Traversal)
+- Current Position: Safari Zone Area 2 at (20, 19) [Turn 9902]
+- Wallet Balance: ¥70368 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 40 steps (Center Area: 28 steps [7 under budget!], Area 1: 12 steps so far)
-- Steps Remaining: 460 / 500 steps
-- Current Event: Advancing along southern corridor row 24 at (8, 24) [Turn 9848]
-- Immediate Route Plan: Continue East along row 24 to (17, 24) (9 steps), step up to (17, 22) (2 steps), ascend South Plateau stairs at (20, 21) (3 steps).
-- Master Traversal Verification:
-  1. Area 1: Corridor -> (17, 24) -> (17, 22) -> South Plateau stairs (20, 21) -> descend (12, 21) -> pond bypass (cols 8..10) to bridge (12, 7) -> descend (20, 8) -> breach Col 20 permeable canopy (20, 6..3) -> Row 3 corridor west -> gateway at (0, 4..5) into Area 2 (~90 steps total).
-  2. Area 2: Eastern Plateau stairs (28, 27) -> ridge to (34, 15) stairs -> Central Lawn clean corridor (rows 14..15) -> Western Plateau stairs (22, 23) -> descend (16, 27) -> south corridor to Area 3 gate (8..9, 34..35) (~115 steps total).
-  3. Area 3: Enter at (26, 0) with ~260 steps remaining. Search Southwest and Northwest sectors to locate Secret House and claim HM03 Surf!
+- Steps Expended: 181 steps (Center Area: 28 steps, Area 1: 78 steps, Area 2: 75 steps)
+- Steps Remaining: 319 / 500 steps (+59 steps margin above 260-step benchmark)
+- Confirmed Obstacles: (20, 20) northern cliff edge impassable collision [Verified Turn 9897]
+- Current Event: Advancing via east corridor (26, 23) -> (25, 23) -> row 24 lawn to ascend Western Plateau staircase at (22, 23)
+- Immediate Route Plan: East along row 19 to (26, 19), south to (26, 23), west to (25, 23), south to (25, 24), west along row 24 to (22, 24), ascend staircase at (22, 23).
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
