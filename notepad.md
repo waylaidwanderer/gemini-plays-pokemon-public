@@ -2938,10 +2938,11 @@
 - Stairs/Ladders to elevated ridges:
   - Stairs at (21, 11) leading North onto elevated ridge at (21, 10).
   - Western elevated ridge with stairs at (17, 15) and ladder at (18, 9).
-  - Stairs at (25, 9) leading East.
-  - Stairs/Structure at (23, 3) on northern shore across water.
+  - Stairs at (25, 9) leading Down into water canal at (25, 10).
+  - Stairs at (23, 3) leading North from water onto northern elevated ridge.
 - Ladders (Floors):
   - Ladder at (23, 7) on central elevated platform (leads to isolated 2-tile alcove on 2F).
+  - Ladder at (27, 1) on northern elevated ridge (accessed via stairs at 23, 3).
   - Ladder at (18, 9) on western elevated platform.
 - Items:
   - Pokéball item at (19, 3) on northern ledge.
