@@ -2602,7 +2602,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
 
-- Northern Plateau (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804 (blocking westward step). Northern edge along row 6 (cols 11..16) and row 7 remain to be tested for descent to the Northwest Lawn.
+- Northern Plateau (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804 (blocking westward step).
 - Southern Plateau Western Staircase: South-facing wooden staircase at (6, 19) connects the elevated plateau at (6, 18) down to ground level tall grass at (6, 20).
 - Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.
 - Northern Plateau Row 6 Cliff Edge: Stepping Up from (11, 6) into (11, 5) confirmed impassable solid cliff boundary (Turn 8856).
@@ -2638,9 +2638,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Descended to row 20 tall grass at (6, 20), traversed west to col 1 clear lawn corridor.
   - Empirically confirmed southern boundary at (2, 24) is solid bush hedge (Turn 8905).
   - 100% Empirically verified Sector SW contains NO buildings and NO Secret House!
-- Turn 8907: At (6, 23) in southern corridor (~49 steps remaining). Walking east along row 23 toward Center Area exit at (24, 22).
 
-## Session 7 Master Route: Direct Path to Secret House (HM03 Surf)
+## Session 7 Routing Hypotheses (Unverified)
+### Candidate Route A: Northern Bypass via Row 14 Ground Opening (UNVERIFIED HYPOTHESIS)
 - Step Budget Feasibility: Total required steps from Safari entrance to Secret House is ~198 steps (Surplus: ~302 steps).
 ### Phase 1: Gatehouse to Area 3 Entrance (~152 steps)
 1. Center Area: (14, 25) -> north through tree gap (23, 15) -> east exit to Area 1 (0, 23) (~27 steps).
