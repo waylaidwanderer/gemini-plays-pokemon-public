@@ -78,3 +78,4 @@
 - Northern Plateau (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804 (blocking westward step). Northern edge along row 6 (cols 11..16) and row 7 remain to be tested for descent to the Northwest Lawn.
 - Southern Plateau Western Staircase: South-facing wooden staircase at (6, 19) connects the elevated plateau at (6, 18) down to ground level tall grass at (6, 20).
 - Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.
+- Northern Plateau Row 6 Cliff Edge: Stepping Up from (11, 6) into (11, 5) confirmed impassable solid cliff boundary (Turn 8856).
