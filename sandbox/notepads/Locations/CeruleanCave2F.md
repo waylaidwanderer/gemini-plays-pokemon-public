@@ -27,3 +27,5 @@
 - Electrode (Electric)
 - Marowak (Ground)
 - Wigglytuff (Normal)
+- Ladder at (3, 11) connects between 1F (elevated platform at 3, 11) and 2F (maze corridor at 3, 11).
+- 2F SW item visible at (4, 15) in rock corridor.
