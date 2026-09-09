@@ -2622,5 +2622,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8810: Walking south along col 16 to (16, 17) and west to (14, 17) (~203 steps remaining).
 - Turn 8814: Reached (10, 17) (199 steps remaining). Sighted staircase at (6, 19). Advancing west along row 17 to (6, 17).
 - Turn 8815: Descending staircase at (6, 19) into (6, 20) and heading west along row 20 toward col 2 western corridor (~190 steps remaining).
+- Turn 8817: Moving west across row 20 to col 1 clear lawn corridor at (1, 20), then north along col 1 to (1, 17) (~184 steps remaining).
 
 <hr>
