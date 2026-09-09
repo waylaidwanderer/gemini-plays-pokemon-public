@@ -27,11 +27,12 @@
   - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
   - Pokéball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
   - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
-- Water canals:
-  - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures and western cavern.
-  - Southern canal at rows 10-11 (cols 24-29) - accessed via stairs ramp at (25, 9) into (25, 10).
-  - Eastern channel at cols 28-29 (rows 5-10) - verified continuous open water connecting southern canal to northern lake!
-  - Western channel at cols 8-15 (rows 4-15) - verified continuous open water connecting northern lake to southwest cavern landing and stairs at (11, 13)!
+## Verified Bidirectional Ladder Matrix (1F <-> 2F)
+- 1F (23, 7) <-> 2F (22, 6): Isolated 2-tile landing on 2F (dead-end).
+- 1F (18, 9) <-> 2F (19, 7): Isolated 3x3 alcove on 2F (dead-end).
+- 1F (27, 1) <-> 2F (29, 1): Isolated 7-tile landing on 2F (dead-end).
+- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 1F (item 5, 0 collected).
+- 1F (1, 3) <-> 2F (1, 3): MAIN ENTRANCE TO FULL 2F MAZE & B1F ACCESS!
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
