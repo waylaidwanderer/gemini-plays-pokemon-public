@@ -21,3 +21,4 @@
 - Turn 8898: Walking Left across row 17 to (6, 17) (~65 steps remaining).
 - Turn 8900: Descending staircase at (6, 19) to (6, 20) and walking west along row 20 to (3, 20) (~59 steps remaining).
 - Turn 8902: Stepping Left to (1, 20) and Down along col 1 to (1, 23) (~54 steps remaining).
+- Turn 8904: Stepping Right to (2, 23) and testing Down into row 24 bush hedge at (2, 24) (~53 steps remaining).

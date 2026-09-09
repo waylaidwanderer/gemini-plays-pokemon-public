@@ -2608,6 +2608,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Northern Plateau Row 6 Cliff Edge: Stepping Up from (11, 6) into (11, 5) confirmed impassable solid cliff boundary (Turn 8856).
 - Northern Plateau Corner Collision at (10, 6): Stepping Left from (11, 6) into (10, 6) confirmed solid cliff boundary (Turn 8859).
 - Northern Plateau West Edge Collision at (10, 7): Stepping Left from (11, 7) into (10, 7) confirmed solid cliff boundary (Turn 8861). Entire northern plateau perimeter (11..16, 6), (10, 6), (10, 7), (10, 8) is fully eliminated as an overlook with no descent.
+- Sector SW Inventory: Rows 19..23 cols 0..6 contains no buildings or Secret House. Southern boundary is tree at (0..1, 24..25) and bush hedge at row 24.
 
 <hr>
 
@@ -2636,5 +2637,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8898: Walking Left across row 17 to (6, 17) (~65 steps remaining).
 - Turn 8900: Descending staircase at (6, 19) to (6, 20) and walking west along row 20 to (3, 20) (~59 steps remaining).
 - Turn 8902: Stepping Left to (1, 20) and Down along col 1 to (1, 23) (~54 steps remaining).
+- Turn 8904: Stepping Right to (2, 23) and testing Down into row 24 bush hedge at (2, 24) (~53 steps remaining).
 
 <hr>
