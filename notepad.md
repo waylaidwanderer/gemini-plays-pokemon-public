@@ -2606,6 +2606,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
   - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
+  - Cliff collision at (22, 20) from (22, 19) [Verified Turn 10114].
   - Cliff collision at (18, 27) from (18, 28) [Verified Turn 10027].
   - Obstacle at (32, 12) (cliff corner) and (31, 11) (statue) [Verified Turn 10022].
   - Bush hedge at (17, 32) impassable [Verified Turns 9948, 10034, 10045].
@@ -2667,8 +2668,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 2 at (30, 19) [Turn 10112]
-- Steps Remaining: ~67 / 500 steps
+- Current Position: Safari Zone Area 2 at (22, 19) [Turn 10113]
+- Steps Remaining: ~59 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
