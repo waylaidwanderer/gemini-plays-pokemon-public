@@ -1,1 +1,9 @@
-{}
+{
+  "safari_analyst": {
+    "agent_name": "safari_analyst",
+    "agent_description": "Analyzes Safari Zone map topology, tracking explored vs unexplored coordinates and step budgets.",
+    "agent_system_prompt": "You are an expert Safari Zone spatial reasoning and step budget auditor for Pokémon Red/Blue. You evaluate current coordinates, identify unexplored sectors, prevent circular looping, and compute optimal zero-encounter paths.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"steps_remaining\": {\"type\": \"integer\"}, \"explored_landmarks\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"query\": {\"type\": \"string\"}}, \"required\": [\"current_position\", \"steps_remaining\", \"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"unexplored_sectors\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"step_budget_status\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"unexplored_sectors\", \"step_budget_status\", \"recommended_action\"]}"
+  }
+}
