@@ -18,14 +18,14 @@
 - Steps Remaining: 150 / 500 steps
 - Current Position: (26, 23) facing Right on East Corridor
 
-## Master Map & Route to Secret House (Verified Turn 9560)
+## Master Map & Route to Secret House (Verified Turn 9566)
 - Row 24 has a horizontal bush hedge across cols 22..29.
-- Column 30 is an open green lawn corridor bypassing the east end of the bush hedge!
-  - (30, 23) lawn -> (30, 24) lawn -> (30, 25..27) lawn superhighway!
-- Rows 25, 26, 27 form an unbroken 3-tile wide open green lawn superhighway running straight west across the map into the Southwest Sector (cols 2..8) where the Secret House is located!
-- Action Plan to Claim HM03 Surf:
-  1. East to col 30: from (26, 23), Right 4 to (30, 23) [4 steps].
-  2. South past hedge: Down 3 to (30, 26) [3 steps].
-  3. Sprint West along row 26 superhighway directly into Southwest Sector to Secret House (~25 steps).
-  4. Enter Secret House and talk to attendant to receive HM03 Surf!
+- At (29, 22..23), there is an east-facing ledge (`>`).
+- Hopping east over the ledge lands at (30, 22..23).
+- Column 30 is clear lawn south past the hedge at (30, 24).
+- Rows 25, 26, 27 form an open lawn corridor across cols 22..31.
+- Plan:
+  1. Step Right 2 to (28, 23) to scout cols 32..33 and verify ledge/pathway layout.
+  2. Hop ledge Right to (30, 23).
+  3. Walk Down to row 26, then West along row 26 superhighway to locate Secret House.
 - Budget: 150 steps remaining, ~32 steps required. Surplus: ~118 steps!
