@@ -73,6 +73,8 @@
   - Bushes fill cols 22..24 rows 24..27 and (25, 25..27).
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
+  - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
+  - Western Plateau Access Corridor: Accessed from Central Lawn east corridor -> (26, 23) lawn -> step west to (25, 23) lawn -> step south to (25, 24) lawn -> traverse west along row 24 lawn to (22, 24) -> face North and ascend wooden staircase at (22, 23) onto elevated plateau!
 
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
