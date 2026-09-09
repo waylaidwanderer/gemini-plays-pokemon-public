@@ -45,7 +45,6 @@
 - Turns 8345�8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
 - Turns 8403�8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
 - Turn 8489: Reached (25, 3) (~147 steps remaining). Confirmed (24, 3) is solid bush barrier blocking westward progress across col 24.
-- Turn 8493: Standing at (25, 3).
 - Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
 - Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
 ## Center Area Topological Finding (Empirically Verified Turn 8592)
@@ -60,3 +59,8 @@
 - Turn 8572: Started Session 5 (500 steps, ¥72368, 30 Safari Balls).
 - Turns 8572-8580: Traversed Center Area from (15, 24) -> (20, 23) -> (20, 15) -> (22, 11) -> (28, 10) [blocked by trees at 28-29, 9] -> back to (22, 14). Total steps taken: 33 steps (~467 steps remaining).
 - Turn 8581: Wild Exeggcute encounter at (22, 14) in tall grass. Fleeing to preserve steps.
+- Turn 8598: Entered Area 1 at (0, 23).
+- Turn 8601: Reached (12, 24), stepped through hedge opening at (17, 23) to (17, 22).
+- Turn 8603: Wild Nidoran male at (20, 22), fled with 0 step loss.
+- Turn 8606: Ascended staircase at (20, 21), crossed plateau to (12, 21), descended to (12, 22).
+- Turn 8611: Reached (10, 14) on western pond corridor. Active step budget baseline: ~366 steps remaining.
