@@ -11,9 +11,9 @@
 - **Component E (Isolated NW Terrace)**: (9, 1) <-> 1F (7, 1) (isolated 6-tile corridor with item at 5, 0).
 
 ## Verified Items (2F)
-- Item Pokéball at (29, 9) collected.
-- Item Pokéball at (13, 6) collected.
-- Item Pokéball at (4, 15) collected (TM14 Blizzard) [Turn 39796].
+- Item Pokï¿½ball at (29, 9) collected.
+- Item Pokï¿½ball at (13, 6) collected.
+- Item Pokï¿½ball at (4, 15) collected (TM14 Blizzard) [Turn 39796].
 
 ## Wild Encounters (2F)
 - Ditto (Normal)
