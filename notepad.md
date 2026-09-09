@@ -2572,6 +2572,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
 - Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
+- Tree Barrier at (28..29, 8..9): Solid trees block northern passage across row 9 on the east side of Center Area [Verified Turn 8578].
+- Barrier at Cols 0-1 Rows 16-17: Trees at (0..1, 16..17) block westward passage from (2, 17) [Verified Turn 8592].
 - Southern Barrier (Rows 15-16): Barrier of trees (cols 0-1), bush hedge (cols 2-5 on row 16, cols 6-9 on row 15), and wooden fence with statues (cols 10-19 on row 15) blocks northern passage across cols 0-19. Columns 20..22 is an open grass passage connecting the southern and northern sectors.
 - Pond Underpass Barrier (Row 14): Stone statues at (19, 14) and (16, 14) block westward passage under the pond.
 - Area 2 Route: Route to Area 2 proceeds north through Area 1. Center Area northern passage is blocked by stone statues at row 14.
@@ -2596,8 +2598,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
-- West Exit (to Area 3): Open corridor at (0, 10..11) [Verified Turn 8551]. Connects directly to Area 3 eastern corridor at (29..30, 22..23). Allows direct access from Center Area to Area 3 in ~40 steps, bypassing Area 1 and Area 2 entirely!
-- Tree Barrier at (28..29, 8..9): Solid trees block northern passage across row 9 on the east side of Center Area [Verified Turn 8578].
+
 
 <hr>
 
@@ -2650,7 +2651,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8345�8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
 - Turns 8403�8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
 - Turn 8489: Reached (25, 3) (~147 steps remaining). Confirmed (24, 3) is solid bush barrier blocking westward progress across col 24.
-- Turn 8493: Standing at (25, 3).
 - Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
 - Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
 ## Center Area Topological Finding (Empirically Verified Turn 8592)
@@ -2665,6 +2665,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8572: Started Session 5 (500 steps, ¥72368, 30 Safari Balls).
 - Turns 8572-8580: Traversed Center Area from (15, 24) -> (20, 23) -> (20, 15) -> (22, 11) -> (28, 10) [blocked by trees at 28-29, 9] -> back to (22, 14). Total steps taken: 33 steps (~467 steps remaining).
 - Turn 8581: Wild Exeggcute encounter at (22, 14) in tall grass. Fleeing to preserve steps.
+- Turn 8598: Entered Area 1 at (0, 23).
+- Turn 8601: Reached (12, 24), stepped through hedge opening at (17, 23) to (17, 22).
+- Turn 8603: Wild Nidoran male at (20, 22), fled with 0 step loss.
+- Turn 8606: Ascended staircase at (20, 21), crossed plateau to (12, 21), descended to (12, 22).
+- Turn 8611: Reached (10, 14) on western pond corridor. Active step budget baseline: ~366 steps remaining.
 
 
 <hr>
