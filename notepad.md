@@ -2619,5 +2619,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8779-8780: Walked south down East Corridor to (25, 11) (12 steps, 250 remaining). Active step baseline: 250 steps remaining in Session 6.
 - Turns 8781-8791: Ascended plateau bridge at (21, 17) to (21, 16) (~237 steps remaining). Moving west along row 15 corridor.
 - Turn 8806: Confirmed (10, 8) is impassable cliff. Northern plateau is a scenic overlook. Returning east along row 8 to (16, 8) (~219 steps remaining).
+- Turn 8810: Walking south along col 16 to (16, 17) and west to (14, 17) (~203 steps remaining).
 
 <hr>
