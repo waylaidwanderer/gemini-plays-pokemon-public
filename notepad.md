@@ -2609,7 +2609,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
 
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 33..38. Staircase at (34, 15) is accessed from (34, 14) facing Down and descends south to open lawn at (34, 16) [Verified Turns 8132, 9315].
-- Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
+- Central Lawn Basin: Lawn area spanning rows 12..19 cols 21..35 bounded by row 11 statues/bushes to the north, column 16 dense bush wall to the west, and row 20 Western Plateau cliff to the south. Does NOT connect westward to Area 3 on ground level (ground passage west blocked by column 16 hedge). Rows 14..15 provide clean grass avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
