@@ -3028,6 +3028,19 @@
 - Dodrio (Normal/Flying)
 - Electrode (Electric)
 - Venomoth (Bug/Poison)
+## Verified Central Platform & Water Network (1F)
+- Central platform (cols 21-25, rows 6-10):
+  - South stair ramp at (21, 11) -> (21, 10) connects to lower ground floor.
+  - East stair ramp at (25, 9) -> (25, 10) connects down into water canal.
+  - Ladder at (23, 7) leads to 2F isolated landing at (22, 6).
+  - Row 6 (cols 21-25) is the open path across the top of the platform to bypass the ladder at (23, 7).
+- Water Canal Network:
+  - Eastern channel: cols 28-29, rows 5-11.
+  - Northern lake: rows 4-5, cols 14-29.
+  - Western channel: cols 8-9, rows 6-15.
+  - Stairs at (23, 3) leading North onto northeast elevated ridge (ladder at 27, 1).
+  - Stairs at (15, 3) leading North onto northwest elevated ridge.
+  - Stairs at (11, 13) leading East onto western elevated platform (ladder at 18, 9).
 
 <hr>
 
