@@ -2668,6 +2668,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9243: At (13, 6) (~378 steps used, ~122 remaining). On North Plateau Bridge.
 - Turn 9251: At (2, 7) facing Up (90 / 500 steps remaining, 27 Balls). Testing Cut on (2, 6).
 - Turn 9272: At (20, 8) (433 steps used, 67 remaining). Facing Right on East Lawn.
+- Turn 9280: At (20, 3) (438 steps used, 62 remaining). Proven continuous permeable corridor along col 20 (rows 6..3)! Fleeing battle to enter northern corridor at (20, 2).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
