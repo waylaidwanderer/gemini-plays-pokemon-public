@@ -2651,10 +2651,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (27, 11) -> (27, 18): 7 steps [Turn 9545]
   - (27, 18) -> (22, 21): 8 steps [Turn 9548]
   - (22, 21) -> (18, 24): 7 steps [Turn 9551]
-  - Total Area 3 Steps so far: 34 steps
-- Cumulative Steps Used: 335 steps [Turn 9551]
-- Steps Remaining: 165 / 500 steps
-- Current Position: (18, 24) facing Left, entering row 26 southwest corridor
+  - (18, 24) -> (19, 24) -> (18, 24): 2 steps (confirmed row 25 bush hedge at 19, 25) [Turn 9554]
+  - Total Area 3 Steps so far: 36 steps
+- Cumulative Steps Used: 337 steps [Turn 9554]
+- Steps Remaining: 163 / 500 steps
+- Current Position: (18, 24) facing Up
+
+## Area 3 Master Traversal Plan to Secret House
+- Row 25 is a solid bush hedge across cols 18..21.
+- Column 22 opens at row 25 (22, 25 is open green lawn!).
+- Row 26 is a massive 3-tile wide open green lawn superhighway (rows 26..28) spanning cols 2..23!
+- Path: Walk east along row 24 to col 22, south to row 26, then west along row 26 straight into the Southwest Sector (cols 2..8) where the Secret House is!
+- Step Budget: 163 steps remaining, ample margin to reach Secret House and claim HM03 Surf!
 
 ## Area 3 Secret House Mission Plan
 - Objective: Locate Secret House and obtain HM03 Surf!
