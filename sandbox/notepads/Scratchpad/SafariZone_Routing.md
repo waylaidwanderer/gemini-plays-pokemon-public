@@ -24,7 +24,8 @@
 - Turn 9096: At (17, 7) (193 steps used, 307 remaining). Descended stairs to (17, 8) and advanced east.
 - Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
 - Turn 9119: At (10, 8) (243 steps used, 257 remaining). Descended western stairs.
-- Turn 9124: At (6, 7) (248 steps used, 252 remaining). Advancing west along row 7 lawn corridor to (1, 7) to test western boundary and Area 2 transition.
+- Turn 9124: At (6, 7) (248 steps used, 252 remaining). Advanced west along row 7.
+- Turn 9126: At (1, 7) (253 steps used, 247 remaining). Facing Left at western boundary. Empirically testing tile (0, 7) for warp/collision.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
