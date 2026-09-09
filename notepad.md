@@ -2648,10 +2648,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Area 2 Traversal Log:
   - Area 2 Traversal (Solved & Exited): 176 steps consumed [Turns 9435-9532]
   - Area 3 Entrance (26, 0) -> (27, 11): 12 steps [Turns 9535-9539]
-  - Total Area 3 Steps so far: 12 steps
-- Cumulative Steps Used: 313 steps [Turn 9541]
-- Steps Remaining: 187 / 500 steps
-- Current Position: (27, 11) facing Down on Area 3 East Corridor
+  - (27, 11) -> (27, 18): 7 steps [Turn 9545]
+  - Total Area 3 Steps so far: 19 steps
+- Cumulative Steps Used: 320 steps [Turn 9545]
+- Steps Remaining: 180 / 500 steps
+- Current Position: (27, 18) facing Down on Area 3 East Corridor
 
 ## Area 3 Secret House Mission Plan
 - Objective: Locate Secret House and obtain HM03 Surf!
