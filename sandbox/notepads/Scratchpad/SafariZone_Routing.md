@@ -29,9 +29,10 @@
 
 ## Active Session 8 Step Ledger
 - Status: Concluding Session 8
-- Current Position: Safari Zone Area 3 at (28, 12) [Turn 9817]
-- Step Counter: 0/500 (Session 8 expired)
-- Immediate Objective: Advance PA chime dialogue to warp to Fuchsia Gatehouse and purchase Session 9 admission.
+- Current Position: Fuchsia Safari Zone Gatehouse at (4, 0) [Turn 9820]
+- Session 8 Status: Concluded via PA chime warp.
+- Wallet Balance: ¥70868 (Session 9 admission pending).
+- Immediate Objective: Dismiss exit dialogue, step south to aisle at (4, 3), step north to trigger attendant prompt, pay ¥500 for Session 9 (500 steps), and execute direct traversal to Secret House in Area 3.
 
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
