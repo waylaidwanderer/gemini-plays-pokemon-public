@@ -2,32 +2,32 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 88
-   - Stats: Max HP 303 (HP: 0/303 [Fainted]), Attack 216, Defense 238, Speed 219, Special 227
+   - Stats: Max HP 303 (HP: 303/303), Attack 216, Defense 238, Speed 219, Special 227
    - Type: Water
-   - Moves: Double-Edge (9/15), Ice Beam (0/10), Bite (20/25), Surf (3/15)
+   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
-2. ATLAS (Machop) - Lv 16
-   - Stats: Max HP 54 (HP: 54/54)
+2. ATLAS (Machop) - Lv 18
+   - Stats: Max HP 59 (HP: 59/59)
    - Type: Fighting
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 0/60 [Fainted])
+   - Stats: Max HP 60 (HP: 60/60)
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig / Selfdestruct combat backup (Slot 3)
 4. ZEPHYR (Pidgey) - Lv 21
-   - Stats: Max HP 61 (HP: 0/61 [Fainted])
+   - Stats: Max HP 61 (HP: 61/61)
    - Type: Normal / Flying
    - Moves: Fly (15/15), Sand-Attack, Quick Attack (30/30), Whirlwind
    - Role: Flyer utility (Slot 4)
 5. PRISM (Eevee) - Lv 25
-   - Stats: Max HP 63 (HP: 0/63 [Fainted])
+   - Stats: Max HP 63 (HP: 63/63)
    - Type: Normal
    - Moves: Tackle (35/35), Sand-Attack (15/15), Double Team (15/15)
    - Role: Evasion stall (Slot 5)
 6. SPROUT (Bellsprout) - Lv 17
-   - Stats: Max HP 46 (HP: 0/46 [Fainted])
+   - Stats: Max HP 46 (HP: 46/46)
    - Type: Grass / Poison
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Wrap utility (Slot 6)
