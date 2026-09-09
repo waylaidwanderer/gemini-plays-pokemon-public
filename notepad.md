@@ -2609,7 +2609,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Northern Plateau Corner Collision at (10, 6): Stepping Left from (11, 6) into (10, 6) confirmed solid cliff boundary (Turn 8859).
 - Northern Plateau West Edge Collision at (10, 7): Stepping Left from (11, 7) into (10, 7) confirmed solid cliff boundary (Turn 8861). Entire northern plateau perimeter (11..16, 6), (10, 6), (10, 7), (10, 8) is fully eliminated as an overlook with no descent.
 - Sector SW Inventory: Rows 19..23 cols 0..6 contains no buildings. Bush hedge confirmed at (2, 24); southern rows 24..28 remain partially unmapped.
-- Southern Bush Enclosures: Column 18 has solid bush wall at rows 20..23. Row 24 has solid bushes at (6..9, 24) and (16..17, 24), enclosing the row 24 lawn bypass (cols 10..15). Row 25 has solid bushes at cols 10..15 and 18..21.
+- Southern Bush Enclosures: Column 18 has solid bush wall at rows 20..23. Row 24 has continuous solid bush hedge across cols 2..9 and bushes at (16..17, 24), enclosing the row 24 lawn bypass (cols 10..15). Row 25 has solid bushes at cols 10..15 and 18..21.
 - Column 24 Bush Hedge Collision at (24, 4): Bumping Left from (25, 4) into (24, 4) confirmed impassable solid bush hedge (Turn 8886).
 - Row 24 Lawn Bypass: Clear lawn along row 24 (cols 10..15) flanked by row 24 bushes at (7..9, 24) and (16, 24), and row 25 bushes at (10..15, 25). Bypasses row 23 tall grass (cols 13..14) without wild encounters [Verified Turn 8916].
 
@@ -2655,6 +2655,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
 5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
 
-- Turn 8941: At (15, 24) on row 24 lawn (~21 steps remaining in Session 6). Navigating west toward cols 5..6 to test southern access to rows 25..28 before session expires.
+- Turn 8951: At (3, 23) on clear lawn (~8 steps remaining in Session 6). Confirmed row 24 bush hedge spans cols 2..9, completely sealing southern access from row 23. Session 6 expiring.
 
 <hr>
