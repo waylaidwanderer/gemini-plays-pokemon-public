@@ -2652,10 +2652,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (33, 25) -> (37, 21): 8 steps [Turn 9444]
   - (37, 21) -> (37, 15): 6 steps [Turn 9446]
   - (37, 15) -> (33, 16): 7 steps (Descent to Central Lawn) [Turn 9454]
-  - Total Area 2 Steps so far: 43 steps
-- Cumulative Steps Used: 168 steps [Turn 9454]
-- Steps Remaining: 332 / 500 steps
-- Current Position: (33, 16) facing West on Central Lawn Corridor
+  - (33, 16) -> (27, 16): 6 steps [Turn 9456]
+  - Total Area 2 Steps so far: 49 steps
+- Cumulative Steps Used: 174 steps [Turn 9457]
+- Steps Remaining: 326 / 500 steps
+- Current Position: (27, 16) facing West on Central Lawn Corridor
 
 ## Area 2 Active Routing Plan
 1. Descend from Eastern Plateau to Central Lawn Corridor:
