@@ -2615,6 +2615,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Bush Collision at (16, 24): Bumping Down from (16, 23) into (16, 24) confirmed impassable solid bush hedge [Turn 8928].
 - Bush Collision at (18, 23): Bumping Right from (17, 23) into (18, 23) confirmed impassable solid bush hedge [Turn 8930].
 - Bush Collision at (17, 24): Bumping Down from (17, 23) into (17, 24) confirmed impassable solid bush hedge [Turn 8932].
+- Bush Collision at (18, 22): Bumping Right from (17, 22) into (18, 22) confirmed impassable solid bush hedge [Turn 8935].
 
 <hr>
 
