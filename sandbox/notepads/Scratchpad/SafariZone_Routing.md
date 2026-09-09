@@ -28,16 +28,14 @@
 - Turn 9161: At (8, 17) (291 steps used, 209 remaining). Advanced south to (9, 21).
 - Turn 9163: At (9, 21) (296 steps used, 204 remaining). Sighted South Plateau staircase at (12, 21).
 - Turn 9165: At (12, 21) (301 steps used, 199 remaining). On South Plateau stairs facing Up.
-- Turn 9168: At (12, 18) (304 steps used, 196 remaining). Traversed east to (17, 18).
-- Turn 9170: At (17, 18) (306 steps used, 194 remaining). Traversed east across South Plateau.
-- Turn 9171: At (22, 18) (311 steps used, 189 remaining). Reached eastern ridge (cols 21..22) of South Plateau. Ridge extends north along rows 14..17 toward (24, 15) descent.
 
 - Turn 9213: At (24, 14) (~324 steps used, ~176 remaining). Ascended South Plateau via (24, 15) stairs.
 - Turn 9222: At (12, 22) (~344 steps used, ~156 remaining). Descended South Plateau via (12, 21) stairs.
+- Turn 9243: At (13, 6) (~378 steps used, ~122 remaining). On North Plateau Bridge.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
-- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Projected steps upon entering Area 3: ~150-180 steps (218 steps remaining in Session 7).
+- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Active Step Reality: ~378 steps used, ~122 remaining. Direct target: Exit Area 1 into Area 2 via western corridor.
 - Area 3 Objectives & Elevation Constraints:
   - Note: Tree at (24..25, 0..1) blocks row 0..1 northern perimeter. Col 17 has solid cliff face across rows 6..14.
   1. Test Northern Lawn Passages (Rows 2..5): From (26, 0), test bypass south of row 0..1 tree into northern lawn corridor.
