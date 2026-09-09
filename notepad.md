@@ -2569,7 +2569,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Item Ball: Located at (3, 7) on western lawn - MAX POTION [Collected Turn 7695].
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
-- Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
 - Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
@@ -2587,7 +2586,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
 ## Area 3 (West)
-- North Entrance: Connects from Area 2 southern gate at (2..3, 34..35) to (21, 0) [Verified Turn 8224].
+- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
 - Northern Highway: Wide 4-tile open green lawn corridor across rows 2..5 spanning cols 12..23+ heading west towards the Secret House.
 - Signpost at (17, 3): Display signpost situated in northern lawn.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
@@ -2643,7 +2642,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 1. Enter Area 3 at (21, 0).
 2. Step Down to rows 2-4 and sprint directly WEST along the open northern lawn highway (rows 2-5, cols 0-21).
 3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
-(Note: Gold Teeth at (19, 7) already collected on Turn 8235!).
 
 ## Active Session Step Tracking (Session 4 - Turn 8345)
 - Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
@@ -2659,7 +2657,19 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8384: Wild Chansey (LUCKY) caught at (22, 29) at 0 step cost (365 steps remaining, 135 steps used).
 - Turn 8392: Ascended western plateau staircase at (22, 23) (360 steps remaining, 140 steps used).
 - Turn 8395: Descended staircase at (16, 27) to ground lawn at (16, 28) (345 steps remaining, 155 steps used).
-- Turn 8401: Current position (8, 34) at southern statue opening (330 steps remaining, 170 steps used). Heading west along row 35/36 to Area 3 gate at (3, 35).
+- Turn 8401: Reached (8, 34) at southern statue opening (330 steps remaining, 170 steps used).
+- Turn 8403: Stepped into (8, 35) south gate, warped into Area 3 at (26, 0) (328 steps remaining, 172 steps used).
+- Turn 8406: Traversed south along col 25 corridor to (25, 7) (320 steps remaining, 180 steps used).
+- Turn 8408: Reached (25, 12) where col 24 bush wall ends (315 steps remaining, 185 steps used).
+- Turn 8410: Interacted with item ball at (18, 18) (306 steps remaining, 194 steps used).
+- Turn 8411: Ascended plateau bridge at (21, 17) to cross col 17 cliff barrier (303 steps remaining, 197 steps used).
+- Turn 8414: Crossed plateau bridge west to (10, 16) (288 steps remaining, 212 steps used).
+- Turn 8417: Descended staircase at (6, 19) to ground tall grass at (6, 20) (278 steps remaining, 222 steps used).
+- Turn 8418: Reached western boundary at (1, 20) (273 steps remaining, 227 steps used).
+- Turn 8419: Bypassed tree at (1, 15), reached (1, 16) (269 steps remaining, 231 steps used).
+- Turn 8421: Reached building at (11, 14) (258 steps remaining, 242 steps used).
+- Turn 8422: Entered building at (11, 11), identified as Rest House 4 (not Secret House).
+- Turn 8429: Exited Rest House 4 back into Area 3 at (11, 12) (258 steps remaining). Now heading to northwest quadrant.
 
 
 <hr>
