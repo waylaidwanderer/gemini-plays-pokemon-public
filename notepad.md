@@ -2586,6 +2586,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Step Budget & Timer(Verified Mechanics)
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 
+## Area 1 Elevation Network & Topology
+- South Plateau Bridge: Connects southern entrance corridor to eastern sector. Ascended via south-facing stairs at (20, 21), traverses north along cols 21..22 ridge across rows 15..20, and descends via east-facing/south-facing stairs at (24, 15) to eastern ground corridor.
+- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Provides mandatory high-ground crossing to bypass the impassable ground-level barrier between eastern and western Area 1.
+
 ## Area 2 (North)
 - Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
 - Obstacle Collision at (16, 16): Bumping west from (17, 16) confirmed solid obstacle collision at (16, 16) [Turn 8637].
@@ -2643,7 +2647,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 9038: At (18, 4) (137 steps used, 363 remaining). Row 4 north/east edges confirmed cliffs. Descended via (17, 7) stairs to (20, 8).
-- Turn 9064: At (17, 9) (149 steps used, 351 remaining). Rows 4..6 cols 20..22 visually appear as bush hedges. Routing west along row 9 lawn (bypassing tall grass at 16, 8) to test passage toward col 12.
+- Turn 9064: At (17, 9) (149 steps used, 351 remaining). Rows 4..6 cols 20..22 visually appear as bush hedges.
+- Turn 9066: At (16, 9) (150 steps used, 350 remaining). Bumping west into (15, 9) confirmed solid tree trunk collision. Ground passage west blocked by tree (14..15, 8..9) and cliff (13..16, 7). Ascending (17, 7) stairs to cross plateau bridge west to (12, 7) stairs.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
