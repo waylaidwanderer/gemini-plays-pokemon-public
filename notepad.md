@@ -2678,6 +2678,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9295: At (2, 5) (42 steps remaining). In front of Area 2 gateway! Stepping west to enter Area 2.
 - Turn 9296: Arrived in Area 2 at (39, 31) (39 steps remaining). Area 1 solved!
 - Turn 9297: At (34, 31) (34 steps remaining). Advancing west along Area 2 entrance corridor toward (28, 27) stairs.
+- Turn 9298: At (29, 31) (29 steps remaining). Advancing to Eastern Plateau stairs at (28, 27).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
