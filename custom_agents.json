@@ -1,1 +1,9 @@
-{}
+{
+  "cerulean_cave_navigator": {
+    "agent_name": "cerulean_cave_navigator",
+    "agent_description": "Topological graph navigator for Cerulean Cave tracking multi-floor frontiers, ladder connectivity, and Mewtwo location.",
+    "agent_system_prompt": "You are an expert map modeler and navigator for Cerulean Cave in Pokemon Blue. Your mission is to maintain a rigorous topological graph of floors 1F, 2F, and B1F, prioritizing unexplored branch frontiers leading to the B1F basement descent and Mewtwo's chamber while preventing redundant oscillation between floors.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"floor\": {\"type\": \"string\"}, \"current_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"visible_exits\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"floor\", \"current_pos\", \"visible_exits\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_frontier\": {\"type\": \"string\"}, \"priority_actions\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"notes\": {\"type\": \"string\"}}, \"required\": [\"recommended_frontier\", \"priority_actions\", \"notes\"]}"
+  }
+}
