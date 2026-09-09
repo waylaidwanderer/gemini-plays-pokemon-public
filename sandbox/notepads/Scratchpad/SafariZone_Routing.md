@@ -2,8 +2,8 @@
 
 ## Active Session Status
 - Session Start: Turn 9340 (¥500 paid, 30 Safari Balls, 500 step budget)
-- Current Turn: 9613
-- Current Position: (4, 14) facing Right on row 14 avenue
+- Current Turn: 9626
+- Current Position: (10, 12) facing Left
 - Unified Step Ledger:
   - Area 1 Traversal (Gate to Area 2): 125 steps [Turn 9430]
   - Area 2 Traversal (Area 1 Gate to Area 3 Gate): 176 steps [Turn 9532]
@@ -15,22 +15,21 @@
   - Descent & Traverse to Western Corridor (6, 19 to 2, 20): 5 steps [Turn 9607]
   - Western Corridor Sprint North (2, 20 to 1, 16): 5 steps [Turn 9610]
   - Western Tree Bypass onto Row 14 Avenue (1, 16 to 4, 14): 5 steps [Turn 9613]
-  - Cumulative Steps Used: 407 / 500 steps
-  - Steps Remaining: 93 / 500 steps
+  - Row 14 Avenue East to Pond Corner (4, 14 to 9, 14): 5 steps [Turn 9616]
+  - Rest House Apron & Shoreline Collision Test (9, 14 to 10, 12): 5 steps (4 to 11, 12, 1 to 10, 12; bumped 9, 12) [Turn 9626]
+  - Cumulative Steps Used: 417 / 500 steps
+  - Steps Remaining: 83 / 500 steps
 
-## Master Map & Western Descent (Empirically Confirmed Turn 9601, 9607, 9610, 9613)
-- Southern Plateau Bridge:
-  - Eastern Staircase: (21, 17) [Ascended Turn 9593 onto 21, 16]
-  - Elevated Floor: Spans cols 5..22 across rows 16..18 [Visually verified Turn 9601]
-  - Western Staircase: Located at (6, 19) facing south [Visually verified Turn 9601]
-  - Ground Landing: (6, 20) tall grass descended Turn 9607
-- Water Pond & Row 14 Avenue (Empirically Confirmed Turn 9613):
-  - Water pond spans cols 3..9, rows 10..13.
-  - Southern shoreline is at row 13; row 14 and 15 form an open clean lawn avenue (cols 2..13).
-  - Eastern shoreline ends at col 9. Column 10 opens straight north as the eastern pond bypass!
-- Next Execution Steps:
-  1. Right 5 along row 14 avenue to (9, 14) [5 steps]
-  2. Right 1 to (10, 14) [1 step]
-  3. North along cols 10..11 to row 7 [7 steps]
-  4. West into Northwest Lawn / Secret House (~5-10 steps)
-  - Total Steps to Secret House: ~18-20 steps (93 remaining, surplus ~73 steps!).
+## Master Map & True Secret House Routing (Empirically Verified Turn 9626)
+- Northern Sector Closed (Empirically Confirmed Turn 9626):
+  - Column 9 bank at (9, 12) is impassable water shoreline collision (tested Turn 9626).
+  - Rest House 4 (cols 10..13 rows 10..11) is bounded east by cliff wall at col 14 and west by pond (cols 3..9). It is an enclosed cul-de-sac.
+  - Northern route completely eliminated.
+- True Secret House Location:
+  - SOUTHWEST SECTOR (rows 23..28 across cols 0..15).
+  - Southern Plateau bridge was specifically designed to cross the central barrier into the Southwest!
+- Execution Route to Secret House:
+  1. (10, 12) -> Down 2 to (10, 14), Left 8 along row 14 avenue to (2, 14) [10 steps]
+  2. Down along col 1/2 past row 20 to row 23/24 [9 steps]
+  3. Explore rows 24..28 in Southwest sector to locate and enter Secret House (~10-15 steps).
+  - Step Margin: ~30-35 steps required, 83 steps remaining (Surplus: ~50 steps!).
