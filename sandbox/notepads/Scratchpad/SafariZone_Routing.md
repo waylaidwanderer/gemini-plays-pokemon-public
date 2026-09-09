@@ -22,7 +22,8 @@
 - Turn 9092: At (13, 6) (188 steps used, 312 remaining). Re-evaluating plateau elevation and northern passage.
 - Turn 9094: At (13, 6) (188 steps used, 312 remaining). Traversing east across plateau bridge.
 - Turn 9096: At (17, 7) (193 steps used, 307 remaining). Descended stairs to (17, 8) and advanced east.
-- Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn. Advancing east to (23, 8) to test structure at (24, 8) and explore eastern corridor.
+- Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
+- Turn 9100: At (23, 8) (200 steps used, 300 remaining). Bumping east into (24, 8) confirmed solid railing collision. Routing south to row 11 lawn corridor to bypass around to col 28.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
