@@ -2987,7 +2987,7 @@
 
 ## Connections & Entrance
 - South Exit: Outside to Cerulean City waterway at (24, 17).
-- Access Requirement: Defeat the Pokémon League (Champion title) to remove the cave guard.
+- Access Requirement: Defeat the Pok�mon League (Champion title) to remove the cave guard.
 
 ## Map Layout & Exploration
 - Entrance landing at (24, 17) facing north into open cavern corridor.
@@ -2995,29 +2995,25 @@
 - Corridor runs west along row 14 (cols 20-24). Column 19 is a solid rock wall (rows 10-18) dividing the entrance corridor from western ridge.
 - Stairs/Ladders to elevated ridges:
   - Stairs at (21, 11) leading North onto central elevated ridge at (21, 10).
-  - Western elevated ridge with stairs at (17, 15), stairs at (11, 13), and ladder at (18, 9).
+  - Western elevated ridge with stairs at (17, 15), stairs at (11, 13), stairs at (1, 13), and ladder at (18, 9).
   - Stairs at (25, 9) leading Down into water canal at (25, 10).
   - Stairs at (23, 3) leading North from water onto northern elevated ridge.
   - Stairs at (15, 3) leading North from water onto northwest elevated ridge.
-- Ladders (Floors):
-  - Ladder at (23, 7) on central elevated platform (leads to isolated 2-tile alcove on 2F).
-  - Ladder at (27, 1) on northern elevated ridge (accessed via stairs at 23, 3).
-  - Ladder at (18, 9) on western elevated platform.
-  - Ladder at (7, 1) on isolated NW terrace (connects to 2F at (9, 1)).
-  - Ladder at (1, 3) in NW ground area.
-  - Ladder at (3, 11) on elevated ridge.
-  - Ladder at (0, 6) on NW elevated ridge.
-- Items:
-  - Pokéball item at (19, 3) on northern ledge [Collected Turn 39567].
-  - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
-  - Pokéball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
-  - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
+
 ## Verified Bidirectional Ladder Matrix (1F <-> 2F)
 - 1F (23, 7) <-> 2F (22, 6): Isolated 2-tile landing on 2F (dead-end).
 - 1F (18, 9) <-> 2F (19, 7): Isolated 3x3 alcove on 2F (dead-end).
 - 1F (27, 1) <-> 2F (29, 1): Isolated 7-tile landing on 2F (dead-end).
-- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 1F (item 5, 0 collected).
+- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 1F (item at (5, 0) collected).
 - 1F (1, 3) <-> 2F (1, 3): MAIN ENTRANCE TO FULL 2F MAZE & B1F ACCESS!
+- 1F (3, 11) <-> 2F (3, 11): Western elevated ridge connection.
+- Ladder at (0, 6) on NW elevated ridge.
+
+## Items (1F)
+- Pok�ball item at (19, 3) on northern ledge [Collected Turn 39567].
+- Pok�ball item at (7, 13) in southwest cavern [Collected Turn 39562].
+- Pok�ball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
+- Pok�ball item at (4, 15) in southwest cavern [Collected Turn 39538].
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
@@ -3030,6 +3026,7 @@
 - Electrode (Electric)
 - Venomoth (Bug/Poison)
 - Raichu (Electric)
+
 ## Verified Central Platform & Water Network (1F)
 - Central platform (cols 21-25, rows 6-10):
   - South stair ramp at (21, 11) -> (21, 10) connects to lower ground floor.
@@ -3044,28 +3041,33 @@
   - Stairs at (15, 3) leading North onto northwest elevated ridge.
   - Stairs at (11, 13) leading East onto western elevated platform (ladder at 18, 9).
 
+
 <hr>
 
 <h1><code>Locations/CeruleanCave2F</code></h1>
 
 # Cerulean Cave (Unknown Dungeon) 2F - Layout & Notes
 
-## Connections
-- Ladder at (22, 6): Connects down to 1F at (23, 7). Isolated 2-tile landing.
-- Ladder at (19, 7): Connects down to 1F at (18, 9). Isolated 3x3 alcove (dead-end, no passage to 2F maze).
-- Ladder at (29, 1): Connects down to 1F at (27, 1). Isolated 7-tile landing (dead-end).
-- Ladder at (9, 1): Connects down to 1F at (7, 1) on isolated NW terrace (verified Turn 39491, 39568).
-- Ladder at (1, 3): Connects down to 1F at (1, 3). MAIN ACCESS TO ENTIRE 2F MAZE & CORRIDORS!
+## Connections & Ladders (Bidirectional Matrix)
+- 2F (22, 6) <-> 1F (23, 7): Isolated 2-tile landing.
+- 2F (19, 7) <-> 1F (18, 9): Isolated 3x3 alcove (dead-end).
+- 2F (29, 1) <-> 1F (27, 1): Isolated 7-tile landing (dead-end).
+- 2F (9, 1) <-> 1F (7, 1): Isolated NW terrace (connects to item 5, 0).
+- 2F (1, 3) <-> 1F (1, 3): Main NW entrance from 1F.
+- 2F (3, 11) <-> 1F (3, 11): Western elevated ridge connection.
 
-## Map Layout & Exploration
+## Map Layout & Corridors
 - Central/western corridors span cols 15-21 and rows 3-11.
 - Southern maze corridors span cols 8-18 and rows 12-19.
-- Southwest quadrant: Item at (4, 15) sits on an elevated ledge. Ledge at (4, 16) drops south into Row 17 corridor at (4, 17). Open horizontal corridor runs West along Row 17 from (4, 17) to (0, 17).
+- Southwest corridor has uncollected Pok�ball item visible at (4, 15).
+- Row 7 is a major horizontal transit hallway across cols 1-8+.
+- Row 9 is an open horizontal corridor spanning cols 3-8+.
+- Row 11 is an open horizontal corridor spanning cols 5-8+.
 
 ## Items (2F)
-- Item Pokéball at (29, 9) collected.
-- Item Pokéball at (13, 6) collected.
-- Item Pokéball at (4, 15) collected (TM14 Blizzard).
+- Item Pok�ball at (29, 9) collected.
+- Item Pok�ball at (13, 6) collected.
+- Item Pok�ball at (4, 15) [UNCOLLECTED - visible on screen].
 
 ## Wild Encounters (2F)
 - Ditto (Normal)
@@ -3077,7 +3079,6 @@
 - Electrode (Electric)
 - Marowak (Ground)
 - Wigglytuff (Normal)
-- Ladder at (3, 11) connects between 1F (elevated platform at 3, 11) and 2F (maze corridor at 3, 11).
-- 2F SW item visible at (4, 15) in rock corridor.
+
 
 <hr>
