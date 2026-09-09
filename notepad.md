@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥71368
+- Money: ¥70868
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -159,7 +159,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥71368 [Turn 8963, Paid ¥500 Safari Zone admission Session 7]
+- ¥70868 [Turn 9340, Paid ¥500 Safari Zone admission Session 8]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
@@ -2588,7 +2588,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
-- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
+- Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Rows 18..21 across cols 0..5 are bounded by trees, statues, and hedges; northern gateway runway is open along rows 4..5 cols 0..8.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
 - Tree Barrier at (28..29, 8..9): Solid trees block northern passage across row 9 on the east side of Center Area [Verified Turn 8578].
 - Barrier at Cols 0-1 Rows 16-17: Trees at (0..1, 16..17) block westward passage from (2, 17) [Verified Turn 8592].
