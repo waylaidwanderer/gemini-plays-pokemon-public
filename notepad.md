@@ -2588,7 +2588,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Area 1 Elevation Network & Topology
 - South Plateau Bridge: Connects southern entrance corridor to eastern sector. Ascended via south-facing stairs at (20, 21), traverses north along cols 21..22 ridge across rows 15..20, and descends via east-facing/south-facing stairs at (24, 15) to eastern ground corridor.
-- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Provides mandatory high-ground crossing to bypass the impassable ground-level barrier between eastern and western Area 1.
+- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns (south of row 6 hedge). Note: Row 7 western lawn dead-ends at (0, 7) statue and row 6 hedge.
+- East Bridge & Northern Corridor: Elevated wooden bridge at (24..25, 8) connects eastern ground corridor north into the Northern Corridor (rows 3..5). The Northern Corridor runs continuously west past the signpost at (6, 4) directly through the statue gateposts at (1, 3) and (1, 6) to the Area 2 gate at (0, 4..5).
 
 ## Area 2 (North)
 - Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
@@ -2652,7 +2653,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9069: At (17, 6) (154 steps used, 346 remaining). Ascended (17, 7) stairs onto North Plateau Bridge.
 - Turn 9071: At (12, 6) (159 steps used, 341 remaining). Reached western bridge landing.
 - Turn 9073: At (9, 8) (164 steps used, 336 remaining). Descended stairs to (12, 8) and advanced west.
-- Turn 9080: At (5, 7) (169 steps used, 331 remaining). Traversed row 7 lawn corridor west to (5, 7). Testing physical passage north into (5, 6) toward rows 4..5 and Area 2 gate.
+- Turn 9080: At (5, 7) (169 steps used, 331 remaining). Traversed row 7 lawn corridor west to (5, 7).
+- Turn 9082: Bumping north into (5, 6) confirmed solid bush hedge.
+- Turn 9085: At (1, 7) (173 steps used, 327 remaining). Western edge (0, 7) confirmed statue base. Gateway (0, 4..5) is in northern corridor (rows 4..5). The (12, 7)<->(17, 7) bridge is a southern ground bypass; northern corridor is accessed via eastern bridge at (24, 8). Routing east to eastern bridge.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
