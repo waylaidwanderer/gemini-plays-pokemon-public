@@ -73,7 +73,7 @@
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
   - Bushes fill cols 22..24 rows 24..27 and (25, 25..27).
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
-  - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
+  - Row 11 is blocked across cols 13..15 by bushes, (16..17, 11) by tree trunk [Verified Turn 10120], cols 18..31 by statues, and cols 33..34 by bushes; zero northern passage from Central Lawn.
   - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
   - Cliff collision at (22, 20) from (22, 19) [Verified Turn 10114].
   - Cliff collision at (17, 20) from (17, 19) [Verified Turn 10117].
