@@ -2560,6 +2560,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block the ground path.
 ## Area 1 Features & Landmarks
+- South Plateau Western Sector: Ascended at (12, 21) via south-facing stairs. Elevated floor spans cols 11..17+ across rows 18..20 bordering the southern shoreline of the central water pond (rows 14..17).
+- Column 20 Canopy Corridor Hypothesis: Visual lawn at (20, 5) and (20, 7). Rows 4..6 at col 20 are candidate permeable canopy corridor tiles (analogous to Center Area row 15 gap) providing direct access to the northern row 3 lawn corridor.
 - Western Statue Collision at (0, 7): Tested Turn 9127; solid impassable statue base.
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
@@ -2660,7 +2662,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9161: At (8, 17) (291 steps used, 209 remaining). Advanced south to (9, 21).
 - Turn 9163: At (9, 21) (296 steps used, 204 remaining). Sighted South Plateau staircase at (12, 21).
 - Turn 9165: At (12, 21) (301 steps used, 199 remaining). On South Plateau stairs facing Up.
-- Turn 9166: Stepping Up 3 times onto South Plateau floor to (12, 18) to survey northern edge bordering pond.
+- Turn 9168: At (12, 18) (304 steps used, 196 remaining). Ascended South Plateau at (12, 21). Plateau floor spans rows 18..20 bordering central water pond. Moving east across plateau toward (24, 15) and (20, 8) to test col 20 canopy corridor.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
