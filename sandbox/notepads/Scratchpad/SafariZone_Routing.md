@@ -10,18 +10,22 @@
   - (27, 11) -> (27, 18): 7 steps [Turn 9545]
   - (27, 18) -> (22, 21): 8 steps [Turn 9548]
   - (22, 21) -> (18, 24): 7 steps [Turn 9551]
-  - (18, 24) -> (19, 24) -> (18, 24): 2 steps (confirmed row 25 bush hedge at 19, 25) [Turn 9554]
-  - Total Area 3 Steps so far: 36 steps
-- Cumulative Steps Used: 337 steps [Turn 9554]
-- Steps Remaining: 163 / 500 steps
-- Current Position: (18, 24) facing Up
+  - (18, 24) -> (19, 24): 2 steps [Turn 9554]
+  - (18, 24) -> (21, 24) -> (19, 24): 5 steps [Turn 9557]
+  - Total Area 3 Steps so far: 41 steps
+- Cumulative Steps Used: 342 steps [Turn 9557]
+- Steps Remaining: 158 / 500 steps
+- Current Position: (19, 24) facing Left in row 24 pocket
 
 ## Area 3 Master Traversal Plan to Secret House
-- Row 25 is a solid bush hedge across cols 18..21.
-- Column 22 opens at row 25 (22, 25 is open green lawn!).
-- Row 26 is a massive 3-tile wide open green lawn superhighway (rows 26..28) spanning cols 2..23!
-- Path: Walk east along row 24 to col 22, south to row 26, then west along row 26 straight into the Southwest Sector (cols 2..8) where the Secret House is!
-- Step Budget: 163 steps remaining, ample margin to reach Secret House and claim HM03 Surf!
+- (18..21, 24) is an enclosed lawn pocket (bushes at cols 16..17, 22..25, and row 25).
+- Row 23 is completely open green lawn across cols 19..26.
+- Rows 26..28 form a massive 3-tile wide open green lawn superhighway running west to southwest sector.
+- Escape & Traversal Path:
+  1. Step Up to (19, 23), walk East along row 23 to (26, 23) [8 steps].
+  2. Step Down to row 26 at (26, 26) [3 steps].
+  3. Sprint West along row 26 superhighway directly into Southwest Sector to Secret House (~20 steps)!
+- Step Budget: 158 steps remaining, ample margin (~125 surplus steps) to reach Secret House and claim HM03 Surf!
 
 ## Area 3 Secret House Mission Plan
 - Objective: Locate Secret House and obtain HM03 Surf!
