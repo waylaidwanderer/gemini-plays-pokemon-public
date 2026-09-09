@@ -21,6 +21,7 @@
 - Turns 9376-9378: Ascended South Plateau stairs at (20, 21) to (20, 20) (5 steps) and walked West to (15, 20) (5 steps). Total steps used: 58 (442 remaining).
 - Turn 9381: Descended South Plateau stairs at (12, 21) to (12, 22) (5 steps, 63 total, 437 remaining).
 - Turns 9383-9385: Traversed west along row 22 to (9, 22) (3 steps) and north along western bypass to (10, 14) (9 steps). Total steps used: 75 (425 remaining).
+- Turn 9388: Stepped Left to (9, 14) and Up to (9, 10) (5 steps). Total steps used: 80 (420 remaining).
 
 - Phase 2: Area 1 (~75 steps):
   - Enter at (0, 23). Follow southern corridor (row 24) east to (17, 24) (18 steps used).
