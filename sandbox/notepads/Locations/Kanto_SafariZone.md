@@ -80,3 +80,4 @@
 - Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.
 - Northern Plateau Row 6 Cliff Edge: Stepping Up from (11, 6) into (11, 5) confirmed impassable solid cliff boundary (Turn 8856).
 - Northern Plateau Corner Collision at (10, 6): Stepping Left from (11, 6) into (10, 6) confirmed solid cliff boundary (Turn 8859).
+- Northern Plateau West Edge Collision at (10, 7): Stepping Left from (11, 7) into (10, 7) confirmed solid cliff boundary (Turn 8861). Entire northern plateau perimeter (11..16, 6), (10, 6), (10, 7), (10, 8) is fully eliminated as an overlook with no descent.
