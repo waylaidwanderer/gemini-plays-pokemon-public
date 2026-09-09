@@ -2671,5 +2671,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8422: Entered building at (11, 11), identified as Rest House 4 (not Secret House).
 - Turn 8429: Exited Rest House 4 back into Area 3 at (11, 12) (258 steps remaining). Now heading to northwest quadrant.
 
+- Turn 8446: Position (1, 23). Row 24 bush line opens at col 10/11 into southern plaza (rows 25-29 cols 1-11). Heading east to col 10 to enter southern plaza and locate Secret House.
 
 <hr>
