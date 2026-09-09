@@ -29,9 +29,9 @@
 
 ## Active Session 8 Step Ledger
 - Status: Concluding Session 8
-- Current Position: Safari Zone Area 3 at (28, 7) facing Down [Verified Turn 9811 via Start Menu]
-- Step Counter: 4/500 (4 steps remaining)
-- Immediate Objective: Walk 4 steps across clean lawn to trigger PA chime expiration warp to Gatehouse.
+- Current Position: Safari Zone Area 3 at (28, 8) facing Down [Turn 9815]
+- Step Counter: 3/500 (3 steps remaining)
+- Immediate Objective: Walk south across clean lawn to trigger PA chime expiration warp to Gatehouse.
 
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
