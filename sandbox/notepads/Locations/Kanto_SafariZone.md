@@ -56,7 +56,8 @@
 
 ## Area 1 Elevation Network & Topology
 - South Plateau Bridge: Connects southern entrance corridor to eastern sector. Ascended via south-facing stairs at (20, 21), traverses north along cols 21..22 ridge across rows 15..20, and descends via east-facing/south-facing stairs at (24, 15) to eastern ground corridor.
-- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Provides mandatory high-ground crossing to bypass the impassable ground-level barrier between eastern and western Area 1.
+- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns (south of row 6 hedge). Note: Row 7 western lawn dead-ends at (0, 7) statue and row 6 hedge.
+- East Bridge & Northern Corridor: Elevated wooden bridge at (24..25, 8) connects eastern ground corridor north into the Northern Corridor (rows 3..5). The Northern Corridor runs continuously west past the signpost at (6, 4) directly through the statue gateposts at (1, 3) and (1, 6) to the Area 2 gate at (0, 4..5).
 
 ## Area 2 (North)
 - Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
