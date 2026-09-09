@@ -2679,5 +2679,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rows 7..9 at cols 7..9 is open clear lawn in the Northwest Sector leading directly to the Secret House!
 - Ground path: Courtyard (11, 12) -> row 14 west to col 2 -> south to row 20 -> east to (6, 20) -> ascend staircase at (6, 19) to (6, 18) -> row 16 east to (15, 16) -> north along col 15 to (15, 8) -> west to (10, 8) -> descend to (9, 8)!
 
+## Final Verified Master Route: Gatehouse to Secret House (HM03 Surf)
+- Budget: 500 steps (�500).
+1. Center Area: Enter (14..15, 25) -> north to (21, 15) -> east through tree gap at row 15 -> enter Area 1 at (0, 23) (~27 steps).
+2. Area 1: Walk to (20, 22) -> ascend plateau (20, 21) -> cross west to (12, 21) -> descend to (12, 22) -> north along col 9 -> ascend bridge at (12, 7) -> cross to (17, 7) -> descend -> north to row 3 -> west to (0, 5) enter Area 2 (~70 steps).
+3. Area 2: Enter (39, 31) -> west to (22, 29) -> north to (22, 24) -> ascend staircase at (22, 23) -> traverse plateau west/south to descending stairs at (16, 27) -> descend to (16, 28) -> west to (8, 33) -> step down through gate (8, 35) into Area 3 (~48 steps).
+4. Area 3: Enter (26, 0) -> south down East Corridor to (25, 17) -> west along row 18 to (21, 18) -> ascend staircase at (21, 17) to (21, 16) -> west along row 16 to (15, 16) -> north along col 15 ridge to (15, 8) -> west along row 8 to (11, 8) -> north to row 6 (11, 6) -> descend west/north onto Northwest Lawn -> enter Secret House and obtain HM03 Surf! (~59 steps).
+- Item Ball at (9, 7) in Area 3 near the NW descent.
+- Total step cost: ~204 steps out of 500 (surplus: ~296 steps!).
+
 
 <hr>
