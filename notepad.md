@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Respawned at Cinnabar Island after Champion battle. Flying to Indigo Plateau to audit Mart, purchase Full Restores, heal, and execute master sweep!
+- League Status: In Room 1 battling Elite Four Lorelei! Dewgong (SLP, Red HP) facing HYDROS (Lv 88, 222/303 HP). Gauntlet sweep in progress.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -2907,12 +2907,12 @@
   - Dragonite Lv 62: Ice Beam (Slot 2: A) [Ice Beam PP: 2 -> 1/10, 4x SE OHKO, 0 recoil]
 
 - Champion Chamber (Champion RED Matchup Notes):
-  - Pidgeot Lv 61: Ice Beam / Surf (Defeated Turn 38953)
-  - Alakazam Lv 59: Bite (Defeated Turn 38968)
-  - Rhydon Lv 61: STAB Surf (Defeated Turn 38976)
-  - Gyarados Lv 61: Active. Moves: Hydro Pump, Hyper Beam, Dragon Rage, Leer.
-  - Arcanine Lv 63: Fire type.
-  - Venusaur Lv 65: Grass/Poison type.
+  - Pidgeot Lv 61: Ice Beam (2x SE OHKO) / STAB Surf
+  - Alakazam Lv 59: Double-Edge (OHKO vs 68 Def, ~36 recoil) or Bite / Surf
+  - Rhydon Lv 61: STAB Surf (4x SE OHKO, 0 recoil)
+  - Gyarados Lv 61: Double-Edge (2HKO, ~40 recoil) / Bite
+  - Arcanine Lv 63: STAB Surf (2x SE OHKO, 0 recoil)
+  - Venusaur Lv 65: Double-Edge (2HKO) / Ice Beam
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Poké Mart Status: Empirically verified that retail Pokémon Red/Blue lobby has NO Poké Mart clerk (right wing has Cable Club desk at (13, 6); no mid-gauntlet item purchasing). Full sweep relies on HP conservation & optimized move routing.

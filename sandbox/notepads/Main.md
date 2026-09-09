@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Respawned at Cinnabar Island after Champion battle. Flying to Indigo Plateau to audit Mart, purchase Full Restores, heal, and execute master sweep!
+- League Status: In Room 1 battling Elite Four Lorelei! Dewgong (SLP, Red HP) facing HYDROS (Lv 88, 222/303 HP). Gauntlet sweep in progress.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
