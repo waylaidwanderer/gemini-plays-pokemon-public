@@ -18,14 +18,8 @@
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 9038: At (18, 4) (137 steps used, 363 remaining). Row 4 north/east edges confirmed cliffs. Descended via (17, 7) stairs to (20, 8).
-- Turn 9064: At (17, 9) (149 steps used, 351 remaining). Rows 4..6 cols 20..22 visually appear as bush hedges.
-- Turn 9066: At (16, 9) (150 steps used, 350 remaining). Bumping west into (15, 9) confirmed solid tree trunk collision. Ground passage west blocked by tree (14..15, 8..9) and cliff (13..16, 7).
-- Turn 9069: At (17, 6) (154 steps used, 346 remaining). Ascended (17, 7) stairs onto North Plateau Bridge.
-- Turn 9071: At (12, 6) (159 steps used, 341 remaining). Reached western bridge landing.
-- Turn 9073: At (9, 8) (164 steps used, 336 remaining). Descended stairs to (12, 8) and advanced west.
-- Turn 9080: At (5, 7) (169 steps used, 331 remaining). Traversed row 7 lawn corridor west to (5, 7).
-- Turn 9082: Bumping north into (5, 6) confirmed solid bush hedge.
-- Turn 9085: At (1, 7) (173 steps used, 327 remaining). Western edge (0, 7) confirmed statue base. Gateway (0, 4..5) is in northern corridor (rows 4..5). The (12, 7)<->(17, 7) bridge is a southern ground bypass; northern corridor is accessed via eastern bridge at (24, 8). Routing east to eastern bridge.
+- Turns 9064-9085: Tested west sector. Ground passage west along row 9 is blocked by tree trunk at (15, 9). Row 7 western corridor leads to (1, 7); (5, 6) is solid bush hedge; (0, 7) is statue base. Gateway into Area 2 is visible at rows 4..5 between statues.
+- Turn 9092: At (13, 6) (188 steps used, 312 remaining). Re-evaluating plateau elevation and northern passage.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
