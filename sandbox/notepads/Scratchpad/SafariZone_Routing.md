@@ -28,17 +28,13 @@
 - Turn 9251: At (2, 7) facing Up (90 / 500 steps remaining, 27 Balls). Testing Cut on (2, 6).
 - Turn 9272: At (20, 8) (433 steps used, 67 remaining). Facing Right on East Lawn.
 - Turn 9280: At (20, 3) (438 steps used, 62 remaining). Proven continuous permeable corridor along col 20 (rows 6..3)! Fled battle into northern corridor.
-- Turn 9284: At (20, 3) (62 steps remaining). In northern corridor, advancing west along Row 3 to (16, 3).
-- Turn 9290: At (10, 3) (52 steps remaining). Encountered wild Doduo at (10, 3). Fled battle into overworld.
-- Turn 9294: At (7, 5) (47 steps remaining). Breached into row 5 runway! Advancing west to Area 2 gateway at (0, 5).
-- Turn 9295: At (2, 5) (42 steps remaining). In front of Area 2 gateway! Stepping west to enter Area 2.
 - Turn 9296: Arrived in Area 2 at (39, 31) (39 steps remaining). Area 1 solved!
-- Turn 9297: At (34, 31) (34 steps remaining). Advancing west along Area 2 entrance corridor toward (28, 27) stairs.
 - Turn 9298: At (29, 31) (29 steps remaining). Advancing to Eastern Plateau stairs at (28, 27).
+- Turn 9301: At (28, 27) (24 steps remaining). On Eastern Plateau stairs facing Up.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
-- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Active Step Reality: ~378 steps used, ~122 remaining. Direct target: Exit Area 1 into Area 2 via western corridor.
+- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Active Step Reality: ~476 steps used, ~24 remaining. Area 1 successfully solved and Area 2 entered. Direct target: Scout Eastern Plateau ridge north toward row 15 before Session 7 timer expires.
 - Area 3 Objectives & Elevation Constraints:
   - Note: Tree at (24..25, 0..1) blocks row 0..1 northern perimeter. Col 17 has solid cliff face across rows 6..14.
   1. Test Northern Lawn Passages (Rows 2..5): From (26, 0), test bypass south of row 0..1 tree into northern lawn corridor.
