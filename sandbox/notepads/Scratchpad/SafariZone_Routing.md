@@ -40,7 +40,6 @@
 1. Enter Area 3 at (21, 0).
 2. Step Down to rows 2-4 and sprint directly WEST along the open northern lawn highway (rows 2-5, cols 0-21).
 3. Enter the Secret House and speak to the attendant to receive HM03 (Surf)!
-(Note: Gold Teeth at (19, 7) already collected on Turn 8235!).
 
 ## Active Session Step Tracking (Session 4 - Turn 8345)
 - Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
@@ -56,4 +55,16 @@
 - Turn 8384: Wild Chansey (LUCKY) caught at (22, 29) at 0 step cost (365 steps remaining, 135 steps used).
 - Turn 8392: Ascended western plateau staircase at (22, 23) (360 steps remaining, 140 steps used).
 - Turn 8395: Descended staircase at (16, 27) to ground lawn at (16, 28) (345 steps remaining, 155 steps used).
-- Turn 8401: Current position (8, 34) at southern statue opening (330 steps remaining, 170 steps used). Heading west along row 35/36 to Area 3 gate at (3, 35).
+- Turn 8401: Reached (8, 34) at southern statue opening (330 steps remaining, 170 steps used).
+- Turn 8403: Stepped into (8, 35) south gate, warped into Area 3 at (26, 0) (328 steps remaining, 172 steps used).
+- Turn 8406: Traversed south along col 25 corridor to (25, 7) (320 steps remaining, 180 steps used).
+- Turn 8408: Reached (25, 12) where col 24 bush wall ends (315 steps remaining, 185 steps used).
+- Turn 8410: Interacted with item ball at (18, 18) (306 steps remaining, 194 steps used).
+- Turn 8411: Ascended plateau bridge at (21, 17) to cross col 17 cliff barrier (303 steps remaining, 197 steps used).
+- Turn 8414: Crossed plateau bridge west to (10, 16) (288 steps remaining, 212 steps used).
+- Turn 8417: Descended staircase at (6, 19) to ground tall grass at (6, 20) (278 steps remaining, 222 steps used).
+- Turn 8418: Reached western boundary at (1, 20) (273 steps remaining, 227 steps used).
+- Turn 8419: Bypassed tree at (1, 15), reached (1, 16) (269 steps remaining, 231 steps used).
+- Turn 8421: Reached building at (11, 14) (258 steps remaining, 242 steps used).
+- Turn 8422: Entered building at (11, 11), identified as Rest House 4 (not Secret House).
+- Turn 8429: Exited Rest House 4 back into Area 3 at (11, 12) (258 steps remaining). Now heading to northwest quadrant.

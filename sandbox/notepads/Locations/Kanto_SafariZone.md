@@ -42,7 +42,6 @@
 - Item Ball: Located at (3, 7) on western lawn - MAX POTION [Collected Turn 7695].
 - Northern Lawn: Extends along rows 10..11 cols 20..25.
 - Item Ball: Located at (21, 10) on the northern lawn - FULL RESTORE [Collected Turn 7647].
-- Rest House 2: Located at cols 24..26 rows 8..9 with entrance door at (25, 9) and signpost at (26, 10).
 - Water Pond: Located west of the plateau along cols 16..19 rows 11..17.
 - Empirical Verification (Turn 7540): Row 12 is an impassable cliff face to the north; cannot walk off plateau onto northern lawn (rows 10-11). Plateau acts as an elevated bridge between south stairs at (20, 21) and east stairs at (24, 15). Walkable ridge is along cols 21-22. Empirical Collision (Turn 7570): Columns 0..5 north of row 21 are blocked by trees, statues, and bushes.
 ## Center Area Topological Barriers & Routing (Verified Turns 7600-7609)
@@ -60,7 +59,7 @@
 - Central Lawn Corridor: Wide open lawn corridor along rows 12..19 cols 21..35+ extending west across the map towards Area 3. Row 11 is bounded by a continuous line of statues. Rows 14..15 provide a clean grass path avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau: Spans rows 20..23+ cols 14..22+. Northern cliff face runs along row 20 cols 14..25. Wooden staircase located at (22, 23) [Verified Turn 8139].
 ## Area 3 (West)
-- North Entrance: Connects from Area 2 southern gate at (2..3, 34..35) to (21, 0) [Verified Turn 8224].
+- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
 - Northern Highway: Wide 4-tile open green lawn corridor across rows 2..5 spanning cols 12..23+ heading west towards the Secret House.
 - Signpost at (17, 3): Display signpost situated in northern lawn.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
