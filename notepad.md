@@ -2980,6 +2980,7 @@
 
 ## Items (2F)
 - Item Pokéball at (29, 9) collected.
+- Item Pokéball at (13, 6) collected.
 
 ## Wild Encounters (2F)
 - Ditto (Normal)
