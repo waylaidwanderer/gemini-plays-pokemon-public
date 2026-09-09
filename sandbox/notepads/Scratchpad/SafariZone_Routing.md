@@ -28,11 +28,14 @@
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Center Area North Corridor to Area 3 West Exit)
-- Current Position: Safari Zone Center Area at (14, 0) [Turn 10030]
-- Steps Remaining: ~204 / 500 steps
-- Major Discovery: Center Area north boundary at (14, 0) connects directly south to row 10. The West Exit to Area 3 is at col 0 rows 10..11, warping straight to Area 3 at (29, 23) in ~24 steps!
-- Master Plan: Walk south to row 10, then west along row 10 to (0, 10) to enter Area 3 with ~180 steps remaining!
+- Status: Active Session 10 (Warping to Area 2 to sprint into Area 3 gate)
+- Current Position: Safari Zone Center Area at (14, 5) [Turn 10031]
+- Steps Remaining: ~199 / 500 steps
+- Ground Truth Connection:
+  - Center Area (14, 0) connects north to Area 2 at (20, 35).
+  - From Area 2 (20, 35), walking Left 12 times along row 35 leads straight into Area 3 gate at (8..9, 34..35)!
+  - Total distance to Area 3: 6 steps Up + 12 steps Left = 18 steps!
+  - Projected reserve inside Area 3: ~181 steps!
 - Immediate Route Plan:
   1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
   2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
