@@ -36,7 +36,8 @@
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 8995: At (18, 22) (49 steps used, 451 remaining). Wild Kangaskhan (Lv 25) encountered in Area 1!
-- Turn 9001: Caught Wild Kangaskhan (Lv 25)! 27 Safari Balls remaining, 451 steps remaining.
+- Turn 9001: Caught Wild Kangaskhan (MATILDA) Lv 25! Transferred to PC Box 1 (27 balls remaining).
+- Turn 9019: Ascending lower plateau to (21, 18) (75 steps used, 425 remaining) to cross west to col 12 north bridge.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
