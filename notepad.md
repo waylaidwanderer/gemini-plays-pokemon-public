@@ -2618,7 +2618,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 
 ## Area 3 (West)
-- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
+- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26..27, 0) [Verified Turns 8403, 10163].
 - East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains rock tossing mechanics.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
@@ -2673,8 +2673,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 2 at (12, 32) [Turn 10162]
-- Steps Remaining: 325 / 500 steps
+- Current Position: Safari Zone Area 3 at (27, 0) [Turn 10163]
+- Steps Remaining: 318 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
