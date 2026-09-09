@@ -29,7 +29,8 @@
 - Turn 9272: At (20, 8) (433 steps used, 67 remaining). Facing Right on East Lawn.
 - Turn 9280: At (20, 3) (438 steps used, 62 remaining). Proven continuous permeable corridor along col 20 (rows 6..3)! Fled battle into northern corridor.
 - Turn 9284: At (20, 3) (62 steps remaining). In northern corridor, advancing west along Row 3 to (16, 3).
-- Turn 9290: At (10, 3) (52 steps remaining). Encountered wild Doduo at (10, 3). Fleeing battle to reach Area 2 gateway (12 steps away).
+- Turn 9290: At (10, 3) (52 steps remaining). Encountered wild Doduo at (10, 3). Fled battle into overworld.
+- Turn 9294: At (10, 3) (52 steps remaining). Advancing west through canopy to (7, 3) lawn and down to (7, 5) row 5 runway.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
