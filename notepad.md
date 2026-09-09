@@ -2665,15 +2665,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Area 2 Master Route Return to Southern Corridor)
-- Current Position: Safari Zone Area 2 at (34, 14) [Turn 10024]
-- Steps Remaining: ~250 / 500 steps
-- Ground Truth Master Route (Session 7/8/9 Verified):
-  1. Central Lawn Basin is a closed cul-de-sac.
-  2. Exit via Eastern Plateau: Re-ascend (34, 15) -> ridge to (37, 24) -> row 24 to (28, 24) -> descend (28, 27) to (28, 28).
-  3. Southern Corridor (Row 33): From (28, 28), south to row 33, west along row 33 to cols 20..22.
-  4. Elevated Bridge Crossing: From (20..22, 33), north to ascend east staircase at (22, 23), cross elevated bridge west over col 17 bush hedge, descend west staircase at (16, 27) onto (16, 28) lawn corridor.
-  5. Area 3 Gateway: South from (16, 28) to (8..9, 34..35) to enter Area 3 at (26, 0) with ~175+ steps reserve!
+- Status: Active Session 10 (Sprinting south to row 35 runway to Area 3 gate)
+- Current Position: Safari Zone Area 2 at (18, 28) [Turn 10028]
+- Steps Remaining: ~204 / 500 steps
+- Ground Truth Discovery:
+  - Row 35 is an open horizontal runway spanning south of the column 17 bush hedge.
+  - Column 20 rows 32..35 provides open passage through the statues.
+  - From (20, 35), walking West along row 35 leads directly to the Area 3 gate at (8..9, 34..35) in ~12 steps!
+  - CAUTION: Do NOT step Down from (20, 35) into row 36 (Center Area warp). Walk purely WEST along row 35!
 - Immediate Route Plan:
   1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
   2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
