@@ -18,9 +18,12 @@
   - Ladder at (23, 7) on central elevated platform (leads to isolated 2-tile alcove on 2F).
   - Ladder at (27, 1) on northern elevated ridge (accessed via stairs at 23, 3).
   - Ladder at (18, 9) on western elevated platform.
+  - Ladder at (7, 1) on isolated NW terrace (connects to 2F at (9, 1)).
+  - Ladder at (1, 3) in NW ground area.
 - Items:
   - Pokéball item at (19, 3) on northern ledge.
   - Pokéball item at (7, 13) in southwest cavern.
+  - Pokéball item at (5, 0) on isolated NW terrace.
 - Water canals:
   - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures and western cavern.
   - Southern canal at rows 10-11 (cols 24-29) - accessed via stairs ramp at (25, 9) into (25, 10).
