@@ -17,7 +17,8 @@
 - Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1563]. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Reward: ¥140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
 - Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"
 - Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Team Rocket Recruiter: Located at (11, 15) [Defeated Turn 1591]. Team: Ekans Lv 15, Zubat Lv 15. Reward: Nugget prize + ¥450. Dialogue: "Congratulations! You beat the 5 of us! You've earned a fabulous prize!" / "By the way, would you like to join TEAM ROCKET?" Defeat quote: "Arrgh! You are good!"
+- Nugget Bridge Team Rocket Recruiter: Located at (11, 15) [Defeated Turn 1591]. Team: Ekans Lv 15, Zubat Lv 15. Reward: Nugget prize + ¥450. Dialogue: "Congratulations! You beat the 5 of us! You've earned a fabulous prize!" / "By the way, would you like to join TEAM ROCKET?" Defeat quote: "Arrgh! You are good!"
+- Western Grass Trainer (Jr. Trainer Male Shane): Located at (5, 16) in the western grass patch [Defeated Turn 39661]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I saw your feat from the grass!" Defeat quote: "I thought not!"
 
 ## Post-Game: Cerulean Cave Waterway Access Protocol
 - **Location**: West of Nugget Bridge (cols 6-8, rows 15-36+).
