@@ -15,7 +15,8 @@
   10. INDIGO PLATEAU
   11. SAFFRON CITY
 - **Quick Navigation**:
-  - From PEWTER CITY to INDIGO PLATEAU: Press `Down` 4 times (Viridian -> Pallet -> Saffron -> Indigo Plateau), then press `A`.
-  - From PALLET TOWN to INDIGO PLATEAU: Press `Down` 2 times (Saffron -> Indigo Plateau), then press `A`.
-  - From VIRIDIAN CITY to INDIGO PLATEAU: Press `Down` 3 times (Pallet -> Saffron -> Indigo Plateau), then press `A`.
+  - From PALLET TOWN (or map default): Press `Down` 2 times (Saffron -> Indigo Plateau), then press `A` to confirm.
+  - From PEWTER CITY (when map opens at Pallet): Press `Down` 2 times (Saffron -> Indigo Plateau), then press `A` to confirm.
+  - From FUCHSIA CITY: Press `Up` 2 times (Cinnabar -> Indigo Plateau), then press `A` to confirm.
+  - From CINNABAR ISLAND: Press `Down` 1 time (Indigo Plateau), then press `A` to confirm.
 - Verification Protocol: Always verify the on-screen destination text header ('To INDIGO PLATEAU') before pressing A to confirm flight.
