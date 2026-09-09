@@ -16,3 +16,4 @@
 - Turn 8888: Walking south along col 25 to (25, 10) (~95 steps remaining).
 - Turn 8890: Walking south along col 25 to (25, 16) (~89 steps remaining).
 - Turn 8892: Walking Down to (25, 18) and Left to staircase base at (21, 18) (~83 steps remaining).
+- Turn 8894: Ascending staircase to (21, 16) and walking west across bridge to (17, 16) (~77 steps remaining).
