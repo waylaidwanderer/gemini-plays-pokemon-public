@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Lorelei (Room 1), Bruno (Room 2), and Agatha (Room 3) DEFEATED! HYDROS at Lv 90 (15/311 HP, Surf 9/15, Ice Beam 6/10, DE 6/15). Entering Room 4 to battle Elite Four Lance.
+- League Status: Respawned at Cinnabar Island after testing Champion match. Full party restored (HYDROS Lv 90, 311/311 HP, full PP). Flying to Indigo Plateau to execute zero-recoil sweep of the Pokémon League gauntlet (Lorelei, Bruno, Agatha, Lance, Champion RED).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
