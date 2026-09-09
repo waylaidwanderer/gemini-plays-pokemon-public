@@ -33,9 +33,7 @@
 - Western Statue Collision at (0, 7): Tested Turn 9127; solid impassable statue base.
 - Western Statue Collision at (1, 6): Tested Turn 9234; solid impassable statue base.
 - Row 6 Bush Collision at (2, 6): Tested Turn 9250; solid impassable collision.
-- Row 6 Bush Cut Test at (2, 6): Tested Turn 9256 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Row 6 Bush Collision at (3, 6): Tested Turn 9259; solid impassable collision.
-- Row 6 Bush Cut Test at (3, 6): Tested Turn 9260 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Permeable Canopy Corridor (Row 3, cols 10..16): Empirically verified fully walkable westward on Turns 9287-9289, providing direct access to (8, 3) lawn!
 - Verified Area 1 Traversal Solution (Turns 9276-9296, 9358-9382): Enter Area 1 at (0, 23), follow southern corridor (row 24) east to (17, 24), step up to (17, 22), ascend South Plateau stairs at (20, 21) to (20, 20), traverse west across South Plateau elevated floor (rows 18..20) to (12, 20), descend western stairs at (12, 21) to (12, 22), walk west to cols 8..10, traverse north along cols 8..10 western bypass around central pond to row 8 west lawn (12, 8), ascend North Plateau Bridge at (12, 7) and cross east to (17, 7), descend to East Lawn at (20, 8), breach north through Column 20 permeable canopy corridor at (20, 6..3), traverse west through Row 3 canopy corridor (cols 16..10), step down at col 7 into row 5 runway, and walk west through gateway at (0, 4..5) into Area 2 at (39, 30..31)!
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
@@ -47,7 +45,6 @@
 - North Bridge Access: North bridge staircase at (12, 7) faces south and is accessed from row 8 (12, 8); row 7 at (10..11, 7) is impassable cliff wall [Verified Turn 9029].
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
-- Row 6 Bush Cut Test at (6, 6): Tested Turn 7720 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Signpost at (26, 10): 'REST HOUSE' [Read Turn 7733].
 - Rest House 2 Eastern Boundary: Columns 27..28 lawn dead-ends at row 4..5 tree line.
 - Plateau North Cliff Edge at (17, 4): Impassable solid cliff edge verified Turn 7728; rock plateau cannot be exited northward directly onto row 3 lawn.

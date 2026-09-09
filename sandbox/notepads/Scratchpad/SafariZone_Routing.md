@@ -30,8 +30,18 @@
   1. Southwest Sector: Rows 24..28 across cols 2..15 (unvisited; cols 0..6 rows 25..27 viewed from 1, 23 showed open lawn).
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
-## Session 9 Direct Traversal Strategy
-- Starting at Fuchsia Gatehouse: 500 fresh steps (¥500 paid).
-- Direct route through Areas 1 and 2 to Area 3 entrance (26, 0) consumes ~300 steps.
-- Remaining budget for Area 3: ~200 steps.
-- In Area 3: Proceed directly without looping or backtracking to inspect candidate search sectors for Secret House and claim HM03 Surf!
+## Session 9 Direct Traversal Strategy & Step Budget Ledger
+- Initial Budget: 500 steps (¥500 admission).
+- Stage 1: Gatehouse to Area 1 (Center Area traversal): ~90 steps.
+- Stage 2: Area 1 traversal (via South Plateau, Pond Bypass, North Bridge, and Row 3 Canopy Corridor to Area 2 gate): ~110 steps.
+- Stage 3: Area 2 traversal (via Eastern Plateau descent, Central Lawn, Western Plateau Bridge to Area 3 gate): ~100 steps.
+- Stage 4: Arrive in Area 3 at (26, 0) with ~200 steps remaining.
+
+## Area 3 Search Hierarchy & Hard Step Allocation
+- Target Sector 1 (Primary): Northwest Sector (cols 0..9 rows 0..9).
+  - Allocation: 140 steps maximum.
+  - Route: From (26, 0), descend East Corridor to (21, 18), cross Southern Plateau Bridge west to (6, 19), descend stairs to (6, 20), walk west to col 1 corridor (1, 20), head north along col 1 past the pond (rows 14..15) directly into the Northwest Sector (cols 0..6 rows 0..9).
+  - Landmark: The Secret House (source of HM03 Surf) and item ball at (9, 7).
+- Target Sector 2 (Secondary / Fallback): Southwest Sector (cols 0..15 rows 24..28).
+  - Allocation: Remaining ~60 steps if Northwest Sector is confirmed fully exhausted/blocked.
+  - Pivot Trigger: If Northwest corridor is completely blocked by physical barriers before row 5, immediately reverse south along col 1 to explore rows 24..28.
