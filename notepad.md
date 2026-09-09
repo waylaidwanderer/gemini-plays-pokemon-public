@@ -2934,4 +2934,7 @@
 ## Map Layout & Exploration
 - Entrance landing at (24, 17) facing north into open cavern corridor.
 
+## Wild Encounters (1F)
+- Hypno (Psychic)
+
 <hr>
