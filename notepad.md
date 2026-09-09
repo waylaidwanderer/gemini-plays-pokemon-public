@@ -2674,11 +2674,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Rest House 4 (cols 10..13 rows 10..11) is an enclosed cul-de-sac bounded by pond and cliff.
 - Sector Hypotheses:
   - Northwest and Southwest sectors are both candidate locations. Scouting Western Corridor to evaluate physical access to both sectors.
-- Execution Route to Secret House:
-  1. (7, 14) -> Left 5 along row 14 avenue to (2, 14) [5 steps]
-  2. Down 4 along col 2 to (2, 18), Left 1 to (1, 18) [5 steps]
-  3. Down along clean lawn col 1 to row 23 [5 steps]
-  4. Explore rows 24..28 in Southwest sector to locate and enter Secret House (~10-15 steps).
-  - Step Margin: ~25-30 steps required, 78 steps remaining (Surplus: ~48 steps!).
+
 
 <hr>
