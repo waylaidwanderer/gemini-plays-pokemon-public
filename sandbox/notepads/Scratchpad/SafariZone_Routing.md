@@ -65,3 +65,8 @@
 - Turns 8689-8692: Ascended plateau bridge at (21, 17), crossed west to (6, 19), descended to (6, 20). Steps: 26 (~94 steps remaining).
 - Turns 8693-8696: Moved to (2, 19) (5 steps), fled Exeggcute, walked to (2, 14) (5 steps), and traversed row 14 east to (8, 14) (6 steps). Steps: 16 (~78 steps remaining).
 - Turn 8701: Currently at (8, 14) with ~78 steps remaining in Session 5. En route to explore Rest House 4 courtyard and northern passage.
+## Breakthrough: Plateau Ridge Route to Secret House (Verified Turn 8705)
+- From Rest House 4 courtyard at (11, 12), visual inspection confirmed that cols 15-16 form a continuous elevated plateau ridge running NORTH from row 16 to row 8.
+- At row 8, the plateau turns WEST across (14..10, 8), where tile (10, 8) descends directly onto clear lawn at (9, 8) north of the pond!
+- Rows 7..9 at cols 7..9 is open clear lawn in the Northwest Sector leading directly to the Secret House!
+- Ground path: Courtyard (11, 12) -> row 14 west to col 2 -> south to row 20 -> east to (6, 20) -> ascend staircase at (6, 19) to (6, 18) -> row 16 east to (15, 16) -> north along col 15 to (15, 8) -> west to (10, 8) -> descend to (9, 8)!
