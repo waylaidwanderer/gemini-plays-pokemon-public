@@ -2986,5 +2986,6 @@
 - Venomoth (Bug/Poison)
 - Kadabra (Psychic)
 - Dodrio (Normal/Flying)
+- Rhydon (Ground/Rock)
 
 <hr>
