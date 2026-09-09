@@ -2634,14 +2634,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 10. Walk west along row 3 lawn to (6, 3), step down to row 5 corridor at (7, 5).
 11. Walk west along row 5 through the gatepost statues at (1, 3) and (1, 6) into (0, 5) to enter Area 2!
 
-### Phase 3: Area 2 to Area 3 (~65 steps)
-1. Enter Area 2 at (39, 31).
-2. Walk west along open lawn corridor (rows 30-31) to (23, 30).
-4. Ascend through western staircase at (22, 23) to access western ridge at (16, 27).
-5. Descend staircase at (16, 27) to ground lawn at (16, 28).
-6. Walk west along row 30 boulevard past Rest House 3 to (6, 30).
-7. Walk north along col 6 past Rest House 3 to row 19/20.
-8. From row 30-31 boulevard, proceed to Area 2 southern gate at (8..9, 34..35), stepping Down into gate to enter Area 3 at (26, 0) [Verified Turn 8403].
+### Phase 3: Area 2 to Area 3 (Verified Physical Approach Vectors)
+1. Enter Area 2 from Area 1 at (39, 31).
+2. Walk west along southern corridor (rows 29-31) past Eastern Plateau (staircase at 28, 27) to (22, 29).
+3. Walk north along col 22 through tall grass (rows 28..24) to (22, 24) [approach vector: south facing staircase at (22, 23)].
+4. Step Up from (22, 24) onto south-facing wooden staircase at (22, 23) to ascend Western Plateau.
+5. Traverse Western Plateau west/southwest across cols 22..16 to the south-facing descending wooden staircase at (16, 27).
+6. Step Down through staircase at (16, 27) to ground lawn at (16, 28) [bypasses col 17 bush wall (rows 28..33)].
+7. From (16, 28), walk west along clear lawn boulevard (rows 28..33) past Rest House 3 to Area 2 southern gate at (8..9, 34..35).
+8. Step Down into gate at (8..9, 34..35) to enter Area 3 at (26, 0) [Verified Turn 8403].
 
 ### Phase 4: Area 3 (Secret House - HM03 Surf)
 1. Enter Area 3 at (26, 0) from Area 2.
