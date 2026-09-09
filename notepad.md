@@ -2976,4 +2976,7 @@
 ## Wild Encounters (2F)
 - Ditto (Normal)
 
+## Items (2F)
+- Pokéball item at (29, 9) in southeastern corridor.
+
 <hr>
