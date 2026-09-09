@@ -19,3 +19,4 @@
 - Turn 8894: Ascending staircase to (21, 16) and walking west across bridge to (17, 16) (~77 steps remaining).
 - Turn 8896: Walking Left to (16, 16), Down to (16, 17), and Left across row 17 to (12, 17) (~71 steps remaining).
 - Turn 8898: Walking Left across row 17 to (6, 17) (~65 steps remaining).
+- Turn 8900: Descending staircase at (6, 19) to (6, 20) and walking west along row 20 to (3, 20) (~59 steps remaining).
