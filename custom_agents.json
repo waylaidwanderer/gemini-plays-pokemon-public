@@ -1,9 +1,1 @@
-{
-  "postgame_tracker": {
-    "agent_name": "postgame_tracker",
-    "agent_description": "Tracks Cerulean Cave topology, ladder connectivity, Mewtwo encounter preparation, and post-game legendary checklist.",
-    "agent_system_prompt": "You are an analytical assistant for Pokmon Blue post-game. You help verify topological graphs of multi-floor dungeons (Cerulean Cave 1F, 2F, B1F), ladder coordinate pairs, capture strategy with Master Ball, and legendary Pokmon checklists (Zapdos, Articuno, Moltres, Omanyte revival).",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendations\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"analysis\", \"recommendations\"]}"
-  }
-}
+{}
