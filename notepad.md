@@ -2666,10 +2666,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Area 2 Re-entry & Eastern Plateau Progression)
-- Current Position: Safari Zone Center Area at (14, 0) [Turn 10093]
-- Steps Remaining: ~147 / 500 steps
-- Transition Record: Returning to Area 2 via (14, 0) -> (20, 36).
+- Status: Active Session 10 (Area 2 Eastern Plateau Progression)
+- Current Position: Safari Zone Area 2 at (24, 33) [Turn 10095]
+- Steps Remaining: ~141 / 500 steps
+- Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
   - (18, 27): Cliff face from (18, 28) (Turn 10027)
