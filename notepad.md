@@ -2639,7 +2639,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 <h1><code>Scratchpad/SafariZone_Routing</code></h1>
 
-# Safari Zone Master Routing & Step Ledger (Session 8 / Session 9)
+# Safari Zone Master Routing & Step Ledger (Session 10)
 
 ## Ground Truth & Area 3 Connectivity (Verified Turns 9533–9691)
 - Area 3 Entrance: (26, 0) from Area 2.
@@ -2666,9 +2666,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Area 2 Eastern Plateau Progression)
-- Current Position: Safari Zone Area 2 at (22, 19) [Turn 10104]
-- Steps Remaining: ~83 / 500 steps
+- Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
+- Current Position: Safari Zone Area 2 at (30, 19) [Turn 10111]
+- Steps Remaining: ~67 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
