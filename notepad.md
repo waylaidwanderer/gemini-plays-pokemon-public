@@ -2655,6 +2655,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
 5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
 
-- Turn 8951: At (3, 23) on clear lawn (~8 steps remaining in Session 6). Confirmed row 24 bush hedge spans cols 2..9, completely sealing southern access from row 23. Session 6 expiring.
+- Turn 8953: At (1, 16) on col 1 lawn (~4 steps remaining in Session 6). Advancing east along row 14 lawn corridor south of pond toward Rest House 4 as Session 6 concludes.
 
 <hr>
