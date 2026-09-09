@@ -146,7 +146,7 @@
 - HM04 (STRENGTH) [Received Turn 8274]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433. (18, 18) item ball interaction yielded no item.
+- Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2596,6 +2596,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
 - Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), dense bush wall along col 24 (rows 6..13), cliff corner at (4, 16) [Turn 8415], tree trunk at (1, 15) [Turn 8419], shoreline water boundary at (2, 13) [Turn 8444], impassable bush hedge along row 25 (cols 11..15, 18..20) [Turn 8463], solid west-facing cliff wall at col 14 (rows 10..15) [Turn 8476], south-facing cliff edge at (17, 17) [Turn 8485], impassable bush hedge along col 24 (rows 2..13) [Turn 8489, 8501], and east-facing plateau cliff edge at (23, 15) [Turn 8509].
 - Item Ball at (8, 20): Collected MAX POTION [Turn 8532].
+- Item Ball at (9, 7): Sighted on Northwest Lawn outside plateau descent [Turn 8713].
 
 
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
@@ -2672,14 +2673,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8686-8688: Traversed Area 3 East Corridor south to (25, 17). Steps: 18 (~120 steps remaining).
 - Turns 8689-8692: Ascended plateau bridge at (21, 17), crossed west to (6, 19), descended to (6, 20). Steps: 26 (~94 steps remaining).
 - Turns 8693-8696: Moved to (2, 19) (5 steps), fled Exeggcute, walked to (2, 14) (5 steps), and traversed row 14 east to (8, 14) (6 steps). Steps: 16 (~78 steps remaining).
-- Turn 8701: Currently at (8, 14) with ~78 steps remaining in Session 5. En route to explore Rest House 4 courtyard and northern passage.
 ## Breakthrough: Plateau Ridge Route to Secret House (Verified Turn 8705)
 - From Rest House 4 courtyard at (11, 12), visual inspection confirmed that cols 15-16 form a continuous elevated plateau ridge running NORTH from row 16 to row 8.
 - At row 8, the plateau turns WEST across (14..10, 8), where tile (10, 8) descends directly onto clear lawn at (9, 8) north of the pond!
 - Rows 7..9 at cols 7..9 is open clear lawn in the Northwest Sector leading directly to the Secret House!
 - Ground path: Courtyard (11, 12) -> row 14 west to col 2 -> south to row 20 -> east to (6, 20) -> ascend staircase at (6, 19) to (6, 18) -> row 16 east to (15, 16) -> north along col 15 to (15, 8) -> west to (10, 8) -> descend to (9, 8)!
 
-## Final Verified Master Route: Gatehouse to Secret House (HM03 Surf)
+## Master Route: Gatehouse to Secret House (Phase 4 Descent Hypothesis Pending Verification)
 - Budget: 500 steps (�500).
 1. Center Area: Enter (14..15, 25) -> north to (21, 15) -> east through tree gap at row 15 -> enter Area 1 at (0, 23) (~27 steps).
 2. Area 1: Walk to (20, 22) -> ascend plateau (20, 21) -> cross west to (12, 21) -> descend to (12, 22) -> north along col 9 -> ascend bridge at (12, 7) -> cross to (17, 7) -> descend -> north to row 3 -> west to (0, 5) enter Area 2 (~70 steps).
