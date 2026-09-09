@@ -2,17 +2,17 @@
 
 ## Level Overview
 - Central hub floor connecting Cerulean City waterway, 2F upper maze, and B1F lower cavern.
-- Entrance from Cerulean City: (25, 17) / (24, 17).
+- Entrance from Cerulean City: (25, 17) / (24, 17) with checked entrance mat.
 
-## Key Topology & Waypoints
-- South Entrance Landing: (25, 17) / (24, 17).
-- Water Canal Network: Runs throughout 1F. Requires Surf.
-- NW Isolated Bank: Reachable by surfing west/north along the canal.
-  - Hosts the direct descending ladder to B1F (leading to Mewtwo's lair).
-- Ascending Ladders to 2F:
-  - NW Ladder A1: (1, 3) <-> 2F (1, 3)
-  - West Ladder A2: (3, 11) <-> 2F (3, 11)
-  - Central Ladder C: (18, 9) <-> 2F (19, 7)
-  - East Ladder B: (23, 7) <-> 2F (22, 6)
-  - NE Ladder D: (27, 1) <-> 2F (29, 1)
-  - North Ladder E: (7, 1) <-> 2F (9, 1)
+## Verified Topology & Waypoints (Empirically Tested)
+- South Entrance Landing: (24..25, 14..17).
+- Southern Shoreline: (20..23, 13) has open water / shore edge; (24..25, 13) has rock barrier.
+- Central-East Corridors:
+  - Ladder B at (23, 7) ascends to 2F (22, 6) [Empirically verified Turn 40317].
+  - Ladder C at (18, 9) ascends to 2F (19, 7) [Empirically verified Turn 39951].
+  - Ledges with purple horizontal lines: (21, 11), (25, 9), (17, 15).
+- NW Sector & Western Canals:
+  - Ladder A1: (1, 3) <-> 2F (1, 3) [Empirically verified Turn 39839].
+  - Ladder A2: (3, 11) <-> 2F (3, 11) [Empirically verified Turn 39773].
+  - Ladder E: (7, 1) <-> 2F (9, 1) [Empirically verified Turn 40215].
+  - Ledge jump into canal at (7, 3) / (7, 4) [Verified Turn 40222].
