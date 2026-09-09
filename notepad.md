@@ -2938,7 +2938,11 @@
 - Stairs/Ladders to elevated ridges:
   - Stairs at (21, 11) leading North onto elevated ridge at (21, 10).
   - Stairs at (17, 15) leading West onto western elevated ridge.
-- Water canal at (24..29, 11) extending east.
+  - Stairs at (25, 9) leading East.
+- Ladders (Floors):
+  - Ladder at (23, 7) on central elevated platform.
+  - Ladder at (18, 9) on western elevated platform.
+- Water canal at (24..29, 10..11) extending east.
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
