@@ -17,9 +17,9 @@
   - Row 6-7 Highway: (7..16, 6..7) connects central sector to northwest quadrant.
 
 ## Verified Items (2F)
-- Item Pokéball at (29, 9) collected (PP Up).
-- Item Pokéball at (13, 6) collected (Max Potion).
-- Item Pokéball at (4, 15) collected (TM14 Blizzard).
+- Item Pokï¿½ball at (29, 9) collected (PP Up).
+- Item Pokï¿½ball at (13, 6) collected (Max Potion).
+- Item Pokï¿½ball at (4, 15) collected (TM14 Blizzard).
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
