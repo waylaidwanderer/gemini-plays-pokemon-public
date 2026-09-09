@@ -27,7 +27,8 @@
 - Turn 9124: At (6, 7) (248 steps used, 252 remaining). Advanced west along row 7.
 - Turn 9126: At (1, 7) (253 steps used, 247 remaining). Bumping Left confirmed (0, 7) is solid statue collision.
 - Turn 9128: At (1, 7). Stepped Down to (1, 8).
-- Turn 9131: At (1, 8) (254 steps used, 246 remaining). Bumping Left confirmed (0, 8) is solid bush collision. Cul-de-sac at rows 6..9 confirmed solid. Gateway (0, 4..5) connects to northern corridor (rows 4..5). Routing to (12, 7) stairs to access North Plateau row 5 (11..12, 5) toward (10, 5).
+- Turn 9131: At (1, 8) (254 steps used, 246 remaining). Bumping Left confirmed (0, 8) is solid bush collision.
+- Turn 9133: At (5, 7) (259 steps used, 241 remaining). Advancing east along row 7 lawn to (9, 7) and down to (9, 8) toward North Plateau stairs.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
