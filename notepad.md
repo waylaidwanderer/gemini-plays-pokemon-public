@@ -3073,3 +3073,9 @@
   - Frontier F2: Column 23-29 Southeast sector (rows 11-19, ladders/alcoves).
 
 <hr>
+
+<h1><code>Locations/CeruleanCave1F.md</code></h1>
+
+
+
+<hr>
