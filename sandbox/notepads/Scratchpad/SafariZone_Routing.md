@@ -28,14 +28,16 @@
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Warping to Area 2 to sprint into Area 3 gate)
-- Current Position: Safari Zone Center Area at (14, 5) [Turn 10031]
-- Steps Remaining: ~199 / 500 steps
-- Ground Truth Connection:
-  - Center Area (14, 0) connects north to Area 2 at (20, 35).
-  - From Area 2 (20, 35), walking Left 12 times along row 35 leads straight into Area 3 gate at (8..9, 34..35)!
-  - Total distance to Area 3: 6 steps Up + 12 steps Left = 18 steps!
-  - Projected reserve inside Area 3: ~181 steps!
+- Status: Active Session 10 (Area 2 Southern Sector Navigation to Area 3)
+- Current Position: Safari Zone Area 2 at (18, 32) [Turn 10034]
+- Steps Remaining: ~197 / 500 steps
+- Ground Truth Connections:
+  - Area 3 Gateway is at Area 2 (8..9, 34..35).
+  - Western lawn corridor (cols 14..16 rows 28..33) leads directly south to Area 3 gate.
+  - West staircase of elevated bridge is at (16, 27) descending onto (16, 28).
+  - Column 17 is a bush hedge dividing col 18 from col 16 across rows 28..33.
+  - Testing breach across col 17 at (17, 32) to enter western corridor directly!
+  - Alternative: structure at (19, 33) tested from west (18, 33), or row 19 northern ascent (22..24, 20).
 - Immediate Route Plan:
   1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
   2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
