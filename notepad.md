@@ -2657,7 +2657,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8988: Entered Area 1 at (0, 23) (472 steps remaining). Navigating east along row 24 lawn toward lower plateau staircase at (20, 21).
+- Turn 8990: At (10, 24) on row 24 lawn (39 steps used, 461 remaining). Advancing east to row 23 opening (17, 23) and lower plateau staircase at (20, 21).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
