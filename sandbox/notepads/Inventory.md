@@ -96,3 +96,7 @@
   - Status: Healthy
   - Caught: Safari Zone Area 2 tall grass [Turn 8384]
   - Transferred to PC Box 1 (Active Party full)
+- KANGASKHAN (Nickname: MATILDA) [Lv 25, Normal]
+  - Status: Healthy
+  - Caught: Safari Zone Area 1 tall grass [Turn 9001]
+  - Transferred to PC Box 1 (Active Party full)
