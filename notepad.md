@@ -2964,6 +2964,7 @@
 - Golbat (Poison/Flying)
 - Magneton (Electric)
 - Marowak (Ground)
+- Dodrio (Normal/Flying)
 
 <hr>
 
