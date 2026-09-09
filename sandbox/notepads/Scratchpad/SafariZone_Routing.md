@@ -19,7 +19,7 @@
   - Crossed plateau bridge to western staircase at (6, 19).
   - Descended to row 20 tall grass at (6, 20), traversed west to col 1 clear lawn corridor.
   - Empirically confirmed southern boundary at (2, 24) is solid bush hedge (Turn 8905).
-  - 100% Empirically verified Sector SW contains NO buildings and NO Secret House!
+  - Verified Sector SW rows 19..23 cols 0..6 contains no buildings; southern rows 24..28 bounded by tree/hedge at row 24.
 
 ## Session 7 Routing Hypotheses (Unverified)
 ### Candidate Route A: Northern Bypass via Row 14 Ground Opening (UNVERIFIED HYPOTHESIS)
@@ -36,16 +36,16 @@
 4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
 5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
 
-- Turn 8955: Session 6 concluded via PA Ding-dong! at (2, 16). Returning to Gatehouse to start Session 7.
+## Active Session Step Tracking (Session 7 - Turn 8967)
+- Turn 8967: Started Session 7 with 500 steps (fee ¥500).
+- Turn 8971: Moved from (15, 24) to (20, 21) via row 21 lawn (8 steps used, 492 remaining). Currently advancing north along col 20.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
-- Route:
-  1. Center Area: (14, 25) -> north through tree gap (23, 15) -> east exit to Area 1 (0, 23) (~27 steps).
-  2. Area 1: (0, 23) -> lower plateau (20, 21)->(12, 21) -> north bridge (12, 7)->(12, 6) -> canopy corridor (20, 3)->(6, 3) -> Area 2 gate (0, 5) (~70 steps).
-  3. Area 2: (39, 31) -> southern corridor to (22, 29) -> western plateau (22, 23)->(16, 28) -> west to gate (8, 35) -> Area 3 entrance (26, 0) (~55 steps).
-  Total to Area 3: ~152 steps. Remaining in Area 3: ~348 steps!
-- Area 3 Objectives:
-  1. Test Ground Bypass at Rows 0..3: From (26, 0), test walking west directly along rows 0..3 toward Northwest Sector.
-  2. If blocked, test Row 14 Ground Bypass or Plateau Descent near Rest House 4 (11, 11).
-  3. Enter Secret House, speak to attendant, receive HM03 Surf!
+- Route to Area 3: Follow Phase 1 fast path (~152 steps total; Center Area ~27, Area 1 ~70, Area 2 ~55). Projected steps upon entering Area 3: ~348 steps.
+- Area 3 Objectives & Elevation Constraints:
+  - Note: Tree at (24..25, 0..1) blocks row 0..1 northern perimeter. Col 17 has solid cliff face across rows 6..14.
+  1. Test Northern Lawn Passages (Rows 2..5): From (26, 0), test bypass south of row 0..1 tree into northern lawn corridor.
+  2. Test Row 14 Ground Bypass: South of pond, test row 14 lawn corridor running east toward Rest House 4 / Northwest Lawn.
+  3. Plateau Approach: Traversal across plateau network to staircase descent near Rest House 4.
+  4. Enter Secret House, speak to attendant, receive HM03 Surf!
