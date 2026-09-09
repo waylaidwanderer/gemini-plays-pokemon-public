@@ -2966,10 +2966,11 @@
 - 1F (3, 11) <-> 2F (3, 11): Western elevated ridge connection into the full 2F maze.
 
 ## Items (1F)
-- Pok�ball item at (19, 3) on northern ledge [UNCOLLECTED - visible on screen].
+- Pok�ball item at (19, 3) on northern ledge [Collected Turn 39884].
 - Pok�ball item at (7, 13) in southwest cavern [Collected Turn 39562].
 - Pok�ball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
 - Pok�ball item at (4, 15) in southwest cavern [Collected Turn 39538].
+- All 1F overworld items collected!
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
