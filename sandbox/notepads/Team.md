@@ -12,7 +12,7 @@
    - Moves: Karate Chop, Strength
    - Role: Strength utility (Slot 2)
 3. TERRA (Geodude) - Lv 24
-   - Stats: Max HP 60 (HP: 60/60)
+   - Stats: Max HP 60 (HP: 0/60 [Fainted])
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Dig / Selfdestruct combat backup (Slot 3)
