@@ -2664,6 +2664,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9388: Stepped Left to (9, 14) and Up to (9, 10) (5 steps). Total steps used: 80 (420 remaining).
 - Turn 9394: Ascended North Plateau Bridge at (12, 7) to (12, 6) (7 steps). Total steps used: 87 (413 remaining).
 - Turn 9396: Crossed bridge east and descended staircase at (17, 7) to East Lawn at (17, 8) (7 steps). Total steps used: 94 (406 remaining).
+- Turn 9400: Walked to (20, 8) (3 steps) and breached north along col 20 canopy corridor to (20, 3) (5 steps, wild Parasect encounter). Total steps used: 102 (398 remaining).
 
 - Phase 2: Area 1 (~75 steps):
   - Enter at (0, 23). Follow southern corridor (row 24) east to (17, 24) (18 steps used).
