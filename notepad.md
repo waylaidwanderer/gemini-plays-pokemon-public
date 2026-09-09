@@ -2631,5 +2631,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8839: Ascending southern plateau staircase at (6, 19) to (6, 18) (~168 steps remaining).
 - Turn 8841: Walking east along row 17 to (11, 17) (~162 steps remaining).
 - Turn 8843: Walking east along row 17 to (16, 17) (~157 steps remaining).
+- Turn 8845: Walking north along col 16 ridge to (16, 11) (~151 steps remaining).
 
 <hr>
