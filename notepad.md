@@ -2664,13 +2664,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 9 Step Ledger
 - Status: Active Session 9 (Area 1 Traversal)
-- Current Position: Safari Zone Area 1 at (0, 22) [Turn 9846]
+- Current Position: Safari Zone Area 1 at (3, 24) [Turn 9847]
 - Wallet Balance: �70368 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 30 steps (4 Turn 9835, 5 Turn 9836, 5 Turn 9837, 4 Turn 9839, 5 Turn 9843, 5 Turn 9844, 2 Turn 9845)
-- Steps Remaining: 470 / 500 steps
-- Center Area Traversal: Concluded in 30 steps (5 steps under ~35 step budget!).
-- Immediate Route Plan: Southern corridor row 24 to (17, 24), South Plateau bridge to (12, 22), pond bypass north to bridge at (12, 7), canopy corridor to (0, 4..5) into Area 2. Area 1 step budget: ~90 steps.
+- Steps Expended: 35 steps (4 Turn 9835, 5 Turn 9836, 5 Turn 9837, 4 Turn 9839, 5 Turn 9843, 5 Turn 9844, 2 Turn 9845, 5 Turn 9846)
+- Steps Remaining: 465 / 500 steps
+- Current Event: Advancing along southern corridor row 24 at (3, 24) [Turn 9847]
+- Immediate Route Plan: Continue East along row 24 to (17, 24) (14 steps remaining along row 24), step up to (17, 22), ascend South Plateau stairs at (20, 21). Area 1 step budget: ~90 steps.
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
