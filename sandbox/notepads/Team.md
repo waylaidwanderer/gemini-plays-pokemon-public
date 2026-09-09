@@ -32,12 +32,12 @@
    - Moves: PoisonPowder (35/35), Rest (10/10), Wrap (20/20), Cut (30/30)
    - Role: Wrap utility (Slot 6)
 
-## Verified Bag Inventory (Turn 39819 Empirical Audit)
+## Verified Bag Inventory (Turn 40060 Empirical Audit)
 - Slot 1: BICYCLE
 - Slot 2: HM03 (Surf)
 - Slot 3: HM04 (Strength)
 - Slot 4: TM14 x1 (Blizzard - Cerulean Cave 2F (4, 15))
-- Slot 5: TM22 x1 (SolarBeam - Pok�mon Mansion)
+- Slot 5: TM22 x1 (SolarBeam - Pokémon Mansion)
 - Slot 6: SECRET KEY
 - Slot 7: TM27 x1 (Fissure - Viridian Gym Giovanni)
 - Slot 8: TM47 x1 (Explosion - Victory Road)
@@ -45,12 +45,13 @@
 - Slot 10: GUARD SPEC. x1
 - Slot 11: POTION x1
 - Slot 12: TM05 x1 (Mega Kick)
-- Slot 13: POK� BALL x1
+- Slot 13: POKÉ BALL x1
 - Slot 14: PP UP x1
 - Slot 15: FULL RESTORE x2
 - Slot 16: NUGGET x1
 - Slot 17: ULTRA BALL x1
-- Bag capacity: 17/20 slots used (3 free slots).
+- Slot 18: MASTER BALL x1 (Withdrawn from PC Turn 40058)
+- Bag capacity: 18/20 slots used (2 free slots).
 
 ## PC Item Storage Notes
-- Master Ball, Pok� Flute, Silph Scope, Good Rod, Helix Fossil stored in PC Storage.
+- Poké Flute, Silph Scope, Good Rod, Helix Fossil, TMs stored in PC Storage.
