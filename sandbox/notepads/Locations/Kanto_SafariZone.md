@@ -11,7 +11,7 @@
 
 ## Center Area
 - Signpost at (14, 22): 'TRAINER TIPS / Press the START / Button to check / remaining time!' [Verified Turn 7864].
-- Tree Gap at (23, 15): Confirmed walkable tile through eastern tree wall [Verified Turn 7890].
+- Tree Gap at (23..25, 15): Confirmed walkable passage through eastern tree wall at row 15 [Verified Turns 7890, 8976, 8978].
 - Row 9 Bush Collision at (22, 9): Tested Turn 7767; solid impassable collision.
 - Map Size: 30x30.
 - South Exit: Stepping Down from row 25 fence opening (14..15, 25) into row 26 triggers warp to Safari Zone Gatehouse at (4, 0) [Verified Turn 7785].
