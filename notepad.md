@@ -2670,10 +2670,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (18, 31) -> (22, 27): 8 steps [Turn 9514]
   - (22, 27) -> (22, 22): 5 steps (Ascend Western Plateau) [Turn 9518]
   - (22, 22) -> (17, 22): 5 steps [Turn 9521]
-  - Total Area 2 Steps so far: 153 steps
-- Cumulative Steps Used: 278 steps [Turn 9521]
-- Steps Remaining: 222 / 500 steps
-- Current Position: (17, 22) facing Left on Western Plateau elevated floor
+  - (17, 22) -> (16, 28): 7 steps (Descend Western Plateau to West Lawn) [Turn 9524]
+  - Total Area 2 Steps so far: 160 steps
+- Cumulative Steps Used: 285 steps [Turn 9524]
+- Steps Remaining: 215 / 500 steps
+- Current Position: (16, 28) facing Down on West Lawn corridor
 
 ## Breakthrough Route Verification: The True Area 2 -> Area 3 Route
 - Entry to Area 2 from Area 1 is at (39, 30..31) on Southern Corridor (rows 28..33).
