@@ -2965,6 +2965,10 @@
 - Ultra Ball at (27, 15) - Collected.
 - Nugget at (29, 9) - Collected.
 - Max Potion at (1, 1) - Collected.
+## Verified Physical Canal Boundaries & Barriers (1F)
+- Northern Canal: Blocked west at (13, 4) by solid rock wall; turns south along Column 14 to Row 6 canal (10..15, 6..7).
+- Western Canal Barrier: Column 7 (7, 10..16) is a continuous solid rock barrier separating the Column 8-9 vertical canal from the 1F western ridge.
+- NW Terrace (Ladder E at (7, 1)): One-way ledge hop-down at (15, 3) into northern canal; does NOT provide two-way land access to the western ridge.
 
 <hr>
 
