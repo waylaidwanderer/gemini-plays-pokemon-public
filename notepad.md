@@ -2963,6 +2963,7 @@
 - Parasect (Bug/Grass)
 - Golbat (Poison/Flying)
 - Magneton (Electric)
+- Marowak (Ground)
 
 <hr>
 
