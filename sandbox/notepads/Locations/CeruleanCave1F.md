@@ -12,8 +12,8 @@
   - Ladder C: (18, 9) <-> 2F (19, 7) [Central platform transit hub; requires navigating southern canal / water cove].
   - Ladder D: (27, 1) <-> 2F (29, 1) [NE Landing, accessible via shore ramp at (23, 3); isolated 2F landing for PP Up].
   - Ladder E: (7, 1) <-> 2F (9, 1) [Isolated NW terrace with one-way ledge jump down at (15, 3)].
-  - Ladder A1 (Hypothesized NW Ladder): (1, 3) <-> 2F (1, 3) [Accessible via Northern Grand Highway on 2F].
-  - Ladder A2 (Hypothesized B1F Route): (3, 11) <-> 2F (3, 11) [Western Ridge - accessible via 2F Western Highway (Column 1)].
+  - Ladder A1: (1, 3) [NW Sector - observed on 2F; connectivity pending exploration].
+  - Ladder A2: (3, 11) [Western Ridge - observed on 2F; connectivity pending exploration].
 
 ## Main Canal Network (1F)
 - Eastern canal (verified): (25, 17) -> (25, 11) -> (21, 11) -> (21, 7). Connects to shore ramps at (25, 9) and (23, 3).
