@@ -2983,6 +2983,7 @@
   - Column 13 North-South transit: (13, 1..8) connects Row 1 to Row 8.
   - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
   - Eastern Sector Access: Accessible via Ladder D at (29, 1) and connecting south along Column 29 and (27, 6)-(25, 7) corridor to Row 9.
+  - Verified South Thoroughfare: From (25..27, 9) -> south along Column 27 (rows 10-17) -> Row 17 corridor (cols 27 to 21) -> north along Column 17 to central/western maze. Connects NE sector to Ladder A2 at (3, 11).
 
 ## Verified Items (2F)
 - Item Pokéball at (29, 9) collected (PP Up).
@@ -2991,8 +2992,6 @@
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
-- Verified South Thoroughfare: From (25..27, 9) -> south along Column 27 (rows 10-17) -> Row 17 corridor (cols 27 to 21) -> north along Column 17 to central/western maze. Connects NE sector to Ladder A2 at (3, 11).
-
 
 <hr>
 
