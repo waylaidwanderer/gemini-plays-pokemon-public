@@ -26,8 +26,8 @@
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Eastern Plateau Progression)
-- Current Position: Safari Zone Area 2 at (34, 16) [Turn 10100]
-- Steps Remaining: ~104 / 500 steps
+- Current Position: Safari Zone Area 2 at (25, 15) [Turn 10101]
+- Steps Remaining: ~94 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
