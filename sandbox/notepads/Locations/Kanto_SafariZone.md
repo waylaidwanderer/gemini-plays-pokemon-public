@@ -76,3 +76,4 @@
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
 
 - Northern Plateau Overlook (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804. No staircase down to northwest lawn from here; scenic overlook above Rest House 4.
+- Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.

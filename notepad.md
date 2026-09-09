@@ -2603,6 +2603,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544]. Confirms eastern connection from southern Area 3 directly to Center Area.
 
 - Northern Plateau Overlook (Cols 11..16 Rows 6..8): Impassable cliff at (10, 8) verified Turn 8804. No staircase down to northwest lawn from here; scenic overlook above Rest House 4.
+- Western Corridor: Column 1 is a continuous clear lawn corridor (rows 16..23) bounded by tree wall at col 0. At rows 14..15, open lawn extends across cols 2..6 south of the water pond.
 
 <hr>
 
@@ -2623,5 +2624,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8814: Reached (10, 17) (199 steps remaining). Sighted staircase at (6, 19). Advancing west along row 17 to (6, 17).
 - Turn 8815: Descending staircase at (6, 19) into (6, 20) and heading west along row 20 toward col 2 western corridor (~190 steps remaining).
 - Turn 8817: Moving west across row 20 to col 1 clear lawn corridor at (1, 20), then north along col 1 to (1, 17) (~184 steps remaining).
+- Turn 8819: Bypassing tree at (1, 15) via col 2 and advancing north to (2, 14) (~180 steps remaining).
 
 <hr>
