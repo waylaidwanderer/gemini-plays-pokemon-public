@@ -2954,6 +2954,7 @@
 ## Wild Encounters (1F)
 - Hypno (Psychic)
 - Sandslash (Ground)
+- Parasect (Bug/Grass)
 
 <hr>
 
