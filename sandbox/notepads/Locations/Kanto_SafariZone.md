@@ -37,6 +37,7 @@
 - Row 6 Bush Cut Test at (3, 6): Tested Turn 9260 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Permeable Canopy Gap at (20, 6): Empirically verified fully walkable northward on Turn 9277, breaching Row 6 hedge barrier into (20, 5) lawn!
 - Permeable Canopy Gap at (20, 4): Empirically verified fully walkable northward on Turn 9278! Column 20 is a continuous permeable canopy corridor!
+- Permeable Canopy Gap at (20, 3): Empirically verified fully walkable northward on Turn 9279! Column 20 completely connects row 7 lawn to northern corridor lawn at (20, 2)!
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
 - Row 6 Bush Collisions at (8, 6) and (9, 6): Tested Turns 9147, 9149; solid impassable bush hedge.
