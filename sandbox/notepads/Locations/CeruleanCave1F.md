@@ -35,3 +35,4 @@
 - Sandslash (Ground)
 - Parasect (Bug/Grass)
 - Golbat (Poison/Flying)
+- Magneton (Electric)
