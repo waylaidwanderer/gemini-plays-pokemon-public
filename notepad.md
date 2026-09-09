@@ -2951,9 +2951,9 @@
   - Ladder E: (7, 1) <-> 2F (9, 1) [Isolated NW terrace with one-way ledge jump down at (15, 3)].
 
 ## Main Canal Network (1F)
-- Eastern canal: (25, 17) -> (25, 11) -> (21, 11) -> (21, 7).
-- Northern/Western canal: (21, 7) -> (17, 7) -> (17, 3) -> (13, 3) -> (7, 3) -> (3, 3) -> (1, 3) [Ladder A1].
-- Southern canal: Column 9 (rows 7-15) leading to southern boundary.
+- Eastern canal (verified): (25, 17) -> (25, 11) -> (21, 11) -> (21, 7). Connects to shore ramps at (25, 9) and (23, 3).
+- Northern canal (partially verified): Accessible from (21, 7) heading west along Row 7 to Column 14/17; Col 14 North blocked at (14, 3); Col 20 North blocked at (20, 13). Full water route to Ladder A1 at (1, 3) requires further empirical verification.
+- Southern canal (verified): Column 9 (rows 7-15) leading to southern boundary.
 
 ## Verified Items (1F)
 - Rare Candy at (16, 7) - Collected.
