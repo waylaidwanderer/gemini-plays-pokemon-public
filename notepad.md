@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Room 3 Cleared (Agatha Defeated!); Advancing to Room 4 (Lance); HYDROS Lv 86 at 32/296 HP
+- League Status: Room 4 Active (Lance - Gyarados Lv 58 in Yellow HP); HYDROS Lv 87 Fainted; ATLAS Lv 18 Active
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 87
-   - Stats: Max HP 300 (HP: 36/300 - Revived & Leveled), Attack 214, Defense 236, Speed 217, Special 225
+   - Stats: Max HP 300 (HP: 0/300 - Fainted to Recoil), Attack 214, Defense 236, Speed 217, Special 225
    - Type: Water
-   - Moves: Double-Edge (12/15), Ice Beam (4/10), Bite (22/25), Surf (4/15)
+   - Moves: Double-Edge (11/15), Ice Beam (4/10), Bite (22/25), Surf (4/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
