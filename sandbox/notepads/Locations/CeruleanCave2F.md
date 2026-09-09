@@ -10,3 +10,6 @@
 - Ladder at (29, 1) provides access to the extensive 2F maze network.
 - Corridor wraps north through (29, 0) -> (27, 0) and south along column 27 into western branching paths at row 4 (cols 25-27).
 - Goal on 2F: Navigate the maze to find items and locate the descending ladder to B1F (where Mewtwo resides).
+
+## Wild Encounters (2F)
+- Ditto (Normal)
