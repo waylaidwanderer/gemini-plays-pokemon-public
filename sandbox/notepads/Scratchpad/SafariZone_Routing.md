@@ -38,7 +38,7 @@
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8971: Moved from (15, 24) to (20, 21) via row 21 lawn (8 steps used, 492 remaining). Currently advancing north along col 20.
+- Turn 8974: At (20, 16) (13 steps used, 487 remaining). Advancing east through tree gap at (23, 15) toward Area 1 exit.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
