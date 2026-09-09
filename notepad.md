@@ -2633,6 +2633,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Southern Bush Enclosures: Column 18 has solid bush wall at rows 20..23. Row 24 has continuous solid bush hedge across cols 2..9 and bushes at (16..17, 24), enclosing the row 24 lawn bypass (cols 10..15). Row 25 has solid bushes at cols 10..15 and 18..21.
 - Column 24 Bush Hedge Collision at (24, 4): Bumping Left from (25, 4) into (24, 4) confirmed impassable solid bush hedge (Turn 8886).
 - Row 24 Lawn Bypass: Clear lawn along row 24 (cols 10..15) flanked by row 24 bushes at (7..9, 24) and (16, 24), and row 25 bushes at (10..15, 25). Bypasses row 23 tall grass (cols 13..14) without wild encounters [Verified Turn 8916].
+- Area 2 Central Barrier & Corridors (Turns 9460-9485): Column 16 dense bush wall spans rows 12..19. Western Plateau spans cols 15..22 rows 20..22 with south-facing wooden staircase at (22, 23). Bushes fill cols 22..24 rows 24..27 and (25, 25..27). Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff. Row 11 statue line spans cols 18..26; cols 27..35 are open lawn leading north into rows 0..10 (Northern Corridor).
 
 <hr>
 
