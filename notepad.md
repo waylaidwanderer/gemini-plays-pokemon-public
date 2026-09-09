@@ -2601,7 +2601,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
   - Obstacle at (16, 16) [Verified Turn 8637].
-  - Cliff collision at (26, 24) [Verified Turn 8644].
+  - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
   - Bushes fill cols 22..24 rows 24..27 and (25, 25..27).
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
