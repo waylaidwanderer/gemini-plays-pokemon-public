@@ -43,14 +43,13 @@
   - Aerodactyl Lv 60: Ice Beam (Slot 2: A) [Ice Beam PP: 3 -> 2/10, 2x SE OHKO, 0 recoil]
   - Dragonite Lv 62: Ice Beam (Slot 2: A) [Ice Beam PP: 2 -> 1/10, 4x SE OHKO, 0 recoil]
 
-- Champion Chamber (Champion RED - Guaranteed Sweep!):
-  - Pidgeot Lv 61: Ice Beam (Slot 2: Down 1, A) [Ice Beam PP: 1 -> 0/10, 2x SE OHKO, 0 recoil]
-  - Alakazam Lv 59: Double-Edge (Slot 1: Up 1, A) [DE PP: 10 -> 9/15, OHKO vs 75 Def, ~36 recoil -> HYDROS at ~124 HP]
-  - Rhydon Lv 61: STAB Surf (Slot 4: Down 3, A) [Surf PP: 4 -> 3/15, 4x SE OHKO vs 78 Spc, ZERO recoil! HYDROS at ~124 HP!]
-  - Gyarados Lv 63: Double-Edge (Slot 1: Up 3, A) x2 [DE PP: 9 -> 7/15, 2HKO vs 111 Def, ~40 recoil -> HYDROS at ~84 HP! Gyarados FAINTS]
-  - Arcanine Lv 63: STAB Surf (Slot 4: Down 3, A) [Surf PP: 3 -> 2/15, 2x SE OHKO vs 123 Spc, ZERO recoil! HYDROS at ~84 HP!]
-  - Venusaur Lv 65: Double-Edge (Slot 1: Up 3, A) x2 [DE PP: 7 -> 5/15, 2HKO vs 126 Def] -> Venusaur FAINTS!
-  -> Champion RED Defeated with 50+ HP to spare! Enter Hall of Fame!
+- Champion Chamber (Champion RED Matchup Notes):
+  - Pidgeot Lv 61: Ice Beam / Surf (Defeated Turn 38953)
+  - Alakazam Lv 59: Bite (Defeated Turn 38968)
+  - Rhydon Lv 61: STAB Surf (Defeated Turn 38976)
+  - Gyarados Lv 61: Active. Moves: Hydro Pump, Hyper Beam, Dragon Rage, Leer.
+  - Arcanine Lv 63: Fire type.
+  - Venusaur Lv 65: Grass/Poison type.
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Entrance from Route 23 exterior: (7..8, 11) (Red carpet mat)
