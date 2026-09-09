@@ -9,6 +9,7 @@
 - (14, 15) - Solid rock wall
 - (27, 15) - Solid rock wall
 - (27, 18) - Solid rock wall
+- (20, 17) - Solid rock wall
 - (25, 10..15) - Solid rock vertical boundary
 - (15, 13) - Dead-end wall
 - (14, 14..16) - Solid rock wall
