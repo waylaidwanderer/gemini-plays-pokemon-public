@@ -84,3 +84,4 @@
 - Sector SW Inventory: Rows 19..23 cols 0..6 contains no buildings or Secret House. Southern boundary is tree at (0..1, 24..25) and bush hedge at row 24.
 - Southern Boundary Hedge at (2, 24): Bumping Down from (2, 23) into (2, 24) confirmed impassable solid bush hedge (Turn 8905).
 - Column 24 Bush Hedge Collision at (24, 4): Bumping Left from (25, 4) into (24, 4) confirmed impassable solid bush hedge (Turn 8886).
+- Row 24 Lawn Bypass: Clear lawn along row 24 (cols 10..15) flanked by row 24 bushes at (7..9, 24) and (16, 24), and row 25 bushes at (10..15, 25). Bypasses row 23 tall grass (cols 13..14) without wild encounters [Verified Turn 8916].
