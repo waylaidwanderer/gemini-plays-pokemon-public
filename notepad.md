@@ -3001,23 +3001,21 @@
 
 <h1><code>Scratchpad/CeruleanCave2F_Frontier.md</code></h1>
 
-# Cerulean Cave 2F Exploration Frontier & Junction Graph
+# Cerulean Cave Frontier & Junction Tracking
 
-## Verified Junctions & Corridors
-- **Junction J1 (NW Entry)**: (1, 3) <-> Ladder to 1F (1, 3). Connects south along Col 1/3 to J2.
-- **Junction J2 (West Entry)**: (3, 11) <-> Ladder to 1F (3, 11).
-  - Branch J2-North: (3, 9) -> East along Row 9 to J3 (13, 9).
-  - Branch J2-South: (1..7, 11..19) -> Southwest cavern with TM14 Blizzard at (4, 15) [Explored & Collected].
-- **Junction J3 (Center Grid)**: (12..13, 9).
-  - Branch J3-East: Bypasses rock at (14, 9) via (13, 8)-(15, 8) to Row 9 East (15..21, 9) [Dead-end wall at (22, 9)].
-  - Branch J3-South: Column 12 corridor (12, 10..15).
-  - Branch J3-North: Column 13 / Column 12 leading towards Row 5 North Corridor.
-- **Junction J4 (South Corridor)**: (12, 15) <-> (13, 15) -> (13, 17).
-  - Branch J4-East: (13..19, 17) [Dead-end at (19, 17) verified Turn 39933].
-  - Branch J4-West: (10..8, 14..17) Southwest quadrant connection.
-- **Unexplored Frontier**:
-  - Frontier F1: Row 5 North Highway (cols 13-24) -> descent to eastern Column 23-29 sector.
-  - Frontier F2: Column 23-29 Southeast sector (rows 11-19, ladders/alcoves).
+## Current Hypotheses & Active Frontiers
+- **Ladder E Disproven**: Ladder E at 2F (9, 1) -> 1F (7, 1) leads strictly to an isolated terrace with a one-way ledge jump at (15, 3) into the canal. It contains NO ladder to B1F (verified Turn 40215-40223).
+- **Frontier F1 - Ladder D (NE Sector)**:
+  - 2F (29, 1) <-> 1F (27, 1). Unexplored landing. Primary candidate for B1F progression.
+- **Frontier F2 - Ladder C / Central Transit**:
+  - 2F (19, 7) <-> 1F (18, 9). Connects to central elevated hub on 1F.
+- **Frontier F3 - 2F Eastern / Southern Maze**:
+  - Columns 23-29, Rows 1-19.
+
+## Next Steps
+1. Escape Rhydon battle at (23, 9).
+2. Navigate north from (23, 7) / (23, 9) towards Row 1 NE corridor.
+3. Reach Ladder D at (29, 1) and descend to explore 1F (27, 1) landing.
 
 <hr>
 
