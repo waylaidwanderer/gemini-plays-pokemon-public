@@ -34,7 +34,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥71368 [Turn 8963, Paid ¥500 Safari Zone admission Session 7]
+- ¥70868 [Turn 9340, Paid ¥500 Safari Zone admission Session 8]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
