@@ -89,15 +89,7 @@
 
 ### Team Rocket Encounter (Backyard Courtyard)
 
-- Team Rocket Grunt: Located at (30, 8) in the backyard [Defeated Turn 1820].
-
-  - Team: Machop Lv 17, Drowzee Lv 17.
-
-  - Reward: TM28 (Dig).
-
-  - Pre-battle dialogue: "It's not your yard! Huh? Me? I'm an innocent bystander! Don't you believe me?"
-
-  - Defeat quote: "Stop! I give up! I'll leave quietly!"
+- Team Rocket Grunt: Located at (30, 8) in the backyard [Defeated Turn 1820; TM28 Dig obtained].
 
 
 
