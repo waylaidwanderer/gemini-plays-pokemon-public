@@ -24,5 +24,4 @@
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
-- Verified Route from Ladder D (29, 1) to Row 6: (29, 1) -> (27, 1..2) -> (28, 2..3) -> (29, 3..6) -> (28..24, 6).
 - Collisions: (27, 3) is solid rock, (26, 2) is solid rock, (28, 4..5) is solid rock.
