@@ -2982,15 +2982,17 @@
 
 ## Verified Physical Boundaries & Corridors (2F)
 - Solid Rock Collisions verified: (22, 5), (21, 6), (23, 6), (15, 14), (14, 14..16), (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 14), (21, 14), (16, 11), (16, 13), (18, 12), (19, 12), (20, 12), (21, 12), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
-- Open Thoroughfares:
-  - Row 1 North Bypass: (1..18, 1) connects Column 1 to Column 13.
-  - Column 13 North-South transit: (13, 1..8) connects Row 1 to Row 8.
-  - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
-  - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
-  - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
-  - Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) bypasses (21, 14) and (22, 16) rocks down to Row 17.
-  - Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
-  - Column 1 Western Grand Highway: (1, 1..11) connects Row 1 North Bypass down to Ladder A2 at (3, 11).
+## Open Thoroughfares
+- **Central-to-NW S-Bypass (Verified Bidirectional)**: Connects Central Hub (19, 7) to NW Sector (18, 1..3) via (19, 7) <-> (19, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 2) <-> (20, 2) <-> (20, 3) <-> (18, 3) <-> (18, 1).
+- Row 1 North Bypass: (5..16, 1) and (18, 1).
+- Row 3 West Corridor: (3..9, 3) open continuous floor.
+- Column 13 North-South transit: (13, 1..6) connects Row 1 to Row 5/6.
+- Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
+- Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
+- Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
+- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) bypasses (21, 14) and (22, 16) rocks down to Row 17.
+- Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
+- Column 1 Western Grand Highway: (1, 1..11) connects Row 1 North Bypass down to Ladder A2 at (3, 11).
 
 ## Verified Items (2F)
 - Item Pokéball at (29, 9) collected (PP Up).
@@ -2999,10 +3001,6 @@
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
-- Row 3 West Corridor: (4..9, 3) verified open continuous floor.
-- Row 2 Rock Divider: (4..10, 2) solid rock.
-- Row 4 Rock Divider: (4..8, 4) solid rock.
-- Ladder E: (9, 1) accessible via Row 1 (8, 1).
 
 <hr>
 
