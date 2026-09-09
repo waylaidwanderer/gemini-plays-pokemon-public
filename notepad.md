@@ -2565,9 +2565,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Western Statue Collision at (0, 7): Tested Turn 9127; solid impassable statue base.
 - Western Statue Collision at (1, 6): Tested Turn 9234; solid impassable statue base.
 - Row 6 Bush Collision at (2, 6): Tested Turn 9250; solid impassable collision.
-- Row 6 Bush Cut Test at (2, 6): Tested Turn 9256 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Row 6 Bush Collision at (3, 6): Tested Turn 9259; solid impassable collision.
-- Row 6 Bush Cut Test at (3, 6): Tested Turn 9260 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Permeable Canopy Corridor (Row 3, cols 10..16): Empirically verified fully walkable westward on Turns 9287-9289, providing direct access to (8, 3) lawn!
 - Verified Area 1 Traversal Solution (Turns 9276-9296, 9358-9382): Enter Area 1 at (0, 23), follow southern corridor (row 24) east to (17, 24), step up to (17, 22), ascend South Plateau stairs at (20, 21) to (20, 20), traverse west across South Plateau elevated floor (rows 18..20) to (12, 20), descend western stairs at (12, 21) to (12, 22), walk west to cols 8..10, traverse north along cols 8..10 western bypass around central pond to row 8 west lawn (12, 8), ascend North Plateau Bridge at (12, 7) and cross east to (17, 7), descend to East Lawn at (20, 8), breach north through Column 20 permeable canopy corridor at (20, 6..3), traverse west through Row 3 canopy corridor (cols 16..10), step down at col 7 into row 5 runway, and walk west through gateway at (0, 4..5) into Area 2 at (39, 30..31)!
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
@@ -2579,7 +2577,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - North Bridge Access: North bridge staircase at (12, 7) faces south and is accessed from row 8 (12, 8); row 7 at (10..11, 7) is impassable cliff wall [Verified Turn 9029].
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
-- Row 6 Bush Cut Test at (6, 6): Tested Turn 7720 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
 - Signpost at (26, 10): 'REST HOUSE' [Read Turn 7733].
 - Rest House 2 Eastern Boundary: Columns 27..28 lawn dead-ends at row 4..5 tree line.
 - Plateau North Cliff Edge at (17, 4): Impassable solid cliff edge verified Turn 7728; rock plateau cannot be exited northward directly onto row 3 lawn.
@@ -2675,11 +2672,21 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   1. Southwest Sector: Rows 24..28 across cols 2..15 (unvisited; cols 0..6 rows 25..27 viewed from 1, 23 showed open lawn).
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
-## Session 9 Direct Traversal Strategy
-- Starting at Fuchsia Gatehouse: 500 fresh steps (¥500 paid).
-- Direct route through Areas 1 and 2 to Area 3 entrance (26, 0) consumes ~300 steps.
-- Remaining budget for Area 3: ~200 steps.
-- In Area 3: Proceed directly without looping or backtracking to inspect candidate search sectors for Secret House and claim HM03 Surf!
+## Session 9 Direct Traversal Strategy & Step Budget Ledger
+- Initial Budget: 500 steps (¥500 admission).
+- Stage 1: Gatehouse to Area 1 (Center Area traversal): ~90 steps.
+- Stage 2: Area 1 traversal (via South Plateau, Pond Bypass, North Bridge, and Row 3 Canopy Corridor to Area 2 gate): ~110 steps.
+- Stage 3: Area 2 traversal (via Eastern Plateau descent, Central Lawn, Western Plateau Bridge to Area 3 gate): ~100 steps.
+- Stage 4: Arrive in Area 3 at (26, 0) with ~200 steps remaining.
+
+## Area 3 Search Hierarchy & Hard Step Allocation
+- Target Sector 1 (Primary): Northwest Sector (cols 0..9 rows 0..9).
+  - Allocation: 140 steps maximum.
+  - Route: From (26, 0), descend East Corridor to (21, 18), cross Southern Plateau Bridge west to (6, 19), descend stairs to (6, 20), walk west to col 1 corridor (1, 20), head north along col 1 past the pond (rows 14..15) directly into the Northwest Sector (cols 0..6 rows 0..9).
+  - Landmark: The Secret House (source of HM03 Surf) and item ball at (9, 7).
+- Target Sector 2 (Secondary / Fallback): Southwest Sector (cols 0..15 rows 24..28).
+  - Allocation: Remaining ~60 steps if Northwest Sector is confirmed fully exhausted/blocked.
+  - Pivot Trigger: If Northwest corridor is completely blocked by physical barriers before row 5, immediately reverse south along col 1 to explore rows 24..28.
 
 
 <hr>
