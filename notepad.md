@@ -2600,7 +2600,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Western Plateau & Elevated Bridge (Turns 9460-9485):
   - Spans cols 14..22 rows 20..27.
   - Acts as an elevated bridge across the column 17 dense bush hedge (which spans rows 28..33 dividing the southern sector).
-  - Ascended via east staircase at (22, 23).
+  - Ascended via east staircase at (22, 23) [Empirically verified Turn 10160 via cols 22..25 tall grass corridor].
   - Descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly south to Area 3 gate at (8..9, 34..35).
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
@@ -2673,8 +2673,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 2 at (23, 29) [Turn 10159]
-- Steps Remaining: 353 / 500 steps
+- Current Position: Safari Zone Area 2 at (22, 23) [Turn 10160]
+- Steps Remaining: 346 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
