@@ -2984,8 +2984,8 @@
 - Open Thoroughfares:
   - Row 1 North Bypass: (1..18, 1) connects Column 1 to Column 13.
   - Column 13 North-South transit: (13, 1..8) connects Row 1 to Row 8.
-  - Column 23 Corridor: (23, 7..12) connects Ladder B landing at (22, 7) to Row 12 East Bypass.
-  - Eastern Sector Access Route: (23, 12) -> (26, 12) -> (26, 9) -> (25, 9..7) -> (27, 7..6) -> (28, 6..5) heading North towards Ladder D at (29, 1).
+  - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
+  - Eastern Sector Access: Accessible via Ladder D at (29, 1) and connecting south along Column 29 and (27, 6)-(25, 7) corridor to Row 9.
 
 ## Verified Items (2F)
 - Item Pokéball at (29, 9) collected (PP Up).
