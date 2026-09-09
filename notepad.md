@@ -2642,10 +2642,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session Step Tracking (Session 7 - Turn 8967)
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
-- Turn 8995: At (18, 22) (49 steps used, 451 remaining). Wild Kangaskhan (Lv 25) encountered in Area 1!
-- Turn 9001: Caught Wild Kangaskhan (MATILDA) Lv 25! Transferred to PC Box 1 (27 balls remaining).
-- Turn 9038: At (18, 4) (137 steps used, 363 remaining). Confirmed row 4 north edge is cliff. Descended via (17, 7) stairs to (20, 8).
-- Turn 9057: Confirmed (20, 6) and (20, 4) are impassable bush hedges (no canopy corridor). Routing west along row 9 lawn (bypassing tall grass at 16, 8) toward col 12 and Area 2 gate.
+- Turn 9038: At (18, 4) (137 steps used, 363 remaining). Row 4 north/east edges confirmed cliffs. Descended via (17, 7) stairs to (20, 8).
+- Turn 9064: At (17, 9) (149 steps used, 351 remaining). Rows 4..6 cols 20..22 visually appear as bush hedges. Routing west along row 9 lawn (bypassing tall grass at 16, 8) to test passage toward col 12.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
