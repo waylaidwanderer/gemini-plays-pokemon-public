@@ -2951,7 +2951,7 @@
   - Ladder A2: (3, 11) <-> 2F (3, 11) [Western Ridge].
   - Ladder B: (23, 7) <-> 2F (22, 6) [Central-East landing].
   - Ladder C: (18, 9) <-> 2F (19, 7) [Central transit hub].
-  - Ladder D: (27, 1) <-> 2F (29, 1) [Isolated NE landing - UNEXPLORED FRONTIER].
+  - Ladder D: (27, 1) <-> 2F (29, 1) [NE Landing, accessible via water canal shore ramp at (23, 3); ascends to 2F (29, 1)].
   - Ladder E: (7, 1) <-> 2F (9, 1) [Isolated NW terrace; contains NO B1F ladder; leads strictly to one-way ledge jump into canal at (15, 3)].
 
 ## Verified Items Collected (1F)
