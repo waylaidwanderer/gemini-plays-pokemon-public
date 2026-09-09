@@ -2,8 +2,8 @@
 
 ## Active Session Status
 - Session Start: Turn 9340 (¥500 paid, 30 Safari Balls, 500 step budget)
-- Current Turn: 9676
-- Current Position: (25, 5) facing Up on Eastern Corridor
+- Current Turn: 9680
+- Current Position: (26, 1) facing Up at Northern Entrance
 - Unified Step Ledger:
   - Area 1 Traversal (Gate to Area 2): 125 steps [Turn 9430]
   - Area 2 Traversal (Area 1 Gate to Area 3 Gate): 176 steps [Turn 9532]
@@ -25,8 +25,9 @@
   - Eastern Corridor Sprint North (23, 18 to 25, 15): 5 steps [Turn 9670]
   - Eastern Corridor Sprint North (25, 15 to 25, 10): 5 steps [Turn 9673]
   - Eastern Corridor Sprint North (25, 10 to 25, 5): 5 steps [Turn 9676]
-  - Cumulative Steps Used: 487 / 500 steps
-  - Steps Remaining: 13 / 500 steps
+  - Northern Entrance Sprint (25, 5 to 26, 1): 5 steps [Turn 9679]
+  - Cumulative Steps Used: 492 / 500 steps
+  - Steps Remaining: 8 / 500 steps
 
 ## Master Map & Routing Strategy (Turn 9634)
 - Northern Sector Closed (Empirically Confirmed Turn 9626):
@@ -34,3 +35,16 @@
   - Rest House 4 (cols 10..13 rows 10..11) is an enclosed cul-de-sac bounded by pond and cliff.
 - Sector Hypotheses:
   - Northwest and Southwest sectors are both candidate locations. Scouting Western Corridor to evaluate physical access to both sectors.
+
+## Northern Boundary Ground Truth (Empirically Confirmed Turn 9680)
+- Gate to Area 2: Located at (26..27, 0) between statue gateposts.
+- Flanked east and west by solid 2x2 trees across rows 0..1 (cols 22..25, 28..29).
+- No westward passage exists along row 0 or row 1 from the entrance corridor.
+- Column 24 is a continuous solid bush hedge from row 2 through row 13.
+- Access to the rest of Area 3 from the entrance corridor exists ONLY via rows 14 and 18!
+- Session 9 Direct Traversal Plan:
+  - Budget: 500 fresh steps (¥500 paid).
+  - Area 1 (Gatehouse to Area 2): ~125 steps.
+  - Area 2 (Area 1 Gate to Area 3 Gate): ~176 steps.
+  - Arrival at Area 3 Gate (26, 0): ~300 steps elapsed, ~200 steps remaining.
+  - Area 3 Execution: Direct sprint via row 18 Southern Plateau bridge to western sector without backtracking.
