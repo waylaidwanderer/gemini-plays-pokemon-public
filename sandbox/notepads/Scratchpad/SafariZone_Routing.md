@@ -27,23 +27,19 @@
   1. Southwest Sector: Rows 24..28 across cols 2..15 (unvisited; cols 0..6 rows 25..27 viewed from 1, 23 showed open lawn).
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
-## Active Session 9 Step Ledger
-- Status: Active Session 9 (Center Area Exploration / Step Depletion Preparation)
-- Current Position: Safari Zone Center Area at (25, 8) [Turn 9961]
-- Wallet Balance: ¥70368 (Admission paid)
+## Active Session 10 Step Ledger
+- Status: Active Session 10 (Area 1 Clockwise Traversal to South Plateau)
+- Current Position: Safari Zone Area 1 at (17, 24) [Turn 9980]
+- Wallet Balance: ¥69868 (Admission paid)
 - Safari Balls: 30 remaining
-- Steps Expended: 460 steps (Center Area initial: 28 steps, Area 1: 78 steps, Area 2: 304 steps, Center Area return: 50 steps)
-- Steps Remaining: 40 / 500 steps (Session 9 nearing step limit)
-- Confirmed Collisions:
-  - Area 2: (20, 20) cliff, (22, 20) cliff, (25, 23) cliff, (26, 24) cliff corner, (16, 12) bush, (16, 19) bush, (26, 28) cliff corner, (32, 12) cliff corner, (37, 11) cliff edge, (17, 32) bush hedge, (19, 33) wooden structure.
-  - Center Area: (11, 7) bush, (25, 9) bush.
-  - Map Transition: Area 2 row 36 south boundary warps directly into Center Area at (14, 0) [Verified Turn 9949].
-- Session 10 Master Route:
-  1. Enter Center Area from Gatehouse at (14..15, 25).
-  2. Walk west along row 25 to col 2 (12 steps).
-  3. Walk north along col 2 to row 11 (14 steps).
-  4. Walk west into West Exit at (0, 10..11) (2 steps).
-  5. Warp directly into Area 3 at (29, 23) in ONLY 28 STEPS, preserving 472 steps for Secret House & HM03 Surf!
+- Steps Expended: 81 steps (Center Area: 62 steps, Area 1: 19 steps)
+- Steps Remaining: 419 / 500 steps (+159 steps margin above 260-step benchmark)
+- Immediate Route Plan:
+  1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
+  2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
+  3. Area 1 Canopy Highway: Breach Col 20 canopy (20, 6..3) -> Row 3 corridor west -> runway (0, 5) into Area 2 at (39, 31).
+  4. Area 2 South Highway: Row 33 bypass to col 20 -> statue opening (20, 34) -> row 35/36 west to Area 3 gate at (8..9, 34..35).
+  5. Area 3 Arrival: Enter Area 3 at (26, 0) with ~325 steps remaining, locate Secret House, claim HM03 Surf!
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
