@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Respawned at Cinnabar Island with Full Party Restore (HYDROS Lv 87 300/300 HP, Full PP); Flying to Indigo Plateau for Final Championship Sweep
+- League Status: Challenging Pokémon League Elite Four! Room 1 (Lorelei) in progress (Dewgong, Cloyster, Slowbro, Jynx defeated; Lapras in critical HP).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
@@ -2874,11 +2874,8 @@
 - **Poké Flute in Battle**: The Bag contains the Poké Flute (infinite uses). When HYDROS is put to sleep (e.g. by Hypnosis), opening `ITEM` and selecting `POKé FLUTE` instantly awakens HYDROS on the next turn, eliminating multi-turn sleep risks and completely preventing Dream Eater attacks!
 - **Speed Dominance**: At Lv 81, HYDROS has 200 Speed, outspeeding every Pokémon across Lorelei, Bruno, Agatha, Lance, and Champion RED. Always strike first with STAB Surf, Ice Beam, or Double-Edge.
 
-## Verified PP Status (Mid-Gauntlet Room 3)
-- Double-Edge: 12/15 PP
-- Ice Beam: 6/10 PP
-- Bite: 23/25 PP
-- Surf: 4/15 PP (will be 3/15 after Agatha clear)
+## Gauntlet Progress & PP Verification Protocol
+- Track live PP after every room to adapt move selections dynamically across the gauntlet.
 
 ## Gauntlet Master PP Budget & Strategy (Rooms 1-5)
 - Entering Room 1 (Lorelei):

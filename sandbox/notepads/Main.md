@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Respawned at Cinnabar Island with Full Party Restore (HYDROS Lv 87 300/300 HP, Full PP); Flying to Indigo Plateau for Final Championship Sweep
+- League Status: Challenging Pokémon League Elite Four! Room 1 (Lorelei) in progress (Dewgong, Cloyster, Slowbro, Jynx defeated; Lapras in critical HP).
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
