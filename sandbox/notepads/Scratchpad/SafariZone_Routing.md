@@ -21,10 +21,11 @@
   - (26, 23) -> (28, 19): 6 steps [Turn 9488]
   - (28, 19) -> (29, 15): 5 steps [Turn 9491]
   - (29, 15) -> (34, 14): 8 steps (Ascend Eastern Plateau) [Turn 9494]
-  - Total Area 2 Steps so far: 96 steps
-- Cumulative Steps Used: 221 steps [Turn 9495]
-- Steps Remaining: 279 / 500 steps
-- Current Position: (34, 14) facing Up on Eastern Plateau upper floor
+  - (34, 14) -> (37, 21): 10 steps [Turn 9498]
+  - Total Area 2 Steps so far: 106 steps
+- Cumulative Steps Used: 231 steps [Turn 9498]
+- Steps Remaining: 269 / 500 steps
+- Current Position: (37, 21) facing Down on Eastern Plateau ridge
 
 ## Breakthrough Route Verification: The True Area 2 -> Area 3 Route
 - Entry to Area 2 from Area 1 is at (39, 30..31) on Southern Corridor (rows 28..33).
