@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Elite Four Lorelei (Room 1) DEFEATED! HYDROS at Lv 89 (92/308 HP). Entering Room 2 to battle Elite Four Bruno.
+- League Status: Elite Four Lorelei (Room 1) and Elite Four Bruno (Room 2) DEFEATED! HYDROS at Lv 89 (12/308 HP, Surf 13/15, Ice Beam 7/10, DE 6/15). Entering Room 3 to battle Elite Four Agatha.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
