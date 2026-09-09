@@ -31,23 +31,24 @@
   - (22, 22) -> (17, 22): 5 steps [Turn 9521]
   - (17, 22) -> (16, 28): 7 steps (Descend Western Plateau to West Lawn) [Turn 9524]
   - (16, 28) -> (12, 29): 5 steps [Turn 9527]
-  - Total Area 2 Steps so far: 165 steps
-- Cumulative Steps Used: 290 steps [Turn 9527]
-- Steps Remaining: 210 / 500 steps
-- Current Position: (12, 29) facing Left on West Lawn corridor
+  - (12, 29) -> (8, 35): 10 steps [Turn 9530]
+  - Total Area 2 Steps so far: 175 steps
+- Cumulative Steps Used: 300 steps [Turn 9530]
+- Steps Remaining: 200 / 500 steps
+- Current Position: (8, 35) facing Down at Area 3 gate
 
 ## Breakthrough Route Verification: The True Area 2 -> Area 3 Route
 - Entry to Area 2 from Area 1 is at (39, 30..31) on Southern Corridor (rows 28..33).
 - Exit from Area 2 to Area 3 is at (8..9, 34..35) on Southern Corridor.
 - Traversed Western Plateau bridge (ascend at 22, 23; descend at 16, 27) directly onto West Lawn.
-- Path from (12, 29) to Area 3 gate (8..9, 34..35) is 100% clear open lawn across rows 30..33!
+- Arrived at Area 3 gate at (8, 35) with 200 steps remaining!
 
 ## Master Execution Plan
 1. Return across Eastern Plateau: COMPLETED!
 2. Western Plateau Bridge Traversal: COMPLETED!
-3. Southern Corridor to Area 3 Gate:
-   - (12, 29) Down to (12, 30), Left 4 to (8, 30), Down 5 to (8, 35) [10 steps]
-   - Projected steps remaining entering Area 3: 200 steps!
+3. Southern Corridor to Area 3 Gate: COMPLETED!
+   - Arrived at (8, 35) at Turn 9530.
+   - Next step: Step Down into Area 3 (warp to 26, 0).
 4. Area 3 to Secret House:
    - Navigate to Secret House in Area 3 and claim HM03 Surf! (~80-100 steps budget).
    - Massive safety margin: 100+ surplus steps!
