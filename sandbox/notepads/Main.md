@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Room 4 Active (Lance - Gyarados Lv 58 in Yellow HP); HYDROS Lv 87 Fainted; ATLAS Lv 18 Active
+- League Status: Respawned at Cinnabar Island with Full Party Restore (HYDROS Lv 87 300/300 HP, Full PP); Flying to Indigo Plateau for Final Championship Sweep
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
