@@ -34,11 +34,12 @@
   - (12, 29) -> (8, 35): 10 steps [Turn 9530]
   - (8, 35) -> Area 3 Gate: 1 step [Turn 9532]
   - Area 3 Entrance (26, 0) -> (27, 5): 6 steps [Turn 9536]
+  - (27, 5) -> (27, 11): 6 steps [Turn 9537]
   - Total Area 2 Steps: 176 steps
-  - Total Area 3 Steps so far: 6 steps
-- Cumulative Steps Used: 307 steps [Turn 9536]
-- Steps Remaining: 193 / 500 steps
-- Current Position: (27, 5) facing Down on Area 3 East Corridor
+  - Total Area 3 Steps so far: 12 steps
+- Cumulative Steps Used: 313 steps [Turn 9537]
+- Steps Remaining: 187 / 500 steps
+- Current Position: (27, 11) facing Down on Area 3 East Corridor
 
 ## Area 3 Secret House Mission Plan
 - Objective: Locate Secret House and obtain HM03 Surf!
