@@ -17,10 +17,15 @@
 - Turn 9358: Entered Area 1 at (0, 23) (472 steps remaining).
 - Turn 9359: Moved Down to (0, 24) and Right to (5, 24) (6 steps used, 466 steps remaining).
 - Turns 9364-9367: Moved Right to (10, 24) (5 steps) and Right to (17, 24) (7 steps, wild Exeggcute encounter). Total steps used: 46 (454 remaining).
+- Turn 9373: Moved Up to (17, 23) and Up to (17, 22) (2 steps used, 48 total, 452 remaining). Confirmed (16, 22) bush collision.
 
 - Phase 2: Area 1 (~75 steps):
-  - Enter at (0, 23). Follow southern corridor (row 24) east to (8, 24) / (9, 24) (9 steps).
-  - Traverse north along cols 8..10 western bypass around central pond to row 8 west lawn at (12, 8) (~16 steps).
+  - Enter at (0, 23). Follow southern corridor (row 24) east to (17, 24) (18 steps used).
+  - Step Up to (17, 22) (2 steps). (Note: (16, 22) is solid bush).
+  - Walk Right to (20, 22) (3 steps), ascend South Plateau stairs at (20, 21) to (20, 20) (2 steps).
+  - Walk West across elevated plateau (row 20) from (20, 20) to (12, 20) (8 steps).
+  - Descend South Plateau stairs at (12, 21) to (12, 22) (2 steps).
+  - Walk West along row 22 to cols 8..10, then North along cols 8..10 western bypass around central pond to row 8 west lawn at (12, 8) (~16 steps).
   - Ascend North Plateau Bridge at (12, 7) and cross east to (17, 7) stairs (6 steps).
   - Descend to East Lawn at (20, 8) (4 steps).
   - Breach north through permeable canopy at col 20: (20, 7..2) (6 steps).
