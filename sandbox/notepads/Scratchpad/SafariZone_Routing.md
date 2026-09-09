@@ -36,4 +36,4 @@
 4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
 5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
 
-- Turn 8941: At (15, 24) on row 24 lawn (~21 steps remaining in Session 6). Navigating west toward cols 5..6 to test southern access to rows 25..28 before session expires.
+- Turn 8951: At (3, 23) on clear lawn (~8 steps remaining in Session 6). Confirmed row 24 bush hedge spans cols 2..9, completely sealing southern access from row 23. Session 6 expiring.
