@@ -2640,49 +2640,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ### Phase 4: Area 3 (Secret House - HM03 Surf)
 1. Enter Area 3 at (26, 0) from Area 2.
-2. Follow east path south to plateau bridge (21, 17), cross west to (10, 16), descend stairs at (6, 19).
-3. From western corridor at (1, 16), follow western boundary north to row 7.
-4. Turn east from (1, 7) to the Secret House entrance at (3, 7).
-5. Enter Secret House and speak to attendant to receive HM03 (Surf)!
+2. Read signpost at (26, 4) to verify area directions and clues.
+3. Locate and enter Secret House to receive HM03 (Surf).
 
 ## Active Session Step Tracking (Session 4 - Turn 8345)
-- Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
-- Turn 8350: Traversed Center Area to (28, 15), crossed tree gap (23..27, 15).
-- Turn 8351: Entered Area 1 at (0, 23) (471 steps remaining, 29 steps used).
-- Turn 8356: Reached (17, 23) hedge opening; confirmed (16, 22) is solid bush blocking direct ground path.
-- Turn 8358: Ascended south plateau staircase at (20, 21) (452 steps remaining, 48 steps used).
-- Turn 8360: Descended western staircase at (12, 21) to (12, 22) (442 steps remaining, 58 steps used).
-- Turn 8364: Reached northern bridge base at (12, 8) (421 steps remaining, 79 steps used).
-- Turn 8365: Crossed bridge to (17, 6), descended staircase to (17, 8) (414 steps remaining, 86 steps used).
-- Turn 8369: Reached row 3 northern highway, turned down to row 5 corridor at (7, 5) (387 steps remaining, 113 steps used).
-- Turn 8375: Entered Area 2 at (39, 31) (384 steps remaining, 116 steps used).
-- Turn 8384: Wild Chansey (LUCKY) caught at (22, 29) at 0 step cost (365 steps remaining, 135 steps used).
-- Turn 8392: Ascended western plateau staircase at (22, 23) (360 steps remaining, 140 steps used).
-- Turn 8395: Descended staircase at (16, 27) to ground lawn at (16, 28) (345 steps remaining, 155 steps used).
-- Turn 8401: Reached (8, 34) at southern statue opening (330 steps remaining, 170 steps used).
-- Turn 8403: Stepped into (8, 35) south gate, warped into Area 3 at (26, 0) (328 steps remaining, 172 steps used).
-- Turn 8406: Traversed south along col 25 corridor to (25, 7) (320 steps remaining, 180 steps used).
-- Turn 8408: Reached (25, 12) where col 24 bush wall ends (315 steps remaining, 185 steps used).
-- Turn 8410: Interacted with item ball at (18, 18) (306 steps remaining, 194 steps used).
-- Turn 8411: Ascended plateau bridge at (21, 17) to cross col 17 cliff barrier (303 steps remaining, 197 steps used).
-- Turn 8414: Crossed plateau bridge west to (10, 16) (288 steps remaining, 212 steps used).
-- Turn 8417: Descended staircase at (6, 19) to ground tall grass at (6, 20) (278 steps remaining, 222 steps used).
-- Turn 8418: Reached western boundary at (1, 20) (273 steps remaining, 227 steps used).
-- Turn 8419: Bypassed tree at (1, 15), reached (1, 16) (269 steps remaining, 231 steps used).
-- Turn 8421: Reached building at (11, 14) (258 steps remaining, 242 steps used).
-- Turn 8422: Entered building at (11, 11), identified as Rest House 4 (not Secret House).
-- Turn 8429: Exited Rest House 4 back into Area 3 at (11, 12) (258 steps remaining). Now heading to northwest quadrant.
-
-- Turn 8446: Position (1, 23). Row 24 bush line opens at (10, 24) into southern plaza.
-- Turn 8447: Position (5, 23) tall grass encounter with Doduo (238 steps remaining, 262 steps used). Fled battle.
-- Turn 8453: Reached (10, 24) bush opening (232 steps remaining, 268 steps used).
-- Turn 8457: Walked east along row 24 lawn to (15, 24) (227 steps remaining, 273 steps used).
-- Turn 8461: Position (15, 24). Scouting southern plaza (rows 26-28) and eastern sector.
-- Turn 8463: Confirmed row 25 is impassable bush wall. Row 24 dead-ends at (15, 24).
-- Turn 8466: Backtracked west along row 24 lawn to (10, 24) (222 steps remaining, 278 steps used).
-- Turn 8472: Reached (2, 14) at pond south bank. Pond spans cols 2-8, rows 10-13.
-- Turn 8474: Reached (13, 14) east of Rest House 4.
-- Turn 8476: Empirically verified col 14 (rows 10-15) is impassable solid cliff face. Rest House 4 area is a dead-end pocket.
-- Master Plan to Secret House: Backtrack west along row 14 to col 6, ascend stairs at (6, 19), cross plateau bridge east to (21, 17), descend to ground, walk north along col 25 to Northern Highway (rows 2-5), and run west to Secret House at (3, 7) (~67 steps total, ~196 steps remaining).
+- Turns 8345�8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
+- Turns 8403�8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
+- Turn 8489: Reached (25, 3) (~147 steps remaining). Confirmed (24, 3) is solid bush barrier blocking westward progress across col 24.
+- Turn 8493: Standing at (25, 3). Signpost located at (26, 4).
 
 <hr>
