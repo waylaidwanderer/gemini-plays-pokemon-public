@@ -2563,6 +2563,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
 - Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 - Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
+- North Bridge Access: North bridge staircase at (12, 7) faces south and is accessed from row 8 (12, 8); row 7 at (10..11, 7) is impassable cliff wall [Verified Turn 9029].
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
 - Row 6 Bush Cut Test at (6, 6): Tested Turn 7720 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
@@ -2661,7 +2662,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8967: Started Session 7 with 500 steps (fee ¥500).
 - Turn 8995: At (18, 22) (49 steps used, 451 remaining). Wild Kangaskhan (Lv 25) encountered in Area 1!
 - Turn 9001: Caught Wild Kangaskhan (MATILDA) Lv 25! Transferred to PC Box 1 (27 balls remaining).
-- Turn 9027: At (3, 7) (116 steps used, 384 remaining). Confirmed row 6 hedge. Navigating east along row 7 to ascend north bridge stairs at (12, 7).
+- Turn 9029: At (9, 7) (122 steps used, 378 remaining). Confirmed (10, 7) is cliff wall. Stepping Down to row 8 and east to ascend north bridge at (12, 7).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
