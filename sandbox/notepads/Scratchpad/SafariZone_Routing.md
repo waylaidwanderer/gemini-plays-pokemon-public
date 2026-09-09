@@ -25,10 +25,10 @@
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Center Area Traversal toward Area 3)
-- Current Position: Safari Zone Center Area at (26, 1) [Turn 10082]
-- Steps Remaining: ~168 / 500 steps
-- Transition Record: Warped from Area 2 (20, 36) to Center Area (14, 0) on Turn 10058.
+- Status: Active Session 10 (Area 2 Re-entry & Eastern Plateau Progression)
+- Current Position: Safari Zone Center Area at (14, 0) [Turn 10093]
+- Steps Remaining: ~147 / 500 steps
+- Transition Record: Returning to Area 2 via (14, 0) -> (20, 36).
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
   - (18, 27): Cliff face from (18, 28) (Turn 10027)
