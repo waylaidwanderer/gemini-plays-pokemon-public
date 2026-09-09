@@ -2653,7 +2653,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
 - Turn 9119: At (10, 8) (243 steps used, 257 remaining). Descended western stairs.
 - Turn 9124: At (6, 7) (248 steps used, 252 remaining). Advanced west along row 7.
-- Turn 9126: At (1, 7) (253 steps used, 247 remaining). Facing Left at western boundary. Empirically testing tile (0, 7) for warp/collision.
+- Turn 9126: At (1, 7) (253 steps used, 247 remaining). Bumping Left confirmed (0, 7) is solid statue collision.
+- Turn 9128: At (1, 7). Stepping Down to (1, 8) lawn and Left to test boundary collision at (0, 8).
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
