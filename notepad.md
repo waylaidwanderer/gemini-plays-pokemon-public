@@ -69,10 +69,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 87
-   - Stats: Max HP 300 (HP: 300/300 - Full Restore), Attack 214, Defense 236, Speed 217, Special 225
+1. HYDROS (Blastoise) - Lv 88
+   - Stats: Max HP 303 (HP: 78/303), Attack 216, Defense 238, Speed 219, Special 227
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (9/15), Ice Beam (4/10), Bite (24/25), Surf (4/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 16
    - Stats: Max HP 54 (HP: 54/54)
@@ -194,9 +194,9 @@
 - [x] Defeat Rival RED on Route 22 (Roster: Pidgeot Lv 47, Rhyhorn Lv 45, Gyarados Lv 45, Growlithe Lv 47, Alakazam Lv 50, Venusaur Lv 53) [Defeated Turn 22069]
 - [x] Conquer Victory Road and arrive at Indigo Plateau! [Turn 37641]
 
-- [ ] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56)
-- [ ] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58)
-- [ ] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60)
+- [x] Defeat Elite Four Lorelei in Room 1 (Roster: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56) [Turn 38912]
+- [x] Defeat Elite Four Bruno in Room 2 (Roster: Onix Lv 53, Hitmonchan Lv 55, Hitmonlee Lv 55, Onix Lv 56, Machamp Lv 58) [Turn 38922]
+- [x] Defeat Elite Four Agatha in Room 3 (Roster: Gengar Lv 56, Golbat Lv 56, Haunter Lv 55, Arbok Lv 58, Gengar Lv 60) [Turn 38933]
 - [ ] Defeat Elite Four Lance in Room 4 (Roster: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62)
 - [ ] Defeat Champion RED in Champion Chamber (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 63, Venusaur Lv 65)
 
@@ -2932,12 +2932,5 @@
   - Slot 2: Ice Beam (Ice special, 95 Power, 100 Acc) - Index 1 -> Press `Down` 1 time, then `A`
   - Slot 3: Bite (Normal physical, 60 Power, 100 Acc) - Index 2 -> Press `Down` 2 times, then `A`
   - Slot 4: Surf (Water special STAB, 95 Power, 100 Acc) - Index 3 -> Press `Down` 3 times, then `A`
-
-- Lorelei Matchup Execution (Room 1):
-  1. Dewgong Lv 54 (83 Def / 83 Spc): STAB Surf (Slot 4: Down 3, A) or Double-Edge (Slot 1: A) (2HKO)
-  2. Cloyster Lv 53 (177 Def / 90 Spc): STAB Surf (Slot 4: Down 3, A) (2HKO vs 90 Spc; never use physical moves vs 177 Def!)
-  3. Slowbro Lv 54 (94 Def / 74 Spc): Double-Edge (Slot 1: A) or STAB Surf (Slot 4: Down 3, A) (2HKO)
-  4. Jynx Lv 56 (44 Def / 84 Spc): Double-Edge (Slot 1: A - Guaranteed OHKO vs 44 Def!)
-  5. Lapras Lv 56 (76 Def / 90 Spc): Double-Edge (Slot 1: A) + STAB Surf finisher (Slot 4: Down 3, A) (2HKO)
 
 <hr>
