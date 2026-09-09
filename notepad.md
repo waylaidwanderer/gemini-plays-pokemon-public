@@ -2605,7 +2605,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 18..31 by statues and at cols 33..34 by bushes; no northern passage from Central Lawn.
   - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
-  - Western Plateau Access Corridor: Accessed from Central Lawn east corridor -> (26, 23) lawn -> step west to (25, 23) lawn -> step south to (25, 24) lawn -> traverse west along row 24 lawn to (22, 24) -> face North and ascend wooden staircase at (22, 23) onto elevated plateau!
+
 
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26, 0) [Verified Turn 8403].
@@ -2629,7 +2629,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Column 24 solid bush hedge from row 2 through row 13 [Verified Turns 8489, 8501, 8886].
   - Southern bush enclosures: col 18 solid bush wall at rows 20..23; row 24 continuous hedge across cols 2..9 and bushes at (16..17, 24); row 25 bushes at cols 10..15 and 18..21.
   - Row 24 lawn bypass: clean lawn at cols 10..15 flanked by bushes, bypasses row 23 tall grass without encounters [Verified Turn 8916].
-
 
 <hr>
 
