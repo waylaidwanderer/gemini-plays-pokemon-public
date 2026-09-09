@@ -2886,7 +2886,7 @@
   - Rhydon Lv 61: STAB Surf (Slot 4) - 4x SE OHKO, 0 recoil [Surf PP: 2 -> 1/15]
   - Gyarados Lv 61: Double-Edge (Slot 1) / Bite [DE PP: 14 -> 13/15]
   - Arcanine Lv 63: STAB Surf (Slot 4) - 2x SE OHKO, 0 recoil [Surf PP: 1 -> 0/15]
-  - Venusaur Lv 65: Double-Edge (Slot 1) - OHKO [DE PP: 13 -> 12/15]
+  - Venusaur Lv 65: Double-Edge (Slot 1) - 100 BP Normal physical from Lv 92 Attack (228) vs ~125 Def deals ~125-140 base damage (or ~250+ crit OHKO). HYDROS (232 Spd) strikes first on both turns vs Venusaur (120 Spd), 2HKOing before retaliation. Recoil: ~30-35 HP per hit (HYDROS finishes at ~90/319 HP)! [DE PP: 13 -> 11/15]
   -> CHAMPION RED DEFEATED! ENTER HALL OF FAME!
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
