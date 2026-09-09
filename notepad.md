@@ -2666,6 +2666,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9171: At (22, 18) (311 steps used, 189 remaining). Reached eastern ridge (cols 21..22) of South Plateau. Ridge extends north along rows 14..17 toward (24, 15) descent.
 
 - Turn 9213: At (24, 14) (~324 steps used, ~176 remaining). Ascended South Plateau via (24, 15) stairs.
+- Turn 9222: At (12, 22) (~344 steps used, ~156 remaining). Descended South Plateau via (12, 21) stairs.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
