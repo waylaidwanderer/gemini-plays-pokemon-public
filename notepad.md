@@ -2879,40 +2879,45 @@
 
 ## Gauntlet Master PP Budget & Strategy (Rooms 1-5)
 - Entering Room 1 (Lorelei):
-  - Dewgong Lv 54: STAB Surf (Slot 4: Down 3, A) or Double-Edge (Slot 1: A) (2HKO)
-  - Cloyster Lv 53: STAB Surf (Slot 4: Down 3, A) (2HKO vs 90 Spc)
-  - Slowbro Lv 54: Double-Edge (Slot 1: A) (2HKO)
-  - Jynx Lv 56: Double-Edge (Slot 1: A - Guaranteed OHKO vs 44 Def!)
-  - Lapras Lv 56: Double-Edge (Slot 1: A) + STAB Surf finisher (2HKO)
+  - Dewgong Lv 54: STAB Surf (Slot 4) x2 (2HKO, 0 recoil) [Surf PP: 15 -> 13/15]
+  - Cloyster Lv 53: STAB Surf (Slot 4) x2 (2HKO, 0 recoil) [Surf PP: 13 -> 11/15]
+  - Slowbro Lv 54: STAB Surf (Slot 4) x2 or Bite (Slot 3) (0 recoil) [Surf PP: 11 -> 9/15]
+  - Jynx Lv 56: STAB Surf (Slot 4: OHKO vs 95 Special, 0 recoil) [Surf PP: 9 -> 8/15]
+  - Lapras Lv 56: STAB Surf (Slot 4) x2 (0 recoil) [Surf PP: 8 -> 6/15]
+  -> HYDROS clears Room 1 at 311/311 HP (100% full health) with zero recoil!
 
 - Room 2 (Bruno):
-  - Onix Lv 53: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
-  - Hitmonchan Lv 55: STAB Surf (Slot 4: Down 3, A - OHKO)
-  - Hitmonlee Lv 55: STAB Surf (Slot 4: Down 3, A - OHKO)
-  - Onix Lv 56: Ice Beam (Slot 2: Down 1, A - 4x SE OHKO)
-  - Machamp Lv 58: STAB Surf (Slot 4: Down 3, A - OHKO)
+  - Onix Lv 53: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 10 -> 9/10]
+  - Hitmonchan Lv 55: STAB Surf (Slot 4) - OHKO vs 35 Special, 0 recoil [Surf PP: 6 -> 5/15]
+  - Hitmonlee Lv 55: STAB Surf (Slot 4) - OHKO vs 35 Def, 0 recoil [Surf PP: 5 -> 4/15]
+  - Onix Lv 56: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 9 -> 8/10]
+  - Machamp Lv 58: STAB Surf (Slot 4) - OHKO vs 65 Special, 0 recoil [Surf PP: 4 -> 3/15]
+  -> HYDROS clears Room 2 at 311/311 HP (100% full health) with zero recoil!
 
 - Room 3 (Agatha):
-  - Gengar Lv 56: STAB Surf (Slot 4: Down 3, A - OHKO, 0 recoil) [Surf PP: 6 -> 5/15]
-  - Golbat Lv 56: Ice Beam (Slot 2: Up 2, A - 2x SE OHKO, 0 recoil) [Ice Beam PP: 8 -> 7/10] (CRITICAL: Preserves Surf PP!)
-  - Haunter Lv 55: Ice Beam (Slot 2: A - OHKO, 0 recoil) [Ice Beam PP: 7 -> 6/10]
-  - Arbok Lv 58: Ice Beam (Slot 2: A - OHKO, 0 recoil) [Ice Beam PP: 6 -> 5/10]
-  - Gengar Lv 60: STAB Surf (Slot 4: Down 2, A - OHKO, 0 recoil) [Surf PP: 5 -> 4/15]
+  - Gengar Lv 56: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 3 -> 2/15]
+  - Golbat Lv 56: Ice Beam (Slot 2) - 2x SE OHKO, 0 recoil [Ice Beam PP: 8 -> 7/10]
+  - Haunter Lv 55: Ice Beam (Slot 2) - OHKO, 0 recoil [Ice Beam PP: 7 -> 6/10]
+  - Arbok Lv 58: Ice Beam (Slot 2) - OHKO, 0 recoil [Ice Beam PP: 6 -> 5/10]
+  - Gengar Lv 60: STAB Surf (Slot 4) - OHKO, 0 recoil [Surf PP: 2 -> 1/15]
+  -> HYDROS clears Room 3 at 311/311 HP (100% full health) with zero recoil!
 
 - Room 4 (Lance):
-  - Gyarados Lv 58: Double-Edge (Slot 1: A) x2 [DE PP: 12 -> 10/15, ~50 recoil -> HYDROS at ~160 HP]
-  - Dragonair Lv 56: Ice Beam (Slot 2: Down 1, A) [Ice Beam PP: 5 -> 4/10, 4x SE OHKO, 0 recoil]
-  - Dragonair Lv 56: Ice Beam (Slot 2: A) [Ice Beam PP: 4 -> 3/10, 4x SE OHKO, 0 recoil]
-  - Aerodactyl Lv 60: Ice Beam (Slot 2: A) [Ice Beam PP: 3 -> 2/10, 2x SE OHKO, 0 recoil]
-  - Dragonite Lv 62: Ice Beam (Slot 2: A) [Ice Beam PP: 2 -> 1/10, 4x SE OHKO, 0 recoil]
+  - Gyarados Lv 58: Ice Beam (Slot 2) - neutral 95 BP deals ~167 dmg, finish with Bite (Slot 3) [Ice Beam PP: 5 -> 4/10, Bite PP: 25 -> 24/25]
+  - Dragonair Lv 56: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 4 -> 3/10]
+  - Dragonair Lv 56: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 3 -> 2/10]
+  - Aerodactyl Lv 60: STAB Surf (Slot 4) - 2x SE OHKO, 0 recoil [Surf PP: 1 -> 0/15]
+  - Dragonite Lv 62: Ice Beam (Slot 2) - 4x SE OHKO, 0 recoil [Ice Beam PP: 2 -> 1/10]
+  -> HYDROS clears Room 4 at ~290+/311 HP with zero recoil!
 
 - Champion Chamber (Champion RED Matchup Notes):
-  - Pidgeot Lv 61: Ice Beam (2x SE OHKO) / STAB Surf
-  - Alakazam Lv 59: Double-Edge (OHKO vs 68 Def, ~36 recoil) or Bite / Surf
-  - Rhydon Lv 61: STAB Surf (4x SE OHKO, 0 recoil)
-  - Gyarados Lv 61: Double-Edge (2HKO, ~40 recoil) / Bite
-  - Arcanine Lv 63: STAB Surf (2x SE OHKO, 0 recoil)
-  - Venusaur Lv 65: Double-Edge (2HKO) / Ice Beam
+  - Pidgeot Lv 61: Ice Beam (Slot 2) - 2x SE OHKO, 0 recoil [Ice Beam PP: 1 -> 0/10]
+  - Alakazam Lv 59: Bite (Slot 3) - OHKO vs 68 Def, 0 recoil [Bite PP: 24 -> 23/25]
+  - Rhydon Lv 61: Bite / STAB Surf - 4x SE OHKO, 0 recoil
+  - Gyarados Lv 61: Bite / Double-Edge (HYDROS has ~290 HP, so recoil is completely safe!)
+  - Arcanine Lv 63: Bite / Double-Edge
+  - Venusaur Lv 65: Double-Edge - OHKO / 2HKO
+  -> CHAMPION RED DEFEATED! ENTER HALL OF FAME!
 
 ## Verified Pokémon League HQ Lobby Layout & Waypoints
 - Poké Mart Status: Empirically verified that retail Pokémon Red/Blue lobby has NO Poké Mart clerk (right wing has Cable Club desk at (13, 6); no mid-gauntlet item purchasing). Full sweep relies on HP conservation & optimized move routing.
