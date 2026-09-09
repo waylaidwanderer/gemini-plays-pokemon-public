@@ -58,9 +58,9 @@
 - Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
 - Right Wing (cols 9-15): Cable Club link desk at (13, 6).
 - Verified Route to Lorelei's Chamber (Room 1):
-  1. Walk to Column 9 on row 11 at (9, 11).
-  2. Walk North 9 steps along Column 9 from (9, 11) to (9, 2) (completely unobstructed corridor between Joy and Cable Club counters).
-  3. Walk Left 1 step to (8, 2).
+  1. From row 7, walk East to Column 3 at (3, 7).
+  2. Walk North 5 steps along Column 3 from (3, 7) to (3, 2) (completely unobstructed left-wing corridor).
+  3. Walk East 5 steps along Row 2 from (3, 2) to (8, 2).
   4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
 
 ## Verified Move Menu Mapping & Lorelei Execution Safeguards
