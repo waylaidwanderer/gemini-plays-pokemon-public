@@ -20,14 +20,14 @@
 - 1F (18, 9) <-> 2F (19, 7): Isolated 3x3 alcove on 2F (dead-end).
 - 1F (27, 1) <-> 2F (29, 1): Isolated 7-tile landing on 2F (dead-end).
 - 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 1F (item at (5, 0) collected).
-- 1F (1, 3) <-> 2F (1, 3): MAIN ENTRANCE TO FULL 2F MAZE & B1F ACCESS!
+- 1F (1, 3) <-> 2F (1, 3): Main NW entrance from 1F.
 - 1F (3, 11) <-> 2F (3, 11): Western elevated ridge connection.
 - Ladder at (0, 6) on NW elevated ridge.
 
 ## Items (1F)
 - Pokéball item at (19, 3) on northern ledge [Collected Turn 39567].
 - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
-- Pokéball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
+- Pokéball item at (5, 0) on isolated NW terrace [Collected TM55 / item Turn 39494].
 - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
 
 ## Wild Encounters (1F)
@@ -42,7 +42,7 @@
 - Venomoth (Bug/Poison)
 - Raichu (Electric)
 
-## Verified Central Platform & Water Network (1F)
+## Central Platform & Water Network (1F)
 - Central platform (cols 21-25, rows 6-10):
   - South stair ramp at (21, 11) -> (21, 10) connects to lower ground floor.
   - East stair ramp at (25, 9) -> (25, 10) connects down into water canal.
@@ -52,6 +52,3 @@
   - Eastern channel: cols 28-29, rows 5-11.
   - Northern lake: rows 4-5, cols 14-29.
   - Western channel: cols 8-9, rows 6-15.
-  - Stairs at (23, 3) leading North onto northeast elevated ridge (ladder at 27, 1).
-  - Stairs at (15, 3) leading North onto northwest elevated ridge.
-  - Stairs at (11, 13) leading East onto western elevated platform (ladder at 18, 9).
