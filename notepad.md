@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: Continuous Pokémon League gauntlet in progress! Lorelei (Room 1) engaged; Dewgong Lv 54 defeated. HYDROS at Lv 90 (311/311 HP - 100% full health, Surf 13/15, Ice Beam 10/10, Bite 25/25). Executing zero-recoil sweep.
+- League Status: Continuous Pokémon League gauntlet in progress! Elite Four Lorelei (Room 1) DEFEATED! HYDROS at Lv 90 (~295-311/311 HP - 100% full health, Surf 7/15, Ice Beam 10/10, Bite 25/25, DE 15/15). Entering Room 2 to battle Elite Four Bruno.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
