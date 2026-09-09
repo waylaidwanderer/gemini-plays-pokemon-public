@@ -28,7 +28,8 @@
 - Turn 9161: At (8, 17) (291 steps used, 209 remaining). Advanced south to (9, 21).
 - Turn 9163: At (9, 21) (296 steps used, 204 remaining). Sighted South Plateau staircase at (12, 21).
 - Turn 9165: At (12, 21) (301 steps used, 199 remaining). On South Plateau stairs facing Up.
-- Turn 9168: At (12, 18) (304 steps used, 196 remaining). Ascended South Plateau at (12, 21). Plateau floor spans rows 18..20 bordering central water pond. Moving east across plateau toward (24, 15) and (20, 8) to test col 20 canopy corridor.
+- Turn 9168: At (12, 18) (304 steps used, 196 remaining). Traversed east to (17, 18).
+- Turn 9170: At (17, 18) (306 steps used, 194 remaining). Traversing east across South Plateau floor to (22, 18) toward eastern ridge and (24, 15) descent.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
