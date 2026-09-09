@@ -2613,6 +2613,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Column 24 Bush Hedge Collision at (24, 4): Bumping Left from (25, 4) into (24, 4) confirmed impassable solid bush hedge (Turn 8886).
 - Row 24 Lawn Bypass: Clear lawn along row 24 (cols 10..15) flanked by row 24 bushes at (7..9, 24) and (16, 24), and row 25 bushes at (10..15, 25). Bypasses row 23 tall grass (cols 13..14) without wild encounters [Verified Turn 8916].
 - Bush Collision at (16, 24): Bumping Down from (16, 23) into (16, 24) confirmed impassable solid bush hedge [Turn 8928].
+- Bush Collision at (18, 23): Bumping Right from (17, 23) into (18, 23) confirmed impassable solid bush hedge [Turn 8930].
 
 <hr>
 
