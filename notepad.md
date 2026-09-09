@@ -2665,12 +2665,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 10 Step Ledger
-- Status: Active Session 10 (Area 1 Clockwise Traversal to South Plateau)
-- Current Position: Safari Zone Area 1 at (17, 24) [Turn 9980]
-- Wallet Balance: ¥69868 (Admission paid)
-- Safari Balls: 30 remaining
-- Steps Expended: 81 steps (Center Area: 62 steps, Area 1: 19 steps)
-- Steps Remaining: 419 / 500 steps (+159 steps margin above 260-step benchmark)
+- Status: Active Session 10 (Area 2 Central Basin Scouting)
+- Current Position: Safari Zone Area 2 at (17, 12) [Turn 10021]
+- Steps Remaining: ~283 / 500 steps (+23 steps margin above 260-step benchmark)
+- Refuted Routes: (25, 23) is solid cliff face; (20, 20) is northern cliff edge; (16, 12..19) is dense bush column.
+- Scouting Goal: Investigate col 32 row 11 opening to reach rows 8..9 northern highway west to Area 3 gate.
 - Immediate Route Plan:
   1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
   2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
