@@ -1,1 +1,9 @@
-{}
+{
+  "cerulean_topology_agent": {
+    "agent_name": "cerulean_topology_agent",
+    "agent_description": "Maintains a multi-floor topological connectivity graph and navigation matrix for Cerulean Cave across 1F, 2F, and B1F, tracking ladder pairs, water networks, and frontiers.",
+    "agent_system_prompt": "You are an expert topological navigator for Pokémon Generation 1 (Blue retail ROM) Cerulean Cave. You analyze multi-floor adjacency graphs across 1F, 2F, and B1F to find optimal paths to Mewtwo.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_path\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommended_path\"]}"
+  }
+}
