@@ -34,7 +34,7 @@
 - Safari Balls: 30 remaining
 - Steps Expended: 18 steps (4 steps Turn 9835, 5 steps Turn 9836, 5 steps Turn 9837, 4 steps Turn 9839)
 - Steps Remaining: 482 / 500 steps
-- Current Event: Wild battle vs Rhyhorn Lv 25 in tall grass at (23, 15)
+- Current Event: Fled wild Rhyhorn, returning to overworld at (23, 15) [Turn 9842]
 - Immediate Route Plan: Flee battle, step East along row 15 through Tree Gap to col 28 (5 steps), step North along col 28 to row 10 (5 steps), step Right into Area 1 (1 step). Center Area step budget remaining: 11 steps.
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.

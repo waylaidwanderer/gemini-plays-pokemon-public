@@ -2663,10 +2663,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 9 Step Ledger
-- Status: Initializing Session 9
-- Current Position: Fuchsia Safari Zone Gatehouse at (3, 3) [Turn 9826]
-- Wallet Balance: �70868 (Session 9 admission �500 pending).
-- Immediate Objective: Advance north along aisle (cols 3..4) to trigger attendant prompt, pay �500 for Session 9 (500 steps, 30 Safari Balls), and execute verified direct route to Area 3 Secret House.
+- Status: Active Session 9 (Center Area Traversal)
+- Current Position: Safari Zone Center Area at (23, 15) [Turn 9841]
+- Wallet Balance: �70368 (Admission paid)
+- Safari Balls: 30 remaining
+- Steps Expended: 18 steps (4 steps Turn 9835, 5 steps Turn 9836, 5 steps Turn 9837, 4 steps Turn 9839)
+- Steps Remaining: 482 / 500 steps
+- Current Event: Wild battle vs Rhyhorn Lv 25 in tall grass at (23, 15)
+- Immediate Route Plan: Flee battle, step East along row 15 through Tree Gap to col 28 (5 steps), step North along col 28 to row 10 (5 steps), step Right into Area 1 (1 step). Center Area step budget remaining: 11 steps.
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
