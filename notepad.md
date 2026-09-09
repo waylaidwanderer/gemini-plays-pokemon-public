@@ -2659,18 +2659,12 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 9064-9085: Tested west sector. Ground passage west along row 9 is blocked by tree trunk at (15, 9). Row 7 western corridor leads to (1, 7); (5, 6) is solid bush hedge; (0, 7) is statue base. Gateway into Area 2 is visible at rows 4..5 between statues.
 - Turns 9092-9150: Macro-loop traversal across North Plateau Bridge and western sector. Empirically confirmed solid collisions at (0, 7) statue, (0, 8) bush, (10, 5) cliff wall, (10, 4) cliff corner, and (8..9, 6) bush hedge. Row 6 confirmed impassable continuous hedge barrier.
 - Turn 9152: At (8, 7) (282 steps used, 218 remaining). Ceased redundant row 6 probing.
-- Turn 9153: At (8, 7) (282 steps used, 218 remaining). Breaking out of northern macro-loop: moving to col 10.
-- Turn 9155: At (8, 7). Advanced east to col 10 and south to (10, 10).
-- Turn 9157: At (10, 10) (287 steps used, 213 remaining). Advanced south along col 10.
-- Turn 9159: At (10, 14) (291 steps used, 209 remaining). Reached lawn south of pond.
-- Turn 9161: At (8, 17) (291 steps used, 209 remaining). Advanced south to (9, 21).
-- Turn 9163: At (9, 21) (296 steps used, 204 remaining). Sighted South Plateau staircase at (12, 21).
-- Turn 9165: At (12, 21) (301 steps used, 199 remaining). On South Plateau stairs facing Up.
 
 - Turn 9213: At (24, 14) (~324 steps used, ~176 remaining). Ascended South Plateau via (24, 15) stairs.
 - Turn 9222: At (12, 22) (~344 steps used, ~156 remaining). Descended South Plateau via (12, 21) stairs.
 - Turn 9243: At (13, 6) (~378 steps used, ~122 remaining). On North Plateau Bridge.
 - Turn 9251: At (2, 7) facing Up (90 / 500 steps remaining, 27 Balls). Testing Cut on (2, 6).
+- Turn 9272: At (20, 8) (433 steps used, 67 remaining). Facing Right on East Lawn.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
