@@ -17,10 +17,11 @@
   - (21, 15) -> (17, 15): 4 steps [Turn 9464]
   - (17, 15) -> (17, 19): 4 steps [Turn 9472]
   - (17, 19) -> (22, 19): 5 steps [Turn 9476]
-  - Total Area 2 Steps so far: 69 steps
-- Cumulative Steps Used: 194 steps [Turn 9476]
-- Steps Remaining: 306 / 500 steps
-- Current Position: (22, 19) facing East on Central Lawn junction
+  - (22, 19) -> (26, 23): 8 steps [Turn 9478]
+  - Total Area 2 Steps so far: 77 steps
+- Cumulative Steps Used: 202 steps [Turn 9482]
+- Steps Remaining: 298 / 500 steps
+- Current Position: (26, 23) facing Down on East Corridor cul-de-sac
 
 ## Area 2 Active Routing Plan
 1. Descend from Eastern Plateau to Central Lawn Corridor:
