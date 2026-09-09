@@ -26,8 +26,8 @@
 
 ## Active Session 10 Step Ledger
 - Status: Active Session 10 (Area 2 Reconnaissance & Session Turnover Prep)
-- Current Position: Safari Zone Area 2 at (17, 19) [Turn 10118]
-- Steps Remaining: ~54 / 500 steps
+- Current Position: Safari Zone Area 2 at (17, 12) [Turn 10119]
+- Steps Remaining: ~47 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
@@ -50,3 +50,9 @@
   - Screenshot 10105 confirms cols 22..25 rows 24..27 are TALL GRASS (walkable), not bush hedge.
   - Central Lawn Basin (rows 12..19) is bounded south by row 20 cliff (confirmed at 20,20 and 22,20) and east by cliff at 25,23 and 26,24.
   - Western Plateau staircase is at (22, 23), accessed via (22, 24) from the southern tall grass corridor.
+
+## Session 11 Master Execution Route (Target: HM03 Surf)
+1. Center Area: (14..15, 25) -> East Exit (28..30, 10..11) [Budget: ~45 steps]
+2. Area 1: (0, 23) -> South Plateau (20, 21) -> North Bridge (12, 7) -> Col 20 Canopy (20, 6..3) -> Runway (0, 4..5) [Budget: ~65 steps]
+3. Area 2: Enter at (39, 30..31) -> Row 33 west to col 23 -> North through cols 22..25 tall grass corridor to (22, 24) -> Ascend Western Plateau at (22, 23) -> Cross bridge to (16, 27) -> Descend to (16, 28) -> South to Area 3 gate (8..9, 34..35) [Budget: ~43 steps]
+4. Area 3: Enter at (26, 0) with ~347 steps remaining! Locate Secret House, claim HM03 Surf!
