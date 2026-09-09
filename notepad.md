@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥72368
+- Money: ¥71868
 - Pokédex: 13 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -158,7 +158,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥72368 [Turn 8568, Paid ¥500 Safari Zone admission Session 5]
+- ¥71868 [Turn 8721, Paid ¥500 Safari Zone admission Session 6]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
@@ -2621,17 +2621,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 8779-8780: Walked south down East Corridor to (25, 11) (12 steps, 250 remaining). Active step baseline: 250 steps remaining in Session 6.
 - Turns 8781-8791: Ascended plateau bridge at (21, 17) to (21, 16) (~237 steps remaining). Moving west along row 15 corridor.
 - Turn 8806: Confirmed (10, 8) is impassable cliff. Northern plateau is a scenic overlook. Returning east along row 8 to (16, 8) (~219 steps remaining).
-- Turn 8810: Walking south along col 16 to (16, 17) and west to (14, 17) (~203 steps remaining).
-- Turn 8814: Reached (10, 17) (199 steps remaining). Sighted staircase at (6, 19). Advancing west along row 17 to (6, 17).
-- Turn 8815: Descending staircase at (6, 19) into (6, 20) and heading west along row 20 toward col 2 western corridor (~190 steps remaining).
-- Turn 8817: Moving west across row 20 to col 1 clear lawn corridor at (1, 20), then north along col 1 to (1, 17) (~184 steps remaining).
-- Turn 8819: Bypassing tree at (1, 15) via col 2 and advancing north to (2, 14) (~180 steps remaining).
-- Turn 8829: Retracing south along col 2 from (2, 14) to (2, 19) (~175 steps remaining). Heading to (6, 19) staircase.
-- Turn 8831: Walking to (6, 20) at base of staircase (~170 steps remaining).
-- Turn 8839: Ascending southern plateau staircase at (6, 19) to (6, 18) (~168 steps remaining).
-- Turn 8841: Walking east along row 17 to (11, 17) (~162 steps remaining).
-- Turn 8843: Walking east along row 17 to (16, 17) (~157 steps remaining).
-- Turn 8845: Walking north along col 16 ridge to (16, 11) (~151 steps remaining).
 - Turn 8847: Walking Up to (16, 8) and Left along row 8 to (13, 8) (~145 steps remaining).
 
 <hr>
