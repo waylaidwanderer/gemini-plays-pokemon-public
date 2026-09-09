@@ -2648,12 +2648,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 2. Read signpost at (26, 4) to verify area directions and clues.
 3. Locate and enter Secret House to receive HM03 (Surf).
 
-## Active Session Step Tracking (Session 4 - Turn 8345)
-- Turns 8345�8403 Summary: Traversed Center Area (29 steps), Area 1 (87 steps), and Area 2 (56 steps) to reach Area 3 entrance at (26, 0) with 328 steps remaining. Caught Chansey (LUCKY) in Area 2 at 0 step cost.
-- Turns 8403�8488 Summary: Explored Area 3 east corridor, Gold Teeth cove, crossed plateau bridge (21, 17) to (6, 19), explored west corridor, Rest House 4, and row 24 dead-end. Backtracked across plateau bridge to col 25.
-- Turn 8489: Reached (25, 3) (~147 steps remaining). Confirmed (24, 3) is solid bush barrier blocking westward progress across col 24.
-- Turn 8498: Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration / Campaign! / The Search for / the SECRET HOUSE!'. Confirmed Secret House objective in Area 3.
-- Turns 8508-8515: Backtracked south down col 25, ascended ramp at (21, 17) to plateau bridge, crossed west to (6, 19), descended to ground, and reached (1, 23) with ~100 steps remaining.
+## Area 3 Sector Elimination & Inventory Matrix
+- Target: Secret House (HM03 Surf)
+- NW Sector (cols 0..10, rows 0..15): Unexplored / High Priority (Rest House 4 at 11, 11 was visited; northwest of that remains unsearched!)
+- SW Sector (cols 0..15, rows 16..25): Item Ball (Max Potion at 8, 20) retrieved. Dead-end along row 24. Shoreline water at (2, 13).
+- NE Sector (cols 18..28, rows 0..15): Gold Teeth Cove at (19, 7) retrieved. East corridor (cols 25..28) explored. Signpost at (26, 4) read. Bush wall at col 24 confirmed.
+- SE Sector (cols 16..28, rows 16..25): Plateau bridge (21, 17) to (6, 19) mapped. Signpost at (24, 22) read.
+
 ## Center Area Topological Finding (Empirically Verified Turn 8592)
 - The western sector of Center Area (cols 0-16) is physically SEPARATED from the southern entrance and eastern corridor on foot:
   - North: Blocked by Central Pond (rows 10-13), row 9 hedge (cols 22-27), and tree barrier at (28..29, 8..9).
