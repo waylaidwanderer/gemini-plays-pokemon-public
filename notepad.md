@@ -2649,7 +2649,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turns 9064-9085: Tested west sector. Ground passage west along row 9 is blocked by tree trunk at (15, 9). Row 7 western corridor leads to (1, 7); (5, 6) is solid bush hedge; (0, 7) is statue base. Gateway into Area 2 is visible at rows 4..5 between statues.
 - Turn 9092: At (13, 6) (188 steps used, 312 remaining). Re-evaluating plateau elevation and northern passage.
 - Turn 9094: At (13, 6) (188 steps used, 312 remaining). Traversing east across plateau bridge.
-- Turn 9096: At (17, 7) (193 steps used, 307 remaining). On (17, 7) stairs facing Down. Descending to (17, 8) and advancing east along row 8 toward eastern sector.
+- Turn 9096: At (17, 7) (193 steps used, 307 remaining). Descended stairs to (17, 8) and advanced east.
+- Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn. Advancing east to (23, 8) to test structure at (24, 8) and explore eastern corridor.
 
 ## Session 7 Master Plan (500 Steps Fresh)
 - Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
