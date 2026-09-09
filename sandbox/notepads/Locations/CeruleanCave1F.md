@@ -22,7 +22,7 @@
 - 1F (23, 7) <-> 2F (22, 6): Isolated 2-tile landing on 2F (dead-end).
 - 1F (18, 9) <-> 2F (19, 7): Isolated 3x3 alcove on 2F (dead-end).
 - 1F (27, 1) <-> 2F (29, 1): Isolated 7-tile landing on 2F (dead-end).
-- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 2F (connects to item TM55 at 5, 0).
+- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 2F (connects to item item (TM29 Psychic) at 5, 0).
 - 1F (1, 3) <-> 2F (1, 3): Main NW entrance connecting to the full 2F maze.
 - 1F (3, 11) <-> 2F (3, 11): Western elevated ridge connection into the full 2F maze.
 
