@@ -22,7 +22,7 @@
 - HM04 (STRENGTH) [Received Turn 8274]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433. (18, 18) item ball interaction yielded no item.
+- Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]

@@ -69,6 +69,7 @@
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
 - Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), dense bush wall along col 24 (rows 6..13), cliff corner at (4, 16) [Turn 8415], tree trunk at (1, 15) [Turn 8419], shoreline water boundary at (2, 13) [Turn 8444], impassable bush hedge along row 25 (cols 11..15, 18..20) [Turn 8463], solid west-facing cliff wall at col 14 (rows 10..15) [Turn 8476], south-facing cliff edge at (17, 17) [Turn 8485], impassable bush hedge along col 24 (rows 2..13) [Turn 8489, 8501], and east-facing plateau cliff edge at (23, 15) [Turn 8509].
 - Item Ball at (8, 20): Collected MAX POTION [Turn 8532].
+- Item Ball at (9, 7): Sighted on Northwest Lawn outside plateau descent [Turn 8713].
 
 
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains: 'Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch!'
