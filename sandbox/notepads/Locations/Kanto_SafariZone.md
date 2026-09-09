@@ -63,7 +63,7 @@
 - Northern Highway: Wide 4-tile open green lawn corridor across rows 2..5 spanning cols 12..23+ heading west towards the Secret House.
 - Signpost at (17, 3): Display signpost situated in northern lawn.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
-- Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), dense bush wall along col 24 (rows 6..13), cliff corner at (4, 16) [Turn 8415], tree trunk at (1, 15) [Turn 8419], shoreline water boundary at (2, 13) [Turn 8444], and impassable bush hedge along row 25 (cols 11..15, 18..20) [Turn 8463].
+- Terrain Barriers: Solid cliff face along col 17 (rows 6..14), southern cliff along row 14 (cols 15..23), dense bush wall along col 24 (rows 6..13), cliff corner at (4, 16) [Turn 8415], tree trunk at (1, 15) [Turn 8419], shoreline water boundary at (2, 13) [Turn 8444], impassable bush hedge along row 25 (cols 11..15, 18..20) [Turn 8463], and solid west-facing cliff wall at col 14 (rows 10..15) [Turn 8476].
 - Item Ball: Located at (8, 20) in grass patch south of stairs [Verified Turn 8455].
 
 
