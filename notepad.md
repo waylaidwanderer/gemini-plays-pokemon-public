@@ -2970,8 +2970,8 @@
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
-- Collisions: (27, 3) is solid rock, (26, 2) is solid rock, (28, 4..5) is solid rock.
 - Verified South Thoroughfare: From (25..27, 9) -> south along Column 27 (rows 10-17) -> Row 17 corridor (cols 27 to 21) -> north along Column 17 to central/western maze. Connects NE sector to Ladder A2 at (3, 11).
+
 
 <hr>
 
