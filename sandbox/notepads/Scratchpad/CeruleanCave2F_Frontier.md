@@ -27,3 +27,11 @@
 - (21, 3) - Solid rock wall
 - (19, 2) - Solid rock wall
 - (16..17, 2) - Solid rock wall
+## Northwest Ladder A1 Traversal Route (Verified Turn 40910)
+- From (3, 3):
+  1. East along Row 3: (3, 3) -> (9, 3) [6 Right]
+  2. South down Column 9: (9, 3) -> (9, 5) [2 Down]
+  3. East along Row 5: (9, 5) -> (13, 5) [4 Right]
+  4. South down Column 13: (13, 5) -> (13, 7) [2 Down]
+  5. West along Row 7: (13, 7) -> (1, 7) [12 Left]
+  6. North through Column 0/1: (1, 7) -> (1, 5) -> (0, 5) -> (0, 3) -> (1, 3) [Ladder A1]
