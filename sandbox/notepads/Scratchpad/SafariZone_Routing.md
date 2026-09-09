@@ -39,7 +39,9 @@
 ### Phase 4: Area 3 (Secret House - HM03 Surf)
 1. Enter Area 3 at (26, 0) from Area 2.
 2. Follow east path south to plateau bridge (21, 17), cross west to (10, 16), descend stairs at (6, 19).
-3. Navigate southern plaza and unexplored sectors to locate Secret House, enter, and receive HM03 (Surf).
+3. From western corridor at (1, 16), follow western boundary north to row 7.
+4. Turn east from (1, 7) to the Secret House entrance at (3, 7).
+5. Enter Secret House and speak to attendant to receive HM03 (Surf)!
 
 ## Active Session Step Tracking (Session 4 - Turn 8345)
 - Turn 8345: Started fresh session at Center Area (15, 25) with 500 / 500 steps remaining (¥500 paid Turn 8336).
@@ -74,3 +76,6 @@
 - Turn 8453: Reached (10, 24) bush opening (232 steps remaining, 268 steps used).
 - Turn 8457: Walked east along row 24 lawn to (15, 24) (227 steps remaining, 273 steps used).
 - Turn 8461: Position (15, 24). Scouting southern plaza (rows 26-28) and eastern sector.
+- Turn 8463: Confirmed row 25 is impassable bush wall. Row 24 dead-ends at (15, 24).
+- Turn 8466: Backtracked west along row 24 lawn to (10, 24) (222 steps remaining, 278 steps used).
+- Target confirmed by safari_analyst: Secret House is at (3, 7) in Northwest Quadrant (~28 steps away).
