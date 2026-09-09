@@ -17,13 +17,14 @@
 - Ladders (Floors):
   - Ladder at (23, 7) on central elevated platform (leads to isolated 2-tile alcove on 2F).
   - Ladder at (27, 1) on northern elevated ridge (accessed via stairs at 23, 3).
-  - Ladder at (18, 9) on western elevated platform.
+  - Ladder at (18, 9) on western elevated platform (accessed via western shoreline at row 8).
 - Items:
   - Pokéball item at (19, 3) on northern ledge.
 - Water canals:
   - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures and western cavern.
   - Southern canal at rows 10-11 (cols 24-29) - accessed via stairs ramp at (25, 9) into (25, 10).
   - Eastern channel at cols 28-29 (rows 5-10) - verified continuous open water connecting southern canal to northern lake!
+  - Western channel at cols 11-15 (rows 4-7) - verified open water connecting northern lake to western cavern shoreline at row 8!
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
