@@ -2939,13 +2939,19 @@
   - Stairs at (21, 11) leading North onto elevated ridge at (21, 10).
   - Stairs at (17, 15) leading West onto western elevated ridge.
   - Stairs at (25, 9) leading East.
+  - Stairs/Structure at (23, 3) on northern shore across water.
 - Ladders (Floors):
-  - Ladder at (23, 7) on central elevated platform.
+  - Ladder at (23, 7) on central elevated platform (leads to isolated 2-tile alcove on 2F).
   - Ladder at (18, 9) on western elevated platform.
-- Water canal at (24..29, 10..11) extending east.
+- Items:
+  - Pokéball item at (19, 3) on northern ledge.
+- Water canals:
+  - Northern lake at rows 4-5 (cols 18-27).
+  - Southern canal at rows 10-11 (cols 24-29) extending east.
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
+- Sandslash (Ground)
 
 <hr>
 
