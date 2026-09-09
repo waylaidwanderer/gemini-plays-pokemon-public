@@ -12,7 +12,7 @@
 - Row 14 bypass connects column 26 to column 28/29.
 
 ## Items (2F)
-- Item Pokéball sighted at (29, 9) in southeastern corridor (retrieval pending).
+- Item Pokéball at (29, 9) collected.
 
 ## Wild Encounters (2F)
 - Ditto (Normal)
