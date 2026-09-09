@@ -2680,6 +2680,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8461: Position (15, 24). Scouting southern plaza (rows 26-28) and eastern sector.
 - Turn 8463: Confirmed row 25 is impassable bush wall. Row 24 dead-ends at (15, 24).
 - Turn 8466: Backtracked west along row 24 lawn to (10, 24) (222 steps remaining, 278 steps used).
-- Target confirmed by safari_analyst: Secret House is at (3, 7) in Northwest Quadrant (~28 steps away).
+- Turn 8472: Reached (2, 14) at pond south bank. Pond spans cols 2-8, rows 10-13.
+- Turn 8474: Reached (13, 14) east of Rest House 4.
+- Turn 8476: Empirically verified col 14 (rows 10-15) is impassable solid cliff face. Rest House 4 area is a dead-end pocket.
+- Master Plan to Secret House: Backtrack west along row 14 to col 6, ascend stairs at (6, 19), cross plateau bridge east to (21, 17), descend to ground, walk north along col 25 to Northern Highway (rows 2-5), and run west to Secret House at (3, 7) (~67 steps total, ~196 steps remaining).
 
 <hr>
