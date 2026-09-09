@@ -19,3 +19,7 @@
 - Magneton (Electric)
 - Hypno (Psychic)
 - Sandslash (Ground)
+## Verified 1F Ladders & Landmarks
+- Ladder at (18, 9) <-> 2F Component C (19, 7) (isolated alcove).
+- Ladder at (23, 7) <-> 2F Component B (22, 6) (isolated landing).
+- Entrance Chamber passage: (21, 11) connects north to row 10 main corridor (21, 10).
