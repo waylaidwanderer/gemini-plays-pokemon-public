@@ -72,7 +72,7 @@
 1. HYDROS (Blastoise) - Lv 91
    - Stats: Max HP 315 (HP: 268/315), Attack 226, Defense 247, Speed 228, Special 237
    - Type: Water
-   - Moves: Double-Edge (14/15), Ice Beam (4/10), Bite (24/25), Surf (3/15)
+   - Moves: Double-Edge (14/15), Ice Beam (3/10), Bite (24/25), Surf (3/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 18
    - Stats: Max HP 59 (HP: 59/59)
