@@ -2948,9 +2948,9 @@
   - Ladder at (7, 1) on isolated NW terrace (connects to 2F at (9, 1)).
   - Ladder at (1, 3) in NW ground area.
 - Items:
-  - Pokéball item at (19, 3) on northern ledge.
+  - Pokéball item at (19, 3) on northern ledge [Collected Turn 39567].
   - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
-  - Pokéball item at (5, 0) on isolated NW terrace.
+  - Pokéball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
   - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
 - Water canals:
   - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures and western cavern.
