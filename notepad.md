@@ -3045,6 +3045,8 @@
   4. South down Column 13: (13, 5) -> (13, 7) [2 Down]
   5. West along Row 7: (13, 7) -> (1, 7) [12 Left]
   6. North through Column 0/1: (1, 7) -> (1, 5) -> (0, 5) -> (0, 3) -> (1, 3) [Ladder A1]
+- (9, 6) - Solid rock wall
+- Row 9 Grand Highway: (1..13, 9) open continuous floor connecting Column 13 to Column 1.
 
 <hr>
 
