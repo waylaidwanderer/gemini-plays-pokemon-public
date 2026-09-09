@@ -10,10 +10,10 @@
 - Budget: 500 steps. Estimated requirement: ~187 steps to Area 3, leaving ~313 steps for Area 3 Secret House.
 - Phase 1: Center Area (30 steps):
   - (14, 25) -> north to (14, 22) -> east to (20, 22) -> north to (20, 15) -> east through tree gap to (28, 15) -> north to (28, 11) -> east to (30, 11) Area 1 warp.
-- Phase 2: Area 1 (70 steps):
-  - Enter at (0, 23). East along row 24/23 to South Plateau stairs at (20, 21) (20 steps).
-  - Ascend (20, 21), traverse ridge cols 21..22 to (24, 15) stairs (9 steps).
-  - Descend (24, 15) to (24, 16), north to row 10 (6 steps), west to (20, 10) (4 steps), north to (20, 8) (2 steps).
+- Phase 2: Area 1 (~75 steps):
+  - Enter at (0, 23). East along southern corridor (rows 23..24) to (12, 22).
+  - Walk north along column 12 corridor to North Plateau Bridge stairs at (12, 7..8).
+  - Cross North Plateau Bridge east from (12, 7) across rows 5..6 to (17, 7), descend to East Lawn at (17..20, 8).
   - Breach north through permeable canopy at col 20: (20, 7..2) (6 steps).
   - West through row 3 permeable canopy: (19..8, 3) (12 steps).
   - Down to row 5 (2 steps), west through gateway at (0, 4..5) (8 steps) -> Area 2 at (39, 31).
