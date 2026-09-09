@@ -22,7 +22,7 @@
   - Ladder at (1, 3) in NW ground area.
 - Items:
   - Pokéball item at (19, 3) on northern ledge.
-  - Pokéball item at (7, 13) in southwest cavern.
+  - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
   - Pokéball item at (5, 0) on isolated NW terrace.
   - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
 - Water canals:
