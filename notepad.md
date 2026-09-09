@@ -2671,29 +2671,26 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - (22, 27) -> (22, 22): 5 steps (Ascend Western Plateau) [Turn 9518]
   - (22, 22) -> (17, 22): 5 steps [Turn 9521]
   - (17, 22) -> (16, 28): 7 steps (Descend Western Plateau to West Lawn) [Turn 9524]
-  - Total Area 2 Steps so far: 160 steps
-- Cumulative Steps Used: 285 steps [Turn 9524]
-- Steps Remaining: 215 / 500 steps
-- Current Position: (16, 28) facing Down on West Lawn corridor
+  - (16, 28) -> (12, 29): 5 steps [Turn 9527]
+  - Total Area 2 Steps so far: 165 steps
+- Cumulative Steps Used: 290 steps [Turn 9527]
+- Steps Remaining: 210 / 500 steps
+- Current Position: (12, 29) facing Left on West Lawn corridor
 
 ## Breakthrough Route Verification: The True Area 2 -> Area 3 Route
 - Entry to Area 2 from Area 1 is at (39, 30..31) on Southern Corridor (rows 28..33).
 - Exit from Area 2 to Area 3 is at (8..9, 34..35) on Southern Corridor.
-- The Southern Corridor runs continuously west along rows 31..35 from (39, 31) straight to (8, 35)!
-- On Turn 8384, Chansey was caught in the tall grass patch at (24..27, 31).
-- On Turn 8403 (just 19 turns later!), player walked west from that tall grass straight into Area 3 gate at (8..9, 34..35)!
-- The Eastern Plateau and Central Lawn are an exploratory loop, NOT the main route to Area 3.
-- Returned cleanly across Eastern Plateau to Southern Corridor at (28, 31) with 250 steps remaining!
+- Traversed Western Plateau bridge (ascend at 22, 23; descend at 16, 27) directly onto West Lawn.
+- Path from (12, 29) to Area 3 gate (8..9, 34..35) is 100% clear open lawn across rows 30..33!
 
 ## Master Execution Plan
-1. Return across Eastern Plateau:
-   - COMPLETED! Descended to (28, 31) on Turn 9504 with 250 steps remaining.
-2. Southern Corridor to Area 3 Gate:
-   - From (28, 31), walk Left across tall grass (cols 27..24) and open lawn to col 8 [20 steps].
-   - Walk Down to (8, 35) to enter Area 3 [4 steps].
-   - Subtotal: ~24 steps. Projected steps remaining entering Area 3: ~226 steps!
-3. Area 3 to Secret House:
+1. Return across Eastern Plateau: COMPLETED!
+2. Western Plateau Bridge Traversal: COMPLETED!
+3. Southern Corridor to Area 3 Gate:
+   - (12, 29) Down to (12, 30), Left 4 to (8, 30), Down 5 to (8, 35) [10 steps]
+   - Projected steps remaining entering Area 3: 200 steps!
+4. Area 3 to Secret House:
    - Navigate to Secret House in Area 3 and claim HM03 Surf! (~80-100 steps budget).
-   - Massive safety margin: 125+ surplus steps!
+   - Massive safety margin: 100+ surplus steps!
 
 <hr>
