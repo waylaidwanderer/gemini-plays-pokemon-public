@@ -63,10 +63,12 @@
 - Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
 - Right Wing (cols 9-15): Cable Club link desk at (13, 6).
 - Verified Route to Lorelei's Chamber (Room 1):
-  1. From row 7, walk East to Column 3 at (3, 7).
-  2. Walk North 5 steps along Column 3 from (3, 7) to (3, 2) (completely unobstructed left-wing corridor).
-  3. Walk East 5 steps along Row 2 from (3, 2) to (8, 2).
-  4. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
+  1. From entrance mat (7..8, 11), walk West to (5, 10).
+  2. Walk North 3 steps to (5, 7) (open corridor above the NPC at (4, 9)).
+  3. Walk West 3 steps to (2, 7).
+  4. Walk North 5 steps along Column 2 from (2, 7) to (2, 2) (completely open bypass around counter and pillar).
+  5. Walk East 6 steps along Row 2 from (2, 2) to (8, 2).
+  6. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber (Room 1 at (4, 11))!
 
 ## Verified Move Menu Mapping & Lorelei Execution Safeguards
 - HYDROS Move Layout (Lv 80 Blastoise) - VERTICAL 1-COLUMN LIST:
