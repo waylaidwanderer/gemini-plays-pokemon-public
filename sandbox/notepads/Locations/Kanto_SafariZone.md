@@ -31,6 +31,7 @@
 - Bush Collision at (16, 22): Tested Turn 8356; solid impassable hedge blocking row 22 ground path west.
 - Northern Boundary Hedge at (20, 0): Tested Turn 7998; solid impassable collision.
 - Solid Cliff Corner at (27, 12): Tested Turn 7971; solid impassable collision.
+- North Bridge Access: North bridge staircase at (12, 7) faces south and is accessed from row 8 (12, 8); row 7 at (10..11, 7) is impassable cliff wall [Verified Turn 9029].
 - Statue Collision at (6, 23): Tested Turn 7944; solid impassable rock/statue.
 - Row 6 Bush Collision at (4, 6): Tested Turn 7698; solid impassable collision.
 - Row 6 Bush Cut Test at (6, 6): Tested Turn 7720 with Farfetch'd (DUX); returned 'There isn't anything to CUT!'.
