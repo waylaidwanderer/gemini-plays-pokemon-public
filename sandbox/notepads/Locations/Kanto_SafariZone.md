@@ -30,6 +30,7 @@
 ## Area 1 Features & Landmarks
 - South Plateau Western Sector: Ascended at (12, 21) via south-facing stairs. Elevated floor spans cols 11..17+ across rows 18..20 bordering the southern shoreline of the central water pond (rows 14..17).
 - Western Statue Collision at (0, 7): Tested Turn 9127; solid impassable statue base.
+- Western Statue Collision at (1, 6): Tested Turn 9234; solid impassable statue base.
 - Western Bush Collision at (0, 8): Tested Turn 9130; solid impassable bush hedge.
 - Plateau West Cliff Wall at (10, 5): Tested Turn 9138; solid impassable cliff face.
 - Row 6 Bush Collisions at (8, 6) and (9, 6): Tested Turns 9147, 9149; solid impassable bush hedge.
