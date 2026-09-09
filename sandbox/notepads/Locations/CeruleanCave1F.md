@@ -20,6 +20,8 @@
   - Ladder at (18, 9) on western elevated platform.
   - Ladder at (7, 1) on isolated NW terrace (connects to 2F at (9, 1)).
   - Ladder at (1, 3) in NW ground area.
+  - Ladder at (3, 11) on elevated ridge.
+  - Ladder at (0, 6) on NW elevated ridge.
 - Items:
   - Pokéball item at (19, 3) on northern ledge [Collected Turn 39567].
   - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
