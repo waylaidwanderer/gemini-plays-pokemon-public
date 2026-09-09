@@ -27,7 +27,7 @@
 - 1F (3, 11) <-> 2F (3, 11): Western elevated ridge connection into the full 2F maze.
 
 ## Items (1F)
-- Pokéball item at (19, 3) on northern ledge [Collected Turn 39567].
+- Pokéball item at (19, 3) on northern ledge [UNCOLLECTED - visible on screen].
 - Pokéball item at (7, 13) in southwest cavern [Collected Turn 39562].
 - Pokéball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
 - Pokéball item at (4, 15) in southwest cavern [Collected Turn 39538].
