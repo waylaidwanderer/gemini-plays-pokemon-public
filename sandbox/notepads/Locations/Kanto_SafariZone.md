@@ -59,7 +59,7 @@
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33).
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
-- Southern Bypass Corridor (Row 33): Fully passable horizontal corridor running west along row 33 from col 28 past cols 26..22 directly into the open western lawn (cols 18..21 rows 30..35) and straight to the Area 3 gate at (8..9, 34..35) [Verified Turns 9941-9944].
+- Row 33 Southern Channel (Area 2): Horizontal passage along row 33 connects col 28 west through (26, 33), (25, 33), (24, 33), (23, 33), (22, 33) into open lawn at cols 20..21. Blocked west of col 20 by wooden structure at (19, 33) and bush hedge at (17, 32). South opening at (20, 34..35) connects to row 36 warp boundary into Center Area at (14, 0) [Verified Turns 9941-9949].
 - Eastern Plateau: Ascended at (28, 27). Ridge at cols 37..38 runs north from row 24 to row 15. Expands into upper plateau at rows 12..14 cols 33..38. Staircase at (34, 15) is accessed from (34, 14) facing Down and descends south to open lawn at (34, 16) [Verified Turns 8132, 9315].
 - Central Lawn Basin: Lawn area spanning rows 12..19 cols 21..35 bounded by row 11 statues/bushes to the north, column 16 dense bush wall to the west, and row 20 Western Plateau cliff to the south. Rows 14..15 provide clean grass avoiding tall grass patches [Verified Turn 8135].
 - Western Plateau & Elevated Bridge (Turns 9460-9485):
