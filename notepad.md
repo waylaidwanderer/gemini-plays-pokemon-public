@@ -2588,7 +2588,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Area 1 Elevation Network & Topology
 - South Plateau Bridge: Connects southern entrance corridor to eastern sector. Ascended via south-facing stairs at (20, 21), traverses north along cols 21..22 ridge across rows 15..20, and descends via east-facing/south-facing stairs at (24, 15) to eastern ground corridor.
-- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns (south of row 6 hedge). Note: Row 7 western lawn dead-ends at (0, 7) statue and row 6 hedge.
+- North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns (south of row 6 hedge).
 
 ## Area 2 (North)
 - Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
@@ -2651,15 +2651,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 9094: At (13, 6) (188 steps used, 312 remaining). Traversing east across plateau bridge.
 - Turn 9096: At (17, 7) (193 steps used, 307 remaining). Descended stairs to (17, 8) and advanced east.
 - Turn 9098: At (21, 8) (198 steps used, 302 remaining). Reached eastern sector on row 8 lawn.
-- Turn 9100: At (23, 8) (200 steps used, 300 remaining). Bumping east into (24, 8) confirmed solid railing collision.
-- Turn 9103: At (25, 11) (205 steps used, 295 remaining). Bypassed south of Rest House 2 along row 11 lawn.
-- Turn 9105: At (28, 9) (210 steps used, 290 remaining). In col 28 lawn corridor facing Up.
-- Turn 9107: At (28, 6) (213 steps used, 287 remaining). Confirmed col 28 dead-ends at row 5 hedge.
-- Turn 9109: At (28, 11) (218 steps used, 282 remaining). Stepped down to row 11 lawn.
-- Turn 9111: At (23, 11) (223 steps used, 277 remaining). Reached west end of row 11 bypass.
-- Turn 9113: At (21, 8) (228 steps used, 272 remaining). Advancing west along row 8 lawn to (17, 8).
-- Turn 9115: At (17, 7) (233 steps used, 267 remaining). Traversing west across North Plateau Bridge.
-- Turn 9117: At (13, 6) (238 steps used, 262 remaining). Descended western stairs to (12, 8).
 - Turn 9119: At (10, 8) (243 steps used, 257 remaining). Advancing west via row 7 clear lawn corridor toward western Area 2 gateway at (1, 7).
 
 ## Session 7 Master Plan (500 Steps Fresh)

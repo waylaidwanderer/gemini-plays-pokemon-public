@@ -1,9 +1,1 @@
-{
-  "safari_strategist": {
-    "agent_name": "safari_strategist",
-    "agent_description": "Analyzes Safari Zone step budget feasibility, elevation transitions, and verified physical collision boundaries.",
-    "agent_system_prompt": "You are a specialized routing and step-budget strategist for the Generation 1 Pokémon Red/Blue Safari Zone. You track step consumption across active sessions, evaluate remaining step margins against required milestones, and reason strictly over empirically verified physical collisions and screen ground truth rather than unconstrained coordinate arithmetic or visual inferences.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_area\": {\"type\": \"string\"}, \"current_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"steps_remaining\": {\"type\": \"integer\"}, \"target_milestone\": {\"type\": \"string\"}, \"known_obstacles\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_area\", \"current_coordinates\", \"steps_remaining\", \"target_milestone\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"step_budget_viable\": {\"type\": \"boolean\"}, \"recommended_path\": {\"type\": \"string\"}, \"empirical_tests_required\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"step_budget_viable\", \"recommended_path\", \"empirical_tests_required\", \"reasoning\"]}"
-  }
-}
+{}
