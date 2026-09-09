@@ -2922,3 +2922,16 @@
   - Slot 4: Surf (Water special STAB, 95 Power, 100 Acc) - Index 3 -> Press `Down` 3 times, then `A`
 
 <hr>
+
+<h1><code>Locations/CeruleanCave1F</code></h1>
+
+# Cerulean Cave (Unknown Dungeon) 1F - Layout & Notes
+
+## Connections & Entrance
+- South Exit: Outside to Cerulean City waterway at (24, 17).
+- Access Requirement: Defeat the Pokémon League (Champion title) to remove the cave guard.
+
+## Map Layout & Exploration
+- Entrance landing at (24, 17) facing north into open cavern corridor.
+
+<hr>
