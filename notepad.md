@@ -2655,5 +2655,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Turn 8522: Standing at (1, 23). Active step budget baseline: ~100 steps remaining.
 - Turn 8538: Discovered signpost at (24, 22) in southern clearing. Position: (21, 22) (~63 steps remaining).
 - Turn 8548: Verified exactly 9 steps remaining on Safari PA counter (9/500, 28 Safari Balls).
+## Session 5 Master Routing (Center Area Shortcut to Area 3)
+- **Gatehouse to Area 3 (~41 steps total)**:
+  1. Enter Center Area at (14, 25) [500 steps].
+  2. Walk north to row 22, east to (20, 22) [9 steps].
+  3. Walk north to row 11 at (20, 11) [11 steps].
+  4. Walk west along row 11 to (0, 11) [20 steps].
+  5. Step Left into Area 3 at (29, 23) [1 step].
+- **Remaining Budget in Area 3**: ~459 steps!
+- **Area 3 Objective**: Explore southern corridor (rows 26-29) and locate the Secret House to receive HM03 Surf!
 
 <hr>
