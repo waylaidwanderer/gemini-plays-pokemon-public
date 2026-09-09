@@ -54,6 +54,7 @@
 - Display Format: In-game menu box displays `[STEPS REMAINING] / 500`.
 
 ## Area 2 (North)
+- Cliff Collision at (26, 24): Impassable cliff boundary verified Turn 8644 (stepping down from 26, 23 was blocked).
 - Obstacle Collision at (16, 16): Bumping west from (17, 16) confirmed solid obstacle collision at (16, 16) [Turn 8637].
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33) [Entered Turn 8007].
 - Entrance Corridor: Wide 6-tile lawn corridor along rows 28..33 cols 30..39 bounded by northern cliff (row 27) and southern bushes (row 34).
