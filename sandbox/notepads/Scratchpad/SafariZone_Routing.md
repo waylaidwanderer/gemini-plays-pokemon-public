@@ -14,19 +14,16 @@
   - Approach & Step onto Western Staircase (8, 16 to 6, 19): 5 steps [Turn 9603]
   - Descent & Traverse to Western Corridor (6, 19 to 2, 20): 5 steps [Turn 9607]
   - Western Corridor Sprint North (2, 20 to 1, 16): 5 steps [Turn 9610]
-  - Western Tree Bypass onto Row 14 Avenue (1, 16 to 4, 14): 5 steps [Turn 9613]
-  - Row 14 Avenue East to Pond Corner (4, 14 to 9, 14): 5 steps [Turn 9616]
-  - Rest House Apron & Shoreline Collision Test (9, 14 to 10, 12): 5 steps [Turn 9626]
-  - Row 14 Avenue Westward Return (10, 12 to 7, 14): 5 steps [Turn 9629]
+  - Rest House 4 Scout & Col 9 Shoreline Collision Test: 20 steps [Turns 9611-9629]
   - Cumulative Steps Used: 422 / 500 steps
   - Steps Remaining: 78 / 500 steps
 
-## Master Map & True Secret House Routing (Empirically Verified Turn 9626, 9629)
+## Master Map & Routing Strategy (Turn 9634)
 - Northern Sector Closed (Empirically Confirmed Turn 9626):
   - Column 9 bank at (9, 12) is impassable water shoreline collision.
   - Rest House 4 (cols 10..13 rows 10..11) is an enclosed cul-de-sac bounded by pond and cliff.
-- True Secret House Location:
-  - SOUTHWEST SECTOR (rows 23..28 across cols 0..15).
+- Sector Hypotheses:
+  - Northwest and Southwest sectors are both candidate locations. Scouting Western Corridor to evaluate physical access to both sectors.
 - Execution Route to Secret House:
   1. (7, 14) -> Left 5 along row 14 avenue to (2, 14) [5 steps]
   2. Down 4 along col 2 to (2, 18), Left 1 to (1, 18) [5 steps]
