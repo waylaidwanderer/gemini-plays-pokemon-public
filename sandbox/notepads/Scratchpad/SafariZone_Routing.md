@@ -15,3 +15,4 @@
 - Turn 8817: Moving west across row 20 to col 1 clear lawn corridor at (1, 20), then north along col 1 to (1, 17) (~184 steps remaining).
 - Turn 8819: Bypassing tree at (1, 15) via col 2 and advancing north to (2, 14) (~180 steps remaining).
 - Turn 8829: Retracing south along col 2 from (2, 14) to (2, 19) (~175 steps remaining). Heading to (6, 19) staircase.
+- Turn 8831: Walking to (6, 20) at base of staircase (~170 steps remaining).
