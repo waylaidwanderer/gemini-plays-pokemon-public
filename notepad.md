@@ -3028,6 +3028,7 @@
 - Dodrio (Normal/Flying)
 - Electrode (Electric)
 - Venomoth (Bug/Poison)
+- Raichu (Electric)
 ## Verified Central Platform & Water Network (1F)
 - Central platform (cols 21-25, rows 6-10):
   - South stair ramp at (21, 11) -> (21, 10) connects to lower ground floor.
