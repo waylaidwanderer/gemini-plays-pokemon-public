@@ -16,3 +16,4 @@
 
 ## Items (2F)
 - Pokéball item at (29, 9) in southeastern corridor.
+- Chansey (Normal)
