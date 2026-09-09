@@ -36,4 +36,16 @@
 4. Northern Lawn Highway: Turn west at row 4/5 and walk straight across open lawn (cols 22..3) directly into the Northwest Sector (20 steps).
 5. Arrival: Locate Secret House entrance, enter, speak to attendant, and receive HM03 Surf!
 
-- Turn 8953: At (1, 16) on col 1 lawn (~4 steps remaining in Session 6). Advancing east along row 14 lawn corridor south of pond toward Rest House 4 as Session 6 concludes.
+- Turn 8955: Session 6 concluded via PA Ding-dong! at (2, 16). Returning to Gatehouse to start Session 7.
+
+## Session 7 Master Plan (500 Steps Fresh)
+- Admission: ¥500 paid to Gatekeeper. 30 Safari Balls received.
+- Route:
+  1. Center Area: (14, 25) -> north through tree gap (23, 15) -> east exit to Area 1 (0, 23) (~27 steps).
+  2. Area 1: (0, 23) -> lower plateau (20, 21)->(12, 21) -> north bridge (12, 7)->(12, 6) -> canopy corridor (20, 3)->(6, 3) -> Area 2 gate (0, 5) (~70 steps).
+  3. Area 2: (39, 31) -> southern corridor to (22, 29) -> western plateau (22, 23)->(16, 28) -> west to gate (8, 35) -> Area 3 entrance (26, 0) (~55 steps).
+  Total to Area 3: ~152 steps. Remaining in Area 3: ~348 steps!
+- Area 3 Objectives:
+  1. Test Ground Bypass at Rows 0..3: From (26, 0), test walking west directly along rows 0..3 toward Northwest Sector.
+  2. If blocked, test Row 14 Ground Bypass or Plateau Descent near Rest House 4 (11, 11).
+  3. Enter Secret House, speak to attendant, receive HM03 Surf!
