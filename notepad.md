@@ -2932,13 +2932,7 @@
 - Left Wing (cols 0-4): PC terminal at (1, 5), Town Map / Sign at (1, 4), Column 3 North transit corridor.
 - Center Wing (cols 5-8): Nurse Joy healing counter at (5..8, 5..6).
 - Right Wing (cols 9-15): Cable Club link desk at (13, 6).
-- Verified Route to Lorelei's Chamber (Room 1):
-  1. From entrance mat (7..8, 11), walk West to (5, 10).
-  2. Walk North 3 steps to (5, 7) (open corridor above the NPC at (4, 9)).
-  3. Walk West 3 steps to (2, 7).
-  4. Walk North 5 steps along Column 2 from (2, 7) to (2, 2) (completely open bypass around counter and pillar).
-  5. Walk East 6 steps along Row 2 from (2, 2) to (8, 2).
-  6. Walk North 2 steps into doorway at (8, 0) to transition into Lorelei's Chamber.
+- Lorelei's Chamber (Room 1) entrance doorway located at (8, 0).
 
 
 <hr>
@@ -2955,23 +2949,18 @@
   - East boundary: Rock wall at col 26.
   - West egress: Water canal connection leading to central/northwest corridors.
 
-## Verified Ladders
-- NW Ladder A1: Located in northwest sector of 1F, leads to 2F (1, 3).
-- Additional ladders connect to 2F isolated landings and B1F descent.
+## Verified Ladders & Landmarks
+- NW Ladder A1: (1, 3) <-> 2F (1, 3).
+- West Ladder A2: (3, 11) <-> 2F (3, 11).
+- Center-West Ladder C: (18, 9) <-> 2F Component C (19, 7).
+- Center-East Ladder B: (23, 7) <-> 2F Component B (22, 6).
+- Far NE Ladder D: (27, 1) <-> 2F Component D (29, 1) (isolated NE landing).
+- Entrance Chamber passage: (21, 11) connects north to row 10 main corridor (21, 10).
+- Northern Water Canal: Continuous water channel across rows 4-5 (cols 0-29).
 
 ## Wild Encounters (1F)
-- Parasect (Bug/Grass)
-- Golbat (Poison/Flying)
-- Venomoth (Bug/Poison)
-- Magneton (Electric)
-- Hypno (Psychic)
-- Sandslash (Ground)
-## Verified 1F Ladders & Landmarks
-- Ladder at (18, 9) <-> 2F Component C (19, 7) (isolated alcove).
-- Ladder at (23, 7) <-> 2F Component B (22, 6) (isolated landing).
-- Entrance Chamber passage: (21, 11) connects north to row 10 main corridor (21, 10).
-- Ladder at (27, 1) <-> 2F Component D (29, 1) (isolated NE landing).
-- Northern Water Canal: Continuous navigable water channel across rows 4-5 (cols 0-29).
+- Parasect (Bug/Grass), Golbat (Poison/Flying), Venomoth (Bug/Poison), Magneton (Electric), Hypno (Psychic), Sandslash (Ground).
+
 
 <hr>
 
@@ -2980,18 +2969,25 @@
 # Cerulean Cave (Unknown Dungeon) 2F - Layout & Notes
 
 ## Connected Component Graph (2F)
-- **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 3-19.
-  - Ladder A1: (1, 3) <-> 1F NW sector.
-  - Ladder A2: (3, 11) <-> 1F Western ridge.
-  - Ladder C: (19, 7) <-> 1F (18, 9) (central transit hub, connects directly to Row 3-5 East/West Highway!).
-  - Ladder B: (22, 6) <-> 1F (23, 7) (connected via open corridors across cols 19-23, rows 3-10).
-  - Ladder D: (29, 1) <-> 1F (27, 1) (isolated NE landing).
-  - Ladder E: (9, 1) <-> 1F (7, 1) (isolated NW terrace).
+- **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 1-19.
+  - Ladder A1: (1, 3) <-> 1F (1, 3) [NW Sector].
+  - Ladder A2: (3, 11) <-> 1F (3, 11) [Western Ridge].
+  - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
+  - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
+  - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
+  - Ladder E: Sighted at (9, 1) [Descent target, physical landing pending verification].
+
+## Verified Physical Boundaries & Corridors (2F)
+- Solid Rock Collisions verified: (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4).
+- Open Thoroughfares:
+  - Row 1 North Bypass: (11..18, 1) connects to column 13.
+  - Column 13 North-South transit: (13, 1..6) connects Row 1 to Row 6.
+  - Row 6-7 Highway: (7..16, 6..7) connects central sector to northwest quadrant.
 
 ## Verified Items (2F)
-- Item Pokéball at (29, 9) collected (PP Up).
-- Item Pokéball at (13, 6) collected (Max Potion).
-- Item Pokéball at (4, 15) collected (TM14 Blizzard).
+- Item Pok�ball at (29, 9) collected (PP Up).
+- Item Pok�ball at (13, 6) collected (Max Potion).
+- Item Pok�ball at (4, 15) collected (TM14 Blizzard).
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
