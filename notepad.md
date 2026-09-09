@@ -2934,10 +2934,10 @@
 ## Map Layout & Exploration
 - Entrance landing at (24, 17) facing north into open cavern corridor.
 - Row 13 has a one-way ledge facing south at (24, 13).
-- Corridor runs west along row 14 (cols 21-24).
+- Corridor runs west along row 14 (cols 20-24). Column 19 is a solid rock wall (rows 10-18) dividing the entrance corridor from western ridge.
 - Stairs/Ladders to elevated ridges:
   - Stairs at (21, 11) leading North onto elevated ridge at (21, 10).
-  - Stairs at (17, 15) leading West onto western elevated ridge.
+  - Western elevated ridge with stairs at (17, 15) and ladder at (18, 9).
   - Stairs at (25, 9) leading East.
   - Stairs/Structure at (23, 3) on northern shore across water.
 - Ladders (Floors):
@@ -2946,7 +2946,7 @@
 - Items:
   - Pokéball item at (19, 3) on northern ledge.
 - Water canals:
-  - Northern lake at rows 4-5 (cols 18-27).
+  - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to western side and northern structures!
   - Southern canal at rows 10-11 (cols 24-29) extending east.
 
 ## Wild Encounters (1F)
