@@ -3039,16 +3039,11 @@
 
 ## Active Frontiers & Hypotheses
 - **Frontier F1 - Ladder D (NE Sector)**:
-  - 2F (29, 1) <-> 1F (27, 1). Unexplored landing. Primary candidate for B1F progression.
+  - 1F (27, 1) <-> 2F (29, 1). Accessible via water canal shore at (23, 3) -> (27, 1).
 - **Frontier F2 - Ladder C / Central Transit**:
   - 2F (19, 7) <-> 1F (18, 9).
 - **Frontier F3 - South Transit Probe**:
-  - Column 24 south to Row 15 to test westward / eastward connectivity.
-
-## Next Steps
-1. Dismiss battle textbox with B.
-2. Probe south along Column 23 to (24, 11) -> (24, 15).
-3. Test connectivity at Row 15.
+  - Column 24 south to Row 15 verified dead-end at (24, 15).
 
 <hr>
 
