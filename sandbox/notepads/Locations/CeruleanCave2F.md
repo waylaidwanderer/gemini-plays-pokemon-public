@@ -26,3 +26,4 @@
 - Rhydon (Ground/Rock)
 - Electrode (Electric)
 - Marowak (Ground)
+- Wigglytuff (Normal)
