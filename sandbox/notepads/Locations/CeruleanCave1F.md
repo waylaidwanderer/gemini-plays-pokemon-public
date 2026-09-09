@@ -2,7 +2,7 @@
 
 ## Connections & Entrance
 - South Exit: Outside to Cerulean City waterway at (24, 17).
-- Access Requirement: Defeat the Pok√©mon League (Champion title) to remove the cave guard.
+- Access Requirement: Defeat the PokÈmon League (Champion title) to remove the cave guard.
 
 ## Map Layout & Exploration
 - Entrance landing at (24, 17) facing north into open cavern corridor.
@@ -10,29 +10,25 @@
 - Corridor runs west along row 14 (cols 20-24). Column 19 is a solid rock wall (rows 10-18) dividing the entrance corridor from western ridge.
 - Stairs/Ladders to elevated ridges:
   - Stairs at (21, 11) leading North onto central elevated ridge at (21, 10).
-  - Western elevated ridge with stairs at (17, 15), stairs at (11, 13), and ladder at (18, 9).
+  - Western elevated ridge with stairs at (17, 15), stairs at (11, 13), stairs at (1, 13), and ladder at (18, 9).
   - Stairs at (25, 9) leading Down into water canal at (25, 10).
   - Stairs at (23, 3) leading North from water onto northern elevated ridge.
   - Stairs at (15, 3) leading North from water onto northwest elevated ridge.
-- Ladders (Floors):
-  - Ladder at (23, 7) on central elevated platform (leads to isolated 2-tile alcove on 2F).
-  - Ladder at (27, 1) on northern elevated ridge (accessed via stairs at 23, 3).
-  - Ladder at (18, 9) on western elevated platform.
-  - Ladder at (7, 1) on isolated NW terrace (connects to 2F at (9, 1)).
-  - Ladder at (1, 3) in NW ground area.
-  - Ladder at (3, 11) on elevated ridge.
-  - Ladder at (0, 6) on NW elevated ridge.
-- Items:
-  - Pok√©ball item at (19, 3) on northern ledge [Collected Turn 39567].
-  - Pok√©ball item at (7, 13) in southwest cavern [Collected Turn 39562].
-  - Pok√©ball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
-  - Pok√©ball item at (4, 15) in southwest cavern [Collected Turn 39538].
+
 ## Verified Bidirectional Ladder Matrix (1F <-> 2F)
 - 1F (23, 7) <-> 2F (22, 6): Isolated 2-tile landing on 2F (dead-end).
 - 1F (18, 9) <-> 2F (19, 7): Isolated 3x3 alcove on 2F (dead-end).
 - 1F (27, 1) <-> 2F (29, 1): Isolated 7-tile landing on 2F (dead-end).
-- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 1F (item 5, 0 collected).
+- 1F (7, 1) <-> 2F (9, 1): Isolated NW terrace on 1F (item at (5, 0) collected).
 - 1F (1, 3) <-> 2F (1, 3): MAIN ENTRANCE TO FULL 2F MAZE & B1F ACCESS!
+- 1F (3, 11) <-> 2F (3, 11): Western elevated ridge connection.
+- Ladder at (0, 6) on NW elevated ridge.
+
+## Items (1F)
+- PokÈball item at (19, 3) on northern ledge [Collected Turn 39567].
+- PokÈball item at (7, 13) in southwest cavern [Collected Turn 39562].
+- PokÈball item at (5, 0) on isolated NW terrace [Collected Turn 39494].
+- PokÈball item at (4, 15) in southwest cavern [Collected Turn 39538].
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
@@ -45,6 +41,7 @@
 - Electrode (Electric)
 - Venomoth (Bug/Poison)
 - Raichu (Electric)
+
 ## Verified Central Platform & Water Network (1F)
 - Central platform (cols 21-25, rows 6-10):
   - South stair ramp at (21, 11) -> (21, 10) connects to lower ground floor.
