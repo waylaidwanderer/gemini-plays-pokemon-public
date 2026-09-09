@@ -2675,7 +2675,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   1. Area 1 South Plateau: (17, 24) -> Up 2 to (17, 22) -> Right 3 to (20, 22) -> ascend (20, 21) -> west to (12, 20) -> descend (12, 21) to (12, 22).
   2. Area 1 North Bridge: Pond bypass (cols 8..10) north to bridge at (12, 7) -> cross to (17, 7) -> descend to (20, 8).
   3. Area 1 Canopy Highway: Breach Col 20 canopy (20, 6..3) -> Row 3 corridor west -> runway (0, 5) into Area 2 at (39, 31).
-  4. Area 2 South Highway: Row 33 bypass to col 20 -> statue opening (20, 34) -> row 35/36 west to Area 3 gate at (8..9, 34..35).
+  4. Area 2 Traversals: Ascend East Plateau (28, 27) -> north to (34, 14) -> descend (34, 15) to (34, 16) -> Central Lawn west to (22, 23) -> ascend Western Plateau (22, 23) -> cross to west stairs (16, 27) -> descend to (16, 28) -> south to Area 3 gate (8..9, 34..35).
   5. Area 3 Arrival: Enter Area 3 at (26, 0) with ~325 steps remaining, locate Secret House, claim HM03 Surf!
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
@@ -2683,6 +2683,5 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   1. Investigate Southwest Sector (rows 24..28 cols 0..15): Open lawn sighted from (1, 23) during Session 8. Check if Southwest Sector extends around to western/northern regions.
   2. Investigate Central/Western corridors: Map connectivity west of the central pond and around Rest House 4.
   3. Locate Secret House (HM03 Surf) with the ~260 step surplus!
-
 
 <hr>
