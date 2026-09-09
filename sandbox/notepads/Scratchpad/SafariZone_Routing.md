@@ -1,25 +1,7 @@
 # Safari Zone Routing & Progression Master Log
 
 ## Archived Session 6 Step Tracking (Completed Turn 8955)
-- Turn 8723: Started Session 6 with 500 steps (fee ¥500).
-- Turns 8723-8778: Traversed Center Area -> Area 1 -> Area 2 to Area 3 entrance at (26, 0) (238 steps used, 262 remaining).
-- Turns 8778-8862: Explored Area 3 plateau network and overlook:
-  - Ascended plateau bridge at (21, 17) -> (21, 16).
-  - Traversed north along col 16 ridge to northern overlook (rows 6..8, cols 11..16).
-  - 100% Empirically verified northern overlook has NO descent to Northwest Lawn:
-    - (10, 8) solid cliff (Turn 8804)
-    - (11, 5) solid cliff (Turn 8856)
-    - (10, 6) solid cliff (Turn 8859)
-    - (10, 7) solid cliff (Turn 8861)
-  - Retraced south to (21, 16) and descended staircase at (21, 17) to East Corridor (21, 18).
-- Turns 8868-8886: Inspected East Corridor at (25, 4):
-  - Read signpost at (26, 4): 'TRAINER TIPS / Zone Exploration Campaign! / The Search for the SECRET HOUSE!'
-  - Empirically confirmed column 24 bush hedge is solid at (24, 4) (Turn 8886).
-- Turns 8887-8906: Explored Sector SW:
-  - Crossed plateau bridge to western staircase at (6, 19).
-  - Descended to row 20 tall grass at (6, 20), traversed west to col 1 clear lawn corridor.
-  - Empirically confirmed southern boundary at (2, 24) is solid bush hedge (Turn 8905).
-  - Verified Sector SW rows 19..23 cols 0..6 contains no buildings; southern rows 24..28 bounded by tree/hedge at row 24.
+- Session 6 Summary: Traversed to Area 3, collected Gold Teeth (rewards HM04 Strength), sighted item ball at (9, 7), verified northern overlook (rows 6..8) has no descent, and mapped southern bush boundaries before expiring.
 
 ## Session 7 Routing Hypotheses (Unverified)
 ### Area 3 Routing Hypotheses (Under Verification in Session 7)
