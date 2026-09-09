@@ -5,14 +5,14 @@
 - **Shore Ramps (1F)**:
   - Shore Ramp (25, 9): Connects Eastern canal to Central-East landing.
   - Shore Ramp (23, 3): Connects Northern canal to NE landing.
-  - Shore Ramp (11, 13): Connects Southern canal cove to Central Plateau (11..15, 8..12).
+  - Shore Ramp (11, 13): Connects Southern canal cove to Central Plateau (11..18, 8..12).
 - **Ladders**:
   - Ladder B: (23, 7) <-> 2F (22, 6) [Central-East landing, accessible via shore ramp at (25, 9)].
-  - Ladder C: (18, 9) <-> 2F (19, 7) [Central platform transit hub; accessed from East landing via Ledge (21, 11) -> Row 12 West -> Column 17 North -> (18, 9)].
+  - Ladder C: (18, 9) <-> 2F (19, 7) [Central platform transit hub; directly accessible from Central Plateau via Row 8 East (11..18, 8) -> (18, 9)].
   - Ladder D: (27, 1) <-> 2F (29, 1) [NE Landing, accessible via shore ramp at (23, 3); isolated 2F landing for PP Up].
   - Ladder E: (7, 1) <-> 2F (9, 1) [Isolated NW terrace with one-way ledge jump down at (15, 3)].
-  - Ladder A1 (Hypothesized NW Ladder): (1, 3) <-> 2F (1, 3) [Accessible via Central Plateau (11, 13) -> Row 8 -> Row 7 West -> Column 1].
-  - Ladder A2 (Hypothesized B1F Route): (3, 11) <-> 2F (3, 11) [Western Ridge - requires empirical verification].
+  - Ladder A1 (Hypothesized NW Ladder): (1, 3) <-> 2F (1, 3) [Accessible via Northern Grand Highway on 2F].
+  - Ladder A2 (Hypothesized B1F Route): (3, 11) <-> 2F (3, 11) [Western Ridge - accessible via 2F Western Highway (Column 1)].
 
 ## Main Canal Network (1F)
 - Eastern canal (verified): (25, 17) -> (25, 11) -> (21, 11) -> (21, 7). Connects to shore ramps at (25, 9) and (23, 3).
