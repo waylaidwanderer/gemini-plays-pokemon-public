@@ -19,8 +19,9 @@
 - Items:
   - Pokéball item at (19, 3) on northern ledge.
 - Water canals:
-  - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures.
-  - Southern canal at rows 10-11 (cols 24-29) - testing ground-level Surf entry at (24, 12) to empirically map canal connectivity to northern lake.
+  - Northern lake at rows 4-5 (cols 18-27) - provides Surf access to northern structures and western cavern.
+  - Southern canal at rows 10-11 (cols 24-29) - accessed via stairs ramp at (25, 9) into (25, 10).
+  - Eastern channel at cols 28-29 (rows 5-10) - verified continuous open water connecting southern canal to northern lake!
 
 ## Wild Encounters (1F)
 - Hypno (Psychic)
