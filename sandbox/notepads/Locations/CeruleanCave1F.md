@@ -23,7 +23,12 @@
   - Rock island at (10..13, 4..5) separates Northern Highway from Central canal.
 - **East Landing Access (Verified Turn 42699)**: The East Landing (cols 21..25, rows 6..10 containing Ladder B at (23, 7)) cannot be boarded from the north (row 5); it is boarded from the south via the ramp at (25, 9) from the East Water Channel at (25, 10).
 - **High NE Plateau (Verified Turn 42728)**: Spans cols 23..28, rows 0..2. Accessed via Ramp at (23, 3) from Northern Water Highway at (23, 4). Contains Ladder D at (27, 1) <-> 2F (29, 1). Blocked to west by solid rock wall at (19..22, 0..3).
-- **NW Upper Shelf / Plateau (Verified Turn 42733)**: Accessed via Ramp at 1F (15, 3) from Northern Water Highway at 1F (15, 4). Spans cols 0..16, rows 0..2. Contains Ladder E at (7, 1) <-> 2F (9, 1). Continues west towards western boundary.
+- **NW Upper Shelf Topology & Probes (Turns 42733, 43519)**:
+  - Accessed via Ramp at 1F (15, 3) from Northern Water Highway at 1F (15, 4).
+  - Contains Ladder E at (7, 1) <-> 2F (9, 1).
+  - Floor verified spanning (5..15, 0..2). Southern boundary at Row 3 is a cliff wall overlooking the NW Lower Basin.
+  - Collision test on Turn 43519 confirmed Tile (4, 0) is a solid rock wall (blocked moving Left from (5, 0)).
+  - Rows 1 and 2 at Column 4 are visually solid rock, while the shelf connects east to the water ramp at (15, 3). No confirmed ground path exists from this shelf to the NW basin. Access to NW Lower Basin is via 1F Waterways.
 - **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
   - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
@@ -32,9 +37,3 @@
   - Row 12 is an open horizontal corridor spanning (11..15, 12) and (16..18, 12).
   - Column 15 connects (15, 12) south to (15, 14).
   - West Ramp at (11, 13) is accessed from (11, 12) by stepping Down.
-- **NW Upper Shelf Western Boundary (Empirically Verified Turn 43519)**:
-  - NW Upper Shelf floor spans cols 5..16, rows 0..2.
-  - Empirically verified via physical collision testing on Turn 43519 that Tile (4, 0) is a solid rock wall (dispatching Left from (5, 0) blocked). Tiles (4, 1..2) visually and structurally form a continuous solid rock barrier bounding the shelf on the west.
-  - Southern edge at Row 3 is a solid cliff wall overlooking the NW Lower Basin.
-  - The shelf contains Ladder E at (7, 1) <-> 2F (9, 1) and connects east to the water Ramp at (15, 3).
-  - Conclusion: No ground transit from NW Upper Shelf to the NW Lower Basin. Access to NW Lower Basin (Ladder A at (1, 3)) must be via 1F Waterways.
