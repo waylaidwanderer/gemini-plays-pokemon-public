@@ -73,6 +73,8 @@
   - Western Passage (cols 8..15, rows 14..20): North-south open corridor between pond/hedge and col 16 bush wall, opening into clean lawn at rows 18..20 [Verified Turn 10682].
   - Column 5 Bush Barrier (rows 20..33): Continuous solid hedge of bushes and statues along column 5 from row 20 to row 33; tile (5, 29) empirically confirmed solid bush collision [Verified Turn 10688].
   - Southwest Lawn Corridor (cols 6..11, rows 30..33): Wide-open clean lawn connecting column 6 east to column 11 and south toward Area 3 gate [Verified Turn 10688].
+  - South Gate 1 (to Area 3 East): Located at cols 8..9 rows 34..35 with south arrow markers at (8..9, 35). Flanked by statues at col 7 and col 10. Warps to Area 3 (26..27, 0) [Verified Turns 8403, 10163, 10692].
+  - South Gate 2 (Western Lawn Exit): Located at cols 2..3 rows 34..35 with south arrow markers at (2..3, 35). Connected to the western lawn corridor (cols 2..4) [Discovered Turn 10692].
   - Obstacle at (16, 16) [Verified Turn 8637].
   - Tile (25, 23) empirically verified solid cliff wall from (26, 23) [Turn 10405-10406].
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
