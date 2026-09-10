@@ -3041,10 +3041,14 @@
   - Column 17 Rock Wall: Continuous solid rock at (17, 2..8) and (16, 2). Only Row 1 (15, 1) -> (17, 1) -> (18, 1) connects Column 15/16 to Column 18 (Verified Turn 42586).
   - (19, 3) open floor confirmed on Turn 42593 connecting Column 18 and Column 20.
 
-- **Active Hypothesis for NW Ladder (1, 3)**:
-  - Sighted ladder at (1, 3) from (3, 3).
-  - Hypothesis: Row 9 grand highway (23..1, 9) may connect Column 23 (23, 7..11) to Western Sector -> Row 7 (1..9, 7) -> Column 6 (6, 6) -> Row 5 West (1..7, 5) -> Column 0 (0, 5..2) -> (1, 2) -> Ladder A1 at (1, 3).
-  - Status: UNVERIFIED HYPOTHESIS. Currently executing step-by-step physical traversal to test each corridor.
+- **Disproven 2F South-to-West Connectivity (Verified Turns 42710-42715)**:
+  - Row 11 corridor on 2F was fully traversed from 2F (23, 11) west to 2F (14, 11).
+  - 2F (13, 11) is solid purple rock. Column 14 runs south only to 2F (14, 13) before turning east into Row 13 (15..22, 13).
+  - The entire South Sector of 2F (cols 14-28, rows 11-17) is an isolated loop connecting ONLY to Ladder B at 2F (22, 6). There is NO connection from Column 23/Ladder B to the western sector or NW Ladder A1 on 2F.
+
+- **Active Hypothesis for NW Ladder A1 (1, 3) on 2F & 1F NW Shelf**:
+  - Sighted ladder at 2F (1, 3) from 2F (3, 3).
+  - Physical access to 2F (1, 3) or isolated 1F upper western shelf (0..5, 4..7) must come from 1F Northern Waterway / NW Shelf (1F Ladder E at (7, 1) or 1F Ramp at (23, 3) / other northern landings).
 
 - **South Sector (cols 11..27, rows 7..17)**:
   - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 9 highway (1..23, 9) and Row 11 East corridor (14..23, 11).
