@@ -2642,6 +2642,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Row 24 lawn bypass: clean lawn at cols 10..15 flanked by bushes, bypasses row 23 tall grass without encounters [Verified Turn 8916].
 - Column 11 bushes at (11, 4) [Turn 10069] and (11, 7) [Turn 9954] empirically verified impassable with zero movement delta.
   - Tile (2, 13) empirically verified impassable water shoreline collision from (2, 14) [Turn 10219].
+  - Tile (1, 14) empirically verified impassable tree canopy collision from (2, 14) [Turn 10455].
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
   - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
@@ -2685,14 +2686,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 12 Step Ledger
 - Status: Active Session 12 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (6, 20) [Turn 10445]
-- Steps Remaining: ~170 / 500 steps
+- Current Position: Safari Zone Area 3 at (11, 18) [Turn 10471]
+- Steps Remaining: ~121 / 500 steps
 - Stage: Stage 4 - Area 3 Exploration to Secret House
 - Traversal History (Session 12):
   1. Center Area: (14, 25) -> (29, 10) [Completed Turn 10377]
   2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Completed Turn 10400]
   3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) [Completed Turn 10412]
   4. Area 3 (West): (26, 0) -> East corridor -> Southern Plateau Bridge -> descended to (6, 20) [Turn 10436]
+  5. Ground Basin Audit & Return: (6, 20) -> (2, 14) [verified (2, 13) water and (1, 14) tree collision] -> (12, 14) [Rest House 4 basin cul-de-sac] -> returned via western stairs (6, 19) to (11, 18) [Turn 10471]
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
@@ -2706,12 +2708,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Prerequisite: 500 steps, �69,000+ money.
 - Target: Safari Zone Area 3 Secret House (HM03 Surf).
 - Traversal Route:
-  1. Gatehouse -> Center Area (north through grass/lawn to col 28 east exit) -> Area 1.
-  2. Area 1 -> South Plateau bridge -> North Plateau bridge -> row 3 canopy corridor -> Area 2 gateway at (0, 4..5).
-  3. Area 2 -> Western Plateau bridge -> south gate at (8..9, 34..35) into Area 3 at (26..27, 0).
-  4. Area 3 -> Southern Plateau Bridge -> descend western stairs to (6, 20) [Completed Turn 10436].
-  5. Western Exploration: Navigate from (6, 20) to uncover pathway into Northwest Sector (rows 0..9 cols 0..9).
-  6. Northwest Lawn: Locate and enter Secret House to obtain HM03 Surf!
+  1. Area 3 Investigation: Verify connectivity at col 15/16 and East Corridor connections to Northwest Sector.
+  2. Northwest Sector Access: Locate ground/plateau passage into unvisited rows 0..9 cols 0..9.
+  3. Northwest Lawn: Locate and enter Secret House to obtain HM03 Surf!
 
 ## Western Boundary Collision Audit (Turns 10454-10455)
 - Tile (2, 13): Empirically verified impassable water shoreline collision from (2, 14) [Turn 10454].
