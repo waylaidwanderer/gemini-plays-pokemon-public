@@ -2640,6 +2640,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Southern bush enclosures: col 18 solid bush wall at rows 20..23; row 24 continuous hedge across cols 2..9 and bushes at (16..17, 24); row 25 bushes at cols 10..15 and 18..21.
   - Row 24 lawn bypass: clean lawn at cols 10..15 flanked by bushes, bypasses row 23 tall grass without encounters [Verified Turn 8916].
 - Column 11 bushes at (11, 4) [Turn 10069] and (11, 7) [Turn 9954] empirically verified impassable with zero movement delta.
+  - Tile (2, 13) empirically verified impassable water shoreline collision from (2, 14) [Turn 10219].
 
 <hr>
 
