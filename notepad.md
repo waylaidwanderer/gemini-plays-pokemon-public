@@ -3012,6 +3012,11 @@
 - **Western Ridge South Sector Verified (Turn 42387)**:
   - The South Western Ridge (cols 1-6, rows 8-12) is an elevated plateau accessed via South Ramp at (1, 13).
   - (3, 11) and (0, 8) on 1F contain no functional warps/routes to northern sectors. Row 7 is a continuous rock wall and Column 7 is a cliff edge, so this plateau is a dead end.
+- **NW Sector & (1, 3) Ladder Shoreline (Discovered Turn 42418)**:
+  - There is a ladder located at (1, 3) on an isolated NW ground shelf.
+  - Shoreline access to this shelf is at (5, 4) / (5, 5).
+  - Continuous walkable ground spans row 4: (5, 4) <-> (4, 4) <-> (3, 4) <-> (2, 4) <-> (1, 4) <-> (1, 3) [Ladder].
+  - Water at (6, 4..5) borders this shoreline and connects southeast to the western water channel at (8, 6).
 
 <hr>
 
