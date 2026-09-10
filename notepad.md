@@ -3006,6 +3006,10 @@
 - **Western Ridge Ladder Confirmed (Turn 42380)**:
   - Ladder located at (3, 11) on the elevated Western Ridge.
   - Open continuous ridge floor extends north across cols 1..6, rows 1..12.
+- **B1F Ladder Discovered at (0, 6) (Turn 42381)**:
+  - (1, 7) is solid rock.
+  - From (1, 8), path leads Left to (0, 8) -> Up to (0, 7) -> Ladder at (0, 6).
+  - This ladder descends directly to Cerulean Cave B1F (Mewtwo's lair)!
 
 <hr>
 
