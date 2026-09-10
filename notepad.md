@@ -2974,6 +2974,7 @@
   - Northern Water Highway: Rows 4-5 (cols 14-20), Row 6-7 bypass (cols 10-15).
   - Western Water Channel: Cols 8-9 (rows 6-14).
   - Rock island at (10..13, 4..5) separates Northern Highway from Central canal.
+- **East Landing Access (Verified Turn 42699)**: The East Landing (cols 21..25, rows 6..10 containing Ladder B at (23, 7)) cannot be boarded from the north (row 5); it is boarded from the south via the ramp at (25, 9) from the East Water Channel at (25, 10).
 
 <hr>
 
