@@ -2,17 +2,17 @@
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Center Area at (15, 24) [Turn 10734]
-- Steps Consumed: 1 / 500 steps taken (499 steps remaining!)
+- Current Position: Safari Zone Center Area at (21, 20) [Turn 10736]
+- Steps Consumed: 11 / 500 steps taken (489 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868
 
 ## Master Plan & Execution Tracker (Session 14)
 - Objective: Reach Area 2 South Gate 2 at (2..3, 35) to access Area 3 West / Secret House.
-- Stage 1 (Center Area Traversal) [Budget: ~34 steps, 1 taken]:
+- Stage 1 (Center Area Traversal) [Budget: ~34 steps, 11 taken]:
   - [x] Emerge at (15, 24) [Turn 10734]
-  - [ ] Walk east along row 23 to col 21 (~6 steps)
-  - [ ] Walk north through cols 20-22 grass corridor to row 15 (~8 steps)
+  - [x] Walk east along row 23/21 to (21, 20) [Turn 10736]
+  - [ ] Advance north along col 21 to row 15 (21, 15) (~5 steps)
   - [ ] Cut east through tree gap at (23..27, 15) to col 28 (~7 steps)
   - [ ] Walk north along col 28 to East Gate at (29, 10) (~12 steps)
   - [ ] Enter Area 1 at (0, 23)
