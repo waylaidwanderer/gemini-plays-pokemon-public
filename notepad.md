@@ -134,7 +134,7 @@
 - FULL RESTORE x1 [Slot 15] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x2 [Slot 16] [Obtained Area 1 / Area 3, Verified Turn 11082]
 - TM40 (SKULL BASH) x1 [Slot 17] [Verified Turn 11082]
-- MAX REVIVE x1 [Slot 19] [Verified Turn 11082]
+- [Consumed Turn 11170] MAX REVIVE used on Blastoise
 
 ## Key Items & HMs
 - OLD ROD [Slot 2] [Verified Turn 11080]
@@ -150,7 +150,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Bag is completely full, 100% verified all 20 slots Turns 11080-11082).
+- Total Slots Used: 19 / 20 (Max Revive consumed Turn 11170, 1 slot free for Good Rod).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x4
   2. OLD ROD
@@ -187,8 +187,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
-  - Status: Fainted [Turn 7288]
-  - HP: 0 / 157
+  - Status: Healthy (Revived Turn 11170 via Max Revive)
+  - HP: 157 / 157
   - Stats: Attack 115, Defense 133, Speed 115, Special 117
   - Moves: Double-Edge (PP 12/15) [Learned Turn 7274], Body Slam (PP 0/15), Bubblebeam (PP 0/20), Ice Beam (PP 0/10) [Verified Turn 7233 via Stats Screen - OUT OF PP]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
