@@ -2,9 +2,9 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (6, 28) [Turn 10629]
-- Steps Remaining: 208 / 500 steps [Turn 10629]
-- Stage: Stage 4 - Advancing North along Col 6 to find Western Bypass around Col 5 Hedge into Gate 2
+- Current Position: Safari Zone Area 2 at (6, 25) [Turn 10630]
+- Steps Remaining: 205 / 500 steps [Turn 10630]
+- Stage: Stage 4 - Advancing North along Col 6 to find Western Bypass into Gate 2 (Exeggcute Encounter)
 
 ## Session 13 Traversal History
 1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]

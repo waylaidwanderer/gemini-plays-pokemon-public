@@ -2667,9 +2667,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (6, 32) [Turn 10628]
-- Steps Remaining: 212 / 500 steps [Turn 10628]
-- Stage: Stage 4 - Discovered Second South Gateway at Cols 2..3! Heading North around Col 5 Hedge to Access Gate 2
+- Current Position: Safari Zone Area 2 at (6, 28) [Turn 10629]
+- Steps Remaining: 208 / 500 steps [Turn 10629]
+- Stage: Stage 4 - Advancing North along Col 6 to find Western Bypass around Col 5 Hedge into Gate 2
 
 ## Session 13 Traversal History
 1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]
