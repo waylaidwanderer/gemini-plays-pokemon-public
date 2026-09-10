@@ -1,4 +1,4 @@
-# Safari Zone Master Routing & Step Ledger (Session 11)
+# Safari Zone Master Routing & Step Ledger (Session 12)
 
 ## Ground Truth & Area 3 Connectivity (Verified Turns 9533–9691)
 - Area 3 Entrance: (26, 0) from Area 2.
@@ -21,18 +21,18 @@
   - Rest House 4 is at cols 10..13 rows 10..11.
   - Rest House 4 basin is an enclosed cul-de-sac: blocked east by cliff at col 14, and west by water shoreline at (9, 11..13) (Turn 9626: tile 9, 12 is water collision).
 - Unvisited Candidate Target Sectors:
-  2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
+- Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 12 Step Ledger
 - Status: Active Session 12 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 1 at (20, 22) [Turn 10383]
-- Steps Remaining: 447 / 500 steps
-- Stage: Stage 2 - Area 1 Traversal to Area 2 Gateway (0, 4..5)
-- Traversal Stage Targets:
-  1. Center Area: (15, 24) -> (29, 10) [Target: <= 35 steps, margin >= 465]
-  2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Target: <= 85 steps, margin >= 380]
-  3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) [Target: <= 65 steps, margin >= 315]
-  4. Area 3 (West): (26, 0) -> Explore ground level connections and investigate Gold Teeth Cove / Northwest paths to locate Secret House [Target: <= 80 steps, margin >= 160]
+- Current Position: Safari Zone Area 3 at (6, 20) [Turn 10445]
+- Steps Remaining: ~170 / 500 steps
+- Stage: Stage 4 - Area 3 Exploration to Secret House
+- Traversal History (Session 12):
+  1. Center Area: (14, 25) -> (29, 10) [Completed Turn 10377]
+  2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Completed Turn 10400]
+  3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) [Completed Turn 10412]
+  4. Area 3 (West): (26, 0) -> East corridor -> Southern Plateau Bridge -> descended to (6, 20) [Turn 10436]
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
@@ -49,6 +49,6 @@
   1. Gatehouse -> Center Area (north through grass/lawn to col 28 east exit) -> Area 1.
   2. Area 1 -> South Plateau bridge -> North Plateau bridge -> row 3 canopy corridor -> Area 2 gateway at (0, 4..5).
   3. Area 2 -> Western Plateau bridge -> south gate at (8..9, 34..35) into Area 3 at (26..27, 0).
-  4. Area 3 -> South to (21, 18) -> Ascend elevated plateau at (21, 17).
-  5. Plateau Exploration: Head north along elevated plateau to thoroughly scout connections and paths toward Secret House.
-  6. Northwest Lawn: Enter Secret House and obtain HM03 Surf!
+  4. Area 3 -> Southern Plateau Bridge -> descend western stairs to (6, 20) [Completed Turn 10436].
+  5. Western Exploration: Navigate from (6, 20) to uncover pathway into Northwest Sector (rows 0..9 cols 0..9).
+  6. Northwest Lawn: Locate and enter Secret House to obtain HM03 Surf!
