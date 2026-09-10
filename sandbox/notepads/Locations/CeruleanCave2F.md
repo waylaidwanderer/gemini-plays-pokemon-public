@@ -50,10 +50,3 @@
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
 ## Verified 2F NW Sector & Ladder A Topology (Verified Turns 43125-43128)
 - Ladder A is located at 2F (1, 3) and descends to B1F!
-- Direct access to Ladder A on 2F:
-  - Column 0 is open floor: (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).
-  - (0, 3) connects directly EAST to Ladder A at (1, 3)!
-  - (0, 5) connects EAST along Row 5 across (1..7, 5).
-  - (5, 5) connects SOUTH along Column 5: (5, 5) -> (5, 6) -> (5, 7) -> (5, 8) -> (5, 9).
-  - (5, 9) connects EAST along Row 9 across (5..19, 9).
-  - Row 9 connects to Column 12: (12, 9) -> (12, 10..15) -> Row 17 South Artery.
