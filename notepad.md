@@ -3070,7 +3070,7 @@
   4. At 2F (13, 5), traverse Row 5 West to (11, 5), then probe west into (10, 5), (9, 5), and beyond to reach 2F (1, 3) and B1F!
 
 - **South Sector (cols 11..27, rows 7..17)**:
-  - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 9 highway (1..23, 9) and Row 11 East corridor (14..23, 11).
+  - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 11 East corridor (14..23, 11).
   - Return route from South Sector: Row 11 East (14..23, 11) -> Column 23 North (23, 11..7) -> Ladder B landing (22, 7).
 
 <hr>
