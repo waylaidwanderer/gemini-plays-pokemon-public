@@ -32,7 +32,9 @@
   - Row 12 is an open horizontal corridor spanning (11..15, 12) and (16..18, 12).
   - Column 15 connects (15, 12) south to (15, 14).
   - West Ramp at (11, 13) is accessed from (11, 12) by stepping Down.
-- **NW Upper Shelf Western Area (Unprobed Frontier)**:
-  - NW Upper Shelf spans rows 0..2, accessed via Ramp at (15, 3).
-  - Ladder E is located at (7, 1) <-> 2F (9, 1).
-  - Columns 0..6 on the 1F NW shelf (rows 0..2) have NOT been physically probed yet. Need to systematically walk west along rows 0..2 past Column 7 to test connectivity to the western edge / NW basin.
+- **NW Upper Shelf Western Boundary (Empirically Verified Turn 43519)**:
+  - NW Upper Shelf floor spans cols 5..16, rows 0..2.
+  - Empirically verified via physical collision testing on Turn 43519 that Tile (4, 0) is a solid rock wall (dispatching Left from (5, 0) blocked). Tiles (4, 1..2) visually and structurally form a continuous solid rock barrier bounding the shelf on the west.
+  - Southern edge at Row 3 is a solid cliff wall overlooking the NW Lower Basin.
+  - The shelf contains Ladder E at (7, 1) <-> 2F (9, 1) and connects east to the water Ramp at (15, 3).
+  - Conclusion: No ground transit from NW Upper Shelf to the NW Lower Basin. Access to NW Lower Basin (Ladder A at (1, 3)) must be via 1F Waterways.
