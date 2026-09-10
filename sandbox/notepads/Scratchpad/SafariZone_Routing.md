@@ -54,8 +54,8 @@
 - Refuted Route: East Corridor access into col 19 ground highway is blocked by col 24 bush hedge.
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 1 at (9, 17) [Turn 10568]
-- Steps Remaining: 427 / 500 steps [Turn 10568]
+- Current Position: Safari Zone Area 1 at (10, 10) [Turn 10570]
+- Steps Remaining: 419 / 500 steps [Turn 10570]
 - Stage: Stage 1 - Traversal to Area 2
 - Traversal Targets:
   1. Center Area: (14, 25) -> (29, 10) into Area 1 [Target: <= 30 steps, margin >= 470]
