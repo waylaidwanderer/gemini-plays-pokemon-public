@@ -2683,15 +2683,16 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (5, 20) [Turn 10323]
-- Steps Remaining: 44 / 500 steps
+- Current Position: Safari Zone Area 3 at (1, 20) [Turn 10331]
+- Steps Remaining: 40 / 500 steps
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Row 24 East Barrier: Solid horizontal bush hedge across cols 22..29 empirically verified Turn 10308. East border at (29, 22..23) has right-arrow warps to Center Area. Zero southern passage from East Corridor to rows 25..27.
-- Southern Sector Access Hypothesis: Testing whether Column 1 (cols 0..1) or adjacent rows provides an open corridor south of row 23 into the Southwest Sector (rows 24..28 across cols 2..15).
-- Strategic Route to Secret House: Ascend Southern Plateau Bridge at (21, 17) -> traverse west to (6, 19) -> descend to (6, 20) -> west to (1, 20) -> test passage south toward Southwest Sector -> navigate to Secret House!
+- Southern Sector Barrier: Empirically verified tree at (0..1, 24) and bushes across (2..9, 24) block all passage south past row 23 from the west side. Bottom rows 25..29 are an impassable boundary.
+- Northwest Route Hypothesis: Secret House is located on the Northwest Lawn (near sighted item ball at 9, 7). Accessible by routing north along columns 1..3 across row 16.
+- Strategic Route to Secret House: Advance north along col 1 lawn to (1, 16) -> turn east to (3, 16) -> explore northern corridor heading toward Northwest Lawn and Secret House!
 
 <hr>
