@@ -2,8 +2,8 @@
 
 ## Connected Component Graph (2F)
 - **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 1-19.
-  - Ladder A1: (1, 3) [NW Sector - warp destination pending direct exploration; hypothesized 1F NW / B1F].
-  - Ladder A2: (3, 11) [Western Ridge - warp destination pending direct exploration; hypothesized 1F West / B1F].
+  - Ladder A1: (1, 3) [Isolated NW alcove at (1, 2..3), enclosed by rock at (1, 1), (2, 1..4), (1, 4); serves as 1F->2F one-way warp destination].
+  - Ladder A2: (3, 11) [SW Sector - target ladder accessible via Row 7 West (1..7, 7) -> Columns 1..4 South].
   - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
   - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
   - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
