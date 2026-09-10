@@ -2976,6 +2976,7 @@
   - Rock island at (10..13, 4..5) separates Northern Highway from Central canal.
 - **East Landing Access (Verified Turn 42699)**: The East Landing (cols 21..25, rows 6..10 containing Ladder B at (23, 7)) cannot be boarded from the north (row 5); it is boarded from the south via the ramp at (25, 9) from the East Water Channel at (25, 10).
 - **High NE Plateau (Verified Turn 42728)**: Spans cols 23..28, rows 0..2. Accessed via Ramp at (23, 3) from Northern Water Highway at (23, 4). Contains Ladder D at (27, 1) <-> 2F (29, 1). Blocked to west by solid rock wall at (19..22, 0..3).
+- **NW Upper Shelf / Plateau (Verified Turn 42733)**: Accessed via Ramp at 1F (15, 3) from Northern Water Highway at 1F (15, 4). Spans cols 0..16, rows 0..2. Contains Ladder E at (7, 1) <-> 2F (9, 1). Continues west towards western boundary.
 
 <hr>
 
