@@ -2641,6 +2641,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Row 24 lawn bypass: clean lawn at cols 10..15 flanked by bushes, bypasses row 23 tall grass without encounters [Verified Turn 8916].
 - Column 11 bushes at (11, 4) [Turn 10069] and (11, 7) [Turn 9954] empirically verified impassable with zero movement delta.
   - Tile (2, 13) empirically verified impassable water shoreline collision from (2, 14) [Turn 10219].
+  - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
 
 <hr>
 
@@ -2674,8 +2675,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (12, 14) [Turn 10231]
-- Steps Remaining: 215 / 500 steps
+- Current Position: Safari Zone Area 3 at (13, 12) [Turn 10234]
+- Steps Remaining: 212 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
