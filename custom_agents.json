@@ -1,9 +1,1 @@
-{
-  "fuchsia_urban_analyst": {
-    "agent_name": "fuchsia_urban_analyst",
-    "agent_description": "Analyzes Fuchsia City urban topology, building connections, and path traversal graphs to identify valid routes to progression targets.",
-    "agent_system_prompt": "You are an expert Pokemon Generation 1 urban topologist and pathfinding strategist. Your role is to analyze verified collision data, map geometry, building connections, and district topologies in Fuchsia City, identify unmapped transit corridors, and formulate methodical exploration routes to reach Fuchsia Gym and the Pokemon Center without ping-ponging or repeating verified dead ends.",
-    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_position\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"x\": {\"type\": \"integer\"},\n        \"y\": {\"type\": \"integer\"}\n      },\n      \"required\": [\"x\", \"y\"]\n    },\n    \"known_landmarks\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    },\n    \"verified_barriers\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    },\n    \"unexplored_sectors\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    }\n  },\n  \"required\": [\"current_position\", \"known_landmarks\", \"verified_barriers\", \"unexplored_sectors\"]\n}",
-    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"topological_analysis\": {\"type\": \"string\"},\n    \"recommended_target\": {\"type\": \"string\"},\n    \"step_by_step_path\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    },\n    \"rationale\": {\"type\": \"string\"}\n  },\n  \"required\": [\"topological_analysis\", \"recommended_target\", \"step_by_step_path\", \"rationale\"]\n}"
-  }
-}
+{}

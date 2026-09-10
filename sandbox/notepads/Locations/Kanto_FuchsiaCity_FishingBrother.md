@@ -7,7 +7,7 @@
 
 ## Interior Layout
 - Front entrance mat: (2..3, 7).
-- Back Door: Located at (2, 0) in the north wall! [Discovered Turn 11143].
+- Back Door: Located at (2, 0) in the north wall; warps outside to (31, 24) into enclosed northern backyard [Verified Turn 11149-11150].
 - Occupant: Fishing Guru's older brother at (5, 3).
 - Decor: Desk/aquarium at cols 6..7 rows 3..4.
 - Floor Object: Poké Ball graphic on floor/cushion at (7, 7).
