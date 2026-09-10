@@ -43,5 +43,3 @@
   - Column 0 is open floor: (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).
   - (0, 3) connects directly EAST to Ladder A at (1, 3)!
   - (0, 5) connects EAST along Row 5 across (1..7, 5).
-  - (6, 5) connects SOUTH through (6, 6) to Row 7 floor at (1..7, 7).
-  - Row 7 floor connects to Western Ridge (cols 1..6, rows 8..12) and South Ramp at (1, 13).
