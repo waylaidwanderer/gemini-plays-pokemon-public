@@ -2,19 +2,21 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (12, 16) [Turn 10683]
-- Steps Consumed: 188 / 500 steps taken (312 steps remaining)
-- Stage: Auditing Area 2 Southwestern Sector (cols 0..12, rows 20..35) and progressing toward Area 3 gate.
+- Current Position: Safari Zone Area 3 at (26, 0) [Turn 10694]
+- Steps Consumed: 215 / 500 steps taken (285 steps remaining)
+- Stage: Entered Area 3 via North Entrance (Area 2 South Gate 1). Heading south down col 27 corridor toward Southern Plateau bridge at (21, 17).
 
-## Empirical Area 2 Ground Truth
-- Row 4 Northern Barrier: Solid continuous hedge of bushes and trees across cols 14..23 blocks all northern passage into row 3 [Verified Turn 10670].
-- Northern Pond: Spans cols 8..11 rows 9..13 [Verified Turns 10673-10675].
-- Western Passage: Columns 8..15 from row 14 to row 20 is wide open walkable terrain (tall grass rows 14-16, clean lawn rows 17-20) [Verified Turns 10679-10683].
+## Empirical Ground Truth & Boundary Findings
+- Area 2 South Boundary:
+  - South Gate 1 at (8..9, 34..35) connects to Area 3 (26..27, 0) [Verified].
+  - South Gate 2 at (2..3, 34..35) connects western lawn (cols 2..4) south toward Area 3 [Discovered Turn 10691].
+  - Column 5 is a continuous hedge/statue barrier from row 20 to 34 dividing Area 2 south [Verified].
+- Area 3 North Boundary:
+  - Rows 0 and 1 are blocked west of col 26 by 2x2 boundary trees at (22..25, 0..1). Northern passage west along row 0/1 is falsified [Verified Turn 10694].
+  - Signpost at (26, 4): Search for Secret House campaign.
 
-## Hypotheses & Active Exploration Plan
-- Hypothesis A (Area 2 Southwest Sector): Rows 20..35 across cols 0..7 may contain unmapped passages, structures, or gates. As we proceed south down column 12 into rows 20+, we will audit western openings.
-- Hypothesis B (Area 3 West Sector): The Secret House is located in Area 3 (West). If Area 2 southwest terminates exclusively at the Area 3 gate at (8..9, 34..35), we will enter Area 3 and systematically test unverified routes (such as the western shoreline bypass or plateau paths).
-- Immediate Steps:
-  1. Advance south from (12, 16) across clean lawn (rows 17-20) into rows 21+.
-  2. Scout westward across cols 0..8 between rows 20 and 35.
-  3. If southwest sector connects exclusively to Area 3 gate at (8..9, 34..35), transition to Area 3.
+## Master Plan: Systematic Area 3 Western Basin Audit
+1. Advance south down east corridor (col 27) across clean lawn to row 16 (~16 steps).
+2. Shift west to (21, 17) and ascend Southern Plateau bridge (~6 steps).
+3. Cross bridge west to (6, 19) and descend to (6, 20) (~16 steps).
+4. From (6, 20), thoroughly audit western basin (cols 0..10, rows 0..20) with remaining ~245 steps to reach Northwest Lawn and Secret House!
