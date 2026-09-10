@@ -561,7 +561,7 @@
 
 - East courtyard located at cols 30-34 across rows 20-27.
 
-- Northern Highway: Wide open road across rows 12-13 connecting west passage (col 8) to Route 24 thoroughfare (cols 20-22).
+- Northern Highway: Wide open road across rows 12-13 in the northern district of the city.
 
 
 
@@ -646,6 +646,15 @@
 - From (36, 15), walking west to col 33 and north across rows 11-7 enters the Backyard Courtyard behind the Burglarized House at (26..32, 7..9).
 
 - Broken rear wall at (27, 9) allows entry into the Burglarized House (interior 3, 0), which exits via front door (interior 3, 7) onto Cerulean central avenue at (27, 11).
+## Verified Urban Boundaries & Collisions
+- West Canal: Stone barrier along rows 15-17 (cols 0-7); water pool across rows 10-16.
+- West Backyard Fence: Solid wooden fence along row 15 (cols 8-11).
+- Central Buildings: Trade House spans cols 12-17 (rows 14-15); Pok�mon Center spans cols 18-21 (rows 15-17); Gym spans cols 24-31 (rows 16-19).
+- Central Trees/Fence: Solid cluster at cols 22-23 (rows 15-17).
+- Southern Buildings: Bike Shop at cols 12-15 (rows 24-25); Pok�mart at cols 18-21 / 24-27 (rows 24-25); Slowbro House at cols 28-33 (rows 24-25).
+- Southern Tree Line: Solid tree line along row 28 across cols 6-35.
+- Central Flower Beds: Solid flower gardens at cols 12-21 (rows 20-21) and cols 28-33 (rows 22-23).
+- Eastern Barrier: Fenced boundary along col 35 (rows 20-27) with Cut tree at (35, 20); open eastern avenue at cols 36-37.
 
 <hr>
 
