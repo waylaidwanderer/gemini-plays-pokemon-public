@@ -2502,7 +2502,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Biker at (46, 10) facing South (Team of 3: Koffing Lv 28, Grimer Lv 28, Weezing Lv 28) [DEFEATED Turn 11540]. Prize: ¥560. Defeat line: "That can't be true!".
 - Trainers at Col 41:
   - Beauty at (41, 10) facing West (Team of 2: Bulbasaur Lv 29, Ivysaur Lv 29) [DEFEATED Turn 11491].
-  - Jr. Trainer ♀ at (41, 11) facing South/North (Team of 3) [Engaged Turn 11650].
+  - Jr. Trainer ♀ at (41, 11) (Team of 3: Gloom Lv 28, Oddish Lv 28, Oddish Lv 28) [DEFEATED Turn 11659].
 - Landmarks:
   - Signpost at (39, 9).
   - Upper parallel road at row 5 with Bird Keeper at (37, 5).
