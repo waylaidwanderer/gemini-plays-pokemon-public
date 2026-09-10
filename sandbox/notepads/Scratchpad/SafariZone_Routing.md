@@ -8,7 +8,6 @@
   - Western access from East Corridor exists via:
     1. Row 18: South Plateau Eastern Staircase at (21, 17) [Ascends to elevated bridge].
     2. Row 23: Ground lawn corridor across cols 19..26 [Connects west to central lawn and cols 10..15 bypass].
-  - Row 14 connects west into Gold Teeth Cove (cols 18..23 rows 6..13, enclosed cul-de-sac; Gold Teeth collected Turn 8235).
   - East boundary at (29, 22..23) warps to Center Area at (0, 11).
 - Southern Plateau Bridge:
   - Spans cols 6..21 across rows 16..18.
@@ -24,16 +23,17 @@
 - Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 12 Step Ledger
-- Status: Active Session 12 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (11, 8) [Turn 10520]
-- Steps Remaining: ~30 / 500 steps [Turn 10522]
-- Stage: Stage 4 - Area 3 Exploration to Secret House
-- Traversal History (Session 12):
-  1. Center Area: (14, 25) -> (29, 10) [Completed Turn 10377]
-  2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Completed Turn 10400]
-  3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) [Completed Turn 10412]
-  4. Area 3 (West): (26, 0) -> East corridor -> Southern Plateau Bridge -> descended to (6, 20) [Turn 10436]
-  5. Ground Basin Audit & Return: (6, 20) -> (2, 14) [verified (2, 13) water and (1, 14) tree collision] -> (12, 14) [Rest House 4 basin cul-de-sac] -> returned via western stairs (6, 19) to (11, 18) [Turn 10471]
+- Status: Concluded Session 12 [Warp to Gatehouse Turn 10531]
+- Final Position: Safari Zone Area 3 at (28, 22) [Turn 10531]
+- Steps Remaining: 0 / 500 steps
+- Stage: Concluded (Transitioning to Session 13)
+- Complete Traversal History (Session 12):
+  1. Center Area: (14, 25) -> (29, 10) into Area 1 [Turn 10377]
+  2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) into Area 2 [Turn 10400]
+  3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) into Area 3 [Turn 10412]
+  4. Area 3 Bridge & Western Basin: (26, 0) -> bridge -> descended west stairs (6, 19) to (6, 20) [Turn 10436] -> tested (2, 13) [water collision] & (1, 14) [tree collision] -> audited Rest House 4 basin cul-de-sac at (12, 14)
+  5. Area 3 Plateau Overlook Audit: Re-ascended bridge via west stairs (6, 19) -> took elevated corridor (cols 15-16) north to (16, 7) [Turn 10477] -> audited plateau boundaries: (11, 5) non-cuttable [Turn 10512], (12, 5) cliff railing [Turn 10516], (10, 7) cliff wall [Turn 10505], (10, 8) cliff wall [Turn 10520], (11, 9) cliff edge [Turn 10522] (overlook confirmed enclosed)
+  6. East Corridor Probe & Expiration: Traversed to East Corridor -> tested (24, 12) & (24, 2) bush collisions -> audited northern boundary at (25, 2) -> returned south to (28, 22) where steps expired [Turn 10531]
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
@@ -43,15 +43,7 @@
 - Southern Sector Barrier: Empirically verified tree at (0..1, 24) and bushes across (2..9, 24) block all passage south past row 23 from the west side. Bottom rows 25..29 are an impassable boundary.
 - Rest House 4 Basin Closure: Tile (14, 14) empirically verified impassable cliff wall [Turn 10344-10345]. The entire basin (cols 10..13 rows 10..14) is enclosed on north/east by cliffs, south by bridge, and west by pond. Sole access is row 14/15 lawn westward to cols 2..3.
 
-## Session 12 Master Plan (HM03 Surf Route)
-- Prerequisite: 500 steps, ï¿½69,000+ money.
-- Target: Safari Zone Area 3 Secret House (HM03 Surf).
-- Traversal Route:
-  1. Area 3 Investigation: Verify connectivity at col 15/16 and East Corridor connections to Northwest Sector.
-  2. Northwest Sector Access: Locate ground/plateau passage into unvisited rows 0..9 cols 0..9.
-  3. Northwest Lawn: Locate and enter Secret House to obtain HM03 Surf!
-
-## Western Boundary Collision Audit (Turns 10454-10455)
+## ## Western Boundary Collision Audit (Turns 10454-10455)
 - Tile (2, 13): Empirically verified impassable water shoreline collision from (2, 14) [Turn 10454].
 - Tile (1, 14): Empirically verified impassable solid tree canopy collision from (2, 14) [Turn 10455].
 - Finding: Western flank (cols 0-2) is completely blocked. Route to northern sector must circumvent the pond to the east via row 14.
@@ -62,5 +54,14 @@
 - Refuted Route: East Corridor access into col 19 ground highway is blocked by col 24 bush hedge.
 ## Session 13 Master Strategy (HM03 Surf Route)
 - Prerequisite: 500 steps, ¥68,000+ money.
-- Finding from Session 12: Northern Plateau in Area 3 is an enclosed overlook. The northern lawn (rows 3-9) containing the Poké Ball at (9, 7) and Secret House connects from the north at (17, 3) / (21, 0).
-- Action in Area 2: Upon descending west staircase at (16, 27) onto (16, 28), thoroughly scout west across rows 28-35 (cols 0-15) for the true gate/pathway connecting into Area 3 northern lawn / Secret House!
+- Empirical Findings from Session 12:
+  - Northern Plateau in Area 3 is an enclosed overlook with no descent to north, west, or south.
+  - Western ground basin (cols 0-2) and Rest House 4 basin are both dead ends.
+  - East Corridor (col 24) is a solid bush hedge from row 2 to row 13.
+  - Sighted Poké Ball at (9, 7) on unvisited northern lawn field.
+- Working Hypothesis for Session 13: The unvisited northern lawn connects via an unexplored passage or gate in southwestern Area 2 (rows 28-35, cols 0-15).
+- Strategic Plan:
+  1. Center Area -> Area 1 (~30 steps).
+  2. Area 1 -> Area 2 (~75 steps).
+  3. Area 2: Cross Western Plateau bridge to (16, 27) -> descend to (16, 28).
+  4. Systematically map and explore the southwestern sector of Area 2 (cols 0-15, rows 28-35) to locate the western pathway/gate leading to the Secret House!
