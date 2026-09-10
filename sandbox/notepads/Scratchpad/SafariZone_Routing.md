@@ -2,9 +2,9 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (12, 12) [Turn 10641]
-- Steps Remaining: 184 / 500 steps [Turn 10641]
-- Stage: Stage 4 - Advancing North past North Pond Shoreline (Row 8) to Row 7 to Turn West
+- Current Position: Safari Zone Area 2 at (12, 7) [Turn 10644]
+- Steps Remaining: 179 / 500 steps [Turn 10644]
+- Stage: Stage 4 - Scouting East around Tree at Col 18 to Access Row 3 Northern Corridor
 
 ## Session 13 Traversal History
 1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]
