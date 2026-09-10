@@ -2667,9 +2667,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (12, 16) [Turn 10640]
-- Steps Remaining: 188 / 500 steps [Turn 10640]
-- Stage: Stage 4 - Advancing North along Col 12 to Row 12 to Scout Northern Opening
+- Current Position: Safari Zone Area 2 at (12, 12) [Turn 10641]
+- Steps Remaining: 184 / 500 steps [Turn 10641]
+- Stage: Stage 4 - Advancing North past North Pond Shoreline (Row 8) to Row 7 to Turn West
 
 ## Session 13 Traversal History
 1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]
