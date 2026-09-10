@@ -43,7 +43,7 @@
 - Rest House 4 Basin Closure: Tile (14, 14) empirically verified impassable cliff wall [Turn 10344-10345]. The entire basin (cols 10..13 rows 10..14) is enclosed on north/east by cliffs, south by bridge, and west by pond. Sole access is row 14/15 lawn westward to cols 2..3.
 
 ## Session 12 Master Plan (HM03 Surf Route)
-- Prerequisite: 500 steps, ¥69,000+ money.
+- Prerequisite: 500 steps, ï¿½69,000+ money.
 - Target: Safari Zone Area 3 Secret House (HM03 Surf).
 - Traversal Route:
   1. Gatehouse -> Center Area (north through grass/lawn to col 28 east exit) -> Area 1.
@@ -52,3 +52,8 @@
   4. Area 3 -> Southern Plateau Bridge -> descend western stairs to (6, 20) [Completed Turn 10436].
   5. Western Exploration: Navigate from (6, 20) to uncover pathway into Northwest Sector (rows 0..9 cols 0..9).
   6. Northwest Lawn: Locate and enter Secret House to obtain HM03 Surf!
+
+## Western Boundary Collision Audit (Turns 10454-10455)
+- Tile (2, 13): Empirically verified impassable water shoreline collision from (2, 14) [Turn 10454].
+- Tile (1, 14): Empirically verified impassable solid tree canopy collision from (2, 14) [Turn 10455].
+- Finding: Western flank (cols 0-2) is completely blocked. Route to northern sector must circumvent the pond to the east via row 14.
