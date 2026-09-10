@@ -107,3 +107,4 @@
 - Column 11 bushes at (11, 4) [Turn 10069] and (11, 7) [Turn 9954] empirically verified impassable with zero movement delta.
   - Tile (2, 13) empirically verified impassable water shoreline collision from (2, 14) [Turn 10219].
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
+  - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
