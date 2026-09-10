@@ -69,10 +69,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 92
-   - Stats: Max HP 319 (HP: 302/319), Attack 228, Defense 250, Speed 232, Special 240
+1. HYDROS (Blastoise) - Lv 93
+   - Stats: Max HP 323 (HP: 301/323), Attack 230, Defense 253, Speed 234, Special 244
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (13/15), Ice Beam (0/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 18
    - Stats: Max HP 59 (HP: 59/59)
@@ -3015,32 +3015,21 @@
 # Cerulean Cave Frontier & Junction Tracking
 
 ## Verified Collisions & Impassable Boundaries (2F)
-- (22, 8) - Solid rock wall
-- (22, 9) - Solid rock wall
-- (24, 9) - Solid rock wall
-- (19, 10) - Solid rock wall
-- (23, 12) - Solid rock wall
-- (23, 13..15) - Solid rock wall
-- (14, 15) - Solid rock wall
-- (27, 15) - Solid rock wall
-- (27, 18) - Solid rock wall
-- (20, 17) - Solid rock wall
-- (25, 10..15) - Solid rock vertical boundary
-- (15, 13) - Dead-end wall
-- (14, 14..16) - Solid rock wall
+- (2, 1), (5..10, 2), (9, 2), (17, 2), (10, 1..3), (12, 3), (14, 2..4)
+- (8, 4..5), (11, 4), (20, 4), (8, 5), (15, 6), (5..14, 6), (17, 6), (21, 6)
+- (22, 5), (23, 6), (14, 10), (11, 11), (13, 11..13), (15, 12), (16, 12)
+- (18..20, 12), (16, 13..14), (14, 14..16), (15, 14), (22, 8..10), (24, 8..10)
+- (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall)
+- (21, 14), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11)
 
-## Active Frontiers & Hypotheses
-- **Frontier F1 - Ladder D (NE Sector)**:
-  - 1F (27, 1) <-> 2F (29, 1). Accessible via water canal shore at (23, 3) -> (27, 1).
-- **Frontier F2 - Ladder C / Central Transit**:
-  - 2F (19, 7) <-> 1F (18, 9).
-- **Frontier F3 - South Transit Probe**:
-  - Column 24 south to Row 15 verified dead-end at (24, 15).
+## Verified Map Topology (2F)
+- **North Branch (cols 1..22, rows 1..5)**:
+  - Ladder E at (9, 1) <-> Row 1 West (3, 1) <-> (3, 3) <-> Row 3 East (9, 3) <-> Column 9 South (9, 5) <-> Row 5 East (13..16, 5) <-> Central S-Bypass (18, 1..3) <-> (22, 2..4) <-> (21, 5) <-> (22, 5).
+  - Western Grand Highway: Column 1 (1, 2..5) leading to Ladder A1 at (1, 3).
+- **South Branch (cols 11..27, rows 7..17)**:
+  - Accessible via (22, 7) <-> Column 23 (23, 7..15) <-> Row 11 (14..23, 11) <-> Row 13 (17..27, 13) <-> Row 15 (15..26, 15) <-> Row 17 (21..27, 17 SE dead-end).
+  - Column 20 is a solid rock barrier separating East (cols 21-29) and West (cols 1-19) in rows 12-20.
 
-## Northwest Sector Hypotheses (Unverified)
-- (3, 3) corridor is blocked to the west by solid rock at (2, 3).
-- Ladder A1 visually confirmed at (1, 3) from (3, 3) vantage, but inaccessible from northern corridors.
-- (9, 6) is solid rock, preventing southward exit from Column 9.
 
 <hr>
 
