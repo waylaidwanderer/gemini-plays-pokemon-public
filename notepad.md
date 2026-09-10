@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥68368
+- Money: ¥67868
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -158,7 +158,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥68368
+- ¥67868
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
@@ -2613,8 +2613,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Obstacle at (16, 16) [Verified Turn 8637].
   - Tile (25, 23) empirically verified solid cliff wall from (26, 23) [Turn 10405-10406].
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
-  - Cols 22..25 rows 24..27: Visually displays tall grass texture on Turn 10105; physical collision pending verification when testing approach from row 33.
-  - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
   - Row 11 is blocked across cols 13..15 by bushes, (16..17, 11) by tree trunk [Verified Turn 10120], cols 18..31 by statues, and cols 33..34 by bushes; zero northern passage from Central Lawn.
   - Northern cliff collision at (20, 20) [Verified Turn 9897]: northern boundary of Western Plateau (rows 20..22 cols 16..24) is impassable from row 19 lawn.
   - Cliff collision at (22, 20) from (22, 19) [Verified Turn 10114].
