@@ -2997,9 +2997,9 @@
   - South Ledge at (15, 3): One-way jump South from (15, 2) over ledge into the Northern Water Highway at (15, 4).
 - **Western Cliff Barrier (Verified Turn 42273)**:
   - Column 7 (rows 10-16) is a continuous solid cliff barrier separating the water channel (cols 8-11) from the Western Ridge (cols 4-6). There is no shoreline access from (8, 14..15) into (7, 14..15).
-- **Central Platform South Ramp & Row 16 Corridor (Verified Turn 42374)**:
-  - From Ladder C at (18, 9), walking south to (17, 14) leads to a southern ramp at (17, 15).
-  - Descending ramp (17, 15) steps down onto Row 16 (17, 16), an open ground corridor heading west along the southern boundary of 1F towards the Western Ridge (cols 1-6).
+- **Central Platform South Ramp & Row 17 Highway (Verified Turn 42376)**:
+  - From Ladder C at (18, 9), walking south down the platform to (17, 14) leads to the South Ramp at (17, 15).
+  - Descending ramp (17, 15) steps down onto (17, 16), and stepping Down to Row 17 (15, 17) enters the continuous southern ground highway spanning west across (1..15, 17) towards the Western Ridge (cols 1-6).
 
 <hr>
 
