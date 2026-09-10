@@ -38,3 +38,6 @@
 - Warden's House Interior Exit: Red mat at (4, 7). Warps outside to (27, 28) facing south.
 - Warden's Yard & South Street: Yard enclosed by fence with signpost at (27, 29). Fence opening at col 30 connects south to rows 30..31 east-west street. Rows 30..31 street connects west to Central Avenue at col 24, which runs north to rows 20..21.
 - Center Roof & Rock Plateau: Elevated barrier spans cols 13..22 rows 22..25, blocking direct southern access from row 21 between col 13 and col 23.
+- Rock Plateau Extent (Verified Turn 11041): Continuous rock plateau spans rows 22..23 across cols 3..22, completely blocking southern access from row 21 between col 3 and col 23. Row 20/21 is a continuous east-west paved avenue from col 2 to col 25.
+- Zoo Enclosure Corridors (Verified Turns 11015-11028): Cut tree at (16, 11) cleared; Cut tree at (18, 19) cleared. Zoo central lawn is accessible between cols 14..23 rows 12..18.
+- Western Avenue (Verified Turn 11039-11041): Columns 2..3 rows 16..21 is a north-south paved road west of Krabby pen statues (col 4 rows 16..19).
