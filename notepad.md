@@ -2968,7 +2968,7 @@
 - **South Ground Highway (Row 17)**: Continuous walkable ground spanning (1..16, 17).
   - West end connects via (2, 17) -> (2, 14) -> (1, 13) [Western Ridge South Ramp].
   - East end connects via (15, 17) -> (17, 15) [South Ramp onto Central Platform].
-- **Western Ridge (South Sector)**: Cols 1-6, rows 8-12. Elevated plateau accessed via South Ramp at (1, 13). Contains standard floor; bounded to north by Row 7 cliff wall.
+- **Western Ridge (South Sector)**: Cols 0-8, rows 8-13. Elevated plateau accessed via South Ramp at (1, 13). Contains standard floor; empirically verified on Turn 43560 that (3, 11) is standard cave floor with no warps. Bounded to north and east by solid rock walls (rows 7..8). Dead-end plateau with no passage to NW basin or upper floors.
 - **Waterways**:
   - Northern Water Highway: Rows 4-5 (cols 14-20), Row 6-7 bypass (cols 10-15).
   - Western Water Channel: Cols 8-9 (rows 6-14).
