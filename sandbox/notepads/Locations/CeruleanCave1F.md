@@ -21,7 +21,7 @@
 - Ladder to B1F: Located on 1F Western Ridge adjacent to Ladder A2 landing; leads directly down to Mewtwo's lair on B1F.
 
 ## Verified Impassable Collision Barriers (1F)
-- Ledge at (21, 11) jumps South to (21, 12). Cannot walk North past (21, 12).
+- Column 21 Passage: (21, 11) is a bidirectional ramp/passage connecting the lower entrance basin (21, 12) directly to the upper landing (21, 7..10).
 - Wall at (21..23, 16) blocks direct downward movement from (21..23, 15) to (21..23, 16).
 - Shoreline/cliff at (24..25, 13) and (21, 5) blocks northward surfing/walking.
 - Columns 19-20 rock spine at rows 6-12 separates East and West platforms on 1F.
