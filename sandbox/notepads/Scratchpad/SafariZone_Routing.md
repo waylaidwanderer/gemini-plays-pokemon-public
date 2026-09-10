@@ -2,8 +2,8 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (6, 20) [Turn 10622]
-- Steps Remaining: 263 / 500 steps [Turn 10622]
+- Current Position: Safari Zone Area 3 at (12, 16) [Turn 10623]
+- Steps Remaining: 253 / 500 steps [Turn 10623]
 - Stage: Stage 4 - Backtracking across Southern Plateau Bridge to Area 2
 
 ## Session 13 Traversal History
