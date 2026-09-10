@@ -2645,6 +2645,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Tile (1, 14) empirically verified impassable tree canopy collision from (2, 14) [Turn 10455].
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
+  - Tile (11, 5) empirically verified non-cuttable decorative obstacle ('There isn't anything to CUT!') [Turn 10512].
   - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
   - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
