@@ -46,3 +46,6 @@
   - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
 - **2F North/Central Network Isolation (Verified Turn 42887)**: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
+- **South-to-West Corridor via Column 15 and Row 17 (Verified Turn 43062)**:
+  - Column 15 runs south from Row 13 at (15, 13) down through (15, 14..17) to Row 17.
+  - Row 17 South Artery runs continuously west across (10..28, 17), providing direct walkable connection across the southern sector to the South-West area.
