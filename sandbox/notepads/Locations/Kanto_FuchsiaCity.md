@@ -42,3 +42,4 @@
 - Zoo Enclosure Corridors (Verified Turns 11015-11028): Cut tree at (16, 11) cleared; Cut tree at (18, 19) cleared. Zoo central lawn is accessible between cols 14..23 rows 12..18.
 - Western Avenue (Verified Turn 11039-11041): Columns 2..3 rows 16..21 is a north-south paved road west of Krabby pen statues (col 4 rows 16..19).
 - Column 23 Barrier Collisions (Verified Turns 11048-11049): Solid collisions confirmed at (23, 26), (23, 27), (23, 28), and (23, 29). The hedge/bush is impassable along rows 26..29.
+- Pokémon Center East Boundary (Verified Turns 11047-11050): Column 23 is a continuous solid barrier across rows 26..31 (tested at 26, 27, 28, 29, 30, 31). Zero eastern access to Pokémon Center apron from Central Avenue. Apron at row 28 connects westward toward Fuchsia Gym.
