@@ -30,3 +30,8 @@
 
 ## Field Items (Poké Flute)
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
+## Bicycle Stride & Parity Mechanics
+- **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
+- **Rapid Input Stride Distance:** Buffered or held directional inputs on the Bicycle can advance 2 grid tiles per input along unobstructed roads [Verified Turns 11426-11428].
+- **Coordinate Alignment Parity:** When traversing at 2 tiles per stride, coordinate parity is preserved (e.g. moving from an odd column like 33 or 13 keeps alignment strictly to odd columns: 13, 11, 9).
+- **Parity Shifting via Obstacles:** Riding into a collision boundary (such as the col 5 stone fence from col 7) truncates the 2-tile stride into a single-tile step, shifting alignment parity from odd to even columns (e.g. landing on col 6, which enables reaching col 8 and col 10) [Verified Turn 11428].
