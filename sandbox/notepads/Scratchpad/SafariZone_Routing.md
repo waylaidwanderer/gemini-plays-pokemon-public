@@ -2,8 +2,8 @@
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (8, 14) [Turn 10891]
-- Steps Consumed: 241 / 500 steps taken (259 steps remaining!)
+- Current Position: Safari Zone Area 2 at (12, 14) [Turn 10893]
+- Steps Consumed: 245 / 500 steps taken (255 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
