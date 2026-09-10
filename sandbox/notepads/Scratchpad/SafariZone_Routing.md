@@ -12,16 +12,15 @@
 - Stage 1 (Center Area Traversal) [30 steps taken - COMPLETE]:
   - [x] Traversed Center Area to East Gate at (29, 10) [Turns 10734-10743]
   - [x] Entered Area 1 at (0, 22) [Turn 10744]
-- Stage 2 (Area 1 Traversal) [Steps consumed: 108]:
+- Stage 2 (Area 1 Traversal) [Steps consumed: 128]:
   - [x] Advance east along row 24 lawn to (12, 24) [Turn 10748]
   - [x] Advance east along row 24 to col 17 opening (17, 24) [Turn 10749]
   - [x] Advance through row 23 opening to (20, 22) at staircase [Turn 10750]
   - [x] Ascend South Plateau staircase at (20, 21) to row 18 (21, 18) [Turn 10755]
-  - [x] Advance north along col 22 plateau floor to row 12 (26, 12) [Turns 10756-10764]
-  - [x] Column 28 at (28, 15) empirically tested Turn 10777: SOLID tree obstacle (0 movement delta). Eastern Bypass past row 16 is impassable.
   - [x] Traversed South Plateau to (12, 21), descended to West Lawn at (12, 22), and advanced north along clean lawn to (10, 10) [Turns 10787-10797]
   - [x] Ascend North Plateau Bridge at (12, 7), cross east to (17, 7), and descend to East Lawn (17, 8) [Turns 10801-10805]
-  - [x] Traverse col 20 permeable canopy corridor to row 3 and walk west along row 3 to (8, 3) [Turns 10810-10813]
+  - [x] Traverse col 20 permeable canopy corridor to row 3 [Turn 10810]
+  - [ ] Advance west along row 3 corridor to (8, 3) lawn (currently at (9, 3) in battle)
   - [ ] Walk west across rows 4-5 to northwest gateway at (0, 5) (~8 steps)
   - [ ] Enter Area 2 at (39, 31) (~1 step)
 - Stage 3 (Area 2 Traversal & Empirical Hypotheses Testing) [Budget: ~60 steps]:
