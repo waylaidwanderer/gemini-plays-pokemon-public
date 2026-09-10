@@ -1,29 +1,25 @@
 # Safari Zone Routing & Investigation Log
 
-## Active Session 13 Step Ledger
-- Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (9, 35) [Turn 10726]
-- Steps Consumed: 343 / 500 steps taken (157 steps remaining)
-- Stage: Phase 1 complete. Re-entered Area 2 at South Gate 1. Executing Phase 2: navigating north along col 6 corridor to rows 14-15 bypass to access western lawn (cols 2-4) and South Gate 2.
+## Session 13 Post-Mortem & Step Counter Truth
+- Step Counter Finding: On Turn 10671, the Start menu displayed 173/500. Exactly 170 steps later on Turn 10727, the PA chime rang. This empirically proves the Start menu displays [STEPS REMAINING] / 500.
+- Key Breakthroughs in Session 13:
+  1. Area 3 (West) internal connections: Rest House 4 basin is a confirmed cul-de-sac. Ground access south of row 14 into the Northwest Lawn is impassable.
+  2. Area 2 South Boundary: Discovered South Gate 2 at (2..3, 34..35) with south arrow markers. Connected to western lawn corridor (cols 2..4).
+  3. Master Routing Solution: The Northwest Lawn and Secret House of Area 3 are accessed via Area 2 South Gate 2!
 
-## Master Plan & Execution Tracker
-- Objective: Reach Area 2 South Gate 2 at (2..3, 35) to access Area 3 West / Secret House.
-- Phase 1 (Backtrack to Area 2) [COMPLETE]:
-  - [x] Walk west to col 2 [Turn 10706]
-  - [x] Descend to row 20 [Turn 10716]
-  - [x] Ascend bridge at (6, 19) and cross east to (21, 16) [Turn 10720]
-  - [x] Descend stairs at (21, 17) to row 18 (21, 18) [Turn 10721]
-  - [x] Walk east to col 26 (26, 18) [Turn 10722]
-  - [x] Advance onto col 27 and north to (27, 14) [Turn 10723]
-  - [x] Advance north to (27, 9) [Turn 10724]
-  - [x] Advance north to (27, 4) [Turn 10725]
-  - [x] Step into Area 2 via (27, 0) [Turn 10726]
-- Phase 2 (Area 2 Navigation to South Gate 2):
-  - [ ] Walk north along col 6 corridor past pond (rows 33..20) (~13 steps)
-  - [ ] Advance north to row 14 (~6 steps)
-  - [ ] Walk west across row 14/15 bypass to col 2 (~6 steps)
-  - [ ] Walk south down col 2 corridor to South Gate 2 at (2, 35) (~21 steps)
-  - [ ] Step Down into South Gate 2 (~1 step)
-- Phase 3 (Area 3 West / Secret House):
-  - [ ] Emerge in Area 3 West at (2..3, 0) with ~110 steps remaining
-  - [ ] Walk to Secret House, enter, and receive HM03 Surf!
+## Session 14 Master Execution Plan: HM03 Surf Run (Budget: 500 Steps)
+- Total Estimated Steps: ~195 steps (leaving ~305 steps buffer!).
+- Step-by-Step Route:
+  1. Gatehouse: Re-enter, pay ¥500, receive 30 Safari Balls [0 steps].
+  2. Center Area: Walk north to row 10, east to gate (29, 10) into Area 1 [~34 steps].
+  3. Area 1: Walk east across South Plateau, north around pond, cross North Plateau Bridge, traverse col 20 canopy, enter Area 2 at (0, 5) [~90 steps].
+  4. Area 2:
+     - Enter at (39, 31).
+     - Follow corridor west, cross Western Plateau bridge, descend west stairs to (16, 28) [~40 steps].
+     - Walk north along column 12 corridor to row 14 [~14 steps].
+     - Walk west across row 14-15 bypass into column 2 corridor [~10 steps].
+     - Walk south down column 2 corridor directly into South Gate 2 at (2, 35) [~21 steps].
+     - Step Down into South Gate 2 [1 step].
+  5. Area 3 West (Northwest Lawn):
+     - Emerge in Area 3 West at rows 0..2 with >300 steps remaining!
+     - Walk to Secret House, enter, speak to attendant, and receive HM03 Surf!
