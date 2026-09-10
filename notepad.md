@@ -2545,9 +2545,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Southern Lawn (Row 32): Open east-west lawn corridor along row 32 south of the Gym ledge (row 31) and north of boundary statues (row 33); dead-ends at the Route 19 shoreline (col 10).
 - Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!") and resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"). Entrance door at (22, 13) [Verified Turn 7368, 7376].
 - Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
-- Cut Tree at (18, 19): Cleared by DUX on Turn 7466. Provides access from row 20/21 paved street north into the central zoo enclosure (cols 14..23 rows 8..19).
 - Zoo Enclosure (Lapras): Stone-fenced pond at cols 9..12 rows 16..17 with exhibit signboard at (13, 15) ("Name: LAPRAS").
-- Cut Tree at (16, 11): Located at col 16 row 11. Blocks northern path into the Safari Zone gatehouse promenade (rows 4..6).
 - Safari Zone Gatehouse: Located at cols 16..21 rows 2..5 with entrance door at (18, 3) and sign at (17, 5).
 - Warden's House Interior Exit: Red mat at (4, 7). Warps outside to (27, 28) facing south.
 - Warden's Yard & South Street: Yard enclosed by fence with signpost at (27, 29). Fence opening at col 30 connects south to rows 30..31 east-west street. Rows 30..31 street connects west to Central Avenue at col 24, which runs north to rows 20..21.
@@ -2559,7 +2557,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - House 2: Located at cols 30..33 rows 26..28 directly east of Warden's House, with entrance door at (31, 27).
   - South Street: Rows 30..31 is a continuous open paved east-west street spanning cols 24 through 35 south of the Warden's yard.
   - Yard Gateway: Open fence gate at cols 30..31 row 29 connects South Street (rows 30..31) into the front yard (row 28) of both the Warden's House (27, 27) and House 2 (31, 27).
-  - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.
+  - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.- House 2 Back Door & Northern Backyard (Verified Turns 11149-11153):
+  - Interior back door at (2, 0) warps outside to (31, 24) facing South.
+  - Enclosed backyard spans cols 26..33 rows 20..24, bounded by row 19 fence posts, col 25 fence posts (rows 20..25), col 34 fence posts (rows 20..25), and zoo pond at cols 28..33 rows 20..21. Decorative enclosed garden with no courtyard access.
+
 
 <hr>
 
@@ -2722,7 +2723,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Interior Layout
 - Front entrance mat: (2..3, 7).
-- Back Door: Located at (2, 0) in the north wall! [Discovered Turn 11143].
+- Back Door: Located at (2, 0) in the north wall; warps outside to (31, 24) into enclosed northern backyard [Verified Turn 11149-11150].
 - Occupant: Fishing Guru's older brother at (5, 3).
 - Decor: Desk/aquarium at cols 6..7 rows 3..4.
 - Floor Object: Poké Ball graphic on floor/cushion at (7, 7).
