@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 51, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥69648
+- Money: ¥70148
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -184,14 +184,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥69648
+- ¥70148
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 51, Water]
   - Status: Healthy (Revived Turn 11170 via Max Revive)
-  - HP: 66 / 160 [Verified Turn 11493]
+  - HP: 63 / 160 [Verified Turn 11564]
   - Stats: Attack 117, Defense 136, Speed 117, Special 120
-  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 12/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
+  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 6/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Fainted [Turn 7302]
   - HP: 0 / 26
@@ -2499,7 +2499,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Biker at (53, 11) facing North.
   - Highway is blocked at col 53 by the facing trainers.
 - Trainers at Col 48 & 46:
-  - Trainer at (48, 10) facing South.
+  - Biker at (48, 10) facing South (Team of 5: Koffing Lv 25, Koffing Lv 25, Weezing Lv 25, Koffing Lv 25, Grimer Lv 25) [DEFEATED Turn 11564]. Prize: ¥500. Defeat line: "Why not?".
   - Biker at (46, 10) facing South (Team of 3: Koffing Lv 28, Grimer Lv 28, Weezing Lv 28) [DEFEATED Turn 11540]. Prize: ¥560. Defeat line: "That can't be true!".
 - Trainers at Col 41:
   - Beauty at (41, 10) facing West (Team of 2: Bulbasaur Lv 29, Ivysaur Lv 29) [DEFEATED Turn 11491].
