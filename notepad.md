@@ -2719,6 +2719,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Located Secret House in Northwest Lawn of Area 3 at (3, 3) [Turn 10954]
   - [x] Spoke with campaign NPC at (3, 3); Bag is currently FULL ('You don't have room for this fabulous prize!') [Turn 10961]
   - [x] Discarded TM49 to free inventory slot [Turn 10972]
-  - [ ] Talk to campaign NPC again to receive HM03 Surf
+  - [x] Talked to campaign NPC at (3, 3) to receive HM03 Surf! [Turn 10973]
 
 <hr>
