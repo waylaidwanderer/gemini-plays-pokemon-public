@@ -2953,19 +2953,27 @@
 
 # Cerulean Cave (Unknown Dungeon) 1F - Layout & Notes
 
-## Entrance & Key Landmarks
-- South Entrance/Exit Warp: (24, 17) [Connects to Cerulean City NW water pool at (4, 11)].
-- Central Platform: Spans rows 6-16 across columns 21-25.
-- Central-East Ladder B: (23, 7) [Ascends to 2F at (24, 6)].
-- Central-West Ladder C: (18, 9) [Ascends to 2F Central Hub at (19, 7)].
+## Entrance & Basin Topology
+- South Entrance/Exit Warp: (24, 17) / (25, 17) [Connects to Cerulean City NW water pool at (4, 11)].
+- Entrance Basin (rows 12-16, cols 21-25): Walkable floor enclosed by:
+  - North: Ledge at (21, 11) jumping South to (21, 12); solid rocks at (22..23, 11) and (23..25, 12); water canal at (24..25, 11).
+  - South: Wall barrier at (21..23, 16); open passage via cols 24-25 to entrance warp (24..25, 17).
+  - West: Solid vertical rock divider at (19..20, 6..12).
+  - East: Solid rock wall at col 26.
 
 ## Ladder Connectivity Matrix (1F <-> 2F & B1F)
-- Ladder B: (23, 7) <-> 2F (24, 6) / (23, 7) [Ascends to 2F East landing].
-- Ladder C: (18, 9) <-> 2F (19, 7) [Central transit hub].
-- Ladder E: (7, 1) <-> 2F (9, 1) [NW corridor].
+- Ladder B: (23, 7) <-> 2F (22, 6) [Ascends to 2F East landing].
+- Ladder C: (18, 9) <-> 2F (19, 7) [Ascends directly to 2F Central Hub / North Highway base].
+- Ladder E: (7, 1) <-> 2F (9, 1) [Ascends to 2F NW Row 1 North Highway].
 - Ladder D: (27, 1) <-> 2F (29, 1) [Isolated NE landing].
-- Ladder A2: 1F Western Ridge landing <-> 2F (3, 11) [SW sector target down ladder].
+- Ladder A2: 1F Western Ridge landing <-> 2F (3, 11) [SW Sector target ladder down from 2F to 1F Western Ridge].
 - Ladder to B1F: Located on 1F Western Ridge adjacent to Ladder A2 landing; leads directly down to Mewtwo's lair on B1F.
+
+## Verified Impassable Collision Barriers (1F)
+- Ledge at (21, 11) jumps South to (21, 12). Cannot walk North past (21, 12).
+- Wall at (21..23, 16) blocks direct downward movement from (21..23, 15) to (21..23, 16).
+- Shoreline/cliff at (24..25, 13) blocks northward surfing/walking from (24..25, 14).
+- Columns 19-20 rock spine at rows 6-12 separates East and West platforms on 1F.
 
 <hr>
 
