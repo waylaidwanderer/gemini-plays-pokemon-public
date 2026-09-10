@@ -2753,7 +2753,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Route 18 Gatehouse 1F
 - East Door: (7, 4..5) on red mat, warps outside to Route 18 (40, 8).
 - West Door: (0, 4..5) connects to Route 17 (Cycling Road).
-- Guard: Standing behind desk at (4, 1).
+- Guard: Standing behind desk at (4, 1) ("CYCLING ROAD is all uphill from here." [Verified Turn 11195]).
 - Stairs: At (6, 8), leads to 2F.
 
 <hr>
