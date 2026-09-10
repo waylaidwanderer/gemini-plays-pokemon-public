@@ -41,7 +41,6 @@
 
 - Bike Shop: Located at cols 12-15, rows 22-25 with south entrance door at (13, 25) and sign at (11, 25).
 
-  - Catalog: Bicycle (¥1,000,000 - requires Bike Voucher).
 
 - Slowbro House: Located at cols 28-33, rows 24-25. Backyard at cols 28-32 (rows 26-27).
 
