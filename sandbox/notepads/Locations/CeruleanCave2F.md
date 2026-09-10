@@ -2,7 +2,7 @@
 
 ## Connected Component Graph (2F)
 - **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 1-19.
-  - Ladder A1: (1, 3) [Target NW isolated ladder descending to 1F Upper Western Platform].
+  - Ladder A1: (1, 3)
   - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
   - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
   - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
