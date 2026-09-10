@@ -2568,6 +2568,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rock Plateau / South Plateau: Located north of row 22 with south-facing staircases at (12, 21) and (20, 21). Elevated floor spans cols 11..22 rows 18..20 along the southern shoreline of the central pond (rows 14..17).
 - Eastern Bypass: Eastern corridor spans cols 24..28, bounded by col 29 tree wall. Clear lawn at rows 16..19 across cols 24..28 leads north to a wooden staircase at (24, 15).
 - Northern Plateau Staircase: At (24, 15), a south-facing wooden staircase ascends to the northern plateau (row 14+ across cols 20..26). Cliff face (cols 25..27) and trees (cols 28..29) block ground path.
+- Plateau Topology (Area 1): The elevated rock plateau spans rows 12..20 between cols 20..26, connecting the South Plateau staircase at (20, 21) to the north staircase at (24, 15). It has no northern ground descent (row 12 is an impassable cliff face overlooking East Lawn, and cols 16..19 are water). Traversing across this plateau is a dead end for accessing the East Lawn.
 - North Plateau Bridge: Spans cols 12..18 rows 5..6 over the central cliff barrier (13..16, 7) and standalone tree (14..15, 8..9). East staircase at (17, 7) ascends from east lawn (17, 8); west staircase at (12, 7) descends to west lawn (12, 8). Connects the row 8 eastern and western ground lawns.
 - Permeable Canopy Corridors:
   - Column 20 permeable canopy corridor at (20, 6..3).
@@ -2580,6 +2581,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Plateau west cliff wall at (10, 5) [Verified Turn 9138].
   - Plateau north cliff edge at (17, 4) and west corner at (10, 4) [Verified Turns 7702, 7728].
   - Bush at (16, 22) [Verified Turn 8356].
+  - Northern cliff collision at (24, 11) from (24, 12) [Verified Turn 10762].
+  - Solid tree collision at (28, 15) from (28, 16) [Verified Turn 10777]: Eastern Bypass does not connect north past row 16.
   - Northern boundary hedge at (20, 0) [Verified Turn 7998].
   - Solid cliff corner at (27, 12) [Verified Turn 7971].
   - Statue at (6, 23) [Verified Turn 7944].
