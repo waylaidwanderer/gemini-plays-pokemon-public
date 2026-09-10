@@ -2995,9 +2995,8 @@
   - Spans cols 5-16, rows 0-2. Walkable cave floor.
   - Ladder E at (7, 1) ascends to 2F (9, 1).
   - South Ledge at (15, 3): One-way jump South from (15, 2) over ledge into the Northern Water Highway at (15, 4).
-- **Western Ridge Shoreline & Landing (Verified Turn 42272)**:
-  - From the southern water channel at (8, 14..15), surfing west through (7, 14..15) lands directly onto the Western Ridge floor at (6, 14..15).
-  - Western Ridge floor spans cols 4-6 (rows 14-15), providing ground access to the western landmass.
+- **Western Cliff Barrier (Verified Turn 42273)**:
+  - Column 7 (rows 10-16) is a continuous solid cliff barrier separating the water channel (cols 8-11) from the Western Ridge (cols 4-6). There is no shoreline access from (8, 14..15) into (7, 14..15).
 
 <hr>
 
