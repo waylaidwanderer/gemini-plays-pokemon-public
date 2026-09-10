@@ -1373,6 +1373,12 @@
 
 ## Field Items (Poké Flute)
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
+## Bicycle Stride & Parity Mechanics
+- **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
+- **Rapid Input Stride Distance:** Buffered or held directional inputs on the Bicycle can advance 2 grid tiles per input along unobstructed roads [Verified Turns 11426-11428].
+- **Coordinate Alignment Parity:** When traversing at 2 tiles per stride, coordinate parity is preserved (e.g. moving from an odd column like 33 or 13 keeps alignment strictly to odd columns: 13, 11, 9).
+- **Parity Shifting via Obstacles:** Riding into a collision boundary (such as the col 5 stone fence from col 7) truncates the 2-tile stride into a single-tile step, shifting alignment parity from odd to even columns (e.g. landing on col 6, which enables reaching col 8 and col 10) [Verified Turn 11428].
+
 
 <hr>
 
@@ -2812,14 +2818,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Highway Corridor: Columns 12..13 paved road runs straight north flanked by water to the east (cols 14+) and central median lawn to the west (cols 9..11).
 
 ## Northern Threshold & Causeway Connection
-- Row -1 Barrier Line: Collision confirmed when attempting to step North into row -1 at (13, -1) [Turn 11252], (9, -1) [Turn 11298], and (11, -1) [Turn 11299]. Columns 6, 7, 8, and 10 have not been directly tested. Gatehouse guard states 'CYCLING ROAD is all uphill from here'; access mechanism from this approach remains an active investigation.
+- Northern Threshold & Ramp: The row -1 threshold features south-facing jump ledges across columns 6..9 and 11..13, but column 10 at (10, -1) is a flat wooden entrance ramp [Verified Turns 11421, 11428, 11431].
+- Route 17 Warp Transition: Stepping north through (10, -1) transitions from Route 18 into Route 17 at (10, 143) [Verified Turns 11428, 11431].
+- Downhill Slope Physics: Route 17 features an active southward downhill slope that continuously pulls the bicycle south toward the bottom threshold (y=143/144) if northward momentum is halted, sliding the player over the ledge back to Route 18 at (10, 0) [Verified Turns 11428, 11431]. Continuous northward input is required to ascend the highway.
 - Suspension Bridge Pillars: Girders at cols 6..7 and 12..13 at row -3.
 - Signpost at (9, -3) on upper highway.
-- Downhill Exit: Route 17 dumps south into the Route 18 causeway via the row -1 jump ledge (downhill exit from Cycling Road).
 
 ## Trainers & Sightlines
 - Bikers and Cue Balls (Poison & Fighting types: Koffing, Grimer, Muk, Weezing, Machop).
-- Objective: Navigate around trainer sightlines where possible while party resources are depleted, proceeding to Celadon City Pokémon Center.
 
 
 <hr>
