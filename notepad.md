@@ -3009,6 +3009,10 @@
 - **Western Ridge Wall & North Exploration (Turn 42382)**:
   - (0, 8) and (1..6, 7) are solid purple rock walls blocking direct westward/northward access from (1, 8).
   - Open floor extends east along Row 8 across cols 1..6. Scouting east towards col 6+ to find passage around Row 7 rock wall.
+- **Western Ridge Dual Ladders & B1F Topology (Verified Turn 42383)**:
+  - Ladder A2 at (3, 11): Connects to 2F SW Sector (TM14 room).
+  - Ladder to B1F at (0, 6): Connects directly down to Cerulean Cave B1F (Mewtwo's lair).
+  - Passage from South Western Ridge to North Western Ridge: From (5, 8), head east along Row 8 to (7, 8), then north along Column 7 around the rock spine to reach Row 6 and Ladder (0, 6).
 
 <hr>
 
