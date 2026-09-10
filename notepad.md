@@ -2762,5 +2762,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - West Gatehouse Exterior Door: Located at (34, 8).
 - Signpost at (33, 5) on upper road.
 - Road along rows 8..9 extends west above the water shoreline (row 10).
+- Highway Junction: At cols 12..13 rows 8..9, road connects to Route 17 north-south highway.
 
 <hr>
