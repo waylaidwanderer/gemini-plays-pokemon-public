@@ -37,3 +37,7 @@
   - Column 14 runs south from (14, 11) to (14, 13) only. Tile (14, 14) is solid purple rock blocking direct southern passage along Column 14.
   - From (14, 13), passage turns east towards (15, 13).
 - **Row 4 West Barrier (Verified Turn 42252)**: (1..8, 4) is a continuous solid purple rock wall. Tile (3, 4) is solid rock. The NW corridor (3..9, 1..3) connects only to Ladder E at (9, 1) and Column 9 / Row 5 East; it does NOT connect south to Row 5 West or SW Sector (3, 11). To access the isolated SW Sector of 2F, use the corresponding ladder on 1F.
+- **Row 9 Grand Highway & Column 16 Connector (Verified Turn 42283)**:
+  - Column 16 is an open vertical corridor spanning (16, 3..9) connecting Row 5 East (16, 5) directly down to Row 9 (16, 9).
+  - Row 9 is a continuous horizontal highway spanning cols 3 to 16 (rows 9), bypassing all central rock barriers.
+  - From (16, 9), walking West along Row 9 leads directly to Column 3 (3, 9), where stepping Down 2 times reaches Ladder A2 at (3, 11) to descend to 1F Western Ridge and Mewtwo's lair!
