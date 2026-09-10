@@ -45,11 +45,12 @@
 - Eastern Avenue: Cols 34..36 rows 26..31+ connecting South Street north to Route 15 boulevard.
 
 ### 5. Southwest Gym & Pokémon Center Courtyard
-- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) [Verified Turn 7342].
-- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27).
-- Courtyard Apron: East-west walkway along row 28 in front of Gym and Pokémon Center.
-- Courtyard Boundaries:
+- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) [Verified Turn 7342, 11354].
+- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27) [Verified Turn 11346].
+- Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pokémon Center.
+- Courtyard Boundaries & Access:
   - North: Rock plateau along rows 22..23.
-  - West: Solid vertical barrier along col 2 rows 23..30.
-  - South: South-facing jump ledge at row 31 cols 3..9.
-  - East: Hedge along col 23 rows 26..30. Access route from city thoroughfares to be verified via southern approach.
+  - West: Solid vertical cliff along col 2 rows 23..30 (collision verified at (2, 28) on Turn 11357).
+  - East: Solid hedge along col 23 rows 26..30 and ledge at row 31 (verified Turn 11347-11350; zero eastern access from Central Avenue).
+  - South Ledge: South-facing one-way jump ledge along row 31 acts as one-way exit from courtyard to row 32.
+  - Southern Access Corridor (Row 32): Open green lawn corridor along row 32 entered from Column 1 at (1, 32) [Verified Turn 11361], running east below the ledge toward the courtyard entrance opening.
