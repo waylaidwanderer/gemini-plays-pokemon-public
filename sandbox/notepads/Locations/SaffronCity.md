@@ -7,7 +7,7 @@
 ## Gatehouse Connections
 - West Gatehouse: (14..17, 8..11) with entrance at (17, 10) connecting to Route 7 / Celadon City [Entered Turn 17450]
 - East Gatehouse: Connecting to Route 8 / Lavender Town
-- North Gatehouse: Connecting to Route 5 / Cerulean City
+- North Gatehouse: Located at cols 18-21, rows 0-3 with entrance at (18..21, 0..1) connecting to Route 5 / Cerulean City
 - South Gatehouse: Connecting to Route 6 / Vermilion City
 
 ## Major Landmarks & Objectives
