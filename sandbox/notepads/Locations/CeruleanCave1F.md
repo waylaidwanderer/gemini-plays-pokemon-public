@@ -27,3 +27,8 @@
 - **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
   - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
+
+- **Central Platform Internal Topography (Turn 43466)**:
+  - Row 12 is an open horizontal corridor spanning (11..15, 12) and (16..18, 12).
+  - Column 15 connects (15, 12) south to (15, 14).
+  - West Ramp at (11, 13) is accessed from (11, 12) by stepping Down.
