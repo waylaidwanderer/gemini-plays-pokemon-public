@@ -19,10 +19,16 @@
 - (11, 4) is solid rock. (11, 5) dead-ends against rock to north, east, and south.
 - (12, 5) is solid rock.
 
-## Empirical Probe Results (Turn 43394)
+## Empirical Probe Results (Turn 43426)
 - Probe at (3, 1) -> Up (3, 0): Solid Rock (Blocked)
 - Probe at (3, 1) -> Left (2, 1): Solid Rock (Blocked)
 - Probe at (3, 2) -> Left (2, 2): Solid Rock (Blocked)
 - Probe at (3, 3) -> Left (2, 3): Solid Rock (Blocked)
 - Probe at (3, 3) -> Down (3, 4): Solid Rock (Blocked)
-- Conclusion: Column 2 (rows 0..4) and Row 4 (cols 2..8) form an unbroken solid rock barrier separating the North corridor (3, 1..3) from the Western Ladder A platform (cols 0..1, rows 2..5). Direct access from (3, 1..3) to Ladder A (1, 3) is physically impossible.
+- Probe at (13, 6) -> Left (12, 6): Solid Rock (Blocked)
+- Probe at (13, 6) -> Down (13, 7): Solid Rock (Blocked)
+- Probe at (13, 6) -> Right (14, 6): Solid Rock (Blocked)
+- Probe at (16, 7) -> Left (15, 7): Solid Rock (Blocked)
+- Probe at (16, 7) -> Down (16, 8): Solid Rock (Blocked)
+- Probe at (16, 7) -> Right (17, 7): Solid Rock (Blocked)
+- Conclusion: Corridors at Column 13 and Column 16 terminate in solid rock pockets to the south. No southern passage to Row 8/9 exists through Column 13 or Column 16.
