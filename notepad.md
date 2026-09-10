@@ -2571,9 +2571,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Pok�mon Center: Cols 18..21 rows 24..27, POK� sign at (20, 27) [Verified Turn 11346].
 - Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pok�mon Center.
 - Courtyard Boundaries & Access:
-  - North: Rock plateau along rows 22..23.
-  - West: Solid vertical cliff along col 2 rows 23..30 (collision verified at (2, 28) on Turn 11357).
-  - East: Solid hedge along col 23 rows 26..30 and ledge at row 31 (verified Turn 11347-11350; zero eastern access from Central Avenue).
   - South Ledge: South-facing one-way jump ledge along row 31 acts as one-way exit from courtyard to row 32.
   - Southern Landing Corridor (Row 32): Open green lawn corridor along row 32 entered from Column 1 at (1, 32) [Verified Turn 11361]. Runs east below row 31 jump ledge from col 1 to col 9. Dead-ends at col 10 in shoreline water collision (tile (10, 32) impassable, verified Turns 11366, 11399). Does NOT connect north into the courtyard.
   - Verified Perimeter Boundary Collisions (Courtyard Exterior):
@@ -2746,6 +2743,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Back Door: Located at (2, 0) in the north wall; warps outside to (31, 24) into enclosed northern backyard [Verified Turn 11149-11150].
 - Decor: Desk/aquarium at cols 6..7 rows 3..4.
 - Floor Object: Poké Ball graphic on floor/cushion at (7, 7).
+
 ## Resident & Rewards
 - Dialogue: "I'm the FISHING GURU's older brother! I simply Looove fishing! Do you like to fish?" [Turn 11144-11145].
 - Reward: GOOD ROD obtained on Turn 11176 after answering YES.
@@ -2820,7 +2818,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Northern Threshold & Causeway Connection
 - Northern Threshold & Ramp: The row -1 threshold features south-facing jump ledges across columns 6..9 and 11..13, but column 10 at (10, -1) is a flat wooden entrance ramp [Verified Turns 11421, 11428, 11431].
 - Route 17 Warp Transition: Stepping north through (10, -1) transitions from Route 18 into Route 17 at (10, 143) [Verified Turns 11428, 11431].
-- Downhill Slope Physics: Route 17 features an active southward downhill slope that continuously pulls the bicycle south toward the bottom threshold (y=143/144) if northward momentum is halted, sliding the player over the ledge back to Route 18 at (10, 0) [Verified Turns 11428, 11431]. Continuous northward input is required to ascend the highway.
+- Downhill Slope Physics & Column 10 Observations: On Column 10, entering at (10, -1) warps to (10, 143) and can advance to (10, 141) with rapid Up inputs [Verified Turns 11428, 11431]. When inputs halt, the active southward downhill slope pulls the player south toward the bottom threshold (y=143/144), sliding over the ledge back to Route 18 at (10, 0). Upward traversal on column 10 halted at y=141 under test conditions [Verified Turn 11438]; columns 6..9 and 11..13 have not been tested past the threshold.
 - Suspension Bridge Pillars: Girders at cols 6..7 and 12..13 at row -3.
 - Signpost at (9, -3) on upper highway.
 
