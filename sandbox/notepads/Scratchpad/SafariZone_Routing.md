@@ -2,9 +2,9 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (6, 21) [Turn 10634]
-- Steps Remaining: 201 / 500 steps [Turn 10634]
-- Stage: Stage 4 - Bypassing Pond East via Col 8 Highway to Access West Ground Corridor into Gate 2
+- Current Position: Safari Zone Area 2 at (8, 17) [Turn 10635]
+- Steps Remaining: 195 / 500 steps [Turn 10635]
+- Stage: Stage 4 - Bypassing Diagonal Pond Pinch via Row 18 Lawn to Col 12 North Corridor
 
 ## Session 13 Traversal History
 1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]
