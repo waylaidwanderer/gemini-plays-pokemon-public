@@ -11,3 +11,7 @@
 - Occupant: Fishing Guru's older brother at (5, 3).
 - Decor: Desk/aquarium at cols 6..7 rows 3..4.
 - Floor Object: Poké Ball graphic on floor/cushion at (7, 7).
+## Resident & Rewards
+- Occupant: Fishing Guru's older brother at (5, 3).
+- Dialogue: "I'm the FISHING GURU's older brother! I simply Looove fishing! Do you like to fish?" [Turn 11144-11145].
+- Reward: Offers GOOD ROD upon answering YES (requires free Bag space; currently blocked by 20/20 capacity).
