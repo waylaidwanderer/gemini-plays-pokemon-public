@@ -26,8 +26,8 @@
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (15, 24) [Turn 10206]
-- Steps Remaining: 250 / 500 steps
+- Current Position: Safari Zone Area 3 at (10, 23) [Turn 10208]
+- Steps Remaining: 244 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
