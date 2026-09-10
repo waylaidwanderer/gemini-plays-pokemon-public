@@ -2992,7 +2992,7 @@
 - Row 1 North Bypass: (5..16, 1) and (18, 1).
 - Row 3 West Corridor: (3..9, 3) open continuous floor.
 - Column 13 North-South transit: (13, 1..6) connects Row 1 to Row 5/6.
-- Row 5 Main Highway (Verified): (1..16, 5) connects Column 13 directly west to Column 1 (Western Grand Highway) and Ladder A1 at (1, 3).
+- Row 5 Main Highway (Verified): West segment (1..7, 5) and East segment (9..16, 5), connected via vertical bypasses at Column 7 ((7, 3..5)) and Column 9 ((9, 3..5)) around rock at (8, 4..5). Connects west directly to Column 1 (Western Grand Highway) and Ladder A1 at (1, 3).
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
