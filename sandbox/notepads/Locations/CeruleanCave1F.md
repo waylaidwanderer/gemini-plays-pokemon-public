@@ -21,5 +21,3 @@
   - Northern Water Highway: Rows 4-5 (cols 14-20), Row 6-7 bypass (cols 10-15).
   - Western Water Channel: Cols 8-9 (rows 6-14).
   - Rock island at (10..13, 4..5) separates Northern Highway from Central canal.
-- **Western Ridge Ladder (3, 11)**:
-  - Accessed via South Ramp at (1, 13) -> elevated floor (1..4, 10..12) -> Ladder at (3, 11) [Discovered Turn 42623].
