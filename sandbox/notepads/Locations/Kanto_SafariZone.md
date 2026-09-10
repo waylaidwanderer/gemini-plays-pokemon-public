@@ -71,6 +71,7 @@
   - Descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly south to Area 3 gate at (8..9, 34..35) [Empirically verified Turn 10161].
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
+  - Tile (8, 13) empirically verified impassable water shoreline collision from (8, 14) [Turn 10886].
   - Northern Pond (cols 8..11, rows 9..13): Water pond blocks movement; shorelines at col 8 and 11 [Verified Turns 10673-10675].
   - Row 4 Northern Barrier: Solid continuous hedge of bushes and trees across cols 14..23 blocks all northern passage into row 3 [Verified Turn 10670].
   - Western Passage (cols 8..15, rows 14..20): North-south open corridor between pond/hedge and col 16 bush wall, opening into clean lawn at rows 18..20 [Verified Turn 10682].
