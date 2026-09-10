@@ -13,9 +13,11 @@
   - 2F (13, 11) is solid purple rock. Column 14 runs south only to 2F (14, 13) before turning east into Row 13 (15..22, 13).
   - The entire South Sector of 2F (cols 14-28, rows 11-17) is an isolated loop connecting ONLY to Ladder B at 2F (22, 6). There is NO connection from Column 23/Ladder B to the western sector or NW Ladder A1 on 2F.
 
-- **Active Hypothesis for NW Ladder A1 (1, 3) on 2F & 1F NW Shelf**:
+- **Active Hypothesis for NW Ladder A1 (1, 3) on 2F & 1F NW Basin**:
   - Sighted ladder at 2F (1, 3) from 2F (3, 3).
-  - Physical access to 2F (1, 3) or isolated 1F upper western shelf (0..5, 4..7) must come from 1F Northern Waterway / NW Shelf (1F Ladder E at (7, 1) or 1F Ramp at (23, 3) / other northern landings).
+  - Sighted ladder at 1F (1, 3) in the NW Lower Basin.
+  - Physical testing on Turns 42824–42826 proved the 1F NW shelf (cols 5..16, rows 0..2) is separated from the NW Lower Basin by solid rock wall at (5, 3).
+  - Physical testing on Turns 42387 & 42481 proved the 1F Western Ridge (cols 1..6, rows 8..12) is separated from the NW Lower Basin by solid rock wall at Row 7.
 
 - **South Sector (cols 11..27, rows 7..17)**:
   - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 9 highway (1..23, 9) and Row 11 East corridor (14..23, 11).
