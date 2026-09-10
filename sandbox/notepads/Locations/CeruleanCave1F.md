@@ -1,0 +1,3 @@
+- **Western Ridge North Corridor & Ladder (0, 6) (Verified Turn 42486)**:
+  - From the South Western Ridge at (3, 10..12), the corridor continues North along (3, 8..10), turns West along Row 8 across (3..0, 8), and ascends North along Column 0 via (0, 8) -> (0, 7) to reach a functional Ladder at (0, 6).
+  - Path from South Ramp (1, 13): (1, 13) -> (1, 12) -> (3, 12) -> (3, 8) -> (0, 8) -> (0, 6) [Ladder].
