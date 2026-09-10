@@ -113,6 +113,7 @@
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
+- [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
@@ -143,6 +144,7 @@
 - SILPH SCOPE
 - POKé FLUTE [Obtained Turn 6599]
 - HM04 (STRENGTH) [Received Turn 8274]
+- HM03 (SURF) [Received Turn 10975]
 
 ## Inventory Capacity
 - Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433.
@@ -2719,6 +2721,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Located Secret House in Northwest Lawn of Area 3 at (3, 3) [Turn 10954]
   - [x] Spoke with campaign NPC at (3, 3); Bag is currently FULL ('You don't have room for this fabulous prize!') [Turn 10961]
   - [x] Discarded TM49 to free inventory slot [Turn 10972]
-  - [x] Talked to campaign NPC at (3, 3) to receive HM03 Surf! [Turn 10973]
+  - [x] Received HM03 Surf from campaign NPC at (3, 3)! [Turn 10975] - OBJECTIVE COMPLETE!
 
 <hr>
