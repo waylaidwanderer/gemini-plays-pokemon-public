@@ -2,9 +2,9 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (12, 16) [Turn 10637]
-- Steps Remaining: 188 / 500 steps [Turn 10637]
-- Stage: Stage 4 - Advancing North along Col 12 Corridor past North Pond (Rhyhorn Encounter)
+- Current Position: Safari Zone Area 2 at (12, 16) [Turn 10640]
+- Steps Remaining: 188 / 500 steps [Turn 10640]
+- Stage: Stage 4 - Advancing North along Col 12 to Row 12 to Scout Northern Opening
 
 ## Session 13 Traversal History
 1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]
