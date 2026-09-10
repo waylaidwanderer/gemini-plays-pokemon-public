@@ -15,7 +15,7 @@
 - Row 1 North Bypass: (5..16, 1) and (18, 1).
 - Row 3 West Corridor: (3..9, 3) open continuous floor; connects to Ladder E at (9, 1) via Column 3 North (3, 3) -> (3, 1) -> Row 1 East (4..9, 1). Note: (9, 2) is solid rock blocking direct north passage from (9, 3) to (9, 1).
 - Column 13 Corridor: (13, 1..5) connects Row 1 to Row 5. Tile (13, 6) is a dead-end pocket (Max Potion collected Turn 40906).
-- Row 5 Highway: West segment (1..7, 5) and East segment (9..16, 5), connected to Row 3 via Column 9 (9, 3..5) around rock at (8, 4..5).
+- Row 5 Highway: East segment (9..16, 5) and West segment (1..7, 5). Connecting junction verified on Turn 42982: (10, 5) is open floor connecting Column 13 / East sector (11..16, 5) directly to (9, 5) and Column 9 (9, 3..5). Tile (8, 5) is solid rock. Row 3 (3..9, 3) connects Column 9 (9, 3) west to Column 3 (3, 3).
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
