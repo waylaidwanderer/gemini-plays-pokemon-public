@@ -6,7 +6,7 @@
 - **Ladder C (Central Platform)**: (18, 9) <-> 2F (19, 7).
 - **Ladder D (NE High Plateau)**: (27, 1) <-> 2F (29, 1).
 - **Ladder E (NW Upper Shelf)**: (7, 1) <-> 2F (9, 1).
-- **Ladder A (NW Lower Basin)**: Located at (1, 3) <-> B1F. Reached by traversing the 1F NW Plateau west from Ramp (15, 3) past Ladder E (7, 1) to (5, 2), jumping south over the one-way ledge at (5, 3) down to (5, 4), and walking west along row 4 to (1, 4) -> (1, 3). This is the descent into B1F (Mewtwo's floor)!
+- **Ladder A (NW Lower Basin)**: Located at (1, 3) in the isolated NW lower basin. Note: Tile (5, 3) was empirically verified to be a solid rock wall (Turns 42824-42826), not a ledge. The NW Lower Basin is physically separated on 1F from the NW Upper Plateau (cols 5..16, rows 0..2) and the Western Ridge (cols 1..6, rows 8..12).
 
 ## Verified Topography & Transit (1F)
 - **Central Platform**: Spans cols 11-18, rows 8-14.
