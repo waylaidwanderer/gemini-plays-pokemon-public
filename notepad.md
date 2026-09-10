@@ -3000,6 +3000,9 @@
 - **Central Platform South Ramp & Row 17 Highway (Verified Turn 42376)**:
   - From Ladder C at (18, 9), walking south down the platform to (17, 14) leads to the South Ramp at (17, 15).
   - Descending ramp (17, 15) steps down onto (17, 16), and stepping Down to Row 17 (15, 17) enters the continuous southern ground highway spanning west across (1..15, 17) towards the Western Ridge (cols 1-6).
+- **Western Ridge South Ramp & Access (Verified Turn 42377)**:
+  - From Row 17 at (2, 17), walking North through (2, 16..15) and (1, 14) leads to the Western Ridge Ramp at (1, 13).
+  - Ascending ramp (1, 13) steps up onto (1, 12) on the elevated Western Ridge (cols 0-6, rows 0-12), providing direct ground access to the B1F ladder and Mewtwo's lair!
 
 <hr>
 
