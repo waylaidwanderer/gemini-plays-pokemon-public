@@ -2,8 +2,8 @@
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (8, 14) [Turn 10882]
-- Steps Consumed: 241 / 500 steps taken (259 steps remaining!)
+- Current Position: Safari Zone Area 2 at (12, 10) [Turn 10889]
+- Steps Consumed: 249 / 500 steps taken (251 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
@@ -31,7 +31,9 @@
   - [x] Advanced to (6, 20) and sighted southern pond at cols 5..7 rows 16..19 [Turn 10880]
   - [x] Advance via Western Passage (col 8) north to row 17 (8, 17) [Turn 10882]
   - [x] Reached (8, 14); tile (8, 13) empirically confirmed impassable shoreline collision [Turn 10886]
-  - [ ] Test tile (7, 14) passability or route around northern pond to row 8
+  - [x] Tile (7, 14) and (8, 13) empirically verified impassable shoreline collisions [Turns 10886, 10889]
+  - [ ] Route around northern pond via col 12 north to row 8 (~8 steps)
+  - [ ] Walk west across row 8 into cols 4..7 open lawn and south to South Gate 2
   - [ ] Advance to rows 14-15 to cross west into cols 2..4 (~8 steps)
   - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
   - [ ] Checkpoint 1 (Empirical Test): Test if rows 14-15 allow crossing west between northern pond (rows 9-13) and southern pond (rows 16-19) into columns 2-4 (~10 steps)

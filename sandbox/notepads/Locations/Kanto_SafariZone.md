@@ -72,6 +72,7 @@
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
   - Tile (8, 13) empirically verified impassable water shoreline collision from (8, 14) [Turn 10886].
+  - Tile (7, 14) empirically verified impassable water shoreline collision from (8, 14) [Turn 10889]. Direct crossing between ponds at rows 13-14 is impassable; passage west to cols 2..4 routes around northern pond via row 8.
   - Northern Pond (cols 8..11, rows 9..13): Water pond blocks movement; shorelines at col 8 and 11 [Verified Turns 10673-10675].
   - Row 4 Northern Barrier: Solid continuous hedge of bushes and trees across cols 14..23 blocks all northern passage into row 3 [Verified Turn 10670].
   - Western Passage (cols 8..15, rows 14..20): North-south open corridor between pond/hedge and col 16 bush wall, opening into clean lawn at rows 18..20 [Verified Turn 10682].
