@@ -17,5 +17,4 @@
 
 - Tile (9, 6) is solid rock. Column 9 ends at (9, 5).
 - (11, 4) is solid rock. (11, 5) dead-ends against rock to north, east, and south.
-- (9, 6) is solid rock. Column 9 ends at (9, 5).
 - (12, 5) is solid rock.
