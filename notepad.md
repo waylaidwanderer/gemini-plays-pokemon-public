@@ -3043,6 +3043,13 @@
 - **Row 4 West Barrier (Verified Turn 42252)**: (1..8, 4) is a continuous solid purple rock wall. Tile (3, 4) is solid rock. The NW corridor (3..9, 1..3) connects only to Ladder E at (9, 1) and Column 9 / Row 5 East; it does NOT connect south to Row 5 West or SW Sector (3, 11). To access the isolated SW Sector of 2F, use the corresponding ladder on 1F.
 - **Column 16 Barrier (Verified Turn 42288)**:
   - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9.
+- **Row 8 Bypass to SW Sector & Ladder A2 (Verified Turn 42352)**:
+  - From Ladder B on 2F (22, 6): navigate south down Column 23 (23, 7..11) and west along Row 11 to (15, 11).
+  - From (15, 11): step North 2 times through (15, 10) to (15, 9), and 1 time North to (15, 8).
+  - From (15, 8): step West 2 times through (14, 8) to (13, 8).
+  - From (13, 8): step Down 1 time to (13, 9).
+  - From (13, 9): walk West 10 times along Row 9 to Column 3 (3, 9).
+  - From (3, 9): step Down 2 times into Ladder A2 at (3, 11) to descend to 1F Western Ridge and Mewtwo's lair on B1F!
 
 <hr>
 
