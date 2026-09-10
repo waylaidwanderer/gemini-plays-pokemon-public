@@ -27,3 +27,10 @@
 - Wall at (21..23, 16) blocks direct downward movement from (21..23, 15) to (21..23, 16).
 - Shoreline/cliff at (24..25, 13) and (21, 5) blocks northward surfing/walking.
 - Columns 19-20 rock spine at rows 6-12 separates East and West platforms on 1F.
+## Verified Waterway Topology & Canal Navigation (Turns 42200-42211)
+- **Canal Boarding Point**: From the Upper Landing at (25, 8), stepping South onto the ledge at (25, 9) allows using SURF directly into the water canal at (25, 10).
+- **Eastern Water Canal**: Continuous open water across cols 25-29 at rows 10-11. Connects north via cols 28-29 (rows 6-10) directly to the Northern Canal junction at (28, 5).
+- **Northern Water Highway**: Continuous 2-tile wide water channel spanning rows 4-5 from (28, 4..5) westward to (14, 4..5).
+- **Central Bypass (Row 6-7 Channel)**: Rock island at (10..13, 4..5) blocks direct row 4-5 passage. Water bypasses south via rows 6-7 (cols 10-15) directly into the western water channel at (8, 6).
+- **Western Water Channel**: Open water running south along cols 8-9 (rows 6-10) bordering the Western Ridge (cols 4-6, rows 6-10) and Central Platform (cols 11-13, rows 8-10).
+- **NE Isolated Landing**: Ladder D at (27, 1) is situated on the elevated northeast landing overlooking the canal at row 3.
