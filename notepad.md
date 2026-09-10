@@ -2690,7 +2690,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Ascend South Plateau staircase at (20, 21) to row 18 (21, 18) [Turn 10755]
   - [x] Advance north along col 22 plateau floor to row 12 (26, 12) [Turns 10756-10764]
   - [ ] Descend staircase at (24, 15) to (24, 16) ground level (~6 steps)
-  - [ ] Test column 28 permeable canopy corridor north to row 11/8 east lawn (~8 steps)
+  - [x] Column 28 at (28, 15) empirically tested Turn 10777: SOLID tree obstacle (0 movement delta). Eastern Bypass past row 16 is impassable.
   - [ ] Ascend North Plateau Bridge at (17, 7) and cross to west lawn (12, 8) (~15 steps)
   - [ ] Traverse col 20 permeable canopy corridor to row 3 (~12 steps)
   - [ ] Walk west across rows 4-5 to northwest gateway at (0, 5) (~15 steps)
@@ -2703,6 +2703,5 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [ ] Checkpoint 3 (Warp Destination Verification): Step Down into South Gate 2 and record verified warp destination (Hypothesis: Area 3 Northwest Lawn)
 - Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~280 steps]:
   - [ ] If emerged on Northwest Lawn, locate Secret House, enter, and receive HM03 Surf!
-
 
 <hr>
