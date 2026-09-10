@@ -2673,8 +2673,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (2, 14) [Turn 10229]
-- Steps Remaining: 205 / 500 steps
+- Current Position: Safari Zone Area 3 at (12, 14) [Turn 10231]
+- Steps Remaining: 215 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
@@ -2690,12 +2690,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
-  1. Investigate Southwest Sector (rows 24..28 cols 0..15): Open lawn sighted from (1, 23) during Session 8. Check if Southwest Sector extends around to western/northern regions.
   2. Investigate Central/Western corridors: Map connectivity west of the central pond and around Rest House 4.
   3. Locate Secret House (HM03 Surf) with the ~260 step surplus!
 
 ## Session 11 Master Execution Route (Target: HM03 Surf)
-4. Area 3: Enter at (26, 0) with ~347 steps remaining! Locate Secret House, claim HM03 Surf!
 
 
 <hr>
