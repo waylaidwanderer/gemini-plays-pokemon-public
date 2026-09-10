@@ -36,3 +36,7 @@
   - Row 11 runs clear from (23, 11) west to (14, 11). (13, 11) is solid rock.
   - Column 14 runs south from (14, 11) through (14, 12..15) to Row 15.
   - Row 15 runs west from (14, 15) through (13, 15) and (12, 15) towards the TM14 Blizzard pocket at (4, 15) and Ladder A2 at (3, 11).
+- **Column 15 to Row 17 South Artery (Verified Turn 42178)**:
+  - (14, 13) connects east to (15, 13).
+  - Column 15 is clear south from (15, 13) through (15, 14..17).
+  - Row 17 is a continuous open artery spanning (10..19, 17) leading west directly to the SW Sector and Ladder A2 at (3, 11).
