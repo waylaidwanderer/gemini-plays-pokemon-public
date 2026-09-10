@@ -27,5 +27,7 @@
 - Tree canopy bounds road to the north at cols 33..35 rows 8..9.
 - Bird Keeper at (31, 13) in southern tall grass, facing North (Team of 4: Pidgeotto Lv 26, Farfetch'd Lv 26, Doduo Lv 26, Pidgey Lv 26) [DEFEATED Turn 7304]. Prize: ¥650. Defeat line: "Ow! That's tragic!". Engaged at (31, 10).
 - Route 15 Gatehouse:
-  - Entrance at (13, 8..9) on rows 8..9 paved road [Verified Turn 7311].
+  - West entrance at Fuchsia City (8, 9) on rows 8..9 paved road.
+  - East exit at (13, 8..9) connecting east onto rows 8..9 / 10..11 highway.
   - Connects Route 15 west directly into Fuchsia City.
+- Jr. Trainer ♀ at (18, 11): Stationed in southern grass at (18, 13) facing North; engaged at (18, 10). Team: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Defeated Turn 11478. Prize: ¥580. Defeat line: "I was too impatient!".
