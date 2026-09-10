@@ -2713,5 +2713,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   5. Western Exploration: Navigate from (6, 20) to uncover pathway into Northwest Sector (rows 0..9 cols 0..9).
   6. Northwest Lawn: Locate and enter Secret House to obtain HM03 Surf!
 
+## Western Boundary Collision Audit (Turns 10454-10455)
+- Tile (2, 13): Empirically verified impassable water shoreline collision from (2, 14) [Turn 10454].
+- Tile (1, 14): Empirically verified impassable solid tree canopy collision from (2, 14) [Turn 10455].
+- Finding: Western flank (cols 0-2) is completely blocked. Route to northern sector must circumvent the pond to the east via row 14.
 
 <hr>
