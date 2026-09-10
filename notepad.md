@@ -2515,6 +2515,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - East exit at (13, 8..9) connecting east onto rows 8..9 / 10..11 highway.
   - Connects Route 15 west directly into Fuchsia City.
 - Jr. Trainer ♀ at (18, 11): Stationed in southern grass at (18, 13) facing North; engaged at (18, 10). Team: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Defeated Turn 11478. Prize: ¥580. Defeat line: "I was too impatient!".
+- Col 53 Bypass: Row 9 short grass across cols 54..52 bypasses Jr. Trainer ♀ at (53, 10) and Beauty at (53, 11) to re-enter paved highway at (52, 10..11).
 
 <hr>
 
