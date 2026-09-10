@@ -116,3 +116,4 @@
 - East Warp Boundary: Col 29 rows 22..23 has east-facing arrow warps to Center Area (0, 11) [Verified Turn 10307].
 - Row 24 West Barrier: Round 2x2 tree canopy at (0..1, 24) and continuous bush hedge across cols 2..9 blocks southward passage from column 1 [Empirically verified Turn 10328-10330]. Rows 25..29 southern border is completely enclosed and inaccessible.
 - Signpost at (12, 12): 'REST HOUSE' [Read Turn 10341].
+  - Tile (14, 14) empirically verified impassable cliff wall collision from (13, 14) [Turn 10344-10345]. Rest House 4 basin is completely enclosed on the east by col 14 cliff.
