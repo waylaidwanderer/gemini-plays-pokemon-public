@@ -2991,6 +2991,10 @@
   - From the western water canal at (11, 14), stepping Up onto (11, 13) ascends the ramp onto the Central Platform at (11, 12).
   - Central Platform spans cols 11-13, rows 9-12.
   - From (11, 9), Row 9 runs continuously east across cols 11..18 directly to Ladder C at (18, 9), providing ground access to Ladder C to ascend to 2F (19, 7).
+- **NW Upper Platform (Verified Turn 42262)**:
+  - Spans cols 5-16, rows 0-2. Walkable cave floor.
+  - Ladder E at (7, 1) ascends to 2F (9, 1).
+  - South Ledge at (15, 3): One-way jump South from (15, 2) over ledge into the Northern Water Highway at (15, 4).
 
 <hr>
 
