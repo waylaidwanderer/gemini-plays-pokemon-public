@@ -2578,6 +2578,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
     - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
     - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
+  - Verified Access Route (Turn 11683):
+    - Col 1 connects rows 18..24 down to row 28.
+    - At row 28, the open path/apron extends EAST directly into the courtyard across cols 1..21 without any obstruction!
+    - Gym entrance door is at (5, 27).
+    - Pokmon Center entrance door is at (19, 27).
 
 <hr>
 
