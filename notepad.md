@@ -126,28 +126,52 @@
 # Inventory Log
 
 ## Regular Items
-- RARE CANDY x4 [Verified Turn 6581]
-- SUPER REPEL x4 [Wore off Turn 7357]
-- MOON STONE x1
-- TM21 (MEGA DRAIN) x1 [Received Turn 6802]
-- FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
-- MAX POTION x2 [Obtained Turn 7695 in Area 1, Turn 8532 in Area 3]
+- RARE CANDY x4 [Slot 1] [Verified Turn 6581, 11080]
+- SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
+- MOON STONE x1 [Slot 8] [Verified Turn 11080]
+- TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
+- CARBOS x1 [Slot 14] [Verified Turn 11081]
+- FULL RESTORE x1 [Slot 15] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
+- MAX POTION x2 [Slot 16] [Obtained Area 1 / Area 3, Verified Turn 11082]
+- TM40 (SKULL BASH) x1 [Slot 17] [Verified Turn 11082]
+- MAX REVIVE x1 [Slot 19] [Verified Turn 11082]
 
 ## Key Items & HMs
-- OLD ROD
-- SUPER ROD [Obtained Turn 7001]
-- HM01 (CUT)
-- HM05 (FLASH)
-- BICYCLE
-- COIN CASE
-- LIFT KEY
-- SILPH SCOPE
-- POKé FLUTE [Obtained Turn 6599]
-- HM04 (STRENGTH) [Received Turn 8274]
-- HM03 (SURF) [Received Turn 10975]
+- OLD ROD [Slot 2] [Verified Turn 11080]
+- HM01 (CUT) [Slot 3] [Verified Turn 11080]
+- HM05 (FLASH) [Slot 4] [Verified Turn 11080]
+- BICYCLE [Slot 5] [Verified Turn 11080]
+- COIN CASE [Slot 7] [Verified Turn 11080]
+- LIFT KEY [Slot 9] [Verified Turn 11080]
+- SILPH SCOPE [Slot 10] [Verified Turn 11081]
+- POK� FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
+- SUPER ROD [Slot 13] [Obtained Turn 7001, Verified Turn 11081]
+- HM04 (STRENGTH) [Slot 18] [Received Turn 8274, Verified Turn 11082]
+- HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Bag is currently full). Empirically confirmed Turn 10960/10975.
+- Total Slots Used: 20 / 20 (Bag is completely full, 100% verified all 20 slots Turns 11080-11082).
+- Complete Top-to-Bottom Slot Order:
+  1. RARE CANDY x4
+  2. OLD ROD
+  3. HM01
+  4. HM05
+  5. BICYCLE
+  6. SUPER REPEL x4
+  7. COIN CASE
+  8. MOON STONE x1
+  9. LIFT KEY
+  10. SILPH SCOPE
+  11. POK� FLUTE
+  12. TM21 x1
+  13. SUPER ROD
+  14. CARBOS x1
+  15. FULL RESTORE x1
+  16. MAX POTION x2
+  17. TM40 x1
+  18. HM04
+  19. MAX REVIVE x1
+  20. HM03
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
