@@ -79,7 +79,12 @@
   - Column 5 Bush Barrier (rows 20..33): Continuous solid hedge of bushes and statues along column 5 from row 20 to row 33; tile (5, 29) empirically confirmed solid bush collision [Verified Turn 10688].
   - Southwest Lawn Corridor (cols 6..11, rows 30..33): Wide-open clean lawn connecting column 6 east to column 11 and south toward Area 3 gate [Verified Turn 10688].
   - South Gate 1 (to Area 3 East): Located at cols 8..9 rows 34..35 with south arrow markers at (8..9, 35). Flanked by statues at col 7 and col 10. Warps to Area 3 (26..27, 0) [Verified Turns 8403, 10163, 10692].
-  - South Gate 2 (Western Lawn Exit): Located at cols 2..3 rows 34..35 with south arrow markers at (2..3, 35). Connected to the western lawn corridor (cols 2..4) [Discovered Turn 10692].
+  - South Gate 2 (Western Lawn Exit): Located at cols 2..3 rows 34..35 with south arrow markers at (2..3, 35). Flanked by statues at (1, 34) and (4, 34). Warps directly to Area 3 (West) at (20, 0) [Verified Turn 10942].
+  - Area 2 Northern Bypass: Row 4 bush barrier ends at column 27; column 28 provides open passage north into rows 1..3 clean lawn corridor [Verified Turns 10913-10914].
+  - Area 2 Row 1 Lawn Highway: Row 1 clean lawn spans cols 28 through 2, completely bypassing all northern tall grass [Verified Turns 10928-10931].
+  - Area 2 Western Express Corridor: 3-to-4 tile wide clean lawn highway along column 1 (rows 2..7, 10..34) and columns 1..4 (rows 20..34) connecting directly south to South Gate 2 with zero wild encounters [Verified Turns 10932-10942].
+  - Area 2 Standalone Tree at (0..1, 8..9): Bypassed via column 2 (2, 7..10) crossing single tall grass tile at (2, 8) [Verified Turn 10935].
+  - Area 2 Northern Pond Western Shoreline: Located at column 4 rows 14..19 [Verified Turns 10936-10938].
   - Obstacle at (16, 16) [Verified Turn 8637].
   - Tile (25, 23) empirically verified solid cliff wall from (26, 23) [Turn 10405-10406].
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
@@ -93,7 +98,8 @@
 
 
 ## Area 3 (West)
-- North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26..27, 0) [Verified Turns 8403, 10163].
+- North Entrance 1 (East Gate): Connects from Area 2 South Gate 1 (8..9, 34..35) to (26..27, 0) [Verified Turns 8403, 10163].
+- North Entrance 2 (West Gate): Connects from Area 2 South Gate 2 (2..3, 34..35) to (20, 0) [Verified Turn 10942]. Bypasses the boundary trees at (22..25, 0..1), unlocking direct access to the northern transit corridor (rows 2..5) heading west toward the Northwest Lawn and Secret House.
 - North Boundary Trees: Rows 0 and 1 are blocked west of column 26 by 2x2 boundary trees at (22..25, 0..1). Northern passage west along rows 0/1 from the entrance is impassable [Verified Turn 10694].
 - East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains rock tossing mechanics.

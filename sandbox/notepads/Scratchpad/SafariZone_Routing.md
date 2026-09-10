@@ -3,7 +3,7 @@
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
 - Current Position: Safari Zone Area 2 at (28, 3) [Turn 10918]
-- Steps Consumed: 346 / 500 steps taken (154 steps remaining!)
+- Steps Consumed: 350 / 500 steps taken (150 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
@@ -33,8 +33,5 @@
   - [x] Reached (8, 14); tile (8, 13) empirically confirmed impassable shoreline collision [Turn 10886]
   - [x] Tile (7, 14) and (8, 13) empirically verified impassable shoreline collisions [Turns 10886, 10889]
   - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
-  - [ ] Checkpoint 1 (Empirical Test): Test if rows 14-15 allow crossing west between northern pond (rows 9-13) and southern pond (rows 16-19) into columns 2-4 (~10 steps)
-  - [ ] Checkpoint 2 (Empirical Test): If western corridor is entered, walk south down col 2 to South Gate 2 at (2, 35) (~21 steps)
-  - [ ] Checkpoint 3 (Warp Destination Verification): Step Down into South Gate 2 and record verified warp destination (Hypothesis: Area 3 Northwest Lawn)
-- Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~280 steps]:
+- Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~124 steps]:
   - [ ] If emerged on Northwest Lawn, locate Secret House, enter, and receive HM03 Surf!
