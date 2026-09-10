@@ -58,14 +58,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥70148
+- ¥72178
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 51, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 52, Water]
   - Status: Healthy (Revived Turn 11170 via Max Revive)
-  - HP: 63 / 160 [Verified Turn 11564]
-  - Stats: Attack 117, Defense 136, Speed 117, Special 120
-  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 6/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
+  - HP: 66 / 163 [Verified Turn 11578]
+  - Stats: Attack 119, Defense 139, Speed 119, Special 122
+  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 4/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Fainted [Turn 7302]
   - HP: 0 / 26
