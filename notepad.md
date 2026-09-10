@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥68868 [Session 12 Active, 457 steps remaining]
+- Money: ¥68868
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -158,7 +158,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥68868 [Session 12 Active, 457 steps remaining]
+- ¥68868
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
@@ -2605,6 +2605,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
   - Obstacle at (16, 16) [Verified Turn 8637].
+  - Tile (25, 23) empirically verified solid cliff wall from (26, 23) [Turn 10405-10406].
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
   - Cols 22..25 rows 24..27: Visually displays tall grass texture on Turn 10105; physical collision pending verification when testing approach from row 33.
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.
@@ -2691,7 +2692,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   1. Center Area: (15, 24) -> (29, 10) [Target: <= 35 steps, margin >= 465]
   2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Target: <= 85 steps, margin >= 380]
   3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) [Target: <= 65 steps, margin >= 315]
-  4. Area 3 (West): (26, 0) -> South to (21, 18) -> Ascend Plateau -> Northern descent to Secret House [Target: <= 80 steps, margin >= 235]
+  4. Area 3 (West): (26, 0) -> Explore ground level connections and investigate Gold Teeth Cove / Northwest paths to locate Secret House [Target: <= 80 steps, margin >= 160]
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
