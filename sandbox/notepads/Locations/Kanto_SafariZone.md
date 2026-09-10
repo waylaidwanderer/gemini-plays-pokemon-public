@@ -102,6 +102,7 @@
 - North Entrance 2 (West Gate): Connects from Area 2 South Gate 2 (2..3, 34..35) to (20, 0) [Verified Turn 10942]. Bypasses the boundary trees at (22..25, 0..1), unlocking direct access to the northern transit corridor (rows 2..5) heading west toward the Northwest Lawn and Secret House.
 - North Boundary Trees: Rows 0 and 1 are blocked west of column 26 by 2x2 boundary trees at (22..25, 0..1). Northern passage west along rows 0/1 from the entrance is impassable [Verified Turn 10694].
 - East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
+- Secret House: Located at cols 1..6 rows 2..5 in the far Northwest Lawn of Area 3 [Verified Turn 10954]. Entrance door at (3, 3) accessed from south apron (3, 4). Warps into interior at (2, 7) on red exit mat. Campaign NPC stands at (3, 3) facing south, awarding HM03 (Surf).
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains rock tossing mechanics.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
 - Southern Plateau Bridge:
