@@ -49,9 +49,6 @@
 - Pok�mon Center: Cols 18..21 rows 24..27, POK� sign at (20, 27) [Verified Turn 11346].
 - Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pok�mon Center.
 - Courtyard Boundaries & Access:
-  - North: Rock plateau along rows 22..23.
-  - West: Solid vertical cliff along col 2 rows 23..30 (collision verified at (2, 28) on Turn 11357).
-  - East: Solid hedge along col 23 rows 26..30 and ledge at row 31 (verified Turn 11347-11350; zero eastern access from Central Avenue).
   - South Ledge: South-facing one-way jump ledge along row 31 acts as one-way exit from courtyard to row 32.
   - Southern Landing Corridor (Row 32): Open green lawn corridor along row 32 entered from Column 1 at (1, 32) [Verified Turn 11361]. Runs east below row 31 jump ledge from col 1 to col 9. Dead-ends at col 10 in shoreline water collision (tile (10, 32) impassable, verified Turns 11366, 11399). Does NOT connect north into the courtyard.
   - Verified Perimeter Boundary Collisions (Courtyard Exterior):
