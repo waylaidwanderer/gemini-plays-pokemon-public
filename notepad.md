@@ -3019,6 +3019,10 @@
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
 ## Disproven Routes & Collision Barriers
 - **Row 16 Central Rock Wall (Turn 41901-41902)**: (14..20, 16) is a continuous solid purple rock wall. The pocket at (14..15, 13..15) has NO southern connection to Row 17.
+- **Row 11 to Row 15 Southwest Artery (Verified Turns 42168-42173)**:
+  - Row 11 runs clear from (23, 11) west to (14, 11). (13, 11) is solid rock.
+  - Column 14 runs south from (14, 11) through (14, 12..15) to Row 15.
+  - Row 15 runs west from (14, 15) through (13, 15) and (12, 15) towards the TM14 Blizzard pocket at (4, 15) and Ladder A2 at (3, 11).
 
 <hr>
 
