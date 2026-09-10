@@ -109,9 +109,9 @@
 ## Verified Urban Boundaries & Collisions
 - West Canal: Stone barrier along rows 15-17 (cols 0-7); water pool across rows 10-16.
 - West Backyard Fence: Solid wooden fence along row 15 (cols 8-11).
-- Central Buildings: Trade House spans cols 12-17 (rows 14-15); Pokémon Center spans cols 18-21 (rows 15-17); Gym spans cols 24-31 (rows 16-19).
+- Central Buildings: Trade House spans cols 12-17 (rows 14-15); PokÃ©mon Center spans cols 18-21 (rows 15-17); Gym spans cols 24-31 (rows 16-19).
 - Central Trees/Fence: Solid cluster at cols 22-23 (rows 15-17).
-- Southern Buildings: Bike Shop at cols 12-15 (rows 24-25); Pokémart at cols 18-21 / 24-27 (rows 24-25); Slowbro House at cols 28-33 (rows 24-25).
+- Southern Buildings: Bike Shop at cols 12-15 (rows 24-25); PokÃ© Mart at cols 18-21 / 24-27 (rows 24-25); Slowbro House at cols 28-33 (rows 24-25).
 - Southern Tree Line: Solid tree line along row 28 across cols 6-35.
 - Central Flower Beds: Solid flower gardens at cols 12-21 (rows 20-21) and cols 28-33 (rows 22-23).
 - Eastern Barrier: Fenced boundary along col 35 (rows 20-27) with Cut tree at (35, 20); open eastern avenue at cols 36-37.
