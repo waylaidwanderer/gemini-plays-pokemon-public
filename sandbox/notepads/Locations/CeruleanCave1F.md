@@ -37,3 +37,11 @@
   - (2, 3) is solid rock between Column 3 and Ladder A.
 - Column 9: Connects Row 3 at (9, 3) south via (9, 4..5).
 - Row 5: Floor at (1..7, 5) and (9, 5). Tile (8, 5) is solid rock.
+## Major Breakthrough: Complete Path to Ladder A at 1F (1, 3) (Verified Turn 43128 Screen)
+- Ladder A is at 1F (1, 3).
+- Direct Access to Ladder A:
+  - Column 0 is open floor: (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).
+  - (0, 3) connects directly EAST to Ladder A at (1, 3)!
+  - (0, 5) connects EAST along Row 5 across (1..7, 5).
+  - (6, 5) connects SOUTH through (6, 6) to Row 7 floor at (1..7, 7).
+  - Row 7 floor connects to Western Ridge (cols 1..6, rows 8..12) and South Ramp at (1, 13).
