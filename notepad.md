@@ -2536,7 +2536,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
 - Northern Monuments: Display signboard at (21, 15) ("POKéMON PARADISE / SAFARI ZONE") [Read Turn 11140]. Gambler NPC at (21, 17) ("SAFARI ZONE has a zoo in front of the entrance. Out back is the SAFARI GAME for catching POKéMON.") [Turn 11138].
-- Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
+- Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and front facing south onto row 28 apron. Note: Apron is currently blocked from Central Avenue by column 23 hedge barrier; entrance has not yet been accessed.
 - Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
 - Barrier at Col 23: Barrier separating col 24 from Pokémon Center grounds. Collision empirically confirmed at (23, 28) on Turn 7329 and (23, 22) on Turn 7451; hedge visually observed along rows 26..30.
 - Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0.
@@ -2763,5 +2763,28 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Signpost at (33, 5) on upper road.
 - Road along rows 8..9 extends west above the water shoreline (row 10).
 - Highway Junction: At cols 12..13 rows 8..9, road connects to Route 17 north-south highway.
+
+<hr>
+
+<h1><code>Locations/Kanto_Route17</code></h1>
+
+# Route 17 (Cycling Road) - Kanto
+
+## Overview & Mechanics
+- Type: North-South multi-lane bicycle highway suspended over the ocean.
+- Bicycle Requirement: Player must be mounted on the Bicycle.
+- Slope Physics: Continuous southward downhill gradient. Riding north requires holding/pressing Up against the downhill force.
+- Connections:
+  - South: Route 18 connector causeway at (12..13, 8..9).
+  - North: Route 16 gatehouse (connects to Celadon City).
+
+## Layout & Highway Lanes
+- Eastern Causeway Junction: Columns 12..13 at rows 8..9 connects east across the water causeway to Route 18 Gatehouse.
+- Eastern Highway Corridor: Columns 12..13 paved road runs straight north flanked by water to the east (cols 14+) and central median lawn to the west (cols 9..11).
+
+## Trainers & Sightlines
+- Bikers and Cue Balls (Poison & Fighting types: Koffing, Grimer, Muk, Weezing, Machop).
+- Objective: Navigate around trainer sightlines where possible while party resources are depleted, proceeding to Celadon City Pokémon Center.
+
 
 <hr>

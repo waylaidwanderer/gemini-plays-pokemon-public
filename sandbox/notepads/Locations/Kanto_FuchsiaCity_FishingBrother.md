@@ -8,10 +8,8 @@
 ## Interior Layout
 - Front entrance mat: (2..3, 7).
 - Back Door: Located at (2, 0) in the north wall; warps outside to (31, 24) into enclosed northern backyard [Verified Turn 11149-11150].
-- Occupant: Fishing Guru's older brother at (5, 3).
 - Decor: Desk/aquarium at cols 6..7 rows 3..4.
 - Floor Object: Poké Ball graphic on floor/cushion at (7, 7).
 ## Resident & Rewards
-- Occupant: Fishing Guru's older brother at (5, 3).
 - Dialogue: "I'm the FISHING GURU's older brother! I simply Looove fishing! Do you like to fish?" [Turn 11144-11145].
 - Reward: GOOD ROD obtained on Turn 11176 after answering YES.
