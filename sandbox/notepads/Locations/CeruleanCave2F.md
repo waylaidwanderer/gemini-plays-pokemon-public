@@ -42,3 +42,4 @@
   - The 1F South-Western Ridge (cols 1-6, rows 8-12) accessed via South Ramp at (1, 13) contains NO ladder or warps. Tile (3, 11) on 1F is regular cave floor.
   - The only 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1).
   - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
+- Verified Rock Collisions: (12, 2..4) is a solid vertical rock column blocking transit between col 11 and col 13 on rows 2-4.
