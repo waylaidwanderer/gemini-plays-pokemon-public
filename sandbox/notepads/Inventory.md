@@ -9,7 +9,6 @@
 - FULL RESTORE x1 [Slot 15] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x2 [Slot 16] [Obtained Area 1 / Area 3, Verified Turn 11082]
 - TM40 (SKULL BASH) x1 [Slot 17] [Verified Turn 11082]
-- [Consumed Turn 11170] MAX REVIVE used on Blastoise
 
 ## Key Items & HMs
 - GOOD ROD [Obtained Turn 11176 in Fuchsia City]

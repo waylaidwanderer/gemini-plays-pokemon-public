@@ -18,8 +18,23 @@
 - West Door: (0, 4..5) connects to Route 17 (Cycling Road).
 - Guard: Standing behind desk at (4, 1) ("CYCLING ROAD is all uphill from here." [Verified Turn 11195]).
 - Stairs: At (6, 8), leads to 2F.
+
 ## West of Gatehouse (Cycling Road Approach)
 - West Gatehouse Exterior Door: Located at (34, 8).
 - Signpost at (33, 5) on upper road.
 - Road along rows 8..9 extends west above the water shoreline (row 10).
 - Highway Junction: At cols 12..13 rows 8..9, road connects to Route 17 north-south highway.
+
+## Causeway & Route 17 Approach (Verified Turns 11245-11273)
+- West Gatehouse Exterior: Door at (34, 8), player emerges at (33, 8) mounted on Bicycle.
+- East-West Causeway (Rows 8..9): 2-tile wide paved road with dashed markings spanning cols 6..34, flanked by ocean water to the south (row 10 shoreline).
+- Western Loop Layout:
+  - Eastern North-South Road: Columns 12..13 (rows 0..9) connects row 8 north to row 0.
+  - Western North-South Road: Columns 6..7 (rows 0..9) connects row 8 north to row 0.
+  - Northern Connector Road: Rows 0..1 (cols 6..13) connects the eastern and western roads.
+  - Central Enclosure: Columns 8..11, rows 2..7 is an enclosed green lawn with red flowers.
+  - Ocean Boundaries: West boundary at col 5 stone fence, south boundary at row 10 shoreline, east boundary at col 14 shoreline.
+- Northern Threshold (Row -1):
+  - Suspension bridge girders / pillars at cols 6..7 and 12..13 at row -3.
+  - Central highway lanes expand north across cols 8..11 into Route 17.
+  - Route 17 Signpost located at (9, -3).
