@@ -18,3 +18,8 @@
 - Tile (9, 6) is solid rock. Column 9 ends at (9, 5).
 - (11, 4) is solid rock. (11, 5) dead-ends against rock to north, east, and south.
 - (12, 5) is solid rock.
+## Empirical Probe Results (Turn 43388)
+- Probe at (3, 3) -> Left (2, 3): Result = (5, 3) (Passable)
+- Probe at (3, 3) -> Down (3, 4): Result = (7, 3) (Passable)
+- Probe at (3, 1) -> Up (3, 0): Result = (11, 5) (Passable)
+- Probe at (3, 1) -> Left (2, 1): Result = (9, 5) (Passable)
