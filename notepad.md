@@ -184,14 +184,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥72178
+- ¥72738
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 52, Water]
-  - Status: Healthy (Revived Turn 11170 via Max Revive)
-  - HP: 66 / 163 [Verified Turn 11578]
+  - Status: Poisoned (PSN)
+  - HP: 34 / 163 [Verified Turn 11679]
   - Stats: Attack 119, Defense 139, Speed 119, Special 122
-  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 4/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
+  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 1/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Fainted [Turn 7302]
   - HP: 0 / 26
@@ -2511,11 +2511,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Tree canopy bounds road to the north at cols 33..35 rows 8..9.
 - Bird Keeper at (31, 13) in southern tall grass, facing North (Team of 4: Pidgeotto Lv 26, Farfetch'd Lv 26, Doduo Lv 26, Pidgey Lv 26) [DEFEATED Turn 7304]. Prize: ¥650. Defeat line: "Ow! That's tragic!". Engaged at (31, 10).
 - Route 15 Gatehouse:
-  - West entrance at Fuchsia City (8, 9) on rows 8..9 paved road.
   - East exit at (13, 8..9) connecting east onto rows 8..9 / 10..11 highway.
   - Connects Route 15 west directly into Fuchsia City.
 - Jr. Trainer ♀ at (18, 11): Stationed in southern grass at (18, 13) facing North; engaged at (18, 10). Team: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Defeated Turn 11478. Prize: ¥580. Defeat line: "I was too impatient!".
-- Col 53 Bypass: Row 9 short grass across cols 54..52 bypasses Jr. Trainer ♀ at (53, 10) and Beauty at (53, 11) to re-enter paved highway at (52, 10..11).
 - Gatehouse Approach: Paved road at row 11 ends at col 14 fence; path turns north at col 15 through (15, 10..9) onto rows 8..9 paved road to enter Gatehouse at (13, 9).
 
 <hr>
