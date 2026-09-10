@@ -2757,10 +2757,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Stairs: At (6, 8), leads to 2F.
 
 ## West of Gatehouse (Cycling Road Approach)
-- West Gatehouse Exterior Door: Located at (34, 8).
 - Signpost at (33, 5) on upper road.
-- Road along rows 8..9 extends west above the water shoreline (row 10).
-- Highway Junction: At cols 12..13 rows 8..9, road connects to Route 17 north-south highway.
 
 ## Causeway & Route 17 Approach (Verified Turns 11245-11273)
 - West Gatehouse Exterior: Door at (34, 8), player emerges at (33, 8) mounted on Bicycle.
@@ -2796,7 +2793,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Highway Corridor: Columns 12..13 paved road runs straight north flanked by water to the east (cols 14+) and central median lawn to the west (cols 9..11).
 
 ## Northern Threshold & Causeway Connection
-- Row -1 Barrier Line: Empirically verified continuous impassable barrier / south-facing jump ledge across columns 6..13 (solid collision confirmed at 9,-1 on Turn 11298; 11,-1 on Turn 11299; 12,-1 on Turn 11265; 13,-1 on Turn 11252/11299).
+- Row -1 Barrier Line: Collision confirmed when attempting to step North into row -1 at (13, -1) [Turn 11252], (9, -1) [Turn 11298], and (11, -1) [Turn 11299]. Columns 6, 7, 8, and 10 have not been directly tested. Gatehouse guard states 'CYCLING ROAD is all uphill from here'; access mechanism from this approach remains an active investigation.
 - Suspension Bridge Pillars: Girders at cols 6..7 and 12..13 at row -3.
 - Signpost at (9, -3) on upper highway.
 - Downhill Exit: Route 17 dumps south into the Route 18 causeway via the row -1 jump ledge (downhill exit from Cycling Road).
