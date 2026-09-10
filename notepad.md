@@ -2685,8 +2685,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (1, 20) [Turn 10331]
-- Steps Remaining: 40 / 500 steps
+- Current Position: Safari Zone Area 3 at (8, 14) [Turn 10346]
+- Steps Remaining: 15 / 500 steps
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
@@ -2696,5 +2696,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Southern Sector Barrier: Empirically verified tree at (0..1, 24) and bushes across (2..9, 24) block all passage south past row 23 from the west side. Bottom rows 25..29 are an impassable boundary.
 - Northwest Route Hypothesis: Secret House is located on the Northwest Lawn (near sighted item ball at 9, 7). Accessible by routing north along columns 1..3 across row 16.
 - Strategic Route to Secret House: Advance north along col 1 lawn to (1, 16) -> turn east to (3, 16) -> explore northern corridor heading toward Northwest Lawn and Secret House!
+- Rest House 4 Basin Closure: Tile (14, 14) empirically verified impassable cliff wall [Turn 10344-10345]. The entire basin (cols 10..13 rows 10..14) is enclosed on north/east by cliffs, south by bridge, and west by pond. Sole access is row 14/15 lawn westward to cols 2..3.
+
+## Session 12 Master Plan (HM03 Surf Route)
+- Prerequisite: 500 steps, �69,000+ money.
+- Target: Safari Zone Area 3 Secret House (HM03 Surf).
+- Traversal Route:
+  1. Gatehouse -> Center Area (north through grass/lawn to col 28 east exit) -> Area 1.
+  2. Area 1 -> South Plateau bridge -> North Plateau bridge -> row 3 canopy corridor -> Area 2 gateway at (0, 4..5).
+  3. Area 2 -> Western Plateau bridge -> south gate at (8..9, 34..35) into Area 3 at (26..27, 0).
+  4. Area 3 -> South to (21, 18) -> Ascend elevated plateau at (21, 17).
+  5. Plateau Exploration: Head north along the elevated plateau (cols 11..21 rows 6..8) to scout northern perimeter/descent into the Northwest Lawn.
+  6. Northwest Lawn: Enter Secret House and obtain HM03 Surf!
+
 
 <hr>
