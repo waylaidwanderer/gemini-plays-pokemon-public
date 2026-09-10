@@ -3000,6 +3000,8 @@
   - Accessible via (22, 7) <-> Column 23 (23, 7..15) <-> Row 11 (14..23, 11) <-> Row 13 (17..27, 13) <-> Row 15 (15..26, 15) <-> Row 17 (21..27, 17 SE dead-end).
   - Column 20 is a solid rock barrier separating East (cols 21-29) and West (cols 1-19) in rows 12-20.
 
+- Verified S-bend transit corridor between South Branch and West Sector: (14..15, 11) <-> (14, 12) <-> (12..13, 12) <-> (12, 9..12) <-> (11, 9).
+- Additional verified collisions: (13, 10..11), (13, 13..15), (14, 10), (14, 15), (15, 10), (15, 12), (16, 12..14).
 
 <hr>
 
