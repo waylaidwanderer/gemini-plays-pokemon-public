@@ -32,7 +32,7 @@
   - Row 12 is an open horizontal corridor spanning (11..15, 12) and (16..18, 12).
   - Column 15 connects (15, 12) south to (15, 14).
   - West Ramp at (11, 13) is accessed from (11, 12) by stepping Down.
-- **NW Upper Shelf Western Boundary (Turn 43482)**:
-  - NW Upper Shelf floor spans cols 5..16, rows 0..2.
-  - Empirically verified that Column 4 (4, 0..3) and Column 3 (3, 0..3) are solid purple rock walls bounding the shelf on the west.
-  - The shelf contains Ladder E at (7, 1) <-> 2F (9, 1) and has no other western ground exits on 1F.
+- **NW Upper Shelf Western Area (Unprobed Frontier)**:
+  - NW Upper Shelf spans rows 0..2, accessed via Ramp at (15, 3).
+  - Ladder E is located at (7, 1) <-> 2F (9, 1).
+  - Columns 0..6 on the 1F NW shelf (rows 0..2) have NOT been physically probed yet. Need to systematically walk west along rows 0..2 past Column 7 to test connectivity to the western edge / NW basin.
