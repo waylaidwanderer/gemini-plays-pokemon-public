@@ -2674,17 +2674,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (6, 20) [Turn 10705]
-- Steps Consumed: 261 / 500 steps taken (239 steps remaining)
-- Stage: Descended Southern Plateau bridge to ground level at (6, 20). Heading west to column 2 corridor to proceed north to Northwest Lawn.
+- Current Position: Safari Zone Area 3 at (2, 16) [Turn 10707]
+- Steps Consumed: 269 / 500 steps taken (231 steps remaining)
+- Stage: Transiting row 14 clean lawn bypass east toward column 10-11 corridor to access Northern Basin / Northwest Lawn.
 
-## Ground Truth & Navigation Plan
-- Western Corridor: Columns 2 and 3 form an open corridor running north from row 20 all the way to row 14 (clean lawn at rows 14-17).
-- Northern Basin / Northwest Lawn: Rows 14-15 across cols 2-11 is open clean lawn north of the bridge, connecting to the Northwest Lawn where the Secret House is located.
-- Immediate Path:
-  1. Walk west 4 steps across row 20 from (6, 20) to (2, 20).
-  2. Walk north along column 2 corridor to row 14 (~6 steps).
-  3. Advance into Northwest Lawn to locate and enter the Secret House for HM03 Surf!
+## Ground Truth & Breakthrough
+- The pond at rows 12-13 only spans columns 3 to 9.
+- Rows 14 and 15 form a completely open, unobstructed clean lawn plaza across columns 2 to 11.
+- Columns 10 and 11 form an open clean lawn corridor north past row 12 into Rest House 4 basin and the Northwest Lawn!
+- Immediate Route:
+  1. Walk east along row 14 clean lawn to (10, 14).
+  2. Walk north along column 10-11 clean lawn past the pond.
+  3. Enter Northwest Lawn, locate Secret House, and obtain HM03 Surf!
 
 
 <hr>
