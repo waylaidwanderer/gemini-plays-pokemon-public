@@ -108,3 +108,4 @@
   - Tile (2, 13) empirically verified impassable water shoreline collision from (2, 14) [Turn 10219].
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
+  - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
