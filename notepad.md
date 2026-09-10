@@ -3028,9 +3028,6 @@
   - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
 - Verified Rock Collisions: (12, 2..4) is a solid vertical rock column blocking transit between col 11 and col 13 on rows 2-4.
 - Verified Rock Collisions: (17, 2..8) and (16, 2) are solid purple rock walls. Passage from Column 16 to Column 18 runs solely via Row 1: (15, 3) -> (15, 1) -> (17, 1) -> (18, 1).
-- **North-to-West Transit Bypass (Verified Turn 42747)**:
-  - (9, 6) and (5..12, 6) is a solid rock wall separating Row 5 from Row 7.
-  - Passage from Row 5 East to Row 7/8 runs via Column 13/14: (9..13, 5) -> (13, 6) -> (14, 6) -> (14, 7..8) -> West across Row 8 (14..1, 8) -> Column 1 (1, 7..3) -> Ladder A1 at (1, 3).
 
 <hr>
 
