@@ -21,5 +21,5 @@
   - (22, 5): Elevated cliff separating Row 6 upper plateau from Row 4 water.
   - (24, 13): Elevated cliff border in entrance lobby.
 
-## Waterways & Connectivity
-- Continuous canal network connects central and northern waterways to Ladder E at (7, 1) and Ladder D at (27, 1).
+## Waterways & Connectivity (Pending Empirical In-Water Mapping)
+- Note: Internal water canal connectivity to Ladder E at (7, 1) and Ladder D at (27, 1) remains a hypothesis to be fully mapped during future surfing traversal.
