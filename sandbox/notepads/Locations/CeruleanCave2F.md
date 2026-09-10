@@ -46,4 +46,4 @@
   - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
 - Verified Rock Collisions: (12, 2..4) is a solid vertical rock column blocking transit between col 11 and col 13 on rows 2-4.
 - Verified Rock Collisions: (17, 2..8) and (16, 2) are solid purple rock walls. Passage from Column 16 to Column 18 runs solely via Row 1: (15, 3) -> (15, 1) -> (17, 1) -> (18, 1).
-- **Ladder D Transit (Verified Turn 42802)**: Ladder D at 2F (29, 1) connects via (28, 1..3) -> (29, 3..5) into open corridors spanning (24..29, 4..5), linking the NE sector directly to the main 2F network.
+- **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
