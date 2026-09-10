@@ -2998,8 +2998,10 @@
 - **Row 4 West Barrier (Verified Turn 42252)**: (1..8, 4) is a continuous solid purple rock wall. Tile (3, 4) is solid rock. The NW corridor (3..9, 1..3) connects only to Ladder E at (9, 1) and Column 9 / Row 5 East; it does NOT connect south to Row 5 West or SW Sector (3, 11). To access the isolated SW Sector of 2F, use the corresponding ladder on 1F.
 - **Column 16 Barrier (Verified Turn 42288)**:
   - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9.
-- **Row 8 Bypass Hypothesis (Turn 42352)**:
-  - Visual observation suggests a potential bypass from Row 11 (15, 11) -> (15, 9) -> (15, 8) -> (13, 8) -> (13, 9) into Row 9 West towards Column 3. Needs physical empirical traversal to verify.
+- **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
+  - The 1F South-Western Ridge (cols 1-6, rows 8-12) accessed via South Ramp at (1, 13) contains NO ladder or warps. Tile (3, 11) on 1F is regular cave floor.
+  - The only 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1).
+  - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
 
 <hr>
 
