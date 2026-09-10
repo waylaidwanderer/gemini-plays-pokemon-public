@@ -3019,7 +3019,9 @@
   - Row 11 runs clear from (23, 11) west to (14, 11). (13, 11) is solid rock.
   - Column 14 runs south from (14, 11) to (14, 13) only. Tile (14, 14) is solid purple rock blocking direct southern passage along Column 14.
   - From (14, 13), passage turns east towards (15, 13).
-- **Row 4 West Barrier (Verified Turn 42252)**: (1..8, 4) is a continuous solid purple rock wall. Tile (3, 4) is solid rock. The NW corridor (3..9, 1..3) connects only to Ladder E at (9, 1) and Column 9 / Row 5 East; it does NOT connect south to Row 5 West or SW Sector (3, 11). To access the isolated SW Sector of 2F, use the corresponding ladder on 1F.
+- **Row 4 West Barrier (Verified Turns 42252 & 42769)**: (1..8, 4) is a continuous solid purple rock wall (tested at cols 3, 4, 5, 6, 7, 8).
+- **Column 2 Barrier (Verified Turn 42769)**: (2, 0..4) is continuous solid rock. (3, 1) -> (2, 1) is blocked.
+- **2F NW / SW Sector Isolation**: Ladder A1 at 2F (1, 3) and the western sector (cols 0..7, rows 4..17) are completely isolated from the 2F North Sector (Row 1/3) and South Sector (cols 14..28). Physical access to 2F (1, 3) and the SW sector is solely via 1F transit.
 - **Column 16 Barrier (Verified Turn 42288)**:
   - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9.
 - **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
