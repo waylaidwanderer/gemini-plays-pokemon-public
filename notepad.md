@@ -2556,6 +2556,12 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Zoo Enclosure Corridors (Verified Turns 11015-11028): Cut tree at (16, 11) cleared; Cut tree at (18, 19) cleared. Zoo central lawn is accessible between cols 14..23 rows 12..18.
 - Western Avenue (Verified Turn 11039-11041): Columns 2..3 rows 16..21 is a north-south paved road west of Krabby pen statues (col 4 rows 16..19).
 - Pokémon Center East Boundary (Verified Turns 11047-11050): Column 23 is a continuous solid barrier across rows 26..31 (tested at 26, 27, 28, 29, 30, 31). Zero eastern access to Pokémon Center apron from Central Avenue. Apron at row 28 connects westward toward Fuchsia Gym.
+- Southeast Residential District (Verified Turns 11103-11107):
+  - House 2: Located at cols 30..33 rows 26..28 directly east of Warden's House, with entrance door at (31, 27).
+  - South Street: Rows 30..31 is a continuous open paved east-west street spanning cols 24 through 35 south of the Warden's yard.
+  - Yard Gateway: Open fence gate at cols 30..31 row 29 connects South Street (rows 30..31) into the front yard (row 28) of both the Warden's House (27, 27) and House 2 (31, 27).
+  - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.
+
 
 <hr>
 
