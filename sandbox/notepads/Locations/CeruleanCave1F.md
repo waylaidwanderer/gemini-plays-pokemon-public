@@ -56,10 +56,6 @@
 - **Western Ridge Wall & North Exploration (Turn 42382)**:
   - (0, 8) and (1..6, 7) are solid purple rock walls blocking direct westward/northward access from (1, 8).
   - Open floor extends east along Row 8 across cols 1..6. Scouting east towards col 6+ to find passage around Row 7 rock wall.
-- **Western Ridge Dual Ladders & B1F Topology (Verified Turn 42383)**:
-  - Ladder A2 at (3, 11): Connects to 2F SW Sector (TM14 room).
-  - Ladder to B1F at (0, 6): Connects directly down to Cerulean Cave B1F (Mewtwo's lair).
-  - Passage from South Western Ridge to North Western Ridge: From (5, 8), head east along Row 8 to (7, 8), then north along Column 7 around the rock spine to reach Row 6 and Ladder (0, 6).
 - **Western Ridge South Sector Verified (Turn 42387)**:
-  - (3, 11) is standard cave floor on 1F (no ladder warp). The South Western Ridge (cols 1-6, rows 8-12) is an isolated elevated plateau accessed via South Ramp at (1, 13).
-  - To access North Western Ridge (cols 0-6, rows 0-6) and the B1F ladder: Route via Ladder C (18, 9) -> 2F Central Hub -> 2F North Highway -> Ladder E (9, 1) -> 1F NW Landing (7, 1) -> Walk West along Row 1 (6, 1 -> 1, 1) -> South to Row 6.
+  - The South Western Ridge (cols 1-6, rows 8-12) is an elevated plateau accessed via South Ramp at (1, 13).
+  - (3, 11) and (0, 8) on 1F contain no functional warps/routes to northern sectors. Row 7 is a continuous rock wall and Column 7 is a cliff edge, so this plateau is a dead end.
