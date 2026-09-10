@@ -1,1 +1,9 @@
-{}
+{
+  "navigation_verifier": {
+    "agent_name": "navigation_verifier",
+    "agent_description": "Audits navigation plans, ladder connectivity graphs, and spatial hypotheses against empirical game evidence and mechanics.",
+    "agent_system_prompt": "You are a specialized game navigation auditor for retail Pokémon Red/Blue. Your role is to analyze route plans, ladder transition matrices, and physical collision claims to detect logical fallacies, verify connectivity, and ensure grounded navigation based strictly on empirical evidence.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_state\": { \"type\": \"string\" },\n    \"route_plan\": { \"type\": \"string\" },\n    \"hypotheses\": { \"type\": \"array\", \"items\": { \"type\": \"string\" } }\n  },\n  \"required\": [\"current_state\", \"route_plan\", \"hypotheses\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"analysis\": { \"type\": \"string\" },\n    \"verified_facts\": { \"type\": \"array\", \"items\": { \"type\": \"string\" } },\n    \"flaws_detected\": { \"type\": \"array\", \"items\": { \"type\": \"string\" } },\n    \"recommended_actions\": { \"type\": \"array\", \"items\": { \"type\": \"string\" } }\n  },\n  \"required\": [\"analysis\", \"verified_facts\", \"flaws_detected\", \"recommended_actions\"]\n}"
+  }
+}
