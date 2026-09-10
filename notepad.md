@@ -2675,9 +2675,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (27, 9) [Turn 10724]
-- Steps Consumed: 333 / 500 steps taken (167 steps remaining)
-- Stage: Marching north along column 27 clean lawn highway toward Area 2 entrance at (26..27, 0).
+- Current Position: Safari Zone Area 3 at (27, 4) [Turn 10725]
+- Steps Consumed: 338 / 500 steps taken (162 steps remaining)
+- Stage: At (27, 4). Stepping north through North Entrance (27, 0) into Area 2.
 
 ## Master Plan & Execution Tracker
 - Objective: Reach Area 2 South Gate 2 at (2..3, 35) to access Area 3 West / Secret House.
@@ -2689,8 +2689,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Walk east to col 26 (26, 18) [Turn 10722]
   - [x] Advance onto col 27 and north to (27, 14) [Turn 10723]
   - [x] Advance north to (27, 9) [Turn 10724]
-  - [ ] Walk north along col 27 to entrance (26..27, 0) (~9 steps)
-  - [ ] Step into Area 2 (~1 step)
+  - [x] Advance north to (27, 4) [Turn 10725]
+  - [ ] Step into Area 2 via (27, 0) (~5 steps)
 - Phase 2 (Area 2 Navigation to South Gate 2):
   - [ ] Walk north along col 8 to row 14 (~21 steps)
   - [ ] Walk west across row 14 bypass from col 8 to col 2 (~6 steps)
