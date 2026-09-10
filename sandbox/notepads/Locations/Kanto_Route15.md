@@ -17,7 +17,7 @@
   - Trainer at (48, 10) facing South.
   - Trainer at (46, 10) facing South.
 - Trainers at Col 41:
-  - Jr. Trainer ♀ at (41, 10) facing East.
+  - Beauty at (41, 10) facing West (Team of 2: Bulbasaur Lv 29, Ivysaur Lv 29) [DEFEATED Turn 11491].
   - Biker at (41, 11) facing North.
 - Landmarks:
   - Signpost at (39, 9).
