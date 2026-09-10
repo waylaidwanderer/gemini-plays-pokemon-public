@@ -25,3 +25,10 @@
 - **South Sector (cols 11..27, rows 7..17)**:
   - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 11 East corridor (14..23, 11).
   - Return route from South Sector: Row 11 East (14..23, 11) -> Column 23 North (23, 11..7) -> Ladder B landing (22, 7).
+## Active Hypothesis: Ladder C South Exit to Central-West & Row 17 (To be empirically tested)
+- Visual inspection on Turn 43072 from 2F (14, 11) showed Row 9 open across (10..19, 9) and Column 12 open across (12, 10..15).
+- Hypothesis: Ladder C at 2F (19, 7) exits south into (19, 8..9) -> (12, 9) -> (12, 10..15) -> Row 17 South Artery to the West Sector.
+- Testing Plan:
+  1. Surf across 1F waterways to Central Platform West Ramp at (11, 13) -> (11, 12).
+  2. Ascend Ladder C at 1F (18, 9) to 2F (19, 7).
+  3. Physically step south from 2F (19, 7) into (19, 8), (19, 9), and probe west along Row 9 and Column 12 to empirically verify each coordinate.
