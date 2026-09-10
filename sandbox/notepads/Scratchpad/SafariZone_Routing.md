@@ -26,7 +26,7 @@
 ## Active Session 12 Step Ledger
 - Status: Active Session 12 (HM03 Surf Master Run)
 - Current Position: Safari Zone Area 3 at (11, 8) [Turn 10520]
-- Steps Remaining: 30 / 500 steps [Turn 10520]
+- Steps Remaining: ~30 / 500 steps [Turn 10522]
 - Stage: Stage 4 - Area 3 Exploration to Secret House
 - Traversal History (Session 12):
   1. Center Area: (14, 25) -> (29, 10) [Completed Turn 10377]
@@ -60,3 +60,7 @@
 - At rows 3..5, a wide open east-west lawn boulevard extends west past column 12 directly into the Northwest Sector.
 - Gold Teeth Cove (cols 18..23) is NOT a cul-de-sac; it connects directly north to rows 3..5.
 - Refuted Route: East Corridor access into col 19 ground highway is blocked by col 24 bush hedge.
+## Session 13 Master Strategy (HM03 Surf Route)
+- Prerequisite: 500 steps, ¥68,000+ money.
+- Finding from Session 12: Northern Plateau in Area 3 is an enclosed overlook. The northern lawn (rows 3-9) containing the Poké Ball at (9, 7) and Secret House connects from the north at (17, 3) / (21, 0).
+- Action in Area 2: Upon descending west staircase at (16, 27) onto (16, 28), thoroughly scout west across rows 28-35 (cols 0-15) for the true gate/pathway connecting into Area 3 northern lawn / Secret House!
