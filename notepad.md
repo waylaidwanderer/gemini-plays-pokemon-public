@@ -2721,8 +2721,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Refuted Route: East Corridor access into col 19 ground highway is blocked by col 24 bush hedge.
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Gatehouse at (3, 2) [Turn 10538]
-- Steps Remaining: 500 / 500 steps
+- Current Position: Safari Zone Center Area at (28, 13) [Turn 10550]
+- Steps Remaining: 475 / 500 steps [Turn 10550]
 - Stage: Stage 1 - Admission & Center Area Traversal
 - Traversal Targets:
   1. Center Area: (14, 25) -> (29, 10) into Area 1 [Target: <= 30 steps, margin >= 470]
