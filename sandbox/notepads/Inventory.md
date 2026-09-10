@@ -12,6 +12,7 @@
 - [Consumed Turn 11170] MAX REVIVE used on Blastoise
 
 ## Key Items & HMs
+- GOOD ROD [Obtained Turn 11176 in Fuchsia City]
 - OLD ROD [Slot 2] [Verified Turn 11080]
 - HM01 (CUT) [Slot 3] [Verified Turn 11080]
 - HM05 (FLASH) [Slot 4] [Verified Turn 11080]
@@ -25,7 +26,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (Max Revive consumed Turn 11170, 1 slot free for Good Rod).
+- Total Slots Used: 20 / 20 (Good Rod obtained Turn 11176, Bag full).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x4
   2. OLD ROD

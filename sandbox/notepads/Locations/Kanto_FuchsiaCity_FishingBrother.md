@@ -14,4 +14,4 @@
 ## Resident & Rewards
 - Occupant: Fishing Guru's older brother at (5, 3).
 - Dialogue: "I'm the FISHING GURU's older brother! I simply Looove fishing! Do you like to fish?" [Turn 11144-11145].
-- Reward: Offers GOOD ROD upon answering YES (requires free Bag space; currently blocked by 20/20 capacity).
+- Reward: GOOD ROD obtained on Turn 11176 after answering YES.
