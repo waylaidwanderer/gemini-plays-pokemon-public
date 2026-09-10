@@ -41,3 +41,4 @@
 - Rock Plateau Extent (Verified Turn 11041): Continuous rock plateau spans rows 22..23 across cols 3..22, completely blocking southern access from row 21 between col 3 and col 23. Row 20/21 is a continuous east-west paved avenue from col 2 to col 25.
 - Zoo Enclosure Corridors (Verified Turns 11015-11028): Cut tree at (16, 11) cleared; Cut tree at (18, 19) cleared. Zoo central lawn is accessible between cols 14..23 rows 12..18.
 - Western Avenue (Verified Turn 11039-11041): Columns 2..3 rows 16..21 is a north-south paved road west of Krabby pen statues (col 4 rows 16..19).
+- Column 23 Barrier Collisions (Verified Turns 11048-11049): Solid collisions confirmed at (23, 26), (23, 27), (23, 28), and (23, 29). The hedge/bush is impassable along rows 26..29.
