@@ -39,13 +39,10 @@
 - **Column 2 Barrier (Verified Turn 42769)**: (2, 0..4) is continuous solid rock. (3, 1) -> (2, 1) is blocked.
 - **2F NW / SW Sector Isolation**: Ladder A1 at 2F (1, 3) and the western sector (cols 0..7, rows 4..17) are completely isolated from the 2F North Sector (Row 1/3) and South Sector (cols 14..28). Physical access to 2F (1, 3) and the SW sector is solely via 1F transit.
 - **Column 16 Barrier (Verified Turn 42288)**:
-  - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9.
+  - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9. Tile (16, 7) is a dead-end pocket.
 - **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
   - The 1F South-Western Ridge (cols 1-6, rows 8-12) accessed via South Ramp at (1, 13) contains NO ladder or warps. Tile (3, 11) on 1F is regular cave floor.
   - The only 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1).
   - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
-- Verified Rock Collisions: (12, 2..4) is a solid vertical rock column blocking transit between col 11 and col 13 on rows 2-4.
-- Verified Rock Collisions: (17, 2..8) and (16, 2) are solid purple rock walls. Passage from Column 16 to Column 18 runs solely via Row 1: (15, 3) -> (15, 1) -> (17, 1) -> (18, 1).
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
-- Verified Rock Collisions: (16, 7) is a dead-end pocket bounded by solid rock at (15, 7), (17, 7), and (16, 8) (Turn 42887).
-- Verified Connectivity: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
+- **2F North/Central Network Isolation (Verified Turn 42887)**: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
