@@ -3003,6 +3003,9 @@
 - **Western Ridge South Ramp & Access (Verified Turn 42377)**:
   - From Row 17 at (2, 17), walking North through (2, 16..15) and (1, 14) leads to the Western Ridge Ramp at (1, 13).
   - Ascending ramp (1, 13) steps up onto (1, 12) on the elevated Western Ridge (cols 0-6, rows 0-12), providing direct ground access to the B1F ladder and Mewtwo's lair!
+- **Western Ridge Ladder Confirmed (Turn 42380)**:
+  - Ladder located at (3, 11) on the elevated Western Ridge.
+  - Open continuous ridge floor extends north across cols 1..6, rows 1..12.
 
 <hr>
 
