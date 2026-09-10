@@ -18,3 +18,7 @@
 - West Door: (0, 4..5) connects to Route 17 (Cycling Road).
 - Guard: Standing behind desk at (4, 1) ("CYCLING ROAD is all uphill from here." [Verified Turn 11195]).
 - Stairs: At (6, 8), leads to 2F.
+## West of Gatehouse (Cycling Road Approach)
+- West Gatehouse Exterior Door: Located at (34, 8).
+- Signpost at (33, 5) on upper road.
+- Road along rows 8..9 extends west above the water shoreline (row 10).
