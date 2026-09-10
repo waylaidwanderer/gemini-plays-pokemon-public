@@ -2647,6 +2647,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
   - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
   - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
+- Row 24 East Bush Barrier: Solid horizontal bush hedge across cols 22..29 blocks southward passage [Verified Turn 10307-10308].
+- East Warp Boundary: Col 29 rows 22..23 has east-facing arrow warps to Center Area (0, 11) [Verified Turn 10307].
 
 <hr>
 
