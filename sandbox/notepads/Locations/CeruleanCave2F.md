@@ -43,7 +43,6 @@
 - **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
   - The 1F South-Western Ridge (cols 1-6, rows 8-12) accessed via South Ramp at (1, 13) contains NO ladder or warps. Tile (3, 11) on 1F is regular cave floor.
   - The only 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1).
-  - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
 - **2F North/Central Network Isolation (Verified Turn 42887)**: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
 - **Row 15/16 South Boundary (Verified Turns 43064-43071)**:
