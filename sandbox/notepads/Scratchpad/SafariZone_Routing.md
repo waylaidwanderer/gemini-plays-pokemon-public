@@ -26,7 +26,7 @@
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (21, 18) [Turn 10285]
+- Current Position: Safari Zone Area 3 at (21, 18) [Turn 10287]
 - Steps Remaining: 92 / 500 steps
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
