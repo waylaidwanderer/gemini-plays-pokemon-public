@@ -2644,6 +2644,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
   - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
+  - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
+  - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
 
 <hr>
 
@@ -2677,8 +2679,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (26, 14) [Turn 10270]
-- Steps Remaining: 129 / 500 steps
+- Current Position: Safari Zone Area 3 at (24, 14) [Turn 10273]
+- Steps Remaining: 127 / 500 steps
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
