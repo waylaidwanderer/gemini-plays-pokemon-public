@@ -2606,6 +2606,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Descended via west staircase at (16, 27) onto (16, 28) lawn corridor leading directly south to Area 3 gate at (8..9, 34..35) [Empirically verified Turn 10161].
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
+  - Tile (8, 13) empirically verified impassable water shoreline collision from (8, 14) [Turn 10886].
   - Northern Pond (cols 8..11, rows 9..13): Water pond blocks movement; shorelines at col 8 and 11 [Verified Turns 10673-10675].
   - Row 4 Northern Barrier: Solid continuous hedge of bushes and trees across cols 14..23 blocks all northern passage into row 3 [Verified Turn 10670].
   - Western Passage (cols 8..15, rows 14..20): North-south open corridor between pond/hedge and col 16 bush wall, opening into clean lawn at rows 18..20 [Verified Turn 10682].
@@ -2704,7 +2705,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Scouted column 5 from (6, 32): Confirmed South Gate 2 at (2..3, 35) with open corridor (cols 2..4); column 5 is solid bush/statues across rows 28..34 [Turn 10874]
   - [x] Advanced to (6, 20) and sighted southern pond at cols 5..7 rows 16..19 [Turn 10880]
   - [x] Advance via Western Passage (col 8) north to row 17 (8, 17) [Turn 10882]
-  - [ ] Advance north along col 8 to (8, 14) to inspect row 13-14 west crossing (~3 steps)
+  - [x] Reached (8, 14); tile (8, 13) empirically confirmed impassable shoreline collision [Turn 10886]
+  - [ ] Test tile (7, 14) passability or route around northern pond to row 8
   - [ ] Advance to rows 14-15 to cross west into cols 2..4 (~8 steps)
   - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
   - [ ] Checkpoint 1 (Empirical Test): Test if rows 14-15 allow crossing west between northern pond (rows 9-13) and southern pond (rows 16-19) into columns 2-4 (~10 steps)
