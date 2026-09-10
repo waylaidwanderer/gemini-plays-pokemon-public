@@ -2,9 +2,9 @@
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (26, 18) [Turn 10722]
-- Steps Consumed: 323 / 500 steps taken (177 steps remaining)
-- Stage: Reached (26, 18). Turning onto column 27 clean lawn highway and marching north toward Area 2 entrance at (26..27, 0).
+- Current Position: Safari Zone Area 3 at (27, 14) [Turn 10723]
+- Steps Consumed: 328 / 500 steps taken (172 steps remaining)
+- Stage: Marching north along column 27 clean lawn highway toward Area 2 entrance at (26..27, 0).
 
 ## Master Plan & Execution Tracker
 - Objective: Reach Area 2 South Gate 2 at (2..3, 35) to access Area 3 West / Secret House.
@@ -14,7 +14,8 @@
   - [x] Ascend bridge at (6, 19) and cross east to (21, 16) [Turn 10720]
   - [x] Descend stairs at (21, 17) to row 18 (21, 18) [Turn 10721]
   - [x] Walk east to col 26 (26, 18) [Turn 10722]
-  - [ ] Walk north along col 27 to entrance (26..27, 0) (~19 steps)
+  - [x] Advance onto col 27 and north to (27, 14) [Turn 10723]
+  - [ ] Walk north along col 27 to entrance (26..27, 0) (~14 steps)
   - [ ] Step into Area 2 (~1 step)
 - Phase 2 (Area 2 Navigation to South Gate 2):
   - [ ] Walk north along col 8 to row 14 (~21 steps)
