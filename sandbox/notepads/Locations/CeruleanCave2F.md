@@ -49,3 +49,14 @@
 - **South-to-West Corridor via Column 15 and Row 17 (Verified Turn 43062)**:
   - Column 15 runs south from Row 13 at (15, 13) down through (15, 14..17) to Row 17.
   - Row 17 South Artery runs continuously west across (10..28, 17), providing direct walkable connection across the southern sector to the South-West area.
+## Breakthrough Discovery: Ladder C South Exit to Central-West & Row 17 (Verified Turn 43072)
+- From Ladder C at 2F (19, 7), moving SOUTH leads into (19, 8) -> (19, 9).
+- Row 9 is an open horizontal corridor spanning (10..19, 9):
+  - (12, 9) connects south through (12, 10) -> (12, 11..15).
+  - (12, 15) connects via (13, 15) -> (13, 16) -> (13, 17) directly into the Row 17 South Artery.
+  - (10, 9) connects to (10, 7..12) into the West sector.
+- Transit Route from South/East Sector:
+  1. From 2F (14, 11), take Row 11 East -> Column 23 North to Ladder B at (22, 6).
+  2. Descend Ladder B to 1F (23, 7).
+  3. Walk south down ramp at 1F (21, 11) -> South Ground (17, 15) -> South Ramp onto Central Platform (17, 14) -> Ladder C at (18, 9).
+  4. Ascend Ladder C to 2F (19, 7) and walk SOUTH into (19, 8..9) -> Row 9 West to Column 12 / Row 17!
