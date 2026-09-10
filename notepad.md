@@ -2559,7 +2559,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - House 2: Located at cols 30..33 rows 26..28 directly east of Warden's House, with entrance door at (31, 27).
   - South Street: Rows 30..31 is a continuous open paved east-west street spanning cols 24 through 35 south of the Warden's yard.
   - Yard Gateway: Open fence gate at cols 30..31 row 29 connects South Street (rows 30..31) into the front yard (row 28) of both the Warden's House (27, 27) and House 2 (31, 27).
-  - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.- House 2 Back Door & Northern Backyard (Verified Turns 11149-11153):
+  - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.
+- House 2 Back Door & Northern Backyard (Verified Turns 11149-11153):
   - Interior back door at (2, 0) warps outside to (31, 24) facing South.
   - Enclosed backyard spans cols 26..33 rows 20..24, bounded by row 19 fence posts, col 25 fence posts (rows 20..25), col 34 fence posts (rows 20..25), and zoo pond at cols 28..33 rows 20..21. Decorative enclosed garden with no courtyard access.
 
