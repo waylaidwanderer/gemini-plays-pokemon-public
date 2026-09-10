@@ -35,4 +35,6 @@
   - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
 - Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~124 steps]:
   - [x] Located Secret House in Northwest Lawn of Area 3 at (3, 3) [Turn 10954]
-  - [x] Entered Secret House and spoke with campaign NPC at (3, 3) to receive HM03 Surf! [Turn 10960]
+  - [x] Spoke with campaign NPC at (3, 3); Bag is currently FULL ('You don't have room for this fabulous prize!') [Turn 10961]
+  - [ ] Open Bag, toss/use 1 item to free inventory slot
+  - [ ] Talk to campaign NPC again to receive HM03 Surf
