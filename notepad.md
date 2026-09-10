@@ -2980,6 +2980,16 @@
 - **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
   - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
+## NW Sector Topology Ground Truth (Verified Turn 43125 Screen)
+- Ladder at (9, 1) on 1F <-> 2F (9, 1).
+- Row 1: Floor at (3..8, 1). (1..2, 1) and (10, 1) are solid rock.
+- Column 3: Floor at (3, 1..3).
+- Row 3: Floor at (3..9, 3).
+- Ladder A at (1, 3): Blue ladder icon visible at (1, 3)!
+  - (1, 2) is floor above Ladder A.
+  - (2, 3) is solid rock between Column 3 and Ladder A.
+- Column 9: Connects Row 3 at (9, 3) south via (9, 4..5).
+- Row 5: Floor at (1..7, 5) and (9, 5). Tile (8, 5) is solid rock.
 
 <hr>
 
