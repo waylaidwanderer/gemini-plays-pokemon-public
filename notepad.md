@@ -2643,12 +2643,13 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Tile (2, 13) empirically verified impassable water shoreline collision from (2, 14) [Turn 10219].
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
+  - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
 
 <hr>
 
 <h1><code>Scratchpad/SafariZone_Routing</code></h1>
 
-# Safari Zone Master Routing & Step Ledger (Session 10)
+# Safari Zone Master Routing & Step Ledger (Session 11)
 
 ## Ground Truth & Area 3 Connectivity (Verified Turns 9533–9691)
 - Area 3 Entrance: (26, 0) from Area 2.
@@ -2676,17 +2677,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (16, 7) [Turn 10258]
+- Current Position: Safari Zone Area 3 at (16, 7) [Turn 10261]
 - Steps Remaining: 156 / 500 steps
-- Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
-- Empirically Verified Area 2 Collisions:
-  - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
-  - (18, 27): Cliff face from (18, 28) (Turn 10027)
-  - (20, 20): Northern cliff face from row 19 (Turn 9897)
-  - (22, 20): Northern cliff face from row 19 (Turn 10114)
-  - (25, 23): Cliff face (Turns 9903, 10004)
-  - (32, 12): Cliff corner (Turn 10022)
-  - (31, 11): Statue (Turn 10022)
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
@@ -2696,7 +2688,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Investigate Central/Western corridors: Map connectivity west of the central pond and around Rest House 4.
   3. Locate Secret House (HM03 Surf) with the ~260 step surplus!
 
-## Session 11 Master Execution Route (Target: HM03 Surf)
 
 
 <hr>
