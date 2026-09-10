@@ -18,7 +18,7 @@
 - Central Avenue Junction: Cols 20..21 and 24..25 are paved avenues with dashed road markings, separated by a walkable yellow brick promenade at cols 22..23 (verified Turn 7335).
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
-- Northern Monuments: Display signboard at (21, 15).
+- Northern Monuments: Display signboard at (21, 15) ("POKéMON PARADISE / SAFARI ZONE") [Read Turn 11140]. Gambler NPC at (21, 17) ("SAFARI ZONE has a zoo in front of the entrance. Out back is the SAFARI GAME for catching POKéMON.") [Turn 11138].
 - Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
 - Barrier at Col 23: Barrier separating col 24 from Pokémon Center grounds. Collision empirically confirmed at (23, 28) on Turn 7329 and (23, 22) on Turn 7451; hedge visually observed along rows 26..30.
