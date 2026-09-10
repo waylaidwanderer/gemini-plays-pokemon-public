@@ -2949,10 +2949,9 @@
 - **Ladder A1**: (1, 1) <-> 2F (1, 3) [NW corner ladder to 2F isolated alcove].
 - **Ladder to B1F**: Located on 1F Western Ridge (accessible via 2F Ladder A2 at (3, 11)).
 
-## Navigation Strategy
-- From Ladder B landing at (23, 7), step north to (23, 6) and use Surf on (23, 5).
-- Surf north/west along canal to reach Ladder E at (7, 1).
-- Ascend Ladder E to 2F (9, 1) to access the 2F Northern Highway and reach Ladder A2 at (3, 11).
+## Waterways & Connectivity
+- Continuous canal network connects Ladder B landing (20..22, 5) north and west to Ladder E landing at (7, 1).
+
 
 <hr>
 
@@ -2970,7 +2969,7 @@
   - Ladder E: (9, 1) <-> 1F (7, 1) [Confirmed visually at (9, 1) on Turn 40906].
 
 ## Verified Physical Boundaries & Corridors (2F)
-- Solid Rock Collisions verified: (2, 1..4), (5..10, 2), (9, 2), (17, 2), (10, 1..3), (12, 3), (14, 2..4), (7, 4), (8, 4..5), (11, 4), (20, 4), (8, 5), (15, 6), (5..14, 6), (17, 6), (21, 6), (15, 7), (22, 5), (23, 6), (14, 10), (11, 11), (13, 11..13), (15, 12), (16, 12), (18..20, 12), (22, 12), (16, 13), (25, 13..14), (16, 13..14), (14, 14..16), (15, 14), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall), (21, 14), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
+- Solid Rock Collisions verified: (2, 1..4), (5..10, 2), (9, 2), (17, 2), (10, 1..3), (12, 3), (14, 2..4), (7, 4), (8, 4..5), (11, 4), (20, 4), (8, 5), (15, 6), (5..14, 6), (17, 6), (21, 6), (15, 7), (22, 5), (23, 6), (14, 10), (11, 11), (13, 12), (13, 11..15), (15, 12), (16, 12), (18..20, 12), (22, 12), (16, 13), (25, 13..14), (16, 13..14), (14, 14..16), (15, 14), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall), (21, 14), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
 ## Open Thoroughfares
 - **Central-to-NW S-Bypass (Verified Bidirectional)**: Connects Central Hub (19, 7) to NW Sector (18, 1..3) via (19, 7) <-> (19, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 2) <-> (20, 2) <-> (20, 3) <-> (18, 3) <-> (18, 1).
 - Row 1 North Bypass: (5..16, 1) and (18, 1).
@@ -2982,7 +2981,6 @@
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
 - Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..27, 17); blocked west by Column 20 rock wall.
 - Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
-- Column 1 Western Grand Highway: (1, 2..11) runs south from Row 2 down to Ladder A2 at (3, 11) (blocked from Row 1 by (2, 1) rock). Accessible via 2F Western Corridors (cols 1..9).
 
 ## Verified Items (2F)
 - Item Pokéball at (29, 9) collected (PP Up).
@@ -3001,7 +2999,7 @@
 ## Verified Collisions & Impassable Boundaries (2F)
 - (2, 1), (5..10, 2), (9, 2), (17, 2), (10, 1..3), (12, 3), (14, 2..4)
 - (8, 4..5), (11, 4), (20, 4), (8, 5), (15, 6), (5..14, 6), (17, 6), (21, 6)
-- (22, 5), (23, 6), (14, 10), (11, 11), (13, 11..13), (15, 12), (16, 12)
+- (22, 5), (23, 6), (14, 10), (11, 11), (13, 12), (13, 11..13), (15, 12), (16, 12)
 - (18..20, 12), (16, 13..14), (14, 14..16), (15, 14), (22, 8..10), (24, 8..10)
 - (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall)
 - (21, 14), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11)
@@ -3009,12 +3007,10 @@
 ## Verified Map Topology (2F)
 - **North Branch (cols 1..22, rows 1..5)**:
   - Ladder E at (9, 1) <-> Row 1 West (3, 1) <-> (3, 3) <-> Row 3 East (9, 3) <-> Column 9 South (9, 5) <-> Row 5 East (13..16, 5) <-> Central S-Bypass (18, 1..3) <-> (22, 2..4) <-> (21, 5) <-> (22, 5).
-  - Western Grand Highway: Column 1 (1, 2..5) leading to Ladder A1 at (1, 3).
-- **South Branch (cols 11..27, rows 7..17)**:
+  - **South Branch (cols 11..27, rows 7..17)**:
   - Accessible via (22, 7) <-> Column 23 (23, 7..15) <-> Row 11 (14..23, 11) <-> Row 13 (17..27, 13) <-> Row 15 (15..26, 15) <-> Row 17 (21..27, 17 SE dead-end).
   - Column 20 is a solid rock barrier separating East (cols 21-29) and West (cols 1-19) in rows 12-20.
 
-- Verified S-bend transit corridor between South Branch and West Sector: (14..15, 11) <-> (14, 12) <-> (12..13, 12) <-> (12, 9..12) <-> (11, 9).
 - Additional verified collisions: (13, 10..11), (13, 13..15), (14, 10), (14, 15), (15, 10), (15, 12), (16, 12..14).
 
 <hr>

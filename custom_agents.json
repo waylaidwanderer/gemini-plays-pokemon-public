@@ -1,9 +1,1 @@
-{
-  "cerulean_pathfinder": {
-    "agent_name": "cerulean_pathfinder",
-    "agent_description": "Topological graph validator and corridor pathfinding reasoning agent for Cerulean Cave maze navigation.",
-    "agent_system_prompt": "You are a graph theory and pathfinding specialist analyzing grid topology for Pokemon Blue. You verify that proposed paths never cross known solid rock collisions or impassable walls, and calculate exact step-by-step waypoint routes between coordinates.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_pos\": {\"type\": \"string\"}, \"target_pos\": {\"type\": \"string\"}, \"known_corridors\": {\"type\": \"string\"}, \"known_collisions\": {\"type\": \"string\"}}, \"required\": [\"current_pos\", \"target_pos\", \"known_corridors\", \"known_collisions\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"valid_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"bottlenecks\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"step_by_step_explanation\": {\"type\": \"string\"}}, \"required\": [\"valid_path\", \"bottlenecks\", \"step_by_step_explanation\"]}"
-  }
-}
+{}
