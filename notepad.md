@@ -2675,19 +2675,20 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Center Area at (26, 15) [Turn 10738]
-- Steps Consumed: 21 / 500 steps taken (479 steps remaining!)
+- Current Position: Safari Zone Center Area at (28, 12) [Turn 10739]
+- Steps Consumed: 26 / 500 steps taken (474 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868
 
 ## Master Plan & Execution Tracker (Session 14)
 - Objective: Reach Area 2 South Gate 2 at (2..3, 35) to access Area 3 West / Secret House.
-- Stage 1 (Center Area Traversal) [Budget: ~34 steps, 21 taken]:
+- Stage 1 (Center Area Traversal) [Budget: ~34 steps, 26 taken - COMPLETE in 29 steps]:
   - [x] Emerge at (15, 24) [Turn 10734]
   - [x] Walk east along row 23/21 to (21, 20) [Turn 10736]
   - [x] Advance north along col 21 to row 15 (21, 15) [Turn 10737]
   - [x] Cut east through tree gap at (23..27, 15) to col 26 (26, 15) [Turn 10738]
-  - [ ] Emerge onto col 28 and walk north to East Gate at (29, 10) (~8 steps)
+  - [x] Emerge onto col 28 at (28, 12) [Turn 10739]
+  - [ ] Step into East Gate at (29, 10) (~3 steps)
   - [ ] Enter Area 1 at (0, 23)
 - Stage 2 (Area 1 Traversal) [Budget: ~90 steps]:
   - [ ] Traverse South Plateau across cols 11-22
