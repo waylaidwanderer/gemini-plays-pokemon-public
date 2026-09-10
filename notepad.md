@@ -2676,8 +2676,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (11, 6) [Turn 10256]
-- Steps Remaining: 162 / 500 steps
+- Current Position: Safari Zone Area 3 at (16, 7) [Turn 10258]
+- Steps Remaining: 156 / 500 steps
 - Transition Record: Re-entered Area 2 at (20, 36) -> (20, 35) on Turn 10094.
 - Empirically Verified Area 2 Collisions:
   - (17, 32): Solid bush hedge (Turns 9948, 10034, 10045)
