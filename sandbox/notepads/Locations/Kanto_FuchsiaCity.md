@@ -19,7 +19,7 @@
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
 - Northern Monuments: Display signboard at (21, 15) ("POKéMON PARADISE / SAFARI ZONE") [Read Turn 11140]. Gambler NPC at (21, 17) ("SAFARI ZONE has a zoo in front of the entrance. Out back is the SAFARI GAME for catching POKéMON.") [Turn 11138].
-- Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
+- Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and front facing south onto row 28 apron. Note: Apron is currently blocked from Central Avenue by column 23 hedge barrier; entrance has not yet been accessed.
 - Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
 - Barrier at Col 23: Barrier separating col 24 from Pokémon Center grounds. Collision empirically confirmed at (23, 28) on Turn 7329 and (23, 22) on Turn 7451; hedge visually observed along rows 26..30.
 - Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0.
