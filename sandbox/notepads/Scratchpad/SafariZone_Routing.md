@@ -52,6 +52,17 @@
 - At rows 3..5, a wide open east-west lawn boulevard extends west past column 12 directly into the Northwest Sector.
 - Gold Teeth Cove (cols 18..23) is NOT a cul-de-sac; it connects directly north to rows 3..5.
 - Refuted Route: East Corridor access into col 19 ground highway is blocked by col 24 bush hedge.
+## Active Session 13 Step Ledger
+- Status: Active Session 13 (HM03 Surf Master Run)
+- Current Position: Safari Zone Gatehouse at (3, 2) [Turn 10538]
+- Steps Remaining: 500 / 500 steps
+- Stage: Stage 1 - Admission & Center Area Traversal
+- Traversal Targets:
+  1. Center Area: (14, 25) -> (29, 10) into Area 1 [Target: <= 30 steps, margin >= 470]
+  2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) into Area 2 [Target: <= 80 steps, margin >= 390]
+  3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> descend to (16, 28) [Target: <= 65 steps, margin >= 325]
+  4. Area 2 Western Exploration: Thoroughly scout rows 28-35 across cols 0-15 for the true path to the Secret House [Budget: ~150 steps, margin >= 175]
+
 ## Session 13 Master Strategy (HM03 Surf Route)
 - Prerequisite: 500 steps, ¥68,000+ money.
 - Empirical Findings from Session 12:
