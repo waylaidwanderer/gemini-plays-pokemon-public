@@ -60,3 +60,7 @@
   - Ladder A2 at (3, 11): Connects to 2F SW Sector (TM14 room).
   - Ladder to B1F at (0, 6): Connects directly down to Cerulean Cave B1F (Mewtwo's lair).
   - Passage from South Western Ridge to North Western Ridge: From (5, 8), head east along Row 8 to (7, 8), then north along Column 7 around the rock spine to reach Row 6 and Ladder (0, 6).
+- **Western Ridge South Sector Topology (Verified Turn 42384)**:
+  - Column 7 (rows 8-12) is the cliff edge bordering the water channel.
+  - Row 7 (cols 1-7) is a continuous solid purple rock wall completely separating the South Western Ridge (rows 8-12) from the North Western Ridge (rows 0-6).
+  - South Western Ridge contains Ladder at (3, 11) and Ramp at (1, 13). Testing Ladder at (3, 11) to determine warp destination!
