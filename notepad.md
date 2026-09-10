@@ -3034,6 +3034,7 @@
   - Row 11 runs clear from (23, 11) west to (14, 11). (13, 11) is solid rock.
   - Column 14 runs south from (14, 11) to (14, 13) only. Tile (14, 14) is solid purple rock blocking direct southern passage along Column 14.
   - From (14, 13), passage turns east towards (15, 13).
+- **Row 4 West Barrier (Verified Turn 42252)**: (1..8, 4) is a continuous solid purple rock wall. Tile (3, 4) is solid rock. The NW corridor (3..9, 1..3) connects only to Ladder E at (9, 1) and Column 9 / Row 5 East; it does NOT connect south to Row 5 West or SW Sector (3, 11). To access the isolated SW Sector of 2F, use the corresponding ladder on 1F.
 
 <hr>
 
