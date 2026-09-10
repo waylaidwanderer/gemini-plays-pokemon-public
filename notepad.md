@@ -2542,7 +2542,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Poké Mart: Located at cols 4..7 rows 11..13 with entrance door at (5, 13) and MART sign at (6, 13) [Verified Turn 7411].
 - Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
 - Fuchsia Gym: Located at cols 4..9 rows 24..27 with entrance door at (5, 27) and GYM sign at (6, 26) [Verified Turn 7342]. Front faces south onto row 28 paved road.
-- Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28). Southern boundary is a south-facing ledge at row 31 cols 3..6.
+- Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28). Southern boundary is a south-facing ledge at row 31 cols 3..9, dead-ending at the Route 19 water shoreline at col 10 (visually confirmed Turn 11089).
 - Southern Lawn (Row 32): Open east-west lawn corridor along row 32 south of the Gym ledge (row 31) and north of boundary statues (row 33); dead-ends at the Route 19 shoreline (col 10).
 - Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!") and resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"). Entrance door at (22, 13) [Verified Turn 7368, 7376].
 - Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
@@ -2555,7 +2555,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rock Plateau Extent (Verified Turn 11041): Continuous rock plateau spans rows 22..23 across cols 3..22, completely blocking southern access from row 21 between col 3 and col 23. Row 20/21 is a continuous east-west paved avenue from col 2 to col 25.
 - Zoo Enclosure Corridors (Verified Turns 11015-11028): Cut tree at (16, 11) cleared; Cut tree at (18, 19) cleared. Zoo central lawn is accessible between cols 14..23 rows 12..18.
 - Western Avenue (Verified Turn 11039-11041): Columns 2..3 rows 16..21 is a north-south paved road west of Krabby pen statues (col 4 rows 16..19).
-- Column 23 Barrier Collisions (Verified Turns 11048-11049): Solid collisions confirmed at (23, 26), (23, 27), (23, 28), and (23, 29). The hedge/bush is impassable along rows 26..29.
 - Pokémon Center East Boundary (Verified Turns 11047-11050): Column 23 is a continuous solid barrier across rows 26..31 (tested at 26, 27, 28, 29, 30, 31). Zero eastern access to Pokémon Center apron from Central Avenue. Apron at row 28 connects westward toward Fuchsia Gym.
 
 <hr>
