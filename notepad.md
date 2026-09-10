@@ -3040,10 +3040,10 @@
   - Column 17 Rock Wall: Continuous solid rock at (17, 2..8) and (16, 2). Only Row 1 (15, 1) -> (17, 1) -> (18, 1) connects Column 15/16 to Column 18 (Verified Turn 42586).
   - (19, 3) open floor confirmed on Turn 42593 connecting Column 18 and Column 20.
 
-- **Active Hypothesis for NW Ladder (1, 3)** (Turn 42566 Sighting):
+- **Active Hypothesis for NW Ladder (1, 3)**:
   - Sighted ladder at (1, 3) from (3, 3).
-  - Route Hypothesis: From Ladder B landing (22, 7), descend Column 23 to Row 9 highway (23, 9). Traverse Row 9 west across (23..1, 9) to reach the Western Sector -> Row 7 (1..9, 7) -> Column 6 (6, 6) -> Row 5 West (1..7, 5) -> Column 0 (0, 5..2) -> (1, 2) -> Ladder A1 at (1, 3).
-  - Status: Empirical testing in progress (Turn 42602).
+  - Hypothesis: Row 9 grand highway (23..1, 9) may connect Column 23 (23, 7..11) to Western Sector -> Row 7 (1..9, 7) -> Column 6 (6, 6) -> Row 5 West (1..7, 5) -> Column 0 (0, 5..2) -> (1, 2) -> Ladder A1 at (1, 3).
+  - Status: UNVERIFIED HYPOTHESIS. Currently executing step-by-step physical traversal to test each corridor.
 
 - **South Sector (cols 11..27, rows 7..17)**:
   - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 9 highway (1..23, 9) and Row 11 East corridor (14..23, 11).
