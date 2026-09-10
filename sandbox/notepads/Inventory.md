@@ -19,6 +19,7 @@
 - SILPH SCOPE
 - POKé FLUTE [Obtained Turn 6599]
 - HM04 (STRENGTH) [Received Turn 8274]
+- HM03 (SURF) [Received Turn 10975]
 
 ## Inventory Capacity
 - Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433.
