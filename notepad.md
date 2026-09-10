@@ -2990,7 +2990,7 @@
 ## Open Thoroughfares
 - **Central-to-NW S-Bypass (Verified Bidirectional)**: Connects Central Hub (19, 7) to NW Sector (18, 1..3) via (19, 7) <-> (19, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 2) <-> (20, 2) <-> (20, 3) <-> (18, 3) <-> (18, 1).
 - Row 1 North Bypass: (5..16, 1) and (18, 1).
-- Row 3 West Corridor: (3..9, 3) open continuous floor.
+- Row 3 West Corridor: (3..9, 3) open continuous floor. Connects NW Ladder E (9, 1) via (9, 1) -> Row 1 West (3, 1) -> (3, 3) -> Row 3 East (9, 3) -> Column 9 South (9, 5) -> Row 5 East (13, 5). Note: (5..10, 2) is solid rock separating Row 1 and Row 3.
 - Column 13 North-South transit: (13, 1..6) connects Row 1 to Row 5/6.
 - Row 5 Main Highway (Verified): West segment (1..7, 5) and East segment (9..16, 5), connected via vertical bypasses at Column 7 ((7, 3..5)) and Column 9 ((9, 3..5)) around rock at (8, 4..5). Connects west directly to Column 1 (Western Grand Highway) and Ladder A1 at (1, 3).
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
