@@ -2978,21 +2978,21 @@
 
 ## Connected Component Graph (2F)
 - **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 1-19.
-  - Ladder A1: (1, 3) <-> 1F (1, 3) / B1F [NW Sector, accessed via Column 1 Western Highway].
-  - Ladder A2: (3, 11) <-> 1F (3, 11) / B1F [Western Ridge].
+  - Ladder A1: (1, 3) [NW Sector - warp destination pending direct exploration; hypothesized 1F NW / B1F].
+  - Ladder A2: (3, 11) [Western Ridge - warp destination pending direct exploration; hypothesized 1F West / B1F].
   - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
   - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
   - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
   - Ladder E: (9, 1) <-> 1F (7, 1) [Confirmed visually at (9, 1) on Turn 40906].
 
 ## Verified Physical Boundaries & Corridors (2F)
-- Solid Rock Collisions verified: (2, 1), (15, 6), (5..14, 6), (22, 5), (21, 6), (23, 6), (15, 14), (14, 14..16), (17, 6), (20, 4), (17, 2), (11, 4), (10, 1..3), (12, 3), (14, 2..4), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall), (21, 14), (16, 11), (16, 13), (18, 12), (19, 12), (20, 12), (21, 12), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
+- Solid Rock Collisions verified: (2, 1), (5..10, 2), (9, 2), (17, 2), (10, 1..3), (12, 3), (14, 2..4), (8, 4..5), (11, 4), (20, 4), (8, 5), (15, 6), (5..14, 6), (17, 6), (21, 6), (22, 5), (23, 6), (15, 14), (14, 14..16), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall), (21, 14), (16, 11), (16, 13), (18, 12), (19, 12), (20, 12), (21, 12), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
 ## Open Thoroughfares
 - **Central-to-NW S-Bypass (Verified Bidirectional)**: Connects Central Hub (19, 7) to NW Sector (18, 1..3) via (19, 7) <-> (19, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 2) <-> (20, 2) <-> (20, 3) <-> (18, 3) <-> (18, 1).
 - Row 1 North Bypass: (5..16, 1) and (18, 1).
-- Row 3 West Corridor: (3..9, 3) open continuous floor. Connects NW Ladder E (9, 1) via (9, 1) -> Row 1 West (3, 1) -> (3, 3) -> Row 3 East (9, 3) -> Column 9 South (9, 5) -> Row 5 East (13, 5). Note: (5..10, 2) is solid rock separating Row 1 and Row 3.
+- Row 3 West Corridor: (3..9, 3) open continuous floor; connects Ladder E at (9, 1) via Row 1 West (3, 1) -> (3, 3) -> Row 3 East (9, 3) -> Column 9 South (9, 5) -> Row 5 East (13, 5).
 - Column 13 North-South transit: (13, 1..6) connects Row 1 to Row 5/6.
-- Row 5 Main Highway (Verified): West segment (1..7, 5) and East segment (9..16, 5), connected via vertical bypasses at Column 7 ((7, 3..5)) and Column 9 ((9, 3..5)) around rock at (8, 4..5). Connects west directly to Column 1 (Western Grand Highway) and Ladder A1 at (1, 3).
+- Row 5 Highway: West segment (1..7, 5) and East segment (9..16, 5), connected to Row 3 via Column 9 (9, 3..5) around rock at (8, 4..5).
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
