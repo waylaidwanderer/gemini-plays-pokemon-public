@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 50, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥69368 [Session 11 Concluded, 0 steps remaining]
+- Money: ¥68868 [Session 12 Active, 457 steps remaining]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -158,7 +158,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥69368 [Session 11 Active, 500 steps]
+- ¥68868 [Session 12 Active, 457 steps remaining]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
@@ -2684,10 +2684,9 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 12 Step Ledger
 - Status: Active Session 12 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 1 at (0, 22) [Turn 10378]
-- Steps Remaining: 471 / 500 steps
+- Current Position: Safari Zone Area 1 at (12, 24) [Turn 10381]
+- Steps Remaining: 457 / 500 steps
 - Stage: Stage 2 - Area 1 Traversal to Area 2 Gateway (0, 4..5)
-- Stage: Stage 1 - Center Area Traversal to Area 1 East Exit (29, 10)
 - Traversal Stage Targets:
   1. Center Area: (15, 24) -> (29, 10) [Target: <= 35 steps, margin >= 465]
   2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Target: <= 85 steps, margin >= 380]
@@ -2700,7 +2699,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Row 24 East Barrier: Solid horizontal bush hedge across cols 22..29 empirically verified Turn 10308. East border at (29, 22..23) has right-arrow warps to Center Area. Zero southern passage from East Corridor to rows 25..27.
 - Southern Sector Barrier: Empirically verified tree at (0..1, 24) and bushes across (2..9, 24) block all passage south past row 23 from the west side. Bottom rows 25..29 are an impassable boundary.
-- Northwest Route Hypothesis: Secret House is located on the Northwest Lawn (near sighted item ball at 9, 7). Accessible by routing north along columns 1..3 across row 16.
 - Rest House 4 Basin Closure: Tile (14, 14) empirically verified impassable cliff wall [Turn 10344-10345]. The entire basin (cols 10..13 rows 10..14) is enclosed on north/east by cliffs, south by bridge, and west by pond. Sole access is row 14/15 lawn westward to cols 2..3.
 
 ## Session 12 Master Plan (HM03 Surf Route)
@@ -2711,7 +2709,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   2. Area 1 -> South Plateau bridge -> North Plateau bridge -> row 3 canopy corridor -> Area 2 gateway at (0, 4..5).
   3. Area 2 -> Western Plateau bridge -> south gate at (8..9, 34..35) into Area 3 at (26..27, 0).
   4. Area 3 -> South to (21, 18) -> Ascend elevated plateau at (21, 17).
-  5. Plateau Exploration: Head north along the elevated plateau (cols 11..21 rows 6..8) to scout northern perimeter/descent into the Northwest Lawn.
+  5. Plateau Exploration: Head north along elevated plateau to thoroughly scout connections and paths toward Secret House.
   6. Northwest Lawn: Enter Secret House and obtain HM03 Surf!
 
 
