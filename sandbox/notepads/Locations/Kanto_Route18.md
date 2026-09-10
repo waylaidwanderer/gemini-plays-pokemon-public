@@ -35,3 +35,10 @@
   - Suspension bridge girders / pillars at cols 6..7 and 12..13 at row -3.
   - Central highway lanes expand north across cols 8..11 into Route 17.
   - Route 17 Signpost located at (9, -3).
+
+## Route 18 Gatehouse 2F
+- Layout: Observation lounge (cols 0..7, rows 3..7).
+- Stairs down to 1F: Located at (7, 7).
+- Binoculars: Western binoculars at (1, 4), eastern binoculars at (6, 4).
+- Potted plant at (0, 6..7).
+- No NPCs present.
