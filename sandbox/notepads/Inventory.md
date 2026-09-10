@@ -3,7 +3,6 @@
 ## Items (7 / 10)
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
-- TM49 (TRI ATTACK) x1
 - MOON STONE x1
 - TM21 (MEGA DRAIN) x1 [Received Turn 6802]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]

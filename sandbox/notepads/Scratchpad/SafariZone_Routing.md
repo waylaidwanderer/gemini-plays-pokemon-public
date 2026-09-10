@@ -36,5 +36,5 @@
 - Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~124 steps]:
   - [x] Located Secret House in Northwest Lawn of Area 3 at (3, 3) [Turn 10954]
   - [x] Spoke with campaign NPC at (3, 3); Bag is currently FULL ('You don't have room for this fabulous prize!') [Turn 10961]
-  - [ ] Open Bag, toss/use 1 item to free inventory slot
+  - [x] Discarded TM49 to free inventory slot [Turn 10972]
   - [ ] Talk to campaign NPC again to receive HM03 Surf
