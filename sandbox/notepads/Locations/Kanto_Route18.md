@@ -20,10 +20,7 @@
 - Stairs: At (6, 8), leads to 2F.
 
 ## West of Gatehouse (Cycling Road Approach)
-- West Gatehouse Exterior Door: Located at (34, 8).
 - Signpost at (33, 5) on upper road.
-- Road along rows 8..9 extends west above the water shoreline (row 10).
-- Highway Junction: At cols 12..13 rows 8..9, road connects to Route 17 north-south highway.
 
 ## Causeway & Route 17 Approach (Verified Turns 11245-11273)
 - West Gatehouse Exterior: Door at (34, 8), player emerges at (33, 8) mounted on Bicycle.
