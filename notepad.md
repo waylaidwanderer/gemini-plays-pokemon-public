@@ -2676,8 +2676,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (8, 17) [Turn 10880]
-- Steps Consumed: 238 / 500 steps taken (262 steps remaining!)
+- Current Position: Safari Zone Area 2 at (8, 14) [Turn 10882]
+- Steps Consumed: 241 / 500 steps taken (259 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
@@ -2703,7 +2703,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Advance south along lawn to row 32 and west to (10, 32) [Turn 10872]
   - [x] Scouted column 5 from (6, 32): Confirmed South Gate 2 at (2..3, 35) with open corridor (cols 2..4); column 5 is solid bush/statues across rows 28..34 [Turn 10874]
   - [x] Advanced to (6, 20) and sighted southern pond at cols 5..7 rows 16..19 [Turn 10880]
-  - [ ] Advance via Western Passage (col 8) north to row 17 (8, 17) (~5 steps)
+  - [x] Advance via Western Passage (col 8) north to row 17 (8, 17) [Turn 10882]
+  - [ ] Advance north along col 8 to (8, 14) to inspect row 13-14 west crossing (~3 steps)
   - [ ] Advance to rows 14-15 to cross west into cols 2..4 (~8 steps)
   - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
   - [ ] Checkpoint 1 (Empirical Test): Test if rows 14-15 allow crossing west between northern pond (rows 9-13) and southern pond (rows 16-19) into columns 2-4 (~10 steps)
