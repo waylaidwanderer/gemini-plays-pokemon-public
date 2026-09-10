@@ -2716,5 +2716,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Tile (2, 13): Empirically verified impassable water shoreline collision from (2, 14) [Turn 10454].
 - Tile (1, 14): Empirically verified impassable solid tree canopy collision from (2, 14) [Turn 10455].
 - Finding: Western flank (cols 0-2) is completely blocked. Route to northern sector must circumvent the pond to the east via row 14.
+## Breakthrough Discovery - True Northwest Route (Turn 10478)
+- Ground Truth: Visual confirmation from (16, 7) proves columns 18..21 is an unbroken ground lawn corridor running north from row 14 past row 7 into rows 3..5.
+- At rows 3..5, a wide open east-west lawn boulevard extends west past column 12 directly into the Northwest Sector.
+- Gold Teeth Cove (cols 18..23) is NOT a cul-de-sac; it connects directly north to rows 3..5.
+- Master Route: Descend east stairs at (21, 17) -> East Corridor row 14 -> enter col 19 ground highway -> walk north to row 4 -> follow row 4 boulevard west into Northwest Sector to enter Secret House and obtain HM03 Surf!
 
 <hr>
