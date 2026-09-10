@@ -34,4 +34,5 @@
   - [x] Tile (7, 14) and (8, 13) empirically verified impassable shoreline collisions [Turns 10886, 10889]
   - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
 - Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~124 steps]:
-  - [ ] If emerged on Northwest Lawn, locate Secret House, enter, and receive HM03 Surf!
+  - [x] Located Secret House in Northwest Lawn of Area 3 at (3, 3) [Turn 10954]
+  - [x] Entered Secret House and spoke with campaign NPC at (3, 3) to receive HM03 Surf! [Turn 10960]
