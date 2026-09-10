@@ -1,9 +1,1 @@
-{
-  "step_margin_auditor": {
-    "agent_name": "step_margin_auditor",
-    "agent_description": "Audits step expenditures against budgeted benchmarks and tracks remaining step margin across traversal stages.",
-    "agent_system_prompt": "You are an arithmetic step budget auditor. You strictly evaluate whether planned movement sequences adhere to budgeted step allocations for each Safari Zone stage (budget: Center Area ~35 steps, Area 1 ~90 steps, Area 2 ~115 steps, leaving ~260 steps for Area 3). You only audit numerical step counts, subtraction from steps_remaining, and coordinate distance math. Do NOT make claims about terrain, collisions, or encounter hazards.",
-    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_stage\": {\"type\": \"string\"},\n    \"current_position\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"x\": {\"type\": \"integer\"},\n        \"y\": {\"type\": \"integer\"}\n      },\n      \"required\": [\"x\", \"y\"]\n    },\n    \"steps_remaining\": {\"type\": \"integer\"},\n    \"planned_waypoints\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"x\": {\"type\": \"integer\"},\n          \"y\": {\"type\": \"integer\"}\n        },\n        \"required\": [\"x\", \"y\"]\n      }\n    }\n  },\n  \"required\": [\"current_stage\", \"current_position\", \"steps_remaining\", \"planned_waypoints\"]\n}",
-    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"is_valid\": {\"type\": \"boolean\"},\n    \"budget_status\": {\"type\": \"string\"},\n    \"remaining_after_traversal\": {\"type\": \"integer\"},\n    \"warnings\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    },\n    \"notes\": {\"type\": \"string\"}\n  },\n  \"required\": [\"is_valid\", \"budget_status\", \"remaining_after_traversal\", \"warnings\", \"notes\"]\n}"
-  }
-}
+{}

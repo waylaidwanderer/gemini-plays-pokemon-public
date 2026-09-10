@@ -70,6 +70,7 @@
 - Area 2 Collisions & Barriers:
   - Column 16 dense bush wall spans rows 12..19.
   - Obstacle at (16, 16) [Verified Turn 8637].
+  - Tile (25, 23) empirically verified solid cliff wall from (26, 23) [Turn 10405-10406].
   - Cliff collision at (26, 24) [Verified Turn 8644; re-verified impassable from (26, 23) Turn 10109].
   - Cols 22..25 rows 24..27: Visually displays tall grass texture on Turn 10105; physical collision pending verification when testing approach from row 33.
   - Column 26 lawn corridor dead-ends south at (26, 24) Eastern Plateau cliff.

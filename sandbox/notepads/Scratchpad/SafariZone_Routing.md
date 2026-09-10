@@ -32,7 +32,7 @@
   1. Center Area: (15, 24) -> (29, 10) [Target: <= 35 steps, margin >= 465]
   2. Area 1 (East): (0, 23) -> North Plateau Bridge -> canopy corridor -> (0, 4..5) [Target: <= 85 steps, margin >= 380]
   3. Area 2 (North): (39, 30) -> Western Plateau Bridge -> south gate (8..9, 34..35) [Target: <= 65 steps, margin >= 315]
-  4. Area 3 (West): (26, 0) -> South to (21, 18) -> Ascend Plateau -> Northern descent to Secret House [Target: <= 80 steps, margin >= 235]
+  4. Area 3 (West): (26, 0) -> Explore ground level connections and investigate Gold Teeth Cove / Northwest paths to locate Secret House [Target: <= 80 steps, margin >= 160]
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
