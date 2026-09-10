@@ -27,7 +27,6 @@
 - Northern bypass connection: Row 11 has open gap at (22..23, 11) connecting row 12 to row 10. Row 10 extends west across cols 15..22+ [Verified Turn 7061].
 - Fence Maze Layout (Cols 10..14):
   - Row 10 corridor continues west across cols 10..14 bounded north by row 9 fence and south by row 11 fence [Verified Turn 7073].
-  - Gap in row 9 fence at (13, 9) opens north to row 8 corridor.
   - NPC sighted at (10, 7) [Observed Turn 7073].
 - Fence Maze Layout (Cols 6..10):
   - Row 11 fence ends at col 10; cols 7..9 are open ground connecting rows 10, 11, and 12 [Verified Turn 7074].
@@ -45,5 +44,5 @@
 - Upper Fence Bypass (Cols 23..26):
   - Row 5 fence ends at col 23; cols 24..25 are open ground connecting row 6 and row 4 [Verified Turn 7106].
   - Col 26 has vertical fence at rows 3..5 [Verified Turn 7106].
-- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
+- Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Defeated sprite at (12, 4) is a solid impassable obstacle when moving east from (11, 4) [Verified Turn 11608]. Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
 - Route 14 Connection: Row 4 is a straight open corridor across cols 0..24 bounded north by row 3 fence and south by row 5 fence. Stepping west past col 0 on row 4 exits directly onto Route 14 [Verified Turn 7147].
