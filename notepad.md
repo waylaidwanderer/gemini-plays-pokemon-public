@@ -2453,7 +2453,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Connections
 - East: Route 13 at (19, 4) <-> Route 13 (0, 4) [Verified Turn 7148].
 - West: Route 15 at col 0, rows 46..47 [Verified Turn 7219].
-- South / West: Leads toward Route 15 and Fuchsia City.
 
 ## Geography & Layout
 - Entrance Corridor (Row 4): Horizontal corridor extending west from col 19 to col 4 bounded north by row 3 fence, south by row 5 fence, and west by col 3 rock cliff [Verified Turn 7152].
