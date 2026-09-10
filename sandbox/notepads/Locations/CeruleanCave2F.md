@@ -14,7 +14,7 @@
 - **Central-to-NW S-Bypass (Verified Bidirectional)**: Connects Central Hub (19, 7) to NW Sector (18, 1..3) via (19, 7) <-> (19, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 2) <-> (20, 2) <-> (20, 3) <-> (18, 3) <-> (18, 1).
 - Row 1 North Bypass: (5..16, 1) and (18, 1).
 - Row 3 West Corridor: (3..9, 3) open continuous floor; connects to Ladder E at (9, 1) via Column 3 North (3, 3) -> (3, 1) -> Row 1 East (4..9, 1). Note: (9, 2) is solid rock blocking direct north passage from (9, 3) to (9, 1).
-- Column 13 Corridor: (13, 1..5) connects Row 1 to Row 5. Tile (13, 6) is a dead-end pocket (Max Potion collected Turn 40906).
+- Column 13 Corridor: (13, 1..5) connects Row 1 to Row 5. Tile (13, 6) is a 1-tile dead-end pocket (Max Potion collected Turn 40906; (13, 7) empirically verified solid rock on Turn 43000).
 - Row 5 Highway: East segment (9..16, 5) and West segment (1..7, 5). Connecting junction verified on Turn 42982: (10, 5) is open floor connecting Column 13 / East sector (11..16, 5) directly to (9, 5) and Column 9 (9, 3..5). Tile (8, 5) is solid rock. Row 3 (3..9, 3) connects Column 9 (9, 3) west to Column 3 (3, 3).
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
