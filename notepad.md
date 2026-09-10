@@ -2673,8 +2673,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 1 at (22, 16) [Turn 10756]
-- Steps Consumed: 64 / 500 steps taken (436 steps remaining!)
+- Current Position: Safari Zone Area 1 at (22, 12) [Turn 10758]
+- Steps Consumed: 68 / 500 steps taken (432 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
@@ -2683,14 +2683,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Stage 1 (Center Area Traversal) [30 steps taken - COMPLETE]:
   - [x] Traversed Center Area to East Gate at (29, 10) [Turns 10734-10743]
   - [x] Entered Area 1 at (0, 22) [Turn 10744]
-- Stage 2 (Area 1 Traversal) [Budget: ~90 steps, 34 taken]:
+- Stage 2 (Area 1 Traversal) [Budget: ~90 steps, 38 taken]:
   - [x] Advance east along row 24 lawn to (12, 24) [Turn 10748]
   - [x] Advance east along row 24 to col 17 opening (17, 24) [Turn 10749]
   - [x] Advance through row 23 opening to (20, 22) at staircase [Turn 10750]
   - [x] Ascend South Plateau staircase at (20, 21) to row 18 (21, 18) [Turn 10755]
-  - [x] Advance north along col 22 plateau floor to (22, 16) [Turn 10756]
-  - [ ] Advance north along col 22 plateau floor to row 12 (~4 steps)
-  - [ ] Cross North Plateau Bridge (cols 12-18, rows 5-6) to west lawn (12, 8) (~20 steps)
+  - [x] Advance north along col 22 plateau floor to (22, 12) [Turn 10757]
+  - [ ] Descend staircase at (24, 15) to eastern corridor (~5 steps)
+  - [ ] Walk north along col 27 to row 8 east lawn (~8 steps)
+  - [ ] Ascend North Plateau Bridge at (17, 7) and cross to west lawn (12, 8) (~15 steps)
   - [ ] Traverse col 20 permeable canopy corridor to row 3 (~12 steps)
   - [ ] Walk west across rows 4-5 to northwest gateway at (0, 5) (~15 steps)
   - [ ] Enter Area 2 at (39, 31) (~1 step)
