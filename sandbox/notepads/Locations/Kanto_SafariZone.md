@@ -111,6 +111,8 @@
   - Tile (14, 12) empirically verified impassable cliff wall from (13, 12) [Turn 10234].
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
   - Tile (11, 5) empirically verified non-cuttable decorative obstacle ('There isn't anything to CUT!') [Turn 10512].
+  - Tile (12, 5) / row 6 northern cliff edge empirically verified impassable cliff railing from (12, 6) [Turn 10516].
+  - Tile (10, 8) empirically verified impassable cliff wall from (11, 8) [Turn 10520].
   - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
   - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
