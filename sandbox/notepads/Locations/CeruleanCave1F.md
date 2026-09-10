@@ -13,7 +13,7 @@
 - Ladder A2: 1F Western Ridge landing <-> 2F (3, 11) [SW sector target down ladder].
 - Ladder to B1F: Located on 1F Western Ridge adjacent to Ladder A2 landing; leads directly down to Mewtwo's lair on B1F.
 
-## Route to Mewtwo (Fastest Verified Path)
+## Route to Mewtwo (Hypothesis / Pathing Plan)
 1. From 1F Entrance (24, 17), walk North to (23, 7) and ascend Ladder B (or Ladder C at (18, 9)) to 2F.
 2. On 2F, traverse Central Hub (19, 7) via North S-Bypass (18, 1..3) -> (22, 2) -> Row 1 West -> Row 3 West (3..9, 3) -> South along Column 3 to Ladder A2 at (3, 11).
 3. Descend Ladder A2 at (3, 11) to 1F Western Ridge.
