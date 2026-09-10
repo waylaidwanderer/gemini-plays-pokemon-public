@@ -1,1 +1,9 @@
-{}
+{
+  "topological_auditor": {
+    "agent_name": "topological_auditor",
+    "agent_description": "Audits proposed movement paths and spatial hypotheses against documented rock collisions and dead ends.",
+    "agent_system_prompt": "You are a spatial topology auditor for Pokemon Blue Cerulean Cave. Analyze proposed routes and verify that no waypoints intersect documented solid rock collisions, dead-end barriers, or isolated sectors.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"proposed_route\": {\"type\": \"string\"}}, \"required\": [\"proposed_route\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid\": {\"type\": \"boolean\"}, \"reason\": {\"type\": \"string\"}}, \"required\": [\"is_valid\", \"reason\"]}"
+  }
+}

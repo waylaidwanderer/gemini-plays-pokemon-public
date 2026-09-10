@@ -3066,7 +3066,9 @@
 - Probe Junction 5: (9, 5) -> West (8, 5) / South (9, 6) / (8..1, 5).
 
 - Tile (9, 6) is solid rock. Column 9 ends at (9, 5).
-- Column 11 is open floor: (11, 1..5) connects Row 5 (10..11, 5) directly north to Row 1 (11..13, 1).
+- (11, 4) is solid rock. (11, 5) dead-ends against rock to north, east, and south.
+- (9, 6) is solid rock. Column 9 ends at (9, 5).
+- (12, 5) is solid rock.
 
 <hr>
 
