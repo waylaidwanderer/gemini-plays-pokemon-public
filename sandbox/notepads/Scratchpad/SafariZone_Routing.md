@@ -2,8 +2,8 @@
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 1 at (12, 6) [Turn 10801]
-- Steps Consumed: 138 / 500 steps taken (362 steps remaining!)
+- Current Position: Safari Zone Area 1 at (17, 8) [Turn 10805]
+- Steps Consumed: 145 / 500 steps taken (355 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
@@ -20,7 +20,7 @@
   - [x] Advance north along col 22 plateau floor to row 12 (26, 12) [Turns 10756-10764]
   - [x] Column 28 at (28, 15) empirically tested Turn 10777: SOLID tree obstacle (0 movement delta). Eastern Bypass past row 16 is impassable.
   - [x] Traversed South Plateau to (12, 21), descended to West Lawn at (12, 22), and advanced north along clean lawn to (10, 10) [Turns 10787-10797]
-  - [ ] Ascend North Plateau Bridge at (12, 7), cross east to (17, 7), and descend to East Lawn (17, 8) (~15 steps)
+  - [x] Ascend North Plateau Bridge at (12, 7), cross east to (17, 7), and descend to East Lawn (17, 8) [Turns 10801-10805]
   - [ ] Traverse col 20 permeable canopy corridor to row 3 (~12 steps)
   - [ ] Walk west across rows 4-5 to northwest gateway at (0, 5) (~15 steps)
   - [ ] Enter Area 2 at (39, 31) (~1 step)
