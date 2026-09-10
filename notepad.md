@@ -6,9 +6,9 @@
 
 - Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 51, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 52, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥70148
+- Money: ¥72178
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -184,14 +184,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥70148
+- ¥72178
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 51, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 52, Water]
   - Status: Healthy (Revived Turn 11170 via Max Revive)
-  - HP: 63 / 160 [Verified Turn 11564]
-  - Stats: Attack 117, Defense 136, Speed 117, Special 120
-  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 6/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
+  - HP: 66 / 163 [Verified Turn 11578]
+  - Stats: Attack 119, Defense 139, Speed 119, Special 122
+  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 4/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Fainted [Turn 7302]
   - HP: 0 / 26
@@ -2496,7 +2496,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Terrain Details: Flower tiles in grass patch at (58..59, 9) north of road [Verified Turn 7226].
 - Trainers at Col 53:
   - Jr. Trainer ♀ at (53, 10) facing West (Team of 2: Pikachu Lv 29, Raichu Lv 29) [DEFEATED Turn 7249]. Prize: ¥580. Defeat line: "No, wrong!".
-  - Biker at (53, 11) facing North.
+  - Beauty at (53, 11) facing North (Team of 2: Pidgeotto Lv 29, Wigglytuff Lv 29) [DEFEATED Turn 11578]. Prize: ¥2030. Defeat line: "You looked so cute too!".
+  - Highway is blocked at col 53 by the facing trainers; bypassed via southern grass at row 12 (cols 52..54).
   - Highway is blocked at col 53 by the facing trainers.
 - Trainers at Col 48 & 46:
   - Biker at (48, 10) facing South (Team of 5: Koffing Lv 25, Koffing Lv 25, Weezing Lv 25, Koffing Lv 25, Grimer Lv 25) [DEFEATED Turn 11564]. Prize: ¥500. Defeat line: "Why not?".
