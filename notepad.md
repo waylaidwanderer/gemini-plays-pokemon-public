@@ -2533,7 +2533,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Avenue Junction: Cols 20..21 and 24..25 are paved avenues with dashed road markings, separated by a walkable yellow brick promenade at cols 22..23 (verified Turn 7335).
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
-- Northern Building / Center Roof: Roof observed at cols 17..22 rows 22..23 (collision verified at 21, 22 on Turn 7355, 20, 22 on Turn 7387, 19, 22 on Turn 7390, and 17, 22 on Turn 7452; tile (18, 22) visually confirmed as solid brown rock cliff on Turn 11115).
 - Northern Monuments: Display signboard at (21, 15).
 - Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
@@ -2542,7 +2541,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Poké Mart: Located at cols 4..7 rows 11..13 with entrance door at (5, 13) and MART sign at (6, 13) [Verified Turn 7411].
 - Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
 - Fuchsia Gym: Located at cols 4..9 rows 24..27 with entrance door at (5, 27) and GYM sign at (6, 26) [Verified Turn 7342]. Front faces south onto row 28 paved road.
-- Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28). Southern boundary is a south-facing ledge at row 31 cols 3..9, dead-ending at the Route 19 water shoreline at col 10 (visually confirmed Turn 11089).
+- Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28; re-verified solid collision stepping Right from (1, 26) into (2, 26) on Turn 11121, and stepping Right from (1, 28) into (2, 28) on Turn 11124). Southern boundary is a south-facing ledge at row 31 cols 3..9, dead-ending at the Route 19 water shoreline at col 10 (visually confirmed Turn 11089).
 - Southern Lawn (Row 32): Open east-west lawn corridor along row 32 south of the Gym ledge (row 31) and north of boundary statues (row 33); dead-ends at the Route 19 shoreline (col 10).
 - Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!") and resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"). Entrance door at (22, 13) [Verified Turn 7368, 7376].
 - Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
