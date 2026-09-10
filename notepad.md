@@ -2675,8 +2675,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (27, 14) [Turn 10723]
-- Steps Consumed: 328 / 500 steps taken (172 steps remaining)
+- Current Position: Safari Zone Area 3 at (27, 9) [Turn 10724]
+- Steps Consumed: 333 / 500 steps taken (167 steps remaining)
 - Stage: Marching north along column 27 clean lawn highway toward Area 2 entrance at (26..27, 0).
 
 ## Master Plan & Execution Tracker
@@ -2688,7 +2688,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Descend stairs at (21, 17) to row 18 (21, 18) [Turn 10721]
   - [x] Walk east to col 26 (26, 18) [Turn 10722]
   - [x] Advance onto col 27 and north to (27, 14) [Turn 10723]
-  - [ ] Walk north along col 27 to entrance (26..27, 0) (~14 steps)
+  - [x] Advance north to (27, 9) [Turn 10724]
+  - [ ] Walk north along col 27 to entrance (26..27, 0) (~9 steps)
   - [ ] Step into Area 2 (~1 step)
 - Phase 2 (Area 2 Navigation to South Gate 2):
   - [ ] Walk north along col 8 to row 14 (~21 steps)
