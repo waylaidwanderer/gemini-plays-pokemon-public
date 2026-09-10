@@ -2778,7 +2778,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Stairs down to 1F: Located at (7, 7).
 - Binoculars: Western binoculars at (1, 4), eastern binoculars at (6, 4).
 - Potted plant at (0, 6..7).
-- No NPCs present.
+- NPC: Wandering boy (SPRITE_853c) in upper observation walkway (row 2).
 
 <hr>
 
