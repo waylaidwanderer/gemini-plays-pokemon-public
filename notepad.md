@@ -2533,7 +2533,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Avenue Junction: Cols 20..21 and 24..25 are paved avenues with dashed road markings, separated by a walkable yellow brick promenade at cols 22..23 (verified Turn 7335).
 - NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
 
-- Northern Building / Center Roof: Roof observed at cols 17..22 rows 22..23 (collision verified at 21, 22 on Turn 7355, 20, 22 on Turn 7387, 19, 22 on Turn 7390, and 17, 22 on Turn 7452; only col 18 untested).
+- Northern Building / Center Roof: Roof observed at cols 17..22 rows 22..23 (collision verified at 21, 22 on Turn 7355, 20, 22 on Turn 7387, 19, 22 on Turn 7390, and 17, 22 on Turn 7452; tile (18, 22) visually confirmed as solid brown rock cliff on Turn 11115).
 - Northern Monuments: Display signboard at (21, 15).
 - Pokémon Center: Located at cols 18..21 rows 24..27 with POKé sign at (20, 27) and entrance door at (21, 27) [Verified Turn 7324, 7336]. Faces south onto open apron at rows 28..29.
 - Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
@@ -2561,7 +2561,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - South Street: Rows 30..31 is a continuous open paved east-west street spanning cols 24 through 35 south of the Warden's yard.
   - Yard Gateway: Open fence gate at cols 30..31 row 29 connects South Street (rows 30..31) into the front yard (row 28) of both the Warden's House (27, 27) and House 2 (31, 27).
   - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.
-
 
 <hr>
 
