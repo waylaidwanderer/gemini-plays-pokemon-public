@@ -2983,6 +2983,7 @@
 - NW Upper Shelf: Accessed via ramp at 1F (15, 3) from Northern Water Highway at (15, 4). Spans cols 11..18, rows 0..3. Contains Ladder E at (9, 1) <-> 2F (9, 1).
 - Western Water Channel spans cols 8-9 (rows 6-14).
 - Central Platform spans cols 11-18 (rows 8-14), containing Ladder C at (18, 9) <-> 2F (19, 7) and West Ramp at (11, 13) -> (11, 12).
+- Central Platform rock cluster: (16..17, 12..13) is solid rock. Clear path south is along Column 18: (18, 11..14) -> (17, 14) -> (17, 15) South Ramp.
 
 <hr>
 
