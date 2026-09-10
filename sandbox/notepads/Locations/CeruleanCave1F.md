@@ -23,9 +23,5 @@
 ## Verified Impassable Collision Barriers (1F)
 - Ledge at (21, 11) jumps South to (21, 12). Cannot walk North past (21, 12).
 - Wall at (21..23, 16) blocks direct downward movement from (21..23, 15) to (21..23, 16).
-- Shoreline/cliff at (24..25, 13) blocks northward surfing/walking from (24..25, 14).
+- Shoreline/cliff at (24..25, 13) and (21, 5) blocks northward surfing/walking.
 - Columns 19-20 rock spine at rows 6-12 separates East and West platforms on 1F.
-## Waterway Access Mechanic (Verified)
-- Entering Cerulean Cave from Cerulean City on foot spawns player on the land entrance basin at (24..25, 17).
-- Entering Cerulean Cave from Cerulean City WHILE SURFING on the NW water pool at (4, 11) spawns player inside 1F ALREADY SURFING on the 1F canal network!
-- From the 1F canal network, player can surf freely across the central and western waterways to reach Ladder C (18, 9), Ladder E (7, 1), Ladder D (27, 1), and the 1F Western Ridge!
