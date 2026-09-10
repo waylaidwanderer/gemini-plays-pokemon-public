@@ -27,19 +27,7 @@
 - **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
   - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
-## NW Sector Topology Ground Truth (Verified Turn 43125 Screen)
-- Ladder at (9, 1) on 1F <-> 2F (9, 1).
-- Row 1: Floor at (3..8, 1). (1..2, 1) and (10, 1) are solid rock.
-- Column 3: Floor at (3, 1..3).
-- Row 3: Floor at (3..9, 3).
-- Ladder A at (1, 3): Blue ladder icon visible at (1, 3)!
-  - (1, 2) is floor above Ladder A.
-  - (2, 3) is solid rock between Column 3 and Ladder A.
-- Column 9: Connects Row 3 at (9, 3) south via (9, 4..5).
-- Row 5: Floor at (1..7, 5) and (9, 5). Tile (8, 5) is solid rock.
-## Major Breakthrough: Complete Path to Ladder A at 1F (1, 3) (Verified Turn 43128 Screen)
-- Ladder A is at 1F (1, 3).
-- Direct Access to Ladder A:
-  - Column 0 is open floor: (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).
-  - (0, 3) connects directly EAST to Ladder A at (1, 3)!
-  - (0, 5) connects EAST along Row 5 across (1..7, 5).
+## NW Sector Topology (1F)
+- NW Upper Shelf: Accessed via ramp at 1F (15, 3) from Northern Water Highway at (15, 4). Spans cols 11..18, rows 0..3. Contains Ladder E at (9, 1) <-> 2F (9, 1).
+- Western Water Channel spans cols 8-9 (rows 6-14).
+- Central Platform spans cols 11-18 (rows 8-14), containing Ladder C at (18, 9) <-> 2F (19, 7) and West Ramp at (11, 13) -> (11, 12).
