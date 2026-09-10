@@ -19,7 +19,7 @@
 - COIN CASE [Slot 7] [Verified Turn 11080]
 - LIFT KEY [Slot 9] [Verified Turn 11080]
 - SILPH SCOPE [Slot 10] [Verified Turn 11081]
-- POKé FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
+- POKï¿½ FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Slot 13] [Obtained Turn 7001, Verified Turn 11081]
 - HM04 (STRENGTH) [Slot 18] [Received Turn 8274, Verified Turn 11082]
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
@@ -37,7 +37,7 @@
   8. MOON STONE x1
   9. LIFT KEY
   10. SILPH SCOPE
-  11. POKé FLUTE
+  11. POKï¿½ FLUTE
   12. TM21 x1
   13. SUPER ROD
   14. CARBOS x1
