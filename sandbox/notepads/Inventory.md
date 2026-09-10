@@ -34,7 +34,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥69368 [Session 11 Active, 500 steps]
+- ¥68868 [Session 12 Active, 457 steps remaining]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 50, Water]
