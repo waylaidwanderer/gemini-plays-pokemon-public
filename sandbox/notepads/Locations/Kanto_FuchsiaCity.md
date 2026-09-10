@@ -7,8 +7,8 @@
 - West: Route 18 (Cycling Road gatehouse) at (0, 16..17).
 
 ## Points of Interest
-- Fuchsia Pokémon Center
-- Fuchsia Poké Mart
+- Fuchsia Pokï¿½mon Center
+- Fuchsia Pokï¿½ Mart
 - Fuchsia Gym: Leader Koga (Soulbadge)
 - Safari Zone: Gatehouse at (18, 3)
 - Warden's House (Slowpoke): HM04 Strength
@@ -18,8 +18,8 @@
 
 ## District Topography & Partitions
 
-### 1. Northwest Sector (Poké Mart & Zoo West)
-- Poké Mart: Cols 4..7 rows 11..13, entrance door at (5, 13) [Verified Turn 7411].
+### 1. Northwest Sector (Pokï¿½ Mart & Zoo West)
+- Pokï¿½ Mart: Cols 4..7 rows 11..13, entrance door at (5, 13) [Verified Turn 7411].
 - Krabby Enclosure: Cols 5..11 rows 17..18, Krabby at (8, 17), bordered by statues along row 19.
 - Lapras Enclosure: Cols 9..12 rows 16..17, signboard at (13, 15).
 - Western Avenue: Cols 2..3 rows 16..21 connecting Route 18 entrance east to the central avenue.
@@ -44,10 +44,10 @@
 - South Street: Continuous paved east-west street along rows 30..31 spanning cols 24..35.
 - Eastern Avenue: Cols 34..36 rows 26..31+ connecting South Street north to Route 15 boulevard.
 
-### 5. Southwest Gym & Pokémon Center Courtyard
+### 5. Southwest Gym & Pokï¿½mon Center Courtyard
 - Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) [Verified Turn 7342, 11354].
-- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27) [Verified Turn 11346].
-- Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pokémon Center.
+- Pokï¿½mon Center: Cols 18..21 rows 24..27, POKï¿½ sign at (20, 27) [Verified Turn 11346].
+- Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pokï¿½mon Center.
 - Courtyard Boundaries & Access:
   - North: Rock plateau along rows 22..23.
   - West: Solid vertical cliff along col 2 rows 23..30 (collision verified at (2, 28) on Turn 11357).
