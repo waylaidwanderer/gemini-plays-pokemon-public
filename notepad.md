@@ -654,6 +654,7 @@
 - Southern Tree Line: Solid tree line along row 28 across cols 6-35.
 - Central Flower Beds: Solid flower gardens at cols 12-21 (rows 20-21) and cols 28-33 (rows 22-23).
 - Eastern Barrier: Fenced boundary along col 35 (rows 20-27) with Cut tree at (35, 20); open eastern avenue at cols 36-37.
+- South Plaza Cut Bush: Located at (16, 29). Requires Cut to clear. Directly connects the southern plaza (row 28) to the southern enclosed bypass street (row 30), granting access to the eastern bypass corridor (col 37) and Route 24.
 
 <hr>
 
