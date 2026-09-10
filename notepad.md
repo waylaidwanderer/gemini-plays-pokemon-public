@@ -2543,7 +2543,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Fuchsia Gym: Located at cols 4..9 rows 24..27 with entrance door at (5, 27) and GYM sign at (6, 26) [Verified Turn 7342]. Front faces south onto row 28 paved road.
 - Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28; re-verified solid collision stepping Right from (1, 26) into (2, 26) on Turn 11121, and stepping Right from (1, 28) into (2, 28) on Turn 11124). Southern boundary is a south-facing ledge at row 31 cols 3..9, dead-ending at the Route 19 water shoreline at col 10 (visually confirmed Turn 11089).
 - Southern Lawn (Row 32): Open east-west lawn corridor along row 32 south of the Gym ledge (row 31) and north of boundary statues (row 33); dead-ends at the Route 19 shoreline (col 10).
-- Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!") and resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"). Entrance door at (22, 13) [Verified Turn 7368, 7376].
+- Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"), resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!"), and third occupant at (10, 1). Wall display at (7, 0) verified non-interactive (no PC). Entrance door at (22, 13) [Verified Turn 7368, 7376, 11163].
 - Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
 - Zoo Enclosure (Lapras): Stone-fenced pond at cols 9..12 rows 16..17 with exhibit signboard at (13, 15) ("Name: LAPRAS").
 - Safari Zone Gatehouse: Located at cols 16..21 rows 2..5 with entrance door at (18, 3) and sign at (17, 5).
@@ -2560,7 +2560,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.- House 2 Back Door & Northern Backyard (Verified Turns 11149-11153):
   - Interior back door at (2, 0) warps outside to (31, 24) facing South.
   - Enclosed backyard spans cols 26..33 rows 20..24, bounded by row 19 fence posts, col 25 fence posts (rows 20..25), col 34 fence posts (rows 20..25), and zoo pond at cols 28..33 rows 20..21. Decorative enclosed garden with no courtyard access.
-
 
 <hr>
 
