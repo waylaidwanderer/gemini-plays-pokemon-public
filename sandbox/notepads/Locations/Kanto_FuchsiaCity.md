@@ -2,46 +2,54 @@
 
 ## Connections
 - East: Route 15 at (39, 16..17) [Verified Turn 7316].
-- North: Safari Zone entrance.
-- South: Route 19 (sea route).
-- West: Route 18 (Cycling Road gatehouse).
+- North: Safari Zone entrance at (18, 3).
+- South: Route 19 (sea route to Seafoam Islands).
+- West: Route 18 (Cycling Road gatehouse) at (0, 16..17).
 
 ## Points of Interest
-- PokÃ©mon Center
-- PokÃ© Mart
-- Fuchsia Gym: Leader Koga.
+- Fuchsia Pokémon Center
+- Fuchsia Poké Mart
+- Fuchsia Gym: Leader Koga (Soulbadge)
+- Safari Zone: Gatehouse at (18, 3)
+- Warden's House (Slowpoke): HM04 Strength
+- Fishing Guru's Brother's House: Good Rod
 
-## Geography & Layout
-- East Border: Enters from Route 15 gatehouse corridor at (39, 16..17) [Verified Turn 7316]. Road runs west along rows 16..17 to col 36, then opens south toward the central district.
-- Boulevard Junction: Road connects south along cols 36..37 rows 16..18 to a wide east-west paved boulevard along row 18 extending west across cols 25..37 [Verified Turn 7317].
-- Zoo Enclosure: Stone-fenced pond at cols 29..34 rows 19..22 south of the boulevard [Verified Turn 7318], ending at col 25 with a garden patch at cols 26..27 rows 20..22 [Verified Turn 7319].
-- Central Avenue Junction: Cols 20..21 and 24..25 are paved avenues with dashed road markings, separated by a walkable yellow brick promenade at cols 22..23 (verified Turn 7335).
-- NPC: Resident standing on northern lawn at (30, 14) [Observed Turn 7318].
+---
 
-- Northern Monuments: Display signboard at (21, 15) ("POKÃ©MON PARADISE / SAFARI ZONE") [Read Turn 11140]. Gambler NPC at (21, 17) ("SAFARI ZONE has a zoo in front of the entrance. Out back is the SAFARI GAME for catching POKÃ©MON.") [Turn 11138].
-- PokÃ©mon Center: Located at cols 18..21 rows 24..27 with POKÃ© sign at (20, 27) and front facing south onto row 28 apron. Note: Apron is currently blocked from Central Avenue by column 23 hedge barrier; entrance has not yet been accessed.
-- Warden's House / Southeast Residence: Located at cols 26..29 rows 25..28. Pink/red residential building with entrance door at (27, 27) [Verified Turn 7442].
-- Western Bypass Corridor: Paved road along rows 20..21 extends west across cols 2..21. At col 1, an open lawn corridor runs south along col 1 from row 18 to row 25+, bounded by statues at col 0.
-- PokÃ© Mart: Located at cols 4..7 rows 11..13 with entrance door at (5, 13) and MART sign at (6, 13) [Verified Turn 7411].
-- Zoo Enclosure (Krabby): Water pen at cols 5..11 rows 17..18 with Krabby at (8, 17), lined by statues along row 19.
-- Fuchsia Gym: Located at cols 4..9 rows 24..27 with entrance door at (5, 27) and GYM sign at (6, 26) [Verified Turn 7342]. Front faces south onto row 28 paved road.
-- Gym Courtyard Enclosure: Col 2 rows 23..30 is a solid vertical barrier (verified Turn 7344 at 1, 28; re-verified solid collision stepping Right from (1, 26) into (2, 26) on Turn 11121, and stepping Right from (1, 28) into (2, 28) on Turn 11124). Southern boundary is a south-facing ledge at row 31 cols 3..9, dead-ending at the Route 19 water shoreline at col 10 (visually confirmed Turn 11089).
-- Southern Lawn (Row 32): Open east-west lawn corridor along row 32 south of the Gym ledge (row 31) and north of boundary statues (row 33); dead-ends at the Route 19 shoreline (col 10).
-- Building at (22, 13): Bill's Grandpa's House / Resident House. Occupants: Resident at (4, 1) ("We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"), resident at (0, 2) ("SLOWPOKE is very knowledgeable about POKÃ©MON! He even has some fossils of rare, extinct POKÃ©MON!"), and third occupant at (10, 1). Wall display at (7, 0) verified non-interactive (no PC). Entrance door at (22, 13) [Verified Turn 7368, 7376, 11163].
-- Town Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's / Passion Pink!") [Verified Turn 7403].
-- Zoo Enclosure (Lapras): Stone-fenced pond at cols 9..12 rows 16..17 with exhibit signboard at (13, 15) ("Name: LAPRAS").
-- Safari Zone Gatehouse: Located at cols 16..21 rows 2..5 with entrance door at (18, 3) and sign at (17, 5).
-- Warden's House Interior Exit: Red mat at (4, 7). Warps outside to (27, 28) facing south.
-- Warden's Yard & South Street: Yard enclosed by fence with signpost at (27, 29). Fence opening at col 30 connects south to rows 30..31 east-west street. Rows 30..31 street connects west to Central Avenue at col 24, which runs north to rows 20..21.
-- Rock Plateau Extent (Verified Turn 11041): Continuous rock plateau spans rows 22..23 across cols 3..22, completely blocking southern access from row 21 between col 3 and col 23. Row 20/21 is a continuous east-west paved avenue from col 2 to col 25.
-- Zoo Enclosure Corridors (Verified Turns 11015-11028): Cut tree at (16, 11) cleared; Cut tree at (18, 19) cleared. Zoo central lawn is accessible between cols 14..23 rows 12..18.
-- Western Avenue (Verified Turn 11039-11041): Columns 2..3 rows 16..21 is a north-south paved road west of Krabby pen statues (col 4 rows 16..19).
-- PokÃ©mon Center East Boundary (Verified Turns 11047-11050): Column 23 is a continuous solid barrier across rows 26..31 (tested at 26, 27, 28, 29, 30, 31). Zero eastern access to PokÃ©mon Center apron from Central Avenue. Apron at row 28 connects westward toward Fuchsia Gym.
-- Southeast Residential District (Verified Turns 11103-11107):
-  - House 2: Located at cols 30..33 rows 26..28 directly east of Warden's House, with entrance door at (31, 27).
-  - South Street: Rows 30..31 is a continuous open paved east-west street spanning cols 24 through 35 south of the Warden's yard.
-  - Yard Gateway: Open fence gate at cols 30..31 row 29 connects South Street (rows 30..31) into the front yard (row 28) of both the Warden's House (27, 27) and House 2 (31, 27).
-  - Eastern Avenue (Cols 34..36, Rows 26..31+): 2-to-3 tile wide north-south paved thoroughfare along the eastern tree border connecting row 31 northward past row 26 toward the Route 15 boulevard.
-- House 2 Back Door & Northern Backyard (Verified Turns 11149-11153):
-  - Interior back door at (2, 0) warps outside to (31, 24) facing South.
-  - Enclosed backyard spans cols 26..33 rows 20..24, bounded by row 19 fence posts, col 25 fence posts (rows 20..25), col 34 fence posts (rows 20..25), and zoo pond at cols 28..33 rows 20..21. Decorative enclosed garden with no courtyard access.
+## District Topography & Partitions
+
+### 1. Northwest Sector (Poké Mart & Zoo West)
+- Poké Mart: Cols 4..7 rows 11..13, entrance door at (5, 13) [Verified Turn 7411].
+- Krabby Enclosure: Cols 5..11 rows 17..18, Krabby at (8, 17), bordered by statues along row 19.
+- Lapras Enclosure: Cols 9..12 rows 16..17, signboard at (13, 15).
+- Western Avenue: Cols 2..3 rows 16..21 connecting Route 18 entrance east to the central avenue.
+- West Lawn Strip: Col 1 rows 18..24 (bordered by statues at col 0).
+
+### 2. Northeast Sector (Safari Promenade & Residential North)
+- Safari Zone Gatehouse: Cols 16..21 rows 2..5, entrance at (18, 3). Signboard at (21, 15).
+- Bill's Grandpa's House: Cols 21..24 rows 11..13, door at (22, 13) [Verified Turn 7368].
+- City Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's Passion Pink!").
+- Route 15 East Entrance Boulevard: Rows 16..18 cols 25..39.
+- Central Promenade: Walkable yellow brick promenade at cols 22..23 rows 16..21.
+
+### 3. Central Thoroughfare (Row 20..21 Avenue)
+- Continuous open paved boulevard along rows 20..21 spanning cols 2 through 25.
+- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19).
+- Southern Boundary: Continuous solid rock plateau along rows 22..23 across cols 3..22.
+- Major Junction: Connects to Central Avenue at col 24.
+
+### 4. Southeast Residential District
+- Warden's House: Cols 26..29 rows 25..28, door at (27, 27) [Verified Turn 7442]. Front yard with gate at (30..31, 29).
+- Fishing Guru's Brother (House 2): Cols 30..33 rows 26..28, door at (31, 27). Back door at (2, 0) exits to enclosed backyard (31, 24).
+- South Street: Continuous paved east-west street along rows 30..31 spanning cols 24..35.
+- Eastern Avenue: Cols 34..36 rows 26..31+ connecting South Street north to Route 15 boulevard.
+
+### 5. Southwest Gym & Pokémon Center Courtyard
+- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) [Verified Turn 7342].
+- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27).
+- Courtyard Apron: East-west walkway along row 28 in front of Gym and Pokémon Center.
+- Courtyard Boundaries:
+  - North: Rock plateau along rows 22..23.
+  - West: Solid vertical barrier along col 2 rows 23..30.
+  - South: South-facing jump ledge at row 31 cols 3..9.
+  - East: Hedge along col 23 rows 26..30. Access route from city thoroughfares to be verified via southern approach.
