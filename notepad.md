@@ -2588,8 +2588,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Item Ball at (21, 10): FULL RESTORE [Collected Turn 7647].
   - Rest House 2 at (26..29, 10..11), signpost at (26, 10).
   - Signpost at (6, 4) in northern corridor.
-- Verified Traversal Solution (Turns 9276-9296, 9358-9382):
-  Enter Area 1 at (0, 23) -> southern corridor (row 24) to (17, 24) -> step up to (17, 22) -> ascend South Plateau stairs at (20, 21) -> traverse west to (12, 20) -> descend western stairs at (12, 21) to (12, 22) -> pond bypass (cols 8..10) north to (12, 8) -> ascend North Plateau Bridge at (12, 7) to (17, 7) -> descend to East Lawn at (20, 8) -> breach north through Col 20 permeable canopy (20, 6..3) -> Row 3 canopy corridor (cols 16..10) -> step down at col 7 to row 5 runway -> gateway at (0, 4..5) into Area 2 at (39, 30..31)!
+
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33).
@@ -2653,7 +2652,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
   - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
   - Tile (24, 12) empirically verified impassable bush hedge from col 25 [Turn 10485].
-  - Tile (24, 2) empirically verified impassable bush hedge from col 25 [Turn 10494].
   - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
 - Row 24 East Bush Barrier: Solid horizontal bush hedge across cols 22..29 blocks southward passage [Verified Turn 10307-10308].
 - East Warp Boundary: Col 29 rows 22..23 has east-facing arrow warps to Center Area (0, 11) [Verified Turn 10307].
@@ -2665,6 +2663,28 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 <h1><code>Scratchpad/SafariZone_Routing</code></h1>
 
+# Safari Zone Routing & Investigation Log
+
+## Active Session 13 Step Ledger
+- Status: Active Session 13 (HM03 Surf Master Run)
+- Current Position: Safari Zone Area 3 at (6, 20) [Turn 10621]
+- Steps Remaining: 263 / 500 steps [Turn 10621]
+- Stage: Stage 4 - Area 3 Cul-de-sac Reached -> Backtracking to Area 2 Western Scout
+
+## Session 13 Traversal History
+1. Center Area: Entrance (14, 25) -> East gate (29, 10) into Area 1 [34 steps consumed]
+2. Area 1: (0, 23) -> South Plateau -> pond bypass -> North Plateau Bridge -> Col 20 canopy -> gateway (0, 5) into Area 2 [90 steps consumed]
+3. Area 2: (39, 31) -> Entrance Corridor -> Row 33 Southern Channel -> Col 22 tall grass corridor -> Western Plateau bridge -> descend (16, 27) [Turn 10602]
+4. Critical Pivot Failure Analysis: At (12, 28) in Area 2, instead of executing the planned scout of rows 28-35 across cols 0-15, player reflexively stepped south into Area 3 gate at (8, 35).
+5. Area 3 Cul-de-Sac Re-Verification:
+   - Traversed East Corridor south to (21, 17) -> crossed Southern Plateau bridge to (6, 19) -> descended to (6, 20).
+   - Falsified hypothesis: Columns 2..8 are blocked at row 13 by the central water pond (verified Turn 10462). The western ground basin in Area 3 CANNOT connect north to the Secret House.
+   - Conclusion: The path to the Secret House is accessible ONLY from Area 2 southwestern sector (cols 0-15 rows 28-35).
+
+## Immediate Master Plan
+1. Backtrack from Area 3 (6, 20) across Southern Plateau bridge to North Entrance at (26..27, 0).
+2. Step north through warp boundary back into Area 2 at (8..9, 34..35) [Budget: ~35 steps, leaving ~228 steps].
+3. In Area 2, thoroughly explore westward across rows 28-35 (cols 0-12) to locate the true path/gate to the Secret House!
 
 
 <hr>
