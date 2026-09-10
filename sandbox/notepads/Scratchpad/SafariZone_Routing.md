@@ -35,3 +35,7 @@
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
 
+
+- Row 24 East Barrier: Solid horizontal bush hedge across cols 22..29 empirically verified Turn 10308. East border at (29, 22..23) has right-arrow warps to Center Area. Zero southern passage from East Corridor to rows 25..27.
+- Southern Sector Access: Confirmed accessible exclusively via Column 1 (cols 0..1 open corridor across rows 20..26) leading into the Southwest Sector (rows 24..28 across cols 2..15).
+- Strategic Route to Secret House: Ascend Southern Plateau Bridge at (21, 17) -> traverse west to (6, 19) -> descend to (6, 20) -> west to (1, 20) -> south down col 1 to (1, 26) -> navigate Southwest Sector to Secret House!
