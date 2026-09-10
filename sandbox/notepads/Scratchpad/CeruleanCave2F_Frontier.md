@@ -19,13 +19,8 @@
   - 1F water channel at col 8 is completely blocked by solid rock wall at col 7 (Verified Turns 42796-42797, 42962).
   - Physical testing on Turns 42824–42826 proved the 1F NW shelf (cols 5..16, rows 0..2) is separated from the NW Lower Basin by solid rock wall at (5, 3).
   - Physical testing on Turns 42387 & 42481 proved the 1F Western Ridge (cols 1..6, rows 8..12) is separated from the NW Lower Basin by solid rock wall at Row 7.
-  - **Key Breakthrough Route**: On 2F, Row 5 West at (11, 5) was previously left un-probed westward. Row 5 extends west across (10, 5) -> (9, 5) -> (7, 5) -> (5, 5) -> (3, 5) -> (1, 5) -> (1, 3), directly linking the North/Central network to Ladder A1 at (1, 3)!
-
-- **Immediate Action Plan**:
-  1. From 1F (9, 7), surf south to West Ramp at (11, 13) -> disembark onto Central Platform at (11, 12) -> (12, 12).
-  2. Walk across Central Platform to Ladder C at 1F (18, 9) and ascend to 2F (19, 7).
-  3. On 2F, navigate Central S-Bypass to (18, 1) -> Row 1 West to (15, 1) -> Column 13 South to (13, 5).
-  4. At 2F (13, 5), traverse Row 5 West to (11, 5), then probe west into (10, 5), (9, 5), and beyond to reach 2F (1, 3) and B1F!
+  - On 2F, (8, 5) is solid rock (Verified Turn 42982), blocking direct west passage from (9, 5) along Row 5.
+  - On 2F, (9, 6) is solid rock (Verified Turn 42989) and (13, 7) is solid rock (Verified Turn 43000).
 
 - **South Sector (cols 11..27, rows 7..17)**:
   - Column 23 corridor (23, 7..11) connects Ladder B landing (22, 7) to Row 11 East corridor (14..23, 11).
