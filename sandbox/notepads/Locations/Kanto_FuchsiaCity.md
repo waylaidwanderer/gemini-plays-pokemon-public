@@ -53,4 +53,9 @@
   - West: Solid vertical cliff along col 2 rows 23..30 (collision verified at (2, 28) on Turn 11357).
   - East: Solid hedge along col 23 rows 26..30 and ledge at row 31 (verified Turn 11347-11350; zero eastern access from Central Avenue).
   - South Ledge: South-facing one-way jump ledge along row 31 acts as one-way exit from courtyard to row 32.
-  - Southern Access Corridor (Row 32): Open green lawn corridor along row 32 entered from Column 1 at (1, 32) [Verified Turn 11361], running east below the ledge toward the courtyard entrance opening.
+  - Southern Landing Corridor (Row 32): Open green lawn corridor along row 32 entered from Column 1 at (1, 32) [Verified Turn 11361]. Runs east below row 31 jump ledge from col 1 to col 9. Dead-ends at col 10 in shoreline water collision (tile (10, 32) impassable, verified Turns 11366, 11399). Does NOT connect north into the courtyard.
+  - Verified Perimeter Boundary Collisions (Courtyard Exterior):
+    - North (Row 21): Tested Down across all cols 2..23; row 22 is a solid continuous rock wall with zero southern passage [Verified Turn 11389].
+    - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
+    - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
+    - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
