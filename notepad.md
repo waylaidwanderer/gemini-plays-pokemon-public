@@ -2987,6 +2987,10 @@
 - **Central Bypass (Row 6-7 Channel)**: Rock island at (10..13, 4..5) blocks direct row 4-5 passage. Water bypasses south via rows 6-7 (cols 10-15) directly into the western water channel at (8, 6).
 - **Western Water Channel**: Open water running south along cols 8-9 (rows 6-10) bordering the Western Ridge (cols 4-6, rows 6-10) and Central Platform (cols 11-13, rows 8-10).
 - **NE Isolated Landing**: Ladder D at (27, 1) is situated on the elevated northeast landing overlooking the canal at row 3.
+- **Central Platform Ramp & Ladder C Corridor (Turns 42218-42220)**:
+  - From the western water canal at (11, 14), stepping Up onto (11, 13) ascends the ramp onto the Central Platform at (11, 12).
+  - Central Platform spans cols 11-13, rows 9-12.
+  - From (11, 9), Row 9 runs continuously east across cols 11..18 directly to Ladder C at (18, 9), providing ground access to Ladder C to ascend to 2F (19, 7).
 
 <hr>
 
