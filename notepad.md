@@ -2648,6 +2648,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
   - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
+  - Tile (24, 12) empirically verified impassable bush hedge from col 25 [Turn 10485].
+  - Tile (24, 2) empirically verified impassable bush hedge from col 25 [Turn 10494].
   - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
 - Row 24 East Bush Barrier: Solid horizontal bush hedge across cols 22..29 blocks southward passage [Verified Turn 10307-10308].
 - East Warp Boundary: Col 29 rows 22..23 has east-facing arrow warps to Center Area (0, 11) [Verified Turn 10307].
@@ -2686,8 +2688,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 12 Step Ledger
 - Status: Active Session 12 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (11, 18) [Turn 10471]
-- Steps Remaining: ~121 / 500 steps
+- Current Position: Safari Zone Area 3 at (18, 16) [Turn 10501]
+- Steps Remaining: ~41 / 500 steps
 - Stage: Stage 4 - Area 3 Exploration to Secret House
 - Traversal History (Session 12):
   1. Center Area: (14, 25) -> (29, 10) [Completed Turn 10377]
@@ -2720,6 +2722,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Ground Truth: Visual confirmation from (16, 7) proves columns 18..21 is an unbroken ground lawn corridor running north from row 14 past row 7 into rows 3..5.
 - At rows 3..5, a wide open east-west lawn boulevard extends west past column 12 directly into the Northwest Sector.
 - Gold Teeth Cove (cols 18..23) is NOT a cul-de-sac; it connects directly north to rows 3..5.
-- Master Route: Descend east stairs at (21, 17) -> East Corridor row 14 -> enter col 19 ground highway -> walk north to row 4 -> follow row 4 boulevard west into Northwest Sector to enter Secret House and obtain HM03 Surf!
+- Refuted Route: East Corridor access into col 19 ground highway is blocked by col 24 bush hedge.
 
 <hr>
