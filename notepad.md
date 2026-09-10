@@ -116,6 +116,7 @@
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
+- [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 11176]
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
 - [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
 
@@ -137,6 +138,7 @@
 - [Consumed Turn 11170] MAX REVIVE used on Blastoise
 
 ## Key Items & HMs
+- GOOD ROD [Obtained Turn 11176 in Fuchsia City]
 - OLD ROD [Slot 2] [Verified Turn 11080]
 - HM01 (CUT) [Slot 3] [Verified Turn 11080]
 - HM05 (FLASH) [Slot 4] [Verified Turn 11080]
@@ -150,7 +152,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (Max Revive consumed Turn 11170, 1 slot free for Good Rod).
+- Total Slots Used: 20 / 20 (Good Rod obtained Turn 11176, Bag full).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x4
   2. OLD ROD
@@ -2729,6 +2731,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Resident & Rewards
 - Occupant: Fishing Guru's older brother at (5, 3).
 - Dialogue: "I'm the FISHING GURU's older brother! I simply Looove fishing! Do you like to fish?" [Turn 11144-11145].
-- Reward: Offers GOOD ROD upon answering YES (requires free Bag space; currently blocked by 20/20 capacity).
+- Reward: GOOD ROD obtained on Turn 11176 after answering YES.
 
 <hr>
