@@ -96,7 +96,7 @@
   - Signpost at (24, 22): 'AREA 3 / EAST: CENTER AREA' [Read Turn 8544].
 - Landmarks:
   - Item Ball at (8, 20): MAX POTION [Collected Turn 8532].
-  - Item Ball at (9, 7): Sighted on Northwest Lawn outside plateau descent [Turn 8713].
+  - Item Ball at (9, 7): Sighted on Northwest Lawn [Turn 8713].
 - Terrain Barriers & Physical Collisions:
   - Row 14..15 western boundary: 2x2 tree at (0..1, 14..15) blocks northern passage along col 1; water shoreline at (2, 13) blocks col 2.
   - Shoreline at (9, 12) blocks northern ascent between pond and Rest House 4 (cul-de-sac).
