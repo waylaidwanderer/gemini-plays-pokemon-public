@@ -51,8 +51,7 @@
 - Slot 16: NUGGET x1
 - Slot 17: ULTRA BALL x1
 - Slot 18: MASTER BALL x1 (Withdrawn from PC Turn 40058)
-- Slot 19: HELIX FOSSIL x1 (Withdrawn from PC Turn 41487)
-- Bag capacity: 19/20 slots used (1 free slot).
+- Bag capacity: 18/20 slots used (2 free slots).
 
 ## PC Item Storage Notes
 - Poké Flute, Silph Scope, Good Rod, Helix Fossil, TMs stored in PC Storage.
