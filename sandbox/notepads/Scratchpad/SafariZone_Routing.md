@@ -2,8 +2,8 @@
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (22, 22) [Turn 10859]
-- Steps Consumed: 195 / 500 steps taken (305 steps remaining!)
+- Current Position: Safari Zone Area 2 at (22, 26) [Turn 10861]
+- Steps Consumed: 191 / 500 steps taken (309 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
@@ -24,7 +24,7 @@
   - [x] Walk west along row 5 runway through gateway at (0, 5) into Area 2 [Turn 10837]
   - [x] Entered Area 2 at (39, 31) [Turn 10837]
 - Stage 3 (Area 2 Traversal & Empirical Hypotheses Testing) [Budget: ~60 steps]:
-  - [x] Ascend east staircase at (22, 23) onto Western Plateau bridge at (22, 22) [Turn 10859]
+  - [ ] Ascend east staircase at (22, 23) onto Western Plateau bridge (~3 steps)
   - [ ] Cross bridge to west staircase at (16, 27) and descend to (16, 28) (~10 steps)
   - [ ] Walk north along col 12 corridor to row 14 (~14 steps)
   - [ ] Checkpoint 1 (Empirical Test): Test if rows 14-15 allow crossing west between northern pond (rows 9-13) and southern pond (rows 16-19) into columns 2-4 (~10 steps)
