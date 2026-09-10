@@ -22,3 +22,5 @@
 ## Verified Topology & Corridors
 - Western Avenue (row 9, cols 18-26): Unobstructed walkway leading east from West Gatehouse into central Saffron thoroughfare.
 - Silph Co. Entrance Corridor: Row 20 (cols 14-18) leading to main entrance at (18, 21).
+
+- Western North-South Avenue: Located along columns 2-3 (rows 27-31+), providing an unobstructed vertical transit corridor around the western city blocks.
