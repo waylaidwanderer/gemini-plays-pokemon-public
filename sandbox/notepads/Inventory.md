@@ -1,6 +1,6 @@
 # Inventory Log
 
-## Items (7 / 10)
+## Regular Items
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
 - MOON STONE x1
@@ -8,7 +8,7 @@
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
 - MAX POTION x2 [Obtained Turn 7695 in Area 1, Turn 8532 in Area 3]
 
-## Key Items (10 / 10)
+## Key Items & HMs
 - OLD ROD
 - SUPER ROD [Obtained Turn 7001]
 - HM01 (CUT)
@@ -22,7 +22,7 @@
 - HM03 (SURF) [Received Turn 10975]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433.
+- Total Slots Used: 20 / 20 (Bag is currently full). Empirically confirmed Turn 10960/10975.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
