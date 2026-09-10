@@ -114,3 +114,4 @@
   - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
 - Row 24 East Bush Barrier: Solid horizontal bush hedge across cols 22..29 blocks southward passage [Verified Turn 10307-10308].
 - East Warp Boundary: Col 29 rows 22..23 has east-facing arrow warps to Center Area (0, 11) [Verified Turn 10307].
+- Row 24 West Barrier: Round 2x2 tree canopy at (0..1, 24) and continuous bush hedge across cols 2..9 blocks southward passage from column 1 [Empirically verified Turn 10328-10330]. Rows 25..29 southern border is completely enclosed and inaccessible.
