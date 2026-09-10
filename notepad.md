@@ -119,8 +119,7 @@
 - Slot 16: NUGGET x1
 - Slot 17: ULTRA BALL x1
 - Slot 18: MASTER BALL x1 (Withdrawn from PC Turn 40058)
-- Slot 19: HELIX FOSSIL x1 (Withdrawn from PC Turn 41487)
-- Bag capacity: 19/20 slots used (1 free slot).
+- Bag capacity: 18/20 slots used (2 free slots).
 
 ## PC Item Storage Notes
 - Poké Flute, Silph Scope, Good Rod, Helix Fossil, TMs stored in PC Storage.
@@ -2507,7 +2506,7 @@
 - Entrance Mat: (2, 7) / (3, 7).
 - In-Game Trader NPC: Located at (7, 6) [Wants to trade for SEEL].
 - Fossil Scientist NPC: Located in northern area at (4..6, 2) [Resurrects prehistoric Pokémon from fossils: Helix Fossil -> Omanyte, Dome Fossil -> Kabuto, Old Amber -> Aerodactyl].
-- Status: Helix Fossil is in PC storage. Available for resurrection into Omanyte.
+- Status: Helix Fossil handed over to Scientist on Turn 41519 for Omanyte revival.
 
 <hr>
 
