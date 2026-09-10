@@ -2959,7 +2959,7 @@
 - **Ladder C (Central Platform)**: (18, 9) <-> 2F (19, 7).
 - **Ladder D (NE High Plateau)**: (27, 1) <-> 2F (29, 1).
 - **Ladder E (NW Upper Shelf)**: (7, 1) <-> 2F (9, 1).
-- **Upper Western Platform Ladder**: Visually sighted at (0, 6) on the isolated upper western shelf (rows 4-7, cols 0-5); physical access pending route discovery.
+- **Ladder A (NW Lower Basin)**: Located at (1, 3) <-> B1F. Reached by traversing the 1F NW Plateau west from Ramp (15, 3) past Ladder E (7, 1) to (5, 2), jumping south over the one-way ledge at (5, 3) down to (5, 4), and walking west along row 4 to (1, 4) -> (1, 3). This is the descent into B1F (Mewtwo's floor)!
 
 ## Verified Topography & Transit (1F)
 - **Central Platform**: Spans cols 11-18, rows 8-14.
