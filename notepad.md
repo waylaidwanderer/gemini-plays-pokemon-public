@@ -2679,8 +2679,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (26, 8) [Turn 10275]
-- Steps Remaining: 119 / 500 steps
+- Current Position: Safari Zone Area 3 at (25, 13) [Turn 10283]
+- Steps Remaining: 101 / 500 steps
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
