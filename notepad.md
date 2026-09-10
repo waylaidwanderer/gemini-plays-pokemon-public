@@ -2676,8 +2676,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 14 Step Ledger
 - Status: Active Session 14 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 2 at (24, 30) [Turn 10850]
-- Steps Consumed: 185 / 500 steps taken (315 steps remaining!)
+- Current Position: Safari Zone Area 2 at (22, 26) [Turn 10854]
+- Steps Consumed: 191 / 500 steps taken (309 steps remaining!)
 - Balls: 30 Safari Balls
 - Money: ¥67868 [Synchronized Turn 10741]
 
