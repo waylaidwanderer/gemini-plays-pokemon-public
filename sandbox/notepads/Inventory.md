@@ -46,7 +46,7 @@
   16. MAX POTION x2
   17. TM40 x1
   18. HM04
-  19. MAX REVIVE x1
+  19. GOOD ROD
   20. HM03
 
 ## Stored / PC Items
