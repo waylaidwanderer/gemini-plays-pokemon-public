@@ -2626,6 +2626,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Area 3 (West)
 - North Entrance: Connects from Area 2 southern gate at (8..9, 34..35) to (26..27, 0) [Verified Turns 8403, 10163].
+- North Boundary Trees: Rows 0 and 1 are blocked west of column 26 by 2x2 boundary trees at (22..25, 0..1). Northern passage west along rows 0/1 from the entrance is impassable [Verified Turn 10694].
 - East Exit (to Center Area): Boundary at col 29, rows 22..23. Stepping Right from (29, 22..23) warps directly to Center Area at (0, 11) [Verified Turn 9574].
 - Rest House 4: Located at cols 10..13 rows 10..11 with entrance door at (11, 11). NPC explains rock tossing mechanics.
 - Gold Teeth Cove: Enclosed cul-de-sac basin at cols 18..23 rows 6..13. Contained item ball at (19, 7) [GOLD TEETH collected Turn 8235].
@@ -2674,18 +2675,29 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ## Active Session 13 Step Ledger
 - Status: Active Session 13 (HM03 Surf Master Run)
-- Current Position: Safari Zone Area 3 at (2, 16) [Turn 10707]
-- Steps Consumed: 269 / 500 steps taken (231 steps remaining)
-- Stage: Transiting row 14 clean lawn bypass east toward column 10-11 corridor to access Northern Basin / Northwest Lawn.
+- Current Position: Safari Zone Area 3 at (10, 14) [Turn 10712]
+- Steps Consumed: 279 / 500 steps taken (221 steps remaining)
+- Stage: Evaluating verified map topology and routing to Northwest Lawn / Secret House.
 
-## Ground Truth & Breakthrough
-- The pond at rows 12-13 only spans columns 3 to 9.
-- Rows 14 and 15 form a completely open, unobstructed clean lawn plaza across columns 2 to 11.
-- Columns 10 and 11 form an open clean lawn corridor north past row 12 into Rest House 4 basin and the Northwest Lawn!
-- Immediate Route:
-  1. Walk east along row 14 clean lawn to (10, 14).
-  2. Walk north along column 10-11 clean lawn past the pond.
-  3. Enter Northwest Lawn, locate Secret House, and obtain HM03 Surf!
+## Verified Area 3 Topology & Constraints
+- North Entrance (26..27, 0): Connects from Area 2 South Gate 1. Rows 0-1 blocked west of col 26 by boundary trees [Verified Turn 10694].
+- Southern Plateau Bridge: Spans cols 6..21, rows 16..18. Eastern staircase at (21, 17), western staircase at (6, 19) descending to ground level at (6, 20) [Verified].
+- Rest House 4 Basin (cols 10..13, rows 10..15):
+  - North: Rest House 4 building at cols 10..13 rows 10..11, door at (11, 11).
+  - West: Central water pond shoreline (cols 6..9 rows 10..13).
+  - East: Impassable cliff wall along cols 14..15 rows 10..18 [Verified Turns 10344-10345, 10712].
+  - Status: Completely confirmed cul-de-sac with zero northern or eastern ground exits.
+- Southwest Ground Basin (cols 2..6, rows 14..20):
+  - Row 20: Walkable tall grass cols 2..6 connecting bridge landing (6, 20) to col 2.
+  - Rows 16..18: Clean lawn corridor along cols 1..2.
+  - Rows 14..15: Open clean lawn plaza spanning cols 2..10.
+  - Rows 12..13: Water pond shore at col 2, pond spanning cols 3..9.
+
+## Verified Area 2 Topology & Gate Finding
+- Area 2 South Boundary (Rows 34-35):
+  - South Gate 1 at (8..9, 34..35): Confirmed warp to Area 3 (26..27, 0) [Verified].
+  - South Gate 2 at (2..3, 34..35): Sighted with south-arrow transition markers connecting the western lawn corridor (cols 2..4) south [Verified Turn 10691].
+  - Hypothesis (South Gate 2 Destination): South Gate 2 may connect directly to the Northwest Lawn / Secret House of Area 3 (unverified until traversed).
 
 
 <hr>
