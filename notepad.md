@@ -125,7 +125,7 @@
 
 # Inventory Log
 
-## Items (7 / 10)
+## Regular Items
 - RARE CANDY x4 [Verified Turn 6581]
 - SUPER REPEL x4 [Wore off Turn 7357]
 - MOON STONE x1
@@ -133,7 +133,7 @@
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1]
 - MAX POTION x2 [Obtained Turn 7695 in Area 1, Turn 8532 in Area 3]
 
-## Key Items (10 / 10)
+## Key Items & HMs
 - OLD ROD
 - SUPER ROD [Obtained Turn 7001]
 - HM01 (CUT)
@@ -147,7 +147,7 @@
 - HM03 (SURF) [Received Turn 10975]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20 (3 Free Slots). Empirically verified via Bag screen audit Turn 8433.
+- Total Slots Used: 20 / 20 (Bag is currently full). Empirically confirmed Turn 10960/10975.
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -2716,7 +2716,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - [x] Advance via Western Passage (col 8) north to row 17 (8, 17) [Turn 10882]
   - [x] Reached (8, 14); tile (8, 13) empirically confirmed impassable shoreline collision [Turn 10886]
   - [x] Tile (7, 14) and (8, 13) empirically verified impassable shoreline collisions [Turns 10886, 10889]
-  - [ ] Walk south down col 2 to South Gate 2 at (2, 35) and enter Area 3 (~15 steps)
 - Stage 4 (Secret House Acquisition) [Budget: ~30 steps, Buffer: ~124 steps]:
   - [x] Located Secret House in Northwest Lawn of Area 3 at (3, 3) [Turn 10954]
   - [x] Spoke with campaign NPC at (3, 3); Bag is currently FULL ('You don't have room for this fabulous prize!') [Turn 10961]
