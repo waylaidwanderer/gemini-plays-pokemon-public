@@ -2,11 +2,15 @@
 
 ## Entrance & Basin Topology
 - South Entrance/Exit Warp: (24, 17) / (25, 17) [Connects to Cerulean City NW water pool at (4, 11)].
-- Entrance Basin (rows 12-16, cols 18-25): Walkable floor enclosed by:
+- Entrance Basin (rows 12-16, cols 21-25): Walkable floor enclosed by:
   - North: Ledge at (21, 11) jumping South to (21, 12); solid rocks at (22..23, 11) and (23..25, 12); water canal at (24..25, 10..11).
   - South: Wall barrier at (21..23, 16); open passage via cols 24-25 to entrance warp (24..25, 17).
-  - West: Open ground passage along Row 12 connecting (22, 12) -> (21, 12) -> (20, 12) -> (19, 12) -> (18, 12) -> Column 18 North (18, 11..10) directly to Ladder C at (18, 9)!
+  - West: Solid rock spine at (20, 6..15) separating East basin from West platform. Tile (20, 12) is solid rock.
   - East: Solid rock wall at col 26.
+- Upper Landing (rows 6-9, cols 21-25):
+  - Ladder B at (23, 7) ascends to 2F (22, 6).
+  - North Shoreline at Row 6 (cols 21-25): Open northern boundary facing Row 5 water canal (cols 17-25, row 5).
+  - South Ledge at (21, 11): One-way jump South into lower entrance basin.
 
 ## Ladder Connectivity Matrix (1F <-> 2F & B1F)
 - Ladder B: (23, 7) <-> 2F (22, 6) [Ascends to 2F East landing].
