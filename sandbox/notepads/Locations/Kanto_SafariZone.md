@@ -53,8 +53,7 @@
   - Item Ball at (21, 10): FULL RESTORE [Collected Turn 7647].
   - Rest House 2 at (26..29, 10..11), signpost at (26, 10).
   - Signpost at (6, 4) in northern corridor.
-- Verified Traversal Solution (Turns 9276-9296, 9358-9382):
-  Enter Area 1 at (0, 23) -> southern corridor (row 24) to (17, 24) -> step up to (17, 22) -> ascend South Plateau stairs at (20, 21) -> traverse west to (12, 20) -> descend western stairs at (12, 21) to (12, 22) -> pond bypass (cols 8..10) north to (12, 8) -> ascend North Plateau Bridge at (12, 7) to (17, 7) -> descend to East Lawn at (20, 8) -> breach north through Col 20 permeable canopy (20, 6..3) -> Row 3 canopy corridor (cols 16..10) -> step down at col 7 to row 5 runway -> gateway at (0, 4..5) into Area 2 at (39, 30..31)!
+
 
 ## Area 2 (North)
 - East Gate: Connects to Area 1 at (39, 30..31) between statue gateposts at (39, 28..29) and (39, 32..33).
@@ -118,7 +117,6 @@
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
   - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
   - Tile (24, 12) empirically verified impassable bush hedge from col 25 [Turn 10485].
-  - Tile (24, 2) empirically verified impassable bush hedge from col 25 [Turn 10494].
   - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
 - Row 24 East Bush Barrier: Solid horizontal bush hedge across cols 22..29 blocks southward passage [Verified Turn 10307-10308].
 - East Warp Boundary: Col 29 rows 22..23 has east-facing arrow warps to Center Area (0, 11) [Verified Turn 10307].
