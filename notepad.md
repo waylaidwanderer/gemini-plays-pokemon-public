@@ -3005,7 +3005,6 @@
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
 ## Disproven Routes & Collision Barriers
 - **Row 16 Central Rock Wall (Turn 41901-41902)**: (14..20, 16) is a continuous solid purple rock wall. The pocket at (14..15, 13..15) has NO southern connection to Row 17.
-- **Bicycle Turn Behavior**: Tapping a perpendicular direction turns in place without stepping. Move in verified single steps when navigating tight corners at (22, 11) / (23, 11).
 
 <hr>
 
