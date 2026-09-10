@@ -26,14 +26,12 @@
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (21, 18) [Turn 10288]
-- Steps Remaining: 92 / 500 steps
+- Current Position: Safari Zone Area 3 at (21, 24) [Turn 10292]
+- Steps Remaining: 86 / 500 steps
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
 ## Area 3 Search Strategy & Terrain Alignment
 - Collision Note: Column 1 is impassable north past rows 14..15 (tree at 0..1, 14..15 and water at 2, 13). Direct passage north along col 1 is refuted.
 - Search Objectives:
-  2. Investigate Central/Western corridors: Map connectivity west of the central pond and around Rest House 4.
-  3. Locate Secret House (HM03 Surf) with the ~260 step surplus!
 

@@ -110,4 +110,5 @@
   - Tile (10, 6) and (11, 5) empirically verified impassable cliff/bush from (11, 6) [Turn 10256].
   - Tile (17, 7) empirically verified impassable cliff wall from (16, 7) [Turn 10259].
   - Tile (23, 14) empirically verified impassable cliff corner from (24, 14) [Turn 10272].
+  - Column 24 bushes at (24, 2), (24, 3), and (24, 4) empirically verified impassable bush hedge from col 25 [Turn 10281].
   - Tile (24, 13) empirically verified impassable bush hedge from (24, 14) [Turn 10272].
