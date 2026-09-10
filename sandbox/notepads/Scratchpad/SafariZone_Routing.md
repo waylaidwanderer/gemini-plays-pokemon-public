@@ -21,13 +21,12 @@
   - Rest House 4 is at cols 10..13 rows 10..11.
   - Rest House 4 basin is an enclosed cul-de-sac: blocked east by cliff at col 14, and west by water shoreline at (9, 11..13) (Turn 9626: tile 9, 12 is water collision).
 - Unvisited Candidate Target Sectors:
-  1. Southwest Sector: Rows 24..28 across cols 2..15 (unvisited; cols 0..6 rows 25..27 viewed from 1, 23 showed open lawn).
   2. Northwest Sector: Rows 0..9 across cols 0..9 (unvisited; item ball at 9, 7 sighted from Northern Plateau).
 
 ## Active Session 11 Step Ledger
 - Status: Active Session 11 (Area 3 Exploration - HM03 Surf)
-- Current Position: Safari Zone Area 3 at (8, 14) [Turn 10346]
-- Steps Remaining: 15 / 500 steps
+- Current Position: Safari Zone Area 3 at (3, 23) [Turn 10351]
+- Steps Remaining: 0 / 500 steps (Session 11 Concluded)
 - Ground Truth Connections:
   - Area 3 Gateway is at Area 2 (8..9, 34..35).
   - South opening at cols 20..21 rows 34..36 connects to Center Area at (14, 0).
@@ -36,7 +35,6 @@
 - Row 24 East Barrier: Solid horizontal bush hedge across cols 22..29 empirically verified Turn 10308. East border at (29, 22..23) has right-arrow warps to Center Area. Zero southern passage from East Corridor to rows 25..27.
 - Southern Sector Barrier: Empirically verified tree at (0..1, 24) and bushes across (2..9, 24) block all passage south past row 23 from the west side. Bottom rows 25..29 are an impassable boundary.
 - Northwest Route Hypothesis: Secret House is located on the Northwest Lawn (near sighted item ball at 9, 7). Accessible by routing north along columns 1..3 across row 16.
-- Strategic Route to Secret House: Advance north along col 1 lawn to (1, 16) -> turn east to (3, 16) -> explore northern corridor heading toward Northwest Lawn and Secret House!
 - Rest House 4 Basin Closure: Tile (14, 14) empirically verified impassable cliff wall [Turn 10344-10345]. The entire basin (cols 10..13 rows 10..14) is enclosed on north/east by cliffs, south by bridge, and west by pond. Sole access is row 14/15 lawn westward to cols 2..3.
 
 ## Session 12 Master Plan (HM03 Surf Route)
