@@ -3031,6 +3031,8 @@
 - Verified Rock Collisions: (12, 2..4) is a solid vertical rock column blocking transit between col 11 and col 13 on rows 2-4.
 - Verified Rock Collisions: (17, 2..8) and (16, 2) are solid purple rock walls. Passage from Column 16 to Column 18 runs solely via Row 1: (15, 3) -> (15, 1) -> (17, 1) -> (18, 1).
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
+- Verified Rock Collisions: (16, 7) is a dead-end pocket bounded by solid rock at (15, 7), (17, 7), and (16, 8) (Turn 42887).
+- Verified Connectivity: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
 
 <hr>
 
