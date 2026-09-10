@@ -8,6 +8,8 @@
 - Upper road: Rows 4..6 paved road with dashed markings.
 - Jump Ledges: Row 7 has south-facing jump ledges across cols 40..49.
 - Lower road / walkway: Rows 8..9 open paved path leading west directly into the Gatehouse east entrance at (40, 8).
+- Signpost at (43, 7): "ROUTE 18 / CELADON CITY - FUCHSIA CITY" [Verified Turn 11200].
+- Bird Keeper NPC: Located at (36, 11) in southern lawn [Observed Turn 11198].
 - Stone fence enclosure: Rows 10..12 cols 43..50 with green lawn and red flowers.
 - Gatehouse Entrance: Located at (40, 8) on the lower path, warps inside to Gatehouse 1F (7, 4..5).
 
