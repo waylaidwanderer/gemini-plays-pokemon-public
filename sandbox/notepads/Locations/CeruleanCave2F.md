@@ -43,3 +43,4 @@
   - The only 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1).
   - The fifth ladder in Cerulean Cave is at 1F (1, 3), which leads directly to B1F.
 - Verified Rock Collisions: (12, 2..4) is a solid vertical rock column blocking transit between col 11 and col 13 on rows 2-4.
+- Verified Rock Collisions: (17, 2..8) and (16, 2) are solid purple rock walls. Passage from Column 16 to Column 18 runs solely via Row 1: (15, 3) -> (15, 1) -> (17, 1) -> (18, 1).
