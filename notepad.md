@@ -72,7 +72,7 @@
 1. HYDROS (Blastoise) - Lv 93
    - Stats: Max HP 323 (HP: 323/323), Attack 230, Defense 253, Speed 234, Special 244
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (15/15), Ice Beam (0/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 18
    - Stats: Max HP 59 (HP: 59/59)
@@ -123,7 +123,6 @@
 
 ## PC Item Storage Notes
 - Poké Flute, Silph Scope, Good Rod, Helix Fossil, TMs stored in PC Storage.
-
 
 <hr>
 
