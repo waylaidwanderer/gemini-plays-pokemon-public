@@ -40,3 +40,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F Central Hallway: Cols 16..19 form open north-south corridor (rows 5..9+). Vertical wall divider at col 15 (rows 4..9) with base at (15, 9). Northern highway (rows 1..3) continues west past col 14.
 - 5F Juggler Defeated: At (18, 7) facing north. Team: Kadabra Lv 29, Mr. Mime Lv 29. Prize ¥1015 [Turn 12734].
 - 5F South Corridor Discovery: Row 15 wall is completely solid from col 16 to east wall (col 27). Item ball sighted at (21, 16) in row 16 corridor. Row 16 is inaccessible from the east wing and must be accessed via the west wing. Returning north to northern highway (rows 1..3).
+- 5F Northern Crossing: Indoor trees at (11..12, 2..3). Teleporter pad at (11, 5). Open corridors at row 1 and row 4 heading west into the Far West Wing.
