@@ -2964,5 +2964,10 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Row 2: (2, 2) & (3, 2) are dashed invisible walls; (0..1, 2) are open.
   - Row 4: (0, 4), (1, 4), (4, 4) are dashed invisible walls; (2, 4) is an open single-tile bottleneck funneling south.
   - NPC at (3, 4..5) faces south.
+- West Side Corridor Analysis (Rows 5..9):
+  - (0, 6) & (2, 6) are dashed invisible walls; (1, 6) is open.
+  - (2, 6) invisible wall blocked north-facing trainer at (2, 7) from seeing player at (2, 5).
+  - Row 8 wall spans (2..6, 8).
+  - Row 9 is an open horizontal corridor spanning (0..5, 9) connecting into the central chamber.
 
 <hr>
