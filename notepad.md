@@ -124,7 +124,8 @@
 - [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
 - [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
 - [x] Give Fresh Water to Saffron Gatehouse guard and unlock Saffron City [Turn 12619]
-- [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]
+- [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]- [x] Receive TM29 (Psychic) from Mr. Psychic in Saffron City [Turn 12671]
+
 
 <hr>
 
@@ -138,6 +139,7 @@
 - MAX POTION x1 [Verified Turn 11891]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
+- TM29 (PSYCHIC) x1 [Received Turn 12671 from Mr. Psychic]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -153,7 +155,7 @@
 - HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 16 / 20
+- Total Slots Used: 17 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. HM05
@@ -171,6 +173,7 @@
   14. HM03
   15. REVIVE x5
   16. FULL HEAL x5
+  17. TM29 x1
 
 ## Stored / PC Items
 - OLD ROD x1 (PC) [Stored Turn 12567]
