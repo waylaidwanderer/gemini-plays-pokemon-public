@@ -18,7 +18,7 @@
 - Waterways:
   - Eastern Waterway: (24..29, 10..11) and (28..29, 6..9) navigable open water canal.
   - Northern Waterway: (6..29, 4..5) continuous east-west canal.
-  - Ladder C Waterway Access: Water canal branches south at cols 14..15 (rows 5..7); disembark South from (15, 7) onto dry floor at (15, 8), then walk East across Row 8 to (18, 8) and South to Ladder C at (18, 9)!
+  - Waterway Collisions: Raised rock banks prevent direct dismount at rows 6, 8, and 12. Valid water access/dismount is via ledge hop at (25, 9)->(25, 10) and shoreline at (7, 13).
 
 ## Wild Encounters (1F)
 - Sandslash, Hypno, Magneton, Golbat, Ditto, Kadabra, Venomoth, Electrode, Rhydon, Parasect.
