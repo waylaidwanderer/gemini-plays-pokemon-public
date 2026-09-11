@@ -2973,9 +2973,6 @@
 - **Column 2 Barrier (Verified Turn 42769)**: (2, 0..4) is continuous solid rock. (3, 1) -> (2, 1) is blocked.
 - **Column 16 Barrier (Verified Turn 42288)**:
   - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9. Tile (16, 7) is a dead-end pocket.
-- **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
-  - The 1F South-Western Ridge (cols 1-6, rows 8-12) accessed via South Ramp at (1, 13) contains NO ladder or warps. Tile (3, 11) on 1F is regular cave floor.
-  - The 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1). Ladder A is at (1, 3) and descends directly to B1F!
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
 - **2F Central Network Isolation (Verified Turn 42887 & 44425)**: The Central/East network on 2F (cols 11..29) connects Ladder C at (19, 7) to Row 1 North Bypass (11..18, 1), but is blocked from Ladder E at (9, 1) by the Column 10 rock wall and has no direct southern ground connection across Row 8.
 - **Row 15/16 South Boundary (Verified Turns 43064-43071)**:
