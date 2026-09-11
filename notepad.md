@@ -151,7 +151,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892; 2 slots free).
+- Total Slots Used: 19 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899; 1 slot free).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x3
   2. OLD ROD
@@ -171,7 +171,7 @@
   16. HM04
   17. GOOD ROD
   18. HM03
-  19. [EMPTY]
+  19. REVIVE x5
   20. [EMPTY]
 
 ## Stored / PC Items
@@ -184,7 +184,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥81028 [Verified Turn 11893]
+- ¥73528 [Verified Turn 11899]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
@@ -2848,6 +2848,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Transactions History
 - Turn 11889: Sold CARBOS x1 for ¥4900 (Balance: ¥79028).
 - Turn 11892: Sold TM40 (SKULL BASH) x1 for ¥2000 (Balance: ¥81028).
-- Bag capacity after sales: 18 / 20 items (2 slots free).
+- Bag capacity after sales: 18 / 20 items (2 slots free).- Turn 11899: Purchased REVIVE x5 for ¥7500 (Balance: ¥73528).
+
 
 <hr>
