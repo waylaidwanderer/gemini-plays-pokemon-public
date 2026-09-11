@@ -2913,21 +2913,24 @@
 - **Ladder E**: (7, 1) <-> 2F (9, 1) [NW Landing - leads to 2F West Sub-Graph and Ladder A at (1, 3) to B1F/Mewtwo!].
 
 ## Waterways & Shoreline Access
-- **Southern Shoreline (Row 16)**:
-  - Open water-to-land shoreline at (8..12, 16).
-  - Fully accessible for boarding/dismounting Surf between the water canal and the South Floor / Central Corridor.
+- **Southern Canal Perimeter (Rows 16-17)**:
+  - Raised purple rock banks span (4..8, 16) and (11..14, 16), blocking direct water boarding from the south with Surf ("No SURFing on HYDROS here!").
+  - Central canal water spans (8..11, 14..15) and (8..9, 6..13).
+  - South Floor Thoroughfare (Row 17, cols 1..24) connects the entire southern perimeter on foot.
 - **Central Island (Cols 11..18, Rows 8..13)**:
-  - Accessible on foot via Column 13 corridor (13, 8..16) from the Row 16 shoreline.
   - Contains Ladder C at (18, 9) and open corridors across (11..18, 8..9).
+  - Exit to South Floor: hop south over ledge at (17, 15) onto South Floor at (17, 16)/(17, 17).
 - **Waterway Network**:
   - Main Central Canal: (8..11, 6..15) navigable open water.
-  - Northern Waterway: (6..29, 4..5) continuous east-west canal spanning the northern perimeter.
+  - Northern Waterway: (6..29, 4..5) east-west canal across the northern perimeter (continuity to be surveyed during traversal).
   - Eastern Waterway: (24..29, 10..11) & (28..29, 6..9).
-- **Ledge Hop Water Access**: (25, 9) -> (25, 10) hops down south-facing ledge directly into the East Waterway.
+- **Guaranteed Water Access Point**:
+  - East Sector Ledge Hop: (25, 9) -> (25, 10) hops down south-facing ledge directly into the East Waterway canal.
 - **Waterway Collisions & Raised Banks**:
   - (14, 8) facing North into (14, 7): Raised bank ledge blocks direct water boarding ("No SURFing on HYDROS here!").
+  - (8, 17) facing North into (8, 16): Raised bank ledge blocks direct water boarding ("No SURFing on HYDROS here!").
+  - (11, 12) facing South into (11, 13) ledge: Land-to-water ledge hop on foot is blocked by the engine without Surf active.
   - Tile (7, 13): 1-tile isolated shoreline alcove surrounded by solid rock walls to the West (6, 13), North (7, 12), and South (7, 14); only exits East into water at (8, 13).
-  - Raised banks along (1..5, 8) block direct dismount from northern waterway.
 
 ## Central Land Corridors & Rock Barriers
 - **Column 13 Corridor**: (13, 8..16) continuous open floor connecting Central Island to Row 16 shoreline.
