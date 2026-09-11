@@ -62,11 +62,11 @@
 - ¥87140 [Turn 12849]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 56, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 57, Water]
   - Status: Healthy
-  - HP: 164 / 176 [Turn 12839]
-  - Stats: Attack 129, Defense 150, Speed 129, Special 133
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 8/10) [Turn 12849]
+  - HP: 167 / 179 [Turn 12886]
+  - Stats: Attack 132, Defense 153, Speed 132, Special 135
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 8/10) [Turn 12886]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
