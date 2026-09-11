@@ -22,3 +22,4 @@
 - Trainer 2 (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) is blocked by invisible wall [Confirmed Turn 12089]. Dashed line patterns on floor indicate invisible barrier segments.
+- Verified Passages: (0, 13) and (0, 12) confirmed open on foot [Turn 12101].
