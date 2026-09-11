@@ -2564,6 +2564,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Route 15 East Entrance Boulevard: Rows 16..18 cols 25..39.
 - Central Promenade: Walkable yellow brick promenade at cols 22..23 rows 16..21.
 
+
+### Bill's Grandpa's House Interior (Cols 21..24, Rows 11..13)
+- Entered via door at (22, 13) from yellow brick promenade.
+- Interior bounds: Single-room residence (cols 0..9, rows 0..7).
+- Features: Bookcases along north wall (cols 0..3 row 0), window at (7, 0). Central tables with open walkway at cols 2..3 row 5.
+- Occupants: Bill's Grandpa at (0, 2), grandson at (4, 1).
+- Confirmed: No back exit, no basement stairs, no hidden passages [Verified Turns 11948-11953].
+
 ### Northern Connecting Lawn Corridor (Row 14)
 - Open continuous lawn corridor running east-west along rows 13..14 spanning col 5 (Poké Mart) through col 18 (cut tree passage) [Verified Turns 11880-11914].
 - Bounded south by tree line at row 15 cols 1..11, Lapras enclosure at cols 9..12 rows 16..17, and open lawn at cols 13..18 rows 15..18.
