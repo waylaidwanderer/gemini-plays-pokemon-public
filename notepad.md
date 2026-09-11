@@ -153,9 +153,10 @@
 - HM04 (STRENGTH) [Received Turn 8274, Verified Turn 11082]
 - GOOD ROD [Obtained Turn 11176, Verified Turn 11905]
 - HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
+- CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20
+- Total Slots Used: 18 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. HM05
@@ -174,6 +175,7 @@
   15. REVIVE x5
   16. FULL HEAL x5
   17. TM29 x1
+  18. CARD KEY
 
 ## Stored / PC Items
 - OLD ROD x1 (PC) [Stored Turn 12567]
