@@ -62,8 +62,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 52, Water]
-  - Status: Poisoned (PSN)
-  - HP: 34 / 163 [Verified Turn 11679]
+  - Status: Fainted
+  - HP: 0 / 163 [Verified Turn 11679]
   - Stats: Attack 119, Defense 139, Speed 119, Special 122
   - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 1/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
