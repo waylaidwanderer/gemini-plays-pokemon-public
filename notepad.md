@@ -2930,6 +2930,12 @@
 - **Waterways & Northern Highway**:
   - East Water Channel: Cols 24..27, rows 10..17 from entrance mat (24..25, 17).
   - Northern Water Highway: Rows 3..5 across northern sector. Potential westward water transit to NW Lower Basin pending empirical testing.
+## Verified 1F Ledge Traversal & Water Transit Breakthrough (Turn 44152)
+- **1F Entrance Ledge Bypass**: When entering 1F on foot at (24..25, 17), walk to (21, 12) or (22, 12) facing North towards ledge (21, 11). Activating SURF from the menu traverses the south-facing ledge barrier and places the player on Row 9 at (21, 9)!
+- **Transit from (21, 9)**:
+  - Walk Up to (21, 6), face North at (21, 5) and use SURF to board Northern Waterway (rows 3..5).
+  - Surf West to (18, 5), land South at (18, 6), and walk South to Ladder C at (18, 9).
+  - Ascend Ladder C (18, 9) to reach 2F Central Hub at (19, 7) with direct access to S-Bypass and Ladder A (1, 3) -> B1F!
 
 <hr>
 
