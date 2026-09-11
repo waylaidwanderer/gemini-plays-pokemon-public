@@ -26,8 +26,10 @@
 - Paved highway along rows 10..11 extends clear across cols 33..40.
 - Tree canopy bounds road to the north at cols 33..35 rows 8..9.
 - Bird Keeper at (31, 13) in southern tall grass, facing North (Team of 4: Pidgeotto Lv 26, Farfetch'd Lv 26, Doduo Lv 26, Pidgey Lv 26) [DEFEATED Turn 7304]. Prize: ¥650. Defeat line: "Ow! That's tragic!". Engaged at (31, 10).
-- Route 15 Gatehouse:
-  - East exit at (13, 8..9) connecting east onto rows 8..9 / 10..11 highway.
-  - Connects Route 15 west directly into Fuchsia City.
+- Route 15 Gatehouse & Western Approach:
+  - Fuchsia City east exit at (39, 16..17) connects to Route 15 West Approach (outdoor tree-lined paved road cols 1..7 rows 8..9).
+  - Gatehouse West Exterior Doorway at (8, 9) warps inside to Gatehouse 1F west mat at (0, 4..5).
+  - Gatehouse 1F Layout: Walkway along rows 4..5, guard at (4, 1), stairs to 2F at (6, 8), and east exit door at (7, 4..5).
+  - Gatehouse East Doorway at (7, 4..5) warps outside onto Route 15 proper at (13, 8..9).
+  - Route 15 Proper Connection: From (13, 8..9), paved path leads east to col 15, then turns south through (15, 10) onto rows 10..11 main highway.
 - Jr. Trainer ♀ at (18, 11): Stationed in southern grass at (18, 13) facing North; engaged at (18, 10). Team: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Defeated Turn 11478. Prize: ¥580. Defeat line: "I was too impatient!".
-- Gatehouse Approach: Paved road at row 11 ends at col 14 fence; path turns north at col 15 through (15, 10..9) onto rows 8..9 paved road to enter Gatehouse at (13, 9).
