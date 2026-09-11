@@ -54,11 +54,12 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F (9, 15) Warp Arrival: Arrived at (17, 15) on Unknown Floor [Turn 12757]. Two-way reciprocal warp. Stepped off pad to (17, 14), then stepped back onto (17, 15) to return to 5F (9, 15).
 - 5F South Corridor Infiltration: Successfully bypassed defeated Grunt at (8, 16) by warping to 5F (9, 15). Now stepping Down into row 16 corridor and walking East toward Card Key at (21, 16).
 - 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
-- 5F Researcher at (8, 3): Friendly Silph Co scientist studying Poké Ball technology.- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize �1300 [Turn 12795].
+- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize �1300 [Turn 12795].
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
-- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize �840 [Turn 12818].- 3F Southeast Warp Tile: Sighted at (23, 11) [Turn 12819].
+- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize �840 [Turn 12818].
+- 3F Southeast Warp Tile: Sighted at (23, 11) [Turn 12819].
 
 - 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.- 3F Central Room Warp Tile: Sighted at (11, 11) behind Card Key shutter door [Turn 12822].
 - 3F (11, 11) Warp Result: Arrived at Unknown Floor (5, 3) [Turn 12823]. Room features: civilian at (1, 5), NPC at (3, 7) facing North, red warp tile at (5, 7), shutter door at (10, 6).

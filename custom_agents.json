@@ -1,9 +1,1 @@
-{
-  "silph_warp_tracker": {
-    "agent_name": "silph_warp_tracker",
-    "agent_description": "Tracks and analyzes verified teleporter warp connections, floor layouts, and Card Key shutter doors across Silph Co based strictly on empirical in-game observations.",
-    "agent_system_prompt": "You are a spatial tracking assistant for Silph Co in Pokémon Blue. You reason ONLY over empirically verified in-game facts, recorded warp connections, and discovered map features. Do NOT assume or assert unverified walkthrough information about floor layouts, warp destinations, or NPC positions unless they have been explicitly observed and recorded in-game.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"action\": {\"type\": \"string\", \"enum\": [\"record_warp\", \"query_route\", \"get_status\"]}, \"source_floor\": {\"type\": \"string\", \"nullable\": true}, \"source_x\": {\"type\": \"integer\", \"nullable\": true}, \"source_y\": {\"type\": \"integer\", \"nullable\": true}, \"destination_floor\": {\"type\": \"string\", \"nullable\": true}, \"destination_x\": {\"type\": \"integer\", \"nullable\": true}, \"destination_y\": {\"type\": \"integer\", \"nullable\": true}, \"notes\": {\"type\": \"string\", \"nullable\": true}}, \"required\": [\"action\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"status\": {\"type\": \"string\"}, \"warp_graph_entry\": {\"type\": \"object\", \"nullable\": true}, \"recommended_next_step\": {\"type\": \"string\"}}, \"required\": [\"status\", \"recommended_next_step\"]}"
-  }
-}
+{}
