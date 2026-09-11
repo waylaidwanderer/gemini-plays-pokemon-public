@@ -298,6 +298,7 @@
 - **Top Battle Menu:** Pressing B on the main battle menu (`FIGHT`, `ITEM`, `PKMN`, `RUN`) does nothing and cannot accidentally trigger unwanted actions.
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
+- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
 
 ## Stat & Damage Mechanics
 - **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat.
@@ -310,18 +311,7 @@
 - **Original Trainer Pokémon:** Starter Pokémon and Pokémon caught by the player never disobey, regardless of level or badge count. Badge obedience limits (e.g. Cascadebadge Lv 30) only apply to traded / outsider Pokémon.
 
 
-- **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
-## Fuchsia Gym Combat Tactics (Leader Koga & Trainers)
-- **Opponents:** Poison and Psychic Pokémon (Koffing, Muk, Weezing, Venomoth, Drowzee, Hypno).
-- **Physical vs. Special Split:**
-  - Koffing & Weezing possess massive physical Defense (Attack 60-90, Defense 95-120). Use Special Water/Ice attacks (Surf / Ice Beam) to bypass their Defense.
-  - Muk has high HP and Special, but lower physical Defense. Double-Edge is optimal for securing fast physical knockouts on Muk.
-- **Status & Hazard Mitigation:**
-  - Koga's signature strategy revolves around Toxic (exponentially compounding Poison damage), Poison Gas, and Minimize/Smokescreen evasion stalls.
-  - Retain Full Heals (5 in bag) to immediately purge Toxic/Poison or Sleep before compounding damage threatens Blastoise.
-- **PP Conservation:**
-  - Blastoise must enter Koga's Gym with fully restored PP (15 Surf, 15 Body Slam, 10 Ice Beam, 15 Double-Edge). Firing moves into Minimize/Smokescreen risks running out of PP and forcing Struggle.
-
+## Verified Battle Mechanics & Engine Findings
 - **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
 
 <hr>
@@ -2535,6 +2525,14 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
   - Gatehouse East Doorway at (7, 4..5) warps outside onto Route 15 proper at (13, 8..9).
   - Route 15 Proper Connection: From (13, 8..9), paved path leads east to col 15, then turns south through (15, 10) onto rows 10..11 main highway.
 - Jr. Trainer ♀ at (18, 11): Stationed in southern grass at (18, 13) facing North; engaged at (18, 10). Team: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Defeated Turn 11478. Prize: ¥580. Defeat line: "I was too impatient!".
+## Wild Pokémon (Tall Grass)
+- Bellsprout (Lv 22) [Encountered Turn 12328 at (55, 8)]
+
+## Northern Grass Terrain Bounds
+- Rows 8..9 cols 52..58 contain a tall grass / flower patch bounded north by row 7 south-facing jump ledge and south by rows 10..11 Central Paved Highway.
+- Stepping into rows 8..9 can trigger wild encounters.
+- Central Paved Highway (rows 10..11) and southern path (row 12) are completely paved/clear and 100% encounter-free.
+
 
 <hr>
 
