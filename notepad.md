@@ -192,7 +192,7 @@
   - Status: Poisoned (PSN Shield)
   - HP: 159 / 170 [Level 54 Turn 12134]
   - Stats: Attack 124, Defense 144, Speed 124, Special 127
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 5/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
