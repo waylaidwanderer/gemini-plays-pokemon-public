@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 56, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥86300 [Turn 12795]
+- Money: ¥87140 [Turn 12818]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -194,14 +194,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥86300 [Turn 12795]
+- ¥87140 [Turn 12818]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 56, Water]
   - Status: Healthy
   - HP: 176 / 176 [Level Up Turn 12813]
   - Stats: Attack 129, Defense 150, Speed 129, Special 133
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 9/15), Ice Beam (PP 10/10) [Turn 12813]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 7/15), Ice Beam (PP 10/10) [Turn 12818]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -3098,6 +3098,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
-- 3F Rocket Grunt Encounter: Stationed at (20, 7) facing West down row 7 corridor; challenged player at (18, 7) [Turn 12805]. Team includes Raticate Lv 28, Hypno Lv 28, and a 3rd Pok�mon.
+- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize �840 [Turn 12818].
 
 <hr>
