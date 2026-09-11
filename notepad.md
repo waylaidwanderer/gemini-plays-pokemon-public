@@ -2961,6 +2961,6 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Signpost located at (1, 19).
 - Street lamp at (2, 18..19).
 - Open roadway leading east across row 18 at cols 3..5+.
-- Signpost at (1, 19): "SILPH's latest product! ..." [Turn 12632]
+- Signpost at (1, 19): "SILPH's latest product! Release to be determined.." [Turn 12633]
 
 <hr>
