@@ -2567,8 +2567,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Avenue: Cols 34..36 rows 26..31+ connecting South Street north to Route 15 boulevard.
 
 ### 5. Southwest Gym & Pok�mon Center Courtyard
-- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) [Verified Turn 7342, 11354].
-- Pok�mon Center: Cols 18..21 rows 24..27, POK� sign at (20, 27) [Verified Turn 11346].
+- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) (observed visually from exterior).
+- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27) (observed visually from exterior).
 - Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pok�mon Center.
 - Courtyard Boundaries & Access:
   - South Ledge: South-facing one-way jump ledge along row 31 acts as one-way exit from courtyard to row 32.
@@ -2578,6 +2578,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
     - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
     - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
+
 
 <hr>
 
