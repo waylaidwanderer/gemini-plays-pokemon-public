@@ -69,7 +69,7 @@
   - Status: Fainted [Turn 7302]
   - HP: 0 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10)
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
