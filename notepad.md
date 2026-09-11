@@ -124,7 +124,8 @@
 - [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
 - [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
 - [x] Give Fresh Water to Saffron Gatehouse guard and unlock Saffron City [Turn 12619]
-- [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]- [x] Receive TM29 (Psychic) from Mr. Psychic in Saffron City [Turn 12671]
+- [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]
+- [x] Receive TM29(Psychic) from Mr. Psychic in Saffron City [Turn 12671]
 
 
 <hr>
@@ -148,7 +149,7 @@
 - COIN CASE [Verified Turn 11080]
 - LIFT KEY [Verified Turn 11080]
 - SILPH SCOPE [Verified Turn 11081]
-- POK� FLUTE [Obtained Turn 6599, Verified Turn 11081]
+- POKÉ FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 - HM04 (STRENGTH) [Received Turn 8274, Verified Turn 11082]
 - GOOD ROD [Obtained Turn 11176, Verified Turn 11905]
@@ -2958,7 +2959,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 
 ## Connections
 - West: Route 7 via West Gatehouse. Map transition at col 0, rows 17..18 connecting to Route 7.
-- East: Route 8 via East Gatehouse (untested).
+- East: Route 8 via East Gatehouse located at cols 38..42, rows 16..19; signpost at (39, 19) [Sighted Turn 12679].
 - North: Route 5 via North Gatehouse (untested).
 - South: Route 6 via South Gatehouse located at cols 0..3, rows 32..35 [Sighted Turn 12648].
 
@@ -3009,7 +3010,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Street lamp at (36, 30); eastern lane (col 37) is unobstructed.
 - Building 8: Commercial building at cols 32..35, rows 27..29.
 ## Central East-West Corridor (Row 13)
-- Row 13 Thoroughfare: Open roadway running west from Eastern Avenue (col 36) to col 24, terminating at the eastern wall of building at cols 20..23, rows 10..17 [Verified Turn 12684].
+- Row 13 Thoroughfare: Open roadway running west from Eastern Avenue (col 36) to col 24, terminating at the eastern wall of building at (23, 13) [Verified Turn 12684].
 - North boundary: Curb at row 12 fronting commercial building at cols 30..35, rows 9..11.
 - South boundary: Building roof at cols 30..35, rows 14..15.
 - Poké Mart: Located at cols 25..27, rows 9..11 [Verified Turn 12683].
@@ -3026,7 +3027,47 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 ## Northeast Gym District (Rows 4..6)
 - Fighting Dojo & Saffron Gym: Located north of row 6 across cols 24..37.
 - Signpost at (27, 5).
-- Entrances / double doors visible along row 5 at (24..26, 5), (28..29, 5), and (32..37, 5).
+- Building facades along row 5 with signpost at (27, 5); entrance door at (26, 3) and approach apron at (30..31, 4..5) [Verified Turn 12691].
 - Approach apron at (30..31, rows 4..5).
+
+<hr>
+
+<h1><code>Scratchpad/SilphCo_Navigation</code></h1>
+
+# Silph Co Headquarters - Infiltration & Navigation
+
+## Overview
+11-story corporate skyscraper occupied by Team Rocket in the center of Saffron City.
+Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain Master Ball.
+
+## Inventory Prerequisites
+- Active Team: Blastoise Lv 55 (SHELDON), full PP/HP [Healed Turn 12658].
+- Supplies: Revive x5, Full Heal x5, Super Repel x4, Full Restore x1, Max Potion x1, TM29 x1.
+- Key Items: Silph Scope, Lift Key (from Rocket Hideout), Poké Flute.
+
+## Key Dungeon Mechanics
+- Card Key: Unlocks electronic shutter doors across all floors. Must locate Card Key on early floors.
+- Warp Tile Network: Teleport pads connect specific coordinates between floors.
+- Elevator: Connects 1F through 11F.
+- Rival RED Encounter: Expected on upper floor (7F).
+- Lapras Gift: Employee on 7F gifts Lapras.
+
+## Floor Warp Graph (Source -> Destination)
+| From Floor | From Coord | To Floor | To Coord | Verified Turn |
+|---|---|---|---|---|
+
+## Floor-by-Floor Progression Log
+- 1F: Ground lobby / reception.
+- 2F:
+- 3F:
+- 4F:
+- 5F:
+- 6F:
+- 7F:
+- 8F:
+- 9F: Healing bed / rest room.
+- 10F:
+- 11F: Executive suite / Giovanni boss battle.
+
 
 <hr>
