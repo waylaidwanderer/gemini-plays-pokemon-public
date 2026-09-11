@@ -113,6 +113,7 @@
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
+- [x] Push boulder in Warden's house and obtain Rare Candy [Turn 12025]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
@@ -152,7 +153,7 @@
 ## Inventory Capacity
 - Total Slots Used: 20 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899, Full Heal x5 bought Turn 11905; Bag full).
 - Complete Top-to-Bottom Slot Order:
-  1. RARE CANDY x3
+  1. RARE CANDY x4
   2. OLD ROD
   3. HM01
   4. HM05
@@ -2626,8 +2627,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - Left display at (4, 3): "POKéMON photos and fossils." [Verified Turn 12015].
     - Right display at (5, 3): "Old POKéMON merchandise." [Verified Turn 12016].
 - Right side:
-  - Boulder at (8, 4) blocking access to item ball at (8, 3).
-  - Open floor at (7, 4) allows pushing boulder east into (9, 4) using Strength to clear path to (8, 3).
+  - Boulder at (8, 4) shifted east to (9, 4) using Strength [Completed Turn 12025].
+  - Item ball at (8, 3) retrieved: RARE CANDY [Obtained Turn 12025]. Path fully cleared.
 
 <hr>
 
