@@ -1,8 +1,7 @@
 # Cerulean Cave (Unknown Dungeon) 1F - Layout & Topology
 
 ## Entrances & Warps
-- **South Entrance Basin**: (24, 17) / (25, 17) <-> Cerulean City NW Waterway landing at (4, 11) on foot.
-- **NW Water Pool Warp**: (27, 6) <-> Cerulean City NW water pool when surfing directly through the water.
+- **South Entrance Basin**: (24, 17) / (25, 17) <-> Cerulean City NW Waterway landing at (4, 11).
 
 ## Verified Topology & Boundaries (1F)
 - **Entrance Basin (cols 20-25, rows 12-17)**:
