@@ -1,9 +1,1 @@
-{
-  "battle_escape_validator": {
-    "agent_name": "battle_escape_validator",
-    "agent_description": "Validates battle state, menu layout, and escape action sequences.",
-    "agent_system_prompt": "You are an expert Pokemon battle state auditor. You verify battle menu positions, ensure run actions execute cleanly, and track overworld escape coordinates.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"battle_text\": {\"type\": \"string\"}, \"lead_pokemon\": {\"type\": \"string\"}, \"lead_speed\": {\"type\": \"integer\"}}, \"required\": [\"battle_text\", \"lead_pokemon\", \"lead_speed\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"escape_guaranteed\": {\"type\": \"boolean\"}, \"recommended_action\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"escape_guaranteed\", \"recommended_action\", \"reasoning\"]}"
-  }
-}
+{}
