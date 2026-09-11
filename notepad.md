@@ -2948,7 +2948,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize: ¥1320. Intro: "I also study the way of the ninja...". Defeat: "Awoo!".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
-- Trainer 5 at (2, 7): Engaged from (1, 7) [Turn 12144]. Intro line: "Master KOGA comes from a long line...".
+- Trainer 5 (Juggler) at (2, 7): Team of 2. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Engaged Turn 12144.
 
 <hr>
 
