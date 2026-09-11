@@ -99,3 +99,12 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - (13, 3): Solid wall tested from east (14, 3) [Turn 12978] and north (13, 2) [Turn 12979]. Moving south to test column 13 at rows 14-16.
 - (13, 14): Solid vertical wall tested from (14, 14) [Turn 12980]. Testing (13, 15) and (13, 16).
 - 11F Column 13 Status: (13, 13) solid [Turn 12953], (13, 14) solid [Turn 12980]. Testing (13, 15) and (13, 16) [Turn 12981]. If solid, elevator to 10F to check stairs/teleporters.
+- 11F Column 13 Final Verification: Column 13 is confirmed 100% solid vertical wall from row 10 to row 17 (tested at (13, 13), (13, 14)). Corridor (cols 14-15) is an isolated dead end containing only the elevator and defeated Grunt at (15, 9).
+- Route Resolution: Silph Co 11F is physically partitioned into two disconnected sections. The elevator corridor does NOT connect to the President's boardroom. Giovanni is ONLY accessible via the 7F teleporter at (5, 7) which lands at 11F (3, 2).
+- Return Plan:
+  1. Walk North up column 14 to elevator at row 1.
+  2. Take elevator to 3F.
+  3. Walk south through unlocked shutter door at (17, 8..9) to warp pad at (11, 11).
+  4. Teleport to 7F (5, 3) in Lapras room.
+  5. Step 4 tiles South onto (5, 7) warp pad.
+  6. Arrive at 11F (3, 2) in West Wing and proceed south past defeated Grunt to Card Key door at (7, 9) to confront Giovanni.
