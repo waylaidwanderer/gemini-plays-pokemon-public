@@ -3137,5 +3137,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - Silph Co Strategy to Giovanni: The warp from 7F (5, 7) to 11F (3, 2) leads to an isolated western corridor with no access to the main floor. The main floor of 11F (where the Card Key door to Giovanni at (7, 9) is located) is accessed directly via the 3F Elevator! Plan: Warp from 7F (5, 3) to 3F (11, 11) -> walk to Elevator at (20, 1) -> select 11F -> exit onto main floor -> walk west to Card Key door at (7, 9) -> defeat Giovanni -> rescue President.
 - 3F Northwest Room: Item ball sighted at (8, 5) behind west shutter door; Scientist stationed at (7, 9) facing East [Turn 12903].
 - 11F Main Floor: Arrived via elevator at (13, 0) [Turn 12910]. Elevator lobby spans cols 9..15, rows 0..2. South corridor along cols 14..15 leads toward the executive office.
+- 11F South Corridor Verified: Cols 14..15 is a dead end terminating at row 17 south wall. Returning north to elevator lobby to proceed west along row 2 [Turn 12917].
 
 <hr>
