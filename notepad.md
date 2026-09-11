@@ -2915,7 +2915,8 @@
   - Entrance/Exit mat at (24, 17) / (25, 17) exiting south to Cerulean City (4, 11).
   - Row 17 west of mat (21..23, 17) is rock wall. Open corridor west is along Rows 14-16.
   - **Bidirectional Ramp at (21, 11)**: Connects lower entrance floor at (21, 12) directly north up onto the Upper Plateau at (21, 10) (Verified Turn 44847).
-  - Solid purple rock boundary west along Column 19 (rows 10-17) and Column 20 (rows 10-13). Empirically verified (19, 14), (20, 10), (20, 11..13) are solid rock.
+  - **Row 14 Westward Thoroughfare**: Open continuous cave floor across (21..17, 14) connecting the Entrance Basin directly west into the central/western cavern!
+  - Solid purple rock boundary north along (20, 10..13) and (23..25, 12..13).
   - Solid purple rock boundary east along (23..25, 12..13) and (26, 13..17).
 - **Upper Plateau & Ladder Network**:
   - Connected directly to Entrance Basin via Ramp (21, 11).
