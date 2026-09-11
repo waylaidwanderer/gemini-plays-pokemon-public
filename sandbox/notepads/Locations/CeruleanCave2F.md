@@ -42,12 +42,10 @@
   - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9. Tile (16, 7) is a dead-end pocket.
 - **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
   - The 1F South-Western Ridge (cols 1-6, rows 8-12) accessed via South Ramp at (1, 13) contains NO ladder or warps. Tile (3, 11) on 1F is regular cave floor.
-  - The only 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1).
+  - The 4 ladders between 1F and 2F are Ladder B (22, 6 <-> 23, 7), Ladder C (19, 7 <-> 18, 9), Ladder D (29, 1 <-> 27, 1), and Ladder E (9, 1 <-> 7, 1). Ladder A is at (1, 3) and descends directly to B1F!
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
 - **2F North/Central Network Isolation (Verified Turn 42887)**: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
 - **Row 15/16 South Boundary (Verified Turns 43064-43071)**:
   - Column 15 runs south from Row 13 to (15, 13) only; tile (15, 14) is solid purple rock blocking southern passage along Column 15.
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
-## Verified 2F NW Sector & Ladder A Topology (Verified Turns 43125-43128)
-- Ladder A is located at 2F (1, 3) and descends to B1F!
 - **Ladder C Landing Southern Barrier (Verified Turn 43693)**: Tile (18, 8) is solid purple rock (empirically blocked moving Down from (18, 7)). The Ladder C landing at (18..19, 5..7) is completely bounded to the south by Row 8 rock wall ((16..22, 8)); there is NO passage south into Row 9 from Ladder C landing.
