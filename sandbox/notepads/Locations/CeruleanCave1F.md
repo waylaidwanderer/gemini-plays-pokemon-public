@@ -2,6 +2,8 @@
 
 ## Connected Component Graph (1F)
 - **Entrance / Exit**: (24..25, 17) connects to Route 24 northern waterway.
+  - **CRITICAL WARP TRIGGER ZONE**: Stepping onto (24..25, 17) immediately triggers a map transition and ejects the player outside to Route 4 / Cerulean City. DO NOT walk South onto (24..25, 17) while traversing Row 17 on foot. Keep east of (23, 17) or west of (20, 17) when navigating ground.
+  - **Optimal Transit from Entrance**: When entering 1F via water, remain Surfing and travel straight North along the East Water Channel (cols 24..27, rows 5..17) directly into the Northern Waterway (rows 3..5), then land at (18..19, 6) to access Ladder C at (18, 9).
 - **Ladder B (East Landing)**: (22, 6) <-> 2F (22, 6).
 - **Ladder C (Central Sector)**: (19, 7) <-> 2F (19, 7). Accessed from north via Row 5/6.
 - **Ladder D (NE High Plateau)**: (27, 1) <-> 2F (29, 1).
