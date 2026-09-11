@@ -73,3 +73,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - Unknown Floor (Arrival Room via 3F Warp):
 - Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival RED confirmed at (3, 7); challenged player at (3, 3) with 'What kept you BLUE?' [Turn 12825]. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6).
+- Rival RED Defeated: At (3, 4). Team: Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40. Prize ¥2600 [Turn 12851].
