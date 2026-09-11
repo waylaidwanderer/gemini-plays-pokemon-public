@@ -2952,8 +2952,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize: ¥1320. Intro: "I also study the way of the ninja...". Defeat: "Awoo!".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
 - Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Prize: ¥1190. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Defeat line: "Dropped my balls!".
-- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Prize: ¥4257. Awarded Soulbadge and TM06 (Toxic).
-
+- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Prize: ¥4257. Awarded Soulbadge (TM06 Toxic pending bag space: "Make space for this, child!").
 
 <hr>
 
