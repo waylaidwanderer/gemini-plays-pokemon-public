@@ -1,31 +1,21 @@
-# Cerulean Cave Master Route to Mewtwo (B1F)
+# Cerulean Cave Active Investigation & Routing
 
-## Overview & Verified Complete Topology
-- **The True Path to 1F Waterway & Mewtwo**:
-  1. **From 1F Upper Plateau (23, 7)**: Take Ladder B up to 2F at (22, 6).
-  2. **On 2F (Traverse to Ladder D)**:
-     - From Ladder B landing at (22, 6), walk South down Column 23 to (23, 11).
-     - Walk West along Row 11 to Column 14 at (14, 11).
-     - Walk South down Column 14/15 to Row 15/17.
-     - Follow Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) to Row 17 South Artery.
-     - Walk East along Row 17 South Artery (21..28, 17) to Column 28/29.
-     - Walk North up Column 29 (29, 17..1) to Ladder D at (29, 1).
-  3. **Descend Ladder D (29, 1) to 1F (27, 1)**:
-     - Arrive on 1F North Terrace at (27, 1).
-     - Walk West along Row 2 across (26..23, 2) to (23, 2).
-     - Walk South down Ramp (23, 3) into Row 3 (cols 19..17).
-     - Walk South down Column 18 (18, 6..14) to (17, 14).
-     - Descend Ramp (17, 15) into the 1F Waterway at (17, 16)!
-  4. **Surf 1F Waterway to NW Ladder E (7, 1)**:
-     - Board water using Surf with HYDROS.
-     - Surf north along the 1F waterway to NW landing at (7, 1).
-     - Disembark and climb Ladder E at (7, 1).
-  5. **2F West Sector to Ladder A (1, 3)**:
-     - Arrive at 2F (9, 1).
-     - Walk West along Row 1: (9, 1) -> (3, 1).
-     - Walk South along Column 3: (3, 1) -> (3, 3).
-     - Walk West along Row 3: (3, 3) -> (1, 3).
-     - Climb down Ladder A at (1, 3) directly to B1F!
-  6. **B1F Mewtwo Chamber**:
-     - Surf across B1F waterways to Mewtwo at (27, 13).
-     - Use Master Ball to capture Mewtwo!
+## Verified Facts & Topology
+- **1F Known Ladders**:
+  - Ladder B: (23, 7) <-> 2F (22, 6) [Upper Plateau]
+  - Ladder C: (18, 9) <-> 2F (19, 7) [Central Corridor - leads to Waterway Ramp at (17, 15)]
+  - Ladder D: (27, 1) <-> 2F (29, 1) [NE Terrace - dead end at rows 0-3]
+  - Ladder E: (7, 1) <-> 2F (9, 1) [NW Waterway landing - connects to Ladder A (1, 3) -> B1F Mewtwo]
+- **1F Verified Boundaries**:
+  - (23, 3) on 1F is a dead end with solid rock south.
+  - (20, 6..13) on 1F is a continuous solid rock wall dividing Upper Plateau from Central Corridor.
+  - (19, 14..17) on 1F is a solid rock wall dividing Entrance Basin from Central Corridor.
+- **2F Verified Topology**:
+  - West Sector (cols 1..9): Contains Ladder E (9, 1) and Ladder A (1, 3).
+  - Central Sector: Contains Ladder C (19, 7) and S-Bypass.
+  - Southeast Sector: Contains Ladder B landing (22, 6), Column 23, Row 11, Column 24/28, Row 17 South Artery.
+
+## Active Search Objective
+- Find the true topological connection to either:
+  1. Ladder C on 2F at (19, 7) from the 2F network.
+  2. The 1F Waterways directly from the accessible 1F zones.
