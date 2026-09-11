@@ -2912,7 +2912,7 @@
 ## Physical Topology & Collisions (1F)
 - Entrance Landing: (24..25, 14..17).
 - East Sector: (21..22, 12..14).
-- Ledge (21..22, 11): South-facing ledge separating East Sector from Northern Corridor.
+- Ledge / Pass at (21, 11): Fully walkable bidirectional floor tile connecting East Sector (21, 12) directly north to Northern Corridor (21, 10..7) and Ladder B at (23, 7)!
 - Rock Wall Barrier: (19..20, 13..14) is solid rock blocking direct West passage from (20, 14) into (19, 14).
 - Waterways:
   - Eastern Waterway: (24..25, 10..15).
