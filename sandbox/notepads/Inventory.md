@@ -66,7 +66,7 @@
   - Status: Healthy
   - HP: 164 / 176 [Turn 12839]
   - Stats: Attack 129, Defense 150, Speed 129, Special 133
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 10/15), Surf (PP 5/15), Ice Beam (PP 8/10) [Turn 12849]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 5/15), Ice Beam (PP 8/10) [Turn 12849]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
