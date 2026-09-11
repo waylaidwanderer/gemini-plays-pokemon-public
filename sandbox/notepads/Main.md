@@ -2,7 +2,7 @@
 
 ## Status
 
-- Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
+- Badges: 5 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge)
 
 - Active Team: Blastoise (SHELDON) Lv 54, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
@@ -117,4 +117,4 @@
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 - [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 11176]
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
-- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
+- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]- [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
