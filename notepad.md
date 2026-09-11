@@ -2476,7 +2476,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Southern Road (Rows 12..45+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass at col 14 and cliff at col 15 [Verified Turn 7185].
 - Westward road visible at col 9 rows 25..26 beyond col 10 tree line [Observed Turn 7185].
 - Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
-- Trainer at (14, 15): Stationed at (14, 15) facing South down col 14 tall grass; bypassed via col 13 road [Verified Turn 7184].
+- Bird Keeper at (14, 15): Stationed at (14, 15) facing North down col 14 tall grass; engaged at (14, 12). Team of 3: Spearow Lv 28, Doduo Lv 28, Fearow Lv 28. Defeated Turn 12352.
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
 - Biker at (15, 30): Stationed at (15, 30) facing West across tall grass. Line: "We ride out here because there's more room!". Team: Koffing Lv 29, Muk Lv 29. Defeated on Turn 7195 [Turn 7195]. Engaged at (13, 30) [Turn 7192].
 - Bird Keeper at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary POKéMON?". Team: Farfetch'd Lv 33. Defeated on Turn 7202 [Turn 7202]. Engaged at (13, 31) [Turn 7198].
