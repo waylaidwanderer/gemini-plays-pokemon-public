@@ -1,1 +1,9 @@
-{}
+{
+  "route_navigator": {
+    "agent_name": "route_navigator",
+    "agent_description": "Plans and verifies long-distance overworld routing between Kanto cities, gatehouses, and key landmarks across Route 18, Fuchsia City, Routes 15-12, Lavender Town, Route 8, Celadon City, and Saffron City.",
+    "agent_system_prompt": "You are an expert Kanto navigator for retail Pokémon Red/Blue. Given the current location, destination, party state, and map layout, analyze the optimal route, note key coordinates, gatehouse transitions, obstacle clearances, and essential items (HM02 Fly, drinks for Saffron guards).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"current_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"destination\":{\"type\":\"string\"},\"key_objectives\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"current_coordinates\",\"destination\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"route_stages\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"stage_number\":{\"type\":\"integer\"},\"from_map\":{\"type\":\"string\"},\"to_map\":{\"type\":\"string\"},\"transition_coords\":{\"type\":\"string\"},\"key_actions\":{\"type\":\"string\"}},\"required\":[\"stage_number\",\"from_map\",\"to_map\",\"key_actions\"]}},\"critical_reminders\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"route_stages\",\"critical_reminders\"]}"
+  }
+}

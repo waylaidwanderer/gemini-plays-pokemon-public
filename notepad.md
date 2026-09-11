@@ -2969,23 +2969,3 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 
 <hr>
-
-<h1><code>Scratchpad/GymMaze</code></h1>
-
-# Fuchsia Gym Maze Analysis
-- Visual Tile Difference: Floor tiles featuring dashed horizontal lines (`-- --`) appear to correspond to invisible wall barriers, whereas tiles with continuous solid lines indicate open, walkable corridors.
-- Column 9: Confirmed solid stripes and completely clear from row 17 up to row 1.
-- Row 1: Appears to feature solid stripes across columns 4..9, suggesting an open northern bypass corridor.
-- Traversal Test [Turn 12140]: Advanced through (8, 1) and (7, 1) without collision, confirming row 1 is open.
-- Confirmed dashed wall tiles: (7, 2..5), (4, 3..5), (3, 2).
-- NPC spotted at (3, 4..5) (likely Trainer 5 or Tamer/Juggler).
-- Northwest Sector Wall Layout:
-  - Row 2: (2, 2) & (3, 2) are dashed invisible walls; (0..1, 2) are open.
-  - Row 4: (0, 4), (1, 4), (4, 4) are dashed invisible walls; (2, 4) is an open single-tile bottleneck funneling south.
-  - NPC at (3, 4..5) faces south.
-- West Side Corridor Analysis (Rows 5..9):
-  - Visual Texture Hypothesis: (0, 6) & (2, 6) show dashed patterns; (1, 6..8) show solid lines; row 8 shows dashes across cols 2..6; row 9 shows solid lines across cols 0..5 (subject to physical traversal confirmation).
-  - Trainer at (2, 7): Faced West down row 7, engaging player upon stepping to (1, 7) [Turn 12144].
-  - Traversal Confirmed: (1, 5), (1, 6), (1, 7) are open on foot.
-
-<hr>
