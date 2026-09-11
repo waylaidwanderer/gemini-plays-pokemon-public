@@ -1378,6 +1378,7 @@
 ## Field Items (Poké Flute)
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 ## Bicycle Stride & Parity Mechanics
+- **Dismounting for Precision Alignment:** While mounted on the Bicycle, locomotion advances in 2-tile strides along unobstructed ground, preserving coordinate parity (even or odd). Dismounting the Bicycle (Start -> ITEM -> BICYCLE -> USE) returns the player to 1-tile precision walking, which trivially allows navigating into odd-coordinate openings (such as the column 13 fence gap at (13, 11) on Route 14) without requiring obstacle collision to shift parity.
 - **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
 - **Rapid Input Stride Distance:** Buffered or held directional inputs on the Bicycle can advance 2 grid tiles per input along unobstructed roads [Verified Turns 11426-11428].
 - **Coordinate Alignment Parity:** When traversing at 2 tiles per stride, coordinate parity is preserved (e.g. moving from an odd column like 33 or 13 keeps alignment strictly to odd columns: 13, 11, 9).
@@ -1386,8 +1387,6 @@
 ## HM03 SURF Verification
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Empirical Proof (Turn 12037):** Facing the pond at (31, 22) in Fuchsia City, selecting SURF on Blastoise (SHELDON) displayed: "No! A new BADGE is required."
-- **Strategic Implication:** Surf is strictly unusable before defeating Gym Leader Koga. The path to Fuchsia Gym and Pokémon Center cannot require Surf.
-- **Dismounting for Precision Alignment:** While mounted on the Bicycle, locomotion advances in 2-tile strides along unobstructed ground, preserving coordinate parity (even or odd). Dismounting the Bicycle (Start -> ITEM -> BICYCLE -> USE) returns the player to 1-tile precision walking, which trivially allows navigating into odd-coordinate openings (such as the column 13 fence gap at (13, 11) on Route 14) without requiring obstacle collision to shift parity.
 
 
 <hr>
@@ -2453,6 +2452,15 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Defeated sprite at (12, 4) is a solid impassable obstacle when moving east from (11, 4) [Verified Turn 11608]. Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
 - Route 14 Connection: Row 4 connects west into Route 14 past col 0, but is blocked at (12, 4) by the Bird Keeper when traveling east. It is NOT an open corridor across cols 0..24 [Corrected Turn 12422].
 - Route 14 Row 8 Connection: Route 14 connects into Route 13 along Row 8 at (0, 8) from Route 14 (19, 8). Row 8 is an open dirt corridor bounded north by Row 7 fence and south by Row 9 fence, completely bypassing the Row 4 Bird Keeper block [Empirically Verified Turn 12436]. Opening at (4..5, 9) connects Row 8 south into Row 10.
+## Verified West-to-East Maze Traversal Route [Turns 12436-12448]
+- From Route 14 (19, 8), enter Route 13 at (0, 8) along the Row 8 corridor (bypassing Row 4 entirely).
+- Walk east along Row 8 past the Row 9 opening at (4..5, 9) to (11, 8).
+- Step North through open gap at (11, 7) into Row 6 corridor at (11, 6) (bypasses (12, 8) fence post).
+- Walk east along Row 6 to (13, 6).
+- Step North through open gap at (13, 5) into Row 4 at (13, 4) (bypasses (12, 4) Bird Keeper and col 16 vertical fence at rows 5..7).
+- Walk east along Row 4 across cols 13..24 to the Upper Fence Bypass at (24, 4).
+- At (24, 4), Row 5 fence ends, opening southward access into Row 6 at (24..25, 5..6).
+
 
 <hr>
 
