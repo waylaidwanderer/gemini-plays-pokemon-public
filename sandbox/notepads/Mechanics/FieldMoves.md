@@ -39,4 +39,3 @@
 
 ## HM03 SURF Verification
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
-- **Empirical Proof (Turn 12037):** Facing the pond at (31, 22) in Fuchsia City, selecting SURF on Blastoise (SHELDON) displayed: "No! A new BADGE is required."
