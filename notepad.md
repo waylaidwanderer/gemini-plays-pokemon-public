@@ -3133,5 +3133,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 11F Southern Passage: At (3, 10) facing south. Unobstructed corridor along cols 1..3 continues down to row 14, where open floor turns east across cols 4..7 [Turn 12872].
 - 11F Grunt Encounter: Stepped to (3, 12); Rocket Grunt from (3, 13) confronted player with 'Stop right there! Don't you move!' [Turn 12873].
 - 11F Grunt Defeated: At (3, 13). Team: Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32. Prize �960 [Turn 12886]. Sheldon reached Lv 57.
+- 11F Partition Verified: Desks/tables at row 13 (cols 4..8) are solid (tested (6, 13)). South corridor (cols 1..7, rows 14..16) terminates at col 8 wall. Returning north via col 2 to locate northern entrance to central office/east wing [Turn 12892].
 
 <hr>
