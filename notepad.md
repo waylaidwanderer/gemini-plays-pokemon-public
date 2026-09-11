@@ -128,6 +128,7 @@
 - [x] Receive TM29 (Psychic) from Mr. Psychic in Saffron City [Turn 12671]
 - [x] Obtain Card Key on Silph Co 5F [Turn 12763]
 - [x] Defeat Rival RED in Silph Co [Turn 12851]
+- [x] Receive gift Lapras from Silph Co employee [Turn 12858]
 
 
 <hr>
@@ -265,6 +266,11 @@
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 9001]
   - Transferred to PC Box 1 (Active Party full)
+- LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
+  - Status: Healthy
+  - Gift from Silph Co employee [Turn 12858]
+  - Transferred to PC Box 1 (Active Party full)
+
 
 <hr>
 
