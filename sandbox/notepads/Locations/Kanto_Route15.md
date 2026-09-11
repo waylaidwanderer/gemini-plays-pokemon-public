@@ -33,3 +33,10 @@
   - Gatehouse East Doorway at (7, 4..5) warps outside onto Route 15 proper at (13, 8..9).
   - Route 15 Proper Connection: From (13, 8..9), paved path leads east to col 15, then turns south through (15, 10) onto rows 10..11 main highway.
 - Jr. Trainer ♀ at (18, 11): Stationed in southern grass at (18, 13) facing North; engaged at (18, 10). Team: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Defeated Turn 11478. Prize: ¥580. Defeat line: "I was too impatient!".
+## Wild Pokémon (Tall Grass)
+- Bellsprout (Lv 22) [Encountered Turn 12328 at (55, 8)]
+
+## Northern Grass Terrain Bounds
+- Rows 8..9 cols 52..58 contain a tall grass / flower patch bounded north by row 7 south-facing jump ledge and south by rows 10..11 Central Paved Highway.
+- Stepping into rows 8..9 can trigger wild encounters.
+- Central Paved Highway (rows 10..11) and southern path (row 12) are completely paved/clear and 100% encounter-free.
