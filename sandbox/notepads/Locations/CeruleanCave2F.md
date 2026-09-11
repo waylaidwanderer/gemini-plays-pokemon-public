@@ -57,9 +57,11 @@
     - Spans cols 11..29, rows 1..19. Contains S-Bypass, Row 1 East corridor (11..18, 1), and Ladder B landing (22, 6). Contains items (Max Potion, TM14, PP Up).
   - **NE Sector (Reachable via Ladder D at (29, 1))**:
     - Isolated landing.
-## Verified Corridors & Highways (Turn 45151)
-- **Central-to-West Row 14 Highway**: (14, 14) connects west across (13, 14) to (12, 14).
-- **Column 12 Corridor**: Runs north from (12, 14) up through rows 13, 12, 11, 10 to (12, 9).
-- **Row 13 Corridor**: Connects (14, 13) east across (15..22, 13) to Column 22.
-- **Column 14 Connector**: Runs north-south between Row 11 (14, 11), Row 13 (14, 13), and Row 14 (14, 14).
-- **Row 9 West Passage**: Connects (12, 9) west to (11..10, 9) into the West Sector towards Ladder A (1, 3).
+## Verified Corridors & Highways (Turn 45181)
+- **Verified 2F Master Highway to West Sector & Ladder A**:
+  - Row 11 East connects (14..23, 11).
+  - Column 19 connects Row 11 (19, 11) north through (19, 10) to Row 9 at (19, 9).
+  - Row 9 West connects (19..15, 9).
+  - Row 8 Bypass: (15, 9) -> North to (15, 8) -> West across (14..13, 8) -> South to (13, 9).
+  - Row 9 West Highway: (13, 9) connects west across (12..1, 9) into the West Sector.
+  - Column 1 North: (1, 9) connects north across rows 9-3 directly to Ladder A at (1, 3) (descends to B1F Mewtwo).
