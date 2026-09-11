@@ -3027,7 +3027,6 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Fighting Dojo & Saffron Gym: Located north of row 6 across cols 24..37.
 - Signpost at (27, 5).
 - Building facades along row 5 with signpost at (27, 5); entrance door at (26, 3) and approach apron at (30..31, 4..5) [Verified Turn 12691].
-- Approach apron at (30..31, rows 4..5).
 - Western Row 13 Corridor: Open east-west street running east from Western Avenue at (3, 13) across cols 4..8+ toward central plaza [Verified Turn 12698].
 ## Silph Co. Head Office
 - Location: Spans cols 16..23, rows 10..21 in the central district [Verified Turn 12707].
@@ -3060,6 +3059,9 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 ## Floor Warp Graph (Source -> Destination)
 | From Floor | From Coord | To Floor | To Coord | Verified Turn |
 |---|---|---|---|---|
+| 5F | (27, 3) | Unknown | Unknown | Sighted Turn 12725 |
+| 5F | (11, 5) | Unknown | Unknown | Sighted Turn 12744 |
+| 5F | (9, 15) | Unknown | Unknown | Sighted Turn 12747 |
 
 ## Floor-by-Floor Progression Log
 - 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Large central fountain and terminal complex at cols 9..15, rows 5..10. Western corridor (cols 6..8) is an open northbound thoroughfare leading toward north wall elevator/stairs [Verified Turn 12711].
