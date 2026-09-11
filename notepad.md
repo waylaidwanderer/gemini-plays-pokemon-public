@@ -3074,5 +3074,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 9F: Healing bed / rest room.
 - 10F:
 - 11F: Executive suite / Giovanni boss battle.
+- 1F North Corridor: North wall at row 0. Open hallway spanning east across rows 1..2 (cols 7..13+). Vertical partition at col 6, rows 0..2, reception counter at (4..5, 3). [Verified Turn 12714]
 
 <hr>
