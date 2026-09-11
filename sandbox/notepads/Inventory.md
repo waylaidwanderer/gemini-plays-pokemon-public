@@ -11,7 +11,6 @@
 - FULL HEAL x5 [Slot 20] [Purchased Turn 11905 at Fuchsia Mart]
 
 ## Key Items & HMs
-- GOOD ROD [Obtained Turn 11176 in Fuchsia City]
 - OLD ROD [Slot 2] [Verified Turn 11080]
 - HM01 (CUT) [Slot 3] [Verified Turn 11080]
 - HM05 (FLASH) [Slot 4] [Verified Turn 11080]
@@ -21,8 +20,8 @@
 - SILPH SCOPE [Slot 10] [Verified Turn 11081]
 - POK� FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Slot 13] [Obtained Turn 7001, Verified Turn 11081]
-- HM04 (STRENGTH) [Slot 18] [Received Turn 8274, Verified Turn 11082]
-- HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
+- HM04 (STRENGTH) [Slot 16] [Received Turn 8274, Verified Turn 11082]
+- HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
 - Total Slots Used: 20 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899, Full Heal x5 bought Turn 11905; Bag full).

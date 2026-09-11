@@ -20,3 +20,13 @@
 
 
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
+## Fuchsia Gym Combat Tactics (Leader Koga & Trainers)
+- **Opponents:** Poison and Psychic Pokémon (Koffing, Muk, Weezing, Venomoth, Drowzee, Hypno).
+- **Physical vs. Special Split:**
+  - Koffing & Weezing possess massive physical Defense (Attack 60-90, Defense 95-120). Use Special Water/Ice attacks (Surf / Ice Beam) to bypass their Defense.
+  - Muk has high HP and Special, but lower physical Defense. Double-Edge is optimal for securing fast physical knockouts on Muk.
+- **Status & Hazard Mitigation:**
+  - Koga's signature strategy revolves around Toxic (exponentially compounding Poison damage), Poison Gas, and Minimize/Smokescreen evasion stalls.
+  - Retain Full Heals (5 in bag) to immediately purge Toxic/Poison or Sleep before compounding damage threatens Blastoise.
+- **PP Conservation:**
+  - Blastoise must enter Koga's Gym with fully restored PP (15 Surf, 15 Body Slam, 10 Ice Beam, 15 Double-Edge). Firing moves into Minimize/Smokescreen risks running out of PP and forcing Struggle.
