@@ -25,7 +25,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892; 2 slots free).
+- Total Slots Used: 19 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899; 1 slot free).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x3
   2. OLD ROD
@@ -45,7 +45,7 @@
   16. HM04
   17. GOOD ROD
   18. HM03
-  19. [EMPTY]
+  19. REVIVE x5
   20. [EMPTY]
 
 ## Stored / PC Items
@@ -58,7 +58,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥81028 [Verified Turn 11893]
+- ¥73528 [Verified Turn 11899]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 53, Water]

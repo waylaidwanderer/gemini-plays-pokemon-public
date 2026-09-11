@@ -17,4 +17,4 @@
 ## Transactions History
 - Turn 11889: Sold CARBOS x1 for ¥4900 (Balance: ¥79028).
 - Turn 11892: Sold TM40 (SKULL BASH) x1 for ¥2000 (Balance: ¥81028).
-- Bag capacity after sales: 18 / 20 items (2 slots free).
+- Bag capacity after sales: 18 / 20 items (2 slots free).- Turn 11899: Purchased REVIVE x5 for ¥7500 (Balance: ¥73528).
