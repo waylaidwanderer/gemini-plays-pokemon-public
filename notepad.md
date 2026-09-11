@@ -2958,7 +2958,7 @@
 - **Ladder C (Central Sector)**: (19, 7) <-> 2F (19, 7). Accessed from north via Row 5/6.
 - **Ladder D (NE High Plateau)**: (27, 1) <-> 2F (29, 1).
 - **Ladder E (NW Upper Shelf)**: (7, 1) <-> 2F (9, 1).
-- **Ladder A (NW Lower Basin)**: (0, 6) / (1, 3) in the isolated NW lower basin descending to B1F (Mewtwo's chamber).
+- **Ladder A (NW Lower Basin)**: Ladder graphic observed at (0, 6) in the NW lower basin; connectivity to B1F pending empirical traversal.
 
 ## Verified Topography & Transit (1F)
 - **Central Platform**: Spans cols 11-18, rows 8-15.
@@ -2975,7 +2975,7 @@
   - Northern boundary at (1, 8) -> (1, 7) is a solid cliff wall (no north passage).
 - **Waterways & Northern Highway**:
   - East Water Channel: Cols 24..27, rows 10..17 from entrance mat (24..25, 17).
-  - Northern Water Highway: Rows 3..5 across cols 0..25 connecting East Water Channel directly across to the NW Lower Basin (cols 0..5, rows 4..7) and Ladder A at (0, 6) to B1F!
+  - Northern Water Highway: Rows 3..5 across northern sector. Potential westward water transit to NW Lower Basin pending empirical testing.
 
 
 <hr>
