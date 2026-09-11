@@ -17,7 +17,8 @@
   - (17..20, 6) blocks direct West passage across Row 6 from (21, 6) into (18, 6).
 - Waterways:
   - Eastern Waterway: (24..29, 10..11) and (28..29, 6..9) navigable open water canal.
-  - Northern Waterway: (6..29, 4..5) continuous east-west canal connecting Eastern Waterway directly to Ladder C landing (18, 5..9) and Ladder E (7, 1)!
+  - Northern Waterway: (6..29, 4..5) continuous east-west canal.
+  - Ladder C Waterway Access: Water canal branches south at cols 14..15 (rows 5..7); disembark East at (16, 7) onto dry floor (16..18, 7..9) directly leading to Ladder C at (18, 9)!
 
 ## Wild Encounters (1F)
 - Sandslash, Hypno, Magneton, Golbat, Ditto, Kadabra, Venomoth, Electrode, Rhydon, Parasect.
