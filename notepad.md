@@ -3132,5 +3132,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - (3, 2) Arrival Tile: Confirmed as a red reciprocal warp pad [Verified Turn 12869]. Western corridor extends south along cols 1..3 past row 10, shielded by col 4 wall from NPCs at (7, 5) and (6, 9).
 
 - 11F Southern Passage: At (3, 10) facing south. Unobstructed corridor along cols 1..3 continues down to row 14, where open floor turns east across cols 4..7 [Turn 12872].
+- 11F Grunt Encounter: Stepped to (3, 12); Rocket Grunt from (3, 13) confronted player with 'Stop right there! Don't you move!' [Turn 12873].
 
 <hr>
