@@ -29,8 +29,9 @@
   - Floor verified spanning (5..15, 0..2). Southern boundary at Row 3 is a cliff wall overlooking the NW Lower Basin.
   - Collision test on Turn 43519 confirmed Tile (4, 0) is a solid rock wall (blocked moving Left from (5, 0)).
   - Rows 1 and 2 at Column 4 are visually solid rock, while the shelf connects east to the water ramp at (15, 3). No confirmed ground path exists from this shelf to the NW basin.
-- **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
-  - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
+- **East Landing to South Floor Connectivity (Verified Turns 42934, 43647)**:
+  - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) down to an isolated lower pocket (cols 21..25, rows 12..15), bounded to the west by continuous Column 20 rock wall.
+  - To traverse 1F to Central Platform, NE Plateau, or NW Shelf: Board water at East Landing Ramp (25, 9) -> Surf into East Water Channel at (25, 10).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
 
 - **Central Platform Internal Topography (Turn 43466)**:
