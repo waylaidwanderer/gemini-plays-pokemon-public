@@ -8,8 +8,8 @@
 
 - Active Team: Blastoise (SHELDON) Lv 56, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥89740 [Turn 12852]
-- Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
+- Money: ¥90700 [Turn 12931]
+- Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
 
