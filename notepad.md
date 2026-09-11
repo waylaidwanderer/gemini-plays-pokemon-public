@@ -2988,5 +2988,10 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
   - "POKé" sign at (10, 29).
   - Approach curb/mat at (9, 30) accessible from Southern Boulevard at row 31.
   - Interior: Entrance mat at (3..4, 7). Counter at row 2, talk to Nurse Joy from (3, 3) facing North. PC in northeast corner.
+- Southern District Commercial Strip:
+  - Building 4: Yellow commercial building at cols 12..15, rows 27..29.
+  - Building 5: Yellow commercial building at cols 16..19, rows 27..29. Rocket Grunt stationed at (17, 30).
+  - Building 6: Yellow commercial building at cols 20..23, rows 27..29; roof ends at col 23.
+  - Southeast Open Plaza: South of row 32 across cols 20..23, featuring open pavement, lawn, and fence posts.
 
 <hr>
