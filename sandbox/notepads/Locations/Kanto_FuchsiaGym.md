@@ -26,5 +26,5 @@
 - Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 8 [Turn 12105].
 - Trainer 3 (Juggler Kirk) at (7..8, 8): DEFEATED Turn 12117! Team: Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31. Prize: ¥1085. Intro: "I wanted to become a ninja, so I...". Defeat: "I'm done for!".- Trainer Sightline Mechanics: Invisible walls act as solid collision blocks that completely obstruct trainer vision lines (empirically confirmed Turn 12088: standing at (4, 13) in column 4 looking directly at trainer at (4, 10) did not trigger combat due to invisible wall at (4, 12)).
 
-- Trainer 4 (Tamer) at (8, 2..3): Engaged Turn 12124 on column 8. Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Intro: "I also study the way of the ninja...".
+- Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Intro: "I also study the way of the ninja...".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
