@@ -63,3 +63,8 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
   - Front entrance door at (25, 11).
   - "MART" sign at (26, 11).
   - Approach curb at (25, 12) accessible from Row 13 at (25, 13).
+## Northern East-West Highway (Rows 7..8)
+- Northern Highway: Wide 2-tile east-west roadway spanning rows 7..8 from Eastern Avenue (col 36) west across cols 32..35+ toward Silph Co plaza [Verified Turn 12687].
+- North boundary: Curb at row 6.
+- South boundary: Building roof at cols 32..35, row 9.
+- Intersection: Connects Eastern Avenue to Northern Highway at (36, 7..8).
