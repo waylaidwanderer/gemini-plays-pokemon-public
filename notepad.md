@@ -2981,8 +2981,9 @@
   - Floor verified spanning (5..15, 0..2). Southern boundary at Row 3 is a cliff wall overlooking the NW Lower Basin.
   - Collision test on Turn 43519 confirmed Tile (4, 0) is a solid rock wall (blocked moving Left from (5, 0)).
   - Rows 1 and 2 at Column 4 are visually solid rock, while the shelf connects east to the water ramp at (15, 3). No confirmed ground path exists from this shelf to the NW basin.
-- **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
-  - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
+- **East Landing to South Floor Connectivity (Verified Turns 42934, 43647)**:
+  - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) down to an isolated lower pocket (cols 21..25, rows 12..15), bounded to the west by continuous Column 20 rock wall.
+  - To traverse 1F to Central Platform, NE Plateau, or NW Shelf: Board water at East Landing Ramp (25, 9) -> Surf into East Water Channel at (25, 10).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
 
 - **Central Platform Internal Topography (Turn 43466)**:
@@ -3016,7 +3017,7 @@
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
-- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..28, 17); confirmed blocked west by Column 20 solid rock wall (probed Turn 43630). Row 17 west of col 20 (cols 13..19) is accessed from the north via Column 13/14 corridor.
+- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..28, 17); confirmed blocked west by Column 20 solid rock wall (probed Turn 43630).
 - Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
 
 ## Verified Items (2F)
