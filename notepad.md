@@ -2940,7 +2940,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Cleanse Toxic immediately with Full Heal (5 in bag).
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Prize: ¥1330. Defeat line: "What? Extraordinary!".
-- Central Figure at (4, 10): Facing South down column 4 in central chamber (unverified identity; potential Gym Leader Koga).
+- Gym Leader Koga at (4, 10): Challenged Turn 12160! Pre-battle dialogue: "A mere child like you dares to challenge me? Very well, I shall show you true terror as a ninja master! You shall feel the despair of poison and sleep techniques!".
 - Trainer (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Prize: ¥1190. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) [Turn 12089] and (0, 11) [Turn 12102] are blocked by invisible walls.
