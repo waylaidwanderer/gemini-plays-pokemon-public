@@ -2924,6 +2924,7 @@
 
 ## Wild Encounters (1F)
 - Sandslash, Hypno, Magneton, Golbat, Ditto, Kadabra, Venomoth, Electrode, Rhydon, Parasect.
+- West Sector Collision Boundary (Verified Turn 44458): The boundary between Row 7 (elevated ridge cols 0..7) and Row 8 (lower floor cols 1..5) is an elevated cliff wall. Moving Up from (1..5, 8) into Row 7 is blocked. Tile (3, 11) is a lower floor dead-end floor tile with no warp event. South Ramp at (1, 13) connects the lower floor to the southern thoroughfare at (1, 16).
 
 <hr>
 
