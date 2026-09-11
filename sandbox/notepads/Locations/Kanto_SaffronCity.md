@@ -33,3 +33,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Southern East-West Boulevard: Continuous 2-tile wide roadway across rows 31..32 (cols 3..8+) linking the western avenue directly east toward the central plaza and southern facilities (Pokémon Center / Mart).
 - Building 3: Roof visible at cols 4..8+, row 33 south of the Southern Boulevard.
 - Western Avenue Intersection: Located at (3, 31), where col 3 meets the Southern Boulevard.
+- Pokémon Center: Located at cols 8..11, rows 27..29 [Verified Turn 12650].
+  - Front entrance door at (9, 29).
+  - "POKé" sign at (10, 29).
+  - Approach curb/mat at (9, 30) accessible from Southern Boulevard at row 31.
