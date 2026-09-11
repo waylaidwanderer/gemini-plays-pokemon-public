@@ -27,4 +27,3 @@
 ## Landmarks & Connections
 - East: Lavender Town.
 - North: Underground Path entrance building at (13, 3) leading to Route 7.
-- West: Saffron City East Gatehouse (guard asks for drinks; road blocked).
