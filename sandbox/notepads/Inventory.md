@@ -15,7 +15,7 @@
 - COIN CASE [Verified Turn 11080]
 - LIFT KEY [Verified Turn 11080]
 - SILPH SCOPE [Verified Turn 11081]
-- POK� FLUTE [Obtained Turn 6599, Verified Turn 11081]
+- POKÉ FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 - HM04 (STRENGTH) [Received Turn 8274, Verified Turn 11082]
 - GOOD ROD [Obtained Turn 11176, Verified Turn 11905]
