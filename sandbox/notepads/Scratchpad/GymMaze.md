@@ -10,7 +10,6 @@
   - Row 4: (0, 4), (1, 4), (4, 4) are dashed invisible walls; (2, 4) is an open single-tile bottleneck funneling south.
   - NPC at (3, 4..5) faces south.
 - West Side Corridor Analysis (Rows 5..9):
-  - (0, 6) & (2, 6) are dashed invisible walls; (1, 6) is open.
-  - (2, 6) invisible wall blocked north-facing trainer at (2, 7) from seeing player at (2, 5).
-  - Row 8 wall spans (2..6, 8).
-  - Row 9 is an open horizontal corridor spanning (0..5, 9) connecting into the central chamber.
+  - Visual Texture Hypothesis: (0, 6) & (2, 6) show dashed patterns; (1, 6..8) show solid lines; row 8 shows dashes across cols 2..6; row 9 shows solid lines across cols 0..5 (subject to physical traversal confirmation).
+  - Trainer at (2, 7): Faced West down row 7, engaging player upon stepping to (1, 7) [Turn 12144].
+  - Traversal Confirmed: (1, 5), (1, 6), (1, 7) are open on foot.
