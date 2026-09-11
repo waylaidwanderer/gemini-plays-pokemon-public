@@ -43,9 +43,9 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
   - Building 5: Yellow commercial building at cols 16..19, rows 27..29. Rocket Grunt stationed at (17, 30).
   - Building 6: Yellow commercial building at cols 20..23, rows 27..29; roof ends at col 23.
   - Southeast Open Plaza: South of row 32 across cols 20..23, featuring open pavement, lawn, and fence posts.
-- Southeast District & Signpost:
+- Southeast District & Mr. Psychic's House:
+  - Signpost at (27, 29): "MR. PSYCHIC'S HOUSE" [Verified Turn 12668].
+  - Mr. Psychic's House: Located at cols 28..31, rows 26..29. Entrance door at (29, 29) [Verified Turn 12668].
   - Fence posts along row 29 at (24..26, 29).
-  - Signpost located at (27, 29) [Discovered Turn 12666].
   - Paved courtyard north of row 29 at (24..27, rows 27..28).
-  - Building 7: Commercial building at cols 28+, rows 27..29+.
   - Southern Boulevard continues east past col 28.
