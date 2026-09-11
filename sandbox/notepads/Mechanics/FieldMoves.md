@@ -31,6 +31,7 @@
 ## Field Items (Poké Flute)
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 ## Bicycle Stride & Parity Mechanics
+- **Dismounting for Precision Alignment:** While mounted on the Bicycle, locomotion advances in 2-tile strides along unobstructed ground, preserving coordinate parity (even or odd). Dismounting the Bicycle (Start -> ITEM -> BICYCLE -> USE) returns the player to 1-tile precision walking, which trivially allows navigating into odd-coordinate openings (such as the column 13 fence gap at (13, 11) on Route 14) without requiring obstacle collision to shift parity.
 - **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
 - **Rapid Input Stride Distance:** Buffered or held directional inputs on the Bicycle can advance 2 grid tiles per input along unobstructed roads [Verified Turns 11426-11428].
 - **Coordinate Alignment Parity:** When traversing at 2 tiles per stride, coordinate parity is preserved (e.g. moving from an odd column like 33 or 13 keeps alignment strictly to odd columns: 13, 11, 9).
@@ -39,5 +40,3 @@
 ## HM03 SURF Verification
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Empirical Proof (Turn 12037):** Facing the pond at (31, 22) in Fuchsia City, selecting SURF on Blastoise (SHELDON) displayed: "No! A new BADGE is required."
-- **Strategic Implication:** Surf is strictly unusable before defeating Gym Leader Koga. The path to Fuchsia Gym and Pokémon Center cannot require Surf.
-- **Dismounting for Precision Alignment:** While mounted on the Bicycle, locomotion advances in 2-tile strides along unobstructed ground, preserving coordinate parity (even or odd). Dismounting the Bicycle (Start -> ITEM -> BICYCLE -> USE) returns the player to 1-tile precision walking, which trivially allows navigating into odd-coordinate openings (such as the column 13 fence gap at (13, 11) on Route 14) without requiring obstacle collision to shift parity.
