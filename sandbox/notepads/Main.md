@@ -121,3 +121,4 @@
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
 - [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
+- [x] Give Fresh Water to Saffron Gatehouse guard and unlock Saffron City [Turn 12619]
