@@ -46,6 +46,8 @@
 - Bounded south by tree line at row 15 cols 1..11, Lapras enclosure at cols 9..12 rows 16..17, and open lawn at cols 13..18 rows 15..18.
 - Bounded north by Poké Mart at cols 4..7 rows 11..13 and tree line / Safari Zone perimeter at row 11.
 
+- Cuttable Tree at (16, 11): Small bushy tree in row 11 tree line. Chopping it down opens direct northern access from row 12 into rows 6..10 and the Safari Zone Gatehouse approach [Verified Turn 11974].
+
 ### 3. Central Thoroughfare (Row 20..21 Avenue)
 - Continuous open paved boulevard along rows 20..21 spanning cols 2 through 25.
 - Northern Boundary: Zoo statues along row 19, cut tree at (18, 19).
