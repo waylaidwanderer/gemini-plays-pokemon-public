@@ -72,12 +72,11 @@
 
 ### 5. Southwest Gym & Pok�mon Center Courtyard
 - Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) (observed visually from exterior).
-- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27) (observed visually from exterior).
+- Pokémon Center: Cols 18..21 rows 24..27, entrance door at (19, 27) [Verified Turn 12057], POKé sign at (20, 27).
 - Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pok�mon Center.
 - Courtyard Boundaries & Access:
   - Courtyard Entrance Ramp at (8, 31) [DISCOVERED Turn 12056]: Entered from Central Avenue by walking down Column 1 to (1, 32), east along row 32 to Column 8, and stepping north through the flat entrance ramp at (8, 31) into the courtyard at (8, 30)!
   - Southern Landing Corridor (Row 32): Open lawn corridor along row 32 connecting Column 1 east to Column 8 entrance ramp.
-  - Southern Landing Corridor (Row 32): Open green lawn corridor along row 32 entered from Column 1 at (1, 32) [Verified Turn 11361]. Runs east below row 31 jump ledge from col 1 to col 9. Dead-ends at col 10 in shoreline water collision (tile (10, 32) impassable, verified Turns 11366, 11399). Does NOT connect north into the courtyard.
   - Verified Perimeter Boundary Collisions (Courtyard Exterior):
     - North (Row 21): Tested Down across all cols 2..23; row 22 is a solid continuous rock wall with zero southern passage [Verified Turn 11389].
     - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
@@ -98,3 +97,11 @@
 - Right side:
   - Boulder at (8, 4) shifted east to (9, 4) using Strength [Completed Turn 12025].
   - Item ball at (8, 3) retrieved: RARE CANDY [Obtained Turn 12025]. Path fully cleared.
+### Pokémon Center Interior (Cols 18..21, Rows 24..27)
+- Entered via door at (19, 27) from southwest courtyard.
+- Interior bounds: Cols 0..7, rows 0..7.
+- Entrance mat: (3..4, 7), exits south to Fuchsia City courtyard at (19, 28).
+- Counter: Along row 2.
+- Nurse Joy: Located at (3, 2); spoken to from (3, 3) to heal party and restore all PP [Verified Turn 12058].
+- Active Warp Anchor: Fuchsia City Pokémon Center is now the active respawn/teleport anchor [Turn 12058].
+- PC Terminal: Located along the right wall.
