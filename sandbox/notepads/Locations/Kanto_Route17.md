@@ -20,3 +20,7 @@
 
 ## Trainers & Sightlines
 - Bikers and Cue Balls (Poison & Fighting types: Koffing, Grimer, Muk, Weezing, Machop).
+## Traversal & Routing Analysis (Verified Turn 12258)
+- Entering Route 17 from Route 18 at (10, -1) places the player at (10, 143), the southernmost tile of Route 17.
+- Downward Slope Mechanics: Route 17's engine applies an automatic southward forced-movement tick on overworld frames. At y=143, any release of Up immediately causes forced movement south into y=144, exiting Route 17 over the ledge back to Route 18 (10, 0).
+- Strategic Routing: Climbing Route 17 from the south is mechanically inefficient and completely optional. The eastern route through Route 15 -> Route 14 -> Route 13 -> Route 12 is fully cleared of all trainers, obstacles, and Snorlax. Furthermore, Route 16 and the secret house for HM02 (Fly) are directly accessible from the west exit of Celadon City without needing to traverse Route 17 from the south.
