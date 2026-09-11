@@ -3066,6 +3066,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 | 5F | (11, 5) | Unknown | Unknown | Sighted Turn 12744 |
 | 5F | (9, 15) | Unknown Floor | (17, 15) | Sighted Turn 12756 |
 | 3F | (23, 11) | Unknown | Unknown | Sighted Turn 12819 |
+| 3F | (11, 11) | Unknown | Unknown | Sighted Turn 12822 |
 
 ## Floor-by-Floor Progression Log
 - 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Large central fountain and terminal complex at cols 9..15, rows 5..10. Western corridor (cols 6..8) is an open northbound thoroughfare leading toward north wall elevator/stairs [Verified Turn 12711].
@@ -3101,6 +3102,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
 - 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize �840 [Turn 12818].- 3F Southeast Warp Tile: Sighted at (23, 11) [Turn 12819].
 
-- 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.
+- 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.- 3F Central Room Warp Tile: Sighted at (11, 11) behind Card Key shutter door [Turn 12822].
+
 
 <hr>
