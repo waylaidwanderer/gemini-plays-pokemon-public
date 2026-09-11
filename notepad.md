@@ -2397,6 +2397,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Platform at Rows 94..95: Wide dock across cols 10..15. Railing blocks south at (10..13, 96). Open bypass corridor at cols 14..15 connects rows 96..98+ [Verified Turn 7016].
 - Bridge Corridor Rows 100..101+: Railing blocks south at (10..11, 100) and (14..15, 100). Open 2-tile bridge corridor at cols 12..13 continues south across rows 100..101+ over water [Verified Turn 7017].
 - Bridge Continuation Rows 104..109+: Cols 12..13 dead-ends at row 106 railing. Main 2-tile bridge corridor shifts west to cols 10..11 continuing south across rows 104..109+ over water toward Route 13. Exited to Route 13 at (11, 108) [Verified Turn 7020].
+## Verified Traversal & Bridge Junctions
+- **Southern Bridge Junction (Rows 103..106):** The southern bridge corridor (cols 10..11, rows 104..108) connects to the northern bridge corridor (cols 12..13, rows 103 and north) across a walkable lawn island at cols 12..13, rows 104..105. Tile (11, 104) connects directly east onto (12, 104) and (13, 104), and stepping north from (12..13, 104) enters the 2-tile wide northern bridge corridor at (12..13, 103) with zero obstacles [Empirically Verified Turn 12488].
 
 <hr>
 
