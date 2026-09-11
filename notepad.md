@@ -2943,7 +2943,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) [Turn 12089] and (0, 11) [Turn 12102] are blocked by invisible walls.
 - Verified Passages: (0, 13) and (0, 12) confirmed open on foot [Turn 12101]. (0, 12) dead-ends north at (0, 11).
-- Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 10 [Turn 12105].
-- Trainer at (7, 8): Stationed in mid-right sector.
+- Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 8 [Turn 12105].
+- Trainer 3 (Tamer) at (7..8, 8): Engaged Turn 12106 on row 8. Intro: "I wanted to become a ninja, so I...".
 
 <hr>
