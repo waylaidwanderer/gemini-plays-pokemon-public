@@ -38,3 +38,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F: Arrived via elevator at (20, 1). Elevator doors at (20, 0), stairs up at (24, 0). Open lobby across rows 1..3 (cols 16..25+). Wall partition along row 4 with doorway at (22..23, 4). [Verified Turn 12724]
 - 5F East Wing: Teleporter pad at (27, 3). South of row 4 doorway is an office with desks at cols 20..25, rows 6..8; open perimeter aisles at row 5 and cols 18..19, 26. East wall at col 27.
 - 5F Central Hallway: Cols 16..19 form open north-south corridor (rows 5..9+). Vertical wall divider at col 15 (rows 4..9) with base at (15, 9). Northern highway (rows 1..3) continues west past col 14.
+- 5F Juggler Defeated: At (18, 7) facing north. Team: Kadabra Lv 29, Mr. Mime Lv 29. Prize ¥1015 [Turn 12734].
