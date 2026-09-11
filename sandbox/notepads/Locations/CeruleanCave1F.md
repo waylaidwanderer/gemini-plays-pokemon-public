@@ -25,4 +25,4 @@
   - Central Plateau spans cols 11-18 across rows 8-14.
   - Row 12 corridor (11..15, 12) -> (15, 13..14) -> (16..17, 14) connects directly to South Ledge at (17, 15).
   - South Ledge at (17, 15) drops down onto Lower Cavern Floor at (17, 16).
-  - Lower Cavern Floor spans rows 16-17 across cols 1-17, connecting directly to South Ramp at (1, 13) and Ladder at (3, 11).
+  - Lower Cavern Floor spans rows 16-17 across cols 1-17, connecting directly to South Ramp at (1, 13) up onto the SW Ridge (cols 1-7, rows 8-12) and Northern Thoroughfare (Row 7).
