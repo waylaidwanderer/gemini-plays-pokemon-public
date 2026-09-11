@@ -191,10 +191,10 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 54, Water]
-  - Status: Poisoned (PSN Shield)
-  - HP: 129 / 170 [Level 54 Turn 12134]
+  - Status: Healthy
+  - HP: 170 / 170 [Level 54 Turn 12134]
   - Stats: Attack 124, Defense 144, Speed 124, Special 127
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 3/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 15/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
