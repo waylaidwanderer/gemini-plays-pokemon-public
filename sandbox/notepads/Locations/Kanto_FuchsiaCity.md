@@ -45,8 +45,8 @@
 - Eastern Avenue: Cols 34..36 rows 26..31+ connecting South Street north to Route 15 boulevard.
 
 ### 5. Southwest Gym & Pok�mon Center Courtyard
-- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) [Verified Turn 7342, 11354].
-- Pok�mon Center: Cols 18..21 rows 24..27, POK� sign at (20, 27) [Verified Turn 11346].
+- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) (observed visually from exterior).
+- Pokémon Center: Cols 18..21 rows 24..27, POKé sign at (20, 27) (observed visually from exterior).
 - Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pok�mon Center.
 - Courtyard Boundaries & Access:
   - South Ledge: South-facing one-way jump ledge along row 31 acts as one-way exit from courtyard to row 32.
