@@ -2930,7 +2930,7 @@
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
-- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..28, 17); confirmed blocked west by Column 20 solid rock wall (probed Turn 43630).
+- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) connects Row 13 to Row 17 Artery.
 - Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
 
 ## Verified Items (2F)
