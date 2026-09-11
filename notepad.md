@@ -137,7 +137,6 @@
 - FULL HEAL x5 [Slot 20] [Purchased Turn 11905 at Fuchsia Mart]
 
 ## Key Items & HMs
-- GOOD ROD [Obtained Turn 11176 in Fuchsia City]
 - OLD ROD [Slot 2] [Verified Turn 11080]
 - HM01 (CUT) [Slot 3] [Verified Turn 11080]
 - HM05 (FLASH) [Slot 4] [Verified Turn 11080]
@@ -147,8 +146,8 @@
 - SILPH SCOPE [Slot 10] [Verified Turn 11081]
 - POK� FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Slot 13] [Obtained Turn 7001, Verified Turn 11081]
-- HM04 (STRENGTH) [Slot 18] [Received Turn 8274, Verified Turn 11082]
-- HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
+- HM04 (STRENGTH) [Slot 16] [Received Turn 8274, Verified Turn 11082]
+- HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
 - Total Slots Used: 20 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899, Full Heal x5 bought Turn 11905; Bag full).
@@ -309,6 +308,17 @@
 
 
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
+## Fuchsia Gym Combat Tactics (Leader Koga & Trainers)
+- **Opponents:** Poison and Psychic Pokémon (Koffing, Muk, Weezing, Venomoth, Drowzee, Hypno).
+- **Physical vs. Special Split:**
+  - Koffing & Weezing possess massive physical Defense (Attack 60-90, Defense 95-120). Use Special Water/Ice attacks (Surf / Ice Beam) to bypass their Defense.
+  - Muk has high HP and Special, but lower physical Defense. Double-Edge is optimal for securing fast physical knockouts on Muk.
+- **Status & Hazard Mitigation:**
+  - Koga's signature strategy revolves around Toxic (exponentially compounding Poison damage), Poison Gas, and Minimize/Smokescreen evasion stalls.
+  - Retain Full Heals (5 in bag) to immediately purge Toxic/Poison or Sleep before compounding damage threatens Blastoise.
+- **PP Conservation:**
+  - Blastoise must enter Koga's Gym with fully restored PP (15 Surf, 15 Body Slam, 10 Ice Beam, 15 Double-Edge). Firing moves into Minimize/Smokescreen risks running out of PP and forcing Struggle.
+
 
 <hr>
 
@@ -2561,7 +2571,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ### 3. Central Thoroughfare (Row 20..21 Avenue)
 - Continuous open paved boulevard along rows 20..21 spanning cols 2 through 25.
-- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19) [CHOPPED DOWN, Turn 11835].
+- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19).
 - Southern Boundary: Continuous solid rock plateau along rows 22..23 across cols 3..22.
 - Major Junction: Connects to Central Avenue at col 24.
 
