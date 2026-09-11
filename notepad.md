@@ -125,7 +125,8 @@
 - [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
 - [x] Give Fresh Water to Saffron Gatehouse guard and unlock Saffron City [Turn 12619]
 - [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]
-- [x] Receive TM29(Psychic) from Mr. Psychic in Saffron City [Turn 12671]
+- [x] Receive TM29(Psychic) from Mr. Psychic in Saffron City [Turn 12671]- [x] Obtain Card Key on Silph Co 5F [Turn 12763]
+
 
 <hr>
 
