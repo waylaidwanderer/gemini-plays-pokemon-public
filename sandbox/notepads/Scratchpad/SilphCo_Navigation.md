@@ -62,4 +62,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.- 3F Central Room Warp Tile: Sighted at (11, 11) behind Card Key shutter door [Turn 12822].
 - 3F (11, 11) Warp Result: Arrived at Unknown Floor (5, 3) [Turn 12823]. Room features: civilian at (1, 5), NPC at (3, 7) facing North, red warp tile at (5, 7), shutter door at (10, 6).
-- Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival sprite at (3, 7) facing North. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6) [Verified Turn 12824].
+- Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival RED confirmed at (3, 7); challenged player at (3, 3) with 'What kept you BLUE?' [Turn 12825]. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6).

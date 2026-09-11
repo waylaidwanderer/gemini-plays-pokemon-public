@@ -3067,6 +3067,8 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 | 5F | (9, 15) | Unknown Floor | (17, 15) | Sighted Turn 12756 |
 | 3F | (23, 11) | Unknown | Unknown | Sighted Turn 12819 |
 | 3F | (11, 11) | Unknown Floor | (5, 3) | Verified Turn 12823 |
+| Unknown Floor | (5, 3) | 3F | (11, 11) | Verified Turn 12824 (Reciprocal) |
+| Unknown Floor | (5, 7) | Unknown | Unknown | Sighted Turn 12823 |
 
 ## Floor-by-Floor Progression Log
 - 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Large central fountain and terminal complex at cols 9..15, rows 5..10. Western corridor (cols 6..8) is an open northbound thoroughfare leading toward north wall elevator/stairs [Verified Turn 12711].
@@ -3104,6 +3106,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.- 3F Central Room Warp Tile: Sighted at (11, 11) behind Card Key shutter door [Turn 12822].
 - 3F (11, 11) Warp Result: Arrived at Unknown Floor (5, 3) [Turn 12823]. Room features: civilian at (1, 5), NPC at (3, 7) facing North, red warp tile at (5, 7), shutter door at (10, 6).
+- Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival sprite at (3, 7) facing North. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6) [Verified Turn 12824].
 
 
 <hr>
