@@ -196,7 +196,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥87140 [Turn 12849]
+- ¥90700 [Turn 12931]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 57, Water]
@@ -3133,8 +3133,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 11F Southern Passage: At (3, 10) facing south. Unobstructed corridor along cols 1..3 continues down to row 14, where open floor turns east across cols 4..7 [Turn 12872].
 - 11F Grunt Encounter: Stepped to (3, 12); Rocket Grunt from (3, 13) confronted player with 'Stop right there! Don't you move!' [Turn 12873].
 - 11F Grunt Defeated: At (3, 13). Team: Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32. Prize �960 [Turn 12886]. Sheldon reached Lv 57.
-- 11F Partition Verified: Desks/tables at row 13 (cols 4..8) are solid (tested (6, 13)). South corridor (cols 1..7, rows 14..16) terminates at col 8 wall. Returning north via col 2 to locate northern entrance to central office/east wing [Turn 12892].
-- Silph Co Strategy to Giovanni: The warp from 7F (5, 7) to 11F (3, 2) leads to an isolated western corridor with no access to the main floor. The main floor of 11F (where the Card Key door to Giovanni at (7, 9) is located) is accessed directly via the 3F Elevator! Plan: Warp from 7F (5, 3) to 3F (11, 11) -> walk to Elevator at (20, 1) -> select 11F -> exit onto main floor -> walk west to Card Key door at (7, 9) -> defeat Giovanni -> rescue President.
+- 11F Southern Passage: Desks at row 13 (col 6) block northward movement directly into that room. South corridor along rows 14..16 continues east past col 7 toward the central executive suite [Turn 12931].
 - 3F Northwest Room: Item ball sighted at (8, 5) behind west shutter door; Scientist stationed at (7, 9) facing East [Turn 12903].
 - 11F Main Floor: Arrived via elevator at (13, 0) [Turn 12910]. Elevator lobby spans cols 9..15, rows 0..2. South corridor along cols 14..15 leads toward the executive office.
 - 11F South Corridor Verified: Cols 14..15 is a dead end terminating at row 17 south wall. Returning north to elevator lobby to proceed west along row 2 [Turn 12917].
