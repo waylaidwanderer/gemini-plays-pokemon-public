@@ -6,7 +6,7 @@
 - Tall grass / flowers at cols 52..55, rows 4..5.
 - Iron fence structure spans cols 47..50 (rows 4..11), with open passage to the south along rows 12..13.
 - Southern boundary fence/ledge along row 14 (cols 46..53) and cliff wall (row 16).
-- Central enclosed tall grass patch spans cols 23..40 (rows 6..14), with cuttable tree at (41, 10) blocking eastern entrance into the grass.
+- Central enclosed tall grass patch spans cols 23..40 (rows 6..14), with cuttable tree at (41, 10) cut down on Turn 12542 with Cut (DUX); passage open to northern corridor.
 - Northern corridor runs west along rows 5..7 to col 27.
 - Connecting corridor at col 27 (rows 7..15) links northern road to southern highway (row 15).
 - Southern highway runs west along row 15 (cols 14..27) past central fence.
