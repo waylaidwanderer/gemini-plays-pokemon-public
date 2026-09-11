@@ -2841,7 +2841,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - GREAT BALL: ¥600
 - SUPER POTION: ¥700
 - REVIVE: ¥1500
-- HYPER POTION: ¥1500
 - FULL HEAL: ¥600
 - SUPER REPEL: ¥500
 
