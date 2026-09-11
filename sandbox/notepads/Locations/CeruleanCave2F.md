@@ -53,7 +53,6 @@
   - Column 10 contains purple rock wall from (10, 0) down to (10, 5) blocking direct east-west passage across Rows 0-5.
   - Tile (10, 1) is solid purple rock. Row 1 North Bypass does NOT connect across Column 10.
   - The 2F West sector containing Ladder A at (1, 3) (which descends to B1F/Mewtwo) and Ladder E at (9, 1) is separated from the 2F Central/East sector (cols 11..29) across rows 0-5.
-  - Planned Route to Test: Ladder E at (9, 1) connects to 1F at (7, 1). To access Ladder A, descend to 1F, explore the 1F waterways to reach and ascend Ladder E at (7, 1), and then empirically test the path from (9, 1) to (1, 3).
 - **2F Sub-Graph Layout**:
   - **West Sector (Contains Ladder E (9, 1) and Ladder A (1, 3))**:
     - Spans cols 1..9, rows 0..5. Ladder A at (1, 3) descends to B1F.
