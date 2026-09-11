@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 55, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥85000 [Turn 12754]
+- Money: ¥86300 [Turn 12795]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -194,14 +194,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥85000 [Turn 12754]
+- ¥86300 [Turn 12795]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 55, Water]
   - Status: Healthy
   - HP: 173 / 173 [Healed Turn 12560]
   - Stats: Attack 127, Defense 148, Speed 127, Special 130
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 14/15), Surf (PP 13/15), Ice Beam (PP 10/10) [Verified Turn 12755]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 10/15), Ice Beam (PP 10/10) [Turn 12795]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -3095,6 +3095,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F (9, 15) Warp Arrival: Arrived at (17, 15) on Unknown Floor [Turn 12757]. Two-way reciprocal warp. Stepped off pad to (17, 14), then stepped back onto (17, 15) to return to 5F (9, 15).
 - 5F South Corridor Infiltration: Successfully bypassed defeated Grunt at (8, 16) by warping to 5F (9, 15). Now stepping Down into row 16 corridor and walking East toward Card Key at (21, 16).
 - 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
-- 5F Researcher at (8, 3): Friendly Silph Co scientist studying Poké Ball technology.
+- 5F Researcher at (8, 3): Friendly Silph Co scientist studying Poké Ball technology.- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize �1300 [Turn 12795].
+
 
 <hr>
