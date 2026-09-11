@@ -2992,6 +2992,14 @@
   - Column 15 runs south from Row 13 to (15, 13) only; tile (15, 14) is solid purple rock blocking southern passage along Column 15.
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
 - **Ladder C Landing Southern Barrier (Verified Turn 43693)**: Tile (18, 8) is solid purple rock (empirically blocked moving Down from (18, 7)). The Ladder C landing at (18..19, 5..7) is completely bounded to the south by Row 8 rock wall ((16..22, 8)); there is NO passage south into Row 9 from Ladder C landing.
+## Verified 2F Sub-Graph Partitioning
+- **Central/North Sub-Graph (Reachable ONLY via Ladder C at (19, 7) or Ladder E at (9, 1))**:
+  - Connects Ladder C (19, 7), Central Hub (19, 5), S-Bypass (21, 5 -> 22, 2 -> 18, 1), Row 1 North Bypass (18..3, 1), Row 3 West Corridor (3..9, 3), Column 3 (3, 1..3), Ladder E (9, 1), and Ladder A (1, 3) -> B1F!
+- **Southeast Sub-Graph (Reachable ONLY via Ladder B at (22, 6))**:
+  - Connects Ladder B landing (22, 6), Column 23 (23, 7..11), Row 11 (14..23, 11), Row 13 (17..22, 13), Row 17 (21..28, 17).
+  - COMPLETELY DISCONNECTED from Central/North network. Does NOT lead to B1F/Mewtwo!
+- **NE Sub-Graph (Reachable ONLY via Ladder D at (29, 1))**:
+  - Isolated dead-end hook.
 
 <hr>
 
