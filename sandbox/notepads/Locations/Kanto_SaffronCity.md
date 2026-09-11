@@ -55,3 +55,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Southeast Intersection: Located at (36..37, 31), where Southern Boulevard meets Eastern Avenue.
 - Street lamp at (36, 30); eastern lane (col 37) is unobstructed.
 - Building 8: Commercial building at cols 32..35, rows 27..29.
+## Central East-West Corridor (Row 13)
+- Row 13 Thoroughfare: Continuous open roadway running west from Eastern Avenue (col 36) across cols 30..35+ toward central plaza [Verified Turn 12682].
+- North boundary: Curb at row 12 fronting commercial building at cols 30..35, rows 9..11.
+- South boundary: Building roof at cols 30..35, rows 14..15.
