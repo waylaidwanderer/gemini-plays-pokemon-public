@@ -25,26 +25,24 @@
 ## Inventory Capacity
 - Total Slots Used: 18 / 20
 - Complete Top-to-Bottom Slot Order:
-  1. RARE CANDY x4
-  2. OLD ROD
-  3. HM01
-  4. HM05
-  5. BICYCLE
-  6. SUPER REPEL x4
-  7. COIN CASE
-  8. MOON STONE x1
-  9. LIFT KEY
-  10. SILPH SCOPE
-  11. POKÉ FLUTE
-  12. TM21 x1
-  13. SUPER ROD
-  14. FULL RESTORE x1
-  15. MAX POTION x1
-  16. HM04
-  17. GOOD ROD
-  18. HM03
-  19. REVIVE x5
-  20. FULL HEAL x5
+  1. OLD ROD
+  2. HM01
+  3. HM05
+  4. BICYCLE
+  5. SUPER REPEL x4
+  6. COIN CASE
+  7. LIFT KEY
+  8. SILPH SCOPE
+  9. POKÉ FLUTE
+  10. TM21 x1
+  11. SUPER ROD
+  12. FULL RESTORE x1
+  13. MAX POTION x1
+  14. HM04
+  15. GOOD ROD
+  16. HM03
+  17. REVIVE x5
+  18. FULL HEAL x5
 
 ## Stored / PC Items
 - MOON STONE x1 (PC) [Stored Turn 12205]

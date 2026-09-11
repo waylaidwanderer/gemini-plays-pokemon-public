@@ -29,3 +29,12 @@
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
 - Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Prize: ¥1190. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Defeat line: "Dropped my balls!".
 - Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Prize: ¥4257. Awarded Soulbadge (TM06 Toxic pending bag space: "Make space for this, child!").
+## Verified Unobstructed Route to Gym Leader Koga
+- **Entrance to Koga Path:**
+  1. From entrance mat at (4..5, 17), step East along row 17 across (6..8, 17) to column 9 at (9, 17).
+  2. Step North straight up the open Column 9 corridor from (9, 17) to (9, 1) (16 steps).
+  3. Step West along the open northern bypass corridor on row 1 from (9, 1) to (1, 1) (8 steps).
+  4. From (1, 1), step South down column 1 to (1, 3), step East to (2, 3), and step South through the open bottleneck funnel at (2, 4) into (2, 5).
+  5. Step West to (1, 5) and South down column 1 through (1, 6..8) to row 9 at (1, 9).
+  6. Step East along the open central corridor on row 9 from (1, 9) to (4, 9) directly above Koga at (4, 10).
+  7. Face South and speak to Koga to claim TM06.
