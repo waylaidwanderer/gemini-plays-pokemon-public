@@ -41,6 +41,16 @@
 - Occupants: Bill's Grandpa at (0, 2), grandson at (4, 1).
 - Confirmed: No back exit, no basement stairs, no hidden passages [Verified Turns 11948-11953].
 
+
+### Safari Zone Gatehouse Interior (Cols 16..21, Rows 2..5)
+- Entered via door at (18, 3) from Fuchsia City northern grounds.
+- Interior bounds: Cols 0..7, Rows 0..5.
+- Layout: Red entrance mat at (3..4, 5); turnstiles leading to Safari Zone at (3..4, 1); counters along west (col 2) and east (col 5).
+- Occupants:
+  - Visitor NPC at (1, 4): Explains Safari Zone mechanics (4 zones, Safari Balls, box space).
+  - Attendant at (6, 2): Runs Safari Game (¥500 entry fee).
+- Confirmed: No PC terminal, no back exits, no side doors [Verified Turns 11977-11983].
+
 ### Northern Connecting Lawn Corridor (Row 14)
 - Open continuous lawn corridor running east-west along rows 13..14 spanning col 5 (Poké Mart) through col 18 (cut tree passage) [Verified Turns 11880-11914].
 - Bounded south by tree line at row 15 cols 1..11, Lapras enclosure at cols 9..12 rows 16..17, and open lawn at cols 13..18 rows 15..18.
