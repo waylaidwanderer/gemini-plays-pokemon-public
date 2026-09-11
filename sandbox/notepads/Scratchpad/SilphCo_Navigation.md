@@ -54,4 +54,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
-- 3F Rocket Grunt Encounter: Stationed at (20, 7) facing West down row 7 corridor; challenged player at (18, 7) [Turn 12805]. Team includes Raticate Lv 28, Hypno Lv 28, and a 3rd Pokémon.
+- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize ¥840 [Turn 12818].
