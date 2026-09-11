@@ -57,9 +57,14 @@
 ## Verified Urban Boundaries & Collisions
 - West Canal: Stone barrier along rows 15-17 (cols 0-7); water pool across rows 10-16.
 - West Backyard Fence: Solid wooden fence along row 15 (cols 8-11).
-- Central Buildings: Trade House spans cols 12-17 (rows 14-15); Pokémon Center spans cols 18-21 (rows 15-17); Gym spans cols 24-31 (rows 16-19).
-- Central Trees/Fence: Solid cluster at cols 22-23 (rows 15-17).
-- Southern Buildings: Bike Shop at cols 12-15 (rows 24-25); Poké Mart at cols 18-21 / 24-27 (rows 24-25); Slowbro House at cols 28-33 (rows 24-25).
-- Southern Tree Line: Solid tree line along row 28 across cols 6-35.
+- Central Buildings: Trade House at cols 12-17 (rows 14-15); Pokémon Center at cols 18-21 (rows 15-17); Cerulean Gym at cols 24-31 (rows 16-19).
+- Central Barrier: Solid fence/trees at cols 22-23 (rows 15-17).
+- Southern Buildings: Bike Shop at cols 12-15 (rows 24-25); Poké Mart at cols 24-27 (rows 24-25); Slowbro House at cols 28-33 (rows 24-25).
+- Southern Tree Line: Solid tree line along row 28 across cols 30-35.
 - Central Flower Beds: Solid flower gardens at cols 12-21 (rows 20-21) and cols 28-33 (rows 22-23).
-- Eastern Barrier: Fenced boundary along col 35 (rows 20-27); open eastern avenue at cols 36-37.
+- Eastern Barrier: Fenced boundary along col 35 (rows 20-27); open East Avenue thoroughfare at cols 36-37 (rows 8-30).
+- Passable Thoroughfares:
+  - Row 20: Open east-west corridor (cols 7-28).
+  - Row 30: Southern bypass (cols 6-37) connecting Route 5 entrance (27, 35) to East Avenue (37, 30).
+  - Columns 36-37: East Avenue running north-south between row 8 (Northern Highway) and row 30.
+  - Rows 8-13: Northern Highway connecting East Avenue (col 37) to NW Waterway Pool (cols 4-6) and Burglarized House backyard (27, 9).
