@@ -2615,6 +2615,20 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
     - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
 
+### Warden's House Interior (Cols 26..29, Rows 25..28)
+- Entered via door at (27, 27) from southeast residential district.
+- Interior bounds: Cols 0..9, rows 0..7.
+- Entrance mat: (4..5, 7), exits south to Fuchsia City.
+- Left side:
+  - Computer desk at (0..1, 2..3). Chair at (0, 3) is walkable; computer at (0, 2) is decorative (not interactive) [Verified Turn 12014].
+- Center:
+  - Warden standing at (2, 3) facing south. Dialogue explains HM04 Strength moves boulders outside battle and mentions Safari Zone Secret House HM03 Surf [Verified Turns 12011-12012].
+  - Display cases at (4..5, 2..3):
+    - Left display at (4, 3): "POKéMON photos and fossils." [Verified Turn 12015].
+    - Right display at (5, 3): "Old POKéMON merchandise." [Verified Turn 12016].
+- Right side:
+  - Boulder at (8, 4) blocking access to item ball at (8, 3).
+  - Open floor at (7, 4) allows pushing boulder east into (9, 4) using Strength to clear path to (8, 3).
 
 <hr>
 
