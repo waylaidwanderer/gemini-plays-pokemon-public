@@ -1,27 +1,27 @@
 # Inventory Log
 
 ## Regular Items
-- SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
-- TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
+- SUPER REPEL x4 [Verified Turn 11080]
+- TM21 (MEGA DRAIN) x1 [Received Turn 6802, Verified Turn 11081]
 - TM06 (TOXIC) x1 [Received Turn 12216 from Koga]
-- FULL RESTORE x1 [Slot 14] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
-- MAX POTION x1 [Slot 15] [Verified Turn 11891]
-- REVIVE x5 [Slot 19] [Purchased Turn 11899 at Fuchsia Mart]
-- FULL HEAL x5 [Slot 20] [Purchased Turn 11905 at Fuchsia Mart]
+- FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
+- MAX POTION x1 [Verified Turn 11891]
+- REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
+- FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 
 ## Key Items & HMs
-- OLD ROD [Slot 2] [Verified Turn 11080]
-- HM01 (CUT) [Slot 3] [Verified Turn 11080]
-- HM05 (FLASH) [Slot 4] [Verified Turn 11080]
-- BICYCLE [Slot 5] [Verified Turn 11080]
-- COIN CASE [Slot 7] [Verified Turn 11080]
-- LIFT KEY [Slot 9] [Verified Turn 11080]
-- SILPH SCOPE [Slot 10] [Verified Turn 11081]
-- POK� FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
-- SUPER ROD [Slot 13] [Obtained Turn 7001, Verified Turn 11081]
-- HM04 (STRENGTH) [Slot 16] [Received Turn 8274, Verified Turn 11082]
-- GOOD ROD [Slot 17] [Obtained Turn 11176, Verified Turn 11905]
-- HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
+- OLD ROD [Verified Turn 11080]
+- HM01 (CUT) [Verified Turn 11080]
+- HM05 (FLASH) [Verified Turn 11080]
+- BICYCLE [Verified Turn 11080]
+- COIN CASE [Verified Turn 11080]
+- LIFT KEY [Verified Turn 11080]
+- SILPH SCOPE [Verified Turn 11081]
+- POK� FLUTE [Obtained Turn 6599, Verified Turn 11081]
+- SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
+- HM04 (STRENGTH) [Received Turn 8274, Verified Turn 11082]
+- GOOD ROD [Obtained Turn 11176, Verified Turn 11905]
+- HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
 - Total Slots Used: 19 / 20
@@ -65,7 +65,7 @@
   - Status: Healthy
   - HP: 170 / 170 [Level 54 Turn 12134]
   - Stats: Attack 124, Defense 144, Speed 124, Special 127
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 15/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12195]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
