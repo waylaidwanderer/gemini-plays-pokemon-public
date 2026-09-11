@@ -4,7 +4,7 @@
 
 ## Status
 
-- Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
+- Badges: 5 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge)
 
 - Active Team: Blastoise (SHELDON) Lv 54, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
@@ -119,7 +119,8 @@
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 - [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 11176]
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
-- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
+- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]- [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
+
 
 <hr>
 
@@ -2940,7 +2941,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Cleanse Toxic immediately with Full Heal (5 in bag).
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Prize: ¥1330. Defeat line: "What? Extraordinary!".
-- Gym Leader Koga at (4, 10): Challenged Turn 12160! Pre-battle dialogue: "A mere child like you dares to challenge me? Very well, I shall show you true terror as a ninja master! You shall feel the despair of poison and sleep techniques!".
+- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Awarded Soulbadge and TM06 (Toxic).
 - Trainer (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Prize: ¥1190. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) [Turn 12089] and (0, 11) [Turn 12102] are blocked by invisible walls.
