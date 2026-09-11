@@ -22,7 +22,9 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Street lamp located at (3, 13).
 - Northwest Building / Courtyard: Roof spans cols 4..8, rows 14..15. Open paved courtyard at cols 4..5, rows 16..20. Wooden fence post at (4, 21) and mailbox/signpost at (5, 21).
 - Eastern Building Wall: Multi-story building facade with windows spanning cols 6..8+, rows 16..21+.
-- Southwestern Area: Monument/statue at (0, 24..25), border tree at (-1, 24..25).
-- Horizontal Corridor (Rows 22..23): Paved corridor spanning cols 4..8 between row 21 and row 24 building roof.
-- Building Roof (Southwest): Spans cols 4..8+, rows 24..25+.
-- Western Avenue South: Street lamp at (3, 22..23); road continues south at (3, 24..25).
+- Southwestern Avenue & Features:
+  - Western Avenue (col 3) extends uninterrupted from row 14 south past row 29; street lamp graphics at (3, 22..23) are fully passable road decor [Verified Turn 12647].
+  - West perimeter: border trees at (-1, 24..29+), stone statues at (0, 24..29+), lawn at col 1, curb at col 2.
+  - Building 1: Cream brick roof at cols 4..8, rows 24..25.
+  - East-West Alleyway (Row 26): Open paved passage running east across cols 4..8 between Building 1 and Building 2.
+  - Building 2 (Southwest Commercial): Sloped roof at row 27, facade and windows at rows 28..29 (cols 4..7).
