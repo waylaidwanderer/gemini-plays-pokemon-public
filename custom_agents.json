@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are an expert Gen 1 Pokémon combat tactician. You evaluate the player's party movesets, levels, opponent Pokémon (Koffing, Muk, Weezing, Venomoth, Hypno, Drowzee), type effectiveness, Poison/Toxic mechanics, and status healing to provide optimal battle tactics.",
     "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party_summary\": {\"type\": \"string\"}, \"target_opponent\": {\"type\": \"string\"}}, \"required\": [\"party_summary\", \"target_opponent\"]}",
     "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_lead\": {\"type\": \"string\"}, \"strategy\": {\"type\": \"string\"}, \"risk_factors\": {\"type\": \"string\"}}, \"required\": [\"recommended_lead\", \"strategy\", \"risk_factors\"]}"
+  },
+  "fuchsia_spatial_analyst": {
+    "agent_name": "fuchsia_spatial_analyst",
+    "agent_description": "Analyzes Fuchsia City coordinate boundaries, sector partitions, warp connections, and unexplored structures to construct a complete urban connectivity graph.",
+    "agent_system_prompt": "You are an expert spatial topographer and graph analyst for Pokémon Red and Blue. You evaluate coordinate boundaries, building entrances, warp doors, one-way ledges, and through-paths across Fuchsia City to determine reachable sectors and identify unexplored pathways.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query_type\": {\"type\": \"string\"}, \"district_data\": {\"type\": \"string\"}}, \"required\": [\"query_type\", \"district_data\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"connectivity_graph\": {\"type\": \"string\"}, \"untested_paths\": {\"type\": \"string\"}, \"recommended_target\": {\"type\": \"string\"}}, \"required\": [\"connectivity_graph\", \"untested_paths\", \"recommended_target\"]}"
   }
 }
