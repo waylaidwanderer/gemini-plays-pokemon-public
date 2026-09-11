@@ -37,7 +37,7 @@
   - From (14, 13), passage turns east towards (15, 13).
 - **Row 4 West Barrier (Verified Turns 42252 & 42769)**: (1..8, 4) is a continuous solid purple rock wall (tested at cols 3, 4, 5, 6, 7, 8).
 - **Column 2 Barrier (Verified Turn 42769)**: (2, 0..4) is continuous solid rock. (3, 1) -> (2, 1) is blocked.
-- **2F NW / SW Sector Isolation**: Ladder A1 at 2F (1, 3) and the western sector (cols 0..7, rows 4..17) are completely isolated from the 2F North Sector (Row 1/3) and South Sector (cols 14..28). Physical access to 2F (1, 3) and the SW sector is solely via 1F transit.
+- **2F NW / SW Sector Hypothesis**: Ladder A at 2F (1, 3) and the western sector (cols 0..7, rows 4..17) are undergoing systematic empirical probe testing to establish exact connectivity with 2F and 1F.
 - **Column 16 Barrier (Verified Turn 42288)**:
   - Column 16 runs south from (16, 3..7), but (16, 8) is solid purple rock blocking direct access down to Row 9. Tile (16, 7) is a dead-end pocket.
 - **South-West Ledge Dead-End (Verified Turn 42387 & 42481)**:
