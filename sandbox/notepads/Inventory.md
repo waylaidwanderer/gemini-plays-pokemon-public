@@ -42,7 +42,7 @@
   13. SUPER ROD
   14. CARBOS x1
   15. FULL RESTORE x1
-  16. MAX POTION x2
+  16. MAX POTION x1
   17. TM40 x1
   18. HM04
   19. GOOD ROD
@@ -62,8 +62,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
-  - Status: Revived
-  - HP: 3 / 166 [Revived Turn 11736]
+  - Status: Healthy
+  - HP: 166 / 166 [Healed via Max Potion Turn 11740]
   - Stats: Attack 122, Defense 142, Speed 122, Special 124
   - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 1/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
