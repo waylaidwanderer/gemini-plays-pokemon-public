@@ -16,5 +16,4 @@
   - Southeast Sector: Contains Ladder B landing (22, 6), Column 23, Row 11, Column 24/28, Row 17 South Artery.
 
 ## Active Search Objective
-- En route via Route 24 -> canal shoreline at (4, 31) -> Surf south into Cerulean Cave 1F entrance at (4, 11).
 - Inside 1F, proceed to Central Waterway ramp at (17, 15), Surf north to NW Ladder E (7, 1), ascend to 2F West Sector (9, 1), and take Ladder A (1, 3) down to B1F to capture Mewtwo with the Master Ball!
