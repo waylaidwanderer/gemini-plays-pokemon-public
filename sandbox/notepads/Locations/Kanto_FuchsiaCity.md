@@ -27,6 +27,7 @@
 
 ### 2. Northeast Sector (Safari Promenade & Residential North)
 - Safari Zone Gatehouse: Cols 16..21 rows 2..5, entrance at (18, 3). Signboard at (21, 15).
+  - Approach: Direct ascent up col 18 is blocked at (18, 7) by an impassable decorative tree [Verified Turn 11965].
 - Bill's Grandpa's House: Cols 21..24 rows 11..13, door at (22, 13) [Verified Turn 7368].
 - City Signpost: Located at (25, 15) ("FUCHSIA CITY / Behold! It's Passion Pink!").
 - Route 15 East Entrance Boulevard: Rows 16..18 cols 25..39.
