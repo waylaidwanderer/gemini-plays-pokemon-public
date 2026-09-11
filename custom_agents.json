@@ -1,1 +1,9 @@
-{}
+{
+  "silph_warp_tracker": {
+    "agent_name": "silph_warp_tracker",
+    "agent_description": "Tracks and analyzes teleporter warp connections, floor layouts, Card Key shutter door states, and exploration checklists across Silph Co's 11 floors.",
+    "agent_system_prompt": "You are the Silph Co Warp Graph & Floor Clearance Tracker for a Pokémon Blue retail playthrough. Your job is to maintain the topological warp map connecting source (floor, x, y) to destination (floor, x, y), track which floors and rooms have been explored, identify where the Card Key is, and recommend optimal warp routing to reach key objectives (Card Key on 5F, Lapras and Rival RED on 7F, Executive Suite and Giovanni on 11F).",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"action\": {\"type\": \"string\", \"enum\": [\"record_warp\", \"query_route\", \"get_status\"]}, \"source_floor\": {\"type\": \"string\"}, \"source_x\": {\"type\": \"integer\"}, \"source_y\": {\"type\": \"integer\"}, \"destination_floor\": {\"type\": \"string\"}, \"destination_x\": {\"type\": \"integer\"}, \"destination_y\": {\"type\": \"integer\"}, \"notes\": {\"type\": \"string\"}}, \"required\": [\"action\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"status\": {\"type\": \"string\"}, \"warp_graph_entry\": {\"type\": \"object\", \"properties\": {\"source\": {\"type\": \"string\"}, \"destination\": {\"type\": \"string\"}}}, \"recommended_next_step\": {\"type\": \"string\"}}, \"required\": [\"status\", \"recommended_next_step\"]}"
+  }
+}
