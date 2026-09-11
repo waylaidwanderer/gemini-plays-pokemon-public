@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 56, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥87140 [Turn 12818]
+- Money: ¥89740 [Turn 12852]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -127,6 +127,7 @@
 - [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]
 - [x] Receive TM29 (Psychic) from Mr. Psychic in Saffron City [Turn 12671]
 - [x] Obtain Card Key on Silph Co 5F [Turn 12763]
+- [x] Defeat Rival RED in Silph Co [Turn 12851]
 
 
 <hr>
@@ -3117,6 +3118,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - Unknown Floor (Arrival Room via 3F Warp):
 - Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival RED confirmed at (3, 7); challenged player at (3, 3) with 'What kept you BLUE?' [Turn 12825]. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6).
+- Rival RED Defeated: At (3, 4). Team: Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40. Prize �2600 [Turn 12851].
 
 
 <hr>
