@@ -3076,5 +3076,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 11F: Executive suite / Giovanni boss battle.
 - 1F North Corridor: North wall at row 0. Open hallway spanning east across rows 1..2 (cols 7..13+). Vertical partition at col 6, rows 0..2, reception counter at (4..5, 3). [Verified Turn 12714]
 - 1F Elevator: Double silver sliding doors located at (20, 0), accessible from (20, 1) facing North [Verified Turn 12718].
+- Elevator Controls: Panel at (3, 0) inside elevator car opens scrolling floor list. Selected 5F at Turn 12722.
 
 <hr>
