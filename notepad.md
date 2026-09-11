@@ -3097,5 +3097,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
 - 5F Researcher at (8, 3): Friendly Silph Co scientist studying Poké Ball technology.- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize �1300 [Turn 12795].
 
+- 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 
 <hr>
