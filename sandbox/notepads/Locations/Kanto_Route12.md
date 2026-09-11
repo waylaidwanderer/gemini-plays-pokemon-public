@@ -20,6 +20,7 @@
 - Bridge Continuation at Row 36: 2-tile-wide bridge continues south along cols 4..5 over water (rows 36..39+) past Fisherman Hank [Verified Turn 6950].
 
 - Crossway at Rows 40..41: East-west platform across cols 4..9 connects western lane to eastern lane. Cols 4..5 dead-ends at row 44 railing. Main bridge continues south along cols 8..9 (rows 42..45) [Verified Turn 6951].
+- Fisherman at (10, 40): Stationed at (10..12, 40) facing West. Engaged at (9, 40). Line: "The FISHING FOOL vs. POKéMON KID!". Defeat line: "Too much!". Pokémon: Goldeen Lv 27. Prize: ¥945. Defeated on Turn 12521 [Verified Turn 12521].
 - Bridge Segment at Rows 46..51: Paved grass corridor at cols 12..13 (rows 46..47) connects to wooden bridge planks (rows 48..51). Cross-platform at rows 52..53 connects to western lane. Fisherman NPC stationed at (9, 52) [Verified Turn 6953].
 - Fisherman (Elliot): Stationed at (9, 52) facing East. Defeated at (11, 52) [Turn 6964].
 - Crossway at Row 49: Wooden crossway at row 49 connects cols 8..9 to cols 4..5. Cols 4..5 continues south across rows 50..57+ bypassing the row 54 railing to reach the wide southern bridge platform [Verified Turn 6965].
