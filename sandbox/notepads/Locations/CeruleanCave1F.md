@@ -20,7 +20,6 @@
 - **Ladder E**: Located at (7, 1) <-> 2F West sector (9, 1). Reachable via Northern Waterway.
 - **Ladder D**: Located at (29, 1) <-> 2F NE pocket (29, 1).
 
-## 2F to B1F Progression Route
-- Ascend Ladder B at (23, 7) or Ladder C at (18, 9) to 2F.
-- On 2F, traverse the northern thoroughfares to West Sector Ladder A at (1, 3).
-- Ladder A at (1, 3) descends directly to B1F, providing unobstructed access to Mewtwo!
+## Progression Hypotheses & Exploration Plan
+- **Hypothesis 1 (1F Waterway Route)**: From Upper Plateau / lower corridors, locate the water shoreline to Surf north directly to Ladder E at (7, 1) and access 2F West Sector.
+- **Hypothesis 2 (2F High-Altitude Thoroughfare)**: Ascend Ladder B (23, 7) or Ladder C (18, 9) to 2F and test Row 1 North Bypass on foot (without bicycle turn ambiguities) to determine if Column 10 connects to Ladder A at (1, 3).
