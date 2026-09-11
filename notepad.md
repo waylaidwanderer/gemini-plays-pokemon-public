@@ -2578,12 +2578,11 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
     - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
     - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
-  - Verified Access Route (Turn 11684):
-    - Col 2 is a cliff face at rows 26..31, but is OPEN at rows 23..25.
-    - Path from Col 1 into courtyard: Step Right at row 24 from (1, 24) through (2, 24) to (3, 24).
-    - Walk Down along Col 3 to (3, 28), then step Right into courtyard apron at (4..5, 28).
-    - Gym entrance door is at (5, 27).
-    - Pokémon Center entrance door is at (19, 27).
+  - Verified Pokémon Center & Courtyard Access Route (Verified Turn 11692):
+    - Col 24 avenue connects Central Thoroughfare (row 20) south to row 27.
+    - Rows 24..27 have ZERO cliff at cols 22..23 (cliff only exists at rows 28..31).
+    - To enter Pokémon Center from (24, 28): Step Up to (24, 27), Left 2 times through (23, 27) to (22, 27), Down to (22, 28), Left to (21, 28) in front of door, and Up into (21, 27) to enter!
+    - To enter Gym from (21, 28): Continue west along row 28 apron to (5, 28), then Up into Gym door at (5, 27).
 
 <hr>
 
