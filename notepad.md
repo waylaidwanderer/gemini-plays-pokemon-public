@@ -3028,19 +3028,31 @@
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
 
-# Cerulean Cave Active Routing & Strategy to Mewtwo (B1F)
+# Cerulean Cave Master Route to Mewtwo (B1F)
 
-## Verified 2F Highway to West Sector & Ladder A
-1. From Ladder B landing at (22, 6):
-   - South along Column 23 to Row 11 at (23, 11).
-   - West along Row 11 across (22..19, 11) to Column 19.
-   - North up Column 19 across (19, 10) to Row 9 at (19, 9).
-   - West along Row 9 across (18..15, 9).
-   - North to (15, 8), West across (14..13, 8), South to (13, 9).
-   - West across Row 9 through (12..1, 9) into the West Sector.
-2. In West Sector (cols 1-9):
-   - North along Column 1 / Column 3 / Column 4 to Ladder A at (1, 3).
-3. Descend Ladder A at (1, 3) directly to B1F (Mewtwo Chamber).
-4. Navigate B1F to Mewtwo and capture with Master Ball!
+## Overview & Topology
+- **1F -> 2F -> B1F Progression**:
+  - The ONLY route to B1F (Mewtwo) is via **Ladder A** at 2F (1, 3).
+  - 2F West Sector (cols 1..9) containing Ladder A is physically isolated on 2F from the Central/East sectors.
+  - The ONLY entrance to 2F West Sector is **Ladder E** at 1F (7, 1) <-> 2F (9, 1).
+
+## Master Step-by-Step Route
+1. **Return to 1F**:
+   - From current 2F position, return to Ladder B at (22, 6) and descend to 1F (23, 7).
+2. **Traverse 1F to Waterway**:
+   - Descend Upper Plateau ramp at 1F (21, 11) to Entrance Basin.
+   - Head west to Central Ramp at 1F (17, 15) and enter the 1F Waterway.
+3. **Surf to Ladder E (7, 1) on 1F**:
+   - Surf north along 1F waterway to the NW bank / landing.
+   - Disembark and climb Ladder E at 1F (7, 1).
+4. **Navigate 2F West Sector to Ladder A (1, 3)**:
+   - Arrive at 2F (9, 1).
+   - Walk West along Row 1 across (8..3, 1) to (3, 1).
+   - Walk South along Column 3 across (3, 2) to (3, 3).
+   - Walk West along Row 3 across (2, 3) to Ladder A at (1, 3).
+   - Climb down Ladder A to B1F!
+5. **Navigate B1F & Capture Mewtwo**:
+   - Surf across B1F waterways to Mewtwo at (27, 13).
+   - Use Master Ball to catch Mewtwo!
 
 <hr>
