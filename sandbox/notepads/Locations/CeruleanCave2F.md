@@ -50,3 +50,4 @@
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
 ## Verified 2F NW Sector & Ladder A Topology (Verified Turns 43125-43128)
 - Ladder A is located at 2F (1, 3) and descends to B1F!
+- **Ladder C Landing Southern Barrier (Verified Turn 43693)**: Tile (18, 8) is solid purple rock (empirically blocked moving Down from (18, 7)). The Ladder C landing at (18..19, 5..7) is completely bounded to the south by Row 8 rock wall ((16..22, 8)); there is NO passage south into Row 9 from Ladder C landing.
