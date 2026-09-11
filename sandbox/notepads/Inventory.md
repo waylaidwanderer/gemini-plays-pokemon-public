@@ -7,6 +7,8 @@
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
 - FULL RESTORE x1 [Slot 14] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Slot 15] [Verified Turn 11891]
+- REVIVE x5 [Slot 19] [Purchased Turn 11899 at Fuchsia Mart]
+- FULL HEAL x5 [Slot 20] [Purchased Turn 11905 at Fuchsia Mart]
 - Sold: CARBOS x1 (sold Turn 11889 for ¥4900 at Fuchsia Mart)
 - Sold: TM40 x1 SKULL BASH (sold Turn 11892 for ¥2000 at Fuchsia Mart)
 
@@ -25,7 +27,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899; 1 slot free).
+- Total Slots Used: 20 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899, Full Heal x5 bought Turn 11905; Bag full).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x3
   2. OLD ROD
@@ -46,7 +48,7 @@
   17. GOOD ROD
   18. HM03
   19. REVIVE x5
-  20. [EMPTY]
+  20. FULL HEAL x5
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -58,7 +60,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥73528 [Verified Turn 11899]
+- ¥70528 [Verified Turn 11905]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
