@@ -68,3 +68,10 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - North boundary: Curb at row 6.
 - South boundary: Building roof at cols 32..35, row 9.
 - Intersection: Connects Eastern Avenue to Northern Highway at (36, 7..8).
+- Roadway alignment: Row 8 terminates west at col 27 at Poké Mart roof; Row 7 is a continuous open roadway spanning west past col 24 toward Silph Co plaza [Verified Turn 12689].
+
+## Northeast Gym District (Rows 4..6)
+- Fighting Dojo & Saffron Gym: Located north of row 6 across cols 24..37.
+- Signpost at (27, 5).
+- Entrances / double doors visible along row 5 at (24..26, 5), (28..29, 5), and (32..37, 5).
+- Approach apron at (30..31, rows 4..5).
