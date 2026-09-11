@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 55, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥81600 [Turn 12353]
+- Money: ¥82250 [Turn 12429]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -186,7 +186,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥81600 [Turn 12353]
+- ¥82250 [Turn 12429]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 55, Water]
@@ -2468,7 +2468,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Row 5 fence runs solid from col 19 to col 6; opening at cols 4..5 connects row 4 to row 6 corridor [Verified Turn 7152].
 - Bird Keeper at (4, 4): Stationed at (4, 4) facing South. Line: "You need to use TMs to teach good moves to POKéMON!". Team: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Defeated on Turn 7162 [Turn 7162].
 - Col 3 is vertical rock cliff dividing eastern corridors from western wild grass patch (cols 1..2) [Verified Turn 7152].
-- Trainer at (15, 6): Stationed at (15, 6) facing South down col 15 [Verified Turn 7166].
+- Bird Keeper at (15, 6): Stationed at (15, 6) facing South down col 15. Team of 4: Pidgey Lv 26, Spearow Lv 26, Pidgey Lv 26, Fearow Lv 26. Prize: ¥650. Intro: "My bird POKéMON should be ready for battle.". Defeat: "Not ready yet!". [DEFEATED Turn 12429].
 - Row 7 opening at cols 14..15 connects row 6 to row 8 corridor [Verified Turn 7166].
 - Row 6 Corridor: Extends east from col 4 to col 14, where row 7 opening connects to row 8 [Verified Turn 7165].
 - Row 8 Corridor: Open ground across cols 4..10 below row 7 fence [Verified Turn 7164].
