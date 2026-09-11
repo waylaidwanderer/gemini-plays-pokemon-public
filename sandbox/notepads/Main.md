@@ -111,6 +111,7 @@
 - [x] Awaken and defeat sleeping Snorlax on Route 12 with Pok� Flute [Turn 6981]
 
 - [x] Obtain HM04 Strength from Warden in Fuchsia City [Turn 8274]
+- [x] Push boulder in Warden's house and obtain Rare Candy [Turn 12025]
 - [x] Obtain HM03 Surf from Secret House in Safari Zone Area 3 [Turn 10975]
 - [x] Obtain Gold Teeth in Safari Zone Area 3 [Turn 8235]
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]

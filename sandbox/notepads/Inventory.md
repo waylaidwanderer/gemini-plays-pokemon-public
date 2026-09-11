@@ -26,7 +26,7 @@
 ## Inventory Capacity
 - Total Slots Used: 20 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899, Full Heal x5 bought Turn 11905; Bag full).
 - Complete Top-to-Bottom Slot Order:
-  1. RARE CANDY x3
+  1. RARE CANDY x4
   2. OLD ROD
   3. HM01
   4. HM05

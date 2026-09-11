@@ -95,5 +95,5 @@
     - Left display at (4, 3): "POKéMON photos and fossils." [Verified Turn 12015].
     - Right display at (5, 3): "Old POKéMON merchandise." [Verified Turn 12016].
 - Right side:
-  - Boulder at (8, 4) blocking access to item ball at (8, 3).
-  - Open floor at (7, 4) allows pushing boulder east into (9, 4) using Strength to clear path to (8, 3).
+  - Boulder at (8, 4) shifted east to (9, 4) using Strength [Completed Turn 12025].
+  - Item ball at (8, 3) retrieved: RARE CANDY [Obtained Turn 12025]. Path fully cleared.
