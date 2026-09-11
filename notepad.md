@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 54, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥75453 [Turn 12136]
+- Money: ¥80900 [Turn 12180]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -119,7 +119,8 @@
 - [x] Obtain Super Rod from Fishing Guru's brother on Route 12 [Turn 7001]
 - [x] Obtain Good Rod from Fishing Guru's brother in Fuchsia City [Turn 11176]
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
-- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]- [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
+- [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
+- [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 
 
 <hr>
@@ -186,7 +187,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥76643 [Turn 12156]
+- ¥80900 [Turn 12180]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 54, Water]
@@ -321,7 +322,7 @@
 - **PP Conservation:**
   - Blastoise must enter Koga's Gym with fully restored PP (15 Surf, 15 Body Slam, 10 Ice Beam, 15 Double-Edge). Firing moves into Minimize/Smokescreen risks running out of PP and forcing Struggle.
 
-- **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) completely shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis), turning Koga's primary win condition into failing moves.
+- **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
 
 <hr>
 
@@ -2941,18 +2942,18 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Cleanse Toxic immediately with Full Heal (5 in bag).
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Prize: ¥1330. Defeat line: "What? Extraordinary!".
-- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Awarded Soulbadge and TM06 (Toxic).
 - Trainer (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Prize: ¥1190. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) [Turn 12089] and (0, 11) [Turn 12102] are blocked by invisible walls.
 - Verified Passages: (0, 13) and (0, 12) confirmed open on foot [Turn 12101]. (0, 12) dead-ends north at (0, 11).
-- Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 8 [Turn 12105].
 - Trainer 3 (Juggler Kirk) at (7..8, 8): DEFEATED Turn 12117! Team: Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31. Prize: ¥1085. Intro: "I wanted to become a ninja, so I...". Defeat: "I'm done for!".
 - Trainer Sightline Mechanics: Invisible walls act as solid collision blocks that completely obstruct trainer vision lines (empirically confirmed Turn 12088: standing at (4, 13) in column 4 looking directly at trainer at (4, 10) did not trigger combat due to invisible wall at (4, 12)).
 
 - Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize: ¥1320. Intro: "I also study the way of the ninja...". Defeat: "Awoo!".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
-- Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Defeat line: "Dropped my balls!".
+- Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Prize: ¥1190. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Defeat line: "Dropped my balls!".
+- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Prize: ¥4257. Awarded Soulbadge and TM06 (Toxic).
+
 
 <hr>
 
