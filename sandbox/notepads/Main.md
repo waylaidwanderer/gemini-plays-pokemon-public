@@ -119,3 +119,4 @@
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
 - [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
+- [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]

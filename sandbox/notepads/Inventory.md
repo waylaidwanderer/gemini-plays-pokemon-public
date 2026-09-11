@@ -2,15 +2,12 @@
 
 ## Regular Items
 - SUPER REPEL x4 [Verified Turn 11080]
-- TM21 (MEGA DRAIN) x1 [Received Turn 6802, Verified Turn 11081]
-- TM06 (TOXIC) x1 [Received Turn 12216 from Koga]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Verified Turn 11891]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 
 ## Key Items & HMs
-- OLD ROD [Verified Turn 11080]
 - HM01 (CUT) [Verified Turn 11080]
 - HM05 (FLASH) [Verified Turn 11080]
 - BICYCLE [Verified Turn 11080]
@@ -24,29 +21,29 @@
 - HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 16 / 20
 - Complete Top-to-Bottom Slot Order:
-  1. OLD ROD
-  2. HM01
-  3. HM05
-  4. BICYCLE
-  5. SUPER REPEL x4
-  6. COIN CASE
-  7. LIFT KEY
-  8. SILPH SCOPE
-  9. POKÉ FLUTE
-  10. TM21 x1
-  11. SUPER ROD
-  12. FULL RESTORE x1
-  13. MAX POTION x1
-  14. HM04
-  15. GOOD ROD
-  16. HM03
-  17. REVIVE x5
-  18. FULL HEAL x5
-  19. TM06
+  1. HM01
+  2. HM05
+  3. BICYCLE
+  4. SUPER REPEL x4
+  5. COIN CASE
+  6. LIFT KEY
+  7. SILPH SCOPE
+  8. POKÉ FLUTE
+  9. SUPER ROD
+  10. FULL RESTORE x1
+  11. MAX POTION x1
+  12. HM04
+  13. GOOD ROD
+  14. HM03
+  15. REVIVE x5
+  16. FULL HEAL x5
 
 ## Stored / PC Items
+- OLD ROD x1 (PC) [Stored Turn 12567]
+- TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
+- TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
 - MOON STONE x1 (PC) [Stored Turn 12205]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -63,9 +60,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 55, Water]
   - Status: Healthy
-  - HP: 165 / 173 [Level 55 Turn 12411]
+  - HP: 173 / 173 [Healed Turn 12560]
   - Stats: Attack 127, Defense 148, Speed 127, Special 130
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 11/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12195]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 12560]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
