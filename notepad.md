@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 54, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥80900 [Turn 12180]
+- Money: ¥81600 [Turn 12353]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -299,6 +299,7 @@
 - **Trainer Battles:** Fleeing (`RUN`) is impossible in trainer battles.
 - **Bag Menu Navigation:** The Item Bag scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 3069).
 - **Party Menu Cursor Memory:** In Generation 1 retail, the overworld Party Pokémon menu remembers the last selected party member across overworld sessions (empirically confirmed Turn 8260).
+- **Battle Reset of Menu Cursor Memory:** Entering and exiting any battle (wild or trainer) immediately re-initializes both the overworld Start menu cursor to Slot 1 (POKéDEX) and the Bag menu cursor to Slot 1 (OLD ROD). Menu cursor persistence only applies across consecutive overworld menu sessions without intervening battles [Empirically confirmed Turns 12354-12357].
 
 ## Stat & Damage Mechanics
 - **Special Stat:** Gen 1 combines Special Attack and Special Defense into a single Special stat.
@@ -1387,6 +1388,8 @@
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Empirical Proof (Turn 12037):** Facing the pond at (31, 22) in Fuchsia City, selecting SURF on Blastoise (SHELDON) displayed: "No! A new BADGE is required."
 - **Strategic Implication:** Surf is strictly unusable before defeating Gym Leader Koga. The path to Fuchsia Gym and Pokémon Center cannot require Surf.
+- **Dismounting for Precision Alignment:** While mounted on the Bicycle, locomotion advances in 2-tile strides along unobstructed ground, preserving coordinate parity (even or odd). Dismounting the Bicycle (Start -> ITEM -> BICYCLE -> USE) returns the player to 1-tile precision walking, which trivially allows navigating into odd-coordinate openings (such as the column 13 fence gap at (13, 11) on Route 14) without requiring obstacle collision to shift parity.
+
 
 <hr>
 
@@ -2476,7 +2479,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Central Southern Road (Rows 12..45+): 2-tile-wide paved road down cols 12..13 leading south toward Route 15. Flanked by tall grass at col 14 and cliff at col 15 [Verified Turn 7185].
 - Westward road visible at col 9 rows 25..26 beyond col 10 tree line [Observed Turn 7185].
 - Signpost at (17, 13) east of tall grass patch [Observed Turn 7182].
-- Bird Keeper at (14, 15): Stationed at (14, 15) facing North down col 14 tall grass; engaged at (14, 12). Team of 3: Spearow Lv 28, Doduo Lv 28, Fearow Lv 28. Defeated Turn 12352.
+- Bird Keeper at (14, 15): Stationed at (14, 15) facing North down col 14 tall grass; engaged at (14, 12). Line: "OOF! You took my feathers!". Team of 3: Spearow Lv 28, Doduo Lv 28, Fearow Lv 28. Prize: ¥700. Defeated Turn 12352.
 - Coastal Water: Ocean appears at cols 16..18 south of row 20 east of col 15 cliff [Observed Turn 7184].
 - Biker at (15, 30): Stationed at (15, 30) facing West across tall grass. Line: "We ride out here because there's more room!". Team: Koffing Lv 29, Muk Lv 29. Defeated on Turn 7195 [Turn 7195]. Engaged at (13, 30) [Turn 7192].
 - Bird Keeper at (15, 31): Stationed east of road at (15, 31). Line: "Have you heard of the legendary POKéMON?". Team: Farfetch'd Lv 33. Defeated on Turn 7202 [Turn 7202]. Engaged at (13, 31) [Turn 7198].
@@ -2941,9 +2944,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainers: Jugglers and Tamers using Psychic and Poison Pokémon (Drowzee, Hypno, Kadabra, Arbok, Sandslash).
 - Gym Leader Koga: Located in the central chamber.
 
-## Combat Tactics
-- Blastoise Lv 53 leads with STAB Surf to target the low Special stat of Koga's team (Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43).
-- Cleanse Toxic immediately with Full Heal (5 in bag).
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Prize: ¥1330. Defeat line: "What? Extraordinary!".
 - Trainer (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Prize: ¥1190. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
