@@ -1,14 +1,14 @@
-# Cerulean Cave Active Routing & Hypotheses
+# Cerulean Cave Active Routing & Strategy to Mewtwo (B1F)
 
-## Current Verified 1F Topography
-- **Upper Plateau (cols 21-25, rows 6-10)**: Bounded west at (20, 6..10) and east at (26, 6..9). Only exits are Ladder B at (23, 7) and Ramp at (21, 11).
-- **Ladder D Terrace (cols 23-28, rows 0-2)**: Isolated platform on 1F with no passable ground exits. Tile (23, 3) is a dead end.
-- **2F SE Sector**: Verified that rows 11-17 on 2F do not connect north to Ladder C.
-- **Entrance Basin (cols 20-25, rows 12-17)**: Active exploration target. Probing rows 12-14 westward to locate access to Central Corridor (cols 17-18) and the 1F Waterway.
-
-## Master Route Strategy to Mewtwo (B1F)
-1. Locate western passage from 1F Entrance Basin to access 1F Central Corridor / Waterway.
-2. Surf along 1F Waterway to reach Ladder E at (7, 1).
-3. Ascend Ladder E to 2F West Sector (9, 1).
-4. Walk to Ladder A at (1, 3) and descend to B1F.
-5. Navigate B1F to Mewtwo and capture with Master Ball.
+## Verified 2F Highway to West Sector & Ladder A
+1. From Ladder B landing at (22, 6):
+   - South along Column 23 to Row 11 at (23, 11).
+   - West along Row 11 across (22..19, 11) to Column 19.
+   - North up Column 19 across (19, 10) to Row 9 at (19, 9).
+   - West along Row 9 across (18..15, 9).
+   - North to (15, 8), West across (14..13, 8), South to (13, 9).
+   - West across Row 9 through (12..1, 9) into the West Sector.
+2. In West Sector (cols 1-9):
+   - North along Column 1 / Column 3 / Column 4 to Ladder A at (1, 3).
+3. Descend Ladder A at (1, 3) directly to B1F (Mewtwo Chamber).
+4. Navigate B1F to Mewtwo and capture with Master Ball!
