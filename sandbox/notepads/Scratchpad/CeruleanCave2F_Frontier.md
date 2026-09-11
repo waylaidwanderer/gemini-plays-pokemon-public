@@ -19,4 +19,3 @@
 - Probe at (16, 7) -> Right (17, 7): Solid Rock (Blocked)
 - Conclusion: The North/Central sector on 2F (cols 3..22, rows 1..7) is 100% bounded on the south by solid rock walls and dead-end pockets.
 - South Sector (Ladder B at 22, 6): Verified isolated loop terminating at (14, 13) and (21..28, 17); no western passage across col 20 rock wall.
-- Focus: Shift exploration to 1F waterways, specifically the western branch of the Northern Waterway leading to the NW basin ladder at 1F (1, 3).
