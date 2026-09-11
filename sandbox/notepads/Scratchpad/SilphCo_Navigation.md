@@ -82,8 +82,15 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 11F Southern Passage: At (3, 10) facing south. Unobstructed corridor along cols 1..3 continues down to row 14, where open floor turns east across cols 4..7 [Turn 12872].
 - 11F Grunt Encounter: Stepped to (3, 12); Rocket Grunt from (3, 13) confronted player with 'Stop right there! Don't you move!' [Turn 12873].
 - 11F Grunt Defeated: At (3, 13). Team: Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32. Prize �960 [Turn 12886]. Sheldon reached Lv 57.
-- 11F Southern Passage: Desks at row 13 (col 6) block northward movement directly into that room. South corridor along rows 14..16 continues east past col 7 toward the central executive suite [Turn 12931].
-- 3F Northwest Room: Item ball sighted at (8, 5) behind west shutter door; Scientist stationed at (7, 9) facing East [Turn 12903].
-- 11F Main Floor: Arrived via elevator at (13, 0) [Turn 12910]. Elevator lobby spans cols 9..15, rows 0..2. South corridor along cols 14..15 leads toward the executive office.
-- 11F South Corridor Verified: Cols 14..15 is a dead end terminating at row 17 south wall. Returning north to elevator lobby to proceed west along row 2 [Turn 12917].
-- Silph Co Architecture Verified: 11F Elevator opens onto an isolated dead-end lobby. The actual main 11F executive suite where Giovanni and the President are located is ONLY accessed via the 7F warp pad at (5, 7) -> 11F (3, 2)! Route: Elevator to 3F -> warp at (11, 11) to 7F (5, 3) -> step to 7F (5, 7) -> warp to 11F (3, 2) -> south corridor to President's boardroom [Turn 12922].
+- 11F Physical Boundary Tests (Negative Results):
+  - (8, 13..17): Solid vertical wall tested at (8, 14) [Turn 12943], (8, 15) [Turn 12942], (8, 16) [Turn 12944]. Blocks eastward movement from West Wing at rows 14..16.
+  - (4, 12): Solid vertical wall tested at (4, 12) [Turn 12945].
+  - (4, 8): Solid vertical wall tested at (4, 8) [Turn 12935].
+  - (5, 13): Solid horizontal wall tested at (5, 13) [Turn 12938].
+  - (6, 13), (7, 13): Solid desks blocking northward movement into central area.
+  - (13, 13): Solid vertical wall tested at (13, 13) [Turn 12953].
+- 11F Active Landmarks:
+  - Card Key Shutter Door at (7, 9) and (8, 9) leading to President's boardroom [Sighted Turn 12935].
+  - Elevator Lobby at (13, 0).
+  - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
+  - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
