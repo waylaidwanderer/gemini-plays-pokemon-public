@@ -2914,7 +2914,7 @@
 ## Connected Component Graph (1F)
 - **South Floor Thoroughfare**: Spans cols 1-26, rows 16-17. Connects south entrance (24, 17) west to South Ramp (1, 13) and north corridors.
 - **Ladder C**: Located at (18, 9) <-> 2F Central Hub (19, 7). Reachable on foot from the South Floor via central corridors.
-- **Ladder B**: Located at (23, 7) <-> 2F East landing (22, 6).
+- **Ladder B**: Located at (23, 7) <-> 2F East landing (22, 6). Player landed at (21, 6) when descending Ladder B.
 - **Ladder E**: Located at (7, 1) <-> 2F West sector (9, 1). Reachable via Northern Waterway.
 - **Ladder D**: Located at (29, 1) <-> 2F NE pocket (29, 1). Isolated landing.
 
