@@ -21,7 +21,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 |---|---|---|---|---|
 | 5F | (27, 3) | Unknown | Unknown | Sighted Turn 12725 |
 | 5F | (11, 5) | Unknown | Unknown | Sighted Turn 12744 |
-| 5F | (9, 15) | 9F | (17, 15) | Verified Turn 12760 |
+| 5F | (9, 15) | Unknown Floor | (17, 15) | Sighted Turn 12756 |
 
 ## Floor-by-Floor Progression Log
 - 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Large central fountain and terminal complex at cols 9..15, rows 5..10. Western corridor (cols 6..8) is an open northbound thoroughfare leading toward north wall elevator/stairs [Verified Turn 12711].
@@ -48,7 +48,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F South Teleporter & Grunt: Rocket Grunt stationed at (8, 16) facing west. Teleporter pad at (9, 15) directly above row 16 corridor (9, 16). Shutter door at (7, 12..13) [Sighted Turn 12747]. Interacting directly with Grunt at (8, 16) to test passage [Turn 12751].
 - 5F South Grunt Defeated: At (8, 16). Team: Arbok Lv 33. Prize �990 [Turn 12754].
 - 5F Grunt Collision Verified: Defeated Grunt at (8, 16) is solid and blocks passage on foot [Turn 12755]. Now stepping Right onto teleporter pad at (9, 15) [Turn 12756].
-- 5F (9, 15) Warp Arrival: Arrived at (17, 15) on 9F [Verified Turn 12760]. Two-way reciprocal warp to 9F healing bed floor. Stepped off pad to (17, 14), then stepped back onto (17, 15) to return to 5F (9, 15).
+- 5F (9, 15) Warp Arrival: Arrived at (17, 15) on Unknown Floor [Turn 12757]. Two-way reciprocal warp. Stepped off pad to (17, 14), then stepped back onto (17, 15) to return to 5F (9, 15).
 - 5F South Corridor Infiltration: Successfully bypassed defeated Grunt at (8, 16) by warping to 5F (9, 15). Now stepping Down into row 16 corridor and walking East toward Card Key at (21, 16).
-- 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via 9F reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
+- 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
 - 5F Researcher at (8, 3): Friendly Silph Co scientist studying Poké Ball technology.
