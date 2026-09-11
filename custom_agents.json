@@ -1,9 +1,1 @@
-{
-  "collision_auditor": {
-    "agent_name": "collision_auditor",
-    "agent_description": "Analyzes screenshot tile grids and movement reports to identify open thoroughfares, solid walls, ledges, ramps, and water tiles.",
-    "agent_system_prompt": "You are an expert Pokemon map and tile analyzer. Given coordinate grids and tile data, you analyze impassable barriers, open pathways, ramps, and warps to deduce exact navigational paths.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"map_name\": {\"type\": \"string\"}, \"current_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"query\": {\"type\": \"string\"}}, \"required\": [\"map_name\", \"current_pos\", \"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"open_paths\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"blocked_tiles\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"open_paths\", \"blocked_tiles\", \"recommended_steps\", \"reasoning\"]}"
-  }
-}
+{}
