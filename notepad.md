@@ -199,11 +199,11 @@
 - ¥87140 [Turn 12849]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 56, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 57, Water]
   - Status: Healthy
-  - HP: 164 / 176 [Turn 12839]
-  - Stats: Attack 129, Defense 150, Speed 129, Special 133
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 8/10) [Turn 12849]
+  - HP: 167 / 179 [Turn 12886]
+  - Stats: Attack 132, Defense 153, Speed 132, Special 135
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 8/10) [Turn 12886]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -3132,5 +3132,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 11F Southern Passage: At (3, 10) facing south. Unobstructed corridor along cols 1..3 continues down to row 14, where open floor turns east across cols 4..7 [Turn 12872].
 - 11F Grunt Encounter: Stepped to (3, 12); Rocket Grunt from (3, 13) confronted player with 'Stop right there! Don't you move!' [Turn 12873].
+- 11F Grunt Defeated: At (3, 13). Team: Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32. Prize �960 [Turn 12886]. Sheldon reached Lv 57.
 
 <hr>
