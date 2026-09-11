@@ -59,7 +59,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥90700 [Turn 12931]
+- ¥91450 [Turn 12977]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 57, Water]

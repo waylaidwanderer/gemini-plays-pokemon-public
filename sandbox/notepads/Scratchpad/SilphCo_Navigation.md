@@ -94,3 +94,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - Elevator Lobby at (13, 0).
   - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
   - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
+- 11F Rocket Grunt at (15, 9) Defeated: Team: Rattata Lv 25, Rattata Lv 25, Zubat Lv 25, Rattata Lv 25, Ekans Lv 25. Prize ¥750 [Turn 12977].

@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 57, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥90700 [Turn 12931]
+- Money: ¥91450 [Turn 12977]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -195,7 +195,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥90700 [Turn 12931]
+- ¥91450 [Turn 12977]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 57, Water]
@@ -3144,5 +3144,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - Elevator Lobby at (13, 0).
   - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
   - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
+- 11F Rocket Grunt at (15, 9) Defeated: Team: Rattata Lv 25, Rattata Lv 25, Zubat Lv 25, Rattata Lv 25, Ekans Lv 25. Prize ¥750 [Turn 12977].
 
 <hr>
