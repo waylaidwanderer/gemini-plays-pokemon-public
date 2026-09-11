@@ -121,6 +121,7 @@
 - [x] Catch wild Chansey (LUCKY) Lv 26 in Safari Zone Area 2 [Turn 8384]
 - [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
+- [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
 
 <hr>
 
@@ -130,15 +131,12 @@
 
 ## Regular Items
 - SUPER REPEL x4 [Verified Turn 11080]
-- TM21 (MEGA DRAIN) x1 [Received Turn 6802, Verified Turn 11081]
-- TM06 (TOXIC) x1 [Received Turn 12216 from Koga]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Verified Turn 11891]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 
 ## Key Items & HMs
-- OLD ROD [Verified Turn 11080]
 - HM01 (CUT) [Verified Turn 11080]
 - HM05 (FLASH) [Verified Turn 11080]
 - BICYCLE [Verified Turn 11080]
@@ -152,29 +150,29 @@
 - HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 16 / 20
 - Complete Top-to-Bottom Slot Order:
-  1. OLD ROD
-  2. HM01
-  3. HM05
-  4. BICYCLE
-  5. SUPER REPEL x4
-  6. COIN CASE
-  7. LIFT KEY
-  8. SILPH SCOPE
-  9. POKÉ FLUTE
-  10. TM21 x1
-  11. SUPER ROD
-  12. FULL RESTORE x1
-  13. MAX POTION x1
-  14. HM04
-  15. GOOD ROD
-  16. HM03
-  17. REVIVE x5
-  18. FULL HEAL x5
-  19. TM06
+  1. HM01
+  2. HM05
+  3. BICYCLE
+  4. SUPER REPEL x4
+  5. COIN CASE
+  6. LIFT KEY
+  7. SILPH SCOPE
+  8. POKÉ FLUTE
+  9. SUPER ROD
+  10. FULL RESTORE x1
+  11. MAX POTION x1
+  12. HM04
+  13. GOOD ROD
+  14. HM03
+  15. REVIVE x5
+  16. FULL HEAL x5
 
 ## Stored / PC Items
+- OLD ROD x1 (PC) [Stored Turn 12567]
+- TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
+- TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
 - MOON STONE x1 (PC) [Stored Turn 12205]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -191,9 +189,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 55, Water]
   - Status: Healthy
-  - HP: 165 / 173 [Level 55 Turn 12411]
+  - HP: 173 / 173 [Healed Turn 12560]
   - Stats: Attack 127, Defense 148, Speed 127, Special 130
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 11/15), Surf (PP 11/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12195]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 12560]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -1619,7 +1617,7 @@
 - Town Signpost at (11, 9): "LAVENDER TOWN / The Noble Purple Town" [Turn 4863].
 
 ## Key Buildings & Facilities
-- Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Historic full party heal completed [Turn 6213]. Active warp anchor subsequently updated to Fuchsia City [Turn 12195].
+- Pokémon Center: Located at cols 2..5, rows 2..5. Front entrance door at (3, 5), "POKé" sign at (4, 5). Entrance mat at (3..4, 7). Counter at (3, 2..3). PC located at (13, 3..4), accessed by standing at (13, 4) facing North [Verified Turn 6576]. Historic full party heal completed [Turn 6213]. Active warp anchor subsequently updated to Celadon City [Turn 12560].
 - Poké Mart: Located at cols 14..17, rows 11..13. Front entrance door at (15, 13), "MART" sign at (16, 13) [Sighted Turn 4861].
   - Interior: Clerk counter at (0..1, 5), talk from (2, 5) facing West. Customer at (3, 4). Entrance mat at (3..4, 7).
   - Catalog Items: GREAT BALL (¥600), SUPER POTION (¥700), REVIVE (¥1500), ESCAPE ROPE (¥550), SUPER REPEL (¥500), ANTIDOTE (¥100), BURN HEAL (¥250), ICE HEAL (¥250), PARLYZ HEAL (¥200) [Verified Turn 4872].
@@ -1815,39 +1813,6 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Underground Path Building: located at (4..7, 10..13) with entrance door at (5, 13).
 - Signpost at (3, 13): "UNDERGROUND PATH / CELADON CITY - LAVENDER TOWN".
 - Paved path spanning rows 14-15 south of Underground Path building terminates to the west at col 2 against a treeline (cols 0-1).
-- Physical Collision Constraints (Verified):
-  - (2, 11): Impassable ledge from south (Turn 5235).
-  - (1, 12): Impassable tree boundary (Turn 5237).
-  - (1, 14): Impassable tree boundary; Cut confirmed not cuttable (Turn 5269).
-  - (1, 15): Impassable tree boundary (Turn 5277).
-  - (2, 16): Impassable tree boundary (Turn 5279).
-  - (17, 14): Impassable vertical fence (Turn 5228).
-  - (9, 11): Impassable horizontal fence (Turn 5288).
-  - (10, 11): Impassable horizontal fence (Turn 5290).
-  - (11, 11): Impassable horizontal fence (Turn 5293).
-  - (12, 11): Impassable gatehouse corner wall (Turn 5296).
-  - (13, 11): Impassable gatehouse brick wall (Turn 5298).
-  - (14, 11): Impassable gatehouse brick wall (Turn 5300).
-  - (15, 11): Impassable gatehouse brick wall (Turn 5303).
-  - (16, 11): Impassable gatehouse brick wall (Turn 5306).
-  - (17, 12): Impassable vertical fence (Turn 5306).
-  - (17, 13): Impassable vertical fence (Turn 5309).
-  - (17, 15): Impassable vertical fence (Turn 5309).
-  - (11, 8): Impassable vertical fence posts (Turn 5348).
-  - (1, 8): Impassable tree boundary (Turn 5355).
-  - (1, 9): Impassable tree boundary (Turn 5357).
-  - (7, 2): Impassable vertical ledge from east (Turn 5368).
-  - (1, 10): Impassable tree boundary (Turn 5391).
-  - (1, 13): Impassable tree boundary (Turn 5392).
-  - (17, 7): Impassable vertical fence post (Turn 5409).
-  - (6, 7): Impassable horizontal ledge from south (Turn 5427).
-  - (8, 1): Impassable tree boundary (Turn 5373).
-  - (7, 5): Impassable vertical ledge from east (Turn 5395).
-  - (7, 4): Impassable vertical ledge from east (Turn 5396).
-  - (7, 3): Impassable vertical ledge from east (Turn 5397).
-- Eastern Area: Solid vertical fence at col 17 (rows 11-15) encloses tall grass patch at cols 18-21 (rows 12-15).
-- Landmark at (20, 16..18): Stone statue/monument.
-- Gatehouse at cols 12-17 (rows 10-11): Windows on row 10, brick wall on row 11.
 ## Northern Highway Passage & Ledges (Verified)
 - Passage at (8, 11): Fully passable from the south (Turn 5316). Links southern Underground Path plaza directly to the northern highway at rows 8-10.
 - Gatehouse at cols 12-17 (rows 8-10): Fronted by impassable vertical fence posts at (11, 8) and (11, 9) (Turn 5348).
