@@ -32,6 +32,11 @@
 - Route 15 East Entrance Boulevard: Rows 16..18 cols 25..39.
 - Central Promenade: Walkable yellow brick promenade at cols 22..23 rows 16..21.
 
+### Northern Connecting Lawn Corridor (Row 14)
+- Open continuous lawn corridor running east-west along rows 13..14 spanning col 5 (Poké Mart) through col 18 (cut tree passage) [Verified Turns 11880-11914].
+- Bounded south by tree line at row 15 cols 1..11, Lapras enclosure at cols 9..12 rows 16..17, and open lawn at cols 13..18 rows 15..18.
+- Bounded north by Poké Mart at cols 4..7 rows 11..13 and tree line / Safari Zone perimeter at row 11.
+
 ### 3. Central Thoroughfare (Row 20..21 Avenue)
 - Continuous open paved boulevard along rows 20..21 spanning cols 2 through 25.
 - Northern Boundary: Zoo statues along row 19, cut tree at (18, 19) [CHOPPED DOWN, Turn 11835].

@@ -9,8 +9,6 @@
 - MAX POTION x1 [Slot 15] [Verified Turn 11891]
 - REVIVE x5 [Slot 19] [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Slot 20] [Purchased Turn 11905 at Fuchsia Mart]
-- Sold: CARBOS x1 (sold Turn 11889 for ¥4900 at Fuchsia Mart)
-- Sold: TM40 x1 SKULL BASH (sold Turn 11892 for ¥2000 at Fuchsia Mart)
 
 ## Key Items & HMs
 - GOOD ROD [Obtained Turn 11176 in Fuchsia City]
