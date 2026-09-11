@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Regular Items
-- RARE CANDY x3 [Slot 1] [Verified Turn 11738]
+- RARE CANDY x4 [Slot 1] [Verified Turn 12026]
 - SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
 - MOON STONE x1 [Slot 8] [Verified Turn 11080]
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
