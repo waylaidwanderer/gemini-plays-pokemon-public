@@ -6,9 +6,9 @@
 
 - Badges: 4 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 53, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 54, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥74133 [Turn 12121]
+- Money: ¥75453 [Turn 12136]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -184,14 +184,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥74133 [Turn 12121]
+- ¥75453 [Turn 12136]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
+- BLASTOISE (Nickname: SHELDON) [Lv 54, Water]
   - Status: Healthy
-  - HP: 166 / 166 [Healed via Max Potion Turn 11740]
-  - Stats: Attack 122, Defense 142, Speed 122, Special 124
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 15/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
+  - HP: 170 / 170 [Level 54 Turn 12134]
+  - Stats: Attack 124, Defense 144, Speed 124, Special 127
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 12/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -2946,7 +2946,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 8 [Turn 12105].
 - Trainer 3 (Juggler Kirk) at (7..8, 8): DEFEATED Turn 12117! Team: Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31. Prize: ¥1085. Intro: "I wanted to become a ninja, so I...". Defeat: "I'm done for!".- Trainer Sightline Mechanics: Invisible walls act as solid collision blocks that completely obstruct trainer vision lines (empirically confirmed Turn 12088: standing at (4, 13) in column 4 looking directly at trainer at (4, 10) did not trigger combat due to invisible wall at (4, 12)).
 
-- Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Intro: "I also study the way of the ninja...".
+- Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize: ¥1320. Intro: "I also study the way of the ninja...". Defeat: "Awoo!".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
 
 <hr>
