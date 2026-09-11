@@ -2544,7 +2544,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - East: Route 15 at (39, 16..17) [Verified Turn 7316].
 - North: Safari Zone entrance at (18, 3).
 - South: Route 19 (sea route to Seafoam Islands).
-- West: Route 18 (Cycling Road gatehouse) at (0, 16..17).
+- West: Route 18 at (0, 16..17).
 
 ## Points of Interest
 - Fuchsia Pok�mon Center
@@ -2611,7 +2611,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Eastern Avenue: Cols 34..36 rows 26..31+ connecting South Street north to Route 15 boulevard.
 
 ### 5. Southwest Gym & Pok�mon Center Courtyard
-- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27) (observed visually from exterior).
+- Fuchsia Gym: Cols 4..9 rows 24..27, entrance door at (5, 27).
 - Pokémon Center: Cols 18..21 rows 24..27, entrance door at (19, 27) [Verified Turn 12057], POKé sign at (20, 27).
 - Courtyard Apron: Continuous east-west paved road along rows 28..29 in front of Gym and Pok�mon Center.
 - Courtyard Boundaries & Access:
