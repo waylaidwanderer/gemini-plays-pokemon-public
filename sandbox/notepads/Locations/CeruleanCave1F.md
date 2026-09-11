@@ -19,7 +19,3 @@
     - Ledge at (25, 9) drops south/east onto (25, 10).
 - **Ladder E**: Located at (7, 1) <-> 2F West sector (9, 1). Reachable via Northern Waterway.
 - **Ladder D**: Located at (29, 1) <-> 2F NE pocket (29, 1).
-
-## Progression Hypotheses & Exploration Plan
-- **Hypothesis 1 (1F Waterway Route)**: From Upper Plateau / lower corridors, locate the water shoreline to Surf north directly to Ladder E at (7, 1) and access 2F West Sector.
-- **Hypothesis 2 (2F High-Altitude Thoroughfare)**: Ascend Ladder B (23, 7) or Ladder C (18, 9) to 2F and test Row 1 North Bypass on foot (without bicycle turn ambiguities) to determine if Column 10 connects to Ladder A at (1, 3).
