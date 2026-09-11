@@ -21,6 +21,7 @@
 - POK� FLUTE [Slot 11] [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Slot 13] [Obtained Turn 7001, Verified Turn 11081]
 - HM04 (STRENGTH) [Slot 16] [Received Turn 8274, Verified Turn 11082]
+- GOOD ROD [Slot 17] [Obtained Turn 11176, Verified Turn 11905]
 - HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
