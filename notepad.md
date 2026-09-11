@@ -3044,7 +3044,7 @@
 - **Ladder D Isolated Pocket (Verified Turn 42807)**: Ladder D at 2F (29, 1) leads only to an isolated dead-end hook: (29, 1) <-> (28, 1..3) <-> (29, 3..5). All surrounding tiles (28, 4..5), (29, 6), etc. are solid rock. It has NO connection to the main 2F network.
 - **2F North/Central Network Isolation (Verified Turn 42887)**: The entire continuous North/Central network on 2F spanning cols 3..22 and rows 1..5 connects Ladder C at (19, 7) and Ladder E at (9, 1), but has NO southern exits.
 - **Row 15/16 South Boundary (Verified Turns 43064-43071)**:
-  - Column 15 runs south from Row 13 to (15, 15), but (15, 16) is solid purple rock.
+  - Column 15 runs south from Row 13 to (15, 13) only; tile (15, 14) is solid purple rock blocking southern passage along Column 15.
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
 ## Verified 2F NW Sector & Ladder A Topology (Verified Turns 43125-43128)
 - Ladder A is located at 2F (1, 3) and descends to B1F!
