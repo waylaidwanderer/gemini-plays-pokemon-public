@@ -124,6 +124,7 @@
 - [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
 - [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
 - [x] Give Fresh Water to Saffron Gatehouse guard and unlock Saffron City [Turn 12619]
+- [x] Enter Saffron City and heal at Saffron Pokémon Center to set warp anchor [Turn 12658]
 
 <hr>
 
