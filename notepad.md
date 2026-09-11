@@ -2938,5 +2938,8 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Cleanse Toxic immediately with Full Heal (5 in bag).
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Defeat line: "What? Extraordinary!".
+- Trainer 2 at (4, 10): Facing South down column 4.
+- Trainer 3 at (1, 12): Stationed on west side.
+- Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 
 <hr>
