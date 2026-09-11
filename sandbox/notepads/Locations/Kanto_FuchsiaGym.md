@@ -19,6 +19,6 @@
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Defeat line: "What? Extraordinary!".
 - Trainer 2 at (4, 10): Facing South down column 4.
-- Trainer 2 (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Intro: "Let's see you beat my special...".
+- Trainer 2 (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) is blocked by invisible wall [Confirmed Turn 12089]. Dashed line patterns on floor indicate invisible barrier segments.
