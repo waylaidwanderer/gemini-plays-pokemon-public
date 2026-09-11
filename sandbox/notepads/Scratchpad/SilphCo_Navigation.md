@@ -25,6 +25,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 | 3F | (11, 11) | Unknown Floor | (5, 3) | Verified Turn 12823 |
 | Unknown Floor | (5, 3) | 3F | (11, 11) | Verified Turn 12824 (Reciprocal) |
 | Unknown Floor (Lapras Room) | (5, 7) | Unknown Floor | (3, 2) | Verified Turn 12868 |
+| Unknown Floor | (3, 2) | Unknown Floor (Lapras Room) | (5, 7) | Verified Turn 12869 (Reciprocal) |
 
 ## Floor-by-Floor Progression Log
 - 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Large central fountain and terminal complex at cols 9..15, rows 5..10. Western corridor (cols 6..8) is an open northbound thoroughfare leading toward north wall elevator/stairs [Verified Turn 12711].
@@ -76,3 +77,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - Rival RED Defeated: At (3, 4). Team: Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40. Prize �2600 [Turn 12851].
 - Silph Employee at (1, 5): Gives gift Lapras (nicknamed NESSY, Lv 15); sent directly to PC Box 1 [Turn 12858, Verified Turn 12865].
 - Warp from (5, 7) Arrival: Arrived at (3, 2) on Unknown Floor [Turn 12868]. Corridor at cols 1..3 (rows 1..6), indoor garden at row 0, wall at col 4, Rocket Grunt sighted at (7, 5).
+- (3, 2) Arrival Tile: Confirmed as a red reciprocal warp pad [Verified Turn 12869]. Western corridor extends south along cols 1..3 past row 10, shielded by col 4 wall from NPCs at (7, 5) and (6, 9).
