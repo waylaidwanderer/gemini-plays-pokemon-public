@@ -40,3 +40,4 @@
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Empirical Proof (Turn 12037):** Facing the pond at (31, 22) in Fuchsia City, selecting SURF on Blastoise (SHELDON) displayed: "No! A new BADGE is required."
 - **Strategic Implication:** Surf is strictly unusable before defeating Gym Leader Koga. The path to Fuchsia Gym and Pokémon Center cannot require Surf.
+- **Dismounting for Precision Alignment:** While mounted on the Bicycle, locomotion advances in 2-tile strides along unobstructed ground, preserving coordinate parity (even or odd). Dismounting the Bicycle (Start -> ITEM -> BICYCLE -> USE) returns the player to 1-tile precision walking, which trivially allows navigating into odd-coordinate openings (such as the column 13 fence gap at (13, 11) on Route 14) without requiring obstacle collision to shift parity.

@@ -13,9 +13,6 @@
 - Trainers: Jugglers and Tamers using Psychic and Poison Pokémon (Drowzee, Hypno, Kadabra, Arbok, Sandslash).
 - Gym Leader Koga: Located in the central chamber.
 
-## Combat Tactics
-- Blastoise Lv 53 leads with STAB Surf to target the low Special stat of Koga's team (Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43).
-- Cleanse Toxic immediately with Full Heal (5 in bag).
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Prize: ¥1330. Defeat line: "What? Extraordinary!".
 - Trainer (Juggler) at (1, 12): DEFEATED Turn 12098! Team: Drowzee Lv 34, Kadabra Lv 34. Prize: ¥1190. Intro: "Let's see you beat my special...". Defeat: "You had me fooled!".
