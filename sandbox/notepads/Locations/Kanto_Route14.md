@@ -1,7 +1,7 @@
 # Route 14 - Kanto
 
 ## Connections
-- East: Route 13 at (19, 4) <-> Route 13 (0, 4) [Verified Turn 7148].
+- East: Route 13 connects via Row 4 at (19, 4) <-> Route 13 (0, 4) [Verified Turn 7148] AND via Row 8 at (19, 8) <-> Route 13 (0, 8) [Empirically Verified Turn 12436].
 - West: Route 15 at col 0, rows 46..47 [Verified Turn 7219].
 
 ## Geography & Layout

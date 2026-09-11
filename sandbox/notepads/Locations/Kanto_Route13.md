@@ -46,3 +46,4 @@
   - Col 26 has vertical fence at rows 3..5 [Verified Turn 7106].
 - Bird Keeper at (12, 4): Stationed at (12, 4). Line: "The wind's blowing my way!". Engaged at (14, 4). Defeated sprite at (12, 4) is a solid impassable obstacle when moving east from (11, 4) [Verified Turn 11608]. Pok�mon: Spearow Lv 25, Pidgey Lv 25, Pidgey Lv 25, Spearow Lv 25, Spearow Lv 25. Defeated on Turn 7142 [Turn 7142].
 - Route 14 Connection: Row 4 connects west into Route 14 past col 0, but is blocked at (12, 4) by the Bird Keeper when traveling east. It is NOT an open corridor across cols 0..24 [Corrected Turn 12422].
+- Route 14 Row 8 Connection: Route 14 connects into Route 13 along Row 8 at (0, 8) from Route 14 (19, 8). Row 8 is an open dirt corridor bounded north by Row 7 fence and south by Row 9 fence, completely bypassing the Row 4 Bird Keeper block [Empirically Verified Turn 12436]. Opening at (4..5, 9) connects Row 8 south into Row 10.
