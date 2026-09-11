@@ -2936,5 +2936,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 ## Combat Tactics
 - Blastoise Lv 53 leads with STAB Surf to target the low Special stat of Koga's team (Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43).
 - Cleanse Toxic immediately with Full Heal (5 in bag).
+## Trainers & Battles
+- Trainer 1 (Juggler) at (8, 13..14): Engaged Turn 12068 on column 8. Intro: "Strength isn't the key for POKéMON...".
 
 <hr>
