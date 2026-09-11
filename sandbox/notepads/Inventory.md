@@ -57,7 +57,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥70528 [Verified Turn 11905]
+- ¥74133 [Turn 12121]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
@@ -82,7 +82,7 @@
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
-  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 23/30) [Used Turn 7487]
+  - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 30/30)
   - EXP: 125 (91 to Lv 6)
 - DIGLETT (Nickname: DIGBY) [Lv 19, Ground]
   - Status: Healthy
