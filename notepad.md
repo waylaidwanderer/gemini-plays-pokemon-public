@@ -1765,7 +1765,6 @@
 ## Landmarks & Connections
 - East: Lavender Town.
 - North: Underground Path entrance building at (13, 3) leading to Route 7.
-- West: Saffron City East Gatehouse (guard asks for drinks; road blocked).
 
 
 <hr>
@@ -1818,7 +1817,12 @@ Short east-west route connecting the Underground Path (Route 7-8) to Celadon Cit
 - Paved path spanning rows 14-15 south of Underground Path building terminates to the west at col 2 against a treeline (cols 0-1).
 ## Northern Highway Passage & Ledges (Verified)
 - Passage at (8, 11): Fully passable from the south (Turn 5316). Links southern Underground Path plaza directly to the northern highway at rows 8-10.
-- Gatehouse at cols 12-17 (rows 8-10): Fronted by impassable vertical fence posts at (11, 8) and (11, 9) (Turn 5348).
+- Saffron West Gatehouse (cols 12..17, rows 8..11):
+  - West entrance door from Route 7 at (12, 10) [Verified Turn 12616].
+  - Fronted by vertical fence posts at (11, 8) and (11, 9).
+  - Interior: Guard counter in center. Giving Fresh Water unlocks passage east to Saffron City [Turn 12619].
+  - East exit onto Route 7 eastern border at (18, 10) [Turn 12624].
+  - Saffron City Map Transition: Stepping east across col 20 at row 18 warps into Saffron City at (0, 18) [Verified Turn 12629].
 - Ledge System:
   - Vertical ledge at col 7 (rows 2-6): Impassable when moving west from col 8 (Turn 5327, Turn 5368).
   - Horizontal Ledges on Row 7: Impassable from south at (6, 7) (Turn 5427); ledge drops south at (2, 7), (3, 7), (5, 7).
