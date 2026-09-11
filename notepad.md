@@ -2980,7 +2980,7 @@
   - Contains Ladder E at (7, 1) <-> 2F (9, 1).
   - Floor verified spanning (5..15, 0..2). Southern boundary at Row 3 is a cliff wall overlooking the NW Lower Basin.
   - Collision test on Turn 43519 confirmed Tile (4, 0) is a solid rock wall (blocked moving Left from (5, 0)).
-  - Rows 1 and 2 at Column 4 are visually solid rock, while the shelf connects east to the water ramp at (15, 3). No confirmed ground path exists from this shelf to the NW basin. Access to NW Lower Basin is via 1F Waterways.
+  - Rows 1 and 2 at Column 4 are visually solid rock, while the shelf connects east to the water ramp at (15, 3). No confirmed ground path exists from this shelf to the NW basin.
 - **East Landing to South Floor Connectivity (Verified Turns 42934, 42939)**:
   - Ramp at (21, 11) connects East Landing (cols 21..25, rows 6..10) directly down to South Ground Level (cols 20..25, rows 12..15).
   - Cave entrance/exit mat at (24..25, 17) connects to Route 24 waterway.
@@ -3074,7 +3074,7 @@
 - Probe at (16, 7) -> Right (17, 7): Solid Rock (Blocked)
 - Conclusion: The North/Central sector on 2F (cols 3..22, rows 1..7) is 100% bounded on the south by solid rock walls and dead-end pockets.
 - South Sector (Ladder B at 22, 6): Verified isolated loop terminating at (14, 13) and (21..28, 17); no western passage across col 20 rock wall.
-- Focus: Shift exploration to 1F waterways, specifically the western branch of the Northern Waterway leading to the NW basin ladder at 1F (1, 3).
+
 
 <hr>
 
