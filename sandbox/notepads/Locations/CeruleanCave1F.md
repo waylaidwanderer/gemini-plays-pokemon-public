@@ -16,7 +16,8 @@
   - Row 16 is solid rock across (14..20, 16).
   - Tile (13, 16) is the single verified open ground corridor/gap connecting Row 17 (13, 17) directly to the Central Platform at (13, 15).
   - Central-East transit corridor: (21, 6..9) is open continuous purple floor connecting Row 9 directly north to (21, 6) and the Northern Waterway at (21, 5).
-  - Row 9 connects Column 12 at (12, 9) east across (17..22, 9) to Ladder C at (18, 9) and Ladder B landing at (23, 7).
+  - Central-East transit corridor: (21, 6..9) is open continuous purple floor connecting Row 9 directly north to (21, 6) and Ladder B landing at (23, 7).
+  - Collision Constraint: (20, 9)/(19, 9) is solid rock collision blocking horizontal passage along Row 9 between Ladder B landing (23, 7) and Ladder C (18, 9).
 - **South Ground Highway (Row 17)**: Walkable ground spanning (10..19, 17).
   - West end of central pocket terminates at (10, 17); (9, 17) is blue rock.
   - Connects to Central Platform via (13, 17) <-> (13, 16) <-> (13, 15).
