@@ -3145,5 +3145,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
   - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
 - 11F Rocket Grunt at (15, 9) Defeated: Team: Rattata Lv 25, Rattata Lv 25, Zubat Lv 25, Rattata Lv 25, Ekans Lv 25. Prize ¥750 [Turn 12977].
+- (13, 3) Archway Test: East approach from (14, 3) blocked [Turn 12978]. Testing north approach from (13, 2).
 
 <hr>
