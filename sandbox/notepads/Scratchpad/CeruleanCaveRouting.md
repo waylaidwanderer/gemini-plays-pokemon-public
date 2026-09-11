@@ -16,3 +16,4 @@
 2. **Option B (Cerulean / Route 24 Outer Waterway Traversal)**:
    - Descend Ramp (21, 11) to Entrance Basin, exit to Cerulean City, board water with Surf at (6, 12), and surf north to Route 24 to explore the full waterway network.
 - **Tile (25, 9) Verification (Turn 44916)**: Stepped Down from (25, 8) onto (25, 9). Player stands directly on (25, 9) without jumping. Probing adjacent tiles (26, 9) and (25, 10).
+- **Tile (26, 9) Verification (Turn 44918)**: Probed Right from (25, 9); blocked by solid rock wall at (26, 9).
