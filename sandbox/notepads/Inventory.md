@@ -64,10 +64,10 @@
   - Status: Healthy
   - HP: 166 / 166 [Healed via Max Potion Turn 11740]
   - Stats: Attack 122, Defense 142, Speed 122, Special 124
-  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 1/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12059]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Fainted [Turn 7302]
-  - HP: 0 / 26
+  - Status: Healthy [Healed Turn 12059]
+  - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
@@ -78,8 +78,8 @@
   - Moves: Scratch (PP 34/35)
   - EXP: 1000 (331 to Lv 11)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Fainted [Turn 7295]
-  - HP: 0 / 20
+  - Status: Healthy [Healed Turn 12059]
+  - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
   - Moves: Peck (PP 35/35), Sand-Attack (PP 15/15), Cut (PP 23/30) [Used Turn 7487]
@@ -93,8 +93,8 @@
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Fainted [Turn 7292]
-  - HP: 0 / 30
+  - Status: Healthy [Healed Turn 12059]
+  - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 19/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
