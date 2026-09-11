@@ -49,11 +49,17 @@
   - Column 15 runs south from Row 13 to (15, 13) only; tile (15, 14) is solid purple rock blocking southern passage along Column 15.
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
 - **Ladder C Landing Southern Barrier (Verified Turn 43693)**: Tile (18, 8) is solid purple rock (empirically blocked moving Down from (18, 7)). The Ladder C landing at (18..19, 5..7) is completely bounded to the south by Row 8 rock wall ((16..22, 8)); there is NO passage south into Row 9 from Ladder C landing.
-## Verified 2F Sub-Graph Partitioning
-- **Central/North Sub-Graph (Reachable ONLY via Ladder C at (19, 7) or Ladder E at (9, 1))**:
-  - Connects Ladder C (19, 7), Central Hub (19, 5), S-Bypass (21, 5 -> 22, 2 -> 18, 1), Row 1 North Bypass (18..3, 1), Row 3 West Corridor (3..9, 3), Column 3 (3, 1..3), Ladder E (9, 1), and Ladder A (1, 3) -> B1F!
-- **Southeast Sub-Graph (Reachable ONLY via Ladder B at (22, 6))**:
-  - Connects Ladder B landing (22, 6), Column 23 (23, 7..11), Row 11 (14..23, 11), Row 13 (17..22, 13), Row 17 (21..28, 17).
-  - COMPLETELY DISCONNECTED from Central/North network. Does NOT lead to B1F/Mewtwo!
-- **NE Sub-Graph (Reachable ONLY via Ladder D at (29, 1))**:
-  - Isolated dead-end hook.
+- **Column 10 Partition Barrier (Empirically Verified Turn 44547-44548)**:
+  - Column 10 is a solid continuous rock wall ((10, 0..5)) separating the 2F Central/East sector (cols 11..29) from the 2F West sector (cols 1..9).
+  - Tile (10, 1) is solid purple rock. Row 1 North Bypass does NOT connect across Column 10.
+  - As a result, the 2F West sector containing Ladder A at (1, 3) (which descends to B1F/Mewtwo) CANNOT be reached overland from Ladder C (19, 7) or Ladder B (22, 6).
+  - The 2F West sector is accessible EXCLUSIVELY via Ladder E at (9, 1), which connects directly to 1F at (7, 1).
+- **Verified 2F Sub-Graph Partitioning**:
+  - **West Sub-Graph (Reachable ONLY via Ladder E at (9, 1) <-> 1F (7, 1))**:
+    - Spans cols 1..9, rows 0..5.
+    - Contains Ladder E at (9, 1) and Ladder A at (1, 3) [Direct descent to B1F/Mewtwo!].
+    - Route: Ascend Ladder E from 1F (7, 1) -> arrive at 2F (9, 1) -> walk Left across Row 1 (8..3, 1) to (3, 1) -> walk Down to (3, 3) -> walk Left to (1, 3) -> descend Ladder A to B1F!
+  - **Central/East Sub-Graph (Reachable via Ladder C at (19, 7) <-> 1F (18, 9))**:
+    - Spans cols 11..29, rows 1..19. Contains S-Bypass, Row 1 East corridor (11..18, 1), and Ladder B landing (22, 6). Contains items (Max Potion, TM14, PP Up). Completely isolated from Ladder A.
+  - **NE Sub-Graph (Reachable ONLY via Ladder D at (29, 1))**:
+    - Isolated dead-end hook.
