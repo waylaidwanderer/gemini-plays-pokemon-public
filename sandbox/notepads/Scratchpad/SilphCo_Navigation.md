@@ -13,7 +13,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - Card Key: Unlocks electronic shutter doors across all floors. Must locate Card Key on early floors.
 - Warp Tile Network: Teleport pads connect specific coordinates between floors.
 - Elevator: Connects 1F through 11F.
-- Unverified Hypotheses: External rumors suggest a Rival encounter, a gift Pokémon, and an executive suite on upper floors (unverified).
+- Unverified Hypotheses: External rumors suggest a Rival encounter, a gift Pokï¿½mon, and an executive suite on upper floors (unverified).
 
 ## Floor Warp Graph (Source -> Destination)
 | From Floor | From Coord | To Floor | To Coord | Verified Turn |
@@ -55,4 +55,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
-- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize ¥840 [Turn 12818].- 3F Southeast Warp Tile: Sighted at (23, 11) [Turn 12819].
+- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize ï¿½840 [Turn 12818].- 3F Southeast Warp Tile: Sighted at (23, 11) [Turn 12819].
+
+- 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.
