@@ -87,3 +87,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 3F Northwest Room: Item ball sighted at (8, 5) behind west shutter door; Scientist stationed at (7, 9) facing East [Turn 12903].
 - 11F Main Floor: Arrived via elevator at (13, 0) [Turn 12910]. Elevator lobby spans cols 9..15, rows 0..2. South corridor along cols 14..15 leads toward the executive office.
 - 11F South Corridor Verified: Cols 14..15 is a dead end terminating at row 17 south wall. Returning north to elevator lobby to proceed west along row 2 [Turn 12917].
+- Silph Co Architecture Verified: 11F Elevator opens onto an isolated dead-end lobby. The actual main 11F executive suite where Giovanni and the President are located is ONLY accessed via the 7F warp pad at (5, 7) -> 11F (3, 2)! Route: Elevator to 3F -> warp at (11, 11) to 7F (5, 3) -> step to 7F (5, 7) -> warp to 11F (3, 2) -> south corridor to President's boardroom [Turn 12922].
