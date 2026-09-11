@@ -19,7 +19,6 @@
 ## Trainers & Battles
 - Trainer 1 (Juggler) at (8, 13..14): DEFEATED Turn 12075! Team: Hypno Lv 38. Defeat line: "What? Extraordinary!".
 - Trainer 2 at (4, 10): Facing South down column 4.
-- Trainer 3 at (1, 12): Stationed on west side.
+- Trainer 2 (Juggler) at (1, 12): Engaged Turn 12091 from (1, 13). Intro: "Let's see you beat my special...".
 - Maze Notes: Central aisle (col 4) is completely clear from row 17 north to row 13.
 - Wall Discovery: (4, 12) is blocked by invisible wall [Confirmed Turn 12089]. Dashed line patterns on floor indicate invisible barrier segments.
-- Open gap at (0, 12) allows passage north into west corridor.

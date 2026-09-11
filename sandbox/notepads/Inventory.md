@@ -64,7 +64,7 @@
   - Status: Healthy
   - HP: 166 / 166 [Healed via Max Potion Turn 11740]
   - Stats: Attack 122, Defense 142, Speed 122, Special 124
-  - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 0/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10) [Verified Turn 12073: Nurse Joy heal canceled]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
