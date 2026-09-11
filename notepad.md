@@ -3088,6 +3088,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F South Teleporter & Grunt: Rocket Grunt stationed at (8, 16) facing west. Teleporter pad at (9, 15) directly above row 16 corridor (9, 16). Shutter door at (7, 12..13) [Sighted Turn 12747]. Interacting directly with Grunt at (8, 16) to test passage [Turn 12751].
 - 5F South Grunt Defeated: At (8, 16). Team: Arbok Lv 33. Prize �990 [Turn 12754].
 - 5F Grunt Collision Verified: Defeated Grunt at (8, 16) is solid and blocks passage on foot [Turn 12755]. Now stepping Right onto teleporter pad at (9, 15) [Turn 12756].
-- 5F (9, 15) Warp Arrival: Arrived at (17, 15) on unknown floor [Turn 12757]. Room features: Scientist at (21, 13), Rocket Grunt at (13, 16), desks at cols 16..19, rows 12..15. Player standing on arrival warp pad at (17, 15).
+- 5F (9, 15) Warp Arrival: Arrived at (17, 15) on 9F [Verified Turn 12760]. Two-way reciprocal warp to 9F healing bed floor. Stepped off pad to (17, 14), then stepped back onto (17, 15) to return to 5F (9, 15).
+- 5F South Corridor Infiltration: Successfully bypassed defeated Grunt at (8, 16) by warping to 5F (9, 15). Now stepping Down into row 16 corridor and walking East toward Card Key at (21, 16).
 
 <hr>
