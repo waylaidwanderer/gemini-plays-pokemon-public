@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 55, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥83195 [Turn 12522]
+- Money: ¥82995 [Turn 12585]
 - Pokédex: 14 Caught / 50+ Seen [Chansey (LUCKY) Caught Turn 8384]
 
 ## Milestones
@@ -122,6 +122,7 @@
 - [x] Catch wild Kangaskhan (MATILDA) Lv 25 in Safari Zone Area 1 [Turn 9001]
 - [x] Defeat Fuchsia Gym Leader Koga & earn Soulbadge [Turn 12177]
 - [x] Traverse Routes 15, 14, 13, 12, 8, and 7 back to Celadon City [Turn 12558]
+- [x] Purchase Fresh Water on Celadon Dept. Store Roof [Turn 12585]
 
 <hr>
 
@@ -135,6 +136,7 @@
 - MAX POTION x1 [Verified Turn 11891]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
+- FRESH WATER x1 [Purchased Turn 12585 on Dept. Store Roof]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -150,7 +152,7 @@
 - HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 16 / 20
+- Total Slots Used: 17 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. HM05
@@ -168,6 +170,7 @@
   14. HM03
   15. REVIVE x5
   16. FULL HEAL x5
+  17. FRESH WATER x1
 
 ## Stored / PC Items
 - OLD ROD x1 (PC) [Stored Turn 12567]
@@ -184,7 +187,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥83195 [Turn 12522]
+- ¥82995 [Turn 12585]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 55, Water]
