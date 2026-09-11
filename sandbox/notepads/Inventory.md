@@ -5,10 +5,10 @@
 - SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
 - MOON STONE x1 [Slot 8] [Verified Turn 11080]
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
-- CARBOS x1 [Slot 14] [Verified Turn 11081]
-- FULL RESTORE x1 [Slot 15] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
-- MAX POTION x2 [Slot 16] [Obtained Area 1 / Area 3, Verified Turn 11082]
-- TM40 (SKULL BASH) x1 [Slot 17] [Verified Turn 11082]
+- FULL RESTORE x1 [Slot 14] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
+- MAX POTION x1 [Slot 15] [Verified Turn 11891]
+- Sold: CARBOS x1 (sold Turn 11889 for ¥4900 at Fuchsia Mart)
+- Sold: TM40 x1 SKULL BASH (sold Turn 11892 for ¥2000 at Fuchsia Mart)
 
 ## Key Items & HMs
 - GOOD ROD [Obtained Turn 11176 in Fuchsia City]
@@ -25,7 +25,7 @@
 - HM03 (SURF) [Slot 20] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Good Rod obtained Turn 11176, Bag full).
+- Total Slots Used: 18 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892; 2 slots free).
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x3
   2. OLD ROD
@@ -37,16 +37,16 @@
   8. MOON STONE x1
   9. LIFT KEY
   10. SILPH SCOPE
-  11. POK� FLUTE
+  11. POKÉ FLUTE
   12. TM21 x1
   13. SUPER ROD
-  14. CARBOS x1
-  15. FULL RESTORE x1
-  16. MAX POTION x1
-  17. TM40 x1
-  18. HM04
-  19. GOOD ROD
-  20. HM03
+  14. FULL RESTORE x1
+  15. MAX POTION x1
+  16. HM04
+  17. GOOD ROD
+  18. HM03
+  19. [EMPTY]
+  20. [EMPTY]
 
 ## Stored / PC Items
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
@@ -58,7 +58,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥74128
+- ¥81028 [Verified Turn 11893]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
