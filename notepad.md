@@ -3057,8 +3057,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - Card Key: Unlocks electronic shutter doors across all floors. Must locate Card Key on early floors.
 - Warp Tile Network: Teleport pads connect specific coordinates between floors.
 - Elevator: Connects 1F through 11F.
-- Rival RED Encounter: Expected on upper floor (7F).
-- Lapras Gift: Employee on 7F gifts Lapras.
+- Unverified Hypotheses: External rumors suggest a Rival encounter, a gift Pok�mon, and an executive suite on upper floors (unverified).
 
 ## Floor Warp Graph (Source -> Destination)
 | From Floor | From Coord | To Floor | To Coord | Verified Turn |
@@ -3076,9 +3075,9 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 6F:
 - 7F:
 - 8F:
-- 9F: Healing bed / rest room.
+- 9F:
 - 10F:
-- 11F: Executive suite / Giovanni boss battle.
+- 11F:
 - 1F North Corridor: North wall at row 0. Open hallway spanning east across rows 1..2 (cols 7..13+). Vertical partition at col 6, rows 0..2, reception counter at (4..5, 3). [Verified Turn 12714]
 - 1F Elevator: Double silver sliding doors located at (20, 0), accessible from (20, 1) facing North [Verified Turn 12718].
 - Elevator Controls: Panel at (3, 0) inside elevator car opens scrolling floor list. Selected 5F at Turn 12722.
@@ -3098,5 +3097,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F Researcher at (8, 3): Friendly Silph Co scientist studying Poké Ball technology.- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize �1300 [Turn 12795].
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
+- 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
+- 3F Rocket Grunt Encounter: Stationed at (20, 7) facing West down row 7 corridor; challenged player at (18, 7) [Turn 12805]. Team includes Raticate Lv 28, Hypno Lv 28, and a 3rd Pok�mon.
 
 <hr>
