@@ -2507,7 +2507,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainers at Col 53:
   - Jr. Trainer ♀ at (53, 10) facing West (Team of 2: Pikachu Lv 29, Raichu Lv 29) [DEFEATED Turn 7249]. Prize: ¥580. Defeat line: "No, wrong!".
   - Beauty at (53, 11) facing South (Team of 2: Pidgeotto Lv 29, Wigglytuff Lv 29) [DEFEATED Turn 11578]. Prize: ¥2030. Defeat line: "You looked so cute too!".
-  - Defeated sprites at (53, 10) and (53, 11) remain solid; bypass via row 9 grass.
+  - Defeated sprites at (53, 10) and (53, 11) remain solid; paved bypass exists via row 12 to avoid tall grass encounters.
 - Trainers at Col 48 & 46:
   - Biker at (48, 10) facing South (Team of 5: Koffing Lv 25, Koffing Lv 25, Weezing Lv 25, Koffing Lv 25, Grimer Lv 25) [DEFEATED Turn 11564]. Prize: ¥500. Defeat line: "Why not?".
   - Biker at (46, 10) facing South (Team of 3: Koffing Lv 28, Grimer Lv 28, Weezing Lv 28) [DEFEATED Turn 11540]. Prize: ¥560. Defeat line: "That can't be true!".
@@ -2535,7 +2535,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Rows 8..9 cols 52..58 contain a tall grass / flower patch bounded north by row 7 south-facing jump ledge and south by rows 10..11 Central Paved Highway.
 - Stepping into rows 8..9 can trigger wild encounters.
 - Central Paved Highway (rows 10..11) and southern path (row 12) are completely paved/clear and 100% encounter-free.
-
 
 <hr>
 
