@@ -24,4 +24,4 @@
 - Wall Discovery: (4, 12) [Turn 12089] and (0, 11) [Turn 12102] are blocked by invisible walls.
 - Verified Passages: (0, 13) and (0, 12) confirmed open on foot [Turn 12101]. (0, 12) dead-ends north at (0, 11).
 - Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 8 [Turn 12105].
-- Trainer 3 (Juggler Kirk) at (7..8, 8): DEFEATED Turn 12117! Team: Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31. Intro: "I wanted to become a ninja, so I...".
+- Trainer 3 (Juggler Kirk) at (7..8, 8): DEFEATED Turn 12117! Team: Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31. Intro: "I wanted to become a ninja, so I...". Defeat: "I'm done for!".
