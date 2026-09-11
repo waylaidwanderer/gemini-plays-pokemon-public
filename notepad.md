@@ -2927,6 +2927,12 @@
     - Ledge at (25, 9) drops south/east onto (25, 10).
 - **Ladder D**: Located at (27, 1) <-> 2F NE pocket (29, 1). Verified Turn 44971: Connects directly to the Northern Waterway corridor (cols 23-28, rows 0-2), Ledge at (23, 3), and water at (23..29, 4..5).
 - **Ladder E**: Located at (7, 1) <-> 2F West sector (9, 1). Reachable via Northern Waterway.
+- **Central Plateau & Ramp (11, 13) (Verified Turn 44991)**:
+  - Ramp at (11, 13) connects northern water canal at (11, 14) up onto Central Plateau at (11, 12).
+  - Central Plateau spans cols 11-18 across rows 8-14.
+  - Row 12 corridor (11..15, 12) -> (15, 13..14) -> (16..17, 14) connects directly to South Ledge at (17, 15).
+  - South Ledge at (17, 15) drops down onto Lower Cavern Floor at (17, 16).
+  - Lower Cavern Floor spans rows 16-17 across cols 1-17, connecting directly to South Ramp at (1, 13) and Ladder at (3, 11).
 
 <hr>
 
