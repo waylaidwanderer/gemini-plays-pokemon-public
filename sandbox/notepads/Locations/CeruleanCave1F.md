@@ -16,9 +16,9 @@
 - **South Ground Highway (Row 17)**: Continuous walkable ground spanning (1..16, 17).
   - West end connects via (2, 17) -> (2, 14) -> (1, 13) [Western Ridge South Ramp].
   - East end connects via (15, 17) -> (17, 15) [South Ramp onto Central Platform].
-- **Western Ridge (South Sector)**: Cols 0-8, rows 8-13. Elevated plateau accessed via South Ramp at (1, 13). Visually confirmed on Turn 43751:
-  - **Ladder at (3, 11)**: A clear ladder graphic is present at (3, 11) on this elevated plateau.
-  - **Northern Boundary (Row 7-8)**: Lower ground visible north across rows 4-7 with a ladder visible at (0, 6) in the lower basin. Currently testing transition from (1, 8) to (1, 7).
+- **Western Ridge (South Sector)**: Cols 0-8, rows 8-13. Elevated plateau accessed via South Ramp at (1, 13).
+  - **Tile (3, 11)**: Features a decorative ladder graphic on the floor; empirically verified on Turn 43754 that stepping onto (3, 11) does NOT trigger a warp transition.
+  - **Northern Boundary (Row 7-8)**: Empirically verified on Turn 43753 that stepping Up from (1, 8) towards (1, 7) is blocked by the solid cliff wall. No direct passage north from Western Ridge to Row 7.
 - **Waterways**:
   - Northern Water Highway: Rows 4-5 (cols 14-20), Row 6-7 bypass (cols 10-15).
   - Western Water Channel: Cols 8-9 (rows 6-14).
