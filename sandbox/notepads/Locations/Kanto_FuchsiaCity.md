@@ -34,7 +34,7 @@
 
 ### 3. Central Thoroughfare (Row 20..21 Avenue)
 - Continuous open paved boulevard along rows 20..21 spanning cols 2 through 25.
-- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19).
+- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19) [CHOPPED DOWN, Turn 11835].
 - Southern Boundary: Continuous solid rock plateau along rows 22..23 across cols 3..22.
 - Major Junction: Connects to Central Avenue at col 24.
 

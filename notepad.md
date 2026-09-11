@@ -2556,7 +2556,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 ### 3. Central Thoroughfare (Row 20..21 Avenue)
 - Continuous open paved boulevard along rows 20..21 spanning cols 2 through 25.
-- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19).
+- Northern Boundary: Zoo statues along row 19, cut tree at (18, 19) [CHOPPED DOWN, Turn 11835].
 - Southern Boundary: Continuous solid rock plateau along rows 22..23 across cols 3..22.
 - Major Junction: Connects to Central Avenue at col 24.
 
@@ -2578,7 +2578,6 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
     - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
     - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
-
 
 <hr>
 
