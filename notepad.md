@@ -3016,7 +3016,7 @@
 - Column 23 Corridor: (23, 7..11) connects Ladder B landing at (22, 7) to Row 11 East corridor.
 - Row 11 Corridor: (17..23, 11) connects Column 17 to Column 23.
 - Row 13 Corridor: (17..22, 13) connects Column 17 to Column 21/22.
-- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..27, 17); blocked west by Column 20 rock wall.
+- Column 21-22 South S-Connector: (22, 13..15) -> (21, 15..17) leads to SE dead-end at (21..28, 17); confirmed blocked west by Column 20 solid rock wall (probed Turn 43630). Row 17 west of col 20 (cols 13..19) is accessed from the north via Column 13/14 corridor.
 - Row 17 South Artery: (21..28, 17) connects Column 21 to Column 28/29.
 
 ## Verified Items (2F)
@@ -3047,7 +3047,6 @@
   - Row 15 pocket spanning (15..19, 15) is a dead end bounded by rock to the north (Row 14), south (Row 16), and east (20, 15).
 ## Verified 2F NW Sector & Ladder A Topology (Verified Turns 43125-43128)
 - Ladder A is located at 2F (1, 3) and descends to B1F!
-
 
 <hr>
 
