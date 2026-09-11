@@ -192,7 +192,7 @@
   - Status: Healthy
   - HP: 170 / 170 [Level 54 Turn 12134]
   - Stats: Attack 124, Defense 144, Speed 124, Special 127
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 11/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 9/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 10/10) [Healed Turn 12085]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -2950,7 +2950,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 
 - Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize: ¥1320. Intro: "I also study the way of the ninja...". Defeat: "Awoo!".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
-- Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?".
+- Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Defeat line: "Dropped my balls!".
 
 <hr>
 
