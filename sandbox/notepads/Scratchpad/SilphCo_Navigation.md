@@ -46,3 +46,4 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F Northern Crossing: Indoor trees at (11..12, 2..3). Teleporter pad at (11, 5). Open corridors at row 1 and row 4 heading west into the Far West Wing.
 - 5F Central & West Landmarks: Scientist stationed at (13, 9). Electronic Card Key shutter door at (15, 10..11) connecting central corridor to west wing [Sighted Turn 12736].
 - 5F South Teleporter & Grunt: Rocket Grunt stationed at (8, 16) facing west. Teleporter pad at (9, 15) directly above row 16 corridor (9, 16). Shutter door at (7, 12..13) [Sighted Turn 12747]. Interacting directly with Grunt at (8, 16) to test passage [Turn 12751].
+- 5F South Grunt Defeated: At (8, 16). Team: Arbok Lv 33. Prize ¥990 [Turn 12754].
