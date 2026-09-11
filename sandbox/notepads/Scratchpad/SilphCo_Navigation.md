@@ -7,13 +7,13 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 ## Inventory Prerequisites
 - Active Team: Blastoise Lv 56 (SHELDON), full PP/HP [Turn 12813].
 - Supplies: Revive x5, Full Heal x5, Super Repel x4, Full Restore x1, Max Potion x1, TM29 x1.
-- Key Items: Silph Scope, Lift Key (from Rocket Hideout), Poké Flute.
+- Key Items: Silph Scope, Lift Key (from Rocket Hideout), Pokï¿½ Flute.
 
 ## Key Dungeon Mechanics
 - Card Key: Unlocks electronic shutter doors across all floors. Must locate Card Key on early floors.
 - Warp Tile Network: Teleport pads connect specific coordinates between floors.
 - Elevator: Connects 1F through 11F.
-- Unverified Hypotheses: External rumors suggest a Rival encounter, a gift Pokémon, and an executive suite on upper floors (unverified).
+- Unverified Hypotheses: External rumors suggest a Rival encounter, a gift Pokï¿½mon, and an executive suite on upper floors (unverified).
 
 ## Floor Warp Graph (Source -> Destination)
 | From Floor | From Coord | To Floor | To Coord | Verified Turn |
@@ -36,7 +36,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
-- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize ¥840 [Turn 12818].
+- 3F Rocket Grunt Defeated: At (18, 7), Grunt stationed at (20, 7) facing West. Team: Raticate Lv 28, Hypno Lv 28, Raticate Lv 28. Prize ï¿½840 [Turn 12818].
 - 3F Southeast Warp Tile: Sighted at (23, 11) [Turn 12819].
 - 3F Card Key Door Unlocked: Electronic shutter door at (17, 8..9) successfully unlocked with Card Key [Turn 12820]. Central room opened.
 - 3F Central Room Warp Tile: Sighted at (11, 11) behind Card Key shutter door [Turn 12822].
@@ -47,17 +47,17 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F: Arrived via elevator at (20, 1). Elevator doors at (20, 0), stairs up at (24, 0). Open lobby across rows 1..3 (cols 16..25+). Wall partition along row 4 with doorway at (22..23, 4). [Verified Turn 12724]
 - 5F East Wing: Teleporter pad at (27, 3). South of row 4 doorway is an office with desks at cols 20..25, rows 6..8; open perimeter aisles at row 5 and cols 18..19, 26. East wall at col 27.
 - 5F Central Hallway: Cols 16..19 form open north-south corridor (rows 5..9+). Vertical wall divider at col 15 (rows 4..9) with base at (15, 9). Northern highway (rows 1..3) continues west past col 14.
-- 5F Juggler Defeated: At (18, 7) facing north. Team: Kadabra Lv 29, Mr. Mime Lv 29. Prize ¥1015 [Turn 12734].
+- 5F Juggler Defeated: At (18, 7) facing north. Team: Kadabra Lv 29, Mr. Mime Lv 29. Prize ï¿½1015 [Turn 12734].
 - 5F South Corridor Discovery: Row 15 wall is completely solid from col 16 to east wall (col 27). Item ball sighted at (21, 16) in row 16 corridor. Row 16 is inaccessible from the east wing and must be accessed via the west wing. Returning north to northern highway (rows 1..3).
 - 5F Northern Crossing: Indoor trees at (11..12, 2..3). Teleporter pad at (11, 5). Open corridors at row 1 and row 4 heading west into the Far West Wing.
 - 5F Central & West Landmarks: Scientist stationed at (13, 9). Electronic Card Key shutter door at (15, 10..11) connecting central corridor to west wing [Sighted Turn 12736].
 - 5F South Teleporter & Grunt: Rocket Grunt stationed at (8, 16) facing west. Teleporter pad at (9, 15) directly above row 16 corridor (9, 16). Shutter door at (7, 12..13) [Sighted Turn 12747]. Interacting directly with Grunt at (8, 16) to test passage [Turn 12751].
-- 5F South Grunt Defeated: At (8, 16). Team: Arbok Lv 33. Prize ¥990 [Turn 12754].
+- 5F South Grunt Defeated: At (8, 16). Team: Arbok Lv 33. Prize ï¿½990 [Turn 12754].
 - 5F Grunt Collision Verified: Defeated Grunt at (8, 16) is solid and blocks passage on foot [Turn 12755]. Now stepping Right onto teleporter pad at (9, 15) [Turn 12756].
 - 5F (9, 15) Warp Arrival: Arrived at (17, 15) on Unknown Floor [Turn 12757]. Two-way reciprocal warp. Stepped off pad to (17, 14), then stepped back onto (17, 15) to return to 5F (9, 15).
 - 5F South Corridor Infiltration: Successfully bypassed defeated Grunt at (8, 16) by warping to 5F (9, 15). Now stepping Down into row 16 corridor and walking East toward Card Key at (21, 16).
 - 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
-- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize ¥1300 [Turn 12795].
+- 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize ï¿½1300 [Turn 12795].
 
 - 6F:
 
@@ -73,5 +73,5 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 
 - Unknown Floor (Arrival Room via 3F Warp):
 - Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival RED confirmed at (3, 7); challenged player at (3, 3) with 'What kept you BLUE?' [Turn 12825]. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6).
-- Rival RED Defeated: At (3, 4). Team: Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40. Prize ¥2600 [Turn 12851].
+- Rival RED Defeated: At (3, 4). Team: Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40. Prize ï¿½2600 [Turn 12851].
 - Silph Employee at (1, 5): Gives gift Lapras (nicknamed NESSY, Lv 15); sent directly to PC Box 1 [Turn 12858, Verified Turn 12865].
