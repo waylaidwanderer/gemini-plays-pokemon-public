@@ -41,4 +41,5 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F Juggler Defeated: At (18, 7) facing north. Team: Kadabra Lv 29, Mr. Mime Lv 29. Prize ¥1015 [Turn 12734].
 - 5F South Corridor Discovery: Row 15 wall is completely solid from col 16 to east wall (col 27). Item ball sighted at (21, 16) in row 16 corridor. Row 16 is inaccessible from the east wing and must be accessed via the west wing. Returning north to northern highway (rows 1..3).
 - 5F Northern Crossing: Indoor trees at (11..12, 2..3). Teleporter pad at (11, 5). Open corridors at row 1 and row 4 heading west into the Far West Wing.
-- 5F South Teleporter & Grunt: Rocket Grunt stationed at (8, 16) facing west. Teleporter pad at (9, 15) directly above row 16 corridor (9, 16). Shutter door at (7, 12..13). Testing warp pad at (9, 15) to access row 16 corridor.
+- 5F Central & West Landmarks: Scientist stationed at (13, 9). Electronic Card Key shutter door at (15, 10..11) connecting central corridor to west wing [Sighted Turn 12736].
+- 5F South Teleporter & Grunt: Rocket Grunt stationed at (8, 16) facing west. Teleporter pad at (9, 15) directly above row 16 corridor (9, 16). Shutter door at (7, 12..13) [Sighted Turn 12747]. Interacting directly with Grunt at (8, 16) to test passage [Turn 12751].
