@@ -132,6 +132,7 @@
 ## Regular Items
 - SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
+- TM06 (TOXIC) x1 [Received Turn 12216 from Koga]
 - FULL RESTORE x1 [Slot 14] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Slot 15] [Verified Turn 11891]
 - REVIVE x5 [Slot 19] [Purchased Turn 11899 at Fuchsia Mart]
@@ -152,7 +153,7 @@
 - HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20
+- Total Slots Used: 19 / 20
 - Complete Top-to-Bottom Slot Order:
   1. OLD ROD
   2. HM01
@@ -172,6 +173,7 @@
   16. HM03
   17. REVIVE x5
   18. FULL HEAL x5
+  19. TM06
 
 ## Stored / PC Items
 - MOON STONE x1 (PC) [Stored Turn 12205]
@@ -2950,7 +2952,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Trainer 4 (Tamer) at (8, 2..3): DEFEATED Turn 12133! Team: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize: ¥1320. Intro: "I also study the way of the ninja...". Defeat: "Awoo!".
 - Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
 - Trainer 5 (Juggler) at (2, 7): DEFEATED Turn 12155! Team: Drowzee Lv 34, Hypno Lv 34. Prize: ¥1190. Intro: "Master KOGA comes from a long line of ninjas! What did you descend from?". Defeat line: "Dropped my balls!".
-- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Prize: ¥4257. Awarded Soulbadge (TM06 Toxic pending bag space: "Make space for this, child!").
+- Gym Leader Koga at (4, 10): DEFEATED Turn 12177! Team: Koffing Lv 37, Muk Lv 39, Koffing Lv 37, Weezing Lv 43. Prize: ¥4257. Awarded Soulbadge and TM06 (Toxic) [Claimed Turn 12216].
 ## Verified Unobstructed Route to Gym Leader Koga
 - **Entrance to Koga Path:**
   1. From entrance mat at (4..5, 17), step East along row 17 across (6..8, 17) to column 9 at (9, 17).
