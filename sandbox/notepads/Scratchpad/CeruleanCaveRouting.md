@@ -16,4 +16,5 @@
   - Southeast Sector: Contains Ladder B landing (22, 6), Column 23, Row 11, Column 24/28, Row 17 South Artery.
 
 ## Active Search Objective
-- Inside 1F, proceed to Central Waterway ramp at (17, 15), Surf north to NW Ladder E (7, 1), ascend to 2F West Sector (9, 1), and take Ladder A (1, 3) down to B1F to capture Mewtwo with the Master Ball!
+- Systematically explore 1F via the Upper Plateau (ramp at 21, 11) and test all ledges, ramps, and water contact points to locate the route to the Central Corridor / Waterway and NW Ladder E (7, 1).
+- Climb Ladder E to 2F West Sector (9, 1), walk to Ladder A (1, 3), and descend to B1F to capture Mewtwo with the Master Ball!
