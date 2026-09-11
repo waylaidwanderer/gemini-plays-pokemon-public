@@ -9,7 +9,6 @@
   - North: Route 16 gatehouse (connects to Celadon City).
 
 ## Layout & Highway Lanes
-- Eastern Causeway Junction: Columns 12..13 at rows 8..9 connects east across the water causeway to Route 18 Gatehouse.
 - Eastern Highway Corridor: Columns 12..13 paved road runs straight north flanked by water to the east (cols 14+) and central median lawn to the west (cols 9..11).
 
 ## Northern Threshold & Causeway Connection
