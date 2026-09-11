@@ -127,7 +127,7 @@
 # Inventory Log
 
 ## Regular Items
-- RARE CANDY x4 [Slot 1] [Verified Turn 6581, 11080]
+- RARE CANDY x3 [Slot 1] [Verified Turn 11738]
 - SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
 - MOON STONE x1 [Slot 8] [Verified Turn 11080]
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
@@ -153,7 +153,7 @@
 ## Inventory Capacity
 - Total Slots Used: 20 / 20 (Good Rod obtained Turn 11176, Bag full).
 - Complete Top-to-Bottom Slot Order:
-  1. RARE CANDY x4
+  1. RARE CANDY x3
   2. OLD ROD
   3. HM01
   4. HM05
@@ -187,10 +187,10 @@
 - ¥74128
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 52, Water]
-  - Status: Fainted
-  - HP: 0 / 163 [Verified Turn 11679]
-  - Stats: Attack 119, Defense 139, Speed 119, Special 122
+- BLASTOISE (Nickname: SHELDON) [Lv 53, Water]
+  - Status: Revived
+  - HP: 3 / 166 [Revived Turn 11736]
+  - Stats: Attack 122, Defense 142, Speed 122, Special 124
   - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 1/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Fainted [Turn 7302]
