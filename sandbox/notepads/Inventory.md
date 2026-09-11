@@ -129,7 +129,3 @@
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 9001]
   - Transferred to PC Box 1 (Active Party full)
-- LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
-  - Status: Healthy
-  - Gift from Silph Co employee [Turn 12858]
-  - Transferred to PC Box 1 (Active Party full)
