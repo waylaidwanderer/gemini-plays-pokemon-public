@@ -76,3 +76,8 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Building facades along row 5 with signpost at (27, 5); entrance door at (26, 3) and approach apron at (30..31, 4..5) [Verified Turn 12691].
 - Approach apron at (30..31, rows 4..5).
 - Western Row 13 Corridor: Open east-west street running east from Western Avenue at (3, 13) across cols 4..8+ toward central plaza [Verified Turn 12698].
+## Silph Co. Head Office
+- Location: Spans cols 16..23, rows 10..21 in the central district [Verified Turn 12707].
+- Front entrance door at (18, 21) on the south facade [Verified Turn 12707].
+- Approach curb at (18, 22) accessible from Row 22 roadway.
+- Building signboard at (15, 21).
