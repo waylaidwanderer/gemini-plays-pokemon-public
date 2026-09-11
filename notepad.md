@@ -188,8 +188,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 52, Water]
-  - Status: Poisoned (PSN)
-  - HP: 34 / 163 [Verified Turn 11679]
+  - Status: Fainted
+  - HP: 0 / 163 [Verified Turn 11679]
   - Stats: Attack 119, Defense 139, Speed 119, Special 122
   - Moves: Double-Edge (PP 5/15), Body Slam (PP 0/15), Surf (PP 1/15) [Learned Turn 11518 over Bubblebeam], Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -2578,11 +2578,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
     - West (Col 1): Tested Right across all rows 22..31; col 2 is a solid continuous cliff face with zero eastern passage [Verified Turn 11393].
     - East (Col 24): Tested Left across all rows 22..30; col 23 is a solid continuous cliff face with zero western passage [Verified Turn 11394].
     - South (Row 32): Tested Right at (9, 32); tile (10, 32) is impassable water collision flanking a decorative boundary tree line at (10..14, 31) [Verified Turn 11399].
-  - Verified Pokémon Center & Courtyard Access Route (Verified Turn 11692):
-    - Col 24 avenue connects Central Thoroughfare (row 20) south to row 27.
-    - Rows 24..27 have ZERO cliff at cols 22..23 (cliff only exists at rows 28..31).
-    - To enter Pokémon Center from (24, 28): Step Up to (24, 27), Left 2 times through (23, 27) to (22, 27), Down to (22, 28), Left to (21, 28) in front of door, and Up into (21, 27) to enter!
-    - To enter Gym from (21, 28): Continue west along row 28 apron to (5, 28), then Up into Gym door at (5, 27).
+
 
 <hr>
 
