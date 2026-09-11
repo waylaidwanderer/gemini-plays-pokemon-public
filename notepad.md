@@ -131,7 +131,6 @@
 
 ## Regular Items
 - SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
-- MOON STONE x1 [Slot 8] [Verified Turn 11080]
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
 - FULL RESTORE x1 [Slot 14] [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Slot 15] [Verified Turn 11891]
@@ -153,7 +152,7 @@
 - HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 18 / 20
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x4
   2. OLD ROD
@@ -177,6 +176,7 @@
   20. FULL HEAL x5
 
 ## Stored / PC Items
+- MOON STONE x1 (PC) [Stored Turn 12205]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
 - TM24 (THUNDERBOLT) x1 (PC) [Stored Turn 6585]
