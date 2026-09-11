@@ -1,12 +1,10 @@
 # Cerulean Cave (Unknown Dungeon) 2F - Layout & Notes
 
 ## Connected Component Graph (2F)
-- **Main 2F Connected Maze**: Continuous walkable maze spanning cols 1-29 and rows 1-19.
-  - Ladder A: (1, 3)
-  - Ladder C: (19, 7) <-> 1F (18, 9) [Central transit hub].
-  - Ladder B: (22, 6) <-> 1F (23, 7) [Central-East landing].
-  - Ladder D: (29, 1) <-> 1F (27, 1) [Isolated NE landing].
-  - Ladder E: (9, 1) <-> 1F (7, 1) [Confirmed visually at (9, 1) on Turn 42860].
+- **2F Partitioned Maze Structure**: 2F is divided into 3 distinct, physically separated sub-graphs by solid purple rock barriers:
+  1. **West Sector (cols 1..9, rows 0..5)**: Reachable via Ladder E at (9, 1) <-> 1F (7, 1). Contains Ladder A at (1, 3), which descends directly to B1F (Mewtwo).
+  2. **Central/East Sector (cols 11..29, rows 1..19)**: Reachable via Ladder C at (19, 7) <-> 1F (18, 9) and Ladder B at (22, 6) <-> 1F (23, 7). Contains items (Max Potion, TM14 Blizzard, PP Up) and S-Bypass. Physically blocked from West Sector across rows 0-5 by solid Column 10 rock wall.
+  3. **NE Pocket (col 29, rows 1..5)**: Reachable via Ladder D at (29, 1) <-> 1F (27, 1). Isolated dead-end landing.
 
 ## Verified Physical Boundaries & Corridors (2F)
 - Solid Rock Collisions verified: (2, 1..4), (5..10, 2), (9, 2), (12, 2..4), (16, 2), (17, 2..8), (10, 1..3), (14, 2..4), (7, 4), (8, 4..5), (11, 4), (20, 4), (8, 5), (15, 6), (5..14, 6), (17, 6), (21, 6), (15, 7), (16, 8), (17, 7), (22, 5), (23, 6), (22, 9), (14, 10), (11, 11), (13, 12), (13, 11..15), (15, 12), (16, 12), (18..20, 12), (22, 12), (16, 13..14), (25, 13..14), (14, 14..16), (15, 14), (22, 8..10), (24, 8..10), (25, 10..11), (17, 10), (17, 14), (18, 14), (19, 14), (20, 12..20 solid wall), (21, 14), (22, 16), (27, 12..13), (27, 15), (28, 8), (28, 13), (29, 7..8), (29, 10..11).
