@@ -2965,7 +2965,7 @@
   - Column 12 corridor (12, 9..15) is open continuous floor connecting Central Platform south to north.
   - Row 16 is solid rock across (14..20, 16).
   - Tile (13, 16) is the single verified open ground corridor/gap connecting Row 17 (13, 17) directly to the Central Platform at (13, 15).
-  - Row 9 connects Column 12 at (12, 9) east to (18, 9).
+  - Row 9 connects Column 12 at (12, 9) east to (18..21, 9). Empirically verified that (21, 9) is a closed dead-end bounded by solid rock at (21, 8), (21, 10), and (22, 9); NO eastern exit from (21, 9) into Column 23.
 - **South Ground Highway (Row 17)**: Walkable ground spanning (10..19, 17).
   - West end of central pocket terminates at (10, 17); (9, 17) is blue rock.
   - Connects to Central Platform via (13, 17) <-> (13, 16) <-> (13, 15).
