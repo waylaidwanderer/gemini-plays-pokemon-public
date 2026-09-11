@@ -2946,5 +2946,7 @@ Rainbowbadge allows Pokémon up to Level 50 to obey, and permits the use of Stre
 - Column 9 Corridor: Confirmed completely open and passable from row 17 up to row 8 [Turn 12105].
 - Trainer 3 (Juggler Kirk) at (7..8, 8): DEFEATED Turn 12117! Team: Drowzee Lv 31, Drowzee Lv 31, Kadabra Lv 31, Drowzee Lv 31. Prize: ¥1085. Intro: "I wanted to become a ninja, so I...". Defeat: "I'm done for!".- Trainer Sightline Mechanics: Invisible walls act as solid collision blocks that completely obstruct trainer vision lines (empirically confirmed Turn 12088: standing at (4, 13) in column 4 looking directly at trainer at (4, 10) did not trigger combat due to invisible wall at (4, 12)).
 
+- Trainer 4 at (8, 2): Stationed on column 8 facing South.
+- Column 9 Corridor: Extends clear from row 8 up to row 4 [Turn 12123].
 
 <hr>
