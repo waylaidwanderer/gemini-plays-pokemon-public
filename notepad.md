@@ -3016,20 +3016,20 @@
 
 # Cerulean Cave Active Routing & Hypotheses
 
-## Master Progression Route to Mewtwo (Empirically Formulated)
-1. **1F Upper Plateau to Ledge (17, 15)**:
-   - From Ladder B (23, 7): Walk Up to (23, 6) -> Left to (18, 6) -> Down to (18, 14) -> Left to (17, 14).
-   - Hop Down over Ledge at (17, 15) to land on (17, 16) / (16, 17) (Main Lower Cavern Floor).
-2. **Main Lower Cavern to 1F Waterways**:
-   - Walk West along Row 17: (16, 17) -> (1, 17).
-   - Walk North along Column 1: (1, 17) -> (1, 13) (South Ramp) to access the water shoreline.
-   - Board the water using Surf with HYDROS.
-3. **1F Waterways to Ladder E**:
-   - Surf North along the 1F water network to Ladder E at (7, 1).
-   - Ascend Ladder E to arrive on 2F West Sector at (9, 1).
-4. **2F West Sector to B1F & Mewtwo**:
-   - From (9, 1) on 2F: Walk west along Row 1 / Row 3 to Ladder A at (1, 3).
-   - Descend Ladder A directly to B1F.
-   - On B1F, surf/navigate to Mewtwo and capture with Master Ball!
+## Empirically Verified 1F Upper Plateau Topology (Turn 44911)
+- **Open Floor**: (21..25, 6..8), (21..22, 9..10).
+- **Verified Solid Rock Collisions**:
+  - (20, 6..11): Solid purple rock barrier blocking westward movement along Rows 6-10.
+  - (23, 5): Solid purple rock wall blocking northward movement along Column 23.
+- **Vertical Transitions**:
+  - **Ladder B**: (23, 7) <-> 2F (22, 6).
+  - **Bidirectional Ramp**: (21, 11) connects (21, 10) to Entrance Basin (21, 12) [Verified Turn 44847].
+  - **Ramp/Ledge at (25, 9)**: 3-horizontal-bar tile leading from (25, 8) into eastern sector (cols 26-29) [Pending test].
+
+## Progression Strategy to Mewtwo
+1. **Option A (1F Eastern Sector & Waterway Probe)**:
+   - Move to (25, 8) and probe (25, 9) to explore eastern corridors (cols 26-29) and locate waterway shorelines.
+2. **Option B (Cerulean / Route 24 Outer Waterway Traversal)**:
+   - Descend Ramp (21, 11) to Entrance Basin, exit to Cerulean City, board water with Surf at (6, 12), and surf north to Route 24 to explore the full waterway network.
 
 <hr>
