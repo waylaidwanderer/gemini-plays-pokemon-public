@@ -59,3 +59,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Row 13 Thoroughfare: Continuous open roadway running west from Eastern Avenue (col 36) across cols 30..35+ toward central plaza [Verified Turn 12682].
 - North boundary: Curb at row 12 fronting commercial building at cols 30..35, rows 9..11.
 - South boundary: Building roof at cols 30..35, rows 14..15.
+- Poké Mart: Located at cols 25..27, rows 9..11 [Verified Turn 12683].
+  - Front entrance door at (25, 11).
+  - "MART" sign at (26, 11).
+  - Approach curb at (25, 12) accessible from Row 13 at (25, 13).
