@@ -21,7 +21,7 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 |---|---|---|---|---|
 
 ## Floor-by-Floor Progression Log
-- 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on southern entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15).
+- 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on southern entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Fountain at (12..13, 9..10), terminals at (11, 9) and (14, 9).
 - 2F:
 - 3F:
 - 4F:
