@@ -1,7 +1,6 @@
 # Inventory Log
 
 ## Regular Items
-- RARE CANDY x4 [Slot 1] [Verified Turn 12026]
 - SUPER REPEL x4 [Slot 6] [Verified Turn 11080]
 - MOON STONE x1 [Slot 8] [Verified Turn 11080]
 - TM21 (MEGA DRAIN) x1 [Slot 12] [Received Turn 6802, Verified Turn 11081]
@@ -25,7 +24,7 @@
 - HM03 (SURF) [Slot 18] [Received Turn 10975, Verified Turn 11082]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20 (Carbos sold Turn 11889, TM40 sold Turn 11892, Revive x5 bought Turn 11899, Full Heal x5 bought Turn 11905; Bag full).
+- Total Slots Used: 19 / 20
 - Complete Top-to-Bottom Slot Order:
   1. RARE CANDY x4
   2. OLD ROD
@@ -49,6 +48,7 @@
   20. FULL HEAL x5
 
 ## Stored / PC Items
+- RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
 - TM24 (THUNDERBOLT) x1 (PC) [Stored Turn 6585]
 - ELIXER x1 (PC) [Stored Turn 6588]
