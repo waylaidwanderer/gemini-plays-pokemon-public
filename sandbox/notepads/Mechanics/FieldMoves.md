@@ -35,3 +35,8 @@
 - **Rapid Input Stride Distance:** Buffered or held directional inputs on the Bicycle can advance 2 grid tiles per input along unobstructed roads [Verified Turns 11426-11428].
 - **Coordinate Alignment Parity:** When traversing at 2 tiles per stride, coordinate parity is preserved (e.g. moving from an odd column like 33 or 13 keeps alignment strictly to odd columns: 13, 11, 9).
 - **Parity Shifting via Obstacles:** Riding into a collision boundary (such as the col 5 stone fence from col 7) truncates the 2-tile stride into a single-tile step, shifting alignment parity from odd to even columns (e.g. landing on col 6, which enables reaching col 8 and col 10) [Verified Turn 11428].
+
+## HM03 SURF Verification
+- **Badge Requirement:** Soulbadge (Koga) - mandatory.
+- **Empirical Proof (Turn 12037):** Facing the pond at (31, 22) in Fuchsia City, selecting SURF on Blastoise (SHELDON) displayed: "No! A new BADGE is required."
+- **Strategic Implication:** Surf is strictly unusable before defeating Gym Leader Koga. The path to Fuchsia Gym and Pokémon Center cannot require Surf.
