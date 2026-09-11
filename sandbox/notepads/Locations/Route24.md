@@ -16,7 +16,7 @@
 
 - Nugget Bridge extends northward along columns 20-21 across the water.
 
-- Waterway flanks the bridge on the left (cols 14-19) and right (cols 22-25).
+- Waterway flanks the bridge on the west/left (cols 0-4) and east/right.
 
 - Grass patches located along the western bank.
 
