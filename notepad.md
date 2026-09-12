@@ -3620,5 +3620,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Chamber 7 (West-Central / Blaine Antechamber)
 - Bounds: Columns 1 to 5, rows 7 to 11.
 - Entered from Chamber 6 via opened Shutter Door 5 at (4-5, 12).
+- Quiz Machine 6: Located at (1, 7). Interacted with from (1, 8) facing North.
+- Trainer at (3, 8) facing South.
+- Safe route to Quiz Machine 6: Walk north along col 4 to row 7, west behind trainer along row 7 to (2, 7), down to (2, 8), left to (1, 8), avoiding trainer line of sight.
+- Shutter Door 6: Located at (4-5, 6), currently CLOSED. Opens into Blaine's arena upon answering Question 6 correctly.
 
 <hr>
