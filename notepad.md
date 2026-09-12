@@ -2927,9 +2927,9 @@
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
-- Item Pok� Ball at (29, 9) collected (PP Up).
-- Item Pok� Ball at (13, 6) collected (Max Potion).
-- Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
+- Item Pok�� Ball at (29, 9) collected (PP Up).
+- Item Pok�� Ball at (13, 6) collected (Max Potion).
+- Item Pok�� Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
