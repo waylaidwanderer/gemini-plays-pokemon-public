@@ -1,23 +1,26 @@
 # Cerulean Cave Active Investigation & Routing
 
 ## Verified Master Route to B1F Mewtwo
-1. **1F Water Canal Traversal** (Completed):
-   - Used water ramp at (23, 3) to Surf west along 1F central canal.
-   - Disembarked at water ramp (15, 3) onto 1F Northern Terrace.
-   - Ascended Ladder E at (7, 1) to 2F West Sector at (9, 1).
+1. **Descend Ladder C to 1F** (Active):
+   - Current Position: (16, 3) on 2F.
+   - Walk through (15, 1) and (18, 1..3) -> (20, 2) -> (22, 2..4) -> (19, 5..6) -> Ladder C at (19, 7).
+   - Descend Ladder C to 1F Central Corridor at (18, 9).
 
-2. **2F Traversal to Ladder A (1, 3)** (Active):
-   - Current Position: (9, 5) on 2F.
-   - Path to Row 9 Thoroughfare:
-     - Step 1: Walk Up to (9, 3).
-     - Step 2: Walk Left across Row 3 to (7, 3).
-     - Step 3: Walk Down Column 7 all the way to (7, 9) on Row 9.
-     - Step 4: Walk West along Row 9 across cols 6..0 to Column 0.
-   - Path from Column 0 to Ladder A:
-     - Step 5: Walk North up Column 0 to (0, 3).
-     - Step 6: Step East onto Ladder A at (1, 3)!
-     - Step 7: Descend Ladder A to B1F (Mewtwo's chamber).
+2. **1F Canal Surfing to NE Terrace (Ladder D)**:
+   - From 1F (18, 9), walk south to water ramp at (17, 15).
+   - Surf east and north along 1F central canal to (23, 4).
+   - Disembark at water ramp (23, 3) onto Northeast Terrace.
+   - Climb Ladder D at (27, 1) to 2F Eastern Sector (29, 1).
 
-3. **B1F Mewtwo Capture**:
+3. **2F Eastern Sector to Ladder A (B1F)**:
+   - From 2F (29, 1), walk south down Column 28 to Row 11 at (27, 11).
+   - Walk west along Row 11 across cols 27..12 to Column 12 (12, 11).
+   - Walk north up Column 12 to Row 9 at (12, 9).
+   - Walk west along Row 9 across cols 12..0 to Column 0 (0, 9).
+   - Walk north up Column 0 to (0, 3).
+   - Step east onto Ladder A at (1, 3)!
+   - Descend Ladder A to B1F (Mewtwo's chamber).
+
+4. **B1F Mewtwo Capture**:
    - Navigate B1F to Mewtwo's platform.
    - Initiate battle and throw Master Ball on Turn 1 for guaranteed capture!
