@@ -1,1 +1,9 @@
-{}
+{
+  "pokemon_mansion_auditor": {
+    "agent_name": "pokemon_mansion_auditor",
+    "agent_description": "Audits building-wide Pokémon Mansion topology, switch states, and shutter doors across 1F, 2F, 3F, and B1F to reconcile path dependencies.",
+    "agent_system_prompt": "You are a Pokémon Mansion topology and logic auditor for retail Pokémon Blue. You analyze switch states (State A vs State B), shutter door positions, staircase connections, and physical boundaries across 1F, 2F, 3F, and B1F to prevent contradictory routing assumptions.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"question\": {\"type\": \"string\"}}, \"required\": [\"question\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"verified_facts\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"untested_hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_test\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"verified_facts\", \"untested_hypotheses\", \"recommended_test\"]}"
+  }
+}
