@@ -26,7 +26,7 @@
 - Statue at (12, 9): Tested from (13, 9) facing West on Turn 14023. Confirmed NO switch.
 - East Wing Access: Rows 4-5 are open across column 15 (cols 14-17), providing direct unobstructed passage from the central hall into the eastern wing without passing through the shutter at (15, 10-11) [Verified Turn 14023].
 
-## Unified Pokémon Mansion Switch-State Matrix
+<!-- Switch matrix centralized in Main.md -->
 | Shutter / Door Location | State A (Default) | State B (Toggled) |
 |---|---|---|
 | 1F Shutter 1 (16-17, 7) | CLOSED [Turn 13961] | OPEN [Turn 13762] |
