@@ -88,3 +88,5 @@
 - (28, 10..12): Open floor corridor.
 - (28..29, 9): Dead-end alcove (PP Up location at (29, 9)). Eastern Artery terminates here.
 - Row 9 West Thoroughfare: cols 15..24 are continuous open floor connecting to Column 24 ((24, 9..13)).
+- (16, 8), (17, 8), (18, 8): Solid rock walls blocking northward traversal along Columns 16-18 from Row 9.
+- Row 8 Western Bypass: (13..15, 8) is open cave floor connecting Row 9 at (15, 9) -> (15, 8) -> (13, 8) -> Column 13 corridor.
