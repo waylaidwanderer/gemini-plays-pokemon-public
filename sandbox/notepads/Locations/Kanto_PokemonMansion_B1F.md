@@ -31,3 +31,8 @@
 - Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
 - Column 9 is a solid continuous vertical wall across rows 8-17, dividing west room (cols 1-8) from central corridor (cols 10-12) [Bump tested Turn 14582 at (9, 10)].
+## Northern Corridor & Row 8 Wall (cols 10-24, rows 5-9)
+- Row 8 is a solid continuous horizontal wall from column 6 east to at least column 23 [Verified Turns 14581, 14586, 14587].
+- Row 9 is wide open pink floor across columns 10 to 24.
+- Rows 6-7 form a parallel open corridor north of row 8 wall spanning columns 6 to 24+.
+- Row 5 horizontal wall spans (10-11, 5) and (14-23, 5), with opening at (12-13, 5) leading north into rows 0-4, and open floor at (24, 5).
