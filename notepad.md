@@ -1894,6 +1894,12 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Department Store East Wall: Located at column 13 across rows 7..13, terminating the row 10..13 Main Avenue at column 14.
 - Department Store Front Avenue (Rows 14..15): Continuous 2-tile wide paved yellow brick road spanning west under the Department Store (cols 8..17), connecting the Southbound Central Avenue at col 17 west past the store entrance at (10, 13) into the Western Avenue (cols 2..8).
 
+## Western Avenue Telemetry (Verified Turns 13375-13383)
+- Western Avenue Corridor: Spans columns 2..5 as a continuous 4-tile wide yellow brick road from row 10 south past row 19.
+- Eastern Boundary: Department Store west wall and curb along column 6 (rows 7..13).
+- Northern Boundary: Building facade along row 9 (cols 2..5) with solid wall at (2..5, 9).
+- Western Boundary: Continuous line of border trees along column 1 (rows 7..17), transitioning to concrete curb at (1, 18) and wooden fence posts at (1, 19).
+
 <hr>
 
 <h1><code>Locations/Kanto_CeladonDepartmentStore</code></h1>
