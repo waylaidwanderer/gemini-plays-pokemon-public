@@ -3181,7 +3181,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Warp Tiles:
     - Bottom-Right (19, 17): <---> Room 1 (Entrance) (11, 15) [Verified Turn 13099].
     - Top-Right (19, 15): <---> Room 3 (East-Central) (19, 9) [Verified Turn 13118].
-    - Bottom-Left (15, 17): [Testing Turn 13130].
+    - Bottom-Left (15, 17): <---> Room 5 (Southwest) (5, 15) [Verified Turn 13131].
     - Top-Left (15, 15): <---> Room 4 (Northeast) (19, 3) [Verified Turn 13130].
 
 - **Room 3 (East-Central Room)**:
@@ -3198,8 +3198,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - NPC: Gym Member at (17, 1) (friendly advice: "Psychic POKéMON fear only ghosts and bugs!").
   - Warp Tiles:
     - Top-Left (15, 3): <---> Room 3 (East-Central) (15, 9) [Verified Turn 13126].
-    - Top-Right (19, 3): [Testing Turn 13129].
+    - Top-Right (19, 3): <---> Room 2 (Southeast) (15, 15) [Verified Turn 13130].
     - Bottom-Left (15, 5): [Untested].
     - Bottom-Right (19, 5): [Untested].
+
+- **Room 5 (Southwest Room)**:
+  - Interior Bounds: cols 1..5, rows 13..17.
+  - Trainer: (3, 13) facing South.
+  - Warp Tiles:
+    - Top-Right (5, 15): <---> Room 2 (Southeast) (15, 17) [Verified Turn 13131].
+    - Top-Left (1, 15): [Untested].
+    - Bottom-Left (1, 17): [Untested].
+    - Bottom-Right (5, 17): [Untested].
 
 <hr>
