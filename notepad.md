@@ -202,7 +202,7 @@
   - Status: Healthy
   - HP: 167 / 179 [Turn 12886]
   - Stats: Attack 132, Defense 153, Speed 132, Special 135
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 8/10) [Turn 12886]
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 4/15), Surf (PP 4/15), Ice Beam (PP 8/10) [Turn 13022]
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -3145,20 +3145,10 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
   - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
 - 11F Rocket Grunt at (15, 9) Defeated: Team: Rattata Lv 25, Rattata Lv 25, Zubat Lv 25, Rattata Lv 25, Ekans Lv 25. Prize ¥750 [Turn 12977].
-- (13, 3) Archway Test: East approach from (14, 3) blocked [Turn 12978]. Testing north approach from (13, 2).
-- (13, 3): Solid wall tested from east (14, 3) [Turn 12978] and north (13, 2) [Turn 12979]. Moving south to test column 13 at rows 14-16.
-- (13, 14): Solid vertical wall tested from (14, 14) [Turn 12980]. Testing (13, 15) and (13, 16).
-- 11F Column 13 Status: (13, 13) solid [Turn 12953], (13, 14) solid [Turn 12980]. Testing (13, 15) and (13, 16) [Turn 12981]. If solid, elevator to 10F to check stairs/teleporters.
-- 11F Column 13 Final Verification: Column 13 is confirmed 100% solid vertical wall from row 10 to row 17 (tested at (13, 13), (13, 14)). Corridor (cols 14-15) is an isolated dead end containing only the elevator and defeated Grunt at (15, 9).
-- Route Resolution: Silph Co 11F is physically partitioned into two disconnected sections. The elevator corridor does NOT connect to the President's boardroom. Giovanni is ONLY accessible via the 7F teleporter at (5, 7) which lands at 11F (3, 2).
-- Return Plan:
-  1. Walk North up column 14 to elevator at row 1.
-  2. Take elevator to 3F.
-  3. Walk south through unlocked shutter door at (17, 8..9) to warp pad at (11, 11).
-  4. Teleport to 7F (5, 3) in Lapras room.
-  5. Step 4 tiles South onto (5, 7) warp pad.
-  6. Arrive at 11F (3, 2) in West Wing and proceed south past defeated Grunt to Card Key door at (7, 9) to confront Giovanni.
-- 11F Outer Shutter Door Unlocked: The 2-tile structure at (6..7, 13) previously assumed to be "desks" was confirmed as a Card Key shutter door [Turn 13013]! Interacted from (6, 14) with Card Key to trigger "Bingo! The CARD KEY opened the door!".
-- Central Approach Opened: Unlocking (6..7, 13) provides direct northern access from row 14 into rows 10-12, leading directly to the inner Card Key shutter door at (7..8, 9) and the President's boardroom!
+- 11F Eastern Elevator Corridor: Confirmed isolated from central/western rooms. Column 13 is a 100% solid vertical wall from row 10 to row 17 (tested at (13, 13), (13, 14)). Archway at (13, 3) is solid wall (tested from east (14, 3) [Turn 12978] and north (13, 2) [Turn 12979]). Defeated Grunt stationed at (15, 9).
+- Route Resolution: Silph Co 11F is physically partitioned into two disconnected sections. The elevator corridor does not connect to the boardroom. Access to the western and central executive offices is achieved via the 7F teleporter at (5, 7) arriving at 11F (3, 2).
+- 11F Outer Shutter Door Unlocked: The 2-tile structure at (6..7, 13) previously mistaken for desks was confirmed as a Card Key shutter door and unlocked [Turn 13013]! Provides direct passage between southern corridor (row 14) and central approach (rows 10-12).
+- Inspection Protocol: Any two-tile partition gap between rooms must be tested with 'A' using the Card Key before classifying it as permanent furniture.
+- Inner Shutter Door & Boss Encounter: Shutter door located at (7..8, 9), leading to inner office chamber. Stepping onto (6, 13) triggered dialogue with Team Rocket Boss Giovanni [Turn 13015], initiating the boss encounter.
 
 <hr>
