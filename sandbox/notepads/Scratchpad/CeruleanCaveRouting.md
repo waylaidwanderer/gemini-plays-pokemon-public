@@ -1,28 +1,25 @@
 # Cerulean Cave Active Investigation & Routing
 
-## The Golden Master Route to Mewtwo (B1F)
-1. **Cerulean City to Cerulean Cave 1F**:
-   - Heal at Cerulean Pokecenter (19, 17).
-   - Ride north through Nugget Bridge (Route 24) to (4, 32).
-   - Surf south along the waterway canal into Cerulean City pool (4, 11).
-   - Enter Cerulean Cave 1F at (4, 11) -> arrive at entrance mat (24, 17).
+## The Definitive Master Route to Mewtwo (B1F) via 1F Ladder D
+1. **1F Water Navigation to Northeast Terrace**:
+   - Current Position: Surfing on 1F at (7, 4).
+   - Surf East along Row 4 water canal from (7, 4) all the way to (23, 4) [16x Right].
+   - At (23, 4), step Up onto the dedicated water ramp at (23, 3) [1x Up].
+   - Walk up to Row 1 at (23, 1) [2x Up], then walk East to Ladder D at (27, 1) [4x Right].
+   - Ascend Ladder D at (27, 1) -> Arrive on 2F at (29, 1).
 
-2. **1F Entrance to Ladder B (23, 7)**:
-   - From (24, 17), walk left to (21, 17) [3x Left], up to ramp at (21, 11) [6x Up].
-   - Walk right to (23, 11) [2x Right], up to Ladder B at (23, 7) [4x Up].
-   - Ascend Ladder B to 2F (22, 6).
+2. **2F Master Highway from Ladder D (29, 1) to Ladder A (1, 3)**:
+   - From (29, 1), walk South down East Artery (Column 29) to (29, 17) [16x Down].
+   - Walk West along Row 17 to (23, 17) [6x Left].
+   - Walk North up Column 23 to (23, 11) [6x Up].
+   - Walk West along Row 11 to (12, 11) [11x Left].
+   - Walk North up Column 12 to (12, 9) [2x Up].
+   - Walk West along Row 9 Highway all the way to (0, 9) [12x Left].
+   - Walk North up Column 0 to (0, 2) [7x Up].
+   - Step East to (1, 2) [1x Right] and South to (1, 3) [1x Down] -> LADDER A!
 
-3. **2F Ladder B (22, 6) to Ladder A (1, 3)**:
-   - From (22, 6): Step Down to (22, 7) [1x Down], Right to (23, 7) [1x Right].
-   - Down Column 23 to (23, 11) [4x Down].
-   - West along Row 11 to (12, 11) [11x Left].
-   - Up Column 12 to (12, 9) [2x Up].
-   - West along Row 9 all the way to (0, 9) [12x Left].
-   - Up Column 0 to (0, 2) [7x Up].
-   - Step Right to (1, 2) [1x Right] and Down to (1, 3) [1x Down] -> LADDER A!
-
-4. **B1F Mewtwo Capture**:
-   - Descend Ladder A to B1F.
+3. **B1F Mewtwo Capture**:
+   - Descend Ladder A directly to B1F.
    - Navigate B1F to Mewtwo's platform.
    - Initiate battle with Mewtwo.
    - Throw Master Ball on Turn 1 for 100% guaranteed capture!
