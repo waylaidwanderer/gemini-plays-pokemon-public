@@ -3322,7 +3322,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Overview & Arrival
 - Arrived on Pokémon Mansion 2F via staircase at (5, 10), landing at (7, 11) on Turn 13813.
-- Staircase down to 1F: Located at (5, 10), landing at (7, 11) upon arrival from 1F [Verified Turns 13813, 13926].
+- Staircase down to 1F: Located at (7, 10), landing at (7, 11) upon arrival from 1F [Verified Turns 13813, 13926]. Tile (5, 10) is a solid wall fixture.
 
 ## Starting Area (cols 5-9, rows 8-15)
 - NPC Trainer: Located at (6, 11) facing East [Verified Turn 13813].
