@@ -81,4 +81,3 @@
 - Column 9 Corridor: rows 1..5 are open floor connecting Row 5 directly north to Ladder E at (9, 1).
 - Walls around col 10-14: (10, 1..4), (12, 2..3), (14, 2..4) are rock walls.
 - Row 2 Rock Barrier: Solid rock wall across cols 5..10 separates Row 1 from Row 3.
-- Ladder E Access Route: From (9, 3), walk West along Row 3 to (3, 3), North through (3, 2) to (3, 1), then East along Row 1 (cols 4..9) to Ladder E at (9, 1).
