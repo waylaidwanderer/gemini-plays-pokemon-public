@@ -3353,7 +3353,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 28 Cul-de-sac: Confirmed dead end at (28, 7) bounded by solid wall at row 8 and rubble at (28, 9) [Verified Turn 13881]. Does NOT connect to lower section (rows 9-15).
 - Southeast Chamber (cols 23-28, rows 9-16): Empirically verified completely enclosed on 2F (row 8 solid wall, row 16 solid wall, col 22 rubble). Contains up-staircase to 3F at (25, 14); serves as arrival zone from 3F drop-in.
 - North Hall (cols 10-14, rows 1-7): Verified open hall; north wall at row 0. Closed iron shutter at (9, 4-5) connects west.
-- True 2F Progression Requirement: The 3F staircase is accessed via northwest room (cols 5-8, rows 1-7) behind shutter (8-10, 8) / (9, 4-5). Shutter is closed in Switch State B. Must toggle switch to State A (via 1F statue at (2, 5)) to open shutter and access 3F.
+- Working Hypothesis: The northwest room (cols 5-8, rows 1-7) behind shutter (8-10, 8) / (9, 4-5) remains unexplored. Shutter is closed in Switch State B. Toggling switch to State A (via 1F statue at (2, 5)) may open shutter to allow exploring this wing.
 
 ## Central-South Corridor (cols 18-22, rows 11-14)
 - Open pink floor across columns 18-21 (rows 11-12, 14) and columns 20-21 (row 13) [Verified Turn 13866].
