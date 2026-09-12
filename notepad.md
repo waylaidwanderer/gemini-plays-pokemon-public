@@ -2968,6 +2968,8 @@
   - (7, 4): Rock wall (blocks southward traversal from (7, 3) along Column 7).
   - (6, 4): Rock wall (blocks southward traversal from (6, 3) along Column 6).
   - (5, 4): Rock wall (blocks southward traversal from (5, 3) along Column 5).
+  - (4, 4): Rock wall (blocks southward traversal from (4, 3) along Column 4).
+  - Row 4 barrier: (2..8, 4) are all rock walls; Row 1..3 West (cols 3..9) connects only via (9, 4) -> (9, 5).
 
 <hr>
 
