@@ -3352,7 +3352,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) containing CALCIUM x1 [Obtained Turn 13858, Verified Turn 13863].
 - Column 28 Cul-de-sac: Confirmed dead end at (28, 7) bounded by solid wall at row 8 and rubble at (28, 9) [Verified Turn 13881]. Does NOT connect to lower section (rows 9-15).
 - Lower Section / Southeast Chamber (cols 24-25, rows 9-15) is completely enclosed and inaccessible from 2F ground floor; serves as drop-in arrival zone from 3F pitfall.
-- True 2F Progression Target: North structure via doorway at (10, 5) or toggling Switch to State A to open shutter (8-10, 8).
+- North Hall (cols 10-14, rows 1-7): Verified open hall; north wall at row 0. Closed iron shutter at (9, 4-5) connects west. No stairs or items here.
+- True 2F Progression Target: Southeast Staircase Chamber to 3F at (25, 14).
 
 ## Central-South Corridor (cols 18-22, rows 11-14)
 - Open pink floor across columns 18-21 (rows 11-12, 14) and columns 20-21 (row 13) [Verified Turn 13866].
