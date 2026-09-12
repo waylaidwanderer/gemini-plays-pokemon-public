@@ -69,8 +69,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 92
-   - Stats: Max HP 319 (HP: 97/319), Attack 230, Defense 253, Speed 234, Special 244
+1. HYDROS (Blastoise) - Lv 93
+   - Stats: Max HP 323 (HP: 70/323), Attack 230, Defense 253, Speed 234, Special 244
    - Type: Water
    - Moves: Double-Edge (8/15), Ice Beam (0/10), Bite (25/25), Surf (15/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
@@ -2957,10 +2957,9 @@
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
 
-## Southeast Sector Navigation Path (Verified Turns 45607-45612)
-- From Ladder D corridor (27, 6): Move down to (27, 8), right to (28, 8), down column 28 to (28, 16).
-- From (28, 16): Left to (27, 16), down to (27, 17) enters the Row 17 South Artery.
-- Row 17 South Artery provides continuous westward passage across cols 27..21.
+## Southeast Sector Topology
+- Connects Ladder B (22, 6) via Column 23 -> Row 11/13 -> Row 17 South Artery (cols 21..27) -> Column 28 (rows 16..8).
+- Column 29 (rows 1..6) connects directly to Ladder D at (29, 1).
 
 <hr>
 
@@ -3001,7 +3000,6 @@
   - Row 17 South Artery terminates west at Column 21 against solid rock wall at (20, 17).
   - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
 - **Candidate Unexplored Pathways**:
-  - 1F Entrance Basin: Test Surfing contact along cols 20..25, rows 11..17 to find water entry.
-  - 2F Row 1 North Bypass: Test west traversal along Row 1 from Ladder D (29, 1) across cols 28..1 to reach Ladder A (1, 3).
+    - 2F Row 1 North Bypass: Test west traversal along Row 1 from Ladder D (29, 1) across cols 28..1 to reach Ladder A (1, 3).
 
 <hr>
