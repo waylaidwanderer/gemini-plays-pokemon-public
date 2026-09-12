@@ -157,7 +157,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
+- FULL RESTORE x2 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
 - MAX POTION x2 [Verified Turn 13828]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
@@ -3490,7 +3490,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 18 is open pink floor from column 1 to column 13.
 - West boundary wall is at column 0.
 - Wall at row 17 spans columns 1-9.
-- Item Ball located at (1, 22).
+- Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
 
 <hr>

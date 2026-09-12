@@ -28,5 +28,5 @@
 - Row 18 is open pink floor from column 1 to column 13.
 - West boundary wall is at column 0.
 - Wall at row 17 spans columns 1-9.
-- Item Ball located at (1, 22).
+- Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).

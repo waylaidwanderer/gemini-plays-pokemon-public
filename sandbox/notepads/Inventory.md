@@ -2,7 +2,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
+- FULL RESTORE x2 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
 - MAX POTION x2 [Verified Turn 13828]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
