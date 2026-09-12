@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 58, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥99344 [Turn 13198]
+- Money: ¥100144 [Turn 13209]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -202,7 +202,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥99344 [Turn 13198]
+- ¥100144 [Turn 13209]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 58, Water]
@@ -3277,7 +3277,7 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
 2. **Blackbelt 2 (West)**:
    - Position: (3, 6) facing East into (4, 6).
    - Team: Machop Lv 32, Machoke Lv 32 [Verified Turns 13203-13208].
-   - Defeated: Turn 13208.
+   - Defeated: Turn 13208. Prize money: ¥800.
 3. **Blackbelt 3 (East)**:
    - Position: (5, 5) facing West into (4, 5).
 4. **Blackbelt 4 (West/North)**:
