@@ -3661,7 +3661,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 0: Solid northern boundary wall.## Gym Trainers & Chutes
 - Trainer at (10, 1): Blackbelt (Machoke Lv 38, Machop Lv 38, Machoke Lv 38) [Defeated Turn 15054]. Defeated sprite remains solid, blocking direct westward passage into column 10.
 - Chute at (18, 2): DOWN-spinner pointing down column 18, which terminates at row 11 bumper block (18, 11) by the entrance mat (reset trap).
-- Row 2 Corridor: (12..16, 2) open horizontal floor between row 1 and row 3 counters.
+- Row 2 Corridor: Open horizontal corridor spanning columns 7..10 (west) and 12..16 (east), connected via column 10 vertical passage (rows 2..5) around the (11, 2) RIGHT-spinner.
 
 ## Surveyed Trainers
 - Trainer at (10, 7): facing Right along row 7.
