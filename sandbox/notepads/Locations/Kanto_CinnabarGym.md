@@ -27,3 +27,8 @@
 - Trainer at (17, 2) facing South.
 - Columns 18-19 provide safe passage north along the eastern wall outside trainer line of sight.
 - Row 1 (cols 15-19) is open behind trainer (17, 2), connecting west to column 14.
+## Chamber 3 (North-Central)
+- Row 1 connects Chamber 2 west into Chamber 3.
+- Quiz Machine 2: Located at (11, 1). Must be interacted with from (11, 2) facing North.
+- Trainer at (11, 4) facing South.
+- Shutter Door 2: Located at (12-13, 6), currently CLOSED.
