@@ -2948,17 +2948,19 @@
 ## Connected Component Graph & Routing
 1. **Southeast Sector**:
    - Ladder B at (22, 6) <-> 1F (23, 7).
-   - South Artery (Row 17, cols 21..28) connects Ladder B to Ladder D at (29, 1).
-   - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1), which has a water ramp at (23, 3) leading into the 1F water canal.
+   - Connected via Row 11 thoroughfare (cols 14..24) to Column 24 corridor at (24, 11).
+   - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
 
 2. **Central Sector & Bypass Network**:
-   - Ladder C at (19, 7) <-> 1F (18, 9) (Central Corridor / 1F Water Ramp at (17, 15)).
-   - Row 1 North Bypass (cols 11..18, row 1) connects Column 15/16 to Column 18/19 and Row 3 (18..20, 3) -> Column 22/23.
-   - Row 11 Isolated Segments: (14..16, 11) and (18..23, 11) are severed by rock walls at (13, 11) and (17, 11).
+   - Ladder C at (19, 7) <-> 1F (18, 9).
+   - Row 1 North Bypass (cols 11..24, row 1) connects Column 24 directly west to Northwest Sector.
+   - Row 9 West Thoroughfare: (15..24, 9) is open floor.
+   - Row 8 Western Bypass: (13..15, 8) connects Row 9 at (15, 9) to Column 13 corridor.
 
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
-   - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (accessed by surfing the 1F water canal and disembarking at water ramp (15, 3)).
-   - Northwest loop: (9, 1) -> Row 1 West to (3, 1) -> (3, 3) -> Row 3 East to (9, 3) -> (9, 5) -> Row 5 East.
+   - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1).
+   - Northwest Sector: Row 1 West connects (24, 1) -> (9, 1) -> (3, 1) -> (3, 3) -> Ladder A at (1, 3).
+   - Ladder A at (1, 3) descends to B1F (Mewtwo).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
@@ -2968,72 +2970,17 @@
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
-- Item Pok� Ball at (29, 9) collected (PP Up).
-- Item Pok� Ball at (13, 6) collected (Max Potion).
-- Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
+- Item Poké Ball at (29, 9) collected (PP Up).
+- Item Poké Ball at (13, 6) collected (Max Potion).
+- Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Collision Matrix & Verified Passages (2F)
-- Column 24 Corridor: Open vertical floor across (24, 11) to (24, 15) [Verified Turn 46363].
-- Central/South Branches: (14, 11..13), (15, 13..15), and Row 15 (cols 15..19) verified open floor [Turn 46387].
-- Row 8 Obstacle: Solid rock wall at (24, 8) blocks eastward traversal from (23, 8) [Turn 46406].
-
-- Empirical Barrier & Wall Coordinates (West Sector):
-  - (15, 7): Rock wall (blocks westward traversal along Row 7 from (16, 7)).
-  - (9, 6) & (10, 6): Rock walls (blocks southward traversal from (9, 5)/(10, 5) towards Row 6/7).
-  - (2, 3): Rock wall (blocks westward traversal from (3, 3) along Row 3).
-  - (2, 1): Rock wall (blocks westward traversal from (3, 1)).
-  - (3, 4): Rock wall (blocks southward traversal from (3, 3) along Column 3).
-  - (12, 6): Rock wall (blocks southward traversal from (12, 5) along Column 12).
-  - (20, 4): Rock wall (blocks southward traversal from (20, 3) along Column 20).
-  - (27, 4): Dead-end alcove (walls at (27, 3), (27, 5), and (28, 4); open only to west at (26, 4)).
-  - (7, 4): Rock wall (blocks southward traversal from (7, 3) along Column 7).
-  - (6, 4): Rock wall (blocks southward traversal from (6, 3) along Column 6).
-  - (5, 4): Rock wall (blocks southward traversal from (5, 3) along Column 5).
-  - (4, 4): Rock wall (blocks southward traversal from (4, 3) along Column 4).
-  - Row 4 barrier: (2..8, 4) are all rock walls; Row 1..3 West (cols 3..9) connects only via (9, 4) -> (9, 5).
-  - (17, 4): Rock wall (blocks eastward traversal from (16, 4) along Row 4).
-  - (23, 3): Rock wall (blocks southward traversal from (23, 2) along Column 23).
-  - (24, 6): Rock wall (blocks southward traversal from (24, 5) along Column 24).
-  - (22, 5): Rock wall (blocks southward traversal from (22, 4) along Column 22 to Ladder B).
-  - (18, 8): Rock wall (blocks southward traversal from (18, 7) along Column 18).
-  - (18, 5): Rock wall (blocks northward traversal from (18, 6) along Column 18).
-  - (19, 4): Rock wall (blocks northward traversal from (19, 5) along Column 19).
-  - (20, 4): Rock wall (blocks northward traversal from (20, 5) along Column 20).
-  - (29, 7): Rock wall (blocks southward traversal from (29, 6) along Column 29).
-  - (27, 8): Rock wall (blocks southward traversal from (27, 7) along Column 27).
-  - (25, 10): Rock wall (blocks southward traversal from (25, 9) along Column 25).
-  - (26, 15): Rock wall (blocks southward traversal from (26, 14)).
-  - (28, 17): Rock wall.
-  - (20, 15..17): Rock wall block (blocks westward traversal along Rows 15..17 at Column 20).
-  - (14, 14): Rock wall (blocks southward traversal from (14, 13) along Column 14).
-  - (13, 13): Rock wall.
-  - Column 15 South Corridor: (15, 13..17) open floor straight down into Row 17 South Artery.
-- (22, 9): Rock wall (blocks westward traversal from (23, 9) along Row 9).
-
-- (13, 12): Rock wall (blocks westward traversal from (14, 12)).
-- (17, 14): Rock wall (blocks southward traversal from (17, 13) along Column 17).
-- (17, 6): Rock wall (blocks eastward traversal from (16, 6) along Row 6).
-- (16, 2): Rock wall (blocks northward traversal from (16, 3)).
-- (16, 3..7): Open vertical corridor connecting west at (15, 3) and (15, 5).
-- Column 10 Barrier: (10, 1), (10, 2), (10, 4) are rock walls; open floor gaps at (10, 3) and (10, 5) connect East Sector to Ladder E at (9, 1).
-- Row 5 Thoroughfare: cols 9..16 are open floor.
-- Column 9 Corridor: rows 1..5 are open floor connecting Row 5 directly north to Ladder E at (9, 1).
-- Walls around col 10-14: (10, 1..4), (12, 2..3), (14, 2..4) are rock walls.
-- Row 2 Rock Barrier: Solid rock wall across cols 5..10 separates Row 1 from Row 3.
-- (14, 9): Rock wall (blocks westward traversal along Row 9).
-- Empirical West Perimeter: (2, 1), (2, 2), (2, 3) are rock walls (blocks westward traversal from Column 3 directly into Ladder A chamber).
-- Empirical Central/South Barriers:
-  - (15, 12), (16, 13), (15, 16), (14, 14), (14, 15): Rock walls.
-  - (13, 10..14): Rock walls (blocks westward traversal from Column 14/15 into Column 12).
-- Verified Eastern Artery: (27, 17) -> (27, 16) -> (28, 16..13) connects Row 17 South Artery directly into the northeast corridors towards Ladder D at (29, 1).
-- (28, 10..12): Open floor corridor.
-- (28..29, 9): Dead-end alcove (PP Up location at (29, 9)). Eastern Artery terminates here.
-- Row 9 West Thoroughfare: cols 15..24 are continuous open floor connecting to Column 24 ((24, 9..13)).
-- (16, 8), (17, 8), (18, 8): Solid rock walls blocking northward traversal along Columns 16-18 from Row 9.
-- Row 8 Western Bypass: (13..15, 8) is open cave floor connecting Row 9 at (15, 9) -> (15, 8) -> (13, 8) -> Column 13 corridor.
-- Row 10 Solid Wall: Solid rock wall across cols 13..22 blocks all northward traversal along Row 10.
-- Column 12 Vertical Highway: cols 12 is continuous open floor connecting Row 15 straight north through Row 7 towards Row 1/Northwest Sector.
-- Row 15 Connector: cols 12..15 are open floor connecting Column 15 to Column 12.
+- Column 24 Corridor: Open vertical floor across (24, 1..15) connecting Row 15 to Row 1 North Bypass.
+- Row 11 Thoroughfare: cols 14..24 are open cave floor connecting Ladder B sector to Column 24.
+- Row 10 Barrier: Solid rock wall across cols 13..22.
+- Row 16 Barrier: Solid rock wall across cols 14..20.
+- Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
+- Row 1 North Bypass: Continuous open floor across cols 3..24 at Row 1 leading straight to Ladder A chamber.
 
 <hr>
 
