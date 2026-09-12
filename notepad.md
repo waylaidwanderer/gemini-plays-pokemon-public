@@ -2952,6 +2952,7 @@
 - Item Pok� Ball at (13, 6) collected (Max Potion).
 - Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
 
+## Collision Matrix & Verified Passages (2F)
 - Column 24 Corridor: Open vertical floor across (24, 11) to (24, 15) [Verified Turn 46363].
 - Central/South Branches: (14, 11..13), (15, 13..15), and Row 15 (cols 15..19) verified open floor [Turn 46387].
 - Row 8 Obstacle: Solid rock wall at (24, 8) blocks eastward traversal from (23, 8) [Turn 46406].
