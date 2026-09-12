@@ -63,3 +63,5 @@
   - Path from (19, 5) to (24, 1): Right 2 to (21, 5) -> Up 1 to (21, 4) -> Right 1 to (22, 4) -> Up 2 to (22, 2) -> Right 2 to (24, 2) -> Up 1 to (24, 1).
   - (29, 7): Rock wall (blocks southward traversal from (29, 6) along Column 29).
   - Open path south: (29, 6) -> Left 2 to (27, 6) -> Down along Column 27 (27, 7..10) into South Artery.
+  - (27, 8): Rock wall (blocks southward traversal from (27, 7) along Column 27).
+  - Open path to Row 11: From (27, 7) -> Left 2 to (25, 7) -> Down 4 down Column 25 (25, 8..11) into Row 11 Thoroughfare.
