@@ -7,7 +7,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - West: Route 7 via West Gatehouse. Map transition at col 0, rows 17..18 connecting to Route 7.
 - East: Route 8 via East Gatehouse located at cols 38..42, rows 16..19; signpost at (39, 19) [Sighted Turn 12679].
 - North: Route 5 via North Gatehouse (untested).
-- South: Route 6 via South Gatehouse located at cols 0..3, rows 32..35 [Sighted Turn 12648].
+- South: Route 6 via Southern Boulevard exit across rows 35..36.
 
 ## West Gatehouse Area
 - Player enters Saffron City at (0, 18) [Turn 12629].
