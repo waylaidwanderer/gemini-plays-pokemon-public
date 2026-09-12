@@ -3007,6 +3007,7 @@
 - (28, 13): Rock wall (bypass via (29, 14) -> (29, 13) -> (29, 12) -> (28, 12)).
 - (29, 11): Rock wall.
 - (28, 10..12): Open floor corridor.
+- (28..29, 9): Dead-end alcove (PP Up location at (29, 9)). Eastern Artery terminates here.
 
 <hr>
 
