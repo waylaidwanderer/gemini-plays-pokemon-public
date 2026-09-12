@@ -3462,5 +3462,9 @@ Systematically test candidate tiles in Pokémon Mansion 2F Central Hall to locat
 
 ## Log
 - Turn 14465: Player at (5, 10). Initiating test sequence towards (7, 10). First stepping Right to (6, 10).
+- Turn 14471: Player stepped Down to (7, 11). Confirmed (7, 11) is flat floor.
+- Visual Audit: Tile (7, 10) clearly displays a staircase graphic with steps ascending North and banisters on left/right.
+- Hypothesis: Staircase at (7, 10) requires entry from the South (stepping Up from 7, 11). Side entry from (6, 10) did not trigger the warp.
+- Next Test: Step Up from (7, 11) into (7, 10).
 
 <hr>
