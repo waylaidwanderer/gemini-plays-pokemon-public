@@ -3253,5 +3253,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Central Corridor: Open grass path spanning columns 10 to 13 connecting northern dock to southern town plaza [Verified Turn 13678].
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
 - Eastern Shoreline: Column 20 is the eastern cliff/water boundary connecting to Route 20 [Verified Turn 13682].
+- Cinnabar Pokémon Center: Located at columns 10 to 13, rows 8 to 11, marked with "POKé" on facade at (12, 11). Entrance door at (11, 11) [Verified Turn 13684].
 
 <hr>
