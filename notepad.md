@@ -3177,10 +3177,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 2 (Southeast Room)**:
   - Interior Bounds: cols 14..19, rows 13..17.
-  - Trainer: Psychic Tyron at (17, 13) facing South. Team: Slowpoke Lv 33, Slowpoke Lv 33, Slowbro Lv 33. Defeated Turn 13116. Prize: ¥990.
+  - Trainer: Psychic Tyron at (17, 13) facing South. Team: Slowpoke Lv 33, Slowpoke Lv 33, Slowbro Lv 33. Defeated Turn 13116. Prize: ¥330.
   - Warp Tiles:
     - Bottom-Right (19, 17): <---> Room 1 (Entrance) (11, 15) [Verified Turn 13099].
-    - Top-Right (19, 15): [Untested].
+    - Top-Right (19, 15): [Testing Turn 13117].
     - Bottom-Left (15, 17): [Untested].
     - Top-Left (15, 15): [Untested].
 
