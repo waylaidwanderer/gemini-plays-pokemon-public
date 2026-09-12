@@ -138,3 +138,7 @@
   - Status: Healthy
   - Received: Silph Co employee gift [Turn 12858, Verified Turn 12865]
   - Transferred to PC Box 1 (Active Party full)
+- HITMONLEE (Nickname: BRUCE) [Lv 30, Fighting]
+  - Status: Healthy
+  - Received: Fighting Dojo prize [Turn 13254]
+  - Transferred to PC Box 1 (Active Party full)
