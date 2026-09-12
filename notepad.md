@@ -2975,7 +2975,7 @@
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Collision Matrix & Verified Passages (2F)
-- Column 24 Corridor: Open vertical floor across (24, 1..15) connecting Row 15 to Row 1 North Bypass.
+- Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall. To reach NW Sector / Ladder A, take 1F canal to Ladder E (7, 1).
 - Row 11 Thoroughfare: cols 14..24 are open cave floor connecting Ladder B sector to Column 24.
 - Row 10 Barrier: Solid rock wall across cols 13..22.
 - Row 16 Barrier: Solid rock wall across cols 14..20.
