@@ -20,11 +20,12 @@
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
 - BICYCLE [Verified Turn 11080]
-- POKÉ FLUTE [Obtained Turn 6599, Verified Turn 11081]
+- POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
+- SECRET KEY [Obtained Turn 14678 at Mansion B1F (5, 13)]
 
 ## Inventory Capacity
-- Total Slots Used: 15 / 20
+- Total Slots Used: 18 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -41,6 +42,9 @@
   13. IRON x1
   14. CARBOS x1
   15. TM14 (BLIZZARD) x1
+  16. RARE CANDY x1
+  17. TM22 (SOLARBEAM) x1
+  18. SECRET KEY x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -92,7 +96,7 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Healed Turn 13690]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10) [Healed Turn 13690]
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
@@ -131,7 +135,6 @@
   - Status: Healthy
   - Caught: Safari Zone Area 1 tall grass [Turn 9001]
   - Transferred to PC Box 1 (Active Party full)
-
 - LAPRAS (Nickname: NESSY) [Lv 15, Water/Ice]
   - Status: Healthy
   - Received: Silph Co employee gift [Turn 12858, Verified Turn 12865]
