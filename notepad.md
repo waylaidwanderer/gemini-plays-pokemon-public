@@ -3419,7 +3419,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Statue at (12, 9): Tested from (13, 9) facing West on Turn 14023. Confirmed NO switch.
 - East Wing Access: Rows 4-5 are open across column 15 (cols 14-17), providing direct unobstructed passage from the central hall into the eastern wing without passing through the shutter at (15, 10-11) [Verified Turn 14023].
 
-<!-- Switch matrix centralized in Main.md -->
+
 
 ## East Laboratory Room (cols 16-23, rows 1-8)
 - North Features: Twin dial machines along row 1 across columns 16-19.
