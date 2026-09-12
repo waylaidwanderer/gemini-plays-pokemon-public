@@ -2992,6 +2992,9 @@
 
 - (13, 12): Rock wall (blocks westward traversal from (14, 12)).
 - (17, 14): Rock wall (blocks southward traversal from (17, 13) along Column 17).
+- (17, 6): Rock wall (blocks eastward traversal from (16, 6) along Row 6).
+- (16, 2): Rock wall (blocks northward traversal from (16, 3)).
+- (16, 3..7): Open vertical corridor connecting west at (15, 3) and (15, 5).
 
 <hr>
 
