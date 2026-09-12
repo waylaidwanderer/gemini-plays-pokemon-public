@@ -3056,5 +3056,9 @@
 2. Move East along Row 13 to (22, 13) -> North to (22, 11) (Row 11).
 3. Move West across Row 11 through (17, 11) -> (14, 11) -> (12, 11).
 4. Systematically probe and document Column 12 and western branches.
+## Verified Central-to-West Connection
+- (13, 11), (13, 12), (14, 9), (14, 10) are rock walls blocking direct Row 11 westward walk from (14, 11).
+- Open Bypass Route: (14, 11) -> East to (17, 11) -> North to (17, 9) -> West to (16, 9) -> (15, 9) -> North to (15, 8) -> West to (14, 8) -> (13, 8) -> (11, 7) / (12, 10..15) / (10, 7..15).
+- This bypass connects Central Sector directly into the West/SW sectors and toward Ladder A (1, 3).
 
 <hr>
