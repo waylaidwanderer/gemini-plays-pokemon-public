@@ -3598,4 +3598,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Shutter Door 3: Located at (12-13, 12), OPENED [Turn 14733] after answering NO to Question 3.
 - Chamber 4 Question: "POLIWAG evolves 3 times?" [Verified Turn 14732] (Answer: NO)
 
+## Chamber 5 (South-Central)
+- Bounds: Columns 9 to 13, rows 13 to 17.
+- Entered from Chamber 4 via Shutter Door 3 at (12-13, 12).
+- Quiz Machine 4: Located at (9, 13). Must be interacted with from (9, 14) facing North.
+- Trainer at (11, 14) facing South.
+- Row 13 (cols 10-13) provides safe passage behind trainer (11, 14).
+- Row 16 connects west into column 7 corridor at (8, 16).
+
 <hr>
