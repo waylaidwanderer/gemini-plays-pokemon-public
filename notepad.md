@@ -3265,7 +3265,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Swimmer 3: Located at (16, 63) in water [Observed Turn 14867].
 - Fisherman 1: Located at (14, 56) on eastern pier spanning cols 14-17 [Verified Turn 14870].
 - Swimmer 4 / NPC: Located at (10, 31) in water [Observed Turn 14879].
-- Swimmer 5: Located at (12, 30) in water [Verified Turn 14881].
+- Swimmer 5: Originally at (12, 30) facing East, challenges player along row 30 [Encountered Turn 14893].
 
 <hr>
 

@@ -18,4 +18,4 @@
 - Swimmer 3: Located at (16, 63) in water [Observed Turn 14867].
 - Fisherman 1: Located at (14, 56) on eastern pier spanning cols 14-17 [Verified Turn 14870].
 - Swimmer 4 / NPC: Located at (10, 31) in water [Observed Turn 14879].
-- Swimmer 5: Originally at (12, 30) facing East, challenges player along row 30 [Encountered Turn 14893].
+- Cue Ball: Originally at (12, 30) facing East, challenges player along row 30 [Encountered Turn 14893].
