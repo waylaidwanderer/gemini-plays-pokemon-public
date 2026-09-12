@@ -3572,5 +3572,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Hallway along column 19 provides open access from the entrance hall.
 - Trainer at (17, 8) facing South (Burglar/Super Nerd sprite).
 - Counter/table along row 11 at columns 15 to 17 divides Chamber 1 from the entrance hall.
+- Quiz Machine 1: Located at (15, 7) in upper-left of chamber.
+- Shutter Door 1: Located at (18-19, 6), currently CLOSED.
+- Row 7 (cols 16-19) is completely open behind the trainer, providing safe access to Quiz Machine 1 without triggering battle.
 
 <hr>
