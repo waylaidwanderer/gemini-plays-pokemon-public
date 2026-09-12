@@ -402,13 +402,16 @@
 - Occupants:
   - (8, 4): Wandering Youngster NPC (advises: "Once a POKéMON learns FLASH, you can get through ROCK TUNNEL.").
   - (1, 4): PROFESSOR OAK'S AIDE! Stationed on the west side of the gatehouse. Gives HM05 (Flash) if player has caught 10 or more Pokémon species.
-- Southern Cut Pocket (Turn 3860): HP Up collected from item ball at (13, 45).
 ## Southern Route 2 East (South of Gatehouse)
 - Row 40..42: Open green lawn at cols 14..19.
 - Row 43: Stone fence with open passage at (15, 43).
 - Row 44..48: Open green lawn at cols 12..19.
 - Row 49: South-facing ledge spanning cols 12..14 and 16..19, with passable tan ramp at (15, 49).
-- Row 50..52+: Open green lawn spanning cols 13..19. Cut tree at (12, 52).
+- Row 50..52: Open green lawn spanning cols 13..19. Cut tree at (12, 52) connects west to Route 2 main highway!
+- Row 54: HP Up previously collected at (13, 54) [Turn 3860].
+- Row 61: South-facing ledge spanning cols 14 and 16..19, with passable tan ramp at (15, 61). Tree at (13, 61).
+- Rows 62..68: Flower garden pocket spanning cols 13..19.
+- Row 69: Solid trees block south across cols 10..22.
 
 <hr>
 
