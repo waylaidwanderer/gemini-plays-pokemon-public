@@ -3051,5 +3051,6 @@
   2. Test northern outlets at Column 12, 14, 15, 16.
   3. Empirically record each blocked tile and each open tile step-by-step.
 
+- Verified Row 13 / Col 22 Corridor: (17..22, 13) is open floor; (22, 13..15) -> (21, 15..17) connects Row 13 directly into the Row 17 South Artery.
 
 <hr>
