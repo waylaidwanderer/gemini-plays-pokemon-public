@@ -169,15 +169,14 @@
   5. SUPER ROD
   6. FULL RESTORE x1
   7. MAX POTION x1
-  8. HM04
+  8. HM03
   9. GOOD ROD
-  10. HM03
-  11. REVIVE x5
-  12. FULL HEAL x5
-  13. TM29 x1
-  14. CARD KEY
-  15. MASTER BALL x1
-  16. TM46 x1
+  10. REVIVE x5
+  11. FULL HEAL x5
+  12. TM29 x1
+  13. CARD KEY
+  14. MASTER BALL x1
+  15. TM46 x1
 
 ## Stored / PC Items
 - HM04 (STRENGTH) x1 (PC) [Stored Turn 13296]

@@ -16,11 +16,10 @@
 - POKÉ FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 - GOOD ROD [Obtained Turn 11176, Verified Turn 11905]
-- HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 - CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 15 / 20
+- Total Slots Used: 14 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -29,16 +28,16 @@
   5. SUPER ROD
   6. FULL RESTORE x1
   7. MAX POTION x1
-  8. HM03
-  9. GOOD ROD
-  10. REVIVE x5
-  11. FULL HEAL x5
-  12. TM29 x1
-  13. CARD KEY
-  14. MASTER BALL x1
-  15. TM46 x1
+  8. GOOD ROD
+  9. REVIVE x5
+  10. FULL HEAL x5
+  11. TM29 x1
+  12. CARD KEY
+  13. MASTER BALL x1
+  14. TM46 x1
 
 ## Stored / PC Items
+- HM03 (SURF) x1 (PC) [Stored Turn 13298]
 - HM04 (STRENGTH) x1 (PC) [Stored Turn 13296]
 - SILPH SCOPE x1 (PC) [Stored Turn 13294]
 - LIFT KEY x1 (PC) [Stored Turn 13292]
