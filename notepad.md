@@ -3378,8 +3378,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Status: Currently set to State A via 2F switch at (2, 11).
 - 2F Northwest Shutter (9, 4-5): Confirmed OPEN in State A, CLOSED in State B [Verified Turn 14069].
 
-- Next Objective: Head to 1F via (7, 10) in State A -> pass through open East Room Exit at (24-25, 13) into Southern Hall -> explore Shutter 2 at (21, 17) and chamber at (21-23, 18-26) for B1F stairs.
-
 <hr>
 
 <h1><code>Locations/Kanto_PokemonMansion_3F</code></h1>
