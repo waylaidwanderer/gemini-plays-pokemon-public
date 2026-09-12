@@ -3406,7 +3406,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Floor: Open pink checkerboard floor across columns 1-5 (rows 1-3) and columns 3-8 (rows 1-5).
 - Staircase down to 2F: Located at (6, 1) [Verified Turn 13997].
 - South boundary: Fully audited on Turn 14196 via direct visual scan at (3, 3). Continuous impassable rubble wall completely blocks rows 6-7 across columns 1-8, with additional rubble at (1-2, 4-5). Absolutely NO southern exit exists from this chamber into the Southwest sector.
-- Feature at (10, 4-5): Display case / statue structure flanked by rubble at (9, 4-5) and open passage along column 11. Switch status untested.
+- Secret Switch Statue: Located at (10, 4-5) [Empirically verified Turn 14404]. Interacting from (10, 6) facing North triggers 'A secret switch!'. Selecting YES toggles the global Mansion switch state (A <-> B), opening the East Shutter at (15, 10-11).
 - East Exit: Row 3 connects east to columns 10-11, wrapping south down column 11 around the display case past row 6 rubble.
 
 ## Central North Hall & East Passage (cols 10-15, rows 1-7)
