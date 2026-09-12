@@ -3010,6 +3010,7 @@
 - Verified open path from (20, 3) to Ladder C (19, 7): (20, 3) -> (20, 2) -> (21..22, 2) -> (22, 3..4) -> (21, 4..5) -> (20..19, 5) -> (19, 6..7) [Ladder C].
 - (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. To reach the NW Sector, use Ladder C down to 1F water canal route to Ladder E.
 - Central Pocket Exact Routing: Ladder C (19, 7) <-> (19, 6) <-> (19, 5) <-> (20, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 5) <-> (22, 6) Ladder B. (20, 4) is a solid rock wall; (20..22, 2) is an enclosed dead-end corridor. To traverse to other 2F sectors, descend via Ladder C (19, 7) to 1F water canal system.
+- Column 24 corridor (24, 1..5) and (25..27, 4) are an enclosed dead-end sector on 2F separated from Ladder D (29, 1). To reach Mewtwo, descend via Ladder C (19, 7) to 1F water canal route.
 
 <hr>
 
