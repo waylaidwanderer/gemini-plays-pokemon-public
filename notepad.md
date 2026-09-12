@@ -3004,7 +3004,7 @@
   - (15, 12), (16, 13), (15, 16), (14, 14), (14, 15): Rock walls.
   - (13, 10..14): Rock walls (blocks westward traversal from Column 14/15 into Column 12).
 - Verified Eastern Artery: (27, 17) -> (27, 16) -> (28, 16..13) connects Row 17 South Artery directly into the northeast corridors towards Ladder D at (29, 1).
-- (28, 13): Rock wall (bypass via (29, 14) -> (29, 13) -> (29, 12) -> (28, 12)).
+- (28, 13): Rock wall.
 - (29, 11): Rock wall.
 - (28, 10..12): Open floor corridor.
 - (28..29, 9): Dead-end alcove (PP Up location at (29, 9)). Eastern Artery terminates here.
