@@ -3345,7 +3345,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
-- Pokémon Statue Switch: Located at (2, 11), interacted from (2, 12) facing North. Empirically confirmed secret switch prompt [Turn 13978]. Allows toggling mansion switch states directly on 2F without returning to 1F!
+- Verified Turn 14263: THERE IS NO STATUE OR SWITCH in this southwest room; tiles (2, 10-12) and (3, 10-12) are solid rubble. The only verified switch on the upper floors is on 1F at (2, 5).
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket fully cleared.
 
@@ -3386,7 +3386,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground. Row 8 has a solid wall at (24-28, 8) blocking access from (28, 7) (verified Turn 13915). West is blocked by rubble along column 22 (rows 9-15) and row 16 is a solid south wall (verified Turns 13904, 13908). Completely enclosed on 2F; accessed via drop-in from 3F.
-
 
 <hr>
 

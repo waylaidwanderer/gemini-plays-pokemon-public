@@ -12,7 +12,7 @@
 - Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
-- Pokémon Statue Switch: Located at (2, 11), interacted from (2, 12) facing North. Empirically confirmed secret switch prompt [Turn 13978]. Allows toggling mansion switch states directly on 2F without returning to 1F!
+- Verified Turn 14263: THERE IS NO STATUE OR SWITCH in this southwest room; tiles (2, 10-12) and (3, 10-12) are solid rubble. The only verified switch on the upper floors is on 1F at (2, 5).
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket fully cleared.
 
