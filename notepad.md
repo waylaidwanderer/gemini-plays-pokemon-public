@@ -2934,6 +2934,7 @@
 3. **Ladder D**: Located at (27, 1) [Northeast Terrace] <-> 2F (29, 1).
 4. **Ladder E**: Located at (7, 1) [Northwest Waterway] <-> 2F (9, 1).
 
+- Northern Terrace Water Ramp: Located at (15, 3). Disembarks Surf onto Northern Terrace ground at (15, 2), providing direct open floor access along Row 1 west to Ladder E at (7, 1) [Verified Turn 46458].
 
 <hr>
 
