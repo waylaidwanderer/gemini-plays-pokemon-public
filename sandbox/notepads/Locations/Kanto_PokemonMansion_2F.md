@@ -38,7 +38,10 @@
 - Rubble barrier at columns 14-17 (rows 12-14) and column 22 (rows 10-14).
 - Column 20-21 corridor continues unobstructed south past row 14.
 
-## Southeast Staircase Chamber (cols 23-25, rows 10-15)
+## Southeast Staircase Chamber (cols 23-25, rows 8-15)
 - Staircase up to 3F located at (25, 14) [Verified Turn 13868].
-- Open pink floor across (23-25, 10-13) and (24-25, 14-15).
-- Bounded on south by row 16 wall, and on west by rubble at column 22 (rows 10-15) and column 23 (rows 14-15). Column 23 is open pink floor at rows 10-13 [Verified Turn 13872]. Access path from north (rows 6-9) currently being investigated.
+- Open pink floor across columns 24-25 from row 9 down to row 15 [Verified Turn 13873].
+- North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
+- West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
+- South boundary: Row 16 wall.
+- Access: Connected to the eastern wing (columns 26-28) at rows 8-9. Reachable via row 3 corridor to columns 26-28.
