@@ -2998,9 +2998,9 @@
 ## Empirical 2F Tile Passability Grid (Verified Turns 46070-46084)
 - **Row 11**: (14..24, 11) PASSABLE dark floor. (13, 11) = SOLID ROCK.
 - **Row 12**: (17, 12) = PASSABLE floor. (18..23, 12) = SOLID ROCK. (24, 12) = PASSABLE.
-- **Row 13**: (17..18, 13) = PASSABLE. (19..20, 13) = ROCK/FLOOR mix. (21, 13) = PASSABLE. (24, 13) = PASSABLE.
-- **Row 14**: (18, 14) = PASSABLE floor. (17, 14) = ROCK. (24, 14) = PASSABLE.
-- **Row 15**: (15..22, 15) = PASSABLE floor. (23, 15) = ROCK. (24, 15) = PASSABLE.
+- **Row 13**: (17..22, 13) = PASSABLE dark floor. (23, 13) = SOLID ROCK. (24, 13) = PASSABLE.
+- **Row 14**: (18, 14) = SOLID ROCK. (22, 14) = PASSABLE floor. (24, 14) = PASSABLE.
+- **Row 15**: (21..22, 15) = PASSABLE floor. (23, 15) = ROCK. (24, 15) = PASSABLE.
 - **Row 16**: (21, 16) = PASSABLE connector to Row 17. (27..28, 16) = PASSABLE connector to Row 17.
 - **Row 17 (South Artery)**: (20..27, 17) = PASSABLE continuous open highway. Connects East to Column 29 (Ladder D).
 
