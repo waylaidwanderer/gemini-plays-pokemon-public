@@ -2996,6 +2996,9 @@
 - (16, 2): Rock wall (blocks northward traversal from (16, 3)).
 - (16, 3..7): Open vertical corridor connecting west at (15, 3) and (15, 5).
 - Column 10 Barrier: (10, 1), (10, 2), (10, 4) are rock walls; open floor gaps at (10, 3) and (10, 5) connect East Sector to Ladder E at (9, 1).
+- Row 5 Thoroughfare: cols 9..16 are open floor.
+- Column 9 Corridor: rows 1..5 are open floor connecting Row 5 directly north to Ladder E at (9, 1).
+- Walls around col 10-14: (10, 1..4), (12, 2..3), (14, 2..4) are rock walls.
 
 <hr>
 
