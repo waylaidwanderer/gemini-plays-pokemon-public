@@ -3349,10 +3349,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket fully cleared.
 
-## North Hall & Northwest Corridor (cols 5-14, rows 1-8)
+## North Hall & Northwest Bedroom (cols 0-14, rows 0-9) [Fully Audited Turn 14211]
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
-- Northwest Shutter: Located at (9, 4-5). Confirmed OPEN in Switch State A [Verified Turn 13994] (closed in Switch State B). Provides open passage west into the northwest wing (cols 1-8, rows 1-8).
-- Staircase to 3F: Located at (6, 1) in northwest wing. Fully accessible in Switch State A [Verified Turn 13995]. Leads up to Pokémon Mansion 3F.
+- Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
+- Staircase to 3F: Located at (6, 1) in northwest bedroom.
+- ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
+- Consequence: There is NO southern exit from this room into the Southwest switch room. In State B, this room is completely inaccessible from 2F.
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
 - Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11) (neither contains a switch, tested Turns 13838-13841), plants at (13, 8) and (13, 10), wall dividing at column 14 (rows 8-11), tables/desks at (15-17, 5) and (15-17, 8-10), machine at (15, 11), and open east corridors along rows 6-7 connecting into columns 18-19 [Verified Turn 13849].
