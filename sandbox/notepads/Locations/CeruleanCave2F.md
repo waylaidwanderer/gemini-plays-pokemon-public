@@ -82,3 +82,5 @@
 - Walls around col 10-14: (10, 1..4), (12, 2..3), (14, 2..4) are rock walls.
 - Row 2 Rock Barrier: Solid rock wall across cols 5..10 separates Row 1 from Row 3.
 - (14, 9): Rock wall (blocks westward traversal along Row 9).
+- Empirical West Perimeter: (2, 1), (2, 2), (2, 3) are rock walls (blocks westward traversal from Column 3 directly into Ladder A chamber).
+- Ladder A Access Topology: Ladder A (1, 3) is accessed exclusively via Column 0 ((0, 7) -> (0, 2) -> (1, 2) -> (1, 3)), entered via Row 7 West from the Southeast Sector / Row 11 Thoroughfare.
