@@ -2994,25 +2994,25 @@
 
 # Cerulean Cave Active Investigation & Routing
 
-## Direct 2F West Sector Master Route to Ladder A (B1F Mewtwo)
-1. **Navigate to 2F West Sector (3, 3) / (3, 1)** (Active):
-   - Current Position: (16, 3) on 2F.
-   - Route from (16, 3) to (3, 3):
-     - Step 1: Up through (15, 3..1) to (13, 1).
-     - Step 2: Down Column 13 to (13, 5).
-     - Step 3: West along Row 5 to (9, 5) -> Up to (9, 3).
-     - Step 4: West across Row 3 through (8..4, 3) to (3, 3).
-   
-2. **Direct Passage to Ladder A at (1, 3)**:
-   - From (3, 3), step up to (3, 2) and (3, 1).
-   - From (3, 1) / (3, 2), test west into (2, 1) / (1, 2) / (0, 2..3).
-   - Step directly onto Ladder A at (1, 3)!
-   - Descend Ladder A to B1F (Mewtwo's floor).
+## Direct 2F Route to Ladder A (B1F Mewtwo) via Row 9 Thoroughfare
+1. **Navigate from Central Bypass to Row 11 Thoroughfare**:
+   - Current Position: (16, 6) on 2F.
+   - Up to (16, 1) [5x Up] -> East to (23, 1) [7x Right].
+   - Down Column 23 to (23, 11) [10x Down].
 
-3. **B1F Mewtwo Capture**:
+2. **Row 11 to Row 9 Thoroughfare**:
+   - West along Row 11 to (12, 11) [11x Left].
+   - Up Column 12 to (12, 9) [2x Up].
+
+3. **Row 9 Highway to Column 0 & Ladder A**:
+   - West along Row 9 all the way to (0, 9) [12x Left].
+   - Up Column 0 from (0, 9) to (0, 2) [7x Up].
+   - Step East to (1, 2) [1x Right] and South to (1, 3) [1x Down].
+   - Step onto Ladder A at (1, 3) to descend directly to B1F!
+
+4. **B1F Mewtwo Capture**:
    - Navigate B1F to Mewtwo's platform.
    - Initiate battle with Mewtwo.
    - Throw Master Ball on Turn 1 for 100% guaranteed capture!
-
 
 <hr>
