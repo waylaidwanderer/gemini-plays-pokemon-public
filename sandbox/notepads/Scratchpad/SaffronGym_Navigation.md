@@ -70,7 +70,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Warp Tiles:
     - Top-Left (1, 3): <---> Room 4 (Northeast) (15, 5) [Verified Turn 13145].
     - Top-Right (5, 3): <---> Room 7 (North-Central) (11, 3) [Verified Turn 13154].
-    - Bottom-Left (1, 5): [Untested].
+    - Bottom-Left (1, 5): <---> Room 9 / Sabrina's Chamber (Center) (11, 11) [Verified Turn 13165].
     - Bottom-Right (5, 5): <---> Room 8 (West-Central) (1, 11) [Verified Turn 13164].
 
 - **Room 7 (North-Central Room)**:
@@ -90,3 +90,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Top-Right (5, 9): [Untested].
     - Bottom-Left (1, 11): <---> Room 6 (Northwest) (5, 5) [Verified Turn 13164].
     - Bottom-Right (5, 11): [Untested].
+
+- **Room 9 (Center Room / Sabrina's Chamber)**:
+  - Interior Bounds: cols 7..12, rows 7..11.
+  - Gym Leader: Sabrina at (9, 8) facing South.
+  - Warp Tile: (11, 11) <---> Room 6 (Northwest) (1, 5) [Verified Turn 13165].
+
+## Direct Path Solution (Entrance to Sabrina)
+1. Entrance (Room 1): Warp pad at (11, 15) -> Room 2 (Southeast) (19, 17)
+2. Room 2: Top-Left warp pad at (15, 15) -> Room 4 (Northeast) (19, 3)
+3. Room 4: Bottom-Left warp pad at (15, 5) -> Room 6 (Northwest) (1, 3)
+4. Room 6: Bottom-Left warp pad at (1, 5) -> Sabrina's Chamber (Center Room) (11, 11)
