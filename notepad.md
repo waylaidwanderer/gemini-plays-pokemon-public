@@ -3397,12 +3397,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Overview & Arrival
 - Staircase down to 2F: Located at (6, 1), landing at (6, 2) facing South [Verified Turn 13997].
 
-## Northwest Starting Chamber (cols 2-11, rows 1-6)
-- North boundary: Solid exterior wall along row 0.
-- Floor: Open pink checkerboard floor across columns 3-8 (rows 1-5).
-- South boundary: Solid rubble wall across columns 2-9 at row 6.
+## Northwest Starting Chamber (cols 0-11, rows 0-7) [Fully Audited Turn 14196]
+- West & North boundary: Solid exterior walls along column 0 and row 0.
+- Floor: Open pink checkerboard floor across columns 1-5 (rows 1-3) and columns 3-8 (rows 1-5).
+- Staircase down to 2F: Located at (6, 1) [Verified Turn 13997].
+- South boundary: Fully audited on Turn 14196 via direct visual scan at (3, 3). Continuous impassable rubble wall completely blocks rows 6-7 across columns 1-8, with additional rubble at (1-2, 4-5). Absolutely NO southern exit exists from this chamber into the Southwest sector.
 - Furniture: Display case at (10, 4-5) flanked by rubble at (9, 4-5) and open passage along column 11.
 - East Exit: Row 3 connects east to columns 10-11, wrapping south down column 11 around the display case past row 6 rubble.
+
 ## Central North Hall & East Passage (cols 10-15, rows 1-7)
 - Rubble Obstacles: Spans (10-13, 1) and (12-13, 2-3).
 - Display Case: Located at (10, 4-5) blocking column 10 at rows 4-5.
