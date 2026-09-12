@@ -2948,8 +2948,6 @@
 ## Verified Open Passageways (2F)
 - **Ladder B to North Bypass Thoroughfare**:
   - Ladder B landing at (22, 7) -> (23, 7..11) -> (17, 11..13) -> (22, 13..15) -> (21, 15..17) -> Row 17 South Artery -> (28, 17..14) -> (26, 14..9) -> (25, 9..7) -> (27, 7..6) -> (29, 6..3) -> (28, 3..2) -> (29, 1) Ladder D!
-- **Central-to-NW S-Bypass**: (19, 7) <-> (19, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 2) <-> (20, 2) <-> (18, 1).
-- **Row 1 North Bypass**: (1..18, 1) provides continuous open floor from east to west leading to Ladder E (9, 1) and Ladder A (1, 3).
 
 ## Verified Items (2F)
 - Item Pok�ball at (29, 9) collected (PP Up).
