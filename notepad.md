@@ -155,13 +155,12 @@
 - BICYCLE [Verified Turn 11080]
 - POKÉ FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
-- HM04 (STRENGTH) [Received Turn 8274, Verified Turn 11082]
 - GOOD ROD [Obtained Turn 11176, Verified Turn 11905]
 - HM03 (SURF) [Received Turn 10975, Verified Turn 11082]
 - CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 16 / 20
+- Total Slots Used: 15 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -181,6 +180,7 @@
   16. TM46 x1
 
 ## Stored / PC Items
+- HM04 (STRENGTH) x1 (PC) [Stored Turn 13296]
 - SILPH SCOPE x1 (PC) [Stored Turn 13294]
 - LIFT KEY x1 (PC) [Stored Turn 13292]
 - COIN CASE x1 (PC) [Stored Turn 13288]
