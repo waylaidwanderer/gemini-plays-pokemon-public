@@ -10,3 +10,6 @@
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).
 - North Corridor: Open floor across rows 8-10 at columns 5-9 wraps around the staircase north into rows 8-9.
 - East Corridor: Connects east past column 10 at rows 7-8.
+- West Room Geography: Rubble field covers columns 1-4 (rows 6-9). Open floor spans columns 1-5 (rows 10-13+).
+- North Structure: Doorway/opening visible at (10, 5) separated from south by rubble at rows 6-7.
+- Column 5 Path: Open pink floor runs south from row 9 to row 13+.
