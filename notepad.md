@@ -3190,7 +3190,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Warp Tiles:
     - Top-Right (19, 9): <---> Room 2 (Southeast) (19, 15) [Verified Turn 13118].
     - Bottom-Right (19, 11): [Untested].
-    - Top-Left (15, 9): [Testing Turn 13125].
+    - Top-Left (15, 9): <---> Room 4 (Northeast) (15, 3) [Verified Turn 13126].
     - Bottom-Left (15, 11): [Untested].
+
+- **Room 4 (Northeast Room)**:
+  - Interior Bounds: cols 14..19, rows 1..5.
+  - Trainer: (17, 1) facing South.
+  - Warp Tiles:
+    - Top-Left (15, 3): <---> Room 3 (East-Central) (15, 9) [Verified Turn 13126].
+    - Top-Right (19, 3): [Untested].
+    - Bottom-Left (15, 5): [Untested].
+    - Bottom-Right (19, 5): [Untested].
 
 <hr>
