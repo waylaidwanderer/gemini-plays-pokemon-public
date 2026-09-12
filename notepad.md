@@ -3398,5 +3398,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 12 Divider: Alternating features along column 12 - potted plant at (12, 8), Pokémon statue at (12, 9), potted plant at (12, 10), Pokémon statue at (12, 11).
 - East Shutter Door: Located at (15, 10-11). Confirmed CLOSED in Switch State A [Verified Turn 14001]. Bounded by solid vertical wall at (15, 7-8). Open pink floor visible behind it at column 16.
 - Southwest Balcony / Drop: Located at (7, 10) with open floor across columns 8-9 (rows 8-11). Rubble barrier along column 10 (rows 9-11).
+- Statue at (12, 11): Tested from (12, 12) facing North on Turn 14008. Confirmed NO switch. Central corridor dead-ends at row 12/13 with horizontal wall at (12-13, 13) and rubble at (14, 12-13).
 
 <hr>
