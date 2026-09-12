@@ -17,3 +17,4 @@
 - Cinnabar Island Approach: Pokémon Mansion sighted at rows 90-92, columns 4 to 7. Open water along row 88 leads east toward Cinnabar Island northern beach [Verified Turn 13672].
 - Swimmer 3: Located at (16, 63) in water [Observed Turn 14867].
 - Fisherman 1: Located at (14, 56) on eastern pier spanning cols 14-17 [Verified Turn 14870].
+- Swimmer 4 / NPC: Located at (10, 31) in water [Observed Turn 14879].
