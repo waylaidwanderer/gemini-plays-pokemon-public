@@ -29,7 +29,7 @@
 |---|---|---|
 | 1F Shutter 1 (16-17, 7) | CLOSED [Turn 13961] | OPEN [Turn 13762] |
 | 1F Shutter 2 (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
-| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 13832] |
+| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Verified Turn 14069] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001] | UNTESTED (Hypothesized OPEN) |
 ## East Laboratory Room (cols 16-23, rows 1-8)
 - North Features: Twin dial machines along row 1 across columns 16-19.
