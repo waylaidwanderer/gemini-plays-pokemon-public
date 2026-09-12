@@ -41,3 +41,4 @@
 - Trainer at (11, 8) facing South.
 - Row 7 (cols 10-13) provides safe passage behind trainer (11, 8).
 - Shutter Door 3: Located at (12-13, 12), currently CLOSED.
+- Chamber 4 Question: "POLIWAG evolves 3 times?" [Verified Turn 14732] (Answer: NO)
