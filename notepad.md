@@ -3310,8 +3310,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Shutter Door 2 located at (21, 17) leading south.
 - Southeast cul-de-sac: Enclosed room at columns 26-28 (rows 19-27) entered via doorway (24-25, 17). Contains closed shutter door at (26-27, 27) along exterior south wall [Verified Turn 13735].
 
+## Southwest Wing (cols 1-3, rows 10-27) [Explored]
+- Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
+
 ## Unexplored Frontiers (Primary Investigation Target)
-- Southwest Wing (cols 1-3, rows 10-27): Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 - Chamber south of Shutter 2 (cols 21-23, rows 18-26): Contains unidentified object/tile at (21, 23).
 
 <hr>
