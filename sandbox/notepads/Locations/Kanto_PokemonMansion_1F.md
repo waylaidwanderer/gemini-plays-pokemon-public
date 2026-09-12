@@ -9,4 +9,5 @@
 - Entrance Hall: Red carpet corridor spanning columns 4 to 7, running north from row 27 [Verified Turn 13698].
 - Side Rooms: Checkered floor rooms flanking the entrance corridor to the west (cols 1-3) and east (cols 8-10) [Verified Turn 13698].
 - Entrance Hall Columns: Display tables with plants line columns 3 and 8 at rows 14, 16, 18, 20, 22, and 24, with open passages into side rooms at odd rows [Verified Turns 13699, 13700, 13703].
-- Northern Staircase: Main staircase leading up to 2F located at the northern terminus of the red carpet corridor at (5, 10) [Verified Turn 13704].
+- Corridor Terminus: Red carpet corridor terminates at wall (5, 9); tile (5, 10) is open floor [Corrected Turn 13708].
+- Open Passages: Passages lead west and east into flanking rooms along row 11.
