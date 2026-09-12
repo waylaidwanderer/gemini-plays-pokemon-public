@@ -16,3 +16,5 @@
 - SE Entrance Chamber: (20..25, 12..17) is open cave floor.
 - Boulder Obstacle: Rock formations at (24, 13) and (25, 13) block north traversal along cols 24-25 from entrance.
 - Open Corridor to Ladder B: (21, 12..14) is open floor leading north towards Ladder B at (23, 7).
+- Row 6 North Bypass: (18..22, 6) is continuous open floor connecting the Ladder B sector (col 22) across to the western corridor (cols 17-18) where Ladder C (18, 9) and Water Ramp (17, 15) are located.
+- Western Corridor: Columns 17-18 (rows 6..15) are open floor leading straight south from Row 6 past Ladder C (18, 9) to Water Ramp at (17, 15).
