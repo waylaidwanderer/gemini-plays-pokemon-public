@@ -6,21 +6,18 @@
   1. **Entrance Basin (Southeast, cols 20..25, rows 12..17)**:
      - Cave entrance/exit mat at (24..25, 17) connects to Cerulean City NW Waterway Pool (4, 11).
      - Ascending ramp at (21, 11) leads up to Upper Plateau.
-     - **Empirical Shoreline Testing (Turns 45447-45448)**:
-       - (20, 15), (20, 16), (20, 17) facing Left: Solid rock wall ('No SURFing on HYDROS here!').
-       - (21, 17), (22, 17), (23, 17) facing Down: Solid rock wall ('No SURFing on HYDROS here!').
-       - Entrance Basin has NO direct water access to the Central Waterway.
+     - Entrance Basin has NO direct water access to the Central Waterway.
   2. **Upper Plateau (East/Central, cols 21..25, rows 6..10)**:
      - Reachable from Entrance Basin via ramp at (21, 11).
      - Contains **Ladder B** at (23, 7) <-> 2F (22, 6).
      - Ramp at (25, 9) leads south into dead-end wall at (25, 10).
      - Divided from Central Corridor to the west by solid purple rock wall along Column 20 (rows 6..13).
-     - Divided from Northern Corridor by solid ceiling/wall along rows 4..5.
-  3. **Central Corridor & Waterways (cols 8..19, rows 4..17)**:
+  3. **Central Corridor & Waterways (cols 8..23, rows 4..17)**:
+     - Accessible from NE Terrace via South-facing ramp at (23, 3).
      - Contains **Ladder C** at (18, 9) <-> 2F (19, 7).
      - Contains **Water Ramp** at (17, 15) facing west into water canal at (16, 15).
-     - Main north-south waterway runs along cols 8..17 across rows 1..15.
+     - Main north-south waterway runs along cols 8..17 across rows 1..15 leading north to Ladder E.
   4. **Northern Corridor & Landings (cols 0..29, rows 0..3)**:
-     - Contains **Ladder D** at (27, 1) <-> 2F (29, 1) on NE Terrace.
-     - Contains **Ladder E** at (7, 1) <-> 2F (9, 1) on NW Waterway Landing.
+     - **NE Terrace (cols 23..29, rows 0..3)**: Contains **Ladder D** at (27, 1) <-> 2F (29, 1). Open floor along Row 1 (27..23, 1) and Row 2 (27..23, 2). Solid rock barrier at (22, 1..3). Contains South-facing **Ramp** at (23, 3) that descends into Central Corridor!
+     - **NW Waterway Landing (cols 0..9, rows 0..3)**: Contains **Ladder E** at (7, 1) <-> 2F (9, 1). Reached via Surfing north along Central Waterway from (17, 15).
      - Ladder E connects to 2F West Sector -> Ladder A at (1, 3) -> B1F (Mewtwo).
