@@ -38,7 +38,7 @@
 
 ## Southern Hall & Southeast Cul-de-sac (cols 21-29, rows 14-27)
 - Wide hallway spanning rows 14-16 (cols 12-27).
-- Shutter Door 2 located at (20-21, 17) leading south. Confirmed CLOSED in Switch State A [Verified Turn 14121].
+- Shutter Door 2: Located at (20-21, 17) leading south. Confirmed CLOSED in Switch State A [Verified Turn 14121]. Solid wall at (18, 16) blocks row 16 westward [Verified Turn 14130].
 - Southeast cul-de-sac: Enclosed room at columns 26-28 (rows 19-27) entered via doorway (24-25, 17). Contains closed shutter door at (26-27, 27) along exterior south wall [Verified Turn 13735].
 
 ## Southwest Wing (cols 1-3, rows 10-27) [Explored]
