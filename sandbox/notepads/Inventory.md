@@ -17,6 +17,7 @@
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 - TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
+- TM27 (FISSURE) x1 [Received Turn 15114 from Gym Leader Giovanni]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -25,7 +26,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 20 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -46,6 +47,7 @@
   17. TM22 (SOLARBEAM) x1
   18. SECRET KEY x1
   19. TM38 (FIRE BLAST) x1
+  20. TM27 (FISSURE) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -72,14 +74,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥112437 [Turn 15076]
+- ¥117387 [Turn 15112]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 61, Water]
   - Status: Healthy
   - HP: 193 / 193
   - Stats: Attack 142, Defense 165, Speed 142, Special 146
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 3/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 26 / 26

@@ -2,11 +2,11 @@
 
 ## Status
 
-- Badges: 7 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge)
+- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
 - Active Team: Blastoise (SHELDON) Lv 61, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥112437 [Turn 15076]
+- Money: ¥117387 [Turn 15112]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -139,3 +139,4 @@
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
 - [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
+- [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
