@@ -24,17 +24,23 @@ def step(dir_name):
 pos = mgba.get_coordinates()
 print("Starting pos:", pos)
 
-# Let's walk Up to (24, 11), then Left towards (20, 11) and see how far west we can go on Row 11
-# Step Up 2 to (24, 11)
-for i in range(2):
-    ok, pos = step("Up")
-    print(f"Up -> {pos}")
+# Let's move Right 1 to (15, 11), then Down towards row 17
+ok, pos = step("Right")
+print(f"Right -> {pos}")
 
-# Step Left up to 12 times to see where Row 11 leads
-for i in range(12):
-    ok, pos = step("Left")
-    print(f"Left {i+1} -> {ok}, {pos}")
+for i in range(8):
+    ok, pos = step("Down")
+    print(f"Down {i+1} -> {ok}, {pos}")
     if not ok:
         break
 
-print("Current pos:", mgba.get_coordinates())
+print("Pos at bottom:", pos)
+
+# Now let's try moving Right along the bottom row (row 17?)
+for i in range(15):
+    ok, pos = step("Right")
+    print(f"Right {i+1} -> {ok}, {pos}")
+    if not ok:
+        break
+
+print("Final pos:", mgba.get_coordinates())
