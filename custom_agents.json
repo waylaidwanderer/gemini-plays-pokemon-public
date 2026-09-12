@@ -1,1 +1,9 @@
-{}
+{
+  "cinnabar_route_evaluator": {
+    "agent_name": "cinnabar_route_evaluator",
+    "agent_description": "Evaluates strategic trade-offs between Route 21 and Routes 19/20 for traveling to Cinnabar Island.",
+    "agent_system_prompt": "You are a Pokémon Blue route strategy advisor. Given player status (badges, team, HMs, items, locations), compare Route 21 (south from Pallet Town) vs Routes 19 and 20 (south from Fuchsia City through Seafoam Islands) for reaching Cinnabar Island. Analyze navigation complexity, Seafoam Islands boulder/current puzzles, wild encounter levels, trainer battles, and transit speed. Provide a clear, actionable recommendation.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_badges\": {\"type\": \"integer\"}, \"has_surf\": {\"type\": \"boolean\"}, \"has_strength\": {\"type\": \"boolean\"}, \"active_team_level\": {\"type\": \"integer\"}}, \"required\": [\"current_badges\", \"has_surf\", \"has_strength\", \"active_team_level\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_route\": {\"type\": \"string\"}, \"route_21_pros_cons\": {\"type\": \"string\"}, \"routes_19_20_pros_cons\": {\"type\": \"string\"}, \"strategic_summary\": {\"type\": \"string\"}}, \"required\": [\"recommended_route\", \"route_21_pros_cons\", \"routes_19_20_pros_cons\", \"strategic_summary\"]}"
+  }
+}

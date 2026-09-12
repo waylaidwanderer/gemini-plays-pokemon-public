@@ -7,7 +7,6 @@
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
-- TM46 (PSYWAVE) x1 [Received Turn 13175 from Sabrina]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -16,7 +15,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 11 / 20
+- Total Slots Used: 10 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -28,9 +27,9 @@
   8. REVIVE x5
   9. FULL HEAL x5
   10. MASTER BALL x1
-  11. TM46 x1
 
 ## Stored / PC Items
+- TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
 - CARD KEY x1 (PC) [Stored Turn 13305]
 - TM29 (PSYCHIC) x1 (PC) [Stored Turn 13303]
 - GOOD ROD x1 (PC) [Stored Turn 13300]
