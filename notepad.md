@@ -1400,8 +1400,6 @@
 ## HM03 SURF Verification
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 
-- Silph Co Dig Verification (Turn 13061): TM28 Dig executed on Silph Co 11F, warping player directly outside Saffron City Pokémon Center at (9, 30). Confirms indoor skyscraper dungeons allow Dig escape.
-
 <hr>
 
 <h1><code>Locations/Kanto_Route9</code></h1>
@@ -1902,7 +1900,7 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 
 ## Northern Bypass / Rooftop Corridor Entrance (Verified Turn 13406)
 - Eastern Gap (Cols 44..45): Continuous 2-tile wide paved yellow brick road spanning north from row 10 up past row 6 between the Pokémon Center east wall (col 43) and the eastern border trees (col 46).
-- Provides direct northern access into rows 0..6 behind the buildings, leading west to the back entrance of Celadon Mansion and the Cuttable tree connection to Route 16.
+- Northern Rooftop Corridor: Paved 2-tile wide yellow brick road along rows 4..5 spanning west from col 45 to col 37 behind the Pokémon Center and adjacent commercial buildings [Verified Turns 13406-13411].
 
 <hr>
 

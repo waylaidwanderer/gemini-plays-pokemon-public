@@ -38,5 +38,3 @@
 
 ## HM03 SURF Verification
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
-
-- Silph Co Dig Verification (Turn 13061): TM28 Dig executed on Silph Co 11F, warping player directly outside Saffron City Pokémon Center at (9, 30). Confirms indoor skyscraper dungeons allow Dig escape.
