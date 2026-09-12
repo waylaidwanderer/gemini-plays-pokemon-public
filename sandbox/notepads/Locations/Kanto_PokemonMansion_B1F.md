@@ -21,7 +21,7 @@
 ## Central-West Corridor & Statue Aisle (cols 7-18, rows 10-18)
 - Massive open pink floor across columns 10-14, rows 10-18.
 - Column 9 vertical wall divider spans rows 10-16.
-- Column 7-8 contains Pokémon statues at (7, 11) and (7, 15), with potted plants at (7, 10) and (7, 14).
+- Columns 6-7 contain Pokémon statues at (6-7, 11) and (6-7, 15), with potted plants at (6-7, 10) and (6-7, 14). Aisle at column 8 (rows 11-16) is open pink floor.
 - Row 17 wall blocks columns 7-9.
 - Row 18 is open across columns 7-13, providing a southern westward avenue into the Southwest Wing.
 ## Southwest Wing & Item Ball (cols 1-9, rows 18-26)
