@@ -381,6 +381,13 @@
   - Verified Resale Values:
     - POTION: ¥150
 
+## Northern Sector & Viridian Gym Geography
+- Ledge (Row 9): South-facing one-way ledge spanning columns 24..30 (tall grass at cols 28..30).
+- Residence (Rows 8..9): House at columns 20..23 with door at (21, 9).
+- North-South Avenue: Columns 18..19 connect row 12 north to row 7 between the west fence (col 16) and residence (cols 20..23).
+- Gym Approach (Row 7): Open east-west street along row 7 connecting column 18 east to columns 21..27 in front of the Gym building.
+- Viridian Gym: Northeast quadrant, building facade at columns 27..30+, accessible via row 7.
+
 <hr>
 
 <h1><code>Locations/Kanto_Route2</code></h1>
