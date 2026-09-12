@@ -3624,5 +3624,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer at (3, 8) facing South.
 - Safe route to Quiz Machine 6: Walk north along col 4 to row 7, west behind trainer along row 7 to (2, 7), down to (2, 8), left to (1, 8), avoiding trainer line of sight.
 - Shutter Door 6: Located at (4-5, 6), currently CLOSED. Opens into Blaine's arena upon answering Question 6 correctly.
+- Chamber 7 Question: "TM28 contains TOMBSTONER?" [Verified Turn 14774] (Answer: NO)
 
 <hr>
