@@ -3301,5 +3301,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Empirically triggered 'A secret switch!' prompt [Turn 13756], pressed YES ('Who wouldn't?') to toggle all mansion shutter doors [Verified Turn 13757].
 - Central Table: Large 2x2 structure at (6-7, 4-5).
 - Walkway: Clear vertical path down column 4 from row 1 past row 5.
+- Shutter (24-25, 13): Verified OPEN in State A (default); verified CLOSED in State B (after switch toggle at (2, 5)) [Turn 13788]. This empirically proves switches INVERT shutter states rather than opening all simultaneously.
 
 <hr>
