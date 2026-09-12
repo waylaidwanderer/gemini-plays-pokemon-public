@@ -61,3 +61,8 @@
 - West boundary wall along column 9 (rows 1-5).
 - Shutter Door at (9, 6-7) along west wall [CLOSED in State A].
 - Open pink checkerboard floor across rows 2-4 (cols 10-17).
+## West Wing & Secret Key Chamber (cols 1-8, rows 1-8)
+- Accessed via Shutter Door at (9, 6-7) [OPEN in State B].
+- Contains large table at (4-5, 4-5).
+- Item Ball sighted at (5, 4) [Turn 14674].
+- Open pink checkerboard floor across rows 2-7.
