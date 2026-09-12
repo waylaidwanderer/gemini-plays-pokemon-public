@@ -2937,8 +2937,6 @@
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (accessed by surfing the 1F water canal and disembarking at water ramp (15, 3)).
    - Northwest loop: (9, 1) -> Row 1 West to (3, 1) -> (3, 3) -> Row 3 East to (9, 3) -> (9, 5) -> Row 5 East.
-   - Pathway to Ladder A:
-     - Accessible via the Row 9 thoroughfare leading west into Column 0, which connects north directly to Ladder A at (1, 3). Ladder A descends to B1F (Mewtwo's chamber).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
@@ -3002,7 +3000,6 @@
 - Row 2 Rock Barrier: Solid rock wall across cols 5..10 separates Row 1 from Row 3.
 - (14, 9): Rock wall (blocks westward traversal along Row 9).
 - Empirical West Perimeter: (2, 1), (2, 2), (2, 3) are rock walls (blocks westward traversal from Column 3 directly into Ladder A chamber).
-- Ladder A Access Topology: Ladder A (1, 3) is accessed exclusively via Column 0 ((0, 7) -> (0, 2) -> (1, 2) -> (1, 3)), entered via Row 7 West from the Southeast Sector / Row 11 Thoroughfare.
 
 <hr>
 
@@ -3029,26 +3026,27 @@
 
 # Cerulean Cave Navigation to Mewtwo (B1F)
 
-## Active Strategy: NW Sector Localized Probing for Ladder A (1, 3)
-- Target: Ladder A located at (1, 3) descending to B1F (Mewtwo's Chamber).
-- Current Position: (15, 3) on 2F.
-- Route to NW Sector: (15, 3) -> Up to (15, 1) -> West along Row 1 (cols 14..3) to (3, 1).
-- Probing Protocol at NW Sector:
-  1. Systematically probe western tiles from (3, 1), (3, 2), (3, 3), and southern connections (cols 0..3, rows 1..7).
-  2. Map exact passable coordinates directly connecting to (1, 3) without floor-wide retreats.
-  3. Step onto Ladder A at (1, 3) and descend to B1F.
+## Active Objective: Empirical Exploration of 2F South/East Arteries
+- Current position: (25, 7) on 1F -> Ascending Ladder B to 2F (22, 6).
+- Target: Ladder A at (1, 3) on 2F (observed from NW sector at (3, 1)).
 
-## Verified 1F Key Landmarks
-- Entrance: (25, 17) <-> Cerulean City NW Pool.
-- Ladder B: (23, 7) <-> 2F (22, 6).
-- Ladder C: (18, 9) <-> 2F (19, 7).
-- Ladder D: (27, 1) <-> 2F (29, 1).
-- Ladder E: (7, 1) <-> 2F (9, 1).
+## Verified Empirical Barriers on 2F
+- NW Perimeter: (2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4..8, 4), (8, 5), (9, 6), (10, 6) are solid rock walls.
+- East/Central Barriers:
+  - (17, 6): Rock wall (blocks East traversal from (16, 6)).
+  - (16, 2): Rock wall.
+  - (14, 9): Rock wall (blocks West traversal along Row 9).
+  - (22, 9): Rock wall (blocks West traversal from (23, 9)).
+  - (24, 8): Rock wall (blocks East traversal from (23, 8)).
+  - (20, 15..17): Rock wall block.
+  - (14, 14), (13, 13), (17, 14), (13, 12): Rock walls.
 
-## Mewtwo Encounter Protocol (B1F)
-- Bag: MASTER BALL in Slot 18.
-- Lead: HYDROS (Lv 93).
-- Action: Initiate battle with Mewtwo, select ITEM -> MASTER BALL on Turn 1!
+## Active Routing Hypotheses & Probing Protocol
+- Ladder B (22, 6) connects south to (22, 7) [Southeast Artery].
+- Systematic probe from (22, 7) down Column 23 / Row 11 ((23..12, 11)):
+  1. Map exact passable coordinates on Row 11.
+  2. Test northern outlets at Column 12, 14, 15, 16.
+  3. Empirically record each blocked tile and each open tile step-by-step.
 
 
 <hr>
