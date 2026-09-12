@@ -40,5 +40,5 @@
 ## Far Eastern Chamber (cols 23-28, rows 1-10)
 - Room Layout: Open pink floor spanning columns 23-27 across rows 2-8.
 - Rubble: Bounded on east by rubble along columns 26-27 (rows 1-3) and (27, 4-5). Rubble at (24-25, 1).
-- Item Ball: Located at (25, 5) [Discovered Turn 14028].
+- Item Ball: Located at (25, 5). Obtained IRON x1 [Turn 14029, Verified Turn 14047].
 - South Corridor: Open floor across columns 24-27 (rows 6-8) bounded on south by row 9 horizontal wall.
