@@ -146,7 +146,7 @@
 | 1F Cul-de-sac Shutter (26-27, 27) | CLOSED [Turn 13735, 14142] | UNTESTED |
 | 2F Central Shutter (8-10, 8) | OPEN [Turn 13833] | CLOSED [Turn 13832, 14344] |
 | 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069, 14357] |
-| 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | UNTESTED (Hypothesized OPEN) |
+| 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | OPEN [Turn 14405] |
 
 <hr>
 
@@ -3350,7 +3350,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
-- Feature at (2, 10-11): Sighted Pok�mon statue graphic at (2, 10-11) from (5, 11) [Turn 14337]. Interaction and switch status untested.
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket fully cleared.
 
@@ -3383,6 +3382,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Table at (18-19, 13).
 - Rubble barrier at columns 14-17 (rows 12-14) and column 22 (rows 10-14).
 - Column 20-21 corridor continues unobstructed south past row 14.
+- Drop Landing Tile: Landing at (18, 14) facing Down occurs when stepping off 3F balcony gap at (19, 14) [Verified Turn 14421].
 
 ## Southeast Staircase Chamber (cols 23-28, rows 9-16)
 - Staircase up to 3F located at (25, 14) [Verified Turn 13868].
@@ -3435,5 +3435,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rubble: Bounded on east by rubble along columns 26-27 (rows 1-3) and (27, 4-5). Rubble at (24-25, 1).
 - Item Ball: Located at (25, 5). Obtained IRON x1 [Turn 14029, Verified Turn 14047].
 - South Corridor: Open floor across columns 24-28 (rows 6-8). Verified Turn 14238: row 9 is solid wall across ALL columns (24-28, 9). No ledge or break. Lower rows 10-12 (with NPC trainer at 20, 11) accessed exclusively via shutter at (15, 10-11).
+## Southern Balcony Chamber (cols 15-21, rows 10-14)
+- Accessed via East Shutter at (15, 10-11), confirmed OPEN in State B [Verified Turn 14405].
+- Shutter Doorway: Located at (15, 10). Rubble at (16-17, 10) requires stepping down to (15-16, 11) to bypass into the chamber.
+- NPC Trainer: Scientist located at (20, 11) facing West; stepped to (19, 11) upon engaging [Defeated Turn 14417].
+- Room Layout: Open pink checkerboard floor spans columns 18-21 (rows 10-12) and column 19 (row 13).
+- Balcony Ledge & Gaps (Row 14):
+  - Row 14 is open void/balcony drop-off.
+  - Left Gap at (19, 14): Stepping south from (19, 13) into (19, 14) drops player to 2F Central-South Corridor at (18, 14) [Verified Turn 14418-14421].
+  - Eastern Edge (cols 20-21, rows 13-14): Untested drop geometry. Systematic survey required.
+
 
 <hr>
