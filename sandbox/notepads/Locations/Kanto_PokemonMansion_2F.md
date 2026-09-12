@@ -12,7 +12,7 @@
 - Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
-- Feature at (2, 10-11): Sighted Pokémon statue graphic at (2, 10-11) from (5, 11) [Turn 14337]. Interaction and switch status untested.
+- Feature at (2, 10-11): Sighted Pokï¿½mon statue graphic at (2, 10-11) from (5, 11) [Turn 14337]. Interaction and switch status untested.
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket fully cleared.
 
