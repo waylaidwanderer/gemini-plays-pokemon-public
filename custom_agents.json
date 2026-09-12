@@ -1,9 +1,1 @@
-{
-  "mansion_switch_tracker": {
-    "agent_name": "mansion_switch_tracker",
-    "agent_description": "Tracks iron shutter door states and switch locations across all floors of Pokémon Mansion.",
-    "agent_system_prompt": "You are a specialized state tracker for the iron shutter puzzle in Pokémon Mansion in Pokémon Blue. You track whether each shutter on 1F, 2F, 3F, and B1F is OPEN or CLOSED under State A vs State B, and advise on optimal switch toggles.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"current_state\": {\"type\": \"string\"}, \"action_taken\": {\"type\": \"string\"}}, \"required\": [\"current_floor\", \"current_state\", \"action_taken\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"state_name\": {\"type\": \"string\"}, \"shutter_states\": {\"type\": \"object\", \"properties\": {\"mansion_1f_shutter_1\": {\"type\": \"string\"}, \"mansion_1f_shutter_2\": {\"type\": \"string\"}, \"mansion_2f_northwest_shutter\": {\"type\": \"string\"}, \"mansion_3f_east_shutter\": {\"type\": \"string\"}}, \"required\": [\"mansion_1f_shutter_1\", \"mansion_1f_shutter_2\", \"mansion_2f_northwest_shutter\", \"mansion_3f_east_shutter\"]}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"state_name\", \"shutter_states\", \"recommendation\"]}"
-  }
-}
+{}
