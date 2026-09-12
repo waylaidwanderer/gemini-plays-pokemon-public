@@ -53,4 +53,4 @@
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Completely enclosed on 2F ground level with no ground-level shutter doors; access is exclusively via drop-in from 3F.
+- Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Note: On Turn 14545, 3F Southeast Chamber was surveyed and confirmed that staircase at (25, 14) connects between 2F and 3F with no floor drop in that chamber. Ground-level 2F access remains blocked by rubble.

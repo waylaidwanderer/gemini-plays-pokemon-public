@@ -6,7 +6,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥102744 [Turn 13241]
+- Money: ¥104394 [Turn 14418]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -146,3 +146,4 @@
 | 2F Central Shutter (8-10, 8) | OPEN [Turn 13833] | CLOSED [Turn 13832, 14344] |
 | 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069, 14357] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | OPEN [Turn 14405] |
+| B1F East Shutter (26-27, 17) | UNTESTED | UNTESTED (Sighted Turn 14566) |

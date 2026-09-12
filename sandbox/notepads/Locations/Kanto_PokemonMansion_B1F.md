@@ -17,7 +17,7 @@
 ## Central-North Hallway & West Wing Junction (cols 10-24, rows 10-15)
 - Wide open pink checkerboard floor across columns 10-24 and rows 10-15.
 - Doorway at (16-17, 16-17) leads south into western corridor flanked by dial machines at (15, 17) and (18-19, 17), leading south to Item Ball at (19, 25).
-- Main hallway extends West along rows 10-15 into the B1F West Wing (Secret Key chambers).
+- Main hallway extends West along rows 10-15 into the B1F West Wing.
 ## Central-West Corridor & Statue Aisle (cols 7-18, rows 10-18)
 - Massive open pink floor across columns 10-14, rows 10-18.
 - Column 9 vertical wall divider spans rows 10-16.
@@ -30,4 +30,4 @@
 - Wall at row 17 spans columns 1-9.
 - Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
-- Column 9 is a solid vertical wall across rows 14-16, dividing the statue chamber (cols 1-8) from the central corridor (cols 10-12). Row 16 west ends at (8, 16). Access to statue chamber is from the north.
+- Doorway at (9, 10): Open pink floor connecting central corridor (cols 10-15) to west room (cols 1-8) [Verified Turn 14581].
