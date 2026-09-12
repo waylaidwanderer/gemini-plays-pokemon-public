@@ -25,3 +25,5 @@
 - Eastern Boundary: Building's eastern wall is at column 29 (rows 0-7+); column 30+ is exterior void.
 - Rubble Pile: Column 28 rubble spans rows 2 to 5.
 - Eastern Room: Wide room spanning columns 23 to 28, accessed via doorway at (26-27, 4) [Verified Turn 13723].
+- Eastern Room Features: Large 2x2 table at (24-25, 8-9). Rubble along column 22 (rows 8-11) and columns 27-28 (rows 10-11).
+- Unobstructed vertical walkway runs down column 26 from row 4 past row 11 [Verified Turn 13727].
