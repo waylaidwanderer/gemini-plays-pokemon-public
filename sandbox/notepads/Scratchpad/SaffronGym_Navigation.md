@@ -69,6 +69,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Trainer: Psychic at (3, 1) facing South. Team: Slowbro Lv 38. Defeated Turn 13152. Prize: ¥380.
   - Warp Tiles:
     - Top-Left (1, 3): <---> Room 4 (Northeast) (15, 5) [Verified Turn 13145].
-    - Top-Right (5, 3): [Testing Turn 13153].
+    - Top-Right (5, 3): <---> Room 7 (North-Central) (11, 3) [Verified Turn 13154].
     - Bottom-Left (1, 5): [Untested].
     - Bottom-Right (5, 5): [Untested].
+
+- **Room 7 (North-Central Room)**:
+  - Interior Bounds: cols 7..12, rows 1..5.
+  - NPC: at (10, 1) facing South.
+  - Warp Tiles:
+    - Top-Right (11, 3): <---> Room 6 (Northwest) (5, 3) [Verified Turn 13154].
+    - Top-Left (9, 3): [Untested].
+    - Bottom-Left (9, 5): [Untested].
+    - Bottom-Right (11, 5): [Untested].
