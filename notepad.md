@@ -141,7 +141,7 @@
 # Inventory Log
 
 ## Regular Items
-- SUPER REPEL x4 [Verified Turn 11080]
+- SUPER REPEL x3 [Verified Turn 11080]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Verified Turn 11891]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
@@ -159,7 +159,7 @@
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
-  3. SUPER REPEL x4
+  3. SUPER REPEL x3
   4. POK� FLUTE
   5. SUPER ROD
   6. FULL RESTORE x1
@@ -269,7 +269,6 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
-
 
 <hr>
 
