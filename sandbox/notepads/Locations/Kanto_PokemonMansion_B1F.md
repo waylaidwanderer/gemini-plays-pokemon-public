@@ -8,12 +8,10 @@
 ## Southeast Arrival Chamber (cols 21-28, rows 18-26)
 - Wide open pink checkerboard floor spanning columns 21-28 across rows 18-26.
 - Western dividing wall along column 20 (rows 18-26).
-- Item Ball visible at (19, 25) in western corridor (west of column 20 wall).
 ## Northern Passage & Column 20 Wrap (cols 19-28, rows 14-17)
 - Column 20 wall terminates at row 16.
 - Rows 14 and 15 are open across columns 19 to 24, connecting the arrival chamber to the western corridor and western wings.
 - Shutter Door at (26-27, 17). Wall partition along column 25 (rows 14-16).
-- Column 19 connects south to Item Ball at (19, 25).
 ## Central-North Hallway & West Wing Junction (cols 10-24, rows 10-15)
 - Wide open pink checkerboard floor across columns 10-24 and rows 10-15.
 - Doorway at (16-17, 16-17) leads south into western corridor flanked by dial machines at (15, 17) and (18-19, 17), leading south to Item Ball at (19, 25).
@@ -48,7 +46,7 @@
 - Desk with Pokémon Mansion Diary located at (16, 20).
 - Scientist trainer stationed at (16, 23).
 - Pokémon Statue located at (18, 24-25) [Sighted Turn 14620].
-- Item Ball located at (19, 25) [Interacting Turn 14620].
+- Item Ball at (19, 25): TM14 (BLIZZARD) collected [Turn 14620].
 - Bounded on east by column 20 vertical wall (rows 18-26) and south by row 27 building wall.
 - Southwest Shutter at (13, 22-23) connects to columns 10-12: CLOSED in State B [Turn 14603], OPEN in State A [Verified Turn 14630].
 - Doorway Shutter at (16-17, 16): OPEN in State B, CLOSED in State A [Verified Turn 14629].

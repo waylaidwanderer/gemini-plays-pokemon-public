@@ -35,6 +35,7 @@
   11. ESCAPE ROPE x1
   12. CALCIUM x1
   13. IRON x1
+  14. TM14 (BLIZZARD) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]

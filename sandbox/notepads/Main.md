@@ -148,3 +148,4 @@
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | OPEN [Turn 14405] |
 | B1F East Shutter (26-27, 17) | OPEN [Turn 14636] | CLOSED [Turn 14590] |
 | B1F Corridor Shutter (16-17, 16) | CLOSED [Turn 14629] | OPEN [Turn 14567, 14615] |
+| B1F Southwest Shutter (13, 22-23) | OPEN [Turn 14630] | CLOSED [Turn 14603] |
