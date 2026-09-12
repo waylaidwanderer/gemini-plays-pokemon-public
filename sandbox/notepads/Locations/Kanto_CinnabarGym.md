@@ -50,4 +50,4 @@
 - Trainer at (11, 14) facing South.
 - Row 13 (cols 10-13) provides safe passage behind trainer (11, 14).
 - Row 16 connects west into column 7 corridor at (8, 16).
-- Shutter Door 4: Located at (7, 16-17) or (5, 12), currently CLOSED.
+- Shutter Door 4: Located at (5, 16), currently CLOSED. Opens upon answering Question 4 correctly.
