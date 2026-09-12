@@ -3301,6 +3301,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
 - Large 2x2 table at (6-7, 4-5).
 - Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Activated switch on Turn 13757.
+- Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
 
 ## Northern Hallway (Row 1 Superhighway)
 - Continuous unobstructed pink checkerboard corridor along row 1 spanning columns 1 to 28 [Verified Turns 13722, 13751].
@@ -3330,7 +3331,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
 - Enclosed B1F Staircase Chamber (cols 15-23, rows 18-26): B1F staircase confirmed at (21, 23) with descending stairs graphic [Verified Turn 14141]. Sighted Pokémon statue at (19, 19) and plant at (19, 18). Chamber is completely enclosed on 1F (solid walls, rubble at (24-25, 24-27), and closed Shutter 2 at (20-21, 17)). Accessible via drop from upper floors.
-- Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
+
 
 <hr>
 
@@ -3339,8 +3340,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Located at (5, 10), entered by stepping North from (5, 11). Warps to 1F (5, 11) [Verified Turns 14156, 14266, 14306, 14374]. Note: ending battle while occupying (5, 10) does not auto-warp; requires active step-into movement.
-- Landing: Arriving from 1F places player at (5, 11) facing Up.
+- Staircase down to 1F: Located at (5, 10), entered by stepping Left from (6, 10). Warps to 1F (5, 10) on red carpet [Verified Turn 14505]. Note: ending battle while occupying (5, 10) does not auto-warp; requires active step-into movement.
+- Landing: Arriving from 1F places player at (5, 11) facing Up [Verified Turn 13813, 14156].
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
 - Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15), (6-10, 16-17), and column 10 (rows 9-16). South boundary wall at row 17 across columns 1-5.
@@ -3470,7 +3471,6 @@ Systematically test candidate tiles in Pokémon Mansion 2F Central Hall to locat
 - Turn 14477: Stepped Up from (7, 11) toward (7, 10) - collided/bumped. Tile (7, 10) is solid from the south and is not an entry warp.
 - Turn 14481: Facing North at (7, 11). Testing 'A' interaction on (7, 10).
 - Turn 14483-14484: Pressed 'A' facing (7, 10). No dialogue or interaction triggered.
-- Conclusion: Tile (7, 10) is a solid, non-interactive fixture (bookcase/furniture). Candidate audit of Central Hall (5-9, 8-15) complete: NO staircase to 1F exists in this room. Exiting to explore southern and western sections.
 - Turn 14504-14505: Stepped Left from (6, 10) into (5, 10). Triggered map transition to Pokémon Mansion 1F! Player arrived at 1F (5, 10) on red carpet. 2F to 1F staircase at (5, 10) empirically verified! Audit successfully complete.
 
 <hr>
