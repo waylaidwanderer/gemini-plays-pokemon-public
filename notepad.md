@@ -142,20 +142,6 @@
 - [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 
-## Mansion Switch-State Matrix
-| Shutter / Door Location | State A (Default) | State B (Toggled) |
-|---|---|---|
-| 1F Shutter 1 (16-17, 7) | CLOSED [Turn 13961] | OPEN [Turn 13762] |
-| 1F East Room Exit (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
-| 1F Southern Hall Shutter 2 (20-21, 17) | CLOSED [Turn 14121] | UNTESTED (Hypothesized OPEN) |
-| 1F Cul-de-sac Shutter (26-27, 27) | CLOSED [Turn 13735, 14142] | UNTESTED |
-| 2F Central Shutter (8-10, 8) | OPEN [Turn 13833] | CLOSED [Turn 13832, 14344] |
-| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069, 14357] |
-| 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | OPEN [Turn 14405] |
-| B1F East Shutter (26-27, 17) | OPEN [Turn 14636] | CLOSED [Turn 14590] |
-| B1F Corridor Shutter (16-17, 16) | CLOSED [Turn 14629] | OPEN [Turn 14567, 14615] |
-| B1F Southwest Shutter (13, 22-23) | OPEN [Turn 14630] | CLOSED [Turn 14603] |
-| B1F Northwest Shutter (9, 6-7) | CLOSED [Turn 14661] | OPEN [Turn 14674] |
 
 <hr>
 
@@ -3279,6 +3265,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Swimmer 3: Located at (16, 63) in water [Observed Turn 14867].
 - Fisherman 1: Located at (14, 56) on eastern pier spanning cols 14-17 [Verified Turn 14870].
 - Swimmer 4 / NPC: Located at (10, 31) in water [Observed Turn 14879].
+- Swimmer 5: Located at (12, 30) in water [Verified Turn 14881].
 
 <hr>
 
