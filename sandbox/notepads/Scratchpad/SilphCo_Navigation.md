@@ -5,8 +5,6 @@
 Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain Master Ball.
 
 ## Inventory Prerequisites
-- Active Team: Blastoise Lv 56 (SHELDON), full PP/HP [Turn 12813].
-- Supplies: Revive x5, Full Heal x5, Super Repel x4, Full Restore x1, Max Potion x1, TM29 x1.
 - Key Items: Silph Scope, Lift Key (from Rocket Hideout), Pok� Flute.
 
 ## Key Dungeon Mechanics
@@ -79,10 +77,8 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - (5, 13): Solid horizontal wall tested at (5, 13) [Turn 12938].
   - (6, 13), (7, 13): Solid desks blocking northward movement into central area.
 - 11F Active Landmarks:
-  - Card Key Shutter Door at (7, 9) and (8, 9) leading to President's boardroom [Sighted Turn 12935].
   - Elevator Lobby at (13, 0).
   - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
-  - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
 - 11F Rocket Grunt at (15, 9) Defeated: Team: Rattata Lv 25, Rattata Lv 25, Zubat Lv 25, Rattata Lv 25, Ekans Lv 25. Prize ¥750 [Turn 12977].
 - 11F Eastern Elevator Corridor: Confirmed isolated from central/western rooms. Column 13 is a 100% solid vertical wall from row 10 to row 17 (tested at (13, 13), (13, 14)). Archway at (13, 3) is solid wall (tested from east (14, 3) [Turn 12978] and north (13, 2) [Turn 12979]). Defeated Grunt stationed at (15, 9).
 - Route Resolution: Silph Co 11F is physically partitioned into two disconnected sections. The elevator corridor does not connect to the boardroom. Access to the western and central executive offices is achieved via the 7F teleporter at (5, 7) arriving at 11F (3, 2).
