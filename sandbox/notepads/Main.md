@@ -149,4 +149,4 @@
 | B1F East Shutter (26-27, 17) | OPEN [Turn 14636] | CLOSED [Turn 14590] |
 | B1F Corridor Shutter (16-17, 16) | CLOSED [Turn 14629] | OPEN [Turn 14567, 14615] |
 | B1F Southwest Shutter (13, 22-23) | OPEN [Turn 14630] | CLOSED [Turn 14603] |
-| B1F Northwest Shutter (9, 6-7) | CLOSED [Turn 14661] | OPEN (Hypothesized) |
+| B1F Northwest Shutter (9, 6-7) | CLOSED [Turn 14661] | OPEN [Turn 14674] |

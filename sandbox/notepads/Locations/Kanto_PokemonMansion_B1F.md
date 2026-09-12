@@ -67,3 +67,5 @@
 - Item Ball at (5, 4): TM22 (SOLARBEAM) collected [Turn 14675].
 - Open passage south at (4-5, 8) connects northern chamber to southern statue hall.
 - Open pink checkerboard floor across rows 2-7.
+- Item Ball at (5, 13): SECRET KEY collected [Turn 14678].
+- West Wing fully surveyed: B1F exploration 100% complete!

@@ -15,6 +15,7 @@
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 - RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
+- SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
