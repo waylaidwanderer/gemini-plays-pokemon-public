@@ -3035,24 +3035,24 @@
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
 
-# Cerulean Cave 2F Navigation & Route to Mewtwo (B1F)
+# Cerulean Cave Navigation to Mewtwo (B1F)
 
-## Active Objective: Reach Ladder A at (1, 3)
-- Current Position: (29, 1) on 2F (Ladder D).
+## Active Strategy: 1F Northern Canal to Ladder E (7, 1) -> 2F NW Sector -> Ladder A (1, 3)
+1. **1F Water Canal**: Board water at water ramp (25, 9) near Ladder B (23, 7). Surf North along Col 28/29, then West across Row 4/5 to Northern Terrace ramp at (15, 3).
+2. **Northern Terrace (1F)**: Disembark at (15, 3), step north to (15, 1), walk West along Row 1 to Ladder E at (7, 1).
+3. **Climb Ladder E (1F 7, 1 -> 2F 9, 1)**: Ascend to 2F Northwest sector.
+4. **2F NW Sector Probing & Traversal**:
+   - Systematic probing from (9, 1) through Row 1, Row 3, Row 5, and connecting vertical thoroughfares to reach Column 0 / Ladder A at (1, 3).
+5. **Descend Ladder A (2F 1, 3 -> B1F)**: Descend into Mewtwo's chamber!
+6. **B1F Mewtwo Platform**: Surf along B1F water channels to Mewtwo, initiate battle, throw Master Ball on Turn 1!
 
-## Master Route via Column 29 & South Artery to Ladder A (1, 3):
-1. From (29, 1): Left 1 to (28, 1) -> Down 2 to (28, 3) -> Right 1 to (29, 3).
-2. Descend Column 29 straight down: (29, 4) -> (29, 5) -> ... -> (29, 17) [South Artery].
-3. Traverse South Artery (Row 17 / Row 11 / Row 9) completely west across the map to Column 0.
-4. North along Column 0: (0, 16) -> ... -> (0, 3).
-5. Step Right onto Ladder A at (1, 3) to descend to Cerulean Cave B1F (Mewtwo's Chamber)!
-6. In B1F: Surf to Mewtwo's island platform and capture with Master Ball on Turn 1!
-
-## Verified Obstacles & Landmarks (2F)
-- Ladder D: (29, 1) <-> 1F NE Terrace (27, 1).
-- Ladder E: (9, 1) <-> 1F Northern Terrace (7, 1).
-- Ladder B: (22, 6) <-> 1F SE Terrace (23, 7).
-- Ladder C: (19, 7) <-> 1F Central Corridor (18, 9) [Isolated dead-end on 1F].
-- Ladder A: (1, 3) -> Sole descending ladder to B1F (Mewtwo).
+## Verified 1F Key Coordinates & Rules
+- Entrance: (25, 17) <-> Cerulean City NW Pool.
+- Ladder B: (23, 7) <-> 2F (22, 6).
+- Ladder B Water Ramp: (25, 9) facing South into water at (25, 10).
+- Ladder C: (18, 9) (Isolated rocky corridor).
+- Ladder D: (27, 1) <-> 2F (29, 1). NE Terrace water ramp at (23, 3).
+- Ladder E: (7, 1) <-> 2F (9, 1). Northern Terrace water ramp at (15, 3).
+- Impassable Bank: (23, 6) facing North into (23, 5) yields 'No SURFing on HYDROS here!'. Only designated `===` ramps allow launching.
 
 <hr>
