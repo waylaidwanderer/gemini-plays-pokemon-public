@@ -64,5 +64,6 @@
 ## West Wing & Secret Key Chamber (cols 1-8, rows 1-8)
 - Accessed via Shutter Door at (9, 6-7) [OPEN in State B].
 - Contains large table at (4-5, 4-5).
-- Item Ball sighted at (5, 4) [Turn 14674].
+- Item Ball at (5, 4): TM22 (SOLARBEAM) collected [Turn 14675].
+- Open passage south at (4-5, 8) connects northern chamber to southern statue hall.
 - Open pink checkerboard floor across rows 2-7.
