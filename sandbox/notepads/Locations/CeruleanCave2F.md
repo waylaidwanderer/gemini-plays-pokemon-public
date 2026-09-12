@@ -29,6 +29,8 @@
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
-- Item Poké Ball at (29, 9) collected (PP Up).
-- Item Poké Ball at (13, 6) collected (Max Potion).
-- Item Poké Ball at (4, 15) collected (TM14 Blizzard).
+- Item Pokï¿½ Ball at (29, 9) collected (PP Up).
+- Item Pokï¿½ Ball at (13, 6) collected (Max Potion).
+- Item Pokï¿½ Ball at (4, 15) collected (TM14 Blizzard).
+
+- Column 24 Corridor: Open vertical floor across (24, 11) to (24, 15) [Verified Turn 46363].

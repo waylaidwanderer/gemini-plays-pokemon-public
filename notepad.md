@@ -2974,6 +2974,7 @@
 - Item Pok� Ball at (13, 6) collected (Max Potion).
 - Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
 
+- Column 24 Corridor: Open vertical floor across (24, 11) to (24, 15) [Verified Turn 46363].
 
 <hr>
 
