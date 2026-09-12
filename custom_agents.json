@@ -1,9 +1,1 @@
-{
-  "cerulean_cave_navigator": {
-    "agent_name": "cerulean_cave_navigator",
-    "agent_description": "Spatial routing and collision validator for Cerulean Cave floors 1F, 2F, and B1F.",
-    "agent_system_prompt": "You are an expert navigator for Cerulean Cave in Pokémon Blue. You validate grid paths, collision boundaries, and ladder connections without getting trapped in traversal loops.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"target_coordinate\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}, \"required\": [\"current_floor\", \"position\", \"target_coordinate\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"verified_clear\": {\"type\": \"boolean\"}, \"notes\": {\"type\": \"string\"}}, \"required\": [\"path\", \"verified_clear\", \"notes\"]}"
-  }
-}
+{}
