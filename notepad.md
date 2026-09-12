@@ -170,8 +170,9 @@
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
 - IRON x1 [Obtained Turn 14029 at Mansion 3F (25, 5), Verified Turn 14047]
-- CARBOS x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
+- CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
+- RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -3527,7 +3528,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Northwest Laboratory Room (cols 10-18, rows 0-5)
 - Entered via doorway at (12-13, 5).
 - North wall (row 1) lined with dial machines at (10-17, 1).
-- Item Ball sighted at (10, 2) [Turn 14648].
+- Item Ball at (10, 2): RARE CANDY x1 collected [Turn 14648].
 - West boundary wall along column 9 (rows 1-5).
 - Shutter Door at (9, 6-7) along west wall [CLOSED in State A].
 - Open pink checkerboard floor across rows 2-4 (cols 10-17).
