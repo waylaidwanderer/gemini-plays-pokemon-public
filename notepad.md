@@ -2933,28 +2933,47 @@
 
 <h1><code>Locations/CeruleanCave2F</code></h1>
 
-# Cerulean Cave (Unknown Dungeon) 2F - Layout & Notes
+# Cerulean Cave (Unknown Dungeon) 2F - Layout & Topology
 
-## Connected Component Graph (2F)
-- **Sector Breakdown**:
-  1. **West Sector (cols 1..9, rows 0..5)**: Reachable via Ladder E at (9, 1) <-> 1F (7, 1). Contains Ladder A at (1, 3), which descends directly to B1F (Mewtwo).
-  2. **Central & North Sector (cols 11..22, rows 1..10)**: Reachable via Ladder C at (19, 7) <-> 1F (18, 9) and connector passageways.
-  3. **Southeast Artery (cols 23..29, rows 4..19)**: Reachable via Ladder B at (22, 6) <-> 1F (23, 7). Connects via Column 23 -> Row 11/13 -> Row 17 South Artery -> Column 28 -> Ladder D at (29, 1).
+## Overview
+- Upper floor maze of Cerulean Cave (Unknown Dungeon).
+- Connects to 1F via multiple ladders and contains the sole descending ladder (Ladder A) to B1F (Mewtwo).
+
+## Connected Component Graph & Routing
+1. **Southeast Sector**:
+   - Ladder B at (22, 6) <-> 1F (23, 7).
+   - South Artery (Row 17, cols 21..28) connects Ladder B to Ladder D at (29, 1).
+   - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1), which has a water ramp at (23, 3) leading into the 1F water canal.
+
+2. **Central Sector & Bypass Network**:
+   - Ladder C at (19, 7) <-> 1F (18, 9) (Central Corridor / 1F Water Ramp at (17, 15)).
+   - Row 1 North Bypass (cols 11..18, row 1) connects Column 15/16 to Column 18/19 and Row 3 (18..20, 3) -> Column 22/23.
+   - Row 11 Thoroughfare (cols 12..23, row 11) connects the Southeast Artery (col 23) to Column 12 (12, 11).
+
+3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
+   - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (accessed by surfing the 1F water canal and disembarking at water ramp (15, 3)).
+   - Northwest loop: (9, 1) -> Row 1 West to (3, 1) -> (3, 3) -> Row 3 East to (9, 3) -> (9, 5) -> Row 5 East.
+   - Pathway to Ladder A:
+     - From Row 11, walk west to (12, 11).
+     - Walk North up Column 12: (12, 10) -> (12, 9) [Row 9].
+     - Walk West along Row 9 across cols 11..7: (11, 9) -> (10, 9) -> (9, 9) -> (8, 9) -> (7, 9).
+     - Walk North through Column 7/6: (7, 9) -> (7, 7) -> (7, 5) -> (6, 5).
+     - Walk West along Row 5 across cols 5..0: (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (1, 5) -> (0, 5).
+     - Walk North up Column 0: (0, 5) -> (0, 4) -> (0, 3).
+     - Step East onto Ladder A at (1, 3)!
+     - Ladder A descends directly to B1F (Mewtwo's chamber).
 
 ## Verified Ladders (2F)
-1. **Ladder A**: Located at (1, 3) -> Descends to B1F.
+1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
-- Item Pok�� Ball at (29, 9) collected (PP Up).
-- Item Pok�� Ball at (13, 6) collected (Max Potion).
-- Item Pok�� Ball at (4, 15) collected (TM14 Blizzard).
-
-## Wild Encounters (2F)
-- Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
+- Item Pok� Ball at (29, 9) collected (PP Up).
+- Item Pok� Ball at (13, 6) collected (Max Potion).
+- Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
 
 
 <hr>
@@ -2982,21 +3001,26 @@
 
 # Cerulean Cave Active Investigation & Routing
 
-## Verified Facts & Floor Connectivity
-- **1F Layout**:
-  - Entrance Mat at (24..25, 17) connects to Cerulean City NW pool.
-  - Ascending Ramp at (21, 11) leads up to Upper Plateau.
-  - Ladder B at (23, 7) <-> 2F (22, 6) [Upper Plateau].
-  - Central Corridor contains Ladder C at (18, 9) and Water Ramp at (17, 15).
-  - Water Ramp at (17, 15) enters canal at (16, 15) leading north to Ladder E at (7, 1).
-  - NE Terrace (cols 21..29, rows 0..3): Ladder D at (27, 1) <-> 2F (29, 1). Passable water ramp at (23, 3) descends south directly into water canal at (23, 4).
-- **2F Layout**:
-  - Southeast Sector: Ladder B at (22, 6). Path through Row 11/13 -> Row 17 South Artery -> Column 28/29 -> (26, 14..12) -> (24, 12..10) -> (25, 10..7) -> (27, 7..6) -> (29, 6..3) -> (28, 3..1) -> Ladder D at (29, 1).
-  - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
-- **Active Operational Plan**:
-  - Step 1: Use Surf at (23, 3) to board 1F water canal at (23, 4).
-  - Step 2: Surf west along canal to reach Ladder E (7, 1) / Northwest sector.
-  - Step 3: Descend ladder to B1F Mewtwo chamber.
+## Verified Master Route to B1F Mewtwo
+1. **1F Water Canal Traversal** (Completed):
+   - Used water ramp at (23, 3) to Surf west along 1F central canal.
+   - Disembarked at water ramp (15, 3) onto 1F Northern Terrace.
+   - Ascended Ladder E at (7, 1) to 2F West Sector at (9, 1).
+
+2. **2F Traversal to Ladder A (1, 3)** (Active):
+   - Current Position: (11, 1) on Row 1 North Bypass.
+   - Step A: Walk East along Row 1 to (15, 1) -> (15, 3) -> (16, 3) -> (20, 3) -> (22, 4) -> Column 23 -> Row 11.
+   - Step B: Walk West along Row 11 across cols 23..12 to (12, 11).
+   - Step C: Walk North up Column 12 to (12, 9) [Row 9].
+   - Step D: Walk West along Row 9 across cols 11..7 to (7, 9).
+   - Step E: Walk North to (7, 5) -> (6, 5).
+   - Step F: Walk West along Row 5 across cols 5..0 to (0, 5).
+   - Step G: Walk North up Column 0 to (0, 3) and step East onto Ladder A at (1, 3)!
+   - Step H: Descend Ladder A to B1F.
+
+3. **B1F Mewtwo Capture**:
+   - Navigate B1F to Mewtwo's platform.
+   - Initiate battle and throw Master Ball on Turn 1 for guaranteed capture!
 
 
 <hr>
