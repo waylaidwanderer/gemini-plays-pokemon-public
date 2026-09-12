@@ -15,7 +15,7 @@
 - Row 12: Red bumper block at (16, 12). Open floor at (17..19, 12).
 - Row 11: Blue walls at (15, 11) and (17, 11). Red bumper block at (18, 11). UP-spinner at (19, 11) launches north along col 19.
 - Row 10: DOWN-spinner at (16, 10) between vertical walls at cols 15 and 17.
-- Row 9: Gym trainer at (16, 9) facing Down in central chute.
+- Row 9: Item ball at (16, 9) in column 16 chute.
 - Row 2: Red bumper blocks at (17, 2) and (19, 2) (landing tile of col 19 UP-spinner). DOWN-spinner at (18, 2).
 - Row 1: LEFT-spinner at (19, 1) launches west along row 1 across open corridor (15..18, 1) towards northwest sector.
 - Row 0: Solid northern boundary wall.## Gym Trainers & Chutes
