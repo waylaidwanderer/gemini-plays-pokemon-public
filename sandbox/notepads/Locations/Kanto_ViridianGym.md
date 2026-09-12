@@ -26,8 +26,8 @@
 ## Surveyed Trainers
 - Trainer at (10, 7): facing Right along row 7.
 - Trainer at (12, 7): facing Down along col 12.
-- Trainer at (13, 5): facing Down along col 13.
-- Trainer at (11, 11): facing Down along col 11.- Trainer at (14, 5): Cooltrainer♂ (Rhyhorn Lv 43) [Defeated Turn 15075]. Defeated sprite at (14, 5).
+- Trainer at (11, 11): facing Down along col 11.
+- Trainer at (14, 5): Cooltrainer♂ (Rhyhorn Lv 43) [Defeated Turn 15075]. Defeated sprite at (14, 5).
 - Trainer at (6, 5): facing Down along col 6.
 - Column 5 Dividing Wall: Vertical wall at (5, 1..2) and (5, 5..6), counter at (5, 3). Passage through at (5, 4) gateway.
-- Western Chute: DOWN-spinner at (4, 6) in column 4. Open floor across (3..4, 1..4).
+- Western Sector: Gateway at (5, 4) connects to northwest chamber where Leader Giovanni stands at (2, 1). Down-spinner visible at (4, 6).
