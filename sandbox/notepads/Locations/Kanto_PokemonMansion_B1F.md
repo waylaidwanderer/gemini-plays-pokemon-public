@@ -55,3 +55,10 @@
 - Contains green display pedestals at (22, 2-3), (24, 2-3), (26, 2-3) and machine at (20, 2-3).
 - Open pink checkerboard floor across row 1 (cols 20-28) and aisles at cols 21, 23, 25, 27-28.
 - Surveyed Turn 14644: confirmed no items, switches, or Secret Key in this room.
+## Northwest Laboratory Room (cols 10-18, rows 0-5)
+- Entered via doorway at (12-13, 5).
+- North wall (row 1) lined with dial machines at (10-17, 1).
+- Item Ball sighted at (10, 2) [Turn 14648].
+- West boundary wall along column 9 (rows 1-5).
+- Shutter Door at (9, 6-7) along west wall [CLOSED in State A].
+- Open pink checkerboard floor across rows 2-4 (cols 10-17).
