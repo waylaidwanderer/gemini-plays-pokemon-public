@@ -3031,6 +3031,9 @@
 - Row 9 West Thoroughfare: cols 15..24 are continuous open floor connecting to Column 24 ((24, 9..13)).
 - (16, 8), (17, 8), (18, 8): Solid rock walls blocking northward traversal along Columns 16-18 from Row 9.
 - Row 8 Western Bypass: (13..15, 8) is open cave floor connecting Row 9 at (15, 9) -> (15, 8) -> (13, 8) -> Column 13 corridor.
+- Row 10 Solid Wall: Solid rock wall across cols 13..22 blocks all northward traversal along Row 10.
+- Column 12 Vertical Highway: cols 12 is continuous open floor connecting Row 15 straight north through Row 7 towards Row 1/Northwest Sector.
+- Row 15 Connector: cols 12..15 are open floor connecting Column 15 to Column 12.
 
 <hr>
 
