@@ -17,29 +17,25 @@
   - (19, 11) -> (17, 11) -> (17, 13) -> (18, 13) -> (18, 15) -> (21, 15) -> (21, 17) [South Artery].
   - (21, 17) connects east to Ladder B at (22, 6) via (23, 7..11).
 
-## Active Routing Plan: Cerulean Cave & Mewtwo (B1F)
+## Active Routing Plan: Cerulean Cave 2F to Mewtwo (B1F)
 
-### Current Phase: Canal Surfing to 1F Entrance
-1. At Route 24 Shoreline (4, 31):
-   - Face South towards open water canal (4, 33).
-   - Open Party -> HYDROS (Slot 1) -> select SURF.
-2. Surf South down canal ~20 steps into Cerulean Cave 1F entrance.
+### Empirical Wall & Obstacle Log (2F)
+- (19, 10): SOLID ROCK (Tested Turn 46316 - blocked northward step from 19, 11)
+- (15, 10): SOLID ROCK (Tested Turn 46318 - blocked northward step from 15, 11)
 
-### Phase 2: 1F Ascent to 2F (Ladder B)
-1. In Cerulean Cave 1F:
-   - Climb Ramp at (21, 11) to Upper Plateau.
-   - Climb Ladder B at (23, 7) to 2F (22, 6).
+### Active Phase: Probing Row 11 -> Row 9 Northbound Junctions
+- Current Position: (15, 11)
+- Probing sequence along Row 11:
+  1. Step Left to (14, 11), test Up to (14, 10).
+  2. If blocked, step Left to (13, 11), test Up to (13, 10).
+  3. If blocked, step Left to (12, 11), test Up to (12, 10).
+  4. If blocked, step Left to (11, 11), test Up to (11, 10).
+- Once on Row 9 Highway (row 9):
+  - Traverse Row 9 west to Column 6 (6, 9).
+  - Ascend Column 6 north to Row 5 West (6, 5).
+  - Traverse Row 5 West to Column 0 (0, 5).
+  - Ascend Column 0 to (0, 3) and step right onto Ladder A at (1, 3).
+  - Descend Ladder A to B1F!
 
-### Phase 3: 2F Incremental Route to Ladder A (1, 3) -> Mewtwo B1F
-1. From Ladder B (22, 6):
-   - Navigate South Artery: (22, 6) -> (22, 7) -> (23, 7..11) -> (21, 11..17).
-   - Connect to Row 9 Highway: (21, 17) -> (18, 15) -> (18, 13) -> (17, 13..11) -> (19, 11..9).
-2. From (19, 9):
-   - Traverse Row 9 Highway west to Column 6 (6, 9).
-   - Ascend Column 6 north to Row 5 West (6, 5).
-   - Traverse Row 5 West to Column 0 (0, 5).
-   - Ascend Column 0 to (0, 3) and step right onto Ladder A at (1, 3).
-   - Descend Ladder A to B1F!
-
-### Phase 4: B1F Capture
+### Final Phase: B1F Capture
 - Surf to Mewtwo and use Master Ball on Turn 1!
