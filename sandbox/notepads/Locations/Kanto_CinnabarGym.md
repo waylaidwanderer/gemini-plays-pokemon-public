@@ -26,3 +26,4 @@
 - Entered from Chamber 1 via Shutter Door 1 at (18-19, 6).
 - Trainer at (17, 2) facing South.
 - Columns 18-19 provide safe passage north along the eastern wall outside trainer line of sight.
+- Row 1 (cols 15-19) is open behind trainer (17, 2), connecting west to column 14.
