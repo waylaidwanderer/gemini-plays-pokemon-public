@@ -2931,7 +2931,7 @@
 2. **Central Sector & Bypass Network**:
    - Ladder C at (19, 7) <-> 1F (18, 9) (Central Corridor / 1F Water Ramp at (17, 15)).
    - Row 1 North Bypass (cols 11..18, row 1) connects Column 15/16 to Column 18/19 and Row 3 (18..20, 3) -> Column 22/23.
-   - Row 11 Thoroughfare (cols 12..23, row 11) connects the Southeast Artery (col 23) to Column 12 (12, 11).
+   - Row 11 Isolated Segments: (14..16, 11) and (18..23, 11) are severed by rock walls at (13, 11) and (17, 11).
 
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (accessed by surfing the 1F water canal and disembarking at water ramp (15, 3)).
