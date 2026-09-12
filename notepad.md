@@ -3515,5 +3515,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pokémon Statue located at (18, 24-25) [Sighted Turn 14620].
 - Item Ball located at (19, 25) [Interacting Turn 14620].
 - Bounded on east by column 20 vertical wall (rows 18-26) and south by row 27 building wall.
+- Southwest Shutter at (13, 22-23) connects to columns 10-12: CLOSED in State B [Turn 14603], OPEN in State A [Verified Turn 14630].
+- Doorway Shutter at (16-17, 16): OPEN in State B, CLOSED in State A [Verified Turn 14629].
 
 <hr>
