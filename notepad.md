@@ -3204,7 +3204,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 5 (Southwest Room)**:
   - Interior Bounds: cols 1..5, rows 13..17.
-  - Trainer: Psychic at (3, 13) facing South (battle initiated Turn 13132).
+  - Trainer: Channeler at (3, 13) facing South. Team: Gastly Lv 33 (in progress).
   - Warp Tiles:
     - Top-Right (5, 15): <---> Room 2 (Southeast) (15, 17) [Verified Turn 13131].
     - Top-Left (1, 15): [Untested].
