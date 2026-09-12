@@ -146,10 +146,12 @@
 ## Regular Items
 - SUPER REPEL x1 [Verified Turn 13622]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
-- MAX POTION x1 [Verified Turn 11891]
+- MAX POTION x2 [Verified Turn 13828]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
+- MOON STONE x1 [Verified Turn 13828]
+- ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -158,7 +160,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 10 / 20
+- Total Slots Used: 12 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -170,6 +172,8 @@
   8. REVIVE x5
   9. FULL HEAL x5
   10. MASTER BALL x1
+  11. MOON STONE x1
+  12. ESCAPE ROPE x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -3266,6 +3270,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Overview & Mechanics
 - Abandoned, burned-down mansion on Cinnabar Island.
 - South entrance at (5, 27) leads outside to Cinnabar Island (6, 3) [Verified Turn 13698].
+- Staircase to 2F: Located at (5, 10), landing at (7, 10) on 1F [Verified Turn 13833]. Connects to 2F (7, 10).
 - Switch Mechanics: Pokémon statues contain secret switches that toggle iron shutter doors. Empirical test (Turn 13756-13788): Activating switch at (2, 5) toggled Shutter 1 at (16-17, 7) from CLOSED to OPEN, while toggling Shutter (24-25, 13) from OPEN to CLOSED.
 
 ## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
