@@ -3007,10 +3007,8 @@
 ## Master Route to Mewtwo via 2F Ladder D -> 1F NE Terrace -> Ladder E -> Ladder A
 
 ### Complete Topology & Flow
-1. **Phase 1: 2F Southeast Artery to Ladder D (29, 1)**:
-   - On 2F, traverse South Artery:
-     (22, 6) -> (22, 7) -> (23, 7..17) -> Right across Row 17 to (28, 17) -> Up Column 28/29 to (29, 1) [Ladder D].
-   - Descend Ladder D at (29, 1) to 1F NE Terrace at (27, 1).
+1. **Phase 1: 2F to Ladder D (29, 1)** [COMPLETED Turn 46439]:
+   - Traversed 2F via Column 26 -> (27, 6) -> (29, 6) -> (28, 3..1) -> Ladder D (29, 1) -> Descended to 1F NE Terrace at (27, 1).
 
 2. **Phase 2: 1F NE Terrace Water Ramp to Ladder E (7, 1)**:
    - On 1F NE Terrace at (27, 1): Walk West to (23, 1) -> Down to (23, 3) [Water Ramp].
