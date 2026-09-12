@@ -3218,7 +3218,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Top-Left (1, 3): <---> Room 4 (Northeast) (15, 5) [Verified Turn 13145].
     - Top-Right (5, 3): <---> Room 7 (North-Central) (11, 3) [Verified Turn 13154].
     - Bottom-Left (1, 5): [Untested].
-    - Bottom-Right (5, 5): [Untested].
+    - Bottom-Right (5, 5): <---> Room 8 (West-Central) (1, 11) [Verified Turn 13164].
 
 - **Room 7 (North-Central Room)**:
   - Interior Bounds: cols 7..12, rows 1..5.
@@ -3235,7 +3235,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Warp Tiles:
     - Top-Left (1, 9): <---> Room 3 (East-Central) (19, 11) [Verified Turn 13163].
     - Top-Right (5, 9): [Untested].
-    - Bottom-Left (1, 11): [Untested].
+    - Bottom-Left (1, 11): <---> Room 6 (Northwest) (5, 5) [Verified Turn 13164].
     - Bottom-Right (5, 11): [Untested].
 
 <hr>
