@@ -19,3 +19,4 @@ Systematically test candidate tiles in Pokémon Mansion 2F Central Hall to locat
 - Turn 14481: Facing North at (7, 11). Testing 'A' interaction on (7, 10).
 - Turn 14483-14484: Pressed 'A' facing (7, 10). No dialogue or interaction triggered.
 - Conclusion: Tile (7, 10) is a solid, non-interactive fixture (bookcase/furniture). Candidate audit of Central Hall (5-9, 8-15) complete: NO staircase to 1F exists in this room. Exiting to explore southern and western sections.
+- Turn 14504-14505: Stepped Left from (6, 10) into (5, 10). Triggered map transition to Pokémon Mansion 1F! Player arrived at 1F (5, 10) on red carpet. 2F to 1F staircase at (5, 10) empirically verified! Audit successfully complete.
