@@ -159,7 +159,7 @@
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
-  3. SUPER REPEL x3
+  3. SUPER REPEL x2
   4. POK� FLUTE
   5. SUPER ROD
   6. FULL RESTORE x1
