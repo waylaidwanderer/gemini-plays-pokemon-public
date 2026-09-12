@@ -59,3 +59,4 @@
   - (18, 8): Rock wall (blocks southward traversal from (18, 7) along Column 18).
   - (18, 5): Rock wall (blocks northward traversal from (18, 6) along Column 18).
   - Path from (18, 6) to (18, 1): Right 2 to (20, 6) -> Up 2 to (20, 4) -> Left 2 to (18, 4) -> Up 3 to (18, 1).
+  - (19, 4): Rock wall (blocks northward traversal from (19, 5) along Column 19).
