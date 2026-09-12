@@ -3038,5 +3038,14 @@
 2. Surf into Cerulean Cave entrance at (4, 11).
 3. On 1F: Surf north canal to ramp (15, 3) -> Ladder E (7, 1).
 4. On 2F: Descend Ladder A (1, 3) to B1F -> Capture Mewtwo!
+## Active 2F Route to Ladder A (B1F Mewtwo)
+- Current Position: (11, 5) on Row 5.
+- Verified Sequence:
+  1. (11, 5) -> East to (16, 5) -> South down Column 16 to Row 7 at (16, 7).
+  2. (16, 7) -> West along continuous open Row 7 floor past (11..7, 7) to Column 6 at (6, 7).
+  3. (6, 7) -> North up Column 6 through (6, 6) to Row 5 at (6, 5).
+  4. (6, 5) -> West along continuous open Row 5 floor across (5..0, 5) to Column 0 at (0, 5).
+  5. (0, 5) -> North up Column 0 through (0, 4) to (0, 3).
+  6. (0, 3) -> East 1 step onto Ladder A at (1, 3) [Descends directly to B1F Mewtwo]!
 
 <hr>
