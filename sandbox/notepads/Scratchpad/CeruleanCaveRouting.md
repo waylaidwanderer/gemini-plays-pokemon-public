@@ -17,26 +17,22 @@
   - (19, 11) -> (17, 11) -> (17, 13) -> (18, 13) -> (18, 15) -> (21, 15) -> (21, 17) [South Artery].
   - (21, 17) connects east to Ladder B at (22, 6) via (23, 7..11).
 
-## Active Routing Plan: Cerulean Cave 2F to Mewtwo (B1F)
+## Master Route to Mewtwo via 1F Waterway & Ladder E
 
-### Empirical Wall & Obstacle Log (2F)
-- (19, 10): SOLID ROCK (Tested Turn 46316 - blocked northward step from 19, 11)
-- (15, 10): SOLID ROCK (Tested Turn 46318 - blocked northward step from 15, 11)
-- (14, 10): SOLID ROCK (Tested Turn 46324 - blocked northward step from 14, 11)
+### Verified Topology Discovery (Turn 46327)
+- 2F Southeast Sector (Ladder B at 22, 6) is isolated from West Sector by continuous rock walls along Row 10 and Col 13.
+- The intended passage to West Sector (Ladder A at 1, 3) is via **1F Waterway to Ladder E (7, 1) <-> 2F (9, 1)**!
 
-### Active Phase: Probing Row 11 -> Row 9 Northbound Junctions
-- Current Position: (15, 11)
-- Probing sequence along Row 11:
-  1. Step Left to (14, 11), test Up to (14, 10).
-  2. If blocked, step Left to (13, 11), test Up to (13, 10).
-  3. If blocked, step Left to (12, 11), test Up to (12, 10).
-  4. If blocked, step Left to (11, 11), test Up to (11, 10).
-- Once on Row 9 Highway (row 9):
-  - Traverse Row 9 west to Column 6 (6, 9).
-  - Ascend Column 6 north to Row 5 West (6, 5).
-  - Traverse Row 5 West to Column 0 (0, 5).
-  - Ascend Column 0 to (0, 3) and step right onto Ladder A at (1, 3).
-  - Descend Ladder A to B1F!
-
-### Final Phase: B1F Capture
-- Surf to Mewtwo and use Master Ball on Turn 1!
+### Master Routing Plan:
+1. **Phase 1: Descend Ladder B (22, 6) to 1F (23, 7)**:
+   - From (14, 12): Up to (14, 11), Right to (23, 11), Up to (23, 7), Left to (22, 7), Up to (22, 6) [Ladder B].
+2. **Phase 2: 1F Waterway to Ladder E (7, 1)**:
+   - On 1F, descend Upper Plateau via ramp (21, 11) to lower floor, or access water ramp at (23, 3) / (17, 15).
+   - Surf north along the 1F water canal to Northern Terrace at (7, 1).
+   - Ascend Ladder E at (7, 1) to 2F (9, 1).
+3. **Phase 3: 2F West Sector to Ladder A (1, 3)**:
+   - From (9, 1): Traverse Northwest loop (9, 1) -> (3, 1) -> (3, 3) -> (9, 3) -> (9, 5) -> Row 5 West (0, 5).
+   - Ascend Column 0 to (0, 3), step onto Ladder A at (1, 3).
+   - Descend Ladder A to B1F!
+4. **Phase 4: Capture Mewtwo**:
+   - Surf to Mewtwo and catch with Master Ball on Turn 1!
