@@ -22,3 +22,6 @@
 - Row 3 Corridor: Open walkway eastward past column 23 [Verified Turn 13718].
 - Northeast Area: Wall at (22-25, 4) divides the north corridor from a large eastern room; open passage into this room exists at columns 26-27.
 - Northern Corridors: Rows 1-3 are wide open and extend east past column 27 [Verified Turn 13722].
+- Eastern Boundary: Building's eastern wall is at column 29 (rows 0-7+); column 30+ is exterior void.
+- Rubble Pile: Column 28 rubble spans rows 2 to 5.
+- Eastern Room: Wide room spanning columns 23 to 28, accessed via doorway at (26-27, 4) [Verified Turn 13723].
