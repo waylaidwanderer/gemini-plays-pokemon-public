@@ -24,9 +24,3 @@
      - Contains **Ladder D** at (27, 1) <-> 2F (29, 1) on NE Terrace.
      - Contains **Ladder E** at (7, 1) <-> 2F (9, 1) on NW Waterway Landing.
      - Ladder E connects to 2F West Sector -> Ladder A at (1, 3) -> B1F (Mewtwo).
-
-## Ladder Matrix (1F)
-- Ladder B: (23, 7) <-> 2F (22, 6) [Upper Plateau]
-- Ladder C: (18, 9) <-> 2F (19, 7) [Central Corridor]
-- Ladder D: (27, 1) <-> 2F (29, 1) [NE Terrace]
-- Ladder E: (7, 1) <-> 2F (9, 1) [NW Landing - leads to Mewtwo via 2F Ladder A]
