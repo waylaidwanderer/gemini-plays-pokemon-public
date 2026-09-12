@@ -47,3 +47,4 @@
   - (20, 4): Rock wall (blocks southward traversal from (20, 3) along Column 20).
   - (27, 4): Dead-end alcove (walls at (27, 3), (27, 5), and (28, 4); open only to west at (26, 4)).
   - (7, 4): Rock wall (blocks southward traversal from (7, 3) along Column 7).
+  - (6, 4): Rock wall (blocks southward traversal from (6, 3) along Column 6).
