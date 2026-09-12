@@ -9,8 +9,9 @@
 - Pokémon Mansion Diary: Located at (6, 12) on a book pedestal [Verified Turn 13813].
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).
 - North Corridor: Open floor across rows 8-10 at columns 5-9 wraps around the staircase north into rows 8-9.
-- Shutter Door: Spans (8-10, 8) dividing the starting area from the northern/eastern section. Empirically confirmed CLOSED in Switch State B [Turn 13832 bump test]. Must return to 1F to toggle switch back to State A.
-- Eastern Section: Visible across wall/shutter at columns 10-13 (rows 5-12). Contains Pokémon statues at (12, 9) and (12, 11), plants at (12, 8) and (12, 10), and a doorway at (10, 5).
+- Shutter Door / Wall: Spans (8-9, 8-9) dividing the starting area from the northern section.
+- Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
+- Eastern Section: Spans columns 10-17 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11), plants at (13, 8) and (13, 10), and staircase to 3F at (6, 1) along row 1.
 - West Room Geography: Rubble field covers columns 1-4 (rows 6-9). Open floor spans columns 1-5 (rows 10-13+).
 - North Structure: Doorway/opening visible at (10, 5) separated from south by rubble at rows 6-7.
 - Column 5 Path: Open pink floor runs south from row 9 to row 13+.
