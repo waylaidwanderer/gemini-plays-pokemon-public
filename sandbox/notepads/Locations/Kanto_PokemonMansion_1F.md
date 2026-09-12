@@ -32,4 +32,3 @@
 - Southeast Sector: Vertical wall along column 24 (rows 19-22+). Wide open room east of column 24 spanning columns 25-28 (rows 19-22+). Clear walkway down column 25 [Verified Turn 13731].
 - Southeast Shutter: Shutter door at (26-27, 27) verified closed and non-interactive [Turn 13735].
 - Southeast Cul-de-sac: Columns 26-28 (rows 19-27) is fully enclosed by rubble (cols 24-25, rows 24-27) and south/east walls.
-- Routing to Northwest: Re-routing via row 1 superhighway to explore the northwest wing for the stairs to 2F.
