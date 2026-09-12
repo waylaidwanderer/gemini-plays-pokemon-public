@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥101044 [Turn 13216]
+- Money: ¥101819 [Turn 13228]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -202,7 +202,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥101044 [Turn 13216]
+- ¥101819 [Turn 13228]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 59, Water]
@@ -3285,7 +3285,7 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
 4. **Blackbelt 4 (West)**:
    - Position: (3, 4) facing East into (4, 4).
    - Team: Mankey Lv 31, Mankey Lv 31, Primeape Lv 31 [Verified Turns 13219-13227].
-   - Defeated: Turn 13227.
+   - Defeated: Turn 13227. Prize money: ¥775.
 5. **Karate Master Koichi (North)**:
    - Position: (5, 3) facing South.
    - Master of the Fighting Dojo.
