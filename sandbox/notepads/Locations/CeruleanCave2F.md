@@ -41,3 +41,6 @@
   - (15, 7): Rock wall (blocks westward traversal along Row 7 from (16, 7)).
   - (9, 6) & (10, 6): Rock walls (blocks southward traversal from (9, 5)/(10, 5) towards Row 6/7).
   - (2, 3): Rock wall (blocks westward traversal from (3, 3) along Row 3).
+  - (2, 1): Rock wall (blocks westward traversal from (3, 1)).
+  - (3, 1..5) connects south to Row 5 (cols 0..7 open floor).
+  - Verified path to Ladder A (1, 3): From (3, 1) -> Down 4 to (3, 5) -> Left 2 to (1, 5) -> Up 2 onto Ladder A at (1, 3).
