@@ -3007,6 +3007,7 @@
 ## Verified Central Sector Path Matrix (Turn 48036)
 - (19, 3) is a solid rock wall separating (20, 3) from (18, 3).
 - Verified open path from (20, 3) to Ladder C (19, 7): (20, 3) -> (20, 2) -> (21..22, 2) -> (22, 3..4) -> (21, 4..5) -> (20..19, 5) -> (19, 6..7) [Ladder C].
+- (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. To reach the NW Sector, use Ladder C down to 1F water canal route to Ladder E.
 
 <hr>
 
