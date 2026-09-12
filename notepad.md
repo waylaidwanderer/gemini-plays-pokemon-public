@@ -3265,6 +3265,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Fisherman 1: Located at (14, 56) on eastern pier spanning cols 14-17 [Verified Turn 14870].
 - Swimmer 4 / NPC: Located at (10, 31) in water [Observed Turn 14879].
 - Cue Ball: Originally at (12, 30) facing East, challenges player along row 30 [Encountered Turn 14893].
+- Eastern Boulder Barrier: Located at rows 12-15 along column 14, blocking northward passage across columns 14-19 [Verified Turn 14908].
 
 <hr>
 
