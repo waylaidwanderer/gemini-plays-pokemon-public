@@ -232,13 +232,13 @@
   - Stats: Attack 142, Defense 165, Speed 142, Special 146
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
+  - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
+  - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
@@ -248,14 +248,14 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10) [Healed Turn 13690]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Healed Turn 15136 at Viridian Center]
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
+  - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 30 / 30
-  - Moves: Pound (PP 35/35), Hypnosis (PP 19/20), Flash (PP 20/20) [Learned Turn 4021]
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
 ## PC Box 1 Pokémon
@@ -365,7 +365,7 @@
 ## Connections
 - South: Route 1 entrance at (21, 36).
 - North: Route 2 entrance at (18..19, 0).
-- West: Route 22 exit along rows 18-19 heading west past column 0.
+- West: Route 22 exit along rows 16-17 heading west past column 0.
 
 ## Geography & Layout
 - Route 22 Highway: Paved highway running west from col 16 along rows 18-19 to col 4, turning north through cols 4-5 to rows 16-17, then running west across cols 4..0 directly into Route 22.
@@ -3688,11 +3688,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - East: Viridian City entrance at (39..40, 8..9).
-- West: Pokémon League Front Gatehouse.
+- West: Unexplored western corridor.
 
 ## Geography & Layout
 - Entrance: Paved road enters from Viridian City along rows 8-9 at columns 39-40.
 - East Passage: Columns 36-37 form a north-south road running south from rows 8-9 to rows 10-13+ between west boundary trees (col 35) and eastern mountain cliff (cols 38-42).
 - Northern Grass: Wild grass patch located at cols 36-44, rows 6-7.
+- Southern Highway (Rows 14-15): 2-tile wide paved corridor bounded by row 13 ledge (north) and row 16 ledge (south), running west past col 32.
 
 <hr>
