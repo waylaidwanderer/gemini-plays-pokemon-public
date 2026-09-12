@@ -80,3 +80,4 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Front entrance door at (18, 21) on the south facade [Verified Turn 12707].
 - Approach curb at (18, 22) accessible from Row 22 roadway.
 - Building signboard at (15, 21).
+- South Boundary Telemetry (Turn 13451): Rows 33..35 across cols 10..19 form a continuous residential/commercial building block with yellow gabled roofs (roof ends at col 19 with right-slope at (19, 33)). Stone statue visible at (19, 36). Boulevard road on rows 31..32 is open east toward the Southeast Open Plaza (cols 20..23).
