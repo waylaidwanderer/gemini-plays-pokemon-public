@@ -72,3 +72,6 @@
   - South Artery Entrance: From (26, 14) -> Right 2 to (28, 14) -> Down 2 to (28, 16) -> Left 1 to (27, 16) -> Down 1 to (27, 17) [South Artery].
   - (20, 15..17): Rock wall block (blocks westward traversal along Rows 15..17 at Column 20).
   - Open Row 13 West Bypass: From (21, 16) -> Up 1 to (21, 15) -> Right 1 to (22, 15) -> Up 2 to (22, 13) -> Left across Row 13 (21..17, 13) toward Column 0.
+  - (14, 14): Rock wall (blocks southward traversal from (14, 13) along Column 14).
+  - (13, 13): Rock wall.
+  - Column 15 South Corridor: (15, 13..17) open floor straight down into Row 17 South Artery.
