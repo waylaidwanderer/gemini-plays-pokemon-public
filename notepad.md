@@ -152,6 +152,7 @@
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
 - MOON STONE x1 [Verified Turn 13828]
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
+- CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -160,7 +161,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 12 / 20
+- Total Slots Used: 13 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -174,6 +175,7 @@
   10. MASTER BALL x1
   11. MOON STONE x1
   12. ESCAPE ROPE x1
+  13. CALCIUM x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -3348,5 +3350,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Open room across (25-28, 4-5).
   - Rubble barriers at (26-28, 1-2), (22-24, 4-5), and (23-27, 6-7).
   - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) containing CALCIUM x1 [Obtained Turn 13858, Verified Turn 13863]. Far eastern chute cleared.
+
+## Central-South Corridor (cols 18-22, rows 11-14)
+- Open pink floor across columns 18-21 (rows 11-12, 14) and columns 20-21 (row 13) [Verified Turn 13866].
+- Table at (18-19, 13).
+- Rubble barrier at columns 14-17 (rows 12-14) and column 22 (rows 10-14).
+- Column 20-21 corridor continues unobstructed south past row 14.
 
 <hr>
