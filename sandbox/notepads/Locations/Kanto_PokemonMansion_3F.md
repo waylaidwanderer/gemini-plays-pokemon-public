@@ -15,3 +15,8 @@
 - Eastern Aisle (Col 14): Continuous open pink floor running north-south along column 14 (rows 1-7), bounded on the east by vertical wall at column 15.
 - Open Hall: Columns 11-15 (rows 4-5) and columns 10-14 (rows 6-7) form a wide open junction.
 - South Exit: Wide passage across columns 10-14 extends south past row 7.
+## Central Corridor & East Shutter (cols 12-16, rows 8-11)
+- Central Aisle: Open pink floor spanning columns 13-14 across rows 8-11+.
+- Column 12 Divider: Alternating features along column 12 - potted plant at (12, 8), Pokémon statue at (12, 9), potted plant at (12, 10), Pokémon statue at (12, 11).
+- East Shutter Door: Located at (15, 10-11). Confirmed CLOSED in Switch State A [Verified Turn 14001]. Bounded by solid vertical wall at (15, 7-8). Open pink floor visible behind it at column 16.
+- Southwest Balcony / Drop: Located at (7, 10) with open floor across columns 8-9 (rows 8-11). Rubble barrier along column 10 (rows 9-11).
