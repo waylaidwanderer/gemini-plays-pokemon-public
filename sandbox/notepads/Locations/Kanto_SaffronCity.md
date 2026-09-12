@@ -73,8 +73,9 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 ## Northeast Gym District (Rows 4..6)
 - Fighting Dojo & Saffron Gym: Located north of row 6 across cols 24..37.
 - Signpost at (27, 5).
+- Fighting Dojo: Entrance door at (26, 3), front apron at (26, 4).
+- Saffron Gym: Entrance door at (34, 3), front apron at (34, 4), approach along row 4 [Verified Turn 13087, 13185].
 - Building facades along row 5 with signpost at (27, 5); entrance door at (26, 3) and approach apron at (30..31, 4..5) [Verified Turn 12691].
-- Western Row 13 Corridor: Open east-west street running east from Western Avenue at (3, 13) across cols 4..8+ toward central plaza [Verified Turn 12698].
 ## Silph Co. Head Office
 - Location: Spans cols 16..23, rows 10..21 in the central district [Verified Turn 12707].
 - Front entrance door at (18, 21) on the south facade [Verified Turn 12707].
