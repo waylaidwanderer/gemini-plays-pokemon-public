@@ -2932,7 +2932,7 @@
 - Column 19 Solid Wall: Column 19 (rows 11..19) is a solid continuous rock wall separating the entrance / Ladder B sector (cols 20..25) from the western water ramp sector (cols 16..18). Traversal directly west along rows 14-15 is completely blocked.
 - SE Entrance Chamber: (20..25, 12..17) is open cave floor.
 - Boulder Obstacle: Rock formations at (24, 13) and (25, 13) block north traversal along cols 24-25 from entrance.
-- Open Corridor to Ladder B: (20..22, 12..15) is open floor leading north to Ladder B at (21, 11).
+- Open Corridor to Ladder B: (21, 12..14) is open floor leading straight north to Ladder B at (21, 11). (20, 11..13) and (22..23, 11) are solid rock walls. Column 21 is the sole vertical approach corridor to Ladder B.
 
 <hr>
 
