@@ -4,9 +4,9 @@
 
 ## Status
 
-- Badges: 6 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge)
+- Badges: 7 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge)
 
-- Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
+- Active Team: Blastoise (SHELDON) Lv 60, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥104394 [Turn 14418]
 - Pokédex: 15 Caught / 50+ Seen
@@ -234,7 +234,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥104394 [Turn 14418]
+- ¥109047 [Turn 14805]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 60, Water]

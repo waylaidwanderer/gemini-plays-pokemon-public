@@ -16,6 +16,7 @@
 - RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
+- TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -25,7 +26,7 @@
 - SECRET KEY [Obtained Turn 14678 at Mansion B1F (5, 13)]
 
 ## Inventory Capacity
-- Total Slots Used: 18 / 20
+- Total Slots Used: 19 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -45,6 +46,7 @@
   16. RARE CANDY x1
   17. TM22 (SOLARBEAM) x1
   18. SECRET KEY x1
+  19. TM38 (FIRE BLAST) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
