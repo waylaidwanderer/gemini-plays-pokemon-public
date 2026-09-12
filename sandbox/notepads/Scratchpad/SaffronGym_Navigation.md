@@ -66,7 +66,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 6 (Northwest Room)**:
   - Interior Bounds: cols 0..5, rows 1..5.
-  - NPC: at (3, 1) facing South.
+  - Trainer: Psychic at (3, 1) facing South. Team: 1 Pokémon (in progress).
   - Warp Tiles:
     - Top-Left (1, 3): <---> Room 4 (Northeast) (15, 5) [Verified Turn 13145].
     - Top-Right (5, 3): [Untested].
