@@ -127,3 +127,4 @@
 - [x] Obtain Card Key on Silph Co 5F [Turn 12763]
 - [x] Defeat Rival RED in Silph Co [Turn 12851]
 - [x] Receive gift Lapras (NESSY) from Silph Co employee [Turn 12858]
+- [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
