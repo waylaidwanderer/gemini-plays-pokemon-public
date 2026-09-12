@@ -220,7 +220,7 @@
 - [x] Defeat Elite Four Lance in Room 4 (Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62) [Defeated Turn 39281]
 - [x] Defeat Champion RED in Champion Chamber (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 61, Arcanine Lv 63, Venusaur Lv 65) [Defeated Turn 39310]
 - [x] Become Pokémon League Champion and Enter Hall of Fame! [Turn 39310]
-- [x] Hand over Helix Fossil to Cinnabar Lab Scientist for Omanyte revival [Turn 41519]
+- [ ] Hand over Helix Fossil to Cinnabar Lab Scientist for Omanyte revival (Helix Fossil in PC storage; withdrawing to deliver)
 
 <hr>
 
@@ -2477,7 +2477,7 @@
 - Entrance Mat: (2, 7) / (3, 7).
 - In-Game Trader NPC: Located at (7, 6) [Wants to trade for SEEL].
 - Fossil Scientist NPC: Located in northern area at (4..6, 2) [Resurrects prehistoric Pokémon from fossils: Helix Fossil -> Omanyte, Dome Fossil -> Kabuto, Old Amber -> Aerodactyl].
-- Status: Helix Fossil handed over to Scientist on Turn 41519 for Omanyte revival.
+- Status: Helix Fossil stored in PC. Currently withdrawing Helix Fossil from Pokémon Center PC to deliver to Scientist for Omanyte revival.
 
 <hr>
 
