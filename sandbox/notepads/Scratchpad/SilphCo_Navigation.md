@@ -108,3 +108,5 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   4. Teleport to 7F (5, 3) in Lapras room.
   5. Step 4 tiles South onto (5, 7) warp pad.
   6. Arrive at 11F (3, 2) in West Wing and proceed south past defeated Grunt to Card Key door at (7, 9) to confront Giovanni.
+- 11F Outer Shutter Door Unlocked: The 2-tile structure at (6..7, 13) previously assumed to be "desks" was confirmed as a Card Key shutter door [Turn 13013]! Interacted from (6, 14) with Card Key to trigger "Bingo! The CARD KEY opened the door!".
+- Central Approach Opened: Unlocking (6..7, 13) provides direct northern access from row 14 into rows 10-12, leading directly to the inner Card Key shutter door at (7..8, 9) and the President's boardroom!
