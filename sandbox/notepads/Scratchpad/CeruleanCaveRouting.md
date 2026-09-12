@@ -1,24 +1,24 @@
 # Cerulean Cave Active Investigation & Routing
 
-## The Definitive On-Foot Master Route to Mewtwo (B1F)
-1. **Cerulean City to Cerulean Cave 1F Entrance (On Foot)**:
-   - Fly to Cerulean City (arrives outside Pokémon Center at (19, 18)).
-   - Mount Bicycle (Menu -> ITEM -> BICYCLE).
-   - Ride to Burglarized House front door at (27, 11).
-   - Walk through house to rear hole at (3, 0) and exit to backyard at (27, 9).
-   - Ride West along Northern Highway across row 9/12 to (4, 12) [23x Left].
-   - Step Up into Cerulean Cave entrance at (4, 11) on foot!
-   - Arrive on Cerulean Cave 1F at entrance mat (24, 17) ON DRY LAND.
+## The Definitive Route to Mewtwo (B1F) via Nugget Bridge & Cerulean Cave 1F
+1. **Nugget Bridge to Route 24 Shoreline (Active)**:
+   - Current Position: (11, 26) on Nugget Bridge.
+   - Bypass trainers: Left to (10, 26), 3 Up to (10, 23), Right to (11, 23), 3 Up to (11, 20), Left to (10, 20), 5 Up to (10, 15).
+   - Cut West into grass to (4, 15) [6x Left].
+   - Ride South down grass shoreline to (4, 32) [17x Down].
+   - At (4, 32), use Surf with HYDROS to board canal at (4, 33).
 
-2. **1F Entrance (24, 17) to Ladder B (23, 7)**:
-   - From (24, 17), walk Left 3 steps to (21, 17) [3x Left].
-   - Walk North 6 steps to Ascending Ramp at (21, 11) [6x Up].
-   - Step onto ramp at (21, 11) -> walk Right 2 steps to (23, 11) [2x Right].
-   - Walk North 4 steps to Ladder B at (23, 7) [4x Up].
-   - Ascend Ladder B at (23, 7) -> Arrive on 2F at (22, 6).
+2. **Waterway to Cerulean Cave 1F & Lower Floor**:
+   - Surf South down canal across rows 33-36 into Cerulean Cave 1F water pool at (18, 0).
+   - Surf West across Row 4 to Column 6 (6, 4).
+   - Surf South down Column 6 (rows 4-16) to the lower ramp/connection at row 15/16.
+   - Disembark onto the open dry Lower Floor (rows 18-20).
+   - Walk East across Lower Floor to ascending ramp at (21, 11).
+   - Climb ramp to Upper Plateau (23, 11) and walk to Ladder B at (23, 7) [4x Up].
+   - Ascend Ladder B to 2F at (22, 6).
 
-3. **2F Master Highway from Ladder B (22, 6) to Ladder A (1, 3)**:
-   - From (22, 6), step Down to (22, 7) [1x Down], Right to (23, 7) [1x Right].
+3. **2F Master Highway to Ladder A (1, 3)**:
+   - From (22, 6): Step Down to (22, 7) [1x Down], Right to (23, 7) [1x Right].
    - Walk South down Column 23 to Row 11 at (23, 11) [4x Down].
    - Walk West along Row 11 Thoroughfare to (12, 11) [11x Left].
    - Walk North up Column 12 to (12, 9) [2x Up].
