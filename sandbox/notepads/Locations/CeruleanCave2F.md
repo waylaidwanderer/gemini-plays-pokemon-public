@@ -18,8 +18,6 @@
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (accessed by surfing the 1F water canal and disembarking at water ramp (15, 3)).
    - Northwest loop: (9, 1) -> Row 1 West to (3, 1) -> (3, 3) -> Row 3 East to (9, 3) -> (9, 5) -> Row 5 East.
-   - Pathway to Ladder A:
-     - Accessible via the Row 9 thoroughfare leading west into Column 0, which connects north directly to Ladder A at (1, 3). Ladder A descends to B1F (Mewtwo's chamber).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
@@ -83,4 +81,3 @@
 - Row 2 Rock Barrier: Solid rock wall across cols 5..10 separates Row 1 from Row 3.
 - (14, 9): Rock wall (blocks westward traversal along Row 9).
 - Empirical West Perimeter: (2, 1), (2, 2), (2, 3) are rock walls (blocks westward traversal from Column 3 directly into Ladder A chamber).
-- Ladder A Access Topology: Ladder A (1, 3) is accessed exclusively via Column 0 ((0, 7) -> (0, 2) -> (1, 2) -> (1, 3)), entered via Row 7 West from the Southeast Sector / Row 11 Thoroughfare.
