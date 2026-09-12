@@ -12,7 +12,7 @@
 
 2. **Central Sector & Bypass Network**:
    - Ladder C at (19, 7) <-> 1F (18, 9).
-   - Row 1 North Bypass (cols 11..24, row 1) connects Column 24 directly west to Northwest Sector.
+   - Northern Corridors: connect the eastern corridors (cols 24..29) and central bypasses west to the Northwest Sector and Ladder A.
    - Row 9 West Thoroughfare: (15..24, 9) is open floor.
    - Row 8 Western Bypass: (13..15, 8) connects Row 9 at (15, 9) to Column 13 corridor.
 
