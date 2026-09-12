@@ -11,8 +11,9 @@
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
 - IRON x1 [Obtained Turn 14029 at Mansion 3F (25, 5), Verified Turn 14047]
-- CARBOS x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
+- CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
+- RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]

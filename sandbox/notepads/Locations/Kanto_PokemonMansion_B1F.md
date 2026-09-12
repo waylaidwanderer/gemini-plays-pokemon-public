@@ -57,7 +57,7 @@
 ## Northwest Laboratory Room (cols 10-18, rows 0-5)
 - Entered via doorway at (12-13, 5).
 - North wall (row 1) lined with dial machines at (10-17, 1).
-- Item Ball sighted at (10, 2) [Turn 14648].
+- Item Ball at (10, 2): RARE CANDY x1 collected [Turn 14648].
 - West boundary wall along column 9 (rows 1-5).
 - Shutter Door at (9, 6-7) along west wall [CLOSED in State A].
 - Open pink checkerboard floor across rows 2-4 (cols 10-17).

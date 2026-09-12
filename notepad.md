@@ -3524,7 +3524,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Accessed via doorway at (24-25, 5).
 - Contains green display pedestals at (22, 2-3), (24, 2-3), (26, 2-3) and Pokémon Statue at (20, 2-3) [Verified Turn 14662].
 - Open pink checkerboard floor across row 1 (cols 20-28) and aisles at cols 21, 23, 25, 27-28.
-- Surveyed Turn 14644: confirmed no items, switches, or Secret Key in this room.
 ## Northwest Laboratory Room (cols 10-18, rows 0-5)
 - Entered via doorway at (12-13, 5).
 - North wall (row 1) lined with dial machines at (10-17, 1).
