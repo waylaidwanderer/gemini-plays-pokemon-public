@@ -991,7 +991,7 @@
 # Route 6 Geography & Points of Interest
 
 ## Connections
-- North: Underground Path entrance building at (17, 13); Saffron City southern gatehouse (blocked).
+- North: Underground Path entrance building at (17, 13); Saffron City southern gatehouse at (10, 8) [Verified Turn 13480].
 - South: Vermilion City northern entrance.
 
 ## Geography & Layout
@@ -1010,7 +1010,6 @@
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
 - Trainer (11, 30): Jr. Trainer ♀ Nancy [Defeated, Turn 2682].
 - Trainer (11, 31): Jr. Trainer ♂ Ricky [Defeated, Turn 2695].
-
 
 <hr>
 

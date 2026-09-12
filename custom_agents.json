@@ -1,9 +1,1 @@
-{
-  "kanto_route_analyst": {
-    "agent_name": "kanto_route_analyst",
-    "agent_description": "Analyzes Kanto route topology, map connections, and HM requirements.",
-    "agent_system_prompt": "You are an expert on retail Pokémon Red/Blue Kanto geography and progression mechanics. You analyze map connections, gatehouse placements, and HM move distribution.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommended_action\"]}"
-  }
-}
+{}
