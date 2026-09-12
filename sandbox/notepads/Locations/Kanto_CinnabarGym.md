@@ -12,3 +12,8 @@
 - Gym Guide: Located at (16, 13). Advises using Water moves and bringing Burn Heals.
 - Gym Statue: Located at (17, 13). Confirms Leader Blaine and winning trainer RED.
 - Hallway: Open corridor along column 19 heading North into the quiz chambers.
+## Chamber 1 (Southeast)
+- Bounds: Columns 15 to 19, rows 7 to 11.
+- Hallway along column 19 provides open access from the entrance hall.
+- Trainer at (17, 8) facing South (Burglar/Super Nerd sprite).
+- Counter/table along row 11 at columns 15 to 17 divides Chamber 1 from the entrance hall.
