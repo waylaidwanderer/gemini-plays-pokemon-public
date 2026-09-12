@@ -41,9 +41,8 @@
 
 
 ## Post-Game: Cerulean Cave Waterway Access Protocol
-- **Location**: West of Nugget Bridge (cols 0-4, rows 8-36+).
-- **Requirements**: Pokmon League Champion title (defeating RED removes the cave guard).
-- **Shoreline Access & Surfing Constraints**:
-  - The western shoreline at (4, 8)/(4, 9) faces an impassable bank border at (3, 8)/(3, 9) that blocks Surfing ('No SURFing here!').
-  - The southern shoreline at (4, 31)/(4, 32) connects directly to the open water canal at rows 33-35.
-- **Navigation**: Face south at (4, 31)/(4, 32), use Surf with HYDROS to board the water canal at (4, 33), then Surf south across the boundary into Cerulean City's northwest pool and enter Cerulean Cave at (4, 11).
+- **Location**: West of Nugget Bridge (cols 0-8, rows 0-12).
+- **Requirements**: Pokémon League Champion title (defeating RED removes the cave guard).
+- **Route 24 Southern Boundary**: Column 4 at Row 12 connects directly south to Cerulean City at (30, 19).
+- **Waterway Access & Navigation**:
+  - To access Cerulean Cave, navigate north past Nugget Bridge to the open riverbank on Route 24, board the river with SURF, and surf south down the continuous canal into Cerulean City's secluded northwest pool where Cerulean Cave 1F entrance is located.
