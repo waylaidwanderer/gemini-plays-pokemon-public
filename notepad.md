@@ -221,7 +221,7 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Healed Turn 13066]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Healed Turn 13690]
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
@@ -3279,7 +3279,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North Passage: Clear floor passage runs north through column 12 at rows 7-9 between the rubble and the column 13 wall [Verified Turn 13709].
 - South Corridor: Open floor along columns 9-10 extends south past row 15.
 - Shutter Door 1: Located at (16-17, 7) between walls at (14-15, 7) and (18-19, 7). Verified CLOSED on Turn 13716; empirically verified OPEN after toggling switch [Verified Turn 13762].
-- Northern Corridor: Wide open unobstructed corridor along row 1 connecting all columns.
+- Central-East Room (behind Shutter 1): Explored rows 8-12 (cols 14-21) on Turns 13762-13763. Contains two display pedestals at (16, 10-11) and (18, 10-11), south wall at row 13. Exhausted dead end with no stairs, switches, or items.
 - Wall Segment: Horizontal wall at (18-21, 7) and (22-23, 4); vertical wall along column 22 at rows 5-7.
 - Rubble pile blocks columns 20-22 at row 8.
 - Row 3 Corridor: Open walkway eastward past column 23 [Verified Turn 13718].
