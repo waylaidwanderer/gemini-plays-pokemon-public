@@ -2,29 +2,46 @@ import mgba
 import time
 
 def flee_if_battle():
-    # Try dismissing any text and running
+    # Attempt to dismiss battle and run
     mgba.press_buttons([
         "A", "sleep 150", "B", "sleep 150", "B", "sleep 150",
         "Down", "Right", "A", "sleep 350",
         "B", "sleep 150", "B", "sleep 150"
     ])
 
-def step(dir_name):
-    start_pos = mgba.get_coordinates()
-    for attempt in range(4):
-        mgba.press_buttons([dir_name, "sleep 150"])
-        cur_pos = mgba.get_coordinates()
-        if cur_pos != start_pos:
-            return cur_pos
-        # If position didn't change, we might be in battle or bumped a wall
-        flee_if_battle()
-        cur_pos = mgba.get_coordinates()
-        # If position changed or battle cleared, try step again if we didn't move
-    return mgba.get_coordinates()
+def try_step(dir_name):
+    # Returns (success, new_pos)
+    old = mgba.get_coordinates()
+    mgba.press_buttons([dir_name, "sleep 150"])
+    new_pos = mgba.get_coordinates()
+    if new_pos != old:
+        return True, new_pos
+    # If didn't move, check if battle
+    flee_if_battle()
+    new_pos = mgba.get_coordinates()
+    if new_pos != old:
+        return True, new_pos
+    # Try one more time after fleeing
+    mgba.press_buttons([dir_name, "sleep 150"])
+    new_pos = mgba.get_coordinates()
+    if new_pos != old:
+        return True, new_pos
+    return False, old
 
-pos = mgba.get_coordinates()
-print(f"Start: {pos}")
-for i in range(4):
-    pos = step("Down")
-    print(f"Step Down {i+1}: {pos}")
+print("Starting position:", mgba.get_coordinates())
 
+# From (24, 15), let's walk back up to (24, 12), then right to (26, 12), then down/explore
+path_log = []
+# Up 3 steps to (24, 12)
+for i in range(3):
+    ok, p = try_step("Up")
+    path_log.append(("Up", ok, p))
+    print(f"Up -> {p}")
+
+# Right 2 steps to (26, 12)
+for i in range(2):
+    ok, p = try_step("Right")
+    path_log.append(("Right", ok, p))
+    print(f"Right -> {p}")
+
+print("Current pos:", mgba.get_coordinates())
