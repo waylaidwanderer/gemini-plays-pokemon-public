@@ -39,9 +39,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 3 (East-Central Room)**:
   - Interior Bounds: cols 14..19, rows 7..11.
-  - Trainer: Psychic Cameron at (17, 7) facing South. Team: Mr. Mime Lv 34, Kadabra Lv 34. Defeated Turn 13124.
+  - Trainer: Psychic Cameron at (17, 7) facing South. Team: Mr. Mime Lv 34, Kadabra Lv 34. Defeated Turn 13124. Prize: ¥340.
   - Warp Tiles:
     - Top-Right (19, 9): <---> Room 2 (Southeast) (19, 15) [Verified Turn 13118].
     - Bottom-Right (19, 11): [Untested].
-    - Top-Left (15, 9): [Untested].
+    - Top-Left (15, 9): [Testing Turn 13125].
     - Bottom-Left (15, 11): [Untested].
