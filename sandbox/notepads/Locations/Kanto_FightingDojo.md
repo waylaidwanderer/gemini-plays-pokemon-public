@@ -2,7 +2,7 @@
 
 ## Overview
 Located in Northeast Saffron City at (26, 3), directly west of Saffron Gym. Houses Blackbelt karate disciples and Karate Master Koichi.
-Reward for defeating the Master: Choice between two prize Poké Balls on pedestals at (4, 1) and (5, 1) (hypothesized Hitmonlee and Hitmonchan, unverified until inspected).
+Reward for defeating the Master: Choice between two prize Poké Balls on pedestals at (4, 1) (Hitmonlee) and (5, 1) (Hitmonchan).
 
 ## Layout & Spatial Geometry
 - Entrance Mat: (4..5, 11) leading south into Saffron City.
