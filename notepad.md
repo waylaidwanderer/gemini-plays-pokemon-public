@@ -3312,7 +3312,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West: Solid vertical dividing wall along column 13 (rows 7-13).
 - East: Rubble barrier at columns 20-21 (rows 8-11).
 - South: Solid horizontal dividing wall along row 13 across all columns (12-21, 13).
-- Definitive Conclusion: Enclosed dead end with no stairs, switches, or hidden exits. Access to B1F staircase at (21, 23) is physically impossible from 1F ground level; access requires jumping down from 3F southern balcony.
+- Definitive Conclusion: Enclosed dead end with no stairs, switches, or hidden exits.
 
 ## Northeast & Large Eastern Room (cols 22-29, rows 0-13)
 - Northern corridor (rows 1-3) connects east to column 28; building eastern wall is at column 29 (rows 0-15) [Verified Turn 13723].
@@ -3349,7 +3349,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
 
 ## Southwest Room & Pocket (cols 1-5, rows 10-17)
-- Secret Switch Statue: Located at (2, 11) [Visually verified Turn 14337]. Interacting from (3, 11) facing West toggles the global Mansion switch state (A <-> B).
+- Feature at (2, 10-11): Sighted Pok�mon statue graphic at (2, 10-11) from (5, 11) [Turn 14337]. Interaction and switch status untested.
 - Room Layout: Open floor spans columns 1-5 (rows 10-13+), extending south to row 17 boundary wall. Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket fully cleared.
 
@@ -3405,7 +3405,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Floor: Open pink checkerboard floor across columns 1-5 (rows 1-3) and columns 3-8 (rows 1-5).
 - Staircase down to 2F: Located at (6, 1) [Verified Turn 13997].
 - South boundary: Fully audited on Turn 14196 via direct visual scan at (3, 3). Continuous impassable rubble wall completely blocks rows 6-7 across columns 1-8, with additional rubble at (1-2, 4-5). Absolutely NO southern exit exists from this chamber into the Southwest sector.
-- Secret Switch Statue: Located at (10, 5) (previously described as display case). Contains the 3F secret switch that toggles the global Mansion switch state (A <-> B). Toggling to State B opens the East Shutter at (15, 10-11).
+- Feature at (10, 4-5): Display case / statue structure flanked by rubble at (9, 4-5) and open passage along column 11. Switch status untested.
 - East Exit: Row 3 connects east to columns 10-11, wrapping south down column 11 around the display case past row 6 rubble.
 
 ## Central North Hall & East Passage (cols 10-15, rows 1-7)
