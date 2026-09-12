@@ -23,7 +23,6 @@
 - BICYCLE [Verified Turn 11080]
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
-- SECRET KEY [Obtained Turn 14678 at Mansion B1F (5, 13)]
 
 ## Inventory Capacity
 - Total Slots Used: 19 / 20
@@ -80,7 +79,7 @@
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 190 / 190
   - Stats: Attack 140, Defense 162, Speed 140, Special 143
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 8/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 12/15), Surf (PP 8/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 26 / 26
