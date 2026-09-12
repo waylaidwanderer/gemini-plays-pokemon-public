@@ -1,19 +1,26 @@
-# Cerulean Cave 2F West Navigation & Route to Mewtwo (B1F)
+# Cerulean Cave 2F Navigation & Route to Mewtwo (B1F)
 
 ## Active Objective: Reach Ladder A at (1, 3)
-- Current Position: (16, 7) on 2F.
+- Current Position: (20, 6) on 2F.
 
-## Route to Ladder A:
-1. Walk Up 2 to (16, 5) -> Left 7 to (9, 5).
-2. Walk Up 2 to (9, 3) -> Left 2 to (7, 3).
-3. Test western pathways from (7, 3) and (3, 3):
-   - From (3, 3): Up to (3, 1) -> Test (2, 1) and (1, 2) to reach Ladder A at (1, 3).
-   - From (7, 3): Down to (7, 5) -> Probe Row 5 West towards Column 1.
-4. Step onto Ladder A at (1, 3) to descend to B1F.
-5. In B1F: Surf to Mewtwo's island platform and capture with Master Ball!
+## Master Route via Row 10 Thoroughfare to Ladder A (1, 3):
+1. From (20, 6): Left 2 to (18, 6).
+2. Down 4 down Column 18: (18, 7) -> (18, 8) -> (18, 9) -> (18, 10) [Row 10 Thoroughfare].
+3. West across Row 10 / Row 9: (17, 10..9) -> (16, 10..9) -> ... -> (0, 9).
+4. North along Column 0: (0, 8) -> (0, 7) -> (0, 6) -> (0, 5) -> (0, 4) -> (0, 3).
+5. Step Right onto Ladder A at (1, 3) to descend to Cerulean Cave B1F (Mewtwo's Chamber)!
+6. In B1F: Surf to Mewtwo's island platform and capture with Master Ball on Turn 1!
 
-## Verified Obstacles (2F West)
-- (15, 7): Solid rock wall (blocks west along Row 7 from (16, 7)).
-- (9, 6) & (10, 6): Rock walls (blocks south from (9, 5)/(10, 5)).
-- (2, 3): Solid rock wall (blocks west along Row 3 from (3, 3)).
-- (8, 5): Solid rock wall (blocks west along Row 5 from (9, 5)).
+## Verified Obstacles (2F)
+- (15, 7): Solid rock wall.
+- (9, 6) & (10, 6): Rock walls.
+- (2, 3): Rock wall.
+- (2, 1): Rock wall.
+- (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (8, 4): Rock walls (Row 4 barrier).
+- (17, 4): Rock wall.
+- (20, 4): Rock wall.
+- (22, 5): Rock wall.
+- (23, 3): Rock wall.
+- (24, 6): Rock wall.
+- (27, 4): Dead-end alcove.
+- Ladder C at (19, 7) leads to isolated dead-end corridor on 1F (18, 9) - DO NOT ENTER.
