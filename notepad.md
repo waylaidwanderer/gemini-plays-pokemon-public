@@ -3412,5 +3412,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001] | UNTESTED (Hypothesized OPEN) |
 - Statue at (12, 9): Tested from (13, 9) facing West on Turn 14023. Confirmed NO switch.
 - East Wing Access: Rows 4-5 are open across column 15 (cols 14-17), providing direct unobstructed passage from the central hall into the eastern wing without passing through the shutter at (15, 10-11) [Verified Turn 14023].
+## East Laboratory Room (cols 16-23, rows 1-8)
+- North Features: Twin dial machines along row 1 across columns 16-19.
+- Furniture: Large 2x2 table at (18-19, 4-5).
+- Open Floor: Wide open pink floor across columns 16-21 (rows 2-7).
+- Barriers: Rubble at (21-22, 6-7) and across rows 8-9 (cols 18-23). Wall partition at column 22 (rows 2-3).
+- East Passage: Open passage along rows 4-5 across columns 20-23 leading into the far eastern wing.
 
 <hr>
