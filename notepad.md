@@ -70,9 +70,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 93
-   - Stats: Max HP 323 (HP: 323/323), Attack 230, Defense 253, Speed 234, Special 244
+   - Stats: Max HP 323 (HP: 159/323), Attack 230, Defense 253, Speed 234, Special 244
    - Type: Water
-   - Moves: Double-Edge (15/15), Ice Beam (10/10), Bite (25/25), Surf (15/15)
+   - Moves: Double-Edge (10/15), Ice Beam (0/10), Bite (25/25), Surf (14/15)
    - Role: Primary powerhouse & sweeper (Slot 1 Lead)
 2. ATLAS (Machop) - Lv 18
    - Stats: Max HP 59 (HP: 59/59)
@@ -2948,6 +2948,9 @@
 4. Surf north along 1F canal to (7, 1) -> ascend Ladder E to 2F (9, 1).
 5. On 2F -> walk west along top ledge to Ladder A at (1, 3) -> descend to B1F!
 6. On B1F -> surf to Mewtwo at (27, 13) -> use Master Ball for instant 100% capture!
+## Verified Field Interactions & Constraints (1F)
+- Elevated Cliff Constraint: Water boundary at (23, 6) overlooking (23, 5) is an elevated ledge/cliff that rejects Surfing with "No SURFing on HYDROS here!". Water can only be boarded at designated shore ramps (e.g. (11, 13)).
+
 
 <hr>
 
@@ -3028,15 +3031,22 @@
 ## Verified Master Route to Mewtwo
 1. **1F Entrance to Ladder B**:
    - Enter Cerulean Cave 1F at (24, 17).
-   - Walk north along corridor (21, 14..12) -> (23, 10..7) to Ladder B at (23, 7).
+   - Walk north along corridor (21, 17..10) past ramp (21, 11) -> (22, 10..7) to Ladder B at (23, 7).
    - Ascend Ladder B to 2F at (22, 6).
 
-2. **2F Ladder B to Row 11/9 Thoroughfare**:
-   - From 2F (22, 6): Walk SOUTH into open southern corridor: (22, 6) -> (22, 7) -> (22, 8) -> (24, 11).
-   - Follow Row 11 Thoroughfare (cols 14..24) / Row 9 West Thoroughfare (cols 0..24) west all the way to Column 0: (0, 9).
+2. **2F Ladder B to Row 17 South Chamber & Column 12 Highway**:
+   - From 2F (22, 6): Walk down Column 23 to (23, 11).
+   - Walk West along Row 11 to (14, 11).
+   - Step Down Column 14: (14, 12) -> (14, 13), step Right to (15, 13).
+   - Step Down Column 15: (15, 14) -> (15, 15).
+   - Walk East across Row 15: (16, 15) -> South Ramp at (17, 15).
+   - Step Down over South Ramp: (17, 16) -> (17, 17) [Row 17 South Chamber].
+   - Walk West along Row 17: (16..13, 17).
+   - Step North into Column 13/12: (13, 16..15) -> (12, 15..9) [Column 12 Highway].
 
-3. **Column 0 to Ladder A (B1F Transition)**:
-   - Walk north up Column 0: (0, 9) -> (0, 5) -> (0, 3).
+3. **Column 12 to Row 9 West Thoroughfare & Ladder A (B1F Transition)**:
+   - From (12, 9), follow Row 9 West Thoroughfare west to Column 0 at (0, 9).
+   - Walk North up Column 0: (0, 9) -> (0, 5) -> (0, 3).
    - Step Right to Ladder A at (1, 3).
    - Descend Ladder A to Cerulean Cave B1F (Mewtwo's Chamber)!
 
@@ -3044,5 +3054,6 @@
    - Navigate B1F waterways/platforms to Mewtwo at (27, 13).
    - Initiate battle with Mewtwo.
    - Open ITEM -> Select MASTER BALL -> Guaranteed capture on Turn 1!
+
 
 <hr>
