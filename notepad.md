@@ -3360,6 +3360,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Southeast Staircase Chamber (cols 23-25, rows 10-15)
 - Staircase up to 3F located at (25, 14) [Verified Turn 13868].
 - Open pink floor across (23-25, 10-13) and (24-25, 14-15).
-- Bounded on south by row 16 wall, and on west by rubble at columns 22-23 (rows 10-15).
+- Bounded on south by row 16 wall, and on west by rubble at column 22 (rows 10-15) and column 23 (rows 14-15). Column 23 is open pink floor at rows 10-13 [Verified Turn 13872]. Access path from north (rows 6-9) currently being investigated.
 
 <hr>
