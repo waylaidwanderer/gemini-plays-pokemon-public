@@ -13,9 +13,14 @@
 - **Row 1 North Bypass**: (1..18, 1) provides continuous open floor from east to west leading to Ladder E (9, 1) and Ladder A (1, 3).
 
 ## Verified Items (2F)
-- Item Pokéball at (29, 9) collected (PP Up).
-- Item Pokéball at (13, 6) collected (Max Potion).
-- Item Pokéball at (4, 15) collected (TM14 Blizzard).
+- Item Pokï¿½ball at (29, 9) collected (PP Up).
+- Item Pokï¿½ball at (13, 6) collected (Max Potion).
+- Item Pokï¿½ball at (4, 15) collected (TM14 Blizzard).
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
+
+## Southeast Sector Navigation Path (Verified Turns 45607-45612)
+- From Ladder D corridor (27, 6): Move down to (27, 8), right to (28, 8), down column 28 to (28, 16).
+- From (28, 16): Left to (27, 16), down to (27, 17) enters the Row 17 South Artery.
+- Row 17 South Artery provides continuous westward passage across cols 27..21.
