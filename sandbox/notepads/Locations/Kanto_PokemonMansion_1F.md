@@ -32,7 +32,7 @@
 - West: Solid vertical dividing wall along column 13 (rows 7-13).
 - East: Rubble barrier at columns 20-21 (rows 8-11).
 - South: Solid horizontal dividing wall along row 13 across all columns (12-21, 13).
-- Definitive Conclusion: Enclosed dead end with no stairs, switches, or hidden exits. Access to B1F staircase at (21, 23) is physically impossible from 1F ground level; access requires jumping down from 3F southern balcony.
+- Definitive Conclusion: Enclosed dead end with no stairs, switches, or hidden exits.
 
 ## Northeast & Large Eastern Room (cols 22-29, rows 0-13)
 - Northern corridor (rows 1-3) connects east to column 28; building eastern wall is at column 29 (rows 0-15) [Verified Turn 13723].
