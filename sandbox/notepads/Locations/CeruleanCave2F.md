@@ -34,3 +34,4 @@
 - Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
 
 - Column 24 Corridor: Open vertical floor across (24, 11) to (24, 15) [Verified Turn 46363].
+- Central/South Branches: (14, 11..13), (15, 13..15), and Row 15 (cols 15..19) verified open floor [Turn 46387].
