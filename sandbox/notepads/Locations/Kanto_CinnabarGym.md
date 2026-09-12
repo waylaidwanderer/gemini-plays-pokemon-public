@@ -52,3 +52,11 @@
 - Row 16 connects west into column 7 corridor at (8, 16).
 - Shutter Door 4: Located at (5, 16), OPENED [Turn 14748] after answering NO to Question 4.
 - Chamber 5 Question: "Are thunder moves effective against ground element-type POKéMON?" [Verified Turn 14746] (Answer: NO)
+
+## Chamber 6 (Southwest)
+- Bounds: Columns 1 to 5, rows 13 to 17.
+- Entered from Chamber 5 via open southern corridor along rows 16-17.
+- Quiz Machine 5: Located at (1, 13). Must be interacted with from (1, 14) facing North.
+- Trainer at (3, 14) facing South.
+- Safe route to Quiz Machine 5: Walk north along col 5 to row 13, then west along row 13 behind the trainer to (2, 13), down to (2, 14), left to (1, 14), avoiding trainer line of sight.
+- Shutter Door 5: Located at (4-5, 12), currently CLOSED. Opens upon answering Question 5 correctly.
