@@ -3004,7 +3004,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
   - East-West Alleyway (Row 26): Open paved passage running east across cols 4..8 between Building 1 and Building 2.
   - Building 2 (Southwest Commercial): Sloped roof at row 27, facade and windows at rows 28..29 (cols 4..7).
 ## Southern District & Southern Boulevard
-- South Gatehouse: Located in the south-central district along Southern Boulevard (projected cols 17..18, row 33). Note: Building at cols 0..3, rows 32..35 is a residential structure, not a gatehouse.
+- South Gatehouse / Route 6 Connection: Accessed via the Southeast Open Plaza along columns 20..21 stepping south past row 35 (transitions off-map to Route 6 Gatehouse).
 - Southern East-West Boulevard: Continuous 2-tile wide roadway across rows 31..32 (cols 3..8+) linking the western avenue directly east toward the central plaza and southern facilities (Pokémon Center / Mart).
 - Building 3: Roof visible at cols 4..8+, row 33 south of the Southern Boulevard.
 - Western Avenue Intersection: Located at (3, 31), where col 3 meets the Southern Boulevard.
