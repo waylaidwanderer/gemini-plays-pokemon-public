@@ -3278,7 +3278,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Interior Walls: Vertical wall runs along column 13 (rows 7-12); horizontal wall at row 13 (cols 11-15).
 - North Passage: Clear floor passage runs north through column 12 at rows 7-9 between the rubble and the column 13 wall [Verified Turn 13709].
 - South Corridor: Open floor along columns 9-10 extends south past row 15.
-- Item Ball: Located at (14, 3) in northern room [Spotted Turn 13711].
-- Northern Corridor: Open east-west passage along rows 1-2 connects eastern wing to northwest area above column 9.
+- Shutter Door: Iron shutter door located at (16-17, 7) between walls at (14-15, 7) and (18-19, 7) [Verified Turn 13716].
+- Northern Corridor: Wide open unobstructed corridor along row 1 connecting all columns.
 
 <hr>
