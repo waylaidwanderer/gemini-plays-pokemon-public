@@ -140,6 +140,7 @@
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
 - [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
+- [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 
 ## Mansion Switch-State Matrix
 | Shutter / Door Location | State A (Default) | State B (Toggled) |
@@ -240,7 +241,7 @@
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 190 / 190
   - Stats: Attack 140, Defense 162, Speed 140, Special 143
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 9/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 8/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 26 / 26
