@@ -3416,7 +3416,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 |---|---|---|
 | 1F Shutter 1 (16-17, 7) | CLOSED [Turn 13961] | OPEN [Turn 13762] |
 | 1F East Room Exit (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
-| 1F Southern Hall Shutter (21, 17) | UNTESTED | UNTESTED |
+| 1F Southern Hall Shutter (20-21, 17) | CLOSED [Turn 14121] | UNTESTED (Hypothesized OPEN) |
 | 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Verified Turn 14069] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001] | UNTESTED (Hypothesized OPEN) |
 ## East Laboratory Room (cols 16-23, rows 1-8)
