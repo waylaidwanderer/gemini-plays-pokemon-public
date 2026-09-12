@@ -53,6 +53,3 @@
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven from 2F ground. Row 8 has a solid wall at (24-28, 8) blocking access from (28, 7) (verified Turn 13915). West is blocked by rubble along column 22 (rows 9-15) and row 16 is a solid south wall (verified Turns 13904, 13908). Completely enclosed on 2F; accessed via drop-in from 3F.
-## Strategic Navigation Summary & Verified Findings (Turn 14095)
-
-- 2F Northwest Shutter (9, 4-5): Confirmed OPEN in State A, CLOSED in State B [Verified Turn 14069].
