@@ -1,7 +1,7 @@
 # Inventory Log
 
 ## Regular Items
-- SUPER REPEL: Active (200 steps applied Turn 14032) [Consumed]
+- SUPER REPEL: Wore off ~Turn 14126 [Depleted]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x2 [Verified Turn 13828]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
