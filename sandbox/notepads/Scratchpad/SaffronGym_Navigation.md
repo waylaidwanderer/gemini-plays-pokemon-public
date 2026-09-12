@@ -75,7 +75,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 7 (North-Central Room)**:
   - Interior Bounds: cols 7..12, rows 1..5.
-  - Trainer: Channeler at (10, 1) facing South. Team: Gastly Lv 34, Haunter Lv 34 (2 Pokémon total, in progress).
+  - Trainer: Channeler at (10, 1) facing South. Team: Gastly Lv 34, Haunter Lv 34. Defeated Turn 13159. Prize: ¥1020.
   - Warp Tiles:
     - Top-Right (11, 3): <---> Room 6 (Northwest) (5, 3) [Verified Turn 13154].
     - Top-Left (9, 3): [Untested].
