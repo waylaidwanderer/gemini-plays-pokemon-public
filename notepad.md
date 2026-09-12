@@ -230,7 +230,7 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10)
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10) [Turn 13062]
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
@@ -1404,6 +1404,7 @@
 ## HM03 SURF Verification
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 
+- Silph Co Dig Verification (Turn 13061): TM28 Dig executed on Silph Co 11F, warping player directly outside Saffron City Pokémon Center at (9, 30). Confirms indoor skyscraper dungeons allow Dig escape.
 
 <hr>
 
