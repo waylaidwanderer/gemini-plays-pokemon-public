@@ -27,4 +27,4 @@
 - Residence (Rows 8..9): House at columns 20..23 with door at (21, 9).
 - North-South Avenue: Columns 18..19 connect row 12 north to row 7 between the west fence (col 16) and residence (cols 20..23).
 - Gym Approach (Row 7): Open east-west street along row 7 connecting column 18 east to columns 21..27 in front of the Gym building.
-- Viridian Gym: Northeast quadrant, building facade at columns 27..30+, accessible via row 7.
+- Viridian Gym: Northeast quadrant, building facade at columns 27..34, rows 1..7. Signpost at (27, 7). Entrance door at (32, 7), approached from (32, 8). Unlocked after 7 badges ("VIRIDIAN GYM's LEADER returned!").
