@@ -28,3 +28,6 @@
 - Trainer at (12, 7): facing Down along col 12.
 - Trainer at (13, 5): facing Down along col 13.
 - Trainer at (11, 11): facing Down along col 11.- Trainer at (14, 5): Cooltrainer♂ (Rhyhorn Lv 43) [Defeated Turn 15075]. Defeated sprite at (14, 5).
+- Trainer at (6, 5): facing Down along col 6.
+- Column 5 Dividing Wall: Vertical wall at (5, 1..2) and (5, 5..6), counter at (5, 3). Passage through at (5, 4) gateway.
+- Western Chute: DOWN-spinner at (4, 6) in column 4. Open floor across (3..4, 1..4).
