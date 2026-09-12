@@ -3695,5 +3695,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - East Passage: Columns 36-37 form a north-south road running south from rows 8-9 to rows 10-13+ between west boundary trees (col 35) and eastern mountain cliff (cols 38-42).
 - Northern Grass: Wild grass patch located at cols 36-44, rows 6-7.
 - Southern Highway (Rows 14-15): 2-tile wide paved corridor bounded by row 13 ledge (north) and row 16 ledge (south), running from col 36 west to col 2, dead-ending at western mountain cliff (col 1). Lower return path.
+- Passage at (33, 13): 1-tile wide gap/ramp in row 13 ledge at column 33 connecting the lower highway (rows 14-15) north to the upper plateau lawn at row 12.
 
 <hr>
