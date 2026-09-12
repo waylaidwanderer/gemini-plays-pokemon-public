@@ -37,7 +37,7 @@
 - Slot 2: HM03 (Surf)
 - Slot 3: HM04 (Strength)
 - Slot 4: TM14 x1 (Blizzard - Cerulean Cave 2F (4, 15))
-- Slot 5: TM22 x1 (SolarBeam - Pok�mon Mansion)
+- Slot 5: TM22 x1 (SolarBeam - Pokémon Mansion)
 - Slot 6: SECRET KEY
 - Slot 7: TM27 x1 (Fissure - Viridian Gym Giovanni)
 - Slot 8: TM47 x1 (Explosion - Victory Road)
@@ -55,9 +55,9 @@
 - Helix Fossil: Handed over to Cinnabar Lab Scientist for Omanyte revival (Turn 47150).
 
 ## PC Item Storage Notes
-- Pok� Flute, Silph Scope, Good Rod, Helix Fossil, TMs stored in PC Storage.
+- Poké Flute, Silph Scope, Good Rod, TMs stored in PC Storage.
 
-## Boxed Pok�mon Storage (Box 1)
+## Boxed Pokémon Storage (Box 1)
 - LAPRAS - Lv 15 (Gift from Silph Co. 7F Employee)
 - HITMONLEE - Lv 30 (Fighting Dojo Master Reward)
 - NAUTILUS (Omanyte) - Lv 30 (Revived from Helix Fossil Turn 47162)
