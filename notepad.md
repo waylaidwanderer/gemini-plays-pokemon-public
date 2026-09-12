@@ -6,7 +6,7 @@
 
 - Badges: 6 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥102744 [Turn 13241]
 - Pokédex: 15 Caught / 50+ Seen
@@ -2989,7 +2989,7 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
   - East-West Alleyway (Row 26): Open paved passage running east across cols 4..8 between Building 1 and Building 2.
   - Building 2 (Southwest Commercial): Sloped roof at row 27, facade and windows at rows 28..29 (cols 4..7).
 ## Southern District & Southern Boulevard
-- South Gatehouse: Yellow diamond roof at cols 0..3, rows 32..33+ leading south to Route 6 [Sighted Turn 12648].
+- South Gatehouse: Located in the south-central district along Southern Boulevard (projected cols 17..18, row 33). Note: Building at cols 0..3, rows 32..35 is a residential structure, not a gatehouse.
 - Southern East-West Boulevard: Continuous 2-tile wide roadway across rows 31..32 (cols 3..8+) linking the western avenue directly east toward the central plaza and southern facilities (Pokémon Center / Mart).
 - Building 3: Roof visible at cols 4..8+, row 33 south of the Southern Boulevard.
 - Western Avenue Intersection: Located at (3, 31), where col 3 meets the Southern Boulevard.
