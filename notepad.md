@@ -3008,6 +3008,8 @@
 - (29, 11): Rock wall.
 - (28, 10..12): Open floor corridor.
 - (28..29, 9): Dead-end alcove (PP Up location at (29, 9)). Eastern Artery terminates here.
+- (17, 11): Rock wall (blocks eastward traversal from (16, 11)).
+- Row 9 West Thoroughfare: cols 15..24 are continuous open floor connecting to Column 24 ((24, 9..13)).
 
 <hr>
 
