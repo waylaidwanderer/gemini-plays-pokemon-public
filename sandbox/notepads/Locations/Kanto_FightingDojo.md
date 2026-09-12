@@ -17,8 +17,8 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
    - Defeated: Turn 13197. Prize money: ¥775.
 2. **Blackbelt 2 (West)**:
    - Position: (3, 6) facing East into (4, 6).
-   - Telemetry: 2 Pokémon total; Pokémon 1: Machop Lv 32, Pokémon 2: Machoke [Observed Turns 13203-13206].
-   - In progress [Engaged Turn 13201].
+   - Team: Machop Lv 32, Machoke Lv 32 [Verified Turns 13203-13208].
+   - Defeated: Turn 13208.
 3. **Blackbelt 3 (East)**:
    - Position: (5, 5) facing West into (4, 5).
 4. **Blackbelt 4 (West/North)**:
