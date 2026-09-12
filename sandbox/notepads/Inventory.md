@@ -13,7 +13,6 @@
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
 - BICYCLE [Verified Turn 11080]
-- SILPH SCOPE [Verified Turn 11081]
 - POKÃ‰ FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 - HM04 (STRENGTH) [Received Turn 8274, Verified Turn 11082]
@@ -22,27 +21,27 @@
 - CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 17 / 20
+- Total Slots Used: 16 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
   3. SUPER REPEL x4
-  4. SILPH SCOPE
-  5. POKÉ FLUTE
-  6. SUPER ROD
-  7. FULL RESTORE x1
-  8. MAX POTION x1
-  9. HM04
-  10. GOOD ROD
-  11. HM03
-  12. REVIVE x5
-  13. FULL HEAL x5
-  14. TM29 x1
-  15. CARD KEY
-  16. MASTER BALL x1
-  17. TM46 x1
+  4. POKÉ FLUTE
+  5. SUPER ROD
+  6. FULL RESTORE x1
+  7. MAX POTION x1
+  8. HM04
+  9. GOOD ROD
+  10. HM03
+  11. REVIVE x5
+  12. FULL HEAL x5
+  13. TM29 x1
+  14. CARD KEY
+  15. MASTER BALL x1
+  16. TM46 x1
 
 ## Stored / PC Items
+- SILPH SCOPE x1 (PC) [Stored Turn 13294]
 - LIFT KEY x1 (PC) [Stored Turn 13292]
 - COIN CASE x1 (PC) [Stored Turn 13288]
 - HM05 (FLASH) x1 (PC) [Stored Turn 13286]
