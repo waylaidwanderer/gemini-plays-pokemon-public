@@ -3167,5 +3167,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Physical moves (Double-Edge, Body Slam) exploit the low physical Defense of Alakazam / Kadabra for easy OHKOs.
     - High HP (179) and Defense (153) provides massive bulk against Psychic attacks.
 
+## Room & Warp Mapping
+- **Room 1 (Entrance Room / South)**:
+  - Interior Bounds: cols 7..12, rows 13..17.
+  - Entrance/Exit Mat: (8..9, 17) -> Saffron City.
+  - Statue: (9, 15).
+  - Gym Guide: (10, 15).
+  - Warp Tile: (11, 15) -> [Untested].
 
 <hr>
