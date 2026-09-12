@@ -74,4 +74,4 @@
 - [x] Defeat Elite Four Lance in Room 4 (Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62) [Defeated Turn 39281]
 - [x] Defeat Champion RED in Champion Chamber (Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 61, Arcanine Lv 63, Venusaur Lv 65) [Defeated Turn 39310]
 - [x] Become Pokémon League Champion and Enter Hall of Fame! [Turn 39310]
-- [ ] Hand over Helix Fossil to Cinnabar Lab Scientist for Omanyte revival (Helix Fossil in PC storage; withdrawing to deliver)
+- [ ] Hand over Helix Fossil to Cinnabar Lab Scientist for Omanyte revival (Helix Fossil in Bag; delivering to Lab Room 3)
