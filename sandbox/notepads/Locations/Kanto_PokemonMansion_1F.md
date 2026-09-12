@@ -17,3 +17,6 @@
 - South Corridor: Open floor along columns 9-10 extends south past row 15.
 - Shutter Door: Iron shutter door located at (16-17, 7) between walls at (14-15, 7) and (18-19, 7) [Verified Turn 13716].
 - Northern Corridor: Wide open unobstructed corridor along row 1 connecting all columns.
+- Wall Segment: Horizontal wall at (18-21, 7) and (22-23, 4); vertical wall along column 22 at rows 5-7.
+- Rubble pile blocks columns 20-22 at row 8.
+- Row 3 Corridor: Open walkway eastward past column 23 [Verified Turn 13718].
