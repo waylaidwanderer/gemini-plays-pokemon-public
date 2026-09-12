@@ -4,7 +4,7 @@
 - **Unified Sector Structure**:
   1. **West Sector (cols 1..9, rows 0..5)**: Reachable via Ladder E at (9, 1) <-> 1F (7, 1) or via Row 1 North Bypass. Contains Ladder A at (1, 3), which descends directly to B1F (Mewtwo).
   2. **Central & North Sector (cols 11..22, rows 1..10)**: Reachable via Ladder C at (19, 7) <-> 1F (18, 9), S-Bypass (19, 7 <-> 22, 4 <-> 18, 1), and Row 1 North Bypass (1..18, 1).
-  3. **Southeast Artery (cols 23..29, rows 4..19)**: Reachable via Ladder B at (22, 6) <-> 1F (23, 7). Connects via Column 23 -> Row 11 -> Column 24 -> Row 15 -> Column 26 -> Row 7/4 directly into the Central/North Bypass!
+  3. **Southeast Artery (cols 23..29, rows 4..19)**: Reachable via Ladder B at (22, 6) <-> 1F (23, 7). Connects via Column 23 -> Row 11/13 -> Row 17 South Artery -> Column 28 -> Ladder D at (29, 1).
 
 ## Verified Open Passageways (2F)
 - **Ladder B to North Bypass Thoroughfare**:
