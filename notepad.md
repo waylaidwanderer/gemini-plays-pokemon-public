@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥101819 [Turn 13228]
+- Money: ¥102744 [Turn 13241]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -202,7 +202,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥101819 [Turn 13228]
+- ¥102744 [Turn 13241]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 59, Water]
@@ -3292,7 +3292,7 @@ Reward for defeating the Master: Choice between two prize Poké Balls on pedesta
    - Master of the Fighting Dojo.
    - Line of sight / interaction triggered upon stepping to (4, 3) [Turn 13229].
    - Telemetry: 2 Pokémon total; Pokémon 1: Hitmonlee Lv 37, Pokémon 2: Hitmonchan Lv 37 [Observed Turns 13234-13240].
-   - Defeated: Turn 13240.
+   - Defeated: Turn 13240. Prize money: ¥925.
 
 
 <hr>
