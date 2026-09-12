@@ -3505,6 +3505,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Open pink floor across columns 26-28 (rows 6-13+).
 - Trainer (Burglar) stationed at (27, 11) facing South [Sighted Turn 14589].
 - Rows 6-8 in columns 26-28 are open floor connecting north into the row 6-7 northern corridor.
-- South access via Shutter Door at (26-27, 17).
+- South access via Shutter Door at (26-27, 17) [Verified CLOSED in State B on Turn 14590].
 
 <hr>
