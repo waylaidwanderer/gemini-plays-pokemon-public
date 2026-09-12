@@ -20,3 +20,5 @@
 - Wall Segment: Horizontal wall at (18-21, 7) and (22-23, 4); vertical wall along column 22 at rows 5-7.
 - Rubble pile blocks columns 20-22 at row 8.
 - Row 3 Corridor: Open walkway eastward past column 23 [Verified Turn 13718].
+- Northeast Area: Wall at (22-25, 4) divides the north corridor from a large eastern room; open passage into this room exists at columns 26-27.
+- Northern Corridors: Rows 1-3 are wide open and extend east past column 27 [Verified Turn 13722].
