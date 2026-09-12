@@ -2,46 +2,39 @@ import mgba
 import time
 
 def flee_if_battle():
-    # Attempt to dismiss battle and run
     mgba.press_buttons([
         "A", "sleep 150", "B", "sleep 150", "B", "sleep 150",
         "Down", "Right", "A", "sleep 350",
         "B", "sleep 150", "B", "sleep 150"
     ])
 
-def try_step(dir_name):
-    # Returns (success, new_pos)
-    old = mgba.get_coordinates()
-    mgba.press_buttons([dir_name, "sleep 150"])
-    new_pos = mgba.get_coordinates()
-    if new_pos != old:
-        return True, new_pos
-    # If didn't move, check if battle
-    flee_if_battle()
-    new_pos = mgba.get_coordinates()
-    if new_pos != old:
-        return True, new_pos
-    # Try one more time after fleeing
-    mgba.press_buttons([dir_name, "sleep 150"])
-    new_pos = mgba.get_coordinates()
-    if new_pos != old:
-        return True, new_pos
-    return False, old
+def step(dir_name):
+    start = mgba.get_coordinates()
+    for _ in range(3):
+        mgba.press_buttons([dir_name, "sleep 150"])
+        cur = mgba.get_coordinates()
+        if cur != start:
+            return True, cur
+        flee_if_battle()
+        cur = mgba.get_coordinates()
+        if cur != start:
+            return True, cur
+    return False, start
 
-print("Starting position:", mgba.get_coordinates())
+pos = mgba.get_coordinates()
+print("Starting pos:", pos)
 
-# From (24, 15), let's walk back up to (24, 12), then right to (26, 12), then down/explore
-path_log = []
-# Up 3 steps to (24, 12)
-for i in range(3):
-    ok, p = try_step("Up")
-    path_log.append(("Up", ok, p))
-    print(f"Up -> {p}")
-
-# Right 2 steps to (26, 12)
+# Let's walk Up to (24, 11), then Left towards (20, 11) and see how far west we can go on Row 11
+# Step Up 2 to (24, 11)
 for i in range(2):
-    ok, p = try_step("Right")
-    path_log.append(("Right", ok, p))
-    print(f"Right -> {p}")
+    ok, pos = step("Up")
+    print(f"Up -> {pos}")
+
+# Step Left up to 12 times to see where Row 11 leads
+for i in range(12):
+    ok, pos = step("Left")
+    print(f"Left {i+1} -> {ok}, {pos}")
+    if not ok:
+        break
 
 print("Current pos:", mgba.get_coordinates())
