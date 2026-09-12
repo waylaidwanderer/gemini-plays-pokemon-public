@@ -2961,8 +2961,10 @@
   - (9, 6) & (10, 6): Rock walls (blocks southward traversal from (9, 5)/(10, 5) towards Row 6/7).
   - (2, 3): Rock wall (blocks westward traversal from (3, 3) along Row 3).
   - (2, 1): Rock wall (blocks westward traversal from (3, 1)).
-  - (3, 1..5) connects south to Row 5 (cols 0..7 open floor).
-  - Verified path to Ladder A (1, 3): From (3, 1) -> Down 4 to (3, 5) -> Left 2 to (1, 5) -> Up 2 onto Ladder A at (1, 3).
+  - (3, 4): Rock wall (blocks southward traversal from (3, 3) along Column 3).
+  - (12, 6): Rock wall (blocks southward traversal from (12, 5) along Column 12).
+  - (20, 4): Rock wall (blocks southward traversal from (20, 3) along Column 20).
+  - (27, 4): Dead-end alcove (walls at (27, 3), (27, 5), and (28, 4); open only to west at (26, 4)).
 
 <hr>
 
