@@ -3271,5 +3271,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Navigation & Layout
 - Entrance Hall: Red carpet corridor spanning columns 4 to 7, running north from row 27 [Verified Turn 13698].
 - Side Rooms: Checkered floor rooms flanking the entrance corridor to the west (cols 1-3) and east (cols 8-10) [Verified Turn 13698].
+- Entrance Hall Columns: Display tables with plants line columns 3 and 8 at rows 20, 22, and 24, with open passages into side rooms at rows 19, 21, 23, and 25 [Verified Turn 13699].
 
 <hr>
