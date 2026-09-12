@@ -128,3 +128,4 @@
 - [x] Defeat Rival RED in Silph Co [Turn 12851]
 - [x] Receive gift Lapras (NESSY) from Silph Co employee [Turn 12858]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
+- [x] Obtain Master Ball from Silph Co President [Turn 13053]
