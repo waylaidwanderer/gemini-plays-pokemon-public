@@ -3309,7 +3309,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Southern Hall & Southeast Cul-de-sac (cols 21-29, rows 14-27)
 - Wide hallway spanning rows 14-16 (cols 12-27).
 - Shutter Door 2: Located at (20-21, 17) leading south. Confirmed CLOSED in Switch State A [Verified Turn 14121]. Solid wall at (18, 16) blocks row 16 westward [Verified Turn 14130].
-- Southeast cul-de-sac: Enclosed room at columns 26-28 (rows 19-27) entered via doorway (24-25, 17). Contains closed shutter door at (26-27, 27) along exterior south wall [Verified Turn 13735].
+- Southeast cul-de-sac: Enclosed room at columns 26-28 (rows 19-27) entered via doorway (24-25, 17). Fully surveyed Turn 14142: closed shutter door at (26-27, 27) along south wall; continuous barrier of wall at column 24 (rows 19-23) and rubble at columns 24-25 (rows 24-27) blocks all western passage to (21, 23). Dead-end with no switches or items.
 
 ## Southwest Wing (cols 1-3, rows 10-27) [Explored]
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
