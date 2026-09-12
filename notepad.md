@@ -3297,8 +3297,8 @@ Reward for defeating the Master: Choice between two prize Poké Balls on pedesta
 ## Prize Pokémon Verification & Mechanics
 - **Left Pedestal (4, 1)**: Hitmonlee (Lv 30).
 - **Right Pedestal (5, 1)**: Hitmonchan (Lv 30).
-- **Party Size Requirement [Verified Turn 13253]**: Receiving a prize Pokémon strictly requires an open party slot (<= 5 Pokémon). If the party is full (6/6), the player can view the Pokédex data, select YES to claim, and enter a nickname, but upon submission the game rejects the transaction with "There's no more room for POKéMON!" and neither Poké Ball is consumed.
-- **Current Status**: Party is full (6/6). Must visit Saffron Pokémon Center PC to deposit a Pokémon (e.g. Paras / Drowzee) before returning to claim Hitmonlee (nickname planned: BRUCE).
+- **Full Party Storage [Verified Turns 13253-13254]**: If the active party is full (6/6), claiming a prize Pokémon is NOT rejected. The game prompts for confirmation, allows setting a nickname (named BRUCE), displays "There's no more room for POKéMON!", and automatically transfers the Pokémon to the current PC Box (Box 1) via Bill's PC!
+- **Status**: Hitmonlee (BRUCE) successfully claimed and transferred to PC Box 1.
 
 <hr>
 
