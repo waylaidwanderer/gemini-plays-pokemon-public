@@ -19,14 +19,7 @@
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (accessed by surfing the 1F water canal and disembarking at water ramp (15, 3)).
    - Northwest loop: (9, 1) -> Row 1 West to (3, 1) -> (3, 3) -> Row 3 East to (9, 3) -> (9, 5) -> Row 5 East.
    - Pathway to Ladder A:
-     - From Row 11, walk west to (12, 11).
-     - Walk North up Column 12: (12, 10) -> (12, 9) [Row 9].
-     - Walk West along Row 9 across cols 11..7: (11, 9) -> (10, 9) -> (9, 9) -> (8, 9) -> (7, 9).
-     - Walk North through Column 7/6: (7, 9) -> (7, 7) -> (7, 5) -> (6, 5).
-     - Walk West along Row 5 across cols 5..0: (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (1, 5) -> (0, 5).
-     - Walk North up Column 0: (0, 5) -> (0, 4) -> (0, 3).
-     - Step East onto Ladder A at (1, 3)!
-     - Ladder A descends directly to B1F (Mewtwo's chamber).
+     - Accessible via the Row 9 thoroughfare leading west into Column 0, which connects north directly to Ladder A at (1, 3). Ladder A descends to B1F (Mewtwo's chamber).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
