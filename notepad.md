@@ -3647,7 +3647,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Gym Mechanics & Puzzle
 - Viridian Gym features directional spinner/conveyor tiles that force movement in the direction of the arrows until hitting a wall or stop tile.
-- Gym Leader Identity: Unverified in-game; Gym Guide stated: "Even I don't know the VIRIDIAN LEADER's identity! I heard that the trainers here like ground-type POKéMON!" (Turns 15026-15028).
+- Gym Leader: GIOVANNI (Verified empirically Turn 15035 via West Gym Statue at 15, 15: "LEADER: GIOVANNI", "WINNING TRAINERS: RED"). Ground-type specialty confirmed by Gym Guide (Turn 15028).
+- Certified Winning Trainers: RED (Turn 15035).
 - Badge: Earth Badge (required for Pokémon League).
 
 <hr>
