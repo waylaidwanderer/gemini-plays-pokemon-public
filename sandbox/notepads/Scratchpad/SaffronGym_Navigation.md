@@ -21,9 +21,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - High HP (179) and Defense (153) provides massive bulk against Psychic attacks.
 
 ## Room & Warp Mapping
-- **Room 1 (Entrance Room / South)**:
+- **Room 1 (Entrance Room / South-Central)**:
   - Interior Bounds: cols 7..12, rows 13..17.
   - Entrance/Exit Mat: (8..9, 17) -> Saffron City.
   - Statue: (9, 15).
   - Gym Guide: (10, 15).
-  - Warp Tile: (11, 15) -> [Untested].
+  - Warp Tile: (11, 15) <---> Room 2 (Southeast) (19, 17) [Verified Turn 13099].
+
+- **Room 2 (Southeast Room)**:
+  - Interior Bounds: cols 14..19, rows 13..17.
+  - Trainer: (17, 13) facing South.
+  - Warp Tiles:
+    - Bottom-Right (19, 17): <---> Room 1 (Entrance) (11, 15) [Verified Turn 13099].
+    - Top-Right (19, 15): [Untested].
+    - Bottom-Left (15, 17): [Untested].
+    - Top-Left (15, 15): [Untested].
