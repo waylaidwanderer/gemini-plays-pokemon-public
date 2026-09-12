@@ -22,10 +22,10 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 | 5F | (11, 5) | Unknown | Unknown | Sighted Turn 12744 |
 | 5F | (9, 15) | Unknown Floor | (17, 15) | Sighted Turn 12756 |
 | 3F | (23, 11) | Unknown | Unknown | Sighted Turn 12819 |
-| 3F | (11, 11) | Unknown Floor | (5, 3) | Verified Turn 12823 |
-| Unknown Floor | (5, 3) | 3F | (11, 11) | Verified Turn 12824 (Reciprocal) |
-| Unknown Floor (Lapras Room) | (5, 7) | Unknown Floor | (3, 2) | Verified Turn 12868 |
-| Unknown Floor | (3, 2) | Unknown Floor (Lapras Room) | (5, 7) | Verified Turn 12869 (Reciprocal) |
+| 3F | (11, 11) | 7F (Lapras Room) | (5, 3) | Verified Turn 12823 |
+| 7F (Lapras Room) | (5, 3) | 3F | (11, 11) | Verified Turn 12824 (Reciprocal) |
+| 7F (Lapras Room) | (5, 7) | 11F (West Wing) | (3, 2) | Verified Turn 12868 |
+| 11F (West Wing) | (3, 2) | 7F (Lapras Room) | (5, 7) | Verified Turn 12869 (Reciprocal) |
 
 ## Floor-by-Floor Progression Log
 - 1F: Ground lobby / reception. Entered Turn 12709 at (10, 17) on entrance mat (10..11, 17). Pink/white checkered floor. Indoor trees at (6..7, 14..15). Large central fountain and terminal complex at cols 9..15, rows 5..10. Western corridor (cols 6..8) is an open northbound thoroughfare leading toward north wall elevator/stairs [Verified Turn 12711].
