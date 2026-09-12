@@ -50,7 +50,6 @@
 - Trainer at (11, 14) facing South.
 - Row 13 (cols 10-13) provides safe passage behind trainer (11, 14).
 - Row 16 connects west into column 7 corridor at (8, 16).
-- Shutter Door 4: Located at (5, 16), OPENED [Turn 14748] after answering NO to Question 4.
 - Chamber 5 Question: "Are thunder moves effective against ground element-type POKéMON?" [Verified Turn 14746] (Answer: NO)
 
 ## Chamber 6 (Southwest)
