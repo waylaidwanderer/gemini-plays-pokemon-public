@@ -3349,7 +3349,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Machines with twin dials at (24, 1) and (25, 1).
   - Open room across (25-28, 4-5).
   - Rubble barriers at (26-28, 1-2), (22-24, 4-5), and (23-27, 6-7).
-  - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) containing CALCIUM x1 [Obtained Turn 13858, Verified Turn 13863]. Far eastern chute cleared.
+  - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) containing CALCIUM x1 [Obtained Turn 13858, Verified Turn 13863].
+- Route to 3F Stairs: Rubble wall across rows 6-7 blocks columns 23-27 [Verified Turn 13878]. Column 28 serves as the eastern bypass corridor around this rubble barrier to connect into the southern staircase chamber (rows 8-15, cols 24-25).
 
 ## Central-South Corridor (cols 18-22, rows 11-14)
 - Open pink floor across columns 18-21 (rows 11-12, 14) and columns 20-21 (row 13) [Verified Turn 13866].
