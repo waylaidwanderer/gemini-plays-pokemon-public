@@ -1,20 +1,20 @@
 # Cerulean Cave Active Investigation & Routing
 
-## Verified Facts & Topology
-- **1F Known Ladders**:
-  - Ladder B: (23, 7) <-> 2F (22, 6) [Upper Plateau]
-  - Ladder C: (18, 9) <-> 2F (19, 7) [Central Corridor - leads to Waterway Ramp at (17, 15)]
-  - Ladder D: (27, 1) <-> 2F (29, 1) [NE Terrace - connects via (23, 1..2) to South-facing Ramp at (23, 3) into Central Corridor!]
-  - Ladder E: (7, 1) <-> 2F (9, 1) [NW Waterway landing - connects to Ladder A (1, 3) -> B1F Mewtwo]
-- **1F Verified Boundaries**:
-  - (23, 3) on 1F is a dead end with solid rock south.
-  - (20, 6..13) on 1F is a continuous solid rock wall dividing Upper Plateau from Central Corridor.
-  - (19, 14..17) on 1F is a solid rock wall dividing Entrance Basin from Central Corridor.
-- **2F Verified Topology**:
-  - West Sector (cols 1..9): Contains Ladder E (9, 1) and Ladder A (1, 3).
-  - Central Sector: Contains Ladder C (19, 7) and S-Bypass.
-  - Southeast Sector: Contains Ladder B landing (22, 6), Column 23, Row 11, Column 24/28, Row 17 South Artery.
-
-## Active Search Objective
-- Systematically explore 1F via the Upper Plateau (ramp at 21, 11) and test all ledges, ramps, and water contact points to locate the route to the Central Corridor / Waterway and NW Ladder E (7, 1).
-- Climb Ladder E to 2F West Sector (9, 1), walk to Ladder A (1, 3), and descend to B1F to capture Mewtwo with the Master Ball!
+## Verified Facts & Floor Connectivity
+- **1F Layout**:
+  - Entrance Mat at (24..25, 17) connects to Cerulean City NW pool.
+  - Ascending Ramp at (21, 11) leads up to Upper Plateau.
+  - Ladder B at (23, 7) <-> 2F (22, 6) [Upper Plateau].
+  - Central Corridor contains Ladder C at (18, 9) and Water Ramp at (17, 15).
+  - Water Ramp at (17, 15) enters canal at (16, 15) leading north to Ladder E at (7, 1).
+  - NE Terrace (cols 23..29, rows 0..3): Ladder D at (27, 1) <-> 2F (29, 1). Open floor along Row 1/2 leads to South-facing Ramp at (23, 3) that descends into the Central Corridor!
+- **2F Layout**:
+  - Southeast Sector: Ladder B at (22, 6). Path through Row 11/13 -> Row 17 South Artery -> Column 28 (rows 16..8) -> (27, 6) -> (29, 6..3) -> (28, 3..1) -> Ladder D at (29, 1).
+  - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
+- **Mewtwo Progression Path**:
+  1. Ascend to Ladder D at 2F (29, 1) and descend to 1F NE Terrace (27, 1).
+  2. Hop down South-facing Ramp at (23, 3) into 1F Central Corridor.
+  3. Walk south to (17, 15), use Surf to enter water canal at (16, 15).
+  4. Surf north along canal to Ladder E at (7, 1).
+  5. Ascend Ladder E to 2F (9, 1), walk west to Ladder A at (1, 3).
+  6. Descend Ladder A to B1F and capture Mewtwo with Master Ball!
