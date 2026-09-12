@@ -26,3 +26,7 @@
 ## Verified Column 12 Link to Row 7
 - (12, 5) -> (12, 6) -> (12, 7) connects Row 5 directly to Row 7.
 - Complete Path to Ladder A: (6, 3) -> (9, 3) -> (9, 5) -> (12, 5) -> (12, 7) -> Row 7 West to (0, 7) -> Col 0 North to (0, 2) -> (1, 2) -> (1, 3) [Ladder A]!
+## Verified Row 9 Highway Route to Ladder A
+- Row 9 is an open continuous highway from Column 18 all the way west to Column 0 ((18..0, 9)).
+- Column 0 connects north from (0, 9) up through (0, 8..2) directly to (1, 2) -> (1, 3) [Ladder A]!
+- Execution Path: (9, 5) -> East along Row 5 to (16, 5) -> Down to (16, 7) -> East to (18, 7) -> Down to (18, 9) -> West along Row 9 to (0, 9) -> North along Col 0 to (0, 2) -> (1, 2) -> (1, 3) [Ladder A]!
