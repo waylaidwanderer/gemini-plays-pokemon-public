@@ -125,6 +125,11 @@
 ## PC Item Storage Notes
 - Pok� Flute, Silph Scope, Good Rod, Helix Fossil, TMs stored in PC Storage.
 
+## Boxed Pok�mon Storage (Box 1)
+- LAPRAS - Lv 15 (Gift from Silph Co. 7F Employee)
+- HITMONLEE - Lv 30 (Fighting Dojo Master Reward)
+- NAUTILUS (Omanyte) - Lv 30 (Revived from Helix Fossil Turn 47162)
+
 
 <hr>
 
