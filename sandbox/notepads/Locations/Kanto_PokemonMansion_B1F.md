@@ -36,3 +36,9 @@
 - Row 9 is wide open pink floor across columns 10 to 24.
 - Rows 6-7 form a parallel open corridor north of row 8 wall spanning columns 6 to 24+.
 - Row 5 horizontal wall spans (10-11, 5) and (14-23, 5), with opening at (12-13, 5) leading north into rows 0-4, and open floor at (24, 5).
+## Eastern Wing & Burglar Room (cols 25-28, rows 6-16)
+- Bounded on west by column 25 vertical wall (rows 8-16).
+- Open pink floor across columns 26-28 (rows 6-13+).
+- Trainer (Burglar) stationed at (27, 11) facing South [Sighted Turn 14589].
+- Rows 6-8 in columns 26-28 are open floor connecting north into the row 6-7 northern corridor.
+- South access via Shutter Door at (26-27, 17).
