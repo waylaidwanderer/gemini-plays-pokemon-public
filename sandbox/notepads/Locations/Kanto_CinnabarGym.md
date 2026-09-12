@@ -18,6 +18,6 @@
 - Trainer at (17, 8) facing South (Burglar/Super Nerd sprite).
 - Counter/table along row 11 at columns 15 to 17 divides Chamber 1 from the entrance hall.
 - Quiz Machine 1: Located at (15, 7) in upper-left of chamber. Must be interacted with from (15, 8) facing North.
-- Shutter Door 1: Located at (18-19, 6), currently CLOSED.
+- Shutter Door 1: Located at (18-19, 6), OPENED [Turn 14707] after answering YES to Question 1 ("CATERPIE evolves into BUTTERFREE?").
 - Row 7 (cols 16-19) is completely open behind the trainer, providing safe access to Quiz Machine 1 without triggering battle.
 - Chamber 1 Question: "CATERPIE evolves into BUTTERFREE?" [Verified Turn 14705]
