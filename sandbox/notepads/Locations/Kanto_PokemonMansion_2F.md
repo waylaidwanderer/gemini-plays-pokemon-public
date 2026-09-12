@@ -48,3 +48,4 @@
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
 - Access Investigation: Tested and disproven. Row 8 has a solid wall at (24-28, 8) blocking access from (28, 7) (verified Turn 13915). West is blocked by rubble along column 22 (rows 9-15) and row 16 is a solid south wall (verified Turns 13904, 13908). Hypothesis: Chamber is accessed via drop-in from 3F.
+- Pokémon Statue Switch: Located at (2, 11), interacted from (2, 12) facing North. Empirically confirmed secret switch prompt [Turn 13978]. Allows toggling mansion switch states directly on 2F without returning to 1F!
