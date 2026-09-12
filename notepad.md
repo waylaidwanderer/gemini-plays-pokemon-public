@@ -151,7 +151,7 @@
 | B1F East Shutter (26-27, 17) | OPEN [Turn 14636] | CLOSED [Turn 14590] |
 | B1F Corridor Shutter (16-17, 16) | CLOSED [Turn 14629] | OPEN [Turn 14567, 14615] |
 | B1F Southwest Shutter (13, 22-23) | OPEN [Turn 14630] | CLOSED [Turn 14603] |
-| B1F Northwest Shutter (9, 6-7) | CLOSED [Turn 14661] | OPEN (Hypothesized) |
+| B1F Northwest Shutter (9, 6-7) | CLOSED [Turn 14661] | OPEN [Turn 14674] |
 
 <hr>
 
@@ -174,6 +174,7 @@
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 - RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
+- SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -3539,5 +3540,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball at (5, 4): TM22 (SOLARBEAM) collected [Turn 14675].
 - Open passage south at (4-5, 8) connects northern chamber to southern statue hall.
 - Open pink checkerboard floor across rows 2-7.
+- Item Ball at (5, 13): SECRET KEY collected [Turn 14678].
+- West Wing fully surveyed: B1F exploration 100% complete!
+
 
 <hr>
