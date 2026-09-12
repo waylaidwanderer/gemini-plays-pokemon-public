@@ -20,7 +20,6 @@
 - Quiz Machine 1: Located at (15, 7) in upper-left of chamber. Must be interacted with from (15, 8) facing North.
 - Shutter Door 1: Located at (18-19, 6), OPENED [Turn 14707] after answering YES to Question 1 ("CATERPIE evolves into BUTTERFREE?").
 - Row 7 (cols 16-19) is completely open behind the trainer, providing safe access to Quiz Machine 1 without triggering battle.
-- Chamber 1 Question: "CATERPIE evolves into BUTTERFREE?" [Verified Turn 14705]
 ## Chamber 2 (Northeast)
 - Bounds: Columns 15 to 19, rows 1 to 6.
 - Entered from Chamber 1 via Shutter Door 1 at (18-19, 6).
