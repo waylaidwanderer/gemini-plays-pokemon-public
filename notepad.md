@@ -368,7 +368,7 @@
 - West: Route 22 exit along rows 18-19 heading west past column 0.
 
 ## Geography & Layout
-- Route 22 Highway (Rows 18-19): 2-tile wide paved east-west highway running west from column 16 past column 0 into Route 22, positioned between northern tree grove (rows 12-16) and southern pond/lawn (rows 20-27).
+- Route 22 Highway: Paved highway running west from col 16 along rows 18-19 to col 4, turning north through cols 4-5 to rows 16-17, then running west across cols 4..0 directly into Route 22.
 - Main Thoroughfare: Columns 20-21 form the primary north-south street connecting Route 1 (south) to Route 2 (north).
 - Southern Cross Street: Row 30 runs east-west from column 4 to column 35, south of the pond and row 27 ledge.
 - Row 27 Ledge: Pond occupies rows 26-27 (columns 9-13); passable gap at (19, 27) leads to row 26.
@@ -3679,5 +3679,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer at (6, 5): facing Down along col 6.
 - Column 5 Dividing Wall: Vertical wall at (5, 1..2) and (5, 5..6), counter at (5, 3). Passage through at (5, 4) gateway.
 - Western Sector: Gateway at (5, 4) connects to northwest chamber where Leader Giovanni was defeated [Turn 15111] (awarded Earthbadge and TM27 Fissure; disbanded Team Rocket and permanently departed). Down-spinner visible at (4, 6).
+
+<hr>
+
+<h1><code>Locations/Kanto_Route22</code></h1>
+
+# Route 22 Points of Interest & Geography
+
+## Connections
+- East: Viridian City entrance at (39..40, 8..9).
+- West: Pokémon League Front Gatehouse.
+
+## Geography & Layout
+- Entrance: Paved road enters from Viridian City along rows 8-9 at columns 39-40.
+- East Passage: Columns 36-37 form a north-south road running south from rows 8-9 to rows 10-13+ between west boundary trees (col 35) and eastern mountain cliff (cols 38-42).
+- Northern Grass: Wild grass patch located at cols 36-44, rows 6-7.
 
 <hr>
