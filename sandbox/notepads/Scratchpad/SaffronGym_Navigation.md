@@ -33,6 +33,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Trainer: Psychic Tyron at (17, 13) facing South. Team: Slowpoke Lv 33, Slowpoke Lv 33, Slowbro Lv 33. Defeated Turn 13116. Prize: ¥330.
   - Warp Tiles:
     - Bottom-Right (19, 17): <---> Room 1 (Entrance) (11, 15) [Verified Turn 13099].
-    - Top-Right (19, 15): [Testing Turn 13117].
+    - Top-Right (19, 15): <---> Room 3 (East-Central) (19, 9) [Verified Turn 13118].
     - Bottom-Left (15, 17): [Untested].
     - Top-Left (15, 15): [Untested].
+
+- **Room 3 (East-Central Room)**:
+  - Interior Bounds: cols 14..19, rows 7..11.
+  - Trainer: Channeler at (17, 7) facing South.
+  - Warp Tiles:
+    - Top-Right (19, 9): <---> Room 2 (Southeast) (19, 15) [Verified Turn 13118].
+    - Bottom-Right (19, 11): [Untested].
+    - Top-Left (15, 9): [Untested].
+    - Bottom-Left (15, 11): [Untested].
