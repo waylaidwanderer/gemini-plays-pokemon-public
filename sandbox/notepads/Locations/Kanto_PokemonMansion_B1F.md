@@ -14,3 +14,7 @@
 - Rows 14 and 15 are open across columns 19 to 24, connecting the arrival chamber to the western corridor and western wings.
 - Shutter Door at (26-27, 17). Wall partition along column 25 (rows 14-16).
 - Column 19 connects south to Item Ball at (19, 25).
+## Central-North Hallway & West Wing Junction (cols 10-24, rows 10-15)
+- Wide open pink checkerboard floor across columns 10-24 and rows 10-15.
+- Doorway at (16-17, 16-17) leads south into western corridor flanked by dial machines at (15, 17) and (18-19, 17), leading south to Item Ball at (19, 25).
+- Main hallway extends West along rows 10-15 into the B1F West Wing (Secret Key chambers).
