@@ -36,7 +36,7 @@
 ## Southern Gatehouse Interior (Audited Turn 3842)
 - Location: Connects Route 2 eastern cut path (north entrance) to Route 2 southern highway (south entrance).
 - North Doorway: At (5, 0), entering from Route 2 east path at (16, 36).
-- South Doorway: At cols 2..3, row 5 with red doormats, exiting south to Route 2 Viridian side.
+- South Doorway: At cols 4..5, row 7 with red doormats, exiting south to Route 2 Viridian side.
 - Floor: Open checkered floor spanning cols 1..5, rows 1..4 and cols 6..9, rows 1..4.
 - Occupants:
   - (8, 4): Wandering Youngster NPC (advises: "Once a POKéMON learns FLASH, you can get through ROCK TUNNEL.").
