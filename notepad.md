@@ -2997,7 +2997,8 @@
 - Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
 - Northwest Sector & Ladder A Route: Connected via Row 5 (0..6, 5) -> Column 0 (0, 1..5) -> (1, 1) -> (1, 2) -> Ladder A at (1, 3). Note: Direct passage west from (3, 3) to (1, 3) is blocked by solid rock wall at (2, 3). Ladder E at (9, 1) is an elevated ledge connecting west to (3, 1..3) and east via (9, 4) -> Row 5 (11..16, 5) -> Row 1 (12..18, 1) to Ladder C (19, 7).
 - Column 26 North Corridor: (26, 10..14) is open vertical floor connecting Row 14 at (27..28, 14) north past the (28, 13) rock barrier to Row 9 and the northern sectors.
-- Row 14 West Bypass: (15, 15) -> (15, 14) -> (14..12, 14) connects Column 15 directly west to Column 12 highway (12, 9..14), which runs north straight to Row 9 West Thoroughfare at (12, 9).
+- Row 14 & 15 Western Barrier: (14, 14) and (14, 15) are solid rock walls blocking direct westward passage from (15, 14..15).
+- South Passage to Row 17 & Column 12: From (15, 15), walk East across Row 15 via (16, 15) to South Ramp at (17, 15), step Down over ramp to (17, 17), then follow Row 17 west across (16..13, 17) to access Column 13/12.
 
 <hr>
 
