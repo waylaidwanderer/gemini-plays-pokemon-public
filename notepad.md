@@ -3026,5 +3026,22 @@
    - Navigate B1F waterways to Mewtwo's platform.
    - Initiate battle with Mewtwo.
    - Throw Master Ball on Turn 1 for 100% guaranteed capture!
+## Empirical 2F West Sector Tile Passability Grid (Verified Turn 46141)
+- **Ladder A**: Located at (1, 3). Connects to (0, 3) [West] and (1, 2) [North].
+- **Row 1**: (3..9, 1) = dark floor. (0..2, 1) = rock.
+- **Row 2**: (0, 2), (1, 2), (3, 2) = dark floor. (2, 2), (4..9, 2) = rock.
+- **Row 3**: (0, 3), (3..9, 3) = dark floor. (1, 3) = Ladder A. (2, 3) = rock.
+- **Row 4**: (9, 4) = dark floor. (0..8, 4) = rock.
+- **Row 5**: (0..7, 5) = dark floor. (8, 5) = rock. (9..14, 5) = dark floor.
+- **Row 7**: (1..9, 7) = continuous dark floor thoroughfare!
+- **Column 0**: (0, 2), (0, 3), (0, 5) = dark floor connecting Row 7 / Row 5 directly to Ladder A at (1, 3)!
+
+## Route from (4, 3) to Ladder A (1, 3)
+1. East along Row 3: (4, 3) -> (9, 3) [5x Right].
+2. South along Column 9: (9, 3) -> (9, 7) [4x Down].
+3. West along Row 7: (9, 7) -> (0, 7) [9x Left].
+4. North along Column 0: (0, 7) -> (0, 3) [4x Up].
+5. East onto Ladder A: (0, 3) -> (1, 3) [1x Right].
+6. Descend Ladder A directly to B1F (Mewtwo's Chamber)!
 
 <hr>
