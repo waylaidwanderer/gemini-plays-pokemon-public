@@ -151,7 +151,6 @@
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
-- HM05 (FLASH) [Verified Turn 11080]
 - BICYCLE [Verified Turn 11080]
 - COIN CASE [Verified Turn 11080]
 - LIFT KEY [Verified Turn 11080]
@@ -164,10 +163,9 @@
 - CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20
+- Total Slots Used: 19 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
-  2. HM05
   3. BICYCLE
   4. SUPER REPEL x4
   5. COIN CASE
@@ -188,6 +186,7 @@
   20. TM46 x1
 
 ## Stored / PC Items
+- HM05 (FLASH) x1 (PC) [Stored Turn 13286]
 - OLD ROD x1 (PC) [Stored Turn 12567]
 - TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
 - TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
