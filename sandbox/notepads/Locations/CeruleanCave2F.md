@@ -75,3 +75,5 @@
   - (14, 14): Rock wall (blocks southward traversal from (14, 13) along Column 14).
   - (13, 13): Rock wall.
   - Column 15 South Corridor: (15, 13..17) open floor straight down into Row 17 South Artery.
+- (22, 9): Rock wall (blocks westward traversal from (23, 9) along Row 9).
+- Column 23 North Passage: (23, 9..5) open floor corridor connecting to Northern corridors.
