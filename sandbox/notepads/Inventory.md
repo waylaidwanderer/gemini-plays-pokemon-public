@@ -9,6 +9,7 @@
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
 - MOON STONE x1 [Verified Turn 13828]
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
+- CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -17,7 +18,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 12 / 20
+- Total Slots Used: 13 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -31,6 +32,7 @@
   10. MASTER BALL x1
   11. MOON STONE x1
   12. ESCAPE ROPE x1
+  13. CALCIUM x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
