@@ -200,18 +200,18 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 59, Water]
-  - Status: Healthy
+  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 186 / 186
   - Stats: Attack 137, Defense 159, Speed 137, Special 141
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Healthy [Healed Turn 12059]
+  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy [Healed Turn 12059]
+  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
@@ -226,7 +226,7 @@
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy [Healed Turn 12059]
+  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 30 / 30
   - Moves: Pound (PP 35/35), Hypnosis (PP 19/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
