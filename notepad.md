@@ -3492,5 +3492,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at row 17 spans columns 1-9.
 - Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
+- Row 16 is open pink floor across columns 1-10, providing access to statues at (2, 15), (3, 15), (6, 15), and (7, 15).
 
 <hr>
