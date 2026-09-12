@@ -1,23 +1,18 @@
 # Cerulean Cave Active Investigation & Routing
 
 ## Empirical 2F Tile Passability Grid (Verified Turns 46070-46084)
-- **Row 11**: (14..24, 11) PASSABLE dark floor. (13, 11) = SOLID ROCK.
-- **Row 12**: (17, 12) = PASSABLE floor. (18..23, 12) = SOLID ROCK. (24, 12) = PASSABLE.
-- **Row 13**: (17..22, 13) = PASSABLE dark floor. (23, 13) = SOLID ROCK. (24, 13) = PASSABLE.
-- **Row 14**: (18, 14) = SOLID ROCK. (22, 14) = PASSABLE floor. (24, 14) = PASSABLE.
-- **Row 15**: (21..22, 15) = PASSABLE floor. (23, 15) = ROCK. (24, 15) = PASSABLE.
+- **Row 11**: (14..24, 11) PASSABLE dark floor. (25, 11) = ROCK. (26, 11) = PASSABLE. (27..29, 11) = SOLID ROCK.
+- **Row 12**: (17, 12) = PASSABLE floor. (18..23, 12) = SOLID ROCK. (24, 12) = PASSABLE. (26, 12) = dark floor. (27, 12) = SOLID ROCK (empirically confirmed blocked Turn 46108). (28..29, 12) = PASSABLE.
+- **Row 13**: (17..22, 13) = PASSABLE dark floor. (23, 13) = SOLID ROCK. (24, 13) = PASSABLE. (29, 13) = PASSABLE.
+- **Row 14**: (28, 14)/(29, 14) probing in progress. (29, 14) = PASSABLE.
+- **Row 15**: (21..22, 15) = PASSABLE floor. (23, 15) = ROCK. (24, 15) = PASSABLE. (29, 15) = ROCK.
 - **Row 16**: (21, 16) = PASSABLE connector to Row 17. (27..28, 16) = PASSABLE connector to Row 17.
 - **Row 17 (South Artery)**: (20..27, 17) = PASSABLE continuous open highway. Connects East to Column 29 (Ladder D).
 
 ## Route to Mewtwo (B1F) via 2F South Artery -> Ladder D (29, 1) -> 1F Canal -> Ladder E -> Ladder A
 1. **Traverse 2F South Artery to Ladder D (29, 1)**:
-   - Current Position: (19, 11).
-   - Route to Row 15: Left to (17, 11) [2x Left], Down to (17, 13) [2x Down], Right to (18, 13) [1x Right], Down to (18, 15) [2x Down], Right to (21, 15) [3x Right].
-   - Enter South Artery: Down to (21, 17) [2x Down].
-   - Walk East along Row 17 to (27, 17) [6x Right].
-   - Route through East Maze to Ladder D:
-     - From (28, 9): Down 3 to (28, 12), Left 2 to (26, 12), Up 3 to (26, 9), Left to (25, 9), Up 2 to (25, 7), Right 2 to (27, 7), Up to (27, 6), Right 2 to (29, 6), Up north up Column 29 to Ladder D at (29, 1).
-     - Descend Ladder D to 1F NE Terrace (27, 1).
+   - Probing route through East sector to reach Column 29 North / Ladder D (29, 1).
+   - Descend Ladder D to 1F NE Terrace (27, 1).
 
 2. **1F NE Terrace to NW Terrace via Water Canal**:
    - On 1F NE Terrace: Walk West to water ramp at (23, 3) [4x Left, 2x Down].
