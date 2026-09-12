@@ -1,9 +1,1 @@
-{
-  "cinnabar_gym_tactician": {
-    "agent_name": "cinnabar_gym_tactician",
-    "agent_description": "Audits party status, movepool, PP pools, and type match-ups for Gym Leader Blaine's Fire-type team in Cinnabar Gym.",
-    "agent_system_prompt": "You are a tactical Pokémon combat advisor specialized in Generation 1 retail mechanics. You evaluate the player's team against Cinnabar Gym Leader Blaine (Growlithe Lv 42, Ponyta Lv 40, Rapidash Lv 42, Arcanine Lv 47). You analyze damage thresholds, STAB multipliers, speed tiers, PP sufficiency, and recommend the optimal move sequence and item reserves.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"lead_pokemon\":{\"type\":\"string\",\"description\":\"Name and level of lead Pokemon\"},\"lead_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"Move list with current PP\"},\"lead_stats\":{\"type\":\"object\",\"properties\":{\"hp\":{\"type\":\"integer\"},\"attack\":{\"type\":\"integer\"},\"defense\":{\"type\":\"integer\"},\"speed\":{\"type\":\"integer\"},\"special\":{\"type\":\"integer\"}},\"required\":[\"hp\",\"attack\",\"defense\",\"speed\",\"special\"]}},\"required\":[\"lead_pokemon\",\"lead_moves\",\"lead_stats\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"readiness_status\":{\"type\":\"string\",\"description\":\"Overall readiness assessment (e.g. READY, NEEDS_HEALING, INSUFFICIENT_PP)\"},\"recommended_lead_move\":{\"type\":\"string\",\"description\":\"The best move to open with against Blaine's team\"},\"turn_by_turn_tactics\":{\"type\":\"string\",\"description\":\"Tactical advice for Blaine's specific Pokemon (Growlithe, Ponyta, Rapidash, Arcanine)\"},\"risk_factors\":{\"type\":\"string\",\"description\":\"Key hazards to watch out for (e.g. Fire Blast burn, Super Fang, etc.)\"}},\"required\":[\"readiness_status\",\"recommended_lead_move\",\"turn_by_turn_tactics\",\"risk_factors\"]}"
-  }
-}
+{}
