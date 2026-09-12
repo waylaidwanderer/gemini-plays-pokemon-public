@@ -4,11 +4,11 @@
 
 ## Status
 
-- Badges: 5 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge)
+- Badges: 6 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 57, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
+- Active Team: Blastoise (SHELDON) Lv 58, Geodude (ROCKY) Lv 8, Paras (FUNGI) Lv 10, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥95509 [Turn 13043]
+- Money: ¥98569 [Turn 13178]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -131,6 +131,7 @@
 - [x] Receive gift Lapras (NESSY) from Silph Co employee [Turn 12858]
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
+- [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
 
 <hr>
 
@@ -201,7 +202,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥96529 [Turn 13166]
+- ¥98569 [Turn 13178]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 58, Water]
