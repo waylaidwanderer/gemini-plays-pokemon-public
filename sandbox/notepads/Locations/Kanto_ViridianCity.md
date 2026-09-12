@@ -6,7 +6,7 @@
 - West: Route 22 exit along rows 18-19 heading west past column 0.
 
 ## Geography & Layout
-- Route 22 Highway (Rows 18-19): 2-tile wide paved east-west highway running west from column 16 past column 0 into Route 22, positioned between northern tree grove (rows 12-16) and southern pond/lawn (rows 20-27).
+- Route 22 Highway: Paved highway running west from col 16 along rows 18-19 to col 4, turning north through cols 4-5 to rows 16-17, then running west across cols 4..0 directly into Route 22.
 - Main Thoroughfare: Columns 20-21 form the primary north-south street connecting Route 1 (south) to Route 2 (north).
 - Southern Cross Street: Row 30 runs east-west from column 4 to column 35, south of the pond and row 27 ledge.
 - Row 27 Ledge: Pond occupies rows 26-27 (columns 9-13); passable gap at (19, 27) leads to row 26.
