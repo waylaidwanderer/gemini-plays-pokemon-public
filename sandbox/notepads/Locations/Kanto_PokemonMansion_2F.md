@@ -13,7 +13,7 @@
 - Eastern Section Access: Row 10 is completely open from (7, 10) to (10, 10), providing direct unobstructed access from the starting area into the eastern section [Verified Turn 13833-13837].
 - Eastern Section: Spans columns 10-19+ (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11) (neither contains a switch, tested Turns 13838-13841), plants at (13, 8) and (13, 10), wall dividing at column 14 (rows 8-11), tables/desks at (15-17, 5) and (15-17, 8-10), machine at (15, 11), and open east corridors along rows 6-7 connecting into columns 18-19 [Verified Turn 13849].
 - West Room Geography: Rubble field covers columns 1-4 (rows 6-9). Open floor spans columns 1-5 (rows 10-13+).
-- North Structure: Doorway/opening visible at (10, 5) separated from south by rubble at rows 6-7.
+- North Hall: Explored on Turn 13898; verified continuous open hall spanning columns 10-14, rows 1-7.
 - Column 5 Path: Open pink floor runs south from row 9 to row 13+.
 - Southwest Room Layout: Extends south to row 17 boundary wall (cols 1-5). Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket cleared.
