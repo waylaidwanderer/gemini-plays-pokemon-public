@@ -18,3 +18,8 @@
 - Upper Lawn (Row 12): Extends across cols 30..37. Bounded by mountain cliff at col 29.
 - Column 30 North-South Corridor: Open walkable avenue running north from (30, 12) through (30, 11), (30, 10), (30, 9) to (30, 8). Bounded on west by mountain ridge (col 29). Triggers wild encounters in tall grass tiles.
 - Northern Highway (Rows 4-5): Paved road with white bricks spanning cols 27..35. Bounded by mountain cliff at col 36.
+
+## Topology & Path Analysis [Turn 15204]
+- Southern Highway (Rows 14-15) Confirmed Return Path: Enclosed between Row 13 south-facing ledge and Row 16 ledge. Terminated on west by mountain cliff at (1, 14..15). There are no northbound exits from Rows 14-15 between col 2 and col 32. The ONLY northbound passage from Rows 14-15 is the ramp at (33, 13).
+- Northern Sectors (Rows 4-12): Contains the true western path to the Pokémon League Reception Gate (rows 10-11 white brick road, signpost at (7, 11), and northern highway rows 4-5).
+- Strategic Route to League Gate: From (33, 13), ascend to Upper Lawn (row 12) -> navigate Column 30 North-South Corridor north into rows 4-5 -> follow Northern Highway west toward the League Gate and Rival RED encounter trigger.
