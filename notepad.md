@@ -3632,5 +3632,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Bounds: Columns 1 to 5, rows 1 to 5.
 - Entered from Chamber 7 via opened Shutter Door 6 at (4-5, 6).
 - Gym Leader Blaine: Located at (3, 3) facing South.
+- Gym Leader Blaine defeated [Turn 14803].
+- Volcano Badge and TM38 (Fire Blast) received [Turns 14805, 14807].
+- All 6 Quiz machines solved without fighting trainers.
 
 <hr>
