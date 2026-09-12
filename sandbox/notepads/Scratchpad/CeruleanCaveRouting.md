@@ -23,3 +23,6 @@
 - Bag: MASTER BALL in Slot 18.
 - Lead: HYDROS (Lv 93).
 - Action: Initiate battle with Mewtwo, select ITEM -> MASTER BALL on Turn 1!
+## Verified Column 12 Link to Row 7
+- (12, 5) -> (12, 6) -> (12, 7) connects Row 5 directly to Row 7.
+- Complete Path to Ladder A: (6, 3) -> (9, 3) -> (9, 5) -> (12, 5) -> (12, 7) -> Row 7 West to (0, 7) -> Col 0 North to (0, 2) -> (1, 2) -> (1, 3) [Ladder A]!
