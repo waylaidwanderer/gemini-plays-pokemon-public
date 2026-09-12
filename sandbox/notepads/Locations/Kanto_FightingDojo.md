@@ -34,4 +34,4 @@ Reward for defeating the Master: Choice between two prize Poké Balls on pedesta
    - Master of the Fighting Dojo.
    - Line of sight / interaction triggered upon stepping to (4, 3) [Turn 13229].
    - Telemetry: 2 Pokémon total; Pokémon 1: Hitmonlee Lv 37, Pokémon 2: Hitmonchan Lv 37 [Observed Turns 13234-13240].
-   - Defeated: Turn 13240.
+   - Defeated: Turn 13240. Prize money: ¥925.
