@@ -16,7 +16,7 @@
    - Enter South Artery: Down to (21, 17) [2x Down].
    - Walk East along Row 17 to (27, 17) [6x Right].
    - Route through East Maze to Ladder D:
-     - From (29, 9): Left to (28, 9), Down 2 to (28, 11), Left 2 to (26, 11), Up 2 to (26, 9), Left to (25, 9), Up 2 to (25, 7), Right 2 to (27, 7), Up to (27, 6), Right 2 to (29, 6), Up north up Column 29 to Ladder D at (29, 1).
+     - From (28, 9): Down 3 to (28, 12), Left 2 to (26, 12), Up 3 to (26, 9), Left to (25, 9), Up 2 to (25, 7), Right 2 to (27, 7), Up to (27, 6), Right 2 to (29, 6), Up north up Column 29 to Ladder D at (29, 1).
      - Descend Ladder D to 1F NE Terrace (27, 1).
 
 2. **1F NE Terrace to NW Terrace via Water Canal**:
