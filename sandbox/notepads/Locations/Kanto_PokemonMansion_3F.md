@@ -37,3 +37,8 @@
 - Open Floor: Wide open pink floor across columns 16-21 (rows 2-7).
 - Barriers: Rubble at (21-22, 6-7) and across rows 8-9 (cols 18-23). Wall partition at column 22 (rows 2-3).
 - East Passage: Open passage along rows 4-5 across columns 20-23 leading into the far eastern wing.
+## Far Eastern Chamber (cols 23-28, rows 1-10)
+- Room Layout: Open pink floor spanning columns 23-27 across rows 2-8.
+- Rubble: Bounded on east by rubble along columns 26-27 (rows 1-3) and (27, 4-5). Rubble at (24-25, 1).
+- Item Ball: Located at (25, 5) [Discovered Turn 14028].
+- South Corridor: Open floor across columns 24-27 (rows 6-8) bounded on south by row 9 horizontal wall.
