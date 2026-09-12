@@ -1391,7 +1391,7 @@
   - Function: In caves/dungeons, warps player back to the last visited Pokémon Center (equivalent to an Escape Rope). In battle, powerful 2-turn Ground STAB move.
 
 ## Bicycle Locomotion Physics
-- **Perpendicular Turn Mechanics:** When mounted on the Bicycle, an initial directional input while facing a perpendicular direction turns the player in place to face that direction without advancing a grid step (empirically confirmed Turns 4046, 4048, 4049, 4054). Subsequent directional inputs in the same direction advance one grid step per press.
+- **Perpendicular Turn Mechanics & Input Buffering:** When mounted on the Bicycle, a single isolated directional input while facing a perpendicular direction turns the player in place without advancing a step (empirically confirmed Turns 4046-4054). However, chaining directional inputs in a multi-button sequence buffers continuous locomotion, overriding turn-in-place mechanics and immediately advancing full strides into the perpendicular direction (empirically confirmed Turn 13078: ['Right' x4, 'Up'] advanced 2 tiles north across the perpendicular input to (37, 29)).
 
 ## Field Items (Poké Flute)
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
@@ -3060,8 +3060,6 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain Master Ball.
 
 ## Inventory Prerequisites
-- Active Team: Blastoise Lv 56 (SHELDON), full PP/HP [Turn 12813].
-- Supplies: Revive x5, Full Heal x5, Super Repel x4, Full Restore x1, Max Potion x1, TM29 x1.
 - Key Items: Silph Scope, Lift Key (from Rocket Hideout), Pok� Flute.
 
 ## Key Dungeon Mechanics
@@ -3134,15 +3132,40 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - (5, 13): Solid horizontal wall tested at (5, 13) [Turn 12938].
   - (6, 13), (7, 13): Solid desks blocking northward movement into central area.
 - 11F Active Landmarks:
-  - Card Key Shutter Door at (7, 9) and (8, 9) leading to President's boardroom [Sighted Turn 12935].
   - Elevator Lobby at (13, 0).
   - Open archway at (13, 3) in elevator lobby [Sighted Turn 12911].
-  - Rocket Grunt at (15, 9) engaged in battle [Turn 12961].
 - 11F Rocket Grunt at (15, 9) Defeated: Team: Rattata Lv 25, Rattata Lv 25, Zubat Lv 25, Rattata Lv 25, Ekans Lv 25. Prize ¥750 [Turn 12977].
 - 11F Eastern Elevator Corridor: Confirmed isolated from central/western rooms. Column 13 is a 100% solid vertical wall from row 10 to row 17 (tested at (13, 13), (13, 14)). Archway at (13, 3) is solid wall (tested from east (14, 3) [Turn 12978] and north (13, 2) [Turn 12979]). Defeated Grunt stationed at (15, 9).
 - Route Resolution: Silph Co 11F is physically partitioned into two disconnected sections. The elevator corridor does not connect to the boardroom. Access to the western and central executive offices is achieved via the 7F teleporter at (5, 7) arriving at 11F (3, 2).
 - 11F Outer Shutter Door Unlocked: The 2-tile structure at (6..7, 13) previously mistaken for desks was confirmed as a Card Key shutter door and unlocked [Turn 13013]! Provides direct passage between southern corridor (row 14) and central approach (rows 10-12).
 - Inspection Protocol: Any two-tile partition gap between rooms must be tested with 'A' using the Card Key before classifying it as permanent furniture.
 - Boardroom Entrance & Boss Encounter: Open doorway located at (7..8, 9), leading into the President's boardroom. Stepping onto (6, 13) triggered dialogue with Team Rocket Boss Giovanni [Turn 13015], initiating the boss encounter.
+
+<hr>
+
+<h1><code>Scratchpad/SaffronGym_Navigation</code></h1>
+
+# Saffron Gym & Fighting Dojo - Strategy & Navigation
+
+## Overview
+Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
+- Facility 1: Fighting Dojo (cols 26..29). Houses Blackbelt trainers and Karate Master. Reward: Hitmonlee or Hitmonchan.
+- Facility 2: Saffron Gym (cols 30..35). Gym Leader Sabrina (Psychic specialist). Marshbadge (allows Pok�mon up to Lv 70 to obey, enables HM field move outside battle if applicable).
+
+## Saffron Gym Teleporter Maze Mechanics
+- Structure: Matrix of interconnected square rooms linked by floor warp tiles.
+- Teleportation: Stepping onto a warp tile instantly teleports player to a specific destination room.
+- Strategy: Empirically map warp pairings (Room/Coord -> Room/Coord) systematically to find the path to Sabrina.
+
+## Combat Strategy vs Sabrina & Psychic Trainers
+- Opponent Typing: Psychic (Kadabra, Mr. Mime, Venomoth, Alakazam).
+- Weaknesses in Gen 1: Bug (twineedle/pin missile/leech life), Ghost (Lick is physical; note: Gen 1 engine has Psychic immune to Ghost due to coding quirk).
+- Vulnerability: Gen 1 Psychic types generally have lower Physical Defense compared to their high Special stat.
+- Active Team Matchup:
+  - Blastoise (SHELDON) Lv 57:
+    - Moves: Double-Edge (Normal, Power 100 physical, PP 15/15), Body Slam (Normal, Power 85 physical, PP 15/15), Surf (Water, Power 95 special, PP 15/15), Ice Beam (Ice, Power 95 special, PP 10/10).
+    - Physical moves (Double-Edge, Body Slam) exploit the low physical Defense of Alakazam / Kadabra for easy OHKOs.
+    - High HP (179) and Defense (153) provides massive bulk against Psychic attacks.
+
 
 <hr>
