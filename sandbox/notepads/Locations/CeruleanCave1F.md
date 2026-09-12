@@ -1,21 +1,32 @@
-# Cerulean Cave (Unknown Dungeon) 1F - Layout & Topology
+# Cerulean Cave (Unknown Dungeon) 1F - Layout & Multi-Tier Topology
 
 ## Overview
 - Ground floor of Cerulean Cave (Unknown Dungeon).
 - Connects outside to Cerulean City NW canal basin at (24, 18).
-- Connects to 2F via multiple ladders (Ladder B at (21, 11), Ladder C, Ladder D, Ladder E).
+- Highly partitioned by solid rock walls into distinct isolated sectors.
 
-## Verified Landmarks & Coordinates (1F)
-1. **Cave Entrance / Exit**: (24, 17) / (25, 17) entrance mat; stepping Down to (24, 18) exits outside to Cerulean City NW pool.
-2. **Ladder B**: Located at (23, 7) <-> connects to 2F (22, 6).
-3. **Ladder C**: Located at (18, 9) <-> connects to 2F (19, 7).
-4. **Western Shore & Canal Boarding Ramp**: South ramp at (17, 15) leads to shore floor at (17, 16). Navigable water canal is boarded at ramp (11, 13) into water at (11, 14). Canal flows north through cols 8-14 to Northern Terrace ramp at (15, 3)/(15, 4) and Ladder E at (7, 1).
+## Verified Landmarks & Sector Topology (1F)
+1. **Southeast Entrance Sector**:
+   - Entrance/Exit mat at (24, 17) / (25, 17). Stepping Down to (24, 18) exits outside.
+   - Column 21 corridor: (21, 17..10) is open floor.
+   - Ramp at (21, 11): 2-way passable wooden ramp connecting lower entrance floor to upper Ladder B corridor.
+   - Ladder B at (23, 7): ascends to 2F SE sector at (22, 6).
+   - Note: Traversal west from SE entrance sector is blocked by Column 19 continuous rock wall. Must ascend Ladder B to 2F to reach western sector.
 
-## Collision Matrix & Barriers (1F)
-- Column 19 Solid Wall: Column 19 (rows 11..19) is a solid continuous rock wall separating the entrance / Ladder B sector (cols 20..25) from the western water ramp sector (cols 16..18). Traversal directly west along rows 14-15 is completely blocked.
-- SE Entrance Chamber: (20..25, 12..17) is open cave floor.
-- Boulder Obstacle: Rock formations at (24, 13) and (25, 13) block north traversal along cols 24-25 from entrance.
-- Open Corridor to Ladder B: (21, 12..14) is open floor leading north towards Ladder B at (23, 7).
-- Row 6 North Corridor: (20, 6) is a solid rock wall blocking direct west traversal from (21, 6) into (19, 6). The 1F floor is partitioned by rock walls into disconnected sectors.
-- Western Corridor: Columns 17-18 (rows 6..15) are open floor leading straight south from Row 6 past Ladder C (18, 9) to Water Ramp at (17, 15).
-- Entrance to Ladder B Corridor: From 1F entrance (24, 17), direct north path is blocked by boulders at (24, 13) and (25, 13). Passable route steps West to Column 21 at (21, 17..14), runs North through (21, 13..10) past ramp (21, 11), steps East to (22, 10), and ascends Column 22 (22, 9..7) to reach Ladder B at (23, 7).
+2. **Western Water Canal & Ladder C Sector**:
+   - Ladder C at (18, 9): connects to 2F Central sector at (19, 7).
+   - Column 17/18 corridor runs south from Ladder C (18, 9) past (17, 14) to (17, 15) ramp.
+   - Water Boarding Ramp: located at (11, 13) leading down into canal at (11, 14).
+   - Navigable Water Canal: flows north through cols 8-14 to Northern Terrace ramp at (15, 3)/(15, 4) and Ladder E at (7, 1).
+
+3. **Northern Terrace (Ladder E)**:
+   - Ladder E located at (7, 1) in NW waterway terrace.
+   - Ascends to 2F NW Sector at (9, 1), which directly connects to Ladder A at (1, 3) leading to Mewtwo (B1F).
+
+## Master Route to Mewtwo (B1F)
+1. Enter 1F -> walk via (21, 17..10) -> (22, 10..7) -> ascend Ladder B at (23, 7) to 2F (22, 6).
+2. On 2F -> walk west via Row 11 / Row 9 bypass network to Ladder C at (19, 7) -> descend to 1F (18, 9).
+3. On 1F -> walk south from Ladder C to Water Ramp (11, 13) -> use SURF.
+4. Surf north along 1F canal to (7, 1) -> ascend Ladder E to 2F (9, 1).
+5. On 2F -> walk west along top ledge to Ladder A at (1, 3) -> descend to B1F!
+6. On B1F -> surf to Mewtwo at (27, 13) -> use Master Ball for instant 100% capture!
