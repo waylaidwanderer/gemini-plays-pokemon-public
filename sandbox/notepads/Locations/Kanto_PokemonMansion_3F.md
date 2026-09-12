@@ -45,7 +45,7 @@
 - Balcony Ledge & Gaps (Row 14):
   - Row 14 is open void/balcony drop-off across columns 14-21.
   - Pillar at (18, 12-13) divides the drop-off into two distinct gaps:
-    1. West Gap at (16-17, 14): Accessible from (16-17, 13) open floor. Directly aligns over 1F B1F Chamber (cols 15-23). Untested.
+    1. West Gap at (16-17, 14): Accessible from (16-17, 13) open floor. Destination floor unverified; drop test pending.
     2. East Gap at (19, 14): Accessible from (19, 13) open floor. Verified to drop to 2F (18, 14) [Turn 14418-14421].
   - Columns 20-21 along row 13 have a solid horizontal wall partition blocking passage south.
 ## Southeast Chamber (cols 23-28, rows 13-17) [Fully Audited Turn 14545]
