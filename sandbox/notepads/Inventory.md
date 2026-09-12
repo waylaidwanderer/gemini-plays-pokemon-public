@@ -83,13 +83,13 @@
   - Stats: Attack 142, Defense 165, Speed 142, Special 146
   - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
+  - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
-  - Moves: Tackle (PP 35/35), Rock Slide (PP 7/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
+  - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
 - FARFETCH'D (Nickname: DUX) [Lv 5, Normal/Flying]
-  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
+  - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 20 / 20
   - Stats: Attack 12, Defense 11, Speed 11, Special 11
   - OT: TRAINER (IDNo. 24460, Boosted EXP)
@@ -99,14 +99,14 @@
   - Status: Healthy
   - HP: 38 / 38
   - Stats: Attack 29, Defense 16, Speed 45, Special 26
-  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 9/10) [Healed Turn 13690]
+  - Moves: Scratch (PP 35/35), Growl (PP 40/40), Dig (PP 10/10) [Healed Turn 15136 at Viridian Center]
   - EXP: 7376
   - OT: BLUE (IDNo. 04620)
   - Caught: Diglett's Cave [Turn 3507]
 - DROWZEE (Nickname: SANDMAN) [Lv 9, Psychic]
-  - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
+  - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 30 / 30
-  - Moves: Pound (PP 35/35), Hypnosis (PP 19/20), Flash (PP 20/20) [Learned Turn 4021]
+  - Moves: Pound (PP 35/35), Hypnosis (PP 20/20), Flash (PP 20/20) [Learned Turn 4021]
   - Caught: Route 11 tall grass [Turn 3721]
 
 ## PC Box 1 Pokémon

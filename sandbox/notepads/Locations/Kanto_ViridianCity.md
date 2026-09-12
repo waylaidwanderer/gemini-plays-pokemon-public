@@ -3,7 +3,7 @@
 ## Connections
 - South: Route 1 entrance at (21, 36).
 - North: Route 2 entrance at (18..19, 0).
-- West: Route 22 exit along rows 18-19 heading west past column 0.
+- West: Route 22 exit along rows 16-17 heading west past column 0.
 
 ## Geography & Layout
 - Route 22 Highway: Paved highway running west from col 16 along rows 18-19 to col 4, turning north through cols 4-5 to rows 16-17, then running west across cols 4..0 directly into Route 22.
