@@ -134,6 +134,7 @@
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
 - [x] Defeat Fighting Dojo trainers and Master Koichi, and claim Hitmonlee (BRUCE) [Turn 13254]
 - [x] Return to Pallet Town via Diglett's Cave, Route 2, and Route 1 [Turn 13636]
+- [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 
 <hr>
 
