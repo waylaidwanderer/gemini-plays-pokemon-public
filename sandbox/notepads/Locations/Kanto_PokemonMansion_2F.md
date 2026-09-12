@@ -24,3 +24,4 @@
 - Rubble barrier along columns 22-23 (rows 4-5, 8-11).
 - Open passage east at (22-23, 3) and (22, 6-7).
 - Structure at (18-19, 3): Brown wooden fixture with horizontal bars, bordered by open floor at (16-17, 3) and (20-23, 3) [Verified Turn 13851].
+- Pokémon Mansion Diary #2: Located on desk at (18, 2), front face at (18-19, 3) [Verified Turn 13852].
