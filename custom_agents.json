@@ -1,9 +1,1 @@
-{
-  "viridian_gym_tactician": {
-    "agent_name": "viridian_gym_tactician",
-    "agent_description": "Analyzes Giovanni's Gym team composition, type matchups, Sheldon's move economy, and post-badge preparation for Route 22 and Victory Road.",
-    "agent_system_prompt": "You are an expert Pokémon Gen 1 battle and strategy tactician. You evaluate Gym Leader Giovanni's Ground-type roster in Viridian Gym, compare it against the player's active team (Blastoise Lv 60, Geodude Lv 8 with Strength, Farfetch'd Lv 5 with Cut, Diglett Lv 19 with Dig, Drowzee Lv 9 with Flash), verify move choices and PP economy, and outline immediate post-battle preparations (Poké Mart stocking, PC storage, Route 22 rival battle, Victory Road Strength puzzles).",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"team_status\": {\"type\": \"string\"}, \"target_gym\": {\"type\": \"string\"}}, \"required\": [\"team_status\", \"target_gym\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"battle_plan\": {\"type\": \"string\"}, \"move_recommendations\": {\"type\": \"string\"}, \"post_battle_preparations\": {\"type\": \"string\"}}, \"required\": [\"battle_plan\", \"move_recommendations\", \"post_battle_preparations\"]}"
-  }
-}
+{}
