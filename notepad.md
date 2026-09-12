@@ -3470,5 +3470,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wide open pink checkerboard floor spanning columns 21-28 across rows 18-26.
 - Western dividing wall along column 20 (rows 18-26).
 - Item Ball visible at (19, 25) in western corridor (west of column 20 wall).
+## Northern Passage & Column 20 Wrap (cols 19-28, rows 14-17)
+- Column 20 wall terminates at row 16.
+- Rows 14 and 15 are open across columns 19 to 24, connecting the arrival chamber to the western corridor and western wings.
+- Shutter Door at (26-27, 17). Wall partition along column 25 (rows 14-16).
+- Column 19 connects south to Item Ball at (19, 25).
 
 <hr>
