@@ -139,7 +139,7 @@
 - [x] Reach Pokémon Mansion B1F via 3F western balcony drop to 1F enclosed chamber [Turn 14565]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
-- [x] Solve Quiz Machines 1, 2, 3, 4, and 5 in Cinnabar Gym [Turns 14705-14764]
+- [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
 
 ## Mansion Switch-State Matrix
 | Shutter / Door Location | State A (Default) | State B (Toggled) |
