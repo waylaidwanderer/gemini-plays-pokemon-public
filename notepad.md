@@ -3003,7 +3003,6 @@
 - Empirical Central/South Barriers:
   - (15, 12), (16, 13), (15, 16), (14, 14), (14, 15): Rock walls.
   - (13, 10..14): Rock walls (blocks westward traversal from Column 14/15 into Column 12).
-  - (15, 15) connects only east to (19, 15) (dead-end pocket).
 
 <hr>
 
