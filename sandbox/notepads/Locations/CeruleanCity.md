@@ -72,4 +72,3 @@
 ## Verified Transition & Shoreline Coordinates (Turns 46255-46280)
 - Northern Boundary to Route 24: (20..21, 4..0) connects directly north to Route 24 Nugget Bridge at (10..11, 35).
 - Southern Bypass: Row 30 connects East Avenue (37, 30) to west residential streets.
-- North Corridor: Cols 8-9 provide an open north-south thoroughfare between Row 19 and Row 8 (Northern Highway).
