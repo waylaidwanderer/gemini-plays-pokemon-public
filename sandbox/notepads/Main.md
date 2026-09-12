@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 8/8 (Boulder Badge, Cascade Badge, Thunder Badge, Rainbow Badge, Soul Badge, Marsh Badge, Volcano Badge, Earth Badge)
-- League Status: POKÉMON LEAGUE CHAMPION! All 8 Badges earned, Elite Four & Champion RED defeated. Hall of Fame induction complete. Team fully healed at Cerulean Pokémon Center (HYDROS Lv 92, 319/319 HP, full PP).
+- League Status: POKÉMON LEAGUE CHAMPION! All 8 Badges earned, Elite Four & Champion RED defeated. Hall of Fame induction complete. Team fully healed at Cerulean Pokémon Center.
 
 ## Notepads Index
 - `Team`: Current party roster, battle stats, move sets, boxed Pokémon, capture equipment
