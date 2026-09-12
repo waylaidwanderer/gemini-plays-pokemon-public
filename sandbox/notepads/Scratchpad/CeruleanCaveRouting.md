@@ -17,34 +17,29 @@
   - (19, 11) -> (17, 11) -> (17, 13) -> (18, 13) -> (18, 15) -> (21, 15) -> (21, 17) [South Artery].
   - (21, 17) connects east to Ladder B at (22, 6) via (23, 7..11).
 
-## Master Routing Plan: Re-Entry & Path to Mewtwo (B1F)
+## Active Routing Plan: Cerulean Cave & Mewtwo (B1F)
 
-### Phase 1: Re-Entry to Cerulean Cave 1F
-1. From Cerulean City (23, 23):
-   - Walk Up 3 to (23, 20), Left 17 to (6, 19), Up 11 to (6, 8) [Northern Highway].
-   - Walk Right 14 to (20, 8), Up 4 to (20, 4) -> Transitions to Route 24 (10, 35).
-2. On Route 24:
-   - Walk Up along Nugget Bridge: (10, 35) -> Up 27 to (10, 8).
-   - Walk Left across row 8 to western bank: (10, 8) -> Left 6 to (4, 8).
-   - Walk Down south along grass path to shoreline: (4, 8) -> Down 23 to (4, 31).
-3. Board Surf at (4, 31) facing South onto (4, 33).
-4. Surf South ~20 steps into Cerulean Cave 1F entrance.
+### Current Phase: Canal Surfing to 1F Entrance
+1. At Route 24 Shoreline (4, 31):
+   - Face South towards open water canal (4, 33).
+   - Open Party -> HYDROS (Slot 1) -> select SURF.
+2. Surf South down canal ~20 steps into Cerulean Cave 1F entrance.
 
 ### Phase 2: 1F Ascent to 2F (Ladder B)
 1. In Cerulean Cave 1F:
    - Climb Ramp at (21, 11) to Upper Plateau.
    - Climb Ladder B at (23, 7) to 2F (22, 6).
 
-### Phase 3: 2F Route to Ladder A (Mewtwo B1F)
+### Phase 3: 2F Incremental Route to Ladder A (1, 3) -> Mewtwo B1F
 1. From Ladder B (22, 6):
-   - Down 1 to (22, 7), Right 1 to (23, 7), Down 4 to (23, 11), Left 2 to (21, 11), Down 4 to (21, 15), Down 2 to (21, 17) [South Artery].
-   - Left 3 to (18, 15), Up 2 to (18, 13), Left 1 to (17, 13), Up 2 to (17, 11), Right 2 to (19, 11), Up 2 to (19, 9) [Row 9 Highway].
+   - Navigate South Artery: (22, 6) -> (22, 7) -> (23, 7..11) -> (21, 11..17).
+   - Connect to Row 9 Highway: (21, 17) -> (18, 15) -> (18, 13) -> (17, 13..11) -> (19, 11..9).
 2. From (19, 9):
-   - Left 13 across Row 9 to (6, 9).
-   - Up 4 up Column 6 to (6, 5) [Row 5 West].
-   - Left 6 across Row 5 West to (0, 5) [Column 0].
-   - Up 2 to (0, 3).
-   - Right 1 to (1, 3) [Ladder A] -> Descend to B1F!
+   - Traverse Row 9 Highway west to Column 6 (6, 9).
+   - Ascend Column 6 north to Row 5 West (6, 5).
+   - Traverse Row 5 West to Column 0 (0, 5).
+   - Ascend Column 0 to (0, 3) and step right onto Ladder A at (1, 3).
+   - Descend Ladder A to B1F!
 
 ### Phase 4: B1F Capture
 - Surf to Mewtwo and use Master Ball on Turn 1!
