@@ -2937,6 +2937,18 @@
 - Trace navigable water channels without entering dead-end terraces.
 - Target destination: NW terrace dock at (7, 1) to ascend Ladder E.
 
+## Verified Collision Matrix & Landmarks (1F)
+- **Central Water Canal South Boundary**: (24, 13) and (25, 13) are elevated cliff ledges overlooking the canal water; direct Surfing North here is blocked ("No SURFing on HYDROS here!").
+- **Column 19 Vertical Barrier**: (19, 10..18) is a solid rock wall separating the central thoroughfare (cols 20-25) from the western platform (cols 16-18).
+- **Column 20 Southern Boundary**: (20, 16) is a solid rock wall blocking southward passage from (20, 15).
+- **Column 26 Vertical Barrier**: (26, 13..18) is a solid rock wall separating the central corridor from the eastern corridor (cols 27-28).
+- **Central Bridge at (21, 10)**: Connects south via ramp (21, 11) to Row 14 (21, 14), and north to (21..25, 6..8) / Ladder B at (23, 7).
+- **Eastern Sector Access**: Tile (25, 9) is a 3-lined ramp leading down/east into the eastern canal/corridor towards Ladder D at (27, 1).
+- **Ladder Connectivity**:
+  - Ladder B: (23, 7) <-> 2F (22, 6).
+  - Ladder C: (18, 9) <-> 2F (19, 7).
+  - Ladder D: (27, 1) <-> 2F (29, 1) [Direct access to Row 1 North Highway!].
+  - Ladder E: (7, 1) <-> 2F (9, 1).
 
 <hr>
 
