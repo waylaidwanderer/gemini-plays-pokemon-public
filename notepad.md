@@ -3486,5 +3486,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 7-8 contains Pokémon statues at (7, 11) and (7, 15), with potted plants at (7, 10) and (7, 14).
 - Row 17 wall blocks columns 7-9.
 - Row 18 is open across columns 7-13, providing a southern westward avenue into the Southwest Wing.
+## Southwest Wing & Item Ball (cols 1-9, rows 18-26)
+- Row 18 is open pink floor from column 1 to column 13.
+- West boundary wall is at column 0.
+- Wall at row 17 spans columns 1-9.
+- Item Ball located at (1, 22).
+- Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
 
 <hr>
