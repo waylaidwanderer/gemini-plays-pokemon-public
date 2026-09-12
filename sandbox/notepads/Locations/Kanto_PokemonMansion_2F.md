@@ -1,7 +1,7 @@
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Located at (5, 10), landing at (7, 11) upon arrival from 1F [Verified Turns 13813, 13927].
+- Staircase down to 1F: Located at (7, 10), landing at (7, 11) facing North upon arrival from 1F [Verified Turns 13813, 13927, 14110].
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
 - NPC Trainer: Located at (6, 11) facing East [Verified Turn 13813].
