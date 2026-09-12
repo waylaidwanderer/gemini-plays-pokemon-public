@@ -3286,7 +3286,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Landmarks & Layout
 - Northern Dock: Wooden pier providing direct landing from Route 21 into the north edge of Cinnabar Island at columns 10-11, connecting south into row 0 [Verified Turns 13675, 13676].
 - Pokémon Mansion: Large building in northwest occupying columns 4 to 9, rows 0 to 3, with entrance door at (6, 3) [Verified Turns 13676, 13678].
-- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Door is locked: "The door is locked..." [Empirically verified Turn 13682]. Requires Secret Key.
+- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678]. Entrance door unlocked with Secret Key [Turn 14686].
 - Central Corridor: Open grass path spanning columns 10 to 13 connecting northern dock to southern town plaza [Verified Turn 13678].
 - Cinnabar Poké Mart: Located at columns 14 to 17, rows 8 to 11, marked with "MART" on facade. Entrance door at (15, 11) [Verified Turn 13683].
 - Eastern Shoreline: Column 20 is the eastern cliff/water boundary connecting to Route 20 [Verified Turn 13682].
@@ -3575,6 +3575,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Quiz Machine 1: Located at (15, 7) in upper-left of chamber. Must be interacted with from (15, 8) facing North.
 - Shutter Door 1: Located at (18-19, 6), currently CLOSED.
 - Row 7 (cols 16-19) is completely open behind the trainer, providing safe access to Quiz Machine 1 without triggering battle.
-- Chamber 1 Question: "CATERPIE evolves into BUTTERFREE?" -> Answer: YES. Unlocks Shutter Door 1 at (18-19, 6).
 
 <hr>
