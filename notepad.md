@@ -3330,8 +3330,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Southwest Wing (cols 1-3, rows 10-27) [Explored]
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
-- Enclosed B1F Staircase Chamber (cols 15-23, rows 18-26): B1F staircase confirmed at (21, 23) with descending stairs graphic [Verified Turn 14141]. Sighted Pokémon statue at (19, 19) and plant at (19, 18). Chamber is completely enclosed on 1F (solid walls, rubble at (24-25, 24-27), and closed Shutter 2 at (20-21, 17)). Accessible via drop from upper floors.
-
+- Enclosed B1F Staircase Chamber (cols 12-26, rows 17-26): B1F staircase located at (21, 23) with descending stairs graphic [Verified Turns 14141, 14561, 14564]. Shutter 2 at (20-21, 17) is confirmed OPEN in State B. Accessible via drop from 3F western balcony gap at (17, 14), landing on 1F at (16, 14), and navigating south down column 13 through row 18 to row 20, then east to column 21.
 
 <hr>
 
