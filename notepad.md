@@ -3347,6 +3347,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Machines with twin dials at (24, 1) and (25, 1).
   - Open room across (25-28, 4-5).
   - Rubble barriers at (26-28, 1-2), (22-24, 4-5), and (23-27, 6-7).
-  - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) [Verified Turn 13858].
+  - Southern chute down column 28: open floor at (28, 4-6) leading to Item Ball at (28, 7) containing CALCIUM x1 [Obtained Turn 13858, Verified Turn 13863]. Far eastern chute cleared.
 
 <hr>
