@@ -139,7 +139,7 @@
 - [x] Reach Pokémon Mansion B1F via 3F western balcony drop to 1F enclosed chamber [Turn 14565]
 - [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
-- [x] Solve Quiz Machines 1, 2, and 3 in Cinnabar Gym [Turns 14705-14733]
+- [x] Solve Quiz Machines 1, 2, 3, and 4 in Cinnabar Gym [Turns 14705-14748]
 
 ## Mansion Switch-State Matrix
 | Shutter / Door Location | State A (Default) | State B (Toggled) |
@@ -3607,7 +3607,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer at (11, 14) facing South.
 - Row 13 (cols 10-13) provides safe passage behind trainer (11, 14).
 - Row 16 connects west into column 7 corridor at (8, 16).
-- Shutter Door 4: Located at (5, 16), currently CLOSED. Opens upon answering Question 4 correctly.
+- Shutter Door 4: Located at (5, 16), OPENED [Turn 14748] after answering NO to Question 4.
 - Chamber 5 Question: "Are thunder moves effective against ground element-type POKéMON?" [Verified Turn 14746] (Answer: NO)
 
 <hr>
