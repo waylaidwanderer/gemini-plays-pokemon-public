@@ -3295,5 +3295,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southeast Sector: Vertical wall along column 24 (rows 19-22+). Wide open room east of column 24 spanning columns 25-28 (rows 19-22+). Clear walkway down column 25 [Verified Turn 13731].
 - Southeast Shutter: Shutter door at (26-27, 27) verified closed and non-interactive [Turn 13735].
 - Southeast Cul-de-sac: Columns 26-28 (rows 19-27) is fully enclosed by rubble (cols 24-25, rows 24-27) and south/east walls.
+- Western Boundary: Building's western wall is at column 0 (rows 0-5+).
+- Northwest Room: Columns 1 to 5, rows 1 to 8+.
+- Rubble: Columns 1-3 at rows 2-3, and column 1 at rows 4-5 are rubble.
+- Pokémon Statue: Located at (2, 4-5) with base at (2, 5).
+- Central Table: Large 2x2 structure at (6-7, 4-5).
+- Walkway: Clear vertical path down column 4 from row 1 past row 5.
 
 <hr>
