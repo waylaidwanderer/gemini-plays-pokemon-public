@@ -50,3 +50,8 @@
 - Bounded on east by column 20 vertical wall (rows 18-26) and south by row 27 building wall.
 - Southwest Shutter at (13, 22-23) connects to columns 10-12: CLOSED in State B [Turn 14603], OPEN in State A [Verified Turn 14630].
 - Doorway Shutter at (16-17, 16): OPEN in State B, CLOSED in State A [Verified Turn 14629].
+## Northeast Laboratory Room (cols 20-28, rows 0-5) [Fully Surveyed Turn 14644]
+- Accessed via doorway at (24-25, 5).
+- Contains green display pedestals at (22, 2-3), (24, 2-3), (26, 2-3) and machine at (20, 2-3).
+- Open pink checkerboard floor across row 1 (cols 20-28) and aisles at cols 21, 23, 25, 27-28.
+- Surveyed Turn 14644: confirmed no items, switches, or Secret Key in this room.
