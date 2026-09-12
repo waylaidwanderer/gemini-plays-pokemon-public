@@ -48,4 +48,4 @@
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access: Connected to the eastern wing (columns 26-28) at rows 8-9. Reachable via row 3 corridor to columns 26-28.
+- Access Investigation: Tested and disproven. Row 8 has a solid wall at (24-28, 8) blocking access from (28, 7) (verified Turn 13915). West is blocked by rubble along column 22 (rows 9-15) and row 16 is a solid south wall (verified Turns 13904, 13908). Hypothesis: Chamber is accessed via drop-in from 3F.
