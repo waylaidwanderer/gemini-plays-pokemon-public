@@ -79,3 +79,4 @@
 - Column 23 North Passage: (23, 9..5) open floor corridor connecting to Northern corridors.
 - (23, 6): Rock wall (blocks northward traversal from (23, 7)).
 - (22, 7): Open floor connecting (23, 7) to Ladder B at (22, 6).
+- (13, 12): Rock wall (blocks westward traversal from (14, 12)).
