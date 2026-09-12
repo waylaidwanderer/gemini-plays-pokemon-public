@@ -40,3 +40,4 @@
 - Quiz Machine 3: Located at (9, 7). Must be interacted with from (9, 8) facing North.
 - Trainer at (11, 8) facing South.
 - Row 7 (cols 10-13) provides safe passage behind trainer (11, 8).
+- Shutter Door 3: Located at (12-13, 12), currently CLOSED.
