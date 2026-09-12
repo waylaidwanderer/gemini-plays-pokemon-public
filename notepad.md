@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 60, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥109982 [Turn 14904]
+- Money: ¥110932 [Turn 15054]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -227,7 +227,7 @@
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 190 / 190
   - Stats: Attack 140, Defense 162, Speed 140, Special 143
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 7/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 26 / 26
@@ -3656,9 +3656,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 11: Blue walls at (15, 11) and (17, 11). Red bumper block at (18, 11). UP-spinner at (19, 11) launches north along col 19.
 - Row 10: DOWN-spinner at (16, 10) between vertical walls at cols 15 and 17.
 - Row 9: Gym trainer at (16, 9) facing Down in central chute.
-- Navigation Route: From (17, 12) walk east to (19, 12), step Up onto (19, 11) UP-spinner to ride north.
 - Row 2: Red bumper blocks at (17, 2) and (19, 2) (landing tile of col 19 UP-spinner). DOWN-spinner at (18, 2).
 - Row 1: LEFT-spinner at (19, 1) launches west along row 1 across open corridor (15..18, 1) towards northwest sector.
-- Row 0: Solid northern boundary wall.
+- Row 0: Solid northern boundary wall.## Gym Trainers & Chutes
+- Trainer at (10, 1): Blackbelt (Machoke Lv 38, Machop Lv 38, Machoke Lv 38) [Defeated Turn 15054]. Defeated sprite remains solid, blocking direct westward passage into column 10.
+- Chute at (18, 2): DOWN-spinner pointing down column 18, which terminates at row 11 bumper block (18, 11) by the entrance mat (reset trap).
+- Row 2 Corridor: (12..16, 2) open horizontal floor between row 1 and row 3 counters.
+
 
 <hr>
