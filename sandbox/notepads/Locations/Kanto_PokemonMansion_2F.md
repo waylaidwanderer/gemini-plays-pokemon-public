@@ -25,3 +25,9 @@
 - Open passage east at (22-23, 3) and (22, 6-7).
 - Structure at (18-19, 3): Brown wooden fixture with horizontal bars, bordered by open floor at (16-17, 3) and (20-23, 3) [Verified Turn 13851].
 - Pokémon Mansion Diary #2: Located on desk at (18, 2), front face at (18-19, 3). Interacting from (18, 4) facing North across the desk does not trigger text (requires standing adjacent at (17, 2) or (18, 1)) [Verified Turns 13852-13853].
+- Far Eastern Corridor & Rooms (cols 24-26, rows 0-8):
+  - Row 3 is open corridor connecting east across (22-26, 3) [Verified Turn 13857].
+  - Machines with twin dials at (24, 1) and (25, 1).
+  - Open floor alcove at (24-25, 2).
+  - Open passage south into columns 25-26 at rows 4-5.
+  - Rubble barriers at (26, 1-2), (22-24, 4-5), and (23-26, 6-7) [Verified Turn 13857].
