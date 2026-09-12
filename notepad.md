@@ -3263,44 +3263,47 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Pokémon Mansion 1F Geography & Mechanics
 
-## Overview
+## Overview & Mechanics
 - Abandoned, burned-down mansion on Cinnabar Island.
-- Contains hidden switches inside Pokémon statues that toggle iron shutter doors.
-- South entrance door at (5, 27) leads back outside to Cinnabar Island (6, 3) [Verified Turn 13698].
+- South entrance at (5, 27) leads outside to Cinnabar Island (6, 3) [Verified Turn 13698].
+- Switch Mechanics: Pokémon statues contain secret switches that toggle iron shutter doors. Empirical test (Turn 13756-13788): Activating switch at (2, 5) toggled Shutter 1 at (16-17, 7) from CLOSED to OPEN, while toggling Shutter (24-25, 13) from OPEN to CLOSED.
 
-## Navigation & Layout
-- Entrance Hall: Red carpet corridor spanning columns 4 to 7, running north from row 27 [Verified Turn 13698].
-- Side Rooms: Checkered floor rooms flanking the entrance corridor to the west (cols 1-3) and east (cols 8-10) [Verified Turn 13698].
-- Entrance Hall Columns: Display tables with plants line columns 3 and 8 at rows 14, 16, 18, 20, 22, and 24, with open passages into side rooms at odd rows [Verified Turns 13699, 13700, 13703].
-- Corridor Terminus: Red carpet corridor terminates at wall (5, 9); tile (5, 10) is open floor [Corrected Turn 13708].
-- Open Passages: Passages lead west and east into flanking rooms along row 11.
-- Rubble & Obstacles: Rubble pile at (8-11, 8) and (8-9, 9).
-- Interior Walls: Vertical wall runs along column 13 (rows 7-12); horizontal wall at row 13 (cols 11-15).
-- North Passage: Clear floor passage runs north through column 12 at rows 7-9 between the rubble and the column 13 wall [Verified Turn 13709].
-- South Corridor: Open floor along columns 9-10 extends south past row 15.
-- Shutter Door 1: Located at (16-17, 7) between walls at (14-15, 7) and (18-19, 7). Verified CLOSED on Turn 13716; empirically verified OPEN after toggling switch [Verified Turn 13762].
-- Central-East Room (behind Shutter 1): Explored rows 8-12 (cols 14-21) on Turns 13762-13763. Contains two display pedestals at (16, 10-11) and (18, 10-11), south wall at row 13. Exhausted dead end with no stairs, switches, or items.
-- Wall Segment: Horizontal wall at (18-21, 7) and (22-23, 4); vertical wall along column 22 at rows 5-7.
-- Rubble pile blocks columns 20-22 at row 8.
-- Row 3 Corridor: Open walkway eastward past column 23 [Verified Turn 13718].
-- Northeast Area: Wall at (22-25, 4) divides the north corridor from a large eastern room; open passage into this room exists at columns 26-27.
-- Northern Corridors: Rows 1-3 are wide open and extend east past column 27 [Verified Turn 13722].
-- Eastern Boundary: Building's eastern wall is at column 29 (rows 0-7+); column 30+ is exterior void.
-- Rubble Pile: Column 28 rubble spans rows 2 to 5.
-- Eastern Room: Wide room spanning columns 23 to 28, accessed via doorway at (26-27, 4) [Verified Turn 13723].
-- Eastern Room Features: Large 2x2 table at (24-25, 8-9). Rubble along column 22 (rows 8-11) and columns 27-28 (rows 10-11).
-- Unobstructed vertical walkway runs down column 26 from row 4 past row 11 [Verified Turn 13727].
-- Eastern Room Southern Exit: Horizontal wall at (26-28, 13) and rubble at (22-23, 12-13). Open doorway at (24-25, 13) connects into a wide southern hall spanning rows 14-15+ (cols 22-27+) [Verified Turn 13728].
-- Southern Corridor & Shutter: Hallway at rows 14-16 connects west past column 21. Second shutter door at (21, 17). Wall spans (22-23, 17) and (26-28, 17). Open doorway at (24-25, 17) leads south into row 18+ [Verified Turn 13729].
-- Southeast Sector: Vertical wall along column 24 (rows 19-22+). Wide open room east of column 24 spanning columns 25-28 (rows 19-22+). Clear walkway down column 25 [Verified Turn 13731].
-- Southeast Shutter: Shutter door at (26-27, 27) verified closed and non-interactive [Turn 13735].
-- Southeast Cul-de-sac: Columns 26-28 (rows 19-27) is fully enclosed by rubble (cols 24-25, rows 24-27) and south/east walls.
-- Western Boundary: Building's western wall is at column 0 (rows 0-5+).
-- Northwest Room: Columns 1 to 5, rows 1 to 8+.
-- Rubble: Columns 1-3 at rows 2-3, and column 1 at rows 4-5 are rubble.
-- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Empirically triggered 'A secret switch!' prompt [Turn 13756], pressed YES ('Who wouldn't?') to toggle all mansion shutter doors [Verified Turn 13757].
-- Central Table: Large 2x2 structure at (6-7, 4-5).
-- Walkway: Clear vertical path down column 4 from row 1 past row 5.
-- Shutter (24-25, 13): Verified OPEN in State A (default); verified CLOSED in State B (after switch toggle at (2, 5)) [Turn 13788]. This empirically proves switches INVERT shutter states rather than opening all simultaneously.
+## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
+- Red carpet corridor spanning columns 4 to 7, running north from row 27 [Verified Turn 13698].
+- Terminus: Red carpet corridor terminates at solid dividing wall at (5, 9); tile (5, 10) is open floor [Verified Turn 13708].
+- Flanking Columns: Display tables line columns 3 and 8 at even rows (14, 16, 18, 20, 22, 24).
+- Open Passages: Row 11 provides open crossways west into columns 1-3 and east into columns 8-10 [Verified Turn 13708].
+- East Side Corridor (cols 9-10): Open floor from row 10 down to row 22, bounded on the east by solid vertical wall along column 11 (rows 13-22) [Verified Turn 13774].
+
+## Northwest Statue Room (cols 0-8, rows 1-8)
+- Western boundary wall is at column 0 (rows 0-9) [Verified Turn 13753].
+- Divided from central corridor to the south by solid horizontal wall (1-7, 9) [Verified Turn 13754].
+- Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
+- Large 2x2 table at (6-7, 4-5).
+- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Activated switch on Turn 13757.
+
+## Northern Hallway (Row 1 Superhighway)
+- Continuous unobstructed pink checkerboard corridor along row 1 spanning columns 1 to 28 [Verified Turns 13722, 13751].
+- Crosses above column 9 dividing wall (which runs rows 3-7) without obstruction.
+
+## Central-East Pedestal Room (cols 14-21, rows 8-12)
+- Accessed via Shutter Door 1 at (16-17, 7), which opened after switch activation [Verified Turn 13762].
+- Explored Turns 13762-13763: Contains two green display pedestals at (16, 10-11) and (18, 10-11).
+- South boundary is a solid horizontal wall at row 13 (cols 12-21). Exhausted dead end with no stairs, switches, or items.
+
+## Northeast & Large Eastern Room (cols 22-29, rows 0-13)
+- Northern corridor (rows 1-3) connects east to column 28; building eastern wall is at column 29 (rows 0-15) [Verified Turn 13723].
+- Wall at (22-25, 4) has open doorway into large eastern room at (26-27, 4).
+- Eastern room contains large 2x2 table at (24-25, 8-9) and clear walkway down column 26.
+- South exit: Wall at (26-28, 13) and rubble at (22-23, 12-13). Shutter door at (24-25, 13) connects into southern hall (open in State A, closed in State B) [Verified Turns 13728, 13788].
+
+## Southern Hall & Southeast Cul-de-sac (cols 21-29, rows 14-27)
+- Wide hallway spanning rows 14-16 (cols 12-27).
+- Shutter Door 2 located at (21, 17) leading south.
+- Southeast cul-de-sac: Enclosed room at columns 26-28 (rows 19-27) entered via doorway (24-25, 17). Contains closed shutter door at (26-27, 27) along exterior south wall [Verified Turn 13735].
+
+## Unexplored Frontiers (Primary Investigation Target)
+- Southwest Wing (cols 1-3, rows 11-27): Completely unvisited. Accessed via row 11 heading west from column 5.
+- Chamber south of Shutter 2 (cols 21-23, rows 18-26): Contains unidentified object/tile at (21, 23).
 
 <hr>
