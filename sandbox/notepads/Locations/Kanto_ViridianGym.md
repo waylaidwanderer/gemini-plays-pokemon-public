@@ -18,9 +18,11 @@
 - Row 9: Item ball at (16, 9) in column 16 chute.
 - Row 2: Red bumper blocks at (17, 2) and (19, 2) (landing tile of col 19 UP-spinner). DOWN-spinner at (18, 2).
 - Row 1: LEFT-spinner at (19, 1) launches west along row 1 across open corridor (15..18, 1) towards northwest sector.
-- Row 0: Solid northern boundary wall.## Gym Trainers & Chutes
+- Row 0: Solid northern boundary wall.
+
+## Gym Trainers & Chutes
 - Trainer at (10, 1): Blackbelt (Machoke Lv 38, Machop Lv 38, Machoke Lv 38) [Defeated Turn 15054]. Defeated sprite remains solid, blocking direct westward passage into column 10.
-- Chute at (18, 2): DOWN-spinner pointing down column 18, which terminates at row 11 bumper block (18, 11) by the entrance mat (reset trap).
+- Chute at (18, 2): DOWN-spinner pointing down column 18 to row 11 bumper block (18, 11) by the entrance mat. Functions both as an entrance reset trap and as an express exit transit corridor.
 - Row 2 Corridor: Open horizontal corridor spanning columns 7..10 (west) and 12..16 (east), connected via column 10 vertical passage (rows 2..5) around the (11, 2) RIGHT-spinner.
 
 ## Surveyed Trainers
@@ -30,4 +32,4 @@
 - Trainer at (14, 5): Cooltrainer♂ (Rhyhorn Lv 43) [Defeated Turn 15075]. Defeated sprite at (14, 5).
 - Trainer at (6, 5): facing Down along col 6.
 - Column 5 Dividing Wall: Vertical wall at (5, 1..2) and (5, 5..6), counter at (5, 3). Passage through at (5, 4) gateway.
-- Western Sector: Gateway at (5, 4) connects to northwest chamber where Leader Giovanni stands at (2, 1). Down-spinner visible at (4, 6).
+- Western Sector: Gateway at (5, 4) connects to northwest chamber where Leader Giovanni was defeated [Turn 15111] (awarded Earthbadge and TM27 Fissure; disbanded Team Rocket and permanently departed). Down-spinner visible at (4, 6).
