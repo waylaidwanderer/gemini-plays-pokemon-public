@@ -1005,6 +1005,7 @@
 - Central Cross-Plaza (Rows 20..21, Cols 4..14+): Continuous paved clearing connecting western highway to eastern passage.
 - Central Pond: Shore begins at row 24 (cols 5..13+), water at row 25+.
 - Eastern North-South Highway (Cols 16..17, Rows 20..24+): 2-tile wide paved road running south along the eastern side of the central pond.
+- Trainer (1, 15): Bug Catcher (Weedle Lv 16, Caterpie Lv 16, Weedle Lv 16) [Defeated, Turn 13495]. Prize: ¥160.
 - Trainer (19, 26): Bug Catcher Elijah [Defeated, Turn 2668].
 - Southern Boundary Fence (Row 32, Cols 12..19): Solid stone bollard fence blocking southward passage east of column 12. Row 28..29 paved plaza connects west toward the route exit.
 - Southern Exit Highway (Cols 8..9, Rows 28..33+): 2-tile wide paved road running south into Vermilion City through the gap in the southern fence.
