@@ -3329,8 +3329,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Southwest Wing (cols 1-3, rows 10-27) [Explored]
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
-## Unexplored Frontiers (Primary Investigation Target)
-- Enclosed B1F Staircase Chamber (cols 15-23, rows 18-26): B1F staircase confirmed at (21, 23) with descending stairs graphic [Verified Turn 14141]. Sighted Pokémon statue at (19, 19) and plant at (19, 18). Chamber is completely enclosed on 1F (solid walls, rubble at (24-25, 24-27), and closed Shutter 2 at (20-21, 17)). Access route currently unverified (investigating 3F floor drop hypotheses).
+- Enclosed B1F Staircase Chamber (cols 15-23, rows 18-26): B1F staircase confirmed at (21, 23) with descending stairs graphic [Verified Turn 14141]. Sighted Pokémon statue at (19, 19) and plant at (19, 18). Chamber is completely enclosed on 1F (solid walls, rubble at (24-25, 24-27), and closed Shutter 2 at (20-21, 17)). Accessible via drop from upper floors.
 
 <hr>
 
@@ -3358,7 +3357,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Bedroom (cols 0-8, rows 0-9): North wall at row 0, West wall at column 0, continuous solid horizontal dividing wall at row 9 across columns 1-8. Beds at (4, 6-7) and (6, 6-7). Rubble at (1-2, 1-3) and (1, 4-5).
 - Staircase to 3F: Located at (6, 1) in northwest bedroom.
 - ONLY EXIT: Doorway at (9, 4-5) containing Northwest Shutter (OPEN in State A, CLOSED in State B).
-- Consequence: There is NO southern exit from this room into the Southwest switch room. In State B, this room is completely inaccessible from 2F.
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
 - Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11) (neither contains a switch, tested Turns 13838-13841), plants at (13, 8) and (13, 10), wall dividing at column 14 (rows 8-11), tables/desks at (15-17, 5) and (15-17, 8-10), machine at (15, 11), and open east corridors along rows 6-7 connecting into columns 18-19 [Verified Turn 13849].
