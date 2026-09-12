@@ -3,10 +3,12 @@
 ## Regular Items
 - SUPER REPEL x1 [Verified Turn 13622]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
-- MAX POTION x1 [Verified Turn 11891]
+- MAX POTION x2 [Verified Turn 13828]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
+- MOON STONE x1 [Verified Turn 13828]
+- ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -15,7 +17,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 10 / 20
+- Total Slots Used: 12 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -27,6 +29,8 @@
   8. REVIVE x5
   9. FULL HEAL x5
   10. MASTER BALL x1
+  11. MOON STONE x1
+  12. ESCAPE ROPE x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
