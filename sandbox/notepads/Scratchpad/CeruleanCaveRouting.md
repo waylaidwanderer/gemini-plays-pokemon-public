@@ -2,7 +2,12 @@
 
 ## Active Strategy & Navigation Directive
 - Target: Ladder A at (1, 3) on 2F (descends to B1F Mewtwo).
-- Strategy: Re-enter Cerulean Cave 1F via the NW canal pool at (4, 11), surf to water ramp (15, 3), climb Ladder E at (7, 1) to 2F (9, 1), and navigate west/southwest directly to Ladder A (1, 3).
+- Current Position: Cerulean Cave 2F (23, 8).
+- Execution Plan:
+  1. Descend Ladder B at (22, 6) to 1F (23, 7).
+  2. On 1F: Walk south to entrance canal, surf north along canal to ramp at (15, 3).
+  3. Climb Ladder E at (7, 1) to 2F NW sector at (9, 1).
+  4. On 2F NW sector: Walk west to Ladder A at (1, 3) and descend to B1F (Mewtwo).
 
 ## Macro-Junction Elimination Table (2F)
 | Junction / Sector | Coordinates | Verified Accessible Outlets | Status & Findings |
