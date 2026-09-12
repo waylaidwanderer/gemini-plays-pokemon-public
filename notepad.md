@@ -3281,6 +3281,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Flanking Columns: Display tables line columns 3 and 8 at even rows (14, 16, 18, 20, 22, 24).
 - Open Passages: Row 11 provides open crossways west into columns 1-3 and east into columns 8-10 [Verified Turn 13708].
 - East Side Corridor (cols 9-10): Open floor from row 10 down to row 22, bounded on the east by solid vertical wall along column 11 (rows 13-22) [Verified Turn 13774].
+- Column 12 North Bypass: Column 12 is an open north-south corridor across rows 7-12 that bypasses the row 8-9 rubble (cols 8-11), connecting the central/east corridors directly to the northern sector and row 1 Northern Hallway [Verified Turns 13946-13947].
 
 ## Northwest Statue Room (cols 0-8, rows 1-8)
 - Western boundary wall is at column 0 (rows 0-9) [Verified Turn 13753].
