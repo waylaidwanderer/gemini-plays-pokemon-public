@@ -45,4 +45,4 @@
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
 ## Unexplored Frontiers (Primary Investigation Target)
-- Chamber south of Shutter 2 (cols 21-23, rows 18-26): Contains unidentified object/tile at (21, 23).
+- Chamber south of Shutter 2 (cols 19-23, rows 18-26): Sighted Pokémon statue at (19, 19) and plant at (19, 18) behind Shutter 2 [Verified Turn 14129]. Blocked from east by rubble at (22-23, 18-19). Contains unidentified object/tile at (21, 23).
