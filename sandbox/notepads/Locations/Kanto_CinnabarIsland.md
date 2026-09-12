@@ -7,5 +7,6 @@
 
 ## Landmarks & Layout
 - Northern Dock: Wooden pier at (10..11, 88..89) providing direct landing from Route 21 [Verified Turn 13675].
-- Pokémon Mansion: Large red-roof building occupying columns 4 to 9, rows 90-92+ [Verified Turn 13675].
-- Eastern Building: Facility located at columns 14+, rows 90-92+ (approaching Pokémon Center) [Verified Turn 13675].
+- Pokémon Mansion: Large building in northwest occupying columns 4 to 9, rows 0 to 3, with entrance door at (6, 3) [Verified Turns 13675, 13678].
+- Cinnabar Gym: Located in northeast at columns 14 to 18, rows 0 to 3, marked with "GYM" on facade. Entrance door at (18, 3) and signpost at (13, 3) [Verified Turn 13678].
+- Central Corridor: Open grass path spanning columns 10 to 13 connecting northern dock to southern town plaza [Verified Turn 13678].
