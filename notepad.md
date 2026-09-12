@@ -153,6 +153,7 @@
 - MOON STONE x1 [Verified Turn 13828]
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
+- IRON x1 [Obtained Turn 14029 at Mansion 3F (25, 5), Verified Turn 14047]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -165,17 +166,17 @@
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
-  3. SUPER REPEL x1
-  4. POK� FLUTE
-  5. SUPER ROD
-  6. FULL RESTORE x1
-  7. MAX POTION x1
-  8. REVIVE x5
-  9. FULL HEAL x5
-  10. MASTER BALL x1
-  11. MOON STONE x1
-  12. ESCAPE ROPE x1
-  13. CALCIUM x1
+  3. POKé FLUTE
+  4. SUPER ROD
+  5. FULL RESTORE x1
+  6. MAX POTION x2
+  7. REVIVE x5
+  8. FULL HEAL x5
+  9. MASTER BALL x1
+  10. MOON STONE x1
+  11. ESCAPE ROPE x1
+  12. CALCIUM x1
+  13. IRON x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -3420,7 +3421,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Far Eastern Chamber (cols 23-28, rows 1-10)
 - Room Layout: Open pink floor spanning columns 23-27 across rows 2-8.
 - Rubble: Bounded on east by rubble along columns 26-27 (rows 1-3) and (27, 4-5). Rubble at (24-25, 1).
-- Item Ball: Located at (25, 5) [Discovered Turn 14028].
+- Item Ball: Located at (25, 5). Obtained IRON x1 [Turn 14029, Verified Turn 14047].
 - South Corridor: Open floor across columns 24-27 (rows 6-8) bounded on south by row 9 horizontal wall.
 
 <hr>
