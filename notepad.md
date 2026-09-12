@@ -3645,10 +3645,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Gym Mechanics & Puzzle
 - Viridian Gym features directional spinner/conveyor tiles that force movement in the direction of the arrows until hitting a wall or stop tile.
-- Gym Leader: Giovanni (Ground / Rock / Normal type specialist).
-- Badge: Earth Badge (permits all Pokémon to obey regardless of level, required for Pokémon League).
-
-## Active Team Preparedness
-- Blastoise (SHELDON) Lv 60 leads with Surf (STAB Water) and Ice Beam (Ice), providing 4x super-effective coverage against Ground/Rock types.
+- Gym Leader Identity: Unverified in-game; Gym Guide stated: "Even I don't know the VIRIDIAN LEADER's identity! I heard that the trainers here like ground-type POKéMON!" (Turns 15026-15028).
+- Badge: Earth Badge (required for Pokémon League).
 
 <hr>

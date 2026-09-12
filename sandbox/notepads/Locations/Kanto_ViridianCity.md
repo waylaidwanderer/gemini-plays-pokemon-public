@@ -23,8 +23,10 @@
     - POTION: ¥150
 
 ## Northern Sector & Viridian Gym Geography
-- Ledge (Row 9): South-facing one-way ledge spanning columns 24..30 (tall grass at cols 28..30).
+- Ledge (Row 9): South-facing one-way ledge spanning columns 24..35.
 - Residence (Rows 8..9): House at columns 20..23 with door at (21, 9).
-- North-South Avenue: Columns 18..19 connect row 12 north to row 7 between the west fence (col 16) and residence (cols 20..23).
-- Gym Approach (Row 7): Open east-west street along row 7 connecting column 18 east to columns 21..27 in front of the Gym building.
-- Viridian Gym: Northeast quadrant, building facade at columns 27..34, rows 1..7. Signpost at (27, 7). Entrance door at (32, 7), approached from (32, 8). Unlocked after 7 badges ("VIRIDIAN GYM's LEADER returned!").
+- North-South Avenue: Columns 18..19 connect row 12 north to row 4 between the west fence (col 16) and residence (cols 20..23).
+- Gym Approach & Northern Bypass:
+  - Western approach along row 8 is blocked by stationary Gym fan NPC at (30, 8).
+  - True entrance route: From col 18, take row 4 east to col 24, step up to rows 2-3 (open 2-tile road running east above the Gym roof), follow rows 2-3 east to col 34, descend col 34 south to row 8, then walk west along row 8 through (33, 8) to (32, 8) in front of the Gym door.
+- Viridian Gym: Northeast quadrant, building facade at columns 27..34, rows 4..7. Signpost at (27, 7). Entrance door at (32, 7), approached from (32, 8). Unlocked after 7 badges ("VIRIDIAN GYM's LEADER returned!").
