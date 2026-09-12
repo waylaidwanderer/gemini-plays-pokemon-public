@@ -3046,7 +3046,6 @@ The sprawling central metropolis of Kanto. Houses Silph Co. Head Office, Saffron
 - Signpost at (27, 5).
 - Fighting Dojo: Entrance door at (26, 3), front apron at (26, 4).
 - Saffron Gym: Entrance door at (34, 3), front apron at (34, 4), approach along row 4 [Verified Turn 13087, 13185].
-- Building facades along row 5 with signpost at (27, 5); entrance door at (26, 3) and approach apron at (30..31, 4..5) [Verified Turn 12691].
 ## Silph Co. Head Office
 - Location: Spans cols 16..23, rows 10..21 in the central district [Verified Turn 12707].
 - Front entrance door at (18, 21) on the south facade [Verified Turn 12707].
@@ -3261,12 +3260,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Overview
 Located in Northeast Saffron City at (26, 3), directly west of Saffron Gym. Houses Blackbelt karate disciples and Karate Master Koichi.
-Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
+Reward for defeating the Master: Choice between two prize Poké Balls on pedestals at (4, 1) and (5, 1) (hypothesized Hitmonlee and Hitmonchan, unverified until inspected).
 
 ## Layout & Spatial Geometry
 - Entrance Mat: (4..5, 11) leading south into Saffron City.
 - Main Aisle: Column 4 running north from row 11 to row 3.
 - Decorative Pillars/Statues: (3, 8..9) and (6, 8..9).
+- Master's Platform: Row 3.
+- Prize Pedestals: (4, 1) and (5, 1).
 
 ## Trainers & Telemetry
 1. **Blackbelt 1 (South)**:
@@ -3289,6 +3290,8 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
 5. **Karate Master Koichi (North)**:
    - Position: (5, 3) facing South.
    - Master of the Fighting Dojo.
+   - Line of sight / interaction triggered upon stepping to (4, 3) [Turn 13229].
+   - In progress [Engaged Turn 13229].
 
 
 <hr>
@@ -3306,16 +3309,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Structure: Matrix of interconnected square rooms linked by floor warp tiles.
 - Teleportation: Stepping onto a warp tile instantly teleports player to a specific destination room.
 - Strategy: Empirically map warp pairings (Room/Coord -> Room/Coord) systematically to find the path to Sabrina.
-
-## Combat Strategy vs Sabrina & Psychic Trainers
-- Opponent Typing: Psychic (Kadabra, Mr. Mime, Venomoth, Alakazam).
-- Weaknesses in Gen 1: Bug (twineedle/pin missile/leech life), Ghost (Lick is physical; note: Gen 1 engine has Psychic immune to Ghost due to coding quirk).
-- Vulnerability: Gen 1 Psychic types generally have lower Physical Defense compared to their high Special stat.
-- Active Team Matchup:
-  - Blastoise (SHELDON) Lv 57:
-    - Moves: Double-Edge (Normal, Power 100 physical, PP 15/15), Body Slam (Normal, Power 85 physical, PP 15/15), Surf (Water, Power 95 special, PP 15/15), Ice Beam (Ice, Power 95 special, PP 10/10).
-    - Physical moves (Double-Edge, Body Slam) exploit the low physical Defense of Alakazam / Kadabra for easy OHKOs.
-    - High HP (179) and Defense (153) provides massive bulk against Psychic attacks.
 
 ## Room & Warp Mapping
 - **Room 1 (Entrance Room / South-Central)**:
