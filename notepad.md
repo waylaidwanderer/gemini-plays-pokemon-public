@@ -2478,7 +2478,7 @@
 - Entrance Mat: (2, 7) / (3, 7).
 - In-Game Trader NPC: Located at (7, 6) [Wants to trade for SEEL].
 - Fossil Scientist NPC: Located in northern area at (4..6, 2) [Resurrects prehistoric Pokémon from fossils: Helix Fossil -> Omanyte, Dome Fossil -> Kabuto, Old Amber -> Aerodactyl].
-- Status: Handing over Helix Fossil to Scientist in Room 3 for Omanyte revival.
+- Status: Helix Fossil handed over to Scientist in Room 3. Stepping outside lab and returning to claim revived Omanyte.
 
 <hr>
 
