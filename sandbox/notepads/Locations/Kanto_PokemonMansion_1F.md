@@ -8,7 +8,7 @@
 
 ## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
 - Red carpet corridor spanning columns 4 to 7, running north from row 27 [Verified Turn 13698].
-- Terminus: Red carpet corridor terminates at solid dividing wall at (5, 9); tile (5, 10) is open floor [Verified Turn 13708].
+- Terminus: Red carpet corridor terminates at solid dividing wall at (5, 9) [Verified Turn 13708].
 - Flanking Columns: Display tables line columns 3 and 8 at even rows (14, 16, 18, 20, 22, 24).
 - Open Passages: Row 11 provides open crossways west into columns 1-3 and east into columns 8-10 [Verified Turn 13708].
 - East Side Corridor (cols 9-10): Open floor from row 10 down to row 26, bounded on the east by solid vertical wall along column 11 (rows 13-27) [Verified Turn 14300]. No southern bypass exists into the B1F chamber.

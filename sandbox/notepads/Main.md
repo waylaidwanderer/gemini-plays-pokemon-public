@@ -142,5 +142,6 @@
 | 1F East Room Exit (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
 | 1F Southern Hall Shutter 2 (20-21, 17) | CLOSED [Turn 14121] | UNTESTED (Hypothesized OPEN) |
 | 1F Cul-de-sac Shutter (26-27, 27) | CLOSED [Turn 13735, 14142] | UNTESTED |
-| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069] |
+| 2F Central Shutter (8-10, 8) | OPEN [Turn 13833] | CLOSED [Turn 13832, 14344] |
+| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069, 14357] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | UNTESTED (Hypothesized OPEN) |
