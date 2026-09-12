@@ -1900,6 +1900,10 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Northern Boundary: Building facade along row 9 (cols 2..5) with solid wall at (2..5, 9).
 - Western Boundary: Continuous line of border trees along column 1 (rows 7..17), transitioning to concrete curb at (1, 18) and wooden fence posts at (1, 19).
 
+## Northern Bypass / Rooftop Corridor Entrance (Verified Turn 13406)
+- Eastern Gap (Cols 44..45): Continuous 2-tile wide paved yellow brick road spanning north from row 10 up past row 6 between the Pokémon Center east wall (col 43) and the eastern border trees (col 46).
+- Provides direct northern access into rows 0..6 behind the buildings, leading west to the back entrance of Celadon Mansion and the Cuttable tree connection to Route 16.
+
 <hr>
 
 <h1><code>Locations/Kanto_CeladonDepartmentStore</code></h1>
