@@ -21,6 +21,8 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
    - Defeated: Turn 13208. Prize money: ¥800.
 3. **Blackbelt 3 (East)**:
    - Position: (5, 5) facing West into (4, 5).
+   - Telemetry: 1 Pokémon total [Observed Turn 13212].
+   - In progress [Engaged Turn 13211].
 4. **Blackbelt 4 (West/North)**:
    - Position: (3, 4).
 5. **Karate Master Koichi (North)**:
