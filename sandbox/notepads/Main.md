@@ -134,3 +134,13 @@
 - [x] Return to Pallet Town via Diglett's Cave, Route 2, and Route 1 [Turn 13636]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Heal at Cinnabar Island Pokémon Center and register warp anchor [Turn 13690]
+
+## Mansion Switch-State Matrix
+| Shutter / Door Location | State A (Default) | State B (Toggled) |
+|---|---|---|
+| 1F Shutter 1 (16-17, 7) | CLOSED [Turn 13961] | OPEN [Turn 13762] |
+| 1F East Room Exit (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
+| 1F Southern Hall Shutter 2 (20-21, 17) | CLOSED [Turn 14121] | UNTESTED (Hypothesized OPEN) |
+| 1F Cul-de-sac Shutter (26-27, 27) | CLOSED [Turn 13735, 14142] | UNTESTED |
+| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069] |
+| 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | UNTESTED (Hypothesized OPEN) |
