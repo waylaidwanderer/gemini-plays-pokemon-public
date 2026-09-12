@@ -3410,5 +3410,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | 1F Shutter 2 (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
 | 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 13832] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001] | UNTESTED (Hypothesized OPEN) |
+- Statue at (12, 9): Tested from (13, 9) facing West on Turn 14023. Confirmed NO switch.
+- East Wing Access: Rows 4-5 are open across column 15 (cols 14-17), providing direct unobstructed passage from the central hall into the eastern wing without passing through the shutter at (15, 10-11) [Verified Turn 14023].
 
 <hr>
