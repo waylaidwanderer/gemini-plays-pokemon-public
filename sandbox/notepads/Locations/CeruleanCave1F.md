@@ -30,3 +30,5 @@
 4. Surf north along 1F canal to (7, 1) -> ascend Ladder E to 2F (9, 1).
 5. On 2F -> walk west along top ledge to Ladder A at (1, 3) -> descend to B1F!
 6. On B1F -> surf to Mewtwo at (27, 13) -> use Master Ball for instant 100% capture!
+## Verified Field Interactions & Constraints (1F)
+- Elevated Cliff Constraint: Water boundary at (23, 6) overlooking (23, 5) is an elevated ledge/cliff that rejects Surfing with "No SURFing on HYDROS here!". Water can only be boarded at designated shore ramps (e.g. (11, 13)).
