@@ -9,12 +9,11 @@
    - On 1F (18, 9): Walk south to Water Ramp at (17, 15).
    - Surf north along the canal to Northern Terrace ramp at (15, 3).
    - Walk west to Ladder E at (7, 1) and ascend to 2F (9, 1).
-4. **Phase 3 (2F NW Corridor to Ladder A)**:
-   - Arrive at Ladder E on 2F at (9, 1).
-   - Walk WEST along Row 1: (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1) -> (4, 1) -> (3, 1) [6 steps Left].
-   - Walk SOUTH down Column 3: (3, 1) -> (3, 2) -> (3, 3) [2 steps Down].
-   - Walk WEST along Row 3: (3, 3) -> (2, 3) -> (1, 3) [2 steps Left].
-   - Stepping onto Ladder A at (1, 3) descends directly to B1F (Mewtwo's Chamber)!
+4. **Phase 3 (2F Eastern Bypass to Row 9/11 & Ladder A)**:
+   - From Row 1 East / Ladder C area: Navigate east around rock barriers to Column 22: (18, 3) -> (20, 3) -> (20, 2) -> (22, 2) -> (22, 5).
+   - Walk south down Column 22 past Ladder B (22, 6) to Row 11 Thoroughfare (cols 14..24).
+   - Follow Row 11 / Row 9 West to Column 0: (0, 9) -> (0, 5) -> (0, 3).
+   - Step Right onto Ladder A at (1, 3) to descend to B1F (Mewtwo's Chamber)!
 5. **Phase 4 (B1F Mewtwo Capture)**:
    - Navigate B1F to Mewtwo's platform.
    - Initiate battle with Mewtwo.
