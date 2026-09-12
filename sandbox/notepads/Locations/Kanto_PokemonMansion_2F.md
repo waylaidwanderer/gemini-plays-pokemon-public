@@ -52,4 +52,4 @@
 - North boundary: Rubble at (23-25, 6-7), table at (24-25, 8).
 - West boundary: Rubble at column 22 (rows 9-15) and column 23 (rows 8-9, 14-15).
 - South boundary: Row 16 wall.
-- Access Investigation: Tested and disproven from 2F ground. Row 8 has a solid wall at (24-28, 8) blocking access from (28, 7) (verified Turn 13915). West is blocked by rubble along column 22 (rows 9-15) and row 16 is a solid south wall (verified Turns 13904, 13908). Completely enclosed on 2F; accessed via drop-in from 3F.
+- Access Investigation: Tested and disproven from 2F ground in both State A and State B [Verified Turns 13915, 14362]. Row 8 has a solid wall at (24-25, 8). Rubble completely blocks columns 22-25 across rows 4-7 and 8-15. Completely enclosed on 2F ground level with no ground-level shutter doors; access is exclusively via drop-in from 3F.
