@@ -81,3 +81,7 @@
 - Row 2 Rock Barrier: Solid rock wall across cols 5..10 separates Row 1 from Row 3.
 - (14, 9): Rock wall (blocks westward traversal along Row 9).
 - Empirical West Perimeter: (2, 1), (2, 2), (2, 3) are rock walls (blocks westward traversal from Column 3 directly into Ladder A chamber).
+- Empirical Central/South Barriers:
+  - (15, 12), (16, 13), (15, 16), (14, 14), (14, 15): Rock walls.
+  - (13, 10..14): Rock walls (blocks westward traversal from Column 14/15 into Column 12).
+  - (15, 15) connects only east to (19, 15) (dead-end pocket).
