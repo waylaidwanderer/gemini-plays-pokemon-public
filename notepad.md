@@ -3608,5 +3608,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 13 (cols 10-13) provides safe passage behind trainer (11, 14).
 - Row 16 connects west into column 7 corridor at (8, 16).
 - Shutter Door 4: Located at (5, 16), currently CLOSED. Opens upon answering Question 4 correctly.
+- Chamber 5 Question: "Are thunder moves effective against ground-type POKéMON?" [Verified Turn 14745] (Answer: NO)
 
 <hr>
