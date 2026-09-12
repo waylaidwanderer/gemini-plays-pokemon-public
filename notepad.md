@@ -3387,5 +3387,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South boundary: Solid rubble wall across columns 2-9 at row 6.
 - Furniture: Display case at (10, 4-5) flanked by rubble at (9, 4-5) and open passage along column 11.
 - East Exit: Row 3 connects east to columns 10-11, wrapping south down column 11 around the display case past row 6 rubble.
+## Central North Hall & East Passage (cols 10-15, rows 1-7)
+- Rubble Obstacles: Spans (10-13, 1) and (12-13, 2-3).
+- Display Case: Located at (10, 4-5) blocking column 10 at rows 4-5.
+- Eastern Aisle (Col 14): Continuous open pink floor running north-south along column 14 (rows 1-7), bounded on the east by vertical wall at column 15.
+- Open Hall: Columns 11-15 (rows 4-5) and columns 10-14 (rows 6-7) form a wide open junction.
+- South Exit: Wide passage across columns 10-14 extends south past row 7.
 
 <hr>
