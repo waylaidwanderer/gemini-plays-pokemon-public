@@ -2980,7 +2980,10 @@
 ## Collision Matrix & Verified Passages (2F)
 - Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall. To reach NW Sector / Ladder A, take 1F canal to Ladder E (7, 1).
 - Row 11 Thoroughfare: cols 14..24 are open cave floor connecting Column 23 at (23, 11) directly west to Column 19 at (19, 11).
-- Column 15 Western Bypass: connects Row 11 at (15, 11) north to Row 7 at (15, 7). Row 7 runs east across (15..19, 7) directly into Ladder C at (19, 7).
+- Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
+- Central Maze Topology (Verified Turn 47881):
+  - Ladder C at (19, 7) connects west via (18, 7) -> (18, 8..9) -> (15..17, 9) -> (13..15, 8) to the northern corridors.
+  - Row 11 at (15..23, 11) is a lower thoroughfare connecting east to Ladder B at (22, 6) and south via (14..19, 12..15).
 - Row 10 Barrier: Solid rock wall across cols 13..22.
 - Row 16 Barrier: Solid rock wall across cols 14..20.
 - Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
