@@ -22,3 +22,9 @@
 - Trainer at (10, 1): Blackbelt (Machoke Lv 38, Machop Lv 38, Machoke Lv 38) [Defeated Turn 15054]. Defeated sprite remains solid, blocking direct westward passage into column 10.
 - Chute at (18, 2): DOWN-spinner pointing down column 18, which terminates at row 11 bumper block (18, 11) by the entrance mat (reset trap).
 - Row 2 Corridor: (12..16, 2) open horizontal floor between row 1 and row 3 counters.
+
+## Surveyed Trainers
+- Trainer at (10, 7): facing Right along row 7.
+- Trainer at (12, 7): facing Down along col 12.
+- Trainer at (13, 5): facing Down along col 13.
+- Trainer at (11, 11): facing Down along col 11.
