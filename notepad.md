@@ -173,6 +173,7 @@
 - CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 - RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
+- TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -3535,7 +3536,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## West Wing & Secret Key Chamber (cols 1-8, rows 1-8)
 - Accessed via Shutter Door at (9, 6-7) [OPEN in State B].
 - Contains large table at (4-5, 4-5).
-- Item Ball sighted at (5, 4) [Turn 14674].
+- Item Ball at (5, 4): TM22 (SOLARBEAM) collected [Turn 14675].
+- Open passage south at (4-5, 8) connects northern chamber to southern statue hall.
 - Open pink checkerboard floor across rows 2-7.
 
 <hr>
