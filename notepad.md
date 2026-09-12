@@ -2905,6 +2905,26 @@
 
 <h1><code>Locations/CeruleanCave1F</code></h1>
 
+# Cerulean Cave (Unknown Dungeon) 1F - Layout & Topology
+
+## Overview
+- Ground floor of Cerulean Cave (Unknown Dungeon), accessed from the Cerulean City northwest waterway pool.
+
+## Key Landmarks & Layout
+- **Entrance Mat**: Located at (24..25, 17). Leads south back to Cerulean City waterway.
+- **Lower Floor (East/South)**: Columns 21..25, rows 11..16. Open ground accessible directly from entrance mat.
+- **Ascending Ramp**: Located at (21, 11). Connects lower floor to Upper Plateau.
+- **Upper Plateau**: Located at rows 6..10, cols 21..25. Contains Ladder B at (23, 7). Elevation boundary along row 5 blocks Surfing north into water from the plateau.
+- **Central Corridor (Isolated)**: Columns 17..18, rows 9..15. Contains Ladder C at (18, 9) and Water Ramp at (17, 15). Separated from eastern lower floor by a solid vertical rock wall along cols 19..20.
+- **Water Ramp**: Located at (17, 15). Allows boarding the central water canal at (16, 15).
+- **Central Water Canal**: Runs along column 16 from row 15 north to row 1, leading towards northwest waterway corridors and Ladder E at (7, 1).
+- **Northeast Terrace**: Columns 23..29, rows 0..3. Contains Ladder D at (27, 1) <-> 2F (29, 1). South border at row 3 is blocked by rock/ledge.
+
+## Verified Ladders (1F)
+1. **Ladder B**: Located at (23, 7) [Upper Plateau] <-> 2F (22, 6).
+2. **Ladder C**: Located at (18, 9) [Central Corridor] <-> 2F (19, 7).
+3. **Ladder D**: Located at (27, 1) [Northeast Terrace] <-> 2F (29, 1).
+4. **Ladder E**: Located at (7, 1) [Northwest Waterway] <-> 2F (9, 1).
 
 
 <hr>
@@ -2914,26 +2934,26 @@
 # Cerulean Cave (Unknown Dungeon) 2F - Layout & Notes
 
 ## Connected Component Graph (2F)
-- **Unified Sector Structure**:
-  1. **West Sector (cols 1..9, rows 0..5)**: Reachable via Ladder E at (9, 1) <-> 1F (7, 1) or via Row 1 North Bypass. Contains Ladder A at (1, 3), which descends directly to B1F (Mewtwo).
-  2. **Central & North Sector (cols 11..22, rows 1..10)**: Reachable via Ladder C at (19, 7) <-> 1F (18, 9), S-Bypass (19, 7 <-> 22, 4 <-> 18, 1), and Row 1 North Bypass (1..18, 1).
+- **Sector Breakdown**:
+  1. **West Sector (cols 1..9, rows 0..5)**: Reachable via Ladder E at (9, 1) <-> 1F (7, 1). Contains Ladder A at (1, 3), which descends directly to B1F (Mewtwo).
+  2. **Central & North Sector (cols 11..22, rows 1..10)**: Reachable via Ladder C at (19, 7) <-> 1F (18, 9) and connector passageways.
   3. **Southeast Artery (cols 23..29, rows 4..19)**: Reachable via Ladder B at (22, 6) <-> 1F (23, 7). Connects via Column 23 -> Row 11/13 -> Row 17 South Artery -> Column 28 -> Ladder D at (29, 1).
 
-## Verified Open Passageways (2F)
-- **Ladder B to North Bypass Thoroughfare**:
-  - Ladder B landing at (22, 7) -> (23, 7..11) -> (17, 11..13) -> (22, 13..15) -> (21, 15..17) -> Row 17 South Artery -> (28, 17..14) -> (26, 14..9) -> (25, 9..7) -> (27, 7..6) -> (29, 6..3) -> (28, 3..2) -> (29, 1) Ladder D!
+## Verified Ladders (2F)
+1. **Ladder A**: Located at (1, 3) -> Descends to B1F.
+2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
+3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
+4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
+5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
-- Item Pok�ball at (29, 9) collected (PP Up).
-- Item Pok�ball at (13, 6) collected (Max Potion).
-- Item Pok�ball at (4, 15) collected (TM14 Blizzard).
+- Item Pok� Ball at (29, 9) collected (PP Up).
+- Item Pok� Ball at (13, 6) collected (Max Potion).
+- Item Pok� Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
 
-## Southeast Sector Topology
-- Connects Ladder B (22, 6) via Column 23 -> Row 11/13 -> Row 17 South Artery (cols 21..27) -> Column 28 (rows 16..8).
-- Column 29 (rows 1..6) connects directly to Ladder D at (29, 1).
 
 <hr>
 
