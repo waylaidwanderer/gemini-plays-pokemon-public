@@ -146,4 +146,5 @@
 | 2F Central Shutter (8-10, 8) | OPEN [Turn 13833] | CLOSED [Turn 13832, 14344] |
 | 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069, 14357] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | OPEN [Turn 14405] |
-| B1F East Shutter (26-27, 17) | UNTESTED (Hypothesized OPEN) | CLOSED [Turn 14590] |
+| B1F East Shutter (26-27, 17) | OPEN (Hypothesized) | CLOSED [Turn 14590] |
+| B1F Corridor Shutter (16-17, 16) | CLOSED [Turn 14629] | OPEN [Turn 14567, 14615] |
