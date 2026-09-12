@@ -3292,5 +3292,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Unobstructed vertical walkway runs down column 26 from row 4 past row 11 [Verified Turn 13727].
 - Eastern Room Southern Exit: Horizontal wall at (26-28, 13) and rubble at (22-23, 12-13). Open doorway at (24-25, 13) connects into a wide southern hall spanning rows 14-15+ (cols 22-27+) [Verified Turn 13728].
 - Southern Corridor & Shutter: Hallway at rows 14-16 connects west past column 21. Second shutter door at (21, 17). Wall spans (22-23, 17) and (26-28, 17). Open doorway at (24-25, 17) leads south into row 18+ [Verified Turn 13729].
+- Southeast Sector: Vertical wall along column 24 (rows 19-22+). Wide open room east of column 24 spanning columns 25-28 (rows 19-22+). Clear walkway down column 25 [Verified Turn 13731].
 
 <hr>
