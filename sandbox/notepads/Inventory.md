@@ -126,3 +126,6 @@
   - Status: Healthy
   - Received: Fighting Dojo prize [Turn 13254]
   - Transferred to PC Box 1 (Active Party full)
+- PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
+  - Status: Healthy
+  - Deposited from active party [Turn 13315]
