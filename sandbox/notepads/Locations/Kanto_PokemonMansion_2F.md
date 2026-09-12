@@ -5,7 +5,7 @@
 - Landing: Arriving from 1F places player at (5, 11) facing Up [Verified Turn 13813, 14156].
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
-- Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15), (6-10, 16-17), and column 10 (rows 9-16). South boundary wall at row 17 across columns 1-5.
+- Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15) and (6-10, 16-17). South boundary wall at row 17 across columns 1-5.
 - NPC Trainer: Located at (6, 11) facing East [Verified Turn 13813].
 - Pokémon Mansion Diary: Located at (6, 12) on a book pedestal [Verified Turn 13813].
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).

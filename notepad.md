@@ -3344,7 +3344,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Landing: Arriving from 1F places player at (5, 11) facing Up [Verified Turn 13813, 14156].
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
-- Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15), (6-10, 16-17), and column 10 (rows 9-16). South boundary wall at row 17 across columns 1-5.
+- Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15) and (6-10, 16-17). South boundary wall at row 17 across columns 1-5.
 - NPC Trainer: Located at (6, 11) facing East [Verified Turn 13813].
 - Pokémon Mansion Diary: Located at (6, 12) on a book pedestal [Verified Turn 13813].
 - Rubble Obstacles: Massive rubble field blocks columns 3-4 (rows 7-15) and (8-10, 12-15).
@@ -3455,31 +3455,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South boundary: Solid exterior wall at row 17 across columns 22-28.
 - Staircase to 2F: Located at (25, 14) connecting to 2F Southeast Chamber (25, 14).
 - Conclusion: No balcony drop exists in this room. The balcony gaps are strictly located in the Southern Balcony Chamber at (16-17, 14) and (19, 14).
-
-<hr>
-
-<h1><code>Scratchpad/Staircase_Audit</code></h1>
-
-# 2F Staircase / Warp Audit Protocol
-
-## Objective
-Systematically test candidate tiles in Pokémon Mansion 2F Central Hall to locate the descent to 1F or verify traversability.
-
-## Candidate Matrix
-- Tile (5, 10): Occupied on Turns 14437-14465. Flat pink floor; NO warp triggered.
-- Tile (6, 10): Open pink floor connecting east.
-- Tile (7, 10): Dark background tile with ascending bars graphic. Testing physical collision and warp trigger.
-- Tile (5, 11): Flat pink floor, previously traversed.
-- Tile (7, 11): Flat pink floor below (7, 10).
-
-## Log
-- Turn 14465: Player at (5, 10). Initiating test sequence towards (7, 10). First stepping Right to (6, 10).
-- Turn 14471: Player stepped Down to (7, 11). Confirmed (7, 11) is flat floor.
-- Visual Audit: Tile (7, 10) displays dark graphic with vertical bars; physically tested from west (traversable) and south (solid bump).
-- Next Test: Step Up from (7, 11) into (7, 10).
-- Turn 14477: Stepped Up from (7, 11) toward (7, 10) - collided/bumped. Tile (7, 10) is solid from the south and is not an entry warp.
-- Turn 14481: Facing North at (7, 11). Testing 'A' interaction on (7, 10).
-- Turn 14483-14484: Pressed 'A' facing (7, 10). No dialogue or interaction triggered.
-- Turn 14504-14505: Stepped Left from (6, 10) into (5, 10). Triggered map transition to Pokémon Mansion 1F! Player arrived at 1F (5, 10) on red carpet. 2F to 1F staircase at (5, 10) empirically verified! Audit successfully complete.
 
 <hr>
