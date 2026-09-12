@@ -1,17 +1,22 @@
 # Cerulean Cave Active Investigation & Routing
 
-## Verified Facts & Floor Connectivity
-- **1F Layout**:
-  - Entrance Mat at (24..25, 17) connects to Cerulean City NW pool.
-  - Ascending Ramp at (21, 11) leads up to Upper Plateau.
-  - Ladder B at (23, 7) <-> 2F (22, 6) [Upper Plateau].
-  - Central Corridor contains Ladder C at (18, 9) and Water Ramp at (17, 15).
-  - Water Ramp at (17, 15) enters canal at (16, 15) leading north to Ladder E at (7, 1).
-  - NE Terrace (cols 21..29, rows 0..3): Ladder D at (27, 1) <-> 2F (29, 1). Passable water ramp at (23, 3) descends south directly into water canal at (23, 4).
-- **2F Layout**:
-  - Southeast Sector: Ladder B at (22, 6). Path through Row 11/13 -> Row 17 South Artery -> Column 28/29 -> (26, 14..12) -> (24, 12..10) -> (25, 10..7) -> (27, 7..6) -> (29, 6..3) -> (28, 3..1) -> Ladder D at (29, 1).
-  - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
-- **Active Operational Plan**:
-  - Step 1: Use Surf at (23, 3) to board 1F water canal at (23, 4).
-  - Step 2: Surf west along canal to reach Ladder E (7, 1) / Northwest sector.
-  - Step 3: Descend ladder to B1F Mewtwo chamber.
+## Verified Master Route to B1F Mewtwo
+1. **1F Water Canal Traversal** (Completed):
+   - Used water ramp at (23, 3) to Surf west along 1F central canal.
+   - Disembarked at water ramp (15, 3) onto 1F Northern Terrace.
+   - Ascended Ladder E at (7, 1) to 2F West Sector at (9, 1).
+
+2. **2F Traversal to Ladder A (1, 3)** (Active):
+   - Current Position: (11, 1) on Row 1 North Bypass.
+   - Step A: Walk East along Row 1 to (15, 1) -> (15, 3) -> (16, 3) -> (20, 3) -> (22, 4) -> Column 23 -> Row 11.
+   - Step B: Walk West along Row 11 across cols 23..12 to (12, 11).
+   - Step C: Walk North up Column 12 to (12, 9) [Row 9].
+   - Step D: Walk West along Row 9 across cols 11..7 to (7, 9).
+   - Step E: Walk North to (7, 5) -> (6, 5).
+   - Step F: Walk West along Row 5 across cols 5..0 to (0, 5).
+   - Step G: Walk North up Column 0 to (0, 3) and step East onto Ladder A at (1, 3)!
+   - Step H: Descend Ladder A to B1F.
+
+3. **B1F Mewtwo Capture**:
+   - Navigate B1F to Mewtwo's platform.
+   - Initiate battle and throw Master Ball on Turn 1 for guaranteed capture!
