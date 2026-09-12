@@ -30,7 +30,8 @@
 - Wall at row 17 spans columns 1-9.
 - Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
-- Column 9 vertical wall connects directly into row 8 horizontal wall at (9, 8-9). Continuous solid vertical wall spans rows 8-17, dividing west room (cols 1-8) from central corridor (cols 10-12) [Verified visually Turn 14599]. Entrance to west room must be accessed via columns 1-5 from row 18.
+- Column 9 vertical wall connects directly into row 8 horizontal wall at (9, 8-9). Continuous solid vertical wall spans rows 8-17, dividing west room (cols 1-8) from central corridor (cols 10-12) [Verified visually Turn 14599].
+- Row 17 is a solid horizontal wall across columns 1-8 dividing rows 14-16 from row 18 [Verified visually Turn 14605]. Direct southern access from row 18 into the west statue room is disproven.
 ## Northern Corridor & Row 8 Wall (cols 10-24, rows 5-9)
 - Row 8 is a solid continuous horizontal wall from column 6 east to at least column 23 [Verified Turns 14581, 14586, 14587].
 - Row 9 is wide open pink floor across columns 10 to 24.
