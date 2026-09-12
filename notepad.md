@@ -2936,6 +2936,7 @@
 - Open Corridor to Ladder B: (21, 12..14) is open floor leading north towards Ladder B at (23, 7).
 - Row 6 North Corridor: (20, 6) is a solid rock wall blocking direct west traversal from (21, 6) into (19, 6). The 1F floor is partitioned by rock walls into disconnected sectors.
 - Western Corridor: Columns 17-18 (rows 6..15) are open floor leading straight south from Row 6 past Ladder C (18, 9) to Water Ramp at (17, 15).
+- Entrance to Ladder B Corridor: From 1F entrance (24, 17), direct north path is blocked by boulders at (24, 13) and (25, 13). Passable route steps West to Column 21 at (21, 17..14), runs North through (21, 13..10) past ramp (21, 11), steps East to (22, 10), and ascends Column 22 (22, 9..7) to reach Ladder B at (23, 7).
 
 <hr>
 
