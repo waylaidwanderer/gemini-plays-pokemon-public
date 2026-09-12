@@ -3615,5 +3615,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer at (3, 14) facing South.
 - Safe route to Quiz Machine 5: Walk north along col 5 to row 13, then west along row 13 behind the trainer to (2, 13), down to (2, 14), left to (1, 14), avoiding trainer line of sight.
 - Shutter Door 5: Located at (4-5, 12), currently CLOSED. Opens upon answering Question 5 correctly.
+- Chamber 6 Question: "POKéMON of the same kind and level are not identical?" [Verified Turn 14763] (Answer: YES)
 
 <hr>
