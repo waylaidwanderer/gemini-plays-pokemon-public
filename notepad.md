@@ -3335,4 +3335,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southwest Room Layout: Extends south to row 17 boundary wall (cols 1-5). Rubble at (1-3, 14-15) and (6-10, 16-17).
 - Item Ball at (1, 16) collected [Turn 13825]: Escape Rope x1 [Verified Turn 13828]. Southwest pocket cleared.
 
+## Eastern Wing (cols 18-23, rows 3-11)
+- Open corridors span columns 18-21 across rows 3, 4, 6, 7, 9, 10, 11 [Verified Turn 13851].
+- Display tables at (20-21, 5) and (20-21, 8).
+- Rubble barrier along columns 22-23 (rows 4-5, 8-11).
+- Open passage east at (22-23, 3) and (22, 6-7).
+- Structure at (18-19, 3): Brown wooden fixture with horizontal bars, bordered by open floor at (16-17, 3) and (20-23, 3) [Verified Turn 13851].
+
 <hr>
