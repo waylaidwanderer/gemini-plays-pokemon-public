@@ -3022,6 +3022,7 @@
 ### Empirical Wall & Obstacle Log (2F)
 - (19, 10): SOLID ROCK (Tested Turn 46316 - blocked northward step from 19, 11)
 - (15, 10): SOLID ROCK (Tested Turn 46318 - blocked northward step from 15, 11)
+- (14, 10): SOLID ROCK (Tested Turn 46324 - blocked northward step from 14, 11)
 
 ### Active Phase: Probing Row 11 -> Row 9 Northbound Junctions
 - Current Position: (15, 11)
