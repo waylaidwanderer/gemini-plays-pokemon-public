@@ -18,3 +18,9 @@
 - Wide open pink checkerboard floor across columns 10-24 and rows 10-15.
 - Doorway at (16-17, 16-17) leads south into western corridor flanked by dial machines at (15, 17) and (18-19, 17), leading south to Item Ball at (19, 25).
 - Main hallway extends West along rows 10-15 into the B1F West Wing (Secret Key chambers).
+## Central-West Corridor & Statue Aisle (cols 7-18, rows 10-18)
+- Massive open pink floor across columns 10-14, rows 10-18.
+- Column 9 vertical wall divider spans rows 10-16.
+- Column 7-8 contains Pokémon statues at (7, 11) and (7, 15), with potted plants at (7, 10) and (7, 14).
+- Row 17 wall blocks columns 7-9.
+- Row 18 is open across columns 7-13, providing a southern westward avenue into the Southwest Wing.

@@ -134,6 +134,7 @@
 - [x] Return to Pallet Town via Diglett's Cave, Route 2, and Route 1 [Turn 13636]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Heal at Cinnabar Island Pokémon Center and register warp anchor [Turn 13690]
+- [x] Reach Pokémon Mansion B1F via 3F western balcony drop to 1F enclosed chamber [Turn 14565]
 
 ## Mansion Switch-State Matrix
 | Shutter / Door Location | State A (Default) | State B (Toggled) |

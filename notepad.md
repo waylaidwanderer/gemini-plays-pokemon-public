@@ -136,6 +136,7 @@
 - [x] Return to Pallet Town via Diglett's Cave, Route 2, and Route 1 [Turn 13636]
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Heal at Cinnabar Island Pokémon Center and register warp anchor [Turn 13690]
+- [x] Reach Pokémon Mansion B1F via 3F western balcony drop to 1F enclosed chamber [Turn 14565]
 
 ## Mansion Switch-State Matrix
 | Shutter / Door Location | State A (Default) | State B (Toggled) |
@@ -3479,5 +3480,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wide open pink checkerboard floor across columns 10-24 and rows 10-15.
 - Doorway at (16-17, 16-17) leads south into western corridor flanked by dial machines at (15, 17) and (18-19, 17), leading south to Item Ball at (19, 25).
 - Main hallway extends West along rows 10-15 into the B1F West Wing (Secret Key chambers).
+## Central-West Corridor & Statue Aisle (cols 7-18, rows 10-18)
+- Massive open pink floor across columns 10-14, rows 10-18.
+- Column 9 vertical wall divider spans rows 10-16.
+- Column 7-8 contains Pokémon statues at (7, 11) and (7, 15), with potted plants at (7, 10) and (7, 14).
+- Row 17 wall blocks columns 7-9.
+- Row 18 is open across columns 7-13, providing a southern westward avenue into the Southwest Wing.
 
 <hr>
