@@ -135,6 +135,7 @@
 - [x] Traverse Route 21 and arrive on Cinnabar Island [Turn 13675]
 - [x] Heal at Cinnabar Island Pokémon Center and register warp anchor [Turn 13690]
 - [x] Reach Pokémon Mansion B1F via 3F western balcony drop to 1F enclosed chamber [Turn 14565]
+- [x] Obtain Secret Key on Pokémon Mansion B1F [Turn 14678]
 
 ## Mansion Switch-State Matrix
 | Shutter / Door Location | State A (Default) | State B (Toggled) |
