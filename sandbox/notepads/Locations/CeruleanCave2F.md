@@ -40,7 +40,8 @@
 - Central Maze Topology (Verified Turn 47881):
   - Ladder C at (19, 7) connects west via (18, 7) -> (18, 8..9) -> (15..17, 9) -> (13..15, 8) to the northern corridors.
   - Row 11 at (15..23, 11) is a lower thoroughfare connecting east to Ladder B at (22, 6) and south via (14..19, 12..15).
-- Row 10 Barrier: Solid rock wall across cols 13..22.
+- Row 14 & 15 Western Barrier: (14, 14) and (14, 15) are solid rock walls blocking direct westward passage from (15, 14..15).
+- Row 15 Dead-End Pocket: Row 15 extends east across (16..19, 15). (17, 16) and (19, 16) are solid rock walls below it; (20, 15) is a solid rock wall to the east. Traversal south or east from Row 15 is blocked.
 - Row 16 Barrier: Solid rock wall across cols 14..20.
 - Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
 - Northwest Sector & Ladder A Route: Connected via Row 5 (0..6, 5) -> Column 0 (0, 1..5) -> (1, 1) -> (1, 2) -> Ladder A at (1, 3). Note: Direct passage west from (3, 3) to (1, 3) is blocked by solid rock wall at (2, 3). Ladder E at (9, 1) is an elevated ledge connecting west to (3, 1..3) and east via (9, 4) -> Row 5 (11..16, 5) -> Row 1 (12..18, 1) to Ladder C (19, 7).
