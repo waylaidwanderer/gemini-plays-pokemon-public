@@ -8,6 +8,7 @@
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - TM29 (PSYCHIC) x1 [Received Turn 12671 from Mr. Psychic]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
+- TM46 (PSYWAVE) x1 [Received Turn 13175 from Sabrina]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -24,7 +25,7 @@
 - CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 20 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. HM05
@@ -45,6 +46,7 @@
   17. TM29 x1
   18. CARD KEY
   19. MASTER BALL x1
+  20. TM46 x1
 
 ## Stored / PC Items
 - OLD ROD x1 (PC) [Stored Turn 12567]
