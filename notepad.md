@@ -2983,7 +2983,7 @@
 - Row 10 Barrier: Solid rock wall across cols 13..22.
 - Row 16 Barrier: Solid rock wall across cols 14..20.
 - Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
-- Row 1 North Bypass: Continuous open floor across cols 3..24 at Row 1 leading straight to Ladder A chamber.
+- Northwest Sector & Ladder A Route: Connected via Ladder E at (9, 1) -> Row 1 West to (3, 1) -> (3, 3) -> Column 6 (6, 3..5) -> Row 5 (0..6, 5) -> Column 0 (0, 3..5) -> Ladder A at (1, 3).
 - Column 26 North Corridor: (26, 10..14) is open vertical floor connecting Row 14 at (27..28, 14) north past the (28, 13) rock barrier to Row 9 and the northern sectors.
 
 <hr>
