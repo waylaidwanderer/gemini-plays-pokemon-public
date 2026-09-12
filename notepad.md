@@ -202,11 +202,11 @@
 - ¥95509 [Turn 13043]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 57, Water]
-  - Status: Healthy [Healed Turn 13066]
-  - HP: 179 / 179
-  - Stats: Attack 132, Defense 153, Speed 132, Special 135
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 13/15), Surf (PP 15/15), Ice Beam (PP 10/10) [Healed Turn 13066]
+- BLASTOISE (Nickname: SHELDON) [Lv 58, Water]
+  - Status: Healthy
+  - HP: 171 / 182
+  - Stats: Attack 134, Defense 156, Speed 134, Special 138
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 8/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -3204,7 +3204,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 5 (Southwest Room)**:
   - Interior Bounds: cols 1..5, rows 13..17.
-  - Trainer: Channeler at (3, 13) facing South. Team: Gastly Lv 33, Gastly Lv 33, Haunter Lv 33 (in progress).
+  - Trainer: Channeler at (3, 13) facing South. Team: Gastly Lv 33, Gastly Lv 33, Haunter Lv 33. Defeated Turn 13142. Prize: ¥990.
   - Warp Tiles:
     - Top-Right (5, 15): <---> Room 2 (Southeast) (15, 17) [Verified Turn 13131].
     - Top-Left (1, 15): [Untested].

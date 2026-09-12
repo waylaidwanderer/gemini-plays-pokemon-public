@@ -57,7 +57,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 5 (Southwest Room)**:
   - Interior Bounds: cols 1..5, rows 13..17.
-  - Trainer: Channeler at (3, 13) facing South. Team: Gastly Lv 33, Gastly Lv 33, Haunter Lv 33 (in progress).
+  - Trainer: Channeler at (3, 13) facing South. Team: Gastly Lv 33, Gastly Lv 33, Haunter Lv 33. Defeated Turn 13142. Prize: ¥990.
   - Warp Tiles:
     - Top-Right (5, 15): <---> Room 2 (Southeast) (15, 17) [Verified Turn 13131].
     - Top-Left (1, 15): [Untested].
