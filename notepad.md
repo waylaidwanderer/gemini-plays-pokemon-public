@@ -3440,6 +3440,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Room Layout: Open pink floor spanning columns 23-27 across rows 2-8.
 - Rubble: Bounded on east by rubble along columns 26-27 (rows 1-3) and (27, 4-5). Rubble at (24-25, 1).
 - Item Ball: Located at (25, 5). Obtained IRON x1 [Turn 14029, Verified Turn 14047].
-- South Corridor: Open floor across columns 24-28 (rows 6-8) bounded on south by row 9 solid wall (bump tested Turn 14168 at (25, 8) facing Down). Open pink floor visible on rows 10-12 below, but inaccessible from row 9.
+- South Corridor: Open floor across columns 24-28 (rows 6-8). Verified Turn 14238: row 9 is solid wall across ALL columns (24-28, 9). No ledge or break. Lower rows 10-12 (with NPC trainer at 20, 11) accessed exclusively via shutter at (15, 10-11).
 
 <hr>
