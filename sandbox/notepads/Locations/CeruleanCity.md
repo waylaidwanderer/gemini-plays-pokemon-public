@@ -67,7 +67,7 @@
   - Row 20: Open east-west corridor (cols 7-28).
   - Row 30: Southern bypass (cols 6-37) connecting Route 5 entrance (27, 35) to East Avenue (37, 30).
   - Columns 36-37: East Avenue running north-south between row 8 (Northern Highway) and row 30.
-  - Rows 8-13: Northern Highway connecting East Avenue (col 37) to NW Waterway Pool (cols 4-6) and Burglarized House backyard (27, 9).
+  - Rows 8-13: East Avenue (col 37) connects west to Burglarized House backyard at (27..32, 7..9). Solid tree lines block westward passage across Row 8 at Column 20 and across Row 9 at Column 25. The NW Waterway Pool is separated by a stone wall at Column 7 and is accessed via the water canal from Route 24.
 
 ## Verified Transition & Shoreline Coordinates (Turns 46255-46280)
 - Northern Boundary to Route 24: (20..21, 4..0) connects directly north to Route 24 Nugget Bridge at (10..11, 35).
