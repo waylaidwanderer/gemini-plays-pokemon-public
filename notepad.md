@@ -3011,10 +3011,11 @@
      - Descend Ladder D to 1F NE Terrace (27, 1).
 
 2. **1F NE Terrace to NW Terrace via Water Canal**:
-   - On 1F NE Terrace: Walk West to water ramp at (23, 3) [4x Left, 2x Down].
-   - Face Down at (23, 3) and use SURF with HYDROS into the canal at (23, 4).
-   - Surf West and North through the canal to NW water ramp at (15, 3) / (7, 3).
-   - Disembark onto NW Terrace and walk to Ladder E at (7, 1).
+   - On 1F NE Terrace: Walk West to water ramp at (23, 3).
+   - Dismount Bicycle, face Down at (23, 3) and use SURF with HYDROS into the canal at (23, 4).
+   - Surf West 7 tiles along Row 4 from (23, 4) to (16, 4), then Left to (15, 4).
+   - Step North at (15, 4) onto water ramp at (15, 3) to disembark onto Northern Terrace.
+   - Walk West along northern floor (Row 2/1) to Ladder E at (7, 1) [8x Left, 1x Up].
    - Ascend Ladder E to 2F West Sector at (9, 1).
 
 3. **2F West Sector to Ladder A (1, 3)**:
