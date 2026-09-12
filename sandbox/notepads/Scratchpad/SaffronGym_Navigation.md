@@ -66,9 +66,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - **Room 6 (Northwest Room)**:
   - Interior Bounds: cols 0..5, rows 1..5.
-  - Trainer: Psychic at (3, 1) facing South. Team: Slowbro Lv 38 (1 Pokémon total, in progress).
+  - Trainer: Psychic at (3, 1) facing South. Team: Slowbro Lv 38. Defeated Turn 13152. Prize: ¥380.
   - Warp Tiles:
     - Top-Left (1, 3): <---> Room 4 (Northeast) (15, 5) [Verified Turn 13145].
-    - Top-Right (5, 3): [Untested].
+    - Top-Right (5, 3): [Testing Turn 13153].
     - Bottom-Left (1, 5): [Untested].
     - Bottom-Right (5, 5): [Untested].
