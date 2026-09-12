@@ -13,3 +13,5 @@
 - West Room Geography: Rubble field covers columns 1-4 (rows 6-9). Open floor spans columns 1-5 (rows 10-13+).
 - North Structure: Doorway/opening visible at (10, 5) separated from south by rubble at rows 6-7.
 - Column 5 Path: Open pink floor runs south from row 9 to row 13+.
+- Southwest Room Layout: Extends south to row 17 boundary wall (cols 1-5). Rubble at (1-3, 14-15) and (6-10, 16-17).
+- Item Ball: Located at (1, 16) in southwest corner [Spotted Turn 13820].
