@@ -4,11 +4,11 @@
 
 ## Status
 
-- Badges: 7 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge)
+- Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
 - Active Team: Blastoise (SHELDON) Lv 61, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥112437 [Turn 15076]
+- Money: ¥117387 [Turn 15112]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -141,6 +141,7 @@
 - [x] Unlock Cinnabar Gym with Secret Key and enter [Turn 14687]
 - [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
+- [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 
 <hr>
 
@@ -165,6 +166,7 @@
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 - TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
+- TM27 (FISSURE) x1 [Received Turn 15114 from Gym Leader Giovanni]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -173,7 +175,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 20 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -194,6 +196,7 @@
   17. TM22 (SOLARBEAM) x1
   18. SECRET KEY x1
   19. TM38 (FIRE BLAST) x1
+  20. TM27 (FISSURE) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -220,14 +223,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥112437 [Turn 15076]
+- ¥117387 [Turn 15112]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 61, Water]
   - Status: Healthy
   - HP: 193 / 193
   - Stats: Attack 142, Defense 165, Speed 142, Special 146
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 4/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 9/15), Surf (PP 3/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 13690 at Cinnabar Center]
   - HP: 26 / 26
