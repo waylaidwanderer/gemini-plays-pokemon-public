@@ -18,7 +18,6 @@
 ## Wild Encounters (2F)
 - Ditto, Chansey, Venomoth, Kadabra, Dodrio, Rhydon, Electrode, Marowak, Wigglytuff.
 
-## Southeast Sector Navigation Path (Verified Turns 45607-45612)
-- From Ladder D corridor (27, 6): Move down to (27, 8), right to (28, 8), down column 28 to (28, 16).
-- From (28, 16): Left to (27, 16), down to (27, 17) enters the Row 17 South Artery.
-- Row 17 South Artery provides continuous westward passage across cols 27..21.
+## Southeast Sector Topology
+- Connects Ladder B (22, 6) via Column 23 -> Row 11/13 -> Row 17 South Artery (cols 21..27) -> Column 28 (rows 16..8).
+- Column 29 (rows 1..6) connects directly to Ladder D at (29, 1).

@@ -14,5 +14,4 @@
   - Row 17 South Artery terminates west at Column 21 against solid rock wall at (20, 17).
   - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
 - **Candidate Unexplored Pathways**:
-  - 1F Entrance Basin: Test Surfing contact along cols 20..25, rows 11..17 to find water entry.
-  - 2F Row 1 North Bypass: Test west traversal along Row 1 from Ladder D (29, 1) across cols 28..1 to reach Ladder A (1, 3).
+    - 2F Row 1 North Bypass: Test west traversal along Row 1 from Ladder D (29, 1) across cols 28..1 to reach Ladder A (1, 3).
