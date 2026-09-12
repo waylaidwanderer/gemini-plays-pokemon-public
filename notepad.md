@@ -2925,8 +2925,9 @@
 
 ## Verified Landmarks & Coordinates (1F)
 1. **Cave Entrance / Exit**: (24, 17) / (25, 17) entrance mat; stepping Down to (24, 18) exits outside to Cerulean City NW pool.
-2. **Ladder B**: Located at (21, 11) <-> connects to 2F (22, 6).
-3. **Water Ramp (West)**: Located at (17, 15) leading into western canal.
+2. **Ladder B**: Located at (23, 7) <-> connects to 2F (22, 6).
+3. **Ladder C**: Located at (18, 9) <-> connects to 2F (19, 7).
+4. **Water Ramp (West)**: Located at (17, 15) leading into western canal.
 
 ## Collision Matrix & Barriers (1F)
 - Column 19 Solid Wall: Column 19 (rows 11..19) is a solid continuous rock wall separating the entrance / Ladder B sector (cols 20..25) from the western water ramp sector (cols 16..18). Traversal directly west along rows 14-15 is completely blocked.
