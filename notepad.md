@@ -3436,13 +3436,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Southern Balcony Chamber (cols 15-21, rows 10-14)
 - Accessed via East Shutter at (15, 10-11), confirmed OPEN in State B [Verified Turn 14405].
 - Shutter Doorway: Located at (15, 10). Rubble at (16-17, 10) requires stepping down to (15-16, 11) to bypass into the chamber.
-- NPC Trainer: Scientist located at (20, 11) facing West; stepped to (19, 11) upon engaging [Defeated Turn 14417].
+- NPC Trainer: Scientist located at (20, 11) facing West [Defeated Turn 14417].
 - Room Layout: Open pink checkerboard floor spans columns 18-21 (rows 10-12) and column 19 (row 13).
 - Balcony Ledge & Gaps (Row 14):
   - Row 14 is open void/balcony drop-off.
   - Left Gap at (19, 14): Stepping south from (19, 13) into (19, 14) drops player to 2F Central-South Corridor at (18, 14) [Verified Turn 14418-14421].
   - Eastern Edge (cols 20-21, rows 13-14): Untested drop geometry. Systematic survey required.
-
 
 <hr>
 
