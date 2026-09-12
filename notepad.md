@@ -3657,5 +3657,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 10: DOWN-spinner at (16, 10) between vertical walls at cols 15 and 17.
 - Row 9: Gym trainer at (16, 9) facing Down in central chute.
 - Navigation Route: From (17, 12) walk east to (19, 12), step Up onto (19, 11) UP-spinner to ride north.
+- Row 2: Red bumper blocks at (17, 2) and (19, 2) (landing tile of col 19 UP-spinner). DOWN-spinner at (18, 2).
+- Row 1: LEFT-spinner at (19, 1) launches west along row 1 across open corridor (15..18, 1) towards northwest sector.
+- Row 0: Solid northern boundary wall.
 
 <hr>
