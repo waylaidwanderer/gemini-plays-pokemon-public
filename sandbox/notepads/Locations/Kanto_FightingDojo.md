@@ -23,8 +23,9 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
    - Position: (5, 5) facing West into (4, 5).
    - Team: Primeape Lv 36 [Verified Turns 13212-13214].
    - Defeated: Turn 13214. Prize money: ¥900.
-4. **Blackbelt 4 (West/North)**:
-   - Position: (3, 4).
+4. **Blackbelt 4 (West)**:
+   - Position: (3, 4) facing East into (4, 4).
+   - In progress [Engaged Turn 13217].
 5. **Karate Master Koichi (North)**:
    - Position: (5, 3) facing South.
    - Master of the Fighting Dojo.
