@@ -3306,9 +3306,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Crosses above column 9 dividing wall (which runs rows 3-7) without obstruction.
 
 ## Central-East Pedestal Room (cols 14-21, rows 8-12)
-- Accessed via Shutter Door 1 at (16-17, 7), which opened after switch activation [Verified Turn 13762].
-- Explored Turns 13762-13763: Contains two green display pedestals at (16, 10-11) and (18, 10-11).
-- South boundary is a solid horizontal wall at row 13 (cols 12-21). Exhausted dead end with no stairs, switches, or items.
+- Accessed via Shutter Door 1 at (16-17, 7), which opened after switch activation [Verified Turn 13762, 14308].
+- Fully surveyed Turns 13762-13763 & 14310-14321: Contains two green display pedestals at (16, 10-11) and (18, 10-11).
+- North: Shutter 1 at (16-17, 7) and solid wall (13-15, 7), (18-21, 7).
+- West: Solid vertical dividing wall along column 13 (rows 7-13).
+- East: Rubble barrier at columns 20-21 (rows 8-11).
+- South: Solid horizontal dividing wall along row 13 across all columns (12-21, 13).
+- Definitive Conclusion: Enclosed dead end with no stairs, switches, or hidden exits. Access to B1F staircase at (21, 23) is physically impossible from 1F ground level; access requires jumping down from 3F southern balcony.
 
 ## Northeast & Large Eastern Room (cols 22-29, rows 0-13)
 - Northern corridor (rows 1-3) connects east to column 28; building eastern wall is at column 29 (rows 0-15) [Verified Turn 13723].
