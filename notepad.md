@@ -3290,5 +3290,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Room: Wide room spanning columns 23 to 28, accessed via doorway at (26-27, 4) [Verified Turn 13723].
 - Eastern Room Features: Large 2x2 table at (24-25, 8-9). Rubble along column 22 (rows 8-11) and columns 27-28 (rows 10-11).
 - Unobstructed vertical walkway runs down column 26 from row 4 past row 11 [Verified Turn 13727].
+- Eastern Room Southern Exit: Horizontal wall at (26-28, 13) and rubble at (22-23, 12-13). Open doorway at (24-25, 13) connects into a wide southern hall spanning rows 14-15+ (cols 22-27+) [Verified Turn 13728].
 
 <hr>
