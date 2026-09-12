@@ -2976,6 +2976,8 @@
 
 - Column 24 Corridor: Open vertical floor across (24, 11) to (24, 15) [Verified Turn 46363].
 - Central/South Branches: (14, 11..13), (15, 13..15), and Row 15 (cols 15..19) verified open floor [Turn 46387].
+- Row 8 Obstacle: Solid rock wall at (24, 8) blocks eastward traversal from (23, 8) [Turn 46406].
+- Verified Pathway to South Artery: From Row 11 (18, 11) -> Left to (17, 11) -> Down to (17, 13) -> East across Row 13 to (22, 13) -> Down to (22, 15) -> Left to (21, 15) -> Down to (21, 17) [South Artery].
 
 <hr>
 
