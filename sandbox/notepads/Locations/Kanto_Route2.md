@@ -31,7 +31,7 @@
 - Row 27 Ledge & Ramp: South-facing ledge spans cols 14..16 and 18..19. Passable two-way ramp at (17, 27) connects north and south.
 - Rows 28..30+ Lawn: Open path continuing south towards the gatehouse. Flower patch at (18..19, 28..29).
 - Row 31 Ledge & Ramp: South-facing ledge spans cols 14..16 and 18..19, with a passable two-way ramp at (17, 31).
-- Southern Gatehouse (Oak's Aide): Building located at cols 14..19, rows 35..38+. North entrance opening at cols 16..17, rows 35..36.
+- Southern Gatehouse (Oak's Aide): Building located at cols 14..19, rows 36..39. North entrance doorway at (16, 36). South exit door at (15, 39) exiting to (15, 40).
 
 ## Southern Gatehouse Interior (Audited Turn 3842)
 - Location: Connects Route 2 eastern cut path (north entrance) to Route 2 southern highway (south entrance).
