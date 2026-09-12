@@ -2984,6 +2984,7 @@
 - Row 16 Barrier: Solid rock wall across cols 14..20.
 - Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
 - Row 1 North Bypass: Continuous open floor across cols 3..24 at Row 1 leading straight to Ladder A chamber.
+- Column 26 North Corridor: (26, 10..14) is open vertical floor connecting Row 14 at (27..28, 14) north past the (28, 13) rock barrier to Row 9 and the northern sectors.
 
 <hr>
 
