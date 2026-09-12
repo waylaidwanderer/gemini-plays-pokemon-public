@@ -3006,8 +3006,9 @@
 
 ## Route to Mewtwo (B1F) via 2F South Artery -> Ladder D (29, 1) -> 1F Canal -> Ladder E -> Ladder A
 1. **Traverse 2F South Artery to Ladder D (29, 1)**:
-   - Probing route through East sector to reach Column 29 North / Ladder D (29, 1).
-   - Descend Ladder D to 1F NE Terrace (27, 1).
+   - Confirmed 2F East Maze Route to Ladder D:
+     - (28, 9) -> Down 3 to (28, 12) -> Right to (29, 12) -> Down 2 to (29, 14) -> Left 3 to (26, 14) -> Up 5 to (26, 9) -> Left to (25, 9) -> Up 2 to (25, 7) -> Right 2 to (27, 7) -> Up to (27, 6) -> Right to (28, 6) -> Right to (29, 6) -> Up 3 to (29, 3) -> Left to (28, 3) -> Up 2 to (28, 1) -> Right to (29, 1) [Ladder D].
+     - Descend Ladder D to 1F NE Terrace (27, 1).
 
 2. **1F NE Terrace to NW Terrace via Water Canal**:
    - On 1F NE Terrace: Walk West to water ramp at (23, 3) [4x Left, 2x Down].
