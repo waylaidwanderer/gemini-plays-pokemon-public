@@ -3084,7 +3084,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 1F Elevator: Double silver sliding doors located at (20, 0), accessible from (20, 1) facing North [Verified Turn 12718].
 - Elevator Controls: Panel at (3, 0) inside elevator car opens scrolling floor list. Selected 5F at Turn 12722.
 
-- 2F:
 
 - 3F: Arrived via elevator at (20, 1) [Turn 12802]. Elevator doors at (20, 0), stairs at (24, 0). Open lobby across rows 1..3 (cols 16..25+). North-south hallway at cols 18..20 (rows 4..5+) heading south into central area.
 - 3F Electronic Shutter Door: Located at (17, 8..9) with vertical frame, dividing central room from column 18 corridor [Verified Turn 12803].
@@ -3094,7 +3093,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 3F Central Room Warp Tile: Sighted at (11, 11) behind Card Key shutter door [Turn 12822].
 - 3F (11, 11) Warp Result: Arrived at Unknown Floor (5, 3) [Turn 12823]. Room features: civilian at (1, 5), NPC at (3, 7) facing North, red warp tile at (5, 7), shutter door at (10, 6).
 
-- 4F:
 
 - 5F: Arrived via elevator at (20, 1). Elevator doors at (20, 0), stairs up at (24, 0). Open lobby across rows 1..3 (cols 16..25+). Wall partition along row 4 with doorway at (22..23, 4). [Verified Turn 12724]
 - 5F East Wing: Teleporter pad at (27, 3). South of row 4 doorway is an office with desks at cols 20..25, rows 6..8; open perimeter aisles at row 5 and cols 18..19, 26. East wall at col 27.
@@ -3111,20 +3109,12 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - 5F Card Key Obtained: Picked up Card Key at (21, 16) [Turn 12763]. Warped back to 5F via reciprocal warp pad at (9, 15), navigated north via column 9 to row 1 highway, and returned to elevator at (20, 1).
 - 5F Scientist Beau Defeated: At (8, 3). Team: Magneton Lv 26, Koffing Lv 26, Weezing Lv 26, Magnemite Lv 26. Prize �1300 [Turn 12795].
 
-- 6F:
 
-- 7F:
 
-- 8F:
 
-- 9F:
 
-- 10F:
 
-- 11F:
 
-- Unknown Floor (Arrival Room via 3F Warp):
-- Unknown Floor Arrival Room Features: Tile (5, 3) verified as reciprocal teleporter pad. Rival RED confirmed at (3, 7); challenged player at (3, 3) with 'What kept you BLUE?' [Turn 12825]. Civilian at (1, 5). Second warp pad at (5, 7). Electronic shutter door at (10, 6).
 - Rival RED Defeated: At (3, 4). Team: Pidgeot Lv 37, Gyarados Lv 38, Growlithe Lv 35, Alakazam Lv 35, Venusaur Lv 40. Prize �2600 [Turn 12851].
 - Silph Employee at (1, 5): Gives gift Lapras (nicknamed NESSY, Lv 15); sent directly to PC Box 1 [Turn 12858, Verified Turn 12865].
 - Warp from (5, 7) Arrival: Arrived at (3, 2) on Unknown Floor [Turn 12868]. Corridor at cols 1..3 (rows 1..6), indoor garden at row 0, wall at col 4, Rocket Grunt sighted at (7, 5).
@@ -3139,7 +3129,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
   - (4, 8): Solid vertical wall tested at (4, 8) [Turn 12935].
   - (5, 13): Solid horizontal wall tested at (5, 13) [Turn 12938].
   - (6, 13), (7, 13): Solid desks blocking northward movement into central area.
-  - (13, 13): Solid vertical wall tested at (13, 13) [Turn 12953].
 - 11F Active Landmarks:
   - Card Key Shutter Door at (7, 9) and (8, 9) leading to President's boardroom [Sighted Turn 12935].
   - Elevator Lobby at (13, 0).
@@ -3150,6 +3139,6 @@ Primary Goal: Clear building, defeat Giovanni on 11F, rescue President, obtain M
 - Route Resolution: Silph Co 11F is physically partitioned into two disconnected sections. The elevator corridor does not connect to the boardroom. Access to the western and central executive offices is achieved via the 7F teleporter at (5, 7) arriving at 11F (3, 2).
 - 11F Outer Shutter Door Unlocked: The 2-tile structure at (6..7, 13) previously mistaken for desks was confirmed as a Card Key shutter door and unlocked [Turn 13013]! Provides direct passage between southern corridor (row 14) and central approach (rows 10-12).
 - Inspection Protocol: Any two-tile partition gap between rooms must be tested with 'A' using the Card Key before classifying it as permanent furniture.
-- Inner Shutter Door & Boss Encounter: Shutter door located at (7..8, 9), leading to inner office chamber. Stepping onto (6, 13) triggered dialogue with Team Rocket Boss Giovanni [Turn 13015], initiating the boss encounter.
+- Boardroom Entrance & Boss Encounter: Open doorway located at (7..8, 9), leading into the President's boardroom. Stepping onto (6, 13) triggered dialogue with Team Rocket Boss Giovanni [Turn 13015], initiating the boss encounter.
 
 <hr>
