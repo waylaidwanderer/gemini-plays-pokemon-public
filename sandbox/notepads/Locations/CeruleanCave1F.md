@@ -22,3 +22,5 @@
 - **Western Cliff Barrier (Column 7)**: Solid rock cliff edge runs along column 7 across rows 6–14; stepping Left from water canal (cols 8–10) into column 7 is blocked.
 - **Row 14 East Barrier**: (12..14, 14) are solid rock walls blocking direct eastward water navigation from (11, 14).
 - **Central Terrace Highway**: Columns 11–13 (rows 8–12) and Column 16 (rows 9–12) form open cave floor connecting ramp (11, 13) at (11, 12) via (16, 12) -> (16, 9) -> (18, 9) directly to Ladder C.
+## Verified Empirical Barriers (Turn 48054)
+- (19, 9): Solid rock wall immediately east of Ladder C (18, 9) on 1F blocks direct eastward movement on Row 9. To reach the bridge/ladders from Ladder C, navigate west through Column 16 to Row 12 at (16..21, 12) and ascend ramp (21, 11).
