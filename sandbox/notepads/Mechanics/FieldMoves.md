@@ -32,8 +32,8 @@
 - **No Direct 'A' Interaction for Poké Flute:** In Generation 1 retail, pressing 'A' while facing the sleeping Snorlax only displays "A sleeping POKéMON blocks the way!" and closes without prompting to play the flute. The POKé FLUTE must be manually selected and used from the Bag menu (START -> ITEM -> POKé FLUTE -> USE) while standing adjacent to Snorlax [Verified Turn 6971].
 ## Bicycle Stride & Parity Mechanics
 - **Bicycle Movement Speed:** On the Bicycle, player movement speed is doubled (256 px/sec vs 128 px/sec on foot).
-- **Discrete Inputs vs Held Stride:** Discrete button taps in `press_buttons` advance exactly 1 grid tile per directional input along unobstructed paths (empirically confirmed Turns 12500-12509 across Route 12 bridges and platforms). Rapidly buffered or held continuous inputs can advance 2 tiles per stride.
-- **Precision Alignment & Navigation:** Bicycle strides frequently advance 2 tiles per directional tap, locking player movement to even or odd coordinate parity. When precision alignment onto an odd coordinate gap (like Route 1 row 19 col 9) is required, dismounting the Bicycle to foot locomotion guarantees exact 1-tile step precision. Dismounting and remounting is the safest method to bypass 1-tile chokepoints.
+- **Discrete Inputs vs Buffered Strides:** Depending on input timing and buffering, bicycle locomotion may advance 1 or 2 grid tiles per directional input. Chained inputs frequently buffer continuous 2-tile strides.
+- **Precision Alignment & Navigation:** When navigating tight single-tile gaps or aligning with precision between obstacles, dismounting the Bicycle to foot locomotion guarantees strict 1-tile step precision.
 - **Collision Truncation:** Riding into a collision boundary truncates movement immediately at the obstacle boundary.
 
 ## HM03 SURF Mechanics & Empirical Findings
