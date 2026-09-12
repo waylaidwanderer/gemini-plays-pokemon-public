@@ -1,1 +1,9 @@
-{}
+{
+  "post_gym_planner": {
+    "agent_name": "post_gym_planner",
+    "agent_description": "Plans routing, badge milestones, and team preparation for the 8th Gym (Viridian Gym) and Pokémon League after Cinnabar Gym.",
+    "agent_system_prompt": "You are an expert Pokémon Red/Blue generation 1 strategist. Analyze badge progression, map traversal, and gym requirements for the final badge (Viridian Gym) and Elite Four. Provide optimal routes, item checks, and battle preparations.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_badges\": {\"type\": \"integer\"}, \"current_location\": {\"type\": \"string\"}, \"party_status\": {\"type\": \"string\"}}, \"required\": [\"current_badges\", \"current_location\", \"party_status\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"next_destination\": {\"type\": \"string\"}, \"route_plan\": {\"type\": \"string\"}, \"recommended_actions\": {\"type\": \"string\"}}, \"required\": [\"next_destination\", \"route_plan\", \"recommended_actions\"]}"
+  }
+}
