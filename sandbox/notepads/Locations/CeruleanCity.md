@@ -68,3 +68,8 @@
   - Row 30: Southern bypass (cols 6-37) connecting Route 5 entrance (27, 35) to East Avenue (37, 30).
   - Columns 36-37: East Avenue running north-south between row 8 (Northern Highway) and row 30.
   - Rows 8-13: Northern Highway connecting East Avenue (col 37) to NW Waterway Pool (cols 4-6) and Burglarized House backyard (27, 9).
+
+## Verified Transition & Shoreline Coordinates (Turns 46255-46280)
+- Northern Boundary to Route 24: (20..21, 4..0) connects directly north to Route 24 Nugget Bridge at (10..11, 35).
+- Southern Bypass: Row 30 connects East Avenue (37, 30) to west residential streets.
+- North Corridor: Cols 8-9 provide an open north-south thoroughfare between Row 19 and Row 8 (Northern Highway).
