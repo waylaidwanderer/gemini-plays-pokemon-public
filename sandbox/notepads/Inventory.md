@@ -11,6 +11,7 @@
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
 - IRON x1 [Obtained Turn 14029 at Mansion 3F (25, 5), Verified Turn 14047]
+- TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -19,7 +20,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 13 / 20
+- Total Slots Used: 14 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
