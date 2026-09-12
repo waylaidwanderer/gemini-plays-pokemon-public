@@ -209,7 +209,7 @@
   - Status: Healthy
   - HP: 165 / 186
   - Stats: Attack 137, Defense 159, Speed 137, Special 141
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 4/15), Surf (PP 12/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 3/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 12059]
   - HP: 26 / 26
@@ -3284,7 +3284,7 @@ Reward for defeating the Master: Choice between Hitmonlee and Hitmonchan.
    - Defeated: Turn 13214. Prize money: ¥900.
 4. **Blackbelt 4 (West)**:
    - Position: (3, 4) facing East into (4, 4).
-   - Telemetry: 3 Pokémon total; Pokémon 1: Mankey Lv 31, Pokémon 2: Mankey Lv 31, Pokémon 3: Primeape [Observed Turns 13219-13225].
+   - Telemetry: 3 Pokémon total; Pokémon 1: Mankey Lv 31, Pokémon 2: Mankey Lv 31, Pokémon 3: Primeape Lv 31 [Observed Turns 13219-13226].
    - In progress [Engaged Turn 13217].
 5. **Karate Master Koichi (North)**:
    - Position: (5, 3) facing South.
