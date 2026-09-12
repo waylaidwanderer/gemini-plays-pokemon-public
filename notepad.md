@@ -3357,4 +3357,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rubble barrier at columns 14-17 (rows 12-14) and column 22 (rows 10-14).
 - Column 20-21 corridor continues unobstructed south past row 14.
 
+## Southeast Staircase Chamber (cols 23-25, rows 10-15)
+- Staircase up to 3F located at (25, 14) [Verified Turn 13868].
+- Open pink floor across (23-25, 10-13) and (24-25, 14-15).
+- Bounded on south by row 16 wall, and on west by rubble at columns 22-23 (rows 10-15).
+
 <hr>
