@@ -1890,6 +1890,10 @@ Major metropolis in central-western Kanto. Features Celadon Department Store, Ro
 - Gym Courtyard Fence Opening: Located at (5, 31) between fence posts at (4, 31) and (6, 31). Connects the Celadon Gym courtyard (rows 28..30) south into the Southern Garden Corridor (rows 32..34) [Verified Turn 6822].
 - Courtyard Pond: Water spanning cols 21..24, rows 19..21 south of Game Corner, flanked by statues at (20, 20..21) and (25, 20..21) [Turn 6840].
 
+## Department Store District & Thoroughfares (Verified Turn 13371)
+- Department Store East Wall: Located at column 13 across rows 7..13, terminating the row 10..13 Main Avenue at column 14.
+- Department Store Front Avenue (Rows 14..15): Continuous 2-tile wide paved yellow brick road spanning west under the Department Store (cols 8..17), connecting the Southbound Central Avenue at col 17 west past the store entrance at (10, 13) into the Western Avenue (cols 2..8).
+
 <hr>
 
 <h1><code>Locations/Kanto_CeladonDepartmentStore</code></h1>
