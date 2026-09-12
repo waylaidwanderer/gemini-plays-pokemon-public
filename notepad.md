@@ -144,7 +144,8 @@
 | 1F East Room Exit (24-25, 13) | OPEN [Turn 13728] | CLOSED [Turn 13788] |
 | 1F Southern Hall Shutter 2 (20-21, 17) | CLOSED [Turn 14121] | UNTESTED (Hypothesized OPEN) |
 | 1F Cul-de-sac Shutter (26-27, 27) | CLOSED [Turn 13735, 14142] | UNTESTED |
-| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069] |
+| 2F Central Shutter (8-10, 8) | OPEN [Turn 13833] | CLOSED [Turn 13832, 14344] |
+| 2F Northwest Shutter (9, 4-5) | OPEN [Turn 13994] | CLOSED [Turn 14069, 14357] |
 | 3F East Shutter (15, 10-11) | CLOSED [Turn 14001, 14161] | UNTESTED (Hypothesized OPEN) |
 
 <hr>
@@ -3288,7 +3289,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Entrance Hall & Central Corridor (cols 4-7, rows 10-27)
 - Red carpet corridor spanning columns 4 to 7, running north from row 27 [Verified Turn 13698].
-- Terminus: Red carpet corridor terminates at solid dividing wall at (5, 9); tile (5, 10) is open floor [Verified Turn 13708].
+- Terminus: Red carpet corridor terminates at solid dividing wall at (5, 9) [Verified Turn 13708].
 - Flanking Columns: Display tables line columns 3 and 8 at even rows (14, 16, 18, 20, 22, 24).
 - Open Passages: Row 11 provides open crossways west into columns 1-3 and east into columns 8-10 [Verified Turn 13708].
 - East Side Corridor (cols 9-10): Open floor from row 10 down to row 26, bounded on the east by solid vertical wall along column 11 (rows 13-27) [Verified Turn 14300]. No southern bypass exists into the B1F chamber.
@@ -3422,8 +3423,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Statue at (12, 11): Re-tested from (13, 11) facing West on Turn 14175. Confirmed NO switch. Central corridor dead-ends at row 12/13 with horizontal wall at (12-13, 13) and rubble at (14, 12-13).
 - Statue at (12, 9): Tested from (13, 9) facing West on Turn 14023. Confirmed NO switch.
 - East Wing Access: Rows 4-5 are open across column 15 (cols 14-17), providing direct unobstructed passage from the central hall into the eastern wing without passing through the shutter at (15, 10-11) [Verified Turn 14023].
-
-
 
 ## East Laboratory Room (cols 16-23, rows 1-8)
 - North Features: Twin dial machines along row 1 across columns 16-19.
