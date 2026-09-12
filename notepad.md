@@ -3589,4 +3589,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Shutter Door 2: Located at (12-13, 6), OPENED [Turn 14721] after answering NO to Question 2.
 - Chamber 3 Question: "There are 9 certified POKéMON LEAGUE BADGEs?" [Verified Turn 14718] (Answer: NO)
 
+## Chamber 4 (Center)
+- Bounds: Columns 9 to 13, rows 7 to 11.
+- Entered from Chamber 3 via Shutter Door 2 at (12-13, 6).
+- Quiz Machine 3: Located at (9, 7). Must be interacted with from (9, 8) facing North.
+- Trainer at (11, 8) facing South.
+- Row 7 (cols 10-13) provides safe passage behind trainer (11, 8).
+
 <hr>
