@@ -130,3 +130,4 @@
 - [x] Defeat Team Rocket Boss Giovanni in Silph Co [Turn 13042]
 - [x] Obtain Master Ball from Silph Co President [Turn 13053]
 - [x] Clear Saffron Gym, receive TM46 (Psywave) from Sabrina, and verify Marshbadge [Turn 13178]
+- [x] Defeat Fighting Dojo trainers and Master Koichi, and claim Hitmonlee (BRUCE) [Turn 13254]

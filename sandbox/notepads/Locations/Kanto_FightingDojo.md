@@ -38,6 +38,6 @@ Reward for defeating the Master: Choice between two prize Poké Balls on pedesta
 
 ## Prize Pokémon Verification & Mechanics
 - **Left Pedestal (4, 1)**: Hitmonlee (Lv 30).
-- **Right Pedestal (5, 1)**: Hitmonchan (Lv 30).
+- **Right Pedestal (5, 1)**: Uninspected (traditionally reported as Hitmonchan, but unverified in-game).
 - **Full Party Storage [Verified Turns 13253-13254]**: If the active party is full (6/6), claiming a prize Pokémon is NOT rejected. The game prompts for confirmation, allows setting a nickname (named BRUCE), displays "There's no more room for POKéMON!", and automatically transfers the Pokémon to the current PC Box (Box 1) via Bill's PC!
 - **Status**: Hitmonlee (BRUCE) successfully claimed and transferred to PC Box 1.
