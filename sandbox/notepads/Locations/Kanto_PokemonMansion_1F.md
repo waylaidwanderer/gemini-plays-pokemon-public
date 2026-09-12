@@ -20,6 +20,7 @@
 - Rubble blocks columns 1-3 at rows 2-3, and column 1 at rows 4-5.
 - Large 2x2 table at (6-7, 4-5).
 - Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Activated switch on Turn 13757.
+- Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).
 
 ## Northern Hallway (Row 1 Superhighway)
 - Continuous unobstructed pink checkerboard corridor along row 1 spanning columns 1 to 28 [Verified Turns 13722, 13751].
@@ -49,4 +50,3 @@
 - Fully explored on Turns 13934-13941. Continuous western side aisle flanked by west wall (col 0) and display tables (col 3). Row 26 connects horizontally east into main entrance carpet at (4-7, 26). No switches, items, or stairs exist in this wing.
 
 - Enclosed B1F Staircase Chamber (cols 15-23, rows 18-26): B1F staircase confirmed at (21, 23) with descending stairs graphic [Verified Turn 14141]. Sighted Pokémon statue at (19, 19) and plant at (19, 18). Chamber is completely enclosed on 1F (solid walls, rubble at (24-25, 24-27), and closed Shutter 2 at (20-21, 17)). Accessible via drop from upper floors.
-- Bed located at (4, 6-7). Open pink floor surrounds at (3, 5-8), (2, 6-8), (5, 6-8).

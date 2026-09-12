@@ -1,8 +1,8 @@
 # Pokémon Mansion 2F Geography & Landmarks
 
 ## Overview & Arrival
-- Staircase down to 1F: Located at (5, 10), entered by stepping North from (5, 11). Warps to 1F (5, 11) [Verified Turns 14156, 14266, 14306, 14374]. Note: ending battle while occupying (5, 10) does not auto-warp; requires active step-into movement.
-- Landing: Arriving from 1F places player at (5, 11) facing Up.
+- Staircase down to 1F: Located at (5, 10), entered by stepping Left from (6, 10). Warps to 1F (5, 10) on red carpet [Verified Turn 14505]. Note: ending battle while occupying (5, 10) does not auto-warp; requires active step-into movement.
+- Landing: Arriving from 1F places player at (5, 11) facing Up [Verified Turn 13813, 14156].
 
 ## Central Starting Hall (cols 5-9, rows 8-15)
 - Surveyed Floor Boundaries [Turn 14494]: Columns 4-5 across rows 10-16 are open pink floor connecting the north corridor to south wall at row 17. Large table at (6-7, 12-13). Row 13 connects west across columns 1-5 into Southwest room. Rubble blocks (1-3, 14-15), (6-10, 16-17), and column 10 (rows 9-16). South boundary wall at row 17 across columns 1-5.
