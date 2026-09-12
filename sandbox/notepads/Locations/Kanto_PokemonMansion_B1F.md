@@ -30,4 +30,4 @@
 - Wall at row 17 spans columns 1-9.
 - Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
-- Doorway at (9, 10): Open pink floor connecting central corridor (cols 10-15) to west room (cols 1-8) [Verified Turn 14581].
+- Column 9 is a solid continuous vertical wall across rows 8-17, dividing west room (cols 1-8) from central corridor (cols 10-12) [Bump tested Turn 14582 at (9, 10)].

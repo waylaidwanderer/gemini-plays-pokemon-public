@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 59, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥102744 [Turn 13241]
+- Money: ¥104394 [Turn 14418]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -3480,7 +3480,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Central-North Hallway & West Wing Junction (cols 10-24, rows 10-15)
 - Wide open pink checkerboard floor across columns 10-24 and rows 10-15.
 - Doorway at (16-17, 16-17) leads south into western corridor flanked by dial machines at (15, 17) and (18-19, 17), leading south to Item Ball at (19, 25).
-- Main hallway extends West along rows 10-15 into the B1F West Wing (Secret Key chambers).
+- Main hallway extends West along rows 10-15 into the B1F West Wing.
 ## Central-West Corridor & Statue Aisle (cols 7-18, rows 10-18)
 - Massive open pink floor across columns 10-14, rows 10-18.
 - Column 9 vertical wall divider spans rows 10-16.
@@ -3493,6 +3493,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at row 17 spans columns 1-9.
 - Item Ball at (1, 22): FULL RESTORE x1 collected [Turn 14575].
 - Statues and plants visible north of row 17 wall at columns 2-3 and 6-7 (rows 14-15).
-- Doorway at (9, 10): Open pink floor connecting central corridor (cols 10-15) to west room (cols 1-8) [Verified Turn 14581].
+- Column 9 is a solid continuous vertical wall across rows 8-17, dividing west room (cols 1-8) from central corridor (cols 10-12) [Bump tested Turn 14582 at (9, 10)].
 
 <hr>
