@@ -141,7 +141,7 @@
 # Inventory Log
 
 ## Regular Items
-- SUPER REPEL x1 [Verified Turn 13540]
+- SUPER REPEL x2 [Verified Turn 13558]
 - FULL RESTORE x1 [Obtained Turn 7647 in Safari Zone Area 1, Verified Turn 11081]
 - MAX POTION x1 [Verified Turn 11891]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
