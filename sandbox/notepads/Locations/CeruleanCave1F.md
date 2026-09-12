@@ -29,3 +29,6 @@
   - Ladder C: (18, 9) <-> 2F (19, 7).
   - Ladder D: (27, 1) <-> 2F (29, 1) [Direct access to Row 1 North Highway!].
   - Ladder E: (7, 1) <-> 2F (9, 1).
+## Verified Water Navigation & Canal Matrix (Turns 47970-47971)
+- Ramp at (25, 9) connects the central bridge platform (25, 8) down into the eastern water canal at (25, 10).
+- Using Surf from (25, 9) allows boarding the eastern water canal (cols 28-29, rows 6-11) to navigate north directly toward Ladder D at (27, 1).
