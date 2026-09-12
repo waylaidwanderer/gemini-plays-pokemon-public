@@ -3191,7 +3191,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Top-Right (19, 9): <---> Room 2 (Southeast) (19, 15) [Verified Turn 13118].
     - Bottom-Right (19, 11): [Untested].
     - Top-Left (15, 9): <---> Room 4 (Northeast) (15, 3) [Verified Turn 13126].
-    - Bottom-Left (15, 11): [Untested].
+    - Bottom-Left (15, 11): <---> Room 7 (North-Central) (9, 3) [Verified Turn 13162].
 
 - **Room 4 (Northeast Room)**:
   - Interior Bounds: cols 14..19, rows 1..5.
@@ -3225,7 +3225,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Trainer: Channeler at (10, 1) facing South. Team: Gastly Lv 34, Haunter Lv 34. Defeated Turn 13159. Prize: ¥1020.
   - Warp Tiles:
     - Top-Right (11, 3): <---> Room 6 (Northwest) (5, 3) [Verified Turn 13154].
-    - Top-Left (9, 3): [Untested].
+    - Top-Left (9, 3): <---> Room 3 (East-Central) (15, 11) [Verified Turn 13162].
     - Bottom-Left (9, 5): [Untested].
     - Bottom-Right (11, 5): [Untested].
 
