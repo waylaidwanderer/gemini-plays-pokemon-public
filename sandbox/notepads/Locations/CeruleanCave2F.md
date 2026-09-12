@@ -57,3 +57,5 @@
   - (22, 5): Rock wall (blocks southward traversal from (22, 4) along Column 22 to Ladder B).
   - Path to Ladder C (19, 7): From (22, 4) -> Left 2 to (20, 4) -> Down 2 to (20, 6) -> Left 2 to (18, 6) -> Down 1 to (18, 7) -> Right 1 onto Ladder C at (19, 7).
   - (18, 8): Rock wall (blocks southward traversal from (18, 7) along Column 18).
+  - (18, 5): Rock wall (blocks northward traversal from (18, 6) along Column 18).
+  - Path from (18, 6) to (18, 1): Right 2 to (20, 6) -> Up 2 to (20, 4) -> Left 2 to (18, 4) -> Up 3 to (18, 1).
