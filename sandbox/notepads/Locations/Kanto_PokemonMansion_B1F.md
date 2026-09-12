@@ -43,3 +43,10 @@
 - Trainer (Burglar) stationed at (27, 11) facing South [Sighted Turn 14589].
 - Rows 6-8 in columns 26-28 are open floor connecting north into the row 6-7 northern corridor.
 - South access via Shutter Door at (26-27, 17) [Verified CLOSED in State B on Turn 14590].
+## South-Central Corridor & Statue (cols 14-20, rows 18-26)
+- Accessed via open doorway at (16-17, 16-17).
+- Desk with Pokémon Mansion Diary located at (16, 20).
+- Scientist trainer stationed at (16, 23).
+- Pokémon Statue located at (18, 24-25) [Sighted Turn 14620].
+- Item Ball located at (19, 25) [Interacting Turn 14620].
+- Bounded on east by column 20 vertical wall (rows 18-26) and south by row 27 building wall.
