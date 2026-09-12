@@ -3338,7 +3338,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## North Hall & Northwest Corridor (cols 5-14, rows 1-8)
 - North Hall: Continuous open hall spanning columns 10-14, rows 1-7 [Verified Turn 13898].
-- Northwest Wing Hypothesis: The northwest room (cols 5-8, rows 1-7) behind shutter (8-10, 8) / (9, 4-5) remains unexplored. Shutter was closed in Switch State B. Investigating in Switch State A.
+- Northwest Shutter: Located at (9, 4-5). Confirmed OPEN in Switch State A [Verified Turn 13994] (closed in Switch State B). Provides open passage west into the northwest wing (cols 1-8, rows 1-8).
 
 ## Eastern Main Wing (cols 15-23, rows 1-13)
 - Spans columns 15-23 (rows 1-13). Contains Pokémon statues at (13, 9) and (13, 11) (neither contains a switch, tested Turns 13838-13841), plants at (13, 8) and (13, 10), wall dividing at column 14 (rows 8-11), tables/desks at (15-17, 5) and (15-17, 8-10), machine at (15, 11), and open east corridors along rows 6-7 connecting into columns 18-19 [Verified Turn 13849].
