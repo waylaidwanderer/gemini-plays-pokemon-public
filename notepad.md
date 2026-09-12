@@ -2992,6 +2992,7 @@
 - (23, 6): Rock wall (blocks northward traversal from (23, 7)).
 - (22, 7): Open floor connecting (23, 7) to Ladder B at (22, 6).
 - (13, 12): Rock wall (blocks westward traversal from (14, 12)).
+- (17, 14): Rock wall (blocks southward traversal from (17, 13) along Column 17).
 
 <hr>
 
