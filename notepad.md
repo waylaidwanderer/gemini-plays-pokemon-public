@@ -154,10 +154,9 @@
 - BICYCLE [Verified Turn 11080]
 - POKÉ FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
-- CARD KEY [Obtained Turn 12763 on Silph Co 5F]
 
 ## Inventory Capacity
-- Total Slots Used: 12 / 20
+- Total Slots Used: 11 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -168,11 +167,11 @@
   7. MAX POTION x1
   8. REVIVE x5
   9. FULL HEAL x5
-  10. CARD KEY
-  11. MASTER BALL x1
-  12. TM46 x1
+  10. MASTER BALL x1
+  11. TM46 x1
 
 ## Stored / PC Items
+- CARD KEY x1 (PC) [Stored Turn 13305]
 - TM29 (PSYCHIC) x1 (PC) [Stored Turn 13303]
 - GOOD ROD x1 (PC) [Stored Turn 13300]
 - HM03 (SURF) x1 (PC) [Stored Turn 13298]
