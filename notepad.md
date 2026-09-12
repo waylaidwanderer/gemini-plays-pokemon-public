@@ -3443,9 +3443,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - NPC Trainer: Scientist located at (20, 11) facing West [Defeated Turn 14417].
 - Room Layout: Open pink checkerboard floor spans columns 18-21 (rows 10-12) and column 19 (row 13).
 - Balcony Ledge & Gaps (Row 14):
-  - Row 14 is open void/balcony drop-off.
-  - Left Gap at (19, 14): Stepping south from (19, 13) into (19, 14) drops player to 2F Central-South Corridor at (18, 14) [Verified Turn 14418-14421].
-  - Eastern Edge (cols 20-21, rows 13-14): Untested drop geometry. Systematic survey required.
+  - Row 14 is open void/balcony drop-off across columns 14-21.
+  - Pillar at (18, 12-13) divides the drop-off into two distinct gaps:
+    1. West Gap at (16-17, 14): Accessible from (16-17, 13) open floor. Directly aligns over 1F B1F Chamber (cols 15-23). Untested.
+    2. East Gap at (19, 14): Accessible from (19, 13) open floor. Verified to drop to 2F (18, 14) [Turn 14418-14421].
+  - Columns 20-21 along row 13 have a solid horizontal wall partition blocking passage south.
+## Southeast Chamber (cols 23-28, rows 13-17) [Fully Audited Turn 14545]
+- Room Layout: Open pink floor across columns 23-28, rows 14-16.
+- North boundary: Wall partition along row 13 (cols 24-28).
+- West boundary: Solid vertical wall at column 22 (rows 13-17). Entrance via open corridor at column 23 (rows 12-16).
+- South boundary: Solid exterior wall at row 17 across columns 22-28.
+- Staircase to 2F: Located at (25, 14) connecting to 2F Southeast Chamber (25, 14).
+- Conclusion: No balcony drop exists in this room. The balcony gaps are strictly located in the Southern Balcony Chamber at (16-17, 14) and (19, 14).
 
 <hr>
 
