@@ -11,6 +11,7 @@
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - CALCIUM x1 [Obtained Turn 13858 at Mansion 2F (28, 7), Verified Turn 13863]
 - IRON x1 [Obtained Turn 14029 at Mansion 3F (25, 5), Verified Turn 14047]
+- CARBOS x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 
 ## Key Items & HMs
@@ -20,7 +21,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 14 / 20
+- Total Slots Used: 15 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -35,7 +36,8 @@
   11. ESCAPE ROPE x1
   12. CALCIUM x1
   13. IRON x1
-  14. TM14 (BLIZZARD) x1
+  14. CARBOS x1
+  15. TM14 (BLIZZARD) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
