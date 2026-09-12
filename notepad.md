@@ -552,7 +552,7 @@
 - Northern Highway: Wide open road across rows 12-13 in the northern district of the city.
 
 ## Buildings & Points of Interest
-- Cerulean Cave: Located in the northwest waterway pool at (4, 11) [Discovered Turn 39685]. Entrance connects to Cerulean Cave 1F. Accessed from the northern canal (col 6) by surfing down to (6, 12)/(6, 13), landing west onto paved road at (5, 12)/(5, 13), and walking west to (4, 12) before stepping up into (4, 11).
+- Cerulean Cave: Located in the northwest waterway pool of Cerulean City / Route 24 river network. Accessed via Surfing south along the Route 24 river past Nugget Bridge into the secluded cave entrance basin.
 - Trade House: Located at (13, 15). Home of the Pokémon Trader and his wife.
 - Pokémon Center: Located at (19, 17) with "POKe" sign at (20, 17).
 - Cerulean Gym: Located at cols 24-31, rows 16-19 with entrance door at (30, 19) and "GYM" sign at (26..29, 18).
