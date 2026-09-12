@@ -35,6 +35,6 @@
 - Western Boundary: Building's western wall is at column 0 (rows 0-5+).
 - Northwest Room: Columns 1 to 5, rows 1 to 8+.
 - Rubble: Columns 1-3 at rows 2-3, and column 1 at rows 4-5 are rubble.
-- Pokémon Statue: Located at (2, 4-5) with base at (2, 5).
+- Pokémon Statue Switch: Located at (2, 5), interacted from (2, 6) facing North. Empirically triggered 'A secret switch!' prompt [Verified Turn 13756].
 - Central Table: Large 2x2 structure at (6-7, 4-5).
 - Walkway: Clear vertical path down column 4 from row 1 past row 5.
