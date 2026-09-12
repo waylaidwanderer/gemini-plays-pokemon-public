@@ -2973,6 +2973,8 @@
   - (17, 4): Rock wall (blocks eastward traversal from (16, 4) along Row 4).
   - (23, 3): Rock wall (blocks southward traversal from (23, 2) along Column 23).
   - Open paths from Row 2 East: Column 22 (22, 2..6) down to Ladder B (22, 6), and Column 24 (24, 2..6).
+  - (22, 5): Rock wall (blocks southward traversal from (22, 4) along Column 22 to Ladder B).
+  - Path to Ladder C (19, 7): From (22, 4) -> Left 2 to (20, 4) -> Down 2 to (20, 6) -> Left 2 to (18, 6) -> Down 1 to (18, 7) -> Right 1 onto Ladder C at (19, 7).
 
 <hr>
 
