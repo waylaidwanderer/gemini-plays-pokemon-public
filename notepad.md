@@ -3830,5 +3830,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Verification at Doorway (8, 17)
 - Stepping East into (8, 17) from (7, 17) does NOT trigger exit warp! Player can safely stand at (8, 17) facing North toward Boulder 1 at (8, 16).
 - Pushing North moves Boulder 1 into (8, 15), opening the route east to switch (17, 13).
+## Boulder 1 S-Curve Routing
+- Pushed North to (8, 15).
+- Flanking to (7, 15) to push East to (9, 15).
+- Next: Move to (9, 16) and push North to (9, 14).
+- Next: Move to (8, 14) and push East along row 14 into eastern chamber.
 
 <hr>
