@@ -3819,7 +3819,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 2F Routing & Hypotheses
 
 ## 1F Milestone Completed
-- 1F boulder puzzle solved, Cooltrainer defeated, ladder at (1, 1) ascended [Turn 15532].
 
 ## 2F Empirical Discoveries
 - Arrival from 1F is at ladder (0, 8).
@@ -3856,7 +3855,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Stairs at (5, 10): Wooden staircase connecting middle corridor (5, 9) down to lower corridor (5, 11).
-- Southeastern Stairs: Located at (15, 15) and (21, 15), wooden staircases connecting upper floor (row 14) down to lower floor (row 16) [Discovered Turn 15593, 15637].
 - Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 15894 while Switch Plate A actively depressed by Boulder 3; Switch Plate A does NOT control this barrier].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Cliff Wall at (5, 8): Blocks direct northward passage from row 8 into row 7.
