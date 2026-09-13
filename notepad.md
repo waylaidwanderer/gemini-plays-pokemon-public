@@ -2952,6 +2952,10 @@
   - Continuous water extends south across rows 12..15 (cols 8..11).
   - South-Central Ramp located at (11, 13) facing south towards water at (11, 14).
   - Elevated Land Terrace spans cols 11..13 across rows 11..12+.
+- **Central-East Terrace Connectivity (Verified Turn 48821)**:
+  - Ladder C at (18, 9) is situated on the same continuous ground terrace as Ramp (11, 13).
+  - Open crossways connect (11..13, 9) directly east across (14..17, 9) to Ladder C at (18, 9).
+  - Open southern corridor extends south down Column 17 (rows 9..13+).
 
 <hr>
 
