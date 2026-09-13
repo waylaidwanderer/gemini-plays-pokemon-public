@@ -3897,12 +3897,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Tile (13, 12): Verified open plateau cavern floor; no boulder present [Turn 16331].
+- Tile (13, 12): Collision recorded Turn 16188; distant visual scan Turn 16331 showed floor graphic [Direct step-into verification pending].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
-- Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); trapped in corner by solid walls north (9, 10) and west (8, 11); completely immovable [Empirically verified Turns 15822, 16340].
+- Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); flanked by solid walls north at (9, 10) and west at (8, 11); westward push from (10, 11) confirmed blocked Turn 16340.
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Currently empty/un-depressed following floor reset Turn 15972].
-- Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
+- Switch Plate B: Located at (9, 16) in southeast corridor [Stepped on Turn 16347; verified flat circular switch; row 16 dead-ends west at column 8 rock wall].
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
@@ -3911,7 +3911,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machoke (observed Turn 15551).
 - Marowak (observed Turn 15606).
 - Machop (observed Turn 15628).
-
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
