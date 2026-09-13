@@ -3804,3 +3804,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Geodude (observed Turn 15408).
 
 <hr>
+
+<h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
+
+# Victory Road 1F Routing & Hypotheses
+
+## Empirical Facts
+- Entrance at (8..9, 17..18). Stepping onto (8..9, 17) warps out to Route 23 and resets all boulders to initial coordinates.
+- Boulder 1 starts at (5, 15). Pushing it South to (5, 16) unblocks plateau stairs at (5, 13).
+- Moving Boulder 1 East along row 16 moves it to (8, 16). Because row 17 is a warp/wall boundary, Boulder 1 cannot be pushed North from row 16.
+- Plateau stairs at (5, 13) ascend to elevated plateau at (5, 12).
+- Barrier block at (9, 12) blocks east traversal across plateau. Testing confirmed it cannot be pushed under Strength; it requires a switch.
+- Northern edge of plateau at (5..7, 9) is a solid cliff wall; cannot step north to row 8.
+- Row 8 has stairs at (7, 7) leading to high plateau with Cooltrainer at (7, 5).
+- Western approach to row 8 connects via (1..2, 11..12) past Boulder 2 at (2, 10).
+
+## Active Investigation
+- Scouting Boulder 2 at (2, 10) to test if pushing it opens access to row 8 and the stairs at (7, 7).
+
+<hr>
