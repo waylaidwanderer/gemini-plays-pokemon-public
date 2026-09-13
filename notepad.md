@@ -3057,36 +3057,16 @@
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
 
-# Scratchpad: Cerulean Cave 2F Systematic Junction Probing
+# Scratchpad: Cerulean Cave Master Route to Mewtwo (B1F)
 
-## Directives
-- DO NOT LEAVE 2F. Avoid taking ladders down to 1F.
-- Physically probe every candidate vertical junction in the 2F Northwest sector with single-tile before/after bump verification.
-
-## 2F NW Systematic Probing Checklist
-- [x] (3, 1) -> Up to (3, 0): Solid rock (BUMP verified Turn 48673)
-- [x] (3, 1) -> Left to (2, 1): Solid rock (BUMP verified Turn 48677)
-- [x] (3, 2) -> Left to (2, 2): Solid rock (BUMP verified Turn 48680)
-- [x] (3, 3) -> Left to (2, 3): Solid rock (BUMP verified Turn 48681)
-- [x] (8, 3) -> Down to (8, 4): Solid rock (BUMP verified Turn 48692)
-- [x] (7, 3) -> Down to (7, 4): Solid rock (BUMP verified Turn 48692)
-- [x] (6, 3) -> Down to (6, 4): Solid rock (BUMP verified Turn 48693)
-- [x] (5, 3) -> Down to (5, 4): Solid rock (BUMP verified Turn 48693)
-- [x] (4, 3) -> Down to (4, 4): Solid rock (BUMP verified Turn 48694)
-- [x] (3, 3) -> Down to (3, 4): Solid rock (BUMP verified Turn 48694)
-- [x] (9, 5) -> Left to (8, 5): Solid rock (BUMP verified Turn 48685)
-- [x] (9, 5) -> Down to (9, 6): Solid rock (BUMP verified Turn 48685)
-- [x] (11, 5) -> Down to (11, 6): Solid rock (BUMP verified Turn 48697)
-- [x] (13, 5) -> Down to (13, 6) -> (13, 7): Solid rock wall (BUMP verified Turn 48700). (13, 6) is a 1-tile dead-end pocket.
-- [x] Row 1 North Highway Access: Reached (13, 1) via Column 13 (Turn 48701).
-- [x] (19, 1): Solid rock wall (BUMP verified Turn 48704).
-- [x] Eastern Bypass: (18, 2..3) -> (19..20, 3) -> (20..23, 2) successfully traversed to (23, 2) (Turn 48705).
-- [x] (28, 4) & (27, 5): Solid rock walls (BUMP verified Turn 48709).
-- [x] (25, 5), (24, 6), (23, 5): Solid rock walls (BUMP verified Turns 48710-48711). Column 24 dead-ends at (24, 5).
-- [ ] Master Route Execution: Take Ladder C (19, 7) -> 1F -> Surf to North Terrace Ramp (23, 3) -> Ascend Ladder D (27, 1) to 2F (29, 1) -> Descend Column 29 to Row 9 -> Traverse Row 9 west to Column 0 -> Reach Ladder A (1, 3) -> Descend to B1F Mewtwo.
-
-## Target Destination:
-- Ladder A at (1, 3) leading to B1F (Mewtwo).
-- Access to Ladder A is via (0, 3) <- (0, 5) <- Row 5 (0..7, 5) <- (6, 6) <- Row 7.
+## Verified Master Route
+1. **Step 1 (Active)**: From 2F (19, 7), traverse upper loop via (21, 5) -> (22, 4) -> (22, 2) -> (18, 3) -> (18, 1) -> Row 1 west to Ladder E at (9, 1).
+2. **Step 2**: Descend Ladder E to 1F at (7, 1). Walk east along Northern Terrace to North Pocket Ramp at (15, 3).
+3. **Step 3**: At (15, 3), board water canal with SURF. Surf south/east along canal to East Water Ramp at (25, 9).
+4. **Step 4**: Step onto East Water Ramp at (25, 9), walk north to Ladder B at (23, 7), and ascend to 2F at (22, 6).
+5. **Step 5**: On 2F from Ladder B (22, 6), step down Column 23 to Row 11 at (23, 11).
+6. **Step 6**: Walk west along open Row 11 thoroughfare all the way to the Southwest sector / Column 0.
+7. **Step 7**: Ascend north up Column 0 through (0, 5) and (0, 3) -> step right into Ladder A at (1, 3).
+8. **Step 8**: Descend Ladder A to B1F -> Navigate to Mewtwo at (27, 13) and capture with Master Ball!
 
 <hr>
