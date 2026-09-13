@@ -2948,6 +2948,10 @@
 - **Eastern Sector Bypass (Turn 49542)**: Tile (26, 6) is a solid rock wall. Bypass to the south: (27, 6) -> Down to (27, 7) -> Left to (26, 7) -> Left to (25, 7) -> opens south into Column 25/26 (rows 8..14).
 - **Row 17 Eastern Termination & Row 13 Bypass (Turn 49556)**: Tile (20, 17) is a solid rock wall blocking Row 17 westward at (21, 17). Open bypass to the northwest: (21, 17) -> Up 2 to (21, 15) -> Right to (22, 15) -> Up 2 to (22, 13) -> opens west along Row 13 (21..17, 13).
 - **Row 13 Western Barrier & Row 11 Connector (Turn 49566)**: Tile (16, 13) is a solid rock wall blocking Row 13 westward at (17, 13). Connector to Row 11: (17, 13) -> Up 2 to (17, 11) opens west along Row 11 Thoroughfare to (14, 11).
+- **Row 17 Corridor Topography (Verified Turn 49645)**:
+  - Row 17 is an open east-west corridor spanning (21..26+, 17) connected north to (21..22, 15) and (21..22, 13).
+  - Row 18 is a solid rock boundary wall across (17..26, 18).
+  - Tile (20, 17) is a solid rock wall separating the (11..19, 17) western segment from the (21..26+, 17) eastern segment.
 
 <hr>
 
