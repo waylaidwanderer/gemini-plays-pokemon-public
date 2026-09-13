@@ -20,3 +20,5 @@
 - Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 northern passage: Impassable solid rock wall confirmed at (19, 2) [Turn 16124 audit].
+## Turn 16369 Breakthrough: Row 8 East-West Highway
+- Row 8 is a fully open horizontal corridor spanning columns 6 through 14, completely bypassing the Blackbelt (12, 9) and connecting the eastern sector directly west toward the Western Highway (cols 2-3).
