@@ -3873,5 +3873,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Switch Plate B: Visually confirmed at (9, 16), circular switch plate on lower floor.
 - Marowak (observed Turn 15606).
+- Machop (observed Turn 15628).
 
 <hr>
