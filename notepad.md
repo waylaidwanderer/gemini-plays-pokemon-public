@@ -3066,7 +3066,7 @@ Systematically probe all potential branch junctions in the Northwest Sector of 2
 
 ## Physical Junction Probing Checklist (2F NW)
 - [x] (3, 1) -> Up to (3, 0): Solid rock obstacle (BUMP verified Turn 48673).
-- [ ] (3, 1) -> Left to (2, 1): Test if (2, 1) is passable.
+- [x] (3, 1) -> Left to (2, 1): Solid rock wall (BUMP verified Turn 48677).
 - [ ] (3, 2) -> Left to (2, 2): Test if (2, 2) is passable.
 - [ ] (3, 3) -> Left to (2, 3): Test if (2, 3) is passable.
 - [ ] (4, 3) -> Down to (4, 4): Test if Row 4 has an opening.
@@ -3082,6 +3082,5 @@ Systematically probe all potential branch junctions in the Northwest Sector of 2
 ## Verified Fact:
 Ladder A is at (1, 3) descending directly to B1F (Mewtwo).
 Do NOT leave 2F. Remain on 2F until every single junction above is physically tested.
-
 
 <hr>
