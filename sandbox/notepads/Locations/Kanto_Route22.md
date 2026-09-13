@@ -27,3 +27,6 @@
 - Tile (32, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15247].
 - Tile (31, 7): Open northbound passage/ramp through Row 7 ledge [Empirically verified Turn 15248] connecting the eastern tall grass directly north into row 6 lawn and the Northern Highway (rows 4-5).
 - Tile (11, 9): Open wooden ramp / passage through Row 9 ledge [Visual confirmation Turn 15286] connecting row 10 road north to rows 7-8.
+
+## Key Buildings
+- Pokémon League Reception Gate: Building facade at cols 7..13, rows 2..5 with front entrance door at (8, 5) approached from (8, 6).
