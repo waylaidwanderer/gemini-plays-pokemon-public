@@ -36,6 +36,9 @@
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
+## Items
+- Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Confirmed Turn 16052; bag was full, freeing slot via Iron next].
+
 ## Boulders & Switches
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
