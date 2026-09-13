@@ -71,7 +71,7 @@
 - Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
 - Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
 - Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
-- Switch Plate A: Located at (1, 16) in southwest corridor [Depressed by Boulder 3 Turn 16426].
+- Switch Plate A: Located at (1, 16) in southwest corridor [Boulder 3 verified reset to (4, 14) Turn 16802].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Stepped on Turn 16347; verified flat circular switch; row 16 dead-ends west at column 8 rock wall].
 
 ## Wild Encounters
