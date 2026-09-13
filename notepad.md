@@ -2954,15 +2954,11 @@
 - Verified Barriers at (2, 2) and (6, 4) (Turns 49223-49230): Tile (2, 2) is a solid rock wall blocking direct westward access from (3, 2). Tile (6, 4) is a solid rock wall blocking direct southern passage from (6, 3).
 - Northern Ridge Exhaustive Boundary Audit (Turn 49247): The Northern Ridge (Ladder E at 9, 1) is completely isolated by confirmed rock walls at: (2, 2), (2, 3), (3, 4), (5, 4), (6, 4), (8, 5), (9, 6), (10, 1), (12, 7), (13, 7), (14, 7), (15, 7), (16, 8), (17, 5), and (18, 5). It has zero physical ground connections to lower 2F or Ladder A.
 - **Ladder B Column 23 Corridor**: From Ladder B (22, 6), move Down to (22, 7), East to (23, 7), and South along Column 23 (rows 7..11) to reach Row 11 Thoroughfare at (23, 11). Note that (22, 8..10) are solid rock walls.
-- **Row 11 Western Barrier at (13, 11) & Column 12 Bypass (Verified Turn 49392)**:
-  - (13, 11) is a solid rock wall blocking direct westward traversal from (14, 11).
-  - Open bypass path to Column 12: (14, 11) -> Down to (14, 12) -> Left across Row 12 via (13, 12) to (12, 12).
-  - Column 12 is an open north-south corridor spanning rows 9..15.
-  - Column 11 is solid rock wall across rows 10..15; open floor exists at (11, 9) and (11, 7).
-- **Ladder C (19, 7) Western Maze Access (Verified Turn 49395)**:
-  - From Ladder C at (19, 7), Row 7 is completely open to the west: (19, 7) -> (18, 7) -> (17, 7) -> (16, 7).
-  - From (16, 7), turns south to Row 8/9: (16, 8) -> (15, 8) -> (14, 8) -> (13, 8) -> (13, 9).
-  - From (13, 9), connects west across Row 9: (12, 9) -> (11, 9) -> (10, 9), providing direct access to Column 12 and the entire Western Maze leading to Ladder A (1, 3).
+- **Row 11 Western Barriers (Turns 49392 & 49395)**:
+  - (13, 11) and (13, 12) are confirmed solid rock walls blocking westward traversal from (14, 11..12).
+  - Column 14 extends south across (14, 13..14) to open floor on Row 14/15 (cols 15..19).
+- **Ladder C (19, 7) Western Maze Access (Hypothesis - Unverified)**:
+  - Western traversal from Ladder C (19, 7) across Row 7 requires empirical point-by-point verification.
 
 <hr>
 
