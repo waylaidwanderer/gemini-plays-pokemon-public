@@ -1,1 +1,9 @@
-{}
+{
+  "victory_road_navigator": {
+    "agent_name": "victory_road_navigator",
+    "agent_description": "Specialized tactical reasoning agent for routing, boulder puzzles, and party resource management across Victory Road and Indigo Plateau.",
+    "agent_system_prompt": "You are an expert tactical navigator for Pokémon Red/Blue retail ROM. Your role is to analyze dungeon maps, verify boulder push mechanics step-by-step to prevent soft-locks/trapped boulders, calculate resource consumption, and plan precise tile-by-tile routes through Victory Road and Indigo Plateau.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"puzzle_context\": {\"type\": \"string\"}}, \"required\": [\"current_floor\", \"current_position\", \"puzzle_context\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_action\": {\"type\": \"string\"}, \"tactical_notes\": {\"type\": \"string\"}, \"risk_analysis\": {\"type\": \"string\"}}, \"required\": [\"recommended_action\", \"tactical_notes\", \"risk_analysis\"]}"
+  }
+}
