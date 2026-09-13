@@ -1,6 +1,5 @@
 <h1><code>Main</code></h1>
 
-- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15555]
 # Pok��mon Blue - Journey Log
 
 ## Status
@@ -146,6 +145,7 @@
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Enter Victory Road 1F from Route 23 [Turn 15359]
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
+- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15555]
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 - [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
 
@@ -3829,8 +3829,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
-- Active Routing: Head east along row 8 to column 13, then navigate to eastern wing to survey Boulder 4 at (18, 9) and test column 18 access.
+- Current Sector: Southeast lower floor (row 16) and central trench.
+- Barrier block at (23, 14) blocks eastern ladder at (25, 14).
+- Switch Plate B at (9, 16) is undepressed in lower corridor.
+- Investigate pushing mechanics for Switch Plate B and local boulders.
+
 
 <hr>
 
@@ -3840,7 +3843,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
-- 3F Ladder: Located at (25, 14) in the far eastern wing [Visually confirmed Turn 15639]!
+- Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
