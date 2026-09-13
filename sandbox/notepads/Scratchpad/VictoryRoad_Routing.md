@@ -22,4 +22,4 @@
 - Ladder to 3F located at (26, 8).
 - Boulder discovered at (22, 3) [Turn 16069].
 - Max Revive collected at (26, 5) [Turn 16064].
-- Ladder 1 at (23, 7) and Ladder 2 at (26, 8) confirmed in eastern sector.
+- Ladder to 3F verified at (26, 8) [Turn 16086]; accessible via open 2-tile corridor along cols 27-28 from row 11.

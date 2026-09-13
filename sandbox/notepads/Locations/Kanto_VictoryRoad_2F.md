@@ -3,7 +3,7 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Candidate Ladder: Located at (27, 7) [Visually confirmed Turn 16075; unclimbed].
+- Northeast Ladder: Located at (26, 8) [Visually confirmed Turn 16086; accessible via cols 27-28 corridor from row 11; unclimbed].
 - Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
