@@ -17,10 +17,8 @@
 - Pushed North from (9, 15) to (9, 14).
 - Pushed East along row 14 from (9, 14) to (16, 14).
 - Pushed North along col 16 from (16, 14) to (16, 12).
-- Player positioned at (15, 12) facing Boulder 1 at (16, 12).
-- Boulder 1 successfully pushed onto switch plate at (17, 13) [Turn 15463]! Switch is depressed.
-- Next Goal: Return to plateau stairs at (5, 13), ascend to (5, 12), cross lowered barrier at (9, 12), and reach 2F ladder.
-- Elevated corridor at cols 11-12 connects south plateau to north plateau seamlessly!
+- Boulder 1 successfully pushed onto switch plate at (17, 13) [Turn 15463]! Switch is depressed and barrier at (9, 12) lowered.
+- Elevated corridor at cols 11-12 connects south plateau to north plateau seamlessly.
 - North plateau reached at row 7/6.
-- Cooltrainer at (7, 5). Stairs at (7, 7) and (15, 7) connect lower trenches to north plateau.
-- Heading north along col 11 to find 2F ladder.
+- Cooltrainer at (7, 5) facing South. Stairs at (7, 7) and (15, 7) connect lower trenches to north plateau.
+- Row 3 from col 7 to 13 is an impassable rock cliff; passage north to upper section is via cols 14-15.

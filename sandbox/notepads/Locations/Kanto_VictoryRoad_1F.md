@@ -2,7 +2,7 @@
 
 ## Connections
 - South: Exit doorway at (8..9, 17..18) leading out to Route 23.
-- North: Cavern passages and ladders leading to 2F.
+- North: Unexplored northern cavern passages.
 
 ## Layout & Mechanics
 - Entrance: Player arrives at (8, 17) facing north.
