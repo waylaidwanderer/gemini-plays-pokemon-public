@@ -14,4 +14,5 @@
 - Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
 - Doorway (5, 4) blocked by Boulder 1 at (5, 3) with solid rock wall at (5, 2) [Confirmed Turn 15748].
 - Western sector north progression exhausted.
-- Shift focus to Eastern Sector: Investigate Boulder 4 at (18, 9), surrounding terrain, and how eastern puzzle mechanisms function to unblock passage to 3F.
+- Reached (22, 14) on row 14 facing lowered barrier at (23, 14) and ladder at (25, 14).
+- Testing eastern passage through (23, 14) to ascend ladder at (25, 14) to 3F.
