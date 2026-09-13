@@ -18,3 +18,8 @@
 - Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
 - Doorway (5, 4) blocked from south by Boulder 1 at (5, 3) against wall (5, 2) [Turn 15800]; testing hypothesis that 3F is accessed via eastern chamber.
 - Routing to 3F: Travel via row 8/9 to row 12 (18, 12), enter eastern chamber north into row 11, advance north to rows 1-3, and walk west to ladder (1, 1).
+## Turn 15835 Breakthrough
+- Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
+- Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
+- Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
+- Approaching Boulder 2 from the north at (9, 10) to push it SOUTH onto Switch Plate B to lower the barrier at (23, 14).
