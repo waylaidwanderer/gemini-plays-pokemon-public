@@ -229,7 +229,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥123537 [Turn 15569]
+- ¥124972 [Turn 15654]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 63, Water]
@@ -3860,7 +3860,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Trainers
 - Trainer at (4, 2) in northwest chamber facing South.
-- Trainer: Stationed at (21, 13) facing South [Engaged Turn 15639].
+- Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Boulders & Switches
