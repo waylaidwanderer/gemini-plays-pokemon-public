@@ -2981,9 +2981,8 @@
    - Row 8 Western Bypass: (13..15, 8) connects Row 9 at (15, 9) to Column 13 corridor.
 
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
-   - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1).
-   - Northwest Sector: Row 1 West connects (24, 1) -> (9, 1) -> (3, 1) -> (3, 3) -> Ladder A at (1, 3).
-   - Ladder A at (1, 3) descends to B1F (Mewtwo).
+   - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (isolated upper NW ridge).
+   - Ladder A at (1, 3) descends to B1F (Mewtwo) and is accessed via the continuous outer corridor leading from Ladder D (29, 1).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
