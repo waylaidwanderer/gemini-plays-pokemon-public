@@ -3853,6 +3853,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 17093-17094: Pushed Boulder 4 south from (23, 4) to (23, 5), player stepped into (23, 4). Boulder 4 continues southward progression down Column 23!
 - Turn 17095-17096: Pushed Boulder 4 south from (23, 5) to (23, 6), player stepped into (23, 5). Boulder 4 is directly north of tile (23, 7).
 - Turn 17096: Testing single Down push to observe interaction between Boulder 4 and tile (23, 7).
+- Turn 17097-17098: Pushed Boulder 4 south from (23, 6) onto tile (23, 7) with Strength! (Confirmed by NPCMovementTracker: SPRITE_6768 moved (23, 6) -> (23, 7)).
+- Turn 17098: Advancing player to (23, 6) and pushing Boulder 4 south into (23, 8) to observe tile (23, 7) and (23, 8) interactions.
 
 <hr>
 
