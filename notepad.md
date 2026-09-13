@@ -143,6 +143,8 @@
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
+- [x] Enter Victory Road 1F from Route 23 [Turn 15359]
+- [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 
 <hr>
 
