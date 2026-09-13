@@ -73,7 +73,6 @@
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11).
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
-- Boulder 3: Starts in southwest corridor (Turn 16426); current unshifted position being surveyed.
 - Boulder 4: Starts in northeast corridor at (22, 3).
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17173].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
@@ -94,4 +93,4 @@
 - Column 14 Rock Wall: Solid rock wall from row -3 to row 5 along column 14, completely separating the Moltres plateau (cols 11-13) from columns 15-20. Row 1 does not connect westward to any northwest ladder [Empirically verified Turn 16889].
 - Wall at (27, 14): Impassable elevation cliff directly west of (28, 14) [Empirically verified Turn 16900 by bump test]. Ladder at (25, 14) cannot be accessed from column 28.
 - Row 16 Survey (Turns 16906-16914): Traversed row 16 from col 28 to col 10. Verified that Boulder 4 is NOT present anywhere on row 16 between columns 10 and 28. Switch Plate B at (9, 16) is empty.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.
