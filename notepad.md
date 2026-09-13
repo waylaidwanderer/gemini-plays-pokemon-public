@@ -3842,6 +3842,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Turn 16789: Boulder 1 observed at starting coordinates (5, 5) on Current Screen.
 - Turn 16813: Boulder 3 pushed onto Switch Plate A at (1, 16). Switch Plate A is DEPRESSED.
+- Turn 16820: Confirmed barrier at (23, 14) remains solid with Switch Plate A depressed. Switch Plate A does NOT control barrier (23, 14).
+- Turn 16824: Investigating two-stage puzzle hypothesis: Switch Plate A controls barrier at (9, 10) to access Boulder 2 at (9, 11); Boulder 2 on Switch Plate B at (9, 16) controls barrier (23, 14).
 
 <hr>
 
