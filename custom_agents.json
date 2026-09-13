@@ -1,1 +1,9 @@
-{}
+{
+  "victory_road_tactician": {
+    "agent_name": "victory_road_tactician",
+    "agent_description": "Analyzes Victory Road map topology, boulder puzzle configurations, item prioritization, and routes between 1F, 2F, and 3F.",
+    "agent_system_prompt": "You are an expert navigator and strategist for retail Pokémon Blue's Victory Road. You analyze verified spatial coordinates, boulder mechanics, item bag capacity, and elevation structures to plan precise routes through Victory Road to Indigo Plateau.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_floor\":{\"type\":\"string\"},\"player_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"visible_obstacles\":{\"type\":\"string\"},\"query\":{\"type\":\"string\"}},\"required\":[\"current_floor\",\"player_coordinates\",\"query\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_target\":{\"type\":\"string\"},\"step_by_step_path\":{\"type\":\"string\"},\"resource_advice\":{\"type\":\"string\"}},\"required\":[\"recommended_target\",\"step_by_step_path\",\"resource_advice\"]}"
+  }
+}
