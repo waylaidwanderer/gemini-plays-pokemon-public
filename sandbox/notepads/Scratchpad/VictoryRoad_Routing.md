@@ -12,11 +12,7 @@
 - Switch at (17, 13): Player stepping on it does not depress or toggle the barrier; requires a boulder.
 
 ## Boulder 1 Routing to Switch
-- Pushed North from (8, 16) to (8, 15).
-- Pushed East from (8, 15) to (9, 15).
-- Pushed North from (9, 15) to (9, 14).
-- Pushed East along row 14 from (9, 14) to (16, 14).
-- Pushed North along col 16 from (16, 14) to (16, 12).
+- Boulder 1 pushed from (8, 16) through cols 9-16 and row 14 to switch plate at (17, 13).
 - Boulder 1 successfully pushed onto switch plate at (17, 13) [Turn 15463]! Switch is depressed and barrier at (9, 12) lowered.
 - Elevated corridor at cols 11-12 connects south plateau to north plateau seamlessly.
 - North plateau reached at row 7/6.
