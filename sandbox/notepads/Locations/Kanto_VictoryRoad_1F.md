@@ -8,7 +8,7 @@
 - Entrance: Player arrives at (8, 17) facing north.
 - Strength user: Geodude (ROCKY) knows Strength.
 - Switch Plate: Located at (17, 13) in eastern wing.
-- Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau.
+- Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
 - Boulder 1 (Entrance Boulder): Starts at (5, 15). Pushing north to (5, 14) traps boulder against the plateau stairs; stepping outside to Route 23 resets all boulders to starting coordinates.
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
