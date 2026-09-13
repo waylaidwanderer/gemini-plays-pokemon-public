@@ -16,3 +16,4 @@
 
 ## Wild Encounters
 - Geodude (observed Turn 15535).
+- Boulder 1: Pushed North from (5, 5) to (5, 4) under Strength [Turn 15545].
