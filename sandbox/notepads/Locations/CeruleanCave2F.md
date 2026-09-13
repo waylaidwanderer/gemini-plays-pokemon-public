@@ -84,3 +84,6 @@
   - From Row 5 (5, 5): Walk west across (4..0, 5) to Column 0.
   - Ascend Column 0: (0, 5) -> (0, 4) -> (0, 3).
   - Step east into (1, 3) -> Descend Ladder A to B1F (Mewtwo)!
+## Northern Ridge & NW Sector Breakthrough (Verified Turn 48526)
+- **Ridge Descent Stairs**: Located at (15, 3). Connects upper northern ridge (cols 7..16, rows 0..2) down to lower 2F main floor (cols 7..16, rows 4..6).
+- **Row 6 Western Highway**: Row 6 is open floor across cols 0..15 connecting the (15, 3) stairs directly west to Column 0 (0, 6) -> (0, 3) -> (1, 3) [Ladder A to B1F Mewtwo]!
