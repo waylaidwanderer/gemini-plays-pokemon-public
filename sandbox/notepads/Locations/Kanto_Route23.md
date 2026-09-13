@@ -10,6 +10,7 @@
 - Thunderbadge Guard: Stationed at (8, 119) facing down. Gateposts at (7, 119) and (10, 119). Verifies Thunderbadge possession.
 - Rainbowbadge Guard: Stationed at (12, 105) facing left. Trigger tile at (10, 105). Verifies Rainbowbadge possession: "You can pass here only if you have the RAINBOWBADGE! Oh! That is the RAINBOWBADGE! OK then! Please, go right ahead!".
 - Water Lake (Row 103): Water begins at row 103 directly north of row 104, requiring Surf to continue north.
+- Soulbadge Guard: Stationed at (11, 96) facing down in water channel.
 
 ## Survey & Barriers
 - Tile (7, 131): Solid barrier blocking northbound movement on foot from (7, 132).
