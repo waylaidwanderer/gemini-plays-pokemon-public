@@ -3869,5 +3869,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machoke (observed Turn 15551).
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
+- Legendary Pokémon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 
 <hr>
