@@ -16,7 +16,5 @@
 - Western sector north progression exhausted.
 - Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
 - Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
-- Primary 3F progression route: Northwest ladder at (1, 1) via Western Highway and doorway (5, 4).
-- Resetting 2F via ladder (0, 8) to reset Boulder 1 (trapped at (5, 3)) and inspect true starting positions [Turn 15791].
-- Doorway (5, 4) confirmed one-way shortcut from north; blocked by Boulder 1 at (5, 3) against wall (5, 2) [Turn 15800].
+- Doorway (5, 4) blocked from south by Boulder 1 at (5, 3) against wall (5, 2) [Turn 15800]; testing hypothesis that 3F is accessed via eastern chamber.
 - Routing to 3F: Travel via row 8/9 to row 12 (18, 12), enter eastern chamber north into row 11, advance north to rows 1-3, and walk west to ladder (1, 1).
