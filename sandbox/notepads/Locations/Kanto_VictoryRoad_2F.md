@@ -7,6 +7,7 @@
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Row 1 Northern Perimeter: Empirically confirmed impassable cliff along row 1 across cols 14-23 [Verified Turns 16124, 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spanning rows 2 through 7, completely separating the eastern plateau from the western chamber (west movement blocked from (9, 3) into (8, 3) [Empirically verified Turn 16514]).
@@ -61,6 +62,7 @@
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
+- Item Ball: Located at (27, 5) [Collected Turn 16758: TM17 (SUBMISSION)].
 - Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 

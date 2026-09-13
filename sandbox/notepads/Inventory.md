@@ -18,6 +18,7 @@
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 - TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
 - TM27 (FISSURE) x1 [Received Turn 15114 from Gym Leader Giovanni]
+- TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -39,15 +40,15 @@
   9. MASTER BALL x1
   10. MOON STONE x1
   11. ESCAPE ROPE x1
-  12. IRON x1
-  13. CARBOS x1
-  14. TM14 (BLIZZARD) x1
-  15. TM22 (SOLARBEAM) x1
-  16. SECRET KEY x1
-  17. TM38 (FIRE BLAST) x1
-  18. TM27 (FISSURE) x1
-  19. TM43 (SKY ATTACK) x1
-  20. MAX REVIVE x1
+  12. CARBOS x1
+  13. TM14 (BLIZZARD) x1
+  14. TM22 (SOLARBEAM) x1
+  15. SECRET KEY x1
+  16. TM38 (FIRE BLAST) x1
+  17. TM27 (FISSURE) x1
+  18. TM43 (SKY ATTACK) x1
+  19. MAX REVIVE x1
+  20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -149,4 +150,3 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
-- TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
