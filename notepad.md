@@ -3824,6 +3824,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 
+
 # Victory Road 2F Routing & Hypotheses
 
 
@@ -3895,6 +3896,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   2. (23, 11) -> Right 4 times to (27, 11).
   3. (27, 11) -> Up 3 times to (27, 8).
   4. (27, 8) -> Left 1 time into ladder at (26, 8) to ascend to 3F!
+
+## Turn 16572 Breakthrough: Row 1 Open Highway to Column 28 & Ladder (27, 7)
+- Trainer defeated: Juggler at (23, 2) [Mr. Mime Lv 48, Prize: ¥1680].
+- Row 1 is a completely open horizontal highway across cols 22-28, bypassing both trainers (23, 2) and (24, 3).
+- Path to 3F Ladder (27, 7): (23, 3) -> Left to (22, 3) -> Up to (22, 1) -> East along Row 1 to (28, 1) -> South down Column 28 to (28, 7) -> Left into ladder at (27, 7)!
 
 <hr>
 
