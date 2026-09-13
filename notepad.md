@@ -3830,7 +3830,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Routing Hypotheses
 - Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
-- Western sector north progression exhausted.
 - Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
 - Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
 ## Turn 15835 Breakthrough
@@ -3851,6 +3850,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Row 8 Elevation Collisions: Northern passage from (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge [Tested Turns 15895-15897, 15906-15907].
 - Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
 - Western Corridor: Runs along col 0-1 (rows 4-11).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
@@ -3891,7 +3891,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Machoke (observed Turn 15781).
-
-- Row 8 Elevation Collisions: Northern passage from (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge [Tested Turns 15895-15897, 15906-15907].
 
 <hr>
