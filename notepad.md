@@ -3858,5 +3858,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Cliff Wall at (5, 8): Blocks southward passage along col 5 from (5, 7).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage leading to row 11 southern corridor.
 - Boulder 2: Observed at (9, 11).
+- Southern Chamber: Open floor across rows 11-14 (cols 2-7).
+- Boulder 3: Located at (4, 14).
 
 <hr>

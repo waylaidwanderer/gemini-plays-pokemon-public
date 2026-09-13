@@ -22,3 +22,7 @@
 - Boulder 2: Observed at (9, 11).
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Boulder 3: Located at (4, 14).
+- Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548].
+- Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548].
+- Boulder 2 Alignment: Located at (9, 11) directly north of Switch Plate B at (9, 16).
+- Southern Boundary: Solid rock wall along row 17.
