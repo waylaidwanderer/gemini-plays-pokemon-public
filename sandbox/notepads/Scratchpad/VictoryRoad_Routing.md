@@ -14,3 +14,11 @@
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
+
+## Turn 16045 Eastern Chamber Breakthrough
+- Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
+- Columns 21-23 form an open highway from row 11 to row 7.
+- Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
+- Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
+- Boulder at (26, 5) discovered in eastern chamber.
+- Ladder to 3F located at (26, 8).
