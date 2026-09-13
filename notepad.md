@@ -3842,13 +3842,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Turn 16369 Breakthrough: Row 8 East-West Highway
 - Row 8 is a fully open horizontal corridor spanning columns 6 through 14, completely bypassing the Blackbelt (12, 9) and connecting the eastern sector directly west toward the Western Highway (cols 2-3).
 
-## Boulder 3 & Switch Plate A Definitive Solution
-- Correct Push Route:
-  1. Boulder 3 starts at (4, 14).
-  2. Stand at (5, 14) facing West, push Left along row 14: (4, 14) -> (3, 14) -> (2, 14) -> (1, 14).
-  3. Maneuver to (1, 13) facing South, push Down along column 1: (1, 14) -> (1, 15) -> (1, 16) onto Switch Plate A!
-- Floor Reset: Descend ladder (0, 8) to 1F and re-ascend to reset Boulder 3 to pristine (4, 14).
-
 ## Boulder 3 & Switch Plate A Definitive Solution (Verified Turn 16404)
 - (1, 12) and (1, 13) are solid rock walls (verified blue rock palette), so north-south push along column 1 from (1, 13) is IMPOSSIBLE.
 - Valid Push Route via Column 3 and Row 16:
@@ -3859,7 +3852,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   5. Maneuver to (4, 16) via (3, 14) -> (4, 14) -> (4, 15) -> (4, 16) facing West.
   6. Push Left: Boulder 3 moves from (3, 16) -> (2, 16).
   7. Push Left again: Boulder 3 moves from (2, 16) -> (1, 16) onto Switch Plate A!
-- Switch Plate A depressed; player at (2, 16) exits east via row 16 / row 15 without obstruction!
+- Switch Plate A depressed; player at (2, 16) exits north via (3, 16) -> (3, 15) -> (3, 14) into southern chamber, then ascends wooden staircase at (5, 10) to row 8 Highway!
 
 <hr>
 
@@ -3892,7 +3885,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
-- Lower Corridor (Row 16): Fully walkable dark checkerboard floor extending west and east beneath row 15 rock boundaries [Empirically verified Turn 16006].
+- Lower Corridor (Row 16): Divided into two separate sections by solid rock walls at column 5 and column 8: western section spans cols 1-4, eastern section spans cols 9-29 [Empirically verified Turns 16006, 16347, 16384].
 - Row 8 Elevation Collisions: Northern passage from (14, 8) to (14, 7) [Tested Turn 15967] and (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge/rock.
 - Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
@@ -3928,7 +3921,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); flanked by solid walls north at (9, 10) and west at (8, 11); westward push from (10, 11) confirmed blocked Turn 16340.
-- Boulder 3: Located at (4, 15) in southwest chamber [Displaced from (4, 14) Turn 16379].
+- Boulder 3: Located at (4, 14) in southwest chamber [Reset to pristine Turn 16393; facing west from (5, 14)].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Currently empty/un-depressed following floor reset Turn 15972].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Stepped on Turn 16347; verified flat circular switch; row 16 dead-ends west at column 8 rock wall].
 
