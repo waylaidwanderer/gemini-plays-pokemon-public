@@ -29,3 +29,4 @@
 - Turn 16964: Empirical visual confirmation on screen! Ascending ladder is at (26, 8). Boulder is at (24, 10). Column 25 (rows 8-11) is open floor connecting row 11 directly to ladder (26, 8).
 - Turn 16970: Visual confirmation on screen! Boulder is located at (13, 12) flanked by walls (12, 12) and (14, 12), blocking passage from row 11 into row 13/14 corridor. Pushing this boulder south from (13, 11) into (13, 13) opens the route to row 14, columns 22-23, and ladder (26, 8).
 - Turn 16985: Activated Strength with Rocky at (13, 12). Directly testing southward push of Boulder 5 at (13, 13).
+- Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. Exiting north to row 11 to route east toward column 25 and ladder (26, 8).
