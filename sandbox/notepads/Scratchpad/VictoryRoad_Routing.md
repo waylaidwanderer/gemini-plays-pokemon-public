@@ -12,4 +12,4 @@
 
 ## Active Routing Hypotheses
 - Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
-- Active Routing: From central corridor (row 8), head east to col 13, then south down col 13/14 around rock pillar at (12, 11..12) to reach Boulder 2 at (9, 11). Push Boulder 2 south down col 9 onto Switch Plate B at (9, 16).
+- Active Routing: Head east along row 8 to column 13, then navigate to eastern wing to survey Boulder 4 at (18, 9) and test column 18 access.

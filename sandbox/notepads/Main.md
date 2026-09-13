@@ -1,3 +1,4 @@
+- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15555]
 # Pok��mon Blue - Journey Log
 
 ## Status
