@@ -13,3 +13,4 @@
 
 ## Wild Encounters
 - Onix (observed Turn 15367).
+- Machoke (observed Turn 15377).

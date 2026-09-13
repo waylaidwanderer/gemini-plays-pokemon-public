@@ -3797,5 +3797,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Encounters
 - Onix (observed Turn 15367).
+- Machoke (observed Turn 15377).
 
 <hr>
