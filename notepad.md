@@ -3862,6 +3862,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Ascend staircase (17, 5) to row 4, step north to (17, 3) on Row 3.
   5. Test continuity of Row 3 westward past (13, 3) and (8, 3) toward Northwest Ladder (1, 1).
 
+## Turn 16526 Topology Update & Target: Northeast Ladder (27, 7) / (26, 8)
+- Western plateau (cols 10-18) is completely walled off east at col 19 and west at col 8.
+- Progression target is the Northeast Ladder at (27, 7) / (26, 8) in the eastern sector.
+- Route to Northeast Ladder:
+  1. From (18, 4): Left to (17, 4), Down (17, 5) stairs to (17, 6).
+  2. East along row 6 to (23, 6), South down col 23 to (23, 11).
+  3. East along row 11 to (28, 11).
+  4. North up Eastern Vertical Highway (col 28) to (28, 7).
+  5. Step Left into ladder at (27, 7) / (26, 8) and ascend to 3F!
+
 
 <hr>
 
@@ -3876,6 +3886,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
+- Row 1 Northern Perimeter: Empirically confirmed impassable cliff along row 1 across cols 14-23 [Verified Turns 16124, 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spanning rows 2 through 7, completely separating the eastern plateau from the western chamber (west movement blocked from (9, 3) into (8, 3) [Empirically verified Turn 16514]).
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
