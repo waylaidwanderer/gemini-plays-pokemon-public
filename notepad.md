@@ -3868,5 +3868,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Geodude (observed Turn 15535).
 - Machoke (observed Turn 15551).
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
+- Trainer: Blackbelt at (12, 9) [Encountered Turn 15559].
 
 <hr>
