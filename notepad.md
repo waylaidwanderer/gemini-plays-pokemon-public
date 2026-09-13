@@ -3766,5 +3766,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Shoreline & Mountain Divider: Row 72 marks the north end of the lake. Cols 6-7 rows 68..71 form a solid mountain cliff dividing the western walkway from the eastern grass field. Landing onto land occurs via the eastern grass field at cols 8..12 (e.g. col 9).
 - Northern Sector Grass Field: Land dismount successfully verified at (9, 71). Lawn spans cols 8..13 across rows 71..68; mountain cliff blocks cols 6-7 (ends at row 68); rock block at (11, 67).
 - Route 23 Maze (Rows 67..63): Column 10 provides a clean, open lawn corridor (no tall grass) running north from row 67 through row 63 between mountain blocks at col 9 and col 11.
+- Route 23 Maze (Rows 62..59): Column 10 continues north through (10, 62) lawn, (10, 61..60) tall grass, and (10, 59) lawn between mountain blocks at col 9 and cols 11-12.
 
 <hr>
