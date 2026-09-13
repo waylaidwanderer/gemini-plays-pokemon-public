@@ -18,6 +18,7 @@
 - Wall at (27, 6): Solid rock wall directly south of (27, 5) [Empirically verified Turn 16136].
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
+- Tile (13, 12): Empirically verified 100% passable open floor by direct physical step-into traversal [Turn 16363].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
@@ -29,7 +30,7 @@
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 15894 while Switch Plate A actively depressed by Boulder 3; Switch Plate A does NOT control this barrier].
+- Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16326 by direct collision test from (22, 14); blocks access to eastern ladder at (25, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), (3, 4), (4, 4), and (6, 4) [Tested Turns 15681, 15749, 15994, 15996].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Tested Turn 15748].
@@ -57,10 +58,9 @@
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Tile (13, 12): Empirically verified 100% passable open floor by direct physical step-into traversal [Turn 16363].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); flanked by solid walls north at (9, 10) and west at (8, 11); westward push from (10, 11) confirmed blocked Turn 16340.
-- Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
+- Boulder 3: Located at (4, 15) in southwest chamber [Displaced from (4, 14) Turn 16379].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Currently empty/un-depressed following floor reset Turn 15972].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Stepped on Turn 16347; verified flat circular switch; row 16 dead-ends west at column 8 rock wall].
 
