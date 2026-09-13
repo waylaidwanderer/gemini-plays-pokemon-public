@@ -7,6 +7,7 @@
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
 - Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
@@ -26,7 +27,6 @@
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
 - Lower Corridor (Row 16): Divided into two separate sections by solid rock walls at column 5 and column 8: western section spans cols 1-4, eastern section spans cols 9-29 [Empirically verified Turns 16006, 16347, 16384].
-- Row 8 Elevation Collisions: Northern passage from (14, 8) to (14, 7) [Tested Turn 15967] and (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge/rock.
 - Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
