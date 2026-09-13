@@ -3035,6 +3035,27 @@
   - (10, 0..4) are solid rock walls blocking east-west movement between Column 11 and Column 9.
   - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
 
+## Definitive Master Route to Ladder A (B1F Mewtwo) - Verified Turn 48609
+- **Ladder A Location**: (1, 3) -> descending ladder to B1F (Mewtwo).
+- **Physical Enclosure & True Entry Corridor**:
+  - (2, 3) is solid rock east of Ladder A.
+  - (1, 4) is solid rock south of Ladder A.
+  - (0, 3) is open floor directly WEST of Ladder A at (1, 3).
+  - (0, 2..6) is the Column 0 corridor connecting south to Row 5 at (0, 5).
+  - Row 5 spans (0..7, 5) connecting Column 0 at (0, 5) to Column 6 at (6, 5).
+  - Column 6 has open vertical connector at (6, 6) connecting Row 5 at (6, 5) down to Row 7 at (6, 7).
+  - Row 7 spans (1..11, 7) connecting Column 6 at (6, 7) east to Column 11 at (11, 7).
+  - Column 11 spans (11, 7..11) connecting Row 7 at (11, 7) south to Row 11 thoroughfare at (11, 11).
+  - Row 11 spans (11..24, 11) connecting Column 11 to Column 23 and the eastern ladders (Ladder B/C).
+- **Master Execution Path to Ladder A**:
+  1. From anywhere on Row 11 / Column 13 / Column 11: Reach Row 11 at (11, 11).
+  2. Walk North up Column 11: (11, 11) -> (11, 10) -> (11, 9) -> (11, 8) -> (11, 7).
+  3. Walk West along Row 7: (11, 7) -> (10, 7) -> (9, 7) -> (8, 7) -> (7, 7) -> (6, 7).
+  4. Walk North up Column 6: (6, 7) -> (6, 6) -> (6, 5).
+  5. Walk West along Row 5: (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (1, 5) -> (0, 5).
+  6. Walk North up Column 0: (0, 5) -> (0, 4) -> (0, 3).
+  7. Walk East into (1, 3) -> Step onto Ladder A and descend to B1F!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave1F.md</code></h1>
