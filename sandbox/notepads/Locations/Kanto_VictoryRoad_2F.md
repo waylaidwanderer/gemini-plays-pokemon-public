@@ -82,3 +82,5 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+
+- Wall at (27, 12): Impassable elevation cliff directly west of (28, 12) [Empirically verified Turn 16768 by bump test].
