@@ -3708,6 +3708,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Topology & Path Analysis [Turn 15204]
 - Southern Highway (Rows 14-15) Confirmed Return Path: Enclosed between Row 13 south-facing ledge and Row 16 ledge. Terminated on west by mountain cliff at (1, 14..15). There are no northbound exits from Rows 14-15 between col 2 and col 32. The ONLY northbound passage from Rows 14-15 is the ramp at (33, 13).
 - Northern Sectors (Rows 4-12): Contains the true western path to the Pokémon League Reception Gate (rows 10-11 white brick road, signpost at (7, 11), and northern highway rows 4-5).
-- Strategic Route to League Gate: From (33, 13), ascend to Upper Lawn (row 12) -> navigate Column 30 North-South Corridor north into rows 4-5 -> follow Northern Highway west toward the League Gate and Rival RED encounter trigger.
+- Upper Route Access: Passage at (33, 13) connects north to Upper Lawn (row 12) to investigate unexplored avenues.
 
 <hr>
