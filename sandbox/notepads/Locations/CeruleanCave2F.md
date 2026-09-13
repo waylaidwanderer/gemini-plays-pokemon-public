@@ -68,3 +68,13 @@
   - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
 - Column 24 Barrier: (24, 7..10) are solid rock walls blocking northward passage from (24, 11).
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
+## Verified Route to Ladder A (B1F Mewtwo) - 100% Confirmed
+- From Ladder E (9, 1) on 2F:
+  1. Walk Left to (3, 1).
+  2. Walk Down 2 to (3, 3).
+  3. Walk Right 6 to (9, 3).
+  4. Walk Down 2 to (9, 5).
+  5. Walk Left 9 along Row 5 to (0, 5).
+  6. Walk Up 2 along Column 0 to (0, 3).
+  7. Walk Right 1 onto Ladder A at (1, 3).
+- Ladder A at (1, 3) descends directly to Cerulean Cave B1F where Mewtwo resides!
