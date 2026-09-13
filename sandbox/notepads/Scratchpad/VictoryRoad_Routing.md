@@ -24,13 +24,6 @@
 ## Turn 16369 Breakthrough: Row 8 East-West Highway
 - Row 8 is a fully open horizontal corridor spanning columns 6 through 14, completely bypassing the Blackbelt (12, 9) and connecting the eastern sector directly west toward the Western Highway (cols 2-3).
 
-## Boulder 3 & Switch Plate A Definitive Solution
-- Correct Push Route:
-  1. Boulder 3 starts at (4, 14).
-  2. Stand at (5, 14) facing West, push Left along row 14: (4, 14) -> (3, 14) -> (2, 14) -> (1, 14).
-  3. Maneuver to (1, 13) facing South, push Down along column 1: (1, 14) -> (1, 15) -> (1, 16) onto Switch Plate A!
-- Floor Reset: Descend ladder (0, 8) to 1F and re-ascend to reset Boulder 3 to pristine (4, 14).
-
 ## Boulder 3 & Switch Plate A Definitive Solution (Verified Turn 16404)
 - (1, 12) and (1, 13) are solid rock walls (verified blue rock palette), so north-south push along column 1 from (1, 13) is IMPOSSIBLE.
 - Valid Push Route via Column 3 and Row 16:
@@ -41,4 +34,4 @@
   5. Maneuver to (4, 16) via (3, 14) -> (4, 14) -> (4, 15) -> (4, 16) facing West.
   6. Push Left: Boulder 3 moves from (3, 16) -> (2, 16).
   7. Push Left again: Boulder 3 moves from (2, 16) -> (1, 16) onto Switch Plate A!
-- Switch Plate A depressed; player at (2, 16) exits east via row 16 / row 15 without obstruction!
+- Switch Plate A depressed; player at (2, 16) exits north via (3, 16) -> (3, 15) -> (3, 14) into southern chamber, then ascends wooden staircase at (5, 10) to row 8 Highway!
