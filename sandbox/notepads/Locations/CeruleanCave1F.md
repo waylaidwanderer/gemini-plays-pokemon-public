@@ -31,3 +31,5 @@
   - (17, 15) is a south ramp down to (17, 16) landing space.
   - (17, 12), (16, 12), and (16, 13) are solid rock walls.
   - Path from (17, 14) to west terrace: (17, 14) -> (18, 14) -> (18, 8..10) -> Row 8/9 Highway (16..11, 8..9) -> Central Terrace Ramp at (11, 13).
+- Northern Canal Topography (Verified Turns 48172-48174):
+  - Northern Canal at (14, 4) is blocked to the west by solid rock wall at (13, 4); it extends east across (15..23, 4) to North Terrace Ramp at (23, 3), which connects up to NE Terrace (23..27, 2) leading to Ladder D at (27, 1).
