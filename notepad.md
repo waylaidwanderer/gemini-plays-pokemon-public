@@ -3842,7 +3842,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 - Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
 - Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
-- Turn 16985: Activated Strength with Rocky at (13, 12). Directly testing southward push of Boulder 5 at (13, 13).
 - Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. 
 - Turn 17046-17047: Tested boulder at (22, 3) with Strength by pressing Right from (21, 3). SPRITE_6768 successfully displaced east from (22, 3) to (23, 3). Strength is confirmed ACTIVE.
 - Turn 17042: plan_auditor confirmed Boulder at (22, 3) cannot reach Switch Plate B at (9, 16) due to Gen 1 elevation constraints (cannot traverse staircases, ledges, or rows 11-13 rock barriers). Switch Plate B requires the boulder designated for the southern section.
@@ -3852,9 +3851,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 17111: Physically bumped into barrier block at (23, 14) from (22, 14). Confirmed 100% SOLID and RAISED. Displacing Boulder 4 into (23, 8) did not lower barrier (23, 14).
 - Switch Plate B at (9, 16) remains empty.
 - Boulder 2 at (9, 11) is permanently immovable.
-- Re-evaluating progression: investigate unexplored areas on 2F or 1F connection.
 - Turns 17115, 17124: Physically bumped Up from (22, 14) into (22, 13) (0-tile delta). Confirmed tile (22, 13) is a solid rock wall; column 22 has no northern passage across rows 12-13.
 - Re-evaluating progression: Route back to 1F ladder at (0, 8) to reload map and reset all 2F boulders to starting positions.
+
+## Post-Reset Status (Turn 17155+)
+- Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
+- Boulder 1: Confirmed reset to starting coordinates at (5, 5) [Turn 17156].
+- Boulder 2: Confirmed at starting position (9, 11) [Turn 17158].
+- Boulder at (4, 14): Discovered at (4, 14) in Southern Chamber [Turn 17161].
+- Switch Plate A at (1, 16) and Switch Plate B at (9, 16): Currently empty post-reset.
 
 
 <hr>
@@ -3931,15 +3936,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
-## Boulders & Switches
-- Boulder 5: Located at (13, 13). Pushed south from (13, 12) to (13, 13) on Turn 16973. Confirmed permanently immovable on Turns 16994-16995 (blocked south by solid rock wall at (13, 14); flanked by rock walls).
-- Boulder 4: Pushed east from (22, 3) to (23, 3) and south down column 23 through (23, 7) into (23, 8) on Turns 17047-17099 with Strength. Tile (23, 8) is normal cavern floor (walked across Turn 17103, not a pit). Boulder destination unverified.
+## Boulders & Switches (Post-Reset Status Turn 17155+)
+- Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
+- Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
+- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11).
+- Boulder at (4, 14): Located at (4, 14) in the Southern Chamber [Visually confirmed Turn 17161].
+- Boulder 3: Starts in southwest corridor (Turn 16426); current unshifted position being surveyed.
+- Boulder 4: Starts in northeast corridor at (22, 3).
+- Switch Plate A: Located at (1, 16) in southwest corridor [Empty post-reset].
+- Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124].
-- Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
-- Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
-- Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
-- Switch Plate A: Located at (1, 16) in southwest corridor [Boulder 3 verified depressing Switch Plate A on Turn 16813].
-- Switch Plate B: Located at (9, 16) in southeast corridor [Stepped on Turn 16347; verified flat circular switch; row 16 dead-ends west at column 8 rock wall].
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
