@@ -2862,6 +2862,7 @@
 - **Access to Western Terrace**: Accessible via Ladder C (18, 9) from 2F or via water navigation to South Ramp (17, 15).
 - **Access to East Ramp (25, 9)**: From Column 21 at (21, 8), walk East across Row 8 (22..25, 8) and South 1 step to (25, 9).
 - **Access to Ladder B (23, 7)**: From Column 21 at (21, 7), walk East to (23, 7).
+- **South Water Channel Western Boundary**: Columns 4..7 (rows 10..18) are solid rock walls. The South Water Channel (rows 14..15) dead-ends westward at (8, 14..15) and connects north into West Canal (cols 8..9, rows 6..14).
 
 <hr>
 
