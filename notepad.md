@@ -2858,10 +2858,11 @@
 
 ## Collision Matrix & Verified Thoroughfares (1F)
 - **Central Corridor**: Open north-south path at (21, 7..15).
-- **Western Terrace**: Open floor across (17..18, 7..14) connecting north at (17..21, 7) down to Ladder C (18, 9) and South Ramp (17, 15).
-- **Separating Rock Wall**: (19..20, 10..15) is a solid rock wall separating the Central Corridor (col 21) from the Western Terrace (cols 17..18). The crossover between them is at Row 7 (17..21, 7).
-- **Barriers**:
-  - Direct westward movement from (20, 14..15) is blocked by rock wall at (19, 14..15). Must navigate north to Row 7 to crossover to Western Terrace.
+- **Western Terrace**: Open floor across (17..18, 7..14) with Ladder C at (18, 9) and South Ramp at (17, 15).
+- **Separating Rock Wall**: Columns 19-20 (rows 6..13) and Column 19 (rows 14..15) form an impenetrable rock barrier separating the Central Corridor from the Western Terrace. There is NO ground crossover at Row 7 ((20, 7) and (19, 7) are solid rock walls).
+- **Access to Western Terrace**: Accessible via Ladder C (18, 9) from 2F or via water navigation to South Ramp (17, 15).
+- **Access to East Ramp (25, 9)**: From Column 21 at (21, 8), walk East across Row 8 (22..25, 8) and South 1 step to (25, 9).
+- **Access to Ladder B (23, 7)**: From Column 21 at (21, 7), walk East to (23, 7).
 
 <hr>
 
