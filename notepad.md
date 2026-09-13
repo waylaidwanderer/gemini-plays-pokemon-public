@@ -3831,6 +3831,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Routing Hypotheses
 - Approach Boulder 1 at (5, 5) from (5, 6) on the checkerboard floor.
 - Activate Strength with Geodude (ROCKY) to push Boulder 1 northward into (5, 4)/(5, 3) to open passage to northwest chamber and ladder (1, 1).
+- Boulder 3 Route to Switch A (1, 16): Position at (5, 15), push West to (3, 15), step around to (3, 14), push South to (3, 16), step to (4, 16), push West onto switch (1, 16).
 
 <hr>
 
