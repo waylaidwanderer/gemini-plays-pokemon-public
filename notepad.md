@@ -3059,28 +3059,18 @@
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
 
-# Scratchpad: Cerulean Cave 2F NW Sector Single-Tile Probing
+# Scratchpad: Cerulean Cave Master Route to Mewtwo (B1F)
 
-## Active Mission
-Systematically probe all potential branch junctions in the Northwest Sector of 2F (cols 0..9, rows 0..7) to find the physical passage to Ladder A at (1, 3).
+## Solved Floor Connectivity & Master Route
+1. **Step 1 (Active)**: Take Ladder C at (19, 7) on 2F down to 1F at (18, 9).
+2. **Step 2**: From (18, 9) on 1F, walk east to water at (20, 9), Surf east across canal to East Water Ramp at (25, 9), walk to Ladder B at (23, 7).
+3. **Step 3**: Climb Ladder B at (23, 7) -> Arrive at 2F (22, 6).
+4. **Step 4**: On 2F, walk south to Row 11 (22, 11), west along Row 11 to Column 12 at (12, 11), north up Column 12 to Row 9 at (12, 9).
+5. **Step 5**: Walk west along Row 9 to Column 0 (0, 9), walk north up Column 0 to (0, 3), step right to Ladder A at (1, 3).
+6. **Step 6**: Descend Ladder A to B1F -> Navigate to Mewtwo at (27, 13) and capture with Master Ball!
 
-## Physical Junction Probing Checklist (2F NW)
-- [x] (3, 1) -> Up to (3, 0): Solid rock obstacle (BUMP verified Turn 48673).
-- [x] (3, 1) -> Left to (2, 1): Solid rock wall (BUMP verified Turn 48677).
-- [x] (3, 2) -> Left to (2, 2): Solid rock wall (BUMP verified Turn 48680).
-- [x] (3, 3) -> Left to (2, 3): Solid rock wall (BUMP verified Turn 48681).
-- [ ] (4, 3) -> Down to (4, 4): Test if Row 4 has an opening.
-- [ ] (5, 3) -> Down to (5, 4): Test if (5, 4) is passable.
-- [ ] (6, 3) -> Down to (6, 4): Test if (6, 4) connects to Row 5 (6, 5).
-- [ ] (7, 3) -> Down to (7, 4): Test if (7, 4) connects to Row 5 (7, 5).
-- [ ] (8, 3) -> Down to (8, 4): Test if (8, 4) connects to Row 5.
-- [ ] (9, 5) -> Left to (8, 5): Test if (8, 5) is passable.
-- [ ] (9, 5) -> Down to (9, 6): Test if (9, 6) connects to Row 7.
-- [ ] (13, 5) -> Down to (13, 6) -> (13, 7): Test Column 13 descent.
-- [ ] (11, 5) -> Down to (11, 6): Test Column 11 descent.
-
-## Verified Fact:
-Ladder A is at (1, 3) descending directly to B1F (Mewtwo).
-Do NOT leave 2F. Remain on 2F until every single junction above is physically tested.
+## Verified 2F NW Sector Collision Analysis
+- Northern Ridge (Ladder E (9, 1) <-> Ladder C (19, 7) via Row 1, Row 3, Row 5) is completely enclosed and isolated from lower floors by solid rock walls at (2, 1..3), (3..8, 4), (8, 5), (9, 6), and (16, 8).
+- The true physical path to Ladder A (1, 3) is exclusively through the 2F Lower Sector (Row 11 -> Column 12 -> Row 9 -> Column 0), accessed via Ladder B (22, 6).
 
 <hr>
