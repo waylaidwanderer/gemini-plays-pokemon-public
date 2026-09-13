@@ -3875,7 +3875,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Boulders & Switches
-- Boulder 1: Located at (5, 4) in doorway [Turn 15866].
+- Boulder 1: Pushed north into (5, 3) [Turn 15913].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
 - Boulder 3: Pushed onto Switch Plate A at (1, 16) and switch depressed [Turn 15887].
 - Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
