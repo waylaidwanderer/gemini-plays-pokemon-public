@@ -12,3 +12,5 @@
 3. **Step 3**: Surf south into Western Canal (cols 8..9) and systematically probe western shorelines across rows 6..17 to find the ramp/channel into the southwest landmass and Ladder F (3, 11).
 4. **Step 4**: Ascend Ladder F into 2F southwest, walk north along Column 0 to (0, 3), and step onto Ladder A (1, 3).
 5. **Step 5**: Descend Ladder A to B1F and capture Mewtwo with Master Ball!
+- (7, 7), (7, 8), (7, 9), (7, 10): Blocked (solid rock walls along Column 7).
+- Active Probe: Testing (7, 11), (7, 12), (7, 14), (7, 15) and southern channel (rows 15..17) to find the ramp/passage into Column 4 and Ladder F at (3, 11).
