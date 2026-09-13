@@ -3,11 +3,12 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Located at (27, 7) [Discovered Turn 16014].
-- North-Central Ladder: Located at (23, 7) [Discovered Turn 16014].
+- Northeast Candidate Ladder: Located at (27, 7) [Visually sighted Turn 16014; unclimbed].
+- North-Central Candidate Ladder: Located at (23, 7) [Visually sighted Turn 16014; unclimbed].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Row 11 Elevation Boundary: Southern passage from (26, 11) to (26, 12) [Tested Turn 16014] and (25, 11) to (25, 12) [Tested Turn 16015] confirmed impassable cliff wall.
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Lower Corridor (Row 16): Fully walkable dark checkerboard floor extending west and east beneath row 15 rock boundaries [Empirically verified Turn 16006].
 - Row 8 Elevation Collisions: Northern passage from (14, 8) to (14, 7) [Tested Turn 15967] and (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge/rock.

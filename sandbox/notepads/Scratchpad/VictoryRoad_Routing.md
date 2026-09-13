@@ -10,8 +10,6 @@
 
 ## Active Routing Hypotheses
 - Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
-- Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
-- Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
