@@ -22,7 +22,8 @@
 - [x] Row 1 North Highway Access: Reached (13, 1) via Column 13 (Turn 48701).
 - [x] (19, 1): Solid rock wall (BUMP verified Turn 48704).
 - [x] Eastern Bypass: (18, 2..3) -> (19..20, 3) -> (20..23, 2) successfully traversed to (23, 2) (Turn 48705).
-- [ ] Eastern Sector Descent: Traverse (24, 2..4) -> (25..28, 4) -> Column 28 (28, 5..6) to descend to Row 9.
+- [x] (28, 4) & (27, 5): Solid rock walls (BUMP verified Turn 48709).
+- [ ] Eastern Sector Descent: Probe (25, 4) -> (25, 5) -> (25, 6) southern branch down to Row 7/9.
 
 ## Target Destination:
 - Ladder A at (1, 3) leading to B1F (Mewtwo).
