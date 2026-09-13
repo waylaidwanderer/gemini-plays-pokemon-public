@@ -24,3 +24,4 @@
 - Turn 16845: Reached Northeast Plateau passage via (23, 7); visually confirmed Boulder at (22, 3) and Ladder at (26, 8).
 - Turn 16848: Successfully pushed Boulder from (22, 3) North into (22, 2).
 - Turn 16853: Successfully pushed Boulder from (22, 2) North into (22, 1).
+- Turn 16856: Successfully pushed Boulder south down column 23 from (23, 1) into (23, 2).
