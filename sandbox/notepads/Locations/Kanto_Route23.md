@@ -23,3 +23,4 @@
 - Central Lawn Island: Rows 90..91, cols 8..9 feature a green lawn island bounded by walls at col 10 and ledge at col 7, surrounded by water.
 - Marshbadge Guard: Stationed at (8, 85). Trigger tile at (7, 85). Verifies Marshbadge possession: 'You can pass here only if you have the MARSHBADGE! Oh! That is the MARSHBADGE! OK then! Please, go right ahead!'.
 - Mid-Lake Island: Rows 80..81, cols 8..12 feature a small island/statue peninsula; wide open water resumes north of row 80 spanning cols 3..12+.
+- West Barrier Structure: Rows 73..75, cols 3..5 feature brown walls and a statue at (5, 73); open water channel continues north through cols 6..12+.
