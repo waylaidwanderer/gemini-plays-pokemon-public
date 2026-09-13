@@ -145,7 +145,7 @@
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Enter Victory Road 1F from Route 23 [Turn 15359]
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
-- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15555]
+- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15707]
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 - [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
 
@@ -3872,7 +3872,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [Immovable north/west due to walls at (9, 10) and (8, 11); Turn 15604].
 - Boulder 3: Located at (4, 14) [Empirically verified Turn 15697; Turn 15555 note was incorrect]. Routing: Left to (3, 14), Down to (3, 16), Left to (1, 16) onto Switch Plate A.
 - Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
-- Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548; solved Turn 15555].
+- Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548; depressed by Boulder 3 at Turn 15707].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
 
 ## Wild Encounters
