@@ -11,6 +11,7 @@
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Verified barrier at (23, 14) is STILL RAISED despite Switch Plate A depression [Turn 15722].
-- Target: Switch Plate B at (9, 16) and Boulder 2 at (9, 11).
-- Plan: Push Boulder 2 south down column 9 onto Switch Plate B to lower barrier at (23, 14).
+- Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
+- Doorway (5, 4) blocked by Boulder 1 at (5, 3) with solid rock wall at (5, 2) [Confirmed Turn 15748].
+- Western sector north progression exhausted.
+- Shift focus to Eastern Sector: Investigate Boulder 4 at (18, 9), surrounding terrain, and how eastern puzzle mechanisms function to unblock passage to 3F.
