@@ -11,5 +11,7 @@
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
-- Active Routing: Head east along row 8 to column 13, then navigate to eastern wing to survey Boulder 4 at (18, 9) and test column 18 access.
+- Current Sector: Southeast lower floor (row 16) and central trench.
+- Barrier block at (23, 14) blocks eastern ladder at (25, 14).
+- Switch Plate B at (9, 16) is undepressed in lower corridor.
+- Investigate pushing mechanics for Switch Plate B and local boulders.
