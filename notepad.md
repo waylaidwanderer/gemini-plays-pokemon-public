@@ -3821,5 +3821,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Investigation
 - Scouting Boulder 2 at (2, 10) to test if pushing it opens access to row 8 and the stairs at (7, 7).
+## Verification at Boulder 2
+- Pushed Boulder 2 North from (2, 10) to (2, 9).
+- Tested tile (3, 10) from (2, 10): confirmed solid rock wall.
+- Path north through (2, 9) is blocked from the south.
+- Next target: Northern section of the eastern wing (cols 12-17, rows 0-9) north of (14, 10).
 
 <hr>
