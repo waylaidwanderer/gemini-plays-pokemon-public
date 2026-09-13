@@ -46,5 +46,4 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Machoke (observed Turn 15781).
-- Row 4 Barrier: Confirmed solid rock wall at (2, 4) and (3, 4) [Tested Turn 15681].
 - Boundary at (16..18, 11): Impassable elevation cliff from row 12 [Tested Turns 15814, 15816].
