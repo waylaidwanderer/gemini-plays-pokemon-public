@@ -18,7 +18,7 @@
 
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (isolated upper NW ridge).
-   - Ladder A at (1, 3) descends to B1F (Mewtwo) and is accessed via the continuous outer corridor leading from Ladder D (29, 1).
+   - Ladder A at (1, 3) descends to B1F (Mewtwo).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
