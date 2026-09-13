@@ -95,5 +95,3 @@
   - (16, 5) is blocked east.
   - (13, 1) is blocked west at (10, 1).
 - Conclusion: Ladder A at (1, 3) cannot be reached from Ladder E. We must access the lower 2F maze via Ladder B (23, 7) / Row 11 or explore 1F further.
-## Verified Master Route from Ladder B to Ladder A (Turn 48951)
-- **Row 10 Bypass of (13, 11) Barrier**: From Ladder B (22, 6), descend to Row 11 at (22, 11) and walk west across Row 11 to (14, 11). Walk Up to (14, 10), Left to (13, 10), and Left to (12, 10). This bypasses the (13, 11) rock wall and connects directly to the western corridors (cols 0..12), Row 7, Row 5, Column 0, and Ladder A at (1, 3) (B1F Mewtwo).
