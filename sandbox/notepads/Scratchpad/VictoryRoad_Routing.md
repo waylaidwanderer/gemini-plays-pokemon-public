@@ -36,3 +36,6 @@
 - Turn 17096: Testing single Down push to observe interaction between Boulder 4 and tile (23, 7).
 - Turn 17097-17098: Pushed Boulder 4 south from (23, 6) onto tile (23, 7) with Strength! (Confirmed by NPCMovementTracker: SPRITE_6768 moved (23, 6) -> (23, 7)).
 - Turn 17098: Advancing player to (23, 6) and pushing Boulder 4 south into (23, 8) to observe tile (23, 7) and (23, 8) interactions.
+- Turn 17098-17099: Pushed Boulder 4 from (23, 7) into (23, 8). Tile (23, 7) is confirmed passable cavern floor.
+- Column 25 (rows 8-10) and ladder at (26, 8) visually confirmed open on CurrentScreen turn 17099!
+- Submitting macro-route to ladder (26, 8) via row 6 -> col 15 -> row 11 -> col 25 to plan_auditor.
