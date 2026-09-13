@@ -228,14 +228,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥122462 [Turn 15397]
+- ¥123537 [Turn 15569]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 63, Water]
   - Status: Healthy
   - HP: 126 / 199
   - Stats: Attack 148, Defense 171, Speed 148, Special 153 [Verified Lv 63 Turn 15530]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 13/15), Surf (PP 13/15), Ice Beam (PP 7/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 11/15), Surf (PP 9/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3825,12 +3825,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 4 (cols 0-4) is an impassable rock barrier dividing northwest chamber from western corridor.
 - Ladder at (1, 1) sighted in northwest chamber, guarded by Trainer at (4, 2) facing South.
 - Checkerboard terrain (rows 6-10, cols 2-7) is flat passable floor [Verified Turn 15540 at (3, 6)], completely bypassing the (0, 8) ladder to 1F.
-- Boulder 1 is at (5, 5), bordered by rock wall at (6, 5) and floor at (4, 5), (5, 4), and (5, 6).
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Approach Boulder 1 at (5, 5) from (5, 6) on the checkerboard floor.
-- Activate Strength with Geodude (ROCKY) to push Boulder 1 northward into (5, 4)/(5, 3) to open passage to northwest chamber and ladder (1, 1).
 - Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
 - Active Routing: From central corridor (row 8), head east to col 13, then south down col 13/14 around rock pillar at (12, 11..12) to reach Boulder 2 at (9, 11). Push Boulder 2 south down col 9 onto Switch Plate B at (9, 16).
 
@@ -3851,7 +3848,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Stairs at (5, 10): Wooden staircase connecting checkerboard floor to southern lower trench (row 11).
 - Cliff Wall at (5, 8): Blocks southward passage along col 5 from (5, 7).
 - Row 4 Barrier: Solid rock wall along row 4 (cols 0-4).
-- Row 5 Corridor: Connects (1, 5) east to (4, 5) facing Boulder 1.
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
 - Upward Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533; destination unverified].

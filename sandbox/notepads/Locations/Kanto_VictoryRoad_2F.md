@@ -35,3 +35,4 @@
 - Southeastern Stairs: Located at (15, 15), wooden staircase connecting upper floor (15, 14) down to lower floor (15, 16) [Discovered Turn 15593].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Switch Plate B: Visually confirmed at (9, 16), circular switch plate on lower floor.
+- Marowak (observed Turn 15606).
