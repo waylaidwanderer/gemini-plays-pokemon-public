@@ -32,4 +32,4 @@
 - Volcanobadge North Corridor (Rows 53..49): Open 2-tile wide lawn avenue along cols 12-13 between statues at (11, 53) and (14, 53); opens into wider lawn at rows 49..51.
 - Eastern Water Boundary & Mountain Rocks (Rows 48..45): Water lake borders the east (cols 14+); rock blocks at (9..10, 46..47); columns 12-13 form a clean, open lawn path running north avoiding tall grass at (10..11, 45).
 - Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
-- Western Corridor (Cols 6..7, Rows 48..40): Open 2-tile wide lawn avenue running north along cols 6-7, completely bypassing the row 41-43 barrier (which lies east at cols 8-17). Wide open lawn extends across cols 3..7 through row 40.
+- Western Corridor (Cols 6..7, Rows 48..36): Open 2-tile wide lawn avenue running north along cols 6-7, completely bypassing the row 41-43 barrier (which lies east at cols 8-17). Wide open lawn extends across cols 3..7 through row 36, passing west of statue at (8, 37).
