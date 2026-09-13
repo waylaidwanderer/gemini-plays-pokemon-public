@@ -3827,7 +3827,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
@@ -3838,7 +3837,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
 - Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
-- Boulder at (26, 5) discovered in eastern chamber.
 - Ladder to 3F located at (26, 8).
 - Boulder discovered at (22, 3) [Turn 16069].
 - Max Revive collected at (26, 5) [Turn 16064].
@@ -3854,8 +3852,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Located at (27, 7) [Visually confirmed Turn 16075; connects to 3F].
-- North-Central Candidate Ladder: Located at (23, 7) [Visually sighted Turn 16014; unclimbed].
+- Northeast Candidate Ladder: Located at (27, 7) [Visually confirmed Turn 16075; unclimbed].
+- Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
@@ -3879,7 +3877,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
-- Legendary Pok�mon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
+- Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
 
 ## Trainers
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
