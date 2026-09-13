@@ -89,3 +89,7 @@
   - Open bypass path to Column 12: (14, 11) -> Down to (14, 12) -> Left across Row 12 via (13, 12) to (12, 12).
   - Column 12 is an open north-south corridor spanning rows 9..15.
   - Column 11 is solid rock wall across rows 10..15; open floor exists at (11, 9) and (11, 7).
+- **Ladder C (19, 7) Western Maze Access (Verified Turn 49395)**:
+  - From Ladder C at (19, 7), Row 7 is completely open to the west: (19, 7) -> (18, 7) -> (17, 7) -> (16, 7).
+  - From (16, 7), turns south to Row 8/9: (16, 8) -> (15, 8) -> (14, 8) -> (13, 8) -> (13, 9).
+  - From (13, 9), connects west across Row 9: (12, 9) -> (11, 9) -> (10, 9), providing direct access to Column 12 and the entire Western Maze leading to Ladder A (1, 3).
