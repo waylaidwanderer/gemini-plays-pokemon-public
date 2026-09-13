@@ -145,7 +145,7 @@
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Enter Victory Road 1F from Route 23 [Turn 15359]
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
-- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15707]
+- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 16426]
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 - [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
 
@@ -3836,7 +3836,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
 
 ## Turn 16045 Eastern Chamber Breakthrough
-- Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 northern passage: Impassable solid rock wall confirmed at (19, 2) [Turn 16124 audit].
 ## Turn 16369 Breakthrough: Row 8 East-West Highway
@@ -3919,7 +3918,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
+- Boulder 1: Pristine at (5, 5) [Reset Turn 16393 upon floor transition; unpushed].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); flanked by solid walls north at (9, 10) and west at (8, 11); westward push from (10, 11) confirmed blocked Turn 16340.
 - Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Depressed by Boulder 3 Turn 16426].
