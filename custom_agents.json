@@ -1,9 +1,1 @@
-{
-  "dungeon_topology_auditor": {
-    "agent_name": "dungeon_topology_auditor",
-    "agent_description": "Audits proposed route segments against known collision boundaries and maintains candidate branch verification.",
-    "agent_system_prompt": "You are a dungeon topology and collision auditor for Pokemon Red/Blue. Your role is to audit proposed movement routes against verified empirical obstacles, identify false assumptions, and recommend unexplored branch points.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"proposed_route\": {\"type\": \"string\"}, \"known_barriers\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_floor\", \"proposed_route\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid\": {\"type\": \"boolean\"}, \"collision_point\": {\"type\": \"string\", \"nullable\": true}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"is_valid\", \"recommendation\"]}"
-  }
-}
+{}
