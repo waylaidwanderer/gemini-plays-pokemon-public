@@ -22,3 +22,6 @@
 - Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
 - Boulder at (26, 5) discovered in eastern chamber.
 - Ladder to 3F located at (26, 8).
+- Boulder discovered at (22, 3) [Turn 16069].
+- Max Revive collected at (26, 5) [Turn 16064].
+- Ladder 1 at (23, 7) and Ladder 2 at (26, 8) confirmed in eastern sector.
