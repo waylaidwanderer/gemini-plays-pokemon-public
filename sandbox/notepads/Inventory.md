@@ -13,7 +13,6 @@
 - IRON x1 [Obtained Turn 14029 at Mansion 3F (25, 5), Verified Turn 14047]
 - CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
-- RARE CANDY x1 [Obtained Turn 14648 at Mansion B1F (10, 2)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 - TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
@@ -26,7 +25,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20
+- Total Slots Used: 19 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -42,12 +41,12 @@
   12. IRON x1
   13. CARBOS x1
   14. TM14 (BLIZZARD) x1
-  15. RARE CANDY x1
-  16. TM22 (SOLARBEAM) x1
-  17. SECRET KEY x1
-  18. TM38 (FIRE BLAST) x1
-  19. TM27 (FISSURE) x1
-  20. TM43 (SKY ATTACK) x1
+  15. TM22 (SOLARBEAM) x1
+  16. SECRET KEY x1
+  17. TM38 (FIRE BLAST) x1
+  18. TM27 (FISSURE) x1
+  19. TM43 (SKY ATTACK) x1
+  20. [EMPTY]
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -77,10 +76,10 @@
 - ¥124972 [Turn 15654]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 64, Water]
-  - Status: Healthy [Turn 16042]
-  - HP: 203 / 203 [Verified Lv 64 Turn 16042]
-  - Stats: Attack 150, Defense 174, Speed 150, Special 155 [Verified Lv 64 Turn 16042]
+- BLASTOISE (Nickname: SHELDON) [Lv 65, Water]
+  - Status: Healthy [Turn 16063]
+  - HP: 206 / 206 [Verified Lv 65 Turn 16063]
+  - Stats: Attack 152, Defense 177, Speed 152, Special 157 [Verified Lv 65 Turn 16063]
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 8/15), Surf (PP 7/15), Ice Beam (PP 5/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
