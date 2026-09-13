@@ -3098,5 +3098,7 @@
 - (13, 13): Blocked (solid rock wall).
 - Sector B (cols 14..24, rows 6..15) is definitively verified as a closed enclosed sector on 2F.
 - Active Strategy: Exit Sector B via Ladder B (22, 6) -> 1F -> Ladder E (7, 1) -> 2F (9, 1). Systematically test (6, 3) -> (6, 4), (5, 3) -> (5, 4), (4, 3) -> (4, 4) to access Row 5 (0..7, 5) and Ladder A at (1, 3).
+- (6, 4): Blocked (solid rock wall).
+- Active Probe: Testing (5, 3) -> Down to (5, 4) and (4, 3) -> Down to (4, 4).
 
 <hr>
