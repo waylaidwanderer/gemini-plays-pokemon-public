@@ -9,7 +9,6 @@
 
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
-- Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
 
 ## Turn 16045 Eastern Chamber Breakthrough
