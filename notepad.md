@@ -3896,6 +3896,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Walk south down Column 28/29 through rows 4..7 directly into the ladder chamber!
   5. Step onto the ladder at (27, 7) and ascend to 3F!
 
+## Turn 16559 Definitive Solution: Ladder at (26, 8) via Column 27
+- The 3F exit ladder is verified at (26, 8) [CurrentScreen turn 16559].
+- Column 27 is completely open purple floor from (27, 11) north through (27, 10), (27, 9), (27, 8).
+- Complete Route:
+  1. (23, 7) -> Down 4 times to (23, 11).
+  2. (23, 11) -> Right 4 times to (27, 11).
+  3. (27, 11) -> Up 3 times to (27, 8).
+  4. (27, 8) -> Left 1 time into ladder at (26, 8) to ascend to 3F!
+
 <hr>
 
 <h1><code>Locations/Kanto_VictoryRoad_2F</code></h1>
