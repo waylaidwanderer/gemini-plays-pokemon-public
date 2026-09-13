@@ -3035,26 +3035,6 @@
   - (10, 0..4) are solid rock walls blocking east-west movement between Column 11 and Column 9.
   - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
 
-## Working Hypothesis: Potential Route to Ladder A (B1F Mewtwo) - Pending Physical Verification
-- **Ladder A Location**: (1, 3) -> descending ladder to B1F (Mewtwo).
-- **Physical Enclosure & True Entry Corridor**:
-  - (2, 3) is solid rock east of Ladder A.
-  - (1, 4) is solid rock south of Ladder A.
-  - (0, 3) is open floor directly WEST of Ladder A at (1, 3).
-  - (0, 2..6) is the Column 0 corridor connecting south to Row 5 at (0, 5).
-  - Row 5 spans (0..7, 5) connecting Column 0 at (0, 5) to Column 6 at (6, 5).
-  - Column 6 has open vertical connector at (6, 6) connecting Row 5 at (6, 5) down to Row 7 at (6, 7).
-  - Row 7 spans (1..11, 7) connecting Column 6 at (6, 7) east to Column 11 at (11, 7).
-  - Column 11 spans (11, 7..11) connecting Row 7 at (11, 7) south to Row 11 thoroughfare at (11, 11).
-  - Row 11 spans (11..24, 11) connecting Column 11 to Column 23 and the eastern ladders (Ladder B/C).
-- **Master Execution Path to Ladder A**:
-  1. From anywhere on Row 11 / Column 13 / Column 11: Reach Row 11 at (11, 11).
-  2. Walk North up Column 11: (11, 11) -> (11, 10) -> (11, 9) -> (11, 8) -> (11, 7).
-  3. Walk West along Row 7: (11, 7) -> (10, 7) -> (9, 7) -> (8, 7) -> (7, 7) -> (6, 7).
-  4. Walk North up Column 6: (6, 7) -> (6, 6) -> (6, 5).
-  5. Walk West along Row 5: (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (1, 5) -> (0, 5).
-  6. Walk North up Column 0: (0, 5) -> (0, 4) -> (0, 3).
-  7. Walk East into (1, 3) -> Step onto Ladder A and descend to B1F!
 
 <hr>
 
@@ -3079,21 +3059,29 @@
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
 
-# Cerulean Cave Navigation to Mewtwo (B1F)
+# Scratchpad: Cerulean Cave 2F NW Sector Single-Tile Probing
 
-## Master Route & Key Topology
-1. **Ladders Matrix**:
-   - Ladder A: (1, 3) 2F -> Descends to B1F (Mewtwo). Located in NW sector.
-   - Ladder B: (22, 6) 2F <-> (23, 7) 1F. SE sector elevated terrace.
-   - Ladder C: (19, 7) 2F <-> (18, 9) 1F. Central sector.
-   - Ladder D: (29, 1) 2F <-> (27, 1) 1F. NE terrace (isolated eastern branch).
-   - Ladder E: (9, 1) 2F <-> (7, 1) 1F. NW elevated terrace connecting directly into 2F NW sector and Ladder A (1, 3).
+## Active Mission
+Systematically probe all potential branch junctions in the Northwest Sector of 2F (cols 0..9, rows 0..7) to find the physical passage to Ladder A at (1, 3).
 
-2. **Master Navigation Protocol to Mewtwo (B1F)**:
-   - On 1F, surf canal north to North Pocket Ramp (15, 3).
-   - Walk west along Row 1 highway to Ladder E at (7, 1).
-   - Ascend Ladder E at (7, 1) -> Arrive at (9, 1) in 2F NW.
-   - On 2F NW, navigate local corridors to Ladder A at (1, 3).
-   - Descend Ladder A at (1, 3) to B1F -> Navigate to Mewtwo at (27, 13) -> Capture with Master Ball!
+## Physical Junction Probing Checklist (2F NW)
+- [ ] (3, 1) -> Up to (3, 0): Test if Row 0 is walkable.
+- [ ] (3, 1) -> Left to (2, 1): Test if (2, 1) is passable.
+- [ ] (3, 2) -> Left to (2, 2): Test if (2, 2) is passable.
+- [ ] (3, 3) -> Left to (2, 3): Test if (2, 3) is passable.
+- [ ] (4, 3) -> Down to (4, 4): Test if Row 4 has an opening.
+- [ ] (5, 3) -> Down to (5, 4): Test if (5, 4) is passable.
+- [ ] (6, 3) -> Down to (6, 4): Test if (6, 4) connects to Row 5 (6, 5).
+- [ ] (7, 3) -> Down to (7, 4): Test if (7, 4) connects to Row 5 (7, 5).
+- [ ] (8, 3) -> Down to (8, 4): Test if (8, 4) connects to Row 5.
+- [ ] (9, 5) -> Left to (8, 5): Test if (8, 5) is passable.
+- [ ] (9, 5) -> Down to (9, 6): Test if (9, 6) connects to Row 7.
+- [ ] (13, 5) -> Down to (13, 6) -> (13, 7): Test Column 13 descent.
+- [ ] (11, 5) -> Down to (11, 6): Test Column 11 descent.
+
+## Verified Fact:
+Ladder A is at (1, 3) descending directly to B1F (Mewtwo).
+Do NOT leave 2F. Remain on 2F until every single junction above is physically tested.
+
 
 <hr>
