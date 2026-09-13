@@ -3840,15 +3840,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 16813: Boulder 3 pushed onto Switch Plate A at (1, 16). Switch Plate A is DEPRESSED.
 - Turn 16820: Confirmed barrier at (23, 14) remains solid with Switch Plate A depressed. Switch Plate A does NOT control barrier (23, 14).
 - Turn 16845: Reached Northeast Plateau passage via (23, 7); visually confirmed Boulder at (22, 3) and Ladder at (26, 8).
-- Turn 16848: Successfully pushed Boulder from (22, 3) North into (22, 2).
-- Turn 16853: Successfully pushed Boulder from (22, 2) North into (22, 1).
-- Turn 16859: Boulder at (23, 4); continuing southward push down column 23.
-- Turn 16861: Boulder (originally 22, 3) pushed south down column 23 to (23, 5); player at (23, 3).
+- Boulder 4 Trajectory (Turns 16848-16865): Pushed from (22, 3) through col 23 and over the (23, 7) ledge toward (23, 8).
 - Turn 16889: Confirmed column 14 is a continuous rock wall. The Northwest ladder (1, 1) was a conflation with 1F.
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 - Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
 - Strategic Focus: Investigate where Boulder 4 actually landed when pushed south down column 23, and determine how barrier (23, 14) or ladder (25, 14) is accessed.
-- Turn 16948: Verified Boulder 4 is not at (23, 6). The northeast ladder chamber (rows 7-9, cols 25-29) containing ascending ladder (27, 7) is accessed via column 29 eastern wrap-around from (28, 5) -> (29, 5..7).
+- Turn 16948: Verified (23, 6) is open floor (no boulder).
+- Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
 
 <hr>
 
