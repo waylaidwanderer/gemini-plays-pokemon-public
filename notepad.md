@@ -3093,5 +3093,7 @@
 - (23, 7), (23, 8): Verified open floor. Column 23 connects south from (23, 7) through (23, 8..11) directly to Row 11 thoroughfare!
 - (22, 11), (21, 11), (20, 11), (19, 11): Verified open floor on Row 11.
 - Active Probe: Testing (14, 11) -> Up to (14, 10) -> Left to (13, 10) -> Left to (12, 10) to empirically confirm the Row 10 bypass around (13, 11).
+- (14, 10), (13, 11): Blocked (solid rock walls).
+- Active Probe: Testing (14, 11) -> Down 2 to (14, 13) -> Left 4 across Row 13 to (10, 13) to access the western corridors.
 
 <hr>
