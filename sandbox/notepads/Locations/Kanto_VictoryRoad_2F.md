@@ -35,7 +35,7 @@
 - Southern Boundary: Solid rock wall along row 17.
 
 ## Trainers
-- Trainer: Tamer at (19, 8) [Challenged Turn 16239; dialogue: "Come on! I'll whip you!"; previously mistaken for Moltres on Turn 16075].
+- Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.

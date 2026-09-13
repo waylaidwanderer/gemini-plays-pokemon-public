@@ -74,14 +74,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥126477 [Turn 16123]
+- ¥128237 [Turn 16258]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 65, Water]
   - Status: Healthy [Turn 16063]
-  - HP: 206 / 206 [Verified Lv 65 Turn 16063]
+  - HP: 197 / 206 [Turn 16258]
   - Stats: Attack 152, Defense 177, Speed 152, Special 157 [Verified Lv 65 Turn 16063]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 3/15), Surf (PP 7/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 1/15), Surf (PP 6/15), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
