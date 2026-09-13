@@ -2974,7 +2974,7 @@
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
-5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
+5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
 - Item Poké Ball at (29, 9) collected (PP Up).
