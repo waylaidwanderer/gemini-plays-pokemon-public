@@ -3829,10 +3829,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Current Sector: Southeast lower floor (row 16) and central trench.
-- Barrier block at (23, 14) blocks eastern ladder at (25, 14).
-- Switch Plate B at (9, 16) is undepressed in lower corridor.
-- Investigate pushing mechanics for Switch Plate B and local boulders.
+- Verified barrier at (23, 14) is STILL RAISED despite Switch Plate A depression [Turn 15722].
+- Target: Switch Plate B at (9, 16) and Boulder 2 at (9, 11).
+- Plan: Push Boulder 2 south down column 9 onto Switch Plate B to lower barrier at (23, 14).
 
 
 <hr>
