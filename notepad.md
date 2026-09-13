@@ -2849,7 +2849,6 @@
 2. **Ladder C**: Located at (18, 9) <-> 2F (19, 7).
 3. **Ladder D**: Located at (27, 1) <-> 2F (29, 1) (East Terrace).
 4. **Ladder E**: Located at (7, 1) <-> 2F (9, 1) (North Pocket).
-5. **Ladder F**: Western sector ladder leading to 2F Ladder A / B1F access.
 
 ## Verified Ramps & Water Entry Points (1F)
 - **South Ramp**: Located at (17, 15). Direct access from Row 14 thoroughfare at (17, 14) into the southwest water channel.
