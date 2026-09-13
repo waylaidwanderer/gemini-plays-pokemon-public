@@ -3828,8 +3828,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pushed East along row 14 from (9, 14) to (16, 14).
 - Pushed North along col 16 from (16, 14) to (16, 12).
 - Player positioned at (15, 12) facing Boulder 1 at (16, 12).
-- Execution: Push East to (17, 12), step to (16, 12), Up to (16, 11), Right to (17, 11), and push South onto switch at (17, 13).
-- Next Goal: Return to plateau stairs at (5, 13), cross lowered barrier at (9, 12), and reach 2F ladder.
-
+- Boulder 1 successfully pushed onto switch plate at (17, 13) [Turn 15463]! Switch is depressed.
+- Next Goal: Return to plateau stairs at (5, 13), ascend to (5, 12), cross lowered barrier at (9, 12), and reach 2F ladder.
 
 <hr>
