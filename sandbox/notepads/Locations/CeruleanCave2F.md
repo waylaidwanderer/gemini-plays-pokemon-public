@@ -99,3 +99,4 @@
 - **Topology Conclusion**: The Northern Ridge (Ladder E at 7, 1 on 2F) and Row 5 (cols 9..16) form an entirely self-contained upper sector on 2F with no ground passage to the southern half of 2F or Ladder A. Access to the main 2F maze and southwest sector (TM14 Blizzard at 4, 15) must be entered via Ladder B at (23, 7) on 1F.
 - **Column 24 South Termination (Turn 49520)**: Column 24 dead-ends at (24, 15); (24, 16) is a solid rock wall. Direct access from Column 24 south into Row 17 is blocked.
 - **Row 17 Southern Highway Access (Hypothesis - Unverified)**: The continuous Row 17 southern highway (cols 11..28, row 17) connects Column 12 to Column 28. Access from the northeast via Ladder D (29, 1) requires empirical traversal.
+- **Eastern Sector Bypass (Turn 49542)**: Tile (26, 6) is a solid rock wall. Bypass to the south: (27, 6) -> Down to (27, 7) -> Left to (26, 7) -> Left to (25, 7) -> opens south into Column 25/26 (rows 8..14).
