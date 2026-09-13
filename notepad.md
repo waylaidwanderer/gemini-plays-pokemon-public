@@ -3870,7 +3870,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Boulders & Switches
 - Boulder 1: Pushed North from (5, 5) to (5, 4) [Turn 15545], then pushed North to (5, 3) against rock wall at (5, 2) [Turn 15617].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [Immovable north/west due to walls at (9, 10) and (8, 11); Turn 15604].
-- Boulder 3: Successfully pushed onto Switch Plate A at (1, 16) [Turn 15555]! Switch Plate A is depressed.
+- Boulder 3: Located at (4, 14) [Empirically verified Turn 15697; Turn 15555 note was incorrect]. Routing: Left to (3, 14), Down to (3, 16), Left to (1, 16) onto Switch Plate A.
 - Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548; solved Turn 15555].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
