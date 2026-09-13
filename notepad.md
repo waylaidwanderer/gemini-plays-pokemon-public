@@ -3713,5 +3713,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Sector (Rows 10-12, Cols 2-7): Approach road in front of League Gate; signpost at (7, 11); open passage between row 11 and row 12 at cols 3-5.
 - Tile (33, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15246].
 - Tile (32, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15247].
+- Tile (31, 7): Open northbound passage/ramp through Row 7 ledge [Empirically verified Turn 15248] connecting the eastern tall grass directly north into row 6 lawn and the Northern Highway (rows 4-5).
 
 <hr>
