@@ -2863,6 +2863,7 @@
 - **Access to East Ramp (25, 9)**: From Column 21 at (21, 8), walk East across Row 8 (22..25, 8) and South 1 step to (25, 9).
 - **Access to Ladder B (23, 7)**: From Column 21 at (21, 7), walk East to (23, 7).
 - **South Water Channel Western Boundary**: Columns 4..7 (rows 10..18) are solid rock walls. The South Water Channel (rows 14..15) dead-ends westward at (8, 14..15) and connects north into West Canal (cols 8..9, rows 6..14).
+- **Cliff Ledges & Non-Passable Shorelines (Turn 49526)**: Tile (23, 6) is an elevated cliff ledge overlooking the northern water canal at (23, 5); attempting to Surf facing north is blocked with 'No SURFing on HYDROS here!'. Water entry must be made via designated ramp tiles (e.g. East Ramp at (25, 9)).
 
 <hr>
 
