@@ -47,4 +47,4 @@
 - Onix (observed Turn 15658).
 - Machoke (observed Turn 15781).
 
-- Row 8 Elevation Collisions: Northern passage from (13, 8) to (13, 7), (12, 8) to (12, 7), and (11, 8) to (11, 7) confirmed impassable cliff edge [Tested Turns 15895-15897].
+- Row 8 Elevation Collisions: Northern passage from (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge [Tested Turns 15895-15897, 15906].
