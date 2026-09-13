@@ -3014,10 +3014,11 @@
 | Column 1 Ascent Corridor | (1, 3..15) | [Target Probe] | Continuous vertical path directly to Ladder A (1, 3) |
 
 ## Master Tactical Plan
-1. Ascend Ladder B at (23, 7) to 2F (22, 6).
-2. Follow Row 11 Thoroughfare (23, 11) -> (17, 11) -> Row 13 (17, 13) -> Row 17 (21, 17) -> S-curve -> Column 26 (26, 9).
-3. Systematically locate and enter the Row 8/9 Western Thoroughfare (13..15, 8) / (5..13, 9).
-4. Traverse Column 10 down to Row 15 (10, 15), west across Row 15 to Column 1 (1, 15), and ascend north directly into Ladder A (1, 3).
-5. Descend Ladder A to B1F, navigate to Mewtwo, and throw Master Ball!
+1. From (14, 11), move East along Row 11 Thoroughfare to (23, 11), North along Column 23 to (23, 7), Left to (22, 7), and Up to Ladder B (22, 6).
+2. Descend Ladder B to 1F (23, 7).
+3. On 1F, Surf north/west directly across the waterway to Ladder E at (7, 1).
+4. Ascend Ladder E to 2F (9, 1).
+5. On 2F, walk Down 4 to (9, 5), East to (10, 5) / (11, 5), Down to (10, 7) / (11, 7), West to Column 1 (1, 7), and North to Ladder A (1, 3).
+6. Descend Ladder A to B1F, navigate the straightforward path to Mewtwo, and throw the Master Ball!
 
 <hr>
