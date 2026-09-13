@@ -3867,14 +3867,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 
-## Working Hypothesis: Northwest Ladder at (1, 1) and Row 4 Barrier Test
-- Status: Unverified hypothesis.
-- Eastern chamber boundaries verified: Row 6 wall at (28, 6), Row 10 wall at (27, 10). Entrance to eastern ladder is unreachable from 2F corridors.
-- Hypothesis to test: Switch Plate A at (1, 16) depressed by Boulder 3 may have lowered the barrier block along Row 4 guarding the northwest chamber and ladder at (1, 1).
-- Verified Route to Western Highway (Row 11 is blocked west at (15, 11)):
-  1. Ascend Column 13 from Row 14 north to (13, 8).
-  2. Walk west along Row 8 Highway: (12, 8) -> (11, 8) -> (10, 8) -> (9, 8) -> (8, 8) -> (7, 8) -> (6, 8) -> (5, 8).
-  3. At column 5, connect to Western Highway (cols 2-3) and walk north to Row 4.
+
 
 
 <hr>
@@ -3923,7 +3916,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16452 by direct collision test from (22, 14) while Switch Plate A is depressed; Switch Plate A does NOT control Barrier (23, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
-- Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col -3 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south; it is an arrival area from above.
+- Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
