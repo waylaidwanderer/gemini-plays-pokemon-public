@@ -3032,6 +3032,9 @@
 - Column 17/16 Boundary at Row 1-2 (Verified Turn 48568):
   - (17, 2) and (16, 2) are solid rock walls.
   - Row 1 across (14..18, 1) is open cave floor providing the direct east-west thoroughfare between the eastern sector and western sector.
+- Column 10 Boundary & Passage (Verified Turn 48580):
+  - (10, 0..4) are solid rock walls blocking east-west movement between Column 11 and Column 9.
+  - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
 
 <hr>
 
