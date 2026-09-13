@@ -78,12 +78,7 @@
   - (6, 6) is open floor connecting Row 5 at (6, 5) south to Row 7 at (6, 7).
   - Row 7 spans open floor across (1..8, 7).
 - **Local NW Branch Mapping Protocol**:
-  - Ladder E (9, 1) arrives on the northern ridge.
-  - Path from (9, 1): (9, 1) -> (3, 1) -> (3, 2..3) -> (5, 3).
-  - Probe local vertical connection from Row 3 to Row 5: Test (5, 3) -> (5, 4) -> (5, 5).
-  - From Row 5 (5, 5): Walk west across (4..0, 5) to Column 0.
-  - Ascend Column 0: (0, 5) -> (0, 4) -> (0, 3).
-  - Step east into (1, 3) -> Descend Ladder A to B1F (Mewtwo)!
+  - Note: Direct passage from (5, 3) -> (5, 4) is blocked by rock at (5, 4). Systematic single-tile probing of western vertical corridors (cols 14..6) is required.
 ## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
 - **Ridge Isolation**: Ladder E at (9, 1) arrives on an elevated northern ridge (cols 3..16, rows 0..2) that is completely walled off from the lower floors ((15, 3) is a cliff ledge overlooking lower floor where "No SURFing on HYDROS here!").
 - **True Path to Ladder A (1, 3)**: Accessed via **Ladder C** at (18, 9) on 1F <-> (19, 7) on 2F, which connects to the main open floor, Row 9 thoroughfare, Column 13 corridor, and directly to Ladder A (1, 3) on 2F to descend to B1F Mewtwo!
