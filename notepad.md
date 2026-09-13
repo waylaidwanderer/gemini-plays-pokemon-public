@@ -2953,6 +2953,10 @@
   - Path from (17, 14) to west terrace: (17, 14) -> (18, 14) -> (18, 8..10) -> Row 8/9 Highway (16..11, 8..9) -> Central Terrace Ramp at (11, 13).
 - Northern Canal Topography (Verified Turns 48172-48174):
   - Northern Canal at (14, 4) is blocked to the west by solid rock wall at (13, 4); it extends east across (15..23, 4) to North Terrace Ramp at (23, 3), which connects up to NE Terrace (23..27, 2) leading to Ladder D at (27, 1).
+- Eastern Canal & Ramp Topography (Verified Turns 48219-48220):
+  - Water canal in Column 25 is blocked south of (25, 5) by central bridge platform (25, 6).
+  - Navigating to East Water Ramp (25, 9) requires surfing east along Row 5 to Column 28 (28, 5), south along Column 28 (28, 6..10), and west along Row 10 to (25, 10) directly below the south-facing East Water Ramp at (25, 9).
+  - Stepping Up from (25, 10) onto ramp (25, 9) disembarks onto elevated bridge platform at (25, 8), leading west to Ladder B at (23, 7).
 
 <hr>
 
