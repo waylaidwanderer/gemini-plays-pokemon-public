@@ -149,3 +149,4 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
+- TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
