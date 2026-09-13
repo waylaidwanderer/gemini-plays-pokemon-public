@@ -50,6 +50,7 @@
 - Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually confirmed Turn 16365].
 
 ## Trainers
+- Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
 - Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].

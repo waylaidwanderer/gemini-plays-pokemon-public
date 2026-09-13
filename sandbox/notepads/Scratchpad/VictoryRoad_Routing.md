@@ -60,29 +60,11 @@
 
 
 
-## Turn 16554 Master Solution: The Eastern Route to 3F Ladder (27, 7)
-- The ladder chamber (cols 25-29, rows 7-9) is completely walled off to the south by Row 10 rock barrier.
-- Entry into the ladder chamber is strictly from the NORTH via Row 3 and Column 28/29!
-- Master Route:
-  1. From Row 11, walk west to (22, 11).
-  2. Walk north up Column 22 highway through rows 10..4 to Row 3 (east of Col 19 divider).
-  3. Walk east along Row 3 to (28, 3).
-  4. Walk south down Column 28/29 through rows 4..7 directly into the ladder chamber!
-  5. Step onto the ladder at (27, 7) and ascend to 3F!
 
-## Turn 16559 Definitive Solution: Ladder at (26, 8) via Column 27
-- The 3F exit ladder is verified at (26, 8) [CurrentScreen turn 16559].
-- Column 27 is completely open purple floor from (27, 11) north through (27, 10), (27, 9), (27, 8).
-- Complete Route:
-  1. (23, 7) -> Down 4 times to (23, 11).
-  2. (23, 11) -> Right 4 times to (27, 11).
-  3. (27, 11) -> Up 3 times to (27, 8).
-  4. (27, 8) -> Left 1 time into ladder at (26, 8) to ascend to 3F!
 
-## Turn 16572 Breakthrough: Row 1 Open Highway to Column 28 & Ladder (27, 7)
-- Trainer defeated: Juggler at (23, 2) [Mr. Mime Lv 48, Prize: ¥1680].
-- Row 1 is a completely open horizontal highway across cols 22-28, bypassing both trainers (23, 2) and (24, 3).
-- Path to 3F Ladder (27, 7): (23, 3) -> Left to (22, 3) -> Up to (22, 1) -> East along Row 1 to (28, 1) -> South down Column 28 to (28, 7) -> Left into ladder at (27, 7)!
+
+
+
 
 ## Turn 16587 Progression Breakthrough: Real 3F Ladder is Northwest at (1, 1)
 - Empirically confirmed: Eastern ladder at (27, 7) is completely enclosed by solid walls on all sides (Row 6, Row 10, Col 24, Col 30). It is unreachable from 2F and is the arrival/exit zone from 3F hole drop.
