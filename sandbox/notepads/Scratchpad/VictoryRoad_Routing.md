@@ -2,6 +2,7 @@
 - Columns 28-29 form a wide open vertical corridor (col 27 blocked at row 12) connecting row 11 south to row 16 lower corridor.
 - Row 16 lower corridor provides direct westward access beneath row 15 rocks to Switch Plate B at (9, 16), Boulder 3 at (4, 16), Switch Plate A at (1, 16), and the western sector (cols 2-7).
 
+
 # Victory Road 2F Routing & Hypotheses
 
 
@@ -18,4 +19,4 @@
 ## Turn 16045 Eastern Chamber Breakthrough
 - Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
 - Columns 21-23 form an open highway from row 11 to row 7.
-- Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
+- Row 2 northern passage: Impassable solid rock wall confirmed at (19, 2) [Turn 16124 audit].
