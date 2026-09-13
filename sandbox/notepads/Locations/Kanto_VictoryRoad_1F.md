@@ -16,3 +16,4 @@
 ## Wild Encounters
 - Onix (observed Turn 15367).
 - Machoke (observed Turn 15377).
+- Golbat (observed Turn 15385).
