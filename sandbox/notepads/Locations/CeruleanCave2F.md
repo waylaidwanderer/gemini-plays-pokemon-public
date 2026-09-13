@@ -85,3 +85,13 @@
 - Column 10 Boundary & Passage (Verified Turn 48580):
   - (10, 0..4) are solid rock walls blocking east-west movement between Column 11 and Column 9.
   - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
+
+## Northern Ridge Isolation Verified (Turns 48795-48806)
+- Definitive empirical proof that Ladder E at (9, 1) is completely isolated on the Northern Ridge:
+  - (3, 1) is blocked to the west.
+  - (3, 3) is blocked west by (2, 3) rock wall, and south by (3, 4) rock wall.
+  - (9, 5) is blocked south by (9, 6) rock wall and west by (8, 5) rock wall.
+  - (16, 6) is a dead end south (blocked at 16, 7/south).
+  - (16, 5) is blocked east.
+  - (13, 1) is blocked west at (10, 1).
+- Conclusion: Ladder A at (1, 3) cannot be reached from Ladder E. We must access the lower 2F maze via Ladder B (23, 7) / Row 11 or explore 1F further.
