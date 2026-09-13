@@ -31,7 +31,7 @@
 - Legendary Pok�mon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 
 ## Trainers
-- Trainer at (19, 8) facing South in eastern chamber [Undefeated; visually confirmed Turn 15779].
+- Trainer at (28, 5) facing South in eastern chamber (Cooltrainer: 'I heard rumors of a child prodigy!') [Engaged Turn 16032].
 - Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
