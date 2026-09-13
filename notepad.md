@@ -3825,8 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pushed North from (8, 16) to (8, 15).
 - Pushed East from (8, 15) to (9, 15).
 - Pushed North from (9, 15) to (9, 14).
-- Player is currently at (8, 14) facing East toward Boulder 1 at (9, 14).
-- Planned: Push East along row 14 to (16, 14), North to (16, 12), East to (17, 12), and South onto switch at (17, 13).
-
+- Pushed East along row 14: Boulder 1 is now at (11, 14). Player is at (10, 14) facing East.
+- Planned: Continue pushing East along row 14 to (16, 14), North to (16, 12), East to (17, 12), and South onto switch at (17, 13).
 
 <hr>
