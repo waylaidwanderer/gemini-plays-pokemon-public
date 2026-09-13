@@ -2968,7 +2968,7 @@
   - (13, 7) is a solid rock wall making (13, 6) a dead-end pocket (Max Potion item ball).
   - (16, 8) is a solid rock wall making (16, 7) a dead-end pocket.
   - (17..18, 5) are solid rock walls blocking direct passage between Row 5 and the central loop.
-- **Topology Conclusion**: The Northern Ridge (Ladder E at 7, 1 on 2F) and Row 5 (cols 9..16) form an entirely self-contained upper sector on 2F with no ground passage to the southern half of 2F or Ladder A. Access to the main 2F maze and southwest sector (TM14 Blizzard at 4, 15) must be entered via Ladder B at (23, 7) on 1F.
+- **Topology Conclusion**: The Northern Ridge (Ladder E at 9, 1 on 2F) and Row 5 (cols 9..16) form an entirely self-contained upper sector on 2F with no ground passage to the southern half of 2F or Ladder A. Access to the main 2F maze and southwest sector (TM14 Blizzard at 4, 15) must be entered via Ladder B at (23, 7) on 1F.
 - **Column 24 South Termination (Turn 49520)**: Column 24 dead-ends at (24, 15); (24, 16) is a solid rock wall. Direct access from Column 24 south into Row 17 is blocked.
 - **Column 25 Barrier at Row 10 (Turn 49544)**: Tile (25, 10) is a solid rock wall blocking direct southward passage from (25, 9); detour west via (24, 9..12) or east via (26, 10..14).
 - **Eastern Sector Bypass (Turn 49542)**: Tile (26, 6) is a solid rock wall. Bypass to the south: (27, 6) -> Down to (27, 7) -> Left to (26, 7) -> Left to (25, 7) -> opens south into Column 25/26 (rows 8..14).
