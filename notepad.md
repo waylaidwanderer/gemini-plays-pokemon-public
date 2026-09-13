@@ -3744,6 +3744,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Badge Checkpoints
 - Southern Entrance: Starts at (7, 139) immediately north of the Reception Gate doorway. Water borders the south (rows 140+).
-- Cascadebadge Guard: Stationed at (8, 136) facing down. Verifies Cascadebadge possession for northward travelers.
+- Cascadebadge Guard: Stationed at (8, 136) facing down. Trigger tile at row 136 (e.g. (7, 136)). Verifies Cascadebadge possession: "You can pass here only if you have the CASCADEBADGE! Oh! That is the CASCADEBADGE! Go right ahead!".
 
 <hr>
