@@ -2317,146 +2317,66 @@
 
 <h1><code>Locations/PokemonMansion1F</code></h1>
 
-# Pokémon Mansion 1F - Layout & Exploration
+# Pokémon Mansion 1F - Layout & Points of Interest
 
 ## Overview
-- First floor of the ruined Pokémon Mansion in northwest Cinnabar Island.
-- Features red carpet grand entrance, marble floors, Mewtwo statue switches, and direct corridor access to the B1F staircase via the eastern corridor (cols 26-27).
+- Ground floor entrance to Pokémon Mansion on Cinnabar Island.
+- Features statues with switches that toggle shutter gates across all floors.
 
-## Layout & Landmarks
+## Landmarks & Statues
+- Entrance door at (4, 27) connecting to Cinnabar Island.
+- Statue Switch 1 at (13, 3) toggles Shutter Gates.
+- Stairs ascending to 2F located at (5, 3).
+- Escape Rope and items collected.
 
-### West & Central Sector
-- Central Grand Hallway: Columns 4-7, rows 14-27 (separated from northern central area by row 17 table barrier).
-- Entrance Area: Row 26-27 (cols 1-7).
-- Stairs up to 2F: Located at (5, 10) in the central sector. Accessible from northern wing corridors (rows 1-7).
-
-### Northwest Sector
-- Boundaries: cols 0-8, rows 0-9.
-- Mewtwo Statue Switch: (2, 4..5) (base/switch at (2, 5)) [Verified: toggles global shutter flag].
-- Column 9 Divider: Permanent wall opening at (9, 1..2) connects central corridor to Northwest Room.
-
-### Northern & Eastern Corridor (Direct Path to B1F Stairs)
-- Northern Thoroughfare: Row 3 is open across cols 14-25.
-- Eastern Bypass Corridor: Columns 26-27 are open pink floor from row 1 down to row 12! Bypasses all row 4-8 rubble/wall barriers.
-- Shutter Gate at (24..25, 13):
-  - Empirically verified CLOSED in both State 0 and State 1 during direct testing (Turn 21431, 21443).
-  - Note: The secluded southern/eastern area of 1F (where the B1F staircase is located) is accessible by dropping down from the 3F balcony pits.
-
-## Access to B1F:
-- To access B1F, player must navigate up to 3F and jump down the balcony drop-off pits to land in the secluded 1F stairwell sector.
-- Descending Staircase to B1F: Located at (21, 23) in the secluded southern wing of 1F (accessed via 3F balcony pit drop).
 
 <hr>
 
 <h1><code>Locations/PokemonMansion2F</code></h1>
 
-# Pokémon Mansion 2F - Layout & Exploration
+# Pokémon Mansion 2F - Layout & Points of Interest
 
 ## Overview
-- Second floor of the ruined Pokémon Mansion.
-- Features marble floors, eastern computer wing, and stairs connecting 1F and 3F.
+- Second floor of Pokémon Mansion.
+- Features statue switches toggling shutter gates, diary entries, and ascending stairs to 3F.
 
-## Layout & Landmarks
+## Landmarks & Statues
+- Stairs from 1F arrive at (5, 3).
+- Statue Switch at (18, 11) toggles shutter gates.
+- Stairs ascending to 3F located at (7, 3).
 
-### West / Central Sector
-- Stairs down to 1F: (5, 10) [Arrival from 1F at (5, 11)].
-- Stairs up to 3F (Southwest Wing): (7, 10) [Leads to isolated 3F TM09 room].
-- Statue at (2, 10..11): Tested Turn 21364 facing Left from (3, 11) - Decorative only; no switch dialogue.
-- Shutter Gate at (9, 4..5): CLOSED in State 0, OPEN in State 1. (Tested from (10, 4) on Turn 21453: blocked by yellow bars in State 0).
-- Wall Divider at Row 9: Solid horizontal wall across (1..7, 9) dividing central hallway from Northwest Room.
-- Column 9 Divider: Solid vertical wall with shutter at (9, 4..5).
-- Row 11 Thoroughfare: (5..12, 11) open pink floor connecting (5, 11) to column 10 corridor.
-
-### Northwest Room
-- Boundaries: cols 1-8, rows 1-7.
-- Interior: Rubble at (1..3, 2..3), wooden table at (6..7, 4..5), display table at (4, 6..7).
-- **Northwest Wing Stairs to 3F**: Located at (6, 1) in northwest sector. Connects directly to 3F Northern Sector at (6, 1) [Verified Turn 21206].
-- Statue at (2, 4..5): Tested Turn 21203 - no switch at (2, 5) on 2F.
-
-### East Wing & Corridors
-- Doorway at (15, 6..7): Open doorway connecting Central Wing to East Wing.
-- Row 8 Wall: Solid horizontal wall at (14..17, 8) and (20..21, 8) and (24..28, 8).
-  - Open gap through Row 8 wall at (18, 8) and (19, 8).
-- Row 13 Wall: Solid horizontal wall at (18..19, 13); open pink floor at (20..21, 13).
-- Row 16 Wall: Solid horizontal wall at (18..23, 16).
-- Northeast Alcove (cols 23-28, rows 1-7): Open floor via (22, 3) gap; dead-ends at row 8 wall.
-- Bookshelf at (18..19, 2..3) with research journal on top.
-- Yellow Machine / Terminal: Located at (15, 11) (solid obstacle blocking west passage at row 11).
-- **East Wing Staircase**: Discovered at (25, 14) [Observed Turn 21339].
-
-### South Wing (cols 6-13, rows 21-27)
-- Vertical walls at col 7 and col 11 end at row 21 (wall caps at (7, 21) and (11, 21)).
-- Row 22 Thoroughfare: Open pink floor across cols 6-13.
-- Tables / Bookshelves: Located at (12..14, 26).
-- South Boundary: Solid bottom wall at row 27.
 
 <hr>
 
 <h1><code>Locations/PokemonMansion3F</code></h1>
 
-# Pok�mon Mansion 3F - Layout & Exploration
+# Pokémon Mansion 3F - Layout & Points of Interest
 
 ## Overview
-- Third floor of the ruined Pok�mon Mansion.
-- Features marble floors, Mewtwo research journal, statue switches, and balcony drop pits to 1F.
+- Third floor of Pokémon Mansion containing Mewtwo research diaries and the balcony drop puzzle.
 
-## Layout & Landmarks
-
-### Southwest Wing (Stairs from 2F at (7, 10))
-- Stairs down to 2F: Located at (7, 10) [Arrival on 3F at (7, 11)].
-- Research Journal: Located at (6, 12) on table ("Feb. 6: MEW gave birth. We named the newborn MEWTWO.").
-- Trainer: Burglar Simon at (5, 11) [Defeated Turn 18447].
-- Item Ball: (1, 16) [TM09 Take Down - Collected Turn 18455].
-- Empirical Topology (Turn 21197): Fully enclosed room (cols 0-10, rows 8-17). Solid rubble at (1..9, 6..7) blocks northern passage; solid vertical wall at col 11 blocks eastern passage; boundary walls at col 0 and row 17. Only exit is descending stairs at (7, 10) back to 2F.
-
-### Northern & Eastern Sector (Stairs from 2F at (6, 1))
-- Stairs down to 2F: Located at (6, 1) in northwest sector [Arrival on 3F at (6, 2), Verified Turn 21207].
-- Statues (Negative Switch Tests):
-  - Statue at (10, 4..5): Tested from (11, 5) and (10, 6) on Turns 21213-21219. Decorative; no switch dialogue.
-  - Statue at (12, 9): Tested from (13, 9) on Turn 21235. Decorative; no switch dialogue.
-  - Statue at (12, 11): Tested from (13, 11) on Turn 21238. Decorative; no switch dialogue.
-- Shutter Gate: Located at (15, 10..11) (CLOSED in State A, OPEN in State B).
-- Balcony Drop-off Pits (Row 14):
-  - Left Drop-off Pit at (16..17, 14) -> Drops to 1F Enclosed Southern/Eastern Wing at (16, 14).
-  - Right Drop-off Pit at (19, 14) -> Drops to 1F Northern Landing Sector at (18, 14).
-
+## Balcony Drop & Statues
+- Stairs from 2F arrive at (7, 3).
+- Statue Switch at (10, 5) toggles shutter gates.
+- Balcony pit at (16..17, 14) allows jumping down to B1F staircase.
+- Mewtwo Research Diaries: Mew was discovered in Guyana; Mew gave birth to Mewtwo on Feb 6; Mewtwo became too powerful to control on Sept 1.
 
 
 <hr>
 
 <h1><code>Locations/PokemonMansionB1F</code></h1>
 
-# Pokémon Mansion B1F - Layout & Exploration
+# Pokémon Mansion B1F - Layout & Points of Interest
 
 ## Overview
-- Basement floor of the ruined Pokémon Mansion on Cinnabar Island.
-- Contains the **Secret Key** needed to unlock Cinnabar Gym, Mewtwo research journal, and statue switch puzzles.
-- Accessed via descending staircase at (21, 23) on 1F [Arrived Turn 21496].
+- Basement laboratory of Pokémon Mansion containing the Secret Key and TM14/TM22 items.
 
-## Layout & Landmarks
-- Ascending Staircase to 1F: Located at (23, 22).
-- Southeast Room (Arrival Sector): cols 21-28, rows 18-26 open pink floor.
-- Northeast Bedroom: cols 22-28, rows 1-5 with beds at (22, 2..3), (24, 2..3), (26, 2..3), entered via (24..25, 5) doorway from row 6.
-- Northern Thoroughfare: Row 6 (cols 10-28) open pink floor.
-- Item Ball: Located at (10, 2) in northern room (accessible via (12..13, 2..5) passage).
+## Landmarks & Secret Key
+- Arrived via stairs from 1F after 3F balcony drop.
+- Statue Switch at (20, 25) and (18, 9) toggling shutter gates.
+- Secret Key retrieved from table at (5, 12) (Turn 21590).
+- TM22 SolarBeam retrieved.
 
-## Switch Permutations & Shutters
-- Eastern corridor shutter at (26..27, 17): OPEN (opened by (18, 25) switch, traversed Turn 21534-21536).
-- Statue switch at (18, 25) base / (18, 24) top (toggled Turn 21518).
-- Shutter at (9, 6..7): CLOSED in current state (yellow/orange bars visible at (9, 6..7) on Turn 21541).
-
-## West & Central Wing Topology
-- Column 20 (rows 16-26): Solid vertical wall dividing Southeast Arrival Sector from West/Center rooms.
-- Column 20 Doorway: Located at rows 13-15 (open pink floor across cols 19-21 at rows 13-15).
-- Column 9 (rows 8-16): Solid vertical wall dividing Central corridor from West wing.
-- Row 8 (cols 6-15): Solid horizontal wall dividing northern rooms from central corridor.
-- Statue switch at (20, 3) base / (20, 2) top in Northeast Bedroom (accessible from (20, 4) facing Up).
-## Items Collected
-- (5, 4): TM22 (Solarbeam) [Collected Turn 21571]
-
-## Northwest & Southwest Wing Topology
-- Northwest Room (cols 2-8, rows 1-7) connects South via doorway at (4..5, 8).
-- (5, 13): Secret Key [Collected Turn 21590] (Unlocks Cinnabar Gym)
 
 <hr>
 
