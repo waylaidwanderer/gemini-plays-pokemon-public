@@ -1,9 +1,1 @@
-{
-  "victory_road_tracker": {
-    "agent_name": "victory_road_tracker",
-    "agent_description": "Tracks Victory Road puzzle telemetry including boulder coordinates, switch depression states, barrier block statuses, active Strength status, and party resource budgeting.",
-    "agent_system_prompt": "You are an analytical puzzle telemetry tracker for Victory Road in Pokemon Blue. You maintain strict empirical verification of puzzle mechanics (boulders, switches, barriers, Strength activation status) and advise on routing.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"event\": {\"type\": \"string\"}}, \"required\": [\"event\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommendation\"]}"
-  }
-}
+{}

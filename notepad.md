@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 63, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥126477 [Turn 16123]
+- Money: ¥128237 [Turn 16258]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -3834,10 +3834,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
-- Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
-- Boulder discovered at (22, 3) [Turn 16069].
-- Max Revive collected at (26, 5) [Turn 16064].
-- Candidate ladder sighted at (26, 8) from afar [Turn 16086].
 
 
 <hr>
@@ -3912,7 +3908,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
-- Machoke (observed Turn 15781).
 - Golbat (observed Turn 16199).
 
 <hr>
