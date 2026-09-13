@@ -3,10 +3,12 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Located at (26, 8) [Visually confirmed Turn 16086; accessible via cols 27-28 corridor from row 11; unclimbed].
+- Northeast Ladder: Located at (26, 8) [Visually confirmed Turn 16086; unclimbed].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Wooden Staircase at (7, 10): Connects middle corridor down to lower corridor; eastern side at (8, 10) is a solid railing collision boundary [Empirically verified Turn 16165].
+- Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
 - Wall at (27, 6): Solid rock wall directly south of (27, 5) [Empirically verified Turn 16136].
@@ -29,7 +31,6 @@
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
 - Wall at (25, 10): Solid rock wall directly north of (25, 11) [Empirically verified Turn 16023].
-- Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
 - Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
