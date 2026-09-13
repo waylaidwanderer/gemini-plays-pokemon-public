@@ -3761,5 +3761,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 92 Barrier: Brown wall/statues span columns 7..10 across the water, with open water bypass channels on the east (cols 11..13) and west (col 6).
 - Central Lawn Island: Rows 90..91, cols 8..9 feature a green lawn island bounded by walls at col 10 and ledge at col 7, surrounded by water.
 - Marshbadge Guard: Stationed at (8, 85). Trigger tile at (7, 85). Verifies Marshbadge possession: 'You can pass here only if you have the MARSHBADGE! Oh! That is the MARSHBADGE! OK then! Please, go right ahead!'.
+- Mid-Lake Island: Rows 80..81, cols 8..12 feature a small island/statue peninsula; wide open water resumes north of row 80 spanning cols 3..12+.
 
 <hr>
