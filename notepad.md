@@ -3793,4 +3793,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Strength user: Geodude (ROCKY) knows Strength.
   - Boulder & Switch Puzzle: Boulder initially at (5, 15) was successfully pushed north onto the switch plate at (5, 14) [Turn 15366]. Western corridor along cols 2-3 provides open northbound route to row 12.
 
+## Wild Encounters
+- Onix (observed Turn 15367).
+
 <hr>
