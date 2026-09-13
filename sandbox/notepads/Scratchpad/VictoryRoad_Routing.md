@@ -25,3 +25,5 @@
 - Flanking to (7, 15) to push East to (9, 15).
 - Next: Move to (9, 16) and push North to (9, 14).
 - Next: Move to (8, 14) and push East along row 14 into eastern chamber.
+- Pushed North to (9, 14).
+- Flanking to (8, 14) and pushing East to (10, 14).
