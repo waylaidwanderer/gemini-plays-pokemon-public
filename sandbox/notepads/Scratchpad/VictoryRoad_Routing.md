@@ -26,3 +26,4 @@
 - Turn 16859: Boulder at (23, 4); continuing southward push down column 23.
 - Turn 16861: Boulder (originally 22, 3) pushed south down column 23 to (23, 5); player at (23, 3).
 - Turn 16864: Discovered Boulder at (24, 10) blocking entrance to ladder chamber (26, 8) from row 11.
+- Turn 16866: Boulder cleared from column 22; traversing column 22 north to row 0 and heading west along row 0 toward ladder (1, 1).
