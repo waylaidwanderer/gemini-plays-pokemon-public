@@ -2960,6 +2960,14 @@
 - **Ladder C (19, 7) Western Maze Access (Hypothesis - Unverified)**:
   - Western traversal from Ladder C (19, 7) across Row 7 requires empirical point-by-point verification.
 
+## Verified Northern Ridge Barriers & Enclosure (Turn 49501)
+- **Verified Collision Barriers**:
+  - (9, 6), (10, 6), (11, 6), (12, 6), (14, 6), (15, 6) are solid rock walls blocking southern egress from Row 5.
+  - (13, 7) is a solid rock wall making (13, 6) a dead-end pocket (Max Potion item ball).
+  - (16, 8) is a solid rock wall making (16, 7) a dead-end pocket.
+  - (17..18, 5) are solid rock walls blocking direct passage between Row 5 and the central loop.
+- **Topology Conclusion**: The Northern Ridge (Ladder E at 7, 1 on 2F) and Row 5 (cols 9..16) form an entirely self-contained upper sector on 2F with no ground passage to the southern half of 2F or Ladder A. Access to the main 2F maze and southwest sector (TM14 Blizzard at 4, 15) must be entered via Ladder B at (23, 7) on 1F.
+
 <hr>
 
 <h1><code>Locations/CeruleanCave1F.md</code></h1>
