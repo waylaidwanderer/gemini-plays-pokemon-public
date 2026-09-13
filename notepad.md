@@ -3840,7 +3840,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
-- 3F Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533; access route being verified].
+- 3F Ladder: Located at (25, 14) in the far eastern wing [Visually confirmed Turn 15639]!
+- Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
 - Western Corridor: Runs along col 0-1 (rows 4-11).
@@ -3859,6 +3860,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Trainers
 - Trainer at (4, 2) in northwest chamber facing South.
+- Trainer: Stationed at (21, 13) facing South [Engaged Turn 15639].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Boulders & Switches
