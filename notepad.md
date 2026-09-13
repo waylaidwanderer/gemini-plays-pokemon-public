@@ -3830,5 +3830,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Player positioned at (15, 12) facing Boulder 1 at (16, 12).
 - Boulder 1 successfully pushed onto switch plate at (17, 13) [Turn 15463]! Switch is depressed.
 - Next Goal: Return to plateau stairs at (5, 13), ascend to (5, 12), cross lowered barrier at (9, 12), and reach 2F ladder.
+- Elevated corridor at cols 11-12 connects south plateau to north plateau seamlessly!
+- North plateau reached at row 7/6.
+- Cooltrainer at (7, 5). Stairs at (7, 7) and (15, 7) connect lower trenches to north plateau.
+- Heading north along col 11 to find 2F ladder.
 
 <hr>
