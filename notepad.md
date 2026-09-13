@@ -2996,7 +2996,6 @@
 ## NW Sector & Route to Ladder A (B1F Mewtwo) - Active Exploration
 - Ladder E at (9, 1) on 2F connects to the Northern Sector (rows 0..5).
 - Ladder A at (1, 3) descends directly to B1F (Mewtwo) and is located in the NW corner.
-- Exploring passages across Rows 1..5 in the NW sector (cols 0..13) to reach Ladder A at (1, 3).
 
 <hr>
 
