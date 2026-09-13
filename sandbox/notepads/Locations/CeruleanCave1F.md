@@ -11,7 +11,7 @@
 4. **Ladder E**: Located at (7, 1) <-> 2F (9, 1) (North Pocket).
 
 ## Verified Ramps & Water Entry Points (1F)
-- **South Ramp**: Located at (17, 15). Direct access from Row 14 thoroughfare at (17, 14) into the southwest water channel.
+- **Central-West Ramp**: Located at (11, 13). Direct access from Central-West Island (11, 8..12) south into South Water Channel at (11, 14).
 - **East Ramp**: Located at (25, 9). Connects central terrace to eastern water basin (cols 24..29, rows 4..11).
 - **North Ramp**: Located at (15, 3). Connects north water canal to Ladder E North Pocket (cols 7..16, rows 0..2).
 
