@@ -3886,6 +3886,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Bounded west by col 24 rock wall.
 - Route into ladder chamber: via Row 11 highway (cols 23-28) to Column 29 Eastern Vertical Highway, then north into row 7/8/9 and west to (27, 7)!
 
+## Turn 16554 Master Solution: The Eastern Route to 3F Ladder (27, 7)
+- The ladder chamber (cols 25-29, rows 7-9) is completely walled off to the south by Row 10 rock barrier.
+- Entry into the ladder chamber is strictly from the NORTH via Row 3 and Column 28/29!
+- Master Route:
+  1. From Row 11, walk west to (22, 11).
+  2. Walk north up Column 22 highway through rows 10..4 to Row 3 (east of Col 19 divider).
+  3. Walk east along Row 3 to (28, 3).
+  4. Walk south down Column 28/29 through rows 4..7 directly into the ladder chamber!
+  5. Step onto the ladder at (27, 7) and ascend to 3F!
+
 <hr>
 
 <h1><code>Locations/Kanto_VictoryRoad_2F</code></h1>
