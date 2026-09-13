@@ -3095,5 +3095,8 @@
 - Active Probe: Testing (14, 11) -> Up to (14, 10) -> Left to (13, 10) -> Left to (12, 10) to empirically confirm the Row 10 bypass around (13, 11).
 - (14, 10), (13, 11): Blocked (solid rock walls).
 - Active Probe: Testing (14, 11) -> Down 2 to (14, 13) -> Left 4 across Row 13 to (10, 13) to access the western corridors.
+- (13, 13): Blocked (solid rock wall).
+- Sector B (cols 14..24, rows 6..15) is definitively verified as a closed enclosed sector on 2F.
+- Active Strategy: Exit Sector B via Ladder B (22, 6) -> 1F -> Ladder E (7, 1) -> 2F (9, 1). Systematically test (6, 3) -> (6, 4), (5, 3) -> (5, 4), (4, 3) -> (4, 4) to access Row 5 (0..7, 5) and Ladder A at (1, 3).
 
 <hr>
