@@ -34,5 +34,5 @@
 2. Descend Ladder B to 1F (23, 7).
 3. On 1F, Surf north/west directly across the waterway to Ladder E at (7, 1).
 4. Ascend Ladder E to 2F (9, 1).
-5. On 2F, walk Down 4 to (9, 5), East to (10, 5) / (11, 5), Down to (10, 7) / (11, 7), West to Column 1 (1, 7), and North to Ladder A (1, 3).
+5. On 2F, navigate Central Loop to Column 23, descend to Row 11 Thoroughfare (14..24, 11), and systematically probe western branches at junctions (14, 11), (17, 13), and Row 15 to locate the physical passage into the Column 0/1 ascent corridor leading to Ladder A (1, 3).
 6. Descend Ladder A to B1F, navigate the straightforward path to Mewtwo, and throw the Master Ball!
