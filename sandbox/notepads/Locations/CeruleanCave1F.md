@@ -21,3 +21,10 @@
 ## Systematic 1F Exploration Protocol
 - Methodically explore all water branches heading South, West, and Central from the North Canal (Row 4..5) and Central Basin (Row 6..10).
 - Map all ground-level terraces, ramps, and search for unmapped ascending ladders across western 1F.
+## Western Waterway Network (Verified Turn 48816)
+- **Western Cross-Channel**: Spans rows 6..7 across cols 8..15, connecting the North Pocket / North Canal to the Western South Canal.
+- **Western South Canal**: Runs vertically along Columns 8..9 across rows 8..11+ into the southwest quadrant of 1F.
+- **Boundaries**:
+  - West wall: solid rock along Column 7 (rows 6..11).
+  - East wall: solid rock barrier at Column 10 (rows 8..11) separating the Western Canal from central ground.
+  - North-Central barrier: solid rock across cols 11..13 at row 4..5.
