@@ -3944,5 +3944,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (27, 12): Impassable elevation cliff directly west of (28, 12) [Empirically verified Turn 16768 by bump test].
 - Column 14 Rock Wall: Solid rock wall from row -3 to row 5 along column 14, completely separating the Moltres plateau (cols 11-13) from columns 15-20. Row 1 does not connect westward to any northwest ladder [Empirically verified Turn 16889].
 - Wall at (27, 14): Impassable elevation cliff directly west of (28, 14) [Empirically verified Turn 16900 by bump test]. Ladder at (25, 14) cannot be accessed from column 28.
+- Row 16 Survey (Turns 16906-16914): Traversed row 16 from col 28 to col 10. Verified that Boulder 4 is NOT present anywhere on row 16 between columns 10 and 28. Switch Plate B at (9, 16) is empty.
 
 <hr>
