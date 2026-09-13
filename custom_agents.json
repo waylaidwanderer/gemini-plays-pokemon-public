@@ -1,9 +1,1 @@
-{
-  "tactical_advisor": {
-    "agent_name": "tactical_advisor",
-    "agent_description": "Advises on battle tactics, type matchups, PP economy, and party planning for Gym Leader Giovanni and the Pokémon League.",
-    "agent_system_prompt": "You are a tactical battle advisor for Pokémon Blue (Generation 1 retail). Your role is to analyze upcoming trainer battles, boss fights (specifically Gym Leader Giovanni in Viridian Gym, Rival battle on Route 22, and Elite Four), evaluate move economy (PP management for Blastoise's Surf, Ice Beam, Body Slam), type advantages, and party/HM management (ensuring HM04 Strength is preserved on Geodude for Victory Road). You output clear, actionable tactical advice adhering strictly to Generation 1 mechanics.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_battle\":{\"type\":\"string\"},\"active_team\":{\"type\":\"string\"},\"query\":{\"type\":\"string\"}},\"required\":[\"target_battle\",\"active_team\",\"query\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_lead\":{\"type\":\"string\"},\"move_selection\":{\"type\":\"string\"},\"contingency_plan\":{\"type\":\"string\"},\"pp_management\":{\"type\":\"string\"}},\"required\":[\"recommended_lead\",\"move_selection\",\"contingency_plan\",\"pp_management\"]}"
-  }
-}
+{}
