@@ -26,7 +26,5 @@
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 - Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
 - Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
-- Turn 16964: Empirical visual confirmation on screen! Ascending ladder is at (26, 8). Boulder is at (24, 10). Column 25 (rows 8-11) is open floor connecting row 11 directly to ladder (26, 8).
-- Turn 16970: Visual confirmation on screen! Boulder is located at (13, 12) flanked by walls (12, 12) and (14, 12), blocking passage from row 11 into row 13/14 corridor. Pushing this boulder south from (13, 11) into (13, 13) opens the route to row 14, columns 22-23, and ladder (26, 8).
 - Turn 16985: Activated Strength with Rocky at (13, 12). Directly testing southward push of Boulder 5 at (13, 13).
 - Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. Exiting north to row 11 to route east toward column 25 and ladder (26, 8).
