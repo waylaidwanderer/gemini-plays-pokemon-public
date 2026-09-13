@@ -3763,5 +3763,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Marshbadge Guard: Stationed at (8, 85). Trigger tile at (7, 85). Verifies Marshbadge possession: 'You can pass here only if you have the MARSHBADGE! Oh! That is the MARSHBADGE! OK then! Please, go right ahead!'.
 - Mid-Lake Island: Rows 80..81, cols 8..12 feature a small island/statue peninsula; wide open water resumes north of row 80 spanning cols 3..12+.
 - West Barrier Structure: Rows 73..75, cols 3..5 feature brown walls and a statue at (5, 73); open water channel continues north through cols 6..12+.
+- Northern Shoreline: Row 72 marks the north end of the lake (cols 6..12). Cols 6-7 form a clear dirt avenue north through rows 71..69+ bounded by tall grass on the east (cols 8..12).
 
 <hr>
