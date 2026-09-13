@@ -229,14 +229,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥126477 [Turn 16123]
+- ¥128237 [Turn 16258]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 65, Water]
   - Status: Healthy [Turn 16063]
-  - HP: 206 / 206 [Verified Lv 65 Turn 16063]
+  - HP: 197 / 206 [Turn 16258]
   - Stats: Attack 152, Defense 177, Speed 152, Special 157 [Verified Lv 65 Turn 16063]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 3/15), Surf (PP 7/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 1/15), Surf (PP 6/15), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3881,7 +3881,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southern Boundary: Solid rock wall along row 17.
 
 ## Trainers
-- Trainer: Tamer at (19, 8) [Challenged Turn 16239; dialogue: "Come on! I'll whip you!"; previously mistaken for Moltres on Turn 16075].
+- Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
