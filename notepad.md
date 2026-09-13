@@ -3845,10 +3845,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. 
 - Turn 17046-17047: Tested boulder at (22, 3) with Strength by pressing Right from (21, 3). SPRITE_6768 successfully displaced east from (22, 3) to (23, 3). Strength is confirmed ACTIVE.
 - Turn 17042: plan_auditor confirmed Boulder at (22, 3) cannot reach Switch Plate B at (9, 16) due to Gen 1 elevation constraints (cannot traverse staircases, ledges, or rows 11-13 rock barriers). Switch Plate B requires the boulder designated for the southern section.
-- Turn 17049-17050: Stepped south from (23, 6) onto tile (23, 7). Empirically verified (23, 7) is ordinary passable cavern floor (no warp, no hop). Ladder confirmed at (26, 8). Advancing south down column 23 to row 11 to enter the southern section and locate the designated boulder for Switch Plate B.
-- Turn 17088-17089: Strength activated with Rocky. Successfully pushed Boulder 4 east from (22, 3) to (23, 3) (confirmed by NPCMovementTracker: SPRITE_6768 moved (22, 3) -> (23, 3)). Boulder 4 is now in Column 23!
-- Turn 17098-17099: Pushed Boulder 4 from (23, 7) into (23, 8). Tile (23, 7) is confirmed passable cavern floor.
-- Turn 17111: Physically bumped into barrier block at (23, 14) from (22, 14). Confirmed 100% SOLID and RAISED. Displacing Boulder 4 into (23, 8) did not lower barrier (23, 14).
 - Switch Plate B at (9, 16) remains empty.
 - Boulder 2 at (9, 11) is permanently immovable.
 - Turns 17115, 17124: Physically bumped Up from (22, 14) into (22, 13) (0-tile delta). Confirmed tile (22, 13) is a solid rock wall; column 22 has no northern passage across rows 12-13.
@@ -3941,7 +3937,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11).
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
-- Boulder 3: Starts in southwest corridor (Turn 16426); current unshifted position being surveyed.
 - Boulder 4: Starts in northeast corridor at (22, 3).
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17173].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
@@ -3962,6 +3957,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 14 Rock Wall: Solid rock wall from row -3 to row 5 along column 14, completely separating the Moltres plateau (cols 11-13) from columns 15-20. Row 1 does not connect westward to any northwest ladder [Empirically verified Turn 16889].
 - Wall at (27, 14): Impassable elevation cliff directly west of (28, 14) [Empirically verified Turn 16900 by bump test]. Ladder at (25, 14) cannot be accessed from column 28.
 - Row 16 Survey (Turns 16906-16914): Traversed row 16 from col 28 to col 10. Verified that Boulder 4 is NOT present anywhere on row 16 between columns 10 and 28. Switch Plate B at (9, 16) is empty.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.
 
 <hr>
