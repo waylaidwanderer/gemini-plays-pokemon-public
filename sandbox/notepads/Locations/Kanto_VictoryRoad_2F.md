@@ -67,6 +67,7 @@
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches
+- Boulder 5: Discovered at (13, 12), pushed south to (13, 13) with Strength [Pushed Turn 16973].
 - Boulder 4: Originally at (22, 3), pushed north to (22, 1), east to (23, 1), south down column 23 over ledge to lower floor [Discovered Turn 16069, Pushed Turns 16848-16865].
 - Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
 - Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
