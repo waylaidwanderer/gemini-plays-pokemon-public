@@ -3006,7 +3006,7 @@
 - (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. 
 - Central Pocket Exact Routing: Ladder C (19, 7) connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3) enclosed upper loop. (22, 5) and (20, 4) are solid rock walls blocking direct passage between (22, 4) and Ladder B (22, 6).
 - Column 9 Collision: (9, 6) is a solid rock wall blocking direct southern passage from (9, 5) to Row 7.
-- Ladder E Ridge Isolation: Ladder E at (9, 1) arrives on an elevated northern ridge spanning (3..9, 1), (3..9, 3), and (9..16, 5). It is walled off from the lower western corridors and Ladder A (1, 3) by solid rock barriers at (2..3, 1..4), (9, 6), and (12..15, 7). Active systematic tile probing is focused on NW sector corridors.
+- Ladder E Ridge Isolation: Ladder E at (9, 1) arrives on an elevated northern ridge spanning (3..9, 1), (3..9, 3), and (9..16, 5). It is walled off from the lower western corridors and Ladder A (1, 3) by solid rock barriers at (2..3, 1..4), (9, 6), and (12..15, 7).
 - Column 24 corridor (24, 1..5) and (25..27, 4) are an enclosed dead-end sector on 2F separated from Ladder D (29, 1). 
 - Eastern Sector & Ladder D Routing (Verified Turns 48174-48182):
   - Ladder D at (29, 1) connects south via (29, 3..6) -> (28..25, 6..7) towards (25, 8..9).
@@ -3026,7 +3026,7 @@
   - (6, 6) is open floor connecting Row 5 at (6, 5) south to Row 7 at (6, 7).
   - Row 7 spans open floor across (1..8, 7).
 - **Local NW Branch Mapping Protocol**:
-  - Note: Direct passage from (5, 3) -> (5, 4) is blocked by rock at (5, 4). Systematic single-tile probing of western vertical corridors (cols 14..6) is required.
+  - Note: Direct passage from (5, 3) -> (5, 4) is blocked by rock at (5, 4).
 ## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
 - **Ridge Isolation**: Ladder E at (9, 1) arrives on an elevated northern ridge (cols 3..16, rows 0..2) that is completely walled off from the lower floors ((15, 3) is a cliff ledge overlooking lower floor where "No SURFing on HYDROS here!").
 - **Isolated Maze Topology**: Ladder E (9, 1), Ladder D (29, 1), Ladder B (22, 6), and Ladder C (19, 7) all lead to isolated sectors on 2F that cannot access Ladder A (1, 3). The true route to Ladder A (1, 3) and B1F Mewtwo must be accessed via unmapped 1F ground/water passages.
@@ -3072,7 +3072,7 @@
 
 # Scratchpad: Cerulean Cave Master Route to Mewtwo (B1F)
 
-## Verified Topological Proof (Turn 49017)
+## Working Hypotheses & Topology Deductions (Turn 49017)
 1. **2F Sector B (Ladder B 22, 6)**: Proven fully enclosed by Column 13 rock wall (13, 10..17).
 2. **2F Northern Network (Ladders C, D, E)**: Proven fully enclosed to the south by Row 4 rock wall (3..8, 4) and Row 6 rock wall (9..12, 6).
 3. **2F Northwest Sector & Ladder A (1, 3)**: Connects directly via Column 0 and Row 5 to the 2F Southwest Sector (TM14 at 4, 15).
