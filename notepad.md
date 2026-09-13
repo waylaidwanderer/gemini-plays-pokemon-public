@@ -3836,24 +3836,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Strategic Plan
 
-- Turn 16813: Boulder 3 pushed onto Switch Plate A at (1, 16). Switch Plate A is DEPRESSED.
-- Turn 16820: Confirmed barrier at (23, 14) remains solid with Switch Plate A depressed. Switch Plate A does NOT control barrier (23, 14).
 - Turn 16889: Confirmed column 14 is a continuous rock wall. The Northwest ladder (1, 1) was a conflation with 1F.
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 - Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
 - Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
 - Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. 
-- Turn 17046-17047: Tested boulder at (22, 3) with Strength by pressing Right from (21, 3). SPRITE_6768 successfully displaced east from (22, 3) to (23, 3). Strength is confirmed ACTIVE.
 - Turn 17042: plan_auditor confirmed Boulder at (22, 3) cannot reach Switch Plate B at (9, 16) due to Gen 1 elevation constraints (cannot traverse staircases, ledges, or rows 11-13 rock barriers). Switch Plate B requires the boulder designated for the southern section.
 - Switch Plate B at (9, 16) remains empty.
 - Boulder 2 at (9, 11) is permanently immovable.
 - Turns 17115, 17124: Physically bumped Up from (22, 14) into (22, 13) (0-tile delta). Confirmed tile (22, 13) is a solid rock wall; column 22 has no northern passage across rows 12-13.
-- Re-evaluating progression: Route back to 1F ladder at (0, 8) to reload map and reset all 2F boulders to starting positions.
 
 ## Post-Reset Status (Turn 17155+)
 - Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
 - Boulder 1: Confirmed reset to starting coordinates at (5, 5) [Turn 17156].
 - Boulder 2: Confirmed at starting position (9, 11) [Turn 17158].
+- Boulder at (24, 10): Confirmed present in eastern sector at (24, 10) [Turn 17218].
 - Boulder at (4, 14): Discovered at (4, 14) in Southern Chamber [Turn 17161].
 - Switch Plate A at (1, 16): DEPRESSED by boulder Turn 17173. Switch Plate B at (9, 16): Currently empty post-reset.
 
@@ -3936,7 +3933,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
-- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11).
+- Boulder 2: Starts at (9, 11) [Verified Turn 17158].
+- Boulder at (24, 10): Located at (24, 10) in eastern sector [Verified Turn 17218]. in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11).
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
 - Boulder 4: Starts in northeast corridor at (22, 3).
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17173].
