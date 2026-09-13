@@ -33,9 +33,9 @@
 - Wall at (25, 10): Solid rock wall directly north of (25, 11) [Empirically verified Turn 16023].
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
-- Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
 
 ## Trainers
+- Trainer: Tamer at (19, 8) [Challenged Turn 16239; dialogue: "Come on! I'll whip you!"; previously mistaken for Moltres on Turn 16075].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
@@ -43,6 +43,7 @@
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
+- Item Ball: Located at (18, 9) [Discovered Turn 16239; guarded by Tamer].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches
