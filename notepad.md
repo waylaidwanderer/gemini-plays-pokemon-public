@@ -3884,5 +3884,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Doorway (5, 4): Flanked by solid rock walls at (4, 4) and (6, 4) [Empirically verified Turn 15677]; with Boulder 1 at (5, 3), (5, 4) has no lateral or northern exit.
+- Row 4 Barrier: Confirmed solid rock wall at (2, 4) and (3, 4) [Tested Turn 15681].
 
 <hr>
