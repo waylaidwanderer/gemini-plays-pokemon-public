@@ -16,3 +16,5 @@
 - Western sector north progression exhausted.
 - Reached (22, 14) on row 14 facing lowered barrier at (23, 14) and ladder at (25, 14).
 - Testing eastern passage through (23, 14) to ascend ladder at (25, 14) to 3F.
+- Barrier at (23, 14) empirically confirmed STILL RAISED despite Switch Plate A [Turn 15765].
+- Routing to Switch Plate B at (9, 16) and Boulder 2 at (9, 11) via stairs at (21, 15) and row 16.
