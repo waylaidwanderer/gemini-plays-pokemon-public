@@ -2853,6 +2853,17 @@
 - **East Canal to North Canal**: Board water via East Ramp at (25, 9) into (25, 10). Surf East to Column 28, North to Row 4 (28, 4), West along Row 4 to Column 14 (14, 4).
 - **Northwest Ramp to Ladder E**: At (14, 4), move East to (15, 4) and Up to Northwest Ramp at (15, 3) to disembark onto Northern Terrace at (15, 2). Walk West along Row 2 (cols 14..7) to (7, 2), then Up 1 into Ladder E at (7, 1).
 - **Southwest Canal**: From (14, 4), water turns South to (14, 6) and West across Row 6 (cols 14..8), flowing south along Column 8/9.
+## Verified Ramps & Waterway Entry Points (1F)
+- **Northwest Ramp**: Located at (15, 3) leading up to Northern Terrace at (15, 2) (Ladder E at 7, 1).
+- **North Ramp**: Located at (23, 3) connecting North Canal to Central Terrace.
+- **East Ramp**: Located at (25, 9) connecting Central Terrace to East Canal.
+- **South-Central Ramp**: Located at (21, 11) connecting South Canal to Central Terrace.
+- **Central-West Ramp**: Located at (11, 13) connecting West Canal to Central-West Island (Ladder C at 18, 9).
+
+## Verified Topographical Boundaries & Collisions (1F)
+- **Central Terrace North Cliff**: Elevated cliff overlooking the north canal; jumping down is blocked ("No SURFing on HYDROS here!").
+- **Shoreline Ledges**: Unramped water-to-land edges are elevated cliffs and cannot be disembarked onto directly without ramps.
+
 
 <hr>
 
@@ -2970,10 +2981,7 @@
   - Row 17 is an open east-west corridor spanning (21..26+, 17) connected north to (21..22, 15) and (21..22, 13).
   - Row 18 is a solid rock boundary wall across (17..26, 18).
   - Tile (20, 17) is a solid rock wall separating the (11..19, 17) western segment from the (21..26+, 17) eastern segment.
-- **NW Sector & Ladder A Topology (Verified Turn 49691)**:
-  - Ladder A is at (1, 3) descending to B1F (Mewtwo).
-  - Column 1 corridor spans (1, 2..15) providing the sole physical ground route directly into Ladder A at (1, 3).
-  - Upper Row 1 corridor (3..9, 1) is blocked from Ladder A by rock walls at (1..2, 1) and (2, 2..4).
+
 - **Row 4 Barrier Array (Verified Turn 49734)**: Tiles (3..8, 4) are solid rock walls blocking direct southward passage from Row 3 into Row 5.
 - Eastern Bypass Collision Update (Turn 49772): Tile (28, 7) is a solid rock wall blocking direct southern passage from (28, 6). Direct route south is via (25, 9) -> Right to (26, 9) -> Column 26 corridor (26, 9..14).
 
@@ -3036,7 +3044,7 @@
 2. Descend Ladder B to 1F (23, 7).
 3. On 1F, Surf north/west directly across the waterway to Ladder E at (7, 1).
 4. Ascend Ladder E to 2F (9, 1).
-5. On 2F, walk Down 4 to (9, 5), East to (10, 5) / (11, 5), Down to (10, 7) / (11, 7), West to Column 1 (1, 7), and North to Ladder A (1, 3).
+5. On 2F, navigate Central Loop to Column 23, descend to Row 11 Thoroughfare (14..24, 11), and systematically probe western branches at junctions (14, 11), (17, 13), and Row 15 to locate the physical passage into the Column 0/1 ascent corridor leading to Ladder A (1, 3).
 6. Descend Ladder A to B1F, navigate the straightforward path to Mewtwo, and throw the Master Ball!
 
 <hr>
