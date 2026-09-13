@@ -3892,7 +3892,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
-- Item Ball: Located at (18, 9) [Discovered Turn 16239; guarded by Tamer].
+- Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches
