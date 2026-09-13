@@ -2952,6 +2952,7 @@
 - Verified Open East-West Passage at (12, 5) (Turn 49086): Tile (12, 5) is completely open dark cave floor connecting (11, 5) directly east to Column 13 (13, 5) and Row 5 (13..16, 5).
 - Verified Barriers at (2, 2) and (6, 4) (Turns 49223-49230): Tile (2, 2) is a solid rock wall blocking direct westward access from (3, 2). Tile (6, 4) is a solid rock wall blocking direct southern passage from (6, 3).
 - Northern Ridge Exhaustive Boundary Audit (Turn 49247): The Northern Ridge (Ladder E at 9, 1) is completely isolated by confirmed rock walls at: (2, 2), (2, 3), (3, 4), (5, 4), (6, 4), (8, 5), (9, 6), (10, 1), (12, 7), (13, 7), (14, 7), (15, 7), (16, 8), (17, 5), and (18, 5). It has zero physical ground connections to lower 2F or Ladder A.
+- **Ladder B Column 23 Corridor**: From Ladder B (22, 6), move Down to (22, 7), East to (23, 7), and South along Column 23 (rows 7..11) to reach Row 11 Thoroughfare at (23, 11). Note that (22, 8..10) are solid rock walls.
 
 <hr>
 
