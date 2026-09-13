@@ -2944,6 +2944,16 @@
 - **Canal-to-Land Transition**: Located at (7, 13). Connects the Western Canal (col 8, row 13) to an isolated 1-tile ledge bounded by rock on all land sides.
 - **Ladder F Location**: Located at (3, 11) on 1F.
 - **Access Status**: Direct ground access from (7, 13) is blocked by rock walls at (6, 13), (7, 12), and (7, 14).
+## Systematic 1F Waterways & Shoreline Matrix (Turn 49145)
+| Sector / Canal | Coordinates | Ramp / Access Tile | Destination / Feature | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| South Channel | (8..11, 14..15) | (11, 13) Ramp | Connects Western Canal to Central Terrace | Verified Open |
+| Western Canal | (8..9, 6..13) | (7, 13) Shore Ledge | Connects South Channel to North Canal | Verified Open |
+| North Canal | (15..28, 4..5) | (15, 3) North Pocket Ramp | Connects Western Canal to North-East Terrace | Verified Open |
+| North Terrace | (23..28, 1..3) | (23, 3) Ramp | Connects North Canal to Ladder D (27, 1) | Verified Open |
+| Central-East Terrace | (21..25, 6..11) | (21, 11) West Ramp & (25, 9) East Ramp | Contains Ladder B at (23, 7) | Verified Open |
+| Central Terrace | (11..18, 8..14) | (11, 13) South-Central Ramp | Contains Ladder C at (18, 9) | Verified Open |
+| East Basin | (24..29, 10..17) | (25, 9) Ramp & (25, 17) Cave Exit | Connects 1F to Cerulean City / Route 24 River | Verified Open |
 
 <hr>
 
