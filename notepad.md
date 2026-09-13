@@ -2868,6 +2868,7 @@
 1. **South-Central Terrace (cols 21..25, rows 10..15)**: Accessible via Ramp at (21, 11).
 2. **Central-West Island Interior (cols 11..18, rows 8..12)**: Accessible via Ramp at (11, 13).
 3. **North Pocket Far West (cols 1..6, rows 0..2)**: West of Ladder E (7, 1).
+- **East Basin West Boundary (Verified Turn 49683)**: (22..23, 11) are solid rock walls blocking westward water passage from (24, 11) to Ramp (21, 11). Ramp (21, 11) is on the western water system.
 
 <hr>
 
