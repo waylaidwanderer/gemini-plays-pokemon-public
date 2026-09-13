@@ -3048,6 +3048,7 @@
   - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
 
 - Verified Open East-West Passage at (12, 5) (Turn 49086): Tile (12, 5) is completely open dark cave floor connecting (11, 5) directly east to Column 13 (13, 5) and Row 5 (13..16, 5).
+- Verified Barriers at (2, 2) and (6, 4) (Turns 49223-49230): Tile (2, 2) is a solid rock wall blocking direct westward access from (3, 2). Tile (6, 4) is a solid rock wall blocking direct southern passage from (6, 3).
 
 <hr>
 
