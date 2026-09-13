@@ -3902,6 +3902,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 1 is a completely open horizontal highway across cols 22-28, bypassing both trainers (23, 2) and (24, 3).
 - Path to 3F Ladder (27, 7): (23, 3) -> Left to (22, 3) -> Up to (22, 1) -> East along Row 1 to (28, 1) -> South down Column 28 to (28, 7) -> Left into ladder at (27, 7)!
 
+## Turn 16587 Progression Breakthrough: Real 3F Ladder is Northwest at (1, 1)
+- Empirically confirmed: Eastern ladder at (27, 7) is completely enclosed by solid walls on all sides (Row 6, Row 10, Col 24, Col 30). It is unreachable from 2F and is the arrival/exit zone from 3F hole drop.
+- Real 2F -> 3F progression ladder is the NORTHWEST LADDER at (1, 1), guarded by trainer at (4, 2).
+- Switch Plate A at (1, 16) depressed by Boulder 3 lowered the western barrier guarding the northwest chamber!
+- Routing: Walk west along Row 11 to Southern Chamber (cols 2-7), ascend Western Highway (cols 2-3) north to row 4, enter northwest chamber, defeat trainer (4, 2), and climb ladder (1, 1) to 3F!
+
 <hr>
 
 <h1><code>Locations/Kanto_VictoryRoad_2F</code></h1>
