@@ -10,3 +10,4 @@
 ## Survey & Barriers
 - Tile (7, 131): Solid barrier blocking northbound movement on foot from (7, 132).
 - Tile (7, 132): Attempting to Surf north from (7, 132) yields "No SURFing on SHELDON here!".
+- Eastern Corridor (Cols 14-15): Open 2-tile-wide avenue running north through rows 131..128+ between statues at col 13 and col 16, bypassing the central water/ledge barrier.
