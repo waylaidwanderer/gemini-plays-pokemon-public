@@ -3875,5 +3875,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Marowak (observed Turn 15606).
 - Machop (observed Turn 15628).
 
+- Zubat (observed Turn 15633).
 
 <hr>

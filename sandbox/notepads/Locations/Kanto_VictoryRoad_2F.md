@@ -17,7 +17,7 @@
 - Plateau Boundary: Moving North from row 8 into row 7 across cols 5..13 is blocked by the raised plateau ledge [Tested Turns 15581, 15587, 15614].
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
-- Legendary Pokémon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
+- Legendary Pokï¿½mon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 
 ## Trainers
 - Trainer at (4, 2) in northwest chamber facing South.
@@ -36,3 +36,5 @@
 - Machoke (observed Turn 15551).
 - Marowak (observed Turn 15606).
 - Machop (observed Turn 15628).
+
+- Zubat (observed Turn 15633).
