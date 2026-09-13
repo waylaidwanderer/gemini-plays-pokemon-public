@@ -3880,6 +3880,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
 
 ## Trainers
+- Trainer: at (13, 3) [Engaged Turn 16108]
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
