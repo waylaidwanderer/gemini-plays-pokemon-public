@@ -3879,5 +3879,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop (observed Turn 15628).
 
 - Zubat (observed Turn 15633).
+- Onix (observed Turn 15658).
 
 <hr>

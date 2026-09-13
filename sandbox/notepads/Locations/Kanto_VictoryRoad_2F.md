@@ -41,3 +41,4 @@
 - Machop (observed Turn 15628).
 
 - Zubat (observed Turn 15633).
+- Onix (observed Turn 15658).
