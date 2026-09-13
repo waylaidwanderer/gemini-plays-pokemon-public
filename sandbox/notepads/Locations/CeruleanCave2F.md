@@ -96,4 +96,3 @@
   - (13, 1) is blocked west at (10, 1).
 - Conclusion: Ladder A at (1, 3) cannot be reached from Ladder E. We must access the lower 2F maze via Ladder B (23, 7) / Row 11 or explore 1F further.
 - Verified Open East-West Passage at (12, 5) (Turn 49086): Tile (12, 5) is completely open dark cave floor connecting (11, 5) directly east to Column 13 (13, 5) and Row 5 (13..16, 5).
-- Column 17 South Bypass (Turn 49086): Column 17 is open dark floor across (17, 6..9), connecting Row 5 at (16, 6) directly south to Row 9 at (17, 9).
