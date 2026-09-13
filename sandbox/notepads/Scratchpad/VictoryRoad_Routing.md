@@ -4,6 +4,7 @@
 
 
 
+
 # Victory Road 2F Routing & Hypotheses
 
 
@@ -34,3 +35,14 @@
   6. Push Left: Boulder 3 moves from (3, 16) -> (2, 16).
   7. Push Left again: Boulder 3 moves from (2, 16) -> (1, 16) onto Switch Plate A!
 - Switch Plate A depressed; player at (2, 16) exits north via (3, 16) -> (3, 15) -> (3, 14) into southern chamber, then ascends wooden staircase at (5, 10) to row 8 Highway!
+## Turn 16485 Breakthrough: The True Progression Route to 3F
+- Northwest Ladder at (1, 1) is the TRUE ladder to 3F, completely free of barrier blocks!
+- Row 3 is a continuous horizontal corridor running along the upper plateau all the way from (17, 3) past defeated Cooltrainer ♀ (13, 3) west to (1, 3) and Ladder (1, 1).
+- Boulder 1 at (5, 5) is a one-way shortcut design: pushing it south from (5, 4) opens the passage from the Western Highway, but access to Row 3 is via the wooden staircase at (17, 5).
+- Master Route from (3, 5) to 3F Ladder (1, 1):
+  1. South via Western Highway (col 3) to (3, 11), east to (5, 11), ascend (5, 10) stairs to (5, 8).
+  2. East along Row 8 Highway to (14, 8), south down col 14 to row 12 at (14, 12).
+  3. East along row 12 to (17, 12), north up col 17 to wooden staircase at (17, 5).
+  4. Ascend staircase (17, 5) to row 4, step north to (17, 3) on Row 3.
+  5. Walk west along Row 3 from (17, 3) past (13, 3) and (4, 3) to (1, 3).
+  6. Step north from (1, 3) to (1, 1) and climb Northwest Ladder to Victory Road 3F!
