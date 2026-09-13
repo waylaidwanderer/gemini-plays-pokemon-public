@@ -23,6 +23,7 @@
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
 - Wall at (27, 10): Solid rock wall directly north of (27, 11) [Empirically verified Turn 16607; northern entry from Row 11 into eastern chamber is completely blocked].
 - Wall at (15, 11): Solid rock wall directly west of (16, 11) [Empirically verified Turn 16603].
+- Wall at (5, 2): Solid rock wall directly north of (5, 3) [Empirically verified Turn 16637].
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
