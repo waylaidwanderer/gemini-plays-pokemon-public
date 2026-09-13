@@ -3845,9 +3845,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 16853: Successfully pushed Boulder from (22, 2) North into (22, 1).
 - Turn 16859: Boulder at (23, 4); continuing southward push down column 23.
 - Turn 16861: Boulder (originally 22, 3) pushed south down column 23 to (23, 5); player at (23, 3).
-- Turn 16864: Discovered Boulder at (24, 10) blocking entrance to ladder chamber (26, 8) from row 11.
-- Turn 16889: Confirmed column 14 is a continuous rock wall. The Northwest ladder (1, 1) was a conflation with 1F. The true exit to 3F is in the eastern wing (ladder chamber at (26, 8) / eastern ladder).
-- Strategic Focus: Return to eastern wing, solve boulder puzzle at (24, 10), and enter ladder chamber (26, 8) to reach 3F.
+- Turn 16889: Confirmed column 14 is a continuous rock wall. The Northwest ladder (1, 1) was a conflation with 1F.
+- Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
+- Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
+- Strategic Focus: Investigate where Boulder 4 actually landed when pushed south down column 23, and determine how barrier (23, 14) or ladder (25, 14) is accessed.
 
 <hr>
 
