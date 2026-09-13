@@ -14,5 +14,6 @@
 - Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
 - Doorway (5, 4) blocked by Boulder 1 at (5, 3) with solid rock wall at (5, 2) [Confirmed Turn 15748].
 - Western sector north progression exhausted.
-- Barrier at (23, 14) empirically confirmed STILL RAISED despite Switch Plate A [Turn 15765].
-- Routing to Switch Plate B at (9, 16) and Boulder 2 at (9, 11) via stairs at (21, 15) and row 16.
+- Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
+- Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
+- Primary 3F progression route: Northwest ladder at (1, 1) via Western Highway and doorway (5, 4).
