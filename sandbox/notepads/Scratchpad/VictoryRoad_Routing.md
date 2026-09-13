@@ -49,11 +49,4 @@
 
 
 
-## Working Hypothesis: Northwest Ladder at (1, 1) and Row 4 Barrier Test
-- Status: Unverified hypothesis.
-- Eastern chamber boundaries verified: Row 6 wall at (28, 6), Row 10 wall at (27, 10). Entrance to eastern ladder is unreachable from 2F corridors.
-- Hypothesis to test: Switch Plate A at (1, 16) depressed by Boulder 3 may have lowered the barrier block along Row 4 guarding the northwest chamber and ladder at (1, 1).
-- Verified Route to Western Highway (Row 11 is blocked west at (15, 11)):
-  1. Ascend Column 13 from Row 14 north to (13, 8).
-  2. Walk west along Row 8 Highway: (12, 8) -> (11, 8) -> (10, 8) -> (9, 8) -> (8, 8) -> (7, 8) -> (6, 8) -> (5, 8).
-  3. At column 5, connect to Western Highway (cols 2-3) and walk north to Row 4.
+
