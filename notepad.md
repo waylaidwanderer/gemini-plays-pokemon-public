@@ -233,7 +233,7 @@
 - BLASTOISE (Nickname: SHELDON) [Lv 62, Water]
   - Status: Healthy
   - HP: 131 / 196
-  - Stats: Attack 145, Defense 168, Speed 145, Special 148
+  - Stats: Attack 145, Defense 168, Speed 145, Special 148 (+Calcium used Turn 15495, stat screen check pending)
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 13/15), Surf (PP 13/15), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
