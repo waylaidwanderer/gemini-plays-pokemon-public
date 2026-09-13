@@ -3019,6 +3019,11 @@
 - (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. To reach the NW Sector, use Ladder C down to 1F water canal route to Ladder E.
 - Central Pocket Exact Routing: Ladder C (19, 7) <-> (19, 6) <-> (19, 5) <-> (20, 5) <-> (21, 5) <-> (21, 4) <-> (22, 4) <-> (22, 5) <-> (22, 6) Ladder B. (20, 4) is a solid rock wall; (20..22, 2) is an enclosed dead-end corridor. To traverse to other 2F sectors, descend via Ladder C (19, 7) to 1F water canal system.
 - Column 24 corridor (24, 1..5) and (25..27, 4) are an enclosed dead-end sector on 2F separated from Ladder D (29, 1). To reach Mewtwo, descend via Ladder C (19, 7) to 1F water canal route.
+- Eastern Sector & Ladder D Routing (Verified Turns 48174-48182):
+  - Ladder D at (29, 1) connects south via (29, 3..6) -> (28..25, 6..7) towards (25, 8..9).
+  - Row 9 at (25, 9) is blocked to the west by solid rock walls at (24, 9) and (24, 5..10).
+- NW Sector Collision Details (Verified Turns 48154-48165):
+  - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
 
 <hr>
 
