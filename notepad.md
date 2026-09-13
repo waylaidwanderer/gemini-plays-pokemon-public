@@ -3718,3 +3718,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pokémon League Reception Gate: Building facade at cols 7..13, rows 2..5 with front entrance door at (8, 5) approached from (8, 6).
 
 <hr>
+
+<h1><code>Locations/Kanto_Route22_ReceptionGate</code></h1>
+
+# Pokémon League Reception Gate (Route 22 / Route 23 Gatehouse)
+
+## Connections
+- South: Route 22 via entrance at (4..5, 7) leading south out the door.
+- North: Route 23 via corridor at (4..5, 0..1).
+
+## Layout & Personnel
+- Carpet corridor: Columns 4-5 from row 7 up to row 0.
+- Checkered floor: Columns 0-3 (west) and 6-9 (east).
+- Boulderbadge Guard: Stationed at (6, 2) facing west, verifying Boulderbadge possession for travelers heading north to Route 23.
+
+<hr>
