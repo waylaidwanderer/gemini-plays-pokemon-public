@@ -36,3 +36,8 @@
   - Ladder C at (18, 9) is situated on the same continuous ground terrace as Ramp (11, 13).
   - Open crossways connect (11..13, 9) directly east across (14..17, 9) to Ladder C at (18, 9).
   - Open southern corridor extends south down Column 17 (rows 9..13+).
+## Southwest Sector & Ladder F (Verified Turns 48846-48848)
+- **Canal-to-Land Transition**: Located at (7, 13). Connects the Western Canal (col 8, row 13) directly west to the Western Lower Sector.
+- **Ladder F Location**: Located at **(3, 11)** on 1F.
+- **Connectivity**: Ascends directly from 1F (3, 11) into the isolated 2F West Maze (leading to Ladder A at (1, 3) and B1F Mewtwo).
+- **Access Route**: From (7, 13) -> (6, 13) / (7, 12) -> (4..6, 11) -> step Left onto Ladder F at (3, 11)!
