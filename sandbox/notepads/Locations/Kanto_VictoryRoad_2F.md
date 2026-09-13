@@ -6,6 +6,7 @@
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
 - Western Corridor: Runs along col 0-1 (rows 4-11).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
@@ -24,6 +25,7 @@
 - Legendary Pok�mon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 
 ## Trainers
+- Trainer at (19, 8) facing South in eastern chamber [Undefeated; visually confirmed Turn 15779].
 - Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
@@ -44,4 +46,5 @@
 
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
+- Machoke (observed Turn 15781).
 - Row 4 Barrier: Confirmed solid rock wall at (2, 4) and (3, 4) [Tested Turn 15681].
