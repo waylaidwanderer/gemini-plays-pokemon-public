@@ -4,10 +4,11 @@
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Located at (26, 8) [Visually confirmed Turn 16086; accessible via cols 27-28 corridor from row 11; unclimbed].
-- Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
+- Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Row 11 Elevation Boundary: Southern passage from (26, 11) to (26, 12) [Tested Turn 16014] and (25, 11) to (25, 12) [Tested Turn 16015] confirmed impassable cliff wall.
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Lower Corridor (Row 16): Fully walkable dark checkerboard floor extending west and east beneath row 15 rock boundaries [Empirically verified Turn 16006].
@@ -31,7 +32,7 @@
 - Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
 
 ## Trainers
-- Trainer: at (13, 3) [Engaged Turn 16108]
+- Trainer: Cooltrainer ♀ at (13, 3) [Challenged Turn 16108; active battle Turn 16111; 3 Pokémon].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
@@ -41,6 +42,8 @@
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches
+- Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
+- Boulder at (13, 12): Located in 1-tile chute between row 11 and row 13 [Discovered Turn 16094; tested Turn 16101].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
