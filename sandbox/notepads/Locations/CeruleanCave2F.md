@@ -15,7 +15,7 @@
    - Central Loop: Ladder C connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3). Walled off from lower corridors by rock walls at (18..20, 4), (16, 8), (17, 5..8), and (19, 1).
 
 3. **Northern Ridge Sector**:
-   - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (isolated upper NW ridge).
+   - Ladder E at (9, 1) on 2F <-> (7, 1) on 1F (isolated upper NW ridge).
 
 4. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder A at (1, 3) descends to B1F (Mewtwo).
@@ -87,8 +87,8 @@
 - **Row 11 Western Barriers (Turns 49392 & 49395)**:
   - (13, 11) and (13, 12) are confirmed solid rock walls blocking westward traversal from (14, 11..12).
   - Column 14 extends south across (14, 13..14) to open floor on Row 14/15 (cols 15..19).
-- **Ladder C (19, 7) Western Maze Access (Hypothesis - Unverified)**:
-  - Western traversal from Ladder C (19, 7) across Row 7 requires empirical point-by-point verification.
+- **Ladder C South Barrier (Turn 49588)**: Tile (19, 8) directly south of Ladder C (19, 7) is a solid purple rock wall blocking direct southward passage from Ladder C into Row 9.
+- **Column 13 Barrier at Row 12 (Turn 49568)**: Tile (13, 12) is a solid rock wall blocking direct westward passage from (14, 12).
 
 ## Verified Northern Ridge Barriers & Enclosure (Turn 49501)
 - **Verified Collision Barriers**:
