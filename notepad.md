@@ -3835,6 +3835,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
 - Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
 - Primary 3F progression route: Northwest ladder at (1, 1) via Western Highway and doorway (5, 4).
+- Resetting 2F via ladder (0, 8) to reset Boulder 1 (trapped at (5, 3)) and inspect true starting positions [Turn 15791].
 
 <hr>
 
