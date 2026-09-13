@@ -30,3 +30,5 @@
 - Active Probe: Testing (5, 3) -> Down to (5, 4) and (4, 3) -> Down to (4, 4).
 - (5, 4), (4, 4): Blocked (solid rock walls).
 - Active Probe: Testing (9, 5) -> Down to (9, 6), then (10, 6), (11, 6), (12, 6) to find the vertical link into Row 6/7 (8..4, 6..7) leading to (6, 6) -> (6, 5) -> (0, 5) -> Ladder A (1, 3).
+- (9, 6): Blocked (solid rock wall).
+- Active Probe: Testing (10, 5) -> Down to (10, 6), (11, 5) -> Down to (11, 6), and (12, 5) -> Down to (12, 6) to locate the vertical connection into Row 7.
