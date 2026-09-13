@@ -1,7 +1,6 @@
 # Victory Road 2F Routing & Hypotheses
 
 ## 1F Milestone Completed
-- 1F boulder puzzle solved, Cooltrainer defeated, ladder at (1, 1) ascended [Turn 15532].
 
 ## 2F Empirical Discoveries
 - Arrival from 1F is at ladder (0, 8).
