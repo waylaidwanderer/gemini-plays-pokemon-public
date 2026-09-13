@@ -3001,7 +3001,7 @@
 ## Verified Central Sector Path Matrix (Turn 48036)
 - (19, 3) is a solid rock wall separating (20, 3) from (18, 3).
 - Verified open path from (20, 3) to Ladder C (19, 7): (20, 3) -> (20, 2) -> (21..22, 2) -> (22, 3..4) -> (21, 4..5) -> (20..19, 5) -> (19, 6..7) [Ladder C].
-- (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. To reach the NW Sector, use Ladder C down to 1F water canal route to Ladder E.
+- (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. 
 - Central Pocket Exact Routing: Ladder C (19, 7) connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3) enclosed upper loop. (22, 5) and (20, 4) are solid rock walls blocking direct passage between (22, 4) and Ladder B (22, 6).
 - Column 9 Collision: (9, 6) is a solid rock wall blocking direct southern passage from (9, 5) to Row 7.
 - Ladder E Ridge Isolation: Ladder E at (9, 1) arrives on an elevated northern ridge spanning (3..9, 1), (3..9, 3), and (9..16, 5). It is walled off from the lower western corridors and Ladder A (1, 3) by solid rock barriers at (2..3, 1..4), (9, 6), and (12..15, 7). Active systematic tile probing is focused on NW sector corridors.
@@ -3035,7 +3035,7 @@
   - (10, 0..4) are solid rock walls blocking east-west movement between Column 11 and Column 9.
   - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
 
-## Definitive Master Route to Ladder A (B1F Mewtwo) - Verified Turn 48609
+## Working Hypothesis: Potential Route to Ladder A (B1F Mewtwo) - Pending Physical Verification
 - **Ladder A Location**: (1, 3) -> descending ladder to B1F (Mewtwo).
 - **Physical Enclosure & True Entry Corridor**:
   - (2, 3) is solid rock east of Ladder A.
