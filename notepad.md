@@ -3872,5 +3872,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Legendary Pokémon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 - Plateau Boundary: Moving North from (11, 8) into (11, 7) is blocked by the raised plateau ledge [Tested Turn 15581].
 - Row 7 Boundary: Moving North into (9, 7) is also blocked by the raised plateau ledge [Tested Turn 15587]; the entire row 7 is an elevated cliff relative to row 8.
+- Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
 
 <hr>
