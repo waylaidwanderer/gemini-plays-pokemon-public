@@ -3,6 +3,8 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
+- Northeast Ladder: Located at (27, 7) [Discovered Turn 16014].
+- North-Central Ladder: Located at (23, 7) [Discovered Turn 16014].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
