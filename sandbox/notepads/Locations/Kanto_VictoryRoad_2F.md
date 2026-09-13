@@ -47,7 +47,7 @@
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Boulder at (13, 12): Located in 1-tile chute between row 11 and row 13 [Discovered Turn 16094; tested Turn 16101].
+- Boulder at (13, 12): Located in 1-tile chute between row 11 and row 13; immovable to South into (13, 13) due to rock wall [Tested Turn 16101; verified Turn 16189].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
