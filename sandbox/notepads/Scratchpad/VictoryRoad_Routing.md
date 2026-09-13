@@ -1,3 +1,7 @@
+## Turn 16303 Breakthrough: Eastern Highway to Row 16
+- Columns 27-29 form a wide open vertical corridor connecting row 11 south to row 16 lower corridor.
+- Row 16 lower corridor provides direct westward access beneath row 15 rocks to Switch Plate B at (9, 16), Boulder 3 at (4, 16), Switch Plate A at (1, 16), and the western sector (cols 2-7).
+
 # Victory Road 2F Routing & Hypotheses
 
 

@@ -7,6 +7,8 @@
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Eastern Vertical Highway: Columns 27-29 form an open north-south corridor connecting row 11 (27, 11) directly south through rows 12-15 down to the row 16 lower corridor [Empirically verified Turn 16303].
+- Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Northern Cliff Boundary: Row 1 is an elevated impassable rock cliff face along the northern perimeter (north movement from row 2 into row 1 blocked at (17, 2) Turn 16124 and (9, 2) Turn 16173).
 - Wooden Staircase at (7, 10): Connects middle corridor down to lower corridor; eastern side at (8, 10) is a solid railing collision boundary [Empirically verified Turn 16165].
