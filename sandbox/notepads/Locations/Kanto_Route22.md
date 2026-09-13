@@ -2,7 +2,7 @@
 
 ## Connections
 - East: Viridian City entrance at (39..40, 8..9).
-- West: Pokémon League Reception Gate at (8, 5).
+- West: Pokï¿½mon League Reception Gate at (8, 5).
 
 ## Geography & Layout
 - Entrance: Paved road enters from Viridian City along rows 8-9 at columns 39-40.

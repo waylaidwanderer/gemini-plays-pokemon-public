@@ -3791,6 +3791,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Entrance: Player arrives at (8, 17) facing north.
 - Boulder & Switch Puzzle: Boulder located at (5, 15). Round switch plate located at (5, 14). Horizontal barrier at (5, 13).
   - Strength user: Geodude (ROCKY) knows Strength.
-  - Observed Layout: Boulder at (5, 15) sits directly south of switch plate at (5, 14) and barrier at (5, 13); boulder interaction pending empirical test.
+  - Boulder & Switch Puzzle: Boulder initially at (5, 15) was successfully pushed north onto the switch plate at (5, 14) [Turn 15366]. Western corridor along cols 2-3 provides open northbound route to row 12.
 
 <hr>
