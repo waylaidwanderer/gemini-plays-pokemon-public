@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 63, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥124972 [Turn 15654]
+- Money: ¥126477 [Turn 16123]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -229,14 +229,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥124972 [Turn 15654]
+- ¥126477 [Turn 16123]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 65, Water]
   - Status: Healthy [Turn 16063]
   - HP: 206 / 206 [Verified Lv 65 Turn 16063]
   - Stats: Attack 152, Defense 177, Speed 152, Special 157 [Verified Lv 65 Turn 16063]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 8/15), Surf (PP 7/15), Ice Beam (PP 5/10)
+  - Moves: Double-Edge (PP 14/15), Body Slam (PP 3/15), Surf (PP 7/15), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
