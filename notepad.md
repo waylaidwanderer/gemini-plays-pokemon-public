@@ -3833,5 +3833,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North plateau reached at row 7/6.
 - Cooltrainer at (7, 5) facing South. Stairs at (7, 7) and (15, 7) connect lower trenches to north plateau.
 - Row 3 from col 7 to 13 is an impassable rock cliff; passage north to upper section is via cols 14-15.
+- Verified: Row 3 is lower cavern floor separated from plateau (rows 4-6) by an impassable cliff edge.
+- Stairs at (15, 7) descend to row 8 lower floor.
 
 <hr>
