@@ -3845,8 +3845,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 - Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
 - Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
-- Turn 16964: Empirical visual confirmation on screen! Ascending ladder is at (26, 8). Boulder is at (24, 10). Column 25 (rows 8-11) is open floor connecting row 11 directly to ladder (26, 8).
-- Turn 16970: Visual confirmation on screen! Boulder is located at (13, 12) flanked by walls (12, 12) and (14, 12), blocking passage from row 11 into row 13/14 corridor. Pushing this boulder south from (13, 11) into (13, 13) opens the route to row 14, columns 22-23, and ladder (26, 8).
 - Turn 16985: Activated Strength with Rocky at (13, 12). Directly testing southward push of Boulder 5 at (13, 13).
 - Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. Exiting north to row 11 to route east toward column 25 and ladder (26, 8).
 
@@ -3884,7 +3882,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
-- Tile (13, 12): Empirically verified 100% passable open floor by direct physical step-into traversal [Turn 16363].
+- Tile (13, 12): Empirically verified open floor, but path south is blocked by Boulder 5 at (13, 13) against solid rock wall at (13, 14) [Turns 16994-16995].
+- Wall at (13, 14): Continuous solid rock wall directly south of Boulder 5; pushing south verified 0 movement delta [Turns 16994-16995].
+- Boulder 5: Located at (13, 13), permanently immovable (blocked south by (13, 14) rock wall, flanked by walls (12, 12-13) and (14, 12)).
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
@@ -3923,7 +3923,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches
-- Boulder 5: Discovered at (13, 12), pushed south to (13, 13) with Strength [Pushed Turn 16973].
+- Boulder 5: Located at (13, 13). Pushed south from (13, 12) to (13, 13) on Turn 16973. Confirmed permanently immovable on Turns 16994-16995 (blocked south by solid rock wall at (13, 14); flanked by rock walls).
 - Boulder 4: Originally at (22, 3), pushed north to (22, 1), east to (23, 1), south down column 23 over ledge to lower floor [Discovered Turn 16069, Pushed Turns 16848-16865].
 - Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
 - Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
