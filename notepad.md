@@ -3711,5 +3711,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (35, 6): Solid stone barrier boundary [Confirmed Turn 15218].
 - Tile (30, 8): Solid collision to north and west [Confirmed Turn 15172].
 - Western Sector (Rows 10-12, Cols 2-7): Approach road in front of League Gate; signpost at (7, 11); open passage between row 11 and row 12 at cols 3-5.
+- Tile (33, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15246].
 
 <hr>
