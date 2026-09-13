@@ -3804,6 +3804,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Graveler (observed Turn 15389).
 - Geodude (observed Turn 15408).
 - Machop (observed Turn 15442).
+- Items: TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
+- Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 
 <hr>
 
