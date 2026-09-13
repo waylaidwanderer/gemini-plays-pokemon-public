@@ -1,6 +1,4 @@
-## Turn 16303 Breakthrough: Eastern Highway to Row 16
-- Columns 28-29 form a wide open vertical corridor (col 27 blocked at row 12) connecting row 11 south to row 16 lower corridor.
-- Row 16 lower corridor extends west to (9, 16) Switch Plate B, ending at column 8 solid rock wall with zero westward access to columns 2-7 [Empirically verified Turn 16347].
+
 
 
 
@@ -37,14 +35,7 @@
   6. Push Left: Boulder 3 moves from (3, 16) -> (2, 16).
   7. Push Left again: Boulder 3 moves from (2, 16) -> (1, 16) onto Switch Plate A!
 - Switch Plate A depressed; player at (2, 16) exits north via (3, 16) -> (3, 15) -> (3, 14) into southern chamber, then ascends wooden staircase at (5, 10) to row 8 Highway!
-## Turn 16485 Hypothesis & Master Route to Northern Plateau:
-- Working Hypothesis: Northwest Ladder at (1, 1) is the candidate exit to 3F; Row 3 may connect across the northern plateau to (1, 1), pending empirical verification of columns 8-12.
-- Verified Route to Northern Plateau Staircase (17, 5):
-  1. Via Row 16 lower corridor: descend (15, 15) stairs to row 16. [Completed Turn 16499]
-  2. East along Row 16 to column 28, north up Eastern Vertical Highway (cols 28-29) to (28, 11). [Completed Turn 16501]
-  3. West along row 11 to (23, 11), north up columns 21-23 to row 6, west along row 6 to staircase at (17, 5).
-  4. Ascend staircase (17, 5) to row 4, step north to (17, 3) on Row 3.
-  5. Test continuity of Row 3 westward past (13, 3) and (8, 3) toward Northwest Ladder (1, 1).
+
 
 
 
