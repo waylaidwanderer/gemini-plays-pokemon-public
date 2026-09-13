@@ -2964,7 +2964,7 @@
 - **True Route to Ladder A (1, 3)**:
   1. From Ladder E at (9, 1), walk South along Column 9: (9, 2) -> (9, 3) -> (9, 4) -> (9, 5).
   2. Walk West along Row 5 thoroughfare across columns 8..1: (8, 5) -> (7, 5) -> (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (1, 5).
-  3. Walk North along Column 1: (1, 4) -> (1, 3) [Ladder A].
+  3. Walk West to Column 0 at (0, 5), North along Column 0: (0, 4) -> (0, 3), and East into Ladder A at (1, 3).
   4. Step onto Ladder A at (1, 3) to descend to B1F (Mewtwo).
 - **Collision Topology**: Row 5 (cols 1..9) and Column 9 (rows 1..5) are completely open cave floors. The middle rock wall at Row 4 (cols 1..8) separates the upper Row 3 corridor from the lower Row 5 corridor.
 
