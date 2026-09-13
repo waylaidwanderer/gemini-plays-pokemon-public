@@ -20,10 +20,8 @@
 
 - Turn 16813: Boulder 3 pushed onto Switch Plate A at (1, 16). Switch Plate A is DEPRESSED.
 - Turn 16820: Confirmed barrier at (23, 14) remains solid with Switch Plate A depressed. Switch Plate A does NOT control barrier (23, 14).
-- Turn 16824: Investigating two-stage puzzle hypothesis: Switch Plate A controls barrier at (9, 10) to access Boulder 2 at (9, 11); Boulder 2 on Switch Plate B at (9, 16) controls barrier (23, 14).
 - Turn 16845: Reached Northeast Plateau passage via (23, 7); visually confirmed Boulder at (22, 3) and Ladder at (26, 8).
 - Turn 16848: Successfully pushed Boulder from (22, 3) North into (22, 2).
 - Turn 16853: Successfully pushed Boulder from (22, 2) North into (22, 1).
-- Turn 16856: Successfully pushed Boulder south down column 23 from (23, 1) into (23, 2).
-- Turn 16857: Boulder at (23, 3); continuing southward push down column 23.
 - Turn 16859: Boulder at (23, 4); continuing southward push down column 23.
+- Turn 16861: Boulder (originally 22, 3) pushed south down column 23 to (23, 5); player at (23, 3).

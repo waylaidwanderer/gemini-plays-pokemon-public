@@ -9,14 +9,14 @@
 ## Layout & Topology
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
-- Row 1 Northern Perimeter: Empirically confirmed impassable cliff along row 1 across cols 14-23 [Verified Turns 16124, 16525].
+- Northern Perimeter (Rows 0-1): Row 1 has impassable cliff at (17, 2) and (9, 2), but columns 20-23 across rows 0-1 form an open, fully traversable northern corridor connecting the northeast plateau [Verified Turns 16853-16855].
 - Column 8 Rock Wall: Solid rock wall along column 8 spanning rows 2 through 7, completely separating the eastern plateau from the western chamber (west movement blocked from (9, 3) into (8, 3) [Empirically verified Turn 16514]).
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
 - Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
-- Northern Cliff Boundary: Row 1 is an elevated impassable rock cliff face along the northern perimeter (north movement from row 2 into row 1 blocked at (17, 2) Turn 16124 and (9, 2) Turn 16173).
+- Northern Cliff Boundary: Impassable elevation face prevents northward ascent into row 1 specifically from (17, 2) and (9, 2); row 0-1 passage is accessible from the northeast plateau via cols 20-23.
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
