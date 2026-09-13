@@ -57,4 +57,3 @@
   1. Ascend Column 13 from Row 14 north to (13, 8).
   2. Walk west along Row 8 Highway: (12, 8) -> (11, 8) -> (10, 8) -> (9, 8) -> (8, 8) -> (7, 8) -> (6, 8) -> (5, 8).
   3. At column 5, connect to Western Highway (cols 2-3) and walk north to Row 4.
-  4. Physically test passability into Row 4 / northwest chamber.
