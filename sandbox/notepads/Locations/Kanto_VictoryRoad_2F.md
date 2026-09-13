@@ -12,3 +12,6 @@
 - Trainer: Trainer at (4, 2) facing south.
 - Northern Rock Barrier: Row 4 (cols 0-4) is solid rock wall.
 - Row 5 Corridor: Connects (1, 5) east to (4, 5) facing Boulder at (5, 5).
+
+## Wild Encounters
+- Geodude (observed Turn 15535).
