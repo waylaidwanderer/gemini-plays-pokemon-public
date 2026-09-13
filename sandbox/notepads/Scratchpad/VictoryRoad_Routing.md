@@ -12,13 +12,10 @@
 
 ## Active Routing Hypotheses
 - Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
-- Doorway (5, 4) blocked by Boulder 1 at (5, 3) with solid rock wall at (5, 2) [Confirmed Turn 15748].
 - Western sector north progression exhausted.
 - Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
 - Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
-- Doorway (5, 4) blocked from south by Boulder 1 at (5, 3) against wall (5, 2) [Turn 15800]; testing hypothesis that 3F is accessed via eastern chamber.
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
-- Approaching Boulder 2 from the north at (9, 10) to push it SOUTH onto Switch Plate B to lower the barrier at (23, 14).

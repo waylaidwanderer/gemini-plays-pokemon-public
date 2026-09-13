@@ -46,4 +46,5 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Machoke (observed Turn 15781).
-- Boundary at (16..18, 11): Impassable elevation cliff from row 12 [Tested Turns 15814, 15816].
+
+- Row 8 Elevation Collisions: Northern passage from (13, 8) to (13, 7), (12, 8) to (12, 7), and (11, 8) to (11, 7) confirmed impassable cliff edge [Tested Turns 15895-15897].
