@@ -70,7 +70,7 @@
 
 ## Boulders & Switches
 - Boulder 5: Located at (13, 13). Pushed south from (13, 12) to (13, 13) on Turn 16973. Confirmed permanently immovable on Turns 16994-16995 (blocked south by solid rock wall at (13, 14); flanked by rock walls).
-- Boulder 4: Located at (23, 3) on northeast plateau [Displaced east from (22, 3) to (23, 3) with Strength on Turn 17047]. Accessible via column 20-21 corridor from row 6.
+- Boulder 4: Located at (23, 8) [Pushed east from (22, 3) to (23, 3) and south down column 23 through (23, 7) into (23, 8) on Turns 17047-17099 with Strength].
 - Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
 - Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
 - Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
