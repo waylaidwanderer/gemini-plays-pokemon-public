@@ -27,3 +27,4 @@
 ## Wild Encounters
 - Geodude (observed Turn 15535).
 - Machoke (observed Turn 15551).
+- Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
