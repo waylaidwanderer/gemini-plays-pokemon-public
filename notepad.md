@@ -3070,8 +3070,8 @@
 - [x] (3, 1) -> Left to (2, 1): Solid rock (BUMP verified Turn 48677)
 - [x] (3, 2) -> Left to (2, 2): Solid rock (BUMP verified Turn 48680)
 - [x] (3, 3) -> Left to (2, 3): Solid rock (BUMP verified Turn 48681)
-- [ ] (8, 3) -> Down to (8, 4): Test if passable
-- [ ] (7, 3) -> Down to (7, 4): Test if connects to Row 5 (7, 5)
+- [x] (8, 3) -> Down to (8, 4): Solid rock (BUMP verified Turn 48692)
+- [x] (7, 3) -> Down to (7, 4): Solid rock (BUMP verified Turn 48692)
 - [ ] (6, 3) -> Down to (6, 4): Test if connects to Row 5 (6, 5)
 - [ ] (5, 3) -> Down to (5, 4): Test if connects to Row 5 (5, 5)
 - [ ] (4, 3) -> Down to (4, 4): Test if passable
