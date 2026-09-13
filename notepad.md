@@ -3689,7 +3689,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - East: Viridian City entrance at (39..40, 8..9).
-- West: Unexplored western corridor.
+- West: Pok�mon League Reception Gate at (8, 5).
 
 ## Geography & Layout
 - Entrance: Paved road enters from Viridian City along rows 8-9 at columns 39-40.
@@ -3709,7 +3709,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (2, 13): Solid south-facing ledge boundary [Confirmed Turn 15232].
 - Tile (35, 6): Solid stone barrier boundary [Confirmed Turn 15218].
 - Tile (30, 8): Solid collision to north and west [Confirmed Turn 15172].
-- Western Sector (Rows 10-12, Cols 2-7): Sighted approach road in front of League Gate; signpost at (7, 11); visual gap in fence at cols 3-5 (physical traversal pending victory over RED).
+- Western Sector (Rows 10-12, Cols 2-7): Approach road in front of League Gate; signpost at (7, 11); open passage through fence at cols 3-5.
 - Tile (33, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15246].
 - Tile (32, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15247].
 - Tile (31, 7): Open northbound passage/ramp through Row 7 ledge [Empirically verified Turn 15248] connecting the eastern tall grass directly north into row 6 lawn and the Northern Highway (rows 4-5).
@@ -3750,6 +3750,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Rainbowbadge Guard: Stationed at (12, 105) facing left. Trigger tile at (10, 105). Verifies Rainbowbadge possession: "You can pass here only if you have the RAINBOWBADGE! Oh! That is the RAINBOWBADGE! OK then! Please, go right ahead!".
 - Water Lake (Row 103): Water begins at row 103 directly north of row 104, requiring Surf to continue north.
 - Soulbadge Guard: Stationed at (11, 96) facing down. Trigger tile at (10, 96). Verifies Soulbadge possession: "You can pass here only if you have the SOULBADGE! Oh! That is the SOULBADGE! OK then! Please, go right ahead!".
+- Marshbadge Guard: Stationed at (8, 85). Trigger tile at (7, 85). Verifies Marshbadge possession: 'You can pass here only if you have the MARSHBADGE! Oh! That is the MARSHBADGE! OK then! Please, go right ahead!'.
+- Volcanobadge Guard: Stationed at (10, 56) facing down. Trigger tile at (10, 57). Verifies Volcanobadge possession: 'You can pass here only if you have the VOLCANOBADGE! Oh! That is the VOLCANOBADGE! OK then! Please, go right ahead!'. Gate structure has solid wall at cols 6-10 and pillar at col 11; open northbound corridor is via lawn at cols 12-13.
+- Earthbadge Guard: Stationed at (4, 35). Trigger tile verified at (7, 35) [Turn 15356]. Guard faces right across row 35 to verify Earthbadge possession. Row 31 features the entrance gate/structure with doorway at (4, 31).
 
 ## Survey & Barriers
 - Tile (7, 131): Solid barrier blocking northbound movement on foot from (7, 132).
@@ -3760,14 +3763,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Water Lake Channel: Open water extends north from row 103 through row 99 between boundary posts at (7, 99) and (14, 99).
 - Row 92 Barrier: Brown wall/statues span columns 7..10 across the water, with open water bypass channels on the east (cols 11..13) and west (col 6).
 - Central Lawn Island: Rows 90..91, cols 8..9 feature a green lawn island bounded by walls at col 10 and ledge at col 7, surrounded by water.
-- Marshbadge Guard: Stationed at (8, 85). Trigger tile at (7, 85). Verifies Marshbadge possession: 'You can pass here only if you have the MARSHBADGE! Oh! That is the MARSHBADGE! OK then! Please, go right ahead!'.
 - Mid-Lake Island: Rows 80..81, cols 8..12 feature a small island/statue peninsula; wide open water resumes north of row 80 spanning cols 3..12+.
 - West Barrier Structure: Rows 73..75, cols 3..5 feature brown walls and a statue at (5, 73); open water channel continues north through cols 6..12+.
 - Northern Shoreline & Mountain Divider: Row 72 marks the north end of the lake. Cols 6-7 rows 68..71 form a solid mountain cliff dividing the western walkway from the eastern grass field. Landing onto land occurs via the eastern grass field at cols 8..12 (e.g. col 9).
 - Northern Sector Grass Field: Land dismount successfully verified at (9, 71). Lawn spans cols 8..13 across rows 71..68; mountain cliff blocks cols 6-7 (ends at row 68); rock block at (11, 67).
 - Route 23 Maze (Rows 67..63): Column 10 provides a clean, open lawn corridor (no tall grass) running north from row 67 through row 63 between mountain blocks at col 9 and col 11.
 - Route 23 Maze (Rows 62..59): Column 10 continues north through (10, 62) lawn, (10, 61..60) tall grass, and (10, 59) lawn between mountain blocks at col 9 and cols 11-12.
-- Volcanobadge Guard: Stationed at (10, 56) facing down. Trigger tile at (10, 57). Verifies Volcanobadge possession: 'You can pass here only if you have the VOLCANOBADGE! Oh! That is the VOLCANOBADGE! OK then! Please, go right ahead!'. Gate structure has solid wall at cols 6-10 and pillar at col 11; open northbound corridor is via lawn at cols 12-13.
 - Volcanobadge North Corridor (Rows 53..49): Open 2-tile wide lawn avenue along cols 12-13 between statues at (11, 53) and (14, 53); opens into wider lawn at rows 49..51.
 - Eastern Water Boundary & Mountain Rocks (Rows 48..45): Water lake borders the east (cols 14+); rock blocks at (9..10, 46..47); columns 12-13 form a clean, open lawn path running north avoiding tall grass at (10..11, 45).
 - Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
