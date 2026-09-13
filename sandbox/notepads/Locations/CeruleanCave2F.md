@@ -33,11 +33,10 @@
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Collision Matrix & Verified Passages (2F)
-- Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall. To reach NW Sector / Ladder A, take 1F canal to Ladder E (7, 1).
+- Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall.
 - Row 11 Thoroughfare: cols 14..24 are open cave floor connecting Column 23 at (23, 11) directly west to Column 19 at (19, 11).
 - Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
 - Central Maze Topology (Verified Turn 47881):
-  - Ladder C at (19, 7) connects west via (18, 7) -> (18, 8..9) -> (15..17, 9) -> (13..15, 8) to the northern corridors.
   - Row 11 at (15..23, 11) is a lower thoroughfare connecting east to Ladder B at (22, 6) and south via (14..19, 12..15).
 - Verified Empirical Barriers (Turns 47978-48020):
   - (29, 7): Solid rock wall blocks Column 29 south of (29, 6).
