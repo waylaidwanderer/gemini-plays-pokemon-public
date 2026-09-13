@@ -7,7 +7,7 @@
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
-- Eastern Vertical Highway: Columns 27-29 form an open north-south corridor connecting row 11 (27, 11) directly south through rows 12-15 down to the row 16 lower corridor [Empirically verified Turn 16303].
+- Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
 - Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Northern Cliff Boundary: Row 1 is an elevated impassable rock cliff face along the northern perimeter (north movement from row 2 into row 1 blocked at (17, 2) Turn 16124 and (9, 2) Turn 16173).
@@ -18,7 +18,7 @@
 - Wall at (27, 6): Solid rock wall directly south of (27, 5) [Empirically verified Turn 16136].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
-- Row 11 Elevation Boundary: Southern passage from (26, 11) to (26, 12) [Tested Turn 16014] and (25, 11) to (25, 12) [Tested Turn 16015] confirmed impassable cliff wall.
+- Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Lower Corridor (Row 16): Fully walkable dark checkerboard floor extending west and east beneath row 15 rock boundaries [Empirically verified Turn 16006].
 - Row 8 Elevation Collisions: Northern passage from (14, 8) to (14, 7) [Tested Turn 15967] and (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge/rock.
