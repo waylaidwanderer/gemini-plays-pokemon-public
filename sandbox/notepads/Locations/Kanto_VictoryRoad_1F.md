@@ -8,4 +8,4 @@
 - Entrance: Player arrives at (8, 17) facing north.
 - Boulder & Switch Puzzle: Boulder located at (5, 15). Round switch plate located at (5, 14). Horizontal barrier at (5, 13).
   - Strength user: Geodude (ROCKY) knows Strength.
-  - Solution: Move to (5, 16) facing north, activate Strength, and push the boulder north onto the switch plate at (5, 14) to lower the barrier at (5, 13).
+  - Observed Layout: Boulder at (5, 15) sits directly south of switch plate at (5, 14) and barrier at (5, 13); boulder interaction pending empirical test.
