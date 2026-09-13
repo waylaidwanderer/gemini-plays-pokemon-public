@@ -28,3 +28,7 @@
   - West wall: solid rock along Column 7 (rows 6..11).
   - East wall: solid rock barrier at Column 10 (rows 8..11) separating the Western Canal from central ground.
   - North-Central barrier: solid rock across cols 11..13 at row 4..5.
+- **South-Central Water & Terrace (Verified Turn 48817)**:
+  - Continuous water extends south across rows 12..15 (cols 8..11).
+  - South-Central Ramp located at (11, 13) facing south towards water at (11, 14).
+  - Elevated Land Terrace spans cols 11..13 across rows 11..12+.
