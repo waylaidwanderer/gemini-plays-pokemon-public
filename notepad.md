@@ -3823,7 +3823,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Arrival from 1F is at ladder (0, 8).
 - Row 4 (cols 0-8) was tested solid at (1, 4) and (3, 4). Gap at (5, 4) was previously blocked by Boulder 1 pushed to (5, 3).
 - Barrier at (23, 14) is STILL RAISED after Switch Plate A depressed [Verified Turn 16730].
-- Eastern chamber (rows 7-9, cols 25-29) containing ladder at (27, 7) is sealed on 2F by continuous solid rock walls:
+- Eastern chamber (rows 7-9, cols 25-29) containing ladder at (26, 8) is sealed on 2F by continuous solid rock walls:
   - North: Row 6 wall across cols 24-30
   - South: Row 10 wall across cols 24-34 ((28, 10) and (29, 10) confirmed solid)
   - West: Col 24 wall across rows 4-12
@@ -3846,15 +3846,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 16994-16995: Tested southward push of Boulder 5 at (13, 13) with Strength. Result: 0 tiles moved; (13, 14) is solid rock wall. Boulder 5 is blocked south and cannot be pushed east/west/north. 
 - Turn 17046-17047: Tested boulder at (22, 3) with Strength by pressing Right from (21, 3). SPRITE_6768 successfully displaced east from (22, 3) to (23, 3). Strength is confirmed ACTIVE.
 - Turn 17042: plan_auditor confirmed Boulder at (22, 3) cannot reach Switch Plate B at (9, 16) due to Gen 1 elevation constraints (cannot traverse staircases, ledges, or rows 11-13 rock barriers). Switch Plate B requires the boulder designated for the southern section.
-- Turn 17049-17050: Stepped south from (23, 6) onto tile (23, 7). Empirically verified (23, 7) is ordinary passable cavern floor (no warp, no hop). Ladder visible at (27, 7). Advancing south down column 23 to row 11 to enter the southern section and locate the designated boulder for Switch Plate B.
+- Turn 17049-17050: Stepped south from (23, 6) onto tile (23, 7). Empirically verified (23, 7) is ordinary passable cavern floor (no warp, no hop). Ladder confirmed at (26, 8). Advancing south down column 23 to row 11 to enter the southern section and locate the designated boulder for Switch Plate B.
 - Turn 17088-17089: Strength activated with Rocky. Successfully pushed Boulder 4 east from (22, 3) to (23, 3) (confirmed by NPCMovementTracker: SPRITE_6768 moved (22, 3) -> (23, 3)). Boulder 4 is now in Column 23!
-- Repositioning to tile (23, 2) directly north of Boulder 4 to begin southward push testing down the Column 23 corridor.
-- Turn 17091-17092: Pushed Boulder 4 south from (23, 3) to (23, 4), and stepped into (23, 3). Boulder 4 successfully advancing down Column 23 corridor!
-- Turn 17093-17094: Pushed Boulder 4 south from (23, 4) to (23, 5), player stepped into (23, 4). Boulder 4 continues southward progression down Column 23!
-- Turn 17095-17096: Pushed Boulder 4 south from (23, 5) to (23, 6), player stepped into (23, 5). Boulder 4 is directly north of tile (23, 7).
-- Turn 17096: Testing single Down push to observe interaction between Boulder 4 and tile (23, 7).
-- Turn 17097-17098: Pushed Boulder 4 south from (23, 6) onto tile (23, 7) with Strength! (Confirmed by NPCMovementTracker: SPRITE_6768 moved (23, 6) -> (23, 7)).
-- Turn 17098: Advancing player to (23, 6) and pushing Boulder 4 south into (23, 8) to observe tile (23, 7) and (23, 8) interactions.
 - Turn 17098-17099: Pushed Boulder 4 from (23, 7) into (23, 8). Tile (23, 7) is confirmed passable cavern floor.
 - Column 25 (rows 8-10) and ladder at (26, 8) visually confirmed open on CurrentScreen turn 17099!
 - Submitting macro-route to ladder (26, 8) via row 6 -> col 15 -> row 11 -> col 25 to plan_auditor.
@@ -3935,7 +3928,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Boulders & Switches
 - Boulder 5: Located at (13, 13). Pushed south from (13, 12) to (13, 13) on Turn 16973. Confirmed permanently immovable on Turns 16994-16995 (blocked south by solid rock wall at (13, 14); flanked by rock walls).
-- Boulder 4: Located at (23, 3) on northeast plateau [Displaced east from (22, 3) to (23, 3) with Strength on Turn 17047]. Accessible via column 20-21 corridor from row 6.
+- Boulder 4: Located at (23, 8) [Pushed east from (22, 3) to (23, 3) and south down column 23 through (23, 7) into (23, 8) on Turns 17047-17099 with Strength].
 - Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
 - Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
 - Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
