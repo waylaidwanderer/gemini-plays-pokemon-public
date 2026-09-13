@@ -3831,7 +3831,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Routing Hypotheses
 - Approach Boulder 1 at (5, 5) from (5, 6) on the checkerboard floor.
 - Activate Strength with Geodude (ROCKY) to push Boulder 1 northward into (5, 4)/(5, 3) to open passage to northwest chamber and ladder (1, 1).
-- Boulder 3 Route to Switch A (1, 16): Position at (5, 15), push West to (3, 15), step around to (3, 14), push South to (3, 16), step to (4, 16), push West onto switch (1, 16).
+- Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
+- Active Routing: Head north along col 3 to row 11, proceed east to reach Boulder 2 at (9, 11), and push it south down col 9 onto Switch Plate B at (9, 16).
 
 <hr>
 
@@ -3859,7 +3860,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Boulders & Switches
 - Boulder 1: Pushed North from (5, 5) to (5, 4) under Strength [Turn 15545].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16).
-- Boulder 3: Pushed South to (3, 16) [Turn 15554], then West onto Switch Plate A at (1, 16).
+- Boulder 3: Successfully pushed onto Switch Plate A at (1, 16) [Turn 15555]! Switch Plate A is depressed.
 - Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548].
 

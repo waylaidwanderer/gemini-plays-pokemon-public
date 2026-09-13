@@ -14,4 +14,5 @@
 ## Active Routing Hypotheses
 - Approach Boulder 1 at (5, 5) from (5, 6) on the checkerboard floor.
 - Activate Strength with Geodude (ROCKY) to push Boulder 1 northward into (5, 4)/(5, 3) to open passage to northwest chamber and ladder (1, 1).
-- Boulder 3 Route to Switch A (1, 16): Position at (5, 15), push West to (3, 15), step around to (3, 14), push South to (3, 16), step to (4, 16), push West onto switch (1, 16).
+- Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
+- Active Routing: Head north along col 3 to row 11, proceed east to reach Boulder 2 at (9, 11), and push it south down col 9 onto Switch Plate B at (9, 16).
