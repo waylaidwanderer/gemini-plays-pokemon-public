@@ -65,11 +65,15 @@
   - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
 - Column 24 Barrier: (24, 6..10) are solid rock walls blocking east-west movement between Column 23 (Ladder B) and Column 25.
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
-## Northwest Sector & Ladder A Data
-- **Ladder A Location**: Located at (1, 3) -> Descends directly to B1F (Mewtwo).
-- **Enclosure & Barriers**:
-  - Ladder A at (1, 3) is isolated from upper 2F sectors by confirmed rock walls at (2, 2), (2, 3), (3, 4), (5, 4), (6, 4), (8, 5), (9, 6), and (10, 1).
-  - True access to Ladder A / B1F must be accessed from 1F.
+## Northwest Sector & Ladder A Topology (Verified Turn 49817)
+- **Ladder A Exact Location**: Clearly visible at (1, 3) with ladder sprite `[=]`.
+- **Direct Entry Path to Ladder A**: (0, 2) -> (1, 2) -> (1, 3) [Ladder A] or (0, 3) -> (1, 3).
+- **Western Ascent Corridor (Column 0)**: (0, 5) -> (0, 4) -> (0, 3) -> (0, 2) -> (1, 2) -> (1, 3).
+- **Row 5 Western Terrace**: Open cave floor across cols 0..7 at (0..7, 5). Separated from (9, 5) by rock barrier at (8, 5).
+- **Row 4 Barrier**: Rock wall across cols 1..8 at (1..8, 4).
+- **Row 3 Corridor**: Open cave floor across cols 3..9 at (3..9, 3).
+- **Row 2 Boundary**: Rock wall across cols 4..8 at (4..8, 2) and (2, 2). Open floor at (3, 2), (1, 2), and (0, 2).
+- **Row 1 Corridor**: Open cave floor across cols 3..9 at (3..9, 1). Ladder E at (9, 1).
 ## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
 - **Ridge Isolation**: Ladder E at (9, 1) arrives on an elevated northern ridge (cols 3..16, rows 0..2) that is completely walled off from the lower floors ((15, 3) is a cliff ledge overlooking lower floor where "No SURFing on HYDROS here!").
 - **2F Maze Connectivity**: 2F is a complex interconnected maze accessed from Ladder B (22, 6) and other ladders, with multiple winding corridors connecting the eastern, southern, and northern sectors towards Ladder A (1, 3).
