@@ -233,8 +233,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 63, Water]
-  - Status: Healthy
-  - HP: 126 / 199
+  - Status: PSN
+  - HP: 111 / 199
   - Stats: Attack 148, Defense 171, Speed 148, Special 153 [Verified Lv 63 Turn 15530]
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 8/15), Surf (PP 9/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3883,5 +3883,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
+- Doorway (5, 4): Flanked by solid rock walls at (4, 4) and (6, 4) [Empirically verified Turn 15677]; with Boulder 1 at (5, 3), (5, 4) has no lateral or northern exit.
 
 <hr>

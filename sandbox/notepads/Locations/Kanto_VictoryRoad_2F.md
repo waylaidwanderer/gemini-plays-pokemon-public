@@ -42,3 +42,4 @@
 
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
+- Doorway (5, 4): Flanked by solid rock walls at (4, 4) and (6, 4) [Empirically verified Turn 15677]; with Boulder 1 at (5, 3), (5, 4) has no lateral or northern exit.
