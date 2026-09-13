@@ -142,7 +142,7 @@
 - [x] Solve Quiz Machines 1, 2, 3, 4, 5, and 6 in Cinnabar Gym [Turns 14705-14775]
 - [x] Defeat Cinnabar Gym Leader Blaine & earn Volcanobadge [Turn 14803]
 - [x] Defeat Viridian Gym Leader Giovanni & earn Earthbadge [Turn 15111]
-- [x] Pass Reception Gate, enter Route 23, and clear Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, and Volcano badge checks [Turns 15293-15345]
+- [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 
 <hr>
 
