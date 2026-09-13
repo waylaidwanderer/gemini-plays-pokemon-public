@@ -3861,6 +3861,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), and (3, 4) [Tested Turns 15681, 15749].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Tested Turn 15748].
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
+- Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Plateau Boundary: Moving North from row 8 into row 7 across cols 5..13 is blocked by the raised plateau ledge [Tested Turns 15581, 15587, 15614].
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
