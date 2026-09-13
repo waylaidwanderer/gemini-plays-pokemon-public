@@ -12,9 +12,7 @@
 
 2. **Central Sector & Bypass Network**:
    - Ladder C at (19, 7) <-> 1F (18, 9).
-   - Northern Corridors: connect the eastern corridors (cols 24..29) and central bypasses west to the Northwest Sector and Ladder A.
-   - Row 9 West Thoroughfare: (15..24, 9) is open floor.
-   - Row 8 Western Bypass: (13..15, 8) connects Row 9 at (15, 9) to Column 13 corridor.
+   - Central Loop: Ladder C connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3). Walled off from lower corridors by rock walls at (18..20, 4), (16, 8), (17, 5..8), and (19, 1).
 
 3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (isolated upper NW ridge).
