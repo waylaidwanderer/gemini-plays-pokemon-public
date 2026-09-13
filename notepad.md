@@ -3046,7 +3046,8 @@
 - [x] (18, 11) -> Up to (18, 10): Solid rock (BUMP verified Turn 48756).
 - [x] (17, 11) -> Up to (17, 10): Solid rock (BUMP verified Turn 48757).
 - [x] (16, 11) -> Up to (16, 10): Solid rock (BUMP verified Turn 48757).
-- [ ] (15, 11) -> Up to (15, 10): Test if (15, 10) connects to Row 9.
-- [ ] (12, 11) -> Up to (12, 10): Test if (12, 10) connects to Row 9.
+- [x] (15, 11) -> Up to (15, 10): Solid rock (BUMP verified Turn 48758).
+- [x] (14, 11) -> Up to (14, 10): Solid rock (BUMP verified Turn 48758).
+- [x] Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
 
 <hr>
