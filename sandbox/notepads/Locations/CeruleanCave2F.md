@@ -100,3 +100,4 @@
 - **Column 24 South Termination (Turn 49520)**: Column 24 dead-ends at (24, 15); (24, 16) is a solid rock wall. Direct access from Column 24 south into Row 17 is blocked.
 - **Row 17 Southern Highway Access (Hypothesis - Unverified)**: The continuous Row 17 southern highway (cols 11..28, row 17) connects Column 12 to Column 28. Access from the northeast via Ladder D (29, 1) requires empirical traversal.
 - **Eastern Sector Bypass (Turn 49542)**: Tile (26, 6) is a solid rock wall. Bypass to the south: (27, 6) -> Down to (27, 7) -> Left to (26, 7) -> Left to (25, 7) -> opens south into Column 25/26 (rows 8..14).
+- **Row 17 Eastern Termination & Row 13 Bypass (Turn 49556)**: Tile (20, 17) is a solid rock wall blocking Row 17 westward at (21, 17). Open bypass to the northwest: (21, 17) -> Up 2 to (21, 15) -> Right to (22, 15) -> Up 2 to (22, 13) -> opens west along Row 13 (21..17, 13).
