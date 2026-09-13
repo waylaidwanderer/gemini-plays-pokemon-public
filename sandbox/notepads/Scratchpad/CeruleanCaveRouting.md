@@ -16,3 +16,6 @@
 3. **Locate Westward Passage to NW Sector (Cols 0..7)**:
    - Reach (6, 5) -> (0, 5) -> (0, 3) -> Ladder A at (1, 3).
 4. **Descend Ladder A to B1F and Capture Mewtwo with Master Ball**.
+### Empirical Probing Log:
+- (22, 8): Blocked (solid rock wall).
+- (23, 7), (23, 8): Verified open floor. Column 23 connects south from (23, 7) through (23, 8..11) directly to Row 11 thoroughfare!
