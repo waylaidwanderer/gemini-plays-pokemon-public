@@ -16,7 +16,3 @@
 - Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
-- Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
-- Boulder discovered at (22, 3) [Turn 16069].
-- Max Revive collected at (26, 5) [Turn 16064].
-- Candidate ladder sighted at (26, 8) from afar [Turn 16086].
