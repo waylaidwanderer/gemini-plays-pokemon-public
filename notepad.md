@@ -2941,7 +2941,6 @@
 - Northern Canal: Runs along Row 4 & 5 across cols 15..28.
 - Eastern Canal: Runs along Column 28 across rows 5..15 and Row 10 across cols 25..28.
 
-
 <hr>
 
 <h1><code>Locations/CeruleanCave2F</code></h1>
