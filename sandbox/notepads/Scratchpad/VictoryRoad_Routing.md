@@ -26,5 +26,5 @@
 - Turn 16859: Boulder at (23, 4); continuing southward push down column 23.
 - Turn 16861: Boulder (originally 22, 3) pushed south down column 23 to (23, 5); player at (23, 3).
 - Turn 16864: Discovered Boulder at (24, 10) blocking entrance to ladder chamber (26, 8) from row 11.
-- Turn 16866: Boulder cleared from column 22; traversing column 22 north to row 0 and heading west along row 0 toward ladder (1, 1).
-- Turn 16867: Confirmed columns 16-17 are open across row 4 to row 1. Route to 3F: West along row 5 to col 17, North up col 17 to row 1, then West along row 1 to Northwest Ladder (1, 1).
+- Turn 16889: Confirmed column 14 is a continuous rock wall. The Northwest ladder (1, 1) was a conflation with 1F. The true exit to 3F is in the eastern wing (ladder chamber at (26, 8) / eastern ladder).
+- Strategic Focus: Return to eastern wing, solve boulder puzzle at (24, 10), and enter ladder chamber (26, 8) to reach 3F.
