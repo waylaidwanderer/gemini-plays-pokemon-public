@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 63, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
+- Active Team: Blastoise (SHELDON) Lv 65, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥128237 [Turn 16258]
 - Pokédex: 15 Caught / 50+ Seen
@@ -3827,7 +3827,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
-- Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
 
 ## Turn 16045 Eastern Chamber Breakthrough
@@ -3849,6 +3848,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Northern Cliff Boundary: Row 1 is an elevated impassable rock cliff face along the northern perimeter (north movement from row 2 into row 1 blocked at (17, 2) Turn 16124 and (9, 2) Turn 16173).
 - Wooden Staircase at (7, 10): Connects middle corridor down to lower corridor; eastern side at (8, 10) is a solid railing collision boundary [Empirically verified Turn 16165].
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
@@ -3894,7 +3894,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
-- Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Currently empty/un-depressed following floor reset Turn 15972].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
 
