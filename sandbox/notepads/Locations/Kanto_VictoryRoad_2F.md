@@ -10,7 +10,8 @@
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Stairs at (5, 10): Wooden staircase connecting middle corridor (5, 9) down to lower corridor (5, 11).
-- Southeastern Stairs: Located at (15, 15), wooden staircase connecting upper floor (15, 14) down to lower floor (15, 16) [Discovered Turn 15593].
+- Southeastern Stairs: Located at (15, 15) and (21, 15), wooden staircases connecting upper floor (row 14) down to lower floor (row 16) [Discovered Turn 15593, 15637].
+- Barrier Block: Located at (23, 14), blocks eastern passage to 3F ladder at (25, 14) [Empirically confirmed Turn 15655].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Cliff Wall at (5, 8): Blocks direct northward passage from row 8 into row 7.
 - Row 4 Barrier: Solid rock wall along row 4 (cols 0-4 and cols 6-8), with doorway at (5, 4).
@@ -22,7 +23,7 @@
 
 ## Trainers
 - Trainer at (4, 2) in northwest chamber facing South.
-- Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: ¥1435].
+- Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: ï¿½1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Boulders & Switches
