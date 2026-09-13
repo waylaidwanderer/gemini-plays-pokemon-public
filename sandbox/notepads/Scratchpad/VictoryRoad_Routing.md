@@ -46,15 +46,6 @@
   4. Ascend staircase (17, 5) to row 4, step north to (17, 3) on Row 3.
   5. Test continuity of Row 3 westward past (13, 3) and (8, 3) toward Northwest Ladder (1, 1).
 
-## Turn 16526 Topology Update & Target: Northeast Ladder (27, 7) / (26, 8)
-- Western plateau (cols 10-18) is completely walled off east at col 19 and west at col 8.
-- Progression target is the Northeast Ladder at (27, 7) / (26, 8) in the eastern sector.
-- Route to Northeast Ladder:
-  1. From (18, 4): Left to (17, 4), Down (17, 5) stairs to (17, 6).
-  2. East along row 6 to (23, 6), South down col 23 to (23, 11).
-  3. East along row 11 to (28, 11).
-  4. North up Eastern Vertical Highway (col 28) to (28, 7).
-  5. Step Left into ladder at (27, 7) / (26, 8) and ascend to 3F!
 
 
 
@@ -66,8 +57,13 @@
 
 
 
-## Turn 16587 Progression Breakthrough: Real 3F Ladder is Northwest at (1, 1)
-- Empirically confirmed: Eastern ladder at (27, 7) is completely enclosed by solid walls on all sides (Row 6, Row 10, Col 24, Col 30). It is unreachable from 2F and is the arrival/exit zone from 3F hole drop.
-- Real 2F -> 3F progression ladder is the NORTHWEST LADDER at (1, 1), guarded by trainer at (4, 2).
-- Switch Plate A at (1, 16) depressed by Boulder 3 lowered the western barrier guarding the northwest chamber!
-- Routing: Walk west along Row 11 to Southern Chamber (cols 2-7), ascend Western Highway (cols 2-3) north to row 4, enter northwest chamber, defeat trainer (4, 2), and climb ladder (1, 1) to 3F!
+
+## Working Hypothesis: Northwest Ladder at (1, 1) and Row 4 Barrier Test
+- Status: Unverified hypothesis.
+- Eastern chamber boundaries verified: Row 6 wall at (28, 6), Row 10 wall at (27, 10). Entrance to eastern ladder is unreachable from 2F corridors.
+- Hypothesis to test: Switch Plate A at (1, 16) depressed by Boulder 3 may have lowered the barrier block along Row 4 guarding the northwest chamber and ladder at (1, 1).
+- Verified Route to Western Highway (Row 11 is blocked west at (15, 11)):
+  1. Ascend Column 13 from Row 14 north to (13, 8).
+  2. Walk west along Row 8 Highway: (12, 8) -> (11, 8) -> (10, 8) -> (9, 8) -> (8, 8) -> (7, 8) -> (6, 8) -> (5, 8).
+  3. At column 5, connect to Western Highway (cols 2-3) and walk north to Row 4.
+  4. Physically test passability into Row 4 / northwest chamber.
