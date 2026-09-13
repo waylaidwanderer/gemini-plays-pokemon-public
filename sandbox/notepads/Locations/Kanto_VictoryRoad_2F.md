@@ -32,7 +32,7 @@
 - Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
 
 ## Trainers
-- Trainer: Cooltrainer ♀ at (13, 3) [Challenged Turn 16108; active battle Turn 16111; 3 Pokémon].
+- Trainer: Cooltrainer ♀ at (13, 3) [Challenged Turn 16108; active battle Turn 16114; Team: Parasect Lv 43 (knocked out), 2 remaining].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
