@@ -3,8 +3,8 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Located at (27, 7) [Visually confirmed Turn 16075; connects to 3F].
-- North-Central Candidate Ladder: Located at (23, 7) [Visually sighted Turn 16014; unclimbed].
+- Northeast Candidate Ladder: Located at (27, 7) [Visually confirmed Turn 16075; unclimbed].
+- Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
@@ -28,7 +28,7 @@
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
-- Legendary Pok�mon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
+- Legendary Pokémon: Moltres located at (19, 8) on elevated checkerboard plateau [Visually confirmed Turn 16075].
 
 ## Trainers
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].

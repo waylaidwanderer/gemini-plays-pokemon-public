@@ -9,7 +9,6 @@
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
@@ -20,7 +19,6 @@
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
 - Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
-- Boulder at (26, 5) discovered in eastern chamber.
 - Ladder to 3F located at (26, 8).
 - Boulder discovered at (22, 3) [Turn 16069].
 - Max Revive collected at (26, 5) [Turn 16064].
