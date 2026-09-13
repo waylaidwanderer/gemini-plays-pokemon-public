@@ -17,3 +17,6 @@
 - Tested tile (3, 10) from (2, 10): confirmed solid rock wall.
 - Path north through (2, 9) is blocked from the south.
 - Next target: Northern section of the eastern wing (cols 12-17, rows 0-9) north of (14, 10).
+## Verification at Doorway (8, 17)
+- Stepping East into (8, 17) from (7, 17) does NOT trigger exit warp! Player can safely stand at (8, 17) facing North toward Boulder 1 at (8, 16).
+- Pushing North moves Boulder 1 into (8, 15), opening the route east to switch (17, 13).
