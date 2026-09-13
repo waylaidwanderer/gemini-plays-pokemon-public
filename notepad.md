@@ -3890,7 +3890,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16326 by direct collision test from (22, 14); blocks access to eastern ladder at (25, 14)].
+- Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16452 by direct collision test from (22, 14) while Switch Plate A is depressed; Switch Plate A does NOT control Barrier (23, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), (3, 4), (4, 4), and (6, 4) [Tested Turns 15681, 15749, 15994, 15996].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Tested Turn 15748].
