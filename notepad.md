@@ -3864,6 +3864,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
+- Wall at (25, 10): Solid rock wall directly north of (25, 11) [Empirically verified Turn 16023].
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
