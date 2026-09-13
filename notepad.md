@@ -3821,6 +3821,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 16 lower corridor extends west to (9, 16) Switch Plate B, ending at column 8 solid rock wall with zero westward access to columns 2-7 [Empirically verified Turn 16347].
 
 
+
 # Victory Road 2F Routing & Hypotheses
 
 
@@ -3848,6 +3849,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   3. Maneuver to (1, 13) facing South, push Down along column 1: (1, 14) -> (1, 15) -> (1, 16) onto Switch Plate A!
 - Floor Reset: Descend ladder (0, 8) to 1F and re-ascend to reset Boulder 3 to pristine (4, 14).
 
+## Boulder 3 & Switch Plate A Definitive Solution (Verified Turn 16404)
+- (1, 12) and (1, 13) are solid rock walls (verified blue rock palette), so north-south push along column 1 from (1, 13) is IMPOSSIBLE.
+- Valid Push Route via Column 3 and Row 16:
+  1. Stand at (5, 14) facing West, push Left: Boulder 3 moves from (4, 14) -> (3, 14).
+  2. Maneuver around to (3, 13) via (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) facing South.
+  3. Push Down: Boulder 3 moves from (3, 14) -> (3, 15).
+  4. Push Down again: Boulder 3 moves from (3, 15) -> (3, 16).
+  5. Maneuver to (4, 16) via (3, 14) -> (4, 14) -> (4, 15) -> (4, 16) facing West.
+  6. Push Left: Boulder 3 moves from (3, 16) -> (2, 16).
+  7. Push Left again: Boulder 3 moves from (2, 16) -> (1, 16) onto Switch Plate A!
+- Switch Plate A depressed; player at (2, 16) exits east via row 16 / row 15 without obstruction!
 
 <hr>
 
