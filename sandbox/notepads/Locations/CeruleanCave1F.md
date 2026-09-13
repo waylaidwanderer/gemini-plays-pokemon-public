@@ -17,8 +17,8 @@
 - **North Ramp**: Located at (15, 3). Connects north water canal to Ladder E North Pocket (cols 7..16, rows 0..2).
 
 ## Collision Matrix & Verified Thoroughfares (1F)
-- **Row 14 Thoroughfare**: Open floor spanning (17..25, 14) connecting entrance area to South Ramp (17, 15).
-- **Central Corridor**: Open north-south path at (21, 11..15) connecting Row 14 to Ladder B (23, 7) and Ladder C (18, 9).
+- **Central Corridor**: Open north-south path at (21, 7..15).
+- **Western Terrace**: Open floor across (17..18, 7..14) connecting north at (17..21, 7) down to Ladder C (18, 9) and South Ramp (17, 15).
+- **Separating Rock Wall**: (19..20, 10..15) is a solid rock wall separating the Central Corridor (col 21) from the Western Terrace (cols 17..18). The crossover between them is at Row 7 (17..21, 7).
 - **Barriers**:
-  - Rock walls at (18..20, 15) block Row 15 passage west of (21, 15) (must use Row 14).
-  - Rock walls at (20, 11), (22..23, 11) frame the central corridor.
+  - Direct westward movement from (20, 14..15) is blocked by rock wall at (19, 14..15). Must navigate north to Row 7 to crossover to Western Terrace.
