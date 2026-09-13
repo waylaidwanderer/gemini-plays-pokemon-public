@@ -3923,7 +3923,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16452 by direct collision test from (22, 14) while Switch Plate A is depressed; Switch Plate A does NOT control Barrier (23, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
-- Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), (3, 4), (4, 4), and (6, 4) [Re-verified Turn 16629 at (3, 4); Row 4 remains solid wall after Switch Plate A].
+- Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col -3 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south; it is an arrival area from above.
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
