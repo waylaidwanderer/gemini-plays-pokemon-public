@@ -3883,6 +3883,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
 
+## Legendary Pokémon
+- Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually confirmed Turn 16365].
+
 ## Trainers
 - Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
