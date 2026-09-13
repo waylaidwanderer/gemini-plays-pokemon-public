@@ -72,10 +72,10 @@
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11).
-- Boulder at (4, 14): Located at (4, 14) in the Southern Chamber [Visually confirmed Turn 17161].
+- Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
 - Boulder 3: Starts in southwest corridor (Turn 16426); current unshifted position being surveyed.
 - Boulder 4: Starts in northeast corridor at (22, 3).
-- Switch Plate A: Located at (1, 16) in southwest corridor [Empty post-reset].
+- Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17173].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124].
 

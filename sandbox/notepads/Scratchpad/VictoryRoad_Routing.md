@@ -40,4 +40,4 @@
 - Boulder 1: Confirmed reset to starting coordinates at (5, 5) [Turn 17156].
 - Boulder 2: Confirmed at starting position (9, 11) [Turn 17158].
 - Boulder at (4, 14): Discovered at (4, 14) in Southern Chamber [Turn 17161].
-- Switch Plate A at (1, 16) and Switch Plate B at (9, 16): Currently empty post-reset.
+- Switch Plate A at (1, 16): DEPRESSED by boulder Turn 17173. Switch Plate B at (9, 16): Currently empty post-reset.
