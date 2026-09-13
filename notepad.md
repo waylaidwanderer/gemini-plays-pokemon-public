@@ -3841,6 +3841,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Turn 16369 Breakthrough: Row 8 East-West Highway
 - Row 8 is a fully open horizontal corridor spanning columns 6 through 14, completely bypassing the Blackbelt (12, 9) and connecting the eastern sector directly west toward the Western Highway (cols 2-3).
 
+## Boulder 3 & Switch Plate A Definitive Solution
+- Correct Push Route:
+  1. Boulder 3 starts at (4, 14).
+  2. Stand at (5, 14) facing West, push Left along row 14: (4, 14) -> (3, 14) -> (2, 14) -> (1, 14).
+  3. Maneuver to (1, 13) facing South, push Down along column 1: (1, 14) -> (1, 15) -> (1, 16) onto Switch Plate A!
+- Floor Reset: Descend ladder (0, 8) to 1F and re-ascend to reset Boulder 3 to pristine (4, 14).
+
 
 <hr>
 
