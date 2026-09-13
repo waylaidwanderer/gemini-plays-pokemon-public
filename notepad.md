@@ -3824,7 +3824,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Arrival from 1F is at ladder (0, 8).
 - Row 4 (cols 0-8) was tested solid at (1, 4) and (3, 4). Gap at (5, 4) was previously blocked by Boulder 1 pushed to (5, 3).
 - Northwest Ladder located at (1, 1) in northwest chamber behind trainer at (4, 2).
-- Switch Plate A at (1, 16): Verified Turn 16802 Boulder 3 was at starting pos (4, 14); Switch Plate A was not depressed.
 - Barrier at (23, 14) is STILL RAISED after Switch Plate A depressed [Verified Turn 16730].
 - Eastern chamber (rows 7-9, cols 25-29) containing ladder at (27, 7) is sealed on 2F by continuous solid rock walls:
   - North: Row 6 wall across cols 24-30
@@ -3838,9 +3837,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Iron used on Geodude (ROCKY) to boost Defense and free Bag slot [Turn 16757].
 
 ## Active Strategic Plan
-- Check if Switch Plate A at (1, 16) opened access to Northwest Ladder (1, 1) or unlocked a path previously blocked before Turn 16725.
 
-- Turn 16789: Boulder 1 observed at starting coordinates (5, 5) on Current Screen.
 - Turn 16813: Boulder 3 pushed onto Switch Plate A at (1, 16). Switch Plate A is DEPRESSED.
 - Turn 16820: Confirmed barrier at (23, 14) remains solid with Switch Plate A depressed. Switch Plate A does NOT control barrier (23, 14).
 - Turn 16824: Investigating two-stage puzzle hypothesis: Switch Plate A controls barrier at (9, 10) to access Boulder 2 at (9, 11); Boulder 2 on Switch Plate B at (9, 16) controls barrier (23, 14).
@@ -3922,7 +3919,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1: Located at (5, 3) [Pushed north from (5, 5) through gap (5, 4) into (5, 3) on Turns 16633-16634; (5, 2) is a solid rock wall].
 - Boulder 2: Located at (9, 11). Definitively verified immovable Turn 16670-16678. Trench bounded by row 10 wall north, col 8 wall west, col 12 wall east. Blocked north and west by walls; player cannot access (9, 10) to push south or (8, 11) to push east. Switch Plate B at (9, 16) cannot be depressed by Boulder 2.
 - Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
-- Switch Plate A: Located at (1, 16) in southwest corridor [Boulder 3 verified reset to (4, 14) Turn 16802].
+- Switch Plate A: Located at (1, 16) in southwest corridor [Boulder 3 verified depressing Switch Plate A on Turn 16813].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Stepped on Turn 16347; verified flat circular switch; row 16 dead-ends west at column 8 rock wall].
 
 ## Wild Encounters
