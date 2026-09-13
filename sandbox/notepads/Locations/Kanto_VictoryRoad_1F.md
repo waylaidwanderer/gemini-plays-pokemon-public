@@ -19,3 +19,4 @@
 - Golbat (observed Turn 15385).
 - Graveler (observed Turn 15389).
 - Geodude (observed Turn 15408).
+- Machop (observed Turn 15442).
