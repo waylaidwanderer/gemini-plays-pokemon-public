@@ -3758,5 +3758,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 115 Opening (Cols 10-11): Open 2-tile-wide avenue running north through rows 115..112+ between statues at col 9 and col 12.
 - Water Lake Channel: Open water extends north from row 103 through row 99 between boundary posts at (7, 99) and (14, 99).
 - Row 92 Barrier: Brown wall/statues span columns 7..10 across the water, with open water bypass channels on the east (cols 11..13) and west (col 6).
+- Central Lawn Island: Rows 90..91, cols 8..9 feature a green lawn island bounded by walls at col 10 and ledge at col 7, surrounded by water.
 
 <hr>
