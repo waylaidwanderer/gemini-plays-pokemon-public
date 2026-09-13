@@ -20,7 +20,7 @@
 ## Boulders & Switches
 - Boulder 1: Pushed North from (5, 5) to (5, 4) under Strength [Turn 15545].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16).
-- Boulder 3: Pushed from (4, 14) to (4, 15) [Turn 15548], then to (3, 15) [Turn 15550]. Currently at (3, 15).
+- Boulder 3: Pushed South to (3, 16) [Turn 15554], then West onto Switch Plate A at (1, 16).
 - Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548].
 
