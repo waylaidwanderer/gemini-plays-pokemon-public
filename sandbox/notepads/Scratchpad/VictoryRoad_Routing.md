@@ -28,3 +28,5 @@
 - Turn 17046-17047: Tested boulder at (22, 3) with Strength by pressing Right from (21, 3). SPRITE_6768 successfully displaced east from (22, 3) to (23, 3). Strength is confirmed ACTIVE.
 - Turn 17042: plan_auditor confirmed Boulder at (22, 3) cannot reach Switch Plate B at (9, 16) due to Gen 1 elevation constraints (cannot traverse staircases, ledges, or rows 11-13 rock barriers). Switch Plate B requires the boulder designated for the southern section.
 - Turn 17049-17050: Stepped south from (23, 6) onto tile (23, 7). Empirically verified (23, 7) is ordinary passable cavern floor (no warp, no hop). Ladder visible at (27, 7). Advancing south down column 23 to row 11 to enter the southern section and locate the designated boulder for Switch Plate B.
+- Turn 17088-17089: Strength activated with Rocky. Successfully pushed Boulder 4 east from (22, 3) to (23, 3) (confirmed by NPCMovementTracker: SPRITE_6768 moved (22, 3) -> (23, 3)). Boulder 4 is now in Column 23!
+- Repositioning to tile (23, 2) directly north of Boulder 4 to begin southward push testing down the Column 23 corridor.
