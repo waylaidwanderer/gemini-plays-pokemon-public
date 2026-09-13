@@ -54,7 +54,7 @@
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
 - Tile (13, 12): Verified open plateau cavern floor; no boulder present [Turn 16331].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
-- Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
+- Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); trapped in corner by solid walls north (9, 10) and west (8, 11); completely immovable [Empirically verified Turns 15822, 16340].
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Currently empty/un-depressed following floor reset Turn 15972].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
