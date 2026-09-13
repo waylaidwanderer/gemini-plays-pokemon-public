@@ -3853,17 +3853,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   6. Push Left: Boulder 3 moves from (3, 16) -> (2, 16).
   7. Push Left again: Boulder 3 moves from (2, 16) -> (1, 16) onto Switch Plate A!
 - Switch Plate A depressed; player at (2, 16) exits north via (3, 16) -> (3, 15) -> (3, 14) into southern chamber, then ascends wooden staircase at (5, 10) to row 8 Highway!
-## Turn 16485 Breakthrough: The True Progression Route to 3F
-- Northwest Ladder at (1, 1) is the TRUE ladder to 3F, completely free of barrier blocks!
-- Row 3 is a continuous horizontal corridor running along the upper plateau all the way from (17, 3) past defeated Cooltrainer ♀ (13, 3) west to (1, 3) and Ladder (1, 1).
-- Boulder 1 at (5, 5) is a one-way shortcut design: pushing it south from (5, 4) opens the passage from the Western Highway, but access to Row 3 is via the wooden staircase at (17, 5).
-- Master Route from (3, 5) to 3F Ladder (1, 1):
-  1. South via Western Highway (col 3) to (3, 11), east to (5, 11), ascend (5, 10) stairs to (5, 8).
-  2. East along Row 8 Highway to (14, 8), south down col 14 to row 12 at (14, 12).
-  3. East along row 12 to (17, 12), north up col 17 to wooden staircase at (17, 5).
+## Turn 16485 Hypothesis & Master Route to Northern Plateau:
+- Working Hypothesis: Northwest Ladder at (1, 1) is the candidate exit to 3F; Row 3 may connect across the northern plateau to (1, 1), pending empirical verification of columns 8-12.
+- Verified Route to Northern Plateau Staircase (17, 5):
+  1. Via Row 16 lower corridor: descend (15, 15) stairs to row 16. [Completed Turn 16499]
+  2. East along Row 16 to column 28, north up Eastern Vertical Highway (cols 28-29) to (28, 11). [Completed Turn 16501]
+  3. West along row 11 to (23, 11), north up columns 21-23 to row 6, west along row 6 to staircase at (17, 5).
   4. Ascend staircase (17, 5) to row 4, step north to (17, 3) on Row 3.
-  5. Walk west along Row 3 from (17, 3) past (13, 3) and (4, 3) to (1, 3).
-  6. Step north from (1, 3) to (1, 1) and climb Northwest Ladder to Victory Road 3F!
+  5. Test continuity of Row 3 westward past (13, 3) and (8, 3) toward Northwest Ladder (1, 1).
+
 
 <hr>
 
@@ -3878,6 +3876,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
 - Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
@@ -3897,7 +3896,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
 - Lower Corridor (Row 16): Divided into two separate sections by solid rock walls at column 5 and column 8: western section spans cols 1-4, eastern section spans cols 9-29 [Empirically verified Turns 16006, 16347, 16384].
-- Row 8 Elevation Collisions: Northern passage from (14, 8) to (14, 7) [Tested Turn 15967] and (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge/rock.
 - Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
