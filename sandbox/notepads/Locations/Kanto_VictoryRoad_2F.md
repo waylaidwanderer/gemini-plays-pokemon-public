@@ -8,7 +8,7 @@
 ## Layout & Topology
 - Row 8 Elevation Collisions: Northern passage from (14, 8) to (14, 7) [Tested Turn 15967] and (13, 8) to (13, 7), (12, 8) to (12, 7), (11, 8) to (11, 7), (10, 8) to (10, 7), and (9, 8) to (9, 7) confirmed impassable cliff edge/rock.
 - Wall at (15, 8): Confirmed solid rock wall [Tested Turn 15784].
-- Western Corridor: Runs along col 0-1 (rows 4-11).
+- Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Stairs at (5, 10): Wooden staircase connecting middle corridor (5, 9) down to lower corridor (5, 11).
