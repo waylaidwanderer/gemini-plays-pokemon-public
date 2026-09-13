@@ -26,3 +26,4 @@
 - West Barrier Structure: Rows 73..75, cols 3..5 feature brown walls and a statue at (5, 73); open water channel continues north through cols 6..12+.
 - Northern Shoreline & Mountain Divider: Row 72 marks the north end of the lake. Cols 6-7 rows 68..71 form a solid mountain cliff dividing the western walkway from the eastern grass field. Landing onto land occurs via the eastern grass field at cols 8..12 (e.g. col 9).
 - Northern Sector Grass Field: Land dismount successfully verified at (9, 71). Lawn spans cols 8..13 across rows 71..68; mountain cliff blocks cols 6-7 (ends at row 68); rock block at (11, 67).
+- Route 23 Maze (Rows 67..63): Column 10 provides a clean, open lawn corridor (no tall grass) running north from row 67 through row 63 between mountain blocks at col 9 and col 11.
