@@ -3833,6 +3833,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
 
+## Turn 16045 Eastern Chamber Breakthrough
+- Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
+- Columns 21-23 form an open highway from row 11 to row 7.
+- Row 2 connects columns 20-28 across the northern wall into the eastern chamber.
+- Cooltrainer ♂ at (28, 5) defeated [Turn 16045].
+- Boulder at (26, 5) discovered in eastern chamber.
+- Ladder to 3F located at (26, 8).
+
 
 <hr>
 
@@ -3871,7 +3879,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Legendary Pok�mon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 
 ## Trainers
-- Trainer at (28, 5) facing South in eastern chamber (Cooltrainer: 'I heard rumors of a child prodigy!') [Engaged Turn 16032].
+- Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
