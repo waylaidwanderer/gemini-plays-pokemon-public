@@ -5,6 +5,7 @@
 
 
 
+
 # Victory Road 2F Routing & Hypotheses
 
 
@@ -53,3 +54,7 @@
   3. East along row 11 to (28, 11).
   4. North up Eastern Vertical Highway (col 28) to (28, 7).
   5. Step Left into ladder at (27, 7) / (26, 8) and ascend to 3F!
+
+## Turn 16541 Breakthrough: Row 7 Direct Corridor to (23, 7) Ladder
+- Stepping down from staircase (17, 5) via (17, 6) to (17, 7) is fully passable floor.
+- Row 7 provides a direct horizontal corridor from (17, 7) east to (22, 7) and the candidate ladder at (23, 7).
