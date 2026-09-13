@@ -43,3 +43,13 @@
   3. West along row 11 to (23, 11), north up columns 21-23 to row 6, west along row 6 to staircase at (17, 5).
   4. Ascend staircase (17, 5) to row 4, step north to (17, 3) on Row 3.
   5. Test continuity of Row 3 westward past (13, 3) and (8, 3) toward Northwest Ladder (1, 1).
+
+## Turn 16526 Topology Update & Target: Northeast Ladder (27, 7) / (26, 8)
+- Western plateau (cols 10-18) is completely walled off east at col 19 and west at col 8.
+- Progression target is the Northeast Ladder at (27, 7) / (26, 8) in the eastern sector.
+- Route to Northeast Ladder:
+  1. From (18, 4): Left to (17, 4), Down (17, 5) stairs to (17, 6).
+  2. East along row 6 to (23, 6), South down col 23 to (23, 11).
+  3. East along row 11 to (28, 11).
+  4. North up Eastern Vertical Highway (col 28) to (28, 7).
+  5. Step Left into ladder at (27, 7) / (26, 8) and ascend to 3F!
