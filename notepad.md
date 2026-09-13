@@ -3854,6 +3854,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Northern Cliff Boundary: Row 1 is an elevated impassable rock cliff face along the northern perimeter (north movement from row 2 into row 1 blocked at (17, 2) Turn 16124 and (9, 2) Turn 16173).
 - Wooden Staircase at (7, 10): Connects middle corridor down to lower corridor; eastern side at (8, 10) is a solid railing collision boundary [Empirically verified Turn 16165].
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
@@ -3869,7 +3870,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Stairs at (5, 10): Wooden staircase connecting middle corridor (5, 9) down to lower corridor (5, 11).
 - Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 15894 while Switch Plate A actively depressed by Boulder 3; Switch Plate A does NOT control this barrier].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), (3, 4), (4, 4), and (6, 4) [Tested Turns 15681, 15749, 15994, 15996].
@@ -3894,7 +3894,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Boulder at (13, 12): Located in 1-tile chute between row 11 and row 13; immovable to South into (13, 13) due to rock wall [Tested Turn 16101; verified Turn 16189].
+- Boulder at (13, 12): Located in 1-tile chute between row 11 and row 13 [Discovered Turn 16094; untested with active Strength].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
