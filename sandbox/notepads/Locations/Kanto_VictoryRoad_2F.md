@@ -30,11 +30,11 @@
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Boulders & Switches
-- Boulder 1: Pushed north into doorway at (5, 4) and then to (5, 3) against wall (5, 2) [Turn 15798].
+- Boulder 1: Located at (5, 4) in doorway [Turn 15866].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [West push into (8, 11) and North push into (9, 10) empirically tested and blocked by solid rock walls with Strength active, Turns 15822-15823].
-- Boulder 3: Pushed onto Switch Plate A at (1, 16) and switch depressed [Turn 15707].
+- Boulder 3: Located at (4, 14) [Reset Turn 15857].
 - Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
-- Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548; depressed by Boulder 3 at Turn 15707].
+- Switch Plate A: Located at (1, 16) in southwest corridor [Discovered Turn 15548; currently un-depressed after floor reset].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
 
 ## Wild Encounters
