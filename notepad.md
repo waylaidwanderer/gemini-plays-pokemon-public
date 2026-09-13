@@ -3807,7 +3807,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Items: TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Ladder to 2F: Located at (1, 1) in northwest corner [Visually confirmed Turn 15515].
-- Trainer: Cooltrainer ♂ at (3, 3) facing south [Encountered Turn 15515].
+- Trainer: Cooltrainer ♂ at (3, 3) [Defeated Turn 15531; Team: Ivysaur Lv 42, Wartortle Lv 42, Charmeleon Lv 42, Charizard Lv 42; Prize: ¥1470].
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
 
 <hr>
