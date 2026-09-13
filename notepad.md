@@ -2956,6 +2956,7 @@
   - Ladder A is at (1, 3) descending to B1F (Mewtwo).
   - Column 1 corridor spans (1, 2..15) providing the sole physical ground route directly into Ladder A at (1, 3).
   - Upper Row 1 corridor (3..9, 1) is blocked from Ladder A by rock walls at (1..2, 1) and (2, 2..4).
+- **Row 4 Barrier Array (Verified Turn 49734)**: Tiles (3..8, 4) are solid rock walls blocking direct southward passage from Row 3 into Row 5.
 
 <hr>
 
