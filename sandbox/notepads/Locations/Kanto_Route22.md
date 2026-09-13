@@ -26,3 +26,4 @@
 - Tile (33, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15246].
 - Tile (32, 7): Solid south-facing ledge boundary from south [Confirmed Turn 15247].
 - Tile (31, 7): Open northbound passage/ramp through Row 7 ledge [Empirically verified Turn 15248] connecting the eastern tall grass directly north into row 6 lawn and the Northern Highway (rows 4-5).
+- Tile (11, 9): Open wooden ramp / passage through Row 9 ledge [Visual confirmation Turn 15286] connecting row 10 road north to rows 7-8.
