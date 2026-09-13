@@ -3829,10 +3829,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Verified barrier at (23, 14) is STILL RAISED despite Switch Plate A depression [Turn 15722].
-- Target: Switch Plate B at (9, 16) and Boulder 2 at (9, 11).
-- Plan: Push Boulder 2 south down column 9 onto Switch Plate B to lower barrier at (23, 14).
-
+- Row 4 is completely impassable from south: (1, 4), (2, 4), (3, 4) all confirmed solid walls [Turns 15681, 15749].
+- Doorway (5, 4) blocked by Boulder 1 at (5, 3) with solid rock wall at (5, 2) [Confirmed Turn 15748].
+- Western sector north progression exhausted.
+- Shift focus to Eastern Sector: Investigate Boulder 4 at (18, 9), surrounding terrain, and how eastern puzzle mechanisms function to unblock passage to 3F.
 
 <hr>
 
@@ -3854,6 +3854,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block: Located at (23, 14), blocks eastern passage to 3F ladder at (25, 14) [Empirically confirmed Turn 15655].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Cliff Wall at (5, 8): Blocks direct northward passage from row 8 into row 7.
+- Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), and (3, 4) [Tested Turns 15681, 15749].
+- Wall at (5, 2): Solid rock wall directly north of (5, 3) [Tested Turn 15748].
 - Row 4 Barrier: Solid rock wall along row 4 (cols 0-4 and cols 6-8), with doorway at (5, 4).
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
 - Plateau Boundary: Moving North from row 8 into row 7 across cols 5..13 is blocked by the raised plateau ledge [Tested Turns 15581, 15587, 15614].
@@ -3867,7 +3869,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Boulders & Switches
-- Boulder 1: Reset to default starting position at (5, 5) upon 1F map reload at Turn 15684.
+- Boulder 1: Pushed north into doorway at (5, 4) [Turn 15744], then pushed north to (5, 3) [Turn 15745]. North push into (5, 2) blocked by solid rock wall [Confirmed Turn 15748].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16) [Immovable north/west due to walls at (9, 10) and (8, 11); Turn 15604].
 - Boulder 3: Pushed onto Switch Plate A at (1, 16) and switch depressed [Turn 15707].
 - Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
