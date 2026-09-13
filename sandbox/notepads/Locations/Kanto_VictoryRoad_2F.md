@@ -33,3 +33,6 @@
 - Plateau Boundary: Moving North from (11, 8) into (11, 7) is blocked by the raised plateau ledge [Tested Turn 15581].
 - Row 7 Boundary: Moving North into (9, 7) is also blocked by the raised plateau ledge [Tested Turn 15587]; the entire row 7 is an elevated cliff relative to row 8.
 - Boulder 4: Located at (18, 9) in the eastern wing [Discovered Turn 15590].
+- Southeastern Stairs: Located at (15, 15), wooden staircase connecting upper floor (15, 14) down to lower floor (15, 16) [Discovered Turn 15593].
+- Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
+- Switch Plate B: Visually confirmed at (9, 16), circular switch plate on lower floor.
