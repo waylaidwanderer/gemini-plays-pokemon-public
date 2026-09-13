@@ -15,5 +15,8 @@
 - Pushed North from (8, 16) to (8, 15).
 - Pushed East from (8, 15) to (9, 15).
 - Pushed North from (9, 15) to (9, 14).
-- Pushed East along row 14: Boulder 1 is at (16, 14). Player is at (16, 15) facing North.
-- Planned: Continue pushing East along row 14 to (16, 14), North to (16, 12), East to (17, 12), and South onto switch at (17, 13).
+- Pushed East along row 14 from (9, 14) to (16, 14).
+- Pushed North along col 16 from (16, 14) to (16, 12).
+- Player positioned at (15, 12) facing Boulder 1 at (16, 12).
+- Execution: Push East to (17, 12), step to (16, 12), Up to (16, 11), Right to (17, 11), and push South onto switch at (17, 13).
+- Next Goal: Return to plateau stairs at (5, 13), cross lowered barrier at (9, 12), and reach 2F ladder.
