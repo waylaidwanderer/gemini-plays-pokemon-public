@@ -8,11 +8,8 @@
 - Row 4 (cols 0-4) is an impassable rock barrier dividing northwest chamber from western corridor.
 - Ladder at (1, 1) sighted in northwest chamber, guarded by Trainer at (4, 2) facing South.
 - Checkerboard terrain (rows 6-10, cols 2-7) is flat passable floor [Verified Turn 15540 at (3, 6)], completely bypassing the (0, 8) ladder to 1F.
-- Boulder 1 is at (5, 5), bordered by rock wall at (6, 5) and floor at (4, 5), (5, 4), and (5, 6).
 - Stairs at (5, 10) descend south to row 11 corridor.
 
 ## Active Routing Hypotheses
-- Approach Boulder 1 at (5, 5) from (5, 6) on the checkerboard floor.
-- Activate Strength with Geodude (ROCKY) to push Boulder 1 northward into (5, 4)/(5, 3) to open passage to northwest chamber and ladder (1, 1).
 - Switch A (1, 16) SOLVED with Boulder 3 [Turn 15555]!
 - Active Routing: From central corridor (row 8), head east to col 13, then south down col 13/14 around rock pillar at (12, 11..12) to reach Boulder 2 at (9, 11). Push Boulder 2 south down col 9 onto Switch Plate B at (9, 16).

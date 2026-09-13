@@ -11,7 +11,6 @@
 - Stairs at (5, 10): Wooden staircase connecting checkerboard floor to southern lower trench (row 11).
 - Cliff Wall at (5, 8): Blocks southward passage along col 5 from (5, 7).
 - Row 4 Barrier: Solid rock wall along row 4 (cols 0-4).
-- Row 5 Corridor: Connects (1, 5) east to (4, 5) facing Boulder 1.
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
 - Upward Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533; destination unverified].
