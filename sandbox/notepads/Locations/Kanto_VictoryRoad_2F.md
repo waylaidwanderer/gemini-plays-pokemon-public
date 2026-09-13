@@ -16,6 +16,8 @@
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
 - Wall at (27, 6): Solid rock wall directly south of (27, 5) [Empirically verified Turn 16136].
+- Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
+- Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
