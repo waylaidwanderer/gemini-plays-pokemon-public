@@ -3849,6 +3849,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 - Boulder 2 Status (Turn 16915): Confirmed Boulder 2 at (9, 11) is immovable (blocked north by row 10 wall and west by col 8 wall; cannot be pushed south to Switch Plate B).
 - Strategic Focus: Investigate where Boulder 4 actually landed when pushed south down column 23, and determine how barrier (23, 14) or ladder (25, 14) is accessed.
+- Turn 16948: Verified Boulder 4 is not at (23, 6). The northeast ladder chamber (rows 7-9, cols 25-29) containing ascending ladder (27, 7) is accessed via column 29 eastern wrap-around from (28, 5) -> (29, 5..7).
 
 <hr>
 
