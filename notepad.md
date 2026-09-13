@@ -192,15 +192,15 @@
   9. MASTER BALL x1
   10. MOON STONE x1
   11. ESCAPE ROPE x1
-  12. CALCIUM x1
-  13. IRON x1
-  14. CARBOS x1
-  15. TM14 (BLIZZARD) x1
-  16. RARE CANDY x1
-  17. TM22 (SOLARBEAM) x1
-  18. SECRET KEY x1
-  19. TM38 (FIRE BLAST) x1
-  20. TM27 (FISSURE) x1
+  12. IRON x1
+  13. CARBOS x1
+  14. TM14 (BLIZZARD) x1
+  15. RARE CANDY x1
+  16. TM22 (SOLARBEAM) x1
+  17. SECRET KEY x1
+  18. TM38 (FIRE BLAST) x1
+  19. TM27 (FISSURE) x1
+  20. TM43 (SKY ATTACK) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -3806,6 +3806,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop (observed Turn 15442).
 - Items: TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
+- Ladder to 2F: Located at (1, 1) in northwest corner [Visually confirmed Turn 15515].
+- Trainer: Cooltrainer ♂ at (3, 3) facing south [Encountered Turn 15515].
+- Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
 
 <hr>
 
@@ -3834,6 +3837,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Verified: Row 3 is lower cavern floor separated from plateau (rows 4-6) by an impassable cliff edge.
 - Stairs at (15, 7) descend to row 8 lower floor.
 - Collected TM43 (Sky Attack) at (11, 0).
-- Working Hypothesis: Descend stairs at (7, 7) to western lower floor and explore northward to locate the ladder to 2F [Needs empirical verification].
+- Ladder to 2F visually confirmed at (1, 1) [Turn 15515]! Approach guarded by Cooltrainer ♂ at (3, 3).
 
 <hr>

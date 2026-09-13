@@ -21,4 +21,4 @@
 - Verified: Row 3 is lower cavern floor separated from plateau (rows 4-6) by an impassable cliff edge.
 - Stairs at (15, 7) descend to row 8 lower floor.
 - Collected TM43 (Sky Attack) at (11, 0).
-- Working Hypothesis: Descend stairs at (7, 7) to western lower floor and explore northward to locate the ladder to 2F [Needs empirical verification].
+- Ladder to 2F visually confirmed at (1, 1) [Turn 15515]! Approach guarded by Cooltrainer ♂ at (3, 3).
