@@ -28,3 +28,4 @@
 - Strategic Focus: Investigate where Boulder 4 actually landed when pushed south down column 23, and determine how barrier (23, 14) or ladder (25, 14) is accessed.
 - Turn 16948: Verified (23, 6) is open floor (no boulder).
 - Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
+- Turn 16964: Empirical visual confirmation on screen! Ascending ladder is at (26, 8). Boulder is at (24, 10). Column 25 (rows 8-11) is open floor connecting row 11 directly to ladder (26, 8).
