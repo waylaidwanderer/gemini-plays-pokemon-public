@@ -3769,5 +3769,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Route 23 Maze (Rows 62..59): Column 10 continues north through (10, 62) lawn, (10, 61..60) tall grass, and (10, 59) lawn between mountain blocks at col 9 and cols 11-12.
 - Volcanobadge Guard: Stationed at (10, 56) facing down. Trigger tile at (10, 57). Verifies Volcanobadge possession: 'You can pass here only if you have the VOLCANOBADGE! Oh! That is the VOLCANOBADGE! OK then! Please, go right ahead!'. Gate structure has solid wall at cols 6-10 and pillar at col 11; open northbound corridor is via lawn at cols 12-13.
 - Volcanobadge North Corridor (Rows 53..49): Open 2-tile wide lawn avenue along cols 12-13 between statues at (11, 53) and (14, 53); opens into wider lawn at rows 49..51.
+- Eastern Water Boundary & Mountain Rocks (Rows 48..45): Water lake borders the east (cols 14+); rock blocks at (9..10, 46..47); columns 12-13 form a clean, open lawn path running north avoiding tall grass at (10..11, 45).
 
 <hr>
