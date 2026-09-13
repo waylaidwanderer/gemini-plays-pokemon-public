@@ -3755,5 +3755,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Corridor (Cols 14-15): Open 2-tile-wide avenue running north through rows 131..128+ between statues at col 13 and col 16, bypassing the central water/ledge barrier.
 - Row 123 Opening (Cols 8-9): Open northbound avenue between statues at (7, 123) and (10, 123), leading north to the Thunderbadge checkpoint at row 119.
 - Row 115 Opening (Cols 10-11): Open 2-tile-wide avenue running north through rows 115..112+ between statues at col 9 and col 12.
+- Water Lake Channel: Open water extends north from row 103 through row 99 between boundary posts at (7, 99) and (14, 99).
 
 <hr>
