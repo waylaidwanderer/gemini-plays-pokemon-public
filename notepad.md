@@ -3958,5 +3958,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+- Northeast Ladder 1: Located at (23, 7) [Visually confirmed Turn 16736 on IntermediateStates].
+- Northeast Ladder 2: Located at (27, 7) [Visually confirmed Turn 16735 on CurrentScreen].
 
 <hr>
