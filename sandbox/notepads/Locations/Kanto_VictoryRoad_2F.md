@@ -28,4 +28,4 @@
 - Geodude (observed Turn 15535).
 - Machoke (observed Turn 15551).
 - Row 9 Corridor: 1-tile wide passage running east from stairs (5, 10) across cols 6-12 toward Trainer at (12, 9).
-- Trainer: Blackbelt at (12, 9) [Encountered Turn 15559].
+- Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
