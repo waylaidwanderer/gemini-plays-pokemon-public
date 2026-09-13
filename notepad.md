@@ -3770,5 +3770,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Volcanobadge Guard: Stationed at (10, 56) facing down. Trigger tile at (10, 57). Verifies Volcanobadge possession: 'You can pass here only if you have the VOLCANOBADGE! Oh! That is the VOLCANOBADGE! OK then! Please, go right ahead!'. Gate structure has solid wall at cols 6-10 and pillar at col 11; open northbound corridor is via lawn at cols 12-13.
 - Volcanobadge North Corridor (Rows 53..49): Open 2-tile wide lawn avenue along cols 12-13 between statues at (11, 53) and (14, 53); opens into wider lawn at rows 49..51.
 - Eastern Water Boundary & Mountain Rocks (Rows 48..45): Water lake borders the east (cols 14+); rock blocks at (9..10, 46..47); columns 12-13 form a clean, open lawn path running north avoiding tall grass at (10..11, 45).
+- Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
 
 <hr>
