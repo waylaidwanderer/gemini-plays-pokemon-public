@@ -18,7 +18,6 @@
 - Boulder 2 at (9, 11) is aligned directly north of Switch Plate B at (9, 16) along column 9.
 
 ## Turn 16045 Eastern Chamber Breakthrough
-- Row 16 lower corridor connects east beneath row 15 rocks to columns 28-29.
 - Columns 21-23 form an open highway from row 11 to row 7.
 - Row 2 northern passage: Impassable solid rock wall confirmed at (19, 2) [Turn 16124 audit].
 ## Turn 16369 Breakthrough: Row 8 East-West Highway

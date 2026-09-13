@@ -59,7 +59,7 @@
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
+- Boulder 1: Pristine at (5, 5) [Reset Turn 16393 upon floor transition; unpushed].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); flanked by solid walls north at (9, 10) and west at (8, 11); westward push from (10, 11) confirmed blocked Turn 16340.
 - Boulder 3: Located at (1, 16) in southwest corridor [Depressed Switch Plate A Turn 16426].
 - Switch Plate A: Located at (1, 16) in southwest corridor [Depressed by Boulder 3 Turn 16426].
