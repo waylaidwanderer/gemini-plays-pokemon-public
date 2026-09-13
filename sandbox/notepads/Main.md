@@ -143,6 +143,6 @@
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Enter Victory Road 1F from Route 23 [Turn 15359]
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
-- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15555]
+- [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 15707]
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 - [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
