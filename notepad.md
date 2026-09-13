@@ -2996,7 +2996,7 @@
 - Row 11 Thoroughfare: cols 14..24 are open cave floor connecting Column 23 at (23, 11) directly west to Column 19 at (19, 11).
 - Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
 - Central Maze Topology (Verified Turn 47881):
-  - Row 11 at (15..23, 11) is a lower thoroughfare connecting east to Ladder B at (22, 6) (14, 14) and (18, 14) are solid rock walls blocking southern passage from Row 13-14.
+  - Row 11 at (15..23, 11) is a lower thoroughfare connecting east to Ladder B at (22, 6). (14, 14) and (18, 14) are solid rock walls blocking southern passage from Row 13-14.
 - Verified Empirical Barriers (Turns 47978-48020):
   - (29, 7): Solid rock wall blocks Column 29 south of (29, 6).
   - (27, 3): Solid rock wall blocks direct passage south from (27, 2).
@@ -3048,7 +3048,6 @@
   - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
 
 - Verified Open East-West Passage at (12, 5) (Turn 49086): Tile (12, 5) is completely open dark cave floor connecting (11, 5) directly east to Column 13 (13, 5) and Row 5 (13..16, 5).
-
 
 <hr>
 
