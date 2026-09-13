@@ -14,3 +14,4 @@
 - Tile (7, 132): Attempting to Surf north from (7, 132) yields "No SURFing on SHELDON here!".
 - Eastern Corridor (Cols 14-15): Open 2-tile-wide avenue running north through rows 131..128+ between statues at col 13 and col 16, bypassing the central water/ledge barrier.
 - Row 123 Opening (Cols 8-9): Open northbound avenue between statues at (7, 123) and (10, 123), leading north to the Thunderbadge checkpoint at row 119.
+- Row 115 Opening (Cols 10-11): Open 2-tile-wide avenue running north through rows 115..112+ between statues at col 9 and col 12.
