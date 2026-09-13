@@ -3081,7 +3081,8 @@
 - [x] (11, 5) -> Down to (11, 6): Solid rock (BUMP verified Turn 48697)
 - [x] (13, 5) -> Down to (13, 6) -> (13, 7): Solid rock wall (BUMP verified Turn 48700). (13, 6) is a 1-tile dead-end pocket.
 - [x] Row 1 North Highway Access: Reached (13, 1) via Column 13 (Turn 48701).
-- [ ] Eastern Sector Traversal: Walk East along Row 1 (14..29, 1) to explore Eastern Sector corridors leading down to Row 9.
+- [x] (19, 1): Solid rock wall (BUMP verified Turn 48704).
+- [ ] Eastern Sector Traversal: Navigate via (18, 2..3) -> (19..20, 3) -> (20..23, 2) to access eastern corridors (cols 24..29).
 
 ## Target Destination:
 - Ladder A at (1, 3) leading to B1F (Mewtwo).
