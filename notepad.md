@@ -2851,8 +2851,8 @@
 
 ## Verified Waterway Routing
 - **East Canal to North Canal**: Board water via East Ramp at (25, 9) into (25, 10). Surf East to Column 28, North to Row 4 (28, 4), West along Row 4 to Column 14 (14, 4).
-- **North Canal S-Bend to Ladder E**: At (14, 4), water turns South: (14, 4) -> (14, 6) -> West along Row 6/7 across cols 13..7 -> North along Column 7 (rows 6..1) directly into Ladder E at (7, 1).
-- **Northwest Ramp**: Located at (15, 3) leading onto northern terrace (14..16, 0..2).
+- **Northwest Ramp to Ladder E**: At (14, 4), move East to (15, 4) and Up to Northwest Ramp at (15, 3) to disembark onto Northern Terrace at (15, 2). Walk West along Row 2 (cols 14..7) to (7, 2), then Up 1 into Ladder E at (7, 1).
+- **Southwest Canal**: From (14, 4), water turns South to (14, 6) and West across Row 6 (cols 14..8), flowing south along Column 8/9.
 
 <hr>
 
