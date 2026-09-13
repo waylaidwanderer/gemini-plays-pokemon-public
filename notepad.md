@@ -3030,8 +3030,6 @@
   - Row 9 at (25, 9) is blocked to the west by solid rock walls at (24, 9) and (24, 5..10).
 - NW Sector Collision Details (Verified Turns 48154-48165):
   - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
-- Row 14 & 15 Western Barrier: (14, 14) and (14, 15) are solid rock walls blocking direct westward passage from (15, 14..15).
-- Row 15 Dead-End Pocket: Row 15 extends east across (16..19, 15). (17, 16) and (19, 16) are solid rock walls below it; (20, 15) is a solid rock wall to the east. Traversal south or east from Row 15 is blocked.
 - Column 24 Barrier: (24, 7..10) are solid rock walls blocking northward passage from (24, 11).
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
 
