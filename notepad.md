@@ -3897,7 +3897,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Boulders & Switches
 - Boulder at (22, 3): Located on northern plateau in open floor [Discovered Turn 16069].
-- Tile (13, 12): Collision recorded Turn 16188; distant visual scan Turn 16331 showed floor graphic [Direct step-into verification pending].
+- Tile (13, 12): Empirically verified 100% passable open floor by direct physical step-into traversal [Turn 16363].
 - Boulder 1: Pushed from pristine (5, 5) into (5, 3) [Turn 15990].
 - Boulder 2: Located at (9, 11) directly north of Switch Plate B at (9, 16); flanked by solid walls north at (9, 10) and west at (8, 11); westward push from (10, 11) confirmed blocked Turn 16340.
 - Boulder 3: Located at (4, 16) in southwest corridor [Pushed from (4, 14) Turn 15981].
