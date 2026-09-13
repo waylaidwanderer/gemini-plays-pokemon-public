@@ -17,7 +17,7 @@
 - [x] (3, 3) -> Down to (3, 4): Solid rock (BUMP verified Turn 48694)
 - [x] (9, 5) -> Left to (8, 5): Solid rock (BUMP verified Turn 48685)
 - [x] (9, 5) -> Down to (9, 6): Solid rock (BUMP verified Turn 48685)
-- [ ] (11, 5) -> Down to (11, 6): Test if passable
+- [x] (11, 5) -> Down to (11, 6): Solid rock (BUMP verified Turn 48697)
 - [ ] (13, 5) -> Down to (13, 6): Test if connects south/west
 
 ## Target Destination:
