@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 65, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥128237 [Turn 16258]
+- Money: ¥129917 [Turn 16571]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -229,14 +229,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥128237 [Turn 16258]
+- ¥129917 [Turn 16571]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 65, Water]
   - Status: Healthy [Turn 16063]
-  - HP: 197 / 206 [Turn 16258]
+  - HP: 171 / 206 [Turn 16571]
   - Stats: Attack 152, Defense 177, Speed 152, Special 157 [Verified Lv 65 Turn 16063]
-  - Moves: Double-Edge (PP 14/15), Body Slam (PP 1/15), Surf (PP 6/15), Ice Beam (PP 4/10)
+  - Moves: Double-Edge (PP 13/15), Body Slam (PP 1/15), Surf (PP 6/15), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3878,29 +3878,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 
-## Turn 16554 Master Solution: The Eastern Route to 3F Ladder (27, 7)
-- The ladder chamber (cols 25-29, rows 7-9) is completely walled off to the south by Row 10 rock barrier.
-- Entry into the ladder chamber is strictly from the NORTH via Row 3 and Column 28/29!
-- Master Route:
-  1. From Row 11, walk west to (22, 11).
-  2. Walk north up Column 22 highway through rows 10..4 to Row 3 (east of Col 19 divider).
-  3. Walk east along Row 3 to (28, 3).
-  4. Walk south down Column 28/29 through rows 4..7 directly into the ladder chamber!
-  5. Step onto the ladder at (27, 7) and ascend to 3F!
 
-## Turn 16559 Definitive Solution: Ladder at (26, 8) via Column 27
-- The 3F exit ladder is verified at (26, 8) [CurrentScreen turn 16559].
-- Column 27 is completely open purple floor from (27, 11) north through (27, 10), (27, 9), (27, 8).
-- Complete Route:
-  1. (23, 7) -> Down 4 times to (23, 11).
-  2. (23, 11) -> Right 4 times to (27, 11).
-  3. (27, 11) -> Up 3 times to (27, 8).
-  4. (27, 8) -> Left 1 time into ladder at (26, 8) to ascend to 3F!
 
-## Turn 16572 Breakthrough: Row 1 Open Highway to Column 28 & Ladder (27, 7)
-- Trainer defeated: Juggler at (23, 2) [Mr. Mime Lv 48, Prize: ¥1680].
-- Row 1 is a completely open horizontal highway across cols 22-28, bypassing both trainers (23, 2) and (24, 3).
-- Path to 3F Ladder (27, 7): (23, 3) -> Left to (22, 3) -> Up to (22, 1) -> East along Row 1 to (28, 1) -> South down Column 28 to (28, 7) -> Left into ladder at (27, 7)!
+
+
+
 
 ## Turn 16587 Progression Breakthrough: Real 3F Ladder is Northwest at (1, 1)
 - Empirically confirmed: Eastern ladder at (27, 7) is completely enclosed by solid walls on all sides (Row 6, Row 10, Col 24, Col 30). It is unreachable from 2F and is the arrival/exit zone from 3F hole drop.
@@ -3964,6 +3946,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually confirmed Turn 16365].
 
 ## Trainers
+- Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
 - Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
