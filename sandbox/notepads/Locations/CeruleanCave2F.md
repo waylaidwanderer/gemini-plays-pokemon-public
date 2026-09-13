@@ -14,8 +14,10 @@
    - Ladder C at (19, 7) <-> 1F (18, 9).
    - Central Loop: Ladder C connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3). Walled off from lower corridors by rock walls at (18..20, 4), (16, 8), (17, 5..8), and (19, 1).
 
-3. **West Sector & Route to Ladder A (B1F Mewtwo)**:
+3. **Northern Ridge Sector**:
    - Ladder E at (9, 1) <-> 1F Northern Terrace (7, 1) (isolated upper NW ridge).
+
+4. **West Sector & Route to Ladder A (B1F Mewtwo)**:
    - Ladder A at (1, 3) descends to B1F (Mewtwo).
 
 ## Verified Ladders (2F)
@@ -32,10 +34,9 @@
 
 ## Collision Matrix & Verified Passages (2F)
 - Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall.
-- Row 11 Thoroughfare: cols 14..24 are open cave floor connecting Column 23 at (23, 11) directly west to Column 19 at (19, 11).
+- Row 11 Thoroughfare: Open cave floor across cols 14..24 connecting Column 23 at (23, 11) directly west past Column 19 to Column 14.
 - Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
-- Central Maze Topology (Verified Turn 47881):
-  - Row 11 at (15..23, 11) is a lower thoroughfare connecting east to Ladder B at (22, 6). (14, 14) and (18, 14) are solid rock walls blocking southern passage from Row 13-14.
+- Central Maze Barriers (Turn 47881): (14, 14) and (18, 14) are solid rock walls blocking southern passage from Row 13-14.
 - Verified Empirical Barriers (Turns 47978-48020):
   - (29, 7): Solid rock wall blocks Column 29 south of (29, 6).
   - (27, 3): Solid rock wall blocks direct passage south from (27, 2).
