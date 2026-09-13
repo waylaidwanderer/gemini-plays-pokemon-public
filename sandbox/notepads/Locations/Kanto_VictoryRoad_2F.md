@@ -39,7 +39,7 @@
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16452 by direct collision test from (22, 14) while Switch Plate A is depressed; Switch Plate A does NOT control Barrier (23, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
-- Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), (3, 4), (4, 4), and (6, 4) [Tested Turns 15681, 15749, 15994, 15996].
+- Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), (3, 4), (4, 4), and (6, 4) [Re-verified Turn 16629 at (3, 4); Row 4 remains solid wall after Switch Plate A].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Tested Turn 15748].
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
