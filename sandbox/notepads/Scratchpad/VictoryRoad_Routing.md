@@ -21,3 +21,4 @@
 - Check if Switch Plate A at (1, 16) opened access to Northwest Ladder (1, 1) or unlocked a path previously blocked before Turn 16725.
 
 - Turn 16789: Boulder 1 observed at starting coordinates (5, 5) on Current Screen.
+- Turn 16813: Boulder 3 pushed onto Switch Plate A at (1, 16). Switch Plate A is DEPRESSED.
