@@ -173,6 +173,7 @@
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
 - TM38 (FIRE BLAST) x1 [Received Turn 14806 from Gym Leader Blaine]
 - TM27 (FISSURE) x1 [Received Turn 15114 from Gym Leader Giovanni]
+- TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
 
 ## Key Items & HMs
 - HM01 (CUT) [Verified Turn 11080]
@@ -194,15 +195,15 @@
   9. MASTER BALL x1
   10. MOON STONE x1
   11. ESCAPE ROPE x1
-  12. IRON x1
-  13. CARBOS x1
-  14. TM14 (BLIZZARD) x1
-  15. TM22 (SOLARBEAM) x1
-  16. SECRET KEY x1
-  17. TM38 (FIRE BLAST) x1
-  18. TM27 (FISSURE) x1
-  19. TM43 (SKY ATTACK) x1
-  20. MAX REVIVE x1
+  12. CARBOS x1
+  13. TM14 (BLIZZARD) x1
+  14. TM22 (SOLARBEAM) x1
+  15. SECRET KEY x1
+  16. TM38 (FIRE BLAST) x1
+  17. TM27 (FISSURE) x1
+  18. TM43 (SKY ATTACK) x1
+  19. MAX REVIVE x1
+  20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -304,7 +305,7 @@
 - PARAS (Nickname: FUNGI) [Lv 10, Bug/Grass]
   - Status: Healthy
   - Deposited from active party [Turn 13315]
-- TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
+
 
 <hr>
 
@@ -3884,6 +3885,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
+- Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Row 1 Northern Perimeter: Empirically confirmed impassable cliff along row 1 across cols 14-23 [Verified Turns 16124, 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spanning rows 2 through 7, completely separating the eastern plateau from the western chamber (west movement blocked from (9, 3) into (8, 3) [Empirically verified Turn 16514]).
@@ -3938,6 +3940,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
+- Item Ball: Located at (27, 5) [Collected Turn 16758: TM17 (SUBMISSION)].
 - Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
