@@ -67,9 +67,6 @@
   - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
 - Column 24 Barrier: (24, 7..10) are solid rock walls blocking northward passage from (24, 11).
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
-## NW Sector & Route to Ladder A (B1F Mewtwo) - Active Exploration
-- Ladder E at (9, 1) on 2F connects to the Northern Sector (rows 0..5).
-- Ladder A at (1, 3) descends directly to B1F (Mewtwo) and is located in the NW corner.
 ## Northwest Sector & Ladder A Complete Solution (Verified Turn 48396)
 - **Ladder A Location**: (1, 3) -> Descends directly to B1F (Mewtwo).
 - **Enclosure & Entry Points**:
