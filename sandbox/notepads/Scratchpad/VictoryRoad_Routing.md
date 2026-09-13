@@ -1,6 +1,5 @@
 # Victory Road 2F Routing & Hypotheses
 
-## 1F Milestone Completed
 
 ## 2F Empirical Discoveries
 - Arrival from 1F is at ladder (0, 8).
