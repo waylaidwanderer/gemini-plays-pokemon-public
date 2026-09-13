@@ -78,7 +78,7 @@
   - Note: Direct passage from (5, 3) -> (5, 4) is blocked by rock at (5, 4). Systematic single-tile probing of western vertical corridors (cols 14..6) is required.
 ## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
 - **Ridge Isolation**: Ladder E at (9, 1) arrives on an elevated northern ridge (cols 3..16, rows 0..2) that is completely walled off from the lower floors ((15, 3) is a cliff ledge overlooking lower floor where "No SURFing on HYDROS here!").
-- **True Path to Ladder A (1, 3)**: Accessed via **Ladder C** at (18, 9) on 1F <-> (19, 7) on 2F, which connects to the main open floor, Row 9 thoroughfare, Column 13 corridor, and directly to Ladder A (1, 3) on 2F to descend to B1F Mewtwo!
+- **Isolated Maze Topology**: Ladder E (9, 1), Ladder D (29, 1), Ladder B (22, 6), and Ladder C (19, 7) all lead to isolated sectors on 2F that cannot access Ladder A (1, 3). The true route to Ladder A (1, 3) and B1F Mewtwo must be accessed via unmapped 1F ground/water passages.
 - Column 17/16 Boundary at Row 1-2 (Verified Turn 48568):
   - (17, 2) and (16, 2) are solid rock walls.
   - Row 1 across (14..18, 1) is open cave floor providing the direct east-west thoroughfare between the eastern sector and western sector.
