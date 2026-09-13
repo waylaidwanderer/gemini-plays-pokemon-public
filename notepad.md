@@ -3725,7 +3725,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections
 - South: Route 22 via entrance at (4..5, 7) leading south out the door.
-- North: Route 23 via corridor at (4..5, 0..1).
+- North: Route 23 via door at (4..5, 0).
 
 ## Layout & Personnel
 - Carpet corridor: Columns 4-5 from row 7 up to row 0.
