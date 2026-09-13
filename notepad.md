@@ -3801,5 +3801,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix (observed Turn 15367).
 - Machoke (observed Turn 15377).
 - Golbat (observed Turn 15385).
+- Graveler (observed Turn 15389).
 
 <hr>
