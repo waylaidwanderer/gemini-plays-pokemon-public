@@ -3,7 +3,7 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Located at (26, 8) [Visually confirmed Turn 16086; unclimbed].
+- Northeast Ladder: Candidate ladder sighted at (26, 8) from afar [Unvisited; path from west blocked by col 24 rock wall].
 - Northwest Ladder: Located at (1, 1) in northwest chamber [Visually sighted Turn 15533].
 
 ## Layout & Topology
@@ -39,7 +39,7 @@
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
 - Trainer at (4, 2) in northwest chamber facing South.
-- Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: �1435].
+- Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: ¥1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
@@ -56,6 +56,8 @@
 - Switch Plate B: Located at (9, 16) in southeast corridor [Discovered Turn 15548; visually confirmed Turn 15593].
 
 ## Wild Encounters
+- Venomoth (observed Turn 16097).
+- Graveler (observed Turn 16139).
 - Geodude (observed Turn 15535).
 - Machoke (observed Turn 15551).
 - Marowak (observed Turn 15606).
