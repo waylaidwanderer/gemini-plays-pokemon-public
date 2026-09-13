@@ -233,8 +233,8 @@
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 63, Water]
-  - Status: PSN
-  - HP: 52 / 199
+  - Status: Healthy [Cured via Full Restore Turn 15812, Verified Turn 15841]
+  - HP: 199 / 199 [Verified Turn 15841]
   - Stats: Attack 148, Defense 171, Speed 148, Special 153 [Verified Lv 63 Turn 15530]
   - Moves: Double-Edge (PP 14/15), Body Slam (PP 8/15), Surf (PP 9/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3835,7 +3835,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier at (23, 14) empirically confirmed STILL RAISED [Turn 15765]; eastern exit to 3F blocked.
 - Wall at (15, 8) confirmed solid rock [Turn 15784]; eastern chamber blocked from row 8.
 - Doorway (5, 4) blocked from south by Boulder 1 at (5, 3) against wall (5, 2) [Turn 15800]; testing hypothesis that 3F is accessed via eastern chamber.
-- Routing to 3F: Travel via row 8/9 to row 12 (18, 12), enter eastern chamber north into row 11, advance north to rows 1-3, and walk west to ladder (1, 1).
 ## Turn 15835 Breakthrough
 - Columns 13-14 form an open north-south plateau corridor connecting row 14 to row 8/9.
 - Row 8 connects cols 9-14 seamlessly, linking the western and eastern sectors.
@@ -3894,7 +3893,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Machoke (observed Turn 15781).
-- Row 4 Barrier: Confirmed solid rock wall at (2, 4) and (3, 4) [Tested Turn 15681].
 - Boundary at (16..18, 11): Impassable elevation cliff from row 12 [Tested Turns 15814, 15816].
 
 <hr>
