@@ -3854,7 +3854,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Stairs at (5, 10): Wooden staircase connecting middle corridor (5, 9) down to lower corridor (5, 11).
 - Southeastern Stairs: Located at (15, 15) and (21, 15), wooden staircases connecting upper floor (row 14) down to lower floor (row 16) [Discovered Turn 15593, 15637].
-- Barrier Block: Located at (23, 14) [LOWERED Turn 15707 by Boulder 3 on Switch Plate A; visually confirmed open Turn 15763]; connects directly to Eastern Ladder at (25, 14).
+- Barrier Block: Located at (23, 14) [Confirmed STILL RAISED Turn 15764 despite Switch Plate A; blocks passage to Eastern Ladder at (25, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Cliff Wall at (5, 8): Blocks direct northward passage from row 8 into row 7.
 - Row 4 Barrier: Confirmed solid rock wall at (1, 4), (2, 4), and (3, 4) [Tested Turns 15681, 15749].
