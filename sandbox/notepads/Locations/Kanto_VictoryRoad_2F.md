@@ -64,3 +64,4 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Machoke (observed Turn 15781).
+- Golbat (observed Turn 16199).
