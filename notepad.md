@@ -2933,18 +2933,11 @@
   - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
 - Column 24 Barrier: (24, 7..10) are solid rock walls blocking northward passage from (24, 11).
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
-## Northwest Sector & Ladder A Complete Solution (Verified Turn 48396)
-- **Ladder A Location**: (1, 3) -> Descends directly to B1F (Mewtwo).
-- **Enclosure & Entry Points**:
-  - (2, 3) is solid rock wall blocking direct access from Row 3 east.
-  - (0, 3) is open floor directly west of Ladder A at (1, 3).
-  - (1, 2) and (0, 2) are open floor north of Ladder A.
-  - Column 0 corridor spans (0, 2..6), connecting directly to Row 5 at (0, 5).
-  - Row 5 is open floor across (0..7, 5).
-  - (6, 6) is open floor connecting Row 5 at (6, 5) south to Row 7 at (6, 7).
-  - Row 7 spans open floor across (1..8, 7).
-- **Local NW Branch Mapping Protocol**:
-  - Note: Direct passage from (5, 3) -> (5, 4) is blocked by rock at (5, 4).
+## Northwest Sector & Ladder A Data
+- **Ladder A Location**: Located at (1, 3) -> Descends directly to B1F (Mewtwo).
+- **Enclosure & Barriers**:
+  - Ladder A at (1, 3) is isolated from upper 2F sectors by confirmed rock walls at (2, 2), (2, 3), (3, 4), (5, 4), (6, 4), (8, 5), (9, 6), and (10, 1).
+  - True access to Ladder A / B1F must be accessed from 1F.
 ## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
 - **Ridge Isolation**: Ladder E at (9, 1) arrives on an elevated northern ridge (cols 3..16, rows 0..2) that is completely walled off from the lower floors ((15, 3) is a cliff ledge overlooking lower floor where "No SURFing on HYDROS here!").
 - **Isolated Maze Topology**: Ladder E (9, 1), Ladder D (29, 1), Ladder B (22, 6), and Ladder C (19, 7) all lead to isolated sectors on 2F that cannot access Ladder A (1, 3). The true route to Ladder A (1, 3) and B1F Mewtwo must be accessed via unmapped 1F ground/water passages.
