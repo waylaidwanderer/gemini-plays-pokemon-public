@@ -25,7 +25,7 @@
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Tile (13, 12): Empirically verified 100% passable open floor by direct physical step-into traversal [Turn 16363].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
-- Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
+- Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
