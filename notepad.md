@@ -2952,6 +2952,11 @@
   - Row 17 is an open east-west corridor spanning (21..26+, 17) connected north to (21..22, 15) and (21..22, 13).
   - Row 18 is a solid rock boundary wall across (17..26, 18).
   - Tile (20, 17) is a solid rock wall separating the (11..19, 17) western segment from the (21..26+, 17) eastern segment.
+- **NW Sector & Ladder A Topology (Verified Turn 49691)**:
+  - Ladder A is at (1, 3) descending to B1F (Mewtwo).
+  - Column 1 corridor spans (1, 2..15) providing the sole physical ground route directly into Ladder A at (1, 3).
+  - Upper Row 1 corridor (3..9, 1) is blocked from Ladder A by rock walls at (1..2, 1) and (2, 2..4).
+  - True path to Ladder A: From (9, 1), move Down to (9, 5) -> Right to (10, 5) -> Descend Column 10 to (10, 15) -> West across Row 15 to Column 1 (1, 15) -> Ascend Column 1 north to Ladder A (1, 3).
 
 <hr>
 
