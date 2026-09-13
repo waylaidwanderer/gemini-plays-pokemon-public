@@ -30,9 +30,9 @@
 - Turn 17049-17050: Stepped south from (23, 6) onto tile (23, 7). Empirically verified (23, 7) is ordinary passable cavern floor (no warp, no hop). Ladder confirmed at (26, 8). Advancing south down column 23 to row 11 to enter the southern section and locate the designated boulder for Switch Plate B.
 - Turn 17088-17089: Strength activated with Rocky. Successfully pushed Boulder 4 east from (22, 3) to (23, 3) (confirmed by NPCMovementTracker: SPRITE_6768 moved (22, 3) -> (23, 3)). Boulder 4 is now in Column 23!
 - Turn 17098-17099: Pushed Boulder 4 from (23, 7) into (23, 8). Tile (23, 7) is confirmed passable cavern floor.
-- Column 25 (rows 8-10) and ladder at (26, 8) visually confirmed open on CurrentScreen turn 17099!
-- Submitting macro-route to ladder (26, 8) via row 6 -> col 15 -> row 11 -> col 25 to plan_auditor.
 - Turn 17111: Physically bumped into barrier block at (23, 14) from (22, 14). Confirmed 100% SOLID and RAISED. Displacing Boulder 4 into (23, 8) did not lower barrier (23, 14).
 - Switch Plate B at (9, 16) remains empty.
 - Boulder 2 at (9, 11) is permanently immovable.
 - Re-evaluating progression: investigate unexplored areas on 2F or 1F connection.
+- Turns 17115, 17124: Physically bumped Up from (22, 14) into (22, 13) (0-tile delta). Confirmed tile (22, 13) is a solid rock wall; column 22 has no northern passage across rows 12-13.
+- Re-evaluating progression: Route back to 1F ladder at (0, 8) to reload map and reset all 2F boulders to starting positions.
