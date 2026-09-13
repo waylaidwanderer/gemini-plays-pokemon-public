@@ -3003,5 +3003,7 @@
 - **Western Waterway Junction**: (11..15, 6..7) is open blue water turning south from (15, 5).
 - **West Canal**: Columns 8..9 (rows 6..11+) form a continuous north-south water channel along the western rock wall (col 7).
 - **Central-West Island**: Spans cols 11..16 (rows 8..11+), flanked by West Canal (cols 8..9) and separating rock walls.
+- **Central-West Ramp**: Discovered at (11, 13). Connects South Water Channel at (11, 14) directly north onto Central-West Island (11, 12).
+- **South Water Channel**: Rows 14..15 (cols 8..11+) form an open horizontal water channel connecting West Canal to Central-West Ramp (11, 13).
 
 <hr>
