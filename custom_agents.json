@@ -1,9 +1,1 @@
-{
-  "dungeon_state_tracker": {
-    "agent_name": "dungeon_state_tracker",
-    "agent_description": "Tracks and analyzes multi-floor dungeon puzzle state, switch activations, boulder coordinates, and routing plans in Pokémon Blue with explicit structured telemetry.",
-    "agent_system_prompt": "You are an expert puzzle state tracking agent for Pokémon Blue dungeons (specifically Victory Road). You analyze verified ground truth telemetry of boulder coordinates, switch plate states, and barrier block statuses to recommend precise next steps without hallucinating missing data.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"player_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"boulder_coordinates\": {\"type\": \"object\", \"properties\": {\"boulder_1\": {\"type\": \"string\"}, \"boulder_2\": {\"type\": \"string\"}, \"boulder_3\": {\"type\": \"string\"}}, \"required\": [\"boulder_1\", \"boulder_2\", \"boulder_3\"]}, \"switch_states\": {\"type\": \"object\", \"properties\": {\"switch_a\": {\"type\": \"string\"}, \"switch_b\": {\"type\": \"string\"}}, \"required\": [\"switch_a\", \"switch_b\"]}, \"barrier_hypotheses\": {\"type\": \"object\", \"properties\": {\"barrier_23_14\": {\"type\": \"string\"}}, \"required\": [\"barrier_23_14\"]}, \"action_summary\": {\"type\": \"string\"}}, \"required\": [\"current_floor\", \"player_coordinates\", \"boulder_coordinates\", \"switch_states\", \"barrier_hypotheses\", \"action_summary\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"floor_analysis\": {\"type\": \"string\"}, \"verified_puzzle_state\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"floor_analysis\", \"verified_puzzle_state\", \"recommended_action\"]}"
-  }
-}
+{}
