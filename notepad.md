@@ -2838,7 +2838,7 @@
 
 <h1><code>Locations/CeruleanCave1F</code></h1>
 
-
+- **Central-West Island Interior (Verified Turn 49702)**: Spans cols 11..18 across rows 8..13. Contains Central-West Ramp at (11, 13) and Ladder C at (18, 9). North corridor across Row 8 (11..18, 8) connects Ramp to Ladder C.
 
 <hr>
 
