@@ -31,3 +31,4 @@
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 - Legendary Pokémon: Moltres located at (11, 5) on the elevated plateau in the eastern chamber [Visually sighted Turn 15573].
 - Plateau Boundary: Moving North from (11, 8) into (11, 7) is blocked by the raised plateau ledge [Tested Turn 15581].
+- Row 7 Boundary: Moving North into (9, 7) is also blocked by the raised plateau ledge [Tested Turn 15587]; the entire row 7 is an elevated cliff relative to row 8.
