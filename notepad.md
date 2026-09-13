@@ -2982,7 +2982,6 @@
   - Ladder A is at (1, 3) descending to B1F (Mewtwo).
   - Column 1 corridor spans (1, 2..15) providing the sole physical ground route directly into Ladder A at (1, 3).
   - Upper Row 1 corridor (3..9, 1) is blocked from Ladder A by rock walls at (1..2, 1) and (2, 2..4).
-  - True path to Ladder A: From (9, 1), move Down to (9, 5) -> Right to (10, 5) -> Descend Column 10 to (10, 15) -> West across Row 15 to Column 1 (1, 15) -> Ascend Column 1 north to Ladder A (1, 3).
 
 <hr>
 
