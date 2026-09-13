@@ -3873,18 +3873,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. North up Eastern Vertical Highway (col 28) to (28, 7).
   5. Step Left into ladder at (27, 7) / (26, 8) and ascend to 3F!
 
-## Turn 16541 Breakthrough: Row 7 Direct Corridor to (23, 7) Ladder
-- Stepping down from staircase (17, 5) via (17, 6) to (17, 7) is fully passable floor.
-- Row 7 provides a direct horizontal corridor from (17, 7) east to (22, 7) and the candidate ladder at (23, 7).
 
-## Turn 16547 Definitive Discovery: Real 3F Ladder is at (27, 7)
-- Confirmed visually on CurrentScreen turn 16547: overworld ladder graphic is located at (27, 7).
-- Tile (23, 7) is ordinary cavern floor (not a ladder).
-- Ladder chamber spans cols 25-28, rows 7-9.
-- Bounded north by solid rock wall on row 6 (cols 24-28).
-- Bounded south by solid rock wall on row 10 (cols 24-28).
-- Bounded west by col 24 rock wall.
-- Route into ladder chamber: via Row 11 highway (cols 23-28) to Column 29 Eastern Vertical Highway, then north into row 7/8/9 and west to (27, 7)!
+
+
 
 ## Turn 16554 Master Solution: The Eastern Route to 3F Ladder (27, 7)
 - The ladder chamber (cols 25-29, rows 7-9) is completely walled off to the south by Row 10 rock barrier.
@@ -3936,7 +3927,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Tile (13, 12): Empirically verified 100% passable open floor by direct physical step-into traversal [Turn 16363].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
-- Inert Ladder Graphic: Located at (23, 7) [Empirically verified Turns 16028, 16072; walked over with no warp effect; inert non-warp tile].
+- Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
