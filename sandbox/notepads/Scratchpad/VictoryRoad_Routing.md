@@ -24,3 +24,7 @@
 ## Current Objective & Route
 - Player is at (23, 7).
 - Walk West along row 7 to column 17 to reach the wooden staircase at (17, 5).
+
+- Northeast Cul-de-sac (cols 25-28, rows 0-5): Fully surveyed Turn 17806; enclosed dead-end item pocket (TM17 and Max Revive collected). Column 29 is solid rock wall across rows 0-6; row 6 is solid rock wall across cols 24-29.
+- Ladder at (27, 7): Unreachable from upper plateau (row 6 solid rock wall) and from south (row 10 south-facing cliff). Acts as a one-way return landing from 3F.
+- Progression Path to 3F: Eastern Ladder at (25, 14) behind Barrier Block at (23, 14). Requires solving boulder switch on lower level.
