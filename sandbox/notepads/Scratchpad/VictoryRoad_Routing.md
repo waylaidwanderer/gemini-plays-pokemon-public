@@ -46,3 +46,12 @@
 - Current Position (Turn 18281): (17, 3) facing Up at row 3 northern corridor.
 - Key Discovery (Turn 18281): Column 17 successfully reached row 3 without needing stairs! Rows 0-3 form an open 4-tile wide east-west corridor across columns 16-24.
 - Active Plan: Advancing east along row 3 to (22, 3) and (26, 3) to thoroughly survey the northeast sector for the progression path to 3F.
+
+## Definitive Topology & Pre-Summarization State (Turn 18285)
+- Northeast Cul-de-sac (cols 25-28, rows 0-5): Fully explored. Contains Advice NPC at (26, 3), Max Revive at (26, 5), TM17 at (27, 5). Enclosed on North, East, and South. No progression ladder exists here.
+- Eastern Chamber (cols 25-29, rows 7-9): Contains Ladder at (27, 7). 100% enclosed on 2F by solid rock walls on all 4 sides (row 6 wall, row 10 wall, col 24 wall, col 30 wall). This chamber is an exit/arrival drop from 3F, not an overworld entrance to 3F.
+- Tile (23, 7): Ordinary floor with 0 warp effect [Verified Turns 17642, 17785, 17861].
+- Progression Paths to 3F:
+  1. Primary: Northwest Chamber Ladder at (1, 1) guarded by Pokémaniac at (4, 2), accessed via (5, 4) doorway and solving Boulder 1 puzzle.
+  2. Alternate/Exit: Southeast Ladder at (25, 14) behind Barrier Block (23, 14), which requires Switch Plate B at (9, 16) in row 16 lower corridor.
+- Current Position: (25, 3) facing East at Advice NPC.
