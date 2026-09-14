@@ -2902,10 +2902,10 @@
 - **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
 - **Rock Barrier**: (22, 8..11) is a solid rock wall separating Column 23 from Column 21 on upper rows.
 - **Traversal Plan**: When arriving at (22, 6) from Ladder B, use chunked testing (4-6 steps max per chunk) to verify southern passageways and west connections step-by-step.
-- **Verified Row 11 & Column 14 Thoroughfares (Turns 50718-50724)**:
+- **Verified Row 11 & Column 14 Thoroughfares (Turns 50718-50731)**:
   - Row 11 is open from (23, 11) through (14, 11).
   - (16..22, 14) is a solid rock barrier.
-  - Column 14 is an open north-south corridor spanning rows 11..17+ providing clean access to the southern and western sectors.
+  - Column 14 entry is verified at (14, 11). Further southward and westward connections will be verified step-by-step using chunked testing.
 
 <hr>
 
