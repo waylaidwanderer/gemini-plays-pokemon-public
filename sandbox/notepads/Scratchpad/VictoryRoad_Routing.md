@@ -34,4 +34,4 @@
 - Switch Plate A at (1, 16): DEPRESSED by boulder Turn 17173. Switch Plate B at (9, 16): Currently empty post-reset.
 
 - Tile (22, 3) traversed post-reset and confirmed open floor (no boulder) [Turn 17228].
-- Boulder 2 at (9, 11) status: only tested from north and west; pushing from south (9, 12) or east (10, 11) remains unverified.
+- Boulder 2 at (9, 11) status: empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271].
