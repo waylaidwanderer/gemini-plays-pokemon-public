@@ -11,16 +11,16 @@
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northern Ridge dead end].
 
-## Verified Master Route to Ladder A (1, 3) -> B1F (Verified Turn 50587)
-- **Entry Ladder**: Ladder B at (22, 6) (accessed via 1F Southeast Basin Ramp at (25, 9) -> (23, 7)).
-- **Exact Path**:
-  1. From 2F Ladder B (22, 6), step Down to (22, 7), East to (23, 7), South to (23, 9) [Row 9].
-  2. Walk West 8 steps along Row 9 to (15, 9).
-  3. Bypass (14, 9) rock wall: Up to (15, 8) -> West 2 to (13, 8) -> Down to (13, 9).
-  4. Walk West 4 steps along Row 9 to (9, 9).
-  5. Walk Up 2 steps along Column 9 to (9, 7) [Row 7].
-  6. Walk West 3 steps along Row 7 to (6, 7).
-  7. Walk Up 2 steps along Column 6 to (6, 5) [Row 5].
-  8. Walk West 6 steps along Row 5 to (0, 5).
-  9. Walk Up 2 steps along Column 0 to (0, 3).
-  10. Step East 1 into **Ladder A at (1, 3)** to descend to B1F (Mewtwo)!
+## Planned Master Route to Ladder A (1, 3) -> B1F (Chunked Traversal Protocol)
+- **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
+- **Entry Ladder**: Ladder B at (22, 6) on 2F <-> (23, 7) on 1F.
+- **Chunked Route Protocol (4-6 steps max per chunk)**:
+  - Chunk 1: From 2F Ladder B (22, 6), move Down to (22, 7), East to (23, 7), South 2 steps to (23, 9).
+  - Chunk 2: From (23, 9), walk West 4 steps along Row 9 to (19, 9).
+  - Chunk 3: From (19, 9), walk West 4 steps along Row 9 to (15, 9).
+  - Chunk 4: Bypass rock wall at (14, 9): Up to (15, 8), West 2 steps to (13, 8), Down to (13, 9).
+  - Chunk 5: From (13, 9), walk West 4 steps to (9, 9).
+  - Chunk 6: From (9, 9), walk Up 2 steps to (9, 7), West 3 steps to (6, 7).
+  - Chunk 7: From (6, 7), walk Up 2 steps to (6, 5), West 3 steps to (3, 5).
+  - Chunk 8: From (3, 5), walk West 3 steps to (0, 5), Up 2 steps to (0, 3).
+  - Chunk 9: Step East into **Ladder A at (1, 3)** to descend to B1F!
