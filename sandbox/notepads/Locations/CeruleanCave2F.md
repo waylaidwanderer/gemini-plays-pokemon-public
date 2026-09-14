@@ -17,12 +17,13 @@
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Verified Topology & Passages
-1. **Master Route to Ladder A & B1F (Verified Turn 50471)**:
+1. **Master Route to Ladder A & B1F (Verified Turn 50487)**:
    - **Entry via Ladder B at 2F (22, 6)**:
      - (22, 6) -> Down to (22, 7) -> East to (23, 7) -> South along Column 23 to Row 11 at (23, 11).
-     - Row 11 Highway: Move West uninterrupted across (23..11, 11) to Column 11 at (11, 11).
-     - Column 11 Corridor: Move North uninterrupted across (11, 11..7) to Row 7 at (11, 7).
-     - Row 7 Western Highway: Move West uninterrupted across (11..2, 7) to Column 2 at (2, 7).
+     - Row 11 Highway: Move West across (23..14, 11) to (14, 11).
+     - Column 12 Bypass: From (14, 11) -> Down to (14, 12) -> West to Column 12 at (12, 12).
+     - Column 12 Corridor: Move North uninterrupted along Column 12 across (12, 12..7) to Row 7 at (12, 7).
+     - Row 7 Western Highway: Move West uninterrupted across (12..2, 7) to Column 2 at (2, 7).
      - Column 2 Ascent: Move North (2, 7) -> (2, 6) -> (2, 5) to Row 5 at (2, 5).
      - Row 5 NW Sector: Move West (2, 5) -> (1, 5) -> (0, 5) to Column 0 at (0, 5).
      - Column 0 Ascent: Move North (0, 5) -> (0, 4) -> (0, 3) to Row 3 at (0, 3).
