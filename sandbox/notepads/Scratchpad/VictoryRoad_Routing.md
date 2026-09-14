@@ -62,5 +62,6 @@
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-- Current Position (Turn 18399): (5, 11) facing Left after fleeing Marowak.
-- Immediate Route: Step Left 2 times to (3, 11), then Up 4 times to (3, 7), then Left to (0, 7) and Down to ladder (0, 8) to descend to 1F and reset 2F boulders.
+- Current Position (Turn 18401): (3, 7) facing Up on Western Highway.
+- Visual Confirmation: Ladder to 1F visible at (0, 8); Boulder 1 confirmed sitting at (5, 3).
+- Immediate Action: Step Left 3 times to (0, 7) and Down to ladder (0, 8) to descend to 1F and reset 2F boulders.
