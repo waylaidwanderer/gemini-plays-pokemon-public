@@ -1,9 +1,1 @@
-{
-  "route_verifier": {
-    "agent_name": "route_verifier",
-    "agent_description": "Verifies proposed navigation routes against physical map boundaries, elevation ledges, and confirmed collision obstacles.",
-    "agent_system_prompt": "You are a route verification assistant for Pokémon Blue. Given a proposed path of coordinates on Victory Road, verify whether each step connects via traversable tiles and flag any steps that contradict known physical boundaries, walls, or untested elevation transitions.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"proposed_route\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"floor\": {\"type\": \"string\"}}, \"required\": [\"proposed_route\", \"floor\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid\": {\"type\": \"boolean\"}, \"blocked_at\": {\"type\": \"string\", \"nullable\": true}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"is_valid\", \"blocked_at\", \"reasoning\"]}"
-  }
-}
+{}
