@@ -53,3 +53,12 @@
 
 - Current Position (Turn 18372): (9, 16) standing on Switch Plate B facing Left.
 - Empirical Verification (Turn 18372): Column 9 between Switch Plate B (9, 16) and row 12 is a continuous, unobstructed 1-tile wide trench (rows 12-15 are open trench floor). Column 8 is solid rock wall to the west, columns 10-11 form an open checkerboard corridor to the east.
+
+## Empirical Verification (Turn 18374-18377)
+- Stood at (9, 12) facing Boulder 2 at (9, 11).
+- Confirmed (9, 10) is a solid rock wall directly behind Boulder 2.
+- Confirmed Column 9 between (9, 12) and (9, 16) is a completely open 1-tile wide trench.
+- Conclusively verified Boulder 2 cannot be pushed onto Switch Plate B. Switch Plate B requires boulder dropped from 3F.
+- Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
+- Current Position: (9, 12) facing Up.
+- Immediate Route: Step Down 4 times to (9, 16), then East to staircase at (15, 15).
