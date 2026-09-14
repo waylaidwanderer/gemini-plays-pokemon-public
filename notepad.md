@@ -2991,6 +2991,7 @@
 - Column 27/28 Bypass Correction (Turn 50098): Tile (27, 15) is a solid rock wall. Open vertical passage north from Row 17 is along Column 28: (27, 16) -> Right to (28, 16) -> Up to (28, 14) -> Left to (26, 14) -> Column 26 corridor (26, 13..9).
 - Collision at (29, 2) (Verified Turn 50103): Tile (29, 2) is a solid rock wall. Open passage north to Ladder D (29, 1) and Row 1 is via Column 28: (29, 3) -> Left to (28, 3) -> Up 2 to (28, 1) -> Right to Ladder D (29, 1) or Left along Row 1.
 - Collision at (26, 1) (Verified Turn 50105): Tile (26, 1) is a solid rock wall blocking Row 1 westward at (27, 1). Open westward bypass is via Row 2: (27, 1) -> Down to (27, 2) -> Left across (26..23, 2).
+- Collision at (26, 2) (Verified Turn 50108): Tile (26, 2) is a solid purple rock wall blocking direct westward passage from (27, 2). Open passage south into Row 4/5 is via Column 28/29: (27, 2) -> (28, 2) -> (28, 3) -> (29, 3) -> (29, 4..5) -> opens west along Row 5 (29..24, 5).
 
 <hr>
 
