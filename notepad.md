@@ -3833,9 +3833,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Advice NPC at (26, 3): non-hostile ("Many trainers give up the challenge here.") [Turn 16749].
 - Iron used on Geodude (ROCKY) to boost Defense and free Bag slot [Turn 16757].
 
-## Active Strategic Plan
-
-
 ## Post-Reset Status (Turn 17155+)
 - Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
 - Boulder 1: Confirmed reset to starting coordinates at (5, 5) [Turn 17156].
@@ -3861,7 +3858,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Visually confirmed at (27, 7) [Turn 17457 via crop ladder_at_27_7]; situated in enclosed chamber (rows 7-9, cols 25-29) directly south of the Northeast Plateau.
+- Northeast Ladder: Visually confirmed ladder rungs at (27, 7) [Turn 17457 via crop ladder_at_27_7]; destination unverified (whether ascending to 3F or connecting elsewhere); situated in enclosed chamber (rows 7-9, cols 25-29) south of Northeast Plateau.
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
@@ -3874,7 +3871,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
 - Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
-- Northern Cliff Boundary: Impassable elevation face prevents northward ascent into row 1 specifically from (17, 2) and (9, 2); row 0-1 passage is accessible from the northeast plateau via cols 20-23.
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
