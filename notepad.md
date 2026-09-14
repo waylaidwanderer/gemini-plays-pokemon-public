@@ -3821,7 +3821,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
-- Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695. Tested south push on Turn 17709-17710 with Strength active; boulder did not advance south into (13, 14).
 - Elevation Boundary at (23, 12): Confirmed impassable from (23, 11) [Tested Turn 17758].
 
 ## Verified Empirical Topology & Findings
@@ -3829,7 +3828,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (27, 7).
 - Column 13 Corridor: Traversed on foot on Turn 17609.
 - Tile (23, 9): Impassable rock wall blocking southward passage from (23, 8) [Verified Turn 17781].
-- Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. 
+ 
 - Row 5 Barrier: Solid rock wall/cliff across columns 19-24, blocking northern ascent from row 6 [Verified Turn 17792].
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
@@ -3932,6 +3931,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Turn 18626: Descended column 16 from (16, 3) to (16, 11).
   - Turn 18628-18631: Fled wild Zubat at (16, 11).
 - Active Plan: Returning to Boulder 1 at (5, 5) via row 11 east -> Eastern Highway -> row 16 lower corridor -> staircase (15, 15) -> central plateau -> staircase (5, 10) -> row 11 west -> Western Highway -> (4, 5). Activate Strength and conduct rigorous empirical bump/push tests on Boulder 1 and surrounding tiles (6, 5) and (4, 5).
+- Turn 18631-18661 Comprehensive Movement Log:
+  - Traversed from (16, 11) east along row 11 to (28, 11).
+  - Descended Eastern Highway to (28, 14), fled wild Geodude.
+  - Descended to row 16, traversed west to staircase (15, 15).
+  - Ascended to (13, 14), walked north up column 13 to (13, 9), fled wild Zubat.
+  - Stepped up to (13, 8), traversed west across central plateau to (9, 8) and (5, 8), fled wild Golbat.
+  - Descended staircase (5, 10) to row 11 at (5, 11), fled wild Machop.
+  - Traversed row 11 west to (2, 11) and ascended Western Highway to (2, 7) [Turn 18661].
+- Current Position: (2, 7) on Western Highway facing Up [Turn 18661].
 
 
 <hr>
@@ -4027,13 +4035,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Boulder 4: Starts at (22, 3) [Verified Turn 17713]. Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. Tiles (22, 3) and (23, 3) are now open floor.
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
-- Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
-- Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
-- Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
 
 
 
