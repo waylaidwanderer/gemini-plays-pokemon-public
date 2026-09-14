@@ -1,21 +1,13 @@
 # Scratchpad: Cerulean Cave 2F Routing & Frontier Verification
 
-## Objective
-Establish an empirical path to Ladder A at (1, 3) leading to B1F (Mewtwo) through the 2F main maze.
-
-## Verified Landmarks & Corridors
-- Ladder B at (22, 6) connects down to Row 11 at (23, 11).
-- Row 11 connects to Row 13 via (17, 11..13).
-- Row 13 connects to Column 22 (22, 13..15) -> (21, 15..17) to Row 17.
-- Row 17 connects east via Column 28 (28, 16..14) -> Column 26 (26, 14..9). Southwest corridor leads west towards (4, 15).
-- TM14 Blizzard collected at (4, 15).
-- Ladder A visually confirmed at (1, 3) with open floor at (0..7, 5).
-
-## Unverified Frontier Hypothesis: SW-to-NW Vertical Corridor
-- **Hypothesis**: The open floor at (4, 15) connects westward to Column 0/1 (0..1, 15) and runs northward along Column 0/1 up through rows 14..5 to connect with the open floor at (0..1, 5) leading directly into Ladder A (1, 3).
-- **Frontier Verification Protocol**:
-  1. Once arriving at (4, 15), halt macro-routing.
-  2. Test westward tiles along Row 15: (3, 15), (2, 15), (1, 15), (0, 15).
-  3. For each open column, test northward traversal row-by-row (Row 14 -> 13 -> 12 -> 11 -> 10 -> 9 -> 8 -> 7 -> 6 -> 5).
-  4. Log exact coordinates, cardinal barriers, and turn numbers for every tested tile.
-  5. If an impassable barrier is encountered, systematically test adjacent parallel columns (cols 1..4).
+## Active Frontier: Column 12 / Row 7 Bypass to Ladder A (1, 3)
+- **Objective**: Empirically traverse and verify Column 12 North (12, 12..7) and Row 7 West (12..2, 7) to Ladder A at (1, 3).
+- **Verified Landmarks**:
+  - Ladder B at (22, 6) connects to Row 11 (23..14, 11).
+  - Collision at (13, 11): Rock wall blocks direct Row 11 passage.
+  - Bypass: (14, 11) -> (14, 12) -> (12, 12).
+- **Navigation Protocol**:
+  - Use 3-5 step chunks between visual landmarks to maintain precise positional tracking across wild encounters.
+  - Step 1: Up along Column 12 (12, 12..7).
+  - Step 2: West along Row 7 (12..2, 7).
+  - Step 3: Ascend Column 2 / Row 5 / Column 0 to Ladder A (1, 3).
