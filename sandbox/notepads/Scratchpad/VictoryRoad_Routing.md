@@ -27,7 +27,7 @@
   1. Inspect Barrier Block at (23, 14) via staircase (21, 15).
   2. Inspect northern access into ladder chamber (27, 7) from row 11 via Column 29 and Column 26.
 ## Current Floor State (Turn 17913)
-- Active Position: (17, 6) at base of staircase.
+- Active Position: (23, 7) heading south to (22, 11).
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
