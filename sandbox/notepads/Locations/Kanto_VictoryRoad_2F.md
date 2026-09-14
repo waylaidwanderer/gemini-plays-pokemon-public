@@ -98,7 +98,6 @@
 - Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
 
 
-- Collision Sequence (Turn 18006): From (22, 8), attempted Down, Down, Right, Right; halted at (23, 8), confirming (24, 8) and (23, 9) are solid obstacles/walls.
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
