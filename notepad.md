@@ -3824,7 +3824,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
 - Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695. Tested south push on Turn 17709-17710 with Strength active; boulder did not advance south into (13, 14).
 - Elevation Boundary at (23, 12): Confirmed impassable from (23, 11) [Tested Turn 17758].
-- Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
 ## Verified Empirical Topology & Findings
 - Ladder to 3F: Confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Verified Turn 17751, 17786].
@@ -3839,12 +3838,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier (23, 14): Empirically verified SOLID and RAISED on Turn 17953 facing East from (22, 14). Confirms Switch Plate A does not lower this barrier; Switch Plate B at (9, 16) must be solved.
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
-- Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
 
 
 
 
-## Current Status & Active Hypothesis (Turn 18271)
 - Verified Facts:
   - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turns 17642, 17785, 17861]. Non-functional ladder graphic.
   - Tile (24, 10): Solid rock wall [Verified Turn 17759].
@@ -3862,7 +3859,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   1. Primary: Northwest Chamber Ladder at (1, 1) guarded by Pok�maniac at (4, 2), accessed via (5, 4) doorway and solving Boulder 1 puzzle.
   2. Alternate/Exit: Southeast Ladder at (25, 14) behind Barrier Block (23, 14), which requires Switch Plate B at (9, 16) in row 16 lower corridor.
 
-## Current Status & Active Strategy (Turn 18335)
 - Northeast Cul-de-sac: Fully surveyed and confirmed enclosed dead end. Bump tests verified (24, 5) and (25, 6) are solid rock walls.
 - Immediate Movement: Moving south down column 17 to row 11 to access central/southern floor.
 - Key Unverified Puzzle Mechanisms:
@@ -3893,7 +3889,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Post-Reset Arrival on 2F (Turn 18410-18413)
 - Arrived at (0, 8) on Victory Road 2F via ladder.
-- Confirmed Boulder 1 has reset to its default starting position at (5, 5).
 
 ## Boulder 1 Testing & Western Perimeter Findings (Turns 18413-18452)
 - Re-activated Strength with Geodude (ROCKY) at (5, 6) [Turn 18425].
@@ -3904,7 +3899,18 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Intermediate state Turn 18442_0 visually confirmed Column 0 is blocked at rows 3-5 by solid rock walls at (0, 3..5). Column 0 does not connect north into the chamber.
 - Retreated South to (5, 7) [Turn 18440], walked West to (2, 7) along row 7 [Turn 18441].
 - Fled wild Onix battle at (2, 7) [Turns 18442-18448].
-- Current Position (Turn 18452): (2, 7) facing Left on row 7 cross-path.
+- Current Position (Turn 18481): (28, 11) facing Up on row 11 corridor.
+
+## Plateau & Eastern Traversal Progress (Turns 18453-18481)
+- Traversed row 11 and climbed wooden staircase at (5, 10) to (5, 9) on the elevated plateau [Turn 18454].
+- Crossed elevated plateau east to (9, 9) and (13, 8) past column 12 [Turns 18456-18457].
+- Navigated south down column 13 corridor to (13, 12) [Turn 18458].
+- Traversed east along row 12 toward staircase (21, 15), fleeing wild Onix at (18, 12) [Turns 18460-18463] and wild Geodude at (19, 14) [Turns 18465-18467].
+- Descended staircase (21, 15) to row 16 lower corridor at (21, 16), fleeing wild Machop [Turns 18468-18471].
+- Traversed row 16 east to column 28 and ascended Eastern Vertical Highway to (28, 14), fleeing wild Onix [Turns 18472-18476].
+- Ascended to (28, 11) on row 11 [Turn 18477].
+- Executed bump test North into tile (28, 10) on Turn 18479: bumped, confirming (28, 10) is a solid rock wall.
+
 
 
 <hr>
@@ -4011,7 +4017,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
 
 
-- Collision Sequence (Turn 18006): From (22, 8), attempted Down, Down, Right, Right; halted at (23, 8), confirming (24, 8) and (23, 9) are solid obstacles/walls.
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
