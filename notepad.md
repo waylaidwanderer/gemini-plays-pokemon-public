@@ -2899,7 +2899,7 @@
 - **Row 14 East Bypass**: Open east from (26, 14) through (27, 14) to (28, 14).
 - **Column 28 South Corridor**: Open south from (28, 14) through (28, 15) to (28, 16).
 - **Row 16 / Row 17 Connector**: Open west from (28, 16) to (27, 16), then south to (27, 17) [Row 17].
-- **Row 17 Corridor**: Open west from (27, 17) through (26, 17), (25, 17), (24, 17), (23, 17) to (22, 17). Impassable rock barrier directly north at (22, 16). Westward continuation at (21, 17) pending empirical probing.
+- **Row 17 Corridor**: Open west from (27, 17) through (26, 17), (25, 17), (24, 17), (23, 17), (22, 17) to terminal alcove at (21, 17). (20, 17), (21, 16), and (21, 18) are solid rock barriers (verified Turn 50919).
 
 <hr>
 
