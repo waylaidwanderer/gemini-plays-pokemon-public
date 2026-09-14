@@ -18,7 +18,7 @@ Exhaustively map all local tiles and branches in the Northwest sector around Lad
 - Row 0 Northern Bypass (Row 0 / cols 0..8):
   - (8, 0): OPEN FLOOR (Turn 50157)
   - (7, 0): OPEN FLOOR (Turn 50157)
-  - (6, 0): PENDING TEST (Test Left from 7, 0)
+  - (6, 0): ROCK WALL (Turn 50170)
   - (5..0, 0): PENDING TEST
 - Target Entry into Ladder A (1, 3):
   - Ladder A at (1, 3) descends to B1F (Mewtwo).
