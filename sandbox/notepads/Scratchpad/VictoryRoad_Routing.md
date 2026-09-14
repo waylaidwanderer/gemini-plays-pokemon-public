@@ -60,6 +60,6 @@
 - Confirmed Column 9 between (9, 12) and (9, 16) is a completely open 1-tile wide trench.
 - Conclusively verified Boulder 2 cannot be pushed onto Switch Plate B. Switch Plate B requires boulder dropped from 3F.
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
-- Current Position (Turn 18387): (9, 8) facing Left on row 8 corridor.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
-- Immediate Route: Step Down 4 times to (9, 16), then East to staircase at (15, 15).
+
+- Current Position (Turn 18391): (5, 8) in wild battle with Machoke.
