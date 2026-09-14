@@ -26,7 +26,6 @@
 - Boulder 2 (9, 11): Confirmed immovable; north (9, 10) and west (8, 11) are solid rock walls, row 10 wall (10, 10) prevents north access [Verified Turn 17961-17962].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
-- Boulder at (24, 10): Visually confirmed orange Strength boulder on CurrentScreen 18004. Previously misclassified as rock wall before Strength was active.
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
@@ -35,32 +34,11 @@
 
 
 
-## Active Exploration Log (Turn 18091)
-- Boulder 2 at (9, 11): Confirmed 100% immobile/boxed in on north (wall 9, 10) and west (wall 8, 11). Switch Plate B at (9, 16) cannot be activated by Boulder 2.
-- Switch Plate A at (1, 16): Disproven to lower Barrier Block (23, 14) across 5 documented empirical tests.
-
-- Strength Status: Activated with Geodude (ROCKY) on Turn 18102 at (5, 6).
-## Active Exploration Log (Turn 18121)
-- Collision Log (Turn 18106): From (5, 4) facing West, stepped Left into (4, 4) and halted; confirming (4, 4) is solid rock wall.
-- Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
-- Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pok�maniac trainer at (4, 2). Destination unverified.
-
-- Wall at (15, 3): Verified solid rock wall across columns 14-15 (rows 0-7) terminating upper corridor westward [Turns 18123-18125].
-
-- Barrier (23, 14) Final Empirical Verdict (Turn 18171): While Boulder 3 rested on Switch Plate A at (1, 16) on the same floor visit, attempted East step into (23, 14) from (22, 14). Halted and bumped. Conclusively proven: Switch Plate A does NOT lower Barrier Block (23, 14).
-- Next Exploration Target: Investigate Northwest chamber and passages around Boulder 1 (currently at 5, 3) to locate ladder/exit to 3F.
-
-
-- Active Plan: Moving north along Column 9 to Row 1 corridor, then west along Row 1 to ladder (1, 1).
-
-- Collision Log (Turn 18224): Attempted North from (9, 8) into (9, 7) and bumped. Confirmed elevation cliff separating row 8 plateau from lower trench at row 7.
-- Active Plan (Turn 18231): Retracing east along row 8 to (14, 8), south to row 12, east to column 19, and north to wooden staircase at (17, 5) to ascend to the northern upper plateau.
-
-
-
-
-- Visual Confirmation (Turn 18263): Ladder at (27, 7) confirmed open on CurrentScreen! Row 7 entrance at (24, 7) is open purple floor connecting to (25, 7), around pillar (26, 7) via row 8, directly to Ladder (27, 7).
-- Active Route: Moving west along row 11 to (19, 11), north up column 19 to (19, 7), and east along row 7 into the Eastern Ladder Chamber to climb Ladder (27, 7) to 3F.
-
-- Current Position (Turn 18269): (22, 11) facing Up.
-- Active Action: Step Up 4 times along Column 22 to (22, 7), then Right onto Ladder at (23, 7).
+## Current Status & Active Hypothesis (Turn 18271)
+- Position: (22, 11) facing Up.
+- Verified Facts:
+  - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turns 17642, 17785, 17861]. Non-functional ladder graphic.
+  - Tile (24, 10): Solid rock wall [Verified Turn 17759].
+  - Barrier (23, 14): Solid/raised [Verified 6 independent tests]. Not lowered by Switch Plate A (1, 16).
+  - Switch Plate B at (9, 16): Located in row 16 lower corridor. Unoccupied.
+  - Exit to 3F: Ladder (25, 14) behind Barrier (23, 14) requires solving Switch Plate B at (9, 16), OR accessing 3F through Northwest/Northeast progression.
