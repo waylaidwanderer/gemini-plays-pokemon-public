@@ -3865,9 +3865,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pok�maniac trainer at (4, 2). Destination unverified.
 
 - Switch Plate A Status (Turn 18146): Boulder 3 successfully pushed onto Switch Plate A at (1, 16). Switch is depressed! Proceeding to (23, 14) on the same floor visit to verify lowered barrier and ascend ladder (25, 14).
-- Current Position: (14, 8) facing Right at columns 13-14 corridor.
 - Wall at (15, 3): Verified solid rock wall across columns 14-15 (rows 0-7) terminating upper corridor westward [Turns 18123-18125].
-- Active Objective: Retracing via columns 13-14, staircase (15, 15), row 16, and staircase (21, 15) to inspect Barrier Block (23, 14) and verify if Switch Plate A depressed it.
+
+- Barrier (23, 14) Final Empirical Verdict (Turn 18171): While Boulder 3 rested on Switch Plate A at (1, 16) on the same floor visit, attempted East step into (23, 14) from (22, 14). Halted and bumped. Conclusively proven: Switch Plate A does NOT lower Barrier Block (23, 14).
+- Current Position: (22, 14) facing East.
+- Next Exploration Target: Investigate Northwest chamber and passages around Boulder 1 (currently at 5, 3) to locate ladder/exit to 3F.
 
 
 <hr>
@@ -3880,7 +3882,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), accessed from the south via (27, 8).
-- Northwest Ladder: Visually confirmed at (1, 1) on Turn 18106! Features blue vertical rails and 3 horizontal rungs, situated in the northwest chamber (cols 1-4, rows 1-3) behind Pokémaniac trainer at (4, 2). This is the true progression ladder to 3F.
+- Northwest Ladder: Visually confirmed at (1, 1) on Turn 18106! Features blue vertical rails and 3 horizontal rungs, situated in the northwest chamber (cols 1-4, rows 1-3) behind Pokémaniac trainer at (4, 2). [Unclimbed; destination unverified].
 
 ## Layout & Topology
 - Column 8 & Row 1 Solid Boundary: Row 1 and Row 0 are solid cave ceiling/boundary across all columns. Column 8 rock wall extends from row 2 south, with (8, 2) being a solid rock wall corner. There is NO west passage from column 9 across rows 0-6 [Verified Turn 17900].
@@ -3929,7 +3931,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turns 16937, 17111, 17191, 17399, and 17953 by direct physical bump from (22, 14). Switch Plate A does not lower it.
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised across 6 independent physical bump tests (Turns 16937, 17111, 17191, 17399, 17953, 18171). Confirmed on Turn 18171 with Boulder 3 actively depressing Switch Plate A on the same floor visit: Switch Plate A does NOT lower this barrier.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
