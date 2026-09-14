@@ -3,10 +3,11 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), accessed from the south via (27, 8).
+- Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), facing south toward interior tile (27, 8). External entry from 2F is blocked on all sides by solid rock walls (row 6, row 10, col 24).
 - Northwest Ladder: Visually confirmed at (1, 1) on Turn 18106! Features blue vertical rails and 3 horizontal rungs, situated in the northwest chamber (cols 1-4, rows 1-3) behind Pokémaniac trainer at (4, 2). [Unclimbed; destination unverified].
 
 ## Layout & Topology
+- Boulder 1 at (5, 3): Confirmed (5, 2) is a solid rock obstacle; Boulder 1 cannot be pushed North from (5, 3) [Empirically verified Turn 18431]. Doorway (5, 4) is blocked from the south by Boulder 1 at (5, 3).
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
 - Wall at (25, 6): Solid rock wall directly south of (25, 5) [Empirically verified Turn 18314 via bump test].
 - Column 17 Thoroughfare: Empirically verified open north-south corridor connecting row 11 directly to row 3 without requiring staircases [Verified Turn 18281].
@@ -109,4 +110,3 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Boulder 1 at (5, 3): Confirmed (5, 2) is a solid rock obstacle; Boulder 1 cannot be pushed North from (5, 3) [Empirically verified Turn 18431]. Doorway (5, 4) is blocked from the south by Boulder 1 at (5, 3).

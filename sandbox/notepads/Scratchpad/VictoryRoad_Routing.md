@@ -62,9 +62,7 @@
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-- Current Position (Turn 18401): (3, 7) facing Up on Western Highway.
 - Visual Confirmation: Ladder to 1F visible at (0, 8); Boulder 1 confirmed sitting at (5, 3).
-- Immediate Action: Step Left 3 times to (0, 7) and Down to ladder (0, 8) to descend to 1F and reset 2F boulders.
 
 ## Floor Reset Execution (Turn 18403-18404)
 - Arrived at (1, 1) on Victory Road 1F via ladder (0, 8).
@@ -72,12 +70,19 @@
   - Boulder 1 is reset to (5, 5).
   - Boulder 3 is reset to (4, 14).
   - Boulder 4 is reset to (22, 3).
-- Action: Step Right to (2, 1) and Left onto (1, 1) to re-ascend to 2F.
 
-- Current Position (Turn 18408): (2, 1) facing Left directly adjacent to ladder (1, 1) on 1F.
-- Action: Step Left to ascend to 2F with reset boulders.
 
 ## Post-Reset Arrival on 2F (Turn 18410-18413)
 - Arrived at (0, 8) on Victory Road 2F via ladder.
 - Confirmed Boulder 1 has reset to its default starting position at (5, 5).
-- Moving to (5, 6) directly south of Boulder 1 to prepare Strength activation and puzzle execution.
+
+## Boulder 1 Testing & Western Perimeter Findings (Turns 18413-18452)
+- Re-activated Strength with Geodude (ROCKY) at (5, 6) [Turn 18425].
+- Pushed Boulder 1 North from (5, 5) to (5, 4) [Turn 18426], then stepped onto (5, 5) [Turn 18427].
+- Pushed Boulder 1 North from (5, 4) to (5, 3) [Turn 18428], then stepped onto (5, 4) [Turn 18430].
+- Bumping North from (5, 4) into Boulder 1 at (5, 3) confirmed tile (5, 2) is a solid rock obstacle [Turn 18431]; Boulder 1 cannot advance North.
+- Doorway (5, 4) is blocked from the south by Boulder 1 at (5, 3); lateral access from (5, 4) is blocked by solid rock walls at (4, 4) and (6, 4).
+- Intermediate state Turn 18442_0 visually confirmed Column 0 is blocked at rows 3-5 by solid rock walls at (0, 3..5). Column 0 does not connect north into the chamber.
+- Retreated South to (5, 7) [Turn 18440], walked West to (2, 7) along row 7 [Turn 18441].
+- Fled wild Onix battle at (2, 7) [Turns 18442-18448].
+- Current Position (Turn 18452): (2, 7) facing Left on row 7 cross-path.
