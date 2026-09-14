@@ -3873,6 +3873,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Current Position (Turn 18372): (9, 16) standing on Switch Plate B facing Left.
 - Empirical Verification (Turn 18372): Column 9 between Switch Plate B (9, 16) and row 12 is a continuous, unobstructed 1-tile wide trench (rows 12-15 are open trench floor). Column 8 is solid rock wall to the west, columns 10-11 form an open checkerboard corridor to the east.
 
+## Empirical Verification (Turn 18374-18377)
+- Stood at (9, 12) facing Boulder 2 at (9, 11).
+- Confirmed (9, 10) is a solid rock wall directly behind Boulder 2.
+- Confirmed Column 9 between (9, 12) and (9, 16) is a completely open 1-tile wide trench.
+- Conclusively verified Boulder 2 cannot be pushed onto Switch Plate B. Switch Plate B requires boulder dropped from 3F.
+- Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
+- Current Position: (9, 12) facing Up.
+- Immediate Route: Step Down 4 times to (9, 16), then East to staircase at (15, 15).
+
 
 <hr>
 
@@ -3970,7 +3979,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 4: Starts at (22, 3) [Verified Turn 17713]. Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. Tiles (22, 3) and (23, 3) are now open floor.
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 4) [Turn 18104] and to (5, 3) [Turn 18106] with Strength active. Currently at (5, 3).
-- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested North push Turn 17422, West push Turn 17442]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
+- Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2; retail mechanic requires dropping a boulder from 3F through the ceiling hole.
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
