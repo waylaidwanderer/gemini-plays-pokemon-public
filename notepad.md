@@ -3858,7 +3858,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Visually confirmed ladder rungs at (27, 7) [Turn 17457 via crop ladder_at_27_7]; destination unverified (whether ascending to 3F or connecting elsewhere); situated in enclosed chamber (rows 7-9, cols 25-29) south of Northeast Plateau.
+- Northeast Ladder: Visually confirmed ladder rungs at (26, 8) [Turn 17457 via crop ladder_at_27_7]; destination unverified (whether ascending to 3F or connecting elsewhere); situated in enclosed chamber (rows 7-9, cols 25-29) south of Northeast Plateau.
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
@@ -3884,7 +3884,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
-- Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
+- Tile (23, 7): Ordinary floor with ladder graphic, confirmed 0 warp effect [Turns 16028, 16544, 16563, 17466].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
@@ -3923,9 +3923,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested North push Turn 17422, West push Turn 17442]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
-- Boulder at (24, 10): Candidate sighting in eastern sector from afar [Turn 17218].
+- Boulder at (24, 10): Visually confirmed at (24, 10) [Turn 17466].
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
-- Boulder 4: Tile (22, 3) traversed post-reset and confirmed open floor [Turn 17228]; Boulder 4 not present at (22, 3).
+- Boulder 4: Visually confirmed at starting coordinates (22, 3) post-reset [Turn 17466].
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124].
