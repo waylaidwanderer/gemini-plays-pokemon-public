@@ -3851,22 +3851,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
-## Critical Strategic Reassessment (Turn 18020)
-- Floor Reset Analysis: Map reset on Turn 17155 (and brief 1F descent around Turn 17763) reset all dynamic boulders and switch plates.
-- Switch Plate A at (1, 16): Boulder 3 at (4, 14) has likely reset to (4, 14), leaving Switch Plate A at (1, 16) unpressed. This is why Barrier (23, 14) was raised on Turn 17953!
-- Northeast Shelf (cols 25-28, rows 2-5): Confirmed 100% enclosed cul-de-sac (solid rock on col 29 and row 6).
-- Ladder (27, 7) Chamber: Fully enclosed on all 4 sides; functions as a drop-down landing zone from 3F, not first-pass ascent.
-- Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
+
 
 ## Current Objective & Route
 
 ## Active Exploration Log (Turn 18091)
-- Current Position: (9, 8) facing West on elevated plateau.
 - Boulder 2 at (9, 11): Confirmed 100% immobile/boxed in on north (wall 9, 10) and west (wall 8, 11). Switch Plate B at (9, 16) cannot be activated by Boulder 2.
 - Switch Plate A at (1, 16): Disproven to lower Barrier Block (23, 14) across 5 documented empirical tests.
 - Visual Confirmation at (5, 5): Boulder 1 is currently at (5, 5) at default starting position.
 
 - Strength Status: Activated with Geodude (ROCKY) on Turn 18102 at (5, 6).
+## Active Exploration Log (Turn 18121)
+- Current Position: (17, 7) facing North in central corridor.
+- Collision Log (Turn 18106): From (5, 4) facing West, stepped Left into (4, 4) and halted; confirming (4, 4) is solid rock wall.
+- Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
+- Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pok�maniac trainer at (4, 2). Destination unverified.
+
 
 <hr>
 
@@ -3928,6 +3928,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turns 16937, 17111, 17191, 17399, and 17953 by direct physical bump from (22, 14). Switch Plate A does not lower it.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
+- Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
@@ -3958,7 +3959,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Boulder 4: Starts at (22, 3) [Verified Turn 17713]. Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. Tiles (22, 3) and (23, 3) are now open floor.
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
-- Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
+- Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 4) [Turn 18104] and to (5, 3) [Turn 18106] with Strength active. Currently at (5, 3).
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested North push Turn 17422, West push Turn 17442]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
