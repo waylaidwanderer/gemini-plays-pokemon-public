@@ -3839,14 +3839,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 7): Confirmed ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
 - Tile (24, 10): Confirmed solid rock wall [Verified Turns 17759, 17788].
 - Row 5 Barrier: Solid rock wall/cliff across columns 19-24, blocking northern ascent from row 6 [Verified Turn 17792].
+- Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
+- Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
 ## Current Objective & Route
-- Player is at (23, 7).
-- Walk West along row 7 to column 17 to reach the wooden staircase at (17, 5).
 
-- Northeast Cul-de-sac (cols 25-28, rows 0-5): Fully surveyed Turn 17806; enclosed dead-end item pocket (TM17 and Max Revive collected). Column 29 is solid rock wall across rows 0-6; row 6 is solid rock wall across cols 24-29.
-- Ladder at (27, 7): Unreachable from upper plateau (row 6 solid rock wall) and from south (row 10 south-facing cliff). Acts as a one-way return landing from 3F.
-- Progression Path to 3F: Eastern Ladder at (25, 14) behind Barrier Block at (23, 14). Requires solving boulder switch on lower level.
 
 
 <hr>
@@ -3862,6 +3859,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
+- Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
+- Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Northern Perimeter (Rows 0-1): Row 1 has impassable cliff at (17, 2) and (9, 2), but columns 20-23 across rows 0-1 form an open, fully traversable northern corridor connecting the northeast plateau [Verified Turns 16853-16855].
