@@ -35,3 +35,4 @@
 - Collision at (25, 7): Tile (25, 7) is a solid rock wall blocking direct northward passage from (25, 8). (25, 9) egress is via Column 26 at (26, 9).
 - Collision at (14, 14) (Verified Turn 50304): Tile (14, 14) is a solid rock wall terminating Column 14 southward at (14, 13).
 - Collision at (17, 16) (Verified Turn 50306): Tile (17, 16) is a solid rock wall blocking direct southward passage from (17, 15).
+- E-W Sector Bridge at Rows 8-9 (Verified Turn 50315): (13, 8), (14, 8), and (15, 8) are open floor tiles forming a northern bypass around the (14, 9) rock wall, connecting Row 9 East (cols 15..19) directly to Row 9 West (cols 10..13) and the western corridors.
