@@ -58,6 +58,7 @@
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
 - Wall at (25, 10): Solid rock wall directly north of (25, 11) [Empirically verified Turn 16023].
 - Wall at (24, 7): Solid rock wall directly east of (23, 7) [Empirically verified Turn 17537].
+- Wall at (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
 - Southern Boundary: Solid rock wall along row 17.
 
