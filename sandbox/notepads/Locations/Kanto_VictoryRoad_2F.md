@@ -11,7 +11,7 @@
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
-- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
+- Tile (17, 8): Verified 100% open flat cave floor on Turn 18048-18049; prior note claiming an impassable elevation cliff was completely erroneous.
 - Tile (21, 11): Impassable elevation cliff wall directly north of (21, 12) [Empirically verified Turn 17981].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].

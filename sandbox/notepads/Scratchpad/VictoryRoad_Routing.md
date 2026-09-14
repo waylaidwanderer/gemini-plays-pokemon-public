@@ -10,7 +10,7 @@
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
 ## Verified Empirical Topology & Findings
-- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
+- Tile (17, 8): Verified 100% open flat cave floor on Turn 18048-18049 (prior note claiming cliff was completely erroneous).
 - Ladder to 3F: Confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Verified Turn 17751, 17786].
 - Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (27, 7).
 - Column 13 Corridor: Traversed on foot on Turn 17609.
@@ -24,7 +24,7 @@
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
 ## Current Floor State (Turn 17941)
-- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
+- Tile (17, 8): Verified 100% open flat cave floor on Turn 18048-18049 (prior note claiming cliff was completely erroneous).
 - Barrier (23, 14): Empirically verified SOLID and RAISED on Turn 17953 facing East from (22, 14). Confirms Switch Plate A does not lower this barrier; Switch Plate B at (9, 16) must be solved.
 - Boulder 2 (9, 11): Confirmed immovable; north (9, 10) and west (8, 11) are solid rock walls, row 10 wall (10, 10) prevents north access [Verified Turn 17961-17962].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
