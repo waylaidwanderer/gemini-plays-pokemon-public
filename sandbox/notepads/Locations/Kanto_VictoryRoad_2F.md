@@ -3,7 +3,7 @@
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Visually confirmed at (26, 8) with light blue vertical rails and 3 horizontal rungs [Turn 17646]; situated in eastern chamber (rows 7-9, cols 25-28).
+- Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), accessed from the south via (27, 8).
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
