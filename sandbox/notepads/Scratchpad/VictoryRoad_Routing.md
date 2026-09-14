@@ -42,3 +42,7 @@
   - Barrier (23, 14): Solid/raised [Verified 6 independent tests]. Not lowered by Switch Plate A (1, 16).
   - Switch Plate B at (9, 16): Located in row 16 lower corridor. Unoccupied.
   - Exit to 3F: Ladder (25, 14) behind Barrier (23, 14) requires solving Switch Plate B at (9, 16), OR accessing 3F through Northwest/Northeast progression.
+
+- Current Position (Turn 18281): (17, 3) facing Up at row 3 northern corridor.
+- Key Discovery (Turn 18281): Column 17 successfully reached row 3 without needing stairs! Rows 0-3 form an open 4-tile wide east-west corridor across columns 16-24.
+- Active Plan: Advancing east along row 3 to (22, 3) and (26, 3) to thoroughly survey the northeast sector for the progression path to 3F.
