@@ -91,3 +91,4 @@
 - Wall at (27, 14): Impassable elevation cliff directly west of (28, 14) [Empirically verified Turn 16900 by bump test]. Ladder at (25, 14) cannot be accessed from column 28.
 - Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it. Confirmed solid again on Turn 17399 from (22, 14).
 - Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
+- Strength: Re-activated with Geodude (ROCKY) at (22, 4) [Turn 17478].
