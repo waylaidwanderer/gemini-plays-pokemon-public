@@ -17,11 +17,14 @@
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Verified Topology & Passages
-1. **Northern Ridge & Ladder A Route (Verified Turn 50454)**:
-   - Ladder E at (9, 1) connects to Row 3 (cols 3..13) and Column 9 (9, 3..7).
-   - Row 3 spans (3..9, 3) and dead-ends at (3, 3) against rock wall (2, 3).
-   - Row 5 NW Sector (cols 0..7, 5) is accessed via Column 9 & Column 6: (9, 3) -> Down to (9, 7) -> West along Row 7 to (6, 7) -> Up along Column 6 to (6, 5).
-   - Row 5 spans (0..7, 5) and connects north along Column 0: (0, 5) -> (0, 3..2).
+1. **Northern Ridge & Ladder A Route (Verified Turn 50461)**:
+   - Ladder E at (9, 1) connects to Row 3 (cols 3..9) and Column 9 (9, 3..5).
+   - Column 9 is terminated at (9, 6) by a rock wall.
+   - Row 5 spans (9..14, 5) to the east, connecting south via Column 13 to Row 7 at (13, 7).
+   - Row 7 spans continuously west across (13..2, 7).
+   - Column 2 connects Row 7 up to Row 5: (2, 7) -> (2, 6) -> (2, 5).
+   - Row 5 spans west across (2..0, 5) to Column 0.
+   - Column 0 connects north: (0, 5) -> (0, 4) -> (0, 3).
    - From (0, 3), stepping East enters **Ladder A at (1, 3)**!
    - Ladder A at (1, 3) descends directly to B1F (Mewtwo).
 2. **Southeast & East Sector**:
