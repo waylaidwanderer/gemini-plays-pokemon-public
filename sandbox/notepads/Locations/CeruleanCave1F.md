@@ -20,6 +20,8 @@
    - Ladder E at (7, 1) <-> 2F Northern Ridge (9, 1).
 
 4. **South-Central Terrace & Southwest Waterways**:
-   - Southern Water Basin: Connects south along cols 8..11 (rows 10..15).
-   - South-Central Ramp: Located at (11, 13) facing south into water at (11, 14).
-   - South-Central Terrace: Spans rows 8..12 (cols 11..16+). Currently exploring for ladders, ramps, and pathways.
+   - Southern Water Basin: Connects south along cols 8..11 (rows 10..15) and connects north via rows 6..7 westward.
+   - South-Central Ramp (West): Located at (11, 13) facing south into water at (11, 14).
+   - South-Central Ramp (East): Located at (21, 11) facing east into entrance water canal at (22, 11).
+   - Ladder C at (18, 9) <-> 2F Central Sector (19, 7).
+   - South-Central Terrace spans rows 8..12 (cols 11..21). Connects West Ramp (11, 13), Ladder C (18, 9), and East Ramp (21, 11).
