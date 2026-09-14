@@ -68,7 +68,7 @@
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
-- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
+- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested North push Turn 17422, West push Turn 17442]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
 - Boulder at (24, 10): Candidate sighting in eastern sector from afar [Turn 17218].
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
 - Boulder 4: Tile (22, 3) traversed post-reset and confirmed open floor [Turn 17228]; Boulder 4 not present at (22, 3).
