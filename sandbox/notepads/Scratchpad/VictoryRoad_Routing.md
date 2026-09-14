@@ -32,19 +32,18 @@
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
-## Critical Strategic Reassessment (Turn 18020)
-- Floor Reset Analysis: Map reset on Turn 17155 (and brief 1F descent around Turn 17763) reset all dynamic boulders and switch plates.
-- Switch Plate A at (1, 16): Boulder 3 at (4, 14) has likely reset to (4, 14), leaving Switch Plate A at (1, 16) unpressed. This is why Barrier (23, 14) was raised on Turn 17953!
-- Northeast Shelf (cols 25-28, rows 2-5): Confirmed 100% enclosed cul-de-sac (solid rock on col 29 and row 6).
-- Ladder (27, 7) Chamber: Fully enclosed on all 4 sides; functions as a drop-down landing zone from 3F, not first-pass ascent.
-- Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
+
 
 ## Current Objective & Route
 
 ## Active Exploration Log (Turn 18091)
-- Current Position: (9, 8) facing West on elevated plateau.
 - Boulder 2 at (9, 11): Confirmed 100% immobile/boxed in on north (wall 9, 10) and west (wall 8, 11). Switch Plate B at (9, 16) cannot be activated by Boulder 2.
 - Switch Plate A at (1, 16): Disproven to lower Barrier Block (23, 14) across 5 documented empirical tests.
 - Visual Confirmation at (5, 5): Boulder 1 is currently at (5, 5) at default starting position.
 
 - Strength Status: Activated with Geodude (ROCKY) on Turn 18102 at (5, 6).
+## Active Exploration Log (Turn 18121)
+- Current Position: (17, 7) facing North in central corridor.
+- Collision Log (Turn 18106): From (5, 4) facing West, stepped Left into (4, 4) and halted; confirming (4, 4) is solid rock wall.
+- Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
+- Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pokémaniac trainer at (4, 2). Destination unverified.
