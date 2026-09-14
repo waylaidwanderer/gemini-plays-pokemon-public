@@ -6,7 +6,7 @@ Exhaustively map all local tiles and branches in the Northwest sector around Lad
 ## Probing Grid & Empirical Results
 - (3, 1): OPEN FLOOR (visited)
   - Left (2, 1): ROCK WALL (Turn 50156)
-  - Up (3, 0): PENDING TEST
+  - Up (3, 0): ROCK WALL (Turn 50169)
   - Down (3, 2): OPEN FLOOR (Turn 50148)
 - (3, 2): OPEN FLOOR (visited)
   - Left (2, 2): ROCK WALL (Turn 50148)
