@@ -3847,7 +3847,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Barrier (23, 14): Empirically verified SOLID and RAISED on Turn 17953 facing East from (22, 14). Confirms Switch Plate A does not lower this barrier; Switch Plate B at (9, 16) must be solved.
 - Boulder 2 (9, 11): Confirmed immovable; north (9, 10) and west (8, 11) are solid rock walls, row 10 wall (10, 10) prevents north access [Verified Turn 17961-17962].
-- Active Position: (10, 11) descending column 10 to row 16.
+- Active Position: (10, 16) advancing east along row 16 toward (28, 16).
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
