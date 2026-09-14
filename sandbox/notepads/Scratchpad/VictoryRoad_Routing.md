@@ -44,3 +44,12 @@
 - Progression Paths to 3F:
   1. Primary: Northwest Chamber Ladder at (1, 1) guarded by Pokémaniac at (4, 2), accessed via (5, 4) doorway and solving Boulder 1 puzzle.
   2. Alternate/Exit: Southeast Ladder at (25, 14) behind Barrier Block (23, 14), which requires Switch Plate B at (9, 16) in row 16 lower corridor.
+
+## Current Status & Active Strategy (Turn 18335)
+- Current Position: (17, 6) facing Down on Column 17 thoroughfare.
+- Northeast Cul-de-sac: Fully surveyed and confirmed enclosed dead end. Bump tests verified (24, 5) and (25, 6) are solid rock walls.
+- Immediate Movement: Moving south down column 17 to row 11 to access central/southern floor.
+- Key Unverified Puzzle Mechanisms:
+  1. Boulder 2 at (9, 11) vs Switch Plate B at (9, 16): Same column (col 9). Need to investigate south push access.
+  2. Boulder at (13, 13): Pushed south from (13, 12), lateral movements untested.
+  3. Barrier (23, 14) guarding exit ladder (25, 14): Controlled by unactivated switch (likely Switch Plate B).
