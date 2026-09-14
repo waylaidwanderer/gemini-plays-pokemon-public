@@ -40,7 +40,6 @@
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block: Located at (23, 14) [Empirically verified STILL RAISED Turn 16452 by direct collision test from (22, 14) while Switch Plate A is depressed; Switch Plate A does NOT control Barrier (23, 14)].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
@@ -72,9 +71,9 @@
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
 - Boulder at (24, 10): Candidate sighting in eastern sector from afar [Turn 17218].
-- Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
+- Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
 - Boulder 4: Tile (22, 3) traversed post-reset and confirmed open floor [Turn 17228]; Boulder 4 not present at (22, 3).
-- Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17173].
+- Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124].
 
@@ -92,4 +91,5 @@
 - Wall at (27, 12): Impassable elevation cliff directly west of (28, 12) [Empirically verified Turn 16768 by bump test].
 - Column 14 Rock Wall: Solid rock wall from row -3 to row 5 along column 14, completely separating the Moltres plateau (cols 11-13) from columns 15-20. Row 1 does not connect westward to any northwest ladder [Empirically verified Turn 16889].
 - Wall at (27, 14): Impassable elevation cliff directly west of (28, 14) [Empirically verified Turn 16900 by bump test]. Ladder at (25, 14) cannot be accessed from column 28.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.- Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it. Confirmed solid again on Turn 17399 from (22, 14).
+- Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
