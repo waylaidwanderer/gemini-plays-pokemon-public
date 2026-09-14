@@ -3921,7 +3921,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 4: Pushed from (22, 3) along row 1 to (27, 1), then south to (27, 5); blocked south by rock wall (27, 6) and east by Cooltrainer ♂ at (28, 5) [Tested Turn 17487].
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
-- Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124].
+- Corridor (Cols 22-23, Rows 10-14): Confirmed continuous open corridor connecting from row 14 (above 21, 15 stairs) directly north to row 10 and boulder at (24, 10) [Visually verified Turn 17665].
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
