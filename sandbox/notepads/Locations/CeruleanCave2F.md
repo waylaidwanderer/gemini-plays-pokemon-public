@@ -55,3 +55,4 @@
 - **Collision at (14, 15) (Verified Turn 50398)**: Tile (14, 15) is a solid rock wall blocking direct westward passage from (15, 15). Column 14 forms a vertical rock wall on rows 14..16.
 - **Collision at (20, 17) (Verified Turn 50410)**: Tile (20, 17) is a solid rock wall blocking direct westward passage from (21, 17) on Row 17. Row 17 East (cols 21..27) and Row 17 West (cols 11..19) are separated by this barrier.
 - Collision at (13, 11) (Verified Turn 50486): Tile (13, 11) is a solid rock wall blocking direct westward passage along Row 11 from (14, 11). Westward egress to Column 12 is via (14, 12) -> (12, 12).
+- Collision at (13, 12..16) (Verified Turn 50496): Column 13 is a solid rock wall across rows 11..16 blocking direct westward passage from Column 14. Egress to Row 9 West is via Column 26 (26, 9..14) -> Row 9 (cols 26..15) -> (15..13, 8) -> (13..10, 9).
