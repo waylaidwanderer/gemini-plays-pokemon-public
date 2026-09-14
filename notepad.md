@@ -3853,7 +3853,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate A at (1, 16): DEPRESSED by boulder Turn 17173. Switch Plate B at (9, 16): Currently empty post-reset.
 
 - Tile (22, 3) traversed post-reset and confirmed open floor (no boulder) [Turn 17228].
-- Boulder 2 at (9, 11) status: only tested from north and west; pushing from south (9, 12) or east (10, 11) remains unverified.
+- Boulder 2 at (9, 11) status: empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271].
 
 
 <hr>
@@ -3935,7 +3935,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
 - Boulder 2: Starts at (9, 11) [Verified Turn 17158].
-- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Flanked by walls at (8, 11) and (10, 11). Only tested from north and west; south and east approaches unverified.
+- Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
 - Boulder at (24, 10): Candidate sighting in eastern sector from afar [Turn 17218].
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
 - Boulder 4: Tile (22, 3) traversed post-reset and confirmed open floor [Turn 17228]; Boulder 4 not present at (22, 3).
