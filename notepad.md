@@ -2917,7 +2917,6 @@
   - (19, 1): Solid rock wall blocks direct passage between (20, 1) and (18, 1).
 - Row 16 Barrier: Solid rock wall across cols 14..20.
 - Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
-- Northwest Sector & Ladder A Route: Ladder A at (1, 3) descends to B1F (Mewtwo). Solid rock barriers at (2, 3), (3, 4), and (8, 5) separate local paths on 2F. Ladder A is accessed via an isolated lower 2F western sector that is completely walled off from Northern Ridge (Ladder E), Eastern Corridor (Ladder D), and Southeast Sector (Ladder B/C).
 - Column 26 North Corridor: (26, 10..14) is open vertical floor connecting Row 14 at (27..28, 14) north past the (28, 13) rock barrier to Row 9 and the northern sectors.
 - Row 14 & 15 Western Barrier: (14, 14) and (14, 15) are solid rock walls blocking direct westward passage from (15, 14..15).
 - Row 15 Dead-End Pocket: Row 15 extends east across (16..19, 15). (17, 16) and (19, 16) are solid rock walls below it; (20, 15) is a solid rock wall to the east. Traversal south or east from Row 15 is blocked.
