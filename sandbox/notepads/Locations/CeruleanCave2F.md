@@ -36,3 +36,4 @@
 - Collision at (14, 14) (Verified Turn 50304): Tile (14, 14) is a solid rock wall terminating Column 14 southward at (14, 13).
 - Collision at (17, 16) (Verified Turn 50306): Tile (17, 16) is a solid rock wall blocking direct southward passage from (17, 15).
 - E-W Sector Bridge at Rows 8-9 (Verified Turn 50315): (13, 8), (14, 8), and (15, 8) are open floor tiles forming a northern bypass around the (14, 9) rock wall, connecting Row 9 East (cols 15..19) directly to Row 9 West (cols 10..13) and the western corridors.
+- **Ladder C Sector (Verified Turn 50348)**: Ladder C at 2F (19, 7) is an isolated 7-tile pocket consisting of (19, 7), (18, 7), (18, 6), (19, 6), (20, 6), (19, 5), and (20, 5), completely bounded by solid rock walls to the north (rows 4-5), west (col 17), south (row 8), and east (col 21). It has no exit to the rest of 2F. Main 2F thoroughfares must be accessed via Ladder B (22, 6) -> Row 11 -> Column 16 / (13..15, 8) bypass -> Row 3.
