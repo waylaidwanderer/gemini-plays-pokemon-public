@@ -2938,14 +2938,12 @@
 ## Incremental Probing Sequence:
 1. **Probe Row 6 Junction**:
    - Step Down to (29, 6).
-   - Step Left to (28, 6) -> (27, 6).
-2. **Probe Column 27 Passage to Row 9**:
-   - From (27, 6), step Down through (27, 7) -> (27, 8) -> (27, 9) [Row 9].
-3. **Traverse Row 9 Highway towards Mewtwo Descent (Ladder A)**:
-   - Walk West along Row 9 to Column 6 at (6, 9).
-   - Walk North up Column 6 to Row 5 at (6, 5).
-   - Walk West along Row 5 to Column 0 at (0, 5).
-   - Walk North up Column 0 to (0, 3).
+   - Step Left to (28, 6) -> (27, 6) [Verified].
+2. **Probe Row 17 Westward Frontier**:
+   - From (27, 16), step Down to (27, 17) [Row 17].
+   - Walk West along Row 17 through (26..22, 17) to (21, 17) and probe westward passage.
+3. **Traverse towards Mewtwo Descent (Ladder A)**:
+   - Reach Column 6 / Column 0.
    - Step East into Ladder A at (1, 3) to descend to B1F (Mewtwo chamber).
 4. **On B1F**:
    - Locate Mewtwo and capture using Master Ball (Bag Slot 18)!
