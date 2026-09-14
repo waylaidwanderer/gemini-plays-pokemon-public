@@ -2890,16 +2890,21 @@
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Verified Topology & Passages
-1. **Northern Ridge & Ladder A Route (Verified Turn 50461)**:
-   - Ladder E at (9, 1) connects to Row 3 (cols 3..9) and Column 9 (9, 3..5).
-   - Column 9 is terminated at (9, 6) by a rock wall.
-   - Row 5 spans (9..14, 5) to the east, connecting south via Column 13 to Row 7 at (13, 7).
-   - Row 7 spans continuously west across (13..2, 7).
-   - Column 2 connects Row 7 up to Row 5: (2, 7) -> (2, 6) -> (2, 5).
-   - Row 5 spans west across (2..0, 5) to Column 0.
-   - Column 0 connects north: (0, 5) -> (0, 4) -> (0, 3).
-   - From (0, 3), stepping East enters **Ladder A at (1, 3)**!
-   - Ladder A at (1, 3) descends directly to B1F (Mewtwo).
+1. **Master Route to Ladder A & B1F (Verified Turn 50471)**:
+   - **Entry via Ladder B at 2F (22, 6)**:
+     - (22, 6) -> Down to (22, 7) -> East to (23, 7) -> South along Column 23 to Row 11 at (23, 11).
+     - Row 11 Highway: Move West uninterrupted across (23..11, 11) to Column 11 at (11, 11).
+     - Column 11 Corridor: Move North uninterrupted across (11, 11..7) to Row 7 at (11, 7).
+     - Row 7 Western Highway: Move West uninterrupted across (11..2, 7) to Column 2 at (2, 7).
+     - Column 2 Ascent: Move North (2, 7) -> (2, 6) -> (2, 5) to Row 5 at (2, 5).
+     - Row 5 NW Sector: Move West (2, 5) -> (1, 5) -> (0, 5) to Column 0 at (0, 5).
+     - Column 0 Ascent: Move North (0, 5) -> (0, 4) -> (0, 3) to Row 3 at (0, 3).
+     - **Ladder A Entry**: From (0, 3), step East into **Ladder A at (1, 3)**!
+     - Ladder A at (1, 3) descends directly to B1F (Mewtwo).
+   - **Northern Ridge & Ladder E at (9, 1)**:
+     - Ladder E at (9, 1) connects via (8, 1) -> (8, 3) -> (9, 3) -> (9, 5) -> Row 5 (9..16, 5).
+     - Column 9 terminates south at (9, 6) (rock wall).
+     - Column 16 connects Row 5 (16, 5) south to (16, 7), terminating at (16, 8) (rock wall).
 2. **Southeast & East Sector**:
    - Ladder B at (22, 6) -> move Down to (22, 7), East to (23, 7), South along Column 23 (rows 7..11) to Row 11 at (23, 11).
    - Row 11 Thoroughfare: open floor across cols 14..24.
