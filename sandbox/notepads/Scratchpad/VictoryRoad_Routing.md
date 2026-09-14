@@ -24,7 +24,6 @@
 
 ## Working Hypotheses & Floor Architecture (Unverified):
   1. Ladder at (0, 8): Connects down to 1F.
-  2. Ladder at (27, 7): The ascending ladder to Victory Road 3F! Located in the northeast chamber (rows 7-9, cols 25-29). Accessed exclusively by jumping down the ledge from the northern plateau (rows 4-5).
   3. Ladder at (25, 14): The exit ladder leading toward Indigo Plateau. Located behind Barrier Block (23, 14).
   4. Switch Plate B at (9, 16): Controls Barrier Block (23, 14). Depressed by the boulder dropped through the hole on 3F!
 
