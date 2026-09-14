@@ -3819,7 +3819,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road 2F Routing & Active Hypotheses
 
-## Current Floor State (Turn 17851)
 - Switch Plate A at (1, 16): DEPRESSED by Southern Chamber boulder.
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 1: Pushed to (5, 3).
@@ -3843,11 +3842,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
 ## Current Objective & Route
-- Active Position: (14, 16) in lower corridor.
-- Primary Objective: Advance East along row 16 to staircase (21, 15) and Eastern Highway (cols 28-29).
 - Testing Targets:
   1. Inspect Barrier Block at (23, 14) via staircase (21, 15).
   2. Inspect northern access into ladder chamber (27, 7) from row 11 via Column 29 and Column 26.
+## Current Floor State (Turn 17881)
+- Active Position: (22, 3) on upper level.
+- Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
+- Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
+- Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
+
+## Current Objective & Route
+- Survey untested areas:
+  1. Inspect northwest chamber and trainer at (4, 2).
+  2. Inspect barrier block at (23, 14) and Eastern Ladder at (25, 14) via wooden staircase at (21, 15).
+
 
 <hr>
 
@@ -3862,6 +3870,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
+- Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
+- Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
@@ -3929,6 +3939,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
+- Boulder 4: Starts at (22, 3) [Verified Turn 17713]. Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. Tiles (22, 3) and (23, 3) are now open floor.
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested North push Turn 17422, West push Turn 17442]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
