@@ -3824,7 +3824,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
-- Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695; unmasked tile (13, 12).
+- Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695. Tested south push on Turn 17709-17710 with Strength active; blocked by solid wall at (13, 14). Column 13 is impassable to the south.
 - Boulder 4: Wedged at (27, 5) blocking col 27 [Floor reset was aborted Turn 17611].
 - Boulder at (24, 10): Plugged between rock walls (24, 9) and (24, 11).
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
@@ -3837,7 +3837,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Current Objective & Route
 - Flee wild Geodude at (13, 11).
-- Step south onto (13, 12) and push boulder at (13, 13) south into (13, 14) / row 14.
+- Exit column 13 north to row 10, head east to column 20/23, and approach the 3F ladder at (26, 8) via the eastern sector / Eastern Highway.
 - Walk east along row 14 to Eastern Highway (cols 28-29) or staircase (15, 15).
 - Ascend Eastern Highway (cols 28-29) to row 11 and access 3F ladder at (26, 8).
 
