@@ -109,4 +109,3 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Column 14 Rock Wall: Solid purple rock wall along column 14 spanning rows 0 through 8, completely separating the northeast corridor (cols 15-24) from the northwest plateau (cols 11-13) [Visually confirmed Turn 18494].
