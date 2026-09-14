@@ -3861,7 +3861,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Candidate ladder sighted at (26, 8) from afar [Unvisited; path from west blocked by col 24 rock wall].
+- Northeast Ladder: Visually confirmed at (27, 7) [Turn 17457 via crop ladder_at_27_7]; situated in enclosed chamber (rows 7-9, cols 25-29) directly south of the Northeast Plateau.
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
