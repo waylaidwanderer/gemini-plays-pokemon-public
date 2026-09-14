@@ -3869,8 +3869,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier (23, 14) Final Empirical Verdict (Turn 18171): While Boulder 3 rested on Switch Plate A at (1, 16) on the same floor visit, attempted East step into (23, 14) from (22, 14). Halted and bumped. Conclusively proven: Switch Plate A does NOT lower Barrier Block (23, 14).
 - Next Exploration Target: Investigate Northwest chamber and passages around Boulder 1 (currently at 5, 3) to locate ladder/exit to 3F.
 
-- Current Position (Turn 18211): (3, 6) facing North at Western Highway.
-- Active Investigation: Approaching doorway (5, 4) to empirically test physical movement options around Boulder 1 at (5, 3).
+
+- Current Position (Turn 18222): (9, 8) facing Right at entrance to Column 9.
+- Active Plan: Moving north along Column 9 to Row 1 corridor, then west along Row 1 to ladder (1, 1).
 
 
 <hr>
