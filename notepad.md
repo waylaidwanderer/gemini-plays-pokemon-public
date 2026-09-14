@@ -3860,7 +3860,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Shelf (cols 25-28, rows 2-5): Confirmed 100% enclosed cul-de-sac (solid rock on col 29 and row 6).
 - Ladder (27, 7) Chamber: Fully enclosed on all 4 sides; functions as a drop-down landing zone from 3F, not first-pass ascent.
 - Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
-- Active Position: (25, 2) retracing west along row 2 toward staircase (17, 5) and Southern Chamber (4, 14).
+- Active Position: (18, 2) in battle with wild Graveler, fleeing to descend staircase (17, 5) to Southern Chamber (4, 14).
 
 ## Current Objective & Route
 - Retrace west along row 2 to staircase (17, 5), descend to row 6, navigate south via column 13 to Southern Chamber (4, 14), and push boulder onto Switch Plate A (1, 16).
