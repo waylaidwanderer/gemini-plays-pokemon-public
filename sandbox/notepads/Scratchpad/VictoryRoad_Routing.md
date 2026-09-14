@@ -108,4 +108,12 @@
   2. Side 1: Push Boulder 1 North from (5, 5) to (5, 4), then North to (5, 3) to position it in row 3.
   3. Side 2: Navigate around via staircase (5, 10), elevated plateau, and column 13 to row 3 at (6, 3).
   4. From (6, 3), push Boulder 1 West into open space (4, 3) to unblock (5, 3).
-  5. Advance through (5, 3) to challenge Pokémaniac at (4, 2) and climb Ladder (1, 1) to 3F!
+  5. Advance through (5, 3) to challenge Pokï¿½maniac at (4, 2) and climb Ladder (1, 1) to 3F!
+
+## Breakthrough Deduction (Turn 18569): Victory Road 2F Master Progression Loop
+- Boulder 1 at (5, 5) CANNOT be used to enter Northwest Chamber from the south: pushing it north into (5, 3) traps it against wall (5, 2) and dead-ends player at (5, 4) between walls (4, 4) and (6, 4). Lateral pushes from (5, 5) are impossible due to wall at (6, 5).
+- Doorway (5, 4) is a one-way blocker/shortcut from row 3.
+- Northwest Chamber (cols 1-4, rows 1-3) is accessed FROM THE EAST via Row 3!
+- Row 3 is a continuous open floor corridor across columns 4 through 9+ connecting directly from the central plateau/trainers to the Northwest Chamber.
+- Since floor was reset, Boulder 1 remains at (5, 5), leaving (5, 3) completely clear and unobstructed for westward traversal along Row 3.
+- Master Route: (4, 6) -> Western Highway cols 2-3 -> Row 11 -> Staircase (5, 10) -> Plateau rows 8-9 -> Column 13 / Column 17 -> Row 3 -> West into Northwest Chamber -> PokÃ©maniac (4, 2) -> Ladder (1, 1) to 3F!
