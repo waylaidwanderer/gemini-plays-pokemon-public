@@ -1,7 +1,6 @@
 # Victory Road 2F Routing & Active Hypotheses
 
 - Switch Plate B at (9, 16): Unoccupied.
-- Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
 - Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695. Tested south push on Turn 17709-17710 with Strength active; boulder did not advance south into (13, 14).
 - Elevation Boundary at (23, 12): Confirmed impassable from (23, 11) [Tested Turn 17758].
@@ -76,7 +75,8 @@
 - Intermediate state Turn 18442_0 visually confirmed Column 0 is blocked at rows 3-5 by solid rock walls at (0, 3..5). Column 0 does not connect north into the chamber.
 - Retreated South to (5, 7) [Turn 18440], walked West to (2, 7) along row 7 [Turn 18441].
 - Fled wild Onix battle at (2, 7) [Turns 18442-18448].
-- Current Position (Turn 18511): (14, 14) in battle with wild Golbat on row 14 shelf.
+- Turn 18536: At (5, 4), executed collision test Left into tile (4, 4); bumped, empirically confirming (4, 4) is a solid rock wall.
+- Current Position (Turn 18541): (3, 7) facing Left on row 7 cross-path.
 
 ## Plateau & East-West Circuit Progress (Turns 18481-18511)
 - Traversed west along row 11 from (28, 11) to (16, 11), encountering wild Machop at (25, 11) [Turns 18483-18486, fled].
