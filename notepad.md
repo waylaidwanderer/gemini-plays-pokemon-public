@@ -2887,10 +2887,10 @@
 ## Master Route to Ladder A (1, 3) -> B1F (via Ladder E Northwest Sector)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
 - **Master Entry Ladder**: Ladder E at (7, 1) on 1F <-> (9, 1) on 2F.
-- **Verified Complete Path from (4, 3) to Ladder A (1, 3) on 2F (Turn 50795)**:
-  - 1. East along Row 3: (4, 3) -> (9, 3) [5 steps Right].
-  - 2. South down Column 9: (9, 3) -> (9, 7) [4 steps Down].
-  - 3. West along Row 7: (9, 7) -> (6, 7) [3 steps Left].
+- **Verified Complete Path from (9, 5) to Ladder A (1, 3) on 2F (Turn 50800)**:
+  - 1. East to Column 11: (9, 5) -> (11, 5) [2 steps Right].
+  - 2. South down Column 11: (11, 5) -> (11, 7) [2 steps Down].
+  - 3. West along Row 7: (11, 7) -> (6, 7) [5 steps Left].
   - 4. North up Column 6: (6, 7) -> (6, 5) [2 steps Up].
   - 5. West along Row 5: (6, 5) -> (0, 5) [6 steps Left].
   - 6. North up Column 0: (0, 5) -> (0, 3) [2 steps Up].
