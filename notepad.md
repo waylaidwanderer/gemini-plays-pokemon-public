@@ -4017,5 +4017,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+- Boulder 1 at (5, 3): Confirmed (5, 2) is a solid rock obstacle; Boulder 1 cannot be pushed North from (5, 3) [Empirically verified Turn 18431]. Doorway (5, 4) is blocked from the south by Boulder 1 at (5, 3).
 
 <hr>
