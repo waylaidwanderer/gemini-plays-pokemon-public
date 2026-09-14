@@ -46,3 +46,5 @@
 - Boulder 2 at (9, 11): Confirmed 100% immobile/boxed in on north (wall 9, 10) and west (wall 8, 11). Switch Plate B at (9, 16) cannot be activated by Boulder 2.
 - Switch Plate A at (1, 16): Disproven to lower Barrier Block (23, 14) across 5 documented empirical tests.
 - Visual Confirmation at (5, 5): Boulder 1 is currently at (5, 5) at default starting position.
+
+- Strength Status: Activated with Geodude (ROCKY) on Turn 18102 at (5, 6).
