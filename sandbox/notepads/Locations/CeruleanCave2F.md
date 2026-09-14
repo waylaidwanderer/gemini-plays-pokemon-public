@@ -11,17 +11,11 @@
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northwest Sector entry to Ladder A].
 
-## Master Route to Ladder A (1, 3) -> B1F (via Ladder E Northwest Sector)
+## Master Route to Ladder A (1, 3) -> B1F (via Northwest Sector)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
 - **Master Entry Ladder**: Ladder E at (7, 1) on 1F <-> (9, 1) on 2F.
-- **Verified Complete Path from (9, 5) to Ladder A (1, 3) on 2F (Turn 50800)**:
-  - 1. East to Column 11: (9, 5) -> (11, 5) [2 steps Right].
-  - 2. South down Column 11: (11, 5) -> (11, 7) [2 steps Down].
-  - 3. West along Row 7: (11, 7) -> (6, 7) [5 steps Left].
-  - 4. North up Column 6: (6, 7) -> (6, 5) [2 steps Up].
-  - 5. West along Row 5: (6, 5) -> (0, 5) [6 steps Left].
-  - 6. North up Column 0: (0, 5) -> (0, 3) [2 steps Up].
-  - 7. East into **Ladder A at (1, 3)** [1 step Right] to descend to B1F!
+- **Northwest Topography & Target**: Ladder A is located at (1, 3).
+- **Probing Status**: Currently mapping north-south connectors between northern thoroughfares (Rows 1, 3, 5) and southern thoroughfares (Rows 7, 9, 11) to access the western approach to Ladder A at (0, 3)/(1, 2).
 
 ## Verified 2F Local Topography (Turn 50616)
 - **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
