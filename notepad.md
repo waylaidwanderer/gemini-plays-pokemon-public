@@ -2907,6 +2907,7 @@
 - Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall.
 - Row 11 Thoroughfare: Open cave floor across cols 14..24 connecting Column 23 at (23, 11) directly west past Column 19 to Column 14.
 - Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
+- Column 14 Dead End (Verified Turn 49864): Column 14 spans (14, 11..13) and dead-ends at (14, 13). (14, 14), (13, 13), and (15, 13) are confirmed solid rock barriers.
 - Central Maze Barriers (Turn 47881): (14, 14) and (18, 14) are solid rock walls blocking southern passage from Row 13-14.
 - Verified Empirical Barriers (Turns 47978-48020):
   - (29, 7): Solid rock wall blocks Column 29 south of (29, 6).
