@@ -2,121 +2,33 @@
 
 ## Overview
 - Upper floor maze of Cerulean Cave (Unknown Dungeon).
-- Connects to 1F via multiple ladders and contains the sole descending ladder (Ladder A) to B1F (Mewtwo).
-
-## Connected Component Graph & Routing
-1. **Southeast Sector**:
-   - Ladder B at (22, 6) <-> 1F (23, 7).
-   - Connected via Row 11 thoroughfare (cols 14..24) to Column 24 corridor at (24, 11).
-   - Ladder D at (29, 1) descends to 1F NE Terrace (27, 1).
-
-2. **Central Sector & Bypass Network**:
-   - Ladder C at (19, 7) <-> 1F (18, 9).
-   - Central Loop: Ladder C connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3). Walled off from lower corridors by rock walls at (18..20, 4), (16, 8), (17, 5..8), and (19, 1).
-
-
-
-
+- Connects to 1F via multiple ladders and contains the descending ladder (Ladder A) to B1F (Mewtwo).
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
-5. **Ladder E**: Located at (9, 1) on 2F <-> (7, 1) on 1F.
+5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1).
 
 ## Verified Items (2F)
 - Item Poké Ball at (29, 9) collected (PP Up).
 - Item Poké Ball at (13, 6) collected (Max Potion).
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
-## Collision Matrix & Verified Passages (2F)
-- Column 24 Corridor: Spans rows 11..15. Rows 7..10 are blocked by rock wall.
-- Row 11 Thoroughfare: Open cave floor across cols 14..24 connecting Column 23 at (23, 11) directly west past Column 19 to Column 14.
-- Row 10 Barrier: Solid rock wall across cols 14..22 blocks direct northward passage from Row 11 (including (15, 10)).
-- Column 14 Dead End (Verified Turn 49864): Column 14 spans (14, 11..13) and dead-ends at (14, 13). (14, 14), (13, 13), and (15, 13) are confirmed solid rock barriers.
-- Central Maze Barriers (Turn 47881): (14, 14) and (18, 14) are solid rock walls blocking southern passage from Row 13-14.
-- Verified Empirical Barriers (Turns 47978-48020):
-  - (29, 7): Solid rock wall blocks Column 29 south of (29, 6).
-  - (27, 3): Solid rock wall blocks direct passage south from (27, 2).
-  - (27, 5): Solid rock wall encloses pocket at (27, 4).
-  - (17, 3): Solid rock wall blocks westward movement from (18, 3).
-  - (21, 3): Solid rock wall blocks direct passage from (21, 2) south to (21, 4).
-  - (19, 1): Solid rock wall blocks direct passage between (20, 1) and (18, 1).
-- Row 16 Barrier: Solid rock wall across cols 14..20.
-- Columns 16-18 Barrier at Row 8: (16..18, 8) are solid rock walls blocking direct northward passage from Row 9.
-- Column 26 North Corridor: (26, 10..14) is open vertical floor connecting Row 14 at (27..28, 14) north past the (28, 13) rock barrier to Row 9 and the northern sectors.
-- Row 14 & 15 Western Barrier: (14, 14) and (14, 15) are solid rock walls blocking direct westward passage from (15, 14..15).
-- Row 15 Dead-End Pocket: Row 15 extends east across (16..19, 15). (17, 16) and (19, 16) are solid rock walls below it; (20, 15) is a solid rock wall to the east. Traversal south or east from Row 15 is blocked.
-## Verified Central Sector Path Matrix (Turn 48036)
-- (19, 3) is a solid rock wall separating (20, 3) from (18, 3).
-- Verified open path from (20, 3) to Ladder C (19, 7): (20, 3) -> (20, 2) -> (21..22, 2) -> (22, 3..4) -> (21, 4..5) -> (20..19, 5) -> (19, 6..7) [Ladder C].
-- (17, 5..8) and (18, 8) are solid rock walls enclosing the pocket west of Ladder C (19, 7); there is no direct passage west from (18, 6..7) on 2F. 
-- Central Loop Barrier (Turn 49833): (23, 4) is a solid rock wall blocking direct eastward passage from (22, 4) into Column 23.
-- Central Pocket Exact Routing: Ladder C (19, 7) connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3) enclosed upper loop. (22, 5) and (20, 4) are solid rock walls blocking direct passage between (22, 4) and Ladder B (22, 6).
-- Column 9 Collision: (9, 6) is a solid rock wall blocking direct southern passage from (9, 5) to Row 7.
-
-- Column 24 corridor (24, 1..5) and (25..27, 4) are an enclosed dead-end sector on 2F separated from Ladder D (29, 1). 
-- Eastern Sector & Ladder D Routing (Verified Turns 48174-48182):
-  - Ladder D at (29, 1) connects south via (29, 3..6) -> (28..25, 6..7) towards (25, 8..9).
-  - Row 9 at (25, 9) is blocked to the west by solid rock walls at (24, 9) and (24, 5..10).
-- NW Sector Collision Details (Verified Turns 48154-48165):
-  - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
-- (22, 9): Solid rock wall blocks westward movement from Column 23 at (23, 9) along Row 9 (Verified Turn 49912).
-- Column 24 Barrier: (24, 6..10) are solid rock walls blocking east-west movement between Column 23 (Ladder B) and Column 25.
-- Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
-
-- **Row 4 Barrier**: Rock wall across cols 1..8 at (1..8, 4).
-- **Row 3 Corridor**: Open cave floor across cols 3..9 at (3..9, 3).
-- **Row 2 Boundary**: Rock wall across cols 4..8 at (4..8, 2) and (2, 2). Open floor at (3, 2), (1, 2), and (0, 2).
-- **Row 1 Corridor**: Open cave floor across cols 3..9 at (3..9, 1). Ladder E at (9, 1).
-## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
-
-- **2F Maze Connectivity**: 2F is a complex interconnected maze accessed from Ladder B (22, 6) and other ladders, with multiple winding corridors connecting the eastern, southern, and northern sectors towards Ladder A (1, 3).
-- Column 17/16 Boundary at Row 1-2 (Verified Turn 48568):
-  - (17, 2) and (16, 2) are solid rock walls.
-  - Row 1 across (14..18, 1) is open cave floor providing the direct east-west thoroughfare between the eastern sector and western sector.
-- Column 10 Boundary & Passage (Verified Turn 48580):
-  - (10, 0..4) are solid rock walls blocking east-west movement between Column 11 and Column 9.
-  - (10, 5) is open cave floor providing the direct passage from Column 11 at (11, 5) west to (9, 5).
-
-- Verified Open East-West Passage at (12, 5) (Turn 49086): Tile (12, 5) is completely open dark cave floor connecting (11, 5) directly east to Column 13 (13, 5) and Row 5 (13..16, 5).
-- Verified Barriers at (2, 2) and (6, 4) (Turns 49223-49230): Tile (2, 2) is a solid rock wall blocking direct westward access from (3, 2). Tile (6, 4) is a solid rock wall blocking direct southern passage from (6, 3).
-- Northern Ridge Exhaustive Boundary Audit (Turn 49247): The Northern Ridge (Ladder E at 9, 1) is completely isolated by confirmed rock walls at: (2, 2), (2, 3), (3, 4), (5, 4), (6, 4), (8, 5), (9, 6), (10, 1), (12, 7), (13, 7), (14, 7), (15, 7), (16, 8), (17, 5), and (18, 5). It has zero physical ground connections to lower 2F or Ladder A.
-- **Ladder B Column 23 Corridor**: From Ladder B (22, 6), move Down to (22, 7), East to (23, 7), and South along Column 23 (rows 7..11) to reach Row 11 Thoroughfare at (23, 11). Note that (22, 8..10) are solid rock walls.
-- **Row 11 Western Barriers (Turns 49392 & 49395)**:
-  - (13, 11) and (13, 12) are confirmed solid rock walls blocking westward traversal from (14, 11..12).
-  - Column 14 extends south across (14, 13..14) to open floor on Row 14/15 (cols 15..19).
-- **Ladder C South Barrier (Turn 49588)**: Tile (19, 8) directly south of Ladder C (19, 7) is a solid purple rock wall blocking direct southward passage from Ladder C into Row 9.
-- **Column 13 Barrier at Row 12 (Turn 49568)**: Tile (13, 12) is a solid rock wall blocking direct westward passage from (14, 12).
-
-## Verified Northern Ridge Barriers & Enclosure (Turn 49501)
-- **Verified Collision Barriers**:
-  - (9, 6), (10, 6), (11, 6), (12, 6), (14, 6), (15, 6) are solid rock walls blocking southern egress from Row 5.
-  - (13, 7) is a solid rock wall making (13, 6) a dead-end pocket (Max Potion item ball).
-  - (16, 8) is a solid rock wall making (16, 7) a dead-end pocket.
-  - (17..18, 5) are solid rock walls blocking direct passage between Row 5 and the central loop.
-- **Topology Conclusion**: The Northern Ridge (Ladder E at 9, 1 on 2F) and Row 5 (cols 9..16) form an entirely self-contained upper sector on 2F with no ground passage to the southern half of 2F or Ladder A. Access to the main 2F maze and southwest sector (TM14 Blizzard at 4, 15) must be entered via Ladder B at (23, 7) on 1F.
-- **Column 24 South Termination (Turn 49520)**: Column 24 dead-ends at (24, 15); (24, 16) is a solid rock wall. Direct access from Column 24 south into Row 17 is blocked.
-- **Column 25 Barrier at Row 10 (Turn 49544)**: Tile (25, 10) is a solid rock wall blocking direct southward passage from (25, 9); detour west via (24, 9..12) or east via (26, 10..14).
-- **Eastern Sector Bypass (Turn 49542)**: Tile (26, 6) is a solid rock wall. Bypass to the south: (27, 6) -> Down to (27, 7) -> Left to (26, 7) -> Left to (25, 7) -> opens south into Column 25/26 (rows 8..14).
-- **Row 17 Eastern Termination & Row 13 Bypass (Turn 49556)**: Tile (20, 17) is a solid rock wall blocking Row 17 westward at (21, 17). Open bypass to the northwest: (21, 17) -> Up 2 to (21, 15) -> Right to (22, 15) -> Up 2 to (22, 13) -> opens west along Row 13 (21..17, 13).
-- **Row 13 Western Barrier & Row 11 Connector (Turn 49566)**: Tile (16, 13) is a solid rock wall blocking Row 13 westward at (17, 13). Connector to Row 11: (17, 13) -> Up 2 to (17, 11) opens west along Row 11 Thoroughfare to (14, 11).
-- **Row 17 Corridor Topography (Verified Turn 49645)**:
-  - Row 17 is an open east-west corridor spanning (21..26+, 17) connected north to (21..22, 15) and (21..22, 13).
-  - Row 18 is a solid rock boundary wall across (17..26, 18).
-  - Tile (20, 17) is a solid rock wall separating the (11..19, 17) western segment from the (21..26+, 17) eastern segment.
-
-- **Row 4 Barrier Array (Verified Turn 49734)**: Tiles (3..8, 4) are solid rock walls blocking direct southward passage from Row 3 into Row 5.
-- Eastern Bypass Collision Update (Turn 49772): Tile (28, 7) is a solid rock wall blocking direct southern passage from (28, 6). Direct route south is via (25, 9) -> Right to (26, 9) -> Column 26 corridor (26, 9..14).
-
-- Collision at (21, 14) (Verified Turn 49973): Tile (21, 14) is a solid rock wall blocking direct southward passage from (21, 13) towards Row 17. The verified passage from Row 13 to Row 17 is via Column 22: (22, 13) -> Down 2 to (22, 15) -> Left 1 to (21, 15) -> Down 2 to (21, 17).
-- Barrier at (26, 16) (Verified Turn 49990): Tile (26, 16) is a solid rock wall blocking direct northward passage from (26, 17) along Column 26. Bypass via Column 27/28: (27, 17) -> Up to (27, 14) -> Left to (26, 14).
-
-- Column 27/28 Bypass Correction (Turn 50098): Tile (27, 15) is a solid rock wall. Open vertical passage north from Row 17 is along Column 28: (27, 16) -> Right to (28, 16) -> Up to (28, 14) -> Left to (26, 14) -> Column 26 corridor (26, 13..9).
-- Collision at (29, 2) (Verified Turn 50103): Tile (29, 2) is a solid rock wall. Open passage north to Ladder D (29, 1) and Row 1 is via Column 28: (29, 3) -> Left to (28, 3) -> Up 2 to (28, 1) -> Right to Ladder D (29, 1) or Left along Row 1.
-- Collision at (26, 1) (Verified Turn 50105): Tile (26, 1) is a solid rock wall blocking Row 1 westward at (27, 1). Open westward bypass is via Row 2: (27, 1) -> Down to (27, 2) -> Left across (26..23, 2).
-- Collision at (26, 2) (Verified Turn 50108): Tile (26, 2) is a solid purple rock wall blocking direct westward passage from (27, 2). Open passage south into Row 4/5 is via Column 28/29: (27, 2) -> (28, 2) -> (28, 3) -> (29, 3) -> (29, 4..5) -> opens west along Row 5 (29..24, 5).
-- Collision at (2, 1) (Verified Turn 50156): Tile (2, 1) is a solid purple rock wall blocking direct westward passage from (3, 1).
-- Row 0 Northern Boundary (Turns 50157-50211): (4, 0), (5, 0), and (6, 0) are solid rock walls. Row 0 open floor exists at (7, 0) and (8, 0) only.
-- NW Isolated Sector Proof: Northern Ridge (cols 3..9, rows 0..3) is fully bounded on the north by (4..6, 0), on the west by (2, 1..3), and on the south by (3..8, 4).
+## Verified Topology & Passages
+1. **Northern Ridge (Isolated)**:
+   - Contains Ladder E at (9, 1).
+   - Fully isolated: bounded north by rock walls (4..6, 0), west by (2, 1..3), south by (3..8, 4), and east/south by rock walls at (9, 6), (10, 6), (11, 6), (12, 6), (14, 6), (15, 6), (16, 8), and (17..18, 5).
+2. **Southeast & East Sector**:
+   - Ladder B at (22, 6) -> move Down to (22, 7), East to (23, 7), South along Column 23 (rows 7..11) to Row 11 at (23, 11).
+   - Row 11 Thoroughfare: open floor across cols 14..24.
+   - Column 24: spans rows 11..15; dead-ends at (24, 15).
+   - Column 26: open vertical corridor spanning rows 9..14.
+   - Ladder D at (29, 1) connects south via (29, 3..6) -> (28..25, 6..7) to Column 26 at (26, 9..14).
+3. **South-Central & Southern Corridors**:
+   - Row 11 connects to Row 13 via Column 17: (17, 11) -> (17, 12) -> (17, 13).
+   - Row 13 connects across cols 17..22 to Column 22.
+   - Column 22 connects south: (22, 13) -> (22, 14..15) -> (21, 15) -> (21, 16..17) to Row 17.
+   - Row 17 spans (21..28, 17), connecting east via Column 28 (28, 16..14) to Column 26 (26, 14).
+   - Column 26 connects north to (26, 9), leading west through (25, 9) into the Southwest Corridor toward (4, 15).
