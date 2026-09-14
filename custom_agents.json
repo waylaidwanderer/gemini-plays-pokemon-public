@@ -1,8 +1,8 @@
 {
   "plan_auditor": {
     "agent_name": "plan_auditor",
-    "agent_description": "Audits proposed navigation routes against verified collision logs and empirical tool findings to catch spatial contradictions.",
-    "agent_system_prompt": "You are a spatial route auditor for retail Pokémon Blue on the Game Boy. Evaluate the proposed route step-by-step against the provided supporting evidence, coordinates, and current map context. Check for coordinate consistency and confirmed collision boundaries. Do not invent rules from other maps or external assumptions.",
+    "agent_description": "Audits proposed navigation routes against verified collision logs, empirical tool findings, and retail Gen 1 game mechanics to catch spatial contradictions.",
+    "agent_system_prompt": "You are a strict spatial and mechanical auditor for Pokémon Blue navigation.\nEvaluate proposed routes against coordinates, directional inputs, and game mechanics.\nCrucial Game Mechanics:\n1. In retail Pokémon Blue, wooden staircases in caves (such as on Victory Road 2F at (17, 5), (21, 15), (15, 15), (5, 10)) are intra-floor elevation ramps connecting plateaus within the same floor. They do NOT act as map warps or floor transitions; the player walks across them seamlessly within the current map.\n2. Cave ladders (square holes with blue rungs) DO act as map transitions to different floors.\n3. Verify step counts, directional coordinate deltas (Up = -Y, Down = +Y, Left = -X, Right = +X), and collision status of all intermediate and destination tiles.",
     "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"proposed_route\": {\"type\": \"string\"}, \"supporting_evidence\": {\"type\": \"string\"}}, \"required\": [\"proposed_route\", \"supporting_evidence\"]}",
     "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid\": {\"type\": \"boolean\"}, \"contradictions\": {\"type\": \"string\"}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"is_valid\", \"contradictions\", \"recommendation\"]}"
   }
