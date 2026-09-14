@@ -3876,8 +3876,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Active Plan (Turn 18231): Retracing east along row 8 to (14, 8), south to row 12, east to column 19, and north to wooden staircase at (17, 5) to ascend to the northern upper plateau.
 
 
-- Current Position (Turn 18258): (21, 15) facing Down on wooden staircase.
-- Active Plan: Descend to row 16 lower corridor, traverse east to Eastern Vertical Highway at (28, 16), and head north to investigate access to Ladder (27, 7).
+
+- Current Position (Turn 18260): (28, 16) facing Right at base of Eastern Vertical Highway.
+- Active Plan: Moving north along Eastern Vertical Highway (column 28) to (28, 11) to inspect passage into rows 7-10 eastern sector.
 
 
 <hr>
