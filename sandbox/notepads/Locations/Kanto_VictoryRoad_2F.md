@@ -20,7 +20,7 @@
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
-- Wall at (27, 6): Solid rock wall directly south of (27, 5) [Empirically verified Turn 16136].
+- Wall at (27, 6): Confirmed solid rock wall directly south of (27, 5) with Switch Plate A depressed [Tested Turns 16136, 17234].
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
 - Wall at (28, 10): Solid rock wall directly north of (28, 11) [Empirically verified Turn 17207].
 - Wall at (27, 10): Solid rock wall directly north of (27, 11) [Empirically verified Turn 16607; northern entry from Row 11 into eastern chamber is completely blocked].
