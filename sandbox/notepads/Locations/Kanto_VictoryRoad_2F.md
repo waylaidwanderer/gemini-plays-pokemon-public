@@ -29,7 +29,6 @@
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
-- Wall at (13, 14): Continuous solid rock wall directly south of Boulder 5; pushing south verified 0 movement delta [Turns 16994-16995].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).

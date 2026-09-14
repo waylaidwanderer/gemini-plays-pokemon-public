@@ -16,7 +16,6 @@
 
 ## Active Strategic Plan
 
-- Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
 
 ## Post-Reset Status (Turn 17155+)
 - Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
