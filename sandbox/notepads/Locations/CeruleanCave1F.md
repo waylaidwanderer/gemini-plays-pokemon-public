@@ -22,7 +22,7 @@
 
 4. **South-Central Terrace & Southwest Waterways**:
    - Southern Water Basin: Connects south along cols 8..11 (rows 10..15) and connects north via rows 6..7 westward.
-   - South-Central Ramp: Located at (17, 15) facing south into water.
+   - South-Central Ramp: Located at (11, 13) facing south into water at (11, 14). Accessible via Row 12 (cols 11..18).
    - Ladder C at (18, 9) <-> 2F Central Sector (19, 7).
-   - South-Central Terrace spans rows 8..14 (cols 15..18). Connects Ladder C (18, 9) to South Ramp at (17, 15).
+   - South-Central Terrace spans rows 8..14 (cols 11..18). Connects Ladder C (18, 9) to South Ramp at (11, 13).
 - **East Shoreline Collision (Verified Turn 50332)**: (27..28, 12) is an elevated cliff edge overlooking (27..28, 11) water; direct disembarkation from water onto floor at (27..28, 12) is impassable. Full canal transit routes north via cols 28..29 to North Canal (Row 4).
