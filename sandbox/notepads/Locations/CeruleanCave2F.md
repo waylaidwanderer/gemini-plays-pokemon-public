@@ -29,6 +29,8 @@
 - **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
 - **Rock Barrier**: (22, 8..11) is a solid rock wall separating Column 23 from Column 21 on upper rows.
 - **Traversal Plan**: When arriving at (22, 6) from Ladder B, use chunked testing (4-6 steps max per chunk) to verify southern passageways and west connections step-by-step.
-- **Verified Row 11-12 Corridor (Turn 50718)**:
+- **Verified Row 11-12 & Row 15 Corridor (Turns 50718-50721)**:
   - Row 11 is open from (23, 11) through (17, 11).
-  - From (17, 11), South to (17, 12) connects West through (16, 12) and (15, 12) into the western sector.
+  - (16, 12) is solid rock.
+  - Column 17 is open south from (17, 11) through (17, 16).
+  - Rows 15 and 16 are wide open east-west thoroughfares across cols 13..18 connecting eastern sector to western corridors.
