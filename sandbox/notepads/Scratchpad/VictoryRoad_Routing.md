@@ -51,8 +51,10 @@
 - Next Exploration Target: Investigate Northwest chamber and passages around Boulder 1 (currently at 5, 3) to locate ladder/exit to 3F.
 
 
-- Current Position (Turn 18222): (9, 8) facing Right at entrance to Column 9.
 - Active Plan: Moving north along Column 9 to Row 1 corridor, then west along Row 1 to ladder (1, 1).
 
 - Collision Log (Turn 18224): Attempted North from (9, 8) into (9, 7) and bumped. Confirmed elevation cliff separating row 8 plateau from lower trench at row 7.
 - Active Plan (Turn 18231): Retracing east along row 8 to (14, 8), south to row 12, east to column 19, and north to wooden staircase at (17, 5) to ascend to the northern upper plateau.
+
+- Current Position (Turn 18245): (19, 12) facing Down/East.
+- Breakthrough Priority: Approach Boulder at (24, 10) from (23, 10). Activate Strength and test pushing Boulder (24, 10) East into Eastern Ladder Chamber (cols 25-28, rows 7-9) to access Ladder at (27, 7).
