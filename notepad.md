@@ -2918,6 +2918,10 @@
   1. Dismount the Bicycle (Open Menu -> ITEM -> BICYCLE) to use 1-tile foot precision.
   2. Use single-button input testing without compound multi-step macros.
 
+## SDK Script Movement Timing
+- Game Boy walking animations require approximately 250ms per tile step.
+- Automated Python scripts utilizing `mgba.press_buttons()` must include `sleep 250` or greater between consecutive directional movement inputs. Using `sleep 100` causes input dropping during active walk animations, leading to macro desyncs.
+
 <hr>
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
