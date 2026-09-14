@@ -3878,7 +3878,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), accessed from the south via (27, 8).
-- Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
+- Northwest Ladder: Visually confirmed at (1, 1) on Turn 18106! Features blue vertical rails and 3 horizontal rungs, situated in the northwest chamber (cols 1-4, rows 1-3) behind Pokémaniac trainer at (4, 2). This is the true progression ladder to 3F.
 
 ## Layout & Topology
 - Column 8 & Row 1 Solid Boundary: Row 1 and Row 0 are solid cave ceiling/boundary across all columns. Column 8 rock wall extends from row 2 south, with (8, 2) being a solid rock wall corner. There is NO west passage from column 9 across rows 0-6 [Verified Turn 17900].
