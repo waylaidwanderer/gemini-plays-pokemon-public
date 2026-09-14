@@ -3848,14 +3848,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2 (9, 11): Confirmed immovable; north (9, 10) and west (8, 11) are solid rock walls, row 10 wall (10, 10) prevents north access [Verified Turn 17961-17962].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
+- Boulder at (24, 10): Visually confirmed orange Strength boulder on CurrentScreen 18004. Previously misclassified as rock wall before Strength was active.
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
 ## Current Objective & Route
-
-- Tile (21, 11): Impassable elevation cliff directly north of (21, 12) [Empirically verified Turn 17981].
+- Navigate to (23, 10) and test pushing the boulder at (24, 10) with active Strength to open access to ladder (26, 8).
+- Active Position: (19, 6) navigating to (23, 10) to push boulder (24, 10).
 
 <hr>
 
