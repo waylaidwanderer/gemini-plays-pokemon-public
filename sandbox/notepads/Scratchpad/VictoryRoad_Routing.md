@@ -34,18 +34,18 @@
 
 
 
-## Current Objective & Route
 
 ## Active Exploration Log (Turn 18091)
 - Boulder 2 at (9, 11): Confirmed 100% immobile/boxed in on north (wall 9, 10) and west (wall 8, 11). Switch Plate B at (9, 16) cannot be activated by Boulder 2.
 - Switch Plate A at (1, 16): Disproven to lower Barrier Block (23, 14) across 5 documented empirical tests.
-- Visual Confirmation at (5, 5): Boulder 1 is currently at (5, 5) at default starting position.
 
 - Strength Status: Activated with Geodude (ROCKY) on Turn 18102 at (5, 6).
 ## Active Exploration Log (Turn 18121)
-- Current Position: (17, 7) facing North in central corridor.
 - Collision Log (Turn 18106): From (5, 4) facing West, stepped Left into (4, 4) and halted; confirming (4, 4) is solid rock wall.
 - Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
 - Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pok�maniac trainer at (4, 2). Destination unverified.
 
 - Switch Plate A Status (Turn 18146): Boulder 3 successfully pushed onto Switch Plate A at (1, 16). Switch is depressed! Proceeding to (23, 14) on the same floor visit to verify lowered barrier and ascend ladder (25, 14).
+- Current Position: (14, 8) facing Right at columns 13-14 corridor.
+- Wall at (15, 3): Verified solid rock wall across columns 14-15 (rows 0-7) terminating upper corridor westward [Turns 18123-18125].
+- Active Objective: Retracing via columns 13-14, staircase (15, 15), row 16, and staircase (21, 15) to inspect Barrier Block (23, 14) and verify if Switch Plate A depressed it.

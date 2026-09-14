@@ -17,6 +17,7 @@
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
+- Northern Upper Corridor (Rows 0-3): Terminated on the west by solid vertical rock walls along columns 14-15 across rows 0-7. Westward passage beyond column 16 is completely blocked [Empirically verified Turns 18123-18125].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Northern Perimeter (Rows 0-1): Row 1 has impassable cliff at (17, 2) and (9, 2), but columns 20-23 across rows 0-1 form an open, fully traversable northern corridor connecting the northeast plateau [Verified Turns 16853-16855].
 - Column 8 Rock Wall: Solid rock wall along column 8 spanning rows 2 through 7, completely separating the eastern plateau from the western chamber (west movement blocked from (9, 3) into (8, 3) [Empirically verified Turn 16514]).
