@@ -1,6 +1,5 @@
 # Victory Road 2F Routing & Active Hypotheses
 
-- Switch Plate A at (1, 16): DEPRESSED by Southern Chamber boulder.
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
@@ -41,4 +40,9 @@
 - Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
 
 ## Current Objective & Route
-- Retrace west along row 2 to staircase (17, 5), descend to row 6, navigate south via column 13 to Southern Chamber (4, 14), and push boulder onto Switch Plate A (1, 16).
+
+## Active Exploration Log (Turn 18091)
+- Current Position: (9, 8) facing West on elevated plateau.
+- Boulder 2 at (9, 11): Confirmed 100% immobile/boxed in on north (wall 9, 10) and west (wall 8, 11). Switch Plate B at (9, 16) cannot be activated by Boulder 2.
+- Switch Plate A at (1, 16): Disproven to lower Barrier Block (23, 14) across 5 documented empirical tests.
+- Visual Confirmation at (5, 5): Boulder 1 is currently at (5, 5) at default starting position.
