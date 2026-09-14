@@ -3012,21 +3012,25 @@
 
 # Scratchpad: Cerulean Cave Master Route to Mewtwo (B1F)
 
-## 2F Sector Disconnection & Master Routing Solution
-- **Sector 1 (Southeast 2F - Ladder B / Ladder D)**: 
-  - Accessed via Ladder B (22, 6) or Ladder D (29, 1).
-  - Encloses Row 11 Thoroughfare (14..24, 11), Column 14 dead-end (14, 11..13), Row 13 (17..22, 13), Row 17 (21..27, 17), and Column 26.
-  - Zero ground access to Row 9 Western Thoroughfare (blocked at (22, 9) and (24, 9)) or Column 0.
-- **Sector 2 (Central / Northwest 2F - Ladder E / Ladder C)**:
-  - Accessed via Ladder E (9, 1) or Ladder C (19, 7).
-  - Contains Northern Ridge (3..9, 1), Row 3 (3..9, 3), Row 5 (9..16, 5), Column 16, Central Loop (18..22, 2..5), Row 8 bypass (15..13, 8), and Row 9 Western Thoroughfare (13..0, 9).
-  - Connects directly to Column 0/1 and Ladder A (1, 3) leading to B1F (Mewtwo)!
+## 2F Master Topology & Bypass Network
+- **Row 11 Thoroughfare**: Spans cols 14..24 at (14..24, 11).
+- **Column 24 Corridor**: Connects Row 11 at (24, 11) south to (24, 14).
+- **Column 26 North Highway**: Connects (26, 14) north past rows 13..10 to Row 9 at (26, 9).
+- **Row 9 East-West Highway**: Spans cols 26..15 at (26..15, 9).
+- **Row 8 Bypass at (14, 9)**: Tile (14, 9) is a rock block. Bypass via Row 8: (15, 9) -> Up to (15, 8) -> Left 2 to (13, 8) -> Down to (13, 9).
+- **Western Sector & Column 0**: From (13, 9), Row 9 continues west across cols 13..0 to (0, 9).
+- **Ladder A (1, 3)**: Column 0 ascends north (0, 8..2) -> (1, 2) -> (1, 3) into Ladder A leading directly to B1F (Mewtwo)!
 
 ## Definitive Execution Route
-1. On 1F, explore the full waterway network using Surf from ramps (11, 13) / (25, 9) / (21, 11).
-2. Ascend to 2F via Ladder B (23, 7) on 1F -> (22, 6) on 2F.
-3. Systematically test all open 2F branches (B1-B9) in the main 2F sector to find the true pathway to the western sector and Ladder A (1, 3).
-4. Descend Ladder A to B1F, navigate to Mewtwo, and capture Mewtwo with the Master Ball!
+1. From (14, 12), move Up to Row 11 (14, 11) and East to (24, 11).
+2. Descend Column 24: (24, 11) -> (24, 14).
+3. Cross East to Column 26: (24, 14) -> (26, 14).
+4. Ascend Column 26 North: (26, 14) -> (26, 9).
+5. Traverse Row 9 West: (26, 9) -> (15, 9).
+6. Bypass (14, 9) via Row 8: Up to (15, 8) -> Left 2 to (13, 8) -> Down to (13, 9).
+7. Traverse Row 9 West to Column 0: (13, 9) -> (0, 9).
+8. Ascend Column 0 North: (0, 9) -> (0, 2) -> (1, 2) -> (1, 3) [Ladder A].
+9. Descend Ladder A to B1F, navigate to Mewtwo, and capture Mewtwo with the Master Ball!
 
 
 <hr>
