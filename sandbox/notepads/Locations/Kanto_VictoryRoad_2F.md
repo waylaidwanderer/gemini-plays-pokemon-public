@@ -12,6 +12,8 @@
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
 - Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
+- Tile (21, 11): Impassable elevation cliff wall directly north of (21, 12) [Empirically verified Turn 17981].
+- Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
