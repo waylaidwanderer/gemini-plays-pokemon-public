@@ -62,4 +62,5 @@
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-- Current Position (Turn 18391): (5, 8) in wild battle with Machoke.
+- Current Position (Turn 18393): (5, 8) facing Up after fleeing wild Machoke.
+- Immediate Route: Step Down 3 times through (5, 9) and wooden staircase (5, 10) to (5, 11), then take Western Highway north to ladder (0, 8) to reset 2F boulders.
