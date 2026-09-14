@@ -3870,7 +3870,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   2. Boulder at (13, 13): Pushed south from (13, 12), lateral movements untested.
   3. Barrier (23, 14) guarding exit ladder (25, 14): Controlled by unactivated switch (likely Switch Plate B).
 
-- Current Position (Turn 18361): (21, 16) at row 16 / column 21 staircase junction.
+- Current Position (Turn 18366): (17, 16) facing Left on row 16 lower corridor.
 
 
 <hr>
