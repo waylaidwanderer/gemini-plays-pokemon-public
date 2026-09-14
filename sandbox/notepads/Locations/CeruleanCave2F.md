@@ -9,7 +9,7 @@
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Isolated 7-tile pocket].
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
-5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northern Ridge dead end].
+5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northwest Sector entry to Ladder A].
 
 ## Planned Master Route to Ladder A (1, 3) -> B1F (Chunked Traversal Protocol)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
