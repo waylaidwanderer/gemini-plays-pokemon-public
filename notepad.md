@@ -2932,7 +2932,7 @@
   - **Ladder E (9, 1) Sector**: Connects Rows 1, 3, 5 (cols 3-16). Blocked from Row 7/Row 9 by solid rock barriers at (8, 5), (13, 7), (16, 8).
   - **Ladder B (22, 6) Sector**: Connects Column 23 and Row 11 (cols 14-23). Blocked from Column 12 by solid rock at Column 13/14.
   - **Ladder C (19, 7) Sector**: Isolated 7-tile pocket.
-  - **Ladder D (29, 1) Sector**: Connects Column 29, Columns 27-28, and the entire southern highway (Row 9, cols 5-29)!
+  - **Ladder D (29, 1) Sector**: Hypothesis: Probing access via Ladder D at 1F (27, 1) <-> 2F (29, 1) to explore Column 29 and potential southern connections.
   - **Ladder A (1, 3) Descent to B1F (Mewtwo)**: Accessible from Row 9 via:
     Row 9 (6, 9) -> Column 6 (6, 8..5) -> Row 5 (6, 5 -> 0, 5) -> Column 0 (0, 5 -> 0, 3) -> Ladder A (1, 3)!
 
