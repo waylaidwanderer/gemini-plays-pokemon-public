@@ -2946,11 +2946,11 @@
    - Step North onto Ladder B Ramp at (25, 9).
    - Walk North 2 to (25, 7), West 2 into Ladder B at (23, 7).
    - Ascend to 2F Ladder B at (22, 6).
-3. **On 2F from Ladder B (22, 6) to Row 9**:
+3. **On 2F from Ladder B (22, 6) to Column 14 (14, 11)**:
    - Step Down to (22, 7), East to (23, 7).
-   - Walk South down Column 23: (23, 7) -> (23, 13).
-   - Walk West along Row 13: (23, 13) -> (19, 13).
-   - Walk North up Column 19: (19, 13) -> (19, 9).
+   - Walk South down Column 23 to (23, 11).
+   - Walk West along open Row 11 to (14, 11) [Column 14 entry point].
+   - From (14, 11), perform chunked local testing of southern and western branches to connect to Row 9 and Ladder A.
 4. **Row 9 Westbound Traversal**:
    - Walk West along Row 9: (19, 9) -> (15, 9).
    - Bypass (14, 9) rock barrier: Up to (15, 8) -> West 2 to (13, 8) -> Down to (13, 9).
