@@ -31,4 +31,4 @@
 - Boulder 1 Status (Turn 17304-17308): Pushed from (5, 5) to (5, 4) to (5, 3). Confirmed blocked north by rock wall (5, 2) [Turn 17305]. Walls at (4, 4) and (6, 4) confirmed solid [Turns 17306, 17308]. Gap at (5, 4) is impassable while Boulder 1 is at (5, 3).
 
 - Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
-- Barrier Block (23, 14): Re-tested on Turn 17399 with Switch Plate A depressed; confirmed 100% solid. Disproves hypothesis that Switch Plate A controls Barrier (23, 14). Pivoting to explore Switch Plate B at (9, 16) and column 9 trench.
+- Barrier Block (23, 14): Re-tested on Turn 17399 with Switch Plate A depressed; confirmed 100% solid. Disproves hypothesis that Switch Plate A controls Barrier (23, 14).
