@@ -14,9 +14,6 @@
 - Advice NPC at (26, 3): non-hostile ("Many trainers give up the challenge here.") [Turn 16749].
 - Iron used on Geodude (ROCKY) to boost Defense and free Bag slot [Turn 16757].
 
-## Active Strategic Plan
-
-
 ## Post-Reset Status (Turn 17155+)
 - Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
 - Boulder 1: Confirmed reset to starting coordinates at (5, 5) [Turn 17156].
