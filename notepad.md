@@ -2936,11 +2936,7 @@
 - (22, 9): Solid rock wall blocks westward movement from Column 23 at (23, 9) along Row 9 (Verified Turn 49912).
 - Column 24 Barrier: (24, 6..10) are solid rock walls blocking east-west movement between Column 23 (Ladder B) and Column 25.
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
-## Northwest Sector & Ladder A Topology (Verified Turn 49817)
-- **Ladder A Exact Location**: Clearly visible at (1, 3) with ladder sprite `[=]`.
-- **Direct Entry Path to Ladder A**: (0, 2) -> (1, 2) -> (1, 3) [Ladder A] or (0, 3) -> (1, 3).
-- **Western Ascent Corridor (Column 0)**: (0, 5) -> (0, 4) -> (0, 3) -> (0, 2) -> (1, 2) -> (1, 3).
-- **Row 5 Western Terrace**: Open cave floor across cols 0..7 at (0..7, 5). Separated from (9, 5) by rock barrier at (8, 5).
+
 - **Row 4 Barrier**: Rock wall across cols 1..8 at (1..8, 4).
 - **Row 3 Corridor**: Open cave floor across cols 3..9 at (3..9, 3).
 - **Row 2 Boundary**: Rock wall across cols 4..8 at (4..8, 2) and (2, 2). Open floor at (3, 2), (1, 2), and (0, 2).
@@ -2992,6 +2988,7 @@
 - Collision at (29, 2) (Verified Turn 50103): Tile (29, 2) is a solid rock wall. Open passage north to Ladder D (29, 1) and Row 1 is via Column 28: (29, 3) -> Left to (28, 3) -> Up 2 to (28, 1) -> Right to Ladder D (29, 1) or Left along Row 1.
 - Collision at (26, 1) (Verified Turn 50105): Tile (26, 1) is a solid rock wall blocking Row 1 westward at (27, 1). Open westward bypass is via Row 2: (27, 1) -> Down to (27, 2) -> Left across (26..23, 2).
 - Collision at (26, 2) (Verified Turn 50108): Tile (26, 2) is a solid purple rock wall blocking direct westward passage from (27, 2). Open passage south into Row 4/5 is via Column 28/29: (27, 2) -> (28, 2) -> (28, 3) -> (29, 3) -> (29, 4..5) -> opens west along Row 5 (29..24, 5).
+- Collision at (2, 1) (Verified Turn 50156): Tile (2, 1) is a solid purple rock wall blocking direct westward passage from (3, 1).
 
 <hr>
 
