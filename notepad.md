@@ -3870,7 +3870,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
-- Row 1 Bypass: Row 1 is an open corridor across columns 6..9, connecting column 9 directly west past column 8 rock wall into the northwest sector [Verified Turn 17892].
+- Column 8 & Row 1 Solid Boundary: Row 1 and Row 0 are solid cave ceiling/boundary across all columns. Column 8 rock wall extends from row 2 south, with (8, 2) being a solid rock wall corner. There is NO west passage from column 9 across rows 0-6 [Verified Turn 17900].
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
@@ -3960,6 +3960,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-
 
 <hr>
