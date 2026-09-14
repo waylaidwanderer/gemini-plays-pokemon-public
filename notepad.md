@@ -3829,6 +3829,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
 ## Verified Empirical Topology & Findings
+- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Ladder to 3F: Confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Verified Turn 17751, 17786].
 - Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (27, 7).
 - Column 13 Corridor: Traversed on foot on Turn 17609.
@@ -3841,11 +3842,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
-## Current Objective & Route
-- Testing Targets:
-  1. Inspect Barrier Block at (23, 14) via staircase (21, 15).
-  2. Inspect northern access into ladder chamber (27, 7) from row 11 via Column 29 and Column 26.
-## Current Floor State (Turn 17913)
+## Current Floor State (Turn 17941)
+- Active Position: (22, 7) heading south down column 22 to (22, 11).
+- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Active Position: (23, 7) heading south to (22, 11).
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
@@ -3853,7 +3852,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
 ## Current Objective & Route
-- Head east along upper plateau to staircase (17, 5), descend to row 6, then head to staircase (21, 15) to inspect barrier block at (23, 14) and eastern ladder at (25, 14).
+- head to staircase (21, 15) to inspect barrier block at (23, 14) and eastern ladder at (25, 14).
 
 <hr>
 
@@ -3872,6 +3871,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
+- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
