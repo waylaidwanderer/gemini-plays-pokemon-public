@@ -3024,12 +3024,10 @@
   - Connects directly to Column 0/1 and Ladder A (1, 3) leading to B1F (Mewtwo)!
 
 ## Definitive Execution Route
-1. On 2F, step into Ladder B at (22, 6) to descend to 1F (23, 7).
-2. On 1F, Surf via North Canal to Northwest Ramp (15, 3) and ascend Ladder E (7, 1) to 2F (9, 1).
-3. On 2F, walk Down to Row 3 (9, 3), Down to Row 5 (9, 5), East to (15, 5), Down to Row 8 bypass (15..13, 8), and Down into Row 9 (13, 9).
-4. Walk West along Row 9 across cols 13..0 to Column 0 (0, 9).
-5. Ascend Column 0 north: (0, 8..2) -> (1, 2) -> (1, 3) [Ladder A].
-6. Descend Ladder A to B1F, navigate to Mewtwo, and throw the Master Ball!
+1. On 1F, explore the full waterway network using Surf from ramps (11, 13) / (25, 9) / (21, 11).
+2. Ascend to 2F via Ladder B (23, 7) on 1F -> (22, 6) on 2F.
+3. Systematically test all open 2F branches (B1-B9) in the main 2F sector to find the true pathway to the western sector and Ladder A (1, 3).
+4. Descend Ladder A to B1F, navigate to Mewtwo, and capture Mewtwo with the Master Ball!
 
 
 <hr>
