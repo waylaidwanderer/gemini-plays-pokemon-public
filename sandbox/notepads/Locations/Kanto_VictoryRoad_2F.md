@@ -7,6 +7,8 @@
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
+- Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
+- Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Northern Perimeter (Rows 0-1): Row 1 has impassable cliff at (17, 2) and (9, 2), but columns 20-23 across rows 0-1 form an open, fully traversable northern corridor connecting the northeast plateau [Verified Turns 16853-16855].
