@@ -31,7 +31,6 @@
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Tile (13, 12): Empirically verified open floor, but path south is blocked by Boulder 5 at (13, 13) against solid rock wall at (13, 14) [Turns 16994-16995].
 - Wall at (13, 14): Continuous solid rock wall directly south of Boulder 5; pushing south verified 0 movement delta [Turns 16994-16995].
-- Boulder 5: Located at (13, 13), permanently immovable (blocked south by (13, 14) rock wall, flanked by walls (12, 12-13) and (14, 12)).
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
@@ -71,7 +70,7 @@
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
-- Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Can be pushed North into (5, 4)/(5, 3).
+- Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
 - Boulder at (24, 10): Candidate sighting in eastern sector from afar [Turn 17218].
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17173].
