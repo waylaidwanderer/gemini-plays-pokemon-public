@@ -17,8 +17,7 @@
 3. **Northern Ridge Sector**:
    - Ladder E at (9, 1) on 2F <-> (7, 1) on 1F (isolated upper NW ridge).
 
-4. **West Sector & Route to Ladder A (B1F Mewtwo)**:
-   - Ladder A at (1, 3) descends to B1F (Mewtwo).
+
 
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
@@ -65,6 +64,7 @@
   - Row 9 at (25, 9) is blocked to the west by solid rock walls at (24, 9) and (24, 5..10).
 - NW Sector Collision Details (Verified Turns 48154-48165):
   - Row 3 is open across cols 3..9 at (3..9, 3), but (3, 4) is a solid rock wall blocking direct southern passage from (3, 3) to Row 5. Column 9 connects (9, 3) down to (9, 5), which connects east along Row 5 (9..16, 5).
+- (22, 9): Solid rock wall blocks westward movement from Column 23 at (23, 9) along Row 9 (Verified Turn 49912).
 - Column 24 Barrier: (24, 6..10) are solid rock walls blocking east-west movement between Column 23 (Ladder B) and Column 25.
 - Column 25 Barrier: (25, 12..15) are solid rock walls blocking eastward passage from Column 24 to Column 26. Row 11 dead-ends eastward at Column 24.
 ## Northwest Sector & Ladder A Topology (Verified Turn 49817)
