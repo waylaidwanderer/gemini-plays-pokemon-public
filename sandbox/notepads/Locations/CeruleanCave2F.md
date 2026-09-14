@@ -26,6 +26,6 @@
   - Chunk 9: Step East into **Ladder A at (1, 3)** to descend to B1F!
 
 ## Verified 2F Local Topography (Turn 50616)
-- **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 13).
+- **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
 - **Rock Barrier**: (22, 8..11) is a solid rock wall separating Column 23 from Column 21 on upper rows.
-- **Row 12/13 Bypass**: Row 12 and Row 13 are wide, open east-west thoroughfares spanning cols 19..26, allowing clean westward passage beneath the rock wall.
+- **Traversal Plan**: When arriving at (22, 6) from Ladder B, use chunked testing (4-6 steps max per chunk) to verify southern passageways and west connections step-by-step.
