@@ -35,6 +35,10 @@
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
+## Breakthrough Finding (Turn 18008)
+- Ladder to 3F: Visually confirmed at (26, 8) with light blue vertical rails and 2 horizontal rungs on black background.
+- Row 10 Wall Disproven: Tiles (25, 10), (27, 10), (28, 10) are open cave floor with pebbles, NOT a continuous solid wall. The Eastern Ladder Chamber is directly accessible from row 11 via Column 28 (28, 11 -> 28, 10 -> 28, 9 -> 28, 8 -> 27, 8 -> 26, 8).
+- Active Position: (23, 8) navigating via row 6, staircase (17, 5), and Eastern Highway to reach (28, 11) and ladder (26, 8).
+
 ## Current Objective & Route
-- Navigate to (23, 10) and test pushing the boulder at (24, 10) with active Strength to open access to ladder (26, 8).
-- Active Position: (19, 6) navigating to (23, 10) to push boulder (24, 10).
+- Navigate to (28, 11) via Eastern Highway, step north into (28, 10), (28, 9), (28, 8), and west into ladder (26, 8) to reach 3F.
