@@ -18,13 +18,12 @@
 - Tile (23, 9): Impassable rock wall blocking southward passage from (23, 8) [Verified Turn 17781].
 - Tile (23, 7): Confirmed ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
 - Tile (24, 10): Confirmed solid rock wall [Verified Turns 17759, 17788].
-- Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. Column 23 is now completely clear of obstacles!
+- Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. 
 - Row 5 Barrier: Solid rock wall/cliff across columns 19-24, blocking northern ascent from row 6 [Verified Turn 17792].
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
 ## Current Floor State (Turn 17941)
-- Active Position: (22, 7) heading south down column 22 to (22, 11).
 - Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Barrier (23, 14): Empirically verified SOLID and RAISED on Turn 17953 facing East from (22, 14). Confirms Switch Plate A does not lower this barrier; Switch Plate B at (9, 16) must be solved.
 - Boulder 2 (9, 11): Confirmed immovable; north (9, 10) and west (8, 11) are solid rock walls, row 10 wall (10, 10) prevents north access [Verified Turn 17961-17962].
@@ -35,4 +34,4 @@
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
 ## Current Objective & Route
-- head to staircase (21, 15) to inspect barrier block at (23, 14) and eastern ladder at (25, 14).
+- Flee wild Machop battle and navigate toward staircase (21, 15).

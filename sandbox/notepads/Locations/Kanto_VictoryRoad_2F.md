@@ -12,6 +12,7 @@
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
 - Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
+- Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
@@ -49,7 +50,7 @@
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937, Turn 17111, Turn 17191, and Turn 17399 by direct physical bump from (22, 14). Switch Plate A does not lower it.
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turns 16937, 17111, 17191, 17399, and 17953 by direct physical bump from (22, 14). Switch Plate A does not lower it.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
