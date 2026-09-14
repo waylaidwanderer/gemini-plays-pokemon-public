@@ -3824,7 +3824,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
 - Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695. Tested south push on Turn 17709-17710 with Strength active; boulder did not advance south into (13, 14).
-- Wall at (24, 10): Empirically verified solid rock wall from (23, 10) [Tested Turn 17759].
 - Elevation Boundary at (23, 12): Confirmed impassable from (23, 11) [Tested Turn 17758].
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
@@ -3836,7 +3835,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Strength Status: Activated with Geodude (ROCKY) on Turn 17692.
 - Tile (23, 9): Impassable rock wall blocking southward passage from (23, 8) [Verified Turn 17781].
 - Tile (23, 7): Confirmed ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
-- Tile (24, 10): Confirmed solid rock wall [Verified Turns 17759, 17788].
 - Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. 
 - Row 5 Barrier: Solid rock wall/cliff across columns 19-24, blocking northern ascent from row 6 [Verified Turn 17792].
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
@@ -3860,7 +3858,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Shelf (cols 25-28, rows 2-5): Confirmed 100% enclosed cul-de-sac (solid rock on col 29 and row 6).
 - Ladder (27, 7) Chamber: Fully enclosed on all 4 sides; functions as a drop-down landing zone from 3F, not first-pass ascent.
 - Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
-- Active Position: (18, 2) in battle with wild Graveler, fleeing to descend staircase (17, 5) to Southern Chamber (4, 14).
 
 ## Current Objective & Route
 - Retrace west along row 2 to staircase (17, 5), descend to row 6, navigate south via column 13 to Southern Chamber (4, 14), and push boulder onto Switch Plate A (1, 16).
@@ -3894,7 +3891,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
-- Row 10 Eastern Barrier (CORRECTED Turn 18008): Only isolated pillars at (24, 10) and (26, 10); tiles (25, 10), (27, 10), and (28, 10) are open cave floor with pebbles, providing direct northern access from row 11 into the ladder chamber at (26, 8).
+- Row 10 Eastern Barrier: Continuous solid rock wall/pillars across columns 24-28 separating row 11 from the eastern ladder chamber (solid walls verified at (24, 10), (25, 10), (26, 10), (27, 10), and (28, 10)). Direct northern entry from row 11 into the ladder chamber is completely blocked.
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
@@ -3962,6 +3959,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
 
+
+- Collision Sequence (Turn 18006): From (22, 8), attempted Down, Down, Right, Right; halted at (23, 8), confirming (24, 8) and (23, 9) are solid obstacles/walls.
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
