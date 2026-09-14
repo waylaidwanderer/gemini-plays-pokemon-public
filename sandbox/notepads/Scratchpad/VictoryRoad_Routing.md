@@ -76,3 +76,8 @@
 
 - Current Position (Turn 18408): (2, 1) facing Left directly adjacent to ladder (1, 1) on 1F.
 - Action: Step Left to ascend to 2F with reset boulders.
+
+## Post-Reset Arrival on 2F (Turn 18410-18413)
+- Arrived at (0, 8) on Victory Road 2F via ladder.
+- Confirmed Boulder 1 has reset to its default starting position at (5, 5).
+- Moving to (5, 6) directly south of Boulder 1 to prepare Strength activation and puzzle execution.
