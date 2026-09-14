@@ -3893,6 +3893,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Boulder 4 is reset to (22, 3).
 - Action: Step Right to (2, 1) and Left onto (1, 1) to re-ascend to 2F.
 
+- Current Position (Turn 18408): (2, 1) facing Left directly adjacent to ladder (1, 1) on 1F.
+- Action: Step Left to ascend to 2F with reset boulders.
+
 
 <hr>
 
