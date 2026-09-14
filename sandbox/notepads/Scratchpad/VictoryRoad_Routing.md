@@ -45,9 +45,10 @@
 - Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
 - Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pok�maniac trainer at (4, 2). Destination unverified.
 
-- Switch Plate A Status (Turn 18146): Boulder 3 successfully pushed onto Switch Plate A at (1, 16). Switch is depressed! Proceeding to (23, 14) on the same floor visit to verify lowered barrier and ascend ladder (25, 14).
 - Wall at (15, 3): Verified solid rock wall across columns 14-15 (rows 0-7) terminating upper corridor westward [Turns 18123-18125].
 
 - Barrier (23, 14) Final Empirical Verdict (Turn 18171): While Boulder 3 rested on Switch Plate A at (1, 16) on the same floor visit, attempted East step into (23, 14) from (22, 14). Halted and bumped. Conclusively proven: Switch Plate A does NOT lower Barrier Block (23, 14).
-- Current Position: (22, 14) facing East.
 - Next Exploration Target: Investigate Northwest chamber and passages around Boulder 1 (currently at 5, 3) to locate ladder/exit to 3F.
+
+- Current Position (Turn 18211): (3, 6) facing North at Western Highway.
+- Active Investigation: Approaching doorway (5, 4) to empirically test physical movement options around Boulder 1 at (5, 3).
