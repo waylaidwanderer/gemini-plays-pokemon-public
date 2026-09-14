@@ -1,6 +1,5 @@
 # Victory Road 2F Routing & Active Hypotheses
 
-## Current Floor State (Turn 17851)
 - Switch Plate A at (1, 16): DEPRESSED by Southern Chamber boulder.
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 1: Pushed to (5, 3).
@@ -24,8 +23,16 @@
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
 ## Current Objective & Route
-- Active Position: (14, 16) in lower corridor.
-- Primary Objective: Advance East along row 16 to staircase (21, 15) and Eastern Highway (cols 28-29).
 - Testing Targets:
   1. Inspect Barrier Block at (23, 14) via staircase (21, 15).
   2. Inspect northern access into ladder chamber (27, 7) from row 11 via Column 29 and Column 26.
+## Current Floor State (Turn 17881)
+- Active Position: (22, 3) on upper level.
+- Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
+- Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
+- Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
+
+## Current Objective & Route
+- Survey untested areas:
+  1. Inspect northwest chamber and trainer at (4, 2).
+  2. Inspect barrier block at (23, 14) and Eastern Ladder at (25, 14) via wooden staircase at (21, 15).
