@@ -1,29 +1,17 @@
-# Victory Road 2F Routing & Verified Facts
+# Victory Road 2F Routing & Active Hypotheses
 
-## Verified Empirical Discoveries
-- Arrival from 1F is at ladder (0, 8).
-- Row 4 (cols 0-8) was tested solid at (1, 4) and (3, 4). Gap at (5, 4) was previously blocked by Boulder 1 pushed to (5, 3).
-- Tile (27, 12) confirmed impassable cliff wall [Turn 16768].
-- Tile (21, 11) to (21, 12) confirmed impassable cliff wall [Turn 16763].
-- Item at (27, 5) collected: TM17 (SUBMISSION) [Turn 16758].
-- Advice NPC at (26, 3): non-hostile ("Many trainers give up the challenge here.") [Turn 16749].
+## Current Floor State (Post-Turn 17376)
+- Switch Plate A at (1, 16): DEPRESSED by Southern Chamber boulder.
+- Switch Plate B at (9, 16): Unoccupied.
+- Boulder 1: Pushed to (5, 3).
+- Boulder 2: At (9, 11) in trench. Immovable on north/west.
+- Boulder 4: At (27, 5) blocking column 27.
+- Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
-## Post-Reset Status (Turn 17155+)
-- Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
-- Boulder 1: Confirmed reset to starting coordinates at (5, 5) [Turn 17156].
-- Boulder 2: Confirmed at starting position (9, 11) [Turn 17158].
-- Boulder at (4, 14): Discovered at (4, 14) in Southern Chamber [Turn 17161].
-- Switch Plate A at (1, 16): DEPRESSED by Boulder 3 [Turn 17376]. Switch Plate B at (9, 16): Currently empty post-reset.
+## Active Hypotheses
+1. Barrier Block (23, 14) is controlled by Switch Plate B at (9, 16) (or by a boulder falling from 3F).
+2. Switch Plate A at (1, 16) lowered a barrier block elsewhere on 2F (unverified location).
+3. Ladder at (27, 7) leads to 3F. Entry into the chamber at (27, 7) must be determined (row 6 tested solid at (27, 6) and (28, 6); (25, 6) and (26, 6) unverified).
 
-
-- Boulder 1 Status (Turn 17304-17308): Pushed from (5, 5) to (5, 4) to (5, 3). Confirmed blocked north by rock wall (5, 2) [Turn 17305]. Walls at (4, 4) and (6, 4) confirmed solid [Turns 17306, 17308]. Gap at (5, 4) is impassable while Boulder 1 is at (5, 3).
-
-- Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
-- Barrier Block (23, 14): Re-tested on Turn 17399 with Switch Plate A depressed; confirmed 100% solid. Disproves hypothesis that Switch Plate A controls Barrier (23, 14).
-- Boulder 4 Status: Wedged at (27, 5) blocking south corridor; east blocked by Cooltrainer at (28, 5) and south blocked by rock wall (27, 6) [Verified Turn 17487].
-
-## Working Hypotheses & Floor Architecture (Unverified):
-  1. Ladder at (0, 8): Connects down to 1F.
-  3. Ladder at (25, 14): The exit ladder leading toward Indigo Plateau. Located behind Barrier Block (23, 14).
-  4. Switch Plate B at (9, 16): Controls Barrier Block (23, 14). Depressed by the boulder dropped through the hole on 3F!
-
+## Current Objective & Route
+- Survey northern sector (rows 3-6, cols 22-26) to test unverified tiles (25, 6) and (26, 6) and locate any barrier blocks lowered by Switch Plate A.
