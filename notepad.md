@@ -3827,11 +3827,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
 ## Verified Empirical Topology & Findings
-- Tile (17, 8): Verified 100% open flat cave floor on Turn 18048-18049 (prior note claiming cliff was completely erroneous).
 - Ladder to 3F: Confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Verified Turn 17751, 17786].
 - Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (27, 7).
 - Column 13 Corridor: Traversed on foot on Turn 17609.
-- Strength Status: Activated with Geodude (ROCKY) on Turn 17692.
 - Tile (23, 9): Impassable rock wall blocking southward passage from (23, 8) [Verified Turn 17781].
 - Tile (23, 7): Confirmed ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
 - Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. 
@@ -3840,15 +3838,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
 ## Current Floor State (Turn 17941)
-- Tile (17, 8): Verified 100% open flat cave floor on Turn 18048-18049 (prior note claiming cliff was completely erroneous).
 - Barrier (23, 14): Empirically verified SOLID and RAISED on Turn 17953 facing East from (22, 14). Confirms Switch Plate A does not lower this barrier; Switch Plate B at (9, 16) must be solved.
 - Boulder 2 (9, 11): Confirmed immovable; north (9, 10) and west (8, 11) are solid rock walls, row 10 wall (10, 10) prevents north access [Verified Turn 17961-17962].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
-- Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
-- Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
-- Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
 
 
@@ -3889,6 +3883,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Visually confirmed at (1, 1) on Turn 18106! Features blue vertical rails and 3 horizontal rungs, situated in the northwest chamber (cols 1-4, rows 1-3) behind Pokémaniac trainer at (4, 2). [Unclimbed; destination unverified].
 
 ## Layout & Topology
+- Column 17 Thoroughfare: Empirically verified open north-south corridor connecting row 11 directly to row 3 without requiring staircases [Verified Turn 18281].
 - Column 8 & Row 1 Solid Boundary: Row 1 and Row 0 are solid cave ceiling/boundary across all columns. Column 8 rock wall extends from row 2 south, with (8, 2) being a solid rock wall corner. There is NO west passage from column 9 across rows 0-6 [Verified Turn 17900].
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
