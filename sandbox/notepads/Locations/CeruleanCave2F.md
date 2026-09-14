@@ -9,7 +9,7 @@
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Isolated 7-tile pocket].
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
-5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [Northern Ridge dead end].
+5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northern Ridge dead end].
 
 ## Verified Master Route to Ladder A (1, 3) -> B1F (Verified Turn 50587)
 - **Entry Ladder**: Ladder B at (22, 6) (accessed via 1F Southeast Basin Ramp at (25, 9) -> (23, 7)).
