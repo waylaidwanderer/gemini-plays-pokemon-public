@@ -14,11 +14,13 @@
 ## Planned Master Route to Ladder A (1, 3) -> B1F (via Ladder E Northwest Sector)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
 - **Master Entry Ladder**: Ladder E at (7, 1) on 1F <-> (9, 1) on 2F.
-- **Local Frontier-Exhaustion Protocol from 2F (9, 1)**:
-  - Probe Row 1 West: (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1) -> (4, 1).
-  - Probe southward/westward connectors: (4, 1) -> (4, 3) / (3, 3) -> (1, 3) [Ladder A].
-  - Systematically test every adjacent tile in the northwest cluster ((3, 3), (2, 3), (1, 3), (0, 3)) using chunked 1-3 step tests.
-  - Step into **Ladder A at (1, 3)** to descend to B1F!
+- **Verified Complete Path to Ladder A (1, 3) on 2F (Turn 50781)**:
+  - From (9, 1), walk West along Row 1: (9, 1) -> (4, 1).
+  - From (4, 1), walk Left 1 to (3, 1), Down 2 to (3, 3) [Row 2 bypass], Right 2 to (5, 3).
+  - From (5, 3), walk Down 2 to (5, 5).
+  - From (5, 5), walk West 5 steps along Row 5: (5, 5) -> (0, 5).
+  - From (0, 5), walk North 2 steps up Column 0: (0, 5) -> (0, 3).
+  - From (0, 3), step Right 1 step into **Ladder A at (1, 3)** to descend to B1F!
 
 ## Verified 2F Local Topography (Turn 50616)
 - **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
