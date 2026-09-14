@@ -46,4 +46,6 @@
 - Current Position: (17, 7) facing North in central corridor.
 - Collision Log (Turn 18106): From (5, 4) facing West, stepped Left into (4, 4) and halted; confirming (4, 4) is solid rock wall.
 - Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
-- Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pokémaniac trainer at (4, 2). Destination unverified.
+- Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pokï¿½maniac trainer at (4, 2). Destination unverified.
+
+- Switch Plate A Status (Turn 18146): Boulder 3 successfully pushed onto Switch Plate A at (1, 16). Switch is depressed! Proceeding to (23, 14) on the same floor visit to verify lowered barrier and ascend ladder (25, 14).

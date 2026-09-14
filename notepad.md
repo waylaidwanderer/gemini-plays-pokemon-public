@@ -3867,6 +3867,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1 Status: Pushed north from (5, 5) to (5, 4) [Turn 18104], then from (5, 4) to (5, 3) [Turn 18106]. Currently resting at (5, 3).
 - Northwest Ladder Sighting (Turn 18106): Visible at (1, 1) with blue vertical rails and 3 horizontal rungs behind Pok�maniac trainer at (4, 2). Destination unverified.
 
+- Switch Plate A Status (Turn 18146): Boulder 3 successfully pushed onto Switch Plate A at (1, 16). Switch is depressed! Proceeding to (23, 14) on the same floor visit to verify lowered barrier and ascend ladder (25, 14).
 
 <hr>
 
