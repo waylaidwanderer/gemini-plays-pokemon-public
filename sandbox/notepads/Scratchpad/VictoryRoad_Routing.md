@@ -17,11 +17,7 @@
 
 ## Active Strategic Plan
 
-- Turn 16889: Confirmed column 14 is a continuous rock wall. The Northwest ladder (1, 1) was a conflation with 1F.
 - Row 16 Survey (Turns 16906-16914): Verified Boulder 4 is NOT on row 16 between cols 10 and 28. Switch Plate B at (9, 16) is empty.
-- Turn 16952: Column 29 verified solid rock wall from row 0 to row 5. Speculative eastern wrap-around is disproven.
-- Turn 17042: plan_auditor confirmed Boulder at (22, 3) cannot reach Switch Plate B at (9, 16) due to Gen 1 elevation constraints (cannot traverse staircases, ledges, or rows 11-13 rock barriers). Switch Plate B requires the boulder designated for the southern section.
-- Turns 17115, 17124: Physically bumped Up from (22, 14) into (22, 13) (0-tile delta). Confirmed tile (22, 13) is a solid rock wall; column 22 has no northern passage across rows 12-13.
 
 ## Post-Reset Status (Turn 17155+)
 - Turn 17155: Transitioned to 1F ladder (1, 1) and immediately re-ascended to 2F (0, 8), completely resetting all 2F puzzle objects.
@@ -35,3 +31,5 @@
 - Boulder 2 at (9, 11) status: empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271].
 
 - Boulder 1 Status (Turn 17304-17308): Pushed from (5, 5) to (5, 4) to (5, 3). Confirmed blocked north by rock wall (5, 2) [Turn 17305]. Walls at (4, 4) and (6, 4) confirmed solid [Turns 17306, 17308]. Gap at (5, 4) is impassable while Boulder 1 is at (5, 3).
+
+- Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].

@@ -29,7 +29,6 @@
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
-- Tile (13, 12): Empirically verified open floor, but path south is blocked by Boulder 5 at (13, 13) against solid rock wall at (13, 14) [Turns 16994-16995].
 - Wall at (13, 14): Continuous solid rock wall directly south of Boulder 5; pushing south verified 0 movement delta [Turns 16994-16995].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Tile (23, 7): Ordinary cavern floor, no warp effect [Empirically verified Turns 16028, 16544, 16563].
@@ -93,5 +92,4 @@
 - Wall at (27, 12): Impassable elevation cliff directly west of (28, 12) [Empirically verified Turn 16768 by bump test].
 - Column 14 Rock Wall: Solid rock wall from row -3 to row 5 along column 14, completely separating the Moltres plateau (cols 11-13) from columns 15-20. Row 1 does not connect westward to any northwest ladder [Empirically verified Turn 16889].
 - Wall at (27, 14): Impassable elevation cliff directly west of (28, 14) [Empirically verified Turn 16900 by bump test]. Ladder at (25, 14) cannot be accessed from column 28.
-- Row 16 Survey (Turns 16906-16914): Traversed row 16 from col 28 to col 10. Verified that Boulder 4 is NOT present anywhere on row 16 between columns 10 and 28. Switch Plate B at (9, 16) is empty.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised on Turn 16937 and Turn 17111, Turn 17191 by direct physical bump from (22, 14). Switch Plate A does not lower it. Pushing Boulder 4 through (23, 7)/(23, 8) also did not lower it.- Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
