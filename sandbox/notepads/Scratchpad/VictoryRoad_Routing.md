@@ -5,7 +5,6 @@
 - Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
 - Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695. Tested south push on Turn 17709-17710 with Strength active; boulder did not advance south into (13, 14).
-- Wall at (24, 10): Empirically verified solid rock wall from (23, 10) [Tested Turn 17759].
 - Elevation Boundary at (23, 12): Confirmed impassable from (23, 11) [Tested Turn 17758].
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
@@ -17,7 +16,6 @@
 - Strength Status: Activated with Geodude (ROCKY) on Turn 17692.
 - Tile (23, 9): Impassable rock wall blocking southward passage from (23, 8) [Verified Turn 17781].
 - Tile (23, 7): Confirmed ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
-- Tile (24, 10): Confirmed solid rock wall [Verified Turns 17759, 17788].
 - Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) [Turn 17877], then East from (23, 3) to (24, 3) [Turn 17879] with Strength active. 
 - Row 5 Barrier: Solid rock wall/cliff across columns 19-24, blocking northern ascent from row 6 [Verified Turn 17792].
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
@@ -41,7 +39,6 @@
 - Northeast Shelf (cols 25-28, rows 2-5): Confirmed 100% enclosed cul-de-sac (solid rock on col 29 and row 6).
 - Ladder (27, 7) Chamber: Fully enclosed on all 4 sides; functions as a drop-down landing zone from 3F, not first-pass ascent.
 - Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
-- Active Position: (18, 2) in battle with wild Graveler, fleeing to descend staircase (17, 5) to Southern Chamber (4, 14).
 
 ## Current Objective & Route
 - Retrace west along row 2 to staircase (17, 5), descend to row 6, navigate south via column 13 to Southern Chamber (4, 14), and push boulder onto Switch Plate A (1, 16).

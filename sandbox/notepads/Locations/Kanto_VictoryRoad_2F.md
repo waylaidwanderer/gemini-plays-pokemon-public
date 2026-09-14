@@ -23,7 +23,7 @@
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
-- Row 10 Eastern Barrier (CORRECTED Turn 18008): Only isolated pillars at (24, 10) and (26, 10); tiles (25, 10), (27, 10), and (28, 10) are open cave floor with pebbles, providing direct northern access from row 11 into the ladder chamber at (26, 8).
+- Row 10 Eastern Barrier: Continuous solid rock wall/pillars across columns 24-28 separating row 11 from the eastern ladder chamber (solid walls verified at (24, 10), (25, 10), (26, 10), (27, 10), and (28, 10)). Direct northern entry from row 11 into the ladder chamber is completely blocked.
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
@@ -91,6 +91,8 @@
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
 
+
+- Collision Sequence (Turn 18006): From (22, 8), attempted Down, Down, Right, Right; halted at (23, 8), confirming (24, 8) and (23, 9) are solid obstacles/walls.
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
