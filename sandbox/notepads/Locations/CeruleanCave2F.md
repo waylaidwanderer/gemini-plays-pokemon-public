@@ -14,8 +14,7 @@
    - Ladder C at (19, 7) <-> 1F (18, 9).
    - Central Loop: Ladder C connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3). Walled off from lower corridors by rock walls at (18..20, 4), (16, 8), (17, 5..8), and (19, 1).
 
-3. **Northern Ridge Sector**:
-   - Ladder E at (9, 1) on 2F <-> (7, 1) on 1F (isolated upper NW ridge).
+
 
 
 
@@ -115,4 +114,4 @@
 - **Row 4 Barrier Array (Verified Turn 49734)**: Tiles (3..8, 4) are solid rock walls blocking direct southward passage from Row 3 into Row 5.
 - Eastern Bypass Collision Update (Turn 49772): Tile (28, 7) is a solid rock wall blocking direct southern passage from (28, 6). Direct route south is via (25, 9) -> Right to (26, 9) -> Column 26 corridor (26, 9..14).
 
-- Collision at (21, 14) (Verified Turn 49973): Tile (21, 14) is a solid rock wall blocking direct southward passage from (21, 13) towards Row 17. The verified passage from Row 13 to Row 17 is via Column 22: (22, 13) -> Down 2 to (22, 15) -> Left 1 to (21, 15) -> Down 2 to (21, 17).
+- Collision at (21, 14) (Verified Turn 49973): Tile (21, 14) is a solid rock wall blocking direct southward passage from (21, 13) towards Row 17. The verified passage from Row 13 to Row 17 is via Column 22: (22, 13) -> Down 2 to (22, 15) -> Left 1 to (21, 15) -> Down 2 to (21, 17).- Barrier at (26, 16) (Verified Turn 49990): Tile (26, 16) is a solid rock wall blocking direct northward passage from (26, 17) along Column 26. Bypass via Column 27/28: (27, 17) -> Up to (27, 14) -> Left to (26, 14).
