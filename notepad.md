@@ -3881,7 +3881,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-- Current Position (Turn 18395): (5, 11) facing Down at base of wooden staircase (5, 10).
+- Current Position (Turn 18399): (5, 11) facing Left after fleeing Marowak.
 - Immediate Route: Step Left 2 times to (3, 11), then Up 4 times to (3, 7), then Left to (0, 7) and Down to ladder (0, 8) to descend to 1F and reset 2F boulders.
 
 
