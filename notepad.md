@@ -3854,13 +3854,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
-## Breakthrough Finding (Turn 18008)
-- Ladder to 3F: Visually confirmed at (26, 8) with light blue vertical rails and 2 horizontal rungs on black background.
-- Row 10 Wall Disproven: Tiles (25, 10), (27, 10), (28, 10) are open cave floor with pebbles, NOT a continuous solid wall. The Eastern Ladder Chamber is directly accessible from row 11 via Column 28 (28, 11 -> 28, 10 -> 28, 9 -> 28, 8 -> 27, 8 -> 26, 8).
-- Active Position: (20, 2) advancing east along row 2 toward (25, 2).
+## Critical Strategic Reassessment (Turn 18020)
+- Floor Reset Analysis: Map reset on Turn 17155 (and brief 1F descent around Turn 17763) reset all dynamic boulders and switch plates.
+- Switch Plate A at (1, 16): Boulder 3 at (4, 14) has likely reset to (4, 14), leaving Switch Plate A at (1, 16) unpressed. This is why Barrier (23, 14) was raised on Turn 17953!
+- Northeast Shelf (cols 25-28, rows 2-5): Confirmed 100% enclosed cul-de-sac (solid rock on col 29 and row 6).
+- Ladder (27, 7) Chamber: Fully enclosed on all 4 sides; functions as a drop-down landing zone from 3F, not first-pass ascent.
+- Primary Progression Route: Navigate to Southern Chamber (cols 2-7, rows 11-14), verify/push Boulder 3 from (4, 14) onto Switch Plate A at (1, 16) to depress switch, then proceed to row 14 plateau to ascend ladder (25, 14) to 3F!
+- Active Position: (25, 2) retracing west along row 2 toward staircase (17, 5) and Southern Chamber (4, 14).
 
 ## Current Objective & Route
-- Navigate to (28, 11) via Eastern Highway, step north into (28, 10), (28, 9), (28, 8), and west into ladder (26, 8) to reach 3F.
+- Retrace west along row 2 to staircase (17, 5), descend to row 6, navigate south via column 13 to Southern Chamber (4, 14), and push boulder onto Switch Plate A (1, 16).
 
 <hr>
 
