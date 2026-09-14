@@ -2864,6 +2864,7 @@
 - **Central Terrace North Cliff**: Elevated cliff overlooking the north canal; jumping down is blocked ("No SURFing on HYDROS here!").
 - **Shoreline Ledges**: Unramped water-to-land edges are elevated cliffs and cannot be disembarked onto directly without ramps.
 
+- Southwest Waterway Topology (Verified Turn 50188): Water flows west from (14, 6) across (13..8, 6) and turns south along Columns 8 and 9 (8..9, 6..10+), dividing the Central-West Island (cols 11..18, rows 8..10) from the Western Terrace (cols 4..6, rows 8..10).
 
 <hr>
 
