@@ -26,3 +26,16 @@
 - Cliff at (10, 7) and (11, 7): Empirically verified impassable elevation cliff directly north of row 8 at (10, 8) [Turn 17320] and (11, 8) [Turn 17336].
 - Barrier Block (23, 14): Re-tested on Turn 17399 with Switch Plate A depressed; confirmed 100% solid. Disproves hypothesis that Switch Plate A controls Barrier (23, 14).
 - Boulder 4 Status: Wedged at (27, 5) blocking south corridor; east blocked by Cooltrainer at (28, 5) and south blocked by rock wall (27, 6) [Verified Turn 17487].
+
+## Comprehensive Floor Mechanics & Victory Road Solution
+- Progression Architecture:
+  1. Ladder at (0, 8): Connects down to 1F.
+  2. Ladder at (27, 7): The ascending ladder to Victory Road 3F! Located in the northeast chamber (rows 7-9, cols 25-29). Accessed exclusively by jumping down the ledge from the northern plateau (rows 4-5).
+  3. Ladder at (25, 14): The exit ladder leading toward Indigo Plateau. Located behind Barrier Block (23, 14).
+  4. Switch Plate B at (9, 16): Controls Barrier Block (23, 14). Depressed by the boulder dropped through the hole on 3F!
+- Active Plan:
+  - Step 1: Retrace row 11 west to (23, 11).
+  - Step 2: Ascend column 23 north from (23, 11) to (23, 1).
+  - Step 3: Advance east along row 1 to column 27, then move south into rows 3-5.
+  - Step 4: Jump the ledge into the (27, 7) chamber.
+  - Step 5: Step onto ladder (27, 7) to ascend to Victory Road 3F!
