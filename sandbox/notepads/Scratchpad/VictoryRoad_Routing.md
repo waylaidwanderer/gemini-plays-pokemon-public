@@ -25,7 +25,7 @@
 - Boulder 2: Confirmed at starting position (9, 11) [Turn 17158].
 - Boulder at (24, 10): Confirmed present in eastern sector at (24, 10) [Turn 17218].
 - Boulder at (4, 14): Discovered at (4, 14) in Southern Chamber [Turn 17161].
-- Switch Plate A at (1, 16): DEPRESSED by boulder Turn 17173. Switch Plate B at (9, 16): Currently empty post-reset.
+- Switch Plate A at (1, 16): DEPRESSED by Boulder 3 [Turn 17376]. Switch Plate B at (9, 16): Currently empty post-reset.
 
 - Tile (22, 3) traversed post-reset and confirmed open floor (no boulder) [Turn 17228].
 - Boulder 2 at (9, 11) status: empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271].
