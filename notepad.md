@@ -3918,6 +3918,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Executed bump test North into tile (28, 10) on Turn 18479: bumped, confirming (28, 10) is a solid rock wall.
 
 
+## Floor Reset & Two-Sided Boulder 1 Strategy (Turns 18542-18549)
+- Transitioned to 1F via ladder (0, 8) to reset 2F dynamic entities [Turn 18542].
+- Reset positions on 2F: Boulder 1 at (5, 5), Boulder 3 at (4, 14), Boulder 4 at (22, 3).
+- Fled wild Onix at (2, 1) on 1F [Turns 18545-18549].
+- Strategy upon returning to 2F:
+  1. Activate Strength with Geodude (ROCKY).
+  2. Side 1: Push Boulder 1 North from (5, 5) to (5, 4), then North to (5, 3) to position it in row 3.
+  3. Side 2: Navigate around via staircase (5, 10), elevated plateau, and column 13 to row 3 at (6, 3).
+  4. From (6, 3), push Boulder 1 West into open space (4, 3) to unblock (5, 3).
+  5. Advance through (5, 3) to challenge Pok�maniac at (4, 2) and climb Ladder (1, 1) to 3F!
+
 
 <hr>
 
