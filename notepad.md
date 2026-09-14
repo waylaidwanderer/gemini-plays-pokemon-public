@@ -2928,6 +2928,15 @@
 - Collision at (2, 1) (Verified Turn 50535): Tile (2, 1) is a solid rock wall blocking direct westward passage along Row 1 from (3, 1).
 - Collision at (13, 13) (Verified Turn 50560): Tile (13, 13) is a solid rock wall. Westward egress from (14, 13) is via Column 15 (15, 13..17) -> Row 17 West (15..12, 17) -> Column 12 (12, 17..9).
 
+## Verified Master Path to Ladder A (1, 3) (Verified Turn 50583)
+- From Ladder E (9, 1):
+  1. Walk Left 1, Down 2 to (8, 3).
+  2. Walk Left 5 to (3, 3) or from (8, 1) walk Left 5 to (3, 1).
+  3. Column 3 runs completely open vertically: (3, 1) <-> (3, 2) <-> (3, 3) <-> (3, 4) <-> (3, 5).
+  4. At (3, 5), Row 5 runs completely open west across cols 3..0: (3, 5) -> (2, 5) -> (1, 5) -> (0, 5).
+  5. Column 0 runs completely open north: (0, 5) -> (0, 4) -> (0, 3) -> (0, 2).
+  6. From (0, 3), step East 1 directly onto **Ladder A at (1, 3)** to descend to B1F!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave1F.md</code></h1>
