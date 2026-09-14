@@ -10,6 +10,7 @@
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
 ## Verified Empirical Topology & Findings
+- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Ladder to 3F: Confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Verified Turn 17751, 17786].
 - Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (27, 7).
 - Column 13 Corridor: Traversed on foot on Turn 17609.
@@ -22,11 +23,9 @@
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
 
-## Current Objective & Route
-- Testing Targets:
-  1. Inspect Barrier Block at (23, 14) via staircase (21, 15).
-  2. Inspect northern access into ladder chamber (27, 7) from row 11 via Column 29 and Column 26.
-## Current Floor State (Turn 17913)
+## Current Floor State (Turn 17941)
+- Active Position: (22, 7) heading south down column 22 to (22, 11).
+- Tile (17, 8): Impassable elevation cliff directly south of (17, 7) [Empirically verified Turn 17922].
 - Active Position: (23, 7) heading south to (22, 11).
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
@@ -34,4 +33,4 @@
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
 ## Current Objective & Route
-- Head east along upper plateau to staircase (17, 5), descend to row 6, then head to staircase (21, 15) to inspect barrier block at (23, 14) and eastern ladder at (25, 14).
+- head to staircase (21, 15) to inspect barrier block at (23, 14) and eastern ladder at (25, 14).
