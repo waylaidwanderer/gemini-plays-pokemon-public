@@ -3860,13 +3860,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   2. Alternate/Exit: Southeast Ladder at (25, 14) behind Barrier Block (23, 14), which requires Switch Plate B at (9, 16) in row 16 lower corridor.
 
 - Northeast Cul-de-sac: Fully surveyed and confirmed enclosed dead end. Bump tests verified (24, 5) and (25, 6) are solid rock walls.
-- Immediate Movement: Moving south down column 17 to row 11 to access central/southern floor.
 - Key Unverified Puzzle Mechanisms:
   1. Boulder 2 at (9, 11) vs Switch Plate B at (9, 16): Same column (col 9). Need to investigate south push access.
   2. Boulder at (13, 13): Pushed south from (13, 12), lateral movements untested.
   3. Barrier (23, 14) guarding exit ladder (25, 14): Controlled by unactivated switch (likely Switch Plate B).
 
-- Current Position (Turn 18372): (9, 16) standing on Switch Plate B facing Left.
 - Empirical Verification (Turn 18372): Column 9 between Switch Plate B (9, 16) and row 12 is a continuous, unobstructed 1-tile wide trench (rows 12-15 are open trench floor). Column 8 is solid rock wall to the west, columns 10-11 form an open checkerboard corridor to the east.
 
 ## Empirical Verification (Turn 18374-18377)
@@ -3877,7 +3875,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-- Visual Confirmation: Ladder to 1F visible at (0, 8); Boulder 1 confirmed sitting at (5, 3).
 
 ## Floor Reset Execution (Turn 18403-18404)
 - Arrived at (1, 1) on Victory Road 1F via ladder (0, 8).
@@ -3888,7 +3885,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 ## Post-Reset Arrival on 2F (Turn 18410-18413)
-- Arrived at (0, 8) on Victory Road 2F via ladder.
 
 ## Boulder 1 Testing & Western Perimeter Findings (Turns 18413-18452)
 - Re-activated Strength with Geodude (ROCKY) at (5, 6) [Turn 18425].
@@ -3899,7 +3895,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Intermediate state Turn 18442_0 visually confirmed Column 0 is blocked at rows 3-5 by solid rock walls at (0, 3..5). Column 0 does not connect north into the chamber.
 - Retreated South to (5, 7) [Turn 18440], walked West to (2, 7) along row 7 [Turn 18441].
 - Fled wild Onix battle at (2, 7) [Turns 18442-18448].
-- Current Position (Turn 18481): (28, 11) facing Up on row 11 corridor.
+- Current Position (Turn 18511): (14, 14) in battle with wild Golbat on row 14 shelf.
+
+## Plateau & East-West Circuit Progress (Turns 18481-18511)
+- Traversed west along row 11 from (28, 11) to (16, 11), encountering wild Machop at (25, 11) [Turns 18483-18486, fled].
+- Ascended column 16 to (16, 7), climbed staircase (17, 5) to (17, 4) on upper plateau [Turn 18493].
+- Confirmed column 14 purple rock wall blocks westward passage across rows 0-8; stepped down staircase (17, 5) to (17, 6) [Turn 18495].
+- Walked south down column 17 to row 11 at (17, 11) [Turn 18497].
+- Traversed east along row 11 to (28, 11), descended Eastern Vertical Highway to (28, 15) [Turns 18499-18503].
+- Stepped down to row 16 lower corridor and walked west to staircase (15, 15) [Turns 18504-18508].
+- Ascended staircase (15, 15) to row 14 shelf at (15, 14), stepped Left to (14, 14) where wild Golbat appeared [Turn 18510].
+
 
 ## Plateau & Eastern Traversal Progress (Turns 18453-18481)
 - Traversed row 11 and climbed wooden staircase at (5, 10) to (5, 9) on the elevated plateau [Turn 18454].
@@ -4028,6 +4034,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Column 14 Rock Wall: Solid purple rock wall along column 14 spanning rows 0 through 8, completely separating the northeast corridor (cols 15-24) from the northwest plateau (cols 11-13) [Visually confirmed Turn 18494].
 
 <hr>
