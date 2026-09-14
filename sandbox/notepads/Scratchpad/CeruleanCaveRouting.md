@@ -7,7 +7,7 @@ Establish an empirical path to Ladder A at (1, 3) leading to B1F (Mewtwo) throug
 - Ladder B at (22, 6) connects down to Row 11 at (23, 11).
 - Row 11 connects to Row 13 via (17, 11..13).
 - Row 13 connects to Column 22 (22, 13..15) -> (21, 15..17) to Row 17.
-- Row 17 connects east via Column 28 (28, 16..14) -> Column 26 (26, 14..9) -> (25, 9) into the Southwest Corridor toward (4, 15).
+- Row 17 connects east via Column 28 (28, 16..14) -> Column 26 (26, 14..9). Southwest corridor leads west towards (4, 15).
 - TM14 Blizzard collected at (4, 15).
 - Ladder A visually confirmed at (1, 3) with open floor at (0..7, 5).
 
