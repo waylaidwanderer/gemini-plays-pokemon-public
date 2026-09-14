@@ -76,7 +76,6 @@
 - Retreated South to (5, 7) [Turn 18440], walked West to (2, 7) along row 7 [Turn 18441].
 - Fled wild Onix battle at (2, 7) [Turns 18442-18448].
 - Turn 18536: At (5, 4), executed collision test Left into tile (4, 4); bumped, empirically confirming (4, 4) is a solid rock wall.
-- Current Position (Turn 18541): (3, 7) facing Left on row 7 cross-path.
 
 ## Plateau & East-West Circuit Progress (Turns 18481-18511)
 - Traversed west along row 11 from (28, 11) to (16, 11), encountering wild Machop at (25, 11) [Turns 18483-18486, fled].
@@ -102,7 +101,6 @@
 ## Floor Reset & Two-Sided Boulder 1 Strategy (Turns 18542-18549)
 - Transitioned to 1F via ladder (0, 8) to reset 2F dynamic entities [Turn 18542].
 - Reset positions on 2F: Boulder 1 at (5, 5), Boulder 3 at (4, 14), Boulder 4 at (22, 3).
-- Fled wild Onix at (2, 1) on 1F [Turns 18545-18549].
 ## Breakthrough Deduction (Turn 18569): Victory Road 2F Master Progression Loop
 - Boulder 1 at (5, 5) CANNOT be used to enter Northwest Chamber from the south: pushing it north into (5, 3) traps it against wall (5, 2) and dead-ends player at (5, 4) between walls (4, 4) and (6, 4). Lateral pushes from (5, 5) are impossible due to wall at (6, 5).
 - Doorway (5, 4) is a one-way blocker/shortcut from row 3.
@@ -110,3 +108,7 @@
 - Row 3 is a continuous open floor corridor across columns 4 through 9+ connecting directly from the central plateau/trainers to the Northwest Chamber.
 - Since floor was reset, Boulder 1 remains at (5, 5), leaving (5, 3) completely clear and unobstructed for westward traversal along Row 3.
 - Master Route: (4, 6) -> Western Highway cols 2-3 -> Row 11 -> Staircase (5, 10) -> Plateau rows 8-9 -> Column 13 / Column 17 -> Row 3 -> West into Northwest Chamber -> Pokémaniac (4, 2) -> Ladder (1, 1) to 3F!
+## Current Tracking (Turn 18601)
+- Current Position: (28, 16) at base of Eastern Vertical Highway [Turn 18601].
+- Verified Physical Cliff: Stepping North from (11, 8) into (11, 7) bumped (Turn 18582); northern boundary of Row 8 plateau across cols 5-14 is an impassable elevation cliff.
+- Traversal Route Taken: (4, 5) -> Western Highway (2, 6..11) -> Staircase (5, 10) to (5, 9) -> Plateau (11, 8) -> Column 13 corridor -> Staircase (15, 15) to row 16 -> Row 16 corridor east to (28, 16).
