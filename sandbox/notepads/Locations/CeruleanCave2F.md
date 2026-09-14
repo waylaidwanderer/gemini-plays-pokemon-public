@@ -33,3 +33,4 @@
    - Row 17 spans (21..28, 17), connecting east via Column 28 (28, 16..14) to Column 26 (26, 14).
    - Column 26 connects north to (26, 9), leading west through (25, 9) into the Southwest Corridor toward (4, 15).
 - Collision at (25, 7): Tile (25, 7) is a solid rock wall blocking direct northward passage from (25, 8). (25, 9) egress is via Column 26 at (26, 9).
+- Collision at (14, 14) (Verified Turn 50304): Tile (14, 14) is a solid rock wall terminating Column 14 southward at (14, 13).
