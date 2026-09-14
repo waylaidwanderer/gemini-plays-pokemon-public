@@ -86,3 +86,4 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+- Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
