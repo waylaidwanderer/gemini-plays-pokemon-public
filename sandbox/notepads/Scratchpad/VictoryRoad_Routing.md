@@ -130,3 +130,6 @@
   - Maneuvering to (4, 16) to push west onto Switch Plate A at (1, 16).
   - Boulder 3 pushed west to (2, 16) [Turn 18680].
   - Pushing west onto Switch Plate A at (1, 16) to depress the switch!
+## Empirical Push Test on Boulder 1 (Turn 18708)
+- Standing at (4, 5) facing East with Strength active, pushed Right into Boulder 1 at (5, 5); visited 0 tiles, confirming (6, 5) is solid rock wall.
+- Boulder 1 cannot move East. Moving to verify state of Barrier (23, 14) with Switch Plate A actively depressed by Boulder 3.
