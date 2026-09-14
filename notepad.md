@@ -2984,6 +2984,10 @@
 
 - **Row 4 Barrier Array (Verified Turn 49734)**: Tiles (3..8, 4) are solid rock walls blocking direct southward passage from Row 3 into Row 5.
 - Eastern Bypass Collision Update (Turn 49772): Tile (28, 7) is a solid rock wall blocking direct southern passage from (28, 6). Direct route south is via (25, 9) -> Right to (26, 9) -> Column 26 corridor (26, 9..14).
+## Verified Southwest Passage & Corridor (Turn 49859)
+- **Column 14 Connector**: (14, 11..15) is an open vertical corridor.
+- **Row 14 Western Passage**: (13..10, 14) and (13..10, 15) are confirmed open cave floor connecting Column 14 directly west into the Southwest Sector (TM14 Blizzard at (4, 15) and Column 0/1).
+
 
 <hr>
 
