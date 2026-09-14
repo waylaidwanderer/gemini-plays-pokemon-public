@@ -3885,6 +3885,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Visual Confirmation: Ladder to 1F visible at (0, 8); Boulder 1 confirmed sitting at (5, 3).
 - Immediate Action: Step Left 3 times to (0, 7) and Down to ladder (0, 8) to descend to 1F and reset 2F boulders.
 
+## Floor Reset Execution (Turn 18403-18404)
+- Arrived at (1, 1) on Victory Road 1F via ladder (0, 8).
+- Map transition executed: All 2F dynamic boulders are now reset to starting positions!
+  - Boulder 1 is reset to (5, 5).
+  - Boulder 3 is reset to (4, 14).
+  - Boulder 4 is reset to (22, 3).
+- Action: Step Right to (2, 1) and Left onto (1, 1) to re-ascend to 2F.
+
 
 <hr>
 
