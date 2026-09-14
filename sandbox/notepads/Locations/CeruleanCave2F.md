@@ -17,18 +17,12 @@
 - Item Poké Ball at (4, 15) collected (TM14 Blizzard).
 
 ## Verified Topology & Passages
-1. **Master Route to Ladder A & B1F (Verified Turn 50487)**:
-   - **Entry via Ladder B at 2F (22, 6)**:
-     - (22, 6) -> Down to (22, 7) -> East to (23, 7) -> South along Column 23 to Row 11 at (23, 11).
-     - Row 11 Highway: Move West across (23..14, 11) to (14, 11).
-     - Column 12 Bypass: From (14, 11) -> Down to (14, 12) -> West to Column 12 at (12, 12).
-     - Column 12 Corridor: Move North uninterrupted along Column 12 across (12, 12..7) to Row 7 at (12, 7).
-     - Row 7 Western Highway: Move West uninterrupted across (12..2, 7) to Column 2 at (2, 7).
-     - Column 2 Ascent: Move North (2, 7) -> (2, 6) -> (2, 5) to Row 5 at (2, 5).
-     - Row 5 NW Sector: Move West (2, 5) -> (1, 5) -> (0, 5) to Column 0 at (0, 5).
-     - Column 0 Ascent: Move North (0, 5) -> (0, 4) -> (0, 3) to Row 3 at (0, 3).
-     - **Ladder A Entry**: From (0, 3), step East into **Ladder A at (1, 3)**!
-     - Ladder A at (1, 3) descends directly to B1F (Mewtwo).
+1. **Disproven 2F Thoroughfare Hypotheses**:
+   - (14, 11) -> (14, 12) -> (12, 12) is IMPASSABLE: Column 13 is a solid rock wall across rows 11..16 (Verified Turn 50496).
+   - Column 24 (25, 9 -> 24, 9) is IMPASSABLE: Column 24 is a solid rock wall across rows 5..10 (Verified Turn 50514).
+   - Direct South from Ladder E (9, 1..5) is IMPASSABLE: Rock wall at (9, 6).
+   - Column 16 from Row 5 (16, 5..7) is IMPASSABLE to South: Rock wall at (16, 8).
+   - Row 3 from Ladder E (9..3, 3) is IMPASSABLE to West: Rock wall at (2, 3).
    - **Northern Ridge & Ladder E at (9, 1)**:
      - Ladder E at (9, 1) connects via (8, 1) -> (8, 3) -> (9, 3) -> (9, 5) -> Row 5 (9..16, 5).
      - Column 9 terminates south at (9, 6) (rock wall).
