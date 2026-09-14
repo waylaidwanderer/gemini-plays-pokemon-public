@@ -3819,11 +3819,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road 2F Routing & Active Hypotheses
 
-## Current Floor State (Turn 17663)
+## Current Floor State (Turn 17701)
 - Switch Plate A at (1, 16): DEPRESSED by Southern Chamber boulder.
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
+- Boulder at (13, 13): Pushed south from (13, 12) on Turn 17695; unmasked tile (13, 12).
 - Boulder 4: Wedged at (27, 5) blocking col 27 [Floor reset was aborted Turn 17611].
 - Boulder at (24, 10): Plugged between rock walls (24, 9) and (24, 11).
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
@@ -3831,14 +3832,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Verified Empirical Topology & Findings
 - Ladder to 3F: Confirmed at (26, 8) with light blue vertical rails and 3 horizontal rungs.
 - Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (26, 8).
-- North Boundary: Row 6 is 100% solid rock wall across cols 24-28 (confirmed by pixel color analysis).
-- West Boundary: Column 24 is solid rock wall across rows 4-9 and row 11, with a 1-tile gap at (24, 10) plugged by an orange Strength boulder.
-- South Boundary (Row 10): (24, 10) boulder, (25, 10) ledge/floor, (26, 10) rock wall, (27, 10) ledge/floor, (28, 10) rock wall. Row 10 ledges allow one-way exit southward into row 11.
-- Switch Plate A at (1, 16): Depressed by southern boulder. Does not affect (23, 14).
+- Column 13 Corridor: Traversed on Turn 17609; tile (13, 14) is walkable floor connecting into row 14.
+- Strength Status: Activated with Geodude (ROCKY) on Turn 17692.
 
 ## Current Objective & Route
-- Dismiss battle exit text at (20, 9).
-- Continue walking south through column 20 to row 11 to access row 11/12 passages and approach the ladder chamber / boulder at (24, 10).
+- Flee wild Geodude at (13, 11).
+- Step south onto (13, 12) and push boulder at (13, 13) south into (13, 14) / row 14.
+- Walk east along row 14 to Eastern Highway (cols 28-29) or staircase (15, 15).
+- Ascend Eastern Highway (cols 28-29) to row 11 and access 3F ladder at (26, 8).
 
 
 <hr>
@@ -3877,6 +3878,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
 - Tile (23, 7): Stepped on directly on Turn 17642; confirmed ordinary cave floor with 0 warp effect.
+- Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124; visual floor texture seen at Turn 17665 does not override physical collision].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
 - Wooden Staircase at (15, 15): Confirmed functional staircase connecting upper floor (row 14) down to lower corridor (row 16) [Empirically verified Turn 16006].
 - Wooden Staircase at (21, 15): Confirmed functional staircase connecting lower corridor row 16 up to plateau row 14 directly south of Juggler Gregory [Empirically verified Turn 16326].
@@ -3921,7 +3923,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 4: Pushed from (22, 3) along row 1 to (27, 1), then south to (27, 5); blocked south by rock wall (27, 6) and east by Cooltrainer ♂ at (28, 5) [Tested Turn 17487].
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
-- Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124; visual floor texture seen at Turn 17665 does not override physical collision].
+- Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
+
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
@@ -3933,6 +3936,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Boulder at (13, 12): Empirically verified dynamic Strength entity (SPRITE_6768); pushed south from (13, 12) to (13, 13) on Turn 17695.
+
 
 <hr>
