@@ -2889,14 +2889,17 @@
 - **Northwest Topography & Target**: Ladder A is located at (1, 3).
 - **Probing Status**: Ladder E sector covers Rows 1-5 (cols 3-16) and is separated from southern rows by rock barriers. Testing access via Ladder D at 1F (27, 1) <-> 2F (29, 1) to explore Column 29 and southern corridors.
 
-## Verified 2F Local Topography (Turn 50616)
-- **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
-- **Rock Barrier**: (22, 8..11) is a solid rock wall separating Column 23 from Column 21 on upper rows.
-- **Traversal Plan**: When arriving at (22, 6) from Ladder B, use chunked testing (4-6 steps max per chunk) to verify southern passageways and west connections step-by-step.
-- **Verified Row 11 & Column 14 Thoroughfares (Turns 50718-50731)**:
-  - Row 11 is open from (23, 11) through (14, 11).
-  - (16..22, 14) is a solid rock barrier.
-  - Column 14 entry is verified at (14, 11). Further southward and westward connections will be verified step-by-step using chunked testing.
+## Verified Southeastern & Southern Topography (Turns 50872-50910)
+- **Ladder D Sector**: Ladder D at (29, 1) connects via (28, 1..3) -> (29, 3..6).
+- **Row 6 Crossway**: Open between (29, 6), (28, 6), and (27, 6).
+- **Column 27**: Open at (27, 6..7). Impassable rock barrier at (27, 8).
+- **Row 7 Bypass**: Open west from (27, 7) through (26, 7) to (25, 7).
+- **Column 25 Corridor**: Open south from (25, 7) through (25, 8) to (25, 9) [Row 9].
+- **Column 26 Vertical Highway**: Open south from (26, 9) through (26, 10..14). Impassable rock barrier at (26, 15).
+- **Row 14 East Bypass**: Open east from (26, 14) through (27, 14) to (28, 14).
+- **Column 28 South Corridor**: Open south from (28, 14) through (28, 15) to (28, 16).
+- **Row 16 / Row 17 Connector**: Open west from (28, 16) to (27, 16), then south to (27, 17) [Row 17].
+- **Row 17 Corridor**: Open west from (27, 17) through (26, 17), (25, 17), (24, 17), (23, 17) to (22, 17). Impassable rock barrier directly north at (22, 16). Westward continuation at (21, 17) pending empirical probing.
 
 <hr>
 
