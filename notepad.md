@@ -3841,7 +3841,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder at (4, 14): Discovered at (4, 14) in Southern Chamber [Turn 17161].
 - Switch Plate A at (1, 16): DEPRESSED by Boulder 3 [Turn 17376]. Switch Plate B at (9, 16): Currently empty post-reset.
 
-- Tile (22, 3) traversed post-reset and confirmed open floor (no boulder) [Turn 17228].
 - Boulder 2 at (9, 11) status: empirically confirmed 100% immovable on all 4 axes [Tested Turn 17271].
 
 - Boulder 1 Status (Turn 17304-17308): Pushed from (5, 5) to (5, 4) to (5, 3). Confirmed blocked north by rock wall (5, 2) [Turn 17305]. Walls at (4, 4) and (6, 4) confirmed solid [Turns 17306, 17308]. Gap at (5, 4) is impassable while Boulder 1 is at (5, 3).
