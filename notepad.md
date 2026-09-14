@@ -2865,6 +2865,7 @@
    - South-Central Ramp (East): Located at (21, 11) facing east into entrance water canal at (22, 11).
    - Ladder C at (18, 9) <-> 2F Central Sector (19, 7).
    - South-Central Terrace spans rows 8..12 (cols 11..21). Connects West Ramp (11, 13), Ladder C (18, 9), and East Ramp (21, 11).
+- **East Shoreline Collision (Verified Turn 50332)**: (27..28, 12) is an elevated cliff edge overlooking (27..28, 11) water; direct disembarkation from water onto floor at (27..28, 12) is impassable. Full canal transit routes north via cols 28..29 to North Canal (Row 4).
 
 <hr>
 
