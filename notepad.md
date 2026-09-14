@@ -3870,7 +3870,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   2. Boulder at (13, 13): Pushed south from (13, 12), lateral movements untested.
   3. Barrier (23, 14) guarding exit ladder (25, 14): Controlled by unactivated switch (likely Switch Plate B).
 
-- Current Position (Turn 18369): (13, 16) facing Left on row 16 lower corridor.
+- Current Position (Turn 18372): (9, 16) standing on Switch Plate B facing Left.
+- Empirical Verification (Turn 18372): Column 9 between Switch Plate B (9, 16) and row 12 is a continuous, unobstructed 1-tile wide trench (rows 12-15 are open trench floor). Column 8 is solid rock wall to the west, columns 10-11 form an open checkerboard corridor to the east.
 
 
 <hr>
