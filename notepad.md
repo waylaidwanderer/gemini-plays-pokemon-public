@@ -3837,7 +3837,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 9): Impassable rock wall blocking southward passage from (23, 8) [Verified Turn 17781].
 - Tile (23, 7): Confirmed ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
 - Tile (24, 10): Confirmed solid rock wall [Verified Turns 17759, 17788].
-- Tile (22, 3): Confirmed open floor; traversed on foot without collision on Turn 17802.
+- Boulder at (22, 3) (SPRITE_6768): Pushed East from (22, 3) to (23, 3) on Turn 17877 with Strength active; tile (22, 3) is now open floor.
 - Row 5 Barrier: Solid rock wall/cliff across columns 19-24, blocking northern ascent from row 6 [Verified Turn 17792].
 - Tile (17, 12): Impassable elevation cliff directly south of (17, 11) [Verified Turn 17819].
 - Northeast Cul-de-sac (cols 25-28, rows 0-5): Enclosed dead end with no exits east (col 29 wall) or south (row 6 wall) [Surveyed Turn 17806].
