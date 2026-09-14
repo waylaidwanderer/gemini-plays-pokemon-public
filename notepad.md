@@ -3947,6 +3947,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Actively solving Switch Plate A at (1, 16).
   - Boulder 3 pushed south from (3, 15) to (3, 16) [Turn 18678].
   - Maneuvering to (4, 16) to push west onto Switch Plate A at (1, 16).
+  - Boulder 3 pushed west to (2, 16) [Turn 18680].
+  - Pushing west onto Switch Plate A at (1, 16) to depress the switch!
 
 <hr>
 
