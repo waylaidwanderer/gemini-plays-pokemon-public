@@ -3854,9 +3854,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
 - Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
+## Breakthrough Finding (Turn 18008)
+- Ladder to 3F: Visually confirmed at (26, 8) with light blue vertical rails and 2 horizontal rungs on black background.
+- Row 10 Wall Disproven: Tiles (25, 10), (27, 10), (28, 10) are open cave floor with pebbles, NOT a continuous solid wall. The Eastern Ladder Chamber is directly accessible from row 11 via Column 28 (28, 11 -> 28, 10 -> 28, 9 -> 28, 8 -> 27, 8 -> 26, 8).
+- Active Position: (23, 8) navigating via row 6, staircase (17, 5), and Eastern Highway to reach (28, 11) and ladder (26, 8).
+
 ## Current Objective & Route
-- Navigate to (23, 10) and test pushing the boulder at (24, 10) with active Strength to open access to ladder (26, 8).
-- Active Position: (19, 6) navigating to (23, 10) to push boulder (24, 10).
+- Navigate to (28, 11) via Eastern Highway, step north into (28, 10), (28, 9), (28, 8), and west into ladder (26, 8) to reach 3F.
 
 <hr>
 
@@ -3887,7 +3891,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
 - Eastern Vertical Highway: Columns 28-29 form the open north-south corridor connecting row 11 (28..29, 11) directly south through rows 12-15 down to the row 16 lower corridor (col 27 is blocked at row 12 by cliff wall) [Empirically verified Turn 16306].
-- Row 10 Eastern Barrier: Continuous solid rock wall across row 10 from col 24 to col 32, blocking northern entry into the eastern ladder chamber from row 11 [Empirically verified Turn 16303].
+- Row 10 Eastern Barrier (CORRECTED Turn 18008): Only isolated pillars at (24, 10) and (26, 10); tiles (25, 10), (27, 10), and (28, 10) are open cave floor with pebbles, providing direct northern access from row 11 into the ladder chamber at (26, 8).
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
 - Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
