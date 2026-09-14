@@ -2985,7 +2985,8 @@
 - **Row 4 Barrier Array (Verified Turn 49734)**: Tiles (3..8, 4) are solid rock walls blocking direct southward passage from Row 3 into Row 5.
 - Eastern Bypass Collision Update (Turn 49772): Tile (28, 7) is a solid rock wall blocking direct southern passage from (28, 6). Direct route south is via (25, 9) -> Right to (26, 9) -> Column 26 corridor (26, 9..14).
 
-- Collision at (21, 14) (Verified Turn 49973): Tile (21, 14) is a solid rock wall blocking direct southward passage from (21, 13) towards Row 17. The verified passage from Row 13 to Row 17 is via Column 22: (22, 13) -> Down 2 to (22, 15) -> Left 1 to (21, 15) -> Down 2 to (21, 17).- Barrier at (26, 16) (Verified Turn 49990): Tile (26, 16) is a solid rock wall blocking direct northward passage from (26, 17) along Column 26. Bypass via Column 27/28: (27, 17) -> Up to (27, 14) -> Left to (26, 14).
+- Collision at (21, 14) (Verified Turn 49973): Tile (21, 14) is a solid rock wall blocking direct southward passage from (21, 13) towards Row 17. The verified passage from Row 13 to Row 17 is via Column 22: (22, 13) -> Down 2 to (22, 15) -> Left 1 to (21, 15) -> Down 2 to (21, 17).
+- Barrier at (26, 16) (Verified Turn 49990): Tile (26, 16) is a solid rock wall blocking direct northward passage from (26, 17) along Column 26. Bypass via Column 27/28: (27, 17) -> Up to (27, 14) -> Left to (26, 14).
 
 - Column 27/28 Bypass Correction (Turn 50098): Tile (27, 15) is a solid rock wall. Open vertical passage north from Row 17 is along Column 28: (27, 16) -> Right to (28, 16) -> Up to (28, 14) -> Left to (26, 14) -> Column 26 corridor (26, 13..9).
 
