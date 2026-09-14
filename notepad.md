@@ -2990,6 +2990,8 @@
 - Collision at (26, 1) (Verified Turn 50105): Tile (26, 1) is a solid rock wall blocking Row 1 westward at (27, 1). Open westward bypass is via Row 2: (27, 1) -> Down to (27, 2) -> Left across (26..23, 2).
 - Collision at (26, 2) (Verified Turn 50108): Tile (26, 2) is a solid purple rock wall blocking direct westward passage from (27, 2). Open passage south into Row 4/5 is via Column 28/29: (27, 2) -> (28, 2) -> (28, 3) -> (29, 3) -> (29, 4..5) -> opens west along Row 5 (29..24, 5).
 - Collision at (2, 1) (Verified Turn 50156): Tile (2, 1) is a solid purple rock wall blocking direct westward passage from (3, 1).
+- Row 0 Northern Boundary (Turns 50157-50211): (4, 0), (5, 0), and (6, 0) are solid rock walls. Row 0 open floor exists at (7, 0) and (8, 0) only.
+- NW Isolated Sector Proof: Northern Ridge (cols 3..9, rows 0..3) is fully bounded on the north by (4..6, 0), on the west by (2, 1..3), and on the south by (3..8, 4).
 
 <hr>
 
