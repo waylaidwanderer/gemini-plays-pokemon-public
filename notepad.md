@@ -3875,8 +3875,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Collision Log (Turn 18224): Attempted North from (9, 8) into (9, 7) and bumped. Confirmed elevation cliff separating row 8 plateau from lower trench at row 7.
 - Active Plan (Turn 18231): Retracing east along row 8 to (14, 8), south to row 12, east to column 19, and north to wooden staircase at (17, 5) to ascend to the northern upper plateau.
 
-- Current Position (Turn 18245): (19, 12) facing Down/East.
-- Breakthrough Priority: Approach Boulder at (24, 10) from (23, 10). Activate Strength and test pushing Boulder (24, 10) East into Eastern Ladder Chamber (cols 25-28, rows 7-9) to access Ladder at (27, 7).
+
+- Current Position (Turn 18258): (21, 15) facing Down on wooden staircase.
+- Active Plan: Descend to row 16 lower corridor, traverse east to Eastern Vertical Highway at (28, 16), and head north to investigate access to Ladder (27, 7).
 
 
 <hr>
