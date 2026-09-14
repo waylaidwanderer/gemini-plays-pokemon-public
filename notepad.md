@@ -3880,7 +3880,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Wooden Staircase at (17, 5): Connects lower row 6 to upper plateau row 4 [Discovered Turn 16103; climbed Turn 16104].
-- Tile (23, 7): Stepped on directly on Turn 17642; confirmed ordinary cave floor with 0 warp effect.
+- Tile (23, 7): Ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
+- Tile (23, 9): Solid rock wall blocking southward passage from (23, 8) [Empirically verified Turn 17781].
 - Tile (7, 10): Solid obstacle / elevation boundary blocking westward passage from (8, 10) [Empirically verified Turn 17721].
 - Wall at (24, 10): Empirically verified solid rock wall from (23, 10) facing East [Tested Turn 17759; 2 buttons pressed, 1 tile visited, halted at (23, 10)].
 - Elevation Boundary (Row 11/12): Physical bump test from (23, 11) into (23, 12) confirmed impassable elevation cliff / wall from the north [Tested Turn 17758].
