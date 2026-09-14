@@ -2884,19 +2884,14 @@
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northwest Sector entry to Ladder A].
 
-## Planned Master Route to Ladder A (1, 3) -> B1F (Chunked Traversal Protocol)
+## Planned Master Route to Ladder A (1, 3) -> B1F (via Ladder E Northwest Sector)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
-- **Entry Ladder**: Ladder B at (22, 6) on 2F <-> (23, 7) on 1F.
-- **Chunked Route Protocol (4-6 steps max per chunk)**:
-  - Chunk 1: From 2F Ladder B (22, 6), move Down to (22, 7), East to (23, 7), South 2 steps to (23, 9).
-  - Chunk 2: From (23, 9), walk West 4 steps along Row 9 to (19, 9).
-  - Chunk 3: From (19, 9), walk West 4 steps along Row 9 to (15, 9).
-  - Chunk 4: Bypass rock wall at (14, 9): Up to (15, 8), West 2 steps to (13, 8), Down to (13, 9).
-  - Chunk 5: From (13, 9), walk West 4 steps to (9, 9).
-  - Chunk 6: From (9, 9), walk Up 2 steps to (9, 7), West 3 steps to (6, 7).
-  - Chunk 7: From (6, 7), walk Up 2 steps to (6, 5), West 3 steps to (3, 5).
-  - Chunk 8: From (3, 5), walk West 3 steps to (0, 5), Up 2 steps to (0, 3).
-  - Chunk 9: Step East into **Ladder A at (1, 3)** to descend to B1F!
+- **Master Entry Ladder**: Ladder E at (7, 1) on 1F <-> (9, 1) on 2F.
+- **Local Frontier-Exhaustion Protocol from 2F (9, 1)**:
+  - Probe Row 1 West: (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1) -> (4, 1).
+  - Probe southward/westward connectors: (4, 1) -> (4, 3) / (3, 3) -> (1, 3) [Ladder A].
+  - Systematically test every adjacent tile in the northwest cluster ((3, 3), (2, 3), (1, 3), (0, 3)) using chunked 1-3 step tests.
+  - Step into **Ladder A at (1, 3)** to descend to B1F!
 
 ## Verified 2F Local Topography (Turn 50616)
 - **Column 23 Corridor**: Open north-south path from (23, 7) through (23, 11+).
