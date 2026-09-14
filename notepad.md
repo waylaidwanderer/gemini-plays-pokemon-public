@@ -2929,7 +2929,7 @@
 - Central Loop Barrier (Turn 49833): (23, 4) is a solid rock wall blocking direct eastward passage from (22, 4) into Column 23.
 - Central Pocket Exact Routing: Ladder C (19, 7) connects north via (19, 5..6) -> (20..21, 5) -> (21..22, 4) -> (20..22, 2..3) enclosed upper loop. (22, 5) and (20, 4) are solid rock walls blocking direct passage between (22, 4) and Ladder B (22, 6).
 - Column 9 Collision: (9, 6) is a solid rock wall blocking direct southern passage from (9, 5) to Row 7.
-- Ladder E Ridge Isolation: Ladder E at (9, 1) arrives on an elevated northern ridge spanning (3..9, 1), (3..9, 3), and (9..16, 5). It is walled off from the lower western corridors and Ladder A (1, 3) by solid rock barriers at (2..3, 1..4), (9, 6), and (12..15, 7).
+
 - Column 24 corridor (24, 1..5) and (25..27, 4) are an enclosed dead-end sector on 2F separated from Ladder D (29, 1). 
 - Eastern Sector & Ladder D Routing (Verified Turns 48174-48182):
   - Ladder D at (29, 1) connects south via (29, 3..6) -> (28..25, 6..7) towards (25, 8..9).
@@ -2948,7 +2948,7 @@
 - **Row 2 Boundary**: Rock wall across cols 4..8 at (4..8, 2) and (2, 2). Open floor at (3, 2), (1, 2), and (0, 2).
 - **Row 1 Corridor**: Open cave floor across cols 3..9 at (3..9, 1). Ladder E at (9, 1).
 ## Northern Ridge & NW Sector Analysis (Verified Turn 48529)
-- **Ridge Isolation**: Ladder E at (9, 1) arrives on an elevated northern ridge (cols 3..16, rows 0..2) that is completely walled off from the lower floors ((15, 3) is a cliff ledge overlooking lower floor where "No SURFing on HYDROS here!").
+
 - **2F Maze Connectivity**: 2F is a complex interconnected maze accessed from Ladder B (22, 6) and other ladders, with multiple winding corridors connecting the eastern, southern, and northern sectors towards Ladder A (1, 3).
 - Column 17/16 Boundary at Row 1-2 (Verified Turn 48568):
   - (17, 2) and (16, 2) are solid rock walls.
