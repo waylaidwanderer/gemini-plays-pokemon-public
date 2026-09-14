@@ -3830,8 +3830,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
 ## Verified Empirical Topology & Findings
-- Ladder to 3F: Confirmed at (26, 8) with light blue vertical rails and 3 horizontal rungs.
-- Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (26, 8).
+- Ladder to 3F: Confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Verified Turn 17751].
+- Eastern Ladder Chamber: Spans cols 25-28, rows 7-9. Contains ladder at (27, 7).
 - Column 13 Corridor: Traversed on Turn 17609; tile (13, 14) is walkable floor connecting into row 14.
 - Strength Status: Activated with Geodude (ROCKY) on Turn 17692.
 
@@ -3839,7 +3839,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Flee wild Onix at (15, 4).
 - Walk east across row 4 to staircase (17, 5) and descend to row 6 (17, 6).
 - Walk east along row 6 to column 20, south to (20, 7), and east across row 7 to (23, 7).
-- Directly access and ascend 3F ladder at (26, 8).
+- Directly access and ascend 3F ladder at (27, 7).
 
 
 <hr>
@@ -3851,7 +3851,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Visually confirmed at (26, 8) with light blue vertical rails and 3 horizontal rungs [Turn 17646]; situated in eastern chamber (rows 7-9, cols 25-28).
+- Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), accessed from the south via (27, 8).
 - Northwest Area: Conflated in early notes with 1F ladder at (1, 1). On 2F, there is NO ascending ladder in the northwest; column 14 is a continuous rock wall and row 4 is solid [Verified Turns 16706, 16889].
 
 ## Layout & Topology
