@@ -5,7 +5,7 @@
 - Switch Plate B at (9, 16): Unoccupied.
 - Boulder 1: Pushed to (5, 3).
 - Boulder 2: At (9, 11) in trench. Immovable on north/west.
-- Boulder 4: At (22, 3) (default reset position).
+- Boulder 4: Wedged at (27, 5) blocking col 27 [Floor reset was aborted Turn 17611].
 - Boulder at (24, 10): Plugged between rock walls (24, 9) and (24, 11).
 - Barrier Block (23, 14): Empirically verified 100% solid and raised on Turn 17587.
 
