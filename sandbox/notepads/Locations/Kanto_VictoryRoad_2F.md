@@ -69,13 +69,11 @@
 - Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 1: Starts at (5, 5) [Verified Turn 17156]. Pushed North to (5, 3) [Turn 17304], wedging against solid rock wall (5, 2) [Turn 17305]. Gap (5, 4) impassable with walls at (4, 4) and (6, 4) [Turns 17306, 17308].
 - Boulder 2: Starts at (9, 11) in column 9 trench [Verified Turn 17158]. Empirically confirmed 100% immovable on all 4 axes [Tested North push Turn 17422, West push Turn 17442]: north blocked by rock wall (9, 10); west blocked by rock wall (8, 11); cannot be pushed south (player cannot access 9, 10); cannot be pushed east (player cannot access 8, 11).
-- Boulder at (24, 10): Visually confirmed at (24, 10) [Turn 17466].
 - Boulder at (4, 14): Pushed West to (3, 14), South to (3, 16), and West onto Switch Plate A at (1, 16) [Turn 17376]. Switch Plate A depressed.
 - Boulder 4: Pushed from (22, 3) along row 1 to (27, 1), then south to (27, 5); blocked south by rock wall (27, 6) and east by Cooltrainer ♂ at (28, 5) [Tested Turn 17487].
 - Switch Plate A: Located at (1, 16) in southwest corridor [DEPRESSED by Southern Chamber boulder Turn 17376].
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124].
-- Strength: Re-activated with Geodude (ROCKY) at (22, 4) [Turn 17478].
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
