@@ -2934,35 +2934,29 @@
 
 <h1><code>Scratchpad/CeruleanCaveRouting</code></h1>
 
-# Scratchpad: Cerulean Cave Master Route to Mewtwo (via Ladder B)
+# Scratchpad: Cerulean Cave Master Route to Mewtwo (via Ladder E Northwest Highway)
 
-## Verified Master Route from Current Position:
-1. **From 2F Ladder C Pocket (18, 7)**:
-   - Step East into Ladder C at (19, 7) -> descends to 1F South-Central Terrace at (18, 9).
-2. **On 1F South-Central Terrace (18, 9) to Ladder B Terrace (23, 7)**:
-   - Walk Down 2 to (18, 11), East 3 to East Ramp at (21, 11).
-   - Step East into water at (22, 11) with SURF.
-   - Surf North 1 to (22, 10), East 3 to (25, 10).
-   - Step North onto Ladder B Ramp at (25, 9).
-   - Walk North 2 to (25, 7), West 2 into Ladder B at (23, 7).
-   - Ascend to 2F Ladder B at (22, 6).
-3. **On 2F from Ladder B (22, 6) to Row 9 via Column 12 Highway**:
-   - Step Down to (22, 7), East to (23, 7).
-   - Walk South down Column 23 to (23, 11).
-   - Walk West along open Row 11 to (14, 11).
-   - Down 2 to (14, 13) -> East 1 to (15, 13) -> Down 2 to (15, 15).
-   - West 3 along Row 15 to (12, 15).
-   - North up Column 12: (12, 15) -> (12, 9) [Row 9 West Highway].
-4. **Row 9 Westbound Traversal**:
-   - Walk West along Row 9: (12, 9) -> (11, 9) -> (10, 9) -> (9, 9).
-5. **Western Corridor to Ladder A**:
-   - From (9, 9), walk North along Column 9: (9, 9) -> (9, 7).
-   - Walk West along Row 7: (9, 7) -> (6, 7).
-   - Walk North along Column 6: (6, 7) -> (6, 5).
-   - Walk West along Row 5: (6, 5) -> (0, 5).
-   - Walk North along Column 0: (0, 5) -> (0, 3).
-   - Step East into **Ladder A at (1, 3)** to descend to B1F!
-6. **B1F Objective**:
-   - Navigate to Mewtwo and use Master Ball (Bag Slot 18) for guaranteed capture!
+## The Breakthrough:
+- 2F Eastern Sector (Ladder B, Column 23, Row 11, Column 14) is blocked from Column 12 by solid rock wall at Column 13/14 (verified Turn 50742).
+- The true, direct access to Ladder A (1, 3) -> B1F is via **Ladder E at 1F (7, 1) <-> 2F (9, 1)** and walking WEST on 2F into the Northwest Sector!
+
+## Exact Master Route to Mewtwo:
+1. **From 2F (15, 15) return to Ladder B (22, 6)**:
+   - Up 2 to (15, 13) -> Left 1 to (14, 13) -> Up 2 to (14, 11).
+   - East 9 along Row 11 to (23, 11).
+   - North 4 along Column 23 to (23, 7) -> Left 1 to (22, 7) -> Up 1 into Ladder B at (22, 6).
+   - Descend to 1F at (23, 7).
+2. **On 1F from Ladder B (23, 7) to Northwest Ramp (15, 3)**:
+   - East 2 to (25, 7) -> South 2 through Ramp (25, 9) into water at (25, 10).
+   - Surf East to (28, 10) -> North to (28, 5) -> West along North Canal: (28, 5) -> (15, 4).
+   - Disembark North onto Northwest Ramp at (15, 3) onto Northern Terrace at (15, 2).
+3. **On 1F Northern Terrace to Ladder E (7, 1)**:
+   - Walk West along Northern Terrace: (15, 2) -> (7, 2).
+   - Step North into Ladder E at (7, 1) to ascend to 2F at (9, 1).
+4. **On 2F from Ladder E (9, 1) WEST to Ladder A (1, 3)**:
+   - Walk WEST along Row 1 / Northwest corridor: (9, 1) -> (4, 1) -> (4, 3) -> (1, 3).
+   - Step into Ladder A at (1, 3) to descend to B1F!
+5. **On B1F**:
+   - Locate Mewtwo and use Master Ball (Bag Slot 18) for guaranteed capture!
 
 <hr>
