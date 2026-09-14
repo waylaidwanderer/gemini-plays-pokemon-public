@@ -2844,10 +2844,11 @@
 - Ground floor of Cerulean Cave featuring intricate waterways, isolated terraces, ramps, and multiple ascending ladders to 2F.
 
 ## Verified Sectors, Terraces & Ladders
-1. **Cave Entrance / Southeast Basin**:
+1. **Cave Entrance / Southeast Basin & Ladder B Terrace**:
    - Cave Entrance from Cerulean City/Route 24 waterway at (24, 17) / (25, 17).
-   - Waterway connects north along Column 23/24/25.
-   - Ladder B at (23, 7) <-> 2F SE Sector (22, 6).
+   - Waterway connects north along Column 23/24/25 and Column 28 (rows 4..10).
+   - Ladder B Terrace Ramp: Located at (25, 9) facing south into water at (25, 10).
+   - Ladder B at (23, 7) <-> 2F SE Sector (22, 6) accessed via Ramp (25, 9) -> (25, 8..7) -> (23, 7).
    - Ladder C at (18, 9) <-> 2F Central Sector (19, 7).
 
 2. **Northeast Terrace & Canal**:
