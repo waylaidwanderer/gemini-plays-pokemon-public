@@ -3845,16 +3845,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Testing Targets:
   1. Inspect Barrier Block at (23, 14) via staircase (21, 15).
   2. Inspect northern access into ladder chamber (27, 7) from row 11 via Column 29 and Column 26.
-## Current Floor State (Turn 17881)
-- Active Position: (22, 3) on upper level.
+## Current Floor State (Turn 17913)
+- Active Position: (12, 3) on upper plateau.
 - Strength Status: Active with Geodude (ROCKY) [Activated Turn 17863].
 - Boulder 4 (SPRITE_6768): Pushed to (24, 3). Tiles (22, 3) and (23, 3) are open floor.
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Empirically verified Turns 17642, 17785, 17861]. Cease treating as ladder.
+- Northwest passage: Blocked. Column 8 is solid rock wall, row 1 is solid ceiling [Verified Turn 17900].
 
 ## Current Objective & Route
-- Survey untested areas:
-  1. Inspect northwest chamber and trainer at (4, 2).
-  2. Inspect barrier block at (23, 14) and Eastern Ladder at (25, 14) via wooden staircase at (21, 15).
+- Head east along upper plateau to staircase (17, 5), descend to row 6, then head to staircase (21, 15) to inspect barrier block at (23, 14) and eastern ladder at (25, 14).
 
 
 <hr>
