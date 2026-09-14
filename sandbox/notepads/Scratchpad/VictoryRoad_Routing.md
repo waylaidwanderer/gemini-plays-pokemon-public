@@ -3,7 +3,6 @@
 ## Verified Empirical Discoveries
 - Arrival from 1F is at ladder (0, 8).
 - Row 4 (cols 0-8) was tested solid at (1, 4) and (3, 4). Gap at (5, 4) was previously blocked by Boulder 1 pushed to (5, 3).
-- Eastern chamber (rows 7-9, cols 25-29) containing ladder at (26, 8) is sealed on 2F by continuous solid rock walls:
   - North: Row 6 wall across cols 24-30
   - South: Row 10 wall across cols 24-34 ((28, 10) and (29, 10) confirmed solid)
   - West: Col 24 wall across rows 4-12
