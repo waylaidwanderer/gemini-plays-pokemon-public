@@ -2876,6 +2876,12 @@
   - Transit between South-Central Terrace and Southeast Terrace requires canal surfing via South Ramp (11, 13) <-> Southeast Ramp (25, 9).
 - **1F Ledge Cul-de-Sac (Verified Turn 51185)**: Ledge at (21, 11) is a one-way drop into an enclosed cul-de-sac. Rows 12 and 13 form a continuous solid rock barrier across columns 20-22, preventing terrestrial access to Column 18 or Ladder C. Must use water canal ramps to navigate.
 
+- **South-Central Terrace Audit (Verified Turn 51322)**:
+  - Accessible via South-Central Ramp at (11, 13) facing into (11, 14) water.
+  - Spans cols 11..18, rows 8..15.
+  - Column 18 connects Ladder C at (18, 9) south to Row 14 (cols 15..18).
+  - (17, 15) contains a one-way south-facing ledge.
+
 
 <hr>
 
