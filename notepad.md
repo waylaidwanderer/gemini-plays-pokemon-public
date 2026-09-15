@@ -4007,7 +4007,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585, 19639, 19694, 19779)
 - Zubat (observed Turns 19468, 19673)
-- Geodude (observed Turns 19558, 19608, 19663, 19762)
+- Geodude (observed Turns 19558, 19608, 19663, 19762, 19804)
 - Machop (observed Turns 19565, 19729, 19767)
 - Golbat (observed Turns 19658, 19733)
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
@@ -4050,6 +4050,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Marowak (observed Turn 19744)
 - Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.- Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
 - Trainer: Stationed at (4, 2) facing South in Northwest Sector [Observed Turns 19771-19774].
-
 
 <hr>
