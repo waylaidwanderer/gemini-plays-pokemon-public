@@ -3872,14 +3872,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
   
 
-## Active Traversal & Audit Log (Turns 18708-18723)
-- Turn 18708: Pushed East into Boulder 1 from (4, 5); confirmed (6, 5) is solid wall.
-- Turns 18711-18712: Traversed south along Western Highway to (3, 11).
-- Turn 18713: Ascended staircase (5, 10) to (5, 9) on central plateau.
-- Turns 18713-18714: Crossed central plateau east to (10, 9), past Moltres at (11, 5).
-- Turns 18714-18717: Bypassed Blackbelt at (12, 9) via row 8 into column 13; fled wild Marowak at (13, 9).
-- Turns 18718-18719: Traversed south down column 13 to row 12, east along row 12 to (20, 12), down to (20, 14), and east to (22, 14).
-- Turn 18723: Standing at (22, 14) facing East directly toward Barrier (23, 14) and Ladder (25, 14) to conduct physical bump test.
+
 
 ## Floor Reset & Two-Sided Boulder 1 Strategy (Turns 18542-18549)
 - Transitioned to 1F via ladder (0, 8) to reset 2F dynamic entities [Turn 18542].
@@ -3898,20 +3891,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Turn 18628-18631: Fled wild Zubat at (16, 11).
 - Active Plan: Returning to Boulder 1 at (5, 5) via row 11 east -> Eastern Highway -> row 16 lower corridor -> staircase (15, 15) -> central plateau -> staircase (5, 10) -> row 11 west -> Western Highway -> (4, 5). Activate Strength and conduct rigorous empirical bump/push tests on Boulder 1 and surrounding tiles (6, 5) and (4, 5).
 
-- Turn 18677 Puzzle Execution:
-  - Boulder 3 successfully pushed from (4, 14) west to (3, 14).
-  - Pushed south from (3, 14) to (3, 15).
-  - Actively solving Switch Plate A at (1, 16).
-  - Boulder 3 pushed south from (3, 15) to (3, 16) [Turn 18678].
-  - Maneuvering to (4, 16) to push west onto Switch Plate A at (1, 16).
-  - Boulder 3 pushed west to (2, 16) [Turn 18680].
-  - Pushing west onto Switch Plate A at (1, 16) to depress the switch!
-## Empirical Push Test on Boulder 1 (Turn 18708)
-- Standing at (4, 5) facing East with Strength active, pushed Right into Boulder 1 at (5, 5); visited 0 tiles, confirming (6, 5) is solid rock wall.
-- Boulder 1 cannot move East. Moving to verify state of Barrier (23, 14) with Switch Plate A actively depressed by Boulder 3.
-- Turns 18724-18725: Tested Barrier (23, 14) with single Right input; bumped, definitively confirming Barrier (23, 14) is solid/raised with Switch Plate A depressed. Switch Plate A does not control Barrier (23, 14).
-- Turns 18731-18748: Navigated west along row 14/12, descended staircase (15, 15) to row 16, east to col 28, north up Eastern Highway to row 11, west along row 11 to (16, 11), fleeing wild encounters (Marowak at 21, 14; Geodude at 27, 11; Onix at 24, 11).
-- Turn 18748: At base of column 16 at (16, 11). Ascending column 16 to staircase (17, 5) to access Upper Plateau (row 3) and investigate Boulder 4.
+
 
 ## Active Traversal & Position Log (Turns 18748-18781)
 - Turns 18749-18751: Ascended column 16 north toward staircase (17, 5); fled wild Zubat at (16, 8).
