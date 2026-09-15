@@ -31,3 +31,6 @@
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
+- Boulder 3: Located at (13, 12). Flanked by rock walls at (12, 12) and (14, 12). WARNING: Pushing south from (13, 11) traps boulder against rock walls at (12, 13) and (13, 14) (Sokoban dead-end trap).
+- Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
+- Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
