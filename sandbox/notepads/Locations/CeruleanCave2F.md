@@ -27,3 +27,4 @@
 - **Column 28 South Corridor**: Open south from (28, 14) through (28, 15) to (28, 16).
 - **Row 16 / Row 17 Connector**: Open west from (28, 16) to (27, 16), then south to (27, 17) [Row 17].
 - **Row 17 Corridor**: Open west from (27, 17) through (26, 17), (25, 17), (24, 17), (23, 17), (22, 17) to terminal alcove at (21, 17). (20, 17), (21, 16), and (21, 18) are solid rock barriers (verified Turn 50919).
+- **Column 24 Barrier (Turn 50934)**: (24, 9) is a solid rock barrier. Ladder D sector has no westward connection to the rest of 2F. Full eastern sector is self-contained.
