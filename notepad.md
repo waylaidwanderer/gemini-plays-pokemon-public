@@ -2885,10 +2885,15 @@
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Northwest Sector entry to Ladder A].
 
-## Master Route to Ladder A (1, 3) -> B1F (Hypothesis & Investigation)
+## Master Route to Ladder A (1, 3) -> B1F (Topography & Routing)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
-- **Northwest Topography & Target**: Ladder A is located at (1, 3).
-- **Probing Status**: Ladder E sector covers Rows 1-5 (cols 3-16) and is separated from southern rows by rock barriers. Testing access via Ladder D at 1F (27, 1) <-> 2F (29, 1) to explore Column 29 and southern corridors.
+- **Northwest Topography & Target**: Ladder A is located at (1, 3). Entry from 1F is via Ladder E at (7, 1) -> 2F (9, 1).
+- **Collision Grid (NW Sector)**:
+  - (8, 5) is a purple rock barrier.
+  - (9, 6) is a purple rock barrier.
+  - (6, 6) is open floor connecting Row 5 and Row 7.
+  - Row 4 (cols 0-8) is a continuous rock barrier.
+  - Column 2 (rows 1-4) is a vertical rock barrier.
 
 ## Verified Southeastern & Southern Topography (Turns 50872-50910)
 - **Ladder D Sector**: Ladder D at (29, 1) connects via (28, 1..3) -> (29, 3..6).
