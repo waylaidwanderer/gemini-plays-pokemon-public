@@ -132,4 +132,10 @@
 
 ## Dynamic Entities Current State
 - Onix [Turn 19943 at (5, 7)]
-- Western Boulder at (5, 4): Pushed from (5, 5) into doorway (5, 4) on Turn 19949.
+- Western Boulder at (5, 3): Pushed from (5, 5) through doorway (5, 4) into (5, 3) on Turn 19955.
+
+## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
+- Tile (4, 4): Confirmed solid rock wall (bump test Turn 19918).
+- Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
+- Tile (5, 2): Confirmed solid rock wall (boulder cannot move north of (5, 3)).
+- Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
