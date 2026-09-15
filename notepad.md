@@ -3881,7 +3881,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Reconciled Empirical Status of Switch Plate A & Barriers (Turn 18811)
 - Boulder 3 is verified resting on Switch Plate A at (1, 16), confirmed across 10 consecutive turns (Turns 18681-18693) where tile (2, 16) was empty floor.
 - Moltres confirmed at (7, 7) on central plateau.
-- Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
 
 
 
@@ -3895,8 +3894,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Turn 18918 Ground Truth & Room Reset Strategic Model
 - Empirically verified Boulder 2 at (9, 11) is permanently immovable (North blocked by cliff 9, 10; West blocked by wall 8, 11). Confirms Switch Plate B (9, 16) and Barrier (23, 14) guard the 3F return exit, not the entrance to 3F.
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
-- Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
-- Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
 
 ## Turn 19016 Rigorous Mathematical Sokoban Solution for Boulder 3 & Switch Plate A
 - Boulder 3 Starting Position: (4, 14)
@@ -3971,11 +3968,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
 
-## Turn 19177 Audited Route to Southwest Room (Boulder 3)
-- Position: (15, 16) at base of staircase (15, 15).
-- Audited Route (via route_auditor): Ascend staircase (15, 15) to shelf (15, 14) -> north to row 8 -> west along row 8 to (5, 8) -> descend staircase (5, 10) to (5, 11) -> west to Western Highway at (3, 11) -> south along column 3 to (3, 14) -> east into Southwest Room at (4, 14).
-- Objective: Inspect Switch Plate A in default reset state, verify exact coordinates, and execute Sokoban solution to activate switch.
-- Verified Ground Truth: Boulder 1 is at (5, 5); Column 14 is solid rock wall across rows 0-7; Barrier (23, 14) guards ladder (25, 14).
 ## Turn 19207 Explicit Falsifiable Hypothesis: Switch Plate A (1, 16)
 - Hypothesis: Depressing Switch Plate A at (1, 16) with Boulder 3 triggers an environmental state change on 2F (e.g. lowering a plateau barrier near Moltres, opening a passage on the central terrace, or altering barrier states).
 - Monitoring Protocol:
@@ -3983,6 +3975,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   2. Inspect the central terrace/plateau boundaries along row 8 (cols 5-14) and row 5.
   3. Inspect Barrier (23, 14) to confirm whether any state change occurred.
   4. Falsification Criteria: If no barrier is lowered and no new passage is opened across 2F, definitively conclude Switch Plate A does not govern 2F overworld progression barriers, and abandon further iterations.
+## Turn 19232 Definitive Ground Truth & Dynamic Floor State
+- Active Floor Visit State: Boulder 3 actively depressing Switch Plate A at (1, 16) [Turn 19216, un-reset visit].
+- Barrier (23, 14) Reality: Conclusively verified solid on Turn 19046 with Switch Plate A depressed. Barrier (23, 14) is NOT lowered by Switch Plate A; it guards the 3F return drop ladder (25, 14), which is unlocked by dropping the 3F boulder down the hole onto Switch Plate B at (9, 16).
+- Progression Imperative: Abandoning redundant trips to Barrier (23, 14). The entrance ladder to 3F must be located and accessed directly.
+
 
 <hr>
 
