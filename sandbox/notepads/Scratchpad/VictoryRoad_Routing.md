@@ -125,3 +125,8 @@
 - Correction of prior turn 18756 note: Columns 19-21 along rows 2-4 are solid rock walls. West-east passage along rows 2-4 between col 18 and col 23 is completely blocked.
 - Row 8 connects (17, 8) east to (22, 8), with (22, 6-7) open floor to the north.
 - Descending staircase (17, 5) to inspect lower level connections to row 8.
+## Turn 18831 Definitive Floor Analysis & Northwest Route Confirmation
+- Confirmed tile (27, 7) is the eastern ladder inside the 100% enclosed chamber (cols 25-28, rows 7-9). It has no entrance on 2F, confirming it is a return ladder from a 3F pitfall.
+- Southeast ladder (25, 14) is blocked by Barrier (23, 14), requiring a boulder drop from 3F onto Switch Plate B (9, 16).
+- Conclusive progression path: Northwest Ladder at (1, 1) in Northwest Chamber! Accessible via doorway at (5, 4) and Boulder 1 at (5, 5).
+- Active route: Returning west via row 7 -> staircase (17, 5) -> row 4 upper highway to (5, 4).
