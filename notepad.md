@@ -3833,8 +3833,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - The ladder to Victory Road 3F is at (1, 1) in the Northwest Chamber of 2F (previously climbed Turn 19426).
 
 ## Active Routing Plan
-1. From (21, 3), walk north to Row 1 (Northern Highway) at (21, 1).
-2. Follow Row 1 west across the top of 2F all the way to (1, 1).
 3. Climb ladder at (1, 1) to ascend to Victory Road 3F at (2, 0).
 4. On 3F: Navigate to the movable boulder and pit hole.
 5. Push the boulder into the hole, then jump down after it (or take ladder).
@@ -3976,6 +3974,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix [Turn 19896 at (14, 8)]
 - Machop [Turn 19903 at (5, 11)]
 
+## Dynamic Entities Current State
+- Western Boulder at (5, 3): Pushed from (5, 5) into doorway (5, 4) and then to (5, 3) on Turns 19910-19913. Trapped against (5, 2) rock wall; doorway (5, 4) blocked from north. Can be reset to (5, 5) by taking ladder (0, 8) to 1F and returning.
+
 
 <hr>
 
@@ -4050,9 +4051,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
 - Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
 - Trainer: Stationed at (4, 2) facing South in Northwest Sector [Observed Turns 19771-19774].
-- Tile (22, 3): Verified open cave floor, no boulder present [Turn 19814].
-- Advice NPC: Stationed at (26, 3) [Turn 19814].
-- Blue Ladder at (27, 7): Visually confirmed [Turn 19814].
 - Graveler (observed Turn 19826)
 
 <hr>
