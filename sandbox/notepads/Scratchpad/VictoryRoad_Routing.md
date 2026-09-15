@@ -165,3 +165,8 @@
 - Bump Test (Turn 19361): Facing West from (8, 10) into (7, 10) confirmed IMPASSABLE (visited 0 tiles). Tile (7, 10) is solid/cliff from (8, 10).
 - Bump Test (Turn 19378): Facing South from (13, 12) into boulder at (13, 13) with Strength active confirmed (13, 14) is a solid rock wall (visited 0 tiles). Boulder at (13, 13) cannot be pushed South.
 - Bump Test (Turn 19386): Facing East from (20, 11) into (21, 11) confirmed IMPASSABLE rock wall clump (visited 0 tiles).
+
+## Northern Perimeter Highway Breakthrough (Turn 19401)
+- Rows 0-1 Continuous Thoroughfare: Empirically and visually verified that Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F (cols 6 through 27).
+- Moltres Corridor Connection: Row 1 at (7, 1) connects directly south into columns 6-7 down to Moltres at (7, 7).
+- Northwest Chamber Approach: Row 1 continues unobstructed west past Column 6 directly toward the Northwest Chamber ladder at (1, 1).
