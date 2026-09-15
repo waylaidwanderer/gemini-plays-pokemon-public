@@ -2957,6 +2957,7 @@
 - Column 2 (rows 1-4) is a solid rock wall.
 
 - (23, 6) confirmed solid rock barrier; exit from Ladder B (22, 6) is Down to (22, 7) then Right to (23, 7) into Column 23 (Turn 51846).
+- Row 10 across cols 10..19 confirmed continuous solid rock wall; connection from Row 11 to south corridor routes via (14, 13) -> (15, 13) -> (15, 14) -> (16, 14..16) -> Row 17 (Turn 51853).
 
 <hr>
 
