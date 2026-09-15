@@ -3982,6 +3982,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Turn 19236: Physical bump test confirmed (13, 7) is solid elevation cliff from (13, 8) with Switch Plate A active (visited 0 tiles).
 - Turn 19237: Physical bump test confirmed (12, 7) is solid elevation cliff from (12, 8) with Switch Plate A active (visited 0 tiles).
+- Turn 19238: Physical bump test confirmed (11, 7) is solid elevation cliff from (11, 8) with Switch Plate A active (visited 0 tiles).
 
 <hr>
 
