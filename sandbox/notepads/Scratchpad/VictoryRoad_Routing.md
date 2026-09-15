@@ -143,3 +143,8 @@
 - Player at (5, 5). Doorway (5, 4) is now open.
 - Active plan: Maneuvering around via row 8 -> column 9 north -> row 3 west to (6, 3).
 - From (6, 3), push Boulder 1 west into (4, 3) to enter Northwest Chamber and ascend ladder (1, 1) to 3F!
+## Turn 18890 Doorway Verification & Row 3 Flank Strategy
+- Empirically verified at (5, 4): Tile (4, 4) is a solid purple rock wall. Lateral access from (5, 4) into Northwest Chamber is blocked.
+- North push from (5, 4) blocked by wall at (5, 2). Boulder 1 correctly rests at (5, 3) in row 3.
+- Chamber Entry Solution: Row 3 connects continuously from the east (cols 17 to 6).
+- Action plan: Take verified topological route to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 to (6, 3), and push Boulder 1 west from (5, 3) into (4, 3) to enter Northwest Chamber and ascend ladder (1, 1) to 3F!
