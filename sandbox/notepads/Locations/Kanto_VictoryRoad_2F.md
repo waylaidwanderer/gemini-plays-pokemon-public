@@ -70,7 +70,7 @@
 - Southern Boundary: Solid rock wall along row 17.
 
 ## Legendary Pokémon
-- Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually confirmed Turn 16365].
+- Moltres: Legendary bird sprite located at (7, 7) on elevated plateau [Visually confirmed Turn 18795; prior Turn 16365 note of (11, 5) was a coordinate parallax error].
 
 ## Trainers
 - Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
