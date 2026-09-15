@@ -67,5 +67,8 @@
 - Column 2 (rows 1-4) is a solid rock wall.
 
 - (23, 6) confirmed solid rock barrier; exit from Ladder B (22, 6) is Down to (22, 7) then Right to (23, 7) into Column 23 (Turn 51846).
-- Row 10 across cols 10..19 confirmed continuous solid rock wall; connection from Row 11 to south corridor routes via (14, 13) -> (15, 13) -> (15, 14) -> (16, 14..16) -> Row 17 (Turn 51853).
+- Row 10 across cols 10..19 confirmed continuous solid rock wall (Turn 51853).
+- (16, 14) confirmed solid rock barrier; (15, 15) is a dead-end pocket (Turn 51857).
+- (18, 12) confirmed solid rock barrier blocking southward movement from (18, 11) (Turn 51861).
+- (22, 15) is a dead-end pocket enclosed south by solid rock at (22, 16) (Turn 51863).
 - Column 18 (rows 11..17) confirmed wide open vertical corridor connecting Row 11 directly south to Row 17 Corridor; (16, 14) is solid rock and (15, 15) is a dead-end pocket (Turn 51857).
