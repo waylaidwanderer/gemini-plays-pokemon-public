@@ -3894,14 +3894,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Fled wild Onix battle at (2, 7) [Turns 18442-18448].
 - Turn 18536: At (5, 4), executed collision test Left into tile (4, 4); bumped, empirically confirming (4, 4) is a solid rock wall.
 
-## Plateau & East-West Circuit Progress (Turns 18481-18511)
-- Traversed west along row 11 from (28, 11) to (16, 11), encountering wild Machop at (25, 11) [Turns 18483-18486, fled].
-- Ascended column 16 to (16, 7), climbed staircase (17, 5) to (17, 4) on upper plateau [Turn 18493].
-- Confirmed column 14 purple rock wall blocks westward passage across rows 0-8; stepped down staircase (17, 5) to (17, 6) [Turn 18495].
-- Walked south down column 17 to row 11 at (17, 11) [Turn 18497].
-- Traversed east along row 11 to (28, 11), descended Eastern Vertical Highway to (28, 15) [Turns 18499-18503].
-- Stepped down to row 16 lower corridor and walked west to staircase (15, 15) [Turns 18504-18508].
-- Ascended staircase (15, 15) to row 14 shelf at (15, 14), stepped Left to (14, 14) where wild Golbat appeared [Turn 18510].
+## Active Traversal & Audit Log (Turns 18708-18723)
+- Turn 18708: Pushed East into Boulder 1 from (4, 5); confirmed (6, 5) is solid wall.
+- Turns 18711-18712: Traversed south along Western Highway to (3, 11).
+- Turn 18713: Ascended staircase (5, 10) to (5, 9) on central plateau.
+- Turns 18713-18714: Crossed central plateau east to (10, 9), past Moltres at (11, 5).
+- Turns 18714-18717: Bypassed Blackbelt at (12, 9) via row 8 into column 13; fled wild Marowak at (13, 9).
+- Turns 18718-18719: Traversed south down column 13 to row 12, east along row 12 to (20, 12), down to (20, 14), and east to (22, 14).
+- Turn 18723: Standing at (22, 14) facing East directly toward Barrier (23, 14) and Ladder (25, 14) to conduct physical bump test.
 
 
 ## Plateau & Eastern Traversal Progress (Turns 18453-18481)
