@@ -3880,16 +3880,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Reconciled Empirical Status of Switch Plate A & Barriers (Turn 18811)
 - Boulder 3 is verified resting on Switch Plate A at (1, 16), confirmed across 10 consecutive turns (Turns 18681-18693) where tile (2, 16) was empty floor.
-- Switch Plate A & Barrier (23, 14) Status: Prior tests observed Barrier (23, 14) raised when floor had been reset and Boulder 3 was at (4, 14). Active hypothesis under test: depressing Switch Plate A via Boulder 3 on an un-reset floor visit lowers Barrier (23, 14).
 - Moltres confirmed at (7, 7) on central plateau.
 - Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
 
 
 
-## Turn 18853 Empirical Bump Test & Eastern Highway Route
-- Isolated bump test at (16, 8): Pressed Left, bumped into (15, 8). Confirms column 15 wall terminates row 8 westward access from col 16.
-- Conclusion: Eastern Highway (col 28) -> row 16 -> staircase (15, 15) -> col 13 -> row 8 west is the verified topological passage to the Western Sector.
-- Active route: Moving south to row 11 and east toward Eastern Highway at column 28.
 
 
 
@@ -3948,7 +3943,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Strategic Plan:
   1. Test East push on Boulder 1 from (4, 5) with Strength active to document physical collision.
   2. DO NOT push Boulder 1 into (5, 3)!
-  3. Traverse to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 straight through (8, 3), (6, 3), (5, 3), (4, 3) to the ladder at (1, 1), and ASCEND TO 3F!
 
 
 
