@@ -3937,6 +3937,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
 - Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
 
+## Turn 18943 Position & Combat Tracking
+- Current Position: (13, 10) in column 13 corridor.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Onix Lv 39 at (13, 10); successfully fled on Turn 18941 with zero resource loss.
+- Active Plan: Dismiss battle text, advance north along column 13 to row 8 at (13, 8), then traverse row 8 west toward staircase (5, 10).
+
 ## Turn 18937 Position & Traversal Tracking
 - Current Position: (15, 14) on row 14 shelf at head of staircase (15, 15).
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
