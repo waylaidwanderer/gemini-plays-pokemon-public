@@ -45,3 +45,11 @@
   - (20, 7) and (21, 7) are solid rock barriers.
   - (22, 5), (23, 5), and (23, 6) are solid rock barriers.
   - (18, 8), (19, 8), (20, 8), (21, 8), (22, 8), and (24, 8) are solid rock barriers forming a wall along Row 8.  - (22, 9) and (22, 10) are solid rock barriers blocking westward passage from Column 23.
+
+## Verified 2F South & Southeast Corridor Topography (Turns 51154-51171)
+- **Row 11 Corridor**: Open across cols 14..23.
+- **Row 13 Passages**: Open at (14..15, 13) and (17..20, 13). (16, 13) is a solid rock barrier.
+- **Row 15 Enclave**: Open at (15..19, 15). Solid rock barriers at (14, 15) and (20, 15).
+- **Row 16 Barrier Line**: Solid rock barrier across (14..20, 16) blocking direct vertical transit from Row 15 to Row 17 on the east side.
+- **Row 17 Western Corridor**: Open floor across (11..19, 17). Solid rock barrier at (20, 17) separates Western Row 17 from Eastern Row 17 (21..27, 17).
+- **Row 18 Southern Boundary**: Continuous solid rock wall across (11..20, 18).
