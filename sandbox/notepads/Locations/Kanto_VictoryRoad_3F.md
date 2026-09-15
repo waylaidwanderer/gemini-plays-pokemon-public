@@ -22,7 +22,7 @@
 
 
 ## Wild Encounters
-- Onix (observed Turns 19437, 19585)
+- Onix (observed Turns 19437, 19585, 19639)
 - Zubat (observed Turn 19468)
 - Geodude (observed Turns 19558, 19608)
 - Machop (observed Turn 19565)
@@ -35,3 +35,8 @@
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
 - Trainer: Stationed at (19, 8) [Sighted Turn 19621]
+## Negative Collision Telemetry
+- (14, 1): Solid rock wall [Turn 19631].
+- (15, 10): Solid rock wall [Turn 19644].
+- (14, 4): Solid rock wall [Turn 19648].
+- Column 14 rock divider: Continuous solid rock wall across rows 0 through 7 separating the eastern corridor (cols 15-26) from central/western sector (cols 1-13).
