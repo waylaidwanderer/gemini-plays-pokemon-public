@@ -167,3 +167,4 @@
 - Row 10 Thoroughfare: Empirically verified that row 10 is an open, unobstructed east-west corridor across columns 6 through 10, passing directly underneath the Column 8 rock wall.
 - Central-to-West Connection: Row 10 connects the central upper terrace directly to Column 5 (rows 7-10), providing seamless access to the western sector (cols 0-5) without macro-perimeter looping.
 - Moltres Perch: Moltres is located at (7, 7) in a northern alcove off row 10 (via col 7, rows 8-9).
+- Bump Test (Turn 19361): Facing West from (8, 10) into (7, 10) confirmed IMPASSABLE (visited 0 tiles). Tile (7, 10) is solid/cliff from (8, 10).
