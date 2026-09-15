@@ -119,3 +119,7 @@
 - Turns 18724-18725: Tested Barrier (23, 14) with single Right input; bumped, definitively confirming Barrier (23, 14) is solid/raised with Switch Plate A depressed. Switch Plate A does not control Barrier (23, 14).
 - Turns 18731-18748: Navigated west along row 14/12, descended staircase (15, 15) to row 16, east to col 28, north up Eastern Highway to row 11, west along row 11 to (16, 11), fleeing wild encounters (Marowak at 21, 14; Geodude at 27, 11; Onix at 24, 11).
 - Turn 18748: At base of column 16 at (16, 11). Ascending column 16 to staircase (17, 5) to access Upper Plateau (row 3) and investigate Boulder 4.
+## Turn 18772 Breakthrough: Ladder at (26, 8) and Boulder at (24, 10)
+- Visually and spatially confirmed the true progression ladder to 3F is located at (26, 8).
+- The entrance to the chamber of ladder (26, 8) is a 1-tile gap at (24, 10) blocked by an orange boulder.
+- Approach plan: Traverse via column 16 south to row 11, east along row 11 to (23, 11), north to (23, 10), activate Strength, push Boulder (24, 10) East into (25, 10), enter chamber, and ascend ladder (26, 8) to 3F!
