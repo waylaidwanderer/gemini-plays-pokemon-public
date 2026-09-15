@@ -158,6 +158,4 @@
 - Topological Fact: Column 14 is a solid rock wall across rows 0-7, permanently separating the eastern sector (cols 16-28) from the western sector (cols 1-13). Westward traversal across Column 14 is physically impossible.
 
 ## Turn 19304 Eastern Chamber Discovery & Active Route to Ladder (27, 7)
-- Visual Confirmation: Tile (27, 7) has functional ladder graphic (light blue rails, 3 rungs). Directly adjacent tiles (28, 7) is open purple floor and (29, 7) is open dark checkerboard floor.
-- Column 29 Corridor Hypothesis: Column 29 connects row 11 north into row 7.
-- Active Traversal: Stepping east along row 11 from (17, 11) to (29, 11), then north up Column 29 to (29, 7), and west to ladder (27, 7).
+- Eastern Chamber Audit (Turn 19324): Confirmed ladder graphic is located at (26, 8) inside the enclosed eastern chamber (cols 25-28, rows 7-9). Chamber is 100% sealed on 2F by rock walls on all 4 sides (row 6, row 10, col 24, col 28). Column 29 is blocked at rows 9 and 10 by solid rock walls. Tile (23, 7) is verified ordinary floor with 0 warp effect.
