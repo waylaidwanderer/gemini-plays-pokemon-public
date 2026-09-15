@@ -126,6 +126,7 @@
 - Onix [Turn 20036 at (5, 6)]
 - Golbat [Turn 20041 at (2, 6)]
 - Zubat [Turn 20051 at (7, 5)]
+- Zubat [Turn 20060 at (2, 8)]
 - Machop [Turn 19864 at (26, 11)]
 - Zubat [Turn 19884 at (10, 16)]
 - Golbat [Turn 19887 at (13, 16)]
