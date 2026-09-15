@@ -3869,11 +3869,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-## Floor Reset Execution (Turn 18403-18404)
-- Arrived at (1, 1) on Victory Road 1F via ladder (0, 8).
-- Map transition executed: All 2F dynamic boulders are now reset to starting positions!
-  - Boulder 1 is reset to (5, 5).
-  - Boulder 3 is reset to (4, 14).
+
   
 
 ## Active Traversal & Audit Log (Turns 18708-18723)
@@ -3942,16 +3938,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southeast ladder (25, 14) is blocked by Barrier (23, 14), requiring a boulder drop from 3F onto Switch Plate B (9, 16).
 - Conclusive progression path: Northwest Ladder at (1, 1) in Northwest Chamber! Accessible via doorway at (5, 4) and Boulder 1 at (5, 5).
 - Active route: Returning west via row 7 -> staircase (17, 5) -> row 4 upper highway to (5, 4).
-## Turn 18842 Active Tracking & Direct Northwest Route
-- Current position: (21, 11) on row 11.
-- Critique telemetry confirmed: Row 3 (cols 17-23) and Row 4 (cols 10-17) were physically traversed on foot on Turns 18756 and 18794 without collision.
-- The 80-tile perimeter circuit is aborted.
-- Direct route to Northwest Chamber (doorway 5, 4 and ladder 1, 1):
-  1. From (21, 11), walk North up column 21 to (21, 7) (4 steps).
-  2. Walk West along row 7 to (17, 7) (4 steps).
-  3. Ascend staircase (17, 5) to upper plateau (17, 4) (3 steps).
-  4. Walk West across row 4 / row 3 past Moltres directly to (5, 4) (~12 steps).
-  5. Activate Strength, push Boulder 1 at (5, 5), enter chamber, ascend ladder (1, 1) to 3F.
+
 
 ## Turn 18853 Empirical Bump Test & Eastern Highway Route
 - Isolated bump test at (16, 8): Pressed Left, bumped into (15, 8). Confirms column 15 wall terminates row 8 westward access from col 16.
@@ -3963,6 +3950,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder to 3F is clearly visible at (1, 1) inside the chamber!
 - Pokémaniac trainer is at (4, 2).
 - Activating Strength with Geodude (ROCKY) to solve Boulder 1 puzzle.
+## Turn 18872 Dynamic Entity State & Northwest Chamber Entry Plan
+- Player at (5, 6) facing North. Strength active with Geodude (ROCKY).
+- Boulder 1 pushed from (5, 5) to (5, 4).
+- Empty tile (5, 5) separates player from Boulder 1.
+- Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
+- Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
+
 
 <hr>
 
