@@ -2952,17 +2952,17 @@
 
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## VERIFIED DIRECT ROUTE TO LADDER A (B1F MEWTWO):
-1. **From 1F Northwest Ramp (15, 3)**:
-   - Walk west along Northern Terrace to Ladder E at (7, 1).
-   - Ascend Ladder E to 2F (arrives at (9, 1)).
-2. **From 2F Arrival (9, 1) to Row 7 Highway**:
-   - West 6 to (3, 1) -> South 2 to (3, 3) -> East 6 to (9, 3) -> South 2 to (9, 5) -> East 2 to (11, 5) -> South 2 to (11, 7).
-3. **From Row 7 Highway to Column 0 Corridor**:
-   - West 11 along Row 7 from (11, 7) to (0, 7).
-4. **From Column 0 to Ladder A (1, 3)**:
-   - North 5 along Column 0 from (0, 7) to (0, 2).
-   - East 1 to (1, 2) -> South 1 onto Ladder A at (1, 3).
-5. **Descend Ladder A to B1F -> Encounter & Catch Mewtwo with Master Ball!**
+## Active Exploration & Systematic Audit:
+1. **Cerulean Cave 2F from Ladder B (22, 6)**:
+   - Current Position: (22, 6) on 2F.
+   - Immediate Open Connections:
+     - West to (21, 6) -> South to (21, 7..8) -> West along Row 8 across cols 18..21.
+     - South along Column 21/22/24 down to Row 10/11.
+   - Objective: Methodically step through each west-bound corridor (Row 8, Row 10, Row 11, Row 17) to find the open passage to the western perimeter (Column 0) and Ladder A at (1, 3).
+
+## Verified Constraints & Dead Ends:
+- Ladder C at 2F (19, 7) is an isolated 3-tile pocket (19, 5..7).
+- Ladder E at 2F (9, 1) connects to an isolated northern loop (cols 3..16, rows 1..5); (11, 6) is solid rock blocking access to Row 7 from (11, 5).
+- Ladder D at 2F (29, 1) is self-contained eastern sector.
 
 <hr>
