@@ -105,7 +105,6 @@
 - Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
 
 - Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
-- Column 14 Reality: Column 14 is completely open floor across rows 2, 3, and 4 (player walked through (14, 4) on Turn 19334). Prior notes claiming solid walls at (14, 2-3) were erroneous. Solid rock wall only exists at (14, 5) and (14, 6-7).
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
   Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
   - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]

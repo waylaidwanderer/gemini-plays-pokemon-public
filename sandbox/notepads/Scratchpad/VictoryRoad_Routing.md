@@ -17,7 +17,6 @@
 - Column 20 Corridor: Open north-south passage connecting rows 0-5+.
 - Boulder 1: Located at (22, 3). Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
 
-## Next Progression Plan
 
 ## Floor Transition Verification (Turn 19547)
 - Ascended ladder at 2F (1, 1) to arrive at Victory Road 3F (2, 0).

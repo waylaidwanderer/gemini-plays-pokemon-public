@@ -23,8 +23,8 @@
 
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585, 19639)
-- Zubat (observed Turn 19468)
-- Geodude (observed Turns 19558, 19608)
+- Zubat (observed Turns 19468, 19673)
+- Geodude (observed Turns 19558, 19608, 19663)
 - Machop (observed Turn 19565)
 - Golbat (observed Turn 19658)
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
@@ -44,3 +44,10 @@
 
 - (16, 11) -> (16, 12): Impassable elevation cliff [Turn 19655].
 - (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
+## Structural Landmarks & Puzzle Mechanisms (Audited Turns 19654-19678)
+- Wooden Staircase at (15, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672, 19678].
+- Wooden Staircase at (21, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672].
+- Raised Barrier Block at (23, 14): Raised block obstructing westward access to Exit Ladder (25, 14) [Turns 19662, 19672].
+- Eastern Exit Ladder at (25, 14): Visual confirmation of blue ladder rungs leading toward Victory Road exit [Turns 19662, 19672].
+- Switch Plate at (9, 16): Circular switch plate with raised blue border in southwest corner of lower corridor [Discovered Turn 19678].
+- Lower Corridor (Rows 16-17): Wide continuous dark checkerboard corridor spanning columns 9 through 29.
