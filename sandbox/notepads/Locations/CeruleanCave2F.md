@@ -7,7 +7,7 @@
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
-3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Isolated 3-tile pocket at (19, 5..7); completely enclosed by solid rock walls on all sides].
+3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Isolated 9-tile plateau spanning cols 18..21 across rows 5..7; completely enclosed by solid purple rock barriers on all sides (Verified Turn 51669)].
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
 
