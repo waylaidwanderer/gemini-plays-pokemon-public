@@ -4037,5 +4037,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
 - Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
 
+- Boulder 4: Pushed west from (4, 14) to (3, 14) with Strength [Turn 19724].
 
 <hr>
