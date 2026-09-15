@@ -2879,6 +2879,7 @@
   - (4, 0..3) forms solid rock barrier terminating Northern Terrace at Column 5.
   - (7, 8) blocks westward movement from (8, 8).
   - (27..28, 12) is elevated cliff overlooking (27..28, 11) water.
+- (23, 6) confirmed solid shoreline cliff barrier blocking direct southward dismount from water at (23, 5); must route via Column 28 to the Ramp at (25, 9) (Turn 51834).
 5. **Southwest Water Basin & Observed Ladder (Turn 51563-51571 Discovery)**:
    - (7, 13) is an isolated 1-tile shoreline pocket; blocked by rock at (6, 13), (7, 14), and (7, 12).
    - Ladder sprite observed across water at (3, 11); access route and destination unverified.
