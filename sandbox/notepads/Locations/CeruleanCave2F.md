@@ -23,6 +23,7 @@
   - (16, 8) is a solid rock barrier blocking southward passage from (16, 7) (Turn 51234).
   - (14, 9) is a solid rock barrier.
   - (8, 5), (9, 6), (10, 6), (11, 6), (12, 6) are solid rock barriers.
+  - (11, 6) confirmed solid rock barrier blocking southward passage from (11, 5) (Turn 51346).
   - (12, 7), (14, 7), (15, 7), (17, 7), (20, 7), (21, 7) are solid rock barriers.
   - (17, 8..10), (18, 8..10), (19, 8..10), (20, 8..10), (21, 8..10) are solid rock barriers.
   - Column 2 (rows 1-4) is a solid rock wall.
