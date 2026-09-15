@@ -19,6 +19,4 @@
 - Wooden Staircase at (17, 5): Located along the southern boundary of the central terrace, leading south.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
-- Southeastern Ladder: Discovered at (23, 7) with light blue vertical rails and horizontal rungs [Turn 19483]. Directly accessible from column 20 corridor.
-- Ladder Pairing: Southeastern ladder at (23, 7) descends directly to Victory Road 2F at (23, 7) [Verified Turn 19485].
 

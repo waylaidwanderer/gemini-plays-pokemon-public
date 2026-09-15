@@ -126,4 +126,3 @@
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
-- Ladder Pairing: Tile (23, 7) receives the ladder descending from Victory Road 3F (23, 7) [Verified Turn 19485].
