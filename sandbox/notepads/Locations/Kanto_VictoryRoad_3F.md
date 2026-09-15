@@ -44,19 +44,7 @@
 - (14, 11): South-facing jumping ledge [Verified Turns 19744, 19753]. Northbound passage up column 14 blocked from (14, 12).
 
 - (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
-## Structural Landmarks & Puzzle Mechanisms (Audited Turns 19654-19678)
-- Wooden Staircase at (15, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672, 19678].
-- Wooden Staircase at (21, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672].
-- Raised Barrier Block at (23, 14): Raised block obstructing westward access to Exit Ladder (25, 14) [Turns 19662, 19672].
-- Eastern Exit Ladder at (25, 14): Visual confirmation of blue ladder rungs leading toward Victory Road exit [Turns 19662, 19672].
-- Lower Corridor (Rows 16-17): Wide continuous dark checkerboard corridor spanning columns 9 through 29.
 
-- Row 8 Cross-Corridor: Completely open purple floor spanning cols 6 through 14, connecting eastern plateau directly into western main avenue.
-
-- Western Boulder: Located at (5, 5) [Discovered Turn 19691]. Unblocked on south (5, 6), north (5, 4), and west (4, 5).
-- Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
-- Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
-- (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
 
 
 - Marowak (observed Turn 19744)

@@ -100,7 +100,6 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).
 
 - Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
