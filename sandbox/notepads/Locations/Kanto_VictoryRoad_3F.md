@@ -10,7 +10,8 @@
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
 - Active Field Move: STRENGTH activated with Geodude (ROCKY) on 3F [Turn 19434].
-- Boulder 1: Located at (7, 7), adjacent to column 6 avenue and row 6 cross-corridor.
+- Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
+- Boulder: Not yet located (object at (7, 7) was confirmed to be an Item Ball).
 - Pit Hole 1: Located at (3, 5).
 - Current Tactical Position (Turn 19438): Player standing at (7, 6) facing South directly at Boulder 1 at (7, 7) with active Strength.
 - Local Terrain: Visual inspection confirms floor tiles at (7, 8), (7, 9), and continuous corridor along column 6 (rows 6-10). Pit hole located west at (3, 5).
