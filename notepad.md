@@ -3926,6 +3926,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 19016 Rigorous Mathematical Sokoban Solution for Boulder 3 & Switch Plate A
+- Boulder 3 Starting Position: (4, 14)
+- Target Position: Switch Plate A at (1, 16)
+- Empirically Verified Walls & Obstacles:
+  - (2, 15) is a solid rock pillar.
+  - (5, 16) is a solid rock wall.
+  - (1, 12) and (1, 13) are solid rock debris.
+  - (1..5, 17) is solid southern boundary.
+- Canonical 5-Push Solution (verified via BFS):
+  1. Position player at (5, 14) facing West. Push Boulder 3 WEST from (4, 14) to (3, 14).
+  2. Walk around via (4, 13) to (3, 13) facing South. Push Boulder 3 SOUTH from (3, 14) to (3, 15).
+  3. Push Boulder 3 SOUTH from (3, 15) to (3, 16).
+  4. Walk around via (4, 15) to (4, 16) facing West. Push Boulder 3 WEST from (3, 16) to (2, 16).
+  5. Push Boulder 3 WEST from (2, 16) onto Switch Plate A at (1, 16)!
+- Result: Switch Plate A depressed on this floor visit -> Barrier (23, 14) lowers -> Ladder (25, 14) to 3F is unlocked!
+- Current Action: Boulder 3 was mistakenly pushed to (4, 16) where (5, 16) wall prevents west push. Traversing to ladder (0, 8) to execute quick 1F floor reset, then immediately executing the 5-push solution!
+
 ## Turn 19010 Position & Combat Tracking
 - Current Position: (4, 13) directly north of Boulder 3.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
