@@ -44,4 +44,10 @@
 - (17, 3) confirmed solid rock barrier blocking eastward movement from (16, 3) (Turn 51498).
 - (13, 7) confirmed solid rock barrier blocking southward passage from (13, 6) (Turn 51487).
 - (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51488).
-- Column 24 connects (24, 2) down through (24, 9) to Row 9 Highway.
+
+## Verified Collision & Obstacle Ledger
+  - (24, 6) confirmed solid rock barrier blocking southward movement from (24, 5) (Turn 51513).
+  - (15, 4) confirmed solid rock barrier blocking southward movement from (15, 3) (Turn 51526).
+  - (4, 2) confirmed solid rock barrier blocking westward movement from (5, 2) (Turn 51537).
+  - (5, 3) confirmed solid rock barrier blocking southward movement from (5, 2) (Turn 51538).
+  - (4, 1) confirmed solid rock barrier blocking westward movement from (5, 1) (Turn 51533).
