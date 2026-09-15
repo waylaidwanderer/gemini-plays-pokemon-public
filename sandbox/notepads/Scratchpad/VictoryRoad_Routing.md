@@ -118,34 +118,35 @@
 - Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
 - Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
 
-## Turn 18951 Position & Combat Tracking
-- Current Position: (5, 11) at base of staircase (5, 10).
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Successfully fled wild Geodude at (5, 11) on Turn 18951 with zero damage taken.
-- Active Plan: Dismiss battle exit prompt, step west to Western Highway at (3, 11), and advance north to row 7 intersection at (3, 7).
 
-## Turn 18949 Position & Combat Tracking
-- Current Position: (5, 11) at base of staircase (5, 10).
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Geodude at (5, 11); actively executing flee sequence to disengage with zero resource loss.
-- Active Plan: Flee from Geodude, dismiss battle prompt, step west to (3, 11), and proceed north along Western Highway.
 
-## Turn 18943 Position & Combat Tracking
-- Current Position: (13, 10) in column 13 corridor.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Onix Lv 39 at (13, 10); successfully fled on Turn 18941 with zero resource loss.
-- Active Plan: Dismiss battle text, advance north along column 13 to row 8 at (13, 8), then traverse row 8 west toward staircase (5, 10).
 
-## Turn 18937 Position & Traversal Tracking
-- Current Position: (15, 14) on row 14 shelf at head of staircase (15, 15).
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Traversal History: Traversed lower corridor row 16 from (11, 16) to staircase (15, 15), climbed to (15, 14).
-- Combat Resolution: Fled wild Geodude Lv 24 at (15, 14) on Turn 18928 with zero resource loss.
-- Active Plan: Navigating west across row 14 shelf to column 13 corridor, heading north toward row 8 en route to ladder (0, 8).
 
 ## Turn 18918 Ground Truth & Room Reset Strategic Model
 - Empirically verified Boulder 2 at (9, 11) is permanently immovable (North blocked by cliff 9, 10; West blocked by wall 8, 11). Confirms Switch Plate B (9, 16) and Barrier (23, 14) guard the 3F return exit, not the entrance to 3F.
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
-- Route to ladder (0, 8): row 16 east to staircase (15, 15) -> shelf -> col 13 north -> row 8 west -> staircase (5, 10) down to row 11 -> Western Highway north to ladder (0, 8).
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 18961 Position & Reset State Verification
+- Current Position: (1, 1) on Victory Road 1F.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Map Transition & Entity Reset: Transitioned from 2F (0, 8) to 1F (1, 1) on Turn 18957. All dynamic entities on 2F are restored to default coordinates:
+  - Boulder 1: Reset to (5, 5)
+  - Boulder 2: Reset to (9, 11)
+  - Boulder 3: Reset to (4, 14)
+  - Switch Plates A (1, 16) and B (9, 16): Unoccupied.
+- Re-Ascent Target: Step Right to (2, 1) and Left to (1, 1) to trigger ladder warp back to 2F (0, 8).
+- Spatial Proximity Correction: Ladder (0, 8) on 2F is in the western corridor, separated from Boulder 1 at (5, 5) by row 7 corridor (cols 0-4) and column 4 passage (rows 5-7), requiring a 10-step traversal.
+
+## Pre-Commitment Test Matrix: Starting State Boulder 1 at (5, 5)
+- Spatial Boundary Facts:
+  - (5, 5): Starting boulder position.
+  - (6, 5): Verified solid rock wall directly east. Pushing East from (4, 5) is physically impossible.
+  - (5, 4): Open doorway in row 4.
+  - (4, 4), (6, 4): Verified solid rock walls flanking (5, 4).
+  - (5, 3): Open floor inside doorway.
+  - (5, 2): Solid rock wall blocking further northward movement from (5, 3).
+- Hypotheses & Experimental Protocol:
+  1. Test A (Northwest Chamber Entrance Alternative): Investigate if (4, 3) can be reached directly without pushing Boulder 1 into (5, 3). Does pushing Boulder 1 to (5, 4) allow the player to enter (5, 4)? (Blocked by Boulder 1).
+  2. Test B (Boulder 3 onto Switch Plate A): Re-evaluate Switch Plate A at (1, 16). Does pushing Boulder 3 onto Switch Plate A alter any barrier other than (23, 14), specifically examining if a barrier lowered on the upper plateau or near Moltres?
+  3. Test C (Strength User Verification): Geodude (ROCKY) knows Strength.
