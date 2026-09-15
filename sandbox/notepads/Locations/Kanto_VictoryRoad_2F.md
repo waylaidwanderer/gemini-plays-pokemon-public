@@ -75,7 +75,6 @@
 - Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
-- Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: ¥1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
@@ -125,3 +124,6 @@
 - Northern Highway (Rows 0-1, Verified Turn 19401): Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F from column 27 all the way to column 1.
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
+
+- Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
+- Ladder Pairing: Tile (23, 7) receives the ladder descending from Victory Road 3F (23, 7) [Verified Turn 19485].

@@ -12,13 +12,12 @@
 - Active Field Move: STRENGTH activated with Geodude (ROCKY) on 3F [Turn 19434].
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Boulder 1: Discovered at (22, 3) in eastern wing [Turn 19466]. Surrounded by open floor on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)), allowing pushes in any direction.
-- Pit Hole 1: Located at (3, 5).
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
 - Trainer sighted at (13, 3) facing West on the row 3 terrace.
-- Northern Highway extends east through at least column 15 along rows 0 and 1.
 - Wooden Staircase at (17, 5): Located along the southern boundary of the central terrace, leading south.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
 - Southeastern Ladder: Discovered at (23, 7) with light blue vertical rails and horizontal rungs [Turn 19483]. Directly accessible from column 20 corridor.
+- Ladder Pairing: Southeastern ladder at (23, 7) descends directly to Victory Road 2F at (23, 7) [Verified Turn 19485].
