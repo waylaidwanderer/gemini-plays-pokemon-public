@@ -138,3 +138,9 @@
 - Isolated bump test at (16, 8): Pressed Left, bumped into (15, 8). Confirms column 15 wall terminates row 8 westward access from col 16.
 - Conclusion: Eastern Highway (col 28) -> row 16 -> staircase (15, 15) -> col 13 -> row 8 west is the verified topological passage to the Western Sector.
 - Active route: Moving south to row 11 and east toward Eastern Highway at column 28.
+## Turn 18867 Arrival at Boulder 1 & Northwest Chamber
+- Successfully arrived at (4, 5) on the Western Highway, facing East directly at Boulder 1 at (5, 5).
+- Doorway to Northwest Chamber is at (5, 4).
+- Ladder to 3F is clearly visible at (1, 1) inside the chamber!
+- Pokémaniac trainer is at (4, 2).
+- Activating Strength with Geodude (ROCKY) to solve Boulder 1 puzzle.
