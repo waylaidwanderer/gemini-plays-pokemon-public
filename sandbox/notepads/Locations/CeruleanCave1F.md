@@ -44,3 +44,4 @@
    - (7, 13) is an isolated 1-tile shoreline pocket; blocked by rock at (6, 13), (7, 14), and (7, 12).
    - Ladder sprite observed across water at (3, 11); access route and destination unverified.
 - North Canal at Row 4 terminates west at Column 14 ((13, 4..5) is solid rock barrier); connects south via (14, 5) into the Row 6/7 Central Waterway across cols 10..15 (Turn 51874).
+- (7, 15) and (7, 14) are solid rock barriers blocking westward Surf into southwest basin from Column 8 (Turn 51878).
