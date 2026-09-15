@@ -107,6 +107,12 @@
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 19018 Position & Combat Tracking
+- Current Position: (4, 12) on Victory Road 2F.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Onix at (4, 12) while advancing north toward ladder (0, 8); executing flee sequence.
+- Active Plan: Flee from Onix, dismiss battle exit prompt, step north to (4, 11), west to (3, 11), and north along Western Highway to ladder (0, 8).
+
 ## Turn 19016 Rigorous Mathematical Sokoban Solution for Boulder 3 & Switch Plate A
 - Boulder 3 Starting Position: (4, 14)
 - Target Position: Switch Plate A at (1, 16)
