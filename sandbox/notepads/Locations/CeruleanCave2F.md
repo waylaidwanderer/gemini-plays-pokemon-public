@@ -42,3 +42,6 @@
   - (14, 9) is a solid rock barrier.
   - (24, 6) is a solid rock barrier blocking southward passage from (24, 5).
   - (21, 3), (20, 4), and (21, 6) are solid rock barriers.
+  - (20, 7) and (21, 7) are solid rock barriers.
+  - (22, 5), (23, 5), and (23, 6) are solid rock barriers.
+  - (18, 8), (19, 8), (20, 8), (21, 8), (22, 8), and (24, 8) are solid rock barriers forming a wall along Row 8.
