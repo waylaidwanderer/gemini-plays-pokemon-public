@@ -4011,6 +4011,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 19468)
 - Geodude (observed Turns 19558, 19608)
 - Machop (observed Turn 19565)
+- Golbat (observed Turn 19658)
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
 - Southern Corridor: Columns 20-23 open south past row 8.
