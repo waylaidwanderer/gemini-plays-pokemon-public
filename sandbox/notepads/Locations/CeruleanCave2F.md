@@ -53,3 +53,9 @@
 - **Row 16 Barrier Line**: Solid rock barrier across (14..20, 16) blocking direct vertical transit from Row 15 to Row 17 on the east side.
 - **Row 17 Western Corridor**: Open floor across (11..19, 17). Solid rock barrier at (20, 17) separates Western Row 17 from Eastern Row 17 (21..27, 17).
 - **Row 18 Southern Boundary**: Continuous solid rock wall across (11..20, 18).
+
+## Verified Central-South 2F Topography (Turn 51204)
+- **Row 9 / Row 8 Northern Bridge**: Open across cols 10..19. Bypasses the rock at (14, 9) via (13, 9) <-> (13, 8) <-> (14, 8) <-> (15, 8) <-> (15, 9).
+- **Column 12 Highway**: Continuous open vertical corridor across rows 9..15. Connects (12, 9) in the north to (13, 15..17) and Row 17 in the south.
+- **Column 10 West Corridor**: Open at (10, 7), (10, 9), and (10, 11..15).
+- **Row 11 Main Corridor**: Open floor across cols 14..23 connecting west central sector directly east to Column 23 and Ladder B at (22, 6).
