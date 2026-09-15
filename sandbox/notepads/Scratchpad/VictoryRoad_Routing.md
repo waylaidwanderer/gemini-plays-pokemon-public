@@ -133,3 +133,6 @@
 ## Empirical Push Test on Boulder 1 (Turn 18708)
 - Standing at (4, 5) facing East with Strength active, pushed Right into Boulder 1 at (5, 5); visited 0 tiles, confirming (6, 5) is solid rock wall.
 - Boulder 1 cannot move East. Moving to verify state of Barrier (23, 14) with Switch Plate A actively depressed by Boulder 3.
+- Turns 18724-18725: Tested Barrier (23, 14) with single Right input; bumped, definitively confirming Barrier (23, 14) is solid/raised with Switch Plate A depressed. Switch Plate A does not control Barrier (23, 14).
+- Turns 18731-18748: Navigated west along row 14/12, descended staircase (15, 15) to row 16, east to col 28, north up Eastern Highway to row 11, west along row 11 to (16, 11), fleeing wild encounters (Marowak at 21, 14; Geodude at 27, 11; Onix at 24, 11).
+- Turn 18748: At base of column 16 at (16, 11). Ascending column 16 to staircase (17, 5) to access Upper Plateau (row 3) and investigate Boulder 4.
