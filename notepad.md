@@ -2914,6 +2914,12 @@
 - **Row 17 Corridor**: Open west from (27, 17) through (26, 17), (25, 17), (24, 17), (23, 17), (22, 17) to terminal alcove at (21, 17). (20, 17), (21, 16), and (21, 18) are solid rock barriers (verified Turn 50919).
 - **Column 24 Barrier (Turn 50934)**: (24, 9) is a solid rock barrier. Ladder D sector has no westward connection to the rest of 2F. Full eastern sector is self-contained.
 - **East Crossway Obstacle (Verified Turn 51048)**: (23, 4) is a solid rock barrier. Passage from (22, 4) to (24, 4) routes via (22, 2) -> (24, 2) -> (24, 4).
+- **Verified Collision & Obstacle Points (Turns 51069-51091)**:
+  - (10, 3) and (10, 4) are solid rock barriers.
+  - (13, 7) is a solid rock barrier blocking southward passage from (13, 6).
+  - (14, 9) is a solid rock barrier.
+  - (24, 6) is a solid rock barrier blocking southward passage from (24, 5).
+  - (21, 3), (20, 4), and (21, 6) are solid rock barriers.
 
 <hr>
 
