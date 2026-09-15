@@ -14,8 +14,6 @@
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
-- Trainer sighted at (13, 3) facing West on the row 3 terrace.
-- Wooden Staircase at (17, 5): Located along the southern boundary of the central terrace, leading south.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
 
@@ -33,7 +31,6 @@
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
-- Trainer: Stationed at (19, 8) [Sighted Turn 19621]
 ## Negative Collision Telemetry
 - (14, 1): Solid rock wall [Turn 19631].
 - (15, 10): Solid rock wall [Turn 19644].
@@ -41,7 +38,6 @@
 - Column 14 rock divider: Continuous solid rock wall across rows 0 through 7 separating the eastern corridor (cols 15-26) from central/western sector (cols 1-13).
 
 - (16, 11) -> (16, 12): Impassable elevation cliff [Turn 19655].
-- (14, 11): South-facing jumping ledge [Verified Turns 19744, 19753]. Northbound passage up column 14 blocked from (14, 12).
 
 - (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
 

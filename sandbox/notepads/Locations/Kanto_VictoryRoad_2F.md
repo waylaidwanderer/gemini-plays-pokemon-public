@@ -131,7 +131,7 @@
 
 ## Dynamic Entities Current State
 - Onix [Turn 19943 at (5, 7)]
-- Western Boulder at (5, 3): Pushed from (5, 5) through doorway (5, 4) into (5, 3) on Turn 19955.
+- Western Boulder at (5, 5): Cleanly reset to default coordinates (5, 5) via 1F ladder transition on Turn 19992.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (4, 4): Confirmed solid rock wall (bump test Turn 19918).
