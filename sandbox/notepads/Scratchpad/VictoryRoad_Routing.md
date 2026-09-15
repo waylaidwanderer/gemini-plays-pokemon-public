@@ -171,6 +171,7 @@
 - Moltres Corridor Connection: Row 1 at (7, 1) connects directly south into columns 6-7 down to Moltres at (7, 7).
 - Northwest Chamber Approach: Row 1 continues unobstructed west past Column 6 directly toward the Northwest Chamber ladder at (1, 1).
 
-## 3F Ascent Ladder Confirmed at (2, 0) [Turn 19403]
-- Ladder Visual Confirmation: Tile (2, 0) visually confirmed as the canonical ascent ladder to Victory Road 3F.
-- Access Route: From (6, 1), step Down to (6, 2), Left across row 2 to (2, 2), and Up through (2, 1) onto ladder at (2, 0).
+## Northwest Chamber Ground Truth (Turn 19408)
+- Visual Ground Truth: Entered Northwest Chamber via Northern Highway (Row 1). Confirmed NO ladder exists at (1, 1) or (2, 0); tile (2, 0) is dark checkerboard floor.
+- Northwest Chamber Contents: Pokémaniac trainer stationed at (4, 2) facing South. Doorway at (5, 4) connects south to Boulder 1 at (5, 5).
+- Map Topology Solved: The Northern Highway connects the eastern/central sector directly into the Northwest Chamber, which connects south through doorway (5, 4) to the western sector and ladder (0, 8).
