@@ -39,3 +39,9 @@
 - **Row 11 Main Corridor**: Open floor across cols 14..23 connecting to Column 23 and Ladder B at (22, 6).
 - **Row 17 Corridor**: Open floor across (11..19, 17) and (21..27, 17), separated by rock at (20, 17).
 - **Column 24 Vertical Corridor & Pit Drop Warp (Verified Turns 51370-51376)**: Open floor across (24, 11..16) connecting Row 11 corridor down to (24, 17). Stepping onto dark checkerboard floor at (24, 17) triggers an exterior escape pit drop warping player outside onto Route 24 (4, 11) -> (4, 12).
+
+- (6, 0) confirmed solid rock barrier blocking westward movement from (7, 0) (Turn 51478).
+- (17, 3) confirmed solid rock barrier blocking eastward movement from (16, 3) (Turn 51498).
+- (13, 7) confirmed solid rock barrier blocking southward passage from (13, 6) (Turn 51487).
+- (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51488).
+- Column 24 connects (24, 2) down through (24, 9) to Row 9 Highway.
