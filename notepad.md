@@ -3940,6 +3940,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 18777-18779: Walked west along row 6 to (16, 6), descended column 16 to row 11 at (16, 11), walked east along row 11 to (20, 11).
 - Turn 18781: Encountered wild Geodude at (20, 11). Current position: (20, 11).
 
+- Turns 18781-18784: Fled wild Geodude at (20, 11).
+- Turn 18787: Tested North to (20, 8); confirmed (19, 8) is a purple rock wall.
+- Turn 18788: Stepped Up to (20, 7), traversed west along row 7 to (17, 7) where wild Machop appeared. Current position: (17, 7).
 
 <hr>
 
