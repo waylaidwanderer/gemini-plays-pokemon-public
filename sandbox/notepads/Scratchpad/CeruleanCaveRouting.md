@@ -1,10 +1,11 @@
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## BREAKTHROUGH: ARRIVAL ON CERULEAN CAVE B1F (MEWTWO'S FLOOR)!
-- **Method of Entry**: On 2F, stepping onto the dark checkerboard floor at (24, 17) triggers a drop/pit transition that deposits the player onto B1F at (4, 11) -> (4, 12)!
-- **B1F Current Position**: (4, 12) on western platform.
-- **Immediate Surroundings**:
-  - North: (0..4, 8..10) golden plateau, (0..4, 11) checkerboard transition.
-  - South: (0..5, 13) floor, (0..5, 14) shoreline facing blue water canal at (0..6, 15..16).
-  - East: Blue water canal at Column 6, stone pillar at Column 7, stairs/structure at (8..9, 10..11).
-- **Active Objective**: Explore B1F to locate Mewtwo, initiate battle, and throw the Master Ball for guaranteed capture!
+## CRITICAL DISCOVERY & CORRECTION:
+- **2F (24, 17) Pit Drop Warp**: Stepping onto (24, 17) on 2F is an exterior escape pit that warps the player OUT of the cave onto Route 24 (4, 11) -> (4, 12).
+- **Route 24 Re-entry**:
+  - Walk north up Nugget Bridge (Column 11) to (7, 16) / (8, 16) shoreline.
+  - Surf south down the Route 24 canal into Cerulean Cave 1F entrance.
+- **2F Main Maze Investigation**:
+  - We need to reach Ladder A at 2F (1, 3) via the true internal 2F corridors:
+    1. Ladder E (7, 1) -> explore Columns 13-16 down to Row 9 (5..15, 9) and Row 7 (0..11, 7) to reach Column 0.
+    2. Ladder B (22, 6) -> Row 8 West (18..22, 8) -> Column 17/18 without dropping down (24, 17) pit.
