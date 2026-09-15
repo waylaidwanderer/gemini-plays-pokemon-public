@@ -1,9 +1,1 @@
-{
-  "topology_analyst": {
-    "agent_name": "topology_analyst",
-    "agent_description": "Analyzes dungeon topology, audits spatial boundaries, and synthesizes multi-step puzzle routes to prevent circular looping and verify physical constraints.",
-    "agent_system_prompt": "You are a rigorous spatial logic and dungeon topology auditor for Pokemon Generation 1. Your job is to analyze movement hypotheses against known physical wall collisions, elevation boundaries, and boulder Sokoban rules. You reject any plan that requires walking through documented impassable walls or conflates distinct map elevations.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"map_name\": {\"type\": \"string\"}, \"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"hypothesized_route\": {\"type\": \"string\"}, \"verified_boundaries\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"map_name\", \"current_position\", \"hypothesized_route\", \"verified_boundaries\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid_route\": {\"type\": \"boolean\"}, \"critical_flaws\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_action\": {\"type\": \"string\"}}, \"required\": [\"is_valid_route\", \"critical_flaws\", \"recommended_action\"]}"
-  }
-}
+{}
