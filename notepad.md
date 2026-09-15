@@ -2985,5 +2985,12 @@
 - **Eastern Platform**:
   - Stone pillar barrier along Column 7 (rows 8..17).
   - Blue staircase at (8, 10..11) and orange structure at (9, 11).
+- **North Waterway Basin**:
+  - Spans cols 6..11 across rows 4..5, connecting Column 6 canal east past the Column 7 stone pillar barrier.
+  - Connects south to the Eastern Platform green terrace at (8..11, 6..7).
+- **Eastern Platform Complex**:
+  - Rows 6..7: Green lawn/trees at (8..11, 6..7).
+  - Rows 8..9: Golden patterned platform at (8..11, 8..9).
+  - Rows 10..11: Blue staircase at (8, 10..11) and orange entrance structure at (9, 11).
 
 <hr>
