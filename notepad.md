@@ -3847,6 +3847,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    If (23, 7) on 2F is NOT an ascent ladder, we return to the Northwest Chamber at (1, 1) and ascend to 3F.
 3. On 3F, solve Boulder 1 puzzle: push Boulder 1 into Pit Hole 1 at (3, 5) or find target switch/hole.
 
+## Floor Transition Verification (Turn 19547)
+- Ascended ladder at 2F (1, 1) by stepping Right to (2, 1) and Left back onto (1, 1).
+- Arrived at Victory Road 3F (2, 0) facing South.
+- Verified 3F features: Pit hole at (3, 5), ladder descent at (2, 0), open Northern Highway spanning east-west across rows 0-1.
+- Current Task: Activate Strength, navigate to Boulder 1 at (22, 3), and push it along Northern Highway into Pit Hole 1 at (3, 5).
 
 <hr>
 
