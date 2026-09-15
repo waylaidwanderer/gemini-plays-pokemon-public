@@ -62,3 +62,5 @@
 - Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
 
 - Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.- Trainer: Stationed at (12, 9) [Sighted Turn 19686].
+
+- Marowak (observed Turn 19744)
