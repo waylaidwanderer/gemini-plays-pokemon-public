@@ -118,6 +118,12 @@
 - Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
 - Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
 
+## Turn 18949 Position & Combat Tracking
+- Current Position: (5, 11) at base of staircase (5, 10).
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Geodude at (5, 11); actively executing flee sequence to disengage with zero resource loss.
+- Active Plan: Flee from Geodude, dismiss battle prompt, step west to (3, 11), and proceed north along Western Highway.
+
 ## Turn 18943 Position & Combat Tracking
 - Current Position: (13, 10) in column 13 corridor.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
