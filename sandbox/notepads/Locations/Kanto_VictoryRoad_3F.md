@@ -25,7 +25,7 @@
 - Onix (observed Turns 19437, 19585, 19639, 19694)
 - Zubat (observed Turns 19468, 19673)
 - Geodude (observed Turns 19558, 19608, 19663)
-- Machop (observed Turn 19565)
+- Machop (observed Turns 19565, 19729)
 - Golbat (observed Turn 19658)
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
@@ -65,3 +65,4 @@
 - Boulder 4: Pushed south from (3, 14) to (3, 15) with Strength [Turn 19725].
 - Boulder 4: Pushed south from (3, 15) to (3, 16) with Strength [Turn 19726].
 - Boulder 4: Pushed west from (3, 16) to (2, 16) with Strength [Turn 19727].
+- Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.
