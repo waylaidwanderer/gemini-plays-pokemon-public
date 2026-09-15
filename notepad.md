@@ -2870,6 +2870,7 @@
 5. **Southern Basin & Northwest Frontier Topography (Verified Turns 51026-51032)**:
    - Southern Water Basin: Spans rows 14-15 across cols 8-11. Solid rock boundaries at Row 16 (south), Column 12 (east), and Column 7 (west). No southwest water outlet.
    - Northern Terrace NW Boundary: (4, 0), (4, 1), (4, 2), (4, 3) form a continuous solid rock barrier terminating the terrace at Column 5.
+- **West Canal Boundary (Verified Turn 51039)**: (7, 8) is a solid rock barrier blocking westward movement from (8, 8). The water canal along cols 8-9 terminates westward against rock walls along Column 7 across rows 6-15.
 
 <hr>
 
