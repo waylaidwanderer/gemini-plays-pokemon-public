@@ -65,11 +65,6 @@
 - Moltres confirmed at (7, 7) on central plateau.
 - Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
 
-## Turn 18831 Definitive Floor Analysis & Northwest Route Confirmation
-- Confirmed tile (27, 7) is the eastern ladder inside the 100% enclosed chamber (cols 25-28, rows 7-9). It has no entrance on 2F, confirming it is a return ladder from a 3F pitfall.
-- Southeast ladder (25, 14) is blocked by Barrier (23, 14), requiring a boulder drop from 3F onto Switch Plate B (9, 16).
-- Conclusive progression path: Northwest Ladder at (1, 1) in Northwest Chamber! Accessible via doorway at (5, 4) and Boulder 1 at (5, 5).
-- Active route: Returning west via row 7 -> staircase (17, 5) -> row 4 upper highway to (5, 4).
 
 
 ## Turn 18853 Empirical Bump Test & Eastern Highway Route
@@ -93,11 +88,6 @@
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
-## Turn 19018 Position & Combat Tracking
-- Current Position: (4, 12) on Victory Road 2F.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Onix at (4, 12) while advancing north toward ladder (0, 8); executing flee sequence.
-- Active Plan: Flee from Onix, dismiss battle exit prompt, step north to (4, 11), west to (3, 11), and north along Western Highway to ladder (0, 8).
 
 ## Turn 19016 Rigorous Mathematical Sokoban Solution for Boulder 3 & Switch Plate A
 - Boulder 3 Starting Position: (4, 14)
@@ -147,11 +137,6 @@
   2. DO NOT push Boulder 1 into (5, 3)!
   3. Traverse to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 straight through (8, 3), (6, 3), (5, 3), (4, 3) to the ladder at (1, 1), and ASCEND TO 3F!
 
-## Turn 18967 Position & Combat Tracking
-- Current Position: (0, 7) on Victory Road 2F.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Machop at (0, 7) while advancing toward (4, 5); executing flee sequence.
-- Active Plan: Flee from Machop, dismiss battle exit prompt, and complete 6-step traversal along row 7 and column 4 to reach (4, 5).
 
 ## Turn 18961 Position & Reset State Verification
 - Current Position: (1, 1) on Victory Road 1F.
