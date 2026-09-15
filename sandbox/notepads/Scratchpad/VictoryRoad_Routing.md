@@ -98,8 +98,7 @@
   3. Push Boulder 3 SOUTH from (3, 15) to (3, 16).
   4. Walk around via (4, 15) to (4, 16) facing West. Push Boulder 3 WEST from (3, 16) to (2, 16).
   5. Push Boulder 3 WEST from (2, 16) onto Switch Plate A at (1, 16)!
-- Result: Switch Plate A depressed on this floor visit -> Barrier (23, 14) lowers -> Ladder (25, 14) to 3F is unlocked!
-- Current Action: Boulder 3 was mistakenly pushed to (4, 16) where (5, 16) wall prevents west push. Traversing to ladder (0, 8) to execute quick 1F floor reset, then immediately executing the 5-push solution!
+
 
 
 
@@ -133,16 +132,7 @@
   3. Traverse to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 straight through (8, 3), (6, 3), (5, 3), (4, 3) to the ladder at (1, 1), and ASCEND TO 3F!
 
 
-## Turn 18961 Position & Reset State Verification
-- Current Position: (1, 1) on Victory Road 1F.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Map Transition & Entity Reset: Transitioned from 2F (0, 8) to 1F (1, 1) on Turn 18957. All dynamic entities on 2F are restored to default coordinates:
-  - Boulder 1: Reset to (5, 5)
-  - Boulder 2: Reset to (9, 11)
-  - Boulder 3: Reset to (4, 14)
-  - Switch Plates A (1, 16) and B (9, 16): Unoccupied.
-- Re-Ascent Target: Step Right to (2, 1) and Left to (1, 1) to trigger ladder warp back to 2F (0, 8).
-- Spatial Proximity Correction: Ladder (0, 8) on 2F is in the western corridor, separated from Boulder 1 at (5, 5) by row 7 corridor (cols 0-4) and column 4 passage (rows 5-7), requiring a 10-step traversal.
+
 
 ## Pre-Commitment Test Matrix: Starting State Boulder 1 at (5, 5)
 - Spatial Boundary Facts:
@@ -168,3 +158,4 @@
 - Conclusive Finding: Switch Plate A at (1, 16) DOES NOT lower Barrier (23, 14).
 - Physical Reality: Barrier (23, 14) is 100% solid and raised. It must be lowered by Switch Plate B at (9, 16) via 3F boulder drop, or another mechanism. Ladder (25, 14) is therefore inaccessible from row 14 west.
 
+- Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
