@@ -110,3 +110,16 @@
 - Breakthrough (Turn 19145): Tile (15, 3) empirically verified 100% open floor (player stepped onto (15, 3)). The prior note claiming columns 14-15 are solid rock across rows 0-7 was false; column 15 is passable.
 - Column 14 Divider: Empirically verified on Turns 19145-19155 that Column 14 is a solid rock wall across rows 0-3 (bump tests confirmed at (14, 0), (14, 1), (14, 2), and (14, 3)). Northern passage into western sector is blocked across rows 0-3.
 - Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
+- Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
+  Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
+  - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]
+  - (12, 8) -> (12, 7): SOLID elevation cliff [Turn 19237]
+  - (11, 8) -> (11, 7): SOLID elevation cliff [Turn 19238]
+  - (10, 8) -> (10, 7): SOLID elevation cliff [Turn 19239]
+  - (9, 8) -> (9, 7): SOLID elevation cliff [Turn 19240]
+  - (8, 8) -> (8, 7): SOLID rock wall [Turn 19241]
+  - (7, 8) -> (7, 7): SOLID elevation cliff [Turn 19242]
+  - (6, 8) -> (6, 7): SOLID elevation cliff [Turn 19243]
+  - (5, 8) -> (5, 7): SOLID elevation cliff [Turn 19220]
+  Conclusion: The entire northern boundary of the row 8 terrace (cols 5-13) is 100% solid and impassable. Switch Plate A does NOT open any passage across row 8.
+- Column 17 / (17, 5) Reality: Empirically verified that (17, 5) is flat dark checkerboard floor traversed in continuous straight-line walking [Turn 19143, 19148], NOT a wooden staircase. The only functional staircases on 2F are (5, 10), (15, 15), and (21, 15).

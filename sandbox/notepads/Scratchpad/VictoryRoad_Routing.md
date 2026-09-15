@@ -110,17 +110,6 @@
   - Verification Warning: While rows 2-3 are open locally across cols 6-9, permanent records empirically prove that columns 14-15 form a solid rock wall across rows 0-7, terminating westward passage from the eastern upper plateau. Westward traversal from staircase (17, 5) along row 3 cannot reach column 9.
   - Active Investigation: Evaluating how columns 6-9 connect to the central plateau, or investigating the true path to 3F.
 
-## Turn 18970 Major Topological Breakthrough: Unblocked Row 3 Highway
-- Position: (4, 5) facing North. Boulder 1 is at (5, 5).
-- Visual Confirmation on Screen:
-  - Row 3 is a completely open 1-tile corridor across cols 1-9 (tiles 4,3; 5,3; 6,3; 7,3; 8,3; 9,3 are ALL floor!).
-  - Column 8 rock wall only exists from row 4 southwards! Rows 2 and 3 are 100% OPEN across column 8.
-  - Ladder to 3F is clearly visible at (1, 1) in the Northwest Chamber!
-  - Root Cause of Prior Failure: Pushing Boulder 1 into (5, 3) on Turn 18876 blocked the entire row 3 corridor.
-  - Reset State: Boulder 1 at (5, 5) leaves (5, 3) 100% OPEN and traversable!
-- Strategic Plan:
-  1. Test East push on Boulder 1 from (4, 5) with Strength active to document physical collision.
-  2. DO NOT push Boulder 1 into (5, 3)!
 
 
 
@@ -149,13 +138,6 @@
 
 - Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
 
-## Turn 19207 Explicit Falsifiable Hypothesis: Switch Plate A (1, 16)
-- Hypothesis: Depressing Switch Plate A at (1, 16) with Boulder 3 triggers an environmental state change on 2F (e.g. lowering a plateau barrier near Moltres, opening a passage on the central terrace, or altering barrier states).
-- Monitoring Protocol:
-  1. Complete 5-push Sokoban solution to place Boulder 3 onto Switch Plate A at (1, 16).
-  2. Inspect the central terrace/plateau boundaries along row 8 (cols 5-14) and row 5.
-  3. Inspect Barrier (23, 14) to confirm whether any state change occurred.
-  4. Falsification Criteria: If no barrier is lowered and no new passage is opened across 2F, definitively conclude Switch Plate A does not govern 2F overworld progression barriers, and abandon further iterations.
 ## Turn 19232 Definitive Ground Truth & Dynamic Floor State
 - Active Floor Visit State: Boulder 3 actively depressing Switch Plate A at (1, 16) [Turn 19216, un-reset visit].
 - Barrier (23, 14) Reality: Conclusively verified solid on Turn 19046 with Switch Plate A depressed. Barrier (23, 14) is NOT lowered by Switch Plate A; it guards the 3F return drop ladder (25, 14), which is unlocked by dropping the 3F boulder down the hole onto Switch Plate B at (9, 16).
