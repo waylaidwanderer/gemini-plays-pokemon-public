@@ -15,3 +15,5 @@
 - Pit Hole 1: Located at (3, 5).
 - Current Tactical Position (Turn 19438): Player standing at (7, 6) facing South directly at Boulder 1 at (7, 7) with active Strength.
 - Local Terrain: Visual inspection confirms floor tiles at (7, 8), (7, 9), and continuous corridor along column 6 (rows 6-10). Pit hole located west at (3, 5).
+- Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
+- Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
