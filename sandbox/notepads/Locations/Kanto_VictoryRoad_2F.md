@@ -101,7 +101,6 @@
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 
-- Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
   Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
   - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]
@@ -127,6 +126,7 @@
 - Golbat [Turn 20041 at (2, 6)]
 - Zubat [Turn 20051 at (7, 5)]
 - Zubat [Turn 20060 at (2, 8)]
+- Geodude [Turn 20071 at (9, 9)]
 - Graveler [Turn 20065 at (5, 11)]
 - Machop [Turn 19864 at (26, 11)]
 - Zubat [Turn 19884 at (10, 16)]

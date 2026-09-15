@@ -1,13 +1,18 @@
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20008)
-- Location: Victory Road 2F at (4, 5), facing East directly at Western Boulder (5, 5).
-- Doorway (5, 4) is the confirmed physical entrance into the Northwest Chamber (Row 3), which houses ladder (1, 1) to 3F.
-- Physical test on Turn 20004 confirmed row 8 cannot step north into row 7 ((13, 8) -> (13, 7) bumped into elevation cliff). The northern half of 2F must be accessed via the western sector doorway (5, 4).
-- The floor was freshly reset on Turn 19992 via 1F ladder: Western Boulder is at default position (5, 5).
+## Current Status (Turn 20071)
+- Location: Victory Road 2F on the purple plateau at (9, 9).
+- Western Boulder: Pushed North into (5, 3) on Turn 20029 with Strength active.
+- Empirical Verification at Western Sector:
+  - (5, 2) is a solid rock wall (Turn 20046 bump). Boulder at (5, 3) cannot move North.
+  - (7, 4) is a solid rock wall (Turn 20057 bump). Column 7 cannot step North into Row 3.
+  - (4, 4) and (6, 4) are solid rock walls (Turns 19918, 19958 bumps).
+  - (6, 5) is a solid rock wall (Turn 20017 bump).
+- Current Battle: Wild Geodude encountered at (9, 9).
 
-## Active Routing Plan
-1. Open Start menu and activate field move STRENGTH with Geodude (ROCKY).
-2. Empirically test boulder manipulation vectors (pushing from (4, 5) facing East, or from (5, 6) facing North).
-3. Clear passage through doorway (5, 4) into Row 3.
-4. Walk west along Row 1-3 to Northwest Chamber ladder at (1, 1) and ascend to Victory Road 3F!
+## Routing Plan
+1. Flee from wild Geodude to return to overworld at (9, 9).
+2. Reset Victory Road 2F via 1F ladder at (0, 8) to restore the Western Boulder to its default starting position (5, 5).
+3. Investigate the Western Boulder puzzle with fresh, rigorous Sokoban analysis:
+   - When boulder is at (5, 5), evaluate ALL push vectors and adjacent tile manipulations.
+   - Test whether boulder can be moved without sealing the passage, or determine the exact mechanism to access ladder (1, 1).
