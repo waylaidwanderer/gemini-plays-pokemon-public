@@ -146,11 +146,7 @@
   1. Test A (Northwest Chamber Entrance Alternative): Investigate if (4, 3) can be reached directly without pushing Boulder 1 into (5, 3). Does pushing Boulder 1 to (5, 4) allow the player to enter (5, 4)? (Blocked by Boulder 1).
   2. Test B (Boulder 3 onto Switch Plate A): Re-evaluate Switch Plate A at (1, 16). Does pushing Boulder 3 onto Switch Plate A alter any barrier other than (23, 14), specifically examining if a barrier lowered on the upper plateau or near Moltres?
   3. Test C (Strength User Verification): Geodude (ROCKY) knows Strength.
-## Turn 19036 Historic Milestone: 5-Push Sokoban Complete & Switch Plate A Depressed!
-- Current Position: (3, 16) facing West.
-- Boulder 3 Status: Successfully pushed from (2, 16) onto Switch Plate A at (1, 16)! Boulder 3 is actively resting on Switch Plate A on this single floor visit.
-- Empirical Test Active: Traversing directly to Barrier (23, 14) without map transitions or floor resets to physically inspect if Barrier (23, 14) is lowered.
-- Route to Barrier (23, 14): Column 3 north to (3, 11) -> (5, 11) -> ascend staircase (5, 10) to (5, 8) -> row 8 east to (13, 8) -> column 13 south to shelf (15, 14) -> descend staircase (15, 15) to (15, 16) -> row 16 east to (21, 16) -> ascend staircase (21, 15) to row 14 at (21, 14) -> step east to (22, 14) and inspect Barrier (23, 14)!
+
 
 ## Turn 19046 Definitive Empirical Bump Test: Barrier (23, 14) is SOLID with Switch Plate A Depressed
 - Test Setup: Boulder 3 actively depressing Switch Plate A at (1, 16) on this single un-reset floor visit. Player positioned at (22, 14) facing East directly at Barrier (23, 14).
@@ -159,3 +155,5 @@
 - Physical Reality: Barrier (23, 14) is 100% solid and raised. It must be lowered by Switch Plate B at (9, 16) via 3F boulder drop, or another mechanism. Ladder (25, 14) is therefore inaccessible from row 14 west.
 
 - Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
+
+- Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.

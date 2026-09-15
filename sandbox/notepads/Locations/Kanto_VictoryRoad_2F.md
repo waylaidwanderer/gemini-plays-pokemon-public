@@ -104,7 +104,9 @@
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 - Boundary (13, 8) -> (13, 7): Empirically verified impassable elevation cliff on Turn 19089 (bump test visited 0 tiles). Confirms the row 8 northern cliff continuously blocks northbound passage across column 13.
-- Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).- Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
+- Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).
+- Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
 
 - Breakthrough (Turn 19145): Tile (15, 3) empirically verified 100% open floor (player stepped onto (15, 3)). The prior note claiming columns 14-15 are solid rock across rows 0-7 was false; column 15 is passable.
 - Column 14 Divider: Empirically verified on Turns 19145-19155 that Column 14 is a solid rock wall across rows 0-3 (bump tests confirmed at (14, 0), (14, 1), (14, 2), and (14, 3)). Northern passage into western sector is blocked across rows 0-3.
+- Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
