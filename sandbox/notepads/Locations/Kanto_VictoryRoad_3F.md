@@ -17,3 +17,5 @@
 - Local Terrain: Visual inspection confirms floor tiles at (7, 8), (7, 9), and continuous corridor along column 6 (rows 6-10). Pit hole located west at (3, 5).
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
+- Trainer sighted at (13, 3) facing West on the row 3 terrace.
+- Northern Highway extends east through at least column 15 along rows 0 and 1.
