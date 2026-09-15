@@ -3947,6 +3947,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - North push from (5, 4) blocked by wall at (5, 2). Boulder 1 correctly rests at (5, 3) in row 3.
 - Chamber Entry Solution: Row 3 connects continuously from the east (cols 17 to 6).
 - Action plan: Take verified topological route to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 to (6, 3), and push Boulder 1 west from (5, 3) into (4, 3) to enter Northwest Chamber and ascend ladder (1, 1) to 3F!
+## Turn 18918 Ground Truth & Room Reset Strategic Model
+- Empirically verified Boulder 2 at (9, 11) is permanently immovable (North blocked by cliff 9, 10; West blocked by wall 8, 11). Confirms Switch Plate B (9, 16) and Barrier (23, 14) guard the 3F return exit, not the entrance to 3F.
+- Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
+- Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
+- Route to ladder (0, 8): row 16 east to staircase (15, 15) -> shelf -> col 13 north -> row 8 west -> staircase (5, 10) down to row 11 -> Western Highway north to ladder (0, 8).
+- Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
 
 <hr>
 
