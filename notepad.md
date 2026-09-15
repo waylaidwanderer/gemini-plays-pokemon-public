@@ -3987,6 +3987,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Central-to-West Connection: Row 10 connects the central upper terrace directly to Column 5 (rows 7-10), providing seamless access to the western sector (cols 0-5) without macro-perimeter looping.
 - Moltres Perch: Moltres is located at (7, 7) in a northern alcove off row 10 (via col 7, rows 8-9).
 - Bump Test (Turn 19361): Facing West from (8, 10) into (7, 10) confirmed IMPASSABLE (visited 0 tiles). Tile (7, 10) is solid/cliff from (8, 10).
+- Bump Test (Turn 19378): Facing South from (13, 12) into boulder at (13, 13) with Strength active confirmed (13, 14) is a solid rock wall (visited 0 tiles). Boulder at (13, 13) cannot be pushed South.
 
 
 <hr>
