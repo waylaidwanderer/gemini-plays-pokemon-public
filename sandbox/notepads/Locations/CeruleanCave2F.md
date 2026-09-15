@@ -65,3 +65,5 @@
 - (27, 5) confirmed solid rock barrier blocking southward movement from (27, 4) (Turn 51793).
 - (28, 4) confirmed solid rock barrier blocking eastward movement from (27, 4) (Turn 51795).
 - Column 2 (rows 1-4) is a solid rock wall.
+
+- (23, 6) confirmed solid rock barrier; exit from Ladder B (22, 6) is Down to (22, 7) then Right to (23, 7) into Column 23 (Turn 51846).
