@@ -2892,11 +2892,11 @@
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
-5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Arrival at (9, 1)].
+5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
 
 ## Verified Northwest & West Maze Topography (Turn 51242)
 - **Ladder A Location**: (1, 3).
-- **Ladder E Arrival**: (9, 1) connects west via Row 1 (cols 9..3) to (3, 1..3).
+- **Ladder E Arrival**: Ladder icon at (7, 1), spawn at (9, 1). Connects west via Row 1 to (3, 1..3).
 - **Column 5 Vertical Highway**: Continuous open floor across (5, 3..9). Connects Row 3 at (5, 3) directly to Row 5, Row 6, Row 7, Row 8, Row 9 and the western sectors (cols 0..4).
 - **Row 3 Main Bypass**: Open floor across (3..9, 3) connecting Column 3 to Column 9 and Column 5.
 - **Row 7 Highway**: Open floor across (5..11, 7).
