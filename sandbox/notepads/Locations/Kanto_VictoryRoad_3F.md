@@ -19,3 +19,6 @@
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
 - Trainer sighted at (13, 3) facing West on the row 3 terrace.
 - Northern Highway extends east through at least column 15 along rows 0 and 1.
+- Wooden Staircase at (17, 5): Located along the southern boundary of the central terrace, leading south.
+- Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
+- Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
