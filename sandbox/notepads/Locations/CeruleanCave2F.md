@@ -46,6 +46,10 @@
 - (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51488).
 
 ## Verified Collision & Obstacle Ledger
+  - (9, 3 South) confirmed solid rock wall / ridge across Row 3 (Turn 51544).
+  - (16, 2 East) confirmed solid rock wall (Turn 51546).
+  - (15, 3 South) confirmed elevated ledge overlooking void/chasm at (15, 4) (Turn 51554).
+  - (4, 0) confirmed solid rock barrier blocking westward movement from (5, 0) (Turn 51542).
   - (24, 6) confirmed solid rock barrier blocking southward movement from (24, 5) (Turn 51513).
   - (15, 4) confirmed solid rock barrier blocking southward movement from (15, 3) (Turn 51526).
   - (4, 2) confirmed solid rock barrier blocking westward movement from (5, 2) (Turn 51537).
