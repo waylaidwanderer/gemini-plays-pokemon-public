@@ -2896,7 +2896,7 @@
 ## Verified Ladders (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
-3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
+3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Isolated 3-tile pocket at (19, 5..7); completely enclosed by solid rock walls on all sides].
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
 
@@ -2921,7 +2921,6 @@
 - **Row 11 Main Corridor**: Open floor across cols 14..23 connecting to Column 23 and Ladder B at (22, 6).
 - **Row 17 Corridor**: Open floor across (11..19, 17) and (21..27, 17), separated by rock at (20, 17).
 - **Column 24 Vertical Corridor (Verified Turns 51288-51291)**: Open floor across (24, 11..15). (24, 16) is a solid rock barrier separating Column 24 from Row 17 (24, 17). Connects at (24, 11) to Row 11 main corridor.
-
 
 <hr>
 
