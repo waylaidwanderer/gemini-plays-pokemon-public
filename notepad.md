@@ -3837,9 +3837,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
 
-
-
-
 - Verified Facts:
   - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turns 17642, 17785, 17861]. Non-functional ladder graphic.
   - Tile (24, 10): Solid rock wall [Verified Turn 17759].
@@ -3872,14 +3869,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Columns 13-14 form a wide north-south corridor connecting the row 14 shelf directly up to rows 8-9.
 - Empirical Verification (Turn 18385): Successfully traversed from row 16 up through staircase (15, 15) and along column 13 to row 10. Rows 8-9 are completely open connecting west to column 5.
 
-
 ## Floor Reset Execution (Turn 18403-18404)
 - Arrived at (1, 1) on Victory Road 1F via ladder (0, 8).
 - Map transition executed: All 2F dynamic boulders are now reset to starting positions!
   - Boulder 1 is reset to (5, 5).
   - Boulder 3 is reset to (4, 14).
   - Boulder 4 is reset to (22, 3).
-
 
 ## Post-Reset Arrival on 2F (Turn 18410-18413)
 
@@ -3902,18 +3897,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 18714-18717: Bypassed Blackbelt at (12, 9) via row 8 into column 13; fled wild Marowak at (13, 9).
 - Turns 18718-18719: Traversed south down column 13 to row 12, east along row 12 to (20, 12), down to (20, 14), and east to (22, 14).
 - Turn 18723: Standing at (22, 14) facing East directly toward Barrier (23, 14) and Ladder (25, 14) to conduct physical bump test.
-
-
-## Plateau & Eastern Traversal Progress (Turns 18453-18481)
-- Traversed row 11 and climbed wooden staircase at (5, 10) to (5, 9) on the elevated plateau [Turn 18454].
-- Crossed elevated plateau east to (9, 9) and (13, 8) past column 12 [Turns 18456-18457].
-- Navigated south down column 13 corridor to (13, 12) [Turn 18458].
-- Traversed east along row 12 toward staircase (21, 15), fleeing wild Onix at (18, 12) [Turns 18460-18463] and wild Geodude at (19, 14) [Turns 18465-18467].
-- Descended staircase (21, 15) to row 16 lower corridor at (21, 16), fleeing wild Machop [Turns 18468-18471].
-- Traversed row 16 east to column 28 and ascended Eastern Vertical Highway to (28, 14), fleeing wild Onix [Turns 18472-18476].
-- Ascended to (28, 11) on row 11 [Turn 18477].
-- Executed bump test North into tile (28, 10) on Turn 18479: bumped, confirming (28, 10) is a solid rock wall.
-
 
 ## Floor Reset & Two-Sided Boulder 1 Strategy (Turns 18542-18549)
 - Transitioned to 1F via ladder (0, 8) to reset 2F dynamic entities [Turn 18542].
