@@ -15,10 +15,12 @@
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
 - **Northwest Topography & Target**: Ladder A is located at (1, 3). Entry from 1F is via Ladder E at (7, 1) -> 2F (9, 1).
 - **Collision Grid (NW Sector)**:
-  - (8, 5) is a purple rock barrier.
-  - (9, 6) is a purple rock barrier.
+  - (2, 1), (2, 2), (2, 3), (2, 4) are solid rock barriers.
+  - (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (8, 4) are solid rock barriers.
+  - (8, 5) is a solid rock barrier.
+  - (9, 6) is a solid rock barrier.
+  - (27, 3), (28, 4), (25, 4) are solid rock barriers.
   - (6, 6) is open floor connecting Row 5 and Row 7.
-  - Row 4 (cols 0-8) is a continuous rock barrier.
   - Column 2 (rows 1-4) is a vertical rock barrier.
 
 ## Verified Southeastern & Southern Topography (Turns 50872-50910)
