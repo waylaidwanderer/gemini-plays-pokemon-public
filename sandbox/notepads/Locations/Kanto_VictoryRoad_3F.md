@@ -22,7 +22,7 @@
 
 
 ## Wild Encounters
-- Onix (observed Turns 19437, 19585, 19639)
+- Onix (observed Turns 19437, 19585, 19639, 19694)
 - Zubat (observed Turns 19468, 19673)
 - Geodude (observed Turns 19558, 19608, 19663)
 - Machop (observed Turn 19565)
@@ -59,3 +59,4 @@
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
 - Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
+- Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
