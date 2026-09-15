@@ -136,6 +136,7 @@
 - Western Boulder at (5, 3): Pushed North through doorway (5, 4) into (5, 3) on Turn 20029 with Strength active.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
+- Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
 - Tile (4, 4): Confirmed solid rock wall (bump test Turn 19918).
 - Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
 - Tile (5, 2): Confirmed solid rock wall (boulder cannot move north of (5, 3)).
