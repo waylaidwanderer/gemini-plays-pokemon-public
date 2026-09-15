@@ -2950,7 +2950,9 @@
 - (24, 13) confirmed solid rock barrier (Turn 51374).
 - (25, 5) confirmed solid rock barrier blocking eastward movement from (24, 5) (Turn 51786).
 - (26, 14) confirmed solid rock barrier (Turn 51375).
+- (27, 3) confirmed solid rock barrier blocking northward movement from (27, 4) (Turn 51795).
 - (27, 5) confirmed solid rock barrier blocking southward movement from (27, 4) (Turn 51793).
+- (28, 4) confirmed solid rock barrier blocking eastward movement from (27, 4) (Turn 51795).
 - Column 2 (rows 1-4) is a solid rock wall.
 
 
