@@ -3990,9 +3990,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Moltres Corridor Connection: Row 1 at (7, 1) connects directly south into columns 6-7 down to Moltres at (7, 7).
 - Northwest Chamber Approach: Row 1 continues unobstructed west past Column 6 directly toward the Northwest Chamber ladder at (1, 1).
 
-## 3F Ascent Ladder Confirmed at (2, 0) [Turn 19403]
-- Ladder Visual Confirmation: Tile (2, 0) visually confirmed as the canonical ascent ladder to Victory Road 3F.
-- Access Route: From (6, 1), step Down to (6, 2), Left across row 2 to (2, 2), and Up through (2, 1) onto ladder at (2, 0).
+## Northwest Chamber Ground Truth (Turn 19408)
+- Visual Ground Truth: Entered Northwest Chamber via Northern Highway (Row 1). Confirmed NO ladder exists at (1, 1) or (2, 0); tile (2, 0) is dark checkerboard floor.
+- Northwest Chamber Contents: Pokémaniac trainer stationed at (4, 2) facing South. Doorway at (5, 4) connects south to Boulder 1 at (5, 5).
+- Map Topology Solved: The Northern Highway connects the eastern/central sector directly into the Northwest Chamber, which connects south through doorway (5, 4) to the western sector and ladder (0, 8).
 
 
 <hr>
@@ -4005,7 +4006,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and 3 horizontal rungs [Turn 17751]; situated in eastern chamber (rows 7-9, cols 25-28), facing south toward interior tile (27, 8). External entry from 2F is blocked on all sides by solid rock walls (row 6, row 10, col 24).
-- Northwest Ladder: Visually confirmed at (1, 1) on Turn 18106! Features blue vertical rails and 3 horizontal rungs, situated in the northwest chamber (cols 1-4, rows 1-3) behind Pokémaniac trainer at (4, 2). [Unclimbed; destination unverified].
+- Northwest Chamber: Reached Turn 19405 via Northern Highway (Row 1). Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Confirmed NO ladder exists in this chamber (prior Turn 18106 note was a tile texture misidentification).
 
 ## Layout & Topology
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
