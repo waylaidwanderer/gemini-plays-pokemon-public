@@ -20,3 +20,9 @@
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
 
+
+## Wild Encounters
+- Onix (observed Turns 19437, 19585)
+- Zubat (observed Turn 19468)
+- Geodude (observed Turn 19558)
+- Machop (observed Turn 19565)
