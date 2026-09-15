@@ -2947,6 +2947,9 @@
 
 - (13, 11) confirmed solid rock barrier blocking westward movement along Row 11 from (14, 11) (Turn 51585).
 - (17, 14) confirmed solid rock barrier blocking southward movement down Column 17 from (17, 13) (Turn 51596).
+- (20, 4) confirmed solid rock barrier blocking southward movement from (20, 3) (Turn 51622).
+- (23, 4) confirmed solid rock barrier blocking eastward movement along Row 4 from (22, 4) (Turn 51625).
+- (24, 2) confirmed solid rock barrier blocking southward movement from (24, 1) (Turn 51627).
 
 <hr>
 
