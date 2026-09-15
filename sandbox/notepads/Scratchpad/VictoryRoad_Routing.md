@@ -162,3 +162,8 @@
 - Upper Plateau Highway: Rows 2, 3, and 4 form an open 3-tile wide thoroughfare across columns 9 through 18.
 - Column 8 Collision: Physical bump test at (8, 2) from (9, 2) confirmed solid rock wall (Turn 19344).
 - Active Exploration: Column 9 and Column 10 rows 5-8 form an open southern corridor on the upper plateau terrace requiring structured survey.
+
+## Row 10 Bypass Breakthrough (Turn 19359)
+- Row 10 Thoroughfare: Empirically verified that row 10 is an open, unobstructed east-west corridor across columns 6 through 10, passing directly underneath the Column 8 rock wall.
+- Central-to-West Connection: Row 10 connects the central upper terrace directly to Column 5 (rows 7-10), providing seamless access to the western sector (cols 0-5) without macro-perimeter looping.
+- Moltres Perch: Moltres is located at (7, 7) in a northern alcove off row 10 (via col 7, rows 8-9).
