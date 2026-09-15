@@ -2975,15 +2975,30 @@
 
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## Systematic Empirical Graph Exploration (Turn 51541)
-- **Goal**: Reach Ladder A at (1, 3) -> B1F -> Mewtwo.
-- **Current Frontier**: Northwest Sector of 2F (cols 3..11, rows 0..6).
-- **Verified Collision Constraints**:
-  - (4, 1), (4, 2), (5, 3) are solid rock barriers.
-  - (15, 4) is a solid rock barrier / ledge.
-  - (24, 6) is a solid rock barrier.
-  - (13, 7), (16, 8), (17, 3), (6, 0) are solid rock barriers.
-  - (24, 17) is an exterior escape pit drop.
+## Verified 2F Highway & Active Route to Mewtwo (Turn 51582)
+- **Current Position**: (20, 11) on Cerulean Cave 2F Row 11 Highway.
+- **Equipment & Readiness**:
+  - Bag Slot 18: MASTER BALL x1.
+  - Lead: HYDROS (Blastoise) Lv 95 (Speed 241, HP 300/332) - 100% escape guaranteed.
+- **Active Unobstructed Route to Ladder A (1, 3)**:
+  1. From (20, 11), walk Left along Row 11 Highway to (12, 11).
+  2. Step Up 2 times to Row 9 Highway at (12, 9).
+  3. Walk Left along Row 9 Highway to Column 0 at (0, 9).
+  4. Walk North along Column 0: (0, 9) -> (0, 8) -> ... -> (0, 2).
+  5. Step Right to (1, 2) and Down to (1, 3) (Ladder A).
+  6. Step onto Ladder A (1, 3) to descend to Cerulean Cave B1F!
+  7. On B1F, surf to Mewtwo's island platform and throw the Master Ball!
 
+## Verified 2F Topology & Collisions:
+- Ladder B at (22, 6) <-> 1F (23, 7).
+- Ladder C at (19, 7) <-> 1F (18, 9).
+- Ladder D at (29, 1) <-> 1F (27, 1).
+- Ladder E at (9, 1) <-> 1F (7, 1).
+- Ladder A at (1, 3) -> Descends to B1F (Mewtwo).
+- Row 11 Highway: Open floor across cols 12..24.
+- Row 9 Highway: Open floor across cols 0..13 and 15..21.
+- Column 0: Open floor across rows 2..9.
+- (22, 9), (24, 6), (15, 4 ledge), (13, 7), (16, 8), (17, 3), (6, 0), (4, 0..2), (5, 3) are solid rock barriers.
+- (24, 17) is an exterior escape pit drop.
 
 <hr>
