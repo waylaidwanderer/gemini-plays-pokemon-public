@@ -3976,6 +3976,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Reset Status: Floor 2F was fully reset on Turn 19263 via ladder (0, 8). All entities at default starting positions (Boulder 1 at 5,5; Boulder 2 at 9,11; Boulder 3 at 4,14; all switch plates unoccupied).
 - Topological Fact: Column 14 is a solid rock wall across rows 0-7, permanently separating the eastern sector (cols 16-28) from the western sector (cols 1-13). Westward traversal across Column 14 is physically impossible.
 
+## Turn 19304 Eastern Chamber Discovery & Active Route to Ladder (27, 7)
+- Visual Confirmation: Tile (27, 7) has functional ladder graphic (light blue rails, 3 rungs). Directly adjacent tiles (28, 7) is open purple floor and (29, 7) is open dark checkerboard floor.
+- Column 29 Corridor Hypothesis: Column 29 connects row 11 north into row 7.
+- Active Traversal: Stepping east along row 11 from (17, 11) to (29, 11), then north up Column 29 to (29, 7), and west to ladder (27, 7).
 
 <hr>
 
