@@ -33,3 +33,5 @@
 - **Row 11 Main Corridor**: Open floor across cols 14..23 connecting to Column 23 and Ladder B at (22, 6).
 - **Row 17 Corridor**: Open floor across (11..19, 17) and (21..27, 17), separated by rock at (20, 17).
 - **Column 24 Vertical Corridor (Verified Turns 51288-51291)**: Open floor across (24, 11..15). (24, 16) is a solid rock barrier separating Column 24 from Row 17 (24, 17). Connects at (24, 11) to Row 11 main corridor.
+  - (21, 6) confirmed solid rock barrier blocking westward movement from (22, 6) (Turn 51364).
+  - (21, 7) and (22, 8) confirmed solid rock barriers blocking west/south from (22, 7) (Turn 51364).
