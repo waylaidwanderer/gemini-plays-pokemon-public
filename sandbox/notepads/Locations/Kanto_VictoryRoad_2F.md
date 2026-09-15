@@ -21,7 +21,6 @@
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Northern Upper Corridor (Rows 0-3): Terminated on the west by solid vertical rock walls along columns 14-15 across rows 0-7. Westward passage beyond column 16 is completely blocked [Empirically verified Turns 18123-18125].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
-- Northern Perimeter (Rows 0-1): Row 1 has impassable cliff at (17, 2) and (9, 2), but columns 20-23 across rows 0-1 form an open, fully traversable northern corridor connecting the northeast plateau [Verified Turns 16853-16855].
 - Column 8 Rock Wall: Solid rock wall along column 8 spanning rows 2 through 7, completely separating the eastern plateau from the western chamber (west movement blocked from (9, 3) into (8, 3) [Empirically verified Turn 16514]).
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
 - Row 8 Northern Boundary: The boundary between row 8 and row 7 across cols 5-14 is an impassable elevation cliff (north movement blocked from (5, 8) into (5, 7) [Empirically verified Turn 16474]). Descent from row 8 is via wooden staircase at (5, 10).
@@ -122,3 +121,7 @@
   Conclusion: The entire northern boundary of the row 8 terrace (cols 5-13) is 100% solid and impassable. Switch Plate A does NOT open any passage across row 8.
 - Row 7 Central Corridor: Empirically verified that row 7 is open flat dark checkerboard floor across columns 13 through 17 [Traversed Turn 19371].
 - Column 12 Corridor: Confirmed open north-south corridor across rows 6 through 11 connecting row 7 to row 11 [Turn 19371].
+
+- Northern Highway (Rows 0-1, Verified Turn 19401): Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F from column 27 all the way to column 1.
+- Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
+- 3F Ascent Ladder: Visually confirmed at (1, 2) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").

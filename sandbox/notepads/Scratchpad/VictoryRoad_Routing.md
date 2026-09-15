@@ -23,7 +23,6 @@
   - Tile (24, 10): Solid rock wall [Verified Turn 17759].
   - Barrier (23, 14): Solid/raised [Verified 6 independent tests]. Not lowered by Switch Plate A (1, 16).
   - Switch Plate B at (9, 16): Located in row 16 lower corridor. Unoccupied.
-  - Exit to 3F: Ladder (25, 14) behind Barrier (23, 14) requires solving Switch Plate B at (9, 16), OR accessing 3F through Northwest/Northeast progression.
 
 - Key Discovery (Turn 18281): Column 17 successfully reached row 3 without needing stairs! Rows 0-3 form an open 4-tile wide east-west corridor across columns 16-24.
 
@@ -175,3 +174,8 @@
 - Visual Ground Truth: Entered Northwest Chamber via Northern Highway (Row 1). Confirmed NO ladder exists at (1, 1) or (2, 0); tile (2, 0) is dark checkerboard floor.
 - Northwest Chamber Contents: Pokémaniac trainer stationed at (4, 2) facing South. Doorway at (5, 4) connects south to Boulder 1 at (5, 5).
 - Map Topology Solved: The Northern Highway connects the eastern/central sector directly into the Northwest Chamber, which connects south through doorway (5, 4) to the western sector and ladder (0, 8).
+
+## Definitive 3F Progression Breakthrough (Turn 19411)
+- 3F Ascent Ladder Discovered at (1, 2): Visually confirmed blue ladder at (1, 2) in the Northwest Chamber.
+- Pokémaniac Dialogue: "If you can get through here, you can go see the ELITE FOUR!" Confirms this ladder leads to 3F and the Elite Four.
+- Route to 3F: Defeat Pokémaniac, step into (1, 2), and ascend to Victory Road 3F!
