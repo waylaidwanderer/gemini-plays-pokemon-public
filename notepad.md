@@ -3916,10 +3916,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 18724-18725: Tested Barrier (23, 14) with single Right input; bumped, definitively confirming Barrier (23, 14) is solid/raised with Switch Plate A depressed. Switch Plate A does not control Barrier (23, 14).
 - Turns 18731-18748: Navigated west along row 14/12, descended staircase (15, 15) to row 16, east to col 28, north up Eastern Highway to row 11, west along row 11 to (16, 11), fleeing wild encounters (Marowak at 21, 14; Geodude at 27, 11; Onix at 24, 11).
 - Turn 18748: At base of column 16 at (16, 11). Ascending column 16 to staircase (17, 5) to access Upper Plateau (row 3) and investigate Boulder 4.
-## Turn 18772 Breakthrough: Ladder at (26, 8) and Boulder at (24, 10)
-- Visually and spatially confirmed the true progression ladder to 3F is located at (26, 8).
-- The entrance to the chamber of ladder (26, 8) is a 1-tile gap at (24, 10) blocked by an orange boulder.
-- Approach plan: Traverse via column 16 south to row 11, east along row 11 to (23, 11), north to (23, 10), activate Strength, push Boulder (24, 10) East into (25, 10), enter chamber, and ascend ladder (26, 8) to 3F!
+
 ## Active Traversal & Position Log (Turns 18748-18781)
 - Turns 18749-18751: Ascended column 16 north toward staircase (17, 5); fled wild Zubat at (16, 8).
 - Turns 18755-18756: Climbed staircase (17, 5) to Upper Plateau row 3 at (17, 3); walked east along row 3 across (22, 3) to (25, 3). Confirmed tile (22, 3) is open flat floor (no Boulder 4).
@@ -3939,16 +3936,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate A at (1, 16) does NOT lower Barrier (23, 14) or Barrier (7, 10). Those barriers are controlled by other switches or 3F boulder drops.
 - Moltres confirmed at (7, 7) on central plateau.
 - Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
-## Turn 18818 Visual Grounding & Boulder Correction
-- Boulder 4 confirmed at (22, 3): An orange boulder is clearly visible at (22, 3) in screen coordinates.
-- Correction of prior turn 18756 note: Columns 19-21 along rows 2-4 are solid rock walls. West-east passage along rows 2-4 between col 18 and col 23 is completely blocked.
-- Row 8 connects (17, 8) east to (22, 8), with (22, 6-7) open floor to the north.
-- Descending staircase (17, 5) to inspect lower level connections to row 8.
+
 ## Turn 18831 Definitive Floor Analysis & Northwest Route Confirmation
 - Confirmed tile (27, 7) is the eastern ladder inside the 100% enclosed chamber (cols 25-28, rows 7-9). It has no entrance on 2F, confirming it is a return ladder from a 3F pitfall.
 - Southeast ladder (25, 14) is blocked by Barrier (23, 14), requiring a boulder drop from 3F onto Switch Plate B (9, 16).
 - Conclusive progression path: Northwest Ladder at (1, 1) in Northwest Chamber! Accessible via doorway at (5, 4) and Boulder 1 at (5, 5).
 - Active route: Returning west via row 7 -> staircase (17, 5) -> row 4 upper highway to (5, 4).
+## Turn 18842 Active Tracking & Direct Northwest Route
+- Current position: (21, 11) on row 11.
+- Critique telemetry confirmed: Row 3 (cols 17-23) and Row 4 (cols 10-17) were physically traversed on foot on Turns 18756 and 18794 without collision.
+- The 80-tile perimeter circuit is aborted.
+- Direct route to Northwest Chamber (doorway 5, 4 and ladder 1, 1):
+  1. From (21, 11), walk North up column 21 to (21, 7) (4 steps).
+  2. Walk West along row 7 to (17, 7) (4 steps).
+  3. Ascend staircase (17, 5) to upper plateau (17, 4) (3 steps).
+  4. Walk West across row 4 / row 3 past Moltres directly to (5, 4) (~12 steps).
+  5. Activate Strength, push Boulder 1 at (5, 5), enter chamber, ascend ladder (1, 1) to 3F.
+
 
 <hr>
 
