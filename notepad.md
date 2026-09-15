@@ -3821,17 +3821,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20008)
-- Location: Victory Road 2F at (4, 5), facing East directly at Western Boulder (5, 5).
-- Doorway (5, 4) is the confirmed physical entrance into the Northwest Chamber (Row 3), which houses ladder (1, 1) to 3F.
-- Physical test on Turn 20004 confirmed row 8 cannot step north into row 7 ((13, 8) -> (13, 7) bumped into elevation cliff). The northern half of 2F must be accessed via the western sector doorway (5, 4).
-- The floor was freshly reset on Turn 19992 via 1F ladder: Western Boulder is at default position (5, 5).
+## Current Status (Turn 20071)
+- Location: Victory Road 2F on the purple plateau at (9, 9).
+- Western Boulder: Pushed North into (5, 3) on Turn 20029 with Strength active.
+- Empirical Verification at Western Sector:
+  - (5, 2) is a solid rock wall (Turn 20046 bump). Boulder at (5, 3) cannot move North.
+  - (7, 4) is a solid rock wall (Turn 20057 bump). Column 7 cannot step North into Row 3.
+  - (4, 4) and (6, 4) are solid rock walls (Turns 19918, 19958 bumps).
+  - (6, 5) is a solid rock wall (Turn 20017 bump).
+- Current Battle: Wild Geodude encountered at (9, 9).
 
-## Active Routing Plan
-1. Open Start menu and activate field move STRENGTH with Geodude (ROCKY).
-2. Empirically test boulder manipulation vectors (pushing from (4, 5) facing East, or from (5, 6) facing North).
-3. Clear passage through doorway (5, 4) into Row 3.
-4. Walk west along Row 1-3 to Northwest Chamber ladder at (1, 1) and ascend to Victory Road 3F!
+## Routing Plan
+1. Flee from wild Geodude to return to overworld at (9, 9).
+2. Reset Victory Road 2F via 1F ladder at (0, 8) to restore the Western Boulder to its default starting position (5, 5).
+3. Investigate the Western Boulder puzzle with fresh, rigorous Sokoban analysis:
+   - When boulder is at (5, 5), evaluate ALL push vectors and adjacent tile manipulations.
+   - Test whether boulder can be moved without sealing the passage, or determine the exact mechanism to access ladder (1, 1).
+
 
 <hr>
 
@@ -3940,7 +3946,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 
-- Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
   Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
   - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]
@@ -3966,6 +3971,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Golbat [Turn 20041 at (2, 6)]
 - Zubat [Turn 20051 at (7, 5)]
 - Zubat [Turn 20060 at (2, 8)]
+- Geodude [Turn 20071 at (9, 9)]
 - Graveler [Turn 20065 at (5, 11)]
 - Machop [Turn 19864 at (26, 11)]
 - Zubat [Turn 19884 at (10, 16)]
@@ -4022,14 +4028,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
 ## Negative Collision Telemetry
-- (14, 1): Solid rock wall [Turn 19631].
-- (15, 10): Solid rock wall [Turn 19644].
-- (14, 4): Solid rock wall [Turn 19648].
-- Column 14 rock divider: Continuous solid rock wall across rows 0 through 7 separating the eastern corridor (cols 15-26) from central/western sector (cols 1-13).
 
-- (16, 11) -> (16, 12): Impassable elevation cliff [Turn 19655].
 
-- (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
 
 
 
