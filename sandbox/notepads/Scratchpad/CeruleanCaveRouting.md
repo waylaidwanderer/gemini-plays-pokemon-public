@@ -1,18 +1,20 @@
 # Scratchpad: Cerulean Cave Routing & Frontier Ledger
 
-## Current Position & Status (Turn 51871)
-- **Location**: Surfing at (28, 6) in the Eastern Canal on Cerulean Cave 1F.
+## Current Position & Status (Turn 51879)
+- **Location**: Surfing at (8, 15) in South-Central Waterway on Cerulean Cave 1F.
 - **Equipment**: Master Ball x1 in Bag (Slot 18); Lead: HYDROS (Blastoise Lv 95).
 
-## Verified 1F Waterway & Ladder Topology
-1. **Eastern Canal & North Canal (Cols 28..29, Row 4)**:
-   - Connects Southeast Basin Ramp (25, 9) north along Column 28 to Row 4 North Canal.
-   - Row 4 connects west across cols 28 down to (15, 4) Ramp and continues west to Column 8.
-2. **Southwest Sector Frontier**:
-   - Ladder observed at (3, 11) in southwest basin.
-   - Target: Explore water approach along Column 8 / Row 14 to determine accessibility to Ladder (3, 11).
-
-## 2F Collision Ledger & Disproven Routes
-- **Disproven Route**: Row 11 does NOT connect north to Row 8 or south to Row 17 (Row 10, Row 14, (16, 14), (18, 12), and (22, 16) are continuous solid rock barriers).
-- Ladder B (22, 6) leads to a self-contained southeastern corridor sector.
-- Ladder A at (1, 3) must be accessed via alternate routes (testing Southwest Ladder at (3, 11) on 1F).
+## Verified Master Route to Mewtwo (B1F)
+1. **1F Waterway to Northern Terrace**:
+   - Surf North up Column 8 from (8, 15) to (8, 6).
+   - Surf East along Row 6/7 to (14, 6) -> North via (14, 5) to (14, 4) -> East to (15, 4).
+   - Dismount at Ramp (15, 3) onto Northern Terrace at (15, 2).
+2. **1F Northern Terrace to Ladder E**:
+   - Walk West along Row 2 from (15, 2) across cols 14..7 to Ladder E at (7, 1).
+   - Climb Ladder E to 2F Northern Ridge at (9, 1).
+3. **2F Northern Ridge to Ladder A (1, 3)**:
+   - Walk West from (9, 1) along Row 1/2 to (3, 1..2).
+   - Step West to (1, 2) and South to Ladder A at (1, 3).
+4. **Descent to B1F**:
+   - Climb down Ladder A (1, 3) to Cerulean Cave B1F (Mewtwo's Chamber).
+   - Surf across water to Mewtwo's platform and catch with Master Ball!
