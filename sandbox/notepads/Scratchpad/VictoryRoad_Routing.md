@@ -118,16 +118,13 @@
 - Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
 - Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
 
-## Turn 18876 Boulder 1 Shift to (5, 3) & Column 9 Flank Route
-- Boulder 1 successfully pushed north from (5, 4) to (5, 3) in row 3.
-- Player at (5, 5). Doorway (5, 4) is now open.
-- Active plan: Maneuvering around via row 8 -> column 9 north -> row 3 west to (6, 3).
-- From (6, 3), push Boulder 1 west into (4, 3) to enter Northwest Chamber and ascend ladder (1, 1) to 3F!
-## Turn 18890 Doorway Verification & Row 3 Flank Strategy
-- Empirically verified at (5, 4): Tile (4, 4) is a solid purple rock wall. Lateral access from (5, 4) into Northwest Chamber is blocked.
-- North push from (5, 4) blocked by wall at (5, 2). Boulder 1 correctly rests at (5, 3) in row 3.
-- Chamber Entry Solution: Row 3 connects continuously from the east (cols 17 to 6).
-- Action plan: Take verified topological route to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 to (6, 3), and push Boulder 1 west from (5, 3) into (4, 3) to enter Northwest Chamber and ascend ladder (1, 1) to 3F!
+## Turn 18937 Position & Traversal Tracking
+- Current Position: (15, 14) on row 14 shelf at head of staircase (15, 15).
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Traversal History: Traversed lower corridor row 16 from (11, 16) to staircase (15, 15), climbed to (15, 14).
+- Combat Resolution: Fled wild Geodude Lv 24 at (15, 14) on Turn 18928 with zero resource loss.
+- Active Plan: Navigating west across row 14 shelf to column 13 corridor, heading north toward row 8 en route to ladder (0, 8).
+
 ## Turn 18918 Ground Truth & Room Reset Strategic Model
 - Empirically verified Boulder 2 at (9, 11) is permanently immovable (North blocked by cliff 9, 10; West blocked by wall 8, 11). Confirms Switch Plate B (9, 16) and Barrier (23, 14) guard the 3F return exit, not the entrance to 3F.
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
