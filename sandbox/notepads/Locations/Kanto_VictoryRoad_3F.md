@@ -60,10 +60,10 @@
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
 - Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
-- Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
 
 - Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.
 - Trainer: Stationed at (12, 9) [Sighted Turn 19686].
 
 - Marowak (observed Turn 19744)
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.- Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
+- Trainer: Stationed at (4, 2) facing South in Northwest Sector [Observed Turns 19771-19774].
