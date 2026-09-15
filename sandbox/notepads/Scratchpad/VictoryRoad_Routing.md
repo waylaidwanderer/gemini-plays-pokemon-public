@@ -157,3 +157,10 @@
 - Audited Route (via route_auditor): Ascend staircase (15, 15) to shelf (15, 14) -> north to row 8 -> west along row 8 to (5, 8) -> descend staircase (5, 10) to (5, 11) -> west to Western Highway at (3, 11) -> south along column 3 to (3, 14) -> east into Southwest Room at (4, 14).
 - Objective: Inspect Switch Plate A in default reset state, verify exact coordinates, and execute Sokoban solution to activate switch.
 - Verified Ground Truth: Boulder 1 is at (5, 5); Column 14 is solid rock wall across rows 0-7; Barrier (23, 14) guards ladder (25, 14).
+## Turn 19207 Explicit Falsifiable Hypothesis: Switch Plate A (1, 16)
+- Hypothesis: Depressing Switch Plate A at (1, 16) with Boulder 3 triggers an environmental state change on 2F (e.g. lowering a plateau barrier near Moltres, opening a passage on the central terrace, or altering barrier states).
+- Monitoring Protocol:
+  1. Complete 5-push Sokoban solution to place Boulder 3 onto Switch Plate A at (1, 16).
+  2. Inspect the central terrace/plateau boundaries along row 8 (cols 5-14) and row 5.
+  3. Inspect Barrier (23, 14) to confirm whether any state change occurred.
+  4. Falsification Criteria: If no barrier is lowered and no new passage is opened across 2F, definitively conclude Switch Plate A does not govern 2F overworld progression barriers, and abandon further iterations.
