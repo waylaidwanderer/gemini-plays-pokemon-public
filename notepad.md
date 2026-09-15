@@ -2879,6 +2879,10 @@
   - (4, 0..3) forms solid rock barrier terminating Northern Terrace at Column 5.
   - (7, 8) blocks westward movement from (8, 8).
   - (27..28, 12) is elevated cliff overlooking (27..28, 11) water.
+5. **Southwest Terrace & Ladder (Turn 51563 Discovery)**:
+   - Southwest Terrace spans cols 0..7 across rows 8..15.
+   - Landfall shoreline / ramp at (7, 13) / (7, 14).
+   - **Ladder F (Southwest Ascending Ladder)**: Located at (3, 11) -> Ascends directly into 2F Northwest Sector connecting to Ladder A (1, 3) and Mewtwo!
 
 <hr>
 
