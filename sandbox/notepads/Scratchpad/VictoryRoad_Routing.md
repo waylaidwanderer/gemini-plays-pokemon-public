@@ -137,3 +137,9 @@
 - Empty tile (5, 5) separates player from Boulder 1.
 - Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
 - Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
+
+## Turn 18876 Boulder 1 Shift to (5, 3) & Column 9 Flank Route
+- Boulder 1 successfully pushed north from (5, 4) to (5, 3) in row 3.
+- Player at (5, 5). Doorway (5, 4) is now open.
+- Active plan: Maneuvering around via row 8 -> column 9 north -> row 3 west to (6, 3).
+- From (6, 3), push Boulder 1 west into (4, 3) to enter Northwest Chamber and ascend ladder (1, 1) to 3F!
