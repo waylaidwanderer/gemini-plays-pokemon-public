@@ -3946,9 +3946,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Boundary (13, 8) -> (13, 7): Empirically verified impassable elevation cliff on Turn 19089 (bump test visited 0 tiles). Confirms the row 8 northern cliff continuously blocks northbound passage across column 13.
 - Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).
-- Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
 
 - Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
@@ -3970,6 +3968,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
+
+## Wild Encounters (Recent Observations)
+- Machop [Turn 19864 at (26, 11)]
+- Zubat [Turn 19884 at (10, 16)]
+- Golbat [Turn 19887 at (13, 16)]
 
 
 <hr>
