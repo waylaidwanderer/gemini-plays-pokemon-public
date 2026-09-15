@@ -4105,5 +4105,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+- Boundary (13, 8) -> (13, 7): Empirically verified impassable elevation cliff on Turn 19089 (bump test visited 0 tiles). Confirms the row 8 northern cliff continuously blocks northbound passage across column 13.
 
 <hr>
