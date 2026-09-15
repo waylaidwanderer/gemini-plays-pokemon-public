@@ -59,23 +59,9 @@
 
 
 
-## Active Traversal & Position Log (Turns 18748-18781)
-- Turns 18749-18751: Ascended column 16 north toward staircase (17, 5); fled wild Zubat at (16, 8).
-- Turns 18755-18756: Climbed staircase (17, 5) to Upper Plateau row 3 at (17, 3); walked east along row 3 across (22, 3) to (25, 3). Confirmed tile (22, 3) is open flat floor (no Boulder 4).
-- Turn 18760: Interacted with Advice NPC at (26, 3): 'Many trainers give up the challenge here.'
-- Turns 18763-18764: Walked west along row 3 toward staircase (17, 5); fled wild Machoke at (23, 3).
-- Turns 18767-18769: Walked west to (17, 3), descended staircase (17, 5) to row 6 at (17, 6), walked east to (23, 7).
-- Turn 18770: Verified tile (23, 7) has 0 warp effect when stepped onto. Sighted ladder at (26, 8) in enclosed eastern chamber.
-- Turns 18773-18774: Stepped up to (23, 6) where wild Machop appeared; fled.
-- Turns 18777-18779: Walked west along row 6 to (16, 6), descended column 16 to row 11 at (16, 11), walked east along row 11 to (20, 11).
-- Turn 18781: Encountered wild Geodude at (20, 11). Current position: (20, 11).
-
-- Turns 18781-18784: Fled wild Geodude at (20, 11).
-- Turn 18787: Tested North to (20, 8); confirmed (19, 8) is a purple rock wall.
-- Turn 18788: Stepped Up to (20, 7), traversed west along row 7 to (17, 7) where wild Machop appeared. Current position: (17, 7).
 ## Reconciled Empirical Status of Switch Plate A & Barriers (Turn 18811)
 - Boulder 3 is verified resting on Switch Plate A at (1, 16), confirmed across 10 consecutive turns (Turns 18681-18693) where tile (2, 16) was empty floor.
-- Switch Plate A at (1, 16) does NOT lower Barrier (23, 14) or Barrier (7, 10). Those barriers are controlled by other switches or 3F boulder drops.
+- Switch Plate A & Barrier (23, 14) Status: Prior tests observed Barrier (23, 14) raised when floor had been reset and Boulder 3 was at (4, 14). Active hypothesis under test: depressing Switch Plate A via Boulder 3 on an un-reset floor visit lowers Barrier (23, 14).
 - Moltres confirmed at (7, 7) on central plateau.
 - Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
 
@@ -130,30 +116,13 @@
 - Result: Switch Plate A depressed on this floor visit -> Barrier (23, 14) lowers -> Ladder (25, 14) to 3F is unlocked!
 - Current Action: Boulder 3 was mistakenly pushed to (4, 16) where (5, 16) wall prevents west push. Traversing to ladder (0, 8) to execute quick 1F floor reset, then immediately executing the 5-push solution!
 
-## Turn 19010 Position & Combat Tracking
-- Current Position: (4, 13) directly north of Boulder 3.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Geodude at (4, 13) upon reaching alignment tile; actively executing flee sequence.
-- Active Plan: Flee from Geodude, dismiss battle prompt, turn South, push Boulder 3 south twice into row 16 at (4, 16), walk around via column 5 to (5, 16), and push Boulder 3 west 3 times onto Switch Plate A at (1, 16).
 
-## Turn 19003 Position & Combat Tracking
-- Current Position: (13, 12) in column 13 corridor.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Zubat at (13, 12) while advancing north toward row 8; executing flee sequence.
-- Active Plan: Flee from Zubat, dismiss battle exit prompt, and complete northward traversal along column 13 to row 8.
 
-## Turn 18984 Position & Combat Tracking
-- Current Position: (15, 16) in row 16 lower corridor.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Traversal History: Descended from (4, 5) via Western Highway to (3, 11), ascended staircase (5, 10) to row 8 at (5, 8), traversed row 8 east to (13, 8), traversed column 13 south to shelf (15, 14), and descended staircase (15, 15) to (15, 16).
-- Combat Resolution: Encountered wild Machoke at (15, 16); actively executing flee sequence.
-- Active Plan: Flee from Machoke, dismiss battle exit prompt, and traverse east along row 16 lower corridor toward Eastern Highway (col 28).
 
-## Turn 18976 Position & Combat Tracking
-- Current Position: (3, 10) in Western Highway.
-- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
-- Combat Resolution: Encountered wild Geodude at (3, 10) upon completing Western Highway descent; actively executing flee sequence.
-- Active Plan: Flee from Geodude, dismiss battle exit prompt, step south to (3, 11), east to (5, 11), and ascend staircase (5, 10) toward Upper Plateau route.
+
+
+
+
 
 ## Turn 18973 Empirical Confirmation: Boulder 1 East Push Blocked & Row 3 Highway Verified
 - Empirical Verification: Tested East push on Boulder 1 at (5, 5) from (4, 5) with Strength active. Boulder did not move; tile (6, 5) is 100% solid rock wall.
