@@ -51,3 +51,6 @@
 - Eastern Exit Ladder at (25, 14): Visual confirmation of blue ladder rungs leading toward Victory Road exit [Turns 19662, 19672].
 - Switch Plate at (9, 16): Circular switch plate with raised blue border in southwest corner of lower corridor [Discovered Turn 19678].
 - Lower Corridor (Rows 16-17): Wide continuous dark checkerboard corridor spanning columns 9 through 29.
+
+- Immovable Boulder at (9, 11): Visually confirmed at (9, 11) [Turn 19688]. North is blocked by rock wall (9, 10), west by rock wall (8, 11). Immovable onto Switch Plate (9, 16).
+- Row 8 Cross-Corridor: Completely open purple floor spanning cols 6 through 14, connecting eastern plateau directly into western main avenue.
