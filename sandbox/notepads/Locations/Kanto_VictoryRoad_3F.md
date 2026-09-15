@@ -54,3 +54,7 @@
 
 - Immovable Boulder at (9, 11): Visually confirmed at (9, 11) [Turn 19688]. North is blocked by rock wall (9, 10), west by rock wall (8, 11). Immovable onto Switch Plate (9, 16).
 - Row 8 Cross-Corridor: Completely open purple floor spanning cols 6 through 14, connecting eastern plateau directly into western main avenue.
+
+- Western Boulder: Located at (5, 5) [Discovered Turn 19691]. Unblocked on south (5, 6), north (5, 4), and west (4, 5).
+- Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
+- Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
