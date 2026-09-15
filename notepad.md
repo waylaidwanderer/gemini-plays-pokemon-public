@@ -2937,19 +2937,17 @@
 
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## Verified 2F Northwest Sector Solution to Ladder A (1, 3):
-- **Ladder E Arrival**: (9, 1).
-- **Row 1 / Row 3 Corridors**: Open east-west corridors across cols 3-9.
-- **Row 4 Rock Barrier**: Solid continuous rock wall across cols 0-8 dividing north and south sectors.
-- **Column 9 Vertical Connector**: Open south from (9, 1..3) through (9, 4..7) into the Southern Highway.
-- **Southern Highway (Row 5 & Row 7)**: Continuous open thoroughfare from Column 9 all the way west across cols 9..0 to Column 0.
-- **Column 0 Ascent to Ladder A**: Open north along Column 0 from (0, 7) through (0, 6), (0, 5), (0, 4), (0, 3) with East step directly onto **Ladder A at (1, 3)**!
+## Cerulean Cave Global Floor Analysis:
+- **2F Layout Analysis**:
+  - Northern/Eastern Network: Fully connected across rows 0-5 (cols 3-29).
+  - Southeastern Sector: Fully connected via cols 25-29 (rows 1-17), dead-ending at (21, 17) and blocked at (24, 9).
+  - Ladder B at (22, 6): Isolated 3-tile pocket.
+  - Ladder C at (19, 7): Isolated 7-tile pocket.
+  - Ladder A at (1, 3): Located in Northwest enclave (cols 0-11, rows 1-7) which is isolated from the rest of 2F by continuous rock barriers at Row 4, Row 6, Row 8, and Column 2.
+  - **Conclusion**: The Northwest enclave containing Ladder A (1, 3) must be entered via an ascending ladder from 1F!
 
-## Active Traversal Plan:
-1. Walk East along Row 3: (3, 3) -> (4, 3) -> (5, 3) -> (6, 3) -> (7, 3) -> (8, 3) -> (9, 3).
-2. Walk South down Column 9: (9, 3) -> (9, 5) / (9, 7).
-3. Walk West along Row 5/7 Highway across cols 9..0 to (0, 7).
-4. Walk North up Column 0: (0, 7) -> (0, 3).
-5. Step East onto Ladder A at (1, 3) to descend to B1F (Mewtwo Chamber)!
+- **1F Exploration Status & Immediate Target**:
+  - 1F contains an extensive Southwestern water network (rows 10-17, cols 0-15) and secluded terraces.
+  - Plan: Descend Ladder D (29, 1) -> 1F (27, 1), board water with Surf, and navigate south/west into 1F Southwest canals to find the ladder connecting to B1F or 2F NW enclave!
 
 <hr>
