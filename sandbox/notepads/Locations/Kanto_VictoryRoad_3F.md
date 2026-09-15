@@ -9,7 +9,7 @@
 - Pit Hole: Located at (3, 5), surrounded by open floor at rows 3-4 (cols 1-4).
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
-- Active Field Move: STRENGTH activated with Geodude (ROCKY) on 3F [Turn 19434].
+- Active Field Move: STRENGTH reactivated with Geodude (ROCKY) [Turn 19722].
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Boulder 1: Discovered at (22, 3) in eastern wing [Turn 19466]. Surrounded by open floor on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)), allowing pushes in any direction.
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
@@ -61,8 +61,4 @@
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
 - Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
 
-- Boulder 4: Pushed west from (4, 14) to (3, 14) with Strength [Turn 19724].
-- Boulder 4: Pushed south from (3, 14) to (3, 15) with Strength [Turn 19725].
-- Boulder 4: Pushed south from (3, 15) to (3, 16) with Strength [Turn 19726].
-- Boulder 4: Pushed west from (3, 16) to (2, 16) with Strength [Turn 19727].
-- Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.
+- Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.- Trainer: Stationed at (12, 9) [Sighted Turn 19686].

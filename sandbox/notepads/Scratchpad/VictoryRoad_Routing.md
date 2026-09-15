@@ -11,6 +11,6 @@
 - 3F -> 2F Exit / Return Ladder: Ladder at 3F (26, 8) connects down to 2F (27, 7).
 
 ## Active 3F Progression Objectives
-- Southwestern Lower Chamber: Inspect Boulder 4 at (4, 14) and explore open floor (cols 1-4, rows 11-17).
+- Southwestern Lower Chamber: Completed! Boulder 4 is resting on Switch Plate A at (1, 16) [Turn 19728].
 - Boulder & Pit Hole Mechanics: Determine whether 3F boulders correspond to hole drops or local switches to open exit pathways.
 - Strength Status: Active with Geodude (ROCKY).
