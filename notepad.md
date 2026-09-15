@@ -2883,7 +2883,7 @@
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Isolated 7-tile pocket].
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
-5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [Arrival at (9, 1)].
+5. **Ladder E**: Located at (9, 1) <-> 1F (7, 1) [Arrival at (9, 1)].
 
 ## Master Route to Ladder A (1, 3) -> B1F (Topography & Routing)
 - **Floor Identification**: 2F is completely dry with no water tiles. 1F features distinct blue water canals with wave foam across rows 4-5 and 10-11.
@@ -2893,7 +2893,7 @@
   - (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (8, 4) are solid rock barriers.
   - (8, 5) is a solid rock barrier.
   - (9, 6) is a solid rock barrier.
-  - (27, 3), (28, 4), (25, 4) are solid rock barriers.
+  - (27, 3), (28, 4) are solid rock barriers.
   - (6, 6) is open floor connecting Row 5 and Row 7.
   - Column 2 (rows 1-4) is a vertical rock barrier.
 
