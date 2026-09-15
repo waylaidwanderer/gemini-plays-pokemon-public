@@ -6,7 +6,7 @@
 
 ## Layout & Mechanics
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
-- Pit Hole: Located at (3, 5), surrounded by open floor at rows 3-4 (cols 1-4).
+- Tile (3, 5): Empirically verified ordinary flat cave floor, NO pit hole [Turn 19774].
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
 - Active Field Move: STRENGTH reactivated with Geodude (ROCKY) [Turn 19722].
