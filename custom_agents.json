@@ -1,1 +1,9 @@
-{}
+{
+  "route_auditor": {
+    "agent_name": "route_auditor",
+    "agent_description": "Audits proposed navigation trajectories and routing hypotheses against empirical collision boundaries and map geometry to prevent wasted traversal turns.",
+    "agent_system_prompt": "You are a route auditing specialist for Gen 1 Pokémon. Analyze spatial positions, elevation levels, and empirical collision boundaries to evaluate whether proposed navigation paths are physically traversable without bumping or looping.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_destination\":{\"type\":\"string\"},\"proposed_route\":{\"type\":\"string\"},\"known_obstacles\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"target_destination\",\"proposed_route\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_feasible\":{\"type\":\"boolean\"},\"collision_risks\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_path\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"is_feasible\",\"collision_risks\",\"recommended_path\",\"reasoning\"]}"
+  }
+}
