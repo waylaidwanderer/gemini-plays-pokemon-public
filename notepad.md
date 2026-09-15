@@ -2995,9 +2995,9 @@
 - Ladder D at (29, 1) <-> 1F (27, 1).
 - Ladder E at (9, 1) <-> 1F (7, 1).
 - Ladder A at (1, 3) -> Descends to B1F (Mewtwo).
-- Row 11 Highway: Open floor across cols 12..24.
-- Row 9 Highway: Open floor across cols 0..13 and 15..21.
-- Column 0: Open floor across rows 2..9.
+- Row 11: Open floor across cols 14..24; (13, 11) is solid rock.
+- Row 9 Bypass: (14, 9) is solid rock; bypass connects via Row 8 at (15, 9) <-> (15, 8) <-> (14, 8) <-> (13, 8) <-> (13, 9) <-> (0..12, 9).
+- Active route: (14, 11) -> East to (23, 11) -> North to (23, 9) -> West to (15, 9) -> Row 8 bypass to (13, 9) -> West to (0, 9) -> North to (0, 2) -> (1, 2) -> (1, 3) (Ladder A).
 - (22, 9), (24, 6), (15, 4 ledge), (13, 7), (16, 8), (17, 3), (6, 0), (4, 0..2), (5, 3) are solid rock barriers.
 - (24, 17) is an exterior escape pit drop.
 
