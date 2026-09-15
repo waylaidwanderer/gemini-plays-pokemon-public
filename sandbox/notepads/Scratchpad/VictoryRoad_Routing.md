@@ -104,9 +104,6 @@
   1. Boulder 1 cannot be displaced East.
   2. Pushing Boulder 1 North into (5, 3) blocks the row 3 corridor.
   3. Therefore, Boulder 1 MUST REMAIN at (5, 5) to leave tile (5, 3) completely open!
-- Ground Truth Topology:
-  - Verification Warning: While rows 2-3 are open locally across cols 6-9, permanent records empirically prove that columns 14-15 form a solid rock wall across rows 0-7, terminating westward passage from the eastern upper plateau. Westward traversal from staircase (17, 5) along row 3 cannot reach column 9.
-  - Active Investigation: Evaluating how columns 6-9 connect to the central plateau, or investigating the true path to 3F.
 
 
 
@@ -164,8 +161,6 @@
 - Active Exploration: Column 9 and Column 10 rows 5-8 form an open southern corridor on the upper plateau terrace requiring structured survey.
 
 ## Row 10 Bypass Breakthrough (Turn 19359)
-- Row 10 Thoroughfare: Empirically verified that row 10 is an open, unobstructed east-west corridor across columns 6 through 10, passing directly underneath the Column 8 rock wall.
-- Central-to-West Connection: Row 10 connects the central upper terrace directly to Column 5 (rows 7-10), providing seamless access to the western sector (cols 0-5) without macro-perimeter looping.
 - Moltres Perch: Moltres is located at (7, 7) in a northern alcove off row 10 (via col 7, rows 8-9).
 - Bump Test (Turn 19361): Facing West from (8, 10) into (7, 10) confirmed IMPASSABLE (visited 0 tiles). Tile (7, 10) is solid/cliff from (8, 10).
 - Bump Test (Turn 19378): Facing South from (13, 12) into boulder at (13, 13) with Strength active confirmed (13, 14) is a solid rock wall (visited 0 tiles). Boulder at (13, 13) cannot be pushed South.
