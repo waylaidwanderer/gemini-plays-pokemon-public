@@ -3939,6 +3939,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Switch Plate A at (1, 16) does NOT lower Barrier (23, 14) or Barrier (7, 10). Those barriers are controlled by other switches or 3F boulder drops.
 - Moltres confirmed at (7, 7) on central plateau.
 - Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
+## Turn 18818 Visual Grounding & Boulder Correction
+- Boulder 4 confirmed at (22, 3): An orange boulder is clearly visible at (22, 3) in screen coordinates.
+- Correction of prior turn 18756 note: Columns 19-21 along rows 2-4 are solid rock walls. West-east passage along rows 2-4 between col 18 and col 23 is completely blocked.
+- Row 8 connects (17, 8) east to (22, 8), with (22, 6-7) open floor to the north.
+- Descending staircase (17, 5) to inspect lower level connections to row 8.
 
 <hr>
 
