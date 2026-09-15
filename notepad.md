@@ -3962,6 +3962,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Onix [Turn 20036 at (5, 6)]
+- Golbat [Turn 20041 at (2, 6)]
 - Machop [Turn 19864 at (26, 11)]
 - Zubat [Turn 19884 at (10, 16)]
 - Golbat [Turn 19887 at (13, 16)]
@@ -3969,8 +3971,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop [Turn 19903 at (5, 11)]
 
 ## Dynamic Entities Current State
-- Onix [Turn 19943 at (5, 7)]
-- Western Boulder at (5, 5): Cleanly reset to default coordinates (5, 5) via 1F ladder transition on Turn 19992.
+- Western Boulder at (5, 3): Pushed North through doorway (5, 4) into (5, 3) on Turn 20029 with Strength active.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (4, 4): Confirmed solid rock wall (bump test Turn 19918).
