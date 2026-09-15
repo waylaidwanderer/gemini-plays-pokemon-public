@@ -170,3 +170,7 @@
 - Rows 0-1 Continuous Thoroughfare: Empirically and visually verified that Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F (cols 6 through 27).
 - Moltres Corridor Connection: Row 1 at (7, 1) connects directly south into columns 6-7 down to Moltres at (7, 7).
 - Northwest Chamber Approach: Row 1 continues unobstructed west past Column 6 directly toward the Northwest Chamber ladder at (1, 1).
+
+## 3F Ascent Ladder Confirmed at (2, 0) [Turn 19403]
+- Ladder Visual Confirmation: Tile (2, 0) visually confirmed as the canonical ascent ladder to Victory Road 3F.
+- Access Route: From (6, 1), step Down to (6, 2), Left across row 2 to (2, 2), and Up through (2, 1) onto ladder at (2, 0).
