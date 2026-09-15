@@ -55,20 +55,7 @@
 - Map transition executed: All 2F dynamic boulders are now reset to starting positions!
   - Boulder 1 is reset to (5, 5).
   - Boulder 3 is reset to (4, 14).
-  - Boulder 4 is reset to (22, 3).
-
-## Post-Reset Arrival on 2F (Turn 18410-18413)
-
-## Boulder 1 Testing & Western Perimeter Findings (Turns 18413-18452)
-- Re-activated Strength with Geodude (ROCKY) at (5, 6) [Turn 18425].
-- Pushed Boulder 1 North from (5, 5) to (5, 4) [Turn 18426], then stepped onto (5, 5) [Turn 18427].
-- Pushed Boulder 1 North from (5, 4) to (5, 3) [Turn 18428], then stepped onto (5, 4) [Turn 18430].
-- Bumping North from (5, 4) into Boulder 1 at (5, 3) confirmed tile (5, 2) is a solid rock obstacle [Turn 18431]; Boulder 1 cannot advance North.
-- Doorway (5, 4) is blocked from the south by Boulder 1 at (5, 3); lateral access from (5, 4) is blocked by solid rock walls at (4, 4) and (6, 4).
-- Intermediate state Turn 18442_0 visually confirmed Column 0 is blocked at rows 3-5 by solid rock walls at (0, 3..5). Column 0 does not connect north into the chamber.
-- Retreated South to (5, 7) [Turn 18440], walked West to (2, 7) along row 7 [Turn 18441].
-- Fled wild Onix battle at (2, 7) [Turns 18442-18448].
-- Turn 18536: At (5, 4), executed collision test Left into tile (4, 4); bumped, empirically confirming (4, 4) is a solid rock wall.
+  
 
 ## Active Traversal & Audit Log (Turns 18708-18723)
 - Turn 18708: Pushed East into Boulder 1 from (4, 5); confirmed (6, 5) is solid wall.
@@ -81,7 +68,7 @@
 
 ## Floor Reset & Two-Sided Boulder 1 Strategy (Turns 18542-18549)
 - Transitioned to 1F via ladder (0, 8) to reset 2F dynamic entities [Turn 18542].
-- Reset positions on 2F: Boulder 1 at (5, 5), Boulder 3 at (4, 14), Boulder 4 at (22, 3).
+- Reset positions on 2F: Boulder 1 at (5, 5), Boulder 3 at (4, 14).
 ## Current Tracking (Turn 18631)
 - Current Position: (16, 11) on row 11 at base of Column 16 corridor [Turn 18631].
 - Comprehensive Traversal Log (Turns 18601-18631):
@@ -123,3 +110,13 @@
 - Visually and spatially confirmed the true progression ladder to 3F is located at (26, 8).
 - The entrance to the chamber of ladder (26, 8) is a 1-tile gap at (24, 10) blocked by an orange boulder.
 - Approach plan: Traverse via column 16 south to row 11, east along row 11 to (23, 11), north to (23, 10), activate Strength, push Boulder (24, 10) East into (25, 10), enter chamber, and ascend ladder (26, 8) to 3F!
+## Active Traversal & Position Log (Turns 18748-18781)
+- Turns 18749-18751: Ascended column 16 north toward staircase (17, 5); fled wild Zubat at (16, 8).
+- Turns 18755-18756: Climbed staircase (17, 5) to Upper Plateau row 3 at (17, 3); walked east along row 3 across (22, 3) to (25, 3). Confirmed tile (22, 3) is open flat floor (no Boulder 4).
+- Turn 18760: Interacted with Advice NPC at (26, 3): 'Many trainers give up the challenge here.'
+- Turns 18763-18764: Walked west along row 3 toward staircase (17, 5); fled wild Machoke at (23, 3).
+- Turns 18767-18769: Walked west to (17, 3), descended staircase (17, 5) to row 6 at (17, 6), walked east to (23, 7).
+- Turn 18770: Verified tile (23, 7) has 0 warp effect when stepped onto. Sighted ladder at (26, 8) in enclosed eastern chamber.
+- Turns 18773-18774: Stepped up to (23, 6) where wild Machop appeared; fled.
+- Turns 18777-18779: Walked west along row 6 to (16, 6), descended column 16 to row 11 at (16, 11), walked east along row 11 to (20, 11).
+- Turn 18781: Encountered wild Geodude at (20, 11). Current position: (20, 11).
