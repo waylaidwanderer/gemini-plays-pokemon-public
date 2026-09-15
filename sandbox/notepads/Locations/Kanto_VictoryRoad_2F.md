@@ -121,4 +121,3 @@
   - (6, 8) -> (6, 7): SOLID elevation cliff [Turn 19243]
   - (5, 8) -> (5, 7): SOLID elevation cliff [Turn 19220]
   Conclusion: The entire northern boundary of the row 8 terrace (cols 5-13) is 100% solid and impassable. Switch Plate A does NOT open any passage across row 8.
-- Column 17 / (17, 5) Reality: Empirically verified that (17, 5) is flat dark checkerboard floor traversed in continuous straight-line walking [Turn 19143, 19148], NOT a wooden staircase. The only functional staircases on 2F are (5, 10), (15, 15), and (21, 15).
