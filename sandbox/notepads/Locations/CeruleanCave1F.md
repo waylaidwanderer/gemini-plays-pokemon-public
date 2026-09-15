@@ -31,3 +31,6 @@
    - Southern Water Basin: Spans rows 14-15 across cols 8-11. Solid rock boundaries at Row 16 (south), Column 12 (east), and Column 7 (west). No southwest water outlet.
    - Northern Terrace NW Boundary: (4, 0), (4, 1), (4, 2), (4, 3) form a continuous solid rock barrier terminating the terrace at Column 5.
 - **West Canal Boundary (Verified Turn 51039)**: (7, 8) is a solid rock barrier blocking westward movement from (8, 8). The water canal along cols 8-9 terminates westward against rock walls along Column 7 across rows 6-15.
+- **1F Terrace Land Barrier (Verified Turns 51137-51140)**:
+  - Direct terrestrial pathway between Ladder C at (18, 9) and Ladder B at (23, 7) is blocked by solid rock barriers along Column 20 (rows 9-11) and Column 22/23 (row 11).
+  - Transit between South-Central Terrace and Southeast Terrace requires canal surfing via South Ramp (11, 13) <-> Southeast Ramp (25, 9).
