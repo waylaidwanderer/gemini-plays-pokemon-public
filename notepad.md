@@ -3944,7 +3944,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-- Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).
 
 - Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
@@ -4035,19 +4034,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - (14, 11): South-facing jumping ledge [Verified Turns 19744, 19753]. Northbound passage up column 14 blocked from (14, 12).
 
 - (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
-## Structural Landmarks & Puzzle Mechanisms (Audited Turns 19654-19678)
-- Wooden Staircase at (15, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672, 19678].
-- Wooden Staircase at (21, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672].
-- Raised Barrier Block at (23, 14): Raised block obstructing westward access to Exit Ladder (25, 14) [Turns 19662, 19672].
-- Eastern Exit Ladder at (25, 14): Visual confirmation of blue ladder rungs leading toward Victory Road exit [Turns 19662, 19672].
-- Lower Corridor (Rows 16-17): Wide continuous dark checkerboard corridor spanning columns 9 through 29.
 
-- Row 8 Cross-Corridor: Completely open purple floor spanning cols 6 through 14, connecting eastern plateau directly into western main avenue.
-
-- Western Boulder: Located at (5, 5) [Discovered Turn 19691]. Unblocked on south (5, 6), north (5, 4), and west (4, 5).
-- Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
-- Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
-- (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
 
 
 - Marowak (observed Turn 19744)
