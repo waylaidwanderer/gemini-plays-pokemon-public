@@ -3818,28 +3818,34 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road 3F Routing & Active Hypotheses
+# Victory Road Progression & Routing Dashboard
 
-## Floor Status & Progression
-- 2F Cleared: Switch Plate A depressed, Pok�maniac defeated, ascended Northwest Chamber ladder at (1, 1) to 3F [Turn 19426].
-- 3F Entrance: Arrived at (2, 0) facing South.
-- Active Field Move: Strength active with Geodude (ROCKY) [Turn 19434].
-- Sheldon Status: Healthy (HP 209/209, Lv 66).
+## Verified Inter-Floor Ladder Pairings
+- 1F -> 2F: Ladder at 1F (1, 1) connects to 2F (0, 8).
+- 2F -> 3F: Northwest Chamber ladder at 2F (1, 1) ascends to 3F (2, 0) [Verified Turn 19426].
+- 3F -> 2F: Southeastern ladder at 3F (23, 7) descends to 2F (23, 7) [Verified Turn 19485].
+- 2F -> Exit / 3F return: Ladder at 2F (27, 7) in enclosed chamber (one-way exit ledge).
+- 2F -> Exit corridor: Ladder at 2F (25, 14) behind barrier at (23, 14).
 
-## Verified Topography
-- Northern Highway: Continuous open dark checkerboard highway along Rows 0-1 spanning columns 6 through 25+. Bypasses column 8 rock wall completely.
-- West Cross-Corridor: Row 2 connects entrance junction (2, 2) to main avenue (6, 2).
-- Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, verified Turn 19445].
-- Impassable Boundary at (6, 7): Southern passage down Column 6 is blocked at row 7 by elevation cliff/rock wall [Verified Turn 19450].
-- Pit Hole 1: Located at (3, 5) in western section.
-- Boulder 1: Located at (22, 3) in eastern wing [Discovered Turn 19466]. Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
-- Wooden Staircase at (17, 5): Located along southern edge of central terrace, leading south.
-- Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
+## 3F Verified Topography & Puzzle State
+- Entrance Ladder: (2, 0) from 2F Northwest Chamber.
+- Northern Highway: Rows 0-1 open east-west corridor across cols 6 through 25+.
+- Pit Hole 1: Located at (3, 5).
+- Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full].
+- Impassable Boundary at (6, 7): Southern passage down col 6 blocked by cliff/rock wall.
+- Central Terrace: Cols 11-18, rows 2-4. Undefeated trainer at (13, 3) facing West.
+- Wooden Staircase at (17, 5): Connects central terrace south to lower corridor.
+- Column 20 Corridor: Open north-south passage connecting rows 0-5+.
+- Boulder 1: Located at (22, 3). Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
+- Southeastern Ladder at (23, 7): Descends directly to 2F (23, 7).
 
-## Active Objectives
-1. Survey southern chambers along columns 20-23 to locate target pit hole or switch plate for Boulder 1.
-2. Formulate Sokoban push route for Boulder 1 without premature displacement.
-3. Locate 3F exit ladder to Indigo Plateau.
+## Next Progression Plan
+1. Flee wild battle on 2F.
+2. Return north via column 20 or 23 to (23, 7) to climb back up to 3F (or return via Northwest Chamber ladder).
+   Wait! Is tile (23, 7) on 2F a ladder that climbs UP to 3F?
+   Let's check: if (23, 7) is a 2-way ladder, stepping on (23, 7) from 2F takes us back to 3F!
+   If (23, 7) on 2F is NOT an ascent ladder, we return to the Northwest Chamber at (1, 1) and ascend to 3F.
+3. On 3F, solve Boulder 1 puzzle: push Boulder 1 into Pit Hole 1 at (3, 5) or find target switch/hole.
 
 
 <hr>
@@ -3923,7 +3929,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Tamer at (19, 8) [Defeated Turn 16258; Team: Persian Lv 44, Golduck Lv 44; Prize: ¥1760].
 - Trainer: Cooltrainer ♀ at (13, 3) [Defeated Turn 16122; Team: Parasect Lv 43, Dewgong Lv 43, Chansey Lv 43].
 - Trainer: Cooltrainer ♂ at (28, 5) [Defeated Turn 16045; Team: Exeggutor Lv 43, Cloyster Lv 43, Arcanine Lv 43].
-- Trainer at (4, 2) in northwest chamber facing South.
 - Trainer: Juggler Gregory at (21, 13) [Defeated Turn 15653; Team: Drowzee Lv 41, Hypno Lv 41, Kadabra Lv 41; Prize: ¥1435].
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
@@ -3974,6 +3979,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
+- Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
+- Ladder Pairing: Tile (23, 7) receives the ladder descending from Victory Road 3F (23, 7) [Verified Turn 19485].
+
 
 <hr>
 
@@ -3993,15 +4001,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Active Field Move: STRENGTH activated with Geodude (ROCKY) on 3F [Turn 19434].
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Boulder 1: Discovered at (22, 3) in eastern wing [Turn 19466]. Surrounded by open floor on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)), allowing pushes in any direction.
-- Pit Hole 1: Located at (3, 5).
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
 - Trainer sighted at (13, 3) facing West on the row 3 terrace.
-- Northern Highway extends east through at least column 15 along rows 0 and 1.
 - Wooden Staircase at (17, 5): Located along the southern boundary of the central terrace, leading south.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
 - Southeastern Ladder: Discovered at (23, 7) with light blue vertical rails and horizontal rungs [Turn 19483]. Directly accessible from column 20 corridor.
+- Ladder Pairing: Southeastern ladder at (23, 7) descends directly to Victory Road 2F at (23, 7) [Verified Turn 19485].
+
 
 <hr>
