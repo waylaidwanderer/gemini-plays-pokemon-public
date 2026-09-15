@@ -3981,6 +3981,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Progression Imperative: Abandoning redundant trips to Barrier (23, 14). The entrance ladder to 3F must be located and accessed directly.
 
 - Turn 19236: Physical bump test confirmed (13, 7) is solid elevation cliff from (13, 8) with Switch Plate A active (visited 0 tiles).
+- Turn 19237: Physical bump test confirmed (12, 7) is solid elevation cliff from (12, 8) with Switch Plate A active (visited 0 tiles).
 
 <hr>
 
