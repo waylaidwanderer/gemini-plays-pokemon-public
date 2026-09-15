@@ -124,3 +124,8 @@
 - Turns 18781-18784: Fled wild Geodude at (20, 11).
 - Turn 18787: Tested North to (20, 8); confirmed (19, 8) is a purple rock wall.
 - Turn 18788: Stepped Up to (20, 7), traversed west along row 7 to (17, 7) where wild Machop appeared. Current position: (17, 7).
+## Critical Discovery: Switch Plate A Status (Turn 18808)
+- On Turn 18680, Boulder 3 was pushed to (2, 16). On Turn 18693, the player planned to push it Left onto Switch Plate A at (1, 16), but pressed 'Up' instead, entering a wild battle and walking away.
+- Boulder 3 is currently resting at (2, 16), directly adjacent to Switch Plate A at (1, 16). Switch Plate A has NOT yet been depressed!
+- This explains why Barrier (23, 14) and Barrier (7, 10) were still raised: the switch was never triggered.
+- Active Plan: Return via row 4 east -> staircase (17, 5) -> col 16 -> row 11 -> col 28 -> row 16 -> col 13 -> staircase (5, 10) -> Western Highway -> (3, 16), push Boulder 3 West onto Switch Plate A at (1, 16), and observe barrier lowering!
