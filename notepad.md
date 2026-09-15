@@ -2879,10 +2879,9 @@
   - (4, 0..3) forms solid rock barrier terminating Northern Terrace at Column 5.
   - (7, 8) blocks westward movement from (8, 8).
   - (27..28, 12) is elevated cliff overlooking (27..28, 11) water.
-5. **Southwest Terrace & Ladder (Turn 51563 Discovery)**:
-   - Southwest Terrace spans cols 0..7 across rows 8..15.
-   - Landfall shoreline / ramp at (7, 13) / (7, 14).
-   - **Ladder F (Southwest Ascending Ladder)**: Located at (3, 11) -> Ascends directly into 2F Northwest Sector connecting to Ladder A (1, 3) and Mewtwo!
+5. **Southwest Water Basin & Observed Ladder (Turn 51563-51571 Discovery)**:
+   - (7, 13) is an isolated 1-tile shoreline pocket; blocked by rock at (6, 13), (7, 14), and (7, 12).
+   - Ladder sprite observed across water at (3, 11); access route and destination unverified.
 
 <hr>
 
@@ -2936,6 +2935,10 @@
 - (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51488).
 
 ## Verified Collision & Obstacle Ledger
+  - (9, 3 South) confirmed solid rock wall / ridge across Row 3 (Turn 51544).
+  - (16, 2 East) confirmed solid rock wall (Turn 51546).
+  - (15, 3 South) confirmed elevated ledge overlooking void/chasm at (15, 4) (Turn 51554).
+  - (4, 0) confirmed solid rock barrier blocking westward movement from (5, 0) (Turn 51542).
   - (24, 6) confirmed solid rock barrier blocking southward movement from (24, 5) (Turn 51513).
   - (15, 4) confirmed solid rock barrier blocking southward movement from (15, 3) (Turn 51526).
   - (4, 2) confirmed solid rock barrier blocking westward movement from (5, 2) (Turn 51537).
