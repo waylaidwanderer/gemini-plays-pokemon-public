@@ -147,7 +147,8 @@
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
 - [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 16426]
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
-- [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
+- [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]- [x] Clear Victory Road 2F and ascend northwestern ladder to Victory Road 3F [Turn 19426]
+
 
 <hr>
 
@@ -4131,6 +4132,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Highway (Rows 0-1, Verified Turn 19401): Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F from column 27 all the way to column 1.
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
+
+
+<hr>
+
+<h1><code>Locations/Kanto_VictoryRoad_3F</code></h1>
+
+# Victory Road 3F Points of Interest & Geography
+
+## Connections
+- Northwest Ladder: Located at (2, 0) (arrival from Victory Road 2F).
+- Southeast Ladder: Unexplored.
+- Dungeon Exit: Leading to Route 23 / Indigo Plateau.
+
+## Layout & Mechanics
+- Arrival tile: (2, 0) facing South.
+- Puzzles: Boulder and hole puzzle to drop boulder onto 2F Switch Plate B at (9, 16).
 
 
 <hr>
