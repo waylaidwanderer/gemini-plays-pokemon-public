@@ -3,7 +3,7 @@
 ## Regular Items
 
 - FULL RESTORE x1 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
-- MAX POTION x2 [Verified Turn 13828]
+- MAX POTION x1 [Used Turn 19428 on Sheldon]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
@@ -75,14 +75,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥129917 [Turn 16571]
+- ¥131917 [Turn 19424]
 
 ## Party Pokémon
-- BLASTOISE (Nickname: SHELDON) [Lv 65, Water]
-  - Status: Healthy [Turn 16063]
-  - HP: 171 / 206 [Turn 16571]
-  - Stats: Attack 152, Defense 177, Speed 152, Special 157 [Verified Lv 65 Turn 16063]
-  - Moves: Double-Edge (PP 13/15), Body Slam (PP 0/15), Surf (PP 6/15), Ice Beam (PP 4/10)
+- BLASTOISE (Nickname: SHELDON) [Lv 66, Water]
+  - Status: Healthy [Turn 19428]
+  - HP: 209 / 209 [Healed Turn 19428 with Max Potion]
+  - Stats: Attack 155, Defense 179, Speed 155, Special 160 [Verified Lv 66 Turn 19422]
+  - Moves: Double-Edge (PP 10/15), Body Slam (PP 0/15), Surf (PP 5/15), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
