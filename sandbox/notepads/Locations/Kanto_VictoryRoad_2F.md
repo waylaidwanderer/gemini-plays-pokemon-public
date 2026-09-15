@@ -107,9 +107,8 @@
 - Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).
 - Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
 
-- Breakthrough (Turn 19145): Tile (15, 3) empirically verified 100% open floor (player stepped onto (15, 3)). The prior note claiming columns 14-15 are solid rock across rows 0-7 was false; column 15 is passable.
-- Column 14 Divider: Empirically verified on Turns 19145-19155 that Column 14 is a solid rock wall across rows 0-3 (bump tests confirmed at (14, 0), (14, 1), (14, 2), and (14, 3)). Northern passage into western sector is blocked across rows 0-3.
-- Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
+- Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
+- Column 14 Reality: Column 14 is completely open floor across rows 2, 3, and 4 (player walked through (14, 4) on Turn 19334). Prior notes claiming solid walls at (14, 2-3) were erroneous. Solid rock wall only exists at (14, 5) and (14, 6-7).
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
   Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
   - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]
