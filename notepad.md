@@ -3966,7 +3966,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 7 Central Corridor: Empirically verified that row 7 is open flat dark checkerboard floor across columns 13 through 17 [Traversed Turn 19371].
 - Column 12 Corridor: Confirmed open north-south corridor across rows 6 through 11 connecting row 7 to row 11 [Turn 19371].
 
-- Northern Highway (Rows 0-1, Verified Turn 19401): Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F from column 27 all the way to column 1.
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
@@ -3990,7 +3989,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
 - Active Field Move: STRENGTH reactivated with Geodude (ROCKY) [Turn 19722].
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
-- Boulder 1: Discovered at (22, 3) in eastern wing [Turn 19466]. Surrounded by open floor on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)), allowing pushes in any direction.
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
@@ -4044,7 +4042,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Stationed at (12, 9) [Sighted Turn 19686].
 
 - Marowak (observed Turn 19744)
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.- Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
+- Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
 - Trainer: Stationed at (4, 2) facing South in Northwest Sector [Observed Turns 19771-19774].
 - Tile (22, 3): Verified open cave floor, no boulder present [Turn 19814].
 - Advice NPC: Stationed at (26, 3) [Turn 19814].
