@@ -3975,8 +3975,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop [Turn 19903 at (5, 11)]
 
 ## Dynamic Entities Current State
-- Western Boulder at (5, 3): Pushed from (5, 5) into doorway (5, 4) and then to (5, 3) on Turns 19910-19913. Trapped against (5, 2) rock wall; doorway (5, 4) blocked from north. Can be reset to (5, 5) by taking ladder (0, 8) to 1F and returning.
 - Onix [Turn 19943 at (5, 7)]
+- Western Boulder at (5, 4): Pushed from (5, 5) into doorway (5, 4) on Turn 19949.
 
 
 <hr>
@@ -4034,10 +4034,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (21, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672].
 - Raised Barrier Block at (23, 14): Raised block obstructing westward access to Exit Ladder (25, 14) [Turns 19662, 19672].
 - Eastern Exit Ladder at (25, 14): Visual confirmation of blue ladder rungs leading toward Victory Road exit [Turns 19662, 19672].
-- Switch Plate at (9, 16): Circular switch plate with raised blue border in southwest corner of lower corridor [Discovered Turn 19678].
 - Lower Corridor (Rows 16-17): Wide continuous dark checkerboard corridor spanning columns 9 through 29.
 
-- Immovable Boulder at (9, 11): Visually confirmed at (9, 11) [Turn 19688]. North is blocked by rock wall (9, 10), west by rock wall (8, 11). Immovable onto Switch Plate (9, 16).
 - Row 8 Cross-Corridor: Completely open purple floor spanning cols 6 through 14, connecting eastern plateau directly into western main avenue.
 
 - Western Boulder: Located at (5, 5) [Discovered Turn 19691]. Unblocked on south (5, 6), north (5, 4), and west (4, 5).
@@ -4045,13 +4043,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
 
-- Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.
-- Trainer: Stationed at (12, 9) [Sighted Turn 19686].
 
 - Marowak (observed Turn 19744)
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
-- Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
-- Trainer: Stationed at (4, 2) facing South in Northwest Sector [Observed Turns 19771-19774].
 - Graveler (observed Turn 19826)
 
 <hr>
