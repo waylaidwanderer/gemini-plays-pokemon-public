@@ -120,7 +120,6 @@
 - Row 7 Central Corridor: Empirically verified that row 7 is open flat dark checkerboard floor across columns 13 through 17 [Traversed Turn 19371].
 - Column 12 Corridor: Confirmed open north-south corridor across rows 6 through 11 connecting row 7 to row 11 [Turn 19371].
 
-- Northern Highway (Rows 0-1, Verified Turn 19401): Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F from column 27 all the way to column 1.
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
