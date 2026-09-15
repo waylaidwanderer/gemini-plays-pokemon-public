@@ -1,7 +1,7 @@
 # Victory Road 3F Routing & Active Hypotheses
 
 ## Floor Status & Progression
-- 2F Cleared: Switch Plate A depressed, Pokémaniac defeated, ascended Northwest Chamber ladder at (1, 1) to 3F [Turn 19426].
+- 2F Cleared: Switch Plate A depressed, Pokï¿½maniac defeated, ascended Northwest Chamber ladder at (1, 1) to 3F [Turn 19426].
 - 3F Entrance: Arrived at (2, 0) facing South.
 - Active Field Move: Strength active with Geodude (ROCKY) [Turn 19434].
 - Sheldon Status: Healthy (HP 209/209, Lv 66).
