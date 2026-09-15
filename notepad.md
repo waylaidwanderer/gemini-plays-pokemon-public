@@ -4053,5 +4053,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (22, 3): Verified open cave floor, no boulder present [Turn 19814].
 - Advice NPC: Stationed at (26, 3) [Turn 19814].
 - Blue Ladder at (27, 7): Visually confirmed [Turn 19814].
+- Graveler (observed Turn 19826)
 
 <hr>
