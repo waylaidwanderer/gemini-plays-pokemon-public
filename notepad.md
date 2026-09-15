@@ -2958,10 +2958,15 @@
   - Southern Basin (rows 14-15, cols 8-11): Bounded by rock walls on south (row 16), east (col 12), and west (col 7).
   - West Canal (rows 6-7, cols 8-15): Extends west across Row 6/7 toward cols 0-7 into the lower Northwest water basin (rows 4-6, cols 1-6) connecting to Ladder A (1, 3)!
 
-## Active Master Route:
-1. Walk East along Northern Terrace Row 0: (5, 0) -> (15, 0) -> Down to Northwest Ramp at (15, 3).
-2. Board water at (15, 4) using Surf on HYDROS.
-3. Surf south to Row 6/7 and west along Row 6 canal through cols 15..8 into cols 6..1.
-4. Reach Northwest Enclave shore/ramp and step onto **Ladder A at (1, 3)** to descend to B1F!
+## Verified 2F Ladder A Master Route (PROVEN Turn 51068):
+- **Ladder A at (1, 3)** descends directly to B1F (Mewtwo chamber).
+- **Corridor Topology**:
+  - Ladder A (1, 3) connects north to (1, 2) -> west to (0, 2).
+  - Column 0 is OPEN FLOOR from (0, 2) down through (0, 3), (0, 4) to (0, 5).
+  - Row 5 is OPEN FLOOR from (0, 5) east through (1, 5), (2, 5), (3, 5), (4, 5), (5, 5) to (6, 5).
+  - (6, 5) connects south through (6, 6) to Row 7 at (6, 7).
+  - Row 7 connects east across (7, 7), (8, 7), (9, 7), (10, 7) to the eastern corridor network.
+- **Full Path to Ladder A**:
+  - From Eastern/Northern 2F: Traverse south along Col 10 to Row 7 -> West to (6, 7) -> North to (6, 6) -> North to (6, 5) -> West along Row 5 to (0, 5) -> North along Col 0 to (0, 2) -> East to (1, 2) -> South onto Ladder A at (1, 3) -> B1F!
 
 <hr>
