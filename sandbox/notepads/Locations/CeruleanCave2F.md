@@ -16,13 +16,13 @@
 - **Ladder E Arrival**: Ladder icon at (7, 1), spawn at (9, 1). Connects west via Row 1 to (3, 1..3).
 - **Row 3 Main Bypass**: Open floor across (3..9, 3) connecting Column 3 to Column 9 and Column 5.
 - **Row 7 Highway**: Open floor across (0..11, 7).
-- **Column 0 Highway**: Open floor across (0, 2..7) connecting Row 7 to Row 2 at (0, 2) -> (1, 2) -> (1, 3) Ladder A.
+- **Column 0 Highway**: Open floor across (0, 2..9) connecting Row 9/7 to Row 2 at (0, 2) -> (1, 2) -> (1, 3) Ladder A.
 
 ## Verified Southeastern & Southern Topography
 - **Ladder D Sector**: (29, 1) connects to self-contained eastern sector; (24, 9) is an impassable rock barrier.
 - **Row 11 Main Corridor**: Open floor across cols 14..23 connecting to Column 23 and Ladder B at (22, 6).
 - **Row 17 Corridor**: Open floor across (11..19, 17) and (21..27, 17), separated by rock at (20, 17).
-- **Column 24 Vertical Corridor & Pit Drop Warp (Verified Turns 51370-51376)**: Open floor across (24, 11..16) connecting Row 11 corridor down to (24, 17). Stepping onto dark checkerboard floor at (24, 17) triggers an exterior escape pit drop warping player outside onto Route 24 (4, 11) -> (4, 12).
+- **Column 24 Vertical Corridor & Pit Drop Warp (Verified Turns 51370-51376)**: Open floor across (24, 1..5) and (24, 7..16) connecting Row 11 corridor down to (24, 17). Stepping onto dark checkerboard floor at (24, 17) triggers an exterior escape pit drop warping player outside onto Route 24 (4, 11) -> (4, 12).
 
 ## Unified Verified Collision & Obstacle Ledger
 - (2, 3) confirmed solid rock barrier blocking westward passage from (3, 3) (Turn 51741).
@@ -50,12 +50,13 @@
 - (17, 8..10), (18, 8..10), (19, 8..10), (20, 8..10), (21, 8..10) confirmed solid rock barriers.
 - (17, 14) confirmed solid rock barrier blocking southward movement down Column 17 from (17, 13) (Turn 51596).
 - (19, 14) confirmed solid rock barrier (Turn 51374).
-- (20, 4) confirmed solid rock barrier blocking southward movement from (20, 3) (Turn 51622).
+- (20, 4) confirmed solid rock barrier blocking southward movement from (20, 3) (Turn 51622, 51771).
 - (20, 12) confirmed solid rock barrier (Turn 51376).
 - (21, 6) confirmed solid rock barrier blocking westward movement from (22, 6) (Turn 51364).
 - (21, 7) and (22, 8) confirmed solid rock barriers blocking west/south from (22, 7) (Turn 51364).
+- (22, 1) confirmed solid rock barrier blocking northward movement from (22, 2) (Turn 51778).
+- (22, 5) confirmed solid rock barrier blocking southward movement from (22, 4) (Turn 51777).
 - (23, 4) confirmed solid rock barrier blocking eastward movement along Row 4 from (22, 4) (Turn 51625).
-- (24, 2) confirmed solid rock barrier blocking southward movement from (24, 1) (Turn 51627).
 - (24, 6) confirmed solid rock barrier blocking southward movement from (24, 5) (Turn 51513).
 - (24, 13) confirmed solid rock barrier (Turn 51374).
 - (26, 14) confirmed solid rock barrier (Turn 51375).
