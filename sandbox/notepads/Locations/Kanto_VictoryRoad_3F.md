@@ -67,7 +67,4 @@
 - Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
 - Trainer: Stationed at (21, 13) facing South [Observed Turns 19654, 19746, 19794].
 - Trainer: Stationed at (4, 2) facing South in Northwest Sector [Observed Turns 19771-19774].
-- Tile (22, 3): Verified open cave floor, no boulder present [Turn 19814].
-- Advice NPC: Stationed at (26, 3) [Turn 19814].
-- Blue Ladder at (27, 7): Visually confirmed [Turn 19814].
 - Graveler (observed Turn 19826)

@@ -12,8 +12,6 @@
 - The ladder to Victory Road 3F is at (1, 1) in the Northwest Chamber of 2F (previously climbed Turn 19426).
 
 ## Active Routing Plan
-1. From (21, 3), walk north to Row 1 (Northern Highway) at (21, 1).
-2. Follow Row 1 west across the top of 2F all the way to (1, 1).
 3. Climb ladder at (1, 1) to ascend to Victory Road 3F at (2, 0).
 4. On 3F: Navigate to the movable boulder and pit hole.
 5. Push the boulder into the hole, then jump down after it (or take ladder).
