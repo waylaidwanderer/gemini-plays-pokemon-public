@@ -13,8 +13,7 @@
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Boulder 1: Discovered at (22, 3) in eastern wing [Turn 19466]. Surrounded by open floor on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)), allowing pushes in any direction.
 - Pit Hole 1: Located at (3, 5).
-- Current Tactical Position (Turn 19438): Player standing at (7, 6) facing South directly at Boulder 1 at (7, 7) with active Strength.
-- Local Terrain: Visual inspection confirms floor tiles at (7, 8), (7, 9), and continuous corridor along column 6 (rows 6-10). Pit hole located west at (3, 5).
+- Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
 - Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1, providing access to the eastern wing of 3F.
 - Trainer sighted at (13, 3) facing West on the row 3 terrace.
