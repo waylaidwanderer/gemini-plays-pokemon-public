@@ -168,3 +168,5 @@
 - Turn 19240: Physical bump test confirmed (9, 7) is solid elevation cliff from (9, 8) with Switch Plate A active (visited 0 tiles).
 - Turn 19241: Physical bump test confirmed (8, 7) is solid rock wall from (8, 8) with Switch Plate A active (visited 0 tiles).
 - Turn 19242: Physical bump test confirmed (7, 7) is solid elevation cliff from (7, 8) with Switch Plate A active (visited 0 tiles).
+- Turn 19243: Physical bump test confirmed (6, 7) is solid elevation cliff from (6, 8) with Switch Plate A active (visited 0 tiles).
+- Definitive Falsification (Turn 19243): 100% of row 8 northern boundaries across cols 5-13 have been physically tested and verified impassable with Switch Plate A active. Conclusively falsified that Switch Plate A opens any passage across row 8 or row 7.
