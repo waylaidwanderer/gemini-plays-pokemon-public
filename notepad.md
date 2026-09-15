@@ -3890,12 +3890,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Isolated bump test at (16, 8): Pressed Left, bumped into (15, 8). Confirms column 15 wall terminates row 8 westward access from col 16.
 - Conclusion: Eastern Highway (col 28) -> row 16 -> staircase (15, 15) -> col 13 -> row 8 west is the verified topological passage to the Western Sector.
 - Active route: Moving south to row 11 and east toward Eastern Highway at column 28.
-## Turn 18867 Arrival at Boulder 1 & Northwest Chamber
-- Successfully arrived at (4, 5) on the Western Highway, facing East directly at Boulder 1 at (5, 5).
-- Doorway to Northwest Chamber is at (5, 4).
-- Ladder to 3F is clearly visible at (1, 1) inside the chamber!
-- Pokémaniac trainer is at (4, 2).
-- Activating Strength with Geodude (ROCKY) to solve Boulder 1 puzzle.
+
 
 
 
@@ -3992,9 +3987,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Conclusive Finding: Switch Plate A at (1, 16) DOES NOT lower Barrier (23, 14).
 - Physical Reality: Barrier (23, 14) is 100% solid and raised. It must be lowered by Switch Plate B at (9, 16) via 3F boulder drop, or another mechanism. Ladder (25, 14) is therefore inaccessible from row 14 west.
 
-## Turn 19074 Route to Column 13 & Row 3 3F Ladder
-- Successfully fled from wild Geodude at (25, 11).
-- Active execution: Proceeding along row 11 to col 28, south to row 16, west to staircase (15, 15), north up Column 13 to row 3, and west along row 3 to Northwest Chamber ladder (1, 1).
+
 
 <hr>
 
@@ -4106,6 +4099,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 - Boundary (13, 8) -> (13, 7): Empirically verified impassable elevation cliff on Turn 19089 (bump test visited 0 tiles). Confirms the row 8 northern cliff continuously blocks northbound passage across column 13.
-- Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3). Entry to Northwest Chamber is via the eastern corridors (rows 1-3).
+- Doorway (5, 4) & Boulder 1 (5, 3): Empirically verified on Turn 19104-19106 that Boulder 1 at (5, 3) cannot be pushed north (bumped into (5, 2) rock wall), and tile (4, 4) is a solid rock wall (bumped facing West). Doorway (5, 4) is an impassable dead end from the south when Boulder 1 is at (5, 3).
 
 <hr>
