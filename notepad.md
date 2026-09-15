@@ -2870,11 +2870,11 @@
 ## Verified Collisions & Obstacles
 - **1F Entrance Sector (Cols 20-25, Rows 12-17)**:
   - (23, 12), (24, 12), (25, 12) confirmed solid rock wall (Turn 51435).
-  - (20, 16) confirmed solid rock wall (Turn 51440).
-  - Rows 14-15 provide an open westward hallway from (24, 14..15) across cols 23..18 towards the South-Central Terrace and South Water Basin.
-  - (26, 13..17) confirmed solid rock boundary dividing entrance room from Column 27.
+  - (19, 14), (19, 15), (20, 16) confirmed solid rock boundaries blocking westward passage from entrance room.
+  - (24, 13) and (25, 13) are solid rock rubble barriers blocking northward passage/Surf directly from rows 14-17.
+  - (26, 13..17) confirmed solid rock boundary dividing entrance room from Column 27 terrace.
   - (24, 17) / (25, 17) is the exit warp mat warping player outside to Cerulean City (4, 11) -> (4, 12).
-  - (21, 11) is a one-way ledge hopping south into (21, 12).
+  - (21, 12) connects north via (21, 10) to (21, 7) and Ramp (25, 9) -> Water (25, 10).
 - **Other Sectors**:
   - (4, 0..3) forms solid rock barrier terminating Northern Terrace at Column 5.
   - (7, 8) blocks westward movement from (8, 8).
