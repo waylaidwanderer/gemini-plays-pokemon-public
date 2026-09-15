@@ -147,7 +147,8 @@
 - [x] Clear Victory Road 1F and ascend ladder to 2F [Turn 15532]
 - [x] Push Boulder 3 onto Switch Plate A at (1, 16) and depress switch on Victory Road 2F [Turn 16426]
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
-- [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]- [x] Clear Victory Road 2F and ascend northwestern ladder to Victory Road 3F [Turn 19426]
+- [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
+- [x] Clear Victory Road 2F and ascend northwestern ladder to Victory Road 3F [Turn 19426]
 
 
 <hr>
@@ -3823,7 +3824,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Verified Inter-Floor Ladder Pairings
 - 1F -> 2F: Ladder at 1F (1, 1) connects to 2F (0, 8).
 - 2F -> 3F: Northwest Chamber ladder at 2F (1, 1) ascends to 3F (2, 0) [Verified Turn 19426].
-- 3F -> 2F: Southeastern ladder at 3F (23, 7) descends to 2F (23, 7) [Verified Turn 19485].
 - 2F -> Exit / 3F return: Ladder at 2F (27, 7) in enclosed chamber (one-way exit ledge).
 - 2F -> Exit corridor: Ladder at 2F (25, 14) behind barrier at (23, 14).
 
@@ -3837,14 +3837,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (17, 5): Connects central terrace south to lower corridor.
 - Column 20 Corridor: Open north-south passage connecting rows 0-5+.
 - Boulder 1: Located at (22, 3). Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
-- Southeastern Ladder at (23, 7): Descends directly to 2F (23, 7).
 
 ## Next Progression Plan
 1. Flee wild battle on 2F.
-2. Return north via column 20 or 23 to (23, 7) to climb back up to 3F (or return via Northwest Chamber ladder).
-   Wait! Is tile (23, 7) on 2F a ladder that climbs UP to 3F?
-   Let's check: if (23, 7) is a 2-way ladder, stepping on (23, 7) from 2F takes us back to 3F!
-   If (23, 7) on 2F is NOT an ascent ladder, we return to the Northwest Chamber at (1, 1) and ascend to 3F.
 3. On 3F, solve Boulder 1 puzzle: push Boulder 1 into Pit Hole 1 at (3, 5) or find target switch/hole.
 
 ## Floor Transition Verification (Turn 19547)
@@ -3985,7 +3980,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
-- Ladder Pairing: Tile (23, 7) receives the ladder descending from Victory Road 3F (23, 7) [Verified Turn 19485].
 
 
 <hr>
@@ -4013,8 +4007,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (17, 5): Located along the southern boundary of the central terrace, leading south.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
-- Southeastern Ladder: Discovered at (23, 7) with light blue vertical rails and horizontal rungs [Turn 19483]. Directly accessible from column 20 corridor.
-- Ladder Pairing: Southeastern ladder at (23, 7) descends directly to Victory Road 2F at (23, 7) [Verified Turn 19485].
 
 
 
