@@ -2871,6 +2871,10 @@
    - Southern Water Basin: Spans rows 14-15 across cols 8-11. Solid rock boundaries at Row 16 (south), Column 12 (east), and Column 7 (west). No southwest water outlet.
    - Northern Terrace NW Boundary: (4, 0), (4, 1), (4, 2), (4, 3) form a continuous solid rock barrier terminating the terrace at Column 5.
 - **West Canal Boundary (Verified Turn 51039)**: (7, 8) is a solid rock barrier blocking westward movement from (8, 8). The water canal along cols 8-9 terminates westward against rock walls along Column 7 across rows 6-15.
+- **1F Terrace Land Barrier (Verified Turns 51137-51140)**:
+  - Direct terrestrial pathway between Ladder C at (18, 9) and Ladder B at (23, 7) is blocked by solid rock barriers along Column 20 (rows 9-11) and Column 22/23 (row 11).
+  - Transit between South-Central Terrace and Southeast Terrace requires canal surfing via South Ramp (11, 13) <-> Southeast Ramp (25, 9).
+
 
 <hr>
 
@@ -2922,7 +2926,8 @@
   - (21, 3), (20, 4), and (21, 6) are solid rock barriers.
   - (20, 7) and (21, 7) are solid rock barriers.
   - (22, 5), (23, 5), and (23, 6) are solid rock barriers.
-  - (18, 8), (19, 8), (20, 8), (21, 8), (22, 8), and (24, 8) are solid rock barriers forming a wall along Row 8.
+  - (18, 8), (19, 8), (20, 8), (21, 8), (22, 8), and (24, 8) are solid rock barriers forming a wall along Row 8.  - (22, 9) and (22, 10) are solid rock barriers blocking westward passage from Column 23.
+
 
 <hr>
 
@@ -2953,24 +2958,16 @@
 
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## Verified 1F & 2F Topography (Turns 50872-51033):
-- **2F Northwest / Ladder A Enclave (cols 0-11, rows 0-7)**:
-  - Ladder A at (1, 3) descends to B1F (Mewtwo chamber).
-  - Enclave contains floor at (0..3, 0..3), (0..7, 5), (6, 6), (1..11, 7).
-  - Isolated from eastern 2F by continuous rock walls at Row 4, Row 6, Row 8, and Column 2.
-  - Cannot be accessed from 2F Northern / Eastern networks.
-- **1F Northern Terrace (cols 5-15, rows 0-2)**:
-  - Connects to 2F via Ladder E at 1F (7, 1) <-> 2F (9, 1).
-  - Western boundary: Solid rock barrier at Column 4 (4, 0..3).
-  - Eastern terminus: Northwest Ramp at (15, 3) facing south into North Canal at (15, 4).
-- **1F Waterways & Canals**:
-  - Southern Basin (rows 14-15, cols 8-11): Bounded by rock walls on south (row 16), east (col 12), and west (col 7).
-  - West Canal (rows 6-7, cols 8-9): Water canal dead-ends westward against solid rock wall at (7, 8) (verified Turn 51039).
+## Verified Floor Topology:
+- **2F Northwest Sector (Ladder A)**:
+  - Ladder A at (1, 3) descends directly to B1F (Mewtwo chamber).
+  - Open floor at (0..7, 5), (6..7, 6), (1..11, 7), (0..1, 2..4).
+- **2F Sector 3 / Ladder B Corridor**:
+  - Ladder B at 2F (22, 6) <-> 1F (23, 7).
+  - Column 23 extends south: (22, 6) -> (22, 7) -> (23, 7..10..).
+  - Verified barriers: (22, 8..10), (24, 8..9) block immediate horizontal connections.
+- **Active Exploration Objective**:
+  - Probe Column 23 south past row 10 to map southern corridors and discover viable westward passages toward Sector 1 (Ladder A).
 
-## 2F Southern Corridor Probing Strategy:
-- **Ladder D Sector Isolation**: Turn 50934 physically verified (24, 9) is an impassable rock barrier; eastern sector (Ladder D) does not connect westward into Row 9.
-- **Sector 3 / Ladder B Corridor**:
-  - Ladder B at 2F (22, 6) connects south: (22, 6) -> (22, 7) -> (23, 7) -> (23, 8) -> (23, 9) -> (23, 10..).
-  - Probe Column 23 southward from (23, 9) to verify if southern corridors connect westward toward Row 9 (cols 5..21) and Row 7 (6, 7) -> (6, 6) -> (6, 5) -> Ladder A (1, 3)!
 
 <hr>
