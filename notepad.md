@@ -3878,8 +3878,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 
-## Reconciled Empirical Status of Switch Plate A & Barriers (Turn 18811)
-- Boulder 3 is verified resting on Switch Plate A at (1, 16), confirmed across 10 consecutive turns (Turns 18681-18693) where tile (2, 16) was empty floor.
 - Moltres confirmed at (7, 7) on central plateau.
 
 
@@ -3978,6 +3976,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Turn 19304 Eastern Chamber Discovery & Active Route to Ladder (27, 7)
 - Eastern Chamber Audit (Turn 19324): Confirmed ladder graphic is located at (26, 8) inside the enclosed eastern chamber (cols 25-28, rows 7-9). Chamber is 100% sealed on 2F by rock walls on all 4 sides (row 6, row 10, col 24, col 28). Column 29 is blocked at rows 9 and 10 by solid rock walls. Tile (23, 7) is verified ordinary floor with 0 warp effect.
+## Upper Plateau Highway & Column 9 Survey (Turns 19334-19351)
+- Wooden Staircase at (17, 5): Visually confirmed wooden staircase connecting lower row 6 to upper plateau row 4.
+- Upper Plateau Highway: Rows 2, 3, and 4 form an open 3-tile wide thoroughfare across columns 9 through 18.
+- Column 8 Collision: Physical bump test at (8, 2) from (9, 2) confirmed solid rock wall (Turn 19344).
+- Active Exploration: Column 9 and Column 10 rows 5-8 form an open southern corridor on the upper plateau terrace requiring structured survey.
+
 
 <hr>
 
@@ -4106,6 +4110,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - (6, 8) -> (6, 7): SOLID elevation cliff [Turn 19243]
   - (5, 8) -> (5, 7): SOLID elevation cliff [Turn 19220]
   Conclusion: The entire northern boundary of the row 8 terrace (cols 5-13) is 100% solid and impassable. Switch Plate A does NOT open any passage across row 8.
-- Column 17 / (17, 5) Reality: Empirically verified that (17, 5) is flat dark checkerboard floor traversed in continuous straight-line walking [Turn 19143, 19148], NOT a wooden staircase. The only functional staircases on 2F are (5, 10), (15, 15), and (21, 15).
+
 
 <hr>
