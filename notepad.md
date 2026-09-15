@@ -3821,28 +3821,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Progression & Routing Dashboard
 
-## Verified Inter-Floor Ladder Pairings
+## Confirmed Floor State: Victory Road 3F (Audited Turn 19711)
+- Map transition occurred Turn 19547 at ladder (1, 1) -> arriving at 3F (2, 0).
+- Zero map transition messages across turns 19547-19711 confirms unbroken presence on Victory Road 3F.
+- Floor features: Western boulder at (5, 5) with open floor, southwestern staircase at (5, 10) leading to lower chamber (cols 1-7, rows 11-17), Boulder 4 at (4, 14), central terrace trainer at (13, 3), eastern trainer at (19, 8), wooden staircases at (15, 15) and (21, 15), barrier block at (23, 14), ladder at (25, 14), switch plate at (9, 16).
+
+## Verified Inter-Floor Connections
 - 1F -> 2F: Ladder at 1F (1, 1) connects to 2F (0, 8).
-- 2F -> 3F: Northwest Chamber ladder at 2F (1, 1) ascends to 3F (2, 0) [Verified Turn 19426].
-- 2F -> Exit / 3F return: Ladder at 2F (27, 7) in enclosed chamber (one-way exit ledge).
-- 2F -> Exit corridor: Ladder at 2F (25, 14) behind barrier at (23, 14).
+- 2F -> 3F: Northwest Chamber ladder at 2F (1, 1) ascends to 3F (2, 0) [Verified Turn 19426, re-verified Turn 19547].
+- 3F -> 2F Exit / Return Ladder: Ladder at 3F (26, 8) connects down to 2F (27, 7).
 
-## 3F Verified Topography & Puzzle State
-- Entrance Ladder: (2, 0) from 2F Northwest Chamber.
-- Northern Highway: Rows 0-1 open east-west corridor across cols 6 through 25+.
-- Pit Hole 1: Located at (3, 5).
-- Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full].
-- Impassable Boundary at (6, 7): Southern passage down col 6 blocked by cliff/rock wall.
-- Central Terrace: Cols 11-18, rows 2-4. Undefeated trainer at (13, 3) facing West.
-- Wooden Staircase at (17, 5): Connects central terrace south to lower corridor.
-- Column 20 Corridor: Open north-south passage connecting rows 0-5+.
-- Boulder 1: Located at (22, 3). Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
-
-
-## Floor Transition Verification (Turn 19547)
-- Ascended ladder at 2F (1, 1) to arrive at Victory Road 3F (2, 0).
-- Verified 3F features: Pit hole at (3, 5), ladder descent at (2, 0), open Northern Highway spanning east-west across rows 0-1.
-- Strength activated with Geodude (ROCKY) on Turn 19554.
+## Active 3F Progression Objectives
+- Southwestern Lower Chamber: Inspect Boulder 4 at (4, 14) and explore open floor (cols 1-4, rows 11-17).
+- Boulder & Pit Hole Mechanics: Determine whether 3F boulders correspond to hole drops or local switches to open exit pathways.
+- Strength Status: Active with Geodude (ROCKY).
 
 
 <hr>
@@ -4006,7 +3998,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 ## Wild Encounters
-- Onix (observed Turns 19437, 19585, 19639)
+- Onix (observed Turns 19437, 19585, 19639, 19694)
 - Zubat (observed Turns 19468, 19673)
 - Geodude (observed Turns 19558, 19608, 19663)
 - Machop (observed Turn 19565)
@@ -4043,5 +4035,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
 - Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
+- Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
+
 
 <hr>
