@@ -22,7 +22,7 @@
 
 
 ## Wild Encounters
-- Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811)
+- Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
 - Zubat (observed Turns 19468, 19673)
 - Geodude (observed Turns 19558, 19608, 19663, 19762, 19804)
 - Machop (observed Turns 19565, 19729, 19767)
