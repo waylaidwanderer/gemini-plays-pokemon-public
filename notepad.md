@@ -2853,7 +2853,8 @@
 
 2. **Northeast Terrace & Canal**:
    - Ladder D at (27, 1) <-> 2F NE Sector (29, 1).
-   - North Canal runs across Row 4 connecting Northeast Terrace (27, 4) to Northwest Ramp at (15, 3).
+   - Northeast Terrace Ramp: Located at (22, 3) facing south into North Canal at (22, 4). Note: (23..28, 3) is an elevated cliff edge.
+   - North Canal runs across Row 4 connecting Northeast Terrace Ramp (22, 3) to Northwest Ramp at (15, 3).
 
 3. **Northwest Terrace**:
    - Northwest Ramp at (15, 3) connects North Canal to Northern Terrace at (15, 2).
