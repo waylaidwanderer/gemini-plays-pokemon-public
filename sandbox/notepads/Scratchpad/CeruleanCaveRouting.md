@@ -14,13 +14,10 @@
   - Southern Basin (rows 14-15, cols 8-11): Bounded by rock walls on south (row 16), east (col 12), and west (col 7).
   - West Canal (rows 6-7, cols 8-9): Water canal dead-ends westward against solid rock wall at (7, 8) (verified Turn 51039).
 
-## 2F Ladder A Master Route Hypothesis:
-- **Ladder A at (1, 3)** descends to B1F (Mewtwo chamber).
-- **Corridor Topology**:
-  - Ladder A (1, 3) connects north to (1, 2) -> west to (0, 2).
-  - Column 0 is open floor from (0, 2) down through (0, 3), (0, 4) to (0, 5).
-  - Row 5 is open floor from (0, 5) east through (1..6, 5).
-  - (6, 5) connects south through (6, 6) to Row 7 at (6, 7).
-  - Row 7 connects east across (7..11, 7).
-- **Southern Transit Hypothesis**:
-  - Southern corridors (Row 9 / Row 7) to be physically probed step-by-step from (20, 6) / (18..20, 9) westward toward (6, 7) / (6, 9).
+## 2F Master Route via Ladder D (Verified Topology):
+1. **Entry via Ladder D**:
+   - On 1F: Board North Canal at (15, 4), surf east to Northeast Ramp at (23, 3), disembark to (23, 2), walk to **Ladder D at (27, 1)** and climb to 2F (29, 1).
+2. **2F Eastern Descent to Row 9 Highway**:
+   - From 2F (29, 1): Walk (28, 1..3) -> (29, 3..6) -> (27, 6..7) -> (25, 7..9) to enter Row 9 highway.
+3. **Traversing Row 9 to Ladder A**:
+   - Walk West along Row 9 across cols 25..5 -> North to (6, 7) -> North through (6, 6) to (6, 5) -> West along Row 5 to (0, 5) -> North along Col 0 to (0, 2) -> East to (1, 2) -> South onto **Ladder A at (1, 3)** -> Descend to B1F (Mewtwo chamber)!
