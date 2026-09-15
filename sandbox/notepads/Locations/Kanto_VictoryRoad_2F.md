@@ -127,3 +127,4 @@
 - Machop [Turn 19864 at (26, 11)]
 - Zubat [Turn 19884 at (10, 16)]
 - Golbat [Turn 19887 at (13, 16)]
+- Onix [Turn 19896 at (14, 8)]
