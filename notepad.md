@@ -3838,12 +3838,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage connecting rows 0-5+.
 - Boulder 1: Located at (22, 3). Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
 
-## Next Progression Plan
 
 ## Floor Transition Verification (Turn 19547)
 - Ascended ladder at 2F (1, 1) to arrive at Victory Road 3F (2, 0).
 - Verified 3F features: Pit hole at (3, 5), ladder descent at (2, 0), open Northern Highway spanning east-west across rows 0-1.
 - Strength activated with Geodude (ROCKY) on Turn 19554.
+
 
 <hr>
 
@@ -3956,7 +3956,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
 
 - Upper Plateau Highway (Verified Turns 19334-19340): Rows 2, 3, and 4 form a continuous, wide-open 3-tile high east-west thoroughfare across columns 9 through 18. Wooden staircase at (17, 5) provides direct access from lower row 6 up to row 4.
-- Column 14 Reality: Column 14 is completely open floor across rows 2, 3, and 4 (player walked through (14, 4) on Turn 19334). Prior notes claiming solid walls at (14, 2-3) were erroneous. Solid rock wall only exists at (14, 5) and (14, 6-7).
 - Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
   Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
   - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]
@@ -4008,8 +4007,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585, 19639)
-- Zubat (observed Turn 19468)
-- Geodude (observed Turns 19558, 19608)
+- Zubat (observed Turns 19468, 19673)
+- Geodude (observed Turns 19558, 19608, 19663)
 - Machop (observed Turn 19565)
 - Golbat (observed Turn 19658)
 - Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
@@ -4029,5 +4028,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - (16, 11) -> (16, 12): Impassable elevation cliff [Turn 19655].
 - (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
+## Structural Landmarks & Puzzle Mechanisms (Audited Turns 19654-19678)
+- Wooden Staircase at (15, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672, 19678].
+- Wooden Staircase at (21, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672].
+- Raised Barrier Block at (23, 14): Raised block obstructing westward access to Exit Ladder (25, 14) [Turns 19662, 19672].
+- Eastern Exit Ladder at (25, 14): Visual confirmation of blue ladder rungs leading toward Victory Road exit [Turns 19662, 19672].
+- Switch Plate at (9, 16): Circular switch plate with raised blue border in southwest corner of lower corridor [Discovered Turn 19678].
+- Lower Corridor (Rows 16-17): Wide continuous dark checkerboard corridor spanning columns 9 through 29.
+
 
 <hr>
