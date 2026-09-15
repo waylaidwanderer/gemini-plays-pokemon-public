@@ -3901,15 +3901,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Turn 18626: Descended column 16 from (16, 3) to (16, 11).
   - Turn 18628-18631: Fled wild Zubat at (16, 11).
 - Active Plan: Returning to Boulder 1 at (5, 5) via row 11 east -> Eastern Highway -> row 16 lower corridor -> staircase (15, 15) -> central plateau -> staircase (5, 10) -> row 11 west -> Western Highway -> (4, 5). Activate Strength and conduct rigorous empirical bump/push tests on Boulder 1 and surrounding tiles (6, 5) and (4, 5).
-- Turn 18631-18661 Comprehensive Movement Log:
-  - Traversed from (16, 11) east along row 11 to (28, 11).
-  - Descended Eastern Highway to (28, 14), fled wild Geodude.
-  - Descended to row 16, traversed west to staircase (15, 15).
-  - Ascended to (13, 14), walked north up column 13 to (13, 9), fled wild Zubat.
-  - Stepped up to (13, 8), traversed west across central plateau to (9, 8) and (5, 8), fled wild Golbat.
-  - Descended staircase (5, 10) to row 11 at (5, 11), fled wild Machop.
-  - Traversed row 11 west to (2, 11) and ascended Western Highway to (2, 7) [Turn 18661].
-- Current Position: (2, 7) on Western Highway facing Up [Turn 18661].
 
 - Turn 18677 Puzzle Execution:
   - Boulder 3 successfully pushed from (4, 14) west to (3, 14).
@@ -3943,11 +3934,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 18781-18784: Fled wild Geodude at (20, 11).
 - Turn 18787: Tested North to (20, 8); confirmed (19, 8) is a purple rock wall.
 - Turn 18788: Stepped Up to (20, 7), traversed west along row 7 to (17, 7) where wild Machop appeared. Current position: (17, 7).
-## Critical Discovery: Switch Plate A Status (Turn 18808)
-- On Turn 18680, Boulder 3 was pushed to (2, 16). On Turn 18693, the player planned to push it Left onto Switch Plate A at (1, 16), but pressed 'Up' instead, entering a wild battle and walking away.
-- Boulder 3 is currently resting at (2, 16), directly adjacent to Switch Plate A at (1, 16). Switch Plate A has NOT yet been depressed!
-- This explains why Barrier (23, 14) and Barrier (7, 10) were still raised: the switch was never triggered.
-- Active Plan: Return via row 4 east -> staircase (17, 5) -> col 16 -> row 11 -> col 28 -> row 16 -> col 13 -> staircase (5, 10) -> Western Highway -> (3, 16), push Boulder 3 West onto Switch Plate A at (1, 16), and observe barrier lowering!
+## Reconciled Empirical Status of Switch Plate A & Barriers (Turn 18811)
+- Boulder 3 is verified resting on Switch Plate A at (1, 16), confirmed across 10 consecutive turns (Turns 18681-18693) where tile (2, 16) was empty floor.
+- Switch Plate A at (1, 16) does NOT lower Barrier (23, 14) or Barrier (7, 10). Those barriers are controlled by other switches or 3F boulder drops.
+- Moltres confirmed at (7, 7) on central plateau.
+- Current position at Turn 18811: (17, 4) on row 4 Upper Highway.
 
 <hr>
 
@@ -4025,7 +4016,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southern Boundary: Solid rock wall along row 17.
 
 ## Legendary Pokémon
-- Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually confirmed Turn 16365].
+- Moltres: Legendary bird sprite located at (7, 7) on elevated plateau [Visually confirmed Turn 18795; prior Turn 16365 note of (11, 5) was a coordinate parallax error].
 
 ## Trainers
 - Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
