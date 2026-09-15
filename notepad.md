@@ -3995,9 +3995,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Map Topology Solved: The Northern Highway connects the eastern/central sector directly into the Northwest Chamber, which connects south through doorway (5, 4) to the western sector and ladder (0, 8).
 
 ## Definitive 3F Progression Breakthrough (Turn 19411)
-- 3F Ascent Ladder Discovered at (1, 2): Visually confirmed blue ladder at (1, 2) in the Northwest Chamber.
+- 3F Ascent Ladder Discovered at (1, 1): Visually confirmed blue ladder at (1, 2) in the Northwest Chamber.
 - Pokémaniac Dialogue: "If you can get through here, you can go see the ELITE FOUR!" Confirms this ladder leads to 3F and the Elite Four.
-- Route to 3F: Defeat Pokémaniac, step into (1, 2), and ascend to Victory Road 3F!
+- Route to 3F: Defeat Pokémaniac, step into (1, 1), and ascend to Victory Road 3F!
 
 
 <hr>
@@ -4130,7 +4130,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Northern Highway (Rows 0-1, Verified Turn 19401): Rows 0 and 1 form a continuous, wide-open 2-tile high dark checkerboard highway spanning east-west across the entire top of 2F from column 27 all the way to column 1.
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
-- 3F Ascent Ladder: Visually confirmed at (1, 2) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
+- 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
 
 <hr>
