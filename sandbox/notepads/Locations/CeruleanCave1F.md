@@ -26,18 +26,16 @@
    - South-Central Ramp: Located at (11, 13) facing south into water at (11, 14). Accessible via Row 12 (cols 11..18).
    - Ladder C at (18, 9) <-> 2F Central Sector (19, 7).
    - South-Central Terrace spans rows 8..14 (cols 11..18). Connects Ladder C (18, 9) to South Ramp at (11, 13).
-- **East Shoreline Collision (Verified Turn 50332)**: (27..28, 12) is an elevated cliff edge overlooking (27..28, 11) water; direct disembarkation from water onto floor at (27..28, 12) is impassable. Full canal transit routes north via cols 28..29 to North Canal (Row 4).
-5. **Southern Basin & Northwest Frontier Topography (Verified Turns 51026-51032)**:
-   - Southern Water Basin: Spans rows 14-15 across cols 8-11. Solid rock boundaries at Row 16 (south), Column 12 (east), and Column 7 (west). No southwest water outlet.
-   - Northern Terrace NW Boundary: (4, 0), (4, 1), (4, 2), (4, 3) form a continuous solid rock barrier terminating the terrace at Column 5.
-- **West Canal Boundary (Verified Turn 51039)**: (7, 8) is a solid rock barrier blocking westward movement from (8, 8). The water canal along cols 8-9 terminates westward against rock walls along Column 7 across rows 6-15.
-- **1F Terrace Land Barrier (Verified Turns 51137-51140)**:
-  - Direct terrestrial pathway between Ladder C at (18, 9) and Ladder B at (23, 7) is blocked by solid rock barriers along Column 20 (rows 9-11) and Column 22/23 (row 11).
-  - Transit between South-Central Terrace and Southeast Terrace requires canal surfing via South Ramp (11, 13) <-> Southeast Ramp (25, 9).
-- **1F Ledge Cul-de-Sac (Verified Turn 51185)**: Ledge at (21, 11) is a one-way drop into an enclosed cul-de-sac. Rows 12 and 13 form a continuous solid rock barrier across columns 20-22, preventing terrestrial access to Column 18 or Ladder C. Must use water canal ramps to navigate.
 
-- **South-Central Terrace Audit (Verified Turn 51322)**:
-  - Accessible via South-Central Ramp at (11, 13) facing into (11, 14) water.
-  - Spans cols 11..18, rows 8..15.
-  - Column 18 connects Ladder C at (18, 9) south to Row 14 (cols 15..18).
-  - (17, 15) contains a one-way south-facing ledge.
+## Verified Collisions & Obstacles
+- **1F Entrance Sector (Cols 20-25, Rows 12-17)**:
+  - (23, 12), (24, 12), (25, 12) confirmed solid rock wall (Turn 51435).
+  - (20, 16) confirmed solid rock wall (Turn 51440).
+  - (19, 14), (19, 15), (19, 16) confirmed solid rock boundary.
+  - (26, 13..17) confirmed solid rock boundary dividing entrance room from Column 27.
+  - (24, 17) / (25, 17) is the exit warp mat warping player outside to Cerulean City (4, 11) -> (4, 12).
+  - (21, 11) is a one-way ledge hopping south into (21, 12).
+- **Other Sectors**:
+  - (4, 0..3) forms solid rock barrier terminating Northern Terrace at Column 5.
+  - (7, 8) blocks westward movement from (8, 8).
+  - (27..28, 12) is elevated cliff overlooking (27..28, 11) water.
