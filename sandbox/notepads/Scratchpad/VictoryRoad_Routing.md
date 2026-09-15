@@ -187,3 +187,7 @@
 - Action & Outcome: Pressed Right 3 times. Player bumped into (23, 14) and remained at (22, 14) (0 tiles visited).
 - Conclusive Finding: Switch Plate A at (1, 16) DOES NOT lower Barrier (23, 14).
 - Physical Reality: Barrier (23, 14) is 100% solid and raised. It must be lowered by Switch Plate B at (9, 16) via 3F boulder drop, or another mechanism. Ladder (25, 14) is therefore inaccessible from row 14 west.
+
+## Turn 19074 Route to Column 13 & Row 3 3F Ladder
+- Successfully fled from wild Geodude at (25, 11).
+- Active execution: Proceeding along row 11 to col 28, south to row 16, west to staircase (15, 15), north up Column 13 to row 3, and west along row 3 to Northwest Chamber ladder (1, 1).
