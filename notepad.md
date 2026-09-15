@@ -3976,7 +3976,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Dynamic Entities Current State
 - Onix [Turn 19943 at (5, 7)]
-- Western Boulder at (5, 4): Pushed from (5, 5) into doorway (5, 4) on Turn 19949.
+- Western Boulder at (5, 3): Pushed from (5, 5) through doorway (5, 4) into (5, 3) on Turn 19955.
 
 
 <hr>
