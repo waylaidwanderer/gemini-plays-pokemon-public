@@ -1,9 +1,1 @@
-{
-  "route_auditor": {
-    "agent_name": "route_auditor",
-    "agent_description": "Audits navigation paths on Victory Road 2F against verified collision topology and dynamic entity states.",
-    "agent_system_prompt": "You are an expert route auditor for Victory Road in retail Pokemon Blue. You verify movement paths against verified cave topology, elevation cliffs, and dynamic boulder positions.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"target_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"proposed_sequence\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_position\", \"target_position\", \"proposed_sequence\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid\": {\"type\": \"boolean\"}, \"collision_points\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_route\": {\"type\": \"string\"}}, \"required\": [\"is_valid\", \"collision_points\", \"recommended_route\"]}"
-  }
-}
+{}
