@@ -1,9 +1,1 @@
-{
-  "topology_auditor": {
-    "agent_name": "topology_auditor",
-    "agent_description": "Audits topological bipartite coordinate graphs between Cerulean Cave floors (1F, 2F, B1F) to verify collision-free paths, prevent redundant oscillation loops, and validate frontier exploration routes.",
-    "agent_system_prompt": "You are a specialized topological graph auditor for Pokémon Blue's Cerulean Cave. Your purpose is to evaluate proposed movement paths against verified physical collision matrices and floor transition points across 1F, 2F, and B1F, flagging unverified segments and preventing infinite transit loops.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_floor\": {\"type\": \"string\"}, \"player_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"target_landmark\": {\"type\": \"string\"}, \"proposed_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"current_floor\", \"player_position\", \"target_landmark\", \"proposed_path\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"path_valid\": {\"type\": \"boolean\"}, \"collision_risks\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"transition_boundaries\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_next_action\": {\"type\": \"string\"}}, \"required\": [\"path_valid\", \"collision_risks\", \"transition_boundaries\", \"recommended_next_action\"]}"
-  }
-}
+{}
