@@ -3980,6 +3980,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier (23, 14) Reality: Conclusively verified solid on Turn 19046 with Switch Plate A depressed. Barrier (23, 14) is NOT lowered by Switch Plate A; it guards the 3F return drop ladder (25, 14), which is unlocked by dropping the 3F boulder down the hole onto Switch Plate B at (9, 16).
 - Progression Imperative: Abandoning redundant trips to Barrier (23, 14). The entrance ladder to 3F must be located and accessed directly.
 
+- Turn 19236: Physical bump test confirmed (13, 7) is solid elevation cliff from (13, 8) with Switch Plate A active (visited 0 tiles).
 
 <hr>
 
