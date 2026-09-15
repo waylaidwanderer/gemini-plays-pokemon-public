@@ -18,7 +18,6 @@
 - Boulder 1: Located at (22, 3). Completely unblocked on all 4 sides ((22, 2), (22, 4), (21, 3), (23, 3)).
 
 ## Next Progression Plan
-1. Flee wild Onix battle at (21, 4).
 2. Survey south along column 21 corridor (rows 6-16) to identify local 3F puzzle targets (switches, holes, barriers, ladders).
 
 ## Floor Transition Verification (Turn 19547)

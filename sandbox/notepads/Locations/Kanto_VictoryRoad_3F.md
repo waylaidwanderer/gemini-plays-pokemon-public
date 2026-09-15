@@ -24,9 +24,9 @@
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585)
 - Zubat (observed Turn 19468)
-- Geodude (observed Turn 19558)
+- Geodude (observed Turns 19558, 19608)
 - Machop (observed Turn 19565)
-- Northeast Ladder 1: Located at (23, 7).
+- Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
@@ -34,3 +34,4 @@
 - Boulder 3: Located at (13, 12). Flanked by rock walls at (12, 12) and (14, 12). WARNING: Pushing south from (13, 11) traps boulder against rock walls at (12, 13) and (13, 14) (Sokoban dead-end trap).
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
+- Trainer: Stationed at (19, 8) [Sighted Turn 19621]
