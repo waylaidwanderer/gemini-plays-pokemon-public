@@ -127,6 +127,19 @@
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 18970 Major Topological Breakthrough: Unblocked Row 3 Highway
+- Position: (4, 5) facing North. Boulder 1 is at (5, 5).
+- Visual Confirmation on Screen:
+  - Row 3 is a completely open 1-tile corridor across cols 1-9 (tiles 4,3; 5,3; 6,3; 7,3; 8,3; 9,3 are ALL floor!).
+  - Column 8 rock wall only exists from row 4 southwards! Rows 2 and 3 are 100% OPEN across column 8.
+  - Ladder to 3F is clearly visible at (1, 1) in the Northwest Chamber!
+  - Root Cause of Prior Failure: Pushing Boulder 1 into (5, 3) on Turn 18876 blocked the entire row 3 corridor.
+  - Reset State: Boulder 1 at (5, 5) leaves (5, 3) 100% OPEN and traversable!
+- Strategic Plan:
+  1. Test East push on Boulder 1 from (4, 5) with Strength active to document physical collision.
+  2. DO NOT push Boulder 1 into (5, 3)!
+  3. Traverse to staircase (17, 5), ascend to row 3 at (17, 3), walk west along row 3 straight through (8, 3), (6, 3), (5, 3), (4, 3) to the ladder at (1, 1), and ASCEND TO 3F!
+
 ## Turn 18967 Position & Combat Tracking
 - Current Position: (0, 7) on Victory Road 2F.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
