@@ -1,12 +1,10 @@
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## Verified Floor Topology:
-- **2F Northwest Sector (Ladder A)**:
-  - Ladder A at (1, 3) descends directly to B1F (Mewtwo chamber).
-  - Open floor at (0..7, 5), (6..7, 6), (1..11, 7), (0..1, 2..4).
-- **2F Sector 3 / Ladder B Corridor**:
-  - Ladder B at 2F (22, 6) <-> 1F (23, 7).
-  - Column 23 extends south: (22, 6) -> (22, 7) -> (23, 7..10..).
-  - Verified barriers: (22, 8..10), (24, 8..9) block immediate horizontal connections.
-- **Active Exploration Objective**:
-  - Probe Column 23 south past row 10 to map southern corridors and discover viable westward passages toward Sector 1 (Ladder A).
+## Verified 2F Bridge Route to Ladder A (Empirical Turn 51161):
+- **Row 9 / Row 8 Westward Bridge**:
+  - Column 20 connects Row 11 to Row 9: (20, 11) -> (20, 10) -> (20, 9).
+  - Row 9 runs west from (20, 9) to (15, 9).
+  - Row 8 bridges around rock wall at (14, 9): (15, 9) -> (15, 8) -> (14, 8) -> (13, 8) -> (13, 9) -> (12, 9).
+  - Row 9 continues west from (12, 9) across cols 11..5 to (6, 9).
+- **Master Route to Ladder A (1, 3)**:
+  - From (6, 9): Walk North to (6, 7) -> North through (6, 6) to (6, 5) -> West along Row 5 to (0, 5) -> North along Column 0 to (0, 2) -> East to (1, 2) -> South onto **Ladder A at (1, 3)** -> Descend to B1F (Mewtwo chamber)!
