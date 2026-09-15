@@ -121,3 +121,5 @@
   - (6, 8) -> (6, 7): SOLID elevation cliff [Turn 19243]
   - (5, 8) -> (5, 7): SOLID elevation cliff [Turn 19220]
   Conclusion: The entire northern boundary of the row 8 terrace (cols 5-13) is 100% solid and impassable. Switch Plate A does NOT open any passage across row 8.
+- Row 7 Central Corridor: Empirically verified that row 7 is open flat dark checkerboard floor across columns 13 through 17 [Traversed Turn 19371].
+- Column 12 Corridor: Confirmed open north-south corridor across rows 6 through 11 connecting row 7 to row 11 [Turn 19371].
