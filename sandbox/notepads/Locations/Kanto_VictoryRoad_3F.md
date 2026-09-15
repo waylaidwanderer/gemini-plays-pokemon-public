@@ -26,3 +26,6 @@
 - Zubat (observed Turn 19468)
 - Geodude (observed Turn 19558)
 - Machop (observed Turn 19565)
+- Northeast Ladder 1: Located at (23, 7).
+- Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
+- Southern Corridor: Columns 20-23 open south past row 8.
