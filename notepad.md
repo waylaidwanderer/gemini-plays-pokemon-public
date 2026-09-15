@@ -3946,6 +3946,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 18973 Empirical Confirmation: Boulder 1 East Push Blocked & Row 3 Highway Verified
+- Empirical Verification: Tested East push on Boulder 1 at (5, 5) from (4, 5) with Strength active. Boulder did not move; tile (6, 5) is 100% solid rock wall.
+- Strategic Deduction:
+  1. Boulder 1 cannot be displaced East.
+  2. Pushing Boulder 1 North into (5, 3) blocks the row 3 corridor.
+  3. Therefore, Boulder 1 MUST REMAIN at (5, 5) to leave tile (5, 3) completely open!
+- Ground Truth Topology:
+  - Rows 2 and 3 are 100% open across column 8, connecting Upper Plateau (col 17-24) directly to the Northwest Chamber (cols 1-4) and Ladder (1, 1).
+  - Target Path to 3F: Western Highway -> row 11 -> staircase (5, 10) -> row 8 east -> col 13 south -> row 16 east -> Eastern Highway -> col 16 north -> staircase (17, 5) -> row 3 west through unblocked (5, 3) -> Ladder (1, 1) to 3F!
+
 ## Turn 18970 Major Topological Breakthrough: Unblocked Row 3 Highway
 - Position: (4, 5) facing North. Boulder 1 is at (5, 5).
 - Visual Confirmation on Screen:
