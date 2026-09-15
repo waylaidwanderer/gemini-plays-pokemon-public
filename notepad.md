@@ -3926,6 +3926,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 19010 Position & Combat Tracking
+- Current Position: (4, 13) directly north of Boulder 3.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Geodude at (4, 13) upon reaching alignment tile; actively executing flee sequence.
+- Active Plan: Flee from Geodude, dismiss battle prompt, turn South, push Boulder 3 south twice into row 16 at (4, 16), walk around via column 5 to (5, 16), and push Boulder 3 west 3 times onto Switch Plate A at (1, 16).
+
 ## Turn 19003 Position & Combat Tracking
 - Current Position: (13, 12) in column 13 corridor.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
