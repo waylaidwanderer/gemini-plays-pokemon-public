@@ -3946,6 +3946,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 18976 Position & Combat Tracking
+- Current Position: (3, 10) in Western Highway.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Geodude at (3, 10) upon completing Western Highway descent; actively executing flee sequence.
+- Active Plan: Flee from Geodude, dismiss battle exit prompt, step south to (3, 11), east to (5, 11), and ascend staircase (5, 10) toward Upper Plateau route.
+
 ## Turn 18973 Empirical Confirmation: Boulder 1 East Push Blocked & Row 3 Highway Verified
 - Empirical Verification: Tested East push on Boulder 1 at (5, 5) from (4, 5) with Strength active. Boulder did not move; tile (6, 5) is 100% solid rock wall.
 - Strategic Deduction:
