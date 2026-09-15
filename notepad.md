@@ -3946,6 +3946,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 18967 Position & Combat Tracking
+- Current Position: (0, 7) on Victory Road 2F.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Machop at (0, 7) while advancing toward (4, 5); executing flee sequence.
+- Active Plan: Flee from Machop, dismiss battle exit prompt, and complete 6-step traversal along row 7 and column 4 to reach (4, 5).
+
 ## Turn 18961 Position & Reset State Verification
 - Current Position: (1, 1) on Victory Road 1F.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
