@@ -4001,6 +4001,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Empirical Test Active: Traversing directly to Barrier (23, 14) without map transitions or floor resets to physically inspect if Barrier (23, 14) is lowered.
 - Route to Barrier (23, 14): Column 3 north to (3, 11) -> (5, 11) -> ascend staircase (5, 10) to (5, 8) -> row 8 east to (13, 8) -> column 13 south to shelf (15, 14) -> descend staircase (15, 15) to (15, 16) -> row 16 east to (21, 16) -> ascend staircase (21, 15) to row 14 at (21, 14) -> step east to (22, 14) and inspect Barrier (23, 14)!
 
+## Turn 19046 Definitive Empirical Bump Test: Barrier (23, 14) is SOLID with Switch Plate A Depressed
+- Test Setup: Boulder 3 actively depressing Switch Plate A at (1, 16) on this single un-reset floor visit. Player positioned at (22, 14) facing East directly at Barrier (23, 14).
+- Action & Outcome: Pressed Right 3 times. Player bumped into (23, 14) and remained at (22, 14) (0 tiles visited).
+- Conclusive Finding: Switch Plate A at (1, 16) DOES NOT lower Barrier (23, 14).
+- Physical Reality: Barrier (23, 14) is 100% solid and raised. It must be lowered by Switch Plate B at (9, 16) via 3F boulder drop, or another mechanism. Ladder (25, 14) is therefore inaccessible from row 14 west.
+
 
 <hr>
 
