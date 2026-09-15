@@ -157,3 +157,9 @@
 - Boundary (10, 8) -> (10, 7): Empirically verified impassable elevation cliff on Turn 19113 (bump test visited 0 tiles). The row 8 northern cliff extends across column 10.
 
 - Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
+
+## Turn 19177 Audited Route to Southwest Room (Boulder 3)
+- Position: (15, 16) at base of staircase (15, 15).
+- Audited Route (via route_auditor): Ascend staircase (15, 15) to shelf (15, 14) -> north to row 8 -> west along row 8 to (5, 8) -> descend staircase (5, 10) to (5, 11) -> west to Western Highway at (3, 11) -> south along column 3 to (3, 14) -> east into Southwest Room at (4, 14).
+- Objective: Inspect Switch Plate A in default reset state, verify exact coordinates, and execute Sokoban solution to activate switch.
+- Verified Ground Truth: Boulder 1 is at (5, 5); Column 14 is solid rock wall across rows 0-7; Barrier (23, 14) guards ladder (25, 14).
