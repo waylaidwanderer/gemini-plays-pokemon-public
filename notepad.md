@@ -3926,6 +3926,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 19003 Position & Combat Tracking
+- Current Position: (13, 12) in column 13 corridor.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Combat Resolution: Encountered wild Zubat at (13, 12) while advancing north toward row 8; executing flee sequence.
+- Active Plan: Flee from Zubat, dismiss battle exit prompt, and complete northward traversal along column 13 to row 8.
+
 ## Turn 18984 Position & Combat Tracking
 - Current Position: (15, 16) in row 16 lower corridor.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
