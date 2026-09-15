@@ -32,7 +32,6 @@
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
-- Boulder 3: Located at (13, 12). Flanked by rock walls at (12, 12) and (14, 12). WARNING: Pushing south from (13, 11) traps boulder against rock walls at (12, 13) and (13, 14) (Sokoban dead-end trap).
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
 - Trainer: Stationed at (19, 8) [Sighted Turn 19621]
@@ -43,6 +42,8 @@
 - Column 14 rock divider: Continuous solid rock wall across rows 0 through 7 separating the eastern corridor (cols 15-26) from central/western sector (cols 1-13).
 
 - (16, 11) -> (16, 12): Impassable elevation cliff [Turn 19655].
+- (14, 11): South-facing jumping ledge [Verified Turns 19744, 19753]. Northbound passage up column 14 blocked from (14, 12).
+
 - (28, 14) -> (27, 14): Impassable elevation cliff [Turn 19669].
 ## Structural Landmarks & Puzzle Mechanisms (Audited Turns 19654-19678)
 - Wooden Staircase at (15, 15): Functional staircase connecting lower corridor row 16 up to plateau row 14 [Turns 19654, 19672, 19678].
@@ -61,7 +62,8 @@
 - (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
 - Boulder 4: Located at (4, 14) in southwestern lower chamber [Sighted Turn 19700].
 
-- Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.- Trainer: Stationed at (12, 9) [Sighted Turn 19686].
+- Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.
+- Trainer: Stationed at (12, 9) [Sighted Turn 19686].
 
 - Marowak (observed Turn 19744)
 - Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
