@@ -127,6 +127,13 @@
 - Doorway (5, 4) tests confirmed (4, 4) is a solid wall and Boulder 1 at (5, 3) blocks chamber entry from south.
 - Active progression plan: Taking ladder (0, 8) to 1F to execute clean room reset of 2F boulders.
 - Upon reset: Player spawns at (0, 8) directly adjacent to starting Boulder 1 at (5, 5).
+## Turn 18984 Position & Combat Tracking
+- Current Position: (15, 16) in row 16 lower corridor.
+- SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
+- Traversal History: Descended from (4, 5) via Western Highway to (3, 11), ascended staircase (5, 10) to row 8 at (5, 8), traversed row 8 east to (13, 8), traversed column 13 south to shelf (15, 14), and descended staircase (15, 15) to (15, 16).
+- Combat Resolution: Encountered wild Machoke at (15, 16); actively executing flee sequence.
+- Active Plan: Flee from Machoke, dismiss battle exit prompt, and traverse east along row 16 lower corridor toward Eastern Highway (col 28).
+
 ## Turn 18976 Position & Combat Tracking
 - Current Position: (3, 10) in Western Highway.
 - SHELDON (Blastoise Lv 65): HP 171/206. Healthy.
