@@ -2897,11 +2897,11 @@
 ## Verified Northwest & West Maze Topography (Turn 51242)
 - **Ladder A Location**: (1, 3).
 - **Ladder E Arrival**: Ladder icon at (7, 1), spawn at (9, 1). Connects west via Row 1 to (3, 1..3).
-- **Column 5 Vertical Highway**: Continuous open floor across (5, 3..9). Connects Row 3 at (5, 3) directly to Row 5, Row 6, Row 7, Row 8, Row 9 and the western sectors (cols 0..4).
 - **Row 3 Main Bypass**: Open floor across (3..9, 3) connecting Column 3 to Column 9 and Column 5.
 - **Row 7 Highway**: Open floor across (5..11, 7).
 - **Verified Collision & Obstacle Ledger**:
   - (5, 2) is a solid rock barrier (Turn 51228).
+  - (5, 4) is a solid rock barrier (Turn 51245).
   - (13, 7) is a solid rock barrier blocking southward passage from (13, 6) (Turn 51233).
   - (16, 8) is a solid rock barrier blocking southward passage from (16, 7) (Turn 51234).
   - (14, 9) is a solid rock barrier.
