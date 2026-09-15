@@ -2926,6 +2926,12 @@
 - **Row 17 Corridor**: Open floor across (11..19, 17) and (21..27, 17), separated by rock at (20, 17).
 - **Column 24 Vertical Corridor & Pit Drop Warp (Verified Turns 51370-51376)**: Open floor across (24, 11..16) connecting Row 11 corridor down to (24, 17). Stepping onto dark checkerboard floor at (24, 17) triggers an exterior escape pit drop warping player outside onto Route 24 (4, 11) -> (4, 12).
 
+- (6, 0) confirmed solid rock barrier blocking westward movement from (7, 0) (Turn 51478).
+- (17, 3) confirmed solid rock barrier blocking eastward movement from (16, 3) (Turn 51498).
+- (13, 7) confirmed solid rock barrier blocking southward passage from (13, 6) (Turn 51487).
+- (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51488).
+- Column 24 connects (24, 2) down through (24, 9) to Row 9 Highway.
+
 
 <hr>
 
@@ -2956,14 +2962,20 @@
 
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## CRITICAL DISCOVERY & CORRECTION:
-- **2F (24, 17) Pit Drop Warp**: Stepping onto (24, 17) on 2F is an exterior escape pit that warps the player OUT of the cave onto Route 24 (4, 11) -> (4, 12).
-- **Route 24 Re-entry**:
-  - Walk north up Nugget Bridge (Column 11) to (7, 16) / (8, 16) shoreline.
-  - Surf south down the Route 24 canal into Cerulean Cave 1F entrance.
-- **2F Main Maze Investigation**:
-  - We need to reach Ladder A at 2F (1, 3) via the true internal 2F corridors:
-    1. Ladder E (7, 1) -> explore Columns 13-16 down to Row 9 (5..15, 9) and Row 7 (0..11, 7) to reach Column 0.
-    2. Ladder B (22, 6) -> Row 8 West (18..22, 8) -> Column 17/18 without dropping down (24, 17) pit.
+## Verified 2F Highway & Frontier Routing (Turn 51511)
+- **Active Route to Ladder A (1, 3)**:
+  1. From (24, 5), move Down along Column 24: (24, 6) -> (24, 7) -> (24, 8) -> (24, 9).
+  2. At (24, 9), turn Left onto Row 9 Highway: (24, 9) -> (23, 9) -> ... -> (15, 9) -> (13, 9) -> (0, 9).
+  3. At (0, 9), turn North along Column 0: (0, 9) -> (0, 8) -> ... -> (0, 2).
+  4. From (0, 2), step Right to (1, 2) and Down to (1, 3) (Ladder A).
+  5. Descend Ladder A to B1F (Mewtwo platform).
+
+## Verified Collisions:
+- (13, 7) blocks south from (13, 6).
+- (16, 8) blocks south from (16, 7).
+- (17, 3) blocks east from (16, 3).
+- (6, 0) blocks west from (7, 0).
+- (24, 17) is escape pit drop to outside (do not step on (24, 17)).
+
 
 <hr>
