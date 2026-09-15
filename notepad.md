@@ -4026,5 +4026,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - (14, 4): Solid rock wall [Turn 19648].
 - Column 14 rock divider: Continuous solid rock wall across rows 0 through 7 separating the eastern corridor (cols 15-26) from central/western sector (cols 1-13).
 
+- (16, 11) -> (16, 12): Impassable elevation cliff [Turn 19655].
 
 <hr>
