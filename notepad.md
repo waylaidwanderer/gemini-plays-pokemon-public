@@ -3953,6 +3953,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   4. Walk West across row 4 / row 3 past Moltres directly to (5, 4) (~12 steps).
   5. Activate Strength, push Boulder 1 at (5, 5), enter chamber, ascend ladder (1, 1) to 3F.
 
+## Turn 18853 Empirical Bump Test & Eastern Highway Route
+- Isolated bump test at (16, 8): Pressed Left, bumped into (15, 8). Confirms column 15 wall terminates row 8 westward access from col 16.
+- Conclusion: Eastern Highway (col 28) -> row 16 -> staircase (15, 15) -> col 13 -> row 8 west is the verified topological passage to the Western Sector.
+- Active route: Moving south to row 11 and east toward Eastern Highway at column 28.
 
 <hr>
 
