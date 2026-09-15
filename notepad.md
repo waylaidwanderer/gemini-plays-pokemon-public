@@ -3958,7 +3958,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 14 Southern Barrier: Empirically verified on Turns 19156-19158 that (14, 6) and (14, 7) are solid rock walls (bump tests visited 0 tiles). Column 14 is solid across rows 0 through 7.
 
 ## Turn 19232 Definitive Ground Truth & Dynamic Floor State
-- Active Floor Visit State: Boulder 3 actively depressing Switch Plate A at (1, 16) [Turn 19216, un-reset visit].
 - Barrier (23, 14) Reality: Conclusively verified solid on Turn 19046 with Switch Plate A depressed. Barrier (23, 14) is NOT lowered by Switch Plate A; it guards the 3F return drop ladder (25, 14), which is unlocked by dropping the 3F boulder down the hole onto Switch Plate B at (9, 16).
 - Progression Imperative: Abandoning redundant trips to Barrier (23, 14). The entrance ladder to 3F must be located and accessed directly.
 
@@ -3973,6 +3972,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Definitive Falsification (Turn 19243): 100% of row 8 northern boundaries across cols 5-13 have been physically tested and verified impassable with Switch Plate A active. Conclusively falsified that Switch Plate A opens any passage across row 8 or row 7.
 - Turn 19256: Tested push on Boulder 1 at (5, 3) from doorway (5, 4) with Strength active: bumped into (5, 2) rock wall (0 tiles visited). Boulder 1 at (5, 3) cannot move north.
 - Strategic Directive: Doorway (5, 4) is blocked by Boulder 1 at (5, 3). Routing to upper plateau via staircase (17, 5) to test row 4 corridor at (14, 4) and access the central plateau and Row 3 highway to ladder (1, 1).
+## Turn 19263 Floor Reset Ground Truth
+- Reset Status: Floor 2F was fully reset on Turn 19263 via ladder (0, 8). All entities at default starting positions (Boulder 1 at 5,5; Boulder 2 at 9,11; Boulder 3 at 4,14; all switch plates unoccupied).
+- Topological Fact: Column 14 is a solid rock wall across rows 0-7, permanently separating the eastern sector (cols 16-28) from the western sector (cols 1-13). Westward traversal across Column 14 is physically impossible.
+
 
 <hr>
 
