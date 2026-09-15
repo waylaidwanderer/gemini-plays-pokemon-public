@@ -64,3 +64,4 @@
 - Switch Plate A at (1, 16): Depressed by Boulder 4 [Turn 19728]. Southwestern lower chamber puzzle complete.- Trainer: Stationed at (12, 9) [Sighted Turn 19686].
 
 - Marowak (observed Turn 19744)
+- Barrier Block at (23, 14): Empirically verified 100% solid and raised with Switch Plate A depressed [Turn 19750]. Switch Plate A does NOT lower this barrier.
