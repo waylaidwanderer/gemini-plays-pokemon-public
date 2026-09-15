@@ -3874,22 +3874,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 
-## Floor Reset & Two-Sided Boulder 1 Strategy (Turns 18542-18549)
-- Transitioned to 1F via ladder (0, 8) to reset 2F dynamic entities [Turn 18542].
-- Reset positions on 2F: Boulder 1 at (5, 5), Boulder 3 at (4, 14).
-## Current Tracking (Turn 18631)
-- Current Position: (16, 11) on row 11 at base of Column 16 corridor [Turn 18631].
-- Comprehensive Traversal Log (Turns 18601-18631):
-  - Turn 18601: Fled wild Golbat at (28, 16).
-  - Turn 18604: Ascended Eastern Vertical Highway (column 28) from (28, 16) to (28, 11).
-  - Turns 18605-18607: Traversed row 11 west from (28, 11) to (16, 11).
-  - Turn 18608: Ascended column 16 from (16, 11) to (16, 5).
-  - Turns 18611-18616: Climbed staircase (17, 5) to row 4, fled wild Machop at (17, 5), stepped to row 3 at (17, 3), fled wild Golbat at (18, 3), and walked east to (23, 3).
-  - Turns 18620-18624: At (23, 3), confirmed Northeast Cul-de-sac (cols 24-28, rows 0-5) is a dead end with no exits (Advice NPC, collected TM17/Max Revive, row 6 solid rock wall).
-  - Turn 18624: Walked west along row 3 from (23, 3) back to (16, 3).
-  - Turn 18626: Descended column 16 from (16, 3) to (16, 11).
-  - Turn 18628-18631: Fled wild Zubat at (16, 11).
-- Active Plan: Returning to Boulder 1 at (5, 5) via row 11 east -> Eastern Highway -> row 16 lower corridor -> staircase (15, 15) -> central plateau -> staircase (5, 10) -> row 11 west -> Western Highway -> (4, 5). Activate Strength and conduct rigorous empirical bump/push tests on Boulder 1 and surrounding tiles (6, 5) and (4, 5).
+
 
 
 
@@ -3930,12 +3915,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder to 3F is clearly visible at (1, 1) inside the chamber!
 - Pokémaniac trainer is at (4, 2).
 - Activating Strength with Geodude (ROCKY) to solve Boulder 1 puzzle.
-## Turn 18872 Dynamic Entity State & Northwest Chamber Entry Plan
-- Player at (5, 6) facing North. Strength active with Geodude (ROCKY).
-- Boulder 1 pushed from (5, 5) to (5, 4).
-- Empty tile (5, 5) separates player from Boulder 1.
-- Tile (5, 3) is open floor. Tile (5, 2) is purple rock wall.
-- Stepping Up to (5, 5) to face Boulder 1 at (5, 4).
+
 
 
 
@@ -3966,8 +3946,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   2. Pushing Boulder 1 North into (5, 3) blocks the row 3 corridor.
   3. Therefore, Boulder 1 MUST REMAIN at (5, 5) to leave tile (5, 3) completely open!
 - Ground Truth Topology:
-  - Rows 2 and 3 are 100% open across column 8, connecting Upper Plateau (col 17-24) directly to the Northwest Chamber (cols 1-4) and Ladder (1, 1).
-  - Target Path to 3F: Western Highway -> row 11 -> staircase (5, 10) -> row 8 east -> col 13 south -> row 16 east -> Eastern Highway -> col 16 north -> staircase (17, 5) -> row 3 west through unblocked (5, 3) -> Ladder (1, 1) to 3F!
+  - Verification Warning: While rows 2-3 are open locally across cols 6-9, permanent records empirically prove that columns 14-15 form a solid rock wall across rows 0-7, terminating westward passage from the eastern upper plateau. Westward traversal from staircase (17, 5) along row 3 cannot reach column 9.
+  - Active Investigation: Evaluating how columns 6-9 connect to the central plateau, or investigating the true path to 3F.
 
 ## Turn 18970 Major Topological Breakthrough: Unblocked Row 3 Highway
 - Position: (4, 5) facing North. Boulder 1 is at (5, 5).
@@ -4011,7 +3991,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   1. Test A (Northwest Chamber Entrance Alternative): Investigate if (4, 3) can be reached directly without pushing Boulder 1 into (5, 3). Does pushing Boulder 1 to (5, 4) allow the player to enter (5, 4)? (Blocked by Boulder 1).
   2. Test B (Boulder 3 onto Switch Plate A): Re-evaluate Switch Plate A at (1, 16). Does pushing Boulder 3 onto Switch Plate A alter any barrier other than (23, 14), specifically examining if a barrier lowered on the upper plateau or near Moltres?
   3. Test C (Strength User Verification): Geodude (ROCKY) knows Strength.
-
 
 <hr>
 
