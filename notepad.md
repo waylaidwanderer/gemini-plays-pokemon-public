@@ -2980,19 +2980,18 @@
 
 # Scratchpad: Cerulean Cave Routing to Mewtwo
 
-## Verified 2F Highway & Active Route to Mewtwo (Turn 51582)
-- **Current Position**: (20, 11) on Cerulean Cave 2F Row 11 Highway.
+## Verified 2F Highway & Active Route to Mewtwo (Turn 51744)
+- **Current Position**: (4, 3) on Cerulean Cave 2F Row 3.
 - **Equipment & Readiness**:
   - Bag Slot 18: MASTER BALL x1.
   - Lead: HYDROS (Blastoise) Lv 95 (Speed 241, HP 300/332) - 100% escape guaranteed.
-- **Active Unobstructed Route to Ladder A (1, 3)**:
-  1. From (20, 11), walk Left along Row 11 Highway to (12, 11).
-  2. Step Up 2 times to Row 9 Highway at (12, 9).
-  3. Walk Left along Row 9 Highway to Column 0 at (0, 9).
-  4. Walk North along Column 0: (0, 9) -> (0, 8) -> ... -> (0, 2).
-  5. Step Right to (1, 2) and Down to (1, 3) (Ladder A).
-  6. Step onto Ladder A (1, 3) to descend to Cerulean Cave B1F!
-  7. On B1F, surf to Mewtwo's island platform and throw the Master Ball!
+- **Active Verified Route to Ladder A (1, 3) -> B1F (Mewtwo)**:
+  1. From (4, 3), walk East along Row 3 to Column 9: (5, 3) -> (6, 3) -> (7, 3) -> (8, 3) -> (9, 3).
+  2. Walk Down along Column 9 to Row 5: (9, 4) -> (9, 5).
+  3. Walk West along Row 5 Highway to Column 1: (8, 5) -> (7, 5) -> (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (1, 5).
+  4. Walk North along Column 1 to Ladder A at (1, 3): (1, 4) -> (1, 3).
+  5. Step onto Ladder A (1, 3) to descend to Cerulean Cave B1F!
+  6. On B1F, surf to Mewtwo's island platform and throw the Master Ball!
 
 ## Verified 2F Topology & Collisions:
 - Ladder B at (22, 6) <-> 1F (23, 7).
