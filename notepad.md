@@ -4141,13 +4141,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 3F Points of Interest & Geography
 
 ## Connections
-- Northwest Ladder: Located at (2, 0) (arrival from Victory Road 2F).
-- Southeast Ladder: Unexplored.
-- Dungeon Exit: Leading to Route 23 / Indigo Plateau.
+- Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber).
+- Dungeon Exit: Unexplored.
 
 ## Layout & Mechanics
-- Arrival tile: (2, 0) facing South.
-- Puzzles: Boulder and hole puzzle to drop boulder onto 2F Switch Plate B at (9, 16).
+- Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
+- Pit Hole: Located at (3, 5), surrounded by open floor at rows 3-4 (cols 1-4).
+- Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
+- West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
 
 
 <hr>
