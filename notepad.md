@@ -2867,6 +2867,9 @@
    - Ladder C at (18, 9) <-> 2F Central Sector (19, 7).
    - South-Central Terrace spans rows 8..14 (cols 11..18). Connects Ladder C (18, 9) to South Ramp at (11, 13).
 - **East Shoreline Collision (Verified Turn 50332)**: (27..28, 12) is an elevated cliff edge overlooking (27..28, 11) water; direct disembarkation from water onto floor at (27..28, 12) is impassable. Full canal transit routes north via cols 28..29 to North Canal (Row 4).
+5. **Southern Basin & Northwest Frontier Topography (Verified Turns 51026-51032)**:
+   - Southern Water Basin: Spans rows 14-15 across cols 8-11. Solid rock boundaries at Row 16 (south), Column 12 (east), and Column 7 (west). No southwest water outlet.
+   - Northern Terrace NW Boundary: (4, 0), (4, 1), (4, 2), (4, 3) form a continuous solid rock barrier terminating the terrace at Column 5.
 
 <hr>
 
