@@ -58,3 +58,4 @@
 - Western Boulder: Located at (5, 5) [Discovered Turn 19691]. Unblocked on south (5, 6), north (5, 4), and west (4, 5).
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to lower floor at (5, 11) [Discovered Turn 19691].
 - Western Sector: Columns 2 through 7 across rows 6 through 12 form a wide open area.
+- (5, 8) -> (5, 7): Impassable elevation cliff [Turn 19698]. Row 7 is elevated above Row 8.
