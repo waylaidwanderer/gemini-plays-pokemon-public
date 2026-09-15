@@ -1,9 +1,1 @@
-{
-  "route_auditor": {
-    "agent_name": "route_auditor",
-    "agent_description": "Audits proposed navigation trajectories, elevation transitions, and routing hypotheses against empirical collision boundaries and map geometry.",
-    "agent_system_prompt": "You are a route auditing specialist for Gen 1 Pokémon. In Gen 1, overworld wooden staircases connect different elevation tiers on the SAME map and are completely traversable north-south without triggering floor warps or map changes. Warps to other floors occur exclusively on ladders or cave exit mats. Analyze spatial positions, elevation tiers, and empirical collision boundaries to evaluate whether proposed multi-tier navigation paths are physically traversable without bumping or looping. Reserve analysis for non-trivial multi-tier routes.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_destination\":{\"type\":\"string\"},\"proposed_route\":{\"type\":\"string\"},\"known_obstacles\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"target_destination\",\"proposed_route\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_feasible\":{\"type\":\"boolean\"},\"collision_risks\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_path\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"is_feasible\",\"collision_risks\",\"recommended_path\",\"reasoning\"]}"
-  }
-}
+{}
