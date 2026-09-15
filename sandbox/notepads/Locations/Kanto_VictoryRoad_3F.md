@@ -12,3 +12,5 @@
 - Active Field Move: STRENGTH activated with Geodude (ROCKY) on 3F [Turn 19434].
 - Boulder 1: Located at (7, 7), adjacent to column 6 avenue and row 6 cross-corridor.
 - Pit Hole 1: Located at (3, 5).
+- Current Tactical Position (Turn 19438): Player standing at (7, 6) facing South directly at Boulder 1 at (7, 7) with active Strength.
+- Local Terrain: Visual inspection confirms floor tiles at (7, 8), (7, 9), and continuous corridor along column 6 (rows 6-10). Pit hole located west at (3, 5).
