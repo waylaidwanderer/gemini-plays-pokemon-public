@@ -2928,8 +2928,9 @@
    - Route to 2F: Surf from (8, 15) to ramp at (11, 13) -> Disembark onto Central Terrace.
    - Walk east across Central Terrace along row 9: (11, 9) -> (18, 9).
    - Ascend Ladder C at (18, 9) to 2F (19, 7).
-   - On 2F: Walk west along open row 9 corridor across cols 18 -> 14 -> 1 to (1, 9).
-   - Walk north along column 1 (rows 9 -> 3) to Ladder A at (1, 3).
+   - On 2F: Walk NORTH along column 19 open corridor (rows 6 -> 5 -> 4 -> 3 -> 2).
+   - Negative Proof: (19, 8) is solid rock wall; cannot walk south from Ladder C.
+   - From northern corridor (row 2-3), traverse west toward Ladder A at (1, 3).
    - Descend Ladder A (1, 3) to B1F (Mewtwo)!
 3. **Ascent to 2F & Ladder A**:
    - Climb 1F SW Ladder (3, 11) -> Arrive at 2F SW Sector (cols 0-7, rows 0-5).
