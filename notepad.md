@@ -3972,6 +3972,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat [Turn 20051 at (7, 5)]
 - Zubat [Turn 20060 at (2, 8)]
 - Geodude [Turn 20071 at (9, 9)]
+- Zubat [Turn 20076 at (5, 9)]
 - Graveler [Turn 20065 at (5, 11)]
 - Machop [Turn 19864 at (26, 11)]
 - Zubat [Turn 19884 at (10, 16)]
