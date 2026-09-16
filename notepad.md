@@ -2885,7 +2885,8 @@
    - Ladder sprite observed across water at (3, 11); access route and destination unverified.
 - North Canal at Row 4 terminates west at Column 14 ((13, 4..5) is solid rock barrier); connects south via (14, 5) into the Row 6/7 Central Waterway across cols 10..15 (Turn 51874).
 - (7, 15) and (7, 14) are solid rock barriers blocking westward Surf into southwest basin from Column 8 (Turn 51878).
-- South-Central Ramp 2 located at (17, 15) facing south into water at (17, 16) (Discovered Turn 51929).
+- (17, 15) confirmed elevated cliff ledge overlooking water; cannot Surf from (17, 15) ('No SURFing on HYDROS here!').
+- Row 11 connects Ladder C terrace at (18, 11) directly east across (21, 11) elevation step to Ladder B at (23, 7) without needing Surf.
 - (17, 12) and (17, 13) confirmed solid rock barriers blocking westward passage from (18, 12..13) (Turn 51929).
 
 <hr>
@@ -3000,17 +3001,27 @@
 
 # Scratchpad: Cerulean Cave Routing & Frontier Ledger
 
-## Current Position & Status (Turn 51931)
-- **Location**: (18, 13) on 1F South-Central Terrace near Ramp (17, 15).
+## Current Position & Status (Turn 51934)
+- **Location**: (17, 15) on 1F South-Central Terrace (clearing Surf prompt).
 - **Equipment**: Master Ball x1 in Bag (Slot 18); Lead: HYDROS (Blastoise Lv 95).
 
-## Active Frontier: 1F South Waterways & Ramp (17, 15)
-- Ramp at (17, 15) faces south into water at (17, 16).
-- Immediate plan:
-  1. Step Down to (18, 14), Left to (17, 14), Down to Ramp (17, 15).
-  2. Activate SURF with HYDROS into water at (17, 16).
-  3. Probe West water channel across (16..3, 16) towards Southwest Ladder (3, 11).
-  4. If west is blocked, surf East to Southeast Basin Ramp (25, 9) -> Ladder B (23, 7).
+## Verified Direct Transit to Ladder B & Mewtwo
+1. **1F Land Connection to Ladder B**:
+   - (17, 15) -> Up to (17, 14) -> Right to (18, 14) -> Up to (18, 11).
+   - Walk East along Row 11: (19, 11) -> (20, 11) -> (21, 11) [Ramp step] -> (22, 11) -> (23, 11).
+   - Walk North up Column 23: (23, 10) -> (23, 9) -> (23, 8) -> (23, 7) [Ladder B]!
+2. **Ascent to 2F SE Sector**:
+   - Step onto Ladder B at (23, 7) -> Arrive at 2F (22, 6).
+3. **2F Master Route to Mewtwo (Ladder A at 1, 3)**:
+   - Descend Column 23 to Row 11 (23, 11).
+   - Walk West along Row 11 to (16, 11).
+   - Walk North up Column 16 to (16, 10).
+   - Walk West across Row 10 (15..9, 10) to (9, 10).
+   - Walk North to (9, 9) on Row 9 Highway.
+   - Walk West along Row 9 Highway (9..0, 9) straight to Column 0 at (0, 9).
+   - Walk North up Column 0 (0, 9..2) to (0, 2).
+   - Step Right to (1, 2) and South into Ladder A at (1, 3)!
+   - Descend Ladder A to B1F Mewtwo chamber and use Master Ball!
 
 
 <hr>
