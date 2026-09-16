@@ -115,6 +115,7 @@
 
 
 ## Wild Encounters (Recent Observations)
+- Machop [Turn 20347 at (21, 16)]
 - Onix [Turn 20317 at (5, 9)]
 - Machoke [Turn 20273 at (5, 10)]
 - Machoke [Turn 20247 at (15, 7)]
