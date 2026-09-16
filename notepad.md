@@ -3829,7 +3829,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Columns 28-30 are solid rock walls from Row 0 downwards (no eastern exit from Row 0).
 
 ## Execution Sequence:
-- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (6, 10) facing North.
+- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (10, 9) facing North.
 2. Navigate via Northern Highway (Row 0) to Wooden Staircase at (17, 5).
 3. Ascend to elevated terrace at (17, 4), walk west along Row 4 to Column 10, south to Row 10, and west to (8, 10).
 4. [x] Barrier block at (7, 10) confirmed LOWERED and passable [Turn 20715]!
