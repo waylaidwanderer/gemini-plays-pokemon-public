@@ -3822,17 +3822,19 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road 3F Routing Plan (Turn 20851)
+# Victory Road 3F Routing Plan (Turn 20861)
 
 ## Current Status:
-- Player position: (17, 6) on lower cavern floor, facing South.
-- Successfully descended wooden staircase at (17, 5) from terrace.
-- Row 6 and Row 7 form open east-west corridor leading to eastern passages (cols 20-22).
+- Player position: (20, 10) in eastern corridor, facing South.
+- Row 12 is a continuous rock wall across cols 16-21.
+- Row 13 is an open horizontal corridor spanning cols 16-23.
+- Columns 22-23 form an open vertical corridor (rows 10-13) leading to Boulder 2 at (24, 10).
 
 ## Active Strategy:
-1. Walk east along Row 7 to (21, 7), then south to (21, 8).
-2. Explore eastern sector (cols 20-25, rows 8-16) to survey Boulder 2 at (24, 10), Boulder 4 at (22, 15), and locate the drop hole.
-3. Push boulder into hole and drop down to 2F to lower the exit barrier.
+1. Walk west along Row 11 to (15, 11) to locate the north-south opening into Row 13.
+2. Advance through Row 13 east to columns 22-23 to access Boulder 2 at (24, 10) and southeast sector (Boulder 4 at 22, 15).
+3. Survey southeast sector for the drop hole, push boulder into hole, and drop down to 2F.
+
 
 <hr>
 
