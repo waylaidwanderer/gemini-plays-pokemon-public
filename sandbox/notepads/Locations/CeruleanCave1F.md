@@ -46,3 +46,4 @@
 - North Canal at Row 4 terminates west at Column 14 ((13, 4..5) is solid rock barrier); connects south via (14, 5) into the Row 6/7 Central Waterway across cols 10..15 (Turn 51874).
 - (7, 15) and (7, 14) are solid rock barriers blocking westward Surf into southwest basin from Column 8 (Turn 51878).
 - South-Central Ramp 2 located at (17, 15) facing south into water at (17, 16) (Discovered Turn 51929).
+- (17, 12) and (17, 13) confirmed solid rock barriers blocking westward passage from (18, 12..13) (Turn 51929).

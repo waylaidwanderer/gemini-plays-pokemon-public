@@ -1,17 +1,13 @@
 # Scratchpad: Cerulean Cave Routing & Frontier Ledger
 
-## Current Position & Status (Turn 51901)
-- **Location**: (3, 3) in Northwest Corridor on Cerulean Cave 2F (in battle with wild Dodrio).
+## Current Position & Status (Turn 51931)
+- **Location**: (18, 13) on 1F South-Central Terrace near Ramp (17, 15).
 - **Equipment**: Master Ball x1 in Bag (Slot 18); Lead: HYDROS (Blastoise Lv 95).
 
-## Active Frontier: Northwest Chamber & Ladder A (1, 3)
-- Player is at (3, 3) on Row 3.
-- Ladder A is visually confirmed at (1, 3).
-- Column 2 (rows 1-4) is solid rock.
-- (1, 2) is open floor directly above Ladder A (1, 3).
-- Probing immediate path from (3, 3):
-  1. Test North up Column 3: (3, 3) -> (3, 2) -> (3, 1) -> (3, 0).
-  2. Test West along Row 0: (3, 0) -> (2, 0) -> (1, 0) -> (0, 0).
-  3. Test South down Column 0: (0, 0) -> (0, 1) -> (0, 2).
-  4. Step East from (0, 2) to (1, 2) and South into Ladder A at (1, 3).
-  5. Descend Ladder A to B1F and use Master Ball on Mewtwo!
+## Active Frontier: 1F South Waterways & Ramp (17, 15)
+- Ramp at (17, 15) faces south into water at (17, 16).
+- Immediate plan:
+  1. Step Down to (18, 14), Left to (17, 14), Down to Ramp (17, 15).
+  2. Activate SURF with HYDROS into water at (17, 16).
+  3. Probe West water channel across (16..3, 16) towards Southwest Ladder (3, 11).
+  4. If west is blocked, surf East to Southeast Basin Ramp (25, 9) -> Ladder B (23, 7).
