@@ -1,11 +1,9 @@
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (20, 10) on Victory Road 3F [Turn 21181].
-- Current Observation: At (20, 10), facing south. Rows 10-11 form open corridor connecting west to col 16+. Row 12 is rock wall from col 16 to col 21.
-- Boulder 2: At (24, 10), blocking passage between Column 23 and Column 25.
-- Rows 13-14: Open continuous floor connecting cols 16-23 directly across column 21.
-- Target: Explore west along Row 10/11 to find southern passage down to Rows 13-14, or inspect Boulder 3 at (13, 12).
+- Player position: (16, 10) on Victory Road 3F [Turn 21185].
+- Boulder 3: Confirmed at starting position (13, 12) between walls (12, 12) and (14, 12).
+- Target: Walk west along Row 10 to (12, 10) to reveal western topology of rows 10-14.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
