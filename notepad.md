@@ -3839,9 +3839,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southwest Basin (Cols 1-11, Rows 12-15): Unexplored southern expanse accessible via lowered barrier (7, 10). Contains Cooltrainer ♀ at (7, 13) and unmapped western columns.
 
 ## Master Execution Strategy:
-1. Traverse elevated terrace west to (10, 4), south along Column 10 to (10, 10), and pass through lowered barrier at (7, 10).
-2. Explore unmapped southwest basin (columns 1-7, rows 12-15) and engage Cooltrainer ♀ at (7, 13).
-3. Locate the southern passage/boulder leading to Pit Hole at (23, 15).
+1. Defeat Cooltrainer ♀ at (7, 13) [In progress Turn 21271].
+2. Return to East Lower Floor via elevated terrace and staircase (17, 5).
+3. Reach southeast sector containing Pit Hole at (23, 15) and Boulder at (22, 15) via East Lower Floor.
 4. Push boulder into Pit Hole at (23, 15) and jump down to 2F.
 5. On 2F, push fallen boulder onto switch plate to lower exit barrier (23, 14).
 6. Climb ladder at (25, 14) to exit Victory Road to Indigo Plateau!
