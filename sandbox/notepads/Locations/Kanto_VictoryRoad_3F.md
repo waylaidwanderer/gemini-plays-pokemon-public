@@ -35,4 +35,3 @@
 
 
 
-- Graveler (observed Turn 19826)
