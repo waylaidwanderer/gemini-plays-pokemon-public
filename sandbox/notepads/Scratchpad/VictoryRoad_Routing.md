@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (27, 4) on Victory Road 3F (in wild battle).
+- Player position: (27, 4) on Victory Road 3F facing South toward Cooltrainer ♂ at (28, 5).
 - Strength is ACTIVE (cast via Geodude Turn 21047).
 - Boulder 1: At (3, 5) ON SWITCH PLATE! Switch is depressed; barrier block is LOWERED.
 - Target: 1 step south to (27, 5) to engage Cooltrainer ♂ at (28, 5) and access the eastern corridor to Boulder 2 at (24, 10).
