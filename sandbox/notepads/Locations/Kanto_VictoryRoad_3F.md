@@ -8,7 +8,7 @@
 
 ## Layout & Mechanics
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
-- Pit Hole at (3, 5): Confirmed pit hole leading down to 2F [Visually verified Turn 20586].
+- Tile (3, 5): Circular floor marking/depression; player stood directly on (3, 5) on Turn 20592 with zero warp/fall effect.
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
