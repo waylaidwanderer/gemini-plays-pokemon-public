@@ -116,6 +116,7 @@
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Onix [Turn 20181 at (5, 6)]
 - Geodude [Turn 20154 at (5, 10)]
 - Machoke [Turn 20146 at (4, 11)]
 - Onix [Turn 20142 at (5, 9)]
