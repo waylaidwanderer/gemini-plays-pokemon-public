@@ -3874,7 +3874,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
 - Wall at (28, 10): Solid rock wall directly north of (28, 11) [Empirically verified Turn 17207].
 - Wall at (27, 10): Solid rock wall directly north of (27, 11) [Empirically verified Turn 16607; northern entry from Row 11 into eastern chamber is completely blocked].
-- Row 7-11 Central Thoroughfare: Columns 12-16 across rows 7-11 are 100% wide open cave floor [Visually verified Turn 20399; prior notes claiming walls at (15, 11) and (14, 7) were completely false].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Empirically verified Turn 16637].
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
