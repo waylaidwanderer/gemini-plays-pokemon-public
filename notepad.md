@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Master Roadmap (Turn 21541)
 
 ## Current Status:
-- Player position: (18, 16) on 2F; returning to 3F via Ladder (23, 7).
+- Player position: (25, 16) on 2F; ascending Eastern Vertical Highway to return to 3F via Ladder (23, 7).
 - Dynamic Entities: Vacating 2F will reset 2F; arriving on 3F resets 3F dynamic puzzle entities.
 - Goal: Execute the unified, single-session puzzle sequence to clear Victory Road.
 
