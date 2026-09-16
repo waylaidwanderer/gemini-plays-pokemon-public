@@ -22,6 +22,7 @@
 - Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454)
 - Machop (observed Turns 19565, 19729, 19767, 19829)
 - Golbat (observed Turns 19658, 19733)
+- Graveler (observed Turn 20459 at (12, 0))
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
