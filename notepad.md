@@ -3833,7 +3833,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
 ## Execution Sequence:
-- Boulder 1 current position: (2, 3). Player position: (2, 1) facing South.
+- Boulder 1 current position: (2, 5). Player position: (2, 3) facing South.
 1. Push Boulder 1 West into (6, 1).
 2. Loop around via Row 0: walk Right to (8, 1), Up to (8, 0), Left to (6, 0).
 3. Face South at (6, 0) and push Boulder 1 into (6, 2) at the West Cross-Corridor entrance.
@@ -3974,7 +3974,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11+.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Boulder 1: Started at (22, 3); routed to Column 2, currently at (2, 3) [Turn 20686].
+- Boulder 1: Started at (22, 3); routed to Column 2, currently at (2, 5) [Turn 20688].
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
