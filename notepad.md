@@ -3822,7 +3822,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road 3F Routing Plan (Turn 20821)
+# Victory Road 3F Routing Plan (Turn 20851)
 
 ## Current Status:
 - Player position: (17, 6) on lower cavern floor, facing South.
@@ -3956,7 +3956,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Ladder to 2F: Located at (23, 7); verified two-way connection to 2F (23, 7) [Turn 20613].
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
-- Item Ball Alcove: Located at (7, 7) bounded by rock pillars at (7, 8) and (7, 9) [Visually confirmed Turns 20825-20826].
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
