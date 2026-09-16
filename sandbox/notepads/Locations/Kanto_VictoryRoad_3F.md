@@ -35,3 +35,4 @@
 - Boulder 1: Located at (22, 3) in northeast sector [Sighted Turn 20469].
 - Ladder to 2F: Confirmed visually at (23, 7) [Turn 20471; open access from north and west].
 - Dual Eastern Ladders: Both (23, 7) and (26, 8) ladders visually confirmed on screen [Turn 20475].
+- Boulder 3: Located at (13, 12) in vertical gap between rock walls at (12, 12) and (14, 12) [Sighted Turn 20480].

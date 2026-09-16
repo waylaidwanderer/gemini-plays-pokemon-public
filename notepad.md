@@ -3825,8 +3825,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Arrived on Victory Road 3F via NW ladder (2, 0) [Turn 20452].
 - Arrived at (20, 10) via Column 20 corridor.
 - Confirmed Row 10/11 is a wide open east-west thoroughfare leading west.
-- Current Position: (20, 10) facing South.
-- Routing west along Row 10 toward the southwestern puzzle chamber.
+- Sighted Boulder 3 at (13, 12) plugging Row 12 corridor gap.
+- Current Position: (16, 10) facing West.
+- Advancing west along Row 10 to (12, 10) to scout Column 11 and western sector.
 
 ## Active Routing Strategy:
 1. Advance East along Row 0 across cols 14-17 to reach Column 20 corridor.
@@ -4037,5 +4038,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1: Located at (22, 3) in northeast sector [Sighted Turn 20469].
 - Ladder to 2F: Confirmed visually at (23, 7) [Turn 20471; open access from north and west].
 - Dual Eastern Ladders: Both (23, 7) and (26, 8) ladders visually confirmed on screen [Turn 20475].
+- Boulder 3: Located at (13, 12) in vertical gap between rock walls at (12, 12) and (14, 12) [Sighted Turn 20480].
 
 <hr>
