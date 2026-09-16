@@ -3822,21 +3822,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road 3F Routing Plan (Turn 20631)
+# Victory Road 3F Routing Plan (Turn 20653)
 
-## Current Status:
-- Position: (13, 12) facing South.
-- Verified: Boulder 3 at (13, 13) is permanently blocked to the south by rock wall (13, 14).
-- Gateway (13, 12) is an exit pocket from the south, not an entrance from the north.
-- Target: Navigate to Columns 26-28 via Northern Highway (Row 0) to access Column 25, Ladder (26, 8), and the southern basin with Boulder 4.
-- Strength Status on 3F: ACTIVE (confirmed Turn 20618).
+## Verified Reality & Sokoban Geometry:
+- Switch Plate identified at (3, 5) via high-res inspection of tile depression.
+- Northeast Columns 28-30 are solid rock walls from Row 0 downwards (no eastern exit from Row 0).
+- Boulder 1 starts at (22, 3).
+- Pushing Boulder 1 into Row 0 causes a fatal trap state (Row -1 is solid rock, preventing south pushes).
+- Solution: Push Boulder 1 North to Row 1 at (22, 1), then loop around to (23, 1) and push West along Row 1 (Northern Highway transit corridor).
+- Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
-## Active Routing Strategy:
-1. Walk North to (13, 11) and East along Row 11 to Column 20 at (20, 11).
-2. Walk North up Column 20 to Row 0 at (20, 0).
-3. Traverse East along Row 0 past Column 20 to Column 28.
-4. Head South down Column 28 past Cooltrainer ♂ at (28, 5) into Column 25.
-5. In Column 25, access Ladder (26, 8), push Boulder 2 at (24, 10), and complete the 2F drop puzzle!
+## Execution Sequence:
+1. Walk from (25, 0) via (25, 3) -> (23, 3) -> (23, 4) -> (22, 4).
+2. Face North at (22, 4) and push Boulder 1 to (22, 2), then to (22, 1). Halt at Row 1!
+3. Step around to (23, 1) and push West along Row 1 toward the western sector.
+4. Route Boulder 1 onto Switch Plate at (3, 5) to depress switch and lower barrier!
 
 <hr>
 
