@@ -97,17 +97,6 @@
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 
-- Row 8 Northern Boundary Exhaustive Physical Survey (Turns 19236-19243):
-  Every single column from col 5 to col 13 along the row 8 northern boundary was individually bump-tested facing North into row 7 with Switch Plate A active:
-  - (13, 8) -> (13, 7): SOLID elevation cliff [Turn 19236]
-  - (12, 8) -> (12, 7): SOLID elevation cliff [Turn 19237]
-  - (11, 8) -> (11, 7): SOLID elevation cliff [Turn 19238]
-  - (10, 8) -> (10, 7): SOLID elevation cliff [Turn 19239]
-  - (9, 8) -> (9, 7): SOLID elevation cliff [Turn 19240]
-  - (8, 8) -> (8, 7): SOLID rock wall [Turn 19241]
-
-- Wall at (22, 15): Solid rock wall directly south of (22, 14) [Empirically verified Turn 20344 via direct bump test].
-
 ## Dynamic Entities Current State
 - Western Boulder at (5, 3): Pushed North from (5, 5) into (5, 4) and then (5, 3) on Turns 20298-20300. Blocks row 3 access from doorway (5, 4).
 

@@ -1,15 +1,12 @@
-# Victory Road 3F Routing Plan (Turn 20563)
+# Victory Road 3F Routing Plan (Turn 20581)
 
 ## Current Status:
-- Position: (13, 11) facing South.
+- Position: (13, 0) facing West on Northern Highway.
 - Strength Status on 3F: ACTIVE (confirmed Turn 20559).
-- Boulder 3 pushed from (13, 12) to (13, 13).
-- Spatial Partition Proved: Solid rock wall along Col 12 (rows 12-15) completely separates eastern basin (cols 13-19) from western chasm (cols 1-11).
-- Western sector (cols 1-8) is accessible from the northwest via the Northern Highway and entrance area (2, 0)/(2, 2).
+- Boulder 3: Pushed from (13, 12) to (13, 13).
+- Hypothesized western access via Northwest Entrance area at (2, 0)/(2, 2) and western corridors.
 
 ## Active Routing Strategy:
-1. Traverse East along Row 11 from (13, 11) across (14..18, 11) to Column 20.
-2. Advance North along Column 20 from (20, 11) to Northern Highway at (20, 0).
-3. Traverse West along Northern Highway (Row 0) to Column 2 near entrance ladder.
-4. Explore South along western corridor from (2, 2) into the western sector (cols 1-8).
-5. Locate the 3F pit hole to 2F, western boulder puzzle, and complete exit route to Indigo Plateau.
+1. Traverse West along Northern Highway (Row 0) from (13, 0) to Column 2.
+2. Explore South from (2, 2) to probe western corridors and identify accessible passages.
+3. Locate the 3F pit hole to 2F, western boulder puzzle, and complete exit route to Indigo Plateau.
