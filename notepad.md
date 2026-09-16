@@ -2857,8 +2857,9 @@
 
 ## Verified Topographical Sectors (1F)
 - **Central Terrace**: Spans cols 11-18 across rows 8-13. Contains Ladder C at (18, 9). Accessible via water ramp at (11, 13) from west canal and ramp at (21, 11) from east basin. North cliff edge along row 8 (cols 11-16) is elevated; cannot Surf directly north into row 7.
-- **Inner Western Canal**: Water channel along cols 8-9 across rows 6-15. Bounded on west by solid rock ridge at col 7 (rows 6-15). Does NOT connect to SW sector (3, 11).
-- **Northern Canal**: Wide waterway spanning across rows 4-5 from east to west. Connects south to inner canal at (10, 6) and continues west towards NW/west waterways to reach SW Sector.
+- **Northern Water Canal & Ramp (15, 3)**: Water channel spans cols 14-18 across rows 4-7. Contains water ramp at (15, 3) leading up from water (15, 4) onto the Northern Highway at (15, 2).
+- **Northern Highway (Rows 1-3)**: Elevated continuous east-west land corridor spanning across cols 1-18+. Contains Ladder E at (7, 1) and connects west to the Northwest and Southwest sectors (leading south to SW Ladder (3, 11)).
+- **Inner Western Canal**: Water channel along cols 8-9 across rows 6-15. Dead-ends at ramp (11, 13). Bounded on west by solid rock ridge at col 7.
 
 <hr>
 
