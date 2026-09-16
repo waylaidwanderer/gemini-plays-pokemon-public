@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 3F Routing Plan (Turn 20881)
 
 ## Current Status:
-- Player position: (27, 4) in northeast alcove, facing South.
+- Player position: (20, 2) at Column 20 / Row 2 junction, facing West.
 - Trainer sighted at (28, 5) facing West across tile (27, 5).
 - Row 6 forms a continuous rock wall across cols 24-32, completely sealing this northeast alcove from the southern sector.
 - Eastern border cols 29-32 is solid rock wall.
