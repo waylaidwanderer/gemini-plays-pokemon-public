@@ -16,7 +16,7 @@
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11+.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Boulder 1: Started at (22, 3); pushed onto circular floor depression at (3, 5) [Turn 20690]; switch function unverified until barrier at (7, 10) is physically tested.
+- Boulder 1: Started at (22, 3); pushed onto switch plate at (3, 5) [Turn 20690], lowering barrier block at (7, 10) [Empirically verified Turn 20715].
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
@@ -46,7 +46,7 @@
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
 - Tile (13, 4): Confirmed safe traversal along Row 4 past NPC at (13, 3) with zero battle trigger [Turn 20493].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
-- Tile (7, 10): Confirmed solid obstacle / impassable from (8, 10) facing West with 0 movement delta [Turn 20509].
+- Tile (7, 10): Confirmed barrier block. Was solid [Turn 20509]; confirmed lowered and passable [Turn 20715] by Boulder 1 depressing switch plate at (3, 5).
 - Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
