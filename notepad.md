@@ -4044,5 +4044,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (13, 4): Confirmed safe traversal along Row 4 past NPC at (13, 3) with zero battle trigger [Turn 20493].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
 - Tile (7, 10): Confirmed solid obstacle / impassable from (8, 10) facing West with 0 movement delta [Turn 20509].
+- Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
 
 <hr>
