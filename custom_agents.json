@@ -1,1 +1,9 @@
-{}
+{
+  "cave_path_validator": {
+    "agent_name": "cave_path_validator",
+    "agent_description": "Validates planned 2D tile paths against observed collision boundaries and maintains a verified traversability matrix for complex cave geometry.",
+    "agent_system_prompt": "You are a precision spatial validator for Pokémon Generation 1 grid navigation. You evaluate step-by-step directional movement sequences against verified 2D coordinate matrices and known obstacle lists. You ensure multi-step macros never blindly crash into known walls, ledge boundaries, or untraversable elevation changes, outputting validated safe step sequences.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"planned_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"target_pos\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"known_obstacles\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}}, \"required\": [\"current_pos\", \"planned_path\", \"target_pos\", \"known_obstacles\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_valid\": {\"type\": \"boolean\"}, \"first_collision_step\": {\"type\": \"integer\", \"nullable\": true}, \"safe_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"is_valid\", \"safe_steps\", \"reasoning\"]}"
+  }
+}
