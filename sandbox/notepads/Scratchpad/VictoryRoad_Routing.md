@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21003)
 
 ## Current Status:
-- Player position: (10, 5) on Victory Road 3F.
+- Player position: (10, 2) on Victory Road 3F.
 - Strength is ACTIVE (Geodude).
 - Boulder 1 is DEPRESSED on switch plate (3, 5) [Turn 20970].
 - Barrier block at (7, 10) is LOWERED [Turn 20970].
