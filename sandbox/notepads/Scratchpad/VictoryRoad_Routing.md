@@ -9,7 +9,9 @@
 - Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
 ## Execution Sequence:
-1. Walk from (25, 0) via (25, 3) -> (23, 3) -> (23, 4) -> (22, 4).
-2. [x] Face North at (22, 4) and push Boulder 1 to (22, 2), then to (22, 1) [Done Turn 20657].
-3. Step around to (23, 1) and push West along Row 1 toward the western sector.
-4. Route Boulder 1 onto Switch Plate at (3, 5) to depress switch and lower barrier!
+- Boulder 1 current position: (7, 1). Player position: (8, 1) facing West.
+1. Push Boulder 1 West into (6, 1).
+2. Loop around via Row 0: walk Right to (8, 1), Up to (8, 0), Left to (6, 0).
+3. Face South at (6, 0) and push Boulder 1 into (6, 2) at the West Cross-Corridor entrance.
+4. Position at (7, 2) facing West, and push Boulder 1 West along Row 2 through (5, 2) and (4, 2) toward Column 2.
+5. Route Boulder 1 down Column 2 to test depression of circular tile (3, 5).
