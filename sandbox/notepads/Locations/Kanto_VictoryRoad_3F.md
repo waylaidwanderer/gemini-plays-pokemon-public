@@ -33,3 +33,4 @@
 - Trainer: Sighted NPC at (13, 3) [Turn 20463].
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
 - Boulder 1: Located at (22, 3) in northeast sector [Sighted Turn 20469].
+- Ladder to 2F: Confirmed visually at (23, 7) [Turn 20471; open access from north and west].
