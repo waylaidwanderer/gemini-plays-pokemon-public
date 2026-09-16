@@ -3822,7 +3822,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 21003)
+# Victory Road Routing Plan (Turn 21007)
 
 ## Current Status:
 - Player position: (10, 2) on Victory Road 3F.
