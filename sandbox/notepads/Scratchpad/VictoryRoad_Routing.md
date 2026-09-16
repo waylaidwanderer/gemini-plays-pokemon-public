@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21243)
 
 ## Current Status:
-- Player position: (23, 8) on East Lower Floor; testing boundary at (23, 9) [Turn 21369].
+- Player position: (23, 7) on Victory Road 2F; arrived via ladder from 3F [Turn 21375].
 - Eastern Alcove Audit: Verified row 6 across cols 24-31 is solid rock wall. Alcove ends at row 5 (dead end).
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
 - Target: Empirically investigate Boulder 2 at (24, 10) and adjacent passages from East Lower Floor.
