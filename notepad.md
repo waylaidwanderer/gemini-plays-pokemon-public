@@ -3930,8 +3930,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 
-
-
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
 - Graveler (observed Turn 16139).
@@ -3952,11 +3950,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - (9, 8) -> (9, 7): SOLID elevation cliff [Turn 19240]
   - (8, 8) -> (8, 7): SOLID rock wall [Turn 19241]
 
-
 - Wall at (22, 15): Solid rock wall directly south of (22, 14) [Empirically verified Turn 20344 via direct bump test].
 
-
 ## Wild Encounters (Recent Observations)
+- Geodude [Turn 20357 at (28, 11)]
 - Machop [Turn 20347 at (21, 16)]
 - Onix [Turn 20317 at (5, 9)]
 - Machoke [Turn 20273 at (5, 10)]
@@ -3996,7 +3993,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
 - Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
 - Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
-
 
 <hr>
 
