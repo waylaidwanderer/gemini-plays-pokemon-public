@@ -7,6 +7,7 @@
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
+- Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Barrier Block at (7, 10): Lowered and confirmed passable on Turn 20715 by depressing switch plate (3, 5).
 - Pit Hole: Located at (7, 8) directly south of Item Ball at (7, 7) [Sighted Turn 20715]. Drops down to Victory Road 2F.
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
