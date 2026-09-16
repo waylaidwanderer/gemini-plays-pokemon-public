@@ -3822,21 +3822,24 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 20904)
+# Victory Road Routing Plan (Turn 20906)
 
 ## Current Status:
-- Player position: (23, 7) on Victory Road 2F.
-- Correction: Ladder (27, 7) on 2F is sealed inside an enclosed rock wall chamber (cols 24-28, rows 6-10) and is completely unreachable from 2F.
-- (23, 7) is the two-way ladder between 2F and 3F.
+- Player position: (23, 7) on Victory Road 3F.
+- Boulder 1 has reset to (22, 3).
+- Boulder 2 is at (24, 10).
+- Strength is currently inactive (reset on floor entry).
 
-## The True Victory Road Solution (Gen 1 Retail):
-1. Return to 3F via ladder at (23, 7).
-2. Cast HM04 Strength with Geodude (ROCKY) on 3F.
-3. Reach Boulder 4 at (22, 15) adjacent to Pit Hole (23, 15).
-4. Push Boulder 4 East into Pit Hole (23, 15).
-5. Jump into Pit Hole (23, 15) after the boulder to fall to 2F.
-6. On 2F, push the dropped boulder onto the switch plate to lower barrier at (23, 14).
-7. Ascend ladder at (25, 14) behind lowered barrier to reach Route 23 North / Indigo Plateau!
+## The Complete Victory Road Solution:
+1. Cast HM04 Strength with Geodude (ROCKY) from party menu.
+2. Route Boulder 1 from (22, 3) -> Row 1 -> (6, 1) -> (6, 2) -> (2, 2) -> (2, 5) -> push East onto switch plate (3, 5).
+3. Switch plate (3, 5) lowers barrier block at (7, 10).
+4. Traverse through (7, 10), across southwest terrace, and descend stairs at (1, 9) into southern basin.
+5. Move east across southern basin to Boulder 4 at (22, 15) and Pit Hole at (23, 15).
+6. Stand at (21, 15) facing East and push Boulder 4 East into Pit Hole (23, 15).
+7. Jump into Pit Hole (23, 15) to drop down to 2F.
+8. On 2F, push the fallen boulder onto the switch plate to lower exit barrier at (23, 14).
+9. Climb ladder at (25, 14) to exit Victory Road to Route 23 North / Indigo Plateau!
 
 <hr>
 
