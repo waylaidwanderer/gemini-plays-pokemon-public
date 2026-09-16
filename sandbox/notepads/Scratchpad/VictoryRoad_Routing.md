@@ -1,8 +1,8 @@
 # Victory Road Routing Plan (Turn 21243)
 
 ## Current Status:
-- Player position: (17, 4) on Victory Road 3F [Turn 21243].
-- Target: Traverse elevated terrace west to (10, 4), south along Column 10 to (10, 10), and pass through lowered barrier (7, 10) into the Southwest basin.
+- Player position: (13, 4) on Victory Road 3F (Elevated Terrace) [Turn 21245].
+- Target: Walk west along Row 4 to Column 10 at (10, 4), then south down Column 10 corridor toward barrier (7, 10).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
