@@ -84,3 +84,5 @@
 - Column 11 connects Row 1 at (11, 1) down to Row 5 at (11, 5).
 - Probing from Ladder E (7, 1) to (10, 1) confirmed solid rock at (10, 0..4) and south rock at (7..9, 4), isolating Ladder E sector from central Row 1 (Turn 51985).
 - (28, 4) confirmed solid purple rock barrier blocking eastward movement along Row 4 from (27, 4) (Turn 52007).
+- (9, 6) confirmed solid purple rock barrier blocking southward passage from (9, 5) (Turn 52015).
+- Row 3 open corridor across cols 5..9 connecting (9, 3) west to (5, 3) (Turn 52015).
