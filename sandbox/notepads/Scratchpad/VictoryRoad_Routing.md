@@ -1,10 +1,10 @@
 # Victory Road Routing Plan (Turn 21011)
 
 ## Current Status:
-- Player position: (22, 8) on Victory Road 3F.
-- Strength is ACTIVE (Geodude).
-- Boulder 1 is DEPRESSED on switch plate (3, 5) [Turn 20970].
-- Barrier block at (7, 10) is LOWERED [Turn 20970].
+- Player position: (26, 11) on Victory Road 2F.
+- Strength is INACTIVE (reset upon floor transition).
+- 3F Puzzle Status: Reset to default initial positions upon descending to 2F.
+- 2F Northeast Ladder (27, 7): Empirically confirmed sealed by solid rock walls on all sides; unreachable from 2F. All progress requires ascending back to 3F.
 
 ## Verified Physical Topology (All Hypotheses Tested):
 - Row 9 (Cols 21-24): Solid purple rock wall directly south of (22..23, 8), completely sealing channel from the north.
