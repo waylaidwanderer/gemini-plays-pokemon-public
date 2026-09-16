@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (20, 8) on Victory Road 3F.
+- Player position: (20, 3) on Victory Road 3F.
 - Strength is ACTIVE (cast via Geodude Turn 21047).
 - Boulder 1: At (3, 5) ON SWITCH PLATE! Switch is depressed; barrier block is LOWERED.
 - Topology Proof: Columns 22-23 (Pit Hole chasm) is walled off on north by Row 9 and west by Column 21. The ONLY entrance is through (24, 10) by pushing Boulder 2 West from Column 25. Column 25 is reached from Northern Highway via Column 28 past Cooltrainer ♂ at (28, 5).
