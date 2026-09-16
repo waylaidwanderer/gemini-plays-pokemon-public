@@ -1,19 +1,14 @@
-# Victory Road 3F Routing Plan (Turn 20468)
+# Victory Road 3F Routing Plan (Turn 20491)
 
 ## Current Status:
-- Arrived on Victory Road 3F via NW ladder (2, 0) [Turn 20452].
-- Arrived at (20, 10) via Column 20 corridor.
-- Confirmed Row 10/11 is a wide open east-west thoroughfare leading west.
-- Discovered complete terrace access route:
-  - Row 5 rock wall (cols 11-16) blocks direct northern ascent.
-  - Wooden staircase at (17, 5) connects lower floor (17, 6) up to elevated terrace (17, 4).
-  - Row 4 terrace extends west across cols 9-17, connecting south into cols 9-10 corridor.
-  - South end of cols 9-10 has jump ledges at (9..10, 11) dropping into Southwestern Passage (rows 12-14).
-- Current Position: (12, 8) facing North.
-- Active Navigation: Walk north to (12, 6), east to (17, 6), ascend staircase at (17, 5).
+- Arrived at (17, 6) facing North, directly in front of wooden staircase at (17, 5).
+- Fled all wild encounters cleanly.
 
 ## Active Routing Strategy:
-1. Advance East along Row 0 across cols 14-17 to reach Column 20 corridor.
-2. Locate the 3F boulder and hole mechanism (boulder drop required to open 2F exit barrier).
-3. Push boulder into hole, jump down hole to 2F, and complete final switch activation.
-4. Exit Victory Road to Route 23 / Indigo Plateau!
+1. Ascend wooden staircase at (17, 5) onto Row 4 elevated terrace at (17, 4).
+2. [Hypothesis to Test]: Test whether Row 4 terrace is passable westward across cols 17-10 to reach the column 10 north-south corridor.
+3. Advance south along Column 10 across rows 5-10 to inspect the jump ledges at (9..10, 11).
+4. Jump south over ledge into Southwestern Passage (rows 12-14).
+5. Locate the 3F boulder and hole mechanism in the western sector (cols 1-8).
+6. Push boulder into hole, jump down hole to 2F, and complete final switch activation.
+7. Exit Victory Road to Route 23 / Indigo Plateau!
