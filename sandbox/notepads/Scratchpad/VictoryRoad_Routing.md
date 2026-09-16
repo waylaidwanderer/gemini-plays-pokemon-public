@@ -1,7 +1,7 @@
 # Victory Road Master Roadmap (Turn 21587)
 
 ## Current Status:
-- Player position: (23, 3) on 3F; HM04 Strength ACTIVE; facing Boulder 1 at (22, 3).
+- Player position: (16, 1) on 3F; pushing Boulder 1 west along Row 1 Northern Highway toward col 6.
 - Dynamic Entities: Fresh reset on 3F (Boulder 1 at (22, 3), Boulder 2 at (24, 10), Boulder 3 at (13, 12)).
 - Goal: Execute the unified puzzle sequence to clear Victory Road.
 
@@ -15,5 +15,6 @@
 7. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
 8. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
 
-## Topology Corrections:
-- Disproved False Southwest Dead-End: Prior notes claimed no exit east from the southwest basin based solely on wall collisions at (12, 14) and (12, 15). The passage past Cooltrainer ♀ at (7, 13) along row 12/13 was never explored eastward and forms the true progression route to the pit hole and exit.
+## Routing Hypotheses & Topology Notes:
+- Southwest Basin Passage Hypothesis: Prior notes claimed no exit east from the southwest basin based solely on wall collisions at (12, 14) and (12, 15). Rows 12-13 east of Cooltrainer ♀ at (7, 13) remain unmapped and represent the primary candidate corridor to explore once Barrier (7, 10) is lowered.
+- Downstream Entities: The exact locations of any further boulders and the pit hole will be verified empirically upon reaching and surveying the corridor.

@@ -4,7 +4,6 @@
 - Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Ladder to 2F: Located at (23, 7); verified two-way connection to 2F (23, 7) [Turn 20613].
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
-- Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
