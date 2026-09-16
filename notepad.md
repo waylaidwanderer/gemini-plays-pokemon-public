@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Routing Plan (Turn 21391)
 
 ## Current Status:
-- Player position: (23, 16) on 2F; walking east along row 16 to Column 28 at (28, 16) [Turn 21398].
+- Player position: (28, 16) on 2F; ascending Column 28 to (28, 11) [Turn 21401].
 - Barrier (23, 14) confirmed RAISED. Returning to 3F to solve boulder/hole puzzle.
 - Eastern Alcove Audit: Verified row 6 across cols 24-31 is solid rock wall. Alcove ends at row 5 (dead end).
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
