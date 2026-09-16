@@ -3821,18 +3821,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20163)
-- Location: Victory Road 2F at (9, 8).
-- Correction & Retraction:
-  - The Column 9 North-South Highway hypothesis is RETRACTED. (9, 8) -> (9, 7) is an impassable elevation cliff (empirically confirmed Turns 19240 and 20157).
-  - The entire northern boundary of the Row 8 terrace (cols 5-13) is a solid elevation cliff.
-  - The Western Boulder at (5, 5) is the primary puzzle to access the Northwest Chamber and ladder (1, 1).
+## Current Status (Turn 20194)
+- Location: Victory Road 2F at (14, 14).
+- Critical Strategic Realization:
+  - Eastern Wing (cols 20-29) CANNOT access the Northwest Chamber because Column 14 (rows 0-7) and Column 8 (rows 2-7) are solid rock walls.
+  - The 10th circuit east is CANCELED. We will NOT proceed to Column 28.
+  - The ONLY route to Victory Road 3F is the ascent ladder at (1, 1) in the Northwest Chamber, accessible exclusively through the western sector.
+  - Doorway (5, 4) and the Western Boulder are the focal puzzle. The boulder was pushed to (5, 3) and must be reset to (5, 5) via the 1F ladder at (0, 8).
 
-## Routing Plan:
-1. Backtrack west across Row 9 to staircase (5, 10) and descend to (5, 11).
-2. Walk west along Row 11 to (2, 11) and north along Western Highway to (2, 6).
-3. Walk east along Row 6 to (5, 6) directly behind the Western Boulder at (5, 5).
-4. Systematically analyze and execute the boulder manipulation to reach ladder (1, 1) to 3F.
+## Action Plan:
+1. Immediately reverse direction at (14, 14): walk north along Column 14 to Row 8, west across Row 8/9 to staircase (5, 10).
+2. Descend staircase (5, 10) to Row 11, walk west to (2, 11), and north up Western Highway to (0, 8).
+3. Transition down ladder (0, 8) to 1F and back to 2F to cleanly reset the Western Boulder to default position (5, 5).
+4. Re-activate Strength with Geodude (ROCKY).
+5. Stay at the Western Boulder and employ `sokoban_analyst` to systematically analyze and solve the chamber entrance without abandoning the puzzle.
+
 
 <hr>
 
