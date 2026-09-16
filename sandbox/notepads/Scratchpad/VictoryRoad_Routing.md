@@ -1,9 +1,9 @@
 # Victory Road Routing Plan (Turn 21062)
 
 ## Current Status:
-- Player position: (8, 1) on Victory Road 3F.
+- Player position: (7, 0) on Victory Road 3F (in wild battle).
 - Strength is ACTIVE (cast via Geodude Turn 21047).
-- Boulder 1: At (7, 1), pushed west along Row 1 Northern Highway.
+- Boulder 1: At (6, 1), successfully reached Column 6 corner.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
