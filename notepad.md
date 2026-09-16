@@ -3827,7 +3827,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Current Status:
 - Player position: (17, 4) on Victory Road 3F elevated terrace; descending to East Lower Floor [Turn 21325].
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
-- Target: Conclude battle, then return to East Lower Floor via elevated terrace and staircase (17, 5).
+- Target: Empirically investigate Boulder 2 at (24, 10) and adjacent passages from East Lower Floor.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
@@ -3841,10 +3841,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Master Execution Strategy:
 1. Defeat Cooltrainer ♀ at (7, 13) [In progress Turn 21271].
 2. Return to East Lower Floor via elevated terrace and staircase (17, 5).
-3. Reach southeast sector containing Pit Hole at (23, 15) and Boulder at (22, 15) via East Lower Floor.
-4. Push boulder into Pit Hole at (23, 15) and jump down to 2F.
-5. On 2F, push fallen boulder onto switch plate to lower exit barrier (23, 14).
-6. Climb ladder at (25, 14) to exit Victory Road to Indigo Plateau!
+3. Empirically inspect Boulder 2 at (24, 10) and test whether it can be pushed east, south, or west.
+4. Survey passage south of Boulder 2 and row 10.
+5. Locate physical hole and boulder to solve 2F exit barrier block.
 
 <hr>
 
@@ -3967,7 +3966,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Ladder to 2F: Located at (23, 7); verified two-way connection to 2F (23, 7) [Turn 20613].
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
-- Pit Hole: Located at (23, 15) in southeast sector [Visually confirmed Turn 20863]. Drops down to Victory Road 2F next to exit barrier.
+- Pit Hole: Unverified hypothesis in southeast sector (exact coordinates unconfirmed).
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
@@ -3987,7 +3986,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
 - Boulder 3: Located at (13, 12); pushed south to (13, 13) with active Strength [Turn 20561].
-- Boulder 4: Located at (22, 15) directly adjacent to Pit Hole at (23, 15) [Visually confirmed Turn 20863]. Pushing East 1 tile drops boulder into hole to 2F.
+- Boulder 4: Unverified entity in southeast sector.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
