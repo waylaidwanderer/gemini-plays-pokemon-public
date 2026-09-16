@@ -1,10 +1,10 @@
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (27, 4) on Victory Road 3F facing South toward Cooltrainer ♂ at (28, 5).
-- Strength is ACTIVE (cast via Geodude Turn 21047).
-- Boulder 1: At (3, 5) ON SWITCH PLATE! Switch is depressed; barrier block is LOWERED.
-- Target: 1 step south to (27, 5) to engage Cooltrainer ♂ at (28, 5) and access the eastern corridor to Boulder 2 at (24, 10).
+- Player position: (27, 5) on Victory Road 3F.
+- NPC at (28, 5): Friendly NPC ("You beat GIOVANNI of TEAM ROCKET?"). Does not battle.
+- Cul-de-sac: (27, 5) and (28, 5) are bounded by rock walls at (26, 5), (27..28, 6), and (29, 5). Northern exit leads back to Row 1.
+- Target: Walk north to Row 1 at (27, 1), then west to investigate Column 23 / Column 20 corridors.
 - Topology Proof: Columns 22-23 (Pit Hole chasm) is walled off on north by Row 9 and west by Column 21. The ONLY entrance is through (24, 10) by pushing Boulder 2 West from Column 25. Column 25 is reached from Northern Highway via Column 28 past Cooltrainer ♂ at (28, 5).
 - Master Plan: Head north to Row 1, east to Column 28, south past Cooltrainer ♂ (28, 5) to (25, 10), push Boulder 2 west into (23, 10), and enter the Pit Hole chasm!
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
