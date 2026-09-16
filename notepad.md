@@ -3831,7 +3831,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - South boundary: Solid cavern wall along row 16.
 - Boulder 3 at (13, 13) is on the other side of the col 12 wall, unreachable from this basin.
 - Basin contents: Cooltrainer ♂ at (5, 14) [Defeated], Cooltrainer ♀ at (7, 13) [Faces East].
-- No other exits or items in this basin.
 
 ## Active Strategy:
 1. Retrace steps west along Row 15 to (1, 15), then north up Column 1 to (1, 10).
@@ -3993,7 +3992,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Trainers
 - Trainer: Cooltrainer at (13, 3) facing South on elevated terrace [Turn 20463].
 - Trainer: Cooltrainer at (5, 14) [Defeated Turn 20759; Team: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43].
-- Trainer: Sighted trainer with green hair at (7, 13) [Turn 20715].
+- Trainer: Cooltrainer ♀ at (7, 13) facing East [Visual audit Turns 20768-20772].
 
 ## Wild Encounters
 - Onix
@@ -4007,8 +4006,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Negative Collision Telemetry
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
-- Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
-- Tile (13, 4): Confirmed safe traversal along Row 4 past NPC at (13, 3) with zero battle trigger [Turn 20493].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
 - Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
