@@ -3826,15 +3826,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block (23, 14): Guarding exit Eastern Ladder (25, 14); lowered only via 3F boulder drop puzzle onto Switch Plate B (9, 16).
 - 3F Access Target: Northwest Chamber Ladder at (1, 1), accessed via Northern Highway (Row 1).
 
-## Active Navigation Route to (1, 1):
-1. Walk east along Row 16 to (28, 16).
-2. Ascend Eastern Vertical Highway (cols 28-29) north to (28, 11).
-3. Walk west along Row 11 to (20, 11).
-4. Walk north up Column 20 to Row 7 at (20, 7).
-5. Walk west along Row 7 to Columns 16-17 at (16, 7).
-6. Walk NORTH up Columns 16-17 into Northern Highway (Row 1).
-7. Walk WEST along Row 1 straight across to (1, 1) and climb ladder to 3F!
-
+## Active Navigation Plan to Tile (23, 7):
+1. Flee wild Zubat at (16, 7).
+2. Walk east along Row 7 from (16, 7) to (23, 7) (7 steps Right).
+3. Step onto tile (23, 7) to verify if it functions as a ladder to 3F.
 
 <hr>
 
