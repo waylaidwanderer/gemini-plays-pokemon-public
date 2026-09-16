@@ -3963,7 +3963,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
 
-- Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
 - Machoke [Turn 20273 at (5, 10)]
@@ -3997,7 +3996,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop [Turn 19903 at (5, 11)]
 
 ## Dynamic Entities Current State
-- Western Boulder at (5, 3): Pushed North from (5, 5) through doorway (5, 4) into (5, 3) on Turn 20203.
+- Western Boulder at (5, 5): Reset to default coordinates at (5, 5) upon map re-entry via ladder (0, 8) [Visually confirmed Turn 20279/20281]. Doorway (5, 4) is open.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
