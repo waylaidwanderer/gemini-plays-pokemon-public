@@ -3825,7 +3825,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Reached (10, 10) facing South [Turn 20501].
 - Bump test into (10, 11) confirmed Row 11 is a solid rock wall (disproved jump ledge hypothesis).
 - Visually verified Row 10 is 100% open terrace floor extending west across cols 9, 8, 7, 6.
-- Current Position: (10, 10) facing South.
+- Advanced west along Row 10 terrace to (8, 10) facing West [Turn 20502].
+- Current Position: (8, 10) facing West.
 
 ## Active Routing Strategy:
 1. Walk west along Row 10 across (9, 10), (8, 10), (7, 10), (6, 10) into western sector.
@@ -4036,7 +4037,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
 - Zubat (observed Turns 19468, 19673; Turn 20476 at (21, 7))
 - Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454)
-- Machop (observed Turns 19565, 19729, 19767, 19829; Turn 20473 at (21, 4); Turn 20488 at (17, 6); Turn 20495 at (10, 5); Turn 20498 at (10, 8))
+- Machop (observed Turns 19565, 19729, 19767, 19829; Turn 20473 at (21, 4); Turn 20488 at (17, 6); Turn 20495 at (10, 5); Turn 20498 at (10, 8); Turn 20502 at (8, 10))
 - Golbat (observed Turns 19658, 19733)
 - Graveler (observed Turn 20459 at (12, 0))
 
