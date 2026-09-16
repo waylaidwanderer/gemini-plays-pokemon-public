@@ -1,11 +1,11 @@
 # Victory Road 3F Routing Plan (Turn 20821)
 
 ## Current Status:
-- Player position: (15, 2) on terrace, facing East.
-- Bypassed south-facing Cooltrainer at (13, 3) along Row 2 with zero battle trigger.
-- Wooden staircase sighted at (17, 5) connecting terrace (17, 4) down to lower floor (17, 6).
+- Player position: (17, 6) on lower cavern floor, facing South.
+- Successfully descended wooden staircase at (17, 5) from terrace.
+- Row 6 and Row 7 form open east-west corridor leading to eastern passages (cols 20-22).
 
 ## Active Strategy:
-1. Walk east to (17, 2) and south down Column 17 to descend staircase at (17, 5) to (17, 6).
-2. Explore eastern sector (cols 18-25, rows 6-16) to survey Boulder 2, Boulder 4, and locate the drop hole.
+1. Walk east along Row 7 to (21, 7), then south to (21, 8).
+2. Explore eastern sector (cols 20-25, rows 8-16) to survey Boulder 2 at (24, 10), Boulder 4 at (22, 15), and locate the drop hole.
 3. Push boulder into hole and drop down to 2F to lower the exit barrier.
