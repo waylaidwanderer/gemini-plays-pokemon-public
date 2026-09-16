@@ -4007,5 +4007,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
 - Boulder 3 at (13, 13): Immovable to the south; tile (13, 14) is a solid rock wall [Empirically verified Turn 20630].
+- Switch Plate at (3, 5): Verified un-depressed floor switch plate. Requires boulder to depress.
+- Boulder 1: Pushed north from (22, 3) to (22, 2) [Turn 20655]. Routing along Row 1 toward Switch Plate (3, 5).
 
 <hr>
