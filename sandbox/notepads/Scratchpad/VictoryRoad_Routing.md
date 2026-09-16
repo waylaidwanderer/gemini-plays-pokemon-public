@@ -1,15 +1,15 @@
-# Victory Road 3F Routing Plan (Turn 20627)
+# Victory Road 3F Routing Plan (Turn 20631)
 
 ## Current Status:
-- Position: (20, 11) on 3F.
-- Proved (20, 12) is a solid rock wall (bump-tested Turn 20627).
-- Southern basin (rows 13-15) is entered through the Column 13 gateway (Boulder 3).
-- Boulder 3 was pushed from (13, 12) to (13, 13) on Turn 20561. Tile (13, 12) is cleared!
+- Position: (13, 12) facing South.
+- Verified: Boulder 3 at (13, 13) is permanently blocked to the south by rock wall (13, 14).
+- Gateway (13, 12) is an exit pocket from the south, not an entrance from the north.
+- Target: Navigate to Columns 26-28 via Northern Highway (Row 0) to access Column 25, Ladder (26, 8), and the southern basin with Boulder 4.
 - Strength Status on 3F: ACTIVE (confirmed Turn 20618).
 
 ## Active Routing Strategy:
-1. Walk West along Row 11 from (20, 11) to (13, 11) [7 steps Left].
-2. Step South into cleared tile (13, 12) [1 step Down].
-3. Push Boulder 3 South from (13, 13) into (13, 14) to clear access to Row 13.
-4. Advance into Row 13, traverse East to Boulder 4 at (22, 15) and pit hole at (23, 15).
-5. Push Boulder 4 into pit hole (23, 15), jump down to 2F, and complete exit route to Indigo Plateau!
+1. Walk North to (13, 11) and East along Row 11 to Column 20 at (20, 11).
+2. Walk North up Column 20 to Row 0 at (20, 0).
+3. Traverse East along Row 0 past Column 20 to Column 28.
+4. Head South down Column 28 past Cooltrainer ♂ at (28, 5) into Column 25.
+5. In Column 25, access Ladder (26, 8), push Boulder 2 at (24, 10), and complete the 2F drop puzzle!
