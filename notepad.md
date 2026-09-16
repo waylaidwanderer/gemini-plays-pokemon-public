@@ -3829,7 +3829,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Columns 28-30 are solid rock walls from Row 0 downwards (no eastern exit from Row 0).
 
 ## Execution Sequence:
-- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (1, 10) on southwest lower cavern floor.
+- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (4, 12) on southern basin floor.
 4. [x] Barrier block at (7, 10) confirmed LOWERED and passable [Turn 20715]!
 5. [x] Tile (6, 10) reached; confirmed (6, 9) is elevation wall bounding the alcove [Turn 20720].
 5. [x] Tile (5, 10) confirmed PASSABLE [Turn 20734]! Connects north to (5, 8).
