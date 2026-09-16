@@ -3825,10 +3825,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Routing Plan (Turn 21011)
 
 ## Current Status:
-- Player position: (26, 11) on Victory Road 2F.
-- Strength is INACTIVE (reset upon floor transition).
-- 3F Puzzle Status: Reset to default initial positions upon descending to 2F.
-- 2F Northeast Ladder (27, 7): Empirically confirmed sealed by solid rock walls on all sides; unreachable from 2F. All progress requires ascending back to 3F.
+- Player position: (23, 7) on Victory Road 3F.
+- Strength is INACTIVE (ready to cast via Geodude).
+- Boulder 1: At (22, 3) in starting position.
+- Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
+- Northeast Ladder on 3F: Located at (26, 8).
+- Exit connection to 2F: Ladder at (23, 7).
 
 ## Verified Physical Topology (All Hypotheses Tested):
 - Row 9 (Cols 21-24): Solid purple rock wall directly south of (22..23, 8), completely sealing channel from the north.
