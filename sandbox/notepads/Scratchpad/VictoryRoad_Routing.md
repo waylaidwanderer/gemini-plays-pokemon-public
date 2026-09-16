@@ -1,19 +1,14 @@
-# Victory Road Routing Plan (Turn 21391)
+# Victory Road Routing Plan (Turn 21452)
 
 ## Current Status:
-- Player position: (23, 3) on 3F; Strength ACTIVATED by ROCKY; closing menu [Turn 21417].
-- Priority Plan: Push Boulder 1 onto switch (3, 5) to lower barrier (7, 10), then explore unexplored columns 1-4 of southwest basin to locate pit hole.
-- Eastern Alcove Audit: Verified row 6 across cols 24-31 is solid rock wall. Alcove ends at row 5 (dead end).
-- Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
-- Northeast Ladder on 3F: Located at (26, 8).
-- Exit connection to 2F: Ladder at (23, 7).
-
-## Physical Topology & Observations:
-- Elevated Terrace (Cols 9-18, Rows 2-10): Reached via wooden staircase at (17, 5). Contains Advice NPC at (13, 3). Connects west and south to (10, 10) and lowered barrier at (7, 10).
-- Column 20 Corridor: Open passage connecting row 1 to row 11; terminated at (20, 12) by rock wall. Does not connect south into rows 13-15.
-- 2F Northeast Ladder (27, 7): Confirmed sealed on 2F by solid rock walls on all sides; all progression must be solved on 3F.
+- Player position: (16, 1) on 3F facing West; Strength is ACTIVE.
+- Boulder 1 position: (14, 1) on Row 1 (abandoned; southwest basin was already cleared Turns 20716-21306).
+- Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin. Both Cooltrainers defeated. No hole or boulder exists in that basin.
+- Eastern Corridor & Boulder 2: Priority objective is Boulder 2 at (24, 10) and the eastern corridor/chasm.
 
 ## Master Execution Strategy:
+1. Turn East along Row 1 and navigate back to Column 20 / Column 23.
+2. Head South down Column 20 / 23 to Row 10.
 3. Empirically inspect Boulder 2 at (24, 10) and test whether it can be pushed east, south, or west.
-4. Survey passage south of Boulder 2 and row 10.
-5. Locate physical hole and boulder to solve 2F exit barrier block.
+4. Survey passage south of Boulder 2 and locate the physical hole dropping to 2F.
+5. Push Boulder 2 into the hole, jump down after it to 2F, and solve the 2F exit barrier block.
