@@ -14,7 +14,6 @@
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
-- Eastern Sector: Columns 9 through 11+ connect south from the Northern Highway at rows 0-1.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11+.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Boulder 1: Located at (22, 3) in northeast sector [Sighted Turn 20469].
@@ -26,6 +25,7 @@
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
+- Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Turn 20587].
 - Row 10 Western Terrace Corridor: Connects column 10 westward to (8, 10), terminated at (7, 10) by solid obstacle [Turn 20509].
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 
@@ -33,13 +33,13 @@
 - Trainer: Sighted Cooltrainer NPC at (13, 3) [Turn 20463].
 
 ## Wild Encounters
-- Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
-- Zubat (observed Turns 19468, 19673; Turn 20476 at (21, 7))
-- Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454; Turn 20537 at (17, 6); Turn 20572 at (19, 0); Turn 20578 at (13, 0))
-- Machop (observed Turns 19565, 19729, 19767, 19829; Turn 20473 at (21, 4); Turn 20488 at (17, 6); Turn 20495 at (10, 5); Turn 20498 at (10, 8); Turn 20502 at (8, 10); Turn 20601 at (6, 3))
-- Golbat (observed Turns 19658, 19733)
-- Graveler (observed Turn 20459 at (12, 0))
-- Machoke (observed Turn 20544 at (14, 6))
+- Onix
+- Zubat
+- Geodude
+- Machop
+- Golbat
+- Graveler
+- Machoke
 
 ## Negative Collision Telemetry
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
