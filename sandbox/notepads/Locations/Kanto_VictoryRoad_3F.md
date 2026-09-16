@@ -46,6 +46,7 @@
 - Machoke
 
 ## Negative Collision Telemetry
+- Tile (12, 15): Impassable solid rock wall directly east of (11, 15) with 0 movement delta [Empirically verified Turn 20799].
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
