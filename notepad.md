@@ -2838,8 +2838,46 @@
 
 <h1><code>Locations/CeruleanCave1F</code></h1>
 
-- Northwest Corridor (Turn 51951): Ladder E at (7, 1) connects West along Row 1 (6..3, 1) into the open Column 3 corridor (rows 0..11) leading straight south to the Southwest Ladder at (3, 11)!
-- (4, 0..3) and (5, 3) confirmed solid purple rock barriers terminating Northern Terrace west of Column 5 (Turn 51953).
+# Cerulean Cave (Unknown Dungeon) 1F - Layout & Topology
+
+## Overview
+- Ground floor of Cerulean Cave featuring intricate waterways, isolated terraces, ramps, and multiple ascending ladders to 2F.
+
+## Verified Sectors, Terraces & Ladders
+1. **Cave Entrance & Southeast Water Basin**:
+   - Cave Entrance from Cerulean City/Route 24 waterway at (24, 17) / (25, 17).
+   - Southern Water Basin: Expansive water body spanning rows 16..19 across cols 13..20+ and connecting towards the southwest.
+   - Ladder B Terrace Ramp: Located at (25, 9) facing south into water at (25, 10).
+   - Ladder B at (23, 7) <-> 2F SE Sector (22, 6).
+   - Land connection across Row 11: (18, 11) connects directly East across (21, 11) elevation step to (22..23, 11) and Ladder B (23, 7).
+
+2. **Northeast Terrace & North Canal**:
+   - Ladder D at (27, 1) <-> 2F NE Sector (29, 1).
+   - Northeast Terrace Ramp: Located at (23, 3) facing south into North Canal at (23, 4).
+   - North Canal runs across Row 4 (cols 28..14), connecting Northeast Terrace Ramp (23, 3) to Northwest Ramp at (15, 3).
+   - Row 4 North Canal terminates west at Column 14 ((13, 4..5) is solid rock).
+
+3. **Northwest Terrace**:
+   - Northwest Ramp at (15, 3) connects North Canal to Northern Terrace at (15, 2).
+   - Northern Terrace runs west along Row 2 across cols 15..5.
+   - Ladder E at (7, 1) <-> 2F Northern Ridge (9, 1).
+   - (4, 0..3) and (5, 3) are solid purple rock barriers terminating Northern Terrace west of Column 5.
+
+4. **South-Central Terrace**:
+   - South-Central Terrace spans rows 8..14 (cols 11..18).
+   - Contains Ladder C at (18, 9) <-> 2F (19, 7).
+   - (17, 12) and (17, 13) are solid rock barriers blocking westward passage from (18, 12..13).
+   - (17, 15) is an elevated cliff ledge overlooking water ("No SURFing on HYDROS here!").
+
+5. **Southwest Water Basin & Southwest Ladder (3, 11)**:
+   - Ladder observed at (3, 11) in the southwest corner of 1F.
+   - Frontier: Access via the Southern Waterway (rows 16..19) extending west from (13..17, 16..17).
+
+## Verified Collisions & Negative Constraints
+- (24, 13) and (25, 13) are solid rock rubble barriers.
+- (7, 15) and (7, 14) are solid rock barriers blocking westward Surf from Column 8 into southwest basin.
+- (17, 12) and (17, 13) confirmed solid rock barriers.
+
 
 <hr>
 
@@ -2953,17 +2991,21 @@
 
 # Scratchpad: Cerulean Cave Routing & Frontier Ledger
 
-## Current Position & Status (Turn 51951)
-- **Location**: (7, 1) at Ladder E on Cerulean Cave 1F.
+## Current Position & Status (Turn 51961)
+- **Location**: (24, 8) on Ladder B Terrace on Cerulean Cave 1F.
 - **Equipment**: Master Ball x1 in Bag (Slot 18); Lead: HYDROS (Blastoise Lv 95).
 
-## Verified Direct Highway to Southwest Ladder (3, 11) & Mewtwo
-1. **1F Western Highway**:
-   - Walk West from Ladder E (7, 1) across Row 1: (6, 1) -> (5, 1) -> (4, 1) -> (3, 1).
-   - Walk South straight down Column 3: (3, 2..11) directly to Southwest Ladder at (3, 11)!
-2. **Southwest Ladder (3, 11) Destination**:
-   - Climb/descend Southwest Ladder at (3, 11) to access the Ladder A sector / B1F Mewtwo chamber.
-   - Capture Mewtwo with the Master Ball!
+## Active Objective & Frontier: 1F Southwest Waterway to Ladder (3, 11)
+- Ladder B (22, 6) on 2F is confirmed closed off from the western highways (Row 10, Row 14, (16, 14), (18, 12) are solid rock).
+- Ladder E (9, 1) on 2F is confirmed closed off from the western highways ((8, 5), (7, 4), (16, 8) are solid rock).
+- The Southwest Ladder at (3, 11) on 1F is the canonical access route to the 2F Ladder A sector and B1F Mewtwo!
+- Plan:
+  1. From (24, 8), walk Right to (25, 8) and Down to Ramp at (25, 9).
+  2. Activate SURF into water at (25, 10).
+  3. Surf South down Column 25 to Row 16/17 (25, 16..17).
+  4. Surf West through the Southern Water Basin (rows 16..19, cols 25..3) all the way to Column 3!
+  5. Surf North up Column 3 to reach the Southwest Ladder at (3, 11)!
+  6. Climb ladder to access Ladder A (1, 3) / B1F Mewtwo chamber!
 
 
 <hr>
