@@ -115,6 +115,7 @@
 
 
 ## Wild Encounters (Recent Observations)
+- Onix [Turn 20317 at (5, 9)]
 - Machoke [Turn 20273 at (5, 10)]
 - Machoke [Turn 20247 at (15, 7)]
 - Zubat [Turn 20243 at (21, 11)]
