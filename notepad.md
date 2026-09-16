@@ -4035,5 +4035,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
 - Boulder 1: Located at (22, 3) in northeast sector [Sighted Turn 20469].
 - Ladder to 2F: Confirmed visually at (23, 7) [Turn 20471; open access from north and west].
+- Dual Eastern Ladders: Both (23, 7) and (26, 8) ladders visually confirmed on screen [Turn 20475].
 
 <hr>
