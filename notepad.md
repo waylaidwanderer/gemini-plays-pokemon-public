@@ -3983,7 +3983,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop [Turn 19903 at (5, 11)]
 
 ## Dynamic Entities Current State
-- Western Boulder at (5, 5): Cleanly reset to default coordinates (5, 5) via 1F ladder transition on Turn 20198.
+- Western Boulder at (5, 3): Pushed North from (5, 5) through doorway (5, 4) into (5, 3) on Turn 20203.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
