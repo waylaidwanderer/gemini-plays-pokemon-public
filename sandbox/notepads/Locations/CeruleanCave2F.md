@@ -8,8 +8,8 @@
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo). Accessible ONLY via Southwest Ladder (3, 11) on 1F -> 2F SW Sector.
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9). 2F arrival spawn at (19, 7) / (18, 7).
-   - Passable Corridor: Open floor corridor extends NORTH along column 19 across rows 6 -> 5 -> 4 -> 3 -> 2.
-   - Negative Proof: (19, 8) is solid rock wall; cannot walk south from Ladder C.
+   - Passable Corridor: Walk North along column 19 (19, 6 -> 19, 5), turn East to (20, 5) -> (21, 5), North to (21, 4), East to (22, 4), and North along col 22 across rows 3 -> 2 -> 1 into northern 2F passages!
+   - Negative Proof: (19, 8) and (19, 4) are solid rock walls.
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
 6. **Southwest Ladder**: Connects from 1F (3, 11) -> 2F SW Sector (cols 0-7, rows 0-5).
