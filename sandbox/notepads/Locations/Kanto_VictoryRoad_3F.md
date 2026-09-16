@@ -45,6 +45,7 @@
 - Golbat
 - Graveler
 - Machoke
+- Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
 - Tile (12, 14): Impassable solid rock wall directly east of (11, 14) with 0 movement delta [Empirically verified Turn 20804].

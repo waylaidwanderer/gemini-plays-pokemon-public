@@ -3822,22 +3822,28 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 20912)
+# Victory Road Routing Plan (Turn 20942)
 
 ## Current Status:
-- Player position: (23, 7) on Victory Road 3F.
-- Boulder 2 is at (24, 10).
-- Strength being cast right now from party menu.
-- Note on Southern Basin: Empirically verified terminal dead end on Turns 20798-20804 (solid rock wall across Column 12 at 12, 14 and 12, 15).
+- Player position: (13, 11) on Victory Road 3F.
+- Strength is ACTIVE (Geodude).
+- Boulder 1 is at (22, 3).
+- Boulder 3 is at (13, 13) (blocks column 13).
+- Barrier block at (7, 10) is currently raised.
 
-## Verified Eastern Sector Solution:
-1. Cast HM04 Strength with Geodude (ROCKY) from party menu.
-2. From (23, 7), traverse North up Column 23 to Row 1 (23, 1).
-3. Move East along Row 1 (Northern Highway) to Column 25 (25, 1).
-4. Move South down Column 25 past Row 5 (defeating Cooltrainer ♂ at 28, 5 if engaged) to (25, 10).
-5. Stand at (25, 10) facing West and push Boulder 2 West through (24, 10) into the enclosed chasm (cols 22-23).
-6. Enter chasm and advance South down columns 22-23 to Boulder 4 at (22, 15) and Pit Hole at (23, 15).
-7. Stand at (21, 15) facing East and push Boulder 4 East into Pit Hole (23, 15).
+## Verified Topology & Findings:
+- Column 13: Impassable to the south. Pushing Boulder 3 south to (13, 13) traps it against wall (13, 14) and rock walls at (12, 12), (14, 12).
+- Northeast Alcove: Impassable to the south. Row 6 is an unbroken rock wall from Column 24 to 32.
+- The True Route: Boulder 1 must be pushed onto switch plate (3, 5) to lower barrier (7, 10). Passage to Boulder 4 at (22, 15) is through barrier (7, 10), down stairs (1, 9), and around the southern perimeter of the lower basin.
+
+## Active Strategy:
+1. Return east to Column 20 / Northern Highway.
+2. Advance to Boulder 1 at (22, 3).
+3. Push Boulder 1 along verified path: (22, 3) -> Row 1 -> (6, 1) -> (6, 2) -> (2, 2) -> (2, 5) -> push East onto switch plate (3, 5).
+4. Depressing switch plate (3, 5) lowers barrier block at (7, 10).
+5. Traverse through (7, 10), across southwest terrace, and descend stairs at (1, 9) into southwest basin.
+6. Advance through southwest basin around the southern edge to reach Boulder 4 at (22, 15) and Pit Hole at (23, 15).
+7. Push Boulder 4 East into Pit Hole (23, 15).
 8. Jump into Pit Hole (23, 15) to drop down to Victory Road 2F.
 9. On 2F, push the fallen boulder onto the switch plate to lower exit barrier at (23, 14).
 10. Climb ladder at (25, 14) behind lowered barrier to exit Victory Road to Route 23 North / Indigo Plateau!
@@ -4004,6 +4010,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Golbat
 - Graveler
 - Machoke
+- Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
 - Tile (12, 14): Impassable solid rock wall directly east of (11, 14) with 0 movement delta [Empirically verified Turn 20804].
