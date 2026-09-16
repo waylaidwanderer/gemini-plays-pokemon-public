@@ -1,8 +1,8 @@
 # Victory Road Routing Plan (Turn 21243)
 
 ## Current Status:
-- Player position: (10, 6) on Victory Road 3F (Elevated Terrace) [Turn 21247].
-- Target: Walk south down Column 10 to (10, 10), then west through lowered barrier (7, 10) into Southwest basin.
+- Player position: (10, 8) on Victory Road 3F (in wild Venomoth battle) [Turn 21249].
+- Target: Flee from wild Venomoth, then walk south to (10, 10) and west through lowered barrier (7, 10) into Southwest basin.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
