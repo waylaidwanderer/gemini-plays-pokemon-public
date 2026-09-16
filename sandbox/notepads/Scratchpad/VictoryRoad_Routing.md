@@ -2,8 +2,9 @@
 
 ## Current Status:
 - Ascended staircase at (17, 5) to (17, 4) [Turn 20491].
-- Empirically traversed Row 4 terrace west from (17, 4) to (13, 4); NPC at (13, 3) confirmed non-hostile [Turn 20493].
-- Current Position: (13, 4) facing West.
+- Empirically traversed Row 4 terrace west all the way to (10, 4) [Turn 20495].
+- Turned South into Column 10 corridor; arrived at (10, 5) facing South [Turn 20495].
+- Current Position: (10, 5) facing South.
 
 ## Active Routing Strategy:
 1. Ascend wooden staircase at (17, 5) onto Row 4 elevated terrace at (17, 4).

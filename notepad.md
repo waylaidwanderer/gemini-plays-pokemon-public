@@ -3823,8 +3823,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Current Status:
 - Ascended staircase at (17, 5) to (17, 4) [Turn 20491].
-- Empirically traversed Row 4 terrace west from (17, 4) to (13, 4); NPC at (13, 3) confirmed non-hostile [Turn 20493].
-- Current Position: (13, 4) facing West.
+- Empirically traversed Row 4 terrace west all the way to (10, 4) [Turn 20495].
+- Turned South into Column 10 corridor; arrived at (10, 5) facing South [Turn 20495].
+- Current Position: (10, 5) facing South.
 
 ## Active Routing Strategy:
 1. Ascend wooden staircase at (17, 5) onto Row 4 elevated terrace at (17, 4).
@@ -4038,7 +4039,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
 - Zubat (observed Turns 19468, 19673; Turn 20476 at (21, 7))
 - Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454)
-- Machop (observed Turns 19565, 19729, 19767, 19829; Turn 20473 at (21, 4); Turn 20488 at (17, 6))
+- Machop (observed Turns 19565, 19729, 19767, 19829; Turn 20473 at (21, 4); Turn 20488 at (17, 6); Turn 20495 at (10, 5))
 - Golbat (observed Turns 19658, 19733)
 - Graveler (observed Turn 20459 at (12, 0))
 
