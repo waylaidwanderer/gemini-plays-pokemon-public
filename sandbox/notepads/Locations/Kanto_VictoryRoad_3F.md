@@ -36,3 +36,4 @@
 - Ladder to 2F: Confirmed visually at (23, 7) [Turn 20471; open access from north and west].
 - Dual Eastern Ladders: Both (23, 7) and (26, 8) ladders visually confirmed on screen [Turn 20475].
 - Boulder 3: Located at (13, 12) in vertical gap between rock walls at (12, 12) and (14, 12) [Sighted Turn 20480].
+- Ledges at (9, 11) and (10, 11): South-facing jump ledges connecting elevated terrace down into Southwestern Passage (rows 12-14) [Sighted Turn 20483].

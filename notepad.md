@@ -3825,9 +3825,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Arrived on Victory Road 3F via NW ladder (2, 0) [Turn 20452].
 - Arrived at (20, 10) via Column 20 corridor.
 - Confirmed Row 10/11 is a wide open east-west thoroughfare leading west.
-- Sighted Boulder 3 at (13, 12) plugging Row 12 corridor gap.
-- Current Position: (16, 10) facing West.
-- Advancing west along Row 10 to (12, 10) to scout Column 11 and western sector.
+- Verified Column 11 solid rock wall (rows 6-11) separating central floor from cols 9-10 terrace.
+- Sighted south-facing jump ledges at (9, 11) and (10, 11) leading into Southwestern Passage (rows 12-14).
+- Current Position: (12, 10) facing West.
+- Routing North along Column 12 toward rows 2-3 to enter columns 9-10 terrace.
 
 ## Active Routing Strategy:
 1. Advance East along Row 0 across cols 14-17 to reach Column 20 corridor.
@@ -4039,5 +4040,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder to 2F: Confirmed visually at (23, 7) [Turn 20471; open access from north and west].
 - Dual Eastern Ladders: Both (23, 7) and (26, 8) ladders visually confirmed on screen [Turn 20475].
 - Boulder 3: Located at (13, 12) in vertical gap between rock walls at (12, 12) and (14, 12) [Sighted Turn 20480].
+- Ledges at (9, 11) and (10, 11): South-facing jump ledges connecting elevated terrace down into Southwestern Passage (rows 12-14) [Sighted Turn 20483].
 
 <hr>
