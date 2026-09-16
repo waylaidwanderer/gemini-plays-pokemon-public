@@ -151,7 +151,5 @@
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
-- Tile (4, 4): Confirmed solid rock wall (bump test Turn 19918).
 - Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
-- Tile (5, 2): Confirmed solid rock wall (boulder cannot move north of (5, 3)).
 - Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
