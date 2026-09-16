@@ -3833,10 +3833,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
 ## Execution Sequence:
-1. Walk from (25, 0) via (25, 3) -> (23, 3) -> (23, 4) -> (22, 4).
-2. [x] Face North at (22, 4) and push Boulder 1 to (22, 2), then to (22, 1) [Done Turn 20657].
-3. Step around to (23, 1) and push West along Row 1 toward the western sector.
-4. Route Boulder 1 onto Switch Plate at (3, 5) to depress switch and lower barrier!
+- Boulder 1 current position: (7, 1). Player position: (8, 1) facing West.
+1. Push Boulder 1 West into (6, 1).
+2. Loop around via Row 0: walk Right to (8, 1), Up to (8, 0), Left to (6, 0).
+3. Face South at (6, 0) and push Boulder 1 into (6, 2) at the West Cross-Corridor entrance.
+4. Position at (7, 2) facing West, and push Boulder 1 West along Row 2 through (5, 2) and (4, 2) toward Column 2.
+5. Route Boulder 1 down Column 2 to test depression of circular tile (3, 5).
 
 <hr>
 
@@ -3972,7 +3974,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11+.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Boulder 1: Located at (22, 3) in northeast sector [Sighted Turn 20469].
+- Boulder 1: Started at (22, 3); pushed along Row 1 to current position (7, 1) [Turn 20669].
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
@@ -4007,7 +4009,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
 - Boulder 3 at (13, 13): Immovable to the south; tile (13, 14) is a solid rock wall [Empirically verified Turn 20630].
-- Switch Plate at (3, 5): Verified un-depressed floor switch plate. Requires boulder to depress.
-- Boulder 1: Pushed north from (22, 3) to (22, 2) [Turn 20655]. Routing along Row 1 toward Switch Plate (3, 5).
 
 <hr>
