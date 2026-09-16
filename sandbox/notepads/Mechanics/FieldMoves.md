@@ -40,3 +40,6 @@
 - **Badge Requirement:** Soulbadge (Koga) - mandatory.
 - **Direct Surf from Bicycle:** In retail Pokémon Blue, the player can initiate the field move SURF directly from the party menu while mounted on the Bicycle. The game does not prompt or require manual dismounting beforehand; executing SURF transitions the player directly into the Surfing state. [Empirically confirmed Turns 13644-13645]
 - **East Shoreline Launch:** Surfing can be initiated facing west into an eastern shoreline tile (empirically confirmed Turn 13645 at Pallet Town (8, 15) facing (7, 15)).
+
+## Map Transition Mechanics
+- **Strength Status Reset on Map/Floor Change:** In retail Generation 1 Pokémon, changing floors via ladders, stairs, or map transitions immediately resets the active field move status of HM04 Strength to inactive. Strength must be re-cast from the party Pokémon menu on the new floor before boulders can be pushed [Empirically verified Turns 20452, 20525, 20559].
