@@ -3999,6 +3999,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machoke
 
 ## Negative Collision Telemetry
+- Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
 - Tile (13, 4): Confirmed safe traversal along Row 4 past NPC at (13, 3) with zero battle trigger [Turn 20493].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
