@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21243)
 
 ## Current Status:
-- Player position: (13, 4) on Victory Road 3F elevated terrace; heading down staircase at (17, 5) [Turn 21319].
+- Player position: (17, 4) on Victory Road 3F elevated terrace; descending to East Lower Floor [Turn 21325].
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
 - Target: Conclude battle, then return to East Lower Floor via elevated terrace and staircase (17, 5).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
