@@ -14,6 +14,7 @@
   - Ladder C: Located at (18, 9) -> Ascends to 2F (19, 7).
 - East Ramp: Located at (25, 9) connecting middle terrace to eastern water canal at (25, 10).
 - Eastern Water Canal: Spans cols 28-29 (rows 4-11) and cols 24-27 (rows 4-5, 10-11).
-- Northern Water Canal: Runs horizontally along rows 4-5 across cols 24-29, connecting the eastern water canal to the western waterways.
+- Northern Water Canal (Main Water Highway): Continuous water channel spanning rows 4-7 from col 29 all the way west across the entire floor (cols 10-29 verified).
+- Northern Terrace Ramp: Located at (15, 3) connecting northern terrace (15, 2) to water canal at (15, 4).
 - Ladder D Platform: Located at (27, 1) on northern elevated ledge, separated from rows 4-5 water by rock wall at row 3 (cols 25-28).
 - Eastern Boundary: Solid rock wall along col 30 (rows 1-15).
