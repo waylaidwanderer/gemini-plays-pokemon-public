@@ -108,44 +108,6 @@
 
 - Wall at (22, 15): Solid rock wall directly south of (22, 14) [Empirically verified Turn 20344 via direct bump test].
 
-## Wild Encounters (Recent Observations)
-- Onix [Turn 20432 at (6, 2)]
-- Onix [Turn 20424 at (20, 4)]
-- Onix [Turn 20409 at (10, 2)]
-- Zubat [Turn 20380 at (16, 7)]
-- Geodude [Turn 20357 at (28, 11)]
-- Machop [Turn 20347 at (21, 16)]
-- Onix [Turn 20317 at (5, 9)]
-- Machoke [Turn 20273 at (5, 10)]
-- Machoke [Turn 20247 at (15, 7)]
-- Zubat [Turn 20243 at (21, 11)]
-- Geodude [Turn 20219 at (21, 16)]
-- Onix [Turn 20215 at (21, 16)]
-- Onix [Turn 20212 at (14, 12)]
-- Geodude [Turn 20207 at (2, 6)]
-- Onix [Turn 20188 at (14, 14)]
-- Onix [Turn 20181 at (5, 6)]
-- Geodude [Turn 20154 at (5, 10)]
-- Machoke [Turn 20146 at (4, 11)]
-- Onix [Turn 20142 at (5, 9)]
-- Machop [Turn 20137 at (21, 15)]
-- Machop [Turn 20111 at (2, 9)]
-- Geodude [Turn 20118 at (4, 11)]
-- Zubat [Turn 20126 at (17, 16)]
-- Onix [Turn 20036 at (5, 6)]
-- Golbat [Turn 20041 at (2, 6)]
-- Zubat [Turn 20051 at (7, 5)]
-- Zubat [Turn 20060 at (2, 8)]
-- Geodude [Turn 20071 at (9, 9)]
-- Zubat [Turn 20076 at (5, 9)]
-- Zubat [Turn 20082 at (0, 7)]
-- Graveler [Turn 20065 at (5, 11)]
-- Machop [Turn 19864 at (26, 11)]
-- Zubat [Turn 19884 at (10, 16)]
-- Golbat [Turn 19887 at (13, 16)]
-- Onix [Turn 19896 at (14, 8)]
-- Machop [Turn 19903 at (5, 11)]
-
 ## Dynamic Entities Current State
 - Western Boulder at (5, 3): Pushed North from (5, 5) into (5, 4) and then (5, 3) on Turns 20298-20300. Blocks row 3 access from doorway (5, 4).
 
