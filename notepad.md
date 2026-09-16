@@ -4026,8 +4026,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
-- Row 10 Western Terrace Corridor: Connects column 10 westward to (8, 10), blocked at (7, 10) by raised barrier block [Empirically verified Turn 20509].
-- Barrier Block at (7, 10): Confirmed solid obstacle / raised barrier block blocking westward passage from (8, 10) to (6, 10) [Empirically verified Turn 20509 via bump test].
+- Row 10 Western Terrace Corridor: Connects column 10 westward to (8, 10), terminated at (7, 10) by solid obstacle [Turn 20509].
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 
 ## Trainers
@@ -4043,6 +4042,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Negative Collision Telemetry
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
+- Tile (13, 4): Confirmed safe traversal along Row 4 past NPC at (13, 3) with zero battle trigger [Turn 20493].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
+- Tile (7, 10): Confirmed solid obstacle / impassable from (8, 10) facing West with 0 movement delta [Turn 20509].
 
 <hr>
