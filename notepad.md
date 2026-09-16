@@ -3821,8 +3821,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20071)
-- Location: Victory Road 2F on the purple plateau at (9, 9).
+## Current Status (Turn 20087)
+- Location: Victory Road 1F at ladder (1, 1), returning to 2F (0, 8).
+- Western Boulder: Cleanly reset to default coordinates (5, 5) via Turn 20087 1F transition.
 - Western Boulder: Pushed North into (5, 3) on Turn 20029 with Strength active.
 - Empirical Verification at Western Sector:
   - (5, 2) is a solid rock wall (Turn 20046 bump). Boulder at (5, 3) cannot move North.
@@ -3982,7 +3983,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machop [Turn 19903 at (5, 11)]
 
 ## Dynamic Entities Current State
-- Western Boulder at (5, 3): Pushed North through doorway (5, 4) into (5, 3) on Turn 20029 with Strength active.
+- Western Boulder at (5, 5): Cleanly reset to default coordinates (5, 5) via 1F ladder transition on Turn 20087.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
