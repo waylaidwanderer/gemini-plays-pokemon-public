@@ -3825,9 +3825,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Routing Plan (Turn 21062)
 
 ## Current Status:
-- Player position: (5, 2) on Victory Road 3F.
+- Player position: (4, 2) on Victory Road 3F.
 - Strength is ACTIVE (cast via Geodude Turn 21047).
-- Boulder 1: At (4, 2), pushing west along Row 2 to Column 2 corner (2, 2).
+- Boulder 1: At (3, 2), pushing west to (2, 2) and positioning north at (2, 1).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
