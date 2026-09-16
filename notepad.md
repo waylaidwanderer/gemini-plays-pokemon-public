@@ -3829,11 +3829,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Columns 28-30 are solid rock walls from Row 0 downwards (no eastern exit from Row 0).
 
 ## Execution Sequence:
-- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (4, 8) facing West on southwest terrace.
+- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (1, 10) on southwest lower cavern floor.
 4. [x] Barrier block at (7, 10) confirmed LOWERED and passable [Turn 20715]!
 5. [x] Tile (6, 10) reached; confirmed (6, 9) is elevation wall bounding the alcove [Turn 20720].
 5. [x] Tile (5, 10) confirmed PASSABLE [Turn 20734]! Connects north to (5, 8).
-6. Walk north to (5, 8), west across Row 8 to (1, 8), and descend Wooden Staircase at (1, 9).
+6. [x] Traversed southwest terrace to (1, 8) and descended Wooden Staircase at (1, 9) to (1, 10) [Turn 20741]!
+7. Explore southern basin (rows 11-15, cols 1-14) to inspect entity at (6, 14), trainer at (7, 13), Boulder 3 at (13, 12), and find the exit hole.
 6. Explore Main Avenue (Cols 6-7) from Row 0 to reach Item Ball at (7, 7) and Pit Hole at (7, 8).
 
 <hr>
@@ -3981,7 +3982,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
-- Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Turn 20587].
+- Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
 - Row 10 Western Terrace Corridor: Connects column 10 westward to (8, 10), terminated at (7, 10) by solid obstacle [Turn 20509].
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 
