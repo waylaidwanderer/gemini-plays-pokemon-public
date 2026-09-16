@@ -45,6 +45,9 @@
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (12, 12): Solid rock wall directly east of (11, 12) [Visually verified Turn 21665].
+- Tile (12, 13): Solid rock wall directly east of (11, 13) [Visually verified Turn 21665].
+- Southwest Basin Boundary: Columns 12-13 form a continuous solid rock wall across rows 12-15, completely enclosing the southwest basin (cols 1-11). There is no eastern exit from the southwest basin.
 - Tile (12, 14): Impassable solid rock wall directly east of (11, 14) with 0 movement delta [Empirically verified Turn 20804].
 - Tile (12, 15): Impassable solid rock wall directly east of (11, 15) with 0 movement delta [Empirically verified Turn 20799].
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].

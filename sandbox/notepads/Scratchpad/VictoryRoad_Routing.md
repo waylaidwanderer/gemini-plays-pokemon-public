@@ -1,20 +1,21 @@
-# Victory Road Master Roadmap (Turn 21587)
+# Victory Road Master Roadmap (Turn 21665)
 
 ## Current Status:
-- Player position: (1, 12) in southern corridor on 3F; Barrier (7, 10) lowered and crossed [Turn 21653]; preparing to advance east along Row 12 past Cooltrainers.
-- Dynamic Entities: Boulder 1 at (3, 5) [depressing switch], Boulder 2 at (24, 10), Boulder 3 at (13, 12).
-- Goal: Execute the unified puzzle sequence to clear Victory Road.
+- Player position: (11, 12) at eastern terminus of southwest basin; confirmed completely enclosed by solid wall along Column 12 (rows 12-15).
+- Dynamic Entities: Boulder 1 at (3, 5) [depressing switch], Boulder 2 at (24, 10), Boulder 3 at (13, 12). Barrier (7, 10) remains lowered.
+- Goal: Return via terrace to Northern Highway, advance east to Eastern Wing (cols 24-27), locate Boulder 2 and the pit hole, and execute the drop.
 
 ## Master Execution Strategy:
 1. [COMPLETED Turn 21628] Boulder 1 pushed onto Switch Plate (3, 5); Barrier (7, 10) lowered.
 2. [COMPLETED Turn 21657] Climbed wooden staircase at (17, 5), traversed west across lowered barrier (7, 10), and descended wooden staircase at (1, 9) into the southern corridor.
-3. Advance east past defeated Cooltrainer ♂ at (5, 14) and defeated Cooltrainer ♀ at (7, 13).
-4. Systematically survey the unmapped corridor east of Cooltrainer ♀ along Rows 12-13 (performing empirical bump tests on Columns 12 and 13) to discover what lies downstream.
-5. Conditional: If a pit hole is located, determine which boulder can be pushed into it (evaluating connectivity to Boulder 2 at (24, 10), Boulder 3 at (13, 12), or any newly discovered entities).
-6. Drop the appropriate boulder into the pit hole and jump down to 2F.
-7. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
-8. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
+3. [COMPLETED Turn 21665] Fully surveyed southwest basin; confirmed Column 12 wall (rows 12-15) completely encloses the basin.
+4. Return west to staircase (1, 9), ascend to terrace (1, 8), traverse east across lowered barrier (7, 10), and descend staircase (17, 5) to (17, 6).
+5. Walk east to Column 20, north to Row 1 Northern Highway, and east to Column 25.
+6. Access the Eastern Wing to locate Boulder 2 at (24, 10) and the physical pit hole.
+7. Push Boulder 2 into the pit hole and jump down after it to 2F.
+8. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
+9. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
 
-## Routing Hypotheses & Topology Notes:
-- Southwest Basin Passage Hypothesis: Prior notes claimed no exit east from the southwest basin based solely on wall collisions at (12, 14) and (12, 15). Rows 12-13 east of Cooltrainer ♀ at (7, 13) remain unmapped and represent the primary candidate corridor to explore once Barrier (7, 10) is lowered.
-- Downstream Entities: The exact locations of any further boulders and the pit hole will be verified empirically upon reaching and surveying the corridor.
+## Topology Facts:
+- Southwest Basin (cols 1-11, rows 12-15): Fully enclosed by solid rock walls on east (Column 12 across rows 12-15). Contains defeated Cooltrainers (5, 14) and (7, 13). No progression exits exist in this basin.
+- Eastern Wing (cols 24-27, rows 8-15): Primary candidate sector containing Boulder 2 at (24, 10), Ladder 2 at (26, 8), and the pit hole dropping to 2F.
