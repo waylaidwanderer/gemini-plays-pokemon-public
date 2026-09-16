@@ -3822,16 +3822,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 3F Routing Plan (Turn 20491)
 
 ## Current Status:
-- Ascended staircase at (17, 5) to (17, 4) [Turn 20491].
-- Empirically verified Row 4 terrace passable westward from col 17 to col 10 [Turns 20492-20495].
-- Advanced south down Column 10 terrace corridor to (10, 8) facing South [Turn 20498].
-- Current Position: (10, 8) facing South, 2 tiles north of jump ledge at (10, 11).
+- Reached (10, 10) facing South [Turn 20501].
+- Bump test into (10, 11) confirmed Row 11 is a solid rock wall (disproved jump ledge hypothesis).
+- Visually verified Row 10 is 100% open terrace floor extending west across cols 9, 8, 7, 6.
+- Current Position: (10, 10) facing South.
 
 ## Active Routing Strategy:
-1. Ascend wooden staircase at (17, 5) onto Row 4 elevated terrace at (17, 4).
-2. [Hypothesis to Test]: Test whether Row 4 terrace is passable westward across cols 17-10 to reach the column 10 north-south corridor.
-3. Advance south along Column 10 across rows 5-10 to inspect the jump ledges at (9..10, 11).
-4. Jump south over ledge into Southwestern Passage (rows 12-14).
+1. Walk west along Row 10 across (9, 10), (8, 10), (7, 10), (6, 10) into western sector.
 5. Locate the 3F boulder and hole mechanism in the western sector (cols 1-8).
 6. Push boulder into hole, jump down hole to 2F, and complete final switch activation.
 7. Exit Victory Road to Route 23 / Indigo Plateau!
@@ -4029,7 +4026,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
-- Ledges at (9, 11) and (10, 11): South-facing jump ledges connecting elevated terrace down into Southwestern Passage (rows 12-14) [Sighted Turn 20483].
+- Row 10 Western Terrace Corridor: Connects column 10 westward across cols 9, 8, 7, 6 into western sector [Empirically verified Turn 20501].
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 
 ## Trainers
@@ -4045,5 +4042,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Negative Collision Telemetry
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
+- Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
 
 <hr>

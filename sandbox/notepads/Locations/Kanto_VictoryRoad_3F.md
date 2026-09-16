@@ -25,7 +25,7 @@
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
-- Ledges at (9, 11) and (10, 11): South-facing jump ledges connecting elevated terrace down into Southwestern Passage (rows 12-14) [Sighted Turn 20483].
+- Row 10 Western Terrace Corridor: Connects column 10 westward across cols 9, 8, 7, 6 into western sector [Empirically verified Turn 20501].
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 
 ## Trainers
@@ -41,3 +41,4 @@
 
 ## Negative Collision Telemetry
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
+- Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
