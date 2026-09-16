@@ -3834,7 +3834,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Execution Sequence:
 1. Walk from (25, 0) via (25, 3) -> (23, 3) -> (23, 4) -> (22, 4).
-2. Face North at (22, 4) and push Boulder 1 to (22, 2), then to (22, 1). Halt at Row 1!
+2. [x] Face North at (22, 4) and push Boulder 1 to (22, 2), then to (22, 1) [Done Turn 20657].
 3. Step around to (23, 1) and push West along Row 1 toward the western sector.
 4. Route Boulder 1 onto Switch Plate at (3, 5) to depress switch and lower barrier!
 
