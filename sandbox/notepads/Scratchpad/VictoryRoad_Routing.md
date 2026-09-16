@@ -1,9 +1,9 @@
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (16, 10) on Victory Road 3F [Turn 21185].
-- Boulder 3: Confirmed at starting position (13, 12) between walls (12, 12) and (14, 12).
-- Target: Walk west along Row 10 to (12, 10) to reveal western topology of rows 10-14.
+- Player position: (12, 10) on Victory Road 3F [Turn 21195].
+- Boulder 3: Confirmed at starting position (13, 12).
+- Target: Walk to (13, 11) to align directly north of Boulder 3 for empirical push test.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
