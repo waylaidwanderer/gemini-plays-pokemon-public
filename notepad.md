@@ -2966,6 +2966,9 @@
 - (19, 1) confirmed solid rock barrier; bypass to west connects via (20, 1) -> (20, 2..3) -> (19..16, 3) (Turn 51978).
 - (17, 2) and (17, 3) confirmed solid purple rock barriers (Turn 51979).
 - Row 1 open corridor across cols 14..18 connecting (18, 1) west to (14..17, 1) (Turn 51979).
+- (10, 1) confirmed solid purple rock barrier blocking westward movement along Row 1 from (11, 1) (Turn 51985).
+- Column 11 connects Row 1 at (11, 1) down to Row 5 at (11, 5).
+- 2F topological matrix complete: all upper sectors (Ladder B, C, D, E) are disjoint from Ladder A (1, 3). Ladder A must be reached via 1F Southwest Ladder (Turn 51985).
 
 <hr>
 
