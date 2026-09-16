@@ -2,9 +2,9 @@
 
 ## Current Status:
 - Ascended staircase at (17, 5) to (17, 4) [Turn 20491].
-- Empirically traversed Row 4 terrace west all the way to (10, 4) [Turn 20495].
-- Turned South into Column 10 corridor; arrived at (10, 5) facing South [Turn 20495].
-- Current Position: (10, 5) facing South.
+- Empirically verified Row 4 terrace passable westward from col 17 to col 10 [Turns 20492-20495].
+- Advanced south down Column 10 terrace corridor to (10, 8) facing South [Turn 20498].
+- Current Position: (10, 8) facing South, 2 tiles north of jump ledge at (10, 11).
 
 ## Active Routing Strategy:
 1. Ascend wooden staircase at (17, 5) onto Row 4 elevated terrace at (17, 4).
