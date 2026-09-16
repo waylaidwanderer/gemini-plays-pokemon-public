@@ -3952,12 +3952,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - (10, 8) -> (10, 7): SOLID elevation cliff [Turn 19239]
   - (9, 8) -> (9, 7): SOLID elevation cliff [Turn 19240]
   - (8, 8) -> (8, 7): SOLID rock wall [Turn 19241]
-  - (7, 8) -> (7, 7): SOLID elevation cliff [Turn 19242]
-  - (6, 8) -> (6, 7): SOLID elevation cliff [Turn 19243]
-  - (5, 8) -> (5, 7): SOLID elevation cliff [Turn 19220]
-  Conclusion: The entire northern boundary of the row 8 terrace (cols 5-13) is 100% solid and impassable. Switch Plate A does NOT open any passage across row 8.
-- Row 7 Central Corridor: Empirically verified that row 7 is open flat dark checkerboard floor across columns 13 through 17 [Traversed Turn 19371].
-- Column 12 Corridor: Confirmed open north-south corridor across rows 6 through 11 connecting row 7 to row 11 [Turn 19371].
+
 
 - Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
 - 3F Ascent Ladder: Visually confirmed at (1, 1) in Northwest Chamber [Turn 19411], guarded by Pokémaniac at (4, 2) ("If you can get through here, you can go see the ELITE FOUR!").
