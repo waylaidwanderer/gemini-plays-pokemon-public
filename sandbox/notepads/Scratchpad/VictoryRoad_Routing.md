@@ -1,15 +1,17 @@
-# Victory Road Routing Plan (Turn 20892)
+# Victory Road Routing Plan (Turn 20894)
 
 ## Current Status:
-- Player position: (20, 7) on 3F, facing South.
-- Ladder to 2F is directly east at (23, 7).
-- Master solution confirmed: Boulder 4 at (22, 15) and Pit Hole at (23, 15) visually confirmed on 3F.
-- Boulder 2 at (24, 10) guards the entrance to the inner chasm from Column 25.
-- Ascending via Ladder (26, 8) accesses the eastern chamber on 3F to push Boulder 2.
+- Player position: (23, 7) on Victory Road 2F, facing East.
+- Transitioned from 3F (23, 7) down ladder to 2F (23, 7).
+- Ladder visible on 2F at (27, 7) with light blue vertical rails.
+- Tamer at (19, 8) visible to the west on 2F.
+
+## Key Verified Discoveries (3F):
+- Boulder 4 at (22, 15) sits directly adjacent to Pit Hole at (23, 15).
+- Standing at (21, 15) facing East allows a 1-tile push of Boulder 4 into Pit Hole (23, 15).
+- Dropping Boulder 4 to 2F lands adjacent to the exit barrier at (23, 14).
 
 ## Active Strategy:
-1. Step east onto Ladder (23, 7) to descend to 2F eastern sector.
-2. On 2F, navigate to Northeast Ladder at (26, 8) and ascend to 3F.
-3. On 3F, descend Column 25 to (25, 10), push Boulder 2 West into (23, 10).
-4. Follow chasm south to (21, 15), push Boulder 4 East into Pit Hole at (23, 15).
-5. Jump down Pit Hole to 2F, push boulder onto switch next to barrier (23, 14), and exit to Indigo Plateau.
+1. On 2F, investigate navigation toward the ladder at (27, 7) or south down Column 23 toward the barrier at (23, 14).
+2. Determine if ladder (27, 7) on 2F can be ascended to reach 3F eastern chamber (cols 25-28).
+3. If reachable, ascend to 3F, push Boulder 2 West into chasm, navigate to (21, 15), push Boulder 4 East into Pit Hole (23, 15), and drop to 2F.
