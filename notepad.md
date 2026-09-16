@@ -3960,6 +3960,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Geodude [Turn 20219 at (21, 16)]
 - Onix [Turn 20215 at (21, 16)]
 - Onix [Turn 20212 at (14, 12)]
 - Geodude [Turn 20207 at (2, 6)]
