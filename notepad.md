@@ -3822,10 +3822,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 21002)
+# Victory Road Routing Plan (Turn 21003)
 
 ## Current Status:
-- Player position: (5, 10) on Victory Road 3F.
+- Player position: (10, 10) on Victory Road 3F.
 - Strength is ACTIVE (Geodude).
 - Boulder 1 is DEPRESSED on switch plate (3, 5) [Turn 20970].
 - Barrier block at (7, 10) is LOWERED [Turn 20970].
@@ -3838,13 +3838,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Alcove: Impassable to the south across Row 6.
 
 ## Active Strategy:
-1. From (5, 10), reverse direction: step East across Row 10 through lowered barrier (7, 10) to (10, 10).
-2. Traverse north up Columns 9-10 along the elevated terrace thoroughfare.
-3. Investigate the connection between the elevated terrace / central floor and the southeast sector (Boulder 4 at 22, 15 and Pit Hole at 23, 15).
-4. Push Boulder 4 East into Pit Hole (23, 15).
-5. Jump into Pit Hole (23, 15) to drop down to Victory Road 2F.
-6. On 2F, push the fallen boulder onto switch plate to lower barrier at (23, 14).
-7. Climb ladder at (25, 14) to exit Victory Road to Route 23 North / Indigo Plateau!
+1. Advance north up Columns 9-10 along the elevated terrace thoroughfare to Row 2/4.
+2. Investigate the connection between the elevated terrace / central floor and the southeast sector (Boulder 4 at 22, 15 and Pit Hole at 23, 15).
+3. Push Boulder 4 East into Pit Hole (23, 15).
+4. Jump into Pit Hole (23, 15) to drop down to Victory Road 2F.
+5. On 2F, push the fallen boulder onto switch plate to lower barrier at (23, 14).
+6. Climb ladder at (25, 14) to exit Victory Road to Route 23 North / Indigo Plateau!
 
 <hr>
 
