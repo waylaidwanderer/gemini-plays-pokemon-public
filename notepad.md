@@ -3822,8 +3822,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 3F Routing Plan (Turn 20491)
 
 ## Current Status:
-- Arrived at (17, 6) facing North, directly in front of wooden staircase at (17, 5).
-- Fled all wild encounters cleanly.
+- Ascended staircase at (17, 5) to (17, 4) [Turn 20491].
+- Empirically traversed Row 4 terrace west from (17, 4) to (13, 4); NPC at (13, 3) confirmed non-hostile [Turn 20493].
+- Current Position: (13, 4) facing West.
 
 ## Active Routing Strategy:
 1. Ascend wooden staircase at (17, 5) onto Row 4 elevated terrace at (17, 4).
