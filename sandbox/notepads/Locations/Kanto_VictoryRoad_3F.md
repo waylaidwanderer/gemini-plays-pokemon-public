@@ -37,3 +37,4 @@
 - Dual Eastern Ladders: Both (23, 7) and (26, 8) ladders visually confirmed on screen [Turn 20475].
 - Boulder 3: Located at (13, 12) in vertical gap between rock walls at (12, 12) and (14, 12) [Sighted Turn 20480].
 - Ledges at (9, 11) and (10, 11): South-facing jump ledges connecting elevated terrace down into Southwestern Passage (rows 12-14) [Sighted Turn 20483].
+- Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
