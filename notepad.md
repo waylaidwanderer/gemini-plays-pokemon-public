@@ -3826,7 +3826,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Current Status:
 - Player position: (23, 7) on Victory Road 3F.
-- Strength is INACTIVE (ready to cast via Geodude).
+- Strength is ACTIVE (cast via Geodude Turn 21047).
 - Boulder 1: At (22, 3) in starting position.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
