@@ -1,6 +1,12 @@
-# Victory Road 2F to 3F Master Routing Plan (Turn 20403)
+# Victory Road 3F Routing Plan (Turn 20468)
 
-## Active Navigation Plan to Victory Road 3F:
-1. Step through doorway at (5, 2) into the Northwest Chamber.
-2. Walk west along Row 2 across (4, 2), (3, 2), (2, 2) to (1, 2).
-3. Step North onto Ladder at (1, 1) to ascend to Victory Road 3F!
+## Current Status:
+- Arrived on Victory Road 3F via NW ladder (2, 0) [Turn 20452].
+- Traversing Northern Highway (Rows 0-1) eastbound.
+- Current Position: (13, 0) facing East.
+
+## Active Routing Strategy:
+1. Advance East along Row 0 across cols 14-17 to reach Column 20 corridor.
+2. Locate the 3F boulder and hole mechanism (boulder drop required to open 2F exit barrier).
+3. Push boulder into hole, jump down hole to 2F, and complete final switch activation.
+4. Exit Victory Road to Route 23 / Indigo Plateau!

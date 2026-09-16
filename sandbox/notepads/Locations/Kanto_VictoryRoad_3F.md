@@ -31,3 +31,4 @@
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
 ## Negative Collision Telemetry
 - Trainer: Sighted NPC at (13, 3) [Turn 20463].
+- Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
