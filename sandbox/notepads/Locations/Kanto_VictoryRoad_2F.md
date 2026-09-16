@@ -10,7 +10,6 @@
 - Wall at (14, 7): Solid purple rock wall directly west of (15, 7), terminating Row 7 westward passage at column 15 [Visually confirmed Turn 20249/20253].
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
 - Wall at (25, 6): Solid rock wall directly south of (25, 5) [Empirically verified Turn 18314 via bump test].
-- Column 8 & Row 1 Solid Boundary: Row 1 and Row 0 are solid cave ceiling/boundary across all columns. Column 8 rock wall extends from row 2 south, with (8, 2) being a solid rock wall corner. There is NO west passage from column 9 across rows 0-6 [Verified Turn 17900].
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
