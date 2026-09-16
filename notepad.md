@@ -2972,6 +2972,8 @@
 - (28, 4) confirmed solid purple rock barrier blocking eastward movement along Row 4 from (27, 4) (Turn 52007).
 - (9, 6) confirmed solid purple rock barrier blocking southward passage from (9, 5) (Turn 52015).
 - Row 3 open corridor across cols 5..9 connecting (9, 3) west to (5, 3) (Turn 52015).
+- Ladder A visually confirmed at (1, 3) on 2F (Turn 52016).
+- Open floor confirmed across (3..9, 3), (3, 0..2), (1, 2), (1..7, 5) (Turn 52016).
 
 <hr>
 
