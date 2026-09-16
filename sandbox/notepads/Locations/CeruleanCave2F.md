@@ -17,7 +17,6 @@
 ## Verified Collisions & Negative Proofs (2F)
 - Ladder E sector (cols 3..9, rows 0..3) is physically isolated by rock walls: Col 2 (rows 1-4) solid rock, Row 4 (cols 3-7) solid rock.
 - Ladder D sector (29, 1) is isolated on eastern ridge.
-- Ladder B sector (22, 6) connects south to row 12 corridor (18..23, 12).
-- Ladder C sector (19, 7): Bounded by verified rock walls at (19, 10), (18, 10), (17, 10), (14, 10), (13, 11), (13, 12), (13, 13), (14, 14).
+- Column 19 Divider: Solid vertical rock divider blocks western passage across rows 0-8 from the Ladder B/C sector (cols 20-25); rock walls verified at (20, 0), (20, 1), and (19, 0..4).
 - Column 13/14 Divider: Solid vertical rock divider blocks western passage across rows 10-14 from the Ladder B/C sector.
 - Ladder A Access Protocol: Must ascend from 1F SW Ladder (3, 11) into 2F SW Sector (cols 0-7, rows 0-5), then walk north to (1, 2) and step onto Ladder A at (1, 3).
