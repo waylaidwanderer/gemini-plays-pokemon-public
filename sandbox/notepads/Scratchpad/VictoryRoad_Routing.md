@@ -1,8 +1,8 @@
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (14, 6) on Victory Road 3F [Turn 21217].
-- Target: Ascend wooden staircase at (17, 5) to reach elevated terrace and engage Cooltrainer at (13, 3).
+- Player position: (17, 4) on Victory Road 3F (Elevated Terrace) [Turn 21220].
+- Target: Walk west along Row 4 to (13, 4) to engage Cooltrainer at (13, 3).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
