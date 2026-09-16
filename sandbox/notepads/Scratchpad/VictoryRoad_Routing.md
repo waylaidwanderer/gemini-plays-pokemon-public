@@ -1,7 +1,7 @@
-# Victory Road Routing Plan (Turn 20971)
+# Victory Road Routing Plan (Turn 21002)
 
 ## Current Status:
-- Player position: (2, 5) on Victory Road 3F.
+- Player position: (5, 10) on Victory Road 3F.
 - Strength is ACTIVE (Geodude).
 - Boulder 1 is DEPRESSED on switch plate (3, 5) [Turn 20970].
 - Barrier block at (7, 10) is LOWERED [Turn 20970].
@@ -14,11 +14,10 @@
 - Northeast Alcove: Impassable to the south across Row 6.
 
 ## Active Strategy:
-1. Navigate from (2, 5) north to Row 2, east to Column 6/7 (Main Avenue).
-2. Move south down Main Avenue (Column 7) to lowered barrier at (7, 10).
-3. Step through lowered barrier at (7, 10) onto elevated terrace corridor (Row 10).
-4. Traverse elevated terrace east to Columns 9-10 and explore connections to Boulder 4 / Pit Hole.
-5. Once at Boulder 4 (22, 15), push it East into Pit Hole (23, 15).
-6. Jump into Pit Hole (23, 15) to drop down to Victory Road 2F.
-7. On 2F, push the fallen boulder onto switch plate to lower barrier at (23, 14).
-8. Climb ladder at (25, 14) to exit Victory Road to Route 23 North / Indigo Plateau!
+1. From (5, 10), reverse direction: step East across Row 10 through lowered barrier (7, 10) to (10, 10).
+2. Traverse north up Columns 9-10 along the elevated terrace thoroughfare.
+3. Investigate the connection between the elevated terrace / central floor and the southeast sector (Boulder 4 at 22, 15 and Pit Hole at 23, 15).
+4. Push Boulder 4 East into Pit Hole (23, 15).
+5. Jump into Pit Hole (23, 15) to drop down to Victory Road 2F.
+6. On 2F, push the fallen boulder onto switch plate to lower barrier at (23, 14).
+7. Climb ladder at (25, 14) to exit Victory Road to Route 23 North / Indigo Plateau!

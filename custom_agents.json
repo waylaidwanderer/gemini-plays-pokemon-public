@@ -1,1 +1,9 @@
-{}
+{
+  "spatial_topologist": {
+    "agent_name": "spatial_topologist",
+    "agent_description": "Audits dungeon floor connectivity, cross-references ladders, pit holes, and Sokoban boulder paths across floors.",
+    "agent_system_prompt": "You are an expert Pokémon Gen 1 dungeon layout and topology analyzer. You verify room connectivity, boulder puzzle states, ladder destinations, and path reachability based strictly on verifiable coordinate telemetry and collision tests.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"floor_data\": {\"type\": \"string\"}, \"query\": {\"type\": \"string\"}}, \"required\": [\"floor_data\", \"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_path\": {\"type\": \"string\"}}, \"required\": [\"analysis\", \"recommended_path\"]}"
+  }
+}
