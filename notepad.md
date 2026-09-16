@@ -3825,9 +3825,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (13, 11) on Victory Road 3F [Turn 21204].
+- Player position: (14, 10) on Victory Road 3F (in wild Geodude battle) [Turn 21207].
 - Boulder 3 Test Result: Pushed south to (13, 13). Blocked south by rock wall at (13, 14); flanked by walls at (12, 12..13) and (14, 12). Column 13 does not connect to rows 13-15.
-- Target: Walk east along Row 10 back to Column 20 to investigate Column 23/24/25 and Ladder (23, 7).
+- Target: Flee from wild Geodude, then continue east along Row 10 to Column 20.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
