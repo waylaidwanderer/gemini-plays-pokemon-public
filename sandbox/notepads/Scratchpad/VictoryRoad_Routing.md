@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21452)
 
 ## Current Status:
-- Player position: (12, 10) on 3F; moving East along Row 10 to Col 20.
+- Player position: (25, 1) on 3F; moving East/South into Column 27 corridor toward Northeast Ladder 2.
 - Boulder 1 position: (14, 1) on Row 1 (abandoned; southwest basin was already cleared Turns 20716-21306).
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin. Both Cooltrainers defeated. No hole or boulder exists in that basin.
 - Eastern Corridor & Boulder 2: Priority objective is Boulder 2 at (24, 10) and the eastern corridor/chasm.
