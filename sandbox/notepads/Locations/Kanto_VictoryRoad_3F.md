@@ -32,6 +32,7 @@
 - Southwestern Passage: Rows 12-15 (cols 1-11) wide open dark checkerboard floor extending across the southern basin.
 
 ## Trainers
+- Trainer: Cooltrainer ♂ at (28, 5) facing West [Discovered Turn 20878].
 - Trainer: Cooltrainer at (13, 3) facing South on elevated terrace [Turn 20463].
 - Trainer: Cooltrainer at (5, 14) [Defeated Turn 20759; Team: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43].
 - Trainer: Cooltrainer ♀ at (7, 13) facing East [Visual audit Turns 20768-20772].
