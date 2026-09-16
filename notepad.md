@@ -2891,89 +2891,18 @@
 - Connects to 1F via multiple ladders and contains the descending ladder (Ladder A) to B1F (Mewtwo).
 
 ## Verified Ladders (2F)
-1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo).
+1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo). Accessible ONLY via Southwest Ladder (3, 11) on 1F -> 2F SW Sector.
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
 3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Accessible from north via (21, 5) -> (20, 5) -> (19, 5) -> (19, 6) -> (19, 7) (Verified Turn 51927)].
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
 
-## Northwest & West Maze Topography & Active Hypotheses
-- **Ladder A Location**: (1, 3) [Visible on screen from Row 1/3, descending to B1F Mewtwo].
-- **Ladder E Arrival**: Ladder icon at (7, 1), spawn at (9, 1). Connects west via Row 1 to (3..5, 1).
-- **Row 3 Main Bypass**: Open floor across (3..9, 3) connecting Column 3 to Column 9 and Column 5.
-- **Northwest Frontier**: Currently at (3, 3); testing connections from (3, 3) -> (3, 2..0) -> (0..2, 0..2) -> (1, 2) -> Ladder A (1, 3).
-- **Hypothesized Column 0 / Row 7 Corridors**: Westernmost bounds (cols 0-2, rows 4-9) remain unvisited and require empirical traversal.
-
-## Verified Southeastern & Southern Topography
-- **Ladder D Sector**: (29, 1) connects to self-contained eastern sector; (24, 9) is an impassable rock barrier.
-- **Row 11 Main Corridor**: Open floor across cols 14..23 connecting to Column 23 and Ladder B at (22, 6).
-- **Row 17 Corridor**: Open floor across (11..19, 17) and (21..27, 17), separated by rock at (20, 17).
-- **Column 24 Vertical Corridor & Pit Drop Warp (Verified Turns 51370-51376)**: Open floor across (24, 1..5) and (24, 7..16) connecting Row 11 corridor down to (24, 17). Stepping onto dark checkerboard floor at (24, 17) triggers an exterior escape pit drop warping player outside onto Route 24 (4, 11) -> (4, 12).
-
-## Unified Verified Collision & Obstacle Ledger
-- (2, 3) confirmed solid rock barrier blocking westward passage from (3, 3) (Turn 51741).
-- (3, 4) confirmed solid rock barrier blocking southward passage from (3, 3) (Turn 51703).
-- (4, 0) confirmed solid rock barrier blocking westward movement from (5, 0) (Turn 51542, 51728).
-- (4, 1) confirmed solid rock barrier blocking westward movement from (5, 1) (Turn 51533).
-- (4, 2) confirmed solid rock barrier blocking westward movement from (5, 2) (Turn 51537).
-- (5, 2) confirmed solid rock barrier (Turn 51228).
-- (5, 3) confirmed solid rock barrier blocking southward movement from (5, 2) (Turn 51538).
-- (5, 4) confirmed solid rock barrier (Turn 51245).
-- (6, 0) confirmed solid rock barrier blocking westward movement from (7, 0) (Turn 51478).
-- (6, 4) confirmed solid rock barrier blocking southward passage from (6, 3) (Turn 51704).
-- (8, 5), (9, 6), (10, 6), (11, 6), (12, 6) confirmed solid rock barriers (Turn 51242).
-- (9, 3 South) confirmed solid rock wall / ridge across Row 3 (Turn 51544).
-- (11, 6) confirmed solid rock barrier blocking southward passage from (11, 5) (Turn 51346).
-- (12, 7), (14, 7), (15, 7), (17, 7), (20, 7), (21, 7) confirmed solid rock barriers.
-- (13, 7) confirmed solid rock barrier blocking southward passage from (13, 6) (Turn 51233, 51487).
-- (13, 11) confirmed solid rock barrier blocking westward movement along Row 11 from (14, 11) (Turn 51585).
-- (14, 9) confirmed solid rock barrier.
-- (15, 3 South) confirmed elevated ledge overlooking void/chasm at (15, 4) (Turn 51554).
-- (15, 4) confirmed solid rock barrier blocking southward movement from (15, 3) (Turn 51526).
-- (16, 2 East) confirmed solid rock wall (Turn 51546).
-- (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51234, 51488).
-- (17, 3) confirmed solid rock barrier blocking eastward movement from (16, 3) (Turn 51498).
-- (17, 8..10), (18, 8..10), (19, 8..10), (20, 8..10), (21, 8..10) confirmed solid rock barriers.
-- (17, 14) confirmed solid rock barrier blocking southward movement down Column 17 from (17, 13) (Turn 51596).
-- (19, 14) confirmed solid rock barrier (Turn 51374).
-- (20, 4) confirmed solid rock barrier blocking southward movement from (20, 3) (Turn 51622, 51771).
-- (20, 12) confirmed solid rock barrier (Turn 51376).
-- (21, 6) confirmed solid rock barrier blocking westward movement from (22, 6) (Turn 51364).
-- (21, 7) and (22, 8) confirmed solid rock barriers blocking west/south from (22, 7) (Turn 51364).
-- (22, 1) confirmed solid rock barrier blocking northward movement from (22, 2) (Turn 51778).
-- (22, 5) confirmed solid rock barrier blocking southward movement from (22, 4) (Turn 51777).
-- (23, 4) confirmed solid rock barrier blocking eastward movement along Row 4 from (22, 4) (Turn 51625).
-- (24, 6) confirmed solid rock barrier blocking southward movement from (24, 5) (Turn 51513).
-- (24, 13) confirmed solid rock barrier (Turn 51374).
-- (25, 5) confirmed solid rock barrier blocking eastward movement from (24, 5) (Turn 51786).
-- (26, 14) confirmed solid rock barrier (Turn 51375).
-- (27, 3) confirmed solid rock barrier blocking northward movement from (27, 4) (Turn 51795).
-- (27, 5) confirmed solid rock barrier blocking southward movement from (27, 4) (Turn 51793).
-- (28, 4) confirmed solid rock barrier blocking eastward movement from (27, 4) (Turn 51795).
-- Column 2 (rows 1-4) is a solid rock wall.
-
-- (23, 6) confirmed solid rock barrier; exit from Ladder B (22, 6) is Down to (22, 7) then Right to (23, 7) into Column 23 (Turn 51846).
-- Row 10 across cols 10..19 confirmed continuous solid rock wall (Turn 51853).
-- (16, 14) confirmed solid rock barrier; (15, 15) is a dead-end pocket (Turn 51857).
-- (18, 12) confirmed solid rock barrier blocking southward movement from (18, 11) (Turn 51861).
-- (22, 15) is a dead-end pocket enclosed south by solid rock at (22, 16) (Turn 51863).
-- Column 18 (rows 11..17) confirmed wide open vertical corridor connecting Row 11 directly south to Row 17 Corridor; (16, 14) is solid rock and (15, 15) is a dead-end pocket (Turn 51857).
-- (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51897).
-- (7, 4) confirmed solid rock barrier blocking southward passage from (7, 3) (Turn 51888).
-- (8, 5) confirmed solid rock barrier blocking westward movement along Row 5 from (9, 5) (Turn 51907).
-- (16, 2) confirmed solid rock barrier blocking northward passage from (16, 3) (Turn 51921).
-- (20, 0) confirmed solid rock barrier blocking westward movement along Row 0 from (21, 0) (Turn 51977).
-- (19, 1) confirmed solid rock barrier; bypass to west connects via (20, 1) -> (20, 2..3) -> (19..16, 3) (Turn 51978).
-- (17, 2) and (17, 3) confirmed solid purple rock barriers (Turn 51979).
-- Row 1 open corridor across cols 14..18 connecting (18, 1) west to (14..17, 1) (Turn 51979).
-- (10, 1) confirmed solid purple rock barrier blocking westward movement along Row 1 from (11, 1) (Turn 51985).
-- Column 11 connects Row 1 at (11, 1) down to Row 5 at (11, 5).
-- Probing from Ladder E (7, 1) to (10, 1) confirmed solid rock at (10, 0..4) and south rock at (7..9, 4), isolating Ladder E sector from central Row 1 (Turn 51985).
-- (28, 4) confirmed solid purple rock barrier blocking eastward movement along Row 4 from (27, 4) (Turn 52007).
-- (9, 6) confirmed solid purple rock barrier blocking southward passage from (9, 5) (Turn 52015).
-- Row 3 open corridor across cols 5..9 connecting (9, 3) west to (5, 3) (Turn 52015).
-- Ladder A visually confirmed at (1, 3) on 2F (Turn 52016).
-- Open floor confirmed across (3..9, 3), (3, 0..2), (1, 2), (1..7, 5) (Turn 52016).
+## Sector Connectivity & Negative Proofs
+- Ladder E sector (cols 3..9, rows 0..3) is physically isolated by rock walls: Col 2 (rows 1-4) solid rock, Row 4 (cols 3-7) solid rock.
+- Ladder D sector (29, 1) is isolated on eastern ridge.
+- Ladder B sector (22, 6) is isolated from west by Row 10 rock wall.
+- Ladder C sector (19, 7) terminates west at (10, 1) solid rock.
+- **Ladder A Access Protocol**: Must ascend from 1F SW Ladder (3, 11) into 2F SW Sector, then walk north through cols 0-7, rows 5->2 to (1, 2) and step onto Ladder A at (1, 3).
 
 <hr>
 
