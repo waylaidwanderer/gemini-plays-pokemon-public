@@ -111,7 +111,7 @@
   - (8, 8) -> (8, 7): SOLID rock wall [Turn 19241]
 
 
-- Boulder at (22, 15): Large movable boulder located at (22, 15) directly adjacent to barrier block at (23, 14).
+- Wall at (22, 15): Solid rock wall directly south of (22, 14) [Empirically verified Turn 20344 via direct bump test].
 
 
 ## Wild Encounters (Recent Observations)
