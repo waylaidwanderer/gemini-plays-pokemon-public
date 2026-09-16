@@ -7,7 +7,6 @@
 - South boundary: Solid cavern wall along row 16.
 - Boulder 3 at (13, 13) is on the other side of the col 12 wall, unreachable from this basin.
 - Basin contents: Cooltrainer ♂ at (5, 14) [Defeated], Cooltrainer ♀ at (7, 13) [Faces East].
-- No other exits or items in this basin.
 
 ## Active Strategy:
 1. Retrace steps west along Row 15 to (1, 15), then north up Column 1 to (1, 10).
