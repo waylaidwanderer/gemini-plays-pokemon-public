@@ -110,6 +110,7 @@
 - Wall at (22, 15): Solid rock wall directly south of (22, 14) [Empirically verified Turn 20344 via direct bump test].
 
 ## Wild Encounters (Recent Observations)
+- Onix [Turn 20424 at (20, 4)]
 - Onix [Turn 20409 at (10, 2)]
 - Zubat [Turn 20380 at (16, 7)]
 - Geodude [Turn 20357 at (28, 11)]
