@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21062)
 
 ## Current Status:
-- Player position: (7, 2) on Victory Road 3F.
+- Player position: (7, 6) on Victory Road 3F (in wild battle).
 - Strength is ACTIVE (cast via Geodude Turn 21047).
 - Boulder 1: At (3, 5) ON SWITCH PLATE! Switch depressed; barrier block at (7, 10) is LOWERED.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
