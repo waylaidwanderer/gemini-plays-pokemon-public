@@ -9,7 +9,7 @@
 - Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
 ## Execution Sequence:
-- Boulder 1 current position: (2, 3). Player position: (2, 1) facing South.
+- Boulder 1 current position: (2, 5). Player position: (2, 3) facing South.
 1. Push Boulder 1 West into (6, 1).
 2. Loop around via Row 0: walk Right to (8, 1), Up to (8, 0), Left to (6, 0).
 3. Face South at (6, 0) and push Boulder 1 into (6, 2) at the West Cross-Corridor entrance.
