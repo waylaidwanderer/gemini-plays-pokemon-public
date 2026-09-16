@@ -2874,12 +2874,14 @@
 - Upper floor maze of Cerulean Cave (Unknown Dungeon).
 - Connects to 1F via multiple ladders and contains the descending ladder (Ladder A) to B1F (Mewtwo).
 
-## Verified Ladders (2F)
+## Verified Ladders & Exact Arrival Spawns (2F)
 1. **Ladder A**: Located at (1, 3) -> Descends to B1F (Mewtwo). Accessible ONLY via Southwest Ladder (3, 11) on 1F -> 2F SW Sector.
 2. **Ladder B**: Located at (22, 6) <-> 1F (23, 7).
-3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9) [Accessible from north via (21, 5) -> (20, 5) -> (19, 5) -> (19, 6) -> (19, 7) (Verified Turn 51927)].
+3. **Ladder C**: Located at (19, 7) <-> 1F (18, 9). 2F arrival spawn at (19, 6) / (19, 5).
+   - Passable Corridor: Open floor corridor extends along row 9 from (18, 9) west all the way through (17, 9) -> (16, 9) -> (15, 9) -> (14, 9) -> (13, 9) -> (12, 9) -> (11, 9) / (11, 10) (Verified Turns 52187, 52191).
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
+6. **Southwest Ladder**: Connects from 1F (3, 11) -> 2F SW Sector (cols 0-7, rows 0-5).
 
 ## Sector Connectivity & Negative Proofs
 - Ladder E sector (cols 3..9, rows 0..3) is physically isolated by rock walls: Col 2 (rows 1-4) solid rock, Row 4 (cols 3-7) solid rock.
