@@ -3823,8 +3823,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Current Status:
 - Arrived on Victory Road 3F via NW ladder (2, 0) [Turn 20452].
-- Traversing Northern Highway (Rows 0-1) eastbound.
-- Current Position: (13, 0) facing East.
+- Traversed Northern Highway east to (21, 0).
+- Sighted Boulder 1 at (22, 3).
+- Current Position: (21, 0) facing East.
 
 ## Active Routing Strategy:
 1. Advance East along Row 0 across cols 14-17 to reach Column 20 corridor.
