@@ -2967,6 +2967,7 @@
 - (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51897).
 - (7, 4) confirmed solid rock barrier blocking southward passage from (7, 3) (Turn 51888).
 - (8, 5) confirmed solid rock barrier blocking westward movement along Row 5 from (9, 5) (Turn 51907).
+- (16, 2) confirmed solid rock barrier blocking northward passage from (16, 3) (Turn 51921).
 
 <hr>
 
