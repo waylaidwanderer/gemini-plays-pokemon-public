@@ -3994,7 +3994,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
 - Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
 - Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
-- Elevation Boundary (Row 1/2): Northern entry from (9, 2) into (9, 1) is blocked by elevation cliff [Verified Turn 20413].
 
 <hr>
 
