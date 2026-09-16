@@ -35,7 +35,7 @@
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
 - Zubat (observed Turns 19468, 19673; Turn 20476 at (21, 7))
-- Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454; Turn 20537 at (17, 6); Turn 20572 at (19, 0))
+- Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454; Turn 20537 at (17, 6); Turn 20572 at (19, 0); Turn 20578 at (13, 0))
 - Machop (observed Turns 19565, 19729, 19767, 19829; Turn 20473 at (21, 4); Turn 20488 at (17, 6); Turn 20495 at (10, 5); Turn 20498 at (10, 8); Turn 20502 at (8, 10))
 - Golbat (observed Turns 19658, 19733)
 - Graveler (observed Turn 20459 at (12, 0))
