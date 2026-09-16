@@ -3,7 +3,7 @@
 ## Current Status:
 - Player position: (17, 4) on Victory Road 3F elevated terrace; descending to East Lower Floor [Turn 21325].
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
-- Target: Conclude battle, then return to East Lower Floor via elevated terrace and staircase (17, 5).
+- Target: Empirically investigate Boulder 2 at (24, 10) and adjacent passages from East Lower Floor.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
@@ -17,7 +17,6 @@
 ## Master Execution Strategy:
 1. Defeat Cooltrainer ♀ at (7, 13) [In progress Turn 21271].
 2. Return to East Lower Floor via elevated terrace and staircase (17, 5).
-3. Reach southeast sector containing Pit Hole at (23, 15) and Boulder at (22, 15) via East Lower Floor.
-4. Push boulder into Pit Hole at (23, 15) and jump down to 2F.
-5. On 2F, push fallen boulder onto switch plate to lower exit barrier (23, 14).
-6. Climb ladder at (25, 14) to exit Victory Road to Indigo Plateau!
+3. Empirically inspect Boulder 2 at (24, 10) and test whether it can be pushed east, south, or west.
+4. Survey passage south of Boulder 2 and row 10.
+5. Locate physical hole and boulder to solve 2F exit barrier block.
