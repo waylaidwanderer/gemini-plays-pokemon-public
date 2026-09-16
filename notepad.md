@@ -2878,6 +2878,7 @@
 - (7, 15) and (7, 14) are solid rock barriers blocking westward Surf from Column 8 into southwest basin.
 - (17, 12) and (17, 13) confirmed solid rock barriers.
 
+- (16, 12) and (17, 12) confirmed solid purple rock barriers on South-Central Terrace; bypass to Row 11 connects via Row 14 (15..18, 14) -> (18, 11) (Turn 51968).
 
 <hr>
 
