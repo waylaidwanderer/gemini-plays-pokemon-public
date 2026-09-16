@@ -3822,18 +3822,24 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 21452)
+# Victory Road Master Roadmap (Turn 21541)
 
 ## Current Status:
-- Player position: (27, 4) on 3F; testing physical passage south through (27, 5).
-- Boulder 1 position: (14, 1) on Row 1 (abandoned; southwest basin was already cleared Turns 20716-21306).
-- Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin. Both Cooltrainers defeated. No hole or boulder exists in that basin.
-- Eastern Corridor & Boulder 2: Priority objective is Boulder 2 at (24, 10) and the eastern corridor/chasm.
+- Player position: (18, 16) on 2F; returning to 3F via Ladder (23, 7).
+- Dynamic Entities: Vacating 2F will reset 2F; arriving on 3F resets 3F dynamic puzzle entities.
+- Goal: Execute the unified, single-session puzzle sequence to clear Victory Road.
 
 ## Master Execution Strategy:
-3. Empirically inspect Boulder 2 at (24, 10) and test whether it can be pushed east, south, or west.
-4. Survey passage south of Boulder 2 and locate the physical hole dropping to 2F.
-5. Push Boulder 2 into the hole, jump down after it to 2F, and solve the 2F exit barrier block.
+1. Return to 3F via Ladder (23, 7).
+2. Cast Strength with Geodude (ROCKY) on 3F.
+3. Push Boulder 1 from (22, 3) across Row 1 Northern Highway to col 6, south to row 2, west to col 2, south to row 5, and east onto Switch Plate (3, 5).
+4. Verify Barrier (7, 10) lowers.
+5. Climb wooden staircase at (17, 5) onto elevated plateau, traverse west across lowered barrier (7, 10), and descend wooden staircase at (1, 9) into southwest basin.
+6. Traverse southwest basin east past defeated Cooltrainers to reach the connection into Rows 13-14 / Columns 22-25.
+7. Locate Boulder 2 and the physical pit hole on 3F.
+8. Push Boulder 2 into the pit hole and jump down after it to 2F.
+9. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
+10. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
 
 
 <hr>
@@ -4009,7 +4015,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
 - Boulder 3 at (13, 13): Pushing south from (13, 12) moves Boulder 3 into (13, 13), where it is blocked south by (13, 14) rock wall and flanked by walls at (12, 12) and (14, 12). Column 13 does not provide northern access into rows 13-15 [Empirically verified Turns 20630, 20930-20939].
-- Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370].- Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta [Turn 21493].
+- Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370].
+- Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta [Turn 21493].
 
 
 <hr>
