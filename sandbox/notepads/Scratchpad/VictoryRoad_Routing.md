@@ -1,7 +1,8 @@
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20071)
-- Location: Victory Road 2F on the purple plateau at (9, 9).
+## Current Status (Turn 20087)
+- Location: Victory Road 1F at ladder (1, 1), returning to 2F (0, 8).
+- Western Boulder: Cleanly reset to default coordinates (5, 5) via Turn 20087 1F transition.
 - Western Boulder: Pushed North into (5, 3) on Turn 20029 with Strength active.
 - Empirical Verification at Western Sector:
   - (5, 2) is a solid rock wall (Turn 20046 bump). Boulder at (5, 3) cannot move North.

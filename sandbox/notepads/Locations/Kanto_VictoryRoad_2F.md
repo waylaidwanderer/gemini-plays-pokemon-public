@@ -137,7 +137,7 @@
 - Machop [Turn 19903 at (5, 11)]
 
 ## Dynamic Entities Current State
-- Western Boulder at (5, 3): Pushed North through doorway (5, 4) into (5, 3) on Turn 20029 with Strength active.
+- Western Boulder at (5, 5): Cleanly reset to default coordinates (5, 5) via 1F ladder transition on Turn 20087.
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
