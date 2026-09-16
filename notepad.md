@@ -3819,24 +3819,29 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Progression & Routing Dashboard
+# Victory Road 2F Sokoban & Route Plan (Audited Turn 20255)
 
-## Current Status (Turn 20218)
-- Location: Victory Road 2F at (20, 12).
-- Key Discovery:
-  - Column 20 hits the Row 11/12 elevation cliff from the south and cannot step North into Row 11.
-  - The ONLY passage connecting the southern half of 2F to the northern half is the Eastern Vertical Highway (columns 28-29), accessible via the Row 16 lower corridor.
-  - From Columns 28-29, navigate north to Row 8, west to (17, 8), and enter the Row 7 Central Corridor at (17, 7).
+## Root Cause Diagnostics
+- Doorway (5, 4) was plugged by pushing Western Boulder north to (5, 3) on Turn 20203.
+- Eastern bypass attempts failed because Column 14 (rows 0-7) and Column 8 (rows 2-7) are continuous solid rock walls.
 
-## Complete Route to 3F:
-1. Descend staircase (21, 15) to Row 16 at (21, 16).
-2. Walk east along Row 16 to Column 28 at (28, 16).
-3. Walk NORTH up Column 28 to Row 8 at (28, 8).
-4. Walk WEST along Row 8 past Tamer (19, 8) to (17, 8).
-5. Walk NORTH from (17, 8) into Row 7 Central Corridor at (17, 7).
-6. Walk west along Row 7 to Column 9 (9, 7).
-7. Walk north up Column 9 to Row 1 (9, 1).
-8. Walk west along Row 1 to ladder (1, 1) and ascend to 3F!
+## Action Plan to Reach 3F:
+1. Walk from current position (15, 7) back to ladder (0, 8):
+   - East along Row 7 to (20, 7).
+   - South along Column 20 to (20, 11).
+   - West along Row 11 to (5, 11).
+   - Up wooden staircase (5, 10) to (5, 9).
+   - North/west along Western Highway (cols 2-3) to ladder (0, 8).
+2. Reset Boulder State:
+   - Descend ladder (0, 8) to Victory Road 1F.
+   - Ascend ladder back to 2F (resets Western Boulder to default at (5, 5)).
+3. Clear Doorway (5, 4):
+   - Activate Strength with Geodude (ROCKY).
+   - Approach (5, 5) from the east at (6, 5), facing West.
+   - Push boulder WEST from (5, 5) to (4, 5).
+4. Ascend to 3F:
+   - Walk into (5, 5), North through doorway (5, 4) into (5, 3).
+   - Walk west to ladder at (1, 1) and climb to Victory Road 3F!
 
 <hr>
 
