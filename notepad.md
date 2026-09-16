@@ -4011,6 +4011,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
 - Boulder 3 at (13, 13): Pushing south from (13, 12) moves Boulder 3 into (13, 13), where it is blocked south by (13, 14) rock wall and flanked by walls at (12, 12) and (14, 12). Column 13 does not provide northern access into rows 13-15 [Empirically verified Turns 20630, 20930-20939].
-- Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370].
+- Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370].- Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta [Turn 21493].
+
 
 <hr>
