@@ -3822,30 +3822,27 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 21062)
+# Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (19, 6) on Victory Road 3F.
+- Player position: (17, 5) on Victory Road 3F.
 - Strength is ACTIVE (cast via Geodude Turn 21047).
 - Boulder 1: At (3, 5) ON SWITCH PLATE! Switch is depressed; barrier block is LOWERED.
-- Target: Ascending wooden staircase at (17, 5) onto elevated terrace.
-- Visual Confirmation (Turn 21112): Row 6 is confirmed open dark floor across (17-21, 6), connecting Column 20 directly west to wooden staircase at (17, 5)!
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
 
 ## Physical Topology & Observations:
-- Column 7 South: Terminated at (7, 7) by Item Ball and solid rock walls across rows 8-10.
-- Elevated Terrace Route: Accessed via Wooden Staircase at (17, 5). Houses Cooltrainer at (13, 3) and contains the true passage through the lowered barrier to the southeast sector.
-- Southeast Sector Channel: Contains Pit Hole at (23, 15) and Boulder at (22, 15).
+- Elevated Terrace (Cols 9-18, Rows 2-10): Fully surveyed on Turns 20463-20530 and 20990-20996; terminates at (10, 10) and connects west through (7, 10) to the enclosed southwest basin. Does NOT connect to the southeast sector.
+- Column 20 Southern Corridor: Open north-south passage across rows 1-9; extends south past row 8 into rows 10-15 toward Pit Hole (23, 15) and Boulder (22, 15).
 - 2F Northeast Ladder (27, 7): Confirmed sealed on 2F by solid rock walls on all sides; all progression must be solved on 3F.
 
 ## Master Execution Strategy:
-1. Walk North up Column 7 to Row 1 Northern Highway at (7, 1).
-2. Walk East along Row 1 to Column 17.
-3. Ascend Wooden Staircase at (17, 5) onto the elevated terrace.
-4. Walk across elevated terrace past Cooltrainer (13, 3) through the lowered barrier block.
-5. Reach southeast sector, push boulder into Pit Hole at (23, 15), and jump down to 2F.
+1. Step Down from staircase (17, 5) to lower floor at (17, 6).
+2. Walk East along Row 6 to Column 20 at (20, 6).
+3. Walk South down Column 20 past row 8 to explore southern corridors (rows 10-15).
+4. Reach southeast sector containing Pit Hole at (23, 15) and Boulder at (22, 15).
+5. Push boulder into Pit Hole at (23, 15) and jump down to 2F.
 6. On 2F, push fallen boulder onto switch plate to lower exit barrier (23, 14).
 7. Climb ladder at (25, 14) to exit Victory Road to Indigo Plateau!
 
