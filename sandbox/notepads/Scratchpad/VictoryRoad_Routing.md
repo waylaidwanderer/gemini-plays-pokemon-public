@@ -1,8 +1,8 @@
 # Victory Road Routing Plan (Turn 21243)
 
 ## Current Status:
-- Player position: (7, 10) on Victory Road 3F (Lowered Barrier) [Turn 21254].
-- Target: Traverse west via (5, 10) and (5, 8) to staircase at (1, 9) to descend into Southwest basin.
+- Player position: (4, 8) on Victory Road 3F [Turn 21257].
+- Target: Descend wooden staircase at (1, 9) to (1, 10) to enter the Southwest basin.
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
