@@ -1,7 +1,7 @@
 # Victory Road 3F Points of Interest & Geography
 
 ## Connections
-- Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber).
+- Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Dungeon Exit: Unexplored.
 
 ## Layout & Mechanics
@@ -16,7 +16,6 @@
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 5+.
 - Rock Wall at (19, 3..5): Separates the central terrace (cols 11-18) from the column 20 eastern corridor.
 
-
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
 - Zubat (observed Turns 19468, 19673)
@@ -30,8 +29,3 @@
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
 ## Negative Collision Telemetry
-
-
-
-
-
