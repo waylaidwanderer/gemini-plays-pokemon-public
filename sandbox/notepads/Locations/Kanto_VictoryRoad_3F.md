@@ -19,7 +19,7 @@
 ## Wild Encounters
 - Onix (observed Turns 19437, 19585, 19639, 19694, 19779, 19811, 19817)
 - Zubat (observed Turns 19468, 19673)
-- Geodude (observed Turns 19558, 19608, 19663, 19762, 19804)
+- Geodude (observed Turns 19558, 19608, 19663, 19762, 19804, 20454)
 - Machop (observed Turns 19565, 19729, 19767, 19829)
 - Golbat (observed Turns 19658, 19733)
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
