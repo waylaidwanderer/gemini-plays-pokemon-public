@@ -3822,25 +3822,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Routing Plan (Turn 21391)
+# Victory Road Routing Plan (Turn 21452)
 
 ## Current Status:
-- Player position: (23, 3) on 3F; Strength ACTIVATED by ROCKY; closing menu [Turn 21417].
-- Priority Plan: Push Boulder 1 onto switch (3, 5) to lower barrier (7, 10), then explore unexplored columns 1-4 of southwest basin to locate pit hole.
-- Eastern Alcove Audit: Verified row 6 across cols 24-31 is solid rock wall. Alcove ends at row 5 (dead end).
-- Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
-- Northeast Ladder on 3F: Located at (26, 8).
-- Exit connection to 2F: Ladder at (23, 7).
-
-## Physical Topology & Observations:
-- Elevated Terrace (Cols 9-18, Rows 2-10): Reached via wooden staircase at (17, 5). Contains Advice NPC at (13, 3). Connects west and south to (10, 10) and lowered barrier at (7, 10).
-- Column 20 Corridor: Open passage connecting row 1 to row 11; terminated at (20, 12) by rock wall. Does not connect south into rows 13-15.
-- 2F Northeast Ladder (27, 7): Confirmed sealed on 2F by solid rock walls on all sides; all progression must be solved on 3F.
+- Player position: (16, 1) on 3F facing West; Strength is ACTIVE.
+- Boulder 1 position: (14, 1) on Row 1 (abandoned; southwest basin was already cleared Turns 20716-21306).
+- Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin. Both Cooltrainers defeated. No hole or boulder exists in that basin.
+- Eastern Corridor & Boulder 2: Priority objective is Boulder 2 at (24, 10) and the eastern corridor/chasm.
 
 ## Master Execution Strategy:
+1. Turn East along Row 1 and navigate back to Column 20 / Column 23.
+2. Head South down Column 20 / 23 to Row 10.
 3. Empirically inspect Boulder 2 at (24, 10) and test whether it can be pushed east, south, or west.
-4. Survey passage south of Boulder 2 and row 10.
-5. Locate physical hole and boulder to solve 2F exit barrier block.
+4. Survey passage south of Boulder 2 and locate the physical hole dropping to 2F.
+5. Push Boulder 2 into the hole, jump down after it to 2F, and solve the 2F exit barrier block.
+
 
 <hr>
 
@@ -3963,7 +3959,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Ladder to 2F: Located at (23, 7); verified two-way connection to 2F (23, 7) [Turn 20613].
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
-- Pit Hole: Unverified hypothesis in southeast sector (exact coordinates unconfirmed).
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
@@ -3983,7 +3978,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
 - Boulder 3: Located at (13, 12); pushed south to (13, 13) with active Strength [Turn 20561].
-- Boulder 4: Unverified entity in southeast sector.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
