@@ -11,12 +11,12 @@
 4. **Ladder D**: Located at (29, 1) <-> 1F (27, 1).
 5. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) [2F arrival spawn at (9, 1)].
 
-## Verified Northwest & West Maze Topography (Turn 51242)
-- **Ladder A Location**: (1, 3).
-- **Ladder E Arrival**: Ladder icon at (7, 1), spawn at (9, 1). Connects west via Row 1 to (3, 1..3).
+## Northwest & West Maze Topography & Active Hypotheses
+- **Ladder A Location**: (1, 3) [Visible on screen from Row 1/3, descending to B1F Mewtwo].
+- **Ladder E Arrival**: Ladder icon at (7, 1), spawn at (9, 1). Connects west via Row 1 to (3..5, 1).
 - **Row 3 Main Bypass**: Open floor across (3..9, 3) connecting Column 3 to Column 9 and Column 5.
-- **Row 7 Highway**: Open floor across (0..11, 7).
-- **Column 0 Highway**: Open floor across (0, 2..9) connecting Row 9/7 to Row 2 at (0, 2) -> (1, 2) -> (1, 3) Ladder A.
+- **Northwest Frontier**: Currently at (3, 3); testing connections from (3, 3) -> (3, 2..0) -> (0..2, 0..2) -> (1, 2) -> Ladder A (1, 3).
+- **Hypothesized Column 0 / Row 7 Corridors**: Westernmost bounds (cols 0-2, rows 4-9) remain unvisited and require empirical traversal.
 
 ## Verified Southeastern & Southern Topography
 - **Ladder D Sector**: (29, 1) connects to self-contained eastern sector; (24, 9) is an impassable rock barrier.
@@ -73,3 +73,4 @@
 - (22, 15) is a dead-end pocket enclosed south by solid rock at (22, 16) (Turn 51863).
 - Column 18 (rows 11..17) confirmed wide open vertical corridor connecting Row 11 directly south to Row 17 Corridor; (16, 14) is solid rock and (15, 15) is a dead-end pocket (Turn 51857).
 - (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51897).
+- (7, 4) confirmed solid rock barrier blocking southward passage from (7, 3) (Turn 51888).
