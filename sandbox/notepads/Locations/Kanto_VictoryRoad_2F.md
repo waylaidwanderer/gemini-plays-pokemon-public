@@ -4,7 +4,7 @@
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Visually confirmed at (26, 8) with light blue vertical rails and horizontal rungs [Verified Turn 20386-20389; previously misattributed to (27, 7)]; situated in enclosed eastern chamber (rows 7-9, cols 25-28). Connects to 3F (26, 8). Enclosed on 2F by solid rock walls on all sides.
-- Northwest Chamber: Reached Turn 19405 via Northern Highway (Row 1). Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0).
+- Northwest Chamber: Reached Turn 19405 via Northern Highway (Row 1). Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (2, 0) connecting to 3F (2, 0) [Verified Turn 20435; previously approximated as (1, 1)].
 
 ## Layout & Topology
 - Tile (21, 11): Impassable elevation cliff / wall from (20, 11) facing East [Tested Turn 20392].
