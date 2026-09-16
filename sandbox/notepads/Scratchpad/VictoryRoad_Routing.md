@@ -7,11 +7,11 @@
 
 ## Master Execution Strategy:
 1. [COMPLETED Turn 21628] Boulder 1 pushed onto Switch Plate (3, 5); Barrier (7, 10) lowered.
-2. [IN PROGRESS] Navigating to wooden staircase at (17, 5) to access elevated plateau and cross lowered barrier (7, 10).
-3. Climb wooden staircase at (17, 5) onto elevated plateau, traverse west across lowered barrier (7, 10), and descend wooden staircase at (1, 9) into the southern passage.
-4. Advance east past defeated Cooltrainer ♂ at (5, 14) and defeated Cooltrainer ♀ at (7, 13).
-5. Continue east along Row 12-13 corridor past (7, 13) to discover the pit hole and the boulder.
-6. Push the boulder into the pit hole and jump down after it to 2F.
+2. Climb wooden staircase at (17, 5) onto elevated plateau, traverse west across lowered barrier (7, 10), and descend wooden staircase at (1, 9) into the southern corridor.
+3. Advance east past defeated Cooltrainer ♂ at (5, 14) and defeated Cooltrainer ♀ at (7, 13).
+4. Survey the unmapped corridor east of Cooltrainer ♀ along Rows 12-13 to empirically discover what lies downstream (pit hole, passage connection, or entities).
+5. Conditional: If a pit hole is located, determine which boulder can be pushed into it (evaluating connectivity to Boulder 2 at (24, 10), Boulder 3 at (13, 12), or any newly discovered entities).
+6. Drop the appropriate boulder into the pit hole and jump down to 2F.
 7. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
 8. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
 
