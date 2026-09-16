@@ -1,19 +1,18 @@
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20087)
-- Location: Victory Road 1F at ladder (1, 1), returning to 2F (0, 8).
-- Western Boulder: Cleanly reset to default coordinates (5, 5) via Turn 20087 1F transition.
-- Western Boulder: Pushed North into (5, 3) on Turn 20029 with Strength active.
-- Empirical Verification at Western Sector:
-  - (5, 2) is a solid rock wall (Turn 20046 bump). Boulder at (5, 3) cannot move North.
-  - (7, 4) is a solid rock wall (Turn 20057 bump). Column 7 cannot step North into Row 3.
-  - (4, 4) and (6, 4) are solid rock walls (Turns 19918, 19958 bumps).
-  - (6, 5) is a solid rock wall (Turn 20017 bump).
-- Current Battle: Wild Geodude encountered at (9, 9).
-
-## Routing Plan
-1. Flee from wild Geodude to return to overworld at (9, 9).
-2. Reset Victory Road 2F via 1F ladder at (0, 8) to restore the Western Boulder to its default starting position (5, 5).
-3. Investigate the Western Boulder puzzle with fresh, rigorous Sokoban analysis:
-   - When boulder is at (5, 5), evaluate ALL push vectors and adjacent tile manipulations.
-   - Test whether boulder can be moved without sealing the passage, or determine the exact mechanism to access ladder (1, 1).
+## Current Status (Turn 20110)
+- Location: Victory Road 2F Western Corridor at (0, 8).
+- Strength: Active (Geodude ROCKY).
+- Breakthrough Insight: Doorway (5, 4) is a ONE-WAY EXIT from the Northwest Chamber back to the entrance corridor at (0, 8). It was never an entrance to the Northwest Chamber.
+- The boulder at (5, 5) functions as a one-way barrier blocking southern entry.
+- Intended Route to 3F:
+  1. From (0, 8), navigate around the rock pillar via Western Highway (cols 2-3) to Row 11 at (2, 11).
+  2. Travel east along Row 11 to Column 12 corridor.
+  3. Ascend Column 12 corridor (rows 11 down to 6/7) to Row 7 Central Corridor.
+  4. Follow the northern path to the Northern Highway (Row 1).
+  5. Traverse Row 1 west into the Northwest Chamber (past defeated Pokémaniac at (4, 2)).
+  6. Ascend ladder at (1, 1) directly to Victory Road 3F (2, 0).
+- 3F Progression Goal:
+  - Locate the pit hole on 3F and push the 3F boulder down the pit to 2F.
+  - Jump down after the boulder to depress the switch and lower the barrier at (23, 14).
+  - Ascend eastern ladder at (25, 14) to reach Route 23 North / Indigo Plateau.
