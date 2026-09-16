@@ -17,3 +17,4 @@
   2. Systematically frontier-map all unexplored land corridors and water channels in the southern half of 1F (rows 12-17, cols 0-25).
   3. Locate the entrance/passage into the Southwest Sector.
   4. Climb SW Ladder at (3, 11) to 2F SW Sector -> Walk north to Ladder A (1, 3) -> Descend to B1F Mewtwo!
+- Breakthrough (Turn 52417): Reached (18, 14) and confirmed Southwest Water Ramp at (17, 15) leading directly into the southwest water canal (cols 0-17, rows 16-18) towards SW Ladder (3, 11).
