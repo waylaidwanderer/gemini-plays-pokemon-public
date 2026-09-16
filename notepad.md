@@ -3851,6 +3851,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Chamber: Reached Turn 19405 via Northern Highway (Row 1). Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0).
 
 ## Layout & Topology
+- Wall at (14, 7): Solid purple rock wall directly west of (15, 7), terminating Row 7 westward passage at column 15 [Visually confirmed Turn 20249/20253].
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
 - Wall at (25, 6): Solid rock wall directly south of (25, 5) [Empirically verified Turn 18314 via bump test].
 - Column 8 & Row 1 Solid Boundary: Row 1 and Row 0 are solid cave ceiling/boundary across all columns. Column 8 rock wall extends from row 2 south, with (8, 2) being a solid rock wall corner. There is NO west passage from column 9 across rows 0-6 [Verified Turn 17900].
@@ -3912,7 +3913,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southern Boundary: Solid rock wall along row 17.
 
 ## Legendary Pokémon
-- Moltres: Legendary bird sprite located at (7, 7) on elevated plateau [Visually confirmed Turn 18795; prior Turn 16365 note of (11, 5) was a coordinate parallax error].
+- Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually re-confirmed Turn 20249/20253 from (15, 7); prior (7, 7) claim was erroneous].
 
 ## Trainers
 - Trainer: Juggler at (23, 2) [Defeated Turn 16570; Team: Mr. Mime Lv 48; Prize: ¥1680].
@@ -3960,6 +3961,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Machoke [Turn 20247 at (15, 7)]
+- Zubat [Turn 20243 at (21, 11)]
 - Geodude [Turn 20219 at (21, 16)]
 - Onix [Turn 20215 at (21, 16)]
 - Onix [Turn 20212 at (14, 12)]
@@ -4027,7 +4030,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Geodude (observed Turns 19558, 19608, 19663, 19762, 19804)
 - Machop (observed Turns 19565, 19729, 19767, 19829)
 - Golbat (observed Turns 19658, 19733)
-- Tile (23, 7): Ordinary cave floor with 0 warp effect [Verified Turn 19616]. Not an active ladder.
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8).
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
