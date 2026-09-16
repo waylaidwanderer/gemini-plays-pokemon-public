@@ -1,9 +1,9 @@
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (13, 11) on Victory Road 3F [Turn 21198].
-- Boulder 3: At starting position (13, 12). Player facing South at (13, 11).
-- Target: Execute single-step push test south against Boulder 3.
+- Player position: (13, 11) on Victory Road 3F [Turn 21204].
+- Boulder 3 Test Result: Pushed south to (13, 13). Blocked south by rock wall at (13, 14); flanked by walls at (12, 12..13) and (14, 12). Column 13 does not connect to rows 13-15.
+- Target: Walk east along Row 10 back to Column 20 to investigate Column 23/24/25 and Ladder (23, 7).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
