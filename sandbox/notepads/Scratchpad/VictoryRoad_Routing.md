@@ -1,12 +1,13 @@
-# Victory Road 3F Routing Plan (Turn 20861)
+# Victory Road 3F Routing Plan (Turn 20868)
 
-## Current Status:
-- Player position: (16, 11) in Row 11 corridor, facing West.
-- Row 12 is a continuous rock wall across cols 16-21.
-- Row 13 is an open horizontal corridor spanning cols 16-23.
-- Columns 22-23 form an open vertical corridor (rows 10-13) leading to Boulder 2 at (24, 10).
+## Master Puzzle Solution (Verified Turns 20863-20868):
+1. Southeast puzzle: Boulder 4 at (22, 15) sits directly adjacent to Pit Hole at (23, 15).
+2. Pushing Boulder 4 East 1 tile from (21, 15) drops it into (23, 15) to 2F, lowering the exit barrier!
+3. Tile (21, 15) is inside the enclosed chasm (cols 21-23, rows 13-15).
+4. Gateway to chasm: Boulder 2 at (24, 10) between (23, 10) and (25, 10).
+5. Route: Column 20 North -> Row 0 East -> Column 25 South to (25, 10) -> Push Boulder 2 West into (23, 10) -> Walk through chasm to (21, 15) -> Push Boulder 4 East into Pit Hole (23, 15) -> Drop to 2F!
 
 ## Active Strategy:
-1. Walk west along Row 11 to (15, 11) to locate the north-south opening into Row 13.
-2. Advance through Row 13 east to columns 22-23 to access Boulder 2 at (24, 10) and southeast sector (Boulder 4 at 22, 15).
-3. Survey southeast sector for the drop hole, push boulder into hole, and drop down to 2F.
+1. Walk east to (20, 11) and north up Column 20 to row 0.
+2. Walk east along Row 0 to Column 25, then south to (25, 10).
+3. Push Boulder 2 West to open chasm, navigate to (21, 15), push Boulder 4 East into hole (23, 15), and jump down.
