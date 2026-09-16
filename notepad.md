@@ -3963,6 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Machoke [Turn 20146 at (4, 11)]
 - Onix [Turn 20142 at (5, 9)]
 - Machop [Turn 20137 at (21, 15)]
 - Machop [Turn 20111 at (2, 9)]
