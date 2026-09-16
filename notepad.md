@@ -3822,20 +3822,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road 3F Routing Plan (Turn 20881)
+# Victory Road Routing Plan (Turn 20892)
 
 ## Current Status:
-- Player position: (20, 2) at Column 20 / Row 2 junction, facing West.
-- Trainer sighted at (28, 5) facing West across tile (27, 5).
-- Row 6 forms a continuous rock wall across cols 24-32, completely sealing this northeast alcove from the southern sector.
-- Eastern border cols 29-32 is solid rock wall.
-- Visible in southern view: Ladder at (23, 7), Ladder at (26, 8), Boulder 2 at (24, 10), Boulder 4 at (22, 15), and Pit Hole at (23, 15).
+- Player position: (20, 7) on 3F, facing South.
+- Ladder to 2F is directly east at (23, 7).
+- Master solution confirmed: Boulder 4 at (22, 15) and Pit Hole at (23, 15) visually confirmed on 3F.
+- Boulder 2 at (24, 10) guards the entrance to the inner chasm from Column 25.
+- Ascending via Ladder (26, 8) accesses the eastern chamber on 3F to push Boulder 2.
 
-## Working Hypotheses & Exploration Plan:
-1. Northeast alcove at (27-28, rows 0-5) is a dead-end pocket; tile (27, 5) enters line of sight of trainer at (28, 5).
-2. Ladder (26, 8) and Boulder 2 at (24, 10) are located in the eastern lower tier.
-3. How to access (26, 8) / (25, 10): Investigate connection from Ladder (23, 7) or through 2F enclosed chamber.
-4. Target puzzle: Push Boulder 4 at (22, 15) East into Pit Hole at (23, 15) to clear 2F exit barrier.
+## Active Strategy:
+1. Step east onto Ladder (23, 7) to descend to 2F eastern sector.
+2. On 2F, navigate to Northeast Ladder at (26, 8) and ascend to 3F.
+3. On 3F, descend Column 25 to (25, 10), push Boulder 2 West into (23, 10).
+4. Follow chasm south to (21, 15), push Boulder 4 East into Pit Hole at (23, 15).
+5. Jump down Pit Hole to 2F, push boulder onto switch next to barrier (23, 14), and exit to Indigo Plateau.
 
 
 <hr>
