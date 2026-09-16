@@ -117,6 +117,7 @@
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Machoke [Turn 20273 at (5, 10)]
 - Machoke [Turn 20247 at (15, 7)]
 - Zubat [Turn 20243 at (21, 11)]
 - Geodude [Turn 20219 at (21, 16)]
