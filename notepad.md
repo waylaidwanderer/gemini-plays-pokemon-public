@@ -3827,14 +3827,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Verified Reality & Sokoban Geometry:
 - Switch Plate identified at (3, 5) via high-res inspection of tile depression.
 - Northeast Columns 28-30 are solid rock walls from Row 0 downwards (no eastern exit from Row 0).
-- Boulder 1 starts at (22, 3).
-- Pushing Boulder 1 into Row 0 causes a fatal trap state (Row -1 is solid rock, preventing south pushes).
-- Solution: Push Boulder 1 North to Row 1 at (22, 1), then loop around to (23, 1) and push West along Row 1 (Northern Highway transit corridor).
-- Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
 ## Execution Sequence:
-- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (1, 5) facing East.
-1. [x] Push Boulder 1 along Row 1, down to (6, 2), west along Row 2 to Column 2, south to (2, 5), and east onto circular switch tile at (3, 5) [Completed Turn 20690]!
+- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (20, 0) facing East.
 2. Navigate via Northern Highway (Row 0) to Wooden Staircase at (17, 5).
 3. Ascend to elevated terrace at (17, 4), walk west along Row 4 to Column 10, south to Row 10, and west to (8, 10).
 4. Verify barrier block at (7, 10) is lowered, granting access to the southwest sector, exit hole, and descent to 2F!
@@ -3973,7 +3968,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11+.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Boulder 1: Started at (22, 3); successfully routed and pushed onto circular switch plate at (3, 5) [Turn 20690].
+- Boulder 1: Started at (22, 3); pushed onto circular floor depression at (3, 5) [Turn 20690]; switch function unverified until barrier at (7, 10) is physically tested.
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
