@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 3F Routing Plan (Turn 20861)
 
 ## Current Status:
-- Player position: (20, 10) in eastern corridor, facing South.
+- Player position: (16, 11) in Row 11 corridor, facing West.
 - Row 12 is a continuous rock wall across cols 16-21.
 - Row 13 is an open horizontal corridor spanning cols 16-23.
 - Columns 22-23 form an open vertical corridor (rows 10-13) leading to Boulder 2 at (24, 10).
@@ -3958,6 +3958,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Ladder: Located at (2, 0) (connects down to Victory Road 2F Northwest Chamber at 1, 1) [Arrived Turn 20452].
 - Ladder to 2F: Located at (23, 7); verified two-way connection to 2F (23, 7) [Turn 20613].
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
+- Pit Hole: Located at (23, 15) in southeast sector [Visually confirmed Turn 20863]. Drops down to Victory Road 2F next to exit barrier.
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
@@ -3977,7 +3978,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
 - Boulder 3: Located at (13, 12); pushed south to (13, 13) with active Strength [Turn 20561].
-- Boulder 4: Sighted at (22, 15) in southeast corner [Turn 20566].
+- Boulder 4: Located at (22, 15) directly adjacent to Pit Hole at (23, 15) [Visually confirmed Turn 20863]. Pushing East 1 tile drops boulder into hole to 2F.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
