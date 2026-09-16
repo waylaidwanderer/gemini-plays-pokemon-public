@@ -3821,22 +3821,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Progression & Routing Dashboard
 
-## Current Status (Turn 20110)
-- Location: Victory Road 2F Western Corridor at (0, 8).
-- Strength: Active (Geodude ROCKY).
-- Breakthrough Insight: Doorway (5, 4) is a ONE-WAY EXIT from the Northwest Chamber back to the entrance corridor at (0, 8). It was never an entrance to the Northwest Chamber.
-- The boulder at (5, 5) functions as a one-way barrier blocking southern entry.
-- Intended Route to 3F:
-  1. From (0, 8), navigate around the rock pillar via Western Highway (cols 2-3) to Row 11 at (2, 11).
-  2. Travel east along Row 11 to Column 12 corridor.
-  3. Ascend Column 12 corridor (rows 11 down to 6/7) to Row 7 Central Corridor.
-  4. Follow the northern path to the Northern Highway (Row 1).
-  5. Traverse Row 1 west into the Northwest Chamber (past defeated Pokémaniac at (4, 2)).
-  6. Ascend ladder at (1, 1) directly to Victory Road 3F (2, 0).
-- 3F Progression Goal:
-  - Locate the pit hole on 3F and push the 3F boulder down the pit to 2F.
-  - Jump down after the boulder to depress the switch and lower the barrier at (23, 14).
-  - Ascend eastern ladder at (25, 14) to reach Route 23 North / Indigo Plateau.
+## Current Status (Turn 20136)
+- Location: Victory Road 2F at (21, 14).
+- Strategic Correction:
+  - The Eastern Wing (cols 14-29) cannot access the Northwest Chamber at (1, 1) due to solid rock walls at Column 14 (rows 0-7) and Column 8 (rows 2-7).
+  - The ladder at (25, 14) behind barrier block (23, 14) is the final dungeon exit to Indigo Plateau, which is unlocked by dropping the boulder from 3F down the hole.
+  - The ONLY entrance to 3F is the ascent ladder at (1, 1) in the Northwest Chamber, accessible exclusively via the Western Boulder puzzle at (5, 5).
+  - The hypothesis that doorway (5, 4) is a 'one-way exit' was an unverified deduction. The western passage must be tested with empirical Sokoban rigor.
+
+## Routing Plan
+1. Backtrack west along Row 16 lower corridor, ascend staircase at (15, 15) to (15, 14).
+2. Traverse west across Row 9 plateau to staircase (5, 10), descend to Row 11, and navigate through Western Highway to (0, 8).
+3. Reset floor via 1F ladder at (0, 8) if needed to restore Western Boulder to default coordinates (5, 5).
+4. Activate Strength with Geodude (ROCKY).
+5. Empirically test all push vectors and approach angles on Western Boulder (5, 5) to access ladder (1, 1) to 3F.
 
 <hr>
 
@@ -3928,7 +3926,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 
@@ -3966,6 +3963,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Machop [Turn 20111 at (2, 9)]
+- Geodude [Turn 20118 at (4, 11)]
+- Zubat [Turn 20126 at (17, 16)]
 - Onix [Turn 20036 at (5, 6)]
 - Golbat [Turn 20041 at (2, 6)]
 - Zubat [Turn 20051 at (7, 5)]
@@ -4006,7 +4006,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (3, 5): Empirically verified ordinary flat cave floor, NO pit hole [Turn 19774].
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
-- Active Field Move: STRENGTH reactivated with Geodude (ROCKY) [Turn 19722].
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
@@ -4034,7 +4033,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 
 
-- Marowak (observed Turn 19744)
 - Graveler (observed Turn 19826)
 
 <hr>
