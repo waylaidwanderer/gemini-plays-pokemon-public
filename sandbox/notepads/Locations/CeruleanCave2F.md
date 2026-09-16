@@ -78,3 +78,5 @@
 - (16, 2) confirmed solid rock barrier blocking northward passage from (16, 3) (Turn 51921).
 - (20, 0) confirmed solid rock barrier blocking westward movement along Row 0 from (21, 0) (Turn 51977).
 - (19, 1) confirmed solid rock barrier; bypass to west connects via (20, 1) -> (20, 2..3) -> (19..16, 3) (Turn 51978).
+- (17, 2) and (17, 3) confirmed solid purple rock barriers (Turn 51979).
+- Row 1 open corridor across cols 14..18 connecting (18, 1) west to (14..17, 1) (Turn 51979).
