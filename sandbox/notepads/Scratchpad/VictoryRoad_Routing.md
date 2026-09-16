@@ -3,7 +3,7 @@
 ## Current Status:
 - Player position: (7, 0) on Victory Road 3F.
 - Strength is ACTIVE (cast via Geodude Turn 21047).
-- Boulder 1: At (6, 1), pushed to Column 6 corner; executing southward push to (6, 2).
+- Boulder 1: At (6, 1), pushing south down Column 6 to (6, 2).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
