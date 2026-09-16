@@ -9,7 +9,6 @@
 - Tile (3, 5): Empirically verified ordinary flat cave floor, NO pit hole [Turn 19774].
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
-- Active Field Move: STRENGTH reactivated with Geodude (ROCKY) [Turn 19722].
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
 - Impassable boundary at (6, 7): Southern progression down Column 6 is blocked at (6, 7) by elevation cliff/rock wall [Verified Turn 19450].
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 11+, completely bypassing the column 8 rock wall.
@@ -37,5 +36,4 @@
 
 
 
-- Marowak (observed Turn 19744)
 - Graveler (observed Turn 19826)

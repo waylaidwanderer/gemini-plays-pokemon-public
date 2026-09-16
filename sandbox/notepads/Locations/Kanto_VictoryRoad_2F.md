@@ -84,7 +84,6 @@
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
-- Map Reset (Turn 17155): Transition to 1F and back restored all 2F dynamic entities to default map coordinates.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
 - Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
 
@@ -122,6 +121,9 @@
 - Ladder Pairing: Ladder at (1, 1) in Northwest Chamber ascends to Victory Road 3F at (2, 0) [Verified Turn 19426].
 
 ## Wild Encounters (Recent Observations)
+- Machop [Turn 20111 at (2, 9)]
+- Geodude [Turn 20118 at (4, 11)]
+- Zubat [Turn 20126 at (17, 16)]
 - Onix [Turn 20036 at (5, 6)]
 - Golbat [Turn 20041 at (2, 6)]
 - Zubat [Turn 20051 at (7, 5)]
