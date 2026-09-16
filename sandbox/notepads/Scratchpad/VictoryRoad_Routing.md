@@ -1,7 +1,7 @@
 # Victory Road Routing Plan (Turn 21391)
 
 ## Current Status:
-- Player position: (23, 7) on 3F; walking north along Column 23 to (23, 3) [Turn 21410].
+- Player position: (23, 3) on 3F; casting Strength with Geodude (ROCKY) [Turn 21412].
 - Barrier (23, 14) confirmed RAISED. Returning to 3F to solve boulder/hole puzzle.
 - Eastern Alcove Audit: Verified row 6 across cols 24-31 is solid rock wall. Alcove ends at row 5 (dead end).
 - Southwest Basin Audit: Proved that Columns 12-13 form a solid rock wall across rows 12-15; no eastern exit exists from the Southwest basin.
