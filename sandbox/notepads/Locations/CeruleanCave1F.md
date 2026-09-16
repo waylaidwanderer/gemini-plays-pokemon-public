@@ -11,6 +11,6 @@
 4. **Southwest Ladder**: Located at (3, 11) in Southwest Sector. Connects to 2F SW Sector -> leads to Ladder A (1, 3) -> Mewtwo (B1F).
 
 ## Verified Topographical Sectors (1F)
-- **Central Terrace**: Spans cols 11-18 across rows 8-13. Contains Ladder C at (18, 9). Accessible via water ramp at (11, 13) from west canal and ramp at (21, 11) from east basin.
+- **Central Terrace**: Spans cols 11-18 across rows 8-13. Contains Ladder C at (18, 9). Accessible via water ramp at (11, 13) from west canal and ramp at (21, 11) from east basin. North cliff edge along row 8 (cols 11-16) is elevated; cannot Surf directly north into row 7.
 - **Inner Western Canal**: Water channel along cols 8-9 across rows 6-15. Bounded on west by solid rock ridge at col 7 (rows 6-15). Does NOT connect to SW sector (3, 11).
 - **Northern Canal**: Wide waterway spanning across rows 4-5 from east to west. Connects south to inner canal at (10, 6) and continues west towards NW/west waterways to reach SW Sector.
