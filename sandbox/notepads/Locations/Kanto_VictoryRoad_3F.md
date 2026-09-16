@@ -30,3 +30,4 @@
 - Southwestern Passage: Rows 12-15 (cols 9-11) wide open dark checkerboard floor extending west into unexplored western sector (cols 1-8).
 - Column 11: Continuous rock wall from row 6 to row 11 separating central trench from eastern area.
 ## Negative Collision Telemetry
+- Trainer: Sighted NPC at (13, 3) [Turn 20463].
