@@ -618,10 +618,10 @@
 - Northern Boundary to Route 24: (20..21, 4..0) connects directly north to Route 24 Nugget Bridge at (10..11, 35).
 - Southern Bypass: Row 30 connects East Avenue (37, 30) to west residential streets.
 
-## Verified Northern Thoroughfare & Stairs (Turn 52083)
-- Column 17 Blue Stairs: Located at (17, 14..15), connecting central avenue at (17, 16) directly north onto the Northern Highway at (17, 12..13).
+## Verified Northern Thoroughfare & Collision Proofs (Turns 52083-52111)
 - Northern Highway: Wide open road across rows 12-13 spanning continuously from Column 8 to Column 20.
 - Route 24 Connection: Column 20 (rows 0-12) connects Northern Highway directly north into Route 24 Nugget Bridge at (10, 35).
+- Negative Proof: (17, 15) is solid building collision / non-passable graphic (Turn 52084 empirical refutation).
 - Negative Proof: (16, 29) is a solid boundary post/stump, not a cuttable tree (Turn 52072 empirical refutation: 'There isn't anything to CUT!').
 
 <hr>
