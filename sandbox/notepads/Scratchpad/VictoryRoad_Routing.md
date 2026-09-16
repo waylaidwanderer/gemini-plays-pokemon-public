@@ -1,7 +1,7 @@
 # Victory Road 3F Routing Plan (Turn 20861)
 
 ## Current Status:
-- Player position: (20, 10) in eastern corridor, facing South.
+- Player position: (16, 11) in Row 11 corridor, facing West.
 - Row 12 is a continuous rock wall across cols 16-21.
 - Row 13 is an open horizontal corridor spanning cols 16-23.
 - Columns 22-23 form an open vertical corridor (rows 10-13) leading to Boulder 2 at (24, 10).
