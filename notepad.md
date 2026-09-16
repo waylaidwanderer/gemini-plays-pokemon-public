@@ -3944,6 +3944,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (22, 15): Solid rock wall directly south of (22, 14) [Empirically verified Turn 20344 via direct bump test].
 
 ## Wild Encounters (Recent Observations)
+- Onix [Turn 20432 at (6, 2)]
 - Onix [Turn 20424 at (20, 4)]
 - Onix [Turn 20409 at (10, 2)]
 - Zubat [Turn 20380 at (16, 7)]
