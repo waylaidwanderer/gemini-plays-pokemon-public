@@ -40,7 +40,6 @@
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Column 29 Rock Barrier: Solid rock walls at (29, 9) and (29, 10) block northern access into row 7-8 from row 11 [Empirically verified Turn 19318].
-- Tile (23, 7): Ordinary cave floor with 0 warp effect [Re-verified Turn 17786].
 - Tile (23, 9): Solid rock wall blocking southward passage from (23, 8) [Empirically verified Turn 17781].
 - Tile (7, 10): Solid obstacle / elevation boundary blocking westward passage from (8, 10) [Empirically verified Turn 17721].
 - Wall at (24, 10): Empirically verified solid rock wall from (23, 10) facing East [Tested Turn 17759; 2 buttons pressed, 1 tile visited, halted at (23, 10)].
