@@ -3825,8 +3825,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Routing Plan (Turn 21122)
 
 ## Current Status:
-- Player position: (13, 4) on Victory Road 3F (Elevated Terrace) [Turn 21223].
-- Target: Face North and press A to interact with Cooltrainer at (13, 3).
+- Player position: (17, 4) on Victory Road 3F [Turn 21232].
+- Target: Descend staircase at (17, 5) to (17, 6) and walk east along Row 6 to (20, 6).
 - Boulder 2: At (24, 10) in horizontal passage between Channels B and C.
 - Northeast Ladder on 3F: Located at (26, 8).
 - Exit connection to 2F: Ladder at (23, 7).
