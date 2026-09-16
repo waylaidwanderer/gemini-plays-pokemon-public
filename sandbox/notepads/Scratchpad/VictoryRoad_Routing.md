@@ -9,9 +9,8 @@
 - Use Row 0 as the service corridor to push South when navigating toward Switch Plate (3, 5).
 
 ## Execution Sequence:
-- Boulder 1 current position: (2, 5). Player position: (2, 3) facing South.
-1. Push Boulder 1 West into (6, 1).
-2. Loop around via Row 0: walk Right to (8, 1), Up to (8, 0), Left to (6, 0).
-3. Face South at (6, 0) and push Boulder 1 into (6, 2) at the West Cross-Corridor entrance.
-4. Position at (7, 2) facing West, and push Boulder 1 West along Row 2 through (5, 2) and (4, 2) toward Column 2.
-5. Route Boulder 1 down Column 2 to test depression of circular tile (3, 5).
+- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (1, 5) facing East.
+1. [x] Push Boulder 1 along Row 1, down to (6, 2), west along Row 2 to Column 2, south to (2, 5), and east onto circular switch tile at (3, 5) [Completed Turn 20690]!
+2. Navigate via Northern Highway (Row 0) to Wooden Staircase at (17, 5).
+3. Ascend to elevated terrace at (17, 4), walk west along Row 4 to Column 10, south to Row 10, and west to (8, 10).
+4. Verify barrier block at (7, 10) is lowered, granting access to the southwest sector, exit hole, and descent to 2F!
