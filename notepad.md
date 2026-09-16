@@ -3823,9 +3823,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Current Status:
 - Arrived on Victory Road 3F via NW ladder (2, 0) [Turn 20452].
-- Traversed Northern Highway east to (21, 0).
-- Sighted Boulder 1 at (22, 3).
-- Current Position: (21, 0) facing East.
+- Sighted Boulder 1 at (22, 3), Ladder at (23, 7), Ladder at (26, 8), Boulder 2 at (24, 10).
+- Fled wild Machop and Zubat encounters safely.
+- Current Position: (21, 7) facing South.
+- Routing south down Column 20 toward southwestern passage.
 
 ## Active Routing Strategy:
 1. Advance East along Row 0 across cols 14-17 to reach Column 20 corridor.
