@@ -1,14 +1,14 @@
-# Victory Road 3F Routing Plan (Turn 20515)
+# Victory Road 3F Routing Plan (Turn 20524)
 
 ## Current Status:
-- Reached (8, 10) facing West.
-- Bump test on Turn 20509 into (7, 10) confirmed tile (7, 10) is a solid raised barrier block!
-- Westward passage through Row 10 is blocked by barrier block at (7, 10).
-- Backtracking east along Row 10 to (10, 10), then north along Col 10 to Row 4 terrace.
+- Reached (10, 7) facing North.
+- Proved (7, 10) is a solid impassable obstacle (logged in Negative Collision Telemetry).
+- Verified safe traversal along Row 4 past NPC (13, 3) with zero battle trigger (logged in Negative Collision Telemetry).
+- Pivoting strategy from premature macro-backtracking to probing northern terrace corridors at (10, 4).
 
 ## Active Routing Strategy:
-1. Retrace path: East to (10, 10), North along Col 10 to (10, 4), East along Row 4 to (17, 4).
-2. Descend wooden staircase at (17, 5) to lower cavern floor at (17, 6).
-3. Investigate lower cavern floor, Boulder 3 at (13, 12), and the chasm path leading west.
-4. Locate switch plate to lower barrier block at (7, 10) and hole to 2F.
-5. Drop boulder into hole, jump to 2F, and exit Victory Road!
+1. Advance north along Column 10 to junction (10, 4).
+2. Probe northern connections: (10, 3), (9, 4), (9, 3), and Row 2 cross-corridor.
+3. Traverse Row 2 west to (2, 2) / (5, 2) to access the unexplored western sector (cols 1-7).
+4. In the western sector, locate access to the boulder at (7, 8..9), the Item Ball at (7, 7), and the pit hole to 2F.
+5. Push boulder into hole, drop to 2F, and unlock the final barrier to the exit!
