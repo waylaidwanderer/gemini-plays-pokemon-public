@@ -3997,5 +3997,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (7, 10): Confirmed solid obstacle / impassable from (8, 10) facing West with 0 movement delta [Turn 20509].
 - Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
+- Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 
 <hr>
