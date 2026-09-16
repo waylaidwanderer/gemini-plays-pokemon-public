@@ -3829,10 +3829,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Columns 28-30 are solid rock walls from Row 0 downwards (no eastern exit from Row 0).
 
 ## Execution Sequence:
-- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (6, 10) facing West.
+- Boulder 1 current position: (3, 5) [RESTING ON CIRCULAR SWITCH TILE]. Player position: (5, 10) on terrace link.
 4. [x] Barrier block at (7, 10) confirmed LOWERED and passable [Turn 20715]!
 5. [x] Tile (6, 10) reached; confirmed (6, 9) is elevation wall bounding the alcove [Turn 20720].
-5. Test boundary at (5, 10) west of (6, 10) to verify if Row 10 connects to southwest staircase at (1, 9).
+5. [x] Tile (5, 10) confirmed PASSABLE [Turn 20734]! Connects north to (5, 8).
+6. Walk north to (5, 8), west across Row 8 to (1, 8), and descend Wooden Staircase at (1, 9).
 6. Explore Main Avenue (Cols 6-7) from Row 0 to reach Item Ball at (7, 7) and Pit Hole at (7, 8).
 
 <hr>
@@ -3960,6 +3961,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
+- Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Barrier Block at (7, 10): Lowered and confirmed passable on Turn 20715 by depressing switch plate (3, 5).
 - Pit Hole: Located at (7, 8) directly south of Item Ball at (7, 7) [Sighted Turn 20715]. Drops down to Victory Road 2F.
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
