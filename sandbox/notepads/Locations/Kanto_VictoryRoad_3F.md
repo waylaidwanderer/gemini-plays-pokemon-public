@@ -35,7 +35,7 @@
 - Advice NPC: Civilian at (28, 5) facing West ("You beat GIOVANNI of TEAM ROCKET?") [Verified Turn 21156].
 - Advice NPC: Civilian at (13, 3) facing South on elevated terrace ("By fighting tough battles, you get stronger!") [Verified Turn 21228].
 - Trainer: Cooltrainer at (5, 14) [Defeated Turn 20759; Team: Kingler Lv 43, Tentacruel Lv 43, Blastoise Lv 43].
-- Trainer: Cooltrainer ♀ at (7, 13) facing East [Visual audit Turns 20768-20772].
+- Trainer: Cooltrainer ♀ at (7, 13) facing East ("I'll show you just how good you are!") [Engaged Turn 21266].
 
 ## Wild Encounters
 - Onix
