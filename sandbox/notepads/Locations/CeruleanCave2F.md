@@ -74,3 +74,4 @@
 - Column 18 (rows 11..17) confirmed wide open vertical corridor connecting Row 11 directly south to Row 17 Corridor; (16, 14) is solid rock and (15, 15) is a dead-end pocket (Turn 51857).
 - (16, 8) confirmed solid rock barrier blocking southward passage from (16, 7) (Turn 51897).
 - (7, 4) confirmed solid rock barrier blocking southward passage from (7, 3) (Turn 51888).
+- (8, 5) confirmed solid rock barrier blocking westward movement along Row 5 from (9, 5) (Turn 51907).
