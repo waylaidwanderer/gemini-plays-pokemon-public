@@ -4004,6 +4004,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Machoke
 
 ## Negative Collision Telemetry
+- Tile (12, 14): Impassable solid rock wall directly east of (11, 14) with 0 movement delta [Empirically verified Turn 20804].
 - Tile (12, 15): Impassable solid rock wall directly east of (11, 15) with 0 movement delta [Empirically verified Turn 20799].
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
