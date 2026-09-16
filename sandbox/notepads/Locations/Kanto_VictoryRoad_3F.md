@@ -7,8 +7,9 @@
 - Dungeon Exit: Unexplored (accessible via boulder drop to 2F).
 
 ## Layout & Mechanics
+- Barrier Block at (7, 10): Lowered and confirmed passable on Turn 20715 by depressing switch plate (3, 5).
+- Pit Hole: Located at (7, 8) directly south of Item Ball at (7, 7) [Sighted Turn 20715]. Drops down to Victory Road 2F.
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
-- Tile (3, 5): Circular floor marking/depression; player stood directly on (3, 5) on Turn 20592 with zero warp/fall effect.
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
 - Item Ball: Located at (7, 7) [Uncollected; Bag 20/20 full, confirmed Turn 19445].
@@ -47,7 +48,6 @@
 - Tile (13, 0): Confirmed safe traversal along Row 0 past NPC at (13, 3) with no battle trigger [Turn 20467].
 - Tile (13, 4): Confirmed safe traversal along Row 4 past NPC at (13, 3) with zero battle trigger [Turn 20493].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
-- Tile (7, 10): Confirmed barrier block. Was solid [Turn 20509]; confirmed lowered and passable [Turn 20715] by Boulder 1 depressing switch plate at (3, 5).
 - Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
