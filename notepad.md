@@ -2870,7 +2870,6 @@
 - Ladder D sector (29, 1) is isolated on eastern ridge.
 - Column 19 Divider: Solid vertical rock divider blocks western passage across rows 0-8 from the Ladder B/C sector (cols 20-25); rock walls verified at (20, 0), (20, 1), and (19, 0..4).
 - Column 13/14 Divider: Solid vertical rock divider blocks western passage across rows 10-14 from the Ladder B/C sector.
-- Ladder A Access Protocol: Must ascend from 1F SW Ladder (3, 11) into 2F SW Sector (cols 0-7, rows 0-5), then walk north to (1, 2) and step onto Ladder A at (1, 3).
 
 <hr>
 
