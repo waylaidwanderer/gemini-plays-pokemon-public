@@ -1,10 +1,10 @@
 # Victory Road Master Roadmap (Turn 22954)
 
 ## Current Status:
-- Floor: Victory Road 3F
-- Position: (23, 7) at Ladder
-- Strength: Inactive on 3F (reset upon ascent)
-- Active Objective: Traverse west along Northern Highway (Row 1) to Northwest Ladder (2, 0).
+- Floor: Victory Road 2F
+- Position: (1, 1) in Northwest Chamber
+- Strength: Inactive on 2F (reset upon ladder descent)
+- Active Objective: Traverse east along Northern Highway (Row 1) to (20, 1).
 
 ## The Complete Canonical Solution to Victory Road:
 1. Ascend Ladder (23, 7) to 3F at (23, 7).
