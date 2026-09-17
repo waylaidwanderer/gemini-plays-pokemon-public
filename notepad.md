@@ -3827,21 +3827,20 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23821]:
-- Player is on Victory Road 3F at (2, 2) facing North.
-- Northwest corridor fully audited: (1, 3..6) and (0, 6) form an open pocket terminating at (0, 7) wall and (1, 7) northbound elevation cliff.
-- Tile (1, 7) empirically confirmed impassable from north [Turn 23814]; functions as a one-way elevation ledge.
-- Tile (0, 7) empirically confirmed solid rock boundary [Turn 23816].
-- Tile (6, 7) empirically confirmed solid rock / elevation boundary from (6, 6) [Turn 23807].
-- Tile (26, 3) empirically confirmed solid blue rock wall [Turn 23787].
-- Switch (3, 5) on 3F has NO effect on 2F Exit Barrier (23, 14) nor 3F Northeast Alcove Row 6.
-- Northern Highway (Rows 0-1) connects Main Avenue (Cols 6-7) east to Column 26.
-
-## Tactical Strategy & Investigation Plan [Turn 23821]:
-1. Halt redundant pushes of Boulder 1 to Switch (3, 5) until unmapped 3F areas are surveyed.
-2. Survey the Lower Central Corridor (Rows 6-11, Columns 11-20) and area around Boulder 3 at (13, 11).
-3. Determine how the Southwest Basin (rows 12-16) connects to the central floor.
-4. Search for visual confirmation of any true barrier block (blue/white checkerboard tile) or pit hole via physical ground survey.
+## Current Verified State [Turn 23846]:
+- Player is at (11, 15) on Victory Road 3F facing East.
+- ROW 16 BREAKTHROUGH CONFIRMED: Row 16 is an unbroken, 100% open walkable floor across Columns 7-16+ directly connecting the Southwest Basin to the Pit Hole corridor!
+- Pit Hole at (23, 15) and Boulder at (22, 15) are 100% visually verified.
+- Direct ground path from (11, 15) to Boulder (22, 15):
+  - Step Down to (11, 16).
+  - Walk East along Row 16 to (21, 16).
+  - Step Up to (21, 15) facing East directly toward Boulder (22, 15).
+- Master Puzzle Execution:
+  1. Activate Strength with Rocky (Geodude Slot 2).
+  2. Push Boulder (22, 15) East into Pit Hole (23, 15).
+  3. Step East into Pit Hole (23, 15) to fall to 2F.
+  4. On 2F, push the fallen boulder west along Row 16 onto Switch Plate B at (9, 16).
+  5. Ascend Exit Ladder at (25, 14) to Indigo Plateau!
 
 
 <hr>
