@@ -11,7 +11,6 @@
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
-- IRON x0 [Used Turn 16757 on Geodude (ROCKY) to boost Defense]
 - CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
