@@ -3848,8 +3848,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Step 11: Ascend exit ladder at (25, 14) to Route 23 North / Indigo Plateau!
 
 ## Current Player Status:
-- Position: (23, 6) on Victory Road 3F (in battle with wild Machop).
-- Active Goal: Step Down 4 times to descend Ladder (23, 7) to 2F.
+- Position: (27, 2) on Victory Road 3F (fleeing from wild Onix).
+- Row 6 Empirical Testing Plan:
+  - Tile (24, 6): CONFIRMED 100% solid rock wall (0 delta Turn 22124).
+  - Columns 29-32: Visually and geometrically verified 100% solid mountain wall across rows -2 through 6 (Turn 22127). No column 29 bypass exists.
+  - Next Bump Tests: Walk down to (27, 5) to bump-test (27, 6), (26, 6), and (28, 6).
+- Active Field Move: HM04 Strength ACTIVE on 3F.
+- Boulder 1: Depressing Switch Plate (3, 5). Barrier block at (7, 10) LOWERED.
 
 
 <hr>
