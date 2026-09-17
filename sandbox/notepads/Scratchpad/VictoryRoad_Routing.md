@@ -1,24 +1,29 @@
-# Victory Road Master Roadmap (Turn 22682)
+# Victory Road Master Roadmap (Turn 22711)
 
 ## Current Status:
 - Floor: Victory Road 2F
-- Position: (21, 15) on Wooden Staircase (in battle with wild Zubat)
-- Eastern Plateau Barrier (23, 14) and Exit Ladder (25, 14) directly visually confirmed on 2F.
+- Position: (23, 7) on Ladder tile
+- Strength: Inactive (reset upon floor transition)
+- Active Objectives: Systematically resolve 2F and 3F navigation without looping.
 
-## Refuted Hypotheses & Dead Ends:
-- Southwest Basin on 3F: Thoroughly mapped across 3 cycles; confirmed isolated dead-end pocket.
-- Boulder 3 at (13, 12) on 3F: Confirmed one-way exit from Southern Corridor; pushing south blocks (13, 13) dead end.
-- Boulder 2 at (9, 11) on 2F: Confirmed immovable; cannot reach Switch Plate B at (9, 16).
-- Ladder (27, 7) on 2F / Ladder (26, 8) on 3F: Chamber on 2F is sealed by rock walls on all 4 sides; no ground access from 2F.
+## Disproven Assumptions & Ground Truths:
+1. Ladder (27, 7) on 2F / Ladder (26, 8) on 3F is an isolated chamber sealed on all 4 sides on 2F (Row 6 rock wall verified Turn 22709, Row 10 rock wall, Col 24 rock wall, Col 29 rock wall). It cannot be entered from ground on 2F.
+2. Boulder 2 at (9, 11) on 2F is confirmed permanently immovable (blocked north by rock wall 9, 10, cannot push south from 9, 10).
+3. Southwest Basin on 3F is an isolated dead-end pocket (Column 12 is solid rock wall across rows 12-15).
+4. Southern Corridor (Rows 13-15, Cols 14-23) on 3F contains the pit hole at (23, 15) and orange boulder at (22, 15), visually confirmed on screen.
+5. On 2F, the exit ladder is at (25, 14) behind Barrier Block (23, 14) on the elevated plateau.
 
-## Primary Route to Exit:
-1. Flee wild Zubat at (21, 15).
-2. Retrace via Row 16, Column 28, and Row 11 to ladder (23, 7) on 2F.
-3. Ascend ladder (23, 7) to 3F.
-4. Activate Strength on 3F via party menu (Geodude).
-5. Methodically test ground access to Columns 22-25 on 3F:
-   - Test eastward transition from (20, 10)/(20, 11) into Columns 22-23.
-   - Test northern entry into Columns 24-25 from Northern Highway (Row 1).
-   - Test interaction with Boulder 2 at (24, 10).
-6. Once at (22, 15) on 3F: push orange boulder into pit hole at (23, 15) and jump down to 2F.
-7. Push fallen boulder on 2F to lower Barrier Block (23, 14), ascend ladder (25, 14), and exit Victory Road!
+## Core Puzzle Logic of Victory Road:
+- A boulder must fall from 3F through hole (23, 15) onto 2F.
+- When pushed from 3F, the boulder lands on 2F (near 23, 15/16).
+- Falling down the hole places the player beside the fallen boulder on 2F.
+- Pushing the fallen boulder onto a 2F switch lowers Barrier Block (23, 14).
+- The player then ascends Eastern Ladder (25, 14) to the exit.
+
+## Immediate Objective:
+- How to reach the boulder at (22, 15) on 3F to push it into hole (23, 15).
+- On 3F, we know:
+  - Columns 22-23 form an open channel from Row 10 down to (22, 15)/(23, 15).
+  - At (24, 10) on 3F is Boulder 2, separating Column 25 from Column 23.
+  - Column 25 is open dark floor from Row 7 to Row 15.
+  - At (26, 8) is Ladder 2.

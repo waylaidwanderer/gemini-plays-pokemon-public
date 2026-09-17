@@ -69,5 +69,5 @@
 
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Southwest Basin Eastern Boundary (12, 12..15): Empirically verified 100% solid rock wall via physical bump tests on Turns 21966-21971 (all produced 0 movement delta). Disproved any hidden openings into row 13 east from Southwest Basin.
-- Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).- Tile (21, 11): Empirically verified solid rock pillar from (20, 11) facing East with 0 movement delta on foot with Strength active [Turn 22699].
-- Tile (19, 12): Empirically verified solid rock wall from (19, 11) facing South with 0 movement delta on foot with Strength active [Turn 22696].
+- Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
+- Tile (21, 11): Empirically verified solid rock pillar from (20, 11) facing East with 0 movement delta on foot with Strength active [Turn 22699].

@@ -97,3 +97,4 @@
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
 - Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
 - Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
+- Row 6 Rock Wall: Empirically verified via pixel test on Turn 22709 that Row 6 across Columns 24 through 28 is 100% solid rock wall, completely sealing the northern boundary of the (27, 7) ladder chamber.
