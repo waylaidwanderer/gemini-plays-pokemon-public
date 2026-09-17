@@ -3824,7 +3824,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Roadmap (Turn 21864)
 
-## Proven Macro Solution & Topography
+## Strategic Routing Hypothesis & Master Plan
 1. **Boulder 1 -> Switch (3, 5):**
    - Boulder 1 is currently at (19, 1) on Row 1 Northern Highway.
    - Push Boulder 1 west to (6, 1), south to (6, 2), west to (2, 2), south down Column 2 to (2, 5), and east onto Switch Plate at (3, 5).
@@ -3849,8 +3849,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Ascend exit ladder at (25, 14) out of Victory Road to Indigo Plateau!
 
 ## Current Status:
-- Player position: (18, 1) facing West.
-- Boulder 1: At (16, 1) on Row 1 Northern Highway.
+- Player position: (16, 1) facing West.
+- Boulder 1: At (14, 1) on Row 1 Northern Highway.
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
 
@@ -3987,7 +3987,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Southern Corridor: Columns 20-23 open south past row 8.
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
-- Boulder 3: Located at (13, 12); pushed south to (13, 13) with active Strength [Turn 20561].
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
