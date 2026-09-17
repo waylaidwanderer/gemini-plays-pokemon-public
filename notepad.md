@@ -3880,7 +3880,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
-- Column 29 Rock Barrier: Solid rock walls at (29, 9) and (29, 10) block northern access into row 7-8 from row 11 [Empirically verified Turn 19318].
 - Tile (23, 9): Confirmed 100% open dark checkerboard floor connecting Row 11 directly north to ladder at (23, 7) [Empirically verified Turn 21567].
 - Tile (7, 10): Solid obstacle / elevation boundary blocking westward passage from (8, 10) [Empirically verified Turn 17721].
 - Elevation Boundary (Row 11/12): Physical bump test from (23, 11) into (23, 12) confirmed impassable elevation cliff / wall from the north [Tested Turn 17758].
@@ -3893,7 +3892,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block at (23, 14): Solid raised barrier block obstructing access to Eastern Ladder (25, 14). Lowered by dropping boulder from 3F pit hole (23, 15) onto 2F switch plate.
+- Barrier Block at (23, 14): Raised barrier block with blue/white checkerboard pattern. Located at (23, 14) on Row 14, completely blocking access to Exit Ladder at (25, 14) [Empirically verified Turn 23201].
+- Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
+- Column 29 Bump Test: Tile (29, 10) confirmed solid purple rock wall with 0 movement delta from (29, 11) facing North [Empirically verified Turn 23192]. Row 10 is continuous solid purple rock wall across cols 25-30, completely sealing Ladder (27, 7) chamber from the south.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
@@ -3936,6 +3937,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+
 
 <hr>
 
