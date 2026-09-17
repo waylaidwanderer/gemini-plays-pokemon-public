@@ -3827,20 +3827,19 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23846]:
-- Player is at (11, 15) on Victory Road 3F facing East.
-- ROW 16 BREAKTHROUGH CONFIRMED: Row 16 is an unbroken, 100% open walkable floor across Columns 7-16+ directly connecting the Southwest Basin to the Pit Hole corridor!
-- Pit Hole at (23, 15) and Boulder at (22, 15) are 100% visually verified.
-- Direct ground path from (11, 15) to Boulder (22, 15):
-  - Step Down to (11, 16).
-  - Walk East along Row 16 to (21, 16).
-  - Step Up to (21, 15) facing East directly toward Boulder (22, 15).
-- Master Puzzle Execution:
-  1. Activate Strength with Rocky (Geodude Slot 2).
-  2. Push Boulder (22, 15) East into Pit Hole (23, 15).
-  3. Step East into Pit Hole (23, 15) to fall to 2F.
-  4. On 2F, push the fallen boulder west along Row 16 onto Switch Plate B at (9, 16).
-  5. Ascend Exit Ladder at (25, 14) to Indigo Plateau!
+## Current Verified State [Turn 23851]:
+- Player is at (21, 15) on Victory Road 3F facing Boulder at (22, 15).
+- Pit Hole at (23, 15) is directly east of Boulder (22, 15).
+- Row 16 Highway connects Southwest Basin to Pit Hole corridor.
+
+## Execution Sequence:
+1. Activate Strength with Geodude (ROCKY, Party Slot 2) via Start menu on 3F.
+2. Push Boulder (22, 15) East into Pit Hole (23, 15).
+3. Step East into Pit Hole (23, 15) to fall to 2F.
+4. IMPORTANT: Falling through the pit hole resets active Strength status; MUST re-cast Strength on 2F with Rocky!
+5. On 2F, locate the fallen boulder and push it west along Row 16 onto Switch Plate B at (9, 16).
+6. Depressing Switch Plate B (9, 16) lowers Exit Barrier at (23, 14).
+7. Ascend Exit Ladder at (25, 14) to Indigo Plateau!
 
 
 <hr>
@@ -3958,6 +3957,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Ladder 2: Located at (26, 8) inside enclosed chamber (cols 25-26, rows 7-8) [Sighted Turn 20475].
 
 ## Layout & Mechanics
+- Row 16 Highway [Verified Turns 23846-23850]: Continuous open walkable floor connecting Columns 2 through 21 across rows 15-16, providing an unobstructed passage from the Southwest Basin directly to the Pit Hole at (23, 15) and Boulder at (22, 15).
 - Entrance Corridor: Ladder arrives at (2, 0) facing South. South path leads down to junction at (2, 2).
 - Main Avenue: Columns 6 and 7 form a wide 2-tile north-south thoroughfare spanning rows 0 through 5+.
 - West Cross-Corridor: Row 2 connects the entrance junction at (2, 2) east through (5, 2) directly onto the main avenue at (6, 2).
@@ -3967,7 +3967,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Boulder 1: Starts at (22, 3) along the Northern Highway. Can be pushed west along Row 1 to Column 6, south to Row 2, west to Column 2, and south down Column 2 toward Switch Plate (3, 5).
-- Tile (7, 10): Disproved barrier block hypothesis [Turn 23288-23291]. (7, 10) is normal floor in a dead-end terrace hallway terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin (rows 12-16) is a self-contained cul-de-sac completely walled off on the east by Column 12 rock walls; it has zero connection to eastern sector.
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
@@ -4031,7 +4030,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370; re-verified Turn 23549 with Switch (3, 5) depressed].
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
-- Southwest Basin Eastern Boundary (12, 12..16): Empirically verified 100% solid rock wall via physical bump tests on Turns 21966-21971 (all produced 0 movement delta) and re-verified via visual inspection on Turn 22896. Disproved any hidden openings into row 13 east from Southwest Basin.
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
 
 <hr>
