@@ -83,7 +83,7 @@
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
-- Switch Plate B: Located at (9, 16) in southeast corridor [Empty post-reset].
+- Switch Plate B: Located at (9, 16) in southwest lower corridor [Visually confirmed empty Turn 23764]. Controls Exit Barrier at (23, 14). Accessible via Row 16 from the east.
 
 ## Wild Encounters
 - Venomoth (observed Turn 16097).
