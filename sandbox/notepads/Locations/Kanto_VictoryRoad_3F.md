@@ -75,7 +75,6 @@
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
-- Boulder 3 Empirical Audit [Turns 23078-23082]: Pushing south from (13, 11) moves Boulder 3 into (13, 13). From (13, 12), south push produces 0 movement delta against (13, 14) solid rock wall, and east bump test produces 0 movement delta against (14, 12) solid rock wall. Column 13 is definitively an impassable dead-end trap.
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370; re-verified Turn 23549 with Switch (3, 5) depressed].
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
