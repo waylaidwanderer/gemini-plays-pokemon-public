@@ -3825,11 +3825,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Master Roadmap (Turn 22051)
 
 ## Current Player Status:
-- Position: (13, 10) facing Down on Victory Road 3F central lower cavern.
-- Central Cavern Observations (Turn 22055):
-  - Row 10 and Row 11 are continuous open dark checkerboard floor across cols 12-18+.
-  - Boulder 3 confirmed at (13, 12), flanked W (12, 12) and E (14, 12) by rock walls.
-  - Row 13 is open floor across cols 13-18+, but Boulder 3 at (13, 12) blocks direct northern entry when pushed south.
+- Position: (20, 11) facing East on Victory Road 3F central lower cavern.
+- Ground-Truth Puzzle Sighting (Turn 22060/22063):
+  - BOULDER visually confirmed at (22, 15)!
+  - PIT HOLE visually confirmed at (23, 15)!
+  - Push vector: Standing at (21, 15) facing East pushes Boulder (22, 15) into Hole (23, 15)!
+  - Rows 13-15 are open dark floor leading to (21, 15).
+  - (21, 10) and (21, 11) bump-tested and confirmed 100% solid rock wall from west (Turns 22059-22060).
 - Visual Audit of Eastern Sector (Turn 22027):
   - (21, 8) is a 1-tile dead-end alcove (blocked E by 22,8; S by 21,9; W by 20,8). Only exit is North to (21, 7).
   - Boulder 2 confirmed at (24, 10), bounded N (24, 9), S (24, 11), E (25, 10) by solid rock. Open floor to west at (22..23, 10).
