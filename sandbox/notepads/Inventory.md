@@ -3,7 +3,6 @@
 ## Regular Items
 
 - FULL RESTORE x1 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
-- MAX POTION x1 [Used Turn 19428 on Sheldon]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
