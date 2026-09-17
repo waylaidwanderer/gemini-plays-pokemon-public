@@ -3843,6 +3843,14 @@ With Switch (3, 5) depressed, methodically inspect:
 3. Column 21 boundaries (rows 9-12).
 4. Establish definitive empirical proof of what tile/mechanism is actuated by Switch (3, 5).
 
+## Critical Visual Discoveries [Turns 23497-23504]:
+- 3F Pit Hole is confirmed at (23, 15).
+- A second boulder sits directly at (22, 15) immediately adjacent to Pit Hole (23, 15)! Pushing it 1 step East drops it into the hole!
+- Rows 13-15 form an open southern corridor spanning columns 14 through 23 directly to (22, 15) and (23, 15).
+- Row 12 is a continuous solid rock wall across columns 14 through 21 (all tested with 0 delta).
+- Boulder 3 is located at (13, 12). Directly south of Boulder 3 at (13, 13) is dark floor connecting directly east into (14, 13) and the southern corridor!
+- Southwest Basin (cols 1-11, rows 12-16) is separated from southern runway by Column 12 rock wall (rows 12-15).
+
 
 <hr>
 
