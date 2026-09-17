@@ -1,16 +1,17 @@
-# Victory Road Master Roadmap (Turn 22411)
-
-## Master Topological Architecture & Verified Solution:
-1. **Southwest Basin (Cols 1-11, Rows 12-15) Dead-End Proof**:
-   - Bump tests on Turns 21966-21971 proved Column 12 is 100% solid rock wall from Row 12 through Row 15.
-   - The Southwest Basin contains only two defeated trainers (Cooltrainer at 5, 14 and Cooltrainer at 7, 13) and does NOT connect east to Column 22.
-   - Descending Staircase (1, 9) was an unproductive macro loop. Progression lies in the central/eastern sectors.
-
-2. **Topological Re-evaluation**:
-   - Reversing direction away from the dead-end Southwest Basin.
-   - Retracing east across Row 8, south to Row 10, through lowered Barrier (7, 10), north up Column 10 to Row 4, and descending Staircase (17, 5) to the central lower floor.
-   - Re-auditing connections on 3F Central and Eastern corridors, as well as 2F connections, to locate the true path and avoid speculative claims.
+# Victory Road Master Roadmap (Turn 22441)
 
 ## Current Player Status:
-- Position: (2, 8) on Victory Road 3F.
-- Active Task: Retracing route east across Row 8 to Row 10 to exit the southwest sector and investigate the central lower floor via Staircase (17, 5).
+- Floor: Victory Road 2F
+- Position: (23, 9)
+- Active Task: Descended from 3F to 2F via Ladder (23, 7). Navigating south down Column 23 to Row 11, east to Eastern Vertical Highway (Cols 28-29), and south to Row 16 to audit Switch Plate B at (9, 16) and Barrier Block at (23, 14).
+
+## Master Topological Architecture & Hypotheses:
+1. **2F Eastern Wing & Exit Barrier Audit**:
+   - Barrier Block at (23, 14) guards Eastern Ladder at (25, 14).
+   - Switch Plate B is located at (9, 16) along Row 16.
+   - Prior note claimed Boulder 2 at (9, 11) was 'immovable' - this assumption must be directly audited and re-tested, as retail Pokémon Blue boulders are never non-functional obstacles without a puzzle purpose.
+   - Investigate whether pushing a boulder onto Switch Plate B lowers Barrier Block (23, 14).
+
+2. **Floor Reset State**:
+   - Arrived on 2F on Turn 22432 via Ladder (23, 7).
+   - HM04 Strength must be cast from Geodude (ROCKY) before attempting boulder pushes on 2F.
