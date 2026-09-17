@@ -3822,12 +3822,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 21751)
+# Victory Road Master Roadmap (Turn 21781)
 
 ## Current Status:
-- Player position: (20, 8) on Victory Road 3F facing Up.
-- Dynamic Entities: Boulder 1 at (3, 5) [depressing switch], Boulder 2 at (24, 10), Boulder 3 at (13, 12). Barrier (7, 10) remains lowered.
-- Goal: Take ladder at (23, 7) down to 2F, navigate 2F to reach the northeast ascent ladder to 3F's boulder chamber, execute the hole drop, and clear the exit barrier.
+- Player position: (9, 13) on Victory Road 2F facing North in Column 9 trench.
+- Dynamic Entities: 2F Boulder 2 at (9, 11) [confirmed permanently immovable], Switch Plate B at (9, 16) [empty], 3F Boulder 1 at (3, 5) [depressed switch], 3F Boulder 3 at (13, 12).
+- Goal: Exit Column 9 trench via (9, 16) to lower corridor Row 16, transit east to Eastern Vertical Highway (cols 28-29), ascend to Row 11, and navigate to Northeast Ladder at (27, 7) or inspect barrier at (23, 14).
 
 ## Master Execution Strategy:
 1. [COMPLETED Turn 21628] Boulder 1 pushed onto Switch Plate (3, 5); Barrier (7, 10) lowered.
@@ -3836,17 +3836,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 4. [COMPLETED Turn 21686] Returned across terrace to staircase (17, 5); descended to (17, 6).
 5. [COMPLETED Turn 21704] Transited Column 20 and Northern Highway to Eastern Wing; surveyed Advice NPC alcove at (27, 5).
 6. [COMPLETED Turn 21743] Audited lower central floor; confirmed Column 11 and Row 12 walls enclose it with Boulder 3 at (13, 12).
-7. [IN PROGRESS Turn 21751] From (20, 8), walk east to ladder at (23, 7) and descend to 2F.
-8. On 2F, traverse to the northeast ladder to ascend into 3F's eastern chamber at (26, 8).
-9. Push Boulder 2 into the pit hole and drop down to 2F.
-10. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
-11. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
+7. [COMPLETED Turn 21754] Descended ladder at (23, 7) to 2F.
+8. [COMPLETED Turn 21781] Visually re-confirmed Boulder 2 at (9, 11) is permanently immovable and Switch Plate B at (9, 16) is inactive.
+9. [IN PROGRESS Turn 21781] Retreat south out of Column 9 trench to Row 16 at (9, 16), walk east along Row 16 to Eastern Vertical Highway (cols 28-29).
+10. Ascend Columns 28-29 north to Row 11, investigate access to Northeast Ladder at (27, 7) or plateau barrier at (23, 14).
+11. Execute remaining puzzle steps to lower exit barrier (23, 14) and climb exit ladder at (25, 14).
 
 ## Topology Facts:
-- Southwest Basin (cols 1-11, rows 12-15): Fully enclosed by solid rock walls on east (Column 12 across rows 12-15). Contains defeated Cooltrainers (5, 14) and (7, 13).
-- Lower Central Cavern (cols 12-17, rows 6-11): Enclosed by Column 11 wall on west and Row 12 wall on south with Boulder 3 at (13, 12).
-- Eastern Alcove (cols 27-28, rows 1-5): Dead-ends at row 6 light blue rock wall; contains Advice NPC at (28, 5).
-- Ladder at (23, 7): Direct 4-step access from (20, 8) leading down to 2F Row 11.
+- Column 9 Trench on 2F: Boulder 2 at (9, 11) is trapped between walls (9, 10), (8, 11), and (10, 11). Switch Plate B at (9, 16) cannot be activated from this floor.
+- Exit Ladder (25, 14): Blocked by raised Barrier (23, 14). Plateau accessed via wooden staircase at (21, 15).
+- Eastern Vertical Highway (cols 28-29): Connects Row 16 lower corridor up to Row 11.
 
 
 <hr>
@@ -3884,7 +3883,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 10 Eastern Barrier: Continuous solid rock wall/pillars across columns 24-28 separating row 11 from the eastern ladder chamber (solid walls verified at (24, 10), (25, 10), (26, 10), (27, 10), and (28, 10)). Direct northern entry from row 11 into the ladder chamber is completely blocked.
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
-- Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
 - Wall at (27, 6): Confirmed solid rock wall directly south of (27, 5) with Switch Plate A depressed [Tested Turns 16136, 17234, 17487].
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
@@ -3895,7 +3893,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 29 Rock Barrier: Solid rock walls at (29, 9) and (29, 10) block northern access into row 7-8 from row 11 [Empirically verified Turn 19318].
 - Tile (23, 9): Confirmed 100% open dark checkerboard floor connecting Row 11 directly north to ladder at (23, 7) [Empirically verified Turn 21567; prior Turn 17781 note was completely erroneous].
 - Tile (7, 10): Solid obstacle / elevation boundary blocking westward passage from (8, 10) [Empirically verified Turn 17721].
-- Wall at (24, 10): Empirically verified solid rock wall from (23, 10) facing East [Tested Turn 17759; 2 buttons pressed, 1 tile visited, halted at (23, 10)].
 - Elevation Boundary (Row 11/12): Physical bump test from (23, 11) into (23, 12) confirmed impassable elevation cliff / wall from the north [Tested Turn 17758].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124; visual floor texture seen at Turn 17665 does not override physical collision].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
