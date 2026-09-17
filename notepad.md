@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Master Roadmap (Turn 21994)
 
 ## Current Player Status:
-- Position: (10, 10) facing North on Victory Road 3F terrace corridor.
+- Position: (21, 6) facing East on Victory Road 3F eastern sector.
 - Active Field Move: HM04 Strength ACTIVE on 3F [Cast Turn 21807].
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Barrier Block (7, 10): LOWERED and passable [Empirically verified Turn 20715, 21988].
@@ -3886,7 +3886,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
 - Wall at (4, 8): Solid rock wall terminating row 8 westward passage at column 5 [Empirically verified Turn 16371].
 - Column 29 Rock Barrier: Solid rock walls at (29, 9) and (29, 10) block northern access into row 7-8 from row 11 [Empirically verified Turn 19318].
-- Tile (23, 9): Confirmed 100% open dark checkerboard floor connecting Row 11 directly north to ladder at (23, 7) [Empirically verified Turn 21567; prior Turn 17781 note was completely erroneous].
+- Tile (23, 9): Confirmed 100% open dark checkerboard floor connecting Row 11 directly north to ladder at (23, 7) [Empirically verified Turn 21567].
 - Tile (7, 10): Solid obstacle / elevation boundary blocking westward passage from (8, 10) [Empirically verified Turn 17721].
 - Elevation Boundary (Row 11/12): Physical bump test from (23, 11) into (23, 12) confirmed impassable elevation cliff / wall from the north [Tested Turn 17758].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124; visual floor texture seen at Turn 17665 does not override physical collision].
