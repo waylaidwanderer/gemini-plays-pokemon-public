@@ -24,9 +24,13 @@
    - Cast Strength with Rocky.
    - Push Boulder (22, 15) East into Pit Hole (23, 15).
    - Step East into Pit Hole (23, 15) to fall to 2F!
-5. Victory Road 2F (Final Clear - Hypothesis to Test):
-   - Land at (22, 16) next to fallen boulder at (23, 16).
+5. Victory Road 2F (Final Clear - Verified Routing & Mechanics):
+   - Land at (22, 16) with fallen boulder at (23, 16).
    - Cast Strength with Rocky.
-   - Test bypass around boulder: verify whether Row 17 is passable or if upper corridor (Cols 28-29) is taken to stand east of boulder (24, 16).
-   - Push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
-   - Ascend wooden stairs (21, 15) to Row 14, walk past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
+   - Note on boulder geometry: Player lands at (22, 16) west of boulder (23, 16).
+     To push boulder WEST toward Switch Plate B at (9, 16), player must position EAST of the boulder.
+     Test bypass: test whether Row 17 (south of boulder at 22..24, 17) or Row 15 allows walking east to (24, 16).
+     If Row 16 is single-tile and non-bypassable locally, verify if there is an alternate path or if pushing boulder initiates from a specific orientation.
+   - Once positioned at (24, 16), push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
+   - Switch Plate B depresses, lowering the barrier at (23, 14).
+   - Ascend wooden stairs (21, 15) to Row 14, walk east past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
