@@ -149,6 +149,7 @@
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 - [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
 - [x] Clear Victory Road 2F and ascend northwestern ladder to Victory Road 3F [Turn 19426]
+- [x] Push Boulder 1 onto Switch Plate (3, 5) on Victory Road 3F, lowering Barrier Block (7, 10) [Turn 22325]
 
 
 <hr>
@@ -3969,7 +3970,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Boulder 1: Started at (22, 3); routed along Row 1 to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and pushed onto switch plate at (3, 5) [Turn 20690], which lowered the barrier block at (7, 10) [Empirically verified Turn 20715].
-- Barrier Block at (7, 10): Lowered and confirmed passable on Turn 20715 by depressing switch plate (3, 5).
+- Barrier Block at (7, 10): Lowered and confirmed passable by depressing switch plate (3, 5) with Boulder 1 [Re-depressed Turn 22325].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
 - Eastern Sector (Rows 8-12, Cols 20-23): Access south is blocked by solid rock walls at (22, 9), (23, 9), and (20, 12).
