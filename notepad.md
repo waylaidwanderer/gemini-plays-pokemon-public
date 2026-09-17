@@ -3970,7 +3970,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Boulder 1: Starts at (22, 3) along the Northern Highway. Can be pushed west along Row 1 to Column 6, south to Row 2, west to Column 2, and south down Column 2 toward Switch Plate (3, 5).
 - Tile (7, 10): Disproved barrier block hypothesis [Turn 23288-23291]. (7, 10) is normal floor in a dead-end terrace hallway terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin (rows 12-16) is a self-contained cul-de-sac completely walled off on the east by Column 12 rock walls; it has zero connection to eastern sector.
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
-- Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
+- Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
+  - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
+  - One-way return ledge: Tile (1, 7) functions as a northbound one-way ledge jumping down to (1, 6), providing a fast exit from the terrace back to the Northwest Ladder (2, 0) and Switch (3, 5).
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
   - Boulder at (22, 15): Confirmed orange round boulder sitting directly adjacent west of the pit hole at (23, 15). Pushing East from (21, 15) will drop this boulder directly into the pit hole!
