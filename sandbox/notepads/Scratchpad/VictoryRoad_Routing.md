@@ -11,5 +11,5 @@
 8. 2F Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3).
 
 ## Immediate Progress:
-- Boulder 1 at (2, 5) being pushed onto Switch Plate (3, 5) to depress switch and lower Barrier Block (7, 10).
-- Next: Advance through lowered Barrier Block (7, 10) to execute the final boulder drop into Pit Hole (23, 15).
+- Boulder 1 pushed onto Switch Plate (3, 5) [Turn 23249, verified Turn 23250-23264]. Switch (3, 5) is depressed and Barrier Block (7, 10) is lowered.
+- Next: Navigate east along Row 2 to (6, 2), north to Northern Highway (6, 0), east to Column 17, and south to ascend Wooden Staircase (17, 5).
