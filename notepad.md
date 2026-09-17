@@ -183,7 +183,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 20 / 20 [Verified Turn 22996 via engine rejection: 'No more room for items!']
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
@@ -3825,30 +3825,26 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Working Scratchpad (Turn 22981)
+# Victory Road Working Scratchpad (Turn 23011)
 
 ## Current Status:
-- Floor: Victory Road 2F (in battle at (2, 1) on Row 1)
-- Position: (2, 1) on Row 1 Northern Highway
-- Strength: Inactive on 2F (reset upon ladder descent)
-- Active Navigation: Flee from Geodude, traverse Row 1 east to Column 20 (20, 1).
+- Floor: Victory Road 2F at (11, 1) facing Up
+- Bag Status: 20/20 full (engine confirmed Turn 22996)
+- Immediate Action: Dismiss textbox, open Start menu, inspect Bag items in-game
 
 ## Confirmed Physical Facts:
 1. 2F Exit Ladder is at (25, 14), obstructed by raised Barrier Block (23, 14).
 2. 3F contains a Pit Hole at (23, 15) and an Orange Boulder at (22, 15).
-3. 3F Southwest Basin (cols 1-11, rows 12-16) is confirmed an isolated dead end (Col 12 rows 12-16 is 100% solid rock wall). Switch (3, 5) does NOT connect to the exit route.
-4. 2F Northern Highway (Row 1) runs open from Northwest Chamber (1, 1) to (20, 1).
-5. 2F Northeastern Plateau (cols 20-28, rows 3-5) is accessible from (20, 1).
-6. 2F Northeast Ladder is at (27, 7) inside an enclosed chamber (cols 25-28, rows 7-9).
-7. Row 10 on 2F (cols 24-28) and Column 29 at rows 9-10 are confirmed solid rock walls from the south.
+3. 2F Column 14 is a solid rock wall across rows 0-5, blocking eastward traversal along Rows 0-1 [Turn 22996].
+4. 2F Northwest Chamber (1, 1) ladder connects directly to 3F (2, 0).
+5. 2F Northeast Ladder is at (27, 7) inside an enclosed chamber (cols 25-28, rows 7-9).
+6. 2F (11, 0) contains an uncollected item ball [Turn 22996].
 
-## Active Hypotheses to Test:
-- Hypothesis A: The northeastern plateau on 2F connects via Column 29 (rows 5->7..8) into the Ladder (27, 7) chamber.
-  - Test: Walk to (28, 5)/(29, 5) and perform physical bump tests south down Column 29 into rows 6, 7, 8.
-- Hypothesis B: Ladder (27, 7) connects to 3F Ladder (26, 8), which accesses the isolated chamber containing Boulder 2 at (24, 10).
-  - Test: Climb Ladder (27, 7) to verify arrival coordinates on 3F.
-- Hypothesis C: Pushing Boulder 2 at (24, 10) on 3F unlocks access to Columns 22-23 and the Pit Hole at (23, 15).
-  - Test: Stand at (25, 10) on 3F and test push west into (23, 10).
+## Navigation Plan:
+1. Dismiss textbox and open Start menu -> ITEM to audit 20 bag items.
+2. Back out of menu, walk west along Row 1 back to ladder at (1, 1).
+3. Ascend ladder (1, 1) to 3F (2, 0).
+4. On 3F, investigate access to the Pit Hole (23, 15) and Orange Boulder (22, 15) puzzle.
 
 
 <hr>
@@ -3876,7 +3872,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
-- Northern Highway Erroneous Claim: The prior note claiming Row 1 was traversed continuously west on 2F was false (conflated with 3F). Visual inspection at Turn 22996 proves Column 14 is a solid continuous rock wall spanning rows 0 through 5+, completely blocking eastward passage along Row 0 and Row 1.
+- Column 14 Rock Wall: Solid rock wall across rows 0-5 blocking eastward traversal along Rows 0-1 [Empirically verified Turn 22996].
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spans rows 2 through 7 (tile 8, 2 is confirmed solid wall Turn 20413-20414). Rows 0 and 1 across Column 8 (8, 0 and 8, 1) are verified 100% open dark checkerboard floor connecting the Northern Highway directly into columns 6-7 [Verified Turns 20427-20431].
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
@@ -3929,6 +3925,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Blackbelt at (12, 9) [Defeated Turn 15568; Team: Machoke Lv 43, Machop Lv 43, Machoke Lv 43].
 
 ## Items
+- Item Ball: Located at (11, 0) [Uncollected; Bag 20/20 full, confirmed Turn 22996].
 - Item Ball: Located at (27, 5) [Collected Turn 16758: TM17 (SUBMISSION)].
 - Item Ball: Located at (18, 9) [Uncollected; Bag was 20/20 full when attempted Turn 16265; verified Turn 16361].
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
