@@ -73,7 +73,6 @@
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
 - Tile (10, 1): Confirmed impassable elevation cliff from (10, 2) facing North with 0 movement delta [Turn 20527].
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
-- Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370; re-verified Turn 23549 with Switch (3, 5) depressed].
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
