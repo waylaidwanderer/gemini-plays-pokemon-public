@@ -3844,7 +3844,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Speculative: Boulder 2 at (24, 10) might push east into column 25 or drop to 2F. Requires physically reaching Boulder 2 first before any manipulation is possible.
 
 ## Current Status:
-- Player position: (9, 10) facing West.
+- Player position: (5, 9) on southwest terrace link facing North.
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
