@@ -15,8 +15,10 @@
   1. Walk via col 4 to (5, 14), push South to (5, 16).
   2. Walk around via (4, 16), push East along row 16 to (8, 16). (Do not push north at col 7 because (6, 15) is rock and blocks east pushing).
   3. Walk around via row 17 to (8, 17), push North to (8, 15).
-  4. Walk around to (7, 15), push East along row 15 to col 17, then North onto Switch Plate at (17, 13).
-  5. Switch depresses and lowers Plateau Barrier Block at (9, 12).
+  4. Walk around to (7, 15), push East to (9, 15). (Note: (10, 15) is blocked by blue rock rubble).
+  5. Walk around via (8, 16) to (9, 16), push North onto Row 14 at (9, 14).
+  6. Walk around via (8, 15) to (8, 14), push East along Row 14 to column 17, then North onto Switch Plate at (17, 13).
+  7. Switch depresses and lowers Plateau Barrier Block at (9, 12).
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
