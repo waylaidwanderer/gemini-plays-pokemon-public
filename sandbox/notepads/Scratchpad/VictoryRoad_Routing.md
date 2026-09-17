@@ -15,15 +15,16 @@
   - Northeast Ladder: Located at (27, 7), connects to 3F (26, 8).
 
 ## Priority Investigation:
-- Eastern Sector Exploration (cols 24-28, rows 5-15):
-  - Head east along Row 1 Northern Highway past col 25 to col 28.
-  - Travel south past Advice NPC at (28, 5) into outer eastern corridor (cols 25-28, rows 6-15).
-  - Locate Boulder 2 at (24, 10) and inspect surrounding tiles for pit hole or switch mechanics.
+- Eastern Sector Route via Column 20 (cols 20-24, rows 1-11):
+  - Northeast alcove (cols 26-28, rows 0-5) confirmed closed at row 6 rock wall.
+  - Return west along Row 1 from (27, 2) to Column 20 at (20, 1).
+  - Travel south down Column 20 corridor (rows 1-11) to reach row 11.
+  - Advance east along row 10/11 to locate Boulder 2 at (24, 10) and inspect surrounding tiles for pit hole / drop mechanics.
   - Southwest Basin (cols 1-11, rows 12-15) is confirmed fully audited and walled off at column 12; do not re-run that loop.
 
 ## Master Execution Strategy:
-1. Traverse east along Row 1 Northern Highway from (20, 1) to (28, 1).
-2. Move south down column 28 past (28, 5) into the unexplored outer eastern corridor (rows 6-15).
-3. Reach Boulder 2 at (24, 10) and investigate the mechanism (pit hole / drop vector / switch plate).
+1. Traverse west along Row 1 Northern Highway from (27, 2) to Column 20 at (20, 1).
+2. Move south down Column 20 corridor (rows 1-11) to row 11.
+3. Advance east along row 10/11 to reach Boulder 2 at (24, 10) and investigate the mechanism (pit hole / drop vector / switch plate).
 4. Drop boulder to 2F or activate exit mechanism to lower Barrier (23, 14) on 2F.
 5. Ascend exit ladder at (25, 14) to Indigo Plateau!
