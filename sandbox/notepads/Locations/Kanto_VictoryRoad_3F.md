@@ -50,7 +50,6 @@
 - Tile (26, 3): Empirically verified solid blue rock wall from (25, 3) facing East with 0 movement delta [Turn 23787].
 - Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23734].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23729].
-- Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 23625].
 - Tile (24, 7): Empirically verified solid rock wall from (23, 7) facing East with 0 movement delta [Turn 23615].
 - Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta with Switch (3, 5) depressed [Turn 23548].
 - Tile (21, 11): Empirically verified solid rock wall from (20, 11) facing East with 0 movement delta with Switch (3, 5) depressed [Turn 23497].
@@ -62,7 +61,6 @@
 - Tile (18, 12): Empirically verified solid rock wall from (18, 11) facing South with 0 movement delta [Turn 22541].
 - Tile (19, 12): Empirically verified solid rock wall / elevation boundary from (19, 11) facing South with 0 movement delta [Turn 22543].
 - Tile (19, 2): Empirically verified solid rock wall from (18, 2) facing East with 0 movement delta [Turn 22551].
-- Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta [Turn 22138].
 - Tile (24, 6): Empirically verified solid rock wall from (23, 6) facing East with 0 movement delta [Turn 22124].
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
