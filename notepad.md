@@ -3828,9 +3828,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Master Routing & Active Testing
 
 ## Current Verified State [Turn 23733]:
-- Player is at 3F (27, 5) facing South. Switch (3, 5) is actively DEPRESSED by Boulder 1.
-- Empirical Test [Turn 23729]: (27, 6) tested impassable facing South from (27, 5) with 0 movement delta while Switch (3, 5) is depressed.
-- HM04 Strength is ACTIVE [Cast Turn 23668]. Routing plan: Push Boulder 1 west to (2, 2), south down Column 2 to (2, 5), and east onto Switch (3, 5) to depress it.
+- Player is at 3F (26, 5) facing South. Switch (3, 5) is depressed.
+- Empirical Test: (27, 6) [Turn 23729] and (26, 6) [Turn 23734] both confirmed 0 movement delta against solid rock with Switch (3, 5) depressed. Disproved Northeast Alcove Row 6 barrier hypothesis. Row 6 is permanent cave wall.
 - Post-Switch Activation Test Protocol (Hypothesis Testing):
   1. Once Switch (3, 5) is depressed, do NOT take any ladders or change floors (ladders reset all switches and boulders).
   2. Backtrack north up Column 2 to (2, 2), east along Row 2 to (6, 2), north up Column 6 to (6, 0).
@@ -3994,6 +3993,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23734].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23729].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 23625].
 - Tile (24, 7): Empirically verified solid rock wall from (23, 7) facing East with 0 movement delta [Turn 23615].
