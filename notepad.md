@@ -161,7 +161,6 @@
 ## Regular Items
 
 - FULL RESTORE x1 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
-- MAX POTION x1 [Used Turn 19428 on Sheldon]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - MASTER BALL x1 [Received Turn 13053 from Silph Co President]
@@ -3827,29 +3826,27 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22594)
+# Victory Road Master Roadmap (Turn 22622)
 
-## Current Floor & Entity Status:
+## Current Status:
 - Floor: Victory Road 3F
-- Position: (10, 1) on Northern Highway
-- HM04 Strength: ACTIVATED on 3F.
-- Boulder 1: Actively sitting on Switch Plate (3, 5). Switch is depressed!
-- Barrier Block (7, 10): Actively LOWERED and passable!
+- Position: (6, 10) on Elevated Terrace
+- Strength: ACTIVATED on 3F
+- Southwest Basin Status: Thoroughly mapped and confirmed as an isolated dead-end pocket across 3 separate cycles. It does NOT connect to the exit.
 
-## Master Highway to Lowered Barrier (7, 10):
-1. Column 6 is blocked at (6, 7) by cliff/chasm and at (7, 7) by Item Ball.
-2. The ONLY path to Barrier (7, 10) is via the Elevated Terrace:
-   - Walk east along Northern Highway (Row 1) to (20, 1).
-   - Walk south down Column 20 to (20, 6).
-   - Walk west along Row 6 to (17, 6).
-   - Climb wooden staircase at (17, 5) onto terrace at (17, 4).
-   - Walk west along terrace (Row 4) to (10, 4).
-   - Walk south down Column 10 terrace corridor to (10, 10).
-   - Walk west along Row 10 to (7, 10) [LOWERED BARRIER BLOCK!].
-   - Step south through (7, 10) into (7, 11) [Southwest Basin].
-3. Inside Southwest Basin:
-   - Audit southern boundary (Rows 15-16) for connection eastward into pit room (23, 15).
-   - Push Boulder at (22, 15) into Hole at (23, 15), jump down to 2F, lower 2F barrier, and exit to Indigo Plateau!
+## True Milestone to Exit Victory Road:
+- The exit progression requires pushing the Orange Boulder at (22, 15) into the Pit Hole at (23, 15) on 3F.
+- Falling through the hole lands on 2F right beside the fallen boulder.
+- Pushing the fallen boulder onto the 2F switch lowers the final 2F barrier, granting access to the exit ladder to Route 23 / Indigo Plateau.
+
+## Active Routing Path to Eastern Sector (22, 15):
+1. Reverse across Row 10 terrace from (6, 10) east to (10, 10) [4 steps Right].
+2. North up Column 10 to (10, 4) [6 steps Up].
+3. East along Row 4 terrace to staircase at (17, 4) [7 steps Right].
+4. Descend staircase at (17, 5) to (17, 6) [2 steps Down].
+5. Travel east through (20, 6) to the Eastern Sector ladder/corridor (Columns 22-23).
+6. Navigate south along Columns 22-23 to Boulder (22, 15) and Pit Hole (23, 15).
+7. Push Boulder (22, 15) into Hole (23, 15) and jump down!
 
 
 <hr>
