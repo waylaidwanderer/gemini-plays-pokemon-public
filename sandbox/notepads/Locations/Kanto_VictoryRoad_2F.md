@@ -8,6 +8,7 @@
 - Northwest Chamber: Reached Turn 19405 via Northern Highway (Row 1). Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
+- Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
 - Tile (21, 11): Impassable elevation cliff / wall from (20, 11) facing East [Tested Turn 20392].
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
 - Wall at (25, 6): Solid rock wall directly south of (25, 5) [Empirically verified Turn 18314 via bump test].
