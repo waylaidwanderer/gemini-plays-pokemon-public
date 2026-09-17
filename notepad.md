@@ -3960,7 +3960,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
 - Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
 - Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
-- Row 6 Rock Wall: Empirically verified via pixel test on Turn 22709 that Row 6 across Columns 24 through 28 is 100% solid rock wall, completely sealing the northern boundary of the (27, 7) ladder chamber.
 
 
 <hr>
@@ -4038,7 +4037,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Southwest Basin Eastern Boundary (12, 12..15): Empirically verified 100% solid rock wall via physical bump tests on Turns 21966-21971 (all produced 0 movement delta). Disproved any hidden openings into row 13 east from Southwest Basin.
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
-- Tile (21, 11): Empirically verified solid rock pillar from (20, 11) facing East with 0 movement delta on foot with Strength active [Turn 22699].
 
 
 <hr>
