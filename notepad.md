@@ -3822,10 +3822,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 21994)
+# Victory Road Master Roadmap (Turn 22051)
 
 ## Current Player Status:
-- Position: (14, 6) facing West on Victory Road 3F central cavern entrance.
+- Position: (14, 6) facing West in battle with wild Machop Lv 24.
 - Visual Audit of Eastern Sector (Turn 22027):
   - (21, 8) is a 1-tile dead-end alcove (blocked E by 22,8; S by 21,9; W by 20,8). Only exit is North to (21, 7).
   - Boulder 2 confirmed at (24, 10), bounded N (24, 9), S (24, 11), E (25, 10) by solid rock. Open floor to west at (22..23, 10).
@@ -3836,7 +3836,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Active Field Move: HM04 Strength ACTIVE on 3F [Cast Turn 21807].
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Barrier Block (7, 10): LOWERED and passable [Empirically verified Turn 20715, 21988].
-- Boulder 2: Sighted at (24, 10) in eastern sector [Turn 21864].
 - Party Status: Blastoise (SHELDON) Lv 66 - HP 101/209. PP: Body Slam 0/15, Ice Beam 1/10, Surf 4/15, Double-Edge 6/15.
 - Combat Policy: Flee immediately from all wild encounters to conserve PP and HP.
 
