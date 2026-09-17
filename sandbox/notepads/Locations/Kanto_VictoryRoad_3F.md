@@ -57,7 +57,6 @@
 - Tile (19, 12): Empirically verified solid rock wall / elevation boundary from (19, 11) facing South with 0 movement delta [Turn 22543].
 - Tile (19, 2): Empirically verified solid rock wall from (18, 2) facing East with 0 movement delta [Turn 22551].
 - Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta [Turn 22138].
-- Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 22136].
 - Tile (24, 6): Empirically verified solid rock wall from (23, 6) facing East with 0 movement delta [Turn 22124].
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
@@ -69,7 +68,6 @@
 - Boulder 3 Empirical Audit [Turns 23078-23082]: Pushing south from (13, 11) moves Boulder 3 into (13, 13). From (13, 12), south push produces 0 movement delta against (13, 14) solid rock wall, and east bump test produces 0 movement delta against (14, 12) solid rock wall. Column 13 is definitively an impassable dead-end trap.
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370; re-verified Turn 23549 with Switch (3, 5) depressed].
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
-- Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta [Turn 21493].
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Southwest Basin Eastern Boundary (12, 12..16): Empirically verified 100% solid rock wall via physical bump tests on Turns 21966-21971 (all produced 0 movement delta) and re-verified via visual inspection on Turn 22896. Disproved any hidden openings into row 13 east from Southwest Basin.
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
