@@ -3827,8 +3827,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23702]:
-- Player is at 3F (6, 2) facing West. Boulder 1 is at (4, 2).
+## Current Verified State [Turn 23733]:
+- Player is at 3F (27, 5) facing South. Switch (3, 5) is actively DEPRESSED by Boulder 1.
+- Empirical Test [Turn 23729]: (27, 6) tested impassable facing South from (27, 5) with 0 movement delta while Switch (3, 5) is depressed.
 - HM04 Strength is ACTIVE [Cast Turn 23668]. Routing plan: Push Boulder 1 west to (2, 2), south down Column 2 to (2, 5), and east onto Switch (3, 5) to depress it.
 - Post-Switch Activation Test Protocol (Hypothesis Testing):
   1. Once Switch (3, 5) is depressed, do NOT take any ladders or change floors (ladders reset all switches and boulders).
@@ -3993,6 +3994,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23729].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 23625].
 - Tile (24, 7): Empirically verified solid rock wall from (23, 7) facing East with 0 movement delta [Turn 23615].
 - Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta with Switch (3, 5) depressed [Turn 23548].
