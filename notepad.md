@@ -3827,23 +3827,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23583]:
-- Player is at 2F (17, 1) in wild battle on Northern Highway (Row 1).
-- Tile (29, 7) and (29, 8) on 2F are verified open checkerboard floor leading directly west into (28, 7) and Northeast Ladder (27, 7).
-- Ladder (27, 7) on 2F connects to 3F Ladder (26, 8) in the eastern wing beside Boulder 2 at (24, 10).
-
-## Hypothesis to Test:
-- Column 29 Passage Hypothesis: Test whether Column 29 connects from the Northern Highway (Row 1) south to Row 7. Note: Locations/Kanto_VictoryRoad_2F.md previously hypothesized that Col 29 was solid rock across rows 0-6; we must empirically verify whether (29, 1..6) is passable or if another entry point exists.
-
-## Remaining Solution Steps (Pending Column 29 Verification):
-1. Walk East along Row 1 thoroughfare above Advice NPC (26, 3) to Column 29.
-2. Test south navigation down Column 29 toward (29, 7).
-3. Walk West into (28, 7) and ascend Ladder (27, 7) to 3F (26, 8).
-4. On 3F, walk to (25, 10), cast Strength (if needed), and push Boulder 2 West into (23, 10).
-5. Push Boulder 2 South down Column 23 into Pit Hole (23, 15).
-6. Boulder 2 depresses Switch Plate (23, 15) on 2F, lowering Barrier Block (23, 14).
-7. Jump down Pit Hole (23, 15) onto 2F elevated plateau.
-8. Walk through lowered barrier to Exit Ladder (25, 14) and emerge onto Route 23 to Indigo Plateau!
+## Current Verified State [Turn 23588]:
+- Player is at 2F (28, 1) on Northern Highway.
+- NEGATIVE RESULT: Tile (29, 1) tested solid rock wall (0 delta, Turn 23586). Column 29 is confirmed solid rock wall across rows 0-5. Column 29 does NOT provide access from Row 1.
+- Northeast Ladder (27, 7) is situated at rows 7-9, cols 25-28.
+- Moving south to (28, 5) to directly survey Row 6 boundary and inspect the chamber structure.
 
 
 <hr>
@@ -3873,6 +3861,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Column 14 Rock Wall: Solid rock wall across rows 0-5 blocking eastward traversal along Rows 0-1 [Empirically verified Turn 22996].
+- Tile (29, 1): Empirically verified solid rock wall from (28, 1) facing East with 0 movement delta [Turn 23586]. Column 29 is solid rock wall across rows 0-5.
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spans rows 2 through 7 (tile 8, 2 is confirmed solid wall Turn 20413-20414). Rows 0 and 1 across Column 8 (8, 0 and 8, 1) are verified 100% open dark checkerboard floor connecting the Northern Highway directly into columns 6-7 [Verified Turns 20427-20431].
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
