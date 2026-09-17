@@ -3827,13 +3827,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23611]:
-- Player is at 3F (23, 7) facing Down.
+## Current Verified State [Turn 23629]:
+- Player is at 3F (20, 2) on the Northern Highway facing Left.
 - HM04 Strength is currently INACTIVE (reset upon climbing ladder at Turn 23608). Must re-cast before pushing boulders.
-- On 2F, Northeast Ladder chamber (rows 7-9, cols 25-29) was visually and physically audited: Row 6 (cols 24-33) is solid rock wall, Column 29 is solid rock wall across rows 0-6. Ground access to Ladder (27, 7) on 2F is confirmed impossible.
-- NEGATIVE RESULT: Tile (29, 1) tested solid rock wall (0 delta, Turn 23586). Column 29 is confirmed solid rock wall across rows 0-5. Column 29 does NOT provide access from Row 1.
-- Northeast Ladder (27, 7) is situated at rows 7-9, cols 25-28.
-
+- Northeast Alcove on 3F (cols 26-28, rows 3-5) is completely enclosed: Row 6 is solid rock wall (tile 27, 6 tested 0 delta Turn 23625), Column 29 is solid rock wall across all rows 0-7. Ground access to Ladder (26, 8) from Northeast Alcove is confirmed impossible.
+- Tile (24, 7) on 3F tested solid rock wall (0 delta Turn 23615).
+- Moving west to Column 13 to inspect Boulder 3 post-reset and locate access to the southern runway leading to Pit Hole (23, 15).
 
 <hr>
 
