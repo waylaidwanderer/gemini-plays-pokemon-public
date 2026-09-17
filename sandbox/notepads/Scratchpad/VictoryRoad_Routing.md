@@ -1,10 +1,9 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23971]:
-- Player is inside Victory Road 1F at (14, 15) on foot with Strength actively enabled.
-- Boulder 1 has been successfully maneuvered across Row 16, Row 15, and Row 14, and is currently stationed at (16, 14).
-- Switch Plate 1 is visually confirmed at (17, 13); tile (17, 14) is confirmed solid purple rock wall.
-- Next immediate step: Walk Right twice to (16, 15) directly south of Boulder 1, and push North into (16, 13).
+## Current Verified State [Turn 23978]:
+- Player is inside Victory Road 1F at (15, 12) on foot with Strength actively enabled.
+- Boulder 1 has been successfully maneuvered onto (17, 12) directly North of Switch Plate 1 at (17, 13).
+- Next immediate step: Walk Up to (15, 11), Right twice to (17, 11), and push South to depress Switch Plate 1 at (17, 13) and lower Plateau Barrier Block at (9, 12).
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
