@@ -11,5 +11,5 @@
 
 
 ## Current Player Status:
-- Position: (20, 3) on Victory Road 3F.
-- Active Task: Boulder 1 successfully depressed Switch Plate (3, 5) [Turn 22325]! Barrier (7, 10) lowered. Navigating via Column 20 and Row 6 to Wooden Staircase (17, 5) to access the elevated terrace leading to (7, 10).
+- Position: (10, 6) on Victory Road 3F.
+- Active Task: Ascended Staircase (17, 5) to elevated terrace. Barrier (7, 10) is visually confirmed LOWERED. Walking south down Column 10 to Row 10 and west through (7, 10) into southwest terrace link.
