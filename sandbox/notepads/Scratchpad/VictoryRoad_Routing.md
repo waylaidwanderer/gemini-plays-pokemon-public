@@ -1,7 +1,14 @@
 # Victory Road Master Roadmap (Turn 21994)
 
 ## Current Player Status:
-- Position: (21, 6) facing East on Victory Road 3F eastern sector.
+- Position: (21, 8) facing North on Victory Road 3F eastern sector.
+- Visual Audit of Eastern Sector (Turn 22027):
+  - (21, 8) is a 1-tile dead-end alcove (blocked E by 22,8; S by 21,9; W by 20,8). Only exit is North to (21, 7).
+  - Boulder 2 confirmed at (24, 10), bounded N (24, 9), S (24, 11), E (25, 10) by solid rock. Open floor to west at (22..23, 10).
+  - Columns 22-23 (rows 10-12) is an open 2-tile wide corridor extending south into row 13.
+  - Columns 25-26 (rows 11-12) is open dark floor extending south into row 13.
+  - Ladder (26, 8) is situated in cols 25-26 corridor (rows 7-9).
+  - Columns 20-25 across rows 2-5 is a wide open northern expanse connecting to the Northern Highway.
 - Active Field Move: HM04 Strength ACTIVE on 3F [Cast Turn 21807].
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Barrier Block (7, 10): LOWERED and passable [Empirically verified Turn 20715, 21988].
