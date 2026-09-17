@@ -3856,7 +3856,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Step 12: Ascend Exit Ladder at (25, 14) to Route 23 North / Indigo Plateau!
 
 ## Current Player Status:
-- Position: (28, 11) facing East on Victory Road 2F.
+- Position: (20, 11) facing West on Victory Road 2F.
 - Active Task: Walking West along Row 11 toward Western Highway.
 
 
@@ -3880,7 +3880,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
-- Tile (21, 11): Impassable elevation cliff wall directly north of (21, 12) [Empirically verified Turn 17981].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
