@@ -3833,10 +3833,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
 
 ### Competing Hypotheses for Accessing Row 13 / Boulder 2:
-1. **Hypothesis A (Southwest Basin Column 12 Audit)**:
-   - Cross lowered Barrier (7, 10) to staircase (1, 9).
-   - Descend to Southwest Basin (rows 12-15).
-   - Physically bump each tile along Column 12 (specifically rows 12, 13, 14, 15) to verify if an unmapped gap exists to row 13 east.
+1. **Hypothesis A (Southwest Basin Column 12 Audit)**: [RESOLVED & DISPROVEN Turn 21971]
+   - Bump-tested (12, 12..15); all confirmed solid rock wall with 0 movement delta. Southwest Basin is completely sealed east.
 2. **Hypothesis B (Central Lower Floor Passage - Rows 6-12, Cols 12-16)**:
    - Lower central floor (rows 6-11) is accessible via staircase (17, 5).
    - Where Boulder 3 was located at (13, 12): audit row 12 across cols 12-16 to see if there is an open passage leading south into row 13.
