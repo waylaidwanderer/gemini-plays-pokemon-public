@@ -3832,7 +3832,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 2. 2F Northwest ladder at (1, 1) ascends to 3F (2, 0).
 3. 2F Ladder at (23, 7) connects two-way to 3F (23, 7).
 4. 2F Northeast Ladder is at (27, 7) inside eastern chamber (rows 7-9, cols 25-29). Row 6 is solid rock across cols 24-29, Row 10 is solid rock across cols 25-30, and Column 29 has solid rock walls at rows 9-10.
-5. 3F has Pit Hole at (23, 15) and an Orange Boulder at (22, 15) [Direct visual verification Turn 23046].
+5. 3F has Pit Hole at (23, 15). Tile (22, 15) is open floor. Boulder 2 at (24, 10) must be routed to Pit Hole (23, 15).
 6. 3F Boulder 3 at (13, 12) is an impassable dead-end trap; Column 13 does not connect south [Verified Turns 23078-23082].
 7. 2F Column 16 connects Row 11 north into Rows 0-3 [Verified Turn 23114].
 8. 2F Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3).
@@ -3963,7 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block at (7, 10): Blocks passage between row 10 terrace and row 11 lower basin. Lowered by depressing switch plate (3, 5) with Boulder 1 [Verified Turn 20715].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
-- Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
+- Eastern Sector Landmarks: Verified Pit Hole at (23, 15) [Verified Turn 22508]. Tile (22, 15) is open floor (prior note claiming boulder at 22, 15 was disproved by pixel analysis Turn 23189). Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
 - Southern Corridor: Rows 13-15 across columns 14-23 sighted visually from (20, 11) as dark cavern floor leading toward pit hole (23, 15) [Physical traversal unverified].
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
