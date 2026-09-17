@@ -3822,33 +3822,29 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 21864)
+# Victory Road Master Roadmap (Turn 21931)
 
-## Strategic Routing Hypothesis & Master Plan
-1. **Boulder 1 -> Switch (3, 5):**
-   - Push Boulder 1 west to (6, 1), south to (6, 2), west to (2, 2), south down Column 2 to (2, 5), and east onto Switch Plate at (3, 5).
-   - Depressing Switch (3, 5) lowers Barrier Block at (7, 10).
+## Working Hypotheses & Exploration Priorities (Turn 21931)
 
-2. **Access Southern Basin via Terrace Staircase (1, 9):**
-   - Cross lowered Barrier (7, 10) onto southwest terrace.
-   - Descend wooden staircase at (1, 9) into Southern Basin (rows 12-15).
+### Status:
+- Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Empirically verified Turn 21903].
+- Barrier Block (7, 10): LOWERED by Switch (3, 5) [Empirically verified Turn 20715].
+- Boulder 2: Sighted at (24, 10) inside enclosed eastern chasm (cols 22-23, rows 10-13) [Empirically verified Turn 21864].
+- HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
 
-3. **Traverse Southern Basin East to Boulder 2:**
-   - Audit passage east from Southwest Basin or investigate central floor row 12 passage (cols 13-15) to access row 13 and Boulder 2.
-   - Ascend north through columns 22-23 (rows 10-13) to (23, 10).
-
-4. **Boulder 2 -> Chute & Pit Hole:**
-   - At (23, 10), push Boulder 2 east from (24, 10) into Column 25 at (25, 10).
-   - Position behind Boulder 2 and push south down Column 25 into the pit hole at row 14/15.
-   - Boulder 2 drops down to 2F!
-
-5. **Drop to 2F & Exit:**
-   - Jump down the pit hole to 2F, landing beside the fallen boulder.
-   - Push the fallen boulder onto the 2F switch plate to lower Barrier (23, 14).
-   - Ascend exit ladder at (25, 14) out of Victory Road to Indigo Plateau!
+### Competing Hypotheses for Accessing Row 13 / Boulder 2:
+1. **Hypothesis A (Southwest Basin Column 12 Audit)**:
+   - Cross lowered Barrier (7, 10) to staircase (1, 9).
+   - Descend to Southwest Basin (rows 12-15).
+   - Physically bump each tile along Column 12 (specifically rows 12, 13, 14, 15) to verify if an unmapped gap exists to row 13 east.
+2. **Hypothesis B (Central Lower Floor Passage - Rows 6-12, Cols 12-16)**:
+   - Lower central floor (rows 6-11) is accessible via staircase (17, 5).
+   - Where Boulder 3 was located at (13, 12): audit row 12 across cols 12-16 to see if there is an open passage leading south into row 13.
+3. **Hypothesis C (Eastern Column 25 Pit Hole / Mechanism)**:
+   - Speculative: Boulder 2 at (24, 10) might push east into column 25 or drop to 2F. Requires physically reaching Boulder 2 first before any manipulation is possible.
 
 ## Current Status:
-- Player position: (14, 4) on elevated terrace facing West.
+- Player position: (10, 5) facing Down in Column 10 terrace corridor.
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
@@ -3873,7 +3869,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
 - Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
 - Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
-- Tile (17, 8): Verified 100% open flat cave floor on Turn 18048-18049; prior note claiming an impassable elevation cliff was completely erroneous.
 - Tile (21, 11): Impassable elevation cliff wall directly north of (21, 12) [Empirically verified Turn 17981].
 - Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
