@@ -24,7 +24,7 @@
    - Ascend exit ladder at (25, 14) out of Victory Road to Indigo Plateau!
 
 ## Current Status:
-- Player position: (17, 6) facing North.
+- Player position: (17, 4) on elevated terrace.
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
