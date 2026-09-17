@@ -4017,13 +4017,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
-- Boulder 3 at (13, 13): Pushing south from (13, 12) moves Boulder 3 into (13, 13), where it is blocked south by (13, 14) rock wall and flanked by walls at (12, 12) and (14, 12). Column 13 does not provide northern access into rows 13-15 [Empirically verified Turns 20630, 20930-20939].
+- Boulder 3 Empirical Audit [Turns 23078-23082]: Pushing south from (13, 11) moves Boulder 3 into (13, 13). From (13, 12), south push produces 0 movement delta against (13, 14) solid rock wall, and east bump test produces 0 movement delta against (14, 12) solid rock wall. Column 13 is definitively an impassable dead-end trap.
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370].
 - Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta [Turn 21493].
 
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Southwest Basin Eastern Boundary (12, 12..16): Empirically verified 100% solid rock wall via physical bump tests on Turns 21966-21971 (all produced 0 movement delta) and re-verified via visual inspection on Turn 22896. Disproved any hidden openings into row 13 east from Southwest Basin.
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
-
 
 <hr>
