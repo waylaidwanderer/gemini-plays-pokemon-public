@@ -18,7 +18,7 @@
 - Barrier Block at (7, 10): Blocks passage between row 10 terrace and row 11 lower basin. Lowered by depressing switch plate (3, 5) with Boulder 1 [Verified Turn 20715].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
-- Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
+- Eastern Sector Landmarks: Verified Pit Hole at (23, 15) [Verified Turn 22508]. Tile (22, 15) is open floor (prior note claiming boulder at 22, 15 was disproved by pixel analysis Turn 23189). Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
 - Southern Corridor: Rows 13-15 across columns 14-23 sighted visually from (20, 11) as dark cavern floor leading toward pit hole (23, 15) [Physical traversal unverified].
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
