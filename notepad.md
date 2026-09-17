@@ -4003,7 +4003,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
-- Southwest Basin Boundary: Columns 12-13 form a continuous solid rock wall across rows 12-15, completely enclosing the southwest basin (cols 1-11). There is no eastern exit from the southwest basin.
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
 - Tile (6, 9): Confirmed impassable elevation cliff / wall from (6, 10) facing North with 0 movement delta [Turn 20720].
 - Tile (10, 11): Confirmed solid rock wall from (10, 10) facing South with 0 movement delta [Turn 20501; disproved jump ledge hypothesis].
