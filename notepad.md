@@ -3852,12 +3852,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Cast Strength with Rocky.
    - Push Boulder (22, 15) East into Pit Hole (23, 15).
    - Step East into Pit Hole (23, 15) to fall to 2F!
-5. Victory Road 2F (Final Clear - Hypothesis to Test):
-   - Land at (22, 16) next to fallen boulder at (23, 16).
+5. Victory Road 2F (Final Clear - Verified Routing & Mechanics):
+   - Land at (22, 16) with fallen boulder at (23, 16).
    - Cast Strength with Rocky.
-   - Test bypass around boulder: verify whether Row 17 is passable or if upper corridor (Cols 28-29) is taken to stand east of boulder (24, 16).
-   - Push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
-   - Ascend wooden stairs (21, 15) to Row 14, walk past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
+   - Note on boulder geometry: Player lands at (22, 16) west of boulder (23, 16).
+     To push boulder WEST toward Switch Plate B at (9, 16), player must position EAST of the boulder.
+     Test bypass: test whether Row 17 (south of boulder at 22..24, 17) or Row 15 allows walking east to (24, 16).
+     If Row 16 is single-tile and non-bypassable locally, verify if there is an alternate path or if pushing boulder initiates from a specific orientation.
+   - Once positioned at (24, 16), push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
+   - Switch Plate B depresses, lowering the barrier at (23, 14).
+   - Ascend wooden stairs (21, 15) to Row 14, walk east past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
 
 
 <hr>
@@ -3921,14 +3925,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
-- Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
+- Row 4 Barrier: Solid rock wall along row 4 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629, (4, 4) confirmed solid Turn 18106), except for the open doorway at (5, 4) which connects the western sector directly north into the Northwest Chamber [Empirically verified Turn 20451].
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
 - Wall at (24, 7): Solid rock wall directly east of (23, 7) [Empirically verified Turn 17537].
 - Wall at (24, 8): Solid rock wall directly east of (23, 8) [Empirically verified Turn 17997].
 - Southern Chamber: Open floor across rows 11-14 (cols 2-7).
-- Southern Boundary: Solid rock wall along row 17.
+- Southern Boundary: Row 17 is the southern wall along western section (cols 1-4); across cols 21-25 near fallen boulder drop, row 17 passability is unverified (pending bump test upon landing).
 
 ## Legendary Pokémon
 - Moltres: Legendary bird sprite located at (11, 5) on elevated plateau [Visually re-confirmed Turn 20249/20253 from (15, 7); prior (7, 7) claim was erroneous].
