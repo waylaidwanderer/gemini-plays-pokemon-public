@@ -3849,8 +3849,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Ascend exit ladder at (25, 14) out of Victory Road to Indigo Plateau!
 
 ## Current Status:
-- Player position: (6, 0) facing South.
-- Boulder 1: At (6, 2) on Main Avenue / Row 2.
+- Player position: (6, 2) facing West.
+- Boulder 1: At (5, 2) on Row 2 cross-corridor.
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
 
