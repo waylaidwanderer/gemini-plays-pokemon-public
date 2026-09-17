@@ -45,6 +45,8 @@
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (14, 12): Empirically verified solid rock wall from (14, 11) facing South with 0 movement delta [Turn 22536].
+- Tile (15, 12): Empirically verified solid rock wall from (15, 11) facing South with 0 movement delta [Turn 22536].
 - Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta [Turn 22138].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 22136].
 - Tile (24, 6): Empirically verified solid rock wall from (23, 6) facing East with 0 movement delta [Turn 22124].
