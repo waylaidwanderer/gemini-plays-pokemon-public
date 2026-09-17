@@ -1,22 +1,23 @@
-# Victory Road Master Roadmap (Turn 22939)
+# Victory Road Master Roadmap (Turn 22954)
 
 ## Current Status:
 - Floor: Victory Road 2F
 - Position: (23, 11) on Row 11
-- Strength: Inactive (reset on floor change)
-- Active Objectives: Investigate route to Ladder (27, 7) or 3F boulder chamber.
+- Strength: Inactive on 2F
+- Active Objective: Ascend Ladder (23, 7) to 3F to traverse to Northwest Ladder (2, 0).
 
-## Verified Topology & Solution Architecture:
-1. Columns 22-23 (rows 10-15) on 3F contain the Orange Boulder at (22, 15) and Pit Hole at (23, 15).
-2. On 3F, Columns 22-23 are completely walled off from the west (Column 21 rock wall at rows 9-11) and from the north (rock wall at 22-23, 9).
-3. The true progression route requires descending Ladder (23, 7) to 2F.
-4. On 2F, Ladder (23, 7) connects through Row 11 to the eastern ladders/passages that lead to the isolated Eastern Sector on 3F.
-5. In the Eastern Sector on 3F, push the Orange Boulder at (22, 15) into Pit Hole (23, 15).
-6. Jump down Pit Hole (23, 15) to 2F, landing beside the fallen boulder.
-7. Push the fallen boulder onto the 2F switch plate, lowering Barrier Block (23, 14).
-8. Ascend Eastern Ladder (25, 14) on 2F to the exit of Victory Road!
-
-## Immediate Next Steps:
-- Step 1: Walk from (20, 6) via (21, 6)->(21, 7)->(22, 7) onto Ladder (23, 7).
-- Step 2: On 2F, cast Strength with Geodude (ROCKY).
-- Step 3: Navigate 2F eastern corridor to reach the ladder ascending into the 3F boulder chamber.
+## The Complete Canonical Solution to Victory Road:
+1. Ascend Ladder (23, 7) to 3F at (23, 7).
+2. On 3F, traverse west along the Northern Highway (Row 1) past (6, 1) and (6, 2) to Northwest Ladder (2, 0).
+3. Descend Northwest Ladder (2, 0) to 2F Northwest Chamber at (1, 1).
+4. On 2F, traverse east along the Northern Highway (Row 1) across cols 1-20 to (20, 1).
+5. From (20, 1), step south into the northeastern plateau (cols 20-28, rows 3-5).
+6. Walk east past Advice NPC (26, 3) to (28, 3), south to Row 5 (28, 5) / (29, 5).
+7. Descend Column 29 south into rows 7-8 and turn west into the enclosed chamber containing Ladder (27, 7).
+8. Ascend Ladder (27, 7) to 3F, emerging at Ladder (26, 8) in the enclosed eastern chamber.
+9. On 3F, walk to (25, 10) and push Boulder 2 at (24, 10) WEST into (23, 10), unlocking access to Columns 22-23 (rows 10-15).
+10. Walk south down Columns 22-23 to the orange boulder at (22, 15) and pit hole at (23, 15).
+11. Push the orange boulder EAST into pit hole (23, 15).
+12. Jump down pit hole (23, 15) to 2F, landing next to the fallen boulder at (23, 15).
+13. On 2F, push the fallen boulder onto the switch plate, lowering Barrier Block (23, 14).
+14. Walk past the lowered barrier to Eastern Ladder (25, 14) and EXIT Victory Road to Indigo Plateau!
