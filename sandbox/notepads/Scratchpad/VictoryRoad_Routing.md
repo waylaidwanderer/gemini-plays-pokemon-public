@@ -1,10 +1,11 @@
 # Victory Road Master Roadmap (Turn 22711)
 
 ## Current Status:
-- Floor: Victory Road 2F
-- Position: (23, 7) on Ladder tile
-- Strength: Inactive (reset upon floor transition)
-- Active Objectives: Systematically resolve 2F and 3F navigation without looping.
+- Floor: Victory Road 3F
+- Position: (14, 1) on Northern Highway
+- Strength: Active (cast by Geodude ROCKY on 3F)
+- Boulder 1: Actively depressing Switch Plate (3, 5), lowering Barrier Block (7, 10)
+- Active Objectives: Systematically resolve 3F navigation and access to eastern pit hole without looping.
 
 ## Disproven Assumptions & Ground Truths:
 1. Ladder (27, 7) on 2F / Ladder (26, 8) on 3F is an isolated chamber sealed on all 4 sides on 2F (Row 6 rock wall verified Turn 22709, Row 10 rock wall, Col 24 rock wall, Col 29 rock wall). It cannot be entered from ground on 2F.
