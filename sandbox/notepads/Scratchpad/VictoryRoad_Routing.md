@@ -1,7 +1,11 @@
 # Victory Road Master Roadmap (Turn 22051)
 
 ## Current Player Status:
-- Position: (14, 6) facing West in battle with wild Machop Lv 24.
+- Position: (13, 10) facing Down on Victory Road 3F central lower cavern.
+- Central Cavern Observations (Turn 22055):
+  - Row 10 and Row 11 are continuous open dark checkerboard floor across cols 12-18+.
+  - Boulder 3 confirmed at (13, 12), flanked W (12, 12) and E (14, 12) by rock walls.
+  - Row 13 is open floor across cols 13-18+, but Boulder 3 at (13, 12) blocks direct northern entry when pushed south.
 - Visual Audit of Eastern Sector (Turn 22027):
   - (21, 8) is a 1-tile dead-end alcove (blocked E by 22,8; S by 21,9; W by 20,8). Only exit is North to (21, 7).
   - Boulder 2 confirmed at (24, 10), bounded N (24, 9), S (24, 11), E (25, 10) by solid rock. Open floor to west at (22..23, 10).
