@@ -3827,22 +3827,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22411)
-
-## Master Topological Architecture & Verified Solution:
-1. **Southwest Basin (Cols 1-11, Rows 12-15) Dead-End Proof**:
-   - Bump tests on Turns 21966-21971 proved Column 12 is 100% solid rock wall from Row 12 through Row 15.
-   - The Southwest Basin contains only two defeated trainers (Cooltrainer at 5, 14 and Cooltrainer at 7, 13) and does NOT connect east to Column 22.
-   - Descending Staircase (1, 9) was an unproductive macro loop. Progression lies in the central/eastern sectors.
-
-2. **Topological Re-evaluation**:
-   - Reversing direction away from the dead-end Southwest Basin.
-   - Retracing east across Row 8, south to Row 10, through lowered Barrier (7, 10), north up Column 10 to Row 4, and descending Staircase (17, 5) to the central lower floor.
-   - Re-auditing connections on 3F Central and Eastern corridors, as well as 2F connections, to locate the true path and avoid speculative claims.
+# Victory Road Master Roadmap (Turn 22441)
 
 ## Current Player Status:
-- Position: (2, 8) on Victory Road 3F.
-- Active Task: Retracing route east across Row 8 to Row 10 to exit the southwest sector and investigate the central lower floor via Staircase (17, 5).
+- Floor: Victory Road 2F
+- Position: (23, 9)
+- Active Task: Descended from 3F to 2F via Ladder (23, 7). Navigating south down Column 23 to Row 11, east to Eastern Vertical Highway (Cols 28-29), and south to Row 16 to audit Switch Plate B at (9, 16) and Barrier Block at (23, 14).
+
+## Master Topological Architecture & Hypotheses:
+1. **2F Eastern Wing & Exit Barrier Audit**:
+   - Barrier Block at (23, 14) guards Eastern Ladder at (25, 14).
+   - Switch Plate B is located at (9, 16) along Row 16.
+   - Prior note claimed Boulder 2 at (9, 11) was 'immovable' - this assumption must be directly audited and re-tested, as retail Pokémon Blue boulders are never non-functional obstacles without a puzzle purpose.
+   - Investigate whether pushing a boulder onto Switch Plate B lowers Barrier Block (23, 14).
+
+2. **Floor Reset State**:
+   - Arrived on 2F on Turn 22432 via Ladder (23, 7).
+   - HM04 Strength must be cast from Geodude (ROCKY) before attempting boulder pushes on 2F.
 
 
 <hr>
@@ -3976,7 +3977,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
 - Eastern Sector (Rows 8-12, Cols 20-23): Access south is blocked by solid rock walls at (22, 9), (23, 9), and (20, 12).
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
-- Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
+- Enclosed Eastern Sector (Hypothesis): Unentered region south of row 9 between cols 21 and 24; internal boundaries unverified.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
