@@ -18,7 +18,7 @@
 ## Core Puzzle Logic & Routing to Victory:
 - Step 1: Ascend Wooden Staircase at (17, 5) to elevated terrace at (17, 4).
 - Step 2: Walk west across terrace to Cols 9-10, south to Row 10, and west to lowered Barrier Block (7, 10).
-- Step 3: Traverse through (7, 10) to staircase (1, 9) down into Southwest Basin, and follow southern boundary (Row 14/15) east to Columns 22-23.
+- Step 3: [DISPROVEN] Southwest Basin is an isolated dead end (Col 12 rows 12-16 confirmed solid rock wall Turn 22896). Must exit basin via staircase (1, 9).
 - Step 4: Reach orange boulder at (22, 15), push it east into pit hole at (23, 15).
 - Step 5: Jump down hole (23, 15) after the boulder onto 2F.
 - Step 6: On 2F, push the fallen boulder onto the switch plate, lowering Barrier Block (23, 14).
