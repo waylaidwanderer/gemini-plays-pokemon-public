@@ -3838,13 +3838,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 8. 2F Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3).
 9. 3F (7, 10) is normal floor in a dead-end terrace corridor terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin is a dead end [Verified Turns 23288-23291].
 
-## Active Plan: Eastern Sector Boundary Audit & Progression
-1. Methodically test boundaries into eastern sector on 3F:
-   - Test passage around Ladder (23, 7) via Column 22 (22, 6..8) and test east into (23, 8), (24, 8), (25, 8).
-   - If 3F ground access to Columns 22-25 is completely sealed by walls at rows 6-9, descend Ladder (23, 7) to 2F.
-   - On 2F, systematically test the eastern passage into Northeast Ladder (27, 7) chamber to cross-floor into 3F (26, 8).
-2. Reach Boulder 2 at (24, 10), push into Pit Hole at (23, 15), jump into hole to 2F (23, 15), and exit via Ladder (25, 14)!
-
+## Active Plan: Cross-Floor Transit via 2F to 3F Eastern Chamber
+1. Descend Ladder (23, 7) to Victory Road 2F.
+2. On 2F, navigate from (23, 7) into the Northeast Ladder (27, 7) chamber.
+3. Climb Northeast Ladder (27, 7) to emerge at 3F (26, 8) inside the enclosed eastern chamber.
+4. From (26, 8), walk south down Column 25 to (25, 10), push Boulder 2 west from (24, 10) into Column 23 at (23, 10).
+5. Push Boulder 2 south down Column 23 into Pit Hole (23, 15).
+6. Jump into Pit Hole (23, 15) down to 2F (23, 15), push fallen boulder onto switch, and exit via Ladder (25, 14)!
 
 <hr>
 
