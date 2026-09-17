@@ -3825,18 +3825,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Routing & Status
+# Victory Road Master Routing & Active Testing
 
-## Confirmed Physical Facts:
-1. 2F Exit Ladder is at (25, 14), obstructed by raised Barrier Block (23, 14).
-2. 2F Northwest ladder at (1, 1) ascends to 3F (2, 0).
-3. 2F Ladder at (23, 7) connects two-way to 3F (23, 7).
-4. 2F Northeast Ladder is at (27, 7) inside eastern chamber (rows 7-9, cols 25-29).
-5. 3F has Pit Hole at (23, 15). Tile (22, 15) is open floor. Boulder 2 at (24, 10) must be routed to Pit Hole (23, 15).
-6. 3F Boulder 3 at (13, 12) is an impassable dead-end trap; Column 13 does not connect south [Verified Turns 23078-23082, 23311-23313].
-7. 2F Column 16 connects Row 11 north into Rows 0-3 [Verified Turn 23114].
-8. 2F Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3).
-9. 3F (7, 10) is normal floor in a dead-end terrace corridor terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin is a dead end [Verified Turns 23288-23291].
+## Current Verified State [Turn 23491]:
+- Switch (3, 5) on 3F is actively depressed by Boulder 1 [Turn 23483].
+- Strength is ACTIVE (cast Turn 23465).
+- Player is at 3F (12, 1) moving east along Northern Highway (Row 1).
+- 2F Exit: Ladder at (25, 14) blocked by barrier block (23, 14), with switch plate at (23, 15) beneath 3F ceiling pit hole (23, 15).
+- 2F Northeast Ladder chamber (cols 25-29, rows 7-9) has 0 ground access from 2F (sealed on all 4 sides).
+- 3F Pit Hole is at (23, 15). Boulder 2 is at (24, 10).
+
+## Active Test Protocol (Zero-Ladder Rule):
+DO NOT TOUCH ANY LADDER. Floor transitions reset all boulder and switch states.
+With Switch (3, 5) depressed, methodically inspect:
+1. Row 12 (cols 14-20) from the central floor via Column 20 corridor.
+2. Elevated Terrace via wooden staircase at (17, 5).
+3. Column 21 boundaries (rows 9-12).
+4. Establish definitive empirical proof of what tile/mechanism is actuated by Switch (3, 5).
 
 
 <hr>
@@ -3896,7 +3901,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block at (23, 14): Raised barrier block with blue/white checkerboard pattern. Located at (23, 14) on Row 14, completely blocking access to Exit Ladder at (25, 14) [Empirically verified Turn 23201].
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
-- Column 29 Bump Test: Tile (29, 10) confirmed solid purple rock wall with 0 movement delta from (29, 11) facing North [Empirically verified Turn 23192]. Row 10 is continuous solid purple rock wall across cols 25-30, completely sealing Ladder (27, 7) chamber from the south.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
@@ -3939,6 +3943,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+
+- Wall at (26, 6) & (25, 6): Solid rock wall directly south of (26, 5) and (25, 5) [Empirically verified Turns 23446-23447 with 0 movement delta].
 
 
 <hr>
