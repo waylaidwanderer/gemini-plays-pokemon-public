@@ -3825,36 +3825,31 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22711)
+# Victory Road Master Roadmap (Turn 22851)
 
 ## Current Status:
 - Floor: Victory Road 3F
-- Position: (14, 1) on Northern Highway
+- Position: (17, 10) in Central Trench
 - Strength: Active (cast by Geodude ROCKY on 3F)
 - Boulder 1: Actively depressing Switch Plate (3, 5), lowering Barrier Block (7, 10)
-- Active Objectives: Systematically resolve 3F navigation and access to eastern pit hole without looping.
+- Active Objectives: Reach staircase (17, 5), traverse elevated terrace to lowered barrier (7, 10), and follow southern corridor to pit hole (23, 15).
 
 ## Disproven Assumptions & Ground Truths:
-1. Ladder (27, 7) on 2F / Ladder (26, 8) on 3F is an isolated chamber sealed on all 4 sides on 2F (Row 6 rock wall verified Turn 22709, Row 10 rock wall, Col 24 rock wall, Col 29 rock wall). It cannot be entered from ground on 2F.
-2. Boulder 2 at (9, 11) on 2F is confirmed permanently immovable (blocked north by rock wall 9, 10, cannot push south from 9, 10).
-3. Southwest Basin on 3F is an isolated dead-end pocket (Column 12 is solid rock wall across rows 12-15).
-4. Southern Corridor (Rows 13-15, Cols 14-23) on 3F contains the pit hole at (23, 15) and orange boulder at (22, 15), visually confirmed on screen.
-5. On 2F, the exit ladder is at (25, 14) behind Barrier Block (23, 14) on the elevated plateau.
+1. Ladder (27, 7) on 2F / Ladder (26, 8) on 3F connects to the eastern chamber on 3F containing Boulder 2 at (24, 10).
+2. Boulder 2 at (9, 11) on 2F is confirmed permanently immovable.
+3. Northern access into Columns 22-23 channel at (22, 9) and (23, 9) is 100% solid rock wall (empirically confirmed Turns 22832-22834, 0 delta).
+4. Rows 13-14 form a continuous open corridor (Cols 14-23) leading directly to the pit hole at (23, 15) and orange boulder at (22, 15) (visually verified Turn 22839).
+5. The central trench (Row 10/11) connects to the Wooden Staircase at (17, 5) via Column 20 (Rows 10->6) and Row 6 (Cols 20->17).
+6. On 2F, the exit ladder is at (25, 14) behind Barrier Block (23, 14) on the elevated plateau.
 
-## Core Puzzle Logic of Victory Road:
-- A boulder must fall from 3F through hole (23, 15) onto 2F.
-- When pushed from 3F, the boulder lands on 2F (near 23, 15/16).
-- Falling down the hole places the player beside the fallen boulder on 2F.
-- Pushing the fallen boulder onto a 2F switch lowers Barrier Block (23, 14).
-- The player then ascends Eastern Ladder (25, 14) to the exit.
-
-## Immediate Objective:
-- How to reach the boulder at (22, 15) on 3F to push it into hole (23, 15).
-- On 3F, we know:
-  - Columns 22-23 form an open channel from Row 10 down to (22, 15)/(23, 15).
-  - At (24, 10) on 3F is Boulder 2, separating Column 25 from Column 23.
-  - Column 25 is open dark floor from Row 7 to Row 15.
-  - At (26, 8) is Ladder 2.
+## Core Puzzle Logic & Routing to Victory:
+- Step 1: Ascend Wooden Staircase at (17, 5) to elevated terrace at (17, 4).
+- Step 2: Walk west across terrace to Cols 9-10, south to Row 10, and west to lowered Barrier Block (7, 10).
+- Step 3: Traverse through (7, 10) to staircase (1, 9) down into Southwest Basin, and follow southern boundary (Row 14/15) east to Columns 22-23.
+- Step 4: Reach orange boulder at (22, 15), push it east into pit hole at (23, 15).
+- Step 5: Jump down hole (23, 15) after the boulder onto 2F.
+- Step 6: On 2F, push the fallen boulder onto the switch plate, lowering Barrier Block (23, 14).
+- Step 7: Ascend Eastern Ladder (25, 14) to the exit of Victory Road!
 
 
 <hr>
