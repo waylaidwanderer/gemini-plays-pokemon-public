@@ -3844,10 +3844,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Pit Hole located at (23, 15) directly east of the boulder.
    - Columns 22-23 form an open corridor connecting Row 10 down to Row 15.
 
-3. **Active Mission**:
-   - Depress Switch Plate (3, 5) with Boulder 1.
-   - Navigate via staircase (1, 9) and Row 10 through lowered Barrier (7, 10).
-   - Thoroughly audit Southwest Basin southern boundary (Rows 15-16) to find the connection eastward into the pit room.
+3. **Active Mission & Hypotheses**:
+   - Switch Plate (3, 5) depressed by Boulder 1 [Turn 22577], Barrier (7, 10) confirmed lowered.
+   - Position: (6, 6) on Main Avenue, advancing south to (7, 10) and (7, 11).
+   - Hypothesis to test: Investigate whether Southwest Basin southern boundaries (Rows 15-16) connect eastward beneath Column 12 rock wall toward pit room (23, 15).
 
 
 <hr>
@@ -3947,8 +3947,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 
-## Dynamic Entities Current State
-- Western Boulder at (5, 3): Pushed North from (5, 5) into (5, 4) and then (5, 3) on Turns 20298-20300. Blocks row 3 access from doorway (5, 4).
+
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
@@ -3976,7 +3975,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Boulder 1: Started at (22, 3); routed along Row 1 to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and pushed onto switch plate at (3, 5) [Turn 20690], which lowered the barrier block at (7, 10) [Empirically verified Turn 20715].
-- Barrier Block at (7, 10): Lowered and confirmed passable by depressing switch plate (3, 5) with Boulder 1 [Re-depressed Turn 22577].
+- Barrier Block at (7, 10): Blocks passage between row 10 terrace and row 11 lower basin. Lowered by depressing switch plate (3, 5) with Boulder 1 [Verified Turn 20715].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
 - Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
