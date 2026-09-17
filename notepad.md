@@ -2936,6 +2936,6 @@
   2. Systematically frontier-map all unexplored land corridors and water channels in the southern half of 1F (rows 12-17, cols 0-25).
   3. Locate the entrance/passage into the Southwest Sector.
   4. Climb SW Ladder at (3, 11) to 2F SW Sector -> Walk north to Ladder A (1, 3) -> Descend to B1F Mewtwo!
-- Breakthrough (Turn 52417): Reached (18, 14) and confirmed Southwest Water Ramp at (17, 15) leading directly into the southwest water canal (cols 0-17, rows 16-18) towards SW Ladder (3, 11).
+- Refuted Hypothesis (Turns 52419-52425): (17, 15) is a ledge descending into an isolated southern pocket at (14..17, 16). Surfing is not permitted from (17, 15) ('No SURFing on HYDROS here!'), (17, 17) and (18, 16) are solid rock walls, and the pocket dead-ends to the west at (14, 16).
 
 <hr>
