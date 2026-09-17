@@ -33,6 +33,7 @@
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
 - Wall at (27, 6): Confirmed solid rock wall directly south of (27, 5) with Switch Plate A depressed [Tested Turns 16136, 17234, 17487].
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
+- Wall at (26, 6) & (25, 6): Solid rock wall directly south of (26, 5) and (25, 5) [Empirically verified Turns 23446-23447 with 0 movement delta].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Empirically verified Turn 16637].
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
@@ -93,5 +94,3 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-
-- Wall at (26, 6) & (25, 6): Solid rock wall directly south of (26, 5) and (25, 5) [Empirically verified Turns 23446-23447 with 0 movement delta].
