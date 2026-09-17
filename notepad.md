@@ -3826,26 +3826,25 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Working Scratchpad (Turn 23041)
+# Victory Road Working Scratchpad (Turn 23046)
 
-## Current Status:
-- Floor: Victory Road 3F at (22, 5)
-- State: Escaped from wild Geodude ("Got away safely!" on screen)
-- Strength: Inactive (reset on floor transition)
-
-## Confirmed Physical Facts:
-1. 2F Exit Ladder is at (25, 14), obstructed by raised Barrier Block (23, 14).
-2. 3F contains a Pit Hole at (23, 15) and an Orange Boulder at (22, 15).
-3. 2F Column 14 is a solid rock wall across rows 0-5, blocking eastward traversal along Rows 0-1 [Verified Turn 22996].
-4. 3F Southwest Basin (cols 1-11, rows 12-16) behind Barrier (7, 10) is a confirmed dead end (Col 12 rows 12-16 is 100% solid rock wall [Turns 21966-21971, 22896]). Pushing Boulder 1 onto Switch (3, 5) does NOT lead to the exit.
-5. 3F Column 20 is an open corridor running from row 0 down through row 11 [Verified Turns 22823-22839].
-6. Southern Corridor (rows 13-15 across cols 14-23) was sighted visually from (20, 11) heading toward Pit Hole (23, 15).
+## BREAKTHROUGH DISCOVERY [Turn 23046]:
+- Visual confirmation on screen:
+  1. Orange Boulder located at (22, 15)!
+  2. Pit Hole located at (23, 15) directly adjacent (1 tile east) to the boulder!
+  3. Southern Highway (rows 13-15 across cols 16-23) is a wide open floor leading directly to (21, 15) and (22, 15)!
+  4. Row 12 is a rock wall across cols 16-21 separating Row 11 from Row 13.
+  5. The puzzle solution: Walk west along Row 11 past the Row 12 rock wall, enter the Southern Highway (rows 13-15), walk east to (21, 15), activate Strength, push the boulder at (22, 15) Right into the pit hole at (23, 15), then jump down the hole to 2F!
+  6. On 2F, the fallen boulder depresses the switch, lowering barrier (23, 14) and unlocking the Exit Ladder at (25, 14)!
 
 ## Active Plan:
-1. Dismiss "Got away safely!" textbox with B.
-2. Step west to Column 20 at (20, 5).
-3. Descend south along Column 20 from row 5 down to (20, 11).
-4. From (20, 11), rigorously inspect and test access into the Southern Corridor (rows 13-15) and toward Pit Hole (23, 15) and Boulder (22, 15).
+1. Walk west along Row 11 from (20, 11) to locate the passage into Rows 13-15.
+2. Advance through the opening into the Southern Highway at Row 13/14/15.
+3. Cruise east along Rows 13-15 to (21, 15).
+4. Activate Strength with Rocky.
+5. Push boulder at (22, 15) Right into Pit Hole (23, 15).
+6. Jump down Pit Hole (23, 15) to 2F.
+7. Ascend Exit Ladder at (25, 14) to Route 23 / Indigo Plateau!
 
 
 <hr>
