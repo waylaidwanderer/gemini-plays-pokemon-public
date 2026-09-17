@@ -3979,9 +3979,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block at (7, 10): Reset to raised state upon re-entering 3F [Turn 22499]; requires depressing switch plate (3, 5) with Boulder 1 if southwestern passage via (7, 10) is needed.
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
-- Eastern Sector (Rows 8-12, Cols 20-23): Access south is blocked by solid rock walls at (22, 9), (23, 9), and (20, 12).
-- Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
-- Enclosed Eastern Sector (Hypothesis): Unentered region south of row 9 between cols 21 and 24; internal boundaries unverified.
+- Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
+- Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
+- Southern Corridor: Rows 13-15 across columns 14-23 verified open floor connecting to pit hole at (23, 15).
+- Boulder 3 Audit: Located at (13, 12). Pushed south into (13, 13) [Turn 22527]; confirmed blocked by (13, 14) rock wall and does not grant entry to Row 13.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
