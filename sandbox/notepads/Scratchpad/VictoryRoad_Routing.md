@@ -1,19 +1,22 @@
-# Victory Road Master Roadmap (Turn 22529)
+# Victory Road Master Roadmap (Turn 22532)
 
 ## Current Floor & Entity Status:
 - Floor: Victory Road 3F
 - Position: (13, 11)
 - HM04 Strength: ACTIVATED on 3F (cast Turn 22501 from Rocky).
 
-## Empirical Telemetry & Puzzle Audits:
-1. **Boulder 3 at (13, 12) Tested (Turns 22527-22529)**:
-   - Pushed Boulder 3 south from (13, 12) into (13, 13).
-   - Tile (13, 14) is a solid rock wall; tile (12, 13) is a solid rock wall; tile (14, 12) is a solid rock wall.
-   - Result: Boulder 3 at (13, 13) cannot move south or east, and player at (13, 12) cannot step east into (14, 13).
-   - Definitive conclusion: Column 13 is an impassable dead end / trap when pushed south. It does NOT provide access to Row 13.
+## Verified Floor Geometry & Landmarks:
+1. **Pit Hole & Boulder Sighted (Turn 22508)**:
+   - Orange Boulder located at (22, 15).
+   - Pit Hole located at (23, 15) directly east of the boulder.
+   - Columns 22-23 form a verified 2-tile wide open corridor connecting Row 10 down to Row 15.
+   - Pushing Boulder (22, 15) 1 tile East drops it into Hole (23, 15), allowing the player to follow it down to 2F.
 
-2. **Master Architecture & Routing to Hole (23, 15)**:
-   - The southern corridor (rows 13-15) and pit hole at (23, 15) connect directly north via Columns 22-23 to Boulder 2 at (24, 10).
-   - Pushing Boulder 2 at (24, 10) west into (23, 10) opens direct access to the pit hole from the Ladder Chamber at (26, 8).
-   - Ladder (26, 8) on 3F is accessed via Northeast Ladder (27, 7) on 2F.
-   - Plan: Return to 2F via ladder at (23, 7), locate the access route into Northeast Ladder (27, 7) on 2F, climb to 3F (26, 8), push Boulder 2 west into (23, 10), drop Boulder into Hole (23, 15), and drop down to 2F!
+2. **Boulder 3 Audit (13, 12..13)**:
+   - Boulder 3 pushed from (13, 12) into (13, 13) [Turns 22527-22529].
+   - Blocked south by rock wall (13, 14), flanked by rock walls at (12, 12..13) and (14, 12).
+   - Confirmed: Column 13 does not provide access into Row 13.
+
+3. **Current Investigation - Row 12 Boundary Audit**:
+   - Audit the Row 12 boundary along Columns 14-21 directly from Row 11.
+   - Test each tile south from Row 11 to determine if any tile is a passable gap, jump ledge, or opening into the southern corridor (Row 13).
