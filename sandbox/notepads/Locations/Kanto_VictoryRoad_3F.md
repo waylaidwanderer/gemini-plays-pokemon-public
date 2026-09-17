@@ -18,7 +18,11 @@
 - Tile (7, 10): Disproved barrier block hypothesis [Turn 23288-23291]. (7, 10) is normal floor in a dead-end terrace hallway terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin (rows 12-16) is a self-contained cul-de-sac completely walled off on the east by Column 12 rock walls; it has zero connection to eastern sector.
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
-- Eastern Sector Landmarks: Hypothesized Pit Hole at (23, 15) [Visual hypothesis from Turn 22508; physical traversal and landing alignment unverified]. Columns 22-23 form a corridor from row 10 leading south toward row 15.
+- Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
+  - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
+  - Boulder at (22, 15): Confirmed orange round boulder sitting directly adjacent west of the pit hole at (23, 15). Pushing East from (21, 15) will drop this boulder directly into the pit hole!
+  - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
+  - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
 - Southern Corridor: Rows 13-15 across columns 14-23 sighted visually from (20, 11) as dark cavern floor leading toward pit hole (23, 15) [Physical traversal unverified].
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
