@@ -3843,12 +3843,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 3. **Hypothesis C (Eastern Column 25 Pit Hole / Mechanism)**:
    - Speculative: Boulder 2 at (24, 10) might push east into column 25 or drop to 2F. Requires physically reaching Boulder 2 first before any manipulation is possible.
 
-## Current Status:
-- Player position: (1, 8) facing West directly above staircase (1, 9).
-- Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
-- Boulder 2: At (24, 10) [verified visually Turn 21864].
-- HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
-
 ### Visual Discoveries (Turn 21937):
 - Barrier Block (7, 10) visually confirmed LOWERED (flat floor visible).
 - Boulder 3 visually sighted at (13, 12) directly south of (13, 11).
@@ -3985,7 +3979,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Barrier Block at (7, 10): Lowered and confirmed passable on Turn 20715 by depressing switch plate (3, 5).
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
-- Southern Corridor: Columns 20-23 open south past row 8.
+- Eastern Sector (Rows 8-12, Cols 20-23): Access south is blocked by solid rock walls at (22, 9), (23, 9), and (20, 12).
 - Boulder 2: Located at (24, 10) in horizontal passage between enclosed eastern chasm (cols 22-23) and outer eastern corridor (col 25).
 - Enclosed Chasm: Columns 22-23 (rows 10-14) dark checkerboard floor bounded by rock walls on north (row 9), west (col 21), and east (col 24).
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
