@@ -3827,21 +3827,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23858]:
-- Player warped via Dig to Viridian City outside Pokémon Center (23, 26).
-- Team healing at Pokémon Center to restore Sheldon's HP (from 101 to 209) and all PP.
+## Current Verified State [Turn 23881]:
+- Player is on Route 22 at (31, 11) mounted on Bicycle, heading west to Reception Gate.
+- Team fully healed at Viridian Pokémon Center.
+- 3F Pit Hole drop verified: Stepping into 3F Pit Hole (23, 15) lands player at 2F (22, 16) with fallen boulder at (23, 16).
+- Row 16 Highway on 3F verified open between Southwest Basin and Pit Hole.
 
-## Master Execution Blueprint for Final Clear:
-1. Heal at Viridian Pokémon Center, mount Bicycle.
-2. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
-3. Victory Road 1F:
+## Execution Blueprint & Active Hypotheses:
+1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
+2. Victory Road 1F:
    - Cast Strength with Rocky (Geodude).
    - Push entrance boulder onto switch (17, 13).
    - Walk across plateau to ladder (1, 1) and ascend to 2F.
-4. Victory Road 2F:
-   - Walk north up Western Highway (cols 2-3) through doorway (5, 4) to Northwest ladder (1, 1).
-   - Ascend ladder (1, 1) to 3F (2, 0) (zero boulder pushing needed on 2F!).
-5. Victory Road 3F:
+3. Victory Road 2F (Transit):
+   - Walk north via Western Highway (cols 2-3) through doorway (5, 4) to Northwest ladder (1, 1).
+   - Ascend ladder (1, 1) to 3F (2, 0).
+4. Victory Road 3F:
    - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
    - Ascend wooden staircase (17, 5) to terrace (17, 4).
    - Walk west across terrace to Col 10, south to Row 10, west to (5, 10), north to Row 8, west to (1, 8).
@@ -3850,10 +3851,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Cast Strength with Rocky.
    - Push Boulder (22, 15) East into Pit Hole (23, 15).
    - Step East into Pit Hole (23, 15) to fall to 2F!
-6. Victory Road 2F (Final Exit):
+5. Victory Road 2F (Final Clear - Hypothesis to Test):
    - Land at (22, 16) next to fallen boulder at (23, 16).
    - Cast Strength with Rocky.
-   - Move to (24, 16) and push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
+   - Test bypass around boulder: verify whether Row 17 is passable or if upper corridor (Cols 28-29) is taken to stand east of boulder (24, 16).
+   - Push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
    - Ascend wooden stairs (21, 15) to Row 14, walk past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
 
 
@@ -3864,8 +3866,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road 2F Points of Interest & Geography
 
 ## Connections
+- Pit Hole Drop Arrival [Verified Turn 23855]: Stepping into 3F Pit Hole (23, 15) drops player to 2F at (22, 16), with the fallen boulder arriving directly adjacent at (23, 16).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
-- Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Sighted at (27, 7) with light blue vertical rails and horizontal rungs; situated in eastern chamber (rows 7-9, cols 26-28). Hypothesized to connect to 3F Ladder at (26, 8) [Unclimbed; cross-floor warp unverified]. Direct ground access from northern terrace (row 6) and southern hall (row 10) previously tested impassable.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector.
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
@@ -4041,7 +4043,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (8, 2): Confirmed solid rock wall corner from (9, 2) facing West with 0 movement delta [Turn 20530].
 - Tile (1, 7): Impassable elevation cliff from (1, 6) facing South with 0 movement delta [Turn 20589].
 - Tile (20, 12): Confirmed solid rock wall from (20, 11) facing South with 0 movement delta [Turn 20627].
-- Boulder 3 Empirical Audit [Turns 23078-23082]: Pushing south from (13, 11) moves Boulder 3 into (13, 13). From (13, 12), south push produces 0 movement delta against (13, 14) solid rock wall, and east bump test produces 0 movement delta against (14, 12) solid rock wall. Column 13 is definitively an impassable dead-end trap.
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370; re-verified Turn 23549 with Switch (3, 5) depressed].
 - Tile (24, 8): Empirically verified solid rock wall from (23, 8) facing East with 0 movement delta [Turn 17997; re-verified Turn 23416].
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
