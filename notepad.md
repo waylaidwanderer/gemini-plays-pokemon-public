@@ -3967,7 +3967,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Highway: Rows 0 and 1 form an open east-west thoroughfare across columns 6 through 26.
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
-- Boulder 1: Started at (22, 3); routed along Row 1 to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and pushed onto switch plate at (3, 5) [Turn 23249], depressing switch plate (3, 5) [Turn 23249].
+- Boulder 1: Starts at (22, 3) along the Northern Highway. Can be pushed west along Row 1 to Column 6, south to Row 2, west to Column 2, and south down Column 2 toward Switch Plate (3, 5).
 - Tile (7, 10): Disproved barrier block hypothesis [Turn 23288-23291]. (7, 10) is normal floor in a dead-end terrace hallway terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin (rows 12-16) is a self-contained cul-de-sac completely walled off on the east by Column 12 rock walls; it has zero connection to eastern sector.
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
@@ -4021,6 +4021,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 - Southwest Basin Eastern Boundary (12, 12..16): Empirically verified 100% solid rock wall via physical bump tests on Turns 21966-21971 (all produced 0 movement delta) and re-verified via visual inspection on Turn 22896. Disproved any hidden openings into row 13 east from Southwest Basin.
 - Negative Collision Telemetry at Column 21: (21, 10) and (21, 11) empirically confirmed solid rock wall from the west (Turns 22059-22060, 0 movement delta).
-
 
 <hr>
