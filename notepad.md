@@ -4002,7 +4002,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (16, 12): Empirically verified solid rock wall from (16, 11) facing South with 0 movement delta [Turn 22541].
 - Tile (17, 12): Empirically verified solid rock wall from (17, 11) facing South with 0 movement delta [Turn 22541].
 - Tile (18, 12): Empirically verified solid rock wall from (18, 11) facing South with 0 movement delta [Turn 22541].
-- Tile (19, 12): Empirically verified solid rock wall from (19, 11) facing South with 0 movement delta [Turn 22543].
+- Tile (19, 12): Empirically verified open dark checkerboard floor [Visually verified Turn 23160-23167; connects Column 19 south into southern corridor].
 - Tile (19, 2): Empirically verified solid rock wall from (18, 2) facing East with 0 movement delta [Turn 22551].
 - Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta [Turn 22138].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 22136].
