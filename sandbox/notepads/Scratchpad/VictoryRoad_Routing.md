@@ -1,21 +1,23 @@
-# Victory Road Master Roadmap (Turn 22575)
+# Victory Road Master Roadmap (Turn 22594)
 
 ## Current Floor & Entity Status:
 - Floor: Victory Road 3F
-- Position: (1, 5)
-- HM04 Strength: ACTIVATED on 3F (cast Turn 22501 from Rocky).
+- Position: (10, 1) on Northern Highway
+- HM04 Strength: ACTIVATED on 3F.
+- Boulder 1: Actively sitting on Switch Plate (3, 5). Switch is depressed!
+- Barrier Block (7, 10): Actively LOWERED and passable!
 
-## Verified Floor Geometry & Landmarks:
-1. **Boulder 1 & Switch Plate (3, 5) Puzzle**:
-   - Boulder 1 successfully routed along Northern Highway to (2, 5) [Turn 22575].
-   - Pushing Boulder 1 from (2, 5) onto Switch Plate (3, 5) depresses switch and lowers Barrier Block (7, 10).
-
-2. **Pit Hole & Boulder Sighted (Turn 22508)**:
-   - Orange Boulder located at (22, 15).
-   - Pit Hole located at (23, 15) directly east of the boulder.
-   - Columns 22-23 form an open corridor connecting Row 10 down to Row 15.
-
-3. **Active Mission & Hypotheses**:
-   - Switch Plate (3, 5) depressed by Boulder 1 [Turn 22577], Barrier (7, 10) confirmed lowered.
-   - Position: (6, 6) on Main Avenue, advancing south to (7, 10) and (7, 11).
-   - Hypothesis to test: Investigate whether Southwest Basin southern boundaries (Rows 15-16) connect eastward beneath Column 12 rock wall toward pit room (23, 15).
+## Master Highway to Lowered Barrier (7, 10):
+1. Column 6 is blocked at (6, 7) by cliff/chasm and at (7, 7) by Item Ball.
+2. The ONLY path to Barrier (7, 10) is via the Elevated Terrace:
+   - Walk east along Northern Highway (Row 1) to (20, 1).
+   - Walk south down Column 20 to (20, 6).
+   - Walk west along Row 6 to (17, 6).
+   - Climb wooden staircase at (17, 5) onto terrace at (17, 4).
+   - Walk west along terrace (Row 4) to (10, 4).
+   - Walk south down Column 10 terrace corridor to (10, 10).
+   - Walk west along Row 10 to (7, 10) [LOWERED BARRIER BLOCK!].
+   - Step south through (7, 10) into (7, 11) [Southwest Basin].
+3. Inside Southwest Basin:
+   - Audit southern boundary (Rows 15-16) for connection eastward into pit room (23, 15).
+   - Push Boulder at (22, 15) into Hole at (23, 15), jump down to 2F, lower 2F barrier, and exit to Indigo Plateau!
