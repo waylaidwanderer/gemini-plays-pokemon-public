@@ -3976,7 +3976,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Boulder 1: Started at (22, 3); routed along Row 1 to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and pushed onto switch plate at (3, 5) [Turn 20690], which lowered the barrier block at (7, 10) [Empirically verified Turn 20715].
-- Barrier Block at (7, 10): Reset to raised state upon re-entering 3F [Turn 22499]; requires depressing switch plate (3, 5) with Boulder 1 if southwestern passage via (7, 10) is needed.
+- Barrier Block at (7, 10): Lowered and confirmed passable by depressing switch plate (3, 5) with Boulder 1 [Re-depressed Turn 22577].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed passable [Turn 20734]; connects north through (5, 9) and (5, 8) to the southwest terrace and staircase at (1, 9).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
 - Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
