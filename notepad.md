@@ -3830,25 +3830,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Current Verified State [Turn 23491]:
 - Switch (3, 5) on 3F is actively depressed by Boulder 1 [Turn 23483].
 - Strength is ACTIVE (cast Turn 23465).
-- Player is at 3F (12, 1) moving east along Northern Highway (Row 1).
 - 2F Exit: Ladder at (25, 14) blocked by barrier block (23, 14), with switch plate at (23, 15) beneath 3F ceiling pit hole (23, 15).
 - 2F Northeast Ladder chamber (cols 25-29, rows 7-9) has 0 ground access from 2F (sealed on all 4 sides).
 - 3F Pit Hole is at (23, 15). Boulder 2 is at (24, 10).
 
 ## Active Test Protocol (Zero-Ladder Rule):
 DO NOT TOUCH ANY LADDER. Floor transitions reset all boulder and switch states.
-With Switch (3, 5) depressed, methodically inspect:
-1. Row 12 (cols 14-20) from the central floor via Column 20 corridor.
-2. Elevated Terrace via wooden staircase at (17, 5).
-3. Column 21 boundaries (rows 9-12).
+With Switch (3, 5) depressed:
+1. Do NOT re-explore elevated terrace via (17, 5): fully verified on Turns 23275-23279 that terrace connects only to Southwest Basin, which is blocked from southern runway by solid Column 12 rock wall.
+2. Boulder 3 at (13, 13) is an immovable trap/plug (audited Turns 23078-23082); it does not provide passage to the southern runway.
+3. Investigate access to eastern sector (cols 20-24, rows 3-11) towards Boulder 2 at (24, 10).
 4. Establish definitive empirical proof of what tile/mechanism is actuated by Switch (3, 5).
 
-## Critical Visual Discoveries [Turns 23497-23504]:
+## Verified Findings:
 - 3F Pit Hole is confirmed at (23, 15).
-- A second boulder sits directly at (22, 15) immediately adjacent to Pit Hole (23, 15)! Pushing it 1 step East drops it into the hole!
-- Rows 13-15 form an open southern corridor spanning columns 14 through 23 directly to (22, 15) and (23, 15).
-- Row 12 is a continuous solid rock wall across columns 14 through 21 (all tested with 0 delta).
-- Boulder 3 is located at (13, 12). Directly south of Boulder 3 at (13, 13) is dark floor connecting directly east into (14, 13) and the southern corridor!
+- Rows 13-15 form a southern corridor across columns 14 through 23 leading to Pit Hole (23, 15).
+- Row 12 is a continuous solid rock wall across columns 14 through 21.
 - Southwest Basin (cols 1-11, rows 12-16) is separated from southern runway by Column 12 rock wall (rows 12-15).
 
 
@@ -3891,6 +3888,7 @@ With Switch (3, 5) depressed, methodically inspect:
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
 - Wall at (27, 6): Confirmed solid rock wall directly south of (27, 5) with Switch Plate A depressed [Tested Turns 16136, 17234, 17487].
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
+- Wall at (26, 6) & (25, 6): Solid rock wall directly south of (26, 5) and (25, 5) [Empirically verified Turns 23446-23447 with 0 movement delta].
 - Wall at (5, 2): Solid rock wall directly north of (5, 3) [Empirically verified Turn 16637].
 - Wooden Staircase at (5, 10): Connects row 8/9 plateau at (5, 9) down to row 11 lower floor at (5, 11) [Discovered Turn 16371].
 - Wall at (1, 8): Solid rock pillar separating (2, 8) from ladder at (0, 8); access to ladder is via row 7 (0..1, 7) [Empirically verified Turn 16392].
@@ -3952,8 +3950,6 @@ With Switch (3, 5) depressed, methodically inspect:
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 
-- Wall at (26, 6) & (25, 6): Solid rock wall directly south of (26, 5) and (25, 5) [Empirically verified Turns 23446-23447 with 0 movement delta].
-
 
 <hr>
 
@@ -4005,6 +4001,7 @@ With Switch (3, 5) depressed, methodically inspect:
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (21, 11): Empirically verified solid rock wall from (20, 11) facing East with 0 movement delta with Switch (3, 5) depressed [Turn 23497].
 - Column 25 Barrier: Tiles (25, 4), (25, 5), and (25, 6) are confirmed solid rock walls; northern access into Column 25 from Row 3 is completely blocked [Visually verified Turn 22546].
 - Tile (14, 12): Empirically verified solid rock wall from (14, 11) facing South with 0 movement delta [Turn 22536].
 - Tile (15, 12): Empirically verified solid rock wall from (15, 11) facing South with 0 movement delta [Turn 22536].
