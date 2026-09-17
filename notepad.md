@@ -3848,6 +3848,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - On 2F, systematically test the eastern passage into Northeast Ladder (27, 7) chamber to cross-floor into 3F (26, 8).
 3. Reach Boulder 2 at (24, 10), push into Pit Hole at (23, 15), jump into hole to 2F (23, 15), and exit via Ladder (25, 14)!
 
+- Turn 23337 Audit: 2F Ladder (27, 7) is sealed on all sides on 2F (Row 6 wall north, Row 10 wall south, Col 24 wall west, Col 29 wall east). It cannot be reached from 2F ground. Therefore, the progression route is strictly on 3F! Returning to 3F via Ladder (23, 7).
+
 
 <hr>
 
