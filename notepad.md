@@ -3827,18 +3827,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23733]:
-- Player is at 3F (26, 5) facing South. Switch (3, 5) is depressed.
-- Empirical Test: (27, 6) [Turn 23729] and (26, 6) [Turn 23734] both confirmed 0 movement delta against solid rock with Switch (3, 5) depressed. Disproved Northeast Alcove Row 6 barrier hypothesis. Row 6 is permanent cave wall.
-- Post-Switch Activation Test Protocol (Hypothesis Testing):
-  1. Once Switch (3, 5) is depressed, do NOT take any ladders or change floors (ladders reset all switches and boulders).
-  2. Backtrack north up Column 2 to (2, 2), east along Row 2 to (6, 2), north up Column 6 to (6, 0).
-  3. Traverse east along Row 0/1 Northern Highway directly to Northeast Alcove (cols 26-28).
-  4. At (26, 5) and (27, 5), perform physical collision bump tests facing South into (26, 6) and (27, 6) to empirically verify if Row 6 barrier lowered.
-  5. If lowered, proceed down Column 25 to Boulder 2 at (24, 10) and Pit Hole at (23, 15). If impassable, document negative collision telemetry before testing other sectors.
-- Northeast Alcove on 3F (cols 26-28, rows 3-5) is completely enclosed: Row 6 is solid rock wall (tile 27, 6 tested 0 delta Turn 23625), Column 29 is solid rock wall across all rows 0-7. Ground access to Ladder (26, 8) from Northeast Alcove is confirmed impossible.
-- Tile (24, 7) on 3F tested solid rock wall (0 delta Turn 23615).
-- Boulder 3 Visual & Spatial Audit [Turn 23661]: Player at (13, 11) directly facing Boulder 3 at (13, 12). Visual confirmation proves: (12, 12) is rock wall, (14..18, 12) is rock wall, (12, 13) is rock wall, (12..13, 14..15) is solid rock wall. Pushing Boulder 3 south to (13, 13) traps it against (13, 14) wall; without diagonal movement, player cannot step into (14, 13). Boulder 3 is definitively a dead-end trap from the north. Southern runway (rows 13-15) must be accessed from the eastern sector.
+## Current Verified State [Turn 23761]:
+- Player is on Victory Road 2F at (9, 16) facing Left on Row 16 lower corridor.
+- Exit Barrier at (23, 14) on 2F tested empirically on Turn 23749 facing East from (22, 14) with 0 movement delta: confirmed RAISED and solid, proving Switch (3, 5) on 3F does NOT lower the 2F exit barrier.
+- Row 6 in Northeast Alcove on 3F tested empirically on Turns 23729 and 23734: confirmed 0 movement delta against solid rock, proving Row 6 is permanent cave wall.
+- Active Investigation: Inspecting Column 9 (rows 11-16) and Switch Plate B on 2F to audit boulder mechanics in the lower corridor.
+
 
 <hr>
 
@@ -3897,7 +3891,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block at (23, 14): Raised barrier block with blue/white checkerboard pattern. Located at (23, 14) on Row 14, completely blocking access to Exit Ladder at (25, 14) [Empirically verified Turn 23201].
+- Barrier Block at (23, 14): Raised barrier block with blue/white checkerboard pattern. Located at (23, 14) on Row 14, completely blocking access to Exit Ladder at (25, 14) [Empirically re-verified Turn 23749: 0 movement delta facing East from (22, 14); confirmed raised despite 3F Switch (3, 5) depression].
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
