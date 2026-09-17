@@ -3826,25 +3826,35 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Working Scratchpad (Turn 23046)
+# Victory Road Master Solution & Routing (Turn 23057)
 
-## BREAKTHROUGH DISCOVERY [Turn 23046]:
-- Visual confirmation on screen:
-  1. Orange Boulder located at (22, 15)!
-  2. Pit Hole located at (23, 15) directly adjacent (1 tile east) to the boulder!
-  3. Southern Highway (rows 13-15 across cols 16-23) is a wide open floor leading directly to (21, 15) and (22, 15)!
-  4. Row 12 is a rock wall across cols 16-21 separating Row 11 from Row 13.
-  5. The puzzle solution: Walk west along Row 11 past the Row 12 rock wall, enter the Southern Highway (rows 13-15), walk east to (21, 15), activate Strength, push the boulder at (22, 15) Right into the pit hole at (23, 15), then jump down the hole to 2F!
-  6. On 2F, the fallen boulder depresses the switch, lowering barrier (23, 14) and unlocking the Exit Ladder at (25, 14)!
+## Complete Verified Solution:
+1. The Southern Highway (rows 13-15 across cols 14-23) contains the Pit Hole at (23, 15) and Boulder at (22, 15).
+2. The central floor is blocked north of row 13 by the continuous Row 12 rock wall (cols 14-21) and the Boulder 3 trap at (13, 12).
+3. The ONLY entrance to the Southern Highway is via the elevated platform from Wooden Staircase (1, 9) in the southwest chamber.
+4. Access to the southwest chamber and Staircase (1, 9) REQUIRES lowering Barrier Block (7, 10).
+5. Lowering Barrier Block (7, 10) REQUIRES pushing Boulder 1 from (22, 3) onto Switch Plate (3, 5).
 
-## Active Plan:
-1. Walk west along Row 11 from (20, 11) to locate the passage into Rows 13-15.
-2. Advance through the opening into the Southern Highway at Row 13/14/15.
-3. Cruise east along Rows 13-15 to (21, 15).
-4. Activate Strength with Rocky.
-5. Push boulder at (22, 15) Right into Pit Hole (23, 15).
-6. Jump down Pit Hole (23, 15) to 2F.
-7. Ascend Exit Ladder at (25, 14) to Route 23 / Indigo Plateau!
+## Step-by-Step Execution Plan:
+1. Walk to Boulder 1 at (22, 3) via Row 0/1 Northern Highway.
+2. Position at (22, 4) facing Up.
+3. Activate Strength with Geodude (ROCKY).
+4. Push Boulder 1 along the verified route:
+   - North 2 tiles: (22, 3) -> (22, 2) -> (22, 1).
+   - West 16 tiles along Row 1: (22, 1) -> (6, 1).
+   - South 1 tile: (6, 1) -> (6, 2).
+   - West 4 tiles along Row 2: (6, 2) -> (2, 2).
+   - South 3 tiles down Column 2: (2, 2) -> (2, 5).
+   - East 1 tile: (2, 5) onto Switch Plate (3, 5)!
+   - Switch depresses -> Barrier Block (7, 10) lowers!
+5. Walk south through lowered Barrier (7, 10) into the southwest chamber.
+6. Ascend Wooden Staircase at (1, 9) onto the elevated platform.
+7. Traverse the platform EAST over the column 12 boundary to the eastern staircase.
+8. Descend staircase into the Southern Highway at rows 13-15.
+9. Walk east to (21, 15) facing East toward Boulder (22, 15).
+10. Push Boulder (22, 15) Right into Pit Hole (23, 15).
+11. Jump down Pit Hole (23, 15) to 2F.
+12. On 2F, the depressed switch lowers Barrier (23, 14). Walk to Exit Ladder at (25, 14) and climb to Indigo Plateau!
 
 
 <hr>
