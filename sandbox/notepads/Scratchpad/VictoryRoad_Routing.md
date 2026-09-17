@@ -9,3 +9,7 @@
 6. 3F Boulder 3 at (13, 12) is an impassable dead-end trap; Column 13 does not connect south [Verified Turns 23078-23082].
 7. 2F Column 16 connects Row 11 north into Rows 0-3 [Verified Turn 23114].
 8. 2F Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3).
+
+## Immediate Progress:
+- Boulder 1 at (2, 5) being pushed onto Switch Plate (3, 5) to depress switch and lower Barrier Block (7, 10).
+- Next: Advance through lowered Barrier Block (7, 10) to execute the final boulder drop into Pit Hole (23, 15).
