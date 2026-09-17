@@ -3825,7 +3825,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Master Roadmap (Turn 21994)
 
 ## Current Player Status:
-- Position: (24, 2) facing West on Victory Road 3F northeast expanse.
+- Position: (20, 6) facing Down on Victory Road 3F central-east corridor.
 - Visual Audit of Eastern Sector (Turn 22027):
   - (21, 8) is a 1-tile dead-end alcove (blocked E by 22,8; S by 21,9; W by 20,8). Only exit is North to (21, 7).
   - Boulder 2 confirmed at (24, 10), bounded N (24, 9), S (24, 11), E (25, 10) by solid rock. Open floor to west at (22..23, 10).
