@@ -11,14 +11,16 @@
 - Switch Plate: Located at (17, 13) in eastern wing.
 - Plateau Barrier Block: Located at (9, 12), blocks east traversal across the plateau. Lowered/removed by placing Boulder 1 on switch plate at (17, 13) [Verified Turn 15465].
 - Plateau Access: Stairs/ladder at (5, 13) connects lower floor (5, 14) to elevated plateau (5, 12).
-- Boulder 1 (Entrance Boulder): Starts at (5, 15). Verified solution:
-  1. Walk via col 4 to (5, 14), push South to (5, 16).
-  2. Walk around via (4, 16), push East along row 16 to (8, 16). (Do not push north at col 7 because (6, 15) is rock and blocks east pushing).
-  3. Walk around via row 17 to (8, 17), push North to (8, 15).
-  4. Walk around to (7, 15), push East to (9, 15). (Note: (10, 15) is blocked by blue rock rubble).
-  5. Walk around via (8, 16) to (9, 16), push North onto Row 14 at (9, 14).
-  6. Walk around via (8, 15) to (8, 14), push East along Row 14 to column 17, then North onto Switch Plate at (17, 13).
-  7. Switch depresses and lowers Plateau Barrier Block at (9, 12).
+- Boulder 1 (Entrance Boulder): Starts at (5, 15). Verified execution to (16, 14) [Turns 23944-23967]:
+  1. [Verified] Walk via col 4 to (5, 14), push South to (5, 16).
+  2. [Verified] Walk around via (4, 16), push East along row 16 to (8, 16). (Do not push north at col 7 because (6, 15) is rock and blocks east pushing).
+  3. [Verified] Walk around via row 17 to (8, 17), push North to (8, 15).
+  4. [Verified] Walk around to (7, 15), push East to (9, 15). (Note: (10, 15) is blocked by blue rock rubble).
+  5. [Verified] Walk around via (8, 16) to (9, 16), push North onto Row 14 at (9, 14).
+  6. [Verified] Walk around via (8, 15) to (8, 14), push East along Row 14 to (16, 14). (Note: (17, 14) is confirmed solid purple rock wall).
+  7. [Active Hypothesis] From (16, 14), push North into (16, 13), then North into (16, 12).
+  8. [Active Hypothesis] At (16, 12), walk to (15, 12), push East into (17, 12).
+  9. [Active Hypothesis] At (17, 12), walk to (17, 11), push South onto Switch Plate at (17, 13) to lower Plateau Barrier Block at (9, 12).
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
