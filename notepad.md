@@ -3782,7 +3782,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Water Boundary & Mountain Rocks (Rows 48..45): Water lake borders the east (cols 14+); rock blocks at (9..10, 46..47); columns 12-13 form a clean, open lawn path running north avoiding tall grass at (10..11, 45).
 - Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
 - Western Corridor (Cols 6..7, Rows 48..36): Open 2-tile wide lawn avenue running north along cols 6-7, completely bypassing the row 41-43 barrier (which lies east at cols 8-17). Wide open lawn extends across cols 3..7 through row 36, passing west of statue at (8, 37).
-- Earthbadge Guard: Stationed at (4, 35). Trigger tile verified at (7, 35) [Turn 15356]. Guard faces right across row 35 to verify Earthbadge possession. Row 31 features the entrance gate/structure with doorway at (4, 31).
 - Signpost at (9, 115): Attached to pillar at (9, 115) facing South. Reads: "The ultimate goal of trainers! POKéMON LEAGUE HQ" [Read Turns 23908-23909].
 
 <hr>
@@ -3828,11 +3827,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23881]:
-- Player is on Route 22 at (31, 11) mounted on Bicycle, heading west to Reception Gate.
-- Team fully healed at Viridian Pokémon Center.
+## Current Verified State [Turn 23941]:
+- Player is inside Victory Road 1F at (5, 16), in wild battle with Machop (fleeing).
+- Strength successfully cast with Rocky (Geodude) on Turn 23938.
+- Team fully healed at Viridian Pok�mon Center.
 - 3F Pit Hole drop verified: Stepping into 3F Pit Hole (23, 15) lands player at 2F (22, 16) with fallen boulder at (23, 16).
 - Row 16 Highway on 3F verified open between Southwest Basin and Pit Hole.
+- Next immediate step: Flee battle, dismount Bicycle for strict 1-tile stride precision, solve 1F Boulder 1 push to switch (17, 13).
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -3999,7 +4000,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
-- Southern Corridor: Rows 13-15 across columns 14-23 sighted visually from (20, 11) as dark cavern floor leading toward pit hole (23, 15) [Physical traversal unverified].
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
