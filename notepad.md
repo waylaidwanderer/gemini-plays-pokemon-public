@@ -168,7 +168,6 @@
 - ESCAPE ROPE x1 [Obtained Turn 13825 at Mansion 2F (1, 16), Verified Turn 13828]
 - TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
-- IRON x0 [Used Turn 16757 on Geodude (ROCKY) to boost Defense]
 - CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
@@ -3866,7 +3865,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Connections
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
-- Northeast Ladder: Visually confirmed at (27, 7) with light blue vertical rails and horizontal rungs [Empirically verified Turns 21013-21020]; situated in enclosed eastern chamber (rows 7-9, cols 26-28). Connects to 3F (27, 7). Enclosed on 2F by solid rock walls on all sides.
+- Northeast Ladder: Sighted at (27, 7) with light blue vertical rails and horizontal rungs; situated in eastern chamber (rows 7-9, cols 26-28). Hypothesized to connect to 3F Ladder at (26, 8) [Unclimbed; cross-floor warp unverified]. Direct ground access from northern terrace (row 6) and southern hall (row 10) previously tested impassable.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector; arrived via 3F ladder [Turn 20613].
 - Northwest Chamber: Reached Turn 19405 via Northern Highway (Row 1). Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
@@ -4012,6 +4011,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta [Turn 22138].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta [Turn 22136].
 - Tile (24, 6): Empirically verified solid rock wall from (23, 6) facing East with 0 movement delta [Turn 22124].
 - Tile (3, 3): Confirmed solid rock pillar from (2, 3) facing East with 0 movement delta [Turn 20694].
