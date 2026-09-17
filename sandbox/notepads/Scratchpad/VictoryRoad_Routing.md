@@ -1,15 +1,30 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23851]:
-- Player is at (21, 15) on Victory Road 3F facing Boulder at (22, 15).
-- Pit Hole at (23, 15) is directly east of Boulder (22, 15).
-- Row 16 Highway connects Southwest Basin to Pit Hole corridor.
+## Current Verified State [Turn 23858]:
+- Player warped via Dig to Viridian City outside Pokémon Center (23, 26).
+- Team healing at Pokémon Center to restore Sheldon's HP (from 101 to 209) and all PP.
 
-## Execution Sequence:
-1. Activate Strength with Geodude (ROCKY, Party Slot 2) via Start menu on 3F.
-2. Push Boulder (22, 15) East into Pit Hole (23, 15).
-3. Step East into Pit Hole (23, 15) to fall to 2F.
-4. IMPORTANT: Falling through the pit hole resets active Strength status; MUST re-cast Strength on 2F with Rocky!
-5. On 2F, locate the fallen boulder and push it west along Row 16 onto Switch Plate B at (9, 16).
-6. Depressing Switch Plate B (9, 16) lowers Exit Barrier at (23, 14).
-7. Ascend Exit Ladder at (25, 14) to Indigo Plateau!
+## Master Execution Blueprint for Final Clear:
+1. Heal at Viridian Pokémon Center, mount Bicycle.
+2. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
+3. Victory Road 1F:
+   - Cast Strength with Rocky (Geodude).
+   - Push entrance boulder onto switch (17, 13).
+   - Walk across plateau to ladder (1, 1) and ascend to 2F.
+4. Victory Road 2F:
+   - Walk north up Western Highway (cols 2-3) through doorway (5, 4) to Northwest ladder (1, 1).
+   - Ascend ladder (1, 1) to 3F (2, 0) (zero boulder pushing needed on 2F!).
+5. Victory Road 3F:
+   - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
+   - Ascend wooden staircase (17, 5) to terrace (17, 4).
+   - Walk west across terrace to Col 10, south to Row 10, west to (5, 10), north to Row 8, west to (1, 8).
+   - Descend wooden staircase (1, 9) into Southwest Basin at (1, 10).
+   - Walk south to Row 16, east along Row 16 Highway to (21, 16), and up to (21, 15).
+   - Cast Strength with Rocky.
+   - Push Boulder (22, 15) East into Pit Hole (23, 15).
+   - Step East into Pit Hole (23, 15) to fall to 2F!
+6. Victory Road 2F (Final Exit):
+   - Land at (22, 16) next to fallen boulder at (23, 16).
+   - Cast Strength with Rocky.
+   - Move to (24, 16) and push fallen boulder WEST along Row 16 onto Switch Plate B at (9, 16).
+   - Ascend wooden stairs (21, 15) to Row 14, walk past lowered barrier (23, 14), and climb Exit Ladder (25, 14) to INDIGO PLATEAU!
