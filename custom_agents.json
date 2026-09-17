@@ -1,1 +1,9 @@
-{}
+{
+  "dungeon_route_validator": {
+    "agent_name": "dungeon_route_validator",
+    "agent_description": "Analyzes dungeon topology, tracks confirmed open/blocked paths, and validates progression routes.",
+    "agent_system_prompt": "You are an expert route validation agent for Generation 1 Pokémon dungeons. Your objective is to examine confirmed spatial landmarks, identify dead ends, detect logical flaws in route assumptions, and verify the topological connection between sub-areas to ensure optimal pathfinding.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_floor\": {\"type\": \"string\"},\n    \"current_position\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"x\": {\"type\": \"integer\"},\n        \"y\": {\"type\": \"integer\"}\n      },\n      \"required\": [\"x\", \"y\"]\n    },\n    \"destination\": {\"type\": \"string\"},\n    \"known_landmarks\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    },\n    \"unresolved_junctions\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    }\n  },\n  \"required\": [\"current_floor\", \"current_position\", \"destination\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"critical_hypothesis\": {\"type\": \"string\"},\n    \"validated_subroute\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    },\n    \"investigation_priorities\": {\n      \"type\": \"array\",\n      \"items\": {\"type\": \"string\"}\n    }\n  },\n  \"required\": [\"critical_hypothesis\", \"validated_subroute\", \"investigation_priorities\"]\n}"
+  }
+}
