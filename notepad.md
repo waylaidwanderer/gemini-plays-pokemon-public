@@ -3848,8 +3848,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Step 12: Ascend Exit Ladder at (25, 14) to Route 23 North / Indigo Plateau!
 
 ## Current Player Status:
-- Position: (18, 2) on Victory Road 2F (in battle with wild Golbat).
-- Active Task: Walking West along Row 11 toward Western Highway.
+- Position: (23, 7) on Victory Road 3F.
+- Active Task: Activating Strength with Geodude and routing boulder puzzle.
 
 
 <hr>
