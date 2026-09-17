@@ -19,5 +19,5 @@
    - Step 11: Ascend exit ladder at (25, 14) to Route 23 North / Indigo Plateau!
 
 ## Current Player Status:
-- Position: (23, 3) facing East on Victory Road 3F.
+- Position: (23, 6) on Victory Road 3F (in battle with wild Machop).
 - Active Goal: Step Down 4 times to descend Ladder (23, 7) to 2F.
