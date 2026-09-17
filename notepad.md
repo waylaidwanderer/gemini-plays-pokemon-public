@@ -3825,29 +3825,30 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22954)
+# Victory Road Working Scratchpad (Turn 22981)
 
 ## Current Status:
-- Floor: Victory Road 2F
-- Position: (1, 1) in Northwest Chamber
+- Floor: Victory Road 2F (in battle at (2, 1) on Row 1)
+- Position: (2, 1) on Row 1 Northern Highway
 - Strength: Inactive on 2F (reset upon ladder descent)
-- Active Objective: Traverse east along Northern Highway (Row 1) to (20, 1).
+- Active Navigation: Flee from Geodude, traverse Row 1 east to Column 20 (20, 1).
 
-## The Complete Canonical Solution to Victory Road:
-1. Ascend Ladder (23, 7) to 3F at (23, 7).
-2. On 3F, traverse west along the Northern Highway (Row 1) past (6, 1) and (6, 2) to Northwest Ladder (2, 0).
-3. Descend Northwest Ladder (2, 0) to 2F Northwest Chamber at (1, 1).
-4. On 2F, traverse east along the Northern Highway (Row 1) across cols 1-20 to (20, 1).
-5. From (20, 1), step south into the northeastern plateau (cols 20-28, rows 3-5).
-6. Walk east past Advice NPC (26, 3) to (28, 3), south to Row 5 (28, 5) / (29, 5).
-7. Descend Column 29 south into rows 7-8 and turn west into the enclosed chamber containing Ladder (27, 7).
-8. Ascend Ladder (27, 7) to 3F, emerging at Ladder (26, 8) in the enclosed eastern chamber.
-9. On 3F, walk to (25, 10) and push Boulder 2 at (24, 10) WEST into (23, 10), unlocking access to Columns 22-23 (rows 10-15).
-10. Walk south down Columns 22-23 to the orange boulder at (22, 15) and pit hole at (23, 15).
-11. Push the orange boulder EAST into pit hole (23, 15).
-12. Jump down pit hole (23, 15) to 2F, landing next to the fallen boulder at (23, 15).
-13. On 2F, push the fallen boulder onto the switch plate, lowering Barrier Block (23, 14).
-14. Walk past the lowered barrier to Eastern Ladder (25, 14) and EXIT Victory Road to Indigo Plateau!
+## Confirmed Physical Facts:
+1. 2F Exit Ladder is at (25, 14), obstructed by raised Barrier Block (23, 14).
+2. 3F contains a Pit Hole at (23, 15) and an Orange Boulder at (22, 15).
+3. 3F Southwest Basin (cols 1-11, rows 12-16) is confirmed an isolated dead end (Col 12 rows 12-16 is 100% solid rock wall). Switch (3, 5) does NOT connect to the exit route.
+4. 2F Northern Highway (Row 1) runs open from Northwest Chamber (1, 1) to (20, 1).
+5. 2F Northeastern Plateau (cols 20-28, rows 3-5) is accessible from (20, 1).
+6. 2F Northeast Ladder is at (27, 7) inside an enclosed chamber (cols 25-28, rows 7-9).
+7. Row 10 on 2F (cols 24-28) and Column 29 at rows 9-10 are confirmed solid rock walls from the south.
+
+## Active Hypotheses to Test:
+- Hypothesis A: The northeastern plateau on 2F connects via Column 29 (rows 5->7..8) into the Ladder (27, 7) chamber.
+  - Test: Walk to (28, 5)/(29, 5) and perform physical bump tests south down Column 29 into rows 6, 7, 8.
+- Hypothesis B: Ladder (27, 7) connects to 3F Ladder (26, 8), which accesses the isolated chamber containing Boulder 2 at (24, 10).
+  - Test: Climb Ladder (27, 7) to verify arrival coordinates on 3F.
+- Hypothesis C: Pushing Boulder 2 at (24, 10) on 3F unlocks access to Columns 22-23 and the Pit Hole at (23, 15).
+  - Test: Stand at (25, 10) on 3F and test push west into (23, 10).
 
 
 <hr>
