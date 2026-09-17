@@ -35,3 +35,4 @@
 - Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
 - Western Corridor (Cols 6..7, Rows 48..36): Open 2-tile wide lawn avenue running north along cols 6-7, completely bypassing the row 41-43 barrier (which lies east at cols 8-17). Wide open lawn extends across cols 3..7 through row 36, passing west of statue at (8, 37).
 - Earthbadge Guard: Stationed at (4, 35). Trigger tile verified at (7, 35) [Turn 15356]. Guard faces right across row 35 to verify Earthbadge possession. Row 31 features the entrance gate/structure with doorway at (4, 31).
+- Signpost at (9, 115): Attached to pillar at (9, 115) facing South. Reads: "The ultimate goal of trainers! POKéMON LEAGUE HQ" [Read Turns 23908-23909].
