@@ -1,22 +1,17 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23491]:
-- Switch (3, 5) on 3F is actively depressed by Boulder 1 [Turn 23483].
+## Current Verified State [Turn 23555]:
+- Player is at 3F (23, 8) facing South.
 - Strength is ACTIVE (cast Turn 23465).
+- Switch (3, 5) is actively depressed by Boulder 1 [Turn 23483].
+- Comprehensive testing of candidate tiles ((6, 7), (7, 7), (13, 12), (14, 12), (20, 12), (21, 11), (22, 9), (23, 9)) confirms 0 barrier blocks exist or opened on 3F. Switch (3, 5) does not open any 3F ground passage.
+- Boulder 2 is at (24, 10) inside the eastern wing (cols 25-28, rows 7-12).
+- Ladder (26, 8) is located directly inside the eastern wing alongside Boulder 2.
+- 2F Northeast Ladder is at (27, 7) in the corresponding 2F chamber.
 - 2F Exit: Ladder at (25, 14) blocked by barrier block (23, 14), with switch plate at (23, 15) beneath 3F ceiling pit hole (23, 15).
-- 2F Northeast Ladder chamber (cols 25-29, rows 7-9) has 0 ground access from 2F (sealed on all 4 sides).
-- 3F Pit Hole is at (23, 15). Boulder 2 is at (24, 10).
 
-## Active Test Protocol (Zero-Ladder Rule):
-DO NOT TOUCH ANY LADDER. Floor transitions reset all boulder and switch states.
-With Switch (3, 5) depressed:
-1. Do NOT re-explore elevated terrace via (17, 5): fully verified on Turns 23275-23279 that terrace connects only to Southwest Basin, which is blocked from southern runway by solid Column 12 rock wall.
-2. Boulder 3 at (13, 13) is an immovable trap/plug (audited Turns 23078-23082); it does not provide passage to the southern runway.
-3. Investigate access to eastern sector (cols 20-24, rows 3-11) towards Boulder 2 at (24, 10).
-4. Establish definitive empirical proof of what tile/mechanism is actuated by Switch (3, 5).
-
-## Verified Findings:
-- 3F Pit Hole is confirmed at (23, 15).
-- Rows 13-15 form a southern corridor across columns 14 through 23 leading to Pit Hole (23, 15).
-- Row 12 is a continuous solid rock wall across columns 14 through 21.
-- Southwest Basin (cols 1-11, rows 12-16) is separated from southern runway by Column 12 rock wall (rows 12-15).
+## Cross-Floor Puzzle Synthesis:
+1. Boulder 2 at 3F (24, 10) must be pushed West from (25, 10) into Column 23, then pushed South down Column 23 into Pit Hole (23, 15).
+2. Dropping Boulder 2 through Pit Hole (23, 15) depresses the switch plate at 2F (23, 15), lowering 2F Barrier Block (23, 14) and opening the way to Exit Ladder (25, 14).
+3. Access to Boulder 2 at (24, 10) on 3F is via Ladder (26, 8).
+4. Ladder (26, 8) connects to 2F Ladder (27, 7).
