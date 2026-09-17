@@ -7,8 +7,7 @@
    - No direct 2F path from Ladder B or Ladder C to Ladder A (1, 3).
 2. **2F Northwest Sector (cols 3-9, rows 0-3)**: Contains Ladder E (7, 1).
    - Blocked to west by solid rock wall along Column 2 (rows 1-4) and Row 4 (cols 3-7).
-3. **2F Southwest Sector (cols 0-7, rows 0-5)**: Contains Ladder A at (1, 3) (descends to B1F Mewtwo).
-   - Accessible ONLY via the Southwest Ladder at (3, 11) on 1F.
+3. **2F Southwest Sector (cols 0-7, rows 0-5)**: Contains Ladder A at (1, 3) (descends to B1F Mewtwo). Connected directly to Ladder E (9, 1) across the northern 2F corridors (Turn 52471-52475 verified traversal to (1, 4)).
 
 ## 1F Frontier Strategy: Path to SW Ladder (3, 11)
 - Objective: Locate the unvisited passage on 1F leading into the Southwest Sector (cols 1-5, rows 11-17) and SW Ladder (3, 11).
