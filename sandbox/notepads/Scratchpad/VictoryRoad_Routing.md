@@ -28,5 +28,5 @@
    - Step 12: Ascend Exit Ladder at (25, 14) to Route 23 North / Indigo Plateau!
 
 ## Current Player Status:
-- Position: (28, 11) facing East on Victory Road 2F.
+- Position: (20, 11) facing West on Victory Road 2F.
 - Active Task: Walking West along Row 11 toward Western Highway.
