@@ -5,7 +5,7 @@
 - Eastern Ladder: Located at (25, 14) in far eastern wing behind barrier block at (23, 14) [Unclimbed; destination unverified].
 - Northeast Ladder: Sighted at (27, 7) with light blue vertical rails and horizontal rungs; situated in eastern chamber (rows 7-9, cols 26-28). Hypothesized to connect to 3F Ladder at (26, 8) [Unclimbed; cross-floor warp unverified]. Direct ground access from northern terrace (row 6) and southern hall (row 10) previously tested impassable.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector; arrived via 3F ladder [Turn 20613].
-- Northwest Chamber: Contains Pokémaniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
+- Northwest Chamber: Contains Pokï¿½maniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
 - Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
@@ -19,7 +19,7 @@
 - Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
-- Northern Highway (Row 1): Traversed continuously west from (20, 1) across columns 18, 13, and (8, 1) with zero collisions [Verified Turns 20427-20431].
+- Northern Highway Erroneous Claim: The prior note claiming Row 1 was traversed continuously west on 2F was false (conflated with 3F). Visual inspection at Turn 22996 proves Column 14 is a solid continuous rock wall spanning rows 0 through 5+, completely blocking eastward passage along Row 0 and Row 1.
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spans rows 2 through 7 (tile 8, 2 is confirmed solid wall Turn 20413-20414). Rows 0 and 1 across Column 8 (8, 0 and 8, 1) are verified 100% open dark checkerboard floor connecting the Northern Highway directly into columns 6-7 [Verified Turns 20427-20431].
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
