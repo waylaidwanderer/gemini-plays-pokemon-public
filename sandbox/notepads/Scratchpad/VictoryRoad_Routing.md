@@ -1,10 +1,12 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23881]:
-- Player is on Route 22 at (31, 11) mounted on Bicycle, heading west to Reception Gate.
-- Team fully healed at Viridian PokÃ©mon Center.
+## Current Verified State [Turn 23941]:
+- Player is inside Victory Road 1F at (5, 16), in wild battle with Machop (fleeing).
+- Strength successfully cast with Rocky (Geodude) on Turn 23938.
+- Team fully healed at Viridian Pokémon Center.
 - 3F Pit Hole drop verified: Stepping into 3F Pit Hole (23, 15) lands player at 2F (22, 16) with fallen boulder at (23, 16).
 - Row 16 Highway on 3F verified open between Southwest Basin and Pit Hole.
+- Next immediate step: Flee battle, dismount Bicycle for strict 1-tile stride precision, solve 1F Boulder 1 push to switch (17, 13).
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
