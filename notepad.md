@@ -3822,30 +3822,26 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 21931)
+# Victory Road Master Roadmap (Turn 21994)
 
-## Working Hypotheses & Exploration Priorities (Turn 21931)
+## Current Player Status:
+- Position: (10, 10) facing North on Victory Road 3F terrace corridor.
+- Active Field Move: HM04 Strength ACTIVE on 3F [Cast Turn 21807].
+- Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
+- Barrier Block (7, 10): LOWERED and passable [Empirically verified Turn 20715, 21988].
+- Boulder 2: Sighted at (24, 10) in eastern sector [Turn 21864].
+- Party Status: Blastoise (SHELDON) Lv 66 - HP 101/209. PP: Body Slam 0/15, Ice Beam 1/10, Surf 4/15, Double-Edge 6/15.
+- Combat Policy: Flee immediately from all wild encounters to conserve PP and HP.
 
-### Status:
-- Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Empirically verified Turn 21903].
-- Barrier Block (7, 10): LOWERED by Switch (3, 5) [Empirically verified Turn 20715].
-- Boulder 2: Sighted at (24, 10) inside enclosed eastern chasm (cols 22-23, rows 10-13) [Empirically verified Turn 21864].
-- HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
-
-### Competing Hypotheses for Accessing Row 13 / Boulder 2:
-1. **Hypothesis A (Southwest Basin Column 12 Audit)**: [RESOLVED & DISPROVEN Turn 21971]
-   - Bump-tested (12, 12..15); all confirmed solid rock wall with 0 movement delta. Southwest Basin is completely sealed east.
-2. **Hypothesis B (Central Lower Floor Passage - Rows 6-12, Cols 12-16)**:
-   - Lower central floor (rows 6-11) is accessible via staircase (17, 5).
-   - Where Boulder 3 was located at (13, 12): audit row 12 across cols 12-16 to see if there is an open passage leading south into row 13.
-3. **Hypothesis C (Eastern Column 25 Pit Hole / Mechanism)**:
-   - Speculative: Boulder 2 at (24, 10) might push east into column 25 or drop to 2F. Requires physically reaching Boulder 2 first before any manipulation is possible.
-
-### Visual Discoveries (Turn 21937):
-- Barrier Block (7, 10) visually confirmed LOWERED (flat floor visible).
-- Boulder 3 visually sighted at (13, 12) directly south of (13, 11).
-- Solid rock wall visually confirmed at (12, 12), (12, 13), (12, 14), separating Southwest Basin from Column 13 chute.
-- Open floor sighted at (14, 13) and (14, 14) leading east toward columns 20-23.
+## Strategic Roadmap & Priorities:
+1. **Southwest Basin (Hypothesis A)**: [RESOLVED & DISPROVEN Turn 21971]
+   - Column 12 (rows 12-15) bump-tested; 100% solid rock. Southwest Basin is fully explored and contains no further exits.
+2. **Central Chute / Boulder 3 (Hypothesis B)**: [RESOLVED & ABANDONED]
+   - Boulder 3 at (13, 12) in chute was already proven on Turns 20630 & 20930-20939 to block northern entry into row 13 when pushed south. No untested push vectors remain. Ceasing wasted turns here.
+3. **Eastern Pit Hole & Exit Mechanism (Hypothesis C)**: [ACTIVE TOP PRIORITY]
+   - The retail Gen 1 Victory Road puzzle requires pushing a boulder into a hole on 3F so it falls to 2F, then jumping down the hole, pushing the fallen boulder onto a switch plate on 2F, and ascending the unlocked exit ladder to Route 23 North / Indigo Plateau.
+   - Objective: Navigate via row 4 / northern highway to the eastern sector (cols 23-28).
+   - Locate the pit hole and determine the access path to Boulder 2 at (24, 10).
 
 
 <hr>
