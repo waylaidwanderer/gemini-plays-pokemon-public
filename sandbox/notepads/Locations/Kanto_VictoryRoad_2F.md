@@ -21,6 +21,7 @@
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Column 14 Rock Wall: Solid rock wall across rows 0-5 blocking eastward traversal along Rows 0-1 [Empirically verified Turn 22996].
+- Tile (29, 1): Empirically verified solid rock wall from (28, 1) facing East with 0 movement delta [Turn 23586]. Column 29 is solid rock wall across rows 0-5.
 - Northern Plateau Divider: Solid rock wall along column 19 across rows 2 through 5, completely separating western plateau (cols 10-18) from eastern plateau (cols 20-28) [Empirically verified Turn 16525].
 - Column 8 Rock Wall: Solid rock wall along column 8 spans rows 2 through 7 (tile 8, 2 is confirmed solid wall Turn 20413-20414). Rows 0 and 1 across Column 8 (8, 0 and 8, 1) are verified 100% open dark checkerboard floor connecting the Northern Highway directly into columns 6-7 [Verified Turns 20427-20431].
 - Wall at (17, 11): Solid rock wall directly north of (17, 12), blocking northern entry into column 17 from row 12 [Empirically verified Turn 16494].
