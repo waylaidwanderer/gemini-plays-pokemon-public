@@ -4001,6 +4001,7 @@ With Switch (3, 5) depressed:
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta with Switch (3, 5) depressed [Turn 23548].
 - Tile (21, 11): Empirically verified solid rock wall from (20, 11) facing East with 0 movement delta with Switch (3, 5) depressed [Turn 23497].
 - Column 25 Barrier: Tiles (25, 4), (25, 5), and (25, 6) are confirmed solid rock walls; northern access into Column 25 from Row 3 is completely blocked [Visually verified Turn 22546].
 - Tile (14, 12): Empirically verified solid rock wall from (14, 11) facing South with 0 movement delta [Turn 22536].
