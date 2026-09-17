@@ -3827,11 +3827,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22532)
+# Victory Road Master Roadmap (Turn 22562)
 
 ## Current Floor & Entity Status:
 - Floor: Victory Road 3F
-- Position: (13, 11)
+- Position: (14, 1)
 - HM04 Strength: ACTIVATED on 3F (cast Turn 22501 from Rocky).
 
 ## Verified Floor Geometry & Landmarks:
@@ -3841,14 +3841,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Columns 22-23 form a verified 2-tile wide open corridor connecting Row 10 down to Row 15.
    - Pushing Boulder (22, 15) 1 tile East drops it into Hole (23, 15), allowing the player to follow it down to 2F.
 
-2. **Boulder 3 Audit (13, 12..13)**:
-   - Boulder 3 pushed from (13, 12) into (13, 13) [Turns 22527-22529].
-   - Blocked south by rock wall (13, 14), flanked by rock walls at (12, 12..13) and (14, 12).
-   - Confirmed: Column 13 does not provide access into Row 13.
+2. **Row 12 Boundary Audit Completed (Turns 22536-22543)**:
+   - Columns 14-21 physically bump-tested from Row 11: 100% solid rock walls. Zero gaps or jump ledges into Row 13.
+   - Column 25 northern access blocked by rock walls at (25, 4..6).
 
-3. **Current Investigation - Row 12 Boundary Audit**:
-   - Audit the Row 12 boundary along Columns 14-21 directly from Row 11.
-   - Test each tile south from Row 11 to determine if any tile is a passable gap, jump ledge, or opening into the southern corridor (Row 13).
+3. **Current Progression Route**:
+   - Routing Boulder 1 west along Row 1 (Northern Highway) to (6, 1), south to (6, 2), west to (2, 2), south to (2, 5), and east onto Switch Plate (3, 5).
+   - Depressing Switch (3, 5) lowers Barrier Block (7, 10).
+
 
 <hr>
 
