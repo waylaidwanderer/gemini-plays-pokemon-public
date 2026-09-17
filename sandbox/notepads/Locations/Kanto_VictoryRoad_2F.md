@@ -51,7 +51,6 @@
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
 - Barrier Block at (23, 14): Raised barrier block with blue/white checkerboard pattern. Located at (23, 14) on Row 14, completely blocking access to Exit Ladder at (25, 14) [Empirically verified Turn 23201].
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
-- Column 29 Bump Test: Tile (29, 10) confirmed solid purple rock wall with 0 movement delta from (29, 11) facing North [Empirically verified Turn 23192]. Row 10 is continuous solid purple rock wall across cols 25-30, completely sealing Ladder (27, 7) chamber from the south.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
@@ -94,3 +93,5 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
+
+- Wall at (26, 6) & (25, 6): Solid rock wall directly south of (26, 5) and (25, 5) [Empirically verified Turns 23446-23447 with 0 movement delta].
