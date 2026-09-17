@@ -25,7 +25,7 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 19 / 20
+- Total Slots Used: 20 / 20 [Verified Turn 22996 via engine rejection: 'No more room for items!']
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
