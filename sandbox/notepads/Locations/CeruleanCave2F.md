@@ -20,9 +20,3 @@
 - Column 19 Divider: Solid vertical rock divider blocks western passage across rows 0-8 from the Ladder B/C sector (cols 20-25); rock walls verified at (20, 0), (20, 1), and (19, 0..4).
 - Column 13/14 Divider: Solid vertical rock divider blocks western passage across rows 10-14 from the Ladder B/C sector.
 - Ladder A Access Protocol: Must ascend from 1F SW Ladder (3, 11) into 2F SW Sector (cols 0-7, rows 0-5), then walk north to (1, 2) and step onto Ladder A at (1, 3).
-
-## Master 2F Highway Solution to Ladder A (B1F Mewtwo)
-- **Top Corridor**: Row 0 / Row 1 connects from Ladder E (9, 1) east across (18, 1) -> (20, 1) -> (21, 0) -> (22, 0) -> (29, 0) [Ladder D sector].
-- **East Corridor**: Descends along cols 26-29 across rows 1-8 down into Row 9 at (23, 9).
-- **Southern Highway**: Row 9 connects continuously west from col 23 all the way across cols 18 -> 15 -> 13 -> 10 -> 9 -> 6 -> 3 -> 0!
-- **Western Mewtwo Ascent**: Column 0 connects north from (0, 9) across rows 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> east to (1, 2) -> south to (1, 3) [Ladder A -> B1F Mewtwo]!
