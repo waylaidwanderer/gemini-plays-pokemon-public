@@ -1,9 +1,9 @@
-# Victory Road Master Roadmap (Turn 21751)
+# Victory Road Master Roadmap (Turn 21781)
 
 ## Current Status:
-- Player position: (20, 8) on Victory Road 3F facing Up.
-- Dynamic Entities: Boulder 1 at (3, 5) [depressing switch], Boulder 2 at (24, 10), Boulder 3 at (13, 12). Barrier (7, 10) remains lowered.
-- Goal: Take ladder at (23, 7) down to 2F, navigate 2F to reach the northeast ascent ladder to 3F's boulder chamber, execute the hole drop, and clear the exit barrier.
+- Player position: (9, 13) on Victory Road 2F facing North in Column 9 trench.
+- Dynamic Entities: 2F Boulder 2 at (9, 11) [confirmed permanently immovable], Switch Plate B at (9, 16) [empty], 3F Boulder 1 at (3, 5) [depressed switch], 3F Boulder 3 at (13, 12).
+- Goal: Exit Column 9 trench via (9, 16) to lower corridor Row 16, transit east to Eastern Vertical Highway (cols 28-29), ascend to Row 11, and navigate to Northeast Ladder at (27, 7) or inspect barrier at (23, 14).
 
 ## Master Execution Strategy:
 1. [COMPLETED Turn 21628] Boulder 1 pushed onto Switch Plate (3, 5); Barrier (7, 10) lowered.
@@ -12,14 +12,13 @@
 4. [COMPLETED Turn 21686] Returned across terrace to staircase (17, 5); descended to (17, 6).
 5. [COMPLETED Turn 21704] Transited Column 20 and Northern Highway to Eastern Wing; surveyed Advice NPC alcove at (27, 5).
 6. [COMPLETED Turn 21743] Audited lower central floor; confirmed Column 11 and Row 12 walls enclose it with Boulder 3 at (13, 12).
-7. [IN PROGRESS Turn 21751] From (20, 8), walk east to ladder at (23, 7) and descend to 2F.
-8. On 2F, traverse to the northeast ladder to ascend into 3F's eastern chamber at (26, 8).
-9. Push Boulder 2 into the pit hole and drop down to 2F.
-10. On 2F, push the fallen boulder onto the switch plate to lower exit barrier (23, 14).
-11. Climb exit ladder at (25, 14) and emerge onto Route 23 North to Indigo Plateau!
+7. [COMPLETED Turn 21754] Descended ladder at (23, 7) to 2F.
+8. [COMPLETED Turn 21781] Visually re-confirmed Boulder 2 at (9, 11) is permanently immovable and Switch Plate B at (9, 16) is inactive.
+9. [IN PROGRESS Turn 21781] Retreat south out of Column 9 trench to Row 16 at (9, 16), walk east along Row 16 to Eastern Vertical Highway (cols 28-29).
+10. Ascend Columns 28-29 north to Row 11, investigate access to Northeast Ladder at (27, 7) or plateau barrier at (23, 14).
+11. Execute remaining puzzle steps to lower exit barrier (23, 14) and climb exit ladder at (25, 14).
 
 ## Topology Facts:
-- Southwest Basin (cols 1-11, rows 12-15): Fully enclosed by solid rock walls on east (Column 12 across rows 12-15). Contains defeated Cooltrainers (5, 14) and (7, 13).
-- Lower Central Cavern (cols 12-17, rows 6-11): Enclosed by Column 11 wall on west and Row 12 wall on south with Boulder 3 at (13, 12).
-- Eastern Alcove (cols 27-28, rows 1-5): Dead-ends at row 6 light blue rock wall; contains Advice NPC at (28, 5).
-- Ladder at (23, 7): Direct 4-step access from (20, 8) leading down to 2F Row 11.
+- Column 9 Trench on 2F: Boulder 2 at (9, 11) is trapped between walls (9, 10), (8, 11), and (10, 11). Switch Plate B at (9, 16) cannot be activated from this floor.
+- Exit Ladder (25, 14): Blocked by raised Barrier (23, 14). Plateau accessed via wooden staircase at (21, 15).
+- Eastern Vertical Highway (cols 28-29): Connects Row 16 lower corridor up to Row 11.

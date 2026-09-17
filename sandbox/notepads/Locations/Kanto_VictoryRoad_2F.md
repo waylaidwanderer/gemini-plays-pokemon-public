@@ -29,7 +29,6 @@
 - Row 10 Eastern Barrier: Continuous solid rock wall/pillars across columns 24-28 separating row 11 from the eastern ladder chamber (solid walls verified at (24, 10), (25, 10), (26, 10), (27, 10), and (28, 10)). Direct northern entry from row 11 into the ladder chamber is completely blocked.
 - Row 12 Rock Barrier: Continuous solid rock wall across rows 12-13 separating upper and lower corridors (south movement blocked from (22, 11) into (22, 12) empirically confirmed Turn 16274).
 - Wall at (11, 9): Solid rock wall directly west of (12, 9) [Empirically verified Turn 16153].
-- Wall at (8, 2): Solid rock wall directly west of (9, 2) [Empirically verified Turn 16168].
 - Wall at (11, 10): Solid rock wall directly west of (12, 10) [Empirically verified Turn 16152].
 - Wall at (27, 6): Confirmed solid rock wall directly south of (27, 5) with Switch Plate A depressed [Tested Turns 16136, 17234, 17487].
 - Wall at (28, 6): Solid rock wall directly south of (28, 5) [Empirically verified Turn 16578; northern access to eastern ladder chamber completely blocked across Row 6].
@@ -40,7 +39,6 @@
 - Column 29 Rock Barrier: Solid rock walls at (29, 9) and (29, 10) block northern access into row 7-8 from row 11 [Empirically verified Turn 19318].
 - Tile (23, 9): Confirmed 100% open dark checkerboard floor connecting Row 11 directly north to ladder at (23, 7) [Empirically verified Turn 21567; prior Turn 17781 note was completely erroneous].
 - Tile (7, 10): Solid obstacle / elevation boundary blocking westward passage from (8, 10) [Empirically verified Turn 17721].
-- Wall at (24, 10): Empirically verified solid rock wall from (23, 10) facing East [Tested Turn 17759; 2 buttons pressed, 1 tile visited, halted at (23, 10)].
 - Elevation Boundary (Row 11/12): Physical bump test from (23, 11) into (23, 12) confirmed impassable elevation cliff / wall from the north [Tested Turn 17758].
 - Wall at (22, 13): Solid rock wall blocking northern passage from (22, 14) into column 22 across row 12-13 [Empirically verified Turns 17115, 17124; visual floor texture seen at Turn 17665 does not override physical collision].
 - Row 11 Elevation Boundary: Southern passage from row 11 into row 12 is blocked by impassable cliff wall across cols 23-27 (confirmed at (26, 11) Turn 16014, (25, 11) Turn 16015, and (27, 11) Turn 16306).
