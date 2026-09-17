@@ -190,20 +190,20 @@
   3. POKé FLUTE
   4. SUPER ROD
   5. FULL RESTORE x1
-  7. REVIVE x5
-  8. FULL HEAL x5
-  9. MASTER BALL x1
-  10. MOON STONE x1
-  11. ESCAPE ROPE x1
-  12. CARBOS x1
-  13. TM14 (BLIZZARD) x1
-  14. TM22 (SOLARBEAM) x1
-  15. SECRET KEY x1
-  16. TM38 (FIRE BLAST) x1
-  17. TM27 (FISSURE) x1
-  18. TM43 (SKY ATTACK) x1
-  19. MAX REVIVE x1
-  20. TM17 (SUBMISSION) x1
+  6. REVIVE x5
+  7. FULL HEAL x5
+  8. MASTER BALL x1
+  9. MOON STONE x1
+  10. ESCAPE ROPE x1
+  11. CARBOS x1
+  12. TM14 (BLIZZARD) x1
+  13. TM22 (SOLARBEAM) x1
+  14. SECRET KEY x1
+  15. TM38 (FIRE BLAST) x1
+  16. TM27 (FISSURE) x1
+  17. TM43 (SKY ATTACK) x1
+  18. MAX REVIVE x1
+  19. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -3828,10 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Victory Road Master Roadmap (Turn 22711)
 
 ## Current Status:
-- Floor: Victory Road 2F
-- Position: (23, 7) on Ladder tile
-- Strength: Inactive (reset upon floor transition)
-- Active Objectives: Systematically resolve 2F and 3F navigation without looping.
+- Floor: Victory Road 3F
+- Position: (14, 1) on Northern Highway
+- Strength: Active (cast by Geodude ROCKY on 3F)
+- Boulder 1: Actively depressing Switch Plate (3, 5), lowering Barrier Block (7, 10)
+- Active Objectives: Systematically resolve 3F navigation and access to eastern pit hole without looping.
 
 ## Disproven Assumptions & Ground Truths:
 1. Ladder (27, 7) on 2F / Ladder (26, 8) on 3F is an isolated chamber sealed on all 4 sides on 2F (Row 6 rock wall verified Turn 22709, Row 10 rock wall, Col 24 rock wall, Col 29 rock wall). It cannot be entered from ground on 2F.
@@ -3989,7 +3990,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
 - Southern Corridor: Rows 13-15 across columns 14-23 sighted visually from (20, 11) as dark cavern floor leading toward pit hole (23, 15) [Physical traversal unverified].
-- Boulder 3 Audit: Located at (13, 12). Pushed south into (13, 13) [Turn 22527]; confirmed blocked by (13, 14) rock wall and does not grant entry to Row 13.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
 - Wooden Staircase at (17, 5): Connects lower floor at (17, 6) up to elevated terrace at (17, 4) [Visually confirmed Turn 20486].
