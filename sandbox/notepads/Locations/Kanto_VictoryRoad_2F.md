@@ -91,8 +91,7 @@
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
 
-## Dynamic Entities Current State
-- Western Boulder at (5, 3): Pushed North from (5, 5) into (5, 4) and then (5, 3) on Turns 20298-20300. Blocks row 3 access from doorway (5, 4).
+
 
 ## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
 - Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).

@@ -15,7 +15,7 @@
    - Pit Hole located at (23, 15) directly east of the boulder.
    - Columns 22-23 form an open corridor connecting Row 10 down to Row 15.
 
-3. **Active Mission**:
-   - Depress Switch Plate (3, 5) with Boulder 1.
-   - Navigate via staircase (1, 9) and Row 10 through lowered Barrier (7, 10).
-   - Thoroughly audit Southwest Basin southern boundary (Rows 15-16) to find the connection eastward into the pit room.
+3. **Active Mission & Hypotheses**:
+   - Switch Plate (3, 5) depressed by Boulder 1 [Turn 22577], Barrier (7, 10) confirmed lowered.
+   - Position: (6, 6) on Main Avenue, advancing south to (7, 10) and (7, 11).
+   - Hypothesis to test: Investigate whether Southwest Basin southern boundaries (Rows 15-16) connect eastward beneath Column 12 rock wall toward pit room (23, 15).
