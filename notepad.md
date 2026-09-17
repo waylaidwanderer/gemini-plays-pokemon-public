@@ -3826,7 +3826,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Strategic Routing Hypothesis & Master Plan
 1. **Boulder 1 -> Switch (3, 5):**
-   - Boulder 1 is currently at (19, 1) on Row 1 Northern Highway.
    - Push Boulder 1 west to (6, 1), south to (6, 2), west to (2, 2), south down Column 2 to (2, 5), and east onto Switch Plate at (3, 5).
    - Depressing Switch (3, 5) lowers Barrier Block at (7, 10).
 
@@ -3835,7 +3834,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Descend wooden staircase at (1, 9) into Southern Basin (rows 12-15).
 
 3. **Traverse Southern Basin East to Boulder 2:**
-   - Walk east across the continuous Southern Basin (rows 13-15) from col 1 all the way past col 20 to (21, 13) and (22, 13).
+   - Audit passage east from Southwest Basin or investigate central floor row 12 passage (cols 13-15) to access row 13 and Boulder 2.
    - Ascend north through columns 22-23 (rows 10-13) to (23, 10).
 
 4. **Boulder 2 -> Chute & Pit Hole:**
