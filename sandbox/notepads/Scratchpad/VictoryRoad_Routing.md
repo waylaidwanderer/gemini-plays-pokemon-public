@@ -1,7 +1,7 @@
 # Victory Road Master Roadmap (Turn 21994)
 
 ## Current Player Status:
-- Position: (10, 10) facing North on Victory Road 3F terrace corridor.
+- Position: (21, 6) facing East on Victory Road 3F eastern sector.
 - Active Field Move: HM04 Strength ACTIVE on 3F [Cast Turn 21807].
 - Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Barrier Block (7, 10): LOWERED and passable [Empirically verified Turn 20715, 21988].
