@@ -1,29 +1,24 @@
-# Victory Road Master Solution & Routing (Turn 23057)
+# Victory Road Working Scratchpad (Turn 23071)
 
-## Complete Verified Solution:
-1. The Southern Highway (rows 13-15 across cols 14-23) contains the Pit Hole at (23, 15) and Boulder at (22, 15).
-2. The central floor is blocked north of row 13 by the continuous Row 12 rock wall (cols 14-21) and the Boulder 3 trap at (13, 12).
-3. The ONLY entrance to the Southern Highway is via the elevated platform from Wooden Staircase (1, 9) in the southwest chamber.
-4. Access to the southwest chamber and Staircase (1, 9) REQUIRES lowering Barrier Block (7, 10).
-5. Lowering Barrier Block (7, 10) REQUIRES pushing Boulder 1 from (22, 3) onto Switch Plate (3, 5).
+## Current Status:
+- Floor: Victory Road 3F at (20, 7)
+- Battle Status: Fled from wild Zubat ("Got away safely!" on screen)
+- Strength: Inactive on 3F (requires re-cast from party menu)
 
-## Step-by-Step Execution Plan:
-1. Walk to Boulder 1 at (22, 3) via Row 0/1 Northern Highway.
-2. Position at (22, 4) facing Up.
-3. Activate Strength with Geodude (ROCKY).
-4. Push Boulder 1 along the verified route:
-   - North 2 tiles: (22, 3) -> (22, 2) -> (22, 1).
-   - West 16 tiles along Row 1: (22, 1) -> (6, 1).
-   - South 1 tile: (6, 1) -> (6, 2).
-   - West 4 tiles along Row 2: (6, 2) -> (2, 2).
-   - South 3 tiles down Column 2: (2, 2) -> (2, 5).
-   - East 1 tile: (2, 5) onto Switch Plate (3, 5)!
-   - Switch depresses -> Barrier Block (7, 10) lowers!
-5. Walk south through lowered Barrier (7, 10) into the southwest chamber.
-6. Ascend Wooden Staircase at (1, 9) onto the elevated platform.
-7. Traverse the platform EAST over the column 12 boundary to the eastern staircase.
-8. Descend staircase into the Southern Highway at rows 13-15.
-9. Walk east to (21, 15) facing East toward Boulder (22, 15).
-10. Push Boulder (22, 15) Right into Pit Hole (23, 15).
-11. Jump down Pit Hole (23, 15) to 2F.
-12. On 2F, the depressed switch lowers Barrier (23, 14). Walk to Exit Ladder at (25, 14) and climb to Indigo Plateau!
+## Confirmed Physical Facts:
+1. 2F Exit Ladder is at (25, 14), obstructed by raised Barrier Block (23, 14).
+2. 3F contains a Pit Hole at (23, 15) and an Orange Boulder at (22, 15) [Direct visual verification Turn 23046].
+3. 3F Southern Highway (rows 13-15 across cols 14-23) leads directly to the Boulder (22, 15) and Pit Hole (23, 15).
+4. 3F Row 12 has a rock wall spanning cols 14-21 separating Row 11 from Row 13.
+5. 3F Boulder 3 is located at (13, 12), flanked by rock walls at (12, 12) and (14, 12), with dark floor at (13, 11) and (13, 13).
+6. 3F Southwest Basin (cols 1-11, rows 12-16) behind Barrier (7, 10) was found blocked on the east by solid rock at Column 12 (rows 12-16) [Turns 21966-21971].
+7. 2F Column 14 is a solid rock wall across rows 0-5, blocking eastward traversal along Rows 0-1 [Turn 22996].
+
+## Active Hypotheses:
+- Hypothesis 1 (Boulder 3 Passage): Can Boulder 3 at (13, 12) be manipulated (e.g. pushed south, or pushed from a different angle) to permit traversal into rows 13-15?
+- Hypothesis 2 (Staircase 1, 9 Exploration): Does the elevated terrace accessed via Staircase (1, 9) in the southwest contain an unverified connection?
+- Hypothesis 3 (Ladder 26, 8 Access): Does an unverified connection to the eastern chamber (cols 25-26, rows 7-15) exist?
+
+## Immediate Plan:
+1. Dismiss "Got away safely!" textbox with B.
+2. Conduct direct empirical investigation of access into the Southern Highway.

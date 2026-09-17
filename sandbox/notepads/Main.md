@@ -147,4 +147,3 @@
 - [x] Activate Strength with Geodude (ROCKY) on Victory Road 1F [Turn 15364]
 - [x] Push Boulder 1 onto switch plate at (17, 13) and lower plateau barrier at (9, 12) [Turns 15463-15465]
 - [x] Clear Victory Road 2F and ascend northwestern ladder to Victory Road 3F [Turn 19426]
-- [x] Push Boulder 1 onto Switch Plate (3, 5) on Victory Road 3F, lowering Barrier Block (7, 10) [Turn 22325]
