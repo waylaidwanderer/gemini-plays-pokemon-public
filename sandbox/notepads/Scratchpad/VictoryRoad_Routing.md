@@ -12,12 +12,8 @@
 9. 3F (7, 10) is normal floor in a dead-end terrace corridor terminating at (5, 10) rock wall. Row 11 is solid rock wall across cols 4-11. Southwest Basin is a dead end [Verified Turns 23288-23291].
 
 ## Active Plan: Eastern Sector Boundary Audit & Progression
-1. Return east from (13, 11) to Column 20 corridor at (20, 10).
-2. Methodically test boundaries into eastern sector:
-   - Test Column 20 / Column 21 at row 6, 7, 8.
+1. Methodically test boundaries into eastern sector on 3F:
    - Test passage around Ladder (23, 7) via Column 22 (22, 6..8) and test east into (23, 8), (24, 8), (25, 8).
    - If 3F ground access to Columns 22-25 is completely sealed by walls at rows 6-9, descend Ladder (23, 7) to 2F.
    - On 2F, systematically test the eastern passage into Northeast Ladder (27, 7) chamber to cross-floor into 3F (26, 8).
-3. Reach Boulder 2 at (24, 10), push into Pit Hole at (23, 15), jump into hole to 2F (23, 15), and exit via Ladder (25, 14)!
-
-- Turn 23337 Audit: 2F Ladder (27, 7) is sealed on all sides on 2F (Row 6 wall north, Row 10 wall south, Col 24 wall west, Col 29 wall east). It cannot be reached from 2F ground. Therefore, the progression route is strictly on 3F! Returning to 3F via Ladder (23, 7).
+2. Reach Boulder 2 at (24, 10), push into Pit Hole at (23, 15), jump into hole to 2F (23, 15), and exit via Ladder (25, 14)!
