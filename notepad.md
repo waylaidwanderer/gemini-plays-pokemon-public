@@ -183,14 +183,13 @@
 - SUPER ROD [Obtained Turn 7001, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 20 / 20
+- Total Slots Used: 19 / 20
 - Complete Top-to-Bottom Slot Order:
   1. HM01
   2. BICYCLE
   3. POKé FLUTE
   4. SUPER ROD
   5. FULL RESTORE x1
-  6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x5
   9. MASTER BALL x1
