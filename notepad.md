@@ -3839,8 +3839,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 8. 2F Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3).
 
 ## Immediate Progress:
-- Boulder 1 pushed onto Switch Plate (3, 5) [Turn 23249, verified Turn 23250-23264]. Switch (3, 5) is depressed and Barrier Block (7, 10) is lowered.
-- Next: Navigate east along Row 2 to (6, 2), north to Northern Highway (6, 0), east to Column 17, and south to ascend Wooden Staircase (17, 5).
+- Empirical Audit [Turn 23288-23291]: (7, 10) is NOT a barrier block; it is a normal floor tile in a dead-end terrace corridor terminating at (5, 10) rock wall. Row 11 is 100% solid rock wall. Southwest Basin (rows 12-16) is completely sealed off to the east by Column 12 rock walls. The Southwest Basin is a complete dead end.
+- True Master Route:
+  1. Return east along row 10 to (10, 10), north to (10, 4), east along row 4 to (17, 4).
+  2. Descend staircase at (17, 5) to lower floor at (17, 6).
+  3. Head east along row 6 to (20, 6) / (23, 6).
+  4. Access eastern corridor (cols 22-24, rows 10-15) containing Boulder 2 at (24, 10) and Pit Hole at (23, 15).
+  5. Push Boulder 2 into Pit Hole at (23, 15) and jump down hole to 2F.
+  6. On 2F, lowered Barrier Block (23, 14) unlocks Exit Ladder at (25, 14) to Indigo Plateau!
 
 
 <hr>
