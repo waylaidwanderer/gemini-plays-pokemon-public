@@ -4021,5 +4021,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (23, 9): Empirically verified solid rock wall from (23, 8) facing South with 0 movement delta [Turn 21370].
 - Tile (22, 9): Empirically verified solid rock wall from (22, 8) facing South with 0 movement delta [Turn 21493].
 
+- Northeast Alcove Barrier: Continuous solid rock wall along row 6 across cols 24-29 completely encloses the northeast alcove (cols 26-28, rows 0-5); southern progression past Advice NPC (28, 5) is impossible [Empirically verified Turn 21855 via visual inspection of CurrentScreen].
 
 <hr>
