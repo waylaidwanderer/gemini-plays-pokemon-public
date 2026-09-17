@@ -1,37 +1,23 @@
-# Victory Road Master Roadmap (Turn 22051)
+# Victory Road Master Roadmap (Turn 22106)
+
+## Master Puzzle Architecture & Verified Solution:
+1. **3F Eastern Wing Isolation**:
+   - Visual inspection on Turn 22103 confirmed that Row 6 across Columns 24-28 is a 100% continuous solid rock wall.
+   - 3F rows 7-15 across columns 24-28 (containing Boulder 2 at 24,10, Column 25, and the Boulder/Pit Hole puzzle at 22..23,15) has NO ground entrance from 3F.
+   - Entrance to this sealed wing is strictly via the Northeast Ladder from 2F!
+2. **Master Routing Plan**:
+   - Step 1: Descend Ladder (23, 7) from 3F to 2F.
+   - Step 2: On 2F, navigate to the Northeast Ladder at (27, 7).
+   - Step 3: Ascend Northeast Ladder to 3F, arriving inside the sealed eastern wing (cols 25-28, rows 7-9).
+   - Step 4: Cast Strength with Geodude (ROCKY).
+   - Step 5: Walk south down Column 25 to (25, 10).
+   - Step 6: Push Boulder 2 at (24, 10) West into (23, 10), unlocking Columns 22-23.
+   - Step 7: Walk south down Columns 22-23 to row 15. Stand at (21, 15) facing East.
+   - Step 8: Push Boulder (22, 15) East into Pit Hole (23, 15).
+   - Step 9: Jump down the Pit Hole at (23, 15) to 2F.
+   - Step 10: Land on 2F exit ledge, push fallen boulder onto switch, lowering barrier at (23, 14).
+   - Step 11: Ascend exit ladder at (25, 14) to Route 23 North / Indigo Plateau!
 
 ## Current Player Status:
-- Position: (20, 11) facing East on Victory Road 3F central lower cavern.
-- Turn 22067 Visual & Physical Proof on Boulder 3:
-  - Boulder 3 pushed to (13, 13). Directly south is (13, 14) solid rock wall; west is (12, 13) solid rock wall.
-  - From (13, 12), west (12, 12) and east (14, 12) are solid rock walls. Column 13 chute is definitively impassable to Row 13.
-  - CONCLUSION: The southern puzzle corridor (Rows 13-15, containing Boulder 22,15 and Hole 23,15) CANNOT be entered from the west.
-  - Active Strategy: Take Ladder (23, 7) to 2F to navigate the eastern ladder network connecting to 3F (26, 8) and access the puzzle.
-- Ground-Truth Puzzle Sighting (Turn 22060/22063):
-  - BOULDER visually confirmed at (22, 15)!
-  - PIT HOLE visually confirmed at (23, 15)!
-  - Push vector: Standing at (21, 15) facing East pushes Boulder (22, 15) into Hole (23, 15)!
-  - Rows 13-15 are open dark floor leading to (21, 15).
-  - (21, 10) and (21, 11) bump-tested and confirmed 100% solid rock wall from west (Turns 22059-22060).
-- Visual Audit of Eastern Sector (Turn 22027):
-  - (21, 8) is a 1-tile dead-end alcove (blocked E by 22,8; S by 21,9; W by 20,8). Only exit is North to (21, 7).
-  - Boulder 2 confirmed at (24, 10), bounded N (24, 9), S (24, 11), E (25, 10) by solid rock. Open floor to west at (22..23, 10).
-  - Columns 22-23 (rows 10-12) is an open 2-tile wide corridor extending south into row 13.
-  - Columns 25-26 (rows 11-12) is open dark floor extending south into row 13.
-  - Ladder (26, 8) is situated in cols 25-26 corridor (rows 7-9).
-  - Columns 20-25 across rows 2-5 is a wide open northern expanse connecting to the Northern Highway.
-- Active Field Move: HM04 Strength ACTIVE on 3F [Cast Turn 21807].
-- Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
-- Barrier Block (7, 10): LOWERED and passable [Empirically verified Turn 20715, 21988].
-- Party Status: Blastoise (SHELDON) Lv 66 - HP 101/209. PP: Body Slam 0/15, Ice Beam 1/10, Surf 4/15, Double-Edge 6/15.
-- Combat Policy: Flee immediately from all wild encounters to conserve PP and HP.
-
-## Strategic Roadmap & Priorities:
-1. **Southwest Basin (Hypothesis A)**: [RESOLVED & DISPROVEN Turn 21971]
-   - Column 12 (rows 12-15) bump-tested; 100% solid rock. Southwest Basin is fully explored and contains no further exits.
-2. **Central Chute / Boulder 3 (Hypothesis B)**: [RESOLVED & ABANDONED]
-   - Boulder 3 at (13, 12) in chute was already proven on Turns 20630 & 20930-20939 to block northern entry into row 13 when pushed south. No untested push vectors remain. Ceasing wasted turns here.
-3. **Eastern Pit Hole & Exit Mechanism (Hypothesis C)**: [ACTIVE TOP PRIORITY]
-   - The retail Gen 1 Victory Road puzzle requires pushing a boulder into a hole on 3F so it falls to 2F, then jumping down the hole, pushing the fallen boulder onto a switch plate on 2F, and ascending the unlocked exit ladder to Route 23 North / Indigo Plateau.
-   - Objective: Navigate via row 4 / northern highway to the eastern sector (cols 23-28).
-   - Locate the pit hole and determine the access path to Boulder 2 at (24, 10).
+- Position: (23, 3) facing East on Victory Road 3F.
+- Active Goal: Step Down 4 times to descend Ladder (23, 7) to 2F.
