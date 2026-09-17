@@ -3840,7 +3840,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Current Player Status:
 - Position: (1, 5) on Victory Road 3F.
-- Active Task: Pushing Boulder 1 from (2, 5) East onto Switch Plate (3, 5).
+- Active Task: Boulder 1 successfully depressed Switch Plate (3, 5) [Turn 22325]! Barrier (7, 10) lowered. Navigating to (7, 10) to access southern section.
 
 
 <hr>
