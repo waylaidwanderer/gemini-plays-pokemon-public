@@ -8,6 +8,7 @@
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South and connects south through doorway (5, 4) to western sector. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
+- Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 1-3 form an open east-west thoroughfare across columns 16-28+, completely bypassing the Row 4 rock wall (cols 18-24).
 - Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
 - Tile (21, 11): Impassable elevation cliff / wall from (20, 11) facing East [Tested Turn 20392].
 - Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
