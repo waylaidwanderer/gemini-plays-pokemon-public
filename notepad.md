@@ -4006,6 +4006,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Column 25 Barrier: Tiles (25, 4), (25, 5), and (25, 6) are confirmed solid rock walls; northern access into Column 25 from Row 3 is completely blocked [Visually verified Turn 22546].
 - Tile (14, 12): Empirically verified solid rock wall from (14, 11) facing South with 0 movement delta [Turn 22536].
 - Tile (15, 12): Empirically verified solid rock wall from (15, 11) facing South with 0 movement delta [Turn 22536].
 - Tile (16, 12): Empirically verified solid rock wall from (16, 11) facing South with 0 movement delta [Turn 22541].
