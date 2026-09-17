@@ -7,11 +7,11 @@
 ## Verified Landmarks & Topology (2F)
 1. **Ladder B**: Located at (22, 6) <-> 1F (23, 7). Spawns facing south.
 2. **Ladder C**: Located at (19, 7) <-> 1F (18, 9).
-3. **Ladder D**: Located at (29, 1) <-> 1F (27, 1). Located at east end of Row 1 Northern Highway.
+3. **Ladder D**: Located at (29, 1) <-> 1F (27, 1). Located in isolated northeast alcove.
 4. **Ladder E**: Located at (7, 1) <-> 1F (7, 1) in northwest sector.
 5. **Southwest Ladder**: (3, 11) <-> 1F (3, 11).
 6. **Ladder A (to B1F)**: Descending ladder to B1F located in western sector near (1, 3).
 
-## Verified Traversable Routes on 2F
-- **Eastern Corridor to Row 1 Highway**: From Ladder B (22, 6), traverse south via (22, 7) -> (23, 7) -> (23, 11) -> (19, 11) -> (14, 11..13) -> Row 15 (15..24, 15) -> Row 17 (21..27, 17) -> Column 29 (29, 14..3) -> (28, 3) -> (28, 2) -> (28, 1) [Row 1 Northern Highway].
-- **Row 1 Northern Highway**: Spans continuously west across Row 1 from Ladder D (29, 1) and (28, 1) through columns 24..1 towards western sector and Ladder A (1, 3).
+## Verified Sector Isolation (Empirical Proof Turn 52882)
+- **East Sector (Ladder D / Ladder B / Ladder C)**: Isolated from western sectors by solid rock walls (e.g. columns 23-27 on rows 0-3 are solid rock; row 9 at (22, 9) is rock; column 19 is rock). There is no continuous Row 1 passage to western sector.
+- **Descending to B1F (Mewtwo)**: Must be accessed via SW Ladder (3, 11) from 1F into the 2F Southwest Sector, which connects north to Ladder A (1, 3).
