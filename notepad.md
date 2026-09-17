@@ -3825,27 +3825,30 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22622)
+# Victory Road Master Roadmap (Turn 22682)
 
 ## Current Status:
-- Floor: Victory Road 3F
-- Position: (6, 10) on Elevated Terrace
-- Strength: ACTIVATED on 3F
-- Southwest Basin Status: Thoroughly mapped and confirmed as an isolated dead-end pocket across 3 separate cycles. It does NOT connect to the exit.
+- Floor: Victory Road 2F
+- Position: (21, 15) on Wooden Staircase (in battle with wild Zubat)
+- Eastern Plateau Barrier (23, 14) and Exit Ladder (25, 14) directly visually confirmed on 2F.
 
-## True Milestone to Exit Victory Road:
-- The exit progression requires pushing the Orange Boulder at (22, 15) into the Pit Hole at (23, 15) on 3F.
-- Falling through the hole lands on 2F right beside the fallen boulder.
-- Pushing the fallen boulder onto the 2F switch lowers the final 2F barrier, granting access to the exit ladder to Route 23 / Indigo Plateau.
+## Refuted Hypotheses & Dead Ends:
+- Southwest Basin on 3F: Thoroughly mapped across 3 cycles; confirmed isolated dead-end pocket.
+- Boulder 3 at (13, 12) on 3F: Confirmed one-way exit from Southern Corridor; pushing south blocks (13, 13) dead end.
+- Boulder 2 at (9, 11) on 2F: Confirmed immovable; cannot reach Switch Plate B at (9, 16).
+- Ladder (27, 7) on 2F / Ladder (26, 8) on 3F: Chamber on 2F is sealed by rock walls on all 4 sides; no ground access from 2F.
 
-## Active Routing Path to Eastern Sector (22, 15):
-1. Reverse across Row 10 terrace from (6, 10) east to (10, 10) [4 steps Right].
-2. North up Column 10 to (10, 4) [6 steps Up].
-3. East along Row 4 terrace to staircase at (17, 4) [7 steps Right].
-4. Descend staircase at (17, 5) to (17, 6) [2 steps Down].
-5. Travel east through (20, 6) to the Eastern Sector ladder/corridor (Columns 22-23).
-6. Navigate south along Columns 22-23 to Boulder (22, 15) and Pit Hole (23, 15).
-7. Push Boulder (22, 15) into Hole (23, 15) and jump down!
+## Primary Route to Exit:
+1. Flee wild Zubat at (21, 15).
+2. Retrace via Row 16, Column 28, and Row 11 to ladder (23, 7) on 2F.
+3. Ascend ladder (23, 7) to 3F.
+4. Activate Strength on 3F via party menu (Geodude).
+5. Methodically test ground access to Columns 22-25 on 3F:
+   - Test eastward transition from (20, 10)/(20, 11) into Columns 22-23.
+   - Test northern entry into Columns 24-25 from Northern Highway (Row 1).
+   - Test interaction with Boulder 2 at (24, 10).
+6. Once at (22, 15) on 3F: push orange boulder into pit hole at (23, 15) and jump down to 2F.
+7. Push fallen boulder on 2F to lower Barrier Block (23, 14), ascend ladder (25, 14), and exit Victory Road!
 
 
 <hr>
@@ -3978,7 +3981,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase at (1, 9): Sighted in southwest chamber; connects row 8 to row 10 [Traversed Turn 20741].
 - Eastern Sector Landmarks: Verified Pit Hole at (23, 15) and Orange Boulder at (22, 15) [Turn 22508]. Columns 22-23 form an open corridor from row 10 to row 15 leading directly to the pit hole.
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
-- Southern Corridor: Rows 13-15 across columns 14-23 verified open floor connecting to pit hole at (23, 15).
+- Southern Corridor: Rows 13-15 across columns 14-23 sighted visually from (20, 11) as dark cavern floor leading toward pit hole (23, 15) [Physical traversal unverified].
 - Boulder 3 Audit: Located at (13, 12). Pushed south into (13, 13) [Turn 22527]; confirmed blocked by (13, 14) rock wall and does not grant entry to Row 13.
 - Column 11 Rock Wall: Continuous rock wall from row 6 to row 11 separating central floor from cols 9-10 terrace.
 - Row 5 Rock Wall: Continuous rock wall along row 5 across columns 11-16 separating lower floor (rows 6-11) from upper terrace (row 4).
