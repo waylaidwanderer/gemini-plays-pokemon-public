@@ -48,7 +48,7 @@
 - Western Corridor: Col 0 runs from row 7 to row 9, blocked at (0, 10) by solid rock wall; passage south continues via Western Highway (cols 2-3).
 - Western Highway: Columns 2-3 (rows 6-10) is a fully open north-south passage connecting row 6 to the southern corridor (row 11), completely bypassing the (0, 8) ladder to 1F.
 - Checkerboard Terrain: Directly passable on foot from row 5 [Empirically verified Turn 15540 at (3, 6)]; connects western corridor seamlessly southward across rows 6-10.
-- Barrier Block at (23, 14): Empirically verified 100% solid and raised across 6 independent physical bump tests (Turns 16937, 17111, 17191, 17399, 17953, 18171). Confirmed on Turn 18171 with Boulder 3 actively depressing Switch Plate A on the same floor visit: Switch Plate A does NOT lower this barrier.
+- Barrier Block at (23, 14): Solid raised barrier block obstructing access to Eastern Ladder (25, 14). Lowered by dropping boulder from 3F pit hole (23, 15) onto 2F switch plate.
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
 - Row 4 Barrier: Confirmed continuous solid rock wall across row 4 from col 0 to col 8 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629). Northwest Chamber cannot be entered from south.
@@ -90,10 +90,3 @@
 - Zubat (observed Turn 15633).
 - Onix (observed Turn 15658).
 - Golbat (observed Turn 16199).
-
-
-
-## Doorway (5, 4) Collision Proof (Turns 19918, 19958)
-- Tile (7, 4): Confirmed solid rock wall (bump test Turn 20057 from (7, 5) facing North).
-- Tile (6, 4): Confirmed solid rock wall (bump test Turn 19958).
-- Conclusion: When Western Boulder is at (5, 3), doorway (5, 4) is a completely sealed dead end from the south. Doorway (5, 4) functions as an exit from the Northwest Chamber (southbound), not an entrance.
