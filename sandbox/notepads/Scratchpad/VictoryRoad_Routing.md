@@ -25,6 +25,6 @@
 
 ## Current Status:
 - Player position: (1, 5) facing East.
-- Boulder 1: At (2, 5) facing Switch Plate (3, 5).
+- Boulder 1: At (3, 5) depressing Switch Plate (3, 5) [Depressed Turn 21903].
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
