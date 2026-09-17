@@ -3827,24 +3827,26 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/VictoryRoad_Routing</code></h1>
 
-# Victory Road Master Roadmap (Turn 22501)
+# Victory Road Master Roadmap (Turn 22509)
 
 ## Current Floor & Entity Status:
 - Floor: Victory Road 3F
-- Position: (23, 7)
+- Position: (19, 11)
 - HM04 Strength: ACTIVATED on 3F (cast Turn 22501 from Rocky).
 
-## Empirical Telemetry & Puzzle Audits:
-1. **Floor Transition Reset (Turn 22499)**:
-   - Ascended from 2F to 3F via Ladder (23, 7).
-   - Dynamic objects reset: Boulder 1 is at default position (22, 3); Switch (3, 5) is unoccupied; Barrier (7, 10) is currently raised.
+## Major Discovery - The Hole and Boulder Puzzle:
+1. **Boulder & Hole Sighted at (22, 15) and (23, 15)**:
+   - Orange Boulder located at (22, 15).
+   - Pit Hole located at (23, 15) directly east of the boulder.
+   - Pushing the boulder 1 tile East from (21, 15) drops it into the hole at (23, 15)!
+   - Jumping into the hole at (23, 15) drops the player to 2F.
 
-2. **Eastern Sector & Boulder 2 Investigation**:
-   - Player arrived on 3F at (23, 7) in the eastern sector.
-   - Boulder 2 is visible at (24, 10).
-   - Northeast Ladder 2 is visible at (26, 8).
-   - Priority investigation: Test direct routing and reachability of Boulder 2 at (24, 10), the surrounding chasm/corridors, and determine if a hole exists in this eastern sector.
-   - Do NOT assume a detour through Barrier (7, 10) and Southwest Basin is required until eastern pathways from (23, 7) / Column 20 / Northern Highway have been rigorously mapped.
+2. **Corridor Architecture**:
+   - Southern plaza spans rows 13-15 across columns 15-23 (completely open floor).
+   - Row 12 contains a rock wall divider across columns 15-21.
+   - Columns 22-23 form an open corridor running north from (22..23, 15) to (22..23, 10).
+   - Boulder 2 is at (24, 10), blocking the gap into the Ladder (26, 8) chamber.
+   - Currently scouting west along Row 11 (from 19, 11 to 15, 11 and beyond) to locate the connection into Row 13.
 
 <hr>
 
