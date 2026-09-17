@@ -1,6 +1,6 @@
 # Victory Road Master Roadmap (Turn 21864)
 
-## Proven Macro Solution & Topography
+## Strategic Routing Hypothesis & Master Plan
 1. **Boulder 1 -> Switch (3, 5):**
    - Boulder 1 is currently at (19, 1) on Row 1 Northern Highway.
    - Push Boulder 1 west to (6, 1), south to (6, 2), west to (2, 2), south down Column 2 to (2, 5), and east onto Switch Plate at (3, 5).
@@ -25,7 +25,7 @@
    - Ascend exit ladder at (25, 14) out of Victory Road to Indigo Plateau!
 
 ## Current Status:
-- Player position: (18, 1) facing West.
-- Boulder 1: At (16, 1) on Row 1 Northern Highway.
+- Player position: (16, 1) facing West.
+- Boulder 1: At (14, 1) on Row 1 Northern Highway.
 - Boulder 2: At (24, 10) [verified visually Turn 21864].
 - HM04 Strength: ACTIVE on 3F [Cast Turn 21807].
