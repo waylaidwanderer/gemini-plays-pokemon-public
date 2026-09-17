@@ -4000,6 +4000,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Venomoth (observed Turns 20837, 20853)
 
 ## Negative Collision Telemetry
+- Tile (0, 7): Empirically verified solid rock boundary from (0, 6) facing South with 0 movement delta [Turn 23816].
+- Tile (1, 7): Empirically re-verified impassable northbound cliff boundary from (1, 6) facing South with 0 movement delta [Turn 23814].
+- Tile (6, 7): Empirically verified impassable elevation boundary from (6, 6) facing South with 0 movement delta [Turn 23807].
 - Tile (26, 3): Empirically verified solid blue rock wall from (25, 3) facing East with 0 movement delta [Turn 23787].
 - Tile (26, 6): Empirically verified solid rock wall from (26, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23734].
 - Tile (27, 6): Empirically verified solid rock wall from (27, 5) facing South with 0 movement delta with Switch (3, 5) actively depressed [Turn 23729].
