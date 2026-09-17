@@ -2,6 +2,11 @@
 
 ## Current Player Status:
 - Position: (20, 11) facing East on Victory Road 3F central lower cavern.
+- Turn 22067 Visual & Physical Proof on Boulder 3:
+  - Boulder 3 pushed to (13, 13). Directly south is (13, 14) solid rock wall; west is (12, 13) solid rock wall.
+  - From (13, 12), west (12, 12) and east (14, 12) are solid rock walls. Column 13 chute is definitively impassable to Row 13.
+  - CONCLUSION: The southern puzzle corridor (Rows 13-15, containing Boulder 22,15 and Hole 23,15) CANNOT be entered from the west.
+  - Active Strategy: Take Ladder (23, 7) to 2F to navigate the eastern ladder network connecting to 3F (26, 8) and access the puzzle.
 - Ground-Truth Puzzle Sighting (Turn 22060/22063):
   - BOULDER visually confirmed at (22, 15)!
   - PIT HOLE visually confirmed at (23, 15)!
