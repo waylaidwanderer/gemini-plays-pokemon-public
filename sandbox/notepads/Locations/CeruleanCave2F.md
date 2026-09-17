@@ -15,7 +15,7 @@
 6. **Southwest Ladder**: Connects from 1F (3, 11) -> 2F SW Sector (cols 0-7, rows 0-5).
 
 ## Verified Collisions & Negative Proofs (2F)
-- Ladder E sector (cols 3..9, rows 0..3) is physically isolated by rock walls: Col 2 (rows 1-4) solid rock, Row 4 (cols 3-7) solid rock.
+- Ladder E connection: Open passage connects west from Ladder E arrival (9, 1) across row 3/5 directly to Ladder A at (1, 3) and B1F!
 - Ladder D sector (29, 1) is isolated on eastern ridge.
 - Column 19 Divider: Solid vertical rock divider blocks western passage across rows 0-8 from the Ladder B/C sector (cols 20-25); rock walls verified at (20, 0), (20, 1), and (19, 0..4).
 - Column 13/14 Divider: Solid vertical rock divider blocks western passage across rows 10-14 from the Ladder B/C sector.
