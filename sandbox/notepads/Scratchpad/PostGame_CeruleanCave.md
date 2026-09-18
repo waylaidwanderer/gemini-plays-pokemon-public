@@ -61,3 +61,4 @@
 - Turn 25299: Wild Geodude encountered at (14, 6) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
 - Turn 25302: Wild Geodude Lv 10 in battle at (14, 6). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 - Turn 25304: Fled Geodude cleanly. Player at (14, 6) on foot facing South. Moving south along col 14 between col 12..13 wall and col 18..19 pillar toward row 14..16 crossover.
+- Turn 25307: Player at (14, 12) on foot facing South. Verified col 14 is open to row 16; defeated Youngster is stationed at (12, 16). Dividing wall terminates at row 14/15. Walking Down x5 to (14, 17) to bypass Youngster and enter western corridor at row 17.
