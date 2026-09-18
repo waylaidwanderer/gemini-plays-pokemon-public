@@ -32,3 +32,4 @@
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
+- Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
