@@ -2,7 +2,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x11 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
+- FULL RESTORE x10 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -14,7 +14,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x11
+  2. FULL RESTORE x10
   3. MAX POTION x1
   4. REVIVE x14
   5. FULL HEAL x6
