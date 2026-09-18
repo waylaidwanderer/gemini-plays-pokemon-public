@@ -20,7 +20,7 @@
   6. [Verified] Walk around via (8, 15) to (8, 14), push East along Row 14 to (16, 14). (Note: (17, 14) is confirmed solid purple rock wall).
   7. [Verified] From (16, 14), pushed North into (16, 13), then North into (16, 12) [Turns 23973-23976].
   8. [Verified] Looped via col 14 to (15, 12), pushed East into (17, 12) [Turn 23977].
-  9. [Active Execution] From (15, 12), walk to (17, 11), push South onto Switch Plate at (17, 13) to lower Plateau Barrier Block at (9, 12).
+  9. [Verified] From (15, 12), walked to (17, 11), pushed South onto Switch Plate at (17, 13) [Turn 23980]! Switch Plate depressed, lowering Plateau Barrier Block at (9, 12)!
 - Boulder 2: Located at (2, 10), flanked by rock walls at (1, 10) and (3, 10).
 - Northern Trench: Connected to eastern trench along col 18 (rows 3-8) leading down to stairs at (15, 7).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.

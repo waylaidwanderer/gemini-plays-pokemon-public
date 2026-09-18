@@ -1,9 +1,10 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 23978]:
-- Player is inside Victory Road 1F at (15, 12) on foot with Strength actively enabled.
-- Boulder 1 has been successfully maneuvered onto (17, 12) directly North of Switch Plate 1 at (17, 13).
-- Next immediate step: Walk Up to (15, 11), Right twice to (17, 11), and push South to depress Switch Plate 1 at (17, 13) and lower Plateau Barrier Block at (9, 12).
+## Current Verified State [Turn 23980]:
+- Player is inside Victory Road 1F at (17, 11) on foot with Strength actively enabled.
+- Boulder 1 has been pushed South onto Switch Plate 1 at (17, 13), successfully depressing the switch!
+- Plateau Barrier Block at (9, 12) is now lowered!
+- Next immediate step: Walk west along Row 11/14 to stairs at (5, 13), ascend to plateau (5, 12), cross lowered barrier at (9, 12), and navigate to northwest ladder (1, 1) to ascend to 2F.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
