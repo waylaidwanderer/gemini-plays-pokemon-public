@@ -4137,5 +4137,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25205: Player at (2, 2) facing signpost at (2, 1). Stepping Left to (1, 2) and riding Up x3 into row 0 north exit warp.
 - Turn 25206: Arrived inside Viridian Forest Northern Gatehouse at (4, 7) facing North on red mat. Walking Up x7 along col 4 to exit onto Route 2 North.
 - Turn 25208: Player at (4, 1) facing North. Doorway at (5, 0). Stepping Right to (5, 1) and Up x2 through doorway onto Route 2 North.
+- Turn 25210: Emerged onto Route 2 North at (3, 11) facing North. Opening Start menu -> ITEM to equip Bicycle.
 
 <hr>
