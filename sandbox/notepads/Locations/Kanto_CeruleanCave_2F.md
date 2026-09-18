@@ -14,4 +14,4 @@
 - Row 11 West Corridor (Cols 15..23, Row 11): 1-tile wide horizontal corridor confirmed open from (23, 11) west past (15, 11), with a south branch at (17, 12).
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
 ## Wild Pokémon (Empirically Verified)
-- Dodrio [Encountered 2F Turn 25536]
+- Dodrio: Lv 51 [Encountered 2F Turn 25536]
