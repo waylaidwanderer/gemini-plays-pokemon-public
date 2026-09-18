@@ -69,3 +69,4 @@
 - Turn 24818: Battle menu open on FIGHT facing Haunter Lv 55. Move cursor on Ice Beam (Slot 4). Navigating Up to Surf (Slot 3, PP 3/15) to attack Haunter.
 - Turn 24819: Surf confirmed against Haunter Lv 55. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / Haunter's response.
 - Turn 24820: Surf hit Haunter down to ~15 HP in the red! Agatha burned a Super Potion on Haunter (restored to ~65 HP). Sheldon at 216/216 HP. Advancing text to battle menu to finish Haunter with Surf.
+- Turn 24821: Battle menu open on FIGHT. Haunter at ~65 HP. Move cursor on SURF (Slot 3). Executing Surf to KO Haunter.
