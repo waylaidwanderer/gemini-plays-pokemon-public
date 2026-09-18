@@ -4160,11 +4160,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
 - [x] Cerulean Cave Entry: Entered 1F at (24, 17), pre-swapped Master Ball to Slot 1 [Turns 25505-25510]
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
-- [x] Mapped 2F Column 24 spur (dead-end at (24, 15)) [Turns 25529-25535]
-- [x] Mapped 2F Row 11 corridor west to (14, 11) [Turns 25535-25540]
-- [x] Mapped 2F Row 15 spur (dead-end at (19, 15)) [Turns 25542-25545]
-- [x] Backtracked to Row 11 (14, 11), navigated south branch (17, 11..13) into Row 13 corridor [Turns 25548-25556]
-- [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F Northwest Sector at (16, 5) on foot facing East.
@@ -4208,7 +4203,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
-- Ladder (18, 9): Ascending cave ladder located at (18, 9) on the central-western elevated land terrace. Accessible via Row 9 horizontal corridor. [Physically verified Turn 25648]
 - Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (22, 6).
 - Staircase (17, 15): Wooden staircase sighted at (17, 15) ascending west to upper elevation [Unverified sighting from afar].
 - Staircase (25, 9): Wooden staircase sighted at (25, 9) situated adjacent to the subterranean lake [Unverified sighting from afar].
@@ -4224,7 +4218,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (1, 3): Descending cave ladder located at (1, 3) in far northwest corner pocket. Bounded east by rock wall at (2, 3) and south by rock wall at (1, 4). Physical corridor access: Approached from the west via Column 0 at (0, 3), connected via Column 0 (rows 3..5), Row 5 (cols 0..6), Column 6 (rows 5..7), Row 7, and Column 9. [Physically verified pathway Turn 25743]
+- Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
@@ -4260,5 +4254,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
+- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
+- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
 
 <hr>
