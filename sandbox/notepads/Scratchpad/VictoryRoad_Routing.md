@@ -1,11 +1,10 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24423]:
-- Boulder 1 is at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
-- Barrier Block (7, 10) visually and physically confirmed lowered [Turns 24406, 24420]!
-- Player is on Victory Road 3F at (1, 10) facing South in Southwest Basin.
-- Immediate task: Walk south to Row 16, then east along Row 16 Highway to (21, 16) / (21, 15), push Boulder (22, 15) East into Pit Hole (23, 15), and drop down to 2F!
-- Plateau Barrier on 2F at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
+## Current Verified State [Turn 24434]:
+- Boulder at (22, 15) successfully pushed East into Pit Hole (23, 15) [Turn 24434] and fallen to 2F!
+- Player is on Victory Road 3F at (21, 15) facing East toward the open Pit Hole (23, 15).
+- Immediate task: Step Right x2 into Pit Hole (23, 15) to drop down to 2F at (22, 16) beside the fallen boulder (23, 16)!
+- On 2F: Plateau Barrier at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16). Activate Strength and push fallen boulder west along Row 16 onto Switch Plate B at (9, 16) to lower Exit Barrier at (23, 14)!
 
 ## Active Execution Blueprint:
 1. Victory Road 3F (Switch Activation & Terrace Traversal):
