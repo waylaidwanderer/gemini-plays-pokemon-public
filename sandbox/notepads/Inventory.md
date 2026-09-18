@@ -5,15 +5,13 @@
 - FULL RESTORE x1 [Safari Zone Area 1 Turn 7647; Mansion B1F (1, 22) Turn 14575]
 - REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
-- TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
-- TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
 
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 8 / 20 [Turn 24575]
+- Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (9 items):
   1. POK� FLUTE
   2. FULL RESTORE x1
@@ -25,6 +23,8 @@
   9. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
+- TM43 (SKY ATTACK) x1 (PC) [Stored Turn 24585]
 - TM27 (FISSURE) x1 (PC) [Stored Turn 24575]
 - TM38 (FIRE BLAST) x1 (PC) [Stored Turn 24569]
 - SECRET KEY x1 (PC) [Stored Turn 24565]
