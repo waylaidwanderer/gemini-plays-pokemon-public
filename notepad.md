@@ -4178,10 +4178,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
   - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
   - Actionable Route: Backtrack through Column 13 bypass to Column 12, ascend to Row 9 at (12, 9), traverse west along Row 9 to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
-- Current Location: Cerulean Cave 1F at (10, 17) on foot.
-- Physical Traversal Milestone [Turn 26066]:
-  - Traversed (5, 16) -> (5, 17) -> (10, 17) along Row 17 southern thoroughfare.
-- Active Plan: March east along Row 17 through (11..16, 17) toward Staircase (17, 15) to climb onto the central-western terrace and access the lake at (11, 13).
+- Current Location: Cerulean Cave 1F at (17, 14) on foot (post-ascent of Staircase 17, 15).
+- Physical Traversal Milestone [Turn 26068]:
+  - Traversed Row 17 to (16, 17), stepped Up to (16, 16), Right to (17, 16), and ascended Staircase (17, 15) to Central-Western Terrace at (17, 14).
+  - 2F southwest corridor fully surveyed and exhausted (Ultra Ball acquired).
+- Active Strategy & Frontier:
+  - Climb onto Central-Western Terrace (17, 14), navigate west along Row 14/13 to Staircase (11, 13).
+  - Descend Staircase (11, 13) directly into subterranean lake at (11, 14).
+  - Launch HM03 SURF with Blastoise (SHELDON).
+  - Navigate northwest subterranean waterways of 1F to discover the descent to B1F and encounter Legendary Pok�mon Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4212,7 +4217,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
 - Central-Western Terrace (Cols 11..18, Rows 8..14): Elevated plateau accessed via Staircase (11, 13) or 2F Ladder (19, 7). Contains Ladder (18, 9) leading to 2F. Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12) and (18, 9)]
-- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14) to lower landing (17, 16). [Physically verified access from north Turn 25841]
+- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14) to lower landing (17, 16). Accessed from south via (16, 17) -> (16, 16) -> (17, 16) ((17, 17) is a rock wall). [Physically verified 2-way access Turn 26068]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7. At (8..9, 6..7), turns south down Columns 8..9 into a vertical water highway heading toward the southern cavern. [Physically verified]
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
