@@ -4162,11 +4162,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Western Subterranean Waterway at (8, 8) Surfing on Sheldon.
+- Current Location: Cerulean Cave 1F Central-Western Terrace at (11, 13) on foot.
 - Empirical Physical Discovery: Column 19 is a solid rock wall from Row 8 to Row 16, and Row 16 is a solid southern cliff barrier. The entrance cavern (Cols 20..25, Rows 12..17) has NO westward passage to Columns 17..18.
 - Staircase (17, 15) and Ladder (18, 9) reside on the Central-Western Terrace (Cols 11..18).
-- Routing Plan: Ascend Staircase (21, 11) back to entrance terrace, cross east to Staircase (25, 9), Surf through subterranean lake to Staircase (11, 13), ascend onto Central-Western Terrace, and head south to explore Staircase (17, 15) and locate descent to B1F.
-- Next Step: Step Down x6 along Column 8 to (8, 14), Right x3 to (11, 14), and Up onto Staircase (11, 13).
+- Routing Plan: Ascend Staircase (11, 13) onto Central-Western Terrace, traverse east along Row 12 to Column 15, south to Row 14, and east to Staircase (17, 15) to physically traverse it and explore southwest caverns.
+- Next Step: Step Up to (11, 12), Right x4 to (15, 12), Down x2 to (15, 14), and Right x2 to (17, 14).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
