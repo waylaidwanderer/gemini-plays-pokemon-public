@@ -159,7 +159,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x14 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
+- FULL RESTORE x13 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -4031,6 +4031,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24908: Bag menu open with cursor on POKé FLUTE. Navigating Down to FULL RESTORE and selecting USE to open party menu.
 - Turn 24909: Party menu open with cursor on Sheldon (123/219 HP). Pressing A to apply Full Restore and restore Sheldon to 219/219 HP.
 - Turn 24910: Sheldon restored to 219/219 HP via Full Restore (13 remaining). Dismissing menus to return to overworld at (6, 2).
+- Turn 24911: Full Restore x13 and Sheldon 219/219 HP verified. Overworld at (6, 2). Walking Left, Up, Up into northern doorway at (5, 0) to enter Champion's chamber.
 
 <hr>
 

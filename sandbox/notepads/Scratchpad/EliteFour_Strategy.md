@@ -70,3 +70,4 @@
 - Turn 24908: Bag menu open with cursor on POKé FLUTE. Navigating Down to FULL RESTORE and selecting USE to open party menu.
 - Turn 24909: Party menu open with cursor on Sheldon (123/219 HP). Pressing A to apply Full Restore and restore Sheldon to 219/219 HP.
 - Turn 24910: Sheldon restored to 219/219 HP via Full Restore (13 remaining). Dismissing menus to return to overworld at (6, 2).
+- Turn 24911: Full Restore x13 and Sheldon 219/219 HP verified. Overworld at (6, 2). Walking Left, Up, Up into northern doorway at (5, 0) to enter Champion's chamber.
