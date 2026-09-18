@@ -4167,7 +4167,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (23, 3) on foot (Staircase 23, 3, facing lake water at 23, 4).
+- Current Location: Cerulean Cave 1F at (23, 4) surfing (heading to Staircase 25, 9).
 - Active Strategy & Frontier:
   - [x] Ladder (29, 1) Enclave Surveyed [Turn 26143]: Enclave spanning (27..29, 0..6) is 100% enclosed dead-end. Zero ground access to 2F main network.
   - Actionable Route: Surf from Staircase (23, 3) east and south to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor to reach Candidate Ladder (1, 3).
@@ -4178,7 +4178,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |
-
 
 <hr>
 
