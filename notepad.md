@@ -4109,5 +4109,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25234: Player at (27, 8) on Bicycle facing South. Turning East and riding Right x10 along row 8 Eastern Road to (37, 8).
 - Turn 25235: Player at (37, 8) on Bicycle facing East. Ascending ramp (37, 7) via Up x3 to (37, 5), then riding Right x5 along row 5 Far Eastern Highway to (42, 5).
 - Turn 25236: Player at (42, 5) on Bicycle facing East. Riding Right x7 along row 5 Far Eastern Highway to (49, 5) above mountain spur ramp.
+- Turn 25237: Player at (49, 5) on Bicycle. Riding Down x5 via ramp (49, 7) to row 10 southern bypass, then Right x5 to (54, 10) past mountain spur.
 
 <hr>
