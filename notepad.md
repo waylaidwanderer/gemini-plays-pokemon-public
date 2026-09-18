@@ -4168,10 +4168,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (23, 3) on foot (Staircase 23, 3, facing lake water at 23, 4).
-- Traversal Verification [Turn 26135]: Tile (27, 3) and (28, 4) are physically verified to be SOLID ROCK WALLS. Ladder (29, 1) corridor at (28, 1..3) connects east to Column 29 at (29, 3), leading south down Column 29.
 - Active Strategy & Frontier:
   - [x] Ladder (29, 1) Enclave Surveyed [Turn 26143]: Enclave spanning (27..29, 0..6) is 100% enclosed dead-end. Zero ground access to 2F main network.
-  - Actionable Route: Backtrack via Ladder (29, 1) down to 1F (27, 1), dismount into water at Staircase (23, 3), surf to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor into the Upper Northwest Corridors toward Candidate Ladder (1, 3).
+  - Actionable Route: Surf from Staircase (23, 3) east and south to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor to reach Candidate Ladder (1, 3).
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
@@ -4179,6 +4178,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |
+
 
 <hr>
 
@@ -4201,7 +4201,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
 - Central-Western Terrace (Cols 11..18, Rows 8..14): Elevated plateau accessed via Staircase (11, 13) or 2F Ladder (19, 7). Contains Ladder (18, 9) leading to 2F. Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12) and (18, 9)]
-- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14) to lower landing (17, 16). Accessed from south via (16, 17) -> (16, 16) -> (17, 16) ((17, 17) is a rock wall). [Physically verified 2-way access Turn 26068]
+- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14) to lower landing (17, 16). [Physically verified 2-way access Turn 26068]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7 (tested at (9, 7) Turn 26112: col 7 solid rows 4..8, rows 4..5 solid cols 6..13 visible in viewport). 1F water confirmed 100% closed loop to Staircase (25, 9). No B1F descent exists in 1F water.
 - Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
