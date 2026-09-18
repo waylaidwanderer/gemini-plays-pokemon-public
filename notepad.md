@@ -146,6 +146,7 @@
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Arrive at Indigo Plateau and enter Pok�mon League Headquarters [Turn 24505]
 - [x] Enter Lorelei's Chamber and challenge the Elite Four [Turn 24668]
+- [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 
 
 <hr>
@@ -4008,6 +4009,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Lorelei: Located at (5, 2) facing South.
   - Specializes in Ice/Water Pokémon.
   - Team: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
+  - Defeated Turn 24759 by Sheldon Lv 67 (89/213 HP). Northern exit doorway unlocked.
 
 
 <hr>

@@ -1,8 +1,8 @@
 # Elite Four Preparation & Strategy [Updated Turn 24721]
 
 ## Active Party Status
-- Lead: SHELDON (Blastoise Lv 67) [HP 136/213, Attack 157, Defense 183, Speed 157, Special 163]
-  - Moves: Double-Edge (PP 15/15), Body Slam (PP 5/15), Surf (PP 15/15), Ice Beam (PP 10/10)
+- Lead: SHELDON (Blastoise Lv 67) [HP 89/213, Attack 157, Defense 183, Speed 157, Special 163]
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 12/15), Ice Beam (PP 10/10)
   - Current Status: In combat with Lorelei, healthy (cured of confusion), at -3 Attack from Slowbro's Growls.
 - Support Pivots:
   - ROCKY (Geodude Lv 8) [Strength]
@@ -32,3 +32,8 @@
 - Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 89/213).
 - Turn 24: Sheldon pushed through confusion and landed the 3rd Surf! Lapras HP drained to 0 and fainted!
 - VICTORY: ELITE FOUR LORELEI DEFEATED! All 5 Pokémon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
+## Lorelei Battle Summary
+- Outcome: Victory! All 5 Pokémon defeated.
+- Prize Money: ¥5544 (New total: ¥83516).
+- Sheldon End Status: Lv 67, HP 89/213.
+- Next Step: Open Start menu, use 1 Full Restore on Sheldon (89 -> 213 HP), then advance north into Bruno's chamber.
