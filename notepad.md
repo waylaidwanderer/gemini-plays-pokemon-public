@@ -4113,5 +4113,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25238: Player at (54, 10) on Bicycle. Riding Right x3 to (57, 10), Up x2 to (57, 8), Right x2 to (59, 8), and Up x2 via ramp (59, 7) to elevated terrace at (59, 6).
 - Turn 25239: Player at (60, 8) on Bicycle facing North. Riding Left to (59, 8), Up x2 via ramp (59, 7) to (59, 6), Left x2 to (57, 6), and Up x5 along Northern Highway toward Route 4.
 - Turn 25241: Player at (57, 0) on Bicycle facing North at Route 3 exit. Stepping Up x2 into Route 4 outside Mt. Moon.
+- Turn 25242: Arrived on Route 4 at (7, 16) on Bicycle facing North. Riding Right x5 to (12, 16), then Up x5 along col 12 past row 15/11 ledges toward (12, 11).
 
 <hr>
