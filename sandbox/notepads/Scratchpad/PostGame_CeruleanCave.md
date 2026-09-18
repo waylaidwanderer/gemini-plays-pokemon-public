@@ -22,12 +22,12 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (5, 15) on foot.
+- Current Location: Cerulean Cave 2F at (5, 13) on foot.
 - Item Retrieval Milestone [Turn 25986-25996]:
   - Traversed Row 13 west and Column 5 south to (5, 15), faced Left, and retrieved Item Ball at (4, 15).
   - In-game inventory audit confirmed the item was an ULTRA BALL x1 (bringing total bag items to 12).
   - Also audited presence of FULL RESTORE x12, PP UP x1, MAX ELIXER x1, and NUGGET x1 in bag.
-- Active Plan: Close bag and Start menus with B, then backtrack north along Column 5 and Row 13 to return to the main corridor network.
+- Active Plan: Backtracking east along Row 13 to (8, 13), down to (8, 14), and east along Row 14 to (10, 14) heading toward Column 12.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
