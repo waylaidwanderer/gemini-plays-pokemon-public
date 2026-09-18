@@ -31,9 +31,9 @@
 - Turn 22: Surf scored a CRITICAL HIT on Lapras! Lapras down to ~55% HP! Lapras used Body Slam (Sheldon took only 12 damage to 89/213 HP, no paralysis).
 - Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 89/213).
 - Turn 24: Sheldon pushed through confusion and landed the 3rd Surf! Lapras HP drained to 0 and fainted!
-- VICTORY: ELITE FOUR LORELEI DEFEATED! All 5 Pokémon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
+- VICTORY: ELITE FOUR LORELEI DEFEATED! All 5 Pokï¿½mon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
 ## Lorelei Battle Summary
-- Outcome: Victory! All 5 Pokémon defeated.
-- Prize Money: ¥5544 (New total: ¥83516).
+- Outcome: Victory! All 5 Pokï¿½mon defeated.
+- Prize Money: ï¿½5544 (New total: ï¿½83516).
 - Sheldon End Status: Lv 67, HP 89/213.
 - Next Step: Open Start menu, use 1 Full Restore on Sheldon (89 -> 213 HP), then advance north into Bruno's chamber.
