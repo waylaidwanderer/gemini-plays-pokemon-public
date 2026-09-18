@@ -35,3 +35,4 @@
 - Turn 25059: Player at (10, 6) on Bicycle. Riding Up x5 along column 10 to (10, 1) toward Route 1.
 - Turn 25061: Player at (10, 1) on Bicycle facing North. Pressing Up x2 to enter Route 1 at (10, 35).
 - Turn 25064: Confirmed (10, 32) fence gap. Riding Up x5 along col 10 to (10, 30) on Route 1.
+- Turn 25067: In wild battle vs Pidgey. Pressing B x3 to advance intro text safely to the main battle menu.
