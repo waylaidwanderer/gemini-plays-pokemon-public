@@ -52,3 +52,4 @@
 - Turn 25185: Player at (12, 5) on Bicycle facing North. Stone posts end at row 4. Riding Up x2 to (12, 3), then Left x5 along row 3 clear cross-corridor to (7, 3).
 - Turn 25187: Player at (7, 3) on Bicycle facing West. Riding Down x8 along col 7 west-central corridor toward (7, 11).
 - Turn 25188: Player at (7, 11) on Bicycle facing South. Riding Down x7 along col 7 west-central corridor to (7, 18) clear ground crossroads.
+- Turn 25190: Player at (7, 18) on Bicycle facing South. Divider wall terminates at row 21. Riding Down x4 to (7, 22), then Left x5 through row 22 breach into Exit Avenue at (2, 22).

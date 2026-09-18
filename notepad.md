@@ -489,6 +489,7 @@
 - West Divider Wall (Cols 3..5, Rows 0..11+): Stone posts (Col 3) and trees (Cols 4..5) separating the exit avenue (Col 2) from the west-central corridor (Cols 6..8).
 - Bug Catcher (2, 18): Stationed at (2, 18) facing West across the column 1-2 corridor, guarding the approach to the northern exit gatehouse.- Northern Avenue Termination & Westbound Corridor (Rows 8..9, Cols 21..30): Northern Avenue terminates at row 8 against a solid wall of trees spanning rows 5..7 (Cols 21..29). Rows 8..9 form an open corridor: east to column 30 (clear ground), and west through columns 21..23 (tall grass) leading toward the west-central sector.
 - Northern Cross-Corridor & West Divider Verification (Rows 1..3, Cols 6..13): Confirmed open clear-ground passage at rows 1..3 spanning cols 6..13 over the top of cols 9..10 stone posts (which end at row 4). Cols 3..5 confirmed solid divider wall (stone posts at col 3, trees at cols 4..5) from row 0 through at least row 7, requiring southbound traversal of cols 6..8 to reach the exit avenue at row 18.
+- West Divider Wall Termination & West Exit Avenue Breach (Row 22, Cols 3..5): West Divider Wall (stone posts at col 3, trees at cols 4..5) terminates at row 21. Row 22 is an open crossway (cols 4..5 clear ground, col 3 open grass) connecting the west-central corridor (cols 6..8) directly into the western Exit Avenue (cols 1..2).
 
 
 <hr>
@@ -4121,5 +4122,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25185: Player at (12, 5) on Bicycle facing North. Stone posts end at row 4. Riding Up x2 to (12, 3), then Left x5 along row 3 clear cross-corridor to (7, 3).
 - Turn 25187: Player at (7, 3) on Bicycle facing West. Riding Down x8 along col 7 west-central corridor toward (7, 11).
 - Turn 25188: Player at (7, 11) on Bicycle facing South. Riding Down x7 along col 7 west-central corridor to (7, 18) clear ground crossroads.
+- Turn 25190: Player at (7, 18) on Bicycle facing South. Divider wall terminates at row 21. Riding Down x4 to (7, 22), then Left x5 through row 22 breach into Exit Avenue at (2, 22).
 
 <hr>
