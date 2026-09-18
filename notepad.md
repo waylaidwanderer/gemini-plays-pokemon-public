@@ -4162,10 +4162,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Southwest Lower Corridor at (15, 16) on foot.
+- Current Location: Cerulean Cave 1F Southwest Lower Corridor at (15, 17) in battle with wild Dodrio.
 - Empirical Physical Discovery: Staircase (17, 15) successfully descended to lower landing at (17, 16). Row 17 forms an open horizontal corridor running west past Column 11 (Cols 11..16, Row 17).
 - Routing Plan: Traverse west along Row 17 corridor to scout the southwest sector of 1F and locate the ladder descending to B1F.
-- Next Step: Step Down to (15, 17), then Left x5 along Row 17 to (10, 17).
+- Next Step: Advance dialogue with B, select RUN to escape, and resume walking west along Row 17 to (10, 17).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
