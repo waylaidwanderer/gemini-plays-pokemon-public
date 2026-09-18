@@ -4171,9 +4171,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean City canal at (10, 5) surfing on Sheldon facing West.
-- Canal to Cerulean Cave: Surf West along row 5 to column 6 canal channel, then surf South down column 6 toward cave entrance at (4, 11) to locate walkable landing shore.
-- Objective: Step ashore in front of Cerulean Cave and enter through cave entrance at (4, 11).
+- Current Location: Cerulean Cave 2F at (23, 11) facing South.
+- Active Navigation: Heading East to (24, 11) and navigating South down Column 24 corridor.
+- Objective: Explore 2F corridors and locate ladders connecting to B1F route.
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
@@ -4217,7 +4217,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
 - Ladder (18, 9): Ascending cave ladder located at (18, 9) in western passage. Accessible via col 18 corridor.
-- Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (19, 7).
+- Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (22, 6).
 - Staircase (17, 15): Wooden staircase at (17, 15) ascending west to upper elevation.
 - Staircase (25, 9): Wooden staircase at (25, 9) situated adjacent to the subterranean lake.
 
@@ -4240,8 +4240,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Tile (22, 7): Open floor connecting east to (23, 7).
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11).
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11).
-- Column 24 South Corridor (Col 24, Rows 11..15+): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall into the southern cavern.
-- Row 11 West Corridor (Cols 19..22, Row 11): 1-tile wide horizontal corridor running west between row 10 wall and row 12 wall.
+- Column 24 South Corridor (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Visual line-of-sight shows open floor across rows 11..15.
+- Row 11 West Corridor (Cols 19..22, Row 11): 1-tile wide horizontal corridor visible running west between row 10 wall and row 12 wall.
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
 
 
