@@ -3,7 +3,7 @@
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 9/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 1/15), Ice Beam (PP 9/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -38,7 +38,7 @@
 ## Bruno Battle Summary
 - Outcome: FLAWLESS VICTORY! All 5 Pok�mon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
 - Prize Money: �5742 (New total: �89258).
-- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 9/10).
+- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 1/15), Ice Beam (PP 9/10).
 
 # Elite Four Matchup 3: Agatha Strategy [Upcoming]
 - Agatha specializes in Ghost and Poison Pok�mon.
@@ -70,3 +70,4 @@
 - Turn 24819: Surf confirmed against Haunter Lv 55. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / Haunter's response.
 - Turn 24820: Surf hit Haunter down to ~15 HP in the red! Agatha burned a Super Potion on Haunter (restored to ~65 HP). Sheldon at 216/216 HP. Advancing text to battle menu to finish Haunter with Surf.
 - Turn 24821: Battle menu open on FIGHT. Haunter at ~65 HP. Move cursor on SURF (Slot 3). Executing Surf to KO Haunter.
+- Turn 24822: Sheldon snapped out of confusion ('SHELDON's confused no more!') and executed Surf to KO Haunter. Advancing text with B to decline switch and face Arbok Lv 58.
