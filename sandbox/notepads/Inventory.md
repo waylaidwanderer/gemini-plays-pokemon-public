@@ -7,7 +7,6 @@
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
-- CARBOS x1 [Obtained Turn 14559 at Mansion 1F (18, 21)]
 - TM14 (BLIZZARD) x1 [Obtained Turn 14620 at Mansion B1F (19, 25)]
 - TM22 (SOLARBEAM) x1 [Obtained Turn 14675 at Mansion B1F (5, 4)]
 - SECRET KEY x1 [Obtained Turn 14678 at Mansion B1F (5, 13)]
@@ -19,7 +18,7 @@
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 14 / 20 [Turn 24548]
+- Total Slots Used: 13 / 20 [Turn 24553]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
@@ -27,7 +26,6 @@
   6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x6
-  12. CARBOS x1
   13. TM14 (BLIZZARD) x1
   14. TM22 (SOLARBEAM) x1
   15. SECRET KEY
@@ -38,6 +36,7 @@
   20. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- CARBOS x1 (PC) [Stored Turn 24553]
 - ESCAPE ROPE x1 (PC) [Stored Turn 24548]
 - MASTER BALL x1 (PC) [Stored Turn 24535]
 - SUPER ROD x1 (PC) [Stored Turn 24531]

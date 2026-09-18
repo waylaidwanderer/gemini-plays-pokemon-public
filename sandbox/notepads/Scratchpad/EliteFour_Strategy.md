@@ -52,5 +52,4 @@
   - [ ] TM27 (FISSURE)
   - [ ] TM43 (SKY ATTACK)
   - [ ] TM17 (SUBMISSION)
-- Immediate Action:
-  - Consume CARBOS on Sheldon to boost Speed stat exp.
+- Deposited CARBOS into PC storage [Turn 24553] to free bag slot.
