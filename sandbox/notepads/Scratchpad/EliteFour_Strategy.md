@@ -62,3 +62,4 @@
 - Turn 24807: Bag menu was open. Pressing B to close bag, Up to FIGHT, and A to open move menu to select Surf.
 - Turn 24808: Move menu verified on SURF (4/15 PP). Executing Surf against Gengar Lv 56 (~40 HP remaining). Advancing with B to resolve KO and decline switch.
 - Turn 24809: Sheldon pushed through confusion and landed Surf! Gengar Lv 56 fainted! Sheldon at 216/216 HP. Advancing text with B to decline switch and face Golbat Lv 56.
+- Turn 24812: Switch prompt on screen for Golbat Lv 56. Declining switch with B to face Golbat with Sheldon.
