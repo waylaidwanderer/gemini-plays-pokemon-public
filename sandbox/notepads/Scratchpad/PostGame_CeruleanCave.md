@@ -55,3 +55,4 @@
 - Turn 25488: Player at (10, 29) on Nugget Bridge. Lass at (10, 28). Shifting right to column 11 to bypass.
 - Turn 25489: Player at (11, 26) on Nugget Bridge. Youngster at (11, 25). Shifting left to column 10 to bypass to (10, 24).
 - Turn 25490: Player at (10, 24) on Nugget Bridge. Lass 4 at (10, 22). Shifting right to col 11 to bypass to (10, 21).
+- Turn 25491: Player at (10, 20) on Nugget Bridge. Bypassed Lass 4. Riding north along col 10 to row 14 Northern Avenue.
