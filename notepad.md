@@ -4016,6 +4016,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 Surfs required: ~5-6. Surf PP available: 12/15.
 Supplies in bag: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1.
 
+- Turn 24768: Engaged Bruno at (5, 2) in dialogue. Pre-battle dialogue active. Advancing dialogue to trigger battle.
+
 
 <hr>
 
