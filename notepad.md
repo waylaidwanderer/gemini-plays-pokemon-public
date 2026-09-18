@@ -4167,11 +4167,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (5, 17) on foot.
-- Physical Traversal Discoveries [Turn 26028]:
-  - Row 17 corridor (Cols 1..6, Row 17) is open dark speckled floor.
-  - Escaped wild Rhydon at (5, 17) with zero damage.
-- Active Plan: March west along Row 17 through (4, 17), (3, 17), (2, 17), (1, 17), then step Up into Column 1 at (1, 16) to explore the western margin toward Ladder (1, 3).
+- Current Location: Cerulean Cave 2F at (1, 16) on foot.
+- Physical Traversal Discoveries [Turn 26030-26035]:
+  - Tile (1, 16) reached; tile (1, 15) is dark speckled floor.
+  - Tiles (0, 15), (1, 14), and (2, 15) are solid rock walls!
+  - Column 1 spur (1, 15..16) is a dead-end alcove off Row 17.
+  - Row 17 terminates west at (1, 17) against solid rock walls (0, 17) and (1, 18).
+  - The southwest sector of 2F is now 100% physically surveyed and exhausted (Ultra Ball retrieved).
+- Active Plan: Step Down to (1, 17) and march east along Row 17 through (2..6, 17) toward Column 10 and Column 12 to return to Row 9.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
