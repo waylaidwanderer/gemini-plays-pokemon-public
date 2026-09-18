@@ -222,7 +222,7 @@
   - Status: Healthy
   - HP: 123 / 219
   - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
-  - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 5/10)
+  - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 4/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -4016,6 +4016,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 - Turn 24889: Ice Beam OHKO'd Lance's first Dragonair Lv 56! Ice Beam PP now 5/10. Sheldon at 123/219 HP. Advancing fainting text and declining switch.
 - Turn 24891: Lance sent out second Dragonair Lv 56 (3/5). Sheldon active at 123/219 HP. Battle menu open on FIGHT. Opening FIGHT menu to execute Ice Beam.
+- Turn 24892: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 4/10). Pressing A to attack second Dragonair Lv 56.
 
 <hr>
 
