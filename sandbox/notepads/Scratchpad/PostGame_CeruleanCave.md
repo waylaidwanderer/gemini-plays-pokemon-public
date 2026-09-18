@@ -85,3 +85,4 @@
 - Turn 25393: Player at (10, 19) on foot facing North. Defeated Grunt sighted at (11, 16). Cols 12..13 confirmed open at row 15. Walking Up x2 to (10, 17), Right x2 to (12, 17), and Up to (12, 16) into Fossil Approach Corridor.
 - Turn 25394: Wild Clefairy encountered at (11, 17) in Mt. Moon B2F. Pressing B x6 to advance intro text to battle menu.
 - Turn 25395: Battle menu active vs wild Clefairy Lv 10 at (11, 17). Selecting RUN via Down, Right, A, B x2 to return to overworld.
+- Turn 25396: Fled Clefairy cleanly. Player at (11, 17) on foot facing North. Walking Right to (12, 17) and Up x4 along column 12 through Fossil Approach Corridor toward (12, 13).
