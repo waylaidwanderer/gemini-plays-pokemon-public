@@ -3,12 +3,15 @@
 ## Regular Items
 
 - MASTER BALL x1 [Withdrawn from PC Turn 25028]
-
-- FULL RESTORE x10 [Purchased 15 Turn 24635, 5 used during Elite Four/Champion gauntlet]
+- FULL RESTORE x12 [Acquired +2 in Cerulean Cave; 10 from prior gauntlet]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
+- PP UP x1 [Obtained Cerulean Cave 2F]
+- MAX ELIXER x1 [Obtained Cerulean Cave 2F]
+- NUGGET x1 [Obtained Cerulean Cave 2F]
+- ULTRA BALL x1 [Obtained Cerulean Cave 2F (4, 15) Turn 25986]
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 - BICYCLE [Withdrawn from PC Turn 25022]
