@@ -219,7 +219,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 68, Water]
   - Status: Healthy
-  - HP: 216 / 216
+  - HP: 194 / 216
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 7/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3962,7 +3962,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
-  - HP: 216 / 216 (Healthy, Full Health)
+  - HP: 194 / 216 (Confused)
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 0/15), Ice Beam (PP 7/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
@@ -4038,6 +4038,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24832: Final Surf executed against Gengar Lv 60. Advancing turn text with B to resolve damage and Gengar's response.
 - Turn 24833: Surf brought Gengar Lv 60 to ~45% HP. Gengar used Confuse Ray (Sheldon confused, HP 216/216). Navigating Down from Surf to Ice Beam (Slot 4, PP 8/10) to attack Gengar.
 - Turn 24834: Ice Beam selected against Gengar Lv 60. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / faint.
+- Turn 24836: Sheldon took 22 confusion self-damage (194/216 HP). Gengar used Confuse Ray (failed). Opening FIGHT menu to verify Ice Beam selection.
 
 
 <hr>
