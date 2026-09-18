@@ -8,7 +8,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 66, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
-- Money: ¥137972 [Turn 24622]
+- Money: ¥77972 [Turn 24649]
 - Pokédex: 15 Caught / 50+ Seen
 
 ## Milestones
@@ -3796,6 +3796,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Trainer: Cooltrainer ♂ at (3, 3) [Defeated Turn 15531; Team: Ivysaur Lv 42, Wartortle Lv 42, Charmeleon Lv 42, Charizard Lv 42; Prize: ¥1470].
 
 ## Items
+- TM43 (Sky Attack) collected in northern alcove at (11, 0) [Turn 15496].
 
 ## Wild Encounters
 - Onix (observed Turn 15367).
@@ -3944,7 +3945,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells supplies [Inventory pending in-game verification]. Accessed from (13, 7) facing North.
 - Mart Display Windows: Located at (2..3, 0..1) in the northern wall featuring 'SALE' signs and display cases [Corrected Turn 24659].
 - Lobby NPC / Guide: Located at (5, 1) facing South [Visually verified Turn 24656].
-- Elite Four Entrance: Located at (8, 0) in the northern wall. A doorway with stairs leading north into the Elite Four chambers [Visually verified Turn 24659].
+- Northern Doorway: Sighted doorway with ascending stairs at (8, 0) in northern wall [Visual observation Turn 24659; physical traversal and warp trigger pending verification].
 
 
 <hr>
