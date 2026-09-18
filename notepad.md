@@ -4165,11 +4165,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Pewter City east via Main Avenue and row 18 plaza into Route 3 [Turns 25221-25225]
 - [x] Traversed Route 3 via upper tier, eastern road, and southern bypass to Route 4 [Turns 25226-25241]
 - [x] Traversed Route 4 west and entered Mt. Moon 1F at (18, 5) [Turns 25242-25244]
+- [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Mt. Moon B2F at (13, 4) on foot facing North in Northern Exit Corridor.
-- Northern Exit Corridor to Route 4 Exit Chamber: Walk west along rows 2..4 from col 13 to cols 2..8.
-- Ascend Ladders: Take B2F ladder (5, 7) to B1F (23, 3), then ladder (27, 3) to 1F Route 4 East exit room, and emerge onto Route 4 East.
+- Current Location: Route 4 East at (24, 6) on foot facing South.
+- Route 4 East to Cerulean City: Mount Bicycle, ride east along middle corridor (rows 6..8) past col 45 ledge to Cerulean City (col 80+).
+- Cerulean City to Cerulean Cave: Traverse north to Route 24 river, Surf southwest to Cerulean Cave entrance, and verify guard departure.
 
 - Turn 25262: Player at (12, 25) on foot facing East. Walking Right x8 along row 25 toward (20, 25) Eastern Avenue corridor.
 - Turn 25263: Wild encounter triggered at (15, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
