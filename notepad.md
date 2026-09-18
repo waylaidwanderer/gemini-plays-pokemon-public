@@ -4149,5 +4149,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25335: Wild Zubat Lv 7 in battle at (10, 16). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 - Turn 25337: Fled Zubat cleanly at (10, 16). Player at (10, 16) on foot facing East. Walking Right x6 along row 16 toward ladder (21, 17).
 - Turn 25339: Player at (16, 16) on foot facing East. Ladder (21, 17) visually confirmed on screen. Walking Right x5 to (21, 16) directly above ladder.
+- Turn 25341: Arrived at (21, 16) directly above Ladder (21, 17). Stepping Down onto ladder to descend to B2F Main Cavern.
 
 <hr>
