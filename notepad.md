@@ -4167,12 +4167,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (28, 3) on foot.
+- Current Location: Cerulean Cave 2F at (29, 6) on foot (backtracking to Ladder 29, 1).
 - Traversal Verification [Turn 26135]: Tile (27, 3) and (28, 4) are physically verified to be SOLID ROCK WALLS. Ladder (29, 1) corridor at (28, 1..3) connects east to Column 29 at (29, 3), leading south down Column 29.
 - Active Strategy & Frontier:
-  - [x] 1F Waterway Survey Completed [Turn 26112]: Visually audited northern/western water boundary at (9, 7). Confirmed Column 7 is solid rock (rows 4..15) and Rows 4..5 are solid rock (cols 6..13). 1F subterranean lake is 100% proven to be a closed loop with ZERO water passages to the northwest or B1F.
-  - 2F Investigation: Navigate to the Northern Transit Corridor at (28, 3) and physically explore Row 3 westward to reach Candidate Ladder (1, 3) in the northwest corner.
-
+  - [x] Ladder (29, 1) Enclave Surveyed [Turn 26143]: Enclave spanning (27..29, 0..6) is 100% enclosed dead-end. Zero ground access to 2F main network.
+  - Actionable Route: Backtrack via Ladder (29, 1) down to 1F (27, 1), dismount into water at Staircase (23, 3), surf to Staircase (25, 9) on Entrance Terrace, ascend Ladder (23, 7) to 2F Ladder (22, 6), and follow Column 26 corridor into the Upper Northwest Corridors toward Candidate Ladder (1, 3).
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
 |:---:|:---:|:---:|:---|
@@ -4233,7 +4232,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Connections & Ladders
 - Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
-- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1). Completely enclosed, secluded dead-end enclave spanning cols 27..29, rows 0..6 with ZERO ground exit to the rest of 2F. (29, 7), (28, 4..7), and (27, 3) are all solid rock walls. [Physically verified Turn 26143]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
