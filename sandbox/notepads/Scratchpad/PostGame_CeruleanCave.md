@@ -46,3 +46,4 @@
 - Turn 25247: Entered Mt. Moon 1F at (14, 35) on foot facing North. Walking Up x8 along col 14 entrance corridor to (14, 27) junction.
 - Turn 25248: Player at (14, 27) on foot facing North in Mt. Moon 1F. Walking Up x2 to (14, 25), then Left x6 along row 25 to (8, 25) Western Passage.
 - Turn 25250: Player at (8, 25) facing West in Western Passage. Walking Left x3 to (5, 25), then Up x6 along col 5 toward ladder (5, 5).
+- Turn 25251: Player at (5, 20) in southwest pocket. Rows 18-19 solid wall confirmed. Returning south to (5, 25) and east toward Main Cavern Junction.
