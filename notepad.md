@@ -179,7 +179,7 @@
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 15 / 20 [Turn 24539]
+- Total Slots Used: 16 / 20 [Turn 24541]
 - Complete Top-to-Bottom Slot Order:
   1. BICYCLE
   3. POKé FLUTE
@@ -187,6 +187,7 @@
   6. MAX POTION x1
   7. REVIVE x5
   8. FULL HEAL x6
+  7. MOON STONE x1
   11. ESCAPE ROPE x1
   12. CARBOS x1
   13. TM14 (BLIZZARD) x1
@@ -216,7 +217,7 @@
 - OLD ROD x1 (PC) [Stored Turn 12567]
 - TM21 (MEGA DRAIN) x1 (PC) [Stored Turn 12568]
 - TM06 (TOXIC) x1 (PC) [Stored Turn 12570]
-- MOON STONE x2 (PC) [Stored Turn 12205, Turn 24539]
+- MOON STONE x1 (PC) [Stored Turn 12205]
 - RARE CANDY x4 (PC) [Stored Turn 12203]
 - S.S. TICKET x1 (PC) [Stored Turn 6582]
 - TM24 (THUNDERBOLT) x1 (PC) [Stored Turn 6585]
@@ -3837,18 +3838,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
-- Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
-- Tile (16, 12): Empirically verified impassable elevation cliff from (16, 11) facing South with 0 movement delta [Turn 24130].
-- Tile (15, 1): Empirically verified open dark checkerboard floor from (16, 1) facing West [Turn 24123]. Column 14 remains solid rock wall.
 - Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3), completely bypassing the Row 4 rock wall (cols 18-24). Row 3 is blocked by Advice NPC at (26, 3). Row 6 is solid rock wall across cols 24-29 and Col 29 is solid rock wall across rows 0-6, so Northern Plateau cannot access Ladder (27, 7).
-- Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
-- Tile (21, 11): Impassable elevation cliff / wall from (20, 11) facing East [Tested Turn 20392].
-- Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
-- Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
-- Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
-- Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
-- Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
-- Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Column 14 Rock Wall: Solid rock wall across rows 0-5 blocking eastward traversal along Rows 0-1 [Empirically verified Turn 22996].
@@ -3999,15 +3989,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Indigo Plateau (Pok�mon League Headquarters)
 
 ## Overview & Geography
-- Arrived at Indigo Plateau [Turn 24505] via Route 23 North and entered the Pok�mon League Headquarters!
+- Headquarters of the Pok�mon League, located at the northern terminus of Route 23.
 - Entrance doormat: Located at (7..8, 11) inside lobby.
-- South: Exit doors at (7..8, 11) leading out to Route 23 / Indigo Plateau exterior.
+- South exit: Doors at (7..8, 11) lead out to Route 23 / Indigo Plateau exterior.
 
 ## Services & Points of Interest
-- Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Interacted from (7, 7) facing North [Turns 24508-24511] to heal party and register permanent Indigo Plateau warp anchor.
-- PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby [Visually verified Turn 24515]. Interacted from (14, 7) facing East.
-- Pok� Mart Counter: Location TBD (stock up on Full Restores, Revives, Max Potions with �134,927).
-- Elite Four Entrance: Guarded passage leading to Lorelei (Elite Four Member 1).
+- Pok�mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pok�mon League.
+- PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North.
+- Pok� Mart Counter: Located at (13, 6) with clerk behind counter. Sells endgame items (Full Restores, Max Potions, Revives, Full Heals, Ultra Balls). Accessed from (13, 7) facing North.
+- Elite Four Entrance: Doorway leading to the first Elite Four chamber (Lorelei).
 
 
 <hr>
@@ -4021,6 +4011,68 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Exit Doorway: Located on 2F at (29, 7) in the eastern chamber.
 - Emerged onto Route 23 North at (14, 31) / (14, 32).
 - Immediate Destination: Walk North on Route 23 to INDIGO PLATEAU!
+
+
+<hr>
+
+<h1><code>Scratchpad/EliteFour_Strategy</code></h1>
+
+# Elite Four Preparation & Strategy [Turn 24541]
+
+## Party Status & Setup
+- Lead: SHELDON (Blastoise Lv 66) [HP 209/209, Attack 155, Defense 179, Speed 155, Special 160]
+  - Moves: Double-Edge (15 PP), Body Slam (15 PP), Surf (15 PP), Ice Beam (10 PP)
+  - Role: Primary sweeper. Sheldon's level and coverage can solo the Elite Four and Champion.
+- Support / Sacrificial Pivots:
+  - ROCKY (Geodude Lv 8) [Strength user]
+  - DUX (Farfetch'd Lv 5) [Cut user]
+  - DIGBY (Diglett Lv 19) [Dig user]
+  - SANDMAN (Drowzee Lv 9) [Flash user]
+
+## Matchup Tactics (Evaluated by elite_four_strategist)
+1. Lorelei (Ice/Water):
+   - Dewgong, Cloyster, Lapras resist Surf/Ice Beam; rely on Body Slam and Double-Edge for physical damage.
+   - Slowbro and Jynx: Body Slam/Double-Edge.
+   - Use Pok� Flute immediately if put to sleep by Rest/Sing; cure confusion with Full Heals.
+2. Bruno (Fighting/Rock):
+   - Both Onix: 1HKO with Surf.
+   - Hitmonlee, Hitmonchan, Machamp: 1-2HKO with Surf or Body Slam.
+3. Agatha (Ghost/Poison):
+   - Arbok, Haunter, Gengar: Surf or Body Slam (Note: Normal moves cannot hit Ghost in Gen 1, so use Surf on Gengar/Haunter!).
+   - Golbat: 1HKO with Ice Beam.
+   - Keep Pok� Flute handy against Hypnosis; Full Heals against Confuse Ray and Toxic.
+4. Lance (Dragon/Flying):
+   - Dragonair (x2), Aerodactyl, Dragonite: Ice Beam sweeps for 4x / 2x super effective damage.
+   - Gyarados: Double-Edge or Body Slam to bypass high Special stat.
+5. Champion:
+   - Pidgeot, Rhydon, Venusaur: Ice Beam.
+   - Arcanine, Rhydon: Surf.
+   - Alakazam: Body Slam / Double-Edge (Alakazam is physically fragile).
+   - Gyarados: Body Slam / Double-Edge.
+
+## Item Management & Shopping List
+- Funds Available: �134,927
+- Target Inventory:
+  - 15-20 Full Restores
+  - 5-10 Revives
+  - 5-10 Full Heals
+  - POK� FLUTE (retained in Bag)
+- Items to Deposit in PC:
+  - [x] HM01 (CUT) [Turn 24526]
+  - [x] BICYCLE [Turn 24529]
+  - [x] SUPER ROD [Turn 24532]
+  - [x] MASTER BALL [Turn 24537]
+  - [ ] MOON STONE
+  - [ ] ESCAPE ROPE
+  - [ ] TM14 (BLIZZARD)
+  - [ ] TM22 (SOLARBEAM)
+  - [ ] SECRET KEY
+  - [ ] TM38 (FIRE BLAST)
+  - [ ] TM27 (FISSURE)
+  - [ ] TM43 (SKY ATTACK)
+  - [ ] TM17 (SUBMISSION)
+- Immediate Action:
+  - Consume CARBOS on Sheldon to boost Speed stat exp.
 
 
 <hr>
