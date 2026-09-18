@@ -78,3 +78,4 @@
 - Turn 25337: Fled Zubat cleanly at (10, 16). Player at (10, 16) on foot facing East. Walking Right x6 along row 16 toward ladder (21, 17).
 - Turn 25339: Player at (16, 16) on foot facing East. Ladder (21, 17) visually confirmed on screen. Walking Right x5 to (21, 16) directly above ladder.
 - Turn 25341: Arrived at (21, 16) directly above Ladder (21, 17). Stepping Down onto ladder to descend to B2F Main Cavern.
+- Turn 25344: Arrived on Mt. Moon B2F Main Cavern at (21, 17) facing South. Walking Up x3 to (21, 14) and Right x3 along Central Cross Corridor toward Eastern Cavern Highway.
