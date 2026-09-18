@@ -58,3 +58,4 @@
 - Turn 25491: Player at (10, 20) on Nugget Bridge. Bypassed Lass 4. Riding north along col 10 to row 14 Northern Avenue.
 - Turn 25492: Player reached (10, 14) on Northern Avenue, completely clearing Nugget Bridge. Aligning to western shoreline at (8, 15..16) to launch Surf.
 - Turn 25495: Launched SURF with Sheldon at (8, 16) on Route 24 river! Surfing south down the river corridor toward Cerulean City canal and Cerulean Cave.
+- Turn 25496: Player surfing at (8, 24) on Route 24 river facing South. River is completely open heading south toward Cerulean City boundary.
