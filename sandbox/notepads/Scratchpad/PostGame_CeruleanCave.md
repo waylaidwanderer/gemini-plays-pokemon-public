@@ -81,3 +81,4 @@
 - Turn 25344: Arrived on Mt. Moon B2F Main Cavern at (21, 17) facing South. Walking Up x3 to (21, 14) and Right x3 along Central Cross Corridor toward Eastern Cavern Highway.
 - Turn 25347: Player at (24, 14) on foot facing East. Central Cross Corridor dead-ends at col 29 rock wall. Walking Right x2 to (26, 14) and hopping south over ledge (26, 15) into Southern Cavern Corridor at (26, 16).
 - Turn 25349: Player at (26, 15) landing on ledge. Pressing Down to (26, 16) and walking Right x4 along row 16 toward Breakthrough Passage at (33, 15).
+- Turn 25360: Player at (30, 16) on foot facing South. Walking Right x3 to (33, 16) and pressing Up to empirically test northward traversal through (33, 15).
