@@ -4147,5 +4147,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25220: Arrived in Pewter City at (19, 31) on Bicycle. Stepping Left to col 18 to bypass signpost at (19, 29), then riding Up x8 along Main Avenue toward (18, 23).
 - Turn 25221: Player at (18, 23) on Bicycle. Stepping Right to (19, 23) to bypass central fence, then riding Up x5 along col 19 to (19, 18) at Route 3 exit avenue.
 - Turn 25222: Player at (19, 17) on Bicycle between Gym and Mart. Riding Down to (19, 18) plaza, then Right x7 along row 18 toward Route 3 exit at (26, 18).
+- Turn 25224: Player at (27, 18) on Bicycle facing East. Row 18 is wide open corridor to col 32+ exit. Riding Right x10 along row 18 toward Route 3.
 
 <hr>
