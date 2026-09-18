@@ -8,18 +8,7 @@
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
 ## Layout & Topology
-- Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
-- Tile (16, 12): Empirically verified impassable elevation cliff from (16, 11) facing South with 0 movement delta [Turn 24130].
-- Tile (15, 1): Empirically verified open dark checkerboard floor from (16, 1) facing West [Turn 24123]. Column 14 remains solid rock wall.
 - Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3), completely bypassing the Row 4 rock wall (cols 18-24). Row 3 is blocked by Advice NPC at (26, 3). Row 6 is solid rock wall across cols 24-29 and Col 29 is solid rock wall across rows 0-6, so Northern Plateau cannot access Ladder (27, 7).
-- Wall at (15, 11): Solid rock wall directly west of (16, 11) terminating Row 11 eastward corridor at column 16 [Empirically verified Turn 22174].
-- Tile (21, 11): Impassable elevation cliff / wall from (20, 11) facing East [Tested Turn 20392].
-- Wall at (24, 5): Solid rock wall directly west of (25, 5) [Empirically verified Turn 18310 via bump test].
-- Tile (25, 12): Impassable elevation cliff from (25, 11) [Empirically verified Turn 17858].
-- Tile (21, 9): Solid rock wall directly south of (21, 8) [Empirically verified Turn 17864].
-- Tile (17, 12): Impassable elevation cliff wall directly south of (17, 11) [Empirically verified Turn 17819].
-- Tile (22, 12): Solid rock wall directly east of (21, 12) [Empirically verified Turn 17980].
-- Tile (10, 10): Impassable elevation cliff wall directly north of (10, 11) [Empirically verified Turn 17961].
 - Row 5 Divider: Continuous solid rock wall across columns 19-24 separating the upper plateau from the central trench [Empirically verified Turn 17792].
 - Advice NPC at (26, 3): "Many trainers give up the challenge here." [Interacted Turn 16749].
 - Column 14 Rock Wall: Solid rock wall across rows 0-5 blocking eastward traversal along Rows 0-1 [Empirically verified Turn 22996].

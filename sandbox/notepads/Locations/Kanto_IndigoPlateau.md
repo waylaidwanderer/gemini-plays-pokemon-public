@@ -1,12 +1,12 @@
-# Indigo Plateau (Pokï¿½mon League Headquarters)
+# Indigo Plateau (Pokémon League Headquarters)
 
 ## Overview & Geography
-- Arrived at Indigo Plateau [Turn 24505] via Route 23 North and entered the Pokï¿½mon League Headquarters!
+- Headquarters of the Pokémon League, located at the northern terminus of Route 23.
 - Entrance doormat: Located at (7..8, 11) inside lobby.
-- South: Exit doors at (7..8, 11) leading out to Route 23 / Indigo Plateau exterior.
+- South exit: Doors at (7..8, 11) lead out to Route 23 / Indigo Plateau exterior.
 
 ## Services & Points of Interest
-- Pokï¿½mon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Interacted from (7, 7) facing North [Turns 24508-24511] to heal party and register permanent Indigo Plateau warp anchor.
-- PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby [Visually verified Turn 24515]. Interacted from (14, 7) facing East.
-- Pokï¿½ Mart Counter: Location TBD (stock up on Full Restores, Revives, Max Potions with ï¿½134,927).
-- Elite Four Entrance: Guarded passage leading to Lorelei (Elite Four Member 1).
+- Pokémon Center Counter / Nurse Joy: Located at (7, 6) with Nurse Joy at (7, 5). Functional healing station and permanent warp/respawn anchor for the Pokémon League.
+- PC Terminal: Located at (15, 7) / (15, 8) on eastern wall of lobby. Functional terminal accessed from (15, 8) facing North.
+- Poké Mart Counter: Located at (13, 6) with clerk behind counter. Sells endgame items (Full Restores, Max Potions, Revives, Full Heals, Ultra Balls). Accessed from (13, 7) facing North.
+- Elite Four Entrance: Doorway leading to the first Elite Four chamber (Lorelei).
