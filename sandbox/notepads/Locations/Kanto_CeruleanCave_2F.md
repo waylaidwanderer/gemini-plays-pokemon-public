@@ -45,3 +45,4 @@
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
 - Venomoth: Lv 51 [Encountered 2F Turn 25775]
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
+- Electrode: Lv 52 [Encountered 2F Turn 25976]
