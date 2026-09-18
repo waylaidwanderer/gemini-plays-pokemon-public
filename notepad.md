@@ -4171,9 +4171,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (23, 11) facing South.
-- Active Navigation: Heading East to (24, 11) and navigating South down Column 24 corridor.
-- Objective: Explore 2F corridors and locate ladders connecting to B1F route.
+- Current Location: Cerulean Cave 2F at (19, 15) facing East.
+- Active Navigation: Backtracking west along Row 15 to (15, 13), north to Row 11 at (14, 11), and east to (17, 11) to take the south branch (17, 12..13).
+- Objective: Explore Row 13 / Row 17 southern corridors to locate ladders connecting to B1F route.
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
@@ -4201,7 +4201,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
 - Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
 - Turn 25541: Wild Kadabra appeared at (14, 13). Selecting RUN to flee cleanly.
-- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.
+- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.- Turn 25545: Reached (19, 15); verified Row 15 terminates at (19, 15) dead end. Backtracking west along Row 15 to (15, 13) and north to Row 11.
+
 
 <hr>
 
@@ -4246,10 +4247,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11).
 - Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches.
 - Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor.
-- Row 11 West Corridor (Cols 15..23, Row 11): 1-tile wide horizontal corridor confirmed open from (23, 11) west past (15, 11), with a south branch at (17, 12).
+- Row 11 West Corridor (Cols 14..23, Row 11): 1-tile wide horizontal corridor running west from (23, 11) to (14, 11).
+  - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor (cols 17..22) and southern network.
+  - West End at (14, 11): Blocked to the west by (13, 11) rock wall. Turns south through (14, 12..13) to (15, 13).
+- Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches.
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
+
 ## Wild Pokémon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541]
+
 
 <hr>
