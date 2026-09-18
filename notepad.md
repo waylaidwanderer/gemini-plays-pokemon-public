@@ -221,12 +221,12 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 111 / 222
+  - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
+  - Moves: Double-Edge (PP 15/15), Body Slam (PP 15/15), Surf (PP 15/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
-  - Status: Fainted
-  - HP: 0 / 26
+  - Status: Healthy
+  - HP: 26 / 26
   - Stats: Attack 19, Defense 22, Speed 9, Special 11
   - Moves: Tackle (PP 35/35), Rock Slide (PP 10/10), Strength (PP 15/15) [Learned Turn 12022 via HM04]
   - EXP: 314 (105 to Lv 9)
@@ -4095,5 +4095,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 5. Explore Cerulean Cave, reach B1F, and capture legendary MEWTWO (Lv 70) with Master Ball!
 - Turn 25004: Reached (6, 7) in Player's House 1F. Navigating Up x3 to (6, 4), turning Left, and talking to Mom at (5, 4) to rest and fully heal party.
 - Turn 25005: Mom dialogue in progress ('BLUE! You should take a quick rest.'). Resting to fully heal party HP and restore all move PP. Advancing text with B x5.
+- Turn 25006: Mom dialogue concluding ('looking great! Take care now!'). Party fully healed and all PP restored. Advancing text with B x4 to close text box and prepare to head upstairs.
 
 <hr>
