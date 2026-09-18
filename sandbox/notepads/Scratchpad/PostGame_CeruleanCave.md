@@ -26,3 +26,4 @@
 - Turn 25034: Player at (0, 2). Moving east 5 steps along row 2 toward the staircase.
 - Turn 25036: Player at (5, 2). Stairs confirmed at (7, 1). Stepping Right, Right, Up onto stairs to descend to 1F.
 - Turn 25040: Player at (7, 1) on 1F. Moving Down x4 along col 7 to (7, 5) to reveal south room layout and exit door.
+- Turn 25043: Player at (7, 5) on 1F. Stepping Down to (7, 6), Left x4 to (3, 6), then Down to (3, 7) onto exit doormat.
