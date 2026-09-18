@@ -3993,6 +3993,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   5. Machamp Lv 58 (Bruno's ace)
 - Strategy: Surf deals ~140 damage (clean 2HKO or OHKO on crit). Sheldon at 216/216 HP (Lv 68) outspeeds. Fissure fails vs Lv 68 Sheldon.
 - Turn 24788: Surf executing against Machamp Lv 58. Advancing turn text with B to resolve damage and turn.
+- Turn 24789: Surf brought Machamp into the red (~15 HP). Bruno used X Defend (ineffective vs Special). Sheldon at 216/216 HP. Firing final Surf to KO Machamp and defeat Bruno!
 
 
 <hr>
