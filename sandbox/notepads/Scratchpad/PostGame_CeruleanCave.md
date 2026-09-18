@@ -42,3 +42,4 @@
 - Turn 25075: Player at (8, 25) on Bicycle. Riding Down to (8, 26) dirt path, then Right x4 along row 26 to (12, 26).
 - Turn 25077: Player at (13, 26) on Bicycle. Riding Up x4 along col 13 tall grass chute to row 22 past the tree hedge.
 - Turn 25079: Wild Rattata battle active. Pressing B x3 to advance intro text safely to the main battle menu.
+- Turn 25081: Battle menu confirmed on FIGHT vs Rattata. Pressing Down, Right, A, B to select RUN and escape.
