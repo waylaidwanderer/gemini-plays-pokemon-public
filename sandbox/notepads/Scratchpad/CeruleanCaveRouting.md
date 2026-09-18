@@ -49,3 +49,7 @@
 - Row 6 is a continuous open floor highway running west across the entire 1F map to Column 3 (3, 6).
 - From (3, 6), walk south down Column 3 directly to SW Ladder at (3, 11).
 - Climb SW Ladder (3, 11) to 2F SW Sector -> Ladder A (1, 3) -> B1F Mewtwo!
+## 2F Southern Passage Verified (Turn 53571)
+- Row 16 and Row 17 are wide open continuous corridors connecting the East and West sectors on 2F!
+- Route: From (14, 13) -> Right to (15, 13) -> Down col 15 to (15, 17) -> West row 17 to (11, 17) -> Up to (11, 16) -> Left to (10, 16) -> Up to (10, 14).
+- From (10, 14), path continues west into the Southwest Sector towards SW Ladder (3, 11) and Ladder A (1, 3) to B1F Mewtwo!
