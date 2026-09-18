@@ -14,14 +14,16 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Total Slots Used: 8 / 20 [Turn 24594]
-- Verified Active Bag Items (6 items):
+- Total Slots Used: 8 / 20 [Audited Turn 25144]
+- Verified Active Bag Items (8 items):
   1. POKé FLUTE
   2. FULL RESTORE x10
   3. MAX POTION x1
   4. REVIVE x14
   5. FULL HEAL x6
   6. MAX REVIVE x1
+  7. BICYCLE
+  8. MASTER BALL x1
 
 ## Stored / PC Items
 - TM17 (SUBMISSION) x1 (PC) [Stored Turn 24594]
