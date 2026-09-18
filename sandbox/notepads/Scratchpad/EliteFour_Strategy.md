@@ -17,3 +17,4 @@
 - Turn 24970: Rocky fainted to Razor Leaf after successfully giving us the pivot turn to revive Sheldon. Advancing fainting text with B x3 to reach the party selection screen and bring Sheldon (111/222 HP) in for the championship victory.
 - Turn 24971: Party replacement screen open with cursor locked on Sheldon (Slot 1, 111/222 HP). Pressing A to send Sheldon out, then B x2 to reach the main battle menu facing Venusaur.
 - Turn 24972: Main battle menu open with cursor locked on FIGHT facing Venusaur Lv 65 (~25% HP). Sheldon active at 111/222 HP. Pressing A to execute final Struggle for the championship victory!
+- Turn 24973: Struggle hit Venusaur into deep red (~5% HP remaining)! Sheldon took 21 recoil to 90/222 HP. Advancing text through Venusaur's turn with B x5 to reach battle menu for the winning blow.
