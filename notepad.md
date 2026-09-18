@@ -4120,5 +4120,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25100: Player at (16, 5) on Bicycle facing North. Stepping Up to (16, 4), then riding Left x4 along row 4 dirt path to (12, 4).
 - Turn 25103: Player at (12, 4) on Bicycle facing West. Riding Left x2 along row 4 dirt path to (10, 4), then Up x3 along col 10 corridor to (10, 1) at Viridian border.
 - Turn 25105: Route 1 complete! Player at (10, 1) on Bicycle facing North. Pressing Up x2 to enter Viridian City at (21, 36).
+- Turn 25107: Arrived in Viridian City at (20, 35) on Bicycle facing North. Riding Up x5 along col 20 main avenue to (20, 30).
 
 <hr>
