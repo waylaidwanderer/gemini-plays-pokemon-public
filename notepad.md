@@ -680,70 +680,133 @@
 
 <h1><code>Locations/Kanto_MtMoon_1F</code></h1>
 
-# Mt. Moon 1F Geography & Exploration
-
-## Connections
-- South Exit: Warp at (14, 35) leading outside to Route 4.
-- Ladder (13, 27): Ladder descending to basement chamber.
-- Ladder (17, 11): Ladder in north-central corridor.
-
-## Layout & Corridors
-
-- Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
-
-- Main Cavern Junction (Rows 27..29, Cols 10..15): Entrance corridor opens into a wide open cavern extending west toward columns 0..9 and north toward row 20+.
-
-- Signpost (15, 23): Reads "Beware! ZUBAT is a blood sucker!".
-
-- Bug Catcher (16, 23): Stationed at (16, 23) facing South down column 16.
-
-- Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction.
-
-- Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher at (7, 23). Bounded on north by solid rock wall at rows 18-19.
-
-- Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
-
-- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11). Yielded ¥110.
-
+# Mt. Moon 1F Geography & Exploration
+
+
+
+## Connections
+
+- South Exit: Warp at (14, 35) leading outside to Route 4.
+
+- Ladder (13, 27): Ladder descending to basement chamber.
+
+- Ladder (17, 11): Ladder in north-central corridor.
+
+
+
+## Layout & Corridors
+
+
+
+- Entrance Corridor (Cols 14..15, Rows 31..35): 2-tile wide north-south cave passage bounded by rock walls at cols 10..13 (west) and cols 16..19 (east).
+
+
+
+- Main Cavern Junction (Rows 27..29, Cols 10..15): Entrance corridor opens into a wide open cavern extending west toward columns 0..9 and north toward row 20+.
+
+
+
+- Signpost (15, 23): Reads "Beware! ZUBAT is a blood sucker!".
+
+
+
+- Bug Catcher (16, 23): Stationed at (16, 23) facing South down column 16.
+
+
+
+- Northern Boundary Wall (Rows 20..21): Solid rock wall blocking northward travel above junction.
+
+
+
+- Southwest Cavern Pocket (Cols 2..7, Rows 18..24): Enclosed pocket containing TM12 at (5, 32), Potion at (2, 20), and Bug Catcher at (7, 23). Bounded on north by solid rock wall at rows 18-19.
+
+
+
+- Western Passage (Rows 24..26, Cols 8..10): Open passage connecting central junction west into Western Cavern Corridor. Columns 8..9 rock wall occupies rows 18..23.
+
+
+
+- Bug Catcher (7, 22): Defeated (Weedle Lv 11, Kakuna Lv 11). Yielded ¥110.
+
+
+
 - Ground Item (2, 2): Item ball visible in northwest corner near Northwest Ladder (5, 5).
-- Ground Item (5, 32): TM12 (WATER GUN) collected.
-
-- Ground Item (2, 20): POTION collected.
-- Ground Item (35, 31): RARE CANDY collected in far southeast cavern pocket.
-- Southeast Pocket (Cols 30..37, Rows 28..34): Open cavern ending at eastern rock wall at col 38.
-
-- East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east-west south of the Northern Boundary Wall, passing behind Bug Catcher (16, 23) and connecting Eastern Avenue (col 21) west into Western Cavern Corridor.
-
-- Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
-
-- Central Rock Pillar (Cols 18..19, Rows 8..11): Rock wall at columns 18..19, rows 8..11 blocking westward movement along row 11.
-
-- Eastern Avenue (Cols 24..27, Rows 11..27): Wide 4-tile north-south thoroughfare connecting southern bypass (rows 26..27) directly north to row 11 corridor.
-
-- Northern Highway (Rows 6..7, Cols 16..25+): Wide open east-west corridor running along the northern section of 1F.
-
-- Rock Wall Partition (Rows 8..9, Cols 18..29): Horizontal rock divider between northern highway and row 10.
-
-- Eastern North-South Passage (Col 30, Rows 6..14): Open floor passage east of rock partition connecting row 10 directly north into Northern Highway.
-
-- North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
-
-- East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
-
-- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
-
-- Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
-
-- Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
-
-- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
-
-- Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated (Rattata Lv 10, Rattata Lv 10, Zubat Lv 10). Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
-
-- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
-- Ladder (5, 5): Descending ladder in the northwest corner of 1F.
-- Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
-- Vertical Rock Wall Partition (Cols 12..13, Rows 0..12+): Solid vertical rock wall running continuously from row 0 south past row 6 (empirically confirmed solid wall at (12..13, 2)), separating the north-central cavern (cols 14..17) from the northwest corridor (cols 10..11). Corridor crossover is located to the south around rows 15..16 near defeated Youngster.- Lass (16, 24..25): Defeated (Clefairy Lv 14). Line of sight triggered at (16, 25). Dialogue: "Wow! You're really good!". Prize: �210. Stationed near central junction passage.
+- Ground Item (5, 32): TM12 (WATER GUN) collected.
+
+
+
+- Ground Item (2, 20): POTION collected.
+
+- Ground Item (35, 31): RARE CANDY collected in far southeast cavern pocket.
+
+- Southeast Pocket (Cols 30..37, Rows 28..34): Open cavern ending at eastern rock wall at col 38.
+
+
+
+- East-West Cross Corridor (Row 22, Cols 10..21): Clear passage running east-west south of the Northern Boundary Wall, passing behind Bug Catcher (16, 23) and connecting Eastern Avenue (col 21) west into Western Cavern Corridor.
+
+
+
+- Eastern North-South Avenue (Cols 20..21, Rows 18..25+): 2-tile wide vertical corridor bounded by eastern rock wall (Col 22) and central pillar (Cols 18..19). Runs north past row 18 toward the northeast caverns and ladders.
+
+
+
+- Central Rock Pillar (Cols 18..19, Rows 8..11): Rock wall at columns 18..19, rows 8..11 blocking westward movement along row 11.
+
+
+
+- Eastern Avenue (Cols 24..27, Rows 11..27): Wide 4-tile north-south thoroughfare connecting southern bypass (rows 26..27) directly north to row 11 corridor.
+
+
+
+- Northern Highway (Rows 6..7, Cols 16..25+): Wide open east-west corridor running along the northern section of 1F.
+
+
+
+- Rock Wall Partition (Rows 8..9, Cols 18..29): Horizontal rock divider between northern highway and row 10.
+
+
+
+- Eastern North-South Passage (Col 30, Rows 6..14): Open floor passage east of rock partition connecting row 10 directly north into Northern Highway.
+
+
+
+- North-Central Alcove (Cols 16..17, Rows 8..17): North-south pocket descending from Northern Highway (rows 6-7) south to Ladder (17, 11).
+
+
+
+- East-West Row 10 Corridor (Row 10, Cols 20..25+): Clear passage running east from column 20 past column 25 toward the eastern wall.
+
+
+
+- Lass (30, 4): Stationed at (30, 4) facing South down column 30. Dialogue: "Wow! It's way bigger in here than I thought!". Team: Oddish Lv 11, Bellsprout Lv 11. Status: Defeated. Yielded ¥165.
+
+
+
+- Row 28 Boundary: Impassable southern rock boundary wall directly south of (14..19, 27) at row 28.
+
+
+
+- Central Wall (Col 23, Row 22): Solid rock wall separating Eastern Avenue from central area.
+
+
+
+- Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
+
+
+
+- Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated (Rattata Lv 10, Rattata Lv 10, Zubat Lv 10). Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
+
+
+
+- Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
+
+- Ladder (5, 5): Descending ladder in the northwest corner of 1F.
+
+- Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
+
+- Vertical Rock Wall Partition (Cols 12..13, Rows 0..12+): Solid vertical rock wall running continuously from row 0 south past row 6 (empirically confirmed solid wall at (12..13, 2)), separating the north-central cavern (cols 14..17) from the northwest corridor (cols 10..11). Corridor crossover is located to the south around rows 15..16 near defeated Youngster
+- Lass (16, 24..25): Defeated (Clefairy Lv 14). Line of sight triggered at (16, 25). Dialogue: "Wow! You're really good!". Prize: ¥210. Stationed near central junction passage.
 
 
 <hr>
@@ -834,6 +897,7 @@
 
 ### Fossil Chamber (Rows 5..10, Cols 8..16)
 - Super Nerd Miguel: Defeated (Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12). Stationed at (12, 8) facing South down column 12.
+- Eastern Bypass Passage (13, 9): Empirically verified open passable tile allowing player to step north around Miguel (12, 8) directly into the Fossil Chamber without obstacle collision [Verified Turn 25407].
 - Ground Artifact (13, 6): HELIX FOSSIL (Claimed by player).
 - Ground Artifact (12, 6): DOME FOSSIL (Claimed by Super Nerd Miguel).
 
@@ -4084,7 +4148,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Post-Game Routing Plan
 1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
-2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [In Progress - in Mt. Moon 1F]
+2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [In Progress - in Mt. Moon B2F Northern Exit Corridor]
 3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
@@ -4103,11 +4167,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Route 4 west and entered Mt. Moon 1F at (18, 5) [Turns 25242-25244]
 
 ## Active Route & Next Steps
-- Current Location: Mt. Moon B2F at (35, 24) on foot facing West in Southern Avenue.
-- Southern Avenue to Southern Corridor: Walk south down cols 32..34 from row 24 to row 31.
-- Southern Corridor to Western Highway: Walk west along rows 31..32 from col 33 to col 11.
-- Western Highway to Route 4 Exit: Walk north along cols 7..11 past Fossil Chamber to Route 4 Exit Chamber at (5, 7).
-- Ascend Ladders: Take B2F ladder (5, 7) to B1F (23, 3), then ladder (27, 3) to 1F Route 4 East exit.
+- Current Location: Mt. Moon B2F at (13, 4) on foot facing North in Northern Exit Corridor.
+- Northern Exit Corridor to Route 4 Exit Chamber: Walk west along rows 2..4 from col 13 to cols 2..8.
+- Ascend Ladders: Take B2F ladder (5, 7) to B1F (23, 3), then ladder (27, 3) to 1F Route 4 East exit room, and emerge onto Route 4 East.
 
 - Turn 25262: Player at (12, 25) on foot facing East. Walking Right x8 along row 25 toward (20, 25) Eastern Avenue corridor.
 - Turn 25263: Wild encounter triggered at (15, 25) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
@@ -4145,28 +4207,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25343-25355: Arrived on B2F at (21, 17), walked to (26, 14), hopped south over ledge (26, 15) into Southern Cavern Corridor, and walked east to (30, 16).
 - Turns 25356-25368: Tested Breakthrough Passage at (33, 15), fled wild Geodude at (31, 16), and empirically verified (33, 15) is fully passable northward into row 14!
 - Turns 25369-25380: Fled wild Zubat at (33, 13), traversed row 13 gateway into Eastern Cavern Highway at (36, 13), followed highway south to row 24, and turned west into Southern Avenue at (35, 24).
-- Turn 25383: Player at (33, 27) on foot facing South. Visual confirms Southern Corridor opens west at row 31. Walking Down x4 to (33, 31) and Left to (32, 31).
-- Turn 25384: Player at (32, 31) on foot facing West. Southern Corridor confirmed clear across rows 31..32. Walking Left x5 along row 31 toward (27, 31).
-- Turn 25385: Wild battle triggered at (28, 31) in Southern Corridor. Pressing B x6 to advance transition to battle menu.
-- Turn 25386: Battle menu active vs wild Zubat Lv 11 at (28, 31). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25387: Fled Zubat cleanly. Player at (28, 31) on foot facing West. Walking Left x5 along row 31 toward (23, 31).
-- Turn 25388: Player at (23, 31) on foot facing West. Walking Left x5 along row 31 toward (18, 31).
-- Turn 25389: Player at (18, 31) on foot facing West. Walking Left x5 along row 31 toward (13, 31) approaching Western Cavern Highway.
-- Turn 25390: Player at (13, 31) on foot facing West. Visual confirms cols 9..11 open north into Western Cavern Highway. Walking Left x2 to (11, 31) and Up x3 to (11, 28).
-- Turn 25391: Player at (11, 28) on foot facing North. Western Cavern Highway confirmed wide open across cols 7..11. Walking Up x5 along col 11 toward (11, 23).
-- Turn 25392: Player at (11, 23) on foot facing North. Walking Left to (10, 23) and Up x4 along column 10 to (10, 19).
-- Turn 25393: Player at (10, 19) on foot facing North. Defeated Grunt sighted at (11, 16). Cols 12..13 confirmed open at row 15. Walking Up x2 to (10, 17), Right x2 to (12, 17), and Up to (12, 16) into Fossil Approach Corridor.
-- Turn 25394: Wild Clefairy encountered at (11, 17) in Mt. Moon B2F. Pressing B x6 to advance intro text to battle menu.
-- Turn 25395: Battle menu active vs wild Clefairy Lv 10 at (11, 17). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25396: Fled Clefairy cleanly. Player at (11, 17) on foot facing North. Walking Right to (12, 17) and Up x4 along column 12 through Fossil Approach Corridor toward (12, 13).
-- Turn 25398: Player at (12, 13) on foot facing North. Walking Up x4 along column 12 into Fossil Chamber toward (12, 9).
-- Turn 25399: Wild encounter triggered at (12, 12) in Fossil Approach Corridor. Pressing B x6 to advance transition to battle menu.
-- Turn 25400: Battle menu active vs wild Zubat Lv 11 at (12, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25401: Fled Zubat cleanly at (12, 12). Player at (12, 12) on foot facing North. Walking Up x3 along column 12 to (12, 10) and testing entrance into Fossil Chamber at (12, 9).
-- Turn 25404: Arrived at (12, 9) facing North directly in front of Super Nerd Miguel (12, 8). Pressing A to speak with Miguel and test passage into Fossil Chamber.
-- Turn 25406: Miguel dialogue confirmed ('Far away, on CINNABAR ISLAND...'). Pressing B x2 to close textbox and Right to test step into (13, 9) to bypass Miguel.
-- Turn 25407: Stepped onto (13, 9) successfully bypassing Miguel! Wild Zubat battle triggered at (13, 9). Pressing B x6 to advance transition to battle menu.
-- Turn 25408: Battle menu active vs wild Zubat Lv 12 at (13, 9). Selecting RUN via Down, Right, A, B x2 to return to overworld.
-- Turn 25409: Fled Zubat cleanly at (13, 9). Player at (13, 9) on foot facing North in Fossil Chamber. Walking Up x5 along column 13 into Northern Exit Corridor toward (13, 4).
+- Turns 25383-25392: Traversed Southern Corridor west to col 11 junction, ascended Western Cavern Highway north along col 10/11, and cleanly fled wild Zubat at (28, 31).
+- Turns 25393-25403: Bypassed defeated Grunt (11, 16) into Fossil Approach Corridor (col 12), fled wild Clefairy at (11, 17) and Zubat at (12, 12), and reached Miguel approach at (12, 9).
+- Turns 25404-25410: Spoke with Miguel, verified bypass via (13, 9) into Fossil Chamber, fled wild Zubat at (13, 9), and walked north along col 13 into Northern Exit Corridor at (13, 4).
 
 <hr>
