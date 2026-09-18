@@ -48,3 +48,4 @@
 - Turn 25087: Player at (9, 18) on Bicycle facing North. Riding Up x2 to row 16 dirt road, then Right x3 along row 16 to (12, 16).
 - Turn 25089: Stunned wandering Mart clerk at (15, 13). Riding Up x2 along col 12 dirt path to row 14, Right x2 to (14, 14), and Up to (14, 13) past row 13 hedge.
 - Turn 25091: Player at (15, 14) facing North. Navigating Right to (16, 14) tall grass, then Up x4 along col 16 past clerk to (16, 10) dirt path.
+- Turn 25093: Wild Pidgey battle active at (15, 14). Pressing B x3 to advance intro text safely to the main battle menu.
