@@ -24,11 +24,11 @@
   2. Cloyster Lv 53 [KO'd Turn 7 with Body Slam, Sheldon 147/213 HP, cured of confusion]
   3. Slowbro Lv 54 [KO'd Turn 19 with Double-Edge Critical Hit, burned both Lorelei Super Potions]
   4. Jynx Lv 56 [OHKO'd Turn 21 with Surf! Sheldon 101/213 HP, 0 damage taken]
-- Final Opponent:
-  5. Lapras Lv 56 [Water/Ice, Lorelei's ace, active on field]
+  5. Lapras Lv 56 [KO'd Turn 24 with Surf, Lorelei defeated!]
 - Turn 19: Double-Edge scored a Critical Hit! Slowbro fainted! Sheldon took 8 recoil to 101/213 HP. Gained 1897 EXP. Declined switch.
 - Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
 - Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
 - Turn 22: Surf scored a CRITICAL HIT on Lapras! Lapras down to ~55% HP! Lapras used Body Slam (Sheldon took only 12 damage to 89/213 HP, no paralysis).
 - Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 89/213).
-- Turn 24: Sheldon fired Surf (12/15 PP), confusion prompt on screen. Advancing turn text to resolve attack.
+- Turn 24: Sheldon pushed through confusion and landed the 3rd Surf! Lapras HP drained to 0 and fainted!
+- VICTORY: ELITE FOUR LORELEI DEFEATED! All 5 Pokémon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
