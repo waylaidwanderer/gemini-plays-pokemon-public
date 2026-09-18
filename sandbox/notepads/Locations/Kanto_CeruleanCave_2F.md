@@ -17,6 +17,8 @@
 - Row 13 Central Corridor (Cols 17..22, Row 13):
   - Traversed (17, 13) through (19, 13) [Physically verified].
   - Visually observed open eastward to (22, 13), where it turns south into Column 22.
+- Row 17 Southern Thoroughfare (Cols 21..27, Row 17): 1-tile wide corridor running east-west along southern rock boundary (row 18). Connects Column 21 at (21, 17) to Column 27 at (27, 17). [Physically verified (21..23, 17)]
+- Column 27 Corridor (Col 27, Rows 14..17): 1-tile wide corridor running north from (27, 17) to (27, 14). Visually observed connecting west at (27, 14) to (26, 14..13).
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Sighted Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Sighted Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7). Physical route to this pocket remains to be explored.
 
