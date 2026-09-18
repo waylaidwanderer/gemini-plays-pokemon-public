@@ -348,6 +348,7 @@
 
 ## Verified Battle Mechanics & Engine Findings
 - **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
+- **PC Withdraw Menu Navigation:** In Generation 1 retail, the PC Item Withdraw scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 25015).
 
 <hr>
 
@@ -4103,5 +4104,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25012: Bedroom PC turned on at (0, 1). Pressing A to open the PC menu.
 - Turn 25013: PC menu open with cursor pointing to WITHDRAW ITEM. Pressing A to view stored items list.
 - Turn 25014: Withdraw list open with cursor on TM34 (Item 1). Testing Up press to check if PC withdraw list wraps vertically to bottom.
+- Turn 25015: Up press confirmed: PC withdraw list does NOT wrap vertically (cursor stayed on Item 1 TM34). Scrolling Down x5 toward Master Ball and Bicycle.
 
 <hr>

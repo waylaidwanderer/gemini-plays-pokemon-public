@@ -25,3 +25,4 @@
 - Turn 25012: Bedroom PC turned on at (0, 1). Pressing A to open the PC menu.
 - Turn 25013: PC menu open with cursor pointing to WITHDRAW ITEM. Pressing A to view stored items list.
 - Turn 25014: Withdraw list open with cursor on TM34 (Item 1). Testing Up press to check if PC withdraw list wraps vertically to bottom.
+- Turn 25015: Up press confirmed: PC withdraw list does NOT wrap vertically (cursor stayed on Item 1 TM34). Scrolling Down x5 toward Master Ball and Bicycle.
