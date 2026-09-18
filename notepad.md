@@ -3816,6 +3816,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Western Corridor: Wide passage along cols 2-3 connecting row 8 corridor to northwest chamber.
 
 ## Trainers
+- Trainer: Cooltrainer ♀ at (7, 5) facing East [Engaged Turn 23995 at (9, 5); Line: 'I wonder if you are good enough...'].
 - Trainer: Cooltrainer ♂ at (3, 3) [Defeated Turn 15531; Team: Ivysaur Lv 42, Wartortle Lv 42, Charmeleon Lv 42, Charizard Lv 42; Prize: ¥1470].
 
 ## Items
