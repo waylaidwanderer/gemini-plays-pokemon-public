@@ -12,7 +12,7 @@
 - Northern District Street (Cols 13..21+, Rows 12..13): Wide open east-west paved avenue revealed north of the Northwest House and Pokémon Center roofs.
 - Western Elevation Boundary & (8, 15) Ramp: Row 15 features an impassable boundary across cols 9..11, but tile (8, 15) is an open walkable ramp connecting Western Avenue directly north into Northern District Street.
 - Northern District House: Located at cols 8..12, rows 10..11 with front door at (9, 11) facing south onto the Northern District Street.
-- Canal Northern Bank Landmark (4, 11): Northern cave/mouth structure at (4, 11) with green-haired NPC at (4, 12).
+- Canal Northern Bank Landmark (4, 11): Cerulean Cave mouth structure at (4, 11). Formerly guarded by green-haired NPC at (4, 12); visually verified departed post-Champion induction [Turn 25483].
 - Western Avenue (Cols 8..11, Rows 16..18): Open north-south street connecting to the main thoroughfare along row 18.
 - Eastern Elevation Boundary (Row 19, Cols 32..37): Impassable northbound elevation boundary across cols 32..37.
 - Eastern Bollard Line (Col 35, Rows 20..27): Vertical barrier of wooden bollards separating col 34 from cols 36..37.

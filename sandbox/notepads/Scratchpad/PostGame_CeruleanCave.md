@@ -6,13 +6,13 @@
 - Post-Game Start: Pallet Town [Turn 25002]
 
 ## Hypotheses to Empirically Verify
-- Hypothesis 1: Cerulean Cave entrance guard (northwest of Cerulean City across Route 24 river) has departed following Champion induction.
+- Hypothesis 1: Cerulean Cave entrance guard (northwest of Cerulean City across Route 24 river) has departed following Champion induction. [CONFIRMED - Turn 25483: guard at (4, 12) absent, cave mouth (4, 11) unobstructed]
 - Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
 
 ## Post-Game Routing Plan
 1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
 2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [Completed - Turn 25476 arrived in Cerulean City]
-3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
+3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status. [Completed - Turn 25495 launched Surf, Turn 25498 entered Cerulean canal]
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
 ## Completed Milestones
@@ -31,9 +31,9 @@
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean City at (8, 18) mounted on Bicycle facing East.
-- Cerulean City to Cerulean Cave: Ascending (8, 15) ramp north into Northern District Street, then riding east and north to Route 24 to Surf southwest into Cerulean Cave.
-- Cerulean City to Cerulean Cave: Traverse north to Route 24 river, Surf southwest to Cerulean Cave entrance, and verify guard departure.
+- Current Location: Cerulean City canal at (10, 5) surfing on Sheldon facing West.
+- Canal to Cerulean Cave: Surf West along row 5 to column 6 canal channel, then surf South down column 6 toward cave entrance at (4, 11) to locate walkable landing shore.
+- Objective: Step ashore in front of Cerulean Cave and enter through cave entrance at (4, 11).
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
@@ -47,18 +47,4 @@
 - Turns 25413-25420: Ascended B2F northern ladder, traversed B1F transit corridor, and exited Mt. Moon onto Route 4 East at (24, 6).
 - Turns 25420-25468: Mounted Bicycle on Route 4 East, rode east along row 6, hopped col 45 ledge into central corridor, navigated col 49 gap to row 10 corridor, bypassed col 62 trees via row 8 corridor, and hopped row 9 ledge onto row 10-11 bridge at (79, 10).
 - Turn 25475: Player reached (85, 10) on Bicycle on eastern bridge approach. Riding east into Cerulean City.
-- Turn 25483: Player reached (8, 13) on Northern District Street. Visual confirmation: Cerulean Cave entrance at (4, 11) is OPEN and the guard at (4, 12) has departed! Riding east along row 13 toward col 20 to access Route 24 river.
-- Turn 25484: Player at (15, 13) on Bicycle facing East. Turning north at col 20 avenue toward Route 24.
-- Turn 25485: Player reached (20, 9) on Bicycle facing North on Route 24 Avenue. Riding north along col 20 toward Route 24 to Surf into Cerulean Cave.
-- Turn 25486: Player reached (20, 1) at northern boundary of Cerulean City. Crossing into Route 24.
-- Turn 25487: Arrived on Route 24 at (10, 33) on Nugget Bridge mounted on Bicycle facing North. Riding north toward row 15 water access.
-- Turn 25488: Player at (10, 29) on Nugget Bridge. Lass at (10, 28). Shifting right to column 11 to bypass.
-- Turn 25489: Player at (11, 26) on Nugget Bridge. Youngster at (11, 25). Shifting left to column 10 to bypass to (10, 24).
-- Turn 25490: Player at (10, 24) on Nugget Bridge. Lass 4 at (10, 22). Shifting right to col 11 to bypass to (10, 21).
-- Turn 25491: Player at (10, 20) on Nugget Bridge. Bypassed Lass 4. Riding north along col 10 to row 14 Northern Avenue.
-- Turn 25492: Player reached (10, 14) on Northern Avenue, completely clearing Nugget Bridge. Aligning to western shoreline at (8, 15..16) to launch Surf.
-- Turn 25495: Launched SURF with Sheldon at (8, 16) on Route 24 river! Surfing south down the river corridor toward Cerulean City canal and Cerulean Cave.
-- Turn 25496: Player surfing at (8, 24) on Route 24 river facing South. River is completely open heading south toward Cerulean City boundary.
-- Turn 25497: Player at (8, 34) surfing south toward Cerulean City boundary. Surfing south into Cerulean City canal.
-- Turn 25498: Arrived in Cerulean City canal at (18, 0) surfing on Sheldon. Navigating canal south toward cave landing bank at (5, 12).
-- Turn 25499: Player reached (18, 5) in Cerulean canal. Row 6 tree line borders south; canal turns west along rows 4..5 toward column 6.
+- Turns 25483-25499: Traversed Cerulean City from Route 4 bridge to Northern District Street, visually verified guard at (4, 12) departed, navigated north through cols 20..21 to Route 24, bypassed defeated bridge trainers on col 10/11, launched SURF with Sheldon at (8, 16) on Route 24 river, and surfed south down river corridor into Cerulean City canal at (18, 0) through (10, 5).
