@@ -4158,9 +4158,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Completed Milestones
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
-- [x] Overworld Overland Transit: Pallet Town -> Viridian City -> Viridian Forest -> Pewter City -> Route 3 -> Mt. Moon [Turns 25055-25245]
-- [x] Mt. Moon Underground Transit: Traversed 1F, B1F, B2F via breakthrough passage, emerged Route 4 East [Turns 25262-25417]
-- [x] Cerulean City & River Transit: Cycled Route 4, surfed Route 24 canal to cave entrance [Turns 25420-25504]
 - [x] Cerulean Cave Entry: Entered 1F at (24, 17), pre-swapped Master Ball to Slot 1 [Turns 25505-25510]
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 - [x] Mapped 2F Column 24 spur (dead-end at (24, 15)) [Turns 25529-25535]
@@ -4170,12 +4167,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (3, 1) on foot facing North.
-
-- Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
-
-
-
+- Current Location: Cerulean Cave 2F Northwest Sector at (5, 1) on foot facing West.
+- Active Navigation: Cease re-traversing Row 1. Navigating west to (3, 1), south down Column 3 (3, 2..3), and exploring unvisited corridors south of Row 3 toward Row 5 and Ladder (1, 3).
+- Objective: Reach and test Ladder (1, 3) access via Row 5 / Column 1, or explore southern corridors for descent to B1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4263,5 +4257,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
+- Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
 
 <hr>
