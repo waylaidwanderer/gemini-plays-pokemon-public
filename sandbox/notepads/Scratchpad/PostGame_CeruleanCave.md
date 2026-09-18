@@ -23,13 +23,11 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (6, 16) on foot.
-- Physical Traversal Discoveries [Turn 26024]:
-  - (7, 17) is a solid rock wall! Direct southern descent from (7, 16) is blocked.
-  - (6, 16) is open floor!
-  - (5, 16) is a solid rock wall! Direct western traversal along Row 16 is blocked.
-  - (6, 17) is open floor, providing the true entrance to the Row 17 southern thoroughfare.
-- Active Plan: Step Down to (6, 17), then march west along Row 17 through (5, 17), (4, 17), (3, 17), (2, 17) to Column 1.
+- Current Location: Cerulean Cave 2F at (5, 17) on foot.
+- Physical Traversal Discoveries [Turn 26028]:
+  - Row 17 corridor (Cols 1..6, Row 17) is open dark speckled floor.
+  - Escaped wild Rhydon at (5, 17) with zero damage.
+- Active Plan: March west along Row 17 through (4, 17), (3, 17), (2, 17), (1, 17), then step Up into Column 1 at (1, 16) to explore the western margin toward Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
