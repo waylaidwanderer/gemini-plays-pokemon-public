@@ -160,6 +160,8 @@
 
 ## Regular Items
 
+- MASTER BALL x1 [Withdrawn from PC Turn 25028]
+
 - FULL RESTORE x10 [Purchased 15 Turn 24635, 5 used during Elite Four/Champion gauntlet]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
@@ -170,7 +172,7 @@
 - BICYCLE [Withdrawn from PC Turn 25022]
 
 ## Inventory Capacity
-- Total Slots Used: 7 / 20 [Turn 24594]
+- Total Slots Used: 8 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
   2. FULL RESTORE x10
@@ -189,7 +191,6 @@
 - TM14 (BLIZZARD) x1 (PC) [Stored Turn 24557]
 - CARBOS x1 (PC) [Stored Turn 24553]
 - ESCAPE ROPE x1 (PC) [Stored Turn 24548]
-- MASTER BALL x1 (PC) [Stored Turn 24535]
 - SUPER ROD x1 (PC) [Stored Turn 24531]
 - HM01 (CUT) x1 (PC) [Stored Turn 24526]
 - TM46 (PSYWAVE) x1 (PC) [Stored Turn 13308]
@@ -4085,5 +4086,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25025: Cursor reached OLD ROD (Item 11). Continuing to scroll Down x5 toward Master Ball.
 - Turn 25026: Cursor reached LIFT KEY (Item 16). Continuing to scroll Down x5 toward Master Ball.
 - Turn 25027: Cursor reached TM29 (Item 21). Continuing to scroll Down x5 to bring Master Ball onto screen.
+- Turn 25028: Cursor confirmed on MASTER BALL x 1. Pressing A x2 to select and confirm withdrawal into Bag (8/20 slots used).
+- Turn 25029: Master Ball withdrawn! Both Bicycle and Master Ball secured in Bag (8/20 slots). Pressing B x4 to log off PC and return to 2F overworld.
 
 <hr>

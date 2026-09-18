@@ -22,3 +22,4 @@
 - Turn 25026: Cursor reached LIFT KEY (Item 16). Continuing to scroll Down x5 toward Master Ball.
 - Turn 25027: Cursor reached TM29 (Item 21). Continuing to scroll Down x5 to bring Master Ball onto screen.
 - Turn 25028: Cursor confirmed on MASTER BALL x 1. Pressing A x2 to select and confirm withdrawal into Bag (8/20 slots used).
+- Turn 25029: Master Ball withdrawn! Both Bicycle and Master Ball secured in Bag (8/20 slots). Pressing B x4 to log off PC and return to 2F overworld.
