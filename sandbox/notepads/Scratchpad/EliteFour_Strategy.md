@@ -62,3 +62,4 @@
 - Supplies: FULL RESTORE x14, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POKé FLUTE.
 - Turn 24857: Sighted Lance at (6, 1) facing South. Player at (6, 3). Opening Bag menu to heal Sheldon from 194 to 216 HP with Full Restore.
 - Turn 24860: Full Restore used on Sheldon (healed from 194 to 216/216 HP). Full Restore count: 14. Closing menus to challenge Lance.
+- Turn 24864: Lance pre-battle dialogue on screen ('Well, are you ready to lose?'). Advancing dialogue to start battle against Gyarados Lv 58.
