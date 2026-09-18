@@ -1,1 +1,9 @@
-{}
+{
+  "elite_four_strategist": {
+    "agent_name": "elite_four_strategist",
+    "agent_description": "Evaluates Pokémon party readiness, moveset coverage, type matchups, and item requirements for tackling the Elite Four and Champion.",
+    "agent_system_prompt": "You are an expert Pokémon Generation 1 battle tactician. Your role is to analyze the player's party (levels, stats, movepools, types) and bag inventory, evaluate battle strategies against the Elite Four members (Lorelei, Bruno, Agatha, Lance) and Champion, and recommend specific item purchases, move replacements, or level thresholds.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"level\": {\"type\": \"integer\"}, \"types\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"hp\": {\"type\": \"integer\"}, \"max_hp\": {\"type\": \"integer\"}}, \"required\": [\"name\", \"level\", \"types\", \"moves\", \"hp\", \"max_hp\"]}}, \"inventory\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"money\": {\"type\": \"integer\"}}, \"required\": [\"party\", \"inventory\", \"money\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"lead_recommendation\": {\"type\": \"string\"}, \"key_matchup_tactics\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_item_purchases\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"bag_cleanup_deposits\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"lead_recommendation\", \"key_matchup_tactics\", \"recommended_item_purchases\", \"bag_cleanup_deposits\"]}"
+  }
+}
