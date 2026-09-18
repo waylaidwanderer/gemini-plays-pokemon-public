@@ -9,7 +9,7 @@
 - Active Team: Blastoise (SHELDON) Lv 70
 
 - Money: ¥107771 [Turn 24983]
-- Pokédex: 15 Caught / 50+ Seen
+- Pokédex: 17 Caught / 124 Seen
 
 ## Milestones
 
