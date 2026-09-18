@@ -1,9 +1,13 @@
 # Cerulean Cave 1F Geography & Exploration
 
 ## Connections
+- Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
+- Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
+- Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
+- Ground Item (19, 3): Poké Ball item visually confirmed on rock ledge bordering subterranean water at (19, 3).
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
 - Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
