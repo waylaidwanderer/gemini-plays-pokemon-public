@@ -160,26 +160,25 @@
 - FULL HEAL x5 [Purchased Turn 11905 at Fuchsia Mart]
 - TM43 (SKY ATTACK) x1 [Obtained Turn 15496 at Victory Road 1F (11, 0)]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
-- TM27 (FISSURE) x1 [Received Turn 15114 from Gym Leader Giovanni]
 - TM17 (SUBMISSION) x1 [Obtained Turn 16758 at Victory Road 2F (27, 5)]
 
 ## Key Items & HMs
 - POKé FLUTE [Obtained Turn 6599, Verified Turn 11081]
 
 ## Inventory Capacity
-- Total Slots Used: 9 / 20 [Turn 24571]
+- Total Slots Used: 8 / 20 [Turn 24575]
 - Verified Active Bag Items (9 items):
   1. POK� FLUTE
   2. FULL RESTORE x1
   3. MAX POTION x1
   4. REVIVE x5
   5. FULL HEAL x6
-  6. TM27 (FISSURE) x1
   7. TM43 (SKY ATTACK) x1
   8. MAX REVIVE x1
   9. TM17 (SUBMISSION) x1
 
 ## Stored / PC Items
+- TM27 (FISSURE) x1 (PC) [Stored Turn 24575]
 - TM38 (FIRE BLAST) x1 (PC) [Stored Turn 24569]
 - SECRET KEY x1 (PC) [Stored Turn 24565]
 - TM22 (SOLARBEAM) x1 (PC) [Stored Turn 24561]
@@ -4055,7 +4054,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - [x] TM22 (SOLARBEAM) [Turn 24561]
   - [x] SECRET KEY [Turn 24565]
   - [x] TM38 (FIRE BLAST) [Turn 24569]
-  - [ ] TM27 (FISSURE)
+  - [x] TM27 (FISSURE) [Turn 24575]
   - [ ] TM43 (SKY ATTACK)
   - [ ] TM17 (SUBMISSION)
 - Deposited CARBOS into PC storage [Turn 24553] to free bag slot.
