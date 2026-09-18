@@ -4130,5 +4130,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25122: Viridian City complete! Player at (18, 2) on Bicycle facing North. Pressing Up x3 along col 18 to cross border into Route 2 at (8, 71).
 - Turn 25124: Player at (8, 71) on Bicycle facing North on Route 2. Riding Up x5 along col 8 road to (8, 66).
 - Turn 25126: Player at (8, 66) on Bicycle facing North. Riding Up x4 along col 8 to (8, 62), then Left to (7, 62) to align with row 61 ramp.
+- Turn 25128: Player at (7, 62) on Bicycle. Ramp confirmed at (7, 61). Riding Up x5 through ramp onto highway at (7, 57).
 
 <hr>
