@@ -60,3 +60,4 @@
 - Turn 25196: Fled Caterpie cleanly; player at (1, 14) on Bicycle facing North. Riding Up x8 along col 1 Exit Avenue toward (1, 6).
 - Turn 25197: Wild Metapod encounter triggered at (1, 11) in Exit Avenue. Pressing B x6 to advance intro text to battle menu.
 - Turn 25198: Wild Metapod Lv 4 in battle. Selecting RUN via Down, Right, A and B x2 to return to overworld.
+- Turn 25199: Fled Metapod cleanly; player at (1, 11) on Bicycle facing North. Riding Up x6 along col 1 Exit Avenue toward gatehouse at (1, 5).
