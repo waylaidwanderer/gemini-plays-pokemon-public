@@ -4166,11 +4166,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (13, 9) on foot.
+- Current Location: Cerulean Cave 2F Corridor at (15, 8) on foot.
 - Empirical Physical Discovery: Ladder (3, 11) leads from 1F western terrace to 2F Western Pocket! Sighted Item Ball on ground at (4, 15).
 - Routing Plan: Survey Western Pocket corridors {(3, 11), (2, 11), (2, 10), (3, 10), (3, 9)} to check for passable tiles or branches, and locate passage toward Row 7 and Ladder (1, 3).
 - Empirical Physical Discovery: Tile (4, 9) is 100% passable! Confirms exit from Western Pocket into Column 5 corridor network.
-- Next Step: Step Up to (13, 8), Right to (14, 8), Up to (14, 7), Right x2 to (16, 7) to access Column 16 passage to Row 5.
+- Next Step: Step Down to (15, 9), then Right x3 along Row 9 corridor to (18, 9) near Ladder (19, 7).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
