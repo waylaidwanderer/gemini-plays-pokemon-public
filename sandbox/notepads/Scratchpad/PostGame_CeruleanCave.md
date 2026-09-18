@@ -72,3 +72,4 @@
 - Turn 25217: Player at (9, 9) on Bicycle facing East. Sighted Diglett's Cave at (12, 9). Riding Up x8 along col 9 northbound avenue toward Pewter City.
 - Turn 25218: Player at (9, 1) on Bicycle facing North in 2-tile avenue (cols 8..9). Riding Up x6 across border into Pewter City.
 - Turn 25220: Arrived in Pewter City at (19, 31) on Bicycle. Stepping Left to col 18 to bypass signpost at (19, 29), then riding Up x8 along Main Avenue toward (18, 23).
+- Turn 25221: Player at (18, 23) on Bicycle. Stepping Right to (19, 23) to bypass central fence, then riding Up x5 along col 19 to (19, 18) at Route 3 exit avenue.
