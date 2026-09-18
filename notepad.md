@@ -220,7 +220,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 68, Water]
   - Status: Healthy
-  - HP: 193 / 216
+  - HP: 143 / 216
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
   - Moves: Double-Edge (PP 8/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 6/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3963,7 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
-  - HP: 193 / 216 (Healthy)
+  - HP: 143 / 216 (Healthy)
   - Moves: Double-Edge (PP 8/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 5/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166
 - Support Pivots:
@@ -4005,6 +4005,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24874: Body Slam hit Gyarados into the red! Lance burned a Hyper Potion on Gyarados. Sheldon at 216/216 HP. Advancing text with B to battle menu.
 - Turn 24876: Battle menu open on FIGHT. Gyarados at full HP after Hyper Potion. Navigating Up from Body Slam to Double-Edge (Slot 1, PP 9/15) to hit Gyarados.
 - Turn 24878: Double-Edge dealt 92 damage to Gyarados (~30-35% HP remaining). Sheldon took 23 recoil to 193/216 HP. Advancing text to battle menu.
+- Turn 24880: Gyarados used Hyper Beam for 50 damage (Sheldon at 143/216 HP). Gyarados must recharge! Battle menu open on FIGHT. Firing Double-Edge (Slot 1) to KO Gyarados.
 
 
 <hr>
