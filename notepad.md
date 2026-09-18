@@ -4193,7 +4193,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!- Turn 25505: Entered Cerulean Cave 1F at (24, 17) on foot facing North.
 - Turn 25510: Pre-swapped Master Ball to Slot 1 in Bag for safe 100% instant capture execution on Mewtwo.
 
-- Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.
+- Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.- Turn 25517: Arrived at (21, 12) facing North. Visually identified Ladder (18, 9), Staircase (21, 11), Staircase (17, 15), and Staircase (25, 9). Ascending (21, 11) to scout elevated terrace.
+
 
 <hr>
 
@@ -4212,6 +4213,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
+- Ladder (18, 9): Ascending cave ladder located at (18, 9) in western passage. Accessible via col 18 corridor.
+- Staircase (17, 15): Wooden staircase at (17, 15) ascending west to upper elevation.
+- Staircase (25, 9): Wooden staircase at (25, 9) situated adjacent to the subterranean lake.
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
