@@ -4117,5 +4117,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25094: Battle menu confirmed on FIGHT vs Pidgey. Pressing Down, Right, A, B to select RUN and escape to overworld.
 - Turn 25096: Player at (15, 14) on Bicycle facing North. Riding Right to (16, 14), then Up x4 along col 16 to (16, 10) dirt path.
 - Turn 25098: Player at (16, 10) on Bicycle facing North. Riding Up x5 along col 16 through tall grass to row 5 open corridor at (16, 5).
+- Turn 25100: Player at (16, 5) on Bicycle facing North. Stepping Up to (16, 4), then riding Left x4 along row 4 dirt path to (12, 4).
 
 <hr>
