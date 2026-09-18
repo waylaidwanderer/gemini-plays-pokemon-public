@@ -4151,10 +4151,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
 
 ## Post-Game Routing Plan
-1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
-2. Travel north via Route 1, Viridian City, Route 2, Pewter City, Route 3, Route 4, and Mt. Moon to Cerulean City. [Completed - Turn 25476 arrived in Cerulean City]
-3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status. [Completed - Turn 25495 launched Surf, Turn 25498 entered Cerulean canal]
-4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
+1. Explore Cerulean Cave interior (1F, 2F, B1F) and capture Mewtwo using Master Ball.
 
 ## Completed Milestones
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
@@ -4166,14 +4163,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (6, 11) on foot.
-- Western Exploration Plan: Navigating west from (6, 11) via (5, 11) -> (5, 10) -> (5, 9) -> (3, 9) -> (3, 10) -> (2, 10) to map out Column 1-2 western edge and search for routes to the Item Ball at (4, 15) and unexplored sectors.
-- Western Corridors Status:
-  - Row 11: Connects (5, 11) through (10, 11). (10, 12) is a 1-tile dead-end alcove.
-  - Row 9: Open horizontal corridor connecting (3, 9) through (11, 9).
-  - Column 5: Connects Row 9 at (5, 9) to Row 11 at (5, 11).
-  - Ladder (3, 11): Connects to 1F western elevated terrace; path north via (3, 10) connects directly to Row 9.
-  - Item Ball at (4, 15): Visually sighted. Adjacent to open floor at (5, 15). Direct access from north blocked by rock wall at (4..5, 12..13). Access via lower rows/columns under active investigation.
+- Current Location: Cerulean Cave 2F at (2, 10) on foot.
+- Western Perimeter Probing & Physical Discoveries [Turn 25951]:
+  - (1, 10): Solid rock wall blocking westward movement from (2, 10).
+  - (2, 9): Solid rock wall blocking northward movement from (2, 10).
+  - (2, 11): Open floor leading east to Ladder (3, 11) and dead-ending south at (2, 12) rock wall.
+  - Thus (2, 10..11) is a dead-end spur off (3, 10); no westward passage into Column 0/1 exists from here.
+- Visual Layout of Western Margin:
+  - Column 0 (Rows 9..13): Open corridor visible, but isolated from (2, 10) by rock wall at Column 1 (Rows 10..11, 13..14).
+  - Row 7 (Cols 1..7): Open horizontal corridor visible north of Row 8 barrier wall. Connects south into (1, 8) and (1, 9) -> (0, 9), and north via (6, 6) toward Row 5.
+- Active Plan: Return to (3, 9) on Row 9. Investigate whether Row 9 connects north to Row 7 or Row 5 further east, or check access to Row 5/7 from Ladder (19, 7).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
