@@ -4162,10 +4162,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Central-Western Terrace at (18, 9) on foot facing North.
-- Active Navigation: Descended Ladder (19, 7) to 1F (18, 9). Navigating west along Row 9 (18..11, 9), south down Column 11 to Staircase (11, 13), and launching Surf into subterranean water to explore western waterway (Cols 8..9) toward B1F descent.
-- Step 1: Walking Left x4 along Row 9 to (14, 9).
-- Objective: Surf western waterways to locate descending path to B1F and capture Mewtwo.
+- Current Location: Cerulean Cave 1F Central-Western Terrace at (11, 9) on foot facing West.
+- Active Navigation: Arrived at Column 11. Walking south down Column 11 (11, 10..13) onto Staircase (11, 13) to launch Surf into subterranean water at (11, 14).
+- Step 1: Walking Down x4 down Column 11 onto Staircase (11, 13).
+- Objective: Launch Surf from Staircase (11, 13) to explore western waterway (Cols 8..9) heading south toward B1F descent and Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
