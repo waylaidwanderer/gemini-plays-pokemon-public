@@ -4174,8 +4174,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Column 1 spur (1, 15..16) is a dead-end alcove off Row 17.
   - Row 17 terminates west at (1, 17) against solid rock walls (0, 17) and (1, 18).
   - The southwest sector of 2F is now 100% physically surveyed and exhausted (Ultra Ball retrieved).
-  - Escaped wild Rhydon at (4, 17) with zero damage.
-- Active Plan: March east along Row 17 to (6, 17), step Up to (6, 16), and proceed east along Row 16 toward (9, 16) and Column 10.
+- Floor Strategy & Strategic Pivot [Turn 26041]:
+  - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
+  - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
+  - Actionable Route: Backtrack east via Row 17 to Column 10 and Column 12 to reach Row 9, navigate west to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
+- Active Plan: March east along Row 17 from (4, 17) through (5, 17) to (6, 17), step Up to (6, 16), and proceed east along Row 16 toward (9, 16).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4242,6 +4245,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Westernmost Boundary & Dead-End Spur (Cols 0..2, Rows 14..17):
+  - Row 17 Southern Thoroughfare terminates west at (1, 17), bounded by solid rock walls at (0, 17) and (1, 18).
+  - Column 1 Spur: (1, 16..15) is a 2-tile dead-end alcove branching north from (1, 17), bounded by solid rock walls at (0, 15..16), (2, 15..16), and (1, 14).
+  - Enclosed Upper Western Enclave: The area at (0..2, 12..14) is completely walled off from Row 17 and Column 1 by solid rock barriers (0..1, 14) and (2, 15). [Physically verified Turns 26030-26036]
 - Lower Southwest Corridor Network (Cols 4..13, Rows 13..17):
   - Row 13 West: Open horizontal corridor spanning (5..8, 13). (4, 13) and (9..11, 13) are solid rock walls.
   - Column 5 South: Open vertical corridor spanning (5, 13..15). Connects directly east of Item Ball (4, 15).
