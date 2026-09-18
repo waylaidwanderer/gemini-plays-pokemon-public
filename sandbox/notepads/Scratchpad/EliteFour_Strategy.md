@@ -20,3 +20,4 @@
 - Turn 24973: Struggle hit Venusaur into deep red (~5% HP remaining)! Sheldon took 21 recoil to 90/222 HP. Advancing text through Venusaur's turn with B x5 to reach battle menu for the winning blow.
 - Turn 24974: Venusaur used Mega Drain, draining Sheldon to 44/222 HP and recovering to ~20% HP. Advancing text with B x3 to reach the main battle menu.
 - Turn 24975: Main battle menu open with cursor on FIGHT facing Venusaur Lv 65 (~20-25% HP). Sheldon at 44/222 HP. Executing strategy to maintain HP above 50: pressing Down to ITEM and A to open Bag for Full Restore.
+- Turn 24976: Bag menu open with cursor on REVIVE. Navigating Up x2 to FULL RESTORE x11 and pressing A to open party screen to heal Sheldon.
