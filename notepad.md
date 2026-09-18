@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F at (11, 14) surfing facing East.
-- Active Navigation: Stepping Up x2 onto Staircase (11, 13) to land ashore on foot at (11, 12).
-- Objective: Traverse central-western elevated terrace east across rows 12..9 to reach Ladder (18, 9).
+- Current Location: Cerulean Cave 1F Central-Western Land Terrace at (11, 12) on foot facing North.
+- Active Navigation: Walking North up Column 11 (11, 11..9) and East along Row 9 (12..13, 9) toward Ladder (18, 9).
+- Objective: Reach and ascend Ladder (18, 9) to access 2F secluded northwest sector and locate B1F Mewtwo route.
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
@@ -4205,6 +4205,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
 - Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
+- Central-Western Elevated Land Terrace (Cols 11..18, Rows 8..13): Elevated plateau accessed via Staircase (11, 13). Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12)]
 - Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..13). [Visually confirmed Turn 25637]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7. At (8..9, 6..7), turns south down Columns 8..9 into a vertical water highway heading toward the southern cavern. [Physically verified]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
