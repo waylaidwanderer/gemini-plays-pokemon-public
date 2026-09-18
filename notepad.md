@@ -4147,7 +4147,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Hypotheses to Empirically Verify
 - Hypothesis 1: Cerulean Cave entrance guard (northwest of Cerulean City across Route 24 river) has departed following Champion induction. [CONFIRMED - Turn 25483: guard at (4, 12) absent, cave mouth (4, 11) unobstructed]
-- Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
+- Hypothesis 2: Legendary Pok�mon Mewtwo resides within Cerulean Cave B1F at Level 70.
 
 ## Post-Game Routing Plan
 1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
@@ -4156,56 +4156,23 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
 
 ## Completed Milestones
-- [x] Post-Game Start: Pallet Town Player's House [Turn 25002]
-- [x] Full Party Heal with Mom [Turn 25006]
-- [x] Withdrew BICYCLE and MASTER BALL from bedroom PC (8/20 bag slots) [Turns 25022-25028]
-- [x] Mounted Bicycle in Pallet Town [Turn 25056]
-- [x] Traversed Route 1 north via column 10/16 corridors, fleeing wild encounters cleanly [Turns 25061-25105]
-- [x] Traversed Viridian City north via columns 20 and 18-19 thoroughfares [Turns 25106-25122]
-- [x] Traversed Route 2 south sector via row 61 ramp and column 4/8 corridors [Turns 25123-25138]
-- [x] Traversed Viridian Forest from south gatehouse to north gatehouse, navigating eastern perimeter, northern avenue, west-central corridor, and western exit avenue [Turns 25139-25206]
-- [x] Emerged on Route 2 North, re-equipped Bicycle, and traversed north into Pewter City [Turns 25208-25220]
-- [x] Traversed Pewter City east via Main Avenue and row 18 plaza into Route 3 [Turns 25221-25225]
-- [x] Traversed Route 3 via upper tier, eastern road, and southern bypass to Route 4 [Turns 25226-25241]
-- [x] Traversed Route 4 west and entered Mt. Moon 1F at (18, 5) [Turns 25242-25244]
-- [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
+- [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
+- [x] Overworld Overland Transit: Pallet Town -> Viridian City -> Viridian Forest -> Pewter City -> Route 3 -> Mt. Moon [Turns 25055-25245]
+- [x] Mt. Moon Underground Transit: Traversed 1F, B1F, B2F via breakthrough passage, emerged Route 4 East [Turns 25262-25417]
+- [x] Cerulean City & River Transit: Cycled Route 4, surfed Route 24 canal to cave entrance [Turns 25420-25504]
+- [x] Cerulean Cave Entry: Entered 1F at (24, 17), pre-swapped Master Ball to Slot 1 [Turns 25505-25510]
+- [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
+- [x] Mapped 2F Column 24 spur (dead-end at (24, 15)) [Turns 25529-25535]
+- [x] Mapped 2F Row 11 corridor west to (14, 11) [Turns 25535-25540]
+- [x] Mapped 2F Row 15 spur (dead-end at (19, 15)) [Turns 25542-25545]
+- [x] Backtracked to Row 11 (14, 11), navigated south branch (17, 11..13) into Row 13 corridor [Turns 25548-25556]
+- [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (19, 15) facing East.
-- Active Navigation: Backtracking west along Row 15 to (15, 13), north to Row 11 at (14, 11), and east to (17, 11) to take the south branch (17, 12..13).
-- Objective: Explore Row 13 / Row 17 southern corridors to locate ladders connecting to B1F route.
+- Current Location: Cerulean Cave 2F at (19, 13) facing East.
+- Active Navigation: Traversing East along Row 13 corridor to (22, 13), then South down Column 22 toward Row 15/17 network.
+- Objective: Map Row 13/Column 22 corridor network and locate ladders descending to isolated 1F sector for B1F Mewtwo access.
 
-- Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
-- Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
-- Turns 25331-25342: Traversed B1F Northwest Transit Corridor south along col 5 to row 16, fled wild Zubat at (10, 16), walked east to (21, 16), and descended ladder (21, 17) to B2F Main Cavern.
-- Turns 25343-25355: Arrived on B2F at (21, 17), walked to (26, 14), hopped south over ledge (26, 15) into Southern Cavern Corridor, and walked east to (30, 16).
-- Turns 25356-25368: Tested Breakthrough Passage at (33, 15), fled wild Geodude at (31, 16), and empirically verified (33, 15) is fully passable northward into row 14!
-- Turns 25369-25380: Fled wild Zubat at (33, 13), traversed row 13 gateway into Eastern Cavern Highway at (36, 13), followed highway south to row 24, and turned west into Southern Avenue at (35, 24).
-- Turns 25383-25392: Traversed Southern Corridor west to col 11 junction, ascended Western Cavern Highway north along col 10/11, and cleanly fled wild Zubat at (28, 31).
-- Turns 25393-25403: Bypassed defeated Grunt (11, 16) into Fossil Approach Corridor (col 12), fled wild Clefairy at (11, 17) and Zubat at (12, 12), and reached Miguel approach at (12, 9).
-- Turns 25404-25410: Spoke with Miguel, verified bypass via (13, 9) into Fossil Chamber, fled wild Zubat at (13, 9), and walked north along col 13 into Northern Exit Corridor at (13, 4).
-- Turns 25413-25420: Ascended B2F northern ladder, traversed B1F transit corridor, and exited Mt. Moon onto Route 4 East at (24, 6).
-- Turns 25420-25468: Mounted Bicycle on Route 4 East, rode east along row 6, hopped col 45 ledge into central corridor, navigated col 49 gap to row 10 corridor, bypassed col 62 trees via row 8 corridor, and hopped row 9 ledge onto row 10-11 bridge at (79, 10).
-- Turn 25475: Player reached (85, 10) on Bicycle on eastern bridge approach. Riding east into Cerulean City.
-- Turns 25483-25499: Traversed Cerulean City from Route 4 bridge to Northern District Street, visually verified guard at (4, 12) departed, navigated north through cols 20..21 to Route 24, bypassed defeated bridge trainers on col 10/11, launched SURF with Sheldon at (8, 16) on Route 24 river, and surfed south down river corridor into Cerulean City canal at (18, 0) through (10, 5).
-- Turn 25502: Player at (10, 5) surfing facing West. Navigating Left x4 to (6, 5) channel and Down x4 to (6, 9) toward Cerulean Cave at (4, 11).
-- Turn 25503: Player at (6, 9) surfing facing South in canal. Visual confirmation: cave mouth at (4, 11), cobblestone bank at (5, 12) and (4, 12). Surfing Down x3 to (6, 12) and stepping Left onto shore at (5, 12).
-- Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!- Turn 25505: Entered Cerulean Cave 1F at (24, 17) on foot facing North.
-- Turn 25510: Pre-swapped Master Ball to Slot 1 in Bag for safe 100% instant capture execution on Mewtwo.
-
-- Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.- Turn 25517: Arrived at (21, 12) facing North. Visually identified Ladder (18, 9), Staircase (21, 11), Staircase (17, 15), and Staircase (25, 9). Ascending (21, 11) to scout elevated terrace.
-- Turn 25522: Ascended Ladder (23, 7) on 1F and arrived on Cerulean Cave 2F at (22, 6) facing North. Ladder (19, 7) confirmed to connect to 1F (23, 7). Scouting 2F northern corridor along col 22.
-- Turn 25526: Verified (22, 5) is solid rock wall. (22, 6) only exits South to (22, 7), which connects east to Column 23 corridor running south.
-- Turn 25529: Arrived at Row 11 junction at (23, 11). Confirmed (22, 6) is the ladder to 1F (23, 7). South is blocked by (23, 12) wall. Heading East to (24, 11) and South down Column 24 corridor.
-
-- Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
-- Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
-- Turn 25541: Wild Kadabra appeared at (14, 13). Selecting RUN to flee cleanly.
-- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.- Turn 25545: Reached (19, 15); verified Row 15 terminates at (19, 15) dead end. Backtracking west along Row 15 to (15, 13) and north to Row 11.
-
-- Turn 25547: Wild Dodrio appeared at (15, 15). Selecting RUN to flee cleanly and resume backtracking to Row 11.
-- Turn 25548: Fled wild Dodrio cleanly. Player at (15, 15) facing North. Backtracking via (15, 13) and (14, 13) north to Row 11 at (14, 11).
-- Turn 25557: Wild Kadabra Lv 51 appeared at (19, 13). Fleeing battle to resume scouting Row 13 east corridor.
 
 <hr>
 
@@ -4240,25 +4207,28 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7).
-- Ladder (19, 7): Separate descending cave ladder located at (19, 7) in the western pocket.
+- Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
+- Sighted Ladder (19, 7): Cave ladder visually sighted at (19, 7) across western rock partition; direct connectivity/accessibility not yet physically tested.
 
 ## Layout & Corridors
-- Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7).
-- Tile (22, 7): Open floor connecting east to (23, 7).
-- Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11).
-- Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11).
-- Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches.
-- Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor.
-- Row 11 West Corridor (Cols 14..23, Row 11): 1-tile wide horizontal corridor running west from (23, 11) to (14, 11).
-  - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor (cols 17..22) and southern network.
-  - West End at (14, 11): Blocked to the west by (13, 11) rock wall. Turns south through (14, 12..13) to (15, 13).
-- Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches.
-- Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
+- Ladder (22, 6) Alcove: Bounded north by solid rock wall at (22, 5), west by (21, 6) rock wall, and east by (23, 6) rock wall. Only exit is South to (22, 7). [Physically verified]
+- Tile (22, 7): Open floor connecting east to (23, 7). [Physically verified]
+- Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
+- Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11). [Physically verified]
+- Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches. [Physically verified]
+- Ground Item (29, 9): Pok� Ball item visually confirmed at (29, 9) in eastern corridor across rock boundary.
+- Row 11 West Corridor (Cols 14..23, Row 11): 1-tile wide horizontal corridor running west from (23, 11) to (14, 11). [Physically verified]
+  - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor. [Physically verified]
+  - West End at (14, 11): Blocked to the west by (13, 11) rock wall. [Physically verified]
+- Row 13 Central Corridor (Cols 17..22, Row 13):
+  - Traversed (17, 13) through (19, 13) [Physically verified].
+  - Visually observed open eastward to (22, 13), where it turns south into Column 22.
+- Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
+- Sighted Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Sighted Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7). Physical route to this pocket remains to be explored.
 
-## Wild Pokémon (Empirically Verified)
+## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
-- Kadabra: Lv 51 [Encountered 2F Turn 25541]
+- Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 
 
 <hr>
