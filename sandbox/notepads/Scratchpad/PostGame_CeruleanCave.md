@@ -25,11 +25,11 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Row 9 at (4, 9) on foot.
+- Current Location: Cerulean Cave 2F Row 9 at (8, 9) on foot.
 - Empirical Physical Discovery: Ladder (3, 11) leads from 1F western terrace to 2F Western Pocket! Sighted Item Ball on ground at (4, 15).
 - Routing Plan: Survey Western Pocket corridors {(3, 11), (2, 11), (2, 10), (3, 10), (3, 9)} to check for passable tiles or branches, and locate passage toward Row 7 and Ladder (1, 3).
 - Empirical Physical Discovery: Tile (4, 9) is 100% passable! Confirms exit from Western Pocket into Column 5 corridor network.
-- Next Step: Step Right x4 along Row 9 corridor to (8, 9) to scout eastern connections.
+- Next Step: Step Right x5 along Row 9 corridor to (13, 9) to inspect northern passage at (13, 8).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
