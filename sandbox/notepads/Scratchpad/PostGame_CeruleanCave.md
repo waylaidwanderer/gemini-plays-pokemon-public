@@ -21,3 +21,4 @@
 - Turn 25007: Overworld control restored at (6, 4). Navigating Up x3 to (6, 1) and Right into stairs at (7, 1) to ascend to 2F bedroom.
 - Turn 25009: Arrived on 2F bedroom at stairs (7, 1). Moving Left x5 toward PC at (0, 1) to withdraw Master Ball and Bicycle.
 - Turn 25010: Player at (3, 1) facing dresser at (2, 1). Navigating Down to (3, 2) and Left x3 to (0, 2) directly in front of PC.
+- Turn 25011: Arrived at (0, 2) directly south of PC at (0, 1). Pressing Up to face North and A to turn on bedroom PC.
