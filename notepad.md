@@ -4167,8 +4167,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (29, 1) on foot (Ladder 29, 1).
-- Traversal Breakthrough [Turn 26133]: Tile (27, 3) and (27, 2) are confirmed OPEN floor connecting Ladder (29, 1) at (28, 1..3) directly south to (27, 4) and west into the Upper Northwest Corridor (24..26, 4), disproving the old Turn 25768 assumption!
+- Current Location: Cerulean Cave 2F at (28, 3) on foot.
+- Traversal Verification [Turn 26135]: Tile (27, 3) and (28, 4) are physically verified to be SOLID ROCK WALLS. Ladder (29, 1) corridor at (28, 1..3) connects east to Column 29 at (29, 3), leading south down Column 29.
 - Active Strategy & Frontier:
   - [x] 1F Waterway Survey Completed [Turn 26112]: Visually audited northern/western water boundary at (9, 7). Confirmed Column 7 is solid rock (rows 4..15) and Rows 4..5 are solid rock (cols 6..13). 1F subterranean lake is 100% proven to be a closed loop with ZERO water passages to the northwest or B1F.
   - 2F Investigation: Navigate to the Northern Transit Corridor at (28, 3) and physically explore Row 3 westward to reach Candidate Ladder (1, 3) in the northwest corner.
@@ -4180,7 +4180,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 | (3, 11) | (3, 11) | CONFIRMED 2-WAY | 1F western terrace to 2F western secluded pocket |
-
 
 <hr>
 
@@ -4284,7 +4283,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
 - Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4) and connects north through (27, 3) and (28, 3..1) directly to Ladder (29, 1). [Disproved dead-end Turn 26133]
+- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4) and dead-ends against rock walls (27, 3), (28, 4), and (27, 5) [Verified Turn 25768, 26135]. Tile (27, 3) and (28, 4) are solid rock walls. Ladder (29, 1) connects via (28, 1..3) east directly into Column 29 at (29, 3).
 
 ## Wild Pok�mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
