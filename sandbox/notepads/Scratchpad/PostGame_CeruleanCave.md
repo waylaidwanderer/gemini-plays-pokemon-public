@@ -26,9 +26,17 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (5, 1) on foot facing West.
-- Active Navigation: Cease re-traversing Row 1. Navigating west to (3, 1), south down Column 3 (3, 2..3), and exploring unvisited corridors south of Row 3 toward Row 5 and Ladder (1, 3).
-- Objective: Reach and test Ladder (1, 3) access via Row 5 / Column 1, or explore southern corridors for descent to B1F.
+- Current Location: Cerulean Cave 2F Northwest Sector at (3, 3) on foot facing Down.
+- Active Navigation: Complete path to Ladder (1, 3) physically mapped:
+  1. East along Row 3 (3..9, 3) to (9, 3).
+  2. South down Column 9 (9, 3..7) to Row 7.
+  3. West along Row 7 (9..6, 7) to Column 6.
+  4. North up Column 6 (6, 7..5) to Row 5.
+  5. West along Row 5 (6..0, 5) to Column 0.
+  6. North up Column 0 (0, 5..3) to (0, 3).
+  7. East from (0, 3) onto Ladder (1, 3)!
+- Step 1: Walking East x4 along Row 3 toward (7, 3) and (9, 3).
+- Objective: Follow verified corridor loop to reach and descend Ladder (1, 3) to B1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
