@@ -87,3 +87,4 @@
 - Turn 25366: Fled Geodude cleanly. Player at (31, 16) on foot facing North. Walking Right x2 to (33, 16) and pressing Up to empirically test northward traversal through (33, 15).
 - Turn 25368: Player at (33, 15) on foot facing North. Breakthrough Passage at (33, 15) empirically verified passable northward! Stepping Up x2 to (33, 13) and Right x3 to enter Eastern Cavern Highway at (36, 13).
 - Turn 25370: Player at (33, 13) on foot. Screen black transition indicates wild battle triggered. Pressing B x6 to advance transition and battle intro text.
+- Turn 25372: Wild Zubat Lv 11 in battle at (33, 13). Selecting RUN via Down, Right, A, B x2 to return to overworld.
