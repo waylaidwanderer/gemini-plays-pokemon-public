@@ -66,3 +66,4 @@
 - Turn 25124: Player at (8, 71) on Bicycle facing North on Route 2. Riding Up x5 along col 8 road to (8, 66).
 - Turn 25126: Player at (8, 66) on Bicycle facing North. Riding Up x4 along col 8 to (8, 62), then Left to (7, 62) to align with row 61 ramp.
 - Turn 25128: Player at (7, 62) on Bicycle. Ramp confirmed at (7, 61). Riding Up x5 through ramp onto highway at (7, 57).
+- Turn 25130: Player at (7, 57) on Bicycle facing North. Riding Left x3 to (4, 57), then Up x2 along col 4 western corridor to (4, 55).
