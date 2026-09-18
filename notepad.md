@@ -4171,8 +4171,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (13, 5) on foot facing West.
-- Active Navigation: Walking Left x4 along Row 5 from (13, 5) to (9, 5) to scout western approach to Ladder (9, 1).
+- Current Location: Cerulean Cave 2F Northwest Sector at (11, 5) on foot facing West.
+- Active Navigation: Walking Left x2 to (9, 5), Up x2 to (9, 3), Left x2 to (7, 3) to scout western bypass to Ladder (9, 1).
 - Objective: Reach and descend Ladder (9, 1) to enter B1F and capture Legendary Pokémon Mewtwo.
 
 - Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
