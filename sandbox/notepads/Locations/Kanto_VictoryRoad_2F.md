@@ -3,7 +3,7 @@
 ## Connections
 - Pit Hole Drop Arrival [Verified Turn 23855]: Stepping into 3F Pit Hole (23, 15) drops player to 2F at (22, 16), with the fallen boulder arriving directly adjacent at (23, 16).
 - 1F Ladder: Located at (0, 8) in western corridor; connects down to Victory Road 1F ladder at (1, 1).
-- Northeast Ladder: Sighted at (27, 7) with light blue vertical rails and horizontal rungs; situated in eastern chamber (rows 7-9, cols 26-28). Hypothesized to connect to 3F Ladder at (26, 8) [Unclimbed; cross-floor warp unverified]. Direct ground access from northern terrace (row 6) and southern hall (row 10) previously tested impassable.
+- Northeast Ladder: Located at (27, 7) in eastern chamber (rows 7-9, cols 25-28). Confirmed two-way connection to 3F Ladder at (26, 8) [Empirically verified Turns 24464, 24473]. Direct ground access to northern terrace (row 6) and southern hall (row 10) blocked by solid rock walls.
 - Descent Arrival from 3F: Located at (23, 7) in eastern sector.
 - Northwest Chamber: Contains Pok�maniac trainer at (4, 2) facing South. Contains verified ascent ladder at (1, 1) connecting to 3F (2, 0) [Empirically verified Turn 20451 via warp trigger at (1, 1)].
 
