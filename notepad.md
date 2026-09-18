@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70 (HP 49/222)
+- Active Team: Blastoise (SHELDON) Lv 70
 
 - Money: ¥101336 [Turn 24904]
 - Pokédex: 15 Caught / 50+ Seen
@@ -145,7 +145,6 @@
 - [x] Pass Reception Gate, enter Route 23, and clear all 8 badge checks (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano, Earth) [Turns 15293-15357]
 - [x] Traverse and conquer Victory Road (1F, 2F, 3F) and emerge on Route 23 North [Turn 24494]
 - [x] Arrive at Indigo Plateau and enter Pok�mon League Headquarters [Turn 24505]
-- [x] Enter Lorelei's Chamber and challenge the Elite Four [Turn 24668]
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
@@ -159,7 +158,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x12 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
+- FULL RESTORE x11 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -171,7 +170,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x12
+  2. FULL RESTORE x11
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
@@ -220,7 +219,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 49 / 222
+  - HP: 222 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
   - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3959,17 +3958,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/EliteFour_Strategy</code></h1>
 
-- Turn 24949: Party menu open with cursor on Sheldon (46/222 HP). Pressing A to apply Full Restore (12 remaining) and restore Sheldon to full 222/222 HP against Venusaur Lv 65.
-- Turn 24950: Full Restore applied! Sheldon HP recovered by 176 to full 222/222 HP (12 Full Restores remaining). Pressing B x5 to dismiss message, weather Venusaur's move, and reach main battle menu.
-- Turn 24951: Venusaur Lv 65 used Mega Drain for 38 damage. Sheldon active at 184/222 HP (12 Full Restores remaining). Advancing text with B x3 to reach the main battle menu.
-- Turn 24952: Main battle menu open with cursor on ITEM facing Venusaur Lv 65. Sheldon active at 184/222 HP (0 PP). Pressing Up to highlight FIGHT and A to initiate Struggle attack sequence.
-- Turn 24953: Selecting FIGHT with 0 PP automatically triggered Struggle! 'SHELDON has no moves left! SHELDON used STRUGGLE!'. Advancing text through Struggle damage, recoil, and Venusaur's turn with B x5.
-- Turn 24954: Struggle dealt ~45 damage to Venusaur Lv 65. Sheldon took 25 recoil to 159 HP. Venusaur countered with Mega Drain for 44 damage, putting Sheldon at 115/222 HP. Advancing text with B x3 to reach the main battle menu.
-- Turn 24955: Main battle menu open with cursor on FIGHT facing Venusaur Lv 65 (~75% HP). Sheldon active at 115/222 HP (12 Full Restores ready). Pressing A to execute Struggle.
-- Turn 24956: Struggle dealt ~58 damage to Venusaur Lv 65, bringing Venusaur down to ~50% HP. Sheldon took 29 recoil to 86/222 HP. Advancing text through Venusaur's counter with B x5.
-- Turn 24957: Venusaur Lv 65 used Mega Drain for 37 damage. Sheldon at 49/222 HP (yellow bar). Main battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu and use Full Restore on Sheldon.
-- Turn 24958: Bag menu open with cursor confirmed directly on FULL RESTORE x12. Pressing A to select Full Restore and open party screen.
-- Turn 24959: Party menu open with cursor locked on Sheldon (49/222 HP). Pressing A to apply Full Restore (11 remaining after use) and restore Sheldon to 222/222 HP.
+# Elite Four & Champion Battle Strategy
+
+## Champion Battle: Rival RED
+- Status: Final Pokémon (Venusaur Lv 65). 5/6 defeated (Pidgeot, Alakazam, Rhydon, Gyarados, Arcanine).
+- Active Lead: Blastoise (SHELDON) Lv 70 (HP 222/222, 0 move PP -> Struggle).
+- Bag Reserves: Full Restore x11, Revive x15, Max Potion x1, Max Revive x1, Full Heal x6.
+- Strategy:
+  - Attack Venusaur with Struggle (deals ~45-58 damage per hit).
+  - Maintain Sheldon's HP above 50 HP using Full Restore (heals 222 HP).
+  - Use healthy pivots (Rocky, Dux, Digby, Sandman) if free switch-in/healing turns are required.
+
 
 <hr>
 
