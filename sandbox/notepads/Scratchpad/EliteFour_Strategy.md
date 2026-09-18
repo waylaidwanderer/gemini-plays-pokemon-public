@@ -64,3 +64,4 @@
 - Turn 24901: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 2/10). Pressing A to execute 4x super-effective Ice Beam on Lance's final Pokémon, Dragonite Lv 62.
 - Turn 24902: Ice Beam OHKO'd Lance's Dragonite Lv 62 (5/5)! ALL 5 OF LANCE'S POKÉMON DEFEATED! Elite Four Lance defeated! Ice Beam PP now 1/10. Sheldon at 123/219 HP. Advancing victory dialogue and prize payout.
 - Turn 24903: Battle won! Lance defeat dialogue: "That's it! I hate to admit it...". Advancing prize payout and transitioning to overworld.
+- Turn 24904: Prize money verified: ¥6138 (New total: ¥101336). Transitioned to overworld at (6, 2). Advancing Lance's post-battle dialogue with B.
