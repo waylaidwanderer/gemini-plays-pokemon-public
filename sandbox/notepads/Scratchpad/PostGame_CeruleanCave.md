@@ -48,3 +48,4 @@
 
 - Turn 25661: Encountered wild Ditto at (18, 3). Fleeing battle to resume navigating northern corridor toward (18, 1).
 - Turn 25667: Encountered wild Dodrio at (16, 1). Fleeing battle to resume navigating Row 1 west toward (15, 1).
+- Turn 25672: Encountered wild Dodrio at (13, 1). Fleeing battle to resume navigating Row 1 west toward (12, 1).
