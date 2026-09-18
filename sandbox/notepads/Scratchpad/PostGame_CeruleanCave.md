@@ -23,12 +23,9 @@
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (14, 8) on foot.
-- Strategic Analysis & Next Destination:
-  - Eastern 2F network and Ladder (19, 7) at (19, 7) lead back to 1F Central-Western terrace at (18, 9), which was already fully explored and exited on Turn 25783.
-  - Active goal is reaching Mewtwo on B1F via the northwest corridor network (targeting candidate Ladder (1, 3)).
-  - To reach the northwest network, we must trace west along Row 9 to Column 6/3 and investigate Row 7/Row 5 access, OR use 1F waterway passages to reach the northwest of 1F.
-- Active Plan: Standing at (14, 8). Step Left to (13, 8), Down to (13, 9), Left to (12, 9), and continue west along Row 9 through (11..3, 9) to explore western margin and northwest access.
+- Current Location: Cerulean Cave 2F at (13, 16) on foot.
+- Strategic Pivot: Reversing through Column 12/13 bypass toward Row 17 to access the far western margin (Cols 0..1, Rows 7..17) and investigate access to candidate Ladder (1, 3) in the northwest.
+- Active Plan: Step Down to (13, 17), Left x2 to (11, 17), Up to (11, 16), and Left x2 along Row 16 to (9, 16).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
