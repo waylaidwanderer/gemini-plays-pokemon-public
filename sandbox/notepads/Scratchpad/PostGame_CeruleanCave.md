@@ -68,3 +68,4 @@
 - Turn 25317: Wild Zubat appeared at (10, 12). Pressing B x6 to advance intro text to battle menu.
 - Turn 25319: Wild Zubat Lv 10 in battle at (10, 12). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 - Turn 25324: Fled Zubat cleanly. Player at (10, 12) on foot facing North. Walking Up x6 along column 10 toward (10, 6) near northwest ladder.
+- Turn 25325: Player at (10, 6) on foot facing North. Walking Up to (10, 5) and Left x4 to (6, 5) directly adjacent to Northwest Ladder (5, 5).
