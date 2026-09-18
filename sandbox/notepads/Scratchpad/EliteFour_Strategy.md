@@ -14,14 +14,14 @@
 1. Lorelei (Ice/Water):
    - Dewgong, Cloyster, Lapras resist Surf/Ice Beam; rely on Body Slam and Double-Edge for physical damage.
    - Slowbro and Jynx: Body Slam/Double-Edge.
-   - Use Poké Flute immediately if put to sleep by Rest/Sing; cure confusion with Full Heals.
+   - Use Pokï¿½ Flute immediately if put to sleep by Rest/Sing; cure confusion with Full Heals.
 2. Bruno (Fighting/Rock):
    - Both Onix: 1HKO with Surf.
    - Hitmonlee, Hitmonchan, Machamp: 1-2HKO with Surf or Body Slam.
 3. Agatha (Ghost/Poison):
    - Arbok, Haunter, Gengar: Surf or Body Slam (Note: Normal moves cannot hit Ghost in Gen 1, so use Surf on Gengar/Haunter!).
    - Golbat: 1HKO with Ice Beam.
-   - Keep Poké Flute handy against Hypnosis; Full Heals against Confuse Ray and Toxic.
+   - Keep Pokï¿½ Flute handy against Hypnosis; Full Heals against Confuse Ray and Toxic.
 4. Lance (Dragon/Flying):
    - Dragonair (x2), Aerodactyl, Dragonite: Ice Beam sweeps for 4x / 2x super effective damage.
    - Gyarados: Double-Edge or Body Slam to bypass high Special stat.
@@ -32,12 +32,12 @@
    - Gyarados: Body Slam / Double-Edge.
 
 ## Item Management & Shopping List
-- Funds Available: ¥134,927
+- Funds Available: ï¿½134,927
 - Target Inventory:
   - 15-20 Full Restores
   - 5-10 Revives
   - 5-10 Full Heals
-  - POKé FLUTE (retained in Bag)
+  - POKï¿½ FLUTE (retained in Bag)
 - Items to Deposit in PC:
   - [x] HM01 (CUT) [Turn 24526]
   - [x] BICYCLE [Turn 24529]
