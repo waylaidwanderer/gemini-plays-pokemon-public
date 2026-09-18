@@ -11,3 +11,4 @@
 - Sheldon HP: 213/213 (Lv 67)
 - Strategy: Cloyster possesses base 180 Defense vs base 85 Special. Using Surf (STAB Special) or Body Slam (neutral physical with 30% paralysis chance) to target its lower Special and status vulnerability.
 - Turn 3: Sheldon used Body Slam on Cloyster Lv 53! Critical hit! Cloyster HP dropped to ~35%. Sheldon HP: 213/213.
+- Turn 4: Cloyster used Spike Cannon (hit 3 times, Sheldon at 195/213 HP). Sheldon executing Body Slam to KO Cloyster.
