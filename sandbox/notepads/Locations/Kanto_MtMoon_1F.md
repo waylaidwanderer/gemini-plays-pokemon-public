@@ -62,3 +62,4 @@
 - Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
 - Ladder (5, 5): Descending ladder in the northwest corner of 1F.
 - Central Rock Wall & Southern Bypass Verification (Cols 22..23, Rows 21..25): Rock wall spans cols 22..23 across rows 21..25 blocking eastward entry at row 25. Row 26 is the open southern bypass corridor (cols 21..24) connecting directly into Eastern Avenue (cols 24..27).
+- Northern Crossway (Row 2, Cols 5..25+): Open cave floor passage running continuously along row 2 north of the vertical wall partition (cols 12..13, rows 3..11+), connecting the northeast highway directly west to Northwest Ladder (5, 5).
