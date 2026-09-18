@@ -158,7 +158,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x11 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
+- FULL RESTORE x10 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -170,7 +170,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x11
+  2. FULL RESTORE x10
   3. MAX POTION x1
   4. REVIVE x14
   5. FULL HEAL x6
@@ -3982,6 +3982,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24975: Main battle menu open with cursor on FIGHT facing Venusaur Lv 65 (~20-25% HP). Sheldon at 44/222 HP. Executing strategy to maintain HP above 50: pressing Down to ITEM and A to open Bag for Full Restore.
 - Turn 24976: Bag menu open with cursor on REVIVE. Navigating Up x2 to FULL RESTORE x11 and pressing A to open party screen to heal Sheldon.
 - Turn 24977: Party screen open with cursor locked on Sheldon (44/222 HP). Pressing A to apply Full Restore (10 remaining after use) and restore Sheldon to full 222/222 HP.
+- Turn 24978: Sheldon recovered 178 HP to full 222/222 HP via Full Restore (10 remaining). Pressing B x5 to dismiss message, weather Venusaur's turn, and reach main battle menu.
+- Turn 24979: Main battle menu open with cursor on ITEM facing charging Venusaur Lv 65 (~20-25% HP). Sheldon active at full 222/222 HP. Pressing Up to highlight FIGHT and A to execute championship-winning Struggle!
 
 <hr>
 

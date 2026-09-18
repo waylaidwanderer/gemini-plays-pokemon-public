@@ -23,3 +23,4 @@
 - Turn 24976: Bag menu open with cursor on REVIVE. Navigating Up x2 to FULL RESTORE x11 and pressing A to open party screen to heal Sheldon.
 - Turn 24977: Party screen open with cursor locked on Sheldon (44/222 HP). Pressing A to apply Full Restore (10 remaining after use) and restore Sheldon to full 222/222 HP.
 - Turn 24978: Sheldon recovered 178 HP to full 222/222 HP via Full Restore (10 remaining). Pressing B x5 to dismiss message, weather Venusaur's turn, and reach main battle menu.
+- Turn 24979: Main battle menu open with cursor on ITEM facing charging Venusaur Lv 65 (~20-25% HP). Sheldon active at full 222/222 HP. Pressing Up to highlight FIGHT and A to execute championship-winning Struggle!
