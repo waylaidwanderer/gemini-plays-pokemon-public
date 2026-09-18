@@ -4134,5 +4134,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25199: Fled Metapod cleanly; player at (1, 11) on Bicycle facing North. Riding Up x6 along col 1 Exit Avenue toward gatehouse at (1, 5).
 - Turn 25201: Player at (1, 5) on Bicycle facing North on clear ground apron. Gatehouse entrance visible at (2, 1). Riding Right to (2, 5) and Up x5 through doorway into Northern Gatehouse.
 - Turn 25205: Player at (2, 2) facing signpost at (2, 1). Stepping Left to (1, 2) and riding Up x3 into row 0 north exit warp.
+- Turn 25206: Arrived inside Viridian Forest Northern Gatehouse at (4, 7) facing North on red mat. Walking Up x7 along col 4 to exit onto Route 2 North.
 
 <hr>
