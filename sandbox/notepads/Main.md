@@ -147,3 +147,4 @@
 - [x] Defeat Elite Four Lorelei in Chamber 1 [Turn 24759]
 - [x] Defeat Elite Four Bruno in Chamber 2 [Turn 24791]
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
+- [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
