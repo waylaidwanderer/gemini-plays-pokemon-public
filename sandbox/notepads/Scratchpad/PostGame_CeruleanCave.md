@@ -62,3 +62,4 @@
 - Turn 25116: Player at (18, 17) on Bicycle facing North. Riding Up x5 along col 18 through row 13 fence passage to (18, 12).
 - Turn 25118: Player at (18, 12) on Bicycle facing North. Riding Up x5 along col 18 past girl NPC at (17, 9) to (18, 7) on North-South Avenue.
 - Turn 25119: Stunned wandering NPC at (21, 5). Player at (18, 7) on Bicycle facing North. Riding Up x5 along col 18 to (18, 2) toward Route 2.
+- Turn 25122: Viridian City complete! Player at (18, 2) on Bicycle facing North. Pressing Up x3 along col 18 to cross border into Route 2 at (8, 71).
