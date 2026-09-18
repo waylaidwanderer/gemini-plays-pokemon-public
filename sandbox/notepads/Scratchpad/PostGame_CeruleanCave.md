@@ -25,12 +25,12 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Western Sector at (5, 11) on foot.
+- Current Location: Cerulean Cave 2F Column 10 at (10, 11) on foot.
 - Strategic Pivot (Overwatch Audit): Terminating backtracking toward exhausted central/eastern 2F network. Pivoting route back west to thoroughly explore unvisited western sector (Columns 1..8, Rows 7..15) and retrieve Item Ball at (4, 15).
 - Route Analysis: Visual inspection and collision testing confirm Column 12 leads south into the central/eastern network rather than west toward (4, 15). Western corridors remain the active frontier.
 - Strategic Route: Standing at (5, 9). Stepping south into unvisited Column 5 corridor at (5, 10..11) to break Row 9 oscillation and explore toward Item Ball (4, 15).
 - Empirical Discovery: Column 10 (10, 11..15) is an open vertical passage connecting Row 11 south to Row 14. Row 14 runs west continuously to Column 5, providing direct access to Item Ball at (4, 15).
-- Next Step: Step Right x5 along Row 11 to (10, 11) to access Column 10 passage.
+- Next Step: Step Down x3 along Column 10 to (10, 14), then Left x2 along Row 14 to (8, 14) en route to Item Ball (4, 15).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
