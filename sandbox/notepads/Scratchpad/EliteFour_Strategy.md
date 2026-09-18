@@ -3,7 +3,7 @@
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 9/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -38,7 +38,7 @@
 ## Bruno Battle Summary
 - Outcome: FLAWLESS VICTORY! All 5 Pok�mon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
 - Prize Money: �5742 (New total: �89258).
-- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 10/10).
+- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 3/15), Ice Beam (PP 9/10).
 
 # Elite Four Matchup 3: Agatha Strategy [Upcoming]
 - Agatha specializes in Ghost and Poison Pok�mon.
@@ -65,3 +65,4 @@
 - Turn 24812: Switch prompt on screen for Golbat Lv 56. Declining switch with B to face Golbat with Sheldon.
 - Turn 24813: Battle menu open on FIGHT facing Golbat Lv 56. Sheldon at 216/216 HP. Navigating Down from Surf to Ice Beam (Slot 4, PP 10/10) to OHKO Golbat.
 - Turn 24814: Ice Beam selected against Golbat Lv 56. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / faint.
+- Turn 24815: Ice Beam scored a CRITICAL HIT on Golbat Lv 56! Instant OHKO! Golbat fainted. Advancing text with B to decline switch and face Haunter Lv 55.

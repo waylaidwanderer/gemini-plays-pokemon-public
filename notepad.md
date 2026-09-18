@@ -4024,6 +4024,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24809: Sheldon pushed through confusion and landed Surf! Gengar Lv 56 fainted! Sheldon at 216/216 HP. Advancing text with B to decline switch and face Golbat Lv 56.
 - Turn 24812: Switch prompt on screen for Golbat Lv 56. Declining switch with B to face Golbat with Sheldon.
 - Turn 24813: Battle menu open on FIGHT facing Golbat Lv 56. Sheldon at 216/216 HP. Navigating Down from Surf to Ice Beam (Slot 4, PP 10/10) to OHKO Golbat.
+- Turn 24814: Ice Beam selected against Golbat Lv 56. Confusion check active ('SHELDON is confused!'). Advancing turn text with B to resolve attack / faint.
 
 
 <hr>
