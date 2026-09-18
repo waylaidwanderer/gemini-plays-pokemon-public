@@ -6,7 +6,7 @@
 
 - Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
-- Money: ¥107771 [Turn 24983]
+- Money: ¥107981 [Turn 25269]
 - Pokédex: 17 Caught / 124 Seen
 
 ## Milestones
