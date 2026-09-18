@@ -65,3 +65,4 @@
 - Turn 25311: Player at (14, 17) on foot facing South. Visual confirms row 17 is completely clear across cols 10..14 below Youngster (12, 16). Walking Left x4 along row 17 to enter western corridor at (10, 17).
 - Turn 25314: Player at (10, 17) on foot facing West. Successfully crossed over into western corridor. Walking North along column 10 toward rows 5..6 to access Northwest Ladder (5, 5).
 - Turn 25316: Player at (10, 12) on foot. Screen black transition indicates wild battle triggered. Pressing B x4 to advance transition and battle intro text.
+- Turn 25317: Wild Zubat appeared at (10, 12). Pressing B x6 to advance intro text to battle menu.
