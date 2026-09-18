@@ -8,6 +8,7 @@
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Alcove (10, 12): 1-tile dead-end alcove off Row 11 at (10, 11), bounded south by rock wall at (10, 13). [Physically verified Turn 25934]
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket (Cols 2..3, Rows 9..11): Secluded corridor pocket enclosing Ladder (3, 11). Visually overlooks an Item Ball at (4, 15) behind rock barrier. [Physically verified Turn 25867]
