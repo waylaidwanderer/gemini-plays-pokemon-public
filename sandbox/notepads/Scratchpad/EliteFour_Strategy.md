@@ -34,4 +34,4 @@
 - Turn 15: Lorelei burned her 2nd Super Potion on Slowbro! Slowbro restored ~50 HP (to ~30% HP), still paralyzed.
 - Turn 16: Double-Edge hit Slowbro down to ~5% HP (Sheldon took 3 recoil down to 115/213 HP). Slowbro used Growl (Sheldon at -4 Attack).
 - Turn 17: Double-Edge hit Slowbro down to ~8 HP (Sheldon took 3 recoil down to 112/213 HP). Slowbro used Amnesia (+2 Special).
-- Turn 18: Battle menu open on FIGHT. Executing Double-Edge to KO Slowbro.
+- Turn 18: Double-Edge hit Slowbro down to ~3 HP (Sheldon took 3 recoil down to 109/213 HP). Slowbro paralyzed with ~3 HP. Advancing battle text to return to battle menu.
