@@ -9,6 +9,16 @@
    - Blocked to west by solid rock wall along Column 2 (rows 1-4) and Row 4 (cols 3-7).
 3. **2F Southwest Sector (cols 0-7, rows 0-5)**: Contains Ladder A at (1, 3) (descends to B1F Mewtwo). Connected directly to Ladder E (9, 1) across the northern 2F corridors (Turn 52471-52475 verified traversal to (1, 4)).
 
-## Verified Path to Ladder A (B1F Mewtwo)
-- From 1F: Board water via Northeast Ramp (23, 3) -> Surf west along Row 4 to Northwest Ramp at (15, 3) -> Climb ramp to 1F northern plateau -> Walk west along Row 2 to Ladder E at (7, 1) -> Ascend to 2F (spawns at (9, 1)).
-- On 2F: Walk west along Row 1 to (3, 1) -> Down to (3, 3) -> East across Row 3 to (6, 3) -> Down to (6, 5) / (6, 7) -> West across Row 5/7 to Column 1 -> Walk north to Ladder A at (1, 3) -> Descend to B1F (Mewtwo's Chamber)!
+## 2F Northwest Sector Isolation (Empirical Proof Turns 52941-52980)
+- The sector containing Ladder E (9, 1) spanning (3..9, 1..5) is completely enclosed and isolated from the rest of 2F by solid rock barriers at (2, 1..3), (6, 4), (7, 4), (8, 4), (8, 5), and (9, 6).
+- Ladder E does NOT lead to Ladder A (1, 3).
+
+## Verified True Route to B1F (Mewtwo)
+- Ladder A (1, 3) on 2F is located in the Southwest Sector, which is accessible ONLY via the SW Ladder at (3, 11) from 1F.
+- Plan:
+  1. Take Ladder C at (19, 7) or Ladder B at (22, 6) down to 1F.
+  2. Surf across 1F waterways to the Southwest Sector (cols 1-6, rows 8-15).
+  3. Locate the landing/passage into SW Ladder at (3, 11).
+  4. Climb SW Ladder (3, 11) to 2F SW Sector.
+  5. On 2F, walk north along Column 0/1 to Ladder A (1, 3).
+  6. Descend Ladder A into B1F Mewtwo's Chamber!
