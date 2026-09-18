@@ -33,4 +33,4 @@
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
-- Ditto [Encountered 2F Turn 25661]
+- Ditto: Lv 55 [Encountered 2F Turn 25661]

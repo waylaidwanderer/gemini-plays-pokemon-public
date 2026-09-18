@@ -4187,6 +4187,8 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 | B1F Ladder (?) | ? | TARGET (MEWTWO) | Search ongoing via 1F subterranean waterways |
 
+- Turn 25661: Encountered wild Ditto at (18, 3). Fleeing battle to resume navigating northern corridor toward (18, 1).
+
 
 <hr>
 
@@ -4265,6 +4267,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
+- Ditto [Encountered 2F Turn 25661]
 
 
 <hr>
