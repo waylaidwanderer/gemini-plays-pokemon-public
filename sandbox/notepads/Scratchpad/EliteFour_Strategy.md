@@ -45,7 +45,7 @@
   - [x] MASTER BALL [Turn 24537]
   - [x] MOON STONE [Turn 24545]
   - [x] ESCAPE ROPE [Turn 24548]
-  - [ ] TM14 (BLIZZARD)
+  - [x] TM14 (BLIZZARD) [Turn 24557]
   - [ ] TM22 (SOLARBEAM)
   - [ ] SECRET KEY
   - [ ] TM38 (FIRE BLAST)
