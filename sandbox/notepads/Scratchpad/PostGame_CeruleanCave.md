@@ -78,3 +78,4 @@
 - Turn 25386: Battle menu active vs wild Zubat Lv 11 at (28, 31). Selecting RUN via Down, Right, A, B x2 to return to overworld.
 - Turn 25387: Fled Zubat cleanly. Player at (28, 31) on foot facing West. Walking Left x5 along row 31 toward (23, 31).
 - Turn 25388: Player at (23, 31) on foot facing West. Walking Left x5 along row 31 toward (18, 31).
+- Turn 25389: Player at (18, 31) on foot facing West. Walking Left x5 along row 31 toward (13, 31) approaching Western Cavern Highway.
