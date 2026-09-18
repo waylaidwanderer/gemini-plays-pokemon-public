@@ -29,9 +29,9 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Staircase at (23, 3) facing South.
-- Active Navigation: Launching Surf with Sheldon onto water at (23, 4), then surfing West along row 4 to retrieve Ground Item at (19, 3).
-- Objective: Retrieve Ground Item at (19, 3) and scout subterranean waterways toward B1F/Mewtwo.
+- Current Location: Cerulean Cave 1F Subterranean Lake at (19, 4) surfing facing North.
+- Active Navigation: Surfing West along Row 4 water channel (18..15, 4) to (15, 4) at the foot of Staircase (15, 3).
+- Objective: Ascend Staircase (15, 3) onto northwest terrace to search for the descending ladder to B1F (Mewtwo).
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); visually confirmed Ground Item at (19, 3) on lake ledge.
