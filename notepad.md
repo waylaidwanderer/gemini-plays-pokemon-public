@@ -4101,5 +4101,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25010: Player at (3, 1) facing dresser at (2, 1). Navigating Down to (3, 2) and Left x3 to (0, 2) directly in front of PC.
 - Turn 25011: Arrived at (0, 2) directly south of PC at (0, 1). Pressing Up to face North and A to turn on bedroom PC.
 - Turn 25012: Bedroom PC turned on at (0, 1). Pressing A to open the PC menu.
+- Turn 25013: PC menu open with cursor pointing to WITHDRAW ITEM. Pressing A to view stored items list.
 
 <hr>
