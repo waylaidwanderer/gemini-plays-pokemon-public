@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 67 (HP 89/213), Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
+- Active Team: Blastoise (SHELDON) Lv 67 (HP 213/213), Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9 (5/6, 1 open slot)
 
 - Money: ¥77972 [Turn 24649]
 - Pokédex: 15 Caught / 50+ Seen
@@ -157,7 +157,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x16 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
+- FULL RESTORE x15 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -169,7 +169,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x16
+  2. FULL RESTORE x15
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
@@ -218,7 +218,7 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 67, Water]
   - Status: Healthy
-  - HP: 89 / 213
+  - HP: 213 / 213
   - Stats: Attack 157, Defense 183, Speed 157, Special 163 [Verified Lv 67 Turn 24686]
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 12/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
@@ -3960,7 +3960,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Elite Four Preparation & Strategy [Updated Turn 24721]
 
 ## Active Party Status
-- Lead: SHELDON (Blastoise Lv 67) [HP 89/213, Attack 157, Defense 183, Speed 157, Special 163]
+- Lead: SHELDON (Blastoise Lv 67) [HP 213/213, Attack 157, Defense 183, Speed 157, Special 163]
   - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 12/15), Ice Beam (PP 10/10)
   - Current Status: In combat with Lorelei, healthy (cured of confusion), at -3 Attack from Slowbro's Growls.
 - Support Pivots:
@@ -3988,14 +3988,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
 - Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Declined switch.
 - Turn 22: Surf scored a CRITICAL HIT on Lapras! Lapras down to ~55% HP! Lapras used Body Slam (Sheldon took only 12 damage to 89/213 HP, no paralysis).
-- Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 89/213).
+- Turn 23: 2nd Surf hit Lapras down into the RED zone (~15-20% HP)! Lapras used Confuse Ray (Sheldon confused, HP 213/213).
 - Turn 24: Sheldon pushed through confusion and landed the 3rd Surf! Lapras HP drained to 0 and fainted!
 - VICTORY: ELITE FOUR LORELEI DEFEATED! All 5 Pok�mon defeated (Dewgong, Cloyster, Slowbro, Jynx, Lapras).
 ## Lorelei Battle Summary
 - Outcome: Victory! All 5 Pok�mon defeated.
 - Prize Money: �5544 (New total: �83516).
-- Sheldon End Status: Lv 67, HP 89/213.
-- Next Step: Open Start menu, use 1 Full Restore on Sheldon (89 -> 213 HP), then advance north into Bruno's chamber.
+- Sheldon End Status: Lv 67, HP 213/213.
+- Next Step: Menus closing. Sheldon fully healed to 213/213 HP! Advance north around Lorelei (Left, Up x3) into Bruno's chamber.
 
 
 <hr>
