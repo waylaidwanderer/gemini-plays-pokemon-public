@@ -10,7 +10,7 @@
 - Column 23 Corridor (Col 23, Rows 7..11): 1-tile wide vertical corridor bounded by col 22 rock wall (west) and col 24 rock wall (east), running south from (23, 7) to (23, 11). [Physically verified]
 - Row 11 Junction (23, 11): South blocked by (23, 12) rock wall. Exits East to (24, 11) and West to (22, 11). [Physically verified]
 - Column 24 Dead-End Spur (Col 24, Rows 11..15): 1-tile wide vertical corridor running south between col 23 wall and col 25 wall. Empirically verified to dead-end at (24, 15) with solid rock wall at (24, 16). No items or branches. [Physically verified]
-- Ground Item (29, 9): Poké Ball item visually confirmed at (29, 9) in eastern corridor across rock boundary.
+- Alcove (29, 9): 1-tile dead-end alcove at (29, 9) off Column 28 corridor. Physically inspected Turn 25578; no ground item or hidden item present.
 - Row 11 West Corridor (Cols 14..23, Row 11): 1-tile wide horizontal corridor running west from (23, 11) to (14, 11). [Physically verified]
   - South Junction at (17, 11): Connects south through (17, 12..13) into Row 13 east-west corridor. [Physically verified]
   - West End at (14, 11): Blocked to the west by (13, 11) rock wall. [Physically verified]
@@ -18,6 +18,7 @@
   - Traversed (17, 13) through (19, 13) [Physically verified].
   - Visually observed open eastward to (22, 13), where it turns south into Column 22.
 - Row 17 Southern Thoroughfare (Cols 21..27, Row 17): 1-tile wide corridor running east-west along southern rock boundary (row 18). Connects Column 21 at (21, 17) to Column 27 at (27, 17). [Physically verified (21..23, 17)]
+- Northern Chamber & Corridors (Cols 24..29, Rows 5..7): Broad northern corridor network accessible from Column 26 via (25, 7..9). Extends west along Row 5 past Column 24 toward the Ladder (19, 7) northwest sector. [Visually verified Rows 5..7]
 - Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
 - Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
 - Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Ground Item at (29, 9). [Visually verified]

@@ -29,6 +29,6 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (29, 12) facing North.
-- Active Navigation: Stepping Left to (28, 12) and North along Column 28 to (28, 9) to retrieve Ground Item at (29, 9).
-- Objective: Retrieve Ground Item at (29, 9) and scout remaining 2F corridors/ladders.
+- Current Location: Cerulean Cave 2F at (28, 9) facing East.
+- Active Navigation: Backtracking south via Column 28 (28, 10..12) and Column 29 (29, 12..14) to Row 14, then west to Column 26.
+- Objective: Navigate Column 26 north into Rows 5..7 northern corridor network to access Ladder (19, 7) and northwest sector.
