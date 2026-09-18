@@ -4162,10 +4162,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Subterranean Water at (11, 14) Surfing on Sheldon.
-- Active Navigation: Successfully launched Surf into subterranean lake at (11, 14). Surfing west along rows 14-15 through (10..7, 15) to scout unexplored western water channel leading toward B1F descent.
-- Step 1: Surfing Left x3 to (8, 14), Down to (8, 15), and Left to (7, 15).
-- Objective: Navigate western waterway to locate descending path to B1F and Mewtwo.
+- Current Location: Cerulean Cave 1F Subterranean Water at (8, 15) Surfing on Sheldon.
+- Active Navigation: Verified Row 15 dead-ends west at (8, 15) against rock wall (7, 15). Backtracking north up Columns 8..9 (8..9, 14..6), east across Row 4 to subterranean lake, and dismounting at (24, 14) to investigate unverified Staircase (17, 15) and southwest cavern.
+- Step 1: Surfing Up x5 up Column 8 from (8, 15) to (8, 10).
+- Objective: Reach and explore southwest cavern / Staircase (17, 15) to locate B1F descent to Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4210,6 +4210,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
+- Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 
 <hr>
 
