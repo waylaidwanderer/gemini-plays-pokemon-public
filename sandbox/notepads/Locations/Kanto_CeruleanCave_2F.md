@@ -40,7 +40,7 @@
   - West End at (14, 11): Blocked to the west by (13, 11) rock wall. [Physically verified]
 - Row 13 Central Corridor (Cols 17..22, Row 13):
   - Traversed (17, 13) through (19, 13) [Physically verified].
-  - Visually observed open eastward to (22, 13), where it turns south into Column 22.
+  - Turns south into (22, 14..15) and (21, 15), but dead-ends against solid Row 16 rock wall (cols 15..24 solid). Does NOT connect to Row 17. [Verified Turn 26186]
 - Row 17 Southern Thoroughfare (Cols 21..27, Row 17): 1-tile wide corridor running east-west along southern rock boundary (row 18). Connects Column 21 at (21, 17) to Column 27 at (27, 17). [Physically verified (21..23, 17)]
 - Northern Chamber & Corridors (Cols 24..29, Rows 5..7): Broad northern corridor network accessible from Column 26 via (25, 7..9). Extends west along Row 5 past Column 24 toward the Ladder (19, 7) northwest sector. [Visually verified Rows 5..7]
 - Northeast Loop & Column 29 (Cols 27..29, Rows 3..7): From (25, 7), passage leads east to (27, 7), north to (27, 6), east to (29, 6), and north up Column 29 through rows 5, 4, 3. At (29, 3), turns west into (28, 3) leading toward the northern transit corridor. [Visually verified]
