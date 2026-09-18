@@ -3987,6 +3987,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   5. Lapras Lv 56 [Hypothesized: Water/Ice, Lorelei's ace]
 - Turn 12: Body Slam reduced Slowbro to 1 HP and inflicted Paralysis! Sheldon HP: 136/213. Queued finishing blow.
 - Turn 13: Battle menu open on FIGHT. Slowbro at 1 HP and paralyzed. Sheldon executing Body Slam to finish off Slowbro.
+- Turn 13 result: Lorelei burned a Super Potion on Slowbro! Slowbro regained 50 HP (~30% HP total) and remains paralyzed. Sheldon HP: 136/213.
 
 
 <hr>
