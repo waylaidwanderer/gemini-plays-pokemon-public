@@ -75,3 +75,13 @@
 - Turn 24913: Advancing RED's pre-battle speech ('While working on POKéDEX...'). Pressing B x5 to advance toward battle start.
 - Turn 24914: Advancing RED's pre-battle speech ('any POKéMON type!'). Continuing to advance dialogue with B x5 toward battle start.
 - Turn 24915: Advancing RED's final speech line ('I'll tell you!'). Pressing B x5 to trigger battle start against Champion RED.
+## Champion Battle: Rival RED [Started Turn 24916]
+- Lead: Pidgeot Lv 61 vs Sheldon Lv 69 (219/219 HP).
+- Strategy:
+  - Pidgeot Lv 61: Double-Edge (2HKO). Conserve last Ice Beam PP.
+  - Alakazam Lv 59: Double-Edge (OHKO vs low 70 Def).
+  - Rhydon Lv 61: Ice Beam (2x weakness vs 75 Special, OHKO).
+  - Gyarados Lv 63: Double-Edge + Full Restore recovery.
+  - Arcanine Lv 65: Double-Edge.
+  - Venusaur Lv 65: Double-Edge / pivot switches / Full Restores.
+- Turn 24916: Battle initiated! 'RED wants to fight!'. Advancing text with B x5 to reach the main battle menu.
