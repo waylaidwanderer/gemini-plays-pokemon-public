@@ -24,14 +24,13 @@
 - Prize Money: ¥5544 (New total: ¥83516).
 - Sheldon post-battle healed with Full Restore to 213/213 HP.
 
-## Elite Four Battle 2: Bruno [In Progress Turn 24781]
+## Elite Four Battle 2: Bruno [Cleared Turn 24791]
 - Defeated Pokémon:
   1. Onix Lv 53 [OHKO'd with Surf, gained 1225 EXP]
   2. Hitmonchan Lv 55 [OHKO'd with Surf, gained 1650 EXP]
   3. Hitmonlee Lv 55 [OHKO'd with Surf, gained 1638 EXP]
   4. Onix Lv 56 [OHKO'd with Surf]
-- Final Opponent:
-  5. Machamp Lv 58 (Bruno's ace)
-- Strategy: Surf deals ~140 damage (clean 2HKO or OHKO on crit). Sheldon at 216/216 HP (Lv 68) outspeeds. Fissure fails vs Lv 68 Sheldon.
+  5. Machamp Lv 58 [2HKO'd with Surf, Bruno defeated!]
+- Outcome: Victory! All 5 Pokémon swept by Sheldon Lv 68 (flawless 216/216 HP, zero damage taken).
 - Turn 24788: Surf executing against Machamp Lv 58. Advancing turn text with B to resolve damage and turn.
 - Turn 24789: Surf brought Machamp into the red (~15 HP). Bruno used X Defend (ineffective vs Special). Sheldon at 216/216 HP. Firing final Surf to KO Machamp and defeat Bruno!
