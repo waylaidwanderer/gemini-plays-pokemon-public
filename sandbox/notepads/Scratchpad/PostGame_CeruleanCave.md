@@ -58,3 +58,4 @@
 - Turn 25284: Fled Zubat cleanly at (24, 6). Walking Up x4 to (24, 2) northern perimeter highway, then Left x6 along row 2 toward northwest ladder (5, 5).
 - Turn 25286: Player at (17, 2) on foot facing West. Walking Left x10 along row 2 crossway toward northwest ladder (5, 5).
 - Turn 25290: Player at (14, 2) on foot facing West. Screen confirms cols 12..13 are solid vertical rock wall extending continuously south from northern boundary (rows 0..1) past row 6. Row 2 does not cross west to northwest ladder (5, 5). Moving south along col 14 toward rows 14..16 crossover corridor.
+- Turn 25299: Wild Geodude encountered at (14, 6) in Mt. Moon 1F. Pressing B x6 to advance intro text to battle menu.
