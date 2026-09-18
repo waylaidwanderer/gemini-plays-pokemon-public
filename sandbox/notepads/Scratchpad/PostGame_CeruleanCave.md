@@ -27,3 +27,4 @@
 - Turn 25014: Withdraw list open with cursor on TM34 (Item 1). Testing Up press to check if PC withdraw list wraps vertically to bottom.
 - Turn 25015: Up press confirmed: PC withdraw list does NOT wrap vertically (cursor stayed on Item 1 TM34). Scrolling Down x5 toward Master Ball and Bicycle.
 - Turn 25017: Cursor reached OLD ROD (Item 11). Continuing to scroll Down x5 toward Bicycle and Master Ball.
+- Turn 25018: Cursor reached LIFT KEY (Item 16). Continuing to scroll Down x5 toward Bicycle and Master Ball.
