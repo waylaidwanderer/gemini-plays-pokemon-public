@@ -2899,13 +2899,10 @@
   4. Climb SW Ladder (3, 11) to 2F SW Sector.
   5. On 2F, walk north along Column 0/1 to Ladder A (1, 3).
   6. Descend Ladder A into B1F Mewtwo's Chamber!
-## Row 9 Bypass Route Verified (Turn 53520)
-- The rock at (14, 9) blocking Row 9 is bypassed via: (18, 11) -> Up to (18, 9) -> West to (15, 9) -> Up to (15, 8) -> West to (13, 8) -> Down to (13, 9).
-- From (13, 9), Row 9 continues straight west across cols 13..3 into the Southwest Sector towards Ladder A at (1, 3) leading to B1F Mewtwo!
-## Verified Southern Corridor Bypass (Turn 53521)
+## 2F East-West Separation (Empirical Proof Turns 53520-53525)
 - Row 10 is a solid horizontal rock barrier across cols 10-19.
-- Southern Bypass Route: From (14, 13) -> Right to (15, 13) -> Down col 15 to (15, 17) -> West row 17 to (11, 17) -> Up to (11, 16) -> Left to (10, 16) -> Up to (10, 14).
-- From (10, 14), path leads west into the Southwest Sector towards SW Ladder (3, 11) and Ladder A (1, 3) to B1F Mewtwo!
+- 2F map boundary ends at Y=15; no southern passage exists around (14, 15).
+- East sector of 2F is isolated from West sector; traversing to SW Ladder (3, 11) requires 1F water network.
 ## Verified 1F Surf Route to SW Ladder & Mewtwo (Turn 53525)
 - 2F East Sector is completely isolated from West Sector (Y=15 is bottom map boundary, Row 10 is solid rock).
 - The true canonical route to Mewtwo:
