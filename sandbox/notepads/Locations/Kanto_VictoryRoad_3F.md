@@ -23,7 +23,7 @@
   - One-way return ledge: Tile (1, 7) functions as a northbound one-way ledge jumping down to (1, 6), providing a fast exit from the terrace back to the Northwest Ladder (2, 0) and Switch (3, 5).
 - Eastern Sector Landmarks & Pit Hole [Visually Verified Turn 23832]:
   - Pit Hole at (23, 15): Confirmed distinct black pit hole graphic with purple cave rim.
-  - Boulder at (22, 15): Confirmed orange round boulder sitting directly adjacent west of the pit hole at (23, 15). Pushing East from (21, 15) will drop this boulder directly into the pit hole!
+  - Boulder at (22, 15): Pushed East into Pit Hole (23, 15) on Turn 24434 and dropped down to 2F (arriving at 23, 16).
   - Columns 22-23: Continuous open corridor from row 10 through row 14 leading directly to the pit hole.
   - Southern Highway (Rows 13-15, Cols 14-23): Continuous wide-open dark checkerboard floor connecting Column 14 east into the pit hole and boulder at (22..23, 15).
 - Boulder 2: Located at (24, 10) between Columns 22-23 and Ladder (26, 8) chamber.
