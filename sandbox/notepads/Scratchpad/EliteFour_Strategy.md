@@ -46,7 +46,7 @@
   - [x] MOON STONE [Turn 24545]
   - [x] ESCAPE ROPE [Turn 24548]
   - [x] TM14 (BLIZZARD) [Turn 24557]
-  - [ ] TM22 (SOLARBEAM)
+  - [x] TM22 (SOLARBEAM) [Turn 24561]
   - [ ] SECRET KEY
   - [ ] TM38 (FIRE BLAST)
   - [ ] TM27 (FISSURE)
