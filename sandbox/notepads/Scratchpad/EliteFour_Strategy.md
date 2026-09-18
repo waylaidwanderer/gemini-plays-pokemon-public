@@ -1,11 +1,10 @@
-- Turn 24949: Party menu open with cursor on Sheldon (46/222 HP). Pressing A to apply Full Restore (12 remaining) and restore Sheldon to full 222/222 HP against Venusaur Lv 65.
-- Turn 24950: Full Restore applied! Sheldon HP recovered by 176 to full 222/222 HP (12 Full Restores remaining). Pressing B x5 to dismiss message, weather Venusaur's move, and reach main battle menu.
-- Turn 24951: Venusaur Lv 65 used Mega Drain for 38 damage. Sheldon active at 184/222 HP (12 Full Restores remaining). Advancing text with B x3 to reach the main battle menu.
-- Turn 24952: Main battle menu open with cursor on ITEM facing Venusaur Lv 65. Sheldon active at 184/222 HP (0 PP). Pressing Up to highlight FIGHT and A to initiate Struggle attack sequence.
-- Turn 24953: Selecting FIGHT with 0 PP automatically triggered Struggle! 'SHELDON has no moves left! SHELDON used STRUGGLE!'. Advancing text through Struggle damage, recoil, and Venusaur's turn with B x5.
-- Turn 24954: Struggle dealt ~45 damage to Venusaur Lv 65. Sheldon took 25 recoil to 159 HP. Venusaur countered with Mega Drain for 44 damage, putting Sheldon at 115/222 HP. Advancing text with B x3 to reach the main battle menu.
-- Turn 24955: Main battle menu open with cursor on FIGHT facing Venusaur Lv 65 (~75% HP). Sheldon active at 115/222 HP (12 Full Restores ready). Pressing A to execute Struggle.
-- Turn 24956: Struggle dealt ~58 damage to Venusaur Lv 65, bringing Venusaur down to ~50% HP. Sheldon took 29 recoil to 86/222 HP. Advancing text through Venusaur's counter with B x5.
-- Turn 24957: Venusaur Lv 65 used Mega Drain for 37 damage. Sheldon at 49/222 HP (yellow bar). Main battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu and use Full Restore on Sheldon.
-- Turn 24958: Bag menu open with cursor confirmed directly on FULL RESTORE x12. Pressing A to select Full Restore and open party screen.
-- Turn 24959: Party menu open with cursor locked on Sheldon (49/222 HP). Pressing A to apply Full Restore (11 remaining after use) and restore Sheldon to 222/222 HP.
+# Elite Four & Champion Battle Strategy
+
+## Champion Battle: Rival RED
+- Status: Final Pokémon (Venusaur Lv 65). 5/6 defeated (Pidgeot, Alakazam, Rhydon, Gyarados, Arcanine).
+- Active Lead: Blastoise (SHELDON) Lv 70 (HP 222/222, 0 move PP -> Struggle).
+- Bag Reserves: Full Restore x11, Revive x15, Max Potion x1, Max Revive x1, Full Heal x6.
+- Strategy:
+  - Attack Venusaur with Struggle (deals ~45-58 damage per hit).
+  - Maintain Sheldon's HP above 50 HP using Full Restore (heals 222 HP).
+  - Use healthy pivots (Rocky, Dux, Digby, Sandman) if free switch-in/healing turns are required.
