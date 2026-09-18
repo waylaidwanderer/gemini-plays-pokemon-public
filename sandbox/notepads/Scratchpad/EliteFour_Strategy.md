@@ -9,4 +9,4 @@
 
 - Opponent Pokémon 2: CLOYSTER Lv 53 (Water/Ice)
 - Sheldon HP: 213/213 (Lv 67)
-- Strategy: Cloyster has 205 Defense vs 110 Special. Using Surf (STAB Special) to bypass massive physical defense.
+- Strategy: Cloyster possesses base 180 Defense vs base 85 Special. Using Surf (STAB Special) or Body Slam (neutral physical with 30% paralysis chance) to target its lower Special and status vulnerability.
