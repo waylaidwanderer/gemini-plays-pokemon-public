@@ -3828,14 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24391]:
+## Current Verified State [Turn 24423]:
 - Boulder 1 is at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
-- Player is on Victory Road 3F at (20, 6) facing South.
-- Heading west along Row 6 to (17, 6), then stepping Up x2 via staircase (17, 5) to ascend onto elevated terrace at (17, 4).
-- Immediate task: Walk across terrace to Row 10 at (7, 10) to visually and physically test/verify whether Barrier Block (7, 10) is lowered.
-- Switch Plate & Barrier Testing Hypothesis:
-  - Depressing Switch Plate (3, 5) with Boulder 1 is hypothesized to lower Barrier Block (7, 10) on the Row 10 terrace.
-  - Active requirement: Visually and physically verify whether Barrier Block (7, 10) is lowered before recording as confirmed fact.
+- Barrier Block (7, 10) visually and physically confirmed lowered [Turns 24406, 24420]!
+- Player is on Victory Road 3F at (1, 10) facing South in Southwest Basin.
+- Immediate task: Walk south to Row 16, then east along Row 16 Highway to (21, 16) / (21, 15), push Boulder (22, 15) East into Pit Hole (23, 15), and drop down to 2F!
 - Plateau Barrier on 2F at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
 
 ## Active Execution Blueprint:
