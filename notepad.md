@@ -4029,6 +4029,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24906: Advancing final lines of Lance's dialogue ("He beat the ELITE FOUR before you!"). Preparing to heal Sheldon with Full Restore before Champion room.
 - Turn 24907: Lance dialogue concluded. Overworld control restored at (6, 2). Opening Start menu to ITEM to heal Sheldon with Full Restore before Champion battle.
 - Turn 24908: Bag menu open with cursor on POKé FLUTE. Navigating Down to FULL RESTORE and selecting USE to open party menu.
+- Turn 24909: Party menu open with cursor on Sheldon (123/219 HP). Pressing A to apply Full Restore and restore Sheldon to 219/219 HP.
 
 <hr>
 
