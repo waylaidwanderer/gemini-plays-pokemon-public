@@ -24,12 +24,8 @@
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F at (27, 2) on foot (Northern Elevated Terrace, facing Ladder 27, 1).
-- Physical Traversal Milestones [Turns 26068-26096]:
-  - Traversed Row 17 east to (16, 17), climbed Staircase (17, 15) onto Central-Western Terrace at (17, 14).
-  - Crossed terrace via Row 18/9 to Staircase (11, 13), descended to water, and launched HM03 SURF on Sheldon.
 - Active Strategy & Frontier:
   - [x] 1F Waterway Survey Completed [Turn 26112]: Visually audited northern/western water boundary at (9, 7). Confirmed Column 7 is solid rock (rows 4..15) and Rows 4..5 are solid rock (cols 6..13). 1F subterranean lake is 100% proven to be a closed loop with ZERO water passages to the northwest or B1F.
-  - Primary Route: Surf east via Rows 6..7 -> Column 14/15 -> Row 4 to Northern Subterranean Lake, dismount onto entrance terrace at Staircase (25, 9), and ascend Ladder (23, 7) to 2F.
   - 2F Investigation: Navigate to the Northern Transit Corridor at (28, 3) and physically explore Row 3 westward to reach Candidate Ladder (1, 3) in the northwest corner.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
