@@ -76,3 +76,4 @@
 - Turn 25413: Player at (8, 4) on foot facing West. Ladder (5, 7) visually confirmed on screen in Southern Alcove. Walking Left x5 along row 4 toward ledge approach at (3, 4).
 - Turn 25414: Player at (3, 4) on foot facing West. Hopping south over ledge (3, 5) and walking to Ladder (5, 7) to ascend to B1F.
 - Turn 25415: Landed at (3, 6) facing South. Walking Right x2 to (5, 6) and Down onto Ladder (5, 7) to ascend to B1F.
+- Turn 25416: Arrived on B1F at (23, 3) facing South. Ladder (27, 3) in sight. Walking Right x4 along row 3 onto ladder to ascend to 1F Route 4 exit.

@@ -4212,5 +4212,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25404-25410: Spoke with Miguel, verified bypass via (13, 9) into Fossil Chamber, fled wild Zubat at (13, 9), and walked north along col 13 into Northern Exit Corridor at (13, 4).
 - Turn 25413: Player at (8, 4) on foot facing West. Ladder (5, 7) visually confirmed on screen in Southern Alcove. Walking Left x5 along row 4 toward ledge approach at (3, 4).
 - Turn 25414: Player at (3, 4) on foot facing West. Hopping south over ledge (3, 5) and walking to Ladder (5, 7) to ascend to B1F.
+- Turn 25415: Landed at (3, 6) facing South. Walking Right x2 to (5, 6) and Down onto Ladder (5, 7) to ascend to B1F.
 
 <hr>
