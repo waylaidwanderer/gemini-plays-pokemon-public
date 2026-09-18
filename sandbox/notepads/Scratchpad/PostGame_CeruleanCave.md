@@ -35,3 +35,5 @@
 - Eastern Avenue to Northern Highway: Walk north along Eastern Avenue (cols 24..27) from row 27 to row 10, then through col 30 passage to Northern Highway (rows 6..7).
 - Northern Highway to Ladder (5, 5): Walk west along rows 6..7 across to the northwest corner at (5, 5).
 - Descent to B1F/B2F: Descend ladder (5, 5) to B1F, take ladder (21, 17) to B2F, navigate to Route 4 Exit Chamber, climb ladder (5, 7) to B1F (27, 3), and ascend to 1F Route 4 East exit.
+
+- Turn 25262: Player at (12, 25) on foot facing East. Walking Right x8 along row 25 toward (20, 25) Eastern Avenue corridor.
