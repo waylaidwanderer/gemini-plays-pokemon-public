@@ -1,9 +1,10 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24091]:
-- 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
-- Boulder 3 pushed onto Switch Plate A at (1, 16) [Turn 24093]! Switch Plate A is depressed and Plateau Barrier at (7, 8)-(7, 9) is lowered.
-- Depressing Switch Plate A lowers Plateau Barrier at (7, 8)-(7, 9), unlocking passage to eastern plateau, Column 16 Highway, Row 1, and Northwest ladder (1, 1).
+## Current Verified State [Turn 24151]:
+- Plateau Barrier (7, 8)-(7, 9) lowered via Switch Plate A (1, 16).
+- Boulder 1 at (5, 3) blocks doorway (5, 4) against rock wall (5, 2).
+- Row 8 cliff and Column 14 wall confirmed continuous.
+- Taking ladder (0, 8) to 1F and back will reset Boulder 1.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
