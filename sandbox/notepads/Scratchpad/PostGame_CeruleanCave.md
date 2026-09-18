@@ -79,3 +79,4 @@
 - Turn 25387: Fled Zubat cleanly. Player at (28, 31) on foot facing West. Walking Left x5 along row 31 toward (23, 31).
 - Turn 25388: Player at (23, 31) on foot facing West. Walking Left x5 along row 31 toward (18, 31).
 - Turn 25389: Player at (18, 31) on foot facing West. Walking Left x5 along row 31 toward (13, 31) approaching Western Cavern Highway.
+- Turn 25390: Player at (13, 31) on foot facing West. Visual confirms cols 9..11 open north into Western Cavern Highway. Walking Left x2 to (11, 31) and Up x3 to (11, 28).
