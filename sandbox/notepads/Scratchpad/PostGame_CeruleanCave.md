@@ -21,11 +21,11 @@
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Subterranean Waterway at (22, 4) Surfing on Sheldon.
+- Current Location: Cerulean Cave 1F Western Subterranean Waterway at (8, 8) Surfing on Sheldon.
 - Empirical Physical Discovery: Column 19 is a solid rock wall from Row 8 to Row 16, and Row 16 is a solid southern cliff barrier. The entrance cavern (Cols 20..25, Rows 12..17) has NO westward passage to Columns 17..18.
 - Staircase (17, 15) and Ladder (18, 9) reside on the Central-Western Terrace (Cols 11..18).
 - Routing Plan: Ascend Staircase (21, 11) back to entrance terrace, cross east to Staircase (25, 9), Surf through subterranean lake to Staircase (11, 13), ascend onto Central-Western Terrace, and head south to explore Staircase (17, 15) and locate descent to B1F.
-- Next Step: Step Left x7 along Row 4 to (15, 4), then Down x2 to (15, 6).
+- Next Step: Step Down x6 along Column 8 to (8, 14), Right x3 to (11, 14), and Up onto Staircase (11, 13).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
