@@ -58,3 +58,4 @@
 - Turn 24803: Surf executing against Gengar Lv 56. Advancing turn text with B to resolve damage and Gengar's response.
 - Turn 24804: Surf hit Gengar Lv 56 down to ~35% HP (~40 HP). Gengar used Hypnosis; Sheldon fell asleep (HP 216/216). Opening ITEM menu to use Poké Flute.
 - Turn 24805: Bag menu open on POKé FLUTE. Playing Poké Flute to wake Sheldon and advance turn with B.
+- Turn 24806: Poké Flute woke Sheldon! Gengar used Confuse Ray (Sheldon confused, HP 216/216). Dismissing text and opening FIGHT menu to verify move cursor for Surf.
