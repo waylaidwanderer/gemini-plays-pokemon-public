@@ -4184,7 +4184,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 | (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
 | (18, 9) | (19, 7) | CONFIRMED 2-WAY | 1F central-western terrace to 2F northwest secluded pocket |
 
-
 <hr>
 
 <h1><code>Locations/Kanto_CeruleanCave_1F</code></h1>
@@ -4230,7 +4229,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (7, 1): Cave ladder visually confirmed at (7, 1) in the upper northwest chamber (Rows 0..2, Cols 5..12). [Visually confirmed Turn 25731]
 - Ladder (1, 3): Sighted cave ladder at (1, 3) in far northwest corner pocket. [Visually confirmed Turn 25702]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
@@ -4265,6 +4263,5 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
-
 
 <hr>
