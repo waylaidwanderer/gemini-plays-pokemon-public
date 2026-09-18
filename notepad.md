@@ -150,6 +150,7 @@
 - [x] Defeat Elite Four Agatha in Chamber 3 [Turn 24849]
 - [x] Defeat Elite Four Lance in Chamber 4 [Turn 24903]
 - [x] Defeat Pokémon Champion RED and become Pokémon League Champion! [Turn 24981]
+- [x] Inducted into Pokémon Hall of Fame! [Turn 24994]
 
 <hr>
 
