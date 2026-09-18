@@ -28,8 +28,9 @@
   - Traversed Row 17 east to (16, 17), climbed Staircase (17, 15) onto Central-Western Terrace at (17, 14).
   - Crossed terrace via Row 18/9 to Staircase (11, 13), descended to water, and launched HM03 SURF on Sheldon.
 - Active Strategy & Frontier:
-  - 1F Waterway Survey: Audit water boundaries along Columns 8..9 north to Rows 6..7 and Row 4. Specifically verify whether any opening exists west of Column 8 or west of Column 15.
-  - Contingency (2F Northern Transit Corridor): If 1F waterways are strictly a closed loop back to Staircase (25, 9), navigate east to (25, 9), take Ladder (23, 7) back to 2F, and physically explore the Northern Transit Corridor at Row 3 from (28, 3) westward to determine ground reachability of Ladder (1, 3).
+  - [x] 1F Waterway Survey Completed [Turn 26112]: Visually audited northern/western water boundary at (9, 7). Confirmed Column 7 is solid rock (rows 4..15) and Rows 4..5 are solid rock (cols 6..13). 1F subterranean lake is 100% proven to be a closed loop with ZERO water passages to the northwest or B1F.
+  - Primary Route: Surf east via Rows 6..7 -> Column 14/15 -> Row 4 to Northern Subterranean Lake, dismount onto entrance terrace at Staircase (25, 9), and ascend Ladder (23, 7) to 2F.
+  - 2F Investigation: Navigate to the Northern Transit Corridor at (28, 3) and physically explore Row 3 westward to reach Candidate Ladder (1, 3) in the northwest corner.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
