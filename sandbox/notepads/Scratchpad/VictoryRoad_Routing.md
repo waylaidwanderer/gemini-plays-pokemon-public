@@ -1,10 +1,10 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24359]:
-- Boulder 1 successfully pushed onto Switch Plate (3, 5), actively depressing the switch [Turn 24359]!
-- Player is at (1, 5) facing East directly west of Boulder 1 at (3, 5).
-- Route taken from (6, 1): Pushed south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), circled via (1, 3)-(1, 4)-(1, 5), and pushed east onto (3, 5).
-- Heading east via Row 4/Row 2 corridor and Northern Highway to wooden staircase (17, 5) to ascend terrace and verify Barrier Block (7, 10).
+## Current Verified State [Turn 24391]:
+- Boulder 1 is at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
+- Player is on Victory Road 3F at (20, 6) facing South.
+- Heading west along Row 6 to (17, 6), then stepping Up x2 via staircase (17, 5) to ascend onto elevated terrace at (17, 4).
+- Immediate task: Walk across terrace to Row 10 at (7, 10) to visually and physically test/verify whether Barrier Block (7, 10) is lowered.
 - Switch Plate & Barrier Testing Hypothesis:
   - Depressing Switch Plate (3, 5) with Boulder 1 is hypothesized to lower Barrier Block (7, 10) on the Row 10 terrace.
   - Active requirement: Visually and physically verify whether Barrier Block (7, 10) is lowered before recording as confirmed fact.

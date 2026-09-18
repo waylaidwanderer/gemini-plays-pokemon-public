@@ -16,7 +16,7 @@
 - Column 20 Corridor: Open north-south passage along column 20 connecting row 0 down through row 11.
 - Rock Wall at (19, 3..5): Separates central area from column 20 eastern corridor.
 - Plateau Barrier Block at (7, 10): Raised barrier block with blue/white checkerboard pattern. Blocks westward traversal across Row 10 terrace from (8, 10) to (6, 10) [Empirically verified raised Turn 24254]. Hypothesized to be lowered by depressing Switch Plate (3, 5).
-- Boulder 1: Successfully pushed onto Switch Plate (3, 5), actively depressing the switch [Turn 24359]! Route: pushed west along Row 1 Northern Highway from (22, 3) to (6, 1), south to (6, 2), west along Row 2 to (2, 2), south down Column 2 to (2, 5), and east from (1, 5) onto (3, 5).
+- Boulder 1: Located at Switch Plate (3, 5), actively depressing the switch [Turn 24359].
 - Row 10 Southwest Terrace Link: Tile (5, 10) confirmed solid rock wall [Turn 23288-23291].
 - Terrace Highway & Southwest Staircase [Reconciled Turn 23842]:
   - Complete unbroken elevated connector: Ascend wooden staircase at (17, 5) to (17, 4), walk west across Row 4 to Column 10, south along Columns 9-10 to Row 10, west along Row 10 to (5, 10), north to Row 8, west across Row 8 to (1, 8), and descend wooden staircase at (1, 9) to enter the Southwest Basin at (1, 10).
