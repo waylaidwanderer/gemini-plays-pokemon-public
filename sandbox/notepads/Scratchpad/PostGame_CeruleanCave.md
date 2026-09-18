@@ -30,11 +30,11 @@
   - Column 1 spur (1, 15..16) is a dead-end alcove off Row 17.
   - Row 17 terminates west at (1, 17) against solid rock walls (0, 17) and (1, 18).
   - The southwest sector of 2F is now 100% physically surveyed and exhausted (Ultra Ball retrieved).
-- Floor Strategy & Strategic Pivot [Turn 26041]:
+- Floor Strategy & Strategic Pivot [Turn 26041-26046]:
   - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
   - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
-  - Actionable Route: Backtrack east via Row 17 to Column 10 and Column 12 to reach Row 9, navigate west to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
-- Active Plan: March east along Row 17 from (4, 17) through (5, 17) to (6, 17), step Up to (6, 16), and proceed east along Row 16 toward (9, 16).
+  - Actionable Route: Backtrack through Column 13 bypass to Column 12, ascend to Row 9 at (12, 9), traverse west along Row 9 to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
+- Active Plan: Standing at (10, 15). Step Down to (10, 16), Right to (11, 16), Down to (11, 17), Right x2 to (13, 17), and Up into Column 13 bypass at (13, 16).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
