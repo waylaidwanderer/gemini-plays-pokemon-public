@@ -4108,5 +4108,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25077: Player at (13, 26) on Bicycle. Riding Up x4 along col 13 tall grass chute to row 22 past the tree hedge.
 - Turn 25079: Wild Rattata battle active. Pressing B x3 to advance intro text safely to the main battle menu.
 - Turn 25081: Battle menu confirmed on FIGHT vs Rattata. Pressing Down, Right, A, B to select RUN and escape.
+- Turn 25083: Player at (13, 23) facing North on Bicycle. Riding Up x3 along col 13 to row 20 dirt road at (13, 20).
 
 <hr>
