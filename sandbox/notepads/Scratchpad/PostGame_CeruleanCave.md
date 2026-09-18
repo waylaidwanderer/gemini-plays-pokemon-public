@@ -25,11 +25,9 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Corridor at (15, 8) on foot.
-- Empirical Physical Discovery: Ladder (3, 11) leads from 1F western terrace to 2F Western Pocket! Sighted Item Ball on ground at (4, 15).
-- Routing Plan: Survey Western Pocket corridors {(3, 11), (2, 11), (2, 10), (3, 10), (3, 9)} to check for passable tiles or branches, and locate passage toward Row 7 and Ladder (1, 3).
-- Empirical Physical Discovery: Tile (4, 9) is 100% passable! Confirms exit from Western Pocket into Column 5 corridor network.
-- Next Step: Step Down to (15, 9), then Right x3 along Row 9 corridor to (18, 9) near Ladder (19, 7).
+- Current Location: Cerulean Cave 2F at (15, 9) in wild battle with Wigglytuff.
+- Strategic Pivot (Overwatch Audit): Terminating backtracking toward exhausted central/eastern 2F network. Pivoting route back west to thoroughly explore unvisited western sector (Columns 1..8, Rows 7..15) and retrieve Item Ball at (4, 15).
+- Next Step: Advance dialogue with B, select RUN to escape, and walk west along Row 9 back toward Column 5.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |

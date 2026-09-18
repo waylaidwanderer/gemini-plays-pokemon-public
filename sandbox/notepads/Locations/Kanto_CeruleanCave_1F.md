@@ -4,6 +4,7 @@
 - Ladder (23, 7): Ascending cave ladder located on entrance terrace. Connects to 2F Ladder (22, 6). [Physically verified Turn 25522]
 - Ladder (27, 1): Ascending cave ladder in northeast elevated terrace. Connects to 2F Ladder (29, 1). [Physically verified Turn 25605-25609]
 - Ladder (18, 9): Ascending cave ladder on central-western land terrace. Connects to 2F Ladder (19, 7) in northwest secluded pocket. [Physically verified Turn 25650]
+- Ladder (3, 11): Ascending cave ladder on western elevated terrace. Connects to 2F Ladder (3, 11) in western pocket. [Physically verified Turn 25867]
 - South Exit: Warp at (24, 17) leading outside to Cerulean City canal.
 
 ## Layout & Corridors
@@ -29,7 +30,7 @@
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 - Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
 - Staircase (1, 13): Wooden staircase at (1, 13) ascending north from Column 1 lower corridor onto the western elevated terrace (Cols 1..5, Rows 9..12). [Physically verified Turn 25864]
-- Ladder (3, 11): Cave ladder located at (3, 11) on western elevated terrace. [Visually confirmed Turn 25864, destination unverified]
+- Ladder (3, 11): Cave ladder located at (3, 11) on western elevated terrace. Connects to 2F Ladder (3, 11). [Physically verified Turn 25867]
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
