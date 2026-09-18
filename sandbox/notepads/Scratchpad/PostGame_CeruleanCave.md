@@ -20,3 +20,4 @@
 - Turn 25024: Cursor reached S.S. TICKET (Item 6). Continuing to scroll Down x5 toward Master Ball.
 - Turn 25025: Cursor reached OLD ROD (Item 11). Continuing to scroll Down x5 toward Master Ball.
 - Turn 25026: Cursor reached LIFT KEY (Item 16). Continuing to scroll Down x5 toward Master Ball.
+- Turn 25027: Cursor reached TM29 (Item 21). Continuing to scroll Down x5 to bring Master Ball onto screen.
