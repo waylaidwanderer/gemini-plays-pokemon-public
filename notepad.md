@@ -4144,5 +4144,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25327: Player arrived at (6, 5) facing West. Northwest Ladder visually confirmed at (5, 5) with defeated Hiker at (5, 6). Stepping Left onto ladder (5, 5) to descend to B1F.
 - Turn 25329: Stepped onto Ladder (5, 5) and arrived on Mt. Moon B1F Northwest Transit Corridor at (5, 5) facing South. Walking Down x6 along column 5 toward row 16.
 - Turn 25331: Player at (5, 11) on foot facing South in B1F corridor. Walking Down x5 to row 16 bend at (5, 16).
+- Turn 25333: Player arrived at (5, 16) on foot facing South. Visual confirms rows 16..17 form a clear east-west corridor extending east past col 10. Walking Right x6 along row 16 toward ladder (21, 17).
 
 <hr>
