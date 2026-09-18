@@ -3828,11 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24151]:
-- Plateau Barrier (7, 8)-(7, 9) lowered via Switch Plate A (1, 16).
-- Boulder 1 at (5, 3) blocks doorway (5, 4) against rock wall (5, 2).
-- Row 8 cliff and Column 14 wall confirmed continuous.
-- Taking ladder (0, 8) to 1F and back will reset Boulder 1.
+## Current Verified State [Turn 24184]:
+- Floor reset via ladder (0, 8): Boulder 1 is at (5, 5), Boulder 3 is at (4, 14).
+- Switch Plate A at (1, 16) is unpressed; Plateau Barrier at (7, 8)-(7, 9) is currently RAISED.
+- Strength is active (cast by Rocky Turn 24160).
+- Northwest Chamber entrance at (5, 4): (4, 4) and (6, 4) are rock walls; pushing Boulder 1 north into (5, 3) blocks (5, 4) against rock wall (5, 2). Access to Ladder (1, 1) is via Northern Highway (Rows 0-1) from eastern sector.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -3963,7 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
 - Boulder 3: Starts at (4, 14). Depresses Switch Plate A at (1, 16) to lower Plateau Barrier Block at (7, 8)-(7, 9) [Solved Turn 24093].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076; Visually confirmed LOWERED Turn 24097].
-- Boulder 1: Starts at (5, 5). Pushed north into (5, 4) and (5, 3), wedged in doorway (5, 4) against rock wall (5, 2), blocking northern entry into Northwest Chamber [Tested Turns 24024-24040].
+- Boulder 1: Starts at (5, 5) [Reset Turn 24156]. Wedges if pushed North into (5, 3) against rock wall (5, 2); Northwest Chamber access is via Northern Highway from eastern sector.
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
 - Switch Plate B: Located at (9, 16) in southwest lower corridor [Visually confirmed empty Turn 23764]. Controls Exit Barrier at (23, 14). Accessible via Row 16 from the east.
 
