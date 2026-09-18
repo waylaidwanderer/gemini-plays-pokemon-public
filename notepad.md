@@ -3828,10 +3828,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24199]:
-- Boulder 3 successfully pushed onto Switch Plate A at (1, 16) [Solved Turn 24199]!
-- Switch Plate A at (1, 16) is DEPRESSED; Plateau Barrier at (7, 8)-(7, 9) is LOWERED.
-- Strength is active (cast by Rocky Turn 24160).
+## Current Verified State [Turn 24237]:
+- Ascended Ladder (23, 7) from 2F to 3F [Turn 24237]!
+- Player is at (23, 7) on Victory Road 3F.
+- Note: Strength reset on floor transition (will re-cast at Pit Hole boulder).
+- Plateau Barrier on 2F at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
+- Heading west across Row 7 to wooden staircase (17, 5) to traverse Terrace Highway to Southwest Basin.
 - Northwest Chamber entrance at (5, 4): (4, 4) and (6, 4) are rock walls; pushing Boulder 1 north into (5, 3) blocks (5, 4) against rock wall (5, 2). Access to Ladder (1, 1) is via Northern Highway (Rows 0-1) from eastern sector.
 
 ## Execution Blueprint & Active Hypotheses:
