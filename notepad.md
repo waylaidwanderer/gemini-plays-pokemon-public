@@ -4135,5 +4135,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25132: Player at (4, 54) on Bicycle facing North. Riding Up x2 to (4, 52), then Right x3 along row 52 lawn to (7, 52) to line up with col 8 passage.
 - Turn 25134: Player at (7, 52) on Bicycle. Shifting Right to (8, 52) lawn, then riding Up x4 along col 8 to (8, 48) toward row 47 passage.
 - Turn 25136: Player at (8, 48) on Bicycle facing North. Riding Up x2 through row 47 passage to (8, 46), then Left x3 along row 46 road to (5, 46).
+- Turn 25138: Player at (5, 46) on Bicycle facing West. Riding Left x2 along row 46 road to (3, 46), then Up x3 into Viridian Forest Gatehouse at (3, 43).
 
 <hr>
