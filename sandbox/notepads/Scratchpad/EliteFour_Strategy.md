@@ -98,3 +98,4 @@
 - Turn 24927: RED is about to use Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Strategy confirmed: decline switch, target Rhydon's 75 Special with final Ice Beam (Slot 4, 1 PP). Pressing B x5 to reach battle menu.
 - Turn 24928: RED sent out Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu and navigating Down x3 to Slot 4 (Ice Beam, PP 1/10).
 - Turn 24929: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 1/10) facing Rhydon Lv 61. Pressing A to execute 2x super-effective Ice Beam.
+- Turn 24931: Ice Beam OHKO'd Rhydon Lv 61 (3/6)! Rhydon fainted. 3 of RED's Pokémon defeated. Sheldon at 139/219 HP. Advancing text through fainting, EXP, and switch prompt with B x5 to reveal RED's 4th Pokémon.

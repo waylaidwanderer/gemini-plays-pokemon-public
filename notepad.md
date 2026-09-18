@@ -171,7 +171,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x14
+  2. FULL RESTORE x13
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
@@ -4059,6 +4059,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24927: RED is about to use Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Strategy confirmed: decline switch, target Rhydon's 75 Special with final Ice Beam (Slot 4, 1 PP). Pressing B x5 to reach battle menu.
 - Turn 24928: RED sent out Rhydon Lv 61 (3/6). Sheldon active at 139/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu and navigating Down x3 to Slot 4 (Ice Beam, PP 1/10).
 - Turn 24929: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 1/10) facing Rhydon Lv 61. Pressing A to execute 2x super-effective Ice Beam.
+- Turn 24931: Ice Beam OHKO'd Rhydon Lv 61 (3/6)! Rhydon fainted. 3 of RED's Pokémon defeated. Sheldon at 139/219 HP. Advancing text through fainting, EXP, and switch prompt with B x5 to reveal RED's 4th Pokémon.
 
 <hr>
 
@@ -4162,6 +4163,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Team (Starter Bulbasaur): Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 65, Venusaur Lv 65.
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated). Remaining 3 bench Pokémon unrevealed in-game.
 
 <hr>

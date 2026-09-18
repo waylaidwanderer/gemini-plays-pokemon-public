@@ -9,4 +9,4 @@
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Team (Starter Bulbasaur): Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 65, Venusaur Lv 65.
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated). Remaining 3 bench Pokémon unrevealed in-game.

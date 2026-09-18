@@ -14,7 +14,7 @@
 - Total Slots Used: 6 / 20 [Turn 24594]
 - Verified Active Bag Items (6 items):
   1. POKé FLUTE
-  2. FULL RESTORE x14
+  2. FULL RESTORE x13
   3. MAX POTION x1
   4. REVIVE x15
   5. FULL HEAL x6
