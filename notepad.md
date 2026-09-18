@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Staircase at (15, 3) facing North.
-- Active Navigation: Turning South and re-launching Surf onto water at (15, 4), then surfing south to Rows 6..7 southwest water channel.
-- Objective: Navigate southwest subterranean water channel (Cols 11..15, Rows 6..7) heading west to search for B1F ladder.
+- Current Location: Cerulean Cave 1F at (12, 6) surfing facing West.
+- Active Navigation: Surfing West along Row 6 water channel to (8, 6) at the western junction.
+- Objective: Scout western waterway (Cols 0..8) and southern water highway (Cols 8..9, Rows 8..10+) toward B1F ladder and Ladder (18, 9).
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
