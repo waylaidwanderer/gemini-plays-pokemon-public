@@ -3977,23 +3977,17 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - POKé FLUTE (infinite sleep cure)
 
 ## Matchup Progress & Live Combat Log - Lorelei
-- Defeated Pokémon:
+- Defeated Pok�mon:
   1. Dewgong Lv 54 [KO'd Turn 2 with Body Slam, Sheldon 209/209 HP, 0 damage taken]
   2. Cloyster Lv 53 [KO'd Turn 7 with Body Slam, Sheldon 147/213 HP, cured of confusion]
-- Current Opponent:
-  3. Slowbro Lv 54 [HP ~15% remaining, used Growl x3, Amnesia x1, Water Gun x1]
-- Backline Opponents (Movesets Hypothesized / Pending Direct Observation):
-  4. Jynx Lv 56 [Hypothesized: Ice/Psychic, fragile physical defense]
-  5. Lapras Lv 56 [Hypothesized: Water/Ice, Lorelei's ace]
-- Turn 12: Body Slam reduced Slowbro to 1 HP and inflicted Paralysis! Sheldon HP: 136/213. Queued finishing blow.
-- Turn 13: Battle menu open on FIGHT. Slowbro at 1 HP and paralyzed. Sheldon executing Body Slam to finish off Slowbro.
-- Turn 13 result: Lorelei burned a Super Potion on Slowbro! Slowbro regained 50 HP (~30% HP total) and remains paralyzed. Sheldon HP: 136/213.
-- Turn 14: Double-Edge hit Slowbro down to ~1 HP (Sheldon took 3 recoil down to 118/213 HP).
-- Turn 15: Lorelei burned her 2nd Super Potion on Slowbro! Slowbro restored ~50 HP (to ~30% HP), still paralyzed.
-- Turn 16: Double-Edge hit Slowbro down to ~5% HP (Sheldon took 3 recoil down to 115/213 HP). Slowbro used Growl (Sheldon at -4 Attack).
-- Turn 17: Double-Edge hit Slowbro down to ~8 HP (Sheldon took 3 recoil down to 112/213 HP). Slowbro used Amnesia (+2 Special).
-- Turn 18: Double-Edge hit Slowbro down to ~3 HP (Sheldon took 3 recoil down to 109/213 HP). Slowbro used Amnesia again.
-- Turn 19: Battle menu open on FIGHT. Slowbro at ~3 HP and paralyzed. Executing Double-Edge to deliver final blow.
+  3. Slowbro Lv 54 [KO'd Turn 19 with Double-Edge Critical Hit, burned both Lorelei Super Potions]
+  4. Jynx Lv 56 [OHKO'd Turn 21 with Surf! Sheldon 101/213 HP, 0 damage taken]
+- Final Opponent:
+  5. Lapras Lv 56 [Water/Ice, Lorelei's ace]
+- Turn 19: Double-Edge scored a Critical Hit! Slowbro fainted! Sheldon took 8 recoil to 101/213 HP. Gained 1897 EXP. Declined switch.
+- Turn 20: Jynx Lv 56 sent out. Selected Surf from move menu.
+- Turn 21: Sheldon used Surf! Instant OHKO on Jynx! Sheldon HP 101/213. Jynx fainted! Advancing text to face Lapras.
+
 
 <hr>
 
