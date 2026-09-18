@@ -4032,6 +4032,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24909: Party menu open with cursor on Sheldon (123/219 HP). Pressing A to apply Full Restore and restore Sheldon to 219/219 HP.
 - Turn 24910: Sheldon restored to 219/219 HP via Full Restore (13 remaining). Dismissing menus to return to overworld at (6, 2).
 - Turn 24911: Full Restore x13 and Sheldon 219/219 HP verified. Overworld at (6, 2). Walking Left, Up, Up into northern doorway at (5, 0) to enter Champion's chamber.
+- Turn 24912: Arrived in Champion's Room at (4, 3). Confronted Champion Rival RED at (4, 2). Dialogue triggered: 'RED: Hey!'. Advancing pre-battle dialogue with B to initiate final battle.
 
 <hr>
 
@@ -4119,5 +4120,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
     - Dragonite: Ice Beam (4x weakness, OHKO).
 
 - Defeated Turn 24903 by Sheldon Lv 69 (123/219 HP). Prize: ¥6138. Northern door unlocked.
+
+<hr>
+
+<h1><code>Locations/Kanto_ChampionRoom</code></h1>
+
+# Indigo Plateau - Champion's Room (Final Chamber)
+
+## Overview & Geography
+- Final chamber of the Pokémon League.
+- Entered from Lance's chamber northern doorway at (5..6, 0) [Turn 24912].
+- Player arrives at (4, 3) facing North [Turn 24912].
+- Room layout: Stone arena flanked by statues at (2, 0), (5, 0), (1, 1), (6, 1) and side walls.
+- Northern exit: Doorway behind Champion leads to Hall of Fame.
+
+## Champion
+- Rival RED: Standing at (4, 2) facing South [Turn 24912].
+- Team (Starter Bulbasaur): Pidgeot Lv 61, Alakazam Lv 59, Rhydon Lv 61, Gyarados Lv 63, Arcanine Lv 65, Venusaur Lv 65.
 
 <hr>
