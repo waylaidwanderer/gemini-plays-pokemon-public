@@ -4148,7 +4148,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Hypotheses to Empirically Verify
 - Hypothesis 1: Cerulean Cave entrance guard (northwest of Cerulean City across Route 24 river) has departed following Champion induction. [CONFIRMED - Turn 25483: guard at (4, 12) absent, cave mouth (4, 11) unobstructed]
-- Hypothesis 2: Legendary Pok�mon Mewtwo resides within Cerulean Cave B1F at Level 70.
+- Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
 
 ## Post-Game Routing Plan
 1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC. [Completed]
@@ -4171,9 +4171,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (13, 1) on foot facing West.
-- Active Navigation: Walking Down x4 down Column 13 (13, 2..5) and West along Row 5 toward Column 9 and Ladder (9, 1).
-- Objective: Reach and descend Ladder (9, 1) to enter B1F and capture Legendary Pok�mon Mewtwo.
+- Current Location: Cerulean Cave 2F Northwest Sector at (13, 5) on foot facing West.
+- Active Navigation: Walking Left x4 along Row 5 from (13, 5) to (9, 5) to scout western approach to Ladder (9, 1).
+- Objective: Reach and descend Ladder (9, 1) to enter B1F and capture Legendary Pokémon Mewtwo.
 
 - Turn 25650: Ascended 1F Ladder (18, 9) and arrived directly on 2F Ladder (19, 7) in the secluded northwest sector!
 
