@@ -4125,5 +4125,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25190: Player at (7, 18) on Bicycle facing South. Divider wall terminates at row 21. Riding Down x4 to (7, 22), then Left x5 through row 22 breach into Exit Avenue at (2, 22).
 - Turn 25191: Player at (2, 22) on Bicycle facing West. Stepping Left to col 1 and riding Up x7 to bypass Bug Catcher (2, 18) toward gatehouse at (1, 15).
 - Turn 25193: Player at (1, 15) on Bicycle facing North. Riding Up x8 along col 1 Exit Avenue toward gatehouse at (1, 7).
+- Turn 25194: Wild encounter triggered at (1, 14) in Viridian Forest Exit Avenue. Pressing B x6 to advance intro text to battle menu.
 
 <hr>
