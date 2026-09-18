@@ -4162,11 +4162,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Staircase (17, 15) on foot.
-- Empirical Physical Discovery: Column 19 is a solid rock wall from Row 8 to Row 16, and Row 16 is a solid southern cliff barrier. The entrance cavern (Cols 20..25, Rows 12..17) has NO westward passage to Columns 17..18.
-- Staircase (17, 15) and Ladder (18, 9) reside on the Central-Western Terrace (Cols 11..18).
-- Routing Plan: Descend Staircase (17, 15) south into lower landing at (17, 16) and explore the southwest lower corridor (Cols 13..16, Rows 16..17) to locate the B1F descent to Mewtwo.
-- Next Step: Step Down to (17, 16), Left to (16, 16), and Left to (15, 16).
+- Current Location: Cerulean Cave 1F Southwest Lower Corridor at (15, 16) on foot.
+- Empirical Physical Discovery: Staircase (17, 15) successfully descended to lower landing at (17, 16). Row 17 forms an open horizontal corridor running west past Column 11 (Cols 11..16, Row 17).
+- Routing Plan: Traverse west along Row 17 corridor to scout the southwest sector of 1F and locate the ladder descending to B1F.
+- Next Step: Step Down to (15, 17), then Left x5 along Row 17 to (10, 17).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4213,6 +4212,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
+- Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
 
 <hr>
 
