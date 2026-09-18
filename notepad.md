@@ -4154,5 +4154,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25389: Player at (18, 31) on foot facing West. Walking Left x5 along row 31 toward (13, 31) approaching Western Cavern Highway.
 - Turn 25390: Player at (13, 31) on foot facing West. Visual confirms cols 9..11 open north into Western Cavern Highway. Walking Left x2 to (11, 31) and Up x3 to (11, 28).
 - Turn 25391: Player at (11, 28) on foot facing North. Western Cavern Highway confirmed wide open across cols 7..11. Walking Up x5 along col 11 toward (11, 23).
+- Turn 25392: Player at (11, 23) on foot facing North. Walking Left to (10, 23) and Up x4 along column 10 to (10, 19).
 
 <hr>
