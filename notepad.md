@@ -3834,7 +3834,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Note: Strength reset on floor transition (will re-cast at Pit Hole boulder).
 - Plateau Barrier on 2F at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
 - Heading west across Row 7 to wooden staircase (17, 5) to traverse Terrace Highway to Southwest Basin.
-- Northwest Chamber entrance at (5, 4): (4, 4) and (6, 4) are rock walls; pushing Boulder 1 north into (5, 3) blocks (5, 4) against rock wall (5, 2). Access to Ladder (1, 1) is via Northern Highway (Rows 0-1) from eastern sector.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -3849,7 +3848,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Walk south along Col 14 to Row 12, then east along Row 12 to the eastern sector.
    - Take Ladder at (23, 7) up to Victory Road 3F (or systematically solve Boulder 1 at 5, 4 to access ladder 1, 1).
 4. Victory Road 3F:
-   - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
+   - Arrived via Ladder (23, 7) at (23, 7) [Turn 24237], walked west along Row 7 to (17, 6) [Turn 24240].
    - Ascend wooden staircase (17, 5) to terrace (17, 4).
    - Walk west across terrace to Col 10, south to Row 10, west to (5, 10), north to Row 8, west to (1, 8).
    - Descend wooden staircase (1, 9) into Southwest Basin at (1, 10).
@@ -3884,9 +3883,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Layout & Topology
 - Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
-- Tile (13, 7): Empirically verified impassable elevation cliff from (13, 8) facing North with 0 movement delta [Turn 24137].
-- Tile (11, 7): Empirically verified impassable elevation cliff from (11, 8) facing North with 0 movement delta [Turn 24139].
-- Tile (10, 7): Empirically verified impassable elevation cliff from (10, 8) facing North with 0 movement delta [Turn 24142].
 - Tile (16, 12): Empirically verified impassable elevation cliff from (16, 11) facing South with 0 movement delta [Turn 24130].
 - Tile (15, 1): Empirically verified open dark checkerboard floor from (16, 1) facing West [Turn 24123]. Column 14 remains solid rock wall.
 - Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3), completely bypassing the Row 4 rock wall (cols 18-24). Row 3 is blocked by Advice NPC at (26, 3). Row 6 is solid rock wall across cols 24-29 and Col 29 is solid rock wall across rows 0-6, so Northern Plateau cannot access Ladder (27, 7).
