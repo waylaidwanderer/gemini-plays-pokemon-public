@@ -4201,6 +4201,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
 - Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
 - Turn 25541: Wild Kadabra appeared at (14, 13). Selecting RUN to flee cleanly.
+- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.
 
 <hr>
 
@@ -4249,6 +4250,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7).
 ## Wild Pokémon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
-- Kadabra [Encountered 2F Turn 25541]
+- Kadabra: Lv 51 [Encountered 2F Turn 25541]
 
 <hr>

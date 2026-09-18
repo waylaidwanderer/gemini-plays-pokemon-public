@@ -61,3 +61,4 @@
 - Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
 - Turn 25537: Fled wild Dodrio Lv 51 cleanly. Player at (19, 11) facing West. Walking Left x4 along Row 11 corridor to (15, 11).
 - Turn 25541: Wild Kadabra appeared at (14, 13). Selecting RUN to flee cleanly.
+- Turn 25542: Fled wild Kadabra Lv 51 cleanly. Player at (14, 13) facing East. Walking Right to (15, 13) and Down x2 to (15, 15) to enter Row 15 southern corridor.
