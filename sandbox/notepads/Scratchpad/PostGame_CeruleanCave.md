@@ -21,14 +21,10 @@
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (24, 2) on foot facing West.
-- Active Navigation: Following verified route to Ladder (19, 7):
-  1. West to (22, 2).
-  2. South down Column 22 to (22, 4).
-  3. West to (21, 4), south to (21, 5), west through (20..19, 5).
-  4. South through (19, 6) onto Ladder (19, 7) to descend to 1F.
-- Step 1: Walking Left x2 to (22, 2), Down x2 to (22, 4), and Left to (21, 4).
-- Objective: Descend Ladder (19, 7) to 1F and explore western subterranean waterways toward B1F.
+- Current Location: Cerulean Cave 1F Central-Western Terrace at (18, 9) on foot facing North.
+- Active Navigation: Descended Ladder (19, 7) to 1F (18, 9). Navigating west along Row 9 (18..11, 9), south down Column 11 to Staircase (11, 13), and launching Surf into subterranean water to explore western waterway (Cols 8..9) toward B1F descent.
+- Step 1: Walking Left x4 along Row 9 to (14, 9).
+- Objective: Surf western waterways to locate descending path to B1F and capture Mewtwo.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
