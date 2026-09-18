@@ -3966,6 +3966,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 <h1><code>Scratchpad/EliteFour_Strategy</code></h1>
 
 
+## Live Battle Log - Lorelei [Turn 24675]
+- Lead: SHELDON Lv 66 (Blastoise) [HP 209/209]
+- Opponent Lead: DEWGONG Lv 54 (Water/Ice)
+- Strategy: Use Body Slam / Double-Edge to bypass Water/Ice resistances. 2HKO.
+
 
 <hr>
 
