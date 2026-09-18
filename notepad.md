@@ -4162,10 +4162,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Northern Subterranean Waterway at (17, 4) Surfing on Sheldon.
-- Active Navigation: Surfing east along Row 4 (17..23, 4) into main subterranean lake. Then surfing south across lake to dismount at entrance corridor (24, 14) and explore southwest cavern toward Staircase (17, 15).
-- Step 1: Surfing Right x5 along Row 4 to (22, 4).
-- Objective: Reach and explore southwest cavern / Staircase (17, 15) to locate B1F descent to Mewtwo.
+- Current Location: Cerulean Cave 1F Subterranean Lake Entrance at (22, 4) Surfing on Sheldon.
+- Active Navigation: Reached main subterranean lake at (22, 4). Surfing east to (24, 4) and south across lake (Cols 24..25, Rows 5..13) toward entrance corridor landing at (24, 14).
+- Step 1: Surfing Right x2 to (24, 4), then Down x4 to (24, 8) across the lake.
+- Objective: Reach entrance corridor landing (24, 14) and explore unvisited southwest cavern toward Staircase (17, 15) to locate B1F descent.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4203,7 +4203,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
-- Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (22, 6).
 - Staircase (17, 15): Wooden staircase sighted at (17, 15) ascending west to upper elevation [Unverified sighting from afar].
 - Staircase (25, 9): Wooden staircase sighted at (25, 9) situated adjacent to the subterranean lake [Unverified sighting from afar].
 
