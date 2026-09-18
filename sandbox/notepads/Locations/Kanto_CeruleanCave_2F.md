@@ -37,7 +37,7 @@
 - Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
 - Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
 
-## Wild Pokémon (Empirically Verified)
+## Wild Pokï¿½mon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
