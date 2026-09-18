@@ -1,11 +1,10 @@
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24064]:
+## Current Verified State [Turn 24091]:
 - 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
-- Player is on Victory Road 2F at (5, 9) on the elevated plateau (ascended via wooden staircase at 5, 10).
-- Boulder 1 on 2F at (5, 3) confirmed impassable northward (wedged against rock wall 5, 2).
-- Boundary at (7, 8) confirmed impassable elevation cliff from the north.
-- Current Route: Walk east across the plateau to Column 9/10, north along Column 9/10 to Row 1, and west along Row 1 Northern Highway to Northwest ladder (1, 1).
+- Player is on Victory Road 2F at (3, 14) in southwest lower corridor.
+- Boulder 3 pushed to (3, 16). Currently executing final westward push onto Switch Plate A at (1, 16).
+- Depressing Switch Plate A lowers Plateau Barrier at (7, 8)-(7, 9), unlocking passage to eastern plateau, Column 16 Highway, Row 1, and Northwest ladder (1, 1).
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -14,8 +13,13 @@
    - Push entrance boulder onto switch (17, 13).
    - Walk across plateau to ladder (1, 1) and ascend to 2F.
 3. Victory Road 2F (Transit):
-   - Walk north via Western Highway (cols 2-3) through doorway (5, 4) to Northwest ladder (1, 1).
-   - Ascend ladder (1, 1) to 3F (2, 0).
+   - Push Boulder 3 onto Switch Plate A at (1, 16) to lower Plateau Barrier at (7, 8)-(7, 9).
+   - Return via Row 11 to wooden staircase at (5, 10), ascend to elevated plateau at (5, 9).
+   - Walk east across lowered barrier (7, 8)-(7, 9) onto eastern plateau.
+   - Walk east and north past Moltres (11, 5) to Column 16 Highway.
+   - Ascend Column 16 Highway north to Row 1 Northern Highway.
+   - Walk west along Row 1 through Column 8 corridor into Northwest Chamber.
+   - Ascend Northwest ladder at (1, 1) to Victory Road 3F (2, 0).
 4. Victory Road 3F:
    - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
    - Ascend wooden staircase (17, 5) to terrace (17, 4).

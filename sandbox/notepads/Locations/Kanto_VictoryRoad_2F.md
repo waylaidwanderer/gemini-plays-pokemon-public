@@ -54,7 +54,7 @@
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
-- Row 4 Barrier: Solid rock wall along row 4 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629, (4, 4) confirmed solid Turn 18106), except for the open doorway at (5, 4) which connects the western sector directly north into the Northwest Chamber [Empirically verified Turn 20451].
+- Row 4 Barrier: Solid rock wall along row 4 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629, (4, 4) confirmed solid Turn 18106). Doorway at (5, 4) connects to (5, 3), but northern progression is blocked from the south by Boulder 1 wedged at (5, 3) against rock wall (5, 2) [Empirically verified Turns 24024-24040].
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
@@ -81,6 +81,7 @@
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
+- Boulder 3: Starts at (4, 14) in southwest lower corridor. Pushed west into (3, 14), south down Column 3 into (3, 16), and west along Row 16 onto Switch Plate A at (1, 16) to lower the Plateau Barrier Block at (7, 8)-(7, 9) [Turn 24082-24091].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076].
 - Boulder 1: Starts at (5, 5). Pushed north into (5, 4) and (5, 3), wedged in doorway (5, 4) against rock wall (5, 2), blocking northern entry into Northwest Chamber [Tested Turns 24024-24040].
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
