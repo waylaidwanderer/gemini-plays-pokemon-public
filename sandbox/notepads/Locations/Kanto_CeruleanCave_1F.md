@@ -30,3 +30,4 @@
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
+- Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
