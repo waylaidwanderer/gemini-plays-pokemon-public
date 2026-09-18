@@ -25,10 +25,10 @@
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Column 1 Lower Corridor at (1, 16) on foot.
-- Empirical Physical Discovery: Row 17 corridor successfully traversed west to Column 1. Wooden staircase sprite visually confirmed at (1, 13).
-- Routing Plan: Step north up Column 1 through (1, 15..14) and step onto Staircase (1, 13) to empirically test its passability and discover where it leads.
-- Next Step: Step Up x2 through (1, 15..14), then step Up onto Staircase (1, 13).
+- Current Location: Cerulean Cave 1F Staircase at (1, 13) on foot.
+- Empirical Physical Discovery: Staircase (1, 13) successfully ascended. Cave ladder sprite visually confirmed at (3, 11) on western elevated terrace.
+- Routing Plan: Step Up onto terrace at (1, 12), walk east along Row 12 to Column 3, and step onto Ladder (3, 11) to determine floor destination.
+- Next Step: Step Up to (1, 12), Right x2 to (3, 12), and Up onto Ladder (3, 11).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |

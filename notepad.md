@@ -4160,13 +4160,16 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
 - [x] Cerulean Cave Entry: Entered 1F at (24, 17), pre-swapped Master Ball to Slot 1 [Turns 25505-25510]
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
+- [x] Descended Ladder (19, 7) on 2F to 1F Central-Western Terrace at (18, 9) [Turn 25783]
+- [x] Traversed 1F subterranean lake from Staircase (25, 9) to Staircase (11, 13) [Turns 25825-25837]
+- [x] Physically descended Staircase (17, 15) to lower southwest corridor [Turns 25841-25846]
+- [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 1F Column 1 Lower Corridor at (1, 16) on foot.
-- Empirical Physical Discovery: Staircase (17, 15) successfully descended to lower landing at (17, 16). Row 17 forms an open horizontal corridor running west past Column 11 (Cols 11..16, Row 17).
-- Routing Plan: Traverse west along Row 17 corridor to scout the southwest sector of 1F and locate the ladder descending to B1F.
-- Discovery: Wooden Staircase sighted at (1, 13) at the far western end of the corridor, ascending north!
-- Next Step: Step Up x4 through (1, 15..14) and Staircase (1, 13) to elevated terrace at (1, 12).
+- Empirical Physical Discovery: Row 17 corridor successfully traversed west to Column 1. Wooden staircase sprite visually confirmed at (1, 13).
+- Routing Plan: Step north up Column 1 through (1, 15..14) and step onto Staircase (1, 13) to empirically test its passability and discover where it leads.
+- Next Step: Step Up x2 through (1, 15..14), then step Up onto Staircase (1, 13).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4208,13 +4211,14 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
+- Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
+- Staircase (1, 13): Wooden staircase located at (1, 13) at the western end of the lower corridor. [Visually confirmed sprite presence at (1, 13), passability and destination terrain unverified]
 
 ## Wild Pok�mon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]
-- Southwest Lower Corridor (Cols 11..17, Rows 16..17): Lower-level corridor accessed via Staircase (17, 15). Row 17 forms an open horizontal thoroughfare extending west past Column 11 toward the southwest corner. [Physically verified Turn 25847]
-- Staircase (1, 13): Wooden staircase located at (1, 13) at the far western end of the southwest cavern, ascending north toward the western upper plateau. [Visually confirmed Turn 25857]
+
 
 <hr>
 
