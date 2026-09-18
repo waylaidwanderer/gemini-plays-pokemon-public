@@ -24,3 +24,4 @@
 - Turn 25011: Arrived at (0, 2) directly south of PC at (0, 1). Pressing Up to face North and A to turn on bedroom PC.
 - Turn 25012: Bedroom PC turned on at (0, 1). Pressing A to open the PC menu.
 - Turn 25013: PC menu open with cursor pointing to WITHDRAW ITEM. Pressing A to view stored items list.
+- Turn 25014: Withdraw list open with cursor on TM34 (Item 1). Testing Up press to check if PC withdraw list wraps vertically to bottom.
