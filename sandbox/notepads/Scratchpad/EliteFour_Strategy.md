@@ -82,4 +82,5 @@
 - Turn 24935: Double-Edge hit Gyarados Lv 61 for 92 damage (~45% HP remaining). Sheldon took 23 recoil to 119/222 HP. Double-Edge PP now 3/15. Advancing text through Gyarados counter with B x5.
 - Turn 24936: Gyarados used Leer (Sheldon Defense fell, zero damage taken). Sheldon active at 119/222 HP. Gyarados at ~45% HP. Main battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 3/15).
 - Turn 24937: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 3/15) facing Gyarados Lv 61 (~45% HP). Pressing A to execute Double-Edge and KO Gyarados.
-- Turn 24938: Double-Edge KO'd Gyarados Lv 61 (4/6)! Gyarados fainted. Sheldon took 25 recoil to 94/222 HP. Double-Edge PP now 2/15. RED has 2 Pokémon left. Advancing text with B x5 to reveal RED's 5th Pokémon.
+- Turn 24938: Double-Edge KO'd Gyarados Lv 61 (4/6)! Gyarados fainted. Sheldon took 25 recoil to 94/222 HP. Double-Edge PP now 2/15. RED has 2 Pokï¿½mon left. Advancing text with B x5 to reveal RED's 5th Pokï¿½mon.
+- Turn 24939: RED is about to use Arcanine (5/6). Sheldon active at Level 70 (94/222 HP). Double-Edge PP 2/15. Declining switch with B x5 to reach main battle menu facing Arcanine.
