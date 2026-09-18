@@ -4162,11 +4162,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Southwest Lower Corridor at (5, 17) on foot.
+- Current Location: Cerulean Cave 1F Column 1 Lower Corridor at (1, 16) on foot.
 - Empirical Physical Discovery: Staircase (17, 15) successfully descended to lower landing at (17, 16). Row 17 forms an open horizontal corridor running west past Column 11 (Cols 11..16, Row 17).
 - Routing Plan: Traverse west along Row 17 corridor to scout the southwest sector of 1F and locate the ladder descending to B1F.
 - Discovery: Wooden Staircase sighted at (1, 13) at the far western end of the corridor, ascending north!
-- Next Step: Step Left x3 to (2, 17), Up to (2, 16), and Left to (1, 16), then head north up Column 1 to Staircase (1, 13).
+- Next Step: Step Up x4 through (1, 15..14) and Staircase (1, 13) to elevated terrace at (1, 12).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
