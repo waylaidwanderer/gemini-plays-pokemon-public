@@ -100,3 +100,4 @@
 - Turn 24929: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 1/10) facing Rhydon Lv 61. Pressing A to execute 2x super-effective Ice Beam.
 - Turn 24931: Ice Beam OHKO'd Rhydon Lv 61 (3/6)! Rhydon fainted. 3 of RED's Pokémon defeated. Sheldon at 139/219 HP. Advancing text through fainting, EXP, and switch prompt with B x5 to reveal RED's 4th Pokémon.
 - Turn 24932: Sheldon grew to Level 70! Stats: HP 142/222, Attack 166, Defense 191, Speed 165, Special 171. Rhydon defeated (3/6). Pressing B x5 to dismiss stat window, advance text, and decline switch for RED's 4th Pokémon.
+- Turn 24933: RED sent out Gyarados Lv 61 (4/6). Sheldon active at Level 70 (142/222 HP). Declined switch. Battle menu open on FIGHT. Opening FIGHT menu and navigating Up x3 to Slot 1 (Double-Edge, PP 4/15).

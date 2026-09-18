@@ -11,10 +11,6 @@
 - Lance: Located at (6, 1) facing South [Turn 24857]. Dragon Master of the Elite Four.
   - Specializes in Dragon and Flying Pok�mon.
   - Team: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
-  - Strategy:
-    - Gyarados: Body Slam / Double-Edge (high physical attack vs 79 Defense).
-    - Dragonair x2: Ice Beam (2x weakness, OHKO).
-    - Aerodactyl: Ice Beam (2x weakness, OHKO).
-    - Dragonite: Ice Beam (4x weakness, OHKO).
+
 
 - Defeated Turn 24903 by Sheldon Lv 69 (123/219 HP). Prize: ¥6138. Northern door unlocked.
