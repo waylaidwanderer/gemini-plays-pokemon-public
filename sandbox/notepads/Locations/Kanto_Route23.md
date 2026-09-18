@@ -35,3 +35,6 @@
 - Barrier at Row 43 (Cols 8..17): Empirically verified Turn 15351 that (12, 43) is solid barrier wall; entire row 43 across cols 9-17 is impassable. Wall terminates at col 8 pillar/statue. Bypass route: backtrack south to row 48 lawn, then proceed west to cols 4..8.
 - Western Corridor (Cols 6..7, Rows 48..36): Open 2-tile wide lawn avenue running north along cols 6-7, completely bypassing the row 41-43 barrier (which lies east at cols 8-17). Wide open lawn extends across cols 3..7 through row 36, passing west of statue at (8, 37).
 - Signpost at (9, 115): Attached to pillar at (9, 115) facing South. Reads: "The ultimate goal of trainers! POKéMON LEAGUE HQ" [Read Turns 23908-23909].
+## Northern Sector & Victory Road Exit [Turn 24494]
+- Victory Road Exit Doorway: Located at (14, 31). Player emerges at (14, 32) facing South.
+- Route 23 North Corridor: Columns 14-19 between water at west (cols 10-12) and hedges/lawn at east. Connects north toward Indigo Plateau entrance.
