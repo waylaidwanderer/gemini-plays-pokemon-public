@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (23, 17) facing East.
-- Active Navigation: Walking East along Row 17 to (27, 17), then North up Column 27 to (27, 14) and (26, 14..13).
-- Objective: Map Row 17 and Column 27 eastern corridors and scout for ladders and items.
+- Current Location: Cerulean Cave 2F at (27, 16) facing North.
+- Active Navigation: Stepping East to (28, 16), North to (28, 14), East to (29, 14), and North along Column 29 toward (29, 12) and Ground Item (29, 9).
+- Objective: Navigate Column 28/29 eastern corridor to scout northeast chambers and retrieve Ground Item (29, 9).
 
 
 <hr>
@@ -4225,7 +4225,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Traversed (17, 13) through (19, 13) [Physically verified].
   - Visually observed open eastward to (22, 13), where it turns south into Column 22.
 - Row 17 Southern Thoroughfare (Cols 21..27, Row 17): 1-tile wide corridor running east-west along southern rock boundary (row 18). Connects Column 21 at (21, 17) to Column 27 at (27, 17). [Physically verified (21..23, 17)]
-- Column 27 Corridor (Col 27, Rows 14..17): 1-tile wide corridor running north from (27, 17) to (27, 14). Visually observed connecting west at (27, 14) to (26, 14..13).
+- Column 27/28 Southeast Corridor: From (27, 17), leads north to (27, 16) where (27, 15) is blocked by rock wall. Steps east to (28, 16) and runs north along Column 28 through (28, 15) to (28, 14). [Physically verified (27, 17..16)]
+- Row 14 East-West Branch: At (28, 14), connects west to (27, 14) and (26, 14), and east to (29, 14). [Visually verified]
+- Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Ground Item at (29, 9). [Visually verified]
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Sighted Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Sighted Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7). Physical route to this pocket remains to be explored.
 
