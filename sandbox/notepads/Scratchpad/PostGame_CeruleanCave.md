@@ -57,3 +57,5 @@
 - Turn 25522: Ascended Ladder (23, 7) on 1F and arrived on Cerulean Cave 2F at (22, 6) facing North. Ladder (19, 7) confirmed to connect to 1F (23, 7). Scouting 2F northern corridor along col 22.
 - Turn 25526: Verified (22, 5) is solid rock wall. (22, 6) only exits South to (22, 7), which connects east to Column 23 corridor running south.
 - Turn 25529: Arrived at Row 11 junction at (23, 11). Confirmed (22, 6) is the ladder to 1F (23, 7). South is blocked by (23, 12) wall. Heading East to (24, 11) and South down Column 24 corridor.
+
+- Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.

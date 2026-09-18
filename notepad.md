@@ -4198,6 +4198,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25526: Verified (22, 5) is solid rock wall. (22, 6) only exits South to (22, 7), which connects east to Column 23 corridor running south.
 - Turn 25529: Arrived at Row 11 junction at (23, 11). Confirmed (22, 6) is the ladder to 1F (23, 7). South is blocked by (23, 12) wall. Heading East to (24, 11) and South down Column 24 corridor.
 
+- Turn 25535: Backtracked north to (24, 11) and walked west along Row 11 corridor to (20, 11). Row 11 continues open to the west.
 
 <hr>
 
