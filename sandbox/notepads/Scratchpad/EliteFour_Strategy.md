@@ -66,3 +66,4 @@
 - Turn 24903: Battle won! Lance defeat dialogue: "That's it! I hate to admit it...". Advancing prize payout and transitioning to overworld.
 - Turn 24904: Prize money verified: ¥6138 (New total: ¥101336). Transitioned to overworld at (6, 2). Advancing Lance's post-battle dialogue with B.
 - Turn 24906: Advancing final lines of Lance's dialogue ("He beat the ELITE FOUR before you!"). Preparing to heal Sheldon with Full Restore before Champion room.
+- Turn 24907: Lance dialogue concluded. Overworld control restored at (6, 2). Opening Start menu to ITEM to heal Sheldon with Full Restore before Champion battle.
