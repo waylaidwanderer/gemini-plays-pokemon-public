@@ -4164,14 +4164,15 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed 1F subterranean lake from Staircase (25, 9) to Staircase (11, 13) [Turns 25825-25837]
 - [x] Physically descended Staircase (17, 15) to lower southwest corridor [Turns 25841-25846]
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
+- [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (14, 8) on foot.
-- Item Retrieval Milestone [Turn 25986-25996]:
-  - Traversed Row 13 west and Column 5 south to (5, 15), faced Left, and retrieved Item Ball at (4, 15).
-  - In-game inventory audit confirmed the item was an ULTRA BALL x1 (bringing total bag items to 12).
-  - Also audited presence of FULL RESTORE x12, PP UP x1, MAX ELIXER x1, and NUGGET x1 in bag.
-- Active Plan: Step Right to (15, 8), Down to (15, 9), and continue east along Row 9 through (16..19, 9) toward the eastern corridor junctions.
+- Strategic Analysis & Next Destination:
+  - Eastern 2F network and Ladder (19, 7) at (19, 7) lead back to 1F Central-Western terrace at (18, 9), which was already fully explored and exited on Turn 25783.
+  - Active goal is reaching Mewtwo on B1F via the northwest corridor network (targeting candidate Ladder (1, 3)).
+  - To reach the northwest network, we must trace west along Row 9 to Column 6/3 and investigate Row 7/Row 5 access, OR use 1F waterway passages to reach the northwest of 1F.
+- Active Plan: Standing at (14, 8). Step Left to (13, 8), Down to (13, 9), Left to (12, 9), and continue west along Row 9 through (11..3, 9) to explore western margin and northwest access.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4238,6 +4239,19 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Lower Southwest Corridor Network (Cols 4..13, Rows 13..17):
+  - Row 13 West: Open horizontal corridor spanning (5..8, 13). (4, 13) and (9..11, 13) are solid rock walls.
+  - Column 5 South: Open vertical corridor spanning (5, 13..15). Connects directly east of Item Ball (4, 15).
+  - Ultra Ball at (4, 15): Ground Item Ball retrieved at (4, 15) from (5, 15) facing Left [Turn 25986]. In-game audit confirmed ULTRA BALL x1.
+  - Row 14 West: Open horizontal corridor spanning (8..10, 14), (5..6, 14), and (12..13, 14). Blocked by rock walls at (7, 14), (11, 14), and (14, 14).
+  - Column 10 Passage: Open vertical corridor at (10, 14..16) connecting Row 14 south to Row 16.
+  - Row 16 West Highway: Open horizontal corridor at (8..11, 16). (6..7, 16) are open floor; (3..5, 16) and (12, 16) are rock walls.
+  - Row 17 Southern Thoroughfare West: Open horizontal corridor spanning (3..7, 17) and (11..17, 17). (8..10, 17) is a rock barrier.
+  - Column 13 Bypass: Open vertical corridor at (13, 15..17) connecting Row 17 north to Row 15, stepping west to Column 12 at (12, 15).
+  - Column 12 Vertical Highway: Open vertical passage spanning (12, 9..15) connecting Row 9 directly south to the lower southwest network.
+- Row 9 East Bypass (Cols 13..15, Rows 8..9):
+  - (14, 9) is a solid rock wall blocking direct east-west traversal along Row 9.
+  - Bypass route: (13, 9) -> (13, 8) -> (14, 8) -> (15, 8) -> (15, 9). [Physically verified Turns 26008-26009]
 - Alcove (10, 12): 1-tile dead-end alcove off Row 11 at (10, 11), bounded south by rock wall at (10, 13). [Physically verified Turn 25934]
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
