@@ -4034,6 +4034,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24911: Full Restore x13 and Sheldon 219/219 HP verified. Overworld at (6, 2). Walking Left, Up, Up into northern doorway at (5, 0) to enter Champion's chamber.
 - Turn 24912: Arrived in Champion's Room at (4, 3). Confronted Champion Rival RED at (4, 2). Dialogue triggered: 'RED: Hey!'. Advancing pre-battle dialogue with B to initiate final battle.
 - Turn 24913: Advancing RED's pre-battle speech ('While working on POKéDEX...'). Pressing B x5 to advance toward battle start.
+- Turn 24914: Advancing RED's pre-battle speech ('any POKéMON type!'). Continuing to advance dialogue with B x5 toward battle start.
 
 <hr>
 
