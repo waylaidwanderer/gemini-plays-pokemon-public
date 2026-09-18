@@ -60,3 +60,4 @@
 - Turn 24895: Lance sent out Aerodactyl Lv 60 (4/5). Sheldon active at 123/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Ice Beam.
 - Turn 24896: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 3/10). Pressing A to execute Ice Beam on Aerodactyl Lv 60.
 - Turn 24897: Ice Beam OHKO'd Lance's Aerodactyl Lv 60 (4/5)! Lance has only 1 Pokémon remaining: Dragonite Lv 62. Ice Beam PP now 2/10. Sheldon at 123/219 HP. Advancing text to face Dragonite.
+- Turn 24899: Lance sent out Dragonite Lv 62 (5/5). Sheldon active at 123/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Ice Beam.
