@@ -4170,9 +4170,9 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 1F Subterranean Lake at (19, 4) surfing facing North.
-- Active Navigation: Surfing West along Row 4 water channel (18..15, 4) to (15, 4) at the foot of Staircase (15, 3).
-- Objective: Ascend Staircase (15, 3) onto northwest terrace to search for the descending ladder to B1F (Mewtwo).
+- Current Location: Cerulean Cave 1F Staircase at (15, 3) facing North.
+- Active Navigation: Turning South and re-launching Surf onto water at (15, 4), then surfing south to Rows 6..7 southwest water channel.
+- Objective: Navigate southwest subterranean water channel (Cols 11..15, Rows 6..7) heading west to search for B1F ladder.
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
 - Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
@@ -4203,7 +4203,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Northern Elevated Terrace (Cols 23..28, Rows 0..2): Elevated rock plateau enclosing Ladder (27, 1), bounded by cavern ceiling to north and subterranean lake to south.
 - Staircase (23, 3): Wooden staircase at (23, 3) descending south from terrace (23, 2) directly into the subterranean lake at (23, 4).
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
-- Staircase (15, 3): Wooden staircase ascending north from subterranean water at (15, 4) onto the northwest elevated terrace (Cols 15..16, Rows 0..2).
+- Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
 - Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
