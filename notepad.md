@@ -4049,6 +4049,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24917: Champion battle commenced! Enemy Pidgeot Lv 61 on field. Sheldon active at 219/219 HP. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Slot 1 (Double-Edge, PP 7/15).
 - Turn 24918: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 7/15). Pressing A to execute Double-Edge on Pidgeot Lv 61.
 - Turn 24919: Double-Edge hit Pidgeot Lv 61 into yellow (~35% HP). Sheldon took 23 recoil to 196/219 HP. Double-Edge PP now 6/15. Advancing text through Pidgeot's turn with B x5.
+- Turn 24920: Pidgeot Lv 61 used Whirlwind (failed). Main battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 6/15).
 
 <hr>
 
