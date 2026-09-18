@@ -47,7 +47,7 @@
   - [x] ESCAPE ROPE [Turn 24548]
   - [x] TM14 (BLIZZARD) [Turn 24557]
   - [x] TM22 (SOLARBEAM) [Turn 24561]
-  - [ ] SECRET KEY
+  - [x] SECRET KEY [Turn 24565]
   - [ ] TM38 (FIRE BLAST)
   - [ ] TM27 (FISSURE)
   - [ ] TM43 (SKY ATTACK)
