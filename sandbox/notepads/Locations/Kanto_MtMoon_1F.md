@@ -57,7 +57,7 @@
 
 - Super Nerd (24, 31): Defeated (Magnemite Lv 11, Voltorb Lv 11). Line of sight triggered at (24, 28). Dialogue: "What! Don't sneak up on me!". Loss: "My POKéMON won't do!". Prize: ¥275.
 
-- Youngster (14, 16): Stationed at (12..14, 16) facing East. Dialogue: "Did you come to explore too?". Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Status: Defeated. Prize: ¥150.
+- Youngster (12, 16): Stationed at (12, 16) facing East. Status: Defeated (Rattata Lv 10, Rattata Lv 10, Zubat Lv 10). Row 17 is clear cave floor directly south of Youngster connecting cols 14..17 west to cols 10..11.
 
 - Hiker (5, 6..7): Stationed at (5, 6) in front of Northwest Ladder, facing South. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!". Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Status: Defeated. Prize: ¥350.
 - Ladder (5, 5): Descending ladder in the northwest corner of 1F.
