@@ -70,3 +70,4 @@
 - Turn 25324: Fled Zubat cleanly. Player at (10, 12) on foot facing North. Walking Up x6 along column 10 toward (10, 6) near northwest ladder.
 - Turn 25325: Player at (10, 6) on foot facing North. Walking Up to (10, 5) and Left x4 to (6, 5) directly adjacent to Northwest Ladder (5, 5).
 - Turn 25327: Player arrived at (6, 5) facing West. Northwest Ladder visually confirmed at (5, 5) with defeated Hiker at (5, 6). Stepping Left onto ladder (5, 5) to descend to B1F.
+- Turn 25329: Stepped onto Ladder (5, 5) and arrived on Mt. Moon B1F Northwest Transit Corridor at (5, 5) facing South. Walking Down x6 along column 5 toward row 16.
