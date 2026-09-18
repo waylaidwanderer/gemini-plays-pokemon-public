@@ -4163,12 +4163,12 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (8, 16) on foot.
-- Item Ball (4, 15) Access Route Refined [Turn 25982]:
-  - (9, 15) is a solid rock wall. Passage north from Row 16 is via Column 10!
-  - Fully verified open route:
-    (8, 16) -> (9, 16) -> (10, 16) -> (10, 15) -> (10, 14) -> (9, 14) -> (8, 14) -> (8, 13) -> (7, 13) -> (6, 13) -> (5, 13) -> (5, 14) -> (5, 15) -> face Left to (4, 15).
-- Active Plan: Step Right x2, Up x2, Left x2, Up to reach waypoint (8, 13), then follow Row 13 west to (5, 15) and retrieve the Item Ball.
+- Current Location: Cerulean Cave 2F at (8, 13) on foot.
+- Physical Traversal Milestone [Turn 25984]:
+  - Traversed (8, 16) -> (10, 16) -> (10, 14) -> (8, 14) -> (8, 13) successfully with zero encounters.
+  - Waypoint (8, 13) reached!
+  - Direct open path west along Row 13 (Cols 8..5) and south down Column 5 (Rows 13..15) confirmed in view.
+- Active Plan: Step Left x3 to (5, 13), Down x2 to (5, 15), face Left toward Item Ball at (4, 15), and press A to retrieve the item.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
