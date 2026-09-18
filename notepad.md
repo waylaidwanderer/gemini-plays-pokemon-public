@@ -4012,6 +4012,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24796: Entered Agatha's chamber at (4, 5). Advancing to (5, 3) facing Agatha at (5, 2) to initiate dialogue.
 - Turn 24798: Dialogue initiated with Agatha at (5, 3). 'I am AGATHA of the ELITE FOUR!' on screen. Advancing dialogue to trigger battle.
 - Turn 24799: Agatha dialogue progressing ('handsome! That was decades ago!'). Advancing dialogue to battle start.
+- Turn 24800: Agatha dialogue finishing ('BLUE! I'll show you how a real trainer fights!'). Advancing into battle vs Gengar Lv 56.
 
 
 <hr>
