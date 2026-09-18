@@ -12,24 +12,23 @@
 - Alcove (19, 3): 1-tile rock alcove bordering subterranean water at (19, 3). Physically inspected Turn 25617; empty cave floor.
 - Staircase (15, 3): 1-tile wooden staircase alcove at (15, 3) ascending from subterranean water at (15, 4). Bounded north by solid rock wall at (15, 2). Physically inspected Turn 25624; dead end landing.
 - Alcove (7, 13): 1-tile rock alcove bordering subterranean water at (8, 13). Physically inspected Turn 25641; empty cave floor.
-- Central-Western Elevated Land Terrace (Cols 11..18, Rows 8..13): Elevated plateau accessed via Staircase (11, 13). Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12)]
-- Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..13). [Visually confirmed Turn 25637]
+- Staircase (11, 13): Wooden staircase ascending north from subterranean water at (11, 14) onto the central-western land terrace (Cols 11..18, Rows 8..14). [Visually confirmed Turn 25637]
+- Central-Western Terrace (Cols 11..18, Rows 8..14): Elevated plateau accessed via Staircase (11, 13) or 2F Ladder (19, 7). Contains Ladder (18, 9) leading to 2F. Row 9 forms an open horizontal thoroughfare leading directly east toward Ladder (18, 9). [Physically verified at (11, 12) and (18, 9)]
+- Staircase (17, 15): Wooden staircase at (17, 15) positioned at southern tip of Central-Western Terrace. [Visually sighted from across Column 19, physical traversal and descent direction unverified]
 - Western Subterranean Waterway (Cols 8..9, Rows 6..10+): 2-tile wide water corridor running east-west across rows 6..7 from Col 15 to Col 8, bounded west by solid rock wall at Col 7. At (8..9, 6..7), turns south down Columns 8..9 into a vertical water highway heading toward the southern cavern. [Physically verified]
+- Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
 - Northern Subterranean Waterway (Row 4): Open water channel connecting east-west from (23, 4) to (15, 4). At (15, 4), connects north to Staircase (15, 3) and south down Column 15.
 - Entrance Cavern (Cols 20..25, Rows 14..17): Open speckled purple cave floor bounded by solid southern rock wall at row 18.
 - Entrance Mat: (24, 16..17). Stepping south from (24, 17) warps outside.
 - Northern Subterranean Lake (Cols 24..29, Rows 10..13): Underground water pool directly north of entrance corridor starting at (24..25, 13) and expanding across cols 24..29 on rows 10..11.
+- Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Central Eastern Pillar (Col 26, Rows 12..17): Rock formation separating entrance cavern from eastern corridor.
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Entrance Cavern Enclosure: Columns 20..25, Rows 12..17. Bounded west by a solid rock wall at Column 19 (Rows 8..16) and south by a cliff barrier at Row 16 (Cols 17..23). There is NO westward passage from the entrance cavern to Columns 17..18.
-- Central-Western Terrace (Cols 11..18, Rows 8..14): Contains Ladder (18, 9) leading to 2F and Staircase (17, 15) at its southern tip. Accessed via Staircase (11, 13) from subterranean water or via 2F Ladder (19, 7).
-- Staircase (17, 15): Wooden staircase at (17, 15) descending south from terrace (17, 14).
 - Staircase (25, 9): Wooden staircase located at (25, 9) ascending north from subterranean lake at (25, 10) onto elevated entrance terrace. [Physically verified Turn 25804]
 
-## Wild PokÃ©mon (Empirically Verified)
+## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]
 - Magneton: Lv 46 [Encountered 1F Turn 25520]
-- Row 15 Water Terminus: Water corridor on Row 15 terminates west at (8, 15), bounded west by solid rock wall at (7, 15) and south by rock wall at (8, 16). No westward water passage into southwest from Row 15. [Physically verified Turn 25793]
-- Lake Southern Shoreline: Located along Row 12 (Cols 24..25, 27..29). Row 12 is an elevated cliff barrier blocking direct southern dismount into the entrance cavern. Exiting subterranean lake onto land requires Staircase (25, 9) leading to entrance terrace, or Staircase (23, 3) in the north. [Physically verified Turn 25809]
 - Dodrio: Lv 49 [Encountered 1F Turn 25811]

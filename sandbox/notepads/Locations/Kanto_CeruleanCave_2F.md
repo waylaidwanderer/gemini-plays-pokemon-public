@@ -29,8 +29,11 @@
 - Column 29 North-South Corridor (Col 29, Rows 12..14): Runs north from (29, 14) through (29, 13) and (29, 12) toward Alcove (29, 9). [Physically verified]
 - Row 15 Dead-End Spur (Cols 15..19, Row 15): 1-tile wide horizontal corridor extending east from (15, 15) to (19, 15). Empirically verified to dead-end at (19, 15). No items or branches. [Physically verified]
 - Sighted Ladder Pocket (Cols 18..20, Rows 5..7): Encloses Sighted Ladder (19, 7), separated from Ladder (22, 6) by rock walls at (20..21, 6..7). Physical route to this pocket remains to be explored.
+- Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
+- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
+- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
 
-## Wild PokÃ©mon (Empirically Verified)
+## Wild Pokémon (Empirically Verified)
 - Dodrio: Lv 51 [Encountered 2F Turn 25536]
 - Kadabra: Lv 51 [Encountered 2F Turn 25541, Turn 25557]
 - Rhydon: Lv 52 [Encountered 2F Turn 25585]
@@ -38,6 +41,3 @@
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
 - Venomoth: Lv 51 [Encountered 2F Turn 25775]
 - Chansey: Lv 56 [Encountered 2F Turn 25780]
-- Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
-- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
-- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
