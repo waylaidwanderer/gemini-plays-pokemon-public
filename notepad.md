@@ -3997,6 +3997,25 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Sheldon End Status: Lv 67, HP 213/213.
 - Next Step: Menus closing. Sheldon fully healed to 213/213 HP! Advance north around Lorelei (Left, Up x3) into Bruno's chamber.
 
+# Elite Four Matchup 2: Bruno Strategy [Turn 24766]
+
+## Active Team Status
+- Lead: SHELDON (Blastoise Lv 67, Water)
+  - HP: 213 / 213 (Healthy, Full Health)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 12/15), Ice Beam (PP 10/10)
+  - Speed: 157 (Outspeeds Bruno's entire team)
+  - Special: 163 (STAB Surf has 142.5 effective power)
+
+## Bruno's Team & Battle Plan
+1. Onix Lv 53 (Rock/Ground) -> SURF (4x weakness, instant OHKO)
+2. Hitmonchan Lv 55 (Fighting) -> SURF (35 Special, instant OHKO)
+3. Hitmonlee Lv 55 (Fighting) -> SURF (35 Special, instant OHKO)
+4. Onix Lv 56 (Rock/Ground) -> SURF (4x weakness, instant OHKO)
+5. Machamp Lv 58 (Fighting) -> SURF (1-2HKO; Fissure auto-fails due to level difference)
+
+Surfs required: ~5-6. Surf PP available: 12/15.
+Supplies in bag: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1.
+
 
 <hr>
 
@@ -4016,6 +4035,31 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   - Specializes in Ice/Water Pokémon.
   - Team: Dewgong Lv 54, Cloyster Lv 53, Slowbro Lv 54, Jynx Lv 56, Lapras Lv 56.
   - Defeated Turn 24759 by Sheldon Lv 67 (89/213 HP). Northern exit doorway unlocked.
+
+
+<hr>
+
+<h1><code>Locations/Kanto_BrunoChamber</code></h1>
+
+# Indigo Plateau - Bruno's Chamber (Elite Four Room 2)
+
+## Overview & Geography
+- Second chamber of the Pok�mon League Elite Four gauntlet.
+- Entered from Lorelei's chamber via northern doorway at (4..5, 0).
+- Player arrives at (4, 11) and auto-walks forward to (4, 5) facing North. Entrance gate locks behind player.
+- Room layout: Stone/rock fighting arena surrounded by large boulder formations.
+- Northern exit: Doorway at the north end of the chamber, unlocks upon Bruno's defeat.
+
+## Elite Four Member
+- Bruno: Located at (5, 2) facing South.
+  - Specializes in Fighting and Rock Pok�mon.
+  - Team:
+    1. Onix Lv 53 (Rock/Ground) [4x weak to Water, OHKO by Surf]
+    2. Hitmonchan Lv 55 (Fighting) [Base 35 Special, OHKO by Surf]
+    3. Hitmonlee Lv 55 (Fighting) [Base 35 Special, OHKO by Surf]
+    4. Onix Lv 56 (Rock/Ground) [4x weak to Water, OHKO by Surf]
+    5. Machamp Lv 58 (Fighting) [1-2HKO by Surf, Fissure fails against Lv 67 Sheldon]
+  - Strategy: Sheldon leads with full 213/213 HP and 12 PP Surf. Sweep all 5 Pok�mon with Surf.
 
 
 <hr>
