@@ -4019,6 +4019,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24892: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 4/10). Pressing A to attack second Dragonair Lv 56.
 - Turn 24893: Ice Beam scored a CRITICAL HIT and OHKO'd Lance's second Dragonair Lv 56! Dragonair fainted. Lance has 2 Pokémon left (Aerodactyl Lv 60, Dragonite Lv 62). Advancing text and switch prompt.
 - Turn 24895: Lance sent out Aerodactyl Lv 60 (4/5). Sheldon active at 123/219 HP. Declined switch. Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Ice Beam.
+- Turn 24896: FIGHT menu verified with cursor on Slot 4 (Ice Beam, PP 3/10). Pressing A to execute Ice Beam on Aerodactyl Lv 60.
 
 <hr>
 
