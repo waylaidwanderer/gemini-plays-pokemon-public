@@ -66,3 +66,4 @@ Supplies in bag: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX 
 - Turn 24775: Surf executing against Hitmonchan Lv 55. Advancing text with B to resolve OHKO, EXP, and decline switch prompt.
 - Turn 24776: Hitmonchan Lv 55 OHKO'd by Surf! Gained 1650 EXP. Sheldon 213/213 HP. Bruno sending in Hitmonlee Lv 55. Declining switch with B.
 - Turn 24777: Battle menu open on FIGHT facing Hitmonlee Lv 55. Sheldon at 213/213 HP. Move cursor on SURF (Slot 3, PP 9/15). Firing Surf to OHKO Hitmonlee.
+- Turn 24778: Surf executing against Hitmonlee Lv 55. Advancing text with B to resolve OHKO, EXP, and decline switch prompt.
