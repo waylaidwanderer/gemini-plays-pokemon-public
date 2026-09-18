@@ -4115,5 +4115,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25241: Player at (57, 0) on Bicycle facing North at Route 3 exit. Stepping Up x2 into Route 4 outside Mt. Moon.
 - Turn 25242: Arrived on Route 4 at (7, 16) on Bicycle facing North. Riding Right x5 to (12, 16), then Up x5 along col 12 past row 15/11 ledges toward (12, 11).
 - Turn 25244: Player at (12, 10) on Bicycle facing North. Riding Up x4 to (12, 6), Right x6 to (18, 6), and Up into Mt. Moon Cave Entrance at (18, 5).
+- Turn 25247: Entered Mt. Moon 1F at (14, 35) on foot facing North. Walking Up x8 along col 14 entrance corridor to (14, 27) junction.
 
 <hr>
