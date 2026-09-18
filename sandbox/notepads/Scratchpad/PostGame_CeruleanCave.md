@@ -21,10 +21,14 @@
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Northwest Sector at (16, 5) on foot facing East.
-- Active Navigation: Verified (16, 5) dead-ends east and (16, 7) dead-ends south. Navigating west along Row 5 to (13, 5) and north up Column 13 toward Row 1 (13..18, 1) to explore eastern passage connecting to Ladder (19, 7) and central 2F network.
-- Step 1: Walking Left x3 to (13, 5), then Up x2 up Column 13 to (13, 3).
-- Objective: Connect to central 2F network / Ladder (19, 7) and determine true route to B1F.
+- Current Location: Cerulean Cave 2F at (24, 2) on foot facing West.
+- Active Navigation: Following verified route to Ladder (19, 7):
+  1. West to (22, 2).
+  2. South down Column 22 to (22, 4).
+  3. West to (21, 4), south to (21, 5), west through (20..19, 5).
+  4. South through (19, 6) onto Ladder (19, 7) to descend to 1F.
+- Step 1: Walking Left x2 to (22, 2), Down x2 to (22, 4), and Left to (21, 4).
+- Objective: Descend Ladder (19, 7) to 1F and explore western subterranean waterways toward B1F.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
