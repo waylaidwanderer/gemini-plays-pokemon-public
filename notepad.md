@@ -4021,6 +4021,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
   5. Dragonite Lv 62 (Dragon/Flying, Lance's ace) -> ICE BEAM (4X ICE WEAKNESS! Massive OHKO!)
 - Total Ice Beams required: Exactly 4. Ice Beam PP available: 5/10!
 - Supplies: FULL RESTORE x15, REVIVE x15, MAX POTION x1, FULL HEAL x6, MAX REVIVE x1, POK� FLUTE.
+- Turn 24857: Sighted Lance at (6, 1) facing South. Player at (6, 3). Opening Bag menu to heal Sheldon from 194 to 216 HP with Full Restore.
 
 
 <hr>
@@ -4096,10 +4097,10 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Entered from Agatha's chamber via northern doorway at (4..5, 0) [Turn 24853].
 - Entrance: Auto-walks through corridor into main dragon hall at (6, 11) facing North [Turn 24854].
 - Room layout: Grand dragon hall flanked by gargoyle/dragon statues along cols 3 and 8. Open central walkway cols 4-7.
-- Northern exit: Doorway at the north end of the chamber, unlocks upon Lance's defeat, leading to the Champion's Room.
+- Northern exit: Doorway at (5..6, 0) behind Lance, unlocks upon Lance's defeat, leading to the Champion's Room.
 
 ## Elite Four Member
-- Lance: Dragon Master of the Elite Four.
+- Lance: Located at (6, 1) facing South [Turn 24857]. Dragon Master of the Elite Four.
   - Specializes in Dragon and Flying Pok�mon.
   - Team: Gyarados Lv 58, Dragonair Lv 56, Dragonair Lv 56, Aerodactyl Lv 60, Dragonite Lv 62.
   - Strategy:
