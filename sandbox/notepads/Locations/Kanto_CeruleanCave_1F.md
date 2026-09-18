@@ -13,4 +13,4 @@
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
 
 ## Wild Pokémon (Empirically Verified)
-- Golbat: Lv 50+ [Encountered 1F Turn 25514]
+- Golbat: Lv 46 [Encountered 1F Turn 25514]
