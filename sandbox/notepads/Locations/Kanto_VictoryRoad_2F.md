@@ -9,9 +9,6 @@
 
 ## Layout & Topology
 - Tile (14, 7): Empirically verified solid rock wall from (15, 7) facing West with 0 movement delta [Turn 24125].
-- Tile (13, 7): Empirically verified impassable elevation cliff from (13, 8) facing North with 0 movement delta [Turn 24137].
-- Tile (11, 7): Empirically verified impassable elevation cliff from (11, 8) facing North with 0 movement delta [Turn 24139].
-- Tile (10, 7): Empirically verified impassable elevation cliff from (10, 8) facing North with 0 movement delta [Turn 24142].
 - Tile (16, 12): Empirically verified impassable elevation cliff from (16, 11) facing South with 0 movement delta [Turn 24130].
 - Tile (15, 1): Empirically verified open dark checkerboard floor from (16, 1) facing West [Turn 24123]. Column 14 remains solid rock wall.
 - Column 16 Highway [Verified Turn 23114]: Column 16 is an open north-south corridor connecting Row 11 at (16, 11) all the way north to Row 1 at (16, 1). Rows 0-2 form an open east-west thoroughfare across columns 16-28 above Advice NPC at (26, 3), completely bypassing the Row 4 rock wall (cols 18-24). Row 3 is blocked by Advice NPC at (26, 3). Row 6 is solid rock wall across cols 24-29 and Col 29 is solid rock wall across rows 0-6, so Northern Plateau cannot access Ladder (27, 7).

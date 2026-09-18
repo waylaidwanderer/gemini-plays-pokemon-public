@@ -6,7 +6,6 @@
 - Note: Strength reset on floor transition (will re-cast at Pit Hole boulder).
 - Plateau Barrier on 2F at (7, 8)-(7, 9) remains lowered by Boulder 3 on Switch Plate A (1, 16).
 - Heading west across Row 7 to wooden staircase (17, 5) to traverse Terrace Highway to Southwest Basin.
-- Northwest Chamber entrance at (5, 4): (4, 4) and (6, 4) are rock walls; pushing Boulder 1 north into (5, 3) blocks (5, 4) against rock wall (5, 2). Access to Ladder (1, 1) is via Northern Highway (Rows 0-1) from eastern sector.
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -21,7 +20,7 @@
    - Walk south along Col 14 to Row 12, then east along Row 12 to the eastern sector.
    - Take Ladder at (23, 7) up to Victory Road 3F (or systematically solve Boulder 1 at 5, 4 to access ladder 1, 1).
 4. Victory Road 3F:
-   - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
+   - Arrived via Ladder (23, 7) at (23, 7) [Turn 24237], walked west along Row 7 to (17, 6) [Turn 24240].
    - Ascend wooden staircase (17, 5) to terrace (17, 4).
    - Walk west across terrace to Col 10, south to Row 10, west to (5, 10), north to Row 8, west to (1, 8).
    - Descend wooden staircase (1, 9) into Southwest Basin at (1, 10).
