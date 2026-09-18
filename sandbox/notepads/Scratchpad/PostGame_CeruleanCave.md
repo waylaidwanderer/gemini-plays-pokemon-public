@@ -25,3 +25,4 @@
 - Turn 25029: Master Ball withdrawn! Both Bicycle and Master Ball secured in Bag (8/20 slots). Pressing B x4 to log off PC and return to 2F overworld.
 - Turn 25034: Player at (0, 2). Moving east 5 steps along row 2 toward the staircase.
 - Turn 25036: Player at (5, 2). Stairs confirmed at (7, 1). Stepping Right, Right, Up onto stairs to descend to 1F.
+- Turn 25040: Player at (7, 1) on 1F. Moving Down x4 along col 7 to (7, 5) to reveal south room layout and exit door.
