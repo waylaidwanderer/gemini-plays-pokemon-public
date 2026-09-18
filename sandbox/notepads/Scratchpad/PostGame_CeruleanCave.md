@@ -34,3 +34,4 @@
 - Turn 25148: Arrived in Viridian Forest at (17, 47) on foot facing North. Opening Start menu -> ITEM to access Bag and equip Bicycle.
 - Turn 25150: Bag menu confirmed open. Cursor on Item 1 (POKé FLUTE). Scrolling Down x6 to reach BICYCLE.
 - Turn 25152: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, then B x2 to dismiss text and return to overworld mounted on Bicycle.
+- Turn 25155: Player at (17, 47) on Bicycle facing North. Riding Up x4 along col 17 to (17, 43), then Right to (18, 43) into eastern cross-corridor.
