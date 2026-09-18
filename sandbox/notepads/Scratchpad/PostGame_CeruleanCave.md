@@ -20,14 +20,15 @@
 - [x] Traversed 1F subterranean lake from Staircase (25, 9) to Staircase (11, 13) [Turns 25825-25837]
 - [x] Physically descended Staircase (17, 15) to lower southwest corridor [Turns 25841-25846]
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
+- [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F at (14, 8) on foot.
-- Item Retrieval Milestone [Turn 25986-25996]:
-  - Traversed Row 13 west and Column 5 south to (5, 15), faced Left, and retrieved Item Ball at (4, 15).
-  - In-game inventory audit confirmed the item was an ULTRA BALL x1 (bringing total bag items to 12).
-  - Also audited presence of FULL RESTORE x12, PP UP x1, MAX ELIXER x1, and NUGGET x1 in bag.
-- Active Plan: Step Right to (15, 8), Down to (15, 9), and continue east along Row 9 through (16..19, 9) toward the eastern corridor junctions.
+- Strategic Analysis & Next Destination:
+  - Eastern 2F network and Ladder (19, 7) at (19, 7) lead back to 1F Central-Western terrace at (18, 9), which was already fully explored and exited on Turn 25783.
+  - Active goal is reaching Mewtwo on B1F via the northwest corridor network (targeting candidate Ladder (1, 3)).
+  - To reach the northwest network, we must trace west along Row 9 to Column 6/3 and investigate Row 7/Row 5 access, OR use 1F waterway passages to reach the northwest of 1F.
+- Active Plan: Standing at (14, 8). Step Left to (13, 8), Down to (13, 9), Left to (12, 9), and continue west along Row 9 through (11..3, 9) to explore western margin and northwest access.
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
