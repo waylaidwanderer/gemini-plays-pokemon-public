@@ -214,14 +214,14 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥83516 [Turn 24760]
+- ¥89258 [Turn 24793]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 68, Water]
   - Status: Healthy
   - HP: 216 / 216
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Verified Lv 68 Turn 24785]
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 7/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3963,7 +3963,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 ## Active Party Status
 - Lead: SHELDON (Blastoise Lv 68, Water)
   - HP: 216 / 216 (Healthy, Full Health)
-  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 7/15), Ice Beam (PP 10/10)
+  - Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10)
   - Stats: Attack 160, Defense 185, Speed 160, Special 166 [Grew to Lv 68 Turn 24785]
 - Support Pivots:
   - ROCKY (Geodude Lv 8)
@@ -3994,6 +3994,21 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Outcome: Victory! All 5 Pok�mon swept by Sheldon Lv 68 (flawless 216/216 HP, zero damage taken).
 - Turn 24788: Surf executing against Machamp Lv 58. Advancing turn text with B to resolve damage and turn.
 - Turn 24789: Surf brought Machamp into the red (~15 HP). Bruno used X Defend (ineffective vs Special). Sheldon at 216/216 HP. Firing final Surf to KO Machamp and defeat Bruno!
+
+## Bruno Battle Summary
+- Outcome: FLAWLESS VICTORY! All 5 Pok�mon swept by Sheldon Lv 68 (216/216 HP, zero damage taken).
+- Prize Money: �5742 (New total: �89258).
+- Sheldon Status: Healthy, Lv 68, HP 216/216. Moves: Double-Edge (PP 9/15), Body Slam (PP 5/15), Surf (PP 6/15), Ice Beam (PP 10/10).
+
+# Elite Four Matchup 3: Agatha Strategy [Upcoming]
+- Agatha specializes in Ghost and Poison Pok�mon.
+- Verified Typings & Targets:
+  1. Gengar Lv 56 (Ghost/Poison) -> SURF (Normal deals 0 damage!)
+  2. Golbat Lv 56 (Poison/Flying) -> ICE BEAM (4x/2x Ice weakness, guaranteed OHKO!)
+  3. Haunter Lv 55 (Ghost/Poison) -> SURF (Normal deals 0 damage!)
+  4. Arbok Lv 58 (Poison) -> SURF / ICE BEAM
+  5. Gengar Lv 60 (Ghost/Poison) -> SURF
+- Defense against Status: POK� FLUTE in active bag wakes Sheldon up instantly if put to sleep by Hypnosis! Full Restores cure Confuse Ray / Toxic.
 
 
 <hr>
