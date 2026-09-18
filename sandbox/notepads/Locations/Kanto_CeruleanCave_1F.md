@@ -11,6 +11,9 @@
 - Eastern Corridor (Cols 27..28, Rows 12..16): Open 2-tile wide north-south passage east of pillar.
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
+- Ladder (18, 9): Ascending cave ladder located at (18, 9) in western passage. Accessible via col 18 corridor.
+- Staircase (17, 15): Wooden staircase at (17, 15) ascending west to upper elevation.
+- Staircase (25, 9): Wooden staircase at (25, 9) situated adjacent to the subterranean lake.
 
 ## Wild Pokémon (Empirically Verified)
 - Golbat: Lv 46 [Encountered 1F Turn 25514]

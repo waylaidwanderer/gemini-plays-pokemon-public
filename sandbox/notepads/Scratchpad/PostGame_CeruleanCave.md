@@ -53,4 +53,4 @@
 - Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!- Turn 25505: Entered Cerulean Cave 1F at (24, 17) on foot facing North.
 - Turn 25510: Pre-swapped Master Ball to Slot 1 in Bag for safe 100% instant capture execution on Mewtwo.
 
-- Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.
+- Turn 25515: Fled wild Golbat Lv 46 cleanly. Player at (24, 14) facing West. Walking Left x3 to (21, 14) and Up x2 to (21, 12) staircase approach.- Turn 25517: Arrived at (21, 12) facing North. Visually identified Ladder (18, 9), Staircase (21, 11), Staircase (17, 15), and Staircase (25, 9). Ascending (21, 11) to scout elevated terrace.
