@@ -19,11 +19,6 @@
 - [x] Post-Game Start: Pallet Town Player's House, withdrew Bicycle and Master Ball [Turns 25002-25028]
 - [x] Cerulean Cave Entry: Entered 1F at (24, 17), pre-swapped Master Ball to Slot 1 [Turns 25505-25510]
 - [x] Ascended to Cerulean Cave 2F via ladder (23, 7) [Turn 25522]
-- [x] Mapped 2F Column 24 spur (dead-end at (24, 15)) [Turns 25529-25535]
-- [x] Mapped 2F Row 11 corridor west to (14, 11) [Turns 25535-25540]
-- [x] Mapped 2F Row 15 spur (dead-end at (19, 15)) [Turns 25542-25545]
-- [x] Backtracked to Row 11 (14, 11), navigated south branch (17, 11..13) into Row 13 corridor [Turns 25548-25556]
-- [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
 - Current Location: Cerulean Cave 2F Northwest Sector at (16, 5) on foot facing East.

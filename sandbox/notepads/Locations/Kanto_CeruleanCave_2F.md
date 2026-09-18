@@ -1,7 +1,7 @@
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
-- Ladder (1, 3): Descending cave ladder located at (1, 3) in far northwest corner pocket. Bounded east by rock wall at (2, 3) and south by rock wall at (1, 4). Physical corridor access: Approached from the west via Column 0 at (0, 3), connected via Column 0 (rows 3..5), Row 5 (cols 0..6), Column 6 (rows 5..7), Row 7, and Column 9. [Physically verified pathway Turn 25743]
+- Ladder (1, 3): Cave ladder located at (1, 3) in far northwest corner pocket. Visually sighted from afar across rock barriers; physical corridor access unverified from ground. [Visually confirmed Turn 25702]
 - Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Connects to 1F Ladder (27, 1) on the northern elevated terrace overlooking the subterranean lake. [Physically verified Turn 25605]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Ladder (19, 7): Descending cave ladder connecting to 1F Ladder (18, 9). Player arrives on this ladder tile facing North. [Physically verified Turn 25650]
@@ -37,3 +37,5 @@
 - Ditto: Lv 55 [Encountered 2F Turn 25661]
 - Wigglytuff: Lv 54 [Encountered 2F Turn 25736]
 - Row 5 East Terminus: Row 5 ends at (16, 5), bounded east by solid rock wall at (17..18, 5). Column 16 runs south through (16, 6..7) to dead-end at rock wall (16, 8). No southern passage to Row 9 from this corridor. [Physically verified Turn 25760]
+- Column 22 Dead-End: Column 22 runs south from (22, 2) and dead-ends at (22, 4), bounded south by solid rock wall (22, 5). [Physically verified Turn 25766]
+- Column 24 / Row 4 Dead-Ends: Column 24 runs south from (24, 2) and dead-ends at (24, 5), bounded east by rock wall (25, 5) and south by (24, 6). Row 4 extends east from (24, 4) to (27, 4), dead-ending against rock walls (27, 3), (28, 4), and (27, 5). [Physically verified Turns 25768-25769]
