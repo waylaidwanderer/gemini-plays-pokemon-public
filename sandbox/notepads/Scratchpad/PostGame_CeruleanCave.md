@@ -14,3 +14,5 @@
 2. Travel north via Route 1, Viridian City, Route 2, Pewter City, and Route 4 to Cerulean City.
 3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
 4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
+
+- Turn 25022: Withdrew BICYCLE into Bag (7/20 slots used). Pressing A to clear confirmation message and view updated PC withdraw list to retrieve Master Ball.

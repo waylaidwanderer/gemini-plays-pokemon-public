@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70
+- Active Team: Blastoise (SHELDON) Lv 70, Geodude (ROCKY) Lv 8, Farfetch'd (DUX) Lv 5, Diglett (DIGBY) Lv 19, Drowzee (SANDMAN) Lv 9
 
 - Money: ¥107771 [Turn 24983]
 - Pokédex: 17 Caught / 124 Seen
@@ -160,7 +160,7 @@
 
 ## Regular Items
 
-- FULL RESTORE x10 [Purchased 15 Turn 24635, 1 used post-Lorelei, 1 used pre-Lance, 1 used pre-Champion Turn 24910]
+- FULL RESTORE x10 [Purchased 15 Turn 24635, 5 used during Elite Four/Champion gauntlet]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
 - REVIVE x14 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
@@ -348,7 +348,7 @@
 
 ## Verified Battle Mechanics & Engine Findings
 - **Pre-Poison / Status Shielding Mechanic:** In Generation 1 retail, a Pokémon with an active major status condition (PSN, PAR, SLP, BRN, FRZ) is completely immune to all other major status conditions. Specifically, entering battle with standard PSN (dealing flat 1/16 HP = 10 HP/turn) shields the Pokémon from lethal compounding Badly Poisoned (Toxic) and Sleep (Hypnosis). Note: During the Koga gym battle (Turns 12161-12176), Koga's team was swept before selecting Toxic/Hypnosis directly, so this principle relies on standard Gen 1 engine status exclusivity rather than direct combat execution against those specific moves.
-- **PC Withdraw Menu Navigation:** In Generation 1 retail, the PC Item Withdraw scrolling list does NOT wrap vertically from top to bottom (pressing Up at Item 1 stops at Item 1 and does not wrap to CANCEL, empirically confirmed Turn 25015).
+
 
 <hr>
 
@@ -4062,36 +4062,22 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 <h1><code>Scratchpad/PostGame_CeruleanCave</code></h1>
 
-# Post-Game: Cerulean Cave & Mewtwo Quest
+# Post-Game: Cerulean Cave & Mewtwo Investigation
 
 ## Status & Progression
 - Champion Gauntlet: Completed Turn 24981
 - Hall of Fame Induction: Completed Turn 24994
 - Post-Game Start: Pallet Town [Turn 25002]
 
-## Immediate Plan
-1. Enter Player's House in Pallet Town at (5, 5).
-2. Talk to Mom on 1F to fully heal the party and restore all move PP.
-3. Go upstairs to 2F bedroom PC:
-   - Withdraw MASTER BALL x1
-   - Withdraw BICYCLE x1
-4. Travel north to Cerulean City:
-   - Navigate to Cerulean Cave (Unknown Dungeon) entrance northwest of Cerulean City.
-   - Guard is now gone because BLUE is the Pokémon League Champion!
-5. Explore Cerulean Cave, reach B1F, and capture legendary MEWTWO (Lv 70) with Master Ball!
-- Turn 25004: Reached (6, 7) in Player's House 1F. Navigating Up x3 to (6, 4), turning Left, and talking to Mom at (5, 4) to rest and fully heal party.
-- Turn 25005: Mom dialogue in progress ('BLUE! You should take a quick rest.'). Resting to fully heal party HP and restore all move PP. Advancing text with B x5.
-- Turn 25006: Mom dialogue concluding ('looking great! Take care now!'). Party fully healed and all PP restored. Advancing text with B x4 to close text box and prepare to head upstairs.
-- Turn 25007: Overworld control restored at (6, 4). Navigating Up x3 to (6, 1) and Right into stairs at (7, 1) to ascend to 2F bedroom.
-- Turn 25009: Arrived on 2F bedroom at stairs (7, 1). Moving Left x5 toward PC at (0, 1) to withdraw Master Ball and Bicycle.
-- Turn 25010: Player at (3, 1) facing dresser at (2, 1). Navigating Down to (3, 2) and Left x3 to (0, 2) directly in front of PC.
-- Turn 25011: Arrived at (0, 2) directly south of PC at (0, 1). Pressing Up to face North and A to turn on bedroom PC.
-- Turn 25012: Bedroom PC turned on at (0, 1). Pressing A to open the PC menu.
-- Turn 25013: PC menu open with cursor pointing to WITHDRAW ITEM. Pressing A to view stored items list.
-- Turn 25014: Withdraw list open with cursor on TM34 (Item 1). Testing Up press to check if PC withdraw list wraps vertically to bottom.
-- Turn 25015: Up press confirmed: PC withdraw list does NOT wrap vertically (cursor stayed on Item 1 TM34). Scrolling Down x5 toward Master Ball and Bicycle.
-- Turn 25017: Cursor reached OLD ROD (Item 11). Continuing to scroll Down x5 toward Bicycle and Master Ball.
-- Turn 25018: Cursor reached LIFT KEY (Item 16). Continuing to scroll Down x5 toward Bicycle and Master Ball.
-- Turn 25019: Cursor reached TM29 (Item 21). Continuing to scroll Down x5 to reach Bicycle (Item 25) and Master Ball (Item 27).
+## Hypotheses to Empirically Verify
+- Hypothesis 1: Cerulean Cave entrance guard (northwest of Cerulean City across Route 24 river) has departed following Champion induction.
+- Hypothesis 2: Legendary Pokémon Mewtwo resides within Cerulean Cave B1F at Level 70.
+
+## Post-Game Routing Plan
+1. Withdraw MASTER BALL x1 and BICYCLE x1 from Player's 2F bedroom PC.
+2. Travel north via Route 1, Viridian City, Route 2, Pewter City, and Route 4 to Cerulean City.
+3. Surf river passage off Route 24 to scout Cerulean Cave entrance and verify guard status.
+4. If accessible, explore dungeon interior and attempt capture of Mewtwo using Master Ball.
+
 
 <hr>
