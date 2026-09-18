@@ -1,4 +1,5 @@
 - Turn 24941: Arcanine Lv 63 confirmed on field (5/6). FIGHT menu open with cursor on Slot 1 (Double-Edge, PP 2/15). Pressing A to execute Double-Edge.
 - Turn 24943: Double-Edge dealt 92 damage to Arcanine Lv 63 (~55% HP remaining). Sheldon at 71/222 HP. Arcanine used Leer (zero damage). Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 1/15).
 - Turn 24944: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 1/15) facing Arcanine Lv 63 (~55% HP). Pressing A to execute Double-Edge.
-- Turn 24945: Double-Edge KO'd Arcanine Lv 63 (5/6)! Arcanine fainted. Sheldon took 25 recoil to 46/222 HP. Double-Edge PP now 0/15. RED has only 1 PokÃ©mon remaining! Advancing text with B x5 to reveal RED's 6th and final PokÃ©mon.
+- Turn 24945: Double-Edge KO'd Arcanine Lv 63 (5/6)! Arcanine fainted. Sheldon took 25 recoil to 46/222 HP. Double-Edge PP now 0/15. RED has only 1 Pokémon remaining! Advancing text with B x5 to reveal RED's 6th and final Pokémon.
+- Turn 24946: RED is about to use Venusaur (6/6)! Entire Champion roster empirically confirmed! Arcanine defeated. Sheldon active at 46/222 HP. Double-Edge PP 0/15. Declining switch with B x5 to reach main battle menu.

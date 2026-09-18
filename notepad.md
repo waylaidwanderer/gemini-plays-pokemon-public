@@ -6,7 +6,7 @@
 
 - Badges: 8 / 8 (Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge)
 
-- Active Team: Blastoise (SHELDON) Lv 70 (HP 71/222)
+- Active Team: Blastoise (SHELDON) Lv 70 (HP 46/222)
 
 - Money: ¥101336 [Turn 24904]
 - Pokédex: 15 Caught / 50+ Seen
@@ -220,9 +220,9 @@
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 70, Water]
   - Status: Healthy
-  - HP: 71 / 222
+  - HP: 46 / 222
   - Stats: Attack 166, Defense 191, Speed 165, Special 171 [Verified Lv 70 Turn 24932]
-  - Moves: Double-Edge (PP 1/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
+  - Moves: Double-Edge (PP 0/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 0/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -3962,6 +3962,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24941: Arcanine Lv 63 confirmed on field (5/6). FIGHT menu open with cursor on Slot 1 (Double-Edge, PP 2/15). Pressing A to execute Double-Edge.
 - Turn 24943: Double-Edge dealt 92 damage to Arcanine Lv 63 (~55% HP remaining). Sheldon at 71/222 HP. Arcanine used Leer (zero damage). Battle menu open on FIGHT. Opening FIGHT menu to verify cursor on Double-Edge (Slot 1, PP 1/15).
 - Turn 24944: FIGHT menu verified with cursor on Slot 1 (Double-Edge, PP 1/15) facing Arcanine Lv 63 (~55% HP). Pressing A to execute Double-Edge.
+- Turn 24945: Double-Edge KO'd Arcanine Lv 63 (5/6)! Arcanine fainted. Sheldon took 25 recoil to 46/222 HP. Double-Edge PP now 0/15. RED has only 1 Pokémon remaining! Advancing text with B x5 to reveal RED's 6th and final Pokémon.
 
 <hr>
 
@@ -4061,6 +4062,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 ## Champion
 - Rival RED: Standing at (4, 2) facing South [Turn 24912].
-- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Active). Remaining 1 bench Pokémon unrevealed in-game.
+- Verified Combatants: Pidgeot Lv 61 (Defeated), Alakazam Lv 59 (Defeated), Rhydon Lv 61 (Defeated), Gyarados Lv 61 (Defeated), Arcanine Lv 63 (Defeated). Remaining 1 bench Pokémon unrevealed in-game.
 
 <hr>
