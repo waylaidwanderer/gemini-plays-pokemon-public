@@ -1,6 +1,7 @@
 # Cerulean Cave 2F Geography & Exploration
 
 ## Connections & Ladders
+- Ladder (29, 1): Descending cave ladder located at (29, 1) in northeast corner. Accessible from (28, 1) via East step or (29, 0) via South step. [Physically sighted Turn 25602]
 - Ladder (22, 6): Descending cave ladder connecting to 1F Ladder (23, 7). Player arrives directly on this ladder tile facing North. Exit is South to (22, 7). [Physically verified]
 - Sighted Ladder (19, 7): Cave ladder visually sighted at (19, 7) across western rock partition; direct connectivity/accessibility not yet physically tested.
 
