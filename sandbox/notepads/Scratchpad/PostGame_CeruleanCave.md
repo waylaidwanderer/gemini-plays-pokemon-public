@@ -34,6 +34,15 @@
 - Objective: Ascend Staircase (15, 3) onto northwest terrace to search for the descending ladder to B1F (Mewtwo).
 
 - Turn 25605: Descended 2F Ladder (29, 1) to 1F Northern Elevated Terrace at (27, 1).
-- Turn 25609: Arrived at (23, 2) above Staircase (23, 3); visually confirmed Ground Item at (19, 3) on lake ledge.
+- Turn 25609: Arrived at (23, 2) above Staircase (23, 3); sighted alcove (19, 3) on north lake ledge.
 
-- Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
+
+
+## Cerulean Cave Multi-Floor Ladder Topology
+| 1F Coordinate | 2F Coordinate | Verified Status | Notes |
+|:---:|:---:|:---:|:---|
+| (23, 7) | (22, 6) | CONFIRMED 2-WAY | Entrance terrace ladder to 2F central network |
+| (27, 1) | (29, 1) | CONFIRMED 2-WAY | 2F northeast loop to 1F northern lake terrace |
+| (18, 9) | ? | UNVERIFIED SIGHTING | Western 1F passage |
+| ? | (19, 7) | UNVERIFIED SIGHTING | 2F northwest secluded pocket |
+| B1F Ladder (?) | ? | TARGET (MEWTWO) | Search ongoing via 1F subterranean waterways |
