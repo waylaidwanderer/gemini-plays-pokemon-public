@@ -4102,5 +4102,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25150: Bag menu confirmed open. Cursor on Item 1 (POKé FLUTE). Scrolling Down x6 to reach BICYCLE.
 - Turn 25152: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, then B x2 to dismiss text and return to overworld mounted on Bicycle.
 - Turn 25155: Player at (17, 47) on Bicycle facing North. Riding Up x4 along col 17 to (17, 43), then Right to (18, 43) into eastern cross-corridor.
+- Turn 25157: Player at (18, 43) on Bicycle facing East. Riding Right x5 along row 43 cross-corridor to (23, 43) toward Eastern Avenue.
 
 <hr>
