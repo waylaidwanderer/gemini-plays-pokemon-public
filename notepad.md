@@ -4167,26 +4167,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Retrieved ULTRA BALL at (4, 15) on 2F via lower southwest corridor network [Turns 25986-25996]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (4, 17) on foot.
-- Physical Traversal Discoveries [Turn 26030-26039]:
-  - Tile (1, 16) reached; tile (1, 15) is dark speckled floor.
-  - Tiles (0, 15), (1, 14), and (2, 15) are solid rock walls!
-  - Column 1 spur (1, 15..16) is a dead-end alcove off Row 17.
-  - Row 17 terminates west at (1, 17) against solid rock walls (0, 17) and (1, 18).
-  - The southwest sector of 2F is now 100% physically surveyed and exhausted (Ultra Ball retrieved).
-- Floor Strategy & Strategic Pivot [Turn 26041-26046]:
-  - 2F southwest corridors dead-end completely. Central/eastern 2F is also exhausted.
-  - Hypothesis (Unverified): Candidate Ladder (1, 3) sighted from afar on Turn 25702 is hypothesized to lead to the isolated northwest of 1F or B1F. However, ground access on 2F is blocked by barriers.
-  - Actionable Route: Backtrack through Column 13 bypass to Column 12, ascend to Row 9 at (12, 9), traverse west along Row 9 to Ladder (3, 11), descend to 1F, and explore 1F waterways using Surf toward the unexplored northwest of 1F where B1F descent is located.
 - Current Location: Cerulean Cave 1F at (11, 14) surfing.
-- Physical Traversal Milestone [Turn 26068]:
-  - Traversed Row 17 to (16, 17), stepped Up to (16, 16), Right to (17, 16), and ascended Staircase (17, 15) to Central-Western Terrace at (17, 14).
-  - 2F southwest corridor fully surveyed and exhausted (Ultra Ball acquired).
+- Physical Traversal Milestones [Turns 26068-26096]:
+  - Traversed Row 17 east to (16, 17), climbed Staircase (17, 15) onto Central-Western Terrace at (17, 14).
+  - Crossed terrace via Row 18/9 to Staircase (11, 13), descended to water, and launched HM03 SURF on Sheldon.
 - Active Strategy & Frontier:
-  - Climb onto Central-Western Terrace (17, 14), navigate west along Row 14/13 to Staircase (11, 13).
-  - Descend Staircase (11, 13) directly into subterranean lake at (11, 14).
-  - Launch HM03 SURF with Blastoise (SHELDON).
-  - Navigate northwest subterranean waterways of 1F to discover the descent to B1F and encounter Legendary Pok�mon Mewtwo.
+  - 1F Waterway Survey: Audit water boundaries along Columns 8..9 north to Rows 6..7 and Row 4. Specifically verify whether any opening exists west of Column 8 or west of Column 15.
+  - Contingency (2F Northern Transit Corridor): If 1F waterways are strictly a closed loop back to Staircase (25, 9), navigate east to (25, 9), take Ladder (23, 7) back to 2F, and physically explore the Northern Transit Corridor at Row 3 from (28, 3) westward to determine ground reachability of Ladder (1, 3).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
