@@ -4113,5 +4113,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25174: Player at (26, 18) on Bicycle facing West. Stepping Left to (25, 18), then riding Up x5 along col 25 to (25, 14) in Northern Avenue.
 - Turn 25175: Player at (25, 13) on Bicycle facing North. Riding Up x4 along col 25 to (25, 9) at northern opening.
 - Turn 25178: Player at (25, 9) on Bicycle facing North. North blocked by row 7 tree wall. Riding Left x6 along row 9 corridor toward (19, 9).
+- Turn 25180: Player at (19, 9) on Bicycle facing West. Riding Left x2 to (17, 9), then Down x4 along col 17 toward row 16-17 passage.
 
 <hr>
