@@ -3828,12 +3828,11 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 
 # Victory Road Master Routing & Active Testing
 
-## Current Verified State [Turn 24064]:
+## Current Verified State [Turn 24091]:
 - 1F Master Clear Complete: Boulder 1 pushed onto Switch Plate (17, 13), Barrier (9, 12) lowered, Cooltrainer Female defeated, ascended ladder (1, 1) to 2F.
-- Player is on Victory Road 2F at (5, 9) on the elevated plateau (ascended via wooden staircase at 5, 10).
-- Boulder 1 on 2F at (5, 3) confirmed impassable northward (wedged against rock wall 5, 2).
-- Boundary at (7, 8) confirmed impassable elevation cliff from the north.
-- Current Route: Walk east across the plateau to Column 9/10, north along Column 9/10 to Row 1, and west along Row 1 Northern Highway to Northwest ladder (1, 1).
+- Player is on Victory Road 2F at (3, 14) in southwest lower corridor.
+- Boulder 3 pushed to (3, 16). Currently executing final westward push onto Switch Plate A at (1, 16).
+- Depressing Switch Plate A lowers Plateau Barrier at (7, 8)-(7, 9), unlocking passage to eastern plateau, Column 16 Highway, Row 1, and Northwest ladder (1, 1).
 
 ## Execution Blueprint & Active Hypotheses:
 1. Ride West via Route 22 past Reception Gate to Route 23, surf North to Victory Road 1F.
@@ -3842,8 +3841,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
    - Push entrance boulder onto switch (17, 13).
    - Walk across plateau to ladder (1, 1) and ascend to 2F.
 3. Victory Road 2F (Transit):
-   - Walk north via Western Highway (cols 2-3) through doorway (5, 4) to Northwest ladder (1, 1).
-   - Ascend ladder (1, 1) to 3F (2, 0).
+   - Push Boulder 3 onto Switch Plate A at (1, 16) to lower Plateau Barrier at (7, 8)-(7, 9).
+   - Return via Row 11 to wooden staircase at (5, 10), ascend to elevated plateau at (5, 9).
+   - Walk east across lowered barrier (7, 8)-(7, 9) onto eastern plateau.
+   - Walk east and north past Moltres (11, 5) to Column 16 Highway.
+   - Ascend Column 16 Highway north to Row 1 Northern Highway.
+   - Walk west along Row 1 through Column 8 corridor into Northwest Chamber.
+   - Ascend Northwest ladder at (1, 1) to Victory Road 3F (2, 0).
 4. Victory Road 3F:
    - Walk to (6, 1), east along Northern Highway (Row 1) to Column 20, south to Row 6 (17, 6).
    - Ascend wooden staircase (17, 5) to terrace (17, 4).
@@ -3925,7 +3929,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Exit Ladder at (25, 14): Located on elevated plateau (row 14) behind barrier block at (23, 14). Confirmed ladder graphic with blue vertical rails and horizontal rungs leading up to Indigo Plateau [Empirically verified Turn 23201].
 - Column 12 Rock Pillar: Solid rock wall from row 10 to row 15, separating upper corridor from column 9/10/11 trench.
 - Wall at (4, 4): Solid rock wall directly west of doorway (5, 4) [Empirically verified Turn 18106].
-- Row 4 Barrier: Solid rock wall along row 4 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629, (4, 4) confirmed solid Turn 18106), except for the open doorway at (5, 4) which connects the western sector directly north into the Northwest Chamber [Empirically verified Turn 20451].
+- Row 4 Barrier: Solid rock wall along row 4 ((1, 4) confirmed solid Turn 16706, (3, 4) confirmed solid Turn 16629, (4, 4) confirmed solid Turn 18106). Doorway at (5, 4) connects to (5, 3), but northern progression is blocked from the south by Boulder 1 wedged at (5, 3) against rock wall (5, 2) [Empirically verified Turns 24024-24040].
 - Wall at (19, 11): Solid dark checkerboard rock wall blocking northern entry from (19, 12) [Empirically verified Turn 15963].
 - Wall at (6, 5): Solid rock wall directly east of Boulder 1 [Empirically verified Turn 15987].
 - Wall at (9, 10): Solid rock wall directly south of (9, 9) blocking entry into column 9 trench from the north [Empirically verified Turn 16000].
@@ -3952,6 +3956,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Item Ball: Located at (26, 5) in northeast alcove behind Cooltrainer ♂ [Collected Turn 16064: MAX REVIVE].
 
 ## Boulders & Switches (Post-Reset Status Turn 17155+)
+- Boulder 3: Starts at (4, 14) in southwest lower corridor. Pushed west into (3, 14), south down Column 3 into (3, 16), and west along Row 16 onto Switch Plate A at (1, 16) to lower the Plateau Barrier Block at (7, 8)-(7, 9) [Turn 24082-24091].
 - Plateau Barrier Block: Located at (7, 8) and (7, 9), blocks eastward traversal across the elevated plateau from (6, 8)/(6, 9). Lowered by placing Boulder on Switch Plate A at (1, 16) [Empirically verified raised Turns 24056, 24066, 24076].
 - Boulder 1: Starts at (5, 5). Pushed north into (5, 4) and (5, 3), wedged in doorway (5, 4) against rock wall (5, 2), blocking northern entry into Northwest Chamber [Tested Turns 24024-24040].
 - Boulder 2: Located at (9, 11) in column 9 trench [Re-verified Turn 18374]. Confirmed 100% permanently immovable: north blocked by solid rock wall (9, 10), west blocked by solid rock wall (8, 11), south push impossible because player cannot stand on wall (9, 10), east push impossible because (8, 11) is solid wall. Switch Plate B at (9, 16) cannot be activated by Boulder 2 due to physical boundary constraints.
