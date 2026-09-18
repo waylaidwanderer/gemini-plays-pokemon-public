@@ -4166,12 +4166,13 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - [x] Traversed Row 17 lower corridor west past Column 11 to Column 1 at (1, 16) [Turns 25847-25859]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F Column 10 at (10, 12) on foot.
+- Current Location: Cerulean Cave 2F Alcove (10, 12) on foot.
 - Strategic Pivot (Overwatch Audit): Terminating backtracking toward exhausted central/eastern 2F network. Pivoting route back west to thoroughly explore unvisited western sector (Columns 1..8, Rows 7..15) and retrieve Item Ball at (4, 15).
 - Route Analysis: Visual inspection and collision testing confirm Column 12 leads south into the central/eastern network rather than west toward (4, 15). Western corridors remain the active frontier.
 - Strategic Route: Standing at (5, 9). Stepping south into unvisited Column 5 corridor at (5, 10..11) to break Row 9 oscillation and explore toward Item Ball (4, 15).
 - Empirical Discovery: Column 10 (10, 11..15) is an open vertical passage connecting Row 11 south to Row 14. Row 14 runs west continuously to Column 5, providing direct access to Item Ball at (4, 15).
-- Next Step: Dismiss battle text with B, then descend Column 10 through (10, 13..14) to Row 14 and Item Ball (4, 15).
+- Physical Discovery: Tile (10, 13) is a solid rock wall. Alcove (10, 12) is a dead end.
+- Next Step: Step Up to (10, 11), then Left x4 along Row 11 to (6, 11).
 
 ## Cerulean Cave Multi-Floor Ladder Topology
 | 1F Coordinate | 2F Coordinate | Verified Status | Notes |
@@ -4238,6 +4239,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Ladder (3, 11): Descending cave ladder located at (3, 11) in western pocket. Connects to 1F Ladder (3, 11) on western elevated terrace. [Physically verified Turn 25867]
 
 ## Layout & Corridors
+- Alcove (10, 12): 1-tile dead-end alcove off Row 11 at (10, 11), bounded south by rock wall at (10, 13). [Physically verified Turn 25934]
 - Row 7 Barrier (Cols 12..15, Row 7): Solid rock wall blocking northward movement from Row 8. [Physically verified Turn 25888 at (14, 7)]
 - Column 16 Barrier (16, 8): Solid rock wall blocking eastward passage from (15, 8). [Physically verified Turn 25888]
 - Western Pocket (Cols 2..3, Rows 9..11): Secluded corridor pocket enclosing Ladder (3, 11). Visually overlooks an Item Ball at (4, 15) behind rock barrier. [Physically verified Turn 25867]
