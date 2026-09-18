@@ -222,7 +222,7 @@
   - Status: Healthy
   - HP: 123 / 219
   - Stats: Attack 163, Defense 189, Speed 163, Special 168 [Verified Lv 69 Turn 24884]
-  - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 6/10)
+  - Moves: Double-Edge (PP 7/15), Body Slam (PP 0/15), Surf (PP 0/15), Ice Beam (PP 5/10)
 - GEODUDE (Nickname: ROCKY) [Lv 8, Rock/Ground]
   - Status: Healthy [Healed Turn 15136 at Viridian Center]
   - HP: 26 / 26
@@ -4014,6 +4014,7 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 24880: Gyarados used Hyper Beam for 50 damage (Sheldon at 143/216 HP). Gyarados must recharge! Battle menu open on FIGHT. Firing Double-Edge (Slot 1) to KO Gyarados.
 - Turn 24886: Dragonair Lv 56 (Lance 2/5) active on field. Move cursor on Double-Edge (Slot 1). Navigating Down x3 to Ice Beam (Slot 4, PP 5/10) to OHKO Dragonair.
 
+- Turn 24889: Ice Beam OHKO'd Lance's first Dragonair Lv 56! Ice Beam PP now 5/10. Sheldon at 123/219 HP. Advancing fainting text and declining switch.
 
 <hr>
 

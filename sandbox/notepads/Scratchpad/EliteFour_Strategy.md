@@ -52,3 +52,5 @@
 - Turn 24878: Double-Edge dealt 92 damage to Gyarados (~30-35% HP remaining). Sheldon took 23 recoil to 193/216 HP. Advancing text to battle menu.
 - Turn 24880: Gyarados used Hyper Beam for 50 damage (Sheldon at 143/216 HP). Gyarados must recharge! Battle menu open on FIGHT. Firing Double-Edge (Slot 1) to KO Gyarados.
 - Turn 24886: Dragonair Lv 56 (Lance 2/5) active on field. Move cursor on Double-Edge (Slot 1). Navigating Down x3 to Ice Beam (Slot 4, PP 5/10) to OHKO Dragonair.
+
+- Turn 24889: Ice Beam OHKO'd Lance's first Dragonair Lv 56! Ice Beam PP now 5/10. Sheldon at 123/219 HP. Advancing fainting text and declining switch.
