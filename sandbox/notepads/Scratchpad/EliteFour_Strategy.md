@@ -50,7 +50,7 @@
   - [x] TM22 (SOLARBEAM) [Turn 24561]
   - [x] SECRET KEY [Turn 24565]
   - [x] TM38 (FIRE BLAST) [Turn 24569]
-  - [ ] TM27 (FISSURE)
+  - [x] TM27 (FISSURE) [Turn 24575]
   - [ ] TM43 (SKY ATTACK)
   - [ ] TM17 (SUBMISSION)
 - Deposited CARBOS into PC storage [Turn 24553] to free bag slot.
