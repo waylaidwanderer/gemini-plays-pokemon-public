@@ -4189,5 +4189,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turns 25483-25499: Traversed Cerulean City from Route 4 bridge to Northern District Street, visually verified guard at (4, 12) departed, navigated north through cols 20..21 to Route 24, bypassed defeated bridge trainers on col 10/11, launched SURF with Sheldon at (8, 16) on Route 24 river, and surfed south down river corridor into Cerulean City canal at (18, 0) through (10, 5).
 - Turn 25502: Player at (10, 5) surfing facing West. Navigating Left x4 to (6, 5) channel and Down x4 to (6, 9) toward Cerulean Cave at (4, 11).
 - Turn 25503: Player at (6, 9) surfing facing South in canal. Visual confirmation: cave mouth at (4, 11), cobblestone bank at (5, 12) and (4, 12). Surfing Down x3 to (6, 12) and stepping Left onto shore at (5, 12).
+- Turn 25504: Successfully landed ashore at (5, 12) on foot facing West! Cobblestone shore empirically verified. Stepping Left to (4, 12) and Up into (4, 11) to enter Cerulean Cave!
 
 <hr>
