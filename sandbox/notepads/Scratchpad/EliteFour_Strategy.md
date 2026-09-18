@@ -13,3 +13,4 @@
 - Turn 24966: Rocky Lv 8 sent out as pivot. Battle menu open on FIGHT. Navigating Down to ITEM and pressing A to open Bag menu to select Max Revive/Revive for Sheldon.
 - Turn 24967: Bag menu open with cursor on FULL RESTORE x11. Navigating Down x2 to REVIVE x15 and pressing A to open party screen to revive Sheldon.
 - Turn 24968: Party screen open with cursor on Rocky. Pressing Up to target Sheldon (Slot 1, FNT 0/222) and A to apply Revive and restore Sheldon to 111/222 HP.
+- Turn 24969: Sheldon revitalized to 111/222 HP via Revive (14 Revives remaining). Pressing B x5 to dismiss message, weather Venusaur's turn against Rocky, and send Sheldon back in to finish the battle.
