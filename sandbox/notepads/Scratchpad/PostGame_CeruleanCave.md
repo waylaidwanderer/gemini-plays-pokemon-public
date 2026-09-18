@@ -29,8 +29,8 @@
 - [x] Encountered and cleanly fled wild Kadabra Lv 51 at (19, 13) [Turns 25557-25559]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean Cave 2F at (26, 14) facing North.
-- Active Navigation: Walking North up Column 26 (26, 13..9) to (26, 9), then West into (25, 9) toward the northern network.
-- Objective: Navigate Column 26 north into Rows 5..7 northern corridor network to access Ladder (19, 7) and northwest sector.
+- Current Location: Cerulean Cave 2F at (26, 9) facing North.
+- Active Navigation: Walking Left to (25, 9) and North up Column 25 (25, 8..7) to junction at (25, 7).
+- Objective: Explore northern corridor network (Rows 5..7) and scout passages heading west toward Ladder (19, 7).
 
 - Turn 25585: Wild Rhydon appeared at (26, 14). Fleeing battle to resume navigating Column 26 north.
