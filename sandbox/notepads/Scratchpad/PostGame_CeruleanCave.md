@@ -63,3 +63,4 @@
 - Turn 25304: Fled Geodude cleanly. Player at (14, 6) on foot facing South. Moving south along col 14 between col 12..13 wall and col 18..19 pillar toward row 14..16 crossover.
 - Turn 25307: Player at (14, 12) on foot facing South. Verified col 14 is open to row 16; defeated Youngster is stationed at (12, 16). Dividing wall terminates at row 14/15. Walking Down x5 to (14, 17) to bypass Youngster and enter western corridor at row 17.
 - Turn 25311: Player at (14, 17) on foot facing South. Visual confirms row 17 is completely clear across cols 10..14 below Youngster (12, 16). Walking Left x4 along row 17 to enter western corridor at (10, 17).
+- Turn 25314: Player at (10, 17) on foot facing West. Successfully crossed over into western corridor. Walking North along column 10 toward rows 5..6 to access Northwest Ladder (5, 5).
