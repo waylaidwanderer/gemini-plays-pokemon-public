@@ -12,7 +12,7 @@
 - Wooden Staircase & Terrace (21, 11): 1-tile wide wooden staircase at (21, 11) flanked by rock walls at (20, 11) and (22, 11), ascending north onto an elevated terrace at (21..22, 10). Accessible from south via (21, 12).
 - Western Cavern Corridor (Cols 20..23, Rows 14..16): Wide 4-tile open corridor heading west toward the western cavern chambers.
 - Ladder (18, 9): Ascending cave ladder located at (18, 9) in western passage. Accessible via col 18 corridor.
-- Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (19, 7).
+- Ladder (23, 7): Ascending cave ladder located on the elevated terrace at (23, 7). Accessible via staircase (21, 11). Connects to 2F Ladder (22, 6).
 - Staircase (17, 15): Wooden staircase at (17, 15) ascending west to upper elevation.
 - Staircase (25, 9): Wooden staircase at (25, 9) situated adjacent to the subterranean lake.
 

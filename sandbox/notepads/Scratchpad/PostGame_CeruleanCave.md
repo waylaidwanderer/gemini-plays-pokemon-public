@@ -31,9 +31,9 @@
 - [x] Traversed Mt. Moon completely through 1F, B1F, B2F, and exited onto Route 4 East at (24, 6) [Turn 25417]
 
 ## Active Route & Next Steps
-- Current Location: Cerulean City canal at (10, 5) surfing on Sheldon facing West.
-- Canal to Cerulean Cave: Surf West along row 5 to column 6 canal channel, then surf South down column 6 toward cave entrance at (4, 11) to locate walkable landing shore.
-- Objective: Step ashore in front of Cerulean Cave and enter through cave entrance at (4, 11).
+- Current Location: Cerulean Cave 2F at (23, 11) facing South.
+- Active Navigation: Heading East to (24, 11) and navigating South down Column 24 corridor.
+- Objective: Explore 2F corridors and locate ladders connecting to B1F route.
 
 - Turns 25262-25323: Traversed Mt. Moon 1F from entrance to Northwest Ladder (5, 5); defeated Lass (16, 25), bypassed Youngster (12, 16), and cleanly fled wild Zubat and Geodude encounters.
 - Turns 25324-25330: Navigated Mt. Moon 1F western corridor north to (6, 5) and descended Northwest Ladder (5, 5) to B1F.
