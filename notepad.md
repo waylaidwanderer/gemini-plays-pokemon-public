@@ -4096,5 +4096,6 @@ Located in the Northeast District of Saffron City (rows 4..6, cols 24..37).
 - Turn 25049: Player outside in Pallet Town at (5, 6). Opening Start menu -> ITEM to access Bag and equip Bicycle.
 - Turn 25052: Bag menu confirmed open. Cursor on Item 1 (POKé FLUTE). Scrolling Down x6 to reach BICYCLE.
 - Turn 25055: Cursor confirmed on BICYCLE in Bag menu. Pressing A x2 to USE, B x2 to dismiss text and close to overworld.
+- Turn 25058: Mounted on Bicycle at (5, 6). Riding Right x5 along row 6 to (10, 6).
 
 <hr>
