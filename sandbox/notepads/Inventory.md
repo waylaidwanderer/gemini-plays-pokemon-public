@@ -4,7 +4,7 @@
 
 - FULL RESTORE x16 [Purchased 15 Turn 24635 at Indigo Plateau Mart]
 - MAX POTION x1 [Safari Zone Area 2 Turn 8448]
-- REVIVE x5 [Purchased Turn 11899 at Fuchsia Mart]
+- REVIVE x15 [Purchased 10 Turn 24648 at Indigo Plateau Mart]
 - FULL HEAL x6 [Purchased Turn 11905 at Fuchsia Mart]
 - MAX REVIVE x1 [Obtained Turn 16064 at Victory Road 2F (26, 5)]
 ## Key Items & HMs
@@ -16,7 +16,7 @@
   1. POKé FLUTE
   2. FULL RESTORE x16
   3. MAX POTION x1
-  4. REVIVE x5
+  4. REVIVE x15
   5. FULL HEAL x6
   6. MAX REVIVE x1
 
@@ -58,7 +58,7 @@
 - TOWN MAP x1 (PC)
 
 ## Money
-- ¥92972 [Turn 24636]
+- ¥77972 [Turn 24649]
 
 ## Party Pokémon
 - BLASTOISE (Nickname: SHELDON) [Lv 66, Water]
